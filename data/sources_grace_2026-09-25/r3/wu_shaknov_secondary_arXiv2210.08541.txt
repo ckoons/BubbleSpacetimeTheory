@@ -1,0 +1,615 @@
+                                                  Decoherence puzzle in measurements of photons originating
+                                                             from electron-positron annihilation
+                                                                  Sushil Sharmaa,b,c *, Deepak Kumara,b,c , and Paweł Moskala,b,c
+
+                                                                                  on behalf of the J-PET collaboration
+                                                  a Faculty of Physics, Astronomy, and Applied Computer Science, Jagiellonian University, Kraków, Poland
+
+                                                             a Total-Body Jagiellonian-PET Laboratory, Jagiellonian University, Kraków, Poland
+
+
+
+
+arXiv:2210.08541v2 [physics.pop-ph] 15 Nov 2022
+                                                                       a Center for Theranostics, Jagiellonian University, Kraków, Poland
+
+
+
+
+                                                         Entanglement of photons originating from the electron-positron annihilation has not been
+                                                         proven experimentally. Though the independent experiments performed so far unanimously
+                                                         confirm that correlation between the linear polarizations of back-to-back photons from the
+                                                         electron-positron annihilation is consistent with the assumption that these photons are entan-
+                                                         gled in polarization. Yet, unexpectedly, recent experiments differ as regards the correlation of
+                                                         polarization direction of back-to-back photons after the decoherence induced by scattering
+                                                         of one of these photons on the electron in the scattering material. In one of the experi-
+                                                         ments, the correlation before and after the decoherence of the photon state is the same and
+                                                         in the other experiment the scattering of one photon leads to a significant decrease in this
+                                                         correlation. Here we discuss this puzzle. The decoherent states were ensured by forcing
+                                                         one of the annihilation photons through prior scattering before the Compton kinematics-
+                                                         based measurement of the polarization correlation. A comparison between the experimental
+                                                         setups used for the different measurements and the results obtained are briefly discussed,
+                                                         highlighting the parameters that are important for performing such measurements. Finally,
+                                                         the main features of the J-PET detector are presented with the schemes for performing sim-
+                                                         ilar measurements so that the results can be used as conclusive remarks for solving this
+                                                         puzzle. Solving the decoherence puzzle will have crucial consequences for basic studies of
+                                                         entanglement, as well as for the proposed application of polarisation of photons in positron
+                                                         emission tomography. In case if the correlation of polarisation of back-to-back photons
+                                                         from the electron-positron annihilation is the same before and after the scattering of these
+                                                         photons, then it will not be useful for the reduction of the scatter fraction in PET diagnostics.
+
+                                                         keywords: Quantum entanglement, Positron Emission Tomography (PET), Compton po-
+                                                         larimeters, plastic scintillators
+
+
+                                              1      Introduction
+                                                   nderstanding the entangled property of photons             born as early as 1930 with Dirac’s article “On the
+                                              U     originating in e+ e− annihilations is crucial not
+                                              only for the fundamental study of the quantum be-
+                                                                                                              Annihilation of electrons and protons”, in which he
+                                                                                                              discussed the emission of two photons in annihila-
+                                              havior of bound system of purely leptonic objects (             tion processes, which became the basis of the well-
+                                              e− and its antiparticle e+ ), but also because of its di-       known pair theory [1]. Based on the pair theory,
+                                              rect implications for PET modalities. The idea was              J.A. Wheeler conceptualized the polarization corre-
+
+                                                  * sushil.sharma@uj.edu.pl
+
+
+
+                                                                                                          1
+lation of photons emitted from e+ e− system in op-            Following the proposed experimental scheme, two
+posite directions [2]. He stated that if one of the           measurements were made in the following year by
+two annihilation photons is linearly polarized in one         Bleuler et al. [6] and Hanna [7]. Both experiments
+plane, then the other photon with the same momen-             observed the correlation between the linear polar-
+tum but in opposite direction will be linearly polar-         izations of two photons using Compton kinemat-
+ized in the perpendicular plane. To confirm this hy-          ics. The correlation ratio obtained in both mea-
+pothesis, Wheeler proposed an experiment in which             surements was consistently lower than the theo-
+a slow positron interacts with an electron at rest to         retically predicted value (eq.1). However, Hanna
+produce two photons. This was relied on measuring             pointed out some important observations that could
+the azimuthal correlation between the polarization            account for the discrepancies between theoretically
+of two photons based on Compton scattering as a               predicted and experimentally measured values, eg.,
+polarization analyzer for high-energy 511 keV pho-            (i) the absence of low-density scatterers, (ii) lack
+tons. According to the Klein-Nishina formula [3], a           of an efficient gamma-ray counter and (iii) limited
+photon will most likely scatter perpendicular to the          geometric acceptability for studying events of inter-
+direction of its linear polarization at a random an-          est. In 1950, Wu and Shaknov repeated the experi-
+gle of the azimuthal plane. Similarly, the other pho-         ment, but with an improved aluminium scatterer (0.5
+ton will also scatter at a preferred azimuthal angle.         inch diameter, 1 inch length) and newly developed
+Thus, Compton scattering of both photons can re-              gamma-ray detectors based on anthracene crystals
+sult in preferential registration of the photons with         coupled to RCA 5819 photo-multiplier tubes [8].
+the chosen polarization. Therefore, the polarization          The anthracene-based scintillator counters had 10
+correlation can be measured by calculating the ratio          times better efficiency than the Geiger counters used
+when the relative azimuthal angles of both photons            in previous experiments [6, 7]. Wu et al. [8] success-
+are ±90◦ (they are scattered perpendicular to each            fully obtained experimental results with a correla-
+other, N⊥ ) to 0◦ (both photons are scattered paral-          tion ratio of 2.04 ±0.08, which was consistent with
+lel or antiparallel, Nk ). Wheeler also predicted that        calculated values of 2.0 when geometric acceptance
+maximum value of this ratio would be expected at              was considered [8]. It should be emphasised that
+scattering angles of 74.30◦ . The next year, Ward             all of these experiments differed in their experimen-
+noticed an error in Wheeler’s prediction of the two-          tal configuration and required modification of the
+photon wave function of entangled photons - the               Pryrc-Ward formula [4] to account for corrections
+interference term was neglected. Ward corrected it,           for geometric effects before comparison with the
+claiming that the maximum ratio (N⊥ /Nk ) would be            experimental results. Later, two more experiments
+at scattering angles of 82◦ . Inspired by the scheme          were performed to measure the correlation ratio.
+described by Wheeler, Ward proposed a scheme for              The first of these studies was conducted by Langhoff
+the experimental setup for performing the measure-            in 1960. He reported the results of thorough mea-
+ment [4]. He also derived the double differential             surements with improved geometry by measuring
+cross section for the scattering of two linearly po-          the correlation ratio at various azimuthal angles.
+larized photons by θ1 and θ2 at the respective az-            However, a good agreement was obtained between
+imuthal angles φ1 and φ2 [4]. This is expressed as:           the estimated theoretical prediction (2.48±0.02) and
+                                                              experimentally measured value (2.47±0.07) for po-
+d 2 σ (θ , φ ) re4                                            lar scattering angle θ =82◦ [9]. The second study
+              = [A(θ1 , θ2 ) − B(θ1 , θ2 )cos(2(∆φ ))]
+ dΩ1 dΩ2       16                                             was performed by Kasday et al [10], in which they
+                                                    (1)       explicitly applied several sources of correction that
+where                                                         could be necessary for the correct estimation of such
+                {(1 − cosθ1 )3 + 2}{(1 − cosθ2 )3 + 2}        a correlation. They propose to rewrite the eq. 1 as
+A(θ1 , θ2 ) =                                                 follows:
+                      (2 − cosθ1 )3 (2 − cosθ2 )3
+                                                                          re4 A(θ1 , θ2 )
+                                                                                                                  
+                                                                                              B(θ1 , θ2 )
+                             sin2 θ1 sin2 θ2                   P(∆φ ) =                    1−             cos(2∆φ )
+       B(θ1 , θ2 ) =                                                            16            A(θ1 , θ2 )
+                       (2 − cosθ1 )2 (2 − cosθ2 )2             P(∆φ ) = k(1 − νcos(2∆φ ))
+θ1 and θ2 are the scattering angles, ∆φ is the relative                                                             (2)
+azimuthal angle (φ1 − φ2 ) for two photons and re is          where k=re4 A(θ1 ,θ2 )/16 and ν = B(θ1 ,θ2 )/A(θ1 ,θ2 )
+the electron radius. It is worth noting that a similar        are functions sensitive to the scattering angles. To
+equation was also derived independently by Snyder             measure the correlation of linear polarization of an-
+et al. [5].                                                   nihilation photons, the correlation ratio (R) can be
+
+                                                          2
+calculated when ∆φ = ±90◦ and ∆φ = 0◦ and the                  formula derived in the Bohm paper (supplementary
+expression for R is defined as:                                note in DP Watts et al. [16]).
+                                                               In contrast, Abdurshitov et al [17], reported that
+                    P(∆φ = ±90◦ ) 1 + ν                        regardless of the initial state (entangled or decoher-
+         R(∆φ ) =                =                  (3)
+                      P(∆φ = 0)    1−ν                         ent) of the annihilation photons, the same polariza-
+                                                               tion correlation distribution was measured. This left
+which has the maximum value of 2.85 at
+                                                               open the question of whether the measured corre-
+θ1 =θ2 =82◦ [4, 5].
+                                                               lation between the polarization of annihilation pho-
+                                                               tons can be considered a unique signature for dis-
+     With the possibility of experimentally observ-
+                                                               tinguishing the origin of annihilation photons from
+ing the correlation between the linear polarization
+                                                               entangled or separable states. In both studies, a dif-
+of the annihilation photons, which agrees with the
+                                                               ferent detector scheme was used to measure the cor-
+theoretically predicted values, Bohm and Aharnov
+                                                               relation ratio based on Compton kinematics. How-
+pointed out that this can be considered as a simi-
+                                                               ever, the methodology used to define the entangled
+lar case of quantum entanglement as discussed by
+                                                               and non-entangled (decoherent) states were nearly
+Einstein, Podolsky and Rosen (EPR) [11]. Fol-
+                                                               identical. In Sec. 2, the experimental schemes of
+lowing the experimental setup of Wu et al [8],
+                                                               the two experiments are briefly discussed and their
+Bohm and Aharnov derived results that allowed us-
+                                                               results are compared. The main goal of the present
+ing the values of R [12] to establish upper limits
+                                                               work is to address this entanglement puzzle in mea-
+for two hypothesis: (i) Entangled state (of 2 pho-
+                                                               suring the relative polarization of photons. Also,
+tons linearly polarized in (x1 ,y1 ), (x2 ,y2 ), respec-
+                                                               the J-PET tomograph is described, as well as how
+tively) can
+         √ be expressed by the wave function [4]:              it can be used as a potential detector to measure the
+ψ = 1/ 2(|xi1 |yi2 − |yi1 |xi2 ). (ii) hypothetical
+                                                               relative correlation between the linear polarization
+separable state (wave function does not overlap, but
+                                                               of annihilation photons in order to find a conclusive
+polarizations are orthogonally correlated). An up-
+                                                               solution to the entanglement puzzle [18, 19].
+per limit of 2.85 was calculated for the entangled
+state, while a value less than 2 was predicted for
+the above mentioned separable state . Shortly there-
+after, Wilson et al. [13] reported on the influence
+of the distance between the Compton polarimeters
+                                                               2    Recent results of experimen-
+and the origin of the annihilation photons in mea-                  tal measurements leading to-
+suring the correlation ratio (R), where no significant
+change was observed even at a distance of 2.5 m.
+                                                                    wards the puzzle in witnessing
+Therefore, such measured polarization correlation                   entanglement
+between photons emitted from e+ e− in the back-to-
+back direction and forming the Line Of Response                In work of Watts et al [16], the hypothesis proposed
+(LOR) for imaging the annihilation source can be               by Bohm and Aharonov [12] for entangled and sep-
+used to reduce unwanted coincidences accepted dur-             arable states was tested experimentally. For the ex-
+ing imaging [14, 15]. In a recent study by Watts et            periment, two cadmium-zinc-telluride (CZT) detec-
+al. [16], the use of the entangled polarization corre-         tors (each detector was a 1 cm cube divided into
+lation to distinguish true events (no scattering before        121 pixels of size 0.8x0.8 mm2 ) were placed at 8.7
+detection, entangled state) and scattered events (at           cm apart. A 22 Na source with an activity of 170
+least one of the two photons is prior scattered be-            kBq emitting 511 keV photons in opposite direc-
+fore registration in the scanner and thus defined a            tions, housed in a plastic case, was placed in the
+case of decoherence, i.e., loss of entanglement) was           center of two detection modules. The measurements
+demonstrated. The authors showed that in the latter            were performed with two different experimental se-
+case the correlation between the relative polariza-            tups. In the first setup (Fig. 1(a)), the detectors were
+tion amplitudes was much lower than in the former              aligned along the axial alignment to the source to
+one. Thus, by selecting only those events for which            register annihilation photons (511 keV) and the cor-
+the relative polarization is entangled, one can sig-           responding scattered photons to test the entangle-
+nificantly improve the image quality by suppressing            ment hypothesis [4, 5, 12]. To test the second hy-
+the background. Moreover, they also determined                 pothesis, i.e., the effect on the value of the correla-
+the exact value of the upper limit for the separable           tion ratio (R) when one of the two annihilation pho-
+state of 1.63 by introducing the correction into the           tons is forced to scatter before it interacts in the CZT
+
+                                                           3
+detector. Prior scattering of one of the entangled
+photon pairs results in a loss of entanglement. To            However, significant suppression was observed for
+perform this experiment, one of the CZT detectors             the decoherent state (in both measured and sim-
+was rotated by 33◦ and a scattering medium (ny-               ulated results). Given the large statistical uncer-
+lon) was placed along the path of one of the pho-             tainty, which could be due to the small aperture
+tons on the same side so that a scattered photon              angle for the detection of the scattered photons, it
+would interact with the rotated detector to determine         is difficult to draw firm conclusions as to whether
+the correlation ratio (see Fig. 1(b)). For the first          the measured relative correlation was suppressed
+case, the measured value of the correlation ratio R           by a hypothesis-based formalism [12] or whether
+= 1.85±0.04 for the selected scattering angle range           more advanced measurements with broad geomet-
+was 70◦ -110◦ , still less than the theoretically pre-        ric acceptance were required. In summary, it was
+dicted value for entanglement (2.85), but more than           reported that the kinematics of Compton scattering
+the theoretically predicted upper limit for separable         in orthogonally entangled annihilation photons is
+states [12, 16]. The measured distribution (∆φ ) of           different from that in which entanglement is con-
+the data was well described by the QE-PET sim-                sidered lost because of the prior scattering of one
+ulation results. QE-PET was developed based on                of the photons. It is worth mentioning that the ob-
+the Geant4 toolkit, which incorporates the entangle-          tained results [16] do not agree with the theoretical
+ment formalism for the primary interaction of anni-           predictions [20].
+hilation photons with detectors instead of the stan-
+dard Klein-Nishina formula for polarized photons;
+see [16] for details.
+
+
+
+
+                                                              Figure 2: Schematic of the experimental setup used
+                                                              by Abdurashitov et al. [17]. Two Compton po-
+                                                              larimeters were used, each consisting of 16 NaI(Tl)
+                                                              detectors. The red dot in the center represents the
+                                                              placement of the source within the perforated lead
+Figure 1: Schematic diagram of the measurement                collimator. The transverse cylinders in the center of
+schemes used in reference [16]. A cube-shaped de-             each polarimeter are the plastic scatterers, while the
+tector with each side of 1 cm was divided into 121            green scatterer is a GAGG scintillator with a sepa-
+pixels to read the signals. (a) Shows the arrange-            rate signal readout used primarily to induce deco-
+ment of two detectors to test the hypothesis that an-         herence in the polarization correlation of the annihi-
+nihilation photons emit in opposite directions and            lated photons. The red solid and dashed lines rep-
+exhibit entangled polarization. (b) Shows the ex-             resent the case where a photon passing through the
+perimental setup for measuring the correlation ratio          GAGG is scattered.
+for decoherent state, when one of the photons was
+scattered by the nylon scatterers and the lose of en-         Recently, Abdurashitov et al. [17], reported exper-
+tanglement between the linear polarizations of the            imental results that contradicted those of obtained
+photons was assumed. For this purpose, one of the             by Watts et al [16]. The experiments were per-
+detectors (left) was rotated by an angle euqal to 33◦ .       formed using the same methodology: (a) when the
+                                                              photons relative linear polarization was considered
+With more narrow range of scattering angles (93◦ -            to be entangled (direct Compton kinematics applied
+103◦ ), the value of R reached 1.95±0.07.                     to back-to-back photons to measure the correlation),
+
+                                                          4
+(b) inducing decoherence in the polarization entan-               (A=0.69). The probability of Compton scattering of
+glement, using the scatterer along the path of one                two orthogonally polarized photons scattering at an-
+of the photons, and calculating the effect on the                 gles θ1 and θ2 can be written in terms of the analyz-
+measured correlation. The experiments were per-                   ing power of Compton polarimeters as follows [17]:
+formed with a pair of Compton polarimeters. The
+scheme of the experiment is shown in Fig. 2. Two                   P(E1 , E2 , ∆φ ) = re2 k1 k2 (1 − α(θ1 )α(θ2 )cos(2∆φ ))
+Compton polarimeters, spaced about 70 cm apart                                                                          (6)
+and each consisting of 16 NaI(Tl) detectors as pho-               Finally, a polarization modulation factor (µ) esti-
+tons counters of size 5x5 cm2 , were aligned with the             mating the relative polarization of annihilation pho-
+plastic scatterer (transparent cylinder) in the center,           tons can be calculated as follows [20, 22]:
+which was equidistant from all NaI crystals. To pro-                     P(∆φ = 90◦ ) − P(∆φ = 0)
+duce the annihilation photons, a β + emitter source                 µ=                                = α(θ1 )α(θ2 ))
+                                                                         P(∆φ = 90◦ ) + P(∆φ = 0)
+(22 Na) with an activity of 50 MBq was placed in                                                                     (7)
+a lead shield with a perforated cylindrical collima-              The modulation factor is equal to the product of
+tor. To induce decoherence in the polarizations, a                the analyzing powers of the individual polarimeter.
+gadolinium-aluminum-gallium-garnet (GAGG) was                     For the scattering angles θ1 =θ2 =82◦ , the modulation
+placed along the path of one of the annihilation                  factor is equal to 0.48. In the comparative calcula-
+photons. Events without and with the interaction                  tion to the correlation ratio (R), µ is equivalent to
+of the photon inside the GAGG (when the energy                    ν as used in eq. 3. The experimentally determined
+deposition was in the range of 10-40 keV, consid-                 value of µ was 0.41, which corresponds to R≈2.39
+ered as interaction) were characterized as with en-               and proved to be in better approximation to the the-
+tangled and decoherent polarizations, respectively.               oretically predicted value (R=2.85).
+In the proposed experimental scheme, the annihi-
+lation photons interacted with the respective scat-
+terers and scattered photons were registered in the
+NaI(Tl) counters of the polarimeters. The analysing
+power of the Compton polarimeter can be estimated
+as: A(θ ) = (N⊥ − Nk )/(N⊥ + Nk ). The differential
+cross section for Compton scattering of a linearly
+polarized photon can be calculated using the Klein-
+Nishina formula [3]:
+ dσ                 1
+     = re2 .ε 2 (ε + − 2sin2 θ cos2 φ )
+ dΩ                 ε
+                 1                  sin2 θ
+ = re2 ε 2 (ε + − sin2 θ )(1 −                 cos(2φ ))
+                 ε             ε + ε1 − sin2 θ
+= re2 k(1 − α(θ )cos(2φ ))
+                                                    (4)
+                           0
+where ε is the ratio of E and E, the ratio of scattered
+to incident photon energies. θ is the scattering an-
+gle and φ is the azimuthal angle (angle between the
+scattering plane and the direction of linear polariza-            Figure 3: The results of measured polarization cor-
+tion of the incident photon). k is equal to ε 2 (ε +              relation of annihilation photons for entangled (black
+1/ε − sin2 θ ) and α(θ ) = sin2 θ /(ε + 1/ε − sin2 θ ).           filled circles) and decoherent (red squares) states.
+Analyzing power of the Compton polarimeter can                    (a) The panel shows the results of [16]. For the data
+be described as [21]:                                             presented here, a scattering angle range of 70◦ <
+               dσ
+                    (θ , φ = 90◦ ) − dΩ
+                                     dσ
+                                        (θ , φ = 0◦ )             θ1 = θ2 < 110◦ was chosen to investigate the entan-
+  A(E, θ ) = dΩ
+             dσ              ◦    dσ           ◦                  gled state hypothesis, while 60◦ < θ1 = θ2 < 140◦
+               dΩ (θ , φ = 90 ) + dΩ (θ , φ = 0 )
+                                                                  was chosen for the decoherent state. (b) The panel
+                    sin2 θ
+           =    0                 = α(θ )               (5)       shows the results of [17] for two different states. In
+               E   E        2
+               E + E 0 − sin θ                                    this study, the scattering angle range was 80◦ < θ1 =
+For a photon of energy 511 keV scattering at θ =                  θ2 < 100◦ for both cases. Details of the experiments
+82◦ the value of A = α(θ ) reaches a maximum                      can be found in the respective publications [16, 17].
+
+                                                              5
+It should be emphasized that in the work of Ab-                 the scintillator is Compton scattering [3]. J-PET was
+durashitov et al. [17], no difference in the µ dis-             designed and constructed as a multi-photon positron
+tribution was observed for the entangled and deco-              emission tomography scanner [28, 29] capable of (i)
+herent quantum states, indicating that the Compton              standard PET imaging [27, 30], and (ii) newly in-
+kinematics remained identical for both cases as pre-            vented positronium imaging [31, 32, 33, 34, 35, 36,
+dicted in [20]. Fig. 3 shows the results of the mea-            37]. For the planned measurement, we propose to
+sured correlation for entangled (black filled circles)          use the 3-layer prototype of J-PET, which consists
+and decoherent states (red squares) reported in both            of plastic scintillators of length 50 × 1.9 × 0.7 cm3
+publications. Panel (a) shows the results of [16] and           read out at both ends by vacuum photomultipliers
+panel (b) shows the results of [17]. In both cases,             (see Fig. 4). It is made-up of 192 plastic scintil-
+only experimental data from the measurements are                lators arranged in three concentric cylindrical lay-
+shown. For comparison, the distributions of ∆φ                  ers with diameters of 85 cm, 93.5 cm, and 115 cm,
+from [17], were translated into the azimuth distribu-           respectively. The hit position along the length of
+tion range -180◦ to 180◦ . In addition, the results of          the scintillator can be calculated as the measured
+[17] were normalized in the same way as proposed                time difference of the incoming light signals at both
+in [16] by normalizing the respective distributions             ends of the scintillator times speed of light divided
+with average yields for ∆φ = 0, ±180◦ . In both pa-             by 2. The hit time, on the other hand, was calcu-
+pers, using an experimental setup to measure annihi-            lated as the average of the measured times of the
+lation photons with entangled relative polarization,            light signals [38]. In J-PET, the data are stored in
+an enhancement of the measured relative polariza-               triggerless mode [39, 40] and Time Over Thresh-
+tions was observed. Similar results have been re-               old (TOT) is approached as measure of energy de-
+ported by other groups [23, 24]. However, the con-              positions [41, 42]. In addition, a special framework
+tradictory results in the measurement of this correla-          was developed to analyse the stored data [43]. Since
+tion for the decoherent states (induced entanglement            J-PET has a large coverage in both polar and az-
+loss) require further attention. For this particular            imuthal angles (see Fig. 4 and 5) and it offers an
+case, the results reported in [16] are subject to large         excellent angular resolution ≈ 1◦ , it can be a poten-
+uncertainties. In [17], on the other hand, the thresh-          tial detector to register the annihilation photons and
+old applied to distinguish between the entangled and            their corresponding scattered photons. In Fig. 5 at
+decoherent cases (based on energy loss criteria (10-            the top, there is a picture depicting a single scintil-
+40 keV) with prior scattering) may not be sufficient            lator connected to photomultipliers. Below is the
+for entanglement loss or to observe the difference              photo representing the 3-layer prototype that has
+in correlation between these two cases. Therefore,              been put into operation in the laboratory. The first
+to solve this puzzle, a more detailed study is needed,          and second layers consist of 48 plastic scintillators,
+especially with a detector that can overcome to some            while the third layer consists of 96 scintillators [44].
+extent the possible bias due to experimental limita-
+tions. In this context, we propose the new measure-
+ment with the J-PET detector, the first tomograph
+based on plastic scintillators. The details of the J-
+PET detector and the scheme for making such mea-
+surements are described in the next section.
+
+
+
+3    JPET as Compton polarime-
+     ter to measure relative polar-
+     ization
+                                                                Figure 4: Shows the 3-layer prototype of the J-PET
+The Jagiellonian Positron Emission Tomograph (J-                detector currently operating in the laboratory.
+PET ) is the first tomograph based on the idea of us-
+ing long strips of plastic scintillators instead of crys-       The scheme for measuring the azimuthal correla-
+tal scintillators [25, 26, 27]. Plastic scintillators are       tions between the polarizations of the annihilation
+mainly composed of hydrocarbons, so the predom-                 photons based on their scattering planes is demon-
+inant medium for the interaction of photons within              strated. Here we would like to briefly discuss how
+
+                                                            6
+the J-PET can be used in performing the experiment              Figure 5: J- PET detector made of 192 plastic scin-
+to study the polarization correlation for both cases            tillators read out by photomultipliers at each end is
+(entanglement, decoherent) as described above:                  shown. A single detection module is also shown
+Entangled state: Events with 4 hits will be exam-               above. The red arrows represent the orthogonal po-
+ined. Of the four hits, two will be from 511 keV                larization of annihilated photons emitted from the
+photons emitted in the theoretically assumed entan-             e+ e− system in opposite directions with momentum
+gled polarization. The remaining two hits will be               vectors k1 and k2 . The dotted planes on each side
+caused by the corresponding scattered photons (see              show the scattering planes of the photons, which are
+Fig. 5). Knowing the direction of the incident pho-             composed of the incident and the respective scat-
+ton and the scattered photon, the polarization direc-           tered photons. The scattering angles of annihilation
+tion of the incident photon can be obtained from the            photons are represented by θ1 and θ2 , whereas the
+measured hit positions: ~εi = ~ki × ~ki [36]. The angu-         azimuthal angles between the scattered photon and
+                                      0
+
+
+lar correlation between the polarization directions of          the corresponding linear polarization are φ1 and φ2 ,
+the annihilation photons will be compared with the-             respectively. The azimuthal correlation between the
+oretically predicted values [4, 12].                            scattering planes can be calculated as φ1 - φ2 .
+Decoherent state: To study this case, it is proposed
+                                                                The advantage of J-PET geometry is that the main
+that one of the photons undergoes prior scattering
+                                                                process of photon interaction is Compton scatter-
+(to achieve entanglement loss ) before the polar-
+                                                                ing. However, the assignment of the scattered pho-
+ization correlation is measured based on Compton
+                                                                ton to its primary origin, which is necessary to mea-
+scattering [16, 17]. To our knowledge, there are
+                                                                sure the scattering angle, is not trivial. This can
+only two studies [16, 17] in which the correlation
+                                                                be done using the scattering test, which uses the
+for decoherent states has been measured experimen-
+                                                                measured hit time and hit position of the interac-
+tally and compared with theoretically predicted val-
+                                                                tions of primary and scattered photons in two dif-
+ues [12]. In the case of J-PET, we propose to use the
+                                                                ferent scintillators [42]. The scattering test is de-
+scintillators of the entire first layer as scatterers for
+                                                                fined as S = (t2 − t1 ) − D12 /c, where t2 and t1 are
+the prior scattering to decohere at least one of the
+                                                                the registration times of the scattered and primary
+photons (5-hit events) or even both (6-hit events) to
+                                                                photons, respectively, and D12 is the distance cal-
+finally determine how the correlation changes in the
+                                                                culated from the measured hit positions. In recent
+case of an entangled and decoherent state.
+                                                                years, algorithms for studying positronium decays
+                                                                with the J-PET detector [45] have been developed
+                                                                for research in fundamental physics [29] and med-
+                                                                ical physics [31]. For the various studies, a large
+                                                                amount of experimental data was stored by placing
+                                                                a 22 Na source encapsulated in Kapton film and sur-
+                                                                rounded by porous material in a plastic chamber.
+                                                                These data can be used to perform the studies dis-
+                                                                cussed in this article. Here, we only wanted to dis-
+                                                                cuss the status of the current studies and the con-
+                                                                tradictory results in the measurement of the relative
+                                                                polarization of the annihilation photons by Compton
+                                                                kinematics, in particular, whether the quantum state
+                                                                of the Ps atoms was entangled or not before annihi-
+                                                                lation according to the theoretical predictions [12].
+                                                                The results of the detailed analysis of the data mea-
+                                                                sured with J-PET are the subject of a detailed article,
+                                                                which we will report shortly.
+
+
+                                                                4    Conclusion and perspectives
+                                                                The measurement of orthogonally correlated linear
+                                                                polarization of photons emitted upon annihilation of
+                                                                the e+ e− system has regained interest due to its di-
+
+                                                            7
+rect application in medical imaging. In 1957, Bohm           5    Acknowledgement
+and Aharonov suggested that such a measured cor-
+relation could be a signature of the entangled or non-       The authors gratefully acknowledge the support of
+entangled state of the e+ e− system prior to annihi-         the Foundation for Polish Science through pro-
+lation [12]. Therefore, it is of utmost importance to        gramme TEAM POIR.04.04.00-00-4204/17; the
+measure this correlation accurately and to verify the        National Science Centre of Poland through grant
+theoretical predictions. It is suggested [12, 16, 17]        nos. 2019/35/B/ST2/03562, 2021/42/A/ST2/00423
+that this correlation can be measured for two differ-        and 2021/43/B/ST2/02150; the Ministry of
+ent cases: (a) when the orthogonally correlated lin-         Education and Science under the grant No.
+ear polarization of the annihilation photons is con-         SPUB/SP/530054/2022; EU Horizon 2020 research
+sidered to be entangled and their relative polariza-         and innovation programme, STRONG-2020 project,
+tion can be measured using Compton scattering as             under grant agreement No 824093; the Jagiellonian
+a tool for the polarization analyzer, (b) when the           University via the project CRP/0641.221.2020, and
+correlation is measured by the same method except            via SciMat and qLife Priority Research Areas un-
+that one of the annihilation photons has been pre-           der the program Excellence Initiative-Research
+viously scattered and this can be considered to be           University at the Jagiellonian University.
+the case of non-entangled (decoherent) polarization
+of the annihilation photons. In such measurements,
+the proper choice of photon scatterers, detectors,           References
+and especially geometric coverage is of paramount             [1] P.A.M. Dirac, On the annihilation of electrons and
+importance to studying the Compton kinematics of                  protons; Camb. Phil. Soc. 26 (1930) 361-375, doi:
+such events. The first case was studied by several                10.1017/S0305004100016091
+groups [16, 17, 23, 24] and all of them observed an
+                                                              [2] J. A. Wheeler, “Polyelectrons”; Annals of the New
+enhanced correlation in the relative polarization of              York Academy of Sciences, 48 (1946) 219-238, doi:
+the photons. For the second case, the first experi-               10.1111/j.1749-6632.1946.tb31764.x
+ment was performed by Watts et al [16]. The results
+                                                              [3] O. Klein, Y. Nishina, Z. Physik 52, 853 (1929), doi:
+stated that no significant correlation was observed,
+                                                                  10.1007/BF01366453
+however, the results obtained were reported with
+large uncertainties. In addition, the experimental re-        [4] M L H Pryce and J C Ward, “Angular correlation ef-
+sults did not agree with the theoretical work [20].               fects with annihilation radiation”; Nature 160 (1947)
+                                                                  435, doi: 10.1038/160435a0
+Abdurashitov et al [17] also reported the experimen-
+tal results, but their results contradicted the obser-        [5] H. S. Snyder, S. Pasternack and J. Hornbostel, “Angu-
+vations claimed by Watts et al [16]. This raises                  lar correlation of scattered annihilation radiation”; Phys.
+questions and requires further investigation. Solv-               Rev. 73 (1948) 440, doi: 10.1103/PhysRev.73.440
+ing the puzzle of entanglement observation based              [6] E. Bleuler and H.L. Bradt, “Correlation between the
+on Compton kinematics of orthogonally polarized                   states of polarization of the two quanta of annihilation
+annihilation photons emitted in an e+ e− system is                radiation”; Phys. Rev. 73 (1948) 1398
+not only important to understand the fundamental              [7] R.C. Hanna, “Polarization of annihilation radiation”;
+process but also of outstanding importance because                Nature 162 (1948) 332
+of its application in medical imaging. We propose
+to perform similar studies using the J-PET detec-             [8] C. S. Wu and I. Shaknov, “The angular correlation of
+                                                                  scattered annihilation radiation”; Phys. Rev. 77 (1950)
+tor. The J-PET detector has demonstrated its po-                  136
+tential in performing studies to register the decays
+of Ps atoms [31, 45]. Due to its geometric advan-             [9] H. Langhoff, Die linearpolarisation der vernich-
+tage, J-PET can study not only the two cases previ-               tungsstrahlung von positronen. Z. Phys. 160 (1960) 186,
+                                                                  doi: 10.1007/BF01336980
+ously studied, but also the case in which both pho-
+tons are scattered beforehand (instead of only one),         [10] L. R. Kasday, J. D. Ullman and C. S. Wu, “Angular cor-
+since in these cases the correlation is measured and              relation of Compton-scattered annihilation photons and
+the entanglement loss can be assumed with greater                 hidden variables”; II Nuovo Cimento B 25 (1975) 633,
+                                                                  doi: 10.1007/BF02724742
+certainty.
+                                                             [11] A. Einstein, B. Podolsky and N. Rosen, “Can quan-
+                                                                  tum mechanical description of physical reality be con-
+                                                                  sidered complete?”; Phys. Rev. 47 (1935) 777-780, doi:
+                                                                  10.1103/PhysRev.47.777
+
+
+                                                         8
+[12] D. Bohm, and Y. Aharonov, “Discussion of experimen-               [25] P. Moskal, P. Salabura, M. Silarski et al., “Novel de-
+     tal proof for the paradox of Einstein, Rosen, and Podol-               tector systems for the Positron Emission Tomography”;
+     sky”; Phys. Rev. 108, (1957) 1070 doi: 10.1103/Phys-                   Bio-Algorithms and Med-Systems 7(2)(2011) 73
+     Rev.108.1070
+                                                                       [26] P. Moskal, O. Rundel, D. Alfs et al., ”Time resolution
+[13] A. Wilson, J. Lowe, and D. Butt, “Measurement of the                   of the plastic scintillator strips with matrix photomulti-
+     relative planes of polarization of annihilation quanta as a            plier readout for J-PET tomograph”; Phys. Med. Biol.
+     function of separation distance”; J. Phys. G: Nucl. Phys.              61 (2016) 2025, doi: 10.1088/0031-9155/61/5/2025
+     2 (1976) 613, doi: 10.1088/0305-4616/2/9/009
+                                                                       [27] P. Moskal, P. Kowalski, R.Y. Shopa et al., ”Simulat-
+[14] A. L McNamara, M. Toghyani, J.E Gillam et al., “To-                    ing NEMA characteristics of the modular total-body J-
+     wards optimal imaging with PET: an in silico feasibil-                 PET scanner—an economic total-body PET from plastic
+     ity study”; Phys. Med. Biol. 59:24 (2014) 7587, doi:                   scintillators”; Phys. Med. Biol. 66 (2021) 175015, doi:
+     10.1088/0031-9155/59/24/7587                                           10.1088/1361-6560/ac16bd
+
+[15] M. Toghyani, J. E. Gillam, A. L. McNamara et                      [28] P. Moskal and E.L. Stepien, ”Prospects and clinical
+     al., “Polarization-based coincidence event discrimina-                 perspectives of total-body PET imaging using plas-
+     tion: an in silico study towards a feasible scheme for                 tic scintillators”; PET Clinics 15 (2020) 439, doi:
+     Compton-PET”, Phys. Med. Bio. 61:15 (2016) 5803,                       10.1016/j.cpet.2020.06.009
+     doi: 10.1088/0031-9155/61/15/5803
+                                                                       [29] P. Moskal, A. Gajos, M. Mohammed et al., “Test-
+[16] D.P. Watts, J. Bordes, J.R. Brown, A. Cherlin, R. New-                 ing CPT symmetry in ortho-psoitornium decays with
+     ton, J. Allison et al., “Photon quantum entanglement in                positronium annihilation tomography”; Nat. Commun
+     the MeV regime and its application in PET imaging”;                    12 (2021) 5658, doi: 10.1038/s41467-021-25905-9
+     Nature Commun. 12 (2021) 2646.
+                                                                       [30] R.Y. Shopa, K. Klimaszewski, P. Kopka et al., ”Op-
+[17] D. Abdurashitov, A. Baranov, D. Borisenko et al.,                      timisation of the event-based TOF filtered back-
+     “Setup of Compton polarimeters for measuring entan-                    projection for online imaging in total-body J-PET”;
+     gles annihilation photons”; JINST 17 (2022) P03010,                    Medical Image Analysis 73 (2021) 102199, doi:
+     doi: 10.1088/1748-0221/17/03/P03010                                    10.1016/j.media.2021.102199
+
+[18] P. Moskal, ”Positronium and Quantum Entanglement                  [31] P. Moskal, K. Dulski, N. Chug et al., “Positronium
+     Imaging: A New Trend in Positron Emission Tomog-                       imaging with the novel multiphoton PET scanner”; Sci-
+     raphy”; IEEE Nuclear Science Symposium and Medi-                       ence Advances 7 (2021) eabh4394, doi: 10.1126/sci-
+     cal Imaging Conference (NSS/MIC), 2021, pp. 1-3, doi:                  adv.abh4394
+     10.1109/NSS/MIC44867.2021.9875524.
+                                                                       [32] P. Moskal, B. Jasinska, E.L. Stepien and S. D. Bass,
+[19] M. Nowakowski, D. B. Fierro, ”Three-photon entangle-                   ”Positronium in medicine and biology”; Nat. Rev. Phys.
+     ment from ortho-positronium revisited”; Acta Phys. Pol.                1 (2019) 527, doi: 10.1038/s42254-019-0078-7
+     B 48 (2017) 1955, doi: 10.5506/APhysPolB.48.1955
+                                                                       [33] P. Moskal, D. Kisielewska, C. Curceanu et al., Feasi-
+[20] B. Hiesmayr and P. Moskal, “Witnessing entanglement                    bility study of the positronium imaging with the J-PET
+     in Compton scattering processes via mutually unbiased                  tomograph, Phys. Med. Biol. 64 (2019) 055017, doi:
+     bases”; Sci. Rep. 9:8166 (2019), doi: 10.1038/s41598-                  10.1088/1361-6560/aafe20
+     019-44570-z
+                                                                       [34] P. Moskal, D. Kisielewska, R. Y. Shopa et al., Per-
+[21] P. Knight, F. Ryburn, G.Tungate et al., “Studying the                  formance assessment of the 2γ positronium imaging
+     efffect of Polarization in Compton scattering in the                   with the total-body PET, EJNMMI Physics 7:44 (2020),
+     underground laboratory”; Eur. Jour. Phy. 39 (2018)                     doi:10.1186/s40658-020-00307-w
+     025203, doi: 10.1088/1361-6404/aa9c98
+                                                                       [35] P. Moskal and E.L. Stepien, ”Perspectives on transla-
+[22] P. Caradonna, D. Reutens, T. Takahashi et al., “Probing                tion of positronium imaging into clinics”; Front. Phys.
+     entanglement in Compton interactions”; J. Phys. Com-                   10 (2022) 969806, doi: 10.3389/fphy.2022.969806
+     mun. 3 (2019) 105005, doi: 10.1088/2399-6528/ab45db
+                                                                       [36] P. Moskal, N. Krawczyk and B.C. Hiesmayr et al.,
+[23] A. M. Kozuljevic, D. Bosnar, Z. Kuncic et al.,                         “Feasibility studies of the polarization of photons
+     “Study of Multi-Pixel Scintillator Detector Configura-                 beyond the optical wavelength regime with the J-
+     tions for Measuring Polarized Gamma Radiation”; Con-                   PET detector”; Eur. Phys. J. C 78:970(2018), doi:
+     densed Matter 6, no. 4 (2021) 43, doi: 10.3390/cond-                   10.1140/epjc/s10052-018-6461-1
+     mat6040043
+                                                                       [37] P. Moskal, D. Alfs, T. Bednarski et al., Potential of
+[24] S. Parashari, T. Bokulić, D. Bosnar et. al, “Optimization             the J-PET Detector for Studies of Discrete Symme-
+     of detector modules for measuring gamma-ray polariza-                  tries in Decays of Positronium Atom - a Purely Lep-
+     tion in Positron Emission Tomography”; NIM A 1040                      tonic System, Acta Phys. Pol. B 47 (2016) 509, doi:
+     (2022) 167186, doi: 10.1016/j.nima.2022.167186                         10.5506/APhysPolB.47.509
+
+
+                                                                   9
+[38] P. Moskal, Sz. Niedzwiecki, T. Bednarski et al., “Test of
+     a single module of the J-PET scanner based on plastic
+     scintillators”; Nucl. Instr. and Meth. A 764, 317 (2014),
+     doi: 10.1016/j.nima.2014.07.052
+
+[39] M. Palka, P. Strzempek, G. Korcyl et al., “Multichannel
+     FPGA based MVT system for high precision time (20
+     ps RMS) and charge measurement”; JINST (2017) 12
+     P08001, doi: 10.1088/1748-0221/12/08/P08001
+
+[40] G. Korcyl, P. Bialas, C. Curceanu et al., “Evalu-
+     ation of Single-Chip, Real-Time Tomographic Data
+     Processing on FPGA SoC devices”; IEEE Transac-
+     tions on Medical Imaging, Vol.37, (2018), 2526, doi:
+     10.1109/TMI.2018.2837741
+
+[41] S. Sharma, “TOT Method for the Disentanglement
+     of Photons in Positron Annihilation Lifetime Spec-
+     troscopy”; Acta Phys. Pol. A 137,2 (2020) 1, doi:
+     10.12693/APhysPolA.137.130
+
+[42] S. Sharma, J. Chhokar, C. Curceanu et al., “Estimat-
+     ing relationship between the time over threshold and
+     energy loss by photons in plastic scintillators used in
+     the J-PET scanner”; EJNMMI Physics 7:39 (2020), doi:
+     10.1186/s40658-020-00306-x
+
+[43] W. Krzemien, A. Gajos, K. Kacprzak et al., “J-PET
+     Framework: Software platform for PET tomography
+     data reconstruction and analysis”; Software X 11 (2020)
+     100487, doi: 10.1016/j.softx.2020.100487
+
+[44] S. Niedzwiecki, P. Bialas, C. Curceanu et al., ”J-
+     PET: A New Technology for the Whole-body PET
+     Imaging”; Acta. Phys. Polon. B 48 (2017) 1567, doi:
+     10.5506/APhysPolB.48.1567
+
+[45] K. Dulski, S.D. Bass, J. Chhokar et al., “The
+     J-PET detector - a tool for precison studies
+     of ortho-positronium decays”;   Nucl. Instru.
+     Meth. Phys. Res. A 1008 (2021) 1654452, doi:
+     10.1016/j.nima.2021.165452
+
+
+
+
+                                                                 10
+

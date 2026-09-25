@@ -1,0 +1,764 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ Υ(3S)                                                 I G (J PC ) = 0− (1 − − )
+
+
+                                          Υ(3S) MASS
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+10355.1± 0.5                             1 SHAMOV   23 RVUE e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+10355.2± 0.5                    2,3 ARTAMONOV 00 MD1 e + e − → hadrons
+10355.3± 0.5                    4,5 BARU            86B MD1 e + e − → hadrons
+  1 Reanalysis of MD1 data using the electron mass from COHEN 87, the radiative correc-
+    tions from KURAEV 85 and interference eﬀects.
+  2 Reanalysis of BARU 86B using new electron mass (COHEN 87).
+  3 Superseded by SHAMOV 23.
+  4 Reanalysis of ARTAMONOV 84.
+  5 Superseded by ARTAMONOV 00.
+
+                                       m Υ(3S) − m Υ(2S)
+VALUE (MeV)               EVTS           DOCUMENT ID               TECN      COMMENT
+331.82± 0.08 OUR AVERAGE Error includes scale factor of 1.9. See the ideogram below.
+331.77± 0.07 ± 0.10  1.8M       6 AAIJ       24AC LHCB Υ → µ+ µ−
+331.88± 0.03 ± 0.04    1.5k     6 AAIJ       24AC LHCB Υ(3S) → Υ(2S) π + π −
+331.50± 0.02 ± 0.13               LEES       11C BABR e + e − → π + π − X
+  6 Observed in prompt p p production.
+
+         WEIGHTED AVERAGE
+         331.82±0.08 (Error scaled by 1.9)
+
+
+
+
+                                                                                                   2
+                                                                                               χ
+                                                         AAIJ                24AC LHCB     0.2
+                                                         AAIJ                24AC LHCB     1.2
+                                                         LEES                11C BABR      6.1
+                                                                                           7.5
+                                                                      (Confidence Level = 0.023)
+
+      331.2     331.4      331.6     331.8       332       332.2     332.4
+
+         m Υ(3S) − m Υ(2S) (MeV)
+
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                           Υ(3S) WIDTH
+VALUE (keV)                                 DOCUMENT ID
+20.32± 1.85 OUR EVALUATION               See the Note on “Width Determinations of the Υ
+States”
+
+                                    Υ(3S) DECAY MODES
+                                                                                            Scale factor/
+       Mode                                                   Fraction (Γi /Γ)            Conﬁdence level
+
+Γ1     Υ(2S) anything                                            (10.6 ± 0.8 ) %
+Γ2        Υ(2S) π + π −                                          ( 2.82± 0.18) %                       S=1.6
+Γ3        Υ(2S) π 0 π 0                                          ( 1.85± 0.14) %
+Γ4        Υ(2S) γ γ                                              ( 5.0 ± 0.7 ) %
+Γ5     Υ(2S) π 0                                              < 5.1                 × 10−4         CL=90%
+Γ6     Υ(1S) π + π −                                             ( 4.37± 0.08) %
+Γ7     Υ(1S) π 0 π 0                                             ( 2.20± 0.13) %
+Γ8     Υ(1S) η                                                < 1                   × 10−4         CL=90%
+Γ9     Υ(1S) π 0                                              < 7                   × 10−5         CL=90%
+Γ10    hb (1P)π 0                                             < 1.2            × 10−3              CL=90%
+Γ11       hb (1P)π 0 → γ ηb (1S)π 0                              ( 4.3 ± 1.4 ) × 10−4
+Γ12    hb (1P)π + π −                                         < 1.2                 × 10−4         CL=90%
+Γ13    τ+ τ−                                                     ( 2.29± 0.30) %
+Γ14    µ+ µ−                                                     ( 2.18± 0.21) %                       S=2.1
+Γ15    e+ e−                                                     ( 2.18± 0.20) %
+Γ16    hadrons                                                   (93 ± 12 ) %
+Γ17    ggg                                                       (35.7 ± 2.6 ) %
+Γ18    γg g                                                      ( 9.7 ± 1.8 ) × 10−3
+Γ19    2 H anything                                              ( 2.33± 0.33) × 10−5
+
+                                          Radiative decays
+Γ20    γ χb2 (2P)                                                (13.1 ± 1.6 ) %                       S=3.4
+Γ21    γ χb1 (2P)                                                (12.6 ± 1.2 ) %                       S=2.4
+Γ22    γ χb0 (2P)                                                ( 5.9 ± 0.6 ) %                       S=1.4
+Γ23    γ χb2 (1P)                                                (10.0 ± 1.0 ) × 10−3                  S=1.7
+Γ24    γ χb1 (1P)                                                ( 9 ± 5 ) × 10−4                      S=1.8
+Γ25    γ χb0 (1P)                                              ( 2.7 ± 0.4 ) × 10−3
+Γ26    γ ηb (2S)                                              < 6.2          × 10−4                CL=90%
+Γ27    γ ηb (1S)                                               ( 5.1 ± 0.7 ) × 10−4
+Γ28    γ A0 → γ hadrons                                       < 8            × 10−5                CL=90%
+Γ29    γ X → γ + ≥ 4 prongs                               [a] < 2.2                 × 10−4         CL=95%
+Γ30    γ A0 → γ µ+ µ−                                         < 5.5                 × 10−6         CL=90%
+Γ31    γ A0 → γ τ + τ −                                   [b] < 1.6                 × 10−4         CL=90%
+
+                      Lepton Family number (LF ) violating modes
+Γ32    e± τ ∓                                   LF            < 4.2                 × 10−6         CL=90%
+Γ33    e ± µ∓                                   LF            < 3.6                 × 10−7         CL=90%
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ34     µ± τ ∓                                   LF            < 3.1                 × 10−6         CL=90%
+
+   [a] 1.5 GeV < m X < 5.0 GeV
+   [b] For m τ + τ − in the ranges 4.03–9.52 and 9.61–10.10 GeV.
+
+                     Υ(3S) Γ(i)Γ(e + e − )/Γ(total)
+
+Γ hadrons × Γ e + e − /Γtotal
+                    
+                                                                                                 Γ16 Γ15 /Γ
+VALUE (keV)                              DOCUMENT ID                TECN      COMMENT
+0.414± 0.007 OUR AVERAGE
+0.413± 0.004 ± 0.006               ROSNER      06 CLEO 10.4 e + e − → hadrons
+0.45 ± 0.03 ± 0.03               7 GILES       84B CLEO e + e − → hadrons
+  7 Radiative corrections reevaluated by BUCHMUELLER 88 following KURAEV 85.
+
+Γ Υ(1S) π + π − × Γ e + e − /Γtotal
+                          
+                                                                                                   Γ6 Γ15 /Γ
+VALUE (eV)                 EVTS          DOCUMENT ID                TECN      COMMENT
+18.46± 0.27 ± 0.77 6.4k       8 AUBERT       08BP BABR e + e − → γ π + π − ℓ+ ℓ−
+  8 Using B(Υ(1S) → e + e − ) = (2.38 ± 0.11)% and B(Υ(1S) → µ+ µ− ) = (2.48 ±
+    0.05)%.
+
+                                    Υ(3S) PARTIAL WIDTHS
+
+Γ e+ e−
+        
+                                                                                                         Γ15
+VALUE (keV)                                  DOCUMENT ID
+0.443± 0.008 OUR EVALUATION
+
+
+                      Υ(3S) BRANCHING RATIOS
+                
+Γ Υ(2S) anything /Γtotal                                                                                Γ1 /Γ
+VALUE                       EVTS             DOCUMENT ID               TECN      COMMENT
+0.106 ± 0.008 OUR AVERAGE
+0.1023± 0.0105     4625 9,10,11 BUTLER            94B CLE2 e + e − → ℓ+ ℓ− X
+0.111 ± 0.012      489110,11,12 BROCK             91 CLEO e + e − → π + π − X,
+                                                                 π + π − ℓ+ ℓ−
+  9 Using B(Υ(2S) → Υ(1S) γ γ) = (0.038 ± 0.007)%, and B(Υ(2S) → Υ(1S) π 0 π 0 ) =
+    (1/2)B(Υ(2S) → Υ(1S) π + π − ).
+ 10 Using B(Υ(1S) → µ+ µ− ) = (2.48 ± 0.06)%. With the assumption of e µ universality.
+ 11 Using B(Υ(2S) → Υ(1S) π + π − ) = (18.5 ± 0.8)%.
+ 12 Using B(Υ(2S) → µ+ µ− ) = (1.31 ± 0.21)%, B(Υ(2S) → Υ(1S) γ γ)×2B(Υ(1S) →
+    µ+ µ− ) = (0.188 ± 0.035)%, and B(Υ(2S) → Υ(1S) π 0 π 0 )×2B(Υ(1S) → µ+ µ− )
+    = (0.436 ± 0.056)%. With the assumption of e µ universality.
+
+Γ Υ(2S) π + π − /Γtotal
+               
+                                                                                                        Γ2 /Γ
+VALUE (units 10−2 )          EVTS           DOCUMENT ID            TECN      COMMENT
+2.82± 0.18 OUR AVERAGE Error includes scale factor of 1.6. See the ideogram below.
+3.00± 0.02 ± 0.14   543k      LEES         11C BABR e + e − → π + π − X
+2.40± 0.10 ± 0.26    800  13  AUBERT       08BP BABR e + e − → γ π + π − e + e −
+
+
+https://pdg.lbl.gov                           Page 3                       Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+3.12± 0.49                    980 14,15 BUTLER  94B CLE2 e + e − → π + π − ℓ+ ℓ−
+2.13± 0.38                    974    16 BROCK   91 CLEO e + e − → π + π − X,
+                                                                   π + π − ℓ+ ℓ−
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.82± 0.65 ± 0.53       138     16 WU           93 CUSB Υ(3S) → π + π − ℓ+ ℓ−
+3.1 ± 2.0                 5        MAGERAS 82 CUSB Υ(3S) → π + π − ℓ+ ℓ−
+ 13 Using B(Υ(1S) → e + e − ) = (2.38 ± 0.11)%, B(Υ(1S) → µ+ µ− ) = (2.48 ± 0.05)%,
+    and Γ ee (Υ(3S)) = 0.443 ± 0.008 keV.
+ 14 From the exclusive mode.
+ 15 Using B(Υ(2S) → Υ(1S) γ γ) = (0.038 ± 0.007)%, and B(Υ(2S) → Υ(1S) π 0 π 0 ) =
+    (1/2)B(Υ(2S) → Υ(1S) π + π − ).
+ 16 Using B(Υ(2S) → µ+ µ− ) = (1.31 ± 0.21)%, B(Υ(2S) → Υ(1S) γ γ)×2B(Υ(1S) →
+    µ+ µ− ) = (0.188 ± 0.035)%, and B(Υ(2S) → Υ(1S) π 0 π 0 )×2B(Υ(1S) → µ+ µ− )
+    = (0.436 ± 0.056)%. With the assumption of e µ universality.
+
+           WEIGHTED AVERAGE
+           2.82±0.18 (Error scaled by 1.6)
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           LEES               11C BABR       1.6
+                                                           AUBERT             08BP BABR      2.3
+                                                           BUTLER             94B CLE2       0.4
+                                                           BROCK              91   CLEO      3.3
+                                                                                             7.6
+                                                                        (Confidence Level = 0.056)
+
+          1            2             3          4            5            6
+
+           Γ Υ(2S) π + π − /Γtotal (units 10−2 )
+                                
+
+
+Γ Υ(2S) π 0 π 0 /Γtotal
+               
+                                                                                                         Γ3 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+1.85± 0.14 OUR AVERAGE
+1.82± 0.09 ± 0.12       4391    17 BHARI       09 CLEO e + e − → π 0 π 0 ℓ+ ℓ−
+2.16± 0.39                   18,19 BUTLER      94B CLE2 e + e − → π 0 π 0 ℓ+ ℓ−
+1.7 ± 0.5 ± 0.2           10    20 HEINTZ      92 CSB2 e + e − → π 0 π 0 ℓ+ ℓ−
+ 17 Authors assume B(Υ(1S) → e + e − ) + B(Υ(1S) → µ+ µ− ) = 4.06%.
+ 18 B(Υ(2S) → µ+ µ− ) = (1.31 ± 0.21)% and assuming e µ universality.
+ 19 From the exclusive mode.
+ 20 B(Υ(2S) → µ+ µ− ) = (1.44 ± 0.10)% and assuming e µ universality. Supersedes
+    HEINTZ 91.
+
+https://pdg.lbl.gov                           Page 4                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+           
+Γ Υ(2S) γ γ /Γtotal                                                                                      Γ4 /Γ
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.0502± 0.0069                           21 BUTLER              94B CLE2         e + e − → ℓ+ ℓ− 2γ
+ 21 From the exclusive mode.
+
+Γ Υ(2S) π 0 /Γtotal
+           
+                                                                                                         Γ5 /Γ
+VALUE (units 10−3 )            CL%           DOCUMENT ID               TECN      COMMENT
+<0.51                 90                 22 HE08A CLEO e + e − → ℓ+ ℓ− γ γ
+22 Authors assume B(Υ(2S) → e + e − ) + B(Υ(1S) → µ+ µ− ) = 4.06%.
+
+Γ Υ(1S) π + π − /Γtotal
+               
+                                                                                                         Γ6 /Γ
+        Abbreviation MM in the COMMENT ﬁeld below stands for missing mass.
+VALUE (units 10−2 )             EVTS          DOCUMENT ID            TECN      COMMENT
+4.37± 0.08 OUR AVERAGE
+4.32± 0.07 ± 0.13       90k               23 LEES 11L BABR Υ(3S) → π + π − ℓ+ ℓ−
+4.46± 0.01 ± 0.13     190k                24 BHARI09 CLEO e + e − → π + π − MM
+4.17± 0.06 ± 0.19      6.4k               25 AUBERT
+                                                  08BP BABR 10.58 e + e − →
+                                                                     γ π + π − ℓ+ ℓ−
+4.52± 0.35               11830 26 BUTLER          94B CLE2 e + e − → π + π − X,
+                                                                     π + π − ℓ+ ℓ−
+4.46± 0.34 ± 0.50          451    26 WU           93 CUSB Υ(3S) → π + π − ℓ+ ℓ−
+4.46± 0.30               11221 26 BROCK           91 CLEO e + e − → π + π − X,
+                                                                     π + π − ℓ+ ℓ−
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.9 ± 1.0                    22      GREEN        82 CLEO Υ(3S) → π + π − ℓ+ ℓ−
+3.9 ± 1.3                    26      MAGERAS 82 CUSB Υ(3S) → π + π − ℓ+ ℓ−
+ 23 Using B(Υ(1S) → e + e − ) = (2.38 ± 0.11)% and B(Υ(1S) → µ+ µ− ) = (2.48 ±
+    0.05)%.
+ 24 A weighted average of the inclusive and exclusive results.
+ 25 Using B(Υ(2S) → e + e − ) = (1.91 ± 0.16)%, B(Υ(2S) → µ+ µ− ) = (1.93 ± 0.17)%,
+    and Γ ee (Υ(3S)) = 0.443 ± 0.008 keV.
+ 26 Using B(Υ(1S) → µ+ µ− ) = (2.48 ± 0.06)%. With the assumption of e µ universality.
+
+Γ Υ(2S) π + π − /Γ Υ(1S) π + π −
+                                
+                                                                                                        Γ2 /Γ6
+VALUE                      EVTS          DOCUMENT ID                TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.577± 0.026 ± 0.060 800      27 AUBERT          08BP BABR e + e − → γ π + π − ℓ+ ℓ−
+ 27 Using B(Υ(1S) → e + e − ) = (2.38 ± 0.11)%, B(Υ(1S) → µ+ µ− ) = (2.48 ± 0.05)%,
+    B(Υ(2S) → e + e − ) = (1.91 ± 0.16)%, and B(Υ(2S) → µ+ µ− ) = (1.93 ± 0.17)%.
+    Not independent of other values reported by AUBERT 08BP.
+
+Γ Υ(1S) π 0 π 0 /Γtotal
+               
+                                                                                                         Γ7 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+2.20± 0.13 OUR AVERAGE
+2.24± 0.09 ± 0.11     6584    28 BHARI          09 CLEO e + e − → π 0 π 0 ℓ+ ℓ−
+1.99± 0.34              56    29 BUTLER         94B CLE2 e + e − → π 0 π 0 ℓ+ ℓ−
+2.2 ± 0.4 ± 0.3         33    30 HEINTZ         92 CSB2 e + e − → π 0 π 0 ℓ+ ℓ−
+ 28 Authors assume B(Υ(1S) → e + e − ) + B(Υ(1S) → µ+ µ− ) = 4.96%.
+ 29 Using B(Υ(1S) → µ+ µ− ) = (2.48 ± 0.06)% and assuming e µ universality.
+ 30 Using B(Υ(1S) → µ+ µ− ) = (2.57 ± 0.07)% and assuming e µ universality. Supersedes
+    HEINTZ 91.
+
+https://pdg.lbl.gov                           Page 5                       Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Υ(1S) π 0 π 0 /Γ Υ(1S) π + π −
+                                
+                                                                                                        Γ7 /Γ6
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.501± 0.043                     31 BHARI           09 CLEO e + e − → Υ(3S)
+ 31 Not independent of other values reported by BHARI 09.
+         
+Γ Υ(1S) η /Γtotal                                                                                        Γ8 /Γ
+VALUE (units 10−3 ) CL%            DOCUMENT ID                TECN      COMMENT
+<0.1            90              32 LEES     11L BABR Υ(3S) → (π + π − ) (γ γ) ℓ+ ℓ−
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.8            90 32,33 AUBERT             08BP BABR e + e − → γ π + π − π 0 ℓ+ ℓ−
+<0.18           90       34  HE             08A CLEO e + e − → ℓ+ ℓ− η
+<2.2            90           BROCK          91 CLEO e + e − → ℓ+ ℓ− η
+ 32 Using B(Υ(1S) → e + e − ) = (2.38 ± 0.11)%, B(Υ(1S) → µ+ µ− ) = (2.48 ± 0.05)%.
+ 33 Using Γ (Υ(3S)) = 0.443 ± 0.008 keV.
+           ee
+ 34 Authors assume B(Υ(1S) → e + e − ) + B(Υ(1S) → µ+ µ− ) = 4.96%.
+
+Γ Υ(1S) η /Γ Υ(1S) π + π −
+                          
+                                                                                                        Γ8 /Γ6
+VALUE (units 10−2 ) CL%            DOCUMENT ID                TECN      COMMENT
+<0.23           90              35 LEES     11L BABR Υ(3S) → (π + π − ) (γ γ) ℓ+ ℓ−
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.9            90       36 AUBERT          08BP BABR e + e − → γ π + π − (π 0 ) ℓ+ ℓ−
+ 35 Not independent of other values reported by LEES 11L.
+ 36 Not independent of other values reported by AUBERT 08BP.
+
+Γ Υ(1S) π 0 /Γtotal
+           
+                                                                                                         Γ9 /Γ
+VALUE (units 10−3 )            CL%           DOCUMENT ID               TECN      COMMENT
+<0.07                 90    37 HE             08A CLEO e + e − → ℓ+ ℓ− γ γ
+37 Authors assume B(Υ(1S) → e + e − ) + B(Υ(1S) → µ+ µ− ) = 4.96%.
+
+Γ hb (1P)π0 /Γtotal
+           
+                                                                                                        Γ10 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<1.2 × 10−3               90    38 GE        11 CLEO Υ(3S) → π 0 anything
+38 Assuming M(h (1P)) = 9900 MeV and Γ(h (1P)) = 0 MeV, and allowing B(h (1P) →
+                  b                     b                               b
+   γ ηb (1S)) to vary from 0–100%.
+
+Γ hb (1P)π0 → γ ηb (1S) π 0 /Γtotal
+                           
+                                                                                                        Γ11 /Γ
+VALUE (units 10−4 )                          DOCUMENT ID               TECN      COMMENT
+4.3± 1.1± 0.9                                LEES               11K BABR Υ(3S) → ηb γ π 0
+
+Γ hb (1P)π+ π − /Γtotal
+               
+                                                                                                        Γ12 /Γ
+VALUE (units 10−4 )            CL%           DOCUMENT ID               TECN      COMMENT
+< 1.2                   90               39 LEES    11C BABR e + e − → π + π − X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<18                              39 BUTLER          94B CLE2 e + e − → π + π − X
+<15                              39 BROCK           91 CLEO e + e − → π + π − X
+ 39 For M(h (1P)) = 9900 MeV.
+           b
+
+https://pdg.lbl.gov                           Page 6                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ τ + τ − /Γtotal
+         
+                                                                                                        Γ13 /Γ
+VALUE (units 10−2 )    EVTS         DOCUMENT ID               TECN      COMMENT
+2.29± 0.21 ± 0.22      15k      40 BESSON        07 CLEO e + e − → Υ(3S) → τ + τ −
+ 40 BESSON 07 reports [Γ Υ(3S) → τ + τ − /Γ                              + −
+                                                   total ] / [B(Υ(3S) → µ µ )] = 1.05 ±
+    0.08 ± 0.05 which we multiply by our best (shown rounded) value B(Υ(3S) → µ+ µ− )
+    = (2.18 ± 0.21) × 10−2 . Our ﬁrst error is their experiment’s error and our second error
+    is the systematic error from using our best (shown rounded) value.
+
+Γ τ + τ − /Γ µ+ µ−
+                  
+                                                                                                  Γ13 /Γ14
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+0.968± 0.016 OUR AVERAGE
+0.966± 0.008 ± 0.014 2.2M                   LEES                 20E BABR e + e − → Υ(3S)
+1.05 ± 0.08 ± 0.05     15k                  BESSON               07 CLEO e + e − → Υ(3S)
+
+Γ µ+ µ− /Γtotal
+       
+                                                                                                        Γ14 /Γ
+VALUE                               EVTS           DOCUMENT ID                TECN     COMMENT
+0.0218± 0.0021 OUR AVERAGE Error includes scale factor of 2.1. See the ideogram
+below.
+0.0239± 0.0007 ± 0.0010   81k      ADAMS            05 CLEO e + e − → µ+ µ−
+0.0202± 0.0019 ± 0.0033            CHEN             89B CLEO e + e − → µ+ µ−
+0.0173± 0.0015 ± 0.0011            KAARSBERG 89 CSB2 e + e − → µ+ µ−
+0.033 ± 0.013 ± 0.007    1096      ANDREWS          83 CLEO e + e − → µ+ µ−
+
+          WEIGHTED AVERAGE
+          0.0218±0.0021 (Error scaled by 2.1)
+
+
+
+
+                                                                                                    2
+                                                                                                χ
+                                                          ADAMS               05     CLEO       2.8
+                                                          CHEN                89B    CLEO       0.2
+                                                          KAARSBERG           89     CSB2       6.0
+                                                          ANDREWS             83     CLEO
+                                                                                            9.0
+                                                                       (Confidence Level = 0.011)
+
+        0.01     0.015   0.02                0.025        0.03        0.035
+
+           Γ µ+ µ− /Γtotal
+                   
+
+
+
+
+https://pdg.lbl.gov                          Page 7                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+       
+Γ g g g /Γtotal                                                                                         Γ17 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+35.7± 2.6                     3M         41 BESSON       06A CLEO Υ(3S) → hadrons
+ 41 Calculated using BESSON 06A value of Γ(γ g g )/Γ(g g g ) = (2.72 ± 0.06 ± 0.32 ± 0.37)%
+    and the PDG 08 values of B(Υ(2S) + anything) = (10.6 ± 0.8)%, B(π + π − Υ(1S)) =
+    (4.40 ± 0.10)%, B(π 0 π 0 Υ(1S)) = (2.20 ± 0.13)%, B(γ χb2 (2P)) = (13.1 ± 1.6)%,
+    B(γ χb1 (2P)) = (12.6 ± 1.2)%, B(γ χb0 (2P)) = (5.9 ± 0.6)%, B(γ χb0 (1P)) =
+    (0.30 ± 0.11)% ,B(µ+ µ− ) = (2.18 ± 0.21)%, and Rhadrons = 3.51. The statisti-
+    cal error is negligible and the systematic error is partially correlated with Γ(γ g g )/Γtotal
+    BESSON 06A value.
+       
+Γ γ g g /Γtotal                                                                                         Γ18 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+0.97± 0.18                  60k      42 BESSON             06A CLEO Υ(3S) → γ + hadrons
+ 42 Calculated using BESSON 06A values of Γ(γ g g )/Γ(g g g ) = (2.72 ± 0.06 ± 0.32 ± 0.37)%
+    and Γ(g g g )/Γtotal . The statistical error is negligible and the systematic error is partially
+    correlated with Γ(g g g )/Γtotal BESSON 06A value.
+                
+Γ γ g g /Γ g g g                                                                                   Γ18 /Γ17
+VALUE (units 10−2 )          EVTS           DOCUMENT ID               TECN      COMMENT
+2.72± 0.06 ± 0.49              3M           BESSON             06A CLEO Υ(3S) → (γ +) hadrons
+
+Γ 2 H anything /Γtotal
+              
+                                                                                                        Γ19 /Γ
+VALUE (units 10−5 )                          DOCUMENT ID               TECN      COMMENT
+
+2.33± 0.15 + 0.28
+             0.31                            LEES               14G BABR e + e − → 2 H X
+           −
+            
+Γ γ χb2 (2P) /Γtotal                                                                                    Γ20 /Γ
+VALUE                                  EVTS           DOCUMENT ID               TECN      COMMENT
+0.131 ± 0.016 OUR AVERAGE Error includes scale factor of 3.4. See the ideogram
+below.
+0.1579± 0.0017 ± 0.0073    568k     ARTUSO           05 CLEO e + e − → γ X
+0.111 ± 0.005 ± 0.004     10319  43 HEINTZ           92 CSB2 e + e − → γ X
+0.135 ± 0.003 ± 0.017     30741     MORRISON         91 CLE2 e + e − → γ X
+ 43 Supersedes NARAIN 91.
+
+
+
+
+https://pdg.lbl.gov                           Page 8                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+          WEIGHTED AVERAGE
+          0.131±0.016 (Error scaled by 3.4)
+
+
+
+
+                                                                                                    2
+                                                                                                χ
+                                                          ARTUSO              05     CLEO 12.8
+                                                          HEINTZ              92     CSB2  9.9
+                                                          MORRISON            91     CLE2  0.1
+                                                                                          22.7
+                                                                     (Confidence Level < 0.0001)
+
+        0.08     0.1      0.12     0.14     0.16     0.18      0.2     0.22
+                          
+          Γ γ χb2 (2P) /Γtotal
+            
+Γ γ χb1 (2P) /Γtotal                                                                                    Γ21 /Γ
+VALUE                                 EVTS           DOCUMENT ID               TECN      COMMENT
+0.126 ± 0.012 OUR AVERAGE Error includes scale factor of 2.4. See the ideogram
+below.
+0.1454± 0.0018 ± 0.0073    537k     ARTUSO           05 CLEO e + e − → γ X
+0.115 ± 0.005 ± 0.005     11147  44 HEINTZ           92 CSB2 e + e − → γ X
+0.105 −+ 0.003 ± 0.013    25759     MORRISON         91 CLE2 e + e − → γ X
+         0.002
+ 44 Supersedes NARAIN 91.
+
+
+
+
+https://pdg.lbl.gov                          Page 9                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+          WEIGHTED AVERAGE
+          0.126±0.012 (Error scaled by 2.4)
+
+
+
+
+                                                                                                    2
+                                                                                                χ
+                                                          ARTUSO              05     CLEO  6.6
+                                                          HEINTZ              92     CSB2  2.5
+                                                          MORRISON            91     CLE2  2.5
+                                                                                          11.6
+                                                                     (Confidence Level = 0.0031)
+
+        0.06    0.08      0.1      0.12     0.14     0.16     0.18      0.2
+                          
+          Γ γ χb1 (2P) /Γtotal
+            
+Γ γ χb0 (2P) /Γtotal                                                                                    Γ22 /Γ
+VALUE                                 EVTS           DOCUMENT ID               TECN      COMMENT
+0.059 ± 0.006 OUR AVERAGE Error includes scale factor of 1.4. See the ideogram
+below.
+0.0677± 0.0020 ± 0.0065   225k      ARTUSO           05 CLEO e + e − → γ X
+0.060 ± 0.004 ± 0.006     4959   45 HEINTZ           92 CSB2 e + e − → γ X
+0.049 −+ 0.003 ± 0.006    9903      MORRISON         91 CLE2 e + e − → γ X
+         0.004
+ 45 Supersedes NARAIN 91.
+
+
+
+
+https://pdg.lbl.gov                          Page 10                     Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+           WEIGHTED AVERAGE
+           0.059±0.006 (Error scaled by 1.4)
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           ARTUSO              05     CLEO   1.7
+                                                           HEINTZ              92     CSB2   0.0
+                                                           MORRISON            91     CLE2   2.1
+                                                                                             3.9
+                                                                        (Confidence Level = 0.144)
+
+        0.02          0.04         0.06        0.08         0.1         0.12
+                            
+           Γ γ χb0 (2P) /Γtotal
+            
+Γ γ χb2 (1P) /Γtotal                                                                                     Γ23 /Γ
+VALUE (units 10−3 )   CL%        EVTS        DOCUMENT ID               TECN         COMMENT
+  10.0± 1.0 OUR AVERAGE Error includes scale factor of 1.7.
+   8.0± 1.3± 0.4         126 46,47 KORNICER         11 CLEO e + e − → γ γ ℓ+ ℓ−
+            + 0.7
+  10.5± 0.3 −           9.7k        LEES            11J BABR Υ(3S) → X γ
+              0.6
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<19               90             48 ASNER           08A CLEO Υ(3S) → γ + hadrons
+  seen                           49 HEINTZ          92 CSB2 e + e − → γ γ ℓ+ ℓ−
+ 46 Assuming B(Υ(1S) → ℓ+ ℓ− ) = (2.48 ± 0.05)%.
+ 47 KORNICER 11 reports [Γ Υ(3S) → γ χ (1P)/Γ
+                                             b2          total ] × [B(χb2 (1P) → γ Υ(1S))]
+    = (1.435 ± 0.162 ± 0.169) × 10   −3  which we divide by our best (shown rounded) value
+    B(χb2 (1P) → γ Υ(1S)) = (18.0 ± 1.0) × 10−2 . Our ﬁrst error is their experiment’s
+    error and our second error is the systematic error from using our best (shown rounded)
+    value.
+ 48 ASNER 08A reports [Γ Υ(3S) → γ χ (1P)/Γ
+                                            b2          total ] / [B(Υ(2S) → γ χb2 (1P))]
+    < 27.1 × 10   −2  which we multiply by our best (shown rounded) value B(Υ(2S) →
+    γ χb2 (1P)) = 7.15 × 10−2 .
+ 49 HEINTZ 92, while unable to distinguish between diﬀerent J states, measures
+    P                                                                               −3 for J
+       J B(Υ(3S) → γ χbJ ) × B(χbJ → γ Υ(1S)) = (1.7 ± 0.4 ± 0.6) × 10
+                                                   +  0.4
+    = 0,1,2 using inclusive Υ(1S) decays and (1.2 − 0.3 ± 0.09) × 10   −3   for J = 1,2 using
+                +
+    Υ(1S) → ℓ ℓ .   −
+
+
+
+
+https://pdg.lbl.gov                          Page 11                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+            
+Γ γ χb1 (1P) /Γtotal                                                                                    Γ24 /Γ
+VALUE (units 10−3 )   CL%      EVTS          DOCUMENT ID               TECN      COMMENT
+  0.9± 0.5 OUR AVERAGE Error includes scale factor of 1.8.
+  1.5± 0.4± 0.1           50 50,51 KORNICER         11 CLEO e + e − → γ γ ℓ+ ℓ−
+           + 0.2
+  0.5± 0.3 − 0.1                    LEES            11J BABR Υ(3S) → X γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.7             90              52 ASNER           08A CLEO Υ(3S) → γ + hadrons
+  seen                           53 HEINTZ          92 CSB2 e + e − → γ γ ℓ+ ℓ−
+ 50 Assuming B(Υ(1S) → ℓ+ ℓ− ) = (2.48 ± 0.05)%.
+ 51 KORNICER 11 reports [Γ Υ(3S) → γ χ (1P)/Γ
+                                             b1          total ] × [B(χb1 (1P) → γ Υ(1S))]
+    = (5.38 ± 1.20 ± 0.95) × 10−4 which we divide by our best (shown rounded) value
+    B(χb1 (1P) → γ Υ(1S)) = (35.2 ± 2.0) × 10−2 . Our ﬁrst error is their experiment’s
+    error and our second error is the systematic error from using our best (shown rounded)
+    value.
+ 52 ASNER 08A reports [Γ Υ(3S) → γ χ (1P)/Γ
+                                            b1          total ] / [B(Υ(2S) → γ χb1 (1P))]
+    < 2.5 × 10   −2  which we multiply by our best (shown rounded) value B(Υ(2S) →
+    γ χb1 (1P)) = 6.9 × 10−2 .
+ 53 HEINTZ 92, while unable to distinguish between diﬀerent J states, measures
+    P                                                                               −3 for J
+       J B(Υ(3S) → γ χbJ ) × B(χbJ → γ Υ(1S)) = (1.7 ± 0.4 ± 0.6) × 10
+                                                   +  0.4
+    = 0,1,2 using inclusive Υ(1S) decays and (1.2 − 0.3 ± 0.09) × 10   −3   for J = 1,2 using
+    Υ(1S) → ℓ+ ℓ− .
+            
+Γ γ χb0 (1P) /Γtotal                                                                                    Γ25 /Γ
+VALUE (units 10−2 )      CL%    EVTS        DOCUMENT ID               TECN      COMMENT
+  0.27± 0.04 OUR AVERAGE
+  0.27± 0.04 ± 0.02       2.3k     LEES            11J BABR Υ(3S) → X γ
+  0.30± 0.04 ± 0.10       8.7k     ARTUSO          05 CLEO e + e − → γ X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.8                90          54 ASNER           08A CLEO Υ(3S) → γ + hadrons
+ 54 ASNER 08A reports [Γ Υ(3S) → γ χ (1P)/Γ
+                                           b0         total ] / [B(Υ(2S) → γ χb0 (1P))]
+    < 21.9 × 10−2 which we multiply by our best (shown rounded) value B(Υ(2S) →
+    γ χb0 (1P)) = 3.8 × 10−2 .
+           
+Γ γ ηb (2S) /Γtotal                                                                                     Γ26 /Γ
+VALUE (units 10−4 )            CL%           DOCUMENT ID               TECN      COMMENT
+< 6.2                   90          ARTUSO          05 CLEO e + e − → γ X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<19                            90            LEES               11J BABR Υ(3S) → X γ
+           
+Γ γ ηb (1S) /Γtotal                                                                                     Γ27 /Γ
+VALUE (units 10−4 )   CL%            EVTS         DOCUMENT ID                TECN      COMMENT
+  5.1± 0.7 OUR AVERAGE
+  7.1± 1.8± 1.3        2.3 ± 0.5k    55 BONVICINI        10 CLEO Υ(3S) → γ X
+  4.8± 0.5± 0.6          19 ± 3k     55  AUBERT          09AQ BABR Υ(3S) → γ X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<8.5                  90                     LEES                     11J BABR Υ(3S) → X γ
+ 4.8± 0.5± 1.2                 19 ± 3k 55,56 AUBERT                   08V BABR Υ(3S) → γ X
+<4.3                  90                  57 ARTUSO                   05 CLEO e + e − → γ X
+
+https://pdg.lbl.gov                          Page 12                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 55 Assuming Γ
+               ηb (1S) = 10 MeV.
+ 56 Systematic error re-evaluated by AUBERT 09AQ.
+ 57 Superseded by BONVICINI 10.
+
+Γ γ A0 → γ hadrons /Γtotal
+                  
+                                                                                                        Γ28 /Γ
+        (0.3 GeV < m 0 < 7 GeV)
+                    A
+VALUE                          CL%           DOCUMENT ID                TECN     COMMENT
+<8 × 10−5                90      58 LEES             11H BABR Υ(3S) → γ hadrons
+58 For a narrow scalar or pseudoscalar, A0 , excluding known resonances, with mass in the
+   range 0.3–7 GeV. Measured 90% CL limits as a function of m 0 range from 1 × 10−6
+                                                                 A
+   to 8 × 10−5 .
+                      
+Γ γ X → γ + ≥ 4 prongs /Γtotal                                                                          Γ29 /Γ
+        (1.5 GeV < m X < 5.0 GeV)
+VALUE (units 10−4 )            CL%           DOCUMENT ID                TECN     COMMENT
+<2.2                           95            ROSNER             07A CLEO e + e − → γ X
+
+Γ γ A0 → γ µ+ µ− /Γtotal
+                
+                                                                                                        Γ30 /Γ
+VALUE (units 10−6 )     CL%           DOCUMENT ID               TECN       COMMENT
+<5.5                90              59 AUBERT    09Z BABR e + e − → γ A0 → γ µ+ µ−
+59 For a narrow scalar or pseudoscalar, A0 , with mass in the range 212–9300 MeV, excluding
+   J/ψ and ψ(2S). Measured 90% CL limits as a function of m 0 range from 0.27–5.5 ×
+                                                                   A
+   10−6 .
+
+Γ γ A0 → γ τ + τ − /Γtotal
+                  
+                                                                                                        Γ31 /Γ
+VALUE                    CL%           DOCUMENT ID               TECN      COMMENT
+<1.6 × 10−4        90       60 AUBERT          09P BABR e + e − → γ A0 → γ τ + τ −
+60 For a narrow scalar or pseudoscalar, A0 , with M(τ + τ − ) in the ranges 4.03–9.52 and
+   9.61–10.10 GeV. Measured 90% CL limits as a function of M(τ + τ − ) range from
+   1.5–16 × 10−5 .
+
+              LEPTON FAMILY NUMBER (LF) VIOLATING MODES
+Γ e ± τ ∓ /Γtotal
+         
+                                                                                                        Γ32 /Γ
+VALUE (units 10−6 )            CL%           DOCUMENT ID                TECN     COMMENT
+<4.2                           90            LEES               10B BABR e + e − → e ± τ ∓
+
+Γ e ± µ∓ /Γtotal
+        
+                                                                                                        Γ33 /Γ
+VALUE                          CL%           DOCUMENT ID                TECN     COMMENT
+<3.6 × 10−7                    90            LEES               22A BABR e + e − → e ± µ∓
+
+Γ µ± τ ∓ /Γtotal
+        
+                                                                                                        Γ34 /Γ
+VALUE (units 10−6 )            CL%           DOCUMENT ID                TECN     COMMENT
+< 3.1                   90          LEES            10B BABR e + e − → µ± τ ∓
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<20.3                   95          LOVE            08A CLEO e + e − → µ± τ ∓
+
+
+https://pdg.lbl.gov                          Page 13                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                       Υ(3S) REFERENCES
+AAIJ            24AC JHEP 2410 122             R. Aaij et al.                              (LHCb Collab.)
+SHAMOV          23    PL B839 137766           A.G. Shamov, O.L. Rezanova               (NOVO, NOVOU)
+LEES            22A PRL 128 091804             J.P. Lees et al.                          (BABAR Collab.)
+LEES            20E PRL 125 241801             J.P. Lees et al.                          (BABAR Collab.)
+LEES            14G PR D89 111102              J.P. Lees et al.                          (BABAR Collab.)
+GE              11    PR D84 032008            J.Y. Ge et al.                              (CLEO Collab.)
+KORNICER        11    PR D83 054003            M. Kornicer et al.                          (CLEO Collab.)
+LEES            11C PR D84 011104              J.P. Lees et al.                          (BABAR Collab.)
+LEES            11H PRL 107 221803             J.P. Lees et al.                          (BABAR Collab.)
+LEES            11J PR D84 072002              J.P. Lees et al.                          (BABAR Collab.)
+LEES            11K PR D84 091101              J.P. Lees et al.                          (BABAR Collab.)
+LEES            11L PR D84 092003              J.P. Lees et al.                          (BABAR Collab.)
+BONVICINI       10    PR D81 031104            G. Bonvicini et al.                         (CLEO Collab.)
+LEES            10B PRL 104 151802             J.P. Lees et al.                          (BABAR Collab.)
+AUBERT          09AQ PRL 103 161801            B. Aubert et al.                          (BABAR Collab.)
+AUBERT          09P PRL 103 181801             B. Aubert et al.                          (BABAR Collab.)
+AUBERT          09Z PRL 103 081803             B. Aubert et al.                          (BABAR Collab.)
+BHARI           09    PR D79 011103            S.R. Bhari et al.                           (CLEO Collab.)
+ASNER           08A PR D78 091103              D.M. Asner et al.                           (CLEO Collab.)
+AUBERT          08BP PR D78 112002             B. Aubert et al.                          (BABAR Collab.)
+AUBERT          08V PRL 101 071801             B. Aubert et al.                          (BABAR Collab.)
+HE              08A PRL 101 192001             Q. He et al.                                (CLEO Collab.)
+LOVE            08A PRL 101 201601             W. Love et al.                              (CLEO Collab.)
+PDG             08    PL B667 1                C. Amsler et al.                             (PDG Collab.)
+BESSON          07    PRL 98 052002            D. Besson et al.                            (CLEO Collab.)
+ROSNER          07A PR D76 117102              J.L. Rosner et al.                          (CLEO Collab.)
+BESSON          06A PR D74 012003              D. Besson et al.                            (CLEO Collab.)
+ROSNER          06    PRL 96 092003            J.L. Rosner et al.                          (CLEO Collab.)
+ADAMS           05    PRL 94 012001            G.S. Adams et al.                           (CLEO Collab.)
+ARTUSO          05    PRL 94 032001            M. Artuso et al.                            (CLEO Collab.)
+ARTAMONOV 00          PL B474 427              A.S. Artamonov et al.
+BUTLER          94B PR D49 40                  F. Butler et al.                          (CLEO Collab.)
+WU              93    PL B301 307              Q.W. Wu et al.                            (CUSB Collab.)
+HEINTZ          92    PR D46 1928              U. Heintz et al.                        (CUSB II Collab.)
+BROCK           91    PR D43 1448              I.C. Brock et al.                         (CLEO Collab.)
+HEINTZ          91    PRL 66 1563              U. Heintz et al.                          (CUSB Collab.)
+MORRISON        91    PRL 67 1696              R.J. Morrison et al.                      (CLEO Collab.)
+NARAIN          91    PRL 66 3113              M. Narain et al.                          (CUSB Collab.)
+CHEN            89B PR D39 3528                W.Y. Chen et al.                          (CLEO Collab.)
+KAARSBERG 89          PRL 62 2077              T.M. Kaarsberg et al.                     (CUSB Collab.)
+BUCHMUEL... 88        HE e + e − Physics 412 W. Buchmueller, S. Cooper              (HANN, DESY, MIT)
+    Editors: A. Ali and P. Soeding, World Scientiﬁc, Singapore
+COHEN           87    RMP 59 1121              E.R. Cohen, B.N. Taylor                       (RISC, NBS)
+BARU            86B ZPHY C32 622 (errat.) S.E. Baru et al.                                       (NOVO)
+KURAEV          85    SJNP 41 466              E.A. Kuraev, V.S. Fadin                           (NOVO)
+                      Translated from YAF 41 733.
+ARTAMONOV 84          PL 137B 272              A.S. Artamonov et al.                          (NOVO)
+GILES           84B PR D29 1285                R. Giles et al.                           (CLEO Collab.)
+ANDREWS         83    PRL 50 807               D.E. Andrews et al.                       (CLEO Collab.)
+GREEN           82    PRL 49 617               J. Green et al.                           (CLEO Collab.)
+MAGERAS         82    PL 118B 453              G. Mageras et al.                  (COLU, CORN, LSU+)
+
+
+
+
+https://pdg.lbl.gov                          Page 14                      Created: 6/1/2026 16:24
+

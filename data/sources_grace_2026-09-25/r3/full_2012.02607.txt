@@ -1,0 +1,903 @@
+                                            Neutron-Antineutron Oscillation Search using a 0.37 Megaton·Year Exposure of
+                                                                         Super-Kamiokande
+                                             K. Abe,1, 42 C. Bronner,1 Y. Hayato,1, 42 M. Ikeda,1 S. Imaizumi,1 H. Ito,1 J. Kameda,1, 42 Y. Kataoka,1
+                                           M. Miura,1, 42 S. Moriyama,1, 42 Y. Nagao,1 M. Nakahata,1, 42 Y. Nakajima,1, 42 S. Nakayama,1, 42 T. Okada,1
+                                           K. Okamoto,1 A. Orii,1 G. Pronost,1 H. Sekiya,1, 42 M. Shiozawa,1, 42 Y. Sonoda,1 Y. Suzuki,1 A. Takeda,1, 42
+                                            Y. Takemoto,1 A. Takenaka,1 H. Tanaka,1 T. Yano,1 R. Akutsu,2 S. Han,2 T. Kajita,2, 42 K. Okumura,2, 42
+                                          T. Tashiro,2 R. Wang,2 J. Xia,2 D. Bravo-Berguño,3 L. Labarga,3 Ll. Marti,3 B. Zaldivar,3 F. d. M. Blaszczyk,4
+                                                  E. Kearns,4, 42 J. D. Gustafson,4 J. L. Raaf,4 J. L. Stone,4, 42 L. Wan,4, ∗ T. Wester,4 J. Bian,5
+                                             N. J. Griskevich,5 W. R. Kropp,5 S. Locke,5 S. Mine,5 M. B. Smy,5, 42 H. W. Sobel,5, 42 V. Takhistov,5, †
+                                           P. Weatherly,5 J. Hill,6 J. Y. Kim,7 I. T. Lim,7 R. G. Park,7 B. Bodur,8 K. Scholberg,8, 42 C. W. Walter,8, 42
+                                                A. Coffani,9 O. Drapier,9 S. El Hedri,9 A. Giampaolo,9 M. Gonin,9 Th. A. Mueller,9 P. Paganini,9
+
+
+
+
+arXiv:2012.02607v1 [hep-ex] 4 Dec 2020
+                                           B. Quilain,9 T. Ishizuka,10 T. Nakamura,11 J. S. Jang,12 J. G. Learned,13 L. H. V. Anthony,14 A. A. Sztuc,14
+                                              Y. Uchida,14 V. Berardi,15 M. G. Catanesi,15 E. Radicioni,15 N. F. Calabria,16 L. N. Machado,16 G. De
+                                            Rosa,16 G. Collazuol,17 F. Iacob,17 M. Lamoureux,17 N. Ospina,17 L. Ludovici,18 Y. Nishimura,20 S. Cao,21
+                                             M. Friend,21 T. Hasegawa,21 T. Ishida,21 T. Kobayashi,21 T. Matsubara,21 T. Nakadaira,21 M. Jakkapu,21
+                                          K. Nakamura,21, 42 Y. Oyama,21 K. Sakashita,21 T. Sekiguchi,21 T. Tsukamoto,21 Y. Nakano,22 T. Shiozawa,22
+                                         A. T. Suzuki,22 Y. Takeuchi,22, 42 S. Yamamoto,22 A. Ali,23 Y. Ashida,23 J. Feng,23 S. Hirota,23 A. K. Ichikawa,23
+                                           T. Kikawa,23 M. Mori,23 T. Nakaya,23, 42 R. A. Wendell,23, 42 K. Yasutome,23 P. Fernandez,24 N. McCauley,24
+                                             P. Mehta,24 A. Pritchard,24 K. M. Tsui,24 Y. Fukuda,25 Y. Itow,26, 27 H. Menjo,26 T. Niwa,26 K. Sato,26
+                                                M. Tsukada,26 P. Mijakowski,28 M. Posiadala-Zezula,51 C. K. Jung,29 C. Vilela,29 M. J. Wilking,29
+                                           C. Yanagisawa,29, ‡ M. Harada,30 K. Hagiwara,30 T. Horai,30 H. Ishino,30 S. Ito,30 Y. Koshio,30, 42 W. Ma,30
+                                              N. Piplani,30 S. Sakai,30 Y. Kuno,31 G. Barr,32 D. Barrow,32 L. Cook,32, 42 A. Goldsack,32 S. Samani,32
+                                          C. Simpson,32, 42 D. Wark,32, 37 F. Nova,33 T. Boschi,19 F. Di Lodovico,19 S. Molina Sedgwick,19, § M. Taani,19
+                                          S. Zsoldos,19 J. Y. Yang,34 S. J. Jenkins,35 J. M. McElwee,35 M. D. Thiesse,35 L. F. Thompson,35 M. Malek,35
+                                           O. Stone,35 H. Okazawa,36 S. B. Kim,38 I. Yu,38 K. Nishijima,39 M. Koshiba,40, ¶ N. Ogawa,40 K. Iwamoto,41
+                                           M. Yokoyama,41, 42 K. Martens,42 M. R. Vagins,42, 5 M. Kuze,43 S. Izumiyama,43 M. Tanaka,43 T. Yoshida,43
+                                             M. Inomoto,44 M. Ishitsuka,44 R. Matsumoto,44 K. Ohta,44 M. Shinoki,44 J. F. Martin,45 H. A. Tanaka,45
+                                         T. Towstego,45 M. Hartz,46 A. Konaka,46 P. de Perio,46 N. W. Prouse,46 B. W. Pointon,52 S. Chen,47 B. D. Xu,47
+                                            B. Richards,48 B. Jamieson,49 J. Walker,49 A. Minamino,50 K. Okamoto,50 G. Pintaudi,50 and R. Sasaki50
+                                                                               (The Super-Kamiokande Collaboration)
+                                              1
+                                                Kamioka Observatory, Institute for Cosmic Ray Research, University of Tokyo, Kamioka, Gifu 506-1205, Japan
+                                                                              2
+                                                                                Research Center for Cosmic Neutrinos, Institute for Cosmic Ray
+                                                                                Research, University of Tokyo, Kashiwa, Chiba 277-8582, Japan
+                                                               3
+                                                                 Department of Theoretical Physics, University Autonoma Madrid, 28049 Madrid, Spain
+                                                                           4
+                                                                             Department of Physics, Boston University, Boston, MA 02215, USA
+                                                    5
+                                                      Department of Physics and Astronomy, University of California, Irvine, Irvine, CA 92697-4575, USA
+                                                         6
+                                                           Department of Physics, California State University, Dominguez Hills, Carson, CA 90747, USA
+                                                   7
+                                                     Institute for Universe and Elementary Particles, Chonnam National University, Gwangju 61186, Korea
+                                                                            8
+                                                                              Department of Physics, Duke University, Durham NC 27708, USA
+                                                           9
+                                                             Ecole Polytechnique, IN2P3-CNRS, Laboratoire Leprince-Ringuet, F-91120 Palaiseau, France
+                                                                 10
+                                                                    Junior College, Fukuoka Institute of Technology, Fukuoka, Fukuoka 811-0295, Japan
+                                                                          11
+                                                                             Department of Physics, Gifu University, Gifu, Gifu 501-1193, Japan
+                                                                12
+                                                                   GIST College, Gwangju Institute of Science and Technology, Gwangju 500-712, Korea
+                                                              13
+                                                                 Department of Physics and Astronomy, University of Hawaii, Honolulu, HI 96822, USA
+                                                              14
+                                                                 Department of Physics, Imperial College London , London, SW7 2AZ, United Kingdom
+                                         15
+                                            Dipartimento Interuniversitario di Fisica, INFN Sezione di Bari and Università e Politecnico di Bari, I-70125, Bari, Italy
+                                                       16
+                                                           Dipartimento di Fisica, INFN Sezione di Napoli and Università di Napoli, I-80126, Napoli, Italy
+                                                      17
+                                                         Dipartimento di Fisica, INFN Sezione di Padova and Università di Padova, I-35131, Padova, Italy
+                                                                18
+                                                                   INFN Sezione di Roma and Università di Roma “La Sapienza”, I-00185, Roma, Italy
+                                                                       19
+                                                                          Department of Physics, King’s College London, London, WC2R 2LS, UK
+                                                                   20
+                                                                      Department of Physics, Keio University, Yokohama, Kanagawa, 223-8522, Japan
+                                                             21
+                                                                High Energy Accelerator Research Organization (KEK), Tsukuba, Ibaraki 305-0801, Japan
+                                                                        22
+                                                                           Department of Physics, Kobe University, Kobe, Hyogo 657-8501, Japan
+                                                                       23
+                                                                          Department of Physics, Kyoto University, Kyoto, Kyoto 606-8502, Japan
+                                                                24
+                                                                   Department of Physics, University of Liverpool, Liverpool, L69 7ZE, United Kingdom
+                                                             25
+                                                                 Department of Physics, Miyagi University of Education, Sendai, Miyagi 980-0845, Japan
+                                                                                                                                2
+
+             26
+                 Institute for Space-Earth Environmental Research, Nagoya University, Nagoya, Aichi 464-8602, Japan
+27
+     Kobayashi-Maskawa Institute for the Origin of Particles and the Universe, Nagoya University, Nagoya, Aichi 464-8602, Japan
+                                        28
+                                           National Centre For Nuclear Research, 02-093 Warsaw, Poland
+           29
+              Department of Physics and Astronomy, State University of New York at Stony Brook, NY 11794-3800, USA
+                          30
+                             Department of Physics, Okayama University, Okayama, Okayama 700-8530, Japan
+                              31
+                                 Department of Physics, Osaka University, Toyonaka, Osaka 560-0043, Japan
+                             32
+                                Department of Physics, Oxford University, Oxford, OX1 3PU, United Kingdom
+                                      33
+                                         Rutherford Appleton Laboratory, Harwell, Oxford, OX11 0QX, UK
+                                  34
+                                     Department of Physics, Seoul National University, Seoul 151-742, Korea
+                35
+                   Department of Physics and Astronomy, University of Sheffield, S3 7RH, Sheffield, United Kingdom
+         36
+            Department of Informatics in Social Welfare, Shizuoka University of Welfare, Yaizu, Shizuoka, 425-8611, Japan
+                                          37
+                                             STFC, Rutherford Appleton Laboratory, Harwell Oxford, and
+                                         Daresbury Laboratory, Warrington, OX11 0QX, United Kingdom
+                                 38
+                                    Department of Physics, Sungkyunkwan University, Suwon 440-746, Korea
+                           39
+                               Department of Physics, Tokai University, Hiratsuka, Kanagawa 259-1292, Japan
+                                           40
+                                              The University of Tokyo, Bunkyo, Tokyo 113-0033, Japan
+                              41
+                                 Department of Physics, University of Tokyo, Bunkyo, Tokyo 113-0033, Japan
+                     42
+                        Kavli Institute for the Physics and Mathematics of the Universe (WPI), The University of
+                      Tokyo Institutes for Advanced Study, University of Tokyo, Kashiwa, Chiba 277-8583, Japan
+                        43
+                           Department of Physics,Tokyo Institute of Technology, Meguro, Tokyo 152-8551, Japan
+     44
+        Department of Physics, Faculty of Science and Technology, Tokyo University of Science, Noda, Chiba 278-8510, Japan
+                                   45
+                                      Department of Physics, University of Toronto, ON, M5S 1A7, Canada
+                                      46
+                                         TRIUMF, 4004 Wesbrook Mall, Vancouver, BC, V6T2A3, Canada
+                           47
+                              Department of Engineering Physics, Tsinghua University, Beijing, 100084, China
+                                 48
+                                    Department of Physics, University of Warwick, Coventry, CV4 7AL, UK
+                                   49
+                                      Department of Physics, University of Winnipeg, MB R3J 3L8, Canada
+                  50
+                     Department of Physics, Yokohama National University, Yokohama, Kanagawa, 240-8501, Japan
+                                     51
+                                        Faculty of Physics, University of Warsaw, Warsaw, 02-093, Poland
+                52
+                   Department of Physics, British Columbia Institute of Technology, Burnaby, BC, V5G 3H2, Canada
+                                                            (Dated: December 7, 2020)
+                    As a baryon number violating process with ∆B = 2, neutron-antineutron oscillation (n → n̄)
+                  provides a unique test of baryon number conservation. We have performed a search for n → n̄
+                  oscillation with bound neutrons in Super-Kamiokande, with the full data set from its first four
+                  run periods, representing an exposure of 0.37 Mton-years. The search used a multivariate analysis
+                  trained on simulated n → n̄ events and atmospheric neutrino backgrounds and resulted in 11
+                  candidate events with an expected background of 9.3 events. In the absence of statistically significant
+                  excess, we derived a lower limit on n̄ appearance lifetime in 16 O nuclei of 3.6 × 1032 years and on
+                  the neutron-antineutron oscillation time of τn→n̄ > 4.7 × 108 s at 90% C.L..
+                  Key words: Neutron-antineutron oscillation; Super-Kamiokande; Baryon number violation
+                  DOI:
+
+
+                      I.   INTRODUCTION                                the baryon number violation (∆B) involved. Processes
+                                                                       with ∆B = 1 are tightly constrained by null observa-
+  The present baryon asymmetry of the universe pro-                    tions from proton decay searches, and processes with
+vides indirect evidence for baryon number violating                    ∆B = 3 are expected to conflict with nucleosynthe-
+(BNV) processes [1], which cannot be sufficiently ex-                  sis scenarios [3]. The Standard Model allows for non-
+plained by mechanisms within the Standard Model                        perturbative processes involving sphalerons that would
+(SM) [2]. Searches for BNV processes probe physics                     wash out any baryon number asymmetry from processes
+beyond the reach of the SM can be classified based on                  that conserve B − L, where L is lepton number, before
+                                                                       the electroweak phase transition [4]. Therefore, as a BNV
+                                                                       process violating both B and B − L, neutron-antineutron
+                                                                       oscillation provides a unique probe of baryon number vi-
+∗ Corresponding author                                                 olation and essential insight into the baryon asymmetry
+     Email address: wanly@bu.edu (L. Wan)                              and baryogenesis.
+† also at Department of Physics and Astronomy, UCLA, CA 90095-
+                                                                          Since the 1970’s several models predicting n − n̄ os-
+  1547, USA.
+‡ also at BMCC/CUNY, Science Department, New York, New
+                                                                       cillations have been proposed, including those employing
+  York, 10007, USA.                                                    an SU(2)L ×SU(2)R ×SU(4)c gauge group to generate a
+§ currently at Queen Mary University of London, London, E1 4NS,        baryon asymmetry [5, 6] and others that propagate SM
+  United Kingdom.                                                      fields into extra space-time dimensions [7]. The predicted
+¶ Deceased.
+                                                                       oscillation times vary from 109 s [7] to 5 × 1010 s [6] and
+                                                                                                                         3
+
+correspond to energy scales of 102 ∼ 103 TeV, well above        II.   THE SUPER-KAMIOKANDE EXPERIMENT
+the scale that can currently be probed by accelerators.
+   The probability of a free neutron oscillating to an an-         Super-Kamiokande (SK) is a cylindrical 50 kiloton wa-
+tineutron can be parameterized as a simple 2 × 2 Hamil-         ter Cherenkov detector located in Kamioka, Japan, that
+tonian and can be written as                                    is shielded by a 2,700 meter water-equivalent rock over-
+                                                                burden [19]. The detector consists of an outer detec-
+                     δm2        2
+                                   p
+                                                                tor (OD) instrumented with 1885 outward-facing 8-inch
+    Pn→n̄ (t) =              sin  ( ∆E 2 + δm2 t),       (1)
+                  ∆E 2 + δm2                                    PMTs mounted 2 m from the detector’s outer wall on
+                                                                a structure that optically separates it from the inner
+where ∆E is the energy difference between the neu-              detector (ID). This structure also supports the 11,129
+tron and antineutron and δm = 1/τn−n̄ , where τ is the          inward-facing 20-inch PMTs that form the ID and view
+neutron-antineutron oscillation time. In the case of de-        its 32 kton target volume. The OD is primarily used as
+generate neutron and antineutron energies, Equation. (1)        a veto for charged particles entering from outside the de-
+has a simplified form,                                          tector or identifying particles that exit the ID, and the
+                                               2              ID itself is used reconstruct the energies, vertexes, and
+                               2          t                     particle types of most interest to the present work.
+             Pn→n̄ (t) ≈ (δmt) =                     .   (2)
+                                        τn−n̄                      The experiment started data taking in 1996 and under-
+                                                                went four data-taking phases since then labeled as SK-I,
+For bound neutrons in nuclei, the probability can be writ-      II, III, and IV. The SK-I period ran from 1996 until the
+ten as [8]                                                      detector underwent maintenance in 2001. During that
+                                                                period, an accident destroyed more than half of the SK
+                                1       1                       PMTs, reducing the photocathode coverage from ∼ 40%
+             Pnuc (n → n̄) =        ≈        ,           (3)
+                               Tnuc     2
+                                      Rτn−n̄                    to ∼ 19% for the SK-II period in 2002-2005. After re-
+                                                                placing the missing PMTs in 2005, the detector restarted
+where Tnuc is the observed neutron lifetime in neutron-         operations as SK-III in 2006-2008. Following upgrades of
+antineutron oscillation, and R is the so-called nuclear         the front-end electronics and water purification system,
+suppression factor that accounts for the suppression of         the SK-IV period ran from 2008 until May of 2018, when
+oscillations due to differences in the nuclear potentials of    the data taking was paused and the detector tank was
+neutrons and antineutrons. Theoretical calculations of          opened for further upgrades. The analysis in this work
+R using effective field theories vary [9, 10], but in the       uses the full data set from the SK-I-IV periods. Details
+following, we adopt R = 0.517 × 1023 s−1 for 16 O based         of the detector and its calibration can be found in [20].
+calculations by Friedman et.al. [8].
+   Experimental searches for n − n̄ oscillation rely on ob-
+serving particles (mostly pions) produced when a neu-                             III.   SIMULATION
+tron oscillates into an antineutron and annihilates with
+a nearby nucleon. There have been a number of n − n̄               Following the oscillation of a neutron into an antineu-
+searches using either free neutrons [11] or bound neu-          tron, the subsequent annihilation of the antineutron with
+trons [12–18], none of which have yielded a positive sig-       a nucleon in the oxygen nucleus is expected to produce
+nal. Accordingly, constraints on the n − n̄ oscillation         many visible particles, most of which are pions. The
+time have been set at τn−n̄ > 0.86 × 108 s for free neu-        simulation of this signal is broken into stages: oscilla-
+tron oscillation [11] and at τn−n̄ > 2.7 × 108 s for bound      tion, hadronization, final state interactions of particles
+neutrons [12].                                                  before exiting the nucleus, and finally propagation and
+   In this paper, we present a search for n − n̄ oscillations   subsequent reinteraction of those particles with detector
+using the full data set from the first four running periods     media. During the first stage, the position of the oscil-
+of Super-Kamiokande and update the result presented in          lated neutron within the nucleus is determined using the
+Ref. [12] which used data from the first period. The cur-       standard Woods-Saxon distribution [8, 21] with a Fermi
+rent analysis includes an updated data set, an updated          momentum simulation based on the spectral function
+hadron production model, final state interactions, and          measured in [22]. The effect of nuclear binding energy
+adopts a multivariate method to achieve better discrim-         is taken into account by subtracting it from the nucleon
+ination between the background and signal processes.            masses when calculating the annihilation products, using
+This paper is organized as follows. After a short descrip-      39.0 MeV for s-state and 15.5 MeV for p-state nucleons
+tion of the Super-Kamiokande detector in Section II, we         respectively. Thereafter the oscillated antineutron is as-
+describe the simulation of both the n− n̄ signal and atmo-      sumed to have an equal probability of annihilating with
+spheric neutrino background in Section III. The selection       any remaining nucleons.
+algorithm and analysis cuts are explained in Section IV,           Modeling of the n̄n or n̄p annihilation products is done
+followed by discussion of systematic uncertainties in Sec-      based on available accelerator data. Due to a lack of an-
+tion V. Analysis results and concluding remarks are pre-        tineutron scattering data, the hadronization simulation
+sented in Sections VI and VII, respectively.                    uses results from antiproton scattering experiments in-
+                                                                                                                          4
+
+
+TABLE I. Branching ratios (BR ), relative uncertainties, and   TABLE II. Branching ratios (BR ), relative uncertainties, and
+corresponding efficiencies for n̄n annihilation products.      corresponding efficiencies for n̄p annihilation products.
+                     BR [%] Relat. Uncer. Efficiency [%]                            BR [%] Relat. Uncer. Efficiency [%]
+   2π0                  0.1           5%             3.2             π + π0            0.1         32%              3.4
+   3π0                  0.7           6%             3.6             π + 2π0           0.7         32%              3.2
+   4π0                  0.3           6%             4.4             π + 3π0          14.8         32%              3.5
+   5π0                  1.0           4%             3.8             π + 4π0           1.4         32%              2.6
+   7π0                  0.1           8%             2.1             2π + π −          2.0         10%              3.6
+   π+ π−                0.3           4%             4.8             2π + π − π0      17.0         10%              3.5
+   π + π − π0           1.6          15%             4.8             2π + π − 2π0     10.8         10%              3.4
+   π + π − 2π0         13.1          15%             4.3             2π + π − 3π0     30.1         10%              3.8
+   π + π − 3π0         11.2          15%             4.2             3π + 2π −         5.5         10%              3.2
+   π + π − 4π0          3.3          14%             4.0             3π + 2π − π0      3.2         10%              3.2
+   π + π − 5π0          1.4          15%             4.7             π+π0ω             2.0         32%              3.4
+   2π + 2π −            6.0          16%             4.2             2π + π − ω       12.4         32%              3.6
+   2π + 2π − π0        13.6          15%             4.5
+   2π + 2π − 2π0       15.7          15%             4.5
+   2π + 2π − 3π0        0.6          33%             4.9       the interaction probabilities are calculated according to
+                                                               the model of Salcedo and Oset [30] in consideration of
+   3π + 3π −            2.2          15%             3.7
+                                                               the effect of Pauli blocking. More details can be found
+   3π + 3π − π0         2.0          15%             4.1
+                                                               in Ref. [29].
+   ρ0 π 0               1.8          15%             4.8          Atmospheric neutrino interactions in water are the
+   ρ+/− π −/+           3.7          15%             4.5       dominant background to the search for n − n̄ oscilla-
+   ωω                   3.5          15%             4.5       tion at SK. The theoretical calculation from the HKKM
+   ρ0 ω                 2.4          15%             4.0       model [31, 32] predicts the atmospheric neutrino flux at
+   π0 π0ω               2.7          15%             3.8       Kamioka in the energy region from sub-GeV up to sev-
+   π+ π−ω               7.1          15%             4.5       eral TeV after oscillation. Using this flux prediction, we
+   ηω                   1.6          15%             4.6
+                                                               simulated atmospheric neutrino interactions, including
+                                                               the outgoing particles and their subsequent interactions
+   π+ π−η               1.7          15%             3.8
+                                                               with the nuclear medium in water, with NEUT version
+   Kaonic channels      2.3          15%             4.5       5.3.6 [33]. Final state interactions for both the signal and
+                                                               background are simulated with NEUT.
+                                                                  Particles escaping the nucleus are passed to a
+stead. Assuming isospin symmetry, we used data from            GEANT3-based [34] detector simulation. The simula-
+the p̄p annihilation experiment Crystal Barrel [23, 24] to     tion tracks particles through the detector medium, sim-
+simulate the n̄n annihilation. For the n̄p channel, we         ulating their interactions in water as well as the produc-
+used the p̄n annihilation branching ratio measurements         tion of secondary particles and the response of the PMTs
+from the OBELIX experiment [25] and bubble chamber             to Cherenkov radiation. Detailed tuning and calibration
+data [26–28] and then flipped the signs of the charged         has been performed to provide a tailored simulation of
+pions to match n̄p. Tables I and II show the branch-           photon propagation in Super-K [35]. The interaction
+ing ratios for n̄n and n̄p adopted in the simulation. The      of hadrons with water is simulated using the GCALOR
+branching ratios of kaonic channels are artificially con-      package [36], except for pions below 500 MeV/c, which
+structed due to lack of experimental data, and the kaonic      are simulated using a model based on NEUT’s FSI simu-
+production for n̄p is less than 1/2 from n̄n, and thus is      lation. The final background is reweighted to the result of
+omitted. Corresponding uncertainty calculations can be         the analysis in [37], adjusting its central value to the best
+found in Section V, and the efficiency calculation is ex-      fit oscillation and systematic error parameters favored by
+plained in Section IV.                                         the Super-K data.
+   Hadronization products are mostly pions. The pion
+interaction probability within the oxygen nucleus is ex-
+pected to be large, and these so-called final state interac-        IV.    EVENT RECONSTRUCTION AND
+tions (FSI) include quasi-elastic scattering (e.g., π + n →                      SELECTION
+π + n), absorption (π + + n → p, π − + p → n), charge
+exchange (π + + n → p + π 0 , π − + p → n + π 0 ), and            The present analysis uses the full data set from the SK-
+pion production (π ± + n → π ± + n + π 0 ) [29]. For pions     I through SK-IV periods, corresponding to 6050.0 live-
+above 500 MeV/c, the surrounding nucleons are treated          days. Events are required to be fully contained (FC),
+as quasi-free particles, while for lower momentum pions        meaning the number of PMTs in the highest charge clus-
+                                                                                                                                              5
+
+ter of outer detector hits is less than 10 in SK-I and             Super-Kamiokande IV
+                                                                   Run 999999 Sub 0 Event 231
+
+less than 16 in SK-II-III-IV. Timing information in each           19-10-16:04:36:05
+                                                                   Inner: 2169 hits, 4505 pe
+                                                                   Outer: 5 hits, 5 pe
+
+event’s hit PMTs in the ID is used to reconstruct an over-         Trigger: 0x02
+                                                                   D_wall: 508.0 cm
+                                                                   Evis: 475.6 MeV
+
+all vertex from the event, from which an iterative search
+based on the Hough transform [38] is performed to iden-           Charge(pe)
+                                                                         >26.7
+
+
+tify Cherenkov rings. Each Cherenkov ring is classified
+                                                                     23.3-26.7
+                                                                     20.2-23.3
+                                                                     17.3-20.2
+                                                                     14.7-17.3
+
+according to its hit pattern and opening angle as either             12.2-14.7
+                                                                     10.0-12.2
+                                                                      8.0-10.0
+
+“showering” (e-like) for particles that create electromag-            6.2- 8.0
+                                                                      4.7- 6.2
+                                                                      3.3- 4.7
+
+netic showers such as e and γ or as “non-showering” (µ-               2.2- 3.3
+                                                                      1.3- 2.2
+                                                                      0.7- 1.3
+
+like) for particles such as µ and π ± . The momentum                  0.2- 0.7
+                                                                         < 0.2
+
+
+
+of each ring is determined by the particle type and the                                                400
+
+                                                                                                       320
+                                                                                                                                 2 mu-e
+                                                                                                                                 2 decays
+
+
+charge among all hit PMTs within a 70 ◦ cone around the                                                240
+
+
+
+ring with consideration of charge shared between multi-                                                160
+
+                                                                                                        80
+
+
+ple rings. An additional search for delayed electrons from                                               0
+                                                                                                             0   500   1000     1500   2000
+
+
+
+muon decays is performed from 1.2-20 µs after the pri-                                                             Times (ns)
+
+
+mary event trigger.                                                Super-Kamiokande IV
+                                                                   Run 999999 Sub 11 Event 628
+
+   This analysis starts with FC events more than 2.0 m
+                                                                   16-03-10:18:49:58
+                                                                   Inner: 3682 hits, 10223 pe
+                                                                   Outer: 1 hits, 0 pe
+
+
+from the ID wall, which defines a 22.5 kton fiducial vol-          Trigger: 0x07
+                                                                   D_wall: 300.0 cm
+                                                                   Evis:   1.0 GeV
+
+
+ume. The reduction efficiency is 92% for n → n̄ signal
+events in fiducial volume. This sample is then processed          Charge(pe)
+                                                                         >26.7
+                                                                     23.3-26.7
+
+in two stages, first applying simple analysis cuts before            20.2-23.3
+                                                                     17.3-20.2
+                                                                     14.7-17.3
+
+applying a multivariate technique to extract the signal.             12.2-14.7
+                                                                     10.0-12.2
+                                                                      8.0-10.0
+                                                                      6.2- 8.0
+                                                                      4.7- 6.2
+                                                                      3.3- 4.7
+                                                                      2.2- 3.3
+                                                                      1.3- 2.2
+                                                                      0.7- 1.3
+                                                                      0.2- 0.7
+
+                 A.     Analysis Pre-cuts                                < 0.2
+
+
+                                                                                                       700
+                                                                                                                                 1 mu-e
+                                                                                                                                 1 decay
+                                                                                                       560
+
+
+
+   Based on the distinct features of n− n̄ and atmospheric
+                                                                                                       420
+
+                                                                                                       280
+
+
+neutrino events, several preliminary cuts are applied to                                               140
+
+                                                                                                         0
+
+reduce background rates while maintaining high signal                                                        0   500   1000
+
+                                                                                                                   Times (ns)
+                                                                                                                                1500   2000
+
+
+
+
+efficiency. The n − n̄ oscillation signal is expected to
+have multiple pions, while a large number of atmospheric      FIG. 1. The event display of a simulated n → n̄ oscillation
+neutrino interactions are elastic scatters with only one      event (top) and a simulated background event (bottom).
+Cherenkov ring from the outgoing charged lepton. There-       The top figure shows the n̄p annihilation producing 6 pions.
+fore, the number of reconstructed rings is required to be     In total, there are 13 rings of these pions and their decay
+>1. This cut removes ∼ 75% of the background while            products, among which 5 were reconstructed (colored rings).
+keeping 89% of the signal. Unlike the wide range of ener-     The beige ring is a successfully reconstructed π + . The dashed
+gies covered by atmospheric neutrinos, the n − n̄ signal is   small ring is a π − mistakenly reconstructed as a electron-
+more kinetically constrained, and thus a set of kinematic     like particle, and the dashed large ring is a similarly mis-
+                                                              reconstructed π + . The two solid cyan rings are 2 γ’s from the
+cuts are also applied. Here, the total reconstructed mo-
+                                                              decay of a π 0 .
+mentum is required to be within [35, 875] MeV/c, the          The bottom figure shows the deep inelastic scattering process
+visible energy in [30, 1830] MeV, and the total recon-        of a νe . In this event, there are 4 rings reconstructed by the
+structed invariant mass in [80, 1910] MeV/c2 . After the      algorithm, all of which are γ’s.
+cut on the number of rings, these kinematic cuts further
+remove ∼ 50% of the background with a relative signal
+efficiency of 98%.                                            cantly enhance the separation between n → n̄ signal and
+                                                              background. An estimation using the same MC set shows
+                                                              that the sensitivity of the MVA method is twice that of
+              B.      Multivariate Analysis                   the box-cut method.
+                                                                Compared to atmospheric neutrino backgrounds, n̄n
+   Event displays of a simulated n → n̄ signal event and a    or n̄p annihilation within oxygen are generally expected
+simulated background event are shown in Fig. 1. Due to        to be more constrained kinematically and have more
+the high ring multiplicity, the performance of ring recon-    Cherenkov rings isotropically distributed in the detector.
+struction for n → n̄ signal events is not as satisfactory     To exploit these features, we introduced 12 variables into
+as typical sub-GeV neutrino events. To compensate for         the MVA, among which three are conventional kinematic
+the limitation of ring reconstruction and to include more     quantities, including the visible energy, total momentum,
+discriminant features, we applied a multivariate analysis     and total invariant mass.
+(MVA) to events passing the pre-cuts. Compared to a             The remaining nine input variables are as follows.
+conventional box-cut analysis [12], this analysis signifi-    Since only a fraction of atmospheric neutrinos has suf-
+                                                                                                                          6
+
+ficient energy to produce multiple charged particles, sig-
+                                                                 TABLE III. Summary of remaining atmospheric neutrino
+nal events are typically expected to have more visible
+                                                                 background events after the MVA selection and scaled to the
+Cherenkov rings. The number of such rings is used as a           full SK-I-IV livetime.
+variable. However, the full reconstruction is limited to
+five rings, as in the case of Fig. 1. Therefore, an addi-                      Channel Events νµ + ν̄µ νe + ν̄e
+tional variable that counts ring fragments, or potential                       NC DIS 3.7        -        -
+rings, is also introduced.                                                     CC DIS 3.6       2.0      1.6
+   The total momentum of an n− n̄ event is limited by the                      CC 1π    1.1     0.7      0.4
+momenta of the interacting nucleons, while a background                        CC EL    0.3     0.1      0.2
+event can carry more momentum from the incident neu-                           NC 1π    0.1      -        -
+trino and is expected to be more forward-going at the                          Other    0.3      -        -
+energies needed to produce multiple particles. There-                          Total    9.3      -        -
+fore, this search employs four variables to quantify the
+isotropy of candidate events. The energy ring ratio is
+defined as (Etot − Emax )/[Etot · (nring − 1)], where Emax
+is the energy of the ring with highest energy in an event,       megaton·years exposure and realistic systematic errors
+Etot is the total energy of the event, and nring is the          (described below) using the Rolke method [42] to de-
+number of rings. For the n − n̄ signal, the annihilation         termine the optimal cut position in the output estima-
+energy is more uniformly distributed among the outgo-            tor. The optimized cut was found to be 0.789, where
+ing pions and therefore, the distribution of this variable       the signal (background) efficiency from the MVA alone is
+is expected to have a sharper peak than than of back-            5.0% (0.1%). Combined with the pre-selection efficiency,
+grounds. Signal events are also expected to have higher          the total signal efficiency is 4.1% with an expected back-
+sphericity than backgrounds, so this analysis adopts a           ground of 0.56 events per year, or 9.3 events over the
+sphericity variable [39]. Fox-Wolfram moments, which             entire data period. Selection efficiencies for each of the
+are superpositions of spherical harmonics that measure           signal channels can be found in the last column of Table I
+correlations between particle momenta (see Ref. [40] for         and Table II.
+details) are also adopted to describe the correlation be-           Among the multiple types of neutrino interactions, the
+tween rings. This analysis employs the first and second          dominant background in this analysis is from deep inelas-
+order Fox-Wolfram moments, since higher orders were              tic scattering (DIS), with secondary contributions from
+found to provide little extra discrimination ability.            charged current pion production (CC 1π), neutral cur-
+                                                                 rent pion production (NC 1π), and charged current elas-
+   Finally, three variables related to particle identification
+                                                                 tic scattering (CC EL). Figure 4 shows the remaining
+are used: the number of e-like rings, the number of decay
+                                                                 backgrounds before the MVA cut. After applying the
+electrons, and the maximum distance to any decay elec-
+                                                                 MVA cut, the remaining backgrounds in the final sam-
+tron from the primary vertex. Due to the large number
+                                                                 ple are shown in Table III, with νµ + ν̄µ contributing 5.8
+of signal modes with one or more π 0 s in the final state,
+                                                                 events, νe + ν̄e contributing 3.5 events. The contribution
+signal events are expected to have more e-like rings from
+                                                                 from ντ + ν̄τ is less than 0.1 event and is not shown in
+their decays into photons. Corresponding distributions
+                                                                 Table III.
+for signal and background Monte Carlo (MC) after the
+pre-cuts are shown in Fig. 2.
+   These 12 variables are used in the construction of a                   V.    SYSTEMATIC ESTIMATION
+multilayer perceptron (MLP) [41], which is trained on
+n − n̄ signal and atmospheric neutrino background MC.
+The MLP consists of a network of layers of nodes that               In this analysis systematic uncertainties are separated
+are weighted and interconnected in order to optimize the         into two categories, those that arise from uncertainty in
+discrimination between event types. Input variables form         the physics modeling, such as the hadronization process
+the input layer nodes and are combined in the MVA into           and final state interaction, and those related to the de-
+a single node at the output layer, which is the estima-          tector response and event reconstruction.
+tor describing how signal- or background-like an event
+is. Between these layers there can be so-called hidden
+layers, whose structure and connectivity can be altered                        A.   Modeling Uncertainties
+to optimize performance. In this analysis, a trial-and-
+error optimization for the hyper-parameters of the MLP                                   1.   Signal
+structure was performed and the final structure was de-
+termined to be 1 hidden layer with 18 hidden nodes.                 Uncertainty in the momentum of the oxygen nucleons
+   The signal efficiency and background efficiency as a          is expected to impact the resulting momentum of the
+function of the estimator value is shown in Fig. 3, where        n − n̄ annihilation products. A systematic uncertainty is
+0 corresponds to background-like and 1 is signal-like.           derived from the difference between the default spectral
+A sensitivity analysis was performed assuming a 0.37             function model (described in Sec. III) and the Fermi gas
+                                                                                                                                                                                         7
+
+
+                                                            400                                             1500                                 6000
+
+  800                                  Signal                                                                                                    5000
+                                       Background           300
+                                                                                                            1000                                 4000
+  600
+                                       Data                                                                                                      3000
+                                                            200
+  400
+                                                                                                             500                                 2000
+  200                                                       100
+                                                                                                                                                 1000
+     0                                                        0                                                0                                    0
+      0                500 1000 1500                2000       0    200 400 600 800 1000                        0     500     1000 1500              1       2      3     4      5   6
+                      visible energy [MeV]                         total momentum [MeV]                             invariant mass [MeV]                         number of rings
+
+                                                                                                                                                 3000
+                                                           1000
+ 1500                                                                                                                                            2500
+                                                            800                                             1000                                 2000
+ 1000                                                       600
+                                                                                                                                                 1500
+                                                            400                                              500                                 1000
+  500
+                                                            200                                                                                   500
+     0                                                        0                                                0                                    0
+      0                   5        10       15      20         0   0.1 0.2 0.3 0.4                    0.5       0   0.2   0.4 0.6      0.8   1              0           2       4
+                              potential rings                         energy ring ratio                                   sphericity                             1st F-W moment
+
+
+                                                                                                            5000
+                                                           4000
+ 3000                                                                                                       4000
+                                                           3000                                                                                   103
+
+ 2000                                                                                                       3000
+                                                           2000
+                                                                                                            2000                                  102
+ 1000                                                      1000                                             1000
+
+     0                                                        0                                                0
+                      0          2       4                     0       2          4                   6         0    1   2      3     4      5          0    500 1000 1500 2000
+                          2nd F-W moment                               e-like rings                                  number of decay-e                  maximum decay-e distance [cm]
+
+
+FIG. 2. The 12 input variables to the multivariate analysis for signal (blue), background (red), and data (black), after precuts.
+Signal and background simulations are normalized to data.
+
+
+                 1                                                              1                            each annihilation channel also introduce a systematic un-
+                0.9                                                             0.9                          certainty in the hadronization process, resulting in un-
+                0.8                                                             0.8                          certainties in the pion multiplicity of signal events. This
+                0.7                                                             0.7                          uncertainty is accounted for by assigning uncertainties on
+
+
+                                                                                      τ [1032 year]
+                                                                                                             the branching ratio of each channel listed in Table I and
+   Efficiency
+                0.6                                                             0.6
+                0.5                                                             0.5                          Table II based on the statistical uncertainty in the results
+                0.4                                                             0.4                          from the Crystal Barrel [23, 24] and the OBELIX exper-
+                0.3                                                             0.3                          iments [25]. They were then propagated to the analysis
+                0.2                                                             0.2
+                                                                                                             by reweighting the various final states accordingly and
+                                                                                                             result in a 4% uncertainty on the signal efficiency.
+                0.1                                                             0.1
+                 0
+                      0                              0.5                       1
+                                                                                0                               Final state interaction modeling is the dominant sys-
+                                                 MVA estimator                                               tematic error on the signal efficiency. To estimate this
+                                                                                                             uncertainty, we generated separate MC sets, each with
+FIG. 3. Signal (blue) and background (red) efficiency as a                                                   different FSI model parameters that control the strength
+function of the MVA output estimator threshold. The ex-                                                      of the interaction cross-sections and are allowed by fits
+pected sensitivity at each value of the estimator threshold as                                               to pion-nucleon scattering data [17]. These MC samples
+estimated using the Rolke method is shown in the gray curve.                                                 were processed through the same event selection, and the
+The dashed line indicates the optimum cut point.                                                             largest change in the signal efficiency is taken as the un-
+                                                                                                             certainty. In this analysis, the largest deviation came
+                                                                                                             from a variation with enhanced quasi-elastic scattering
+model [43] used in the atmospheric neutrino simulation.                                                      and absorption, but with decreased inelastic scattering,
+It yields an uncertainty in the signal efficiency of 7%.                                                     which produces fewer hadrons and thus lower efficiency.
+   Measured uncertainties in the branching fraction of                                                       The assigned uncertainty is 31%.
+                                                                                                                                        8
+
+
+                                                                             TABLE IV. Summary of systematic uncertainties on the sig-
+                     104                                                     nal efficiency and backgrounds. The atmospheric neutrino
+                                                                             row represents the combined uncertainty from modeling of
+                                               NCDIS    CCDIS    CC1π
+                                                                             their flux and interactions.
+
+
+
+
+  Number of events
+                     103
+                                                                                                        Signal Efficiency Background
+                                               CCEL     NC1π     other
+                     10   2                                                      Physics
+                                                                                 Hadronization                      4%             -
+                     10                                                          FSI                               31%             -
+                                                                                 Fermi motion                       7%             -
+                       1                                                         Atmospheric ν                        -         24%
+                                                                                 Detector
+               10−1                                                              Energy scale                       5%          11%
+                              0    0.2         0.4     0.6      0.8      1       Non-uniformity                     4%           6%
+                                           MVA estimator                         Ring counting                      2%           2%
+                                                                                 Other MVA variables                4%           7%
+FIG. 4. Remaining neutrino interaction backgrounds as a                          Total                             33%          28%
+function of the MVA estimator after pre-selection and before
+MVA cut, broken-down into interaction channels, as shown in
+the legend.
+                                                                               TABLE V. Overall efficiency and systematic uncertainty
+                                                                                                Efficiency Event rate Systematics
+                                          2.   Background                          Signal         4.1%          -        33%
+                                                                                   Background        -     0.56 / year   28%
+   Uncertainties on the atmospheric neutrino background
+were calculated using the fit result from the SK atmo-
+spheric neutrino analysis [37]. A set of weights was con-                    in a 5% and 11% uncertainty on the signal efficiency and
+structed for each event, describing how it changes under                     background rate, respectively. Similarly, differences in
+a 1σ variation of each systematic error parameters used                      the water quality in the top and bottom regions of the
+in that analysis. Applying these weights to the MC al-                       Super-K tank introduces an asymmetry in the energy
+lows the uncertainty to be conservatively propagated to                      scale that introduces an additional 4% signal efficiency
+the background prediction.                                                   uncertainty and 6% background rate uncertainty.
+   The overall atmospheric neutrino flux normalization                          Ring counting introduces 2% uncertainty in signal ef-
+has an uncertainty of 15% [37] in the dominant back-                         ficiency and 1% in background rate. This uncertainty
+ground energy range between 1 and 10 GeV, resulting                          is estimated by comparing the ring counting likelihood
+in a 7% uncertainty in the background rate. In total,                        distribution of MC and a controlled sample data [44].
+the uncertainty introduced by modeling of the flux was                          For MVA variables besides ring counting, energy scale,
+estimated to be 8%. Neutrino PMNS oscillation param-                         and non-uniformity, we use an inclusive controlled sam-
+eter uncertainties, particularly from θ23 , also introduce                   ple (FC data after precuts, before MVA), and compare
+a 3% uncertainty. Uncertainties from the neutrino in-                        data and MC prediction, as shown in Fig. 2. The source
+teraction modeling are the most significant contribution                     uncertainties are assigned from the deviation of data and
+to the error budget. The total uncertainty from neutrino                     MC. These source uncertainties are then propagated to
+interaction was estimated at 24%, among which the main                       efficiency uncertainties.
+contribution was found to originate from uncertainties in                       The individual systematic sources and their uncertain-
+the deep inelastic scattering model and its cross-section.                   ties are summarized in Table IV, while the total efficiency
+                                                                             and uncertainty are presented in Table V.
+
+                                  B.     Detector Systematics
+                                                                                                  VI.    RESULT
+   Uncertainties in the detector’s energy scale and the
+reconstruction’s ability to accurately identify the number                     This full SK-I-IV data set corresponds to an exposure
+of and particle type of each ring introduce uncertainties                    of 0.37 megaton·years. After applying the cuts above,
+in both the signal efficiency and background rate. The                       11 events are found in data, which is consistent with the
+energy scale uncertainty is evaluated using calibration                      expected background of 9.3 ± 2.7 events. Furthermore,
+sources and control samples, such as cosmic ray muons                        data and MC are in good agreement both before (Fig. 5)
+and their decay electrons [37], and is 3.3% in SK-I, 2.8%                    and after (Fig. 6) the MVA cut. The input variables to
+in SK-II, 2.4% in SK-III, and 2.1% in SK-IV. It results                      the MVA show a similar agreement (Fig. 2). Accordingly,
+                                                                                                                                                 9
+
+
+                      104                                                                                  15
+
+                      103                                                                                  10
+
+
+
+
+   Number of events
+                                                                                                            5
+                      102
+                                                                                    y [m]                   0
+                      10
+                                                                                                           −5
+                        1                                                                                 −10
+
+                                                                                                          −15
+                            0         0.2          0.4         0.6     0.8   1                                  −10           0           10
+                                              MVA estimator                                                               x [m]
+
+FIG. 5. MVA output estimator after applying the analysis
+precut. The expected background is shown in red, the signal                                                15
+(scaled to data) in blue, and the data points are shown in
+black.                                                                                                     10
+                                                                                                            5
+                        7                                                           z [m]                   0
+
+                        6                                                                                  −5
+
+
+
+
+   Number of events
+                        5                                                                                 −10
+
+                        4                                                                                 −15
+
+                        3                                                                                   0    50     100        150     200
+                                                                                                                         r2 [m2]
+                        2
+                        1                                                        FIG. 7. Spatial distribution of observed events after precuts
+                                                                                 (black), and after the MVA cut (red) in the plane perpen-
+                        0                                                        dicular to the detector axis (top) and in the radial and axial
+                                0.8         0.85         0.9         0.95    1   direction (bottom).
+                                              MVA estimator
+
+FIG. 6. MVA output estimator after applying the cut at 0.789
+in this variable. The expected background is shown in red,
+the signal in blue, and the data points are shown in black.
+                                                                                                          100
+
+
+
+
+                                                                                    Events per 2 months
+we find no evidence for neutron-antineutron oscillations.                                                  80
+   Figure 7 shows the 11 candidate events within the de-
+tector. The spatial distribution is uniform as expected.                                                   60
+Figure 8 shows the distribution in time. The dependence
+of events after precut on time is due to the live-time                                                     40
+of SK. Performing a K-S test on the distrbution yields a
+maximum distance between data and MC at 0.33. To de-                                                       20
+termine the likelihood of this result, this procedure was
+repeated on simulated data sets with the same size as                                                       0
+the observation and assuming a constant rate. Among                                                             2000   2005       2010   2015
+these pseudoexperiments, 14% had a K-S distance larger                                                                    Year
+than 0.33, indicating no significant deviation from the
+assumed uniform distribution and is consistent with the                          FIG. 8. Distribution of observed events in time after precuts
+expectation from atmospheric backgrounds.                                        (black) and after the MVA cut (red). For comparison the
+   A comparison of the expected atmospheric neutrino                             background expectation after the MVA cut scaled by a factor
+background, signal efficiency and observed data in each                          of 500 is shown in blue.
+SK run period is shown in Table. VI. Signal efficiencies
+                                                                                                                          10
+
+                                                                 vious presults [12], the updated final state interaction
+TABLE VI. Comparison of the expected atmospheric neu-
+                                                                 model predicts fewer pions and less separation between
+trino background, signal efficiency, livetime, and observation
+in each run period.                                              signal and neutrino backgrounds. With the advanced
+                                                                 MVA method and the inclusion of multiple new variables,
+                        SK-I SK-II SK-III SK-IV                  the sensitivity of this analysis is still greatly enhanced.
+      Efficiency        3.7% 3.3% 3.7% 4.4%                         For the 0.37 megaton·year exposure at SK, we ob-
+      Background events 1.98 1.03    0.74 5.50                   served 11 events with an expected background of 9.3±2.7
+      Livedays         1489.2 798.6 518.1 3244.1                 events. There is no statistically significant excess of data
+      Candidates            0     1     1      9                 events, so a lower limit on the neutron lifetime is set at
+                                                                 3.6 × 1032 years at 90% C.L., corresponding to a lower
+                                                                 limit on the neutron-antineutron oscillation time in 16 O
+TABLE VII. Expected and observed limits from the                 of τn→n̄ > 4.7 × 108 s. This is the world’s most stringent
+background-only hypothesis.                                      limit on neutron-antineutron oscillation so far, with 90%
+                                                                 improvement from the previous best limit [12].
+              Events Tn−n̄ (1032 yrs) τn→n̄ (108 s)
+      Expected 9.3         4.3            5.1
+      Observed 11          3.6            4.7
+
+
+and background rates are slightly different across these
+run periods, and the majority of candidate events are
+found in SK-IV, which has the longest livetime. The
+Poisson probability of observing 9 or more events in SK-
+IV with an expectation of 5.5 events (ignoring systematic
+uncertainties) is 10.6%. This observation is similarly con-                     ACKNOWLEDGMENTS
+sistent with the background expectation.
+   In the absence of a statistically significant excess in
+data, a lower limit is established. To account for both
+statistical and systematic uncertainties, we used Rolke             We gratefully acknowledge the cooperation of the
+method in confidence interval calculation. The observa-          Kamioka Mining and Smelting Company. The Super-
+tion limit on neutron lifetime is set at 3.6 × 1032 years        Kamiokande experiment has been built and operated
+(90% C.L.). Equation (3) and R = 0.517 × 1023 s−1 [8]            from funding by the Japanese Ministry of Education,
+are used to derive the corresponding limit on the n − n̄         Culture, Sports, Science and Technology, the U.S. De-
+oscillation time, τn→n̄ > 4.7 × 108 s. A comparison be-          partment of Energy, and the U.S. National Science Foun-
+tween the expected sensitivity and this result is shown in       dation. Some of us have been supported by funds from
+Table. VII. Alternative calculations of the nuclear sup-         the National Research Foundation of Korea NRF-2009-
+pression factor R can be found in Refs [9, 10].                  0083526 (KNRC) funded by the Ministry of Science,
+   Table VIII compares the present results with those            ICT, and Future Planning and the Ministry of Educa-
+from other bound neutron experiments and free neutron            tion (2018R1D1A3B07050696, 2018R1D1A1B07049158),
+oscillation experiments. Papers before the year 2000 typ-        the Japan Society for the Promotion of Science, the Na-
+ically report τn→n̄ assuming R = 1 × 1023 /s, and the pre-       tional Natural Science Foundation of China under Grants
+vious SK result considered uncertainty in the theoretical        No. 11620101004, the Spanish Ministry of Science, Uni-
+prediction of R. For betterpcomparison and easier conver-        versities and Innovation (grant PGC2018-099388-B-I00),
+sion, τn→n̄ is presented as Tn−n̄ /R with corresponding          the Natural Sciences and Engineering Research Council
+nuclear suppression factor R listed in Table VIII. This          (NSERC) of Canada, the Scinet and Westgrid consortia
+analysis gives the most stringent limit on n → n̄ oscilla-       of Compute Canada, the National Science Centre, Poland
+tion so far.                                                     (2015/18/E/ST2/00758), the Science and Technology
+                                                                 Facilities Council (STFC) and GridPPP, UK, the Euro-
+                                                                 pean Union’s Horizon 2020 Research and Innovation Pro-
+                  VII.   CONCLUSION                              gramme under the Marie Sklodowska-Curie grant agree-
+                                                                 ment no.754496, H2020-MSCA-RISE-2018 JENNIFER2
+  We performed a n − n̄ oscillation search with SK-I-IV          grant agreement no.822070, and H2020-MSCA-RISE-
+data using a multi-variate analysis. Compared to pre-            2019 SK2HK grant agreement no. 872549.
+
+
+
+
+ [1] A. D. Sakharov, Pisma Zh. Eksp. Teor. Fiz. 5, 32 (1967),     [2] M. Fukugita and T. Yanagida, Phys. Lett. B174, 45
+     [Usp. Fiz. Nauk161,no.5,61(1991)].                               (1986).
+                                                                                                                            11
+
+
+TABLE VIII.pComparison of n − n̄ oscillation searches from bound neutrons and free neutrons. All values of τn→n̄ results are
+presented as Tn−n̄ /R, where R is the suppression factor used in each reference.
+                                                            Tn−n̄ (1032 years) R (1023 /s) τn→n̄ (108 s)
+                       16
+                          O            SK-I-IV (this study)         3.6        0.517           4.7
+                       16
+                          O                SK-I [12] (2015)         1.9        0.517           3.4
+                       16
+                          O         Kamiokande [15] (1986)          0.4        0.517           1.6
+                       2
+                         H                SNO [13] (2017)           0.1        0.25            1.4
+                       56
+                          Fe          Soudan II [14] (2002)         0.7        1.4             1.3
+                       56
+                          Fe             Frejus [18] (1990)         0.7        1.4             1.2
+                       16
+                          O                IMB [16] (1984)          0.2        0.517           1.2
+                       Free neutron    Grenoble [11] (1994)          -         -               0.9
+
+
+ [3] D. G. Phillips, II et al., Phys. Rept. 612, 1 (2016),       [24] C. Amsler et al. (Crystal Barrel), Nucl. Phys. A720, 357
+     arXiv:1410.1100 [hep-ex].                                        (2003).
+ [4] V. Kuzmin, V. Rubakov, and M. Shaposhnikov, Phys.           [25] T. Bressani and A. Filippi, Phys. Rept. 383, 213 (2003).
+     Lett. B 155, 36 (1985).                                     [26] R. Bizzarri, “Nucleon-antinucleon annihilation at low en-
+ [5] K. S. Babu, R. N. Mohapatra, and S. Nasri, Phys. Rev.            ergies,” in Physics at LEAR with Low-Energy Cooled
+     Lett. 97 (2006), 10.1103/physrevlett.97.131301.                  Antiprotons, edited by U. Gastaldi and R. Klapisch
+ [6] K. S. Babu, P. S. Bhupal Dev, E. C. F. S. Fortes,                (Springer New York, Boston, MA, 1984) pp. 193–200.
+     and R. N. Mohapatra, Phys. Rev. D87, 115019 (2013),         [27] P. Pavlopoulos et al., Proceedings, 2nd International
+     arXiv:1303.6918 [hep-ph].                                        Conference on the Nucleon-Nucleon Interaction: Vancou-
+ [7] S. Nussinov and R. Shrock, Phys. Rev. Lett. 88, 171601           ver, British Columbia, Canada, June 27-30, 1977, AIP
+     (2002), arXiv:hep-ph/0112337 [hep-ph].                           Conf. Proc. 41, 340 (1978).
+ [8] E. Friedman and A. Gal, Phys. Rev. D78, 016002 (2008),      [28] G. Backenstoss et al., Nucl. Phys. B228, 424 (1983).
+     arXiv:0803.3696 [hep-ph].                                   [29] P. de Perio, Proceedings, 7th International Workshop
+ [9] J. Haidenbauer and U.-G. Meißner, Chin. Phys. C 44,              on Neutrino-nucleus interactions in the few GeV region
+     033101 (2020).                                                   (NUINT 11): Dehradun, India, March 7-11, 2011, AIP
+[10] F. Oosterhof, B. Long, J. de Vries, R. Timmermans, and           Conf. Proc. 1405, 223 (2011), arXiv:1405.3973 [nucl-ex].
+     U. van Kolck, Phys. Rev. Lett. 122 (2019), 10.1103/phys-    [30] L. L. Salcedo, E. Oset, M. J. Vicente-Vacas, and
+     revlett.122.172501.                                              C. Garcia-Recio, Nucl. Phys. A484, 557 (1988).
+[11] M. Baldo-Ceolin et al., Z. Phys. C63, 409 (1994).           [31] M. Honda, T. Kajita, K. Kasahara, S. Midorikawa, and
+[12] K. Abe et al. (Super-Kamiokande), Phys. Rev. D91,                T. Sanuki, Phys. Rev. D75, 043006 (2007), arXiv:astro-
+     072006 (2015), arXiv:1109.4227 [hep-ex].                         ph/0611418 [astro-ph].
+[13] B. Aharmim et al. (SNO), Phys. Rev. D96, 092005             [32] M. Honda, T. Kajita, K. Kasahara, and S. Midorikawa,
+     (2017), arXiv:1705.00696 [hep-ex].                               Phys. Rev. D83, 123001 (2011), arXiv:1102.2688 [astro-
+[14] J. Chung et al., Phys. Rev. D66, 032004 (2002),                  ph.HE].
+     arXiv:hep-ex/0205093 [hep-ex].                              [33] Y. Hayato, Neutrino interactions: From theory to Monte
+[15] M. Takita et al. (Kamiokande), Phys. Rev. D34, 902               Carlo simulations. Proceedings, 45th Karpacz Winter
+     (1986).                                                          School in Theoretical Physics, Ladek-Zdroj, Poland,
+[16] T. W. Jones et al. (Irvine-Michigan-Brookhaven), Phys.           February 2-11, 2009, Acta Phys. Polon. B40, 2477
+     Rev. Lett. 52, 720 (1984).                                       (2009).
+[17] J. D. Gustafson, A Search for Baryon Number Violation       [34] R. Brun, F. Bruyant, F. Carminati, S. Giani, M. Maire,
+     by Two Units at the Super-Kamiokande Detector, Ph.D.             A. McPherson, G. Patrick, and L. Urban, (1994),
+     thesis, Boston University (2016).                                10.17181/CERN.MUHF.DMJ1.
+[18] C. Berger et al. (Frejus), Phys. Lett. B240, 237 (1990).    [35] K. Abe et al., Nucl. Instrum. Meth. A737, 253 (2014),
+[19] Y. Fukuda et al. (Super-Kamiokande), Advanced comput-            arXiv:1307.0162 [physics.ins-det].
+     ing and analysis techniques in physics research. Proceed-   [36] C. Zeitnitz and T. A. Gabriel, Nucl. Instrum. Meth.
+     ings, 8th International Workshop, ACAT 2002, Moscow,             A349, 106 (1994).
+     Russia, June 24-28, 2002, Nucl. Instrum. Meth. A501,        [37] K. Abe et al. (Super-Kamiokande), Phys. Rev. D97,
+     418 (2003).                                                      072001 (2018), arXiv:1710.09126 [hep-ex].
+[20] K. Abe, Y. Hayato, T. Iida, K. Iyogi, J. Kameda,            [38] P. V. C. Hough, Proceedings, 2nd International Confer-
+     Y. Kishimoto, Y. Koshio, L. Marti, M. Miura,                     ence on High-Energy Accelerators and Instrumentation,
+     S. Moriyama, and et al., Nucl. Instrum. Meth. A737,              HEACC 1959: CERN, Geneva, Switzerland, September
+     253 (2014).                                                      14-19, 1959, Conf. Proc. C590914, 554 (1959).
+[21] R. D. Woods and D. S. Saxon, Phys. Rev. 95, 577 (1954).     [39] J. D. Bjorken and S. J. Brodsky, Phys. Rev. D 1, 1416
+[22] K. Nakamura, S. Hiramatsu, T. Kamae, H. Muramatsu,               (1970).
+     N. Izutsu, and Y. Watase, Nucl. Phys. A268, 381 (1976).     [40] G. C. Fox and S. Wolfram, Phys. Rev. Lett. 41, 1581
+[23] E. Klempt, C. Batty, and J.-M. Richard, Phys. Rept.              (1978).
+     413, 197 (2005), arXiv:hep-ex/0501020 [hep-ex].
+                                                                                                                      12
+
+[41] F. Rosenblatt, American Journal of Psychology 76, 705   [43] R. A. Smith and E. J. Moniz, Nucl. Phys. B43, 605
+     (1963).                                                      (1972), [Erratum: Nucl. Phys.B101,547(1975)].
+[42] W. A. Rolke, A. M. Lopez, and J. Conrad, Nucl. In-      [44] M. Tanaka, Search for proton decay into three charged
+     strum. Meth. A551, 493 (2005), arXiv:physics/0403059         leptons in Super-Kamiokande, Ph.D. thesis, Tokyo Insti-
+     [physics].                                                   tute of Technology (2019).
+

@@ -1,0 +1,1520 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  Υ(1S)                                                I G (J PC ) = 0− (1 − − )
+
+
+                                           Υ(1S) MASS
+
+VALUE (MeV)                  EVTS           DOCUMENT ID               TECN      COMMENT
+9460.40± 0.10 OUR AVERAGE
+9460.37± 0.01 ± 2.85    15M       1 AAIJ            24AC LHCB Υ(1S) → µ+ µ−
+9460.40± 0.09 ± 0.04              2 SHAMOV          23 RVUE e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+9460.11± 0.11 ± 0.07              3 SHAMOV          23 RVUE e + e − → hadrons
+9460.51± 0.09 ± 0.05            4,5 ARTAMONOV 00 MD1 e + e − → hadrons
+9460.60± 0.09 ± 0.05            6,7 BARU            92B MD1 e + e − → hadrons
+9460.59± 0.12                       BARU            86 MD1 e + e − → hadrons
+9460.6 ± 0.4                    7,8 ARTAMONOV 84 MD1 e + e − → hadrons
+9459.97± 0.11 ± 0.07              9 MACKAY          84 CUSB e + e − → hadrons
+  1 Observed in prompt p p production.
+  2 Reanalysis of MD1 data using the electron mass from COHEN 87, the radiative correc-
+    tions from KURAEV 85 and interference eﬀects.
+  3 Obtained by reanalysing CUSB data (MACKAY 84), but not authored by the CUSB
+    collaboration.
+  4 Reanalysis of BARU 92B and ARTAMONOV 84 using new electron mass (COHEN 87).
+  5 Superseded by SHAMOV 23.
+  6 Supersedes BARU 86.
+  7 Superseded by ARTAMONOV 00.
+  8 Value includes data of ARTAMONOV 82.
+  9 Reanalysed by SHAMOV 23.
+
+
+                                           Υ(1S) WIDTH
+
+VALUE (keV)                                 DOCUMENT ID
+54.02± 1.25 OUR EVALUATION               See the Note on “Width Determinations of the Υ
+States”
+
+                                    Υ(1S) DECAY MODES
+                                                                                            Scale factor/
+       Mode                                                   Fraction (Γi /Γ)            Conﬁdence level
+
+Γ1     τ+ τ−                                                     ( 2.60 ± 0.10 ) %
+Γ2     e+ e−                                                     ( 2.39 ± 0.08 ) %
+Γ3     µ+ µ−                                                     ( 2.48 ± 0.04 ) %
+
+                                          Hadronic decays
+Γ4     ggg                                                       (81.7    ± 0.7    )%
+Γ5     γg g                                                      ( 2.2 ± 0.6 ) %
+Γ6     η ′ (958) anything                                        ( 2.94 ± 0.24 ) %
+Γ7     J/ψ(1S) anything                                          ( 5.4    ± 0.4    ) × 10−4            S=1.4
+Γ8          J/ψ(1S)ηc                                         < 2.2                  × 10−6        CL=90%
+Γ9          J/ψ(1S)χc0                                        < 3.4                  × 10−6        CL=90%
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:24
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ10      J/ψ(1S)χc1                                            ( 3.9    ± 1.2    ) × 10−6
+Γ11      J/ψ(1S)χc2                                         < 1.4                  × 10−6        CL=90%
+Γ12      J/ψ(1S)ηc (2S)                                     < 2.2                  × 10−6        CL=90%
+Γ13      J/ψ(1S)X (3940)                                    < 5.4                  × 10−6        CL=90%
+Γ14      J/ψ(1S)X (4160)                                    < 5.4                  × 10−6        CL=90%
+Γ15      X (4350) anything, X →                             < 8.1                  × 10−6        CL=90%
+             J/ψ(1S)φ
+Γ16      Tcc1 (3900)± anything,                             < 1.3                  × 10−5        CL=90%
+             Tcc1 → J/ψ(1S)π ±
+Γ17      Tcc1 (4200)± anything, Zc →                        < 6.0                  × 10−5        CL=90%
+             J/ψ(1S)π ±
+Γ18      Tcc1 (4430)± anything,                             < 4.9                  × 10−5        CL=90%
+             Tcc1 → J/ψ(1S)π ±
+Γ19   Pccs (4459)/ P ccs (4459)anything                        ( 3.5    ± 2.0    ) × 10−6
+Γ20   Pccs (4338)/ P ccs (4338)anything                     < 1.8                  × 10−6        CL=90%
+Γ21   Pc (4312)anything, Pc (4312) →                        < 5.7                  × 10−6        CL=90%
+          p J/ψ(1S)
+Γ22   Pc (4440)anything, Pc (4440) →                        < 1.00                 × 10−5        CL=90%
+          p J/ψ(1S)
+Γ23   Pc (4457)anything, Pc (4457) →                        < 7.6                  × 10−6        CL=90%
+          p J/ψ(1S)
+Γ24   p / p J/ψ(1S)anything                                    ( 8.1    ± 0.8    ) × 10−5
+Γ25   J/ψ(1S)Λ / Λ anything                                    ( 3.7    ± 0.6    ) × 10−5
+Γ26      X±cs anything, X → J/ψ K
+                                     ±                      < 5.7                  × 10−6        CL=90%
+Γ27      ψ(4230) anything, ψ →                              < 3.8                  × 10−5        CL=90%
+             J/ψ(1S)π + π −
+Γ28      ψ(4230) anything, ψ →                              < 7.5                  × 10−6        CL=90%
+             J/ψ(1S)K + K −
+Γ29      χc1 (4140) anything, χc1 →                         < 5.2                  × 10−6        CL=90%
+             J/ψ(1S)φ
+Γ30   χc0 anything                                          < 4              × 10−3              CL=90%
+Γ31   χc1 anything                                           ( 1.90 ± 0.35 ) × 10−4
+Γ32   χc1 (1P)Xtetra                                        < 3.78           × 10−5              CL=90%
+Γ33   χc2 anything                                             ( 2.8    ± 0.8) × 10−4
+Γ34   ψ(2S) anything                                           ( 1.23 ± 0.20 ) × 10−4
+Γ35      ψ(2S)ηc                                            < 3.6                  × 10−6        CL=90%
+Γ36      ψ(2S)χc0                                           < 6.5                  × 10−6        CL=90%
+Γ37      ψ(2S)χc1                                           < 4.5                  × 10−6        CL=90%
+Γ38      ψ(2S)χc2                                           < 2.1                  × 10−6        CL=90%
+Γ39      ψ(2S)ηc (2S)                                       < 3.2                  × 10−6        CL=90%
+Γ40      ψ(2S)X (3940)                                      < 2.9                  × 10−6        CL=90%
+Γ41      ψ(2S)X (4160)                                      < 2.9                  × 10−6        CL=90%
+Γ42      ψ(4230) anything, ψ →                              < 7.9                  × 10−5        CL=90%
+             ψ(2S)π + π −
+
+https://pdg.lbl.gov                        Page 2                      Created: 6/1/2026 16:24
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ43       ψ(4360) anything, ψ →                             < 5.2                  × 10−5        CL=90%
+              ψ(2S)π + π −
+Γ44       ψ(4660) anything, ψ →                             < 2.2                  × 10−5        CL=90%
+              ψ(2S)π + π −
+Γ45       Tcc (4050)± anything, X →                         < 8.8                  × 10−5        CL=90%
+              ψ(2S)π ±
+Γ46       Tcc1 (4430)± anything,                            < 6.7                  × 10−5        CL=90%
+              Tcc1 → ψ(2S)π ±
+Γ47   χc1 (3872)anything                                    < 2.2                  × 10−4        CL=90%
+Γ48   Tcc1 (4200)+ Tcc1 (4200)−                             < 2.23                 × 10−5        CL=90%
+Γ49   Tcc1 (3900)± Tcc1 (4200)∓                             < 8.1                  × 10−6        CL=90%
+Γ50   Tcc1 (3900)+ Tcc1 (3900)−                             < 1.8                  × 10−6        CL=90%
+Γ51   Tcc (4050)+ Tcc (4050)−                               < 1.58                 × 10−5        CL=90%
+Γ52   Tcc (4250)+ Tcc (4250)−                               < 2.66                 × 10−5        CL=90%
+Γ53   Tcc (4050)± Tcc (4250)∓                               < 4.42                 × 10−5        CL=90%
+Γ54   Tcc1 (4430)+ Tcc1 (4430)−                             < 2.03                 × 10−5        CL=90%
+Γ55   Tcc (4055)± Tcc (4055)∓                               < 2.33                 × 10−5        CL=90%
+Γ56   Tcc (4055)± Tcc1 (4430)∓                              < 4.55                 × 10−5        CL=90%
+Γ57   ρπ                                                    < 3.68                 × 10−6        CL=90%
+Γ58   ω π0                                                  < 3.90                 × 10−6        CL=90%
+Γ59   π+ π−                                                 < 5                    × 10−4        CL=90%
+Γ60   K+K−                                                  < 5                    × 10−4        CL=90%
+Γ61   pp                                                    < 5                    × 10−4        CL=90%
+Γ62   π+ π− π0                                               ( 2.1      ± 0.8    ) × 10−6
+Γ63   φK + K −                                                 ( 2.4    ± 0.5    ) × 10−6
+Γ64   ω π+ π−                                                  ( 4.5    ± 1.0    ) × 10−6
+Γ65   K ∗ (892)0 K − π + + c.c.                                ( 4.4    ± 0.8    ) × 10−6
+Γ66   φf ′2 (1525)                                          < 1.63                 × 10−6        CL=90%
+Γ67   ω f2 (1270)                                           < 1.79                 × 10−6        CL=90%
+Γ68   ρ(770)a2 (1320)                                       < 2.24                 × 10−6        CL=90%
+Γ69   K ∗ (892)0 K ∗2 (1430)0 + c.c.                           ( 3.0    ± 0.8    ) × 10−6
+Γ70   K1 (1270)± K ∓                                        < 2.41                 × 10−6        CL=90%
+Γ71   K1 (1400)± K ∓                                           ( 1.0    ± 0.4    ) × 10−6
+Γ72   b1 (1235)± π ∓                                        < 1.25             × 10−6            CL=90%
+Γ73   π+ π− π0 π0                                              ( 1.28 ± 0.30 ) × 10−5
+Γ74   K 0S K + π − + c.c.                                      ( 1.6 ± 0.4 ) × 10−6
+Γ75   K ∗ (892)0 K 0 + c.c.                                    ( 2.9    ± 0.9    ) × 10−6
+Γ76   K ∗ (892)− K + + c.c.                                 < 1.11                 × 10−6        CL=90%
+Γ77   f1 (1285) anything                                       ( 4.6    ± 3.1    ) × 10−3
+Γ78   D ∗ (2010)± anything                                     ( 2.52 ± 0.20 ) %
+Γ79   f1 (1285)Xtetra                                       < 6.24             × 10−5            CL=90%
+Γ80   2 H anything                                             ( 2.85 ± 0.25 ) × 10−5
+Γ81   Sum of 100 exclusive modes                               ( 1.200± 0.017) %
+
+
+
+https://pdg.lbl.gov                        Page 3                      Created: 6/1/2026 16:24
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                         Radiative decays
+Γ82    γ π+ π−                                                  ( 6.3    ± 1.8    ) × 10−5
+Γ83    γ π0 π0                                                  ( 1.7    ± 0.7    ) × 10−5
+Γ84       γ π π (S-wave)                                        ( 4.6    ± 0.7    ) × 10−5
+Γ85    γ π0 η                                                < 2.4           × 10−6               CL=90%
+Γ86    γ K+K−                                            [a] ( 1.14 ± 0.13 ) × 10−5
+Γ87    γpp                                               [b] < 6             × 10−6               CL=90%
+Γ88    γ 2h+ 2h−                                                ( 7.0    ± 1.5    ) × 10−4
+Γ89    γ 3h+ 3h−                                                ( 5.4    ± 2.0    ) × 10−4
+Γ90    γ 4h+ 4h−                                                ( 7.4    ± 3.5    ) × 10−4
+Γ91    γ π+ π− K + K −                                          ( 2.9    ± 0.9    ) × 10−4
+Γ92    γ 2π + 2π −                                              ( 2.5    ± 0.9    ) × 10−4
+Γ93    γ 3π + 3π −                                              ( 2.5    ± 1.2    ) × 10−4
+Γ94    γ 2π + 2π − K + K −                                      ( 2.4    ± 1.2    ) × 10−4
+Γ95    γ π+ π− p p                                              ( 1.5    ± 0.6    ) × 10−4
+Γ96    γ 2π + 2π − p p                                          ( 4      ±6       ) × 10−5
+Γ97    γ 2K + 2K −                                            ( 2.0      ± 2.0    ) × 10−5
+Γ98    γ η ′ (958)                                           < 1.9                  × 10−6        CL=90%
+Γ99    γη                                                    < 1.0                  × 10−6        CL=90%
+Γ100   γ f0 (980)                                            < 3                    × 10−5        CL=90%
+Γ101   γ f ′2 (1525)                                            ( 2.9 ± 0.6 ) × 10−5
+Γ102   γ f2 (1270)                                              ( 1.01 ± 0.06 ) × 10−4
+Γ103   γ η(1405)                                             < 8.2                  × 10−5        CL=90%
+Γ104   γ f0 (1500)                                           < 1.5                  × 10−5        CL=90%
+Γ105      γ f0 (1500) → γ K + K −                               ( 1.0    ± 0.4    ) × 10−5
+Γ106   γ f0 (1710)                                           < 2.6                  × 10−4        CL=90%
+Γ107      γ f0 (1710) → γ K + K −                               ( 1.01 ± 0.32 ) × 10−5
+Γ108   γ f0 (1710) → γ π + π −                                  ( 5.3 ± 2.0 ) × 10−6
+Γ109      γ f0 (1710) → γ π 0 π 0                            < 1.4                  × 10−6        CL=90%
+Γ110      γ f0 (1710) → γ η η                                < 1.8                  × 10−6        CL=90%
+Γ111   γ f4 (2050)                                           < 5.3                  × 10−5        CL=90%
+Γ112   γ f0 (2200) → γ K + K −                               < 2                    × 10−4        CL=90%
+Γ113   γ fJ (2220) → γ K + K −                               < 8                    × 10−7        CL=90%
+Γ114   γ fJ (2220) → γ π + π −                               < 6                    × 10−7        CL=90%
+Γ115   γ fJ (2220) → γ p p                                   < 1.1                  × 10−6        CL=90%
+Γ116   γ η(2225) → γ φφ                                      < 3                    × 10−3        CL=90%
+Γ117   γ ηc (1S)                                             < 2.9                  × 10−5        CL=90%
+Γ118   γ ηc (2S)                                             < 4                    × 10−4        CL=90%
+Γ119   γ χc0                                                 < 6.6                  × 10−5        CL=90%
+Γ120 γ χc1                                                      ( 4.7    + 2.4     ) × 10−5
+                                                                         − 1.9
+Γ121 γ χc2                                                   < 7.6                  × 10−6        CL=90%
+Γ122 γ χc1 (3872)                                            < 4                    × 10−5        CL=90%
+Γ123    γ χc1 (3872), χc1 →                                  < 2.8                  × 10−6        CL=90%
+            π + π − π 0 J/ψ
+https://pdg.lbl.gov                         Page 4                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ124   γ χc0 (3915) → ω J/ψ                                   < 3.0                  × 10−6        CL=90%
+Γ125   γ χc1 (4140) → φJ/ψ                                    < 2.2                  × 10−6        CL=90%
+Γ126   γ X X (m X < 3.1 GeV)                              [c] < 1                    × 10−3        CL=90%
+Γ127   γ X X (m X < 4.5 GeV)                              [d] < 2.4                  × 10−4        CL=90%
+Γ128   γ X → γ + ≥ 4 prongs                               [e] < 1.78                 × 10−4        CL=95%
+Γ129   γ A0                                               [f ]
+Γ130   γ A0 → γ µ+ µ−                                     [g ] < 9                   × 10−6        CL=90%
+Γ131   γ A0 → γ τ + τ −                                   [a] < 1.30                 × 10−4        CL=90%
+Γ132   γ A0 → γ g g                                       [h] < 1                    %             CL=90%
+Γ133   γ A0 → γ s s                                       [h] < 1                    × 10−3        CL=90%
+
+                      Lepton Family number (LF ) violating modes
+Γ134   e ± µ∓                                   LF            < 3.9                  × 10−7        CL=90%
+Γ135   µ± τ ∓                                   LF            < 2.7                  × 10−6        CL=90%
+Γ136   e± τ ∓                                   LF            < 2.7                  × 10−6        CL=90%
+Γ137   γ e ± µ∓                                 LF            < 4.2                  × 10−7        CL=90%
+Γ138   γ µ± τ ∓                                 LF            < 6.1                  × 10−6        CL=90%
+Γ139   γ e± τ ∓                                 LF            < 6.5                  × 10−6        CL=90%
+
+                                            Other decays
+Γ140 invisible                                                < 3.0                 × 10−4         CL=90%
+Γ141 hadrons                                                   (96        ±4       )%
+
+   [a] 2m τ < M(τ + τ − ) < 9.2 GeV
+   [b] 2 GeV < m K + K − < 3 GeV
+   [c] X X = vectors with m < 3.1 GeV
+   [d] X and X = zero spin with m < 4.5 GeV
+   [e] 1.5 GeV < m X < 5.0 GeV
+   [f ] A0 = scalar with m < 8.0 GeV
+   [g ] 201 MeV < M(µ+ µ− ) < 3565 MeV
+   [h] 0.5 GeV < m X < 9.0 GeV, where m X is the invariant mass of the
+        hadronic ﬁnal state.
+
+                                 Υ(1S) Γ(i)Γ(e + e − )/Γ(total)
+Γ µ+ µ− × Γ e + e − /Γtotal
+                  
+                                                                                                   Γ3 Γ2 /Γ
+VALUE (eV)                                  DOCUMENT ID               TECN      COMMENT
+31.2± 1.6± 1.7                              KOBEL              92     CBAL e + e − → µ+ µ−
+
+Γ hadrons × Γ e + e − /Γtotal
+                    
+                                                                                                Γ141 Γ2 /Γ
+VALUE (keV)                                 DOCUMENT ID               TECN      COMMENT
+1.240± 0.016 OUR AVERAGE
+1.252± 0.004 ± 0.019                      1 ROSNER     06 CLEO 9.5 e + e − → hadrons
+1.187± 0.023 ± 0.031                      1 BARU       92B MD1 e + e − → hadrons
+1.23 ± 0.02 ± 0.05                        1 JAKUBOWSKI 88 CBAL e + e − → hadrons
+
+https://pdg.lbl.gov                          Page 5                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+1.37 ± 0.06 ± 0.09                  2 GILES        84B CLEO e + e − → hadrons
+1.23 ± 0.08 ± 0.04                  2 ALBRECHT     82 DASP e + e − → hadrons
+1.13 ± 0.07 ± 0.11                  2 NICZYPORUK 82 LENA e + e − → hadrons
+1.09 ± 0.25                         2 BOCK         80 CNTR e + e − → hadrons
+1.35 ± 0.14                         3 BERGER       79 PLUT e + e − → hadrons
+  1 Radiative corrections evaluated following KURAEV 85.
+  2 Radiative corrections reevaluated by BUCHMUELLER 88 following KURAEV 85.
+  3 Radiative corrections reevaluated by ALEXANDER 89 using B(µ µ) = 0.026.
+
+
+                                  Υ(1S) PARTIAL WIDTHS
+
+Γ e+ e−
+          
+                                                                                                         Γ2
+VALUE (keV)                                 DOCUMENT ID
+1.340± 0.018 OUR EVALUATION
+
+
+                                Υ(1S) BRANCHING RATIOS
+
+Γ τ + τ − /Γtotal
+         
+                                                                                                       Γ1 /Γ
+VALUE (units 10−2 )    EVTS         DOCUMENT ID               TECN      COMMENT
+2.60± 0.10 OUR AVERAGE
+2.53± 0.13 ± 0.04      60k     1 BESSON          07 CLEO e + e − → Υ(1S) → τ + τ −
+2.61± 0.12 −+ 0.09     25k       CINABRO         94B CLE2 e + e − → τ + τ −
+              0.13
+2.7 ± 0.4 ± 0.2                2 ALBRECHT        85C ARG        Υ(2S) → π + π − τ + τ −
+3.4 ± 0.4 ± 0.4                  GILES           83 CLEO e + e − → τ + τ −
+  1 BESSON 07 reports [Γ Υ(1S) → τ + τ − /Γ                              + −
+                                                   total ] / [B(Υ(1S) → µ µ )] = 1.02 ±
+    0.02 ± 0.05 which we multiply by our best (shown rounded) value B(Υ(1S) → µ+ µ− )
+    = (2.48 ± 0.04) × 10−2 . Our ﬁrst error is their experiment’s error and our second error
+    is the systematic error from using our best (shown rounded) value.
+  2 Using B(Υ(1S) → e e) = B(Υ(1S) → µ µ) = 0.0256; not used for width evaluations.
+
+Γ e + e − /Γtotal
+         
+                                                                                                       Γ2 /Γ
+VALUE (units 10−2 )        EVTS           DOCUMENT ID               TECN      COMMENT
+2.39± 0.08 OUR AVERAGE
+2.40± 0.01 ± 0.12  191k                   PATRA              22     BELL      Υ(2S) → π + π − e + e −
+2.29± 0.08 ± 0.11                         ALEXANDER          98     CLE2      Υ(2S) → π + π − e + e −
+2.42± 0.14 ± 0.14   307                   ALBRECHT           87     ARG       Υ(2S) → π + π − e + e −
+2.8 ± 0.3 ± 0.2     826                   BESSON             84     CLEO      Υ(2S) → π + π − e + e −
+5.1 ± 3.0                                 BERGER             80C    PLUT      e+ e− → e+ e−
+
+Γ µ+ µ− /Γtotal
+       
+                                                                                                       Γ3 /Γ
+VALUE (units 10−2 )            EVTS           DOCUMENT ID               TECN       COMMENT
+2.48± 0.04 OUR AVERAGE
+2.46± 0.01 ± 0.11     246k                    PATRA                22   BELL Υ(2S) →
+                                                                               π + π − µ+ µ−
+2.49± 0.02 ± 0.07              345k           ADAMS     05              CLEO e e − → µ+ µ−
+                                                                              +
+2.49± 0.08 ± 0.13                             ALEXANDER 98              CLE2 Υ(2S) →
+                                                                               π + π − µ+ µ−
+2.12± 0.20 ± 0.10                           1 BARU                 92   MD1 e e − → µ+ µ−
+                                                                              +
+
+https://pdg.lbl.gov                          Page 6                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+2.31± 0.12 ± 0.10                            1 KOBEL     92               CBAL      e + e − → µ+ µ−
+2.52± 0.07 ± 0.07                              CHEN      89B              CLEO      e + e − → µ+ µ−
+2.61± 0.09 ± 0.11                              KAARSBERG 89               CSB2      e + e − → µ+ µ−
+2.30± 0.25 ± 0.13                   86         ALBRECHT  87               ARG       Υ(2S) →
+                                                                                       π + π − µ+ µ−
+2.9 ± 0.3 ± 0.2                    864         BESSON              84     CLEO      Υ(2S) →
+                                                                                       π + π − µ+ µ−
+2.7 ± 0.3 ± 0.3                        ANDREWS        83 CLEO                       e e − → µ+ µ−
+                                                                                      +
+3.2 ± 1.3 ± 0.3                        ALBRECHT       82 DASP                       e + e − → µ+ µ−
+3.8 ± 1.5 ± 0.2                        NICZYPORUK 82 LENA                           e + e − → µ+ µ−
+    + 3.4
+1.4 − 1.4                              BOCK           80 CNTR e + e − → µ+ µ−
+2.2 ± 2.0                              BERGER         79 PLUT e + e − → µ+ µ−
+  1 Taking into account interference between the resonance and continuum.
+
+Γ τ + τ − /Γ µ+ µ−
+                  
+                                                                                                        Γ1 /Γ3
+VALUE                       EVTS           DOCUMENT ID               TECN      COMMENT
+1.008± 0.023 OUR AVERAGE
+1.005± 0.013 ± 0.022 0.7M       1 DEL-AMO-SA...10C BABR Υ(3S) → π + π − Υ(1S)
+1.02 ± 0.02 ± 0.05     60k        BESSON          07 CLEO e + e − → Υ(1S)
+  1 Allows any number of extra photons with total energy < 500 MeV.
+       
+Γ g g g /Γtotal                                                                                          Γ4 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID                TECN     COMMENT
+81.7± 0.7                  20M      1 BESSON          06A CLEO Υ(1S) → hadrons
+  1 Calculated using the value Γ(γ g g )/Γ(g g g ) = (2.70 ± 0.01 ± 0.13 ± 0.24)% from
+    BESSON 06A and PDG 08 values of B(µ+ µ− ) = (2.48 ± 0.05)% and Rhadrons =
+    3.51. The statistical error is negligible and the systematic error is partially correlated
+    with that of Γ(γ g g )/Γtotal measurement of BESSON 06A.
+       
+Γ γ g g /Γtotal                                                                                          Γ5 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID                TECN     COMMENT
+2.20± 0.60                 400k            1 BESSON        06A CLEO Υ(1S) → γ + hadrons
+  1 Calculated using BESSON 06A values of Γ(γ g g )/Γ(g g g ) = (2.70 ± 0.01 ± 0.13 ± 0.24)%
+    and Γ(g g g )/Γtotal . The statistical error is negligible and the systematic error is partially
+    correlated with that of Γ(g g g )/Γtotal measurement of BESSON 06A.
+                
+Γ γ g g /Γ g g g                                                                                        Γ5 /Γ4
+VALUE (units 10−2 )          EVTS           DOCUMENT ID                 TECN    COMMENT
+2.70± 0.01 ± 0.27            20M            BESSON             06A CLEO Υ(1S) → (γ +) hadrons
+
+Γ η ′ (958) anything /Γtotal
+                    
+                                                                                                         Γ6 /Γ
+VALUE                                        DOCUMENT ID                TECN     COMMENT
+0.0294± 0.0024 OUR AVERAGE
+0.030 ± 0.002 ± 0.002                        AQUINES            06A CLE3         Υ(1S) → η ′ anything
+0.028 ± 0.004 ± 0.002                        ARTUSO             03 CLE2          Υ(1S) → η ′ anything
+
+
+
+
+https://pdg.lbl.gov                           Page 7                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                  
+Γ J/ψ(1S) anything /Γtotal                                                                               Γ7 /Γ
+VALUE (units 10−4 )      CL%     EVTS          DOCUMENT ID               TECN       COMMENT
+ 5.4 ± 0.4 OUR FIT Error includes scale factor of 1.4.
+ 5.4 ± 0.4 OUR AVERAGE Error includes scale factor of 1.5.
+ 5.25± 0.13 ± 0.25           3k       SHEN            16 BELL e + e − → J/ψ X
+ 6.4 ± 0.4 ± 0.6           730        BRIERE          04 CLEO e + e − → J/ψ X
+11 ± 4 ± 2                          1 FULTON          89 CLEO e + e − → µ+ µ− X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<6.8               90                 ALBRECHT        92J ARG         e + e − → e + e − X,
+                                                                         µ+ µ− X
+<17                90                 MASCHMANN 90 CBAL e e − → hadrons +
+<200              90             NICZYPORUK 83                           LENA
+ 1 Using B((J/ψ) → µ+ µ− ) = (6.9 ± 0.9)%.
+           
+Γ J/ψ(1S)ηc /Γtotal                                                                                      Γ8 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<2.2 × 10−6                    90            YANG               14     BELL      e + e − → J/ψ X
+            
+Γ J/ψ(1S)χc0 /Γtotal                                                                                     Γ9 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<3.4 × 10−6                    90            YANG               14     BELL      e + e − → J/ψ X
+            
+Γ J/ψ(1S)χc1 /Γtotal                                                                                    Γ10 /Γ
+VALUE (units 10−6 )            EVTS          DOCUMENT ID               TECN      COMMENT
+3.90± 1.21 ± 0.23                 20         YANG               14     BELL      e + e − → J/ψ X
+            
+Γ J/ψ(1S)χc2 /Γtotal                                                                                    Γ11 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<1.4 × 10−6                    90            YANG               14     BELL      e + e − → J/ψ X
+                
+Γ J/ψ(1S)ηc (2S) /Γtotal                                                                                Γ12 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<2.2 × 10−6                    90            YANG               14     BELL      e + e − → J/ψ X
+                 
+Γ J/ψ(1S)X (3940) /Γtotal                                                                               Γ13 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<5.4 × 10−6                    90            YANG               14     BELL      e + e − → J/ψ X
+                 
+Γ J/ψ(1S)X (4160) /Γtotal                                                                               Γ14 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<5.4 × 10−6                    90            YANG               14     BELL      e + e − → J/ψ X
+                                 
+Γ X (4350) anything, X → J/ψ(1S)φ /Γtotal                                                               Γ15 /Γ
+VALUE                       CL%           DOCUMENT ID                TECN     COMMENT
+<8.1 × 10−6                 90            SHEN                16     BELL     Υ(1S) → J/ψ K + K − X
+
+Γ Tcc1 (3900)± anything, Tcc1 → J/ψ(1S)π ± /Γtotal
+                                          
+                                                                                                        Γ16 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<1.3 × 10−5                    90            SHEN               16     BELL      Υ(1S) → J/ψ π ± X
+
+https://pdg.lbl.gov                           Page 8                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Tcc1 (4200)± anything, Zc → J/ψ(1S)π ± /Γtotal
+                                        
+                                                                                                        Γ17 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<6.0 × 10−5                    90            SHEN               16     BELL      Υ(1S) → J/ψ π ± X
+
+Γ Tcc1 (4430)± anything, Tcc1 → J/ψ(1S)π ± /Γtotal
+                                          
+                                                                                                        Γ18 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<4.9 × 10−5                    90            SHEN               16     BELL      Υ(1S) → J/ψ π ± X
+                                   
+Γ Pccs (4459)/ P ccs (4459)anything /Γtotal                                                             Γ19 /Γ
+VALUE (units 10−6 )           EVTS           DOCUMENT ID               TECN      COMMENT
+3.5± 2.0± 0.2             21     1 ADACHI         25A BELL e + e − → Υ(1S)
+  1 21 ± 5 corresponds to the number of P
+                                         ccs (4459) events in the combined Υ(1S) and
+    Υ(2S) samples.
+                                   
+Γ Pccs (4338)/ P ccs (4338)anything /Γtotal                                                             Γ20 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<1.8 × 10−6                    90            ADACHI             25A BELL         e + e − → Υ(1S)
+                                          
+Γ Pc (4312)anything, Pc (4312) → p J/ψ(1S) /Γtotal                                                      Γ21 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<5.7 × 10−6                    90            DONG               25     BELL      e + e − → Υ(1S)
+                                          
+Γ Pc (4440)anything, Pc (4440) → p J/ψ(1S) /Γtotal                                                      Γ22 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<10.0 × 10−6                   90            DONG               25     BELL      e + e − → Υ(1S)
+                                          
+Γ Pc (4457)anything, Pc (4457) → p J/ψ(1S) /Γtotal                                                      Γ23 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<7.6 × 10−6                    90            DONG               25     BELL      e + e − → Υ(1S)
+                       
+Γ p / p J/ψ(1S)anything /Γtotal                                                                         Γ24 /Γ
+VALUE (units 10−5 )           EVTS           DOCUMENT ID               TECN      COMMENT
+8.1± 0.6± 0.5                    377         DONG               25     BELL      e + e − → Υ(1S)
+                      
+Γ J/ψ(1S)Λ / Λanything /Γtotal                                                                          Γ25 /Γ
+VALUE (units 10−6 )           EVTS           DOCUMENT ID               TECN      COMMENT
+36.9± 5.3± 2.4                    84         ADACHI             25A BELL         e + e − → Υ(1S)
+
+Γ X±                      ± /Γ
+                           
+   cs anything, X → J/ψ K      total                                                                    Γ26 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<5.7 × 10−6                    90            SHEN               16     BELL      Υ(1S) → J/ψ K − X
+
+Γ ψ(4230) anything, ψ → J/ψ(1S)π + π − /Γtotal
+                                      
+                                                                                                        Γ27 /Γ
+VALUE                       CL%           DOCUMENT ID                TECN     COMMENT
+<3.8 × 10−5                 90            SHEN                16     BELL     Υ(1S) → J/ψ π + π − X
+
+Γ ψ(4230) anything, ψ → J/ψ(1S)K + K − /Γtotal
+                                      
+                                                                                                        Γ28 /Γ
+VALUE                       CL%           DOCUMENT ID                TECN     COMMENT
+<7.5 × 10−6                 90            SHEN                16     BELL     Υ(1S) → J/ψ K + K − X
+
+https://pdg.lbl.gov                           Page 9                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                                     
+Γ χc1 (4140) anything, χc1 → J/ψ(1S)φ /Γtotal                                                            Γ29 /Γ
+VALUE                       CL%           DOCUMENT ID                TECN     COMMENT
+<5.2 × 10−6                 90            SHEN                16     BELL     Υ(1S) → J/ψ K + K − X
+                                  
+Γ χc0 anything /Γ J/ψ(1S) anything                                                                      Γ30 /Γ7
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<7.4                           90            BRIERE             04     CLEO e + e − → J/ψ X
+              
+Γ χc1 anything /Γtotal                                                                                   Γ31 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      COMMENT
+1.90± 0.35 OUR FIT
+1.90± 0.43 ± 0.14                215         JIA                17     BELL      Υ(1S) → γ J/ψ(1S)
+                                  
+Γ χc1 anything /Γ J/ψ(1S) anything                                                                      Γ31 /Γ7
+VALUE                         EVTS           DOCUMENT ID              TECN      COMMENT
+0.35± 0.07 OUR FIT
+0.35± 0.08 ± 0.06  52 ± 12                   BRIERE             04 CLEO e + e − → J/ψ X
+                
+Γ χc1 (1P)Xtetra /Γtotal                                                                                 Γ32 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<37.8 × 10−6             90        1 JIA             17A BELL e + e − → hadrons
+ 1 For a tetraquark state X
+                           tetra , with mass in the range 1.16–2.46 GeV and width in the
+   range 0–0.3 GeV. Measured 90% CL limits as a function of Xtetra mass and width range
+   from 4.4 × 10−6 to 37.8 × 10−6 .
+                                  
+Γ χc2 anything /Γ J/ψ(1S) anything                                                                      Γ33 /Γ7
+VALUE                         EVTS           DOCUMENT ID              TECN      COMMENT
+0.52± 0.12 ± 0.09         47 ± 11            BRIERE             04 CLEO e + e − → J/ψ X
+                
+Γ ψ(2S) anything /Γtotal                                                                                 Γ34 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      COMMENT
+1.23± 0.17 ± 0.11                215         SHEN               16     BELL      e + e − → ψ(2S) X
+                                    
+Γ ψ(2S) anything /Γ J/ψ(1S) anything                                                                    Γ34 /Γ7
+VALUE                         EVTS           DOCUMENT ID              TECN      COMMENT
+0.41± 0.11 ± 0.08         42 ± 11            BRIERE             04 CLEO e + e − → J/ψ π + π − X
+         
+Γ ψ(2S)ηc /Γtotal                                                                                        Γ35 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<3.6 × 10−6                    90            YANG               14     BELL      e + e − → ψ(2S) X
+          
+Γ ψ(2S)χc0 /Γtotal                                                                                       Γ36 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<6.5 × 10−6                    90            YANG               14     BELL      e + e − → ψ(2S) X
+          
+Γ ψ(2S)χc1 /Γtotal                                                                                       Γ37 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<4.5 × 10−6                    90            YANG               14     BELL      e + e − → ψ(2S) X
+
+
+https://pdg.lbl.gov                          Page 10                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+          
+Γ ψ(2S)χc2 /Γtotal                                                                                     Γ38 /Γ
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+<2.1 × 10−6                    90           YANG                 14   BELL      e + e − → ψ(2S) X
+              
+Γ ψ(2S)ηc (2S) /Γtotal                                                                                 Γ39 /Γ
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+<3.2 × 10−6                    90           YANG                 14   BELL      e + e − → ψ(2S) X
+               
+Γ ψ(2S)X (3940) /Γtotal                                                                                Γ40 /Γ
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+<2.9 × 10−6                    90           YANG                 14   BELL      e + e − → ψ(2S) X
+               
+Γ ψ(2S)X (4160) /Γtotal                                                                                Γ41 /Γ
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+<2.9 × 10−6                    90           YANG                 14   BELL      e + e − → ψ(2S) X
+
+Γ ψ(4230) anything, ψ → ψ(2S)π + π − /Γtotal
+                                    
+                                                                                                       Γ42 /Γ
+VALUE                     CL%           DOCUMENT ID               TECN       COMMENT
+<7.9 × 10−5               90            SHEN                16    BELL       Υ(1S) → ψ(2S) π + π − X
+
+Γ ψ(4360) anything, ψ → ψ(2S)π + π − /Γtotal
+                                    
+                                                                                                       Γ43 /Γ
+VALUE                     CL%           DOCUMENT ID               TECN       COMMENT
+<5.2 × 10−5               90            SHEN                16    BELL       Υ(1S) → ψ(2S) π + π − X
+
+Γ ψ(4660) anything, ψ → ψ(2S)π + π − /Γtotal
+                                    
+                                                                                                       Γ44 /Γ
+VALUE                     CL%           DOCUMENT ID               TECN       COMMENT
+<2.2 × 10−5               90            SHEN                16    BELL       Υ(1S) → ψ(2S) π + π − X
+
+Γ Tcc (4050)± anything, X → ψ(2S)π ± /Γtotal
+                                    
+                                                                                                       Γ45 /Γ
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+<8.8 × 10−5                    90           SHEN                 16   BELL      Υ(1S) → ψ(2S) π ± X
+
+Γ Tcc1 (4430)± anything, Tcc1 → ψ(2S)π ± /Γtotal
+                                        
+                                                                                                       Γ46 /Γ
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+<6.7 × 10−5                    90           SHEN                 16   BELL      Υ(1S) → ψ(2S) π ± X
+                    
+Γ χc1 (3872)anything /Γtotal                                                                           Γ47 /Γ
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+<2.2 × 10−4                    90         1 SHEN                 16   BELL      Υ(1S) →
+                                                                                  J/ψ π + π − X
+  1 SHEN 16 reports [Γ Υ(1S) →                                    
+                                               χc1 (3872) anything /Γtotal ] × [B(χc1 (3872) →
+   π + π − J/ψ(1S))] < 9.5 × 10−6 which we divide by our best (shown rounded) value
+   B(χc1 (3872) → π + π − J/ψ(1S)) = 4.3 × 10−2 .
+
+Γ Tcc1 (4200)+ Tcc1 (4200)− /Γtotal
+                           
+                                                                                                       Γ48 /Γ
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+<22.3 × 10−6                   90         1 JIA                  18   BELL      Υ(1S) → J/ψ π ± X
+ 1 Assuming B(T                     ± → J/ψ π ± ) = 1.
+                    cc1 (4200)
+
+https://pdg.lbl.gov                         Page 11                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Tcc1 (3900)± Tcc1 (4200)∓ /Γtotal
+                           
+                                                                                                        Γ49 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<8.1 × 10−6                    90          1 JIA                18     BELL    Υ(1S) → J/ψ π ± X
+ 1 Assuming B(T                     ± → J/ψ π ± ) = 1 = B(T              (3900)± → J/ψ π ± ).
+                      cc1 (4200)                            cc1
+
+Γ Tcc1 (3900)+ Tcc1 (3900)− /Γtotal
+                           
+                                                                                                        Γ50 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<1.8 × 10−6                    90          1 JIA                18     BELL      Υ(1S) → J/ψ π ± X
+ 1 Assuming B(T                     ± → J/ψ π ± ) = 1
+                      cc1 (3900)
+
+Γ Tcc (4050)+ Tcc (4050)− /Γtotal
+                         
+                                                                                                        Γ51 /Γ
+VALUE                       CL%           DOCUMENT ID                TECN     COMMENT
+<15.8 × 10−6                90          1 JIA                 18     BELL     Υ(1S) → χc1 (1P) π ± X
+ 1 Assuming B(T                   ± → χ (1P) π ± ) = 1
+                      cc (4050)        c1
+
+Γ Tcc (4250)+ Tcc (4250)− /Γtotal
+                         
+                                                                                                        Γ52 /Γ
+VALUE                       CL%           DOCUMENT ID                TECN     COMMENT
+<26.6 × 10−6                90          1 JIA                 18     BELL     Υ(1S) → χc1 (1P) π ± X
+ 1 Assuming B(T                   ± → χ (1P) π ± ) = 1
+                      cc (4250)        c1
+
+Γ Tcc (4050)± Tcc (4250)∓ /Γtotal
+                         
+                                                                                                        Γ53 /Γ
+VALUE                       CL%           DOCUMENT ID                TECN     COMMENT
+<44.2 × 10−6                90          1 JIA                Υ(1S) → χc1 (1P) π ± X
+                                                              18     BELL
+ 1 Assuming B(T                ±            ±                    ±             ±
+                      cc (4050) → χc1 (1P) π ) = 1 = B(Tcc (4250) → χc1 (1P) π )
+
+Γ Tcc1 (4430)+ Tcc1 (4430)− /Γtotal
+                           
+                                                                                                        Γ54 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<20.3 × 10−6                   90          1 JIA                18     BELL      Υ(2S) → ψ(2S) π ± X
+ 1 Assuming B(T                     ± → ψ(2S) π ± ) = 1
+                      cc1 (4430)
+
+Γ Tcc (4055)± Tcc (4055)∓ /Γtotal
+                         
+                                                                                                        Γ55 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<23.3 × 10−6                 90    1 JIA                        18     BELL      Υ(1S) → ψ(2S) π ± X
+ 1 Assuming B(T                ±         ±
+                      cc (4055) → ψ(2S) π ) = 1
+
+Γ Tcc (4055)± Tcc1 (4430)∓ /Γtotal
+                          
+                                                                                                        Γ56 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<45.5 × 10−6                 90    1 JIA          18 BELL Υ(1S) → ψ(2S) π ± X
+ 1 Assuming B(T                ±         ±                     ±         ±
+                      cc (4055) → ψ(2S) π ) = 1 = B(Tcc1 (4430) → ψ(2S) π )
+     
+Γ ρ π /Γtotal                                                                                           Γ57 /Γ
+VALUE (units 10−6 )            CL%           DOCUMENT ID               TECN      COMMENT
+<3.68                   90          SHEN            13 BELL Υ(1S) →                            π+ π− π0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1    × 103             90          BLINOV          90 MD1 Υ(1S) →                             ρ0 π 0
+<2    × 102             90          FULTON          90B             Υ(1S) →                    ρ0 π 0
+<2.1 × 103              90          NICZYPORUK 83 LENA Υ(1S) →                                 ρ0 π 0
+
+https://pdg.lbl.gov                          Page 12                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ ω π 0 /Γtotal
+       
+                                                                                                        Γ58 /Γ
+VALUE (units 10−6 )          CL%              DOCUMENT ID             TECN      COMMENT
+<3.90                        90               SHEN             13     BELL      Υ(1S) → π + π − π 0 π 0
+
+Γ π + π − /Γtotal
+         
+                                                                                                        Γ59 /Γ
+VALUE (units 10−4 )            CL%             DOCUMENT ID             TECN        COMMENT
+<5                             90              BARU             92     MD1         Υ(1S) → π + π −
+
+Γ K + K − /Γtotal
+         
+                                                                                                        Γ60 /Γ
+VALUE (units 10−4 )            CL%             DOCUMENT ID             TECN        COMMENT
+<5                             90              BARU             92     MD1         Υ(1S) → K + K −
+     
+Γ p p /Γtotal                                                                                           Γ61 /Γ
+VALUE (units 10−4 )            CL%             DOCUMENT ID             TECN        COMMENT
+<5                    90        1 BARU                          96     MD1         Υ(1S) → p p
+ 1 Supersedes BARU 92 in this node.
+
+Γ π + π − π 0 /Γtotal
+             
+                                                                                                        Γ62 /Γ
+VALUE (units 10−6 )       CL%          EVTS       DOCUMENT ID               TECN    COMMENT
+   2.14± 0.72 ± 0.34       26 ± 9       SHEN             13 BELL Υ(1S) → π + π − π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<18.4                90                 ANASTASSOV 99 CLE2 e + e − → hadrons
+
+Γ φK + K − /Γtotal
+          
+                                                                                                        Γ63 /Γ
+VALUE (units 10−6 )           EVTS             DOCUMENT ID             TECN        COMMENT
+2.36± 0.37 ± 0.29                 56           SHEN             12A BELL           Υ(1S) → 2(K + K − )
+
+Γ ω π + π − /Γtotal
+           
+                                                                                                        Γ64 /Γ
+VALUE (units 10−6 )          EVTS             DOCUMENT ID             TECN      COMMENT
+4.46± 0.67 ± 0.72               64            SHEN             12A BELL         Υ(1S) → 2(π + π − ) π 0
+
+Γ K ∗ (892)0 K − π + + c.c. /Γtotal
+                           
+                                                                                                        Γ65 /Γ
+VALUE (units 10−6 )        EVTS           DOCUMENT ID                TECN     COMMENT
+4.42± 0.50 ± 0.58           173           SHEN               12A BELL         Υ(1S) → K + K − π + π −
+
+Γ φf ′2 (1525) /Γtotal
+              
+                                                                                                        Γ66 /Γ
+VALUE (units 10−6 )            CL%             DOCUMENT ID             TECN        COMMENT
+<1.63                          90              SHEN             12A BELL           Υ(1S) → 2(K + K − )
+             
+Γ ω f2 (1270) /Γtotal                                                                                   Γ67 /Γ
+VALUE (units 10−6 )           CL%             DOCUMENT ID              TECN      COMMENT
+<1.79                         90              SHEN              12A BELL         Υ(1S) → 2(π + π − ) π 0
+                 
+Γ ρ(770)a2 (1320) /Γtotal                                                                               Γ68 /Γ
+VALUE (units 10−6 )           CL%             DOCUMENT ID              TECN      COMMENT
+<2.24                         90              SHEN              12A BELL         Υ(1S) → 2(π + π − ) π 0
+
+https://pdg.lbl.gov                            Page 13                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ K ∗ (892)0 K ∗2 (1430)0 + c.c. /Γtotal
+                                
+                                                                                                        Γ69 /Γ
+VALUE (units 10−6 )        EVTS             DOCUMENT ID              TECN     COMMENT
+3.02± 0.68 ± 0.34              42           SHEN             12A BELL         Υ(1S) → K + K − π + π −
+
+Γ K1 (1270)± K ∓ /Γtotal
+                
+                                                                                                        Γ70 /Γ
+VALUE (units 10−6 )        CL%              DOCUMENT ID              TECN     COMMENT
+<2.41                      90               SHEN             12A BELL         Υ(1S) → K + K − π + π −
+
+Γ K1 (1400)± K ∓ /Γtotal
+                
+                                                                                                        Γ71 /Γ
+VALUE (units 10−6 )        EVTS             DOCUMENT ID              TECN     COMMENT
+1.02± 0.35 ± 0.22              24           SHEN             12A BELL         Υ(1S) → K + K − π + π −
+
+Γ b1 (1235)± π ∓ /Γtotal
+                
+                                                                                                        Γ72 /Γ
+VALUE (units 10−6 )             CL%           DOCUMENT ID              TECN      COMMENT
+<1.25                           90            SHEN              12A BELL         Υ(1S) → 2(π + π − ) π 0
+
+Γ π + π − π 0 π 0 /Γtotal
+                 
+                                                                                                        Γ73 /Γ
+VALUE (units 10−6 )              EVTS          DOCUMENT ID             TECN      COMMENT
+12.8± 2.0± 2.3            143 ± 22             SHEN             13     BELL      Υ(1S) → π + π − π 0 π 0
+
+Γ K 0S K + π − + c.c. /Γtotal
+                     
+                                                                                                        Γ74 /Γ
+VALUE (units 10−6 )      CL%         EVTS           DOCUMENT ID        TECN      COMMENT
+  1.59± 0.33 ± 0.18       37 ± 8        SHEN        13 BELL Υ(1S) → K 0 K − π +
+                                                                              S
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<3.4                90               1 DOBBS        12A             Υ(1S) → K 0 K − π +
+                                                                              S
+  1 Obtained by analyzing CLEO III data but not authored by the CLEO Collaboration.
+
+Γ K ∗ (892)0 K 0 + c.c. /Γtotal
+                       
+                                                                                                        Γ75 /Γ
+VALUE (units 10−6 )             EVTS          DOCUMENT ID              TECN      COMMENT
+2.92± 0.85 ± 0.37            16 ± 5           SHEN              13     BELL      Υ(1S) → K 0 − +
+                                                                                           SK π
+
+Γ K ∗ (892)− K + + c.c. /Γtotal
+                       
+                                                                                                        Γ76 /Γ
+VALUE (units 10−6 )             CL%           DOCUMENT ID              TECN      COMMENT
+<1.11                           90            SHEN              13     BELL      Υ(1S) → K 0 K − π +
+                                                                                           S
+                    
+Γ f1 (1285) anything /Γtotal                                                                            Γ77 /Γ
+VALUE (units 10−3 )             EVTS          DOCUMENT ID              TECN      COMMENT
+4.6± 2.8± 1.3                   3.1k          JIA               17A BELL         e + e − → hadrons
+
+Γ D ∗ (2010)± anything /Γtotal
+                      
+                                                                                                        Γ78 /Γ
+VALUE (units 10−3 )    CL%      EVTS          DOCUMENT ID             TECN     COMMENT
+  25.2± 1.3± 1.5       ≈ 2k                  1 AUBERT
+                                                  10C BABR Υ(2S) → π + π − Υ(1S)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<19              90               2 ALBRECHT 92J ARG              e + e − → D 0 π± X
+  1 For x
+            p > 0.1.
+  2 For x
+            p > 0.2.
+
+https://pdg.lbl.gov                           Page 14                       Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                 
+Γ f1 (1285)Xtetra /Γtotal                                                                               Γ79 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<62.4 × 10−6             90        1 JIA             17A BELL e + e − → hadrons
+ 1 For a tetraquark state X
+                           tetra , with mass in the range 1.16–2.46 GeV and width in the
+   range 0–0.3 GeV. Measured 90% CL limits as a function of Xtetra mass and width range
+   from 4.6 × 10−6 to 62.4 × 10−6 .
+
+Γ 2 H anything /Γtotal
+              
+                                                                                                        Γ80 /Γ
+VALUE (units 10−5 )           EVTS           DOCUMENT ID               TECN      COMMENT
+2.85± 0.25 OUR AVERAGE
+           + 0.20
+2.81± 0.49 −                                 LEES                 14G BABR e + e − → 2 H X
+             0.24
+2.86± 0.19 ± 0.21    455                     ASNER                07   CLEO e + e − → 2 H X
+                            
+Γ Sum of 100 exclusive modes /Γtotal                                                                    Γ81 /Γ
+VALUE (units 10−2 )                          DOCUMENT ID               COMMENT
+1.200± 0.017                            1,2 DOBBS  12A Υ(1S) → hadrons
+  1 DOBBS 12A presents individual exclusive branching fractions or upper limits for 100
+    modes of four to ten pions, kaons, or protons.
+  2 Obtained by analyzing CLEO III data but not authored by the CLEO Collaboration.
+
+Γ(g g g , γ g g → d anything)/Γ(g g g , γ g g → anything)
+VALUE (units 10−5 )           EVTS           DOCUMENT ID               TECN      COMMENT
+3.36± 0.23 ± 0.25              455           ASNER                07   CLEO e + e − → d X
+
+Γ γ π + π − /Γtotal
+           
+                                                                                                        Γ82 /Γ
+VALUE (units 10−5 )                          DOCUMENT ID               TECN      COMMENT
+6.3± 1.2± 1.3                              1 ANASTASSOV 99             CLE2      e + e − → hadrons
+  1 For m
+          π π >1 GeV.
+
+Γ γ π 0 π 0 /Γtotal
+           
+                                                                                                        Γ83 /Γ
+VALUE (units 10−5 )                          DOCUMENT ID               TECN      COMMENT
+1.7± 0.6± 0.3                              1 ANASTASSOV 99             CLE2      e + e − → hadrons
+  1 For m
+          π π >1 GeV.
+                
+Γ γ π π (S-wave) /Γtotal                                                                                Γ84 /Γ
+VALUE (units 10−5 )                          DOCUMENT ID               TECN      COMMENT
+4.63± 0.56 ± 0.48                            LEES                 18A BABR Υ(1S) → γ π + π −
+
+Γ γ π 0 η /Γtotal
+         
+                                                                                                        Γ85 /Γ
+VALUE (units 10−6 )            CL%           DOCUMENT ID               TECN      COMMENT
+<2.4                 90                    1 BESSON               07A CLEO e + e − → Υ(1S)
+ 1 BESSON 07A obtained this limit for 0.7 < m                     < 3 GeV.
+                                                           π0 η
+
+Γ γ K + K − /Γtotal
+           
+                                                                                                        Γ86 /Γ
+        (2 < m + − < 3 GeV)
+              K K
+VALUE (units 10−5 )            CL%           DOCUMENT ID               TECN      COMMENT
+1.14± 0.08 ± 0.10              90            ATHAR                06   CLE3      Υ(1S) → γ K + K −
+
+https://pdg.lbl.gov                          Page 15                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+       
+Γ γ p p /Γtotal                                                                                         Γ87 /Γ
+       (2 < m p p < 3 GeV)
+VALUE (units 10−5 )            CL%           DOCUMENT ID               TECN      COMMENT
+<0.6                           90            ATHAR              06     CLE3      Υ(1S) → γ p p
+
+Γ γ 2h+ 2h− /Γtotal
+           
+                                                                                                        Γ88 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID              TECN      COMMENT
+7.0± 1.1± 1.0             80 ± 12            FULTON             90B CLEO e + e − → hadrons
+
+Γ γ 3h+ 3h− /Γtotal
+           
+                                                                                                        Γ89 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID              TECN      COMMENT
+5.4± 1.5± 1.3             39 ± 11            FULTON             90B CLEO e + e − → hadrons
+
+Γ γ 4h+ 4h− /Γtotal
+           
+                                                                                                        Γ90 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID              TECN      COMMENT
+7.4± 2.5± 2.5             36 ± 12            FULTON             90B CLEO e + e − → hadrons
+
+Γ γ π + π − K + K − /Γtotal
+                   
+                                                                                                        Γ91 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID              TECN      COMMENT
+2.9± 0.7± 0.6              29 ± 8            FULTON             90B CLEO e + e − → hadrons
+
+Γ γ 2π + 2π − /Γtotal
+             
+                                                                                                        Γ92 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID              TECN      COMMENT
+2.5± 0.7± 0.5              26 ± 7            FULTON             90B CLEO e + e − → hadrons
+
+Γ γ 3π + 3π − /Γtotal
+             
+                                                                                                        Γ93 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID              TECN      COMMENT
+2.5± 0.9± 0.8              17 ± 5            FULTON             90B CLEO e + e − → hadrons
+
+Γ γ 2π + 2π − K + K − /Γtotal
+                     
+                                                                                                        Γ94 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID              TECN      COMMENT
+2.4± 0.9± 0.8              18 ± 7            FULTON             90B CLEO e + e − → hadrons
+
+Γ γ π + π − p p /Γtotal
+               
+                                                                                                        Γ95 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID              TECN      COMMENT
+1.5± 0.5± 0.3              22 ± 6            FULTON             90B CLEO e + e − → hadrons
+
+Γ γ 2π + 2π − p p /Γtotal
+                 
+                                                                                                        Γ96 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      COMMENT
+0.4± 0.4± 0.4                7±6             FULTON             90B CLEO e + e − → hadrons
+
+Γ γ 2K + 2K − /Γtotal
+             
+                                                                                                        Γ97 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      COMMENT
+0.2± 0.2                     2±2             FULTON             90B CLEO e + e − → hadrons
+
+
+
+
+https://pdg.lbl.gov                          Page 16                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ γ η ′ (958) /Γtotal
+             
+                                                                                                         Γ98 /Γ
+VALUE (units 10−6 )   CL%         DOCUMENT ID             TECN         COMMENT
+< 1.9            90       ATHAR          07A CLEO Υ(1S) → γ η ′ → γ π + π − η, γ ρ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<16              90       RICHICHI       01B CLE2 Υ(1S) → γ η ′ → γ η π + π −
+     
+Γ γ η /Γtotal                                                                                            Γ99 /Γ
+VALUE (units 10−6 )         CL%          DOCUMENT ID                   TECN     COMMENT
+< 1.0                       90           ATHAR   07A CLEO Υ(1S) → γ η → γ γ γ,
+                                                                    γ π + π − π 0 , γ 3π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<21                         90           MASEK               02        CLEO Υ(1S) → γ η
+            
+Γ γ f0 (980) /Γtotal                                                                                    Γ100 /Γ
+VALUE (units 10−5 )              CL%         DOCUMENT ID                 TECN        COMMENT
+<3                    90      1 ATHAR                             06     CLE3        Υ(1S) → γ π + π −
+ 1 Assuming B(f (980) → π π) = 1.
+               0
+
+Γ γ f ′2 (1525) /Γtotal
+               
+                                                                                                        Γ101 /Γ
+VALUE (units 10−5 )        CL% EVTS             DOCUMENT ID                   TECN     COMMENT
+   2.9 ± 0.6 OUR AVERAGE
+   2.13± 0.28 ± 0.72                 1 LEES            18A BABR Υ(1S) →                            γ K+ K−
+   4.0 ± 1.4 ± 0.1           17      2 BESSON          11 CLEO Υ(1S) →                             K0 K0
+                                                                                                     S S
+       + 0.9 ± 0.8
+   3.7 −                               ATHAR           06 CLE3 Υ(1S) →                             γ K+ K−
+         0.7
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<14                  90              3 FULTON          90B CLEO Υ(1S) →                            γ K+ K−
+<19.4                90              3 ALBRECHT        89 ARG          Υ(1S) →                     γ K+ K−
+  1 Using B(f ′ (1525) → K K ) = 0.887 ± 0.022 and B(K 0 K 0 ) = 1/2 B(K K ).
+               2
+  2 BESSON 11 reports (4.0 ± 1.3 ± 0.6) × 10−5 from a measurement of [Γ Υ(1S) →
+    γ f ′ (1525) /Γtotal ] × [B(f ′ (1525) → K K )] assuming B(f ′ (1525) → K K ) = (88.8 ±
+                
+        2                         2                              2
+    3.1) × 10−2 , which we rescale to our best (shown rounded) value B(f ′ (1525) → K K )
+                                                                           2
+    = (88.8 ± 2.2) × 10−2 . Our ﬁrst error is their experiment’s error and our second error is
+    the systematic error from using our best (shown rounded) value. The result also assumes
+    B(K 0 → π + π − ) = (69.20 ± 0.05)% and B(f ′ (1525) → K K ) = 4 B(f ′ (1525) →
+          S                                            2                          2
+    K 0 K 0 ).
+      S S
+  3 Assuming B(f ′ (1525) → K K ) = 0.71.
+                   2
+             
+Γ γ f2 (1270) /Γtotal                                                                                   Γ102 /Γ
+VALUE (units 10−5 )              CL%         DOCUMENT ID                 TECN        COMMENT
+  10.1 ± 0.6 OUR AVERAGE
+              + 0.54
+  10.15± 0.59 −                            1 LEES                 18A BABR Υ(1S) → γ π + π −
+                0.43
+              + 1.9
+  10.5 ± 1.6 − 1.8                         2 BESSON               07A CLE3           Υ(1S) → γ π 0 π 0
+  10.2 ± 0.8 ± 0.7                           ATHAR                06     CLE3        Υ(1S) → γ π + π −
+   8.1 ± 2.3 −+ 2.9                        3 ANASTASSOV 99               CLE2        e + e − → hadrons
+                2.7
+
+https://pdg.lbl.gov                          Page 17                          Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<21                     90        3 FULTON          90B CLEO Υ(1S) → γ π + π −
+<13                     90        3 ALBRECHT        89 ARG          Υ(1S) → γ π + π −
+<81                     90          SCHMITT         88 CBAL Υ(1S) → γ X
+  1 Using B(f (1270) → π 0 π 0 ) = 1/3 B(f (1270) → π π) and B(f (1270) → π π) =
+              2                             2                           2
+          + 2.9 )%.
+    (84.2 − 0.9
+  2 Using B(f (1270) → π 0 π 0 ) = B(f (1270) → π π)/3 and B(f (1270) → π π) =
+              2                         2                               2
+          + 2.5 )%.
+    (84.7 − 1.2
+  3 Using B(f (1270) → π π) = 0.84.
+              2
+           
+Γ γ η(1405) /Γtotal                                                                                     Γ103 /Γ
+VALUE (units 10−5 )            CL%          DOCUMENT ID                TECN      COMMENT
+<8.2                   90        1 FULTON        90B CLEO Υ(1S) → γ K ± π ∓ K 0
+                                                                              S
+ 1 Includes unknown branching ratio of η(1405) → K ± π ∓ K 0 .
+                                                           S
+             
+Γ γ f0 (1500) /Γtotal                                                                                   Γ104 /Γ
+VALUE (units 10−5 )   CL%            DOCUMENT ID               TECN      COMMENT
+<1.5               90       1 BESSON         07A CLEO e + e − → Υ(1S) → γ π 0 π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<6.1               90       2 BESSON         07A CLEO e + e − → Υ(1S) → γ η η
+  1 Using B(f (1500) → π 0 π 0 ) = B(f (1500) → π π)/3 and B(f (1500) → π π) =
+              0                         0                               0
+    (0.349 ± 0.023)%.
+  2 Calculated by us using B(f (1500) → η η) = (5.1 ± 0.9)%.
+                              0
+Γ γ f0 (1500) → γ K + K − /Γtotal
+                         
+                                                                                                        Γ105 /Γ
+VALUE (units 10−5 )               DOCUMENT ID                TECN      COMMENT
+1.04± 0.14 ± 0.33               1 LEES  18A BABR e + e − → Υ(1S) → γ K + K −
+  1 LEES 18A quotes B(Υ(1S) → γ f (1500) → γ K K ) = (2.08 ± 0.27 ± 0.65) × 10−5
+                                     0
+    assuming B(K 0 K 0 ) = 1/2 B(K K ).
+             
+Γ γ f0 (1710) /Γtotal                                                                                   Γ106 /Γ
+VALUE (units 10−4 )            CL%           DOCUMENT ID               TECN      COMMENT
+< 2.6                   90        1 ALBRECHT        89 ARG          Υ(1S) → γ K + K −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 6.3                   90        1 FULTON          90B CLEO Υ(1S) → γ K + K −
+<19                     90        1 FULTON          90B CLEO Υ(1S) → γ K 0 K 0
+                                                                                S S
+< 8                     90        2 ALBRECHT        89 ARG          Υ(1S) → γ π + π −
+<24                     90        3 SCHMITT         88 CBAL Υ(1S) → γ X
+  1 Assuming B(f (1710) → K K ) = 0.38.
+                0
+  2 Assuming B(f (1710) → π π) = 0.04.
+                0
+  3 Assuming B(f (1710) → η η) = 0.18.
+                0
+Γ γ f0 (1710) → γ K + K − /Γtotal
+                             
+                                                                                 Γ107 /Γ
+VALUE (units 10−5 )      CL%         DOCUMENT ID             TECN      COMMENT
+  1.01± 0.26 ± 0.18         1 LEES          18A BABR e + e − → Υ(1S) → γ K + K −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.7                90        ATHAR         06 CLEO e + e − → Υ(1S) → γ K + K −
+
+https://pdg.lbl.gov                          Page 18                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 LEES 18A quotes B(Υ(1S) → γ f (1710) → γ K K ) = (2.02 ± 0.51 ± 0.35) × 10−5
+                                     0
+    assuming B(K 0 K 0 ) = 1/2 B(K K ).
+
+Γ γ f0 (1710) → γ π + π − /Γtotal
+                         
+                                                                                                        Γ108 /Γ
+VALUE (units 10−5 )                          DOCUMENT ID               TECN      COMMENT
+0.53± 0.17 ± 0.11                          1 LEES
+                                             18A BABR Υ(1S) → γ π + π −
+  1 LEES 18A quotes B(Υ(1S) → γ f (1710) → γ π π) = (0.79 ± 0.26 ± 0.17) × 10−5
+                                       0
+    assuming B( π 0 π 0 ) = 1/3 B( π π).
+
+Γ γ f0 (1710) → γ π 0 π 0 /Γtotal
+                         
+                                                                                                        Γ109 /Γ
+VALUE (units 10−6 )   CL%              DOCUMENT ID             TECN      COMMENT
+<1.4                  90               BESSON           07A CLEO e + e − → Υ(1S) → γ π 0 π 0
+                     
+Γ γ f0 (1710) → γ η η /Γtotal                                                                           Γ110 /Γ
+VALUE (units 10−6 )        CL%           DOCUMENT ID              TECN      COMMENT
+<1.8                       90            BESSON            07A CLEO e + e − → Υ(1S) → γ η η
+             
+Γ γ f4 (2050) /Γtotal                                                                                   Γ111 /Γ
+VALUE (units 10−5 )              CL%         DOCUMENT ID               TECN      COMMENT
+<5.3                   90                  1 ATHAR              06     CLE3      Υ(1S) → γ π + π −
+ 1 Assuming B(f (2050) → π π) = 0.17.
+               4
+
+Γ γ f0 (2200) → γ K + K − /Γtotal
+                         
+                                                                                                        Γ112 /Γ
+VALUE                            CL%         DOCUMENT ID               TECN      COMMENT
+<0.0002                          90          BARU               89     MD1       Υ(1S) → γ K + K −
+
+Γ γ fJ (2220) → γ K + K − /Γtotal
+                         
+                                                                                                        Γ113 /Γ
+VALUE (units 10−7 )              CL%         DOCUMENT ID               TECN      COMMENT
+<    8                  90          ATHAR           06 CLE3 Υ(1S) → γ K + K −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 160                   90          MASEK           02 CLEO Υ(1S) → γ K + K −
+< 150                   90          FULTON          90B CLEO Υ(1S) → γ K + K −
+< 290                   90          ALBRECHT        89 ARG          Υ(1S) → γ K + K −
+<2000                   90          BARU            89 MD1 Υ(1S) → γ K + K −
+
+Γ γ fJ (2220) → γ π + π − /Γtotal
+                         
+                                                                                                        Γ114 /Γ
+VALUE (units 10−7 )              CL%         DOCUMENT ID               TECN      COMMENT
+< 6                     90          ATHAR           06 CLE3 Υ(1S) → γ π + π −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<120                    90          MASEK           02 CLEO Υ(1S) → γ π + π −
+                     
+Γ γ fJ (2220) → γ p p /Γtotal                                                                           Γ115 /Γ
+VALUE (units 10−7 )              CL%         DOCUMENT ID               TECN      COMMENT
+< 11                    90          ATHAR           06 CLE3 Υ(1S) → γ p p
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<160                             90          MASEK              02     CLEO Υ(1S) → γ p p
+
+
+https://pdg.lbl.gov                          Page 19                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                  
+Γ γ η(2225) → γ φφ /Γtotal                                                                              Γ116 /Γ
+VALUE                  CL%            DOCUMENT ID               TECN      COMMENT
+<0.003                 90             BARU               89     MD1       Υ(1S) → γ K + K − K + K −
+           
+Γ γ ηc (1S) /Γtotal                                                                                     Γ117 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<2.9 × 10−5             90        1 KATRENKO 20 BELL e + e − → γ + hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<5.7 × 10−5             90          SHEN            10A BELL Υ(1S) → γ X
+  1 Using Υ(2S) → Υ(1S) π + π − decays.
+           
+Γ γ ηc (2S) /Γtotal                                                                                     Γ118 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<4 × 10−4           90        1 KATRENKO                        20     BELL      e + e − → γ + hadrons
+ 1 Using Υ(2S) → Υ(1S) π + π − decays.
+       
+Γ γ χc0 /Γtotal                                                                                         Γ119 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<6.6 × 10−5             90        1 KATRENKO 20 BELL Υ(1S) → γ + hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<6.5 × 10−4             90          SHEN            10A BELL Υ(1S) → γ X
+  1 Using Υ(2S) → Υ(1S) π + π − decays.
+       
+Γ γ χc1 /Γtotal                                                                                         Γ120 /Γ
+VALUE (units 10−5 )   CL%     EVTS           DOCUMENT ID               TECN      COMMENT
+      + 2.4 + 0.4
+  4.7 −                                    1 KATRENKO
+        1.8 − 0.5                 5                             20     BELL      Υ(1S) → γ + hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<2.3            90              SHEN                            10A BELL         Υ(1S) → γ X
+ 1 Using Υ(2S) → Υ(1S) π + π − decays.
+       
+Γ γ χc2 /Γtotal                                                                                         Γ121 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<7.6 × 10−6             90          SHEN            10A BELL Υ(1S) → γ X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<3.3 × 10−5             90        1 KATRENKO 20 BELL Υ(1S) → γ + hadrons
+  1 Using Υ(2S) → Υ(1S) π + π − decays.
+              
+Γ γ χc1 (3872) /Γtotal                                                                                  Γ122 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<4 × 10−5              90      1 SHEN           10A BELL Υ(1S) → γ X
+ 1 SHEN 10A reports [Γ Υ(1S) →                      
+                                        γ χc1 (3872) /Γtotal ] × [B(χc1 (3872) →
+   π + π − J/ψ(1S))] < 1.6 × 10−6 which we divide by our best (shown rounded) value
+   B(χc1 (3872) → π + π − J/ψ(1S)) = 4.3 × 10−2 .
+
+
+
+
+https://pdg.lbl.gov                          Page 20                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ γ χc1 (3872), χc1 → π + π − π 0 J/ψ /Γtotal
+                                     
+                                                                                                        Γ123 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<2.8 × 10−6                    90            SHEN               10A BELL         Υ(1S) → γ X
+                      
+Γ γ χc0 (3915) → ω J/ψ /Γtotal                                                                          Γ124 /Γ
+VALUE (units 10−6 )            CL%           DOCUMENT ID               TECN      COMMENT
+<3.0                           90            SHEN               10A BELL         Υ(1S) → γ X
+                     
+Γ γ χc1 (4140) → φJ/ψ /Γtotal                                                                           Γ125 /Γ
+VALUE (units 10−6 )            CL%           DOCUMENT ID               TECN      COMMENT
+<2.2                           90            SHEN               10A BELL         Υ(1S) → γ X
+                       
+Γ γ X X (m X < 3.1 GeV) /Γtotal                                                                         Γ126 /Γ
+        (X X = vectors with m< 3.1 GeV)
+VALUE (units 10−3 )            CL%           DOCUMENT ID               TECN      COMMENT
+<1                       90                1 BALEST
+                                                  95                   CLEO e + e − → γ + X X
+ 1 For a noninteracting vector X with mass < 3.1 GeV.
+                       
+Γ γ X X (m X < 4.5 GeV) /Γtotal                                                                         Γ127 /Γ
+        X and X = zero spin with m < 4.5 GeV
+VALUE (units 10−5 )            CL%           DOCUMENT ID               TECN      COMMENT
+<24                      90       1 DEL-AMO-SA...11J BABR e + e − → γ + X X
+ 1 For a noninteracting scalar X with mass m < 4.5 GeV.
+                      
+Γ γ X → γ + ≥ 4 prongs /Γtotal                                                                          Γ128 /Γ
+        (1.5 GeV < m X < 5.0 GeV)
+VALUE (units 10−4 )            CL%           DOCUMENT ID               TECN      COMMENT
+<1.78                          95            ROSNER             07A CLEO e + e − → γ X
+
+Γ γ A0 /Γtotal
+      
+                                                                                                        Γ129 /Γ
+        (A0 = scalar with m < 8.0 GeV)
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<4.5 × 10−6               90        1 DEL-AMO-SA...11J BABR e + e − → γ + X
+<3 × 10−5                 90        2 BALEST           95 CLEO e + e − → γ + X
+<5.6 × 10  −5             90        2 ANTREASYAN 90C CBAL e + e − → γ + X
+  1 For a non-interacting scalar or pseudoscalar, A0 , with mass m      < 8.0 GeV. 90% CL
+                                                                   A0
+    upper limits range from 1.9 × 10 −6              −6
+                                         to 4.5 × 10 .
+  2 For any non-interacting long-lived particle with mass < 7.2 GeV.
+
+Γ γ A0 → γ µ+ µ− /Γtotal
+                
+                                                                                                        Γ130 /Γ
+        (201 < M(µ+ µ− ) < 3565 MeV)
+VALUE (units 10−6 )     CL%           DOCUMENT ID               TECN       COMMENT
+< 9               90                 1 LOVE    08 CLEO e + e − → γ A0 → γ µ+ µ−
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<16               90         2 JIA             22 BELL Υ(2S) → γ µ+ µ− π + π −
+< 9.7             90         3 LEES            13C BABR e + e − → γ A0 → γ µ+ µ−
+
+https://pdg.lbl.gov                          Page 21                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 For a narrow scalar or pseudoscalar, A0 , with 201 < M(µ+ µ− ) < 3565 MeV, excluding
+    J/ψ. Measured 90% CL limits as a function of M(µ+ µ− ) range from 1–9 × 10−6 .
+  2 For a narrow scalar or pseudoscalar, A0 , with 0.22 < M(A0 ) < 9.2 GeV, resulting in
+    90% CL upper limits ranging from 3.1 × 10−7 at M(A0 ) = 0.22 GeV to 1.6 × 10−5 at
+    M(A0 ) = 9.2 GeV.
+  3 For a narrow scalar or pseudoscalar, A0 , with mass in the range 0.212–9.2 GeV, exclud-
+    ing J/ψ and ψ(2S). Measured 90% CL limits as a function of m 0 are in the range
+                                                                        A
+    0.28–9.7 × 10−6 .
+
+Γ γ A0 → γ τ + τ − /Γtotal
+                  
+                                                                                                        Γ131 /Γ
+        (2m τ   < M(τ + τ − ) < 9.2 GeV)
+VALUE (units 10−6 )     CL%           DOCUMENT ID                 TECN     COMMENT
+<130              90         1 LEES            13R BABR Υ(2S) → γ τ + τ − π + π −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<150              90         2 JIA             22 BELL Υ(2S) → γ τ + τ − π + π −
+< 50              90         3 LOVE            08 CLEO e + e − → γ A0 → γ τ + τ −
+  1 For a narrow scalar or pseudoscalar, A0 , with 2m          0
+                                                     τ < M(A ) < 9.2 GeV, resulting in
+    90% CL upper limits of 0.9 × 10 −5   at M(A ) = 2m τ , ≈ 1.5 × 10−5 at M(A0 ) = 7.5
+                                                0
+    GeV, and 13 × 10−5 at M(A0 ) = 9.2 GeV.
+  2 For a narrow scalar or pseudoscalar, A0 , with 2m < M(A0 ) < 9.2 GeV, resulting in
+                                                     τ
+    90% CL upper limits ranging from 3.8× 10−6 at M(A0 ) = 2m τ to 1.5× 10−4 at M(A0 )
+    = 9.2 GeV.
+  3 For a narrow scalar or pseudoscalar, A0 , with 2m < M(A0 ) < 7.5 GeV, resulting in
+                                                     τ
+    90% CL limits ranging from 1 × 10−5 at M(A0 )=2m τ to 5 × 10−5 at M(A0 )=7.5 GeV.
+
+Γ γ A0 → γ g g /Γtotal
+              
+                                                                                                        Γ132 /Γ
+        (0.5 GeV < m < 9.0 GeV)
+VALUE                           CL%          DOCUMENT ID                 TECN     COMMENT
+<1 × 10−2               90      1 LEES             13L BABR Υ(1S) → γ X
+ 1 For a narrow, CP-odd pseudoscalar, A0 , searched for in 26 hadronic decay modes with
+   invariant mass 0.5 GeV < m 0 < 9.0 GeV. Measured 90% CL limits as a function of
+                             A
+   m 0 range from 10−6 to 10−2 .
+     A
+
+Γ γ A0 → γ s s /Γtotal
+              
+                                                                                                        Γ133 /Γ
+        (0.5 GeV < m < 9.0 GeV)
+VALUE                           CL%          DOCUMENT ID                 TECN     COMMENT
+<1 × 10−3               90      1 LEES             13L BABR Υ(1S) → γ X
+ 1 For a narrow, CP-odd pseudoscalar, A0 , searched for in 14 hadronic decay modes with
+   invariant mass 1.5 GeV < m 0 < 9.0 GeV. Measured 90% CL limits as a function of
+                             A
+   m 0 range from 10−5 to 10−3 .
+     A
+                LEPTON FAMILY NUMBER (LF) VIOLATING MODES
+
+Γ e ± µ∓ /Γtotal
+        
+                                                                                                        Γ134 /Γ
+VALUE (units 10−7 )        CL%           DOCUMENT ID               TECN         COMMENT
+<3.9                       90            PATRA               22    BELL         Υ(2S) → π + π − e ± µ∓
+
+
+
+https://pdg.lbl.gov                          Page 22                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ µ± τ ∓ /Γtotal
+        
+                                                                                                        Γ135 /Γ
+VALUE                      CL%           DOCUMENT ID               TECN      COMMENT
+<2.7 × 10−6          90          PATRA           22 BELL Υ(2S) → π + π − µ± τ ∓
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<6.0 × 10−6          95          LOVE            08A CLEO e + e − → µ± τ ∓
+
+Γ e ± τ ∓ /Γtotal
+         
+                                                                                                        Γ136 /Γ
+VALUE (units 10−6 )        CL%           DOCUMENT ID               TECN      COMMENT
+<2.7                       90            PATRA               22    BELL      Υ(2S) → π + π − e ± τ ∓
+
+Γ γ e ± µ∓ /Γtotal
+          
+                                                                                                        Γ137 /Γ
+VALUE (units 10−7 )        CL%           DOCUMENT ID               TECN      COMMENT
+<4.2                       90            PATRA               22    BELL      Υ(2S) → π + π − γ e ± µ∓
+
+Γ γ µ± τ ∓ /Γtotal
+          
+                                                                                                        Γ138 /Γ
+VALUE (units 10−6 )        CL%           DOCUMENT ID               TECN      COMMENT
+<6.1                       90            PATRA               22    BELL      Υ(2S) → π + π − γ µ± τ ∓
+
+Γ γ e ± τ ∓ /Γtotal
+           
+                                                                                                        Γ139 /Γ
+VALUE (units 10−6 )        CL%           DOCUMENT ID               TECN      COMMENT
+<6.5                       90            PATRA               22    BELL      Υ(2S) → π + π − γ e ± τ ∓
+
+                                          OTHER DECAYS
+           
+Γ invisible /Γtotal                                                                                     Γ140 /Γ
+VALUE (units 10−4 )       CL%           DOCUMENT ID               TECN      COMMENT
+< 3.0               90          AUBERT          09AX BABR Υ(3S) → π + π − Υ(1S)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<39                 90          RUBIN           07 CLEO Υ(2S) → π + π − Υ(1S)
+<25                 90          TAJIMA          07 BELL Υ(3S) → π + π − Υ(1S)
+
+
+                                       Υ(1S) REFERENCES
+ADACHI         25A PRL 135 041901               I. Adachi et al.       (BELLE and BELLE II Collab.)
+DONG           25   JHEP 2509 048               X. Dong et al.                      (BELLE Collab.)
+AAIJ           24AC JHEP 2410 122               R. Aaij et al.                       (LHCb Collab.)
+SHAMOV         23   PL B839 137766              A.G. Shamov, O.L. Rezanova        (NOVO, NOVOU)
+JIA            22   PRL 128 081804              S. Jia et al.                       (BELLE Collab.)
+PATRA          22   JHEP 2205 095               S. Patra et al.                     (BELLE Collab.)
+KATRENKO       20   PRL 124 122001              P. Katrenko et al.                  (BELLE Collab.)
+JIA            18   PR D97 112004               S. Jia et al.                       (BELLE Collab.)
+LEES           18A PR D97 112006                J.P. Lees et al.                   (BABAR Collab.)
+JIA            17   PR D95 012001               S. Jia et al.                       (BELLE Collab.)
+JIA            17A PR D96 112002                S. Jia et al.                       (BELLE Collab.)
+SHEN           16   PR D93 112013               C.P. Shen et al.                    (BELLE Collab.)
+LEES           14G PR D89 111102                J.P. Lees et al.                   (BABAR Collab.)
+YANG           14   PR D90 112008               S.D. Yang et al.                    (BELLE Collab.)
+LEES           13C PR D87 031102                J.P. Lees et al.                   (BABAR Collab.)
+LEES           13L PR D88 031701                J.P. Lees et al.                   (BABAR Collab.)
+LEES           13R PR D88 071102                J.P. Lees et al.                   (BABAR Collab.)
+SHEN           13   PR D88 011102               C.P. Shen et al.                    (BELLE Collab.)
+DOBBS          12A PR D86 052003                S. Dobbs et al.
+SHEN           12A PR D86 031102                C.P. Shen et al.                    (BELLE Collab.)
+BESSON         11   PR D83 037101               D. Besson et al.                     (CLEO Collab.)
+
+https://pdg.lbl.gov                          Page 23                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+DEL-AMO-SA... 11J PRL 107 021804               P. del Amo Sanchez et al.             (BABAR Collab.)
+AUBERT          10C PR D81 011102              B. Aubert et al.                      (BABAR Collab.)
+DEL-AMO-SA... 10C PRL 104 191801               P. del Amo Sanchez et al.             (BABAR Collab.)
+SHEN            10A PR D82 051504              C.P. Shen et al.                       (BELLE Collab.)
+AUBERT          09AX PRL 103 251801            B. Aubert et al.                      (BABAR Collab.)
+LOVE            08    PRL 101 151802           W. Love et al.                          (CLEO Collab.)
+LOVE            08A PRL 101 201601             W. Love et al.                          (CLEO Collab.)
+PDG             08    PL B667 1                C. Amsler et al.                         (PDG Collab.)
+ASNER           07    PR D75 012009            D.M. Asner et al.                       (CLEO Collab.)
+ATHAR           07A PR D76 072003              S.B. Athar et al.                       (CLEO Collab.)
+BESSON          07    PRL 98 052002            D. Besson et al.                        (CLEO Collab.)
+BESSON          07A PR D75 072001              D. Besson et al.                        (CLEO Collab.)
+ROSNER          07A PR D76 117102              J.L. Rosner et al.                      (CLEO Collab.)
+RUBIN           07    PR D75 031104            P. Rubin et al.                         (CLEO Collab.)
+TAJIMA          07    PRL 98 132001            O. Tajima et al.                       (BELLE Collab.)
+AQUINES         06A PR D74 092006              O. Aquines et al.                       (CLEO Collab.)
+ATHAR           06    PR D73 032001            S.B. Athar et al.                       (CLEO Collab.)
+BESSON          06A PR D74 012003              D. Besson et al.                        (CLEO Collab.)
+ROSNER          06    PRL 96 092003            J.L. Rosner et al.                      (CLEO Collab.)
+ADAMS           05    PRL 94 012001            G.S. Adams et al.                       (CLEO Collab.)
+BRIERE          04    PR D70 072001            R.A. Briere et al.                      (CLEO Collab.)
+ARTUSO          03    PR D67 052003            M. Artuso et al.                        (CLEO Collab.)
+MASEK           02    PR D65 072002            G. Masek et al.                         (CLEO Collab.)
+RICHICHI        01B PRL 87 141801              S.J. Richichi et al.                    (CLEO Collab.)
+ARTAMONOV 00          PL B474 427              A.S. Artamonov et al.
+ANASTASSOV 99         PRL 82 286               A. Anastassov et al.                    (CLEO Collab.)
+ALEXANDER 98          PR D58 052004            J.P. Alexander et al.                   (CLEO Collab.)
+BARU            96    PRPL 267 71              S.E. Baru et al.                               (NOVO)
+BALEST          95    PR D51 2053              R. Balest et al.                        (CLEO Collab.)
+CINABRO         94B PL B340 129                D. Cinabro et al.                       (CLEO Collab.)
+ALBRECHT        92J ZPHY C55 25                H. Albrecht et al.                    (ARGUS Collab.)
+BARU            92    ZPHY C54 229             S.E. Baru et al.                               (NOVO)
+BARU            92B ZPHY C56 547               S.E. Baru et al.                               (NOVO)
+KOBEL           92    ZPHY C53 193             M. Kobel et al.                   (Crystal Ball Collab.)
+ANTREASYAN 90C PL B251 204                     D. Antreasyan et al.              (Crystal Ball Collab.)
+BLINOV          90    PL B245 311              A.E. Blinov et al.                             (NOVO)
+FULTON          90B PR D41 1401                R. Fulton et al.                        (CLEO Collab.)
+MASCHMANN 90          ZPHY C46 555             W.S. Maschmann et al.             (Crystal Ball Collab.)
+ALBRECHT        89    ZPHY C42 349             H. Albrecht et al.                    (ARGUS Collab.)
+ALEXANDER 89          NP B320 45               J.P. Alexander et al.              (LBL, MICH, SLAC)
+BARU            89    ZPHY C42 505             S.E. Baru et al.                               (NOVO)
+CHEN            89B PR D39 3528                W.Y. Chen et al.                        (CLEO Collab.)
+FULTON          89    PL B224 445              R. Fulton et al.                        (CLEO Collab.)
+KAARSBERG 89          PRL 62 2077              T.M. Kaarsberg et al.                   (CUSB Collab.)
+BUCHMUEL... 88        HE e + e − Physics 412 W. Buchmueller, S. Cooper          (HANN, DESY, MIT)
+    Editors: A. Ali and P. Soeding, World Scientiﬁc, Singapore
+JAKUBOWSKI 88         ZPHY C40 49              Z. Jakubowski et al.              (Crystal Ball Collab.) IGJPC
+SCHMITT         88    ZPHY C40 199             P. Schmitt et al.                 (Crystal Ball Collab.)
+ALBRECHT        87    ZPHY C35 283             H. Albrecht et al.                    (ARGUS Collab.)
+COHEN           87    RMP 59 1121              E.R. Cohen, B.N. Taylor                    (RISC, NBS)
+BARU            86    ZPHY C30 551             S.E. Baru et al.                               (NOVO)
+ALBRECHT        85C PL 154B 452                H. Albrecht et al.                    (ARGUS Collab.)
+KURAEV          85    SJNP 41 466              E.A. Kuraev, V.S. Fadin                        (NOVO)
+                      Translated from YAF 41 733.
+ARTAMONOV 84          PL 137B 272              A.S. Artamonov et al.                          (NOVO)
+BESSON          84    PR D30 1433              D. Besson et al.                        (CLEO Collab.)
+GILES           84B PR D29 1285                R. Giles et al.                         (CLEO Collab.)
+MACKAY          84    PR D29 2483              W.W. MacKay et al.                      (CUSB Collab.)
+ANDREWS         83    PRL 50 807               D.E. Andrews et al.                     (CLEO Collab.)
+GILES           83    PRL 50 877               R. Giles et al.         (HARV, OSU, ROCH, RUTG+)
+NICZYPORUK 83         ZPHY C17 197             B. Niczyporuk et al.                    (LENA Collab.)
+ALBRECHT        82    PL 116B 383              H. Albrecht et al.           (DESY, DORT, HEIDH+)
+ARTAMONOV 82          PL 118B 225              A.S. Artamonov et al.                          (NOVO)
+NICZYPORUK 82         ZPHY C15 299             B. Niczyporuk et al.                    (LENA Collab.)
+BERGER          80C PL 93B 497                 C. Berger et al.                      (PLUTO Collab.)
+BOCK            80    ZPHY C6 125              P. Bock et al.          (HEIDP, MPIM, DESY, HAMB)
+BERGER          79    ZPHY C1 343              C. Berger et al.                      (PLUTO Collab.)
+
+
+
+
+https://pdg.lbl.gov                          Page 24                      Created: 6/1/2026 16:24
+

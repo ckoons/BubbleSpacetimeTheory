@@ -1,0 +1,1837 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ φ(1020)                                              I G (J PC ) = 0− (1 − − )
+
+
+                                         φ(1020) MASS
+
+VALUE (MeV)                     EVTS           DOCUMENT ID               TECN      COMMENT
+1019.460 ± 0.016 OUR AVERAGE
+1019.444 ± 0.013 ± 0.060                       DRUZHININ          25   e+ e− → K 0 K 0
+                                                                         SND
+                                                                                    L S
+1019.463 ± 0.061           2.3M      1 KOZYREV         18 CMD3 e + e − → K + K − ,
+                                                                          K0 K0
+                                                                            S L
+1019.462 ± 0.042 ± 0.056 28k         2 LEES            14H BABR e e − → K 0 K 0 γ
+                                                                        +
+                                                                                    S L
+1019.51 ± 0.02 ± 0.05                3 LEES            13Q BABR e + e − →
+                                                                          K+ K− γ
+1019.30 ± 0.02 ± 0.10 105k             AKHMETSHIN 06 CMD2 0.98–1.06 e + e − →
+                                                                          π+ π− π0
+1019.52 ± 0.05 ± 0.05 17.4k            AKHMETSHIN 05 CMD2 0.60-1.38 e + e − →
+                                                                          ηγ
+1019.483 ± 0.011 ± 0.025 272k        4 AKHMETSHIN 04 CMD2 e + e − → K 0 K 0
+                                                                                    L S
+1019.42 ± 0.05            1900k      5 ACHASOV         01E SND         e+ e− → K + K −,
+                                                                          KS KL ,
+                                                                          π+ π− π0
+1019.40 ± 0.04 ± 0.05        23k       AKHMETSHIN 01B CMD2 e + e − → η γ
+1019.36 ± 0.12                       6 ACHASOV         00B SND         e+ e− → η γ
+1019.38 ± 0.07 ± 0.08 2200           7 AKHMETSHIN 99F CMD2 e + e − →
+                                                                          π + π − ≥ 2γ
+1019.51 ± 0.07 ± 0.10 11169            AKHMETSHIN 98 CMD2 e + e − →
+                                                                          π+ π− π0
+1019.5   ± 0.4                         BARBERIS        98 OMEG 450 p p →
+                                                                          p p 2K + 2K −
+1019.42 ± 0.06            55600        AKHMETSHIN 95 CMD2 e + e − → hadrons
+1019.7   ± 0.3             2012        DAVENPORT 86 MPSF 400 p A → 4K X
+1019.7   ± 0.1    ± 0.1    5079        ALBRECHT        85D ARG         10 e + e − →
+                                                                          K+ K− X
+1019.3   ± 0.1             1500        ARENTON          82 AEMS 11.8 polar. p p →
+                                                                          KK
+1019.67 ± 0.17            25080      8 PELLINEN        82 RVUE
+1019.52 ± 0.13             3681        BUKIN            78C OLYA e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1019.443 ± 0.010 ± 0.060 1.28M 9,10 ACHASOV             24 SND         e+ e− → K 0 K 0
+                                                                                    L S
+1019.0330± 0.0084                   11 DUBNICKA        24 RVUE e + e − → K + K − ,
+                                                                          K0 K0
+                                                                            S L
+1019.761 ± 0.130            34M     12 IGNATOV          24 CMD3 e + e − → π + π −
+1018.4   ± 0.5    ± 0.1             13 ALBRECHT        20 CBAR 0.9 p p →
+                                                                          K + K − π0
+1019.21 ± 0.04 ± 0.03               14 HOID            20 RVUE e e − → π 0 γ
+                                                                        +
+1019.54 ± 0.10 ± 0.51               15 AAIJ            19H LHCB p p → D ± X
+1019.20 ± 0.02 ± 0.01               16 HOFERICHT... 19 RVUE e + e − →
+                                                                          π+ π− π0
+1019.469 ± 0.061           1.7M        KOZYREV         18 CMD3 e + e − → K + K −
+1019.457 ± 0.061           610k        KOZYREV         16 CMD3 e + e − → K 0 K 0
+                                                                                    S L
+1019.48 ± 0.01                         LEES            13F BABR D + → K + K − π +
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:24
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+1019.441 ± 0.008 ± 0.080 542k                 17 AKHMETSHIN 08              CMD2 1.02 e + e − →
+                                                                                    K+ K−
+1019.63      ± 0.07               12540       18 AUBERT,B   05J             BABR D 0 → K 0 K + K −
+1019.8       ± 0.7                                ARMSTRONG 86              OMEG 85 π + /p p →
+                                                                                    π + /p 4K p
+1020.1   ± 0.11                    5526       18 ATKINSON            86     OMEG 20–70 γ p
+1019.7   ± 1.0                                   BEBEK               86     CLEO e + e − → Υ(4S)
+1019.411 ± 0.008                   642k       19 DIJKSTRA            86     SPEC 100–200 π ± , p, p,
+                                                                                    K ± , on Be
+1020.9       ± 0.2                            18 FRAME     86               OMEG 13 K + p → φK + p
+1021.0       ± 0.2                            18 ARMSTRONG 83B              OMEG 18.5 K − p →
+                                                                                    K− K+ Λ
+1020.0       ± 0.5                            18 ARMSTRONG 83B              OMEG 18.5 K − p →
+                                                                                    K− K+ Λ
+1019.7       ± 0.3                            18 BARATE              83     GOLI 190 π − Be → 2µ X
+1019.8       ± 0.2      ± 0.5       766           IVANOV             81     OLYA 1–1.4 e + e − →
+                                                                                    K+ K−
+1019.4       ± 0.5                  337           COOPER             78B    HBC  0.7–0.8 p p →
+                                                                                    K 0 K 0 π+ π−
+                                                                                       S L
+1020         ±1                     383       18 BALDI               77     CNTR 10 π − p → π − φp
+1018.9       ± 0.6                  800           COHEN              77     ASPK 6 π ± N →
+                                                                                    K+ K− N
+1019.7       ± 0.5                  454           KALBFLEISCH 76            HBC  2.18 K − p →
+                                                                                    ΛK K
+1019.4       ± 0.8                  984          BESCH               74     CNTR 2 γ p → p K + K −
+1020.3       ± 0.4                  100          BALLAM              73     HBC  2.8–9.3 γ p
+1019.4       ± 0.7                               BINNIE              73B    CNTR π − p → φn
+1019.6       ± 0.5                  120       20 AGUILAR-...         72B    HBC  3.9,4.6 K − p →
+                                                                                    ΛK+ K−
+1019.9       ± 0.5                  100       20 AGUILAR-...         72B    HBC  3.9,4.6 K − p →
+                                                                                    K− p K+ K−
+1020.4       ± 0.5                  131           COLLEY             72     HBC  10 K + p → K + p φ
+1019.9       ± 0.3                  410           STOTTLE...         71     HBC  2.9 K − p →
+                                                                                    Σ /Λ K K
+  1 Average of KOZYREV 16 and KOZYREV 18 values taking into account the correlated
+    uncertainties. Supersedes individual KOZYREV 16 and KOZYREV 18 results.
+  2 Using a vector meson dominance model with contribution from φ(1020) and higher mass
+    excitations of ρ(770), ω(782), and φ(1020).
+  3 Using a phenomenological model based on KUHN 90 with a sum of Breit-Wigner reso-
+    nances for ρ(770), ω(782), φ(1020) and their higher mass excitations.
+  4 Update of AKHMETSHIN 99D
+  5 From the combined ﬁt assuming that the total φ(1020) production cross section is
+    saturated by those of K + K − , KS KL , π + π − π 0 , and η γ decays modes and using
+    ACHASOV 00B for the η γ decay mode.
+  6 Using a total width of 4.43 ± 0.05 MeV. Systematic uncertainty included.
+  7 Using a total width of 4.43 ± 0.05 MeV.
+  8 PELLINEN 82 review includes AKERLOF 77, DAUM 81, BALDI 77, AYRES 74, DE-
+    GROOT 74.
+  9 From a ﬁt of the cross section in the energy region 1.000 < √s < 1.100 GeV using
+    a vector meson dominance model with contribution from φ(1020), ρ(770), ω(782) and
+    higher vector resonances.
+ 10 Superseded by DRUZHININ 25.
+ 11 From the ﬁt to data of CMD3, BABAR and BES3.
+
+
+
+https://pdg.lbl.gov                            Page 2                      Created: 6/1/2026 16:24
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 12 From a ﬁt of the pion form factor in the energy range 0.32 < √s < 1.2 GeV using
+    the GOUNARIS 68 parametrization with the complex phase of the ρ − ω interference
+    leaving ρ(1450), ρ(1700) resonances as free parameters of the ﬁt. Systematic errors not
+    estimated.
+ 13 Width ﬁxed at 4.2 MeV.
+ 14 The values were extracted from a dispersively improved Breit-Wigner parameteriza-
+    tion and do not include vacuum polarization. Inclusion of vacuum polarization gives
+    1019.457 ± 0.020 MeV.
+ 15 From the D ± → K ± K + K − Dalitz plot ﬁt with the Triple-M amplitude in the multi-
+    meson model of AOUDE 18.
+ 16 The values were extracted from a dispersively improved Breit-Wigner parameterization
+    and do not include vacuum polarization.
+ 17 Strongly correlated with AKHMETSHIN 04.
+ 18 Systematic errors not evaluated.
+ 19 Weighted and scaled average of 12 measurements of DIJKSTRA 86.
+                                     √
+ 20 Mass errors enlarged by us to Γ/ N; see the note with the K ∗ (892) mass.
+
+
+                                         φ(1020) WIDTH
+
+VALUE (MeV)               EVTS           DOCUMENT ID               TECN      COMMENT
+4.249± 0.013 OUR AVERAGE             Error includes scale factor of 1.1.
+4.234± 0.22 ± 0.12                      DRUZHININ 25 SND               e+ e− → K 0 K 0
+                                                                                    L S
+4.245± 0.013             2.3M         1 KOZYREV          18 CMD3 e + e − → K + K − ,
+                                                                          K0 K0
+                                                                           S L
+4.205± 0.103 ± 0.067       28k        2 LEES             14H BABR e + e − → K 0 K 0 γ
+                                                                                    S L
+4.29 ± 0.04 ± 0.07                    3 LEES             13Q BABR e + e − → K + K − γ
+4.30 ± 0.06 ± 0.17        105k          AKHMETSHIN 06 CMD2 0.98–1.06 e + e − →
+                                                                          π+ π− π0
+4.280± 0.033 ± 0.025      272k        4 AKHMETSHIN 04 CMD2 e + e − → K 0 K 0
+                                                                                    L S
+4.21 ± 0.04              1900k        5 ACHASOV          01E SND       e+ e− → K + K −,
+                                                                          KS KL , π + π − π 0
+4.44 ± 0.09          55600                                               +
+                                        AKHMETSHIN 95 CMD2 e e − → hadrons
+4.5 ± 0.7             1500        ARENTON         82 AEMS 11.8 polar. p p → K K
+4.2 ± 0.6              766      6 IVANOV          81 OLYA 1–1.4 e + e − → K + K −
+4.3 ± 0.6                       6 CORDIER         80 DM1 e + e − → π + π − π 0
+4.36 ± 0.29           3681      6 BUKIN           78C OLYA e + e − → hadrons
+4.4 ± 0.6              984      6 BESCH           74 CNTR 2 γ p → p K + K −
+4.67 ± 0.72            681      6 BALAKIN         71 OSPK e + e − → hadrons
+4.09 ± 0.29                       BIZOT           70 OSPK e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.212± 0.20 ± 0.13 1.28M 7,8 ACHASOV              24 SND          e+ e− → K 0 K 0
+                                                                             L S
+4.151± 0.018                    9 DUBNICKA        24 RVUE e + e − → K + K − ,
+                                                                     K0 K0
+                                                                       S L
+4.681± 0.277          34M      10 IGNATOV         24 CMD3 e + e − → π + π −
+4.07 ± 0.13 ± 0.01             11 HOID            20 RVUE e + e − → π 0 γ
+4.23 ± 0.04 ± 0.02             12 HOFERICHT... 19 RVUE e + e − → π + π − π 0
+4.249± 0.015         1.7M         KOZYREV         18 CMD3 e + e − → K + K −
+4.240± 0.017          610k        KOZYREV         16 CMD3 e + e − → K 0 K 0
+                                                                             S L
+4.37 ± 0.02                       LEES            13F BABR D + → K + K − π +
+
+
+
+https://pdg.lbl.gov                         Page 3                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+4.24 ± 0.02 ± 0.03         542k       13 AKHMETSHIN 08 CMD2 1.02 e + e − → K + K −
+4.28 ± 0.13               12540       14 AUBERT,B   05J BABR D 0 → K 0 K + K −
+4.45 ± 0.06                271k          DIJKSTRA   86 SPEC 100 π − Be
+3.6 ± 0.8                   337        6 COOPER     78B HBC  0.7–0.8 p p →
+                                                                K 0 K 0 π+ π−
+                                                                   S L
+4.5   ± 0.50               1300     6,14 AKERLOF    77 SPEC 400 p A → K + K − X
+4.5   ± 0.8                 500     6,14 AYRES      74 ASPK 3–6 π − p →
+                                                                K + K − n, K − p →
+                                                                K+ K− Λ Σ0
+                                                                          
+
+3.81 ± 0.37                              COSME      74B OSPK e + e − → K 0 K 0
+                                                                          L S
+3.8 ± 0.7                454           6 BORENSTEIN 72 HBC   2.18 K − p → K K n
+  1 Average of KOZYREV 16 and KOZYREV 18 values taking into account the correlated
+    uncertainties. Supersedes individual KOZYREV 16 and KOZYREV 18 results.
+  2 Using a vector meson dominance model with contribution from φ(1020) and higher mass
+    excitations of ρ(770), ω(782), and φ(1020).
+  3 Using a phenomenological model based on KUHN 90 with a sum of Breit-Wigner reso-
+    nances for ρ(770), ω(782), φ(1020) and their higher mass excitations.
+  4 Update of AKHMETSHIN 99D
+  5 From the combined ﬁt assuming that the total φ(1020) production cross section is
+    saturated by those of K + K − , KS KL , π + π − π 0 , and η γ decays modes and using
+    ACHASOV 00B for the η γ decay mode.√
+  6 Width errors enlarged by us to 4Γ/ N; see the note with the K ∗ (892) mass.
+  7 From a ﬁt of the cross section in the energy region 1.000 < √s < 1.100 GeV using
+    a vector meson dominance model with contribution from φ(1020), ρ(770), ω(782) and
+    higher vector resonances.
+  8 Superseded by DRUZHININ 25.
+  9 From the ﬁt to data of CMD3, BABAR and BES3.
+ 10 From a ﬁt of the pion form factor in the energy range 0.32 < √s < 1.2 GeV using
+    the GOUNARIS 68 parametrization with the complex phase of the ρ − ω interference
+    leaving ρ(1450), ρ(1700) resonances as free parameters of the ﬁt. Systematic errors not
+    estimated.
+ 11 The values were extracted from a dispersively improved Breit-Wigner parameterization.
+ 12 The values were extracted from a dispersively improved Breit-Wigner parameterization
+    and do not include vacuum polarization.
+ 13 Strongly correlated with AKHMETSHIN 04.
+ 14 Systematic errors not evaluated.
+
+
+                                   φ(1020) DECAY MODES
+                                                                                            Scale factor/
+       Mode                                                   Fraction (Γi /Γ)            Conﬁdence level
+
+Γ1     K+K−                                                      (50.1    ± 0.6    )%                  S=1.6
+Γ2     K 0L K 0S                                                 (33.6    ± 0.4    )%                  S=1.3
+Γ3     ρ π + π+ π− π0                                            (14.7    ± 0.4    )%                  S=1.5
+Γ4        π+ π− π0
+Γ5     ηγ                                                        ( 1.306± 0.024) %                     S=1.2
+Γ6     π0 γ                                                      ( 1.33 ± 0.05 ) × 10−3
+Γ7     ℓ+ ℓ−                                                            —
+Γ8        e+ e−                                                  ( 2.963± 0.034) × 10−4                S=1.4
+Γ9        µ+ µ−                                                  ( 2.86 ± 0.22 ) × 10−4                S=1.2
+
+https://pdg.lbl.gov                          Page 4                      Created: 6/1/2026 16:24
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ10   η e+ e−                                                   ( 1.08 ± 0.04 ) × 10−4
+Γ11   π+ π−                                                     ( 9.5 ± 1.9 ) × 10−5                  S=2.0
+Γ12   ω π0                                                      ( 4.7 ± 0.5 ) × 10−5
+Γ13   ωγ                                                     < 5                    %             CL=84%
+Γ14   ργ                                                     < 1.2              × 10−5            CL=90%
+Γ15   π+ π− γ                                                 ( 4.1    ± 1.3 ) × 10−5
+Γ16   f0 (980)γ                                                 ( 3.22 ± 0.19 ) × 10−4                S=1.1
+Γ17   π0 π0 γ                                                   ( 1.13 ± 0.06 ) × 10−4
+Γ18   π+ π− π+ π−                                               ( 3.9    + 2.8
+                                                                         − 2.2     ) × 10−6
+Γ19   π+ π+ π− π− π0                                         < 4.6                  × 10−6        CL=90%
+Γ20   π0 e + e −                                                       + 0.07 ) × 10−5
+                                                                ( 1.33 − 0.10
+Γ21   π0 η γ                                                    ( 7.27 ± 0.30 ) × 10−5                S=1.5
+Γ22   a0 (980)γ                                                 ( 7.6 ± 0.6 ) × 10−5
+Γ23   K0 K0γ                                                 < 1.9            × 10−8              CL=90%
+Γ24   η ′ (958)γ                                              ( 6.23 ± 0.21 ) × 10−5
+Γ25   η π0 π0 γ                                              < 2              × 10−5              CL=90%
+Γ26   µ+ µ− γ                                                   ( 1.4    ± 0.5    ) × 10−5
+Γ27   ργ γ                                                   < 1.2                  × 10−4        CL=90%
+Γ28   η π+ π−                                                < 1.8                  × 10−5        CL=90%
+Γ29   η µ+ µ−                                                < 9.4                  × 10−6        CL=90%
+Γ30   η U → η e+ e−                                          < 1                    × 10−6        CL=90%
+Γ31   invisible                                              < 1.7                  × 10−4        CL=90%
+
+                     Lepton Family number (LF ) violating modes
+Γ32   e ± µ∓                                        LF       < 2                    × 10−6        CL=90%
+Γ33   π+ π+ e − e −                                 L        < 1.3                  × 10−5        CL=90%
+
+
+                         CONSTRAINED FIT INFORMATION
+         An overall ﬁt to 30 branching ratios uses 84 measurements and
+         one constraint to determine 14 parameters. The overall ﬁt has a
+         χ2 = 98.5 for 71 degrees of freedom.
+
+The
+D       following
+          E        off-diagonal array elements are the correlation coeﬃcients
+  δxi δxj /(δxi ·δxj ), in percent, from the ﬁt to the branching fractions, xi ≡
+ Γi /Γtotal . The ﬁt constrains the xi whose labels appear in this array to sum to
+one.
+
+
+
+
+https://pdg.lbl.gov                         Page 5                      Created: 6/1/2026 16:24
+            Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+   x2               −70
+   x3               −67    −6
+   x5               −25    28          0
+   x6               −14    17          1         8
+   x8                60   −77         −3       −37       −23
+   x9                −6     7          0         3         2        −9
+ x11                 −4     4          0         2         1        −6           1
+ x12                 −5     6          0         3         2        −8           1         0
+ x16                  0     0          0         0         0         0           0         0         0
+ x17                −12    15          0        18         4       −19           2         1         2       0
+ x18                 −1     1          0         1         0        −2           0         0         0       0
+ x22                  0     0          0         0         0         0           0         0         0       0
+ x24                 −8     9          0        32         3       −12           1         1         1       0
+                     x1      x2        x3        x5        x6        x8        x9       x11       x12      x16
+
+ x18                  0
+ x22                  0       0
+ x24                  6       0          0
+                    x17    x18        x22
+
+                                     φ(1020) PARTIAL WIDTHS
+        
+Γ ηγ                                                                                                        Γ5
+VALUE (keV)                                     DOCUMENT ID               TECN       COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+58.9± 0.5 ± 2.4                     ACHASOV         00 SND          e+ e− → η γ
+
+Γ π0 γ
+            
+                                                                                                            Γ6
+VALUE (keV)                                     DOCUMENT ID               TECN       COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+           + 0.43
+5.40± 0.16 −                                    ACHASOV            00     SND        e + e − → π0 γ
+             0.40
+
+Γ ℓ+ ℓ−
+        
+                                                                                                            Γ7
+VALUE (keV)                                     DOCUMENT ID               TECN       COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.320± 0.017 ± 0.015              1 AMBROSINO 05 KLOE 1.02 e + e − → µ+ µ−
+  1 Weighted average of Γ
+                                 q
+                          ee and Γ e e Γ µ µ from AMBROSINO 05 assuming lepton uni-
+    versality.
+
+Γ e+ e−
+                
+                                                                                                            Γ8
+VALUE (keV)                                     DOCUMENT ID               TECN       COMMENT
+1.27 ± 0.04 OUR EVALUATION
+1.251± 0.021 OUR AVERAGE Error includes scale factor of 1.1.
+1.235± 0.006 ± 0.022        1 AKHMETSHIN 11 CMD2 1.02 e + e − → φ
+
+
+https://pdg.lbl.gov                              Page 6                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+1.32 ± 0.05 ± 0.03                  2 AMBROSINO 05 KLOE 1.02 e + e − → e + e −
+1.28 ± 0.05                           AKHMETSHIN 95 CMD2 1.02 e + e − → φ
+  1 Combined analysis of the CMD-2 data on φ → K + K − , K 0 K 0 , π + π − π 0 , η γ assum-
+                                                                S L
+    ing that the sum of their branching fractions is 0.99741 ± 0.00007.
+  2 From forward-backward asymmetry and using Γ
+                                                     total = 4.26 ± 0.05 MeV from the 2004
+    edition of this Review.
+                    1/                                                                                  1/
+ Γ e + e − × Γ µ+ µ− 2                                                                            (Γ8 Γ9 ) 2
+          
+
+VALUE (keV)                                  DOCUMENT ID               TECN      COMMENT
+1.320± 0.018 ± 0.017                         AMBROSINO 05              KLOE 1.02 e + e − → µ+ µ−
+
+
+                     φ(1020) Γ(i)Γ(e + e − )/Γ(total)
+Γ K + K − × Γ e + e − /Γtotal
+                    
+                                                                                                    Γ1 Γ8 /Γ
+VALUE (keV)                    EVTS           DOCUMENT ID                TECN     COMMENT
+0.6340± 0.0070 ± 0.0039             1 LEES           13Q BABR e + e − → K + K − γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.669 ± 0.001 ± 0.023 1.7M            KOZYREV        18 CMD3 e + e − → K + K −
+  1 Using a phenomenological model based on KUHN 90 with a sum of Breit-Wigner res-
+    onances for ρ(770), ω(782), φ(1020) and their higher mass excitations. The ﬁrst er-
+    ror combines statistical and systematic uncertainties. The second one is due to the
+    parametrization of the charged kaon form factor and mass calibration.
+
+Γ K 0L K 0S × Γ e + e − /Γtotal
+                      
+                                                                                                    Γ2 Γ8 /Γ
+VALUE (keV)                     EVTS           DOCUMENT ID               TECN       COMMENT
+0.4200± 0.0033 ± 0.0123      28k     1 LEES          14H BABR e + e − → K 0 K 0 γ
+                                                                               S L
+  1 Using a vector meson dominance model with contribution from φ(1020) and higher mass
+    excitations of ρ(770), ω(782), and φ(1020).
+
+ Γ ρ π + Γ π + π − π 0 × Γ e + e − /Γtotal
+                              
+                                                                                                    Γ3 Γ8 /Γ
+VALUE (eV)                              DOCUMENT ID               TECN       COMMENT
+184.1± 2.1 ± 8.0                 1 LEES           21B BABR 10.5 e + e − → π + π − π 0 γ
+  1 From the cross section for e + e − → π + π − π 0 with contributions from ρ(770), ω(782),
+    φ(1020), ω(1420), and ω(1650).
+
+
+                     φ(1020) Γ(i)Γ(e + e − )/Γ2 (total)
+Γ K + K − /Γtotal × Γ e + e − /Γtotal
+                            
+                                                                                            Γ1 /Γ × Γ8 /Γ
+VALUE (units 10−5 )          EVTS           DOCUMENT ID               TECN      COMMENT
+14.85 ± 0.30 OUR FIT Error includes scale factor of 1.6.
+14.6 ± 0.5 OUR AVERAGE Error includes scale factor of 1.8. See the ideogram
+below.
+15.789± 0.541          1.7M         KOZYREV        18 CMD3 e + e − → K + K −
+14.27 ± 0.05 ± 0.31    542k         AKHMETSHIN 08 CMD2 1.02 e + e − → K + K −
+13.93 ± 0.14 ± 0.99 1000k        1  ACHASOV        01E SND        e+ e− → K + K −,
+                                                                     KS KL , π + π − π 0
+  1 From the combined ﬁt assuming that the total φ(1020) production cross section is
+    saturated by those of K + K − , KS KL , π + π − π 0 , and η γ decays modes and using
+    ACHASOV 00B for the η γ decay mode.
+
+https://pdg.lbl.gov                           Page 7                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+           WEIGHTED AVERAGE
+           14.6±0.5 (Error scaled by 1.8)
+
+
+                                                  Values above of weighted average, error,
+                                                  and scale factor are based upon the data in
+                                                  this ideogram only. They are not neces-
+                                                  sarily the same as our ‘best’ values,
+                                                  obtained from a least-squares constrained fit
+                                                  utilizing measurements of other (related)
+                                                  quantities as additional information.
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           KOZYREV    18              CMD3   4.8
+                                                           AKHMETSHIN 08              CMD2   1.1
+                                                           ACHASOV    01E             SND    0.4
+                                                                                             6.4
+                                                                        (Confidence Level = 0.041)
+
+         10       12       14      16       18         20
+
+           Γ K + K − /Γtotal × Γ e + e − /Γtotal (units 10−5 )
+                                     
+
+
+Γ K 0L K 0S /Γtotal × Γ e + e − /Γtotal
+                              
+                                                                                            Γ2 /Γ × Γ8 /Γ
+VALUE (units 10−5 )           EVTS           DOCUMENT ID               TECN      COMMENT
+ 9.96 ± 0.08 OUR FIT
+ 9.93 ± 0.08 OUR AVERAGE
+ 9.83 ± 0.04 ± 0.10                          DRUZHININ          25  e+ e− → K 0 K 0
+                                                                       SND
+                                                                                 L S
+10.078± 0.223            610k              1 KOZYREV 16 CMD3 e + e − → K 0 K 0
+                                                                                 S L
+10.01 ± 0.04 ± 0.17      272k      2 AKHMETSHIN 04 CMD2 e + e − → K 0 K 0
+                                                                                 L S
+10.27 ± 0.07 ± 0.34      500k      3 ACHASOV         01E SND        e+ e− → K + K −,
+                                                                       KS KL , π + π − π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ 9.85 ± 0.03 ± 0.10     1.28M 4,5 ACHASOV            24 SND         e+ e− → K 0 K 0
+                                                                                 L S
+  1 KOZYREV 16 also reports Γ(e + e − ) B(φ → K 0 K 0 ) = (0.428 ± 0.001 ± 0.009) keV.
+                                                   S L
+  2 Update of AKHMETSHIN 99D
+  3 From the combined ﬁt assuming that the total φ(1020) production cross section is
+    saturated by those of K + K − , KS KL , π + π − π 0 , and η γ decays modes and using
+    ACHASOV 00B for the η γ decay mode.
+  4 From a ﬁt of the cross section in the energy region 1.000 < √s < 1.100 GeV using
+    a vector meson dominance model with contribution from φ(1020), ρ(770), ω(782) and
+    higher vector resonances.
+  5 Superseded by DRUZHININ 25.
+
+ Γ ρ π + Γ π + π − π 0 /Γtotal × Γ e + e − /Γtotal
+                                      
+                                                                                            Γ3 /Γ × Γ8 /Γ
+VALUE (units 10−5 )           EVTS           DOCUMENT ID               TECN      COMMENT
+4.35 ± 0.13 OUR FIT Error includes scale factor of 1.4.
+4.51 ± 0.14 OUR AVERAGE
+4.51 ± 0.16 ± 0.11  105k        AKHMETSHIN 06 CMD2 0.98–1.06 e + e − →
+                                                        π+ π− π0
+https://pdg.lbl.gov                           Page 8                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+4.665± 0.042 ± 0.261          400k         1 ACHASOV                e+ e− → K + K −,
+                                                                 01E SND
+                                                                       KS KL , π + π − π 0
+4.35 ± 0.27 ± 0.08       11169     2 AKHMETSHIN 98 CMD2 e + e − → π + π − π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.38 ± 0.12                          BENAYOUN 10 RVUE 0.4–1.05 e + e −
+4.30 ± 0.08 ± 0.21                 3 AUBERT,B         04N BABR 10.6 e + e − →
+                                                                       π+ π− π0 γ
+  1 From the combined ﬁt assuming that the total φ(1020) production cross section is
+    saturated by those of K + K − , KS KL , π + π − π 0 , and η γ decays modes and using
+    ACHASOV 00B for the η γ decay mode.
+  2 Recalculated by us from the cross section in the peak.
+  3 Superseeded by LEES 21B.
+
+Γ η γ /Γtotal × Γ e + e − /Γtotal
+                        
+                                                                                            Γ5 /Γ × Γ8 /Γ
+VALUE (units 10−6 )          EVTS           DOCUMENT ID               TECN      COMMENT
+3.87 ± 0.07 OUR FIT Error includes scale factor of 1.2.
+3.93 ± 0.09 OUR AVERAGE Error includes scale factor of 1.3. See the ideogram below.
+4.050± 0.067 ± 0.118    33k       1 ACHASOV        07B SND         0.6–1.38 e + e − → η γ
+      + 0.040 ± 0.247 17.4k
+4.093 −                           2 AKHMETSHIN 05 CMD2 0.60-1.38 e + e − → η γ
+        0.043
+3.850± 0.041 ± 0.159    23k     3,4 AKHMETSHIN 01B CMD2 e + e − → η γ
+4.00 ± 0.04 ± 0.11                5 ACHASOV        00 SND          e+ e− → η γ
+3.53 ± 0.08 ± 0.17     2200     6,7 AKHMETSHIN 99F CMD2 e + e − → η γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.19 ± 0.06                       8 BENAYOUN 10 RVUE 0.4–1.05 e + e −
+
+           WEIGHTED AVERAGE
+           3.93±0.09 (Error scaled by 1.3)
+
+
+                                                  Values above of weighted average, error,
+                                                  and scale factor are based upon the data in
+                                                  this ideogram only. They are not neces-
+                                                  sarily the same as our ‘best’ values,
+                                                  obtained from a least-squares constrained fit
+                                                  utilizing measurements of other (related)
+                                                  quantities as additional information.
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           ACHASOV    07B             SND    0.8
+                                                           AKHMETSHIN 05              CMD2   0.4
+                                                           AKHMETSHIN 01B             CMD2   0.2
+                                                           ACHASOV    00              SND    0.4
+                                                           AKHMETSHIN 99F             CMD2   4.5
+                                                                                             6.3
+                                                                        (Confidence Level = 0.176)
+
+          3           3.5           4          4.5           5           5.5
+
+           Γ η γ /Γtotal × Γ e + e − /Γtotal
+                                           
+                                                                                              Γ5 /Γ × Γ8 /Γ
+
+
+https://pdg.lbl.gov                           Page 9                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 From a combined ﬁt of σ(e + e − → η γ) with η → 3π 0 and η → π + π − π 0 , and
+    ﬁxing B(η → 3π 0 ) / B(η → π + π − π 0 ) = 1.44 ± 0.04. Recalculated by us from the
+    cross section at the peak. Supersedes ACHASOV 00D and ACHASOV 06A.
+  2 From the η → 2γ decay and using B(η → γ γ) = 39.43 ± 0.26%.
+  3 From the η → 3π 0 decay and using B(η → 3π 0 )= (32.24 ± 0.29) × 10−2 .
+  4 The combined ﬁt from 600 to 1380 MeV taking into account ρ(770), ω(782), φ(1020),
+    and ρ(1450) (mass and width ﬁxed at 1450 MeV and 310 MeV respectively).
+  5 From the η → 2γ decay and using B(η → 2γ) =(39.21 ± 0.34) × 10−2 .
+  6 Recalculated by the authors from the cross section in the peak.
+  7 From the η → π + π − π 0 decay and using B(η → π + π − π 0 ) =(23.1 ± 0.5) × 10−2 .
+  8 A simultaneous ﬁt of e + e − → π + π − , π + π − π 0 , π 0 γ, η γ data.
+
+Γ π 0 γ /Γtotal × Γ e + e − /Γtotal
+                          
+                                                                                            Γ6 /Γ × Γ8 /Γ
+VALUE (units 10−7 )        EVTS          DOCUMENT ID                TECN      COMMENT
+3.94± 0.16 OUR FIT
+3.95± 0.17 OUR AVERAGE
+4.04± 0.09 ± 0.19               1 ACHASOV        16A SND         0.60–1.38 e + e − → π 0 γ
+3.75± 0.11 ± 0.29     18k         AKHMETSHIN 05 CMD2 0.60-1.38 e + e − → π 0 γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.29± 0.11                      2 BENAYOUN 10 RVUE 0.4–1.05 e + e −
+           + 0.27
+3.67± 0.10 −                           3 ACHASOV             00     SND       e + e − → π0 γ
+             0.25
+  1 From the VMD model with the interfering ρ(770), ω(782), φ(1020) resonances, and an
+    additional resonance describing the total contribution of the ρ(1450) and ω(1420) states.
+    Supersedes ACHASOV 00.
+  2 A simultaneous ﬁt of e + e − → π + π − , π + π − π 0 , π 0 γ, η γ data.
+  3 From the π 0 → 2γ decay and using B(π 0 → 2γ) = (98.798 ± 0.032) × 10−2 .
+
+Γ µ+ µ− /Γtotal × Γ e + e − /Γtotal
+                          
+                                                                                            Γ9 /Γ × Γ8 /Γ
+VALUE (units 10−8 )                          DOCUMENT ID               TECN      COMMENT
+ 8.5 ± 0.6 OUR FIT Error includes scale factor of 1.2.
+ 8.8 ± 0.9 OUR AVERAGE Error includes scale factor of 1.5. See the ideogram below.
+ 8.36± 0.59 ± 0.37                   ACHASOV          01G SND       e + e − → µ+ µ−
+ 9.9 ± 1.4 ± 0.9                   1 ACHASOV          99C SND       e + e − → µ+ µ−
+14.4 ± 3.0                         2 VASSERMAN 81 OLYA e + e − → µ+ µ−
+ 8.6 ± 5.9                         2 AUGUSTIN         73 OSPK e + e − → µ+ µ−
+  1 Recalculated by the authors from the cross section in the peak.
+  2 Recalculated by us from the cross section in the peak.
+
+
+
+
+https://pdg.lbl.gov                          Page 10                       Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+           WEIGHTED AVERAGE
+           8.8±0.9 (Error scaled by 1.5)
+
+
+                                                  Values above of weighted average, error,
+                                                  and scale factor are based upon the data in
+                                                  this ideogram only. They are not neces-
+                                                  sarily the same as our ‘best’ values,
+                                                  obtained from a least-squares constrained fit
+                                                  utilizing measurements of other (related)
+                                                  quantities as additional information.
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           ACHASOV            01G     SND        0.5
+                                                           ACHASOV            99C     SND        0.4
+                                                           VASSERMAN          81      OLYA       3.4
+                                                           AUGUSTIN           73      OSPK
+                                                                                             4.3
+                                                                        (Confidence Level = 0.116)
+
+          0       5       10       15       20                           25
+
+           Γ µ+ µ− /Γtotal × Γ e + e − /Γtotal
+                                   
+                                                                                              Γ9 /Γ × Γ8 /Γ
+
+Γ π + π − /Γtotal × Γ e + e − /Γtotal
+                            
+                                                                                           Γ11 /Γ × Γ8 /Γ
+VALUE (units 10−8 )           EVTS           DOCUMENT ID               TECN      COMMENT
+2.8 ± 0.6 OUR FIT Error includes scale factor of 2.0.
+2.8 ± 0.5 OUR AVERAGE Error includes scale factor of 1.8. See the ideogram below.
+3.51± 0.33 ± 0.24         34M      1 IGNATOV            24 CMD3 e + e − → π + π −
+2.1 ± 0.3 ± 0.3                    2 ACHASOV            00C SND          e + e − → π+ π−
+     + 1.15
+1.95 −                             3 GOLUBEV            86 ND            e + e − → π+ π−
+       0.87
+     + 3.19
+6.01 −                             3 VASSERMAN 81 OLYA e + e − → π + π −
+       2.51
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.31± 0.99                         4 BENAYOUN 13 RVUE 0.4–1.05 e + e −
+  1 From a ﬁt of the pion form factor in the energy range 0.32 < √s < 1.2 GeV using the
+    GOUNARIS 68 parametrization with the complex phase of the ρ − ω interference with
+    ω and φ masses and widths constrained by the values and their errors from PDG 22,
+    and leaving ρ(1450), ρ(1700) resonances as free parameters of the ﬁt. A ﬁt without the
+    constraints from PDG 22 gives a value Γ(e + e − ) × Γ(π + π − )/Γ2          = (3.65 ± 0.24) ×
+                                                                          total
+       −8
+    10 .
+  2 Recalculated by the authors from the cross section in the peak.
+  3 Recalculated by us from the cross section in the peak.
+  4 A simultaneous ﬁt to e + e − → π + π − , π + π − π 0 , π 0 γ, η γ, K K , and τ − → π − π 0 ν
+                                                                                                 τ
+    data.
+
+
+
+
+https://pdg.lbl.gov                          Page 11                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+           WEIGHTED AVERAGE
+           2.8±0.5 (Error scaled by 1.8)
+
+
+                                                  Values above of weighted average, error,
+                                                  and scale factor are based upon the data in
+                                                  this ideogram only. They are not neces-
+                                                  sarily the same as our ‘best’ values,
+                                                  obtained from a least-squares constrained fit
+                                                  utilizing measurements of other (related)
+                                                  quantities as additional information.
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           IGNATOV            24      CMD3       2.9
+                                                           ACHASOV            00C     SND        2.8
+                                                           GOLUBEV            86      ND         0.6
+                                                           VASSERMAN          81      OLYA
+                                                                                             6.3
+                                                                        (Confidence Level = 0.042)
+
+          -2          0          2        4         6          8         10
+
+           Γ π + π − /Γtotal × Γ e + e − /Γtotal (units 10−8 )
+                                                 
+
+
+Γ ω π 0 /Γtotal × Γ e + e − /Γtotal
+                          
+                                                                                           Γ12 /Γ × Γ8 /Γ
+VALUE (units 10−8 )                  DOCUMENT ID                TECN       COMMENT
+1.40± 0.15 OUR FIT
+1.37± 0.17 ± 0.01            1,2 AMBROSINO 08G KLOE e + e − → π + π − 2π 0 , 2π 0 γ
+  1 Recalculated by the authors from the cross section at the peak.
+  2 AMBROSINO 08G reports [Γ φ(1020) → ω π 0 /Γ                                     + −
+                                                         total × Γ φ(1020) → e e /
+    Γtotal ] × [B(ω(782) → π + π − π 0 )] = (1.22 ± 0.13 ± 0.08) × 10−8 which we divide by
+    our best (shown rounded) value B(ω(782) → π + π − π 0 ) = (89.2 ± 0.7) × 10−2 . Our
+    ﬁrst error is their experiment’s error and our second error is the systematic error from
+    using our best (shown rounded) value.
+
+Γ π 0 π 0 γ /Γtotal × Γ e + e − /Γtotal
+                              
+                                                                                           Γ17 /Γ × Γ8 /Γ
+VALUE (units 10−8 )                           DOCUMENT ID              TECN      COMMENT
+3.34± 0.17 OUR FIT
+     + 0.04 + 0.19
+3.33 −                             1 AMBROSINO 07 KLOE e + e − → π 0 π 0 γ
+       0.09 − 0.20
+  1 Calculated by the authors from the cross section at the peak.
+
+Γ π + π − π + π − /Γtotal × Γ e + e − /Γtotal
+                                    
+                                                                                           Γ18 /Γ × Γ8 /Γ
+VALUE (units 10−9 )           EVTS       DOCUMENT ID                TECN      COMMENT
+
+    + 0.8 OUR FIT
+1.2 − 0.7
+1.17± 0.52 ± 0.64     3285       1 AKHMETSHIN 00E CMD2 e + e − → π + π − π + π −
+  1 Recalculated by the authors from the cross section in the peak.
+
+
+
+https://pdg.lbl.gov                           Page 12                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                φ(1020) BRANCHING RATIOS
+
+Γ K + K − /Γtotal
+         
+                                                                                                         Γ1 /Γ
+VALUE                      EVTS         DOCUMENT ID               TECN      COMMENT
+0.501± 0.006 OUR FIT Error includes scale factor of 1.6.
+0.493± 0.010 OUR AVERAGE
+0.492± 0.012          2913        AKHMETSHIN 95 CMD2 e + e − → K + K −
+0.44 ± 0.05             321       KALBFLEISCH 76 HBC           2.18 K − p → Λ K + K −
+0.49 ± 0.06             270       DEGROOT          74 HBC      4.2 K − p → Λ φ
+0.540± 0.034            565       BALAKIN          71 OSPK e + e − → K + K −
+0.48 ± 0.04             252       LINDSEY          66 HBC      2.1–2.7 K − p → Λ K + K −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.493± 0.003 ± 0.007            1 AKHMETSHIN 11 CMD2 1.02 e + e − → K + K −
+0.476± 0.017         1000k      2 ACHASOV          01E SND     e + e − → K + K − , KS KL ,
+                                                                  π+ π− π0
+  1 Combined analysis of the CMD-2 data on φ → K + K − , K 0 K 0 , π + π − π 0 , η γ assum-
+                                                               S L
+    ing that the sum of their branching fractions is 0.99741 ± 0.00007.
+  2 Using B(φ → e + e − )= (2.93 ± 0.14) × 10−4 .
+
+Γ K 0L K 0S /Γtotal
+           
+                                                                                                         Γ2 /Γ
+VALUE                       EVTS        DOCUMENT ID                TECN      COMMENT
+0.336± 0.004 OUR FIT Error includes scale factor of 1.3.
+0.331± 0.009 OUR AVERAGE
+0.335± 0.010         40644       AKHMETSHIN 95 CMD2 e + e − → K 0 K 0
+                                                                             L S
+0.326± 0.035                     DOLINSKY       91 ND           e+ e− → K 0 K 0
+                                                                             L S
+0.310± 0.024                     DRUZHININ 84 ND                e+ e− → K 0 K 0
+                                                                             L S
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.336± 0.002 ± 0.006           1 AKHMETSHIN 11 CMD2 1.02 e + e − → K 0 K 0
+                                                                                   S L
+0.351± 0.013          500k     2 ACHASOV        01E SND         e+ e− → K + K −,
+                                                                   KS KL , π + π − π 0
+0.27 ± 0.03            133       KALBFLEISCH 76 HBC             2.18 K − p → Λ K 0 K 0
+                                                                                   L S
+0.257± 0.030            95     3 BALAKIN        71 OSPK e + e − → K 0 K 0
+                                                                             L S
+0.40 ± 0.04            167       LINDSEY        66 HBC          2.1–2.7 K − p → Λ K 0     0
+                                                                                       L KS
+  1 Combined analysis of the CMD-2 data on φ → K + K − , K 0 K 0 , π + π − π 0 , η γ assum-
+                                                               S L
+    ing that the sum of their branching fractions is 0.99741 ± 0.00007.
+  2 Using B(φ → e + e − )= (2.93 ± 0.14) × 10−4 .
+  3 Balakin error increased by Paul.
+
+Γ K 0L K 0S /Γ K + K −
+                      
+                                                                                                        Γ2 /Γ1
+VALUE (units 10−2 )    EVTS           DOCUMENT ID               TECN       COMMENT
+67.1± 1.4 OUR FIT Error includes scale factor of 1.5.
+74.0± 3.1 OUR AVERAGE
+70 ± 6          2732       BUKIN            78C OLYA                       e+ e− → K 0 K 0
+                                                                                         L S
+82   ± 8                              LOSTY               78    HBC        4.2 K − p → φhyperon
+71   ± 5                              LAVEN               77    HBC        10 K − p → K + K − Λ
+71   ± 8                              LYONS               77    HBC        3–4 K − p → Λ φ
+89   ± 10                144          AGUILAR-...         72B   HBC        3.9,4.6 K − p
+
+
+
+https://pdg.lbl.gov                          Page 13                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+59.3± 2.3± 2.1      665k       1 ABLIKIM         25BR BES3 D + → φ( → K 0 K 0 ) π +
+                                                                 s               S L
+64.4± 1.7                      2 DUBNICKA        24 RVUE e + e − → K + K − , K 0 K 0
+                                                                                      S L
+63.8± 2.2           2.3M       3 KOZYREV         18 CMD3 e + e − → K 0 K 0 , K + K −
+                                                                             L S
+68 ± 3                         4 AKHMETSHIN 95 CMD2 e + e − → K 0 K 0 , K + K −
+                                                                             L S
+  1 From a measurement of D + → φ( → K 0 K 0 ) π + using the PDG 24 value for B(D + →
+                              s              S L                                       s
+    φ( → K + K − ) π + ).
+  2 From a ﬁt to CMD3, BABAR and BES3 data.
+  3 The prediction taking into account phase-space diﬀerence, radiative corrections, isospin
+    breaking, and the Sommerfeld-Gamow-Sakharov factor gives 0.630.
+  4 Theoretical analysis of BRAMON 00 taking into account phase-space diﬀerence, elec-
+    tromagnetic radiative corrections, as well as isospin breaking, predicts 0.62. FLOREZ-
+    BAEZ 08 predicts 0.63 considering also structure-dependent radiative corrections. FIS-
+    CHBACH 02 calculates additional corrections caused by the close threshold and predicts
+    0.68. See also BENAYOUN 01 and DUBYNSKIY 07. BENAYOUN 12 obtains 0.71± 0.01
+    in the HLS model.
+
+Γ K 0L K 0S /Γ K K
+                  
+                                                                                             Γ2 /(Γ1 +Γ2 )
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.402± 0.005 OUR FIT Error includes scale factor of 1.5.
+0.45 ± 0.04 OUR AVERAGE
+0.44 ± 0.07                        1 LONDON           66 HBC       2.24 K − p → Λ K K
+0.48 ± 0.07                52        BADIER           65B HBC      3 K− p
+0.40 ± 0.10                34        SCHLEIN          63 HBC       1.95 K − p → Λ K K
+  1 This is probably not aﬀected by their controversial background subtraction; the value is
+    from their numbers of K1 K2 vs K + K − events.
+
+ Γ ρ π + Γ π + π − π 0 /Γtotal
+                    
+                                                                                                        Γ3 /Γ
+VALUE                         EVTS         DOCUMENT ID              TECN      COMMENT
+0.147± 0.004 OUR FIT Error includes scale factor of 1.5.
+0.151± 0.009 OUR AVERAGE Error includes scale factor of 1.7.
+0.161± 0.008           11761      AKHMETSHIN 95 CMD2 e + e − → π + π − π 0
+0.143± 0.007                      DOLINSKY        91 ND          e + e − → π+ π− π0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.155± 0.002 ± 0.005            1 AKHMETSHIN 11 CMD2 1.02 e + e − → π + π − π 0
+0.159± 0.008            400k    2 ACHASOV         01E SND        e+ e− → K + K −,
+                                                                    KS KL , π + π − π 0
+0.145± 0.009 ± 0.003   11169    3 AKHMETSHIN 98 CMD2 e e − → π + π − π 0
+                                                                   +
+0.139± 0.007                    4 PARROUR         76B OSPK e + e −
+    1 Combined analysis of the CMD-2 data on φ → K + K − , K 0 K 0 , π + π − π 0 , η γ assum-
+                                                                 S L
+      ing that the sum of their branching fractions is 0.99741 ± 0.00007.
+    2 Using B(φ → e + e − )= (2.93 ± 0.14) × 10−4 .
+    3 Using B(φ → e + e − )=(2.99 ± 0.08) × 10−4 .
+    4 Using Γ(φ)= 4.1 MeV. If interference between the ρπ and 3π modes is neglected, the
+      fraction of the ρπ is more than 80% at the 90% conﬁdence level.
+
+
+
+
+https://pdg.lbl.gov                          Page 14                       Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                     
+ Γ ρ π + Γ π + π − π 0 /Γ K + K −
+                                 
+                                                                                                        Γ3 /Γ1
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.293± 0.011 OUR FIT Error includes scale factor of 1.6.
+0.229± 0.014 OUR AVERAGE
+0.230± 0.014 ± 0.010           1 ABLIKIM          25A BES3                       D + → φπ +
+                                                                                   s
+0.222± 0.019 ± 0.016                       2 ABLIKIM            25F BES3         D + → φρ+
+                                                                                   s
+0.28 ± 0.09             34                   AGUILAR-...        72B HBC          3.9,4.6 K − p
+  1 Using ABLIKIM 21AE.
+  2 Using ABLIKIM 21U.
+
+ Γ ρ π + Γ π + π − π 0 /Γ K K
+                          
+                                                                                             Γ3 /(Γ1 +Γ2 )
+VALUE                                   DOCUMENT ID               TECN       COMMENT
+0.175± 0.006 OUR FIT Error includes scale factor of 1.5.
+0.24 ± 0.04 OUR AVERAGE
+0.237± 0.039                 CERRADA          77B HBC                        4.2 K − p → Λ 3π
+0.30 ± 0.15                  LONDON           66 HBC                         2.24 K − p → Λ π + π − π 0
+
+ Γ ρ π + Γ π + π − π 0 /Γ K 0L K 0S
+                                
+                                                                                                        Γ3 /Γ2
+VALUE                 EVTS          DOCUMENT ID               TECN       COMMENT
+0.437± 0.013 OUR FIT Error includes scale factor of 1.4.
+0.51 ± 0.05 OUR AVERAGE
+0.56 ± 0.07    3681      BUKIN            78C OLYA e + e − → K 0 K 0 , π + π − π 0
+                                                               L S
+0.47 ± 0.06     516      COSME            74 OSPK e + e − → π + π − π 0
+
+Γ π + π − π 0 /Γtotal
+             
+                                                                                                         Γ4 /Γ
+VALUE             CL%     EVTS          DOCUMENT ID                TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+≃ 0.0087           1.98M 1,2 ALOISIO            03 KLOE 1.02 e + e − → π + π − π 0
+<0.0006      90                3 ACHASOV        02 SND          1.02 e + e − → π + π − π 0
+<0.23        90                3 CORDIER        80 DM1 e + e − → π + π − π 0
+<0.20        90                3 PARROUR        76B OSPK e + e − → π + π − π 0
+    1 From a ﬁt without limitations on charged and neutral ρ masses and widths.
+    2 Adding the direct and ω π contributions and considering the interference between the ρπ
+      and π + π − π 0 .
+    3 Neglecting the interference between the ρπ and π + π − π 0 .
+     
+Γ η γ /Γtotal                                                                                            Γ5 /Γ
+VALUE (units 10−2 )          EVTS           DOCUMENT ID               TECN      COMMENT
+1.306± 0.024 OUR FIT Error includes scale factor of 1.2.
+1.26 ± 0.04 OUR AVERAGE
+1.246± 0.025 ± 0.057 10k      1 ACHASOV          98F SND                        e + e − → 7γ
+1.18 ± 0.11          279      2 AKHMETSHIN 95 CMD2                              e + e − → π + π − 3γ
+1.30 ± 0.06                   3 DRUZHININ 84 ND                                 e + e − → 3γ
+1.4 ± 0.2                     4 DRUZHININ 84 ND                                 e + e − → 6γ
+0.88 ± 0.20          290        KURDADZE 83C OLYA                               e + e − → 3γ
+1.35 ± 0.29                     ANDREWS          77 CNTR                        6.7–10 γ Cu
+1.5 ± 0.4             54      3 COSME            76 OSPK                        e+ e−
+
+
+
+https://pdg.lbl.gov                          Page 15                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.38 ± 0.02 ± 0.02                5 AKHMETSHIN 11 CMD2 1.02 e + e − → η γ
+1.37 ± 0.05 ± 0.02      33k       6 ACHASOV        07B SND         0.6–1.38 e + e − → η γ
+1.373± 0.014 ± 0.085 17.4k      7,8 AKHMETSHIN 05 CMD2 0.60-1.38 e + e − → η γ
+1.287± 0.013 ± 0.063          9,10  AKHMETSHIN 01B CMD2 e + e − → η γ
+1.338± 0.012 ± 0.052             11 ACHASOV        00 SND          e+ e− → η γ
+1.18 ± 0.03 ± 0.06    2200       12 AKHMETSHIN 99F CMD2 e + e − → η γ
+1.21 ± 0.07                      13 BENAYOUN 96 RVUE 0.54-1.04 e + e − → η γ
+  1 Using B(φ → e + e − ) = (2.99 ± 0.08) × 10−4 and B(η → 3π 0 )= (32.2 ± 0.4) × 10−2 .
+  2 From π + π − π 0 decay mode of η.
+  3 From 2γ decay mode of η.
+  4 From 3π 0 decay mode of η.
+  5 Combined analysis of the CMD-2 data on φ → K + K − , K 0 K 0 , π + π − π 0 , η γ assum-
+                                                                S L
+    ing that the sum of their branching fractions is 0.99741 ± 0.00007.
+  6 ACHASOV 07B reports [Γ φ(1020) → η γ /Γ                                     + −
+                                                      total ] × [B(φ(1020) → e e )] =
+    (4.050 ± 0.067 ± 0.118) × 10−6 which we divide by our best (shown rounded) value
+    B(φ(1020) → e + e − ) = (2.963 ± 0.034) × 10−4 . Our ﬁrst error is their experiment’s
+    error and our second error is the systematic error from using our best (shown rounded)
+    value. Supersedes ACHASOV 00D and ACHASOV 06A.
+  7 Using B(φ → e + e − ) = (2.98 ± 0.04) × 10−4 and B(η → γ γ) = 39.43 ± 0.26%.
+  8 Not independent of the corresponding Γ(e + e − ) × Γ(η γ)/Γ2       .
+                                                                 total
+  9 Using B(φ → e + e − ) = (2.99 ± 0.08)×10−4 and B(η → 3π 0 )=(32.24 ± 0.29)×10−2 .
+ 10 The combined ﬁt from 600 to 1380 MeV taking into account ρ(770), ω(782), φ(1020),
+    and ρ(1450) (mass and width ﬁxed at 1450 MeV and 310 MeV respectively).
+ 11 From the η → 2γ decay and using B(φ → e + e − ) =(2.99 ± 0.08) × 10−4 .
+ 12 From π + π − π 0 decay mode of η and using B(φ → e + e − )= (2.99 ± 0.08) × 10−4 .
+ 13 Reanalysis of DRUZHININ 84, DOLINSKY 89, and DOLINSKY 91 taking into account
+    a triangle anomaly contribution.
+
+Γ π 0 γ /Γtotal
+       
+                                                                                                        Γ6 /Γ
+VALUE (units 10−3 )        EVTS           DOCUMENT ID               TECN      COMMENT
+1.33 ± 0.05 OUR FIT
+1.31 ± 0.13 OUR AVERAGE
+1.30 ± 0.13                       DRUZHININ 84 ND                e + e − → 3γ
+1.4 ± 0.5              32         COSME          76 OSPK e + e −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.367± 0.072                    1 ACHASOV        16A SND         0.60–1.38 e + e − → π 0 γ
+1.258± 0.037 ± 0.077  18k     2,3 AKHMETSHIN 05 CMD2 0.60-1.38 e + e − → π 0 γ
+             + 0.096
+1.226± 0.036 −                          4 ACHASOV             00    SND  e + e − → π0 γ
+               0.089
+1.26 ± 0.17                      5 BENAYOUN 96                      RVUE 0.54-1.04 e + e − → π 0 γ
+  1 Using B(φ → e + e − ) from PDG 15. Supersedes ACHASOV 00.
+  2 Using B(φ → e + e − ) = (2.98 ± 0.04) × 10−4 .
+  3 Not independent of the corresponding Γ(e + e − ) × Γ(π 0 γ)/Γ2     .
+                                                                 total
+  4 From the π 0 → 2γ decay and using B(φ → e + e − ) = (2.99 ± 0.08) × 10−4 .
+  5 Reanalysis of DRUZHININ 84, DOLINSKY 89, and DOLINSKY 91 taking into account
+    a triangle anomaly contribution.
+
+
+
+
+https://pdg.lbl.gov                          Page 16                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ η γ /Γ π 0 γ
+              
+                                                                                                        Γ5 /Γ6
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+          + 0.7
+10.9± 0.3 −                                  ACHASOV            00     SND       e + e − → η γ, π 0 γ
+            0.8
+
+Γ e + e − /Γtotal
+         
+                                                                                                         Γ8 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      COMMENT
+2.963± 0.034 OUR FIT Error includes scale factor of 1.4.
+2.98 ± 0.07 OUR AVERAGE Error includes scale factor of 1.1.
+2.93 ± 0.14               1900k     1 ACHASOV          01E SND     e+ e− → K + K −,
+                                                                     KS KL , π + π − π 0
+2.88 ± 0.09               55600       AKHMETSHIN 95 CMD2 e + e − → hadrons
+3.00 ± 0.21                3681       BUKIN            78C OLYA e + e − → hadrons
+3.10 ± 0.14                         2 PARROUR          76 OSPK e + e −
+3.3 ± 0.3                             COSME            74 OSPK e + e − → hadrons
+2.81 ± 0.25                 681       BALAKIN          71 OSPK e + e − → hadrons
+3.50 ± 0.27                           CHATELUS         71 OSPK e + e −
+  1 From the combined ﬁt assuming that the total φ(1020) production cross section is
+    saturated by those of K + K − , KS KL , π + π − π 0 , and η γ decays modes and using
+    ACHASOV 00B for the η γ decay mode.
+  2 Using total width 4.2 MeV. They detect 3π mode and observe signiﬁcant interference
+    with ω tail. This is accounted for in the result quoted above.
+
+Γ µ+ µ− /Γtotal
+       
+                                                                                                         Γ9 /Γ
+VALUE (units 10−4 )                DOCUMENT ID                TECN      COMMENT
+2.86 ± 0.22 OUR FIT Error includes scale factor of 1.2.
+2.96 ± 0.16 OUR AVERAGE Error includes scale factor of 1.1.
+2.69 ± 0.46                1 HAYES          71 CNTR 8.3,9.8 γ C → µ+ µ− X
+2.17 ± 0.60                1 EARLES         70 CNTR 6.0 γ C → µ+ µ− X
+• • • We use the following data for averages but not for ﬁts. • • •
+3.045± 0.049 ± 0.148       2 AAIJ           24B LHCB D + , D + → π + φ
+                                                                    s
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.87 ± 0.20 ± 0.14         3 ACHASOV        01G SND        e + e − → µ+ µ−
+3.30 ± 0.45 ± 0.32         4 ACHASOV        99C SND        e + e − → µ+ µ−
+4.83 ± 1.02                5 VASSERMAN 81 OLYA e + e − → µ+ µ−
+2.87 ± 1.98                5 AUGUSTIN       73 OSPK e + e − → µ+ µ−
+  1 Neglecting interference between resonance and continuum.
+  2 Value not independent from the measurement of B(φ → µ+ µ− )/B(φ → e + e − ).
+  3 Using B(φ → e + e − ) = (2.91 ± 0.07) × 10−4 .
+  4 Using B(φ → e + e − )=(2.99 ± 0.08) × 10−4 .
+  5 Recalculated by us using B(φ → e + e − )= (2.99 ± 0.08) × 10−4 .
+
+Γ µ+ µ− /Γ e + e −
+                  
+                                                                                                        Γ9 /Γ8
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+1.022± 0.012 ± 0.048     24k        AAIJ            24B LHCB D + , D + → π + φ
+                                                                            s
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.026± 0.020 ± 0.056    7.5k        AAIJ            24B LHCB D + → π + φ
+1.017± 0.013 ± 0.051   16.7k        AAIJ            24B LHCB D + → π + φ
+                                                                      s
+https://pdg.lbl.gov                          Page 17                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ η e + e − /Γtotal
+           
+                                                                                                        Γ10 /Γ
+VALUE (units 10−4 )          EVTS           DOCUMENT ID                TECN     COMMENT
+1.08 ± 0.04 OUR AVERAGE
+1.075± 0.007 ± 0.038    30k      1 BABUSCI         15 KLOE 1.02 e + e − → η e + e −
+1.19 ± 0.19 ± 0.12      213      2 ACHASOV         01B SND         e+ e− → η e+ e−
+1.14 ± 0.10 ± 0.06      355      3 AKHMETSHIN 01 CMD2 e + e − → η e + e −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.13 ± 0.14 ± 0.07      183      4 AKHMETSHIN 01 CMD2 e + e − → η e + e −
+1.21 ± 0.14 ± 0.09      130      5 AKHMETSHIN 01 CMD2 e + e − → η e + e −
+1.04 ± 0.20 ± 0.08       42      6 AKHMETSHIN 01 CMD2 e + e − → η e + e −
+
+1.3   + 0.8                      7          GOLUBEV            85      ND       e+ e− → η e+ e−
+      − 0.6
+  1 Using B(η → 3π 0 ) = (32.57 ± 0.23)% from PDG 12.
+  2 Using B(η → γ γ) = (39.25 ± 0.32)%, B(φ → η γ) = (1.26 ± 0.06)%, and B(φ →
+    e + e − ) = (3.00 ± 0.06) × 10−4 .
+  3 The average of the branching ratios separately obtained from the η → γ γ, 3π 0 ,
+    π + π − π 0 decays.
+  4 From η → γ γ decays and using B(η → γ γ) = (39.33 ± 0.25)×10−2 , B(η → π + π − γ)
+    = (4.75 ± 11) × 10−2 , and B(φ → η γ) = (1.297 ± 0.033) × 10−2 .
+  5 From η → 3π 0 decays and using B(π 0 → γ γ) = (98.798 ± 0.033) × 10−2 , B(η →
+    3π 0 ) = (32.24 ± 0.29) × 10−2 , B(η → π + π − γ) = (4.75 ± 0.11) × 10−2 , and B(φ →
+    η γ) = (1.297 ± 0.033) × 10−2 .
+  6 From η → π + π − π 0 decays and using B(π 0 → γ γ) = (98.798 ± 0.033) × 10−2 ,
+    B(π 0 → e + e − γ) = (1.198 ± 0.032)×10−2 , B(η → π + π − π 0 ) = (23.0 ± 0.4)×10−2 ,
+    B(φ → π + π − π 0 ) = (15.5 ± 0.6) × 10−2 , and B(φ → η γ) = (1.297 ± 0.033) × 10−2 .
+
+Γ π + π − /Γtotal
+         
+                                                                                                        Γ11 /Γ
+VALUE (units 10−4 )            CL%           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  0.71± 0.11 ± 0.09               1 ACHASOV         00C SND         e + e − → π+ π−
+       + 0.38
+  0.65 −                          1 GOLUBEV         86 ND           e + e − → π+ π−
+         0.29
+       + 1.07
+  2.01 −                          1 VASSERMAN 81 OLYA e + e − → π + π −
+         0.84
+<6.6                    95          BUKIN           78B OLYA e + e − → π + π −
+<2.7                    95          ALVENSLEB... 72 CNTR 6.7 γ C → Cπ + π −
+  1 Using B(φ → e + e − )=(2.99 ± 0.08) × 10−4 .
+
+Γ ω π 0 /Γtotal
+       
+                                                                                                        Γ12 /Γ
+VALUE (units 10−5 )                   DOCUMENT ID               TECN      COMMENT
+  4.7± 0.5 OUR FIT
+      + 1.3
+  5.2 −                   1,2 AULCHENKO 00A SND              e + e − → π+ π− π0 π0
+        1.1
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  4.4± 0.6                   3 AMBROSINO 08G KLOE e + e − → π + π − 2π 0 , 2π 0 γ
+∼ 5.4                        4 ACHASOV        00E SND        e + e − → π0 π0 γ
+      + 1.6 ± 0.3
+  5.5 −                          2,5 AULCHENKO 00A SND                    e + e − → π+ π− π0 π0
+        1.4
+      + 1.9 ± 0.8
+  4.8 −                              4 ACHASOV           99     SND       e + e − → π+ π− π0 π0
+        1.7
+
+https://pdg.lbl.gov                          Page 18                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Using the 1996 and 1998 data.
+  2 (2.3 ± 0.3)% correction for other decay modes of the ω(782) applied.
+  3 Not independent of the corresponding Γ(ω π 0 ) × Γ(e + e − ) / Γ2 (total).
+  4 Using the 1996 data.
+  5 Using the 1998 data.
+     
+Γ ω γ /Γtotal                                                                                          Γ13 /Γ
+VALUE           CL%            DOCUMENT ID              TECN      COMMENT
+<0.05           84             LINDSEY           66     HBC       2.1–2.7 K − p → Λ π + π − neutrals
+     
+Γ ρ γ /Γtotal                                                                                          Γ14 /Γ
+VALUE (units    CL%            DOCUMENT ID              TECN      COMMENT
+   10−4 )
+< 0.12       90       1 AKHMETSHIN 99B CMD2 e + e − → π + π − γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 7          90         AKHMETSHIN 97C CMD2 e + e − → π + π − γ
+<200         84         LINDSEY          66 HBC       2.1–2.7 K − p → Λ π + π − neutrals
+  1 Supersedes AKHMETSHIN 97C.
+
+Γ π + π − γ /Γtotal
+           
+                                                                                                       Γ15 /Γ
+VALUE (units 10−4 )       CL%     EVTS          DOCUMENT ID                TECN      COMMENT
+     0.41± 0.12 ± 0.04     30175     1 AKHMETSHIN 99B CMD2 e + e − → π + π − γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 0.3                  90            2 AKHMETSHIN 97C CMD2 e + e − → π + π − γ
+<600                   90               KALBFLEISCH 75 HBC              2.18 K − p →
+                                                                           Λ π+ π− γ
+< 70                   90               COSME           74 OSPK e e − → π + π − γ
+                                                                         +
+<400                   90               LINDSEY         65 HBC          2.1–2.7 K − p →
+                                                                           Λ π + π − neutrals
+  1 For E > 20 MeV and assuming that B(φ(1020) → f (980) γ) is negligible. Supersedes
+         γ                                              0
+    AKHMETSHIN 97C.
+  2 For E > 20 MeV and assuming that B(φ(1020) → f (980) γ) is negligible.
+         γ                                                0
+           
+Γ f0 (980)γ /Γtotal                                                                                    Γ16 /Γ
+VALUE (units 10−4 )      CL%    EVTS           DOCUMENT ID                TECN      COMMENT
+3.22± 0.19 OUR FIT Error includes scale factor of 1.1.
+3.21± 0.19 OUR AVERAGE
+     + 0.03 ± 0.18
+3.21 −                               1 AMBROSINO 07 KLOE e + e − → π 0 π 0 γ
+       0.09
+2.90± 0.21 ± 1.54                    2 AKHMETSHIN 99C CMD2 e + e − → π + π − γ,
+                                                                          π0 π0 γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.47± 0.21                 2438      3 ALOISIO         02D KLOE e + e − → π 0 π 0 γ
+          + 1.3
+3.5 ± 0.3 −                       419      4,5 ACHASOV             e+ e− →
+                                                                   00H SND                        π0 π0 γ
+            0.5
+1.93± 0.46 ± 0.50               27188        6 AKHMETSHIN 99B CMD2 e + e − →                      π+ π− γ
+3.05± 0.25 ± 0.72                 268        7 AKHMETSHIN 99C CMD2 e + e − →                      π0 π0 γ
+1.5 ± 0.5                         268        8 AKHMETSHIN 99C CMD2 e + e − →                      π0 π0 γ
+
+
+
+https://pdg.lbl.gov                         Page 19                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+3.42± 0.30 ± 0.36             164      4 ACHASOV         98I SND      e + e − → 5γ
+<1                     90              9 AKHMETSHIN 97C CMD2 e + e − → π + π − γ
+<7                     90             10 AKHMETSHIN 97C CMD2 e + e − → π + π − γ
+< 20                   90                DRUZHININ 87 ND              e + e − → π0 π0 γ
+  1 Obtained by the authors taking into account the π + π − decay mode. Includes a com-
+    ponent due to π π production via the f0 (500) meson. Supersedes ALOISIO 02D.
+  2 From the combined ﬁt of the photon spectra in the reactions e + e − → π + π − γ,
+    π 0 π 0 γ.
+  3 From the negative interference with the f (500) meson of AITALA 01B using the
+                                                 0
+    ACHASOV 89 parameterization for the f0 (980), a Breit-Wigner for the f0 (500), and
+    ACHASOV 01F for the ρπ contribution. Superseded by AMBROSINO 07.
+  4 Assuming that the π 0 π 0 γ ﬁnal state is completely determined by the f γ mechanism,
+                                                                             0
+    neglecting the decay B(φ → K K γ) and using B(f0 → π + π − )= 2B(f0 → π 0 π 0 ).
+  5 Using the value B(φ → η γ)=(1.338 ± 0.053) × 10−2 .
+  6 For E > 20 MeV. Supersedes AKHMETSHIN 97C.
+           γ
+  7 Neglecting other intermediate mechanisms (ρπ, σ γ).
+  8 A narrow pole ﬁt taking into account f (980) and f (1200) intermediate mechanisms.
+                                            0           0
+  9 For destructive interference with the Bremsstrahlung process
+ 10 For constructive interference with the Bremsstrahlung process
+                  
+Γ f0 (980)γ /Γ η γ                                                                                      Γ16 /Γ5
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+2.47± 0.15 OUR FIT Error includes scale factor of 1.1.
+           + 0.8                    1 ACHASOV
+2.6 ± 0.2 −  0.3          419                         00H SND      e + e − → π0 π0 γ
+  1 Assuming that the π 0 π 0 γ ﬁnal state is completely determined by the f γ mechanism,
+                                                                            0
+    neglecting the decay B(φ → K K γ) and using B(f0 → π + π − )= 2B(f0 → π 0 π 0 ).
+
+Γ π 0 π 0 γ /Γtotal
+           
+                                                                                                         Γ17 /Γ
+VALUE (units 10−4 )         CL%     EVTS          DOCUMENT ID                TECN      COMMENT
+1.07 ± 0.06 OUR AVERAGE
+     + 0.01 + 0.06
+1.07 −                                 1 AMBROSINO 07 KLOE e + e − →                                    π0 π0 γ
+       0.03 − 0.06
+1.08 ± 0.17 ± 0.09            268        AKHMETSHIN 99C CMD2 e + e − →                                  π0 π0 γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.09 ± 0.03 ± 0.05           2438        ALOISIO         02D KLOE e + e − →                             π0 π0 γ
+1.158± 0.093 ± 0.052          419    2,3 ACHASOV         00H SND        e+ e− →                         π0 π0 γ
+<10                   90                 DRUZHININ 87 ND                e+ e− →                         5γ
+  1 Supersedes ALOISIO 02D.
+  2 Using the value B(φ → η γ)=(1.338 ± 0.053) × 10−2 .
+  3 Supersedes ACHASOV 98I. Excluding ω π 0 .
+
+Γ π 0 π 0 γ /Γ η γ
+                  
+                                                                                                        Γ17 /Γ5
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+0.86 ± 0.04 OUR FIT
+0.865± 0.070 ± 0.017     419      1 ACHASOV         00H SND         e + e − → π0 π0 γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.90 ± 0.08 ± 0.07       164        ACHASOV         98I SND         e + e − → 5γ
+  1 Supersedes ACHASOV 98I. Excluding ω π 0 .
+
+https://pdg.lbl.gov                          Page 20                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ π + π − π + π − /Γtotal
+                 
+                                                                                                        Γ18 /Γ
+VALUE (units 10−6 )   CL%     EVTS         DOCUMENT ID               TECN      COMMENT
+6.5 ± 2.7 ± 1.6         6.8k             1 AKHMETSHIN 17CMD3 e + e − → π + π − π + π −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.93± 1.74 ± 2.14       3.3k      AKHMETSHIN 00E CMD2 e + e − → π + π − π + π −
+< 870             90              CORDIER         79 WIRE e + e − → π + π − π + π −
+  1 Using the cross section at the φ meson peak σ(φ) = 4172 ± 42 nb, the nonresonant cross
+    section σ(0) = 1.263 ± 0.027 nb and Re(Z) = 0.146 ± 0.030, Im(Z) = − 0.002 ± 0.024
+    for the complex amplitude of the φ → π + π − π + π − transition.
+
+Γ π + π + π − π − π 0 /Γtotal
+                     
+                                                                                                        Γ19 /Γ
+VALUE (units 10−6 )    CL%             DOCUMENT ID              TECN      COMMENT
+< 4.6             90          AKHMETSHIN 00E CMD2 e + e − → π + π − π + π − π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<150              95          BARKOV          88 CMD e + e − → π + π − π + π − π 0
+
+Γ π 0 e + e − /Γtotal
+             
+                                                                                                        Γ20 /Γ
+VALUE (units 10−5 )       CL%    EVTS           DOCUMENT ID                TECN      COMMENT
+
+         + 0.07 OUR AVERAGE
+    1.33 − 0.10
+               + 0.05
+    1.35± 0.05 −                  9.5k        1 ANASTASI
+                                                       16B KLOE e + e − → π 0 e + e −
+                 0.10
+   1.01± 0.28 ± 0.29         52      2 ACHASOV         02D SND         e + e − → π0 e + e −
+   1.22± 0.34 ± 0.21         46      3 AKHMETSHIN 01C CMD2 e + e − → π 0 e + e −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<12                  90                DOLINSKY        88 ND           e + e − → π0 e + e −
+  1 Using B(π 0 → γ γ) from the 2014 Edition of this Review (PDG 14).
+  2 Using various branching ratios from the 2000 Edition of this Review (PDG 00).
+  3 Using B(π 0 → γ γ) = 0.98798 ± 0.00032, B(φ → η γ) = (1.297 ± 0.033) × 10−2 ,
+    and B(η → π + π − γ) = (4.75 ± 0.11) × 10−2 .
+
+Γ π 0 η γ /Γtotal
+         
+                                                                                                        Γ21 /Γ
+VALUE (units 10−5 )    CL%      EVTS          DOCUMENT ID               TECN      COMMENT
+7.27± 0.30 OUR AVERAGE Error includes scale factor of 1.5. See the ideogram below.
+7.06± 0.22              16.9k      1 AMBROSINO 09F KLOE 1.02 e + e − → η π 0 γ
+8.51± 0.51 ± 0.57         607      2 ALOISIO         02C KLOE e + e − → η π 0 γ
+7.96± 0.60 ± 0.40         197      3 ALOISIO         02C KLOE e + e − → η π 0 γ
+8.8 ± 1.4 ± 0.9             36     4 ACHASOV         00F SND         e + e − → η π0 γ
+9.0 ± 2.4 ± 1.0             80       AKHMETSHIN 99C CMD2 e + e − → η π 0 γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+7.01± 0.10 ± 0.20       13.3k    2,5 AMBROSINO 09F KLOE 1.02 e + e − → η π 0 γ
+7.12± 0.13 ± 0.22        3.6k    3,6 AMBROSINO 09F KLOE 1.02 e + e − → η π 0 γ
+8.3 ± 2.3 ± 1.2             20       ACHASOV         98B SND         e + e − → 5γ
+<250              90                 DOLINSKY        91 ND           e + e − → π0 η γ
+  1 Combined results of η → γ γ and η → π + π − π 0 decay modes measurements.
+  2 From the decay mode η → γ γ.
+  3 From the decay mode η → π + π − π 0 .
+
+
+https://pdg.lbl.gov                          Page 21                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  4 Supersedes ACHASOV 98B.
+  5 Using B(φ → η γ) = (1.304 ± 0.025)%, B(η → 3π 0 ) = (32.56 ± 0.23)%, and B(η →
+    γ γ) = (39.31 ± 0.20)%.
+  6 Using B(φ → η γ) = (1.304 ± 0.025)%, B(η → 3π 0 ) = (32.56 ± 0.23)%, and B(η →
+    π + π − π 0 ) = (22.73 ± 0.28)%.
+
+           WEIGHTED AVERAGE
+           7.27±0.30 (Error scaled by 1.5)
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           AMBROSINO 09F              KLOE       0.9
+                                                           ALOISIO    02C             KLOE       2.6
+                                                           ALOISIO    02C             KLOE       0.9
+                                                           ACHASOV    00F             SND
+                                                           AKHMETSHIN 99C             CMD2
+                                                                                             4.4
+                                                                        (Confidence Level = 0.108)
+
+          6               8              10              12              14
+
+           Γ π 0 η γ /Γtotal (units 10−5 )
+                     
+
+           
+Γ a0 (980)γ /Γtotal                                                                                      Γ22 /Γ
+VALUE (units 10−5 )   CL%     EVTS            DOCUMENT ID              TECN      COMMENT
+    7.6± 0.6 OUR FIT
+    7.6± 0.6 OUR AVERAGE
+    7.4± 0.7                      1 ALOISIO         02C KLOE e + e − →                         η π0 γ
+    8.8± 1.7              36      2 ACHASOV         00F SND         e+ e− →                    η π0 γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+   11 ± 2                         3 GOKALP          02 RVUE e + e − →                          η π0 γ
+<500             90                 DOLINSKY        91 ND           e+ e− →                    π0 η γ
+  1 Using M
+            a0 (980) =984.8 MeV and assuming a0 (980) γ dominance.
+  2 Assuming a (980) γ dominance in the η π 0 γ ﬁnal state.
+                0
+  3 Using data of ACHASOV 00F.
+                        
+Γ f0 (980)γ /Γ a0 (980)γ                                                                           Γ16 /Γ22
+VALUE                                         DOCUMENT ID              TECN      COMMENT
+6.1± 0.6                        1 ALOISIO       02C KLOE e + e − → η π 0 γ
+  1 Using results of ALOISIO 02D and assuming that f (980) decays into π π only and
+                                                    0
+    a0 (980) into η π only.
+
+
+https://pdg.lbl.gov                           Page 22                     Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ K 0 K 0 γ /Γtotal
+           
+                                                                                                         Γ23 /Γ
+VALUE                            CL%         DOCUMENT ID               TECN      COMMENT
+<1.9 × 10−8                      90          AMBROSINO 09C KLOE e + e − → K 0 K 0 γ
+                                                                            S S
+
+Γ η ′ (958)γ /Γtotal
+            
+                                                                                                         Γ24 /Γ
+VALUE (units 10−5 )   CL% EVTS             DOCUMENT ID               TECN      COMMENT
+ 6.23± 0.21 OUR FIT
+ 6.24± 0.30 OUR AVERAGE
+ 6.23± 0.27 ± 0.12  3407                1 AMBROSINO 07A KLOE 1.02 e + e − →
+                                                                π + π − 7γ
+     + 2.8 ± 0.8
+ 6.7 −                            12    2 AULCHENKO 03B SND  e + e − → η′ γ
+       2.4
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+     + 5.0 ± 1.5
+ 6.7 −                             7       AULCHENKO 03B SND  e + e − → 7γ
+       4.2
+ 6.10± 0.61 ± 0.43               120    3 ALOISIO    02E KLOE 1.02 e + e − →
+                                                                 π + π − 3γ
+     + 2.1 ± 1.1
+ 8.2 −                            21    4 AKHMETSHIN 00B CMD2 e + e − → π + π − 3γ
+       1.9
+     + 2.2 ± 0.6
+ 4.9 −                             9    5 AKHMETSHIN 00F CMD2 e + e − →
+       1.8
+                                                                 π + π − π + π − ≥ 2γ
+ 6.4 ± 1.6                 30           6 AKHMETSHIN 00F CMD2 e + e − → η ′ (958) γ
+      + 3.4
+ 6.7 − 2.9 ± 1.0             5          7 AULCHENKO 99 SND    e + e − → π + π − 3γ
+<11                90                AULCHENKO 98 SND              e + e − → 7γ
+12 +  −5
+        7   ±2               6     4 AKHMETSHIN 97B CMD2 e + e − → π + π − 3γ
+
+<41                90                DRUZHININ 87 ND               e + e − → γ η π+ π−
+  1 AMBROSINO 07A reports [Γ φ(1020) → η ′ (958) γ /Γ    
+                                                            total ] / [B(φ(1020) → η γ)] =
+    (4.77 ± 0.09 ± 0.19) × 10   −3   which we multiply by our best (shown rounded) value
+    B(φ(1020) → η γ) = (1.306 ± 0.024) × 10−2 . Our ﬁrst error is their experiment’s error
+    and our second error is the systematic error from using our best (shown rounded) value.
+  2 Averaging AULCHENKO 03B with AULCHENKO 99.
+  3 Using B(φ → η γ)= (1.297 ± 0.033)%.
+  4 Using the value B(φ → η γ) = (1.26 ± 0.06) × 10−2 .
+  5 Using B(φ → K 0 K 0 ) = (33.8 ± 0.6)%.
+                     L S
+  6 Averaging AKHMETSHIN 00B with AKHMETSHIN 00F.
+  7 Using the value B(η ′ → η π + π − )= (43.7 ± 1.5) × 10−2 and B(η → γ γ)= (39.25 ±
+    0.31) × 10−2 .
+
+Γ η ′ (958)γ /Γ K L0 K S0
+                         
+                                                                                                        Γ24 /Γ2
+VALUE (units 10−4 )     EVTS           DOCUMENT ID                TECN      COMMENT
+1.85± 0.06 OUR FIT
+     + 0.64 ± 0.18
+1.46 −                       9 1 AKHMETSHIN 00F CMD2 e + e − → π + π − π + π − ≥
+       0.54
+                                                                    2γ
+  1 Using various branching ratios of K 0 , K 0 , η, η ′ from the 2000 edition (The European
+                                        S     L
+    Physical Journal C15 1 (2000)) of this Review.
+
+
+
+
+https://pdg.lbl.gov                          Page 23                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ η ′ (958)γ /Γ η γ
+                   
+                                                                                                        Γ24 /Γ5
+VALUE (units 10−3 )        EVTS          DOCUMENT ID                TECN       COMMENT
+4.77± 0.15 OUR FIT
+4.78± 0.20 OUR AVERAGE
+4.77± 0.09 ± 0.19    3407         AMBROSINO 07A KLOE 1.02 e + e − → π + π − 7γ
+4.70± 0.47 ± 0.31     120       1 ALOISIO        02E KLOE 1.02 e + e − → π + π − 3γ
+    + 1.7 ± 0.8
+6.5 −                  21         AKHMETSHIN 00B CMD2 e + e − → π + π − 3γ
+      1.5
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+    + 5.2 ± 1.4
+9.5 −                          6       2 AKHMETSHIN 97B CMD2 e + e − → π + π − 3γ
+      4.0
+  1 From the decay mode η ′ → η π + π − , η → γ γ.
+  2 Superseded by AKHMETSHIN 00B.
+
+Γ η π 0 π 0 γ /Γtotal
+             
+                                                                                                         Γ25 /Γ
+VALUE (units 10−5 )            CL%           DOCUMENT ID                TECN     COMMENT
+<2                             90            AULCHENKO 98               SND      e + e − → 7γ
+
+Γ µ+ µ− γ /Γtotal
+         
+                                                                                                         Γ26 /Γ
+VALUE (units 10−5 )            EVTS          DOCUMENT ID                TECN     COMMENT
+1.43± 0.45 ± 0.14     27188       1 AKHMETSHIN 99B CMD2 e + e − → µ+ µ− γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.3 ± 1.0          824 ± 33       2 AKHMETSHIN 97C CMD2 e + e − → µ+ µ− γ
+  1 For E > 20 MeV. Supersedes AKHMETSHIN 97C.
+          γ
+  2 For E > 20 MeV.
+         γ
+       
+Γ ρ γ γ /Γtotal                                                                                          Γ27 /Γ
+VALUE (units 10−4 )            CL%           DOCUMENT ID                TECN     COMMENT
+<1.2                    90          AULCHENKO 08 CMD2 φ → π + π − γ γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<5                      90          AKHMETSHIN 98 CMD2 e + e − → π + π − γ γ
+
+Γ η π + π − /Γtotal
+           
+                                                                                                         Γ28 /Γ
+VALUE (units 10−5 )      CL%           DOCUMENT ID               TECN      COMMENT
+< 1.8              90          AKHMETSHIN 00E CMD2 e + e − → π + π − π + π − π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 6.1              90          AULCHENKO 08 CMD2 φ → η π + π −
+<30                90          AKHMETSHIN 98 CMD2 e + e − → π + π − γ γ
+
+Γ η µ+ µ− /Γtotal
+         
+                                                                                                         Γ29 /Γ
+VALUE (units 10−6 )            CL%           DOCUMENT ID                TECN     COMMENT
+<9.4                           90            AKHMETSHIN 01              CMD2 e + e − → η e + e −
+
+Γ η U → η e + e − /Γtotal
+                 
+                                                                                                         Γ30 /Γ
+VALUE                        CL%           DOCUMENT ID               TECN       COMMENT
+<1 × 10−6                    90          1 BABUSCI             13B KLOE 1.02 e + e − → η e + e −
+
+
+https://pdg.lbl.gov                          Page 24                       Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 For a narrow vector U with mass between 5 and 470 MeV, from the combined analysis
+    of η → π + π − π 0 and η → π 0 π 0 π 0 from ARCHILLI 12. Measured 90% CL limits as
+    a function of m U range from 2.2 × 10−8 to 10−6 .
+
+Γ invisible /Γ K + K −
+                      
+                                                                                                       Γ31 /Γ1
+VALUE                   CL%           DOCUMENT ID               TECN      COMMENT
+<3.4 × 10−4             90            ABLIKIM            18S BES3         J/ψ → φη → φπ + π − π 0
+
+                      Lepton Family number (LF) violating modes
+
+Γ e ± µ∓ /Γtotal
+        
+                                                                                                        Γ32 /Γ
+VALUE                         CL%           DOCUMENT ID                TECN     COMMENT
+<2 × 10−6                     90            ACHASOV            10A SND          e + e − → e ± µ∓
+
+Γ π + π + e − e − /Γtotal
+                 
+                                                                                                        Γ33 /Γ
+VALUE                         CL%           DOCUMENT ID                TECN     COMMENT
+<1.3 × 10−5           90       1 ABLIKIM                       25AK BES3        J/ψ → φη
+ 1 B(φ → K + K − ) = (49.2 ± 0.5)% was used.
+
+
+    π + π − π 0 / ρ π AMPLITUDE RATIO a1 IN DECAY OF φ → π + π − π 0
+          NIECKNIG 12 describes ﬁnal-state interactions between the three pions
+          in a dispersive framework using data on the π π P-wave scattering phase
+          shift.
+
+VALUE (units 10−2 )   CL%     EVTS            DOCUMENT ID              TECN      COMMENT
+ 9.1± 1.2 OUR AVERAGE
+10.1± 4.4 ± 1.7       80k              1 AKHMETSHIN 06 CMD2 1.017–1.021 e + e − →
+                                                                        π+ π− π0
+ 9.0± 1.1 ± 0.6           1.98M      2,3 ALOISIO         03 KLOE 1.02 e + e − →
+                                                                        π+ π− π0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 6 <a1 < 6                500k        3 ACHASOV         02 SND      e + e − → π+ π− π0
+− 16 < a1 < 11      90     9.8k      1,4 AKHMETSHIN 98 CMD2 e + e − → π + π − γ γ
+  1 Dalitz plot analysis taking into account interference between the contact and ρπ ampli-
+    tudes.
+  2 From a ﬁt without limitations on charged and neutral ρ masses and widths.
+  3 Recalculated by us to match the notations of AKHMETSHIN 98.
+  4 Assuming zero phase for the contact term.
+
+
+                      PARAMETER β IN φ → P e + e − DECAYS
+          In the one-pole approximation the electromagnetic transition form factor
+          for φ → P e + e − (P = π,η) is given as a function of the e + e − invariant
+          mass squared, q 2 , by the expression:
+                                F(q 2 ) 2 = (1 − q 2 /Λ2 )−2 ,
+          where vector meson dominance predicts parameter Λ ≈ 0.770 GeV (Λ−2 ≈
+          1.687 GeV−2 ). The slope of this form factor, β = dF/dq 2 (q 2 =0), equals
+          Λ−2 in this approximation.
+
+
+
+https://pdg.lbl.gov                         Page 25                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+          The measurements below obtain β in the one-pole approximation.
+
+
+PARAMETER β IN φ → π 0 e + e − DECAY
+VALUE (GeV−2 )             EVTS          DOCUMENT ID                TECN      COMMENT
+2.02± 0.11            9.5k       1 ANASTASI        16B KLOE 1.02 e + e − → π 0 e + e −
+  1 The error combines statistical and systematic uncertainties.
+
+PARAMETER β IN φ → η e + e − DECAY
+VALUE (GeV−2 )               EVTS           DOCUMENT ID               TECN      COMMENT
+1.29± 0.13 OUR AVERAGE
+           + 0.09
+1.28± 0.10 −              30k         BABUSCI        15 KLOE 1.02 e + e − → η e + e −
+             0.08
+3.8 ± 1.8                 213       1 ACHASOV         01B SND       1.02 e + e − → η e + e −
+  1 The uncertainty is statistical only. The systematic one is negligible, in comparison.
+
+
+                                      φ(1020) REFERENCES
+ABLIKIM      25A PRL 134 011904           M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      25AK CP C49 043001           M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      25BR PRL 135 161902          M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      25F PRL 134 201902           M. Ablikim et al.                         (BESIII Collab.)
+DRUZHININ    25   PPN 56 405              V.P. Druzhinin et al.                       (SND Collab.)
+AAIJ         24B JHEP 2405 293            R. Aaij et al.                             (LHCb Collab.)
+ACHASOV      24   PR D110 072001          M.N. Achasov et al.                         (SND Collab.)
+DUBNICKA     24   PR D110 054019          S. Dubnicka et al.                        (SLOV, CMNS)
+IGNATOV      24   PR D109 112002          F.V. Ignatov et al.                      (CMD-3 Collab.)
+PDG          24   PR D110 030001          S. Navas et al.                             (PDG Collab.)
+PDG          22   PTEP 2022 083C01        R.L. Workman et al.                         (PDG Collab.)
+ABLIKIM      21AE PR D104 012016          M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      21U PR D104 032011           M. Ablikim et al.                         (BESIII Collab.)
+LEES         21B PR D104 112003           J.P. Lees et al.                        (BABAR Collab.)
+ALBRECHT     20   EPJ C80 453             M. Albrecht et al.                (Crystal Barrel Collab.)
+HOID         20   EPJ C80 988             B.-L. Hoid, M. Hoferichter, B. Kubis      (BONN, BERN)
+AAIJ         19H JHEP 1904 063            R. Aaij et al.                             (LHCb Collab.)
+HOFERICHT... 19   JHEP 1908 137           M. Hoferichter, B.-L. Hoid, B. Kubis     (WASH, BONN)
+ABLIKIM      18S PR D98 032001            M. Ablikim et al.                         (BESIII Collab.)
+AOUDE        18   PR D98 056021           R.T. Aoude et al.
+KOZYREV      18   PL B779 64              E.A. Kozyrev et al.                      (CMD-3 Collab.)
+AKHMETSHIN 17     PL B768 345             R.R. Akhmetshin et al.                   (CMD-3 Collab.)
+ACHASOV      16A PR D93 092001            M.N. Achasov et al.                         (SND Collab.)
+ANASTASI     16B PL B757 362              A. Anastasi et al.                      (KLOE-2 Collab.)
+KOZYREV      16   PL B760 314             E.A. Kozyrev et al.                      (CMD-3 Collab.)
+BABUSCI      15   PL B742 1               D. Babusci et al.                       (KLOE-2 Collab.)
+PDG          15   RPP 2015 at pdg.lbl.gov                                             (PDG Collab.)
+LEES         14H PR D89 092002            J.P. Lees et al.                        (BABAR Collab.)
+PDG          14   CP C38 070001           K. Olive et al.                             (PDG Collab.)
+BABUSCI      13B PL B720 111              D. Babusci et al.                       (KLOE-2 Collab.)
+BENAYOUN     13   EPJ C73 2453            M. Benayoun, P. David, L. DelBuono (PARIN, BERLIN+)
+LEES         13F PR D87 052010            J.P. Lees et al.                        (BABAR Collab.)
+LEES         13Q PR D88 032013            J.P. Lees et al.                        (BABAR Collab.)
+ARCHILLI     12   PL B706 251             F. Archilli et al.                      (KLOE-2 Collab.)
+BENAYOUN     12   EPJ C72 1848            M. Benayoun et al.
+NIECKNIG     12   EPJ C72 2014            F. Niecknig, B. Kubis, S.P. Schneider            (BONN)
+PDG          12   PR D86 010001           J. Beringer et al.                          (PDG Collab.)
+AKHMETSHIN 11     PL B695 412             R.R. Akhmetshin et al.                   (CMD-2 Collab.)
+ACHASOV      10A PR D81 057102            M.N. Achasov et al.            (Novosibirsk SND Collab.)
+BENAYOUN     10   EPJ C65 211             M. Benayoun et al.
+AMBROSINO 09C PL B679 10                  F. Ambrosino et al.                        (KLOE Collab.)
+AMBROSINO 09F PL B681 5                   F. Ambrosino et al.                        (KLOE Collab.)
+AKHMETSHIN 08     PL B669 217             R.R. Akhmetshin et al.                   (CMD-2 Collab.)
+AMBROSINO 08G PL B669 223                 F. Ambrosino et al.                        (KLOE Collab.)
+AULCHENKO 08      JETPL 88 85             V. Aulchenko et al.                      (CMD-2 Collab.)
+                  Translated from ZETFP 88 93.
+
+https://pdg.lbl.gov                          Page 26                      Created: 6/1/2026 16:24
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+FLOREZ-BAEZ 08     PR D78 077301           F.V. Florez-Baez, G. Lopez Castro
+ACHASOV     07B    PR D76 077101           M.N. Achasov et al.                        (SND Collab.)
+AMBROSINO 07       EPJ C49 473             F. Ambrosino et al.                      (KLOE Collab.)
+AMBROSINO 07A      PL B648 267             F. Ambrosino et al.                      (KLOE Collab.)
+DUBYNSKIY 07       PR D75 113001           S. Dubynskiy et al.
+ACHASOV     06A    PR D74 014016           M.N. Achasov et al.                        (SND Collab.)
+AKHMETSHIN 06      PL B642 203             R.R. Akhmetshin et al.                  (CMD-2 Collab.)
+AKHMETSHIN 05      PL B605 26              R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AMBROSINO 05       PL B608 199             F. Ambrosino et al.                      (KLOE Collab.)
+AUBERT,B    05J    PR D72 052008           B. Aubert et al.                       (BABAR Collab.)
+AKHMETSHIN 04      PL B578 285             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AUBERT,B    04N    PR D70 072004           B. Aubert et al.                       (BABAR Collab.)
+ALOISIO     03     PL B561 55              A. Aloisio et al.                        (KLOE Collab.)
+AULCHENKO 03B      JETP 97 24              V.M. Aulchenko et al.         (Novosibirsk SND Collab.)
+                   Translated from ZETF 124 28.
+ACHASOV      02    PR D65 032002           M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV      02D   JETPL 75 449            M.N. Achasov et al.           (Novosibirsk SND Collab.)
+                   Translated from ZETFP 75 539.
+ALOISIO    02C     PL B536 209             A. Aloisio et al.                        (KLOE Collab.)
+ALOISIO    02D     PL B537 21              A. Aloisio et al.                        (KLOE Collab.)
+ALOISIO    02E     PL B541 45              A. Aloisio et al.                        (KLOE Collab.)
+FISCHBACH  02      PL B526 355             E. Fischbach, A.W. Overhauser, B. Woodahl
+GOKALP     02      JP G28 2783             A. Gokalp et al.
+ACHASOV    01B     PL B504 275             M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV    01E     PR D63 072002           M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV    01F     PR D63 094007           N.N. Achasov, V.V. Gubin      (Novosibirsk SND Collab.)
+ACHASOV    01G     PRL 86 1698             M.N. Achasov et al.           (Novosibirsk SND Collab.)
+AITALA     01B     PRL 86 770              E.M. Aitala et al.                (FNAL E791 Collab.)
+AKHMETSHIN 01      PL B501 191             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AKHMETSHIN 01B     PL B509 217             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AKHMETSHIN 01C     PL B503 237             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+BENAYOUN   01      EPJ C22 503             M. Benayoun, H.B. O’Connell
+ACHASOV    00      EPJ C12 25              M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV    00B     JETP 90 17              M.N. Achasov et al.           (Novosibirsk SND Collab.)
+                   Translated from ZETF 117 22.
+ACHASOV      00C   PL B474 188             M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV      00D   JETPL 72 282            M.N. Achasov et al.           (Novosibirsk SND Collab.)
+                   Translated from ZETFP 72 411.
+ACHASOV    00E     NP B569 158             M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV    00F     PL B479 53              M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV    00H     PL B485 349             M.N. Achasov et al.           (Novosibirsk SND Collab.)
+AKHMETSHIN 00B     PL B473 337             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AKHMETSHIN 00E     PL B491 81              R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AKHMETSHIN 00F     PL B494 26              R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AULCHENKO 00A      JETP 90 927             V.M. Aulchenko et al.         (Novosibirsk SND Collab.)
+                   Translated from ZETF 117 1067.
+BRAMON     00      PL B486 406             A. Bramon et al.
+PDG        00      EPJ C15 1               D.E. Groom et al.                          (PDG Collab.)
+ACHASOV    99      PL B449 122             M.N. Achasov et al.
+ACHASOV    99C     PL B456 304             M.N. Achasov et al.
+AKHMETSHIN 99B     PL B462 371             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AKHMETSHIN 99C     PL B462 380             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AKHMETSHIN 99D     PL B466 385             R.R. Akhmetshin et al.
+   Also            PL B508 217 (errat.)    R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AKHMETSHIN 99F     PL B460 242             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+AULCHENKO 99       JETPL 69 97             V.M. Aulchenko et al.
+                   Translated from ZETFP 69 87.
+ACHASOV    98B     PL B438 441             M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV    98F     JETPL 68 573            M.N. Achasov et al.           (Novosibirsk SND Collab.)
+ACHASOV    98I     PL B440 442             M.N. Achasov et al.
+AKHMETSHIN 98      PL B434 426             R.R. Akhmetshin et al.                  (CMD-2 Collab.)
+AULCHENKO 98       PL B436 199             V.M. Aulchenko et al.         (Novosibirsk SND Collab.)
+BARBERIS   98      PL B432 436             D. Barberis et al.                        (Omega Expt.)
+AKHMETSHIN 97B     PL B415 445             R.R. Akhmetshin et al.         (NOVO, BOST, PITT+)
+AKHMETSHIN 97C     PL B415 452             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+BENAYOUN   96      ZPHY C72 221            M. Benayoun et al.                        (IPNP, NOVO)
+AKHMETSHIN 95      PL B364 199             R.R. Akhmetshin et al.     (Novosibirsk CMD-2 Collab.)
+DOLINSKY   91      PRPL 202 99             S.I. Dolinsky et al.                            (NOVO)
+KUHN       90      ZPHY C48 445            J.H. Kuhn et al.                                (MPIM)
+ACHASOV    89      NP B315 465             N.N. Achasov, V.N. Ivanchenko
+DOLINSKY   89      ZPHY C42 511            S.I. Dolinsky et al.                            (NOVO)
+BARKOV     88      SJNP 47 248             L.M. Barkov et al.                              (NOVO)
+                   Translated from YAF 47 393.
+
+https://pdg.lbl.gov                        Page 27                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+DOLINSKY      88 SJNP 48 277             S.I. Dolinsky et al.                              (NOVO)
+                 Translated from YAF 48 442.
+DRUZHININ    87  ZPHY C37 1              V.P. Druzhinin et al.                             (NOVO)
+ARMSTRONG 86     PL 166B 245             T.A. Armstrong et al.             (ATHU, BARI, BIRM+)
+ATKINSON     86  ZPHY C30 521            M. Atkinson et al.              (BONN, CERN, GLAS+)
+BEBEK        86  PRL 56 1893             C. Bebek et al.                           (CLEO Collab.)
+DAVENPORT 86     PR D33 2519             T.F. Davenport (TUFTS, ARIZ, FNAL, FSU, NDAM+)
+DIJKSTRA     86  ZPHY C31 375            H. Dijkstra et al.                 (ANIK, BRIS, CERN+)
+FRAME        86  NP B276 667             D. Frame et al.                                    (GLAS)
+GOLUBEV      86  SJNP 44 409             V.B. Golubev et al.                               (NOVO)
+                 Translated from YAF 44 633.
+ALBRECHT     85D PL 153B 343             H. Albrecht et al.                      (ARGUS Collab.)
+GOLUBEV      85  SJNP 41 756             V.B. Golubev et al.                               (NOVO)
+                 Translated from YAF 41 1183.
+DRUZHININ    84  PL 144B 136             V.P. Druzhinin et al.                             (NOVO)
+ARMSTRONG 83B NP B224 193                T.A. Armstrong et al.             (BARI, BIRM, CERN+)
+BARATE       83  PL 121B 449             R. Barate et al.              (SACL, LOIC, SHMP, IND)
+KURDADZE     83C JETPL 38 366            L.M. Kurdadze et al.                              (NOVO)
+                 Translated from ZETFP 38 306.
+ARENTON      82  PR D25 2241             M.W. Arenton et al.                            (ANL, ILL)
+PELLINEN     82  PS 25 599               A. Pellinen, M. Roos                               (HELS)
+DAUM         81  PL 100B 439             C. Daum et al.             (AMST, BRIS, CERN, CRAC+)
+IVANOV       81  PL 107B 297             P.M. Ivanov et al.                                (NOVO)
+   Also          Private Comm.           S.I. Eidelman                                     (NOVO)
+VASSERMAN 81     PL 99B 62               I.B. Vasserman et al.                             (NOVO)
+   Also          SJNP 35 240             L.M. Kurdadze et al.
+                 Translated from YAF 35 352.
+CORDIER      80  NP B172 13              A. Cordier et al.                                  (LALO)
+CORDIER      79  PL 81B 389              A. Cordier et al.                                  (LALO)
+BUKIN        78B SJNP 27 521             A.D. Bukin et al.                                 (NOVO)
+                 Translated from YAF 27 985.
+BUKIN        78C SJNP 27 516             A.D. Bukin et al.                                 (NOVO)
+                 Translated from YAF 27 976.
+COOPER       78B NP B146 1               A.M. Cooper et al.               (TATA, CERN, CDEF+)
+LOSTY        78  NP B133 38              M.J. Losty et al.                (CERN, AMST, NIJM+)
+AKERLOF      77  PRL 39 861              C.W. Akerlof et al.                (FNAL, MICH, PURD)
+ANDREWS      77  PRL 38 198              D.E. Andrews et al.                               (ROCH)
+BALDI        77  PL 68B 381              R. Baldi et al.                                    (GEVA)
+CERRADA      77B NP B126 241             M. Cerrada et al.                (AMST, CERN, NIJM+)
+COHEN        77  PRL 38 269              D. Cohen et al.                                      (ANL)
+LAVEN        77  NP B127 43              H. Laven et al.           (AACH3, BERL, CERN, LOIC+)
+LYONS        77  NP B125 207             L. Lyons, A.M. Cooper, A.G. Clark                    (OXF)
+COSME        76  PL 63B 352              G. Cosme et al.                                  (ORSAY)
+KALBFLEISCH 76   PR D13 22               G.R. Kalbﬂeisch, R.C. Strand, J.W. Chapman        (BNL+)
+PARROUR      76  PL 63B 357              G. Parrour et al.                                (ORSAY)
+PARROUR      76B PL 63B 362              G. Parrour et al.                                (ORSAY)
+KALBFLEISCH 75   PR D11 987              G.R. Kalbﬂeisch, R.C. Strand, J.W. Chapman        (BNL+)
+AYRES        74  PRL 32 1463             D.S. Ayres et al.                                    (ANL)
+BESCH        74  NP B70 257              H.J. Besch et al.                                 (BONN)
+COSME        74  PL 48B 155              G. Cosme et al.                                  (ORSAY)
+COSME        74B PL 48B 159              G. Cosme et al.                                  (ORSAY)
+DEGROOT      74  NP B74 77               A.J. de Groot et al.                      (AMST, NIJM)
+AUGUSTIN     73  PRL 30 462              J.E. Augustin et al.                             (ORSAY)
+BALLAM       73  PR D7 3150              J. Ballam et al.                             (SLAC, LBL)
+BINNIE       73B PR D8 2789              D.M. Binnie et al.                         (LOIC, SHMP)
+AGUILAR-...  72B PR D6 29                M. Aguilar-Benitez et al.                            (BNL)
+ALVENSLEB... 72  PRL 28 66               H. Alvensleben et al.                       (MIT, DESY)
+BORENSTEIN 72    PR D5 1559              S.R. Borenstein et al.                      (BNL, MICH)
+COLLEY       72  NP B50 1                D.C. Colley et al.                         (BIRM, GLAS)
+BALAKIN      71  PL 34B 328              V.E. Balakin et al.                               (NOVO)
+CHATELUS     71  Thesis LAL 1247         Y. Chatelus                                        (STRB)
+   Also          PL 32B 416              J.C. Bizot et al.                                (ORSAY)
+HAYES        71  PR D4 899               S. Hayes et al.                                   (CORN)
+STOTTLE...   71  Thesis ORO 2504 170     A.R. Stottlemyer                                    (UMD)
+BIZOT        70  PL 32B 416              J.C. Bizot et al.                                (ORSAY)
+   Also          Liverpool Sym. 69       J.P. Perez-y-Jorba
+EARLES       70  PRL 25 1312             D.R. Earles et al.                                 (NEAS)
+GOUNARIS     68  PRL 21 244              G.J. Gounaris, J.J. Sakurai
+LINDSEY      66  PR 147 913              J.S. Lindsey, G. Smith                                (LRL)
+LONDON       66  PR 143 1034             G.W. London et al.                          (BNL, SYRA) IGJPC
+BADIER       65B PL 17 337               J. Badier et al.                    (EPOL, SACL, AMST)
+
+
+
+
+https://pdg.lbl.gov                         Page 28                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+LINDSEY     65     PRL 15 221              J.S. Lindsey, G.A. Smith                                (LRL)
+   LINDSEY 65 data included in LINDSEY 66.
+SCHLEIN     63     PRL 10 368              P.E. Schlein et al.                                   (UCLA) IGJP
+
+
+
+
+https://pdg.lbl.gov                         Page 29                      Created: 6/1/2026 16:24
+

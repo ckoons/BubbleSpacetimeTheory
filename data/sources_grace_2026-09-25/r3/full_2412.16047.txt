@@ -1,0 +1,499 @@
+                                            Rare multi-nucleon decays with the full data sets of the Majorana Demonstrator
+
+                                                  I.J. Arnquist,1 F.T. Avignone III,2, 3 A.S. Barabash ,4 E. Blalock ,5, 6 B. Bos ,7, 6 M. Busch,8, 6
+                                             Y.-D. Chan,9 J.R. Chapman ,7, 6 C.D. Christofferson ,10 P.-H. Chu ,11, a C. Cuesta ,12 J.A. Detwiler ,13
+                                                 Yu. Efremenko,14, 3 H. Ejiri,15 S.R. Elliott ,11 N. Fuad ,16 G.K. Giovanetti ,17 M.P. Green ,5, 6, 3
+                                                 J. Gruszko ,7, 6 I.S. Guinn ,3 V.E. Guiseppe ,3 R. Henning ,7, 6 E.W. Hoppe ,1 R.T. Kouzes ,1
+                                                    A. Li ,18 R. Massarczyk ,11 S.J. Meijer ,11 L.S. Paudel ,19 W. Pettus ,16 A.W.P. Poon ,9
+                                                D.C. Radford,3 A.L. Reine ,16 K. Rielage ,11 D.C. Schaper ,11, b S.J. Schleich ,16 D. Tedeschi ,2
+                                              R.L. Varner ,3 S. Vasilyev,20 S.L. Watkins ,11, c J.F. Wilkerson ,7, 6, 3 C. Wiseman ,13 and C.-H. Yu 3
+                                                                                      (Majorana Collaboration)
+                                                                              1
+                                                                                Pacific Northwest National Laboratory, Richland, WA 99354, USA
+                                                      2
+                                                           Department of Physics and Astronomy, University of South Carolina, Columbia, SC 29208, USA
+                                                                                   3
+                                                                                     Oak Ridge National Laboratory, Oak Ridge, TN 37830, USA
+                                                                            4
+                                                                              National Research Center “Kurchatov Institute”, Kurchatov Complex
+
+
+
+
+arXiv:2412.16047v4 [nucl-ex] 7 Aug 2025
+                                                                                of Theoretical and Experimental Physics, Moscow, 117218 Russia
+                                                                   5
+                                                                     Department of Physics, North Carolina State University, Raleigh, NC 27695, USA
+                                                                            6
+                                                                              Triangle Universities Nuclear Laboratory, Durham, NC 27708, USA
+                                                        7
+                                                          Department of Physics and Astronomy, University of North Carolina, Chapel Hill, NC 27514, USA
+                                                                            8
+                                                                               Department of Physics, Duke University, Durham, NC 27708, USA
+                                                            9
+                                                              Nuclear Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+                                                                                         10
+                                                                                            South Dakota Mines, Rapid City, SD 57701, USA
+                                                                                11
+                                                                                   Los Alamos National Laboratory, Los Alamos, NM 87545, USA
+                                                    12
+                                                       Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas, CIEMAT 28040, Madrid, Spain
+                                                                                13
+                                                                                   Center for Experimental Nuclear Physics and Astrophysics, and
+                                                                        Department of Physics, University of Washington, Seattle, WA 98195, USA
+                                                           14
+                                                              Department of Physics and Astronomy, University of Tennessee, Knoxville, TN 37916, USA
+                                                               15
+                                                                  Research Center for Nuclear Physics, Osaka University, Ibaraki, Osaka 567-0047, Japan
+                                          16
+                                             Center for Exploration of Energy and Matter, and Department of Physics, Indiana University, Bloomington, IN 47405, USA
+                                                                         17
+                                                                            Physics Department, Williams College, Williamstown, MA 01267, USA
+                                                18
+                                                   Halıcıoğlu Data Science Institute, Department of Physics, University of California San Diego, CA 92093, USA
+                                                                    19
+                                                                       Department of Physics, University of South Dakota, Vermillion, SD 57069, USA
+                                                                                   20
+                                                                                      Joint Institute for Nuclear Research, Dubna, 141980 Russia
+                                                          The Majorana Demonstrator was an ultra-low-background experiment designed for neutrino-
+                                                       less double-beta decay (0νββ) investigation in 76 Ge. Located at the Sanford Underground Research
+                                                       Facility in Lead, South Dakota, the Demonstrator utilized modular high-purity Ge detector arrays
+                                                       within shielded vacuum cryostats, operating deep underground. The arrays, with a capacity of up
+                                                       to 40.4 kg (27.2 kg enriched to ∼ 88% in 76 Ge), have accumulated the full data set, totaling 64.5 kg
+                                                       yr of enriched active exposure and 27.4 kg yr of exposure for natural detectors. Our updated search
+                                                       improves previously explored three-nucleon decay modes in Ge isotopes, setting new partial lifetime
+                                                       limits of 1.83 × 1026 years (90% confidence level) for 76 Ge(ppp) → 73 Cu e+ π + π + and 76 Ge(ppn) →
+                                                       73
+                                                          Zn e+ π + . The partial lifetime limit for the fully inclusive tri-proton decay mode of 76 Ge is found
+                                                       to be 2.1 × 1025 yr. Furthermore, we have updated limits for corresponding multi-nucleon decays.
+
+                                                       PACS numbers: 23.40-s, 23.40.Bw, 14.60.Pq, 27.50.+j
+
+
+                                             Baryons include stable particles like protons, as well          and have a finite partial lifetime. The current constraint
+                                          as neutrons, which are stable within nuclei but decay              on the proton’s partial lifetime is 1.6 × 1034 yr [5]. When
+                                          outside them. In addition, there are other unstable par-           considering ∆B = 2 decays, indicating changes in baryon
+                                          ticles with different quark combinations. While unstable           number by two units, the tightest constraints on its par-
+                                          baryons may decay into stable baryons, the conservation            tial lifetime now approach approximately 1032 yr [6, 7].
+                                          of the total baryon number is usually maintained dur-                 Here we investigate the decay processes of three sta-
+                                          ing the process. Baryon number violation (̸B ) is one of           ble baryons, such as protons or neutrons, known as tri-
+                                          the three Sakharov conditions [1] necessary to explain             nucleon decays. Tri-nucleon decays [8] are studied within
+                                          the observed matter-antimatter asymmetry in the uni-               the framework of the Standard Model with small neu-
+                                          verse. These topics are comprehensively studied in the             trino masses where the anomaly-free Z6 symmetry al-
+                                          literature [2–4]. For example, certain theories beyond             lows ∆B = 3 transitions, primarily due to a dimension
+                                          the Standard Model, such as Grand Unified Theories                 15 operator, while simultaneously prohibiting lower-order
+                                          (GUTs), predict processes where baryon number conser-              transitions such as ∆B = 2 or ∆B = 1. Z6 is a dis-
+                                          vation is violated, suggesting that protons are not stable         crete symmetry group of order 6, describing additional
+                                                                                                                          2
+
+symmetries and charge assignments beyond the Standard           made from natural germanium (20.5% 70 Ge, 27.4% 72 Ge,
+Model [9]. In a ∆B = 3 tri-nucleon decay, three baryons         7.8% 73 Ge, 36.5% 74 Ge, and 7.8% 76 Ge), each weigh-
+vanish from the nucleus, often leading to the formation of      ing approximately 0.6 kg with the total exposure 27.4 kg
+an unstable isotope. Previous investigations into ∆B = 3        yr. With a combined exposure of 64.5 kg yr of enriched
+                                                                76
+processes in Xe isotopes [10, 11] and 127 I [12] primarily         Ge (61.64 kg yr for PPC and 2.82 kg yr for ICPC), the
+focused on uncovering invisible decay channels [13], as-        Demonstrator established a half-life (T1/2 ) limit for
+suming the initial tri-nucleon decay or its disappearance       0νββ in 76 Ge, with T1/2 > 8.3 × 1025 yr (90% confidence
+went unobserved. These studies concentrated on detect-          level) [35].
+ing evidence of the process solely through the decay of            The Demonstrator consisted of germanium iso-
+the unstable product. Recently, the Majorana Demon-             topes, with 76 Ge being the dominant isotope. The
+strator reported their initial findings on tri-nucleon de-      tri-nucleon decays of 76 Ge include the following pro-
+cays involving germanium isotopes [14]. The GERDA               cesses: 76 Ge(ppp) → 73 Cu+X, 76 Ge(ppn) → 73 Zn+X,
+collaboration published a study on inclusive tri-nucleon        76
+                                                                   Ge(pnn) → 73 Ga+X, and 76 Ge(nnn) → 73 Ge+X
+decays in 76 Ge [15], utilizing the isotope 73 Ga decay to      where X denotes either visible particles (Xvis ) that
+73m
+    Ge as a tracer. A process with a similar signature          deposit energy in the detectors or invisible particles
+in the detectors has been observed in the Demonstra-            which escape detection. If the visible particles, such as
+tor due to cosmogenic muon backgrounds [16] that limit          positrons or pions, deposit large amounts of energy in the
+sensitivity to that tri-nucleon decay mode.                     detectors, we apply the semi-inclusive visible mode anal-
+   Babu et al. [8] calculated potential decay modes for         ysis [36]. Since the Demonstrator cannot directly dis-
+tri-nucleon decays with ∆B = 3, involving combina-              tinguish the Xvis specific to each decay mode, it instead
+tions of proton and neutron decays. These modes in-             observes only the resulting energy deposits. Addition-
+clude ppp → e+ π + π + , ppn → e+ π + , pnn → e+ π 0 , and      ally, tri-nucleon decays may produce daughter isotopes
+nnn → ν̄π 0 . The presence of e+ or ν̄ in the output pro-       in excited states, leading to the prompt emission of γ
+vides a test for lepton number violation with ∆L = 1,           rays. These γ rays may either remain within the same
+whereas neutrinoless double beta decay corresponds to           detector or escape to be detected by another detectors,
+∆L = 2. We have also considered the decays with                 which can be identified through detector hit multiplicity
+∆B = 2 [13, 17], such as pp → π + π + , pn → π 0 π + , and      in this scenario. On the other hand, if the emitted par-
+nn → π + π − , as well as π 0 π 0 . In this study, we present   ticles are invisible – such as dark matter or neutrinos,
+updated results for the corresponding ∆B = 2 and 3 de-          where emissions escape from the detectors without de-
+cays using the complete data set from the Demonstra-            positing energy [13] – or if they are visible but have ener-
+tor.                                                            gies too low to saturate the detectors such as low-energy
+   The Majorana Demonstrator [18, 19] was an ex-                γ rays, we apply the fully inclusive mode analysis [37].
+periment at the Sanford Underground Research Facil-             The summary of decay channels investigated for the iso-
+ity [20] probing neutrinoless double-beta decay (0νββ).         topes 76 Ge, 74 Ge, 73 Ge, 72 Ge, and 70 Ge can be found in
+Housed underground in Lead, South Dakota, the                   Table I.
+Demonstrator employed modular high-purity germa-                   The semi-inclusive visible and fully inclusive modes
+nium detectors [21] in shielded vacuum cryostats and a          have distinct event detection sequences, but both share
+muon veto system [22] to ensure an ultra-low-background         in the production and detection of unstable daughter iso-
+environment [23, 24]. The electronics system [25] of the        topes. In the fully inclusive mode, we observe a sequence
+Demonstrator enabled energy spectra measurement                 of β decays in unstable daughter isotopes. Conversely,
+(1 keV to 10 MeV) with pulse-shape analysis [26, 27]            the semi-inclusive visible modes involve detecting the re-
+for signal-background discrimination. Advanced correc-          lease of substantial energy during the initial tri-nucleon
+tion methods, including nonlinearity and charge trap-           decays, followed by the subsequent decay of an unstable
+ping [28, 29], provided exceptional energy resolution           daughter isotope. The decay spectra of 73 Cu and 73 Zn
+(2.52 ± 0.08 keV at 2039 keV). The calibration sys-             are presented in Ref. [14].
+tem [30] used 228 Th sources around detectors for reliable         This study does not consider particle decay (proton
+response [31].                                                  or neutron emission) of the daughter nucleus resulting
+   Throughout the data sets, the Demonstrator uti-              from baryon decay. For example, 76 Ge can decay to the
+lized three distinct types of germanium detectors, each         excited state of 74 Zn via a ∆B = 2 process. The excited
+                                                                74
+characterized by varying pulse-shape analysis efficiency.          Zn can then emit a proton and decay to 73 Cu. As a
+These detector types included P-type point-contact              result, the detection of 73 Cu does not necessarily imply
+(PPC) detectors [21, 32], enriched to 87.4 ± 0.5% in            a ∆B = 3 process.
+76
+   Ge (and 12.6% 74 Ge), with masses ranging from 0.6              We adopt a procedure similar to the one employed in
+to 1.2 kg. Additionally, the inverted coaxial point con-        the previous study by the Demonstrator [14]. For the
+tact (ICPC) detectors [33] enriched to 88 ± 1% in 76 Ge         semi-inclusive visible modes, the initial tri-nucleon decay
+(and 12% 74 Ge) were also employed, with masses ranging         must release a significant amount of energy, potentially
+from 1.3 to 2.1 kg. Finally, the Demonstrator incorpo-          saturating the detectors in the Demonstrator system
+rated Broad Energy Germanium (BEGe) detectors [34]              with a dynamic range set to approximately 10 MeV. It
+                                                                                                                               3
+
+                                                                P
+          Decay Mode            ϵ0   ϵτ1    ϵE1   ϵτ2   ϵE2        i NTi ϵi      NTϵTot     Total candidates    S         τ
+                                                              (1024 atom yr) (1024 atom yr)    Observed      (counts) (1024 yr)
+     Semi-inclusive Visible
+76
+   Ge(ppp) → 73 Cu e+ π + π + 0.998 0.969 0.996 N.A. N.A.          465.1           448.0              0           2.44    >183.6
+  76
+     Ge(ppn) → 73 Zn e+ π + 0.999 0.969 0.990 N.A. N.A.            465.1           445.8              0           2.44    >182.7
+   76
+      Ge(pp) → 74 Zn π + π + 0.994 0.968 0.972 N.A. N.A.           465.1           435.0              0           2.44    >178.3
+   76
+      Ge(pn) → 74 Ga π 0 π + 0.979 0.964 0.991 N.A. N.A.           465.1           435.0              1           4.36    >99.8
+
+74
+     Ge(ppp) → 71 Cu e+ π + π + 0.998 0.969 0.993 N.A. N.A.        147.2           141.3              0           2.44     >57.9
+  74
+      Ge(ppn) → 71 Zn e+ π + 0.999 0.967 0.982 N.A. N.A.           147.2           139.6              0           2.44     >57.2
+
+73
+   Ge(ppp) → 70 Cu e+ π + π + 0.998 0.968 0.996 N.A. N.A.           17.6           16.9               0           2.44     >6.9
+  73
+     Ge(pnn) → 70 Ga e+ π 0 0.999 0.958 0.867 N.A. N.A.             17.6           14.6               1           4.36     >3.3
+   73
+      Ge(pp) → 71 Zn π + π + 0.994 0.967 0.982 N.A. N.A.            17.6           16.6               0           2.44     >6.8
+72
+   Ge(ppp) → 69 Cu e+ π + π + 0.998 0.967 0.973 N.A. N.A.           62.1           58.4               0           2.44     >23.9
+   72
+      Ge(pn) → 70 Ga π 0 π + 0.979 0.958 0.867 N.A. N.A.            62.1           50.5               1           4.36     >11.6
+   70
+      Ge(nnn) → 67 Ge ν̄π 0 0.952 0.959 0.972 N.A. N.A.             46.5           41.3               1           4.36     >9.5
+          Fully Inclusive
+     76
+        Ge(ppp) → 73 Cu + X    N.A. N.A. 0.445 0.969 0.350         343.5           51.84              0           2.44     >21.2
+     74
+        Ge(ppp) → 71 Cu + X    N.A. N.A. 0.114 0.969 0.050         109.0            0.60              0           2.44     >0.2
+
+TABLE I. Efficiencies, exposures (enriched and natural detectors), signal upper limits, and partial lifetime limits for the modes
+of nucleon decay for the germanium isotopes for which the Demonstrator has an interesting sensitivity. The signal upper
+limit (S) corresponds to Feldman-Cousins [38] 90% confidence level interval for the Poisson signal for total candidates observed.
+“N.A.” is an abbreviation for “not applicable”. The index i loops over PPC, ICPC, and BEGe, respectively. ϵi is ϵDC,i for
+semi-inclusive
+ P              visible modes and ϵ2PSD,i for fully inclusive modes.
+                                                                P       NTi (1024 atom yr) is the isotope exposure. NTϵTot is
+( i NTi ϵi ) × ϵ0 ϵτ1 ϵE1 for semi-inclusive visible modes and ( i NTi ϵi ) × ϵE1 ϵτ2 ϵE2 for fully inclusive modes.
+
+
+can trigger one or multiple detectors. It is worth noting         muon cut (removing muon-veto-tagged events). Within a
+that since the tri-nucleon decay occurs within a germa-           specific time window, which is 5 times the half-life of the
+nium detector, this energy release does not trigger the           corresponding daughter isotope, we look for the presence
+muon veto system. Consequently, for the semi-inclusive            of another event, which indicates a potential tri-nucleon
+visible modes, the first triggered event consists of satu-        decay. As detailed in Table II, the longest half-life is
+rated events that are not tagged by the muon veto. The            1268.4 s for 70 Ga decay, resulting in a maximum time
+efficiency of these saturated events (ϵ0 ), as shown in Ta-       window of 6342 s. The corresponding efficiency for de-
+ble I, was determined to be higher than 99% based on              tecting the decay in a window of 5T1/2 is given as ϵτ1
+Monte Carlo simulation of high-energy π or e+ particles           in Table I. Some runs had significant gaps before the
+within the detector, which are generated according to             next run due to calibrations or other interruptions, such
+the phase-space distributions of various decay channels,          as detector failures or power outages. As a result, the
+as detailed in Ref. [14]. After the release of this sub-          efficiency was adjusted accordingly, similar to our pre-
+stantial energy, the reaction leaves behind an unstable           vious study [14]. To reduce the impact of low-energy
+daughter isotope. For instance, 76 Ge might decay into            noise and background, we search for events with energies
+73
+   Cu through three-proton decays. The unstable daugh-            between 100 keV and the Q value of the corresponding
+ter isotope 73 Cu has a half-life of 4.2 s via β decay and        isotope for the subsequent event from the daughter iso-
+a Q value of 6.6 MeV [39]. Additional relevant isotopes           tope. The associated efficiency of the energy cut (ϵE1
+for this study are listed in Table II. Since most saturated       where Q > E1 > 100 keV) is determined through Monte
+events are associated with muons or noise, a saturated            Carlo simulation [14, 40].
+event not related to these sources is exceedingly rare, re-          To reduce the noise and background events, we imple-
+sulting in a low background. Using such rare saturated            ment several cuts for the first trigger event, including the
+events as a trigger to search for corresponding daughter          liquid nitrogen cut (which excludes events during the liq-
+isotope decays provides a distinct signature in the search        uid nitrogen filling) [35]. Additionally, the good detector
+for tri-nucleon decays, as it minimizes background inter-         cut, which ensures that only well-functioning detectors
+ference.                                                          are used, is applied universally to all events, regardless of
+   The detection approach is as follows: we identify the          noise or background considerations. For the subsequent
+first saturated, non-muon-veto event by applying the              event, we also apply the muon cut, the liquid nitrogen
+                                                                                                                           4
+
+cut and the good detector cut. We permit germanium            within the same detector, but if the γ escapes from the
+detector multiplicity greater than 1 in the second event,     detector, the event will be retained. The efficiency of
+as the beta decay of the daughter isotope, which occurs       pure β events without γ emission in the same detector,
+within the same detector as the first event, can emit pho-    subject to the energy cut, is summarized as ϵEi in Ta-
+tons. Therefore, we require at least one hit in the same      ble I. These events are selected individually in the Monte
+detector to ensure the detection of the beta decay from       Carlo simulation, and the corresponding efficiency is then
+the daughter isotope, while additional hits in nearby de-     calculated. The corresponding efficiencies ϵPSD,i , includ-
+tectors can result from emitted photons. These cuts have      ing DC, AvsE, DCR, and LQ cuts, for the three detector
+been considered within the context of active exposure, de-    types were estimated from experimental calibration data,
+noted as NT, where N represents the number of isotopic        as summarized in Table III. It is worth noting that we
+atoms within the active volume of the detectors, and T        apply PSD to both the initial trigger event and the sub-
+stands for the live time in years. The corresponding ac-      sequent second event, resulting in an efficiency of ϵ2PSD,i .
+tive exposure (NTi ) for different types of detectors, in-       We found one potential sequence of events for the semi-
+cluding PPC, ICPC and BEGe, are summarized in Table           inclusive visible modes search and one potential sequence
+III. Furthermore, we apply multiple data cleaning (DC)        of events for the fully inclusive modes passing the selec-
+cuts to discard nonphysical waveforms, pileup waveforms,      tion above. The semi-inclusive visible mode sequence oc-
+and pulser events, extending the filtering process to the     curred in a BEGe detector. The energy of the first event
+second event. The corresponding efficiencies (ϵDC,i ) are     is >11558 keV and the energy of the second event is 147
+summarized in Table III [35].                                 keV. The time difference between the first event and the
+                                                              second event is 1712 s. It therefore satisfies as a candi-
+   For the fully inclusive modes, there may not be a satu-
+                                                              date for the decay patterns of 76 Ge(pn) → 74 Ga π 0 π + ,
+rated trigger event to indicate the reactions, so we employ   73
+                                                                 Ge(pnn) → 70 Ga e+ π 0 , 72 Ge(pn) → 70 Ga π 0 π + and
+a sequential search for β decays of the daughter isotopes.    70
+                                                                 Ge(nnn) → 67 Ge ν̄π 0 in the semi-inclusive visible
+For example, in the decay channel of 76 Ge to 73 Cu via
+                                                              modes. The fully inclusive mode sequence occurred in
+ppp tri-nucleon decay, the first trigger event arises from
+                                                              a BEGe detector. The energy of the first event is 2294
+the β decay of 73 Cu (the daughter isotope) to 73 Zn. Af-
+                                                              keV and the second event is 2614 keV, which is likely
+ter a designated time interval of 5 times the half-life of
+73                                                            attributed to background from 208 Tl decay. The time
+   Zn, 73 Zn (the granddaughter isotope) may undergo a
+                                                              difference between the first event and the second event is
+β decay to 73 Ga. Due to the higher background associ-
+                                                              1657 s, which is too long to satisfy as a candidate for any
+ated with sequential β decays as a trigger compared to a
+                                                              decay pattern in the search channels of the fully inclusive
+saturated event as a trigger, we seek events with energies
+                                                              modes.
+between 2 MeV and the Q value of the corresponding
+isotope for both the first daughter event and the second
+                                                                               Isotope T1/2 (s) Q (MeV)
+granddaughter event. The corresponding efficiencies of
+                                                                                73
+the energy cuts (ϵE1 and ϵE2 where Q > E1 > 2 MeV and                              Cu       4.2       6.6
+                                                                                73
+Q > E2 > 2 MeV) are also determined through Monte                                  Zn      24.5       4.1
+                                                                                74
+Carlo simulation. The time window is similarly set to                              Zn      95.6       2.3
+5 times the half-life of the corresponding granddaughter                        74
+                                                                                   Ga     487.2       5.4
+isotope, and the associated efficiency is denoted as ϵτ2 ,                      71
+                                                                                   Cu      19.4       4.6
+as outlined in Table I. Together with the DC cuts, the                          71
+                                                                                   Zn      147        2.8
+muon cut, the liquid nitrogen cut and the good detector                         70
+                                                                                   Cu      44.5       6.6
+cut are also applied to both the first and second events.                       70
+We permit germanium detector multiplicity greater than                             Ga    1268.4       1.7
+                                                                                69
+1 but demand that at least one hit in each of the first and                        Cu      171        2.7
+                                                                                67
+second events occur in the same detector. The decays of                            Ge     1134        4.2
+daughter (and granddaughter) isotopes are mainly β de-
+cay in the bulk of the germanium detectors, occasionally      TABLE II. The corresponding isotopes in Table I with their
+accompanied by the emission of γ rays, which may ei-          half-life and Q value according to the ENSDF database [39].
+ther be contained within or escape from the detector.
+To eliminate potential γ and α background as well as            The partial lifetime limit (τ ) is calculated as follows
+surface events, pulse-shape discrimination (PSD) is ap-
+plied alongside these DC cuts. This includes multiple-                                       NTϵTot
+site rejection (AvsE), which primarily removes γ scatter-                               τ>                             (1)
+                                                                                               S
+ing [26], delayed charge recovery (DCR), which mainly re-
+jects surface α contamination [27], and late charge (LQ),     where NT is the exposure and ϵTot is the total efficiency.
+where partial charge deposition in the transition layer       To convert the active exposure NTi from units of [kg yr]
+between the n-type surfaces and the detector bulk leads       to [atom yr] as used in Table I, we divide it by the atomic
+to energy degradation [35]. The AvsE cut will also re-        mass Ai,j (in g/mol) and then multiply by Avogadro’s
+move events involving β decay with γ emission contained       constant, NA = 6.022 × 1023 , while taking into account
+                                                                                                                                5
+
+       i          PPC                ICPC          BEGe              the limit is primarily constrained by statistical consid-
+                                                                     erations, we ignored their contribution and continued to
+     NTi     61.64+0.89           +0.04
+                  −1.17 kg yr 2.82−0.05 kg yr 27.383 kg yr
+                                                                     employ the Feldman-Cousins technique [38].
+    ϵDC,i      99.9 ± 0.1%         99.9 ± 0.1%   99.9 ± 0.1%
+                                                                        For the fully inclusive model, we applied all pulse-
+    ϵPSD,i     86.1 ± 3.9%          81.0+5.3
+                                        −7.3 %   86.1 ± 3.9%
+                                                                     shape cuts used in the 0νββ analysis [35], including DCR,
+                                                                     AvsE, and LQ. In contrast, the previous study [14] in
+                                                                     the Demonstrator used only the DCR pulse-shape
+TABLE III. A summary of key analysis parameters [35]. For
+the semi-inclusive visible modes, the only PSD cut is the data       cut to improve efficiency, as there were fewer back-
+cleaning (ϵDC,i ). For the fully inclusive mode, all PSD cuts        ground events in that dataset. To enhance the signal-to-
+are used including DC, AvsE, DCR, and LQ cuts (ϵPSD,i ).             background ratio in this study, we introduced the addi-
+                                                                     tional pulse-shape cuts (AvsE and LQ). The correspond-
+                                                                     ing efficiency was determined via Monte Carlo simula-
+the respective fractional abundance of the isotope fi,j .            tions, where events with coincident γ emission alongside
+The conversion is given by:                                          β decay were excluded.
+                                                                        Additional background in the semi-inclusive visible
+                     X NTi [kg yr] × 103 × NA × fi,j                 modes arises from muon-induced saturated events that
+ NTi [atom yr] =                                               (2)
+                                          Ai,j                       were not properly tagged by the veto system and from
+                       j
+                                                                     random time coincidences. For random time coinci-
+where the factor of 103 converts the active mass from kg             dences, the event rate for events with energy greater than
+to g. Here, the index i refers to different detector types           100 keV in the Demonstrator is approximately 10−4
+(PPC, ICPC, and BEGe), and the index j refers to the                 Hz. After a saturated event, the expected number of ran-
+relevant isotopes.                                                   dom events is calculated by multiplying the longest time
+                                                                     window by the event rate, yielding 6342 × 10−4 ≈ 0.6.
+   The signal upper limit (S) corresponds to Feldman-
+                                                                     Additionally, the subsequent event must occur in the
+Cousins [38] 90% confidence level interval for the Pois-
+                                                                     same detector as the trigger-saturated event. Given that
+son signal for total candidates observed. Table I shows
+                                                                     the Demonstrator has around 35 detectors (with vari-
+the partial lifetime limit and corresponding parameters
+                                                                     ations across different datasets), the background from
+for different channels using the exposure of the complete
+                                                                     saturated, non-muon-veto events and random time co-
+data set with both enriched and natural detectors.
+                                                                     incidences is approximately 0.017 (0.6/35) counts. This
+   For the semi-inclusive visible modes, we only consider
+                                                                     background remains low enough to preserve our discovery
+the DC cuts to the subsequent second event. The NTϵTot
+                                                                     potential or to set a new lower limit on the partial lifetime
+is
+                                                                     for rare multi-nucleon decays. Although the muon detec-
+                                                                     tion efficiency is excellent [22] with near-4π geometric
+                                     !
+                        X
+            NTϵTot =        NTi ϵDC,i ϵ0 ϵτ1 ϵE1       (3)           coverage, six out of 492 saturated events were not tagged
+                               i                                     by the veto system. Of these, two are likely non-physical
+                                                                     events, possibly caused by an electrical breakdown (as
+where the index i loops over three types of detectors,               discussed in Ref. [14]). Three of these events lack corre-
+PPC, ICPC, and BEGe. For the fully inclusive modes, we               sponding daughter events within the time window due to
+need to consider all PSD cuts to the initial trigger event           the low event rate. However, one saturated, non-muon-
+and the subsequent second event. The NTϵTot becomes                  veto event satisfies the criteria defined in this study. If
+                                    !                                more such events are found and their time difference dis-
+         NTϵTot =
+                      X
+                         NTi ϵ2PSD,i ϵE1 ϵτ2 ϵE2       (4)           tribution aligns with the half-life of the corresponding
+                                                                     daughter isotope’s β decay, it would strongly enhance
+                           i
+                                                                     the likelihood of confirming the rare nucleon decays.
+where the index i also loops over PPC, ICPC, and BEGe.                  The GERDA experiment recently established partial
+   With the complete data set from Demonstrator and                  lifetime limits of approximately 1.2 × 1026 years for fully
+applying pulse-shape cuts (AvsE and LQ) to reduce back-              inclusive tri-nucleon decays of 76 Ge with an exposure of
+ground [41], we enhance the previous measurements [14]               61.89 kg yr [15]. GERDA developed an algorithm to
+of tri-nucleon decays in germanium isotopes, establish-              identify the two-step waveform from the metastable state
+ing new partial lifetime limits at 1.83 × 1026 yr (90%               73m
+                                                                          Ge decay but did not observe any such events. In con-
+confidence level) for 76 Ge(ppp) → 73 Cu e+ π + π + and              trast, the Demonstrator has observed several events
+76
+   Ge(ppn) → 73 Zn e+ π + .                                          consistent with 73m Ge decay, which is believed to result
+   The systematic uncertainties encompass several com-               from the decay of 73 As due to cosmogenic background
+ponents, including the exposure uncertainty (< 2%), un-              radiation when the detectors were on the surface [16].
+certainty associated with the DC cuts (< 0.1%), uncer-               Due to the high number of 73m Ge events observed in the
+tainty related to the PSD cuts (< 5%), uncertainty aris-             Demonstrator, our sensitivity to identify tri-nucleon
+ing from the simulation model (2%), and the statistical              decays using the same algorithm as GERDA is signifi-
+uncertainty of the simulated efficiencies (< 1%). Since              cantly reduced.
+                                                                                                                               6
+
+   In this study, the Demonstrator achieves the                   dation through grant numbers MRI-0923142, PHY-
+most stringent partial lifetime limit for the process of          1003399, PHY-1102292, PHY-1206314, PHY-1614611,
+76
+   Ge(ppp) → 73 Cu e+ π + π + and 76 Ge(ppn) → 73 Zn e+ π +       PHY-13407204, PHY-1812409, and PHY-2209530. We
+to date at 1.83 × 1026 years. LEGEND-1000 (Large En-              gratefully acknowledge the support of the Laboratory
+riched Germanium Experiment for Neutrinoless ββ De-               Directed Research & Development (LDRD) program at
+cay) [42], the forthcoming generation of ton-scale germa-         Lawrence Berkeley National Laboratory for this work.
+nium experiment, aims to reach an exposure of approx-             We gratefully acknowledge the support of the U.S. De-
+imately 104 kg yr. It is anticipated that LEGEND will             partment of Energy through the Los Alamos National
+significantly improve the current tri-nucleon decay limits        Laboratory LDRD Program, the Oak Ridge National
+by at least two orders of magnitude, potentially extend-          Laboratory LDRD Program, and the Pacific Northwest
+ing the limit to 1028 yr and beyond.                              National Laboratory LDRD Program for this work. This
+   This material is based upon work supported by the              research used resources provided by the Oak Ridge Lead-
+U.S. Department of Energy, Office of Science, Office of           ership Computing Facility at Oak Ridge National Lab-
+Nuclear Physics under contract / award numbers DE-                oratory and by the National Energy Research Scientific
+AC02-05CH11231, DE-AC05-00OR22725, DE-AC05-                       Computing Center, a U.S. Department of Energy Office
+76RL0130, DE-FG02-97ER41020, DE-FG02-97ER41033,                   of Science User Facility. We thank our hosts and col-
+DE-FG02-97ER41041, DE-SC0012612, DE-SC0014445,                    leagues at the Sanford Underground Research Facility
+DE-SC0017594, DE-SC0018060, DE-SC0022339, and                     for their support.
+LANLEM77/LANLEM78.              We acknowledge support               Data availability. The data that support the findings
+from the Particle Astrophysics Program and Nu-                    of this article are openly available [43], embargo periods
+clear Physics Program of the National Science Foun-               may apply.
+
+
+
+
+  a
+     pchu@lanl.gov                                                     200, Phys. Rev. D, 97(7):072007, 2018.
+  b
+     Present address: Indiana University, Bloomington, IN         [12] R. Hazama, H. Ejiri, K. Fushimi, and H. Ohsumi. Limits
+     47405, USA                                                        on single- and multinucleon decays in I-127 by inclusive
+   c
+     Present address: Pacific Northwest National Laboratory,           measurements of nuclear gamma and x rays, Phys. Rev.
+     Richland, WA 99354, USA                                           C, 49:2407–2412, 1994.
+ [1] A. D. Sakharov. Violation of CP Invariance, C asymme-        [13] Julian Heeck and Volodymyr Takhistov. Inclusive Nu-
+     try, and baryon asymmetry of the universe, Pisma Zh.              cleon Decay Searches as a Frontier of Baryon Number
+     Eksp. Teor. Fiz., 5:32–35, 1967. [Sov. Phys. Usp. 34,             Violation, Phys. Rev. D, 101(1):015005, 2020.
+     392 (1991)]                                                  [14] S. I. Alvis et al., Search for trinucleon decay in the Ma-
+ [2] K. S. Babu et al.,            Baryon Number Violation,            jorana Demonstrator, Phys. Rev. D, 99(7):072004,
+     arXiv:1311.5285.                                                  2019.
+ [3] P. S. B. Dev et al., Searches for Baryon Number Violation    [15] M. Agostini et al., Search for tri-nucleon decays of 76 Ge
+     in Neutrino Experiments: A White Paper, J. Phys. G:               in GERDA, Eur. Phys. J. C, 83(9):778, 2023.
+     Nucl. Part. Phys., 51, 033001 (2024).                        [16] I. J. Arnquist et al., Signatures of muonic activation
+ [4] Pavel Fileviez Perez et al., On Baryon and Lepton Num-            in the Majorana Demonstrator, Phys. Rev. C,
+     ber Violation, arXiv:2208.00010.                                  105(1):014617, 2022.
+ [5] K. Abe et al., Search for proton decay via p → e+ π 0 and    [17] K. S. Babu et al., |∆B| = 2: A State of the Field, and
+     p → µ+ π 0 in 0.31 megaton·years exposure of the Super-           Looking Forward–A brief status report of theoretical and
+     Kamiokande water Cherenkov detector, Phys. Rev. D,                experimental physics opportunities, arXiv:2010.02299.
+     95(1):012004, 2017.                                          [18] N. Abgrall et al., The Majorana Demonstrator Neu-
+ [6] V. Takhistov et al., Search for Nucleon and Dinucleon             trinoless Double-Beta Decay Experiment, Adv. High
+     Decays with an Invisible Particle and a Charged Lepton            Energy Phys., 2014:365432, 2014.
+     in the Final State at the Super-Kamiokande Experiment,       [19] N. Abgrall et al., The Majorana Demonstrator
+     Phys. Rev. Lett., 115(12):121803, 2015.                           experiment’s construction, commissioning, and perfor-
+ [7] J. Gustafson et al., Search for dinucleon decay into pions        mance, arXiv:2501.02060.
+     at Super-Kamiokande, Phys. Rev. D, 91(7):072009,             [20] Jaret Heise. The Sanford Underground Research Facility,
+     2015.                                                             arXiv.2203.08293.
+ [8] K. S. Babu, Ilia Gogoladze, and Kai Wang. Gauged             [21] P. S. Barbeau, J. I. Collar, and O. Tench. Large-Mass
+     baryon parity and nucleon stability, Phys. Lett. B,               Ultra-Low Noise Germanium Detectors: Performance
+     570:32–38, 2003.                                                  and Applications in Neutrino and Astroparticle Physics,
+ [9] B.L.G. Bakker, A.I. Veselov, and M.A. Zubkov. A hidden            J. Cosmol. Astropart. Phys., 09:009, 2007.
+     symmetry in the standard model, Physics Letters B,           [22] N. Abgrall et al., Muon Flux Measurements at the Davis
+     583(3–4):379–382, March 2004.                                     Campus of the Sanford Underground Research Facility
+[10] R. Bernabei et al., Search for rare processes with                with the Majorana Demonstrator Veto System, As-
+     DAMA/LXe experiment at Gran Sasso, Eur. Phys. J.                  tropart. Phys., 93:70–75, 2017.
+     A, 27(S1):35–41, 2006.                                       [23] E. W. Hoppe, C. E. Aalseth, O. T. Farmer, T. W. Hoss-
+[11] J. B. Albert et al., Search for nucleon decays with EXO-          bach, M. Liezers, H. S. Miley, N. R. Overman, and J. H.
+                                                                                                                                   7
+
+     Reeves. Reduction of radioactive backgrounds in elec-             ray tracking and imaging, Nucl. Instrum. Methods
+     troformed copper for ultra-sensitive radiation detectors,         Phys. Res. A, 665:25–32, 2011.
+     Nucl. Instrum. Methods Phys. Res. A, 764:116–                [34] Canberra Industries Inc. (now Mirion Technologies),
+     121, 2014.                                                        800 Research Parkway Meriden, CT 06450, informa-
+[24] N. Abgrall et al., The Majorana Demonstrator ra-                  tion available at https://www.mirion.com/products/
+     dioassay program, Nucl. Instrum. Methods Phys.                    bege-broad-energy-germanium-detectors, 2023, ac-
+     Res. A, 828:22–36, 2016.                                          cessed on October 27, 2023.
+[25] N. Abgrall et al., The Majorana Demonstrator read-           [35] I. J. Arnquist et al., Final Result of the Majorana
+     out electronics system, J. Inst., 17(05):T05003, 2022.            Demonstrator’s Search for Neutrinoless Double-β De-
+[26] S. I. Alvis et al., Multisite event discrimination for            cay in 76 Ge, Phys. Rev. Lett., 130(6):062501, 2023.
+     the Majorana Demonstrator,              Phys. Rev. C,        [36] The semi-inclusive visible mode is called the decay-
+     99(6):065501, 2019.                                               specific mode in Ref. [14].
+[27] I. J. Arnquist et al., α-event characterization and rejec-   [37] The fully inclusive mode is called the invisible mode in
+     tion in point-contact HPGe detectors, Eur. Phys. J. C,            Ref. [14].
+     82(3):226, 2022.                                             [38] Gary J. Feldman and Robert D. Cousins, Unified ap-
+[28] N. Abgrall et al., ADC Nonlinearity Correction for the            proach to the classical statistical analysis of small signals,
+     Majorana Demonstrator, IEEE Trans. Nucl. Sci.,                    Phys. Rev. D, 57:3873–3889, 1998.
+     68(3):359–367, 2021.                                         [39] ENSDF Database, version available at http://www.
+[29] I. J. Arnquist et al., Charge trapping correction and             nndc.bnl.gov, 2023, accessed on October 27, 2023.
+     energy performance of the Majorana Demonstrator,             [40] Melissa Boswell et al., MaGe-a Geant4-based Monte
+     Phys. Rev. C, 107(4):045503, 2023.                                Carlo Application Framework for Low-background Ger-
+[30] N. Abgrall et al., The Majorana Demonstrator cali-                manium Experiments.          IEEE Trans. Nucl. Sci.,
+     bration system, Nucl. Instrum. Methods Phys. Res.                 58:1212–1220, 2011.
+     A, 872:16–22, 2017.                                          [41] There were two sequences (Sequence 1 and 2) as shown
+[31] I. J. Arnquist et al., Energy calibration of germanium            in Table II of Ref. [14]. In this study, Sequence 1 was
+     detectors for the Majorana Demonstrator, J Inst.,                 excluded due to AvsE and LQ cuts, while Sequence 2
+     18(09):P09023, 2023.                                              was excluded based on the AvsE cut. The new case in-
+[32] P. N. Luke, F. S. Goulding, N. W. Madden, and R.H.                troduced in this study is part of the updated dataset.
+     Pehl, Low capacitance large volume shaped-field ger-         [42] N. Abgrall et al., The Large Enriched Germanium Ex-
+     manium detector, IEEE Transactions on Nuclear                     periment for Neutrinoless ββ Decay: LEGEND-1000 Pre-
+     Science, 36(1):926–930, 1989.                                     conceptual Design Report, 7 2021. arxiv:2107.11462
+[33] R. J. Cooper, D. C. Radford, P. A. Hausladen, and            [43] I. J. Arnquist et al., Majorana Demonstrator Data
+     K. Lagergren, A novel HPGe detector for gamma-                    Release for AI/ML Applications, arxiv:2308.10856, zen-
+                                                                       odo.8257027
+

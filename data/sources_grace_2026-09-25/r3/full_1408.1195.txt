@@ -1,0 +1,1041 @@
+                                                Search for Proton Decay via p → νK + using 260 kiloton·year data of Super-Kamiokande
+                                           K. Abe,1, 26 Y. Hayato,1, 26 K. Iyogi,1 J. Kameda,1, 26 M. Miura,1, 26 S. Moriyama,1, 26 M. Nakahata,1, 26 S. Nakayama,1, 26
+                                           R. A. Wendell,1, 26 H. Sekiya,1, 26 M. Shiozawa,1, 26 Y. Suzuki,1, 26 A. Takeda,1, 26 Y. Takenaga,1 K. Ueno,1 T. Yokozawa,1
+                                               H. Kaji,2 T. Kajita,2, 26 K. Kaneyuki,2, 26, ∗ K. P. Lee,2 K. Okumura,2 T. McLachlan,2 L. Labarga,3 E. Kearns,4, 26
+                                                J. L. Raaf,4 J. L. Stone,4, 26 L. R. Sulak,4 M. Goldhaber,5, ∗ K. Bays,6 G. Carminati,6 W. R. Kropp,6 S. Mine,6
+                                            A. Renshaw,6 M. B. Smy,6, 26 H. W. Sobel,6, 26 K. S. Ganezer,7 J. Hill,7 W. E. Keig,7 J. S. Jang,8 J. Y. Kim,8 I. T. Lim,8
+                                                 J. B. Albert,9 K. Scholberg,9, 26 C. W. Walter,9, 26 T. Wongjirad,9 T. Ishizuka,10 S. Tasaka,11 J. G. Learned,12
+                                            S. Matsuno,12 S. N. Smith,12 T. Hasegawa,13 T. Ishida,13 T. Ishii,13 T. Kobayashi,13 T. Nakadaira,13 K. Nakamura,13, 26
+                                            K. Nishikawa,13 Y. Oyama,13 K. Sakashita,13 T. Sekiguchi,13 T. Tsukamoto,13 A. T. Suzuki,14 Y. Takeuchi,14 K. Ieki,15
+                                                  M. Ikeda,15 H. Kubo,15 A. Minamino,15 A. Murakami,15 T. Nakaya,15, 26 Y. Fukuda,16 K. Choi,17 Y. Itow,17
+                                              G. Mitsuka,17 M. Miyake,17 P. Mijakowski,29 J. Hignight,18 J. Imber,18 C. K. Jung,18 I. Taylor,18 C. Yanagisawa,18
+
+
+
+
+arXiv:1408.1195v1 [hep-ex] 6 Aug 2014
+                                           H. Ishino,19 A. Kibayashi,19 Y. Koshio,19 T. Mori,19 M. Sakuda,19 J. Takeuchi,19 Y. Kuno,20 S. B. Kim,21 H. Okazawa,22
+                                            Y. Choi,23 K. Nishijima,24 M. Koshiba,25 Y. Totsuka,25, ∗ M. Yokoyama,25, 26 K. Martens,26 Ll. Marti,26 Y. Obayashi,26
+                                               M. R. Vagins,26, 6 S. Chen,27 H. Sui,27 Z. Yang,27 H. Zhang,27 K. Connolly,28 M. Dziomba,28 and R. J. Wilkes28
+                                                                                      (The Super-Kamiokande Collaboration)
+                                                      1 Kamioka Observatory, Institute for Cosmic Ray Research, University of Tokyo, Kamioka, Gifu 506-1205, Japan
+                                             2 Research Center for Cosmic Neutrinos, Institute for Cosmic Ray Research, University of Tokyo, Kashiwa, Chiba 277-8582, Japan
+                                                                 3 Department of Theoretical Physics, University Autonoma Madrid, 28049 Madrid, Spain
+                                                                          4 Department of Physics, Boston University, Boston, MA 02215, USA
+                                                                       5 Physics Department, Brookhaven National Laboratory, Upton, NY 11973, USA
+                                                           6 Department of Physics and Astronomy, University of California, Irvine, Irvine, CA 92697-4575, USA
+                                                              7 Department of Physics, California State University, Dominguez Hills, Carson, CA 90747, USA
+                                                                      8 Department of Physics, Chonnam National University, Kwangju 500-757, Korea
+                                                                             9 Department of Physics, Duke University, Durham NC 27708, USA
+                                                                  10 Junior College, Fukuoka Institute of Technology, Fukuoka, Fukuoka 811-0295, Japan
+                                                                           11 Department of Physics, Gifu University, Gifu, Gifu 501-1193, Japan
+                                                                 12 Department of Physics and Astronomy, University of Hawaii, Honolulu, HI 96822, USA
+                                                               13 High Energy Accelerator Research Organization (KEK), Tsukuba, Ibaraki 305-0801, Japan
+                                                                         14 Department of Physics, Kobe University, Kobe, Hyogo 657-8501, Japan
+                                                                        15 Department of Physics, Kyoto University, Kyoto, Kyoto 606-8502, Japan
+                                                                16 Department of Physics, Miyagi University of Education, Sendai, Miyagi 980-0845, Japan
+                                                              17 Solar Terrestrial Environment Laboratory, Nagoya University, Nagoya, Aichi 464-8602, Japan
+                                                        18 Department of Physics and Astronomy, State University of New York at Stony Brook, NY 11794-3800, USA
+                                                                    19 Department of Physics, Okayama University, Okayama, Okayama 700-8530, Japan
+                                                                        20 Department of Physics, Osaka University, Toyonaka, Osaka 560-0043, Japan
+                                                                           21 Department of Physics, Seoul National University, Seoul 151-742, Korea
+                                                      22 Department of Informatics in Social Welfare, Shizuoka University of Welfare, Yaizu, Shizuoka, 425-8611, Japan
+                                                                        23 Department of Physics, Sungkyunkwan University, Suwon 440-746, Korea
+                                                                    24 Department of Physics, Tokai University, Hiratsuka, Kanagawa 259-1292, Japan
+                                                                                 25 The University of Tokyo, Bunkyo, Tokyo 113-0033, Japan
+                                                                      26 Kavli Institute for the Physics and Mathematics of the Universe (WPI), Todai
+                                                                   Institutes for Advanced Study, University of Tokyo, Kashiwa, Chiba 277-8582, Japan
+                                                                    27 Department of Engineering Physics, Tsinghua University, Beijing, 100084, China
+                                                                    28 Department of Physics, University of Washington, Seattle, WA 98195-1560, USA
+                                                                             29 National Centre For Nuclear Research, 00-681 Warsaw, Poland
+                                                                                                  (Dated: August 7, 2014)
+                                                         We have searched for proton decay via p → νK + using Super-Kamiokande data from April 1996 to February
+                                                       2013, 260 kiloton·year exposure in total. No evidence for this proton decay mode is found. A lower limit of the
+                                                       proton lifetime is set to τ/B(p → νK + ) > 5.9 × 1033 years at 90% confidence level.
+
+                                                       PACS numbers: 12.10.Dm,13.30.-a,12.60.Jv,11.30.Fs,29.40.Ka
+
+
+                                                                                                                                        I. INTRODUCTION
+
+
+                                        ∗ Deceased.                                                                   The standard model of particle physics, based on SU(3) for
+                                                                                                                    the strong interaction and the unification of SU(2) × U(1) for
+                                                                                                                    the electroweak interaction, has been successful in accounting
+                                                                                                                                            2
+
+for many experimental results. However, the standard model                      Live days kton·yr Coverage Note
+offers no guidance on the unification of the strong and elec-          SK-I       1489.2      91.7     40%
+troweak forces, and has many other open questions. Various
+                                                                       SK-II       798.6      49.2     19%      Half PMT density
+attempts have been made to resolve the shortcomings by uni-
+fying the strong and electroweak interactions in a single larger       SK-III      518.1      31.9     40%
+gauge group, i.e. a Grand Unified Theory (GUT) [1]. GUTs               SK-IV      1417.4      87.3     40%      New readout electronics
+are motivated by the apparent convergence of the running cou-
+plings of the strong, weak, and electromagnetic forces at a             TABLE I: Summary of data sets that are used in this paper.
+high energy scale (1015 − 1016 GeV). Energy scales this large
+are out of the reach of accelerators but may be probed by vir-
+tual processes such as those that govern particle decay. A gen-
+eral feature of GUTs is the instability of nucleons by baryon       water equivalent underground) to reduce cosmic ray back-
+number violating decay. Nucleon decay experiments are di-           ground. The detector is optically separated into two regions:
+rect experimental tests of the general idea of grand unification.   inner detector (ID) and outer detector (OD). Cherenkov light
+   In GUTs, nucleon decay can proceed via exchange of               in the ID is detected by 20-inch PMTs [14] facing inward,
+a massive gauge boson between two quarks. The favored               evenly covering the cylindrical inner surface. Cherenkov light
+gauge-mediated decay mode in many GUTs is p → e+ π0 .               from penetrating particles, usually cosmic ray muons or exit-
+In the minimal SU(5) GUT, the predicted proton lifetime to          ing muons, is detected by 8-inch PMTs facing outward. The
+e+ π0 is 1031±1 years, which has been ruled out by experi-          fiducial volume is defined as a cylindrical volume with sur-
+mental results from IMB [2], Kamiokande [3], and Super-             faces 2 meters inwards from the ID PMT plane. The fiducial
+Kamiokande [4]. GUT models incorporating supersymme-                mass is 22.5 ktons, corresponding to 7.5 × 1033 protons.
+try [6] (SUSY-GUTs) raise the GUT scale [7], suppressing               Super-Kamiokande started observation in April 1996 with
+the decay rate of p → e+ π0 , thereby allowing compatibility        11,146 PMTs which covered 40% of the ID surface. The
+with the experimental limit. However, SUSY-GUTs introduce           observation was continued until July 2001, with 1489.2 live
+dimension five operators that enable the mode p → νK + to           days, or equivalently, 91.7 kton·years. This period is called
+have a high branching fraction and short partial lifetime [8].      Super-Kamiokande-I (SK-I). After an accident in 2001, about
+In the SUSY SU(5) GUT with minimal assumptions and TeV              half of the ID PMTs were lost and the detector was recon-
+scale SUSY particles, the partial proton lifetime to νK + is        structed with 5,182 ID PMTs uniformly distributed over the
+less than 1031 years [9], which has also been excluded by           cylindrical surface decreasing photo coverage to 19%. The
+previously published experimental constraints [2, 3, 5]. Non-       PMTs were thereafter enclosed in acrylic and FRP cases. The
+minimal SUSY SU(5) GUTs [11] or SUSY GUTs based on                  period from December 2002 until October 2005, correspond-
+SO(10) [12] have been constructed that evade this limit, yet        ing to 798.6 live days (49.2 kton·years), is called SK-II. Af-
+still predict partial lifetimes in the range 1032 to 1035 years,    ter production and installation of replacement 20-inch PMTs,
+with some particular models that require the lifetime be less       the photo coverage was recovered to 40% in 2006. The pe-
+than a few times 1034 years. The low ends of the lifetime           riod between July 2006 and September 2008, corresponding
+predictions by these models are probed by this experimental         to 518.1 live days (31.9 kton·years), is defined as SK-III. In
+search.                                                             the summer of 2008, we upgraded our electronics with im-
+   In this paper, our search is for the two-body decay of proton    proved performance including a data acquisition that records
+to a K + and a neutrino. In most models, (B − L) is conserved       all PMT hit information without dead time [15]. This has been
+and the final state contains an anti-neutrino; however we do        the configuration of the detector since September 2008; it is
+not detect the neutrino and cannot distinguish p → νK + from        called SK-IV. In this paper, we use data until February 2013,
+p → νK + , nor can we determine the flavor (e, µ, or τ) of the      corresponding to 1417.4 live days (87.3 kton·years). Table I
+neutrino. In fact, our search can be applied to any nearly mass-    summarizes the data sets used for the proton decay search in
+less neutral final-state particle such as a gravitino or axino.     this paper.
+   The Super-Kamiokande collaboration published a search               The trigger to record an event is based on the coincidence
+for p → νK + with 91.7 kton·years exposure of the first phase       of the number of hit PMTs exceeding a threshold. For SK
+of the experiment, and set a partial lifetime limit τ(p →           I-III, the trigger was implemented in hardware using a sig-
+νK + ) > 2.3 × 1033 years [10]. In this paper, we refine the        nal proportional to the number of hit PMTs produced by each
+analysis and update the search with 2.8 times greater detector      front-end electronics module. For SK-IV, the trigger is imple-
+exposure including later phases of the experiment.                  mented in software. The trigger threshold is less than 10 MeV
+                                                                    for all SK periods, and the trigger efficiency for this proton
+                                                                    decay mode is 100%1.
+                                                                       The charge and timing of the PMTs are calibrated using var-
+          II.   SUPER-KAMIOKANDE DETECTOR
+                                                                    ious calibration sources [16]. The timing resolution of the 20-
+
+   Super-Kamiokande [13] is a large water Cherenkov detec-
+tor. It is an upright cylinder in shape, 39 m in diameter and
+40 m in height, and it contains 50 kton of pure water. It lies      1 For the case of prompt gamma tag (Method 1), with gamma energy typi-
+
+about 1,000 m underneath the top of Mt. Ikenoyama (2,700 m            cally 6 MeV, the muon from K + decay can provide the event trigger.
+                                                                                                                                                     3
+
+inch PMT is about 2.1 nsec at the single photo-electron level.     for K + decay at rest into µ+ νµ (64% branching fraction) and
+The PMT response, water quality, and reflections from the de-      π+ π0 (21% branching fraction).
+tector wall are tuned in the SK detector simulation program
+using injected light as well as various control data samples
+such as cosmic ray muons.
+                                                                                                4
+                                                                                           10
+
+
+
+
+                                                                        Number of events
+                                                                                                3
+                     III.   SIMULATION                                                     10
+
+
+                                                                                                2
+                                                                                           10
+   To determine selection criteria for the proton decay search,
+and to estimate efficiencies and background rates, we use pro-                             10
+ton decay and atmospheric neutrino Monte Carlo (MC) simu-                                       400         600              800              1000
+lations. Because the configuration of the detector is different                                         Invariant proton mass in
+                                                                                                                                   16
+                                                                                                                                    O
+in SK-I through IV, we generated MC samples for each pe-                                   10
+                                                                                                4
+
+
+
+
+                                                                        Number of events
+riod. Proton decay MC samples with 50,000 events are gen-
+erated in an oversized volume which is 1 meter outside the                                 10
+                                                                                                3
+
+fiducial volume boundary, and therefore 1 meter from the de-
+tector wall. This allows us to include event migration near the                            10
+                                                                                                2
+
+fiducial boundary in our estimates. The selection efficiency
+is defined as the number of events fulfilling all requirements                             10
+divided by number of generated events in the fiducial volume.                                       0     200          400              600
+                                                                                                            +
+The MC equivalent of 500 years of atmospheric neutrino ex-                                                K momentum (MeV/c)
+posure are generated for each period. These atmospheric neu-
+trino MC samples are used for our studies of neutrino oscilla-
+tions [17]. Because the background rates for the proton decay      FIG. 1: (color online) The upper figure shows the decaying proton
+studied in this paper are small (less than one event for the en-   mass distribution in 16 O and the lower figure shows the K + mo-
+tire exposure for two of the analysis techniques), these large     mentum distribution from the simulation of p → νK + . In the upper
+                                                                   figure, the single-bin histogram shows the free proton case and the
+MC background samples provide fewer than 40 atmospheric
+                                                                   broad histogram shows the bound proton case. The rightmost peak
+neutrino events that survive the proton decay selection crite-     in the bound proton case corresponds to the p-state, located slightly
+ria.                                                               lower than the proton mass by 15.5 MeV of binding energy; the sec-
+                                                                   ond rightmost peak is the s-state (39 MeV in binding energy). The
+                                                                   correlated nucleon decay makes the longer tail in the lower mass re-
+                      A.    Proton Decay                           gion. In the lower figure, the single-bin histogram shows the free
+                                                                   proton case (339 MeV/c) and the broad histogram shows the bound
+                                                                   proton case which is smeared by Fermi motion.
+   A water molecule contains two free protons and eight pro-
+tons bound in the oxygen nucleus. In the decay of a free pro-
+ton, the ν and the K + are emitted opposite each other with
+momenta of 339 MeV/c. In the case of proton decay in oxy-
+gen, Fermi momentum, correlation with other nucleons, nu-             The position of the decaying proton in 16 O is calculated
+clear binding energy, and kaon-nucleon interactions are taken      according to the Woods-Saxon nuclear density model [20].
+into account as described below.                                   The kaon nucleon interactions which are considered include
+   We use the Fermi momentum and nuclear binding energy            elastic scattering and inelastic scattering via charge exchange.
+measured by electron-12C scattering [18]. Nuclear binding          The type of interaction is determined using the calculated
+energy is taken into account by modifying the proton mass.         mean free path [21]. For kaons, whose momenta are de-
+Ten percent of decaying protons are estimated to have wave         scribed by Fig. 1, the probability of charge exchange for K +
+functions which are correlated with other nucleons within the      in p → νK + is 0.14%.
+nucleus [19]. These correlated decays cause the total invariant       If a nucleon decays in the oxygen nucleus, the remain-
+mass of the decay products to be smaller than the proton mass      ing nucleus can be left in an excited state from which it
+because of the momentum carried by the correlated nucleons.        promptly de-excites by the emission of gamma rays. The
+Figure 1 shows the invariant mass of the products of the de-       prompt gamma emission processes are simulated based on ref-
+caying proton, K + and ν and the resulting kaon momenta af-        erence [23]. The dominant gamma ray is 6.3 MeV from the
+ter the simulation of the proton decay for both bound and free     p3/2 state with 41% branching fraction. The probabilities of γ
+protons. Correlated decays produce the broad spectrum below        emission in this simulation are summarized in Table II. Other
+about 850 MeV/c2 . In our experiment, the kaon momentum is         states emitting low energy gamma rays are averaged and as-
+unobserved because the kaon is always produced below the           signed 3.5 MeV γ emission. Nuclear decay into states that
+Cherenkov threshold of 749 MeV/c in water. The majority of         emit protons or neutrons and nuclear decay into the ground
+K + (89%) are stopped in water and decay at rest. We search        state are taken to have no γ ray emission.
+                                                                                                                                            4
+
+         State                   Energy of γ Probability
+                                                                              0.06
+         p3/2                      6.3 MeV         41%
+                                                                              0.05       ν + n → l- + Λ + K+
+         p3/2                      9.9 MeV          3%
+         s1/2                     7.03 MeV          2%                 cm)    0.04
+                                                                      -38     0.03
+
+                                                                      σ (10
+         s1/2                     7.01 MeV          2%
+                                                                              0.02
+         others                    3.5 MeV         16%                                            ν + n → ν + Λ + K0
+                                                                              0.01
+         Other than γ emission                                                                            ν + p → ν + Λ + K+
+                                                                                0
+         p/n emission                     -        11%                               0   1   2    3   4    5       6   7       8   9   10
+
+         ground state                     -        25%                      0.035
+                                                                              0.03
+                                                                                             _
+TABLE II: Summary of probabilities of nuclear γ ray emissions at            0.025            ν + p → l+ + Λ + K0
+                                                                       cm)
+the de-excitation of the remaining nucleus.                           -38
+                                                                              0.02
+
+
+                                                                      σ (10
+                                                                            0.015
+                                                                                                      _            _
+                                                                              0.01                    ν + n → ν + Λ + K+
+                                                                            0.005                              _           _
+                                                                                                               ν + p → ν + Λ + K+
+                  B. Atmospheric Neutrinos                                      0
+                                                                                     0   1   2    3   4    5       6   7       8   9   10
+                                                                                                 Neutrino Energy (GeV)
+
+   The SK standard atmospheric neutrino MC used in the
+previous neutrino oscillation analyses [17] and proton decay       FIG. 2: (color online) Cross sections of the single K-meson produc-
+searches [4, 10, 24, 25] is used in this analysis. It is based     tions via resonances calculated by NEUT. Upper plots show neutrino
+on the Honda atmospheric neutrino flux [26] and NEUT [21]          interactions and lower show anti-neutrino interactions.
+neutrino-nucleus interaction model. Some neutrino interac-
+tions which produce K mesons via resonances could be poten-
+tial background sources for p → νK + search. Cross sections
+of the single meson production via resonances are calculated         IV. DATA SET, REDUCTION AND RECONSTRUCTION
+based on Rein and Sehgal’s theory [22]. In NEUT, the neu-
+trino reactions:                                                     The vast majority of the triggered events are cosmic ray
+                                                                   muons and low energy backgrounds from the radioactivity of
+                                                                   materials around the detector wall. Several stages of data re-
+                                                                   duction were applied to the events before proceeding to fur-
+                        ν n → l− Λ K+                              ther detailed event reconstruction processes. Details of the
+                        ν n → ν Λ K0                               data reduction and reconstruction can be found in [17].
+                                                                     The fully contained (FC) data sample in the fiducial volume
+                        ν p → ν Λ K+
+                                                                   (FV) is defined by the following cuts:
+                        ν p → l+ Λ K0
+                                                                        • number of hit PMTs in the largest OD hit cluster is less
+                        ν n → ν Λ K0
+                                                                          than 10 for SK-I and 16 for other period.
+                        ν p → ν Λ K+
+                                                                        • total visible energy is greater than 30 MeV in ID
+
+are taken into account assuming the same cross section both             • distance of the reconstructed vertex from the ID PMT
+for νe and νµ . The differential cross sections are shown in              surface is greater than 2 meters (corresponding to
+Fig. 2.                                                                   22.5 kton of water volume)
+   We simulate propagation of the produced particles and           The rate of FCFV events is about 8 events per day. The con-
+Cherenkov light in water by custom code based on                   tamination of events other than atmospheric neutrinos is esti-
+GEANT3 [27]. The propagation of charged pions in water             mated to be less than 1% and composed of cosmic rays that
+is simulated by custom code based on Ref. [28] for less than       evaded the OD veto and events caused by flashing PMTs.
+500 MeV/c and by GCALOR [29] for more than 500 MeV/c.                 Reconstruction algorithms are applied to the events remain-
+   The equivalent of 500 years of SK atmospheric neutrino          ing after the reduction process to determine the event vertex,
+data is simulated for each SK run period. The generated at-        the number of Cherenkov rings, the particle type of each ring,
+mospheric neutrino samples are weighted to include the ef-         the momentum assigned to each ring, and number of Michel
+fect of νµ disappearance due to νµ -ντ oscillation assuming        electrons. As a first step, the event vertex is defined as the
+∆m2 = 2.5 × 10−3 eV2 and sin2 2θ = 1.0, ignoring the appear-       point at which the timing distribution, after subtraction of the
+ance of νe or ντ as a possible background. The final back-         calculated time of flight of the photon from the vertex (TOF
+ground event rates for each period are normalized by the ob-       subtraction), has the sharpest peak. The dominant ring direc-
+served total sub-GeV event rate.                                   tion is determined from the charge distribution as a function
+                                                                                                                                    5
+
+of angle. Then other ring candidates are searched for using          of K + production, look for single muon events with a de-
+the Hough transform method [30], a technique for extracting          excitation γ ray just before the time of the muon; (Method
+a particular shape from an image, assuming all particles are         2) search for an excess of muon events with a momentum
+generated in one vertex. Each ring candidate is tested against       of 236 MeV/c in the momentum distribution; and (Method 3)
+a likelihood function to remove fake rings before determin-          search for π+ π0 events with a momentum of 205 MeV/c.
+ing the final number of rings. Each ring is classified as e-like
+(showering type as from e±, , γ) or µ-like (non-showering type)
+based on a likelihood using the ring pattern and Cherenkov                A. Method 1: K + → µ+ ν, tag by prompt gamma ray
+opening angle for single ring case, and only ring pattern for
+multi-ring case.                                                        If this proton decay happens, the Super-K detector should
+   Michel electrons from the decay of the µ± are tagged by           observe a single µ-like ring preceded by PMT hits due to a
+searching for clusters of in-time hits after the primary event.      nuclear deexcitation gamma ray. Figure 3 shows a graphical
+During the SK-I to SK-III periods, there was an impedance            event display of the PMT hit pattern for an example event,
+mismatch between cables and electronics which caused a sig-          as a Monte Carlo simulation of the proton decay. A prompt
+nal reflection at 1000 ns after the main event. The time period      gamma ray, a muon, and a Michel electron peak should be
+between 800 ns and 1200 ns from the primary events was ex-           observed in order, as seen in another example in Fig. 4, where
+cluded for the decay electron search due to this signal reflec-      the time of each particle is labeled as used in the analysis. To
+tion. For SK-IV, the new electronics have better impedance           search for events tagged by the prompt gamma ray, single-ring
+matching to avoid signal reflection, and no such exclusion is        µ-like events are selected by requiring the following criteria:
+required. As a result, the tagging efficiency of decay electrons
+from µ+ with momentum of 236 MeV/c has been improved                 (A-1) a fully contained event with one non-showering (µ-like)
+from 85% (SK-I, II, and III) to 99% (SK-IV), which improves                ring,
+the selection efficiency for p → νK + .
+                                                                     (A-2) there is one Michel decay electron,
+   The momentum for each ring is decided from the charge
+spatially inside of 70◦ from the ring direction and temporally       (A-3) the reconstructed muon momentum is between 215 and
+from −50 nsec to +250 nsec around the TOF-subtracted main                  260 MeV/c,
+event peak. The number of photoelectrons from each PMT are
+corrected by light attenuation in water, PMT acceptance, dark        (A-4) the distance between the vertices of the muon and the
+noise, time variation of gain, and track length in the case of             Michel electron is less than 200 cm,
+µ-like rings. If a Michel electron is within 250 nsec of the par-
+ent particle, the time window for momentum determination             (A-5) the TOF-subtracted timing distribution for the muon
+is shortened and the charge sum is corrected from the nomi-                vertex is required to have a minimum goodness-of-fit
+nal +250 nsec case. The momentum scale is checked by cos-                  (> 0.6),
+mic ray muons, Michel electrons from the cosmic ray muons            (A-6) the pattern of the single non-showering ring is more
+which stop in the inner detector, and also the invariant mass              likely to be a muon than a proton: L pr − Lµ < 0, L pr , Lµ
+distributions of π0 events produced in atmospheric neutrino                are likelihood functions assuming a proton and a muon,
+interactions. The uncertainty on the momentum scale is less                which are described later,
+than 3% for the entire period.
+   An additional precise vertex fitter is applied only for single-   (A-7) gamma hits are found: 8 < Nγ < 60 for SK-I, III, and
+ring events. The expected charge for each PMT is calculated                VI, 4 < Nγ < 30 for SK-II
+using the result of particle identification (e-like or µ-like) and
+using the momentum estimate. The expected charge is com-             (A-8) the time difference from the gamma tag to the kaon
+pared with the observed charge by varying the vertex along                 decay is consistent with the kaon lifetime: tµ − tγ <
+the particle direction. The estimated vertex resolution for FC             75 nsec,
+single-ring sub-GeV events is about 30 cm.                              The cut criteria (A-4) and (A-5) are applied to reject
+                                                                     events with a high momentum recoil proton (above Cherenkov
+                                                                     threshold) accompanied by an invisible muon or charged pion
+                        V.   ANALYSIS                                (below the Cherenkov threshold) which produces a Michel
+                                                                     electron in its decay chain. Since the particle type of the sin-
+   If a proton decays by p → νK + , the K + itself is not visi-      gle non-showering Cherenkov ring is assumed to be that of a
+ble in a water Cherenkov detector since its velocity is below        muon, the vertex accuracy is worse when the Cherenkov ring
+Cherenkov threshold. However, the K + can be identified by           is from a recoil proton. The inaccurate vertex determination
+its decay products in the decay modes K + → µ+ ν and K + →           causes incorrect TOF subtraction of the Cherenkov light. As
+π+ π0 . Being two-body decay processes, the daughter parti-          a result, recoil protons may create a false peak in the time dis-
+cles have monochromatic momentum in the K + rest frame:              tribution of hit PMTs, which can fake a prompt gamma ray.
+236 MeV/c for µ+ νµ and 205 MeV/c for π+ π0 . There are              The event may include Michel electrons from the decay of the
+three established methods for the p → νK + mode search [5]:          invisible muon, but the distance between the misreconstructed
+(Method 1) since the γ ray is promptly emitted at the time           vertex and the Michel electron is typically large.
+                                                                                                                                                                                        6
+
+ Super-Kamiokande IV                                                                                          The proton identification criterion (A-6) is a refinement to
+ D_wall: 1165.1 cm
+ Evis:   53.2 MeV                                                                                          the methods in our previous paper for rejecting single pro-
+ mu-like, p = 231.0 MeV/c
+                                                                                                           ton ring events. It is used for reduction of single proton
+                                                                                                           ring events. The algorithm [31] makes a likelihood func-
+ Resid(ns)
+                                                                                                           tion assuming a muon (Lµ ) and a proton (L pr ) by using the
+       > 182
+    160- 182                                                                                               Cherenkov angle and the width of the Cherenkov ring. Fig-
+    137- 160
+    114- 137
+     91- 114
+                                                                                                           ure 5 shows the likelihood function. The upper figure is for
+     68- 91
+     45- 68
+     22- 45
+                                                                                                           the sample requiring cuts (A-1) through (A-5). Data and MC
+      0- 22
+    -22-   0
+    -45- -22
+                                                                                                           agree well. The lower figure is the same distribution after ap-
+    -68- -45
+    -91- -68                                                                                               plying cuts (A-7) and (A-8) additionally. Background events
+   -114- -91
+   -137--114
+       <-137
+                                                                                                           are efficiently reduced by (A-6).
+
+                                                                      10 1
+                                                                                                                                   70
+                                                                                                                                   60          muon-like            proton-like
+
+
+
+
+                                                                                                                Number of events
+                                                                      10 0
+
+                                                                        -50        0     50    100   150                           50
+                                                                             Residual PMT Hit Time (ns)
+                                                                                                                                   40
+                                                                                                                                   30
+FIG. 3: (color online) An example graphical event display of a simu-
+                                                                                                                                   20
+lated proton decay passing all of the criteria for Method 1. The single
+Cherenkov ring was produced by the muon from kaon decay and fit                                                                    10
+
+with momentum 231 MeV/c. The color of the hit PMTs represents                                                                       0
+                                                                                                                                        -500   -250          0          250       500
+the residual hit time after subtracting the time-of-flight of Cherenkov                                                            10
+light in water from the vertex to the PMT. The hit PMTs associated
+
+
+
+
+                                                                                                                Number of events
+with a 6 MeV prompt gamma are colored cyan. The decay electron
+was detected after the displayed event.                                                                                             1
+
+
+                                                                                                                                        -1
+                                                                                                                                   10
+
+
+                                                                                                                                        -2
+                                                                                                                                   10
+                                                                                                                                        -500   -250          0          250       500
+                                                                                                                                                           Lpr-Lµ
+                           50
+
+
+
+
+          Number of hits
+                           45
+                           40             µ                 Proton decay MC                                FIG. 5: (color online) The likelihood distribution to separate µ and
+                           35                                                                              proton. The negative region is µ-like and positive is proton-like. In
+                           30                               e                                              the upper figure, the atmospheric ν MC (box) is compared with data
+                           25
+                           20                                                                              merging SK-I/III/IV (dot) requiring cuts (A-1) through (A-5), and
+                           15                                                                              they are in good agreement. The lower figure shows the same distri-
+                           10         γ                                                                    butions after γ-tagging cuts; the remaining background is reduced by
+                            5
+                            0                                                                              the likelihood cut.
+                                          0         200         400                    600
+                           40
+                           35                                                                                 After cuts (A-1) through (A-6), a distribution of hits (N)
+
+
+
+          Number of hits
+                           30                              tµ                                              vs. time after TOF subtraction (t) is made. To search for the
+                           25                                                                              prompt gamma ray, three quantities of time must be defined.
+                           20                                                                              The first is tµ , which represents the time associated with the
+                           15
+                                                                                                           detection of the muon, or equivalently, the decay of the kaon.
+                           10
+                                              tγ                                                           The second is t0 , which is the start time to search in the past
+                           5                          t0
+                           0
+                                                                                                           time distribution of hits to find the prompt gamma ray hits.
+                                -50           -25          0            25                    50           The third is tγ , which is the associated time of the gamma
+                                                    T-TOF (nsec)                                           ray detection. PMTs outside of a 50◦ cone with respect to
+                                                                                                           the muon direction are masked and tµ is defined as the time
+                                                                                                           where dN/dt is maximum. The signal of the gamma ray is
+FIG. 4: Number of hits versus hit time for a typical proton decay MC
+event selected by Method 1. In the upper figure, three hit clusters                                        so tiny, compared to the muon, that it can easily be hidden by
+due to prompt γ, µ, and the Michel electron can be seen in order. The                                      muon hits. To avoid this, the gamma finding is started earlier
+lower figure is expanded around the µ-cluster and tγ , t0 , and tµ are                                     than the muon hits. To determine t0 , dN/dt is calculated from
+shown as a demonstration.                                                                                  the muon peak time into the past. Muon hits are dominant
+                                                                                                           while dN/dt > 0, and t0 is defined at the point where dN/dt
+                                                                                                           changes to less than or equal to 0. Then, in the N-versus-t dis-
+                                                                                                           tribution, a time window with 12 nsec width is slid backward
+                                                                                                                                            7
+
+from t0 . The associated time of the gamma ray candidate, tγ ,                  The dominant systematic error for the selection of signal is
+is defined as the middle of the time window where the number                 uncertainty in the de-excitation gamma ray emission probabil-
+of hits in the window is maximum, Nγ .                                       ities. They are estimated to be 15% for the 6.3 MeV gamma
+   Figure 6 shows the Nγ distribution for SK-I, III, and IV in               ray and 30% for the others [23], and they contribute 19% to
+the upper figure and SK-II in the lower figure after all cuts                the overall systematic uncertainty on the selection efficiency.
+except (A-7). An arrow in the figure shows the signal region,                The other systematic uncertainties come from event recon-
+i.e. with cut (A-7) applied; there are no data in this region.               struction: energy scale, particle ID, ring-counting, fiducial
+                                                                             volume, water scattering and attenuation parameters, and they
+                                                                             range in size from 1% to 3%. In total, 22% is the systematic
+                             2
+                        10                                                   error of the selection. The uncertainty in the background rate
+
+
+
+     Number of Events
+                        10
+                                                                             comes from atmospheric neutrino flux and the cross section
+                                                                             of neutrino interactions. The uncertainty in the neutrino flux
+                         1                                                   is conservatively estimated to be 20% [26]. By changing the
+                             -1                                              cross section of charged current quasi-elastic scattering, neu-
+                        10        SK-I/III/IV                                tral current elastic scattering, and single π production interac-
+                        10
+                             -2
+                                                                             tion by ±30%, and the deep inelastic scattering by ±50%, a
+                                                                         2
+                                                                             10% uncertainty in background rate is found. The total sys-
+                                                       10           10
+                                                                             tematic error for the background in Method 1 is estimated to
+                                                                             be 25%.
+
+
+
+     Number of Events
+                        10
+                                                                                There were several improvements in our analysis since our
+                         1
+                                                                             last paper about p → νK + was published in 2005 [10]. As
+                                                                             described in the reconstruction section, the time window for
+                             -1
+                        10        SK-II                                      hits used to calculate momentum is changed if a Michel elec-
+                             -2
+                                                                             tron is closer than 250 nsec from the parent particle. This is a
+                        10                                                   new algorithm which prevents the overestimation of the mo-
+                                                       10           10
+                                                                         2   mentum due to including PMT hits from the Michel electron.
+                                                Number of γ hists            Previously, the vertices of those events tended to be misfit in
+                                                                             the forward direction since the precise fitter used the expected
+                                                                             charge for each PMT based on an overestimated momentum
+FIG. 6: (color online) Number of γ ray hit distributions. The upper          with larger Cherenkov angle. This resulted in more TOF to
+figure shows sum of SK-I, III, and IV which have 40% photo cover-
+                                                                             be subtracted for hits backward of the particle direction and,
+age, the lower figure corresponds to SK-II with 19% photo coverage.
+Dots, squares, and histogram correspond to data, atmospheric ν MC            as a result, it sometimes made fake prompt γ signals in atmo-
+normalized to livetime of data, and proton decay MC with arbitrary           spheric ν interactions. The improvement of the momentum
+normalization, respectively. The signal regions are indicated by ar-         calculation algorithm reduced the atmospheric ν background
+rows. The peaks at small numbers of hits are due to dark hits of the         by a factor of three and eliminated a candidate event in the SK-
+PMTs.                                                                        IV data that would have survived based on the uncorrected al-
+                                                                             gorithm. As a result, the expected background for the gamma-
+                                                                             tag method in SK-I is reduced from the value in the previous
+   Table III show background rate per Megaton·year and ex-
+                                                                             paper 0.7 events, to 0.2 events while maintaining signal effi-
+pected events estimated by atmospheric ν MC, observed
+                                                                             ciency. The new selection criterion (A-6) further rejects 60%
+events in data, and efficiencies evaluated by the proton decay
+                                                                             of the atmospheric background (after all other cuts) while los-
+MC for each reduction step. SK-I, III, and IV which have
+                                                                             ing only 8% efficiency. As a result, the expected background
+40% photo-coverage are merged and results of SK-II with
+                                                                             for Method 1 is greatly reduced, finally to 0.08 events for the
+19% photo-coverage are separately shown.
+                                                                             SK-I period.
+   The selection efficiencies, expected number of background,
+and observed number of events are summarized in Table V.
+The efficiency in SK-IV is higher than the other periods be-
+cause the tagging efficiency for Michel electrons has been im-                  B.   Method 2: K + → µ+ νµ , mono-energetic muon search
+proved thanks to the new electronics described in the detector
+section. The total expected background for 260 kton·year ex-                    Since most of the K + s stop in water, the monoenergetic µ+ s
+posure is 0.4 events, and no events are observed. The domi-                  from kaon decays would lead to an excess peak in the muon
+nant neutrino interaction in the background expectation comes                momentum distribution of atmospheric neutrino background.
+from ∆S = 0 kaon production (48%): νp → νK + Λ, where                        To avoid using the same events as in Method 1, Method 2 re-
+the Λ decays to unobserved proton and π− . If the neutrino                   quires all the criteria in Method 1 except: the requirements in
+interaction is accompanied by de-excitation gamma rays, the                  momentum (A-3) are relaxed to allow a spectrum fit, and the
+event has the same configuration as the proton decay signal.                 gamma hits (A-7) must not be present. We search for an ex-
+The second most prevalent background is νµ charged current                   cess of muon events in the momentum distribution by fitting
+quasi-elastic scattering accompanied by de-excitation gamma                  the data with the proton decay signal expectation over the at-
+rays (25%).                                                                  mospheric neutrino background events. The signal and back-
+                                                                                                                                                    8
+
+                                                             SK-I/III/IV                                      SK-II
+                                 Criterion   Bkg. Rate    Exp. Bkg.    Data   Signal Eff.   Bkg. Rate   Exp. Bkg    Data     Signal Eff.
+                                      A-1     35240.8       7432.3     7497        0.575     34910.6      1717.6    1712          0.566
+                                      A-2     24865.7       5244.2     5240        0.520     22239.7      1094.2    1051          0.473
+                                      A-3      2496.6         526.5     531        0.494      2161.0       106.3      91          0.440
+                                      A-4      2443.7         515.4     520        0.485      2067.8       101.7      87          0.420
+                                      A-5      2400.3         506.2     514        0.479      2030.0         99.9     82          0.414
+                                      A-6      2302.7         485.6     488        0.436      1931.5         95.0     78          0.368
+                                      A-7         1.34         0.28       0        0.084         5.84        0.29      0          0.063
+                                      A-8         1.11         0.24       0        0.084         2.75        0.14      0          0.062
+
+
+TABLE III: Event rates per Megaton·year and expected numbers of event from atmospheric ν MC, observed numbers of event in data, and
+signal efficiencies estimated from proton decay MC, for each step. SK-I/III/IV with 40% photo-coverage and SK-II with 19% are shown
+separately.
+
+
+ground normalizations are free parameters in the fit. Figure 7                        The π0 decays into two photons; if the energy of one photon
+shows the muon momentum distribution of data from SK-I to                             is much smaller than the other, sometimes those events are
+SK-IV compared with MC. No significant excess is observed                             misidentified as a single-ring event. A special π0 reconstruc-
+in the signal region, defined by vertical lines.                                      tion algorithm is used to search for proton decay candidates
+                                                                                      within the single-ring event sample. The π+ does not make
+                                                                                      a clear Cherenkov ring due to its low momentum. However,
+                                                                                      hit activity in the opposite direction of the π0 , caused by the
+                                                                                      π+ , is used to identify the K + → π+ π0 signal. The following
+
+
+
+
+   Number of Events
+                  100
+                                                                                      selection criteria are used:
+
+                      80                                                              (C-1) FC events with one or two rings and all rings are e-like,
+                                                                                      (C-2) one Michel decay electron from the muon produced by
+                                                                                            π+ decay,
+                      60
+                                                                                      (C-3) the reconstructed invariant mass of the π0 candidate is
+                                                                                            between 85 and 185 MeV/c2 ,
+                      40
+                                                                                      (C-4) the reconstructed momentum of the π0 candidate is be-
+                                                                                            tween 175 and 250 MeV/c,
+                      20                                                              (C-5) the residual visible energy associated with neither the
+                                                                                            π0 nor the π+ is low: Eres < 12 MeV for two-ring events
+                                                                                            and Eres < 20 MeV for single-ring events, Eres is de-
+                      0
+                           200         225       250       275       300
+                                                                                            scribed in latter,
+                                              Pµ(MeV/c)
+                                                                                      (C-6) the likelihood for the photon distribution is consistent
+                                                                                            with that expected for signal events: Lshape > 2.0 for
+FIG. 7:      (color online) Muon momentum distribution for                                  two-ring events and Lshape > 3.0 for single-ring events
+260 kton·year. Dots, boxes, and histogram correspond to data, at-                           in SK-I/III/IV; Lshape > 1.0 for SK-II. Lshape is ex-
+mospheric ν MC, and proton decay MC, respectively. The data are
+                                                                                            plained later.
+fit by the background plus signal by free normalization. No excess
+above the expected background is observed. The normalization of                       (C-7) there is visible energy backwards from the π0 direction
+the proton decay MC histogram shown is at the upper limit allowed                           consistent with a low momentum π+ : 10 MeV < Ebk <
+by the fit.
+                                                                                            50 MeV. A detailed description of Ebk is given later.
+
+                                                                                         A special π0 reconstruction algorithm is applied to the
+                                                                                      single-ring sample, which was developed for rejecting single-
+                                                                                      ring π0 background from CC νe appearance in neutrino os-
+                                    C. Method 3: K + → π+ + π0                        cillations. The π0 algorithm forces a fit to the best second
+                                                                                      ring by comparing the observed and the expected light pat-
+  In Method 3, π0 events with a momentum of 205 MeV/c                                 terns under the assumption of two electromagnetic showers
+are selected. An example event display is shown in Fig. 8.                            and reconstructs the invariant mass and momentum of the π0
+                                                                                                                                                                     9
+
+ Super-Kamiokande IV
+
+ D_wall: 1076.4 cm                                                                                     16
+ Evis: 260.4 MeV
+ 2 e-like rings: mass = 155.2 MeV/c^2
+                                                                                                       14
+                                                                                                       12
+
+
+
+                                                                                          pe/ev/deg
+                                                                                                       10
+ Resid(ns)                                                                                              8
+       > 251
+    220- 251
+    188- 220                                                                                            6
+    157- 188
+    125- 157
+     94- 125
+                                                                                                        4
+     62- 94
+     31- 62                                                                                             2
+      0- 31
+    -31-   0                                                                                            0
+    -62- -31
+    -94- -62
+                                                                                                             0        50               100                150
+   -125- -94
+   -157--125
+   -188--157                                                                                            2
+       <-188
+                                                                                                      1.75
+                                                10 3                 1 mu-e                            1.5
+
+
+
+                                                                                          pe/ev/deg
+                                                                     decay
+
+                                                10 2                                                  1.25
+                                                10 1                                                    1
+                                                10 0
+                                                                                                      0.75
+                                                 -1000   -500   0    500      1000                     0.5
+                                                   Residual PMT Hit Times (ns)
+                                                                                                      0.25
+                                                                                                        0
+                                                                                                             0             20                  40               60
+FIG. 8: (color online) An example graphical event display of a sim-
+                                                                                                                           Angle to π+ (deg)
+ulated proton decay passing all of the criteria for Method 3. The two
+Cherenkov rings were produced by gamma rays from π0 decay and
+reconstructed to an invariant mass of 155 MeV/c2 and momentum
+of 209 MeV/c. The color of the hit PMTs represents the residual                      FIG. 9: (color online) Charge distribution as a function of angle to
+hit time after subtracting the time-of-flight of Cherenkov light in wa-              the π+ direction which is defined as opposite the reconstructed π0
+ter from the vertex to the PMT. The π+ does not make a Cherenkov                     direction. The upper figure shows the distribution for the signal MC
+ring that is reconstructed, however PMT hits due to this particle are                in which K + decays into π+ and π0 . The bump around 23◦ in the
+present opposite to the π0 direction, visible in the upper left of the ID            signal is made by Cherenkov light of π+ . The lower figure shows
+barrel region.                                                                       only the region from 0◦ to 60◦ for signal MC (blue) and atmospheric
+                                                                                     ν MC (hatched red) after the (C-1)-(C-5) criteria are required.
+
+
+
+candidate. Then (C-3) and (C-4) can be applied even for the                                                                                       n(
+                                                                                                                                                    3)
+                                                                                                                                              gio
+single-ring samples.                                                                                                                         Re
+
+   After selecting single π0 candidates in the signal momen-                                                     Region (1)
+tum region, and requiring a Michel electron, further cuts are                                                                                 Region (2)
+applied to find the tiny Cherenkov light from the π+ . Figure 9                                                            90°
+shows the photoelectron distribution versus angle for proton
+decay Monte Carlo events. The angle is calculated from the                                                                                        35°
+opposite direction of the reconstructed π0 , which can be as-
+sumed as the π+ direction. The small bump around 23◦ comes                                                                                    Region (3)
+                                                                                                                                 90°
+from π+ .
+   The Cherenkov light in an event is then divided into three
+regions: (1) a π0 dominant region, inside of 90◦ from each                                                       Region (1)
+γ direction, (2) a π+ dominant region, inside of 35◦ from
+the backwards direction from the reconstructed π0 momentum
+                                                                                                                                       SK PMT array surface
+vector, and (3) a residual region. These regions are illustrated
+in Fig. 10.
+                                                                                     FIG. 10: (color online) An illustration showing each region for
+   Visible energy sums are calculated for regions (2) and (3)                        K + → π+ π0 . Region (1) is an area which is inside of 90◦ from each γ
+by masking region (1) to define Ebk and Eres to be used in cri-                      direction, region (2) is an area which is inside of 35◦ from backward
+teria (C-5) and (C-7), respectively. Non-zero Ebk is used to                         of reconstructed π0 direction, and region (3) is defined as residual
+identify the presence of the π+ . By requiring low Eres , we                         part.
+reject background events with additional final state particles
+that produce Cherenkov light. In the case of a single-ring π0
+candidate, only the ring direction found by the default recon-
+struction is masked as region (1), because the other ring can-                       is looser than in the two-ring case. The shape of the angu-
+didate found by the π0 special algorithm is often found at a                         lar distribution seen in Fig. 9 is also useful to separate signal
+large angle from the existing ring direction due to asymmetric                       and background. Based on Fig. 9, the expected photoelectrons
+decay, and if the 90◦ cone of the additional ring is masked,                         are generated assuming signal and background, and a likeli-
+the π+ direction may be also masked. In this case, the miss-                         hood function (Lshape ) is calculated for use in (C-6). Then
+ing γ may exist in region (2) or (3), so the cut value for Eres                      π+ can be tagged by using deposited energy (Ebk ) and shape
+                                                                                                                                                                                                  10
+
+of charge distribution (Lshape ). The shape of the angular dis-
+tribution is slightly different in the single-ring and two-ring                                                                          10
+
+cases, and also depends on photo-coverage, so the cut value is                                                                                                                  2R sample
+
+
+
+                                                                                                                      Number of events
+tuned separately for SK-II. Figure 11 shows Eres , Lshape , and                                                                           1
+
+Ebk distributions of the two-ring sample of SK-I+III+IV data                                                                                  -1
+and the atmospheric ν MC normalized by livetime, after cuts                                                                              10
+
+from (C-1) through (C-4), with good agreement between data                                                                                    -2
+and simulation. Figures 12 through 15 show Eres , Lshape , and                                                                           10
+
+Ebk distributions after all cuts except the cut for itself.
+                                                                                                                                                   0          10      20           30        40
+                                                                                                                                         10
+                                                                                                                                                                                1R sample
+
+
+
+
+     Number of events Number of events Number of events
+                                                                                                                      Number of events
+                                                                                                                                          1
+                                                          10
+
+                                                                                                                                              -1
+                                                          5                                                                              10
+
+                                                          0                                                                                   -2
+                                                               0         10        20       30             40                            10
+                                                                               Eres (MeV)
+                                                                                                                                                   0          10      20           30        40
+                                                          10                                                                                                       Eres (MeV)
+
+                                                          5
+
+                                                          0                                                     FIG. 12: (color online) Eres distributions for the two-ring (upper) and
+                                                                   -20               0                20
+                                                                                                                single-ring (lower) samples after all cuts except (C-5) in all periods.
+                                                                                   Lshape
+                                                                                                                Red histograms are atmospheric ν MC, and blue histograms are pro-
+                                                          15
+                                                                                                                ton decay MC, respectively. No data remain after cuts. Arrows in the
+                                                          10                                                    figures show signal regions.
+                                                          5
+
+                                                          0
+                                                               0              20                 40
+                                                                               Ebk (MeV)
+
+
+
+FIG. 11: (color online) Eres (upper), Lshape (middle), and Ebk (lower)
+distributions for the two-ring sample in SK-I,III, and IV after cuts
+                                                                                                                                          1            SK-I/III/IV
+
+
+
+
+                                                                                                                      Number of events
+from (C-1) through (C-4). Black crosses correspond to data and red                                                                                      2R sample
+histograms show the atmospheric ν MC normalized by livetime.
+                                                                                                                                              -1
+                                                                                                                                         10
+
+
+                                                                                                                                              -2
+                                                                                                                                         10
+   Table IV shows background rates per megaton·year expo-
+sure, expected events estimated by atmospheric ν MC, ob-
+                                                                                                                                                        -20            0                20
+served number of events in data, and efficiencies for each step.
+Results for SK-II, which has 19% photo-coverage are sepa-                                                                                 1            SK-I/III/IV
+
+
+
+
+                                                                                                                      Number of events
+rately shown in the table. The selection efficiencies, expected                                                                                         1R sample
+numbers of background, and observed numbers of events for                                                                                     -1
+                                                                                                                                         10
+each period are summarized in Table V. The total expected
+background for 260 kton·year exposure is 0.6 events. No
+                                                                                                                                              -2
+events are observed in the SK data. The dominant neutrino                                                                                10
+interaction modes in the background are charged current sin-
+gle π production (38%) with low momentum µ, kaon produc-                                                                                                -20            0                20
+tion (37%) described in Method 1, and neutral current multi-π                                                                                                        Lshape
+production (11%).
+   The uncertainty for the π0 fitter is rather large, 18% [32],
+but is only applied to the fraction of the single-ring π0 sam-                                                  FIG. 13: (color online) Lshape distributions for the two-ring (upper)
+ple (19%) with a final systematic error of 4.5%. The leading                                                    and single-ring (lower) samples for SK-I,III, and IV, after all cuts ex-
+systematic uncertainty in the signal efficiency of Method 3 is                                                  cept (C-6). Black dots correspond to data, red histograms are atmo-
+in the π+ interaction in water, estimated to be 5%. Including                                                   spheric ν MC normalized to the livetime of data, and blue histograms
+                                                                                                                are proton decay MC, respectively. Arrows in the figures show signal
+other reconstruction errors as listed for Method 1, the total
+                                                                                                                regions.
+systematic uncertainty in the signal efficiency of Method 3
+is estimated to be 9.5%. The systematic uncertainty for the
+background in Method 3 is estimated to be 29% based on the
+                                                                                                                                                                    11
+
+                                                                SK-I/III/IV                                                            SK-II
+                                  Criterion   Bkg. Rate     Exp. Bkg.      Data   Signal Eff.           Bkg. Rate                Exp. Bkg    Data     Signal Eff.
+                                       C-1     51874.1       10940.3      10945          257             53574.1                   2635.8    2615          0.277
+                                       C-2      5275.4        1112.6       1126        0.191              5421.1                    266.7     300          0.191
+                                       C-3      1003.9          211.7       200        0.153              1266.7                      62.3     56          0.137
+                                       C-4        225.6          47.6        42        0.131                244.1                     12.0     10          0.114
+                                       C-5        171.8          36.2        37        0.120                178.1                     8.76      7          0.101
+                                       C-6         10.1          2.13         2        0.098                 15.9                   0.780       0          0.775
+                                       C-7         2.09          0.44         0        0.087                 3.42                     0.17      0          0.067
+
+
+TABLE IV: Event rates per Megaton·year and expected numbers of event from atmospheric ν MC, observed numbers of event in data, and
+signal efficiencies estimated from proton decay MC, for method 3. SK-I/III/IV with 40% photo-coverage and SK-II with 19% are shown
+separately.
+
+
+
+                                                                                                                   10
+                         1           SK-II
+
+
+
+
+     Numbwe of events                                                                           Number of events
+                                      2R sample                                                                     1                         2R sample
+                             -1
+                        10                                                                                              -1
+                                                                                                                   10
+
+                                                                                                                        -2
+                             -2                                                                                    10
+                        10
+                                                                                                                        -3
+                                                                                                                   10
+                                       -10           0             10                                                        0           20                40
+                                                                                                                   10
+                         1           SK-II
+
+
+
+
+     Numbwe of events                                                                           Number of events
+                                      1R sample                                                                     1                         1R sample
+                             -1
+                        10                                                                                              -1
+                                                                                                                   10
+
+                             -2                                                                                         -2
+                        10                                                                                         10
+
+
+                                       -10           0             10                                                        0           20                40
+                                                   Lshape                                                                                 Ebk (MeV)
+
+
+
+FIG. 14: (color online) Lshape distributions for the two-ring (upper)                    FIG. 15: (color online) Ebk distributions for the two-ring (uper) and
+and single-ring (lower) samples for SK-II after all cuts except (C-                      single-ring (lower) samples after all cuts except (C-7) in all periods.
+6), respectively. Red histograms are atmospheric ν MC, and blue                          Black dots correspond to data, red histograms are atmospheric ν MC,
+histograms are proton decay MC. No data remain after cuts. Arrows                        and blue histograms are proton decay MC, respectively. Arrows in
+in the figures show signal regions.                                                      the figures show signal regions.
+
+
+
+
+uncertainties in atmospheric neutrino flux and cross section                             ble V. The efficiency in SK-IV is larger than the other periods
+following the same procedure as described for Method 1.                                  because of the improvement in efficiency for Michel electron
+   Compared to our previous publication, Method 3 is im-                                 tagging.
+proved in efficiency by the addition of the single-ring π0 sam-
+ple which occupies 19% of the selected events in the signal
+MC. The angle cut at 40◦ applied to calculate the charge sum                                                                       D. Lifetime Limit
+in region (2) in the previous paper was rather loose (refer to
+Figure                                        ◦                                             In the absence of any excess signal above the background
+   √ 9). The cut value was tuned to 35 by maximizing
+S/ N to reduce more background. The new variable Lshape                                  expectation, we calculate the lower limit on the proton partial
+also reduces background. As a result, the efficiency of Method                           lifetime using a Bayesian method [33] to incorporate system-
+3 is increased by 30% and the background is reduced by 30%                               atic uncertainty. The calculation method used in our previous
+from the previously published result for SK-I. The efficien-                             publication [10] is applied in this analysis.
+cies, backgrounds, and observed events are summarized in Ta-                                For Methods i = 1 and 3, where ni is the number of can-
+                                                                                                                                                            12
+
+                            SK-I    SK-II   SK-III   SK-IV                        where λi is the true detector exposure, εi is the true detection
+                                                                                  efficiency including the meson branching ratio, and bi is the
+Exp.(kton·yrs)              91.7    49.2     31.9     87.3
+                                                                                  true number of background events. The decay rate prior prob-
+Prompt γ       Eff.(%)    7.9±0.1 6.3±0.1 7.7±0.1 9.1±0.1                         ability distribution P(Γ) is 1 for Γ ≥ 0 and otherwise 0.
+               BKG/Mt·yr 0.8±0.2 2.8±0.5 0.8±0.3 1.5±0.3
+                                                                                     The prior probability distributions incorporating uncertain-
+               BKG          0.08    0.14     0.03     0.13                        ties in detector exposure P(λi ), efficiency P(εi ), and back-
+               OBS            0       0        0        0                         ground P(bi ), are expressed as:
+Pµ spec.       Eff.(%)   33.9±0.3 30.6±0.3 32.6±0.3 37.6±0.3
+               BKG/Mt·yr 2107±39 1916±35 2163±40 2556±47                                 P(λi ) = δ(λi − λ0,i)                                              (2)
+               BKG          193     94.3     69.0     223.1
+                                                                                         P(εi ) = exp −(εi − ε0,i )2 /2σ2ε,i
+                                                                                                                            
+                                                                                                                                                            (3)
+               OBS          177      78       85       226
+                                                                                                  (0 ≤ εi ≤ 1, otherwise 0)
+π+ π0          Eff.(%)    7.8±0.1 6.7±0.1 7.9±0.1 10.0±0.1
+                                                                                                  Z ∞ −b′ ′ b0,i
+                                                                                                                       "                #
+               BKG/Mt·yr 2.0±0.4 3.4±0.6 2.3±0.4 2.0±0.3                                              e (b )             −(biCi − b′ )2
+                                                                                         P(bi ) =                 exp                     db′               (4)
+               BKG          0.18    0.17     0.09     0.18                                         0      b0,i !               2σ2b,i
+               OBS            0       0        0        0                                             (0 ≤bi , otherwise 0)
+
+TABLE V: Summary of the proton decay search with selection effi-
+ciencies and expected backgrounds for each detector period.                       where λ0,i is the estimated exposure, ε0,i is the estimated ef-
+                                                                                  ficiency, b0,i is the estimated number of background events in
+                                                                                  500 years MC, Ci is the MC-to-exposure normalization factor,
+                                                                                  and σε,i and σb,i are the uncertainties in detection efficiency
+didate events in the i-th proton decay search, the conditional                    and background, respectively.
+probability distribution for the decay rate is expressed as:                         To combine Method 2, the remaining events are divided
+                       ZZZ                                                        into three momentum bins: 200-215 MeV/c, 215-260 MeV/c,
+                            e−(Γλi εi +bi ) (Γλi εi + bi )ni                      and 260-305 MeV/c and the number of observed events are
+        P(Γ|ni ) =                                           ×
+                                           ni !                                   denoted as m1 , m2 , m3 instead of ni . Then, the nucleon decay
+                         P(Γ)P(λi )P(εi )P(bi ) dλi dεi dbi              (1)      rate probability, P(Γ|m1 , m2 , m3 ), is calculated as:
+
+
+
+
+                         ZZZ       3  e−(Γλ j ε j +bshape, j b) (Γλ j ε j + bshape, j b)m j
+  P(Γ|m1 , m2 , m3 ) =            ∏                             m j!
+                                                                                            P(Γ)P(λ j )P(ε j )P(b)P(bshape, j ) dλ j dε j db dbshape, j ,   (5)
+                                  j=1
+
+
+
+
+where j = 1, 2, 3 corresponds to each momentum bin, P(b) is                       lifetime limit is given by:
+defined as one for b > 0 and otherwise 0, and ε j denotes the
+                                                                                                                            N
+efficiency for each bin. The number of background events,                                                              1
+                                                                                                                    Γlimit ∑
+                                                                                                  τ/B p→νK + =               [ε0,i · λ0,i ].                (7)
+bshape, j , is b j normalized by b2 . The uncertainty function                                                             i=1
+of the background shape P(bshape, j ) is defined by a Gaussian
+function for the 1st and 3rd bin, and a delta function for the                    The result of the limit calculation combining the three search
+2nd bin. The uncertainties of the background are estimated to                     methods is:
+be 7% and 8% respectively from the difference of MC models.
+   We combine all three searches to calculate the lower limit                                       τ/B p→νK + > 5.9 × 1033years,
+of the nucleon decay rate, Γlimit as:
+                                                                                  at the 90% confidence level. If only the results of the low
+                                                                                  background searches are used, Methods 1 and 3, the lower
+                       R Γlimit                                                   limits of proton lifetime are estimated to be 2.5×1033 and
+                             ∏N=3
+                               i=1 P(Γ|ni ) dΓ
+               CL = RΓ=0
+                      ∞                        ,                         (6)      2.6×1033 years, respectively. The lifetime limit from the
+                         Γ=0 ∏i=1 P(Γ|ni ) dΓ
+                              N=3
+                                                                                  muon momentum spectrum fit, Method 2, is 0.8 × 1033 years.
+where N = 3 is the number of independent search methods2 ,
+and CL is the confidence level, taken to be 90%. The lower
+                                                                                                            VI. CONCLUSION
+
+                                                                                    The proton decay search for p → νK + was carried out with
+2 for i = 2, the second search method, P(Γ|n ) ≡ P(Γ|m ,m ,m )                    260 kton·year exposure, including SK-I, II, III, and IV. There
+                                            2         1  2  3
+                                                                                                                                          13
+
+are several improvements in the analysis and we succeeded             periment has been built and operated from funding by the
+to reduce backgrounds drastically and to increase efficiencies.       Japanese Ministry of Education, Culture, Sports, Science and
+However, we do not find any evidence for proton decay in this         Technology, the United States Department of Energy, and the
+exposure, therefore we have set a limit on the partial lifetime       U.S. National Science Foundation. Some of us have been
+as 5.9×1033 years, which is more than 2.5 times more strin-           supported by funds from the Korean Research Foundation
+gent than our previous publication. The non-observation of            (BK21), the National Research Foundation of Korea (NRF-
+proton decay into this mode constrains, but does not exclude,         20110024009), the State Committee for Scientific Research in
+recent SUSY GUT models.                                               Poland (grant1757/B/H03/2008/35), the European Union FP7
+                                                                      (DS laguna-lbno PN-284518 and ITN invisibles GA-2011-
+                                                                      289442), the Japan Society for the Promotion of Science,
+                VII.   ACKNOWLEDGMENTS                                and the National Natural Science Foundation of China under
+                                                                      Grants No.10575056.
+ We gratefully acknowledge the cooperation of the Kamioka
+Mining and Smelting Company. The Super-Kamiokande ex-
+
+
+
+
+ [1] H. Georgi and S. L. Glashow, Phys. Rev. Lett. 32, 438 (1974).    [17] K. Abe et al., Phys. Rev. Lett. 110, 181802 (2013); K. Abe
+ [2] C. McGrew et al., Phys. Rev, D 59, 052004 (1999).                     et al., Phys. Rev. Lett. 107, 241801 (2011); R. Wendell et al.,
+ [3] K. S. Hirata et al., Phys. Lett, B 220, 308 (1989).                   Phys. Rev. D 81, 092004 (2010) (and more relevant references).
+ [4] M. Shiozawa et al., Phys. Rev. Lett. 81, 3319 (1998);            [18] K. Nakamura et al., Nucl. Phys. A 268, 381 (1976).
+     H. Nishino et al., Phys. Rev. Lett. 102, 141801 (2009).          [19] T. Yamazaki and Y. Akaishi, Phys. Lett. B 453, 1 (1999).
+ [5] Y. Hayato et al. [Super-Kamiokande Collaboration], Phys. Rev.    [20] R. D. Woods and D. S. Saxon, Phys. Rev. 95, 577 (1954).
+     Lett. 83, 1529 (1999) [hep-ex/9904020].                          [21] Y. Hayato, Nucl. Phys. Proc. Suppl. 112, 171 (2002); G. Mit-
+ [6] J. Wess and B. Zumino, Nucl. Phys. B 70, 39 (1974).                   suka, AIP Conf. Proc. 967, 208 (2007); G. Mitsuka, AIP Conf.
+ [7] W. J. Marciano and G. Senjanovic, Phys. Rev. D 25, 3092               Proc. 981, 262 (2008).
+     (1982).                                                          [22] D. Rein and L.M. Sehgal, Ann. of Phys. 133, 1780 (1981).
+ [8] N. Sakai and T. Yanagida, Nucl. Phys. B 197, 533 (1982);         [23] H. Ejiri, Phys. Rev. C 48, 1442 (1993).
+     S. Weinberg, Phys. Rev. D 26, 287 (1982).                        [24] H. Nishino et al., Phys. Rev. D 85, 112001 (2012).
+ [9] H. Murayama and A. Pierce, Phys. Rev. D 65, 055009 (2002).       [25] C. Regis et al., Phys. Rev. D 86, 012006 (2012).
+[10] K. Kobayashi et al., Phys. Rev. D 72, 052007 (2005).             [26] M. Honda, T. Kajita, K. Kasahara, S. Midorikawa, and
+[11] K. S. Babu, B. Bajc and Z. Tavartkiladze, Phys. Rev. D 86,            T. Sanuki, Phys. Rev. D 75, 043006 (2007).
+     075005 (2012); T. Goto and T. Nihei, Phys. Rev, D 59, 115009     [27] CERN Program Library W5013 (1994).
+     (1999).                                                          [28] M. Nakahata et al., J. Phys. Soc. Jpn. 55, 3786 (1986);
+[12] K. S. Babu, J. C. Pati and Z. Tavartkiladze, JHEP 1006, 084           A. S. Clough et al., Nucl. Phys. B 76, 15 (1974).
+     (2010); V. Lucas and S. Raby, Phys. Rev. D 55, 6986 (1997).      [29] J. P. Albanese et al., Nucl. Phys. A 350, 301 (1980); C. H. Q. In-
+[13] S. Fukuda et al., Nucl. Inst. and Meth. A 501, 418 (2003).            gram et al., Phys. Rev. C 27, 1578 (1983).
+[14] H. Kume et al., Nucl. Inst. and Meth. 205, 443 (1983);           [30] E. R. Davies, Mahine Vision: Theory, Algorithms, Practicali-
+     A. Suzuki et al., Nucl. Inst. and Meth. A 329, 299 (1993).            ties, Academic Press, Sandiego (1997).
+[15] H. Nishino et al., Nucl. Inst. and Meth. A 610, 710 (2011); S.   [31] M. Fechner et al., Phys. Rev. D 79, 112010 (2009).
+     Yamada et al., IEEE Trans. Nucl. Sci. 57, 2010, 428.             [32] T2K collaboration., Phys. Rev. Lett. 107, 041801 (2011).
+[16] K. Abe et al., submitted to Nucl. Inst. and Meth. A              [33] C. Amsler et al., Phys. Lett. B 667, 1 (2008).
+     [arXiv:1307.0162].
+

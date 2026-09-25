@@ -1,0 +1,17 @@
+Title:Search for Tri-Nucleon Decay in the Majorana Demonstrator Phys. Rev. D 99, 072004 (2019) https://doi.org/10.1103/PhysRevD.99.072004
+
+            
+            
+              
+                
+                Focus to learn more
+              
+              
+              
+                
+                DOI(s) linking to related resources
+              
+            
+           
+            Abstract:The Majorana Demonstrator is an ultra low-background experiment searching for neutrinoless double-beta decay in $^{76}$Ge. The heavily shielded array of germanium detectors, placed nearly a mile underground at the Sanford Underground Research Facility in Lead, South Dakota, also allows searches for new exotic physics. We present the first limits for tri-nucleon decay-specific modes and invisible decay modes for Ge isotopes. We find a half-life limit of $4.9 \times 10^{25}$ yr for the decay $^{76}{\rm Ge(ppn)} \to {}^{73}{\rm Zn}\ e^+\pi^+$ and $4.7\times10^{25}$ yr for the decay $^{76}{\rm Ge(ppp)} \to ^{73}{\rm Cu}\ e^+\pi^+\pi^+$. The half-life limit for the invisible tri-proton decay mode of $^{76}$Ge was found to be $7.5\times10^{24}$ yr.
+    

@@ -1,0 +1,757 @@
+                                                  Closing the Door on the “Puzzle of Decoherence” of Annihilation
+                                                                             Quanta
+
+                                                  Siddharth Parasharia,∗ , Damir Bosnara , Ivica Friščića , Zdenka Kuncicb , Mihael Makeka,∗
+                                           a
+                                               Department of Physics, Faculty of Science, University of Zagreb, Bijenička c. 32, 10000 Zagreb, Croatia.
+                                                       b
+                                                         School of Physics, University of Sydney, Sydney, New South Wales, 2006, Australia
+
+
+
+
+                                           Abstract
+
+
+
+
+arXiv:2304.11362v4 [quant-ph] 9 May 2023
+                                           In para-positronium annihilation, exploration of the polarization correlations of the emerging
+                                           gamma quanta has gained interest, since it offers a possibility to improve signal-to-background in
+                                           medical imaging using positron emission tomography. The annihilation quanta, which are predicted
+                                           to be in an entangled state, have orthogonal polarizations and this property may be exploited to
+                                           discriminate them from two uncorrelated gamma photons contributing to the background. Recent
+                                           experimental studies of polarization correlations of the annihilation quanta after a prior Compton
+                                           scattering of one of them, had rather different conclusions regarding the strength of the correlation
+                                           after the scattering, showing its puzzling nature. The scattering was described as a decoherence
+                                           process. In the present work, we perform for the first time, a study of the polarization correlations
+                                           of annihilation quanta after decoherence via Compton scattering in the angular range 0◦ − 50◦
+                                           using single-layer gamma ray polarimeters. In addition, we compare the measured polarization
+                                           correlations after Compton scattering at 30◦ with an active and a passive scatterer element. The
+                                           results indicate that the correlation, expressed in terms of the polarimetric modulation factor,
+                                           shows no significant difference at small scattering angles (0◦ − 30◦ ) compared to the correlation
+                                           measured for direct photons, while lower modulation was observed for 50◦ scattering angle.
+
+
+                                           Keywords: Para-Positronium annihilation ; Quantum entanglement ; Decoherence ; Gamma Po-
+                                           larization ; Positron Emission Tomography
+
+
+
+
+                                           ∗
+                                            Corresponding authors
+                                           Email addresses: siddharth@phy.hr(Siddharth Parashari), makek@phy.hr (Mihael Makek)
+
+
+
+
+                                                                                                  1
+1     Introduction
+The correlation of gamma photons emerging from an annihilating positronium system has recently
+become an increasingly interesting research topic with a potential to bring substantial innovations
+to medical imaging with Positron Emission Tomography (PET) [1, 2, 3, 4, 5]. In para-positronium
+annihilation, two back-to-back γ quanta of 511 keV are produced with orthogonal polarizations
+and are predicted to be in an entangled state. This state can be described by the so called
+                                                               √
+Bell state wave function |ψi = (|Xi− |Yi+ − |Yi− |Xi+ )/ 2, where, |Xi+,− and |Yi+,− represent
+a quantum polarized in (X,Y) propagating in (+,-) ẑ direction [6, 7, 8, 9]. The measurement of
+correlations of annihilation quanta has a long history in physics, starting from the experimental
+scheme proposed by J. Wheeler [10] to test the predicted correlation of the polarizations of the
+annihilation photons, where the azimuthal angle difference (∆φ) between the scattering planes in
+double Compton scattering process should have maxima and minima at 90◦ and 0◦ , respectively.
+Similar behavior is also predicted by Pryce and Ward [11] and Snyder et al. [8] by employing the
+Klein-Nishina approach [12], where the cross-section of a double Compton scattering process is
+given by [9, 11],
+                              d2 σ        r4
+                                    = 0 [F(θ1)F(θ2) −G(θ1)G(θ2)cos(2∆φ)]                                   (1)
+                            dΩ1dΩ2 16
+with r0 being the classical electron radius, dΩ1,2 are the solid angles, θ1,2 are the Compton scat-
+tering angles, ∆φ = (φ1 − φ2 ) is the azimuthal scattering angle difference of gamma particle 1 and
+                           2+(1−cosθ )3                      sin2 θ
+2, respectively. F(θ1,2 ) = (2−cosθ1,21,2)3 and G(θ1,2 ) = (2−cosθ1,2
+                                                                    1,2 )
+                                                                          2 are kinematic factors. The ratio,
+
+
+
+                                            N (θ, φ = 90◦ )−N (θ, φ = 0◦ )
+                                   A(θ) =                                                                 (2)
+                                            N (θ, φ = 90◦ )+N (θ, φ = 0◦ )
+defines the analyzing power of the polarimeter [13], where N(θ, φ) is the number of incoming pho-
+tons measured at scattering angle θ and azimuthal angle φ. The product of the analyzing powers
+A(θ1 ) and A(θ2 ) is known as the modulation factor (µ) and it measures the polarimetric sensitivity
+of the detection system. Bohm and Aharonov [6] recognized the azimuthal angle correlation in
+the double Compton scattering of annihilation photons could be considered an example of entan-
+glement discussed by Einstein, Podolsky, and Rosen [14, 15]. Initially, it was shown theoretically
+that the ratio, R = (1+µ)/(1−µ) of the scattering probabilities at ∆φ = 90◦ and ∆φ = 0◦ , for the
+wave function in the predicted entangled (separable) state is R ≈ 2.8 (1.63) [6, 8, 9, 11]. However,
+the question of evidence of entanglement in Compton scattering of annihilation quanta has been
+recently readdressed by theoretical works [16, 17] and it remains an open topic. The early experi-
+ments measured the modulation factors [18, 19, 20, 21, 22, 23, 24, 25], among which the most precise
+measurements were performed by Langhoff [19] and Kasday et al. [22], obtaining R = 2.47 ± 0.07
+and R = 2.33 ± 0.10, respectively, which were in good agreement with the predicted value (eq. 1)
+considering the finite geometry of the detectors.
+
+Recently, Watts et al. [4] used a simple polarimetric setup based on two Cadmium Zinc Telluride
+matrices to measure the azimuthal angle correlations of annihilation quanta directly from the source
+and in another configuration with a passive scatterer. In the latter, a Compton scattering may
+occur in the path of the photon prior to its detection in the polarimeter. In the measurement of
+the quanta direct from the source, they obtained a clear modulation of the azimuthal distribution
+with the measured R = 1.95 ± 0.07 for θ1,2 = 93◦ −103◦ . In the configuration with the scatterer
+positioned at 33◦ relative to the initial direction, the results indicated the lack of modulation,
+within the experiment’s precision, which they described as a “decohering” process.
+
+In another experiment, Abdurashitov et al. [26] used a setup of two gamma-ray polarimeters, each
+
+
+                                                      2
+                        GaGG:Ce scintillator matrix
+                        GaGG:Ce scatterer                                         𝝓𝟏
+                        SiPM                                   22Na
+                                                                                       𝒙𝟏
+                                   5 cm
+
+                                               θscat                  γ1      𝒚𝟏            𝒛𝟏
+
+                                                       Scatterer
+                                                      (Detector C)          Detector A
+                                          γ2
+                        𝒚𝟐
+
+                                                                           d1,2
+                   𝒛𝟐
+                         𝒙𝟐                                                             Δy
+                              𝝓𝟐
+                                                                                  Δx
+
+
+
+Figure 1: Schematic diagram of the experimental setup (top view). The azimuthal angles φ1,2 (eq.
+3) and the inter-pixel distances d1,2 are deduced from the relative positions of the fired pixels in
+the respective module.
+
+
+consisting of 16 NaI(Tl) scintillator detectors positioned on a ring, with a plastic scatterer placed
+at the center. Such geometry enabled precise measurement of the azimuthal angle correlations in
+events when both annihilation quanta underwent Compton scattering at θ1,2 = 90◦ yielding the
+modulation of R (µ) = 2.44 ± 0.02 (0.418 ± 0.003). In the modified version of the setup, an active
+scatterer (GAGG scintillator) was placed in front of one plastic scintillator to induce decoherence
+by Compton scattering one of the photons before entering the polarimeter. The scattered photons
+then underwent another scattering in the polarimeters yielding the modulation of the azimuthal
+angle difference of R (µ) = 2.41 ± 0.10 (0.414±0.017), a result compatible with the one obtained
+without intentional decoherence.
+
+The results of Abdurashitov et al. [26] suggest that the correlation of the azimuthal angles of
+Compton scattered annihilation quanta is not affected by a prior scattering, at least at small
+scattering angles θscat ≈ 0◦ , which disagrees with the finding of Watts et al. [4] suggesting the
+loss of correlation at θscat ≈ 30◦ . The clarification of these findings is important on it own merits,
+but it is also relevant for the implementation of the polarization measurement in PET, where in-
+silico studies suggested a potential benefit of discriminating the correlated signal events from the
+uncorrelated background [2].
+
+To resolve the “decoherence puzzle” arising from the previous results, we performed the most
+comprehensive set of measurements to date. The necessity to resolve this puzzle has also been
+brought up by Sharma et al., [27]. Our setup based on the single-layer gamma-ray polarimeter
+concept [3] was able to measure the azimuthal correlation of the annihilation quanta [5, 28]. An
+active scatterer was placed in the path of one annihilation photon to tag the events where that
+gamma undergoes a prior scattering. One of the detectors could be rotated around the initial
+direction of the annihilation gamma, enabling the azimuthal correlation measurements at different
+angles of the prior Compton scattering, θscat . Thus this setup enabled recreation of the kinematic
+conditions similar to those in [26] (θscat ≈ 0◦ ) and [4] (θscat ≈ 30◦ ), while also significantly
+extending the explored phase-space to measurements with θscat = 10◦ and θscat = 50◦ .
+
+
+
+
+                                                             3
+                                      700                                                            ×103
+                                                                                                                                        700
+
+
+
+
+            Energy Det_A pix2 (keV)
+                                                                                                               Energy Scatterer (keV)
+                                                                                                     7
+                                      600                                                                                               600                                                         250
+                                                                                                     6
+
+                                      500                                                                                               500
+                                                                                                     5                                                                                              200
+
+                                      400                                                                                               400
+                                                                                                     4
+                                                                                                                                                                                                    150
+                                      300                                                                                               300
+                                                                                                     3
+                                                                                                                                                                                                    100
+                                      200                                                                                               200
+                                                                                                     2
+
+                                                                                                                                                                                                    50
+                                      100                                                            1                                  100
+                                             (a)                                                                                               (b)
+                                        0                                                            0                                    0                                                         0
+                                         0         100   200   300   400   500       600       700                                         0         100   200   300   400   500      600     700
+                                                                           Energy Det_A pix1(keV)                                                                             Energy Det_B (keV)
+
+
+
+                                      700                                                                                               700
+
+
+
+
+      Energy Scatterer (keV)                                                                                  Energy Scatterer (keV)
+                                                                                                     220                                                                                            450
+                                      600                                                            200                                600
+                                                                                                                                                                                                    400
+                                                                                                     180
+                                      500                                                                                               500                                                         350
+                                                                                                     160
+                                                                                                                                                                                                    300
+                                      400                                                            140                                400
+                                                                                                     120                                                                                            250
+
+                                      300                                                            100                                300                                                         200
+                                                                                                     80
+                                                                                                                                                                                                    150
+                                      200                                                                                               200
+                                                                                                     60
+                                                                                                                                                                                                    100
+                                                                                                     40
+                                      100                                                                                               100
+                                                                                                                                                                                                    50
+                                             (c)                                                     20                                        (d)
+                                        0                                                            0                                   0                                                          0
+                                         0         100   200   300   400   500     600      700                                           0          100   200   300   400   500     600     700
+                                                                            Energy Det_B (keV)                                                                               Energy Det_B (keV)
+
+
+
+Figure 2: Energy correlation between two pixels fired in a Compton event in Detector A (a), energy
+correlation between Detector B and the scatterer Detector C at θscat = 10◦ (b), at θscat = 30◦
+(c), and at θscat = 50◦ (d). The selected events are shown with an ellipse.
+
+
+2     Methodology
+2.1               Experimental setup
+The experimental setup consists of two single-layer gamma polarimeters [5], denoted as Detector
+A and B and a scatterer scintillator, denoted Detector C as shown in Figure 1. Each polarimeter
+encompasses 8 × 8 GAGG:Ce scintillator matrix with crystal dimensions 1.9 × 1.9 × 20 mm3 and
+2.2 mm pitch. The matrix is read out on one end by a silicon-photomultiplier (SiPM) array, with
+one-to-one match of crystals and SiPMs. The mean energy resolution (FWHM) of the GAGG:Ce
+detectors was 8.1 ± 0.5% at 511 keV. The scatterer (Detector C) was a single scintillating crystal
+of GAGG:Ce of 3.0 × 3.0 × 20 mm3 wrapped with teflon. It was read out by one SiPM of a
+8x8 SiPM array (KETEK PA3325) and its energy resolution was 12.1 ± 0.3% at 511 keV. The
+experiment was performed in the temperature controlled environment keeping the temperature
+of the Detectors A and B at 18 ± 1 ◦ C. The temperature of the scatterer was further reduced
+to 15 ± 1◦ C by a Peltier-based cooling system, to improve the sensitivity for low energy events.
+The data were acquired using the data acquisition and processing system TOFPET2 [29, 30]. A
+modified set of ASIC parameters together with a lower value of time and energy thresholds were
+used for the data acquisition to enable the acquisition of events with low energy deposits. To do so,
+
+
+
+                                                                                                          4
+                                                                θscat=10°
+
+
+
+                                                          0.8
+
+
+
+
+                            Normalized Number of Events
+                                                                    Energies at θscat=10°
+                                                          0.7         Scatterer Energy E
+                                                                                            C
+                                                                      Sum E2B=B1+B2 (Compton event in B)
+                                                          0.6
+                                                                      Sum Etotal=E2B+EC
+
+                                                          0.5
+
+
+                                                          0.4
+
+
+                                                          0.3
+
+
+                                                          0.2
+
+
+                                                          0.1
+
+
+                                                           0
+                                                            0       100     200    300      400     500   600     700     800
+                                                                                                                Energy (keV)
+
+
+Figure 3: Energies shared among scatterer and two pixels of Detector B for θscat = 10◦ . The total
+sum of energies adds up to 511 keV.
+
+
+the trigger threshold parameters were tuned globally to lower the baseline for dark count rejection
+and enable trigger for low energy events. The energy measured in each pixel was corrected for SiPM
+saturation and calibrated using the 511 keV photo-peak from the direct γ-rays. The calibration
+was independently checked with the 32 keV and 662 keV peaks of 137 Cs and was found to be
+consistent to the level of ≤ 1%.
+
+In the experiment, Detector A was detecting the γ −ray coming directly from the annihilation
+event (denoted γ1 ), while Detector B was detecting the γ2 after scattering in the Detector C (the
+scatterer), which was introduced to induce decoherence by Compton scattering the annihilation
+photon and to tag such events. Detectors A and B were kept at a fixed distance of 5 cm from the
+scatterer. A 22 Na-source (1 mm diam., activity ≈ 370 kBq) was placed 1 cm from the scatterer
+between the scatterer and Detector A. The angular coverage of Detectors A and B was ±10.1◦
+in this geometry. The events were recorded with Detector B placed at different mean scattering
+angles, θscat , of 0◦ , 10◦ , 30◦ , and 50◦ , while the Detector A was fixed. An additional measurement
+was performed to recreate the conditions of [4] with Detector B at 30◦ , in which the scatterer was
+made passive simply by switching it off, so it would not contribute to trigger or data acquisition.
+
+
+2.2    Event selection
+Data acquisition was triggered by coincidence events in Detector A and either of Detectors B or
+C (A ∩ (B ∪ C)). Further event selection was done in the analysis. To select the Compton events
+that occur in Detectors A or B we required the event to have a multiplicity of 2 fired pixels in the
+module, where a lower bound of 100 keV was applied to count a pixel as fired to avoid possible noise
+and cross-talk events. For Detector A, the events where two pixels fired were additionally filtered
+by requiring the sum of energies of the two fired pixels within 511 ± 70 keV, which corresponds
+to 3σ around the peak value, and to obey the Compton scattering kinematics. The resulting
+selection is shown by the outlined region in Figure 2 (a). To select the annihilation photons that
+underwent Compton scattering in Detector C and a subsequent Compton scattering following the
+full absorption in Detector B we required the sum of energies of two fired pixels in Detector B with
+Detector C are within 511 ± 3σ keV. However different types of scattering events can satisfy this
+
+
+                                                                                                5
+                                                         0.8
+
+
+
+
+                           Normalized Number of Events
+                                                                     Sum of Pix B1 and B2 with Active Scatterer
+                                                                     Sum of Pix B1 and B2 with Passive Scatterer
+                                                         0.7
+
+
+                                                         0.6
+
+
+                                                         0.5
+
+
+                                                         0.4
+
+
+                                                         0.3
+
+
+                                                         0.2
+
+
+                                                         0.1
+
+
+                                                          0
+                                                           0   100    200    300    400     500    600 700 800
+                                                                                                     Energy (keV)
+
+
+Figure 4: The sum of energies of two pixels fired in Detector B, for the selected Compton events
+at θscat = 30◦ , active (blue) and passive scatterer (red), using their respective selection criteria.
+
+
+condition, which is why we additionally filtered those events that obey the Compton kinematics
+for scattering at a given θscat . The correlation of energies between Detector C and Detector B
+under different scattering angles (θscat ) is shown in Figure 2 (b)-(d), which clearly demonstrates
+that the energy deposition in Detector C increases with the increasing θscat , as expected according
+to Compton kinematics. An example of the energy share of γ2 in pixels selected for θscat = 10◦ is
+shown in Figure 3.
+
+A correlation-baseline measurement (without intentional decoherence), at θscat = 0◦ , was per-
+formed by selecting events where Detector C did not fire and both energy deposits in Detectors A
+and B were within 511 ± 3σ keV.
+
+An additional measurement was done with the passive scatterer, where the bias voltage of Detector
+C was switched off. In that case, event selection was done solely based on data from Detectors A
+and B. The angle of Detector B was set to θscat =30◦ and its the distance from the scatterer was
+increased to 7.5 cm to avoid direct coincidences between Detectors A and B. In this case, Detector
+B had an angular coverage of ±6.8◦ . Although direct coincidences were avoided by the setup
+geometry, random coincidences of two annihilation photons from different events could contribute
+to the expected kinematic region. To avoid such unwanted events we additionally selected true
+coincidences based on their coincidence time. Hence, the events in which triggering time difference
+of the corresponding pixels in Detectors A and B was, ∆t = |t1 − t2 | < 1.95 ns, were selected
+corresponding to ±3σ cut on the coincidence time peak. The energy of the selected Compton
+events in Detector B for θscat=30◦ is shown in Figure 4 and is consistent with the energy spectrum
+of such events obtained with the active scatterer.
+
+
+2.3    Determination of azimuthal correlations
+For the events where both gammas underwent Compton scattering in Detectors A and B according
+to the conditions above, we deduce the Compton scattering angle (θ) and the azimuthal angle (φ)
+in each module as:
+                                     me c 2   m e c2
+                                                                     
+                                                                     ∆y
+                        θ = acos            −        +1 ; φ = atan                          (3)
+                                   Epx1+Epx2 Epx2                    ∆x
+
+
+                                                                                     6
+                       12 ×10
+                              3
+
+
+
+
+       Ncor (φ - φ )                                                                                  Ncor (φ - φ )
+                 2                                                                                              2
+                                  θscat = 0° (without scatterer)                                                              θscat = 0° (with scatterer)
+                                                                            χ2/ndf = 231.6/16                         30
+                                                                                                                                                                              χ2/ndf = 29.9/16
+                 1                                                                                              1
+                       10                 Measurements                        µ = 0.31 ± 0.01                         25
+                                                                                                                                       Measurements                            µ = 0.35 ± 0.09
+                                          Fit using Eq. (4)                                                                            Fit using Eq. (4)
+
+                        8                                                                                             20
+
+
+                                                                                                                      15
+                        6
+
+                                                                                                                      10
+                        4
+                                                                                                                       5
+
+                        2
+                                                                                                                       0
+                                  (a)                                                                                          (b)
+                        0                                                                                             −5
+                             −150        −100        −50           0   50     100     150                                   −150      −100         −50          0       50     100     150
+                                                                                      φ - φ [°]                                                                                        φ - φ [°]
+                                                                                       1    2                                                                                            1    2
+
+
+
+
+                                                                                                                      120
+
+
+
+       Ncor (φ - φ )                                                                                  Ncor (φ - φ )
+                 2                                                                                              2
+                       180        θscat = 10°                                                                                 θscat = 30° (Active scatterer)
+                 1                                                           χ2/ndf = 12.2/16                   1                                                             χ2/ndf = 16.7/16
+                       160
+                                           Measurements                      µ = 0.36 ± 0.03                          100               Measurements                           µ = 0.33 ± 0.04
+                       140                 Fit using Eq. (4)                                                                            Fit using Eq. (4)
+                                                                                                                      80
+                       120
+
+                       100
+                                                                                                                      60
+                       80
+
+                       60                                                                                             40
+
+                       40
+                                                                                                                      20
+                       20         (c)                                                                                         (d)
+                        0                                                                                              0
+                             −150        −100        −50           0   50     100     150                                   −150      −100         −50          0       50      100     150
+                                                                                      φ - φ [°]                                                                                         φ - φ [°]
+                                                                                       1    2                                                                                            1    2
+
+
+
+
+                       60
+
+
+
+       Ncor (φ - φ )                                                                                  Ncor (φ - φ )
+                 2                                                                                              2
+                                  θscat = 50°                                                                                 θscat = 30° (Passive scatterer)
+                 1                                                            χ2/ndf = 8.9/16                   1
+                                                                                                                      50                                                      χ2/ndf = 11.8/16
+                       50                 Measurements                       µ = 0.17 ± 0.06                                           Measurements                            µ = 0.31 ± 0.07
+                                          Fit using Eq. (4)                                                                            Fit using Eq. (4)
+                                                                                                                      40
+
+                       40
+
+                                                                                                                      30
+
+                       30
+
+                                                                                                                      20
+
+                       20
+
+                                                                                                                      10
+
+                       10         (e)                                                                                         (f)
+                                                                                                                       0
+                             −150        −100        −50           0   50     100     150                                    −150        −100        −50            0    50      100      150
+                                                                                      φ - φ [°]                                                                                         φ - φ [°]
+                                                                                       1    2                                                                                            1    2
+
+
+
+
+Figure 5: Azimuthal angle difference distributions for (a) direct gammas from the source, with
+active scatterer (b) θscat = 0◦ , (c) θscat = 10◦ , (d) θscat = 30◦ , (e) θscat = 50◦ , and (f ) θscat = 30◦
+with passive scatterer, respectively. The range of Compton scattering angles, θ1,2 , in each plot was
+selected to target maximum expected modulation (see section 3). Only the statistical uncertainties
+are shown.
+
+
+Due to the ambiguity in the determination of the first and second pixels fired in Compton scat-
+tering, by the recoil electron and the scattered gamma, respectively, we have to assume that the
+first interaction (absorption of the recoil electron) occurs in the pixel with the lower energy de-
+posit (Epx1 = Ee0 , Epx2 = Eγ 0 ) since the cross-section and the detector configuration favor forward
+scattering. According to simulations, for 511 keV gammas scattering at angles 70◦ < θ1,2 < 90◦ ,
+this is true in approximately 52% of events[28]. This ambiguity does not play a significant role in
+determination of ∆φ = φ1 − φ2 since it is an angle between the two scattering planes. The φ angle
+is reconstructed from ∆x and ∆y, the distances of the fired pixel centers in the plane perpendicular
+to the longer crystal axis.
+
+For the events that satisfy the Compton selection criteria and for a given range of the recon-
+structed angles θ1,2 , we obtained the distribution of the azimuthal angle differences, N(φ1 − φ2 ),
+where φ1,2 are the azimuthal angles of the Compton events in Detector A and B, respectively.
+The N(φ1 − φ2 ) distributions were then corrected for detector acceptance as: Ncor (φ1 − φ2 ) =
+
+
+                                                                                                  7
+N(φ1 − φ2 )/Nmixed (φ1 − φ2 ). The Nmixed is the acceptance determined by event-mixing technique
+[3, 5], where (φ1 − φ2 ) is obtained by taking φ1 and φ2 from different randomly chosen events.
+For each selected Compton event in Detector A, 102 random uncorrelated events are sampled in
+Detector B.
+
+The modulation factor, µ, is determined by fitting the acceptance-corrected distribution, Ncor (φ1 − φ2 ),
+with
+                             Ncor (φ1 − φ2 ) = M[1 − µ cos(2(φ1 − φ2 ))]                          (4)
+
+where M corresponds to the average amplitude of the distribution.
+
+The systematic uncertainty of the determined modulation factor reflects the uncertainty in the
+determination of θ1,2 angles, resulting from the finite energy resolution of the pixels. We found
+this contribution to the systematic uncertainty to be 5.8% following the uncertainty of σθ = 6.5◦ .
+The σθ broadens the nominally selected θ1,2 window by θ1,2 ±σθ1,2 and underestimates µ around
+the maximum value that is achieved for θ1,2 = 82◦ [5].
+
+
+3     Results and discussion
+The modulation of the azimuthal angle difference was measured for the annihilation quanta emerg-
+ing from para-positronium detected directly and in cases where γ2 was made decoherent following
+Compton scattering in the scatterer at θscat = 0◦ , 10◦ , 30◦ , and 50◦ . For quanta of 511 keV, the
+maximum modulation is expected for θ1,2 ≈ 82◦ [8, 9, 11], therefore, for θscat = 0◦ , we selected
+the angular range of 72◦ < θ1,2 < 90◦ . For scattering at θscat = 30◦ and θscat = 50◦ the selected
+angular range in detector B was 73◦ < θ2 < 90◦ and 74◦ < θ2 < 90◦ , respectively. This is because
+the analyzing power A(θ) = sin2 θ/( + 1/ − sin2 θ) (derived from eq. 2) [13], depends on incident
+gamma-ray energy, since  is the ratio of scattered and incident photon energies. Therefore the
+maximum analyzing power for E2 = 450 keV (after scattering at θscat = 30◦ ) is achieved at θ2 ≈ 83◦
+and the maximum analyzing power for E2 = 376 keV (after scattering at θscat = 50◦ ) is achieved
+at θ2 ≈ 84◦ .
+
+The acceptance-corrected distributions of the azimuthal angle differences, Ncor (φ1 − φ2 ), for θscat = 0◦ ,
+10◦ , 30◦ , and 50◦ are shown in Figure 5. The distribution for the direct measurement (Figure 5 (a))
+exhibits the expected behavior, with the maxima at ±90◦ indicating the initial orthogonality in the
+polarizations of the annihilation γs. Similar behavior can be observed in the distributions obtained
+after Compton scattering by an active scatter (Figure 5 (b)-(e)) and the passive scatterer (Figure 5
+(f)). The extracted modulation factors are listed in Table 1. They suggest that the strength of the
+modulation is largely preserved at all measured scattering angles θscat , within the precision of the
+experiment. Such a conclusion seems to be in line with the recent findings of Abdurashitov et al.
+[26] for θscat = 0◦ , but additionally extends the examined range up to θscat = 30◦ . Moreover, the
+azimuthal angle modulation is observed at θscat = 30◦ with a passive scatterer, even though it was
+not evident from the measurements by Watts et al. [4]. We observed somewhat lower modulation
+for θscat = 50◦ , yielding µ = 0.17 ± 0.06, which may be a hint of a partial depolarization of γ2 ,
+expected for larger scattering angles [31], although this result is limited by the statistical precision.
+
+
+4     Conclusions
+We measured the azimuthal correlations of the gamma quanta emerging from para-positronium
+annihilation, based on their Compton scattering in the single-layer gamma-ray polarimeters. Mea-
+
+
+                                                    8
+Table 1: Polarimetric modulation factor, µ, for all measured configurations The values of µ pre-
+sented are subject to additional systematic underestimation of 5.8%. The data acquisition time
+Tacq. in each setup is listed.
+
+
+                                     ◦
+                                    θscat   µ ± ∆µstat.       Tacq. (hour)
+
+                                            0.31 ± 0.01
+                                     0◦                           48∗
+                                                          ∗
+                                            0.35 ± 0.09
+
+                                     10◦    0.36 ± 0.03           256
+
+                                    30◦†    0.33 ± 0.04           205
+
+                                    30◦‡    0.31 ± 0.07           92
+
+                                     50◦    0.17 ± 0.06           90
+∗
+    The total data acquisition duration for the direct gammas and the θscat = 0◦ configuration. Following
+                                                                   †
+event selection the latter accounts for ≈ 0.15% of the events.         θscat = 30◦ with the active scatterer, ‡
+θscat = 30◦ with the passive scatterer
+
+
+surements were performed with one of the quanta undergoing a Compton scattering as a decohering
+process prior to entering the polarimeter and they are compared with the baseline measurement
+where the annihilation quanta are detected directly from the source. The obtained distributions
+of the azimuthal angle differences exhibit the modulation with maxima at φ1 − φ2 = ±90◦ as ex-
+pected. The results show that the strength of the correlation reflected in the measured polarimetric
+modulation factor does not significantly differ for the case of direct quanta or the case of decoherent
+quanta for θscat = 0◦ , 10◦ , and 30◦ . This conclusion differs from indications obtained by Watts et
+al. [4] for θscat ≈ 30◦ , but it is in line with the results of Abdurashitov et al. [26] for θscat ≈ 0◦ . For
+θscat = 50◦ , we observe lower modulation than at the other scattering angles investigated. Further
+statistically more significant measurements, especially at large scattering angles may give a more
+complete insight into the puzzling nature of the correlations of annihilation quanta.
+
+
+Acknowledgements
+This work was supported in part by the “Research Cooperability” Program of the Croatian Science
+Foundation, funded by the European Union from the European Social Fund under the Operational
+Programme Efficient Human Resources 2014–2020, grant number PZS-2019-02-5829, in part by
+QuantiXLie Center of Excellence, a project co-financed by the Croatian Government and European
+Union through the European Regional Development Fund — the Competitiveness and Cohesion
+Operational Programme, grant No. KK.01.1.1.01.0004 and in part by EU Horizon 2020 research
+and innovation programme under project OPSVIO, Grant Agreement No. 101038099.
+
+
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships
+that could have appeared to influence the work reported in this paper.
+
+
+
+
+                                                     9
+Data availability
+Data can be made available on request.
+
+
+References
+[1] A. McNamara et al., Towards optimal imaging with PET: An in silico feasibility study. Phys.
+   Med. Biol., 59, 7587 (2014). DOI:https://doi.org/10.1088/0031-9155/59/24/7587
+
+[2] M. Toghyani et al., Polarisation-based coincidence event discrimination: An in silico
+   study towards a feasible scheme for Compton-PET. Phys. Med. Biol., 61, 5803, (2016).
+   DOI:https://doi.org/10.1088/0031-9155/61/15/5803
+
+[3] M. Makek et al., Single-layer Compton detectors for measurement of polarization correla-
+   tions of annihilation quanta. Nucl. Instr. Meth. Phys. Res. A, 958, Art. no. 162835, (2020).
+   DOI:https://doi.org/10.1016/j.nima.2019.162835
+
+[4] D.P. Watts et al., Photon quantum entanglement in the MeV regime and its application in PET
+   imaging. Nat. Commun., 12, 2646, (2021). DOI:https://doi.org/10.1038/s41467-021-22907-5
+
+[5] S. Parashari et al., Optimization of detector modules for measuring gamma-ray polarization in
+   Positron Emission Tomography. Nuclear Instrum. Methods Phys. Res. A, 1040, 167186, (2022).
+   DOI:https://doi.org/10.1016/j.nima.2022.167186
+
+[6] D. Bohm, & Y. Aharonov, Discussion of experimental proof for the paradox of Einstein, Rosen,
+   and Podolsky. Phys. Rev. 108, 1070, (1957). DOI:https://doi.org/10.1103/PhysRev.108.1070
+
+[7] S.J. Bell, On the Einstein Podolsky Rosen paradox. Physics Physique Fizika, 1, 195 (1964).
+   DOI:https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195
+
+[8] H.S. Snyder, S. Pasternack & J. Hornbostel, J. Angular correlation of scattered annihilation
+   radiation. Phys. Rev., 73, 440, (1948). DOI:https://doi.org/10.1103/PhysRev.73.440
+
+[9] J.C. Ward, Some Properties of Elementary Particles, Ph.D. Thesis, University of Oxford (1949).
+
+[10] J. Wheeler, Polyelectrons. Annals New York                Acad.    Sci.   48,   219,   (1946).
+   DOI:https://doi.org/10.1111/j.1749-6632.1946.tb31764.x
+
+[11] M.H.L. Pryce & J.C. Ward, Angular correlation effects with annihilation radiation. Nature
+   160, 435, (1947). DOI:https://doi.org/10.1038/160435a0
+
+[12] O. Klein & T. Nishina, Über die Streuung von Strahlung durch freie Elektronen
+   nach der neuen relativistischen Quantendynamik von Dirac. Z. Phys. 52, 853, (1929).
+   DOI:http://dx.doi.org/10.1007/BF01366453
+
+[13] P. Knights et al., Studying the effect of polarisation in Compton scattering in the undergradu-
+   ate laboratory. Eur. J. Phys. 39, 025203, (2018). DOI:https://doi.org/10.1088/1361-6404/aa9c98
+
+[14] A. Einstein, B. Podolsky, & N. Rosen, Can quantum-mechanical descrip-
+   tion of physical reality be considered complete? Phys. Rev. 47, 777, (1935).
+   DOI:https://doi.org/10.1103/PhysRev.47.777
+
+[15] A. Einstein, Zur Elektrodynamik bewegter Körper. (German) [On the electrodynamics of
+   moving bodies]. Ann. Phys., 322, 891, (1905). DOI:https://doi.org/10.1002/andp.19053221004
+
+
+                                                10
+[16] B.C. Hiesmayr, & P. Moskal, Witnessing entanglement in Compton scattering processes via
+   mutually unbiased bases. Sci. Rep. 9, 8166, (2019). DOI:https://doi.org/10.1038/s41598-019-
+   44570-z
+
+[17] P. Caradonna, D. Reutens, T. Takahashi, S. Takeda, V. Vegh, Probing entanglement in
+   Compton interactions. J. Phys. Commun. 3, 105005 (2019). DOI:https://doi.org/10.1088/2399-
+   6528/ab45db
+
+[18] C.S. Wu & I. Shaknov, The angular correlation of scattered annihilation radiation. Phys. Rev.
+   77, 136 (1950). DOI:https://doi.org/10.1103/PhysRev.77.136
+
+[19] H. Langhoff, Die linearpolarisation der vernichtungsstrahlung von positronen. Z. Phys. 160,
+   186–193 (1960). DOI:https://doi.org/10.1007/BF01336980
+
+[20] L.R. Kasday, In Foundations of Quantum Mechanics: Proceedings of the International School
+   of Physics “Enrico Fermi” (ed d’Espagnat, B.) 195–210 (Academic P XIV, 1971).
+
+[21] G. Faraci et al., An experimental test of the EPR paradox. Lett. Nuovo Cim. (1971-1985) 9,
+   607–611 (1974). DOI:https://doi.org/10.1007/BF02763124
+
+[22] L.R. Kasday, J. D. Ullman & C.S. Wu, Angular correlation of Compton-scattered an-
+   nihilation photons and hidden variables. Il Nuovo Cimento B 25 B, 633–661 (1975).
+   DOI:https://doi.org/10.1007/BF02724742
+
+[23] A. Wilson, J. Lowe, & D. Butt, Measurement of the relative planes of polarization of annihi-
+   lation quanta as a function of separation distance. J. Phys. G: Nucl. Phys. 2, 613–624 (1976).
+   DOI:https://doi.org/10.1088/0305-4616/2/9/009
+
+[24] M. Bruno, M. D’Agostino, & C. Maroni, Measurement of                       linear polariza-
+   tion of positron annihilation photons. Il Nuovo Cimento B 40,                143–152 (1976).
+   DOI:https://doi.org/10.1007/BF02739186
+
+[25] G. Bertolini, E. Diana & A. Scotti, Correlation of annihilation γ-ray polarization. Il Nuovo
+   Cim. B 63, 651–665 (1981). DOI:https://doi.org/10.1007/BF02755105
+
+[26] D. Abdurashitov et al., Setup of Compton polarimeters for measuring entangled annihilation
+   photons, Jour. Inst. 17, P03010, (2022). DOI:https://doi.org/10.1088/1748-0221/17/03/P03010
+
+[27] S. Sharma, D. Kumar, P. Moskal, Decoherence Puzzle in Measurements of Photons
+   Originating from Electron–Positron Annihilation. Acta Phys. Pol., (3) 142, 428 (2022).
+   Doi:https://doi.org/10.12693/APhysPolA.142.428
+
+[28] A.M. Kožuljević et al., Study of Multi-Pixel Scintillator Detector Configura-
+   tions for Measuring Polarized Gamma Radiation, Condensed Matter, 6, 43, (2021).
+   DOI:https://doi.org/10.3390/condmat6040043
+
+[29] A.D. Francesco et al., TOFPET2:A high-performance ASIC for time and amplitude measure-
+   ments of SiPM signals in time-of-flight applications. J. Instr., 11, Art. no. C03042, (2016).
+
+[30] R. Bugalho et al., Experimental characterization of the TOFPET2 ASIC. J. Instr., 14, P03029,
+   (2019). DOI:https://doi.org/10.1088/1748-0221/14/03/P03029
+
+[31] G.O. Depaola, New Monte Carlo method for Compton and Rayleigh scattering
+   by polarized gamma rays. Nucl. Instr. Methods Phys. Res. A, 512, 619 (2013).
+   DOI:https://doi.org/10.1016/S0168-9002(03)02050-3
+
+
+                                               11
+

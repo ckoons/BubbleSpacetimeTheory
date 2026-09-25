@@ -1,0 +1,785 @@
+                                               Mon. Not. R. Astron. Soc. 000, 1–10 (2020)          Printed 26 January 2021   (MN LATEX style file v2.2)
+
+
+
+
+                                               A new tension in the cosmological model from primordial
+                                               deuterium?
+
+                                                   Cyril Pitrou,1? Alain Coc,2 Jean-Philippe Uzan,1 Elisabeth Vangioni1
+                                               1 Institut d’Astrophysique de Paris, CNRS UMR 7095, 98 bis Bd Arago, 75014 Paris, France
+
+                                               Sorbonne Université, Institut Lagrange de Paris, 98 bis Bd Arago, 75014 Paris, France
+                                               2 IJCLab, CNRS IN2P3, Université Paris-Saclay, Bâtiment 104, F-91405 Orsay Campus France
+
+
+
+
+                                               26 January 2021
+
+
+
+
+arXiv:2011.11320v3 [astro-ph.CO] 25 Jan 2021
+                                                                                     ABSTRACT
+                                                                                     Recent measurements of the D(p,γ)3 He nuclear reaction cross-section and of the neu-
+                                                                                     tron lifetime, along with the reevaluation of the cosmological baryon abundance from
+                                                                                     cosmic microwave background (CMB) analysis, call for an update of abundance predic-
+                                                                                     tions for light elements produced during the big-bang nucleosynthesis (BBN). While
+                                                                                     considered as a pillar of the hot big-bang model in its early days, BBN constraining
+                                                                                     power mostly rests on deuterium abundance. We point out a new ≃ 1.8σ-tension on
+                                                                                     the baryonic density, or equivalently on the D/H abundance, between the value in-
+                                                                                     ferred on one hand from the analysis of the primordial abundances of light elements
+                                                                                     and, on the other hand, from the combination of CMB and baryonic oscillation data.
+                                                                                     This draws the attention on this sector of the theory and gives us the opportunity to
+                                                                                     reevaluate the status of BBN in the context of precision cosmology. Finally, this paper
+                                                                                     presents an upgrade of the BBN code PRIMAT.
+                                                                                     Key words: primordial nucleosynthesis, baryon abundance, deuterium
+
+
+
+                                               INTRODUCTION                                                           in the understanding of each data set, (2) reconsider some
+                                                                                                                      hypothesis of the cosmological model, such as the Coper-
+                                               Big-Bang nucleosynthesis (BBN) has long been considered
+                                                                                                                      nican principle that assumes a spatially homogeneous and
+                                               as one of the three historical pillars of the cosmological “Big-
+                                                                                                                      isotropic universe, or in this particular case the fluid limit
+                                               Bang” model, together with the expansion of the universe
+                                                                                                                      since thin beams (Clarkson et al. 2012) do not propagate in
+                                               revealed by the Hubble diagram and the existence of a cos-
+                                                                                                                      the mean Friedmann-Lemaı̂tre (FL) spacetime, which can
+                                               mic microwave background (CMB) of radiation. In the past
+                                                                                                                      be at the origin of the misinterpretation of the cosmological
+                                               decades, the accuracy of the measurements and analysis of
+                                                                                                                      parameters (Fleury, Dupuy & Uzan 2013). The interpreta-
+                                               these three cosmological probes have drastically improved
+                                                                                                                      tion of any observation requires to model the propagation
+                                               and were complemented by many other observables, mostly
+                                                                                                                      of light and is thus tied with the whole cosmological model
+                                               based on the large scale structure of the Universe. As a
+                                                                                                                      itself. To finish (3) one can consider new physics, since here
+                                               consequence, the error bars on the cosmological parameters
+                                                                                                                      the two discrepant values for H0 correspond to data in the
+                                               have significantly been improved and, as could have been
+                                                                                                                      early and late universe; see e.g. Di Valentino et al. (2020)
+                                               anticipated, one starts to witness tensions between different
+                                                                                                                      for a list of attempts.
+                                               probes.
+                                                    This is in particular the case for the Hubble param-                   As far as BBN is concerned, the theoretical computa-
+                                               eter H0 that is measured to be 69.36 ± 0.54 km/s/Mpc 1                 tion rests on the hypothesis of a strictly spatially homoge-
+                                               from the global fit of the CMB data (Planck Collabora-                 neous and isotropic FL spacetime, which is thought to be a
+                                               tion et al. 2020). This “low” value is to be contrasted                good approximation in the early radiation dominated uni-
+                                               with the higher value obtained from standard distance lad-             verse in which density perturbations are still very small. The
+                                               der, 73.4 ± 1.4 km/s/Mpc (Reid, Pesce & Riess 2019), or                microphysics at play is particle and nuclear physics below
+                                               73.3 ± 1.7 km/s/Mpc (Wong et al. 2020) from strong grav-               100 MeV that can be tested in accelerator. Today, several
+                                               itational lensing effects on quasar systems. In such a situ-           public (or not) numerical codes are able to predict the abun-
+                                               ation, one first needs (1) to look for so-far negligible bias          dances of the light elements (Wagoner, Fowler & Hoyle 1967;
+                                                                                                                      Kawano 1992; Coc & Vangioni 2017; Pisanti et al. 2008; Con-
+                                                                                                                      siglio et al. 2017; Arbey 2012; Arbey et al. 2020; Pitrou et al.
+                                               ?   pitrou@iap.fr                                                      2018; Fields et al. 2020). Prior to WMAP, these predictions
+                                               1   All error bars are stated with 1σ confidence intervals.            depended on two cosmological parameters, the total number
+
+                                               © 2020 RAS
+2     C. Pitrou, A. Coc, J.-P. Uzan, E. Vangioni
+of relativistic degrees of freedom (or equivalently the effec-   bust prediction of the standard cosmological model (Peebles
+tive number Neff of neutrino families) and the number of         1966a,b) that allowed to claim that only 3 neutrino families
+baryons per photon η. This latter quantity is equivalent to      existed (Yang et al. 1979), as was later confirmed by the LEP
+specifying the baryon density Ωb h2 , a parameter measured       in 1990. But today, due to its mild dependence on η and the
+by other cosmological probes such as the CMB, with the           accuracy of its measurement, helium-4 is not competitive
+relation (Pitrou et al. 2018)                                    anymore in our era of precision cosmology to constrain the
+                                               3                baryon density. The lithium-7 abundance still exhibits a fac-
+ Ω b h2
+                                 
+                         η              TCMB                     tor ∼ 3 discrepancy, that is usually discarded with modesty
+          ≃
+0.0224            6.13197 × 10−10     2.7255 K                   in cosmological studies that never take it into account. The
+                                           !
+                                  −3 Yp                          consensus is that it cannot arise from the nuclear sector (Coc
+                    1 − 1.759 × 10 0.2471
+                ×                            .             (1)   et al. 2014; Davids 2020; Iliadis & Coc 2020). Helium-3 is
+                       1 − 1.759 × 10−3
+                                                                 less constraining because, (1) since it is both produced and
+Prior to WMAP, these parameters were adjustable but they         destroyed in stars, the evolution of its abundance in time is
+are now determined with high accuracy from the CMB anal-         not very precise and (2) because there are only few obser-
+ysis. A first method consists in fixing Ωb h2 from CMB and       vations in the Galactic disk (Bania, Rood & Balser 2002).
+Neff from particle physics (thus making BBN a parameter-         Vangioni-Flam et al. (2003) have shown that these observa-
+free model) and assess the agreement between the predicted       tions do not allow to set a strong constraint on the primor-
+abundances and the measured ones. Alternatively, we can          dial baryon density due to the limited understanding of the
+constrain Ωb h2 and Neff from BBN (by confronting the pre-       chemical evolution of this isotope. To finish, deuterium is a
+dicted abundances which depend on these physical parame-         very fragile isotope that can only be destroyed after BBN
+ters, and the measured ones) and assess the agreement with       throughout stellar evolution. The most recent recommended
+the values determined by other probes.                           observed value provided by Cooke, Pettini & Steidel (2018)
+     Spectroscopic measurements of the abundances of             is
+helium-4, deuterium, helium-3 and lithium-7 allow for a
+                                                                                D/H = (2.527 ± 0.030) × 10−5                (2)
+comparison with the BBN theoretical predictions. While
+lithium-7 still exhibits a so-far unexplained discrepancy, see   at a redshift z ∼ 2.5 − 3.1.
+e.g. Molaro & Vangioni (2009, 2010); Fields (2011) for an             It follows that among all light elements, deuterium is the
+extended debate, deuterium has been considered as a suc-         most constraining since both its observational measurement
+cess of the model due to the agreement of BBN predictions,       and its theoretical prediction reach 1% accuracy. As can
+CMB constraints on Ωb h2 and observed primitive abun-            been seen from our previous analysis (Pitrou et al. 2018),
+dances. Recent measurements (Mossa et al. 2020b,a) of one        it requires theoretical predictions and nuclear data to reach
+of the key nuclear cross-section drives us to reconsider the     the 1% level so that great care should be paid to nuclear
+robustness of this primordial deuterium success, and more        cross-sections affecting deuterium nucleosynthesis.
+largely of the status of BBN in the standard cosmological             PRIMAT (Pitrou et al. 2018) computes directly the
+model.                                                           weak interaction rates, which interconvert neutrons and
+                                                                 protons, including radiative corrections, finite nucleon
+                                                                 mass effects, and neutrino spectral distortions, whereas
+                                                                 PArthENoPE (Consiglio et al. 2017) and AlterBBN (Arbey
+1   BBN OVERVIEW
+                                                                 et al. 2020) rely on a the fit given in Appendix C of Serpico
+BBN predictions consist in abundances of light nuclei (deu-      et al. (2004). The differential equations governing the evo-
+terium, helium-3 and -4, lithium-7) that can be compared         lution of nuclear abundances are integrated in time (as also
+to spectroscopic measurements and to the trace abundances        does AlterBBN), which differs from PArthENoPE which inte-
+of heavier nuclei (Iocco et al. 2007; Coc, Uzan & Vangioni       grates equations in terms of the plasma temperature. Since
+2014), that cannot be measured but may influence the evo-        dT /dt can be obtained from the plasma continuity equation,
+lution of the first generation of stars. These nuclei are syn-   both methods are of course equivalent. Since its release in
+thetized through nuclear reactions in an expanding universe      2018, a series of improvements have been included in PRIMAT
+and can take place only in a narrow window of time dur-          :
+ing which (1) the thermal bath of the universe has cooled
+                                                                   • A refined treatment of neutrino decoupling, including
+enough for the light atomic nuclei, and foremost deuterium,
+                                                                 neutrino oscillations and neutrino spectral distortions, has
+not to be photo-dissociated, and (2) the density of baryonic
+                                                                 been included by using results from an external neutrino
+matter is high enough for the number of collisions to be large
+                                                                 decoupling computation (Froustey & Pitrou 2020; Froustey,
+enough. As such it rests on nuclear physics in an expanding
+                                                                 Pitrou & Volpe 2020);
+homogeneous universe and has two free cosmological param-
+                                                                   • Pair production corrections to nuclear rates that other-
+eters, Neff and η.
+                                                                 wise produce a photon in the final state have been included
+     The predictions reach the percent-level accuracy
+                                                                 for the most important reactions (Pitrou & Pospelov 2020);
+on helium-4, in complete agreement with its observed
+                                                                   • QED corrections at order e3 have been taken into ac-
+value (Aver et al. 2020) Yp = 0.2453 ± 0.0034. Note however
+                                                                 count in the plasma thermodynamics (Bennett et al. 2020b),
+that its order of magnitude was initially obtained (Alpher,
+                                                                 whereas previously it was restricted to order e2 corrections.
+Bethe & Gamow 1948; Alpher & Herman 1948) from
+back-of-the-envelope considerations, because it depends very     These three modifications have a very minor impact on
+mildly on η, and mostly on τn , Neff (along with the Fermi       105 × D/H as they shift it by 0.0015, −0.0021 and −0.0003
+and Newton constants, GF and GN ). It was an early and ro-       respectively. Only the first modification has a small impact
+
+                                                                                              © 2020 RAS, MNRAS 000, 1–10
+                                                                        A tension in cosmology from deuterium?                   3
+on YP as it shifts it by 0.00005, the other two being com-          fundamental constants (the sensitivity to these constants
+pletely subdominant.                                                has been estimated in works related to the constraints on
+     Also, since the publication of Pitrou et al. (2018) there      their possible variations, see e.g. Coc et al. (2007); Uzan
+have been a series of updates on the values of the physi-           (2003, 2011)).
+cal parameters. First concerning the cosmology, the value of             Finally, the nuclear network has been updated to take
+Ωb h2 has been revised by the Planck 2018 release (Planck           into account the results of new experiments or analyses as
+Collaboration et al. 2020) to                                       summarized in Table 1. None of these changes brings any
+                                                                    relief to the cosmological lithium problem (Iliadis & Coc
+        Ωb h2 = 0.02237 ± 0.00015                 (CMB)      (3)
+                                                                    2020). The reference for the other, unchanged reaction rates,
+for the CMB alone (instead of the previous 0.02225±0.00016          can be found in Coc et al. (2012); Pitrou et al. (2018).
+from Ade et al. (2016)), and                                             The change in the 7 Be(n,p)7 Li rate is mainly responsi-
+                                                                    ble for the small decrease of Li/H. The Rijal et al. (2019)
+      Ωb h2 = 0.02242 ± 0.00014             (CMB+BAO)        (4)    experiment put the 7 Be(d,p)2α rate on firmer ground but
+when combined with baryon acoustic oscillations (BAO)               brings no change in our Li/H predictions (Coc & Davids
+data (Alam et al. 2017). The value of the number of ef-             2019). The rates from the re–analyses of the 3 H(d,n)4 He
+fective relativistic degrees of freedom is (Mangano et al.          and 3 He(d,p)4 He reactions lead to a small change in the
+                                                                    3
+2005; de Salas & Pastor 2016; Grohs & Fuller 2017; Escud-             He/H prediction. To finish, and that will be the focus of
+ero Abenza 2020; Akita & Yamaguchi 2020; Froustey, Pitrou           our present analysis, a new reaction rate for the D(p,γ)3 He
+& Volpe 2020; Bennett et al. 2020a)                                 reaction (Mossa et al. 2020b) has recently been published.
+                                                                    This is a long awaited and major progress for BBN.
+                          Neff = 3.044                       (5)
+                         2
+for 3 neutrino families , taking into account the neutrino
+decoupling physics. This value is very robust and can be            2     DEUTERIUM NUCLEOSYNTHESIS
+understood fully from the adiabatic transfer of averaged os-
+cillations (ATAO) approximation (Froustey, Pitrou & Volpe           Except for 4 He, differences in modern BBN codes are ex-
+2020). This allows one to show that this prediction is in-          plained by differences in adopted reaction rates. Hence, to
+sensitive to the type of neutrino mass hierarchy (normal or         compare our results with others, one first needs to compare
+inverted) as it depends nearly exclusively on mixing angles.        reaction rates. The production of deuterium mostly depends
+Also, since mixing angles are currently known with rather           on 4 nuclear reactions. Deuterium is produced through
+                                                                    1
+good precision, the propagation of uncertainty affects Neff           H(n,γ)2 H, the cross-section of which is obtained from an ef-
+with ±2 × 10−5 only.                                                fective field theory computation (Ando et al. 2006), reliable
+     Then, concerning the microphysics the new neutron de-          at the 1%-level and in perfect agreement with the existing
+cay constant reported by Zyla et al. (2020) is                      few experimental data (see e.g. Fig. 1 in Coc (2013)). It is
+                                                                    then involved in 3 nuclear reactions D(p,γ)3 He, D(d,n)3 He
+                       τn = 879.4 ± 0.6 s                    (6)    and D(d,p)3 H. These reactions are the main sources of nu-
+which is very close to τn = 879.5 ± 0.8 s used in Pitrou et al.     clear uncertainty for the prediction of the primordial deu-
+(2018), but with an even smaller error bar. It was histori-         terium abundance. The sensitivity (Coc & Vangioni 2010)
+cally used to bypass the uncertainty about the quark mixing         to these reaction rates are
+angle Vud and the nucleon axial coupling constant gA in the         ∆(D/H)                  ∆hσviD(p,γ)3 He
+prefactor Vud2        2
+               (1 + 3gA ) which enters the weak interaction                     =   −0.32                                       (8)
+                                                                     D/H                    hσviD(p,γ)3 He
+rates expressions, thanks to the relation
+                                                                    ∆(D/H)                  ∆hσviD(d,n)3 He        ∆hσviD(d,p)3 H
+                                2π 3 ~                                          =   −0.54                   − 0.46                .
+              τn =                                  ,        (7)     D/H                    hσviD(d,n)3 He          hσviD(d,p)3 H
+                            2          2
+                   λ0 G2F Vud (1 + 3gA   )(me c2 )5
+                                                                    It is clear that a percent accuracy on the predictions, as re-
+with λ0 ≃ 1.75434 (Cooper et al. 2010; Pitrou et al. 2018).         quired by the data, implies to reach a percent level accuracy
+Note that from the recent values3 Vud = 0.97420 ± 0.00028           on the cross-sections. Since none of them have resonances,
+and gA = 1.2756 ± 0.0013, we would infer from (7) that              their determination boils down to the accurate modeling of
+τn = 879.4 ± 0.5 s, hence increasing the confidence in the          the slowly varying energy dependent S-factor and to a pre-
+determination (6).                                                  cise determination of their absolute scale.
+     BBN also notably depends on the value of the Newton
+constant GN and Fermi constant GF and we rely on their
+latest CODATA values (Mohr et al. 2018) as well as for all          2.1    Reaction rate evaluations
+                                                                    To derive reaction rates and uncertainties, there are two
+2 This recent reference value (Froustey, Pitrou & Volpe 2020) is    main approaches in the literature. Either one empirically fits
+lower than the previously admitted 3.046 of e.g. Mangano et al.     both the energy dependence and scale so as to follow closely
+(2005) or the improved value 3.045 of de Salas & Pastor (2016),
+                                                                    the data, or one uses theoretical energy dependences from
+essentially due to the inclusion of O(e3 ) QED corrections in the
+plasma equation of state, following Bennett et al. (2020b).
+                                                                    nuclear physics models and only determine the absolute nor-
+3 We use the PDG2020 (Zyla et al. 2020) value for g , but
+                                                          A
+                                                                    malisation. Different approaches have also been considered
+the PDG2018 (Tanabashi et al. 2018) value for Vud since the         in the treatment of uncertainties, frequentist versus bayesian
+PDG2020 value for Vud is lower and slightly incompatible with       with different treatments of systematic uncertainties. How-
+the unitarity of the CKM matrix.                                    ever, it has been shown that given the same datasets and
+
+© 2020 RAS, MNRAS 000, 1–10
+4     C. Pitrou, A. Coc, J.-P. Uzan, E. Vangioni
+
+Table 1. References of the reaction rates in PRIMAT 2018 (Pitrou et al. 2018) and their updated values in PRIMAT 2021.
+
+                            Reaction        PRIMAT 2018                   PRIMAT 2021
+                            D(p,γ)3 He      Iliadis et al. (2016)         LUNA Mossa et al. (2020b)
+                            3 H(d,n)4 He    Descouvemont et al. (2004)    de Souza et al. (2019)
+                            3 He(d,p)4 He   Descouvemont et al. (2004)    de Souza, Iliadis & Coc (2019)
+                            7 Be(n,p)7 Li   Descouvemont et al. (2004)    de Souza et al. (2020)
+                            7 Be(d,p)2α     Caughlan & Fowler (1988)      Rijal et al. (2019)
+
+
+fitting functions, those different methods lead to the same           (2016) used the theoretical S–factor from Marcucci et al.
+results for the three reactions. For instance the frequentist         (2005) re-normalized (e.g. a factor of 0.9900±0.0368 in Coc
+(Coc et al. 2015) and bayesian Iliadis et al. (2016) D(p,γ)3 He       et al. (2015)) to a selection of experimental data. Other au-
+rates are almost identical (see next section). Similarly, Eqs.        thors (Cyburt 2004; Descouvemont et al. 2004) have pre-
+(3.49)–(3.51) from Serpico et al. (2004) were tested in Coc           ferred the alternative option that follows closely the exper-
+et al. (2015) leading to very similar rates and uncertainties.        imental data points, resulting in a lower S–factor at BBN
+Hence, the differences in reaction rates obtained from dif-           energies, mainly driven by the Ma et al. (1997) data (see
+ferent groups come from the selection of datasets and the             Fig. 1). The widely used NACRE–II (Xu et al. 2013) compi-
+choice of fitting function.                                           lation relies for this reaction on a potential model, adjusted
+      A major difficulty, for those three reactions is that           to experimental data, but gives little details. The NACRE–II
+only a few experimental datasets were obtained by pre-                (Xu et al. 2013) compilation was designed to be conservative
+cision experiments dedicated to BBN (e.g. (Mossa et al.               i.e. their S–factor limits were supposed to encompass almost
+2020b) for D(p,γ)3 He or Leonard et al. (2006) for D(d,n)3 He         all existing data, in order to be sure that the real S–factor
+and D(d,p)3 H). Many datasets lack sufficient documentation           is within the limits. The problem became more acute with
+concerning the scale (systematic) error. This is the main cri-        the publication of an improved theoretical S–factor by Mar-
+teria used by Coc et al. (2015); Iliadis et al. (2016); Gómez        cucci et al. (2016), lying above the previous one of Marcucci
+Iñesta, Iliadis & Coc (2017) to exclude datasets. In several         et al. (2005); see Fig. 1. Very recently, this cross–section, of
+cases, the scale error is not evaluated or only the combined,         the most important reaction for deuterium destruction, has
+statistical and systematic uncertainties are given so that the        been measured, first at the Joižef Stefan Institute of Ljubl-
+corresponding datasets are also put aside. Details on this se-        jana by Tišma et al. (2019), then at the LUNA, Gran Sasso
+lection are given in Coc et al. (2015); Iliadis et al. (2016);        underground laboratory (Mossa et al. 2020b) (see Fig. 1).
+Gómez Iñesta, Iliadis & Coc (2017).                                 Those experiments explored the energy range relevant to
+      The other issue concerns the S–factor fitting function.         BBN. In particular, the LUNA data points span the range
+One option is to use polynomial (e.g. Serpico et al. (2004);          Ecm = 32–263 keV, and have very small error bars.
+Cyburt (2004)) or splines (e.g. Nollett & Burles (2000)),
+                                                                           From these experiments, one can deduce that
+but choosing the correct polynomial degree is difficult. A
+                                                                        • the LUNA data (Mossa et al. 2020b) confirm, in the
+higher degree provides a better fit, but can introduce artifi-
+                                                                      BBN range, the energy dependence and magnitude of the
+cial structures. This is why many evaluations introduce some
+                                                                      S–factor calculated by Marcucci et al. (2005) (Fig. 1),
+phenomenological (e.g. R–matrix in Descouvemont et al.
+                                                                        • the new data (Tišma et al. 2019; Mossa et al. 2020b)
+(2004) or Potential Model from Xu et al. (2013)) or even
+                                                                      do not confirm the low S–factor from Ma et al. (1997) that,
+theoretical prejudices (e.g. ab initio model of Neff (2011)).
+                                                                      previously drove down the fitted S–factors (Descouvemont
+In previous works, (e.g. Pitrou et al. (2018)), we had chosen
+                                                                      et al. 2004; Cyburt 2004),
+this latter option, since ab initio S–factors were available for
+                                                                        • does not confirm the higher theoretical S–factor from
+the three reactions (Marcucci et al. 2005; Arai et al. 2011).
+                                                                      Marcucci et al. (2016), and
+      Finally, the D(p,γ)3 He, D(d,n)3 He and D(d,p)3 H
+                                                                        • the LUNA data lies in between the S–factor limits
+adopted rates in Pitrou et al. (2018) result from bayesian
+                                                                      derived by Coc et al. (2015) and, not shown on the Fig-
+analyses (Iliadis et al. 2016; Gómez Iñesta, Iliadis & Coc
+                                                                      ure, those subsequently obtained by a more sophisticated
+2017). They have the advantage of not being limited to gaus-
+                                                                      (Bayesian) analysis by Iliadis et al. (2016).
+sian distributions and to be able to take into account sys-
+tematic uncertainties in a simple way (Iliadis et al. 2016)                Consequently, the rate (Iliadis et al. 2016) used by
+(see also de Souza et al. (2019); de Souza, Iliadis & Coc             Pitrou et al. (2018) will need only minor revision (Moscoso
+(2019); de Souza et al. (2020) concerning other reactions).           et al., in preparation), and confirm the deuterium tension,
+However, note that for the D(p,γ)3 He rate we use the latest          first observed by Coc et al. (2015); Pitrou et al. (2018).
+LUNA rate by Mossa et al. (2020b) (see below).                        Indeed, Fig. 2 compares the rate Iliadis et al. (2016) pre-
+                                                                      viously used by Pitrou et al. (2018) with the new rates re-
+                                                                      cently derived from Eq. (2) and (3) in Mossa et al. (2020b),
+                                                                      in agreement with their Table 1. In the BBN temperature
+2.2   The D(p,γ)3 He rate
+                                                                      range, the new rate is mostly within the limits of the previ-
+This reaction rate has long been a subject of controversy.            ously adopted ones. Fields et al. (2020) use the D(p,γ)3 He
+As displayed in Fig. 23 of Pitrou et al. (2018) (updated in           rate from NACRE–II (Xu et al. 2013) as a baseline, but
+Fig. 1 below), there was a scarcity of experimental data in           also consider those from Coc et al. (2015) (very close to the
+the region of interest for BBN.                                       one Iliadis et al. (2016) used in PRIMAT; see Fig. 2) and the
+     In their evaluations, Coc et al. (2015) and Iliadis et al.       high theoretical rate of Marcucci et al. (2016). Few details
+
+                                                                                                    © 2020 RAS, MNRAS 000, 1–10
+                                                                                    A tension in cosmology from deuterium?                      5
+
+                                                                     2        3
+                                                                      H(p,γ) He
+                                          2
+
+
+
+
+            Relative to Marcucci+ 2005
+                                                         Descouvemont+ 2004                                          Bys08
+                                         1.8                                                                         Cas02
+                                                         Cyburt+ 2004
+                                                                                                                     Sch97
+                                                         Coc+ 2015                                                   Ma97
+                                         1.6
+                                                         Marcucci+ 2016 (Theory)
+
+                                         1.4                                                                       New:
+                                                                                                                     Tis19
+                                                                                                                     LUNA
+                                         1.2
+
+
+                                          1
+
+
+                                         0.8
+
+
+                                         0.6                                                             BBN
+
+                                                    -3        -2                             -1
+                                               10        10                             10                           1
+
+                                                                                                                     ECM (MeV)
+
+Figure 1. Theoretical and experimental S–factor, normalized to the Marcucci et al. (2005) theoretical one. Data in grey point ”Bys08”
+(Bystritsky et al. 2008), ”Ca02” (Casella et al. 2002), ”Sch97” (Schmid et al. 1997) and ”Ma97” (Ma et al. 1997), are those used in our
+previous calculations (Coc et al. 2015; Iliadis et al. 2016; Pitrou et al. 2018). Blue points (Tišma et al. 2019) and red points (LUNA
+Mossa et al. (2020b)) are new. Compared to Fig. 23 of Pitrou et al. (2018), only datasets that were used in Coc et al. (2015); Iliadis
+et al. (2016) are displayed. Curves are the S–factor used in previous BBN calculations (see text).
+
+
+
+are given in NACRE–II on the evaluation of the D(p,γ)3 He                         ments that are in good agreement with the theoretical cross
+rate, but it is found to be significantly lower than the one                      section obtained by Arai et al. (2011) as can be seen in Fig. 3.
+used in PRIMAT and has wider limits. Hence, its use by Fields                     It displays the ratio of D(d,n)3 He over D(d,p)3 H S–factors,
+et al. (2020) is expected to lead to a higher D/H prediction.                     allowing to evaluate the coherence of the data because this
+     To take into account the new experimental data we use                        ratio is essentially governed by the Coulomb interaction, and
+the Mossa et al. (2020b) rate, derived from their Eq. (2) and                     as such is weakly dependent of the nuclear model. The the-
+(3), making comparison with other works easier.                                   oretical curve (Arai et al. 2011) (not a fit) reproduces the
+                                                                                  directly measured data, including the Schulte et al. (1972) at
+                                                                                  high energy, above the BBN range. Reaction rates based on
+2.3   The D(d,n)3 He and D(d,p)3 H rates                                          a re–normalization of the Arai et al. (2011) S–factor to the
+                                                                                  experimental data of Krauss et al. (1987); Brown & Jarmie
+As reminded in Eq. (8), two other reactions are impor-                            (1990); Greife et al. (1995); Leonard et al. (2006) were ob-
+tant for deuterium destruction: D(d,n)3 He and D(d,p)3 H.                         tained by Coc et al. (2015) and Gómez Iñesta, Iliadis &
+For these reactions, PRIMAT relies on the rates evaluated by                      Coc (2017) analyses. These four experimental studies were
+Gómez Iñesta, Iliadis & Coc (2017), based on the theoret-                       selected because they all provide both statistical and sys-
+ical, ab initio energy dependences from Arai et al. (2011)                        tematic uncertainties. In particular the most recent direct
+re-normalized to a selection of experimental data, using                          experiment (Leonard et al. 2006) provides an error matrix
+bayesian techniques. Fields et al. (2020) use instead the                         and quote a scale error as low as 2%±1%. Both uncertain-
+NACRE–II rates based on a DWBA model adjusted to ex-                              ties were considered separately by Coc et al. (2015), using
+perimental data. However, as for D(p,γ)3 He, few details are                      a classical analysis, and by Gómez Iñesta, Iliadis & Coc
+available in NACRE–II on the evaluation of experimental                           (2017) with a Bayesian analysis that, in particular treats
+data, and rate uncertainties. Contrary to the D(p,γ)3 He re-                      systematic uncertainties as priors. Resulting reaction rates
+action, several recent experimental studies have investigated                     were found to differ by less than 0.2% and we adopt the
+both D(d,n)3 He and D(d,p)3 H cross sections at BBN ener-                         Gómez Iñesta, Iliadis & Coc (2017) rate. The D(d,n)3 He and
+gies (Krauss et al. 1987; Brown & Jarmie 1990; Greife et al.                      D(d,p)3 H rates used in the LUNA BBN calculations (Mossa
+1995; Leonard et al. 2006). These are all direct measure-
+
+© 2020 RAS, MNRAS 000, 1–10
+6                                               C. Pitrou, A. Coc, J.-P. Uzan, E. Vangioni
+
+                                                                                3
+                                                                         D(p,γ) He
+                                                                                                                                     1.3
+
+
+
+
+                                                                                                             H(d,n) He / H(d,p) H
+                                                1.1
+
+
+
+
+    Relative to Iliadis+ 2016 (median rate)
+                                                                                                             3
+                                                                                                                                                            Arai+ 2011
+                                                                                                                                    1.25
+                                                                                                             2
+                                                                                                                                               Tum14
+                                              1.075             Coc+ 2015             LUNA 2020
+                                                                                                                                     1.2       Leo06
+                                                                                                             3
+                                                                Iliadis+ 2016                                                                  Gre95
+                                               1.05                                                                                 1.15       Bro90
+                                                                                                             2
+                                                                                                                                               Kra87 (B)
+                                                                                                                                     1.1
+                                              1.025                                                                                            Kra87 (M)
+                                                                                                                                    1.05       Sch72
+
+                                                 1
+                                                                                                                                      1
+
+                                                                                                                                                                          BBN
+                                                                                                                                    0.95
+                                              0.975
+
+                                                                                                                                     0.9
+                                                                                                                                                                                2          3                4
+                                               0.95                                                                                        1           10                  10         10               10
+
+                                                                                                                                                                                               ECM (keV)
+                                              0.925
+                                                                                BBN
+                                                                                                            Figure 3. Ratio of the D(d,n)3 He over D(d,p)3 H cross sec-
+                                                0.9                                                         tions. BBN, recent experimental data from direct measurements
+                                                      10
+                                                           -2
+                                                                   10
+                                                                        -1
+                                                                                      1                10   (“Kra87” (Krauss et al. 1987), “Bro90” (Brown & Jarmie 1990),
+                                                                                                            “Gre95” (Greife et al. 1995), “Leo06” (Leonard et al. 2006) and
+                                                                                                  T (GK)    “Sch72” (Schulte et al. 1972)) follows the theoretical predictions
+                                                                                                            of Arai et al. (2011)). The indirect data from Tumino et al. (2014)
+Figure 2. LUNA reaction rates (Mossa et al. 2020b) and uncer-                                               follows a different trend.
+tainties compared to the ones previously used (Coc et al. 2015;
+Iliadis et al. 2016). Rates labelled Coc+ 2015 are deduced from
+corresponding S–factors in Fig. 1, those labelled Iliadis+ 2016 are
+                                                                                                            cosmological parameter that affects the abundances, i.e. the
+those used by Pitrou et al. (2018).
+                                                                                                            baryonic density, and we then compare this measurement to
+                                                                                                            the one by Planck (Planck Collaboration et al. 2020) (CMB
+et al. 2020b) are updated from the Consiglio et al. (2017);                                                 or CMB+BAO), or we fix the baryonic density to its value
+Serpico et al. (2004) evaluation including a minor contribu-                                                determined by CMB analysis and compare the predictions
+tion from the new data (Tumino et al. 2014) obtained by                                                     of BBN under that hypothesis to spectroscopic data.
+the (indirect) Trojan Horse Method. The main differences                                                         Figure 4 summarizes the predictions for BBN deuterium
+with the Gómez Iñesta, Iliadis & Coc (2017) analysis is that                                              from the present analysis [using (Mossa et al. 2020b) for the
+the latter applies stricter selection criteria on experimental                                              D(p,γ)3 He rate, and Gómez Iñesta, Iliadis & Coc (2017) for
+data (e.g. only direct measurements with evaluation of sys-                                                 the D(d,n)3 He and D(d,p)3 H rates] and the previous one by
+tematic uncertainties) and uses theoretical guidance instead                                                Pitrou et al. (2018), as well as the CMB constraint on η and
+of polynomials.                                                                                             the data by Cooke, Pettini & Steidel (2018).
+     In conclusion, our BBN results (Coc et al. 2015; Pitrou                                                     In the first approach, we use BBN theory and spec-
+et al. 2018; Iliadis & Coc 2020) for D/H are in general                                                     troscopic observations to determine η, assuming that Neff is
+lower than others, because we use different reaction rates                                                  fixed from particle physics, and compare to its CMB value by
+for D(p,γ)3 He (previously Iliadis et al. (2016), but here,                                                 Planck (Planck Collaboration et al. 2020). Using the method
+replaced by LUNA (Mossa et al. 2020b)), D(d,n)3 He, and                                                     described in section 6.2 of Pitrou et al. (2018), we estimate
+D(d,p)3 H (Gómez Iñesta, Iliadis & Coc (2017)). In these                                                  the posterior distribution of Ωb h2 , given the observational
+evaluationsd (Iliadis et al. 2016; Gómez Iñesta, Iliadis & Coc                                            constraints on 4 He and on D. The posteriors for CMB or
+2017), first, only experimental datasets whose error budget                                                 BBN determinations of Ωb h2 are depicted on Fig. 4, and we
+(statistical and systematics) is available, are adopted. Next,                                              obtain for BBN only
+whenever possible, theoretical guidance is considered. Other
+                                                                                                                                                  Ωb h2 = 0.02195 ± 0.00022 .                          (9)
+works may use smooth polynomial fits to the data, which is,
+in principle, another reasonable option. Finally, our adopted                                               This is a 1.6σ tension with CMB (3) and 1.84σ tension with
+rates are obtained using Bayesian techniques because they                                                   CMB+BAO (4). The tension is higher when BAO are in-
+allow for a rigorous inclusion of statistical and systematic                                                cluded, which is in general the case when more data are
+sources of uncertainties. These choices have the advantage                                                  considered. Note also that BAO favour baryons compared
+of being fully documented and simply stated. However, for                                                   to dark matter in the analysis.
+this work, we use provisionally the Mossa et al. (2020b) rate.                                                  Equivalently, the same analysis can be performed by
+                                                                                                            assuming that the baryon density is determined from
+                                                                                                            CMB+BAO (Planck Collaboration et al. 2020), and predict
+                                                                                                            the theoretical expectation for the deuterium abundance.
+3                                             CONSTRAINTS ON COSMOLOGICAL
+                                                                                                            When estimating the theoretical uncertainty with a Monte-
+                                              PARAMETERS FROM BBN
+                                                                                                            Carlo method, we vary on the uncertainty of nuclear rates,
+As mentioned above, there are two equivalent ways to look                                                   on the neutron lifetime, but also on the baryon abundance
+at the data. Either, we use BBN to constrain the only free                                                  according to the CMB+BAO posterior. We then find the
+
+                                                                                                                                                                         © 2020 RAS, MNRAS 000, 1–10
+                                                                           A tension in cosmology from deuterium?                     7
+
+Table 2. Predicted abundances compared to observations.
+
+                               Observations        Pitrou et al. (2018) τn = 879.5(8) s,    This work τn = 879.4(6) s,
+                                                     100h2 Ωb = 2.2250 (±0.016) (e)        100h2 Ωb = 2.242 (±0.014) (f)
+         YP                  0.2453±0.0034(a)               0.24709±0.00018                    0.24721±0.00014
+         D/H (×10−5 )         2.527±0.030 (b)                 2.460±0.046                        2.439±0.037
+         3 He/H (×10−5 )        <1.1±0.2 (c)                  1.074±0.026                        1.039±0.014
+         7 Li/H (×10−10 )      1.58+0.35
+                                   −0.28 (d)                  5.627±0.259                        5.464±0.220
+(a) Aver et al. (2020), (b) Cooke, Pettini & Steidel (2018), (c)Bania, Rood & Balser (2002), (d) Sbordone et al. (2010), (e) Ade et al.
+                                      (2016), (f) CMB+BAO, Planck Collaboration et al. (2020)
+
+
+
+theoretical expectation                                                  also have the potential to reveal subtle systematics. While
+                                              −5                         several thousands DLAs have been detected thanks to large
+              (D/H) = (2.439 ± 0.037) × 10         .         (10)        spectroscopic surveys (e.g. Noterdaeme et al. (2012)), most
+Again, this has a 1.84σ tension with the measured value (2).             of the background quasars are too faint for efficient selection
+This is expected since these two methods are different ways              of follow-up targets and precision measurements with cur-
+of doing the same thing.                                                 rent telescopes. Notwithstanding, there is still some room
+                                                                         to detect new bright quasars and hence potentially useful
+                                                                         DLAs. For example, the QUBRICS bright Quasar survey
+                                                                         has recently identified 55 new high redshift quasars (z > 2.5)
+DISCUSSION AND PERSPECTIVES                                              (Calderone et al. 2019; Boutsia et al. 2020). Alternatively,
+BBN theory has long been considered as a standard pillar                 high-resolution optical spectrographs on the next generation
+of the big-bang model, despite the long-standing lithium-7               of 30-m class telescopes will increase the number of accessi-
+problem. In the current era of precision cosmology, its con-             ble quasars and automatically the number of targets suitable
+straining power mostly rests on the prediction of the deu-               for measuring D/H. For example, HIRES on the Extremely
+terium abundance since the accuracy of helium-4 data, and                Large Telescope could increase the precision to 0.3% with
+its mild dependence on the baryon density, do not make                   a five-fold increase in sample size, provided its wavelength
+it a competitive probe anymore. As we argued, the agree-                 coverage extends enough to the blue (Maiolino et al. (2013)
+ment between data, theoretical BBN predictions and CMB                   and Pasquier Noterdaeme, private communication).
+constraints on the baryonic density requires to control the                   With the existing D/H data (Cooke, Pettini & Steidel
+accuracy of the BBN computation at the percent level.                    2018), the updated nuclear network and the slight shift of
+     First, it follows that nuclear data are the crux in this de-        the baryonic density determined by Planck-2018, we witness
+bate. All existing codes differ from the difference of choices           a ≃ 1.8σ-tension on the baryonic density between BBN and
+on the modelisation of the nuclear cross-sections, and not on            CMB+BAO or equivalently between the D/H abundance
+weak rates since they differ by less than 0.2% between e.g.              prediction assuming (CMB+BAO)-baryonic density and its
+PRIMAT and PArthENoPE (Pisanti et al. 2008). It is important             spectroscopic measurement. This is indeed a mild warning
+to control their accuracy at least at the percent level and to           but it sheds some light on the sector of the big-bang theory,
+take into account the latest data. The recent release of the             indicating that it should be watched carefully, both on the
+LUNA data confirms the S–factor and rate previously used                 nuclear and astrophysical data sides.
+in PRIMAT 2018 (Pitrou et al. 2018). We updated it to fully                   It is worth mentioning that the Hubble constant tension
+take into account these data and the code now also includes              has been interpreted as an early/late universe tension, while
+a series of refinements described in this article. Finally, be-          it shall maybe be seen as a thin/large beam tension (Fleury,
+cause of the importance of the d+d reaction rates, in partic-            Dupuy & Uzan 2013; Fleury, Larena & Uzan 2019a,b). This
+ular, the D(d,n)3 He one, further investigations are needed              new emerging tension, to be confirmed by more BBN and
+to reconcile Trojan Horse results (Tumino et al. 2014) with              large scale estimations of the baryonic density, is a primor-
+direct measurements.                                                     dial/late time tension, so that the CMB would be tied be-
+     Then, the second key issue concerns D/H measure-                    tween two lever arms at redshifts of order z ∼ 1 and z ∼ 108 .
+ments. Today it rests on the measurements of Cooke, Pettini              If confirmed, the status of BBN, with the lithium-problem
+& Steidel (2018). The primitive abundance of deuterium can               and a mildly-constraining helium-4, would have to be re-
+be determined from the observation of DI and HI lines from               considered. Note also that unlike the cosmological lithium
+neutral clouds (Damped Lyman-α systems, DLAs) at high                    problem, this deuterium tension can be mitigated easily
+redshift, located on the line of sight to background quasars.            by invoking a small contribution from most models devel-
+While progress has been done to obtain precise measure-                  oped to solve the lithium problem as they overproduce deu-
+ments, these remain very scarce. Because of this, each mea-              terium (Albornoz Vásquez et al. 2012; Olive et al. 2012;
+surement has therefore an important impact on the determi-               Coc et al. 2014; Kusakabe, Cheoun & Kim 2014; Coc et al.
+nation of the primitive D/H abundance (i.e. the mean value)              2015). To finish, note also that since BBN theory assumes
+and its accuracy must be tested intensively. Indeed, both                a perfect FL geometry and since the spectroscopic data are
+values and associated uncertainties remain debated (e.g. the             located on our past light-cone at low redshift – and thus well
+remeasurement of the deuterium abundance at z = 3.256                    inside the CMB sky – the Copernican principle could be at
+by Riemer-Sørensen et al. (2015)). More observations are                 stake (Regis & Clarkson 2012; Dunsby et al. 2010).
+crucially needed not only to decrease statistical errors but                  With this new data, cosmology shows once more that
+
+© 2020 RAS, MNRAS 000, 1–10
+ 8                     C. Pitrou, A. Coc, J.-P. Uzan, E. Vangioni
+                 2.8                                                                              precision cosmology should come with a cosmology of cor-
+                                                                      Pitrou et al. 2018          rectness (Uzan 2016) and that the new tensions we witness
+                 2.7
+                                                                                                  are some precursory signs of a more realistic model or just a
+                 2.6
+                                                                                                  transient that would disappear with future data with better
+                                                                                                  accuracy and better controlled systematics.
+
+
+D/H (x 105 )
+                                                                            Cooke et al.
+                 2.5
+
+
+                 2.4
+                                                                            Theory                NOTE ADDED
+                                            Planck
+                 2.3
+                                                                                                  After this paper was submitted, two papers addressing the
+                                                                                                  same topic as our current work were posted (Pisanti et al.
+                 2.2
+                   5.8       5.9   6.0        6.1                     6.2        6.3        6.4   2020; Yeh, Olive & Fields 2020), confirming that differing
+                                            1010 η                                                conclusions can be traced to the data selection and analysis
+                 2.8                                                                              of D(d,n)3 He and D(d,p)3 H rates.
+                                                                      This work (2020)
+                 2.7
+
+                 2.6
+                                                                                                  DATA AVAILABILITY
+
+D/H (x 105 )
+                                                                             Cooke et al.
+                 2.5
+                                                                                                  There are no new data associated with this article. The
+                                                                                                  BBN code PRIMAT is freely available at http://www2.iap.
+                 2.4
+
+
+
+                                                         Planck+BAO
+                                                                                                  fr/users/pitrou/primat.htm.
+                                                                             Theory
+                 2.3
+                                    ηBBN
+                 2.2
+                   5.8       5.9   6.0        6.1                     6.2        6.3        6.4   ACKNOWLEDGEMENTS
+                                            1010 η
+                                                                                                  We thank warmly Pasquier Noterdaeme for discussions on
+                 1.0                                                                              the detection of deuterium, Silvia Galli for her help with the
+                                                                                                  baryon abundance posteriors from the Planck-2018 results,
+                 0.8                                                                              Ofelia Pisanti for discussions concerning the LUNA rates,
+                                                                                                  Julien Froustey for careful reading of the draft, and Chris-
+
+
+P(Ωb h2 )/Pmax
+                 0.6                                                                              tian Iliadis for a long time collaboration on reaction rates
+                                                                                                  evaluations.
+                 0.4
+
+
+                 0.2
+                                                                                                  ERRATUM
+                 0.0                                                                              We take the opportunity of the new release of the BBN code
+                          0.0215   0.0220                0.0225                0.0230
+                                            Ωb h     2                                            PRIMAT to correct a few minor typos in Pitrou et al. (2018).
+
+ Figure 4. Top: D/H theoretical prediction (in blue), observa-                                       • In Eq. (53), there is an additional minus sign in front
+ tion (in green) from Cooke, Pettini & Steidel (2018), and baryon                                 of 0.01452.
+ abundance constraints from CMB (in gray), as reported in Pitrou                                     • In Eq. (61), the function S must be multiplied by the
+ et al. (2018). All ranges displayed are within 1σ standard devia-                                constant factor s̄γ , both in the numerator and the denomi-
+ tion. Middle: Same quantities but the baryon density is updated                                  nator.
+ from the CMB+BAO constraint by Planck Collaboration et al.                                          • In Eq. (105), the numerical value for λRC0  0    should be
+ (2020), and with the D/H theoretical predictions of this work.                                   1.75838.
+ The dashed blue lines correspond to the theoretical range de-                                       • In Table 5, the first value in the RC+FM+WM+ID line
+ termined when using the D(p,γ)3 He rate of Iliadis et al. (2016)
+                                                                                                  (and which corresponds to YP ) should be 0.24710 instead of
+ instead of the recent LUNA rate (Mossa et al. 2020b). Bottom:
+ Posterior distribution of baryon density from BBN (this work) in
+                                                                                                  0.24720.
+ solid line, from CMB only in dashed line, and from CMB+BAO                                          • In Table 7, 1010 should be read instead of 105 for 7 Li
+ in dot-dashed line (both from Planck Collaboration et al. (2020)).                               multiplicative prefactor.
+ The correspondence between η and Ωb h2 is given by Eq. (1).                                         • In Table 8, theoretical abundance values and errors
+                                                                                                  should be as reported in Table 2.
+                                                                                                                                            (2,0)
+                                                                                                     • In Eq. (B23), one must first read gν       instead of gν in
+                                                                                                  the first term, and in the fifth line mn /mp must be replaced
+                                                                                                  by (mn /mp )±1 .
+
+                                                                                                       These typos are corrected in the arXiv version of Pitrou
+                                                                                                  et al. (2018).
+
+                                                                                                                                © 2020 RAS, MNRAS 000, 1–10
+                                                                A tension in cosmology from deuterium?                     9
+REFERENCES                                                        Rev. C, 99, 014619
+                                                                de Souza R. S., Iliadis C., Coc A., 2019, Astrophys. J., 872,
+Ade P. A. R., et al., 2016, Astron. Astrophys., 594, A13
+                                                                  75
+Akita K., Yamaguchi M., 2020, JCAP, 08, 012
+                                                                de Souza R. S., Kiat T. H., Coc A., Iliadis C., 2020, Astro-
+Alam S., et al., 2017, Mon. Not. Roy. Astron. Soc., 470,
+                                                                  phys. J., 894, 134
+ 2617
+                                                                Descouvemont P., Adahchour A., Angulo C., Coc A.,
+Albornoz Vásquez D., Belikov A., Coc A., Silk J., Vangioni
+                                                                  Vangioni-Flam E., 2004, Atomic Data and Nuclear Data
+ E., 2012, Phys. Rev. D, 86, 063501
+                                                                  Tables, 88, 203
+Alpher R., Bethe H., Gamow G., 1948, Phys. Rev., 73, 803        Di Valentino E., et al., 2020, arXiv e-prints, 2008.11284
+Alpher R. A., Herman R. C., 1948, Phys. Rev., 74, 1737          Dunsby P., Goheer N., Osano B., Uzan J.-P., 2010, JCAP,
+Ando S., Cyburt R. H., Hong S. W., Hyun C. H., 2006,              06, 017
+ Phys. Rev., C74, 025809                                        Escudero Abenza M., 2020, JCAP, 05, 048
+Arai K., Aoyama S., Suzuki Y., Descouvemont P., Baye D.,        Fields B. D., 2011, Ann. Rev. Nucl. Part. Sci., 61, 47
+ 2011, Phys. Rev. Lett., 107, 132502                            Fields B. D., Olive K. A., Yeh T.-H., Young C., 2020,
+Arbey A., 2012, Comput. Phys. Commun., 183, 1822                  JCAP, 2020, 010
+Arbey A., Auffinger J., Hickerson K., Jenssen E., 2020,         Fleury P., Dupuy H., Uzan J.-P., 2013, Phys. Rev. Lett.,
+ Comput. Phys. Commun., 248, 106982                               111, 091302
+Aver E., Berg D. A., Olive K. A., Pogge R. W., Salzer J. J.,    Fleury P., Larena J., Uzan J.-P., 2019a, Phys. Rev. D, 99,
+ Skillman E. D., 2020, arXiv e-prints, 2010.04180                 023525
+Bania T. M., Rood R. T., Balser D. S., 2002, Nature, 415,       Fleury P., Larena J., Uzan J.-P., 2019b, Phys. Rev. D, 99,
+ 54                                                               023526
+Bennett J. J., Buldgen G., de Salas P. F., Drewes M., Gari-     Froustey J., Pitrou C., 2020, Phys. Rev. D, 101, 043524
+ azzo S., Pastor S., Wong Y. Y., 2020a                          Froustey J., Pitrou C., Volpe M. C., 2020, JCAP, 12, 015
+Bennett J. J., Buldgen G., Drewes M., Wong Y. Y., 2020b,        Gómez Iñesta Á., Iliadis C., Coc A., 2017, ApJ, 849, 134
+ JCAP, 03, 003                                                  Greife U., Gorris F., Junker M., Rolfs C., Zahnow D., 1995,
+Boutsia K. et al., 2020, ApJS, 250, 26                            Zeitschrift fur Physik A Hadrons and Nuclei, 351, 107
+Brown R. E., Jarmie N., 1990, Phys. Rev. C, 41, 1391            Grohs E., Fuller G. M., 2017, Nucl. Phys. B, 923, 222
+Bystritsky V. M. et al., 2008, Nuclear Instruments and          Iliadis C., Anderson K. S., Coc A., Timmes F. X., Starrfield
+ Methods in Physics Research A, 595, 543                          S., 2016, Astrophys. J., 831, 107
+Calderone G. et al., 2019, Astrophys. J., 887, 268              Iliadis C., Coc A., 2020, Astrophys. J., 901, 127
+Casella C. et al., 2002, Nucl. Phys. A, 706, 203                Iocco F., Mangano G., Miele G., Pisanti O., Serpico P. D.,
+Caughlan G. R., Fowler W. A., 1988, Atomic Data and               2007, Phys. Rev., D75, 087304
+ Nuclear Data Tables, 40, 283                                   Kawano L., 1992, Let’s go: Early universe. 2. Primordial
+Clarkson C., Ellis G. F., Faltenbacher A., Maartens R.,           nucleosynthesis: The Computer way. FERMILAB-PUB-
+ Umeh O., Uzan J.-P., 2012, Mon. Not. Roy. Astron. Soc.,          92-004-A
+ 426, 1121                                                      Krauss A., Becker H. W., Trautvetter H. P., Rolfs C.,
+Coc A., 2013, Acta Physica Polonica B, 44, 521                    Brand K., 1987, Nucl. Phys. A, 465, 150
+Coc A., Davids B., 2019, arXiv e-prints, arXiv:1912.03933       Kusakabe M., Cheoun M.-K., Kim K. S., 2014, Phys. Rev.,
+Coc A., Goriely S., Xu Y., Saimpert M., Vangioni E., 2012,        D90, 045009
+ Astrophys. J., 744, 158                                        Leonard D. S., Karwowski H. J., Brune C. R., Fisher B. M.,
+Coc A., Nunes N. J., Olive K. A., Uzan J.-P., Vangioni E.,        Ludwig E. J., 2006, Phys. Rev. C, 73, 045801
+ 2007, Phys. Rev. D, 76, 023511                                 Ma L. et al., 1997, Phys. Rev., C55, 588
+Coc A., Petitjean P., Uzan J.-P., Vangioni E., Descouve-        Maiolino R. et al., 2013, arXiv e-prints, 1310.3163
+ mont P., Iliadis C., Longland R., 2015, Phys. Rev., D92,       Mangano G., Miele G., Pastor S., Pinto T., Pisanti O.,
+ 123526                                                           Serpico P. D., 2005, Nucl. Phys. B, 729, 221
+Coc A., Pospelov M., Uzan J.-P., Vangioni E., 2014, Phys.       Marcucci L. E., Mangano G., Kievsky A., Viviani M., 2016,
+ Rev. D, 90, 085018                                               Phys. Rev. Lett., 116, 102501
+Coc A., Uzan J.-P., Vangioni E., 2014, JCAP, 10, 050            Marcucci L. E., Viviani M., Schiavilla R., Kievsky A.,
+Coc A., Vangioni E., 2010, in Journal of Physics Conference       Rosati S., 2005, Phys. Rev., C72, 014001
+ Series, Vol. 202, Big-Bang nucleosynthesis with updated        Mohr P., Newell D. B., Taylor B. N., Tiesinga E., 2018,
+ nuclear data, p. 012001                                          Metrologia, 55, 125
+Coc A., Vangioni E., 2017, International Journal of Modern      Molaro P., Vangioni E., 2009, Mem. Soc. Ast. It., 80, 749
+ Physics E, 26, 1741002                                         Molaro P., Vangioni E., 2010, Proc. of the Int. Astron.
+Consiglio R., de Salas P. F., Mangano G., Miele G., Pastor        Union, 5, 299
+ S., Pisanti O., 2017                                           Mossa V., et al., 2020a, Eur. Phys. J. A, 56, 144
+Cooke R. J., Pettini M., Steidel C. C., 2018, Astrophys. J.,    Mossa V., et al., 2020b, Nature, 587, 210
+ 855, 102                                                       Neff T., 2011, Phys. Rev. Lett., 106, 042502
+Cooper R. L. et al., 2010, Phys. Rev., C81, 035503              Nollett K. M., Burles S., 2000, PHys. Rev., D61, 123505
+Cyburt R. H., 2004, Phys. Rev., D70, 023505                     Noterdaeme P., et al., 2012, Astron. Astrophys., 547, L1
+Davids B., 2020, Mem. Soc. Astron. Italiana, 91, 20             Olive K. A., Petitjean P., Vangioni E., Silk J., 2012, MN-
+de Salas P. F., Pastor S., 2016, JCAP, 1607, 051                  RAS, 426, 1427
+de Souza R. S., Boston S. R., Coc A., Iliadis C., 2019, Phys.   Peebles P., 1966a, Phys. Rev. Lett., 16, 410
+
+© 2020 RAS, MNRAS 000, 1–10
+10    C. Pitrou, A. Coc, J.-P. Uzan, E. Vangioni
+Peebles P., 1966b, Astrophys. J., 146, 542
+Pisanti O., Cirillo A., Esposito S., Iocco F., Mangano G.,
+ Miele G., Serpico P. D., 2008, Comput. Phys. Commun.,
+ 178, 956
+Pisanti O., Mangano G., Miele G., Mazzella P., 2020, arXiv
+ e-prints, arXiv:2011.11537
+Pitrou C., Coc A., Uzan J.-P., Vangioni E., 2018, Physics
+ Reports, 754, 1
+Pitrou C., Pospelov M., 2020, Phys. Rev. C, 102, 015803
+Planck Collaboration et al., 2020, A&A, 641, A6
+Regis M., Clarkson C., 2012, Gen. Rel. Grav., 44, 567
+Reid M., Pesce D., Riess A., 2019, Astrophys. J. Lett., 886,
+ L27
+Riemer-Sørensen S. et al., 2015, Mon. Not. Roy. Astron.
+ Soc., 447, 2925
+Rijal N. et al., 2019, Phys. Rev. Lett., 122, 182701
+Sbordone L. et al., 2010, Astron. Astrophys., 522, A26
+Schmid G. J. et al., 1997, Phys. Rev., C56, 2565
+Schulte R. L., Cosack M., Obst A. W., Weil J. L., 1972,
+ Nucl. Phys. A, 192, 609
+Serpico P. D., Esposito S., Iocco F., Mangano G., Miele G.,
+ Pisanti O., 2004, JCAP, 0412, 010
+Serpico P. D., Esposito S., Iocco F., Mangano G., Miele G.,
+ Pisanti O., 2004, JCAP, 2004, 010
+Tanabashi M. et al., 2018, Phys. Rev. D, 98, 030001
+Tišma I., Lipoglavšek M., Mihovilovič M., Markelj S.,
+ Vencelj M., Vesić J., 2019, European Physical Journal A,
+ 55, 137
+Tumino A. et al., 2014, Astrophys. J., 785, 96
+Uzan J.-P., 2003, Rev. Mod. Phys., 75, 403
+Uzan J.-P., 2011, Living Rev. Rel., 14, 2
+Uzan J.-P., 2016, arXiv/1606.06112
+Vangioni-Flam E., Olive K. A., Fields B. D., Casse M.,
+ 2003, Astrophys. J., 585, 611
+Wagoner R. V., Fowler W. A., Hoyle F., 1967, Astro-
+ phys. J. Supp., 148, 3
+Wong K. C., et al., 2020, Mon. Not. Roy. Astron. Soc., 498,
+ 1420
+Xu Y., Takahashi K., Goriely S., Arnould M., Ohta M.,
+ Utsunomiya H., 2013, Nucl. Phys., A918, 61
+Yang J.-M., Schramm D. N., Steigman G., Rood R. T.,
+ 1979, Astrophys. J., 227, 697
+Yeh T.-H., Olive K. A., Fields B. D., 2020, arXiv e-prints,
+ arXiv:2011.13874
+Zyla P., et al., 2020, Prog. Theor. Exp. Phys., 2020, 083C01
+
+
+
+
+                                                               © 2020 RAS, MNRAS 000, 1–10
+

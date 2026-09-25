@@ -1,0 +1,541 @@
+                                                Measurement of the permanent electric dipole moment of the neutron
+
+                                             C. Abel,1 S. Afach,2, 3 N. J. Ayres,1, 3 C. A. Baker,4 G. Ban,5 G. Bison,2 K. Bodek,6 V. Bondar,2, 3, 7
+                                            M. Burghoff,8 E. Chanel,9 Z. Chowdhuri,2 P.-J. Chiu,2, 3 B. Clement,10 C. B. Crawford,11 M. Daum,2
+                                              S. Emmenegger,3 L. Ferraris-Bouchez,10 M. Fertl,2, 3, 12 P. Flaux,5 B. Franke,2, 3, ∗ A. Fratangelo,9
+                                               P. Geltenbort,13 K. Green,4 W. C. Griffith,1 M. van der Grinten,4 Z. D. Grujić,14, 15 P. G. Harris,1
+                                           L. Hayen,7, † W. Heil,12 R. Henneck,2 V. Hélaine,2, 5 N. Hild,2, 3 Z. Hodge,9 M. Horras,2, 3 P. Iaydjiev,4, ‡
+                                                 S. N. Ivanov,4, § M. Kasprzak,2, 7 Y. Kermaidic,10, ¶ K. Kirch,2, 3 A. Knecht,2, 3 P. Knowles,14
+                                                  H.-C. Koch,2, 14, 12 P.A. Koss,7, ∗∗ S. Komposch,2, 3 A. Kozela,16 A. Kraft,2, 12 J. Krempel,3
+                                                   M. Kuźniak,2, 6, †† B. Lauss,2 T. Lefort,5 Y. Lemière,5 A. Leredde,10 P. Mohanmurthy,2, 3
+                                             A. Mtchedlishvili,2 M. Musgrave,1, ‡‡ O. Naviliat-Cuncic,5 D. Pais,2, 3 F.M. Piegsa,9 E. Pierre,2, 5, §§
+                                            G. Pignol,10, ¶¶ C. Plonka-Spehr,17 P. N. Prashanth,7 G. Quéméner,5 M. Rawlik,3, ∗∗∗ D. Rebreyend,10
+                                                I. Rienäcker,2, 3 D. Ries,2, 3, 17 S. Roccia,13, 18, ††† G. Rogel,5, ‡‡‡ D. Rozpedzik,6 A. Schnabel,8
+                                           P. Schmidt-Wellenburg,2, §§§ N. Severijns,7 D. Shiers,1 R. Tavakoli Dinani,7 J. A. Thorne,1, 9 R. Virot,10
+                                            J. Voigt,8 A. Weis,14 E. Wursten,7, ¶¶¶ G. Wyszynski,3, 6 J. Zejma,6 J. Zenner,2, 17 and G. Zsigmond2
+                                                   1
+                                                       Department of Physics and Astronomy, University of Sussex, Falmer, Brighton BN1 9QH, UK
+
+
+
+
+arXiv:2001.11966v1 [hep-ex] 31 Jan 2020
+                                                                               2
+                                                                                 Paul Scherrer Institut, CH-5232 Villigen PSI, Switzerland
+                                                        3
+                                                          ETH Zürich, Institute for Particle Physics and Astrophysics, CH-8093 Zürich, Switzerland
+                                                       4
+                                                         STFC Rutherford Appleton Laboratory, Harwell, Didcot, Oxon OX11 0QX, United Kingdom
+                                                                   5
+                                                                     LPC Caen, ENSICAEN, Université de Caen, CNRS/IN2P3, Caen, France
+                                                        6
+                                                          Marian Smoluchowski Institute of Physics, Jagiellonian University, 30-059 Cracow, Poland
+                                                           7
+                                                             Instituut voor Kern- en Stralingsfysica, University of Leuven, B-3001 Leuven, Belgium
+                                                                                8
+                                                                                  Physikalisch Technische Bundesanstalt, Berlin, Germany
+                                                         9
+                                                           Laboratory for High Energy Physics and Albert Einstein Center for Fundamental Physics,
+                                                                                     University of Bern, CH-3012 Bern, Switzerland
+                                                                10
+                                                                   Univ. Grenoble Alpes, CNRS, Grenoble INP, LPSC-IN2P3, Grenoble, France
+                                                                                        11
+                                                                                           University of Kentucky, Lexington, USA
+                                                               12
+                                                                  Institut für Physik, Johannes-Gutenberg-Universität, D-55128 Mainz, Germany
+                                                                       13
+                                                                          Institut Laue-Langevin, CS 20156 F-38042 Grenoble Cedex 9, France
+                                                                 14
+                                                                     Physics Department, University of Fribourg, CH-1700 Fribourg, Switzerland
+                                                                15
+                                                                    Institute of Physics Belgrade, University of Belgrade, 11080 Belgrade, Serbia
+                                                                     16
+                                                                        Henryk Niedwodniczanski Institute for Nuclear Physics, Cracow, Poland
+                                                                  17
+                                                                     Institut für Kernchemie, Johannes-Gutenberg-Universität, Mainz, Germany
+                                                                            18
+                                                                               CSNSM, Université Paris Sud, CNRS/IN2P3, Orsay, France
+                                                     We present the result of an experiment to measure the electric dipole moment (EDM) of the
+                                                  neutron at the Paul Scherrer Institute using Ramsey’s method of separated oscillating magnetic
+                                                  fields with ultracold neutrons (UCN). Our measurement stands in the long history of EDM exper-
+                                                  iments probing physics violating time reversal invariance. The salient features of this experiment
+                                                  were the use of a 199 Hg co-magnetometer and an array of optically pumped cesium vapor magne-
+                                                  tometers to cancel and correct for magnetic field changes. The statistical analysis was performed
+                                                  on blinded datasets by two separate groups while the estimation of systematic effects profited from
+                                                  an unprecedented knowledge of the magnetic field. The measured value of the neutron EDM is
+                                                  dn = (0.0 ± 1.1stat ± 0.2sys )×10−26 e⋅cm.
+                                                  Keywords: electric dipole moment, time reversal violation, beyond Standard Model physics, magnetic reso-
+                                                  nance spectroscopy
+
+
+                                             A nonzero permanent electric dipole moment d⃗ = 2d⃗  s/ ̵h for a non-degenerate particle with spin s⃗ implies
+                                          the violation of time-reversal symmetry. Invoking the CPT theorem [1, 2] for quantum field theories, this
+                                          also indicates the violation of the combined symmetry of charge conjugation and parity (CP). The standard
+                                          model of particle physics (SM) contains two sources of CP violation: the phase of the CKM matrix resulting
+                                          in the observed CP-violation in K- and B-meson decays, and the θ̄QCD coefficient of the still-unobserved CP-
+                                          violating term of the QCD Lagrangian [3]. Both are too small to account for the observed baryon asymmetry
+                                          of the Universe [4] which requires CP violation as one of three essential ingredients [5]. Furthermore, many
+                                          theories beyond the SM naturally have large CP-violating phases [6] that would result in an observable
+                                          neutron EDM (nEDM). In combination with the limits from searches for the electron [7] and 199 Hg [8] EDM,
+                                          the limit on the nEDM confirms and complements stringent constraints upon many theoretical models [9]. In
+                                          particular, the nEDM alone stringently limits θ̄QCD . This unnaturally small upper limit on θ̄QCD is known
+                                          as the strong CP problem; it gave rise to searches for a Goldstone boson, the axion [10, 11], which is also an
+                                          attractive candidate to solve the dark matter mystery [12].
+                                             An overview of the spectrometer used for the measurement is shown in Fig. 1, while a detailed technical
+                                          description of the apparatus (upgraded from that used for the previous best limit [13–15]) and of data taking
+                                                                                                                  2
+
+
+                       Four-layer Mu-metal shield
+                                                                                    High-voltage lead
+                       Vacuum chamber                                          Cesium magnetometer
+                                                                                        (15 in total)
+                       Precession chamber                                              Electrode (HV)
+
+
+                       UV light source                                                 Photodetector
+                       Mercury polarizing
+                       cell                                                        Electrode (ground)
+                       UV light source                                                   UCN shu er
+                                                                                  Magne c-ﬁeld coils
+                                     Spin ﬂipper 1
+                                                                     Switch
+
+                        5T -magnet                                 Spin analyzers incl spin ﬂipper 2a,b
+                                          Neutron detectors
+
+
+
+Figure 1: Scheme of the spectrometer used to search for an nEDM. A nonzero signal manifests as shift of the magnetic
+resonance frequency of polarized UCN in a magnetic field B0 when exposed to an electric field of strength E.
+
+
+may be found in Ref. [16]. A total of 54068 individual measurement cycles, during 2015 and 2016, were used
+to determine the change in the Larmor precession frequency of the neutron,
+                                                         1      ⃗       ⃗
+                                                 fn =
+                                                        πh̵ ∣µn B0 + dn E∣ ,                                    (1)
+
+correlated with the change of polarity of the electric field ∣ ⃗
+                                                               E∣ = 11 kV/cm, where µn is the magnetic dipole
+moment and B⃗0 a co-linear magnetic field (∣B⃗0 ∣ = 1036 nT). For this purpose we used Ramsey’s method of
+separate oscillating fields [17].
+   In each cycle UCN from the Paul Scherrer Institute’s UCN source [18, 19] were polarized by transmission
+through a 5 T superconducting solenoid; spin flipper 1 (SF1) then allowed the selection of the initial spin
+state (up or down). The switch directed the incoming neutrons to the cylindrical precession chamber situated
+1.2 m above the beam line. The precession chamber (radius R = 23.5 cm, height H = 12 cm) was made of
+diamond like carbon coated [20, 21] aluminum electrodes and a deuterated-polystyrene (dPS) [22] coated
+insulator ring milled from bulk polystyrene. After 28 s an equilibrium density of up to 2 UCN/cm3 inside
+the precession chamber was attained, and a UCN shutter in the bottom electrode was closed to confine the
+UCN for a total of 188 s. A small valve was opened for 2 s to release a sample of polarized 199 Hg vapor,
+that was used as a co-magnetometer (HgM). A first low-frequency (LF) pulse of 2 s duration and frequency
+             ̵ ≈ 7.8 Hz tipped the 199 Hg spin by π/2. Ramsey’s technique was then applied to the neutrons,
+∣µHg B0 ∣/(π h)
+with an LF pulse (also of tLF = 2 s duration) at a frequency ∣µn B0 ∣/(π h)̵ ≈ 30.2 Hz tipping the UCN spins
+by π/2. After a period T = 180 s of free precession a second neutron LF pulse, in phase with the first, was
+applied. During data taking, the LF pulses were alternated between four frequencies in the steep regions of
+the central Ramsey fringe.
+   Immediately after the second neutron LF pulse the UCN shutter in the bottom electrode was opened. The
+switch was also moved to the “empty” position connecting the precession chamber with the UCN detection
+system [23, 24], which counted both spin states simultaneously in separate detectors. The state of the spin
+flippers (SF2a/SF2b) above each detector was alternated every fourth cycle, with one of them being off
+while the other was on, to average over detection, spin flipper, and spin analyzer efficiencies. For each cycle
+i, we recorded an asymmetry value between the number of spin up (Nu,i ) and spin down neutrons (Nd,i ):
+Ai = (Nu,i − Nd,i )/(Nu,i + Nd,i ). On average, Nu + Nd = 11400 neutrons were counted per cycle.
+   In addition, for each cycle we obtained a frequency fHg,i from the analysis of the mercury precession signal,
+as well as 15 frequencies fCs,i from cesium magnetometers (CsM) positioned above and below the chamber.
+   There are 22 base configurations of the magnetic field within the dataset. Each base configuration was
+defined by a full degaussing of the four-layer magnetic shield and an ensuing magnetic field optimization using
+all CsM described in detail in Ref. [25]. This procedure was essential to maintain a high visibility, which was
+measured to be α = 0.76 on average. A base configuration was kept for a duration of up to a month, during
+which only the currents of two saddle coils on the vacuum tank, above and below the chamber, were changed
+                                                                                                                              3
+
+                                          1
+                                                            Data E-pos
+                                                            Data E-neg
+                                                            Fit E-pos
+                                                            Fit E-neg
+                                     0.5
+
+
+
+
+                       Asymmetry
+                                          0
+                                               Aoﬀ
+                                                                                           α
+                                   -0.5                     Blind E-pos
+                                                            Blind E-neg
+                                                            Blind ﬁt E-pos
+                                                            Blind ﬁt E-neg
+                                        -1
+                                          -2         -1.5          -1         -0.5       0      0.5    1     1.5         2
+                                                                                       f (Hz)                       10-3
+
+
+Figure 2: Illustration of the fit to the Ramsey central fringe. Data without electric field are omitted. The data
+scatters around the four working points. Faded data and lines are for the blinded case (illustration for very large
+artificial EDM).
+
+
+
+                                              30.2230
+
+
+                                              30.2229
+
+
+                                   f n (Hz)   30.2228
+
+
+                                              30.2227
+
+
+                                              30.2226
+                                                        0     ― 0 + 0 ― 0 + 0 ― 0 + 0 ― 0 0 + 0 ― 0
+                                        3.842445
+
+                        = f n /f Hg     3.842450
+
+                                        3.842455
+
+
+                                                        0               100          200        300    400         500
+                                                                                     Cycle num ber
+
+Figure 3: A typical sequence of cycles. Upper plot shows the neutron frequency fn as a function of cycle number;
+lower plot shows the frequency ratio R. The colors correspond to the high-voltage polarity (blue: negative, red:
+positive, black: zero). The vertical lines separate the sub-sequences.
+
+
+to adjust the vertical gradient in a range of approximately ±25 pT/cm [26]. Within a base configuration,
+all cycles with the same applied magnetic gradients were grouped in one sequence. The analyzed dataset
+consists of 99 sequences. The voltage applied to the top electrode was changed periodically: eight cycles at
+zero volts followed by 48 cycles at ±132 kV, with the pattern then being repeated under reversed polarity.
+During the analysis sequences were split into sub-sequences having polarity patterns of + − −+ or − + +−.
+   The analysis searched for shifts in the neutrons’ Larmor precession frequency that were proportional to
+the applied electric field Ei . To determine the neutron frequency fn,i for each cycle from the measured
+asymmetry Ai we fitted the Ramsey resonance
+
+                                                                                           π∆fi
+                                                                 Ai = Aoff ∓ α cos (            + Φ)                         (2)
+                                                                                            ∆ν
+to the data of each sub-sequence (see Fig. 2), with negative (positive) sign for SF1 turned off (on). In Eq. (2)
+∆ν = (2T + 8tLF /π)−1 = 2.7 mHz is the resonance linewidth, ∆fi is the applied spin-flip frequency fn,LF
+corrected for magnetic-field changes [38], and Aoff , α, and Φ, are free parameters: offset, fringe visibility, and
+phase, respectively. Individual values of fn,i per cycle were extracted by keeping the fit parameters fixed
+and rearranging Eq. (2) for ∆fi .
+                                                                                                                       4
+
+  The ratio of frequencies Ri = fn,i /fHg,i was then used to compensate for residual magnetic-field fluctuations
+and drifts as shown in Fig. 3. In what follows, the statistical analysis and the evaluation of systematic effects
+take into account all known effects affecting the ratio Ri . These are summarized in the formula
+
+                                      γn
+                               R=∣       ∣ (1 + δEDM + δEDM
+                                                        false
+                                                              + δquad                                                (3)
+                                     γHg
+                                           +δgrav + δT + δEarth + δlight + δinc + δother ) ,
+
+where the true EDM term is written
+                                                      2E
+                                           δEDM = − ̵        (dn + dn←Hg )                                           (4)
+                                                    h∣γn ∣B0
+
+and neglecting the index i for the following.                   The 199 Hg EDM, measured to be dHg =
+(−2.20 ± 2.75stat ± 1.48sys ) × 10 e⋅cm [8], induces a bias of the EDM term by dn←Hg = ∣γn /γHg ∣dHg =
+                                   −30
+
+(−0.1 ± 0.1) × 10−28 e⋅cm, which we quote as a global systematic error.
+   Subsequent terms are undesirable effects that influence the neutron or mercury frequencies. We now
+discuss them individually.
+   The gravitational shift δgrav = Ggrav ⟨z⟩/B0 induced by the effective vertical magnetic-field gradient Ggrav
+is due to the center of mass offset ⟨z⟩ = −0.39(3) cm of the UCNs in the chamber. We deduced ⟨z⟩ in an
+auxiliary analysis from an estimation of the slope ∂R/∂Ggrav by combining the CsM-array readings and offline
+magnetic-field maps. The static part of Ggrav induces a shift of the mean value of R in a sequence, whereas
+the fluctuating part induces a drift in R within each sub-sequence. This gradient drift is compensated for
+at the cycle level using a combination of the HgM and the CsMs below the grounded bottom electrode. The
+CsMs mounted on the top electrode were not included in order to avoid any possible HV susceptibility in
+their readings.
+   In each sub-sequence, we extract the EDM signal dmeas    n    by fitting the Ri values, compensated for the
+gradient drift, as a function of time and electric field, and allowing in addition for a linear time drift.
+This assumes perfect compensation of δgrav , and that δEDM is the only E-field dependent term in Eq. (3).
+Deviations from this hypothesis are treated as systematic effects.
+   The dominant systematic effects arise from a shift linear in E due to the combination of the relativistic
+motional field B⃗m = E ⃗ × v⃗/c2 [27] and the magnetic field gradient:
+
+                                                       2E
+                                            false
+                                           δEDM   = −̵       (dnet + dfalse ),                                       (5)
+                                                     h∣γn ∣B0 n
+
+where dnet
+        n  is the effect of a possible net motion of the UCNs (discussed later) and dfalse is due to the
+the random motion of the UCNs and 199 Hg atoms in a non-uniform magnetic field. The latter is largely
+dominated by the mercury and is written as [28, 29]:
+                                                     ̵
+                                                     h
+                                         dfalse =       ∣γn γHg ∣ R2 (Ggrav + Ĝ) ,                                  (6)
+                                                    8c2
+
+where Ĝ is the higher-order gradient term, which does not produce a gravitational shift. We used magnetic-
+field maps, measured offline, to extract a value of Ĝ for each sequence and calculate a corrected EDM value
+dcorr
+  n    = dmeas
+          n     − ̵h ∣γn γHg ∣ R2 Ĝ/(8c2 ). The main contribution in Eq. (6) depending on Ggrav is then dealt with
+by the crossing-point analysis, shown in Fig. 4: dcorr      n   is plotted as a function of Rcorr = R/(1 + δT + δEarth ),
+and we fit two lines with opposite slopes corresponding to the sequences with B0 up and B0 down. At the
+crossing point we have Ggrav = 0, and the main systematic effect is canceled. In the fit the free parameters
+are the coordinates of the crossing point R× and d× ; the slope was fixed to the theoretical value ∂dfalse /∂R =
+̵hγ 2 R2 B0 /(8⟨z⟩c2 ). Because of the uncertainty on ⟨z⟩ = −0.39(3) cm, the slope has an error that propagates
+    Hg
+to become an additional error of 7 × 10−28 e⋅cm on d× . As a check we also considered the slope as a free
+parameter in the fit and found ⟨z⟩ = −0.35(6) cm, in agreement with the values found in Ref. [29].
+    In order to have Ggrav = 0 at the crossing point we had to correct Ri for all shifts other than the
+gravitational shift: namely the shift due to Earth’s rotation δEarth , and the shift due to transverse fields
+δT = ⟨BT  2
+            ⟩/(2B02 ) [29]. The transverse shift for each sequence was calculated from the offline magnetic-field
+maps. The vertical corrections, related to Ĝ, shifted the crossing point by (69 ± 10) × 10−28 e⋅cm. The
+horizontal corrections, related to ⟨BT       2
+                                               ⟩, shifted the crossing point by (0 ± 5)×10−28 e⋅cm.
+    The corrections for the effect of the magnetic non-uniformities Ĝ and ⟨BT         2
+                                                                                         ⟩ are based on the mapping of
+the apparatus without precession chamber, hence possibly missing the contribution of magnetic impurities in
+the precession chamber. All inner parts were scanned for magnetic dipoles before and after the data taking
+                                                                                                                      5
+
+                                            ×10 26
+                                             d×, 1 = ( 0.09 ± 1.03) × 10 26ecm
+                                       60      ×, 1 = 3.8424546(34)
+                                             z2 = 0.39(3) cm (fixed)
+                                               /Ndof = 106.1 / 97
+                                       40
+
+                                       20
+
+
+                       dncorr (e cm)
+                                        0
+
+                                       20
+
+                                       40
+
+                                       60                              | Hgn |
+                                         2
+                                         1
+                                         0
+                                         1
+                                         2
+                                       3.84241       3.84243   3.84245           3.84247   3.84249   3.84251
+                                                                            corr
+
+Figure 4: Crossing point analysis: the corrected electric dipole moment dcorr n    is plotted versus Rcorr (see text for
+                          corr      corr
+the exact definition of dn and R ). Upwards-pointing (red) and downwards pointing (blue) triangles represent
+sequences in which B0 was pointing upwards and downwards, respectively. The fitted value of R× is represented by
+the green vertical band (1-σ), and the vertical dashed line represents the ratio of gyromagnetic ratios calculated from
+the literature values of γn [30] and γHg [31]. The lower panel shows the normalized fit residuals.
+
+
+in the Berlin Magnetically Shielded Room-2 at the Physikalisch Technische Bundesanstalt in Berlin. Initially
+we verified, that all parts showed no signals above the SQUID system’s detection threshold of 20 nAm2 ; the
+second scan revealed a dozen dipoles with a maximum strength of 100 nAm2 . The corresponding systematic
+error was evaluated to be 4 × 10−28 e⋅cm.
+   In addition to the false EDM due to the random motional field dfalse , a net ordered motion of the UCN
+could generate a systematic effect dnetn = η ⋅ 6.7×10      e⋅cm/(m/s), where η is the mean net velocity of the
+                                                        −23
+
+ordered motion orthogonal to E and B, and  is the misalignment angle between the electric and magnetic
+fields. Three possible sources of ordered motion were identified in the past [15]: a vertical motion due to
+micro heating, and initial transverse and rotational motions that are destroyed by collisions on the wall
+surfaces. Using the same trap geometry as in Ref. [15] and a softer initial UCN spectrum [32], we use the
+same value for  and η. The error from heating was estimated to be 1×10−30 e⋅cm, while the error from
+rotational motion dominates: 2×10−28 e⋅cm.
+   The motional field also induces a shift quadratic in E of δquad = γHg
+                                                                       2
+                                                                          R2 E 2 /(4c4 ) [33], where we consider only
+the (dominant) shift on the mercury frequency. We were able to exclude any possible polarity dependence
+of the E-field magnitude to a level of 10−4 and therefore state a conservative error of 0.1×10−28 e⋅cm for this
+effect.
+   Next, imperfect compensation of the δgrav term by the CsMs can lead to a direct systematic effect in
+case of a correlation between the E-field polarity and the magnetic-field uniformity. We evaluated the
+possible effect by de-activating the gradient drift compensation in both analysis and found mean difference
+of 7.5×10−28 e⋅cm; we quote the full shift as a systematic error. Leakage currents could be one source of such
+a correlation.
+   The term δlight corresponds to a mercury frequency shift proportional to the power of the UV probe light
+[34]. We estimate that the largest shift of this type is at the level of 0.01 parts per million in our experiment.
+This can constitute a systematic effect if the power of the probe light is correlated with the polarity of
+the electric field, which we cannot exclude below the level of 0.14%. This results in a systematic error of
+0.4×10−28 e⋅cm for mercury light shifts.
+                                                          199
+   Ultracold neutrons  √ co-precessing with polarized         Hgatoms are exposed to a pseudo-magnetic field
+ ⃗         ̵         ⃗
+B = −4π hnHg binc P 1/3/(mγn ) [35] due to a spin-dependent nuclear interaction quantified by the inco-
+   ⋆
+
+herent scattering length binc (199 Hg) = ±15.5 fm [36]. The mercury polarization P⃗ could have a residual static
+                                                                                                                     6
+
+
+Table I: Summary of systematic effects in 10−28 e⋅cm. The first three effects are treated within the crossing-point fit
+and are included in d× . The additional effects below the line are considered separately.
+                                   Effect                            shift error
+                                   Error on ⟨z⟩                          -     7
+                                   Higher order gradients Ĝ            69    10
+                                   Transverse field correction ⟨BT
+                                                                 2
+                                                                   ⟩     0     5
+                                   Hg EDM[8]                          -0.1 0.1
+                                   Local dipole fields                   -     4
+                                   v × E UCN net motion                  -     2
+                                   Quadratic v × E                       - 0.1
+                                   Uncompensated G drift                 - 7.5
+                                   Mercury light shift                   - 0.4
+                                   Inc. scattering 199 Hg                -     7
+                                   TOTAL                                69    18
+
+
+component P∥ = ∣P ∣ sin ζ in case of an imperfect π/2 pulse; this would generate a systematic effect if P∥
+correlates with the electric-field polarity. We deduced ζ from the photomultiplier signal of the probe beam
+during the π/2 flip. The product nHg ∣P ∣ was estimated by comparing the ratio of precession amplitude to
+total light absorption in the 199 Hg-lamp read-out and matching this to a laser measurement to calibrate
+for a pure λ = 254.7 nm light source. The systematic error induced by the term δinc was estimated to be
+7 × 10−28 e⋅cm.
+   Table I lists the above-mentioned systematic effects. Additionally, the mercury pulse causes a small tilt
+of the neutron spin prior to the Ramsey procedure, and is responsible for the shift δpulse . This shift is not
+correlated with the electric field; it behaves as an additional random error, and was accounted for in the
+statistical analysis. Further effects δother that were also studied and found to be negligible (smaller than
+10−29 e⋅cm) include: the effects of AC fields δAC induced by ripple of the high voltage supply; noise of the
+current supplies, or Johnson-Nyquist noise generated by the electrodes; the movement of the electrodes
+correlated with electric field; and a correlation of the orientation of the magnetic field with the electric field
+in combination with the rotation of the Earth.
+   During data-taking a copy of the files with the neutron detector data was modified by moving a predefined
+randomly distributed number of neutrons from one UCN detector to the other (see Fig. 2). This injection
+of an artificial EDM signal into the data was applied twice, and two datasets with different artificial EDMs
+were distributed to two distinct analyses groups [37]. This double-blind procedure enforced the independence
+of the two analyses, in particular for the data selection criteria. Once the two analyses had been completed
+using only double-blind datasets, it was confirmed that they gave consistent results when run on an identical
+blind dataset. Finally both groups performed their analysis on the original never-blinded dataset. The results
+of the crossing-point fit are d×,1 = (−0.09 ± 1.03)×10−26 e⋅cm, R×,1 = 3.8424546(34) with χ2 /dof = 106/97 and
+d×,2 =(0.15 ± 1.07)×10−26 e⋅cm, R×,2 = 3.8424538(35) with χ2 /dof =105/97.
+   The small difference between the two results can be explained by the different selection criteria and we
+take as a final value the midpoint of the two. After adding the extra systematic effects quoted in the second
+part of Table I, the final result, separating the statistical and systematical errors, is:
+
+                                      dn = (0.0 ± 1.1stat ± 0.2sys )×10−26 e⋅cm.                                   (7)
+
+  The result may be interpreted as an upper limit of ∣dn ∣ < 1.8 × 10−26 e⋅cm (90% C.L.). This has been
+achieved through an unprecedented understanding and control of systematic effects in the experiment. In
+particular, those related to magnetic-field nonuniformity were assessed with dedicated measurements that
+resulted in a significant correction, equivalent to 60% of the statistical uncertainty, that arose from higher-
+order magnetic-field gradients. Overall the systematic error has been reduced by a factor of five compared
+to the previous best result [15].
+
+
+                                                Acknowledgments
+
+  We are profoundly grateful for the fundamental contributions to the field in general and to this project in
+particular of J.M. Pendlebury, the intellectual giant on whose shoulders we stand, and to K.F. Smith and
+others also involved with the original development of the nEDM spectrometer with Hg co-magnetometer.
+We acknowledge the excellent support provided by the PSI technical groups and by various services of the
+                                                                                                               7
+
+collaborating universities and research laboratories. In particular we acknowledge with gratitude the long
+term outstanding technical support by F. Burri and M. Meier. We thank the UCN source operation group
+BSQ for their support. We acknowledge financial support from the Swiss National Science Foundation
+through projects No. 117696, No. 137664, No. 144473, No. 157079, No. 172626, No. 126562, No. 169596 (all
+PSI), No. 181996 (Bern), No. 162574 (ETH), No. 172639 (ETH), and No. 140421 (Fribourg). University
+of Bern acknowledges the support via the European Research Council under the ERC Grant Agreement
+No. 715031-BEAM-EDM. Contributions of the Sussex group have been made possible via STFC grants
+ST/M003426/1, ST/N504452/1, and ST/N000307/1. LPC Caen and LPSC Grenoble acknowledge the
+support of the French Agence Nationale de la Recherche (ANR) under Reference No. ANR-09-BLAN-
+0046 and the ERC Project No. 716651-NEDM. The Polish collaborators acknowledge support from the
+National Science Center, Poland, under Grants No. 2015/18/M/ST2/00056, 2016/23/D/ST2/00715 and
+2018/30/M/ST2/00319. P.M. acknowledges Grant No. SERI-FCS 2015.0594. This work was also partly
+supported by the Fund for Scientific Research Flanders (FWO), and Project GOA/2010/10 of the KU Leu-
+ven. We acknowledge the support from the DFG (DE) specifically projects BI 1424/2-1 and /3-1. In addition
+we are grateful for access granted to the computing grid PL-Grid infrastructure.
+
+
+
+
+  ∗
+      Present address: TRIUMF, Vancouver, Canada.
+  †
+      Present address: Department of Physics, North Carolina State University, Raleigh, NC 27695, USA
+    ‡
+      On leave from Institute of Nuclear Research and Nuclear Energy, Sofia, Bulgaria.
+    §
+      On leave from Petersburg Nuclear Physics Institute, Russia.
+    ¶
+      Present address: Max-Planck-Institut fur Kernphysik, Heidelberg, Germany.
+   ∗∗
+      Present address: Fraunhofer-Institut für Physikalische Messtechnik IPM, 79110 Freiburg i. Breisgau, Germany
+   ††
+      Present address: AstroCeNT, Nicolaus Copernicus Astronomical Center, Polish Academy of Sciences, Rektorska
+      4, Warsaw, Poland
+   ‡‡
+      Present address: MIT, Boston, USA.
+   §§
+      Present address: LPTMC, Sorbonne Université, Paris, France
+  ¶¶
+      Corresponding author: pignol@lpsc.in2p3.fr
+ ∗∗∗
+      Present address: Paul Scherrer Institut, CH-5232 Villigen PSI, Switzerland
+ †††
+      Corresponding author: roccia@ill.fr
+ ‡‡‡
+      Present address: CEA Saclay, Saclay, France
+ §§§
+      Corresponding author: philipp.schmidt-wellenburg@psi.ch
+¶¶¶
+      Present address: CERN, 1211 Genève, Switzerland
+  [1] G. Luders. Mat.-fys. Medd. 28 (1954) 5.
+  [2] W. Pauli. Niels Bohr and the Development of Physics Pergamon Press, New York (1955) 30-51.
+  [3] G. t’Hooft Phys. Rev. Lett. 37 (1976) 8.
+  [4] D. E. Morrissey & M. J. Ramsey-Musolf. New J. Phys. 14 (2012) 125003.
+  [5] A. D. Sakharov. JETP Lett. 5 (1967) 24.
+  [6] J. Engel, M. J. Ramsey-Musolf, & U. van Kolck. Prog. Part. Nucl. Phys.71 (2013) 21 .
+  [7] V. Andreev et al. [ACME Collaboration], Nature 562 (2018) 355.
+  [8] B. Graner, Y. Chen, E. G. Lindahl, & B. R. Heckel. Phys. Rev. Lett. 116 (2016) 161601.
+  [9] T. Chupp & M. Ramsey-Musolf. Phys. Rev. C 91 (2015) 035502.
+[10] F. Wilczek. Phys. Rev. Lett. 40 (1978) 279.
+[11] R. D. Peccei & H. R. Quinn. Phys. Rev. Lett. 38 (1977) 1440.
+[12] J. de Swart, G. Bertone & J. van Dongen. Nat. Astron. 1 (2017) 0059.
+[13] C. A. Baker, D. D. Doyle, P. Geltenbort, et al. Phys. Rev. Lett. 97 (2006) 131801.
+[14] C. Baker, Y. Chibane, M. Chouder, et al. Nucl. Instr. Meth. in Phys. Res. A 736 (2014) 184.
+[15] J. M. Pendlebury, S. Afach, N. J. Ayres, et al. Phys. Rev. D 92 (2015) 092003.
+[16] C. Abel, N. J. Ayres, G. Ban, et al. EPJ Web Conf. 219 (2019) 02001.
+[17] N. F. Ramsey. Phys. Rev. 78 (1950) 695.
+[18] A. Anghel, F. Atchison, B. Blau, et al. Nucl. Instrum. Methods A 611 (2008) 272.
+[19] B. Lauss. Phys. Proc. 51 (2014) 98.
+[20] F. Atchison, B. Blau, M. Daum, et al. Phys. Lett. B 642 (2006) 24.
+[21] F. Atchison, B. Blau, M. Daum, et al. Phys. Rev. C 74 (2006) 055501.
+[22] K. Bodek, M. Daum, R. Henneck, et al. Nucl. Instrum. Methods A 597 (2008) 222.
+[23] S. Afach, G. Ban, G. Bison, et al. Eur. Phys. J. A 51 (2015) 143.
+[24] G. Ban, G. Bison, K. Bodek, et al. Eur. Phys. J. A 52 (2016) 326.
+[25] C. Abel, S. Afach, N.J. Ayres et al. ArXiv 1912.04631 (2019).
+[26] S. Afach, N. Ayres, C.A. Baker, et al. Phys. Rev. D 92 (2015) 052008.
+[27] J. M. Pendlebury, W. Heil, Y. Sobolev, et al. Phys. Rev. A 70 (2004) 032102.
+[28] G. Pignol & S. Roccia. Phys. Rev. A 85 (2012) 042105.
+[29] C. Abel, N. J. Ayres, T. Baker, et al. Phys. Rev. A 9 (2019) 042112.
+[30] G. L. Greene, N. F. Ramsey, W. Mampe, et al. Phys. Rev. D 20 (1979) 2139.
+[31] B. Cagnac Ann. Phys. 6 (1961) 467.
+                                                                                                             8
+
+[32] G. Bison, M. Daum, K. Kirch, et al. accepted by EPJA, ArXiv 1907.05730 (2019).
+[33] G. Pignol, M. Guigue, A. Petukhov, R. Golub Phys. Rev. A 72 (2015) 053407.
+[34] C. Cohen-Tannoudji Ann. Phys. Paris 13 (1962) 423.
+[35] A. Abragam and M. Goldman Nuclear Magnetism: Order and Disorder, Oxford University Press, Oxford (1982).
+[36] V. F. Sears Neutron News 3 (1992) 29.
+[37] N.J. Ayres, G. Ban, G. Bison et al. ArXiv 1912.09244(2019).
+[38] One analysis team has chosen to use ∆fi = ⟨fHg ⟩ fn,LF and Φ = R⟨fHg ⟩ ∆ν
+                                                       f
+                                                                            π
+                                                                               , while the other team used ∆f =
+                                                         Hg,i
+     fHg,i − ⟨z⟩gz and the phase Φ.
+

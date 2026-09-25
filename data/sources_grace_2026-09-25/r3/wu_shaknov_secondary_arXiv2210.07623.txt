@@ -1,0 +1,689 @@
+                                            Entanglement of annihilation photons
+                                            Alexander Ivashkin1,* , Dzhonrid Abdurashitov1 , Alexander Baranov1,2 , Fedor Guber1 ,
+                                            Sergey Morozov1 , Sultan Musin1,3, , Alexander Strizhak1,3, , and Igor Tkachev1
+                                            1 Institute for Nuclear Research RAS, Moscow, 117312, Russia
+                                            2 National Research Nuclear University MEPhI, Moscow, 115409, Russia
+                                            3 Moscow Institute of Physics and Technology, Moscow, 141701, Russia
+                                            * ivashkin@inr.ru
+
+
+
+                                            ABSTRACT
+
+
+
+
+arXiv:2210.07623v1 [quant-ph] 14 Oct 2022
+                                            We present a new experimental study of the quantum entanglement of photon pairs produced in positron-electron annihilation
+                                            at rest. Each annihilation photon has an energy that is five orders of magnitude higher than the energy of photons in optical
+                                            experiments, which provides a unique opportunity for controlled formation of decoherent states and successive measurements
+                                            of the same photon.The experimental setup includes a system of Compton polarimeters to measure the Compton scattering
+                                            of annihilation photons in entangled and decoherent states. Decoherent states are prepared by pre-scattering of one of the
+                                            initial photons prior to measurements in polarimeters. For the first time, a direct comparison of the polarization correlations
+                                            of annihilation photons in the entangled and thus prepared separable states has been carried out. The angular distributions
+                                            of scattered photons turned out to be the same in both quantum states, which is an unexpected discovery for the quantum-
+                                            entangled positron emission tomography. Moreover, the correlation function in the Bell’s inequality is also the same for
+                                            entangled and separable states. It follows that, despite numerous measurements in a series of experiments, there is still no
+                                            experimental proof of the entanglement of annihilation photons. These results are in line with recent theoretical predictions of
+                                            an identical Compton scattering cross-section for entangled and specific mixed separable quantum states and cast doubt on
+                                            the universality of the Bell’s theorem for testing the entanglement and nonlocality in quantum theory.
+
+
+
+                                            Introduction
+                                            The entanglement of a quantum system is a simple consequence of the superposition principle and means that the state of
+                                            the system cannot be represented as a product of the states of individual subsystems. Historically, however, this term was
+                                            introduced by Schrödinger, referring to the entanglement of our knowledge of quantum systems1, 2 . Such an interpretation of
+                                            entanglement is quite relevant for the current situation with a system of two photons formed by positron-electron annihilation at
+                                            rest. The description of this system has been the subject of pioneering work on quantum entanglement in the past century and,
+                                            as we will see below, is still unclear in some respects.
+                                                The study of this two-photon system has a long and remarkable history, which can be divided into several stages. Initially,
+                                            the idea of measuring a pair of annihilation photons was proposed in 1946 by Wheeler3 . He considered at that time a
+                                            hypothetical bound system of an electron and a positron with an orbital moment equal to one or zero. In the latter case, due to
+                                            the conservation of angular momentum and parity, the photons of the pair formed during positron-electron annihilation have
+                                            mutually perpendicular polarization. In the same article, in order to test the predicted correlation of photon polarization, J.
+                                            Wheeler proposed an experimental scheme with two Compton scatterers and detectors of scattered photons, which has already
+                                            become a classic. Since photons are scattered predominantly perpendicular to the polarization plane, the dependence of the
+                                            number of registered photons on the angle between the scattering planes should have a maximum or minimum at 90◦ or 0◦ ,
+                                            respectively.
+                                                Almost simultaneously, two theoretical papers by Pryce and Ward4 and by Snyder et al.5 predicted the behavior of the
+                                            angular distribution of scattered annihilation gamma rays. These distributions were obtained on the basis of the Klein-Nishina
+                                            formula6 with the following initial state
+
+                                                      1
+                                                  Ψ = √ (|H1V2 i + |V1 H2 i),                                                                                               (1)
+                                                       2
+
+                                            where H(V) represent the horizontal (vertical) linear polarization of the first or second photon. In this state, photons do not have
+                                            a definite polarization, albeit their polarizations are mutually orthogonal. It was shown that the ratio R = N⊥ /Nk of the number
+                                            of counts for perpendicular and parallel orientations of scattering planes reaches a maximum of R = 2.85 in the case when
+                                            photons are scattered at an angle of 820 to their initial momenta. These predictions were brilliantly confirmed in a pioneering
+experiment by Wu and Shaknov7 . Their experimental ratio R = 2.04 ± 0.08 was consistent with the theory, taking into account
+the finite solid angles of the detectors.
+     Seven years later, the results obtained were seriously rethought in the paper by Bohm and Aharonov8 , devoted to the
+experimental verification of the famous EPR paradox by Einstein, Podolsky and Rosen9 . The authors emphasized that positron-
+electron annihilation with zero orbital angular momentum produces two photons described by the entangled wave function, Eq.
+(1), and therefore provides a particular entangled system for studying the EPR paradox. The authors calculated ratio R and the
+angular distributions of Compton scattered photons for several types of quantum states. They confirmed R ≈ 2.85 for the state
+Eq. (1) and concluded that R = 1 for mixed separable state of annihilation photons described by the density matrix:
+
+          1
+      ρ⊥ = (|H1V2 i hH1V2 | + |V1 H2 i hV1 H2 |).                                                                             (2)
+          2
+    According to the author’s statement, the measured ratio R = 2.07 is experimental evidence of distant correlations leading to
+the EPR-paradox. It is worth noting that the experimental verification of entanglement was first discussed seven years before
+the appearance of famous Bell’s theorem10, 11 , which is basic instrument of modern experimental tests of entanglement.
+    In subsequent years a series of experiments12–17 was performed to measure the ratio R with better accuracy. The most
+precise results were obtained by Langhoff12 (R = 2.47 ± 0.07) and by Kasday et al.14 (R = 2.33 ± 0.10). The geometrical
+corrections that account for the finite solid angles of detectors provided the results consistent with the theoretically predicted
+value R = 2.85.
+    Quite recently Caradonna et al.18 derived the cross-sections for Compton scattering of annihilation photons in several
+(entangled and mixed separable) states using the matrix representation of the Klein-Nishina formula. Their results confirmed
+the credibility of Bohm-Aharonov finding and, consequently, the validity of relevant experimental tests.
+    Strong polarization correlations for annihilation photons in entangled states and the theoretically predicted absence of
+correlations for separable states motivated the development a new generation of Positron Emission Tomography (PET), the so-
+called quantum-entangled QE-PET with Compton scattering reconstruction19 ,20 . Attention is paid to the kinematic restrictions
+on the angular distributions of scattered gammas in attempts to suppress the scatter and random backgrounds and improve
+the quality of PET images. In recent years, significant efforts have been made to create working prototypes of PET using the
+reconstruction of the Compton scattering kinematics. More recently, the research Jagiellonian Positron Emission Tomograph
+(J-PET)21, 22 was built of plastic scintillators. Identification of double Compton scattering of photons in J-PET plastic bars
+makes it possible to determine the linear polarization of primary photons and to measure the angular correlations.
+    The verification of entanglement mentioned above relies exclusively on the angular correlations of scattered annihilation
+photons. One might wonder why Bell’s theorem10, 11 , or the Clauser- Horne-Shimony-Holt (CHSH) inequality23 as a particular
+practical case, has not been applied here. The explanation is quite simple and is related to the low analyzing power of Compton
+polarimeters, which are the only tool for measuring the polarization of high-energy gamma rays. The analyzing power is
+strongly dependent on the energy of gamma-ray and is less than 0.7 for annihilation photons with an energy of 511 keV, even
+for an ideal polarimeter. This issue has been discussed at length by Clauser and Shimoni24 , who pointed out that nonlocality in
+positron-electron annihilation can only be demonstrated if the analyzing power is greater than 0.83. In this case, the S-function
+in the CHSH inequality, reduced to the product of the analyzing powers of two Compton polarimeters, would exceed the
+required limit of 2. However, in reality, for annihilation photons, this S-function can only reach a maximum of 1.4 even for an
+ideal polarimeter.
+    Nevertheless, the S-function was measured in 1996 by Osuch et al.25 . They counted the number of scattered photons in
+Compton polarimeters located at different azimuthal angles. The correlation coefficients were obtained from the coincidence of
+the count rates between two sets of polarimeters installed on opposite sides of the annihilation photon source. The S-function
+constructed from these coefficients perfectly reproduces the theoretically predicted behavior:
+
+      S = −p0 (3 cos(2φ ) − cos(6φ )),                                                                                        (3)
+
+where φ is the azimuthal angle between the polarimeters, and p0 is the product of the analyzing powers of two opposite
+Compton polarimeters. Of course, the resulting maximum value of S was well below the theoretical limit of 2. Nevertheless,
+subsequent corrections by the measured values of the analyzing power of the polarimeters allowed the authors to state that the
+CHSH inequality is violated by twelve standard deviations.
+    The agreement of numerous experimental results with the predictions of quantum theory gives the impression of a complete
+understanding of the behaviour of a system of two annihilation photons and confidence in the entanglement of their initial
+state18 . However, the situation became rather uncertain in 2019 with the appearance of the theoretical work of Hiesmayr and
+Moskal26 , who applied an open quantum formalism to the Klein-Nishin formula and obtained the same Compton scattering
+cross section for both entangled and mixed separable states of annihilation photons. Their results fundamentally contradict
+
+
+                                                                                                                             2/12
+previous theoretical considerations and, therefore, claim the incompleteness of existing experimental studies, which are based
+on the assumed difference in the Compton scattering of entangled and separable photon pairs. Moreover, as we will show
+below, the identical Compton scattering cross sections lead to the same S-functions in the CHSH inequality for entangled and
+separable mixed states. This raises the question of the relevance of Bell’s theorem for testing quantum entanglement.
+    The results in ref.26 obviously affect the very possibility of using quantum entanglement in the development of PET
+imaging. To resolve apparent theoretical contradictions, Watts et al.27 built a prototype PET with modern semiconductor
+gamma detectors and a passive Compton scatterer for one of the annihilation photons. They measured the angular correlation of
+scattered photons for two types of events: entangled photons without a passive scatterer and pre-scattered events with a passive
+scatterer placed in the path of one of the annihilation photons. In the latter case, the decohering process in the passive scatterer
+leads to a separable state with lost entanglement. Unfortunately, the low sensitivity to the measured polarization and large
+statistical measurement errors did not allow to draw an unambiguous conclusion. New dedicated measurements with intact
+and prescattered initial states of annihilation photons are required to solve the theoretical puzzle. For this purpose, we have
+developed a setup28 of Compton polarimeters with a large solid angle and an active intermediate Compton scatterer, which has
+been operating for about a year and a half at INR RAS. In this paper, we report our rather unexpected findings on polarization
+correlations in Compton scattering of entangled and decoherent pairs of annihilation photons.
+
+Methods
+Each annihilation photon has an energy equal to the electron mass (511 keV), which is five orders of magnitude higher than the
+energy of optical photons. Such a sharp difference has both advantages and disadvantages in measuring polarization states. The
+need to use Compton polarimeters with a relatively low analyzing power has already been discussed and makes it problematic
+to use the CHSH inequality to test photon entanglement. At the same time, the high energy of photons makes it possible to
+create a separable, similar to that described by the Eq.2, mixed state through the Compton scattering of one of the photons. The
+selection of events with a sufficiently low energy release in a Compton scatterer would ensure the decohering process without
+noticeable distortion of the initial two-photon kinematics. Thus, annihilation photons provide a unique opportunity for direct
+comparison of both initially entangled and prepared separable mixed states.
+    The principles for measuring the polarization correlations of these two types of quantum states are illustrated in Fig. 1.
+Two Compton polarimeters are required for measuring both photons with opposite momenta. Each polarimeter consists of a
+
+                                                   NII
+
+                                                          Detectors of scattered photons
+
+
+                                                                                           NꞱ
+
+                                 NꞱ
+
+
+                                       Compton
+                                       scatterer     Intermediate
+                                                     scatterer
+
+                                                                                  NII
+
+Figure 1. Principal scheme for measuring polarization correlations of initially entangled and prepared decoherent states of
+annihilation photons. It includes two Compton polarimeters and an intermediate scatterer. Each Compton polarimeter consists
+of a scatterer and two orthogonal detectors of scattered gammas. ε1 (ε2 ) and ε10 (ε20 ) are the polarization vectors of the initial
+and scattered gammas, respectively. Nk and N⊥ denote detectors parallel (perpendicular) to the initial polarization vector.
+
+Compton scatterer and two detectors of scattered gammas arranged orthogonally. An intermediate scatterer is placed in the
+path of one of the initial photons to create a tagged subset of pre-scattered events. Due to the decohering process during the
+interaction, entanglement is lost for the corresponding pairs of tagged photons.
+    The measurements are based on the dependence of the differential cross section of Compton scattering on the polarization
+direction, which is given by the well-known Klein-Nishina formula6 :
+              (re ε)2
+                                                
+       dσ                    1        2       2
+           =          · ε + − 2 sin θ · cos φ ,                                                                            (4)
+       dΩ        2           ε
+where re is the classical electron radius, ε ≡ E1 /E, E (E1 ) is the energy of the incident (scattered) photon, θ is the scattering
+angle and φ is the angle between the scattering plane and the direction of polarization of the incident photon. The scattered
+
+
+                                                                                                                               3/12
+photon energy is E1 = E · me /(me + E · (1 − cos θ )), where me is the electron mass. As follows from Eq.4, photons scatter
+predominantly orthogonally to the polarization plane.
+    Like optical polarimeters, the Compton polarimeter has two main components. Namely, the Compton scatterer measures the
+polarization of photons in place of a conventional polaroid, and the detectors of scattered photons play the role of photodetectors.
+    The main characteristic of a Compton polarimeter, which determines the sensitivity to the measured polarization, is the
+                             N −N
+analyzing power: A(θ ) = N⊥ +Nk , where N⊥ (Nk ) denotes the number of registered events in counters located perpendicular
+                              ⊥    k
+(parallel) to the polarization of the incident photons. Equivalently, at large statistics,
+
+                dσ
+                     (θ , φ = 90◦ ) − dΩ
+                                      dσ
+                                         (θ , φ = 0◦ )
+      A(θ ) = dΩ
+              dσ                   dσ
+                                                         .                                                                      (5)
+                              ◦                 ◦
+                dΩ (θ , φ = 90 ) + dΩ (θ , φ = 0 )
+
+    Using Eq. 4, the analyzing power is obtained as29 :
+
+                        sin2 θ
+      A(θ ) =                         .                                                                                         (6)
+                E1 /E + E/E1 − sin2 θ
+    As follows from Eq. 6, for a given energy of the initial gamma, the analyzing power depends on the scattering angle. For
+completely polarized photons with an energy of 511 keV, the analyzing power reaches a maximum of A = 0.69 at θ = 82◦ .
+    In the case of an entangled pair of photons with mutually orthogonal polarizations, the probability of Compton scattering at
+scattering angles θ1 , θ2 is given by the following expression5 ,18 ,26 :
+
+      P(∆φ ) = k1 k2 (1 − α(θ1 )α(θ2 ) cos(2∆φ )),                                                                              (7)
+
+where k1 , k2 are the kinematic factors for the first and second scattered photons, ∆φ is the angle between scattering planes, the
+parameters α(θ1 ) and α(θ2 ) coincide with the analyzing power of the corresponding Compton polarimeter. The product of the
+analyzing powers is equal to the modulation factor µ 30 which determines the sensitivity of a setup to the measured polarization.
+Therefore, Eq.7, together with the dependence of photon counts on the azimuthal angle, also gives the modulation factor µ of
+the experimental setup.
+
+Experimental setup
+Based on the above principles an experimental setup28 was constructed to measure the polarization correlation of annihilation
+photons in both entangled and separable states. The setup comprises two equivalent arms of Compton polarimeters and a 22 Na
+positron source placed between these arms, as shown in Fig.2.
+
+
+                                                                    NaI(Tl) counters
+
+                                                                       22Na
+
+
+
+
+                                                             GAGG          Plastic scatterer
+
+
+
+
+Figure 2. Scheme of a two-arm experimental setup. Each arm consists of a plastic scatterer on the setup axis and 16 NaI(Tl)
+counters orthogonal to the axis. The 22 Na source of positrons is placed in a lead collimator between the arms closer to
+intermediate GAGG scatterer for preparing annihilation photons in decoherent states.
+
+    A source of positrons with an activity of ∼ 50 MBq was fabricated by irradiating a 1 mm thick aluminum plate with 130
+MeV protons at the INR RAS isotope facility31 . The source is located in a horizontal hole in a lead cube providing collimated
+beams of annihilation photons in opposite directions from the source. Each arm of the setup consists of a plastic scintillation
+scatterer and a ring of 16 NaI(Tl) scintillation detectors of scattered photons with an azimuthal angle between adjacent detectors
+
+
+                                                                                                                              4/12
+of 22.5◦ . NaI(Tl) counters detect photons scattered at an angle of about 90◦ . Each pair of orthogonal NaI(Tl) counters and a
+plastic scatterer of the same arm form an elementary Compton polarimeter. Due to the azimuthal symmetry of the setup, each
+NaI(Tl) counter registers the vertical or horizontal polarization component depending on the orientation of the scattering plane.
+The chosen layout leads to a compensation for possible systematic errors caused by different efficiencies and inaccuracies in
+the positions of the NaI(Tl) counters.
+    The distance between the plastic scatterers is about 70 cm. To break down the entanglement of annihilation photons in a
+subset of events, an intermediate thin scatterer, a gadolinium-aluminum-gallium garnet (GAGG) scintillator, is placed next to
+one of the plastic scatterers. The 22 Na positron source is located 10 cm closer to the arm with the GAGG scintillator to ensure
+that the first photon interaction occurs in the intermediate scatterer.
+    The GAGG scatterer is the key element that separates events in entangled or decoherent states. An interaction in the GAGG
+scintillator means that a pair of initially entangled annihilation photons has undergone a decoherence process. Therefore, the
+reliability of interaction identification in the intermediate scatterer is the most important feature of the setup.
+
+
+
+
+                                          Backscattering peak                                                 Backscattering peak
+                                          (E = 170,5 𝑘𝑒𝑉)                                                     (E = 170,5 𝑘𝑒𝑉)
+                                        𝝈𝒕 = 𝟔, 𝟗 𝒏𝒔
+
+            𝝈𝒕 = 𝟑, 𝟗 𝒏𝒔
+
+
+
+
+Figure 3. Left - time coincidence spectra between signals in intermediate GAGG and plastic scatterers. Red and black lines
+correspond to events with energy release in GAGG in the ranges of 2–40 keV and 40–120 keV, respectively. The numbers
+indicate the time resolution for these two cases. Right - the energy spectra in GAGG scatterer for events within the true time
+coincidence peak. Here, events are selected that hit the NaI(Tl) counters. Insert shows the extended GAGG energy spectrum for
+all events, regardless of the hits in NaI(Tl) counters. The prominent peak at 170.5 keV corresponds to photons backscattered by
+the adjacent plastic scatterer and absorbed by GAGG. This peak is used for energy calibration of the intermediate scatterer.
+
+    Energy deposition and signal timing are measured in all scintillators, NaI(Tl) detectors, intermediate GAGG and plastic
+scatterers. The timing and amplitude of the signals used to identify the interaction in the GAGG scintillator are shown in Fig.3.
+    The time coincidence spectra of signals from intermediate and plastic scatterers are presented for two cases, with low
+and high energy deposition in the GAGG. In the first case, the scattering angles in GAGG are small and the influence on the
+momentum of the initial annihilation photon is minimal. In these events, the noise of the photodetector and readout electronics
+stronger affects the time resolution compared to events with higher energy deposition.
+    Fig.3, on the right, shows the energy spectra in the intermediate scatterer for events in true time coincidence window with
+hits in the NaI(Tl) counters. The high light yield of GAGG32, 33 makes it possible to detect recoil electrons with an energy
+threshold of several keV. The permanent energy calibration of GAGG is performed by detecting 170.5 keV energy deposition
+from photons backscattered by an adjacent plastic scatterer and absorbed in GAGG.
+    We define the tagging of events of various types analyzed in polarimeters as follows. A pair of initial photons is considered
+entangled if no interaction is observed in the intermediate GAGG scatterer. Otherwise, the detected energy in the GAGG
+scatterer means that the photons have undergone decoherence.
+    The sensitivity of the setup to polarization measurements was studied by the Monte Carlo simulation using the latest
+version of Geant434, 35 particle simulation framework, where the theoretical formula Eq.7 is implemented for initial annihilation
+photons. Since the NaI(Tl) detectors are located orthogonally to the Compton scatterers, the theoretical ratio of counts for
+perpendicular and parallel orientations of the scattering planes can be R = 2.6 which is less than the maximum R = 2.85 for
+the optimal 82◦ scattering angle. In a setup with a realistic detector geometry, photons are detected in the range of scattering
+angles of 80◦ − 100◦ , which leads to an additional reduction to R = 2.40. The modulation factor for entangled photons equals
+to µ = 0.41, which is about 15% less than the maximum theoretical value µ = 0.48 for the optimal scattering geometry.
+    Finally, Monte Carlo simulations estimated the contribution of systematic errors caused by possible inaccuracies in the
+positions of the detectors and the positron source. Due to the azimuthal location of the detectors, systematic errors turned out to
+
+
+                                                                                                                                    5/12
+be almost an order of magnitude smaller than the statistical errors achieved and were not taken into account.
+
+Results
+Experimental spectra
+Identification of the Compton scattering kinematics is carried out by monitoring the energy release in all active elements
+of Compton polarimeters, namely, in NaI(Tl) detectors of scattered photons, plastic scatterers, and the intermediate GAGG
+scatterer. Scattering of the initial annihilation photons at 90◦ releases on average an equivalent energy of 255 keV both in the
+plastic scatterer and in the NaI(Tl) counter. According to Monte Carlo simulations, in a setup with a realistic detector geometry,
+photons are detected in the range of scattering angles of 80◦ − 100◦ with energy deposition in NaI(Tl) from 235 keV to 280
+keV. This is illustrated in Fig.4, which shows energy deposition spectra in NaI(Tl) detectors for various Compton scattering
+kinematics.
+
+           1000                                                              600
+
+      Counts                                                        Counts
+            900
+            800                                                              500
+            700
+                                                                             400
+            600
+            500                                                              300
+            400
+            300                                                              200
+            200
+                                                                             100
+            100
+              0                                                                0
+               0   50   100   150   200   250   300 350 400                     0   50   100   150   200   250   300 350 400
+                                                 Energy (keV)                                                     Energy (keV)
+
+Figure 4. Left - energy spectra in NaI(Tl) counters for events in entangled states without energy deposition in the intermediate
+GAGG scatterer (blue line) and in decoherent states with energy deposition in the intermediate GAGG scatterer below 30 keV
+(red line). Right - the energy spectra in NaI(Tl) counters for decoherent photons with energy deposition in the intermediate
+GAGG scatterer between 30 keV and 110 keV. The blue line is the experimental data, the red line is the result of the Monte
+Carlo simulation.
+
+    The relatively narrow NaI(Tl) energy peak for entangled states reflects the range of scattering angles of registered photons.
+The situation is completely different for decoherent states after the interaction of photons with an intermediate scatterer. Even
+a few percent energy loss (below 30 keV) of the original 511 keV photons in the GAGG scintillator leads to a significant
+distortion of the energy spectrum. This is the effect of double Compton scattering of the initial annihilation photon in both
+GAGG and plastic scintillators. After the first scattering in GAGG, the photon deviates within a few degrees from its original
+direction. Subsequent interaction in a plastic scintillator increases the ranges of scattering angles and energy deposition of
+photons registered in NaI(Tl).
+    Events with a higher energy deposition in the intermediate scatterer (up to 110 keV) form a complex structure in the NaI(Tl)
+spectrum. Visible peaks in this energy spectrum correspond to particular cases of the kinematics of Compton scattering. The
+Monte Carlo simulation of the double Compton scattering of 511 keV photons confirmed that the observed structure in the
+NaI(Tl) spectrum reflects the kinematics of the first scattering in the GAGG scintillator, which leads to distinct groups of
+events. These particular cases of Compton scattering and the correlation between energy depositions in the NaI(Tl) and GAGG
+scintillators are shown in Fig. 5.
+    In this figure, several distinct groups of events can be identified, labeled as classes "a", "b", "c", and "d". The double
+Compton scattering kinematics for these events can be determined using a simple analytical calculation or Monte Carlo
+simulation. Group "a" represents scattering processes with an electron recoil energy in the GAGG scintillator below 30 keV
+and, accordingly, with the smallest scattering angles.
+    The range of scattering angles by the GAGG in the "b" and "c" regions is identical and it is larger as compared to the
+"a"-events. However, events in the "b” region have maximum energy deposition in NaI(Tl) detectors from two sequential
+Compton scatterings with the first scattering in the GAGG in the direction of the NaI(Tl) counter. In contrast to these events,
+the "c" group represents a double Compton scattering with the sum of scattering angles exceeding 90◦ , since the first scattering
+in the GAGG scintillator deflects the photon in the opposite direction from the NaI(Tl) counter. Therefore, more energy is left
+in the plastic scintillator and less for the NaI(Tl) detector remains.
+    The most complex kinematics of double Compton scattering is observed for the “d" group of events with the lowest energy
+registered by NaI(Tl). The original annihilation photons in these events pass through the GAGG scintillator without interaction
+
+
+                                                                                                                                 6/12
+                                                                                                                                      b
+       c
+                                                                                    d            c         b
+
+
+       d                                                                                                                              a
+                                                                                                          a
+
+
+Figure 5. Correlation between energy depositions in the intermediate GAGG scatterer and in NaI(Tl) counters. Several
+groups of events in black boxes marked as "a"," b", "c" and "d" can be distinguished. They correspond to different Compton
+scattering kinematics in the GAGG scintillator, shown in the diagrams to the left/right of the correlation plot. The brown, red
+and blue boxes in the diagrams mark the intermediate GAGG scatterer, the plastic scatterer and the NaI(Tl) counter,
+respectively.
+
+
+and are backscattered in the plastic scatterer. The second scattering at about 90◦ occurs in the GAGG scintillator, followed by
+photon registration in NaI(Tl) counters. Unlike other classes of events with relatively small scattering angles in GAGG, the "d"
+group represents Compton scattering at maximum angles about 180◦ and with maximum energy losses in plastic scatterer.
+
+Angular distributions of scattered photons.
+Previous experiments with entangled annihilation photons have mainly measured the dependence of the number of counts of
+scattered photon detectors on the azimuthal angle between these detectors. This dependence is described by Eq.7 and has a
+cosine-like behaviour. As follows from the formula, the ratio of counts R for perpendicular and parallel orientations of the
+scattering planes reaches a maximum of R = 2.85 if both photons are scattered at an angle of 820 to their initial momenta.
+According to Eq. 7, the number of counts in detectors of scattered photons can be approximated as:
+
+      N(φ ) = A − B cos(2∆φ ),                                                                                                                        (8)
+
+where ∆φ is the angle between scattering planes, A and B are the fit constants. As follows from Eq. 7 and Eq. 8, the ratio R
+equals to R = (A + B)/(A − B), while the modulation factor is µ = B/A.
+
+                         ×103
+                                                    χ2 / ndf                                                             χ2 / ndf
+
+           Counts                                                                       Counts
+                                                                       12.32 / 14            800                                        17.84 / 14
+                    22                              A          1.375e+04 ± 29.32                                         A           442.6 ± 5.26
+                    20                              B               5746 ± 40.51                                         B          183.4 ± 7.308
+                                                                                             700
+                    18
+                                                                                             600
+                    16
+                    14                                                                       500
+
+                    12                                                                       400
+                    10
+                                                                                             300
+                    8
+                         0      50   100   150   200    250   300   350                          0   50   100   150   200    250   300   350
+                                             azimuthal angle ∆φ (degrees)                                         azimuthal angle ∆φ (degrees)
+
+Figure 6. Dependence of coincidence counts in NaI(Tl) detectors on the azimuthal angle between these detectors for
+entangled (left) and decoherent (right) initial states of photon pairs. The solid line corresponds to the fitting function Eq. 8.
+
+   In our experiment, the data set without energy deposition in intermediate GAGG scatterer is associated with entangled
+photons, Eq. 1. In this case, the modulation factor coincides with the product of the analyzing powers of the corresponding
+
+
+                                                                                                                                                     7/12
+Compton polarimeters, µ = α(θ1 ) · α(θ2 ), see Eq. 7. Other events with interaction in the GAGG scatterer correspond to
+decoherent photon pairs in the initial state. Experimental angular distributions for these two types of events with different
+initial quantum states are shown in Fig. 6. The data were approximated by the function Eq. 8. For the entangled photons, the
+fitting parameters give R = 2.435 ± 0.018, which is consistent with the Geant4 Monte Carlo simulation, taking into account
+that the NaI(Tl) detectors are set orthogonal to the symmetry axis and register photons scattered in range 80◦ − 100◦ . The
+modulation factor equals to µ = A2 = 0.418 ± 0.003, which is about 15% less than the maximum theoretical value of 0.48 for
+ideal Compton polarimeters.
+     The second plot in Fig. 6 shows the angular distributions for the entire set (classes "a", "b", "c" in Fig. 5) of decoherent
+events, excluding backscattered ones. Surprisingly, decoherent events exhibit almost the same azimuthal behavior with a ratio
+R = 2.41 ± 0.10 and a modulation factor µ = 0.414 ± 0.017.
+     Interaction in GAGG is equivalent to quantum mechanical measurement. After the measurement, the participating photon
+must be in the “H" or “V" state with equal probability. The other photon must collapse into a state of opposite polarization
+if there is no exchange of angular momentum with the electron, which is true at low energies E  me or forward scattering
+θ 2  me /E, Eqs. (87.20-21) in ref.36 . Therefore, after scattering in GAGG, under one of these conditions, decoherent photons
+must be in a mixed separable state Eq. 2. Events of classes "a", "b", "c" satisfy the forward scattering condition. Then the
+observed cosine-like behavior contradicts earlier theoretical findings8 , see also recent ref.18 . On the contrary, our experimental
+results are in agreement with the recent prediction26 of the equivalent Compton scattering cross section for photons in entangled
+and mixed separable states, Eq. 1 and Eq. 2 respectively.
+     To get more information and insight, angular distributions were constructed for all classes of decoherent events classified in
+Fig. 5. The dependencies of the number of scattered photons registered in the NaI(Tl) counters on the azimuthal angle between
+these photons are shown in Fig. 7. From the fitting parameters presented in these plots, one can calculate the ratio R of the
+numbers of counts for the perpendicular and parallel orientations of the scattering planes, which are very close to each other,
+Ra = 2.43 ± 0.15, Rb = 2.52 ± 0.21, Rc = 2.35 ± 0.17 for classes "a"," b", "c", respectively.
+
+
+           a                                                                 b
+                         𝑅 = 2.43 ± 0.15                                                     𝑅 = 2.52 ± 0.21
+
+
+
+
+            c                                                                d
+                         𝑅 = 2.35 ± 0.17                                                     𝑅 = 1.48 ± 0.13
+
+
+
+
+Figure 7. Dependence of coincidence counts in NaI(Tl) detectors on the azimuthal angle between these detectors for four
+classes ( "a", "b", "c" and "d" in Fig. 5) of decoherent events. The solid line corresponds to the fitting function Eq. 8. The
+numbers in the blue area on the graphs indicate the R ratio for the corresponding class of events.
+
+   The smallest ratio Rd = 1.48 ± 0.13 is observed for class "d" events. This is due to the partial depolarization of backscattered
+photons, as follows from the analysis of the Klein-Nishina formula for linearly polarized gamma rays36 . Namely, according
+
+
+                                                                                                                               8/12
+to Eq. (87.12) in ref.36 , with E = me and backscattering by 180◦ , one fifth of photons change from vertical to horizontal
+polarization and vice versa. Note, that in26 the possibility of such transitions is missed. Adding the corresponding fraction of
+                                                           1
+                                                       ρk = (|H1 H2 i hH1 H2 | + |V1V2 i hV1V2 |)
+                                                           2
+to the density matrix Eq. 2 we find that the modulation factor reduces by a factor of 0.6. We should expect R ≈ 1.66 for such a
+depolarized state, which is consistent with the experimental result, Fig. 7. Note, that R = 1 if ρ = 12 (ρ⊥ + ρk ).
+    Since the angular distributions of scattered photons turned out to be the same for entangled and separable initial states, our
+results show that these dependences cannot be used to experimentally test the entanglement of annihilation photons.
+
+S-function in CHSH inequality.
+The CHSH inequality as a particular variant of Bell’s theorem is used in classical experiments with pairs of entangled optical
+photons37–39 . A suitable setup includes two dual-channel polarimeters separating orthogonal linear polarization parallel and
+perpendicular to some arbitrary ~a and ~b directions for the first and second photons, respectively. By measuring the coincidence
+rate R of photons with different spin orientations, the correlation coefficients can be constructed as:
+                    Rak bk + Ra⊥ b⊥ − Rak b⊥ − Ra⊥ bk
+      E(~a,~b) =                                            ,                                                                     (9)
+                    Rak bk + Ra⊥ b⊥ + Rak b⊥ + Ra⊥ bk
+
+where the indexes ak , a⊥ , bk and b⊥ denote the photons with parallel or perpendicular polarization for the direction ~a or ~b,
+respectively.
+    By measuring the correlation coefficients for four different polarimeter orientations, ~a,~b,~a0 ,~b0 , the following function can
+be composed:
+      S = E(~a,~b) − E(~a,~b0 ) + E(~a0 ,~b) + E(~a0 ,~b0 ).                                                  (10)
+                                                                         √
+In the case of entangled photons, S-function reaches a maximum of |S| = 2 2 = 2.83 for certain optimal polarimeter
+orientations:
+      (~a,~b) = (~a0 ,~b0 ) = (~a0 ,~b) = φopt
+      (~a,~b0 ) = (~a,~b) + (~a0 ,~b0 ) + (~a0 ,~b),
+
+    where (~a,~b) denotes an angle between vectors ~a and ~b, and the optimal azimuthal angles φopt are multiples of φ = 22.5◦ .
+This clearly violates the CHSH inequality |S| ≤ 2 that follows from Bell’s theorem if underlying hidden local variables would
+exist.
+    As discussed by Clauser and Shimony24 , the CHSH inequality is never violated for annihilation photons due to the low
+efficiency (analyzing power) of Compton polarimeters. To map the real-world experiments with non-ideal polarimeters to
+the ideal case, the S−function is usually normalized to the product of corresponding efficiencies. Moreover, even without
+such a normalisation, measurements of annihilation photons in entangled and decoherent states on the same setup allow a
+direct comparison of the S-function for these two types of events. One should expect a fundamentally different behavior of this
+function for entangled and separable states, since in the latter case there are no nonlocal correlations.
+    Since in our setup the angle between adjacent detectors of scattered photons is 22.5◦ , the procedure for measuring the
+correlation coefficients and the S-function is straightforward (see also Osuch et al.25 ). The elementary Compton polarimeter
+consists of a scatterer and two orthogonal detectors of scattered photons, as shown in Fig 1. To measure the correlation
+coefficient E(~a,~b), two elementary Compton polarimeters are requested on opposite sides of the setup with orientations ~a and ~b.
+As an example, Fig. 1 shows a scheme for measuring the correlation coefficient E(90◦ ). The S-function was determined using
+four polarimeters with orientations ~a, ~a0 on one side and ~b, ~b0 on the other. There are 16 Compton polarimeters on each side of
+the setup. And the count rates for a given correlation coefficient are summed for all relevant combinations of polarimeters.
+    The measured S−functions for entangled and decoherent annihilation photons are presented in Fig. 8. In the latter case,
+class “a" events with an energy deposition below 30 keV in the intermediate GAGG scatterer were selected to ensure the
+minimum difference from the kinematics of entangled photons. The fit of the experimental points by the theoretical function
+Eq. 3 is shown by the solid line. The normalizing factor p0 is equal to the product of the analyzing powers of two polarimeters.
+Surprisingly, the behavior of both S−functions is almost identical regardless of the quantum state of the photons. Moreover, the
+normalizing factors are practically identical and coincide with the modulation factors estimated from the angular dependencies
+of the coincidence counts in the detectors of scattered photons, see Fig. 6.
+    The identity of the S-functions indicates that the CHSH inequality, even corrected for the efficiency of Compton polarimeters,
+cannot be used to test the entanglement of annihilation photons.
+
+
+                                                                                                                                9/12
+      S-function                                                                   S-function
+                                                     χ2 / ndf          2.662 / 7                                                χ2 / ndf          11.16 / 7
+                                                     p0       0.4181 ± 0.000901                 1.5                             p0       0.4173 ± 0.007543
+                     1
+                                                                                                  1
+                   0.5
+                                                                                                0.5
+                    0
+                                                                                                 0
+             −0.5
+                                                                                         −0.5
+                   −1                                                                           −1
+
+                         20   40   60   80   100 120 140 160 180                                      20   40   60   80    100 120 140 160 180
+                                              azimuthal angle φ (degrees)                                                 azimuthal angle φ (degrees)
+
+Figure 8. Dependence of the S-function on the relative azimuthal angle between polarimeters for entangled (left) and
+decoherent photons of class "a" (right). The solid line corresponds to the fitting function Eq. 3
+
+
+Discussion
+In this work, we utilized two methods for studying entanglement in the Compton scattering of annihilation photons. The first
+method is based on the discovery by Bohm and Aharonov8 of the relationship between strong angular correlations of scattered
+photons and entanglement. According to them, a large ratio R > 2 of the number of photon counts for the perpendicular and
+parallel orientations of the scattering planes indicates non-local correlations of annihilation photons.
+    The second approach involves the CHSH inequality, which is directly related to Bell’s theorem. Osuch et al.25 measured the
+S-function in this inequality and found that it agrees with quantum theory. Their correction of the S-function for the efficiency
+of Compton polarimeters confirmed the violation of the CHSH inequality.
+    The agreement between the theoretical and experimental results led to the conclusion that the system of two annihilation
+photons is entangled18 . However, a recent paper by Hiesmayr and Moskal26 has shaken the belief. They found that the cross
+section for Compton scattering of annihilation photons, described by the Eq. 7, is identical for entangled and mixed (separable)
+state Eq. 2. Since the cross section is of fundamental importance and determines all dependencies between scattered photons,
+the angular distributions and values of the S-function in the CHSH inequality must be the same for both quantum states.
+Nevertheless, Caradonna et al.18 disagreed with Hiesmayr and Moskal26 , confirming the results of Bohm and Aharonov8 .
+    In our experiment, we compared Compton scattering of initial annihilation photons and decoherent pairs prepared by
+preliminary forward scattering of one of the initial photons before measurements in a polarimeter. The new results have revealed
+the same behavior of the angular distributions and S-functions for both quantum states. (The correlations of a backscattered
+photon with its pair are smaller, but we came to the conclusion that this state cannot be approximated by the Eq. 2.) Our
+measurements reveal that the entanglement of annihilation photons is still awaiting experimental confirmation using more
+advanced techniques.
+    Also, according to new experimental results, the similarity of angular correlations of scattered photons limits the use of
+quantum entanglement in the planned next generation positron emission tomography (QE-PET). Most scattered background
+events cannot be rejected by the constraints on the angular distribution of scattered photon pairs. At the same time, the random
+background obviously has no angular correlations and can be suppressed by applying appropriate kinematic cuts.
+    Perhaps the most intriguing discovery is the identity of the S-function in the CHSH inequality for the initial and prepared
+separable state of photon pairs, Eq. 2. However, this is a consequence of the same Compton scattering cross section for both
+quantum states, as stated in ref.26 . The equivalence of these cross sections raises the question of the universality of Bell’s
+theorem for testing the entanglement and nonlocality of quantum theory. This issue has been theoretically debated for a long
+time40, 41 . For example, a very recent discussion42–44 predicts a violation of CHSH inequality in a completely local system of
+neon 21 Ne atoms with spin 3/2. The results presented provide an experimental basis for these theoretical discussions.
+
+
+References
+ 1. Schrödinger, E. The present status of quantum mechanics. Die Naturwissenschaften 23, 1–26 (1935).
+ 2. Schrödinger, E. Die gegenwärtige situation in der quantenmechanik. Naturwissenschaften 23, 823–849, DOI: 10.1007/
+    BF01491891 (1935).
+ 3. Wheeler, J. Polyelectrons. Annals New York Acad. Sci. 48, 219–238 (1946).
+
+
+                                                                                                                                                      10/12
+ 4. Pryce, M. H. L. & Ward, J. C. Angular correlation effects with annihilation radiation. Nature 160, 435, DOI: 10.1038/
+    160435a0 (1947).
+ 5. Snyder, H. S., Pasternack, S. & Hornbostel, J. Angular correlation of scattered annihilation radiation. Phys. Rev. 73,
+    440–448 (1948).
+ 6. Klein, O. & Nishina, T. Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen
+    Quantendynamik von Dirac. Z. Phys. 52, 853–868, DOI: 10.1007/BF01366453 (1929).
+ 7. Wu, C. S. & Shaknov, I. The angular correlation of scattered annihilation radiation. Phys. Rev. 77, 136, DOI: 10.1103/
+    PhysRev.77.136 (1950).
+ 8. Bohm, D. & Aharonov, Y. Discussion of experimental proof for the paradox of Einstein, Rosen, and Podolsky. Phys. Rev.
+    108, 1070–1076, DOI: 10.1103/PhysRev.108.1070 (1957).
+ 9. Einstein, A., Podolsky, B. & Rosen, N. Can quantum-mechanical description of physical reality be considered complete?
+    Phys. Rev. 47, 777–780 (1935).
+10. Bell, J. S. On the einstein podolsky rosen paradox. Phys. Physique Fizika 1, 195–200, DOI: 10.1103/PhysicsPhysiqueFizika.
+    1.195 (1964).
+11. Bell, J. S. Speakable and Unspeakable in Quantum Mechanics: Collected Papers on Quantum Philosophy (Cambridge
+    University Press, 2004).
+12. Langhoff, H. Die linearpolarisation der vernichtungsstrahlung von positronen. Z. Phys. 160, 186–193 (1960).
+13. Faraci, G., Gutkowski, D., Notarrigo, S. & Pennisi, A. R. An experimental test of the EPR paradox. Lett. al Nuovo Cimento
+    (1971-1985) 9, 607–611 (1974).
+14. Kasday, L. R., Ullman, J. D. & Wu, C. S. Angular correlation of Compton-scattered annihilation photons and hidden
+    variables. Il Nuovo Cimento B 25 B, 633–661 (1975).
+15. Bertolini, G., Diana, E. & Scotti, A. Correlation of annihilation γ-ray polarization. Il Nuovo Cimento B 63, 651–665, DOI:
+    10.1007/BF02755105 (1981).
+16. Wilson, A., Lowe, J. & Butt, D. Measurement of the relative planes of polarization of annihilation quanta as a function of
+    separation distance. J. Phys. G: Nucl. Phys. 2, 613–624 (1976).
+17. Bruno, M., D’Agostino, M. & Maroni, C. Measurement of linear polarization of positron annihilation photons. Il Nuovo
+    Cimento B 40, 143–152 (1976).
+18. Caradonna, P., Reutens, D., Takahashi, T., Takeda, S. & Vegh, V. Probing entanglement in Compton interactions. J. Phys.
+    Commun. 3, DOI: 10.1088/2399-6528/ab45db (2019).
+19. McNamara, A. L., Toghyani, M., Gillam, J. E., Wu, K. & Kuncic, Z. Towards optimal imaging with pet: an in silico
+    feasibility study. Phys. Med. Biol. 59, 7587–7600 (2014).
+20. Toghyani, M., Gillam, J. E., McNamara, A. L. & Kuncic, Z. Polarisation-based coincidence event discrimination: an in
+    silico study towards a feasible scheme for Compton-PET. Phys. Med. Biol. 61, 5803–5817 (2016).
+21. Moskal, P. et al. Feasibility studies of the polarization of photons beyond the optical wavelength regime with the J-PET
+    detector. Eur. Phys. J. C 78, 970, DOI: 10.1140/epjc/s10052-018-6461-1 (2018).
+22. Moskal, P. et al. Feasibility study of the positronium imaging with the j-PET tomograph. Phys. Med. Biol. 64, 055017,
+    DOI: 10.1088/1361-6560/aafe20 (2019).
+23. Clauser, J. F., Horne, M. A., Shimony, A. & Holt, R. A. Proposed experiment to test local hidden-variable theories. Phys.
+    Rev. Lett. 23, 880–884, DOI: 10.1103/PhysRevLett.23.880 (1969).
+24. Clauser, J. F. & Shimony, A. Bell's theorem. experimental tests and implications. Reports on Prog. Phys. 41, 1881–1927,
+    DOI: 10.1088/0034-4885/41/12/002 (1978).
+25. Osuch, S., Popkiewicz, M., Szeflinski, Z. & Wilhelmi, Z. Experimental test of bell’s inequality using annihilation photons.
+    Acta Phys. Polonica Ser. B 27, 567–572 (1996).
+26. Hiesmayr, B. C. & Moskal, P. Witnessing entanglement in Compton scattering processes via mutually unbiased bases. Sci.
+    Rep. 9, 8166, DOI: 10.1038/s41598-019-44570-z (2019).
+27. Watts, D., Bordes, J. & Brown, J. e. a. Photon quantum entanglement in the mev regime and its application in pet imaging.
+    Nat. Commun. (2021).
+
+
+                                                                                                                        11/12
+28. Abdurashitov, D. et al. Setup of compton polarimeters for measuring entangled annihilation photons. J. Instrumentation
+    17, P03010, DOI: 10.1088/1748-0221/17/03/p03010 (2022).
+29. Knights, P., Ryburn, F., Tungate, G. & Nikolopoulos, K. Studying the effect of polarisation in compton scattering in the
+    undergraduate laboratory. Eur. J. Phys. 39, 025203, DOI: 10.1088/1361-6404/aa9c98 (2018).
+30. Kožuljević, A. M. et al. Study of multi-pixel scintillator detector configurations for measuring polarized gamma radiation.
+    Condens. Matter 6, DOI: 10.3390/condmat6040043 (2021).
+31. Zhuikov, B. L., Kokhanyuk, V. M., Konyakhin, N. A. & Vincent, J. Target irradiation facility and targetry development at
+    160mev proton beam of moscow linac. Nucl. Instruments Methods Phys. Res. Sect. A: Accel. Spectrometers, Detect. Assoc.
+    Equip. 438, 173–179, DOI: https://doi.org/10.1016/S0168-9002(99)00672-5 (1999).
+32. Yu, H. et al. Photonic-crystals-based gagg:ce scintillator with high light output and fast decay time for soft x-ray
+    detection. Nucl. Instruments Methods Phys. Res. Sect. A: Accel. Spectrometers, Detect. Assoc. Equip. 1032, 166653, DOI:
+    https://doi.org/10.1016/j.nima.2022.166653 (2022).
+33. Yoneyama, M. et al. Evaluation of GAGG:ce scintillators for future space applications. J. Instrumentation 13, P02023–
+    P02023, DOI: 10.1088/1748-0221/13/02/p02023 (2018).
+34. Agostinelli, S. et al. Geant4—a simulation toolkit. Nucl. Instruments Methods Phys. Res. Sect. A: Accel. Spectrometers,
+    Detect. Assoc. Equip. 506, 250–303, DOI: https://doi.org/10.1016/S0168-9002(03)01368-8 (2003).
+35. Allison, J. et al. Recent developments in Geant4. Nucl. Instrum. Methods Phys. Res. A 835, 186–225 (2016).
+36. Berestetskii, V., Lifshitz, E. & Pitaevskii, L. Quantum Electrodynamics: Volume 4. Course of theoretical physics (Elsevier
+    Science, 1982).
+37. Aspect, A., Grangier, P. & Roger, G. Experimental tests of realistic local theories via bell’s theorem. Phys. Rev. Lett. 47,
+    460–463, DOI: 10.1103/PhysRevLett.47.460 (1981).
+38. Aspect, A., Dalibard, J. & Roger, G. Experimental test of bell’s inequalities using time-varying analyzers. Phys. Rev. Lett.
+    49, 1804–1807, DOI: 10.1103/PhysRevLett.49.1804 (1982).
+39. Aspect, A., Grangier, P. & Roger, G. Experimental realization of einstein-podolsky-rosen-bohm gedankenexperiment: A
+    new violation of bell’s inequalities. Phys. Rev. Lett. 49, 91–94, DOI: 10.1103/PhysRevLett.49.91 (1982).
+40. Khrennikov, A. Get rid of nonlocality from quantum physics. Entropy 21, DOI: 10.3390/e21080806 (2019).
+41. Landau, L. J. On the violation of bell’s inequality in quantum theory. Phys. Lett. A 120, 54–56, DOI: https://doi.org/10.
+    1016/0375-9601(87)90075-2 (1987).
+42. Griffiths, R. B. Nonlocality claims are inconsistent with hilbert-space quantum mechanics. Phys. Rev. A 101, 022117, DOI:
+    10.1103/PhysRevA.101.022117 (2020).
+43. Lambare, J. P. Comment on “nonlocality claims are inconsistent with hilbert-space quantum mechanics”. Phys. Rev. A 104,
+    066201, DOI: 10.1103/PhysRevA.104.066201 (2021).
+44. Griffiths, R. B. Reply to “comment on ‘nonlocality claims are inconsistent with hilbert-space quantum mechanics’ ”. Phys.
+    Rev. A 104, 066202, DOI: 10.1103/PhysRevA.104.066202 (2021).
+
+Acknowledgements
+The authors are grateful to B. Zhuikov for fabricating the 22 Na radioactive source of positrons and to D. Levkov, M. Libanov,
+and A. Panin for useful discussions.
+
+
+
+
+                                                                                                                         12/12
+

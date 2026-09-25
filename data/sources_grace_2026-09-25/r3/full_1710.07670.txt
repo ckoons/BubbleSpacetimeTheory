@@ -1,0 +1,429 @@
+                                                                            Search for nucleon decays with EXO-200
+                                                                                             (EXO-200 Collaboration)
+
+                                           J.B. Albert,1 G. Anton,2 I. Badhrees,3, a P.S. Barbeau,4 R. Bayerlein,2 D. Beck,5 V. Belov,6 M. Breidenbach,7
+                                               T. Brunner,8, 9 G.F. Cao,10 W.R. Cen,10 C. Chambers,11 B. Cleveland,12, b M. Coon,5 A. Craycraft,11
+                                                 W. Cree,3 T. Daniels,13 M. Danilov,6, c S.J. Daugherty,1 J. Daughhetee,14 J. Davis,7 S. Delaquis,7
+                                             A. Der Mesrobian-Kabakian,12 R. DeVoe,15 T. Didberidze,16 J. Dilling,9 A. Dolgolenko,6 M.J. Dolinski,17
+                                            W. Fairbank Jr.,11 J. Farine,12 S. Feyzbakhsh,18 P. Fierlinger,19 D. Fudenberg,15 R. Gornea,3, 9 K. Graham,3
+                                           G. Gratta,15 C. Hall,20 E.V. Hansen,17 J. Hoessl,2 S. Homiller,5 P. Hufschmidt,2 M. Hughes,16 A. Jamil,2, 15, d
+                                               M.J. Jewell,15 A. Johnson,7 S. Johnston,18, e A. Karelin,6 L.J. Kaufman,1, f T. Koffas,3 S. Kravitz,15, g
+                                              R. Krücken,9 A. Kuchenkov,6 K.S. Kumar,21 Y. Lan,9 D.S. Leonard,22 G.S. Li,15 S. Li,5 C. Licciardi,3, h
+
+
+
+
+arXiv:1710.07670v5 [hep-ex] 11 Apr 2018
+                                          Y.H. Lin,17 R. MacLellan,14 T. Michel,2 B. Mong,7 D. Moore,23 K. Murray,8 R. Nelson,24 O. Njoya,21 A. Odian,7
+                                                I. Ostrovskiy,16 A. Piepke,16 A. Pocar,18 F. Retière,9 A.L. Robinson,12 P.C. Rowson,7 S. Schmidt,2
+                                                A. Schubert,15, i D. Sinclair,3, 9 A.K. Soma,16 V. Stekhanov,6 M. Tarka,21 T. Tolba,10 R. Tsang,16, j
+                                                P. Vogel,25 J.-L. Vuilleumier,26 M. Wagenpfeil,2 A. Waite,7 T. Walton,11, k M. Weber,15 L.J. Wen,10
+                                               U. Wichoski,12 G. Wrede,2 L. Yang,5 Y.-R. Yen,17 O.Ya. Zeldovich,6 J. Zettlemoyer,1 and T. Ziegler2
+                                                              1
+                                                               Physics Department and CEEM, Indiana University, Bloomington, Indiana 47405, USA
+                                                                                        2
+                                                                                          Erlangen Centre for Astroparticle Physics (ECAP),
+                                                                     Friedrich-Alexander-University Erlangen-Nürnberg, Erlangen 91058, Germany
+                                                                    3
+                                                                      Physics Department, Carleton University, Ottawa, Ontario K1S 5B6, Canada
+                                                                            4
+                                                                              Department of Physics, Duke University, and Triangle Universities
+                                                                            Nuclear Laboratory (TUNL), Durham, North Carolina 27708, USA
+                                                                5
+                                                                  Physics Department, University of Illinois, Urbana-Champaign, Illinois 61801, USA
+                                                                           6
+                                                                             Institute for Theoretical and Experimental Physics, Moscow, Russia
+                                                                     7
+                                                                       SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA
+                                                                    8
+                                                                      Physics Department, McGill University, Montréal, Québec H3A 2T8, Canada
+                                                                                  9
+                                                                                    TRIUMF, Vancouver, British Columbia V6T 2A3, Canada
+                                                                                    10
+                                                                                       Institute of High Energy Physics, Beijing 100049, China
+                                                               11
+                                                                  Physics Department, Colorado State University, Fort Collins, Colorado 80523, USA
+                                                               12
+                                                                  Department of Physics, Laurentian University, Sudbury, Ontario P3E 2C6, Canada
+                                                                                        13
+                                                                                           Department of Physics and Physical Oceanography,
+                                                               University of North Carolina at Wilmington, Wilmington, North Carolina 28403, USA
+                                                           14
+                                                              Department of Physics, University of South Dakota, Vermillion, South Dakota 57069, USA
+                                                                      15
+                                                                         Physics Department, Stanford University, Stanford, California 94305, USA
+                                                       16
+                                                          Department of Physics and Astronomy, University of Alabama, Tuscaloosa, Alabama 35487, USA
+                                                                17
+                                                                   Department of Physics, Drexel University, Philadelphia, Pennsylvania 19104, USA
+                                                                        18
+                                                                           Amherst Center for Fundamental Interactions and Physics Department,
+                                                                              University of Massachusetts, Amherst, Massachusetts 01003, USA
+                                               19
+                                                  Technische Universität München, Physikdepartment and Excellence Cluster Universe, Garching 80805, Germany
+                                                                20
+                                                                   Physics Department, University of Maryland, College Park, Maryland 20742, USA
+                                                 21
+                                                    Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook, New York 11794, USA
+                                                                                 22
+                                                                                    IBS Center for Underground Physics, Daejeon 34047, Korea
+                                                                   23
+                                                                      Department of Physics, Yale University, New Haven, Connecticut 06511, USA
+                                                                              24
+                                                                                 Waste Isolation Pilot Plant, Carlsbad, New Mexico 88220, USA
+                                                                                    25
+                                                                                       Kellogg Lab, Caltech, Pasadena, California 91125, USA
+                                                                         26
+                                                                            LHEP, Albert Einstein Center, University of Bern, Bern, Switzerland
+                                                                                                        (Dated: April 13, 2018)
+                                                          A search for instability of nucleons bound in 136 Xe nuclei is reported with 223 kg·yr exposure of
+                                                        136
+                                                           Xe in the EXO-200 experiment. Lifetime limits of 3.3×1023 and 1.9×1023 yrs are established for
+                                                        nucleon decay to 133 Sb and 133 Te, respectively. These are the most stringent to date, exceeding the
+                                                        prior decay limits by a factor of 9 and 7, respectively.
+
+
+
+
+                                          a Permanent address: King Abdulaziz City for Science and Tech-      Academy of Sciences, Moscow, Russia
+                                                                                                             d Present address: Yale University, New Haven, Connecticut, USA
+                                            nology, Riyadh, Saudi Arabia
+                                          b Also at SNOLAB, Sudbury, Ontario, Canada                         e Present address: Argonne National Laboratory, Argonne, Illinois
+                                          c Present address: P.N.Lebedev Physical Institute of the Russian    USA
+                                                                                                                            2
+
+
+                     I.   INTRODUCTION                             TABLE I. Q-values and half-lives of the daughters of triple
+                                                                   nucleon decays [9].
+
+   Current experimental data are consistent with baryon                     Daughter     Q-Value [keV]     Half-life
+                                                                             Isotope
+number (B) and lepton number (L) conservation. How-                           133
+                                                                                  Sb         4010          2.51 min
+ever, proton stability is not guaranteed by a fundamental                     133
+symmetry. If baryon number is not an exact symmetry,                              Te         2955          12.5 min
+                                                                             133m
+its violation would have a deep effect on the understand-                          Te        3289          55.4 min
+                                                                               133
+ing of the evolution of the Universe, in particular on the                         I         1757           20.8 h
+origin of the matter-antimatter asymmetry.                                    133
+                                                                                  Xe         427.4          5.25 d
+   The Standard Model (SM) successfully explains most
+experimental data at energies below a few hundred GeV,
+yet it is generally regarded as an effective field theory          discrete gauge symmetry. This symmetry forbids the well
+valid only up to some cut-off scale Λ. In many exten-              tested ∆B = 1 and ∆B = 2 decay processes but allows
+sions of the SM, baryon and lepton numbers are no longer           the ∆B = 3 triple nucleon decay. This mode of nucleon
+conserved. An example of a process violating only lep-             decay, which may occur through dimension 15 operators,
+ton number conservation (by two units) is neutrinoless             is tested in this work at the Λ ∼102 GeV energy scale [9].
+double-beta decay (0νββ), which may occur in several
+even-even nuclei, but has not been observed yet. Vio-
+lation of total lepton number by two units could be re-
+lated to the dimension 5 operator, the so-called Wein-
+berg operator, llHH
+                  ΛL (where l is the left-handed lepton
+doublet, H is the Higgs doublet, and ΛL is the cut-off
+scale associated with lepton number violation). This is
+the lowest dimension operator that can produce neutri-
+noless double-beta decay. The EXO-200 experiment has
+searched for the signatures of this process in 136 Xe for the
+two most commonly considered mechanisms - decays with
+the emission of two electrons only [1] and decays with the         FIG. 1. Decay chains for daughter nuclei resulting from nu-
+additional emission of one or two massive bosons, called           cleon decay of 136 Xe. The branching ratios are from [9].
+Majorons [2]. With the “natural” assignments of param-
+eters, the current limits on the 0νββ decay rate [1, 3, 4]
+test ΛL up to scales of 1014 to 1015 GeV. Analogously,
+the dimension 6 operator QQQl Λ2B
+                                   (where Q is quark dou-                       II.     SEARCH STRATEGY
+blet and ΛB is the cut-off scale associated with baryon
+number violation) would cause both B and L violation.                 For nuclei with mass number A ≫ 3 four triple nucleon
+The current limits [5–7] on protons decaying into π 0 e+           combinations (ppp, npp, nnp, or nnn) could undergo the
+and K + ν̄ provide limits on ΛB in the range of 1015 to            ∆B = 3 decay. As a result of this decay, A-3 nucleons
+1016 GeV, similar to the ones obtained for ΛL .                    will remain, unless additional baryons are emitted by an
+   Nevertheless, it is possible that there are symmetries          excited daughter nucleus. The decay chain of the daugh-
+suppressing the simple baryon ∆B = 1 and lepton num-               ter nucleus is a possible signature of the triple nucleon
+ber ∆L = 2 violating processes despite the fact that the           decay. Observing these chains is the strategy already
+corresponding baryon number violating scale is relatively          used in [10] for the case of 136 Xe. An analogous strategy
+low. An example of such a symmetry was proposed in [8]             has also been applied to a search for ∆B =1 and ∆B =
+where it was shown that the SM Lagrangian, extended                2 decays in [11] for the cases of 12 C, 13 C, and 16 O, and
+to include small neutrino masses, has an anomaly-free Z6           in [12] for the case of 136 Xe.
+                                                                      The focus of this work is a search for the decays of
+                                                                   daughter nuclei 133 Sb and 133 Te, which may result from
+                                                                   ppp and npp nucleon decay modes, respectively. The
+f Present address: SLAC National Accelerator Laboratory, Menlo     subsequent decays are shown in Fig. 1. The Q-Values
+  Park, California, USA                                            and half-lives of the decays in Fig. 1 are given in Table
+g Present address: Lawrence Berkeley National Laboratory, Berke-
+                                                                   I. Nucleon decay to 133 I could also produce detectable
+  ley, California, USA                                             events, but this decay path is not studied in this work.
+h Present address: Laurentian University, Sudbury, Canada
+i Present address: OneBridge Solutions, Boise, Idaho, USA          The final decay, of 133 Xe, is below the analysis energy
+j Present address: Pacific Northwest National Laboratory, Rich-    threshold of 980 keV and is therefore not detectable in
+  land, Washington, USA                                            this experiment.
+k Present address: Prism Computational Sciences, Madison, Wis-
+                                                                      The partial lifetime for all nucleon decay modes to
+  consin, USA                                                      daughter i = (133 Sb or 133 Te) is:
+                                                                                                                          3
+
+
+                                                               TABLE II. Detection probabilities for events originating from
+                           Nnucl T ǫ                           decays in different detector volumes.
+                      τi =           ,                  (1)
+                             Si                                     Daughter     Active Xe    Inactive Xe    Cathode
+                                                                  133
+                                                                      Sb        0.0439(59)      0.0059      0.0116(23)
+where Si is the number of the observed daughter nuclei of         133
+                                                                      Te        0.0154(42)      0.0020      0.0267(18)
+type i, T is the experiment livetime, Nnucl is the number         133m
+of initial parent nuclei, and ǫ is the detection efficiency.            Te      0.0084(26)      0.0019      0.0161(10)
+                                                                  133
+The lifetime tj for a particular nucleon decay mode j (e.g.           I         0.0035(16)      0.0004      0.0259(6)
+ppp or npp) is given by:
+                     1        X 1                              between them [17]. Radioactive γ sources are deployed
+                        = Brj                           (2)
+                     tj         τi                             at several positions near the TPC to characterize the de-
+                              i
+                                                               tector response and validate the Monte Carlo simulation.
+where Brj is the total branching ratio of nucleon decay
+via mode j.
+   In addition to 136 Xe, EXO-200 contains a non-               IV.     EXPERIMENTAL DATA AND ANALYSIS
+negligible amount of 134 Xe(∼19% [13]), which can also
+be utilized to search for nucleon decays using the same           A total of 596.70 live days of data were accumulated
+strategy. However, given the ∼4 times smaller exposure         for this dataset. The fiducial volume is described by an
+and lower Q-Values of the corresponding daughter iso-          hexagonal prism with an apothem of 162 mm and length
+topes, the resulting lifetime limits are not expected to be    coordinate 1 < |Z| < 182 mm (with Z = 0 corresponding
+competitive with the ones obtained using 136 Xe analysis.      to the cathode location). Nucleon decays occurring in the
+Hence this work focuses solely on the 136 Xe analysis.         liquid xenon anywhere in the detector could produce an
+                                                               event in the fiducial volume. Consequently, the 136 Xe
+                                                               mass is 136.5 kg, or 6.05×1026 atoms of 136 Xe, resulting
+         III.   DETECTOR DESCRIPTION                           in an exposure of 223 kg·yr.
+                                                                  Probability density functions (PDFs) for signal and
+   The EXO-200 detector is a cylindrical single-phase          background components are created using a Monte Carlo
+time projection chamber (TPC) filled with liquid xenon         simulation utilizing Geant4 [18]. The signal and back-
+(LXe) enriched to 80.7% in 136 Xe. A detailed description      ground PDFs as functions of energy are combined into
+of the detector is available elsewhere [13]. The detector is   an overall model and fit to the data. An additional com-
+constructed from components carefully selected to mini-        plication for this analysis arises from the fact that some
+mize internal radioactivity [14]. External radioactivity is    fraction of the daughters of the decay is ionized and will
+shielded by 25 cm thick lead walls surrounding the detec-      drift toward the cathode before decaying. Decays occur-
+tor on all sides. Additional passive shielding is provided     ring on the cathode and in the inactive xenon can be
+by ∼50 cm of high-purity cryogenic fluid [15] filling the      detected via γ rays emitted into the fiducial volume. To
+copper cryostat that houses the TPC. The detector is lo-       increase the sensitivity to events occuring on the cath-
+cated inside a clean room at the Waste Isolation Pilot         ode, the fiducial volume is extended from |Z| > 10 mm
+Plant (WIPP) in Carlsbad, New Mexico, USA, under an            in the 0ν analysis [1] to |Z| > 1 mm in this analysis.
+overburden of 1624+22−21 meters water equivalent [16]. The     To account for daughter drift in the shape of the sig-
+remaining cosmic-rays are detected with 96.0±0.5% effi-        nal PDF in energy it was necessary to model the spatial
+ciency by an active muon veto system consisting of plastic     distribution of daughter decays in the detector. This dis-
+scintillation panels surrounding the clean room on four        tribution, along with detection efficiencies, determines a
+sides.                                                         probability that a nucleon decay to a particular daugh-
+   Energy deposited in the TPC by ionizing radiation pro-      ter in a given detector volume will result in a daughter
+duces free charge and scintillation light, which are regis-    decay, which produces detected events in the fiducial vol-
+tered by anode wire grids and arrays of avalanche pho-         ume that pass analysis cuts. These event probabilities for
+todiodes, respectively. The TPC has a central cathode          decay to 133 Sb are listed in Table. II.
+at -8 kV and two drift volumes. It allows for three-              A critical parameter in this distribution model is the
+dimensional position reconstruction of energy deposi-          ion fraction of the nucleon decay daughter and subse-
+tions. In a given event, charge deposits (“clusters”) that     quent β decay daughters. Daughter ion fractions for
+are spatially separated by ∼1 cm or more can be individ-       radioactive decays in LXe were measured for the first
+ually resolved. Events can then be classified as single-site   time recently in EXO-200 [19]. In the 222 Rn decay chain,
+(SS), or multi-site (MS), depending on the number of ob-       it was found that the 218 Po daughter ion fraction from
+                                                               222
+served charge clusters. The total energy of an event is            Rn α decay is 50.3±3.0% and the 214 Bi daughter ion
+determined by combining the charge and scintillation sig-      fraction from 214 Pb β decay is 76.4±5.7%. As the daugh-
+nals. This combination achieves better energy resolution       ter ion fraction for ppp and npp decay is not known, the
+than in each individual channel due to the anticorrelation     above measurements have been used in a simple model
+                                                                                                                           4
+
+as a guideline for an estimate.                                  The PDF model includes all components used in [1],
+   A dominant process leading to the final daughter ion       except 0νββ, as well as a component specific to the
+fraction is the interplay of recombination of the daughter    nucleon decay daughter being investigated. The model
+ion with the local electron density in the electron cloud     is parameterized by the event counts and SS fractions,
+from the decay and the rate at which the electron cloud       SS/(MS+SS), of the individual components, as well as
+is drawn away from the daughter ion by the electric field.    by two normalization parameters, which are included in
+Charge transfer collisions with positively charged holes      the same way as in [16]. A negative log-likelihood func-
+may also occur in the ∼105 longer time frame during           tion is formed between the data and the overall PDFs
+which the cloud of holes is drawn away. While the de-         for both SS and MS spectra. Five Gaussian constraints
+tails of this process are complex, at the electric field of   are included to incorporate systematic uncertainties de-
+the detector, the local ionization density at the daughter    termined in stand-alone studies described in the next sec-
+location should be the critical parameter that determines     tion. The PDFs for β-like components also include a β
+the final daughter ion fraction.                              scale parameter to account for the potential difference in
+   In β decay, there is negligible daughter recoil energy,    energy scales of β-like and γ-like events [1]. This parame-
+and the electron cloud is of large radius and low den-        ter is very close to 1 in all fits. For 133 Sb and 133 Te decay
+sity. In contrast, in 222 Rn α decay, the 218 Po daughter     chains this provides only an approximate description, as
+recoils with 101 keV of energy. The local electron cloud      they are comprised of a comparable number of both types
+at the final stopping place of the daughter, due to ion-      of events. This was shown to produce a negligible impact
+ization both from the α particle and the nuclear recoil,      on the final result.
+is of much smaller radius and much higher density. The
+greater recombination that follows between daughter ions
+and the higher electron density explains the smaller ob-                   V.    SYSTEMATIC ERRORS
+served daughter ion fraction in α decay compared to β
+decay.                                                           Systematic uncertainties were accounted for by the
+   For ppp and npp decay the dominant processes are [8]:      same methodology as in [1, 2]. They are included in
+                                                              the maximum likelihood fit as nuisance parameters, con-
+                  ppp → e+ + π + + π +                 (3)
+                                                              strained by normal distributions. The radon activity in
+                                                              the liquid xenon and relative fractions of neutron-capture
+                     npp → e+ + π +                    (4)    related PDF components were constrained by 10% and
+                                                              20%, respectively, as evaluated in [16]. The SS fraction
+The highly energetic charged particles emitted leave low      uncertainty was determined to be 4% in a similar way as
+ionization density tracks near the daughter location. The     in [16].
+recoil energy of the daughter is large, e.g. 15 MeV aver-        The error on signal detection efficiency was re-
+age for 133 Sb from ppp decay in reaction (3). SRIM simu-     evaluated from that used in [2] to account for the change
+lations of the 3-D ionization density in the neighborhood     in the fiducial volume. Studies of the rate agreement us-
+of the daughter ion indicate a similar shape and density      ing calibration sources indicated an error increase of 1%.
+to the electron cloud for 136 Xe ppp and npp decay and        This was added in quadrature to the previously deter-
+222                                                           mined value resulting in a total error of 9%.
+    Rn α decay [20]. Thus, a similar daughter ion fraction
+is expected for ppp and npp decay as for 222 Rn α decays,        Three sources of uncertainty contributed to the er-
+i.e., ∼ 50%. To confirm this more quantitatively, a simple    ror associated with shape differences between data and
+model of charge drift in the detector field with varying      Monte Carlo: discrepancies in the energy spectra be-
+recombination and charge transfer rate parameters, was        tween data and Monte Carlo, choice of components in
+applied to the initial electron and hole distributions sim-   the background model, and ion fraction uncertainties. To
+ulated for individual ppp and 222 Rn α decay events. For      estimate the first, a linear function of energy was fit to
+a given recombination rate, the charge transfer rate was      the difference between data and Monte Carlo for calibra-
+adjusted to yield a 50.3% daughter ion fraction on the        tion sources in the range 1000-2000 keV and was used
+average in α decay events. With the same pair of param-       to unskew the background PDFs: 226 Ra source fit for U
+eters, the average daughter ion fraction for ppp events       and Rn backgrounds, 60 Co source fit for Co backgrounds,
+was within 4.3% of 50% for a wide range of physically         and 228 Th source fit for all other γ-like backgrounds. Toy
+reasonable assumed recombination rates. Conservatively        Monte Carlo datasets generated from this model with a
+doubling this range to ±9% for model uncertainty and          variable number of signal events injected were fit with
+adding the 3% experimental uncertainty in quadrature,         the normal background and signal PDFs. For decay to
+                                                              133
+a daughter ion fraction of 50±10% was used in this anal-          Sb, the fractional difference between fit and injected
+ysis for the ppp and npp decay. The observed daughter         number of signal events was roughly constant at 7%. For
+                                                              133
+ion fraction of 76±6% for 214 Pb β decay was used for             Te the difference was linear at small number of injected
+the subsequent β decays. Extreme values of these two          events (<5000) and approached a constant difference of
+daughter ion fractions are used to generate the detection     around 5000 at high number of injected events.
+probability uncertainties in Table II.                           To evaluate the uncertainty associated with the back-
+                                                                                                                           5
+
+ground model, decays of Th, U, and Co were simulated            This cut is used to discriminate against correlated events
+in different locations than that in the default model.          in the detector. All other efficiencies are incorporated
+Changes in the result due to the substitutions were added       via the signal weights in Table. II and do not need to be
+into the shape differences in quadrature along with the         applied after the fit.
+ion fraction uncertainties to give a total value for this er-      In conclusion, we report results from a search for
+ror of 11%. The robustness of the fits was also checked,        baryon number violating decays in 136 Xe using two years
+in a manner analogous to [2], against the existence of 88 Y     of data from EXO-200. The results do not show sta-
+and metastable 110 Ag in the vessel material. There was         tistically significant evidence for triple-nucleon decay to
+no significant impact on the results.                           either 133 Sb or 133 Te. The lifetime limits obtained on
+                                                                the decays are the most stringent to-date surpassing the
+                                                                previous results [10] by a factor of 9 and 7 for 133 Sb and
+        VI.   RESULTS AND CONCLUSION                            133
+                                                                    Te respectively.
+
+   The experimental SS and MS energy spectra and the
+best fit, performed simultaneously for SS and MS events,
+is shown in Fig. 2 for nucleon decay to 133 Sb. The results                    ACKNOWLEDGMENTS
+of profile-likelihood scans, performed for each daughter
+decay, are shown in Fig. 3. No statistically significant sig-      EXO-200 is supported by DOE and NSF in the United
+nal is observed in either case. For decay to 133 Te the best    States, NSERC in Canada, SNF in Switzerland, Institute
+fit signal is zero. The 90% CL upper limits were derived        fo Basic Science (IBS) in Korea, Russian Foundation for
+under the assumption of Wilks’ theorem [21, 22], given          Basic Research (RFBR) in Russia, DFG in Germany, and
+the large statistics of the data set. They are 2.8×103          CAS and International Science and Technology Cooper-
+events for 133 Sb and 4.9×103 events for decay to 133 Te,       ation Project (ISTCP) in China. EXO-200 data analysis
+corresponding to a lifetime limit of 3.3×1023 yrs for nu-       and simulation uses resources of the National Energy Re-
+cleon decay to 133 Sb and a lifetime limit of 1.9×1023 yrs      search Scientific Computing Center (NERSC). We grate-
+for nucleon decay to 133 Te. The efficiency factor of 0.93      fully acknowledge the KARMEN collaboration for sup-
+used to calculate the lifetimes in Eq. 1 accounts for a cut     plying the cosmic-ray veto detectors, and the WIPP for
+of data events occurring within 1 s of a previous event.        their hospitality.
+
+
+
+
+ [1] J. B. Albert et al. (EXO-200 Collaboration), Nature 510,   [10] R. Bernabei et al., The European Physical Journal A -
+     229 (2014).                                                     Hadrons and Nuclei 27, 35 (2006).
+ [2] J. B. Albert et al. (EXO-200 Collaboration), Phys. Rev.    [11] H. Back et al., Phys. Lett. B 563, 23 (2003).
+     D 90, 092004 (2014).                                       [12] R. Bernabei et al., Phys. Lett. B 493, 12 (2000).
+ [3] A. Gando et al. (KamLAND-Zen Collaboration), Phys.         [13] M. Auger et al., J. Instrum. 7, P05010 (2012).
+     Rev. Lett. 117, 082503 (2016).                             [14] D. Leonard et al., Nucl. Instrum. Methods. A 862 (2016).
+ [4] M. Agostini et al. (GERDA Collaboration), Nature 544,      [15] 3M HFE-7000, http://www.3m.com,.
+     47 (2017).                                                 [16] J. B. Albert et al. (EXO Collaboration), Phys. Rev. C
+ [5] K. Abe et al. (Super-Kamiokande Collaboration), Phys.           89, 015502 (2014).
+     Rev. D 90, 072005 (2014).                                  [17] E. Conti et al., Phys. Rev. B 68, 054201 (2003).
+ [6] H. Nishino et al. (Super-Kamiokande Collaboration),        [18] J. Allison et al., Nucl. Instrum. Methods. A 835, 186
+     Phys. Rev. Lett. 102, 141801 (2009).                            (2016).
+ [7] C. McGrew et al., Phys. Rev. D 59, 052004 (1999).          [19] J. B. Albert et al. (EXO-200 Collaboration), Phys. Rev.
+ [8] K. Babu, I. Gogoladze, and K. Wang, Phys. Lett. B 570,          C 92, 045504 (2015).
+     32 (2003).                                                 [20] J. Zielger, M. Ziegler, and J. Biersack, Nucl. Instrum.
+ [9] H. Braun et al., Radiochimica Acta 36, 95 (1984).               Methods. A 268, 1818 (2010).
+                                                                [21] S. S. Wilks, Ann. Math. Statist. 9, 60 (1938).
+                                                                [22] G. Cowan, Statistical Data Analysis (Clarendon Press,
+                                                                     1998).
+                                                                                                                                                                    6
+
+
+
+
+                              103                                                                                                      signal PDF
+                              102
+                                                                                                   SS                                  backgrounds
+                                                                                                                                       model
+
+           SS Events/14keV
+                              101                                                                                                      data
+                                                                                                                                       bb2n
+                              100
+                              10-1
+                              10-2
+                              10-3
+                                4
+
+                                                                                                                                                      SS Res. (σ)
+                                2
+                                0
+                               −2
+                               −4
+                              103
+
+                              102                                                                  MS
+
+            MS Events/14keV
+                              101
+
+                              100
+
+                              10-1
+
+                              10-2
+                                4
+
+                                                                                                                                                     MS Res. (σ)
+                                2
+                                0
+                               −2
+                               −4
+                                 1000   1500              2000              2500                  3000            3500          4000             4500
+                                                                                   Energy (keV)
+
+
+
+
+FIG. 2. SS and MS data, the best-fit model for decay to 133 Sb and residuals. The dominant component, 2νββ decay, is shown
+in gray.
+
+
+
+
+                                                  2.0
+
+
+
+
+                                                  1.5
+                                                         90% CL
+
+                                                                                                                  133 Te
+                                               ∆NLL
+                                                  1.0                                                             133 Sb
+
+
+
+                                                  0.5    1σ
+
+
+
+
+                                                  0.0
+                                                     0        1000   2000   3000 4000       5000         6000   7000     8000
+                                                                               Nucleon decays
+
+
+FIG. 3. Likelihood profiles for decays to 133 Sb and 133 Te. The dashed lines represent the 1σ and 90% confidence limits (C.L.).
+

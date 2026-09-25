@@ -1,0 +1,535 @@
+                                                 Search for Axion Dark Matter from 1.1 to 1.3 GHz with ADMX
+
+                                                            G. Carosi, C. Cisneros, N. Du,∗ S. Durham, and N. Robertson
+                                                         Lawrence Livermore National Laboratory, Livermore, California 94550, USA
+
+                                         C. Goodman, M. Guzzetti, C. Hanretty, K. Enzian, L. J Rosenberg, G. Rybka, J. Sinnis, and D. Zhang
+                                                                 University of Washington, Seattle, Washington 98195, USA
+
+                                                                                John Clarke and I. Siddiqi
+                                                                  University of California, Berkeley, California 94720, USA
+
+                                                                     A. S. Chou, M. Hollister, and A. Sonnenschein
+                                                            Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+
+                                                                                          S. Knirck
+
+
+
+
+arXiv:2504.07279v2 [hep-ex] 3 Oct 2025
+                                                                 Harvard University, Cambridge, Massachusetts 02138, USA
+
+                                         T. J. Caligiure, J. R. Gleason, A. T. Hipp, P. Sikivie, M. E. Solano, N. S. Sullivan, and D. B. Tanner
+                                                                   University of Florida, Gainesville, Florida 32611, USA
+
+                                                                                        R. Khatiwada
+                                                             Illinois Institute of Technology, Chicago, Illinois 60616, USA and
+                                                            Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+
+                                                                                         L. D. Duffy
+                                                           Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+
+                                                          C. Boutan, T. Braine, E. Lentz, N. S. Oblath, and M. S. Taubman
+                                                          Pacific Northwest National Laboratory, Richland, Washington 99354, USA
+
+                                                                        E. J. Daw, C. Mostyn, and M. G. Perry
+                                                                       University of Sheffield, Sheffield S10 2TN, UK
+
+                                                                            C. Bartram, J. Laurel, and A. Yi
+                                              SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA
+
+                                                                      T. A. Dyson, S. Ruppert, and M. O. Withers
+                                                                       Stanford University, Stanford, CA 94305, USA
+
+                                                                                         C. L. Kuo
+                                            SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA and
+                                                                     Stanford University, Stanford, CA 94305, USA
+
+                                                                                      B. T. McAllister
+                                                        Swinburne University of Technology, John St, Hawthorn VIC 3122, Australia
+
+                                                                J. H. Buckley, C. Gaikwad, J. Hoffman, and K. Murch
+                                                                  Washington University, St. Louis, Missouri 63130, USA
+
+                                                              M. Goryachev, E. Hartman, A. Quiskamp, and M. E. Tobar
+                                                          University of Western Australia, Perth, Western Australia 6009, Australia
+                                                                                   (ADMX Collaboration)
+                                                                                   (Dated: October 7, 2025)
+                                                 Axion dark matter can satisfy the conditions needed to account for all of the dark matter and
+                                               solve the strong CP problem. The Axion Dark Matter eXperiment (ADMX) is a direct dark
+                                               matter search using a haloscope to convert axions to photons in an external magnetic field. Key to
+                                               this conversion is the use of a microwave resonator that enhances the sensitivity at the frequency
+                                               of interest. The ADMX experiment boosts its sensitivity using a dilution refrigerator and near
+                                                                                                                              2
+
+             quantum-limited amplifier to reduce the noise level in the experimental apparatus. In the most
+             recent run, ADMX searched for axions between 1.10-1.31 GHz to extended Kim-Shifman-Vainshtein-
+             Zakharov (KSVZ) sensitivity. This Letter reports on the results of that run, as well as unique aspects
+             of this experimental setup.
+
+
+   This Letter reports the results of a search by the Ax-         changing the resonant frequency. Across the frequency
+ion Dark Matter eXperiment (ADMX) covering the fre-               range of the experiment, the cavity unloaded quality fac-
+quency range from 1.10-1.31 GHz (4.54-5.41 µeV), over             tor was about 90,000. Two dipole antennas were inserted
+which we achieved sensitivity to plausible models for the         into the cavity for signal injection and readout. The first
+quantum chromodynamic (QCD) axion. Our new re-                    was a “weakly coupled” antenna inserted into the bot-
+sults describe a previously unexplored region of parame-          tom of the cavity. It is fixed to be weakly coupled to the
+ter space for axion dark matter.                                  cavity. The second was a “strongly coupled” antenna,
+   The axion is a hypothetical particle that emerges from         inserted into the top of the cavity. The coupling of the
+the Peccei-Quinn (PQ) solution to the strong CP prob-             antenna, β, was controlled by a linear gearbox which ad-
+lem [1–3]. In addition to solving the strong CP prob-             justed the insertion depth of the antenna. The ability
+lem, axions may be produced abundantly in the early               to vary the coupling ensured that the antenna was kept
+universe through the misalignment mechanism, allow-               in an overcoupled state to optimize the scanning for ax-
+ing them to account for all the dark matter in the uni-           ions across the full tuning range of the run [34]. Both the
+verse [4–7]. In the case where PQ symmetry was bro-               tuning rod and antenna gearboxes are activated by room-
+ken before cosmological inflation, axions over a broad            temperature stepper motors via a long G10 fiberglass
+mass range can elegantly account for all the dark mat-            shaft to enable automated adjustment over the course
+ter in the universe [8, 9]. If PQ was broken after in-            of the entire run.
+flation, theory suggests that the axion mass lies in the             When tuned to the frequency of the photon (νa =
+O(1–100) µeV range [8–20]. The coupling of axions to              ma c2
+                                                                    h ) produced from the Primakoff effect, a persistent
+photons is model dependent, but two benchmark mod-                and coherent signal would develop within the cavity.
+els are commonly used: the Kim-Shifman-Vainshtein-                The axion signal would follow an assumed Maxwell-
+Zakharov (KSVZ) axion [21, 22] and the more feebly                Boltzmann distribution associated with the kinetic-
+coupled Dine-Fischler-Srednicki-Zhitnitsky (DFSZ) ax-             energy distribution of dark matter within the local Milky
+ion [23, 24].                                                     Way halo [35].The expected power coupled out of the cav-
+   ADMX searches for dark matter axions using an axion            ity of an axion haloscope is [25]
+haloscope [25–27], which uses the Primakoff effect reso-                                                      2       
+nantly to convert axions to photons in a strong magnetic                                          V          B         C
+                                                                      Paxion = 1.8 · 10−23 W
+field. The experimental configuration in this run of the                                        106 ℓ      7.6 T       0.4
+ADMX haloscope was similar to that reported in detail                  g 2 
+                                                                          γ             ρa
+                                                                                                
+                                                                                                        νa     
+                                                                                                                    QL
+                                                                                                                          
+in Ref. [28] and updated in Ref [29]. In previous runs,                 0.36     0.45 GeV/cc        800 MHz       45, 000
+ADMX excluded both benchmark models for QCD axion                                                 
+dark matter over several hundred MHz [29–33]. For the                     β                1
+                                                                                                       ,                     (1)
+operations reported in this letter, the resonator system                 1+β      1 + (2δνa /∆νc )2
+was outfitted with a different tuning rod, an improved            where V is the volume of empty space in the cavity, B
+noise calibration load, and improved cryogenic heat sink-         is the magnitude of the external magnetic field, C is the
+ing, all with the aim of improving thermal and RF per-            cavity form factor (the overlap between the cavity res-
+formance in the target frequency range.                           onant mode and the magnetic field), gγ is the model-
+   The resonator used by ADMX in this experimental run            dependent numerical constant (−0.97 the KSVZ model
+is a right cylindrical copper plated stainless steel cavity       and 0.36 for the DFSZ model) which determines the
+(with length 101.4 cm and diameter 41.9 cm) tuned by a            axion-photon coupling, ρa is the expected dark matter
+single 20.3 cm copper tuning rod placed inside the 139-           density in the cavity, QL is the loaded quality factor of
+liter cavity, as shown in Fig. 1. The cavity was centered         the cavity, which is related to the unloaded quality fac-
+inside a solenoidal magnet. The magnet is energized by            tor by the equation Q0 = QL (1 + β), β is the coupling
+a constant current source delivering 225 A and is stable          coefficient of the antenna to the cavity mode, δνa is the
+to within 1 mA. The magnetic field along the solenoid’s           difference between the cavity resonance and axion signal
+longitudinal axis decreases from 7.8 T at the central mid-        frequency, and ∆νc = QνaL is the cavity linewidth. Here,
+plane to 5.3 T at the top and bottom ends of the cavity.          the equation of the power has been normalized to reflect
+An off-center axle enabled rotation of the tuning rod from        typical experimental parameters observed in ADMX. For
+the wall of the cavity to near the center of the cavity,          axion haloscopes, the axion coupling to photons is related
+                                                                  to the model-dependent constant by the equation
+
+                                                                                                    αgγ
+∗ du4@llnl.gov                                                                             gaγγ =                           (2)
+                                                                                                    πfa
+                                                                                                                        3
+
+where α is the fine structure constant and fa is the axion     for 100 seconds at a 100 kHz rate to search for poten-
+decay constant.                                                tial axion signals. During the digitization process, a syn-
+   The power from the T M010 mode of the cavity is cou-        thetic axion generator (SAG) system could transmit syn-
+pled out of the cavity by the strongly coupled antenna         thetic axions into the cavity at set frequencies through
+and transmitted into an ultra-low-noise microwave re-          the weakly coupled port of the cavity. Unblinded syn-
+ceiver for signal amplification and readout. Signals from      thetic axions were injected to characterize the receiver
+the cavity are amplified with a first-stage Josephson para-    response, and blinded signals were used to test the ro-
+metric amplifier (JPA) [37], then a second-stage broad-        bustness of our candidate identification methodology. Af-
+band heterodyne field effect transistor (HFET) amplifier       terwards, the resonant frequency of the cavity was tuned
+[38], before being transmitted to a room temperature re-       and the data-taking process was repeated.
+ceiver for further amplification and readout by a digitizer.      The noise performance of the receiver was re-optimized
+The JPA used was a current-pumped design in which              in a JPA signal-to-noise ratio improvement (SNRI) mea-
+the resonant frequency of the JPA can be tuned by a            surement every 5-10 cycles. In this procedure, detailed in
+bias current [39]. The bias current is used to match the       Ref. [41], the JPA bias current and pump tone power were
+JPA resonant frequency to the cavity resonant frequency.       swept across multiple settings and the relative change in
+The JPA is cooled to 105 mK and typically provided             gain and noise power of the receiver were measured. The
+20 dB of power gain over a 20 MHz instantaneous band-          SNRI was then calculated as [42]
+width. The HFET amplifier (LNF–LNC0.6 2A) provided
+an additional 33 dB power gain and is thermalized to 5
+                                                                                           Gon Poff
+K [40]. Circulators are placed at the inputs of the JPA                           SNRI =       ·    ,                 (3)
+and HFET for isolation. A cryogenic switch at the out-                                     Goff Pon
+put of the antenna enables switching of the receiver input
+                                                               where Gon , Goff , Poff , Pon are the gain and noise power
+between the cavity and a “heated load” noise source for
+                                                               from the receiver with the JPA on and off, respectively.
+calibrating the noise power of the experiment in situ. The
+                                                               The system noise temperature of the experiment was cal-
+JPA, circulators, and cryogenic switch are all sensitive to
+                                                               culated at
+magnetic fields and are thus kept in a field-free region
+generated by a bucking coil magnet located about 1 m
+above the main magnet. The fringe fields from the main                           Tsys = THFET /SNRI,                  (4)
+solenoidal magnet are canceled by the bucking coil mag-
+net to below 15 mT and the JPA is additionally protected       where THFET is the noise temperature of the receiver el-
+with passive µ-metal shielding [28].                           ements downstream of the JPA, mostly dominated by
+   ADMX utilizes a He3 /He4 dilution refrigerator to cool      the second stage HFET amplifier [43]. The method for
+the system to minimize the thermal noise. The cold-            measuring THFET is discussed below.
+est part of the dilution refrigerator, the mixing chamber,        To calibrate the power coming from the experiment
+achieved a temperature of 90 mK. This is mounted to            and the effective system noise temperature, two meth-
+the top of the cavity. The cavity was cooled to 140 mK         ods were used, enabling cross-verification of the system
+and a copper cold finger mounted to the top of the cav-        noise temperature. For both methods, the receiver was
+ity conductively cooled the JPA and other field-sensitive      switched to the heated load. The first method calibrated
+electronics to 105 mK.                                         the system noise temperature via a Y-factor measure-
+   The operations covered in this letter began in De-          ment with the pump tone of the JPA turned off, such
+cember 2023 and continued until November 2024, the             that the JPA was turned off and behaved as an ideal re-
+longest continuous data taking operation of the exper-         flector. In this configuration, the noise contribution from
+iment. Over the course of the run, the data collection         the receiver was dominated by the second stage HFET
+was automated and controlled using a series of control         amplifier. As such, the result of this fit was denoted as
+scripts. The cadence of the data taking procedure was          the effective HFET noise temperature, THFET /αeff . Here,
+as follows. First, a transmission measurement was per-         αeff is a measure of the transmissivity of the signal path
+formed by sending a swept signal through the cavity’s          between the strongly coupled antenna of the cavity and
+weakly-coupled antenna and measuring the proportion            the HFET, and the “effective” subscript is due to small
+of signal transmitted through the cavity to the critically     noise contributions from circulators. The second method
+coupled antenna. The transmission measurements were            calibrated the system noise temperature via a Y-factor
+used to measure the resonant frequency and quality fac-        measurement with the JPA pump tone turned on so that
+tor of the cavity. Following that, a reflection measure-       the JPA behaved as an amplifier. In this configuration,
+ment was made, in which a swept signal was transmit-           the noise contribution was dominated by the JPA be-
+ted through a bypass line and reflected off the strongly       cause all downstream noise was suppressed by the JPA
+coupled antenna of the cavity. The proportion of power         gain. Therefore, the result of this fit is denoted as the
+reflected off the antenna was measured to determine the        effective JPA noise, TJPA,eff , where the “effective” sub-
+coupling coefficient of the antenna. The swept signal was      script is included for the same reason as it was for the
+then shut off and the power from the cavity was sampled        HFET fit result.
+                                                                                                                          4
+
+
+
+
+FIG. 1. A: The electric field map of the TM010 mode simulated by COMSOL Multiphysics [36] where the direction is marked
+by the red arrows and the field magnitude by the color corresponding to the adjacent scale bar. B: A mode map of the cavity
+showing its resonant frequencies as the rod is moved. The heatmap denotes the S21 transmission through the resonator, with
+bright lines indicating the resonant modes of the cavity. The mode used in the search is the fundamental T M010 mode, which
+can tune from 900 − 1400 MHz.
+
+
+  This was the first data taking run with ADMX where            the broadband nature of the HFET amplifier, enabling a
+the JPA on Y-factor measurement was included for cali-          dense set of Tsys over the entire frequency range. Overall,
+bration. This was enabled by upgrades to our calibrated         for this data taking run the mean value of Tsys was 0.59
+noise source which improved the thermal isolation be-           +/- 0.31 K.
+tween the noise source and the mixing chamber. The                 The individual spectra collected during data taking
+additional Y-factor measurement including the JPA al-           were combined into a “grand spectrum” to optimize the
+lowed us to check that our models for calculating the           signal-to-noise ratio of a potential axion signal using the
+overall system noise temperature were consistent. Tsys          method described in Ref. [44, 45]. Throughout the course
+was then calculated using Eqn. 4.                               of data-taking operations, axion candidates were defined
+   A JPA on Y-factor measurement was done at 6 fre-             as regions in the grand spectrum in which we could not
+quencies (1240, 1250, 1260, 1280, 1290, 1350 MHz). The          exclude a KSVZ axion.
+JPA off Y-factor measurement was done at the same fre-             After candidates had been identified during data tak-
+quencies for comparison purposes, as well as many others        ing, each candidate frequency was subject to a veto pro-
+to increase the total frequency coverage of our noise cali-     cedure to evaluate whether or not the signal was consis-
+brations. Fig. 2 shows the values of THFET /αeff at each of     tent with that of an axion. The first step was to imple-
+the 6 frequencies using both methods. The points labeled        ment a rescan procedure in which candidate frequencies
+“JPA off fit” use the direct fit result from the JPA off Y-     were scanned again to identify whether the excess power
+factor measurement. Meanwhile, the points labeled “JPA          at that frequency was persistent. The rescan procedure
+on fit” points combine the JPA on Y-factor fit results          was performed twice; the first rescan occurred with no
+with the SNRI (using methods described in Ref. [43]) to         changes to the data acquisition system and the second
+calculate the corresponding value of THFET /αeff . For the      rescan occurred after turning off all blinded synthetic in-
+frequencies where we took both types of measurements,           jections.
+we can also use the fit results to calculate the system noise      Any candidates that persisted through rescans were
+temperature (the quantity we ultimately want to know)           subject to additional checks. First, the signal power was
+in two different ways. On average, there was a 5% dif-          evaluated as a function of δνa , its distance from the reso-
+ference between the system noise temperature calculated         nant frequency. An axion-like signal would maximize on
+using the two different methods, which is propagated to         resonance, as seen in equation 1 and follow the expected
+the systematic uncertainties in Tsys in the analysis. This      Lorentzian shape as a function of frequency. Candidates
+difference indicated that the two methods were consis-          that exhibited power independent of the cavity resonant
+tent at the few-percent-level. In the primary data analy-       frequency are considered to be radio frequency interfer-
+sis, we used the JPA off method because the calibration         ence (RFI) introduced downstream of the cavity and were
+could be done at multiple frequencies at a time due to          eliminated. Furthermore, candidates that could be de-
+                                                                                                                             5
+
+                                                                      Over the course of the run, ADMX achieved better-
+                                                                   than KSVZ sensitivity across the explored frequency
+                                                                   range. The sensitivity accounted for the signal efficiency
+                                                                   (90%) due to the Savitzky–Golay filter parameters used
+                                                                   in this run. The signal efficiency was evaluated by inject-
+                                                                   ing software generated synthetic axion signals and eval-
+                                                                   uating the signal strength through the analysis chain.
+
+
+                                                                   TABLE I. Overview of persistent candidates. “SAG” marked
+                                                                   the candidates eliminated by turning off the SAG system (a
+                                                                   blinded SAG wouldn’t be turned off at this stage). “RFI”
+                                                                   flagged the candidate eliminated by the ambient signal check
+                                                                   or the enhancement-on-resonance check. “TM011 ” flagged the
+                                                                   candidate eliminated by the scan with the TM011 mode which
+                                                                   was a blinded SAG.
+                                                                   Frequency [Hz]                                 Veto Reason
+                                                                    1,247,550,000                                    SAG
+                                                                    1,247,320,000                                    SAG
+FIG. 2. The effective HFET noise, THFET /αeff , over a range        1,245,610,000                                    SAG
+of frequencies. Gaps in the frequency data correspond to fre-       1,193,709,600                                    SAG
+quency regions that were not probed for axions. We measured         1,192,160,000                                    SAG
+THFET /αeff using two different methods. The first method           1,138,850,000                                    SAG
+uses the direct fit of THFET /αeff from a Y-factor measurement      1,131,860,500                                    SAG
+done with the JPA pump tone powered off (labeled JPA off            1,128,120,000                                    SAG
+fit). The second method uses the result from a Y-factor mea-        1,130,613,500                                   TM011
+surement done with the JPA pump tone powered on, which              1,089,999,500                                     RFI
+measures the JPA effective noise (TJPA,eff ). We then use the
+SNRI and the models described in [43] to calculate what the
+corresponding THFET /αeff is for each value of TJPA,eff (labeled      To place limits on gaγγ , the axion’s coupling to
+JPA on fit). The error bars shown are statistical and system-      photons, the signal-to-noise ratio (SNR) in each bin
+atic errors. Larger error bars are due to systematic errors        within the grand spectrum was compared to a Maxwell-
+associated with the fit to the Y-factor measurement.               Boltzmann axion lineshape model using a maximum like-
+                                                                   lihood weighting. The uncertainty on power was then
+                                                                   de-weighted with the systematic uncertainties shown in
+tected with a room temperature antenna and spectrum                Table II.
+analyzer were considered to be RFI and eliminated from                The uncertainties are similar to those from previous
+the list.                                                          ADMX runs [29], with an additional Lorentzian lineshape
+   Signals that passed the RFI checks were then res-               uncertainty. This additional contribution is due to a kHz-
+canned using the TM011 mode of the cavity. The TM011               level drift of the cavity resonance during the 100 s axion
+mode should have almost no coupling to the axion due to            search digitization observed in this run. The uncertainty
+its reduced form factor, and thus any signals observed on          due to this drift is listed in Table II. The uncertainties
+the TM011 mode would be due to external sources. Can-              in the quality factor, QL , and coupling β are determined
+didates that were not eliminated would then be tested              from uncertainties in the fit to the transmission and re-
+with a magnet ramp procedure in which the power of the             flection measurements, respectively. The uncertainty in
+candidate is studied as a function of the external mag-            Tsys is determined from statistical and systematic un-
+netic field. According to Eq. 1, the power of a true axion         certainties in the fit of the Y-factor measurement, which
+signal would follow the square of the magnetic field               are discussed in further detail in [78]. The uncertainty
+   Over the course of the run, a number of candidate ax-           in B 2 V C is determined by variations in the magnetic
+ion signals were observed. Table I lists the candidates            field and form factor, as determined by simulation, when
+that passed the initial persistence check, as well as the          incorporating in the engineering tolerances of the res-
+results from the candidate veto procedure. Eight were              onator.
+confirmed as blind signals injected by the SAG system                 The confidence level of the exclusion was determined
+after the second rescan. One was identified as RFI with            using a truncated normalized cumulative distribution
+the ambient check. One extra blinded SAG was identified            function given by,
+and eliminated with the TM011 scan. After all candidate
+axions were ruled out, limits were placed on the axion-                          h             i h          i
+photon coupling across the covered mass range. At the                             1 − erf X−s
+                                                                                            √
+                                                                                              2
+                                                                                                  −  1 − erf  X
+                                                                                                              √
+                                                                                                                2
+conclusion of data-taking, the cavity was removed from                    C.L. =              h       i         .        (5)
+                                                                                            1          X
+the magnet bore.                                                                        1 − 2 1 − erf √2
+                                                                                                                               6
+
+
+
+
+FIG. 3. A global limit plot putting this work (shown in purple) in context with other experiments, with an inset zooming in on
+this work’s 90% C.L. upper limits on gaγγ (as well as limits from Ref. [46] due to overlapping coverage). The dark matter density
+is assumed to be 0.45 GeV/cm3 . Gaps in the limits are due to mode crossings, regions where axion search mode of the cavity
+intersected other static weakly tuning modes. KSVZ and DFSZ sensitivities are shown as dashed lines. Previous limits set by
+ADMX are shown in teal [29–31, 47–50]. Limits from other experiments depicted include those set by University of Florida
+(UF) [51], Rochester-Brookhaven-Florida (RBF) [52], Center for Axion and Precision Physics (CAPP) [46, 53–60], Haloscope At
+Yale Sensitive To Axion Cold dark matter (HAYSTAC) [61–63], Grenoble Axion Haloscope project (GrAHal) [64], Oscillating
+Resonant Group AxioN experiment (ORGAN) [65–67], MAgnetized Disc and Mirror Axion eXperiment (MADMAX) [68],
+QUaerere AXions experiment (QUAX) [69–73], Relic Axion Dark Matter Exploratory Setup (RADES) [74], Taiwan Axion
+Search Experiment with Haloscope (TASEH) [75], CAST-CAPP [76], and CERN Axion Solar Telescope (CAST) [77].
+
+
+where X is upper limit on the signal power and s is the           shown in Fig. 3.
+measured signal power. The distribution was truncated                In summary, ADMX probed for QCD axions across the
+to not include unphysical negative couplings in accor-            1.10−1.31 GHz frequency range during this reported data
+dance with the Feldman Cousins methodology [79]. From             run. These results cover a previously unexplored region
+this analysis we can compute the exclusion limit for gaγγ         of parameter space and while an axion-like signal was not
+at 90% confidence level as a function of frequency assum-         detected, new limits were placed on the axion-photon
+ing a local dark matter density of 0.45 GeV/cm3 for the           coupling for axion dark matter. These limits exclude
+Maxwell-Boltzmann model.The limit set for this run is             KSVZ axions even at fractional dark matter densities.
+shown in Fig. 3. A global limit plot including the limit
+                                                                     We were not able to achieve sensitivity to the DFSZ
+from this run in context with previously set limits is also
+                                                                  axion while maintaining a satisfactory scan rate during
+                                                                                                                              7
+
+                                                                 DEFG02-96ER40956, No. DEAC52-07NA27344, No.
+TABLE II. Summary of the averaged fractional percentange
+                                                                 DEC03-76SF00098, No. DE-SC-0022148 and No. DE-
+uncertainties associated with SNR.
+                                                                 SC0017987. Fermilab is a U.S. Department of Energy,
+Source                      Percentage Uncertainty on SNR        Office of Science, HEP User Facility. Fermilab is man-
+QL                                      0.6 %                    aged by Fermi Research Alliance, LLC (FRA), acting
+β/(1 + β)                               0.3 %                    under Contract No. DE-AC02-07CH11359. CRB is sup-
+Tsys                                     9.9%
+                                                                 ported by DOE Office of Science, High Energy Physics,
+B2V C                                     5%
+Lorentzian shape                         1.5 %
+                                                                 Early Career Award (FWP 77794 at PNNL). Chelsea
+Signal efficiency                         3%                     Bartram acknowledges support from the Panofsky Fel-
+Total                                   11.4%                    lowship at SLAC. John Clarke acknowledges support
+                                                                 from the U.S. Department of Energy, Office of Science,
+                                                                 National Quantum Information Science Research Cen-
+                                                                 ters. Additional support was provided by the Heising-
+                                                                 Simons Foundation and by the Lawrence Livermore Na-
+this run. ADMX is currently undergoing upgrades in-
+                                                                 tional Laboratory and Pacific Northwest National Labo-
+cluding an improved tuning system and thermal design.
+                                                                 ratory LDRD offices. The Sheffield group acknowledges
+These upgrades will reduce the temperature of the cavity
+                                                                 support from the UK Science and Technology Facili-
+and RF electronics and improve the stability of experi-
+                                                                 ties Council (STFC) under grants ST/ T006811/1 and
+mental operations. In coming runs, ADMX will expand
+                                                                 ST/X005879/1. UWA and Swinburne participation is
+the covered parameter space probing downwards and out
+                                                                 funded by the ARC Centre of Excellence for Engineered
+to probe for both the KSVZ and DFSZ axion to 1 GHz.
+                                                                 Quantum Systems and CE170100009, Dark Matter Par-
+  This work was supported by the U.S. Department                 ticle Physics, CE200100008. The corresponding author
+of Energy through Grants No. DE-SC0009800, No.                   is supported by JSPS Overseas Research Fellowships No.
+DESC0009723, No. DE-SC0010296, No. DE-SC0010280,                 202060305. LLNL Release No. LLNL-JRNL-2004048.
+No. DE-SC0011665, No. DEFG02-97ER41029, No.                      LANL Release No. LA-UR-25-2317.
+
+
+
+
+ [1] R. D. Peccei and H. R. Quinn, CP conservation in the             qcd input for axion cosmology, Phys. Rev. D 92, 034507
+     presence of pseudoparticles, Phys. Rev. Lett. 38, 1440           (2015).
+     (1977).                                                     [13] L. Fleury and G. D. Moore, Axion dark matter: strings
+ [2] S. Weinberg, A New Light Boson?, Phys. Rev. Lett. 40,            and their cores, Journal of Cosmology and Astroparticle
+     223 (1978).                                                      Physics 2016 (01), 004.
+ [3] F. Wilczek, Problem of Strong p and t Invariance in the     [14] C. Bonati, M. D’Elia, M. Mariti, G. Martinelli, M. Mesiti,
+     Presence of Instantons, Phys. Rev. Lett. 40, 279 (1978).         F. Negro, F. Sanfilippo, and G. Villadoro, Axion phe-
+ [4] J. Preskill, M. B. Wise, and F. Wilczek, Cosmology of            nomenology and θ-dependence from nf= 2 + 1 lattice
+     the invisible axion, Physics Letters B 120, 127 (1983).          qcd, Journal of High Energy Physics 2016, 155 (2016).
+ [5] L. Abbott and P. Sikivie, A cosmological bound on the       [15] P. Petreczky, H.-P. Schadler, and S. Sharma, The topo-
+     invisible axion, Physics Letters B 120, 133 (1983).              logical susceptibility in finite temperature qcd and axion
+ [6] M. Dine and W. Fischler, The not-so-harmless axion,              cosmology, Physics Letters B 762, 498 (2016).
+     Physics Letters B 120, 137 (1983).                          [16] G. Ballesteros, J. Redondo, A. Ringwald, and
+ [7] J. Ipser and P. Sikivie, Can galactic halos be made of           C. Tamarit, Unifying inflation with the axion, dark mat-
+     axions?, Phys. Rev. Lett. 50, 925 (1983).                        ter, baryogenesis, and the seesaw mechanism, Phys. Rev.
+ [8] S. Borsanyi, Z. Fodor, J. Guenther, K.-H. Kampert, S. D.         Lett. 118, 071802 (2017).
+     Katz, T. Kawanai, T. G. Kovacs, S. W. Mages, A. Pasz-       [17] V. B. Klaer and G. D. Moore, The dark-matter axion
+     tor, F. Pittler, J. Redondo, A. Ringwald, and K. K.              mass, Journal of Cosmology and Astroparticle Physics
+     Szabo, Calculation of the axion mass based on high-              2017 (11), 049.
+     temperature lattice quantum chromodynamics, Nature          [18] M. Buschmann, J. W. Foster, and B. R. Safdi, Early-
+     539, 69 (2016).                                                  universe simulations of the cosmological axion, Phys.
+ [9] M. Dine, P. Draper, L. Stephenson-Haskins, and D. Xu,            Rev. Lett. 124, 161103 (2020).
+     Axions, instantons, and the lattice, Phys. Rev. D 96,       [19] M. Gorghetto, E. Hardy, and G. Villadoro, More Axions
+     095001 (2017).                                                   from Strings, SciPost Phys. 10, 50 (2021).
+[10] T. Hiramatsu, M. Kawasaki, T. Sekiguchi, M. Yam-            [20] M. Buschmann, J. W. Foster, A. Hook, A. Peterson,
+     aguchi, and J. Yokoyama, Improved estimation of radi-            D. E. Willcox, W. Zhang, and B. R. Safdi, Dark mat-
+     ated axions from cosmological axionic strings, Phys. Rev.        ter from axion strings with adaptive mesh refinement,
+     D 83, 123531 (2011).                                             Nature Commun. 13, 1049 (2022).
+[11] M. Kawasaki, K. Saikawa, and T. Sekiguchi, Axion dark       [21] J. E. Kim, Weak Interaction Singlet and Strong CP In-
+     matter from topological defects, Phys. Rev. D 91, 065014         variance, Phys. Rev. Lett. 43, 103 (1979).
+     (2015).                                                     [22] M. A. Shifman, A. Vainshtein, and V. I. Zakharov, Can
+[12] E. Berkowitz, M. I. Buchoff, and E. Rinaldi, Lattice             Confinement Ensure Natural CP Invariance of Strong In-
+                                                                                                                                  8
+
+     teractions?, Nucl.Phys. B166, 493 (1980).                          1706.08388.
+[23] M. Dine, W. Fischler, and M. Srednicki, A Simple Solu-        [46] S. Ahn et al. (CAPP), Extensive search for axion dark
+     tion to the Strong CP Problem with a Harmless Axion,               matter over 1 ghz with capp’s main axion experiment,
+     Phys. Lett. B104, 199 (1981).                                      Phys. Rev. X 14, 031023 (2024).
+[24] A. Zhitnitsky, On Possible Suppression of the Axion           [47] S. J. Asztalos et al. (ADMX Collaboration), Squid-based
+     Hadron Interactions. (In Russian), Sov. J. Nucl. Phys.             microwave cavity search for dark-matter axions, Phys.
+     31, 260 (1980).                                                    Rev. Lett. 104, 041301 (2010).
+[25] P. Sikivie, Experimental tests of the ”invisible” axion,      [48] C. Goodman et al. (ADMX Collaboration), Admx axion
+     Phys. Rev. Lett. 51, 1415 (1983).                                  dark matter bounds around 3.3 µeV with dine-fischler-
+[26] J. E. Kim and G. Carosi, Axions and the strong cp prob-            srednicki-zhitnitsky discovery ability, Phys. Rev. Lett.
+     lem, Rev. Mod. Phys. 82, 557 (2010).                               134, 111002 (2025).
+[27] P. Sikivie, Invisible axion search methods, Rev. Mod.         [49] C. Bartram et al. (ADMX Collaboration), Dark matter
+     Phys. 93, 015004 (2021).                                           axion search using a josephson traveling wave parametric
+[28] R. Khatiwada et al. (ADMX Collaboration), Axion dark               amplifier, Review of Scientific Instruments 94, 044703
+     matter experiment: Detailed design and operations, Re-             (2023).
+     view of Scientific Instruments 92, 124502 (2021).             [50] C. Boutan et al. (ADMX Collaboration), Piezoelectri-
+[29] C. Bartram et al. (ADMX Collaboration), Search for in-             cally tuned multimode cavity search for axion dark mat-
+     visible axion dark matter in the 3.3 − −4.2 µeV mass               ter, Phys. Rev. Lett. 121, 261302 (2018).
+     range, Phys. Rev. Lett. 127, 261803 (2021).                   [51] C. Hagmann, P. Sikivie, N. S. Sullivan, and D. B. Tanner,
+[30] N. Du et al. (ADMX Collaboration), Search for invisible            Results from a search for cosmic axions, Phys. Rev. D 42,
+     axion dark matter with the axion dark matter experi-               1297 (1990).
+     ment, Phys. Rev. Lett. 120, 151301 (2018).                    [52] W. Wuensch, S. De Panfilis-Wuensch, Y. K. Semertzidis,
+[31] T. Braine et al. (ADMX Collaboration), Extended search             J. T. Rogers, A. C. Melissinos, H. J. Halama, B. E.
+     for the invisible axion with the axion dark matter exper-          Moskowitz, A. G. Prodell, W. B. Fowler, and F. A.
+     iment, Phys. Rev. Lett. 124, 101303 (2020).                        Nezrick, Results of a Laboratory Search for Cosmic Ax-
+[32] S. J. Asztalos, R. F. Bradley, L. Duffy, C. Hagmann,               ions and Other Weakly Coupled Light Particles, Phys.
+     D. Kinion, D. M. Moltz, L. J. Rosenberg, P. Sikivie,               Rev. D 40, 3153 (1989).
+     W. Stoeffl, N. S. Sullivan, D. B. Tanner, K. van Bib-         [53] S. Lee, S. Ahn, J. Choi, B. R. Ko, and Y. K. Semertzidis,
+     ber, and D. B. Yu, Improved rf cavity search for halo              Axion Dark Matter Search around 6.7 µeV, Phys. Rev.
+     axions, Phys. Rev. D 69, 011101 (2004).                            Lett. 124, 101802 (2020).
+[33] S. Asztalos et al., Large-scale microwave cavity search for   [54] J. Jeong, S. Youn, S. Bae, J. Kim, T. Seong, J. E. Kim,
+     dark-matter axions, Phys. Rev. D 64, 092003 (2001).                and Y. K. Semertzidis, Search for invisible axion dark
+[34] D. Kim, J. Jeong, S. Youn, Y. Kim, and Y. K. Se-                   matter with a multiple-cell haloscope, Phys. Rev. Lett.
+     mertzidis, Revisiting the detection rate for axion halo-           125, 221302 (2020).
+     scopes, Journal of Cosmology and Astroparticle Physics        [55] O. Kwon, D. Lee, W. Chung, D. Ahn, H. Byun,
+     2020 (03), 066.                                                    F. Caspers, H. Choi, J. Choi, Y. Chong, H. Jeong,
+[35] M. S. Turner, Periodic signatures for the detection of             et al. (CAPP), First Results from an Axion Haloscope at
+     cosmic axions, Phys. Rev. D 42, 3572 (1990).                       CAPP around 10.7 µeV, Phys. Rev. Lett. 126, 191802
+[36] C. AB, Comsol multiphysics® v. 5.6., www.comsol.com.               (2021).
+[37] J. Aumentado, Superconducting parametric amplifiers:          [56] Y. Lee, B. Yang, H. Yoon, M. Ahn, H. Park, B. Min,
+     The state of the art in josephson parametric amplifiers,           D. Kim, and J. Yoo, Searching for Invisible Axion Dark
+     IEEE Microwave Magazine 21, 45 (2020).                             Matter with an 18 T Magnet Haloscope, Phys. Rev. Lett.
+[38] C. M. Bishop, Pattern Recognition and Machine Learning             128, 241805 (2022).
+     (Springer, New York, 2006).                                   [57] J. Kim, O. Kwon, C. Kutlu, W. Chung, A. Matlashov,
+[39] I. Siddiqi, R. Vijay, F. Pierre, C. M. Wilson, M. Met-             S. Uchaikin, A. F. van Loo, Y. Nakamura, S. Oh,
+     calfe, C. Rigetti, L. Frunzio, and M. H. Devoret, RF-              H. Byun, et al., Near-quantum-noise axion dark matter
+     driven josephson bifurcation amplifier for quantum mea-            search at capp around 9.5 µeV, Phys. Rev. Lett. 130,
+     surement, Physical Review Letters 93 (2004).                       091602 (2023).
+[40] L. N. Factory, 0.6-2 GHz cryogenic low noise ampli-           [58] A. K. Yi, S. Ahn, C. Kutlu, J. Kim, B. R. Ko, B. I.
+     fier, https://www.lownoisefactory.com/files/1215/                  Ivanov, H. Byun, A. F. van Loo, S. Park, J. Jeong, et al.,
+     2585/7504/LNF-LNC0.6_2A.pdf.                                       Axion dark matter search around 4.55 µeV with dine-
+[41] R. Khatiwada et al., Axion dark matter experiment: De-             fischler-srednicki-zhitnitskii sensitivity, Phys. Rev. Lett.
+     tailed design and operations, arXiv:2010.00169.                    130, 071002 (2023).
+[42] R. H. Dicke, The measurement of thermal radiation at          [59] B. Yang, H. Yoon, M. Ahn, Y. Lee, and J. Yoo, Extended
+     microwave frequencies, Review of Scientific Instruments            axion dark matter search using the capp18t haloscope,
+     17, 268 (1946).                                                    Phys. Rev. Lett. 131, 081801 (2023).
+[43] M. Guzzetti et al. (ADMX Collaboration), Receiver noise       [60] Y. Kim, J. Jeong, S. Youn, S. Bae, K. Lee, A. F. van
+     in axion haloscopes (2024), arXiv:2411.07172 [hep-ex].             Loo, Y. Nakamura, S. Oh, T. Seong, S. Uchaikin, et al.,
+[44] C. Bartram et al. (ADMX Collaboration), Axion dark                 Experimental search for invisible axions as a test of axion
+     matter experiment: Run 1b analysis details, Phys. Rev.             cosmology around 22 uev, Phys. Rev. Lett. 133, 051802
+     D 103, 032002 (2021).                                              (2024).
+[45] B. M. Brubaker, L. Zhong, S. K. Lamoreaux, K. W.              [61] L. Zhong, S. Al Kenany, K. M. Backes, B. M. Brubaker,
+     Lehnert, and K. A. van Bibber, HAYSTAC axion search                S. B. Cahn, G. Carosi, Y. V. Gurevich, W. F. Kindel,
+     analysis procedure, Phys. Rev. D96, 123008 (2017),                 S. K. Lamoreaux, K. W. Lehnert, et al. (HAYSTAC),
+                                                                                                                                   9
+
+     Results from phase 1 of the HAYSTAC microwave cavity                R. Di Vora, P. Falferi, et al., Search for Galactic axions
+     axion experiment, Phys. Rev. D 97, 092001 (2018).                   with a high-Q dielectric cavity, Phys. Rev. D 106, 052007
+[62] K. M. Backes, D. A. Palken, S. A. Kenany, B. M.                     (2022).
+     Brubaker, S. B. Cahn, A. Droster, G. C. Hilton,                [72] R. Di Vora, A. Lombardi, A. Ortolan, R. Pengo, G. Ru-
+     S. Ghosh, H. Jackson, S. K. Lamoreaux, et al.                       oso, C. Braggio, G. Carugno, L. Taffarello, G. Cappelli,
+     (HAYSTAC), A quantum-enhanced search for dark mat-                  N. Crescini, et al. (QUAX), Search for galactic axions
+     ter axions, Nature 590, 238 (2021).                                 with a traveling wave parametric amplifier, Phys. Rev. D
+[63] M. J. Jewell et al. (HAYSTAC Collaboration), New re-                108, 062005 (2023).
+     sults from haystac’s phase ii operation with a squeezed        [73] A. Rettaroli, D. Alesini, D. Babusci, C. Braggio,
+     state receiver, Phys. Rev. D 107, 072007 (2023).                    G. Carugno, D. D’Agostino, A. D’Elia, D. Di Gioacchino,
+[64] T. Grenet, R. Ballou, Q. Basto, K. Martineau, P. Perrier,           R. Di Vora, P. Falferi, et al. (QUAX), Search for ax-
+     P. Pugnat, J. Quevillon, N. Roch, and C. Smith, The                 ion dark matter with the QUAX–LNF tunable haloscope,
+     grenoble axion haloscope platform (grahal): development             Phys. Rev. D 110, 022008 (2024).
+     plan and first results, (2021), arXiv:2110.14406 [hep-ex].     [74] A. Álvarez Melcón, S. Arguedas Cuendis, J. Baier,
+[65] B. T. McAllister, G. Flower, E. N. Ivanov, M. Goryachev,            K. Barth, H. Bräuninger, S. Calatroni, G. Cantatore,
+     J. Bourhill, and M. E. Tobar, The ORGAN Experiment:                 F. Caspers, J. F. Castel, S. A. Cetin, et al. (CAST),
+     An axion haloscope above 15 GHz, Phys. Dark Univ. 18,               First results of the cast-rades haloscope search for axions
+     67 (2017).                                                          at 34.67 µev, JHEP 21, 075.
+[66] A. P. Quiskamp, B. T. McAllister, P. Altin, E. N. Ivanov,      [75] H. Chang, J.-Y. Chang, Y.-C. Chang, Y.-H. Chang, Y.-
+     M. Goryachev, and M. E. Tobar, Direct search for dark               H. Chang, C.-H. Chen, C.-F. Chen, K.-Y. Chen, Y.-F.
+     matter axions excluding alp cogenesis in the 63- to 67-µev          Chen, W.-Y. Chiang, et al. (TASEH), First Results from
+     range with the organ experiment, Sci. Adv. 8, abq3765               the Taiwan Axion Search Experiment with a Haloscope
+     (2022).                                                             at 19.6 µeV, Phys. Rev. Lett. 129, 111802 (2022).
+[67] A. Quiskamp, B. T. McAllister, P. Altin, E. N. Ivanov,         [76] C. M. Adair, K. Altenmüller, V. Anastassopoulos, S. Ar-
+     M. Goryachev, and M. E. Tobar, Exclusion of axionlike-              guedas Cuendis, J. Baier, K. Barth, A. Belov, D. Bozice-
+     particle cogenesis dark matter in a mass window above               vic, H. Bräuninger, G. Cantatore, et al., Search for dark
+     100 µeV, Phys. Rev. Lett. 132, 031601 (2024).                       matter axions with cast-capp, Nature Commun. 13, 6180
+[68] B. Ary dos Santos Garcia, D. Bergermann, A. Cald-                   (2022).
+     well, V. Dabhi, C. Diaconu, J. Diehl, G. Dvali,                [77] K. Altenmüller, V. Anastassopoulos, S. Arguedas-
+     J. Egge, E. Garutti, S. Heyminck, F. Hubaut, A. Ivanov,             Cuendis, S. Aune, J. Baier, K. Barth, H. Bräuninger,
+     J. Jochum, S. Knirck, M. Kramer, D. Kreikemeyer-                    G. Cantatore, F. Caspers, J. F. Castel, et al. (CAST
+     Lorenzo, C. Krieger, C. Lee, D. Leppla-Weber, X. Li,                Collaboration), New upper limit on the axion-photon
+     A. Lindner, B. Majorovits, J. P. A. Maldonado, A. Mar-              coupling with an extended cast run with a xe-based mi-
+     tini, A. Miyazaki, E. Öz, P. Pralavorio, G. Raffelt, J. Re-        cromegas detector, Phys. Rev. Lett. 133, 221005 (2024).
+     dondo, A. Ringwald, J. Schaffran, A. Schmidt, F. Steffen,      [78] M. Guzzetti, D. Zhang, C. Goodman, C. Hanretty, J. Sin-
+     C. Strandhagen, I. Usherov, H. Wang, and G. Wieching                nis, L. J. Rosenberg, G. Rybka, J. Clarke, I. Siddiqi, A. S.
+     (MADMAX Collaboration), First search for axion dark                 Chou, M. Hollister, S. Knirck, A. Sonnenschein, T. J.
+     matter with a madmax prototype, Phys. Rev. Lett. 135,               Caligiure, J. R. Gleason, A. T. Hipp, P. Sikivie, M. E.
+     041001 (2025).                                                      Solano, N. S. Sullivan, D. B. Tanner, R. Khatiwada,
+[69] D. Alesini, C. Braggio, G. Carugno, N. Crescini,                    G. Carosi, N. Du, C. Cisneros, N. Robertson, N. Wool-
+     D. D’Agostino, D. Di Gioacchino, R. Di Vora, P. Falferi,            lett, L. D. Duffy, C. Boutan, T. Braine, N. S. Oblath,
+     S. Gallo, U. Gambardella, et al., Galactic axions search            M. S. Taubman, E. Lentz, E. J. Daw, C. Mostyn, M. G.
+     with a superconducting resonant cavity, Phys. Rev. D 99,            Perry, C. Bartram, T. A. Dyson, C. L. Kuo, S. Rup-
+     101101 (2019).                                                      pert, M. O. Withers, A. K. Yi, B. T. McAllister, J. H.
+[70] D. Alesini, C. Braggio, G. Carugno, N. Crescini,                    Buckley, C. Gaikwad, J. Hoffman, K. Murch, J. Russell,
+     D. D’Agostino, D. Di Gioacchino, R. Di Vora, P. Falferi,            M. Goryachev, E. Hartman, A. Quiskamp, and M. E. To-
+     U. Gambardella, C. Gatti, et al., Search for invisible ax-          bar (ADMX Collaboration), Improved receiver noise cal-
+     ion dark matter of mass ma = 43 µeV with the QUAX–aγ                ibration for admx axion search: 4.54 to 5.41 µev, Phys.
+     experiment, Phys. Rev. D 103, 102004 (2021).                        Rev. D 111, 092012 (2025).
+[71] D. Alesini, D. Babusci, C. Braggio, G. Carugno,                [79] G. J. Feldman and R. D. Cousins, Unified approach to
+     N. Crescini, D. D’Agostino, A. D’Elia, D. Di Gioacchino,            the classical statistical analysis of small signals, Phys.
+                                                                         Rev. D 57, 3873 (1998).
+

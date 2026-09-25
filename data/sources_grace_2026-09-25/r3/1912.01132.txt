@@ -1,0 +1,2829 @@
+                                                                                                               UMN–TH–3902/19
+                                                                                                              FTPI–MINN–19/25
+                                                                                                                   December 2019
+
+                                                          Big-Bang Nucleosynthesis After Planck
+
+                                                                             Brian D. Fields
+
+
+
+
+arXiv:1912.01132v1 [astro-ph.CO] 3 Dec 2019
+                                                               Departments of Astronomy and of Physics,
+                                                                 University of Illinois, Urbana, IL 61801
+
+                                                                             Keith A. Olive
+                                              William I. Fine Theoretical Physics Institute, School of Physics and Astronomy,
+                                                         University of Minnesota, Minneapolis, MN 55455, USA
+
+                                                                             Tsung-Han Yeh
+                                                     Department of Physics, University of Illinois, Urbana, IL 61801
+
+                                                                              Charles Young
+                                                          Departments of Astronomy and of Computer Science,
+                                                                University of Illinois, Urbana, IL 61801
+
+
+
+
+                                                                                   1
+                                           Abstract
+  We assess the status of big-bang nucleosynthesis (BBN) in light of the final Planck data release
+and other recent developments, and in anticipation of future measurements. Planck data from
+the recombination era fix the cosmic baryon density to 0.9% precision, and now damping tail
+measurements determine the helium abundance and effective number of neutrinos with precision
+approaching that of astronomical and BBN determinations respectively. All three parameters
+are related by BBN. In addition, new high-redshift measurements give D/H to better precision
+than theoretical predictions, and new Li/H data reconfirm the lithium problem. We present new
+7 Be(n, p)7 Li rates using new neutron capture measurements; we have also examined the effect of
+
+
+proposed changes in the d(p, γ)3 He rates. Using these results we perform a series of likelihood
+analyses. We assess BBN/CMB consistency, with attention to how our results depend on the
+choice of Planck data, as well as how the results depend on the choice of non-BBN, non-Planck
+data sets. Most importantly the lithium problem remains, and indeed is more acute given the very
+tight D/H observational constraints; new neutron capture data reveals systematics that somewhat
+increases uncertainty and thus slightly reduces but does not essentially change the problem. We
+confirm that d(p, γ)3 He theoretical rates brings D/H out of agreement and slightly increases 7 Li;
+new experimental data are needed at BBN energies. Setting the lithium problem aside, we find the
+effective number of neutrino species at BBN is Nν = 2.86±0.15. Future CMB Stage-4 measurements
+promise substantial improvements in BBN parameters: helium abundance determinations will be
+competitive with the best astronomical determinations, and Neff will approach sensitivities capable
+of detecting the effects of Standard Model neutrino heating of the primordial plasma.
+
+
+
+
+                                               2
+I.    INTRODUCTION
+
+
+     It is remarkable that the two pillars of Big-Bang Cosmology, Big-Bang Nucleosynthesis
+(BBN) and the Cosmic Microwave Background (CMB) have remained intertwined since the
+initial prediction of the CMB from the early BBN studies of Alpher and Herman [1]. The
+reasoning behind the prediction of the CMB is relatively simple: the Universe must have
+been hot enough for nuclear reactions to proceed, which in the nascent Big Bang model
+meant within the first few minutes, as determined via the Friedmann equation at BBN
+
+                                                 8π
+                                        H2 ≈        GN ρ                                  (1)
+                                                  3
+
+where GN is Newton’s constant, and ρ is the (radiation-dominated) energy density
+
+                                           π2    7 7
+                                                          
+                              ρ ≈ ρrad =      2 + + Nν T 4 ,                              (2)
+                                           30    2 4
+
+given in terms of the number of neutrino flavors, Nν . Knowledge of the p(n, γ)d cross section
+then allows for a determination of the baryon density, nB at that time. Even a rough estimate
+of the baryon density today allowed Alpher and Herman to postulate the existence of the
+CMB with an estimated temperature of T0 = 5 K. Going one step further, they recognized
+the potential uncertainty in nB , and argued that T0 might be as low as 1 K.
+     Seventy years after the initial prediction of the CMB, accurate parameter determinations
+from the CMB (in the ΛCDM model) now are sensitive to both the primordial 4 He abundance
+and Nν . Accurate predictions of the light element abundances, in turn, depend sensitively
+on the baryon density, now most accurately determined by CMB measurements. It should
+not be a surprise than that a full BBN study requires a convolved likelihood analysis using
+CMB data along with the best available light element data. Here, we update our previous
+analysis [2] (CFOY) using 2015 Planck data [3] with the latest release from Planck [4].
+     While not at the same level of precision as the CMB, BBN calculations and likelihood
+analyses continue to make progress. Since the standard model of BBN (SBBN) is well un-
+derstood, there continues to be room for improvement in cross section measurements, the
+neutron mean life and of course light element abundance determinations. Since our analysis
+in CFOY, there have been some new cross section measurements, notably in the 7 Be(n, p)7 Li
+rate that controls the A = 7 abundance, as well as controversy over the d(p, γ)3 He discrep-
+ancy between experiment and theory. There have also been four new measurements of the
+
+                                             3
+neutron lifetime [5–8], and several new measurements of the deuterium abundance in high
+redshift quasar absorption systems [9–14]. There remains a discrepancy between the pre-
+dicted 7 Li abundance and that inferred from observations of low metallicity halo dwarf stars,
+further confirmed with a new observation of Li/H in an ultra-metal-poor halo star [15].
+     As in CFOY, we make heavy use of the public CMB likelihood distributions. Theses are
+combined with BBN likelihood functions which in turn rely on the observational determi-
+nations of the light element abundances. Our BBN likelihood functions convolve both the-
+oretical and observational uncertainties. This enables us to construct both two-dimensional
+(as appropriate for SBBN with Nν = 3) likelihood distributions for η and the 4 He mass
+fraction1 , Yp , as well as three-dimensional distributions for η, Yp , and Nν . When experi-
+mentally determined nuclear rates are used, we confirm the remarkable agreement between
+the CMB/SBBN predicted D/H abundance with the now precise value from observation.
+However, we also comment on the consequences of using a theory based rate for d(p, γ)3 He,
+normalized at low energies (∼ 1 keV) [16, 17].
+     Despite the quoted accuracy of the CMB parameter determinations, the CMB likelihood
+distributions clearly depend on the particular combination of CMB data used with or with-
+out other cosmological data. For example, Planck polarization (E-mode) data now places
+important constraints in addition to the usual temperature anisotropy data. So the combina-
+tion of temperature and E-modes auto correlations and cross correlations give the strongest
+CMB constraints for all parameters including those relevant to BBN. Here, we consider
+several different Planck choices of data sets and compare results to test BBN results to the
+sensitivity to Planck assumptions.
+     After a very brief description of SBBN, in §II, we describe the nuclear rates used in our
+BBN code, and concentrate on rates which have been updated during the last three years.
+We also review the current status of neutron lifetime measurements. Finally, in §II, we
+discuss the special case of d(p, γ)3 He and prospects for improved rates for this process. In
+§III, we update the status of 4 He, D/H, and 7 Li/H determinations. We also describe in detail
+the set of Planck likelihood distributions we consider. Our BBN-only likelihood analysis is
+presented in in §IV, and the convolution with the Planck likelihood functions for all data
+sets considered are given in §V. Future prospects for improvement are discussed in §VI, and
+concluding remarks are made in §VII.
+1
+    The 4 He mass fraction is defined and discussed in Appendix A.
+
+
+                                                    4
+II.     STANDARD BIG-BANG NUCLEOSYNTHESIS
+
+
+      Until the age of precision cosmology, BBN depended primarily are three important input
+parameters [18]: the baryon number density nB , the neutron mean-life, τn , and the number
+of neutrino flavors, Nν . BBN thus directly probes the baryon mass density ρB ≈ mB nB ,
+with mB ≈ mp mean mass per baryon [19]. To compute the baryon density parameter
+ΩB = ρB /ρcrit = 8πGρB /3H02 engages the infamous debate over the Hubble parameter
+H0 = 100h km/s/Mpc; this is avoided by quoting ωB ≡ ΩB h2 . One might also include the
+present temperature of the CMB which was known only to be between 2.7 and 3 K, so that
+the baryon density can be expressed as the (present) dimensionless baryon-to-photon ratio
+η ≡ nB /nγ . In Appendix A, we discuss the relation between η and ωB .
+      Greatly improved measurements of the neutron mean-life, the accurate CMB determi-
+nation of the baryon density first by WMAP [20], and the LEP and SLC determinations
+[21] of the number of neutrinos (in the standard model) from the invisible width of the
+Z boson, have effectively made BBN a zero-parameter theory [22]. BBN results for the
+light element abundances of D, 3 He, 4 He, and 7 Li, are typically presented as a function of
+the baryon density (see for example the Schramm plot shown in Fig. 2 below). On the
+other hand, CMB measurements culminating in Planck independently determine the cosmic
+baryon density to better than 1 percent: ωB ≡ ΩB h2 = 0.022298 ± 0.000212 [4], correspond-
+ing to η ≡ nB /nγ = 6.104 ± 0.058. This allows one to make firm predictions for the light
+element abundances.
+      For the most part, we will work in the context of SBBN, which adopts the most con-
+ventional microphysics and cosmology, as follows. We assume a standard ΛCDM cosmology
+based on general relativity. We assume standard nuclear and particle interactions, and use
+experimentally measured nuclear cross sections including the world average of the neutron
+mean-life. SBBN will also refer to a particle content with three light neutrino (and anti-
+neutrino) flavors that are left-handed and fully in equilibrium.
+      We will go beyond SBBN in the simplest and best-studied case hereafter NBBN, where
+we explore the effect of allowing Nν to vary in the cosmic radiation density (Eq. 2). Its effect
+is felt primarily through the expansion rate characterized by the Hubble parameter at the
+time of BBN (Eq. 1) Since the number of light neutrinos with weak charge is known to be
+3, Nν > 3, refers to the number of neutrino-like degrees of freedom of any new particle type
+
+                                              5
+which may happen to be in thermal equilibrium at the time of BBN. For example, a single
+light scalar would contribute 4/7 to Nν . For more on SBBN and NBBN, we refer to several
+works [2, 23–36].
+
+
+
+     A.   Updated Nuclear Rates
+
+
+     Two nuclear reactions critical for BBN have received particular attention since CFOY:
+7
+    Be(n, p)7 Li and d(p, γ)3 He. Also, 7 Be(n, α)4 He is now measured for the first time, and
+there is new 7 Be(d, p)4 He data. Finally, the neutron mean life continues to be a source of
+controversy.
+     As we will see in more detail below, our approach to thermonuclear rates has always
+been empirical, based on smooth polynomial fits to experimental cross section data. A
+complementary approach uses nuclear theory to prescribe fitting functions, notably using
+R-matrix fits. The latter has been explored in detail by the Paris group and collaborators,
+e.g., refs. [17, 30]. A recent elegantly worked example of this approach has been carried out
+for 3 He(d, p)4 He [37].
+     Our choices for rates are those of [29], with modifications for those rates where new data
+exists in the BBN energy range. In brief: we use NACRE-II for the rates listed in Table I.
+We use [38] for p(n, γ)d. And below we will discuss the remaining major rate, 7 Be(n, p)7 Li,
+as well as the neutron lifetime, and other new rates for subdominant reactions.
+
+
+          TABLE I. Reactions of relevance for BBN from the NACRE-II compilation [39].
+
+                             d(p, γ)3 He      d(d, γ)4 He        d(d, n)3 He
+
+                               d(d, p)t       t(d, n)4 He       3 He(d, p)4 He
+
+                            7 Li(p, α)4 He 7 Li(p, γ)4 He4 He
+
+
+
+
+     Also following [29], we model the uncertainty distribution as a lognormal distribution.
+This is motivated physically by the idea that the experimental nuclear rates are controlled
+by several multiplicative factors whose uncertainties thus take this form [17]. In practice
+the errors are usually sufficiently small that the choice of a lognormal versus Gaussian
+distribution does not have a large impact on our result.
+
+                                                  6
+   B.   The 7 Be(n, p)7 Li Reaction
+
+
+   The 7 Be(n, p)7 Li reaction was measured at the n TOF experiment at CERN [40]. The
+experiment used a neutron beam and a 7 Be target, both of which are radioactive. This
+setup allows a direct measurement of the reaction with forward kinematics, i.e., via neutron-
+capture on 7 Be. Most previous data is on the reverse reaction 7 Li(p, n)7 Be that has a stable
+beam and target. The two cross sections are related by time reversal invariance/detailed
+balance/reciprocity, which gives σ(7 Be + n)/σ(7 Li + p) = Ecm (7 Li + p)/Ecm (7 Be + n). Con-
+sequently, near the threshold energy for the reverse reaction, the transformation is very
+sensitive to the Q value used to translate to the energy in the forward rate, and so at lower
+energies the forward rate data are particularly useful.
+   Figure 1 shows the data for 7 Be(n, p)7 Li. We see that the new n TOF [40] points are
+higher than those of Sekharan et al. [42] in and around the BBN energy range; this difference
+reaches substantially beyond the quoted errors. The former are direct measurements of the
+forward reaction, while the latter are from the reverse reaction, but we are not aware of
+a reason to exclude either. Until a better understanding is forthcoming, this discrepancy
+suggests that a systematic error may exist in one of the two data sets. Consequently, when
+we follow the error propagation method of Cyburt [29], the inclusion of n TOF will introduce
+a larger “discrepancy error” as well as a small increase in the mean cross section. At energies
+much lower than the BBN range, the n TOF data are also much higher than the data of
+Koehler [41], again suggestive of systematic errors.
+   Our adopted reaction rate fits and thermally-averaged rates are shown in Fig. 1 and
+discussed further in Appendix B. The fits include data in the energy range surrounding
+BBN energies, Ecm ∈ (0.01, 1.0) MeV. In Appendix B, we explore in detail the consequences
+of using or excluding different datasets and energy ranges for 7 Be(n, p)7 Li.
+
+
+
+
+   C.   Theory vs Experiment on d(p, γ)3 He
+
+
+   The d(p, γ)3 He rate has received particular scrutiny lately because theory and experiment
+disagree on the behavior of this rate at BBN energies. Our approach for this and all rates is
+to use smooth polynomial fits to the data. By construction this ensures that the fits match
+
+                                             7
+                                                         7
+                                           ×109
+                                                             Be(n, p)7Li Reaction Rate Data and Fit
+                                       8
+
+                                       7                                                      best fit
+                                                                                              1σ uncertainty
+
+
+
+
+             R(Ecm) = NAσv ( gcm
+            3                          6
+
+
+
+
+                                   )
+                                       5
+
+                                       4
+
+
+                               sec
+                                       3             Gibbons 1959
+                                                     Koehler 1988
+                                       2             Sekharan 1976
+                                                     Taschek 1948
+                                       1             n TOF 2018
+
+                                       0
+                                       10−7       10−6         10−5    10−4   10−3     10−2    10−1       100
+                                                                         Ecm (MeV)
+
+
+FIG. 1. Data and fits for the 7 Be(n, p)7 Li reaction rate R(E) = NAvo hσvi versus neutron kinetic
+energy E. Data from direct measurements are from n TOF [40] and Koehler [41]. Measurements
+from inverse kinematics are from Sekharan [42], Gibbons [43], and Taschek [44], and are transformed
+using detailed balance. Note the resonances around 0.32 and 2.7 MeV; also note the discrepancies
+in the normalization at low energies. Our polynomial fits are for different energy ranges and
+combinations of data sets, as described in the text.
+
+
+
+the data as well as possible given the uncertainties. On the other hand, this procedure makes
+no contact with nuclear theory.
+
+   Nuclear theory predictions do exist for this reaction. Such a 3-nucleon system is relatively
+straightforward to compute in ab initio quantum mechanical calculations based on nuclear
+interaction potentials normalized to nucleon scattering and other experimental data. Nol-
+lett and collaborators first raised the issue [11, 45, 46] that in the BBN energy range, the
+theoretical prediction lies about 20% above the data, which are mostly the Bailey and Ma
+measurements [47, 48]. Precision LUNA experiments are underway [49], foreshadowed by a
+recent thick-target study [50]. Because the theoretical predictions do agree with the exper-
+imental data at energies above and below the BBN energy window, this raises a question of
+whether systematic errors in the experimental data could underestimate the cross section,
+
+                                                                           8
+as might be possible if the overall normalization is larger than the quoted 9% error [48].
+     Other theoretical studies give similar results. Another ab initio calculation based on
+the nucleon-nucleon potential appears in [51] and was updated in [16], finding a higher cross
+section in the BBN range. A theoretical fit for the cross section shape, based on an R-matrix
+analysis, was used by the Paris group [17]. This also gives a higher BBN cross section and
+rate.
+     To explore the impact of this discrepancy between theory and observation, we will show
+the impact of adopting a theory-based rate for this reaction. In addition to our fiducial
+results using empirical rates, we will adopt the theoretical rate of [16]. This is similar that
+of the Paris group, but slightly higher in the BBN range. And thus using this rate will
+illustrate the largest differences with our approach. Results based on the comparison of
+these rates will be given in Appendix D.
+
+
+
+     D.   Other Reactions: Enhanced 7 Be Destruction
+
+
+     A competing channel for neutron capture on 7 Be is 7 Be(n, α)4 He, which leads to direct
+destruction of mass-7. Data on this reaction has been scarce, again due to the need for
+a radioactive source and target for a direct measurement. A recent flurry of experimental
+activity by several groups has changed and clarified the picture for this reaction.
+     The n TOF collaboration measured the rate at a wide range of low energies, from 10 meV
+to 10 keV [52]. They determined the s-wave component, NA hσs vi = 4.81 × 105 cm3 g−1 s−1 .
+Other measurements have included higher energies than that spanning the BBN range. Hou
+et al. [53] used detailed balance to infer the cross section from the inverse 4 He(α, n)7 Be
+reaction. Kawabata et al. [54] directly measured the forward reaction using the neutron
+time-of-flight facility at the Research Center for Nuclear Physics in Osaka. Finally, Lamia
+et al. [55] used the Trojan horse method to infer the reaction properties indirectly, from
+7
+    Li + d deuteron breakup and accounting for Coulomb effects. This method is well-suited to
+determine the shape of the cross-section but accrues more systematic errors when inferring
+the absolute cross section.
+     Most importantly, all of the newly-determined 7 Be(n, α)4 He cross sections and thermal
+rates were broadly consistent with each other (though significant differences do exist). But
+they all lie about an order of magnitude below the Wagoner [56] estimate that had been used
+
+                                              9
+in the BBN code. Since even that higher rate had not proven a dominant factor in BBN,
+we would expect the revised rate to be even less significant–itself an important conclusion
+and useful contribution. Ref. [55] used the most recent data to calculate a thermonuclear
+rate, and we adopt their fit. Below, in Appendix C, we discuss the impact of the new rate
+on primordial 7 Li.
+   A recent study of 7 Be + d reactions found a new resonance in the BBN Gamow window
+for the 7 Be(d, pα)4 He channel [57]. Resonances of this kind enhance mass-7 destruction, and
+have been suggested as a possible solution to the Li problem [58, 59]. Ref. [57] performed a
+BBN study and found a ∼ 10% reduction in mass-7, more than predicted in ref. [59]. We
+will adopt their thermal rates and study the effect of this reaction in our network. These
+results are also given in Appendix C.
+   Finally, we note recent theoretical calculations on BBN rates. A calculation of 7 Be(α, γ)11 C
+finds that it is unlikely this reaction proceeds through a resonance strong enough to affect 7 Li
+BBN production [60]. For the 3 He(α, γ)7 Be channel that dominates 7 Li production, ref. [61]
+presents a new, next-to-leading-order effective field theory calculation. Their emphasis was
+on the S(0) factor needed for solar neutrinos, for which they found good agreement with
+recent inferences of this quantity.
+
+
+
+   E.   The Neutron Mean Life
+
+
+   As noted earlier, the neutron mean-life has seen dramatic improvements over the years,
+but has become a source of controversy. In 1980, the Review of Particle Properties [62] world
+average (using four measurements) was τn = 917 ± 14 s. By 1990, the uncertainty improved
+to τn = 888.6±±3.5 s [63], based on seven measurements, though the drop in the uncertainty
+was largely due to the measurement by Mampe et al [64] using ultra cold neutrons. The
+uncertainty hit a low in 2002 with the world average stabilizing at τn = 885.7±±0.8 s [65] for
+a period of ten years. The latter average was based on six measurements all dating 1988 and
+later, and several with very small uncertainties including the measurement of Arzumanov
+et al. [66] of τn = 885.4 ± 0.9 ± 0.4 s. All six measurements were within 1 σ of the world
+average. However, the 2005 measurement of Serebrov et al. [67] (τn = 878.5 ± 0.7 ± 0.3 s)
+using a gravitational trap was 6.5 standard deviations off from the world average and was not
+included at that time. By 2012, two new measurements [68, 69] using ultra cold neutrons,
+
+                                              10
+also gave significantly lower values that the Review of Particle Physics average went down
+to τn = 880.1 ± 1.1 s [70], though some of the older measurements were somewhat discrepant
+with this values and the uncertainty carried a scale factor of 1.8. The 2014 average was little
+changed [71] τn = 880.3 ± 1.1 s (scale factor 1.9) and was the value adopted by CFOY.
+     In the 2018 compilation of the Review of Particle Physics [72], the world average shifted
+slightly to τn = 880.2 ± 1.0 s due to the updated measurement in [5] and includes a scale
+factor of 1.9 based on seven measurements. As noted earlier, there have been several newer
+measurements [6–8] and the world average based on all ten experiments gives τn = 879.7±0.8
+s with a scale factor of 1.9 due mainly to the high value found in [73] (887.7 ± 1.2 ± 1.9) s
+and the low values found in [6, 7] (878.5 ± 0.7 ± 0.3 s and 877.7 ± 0.7 + 0.4/ − 0.2 s). The
+Review, however recommends dropping two of the older measurements (those in [64, 74]) as
+well as the in-beam measurement of [73]. Thus the current world average becomes
+
+                                             τn = 879.4 ± 0.6 s                                           (3)
+
+with a scale factor of 1.6 2 . Despite the variance between the in-beam and trap measure-
+ments 3 , we adopt this latest world average in our work below.
+
+
+
+III.    OBSERVATIONS
+
+
+     To test BBN and probe the early Universe, we require primordial abundance data to
+compare with our predictions. With the exception of new CMB-measured 4 He (§III D),
+observed light element abundances in real astrophysical systems contain some non-BBN
+nucleosynthesis component, so one must deduce the primordial abundances by removing
+or minimizing this contamination via observations of low metallicity and/or high-redshift
+systems. For D, 4 He, and 7 Li it is possible to infer primordial levels at sufficient precision.
+By contrast, lack of low-metallicity observations of 3 He leaves us with no reliable primordial
+abundances for this species [76]. There is some hope, however, that future 30-m class
+telescopes might detect 3 He emission lines in the same extragalactic HII regions in which
+4
+    He is now measured [77], and to which we now turn.
+
+2
+    The Review also quotes the average including [73] as τn = 879.6 ± 0.8 s with a scale factor of 2.0.
+3
+    See [75] for a review on this discrepancy.
+
+
+                                                     11
+     A.   Helium-4
+
+
+     As we will see below, the BBN prediction for the 4 He abundance is by far the most ac-
+curate of the light elements. Its relative uncertainty is at the level of 0.1%. Therefore, a
+critical test of BBN using 4 He would require a similar level of accuracy, which unfortunately
+is not possible at present. 4 He abundance determinations are extracted from observations
+of extragalactic H II emission lines. To obtain an abundance from a set of flux measure-
+ments requires a detailed model of the emission region, atomic emissivities, and corrections
+for reddening and ionization fraction. Uncertainties in these lead to strong systematic un-
+certainties in the derived 4 He abundance [78–80], making better than 1% determinations
+difficult [78, 81]. Despite the availability of order 100 observations of H II regions [82–85],
+only a few of these objects have data which are well described by the models [79, 80]. To com-
+pound matters, there are in general degeneracies in the parameters which make it difficult
+to determine abundances at high accuracy. However, recently calculated 4 He emissivities
+[86] and the addition of a near infra-red line [85] have led to significant improvements in the
+4
+    He abundance determinations [87, 88].
+     The near infra-red line helps break some of the degeneracies in the parameters used to
+derive the 4 He abundance. In particular, its dependence on density and temperature differs
+from other observed He lines. There are 16 objects satisfying χ2 <
+                                                                 ∼ 6 [88] (roughly 2 σ
+for two degrees of freedom). It was found [88] that the inclusion of this line, reduced not
+only the uncertainty in the abundance determinations of individual objects, but also the
+primordial abundance
+
+                           Yp = 0.2449 ± 0.0040 + (78.9 ± 43.3)O/H                          (4)
+
+inferred from a regression of the data to zero metallicity [89] with respect to oxygen (in units
+of 10−5 ). We use this value for Yp in our analysis below.
+     Recently there have complimentary analyses of 4 He. In [90], a select number of objects (5)
+were used and the slope of ∆Y /∆O = 33±7 was assumed. They found Yp = 0.2446±0.0029,
+where presumably the smaller uncertainty is related to the smaller uncertainty assumed in
+∆Y /∆O. Recent analysis [91] using SDSS-III data and performing regressions against O/H,
+N/H and S/H found Yp = 0.245±0.007. It is encouraging that all three of these independent
+analyses agree well within the limits of their uncertainties.
+
+                                              12
+     B.   Deuterium
+
+
+     It is well known that because of its steep dependence on the baryon density, the deuterium
+abundance is an excellent baryometer. Furthermore, since there are no known significant
+astrophysical sources for deuterium production [92], it is safe to assume that all observed deu-
+terium is of primordial origin. While deuterium can be destroyed through galactic chemical
+evolution, determinations of D/H at high redshift help ensure that the observed abundance
+is close to primordial, particularly since most chemical evolution models indicate very little
+evolution of D/H at early times [93, 94].
+     There has been quite a lot of progress in D/H observations of quasar absorption systems.
+In CFOY, the adopted D/H value was based on 5 high quality observations yielding (DH)p =
+(2.53 ± 0.04) × 10−5 [95]. This result was derived from a 2012 observation of an absorber at
+z = 3.05 [96], along with a subsequent new observation of an absorber at z = 2.54, and a
+reanalysis of a selection of three other objects from the literature (chosen using a strict set
+of restrictions to be able to argue for the desired accuracy) [95]. The relative uncertainties
+in D/H for these systems are (2.1,2.8,4.1,6.0,6.0)% (in order of increasing uncertainty).
+Measurements with 2% uncertainties are clearly remarkable.
+     The last several years have seen several new D/H determinations. These include a re-
+measurement of a high redshift system at z = 3.36 [9], though with a larger uncertainty of
+11%). We include another system with relatively large uncertainty [10] of 15%. A very low
+metallicity system (O/H = .0016 times the solar value) with a 2.8% D/H determination was
+made available in 2016 [11]. From 2017, we include three new observations; a very precise
+measurement (1.8%) in a z = 3.57 absorber [12], another 15% measurement [13] and a 3.4%
+measurement [14]. The weighted mean of these 11 measurements gives
+
+                                         D
+                                            
+                                                     = (2.55 ± 0.03) × 10−5                             (5)
+                                         H       p
+
+
+Amazingly, this is very similar to the value adopted by CFOY with more than twice as many
+measurements. The variance in these measurements is also remarkably small, 0.18 × 10−5 4 .
+
+
+4
+    The small, yet nonzero variance, does lead to a slight scaling of the uncertainty in (5). The unscaled
+
+    uncertainty is 0.025 compared with the scaled uncertainty of 0.027 which we have rounded to 0.03.
+
+
+                                                          13
+     C.   Lithium
+
+
+     The lithium observational situation has changed little in recent years. Milky Way halo
+stars are low metallicity sites for which lithium abundances are available. Stellar spectra
+show the neutral lithium doublet at 6708Å, but most of the Li atoms are singly ionized.
+Thus, to find the star’s present Li/H abundance requires most importantly a model of the
+thermodynamic state of the atmosphere, with results sensitive to the method of inferring
+the temperature, and to assumption of local thermodynamic equilibrium (LTE) [97, 98].
+
+     Moreover, the possibility of stellar destruction of Li means that the observations may
+not reflect the initial abundance. Selection of candidates in the Spite plateau region of high
+stellar temperatures [99] selects stars with thin outer convective zones where destruction
+should be minimal. For the > 100 such stars found at metallicities5 −2.7 <
+                                                                         ∼ [Fe/H] <
+                                                                                  ∼ −1.5,
+the Li/H abundance is uniform with small scatter [100], consistent with expectations for a
+primordial abundance, at a level [101, 102]
+
+
+                                         Li
+                                             
+                                                      = (1.6 ± 0.3) × 10−10 .             (6)
+                                         H        p
+
+
+
+As we will see in detail below, a primordial Li abundance as in (6) is far below the
+CMB+BBN prediction; this is the well-known ‘lithium problem’ [34, 103].
+
+     However, at [Fe/H] <
+                        ∼ −2.7, the Li/H abundances develop a large scatter that seems to
+increase towards decreasing metallicity [102]. The reasons for this ‘meltdown’ are unclear,
+but apparently some Spite plateau stars do destroy their lithium. Whether this resolves the
+lithium problem hinges on the underlying reason for the low-metallicity Li meltdown, and
+whether the same physics–whatever that may be–is also at play in stars not in the meltdown
+metallicity regime. Also, even in the low-metallicity ’meltdown’ region of high dispersion,
+the Li/H abundances do not significantly exceed the plateau value in Eq. (6). Indeed, just
+recently lithium was found in an ultra-metal-poor star which is carbon-enhanced but with
+iron unmeasurable and limited to [Fe/H] < −6.1. In this remarkable object, lithium is found
+at Li/H = (1.05 ± 0.19) × 10−10 , below but within 2σ of the plateau [15].
+
+
+5
+    Where [Fe/H] ≡ log10 [(Fe/H)obs /(Fe/H) ]
+
+
+                                                           14
+   D.   The Cosmic Microwave Background
+
+
+   The CMB provides an image of the universe at recombination. The relevant causal
+                                                                   R
+region at that epoch is the comoving sound horizon rs =                cs dt/a, which corresponds to
+angular scales θs ∼ 1◦ , and multipoles ` ∼ 200. Prior to recombination and on scales
+< rs , gravity potential wells arising from density perturbations drove motions in the cosmic
+baryon/photon plasma. Radiation pressure countered these flows, leading to (acoustic)
+oscillations that continued until photon decoupling. Thus, small-scale CMB temperature and
+polarization anisotropies at angular scales <
+                                            ∼ θs record the acoustic oscillations at the time
+of decoupling, with different modes in different phases. The anisotropy power spectrum thus
+famously encodes a wealth of information about the nature of the cosmos at recombination;
+for excellent reviews see [104].
+   CMB anisotropy observations have achieved exquisite precision in both temperature and
+polarization anisotropies across a wide range of angular scales. This allows measurement
+of many cosmic parameters, now including three that directly probe BBN: (1) the baryon
+density ωb = Ωb h2 , (2) the helium abundance Yp , and (3) the number of neutrino species
+Nν .
+   Hou et al. [105] elegantly lay out the influence of these parameters in the CMB power
+spectrum, which we summarize briefly here. The baryon density parameter ωb has always
+been one of the most robust and best-determined CMB outputs: it controls the relative
+amplitudes of the alternating odd and even peaks, which correspond to modes undergoing
+maximal compression and rarefactions at the time of recombination. More recently, CMB
+measurements have resolved small angular scales where the fluctuations are suppressed by
+Silk damping – photon diffusion that smears the surface of last scattering [106]. The asso-
+                                                 √
+ciated damping scale is the diffusion length rd ∼ Dt, where t ∼ 1/H and the diffusion
+coefficient is set by the Thompson scattering mean free path D ∼ λmfp = c/ne σT . The
+number density of free electrons, ne , excludes those that have already recombined to He,
+                                                       q
+and thus ne ∼ (1 − Yp )ωb . Thus we have rd ∼ 1/ (1 − Yp )ωb H.
+   CMB observations pin down the ratio of sound horizon to damping scales:
+                                   s
+                                                                   1/2
+                           rs          (1 − Yp )ωb      (1 − Yp )ωb
+                              ∝                    ∝                                             (7)
+                           rd              H         (1 − Nν ρ1ν /ργ )1/4
+
+where ρ1ν is the energy density in a single light ν ν̄ species. With the ratio in Eq. (7) fixed by
+
+                                                 15
+CMB data, we anticipate positive (ωb , Yp ) and (ωb , Nν ) correlations, and a negative (Yp , Nν )
+correlation. These expectations are borne out in the results below.
+    In the Planck analysis, cosmic parameters are largely fixed by CMB data, where con-
+straints come from both temperature (T) and polarization (E-mode) anisotropy measure-
+ments, in the form of TT, EE, and TE power spectra. One may choose to add constraints
+such as large scale structure observations and measures of the cosmic expansion rate and its
+history. The Planck analysis presents a number of these possibilities, and we will explore
+the effect on our analysis of adding different non-CMB constraints. Our baseline case will
+be the Plik_TTTEEE_lowE_lensing analysis, which gives the Markov chains representing
+the likelihood that combines all of TT, TE, EE, low-` reionization constraints, and CMB
+lensing 6 . This is also the fiducial case in the Planck cosmological parameter study [4], and
+similar to the one used in our previous analysis [2].
+    We will present Planck final CMB results for their two sets of analyses in which results
+were found independently of BBN, i.e., without using BBN theory to relate (ωb , Yp , Neff ).
+This allows us to test the CMB consistency with BBN. The Planck chains denoted base_yhe
+represent the likelihoods in (ωb , Yp ) space while fixing Nν = 3. Converting the baryon density
+ωb to the baryon-to-photon ratio, η, we denote this likelihood as LCMB (η, Yp ) which is well-
+represented by a 2D correlated Gaussian distribution. The are however small perturbations
+from a Gaussian and these are expanded by Hermite polynomials. For a more detailed
+description of the likelihood functions we use, see the Appendix in CFOY. We then relax this
+and allow Nν to vary, giving the base_nnu_yhe analyses. The three dimensional likelihood
+is denoted as LNCMB (η, Yp , Nν ).
+    The mean and standard deviation for our baseline case with Nν = 3 gives
+
+                                ωbCMB = 0.022298 ± 0.000214                                   (8)
+                                η CMB = (6.104 ± 0.058) × 10−10                               (9)
+
+                                     Yp = 0.239 ± 0.013                                      (10)
+
+Note that here and throughout, we determine the mean of η and convert between η and
+ωb using the relations presented in Appendix A. The same Appendix discusses the small
+distinction between the 4 He baryon or nucleon fraction and mass fraction. Planck results
+
+6
+    http://pla.esac.esa.int/pla/#cosmology
+
+
+                                               16
+present both mass and baryon fractions (their YP and YPBBN respectively); here and through-
+out we quote baryon fractions. For comparison, the Planck 2015 results used in CFOY gave
+ωb = 0.022305 ± 0.000225 and Yp = 0.2500 ± 0.0137.
+     Allowing Nν to vary, our baseline case gives mean and standard deviations of
+
+                                      ωbCMB = 0.022248 ± 0.000220                                          (11)
+                                      η CMB = (6.090 ± 0.060) × 10−10                                      (12)
+
+                                    Yp,CMB = 0.246 ± 0.019                                                 (13)
+                                        Neff = 2.859 ± 0.314                                               (14)
+
+Planck 2015 resulted in ωb = 0.022212 ± 0.00024, Yp = 0.2612 ± 0.0181, and Neff = 2.754 ±
+0.306. Below we will illustrate the degree to which these parameters are correlated.7
+     While Planck is the culmination of a series of remarkably successful space missions, future
+ground-based experiments are envisioned as “stage four” of CMB science. CMB-S4 promises
+improved BBN parameters, particularly Yp and Nν . As shown in ref. [107, 108], the mis-
+sion sky coverage particularly, and also beam size, will determine the precision of these
+parameters; forecasts span the ranges σ(Yp ) ≈ 0.0075 − 0.0040, and σ(Neff ) ≈ 0.06 − 0.13.
+Indeed, accurate measurement of Neff is a science driver for CMB-S4, with σ(Neff ) = 0.030
+the target sensitivity. If this can be realized, then CMB-S4 should be able to resolve the
+Neff − 3 = 0.045 contribution from neutrino heating in the Standard Model. In §VI below
+we will consider the implications of these for BBN.
+
+
+IV.     THE LIKELIHOOD ANALYSIS AND MONTE-CARLO PREDICTIONS FOR
+THE LIGHT ELEMENT ABUNDANCES
+
+
+     Over the last several decades, SBBN has evolved from a 2-parameter theory to essen-
+tially a parameter-free theory. The baryon density is now well defined with the statistically
+determined uncertainty. The neutron mean-life, despite current discrepancies, is quite well
+determined. As a result, uncertainties in input BBN reactions play a non-trivial role in
+determining the uncertainties in the light element abundances and Monte-Carlo techniques
+7
+    Note that the values we quote here are using our Hermite polynomial fits to the Planck chains. The
+
+    resulting means and standard deviations can differ from those directly from the chains by less than one
+
+    tenth of a percent in 2D fits. In our 3D fits, the differences in η are also within 0.1%, and within 1/2%
+
+    for Yp and Nν . The closeness of the values shows that our fits are excellent representations of the chains.
+                                                      17
+[109–112] have proven very useful and are now commonplace. Our procedure for construct-
+ing likelihood functions was discussed in detail in CFOY [2] and here we simply review the
+necessary ingredients.
+   We begin by computing the light element abundances and their uncertainties as a function
+of the baryon density. In the next section, these likelihoods will be convolved with Planck
+chains and will allow more direct comparisons to observational data.
+   We assume that each of the nuclear rates in our network have a lognormal distributed
+uncertainty and we randomly draw rates from those distributions for each value of η (or
+(η, Nν ) when we allow the number of degrees of freedom to vary from the Standard Model
+value). For each input, the BBN code is run 10000 times establishing a mean value and
+uncertainty for each of the light element abundances. We will denote the BBN likelihood
+functions as LBBN (η; X) for X ∈ (Yp , D/H, 3 He/H, 7 Li/H), and LNBBN (η, Nν ; X) when Nν is
+allowed to vary.
+   For Nν = 3 the baryon-to-photon ratio is the only free parameter. Our Monte Carlo
+error propagation is summarized in Figure 2, which plots the light element abundances as
+a function of the baryon density (upper scale) and η (lower scale). In the left panel, the
+abundance for He is shown as the mass fraction Y , while the abundances of D, 3 He, and 7 Li
+are shown as abundances by number relative to H. The line through each colored band is
+our mean value as a function of η.
+
+
+
+
+   The thickness of each curve depicts the ±1σ spread in the predicted abundances. The
+relative uncertainty, (the thickness of the curves, relative to the central value) is shown more
+clearly in Figure 3. As one can see, the 7 Li abundance remains the most uncertain, with
+a relative uncertainty of approximately 15%. The uncertainty in the deuterium abundance
+ranges from 3.5-6.5%, while the calculated uncertainty in 4 He is only 0.1% (note that it is
+amplified by a factor of 10 in the figure for clarity).
+   The neutron mean-life of τn = 879.4±0.6 s from Eq. (3) was used here. The uncertainty of
+0.6 s is one of the dominant sources of uncertainty in the final 4 He abundance (the thickness
+of the 4 He band). Had we used the previous value of 880.3 s, the central line would shift
+upwards by about the thickness of the central line as shown.
+
+                                              18
+                                        baryon density Ωbh2
+                                             10−2
+                        0.26
+
+                        0.25
+                Yp      0.24
+
+                        0.23
+                       10−3
+                D/H
+                       10−4
+
+
+                He/H   10−5
+                3
+
+                       10−9
+
+
+                Li/H
+                7
+
+                       10−10
+                         10−10                                 10−9
+                              baryon-to-photon ratio η = nb/nγ
+
+
+FIG. 2. Primordial abundances of the light nuclides as a function of cosmic baryon content, as
+predicted by SBBN (“Schramm plot”). These results assume Nν = 3 and the current measurement
+of the neutron lifetime τn = 879.4 ± 0.6 s. Curve widths show 1σ errors.
+
+   In addition to the dependence on η, τn , and Nν , the light elements are sensitive to key
+nuclear rates. These sensitivities can be quantified as
+                                                            !αn
+                                                Y     pn
+                                    Xi = Xi,0                     ,                         (15)
+                                                 n   pn,0
+where Xi represents either the helium mass fraction or the abundances of the other light
+elements by number. The pn represent input quantities to the BBN calculations, whose
+power-law scaling is the log derivative αi = ∂ ln Xi /∂ ln pi . Below are the scalings with these
+
+                                                19
+                                           baryon density Ωbh2
+                                                10−2
+                  0.200
+
+                  0.175
+
+                  0.150                                    σ7 Li
+                                                           7 Li
+
+                  0.125
+
+                  0.100
+                                                           σ3 He
+                                                           3 He
+                  0.075
+                                                           σD
+                  0.050                                    D
+
+
+                  0.025                                   σ
+                                                10 × YYpp
+                  0.000 −10
+                     10                                                                        10−9
+                              baryon-to-photon ratio η = nb/nγ
+
+FIG. 3. Fractional uncertainties in the light element abundance predictions shown in Fig. 2. For
+each species i, we plot ratio of the standard deviation σi to the mean µi , as a function of baryon-
+to-photon ratio. The relative uncertainty of the 4 He abundance has been multiplied by a factor of
+10.
+
+inputs, as defined in detail in CFOY. Here, and below, we define η10 ≡ 1010 η.
+                                          0.039         0.163            !0.357            0.729
+                                η10                 Nν               GN                 τn
+                                
+                  Yp = 0.24696
+                               6.129                3.0              GN,0             879.4s
+                                                          0.006
+                     × [p(n, γ)d]0.005 [d(d, n)3 He]              [d(d, p)t]0.005                           (16)
+
+                                               −1.597         0.396          !0.952            0.409
+                D               η10                       Nν             GN                 τn
+                                    
+                  = 2.559×10−5
+                H              6.129                      3.0            GN,0             879.4s
+                                                      −0.529
+                  × [p(n, γ)d]−0.193 [d(d, n)3 He]                [d(d, p)t]−0.470
+                                    −0.315 3               0.023 3                    −0.012
+                  × [d(p, γ)3 He]         [ He(n, p)t]             [ He(d, p)4 He]                          (17)
+
+                                                          0.139            !0.335
+         3                               −0.583                                              0.144
+             He               η10                   Nν               GN                 τn
+                              
+                = 9.965×10−6
+             H               6.129                  3.0              GN,0             879.4s
+
+                                                     20
+                                                     0.213
+               × [p(n, γ)d]0.087 [d(d, n)3 He]               [d(d, p)t]−0.265
+                                 0.376 3               −0.169 3                    −0.763                     −0.009
+               × [d(p, γ)3 He]         [ He(n, p)t]               [ He(d, p)4 He]           [t(d, n)4 He]                 (18)
+
+
+                                                           −0.280            !−0.719
+         7                                 2.094                                                 0.434
+         Li                η10                       Nν              GN                    τn
+                               
+            = 4.702×10−10
+         H                6.129                      3.0             GN,0                879.4s
+                                                0.696
+             × [p(n, γ)d]1.323 [d(d, n)3 He]            [d(d, p)t]0.064
+                            0.589 3                  −0.267 3                    −0.754                     −0.023
+             × [d(p, γ)3 He]        [ He(n, p)t]                [ He(d, p)4 He]           [t(d, n)4 He]
+                                   0.964 7                   −0.707 7                    −0.055                   0.029
+             × [3 He(α, γ)7 Be]         [ Be(n, p)7 Li]              [ Li(p, α)4 He]              [t(α, γ)7 Li]
+                                   −0.001 7                          −0.008
+             × [7 Be(n, α)4 He]            [ Be(d, p)4 He4 He]                                                            (19)
+
+These sensitivities are summarized as well in Table II. The differences in these sensitivities
+compared with CFOY are minor.
+     We have also tested the effect of certain rates on our baseline results. These are given
+in the appendices. In Appendix B, we consider various measurements of the 7 Be(n, p)7 Li
+rate, and in Appendix C, we show the effect of the new 7 Be(n, α)4 He and 7 Be(d, p)4 He
+measurements. The sensitivities to these two destruction rates have been included in Table
+II. The low sensitivity in both cases foreshadows our conclusion that these rates indeed are
+quite subdominant. In Appendix D we use the theory-based rate for d(p, γ)3 He.
+
+
+
+V.     PLANCK LIKELIHOOD FUNCTIONS
+
+
+     As we indicated above, we begin the Planck likelihood chains which are based on tem-
+perature and polarization data, TT+TE+EE+lowE, as well as CMB lensing. We use the
+chains which do not assume any BBN relation between the helium abundance and baryon
+density, and we consider separately the case where Nν = 3 is fixed, and left free. We will in
+addition compare these baseline results to other choices of CMB chains where we drop the
+inclusion of lensing, and where in addition to lensing we include data from baryon acoustic
+oscillations (BAO). To further test the robustness of our results, we also consider Planck
+chains based on TT+lowE, TE+lowE, and EE+lowE.
+     We are now in a position to combine the various likelihood functions described in
+the previous sections.         These include the CMB likelihood functions, LCMB (η, Yp ) and
+LNCMB (η, Yp , Nν ) described in §III D, the BBN likelihood functions LBBN (η; X) and LNBBN (η, Nν ; X)
+
+                                                           21
+TABLE II. Summary of the sensitivities, αn ’s defined in Eq. (15) for each of the light element
+abundance predictions, varied with respect to key parameters and reaction rates, and run for
+η10 = 6.129.
+                          Variant           Yp    D/H 3 He/H 7 Li/H
+
+                          η (6.129×10−10 ) 0.039 -1.597 -0.583 2.094
+
+                          Nν (3.0)         0.163 0.396 0.139 -0.280
+
+                          GN               0.357 0.952 0.335 -0.719
+
+                          n-decay          0.729 0.409 0.144 0.434
+
+                          p(n,γ)d          0.005 -0.193 0.087 1.323
+                          3 He(n,p)t       0.000 0.023 -0.169 -0.267
+                          7 Be(n,p)7 Li    0.000 0.000 0.000 -0.707
+
+                          d(p,γ)3 He       0.000 -0.315 0.376 0.589
+
+                          d(d,γ)4 He       0.000 0.000 0.000 0.000
+                          7 Li(p,α)4 He    0.000 0.000 0.000 -0.055
+
+                          t(α, γ)7 Li      0.000 0.000 0.000 0.029
+                          3 He(α, γ)7 Be   0.000 0.000 0.000 0.964
+
+                          d(d,n)3 He       0.006 -0.529 0.213 0.696
+
+                          d(d,p)t          0.005 -0.470 -0.265 0.064
+
+                          t(d,n)4 He       0.000 0.000 -0.009 -0.023
+                          3 He(d,p)4 He    0.000 -0.012 -0.763 -0.754
+                          7 Be(n,α)4 He    0.000 0.000 0.000 -0.001
+                          7 Be(d,p)α α     0.000 0.000 0.000 -0.008
+
+
+described in §IV, as well as the observational likelihoods LOBS (X) which are assumed to be
+Gaussians based on Eq. (4) and (5) for X ∈ (Yp , D/H).
+
+
+   A.   2D Fits: BBN with CMB-Determined Baryon and Helium Abundances
+
+
+   We first consider models fixing Nν = 3. In this case standard BBN is a one-parameter
+theory, depending only on the cosmic baryon density. Moreover, in the conventional cosmol-
+ogy, η and Yp do not change between nucleosynthesis and recombination, so we may combine
+
+                                             22
+the information from these epochs. The various likelihood functions can be convolved in a
+number of different ways. For element abundance determinations, we can compare the obser-
+vational likelihood LOBS (X) with the following convolution of the CMB and BBN likelihood
+functions
+                                        Z
+                     LCMB−BBN (Xi ) ∝       LCMB (η, Yp ) LBBN (η; Xi ) dη ,             (20)
+
+where we normalize each of the likelihood functions so that their peak takes the common
+value of 1. Thus we arrive at zero-parameter predictions of abundances for all of the light
+nuclides. In the case of 4 He, we can also marginalize over η to obtain a CMB-only likelihood
+function
+                                             Z
+                              LCMB (Yp ) ∝       LCMB (η, Yp ) dη .                      (21)
+
+   Figure 4 shows the comparison of these likelihood functions for (a) Yp (upper left), (b)
+D/H (upper right), (c) 3 He/H (lower left), and (d) 7 Li/H (lower right). In the case of 4 He,
+we show all three likelihood functions. The combined CMB-BBN likelihood from Eq. (20),
+LCMB−BBN (Y ), is shaded purple. The observational likelihood, LOBS (Y ) from Eq. (4) is
+shaded yellow. The CMB-only likelihood, LCMB (Yp ), is shaded cyan. The largest change in
+these results from Planck 2015 is seen in the CMB-only result for YP which shifted down from
+0.250 to 0.239 with a slightly lower uncertainty of 0.013 compared with 0.14 in 2015. Given
+the uncertainties in these likelihood distributions, as seen by the width of the likelihoods,
+all three are in good agreement.
+
+
+
+
+   In the cases of D/H and 7 Li/H, we are able to compare the observational likelihoods
+(shaded yellow) with the combined CMB-BBN likelihoods (shaded purple). One can see the
+excellent agreement between the observational value of D/H (in Eq. (5)) and the CMB-
+BBN predicted value. In contrast, the is a clear mismatch between the observational and
+CMB-BBN likelihoods for 7 Li.
+   There continue to be two directions of inquiry suggested by the remarkable contrast
+between the excellent concordance for D and 4 He observations, and the longstanding lithium
+problem [34]. One approach is to assume the lithium problem points to new physics at
+play in the early Universe, pushing us beyond the standard cosmology and standard BBN.
+The other approach to assume the lithium problem will find its solution in observational
+
+                                              23
+                                 P lanck baseline (Nν = 3) + BBN
+                       1.0       (a)                                                             (b)
+                       0.8
+
+
+
+          Likelihood
+                       0.6
+
+                       0.4
+
+                       0.2
+
+                       0.0
+                         0.23          0.24   0.25        0.26    0       1      2       3       4       5
+                                              Yp                               105 × D/H
+                       1.0       (c)                                                             (d)
+                       0.8
+
+
+
+          Likelihood
+                       0.6
+
+                       0.4
+
+                       0.2
+
+                       0.0
+                             7     8      9   10     11     12        1   2      3   4       5       6   7
+                                        106 × 3 He/H                          1010 × 7 Li/H
+
+FIG. 4. Light element abundance likelihood functions. Shown are likelihoods for each of the light
+nuclides, normalized to show a maximum value of 1. The solid-lined, dark-shaded (purple) curves
+are the BBN+CMB predictions, based on Planck inputs as discussed in the text. The dashed-
+lined, light-shaded (yellow) curves show astronomical measurements of the primordial abundances,
+for all but 3 He where reliable primordial abundance measures do not exist. For 4 He, the dotted-
+lined, medium-shaded (cyan) curve shows the independent CMB determination of 4 He. We see
+excellent agreement for D/H, good agreement for 4 He, and strong discrepancy in 7 Li constitutes
+the persistent lithium problem.
+
+
+
+or astrophysical systematics. For example, internal stellar depletion may be important,
+making the observations of stellar Li non-representative of their initial and near primordial
+abundance. In this scenario we retain the standard cosmology, ignore the lithium data, and
+concentrate on 4 He and D/H to probe the cosmic baryon density.
+
+                                                             24
+   Finally, we show only the CMB-BBN likelihood for 3 He, because of the lack of a reliable
+method of extracting a primordial abundance from existing 3 He observational data.
+   The CMB-BBN likelihoods in Fig. 4 are summarized by the predicted abundances
+
+                               Yp = 0.24691 ± 0.00018          (0.24691)                    (22)
+
+                            D/H = (2.57 ± 0.13) × 10−5            (2.57 × 10−5 )            (23)
+                        3
+                            He/H = (10.03 ± 0.90) × 10−6           (10.03 × 10−6 )          (24)
+                        7
+                            Li/H = (4.72 ± 0.72) × 10−10           (4.71 × 10−10 )          (25)
+
+where the central values give the mean, and the error gives the 1σ variance. The final
+number in parentheses gives the value at the peak of the distribution.
+   We compare our results to previous results in CFOY [2] and ref. [36] in Table III.
+The values in Eqs. (22)-(25) differ slightly from those given in Table III as the latter were
+evaluated using central values of all inputs at a single value of η10 = 6.129.
+
+                                TABLE III. Comparison of BBN Results
+                             η10 Nν     Yp         D/H            3 He/H           7 Li/H
+
+
+             Ref. [2]        6.10   3 0.2470 2.579 × 10−5 0.9996 × 10−5 4.648× 10−10
+
+             Ref. [36] 6.091 3 0.2471 2.459 × 10−5 1.074 × 10−5 5.624× 10−10
+
+             this work 6.129 3 0.2470 2.559 × 10−5 0.9965 × 10−5 4.702× 10−10
+
+
+   There are additional ways of integrating over our various likelihood functions. We can
+for example, simply marginalize the CMB likelihood function over YP to obtain a CMB-only
+likelihood function of η
+                                                  Z
+                                    LCMB (η) ∝        LCMB (η, Yp ) dYp .                   (26)
+
+This is plotted in Fig. 5 as the red dot-dashed curve. Its mean and standard deviation are
+given in Table IV. Also given in Table IV is the position of the peak of the distribution. Its
+difference from the mean value is a measure of the mode skewness of the distribution. It is
+always very small.
+   The likelihood function LCMB (η) uses no information from BBN. In particular it does not
+use the BBN relation between η and Yp . This relation can be folded in by computing
+                                             Z
+                        LCMB−BBN (η) ∝           LCMB (η, Yp ) LBBN (η; Yp ) dYp ,          (27)
+
+                                                      25
+                                                      Nν = 3.0
+                          1.0
+
+
+
+                          0.8
+
+                                                                                 BBN + Yp
+
+
+
+             Likelihood
+                          0.6                                                    BBN + D
+                                                                                 BBN + CMB
+                          0.4
+                                                                                 BBN + CMB + D
+                                                                                 CMB − only
+
+                          0.2
+
+
+
+                          0.0
+                             5.5              6.0                        6.5                  7.0
+                                    Baryon-to-photon ratio η10 = nb/nγ × 1010
+
+
+FIG. 5. Baryon-to-photon ratio determinations for different combinations of light element and
+CMB data. We show BBN-only predictions based on D (dotted purple) and Yp (dashed magenta),
+and CMB-only predictions in dot-dashed red. BBN+CMB (green dot-long dashed) uses the Planck
+Yp data, while the tightest combined constraints, BBN+CMB+D (solid orange) further include the
+observed D/H.
+
+
+TABLE IV. Constraints on the baryon-to-photon ratio, using different combinations of observa-
+tional constraints. We have marginalized over Yp to create 1D η likelihood distributions. Given
+are both the mean (and its uncertainty) as well as the value of η at the peak of the distribution.
+
+
+                                   Constraints Used        mean η10      peak η10
+
+                                   CMB-only            6.104 ± 0.058           6.104
+
+                                   BBN+Yp                  6.741+1.220
+                                                                −3.524         4.920
+
+                                   BBN+D               6.148 ± 0.191           6.145
+
+                                   BBN+Yp +D           6.143 ± 0.190           6.140
+
+                                   CMB+BBN             6.128 ± 0.040           6.128
+
+                                   CMB+BBN+Yp          6.128 ± 0.040           6.128
+
+                                   CMB+BBN+D           6.129 ± 0.039           6.129
+
+                                   CMB+BBN+Yp +D 6.129 ± 0.039                 6.129
+
+
+
+
+                                                      26
+which is shown in Fig. 5 by the green dot-long dashed curve.
+   As is well known and seen in Fig. 2, there is a weak dependence of Yp on η. As a result,
+though one can form a likelihood function from BBN and Yp alone,
+                                           Z
+                          LBBN−OBS (η) ∝       LBBN (η; Xi ) LOBS (Xi ) dXi ,               (28)
+
+with Xi = Yp , it is not very instructive. It is shown in Fig. 5 by the very broad magenta
+dashed curve. In contrast, D/H is a very good baryometer, and substituting Xi = D/H in
+Eq. (28) yields the purple dotted curve in Fig. 5. Finally, we can convolve all three primary
+likelihood functions as
+                                    Z                                           Y
+             LCMB−BBN−OBS (η) ∝         LCMB (η, Yp )LBBN (η; Xi ) LOBS (Xi )       dXi ,   (29)
+                                                                                i
+
+which is shown as the solid orange curve in Fig. 5. With the exception of LBBN−OBS (η)
+using Yp , which carries little information, all of the likelihoods are remarkably consistent
+which is another reflection of the agreement between the BBN prediction of D/H at the
+CMB-determined value of η and the observationally-determined value of D/H. The mean,
+standard deviations, and peaks of all of these likelihood functions are summarized in Table
+IV.
+   As one can see from Table IV, the BBN + D likelihood gives η10 ≃ 6.15 and is slightly
+lower than that found in CFOY (η10 ≃ 6.18). This is primarily due to the very slight shift
+in the observational value of D/H used. With all other factors fixed the change in η can be
+estimated from the sensitivities discussed earlier and we expect δ(D/H)/(D/H) ≃ −1.6 δη/η.
+In contrast, all of the CMB+BBN determinations of η10 are increased from ≃ 6.10 (in 2015)
+to roughly 6.13 presently. This tendency can be understood using Fig. 6 which shows
+contours of the 2-D likelihood LCMB (η, Yp ) for fixed Nν = 3. Also shown is the BBN relation
+for Yp (η) which appears as a nearly horizontal line over this range in η. Thus small changes in
+η barely affect the peak of the likelihood function (shaded purple) in Fig. 4. In contrast, the
+CMB contours show a significantly stronger and positive correlation between the CMB-only
+determined baryon density and helium abundance. Now, as noted above, one of the more
+noticeable changes between Planck 2015 and 2018 was the CMB-only determination of Yp .
+Using Planck 2015, the peak of the CMB-only distribution of Yp was high compared to the
+observational peak and as a result η was found to be lower when BBN was included (relative
+to the CMB-only value of η). Currently, as one sees in Fig. 4, the CMB-only distribution
+
+                                                 27
+for Yp sits below the observational value and as a result requires a higher value of η when
+the distributions are convolved. This is precisely what we find. Our final combined value
+for the baryon-to-photon ratio, is therefore
+
+                  η = (6.129 ± 0.039) × 10−10 ,      ωb = 0.02239 ± 0.00014 .             (30)
+
+
+
+
+                  0.30
+                           —– 68.27%
+                           —– 95.45%
+                           —– 99.73%
+                  0.25
+             Yp
+
+
+
+
+                  0.20
+
+
+
+                       5.8         6.0           6.2         6.4
+                       Baryon-to-photon ratio η10 = nb/nγ × 1010
+
+FIG. 6. The 2D likelihood function contours derived LCMB (η, Yp ). The 3-σ BBN prediction for
+the helium mass fraction is shown by the nearly horizontal colored band.
+
+
+
+
+   We can also plot the 2d CMB likelihood function, LCMB (η, Yp ) showing instead of η, the
+BBN value of Yp at that value of η. This is shown in Fig. 7. That is, we use the peak of
+LBBN (η, Xi ) to convert η to YpBBN . The solid line shows the equality between the two values
+of Yp appears nearly horizontal because of the very different scales used on each axis.
+
+
+
+
+                                               28
+                     0.30
+
+                     0.28
+
+                     0.26
+
+             YpCMB   0.24
+
+                     0.22
+                                                                   equality
+                     0.20
+
+                     0.18
+                       0.2464 0.2466 0.2468 0.2470 0.2472 0.2474
+                                      YpBBN(η CMB)
+
+FIG. 7. An assessment of the status of 4 He. The points compare the primordial 4 He abundance
+directly from the CMB damping tail Ycmb , with 4 He as calculated from the CMB η and BBN
+theory: Ybbn (ηcmb ). Note that the vertical BBN scale is much tighter than the horizontal CMB
+scale. The solid line gives the expected Ycmb = Ybbn (ηcmb ) trend, which appears almost horizontal
+within these very different axis scales.
+
+
+   B.   3D fits: Variable Nν
+
+
+   We turn now to the set of likelihood functions for NBBN, i.e., with Nν allowed to remain
+free. We again combine BBN and CMB information, which implies that all of (η, Yp , Nν ) are
+the same at these two epochs. We start by updating the Schramm plot in Fig. 8 showing
+the light element abundances as a function of η. This figure is actually still based on the
+2d likelihood function LBBN (η; Xi ) for different fixed inputs of Nν = 2, 3, and 4. As is well
+known, increasing the number of neutrino flavors leads to an increase in the expansion rate
+of the Universe. As a result, the weak interactions freeze-out at a higher temperature, Tf ,
+and more neutrons are present when BBN begins yielding a higher value for Yp [113]. Given
+an upper bound on Yp together with a lower bound on η [18], one can establish an upper
+bound to the number of neutrinos [114, 115]. The increase of the helium mass fraction with
+Nν can clearly be seen in this figure.
+
+
+
+
+                                               29
+                                        baryon density Ωbh2
+                                             10−2
+                      0.26
+
+                      0.25
+             Yp       0.24
+
+                      0.23
+                     10−3
+              D/H
+                     10−4
+
+
+              He/H   10−5
+              3
+
+                     10−9
+
+
+              Li/H
+              7
+
+                     10−10
+                       10−10                                 10−9
+                            baryon-to-photon ratio η = nb/nγ
+
+
+FIG. 8. The sensitivity of the light element predictions to the number of neutrino species, similar
+to Figure 2. Here, abundances shown by blue, green, and red bands correspond to calculated
+abundances assuming Nν = 2, 3 and 4 respectively.
+
+
+   As one can see in Fig. 8, without a lower bound on η, it is not possible to set a meaningful
+upper limit to Nν , even with a firm upper bound to Yp . Prior to the CMB determination
+of η, a lower bound on η was inferred from observations of of D and 3 He implying Nν < 4
+[116, 117]. More rigorous bounds on Nν became became possible when likelihood techniques
+were introduced [22, 46, 110, 118–121].
+
+                                               30
+   Note that there is a non-negligible dependence of D/H on Nν [22]. This is particularly
+important since the deuterium abundance is measured much more accurately than Yp . As
+we will see, the constraints on Nν will be affected by both Yp and D/H.
+   As in the two-dimensional case, we can form a one-dimensional likelihood function of the
+element abundances using LNCMB and LNBBN in place of LCMB and LBBN as in Eqs. (20)
+and (21). These are shown in Fig. 9. The only noticeable change in the likelihood function
+appears to be LNBBN (Yp ) which is significantly broader than the case when Nν = 3 is held
+fixed. In this case there is an almost perfect overlap between the CMB and BBN likelihoods.
+
+
+                             P lanck baseline (Nν not fixed) + BBN
+                       1.0       (a)                                                             (b)
+                       0.8
+
+
+
+          Likelihood
+                       0.6
+
+                       0.4
+
+                       0.2
+
+                       0.0
+                         0.23          0.24   0.25        0.26    0       1      2       3       4       5
+                                              Yp                               105 × D/H
+                       1.0       (c)                                                             (d)
+                       0.8
+
+
+
+          Likelihood
+                       0.6
+
+                       0.4
+
+                       0.2
+
+                       0.0
+                             7     8      9   10     11     12        1   2      3   4       5       6   7
+                                        106 × 3 He/H                          1010 × 7 Li/H
+
+FIG. 9. As in Fig. 4, the light element predictions using the CMB determination of the cosmic
+baryon density when Nν is not fixed. Note that the observational likelihood (in yellow) for 4 He
+lies almost exactly underneath the CMB-BBN prediction shown in purple.
+
+
+
+
+                                                             31
+   The resulting mean values, their uncertainties (and peak values) when Nν is not held
+fixed are
+
+                            Yp = 0.24465 ± 0.00410            (0.24498)                               (31)
+
+                          D/H = (2.53 ± 0.15) × 10−5             (2.52 × 10−5 )                       (32)
+                     3
+                         He/H = (9.97 ± 0.91) × 10−6             (9.96 × 10−6 )                       (33)
+                      7
+                          Li/H = (4.76 ± 0.74) × 10−10            (4.75 × 10−10 ) .                   (34)
+
+Note that the value for Yp found from the BBN likelihood (31) is almost identical to the
+observational value in Eq. (4) which is why the observational likelihood in Fig. 9 appears
+masked.
+   We can also form a one-dimensional likelihood function of η with one of several combi-
+nations of LNCMB (η, Yp , Nν ), LNBBN (η, Nν ; Xi ), and LOBS (Xi ). For example, by integrating
+over both Yp and Nν , using only CMB data, we have
+                                             Z
+                            LNCMB (η) ∝          LNCMB (η, Yp , Nν ) dYp dNν ,                        (35)
+
+which is shown as the green dashed curved in the right panel of Fig. 10. Similarly, if we fold
+in the relation between η and Yp we have
+                                     Z
+             LNCMB−NBBN (η) ∝             LNCMB (η, Yp , Nν )LNBBN (η, Nν ; Xi ) dYp dNν ,            (36)
+
+which is shown by the purple dotted curve in the right panel of Fig. 10. We can also fold in
+the observations of either 4 He, D/H or both using
+                             Z                                                        Y
+  LNCMB−NBBN−OBS (η) ∝           LNCMB (η, Yp , Nν )LNBBN (η, Nν ; Xi ) LOBS (Xi )          dXi dNν , (37)
+                                                                                       i
+
+which depending on the choice of observations is shown by the short dashed cyan curve
+(using D/H), the red dot-dashed curve (using Yp ) or the pink solid curve (using both) in the
+right panel of Fig. 10. These are collectively shown in the left panel of the same figure by
+the solid green curve labelled CMB+X. If we drop the CMB entirely, we can write
+                                      Z                                    Y
+                LNBBN−OBS (η) ∝           LNBBN (η, Nν ; Xi ) LOBS (Xi )        dXi dNν ,             (38)
+                                                                            i
+
+shown by the red short dashed curve in the left panel of Fig. 10. A comparison of the two
+curves in the left panels shows the strength in determining η using the CMB relative to BBN
+(D/H).
+
+                                                    32
+                     Nν -marginalized                                                 CMB + X
+   1.0                                                           1.0
+                                                                                                   CMB-only
+                                        BBN+Yp +D
+   0.8                                                           0.8                               CMB+BBN
+                                        CMB+X                                                      CMB+BBN+D
+   0.6                                                           0.6
+                                                                                                   CMB+BBN+Yp
+                                                                                                   CMB+BBN+Yp +D
+   0.4                                                           0.4
+
+
+   0.2                                                           0.2
+
+
+   0.0                                                           0.0
+      5.0    5.5       6.0      6.5          7.0           7.5      5.8   5.9   6.0   6.1        6.2     6.3     6.4   6.5
+
+            baryon-to-photon ratio, 1010 × η                               baryon-to-photon ratio, 1010 × η
+
+
+
+FIG. 10. As in Fig. 5, but where Nν is allowed to vary, and results marginalized over it. Right
+panel is a zoom onto the left panel to illustrate the small changes depending on the light element
+data included.
+
+   Similarly, we can form one-dimensional likelihood functions of Nν . For example, using
+the CMB-only likelihood function, we can integrate over η and Yp
+                                                       Z
+                             LNCMB (Nν ) ∝                 LNCMB (η, Nν , Yp )dYp dη ,                                  (39)
+
+which is shown by the blue dashed curve in the left panel of Fig. 11. A slightly narrower
+distribution is found from the BBN convolution with observations
+                                            Z                                          Y
+                   LNBBN−OBS (Nν ) ∝               LNBBN (η, Nν ; Xi ) LOBS (Xi )            dXi dη ,                   (40)
+                                                                                         i
+
+which is shown by the red dot-dashed curve in the left panel of Fig. 11. We can also combine
+the CMB and BBN with or with out observations
+                                Z                                                                      Y
+  LNCMB−NBBN−OBS (Nν ) ∝              LNCMB (η, Nν , Yp )LNBBN (η, Nν ; Xi ) LOBS (Xi )                        dXi dη , (41)
+                                                                                                         i
+
+which are shown by the solid green curves in the left panel and isolated in the right panel
+of Fig. 11. Note that Eq. (41) is somewhat schematic and must be adjusted according to
+which observations (if any) are included in the right panel.
+   It is also instructive to consider two-dimensional likelihood when Nν is free. These are
+shown in Fig. 12 where we consider two convolutions
+                                                   Z                                         Y
+                   LNBBN−OBS (η, Nν ) ∝                LNBBN (η, Nν ; Xi ) LOBS (Xi )            dXi ,                  (42)
+                                                                                             i
+
+and
+                                        Z                                                                Y
+      LNCMB−NBBN−OBS (η, Nν ) ∝             LNCMB (η, Yp )LNBBN (η, Nν ; Xi ) LOBS (Xi )                       dXi .    (43)
+                                                                                                          i
+
+
+                                                            33
+                   η-marginalized                              CMB + BBN + X
+   1.0                                            1.0
+                             BBN + Yp + D                                    no abundance
+   0.8                       CMB − only           0.8                        Yp − only
+                             CMB + BBN + X                                   D − only
+   0.6                                            0.6                        both Yp + D
+
+   0.4                                            0.4
+
+
+   0.2                                            0.2
+
+
+   0.0                                            0.0
+         1   2       3       4      5        6          2       3              4            5
+             Number of Neutrinos, Nν                        Number of Neutrinos, Nν
+
+
+
+                     FIG. 11. One-dimensional likelihood functions of Nν .
+
+
+
+The first of these likelihoods is used to produce the set of dashed curves in each panel of
+Fig. 12, using either 4 He, D/H or both. In each case we show the contours corresponding
+to the 68.27% 95.45% and 99.73% values of the likelihood function. Once again we see that
+when the observations of 4 He are used alone, we get very little information on η (over the
+range shown), but relatively strong limits on Nν . When observations of D/H are used alone,
+we get limits on both η and Nν , though there is a degeneracy and the contours do not close.
+They do close when both YP and D/H are used as seen in the 3rd panel of Fig. 12.
+
+   Using Eq. 43, we obtain the solid contours in Fig. 12, all of which are closed. As one
+can see, each of these give relatively strong constraints on both η and Nν . The mean and
+standard deviation of the two-dimensional likelihoods, L(η, Nν ) are summarized in Table V.
+Also given is the position of the peak of the likelihood.
+
+   Comparing Table V to Table IV, we see that there is a systematic downward shift in η10
+when Nν is allowed to vary. This can be understood from Figs. 8 and 9 where concordance
+is more easily achieved at Nν slightly below 3 and at slightly lower η10 . The Planck CMB
+data alone also prefer a value of Nν slightly below 3, but with 68% and 95% confidence
+level upper limits on Nν − 3 of 0.173 and 0.487. When BBN and CMB and observations are
+combined we find
+
+
+                                       Nν = 2.862 ± 0.153                                   (44)
+
+
+
+giving 68% and 95% confidence level upper limits of Nν − 3 < 0.015 and 0.168 respectively.
+
+                                             34
+                                               Only Yp Obs. Constraints                                                                      Only D Obs. Constraints
+                                           —– 68.27%                                                                                    —– 68.27%
+                                     5     —– 95.45%                                                                              5     —– 95.45%
+                                           —– 99.73%                                   BBN+Yp                                           —– 99.73%
+
+
+
+
+               Neutrino Number, Nν                                                                          Neutrino Number, Nν
+                                                                                       CMB+BBN+Yp
+                                     4                                                                                            4
+
+
+
+                                     3                                                                                            3
+
+
+
+                                     2                                                                                            2
+                                                                                                                                                              BBN+D
+                                                                                                                                                              CMB+BBN+D
+                                     1                                                                                            1
+                                     5.0       5.5     6.0                         6.5          7.0                               5.0       5.5     6.0     6.5      7.0
+                                                                                           10
+                                            baryon-to-photon ratio, 10                          ×η                                       baryon-to-photon ratio, 1010 × η
+
+                                                                                           Both Yp & D Obs. Constraints
+
+                                                                                         —– 68.27%
+                                                                                   5     —– 95.45%
+                                                                                         —– 99.73%
+
+
+
+
+                                                             Neutrino Number, Nν
+                                                                                   4
+
+
+
+                                                                                   3
+
+
+
+                                                                                   2
+                                                                                                                             BBN+Yp+D
+                                                                                                                             CMB+BBN+Yp+D
+
+                                                                                   1
+                                                                                   5.0       5.5      6.0                         6.5       7.0
+                                                                                          baryon-to-photon ratio, 1010 × η
+
+
+
+
+FIG. 12. Likelihood distributions in (Nν , η) space. Smaller solid contours are the (68%, 95%, 99%)
+CL results combining BBN, CMB, light element data. Larger dotted contours are for BBN and
+light element data only. Panels use observed data for: (a) Yp , (b) D/H, and (c) Yp and D/H. We
+see that BBN-only constraints are weak with only one light element, but give bounds on both η
+and Nν when two light elements are used. Adding the CMB considerably tightens both limits.
+
+
+   C.   Other Planck Data Sets
+
+
+   Up to now, we have concentrated on two specific choices of the Planck data chains.
+Namely TTTEEE+lowE+lensing, for both Nν fixed and variable. In this section we compare
+our results with other chains made available by Planck as well as with the 2015 Planck data
+[3].
+   We start by showing the likelihoods as functions of each of the light elements when lensing
+is not included in the CMB likelihood. These results, shown in Fig. 13, are very similar to
+those shown in Fig. 4 when lensing is included. We see only a slight shift in the peak of
+
+                                                                                                      35
+TABLE V. The marginalized most-likely values and central 68.3% confidence limits on the baryon-
+to-photon ratio and effective number of neutrinos, using different combinations of observational
+constraints.
+
+               Constraints Used      mean η10      peak η10     mean Nν       peak Nν
+
+               CMB-only            6.090 ± 0.060    6.090     2.859 ± 0.314    2.793
+
+               BBN+Yp +D           6.084 ± 0.230    6.075     2.878 ± 0.278    2.861
+
+               CMB+BBN             6.087 ± 0.060    6.086     2.862 ± 0.189    2.854
+
+               CMB+BBN+Yp          6.086 ± 0.055    6.085     2.859 ± 0.157    2.854
+
+               CMB+BBN+D           6.087 ± 0.060    6.086     2.865 ± 0.182    2.858
+
+               CMB+BBN+Yp +D 6.086 ± 0.055          6.085     2.862 ± 0.153    2.856
+
+
+the CMB likelihood as a function of Yp . We have also determined the likelihood functions
+when BAO data is added to the CMB chains, but again other than a slight shift in the CMB
+likelihood for 4 He, the results are very similar and not shown here.
+
+
+
+
+   Given these results with no lensing, we can cross correlate the likelihoods for each of the
+light elements. We do this using the CMB MCMC chains directly as input to the BBN
+calculation. For our purposes the tractable cases are where the points in each chain have
+integer weights. This is the case for the analyses involving only Planck data and that do
+not combine other cosmological data such as lensing. Fortunately, we have seen that the
+inclusion of lensing has a tiny effect on our results.
+   Our procedure is to use the chains for the TTTEEE+lowE case (i.e., baseline except for
+no lensing) with fixed Nν = 3 (Neff = 3.045). Each point k in the chain provides a CMB
+(ηk , Yk ) and a weight (wk ). We run the BBN code w times per point, sampling the nuclear
+reaction uncertainties randomly as usual. The resulting set of abundances Xk (ηk ) at each
+point (properly weighted) follows the CMB+BBN likelihood in Eq. (20). Moreover, we can
+examine the results for correlations between the light element predictions including the full
+range of nuclear and cosmological dependences.
+   Our results for light element cross-correlations appear in Fig. 14. In most cases, there is
+in fact little correlation. Some negative correlation between Yp and D/H is seen, as well as
+
+                                             36
+                             P lanck TT,TE,EE+lowE (Nν = 3) + BBN
+                       1.0       (a)                                                             (b)
+                       0.8
+
+
+
+          Likelihood
+                       0.6
+
+                       0.4
+
+                       0.2
+
+                       0.0
+                         0.23          0.24   0.25        0.26    0       1      2       3       4       5
+                                              Yp                               105 × D/H
+                       1.0       (c)                                                             (d)
+                       0.8
+
+
+
+          Likelihood
+                       0.6
+
+                       0.4
+
+                       0.2
+
+                       0.0
+                             7     8      9   10     11     12        1   2      3   4       5       6   7
+                                        106 × 3 He/H                          1010 × 7 Li/H
+
+FIG. 13. As in Fig. 4, the light element predictions using the CMB determination of the cosmic
+baryon density when CMB lensing is not included.
+
+
+between D and 7 Li. There is more evident positive correlation between 3 He and 7 Li. These
+trends have been discussed in [122], and trace back to the underlying abundance dependence
+on the nuclear rates as seen in Eqs. (16)-(19) and Table II. For example, the D–7 Li anti-
+correlation arises largely due to their common dependence on d(p, γ)3 He and d(d, n)3 He,
+which destroy D but produce 3 He that leads to 7 Li through 3 He(α, γ)7 Be.
+
+   Also seen in Fig. 14, is a comparison between the current Planck 2018 results [4] with
+previous Planck 2015 results [3]. Only in the case of 4 He is there any noticeable change in
+the likelihood function.
+
+   Another comparison between the Planck data chains is seen in Fig. 15. Here we compare
+the 2018 likelihoods seen in Fig. 14 for TTTEEE+lowE data, with the likelihoods based on
+
+                                                             37
+                                                                                      Planck2015
+                             1.00
+                                                                                      Planck2018
+                             0.75
+
+
+                Likelihood   0.50
+
+                             0.25
+
+                             0.00
+                               3
+
+
+
+               D/H × 105
+                             2.75
+
+
+                              2.5
+
+
+                             2.25
+
+
+                             1.35
+
+
+
+               He/H × 105
+                              1.2
+
+                             1.05
+
+               3              0.9
+
+                             0.75
+
+
+                              7.5
+
+
+
+                 Li/H × 1010
+                               6
+
+
+                              4.5
+                 7
+
+
+                               3
+
+                              0.2460 0.2465 0.2470 0.2475 0.2480 2.25   2.50   2.75   3.00   0.75 0.90 1.05 1.20 1.35   3.0       4.5   6.0     7.5
+                                              Yp                        D/H × 105                  3
+                                                                                                       He/H × 105             7
+                                                                                                                                  Li/H × 1010
+
+
+
+
+FIG. 14. Light element likelihoods using the Planck MCMC chains for the TTTEEE+lowE case
+with Nν = 3 and no lensing data. Off-diagonal plots show the correlations between light-element
+abundance predictions, for example the anticorrelation between D/H and 7 Li/H predictions. Di-
+agonal plots show the likelihood for each element, as in Fig. 13 and akin to Fig. 4 but without
+lensing data in the CMB analysis. Dark (light) blue regions: 68% (95%) CL for Planck 2018 data.
+Underlying dark (light) red regions: same but for Planck 2015 data.
+
+
+TT+lowE, TE+lowE, and EE+lowE data separately. We first note that likelihood functions
+for each of the light elements are extremely robust so long as some CMB temperature
+information is included. In fact, it is rather amazing that even when all temperature data
+is discarded using only the EE polarization data, we find reasonably accurate likelihood
+functions.
+
+   A comparison of the mean value predictions for each of the light elements depending on
+the particular Planck data set chosen is summarized in Table VI. These correspond to the
+distributions shown along the diagonal in Fig. 15 (for data columns 1-4) and in Fig. 4 (data
+
+                                                                                    38
+                                                                                                                base yhe plikHM EE lowE
+                               1.00
+                                                                                                                base yhe plikHM TE lowE
+                               0.75                                                                             base yhe plikHM TT lowl lowE
+
+
+                  Likelihood
+                                                                                                                base yhe plikHM TTTEEE lowl lowE
+                               0.50
+
+                               0.25
+
+                               0.00
+                                3.5
+
+                                    3
+
+                   D/H × 105    2.5
+
+                                    2
+
+                                1.5
+
+                               1.35
+
+
+
+                 He/H × 105
+                                1.2
+
+                               1.05
+
+                 3              0.9
+
+                               0.75
+
+
+                                10
+
+
+
+                      Li/H × 1010
+                                    8
+
+                                    6
+                      7
+                                    4
+
+
+                                 0.245 0.246 0.247 0.248 0.249   1.5   2.0   2.5    3.0   3.5   0.75 0.90 1.05 1.20 1.35     4          6    8     10
+                                               Yp                       D/H × 105                    3
+                                                                                                         He/H × 105              7
+                                                                                                                                     Li/H × 1010
+
+
+
+
+FIG. 15. As in Fig. 14 comparing results using different Planck chains. Included here is the
+TTTEEE chain already shown in Fig. 14 as well as the TT, TE, and EE chains. All include lowE
+data.
+
+
+column 5). We have not shown the distributions from column 6, but as one can see, it does
+not differ appreciably from column 5.
+
+
+TABLE VI. CMB+BBN predictions for the light element abundances when different sets of Planck
+data are used. All choices include lowE data.
+
+CMB+BBN                        TT                         TE                              EE                 TT+TE+EE                       ...+lensing   ...+lensing +BAO
+
+Yp            0.2468 ± 0.0002 0.2469 ± 0.0002 0.2474 ± 0.0006 0.2469 ± 0.0002 0.2469 ± 0.0002 0.2470 ± 0.0002
+
+105 D/H         2.61 ± 0.14                         2.59 ± 0.14                    2.37 ± 0.26                2.58 ± 0.13                   2.57 ± 0.13      2.56 ± 0.13
+
+105 3 He/H      1.01 ± 0.09                         1.01 ± 0.09                    0.97 ± 0.09                1.00 ± 0.09                   1.00 ± 0.09      1.00 ± 0.09
+
+1010 7 Li/H     4.65 ± 0.71                         4.69 ± 0.72                    5.30 ± 1.03                4.72 ± 0.71                   4.72 ± 0.72      4.76 ± 0.73
+
+
+
+
+                                                                                      39
+VI.   THE FUTURE IMPACT OF CMB-STAGE 4 MEASUREMENTS
+
+
+   CMB observations are poised to improve dramatically beyond their already impressive
+precision. The next generation of ground-based CMB measurements is known as Stage 4
+(CMB-S4), with planning well underway [107, 108]. Being ground-based, these will dramat-
+ically improve the CMB precision at small angular scales and high multipoles. Thus we can
+expect only incremental refinements in the precision of ωb and thus η, which is determined
+by the undamped acoustic peaks at large angular scales. For our forecasts, we will not
+assume any improvement over the Planck sensitivity to cosmic baryons.
+   The dramatic effect of CMB-S4 will be the improvements in Nν and Yp . As noted in
+§V, these parameters come from the CMB damping scale which is best accessed through
+ground-based measurements. Moreover, the CMB determination of Neff is a science driver for
+CMB-S4. In the standard cosmology, both the baryon-to-photon ratio and helium abundance
+should not change between the BBN and CMB epochs, so that it is meaningful to use the
+BBN Yp (ηcmb ) relation. When this is done, the constraints on Neff are much stronger, and
+the CMB-S4 target sensitivity is σS4 (Neff |BBN) = 0.030! If this can be achieved, then it
+would be possible to resolve the difference Neff − Nν = 0.045 due to neutrino heating. This
+would offer a new probe of neutrino interactions during the BBN epoch.
+   The CMB-S4 sensitivity will depend on the total sky coverage. To estimate the impact
+of CMB-S4, and for a survey covering a fraction fsky = 0.5 of the sky, we can infer sensi-
+tivity to Yp and Nν from ref. [107]. We start with the Planck likelihood chain which gives
+LCMB (η, Yp , Nν ). For each point in the chain, we reduce the spread in Yp by 0.005/0.013 and
+in Nν by 0.09/0.3. Then the 4 He and neutrino counting should have precisions of about
+
+                          σS4 (Neff ) ≃ 0.09         σS4 (Yp ) ≃ 0.005                     (45)
+
+which matches the CMB-S4 forecasts. We adopt these estimates, and now explore the impact
+on our CMB-BBN joint analysis.
+   We start by once again showing the likelihoods as functions of each of the light elements
+where for now, we assume that Nν = 3 is fixed. The main impact in this case is, unsurpris-
+ingly, on 4 He. The CMB-BBN likelihood LCMB−BBN (Yp ) shaded purple is identical as that
+shown previously (as the mean CMB prediction for η has not changed and the uncertainties
+in Yp do not enter in this integration). Similarly, the observational likelihood (shaded yellow)
+
+                                               40
+and the Planck 2018 likelihood for 4 He is as before. However, here we also show shaded in
+blue the expected improvement over the Planck likelihood function for 4 He with CMB-S4.
+Because we kept the mean of the distribution with respect to η fixed, we see only a reduction
+in the width of the distribution which is now comparable with the observational uncertainty.
+This is in fact a remarkable statement. The primordial 4 He abundance is expected to be
+equally well measured from CMB experiments as it is from optical (and IR) measurements
+made on extragalactic HII regions.
+
+
+                                         CMB-S4 + BBN Forecasts
+                       1.0       (a)                                                                     (b)
+                       0.8
+
+
+
+          Likelihood
+                       0.6
+
+                       0.4
+
+                       0.2
+
+                       0.0
+                         0.23          0.24       0.25        0.26    0       1         2        3       4       5
+                                                  Yp                                    5
+                                                                                  10 × D/H
+                       1.0       (c)                                                                     (d)
+                       0.8
+
+
+
+          Likelihood
+                       0.6
+
+                       0.4
+
+                       0.2
+
+                       0.0
+                             7     8      9       10     11     12        1   2         3    4       5       6   7
+                                              6    3                                   10    7
+                                        10 × He/H                                 10        × Li/H
+
+FIG. 16. CMB-S4 forecasts for light element abundances with Nν fixed, and with the CMB-S4
+determination of 4 He (dark blue) using σS4 (Yp ) = 0.005. We see this is competitive with the
+astrophysical 4 He measurements.
+
+
+   The likelihood distributions shown in Fig. 11 as a function of Nν are repeated in Fig. 17
+assuming the CMB-S4 improvement in accuracy. The BBN+Yp +D likelihood is of course
+
+                                                                 41
+unchanged. But all of the distributions based on CMB input have widths which are reduced
+by roughly a factor of 3. The mean values of η and Nν as well as the uncertainties in the
+means are summarized in Table VII. Thus without a shift in the mean value of Nν , the 95%
+confidence limit on Nν − 3 becomes 0.036 from CMB-S4 alone, and the combined 95% limit
+becomes Nν < 2.979. We note that SPT-3G expects to be able to place an upper limit on
+Nν of 3.15 [123].
+
+
+               CMB-S4 + BBN Forecasts                            CMB + BBN + X
+     1.0                                            1.0
+                              BBN + Yp + D                                   no abundance
+     0.8                      CMB − only            0.8                      Yp − only
+                              CMB + BBN + X                                  D − only
+     0.6                                            0.6                      both Yp + D
+
+     0.4                                            0.4
+
+
+     0.2                                            0.2
+
+
+     0.0                                            0.0
+           1   2      3        4        5     6           2       3            4            5
+               Number of Neutrinos, Nν                        Number of Neutrinos, Nν
+
+
+
+                     FIG. 17. As in Fig. 17, the CMB-S4 forecasts for Nν .
+
+
+
+
+TABLE VII. The expected sensitivities to the baryon-to-photon ratio and effective number of
+neutrinos from CMB-S4, assuming unchanged mean values.
+
+                          Constraints Used        mean η10    mean Nν
+
+                          CMB-S4 only         6.090 ± 0.060 2.846 ± 0.095
+
+                          CMB-S4+BBN          6.086 ± 0.061 2.870 ± 0.057
+
+                          CMB+BBN+Yp          6.086 ± 0.060 2.869 ± 0.055
+
+                          CMB+BBN+D           6.086 ± 0.060 2.870 ± 0.057
+
+                          CMB+BBN+Yp +D 6.085 ± 0.059 2.869 ± 0.055
+
+
+
+   Finally, the two-dimensional likelihood functions shown in Fig. 12 are shown in Fig. 18 as-
+suming the CMB-S4 improvements given in Eq. (45). The BBN plus observations likelihoods
+are of course unchanged, but we see a dramatic improvement when the CMB likelihood is
+included. The CMB+BBN+OBS closed loops are now significantly smaller in each of the
+three panels. Thus there is good reason to eagerly await these results.
+
+                                              42
+                                             Only Yp Obs. Constraints                                                                      Only D Obs. Constraints
+                                            —– 68.27%                                                                                    —– 68.27%
+                                      5     —– 95.45%                                                                              5     —– 95.45%
+
+
+
+
+                Neutrino Number, Nν                                                                          Neutrino Number, Nν
+                                            —– 99.73%                                                                                    —– 99.73%
+
+                                      4                                                                                            4
+
+
+                                      3                                                                                            3
+
+
+                                      2                                                                                            2
+                                                BBN+Yp                                                                                                     BBN+D
+                                                CMB-S4+BBN+Yp                                                                                              CMB-S4+BBN+D
+                                      1                                                                                            1
+                                      5.0      5.5      6.0                         6.5      7.0                                   5.0      5.5      6.0    6.5   7.0
+                                                                                             10
+                                          baryon-to-photon ratio, 10                              ×η                                   baryon-to-photon ratio, 1010 × η
+
+                                                                                          Both Yp & D Obs. Constraints
+                                                                                          —– 68.27%
+                                                                                    5     —– 95.45%
+
+
+
+
+                                                              Neutrino Number, Nν
+                                                                                          —– 99.73%
+
+                                                                                    4
+
+
+                                                                                    3
+
+
+                                                                                    2
+                                                                                                       BBN+Yp+D
+                                                                                                       CMB-S4+BBN+Yp+D
+                                                                                    1
+                                                                                    5.0      5.5       6.0                         6.5      7.0
+                                                                                        baryon-to-photon ratio, 1010 × η
+
+
+
+
+                                            FIG. 18. CMB S4 joint predictions for η and Nν .
+
+
+VII.   DISCUSSION
+
+
+  There is no question that starting with WMAP [124], BBN results and predictions
+changed both quantitatively as well as qualitatively. Rather than loosely fitting the baryon-
+to-photon ratio from observations of the light element abundances, WMAP first obtained
+this ratio to high accuracy, providing a very stringent test of BBN and well as physics be-
+yond the Standard Model. Planck 2015 [3] and then later Planck 2018 [4] further increased
+the accuracy of BBN inputs. We fully expect that CMB-S4 [107] will continue this trend of
+improved accuracy and precision.
+  It is important to note as we have argued throughout this work, some of the accuracy
+attained by CMB measurements is reliant on BBN. For example, the 4 He abundance, Yp
+is often used in the Planck likelihood functions. As we have seen, in the absence of any
+BBN relation between ωb and Yp , we are able to obtain 1% accuracy in η. When the BBN
+relation is used (here we have used our own BBN generated relation in the Planck likelihood
+
+                                                                                                       43
+distributions), the accuracy improves to less than 0.6%. This can be compared with the
+roughly 3% accuracy attainable through BBN and D/H abundance determinations.
+     Similarly, using Planck 2018, the CMB alone can only determine the number of light
+degrees of freedom (where we use Nν as a surrogate) to an accuracy of about 11%. This is
+only marginally worse than BBN can do on its own using abundance data, which fixes Nν
+to just under 10%. Adding BBN (but no abundance data) to the CMB likelihood chain,
+improves this accuracy to less than 7% and using abundance data (dominated in importance
+by 4 He) drops the uncertainty in Nν to 5.3%.
+     Perhaps most impressive when we look forward is the projected accuracy to which the
+4
+    He abundance will be determined by CMB-S4. We expect this will compete with direct
+measurements of 4 He emission lines from extragalactic HII regions, thus providing a new
+and key test of BBN and Standard Model physics.
+     On the side of nuclear physics, new data is needed to resolve the theory/experiment
+discrepancy in the d(p, γ)3 He rate. Here, we have (in our baseline results) relied on existing
+nuclear data using measurements in the energy range of interest to BBN. Instead, using data
+at lower energy (where more accurate data is available), and using theory to extrapolate
+to BBN energies, leads to an increased reaction rate, and therefore a slight paucity in
+D/H produced in the early Universe as compared with abundance determinations from
+high redshift quasar absorption systems. A direct measurement of the absolute d(p, γ)3 He
+cross section at energies most relevant to BBN would be of great value. Recent steps in
+this direction have been made [125], though the interpretation of these results are not yet
+conclusive. Indirect approaches such as the Trojan Horse method could also be useful since
+they are suited to probe the shape but not the absolute normalization of the cross section.
+Here this could be useful in smoothly connecting measurements at energies above and below
+the BBN energy window, but the challenge would be to achieve the needed precision.
+     As much as the concordance between BBN theory, light element abundance observations,
+and measurements of the CMB is impressive, the elephant in the room is the 7 Li abundance.
+There is a clear mismatch between the BBN predicted abundance and the abundance seen
+in metal-poor stars [34]. We have largely ignored this discrepancy as its not clear whether
+its resolutions lies in nuclear physics, beyond the Standard Model particle physics, the
+observational determination, or the stellar history of 7 Li. Obviously, a convincing resolution
+of this vexed problem would strengthen the power of BBN as the earliest probe of the
+
+                                             44
+Universe based on Standard Model physics.
+
+
+     APPENDIX
+
+
+     Appendix A: Useful Conversions
+
+
+     Different measures are used to quantify the cosmic baryon content and helium abun-
+dances. For convenience we summarize them here, in a compact formalism.
+
+
+     1.   Helium Abundances: Baryon and Mass Fractions
+
+
+     Helium-4 abundances–both observed and predicted–are determined in terms of number
+densities, but traditionally are reported in two closely related ways, defined as follows. Let
+nuclide i with mass number (and baryon number) Ai , have number density ni . Its baryon
+                                                                                   P
+number density is thus nB,i = Ai ni , and so the total baryon density is nB =          j Aj nj .   Due
+to baryon conservation, nB is left unchanged in nuclear reactions, and thus the comoving
+baryon density nB a3 is constant.
+     The baryon or nucleon fraction (or in a bit of a misnomer, the baryonic mass fraction)
+in species i is naturally defined to be
+
+                                                  Ai ni
+                                          XB,i = P         ,                                       (A1)
+                                                   j Aj nj
+
+which is invariant under cosmic expansion. If we only consider the most abundant species
+1
+    H and 4 He, then we use the traditional shorthand
+                                                   n1
+                                    X ≡ XB,1 =                                                     (A2)
+                                               n1 + 4n4
+                                                  4n4
+                                    Y ≡ XB,4 =          ,                                          (A3)
+                                               n1 + 4n4
+where clearly X + Y = 1.
+     A related but distinct abundance measure comes from considering the mass densities in
+our set of nuclides. Let species i have mass mi . Then its mass density is ρi = mi ni , and
+                                            P
+the total baryonic mass density is ρB =       j ρj . This naturally leads us to define a true mass
+
+fraction
+                                                ρi   mi ni
+                                    XM,i =         =P       .                                      (A4)
+                                                ρB    mj nj
+
+                                                 45
+Of course, to a first approximation, all nucleons have roughly the same “baryonic mass” mB ,
+in which case mi ≈ Ai mB , and then we find the the true mass fractions and baryonic mass
+fractions are identical: XM,i ≈ XB,i . For this reason, and to be consistent with earlier work,
+outside of this section we refer to the baryonic mass fraction as simply the mass fraction.
+   However, due to binding energies and the neutron-proton distinction, not all baryons
+have the same mass. It will prove convenient to choose hydrogen atoms (i.e., 1 H) as the
+mass standard, since before, during, and after BBN, protons are the dominant species by
+number and mass, and hence the mean baryonic mass is nearly the hydrogen mass. Thus
+for species i we write
+                              mi ≡ Ai mH + Qi ≡ Ai mH (1 + βi ) ,                         (A5)
+
+which defines a “hydrogenic mass excess” Qi , and a fractional excess
+
+                                          Qi     ∆i − Ai ∆1
+                                  βi =         =            ,                             (A6)
+                                         Ai mH     Ai mH
+
+where the final expression uses the usual mass excess or mass defect ∆i defined mi =
+Ai mu + ∆i using the amu mu as the mass standard. Note here that we use atomic masses,
+so there is an electron contribution Zi me for each atomic mass, and mH = mp + me .
+   Notice that by definition, our hydrogen-based mass excess has Q1 = 0 = β1 , while 4 He
+has Q4 = ∆4 − 4∆1 < 0, a negative value due to the 4 He binding. Thus the dimensionless
+binding correction is also negative: β4 = −7.119 × 10−3 .
+   Using hydrogen as the mass standard makes our formulae particularly simple when we
+ignore all but 1 H and 4 He, adopting a shorthand
+                                         mp n1               n1
+                         X ≡ XM,1 =                 =                                     (A7)
+                                    m p n1 + m 4 n4   n1 + 4(1 + β4 )n4
+                                       4(1 + β4 )n4
+                         Y ≡ XM,4 =                                                       (A8)
+                                    n1 + 4(1 + β4 )n4
+We can use the last expression to write the helium mass fraction in terms of its baryon
+fraction and vice versa:
+                                          (1 + β4 )Y
+                                      Y=                                                  (A9)
+                                           1 + β4 Y
+                                                Y
+                                      Y =                                               (A10)
+                                          1 + β4 (1 − Y)
+One can show that since β4 < 0, then Y > Y always: physically, the 4 He mass fraction
+is lower than its baryon fraction due to its binding energy. Numerically the difference is
+
+                                              46
+relatively small. For example, a baryon fraction of Y = 0.2450 corresponds to a mass fraction
+Y = 0.2437; we look forward to the day when precision is sufficient that this distinction is
+important!
+   Planck reports 4 He abundances both as baryon fractions (YpBBN in their notation) and
+mass fraction (their Yp ). Our 4 He results are quoted as baryon fractions, and this is how
+observed results are reported in, e.g., the Aver et al. work of ref. [79] and thereafter.
+   Finally, one could instead measure baryonic/nucleonic mass densities and mass fractions
+strictly including nuclei only, with no electron contribution. In this case our analysis is
+changed to using the proton mass mp as a standard, and then writing the mass of nucleus
+of species i as
+                               m0i = Ai mp + Q0i = (1 + βi0 )Ai mp                          (A11)
+
+with βi0 = Q0i /Ai mp . Ignoring atomic binding energies, we have m0i = mi − Zi me , with Zi
+the charge or atomic number of nuclide i. This in turn means that
+
+                            Q0i = Qi + (Ai − Zi )me = Qi + Ni me                            (A12)
+
+that is the two corrections are different due to the lack of the electrons associated with the
+number Ni = Ai − Zi of neutrons in each nucleus. Finally then we have
+                                      Q0i    mH          Zi       me
+                                                             
+                             βi0 =         =    βi + 1 −                                    (A13)
+                                     Ai mp   mp          Ai       mp
+which gives β40 = −6.8501 × 10−3 . Using this we can define a nucleon-only mass density
+                                                 0   0      0
+ρ0B =      0                                                           4
+        j mj nj , and associated mass fraction Xi = mi ni /ρB . And for He we have the same
+        P
+
+relations as in eqs. (A9) and (A10), with Y → Y 0 and β4 → β40 .
+
+
+   2.   Measures of the Baryon Density
+
+
+   The CMB probes the comoving baryonic mass density ρB a3 = ρB,0 . This is expressed in
+the units of the present critical density ρcrit,0 = 3H02 /8πGN as the baryon density parameter
+ΩB = ρB,0 /ρcrit,0 and the reduced baryon density parameter Ωb h2 ≡ ωb which removes the
+uncertainty in the Hubble parameter H0 = hH100 , with H100 = 100 km s−1 Mpc−1 .
+   The present baryonic mass density is related to the present baryon number density nB,0
+via the average mass hmB i per baryon:
+
+                                        ρB,0 = hmB i nB,0                                   (A14)
+
+                                              47
+Writing this in terms of η = nB /nγ , and using the blackbody relation nγ = 2ζ(3)/π 2 (kT /h̄c)3 ,
+we can relate the baryonic measures
+
+                           hmB i nB,0
+                      ωb =                                                                 (A15)
+                            h−2 ρcrit,0
+                                                              !  3
+                           16ζ(3) GN mH (kT∗ /h̄c)3 hmB i         T
+                         =                  2
+                                                                       η                   (A16)
+                                       3πH100             mH      T∗
+                                                    !          3
+                                         −3   hmB i        T
+                         = 3.6594 × 10                             η10                     (A17)
+                                               mH      2.7255 K
+
+where we choose a fiducial CMB temperature to be the present value T∗ = 2.7255 K.
+   We see that the conversion depends on the mean mass per baryon, and hence on the
+composition, as has been pointed out by many authors and discussed in detail by Gary
+Steigman [19]. Using our formalism from the previous section, and taking the excellent
+approximation of ignoring all but 1 H and 4 He, we have
+                                   P
+                                       mi ni
+                        hmB i = P            = (1 + β4 Y ) mH ≡ (1 + δ)mH                  (A18)
+                                       Aj nj
+
+and we see that the correction factor δ = β4 Y < 0 since β4 < 0: helium binding reduces the
+mass per baryon. For a fiducial value of Y∗ = 0.245 we have δ∗ = −1.744 × 10−3 , and we
+can write
+
+                             δ = δ∗ + β4 (Y − Y∗ )                                         (A19)
+                               = − [1.744 + 7.119 (Y − 0.245)] × 10−3                      (A20)
+                        1+δ
+                               = 1 − 7.131 × 10−3 (Y − 0.245)                              (A21)
+                        1 + δ∗
+
+Using this we arrive at the conversions
+                                                                   3
+                   16ζ(3) GN (1 + δ)mH (kT∗ /h̄c)3            T
+                                                          
+            ωb =                   2
+                                                                        η                  (A22)
+                              3πH100                          T∗
+                                                                          3
+                                                                    T       i 
+                                   h                                              
+                              −3                     −3
+                = 3.6529 × 10   1 − 7.131 × 10 (Y − 0.245)                  η10            (A23)
+                                                                2.7255 K
+                          h                           i−1  2.7255 K 3
+            η10 = 273.754 1 − 7.131 × 10−3 (Y − 0.245)                  ωb                 (A24)
+                                                                T
+
+This agrees well with literature results, including ours in CFOY.
+   Note that if one measures 4 He by its true mass fraction, one simply adopts the conversion
+above (Eq. A10) to find the baryon fraction Y for which these expressions are particularly
+simple.
+
+                                                48
+   Finally, as noted above we can consider the strictly baryonic and thus nucleonic mass
+density, which excludes the electron mass contribution. Then we use as our mass standard
+the proton mp , and so the mean nuclear mass in eq. (A18) becomes hmB i = mp (1 + β40 Y ),
+which gives the correction term δ 0 = β40 Y which leads to
+                                                                 3
+                   16ζ(3) GN (1 + δ 0 )mp (kT∗ /h̄c)3       T
+                                                        
+           ωb0 =                   2
+                                                                      η                 (A25)
+                              3πH100                        T∗
+                                                                          3
+                                                                   T      i 
+                                  h                                             
+               = 3.6512 × 10−3 1 − 6.862 × 10−3 (Y − 0.245)                 η10         (A26)
+                                                               2.7255 K
+                         h                           i−1  2.7255 K 3
+           η10 = 273.885 1 − 6.862 × 10−3 (Y − 0.245)                  ωb0              (A27)
+                                                               T
+
+which are the analogs of eqs. (A22)–(A24).
+
+
+   Appendix B: Fits to the 7 Be(n, p)7 Li Rate
+
+
+   The 7 Be(n, p)7 Li rate is one of the two dominant contributions to the BBN 7 Li uncertainty
+budget. Measurements of this reaction have taken two approaches. One is to use the inverse
+reaction 7 Li(p, n)7 Be and invoke detailed balance to infer the forward rate. This approach
+is much easier experimentally, as the beam and target are both stable. The drawback is
+that the low-energy behavior of the forward reaction, which is of the most interest, requires
+careful measurement right at the threshold energy of the inverse reaction. The alternative is
+to measure the forward reaction at the cost of producing a radioactive target and a neutron
+beam.
+   Both the direct and inverse method has been pursued over the years. Most recently,
+the n TOF experiment at CERN has added new data on the forward reaction [40]. We
+combined this forward-kinematics determination of 7 Be(n, p)7 Li with existing and largely
+inverse kinematics data, appropriately weighting for statistical and systematic uncertainties,
+following the procedure in [29]. The resulting rate R(E) = NA σ(E) v in energy space, is
+plotted in Fig. 1.
+   As noted in §II B, the n TOF data lie above the Sekharan data [42] near BBN energies,
+and much above the Koehler data [41] at low energies. This points to systematic errors which
+will translate into increased discrepancy errors in our fits. The extent of the discrepancy is
+energy-dependent and thus we will explore the uses of different energy ranges.
+   We numerically calculate the thermal average rate R(T ) = NA hσvi, and plot the results
+
+                                               49
+                                                  7
+                                                      Be(n, p)7Li Thermal Rate
+                                           10
+                                     10
+
+
+
+
+               R(T9) = NAhσvi ( gcm
+               3
+                                                                         our baseline
+
+
+
+                                      )
+                                                                         n Tof 2018
+                                                                         Cyburt 2004
+
+
+
+                                  sec
+                                          109
+
+
+                                           10−2          10−1        100                101
+                                                            T9 (109 K)
+
+FIG. 19. Thermal rate for 7 Be(n, p)7 Li. Our rate is the thick black line, with the 1σ error range
+shown in dotted lines. For comparison we also show in red the results for Cyburt [29], and in cyan
+the n TOF recommended rate [40].
+
+
+in Fig. 19. The gradual decline with temperature reflects the drop in the reaction rate R(E)
+versus energy in Fig. 1.
+   Fig. 19 also shows the rates for Cyburt [29], which lacked the n TOF data. We also show
+the n TOF recommended rate tabulated in [40], which uses their own data along with that
+of Sekharan [42] but not the other data in Fig. 1. We see that the rates diverge at low
+temperature, reflecting the discrepant data at low energy: the Cyburt fit uses the higher
+data, n TOF the lower, and ours is a compromise with the price of a higher systematic
+uncertainty. However, at the temperature T9 ∼ 1 relevant for 7 Be evolution, the three rates
+are almost the same. Thus we already expect that the different rate fits will give similar
+final 7 Li abundances, but the uncertainties in our fit to be larger.
+
+
+
+
+   Figure 20 shows the impact of different 7 Be(n, p)7 Li rate choices on primordial 7 Li. What
+is plotted are the central-value predictions for a set of different fits to the rates. All of the
+curves use our fitting procedure, for which one must specify the data to be fit, and the
+energy range in the fit. We consider both a “narrow” energy region ECM ∈ (0.01, 1.0) MeV
+centered on the BBN, and a “wide” range that includes all data, particularly that at low
+
+                                                            50
+                                                            baryon density Ωbh2
+                                                                 10−2
+                                        10−9
+
+
+                    Li/H
+                  7
+
+
+                                        10−10
+
+
+
+
+                  ratio to old narrow
+                                         1.00
+
+                                         0.98       old narrow
+                                                    old wide
+                                                    new narrow
+                                         0.96       new wide
+                                                    nToF narrow
+                                                    nToF wide
+                                         0.94       nToF’s table
+
+
+                                          10−10                                      10−9
+                                                  baryon-to-photon ratio η = nb/nγ
+
+
+FIG. 20. The abundance of 7 Li/H as a function of cosmic baryon content, comparing various input
+rates for 7 Be(n,p)7 Li. In the lower panel, we the ratio of each rate considered relative to the old
+narrow rate used in CFOY.
+
+
+energies. These choices can give different results due to the influence of the lowest-energy
+points on our fit–these anchor the first two terms in our R(E) polynomial.
+
+   As expected, all of the choices give very similar results. Indeed, the bottom panel of
+Fig. 20 shows the ratio of results using alternative rates relative to CFOY, which uses the
+Cyburt rate. Most importantly, none of the predictions differ by more than about 6%, which
+is slightly smaller than the systematic error. And such differences are not significant for the
+lithium problem.
+
+   In detail, we see that all 7 Li predictions lie below that from our old rate (old narrow),
+because our that has the least 7 Be destruction. Picking a larger energy range (old wide)
+does not change things, as there is no discrepancy at low energies. We see that our new
+fiducial rate (new narrow) is slightly higher, by about 1%, reflecting the slightly higher 7 Be
+destruction. The largest change is for the n TOF tabulation which omits some of the data
+
+                                                                   51
+                                                               baryon density Ωbh2
+                                                                    10−2
+                                         10−9
+
+
+                   Li/H
+                 7
+
+
+                                         10−10
+                                          1.02
+
+
+
+
+                 ratio to old baseline
+                                          1.01
+
+                                          1.00      old baseline
+                                                    old + new 7 Be(d, p)4 He)4 He
+                                                    old + new 7 Be(n, α)4 He
+                                          0.99      new baseline
+
+                                           10−10                                      10−9
+                                                   baryon-to-photon ratio η = nb/nγ
+
+
+FIG. 21. Lithium predictions vs η as in bottom panel of Fig. 20, showing the effect of updated
+rates for 7 Be(d, p)4 He4 He and 7 Be(n, α)4 He.
+
+
+we use, and which has a higher low-energy and low-temperature rate.
+
+
+   Appendix C: Impact of Other 7 Be Reaction Rates
+
+
+   As discussed in §II D, there have been recent measurements on rates contributing to 7 Be
+destruction. A number of groups have firmed up the experimental picture of 7 Be(n, α)4 He,
+finding that this rate is smaller than the old estimates, which implies that this already sub-
+dominant rate has further diminished in importance. On the other hand, recent 7 Be(d, p)7 Li
+data have claimed that the rate has increased to the point of having a non-negligible but
+still not dominant effect on 7 Be.
+   We show the impact of the new rates in Fig. 21. The top panel shows the impact of the
+new rates on the 7 Li portion of the Schramm plot. The changes are so small they are mostly
+within the width of the curve. Thus we have added the bottom panel, showing the ratio of
+
+                                                                      52
+the new to old 7 Li for the adopted rate updates, both separately and together.
+   We see that the new 7 Be(n, α)4 He rate leads to a 7 Li increase of around 1% in the η range
+of interest. This change is as expected, and also agrees with expectations based on the rate
+scalings from Eq. (15) and Table II.
+   In contrast, the increase in the 7 Be(d, p)7 Li rate lower 7 Li, albeit by a small amount–
+somewhat below 1% at the CMB baryon density. This is in agreement with our expectations,
+and those of [126], but in contrast to the claims of ref. [57].
+                                              7
+   The net effect is a slight (<
+                               ∼ 1%) change in Li. Obviously this small shift has no percep-
+tible impact on the lithium problem.
+
+
+
+   Appendix D: Dependence on D(p,γ)3 He
+
+
+   As discussed in §II C, the d(p, γ)3 He reaction has been the source of some controversy
+of late. By construction, our adopted rates are empirical and thus follow the experimental
+data. Theory-based fits give a higher rate at BBN energies and temperatures.
+   We show the effect of adopting the theory-based rates in Fig. 22. Here we show the
+change in abundances as a function of cosmic baryon content. The shift in Yp is small and
+are omitted from the plot. The changes to D/H, 3 He/H, and 7 Li/H are perhaps most clear
+in the bottom panel of the figure. Qualitatively, we see that D decreases while 3 He and 7 Li
+are both increased. This is the expected result of the boost in 3 He production at the expense
+of D, and then subsequent 3 He(α, γ)7 Be production.
+   Quantitatively, we find that at η10 = 6.129, the shifts to (D/H,3 He/H,7 Li/H) are
+(−6.1%, +7.6%, +11.8%), respectively. These are larger than the shifts we have seen due
+to the 7 Be rates. Of course the change in 3 He is inconsequential given the current lack of
+observational data. The increase in 7 Li/H makes the lithium problem somewhat worse, and
+the effect of this reaction is a large part of why our lithium prediction differs from that
+of Pitrou et al. [36]. But the systematic shift in D/H is significant compared to the D/H
+prediction uncertainty we have quoted, and it is even more significant compared to the ∼ 1%
+errors in the observations.
+   Indeed, such a shift in D/H will spoil the excellent agreement with observations that we
+have seen above. Such a shift away from the present data would suggest that the quoted
+experimental errors are underestimated, so the statistical significance of such a shift would
+
+                                             53
+                                                         baryon density Ωbh2
+                                                              10−2
+                                     10−3
+                                                                               theory
+                D/H                                                            baseline
+
+                                     10−4
+
+
+                He/H                 10−5
+                3
+
+
+                                     10−9
+
+
+                Li/H
+                7
+
+                               10−10
+                                 1.2
+
+
+
+
+                 ratio to baseline
+                                      1.1
+
+                                      1.0
+                                                  D/H
+                                                  3
+                                      0.9             He/H
+                                                  7
+                                                      Li/H
+                                      0.8 −10
+                                       10                                            10−9
+                                                baryon-to-photon ratio η = nb/nγ
+
+FIG. 22. The effect of alternative theory-based approach to d(p, γ)3 He. We adopt the rates of [16].
+Note that 7 Li/H shift makes the lithium problem slightly worse. More importantly, this increases
+D/H enough to spoil the excellent agreement with observations.
+
+
+
+need to reflect a larger error budget than we (and others) have contemplated. Alternatively,
+such a shift would imply that the observational uncertainties have been underestimated. In
+the extreme, the shift could imply physics beyond the standard model which alters SBBN.
+We emphasize, however, that current nuclear experimental data and observations do not
+imply any departure from SBBN.
+
+   Clearly this is an important issue, as has been emphasized by several groups [11, 17,
+
+                                                             54
+45, 46, 127]. It is thus of the highest importance that new measurements be done for this
+reaction at BBN energies. We eagerly await these results.
+
+
+
+  ACKNOWLEDGMENTS
+
+
+  We are grateful to our longtime collaborator Richard Cyburt for discussions on this and
+related work. We are also pleased to thank Lloyd Knox and Joaquin Vieira for useful
+conversations regarding the CMB and future Stage 4 capabilities. And we remember our
+friend an colleague Gary Steigman whose thinking informs much of our own. We acknowledge
+the use of COSMOMC [128] to prepare Figs. 14 and 15. The work of B.D.F. and T.-H. Y. was
+partially supported by the National Science Foundation Grant No. PHY-1214082. The
+work of K.A.O. was supported in part by DOE grant DE-SC0011842 at the University
+of Minnesota. K.A.O. acknowledges support by the Director, Office of Science, Office of
+High Energy Physics of the U.S. Department of Energy under the Contract No. DE-AC02-
+05CH11231. K.A.O. would also like to thank the Department of Physics and the high energy
+theory group at the University of California, Berkeley as well as the theory group at LBNL
+for their hospitality and financial support while finishing this work. B.D.F. benefited from
+discussions with the participants of the 2019 Lithium in the Universe conference, and at
+the 2019 Frontiers of Nuclear Astrophysics conference, supported by the National Science
+Foundation under Grant No. PHY-1430152 (JINA Center for the Evolution of the Elements).
+
+
+
+
+  [1] R. A. Alpher and R. C. Herman, Phys. Rev. 75, 1089 (1948)
+  [2] R. H. Cyburt, B. D. Fields, K. A. Olive and T.-H. Yeh, Rev. Mod. Phys. 88, 015004 (2016)
+     [arXiv:1505.01076 [astro-ph.CO]].
+  [3] P. A. R. Ade et al. [Planck Collaboration], Astron. Astrophys. 594, A13 (2016)
+     [arXiv:1502.01589 [astro-ph.CO]].
+  [4] N. Aghanim et al. [Planck Collaboration], arXiv:1807.06209 [astro-ph.CO].
+  [5] S.   Arzumanov,    L.   Bondarenko,    S.    Chernyavsky,   P.   Geltenbort,   V.   Morozov,
+     V. V. Nesvizhevsky, Y. Panin and A. Strepetov, Phys. Lett. B 745, 79 (2015).
+  [6] A. P. Serebrov et al., Phys. Rev. C 97, no. 5, 055503 (2018) [arXiv:1712.05663 [nucl-ex]].
+
+                                              55
+ [7] R. W. Pattie, Jr. et al., Science 360, no. 6389, 627 (2018) [arXiv:1707.01817 [nucl-ex]].
+ [8] V. F. Ezhov et al., JETP Lett. 107, no. 11, 671 (2018) [Pisma Zh. Eksp. Teor. Fiz. 107, no.
+    11, 707 (2018)] [arXiv:1412.7434 [nucl-ex]].
+ [9] S. Riemer-Srensen et al., Mon. Not. Roy. Astron. Soc. 447, 2925 (2015) [arXiv:1412.4043
+    [astro-ph.CO]].
+[10] S. A. Balashev, E. O. Zavarygin, A. V. Ivanchik, K. N. Telikova and D. A. Varshalovich,
+    Mon. Not. Roy. Astron. Soc. 458, no. 2, 2188 (2016) [arXiv:1511.01797 [astro-ph.GA]].
+[11] R. J. Cooke, M. Pettini, K. M. Nollett and R. Jorgenson, Astrophys. J. 830, no. 2, 148 (2016)
+    [arXiv:1607.03900 [astro-ph.CO]].
+[12] S. Riemer-Srensen, S. Kotuš, J. K. Webb, K. Ali, V. Dumont, M. T. Murphy and R. F. Car-
+    swell, Mon. Not. Roy. Astron. Soc. 468, no. 3, 3239 (2017) [arXiv:1703.06656 [astro-ph.CO]].
+[13] E. O. Zavarygin, J. K. Webb, V. Dumont, S. Riemer-Srensen, arXiv:1706.09512 [astro-
+    ph.GA].
+[14] R. J. Cooke, M. Pettini and C. C. Steidel, Astrophys. J. 855, no. 2, 102 (2018)
+    [arXiv:1710.11129 [astro-ph.CO]].
+[15] D. S. Aguado, J. I. González Hernández, C. Allende Prieto and R. Rebolo, Astrophys. J.
+    874, L21 (2019) [arXiv:1904.04892 [astro-ph.SR]]; A. Frebel, A. P. Ji, R. Ezzeddine, R., et
+    al., Astrophys. J. 871, 146 (2019).
+[16] L. E. Marcucci, G. Mangano, A. Kievsky and M. Viviani, Phys. Rev. Lett. 116, no. 10,
+    102501 (2016) Erratum: [Phys. Rev. Lett. 117, no. 4, 049901 (2016)] [arXiv:1510.07877
+    [nucl-th]].
+[17] A. Coc, P. Petitjean, J. P. Uzan, E. Vangioni, P. Descouvemont, C. Iliadis and R. Longland,
+    Phys. Rev. D 92, no. 12, 123526 (2015) [arXiv:1511.03843 [astro-ph.CO]].
+[18] K. A. Olive, D. N. Schramm, G. Steigman, M. S. Turner and J. -M. Yang, Astrophys. J.
+    246, 557 (1981).
+[19] G. Steigman, JCAP 0610, 016 (2006) [astro-ph/0606206].
+[20] D. N. Spergel et al. [WMAP Collaboration], Astrophys. J. Suppl. 148, 175 (2003) [astro-
+    ph/0302209].
+[21] G. Alexander et al. [LEP and ALEPH and DELPHI and L3 and OPAL Collaborations],
+    Phys. Lett. B 276, 247 (1992); S. Schael et al. [ALEPH and DELPHI and L3 and OPAL and
+    SLD Collaborations and LEP Electroweak Working Group and SLD Electroweak Group and
+
+
+                                              56
+    SLD Heavy Flavour Group], Phys. Rept. 427, 257 (2006) [hep-ex/0509008].
+[22] R. H. Cyburt, B. D. Fields and K. A. Olive, Astropart. Phys. 17 (2002) 87 [arXiv:astro-
+    ph/0105397].
+[23] T. P. Walker, G. Steigman, D. N. Schramm, K. A. Olive and H. S. Kang, Astrophys.
+    J. 376 (1991) 51; K. A. Olive, G. Steigman and T. P. Walker, Phys. Rept. 333, 389
+    (2000) [astro-ph/9905320]; B. D. Fields and K. A. Olive, Nucl. Phys. A777, 208 (2006);
+    B. D. Fields, P. Molaro and S. Sarkar, Chin. Phys. C 38 (2014) [arXiv:1412.1408 [astro-
+    ph.CO]]; G. Steigman, Ann. Rev. Nucl. Part. Sci. 57, 463 (2007) [arXiv:0712.1100 [astro-ph]].
+[24] R. H. Cyburt, B. D. Fields and K. A. Olive, New Astron.           6 (1996) 215 [arXiv:astro-
+    ph/0102179].
+[25] K. M. Nollett and S. Burles, Phys. Rev. D 61, 123505 (2000) [astro-ph/0001440]; S. Burles,
+    K. M. Nollett and M. S. Turner, Astrophys. J. 552, L1 (2001) [astro-ph/0010171].
+[26] E. Vangioni-Flam, A. Coc and M. Casse, Astron. Astrophys. 360, 15 (2000) [astro-
+    ph/0002248]; A. Coc, E. Vangioni-Flam, M. Cassé and M. Rabiet, Phys. Rev. D65 (2002)
+    043510 [arXiv:astro-ph/0111077]; A. Coc, E. Vangioni-Flam, P. Descouvemont, A. Adah-
+    chour and C. Angulo, Ap. J. 600 (2004) 544 [arXiv:astro-ph/0309480].
+[27] R. H. Cyburt, B. D. Fields and K. A. Olive, Phys. Lett. B 567, 227 (2003) [astro-ph/0302431].
+[28] A. Cuoco, F. Iocco, G. Mangano, G. Miele, O. Pisanti and P. D. Serpico, Int. J. Mod. Phys. A
+    19 (2004) 4431 [arXiv:astro-ph/0307213]; P. D. Serpico, S. Esposito, F. Iocco, G. Mangano,
+    G. Miele and O. Pisanti, JCAP 0412, 010 (2004) [arXiv:astro-ph/0408076];
+[29] R. H. Cyburt, Phys. Rev. D 70 (2004) 023505 [arXiv:astro-ph/0401091].
+[30] P. Descouvemont, A. Adahchour, C. Angulo, A. Coc and E. Vangioni-Flam, ADNDT 88
+    (2004) 203 [arXiv:astro-ph/0407101];
+[31] F. Iocco, G. Mangano, G. Miele, O. Pisanti and P. D. Serpico, Phys. Rept. 472, 1 (2009)
+    [arXiv:0809.0631 [astro-ph]].
+[32] O. Pisanti, A. Cirillo, S. Esposito, F. Iocco, G. Mangano, G. Miele and P. D. Serpico, Comput.
+    Phys. Commun. 178, 956 (2008) [arXiv:0705.0290 [astro-ph]].
+[33] A. Coc, S. Goriely, Y. Xu, M. Saimpert and E. Vangioni, Astrophys. J. 744, 158 (2012)
+    [arXiv:1107.1117 [astro-ph.CO]].
+[34] R. H. Cyburt, B. D. Fields and K. A. Olive, JCAP 0811, 012 (2008) [arXiv:0808.2818 [astro-
+    ph]].
+
+
+                                              57
+[35] A. Coc, J. P. Uzan and E. Vangioni, JCAP 1410, 050 (2014) [arXiv:1403.6694 [astro-ph.CO]].
+[36] C. Pitrou, A. Coc, J. P. Uzan and E. Vangioni, Phys. Rept. 754, 1 (2018) [arXiv:1801.08023
+    [astro-ph.CO]].
+[37] R. S. de Souza, C. Iliadis and A. Coc, Astrophys. J. 872, no. 1, 75 (2019) [arXiv:1809.06966
+    [astro-ph.IM]].
+[38] S. Ando, R. H. Cyburt, S. W. Hong and C. H. Hyun, Phys. Rev. C 74, 025809 (2006)
+    [nucl-th/0511074].
+[39] Y. Xu, K. Takahashi, S. Goriely, M. Arnould, M. Ohta and H. Utsunomiya, Nucl. Phys. A
+    918, 61 (2013) [arXiv:1310.7099 [nucl-th]].
+[40] L. Damone et al. [n TOF Collaboration], Phys. Rev. Lett. 121, no. 4, 042701 (2018)
+    [arXiv:1803.05701 [nucl-ex]].
+[41] P. E. Koehler et al., Phys. Rev. C 37, 917 (1988).
+[42] K.K. Sekharan, H. Laumer, B. Kern, and F. Gabbard, Nucl. Instrum. Meth. 133, 253 (1976).
+[43] J. H. Gibbons and R. L. Macklin, Phys. Rev. 114, 571 (1959).
+[44] R. Taschek and A. Hemmendinger, Phys. Rev. 74, 373 (1948).
+[45] Nollett K. M. and G. P. Holder, 2011 arXiv:1112.2683 [astro-ph.CO].
+[46] Burles S., K. M. Nollett, J. W. Truran and M. S. Turner, 1999, Phys. Rev. Lett. 82, 4176
+    [astro-ph/9901157].
+[47] Bailey, G. M., Griffiths, G. M., Olivo, M. A., Helmer, R. L., Canadian Journal of Physics
+    48, 3059 (1970).
+[48] Ma, L., et al, Phys. Rev. C 55, 588 (1997).
+[49] D. Trezzi et al. [LUNA Collaboration], J. Phys. Conf. Ser. 940, no. 1, 012059 (2018).
+[50] I. Tima, M. Lipoglavek, M. Mihovilovi, S. Markelj, M. Vencelj and J. Vesi, Eur. Phys. J. A
+    55, no. 8, 137 (2019).
+[51] L. E. Marcucci, M. Viviani, R. Schiavilla, A. Kievsky and S. Rosati, Phys. Rev. C 72, 014001
+    (2005) [nucl-th/0502048].
+[52] M. Barbagallo et al. [n TOF Collaboration], Phys. Rev. Lett. 117, no. 15, 152701 (2016)
+    [arXiv:1606.09420 [nucl-ex]].
+[53] S. Q. Hou, J. J. He, S. Kubono and Y. S. Chen, Phys. Rev. C 91, no. 5, 055802 (2015)
+    [arXiv:1502.03961 [astro-ph.CO]].
+[54] T. Kawabata et al., Phys. Rev. Lett. 118, no. 5, 052701 (2017).
+
+
+                                             58
+[55] Lamia, L., et al. Astrophys. J. 850, 175 (2017)
+[56] R. V. Wagoner, Astrophys. J. Supp. 18, 247 (1969).
+[57] N. Rijal et al., Phys. Rev. Lett. 122, no. 18, 182701 (2019) [arXiv:1808.07893 [nucl-ex]].
+[58] R. H. Cyburt and M. Pospelov, Int. J. Mod. Phys. E 21, 1250004 (2012) [arXiv:0906.4373
+    [astro-ph.CO]].
+[59] N. Chakraborty, B. D. Fields and K. A. Olive, Phys. Rev. D 83, 063006 (2011)
+    [arXiv:1011.0722 [astro-ph.CO]].
+[60] M. Hartos, C. A. Bertulani, Shubhchintak, A. M. Mukhamedzhanov and S. Hou, Astrophys.
+    J. 862, no. 1, 62 (2018) [arXiv:1803.06758 [nucl-th]].
+[61] X. Zhang, K. M. Nollett and D. R. Phillips, arXiv:1909.07287 [nucl-th].
+[62] R. L. Kelly et al. [Particle Data Group], Rev. Mod. Phys. 52, S1 (1980).
+[63] J. J. Hernandez et al. [Particle Data Group], Phys. Lett. B 239, 1 (1990) Erratum: [Phys.
+    Lett. B 253, 524 (1991)].
+[64] W. Mampe, P. Ageron, C. Bates, J. M. Pendlebury and A. Steyerl, Phys. Rev. Lett. 63, 593
+    (1989).
+[65] K. Hagiwara et al. [Particle Data Group], Phys. Rev. D 66, 010001 (2002).
+[66] S. Arzumanov et al., Phys. Lett. B 483, 15 (2000).
+[67] A. Serebrov et al., Phys. Lett. B 605, 72 (2005) [nucl-ex/0408009].
+[68] A. Pichlmaier, V. Varlamov, K. Schreckenbach and P. Geltenbort, Phys. Lett. B 693, 221
+    (2010).
+[69] S. S. Arzumanov, L. N. Bondarenko, V. I. Morozov, Y. N. Panin and S. M. Chernyavsky,
+    JETP Lett. 95, 224 (2012) [Pisma Zh. Eksp. Teor. Fiz. 95, 248 (2012)].
+[70] J. Beringer et al. [Particle Data Group], Phys. Rev. D 86, 010001 (2012).
+[71] K. A. Olive et al. [Particle Data Group Collaboration], Chin. Phys. C 38, 090001 (2014).
+[72] M. Tanabashi et al. [Particle Data Group], Phys. Rev. D 98, no. 3, 030001 (2018).
+[73] A. T. Yue, M. S. Dewey, D. M. Gilliam, G. L. Greene, A. B. Laptev, J. S. Nico, W. M. Snow
+    and F. E. Wietfeldt, Phys. Rev. Lett. 111, no. 22, 222501 (2013) [arXiv:1309.2623 [nucl-ex]].
+[74] J. Byrne and P. G. Dawber, Europhys. Lett. 33, 187 (1996).
+[75] A. Czarnecki, W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 120, no. 20, 202002 (2018)
+    [arXiv:1802.01804 [hep-ph]].
+
+
+
+
+                                              59
+[76] T. M. Bania, R. T. Rood,and D. S. Bania, Nature 415, 54 (2002); E. Vangioni-Flam,
+    K. A. Olive, B. D. Fields and M. Casse, Astrophys. J. 585, 611 (2003) [astro-ph/0207583].
+[77] R. J. Cooke, Astrophys. J. 812, no. 1, L12 (2015) [arXiv:1510.02801 [astro-ph.CO]].
+[78] K. A. Olive and E. D. Skillman, New Astron. 6 (2001) 119 [arXiv:astro-ph/0007081];
+    K. A. Olive and E. D. Skillman, ApJ 617 (2004) 29 [arXiv:astro-ph/0405588].
+[79] E. Aver, K. A. Olive and E. D. Skillman, JCAP 1005, 003 (2010) [arXiv:1001.5218 [astro-
+    ph.CO]]; E. Aver, K. A. Olive and E. D. Skillman, JCAP 1103, 043 (2011) [arXiv:1012.2385
+    [astro-ph.CO]].
+[80] E. Aver, K. A. Olive and E. D. Skillman, JCAP 1204, 004 (2012) [arXiv:1112.3713 [astro-
+    ph.CO]].
+[81] M. Peimbert, V. Luridiana and A. Peimbert, Astrophys. J. 666, 636 (2007) [arXiv:astro-
+    ph/0701580].
+[82] Y. I. Izotov, T. X. Thuan and V. A. Lipovetsky, Astrophys. J. 435, 647 (1994); Y. I. Izotov,
+    T. X. Thuan and V. A. Lipovetsky, Astrophys. J. Suppl. 108, 1 (1997);
+[83] Y. I. Izotov, T. X. Thuan and G. Stasińska, Astrophys. J. 662, 15 (2007) [arXiv:astro-
+    ph/0702072].
+[84] Y. I. Izotov, G. Stasinska and N. G. Guseva, Astron. Astrophys. 558, A57 (2013)
+    [arXiv:1308.2100 [astro-ph.CO]].
+[85] Y. I. Izotov, T. X. Thuan and N. G. Guseva, Mon. Not. Roy. Astron. Soc. 445, 778 (2014)
+    [arXiv:1408.6953 [astro-ph.CO]].
+[86] R. L. Porter, G. J. Ferland, P. J. Storey and M. J. Detisch, Mon. Not. Roy. Astron. Soc.
+    425, L28 (2012) arXiv:1206.4115 [astro-ph.CO]; R. L. Porter, G. J. Ferland, P. J. Storey and
+    M. J. Detisch, Mon. Not. Roy. Astron. Soc. 433, L89 (2013) arXiv:1303.5115 [astro-ph.CO].
+[87] E. Aver, K. A. Olive, R. L. Porter and E. D. Skillman, JCAP 1311, 017 (2013)
+    [arXiv:1309.0047 [astro-ph.CO]].
+[88] E. Aver, K. A. Olive and E. D. Skillman, JCAP 1507, no. 07, 011 (2015) [arXiv:1503.08146
+    [astro-ph.CO]].
+[89] M. Peimbert and S. Torres-Peimbert, Astrophys. J. 193, 327 (1974).
+[90] A. Peimbert, M. Peimbert and V. Luridiana, Rev. Mex. Astron. Astrofis. 52, 419 (2016)
+    [arXiv:1608.02062 [astro-ph.CO]].
+
+
+
+
+                                             60
+ [91] V. Fernandez, E. Terlevich, A. Diaz, R. Terlevich, and F. F. Rosales-Ortega, Mon. Not. Roy.
+     Astron. Soc. 478, 5301 (2018) [arXiv:1804.10701 [astro-ph.GA]].
+ [92] R. I. Epstein, J. M. Lattimer and D. N. Schramm, Nature 263, 198 (1976); T. Prodanović
+     and B. D. Fields, Astrophys. J. 597, 48 (2003) [astro-ph/0307183].
+ [93] G. Steigman, D. Romano and M. Tosi, Mon. Not. Roy. Astron. Soc. 378, 576 (2007) [astro-
+     ph/0703682 [ASTRO-PH]]; E. Vangioni, J. Silk, K. A. Olive and B. D. Fields, Mon. Not.
+     Roy. Astron. Soc. 413, 2987 (2011) [arXiv:1010.5726 [astro-ph.CO]].
+ [94] K. A. Olive, P. Petitjean, E. Vangioni and J. Silk, Mon. Not. Roy. Astron. Soc. 426, 1427
+     (2012) [arXiv:1203.5701 [astro-ph.CO]].
+ [95] R. Cooke, M. Pettini, R. A. Jorgenson, M. T. Murphy and C. C. Steidel, Ap. J. 781, 31
+     (2014) [arXiv:1308.3240 [astro-ph.CO]].
+ [96] M. Pettini and R. Cooke, Mon. Not. Roy. Astron. Soc. 425, 2477 (2012) [arXiv:1205.3785
+     [astro-ph.CO]].
+ [97] A. Hosford, A. E. G. Perez, R. Collet, S. G. Ryan, J. E. Norris and K. A. Olive, As-
+     tron. Astrophys. 493, 601 (2009) [ arXiv:1004.0863 [astro-ph.SR]]; A. Hosford, S. G. Ryan,
+     A. E. G. Perez, J. E. Norris and K. A. Olive, Astron. Astrophys. 511, 47 (2010)
+     [arXiv:0811.2506 [astro-ph]];
+ [98] K. Lind, J. Melendez, M. Asplund, R. Collet and Z. Magic, Astron. Astrophys. 544, A96
+     (2013) [arXiv:1305.6564 [astro-ph.SR]].
+ [99] F. Spite and M. Spite, Astron. Astrophys. 115, 357 (1982).
+[100] J. Melendez and I. Ramirez, Astrophys. J. 615, L33 (2004) [astro-ph/0409383].
+[101] S. G. Ryan, T. C. Beers, K. A. Olive, B. D. Fields and J. E. Norris, Astrophys. J. 530, L57
+     (2000).
+[102] L. Sbordone, P. Bonifacio, E. Caffau, H.-G. Ludwig, N. T. Behara, J. I. G. Hernandez,
+     M. Steffen and R. Cayrel et al., Astron. Astrophys. 522, A26 (2010) [arXiv:1003.4510 [astro-
+     ph.GA]].
+[103] B. D. Fields, Ann. Rev. Nucl. Part. Sci. 61, 47 (2011) [arXiv:1203.3551 [astro-ph.CO]].
+[104] S. Staggs, J. Dunkley and L. Page, Rept. Prog. Phys. 81, no. 4, 044901 (2018). W. Hu and
+     S. Dodelson, Ann. Rev. Astron. Astrophys. 40, 171 (2002) [astro-ph/0110414]; M. J. White,
+     D. Scott and J. Silk, Ann. Rev. Astron. Astrophys. 32, 319 (1994).
+
+
+
+
+                                               61
+[105] Z. Hou, R. Keisler, L. Knox, M. Millea and C. Reichardt, Phys. Rev. D 87, 083008 (2013)
+      [arXiv:1104.2333 [astro-ph.CO]].
+[106] J. Silk, Astrophys. J. 151, 459 (1968).
+[107] K. N. Abazajian et al. [CMB-S4 Collaboration], arXiv:1610.02743 [astro-ph.CO].
+[108] K. Abazajian et al., arXiv:1907.04473 [astro-ph.IM].
+[109] L. M. Krauss and P. Romanelli, Astrophys. J. 358, 47 (1990); M. S. Smith, L. H. Kawano
+      and R. A. Malaney, Astrophys. J. Suppl. 85, 219 (1993).
+[110] P. J. Kernan and L. M. Krauss, Phys. Rev. Lett. 72, 3309 (1994) [astro-ph/9402010];
+      L. M. Krauss and P. J. Kernan, Phys. Lett. B 347, 347 (1995) [astro-ph/9408023].
+[111] N. Hata, R. J. Scherrer, G. Steigman, D. Thomas and T. P. Walker, Astrophys. J. 458, 637
+      (1996) [astro-ph/9412087].
+[112] B. D. Fields and K. A. Olive, Phys. Lett. B 368, 103 (1996) [hep-ph/9508344]; B. D. Fields,
+      K. Kainulainen, K. A. Olive and D. Thomas, New Astron. 1, 77 (1996) [astro-ph/9603009].
+[113] Shvartsman V. F., 1969 Pisma Zh. Eksp. Teor. Fiz. 9, 315 [JETP Lett. 9, 184].
+[114] Steigman G., D. N. Schramm and J. E. Gunn, 1977 Phys. Lett. B 66, 202.
+[115] Yang J. M., D. N. Schramm, G. Steigman and R. T. Rood, 1979, Astrophys. J. 227 697.
+[116] Yang J. M., M. S. Turner, G. Steigman, D. N. Schramm and K. A. Olive, 1984, Astrophys.
+      J. 281, 493.
+[117] Steigman G., K. A. Olive, D. N. Schramm and M. S. Turner, 1986, Phys. Lett. B 176, 33.
+[118] C. J. Copi, D. N. Schramm and M. S. Turner, Phys. Rev. D 55 (1997) 3389 [astro-
+      ph/9606059]; K. A. Olive and D. Thomas, Astropart. Phys. 7 (1997) 27 [hep-ph/9610319];
+      K. A. Olive and D. Thomas, Astropart. Phys. 11, 403 (1999) [hep-ph/9811444].
+[119] E. Lisi, S. Sarkar and F. L. Villante, Phys. Rev. D 59, 123520 (1999) [hep-ph/9901404].
+[120] S. Sarkar, Rept. Prog. Phys. 59, 1493 (1996) [hep-ph/9602260]; R. H. Cyburt, B. D. Fields,
+      K. A. Olive and E. Skillman, Astropart. Phys. 23, 313 (2005) [astro-ph/0408033].
+[121] G. Mangano and P. D. Serpico, Phys. Lett. B 701, 296 (2011) [arXiv:1103.1261 [astro-
+      ph.CO]].
+[122] G. Fiorentini, E. Lisi, S. Sarkar and F. L. Villante, Phys. Rev. D 58, 063506 (1998) [astro-
+      ph/9803177].
+[123] J. S. Avva et al. [SPT Collaboration], arXiv:1911.08047 [astro-ph.CO].
+
+
+
+
+                                                62
+[124] G. Hinshaw et al. [WMAP Collaboration], Astrophys. J. Suppl. 208 (2013) 19
+     [arXiv:1212.5226 [astro-ph.CO]]; E. Komatsu et al. [WMAP Science Team Collaboration],
+     PTEP 2014, no. 6, 06B102 (2014) [arXiv:1404.5415 [astro-ph.CO]].
+[125] I. Tima, M. Lipoglavek, M. Mihovilovi, S. Markelj, M. Vencelj and J. Vesi, Eur. Phys. J. A
+     55, no. 8, 137 (2019).
+[126] M. Gai, arXiv:1908.06451 [nucl-ex].
+[127] E. Di Valentino, C. Gustavino, J. Lesgourgues, G. Mangano, A. Melchiorri, G. Miele and
+     O. Pisanti, Phys. Rev. D 90, no. 2, 023543 (2014) [arXiv:1404.7848 [astro-ph.CO]].
+[128] A. Lewis and S. Bridle, Phys. Rev. D 66, 103511 (2002) [astro-ph/0205436].
+
+
+
+
+                                             63
+

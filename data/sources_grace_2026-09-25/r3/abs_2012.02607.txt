@@ -1,0 +1,17 @@
+Title:Neutron-Antineutron Oscillation Search using a 0.37 Megaton$\cdot$Year Exposure of Super-Kamiokande Phys. Rev. D 103, 012008 (2021) https://doi.org/10.1103/PhysRevD.103.012008
+
+            
+            
+              
+                
+                Focus to learn more
+              
+              
+              
+                
+                DOI(s) linking to related resources
+              
+            
+           
+            Abstract:As a baryon number violating process with $\Delta B=2$, neutron-antineutron oscillation ($n\to\bar n$) provides a unique test of baryon number conservation. We have performed a search for $n\to\bar n$ oscillation with bound neutrons in Super-Kamiokande, with the full data set from its first four run periods, representing an exposure of 0.37~Mton-years. The search used a multivariate analysis trained on simulated $n\to\bar n$ events and atmospheric neutrino backgrounds and resulted in 11 candidate events with an expected background of 9.3 events. In the absence of statistically significant excess, we derived a lower limit on $\bar n$ appearance lifetime in $^{16}$O nuclei of $3.6\times{10}^{32}$ years and on the neutron-antineutron oscillation time of $\tau_{n\to\bar n} > 4.7\times10^{8}$~s at 90\% C.L..
+    

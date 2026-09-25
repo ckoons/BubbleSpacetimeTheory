@@ -1,0 +1,3 @@
+Title:Evidence for Tetrahedral Structure of Calcium-40  
+            Abstract:More than 100 excited states of the Calcium-40 nucleus, with isospin 0, are classified into rotational-vibrational bands of an intrinsic tetrahedral structure. Almost all observed states below 8 MeV can be accommodated, as well as many high-spin states above 8 MeV. The bands have some similarity to those classifying states of Oxygen-16, but the A-mode vibrational frequency is lower relative to the E-mode and F-mode frequencies than in Oxygen-16. Previously identified rotational bands up to spin 16 and energy above 20 MeV are unified here into a smaller number of tetrahedral bands.
+    

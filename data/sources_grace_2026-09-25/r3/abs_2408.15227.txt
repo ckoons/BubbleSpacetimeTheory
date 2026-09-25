@@ -1,0 +1,17 @@
+Title:Axion Dark Matter eXperiment around 3.3 μeV with Dine-Fischler-Srednicki-Zhitnitsky Discovery Ability Phys. Rev. Lett. 134, 111002 (2025) https://doi.org/10.1103/PhysRevLett.134.111002
+
+            
+            
+              
+                
+                Focus to learn more
+              
+              
+              
+                
+                DOI(s) linking to related resources
+              
+            
+           
+            Abstract:We report the results of a QCD axion dark matter search with discovery ability for Dine Fischler Srednicki Zhitnitsky (DFSZ) axions using an axion haloscope. Sub-Kelvin noise temperatures are reached with an ultra low-noise Josephson parametric amplifier cooled by a dilution refrigerator. This work excludes (with a 90% confidence level) DFSZ axions with masses between 3.27 to 3.34 $\mu$eV, assuming a standard halo model with a local energy density of 0.45 GeV/cm$^3$ made up 100% of axions.
+    

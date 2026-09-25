@@ -1,0 +1,1957 @@
+                                                         Search for dinucleon decay into pions at Super-Kamiokande
+
+                                          J. Gustafson,4 K. Abe,1, 29 Y. Haga,1 Y. Hayato,1, 29 M. Ikeda,1 K. Iyogi,1 J. Kameda,1, 29 Y. Kishimoto,1, 29
+                                            M. Miura,1, 29 S. Moriyama,1, 29 M. Nakahata,1, 29 T. Nakajima,1 Y. Nakano,1 S. Nakayama,1, 29 A. Orii,1
+                                           H. Sekiya,1, 29 M. Shiozawa,1, 29 A. Takeda,1, 29 H. Tanaka,1 T. Tomura,1, 29 R. A. Wendell,1, 29 T. Irvine,2
+                                          T. Kajita,2, 29 I. Kametani,2 K. Kaneyuki,2, 29, ∗ Y. Nishimura,2 E. Richard,2 K. Okumura,2, 29 L. Labarga,3
+                                             P. Fernandez,3 S. Berkman,5 H. A. Tanaka,5 S. Tobayama,5 E. Kearns,4, 29 J. L. Raaf,4 J. L. Stone,4, 29
+                                             L. R. Sulak,4 M. Goldhaber,6, ∗ G. Carminati,7 W. R. Kropp,7 S. Mine,7 P. Weatherly,7 A. Renshaw,7
+                                         M. B. Smy,7, 29 H. W. Sobel,7, 29 V. Takhistov,7 K. S. Ganezer,8 B. L. Hartfiel,8 J. Hill,8 N. Hong,9 J. Y. Kim,9
+                                           I. T. Lim,9 T. Akiri,10 A. Himmel,10 K. Scholberg,10, 29 C. W. Walter,10, 29 T. Wongjirad,10 T. Ishizuka,11
+                                              S. Tasaka,12 J. S. Jang,13 J. G. Learned,14 S. Matsuno,14 S. N. Smith,14 T. Hasegawa,15 T. Ishida,15
+                                          T. Ishii,15 T. Kobayashi,15 T. Nakadaira,15 K. Nakamura,15, 29 Y. Oyama,15 K. Sakashita,15 T. Sekiguchi,15
+                                                T. Tsukamoto,15 A. T. Suzuki,16 Y. Takeuchi,16, 29 T. Yano,16 S. Hirota,17 K. Huang,17 K. Ieki,17
+                                         T. Kikawa,17 A. Minamino,17 T. Nakaya,17, 29 K. Suzuki,17 S. Takahashi,17 Y. Fukuda,18 K. Choi,19 Y. Itow,19
+
+
+
+
+arXiv:1504.01041v1 [hep-ex] 4 Apr 2015
+                                             G. Mitsuka,19 T. Suzuki,19 P. Mijakowski,34 J. Hignight,20 J. Imber,20 C. K. Jung,20 J. L. Palomino,20
+                                                C. Yanagisawa,20 H. Ishino,21 T. Kayano,21 A. Kibayashi,21 Y. Koshio,21 T. Mori,21 M. Sakuda,21
+                                          Y. Kuno,22 R. Tacik,23, 31 S. B. Kim,24 H. Okazawa,25 Y. Choi,26 K. Nishijima,27 M. Koshiba,28 Y. Suda,28
+                                          Y. Totsuka,28, ∗ M. Yokoyama,28, 29 C. Bronner,29 K. Martens,29 Ll. Marti,29 Y. Suzuki,29 M. R. Vagins,29, 7
+                                            J. F. Martin,30 P. de Perio,30 A. Konaka,31 M. J. Wilking,31 S. Chen,32 Y. Zhang,32 and R. J. Wilkes33
+                                                                             (The Super-Kamiokande Collaboration)
+                                            1
+                                              Kamioka Observatory, Institute for Cosmic Ray Research, University of Tokyo, Kamioka, Gifu 506-1205, Japan
+                                                                             2
+                                                                               Research Center for Cosmic Neutrinos, Institute for Cosmic Ray
+                                                                               Research, University of Tokyo, Kashiwa, Chiba 277-8582, Japan
+                                                            3
+                                                              Department of Theoretical Physics, University Autonoma Madrid, 28049 Madrid, Spain
+                                                                          4
+                                                                            Department of Physics, Boston University, Boston, MA 02215, USA
+                                                5
+                                                  Department of Physics and Astronomy, University of British Columbia, Vancouver, BC, V6T1Z4, Canada
+                                                                   6
+                                                                     Physics Department, Brookhaven National Laboratory, Upton, NY 11973, USA
+                                                   7
+                                                     Department of Physics and Astronomy, University of California, Irvine, Irvine, CA 92697-4575, USA
+                                                       8
+                                                         Department of Physics, California State University, Dominguez Hills, Carson, CA 90747, USA
+                                                                  9
+                                                                    Department of Physics, Chonnam National University, Kwangju 500-757, Korea
+                                                                           10
+                                                                              Department of Physics, Duke University, Durham NC 27708, USA
+                                                              11
+                                                                 Junior College, Fukuoka Institute of Technology, Fukuoka, Fukuoka 811-0295, Japan
+                                                                          12
+                                                                             Department of Physics, Gifu University, Gifu, Gifu 501-1193, Japan
+                                                             13
+                                                                GIST College, Gwangju Institute of Science and Technology, Gwangju 500-712, Korea
+                                                           14
+                                                              Department of Physics and Astronomy, University of Hawaii, Honolulu, HI 96822, USA
+                                                          15
+                                                             High Energy Accelerator Research Organization (KEK), Tsukuba, Ibaraki 305-0801, Japan
+                                                                        16
+                                                                           Department of Physics, Kobe University, Kobe, Hyogo 657-8501, Japan
+                                                                       17
+                                                                          Department of Physics, Kyoto University, Kyoto, Kyoto 606-8502, Japan
+                                                          18
+                                                              Department of Physics, Miyagi University of Education, Sendai, Miyagi 980-0845, Japan
+                                                       19
+                                                          Solar Terrestrial Environment Laboratory, Nagoya University, Nagoya, Aichi 464-8602, Japan
+                                              20
+                                                 Department of Physics and Astronomy, State University of New York at Stony Brook, NY 11794-3800, USA
+                                                               21
+                                                                  Department of Physics, Okayama University, Okayama, Okayama 700-8530, Japan
+                                                                    22
+                                                                       Department of Physics, Osaka University, Toyonaka, Osaka 560-0043, Japan
+                                                   23
+                                                      Department of Physics, University of Regina, 3737 Wascana Parkway, Regina, SK, S4SOA2, Canada
+                                                                       24
+                                                                          Department of Physics, Seoul National University, Seoul 151-742, Korea
+                                            25
+                                               Department of Informatics in Social Welfare, Shizuoka University of Welfare, Yaizu, Shizuoka, 425-8611, Japan
+                                                                      26
+                                                                          Department of Physics, Sungkyunkwan University, Suwon 440-746, Korea
+                                                                27
+                                                                    Department of Physics, Tokai University, Hiratsuka, Kanagawa 259-1292, Japan
+                                                                                28
+                                                                                   The University of Tokyo, Bunkyo, Tokyo 113-0033, Japan
+                                                                  29
+                                                                     Kavli Institute for the Physics and Mathematics of the Universe (WPI), Todai
+                                                               Institutes for Advanced Study, University of Tokyo, Kashiwa, Chiba 277-8582, Japan
+                                                         30
+                                                            Department of Physics, University of Toronto, 60 St., Toronto, Ontario, M5S1A7, Canada
+                                                                           31
+                                                                              TRIUMF, 4004 Wesbrook Mall, Vancouver, BC, V6T2A3, Canada
+                                                                32
+                                                                   Department of Engineering Physics, Tsinghua University, Beijing, 100084, China
+                                                                33
+                                                                   Department of Physics, University of Washington, Seattle, WA 98195-1560, USA
+                                                                             34
+                                                                                National Centre For Nuclear Research, 00-681 Warsaw, Poland
+                                                                                                   (Dated: August 21, 2018)
+                                                     A search for dinucleon decay into pions with the Super-Kamiokande detector has been performed
+                                                   with an exposure of 282.1 kiloton-years. Dinucleon decay is a process that violates baryon number
+                                                                                                                                     2
+
+              by two units. We present the first search for dinucleon decay to pions in a large water Cherenkov
+              detector. The modes 16 O(pp) → 14 Cπ + π + , 16 O(pn) → 14 Nπ + π 0 , and 16 O(nn) → 14 Oπ 0 π 0 are
+              investigated. No significant excess in the Super-Kamiokande data has been found, so a lower limit
+              on the lifetime of the process per oxygen nucleus is determined. These limits are: τpp→π+ π+ >
+              7.22 × 1031 years, τpn→π+ π0 > 1.70 × 1032 years, and τnn→π0 π0 > 4.04 × 1032 years. The lower
+              limits on each mode are about two orders of magnitude better than previous limits from searches
+              for dinucleon decay in iron.
+
+              PACS numbers: 13.30.Eg, 14.20.Dh, 29.40.Ka
+
+
+                 I.   INTRODUCTION                                        q1                                               q1
+                                                                           u                                               d¯
+   Baryon number seems to be a conserved quantity in or-                   d
+der to explain the stability of matter, yet baryon number                                        X1
+must be violated to explain the predominance of mat-                                   X2
+ter over antimatter in the universe [1]. Single nucleon                    d                X1
+decay processes that violate baryon number by one unit                     u                                               d¯
+but conserve ∆|B − L| (where B is baryon number and                       q2                                               q2
+L is lepton number) have been studied extensively at
+Super-Kamiokande [2–6] in the context of Grand Uni-
+                                                                  FIG. 1. Feynman diagram for dinucleon decay to pions from
+fied Theories (GUTs) that predict an unstable proton.
+                                                                  one of the models discussed in [9], with spectator quarks
+Lower limits on proton decay modes such as p → e+ π 0             q1 , q2 ∈ (u, d). The X1 and X2 scalar particles belong to
+of 1.2 × 1034 years [7] have ruled out the simplest GUTs,         (6̄, 1, − 31 ) and (6̄, 1, 32 ) representations of the Standard Model
+such as minimal SU (5) [8]. Other processes, such as those        SU (3) ⊗ SU (2) ⊗ U (1) gauge group.
+that violate B by two units, are of great theoretical inter-
+est although not necessarily predicted by GUT-inspired
+models. Searches for such processes constitute an im-                One dinucleon decay search has been performed be-
+portant subset of searches for baryon number violation,           fore at Super-Kamiokande, namely a search for decay
+both in their own right and given the continued non-              to charged kaons [11]. The Frejus experiment, which
+observation of single nucleon decay. Discovery of such a          used iron nuclei, performed an extensive search cover-
+process would be a spectacular revelation of new physics,         ing dinucleon decay final states [12]. The search in [12]
+while non-observation provides important constraints on           includes the modes analyzed in this paper. The more
+the theories which predict them. Dinucleon decay – the            exclusive limits in this paper relative to those in [12] re-
+simultaneous decay of two bound nucleons into leptons             flect the large exposure of Super-Kamiokande. Our limit
+or mesons – constitutes such a process. In this pa-               calculation accounts for systematic uncertainties, partic-
+per we search for the processes 16 O(pp) → 14 Cπ + π + ,          ularly those due to intranuclear pion interactions. This is
+16
+   O(pn) → 14 Nπ + π 0 , and 16 O(nn) → 14 Oπ 0 π 0 (abbre-       the first search for dinucleon decay into pions in a water
+viated throughout to pp → π + π + , pn → π + π 0 , and            Cherenkov detector.
+nn → π 0 π 0 ).                                                      This paper proceeds as follows. Section II describes
+   Processes violating baryon number by two units can             some basic features of the Super-Kamiokande exper-
+occur in a broad class of models [9]. The experimen-              iment. Section III describes relevant aspects of our
+tally accessible processes of this kind are dinucleon decay       Monte-Carlo simulation, for both dinucleon decay sig-
+and neutron-antineutron oscillation (n-nbar). The latter          nal and atmospheric neutrino background. Section IV
+process may also be pursued in experiments with free              describes standard data selection and reconstruction al-
+neutrons [10], whereas dinucleon decay requires the close         gorithms used in Super-Kamiokande. Section V describes
+overlap of bound nucleons. The tree-level Feynman dia-            the analysis of all three modes, first discussing some fea-
+gram for n-nbar and dinucleon decay to pions is the same,         tures of boosted decision trees that are relevant for the
+with two spectator quarks in the latter case. An exam-            pp → π + π + and pn → π + π 0 searches. Sections VI and
+ple of a dinucleon decay diagram from one of the models           VII describe our results and conclusion.
+discussed in [9] is shown in Fig. 1. The expected time
+scale for dinucleon decay to pions can be related to the
+time scale for n-nbar, if the same operator is dominant             II.   THE SUPER-KAMIOKANDE DETECTOR
+for each process. This is discussed further in Appendix
+A.                                                                  Super-Kamiokande (hereafter “SK”) is a large, cylin-
+                                                                  drical water Cherenkov detector. Full details of the de-
+                                                                  tector can be found in [13]; here, we note only the most
+                                                                  basic features.
+∗ Deceased.
+                                                                    The detector contains two optically-separated regions:
+                                                                                                                             3
+
+the inner detector (ID) and outer detector (OD). Inward-       pecially prominent, given the dense nuclear material the
+facing, 20-inch photomultiplier tubes (PMTs) collect           pions traverse.
+Cherenkov light in the ID, while light from penetrating           Fermi momentum and nuclear binding energy are
+particles (typically cosmic-ray muons) is detected by 8-       taken from measured electron-12 C scattering [17]. Nu-
+inch, outward-facing PMTs in the OD. The fiducial vol-         clear binding energy is taken into account by modifying
+ume of the ID is defined as the cylindrical volume with        the nucleon masses. Reference [18] estimates that 10% of
+surfaces two meters inward from the ID wall. This cor-         single nucleons that undergo decay have wavefunctions
+responds to 22.5 ktons, and 7.5 × 1033 oxygen nuclei.          that are correlated with other nucleons in the nucleus;
+   SK has had four data-taking periods. It began taking        we assume the same level of correlation for dinucleon de-
+data in April 1996, with 11,146 PMTs covering 40% of           cay pairs. Such correlated decay events typically have a
+the ID surface. The first data-taking period, called SK-I,     lower total invariant mass, due to the momentum of the
+continued until July 2001, totaling 1489.2 livetime days,      correlated nucleon, which is below Cherenkov threshold
+or 91.7 kton-years. An accident occurred in November           (Fig. 2). The positions of the decaying nucleons in 16 O
+2001, which caused the implosion of about half of the ID       are approximated using the Woods-Saxon nuclear den-
+PMTs. The remaining 5,182 PMTs were re-distributed             sity model [19]. Dinucleon decay leaves the remaining
+uniformly on the surface of the ID, providing 19% photo-       nucleus in an excited state from which it de-excites by
+coverage. To prevent such accidents in the future, each        the emission of gamma rays. However, the de-excitation
+PMT has been enclosed in acrylic and fiber-reinforced          gamma rays are on the order of a few MeV, while the pi-
+plastic cases. The second data-taking period, which            ons are on the order of a GeV, so the extra light coming
+used this decreased photo-coverage, lasted from Decem-         from the gamma rays is negligible relative to the pions.
+ber 2002 until October 2005, and is called SK-II. This         The main difference in dinucleon decay simulation from
+lasted 798.6 livetime days, or 49.2 kton-years. Replace-       single-nucleon decay is the available phase space. For din-
+ment PMTs were produced and the photo-coverage was             ucleon decay, the initial total momentum and energy are
+returned to 40% in 2006. The third data-taking period,         summed over both nucleons (or three nucleons, if there
+from July 2006 until September 2008, is called SK-III,         is a correlated decay).
+comprising 518.1 livetime days (31.9 kton-years). The
+detector was upgraded in the summer of 2008, with im-
+proved electronics that record all PMT hit information
+                                                                      Events
+without dead time [14] [15]. This is the current con-                          104      Invariant mass of pions
+figuration of the detector, called SK-IV. In this paper,                       103
+SK-IV data are used up to March 2014, which comprises                          102
+1775.6 livetime days (109.3 kton-years). The total SKI-
+IV dataset is 282.1 kton-years.                                                 10
+                                                                                    1
+                                                                                 -1
+                                                                               10
+                  III.   SIMULATION
+                                                                               10-2
+                                                                                        500      1000      1500    2000
+   Dinucleon decay signal and atmospheric neutrino back-                                           Invariant mass (MeV/c2)
+ground Monte Carlo simulations (MC) are generated to
+estimate signal efficiency, expected background rates,
+and systematic uncertainties. Since each of the four           FIG. 2. Invariant mass of the pions from pp → π + π + , before
+SK data-taking periods have different detector configu-        nuclear effects. Plots for pn → π + π 0 and nn → π 0 π 0 look
+rations, separate sets of MC for both the dinucleon de-        similar. The dashed histogram shows the spectrum for events
+cay signal and the atmospheric neutrino background are         with a correlated nucleon.
+used for each period. The dinucleon decay MC is based
+on single nucleon decay MC used for previous SK analy-            Pion-nucleon interactions in the nucleus are simulated
+ses [2–6]. The atmospheric neutrino MC is the same MC          using NEUT [20]. The interactions modeled include
+sample used in other SK analyses, as described in detail       quasielastic scattering, in which the incoming and outgo-
+in [16].                                                       ing pion have the same charge, but there is some energy
+                                                               loss; charge exchange (e.g. π + + n → π 0 + p); absorp-
+                                                               tion (e.g. π + + n → p); and hadron production (e.g.
+                    Dinucleon decay                            π + + p → π + + π 0 + p). Quasielastic scattering is rel-
+                                                               evant at all pion momenta, as is charge exchange, al-
+   As dinucleon decay requires the close overlap of two        though it has a lower overall cross-section. Absorption
+nucleons, we restrict attention to the oxygen nucleus for      has a sizable cross-section in the pion momentum range
+the decaying nucleons. Fermi momentum, correlation be-         100-300 MeV/c range, but is negligle elsewhere. Hadron
+tween nucleons, nuclear binding energy, and pion-nucleon       production is relevant for pion momentum greater than
+interactions are taken into account. This last effect is es-   500 MeV/c, and is therefore relevant for most pions im-
+                                                                                                                                 4
+
+mediately after the decay. With these effects taken into                                Atmospheric neutrinos
+account, less than half of the generated events in each
+mode escape the nucleus in the original pion configura-                   The atmospheric neutrino MC sample is based on the
+tion (Table I).                                                        Honda atmospheric neutrino flux [24], and the NEUT
+   After the pions leave the nucleus, their propagation                neutrino interaction and nuclear effects simulator [20].
+and Cherenkov light emission is passed through a custom                The dominant neutrino interaction background for the
+detector simulation based on GEANT3 [21]. Charged pi-                  dinucleon decay searches comes from charged-current sin-
+ons are susceptible to further secondary interactions in               gle pion production (CC1π, ν +N → `+N 0 +π for nucle-
+the water, while neutral pions decay before such interac-              ons N, N 0 and charged lepton `), as well as both charged
+tions. Propagation of charged pions through the water                  and neutral-current deep inelastic scattering (CCDIS and
+below 500 MeV/c is simulated by custom code based on                   NCDIS, ν+N → `+N 0 + hadrons, where ` can be charged
+[22], while charged pions above this momentum are han-                 or neutral). Pions in CC1π interactions are produced
+dled by GCALOR [23].                                                   following the model of Rein and Sehgal [25]. This is the
+                                                                       dominant hadron production interaction for hadronic in-
+                                                                       variant mass W below about 2 GeV /c2 . Deep inelastic
+                                                                       scattering is treated differently depending on W . For
+                                      pp → π + π +                     1.3 GeV /c2 ≤ W ≤ 2.0 GeV /c2 , only pions are consid-
+                          +
+                  π                                                    ered as outgoing hadrons, and the number of pions is
+                                       0       1           2       3
+             π0                                                        two or greater to differentiate it from CC1π. For W >
+                          0    — 11.8% 45.1% 2.4%                      2.0 GeV /c2 , other mesons are also considered, such as η
+                          1 2.7% 21.8%   5.2%   —                      mesons and kaons. After leaving the nucleus, particles
+                          2 2.8% 3.0%       —   —
+                                                                       are propagated through the water using the same tools
+                                                                       described above for dinucleon decay.
+                                      pn → π + π 0                        The atmospheric neutrino samples correspond to an
+                  π   +                                                exposure of 500 years for each SK period. Event rates
+                                       0           1       2       3   are weighted to include the effect of neutrino oscillations.
+            π0
+                          0     —  6.8% 12.3% 1.4%                     Final event rates after all selection criteria have been ap-
+                          1 7.1% 46.8% 3.7%      —                     plied are normalized to the corresponding SKI-IV detec-
+                          2 10.5%  4.1%     —    —                     tor livetime.
+
+                                      nn → π 0 π 0
+                                  +                                      IV.   REDUCTION AND RECONSTRUCTION
+                              π
+                      0                    0           1       2
+                  π
+                                  0     — 2.6% 3.5%                       This search uses the fully-contained (FC) dataset.
+                                  1 11.5% 25.1% 2.8%                   Fully-contained events are defined as events in which
+                                  2 43.0% 4.2%     —                   all charged particles start and stop in the ID. Exiting
+                                                                       and entering particles, particularly cosmic ray muons,
+TABLE I. Number of pions for pp → π + π + (top), pn → π + π 0          are excluded by requiring minimal activity in the OD.
+(middle), and nn → π 0 π 0 (bottom) after nuclear effects. Per-        The threshold for a triggered event in the FC dataset
+centages indicate the percentage of events with the specified          is 5.7 MeV of visible energy in SK-I, III, and IV, and 8
+number of π + ’s (columns) and number of π 0 ’s (rows). Entries        MeV of visible energy in SK-II. Visible energy is defined
+with a “—” indicate a small contribution (<0.1%). The num-             as the energy to produce the observed light in the event
+ber of pions prior to nuclear effects is shown in bold typeface.       if it were produced by a single electron. The majority
+                                                                       of triggered events are cosmic ray muons and low energy
+                                                                       radioactivity from material surrounding the detector. A
+                                                                       dedicated set of event selection algorithms is applied to
+   Monte carlo events are generated in a broadened fidu-               eliminate the majority of these backgrounds, such that
+cial volume (FV), greater than one meter from the ID                   all but a fraction of remaining events come from atmo-
+wall as opposed to two meters which defines the FV. This               spheric neutrinos [16].
+allows us to account for events that migrate across the                   Events that remain are passed through a reconstruc-
+FV boundary when reconstructed. The final detection                    tion program. The reconstruction for each event de-
+efficiency is defined as the ratio of events surviving all             termines an overall event vertex and the number of
+selection criteria to the total number of events generated             Cherenkov rings, as well as the direction, momentum,
+in the fiducial volume. For each SK period, we generate a              and particle classification of each ring. Events are as-
+total of 25,000 events. Three times this number of events              sumed to originate from a single vertex, and the distribu-
+is generated in modes for which we use a multivariate                  tion of observed charge is used to find the first Cherenkov
+search method. This is because the multivariate method                 ring. Additional rings are found using a Hough transform
+requires three separate samples, as described later.                   method [26]. Full details on our event reconstruction can
+                                                                                                                           5
+
+be found in [16] and [27].                                       mated to be < 1%. In the next section, all analyses start
+   Each Cherenkov ring is classified as “e-like” or “µ-like”,    with the FCFV events.
+referring to electrons and muons. This is a conventional
+way of denoting whether a ring displays the characteris-
+tics of electromagnetic showers or not. Showering rings                              V.    ANALYSIS
+are produced by electrons and photons, but not protons,
+muons, or charged mesons. The classification of each                The experimental signature of a dinucleon decay to
+ring is determined by its light pattern. Electromagnetic         pions event, for all three modes considered, is two back-
+showers produce fuzzy rings due to scattering and pair           to-back pions, each forming at least one Cherenkov ring
+production, while heavier particles produce rings with           of the correct type. The characterization of such events
+sharper edges.                                                   is made difficult due to the interactions of charged pions
+   The momentum of each ring is determined based on the          in both the residual oxygen nucleus and the water. In-
+particle type, and the number of photo-electrons, referred       teractions in the water lead to truncated Cherenkov light
+to as charge, within a 70 degree half-angle cone of the ring     signatures, which typically lead to poor momentum re-
+direction. The charge is corrected for light attenuation         construction. Thus, for modes involving at least one π +
+and PMT angular acceptance. The overall charge in the            (pp → π + π + and pn → π + π 0 ), simple selection criteria
+cone is corrected for variations in the PMT gains.               based on kinematic variables such as the total momentum
+   In addition to the standard ring-finding program, an          and invariant mass that are used in other nucleon decay
+algorithm described in detail in [28] is used to detect          analyses do not give optimal sensitivity. For these modes,
+particle tracks. Unlike the standard ring-finder, this al-       a multivariate method is applied to statistically identify
+gorithm does not search for ring edges, but rather tests         events with some, but perhaps not all, of the expected
+particle hypotheses as either electrons or photons (specif-      characteristics that differentiate signal and background.
+ically, two photons from a π 0 decay) using only the light       Specifically, a boosted decision tree (BDT) method is
+pattern. It has been used in atmospheric neutrino [29]           used. The method is implemented in the ROOT-based
+and long-baseline [30] oscillation analyses to reject neu-       TMVA [31] analysis library. This was also used in the
+tral current single π 0 events. It is used in the pn → π + π 0   dinucleon decay analysis in [11].
+search to identify a π 0 from the decay and use its recon-          For nn → π 0 π 0 , the situation is more straightforward,
+structed mass as a discriminating variable for the analy-        as the π 0 ’s that escape the nucleus decay to energetic
+sis.                                                             photons before interaction in the water, and the electro-
+   After the primary event, electrons from stopping              magnetic showers are well-reconstructed. For this mode,
+muons (Michel electrons) are found by searching for clus-        simple kinematic selection criteria are sufficient for the
+ters of hits detected at the same time. The time window          analysis.
+for such clusters extends to 20 µs after the main event.
+In the SK-I, II, and III data-taking periods, there was an
+impedance mismatch in the electronics which caused sig-                          Boosted Decision Trees
+nal reflection around 1000 ns after the main event. Thus,
+the time period 800-1200 ns after the main event was ex-            Here we describe some relevant details of the BDT, ap-
+cluded from the Michel electron search. The improved             plicable for both pp → π + π + and pn → π + π 0 searches.
+electronics of SK-IV eliminated this signal reflection, and      Similar to other multivariate methods, a BDT takes a
+as a result the tagging efficiency has improved from 80%         set of input variables – in this case, reconstructed infor-
+to 96% for µ+ decays and 63% to 83% for µ− decays be-            mation for both dinucleon decay signal and atmospheric
+tween SK-I-III and SK-IV. Hence, event selections that           neutrino background – with the goal of producing a single
+place an upper limit on the number of Michel electrons           discriminating output variable that separates signal and
+reduce the event rates more in SK-IV than in SK-I-III.           background. To get to this single variable, three stages
+   After the reconstruction, a final set of selection criteria   are required. They are referred to as training, testing,
+is applied to isolate fully-contained fiducial volume events     and analysis, and each uses separate sets of signal and
+(FCFV):                                                          background MC. We describe the process briefly.
+                                                                    Boosted decision trees are sets of individual decision
+    • No significant OD activity: the largest OD hit clus-       trees, simple binary trees formed by selection cuts on sin-
+      ter contains less than 10 hits (SK-I) or 16 hits (SK-      gle variables. Trees are built using the training sample
+      II-IV).                                                    as follows. Starting with the full training sample, a selec-
+    • The total visible energy is greater than 30 MeV.           tion cut on a single variable is made that best separates
+    • The reconstructed event vertex must be at least 2          signal and background. For the analyses in this paper,
+      m from the inner detector wall. This is the fiducial       this optimal separation is determined by the Gini index
+      volume cut as defined in Section II.                       g = p(1 − p), where p is the purity of the sample after
+                                                                 the selection. Other separation types exist, though they
+After the FCFV selection, the fraction of events coming          don’t lead to significantly different performance [31]. The
+from sources other than atmospheric neutrinos is esti-           sample then splits off into two samples, or nodes, based
+                                                                                                                           6
+
+on this selection. Each of the daughter nodes does the                       training        testing         analysis
+same thing, separately finding the variable that best sep-        dinuc.
+                                                                            25000 ev.      25000 ev.        25000 ev.
+arates between signal and background, and so forth until          decay
+some stopping criterion is reached (such as a minimum                      ∼750,000 ev. ∼750,000 ev. ∼1,000,000 ev.
+                                                                  atm-ν
+number of events remaining on a node). Terminal nodes                       (150 yr.)    (150 yr.)     (200 yr.)
+are declared signal-like or background-like based on the
+purity of signal events in the node.
+   The training process continues over many such trees        TABLE II. Independent MC sample sizes used for each stage
+                                                              of the BDT for both the pp → π + π + and pn → π + π 0 searches,
+(typicially 1000 or so) using the same training sample,
+                                                              prior to any event selection. Dinucleon decay sample sizes
+with the prescription that events in subsequent trees are     show only the number of events, while the atmospheric neu-
+re-weighted, or “boosted.” Several boosting algorithms        trino sample sizes show the approximate number of events
+exist, and are described in [31]. Upon re-weighting, the      and the equivalent number of years. The same statistics are
+best set of discriminating variables may change. Vari-        used for SKI-IV.
+ables can also be used more than once in a given tree.
+   Once the training sample has been processed, addi-
+tional datasets may pass through the trained set of trees.    key characteristics are that the event has two “back-to-
+On an event-by-event basis, the final BDT output is given     back” rings, as the ring-finding algorithm is still good at
+by                                                            reconstructing the ring direction even with the poor mo-
+                                                              mentum resolution, and that the rings are identified as
+                              N
+                          1   Xtree
+                                                              µ-like. Due to interactions in the water, the π + ’s can sim-
+              YBDT =                  wi hi (x).       (1)    ulate showering effects and therefore be mis-identified as
+                        Ntree i=1
+                                                              e-like. However, the converse – in which rings produced
+                                                              by electrons or photons are misidentified as µ-like – is
+Here Ntree is the size of the ensemble of trees, wi is
+                                                              rare. The following selection criteria are applied:
+the weight of each tree in the ensemble, determined by
+the boosting method, hi is the “performance” of each          (A1) There is more than one Cherenkov ring.
+event for the ith tree (whether it ended on a signal or
+background-like node) and x is the set of input variables.    (A2) The two most energetic rings are µ-like. These are
+Variables are given a ranking, or “importance,” a nu-              assumed to correspond to the π + candidates.
+merical value that roughly corresponds to the number of
+times the variable is used in the training process relative   (A3) The angle between the two most energetic rings is
+to the other variables in the set.                                 greater than 120 degrees, a minimal requirement
+   After the BDT is trained, two additional, statistically         for “back-to-back” pions.
+independent sets of signal and background MC are neces-
+                                                              (A4) The total visible energy is less than 1600 MeV, ap-
+sary. The test samples are used to determine the optimal
+                                                                   proximately the maximum visible energy expected
+boost method, as well as some additional parameters.
+                                                                   from a dinucleon decay event (2Mp −2Mπ+ ), where
+The analysis samples are used to obtain the final sensitiv-
+                                                                   Mp is the proton and Mπ+ the pion mass.
+ity. Unlike in the training and testing process, no infor-
+mation is given to the BDT regarding the composition of
+the analysis samples as either signal or background. Both
+the test and analysis samples are also important in de-                        SK-I    SK-II    SK-III   SK-IV
+                                                                   Eff.(%) 11.2±0.2 10.5±0.2 12.0±0.2 12.1±0.2
+tecting training bias in the BDT. This bias is a situation
+                                                                   Bkg.      33±0.9   17±0.5   13±0.4   45±1.2
+in which the BDT has been trained to model statistical             data          27       14         8      43
+fluctuations in the training sample, as opposed to mod-
+eling from general trends in the input variables. Such
+                                                              TABLE III. Efficiencies, expected backgrounds, and data
+overtraining can lead to different performance between        events after selection criteria are applied in the pp → π + π +
+MC samples, even if they are statistically similar.           search. Background rates are scaled to the appropriate SK
+   Table II quantifies the signal and background MC sam-      period livetime. Statistical errors are shown.
+ples used for each stage. Separate trees are trained,
+tested, and analyzed for each SK period. Real data are
+processed through the trained BDTs as a final step.             The signal efficiency, expected background, and data
+                                                              events remaining after the initial selection criteria is
+                                                              shown in Table III. After applying these criteria, we in-
+                      pp → π + π +                            put the remaining events into the BDT. The following
+                                                              set of input variables is used, ordered by their relative
+   The interactions of π + ’s in the nucleus and the water    importance, as described in the BDT section above:
+complicate the event signature for pp → π + π + . A set of
+selection criteria is applied to keep pp → π + π + events,    (a1) The angle between the two most energetic µ-like
+and reduce the atmospheric neutrino background. The                rings. It is expected to peak around a perfect
+                                                                                                                                 7
+
+
+                                 SK-I                                                        SK-I
+                6                                                           7
+                5                                                           6
+
+                4                                                           5
+
+       Events                                                      Events
+                                                                            4
+                3
+                                                                            3
+                2
+                                                                            2
+                1                                                            1
+                0                                                           0
+                 120   130   140    150   160    170     180                     0   0.2    0.4      0.6    0.8       1
+                             Angle (degrees)                                               Charge ratio
+
+
+                                SK-II                                                        SK-II
+                3                                                           4
+
+
+
+       Events                                                      Events
+                                                                            3
+                2
+
+                                                                            2
+                1
+                                                                             1
+
+                0                                                           0
+                 120   130   140    150   160    170     180                     0   0.2    0.4      0.6    0.8       1
+                             Angle (degrees)                                               Charge ratio
+
+
+                                SK-III                                                       SK-III
+                2
+
+
+
+
+       Events                                                      Events
+                                                                            2
+                1
+
+
+
+
+                0                                                           0
+                 120   130   140    150   160    170     180                     0   0.2    0.4      0.6    0.8       1
+                             Angle (degrees)                                               Charge ratio
+
+
+                                SK-IV                                       10
+                                                                                            SK-IV
+                8                                                            9
+                7                                                            8
+                6                                                            7
+
+
+       Events                                                      Events
+                5                                                            6
+                                                                             5
+                4
+                                                                             4
+                3
+                                                                             3
+                2                                                            2
+                1                                                            1
+                0                                                            0
+                 120   130   140    150   160    170     180                     0   0.2    0.4      0.6    0.8       1
+                             Angle (degrees)                                               Charge ratio
+
+
+FIG. 3. The angle between µ-like rings and the ratio of charge carried by the most-energetic ring, for the pp → π + π + search, for
+signal MC (solid histogram), atmospheric neutrino MC (dashed histogram), and data (crosses). Distributions are normalized
+to the number of events in the data. Details of each variable are described in the text.
+                                                                                                                           8
+
+     “back-to-back” angle of 180 degrees for the signal,       inating variables, the angle between π + candidates and
+     and have a falling spectrum for increasing angle in       the ratio of charge carried by the most energetic ring.
+     the background.                                           The number of events in the data is small after the se-
+(a2) The ratio of charge carried by the highest-energy         lection criteria is applied, but the data and atmospheric
+     ring to the total charge of all rings. This is ex-        neutrino MC are consistent.
+     pected to be smaller for signal, since the pions are         The final distributions of the BDT output for all SK
+     expected to have roughly equal energy. By con-            periods are shown in Fig. 4. For pp → π + π + , the gra-
+     trast, we expect most of the energy from a charged-       dient boost [31] method is used. The final efficiencies,
+     current (CC) atmospheric neutrino event to be in          backgrounds, and candidate data events are shown in
+     the charged lepton ring.                                  Table V. SK-II has a slightly lower efficiency than the
+(a3) The total visible energy. This has a broad distri-        other SK periods, as fewer events pass selection criterion
+     bution up to 1600 MeV for the signal, but peaks at        (A2).
+     a lower value for the background around 200 MeV.
+(a4) The maximum distance between a Michel electron                     Variable                       Importance
+     vertex and the primary event vertex. We expect                     Angle between µ-like rings           0.16
+     this to be larger for energetic muons than for pi-                 Ratio of charge carried by
+                                                                                                               0.15
+     ons, since the muons penetrate water without sud-                     most energetic ring
+     den hadronic interactions. Muons above Cherenkov                   Visible energy                         0.15
+     threshold sometimes appear in the signal (about                    Max. distance to
+                                                                                                               0.13
+                                                                         Michel vertex
+     9% of the time), but are much more common in
+                                                                        Max. angle between µ-like
+     the background, due to charged-current νµ interac-                  ring and Michel vertex
+                                                                                                               0.13
+     tions such as single pion production.                              Magnitude of vector sum
+(a5) The maximum angle between any µ-like ring direc-                                                          0.12
+                                                                           of corrected charge
+     tion vector, and any Michel electron vertex vector                 Number of rings                       0.071
+     (as pointed to from the primary vertex). Similar                   Number of Michel electrons            0.055
+     to (a1), this is designed to look for “back-to-back”               Number of µ-like rings                0.045
+     events, and is an additional check on the topology
+     of the µ-like rings.                                      TABLE IV. Relative importance of each variable in the
+(a6) The magnitude of the vector sum of corrected              pp → π + π + search, averaged across SK periods.
+     charge associated with all rings, where the correc-
+     tions are applied for various factors, as described in
+     Section IV. This is similar to the total momentum,
+     since the corrected charge associated with each ring                           SK-I    SK-II   SK-III   SK-IV
+     is used to determine its momentum. Due to typi-            Eff. (%)         6.1±0.2 5.3±0.2 6.4±0.2 5.8±0.2
+     cally poor momentum resolution from hadronic en-           Bkg. (MT-yr)    17.8±1.8 14.3±1.6 17.4±1.7 14.2±1.6
+     ergy losses, it is preferable to use this variable in-     Bkg. (SK live.)      1.6     0.70     0.56      1.6
+                                                                Candidates             0        1        0        1
+     stead of the total momentum.
+(a7) The number of Cherenkov rings. Though we are
+     trying to isolate two pions, they typically interact in   TABLE V. Efficiency, expected background events, and can-
+     the water, often producing visible secondary tracks,      didate data events for the SKI-IV pp → π + π + search. Statis-
+     so that the number of rings distribution peaks at         tical errors are quoted for efficiency and background. Back-
+     three. By contrast, the Cherenkov ring spectrum           ground is quoted both for the appropriate SK livetime, and
+     for the background falls with increasing ring num-        per megaton-year.
+     ber.
+(a8) The number of Michel electrons. Naively we would
+     expect two Michel electrons from two charged pi-                  mode       SK-I     SK-II     SK-III    SK-IV
+     ons. However, the pions could undergo charge ex-                  CC1π     45±7%     42±7%     51±7%     42±7%
+     change or absorption, leading to zero or one Michel              CCDIS     30±5%     31±6%     24±5%     34±7%
+     electrons. Though the signal and background dis-                 NCDIS     10±4%      9±4%      6±3%     13±5%
+     tributions both peak at one decay electron, this                 CCQE       9±3%      9±3%     10±3%     10±4%
+     variable is relatively independent of most of the                 NC1π      5±3%      8±4%      8±3%      0+1%
+     other variables, which depend on Cherenkov ring-
+     counting.                                                 TABLE VI. Atmospheric neutrino interaction modes in the
+(a9) The number of µ-like rings. Similar to the to-            remaining background for the pp → π + π + search by percent-
+     tal number of rings, this variable specifically seeks     age, as estimated by atmospheric neutrino MC.
+     scatters that produce a secondary charged pion.
+  The relative importance of all input variables is shown        The final cut on the BDT output was determined using
+in Table IV. Fig. 3 shows plots of the two most discrim-       only signal and background MC, not the real data. The
+                                                                                                                                   9
+
+
+                                   SK-I                                                         SK-II
+                12                                                       6
+
+                10                                                       5
+
+                8                                                        4
+
+       Events   6                                               Events   3
+
+                4                                                        2
+
+                2                                                         1
+
+                0                                                        0
+                     -1   -0.5        0       0.5    1                           -1     -0.5        0       0.5       1
+                                 BDT Output                                                    BDT Output
+
+
+                                  SK-III                                                        SK-IV
+            3.5
+                                                                         16
+                3                                                        14
+            2.5                                                          12
+
+
+       Events                                                   Events
+                2                                                        10
+            1.5                                                           8
+                                                                         6
+                 1
+                                                                         4
+            0.5                                                          2
+                0                                                        0
+                     -1   -0.5        0       0.5    1                           -1     -0.5        0       0.5       1
+                                 BDT Output                                                    BDT Output
+
+
+FIG. 4. BDT output for pp → π + π + signal MC (solid), atmospheric neutrino background MC (dashed), and data (crosses).
+The vertical green line indicates the BDT cut value, and the arrow indicates that only events to the right of the cut are kept.
+
+    Variable                                                                    Candidate            Signal         Background
+                                                                               SK-II SK-IV       SK-II SK-IV       SK-II SK-IV
+    Angle between µ-like rings (degrees)                                       177.7  151.8      152.3    152.1    138.3   138.1
+    Ratio of charge carried by most energetic ring (dimensionless)              0.60    0.46      0.55      0.55    0.66    0.66
+    Visible energy (MeV)                                                       400.0  745.6      680.5    693.7    440.2   407.3
+    Max. distance to Michel vertex (cm)                                       1245.6 1420.1      440.7    424.8    523.0   459.2
+    Max. angle between µ-like ring and Michel vertex (degrees)                 166.3  111.9       94.2    109.0     93.2   110.9
+    Magnitude of vector sum of corrected charge (corrected p.e.)               306.9 1799.5      601.3 1310.0      448.7   797.5
+    Number of rings (dimensionless)                                                3       3      2.89      2.95    2.39    2.40
+    Number of Michel electrons (dimensionless)                                     1       2      0.91      1.09    1.00    1.21
+    Number of µ-like rings (dimensionless)                                         2       2      2.14      2.16    2.05    2.05
+
+TABLE VII. Candidate variable values, and mean variable values for signal and background distributions, for each of the
+variables used in the BDT for the pp → π + π + search. Values are given for SK-II and SK-IV, for which single candidate events
+were found.
+
+
+
+cut takes two basic
+                  √ considerations into account: (1) the          all SK periods, it was found that a cut at 0.7 satisfied (1)
+cut maximizes / b, where  is signal efficiency and b is         while obeying the constraint of (2).
+the background rate; and (2) the cut is not too close to             The largest component (∼40%) of the remaining at-
+the signal peak, since variations are propagated through          mospheric background is from charged current single
+the BDT to estimate systematics, and the part of the              pion production (CC1π). In this mode, typically a
+distribution near the peak changes the most under these           νµ will produce a muon and a charged pion at a
+variations. For (2), 0.7 was the closest value to the peak        large angle, thus passing the π + candidate angle re-
+that we considered. As the efficiency (background) dis-           quirement.    Other contributing background interac-
+tribution increases (decreases) nearly monotonically for          tion modes include charged-current deep inelastic scat-
+                                                                                                                                                                                           10
+
+   Super-Kamiokande IV                                                                 Super-Kamiokande II
+    Super-Kamiokande IV
+   13-07-12:04:29:54
+     13-07-12:04:29:54
+                                                                                             Super-Kamiokande II
+                                                                                       04-11-10:07:48:37
+   Inner: 1832   hits, 7363 pe                                                         Inner: 885 hits, 1517 pe
+     Inner:5 1832
+   Outer:         hits,
+             hits, 3  pe 7363 pe
+     Outer: 5 hits, 3 pe                                                               Outer:04-11-10:07:48:37
+                                                                                               2 hits, 9 pe
+   Trigger: 0x00
+     Trigger: 0x00                                                                     Trigger: 0x07
+                                                                                            Inner: 885 hits, 1517 pe
+   D_wall: 735.1 cm
+     D_wall: 735.1 cm                                                                       Outer:
+                                                                                       D_wall:     2 cm
+                                                                                               456.4 hits, 9 pe
+   Evis: 829.6 MeV
+     Evis: 829.6 MeV                                                                        Trigger:
+                                                                                       Evis: 387.3   0x07
+                                                                                                   MeV
+                                                                                            D_wall: 456.4 cm
+                                                                                            Evis: 387.3 MeV
+
+  Charge(pe)
+   Charge(pe)
+          >26.7                                                                       Charge(pe)
+            >26.7
+     23.3-26.7                                                                               >26.7
+                                                                                          Charge(pe)
+       23.3-26.7
+     20.2-23.3
+       20.2-23.3                                                                         23.3-26.7>26.7
+     17.3-20.2
+       17.3-20.2                                                                         20.2-23.3
+                                                                                              23.3-26.7
+     14.7-17.3
+       14.7-17.3                                                                         17.3-20.2
+                                                                                              20.2-23.3
+     12.2-14.7
+       12.2-14.7                                                                         14.7-17.3
+                                                                                              17.3-20.2
+     10.0-12.2
+       10.0-12.2                                                                         12.2-14.7
+                                                                                              14.7-17.3
+      8.0-10.0
+        8.0-10.0                                                                              12.2-14.7
+                                                                                         10.0-12.2
+      6.2-
+        6.2-8.0
+              8.0                                                                             10.0-12.2
+                                                                                          8.0-10.0
+      4.7-
+        4.7-6.2
+              6.2                                                                              8.0-10.0
+                                                                                          6.2- 8.0
+      3.3-
+        3.3-4.7
+              4.7                                                                         4.7- 6.2-
+                                                                                               6.2 8.0
+      2.2-
+        2.2-3.3
+              3.3                                                                              4.7- 6.2
+      1.3-
+                                                                                          3.3- 4.7
+        1.3-2.2
+              2.2                                                                              3.3- 4.7
+      0.7-                                                                                2.2- 3.3
+        0.7-1.3
+              1.3                                                                              2.2- 3.3
+      0.2-
+        0.2-0.7
+              0.7                                                                         1.3- 1.3-
+                                                                                               2.2 2.2
+          < <0.2
+              0.2                                                                         0.7- 0.7-
+                                                                                               1.3 1.3
+                                                                                          0.2- 0.2-
+                                                                                               0.7 0.7
+                                                                                             < 0.2< 0.2
+                                             370
+                                            370
+                                                                      2 2mu-e
+                                                                          mu-e
+                                                                      decays
+                                                                        decays
+                                            296
+                                             296                                                                              210210
+                                                                                                                                                                 +1 +1
+                                                                                                                                                                   subevt
+                                                                                                                                                                        subevt
+                                            222
+                                             222                                                                              168168
+
+                                            148
+                                             148                                                                              126
+                                                                                                                                126
+                                             74
+                                              74                                                                               84
+                                                                                                                                    84
+                                              00                                                                               42
+                                               00   500
+                                                     500   1000
+                                                            1000    1500
+                                                                      1500   2000
+                                                                               2000                                                 42
+                                                                                                                                0
+                                                      Times
+                                                       Times(ns)
+                                                             (ns)                                                                   00       500         1000      1500      2000
+                                                                                                                                         0         500          1000      1500      2000
+                                                                                                                                               Times (ns)
+                                                                                                                                                     Times (ns)
+FIG. 5. A pp → π + π + MC event. The intensity scale indi-
+cates the amount of charge deposited on the PMTs. The main                            FIG. 7. pp → π + π + candidate event in SK-II. The two µ-
+display shows the ID, while the small display on the top right                        like rings are strikingly back-to-back, at almost exactly 180
+shows the OD. The white +’s indicate the horizontal and ver-                          degrees to each other. The e-like ring could be due to a hard
+tical location of the reconstructed vertex, projected onto the                        scatter. There is one Michel electron, not shown. The µ-like
+detector wall. Orange rings are fit as µ-like, and cyan rings as                      rings have momenta of 399.0 MeV/c (solid) and 280.5 MeV/c
+e-like. Solid rings indicate that the ring’s opening angle is near                    (dashed), and the e-like ring has momentum 42.0 MeV/c.
+the ultra-relativistic limit in water of θc = cos−1 (1/n) ≈ 41                        The visible energy is 387.0 MeV, the total momentum 124.2
+degrees, while dashed or dotted rings are more collapsed. The                         MeV/c, and the invariant mass 710.9 MeV/c2 .
+two solid orange rings correspond to true π + ’s, and have an
+angle of 164 degrees between them. The dotted cyan ring is
+fit as e-like, but is actually a hard scatter of one of the π + ’s.                        Super-Kamiokande IV
+                                                                                            Super-Kamiokande IV
+                                                                                           12-02-11:20:32:17
+                                                                                             12-02-11:20:32:17
+                                                                                           Inner:  2097 hits, 7408 pe
+                                                                                             Inner:8 2097
+                                                                                           Outer:    hits,hits,
+                                                                                                            5 pe 7408 pe
+                                                                                             Outer: 8 hits, 5 pe
+                                                                                           Trigger: 0x10000007
+   Super-Kamiokande I                                                                        Trigger: 0x10000007
+    Super-Kamiokande I                                                                     D_wall: 393.5 cm
+                                                                                             D_wall: 393.5 cm
+                                                                                           Evis: 742.8 MeV
+   12-03-07:01:50:29                                                                         Evis: 742.8 MeV
+     12-03-07:01:50:29
+   Inner: 1726   hits, 3784 pe
+     Inner:2 1726
+   Outer:         hits,
+             hits, 4  pe 3784 pe
+     Outer: 2 hits, 4 pe
+   Trigger: 0x03                                                                         Charge(pe)
+     Trigger: 0x03
+   D_wall: 397.7 cm                                                                       Charge(pe)
+     D_wall: 397.7 cm                                                                             >26.7
+   Evis: 409.1 MeV                                                                                  >26.7
+     Evis: 409.1 MeV                                                                         23.3-26.7
+                                                                                               23.3-26.7
+                                                                                             20.2-23.3
+                                                                                               20.2-23.3
+                                                                                             17.3-20.2
+                                                                                               17.3-20.2
+                                                                                             14.7-17.3
+                                                                                               14.7-17.3
+  Charge(pe)                                                                                 12.2-14.7
+                                                                                               12.2-14.7
+   Charge(pe)                                                                                10.0-12.2
+          >26.7                                                                                10.0-12.2
+            >26.7                                                                             8.0-10.0
+     23.3-26.7                                                                                  8.0-10.0
+       23.3-26.7                                                                              6.2-
+     20.2-23.3                                                                                  6.2-8.0
+                                                                                                      8.0
+       20.2-23.3                                                                              4.7-
+     17.3-20.2                                                                                  4.7-6.2
+                                                                                                      6.2
+       17.3-20.2                                                                              3.3-
+     14.7-17.3                                                                                  3.3-4.7
+                                                                                                      4.7
+       14.7-17.3                                                                              2.2-
+     12.2-14.7                                                                                  2.2-3.3
+                                                                                                      3.3
+       12.2-14.7                                                                              1.3-   2.2
+     10.0-12.2                                                                                  1.3- 2.2
+       10.0-12.2                                                                              0.7-
+      8.0-10.0                                                                                  0.7-1.3
+                                                                                                      1.3
+        8.0-10.0                                                                              0.2-
+      6.2-                                                                                      0.2-0.7
+                                                                                                      0.7
+        6.2-8.0
+              8.0
+      4.7-                                                                                        < <0.2
+                                                                                                      0.2
+        4.7-6.2
+              6.2
+      3.3-
+        3.3-4.7
+              4.7
+      2.2-
+        2.2-3.3
+              3.3                                                                                                             440
+                                                                                                                               440
+      1.3-
+        1.3-2.2
+              2.2                                                                                                                                                      2 2mu-e
+                                                                                                                                                                           mu-e
+                                                                                                                                                                       decays
+                                                                                                                                                                         decays
+      0.7-
+        0.7-1.3
+              1.3                                                                                                             352
+                                                                                                                               352
+      0.2-
+        0.2-0.7
+              0.7
+          < <0.2
+              0.2                                                                                                             264
+                                                                                                                               264
+
+                                                                                                                              176
+                                                                                                                               176
+                                             270
+                                            270
+                                                                   +1+1subevt
+                                                                        subevt
+                                                                                                                               88
+                                                                                                                                88
+                                            216
+                                             216
+                                                                                                                                00
+                                            162
+                                             162                                                                                 00          500         1000      1500      2000
+                                                                                                                                              500         1000       1500      2000
+
+                                            108
+                                             108                                                                                               Times
+                                                                                                                                                Times(ns)
+                                                                                                                                                      (ns)
+                                             54
+                                              54
+
+                                              00
+                                               00   500
+                                                     500   1000
+                                                            1000    1500
+                                                                      1500   2000
+                                                                               2000
+                                                                                      FIG. 8. pp → π + π + candidate event in SK-IV. The two µ-
+                                                      Times
+                                                       Times(ns)
+                                                             (ns)
+                                                                                      like rings are at an angle of 151 degrees to each other, with
+FIG. 6. Surviving atmospheric neutrino MC event for the                               momenta of 541.4 and 389.5 MeV/c. The dashed e-like ring
+pp → π + π + search. The interaction type is νµ charged-                              could be due to a hard scatter. There are 2 Michel electrons,
+current single π + production. The uppermost µ-like ring cor-                         not shown. The visible energy is 742.8 MeV, the total mo-
+responds to a µ− , while the smaller µ-like ring is a π + . The                       mentum is 445.8 MeV/c, and the invariant mass is 1022.3
+e-like ring is mis-fit, as it comes from a hard scatter of the                        MeV/c2 .
+π + . The angle between the two µ-like rings is 170 degrees,
+thereby mimicking the main event signature. The momentum
+of the muon µ-like ring is 402 MeV/c, and the momentum of                             neutral-current single pion production (NC1π). Table VI
+the π + µ-like ring is 301.3 MeV/c                                                    quantifies the neutrino interaction modes of the remain-
+                                                                                      ing background. The percentages agree within statistical
+                                                                                      fluctuations across SK periods.
+tering (CCDIS), neutral-current deep inelastic scatter-                                  A pp → π + π + MC event is shown in Fig. 5. An at-
+ing (NCDIS), charged-current quasi-elastic (CCQE) and                                 mospheric neutrino event surviving all selection criteria,
+                                                                                                                              11
+
+including the final BDT cut, is shown in Fig. 6. Two                Table VIII. About a third of the primary π 0 ’s in the
+candidate events were found, one in SK-II (Fig. 7) and              pn → π + π 0 events surviving the selection criteria are
+another in SK-IV (Fig. 8). No events are observed in SK-I           reconstructed as a single e-like ring. This is mainly be-
+or SK-III. Table VII shows values of the BDT input vari-            cause the typically high momentum of the π 0 ’s leads to
+ables for each candidate, compared to the means of the              a small opening angle between the photons in the subse-
+signal and background distributions. While both candi-              quent π 0 → γγ decay, so that the rings are not distinct.
+date events appear signal-like in some variables, partic-             Events surviving the selection criteria are passed into a
+ularly the angle between µ-like rings (both candidates)             BDT. The following set of input variables is used, ordered
+and energy variables (SK-IV candidate), the candidates              according to variable importance:
+are consistent with the expected background rate for each
+SK period (Table V), as well as the total background rate           (b1) The momentum of the π 0 candidate. The π 0 mo-
+of 4.5 expected across SKI-IV. Thus, we conclude that                    mentum peaks near 1 GeV for the signal, which
+there is no evidence for pp → π + π + in the data.                       is typically well-reconstructed. The background
+                                                                         peaks at a much lower value of ∼ 200 MeV.
+
+                         pn → π + π 0                               (b2) The angle between the reconstructed π + and π 0 .
+                                                                         This peaks near 180 degrees for the signal.
+  There are many similarities between the pn → π + π 0              (b3) The momentum of the π + candidate. The momen-
+search and the pp → π + π + search. The main difference is               tum resolution for charged pions from dinucleon de-
+that the π 0 provides a new set of discriminatory variables,             cay is typically poor. Despite this, it still peaks at a
+and some of the multivariate input variables only apply                  higher value in the signal than the background (470
+to the reconstructed π 0 .                                               MeV/c vs. 390 MeV/c), and is relatively indepen-
+  First, we apply a set of selection criteria:                           dent of the better-reconstructed π 0 momentum.
+(B1) There is more than one Cherenkov ring.                         (b4) The invariant mass of the π 0 . This can be esti-
+                                                                         mated for both one and two-ring π 0 hypotheses, by
+(B2) There is at least one e-like and one µ-like ring. The               means of the specialized algorithm referred to in
+     π + is assumed to correspond to the most energetic                  Section IV.
+     µ-like ring, while the π 0 is assumed to correspond
+     to the e-like ring (if one e-like ring is found) or the        (b5) The ratio of charge carried by the highest-energy
+     two most energetic e-like rings (if more than one is                ring to the total charge of all rings.
+     found).
+                                                                    (b6) The total visible energy.
+(B3) The number of Michel electrons is no more than
+     one.                                                           (b7) The number of Michel electrons.
+
+(B4) The “reduced” visible energy, defined as the total                Variables (b5), (b6), and (b7) were described for the
+     visible energy minus the energy of the π 0 as defined          pp → π + π + search. The ranking of these variables is
+     in the previous criterion, is less than 800 MeV. This          shown in Table IX. The two most discriminating input
+     is similar to criterion (A4) used in the pp → π + π +          variables are shown in Fig. 9. The π 0 -π + angle is highly
+     search - the maximum visible energy from the π +               discriminating for the same reason as the angle between
+     is Mproton − Mπ+ ≈ 800 MeV.                                    π + candidates in the pp → π + π + search. The π 0 mo-
+                                                                    mentum is also a highly discriminating variable, since
+(B5) The angle between the reconstructed π + and π 0 is
+                                                                    the peak near 1 GeV/c for the signal π 0 momentum, ex-
+     greater than 120 degrees.
+                                                                    pected for back-to-back pions emitted with initial energy
+                                                                    ∼ 2 GeV, is absent in the background. The data and
+                                                                    atmospheric neutrino MC are in good agreement.
+                  SK-I    SK-II    SK-III  SK-IV
+                                                                       The final BDT outputs are shown in Fig. 10. For the
+     Eff. (%) 21.0±0.3 21.9±0.3 21.6±0.3 21.1±0.3
+      Bkg.     132±1.8   69±1.0   48±0.6 147±2.0
+                                                                    pn → π + π 0 search, an adaptive boost method [31] was
+       data        136       66       45      171                   chosen.
+                                                                       The final cut on the BDT output was designed so that
+TABLE VIII. Efficiencies, expected backgrounds, and data            less than one background event was expected across all
+events after selection criteria in the pn → π + π 0 search. Back-   SK periods, with contributions from each SK period or-
+ground rates are scaled to the appropriate SK period livetime.      dered by their livetime. It is determined with MC only.
+Statistical errors are shown.                                       The total expected background is 0.75 events, consis-
+                                                                    tent with the one candidate event found in SK-I. Unlike
+                                                                    the pp → π + π + search, the signal distributions are not
+  The signal efficiency, expected background, and data              sharply peaked, so that the efficiency does not change
+events remaining after the selection criteria is shown in           drastically as the cut value is shifted.
+                                                                                                                             12
+
+
+                                         SK-I                                                      SK-I
+                18                                                           25
+                16
+                14                                                           20
+                12
+
+       Events                                                       Events
+                10                                                           15
+                 8
+                                                                             10
+                 6
+                 4                                                           5
+                 2
+                 0                                                           0
+                  120   130        140     150    160   170   180                 0   200   400   600   800 1000 1200 1400
+                              π0-π+ angle (degrees)                                         π0 momentum (MeV/c)
+
+
+                                         SK-II                                                     SK-II
+                8                                                            18
+                7                                                            16
+                6                                                            14
+
+
+       Events                                                       Events
+                                                                             12
+                5
+                                                                             10
+                4
+                                                                              8
+                3                                                             6
+                2                                                             4
+                1                                                             2
+                0                                                             0
+                 120    130        140     150    160   170   180                 0   200   400   600   800 1000 1200 1400
+                              π -π angle (degrees)
+                               0    +
+                                                                                            π momentum (MeV/c)
+                                                                                            0
+
+
+
+
+                                         SK-III                                                   SK-III
+                7                                                            12
+
+                6                                                            10
+                5                                                            8
+
+       Events                                                       Events
+                4
+                                                                             6
+                3
+                                                                             4
+                2
+                 1                                                           2
+
+                0                                                            0
+                 120    130        140     150    160   170   180                 0   200   400   600   800 1000 1200 1400
+                              π -π angle (degrees)
+                               0    +
+                                                                                            π momentum (MeV/c)
+                                                                                            0
+
+
+
+
+                                        SK-IV                                                     SK-IV
+                                                                             35
+                18
+                16                                                           30
+                14                                                           25
+
+
+       Events                                                       Events
+                12
+                                                                             20
+                10
+                 8                                                           15
+                 6                                                           10
+                 4
+                 2                                                           5
+                 0                                                           0
+                  120   130        140     150    160   170   180                 0   200   400   600   800 1000 1200 1400
+                              π0-π+ angle (degrees)                                         π0 momentum (MeV/c)
+
+
+FIG. 9. The π 0 -π + angle and π 0 momentum for the pn → π + π 0 search. Signal and atmpospheric neutrino MC (solid and
+dashed histograms) are normalized to the number of events in the data (crosses) for each SK period. Details of each variable
+are described in the text.
+                                                                                                                                 13
+
+
+                                      SK-I                                                        SK-II
+                45                                                          22
+                                                                            20
+                40                                                          18
+                35                                                          16
+
+
+       Events                                                      Events
+                30                                                          14
+                25                                                          12
+                20                                                          10
+                                                                             8
+                15
+                                                                             6
+                10                                                           4
+                 5                                                           2
+
+                 -0.6   -0.4   -0.2      0     0.2    0.4    0.6             -0.6   -0.4   -0.2     0     0.2   0.4   0.6
+                                 BDT Output                                                  BDT Output
+
+
+                                      SK-III                                                  SK-IV
+                16                                                          60
+                14
+                                                                            50
+                12
+
+
+       Events                                                      Events
+                10                                                          40
+                 8                                                          30
+                6
+                                                                            20
+                4
+                2                                                           10
+
+                 -0.6   -0.4   -0.2      0     0.2    0.4    0.6             -0.6   -0.4   -0.2     0     0.2   0.4   0.6
+                                 BDT Output                                                  BDT Output
+
+
+FIG. 10. BDT output for pn → π + π 0 signal MC (solid), atmospheric neutrino background MC (dashed), and data (crosses).
+The green vertical line indicates the BDT cut value, and the arrow indicates that only events to the right of the cut are kept.
+One candidate event can be seen in the SK-I data distribution, just to the right of the cut at 0.19.
+
+
+           Variable                            Importance                                   SK-I    SK-II SK-III     SK-IV
+           π 0 candidate momentum                    0.19                    Cut            0.19     0.24    0.20      0.17
+           Angle between π 0 and                                           Eff. (%)     10.2±0.2 10.0±0.2 9.4±0.2 10.4± 0.2
+                                                      0.17
+                π + candidates                                          Bkg. (MT-yr)     2.7±0.7 2.3±0.7 2.2±0.7    2.9±0.8
+             +                                                          Bkg. (SK live.)     0.25     0.11    0.07      0.32
+           π candidate momentum                       0.16
+           π 0 candidate invariant mass               0.15               Candidates            1        0       0         0
+           Ratio of charge carried by
+                                                      0.14
+               most energetic ring
+           Visible energy                             0.14           TABLE X. Final BDT cut value, efficiency, expected back-
+           Number of Michel electrons                0.058           ground, and candidate data events for the SKI-IV pn → π + π 0
+                                                                     search, with statistical uncertainties shown for efficiency and
+TABLE IX. Relative importance of each variable in the                expected background. Background rates are quoted for the
+pn → π + π 0 search, averaged across SK periods.                     appropriate SK livetime, and per megaton-year.
+
+
+
+                                                                     the means of the signal and background distributions.
+  The cut on the final BDT output, efficiencies, back-               While the candidate event appears closer to the signal
+ground rates, and candidates are shown in Table X.                   mean values for energy-related variables, it appears more
+CCDIS and CC1π are the main components of the re-                    background-like for the π 0 − π + angle and the recon-
+maining background, detailed in Table XI.                            structed π 0 mass. There are no candidate events in SKII-
+  An example pn → π + π 0 MC event display is shown in               IV data. Although the expected background in SK-I is
+Fig. 11, and an example background MC event is shown                 much lower than one event, it is consistent within about
+in Fig. 12. One candidate is found in SK-I, shown in                 1σ with the expected background of 0.75 events in the
+Fig. 13. Table XII shows the values of the BDT in-                   entire SKI-IV dataset. The probability of observing one
+put variables for the candidate event, compared with                 or more background event in SK-I, without incorporating
+                                                                                                                                                                                            14
+
+   Super-Kamiokande IV                                                                Super-Kamiokande I
+    Super-Kamiokande IV                                                                Super-Kamiokande I
+   13-11-12:14:02:55                                                                  98-09-16:12:28:02
+     13-11-12:14:02:55
+   Inner: 3999   hits, 11637 pe                                                         98-09-16:12:28:02
+                                                                                      Inner: 4493   hits, 10722 pe
+     Inner:5 3999
+   Outer:         hits,
+             hits, 3  pe 11637 pe                                                       Inner:5 4493
+                                                                                      Outer:         hits,
+                                                                                                hits, 4  pe 10722 pe
+     Outer: 5 hits, 3 pe                                                                Outer: 5 hits, 4 pe
+   Trigger: 0x00                                                                      Trigger: 0x07
+     Trigger: 0x00                                                                      Trigger: 0x07
+   D_wall: 1124.2 cm                                                                  D_wall: 836.1 cm
+     D_wall: 1124.2 cm                                                                  D_wall: 836.1 cm
+                                                                                      Evis:    1.3 GeV
+                                                                                        Evis:    1.3 GeV
+
+
+
+
+  Charge(pe)
+   Charge(pe)
+                                                                                     Charge(pe)
+                                                                                      Charge(pe)
+          >26.7                                                                              >26.7
+            >26.7                                                                              >26.7
+     23.3-26.7                                                                          23.3-26.7
+       23.3-26.7                                                                          23.3-26.7
+     20.2-23.3                                                                          20.2-23.3
+       20.2-23.3                                                                          20.2-23.3
+     17.3-20.2
+       17.3-20.2                                                                        17.3-20.2
+                                                                                          17.3-20.2
+     14.7-17.3
+       14.7-17.3                                                                        14.7-17.3
+                                                                                          14.7-17.3
+     12.2-14.7
+       12.2-14.7                                                                        12.2-14.7
+                                                                                          12.2-14.7
+     10.0-12.2
+       10.0-12.2                                                                        10.0-12.2
+                                                                                          10.0-12.2
+      8.0-10.0
+        8.0-10.0                                                                         8.0-10.0
+                                                                                           8.0-10.0
+      6.2-
+        6.2-8.0
+              8.0                                                                        6.2-
+                                                                                           6.2-8.0
+                                                                                                 8.0
+      4.7-
+        4.7-6.2
+              6.2                                                                        4.7-
+                                                                                           4.7-6.2
+                                                                                                 6.2
+      3.3-
+        3.3-4.7
+              4.7                                                                        3.3-
+                                                                                           3.3-4.7
+                                                                                                 4.7
+      2.2-
+        2.2-3.3
+              3.3                                                                        2.2-
+                                                                                           2.2-3.3
+                                                                                                 3.3
+      1.3-
+        1.3-2.2
+              2.2                                                                        1.3-
+                                                                                           1.3-2.2
+                                                                                                 2.2
+      0.7-
+        0.7-1.3
+              1.3                                                                        0.7-
+                                                                                           0.7-1.3
+                                                                                                 1.3
+      0.2-
+        0.2-0.7
+              0.7                                                                        0.2-
+                                                                                           0.2-0.7
+                                                                                                 0.7
+          < <0.2
+              0.2                                                                            < <0.2
+                                                                                                 0.2
+
+
+                                          1200
+                                         1200                                                                                                      1300
+                                                                                                                                                  1300
+                                                                  0 0mu-e
+                                                                      mu-e
+                                                                  decays
+                                                                    decays
+                                          960
+                                           960                                                                                                    1040
+                                                                                                                                                   1040
+
+                                          720
+                                           720                                                                                                     780
+                                                                                                                                                    780
+
+                                          480
+                                           480                                                                                                     520
+                                                                                                                                                    520
+
+                                          240
+                                           240                                                                                                     260
+                                                                                                                                                    260
+
+                                            00                                                                                                       00
+                                             00   500
+                                                   500   1000
+                                                          1000   1500
+                                                                   1500   2000
+                                                                            2000                                                                      00   500
+                                                                                                                                                            500   1000
+                                                                                                                                                                   1000   1500
+                                                                                                                                                                            1500   2000
+                                                                                                                                                                                     2000
+
+                                                    Times
+                                                     Times(ns)
+                                                           (ns)                                                                                              Times
+                                                                                                                                                              Times(ns)
+                                                                                                                                                                    (ns)
+
+
+
+FIG. 11. A pn → π + π 0 MC event. The µ-like ring corre-                           FIG. 13. The pn → π + π 0 candidate in SK-I. The e-like and
+sponds to a true π + . The e-like ring contains two overlapping                    µ-like rings are at an angle of 140 degrees. The e-like ring
+γ’s from a π 0 . The angle between the µ- and e-like rings is                      has a high momentum of 987 MeV/c, but its fit π 0 mass is
+165 degrees. The e-like ring has a reconstructed momentum of                       low, at 10 MeV/c2 . The µ-like ring has a momentum of 460.0
+893 MeV/c, while the original π 0 had momentum 876 MeV/c.                          MeV/c. The total momentum and invariant mass are 700.1
+                                                                                   MeV/c and 1266.4 MeV/c2 , respectively.
+
+
+   Super-Kamiokande IV
+                                                                                          mode                            SK-I      SK-II         SK-III             SK-IV
+    Super-Kamiokande IV
+   11-10-30:11:31:48
+                                                                                          CC1π                         33±17%     29±17%        43±19%             45±18%
+     11-10-30:11:31:48
+   Inner: 3933
+     Inner:3 3933
+   Outer:
+                 hits, 10587 pe
+                  hits,
+             hits, 2  pe 10587 pe
+     Outer: 3 hits, 2 pe
+                                                                                         CCDIS                         38±17%     46±19%        31±18%             40±16%
+   Trigger: 0x00
+     Trigger: 0x00
+   D_wall: 1421.3 cm
+     D_wall: 1421.3 cm
+   Evis:    1.2 GeV
+                                                                                         NCDIS                           8±8%     20±14%        21±15%               8±8%
+     Evis:    1.2 GeV
+                                                                                         CCQE                            8±8%       5±5%          5±5%               8±8%
+  Charge(pe)
+   Charge(pe)
+          >26.7
+            >26.7
+     23.3-26.7
+       23.3-26.7
+     20.2-23.3
+       20.2-23.3
+                                                                                   TABLE XI. Neutrino interaction mode percentages for re-
+                                                                                   maining background in the pn → π + π 0 search for SKI-IV.
+     17.3-20.2
+       17.3-20.2
+     14.7-17.3
+       14.7-17.3
+     12.2-14.7
+       12.2-14.7
+     10.0-12.2
+       10.0-12.2
+      8.0-10.0
+        8.0-10.0
+      6.2-
+                                                                                   The percentages agree across SK periods within statistical
+        6.2-8.0
+              8.0
+      4.7-
+        4.7-6.2
+      3.3-
+              6.2
+        3.3-4.7
+              4.7
+                                                                                   fluctuations, which are large due to the low number of re-
+      2.2-
+        2.2-3.3
+              3.3
+      1.3-
+        1.3-2.2
+      0.7-
+              2.2
+        0.7-1.3
+              1.3
+                                                                                   maining events.
+      0.2-
+        0.2-0.7
+              0.7
+          < <0.2
+              0.2
+
+
+                                          1400
+                                         1400
+                                                                  0 0mu-e
+                                                                      mu-e
+                                                                  decays
+                                                                    decays
+                                         1120
+                                          1120
+
+                                          840
+                                           840
+                                                                                   Variable                         Candidate Signal Background
+                                                                                   π 0 momentum (MeV/c)
+                                          560
+                                           560
+
+                                          280
+                                           280
+                                                                                                                      986.5   756.0     233.7
+                                            00
+                                             00   500
+                                                   500   1000
+                                                          1000   1500
+                                                                   1500   2000
+                                                                            2000
+                                                                                   π 0 -π + angle (degrees)           142.8   152.9     140.4
+                                                    Times
+                                                     Times(ns)
+                                                           (ns)                    π + momentum (MeV/c)               459.5   470.3     394.5
+                                                                                   π 0 mass (MeV/c2 )                 10.0    143.0     102.2
+FIG. 12. A surviving atmospheric neutrino MC event for                             Charge ratio (dimensionless)       0.77     0.56      0.58
+the pn → π + π 0 search. The interaction type is CC1π 0 ,                          Visible energy (MeV)              1171.6 1098.6      495.0
+νµ n → µ− π 0 p. The two overlapping e-like rings are pho-                         Michel electrons (dimensionless)     0      0.40     0.51
+tons from a π 0 , with total momentum 939 MeV/c. The µ-like
+ring corresponds to the µ− , with momentum 410 MeV/c. The
+angle between them is 151 degrees, thereby appearing back-                         TABLE XII. Candidate variable values, and mean variable
+to-back.                                                                           values for signal and background distributions, for each of
+                                                                                   the variables used in the BDT for the pn → π + π 0 search.
+                                                                                   Letters for each variable are assigned in the text. Values are
+                                                                                   given for SK-I, for which a single candidate event was found.
+systematic uncertainties, is 22%, and therefore the event
+is consistent with background expectations. Further, the
+low π 0 mass of the candidate event, as reconstructed by                                                                         nn → π 0 π 0
+the specialized algorithm discussed in Section IV, sug-
+gests that it is not a pn → π + π 0 signal. The e-like ring                          The nn → π 0 π 0 search is distinct from the other two
+is more likely to be an electron from, for instance, a CCνe                        searches, in that no multivariate method is used. Similar
+1π event. Thus, we conclude that there is no evidence                              to other nucleon decay searches at SK [4–6], the total
+for pn → π + π 0 in the SK-I-IV dataset.                                           momentum and invariant mass are highly discriminatory
+                                                                                                                                                          15
+
+variables, so that the search proceeds with a simple set of          Super-Kamiokande I
+
+selection criteria. The criteria are similar to those used           14-03-06:00:48:03
+                                                                       Super-Kamiokande I
+                                                                     Inner: 5798 hits, 16444 pe
+
+
+for the p → e+ π 0 analysis [4].
+                                                                     Outer: 1 hits, 1 pe
+                                                                     Trigger:  0x03
+                                                                       14-03-06:00:48:03
+                                                                     D_wall:
+                                                                       Inner: 716.0
+                                                                               5798 cm
+                                                                                    hits, 16444 pe
+                                                                     Evis:    1.8hits,
+                                                                       Outer: 1    GeV 1 pe
+                                                                       Trigger: 0x03
+
+
+(C1) 2 ≤ number of Cherenkov rings ≤ 4;
+                                                                       D_wall: 716.0 cm
+                                                                       Evis:    1.8 GeV
+                                                                    Charge(pe)
+                                                                           >26.7
+                                                                       23.3-26.7
+(C2) all rings are e-like;                                           Charge(pe)
+                                                                       20.2-23.3
+                                                                             >26.7
+                                                                       17.3-20.2
+                                                                         23.3-26.7
+                                                                       14.7-17.3
+                                                                         20.2-23.3
+                                                                       12.2-14.7
+                                                                         17.3-20.2
+                                                                       10.0-12.2
+(C3) no Michel electrons;                                                14.7-17.3
+                                                                        8.0-10.0
+                                                                         12.2-14.7
+                                                                        6.2-  8.0
+                                                                         10.0-12.2
+                                                                        4.7-  6.2
+                                                                          8.0-10.0
+                                                                        3.3-  4.7
+                                                                          6.2-3.3
+                                                                        2.2-   8.0
+
+(C4) Ptot ≤ 600 MeV/c;                                                    4.7-2.2
+                                                                        1.3-
+                                                                          3.3-
+                                                                               6.2
+                                                                               4.7
+                                                                        0.7- 1.3
+                                                                          2.2- 3.3
+                                                                        0.2- 0.7
+                                                                          1.3- 2.2
+                                                                            < 0.2
+                                                                          0.7- 1.3
+
+(C5) 1600 M eV /c2 ≤ Minv ≤ 2000 M eV /c2 .                               0.2- 0.7
+                                                                             < 0.2                          1400
+
+                                                                                                             1120
+                                                                                                            1400
+                                                                                                              840
+                                                                                                            1120
+
+                                                                                                              560
+                                                                                                             840
+
+                  SK-I        SK-II      SK-III        SK-IV                                                  280
+                                                                                                             560
+
+                                                                                                                   0
+                                                                                                             280
+                                                                                                                       0    500    1000    1500    2000
+                                                                                                               0
+                                                                                                                           500 Times
+                                                                                                                                  1000 (ns)
+ FCFV                                                                                                              0
+
+                                                                                                                             Times (ns)
+                                                                                                                                          1500    2000
+
+
+
+
+ Eff. (%)   94.1±0.7      96.6±0.7    94.4±0.7   94.1±0.7
+  Bkg.    11846±11.1      6389±5.8    4187±3.7 14214±12.7
+  Data         12299          6610        4355      14444         FIG. 14. A nn → π 0 π 0 MC event. The two overlapping e-like
+                                                                  rings on the top left correspond to two γ’s from a π 0 decay,
+  (C1)                                                            and the other ring also corresponds to a π 0 . The true mo-
+ Eff. (%)     76.7±0.6    76.4±0.6    76.6±0.6      76.8±0.6      mentum of the π 0 corresponding to the two-ring fit is 872.7
+  Bkg.        3434±5.6    1846±3.0    1204±2.0      4135±6.7      MeV/c, and the true momentum of the π 0 corresponding to
+  Data            3558        1969        1239          4215      the one-ring fit is 936.7 MeV/c. The total reconstructed mo-
+                                                                  mentum of this event is 219 MeV/c, and the reconstructed
+  (C2)                                                            invariant mass is 1793 MeV/c2 .
+ Eff. (%)     61.0±0.5    59.1±0.5     59.6±0.5     60.1±0.5
+  Bkg.        2131±4.3    1175±2.3      728±1.5     2502±5.0         Super-Kamiokande I
+  Data            2249        1268          782         2623         12-03-20:00:33:35
+                                                                       Super-Kamiokande I
+                                                                     Inner: 6253 hits, 16571 pe
+                                                                     Outer: 1 hits, 0 pe
+                                                                     Trigger:  0x03
+                                                                       12-03-20:00:33:35
+
+  (C3)                                                               D_wall:  1154.3hits,
+                                                                       Inner: 6253
+                                                                     Evis:   1.8hits,
+                                                                       Outer: 1
+                                                                                      cm 16571 pe
+                                                                                  GeV 0 pe
+
+ Eff. (%)     54.4±0.5    52.6±0.5     52.8±0.5     52.1±0.5           Trigger: 0x03
+                                                                       D_wall: 1154.3 cm
+                                                                       Evis:   1.8 GeV
+
+  Bkg.        1441±3.4     799±1.9      497±1.2     1543±1.1        Charge(pe)
+                                                                           >26.7
+
+  Data            1492         837          529         1627           23.3-26.7
+                                                                     Charge(pe)
+                                                                       20.2-23.3
+                                                                             >26.7
+                                                                       17.3-20.2
+                                                                         23.3-26.7
+                                                                       14.7-17.3
+                                                                         20.2-23.3
+                                                                       12.2-14.7
+
+  (C4)                                                                   17.3-20.2
+                                                                       10.0-12.2
+                                                                         14.7-17.3
+                                                                        8.0-10.0
+                                                                         12.2-14.7
+                                                                        6.2-  8.0
+ Eff. (%)     30.1±0.4    27.0±0.4     29.1±0.4      29.3±0.4            10.0-12.2
+                                                                        4.7-  6.2
+                                                                          8.0-10.0
+                                                                        3.3-  4.7
+                                                                          6.2-3.3
+                                                                        2.2-   8.0
+  Bkg.         837±2.6     470±1.4      290±0.9       940±3.0             4.7-2.2
+                                                                        1.3-   6.2
+                                                                          3.3-1.3
+                                                                        0.7-   4.7
+                                                                          2.2-0.7
+                                                                               3.3
+  Data             853         503          310          1021           0.2-
+                                                                          1.3- 2.2
+                                                                            < 0.2
+                                                                          0.7- 1.3
+                                                                          0.2- 0.7
+                                                                             < 0.2                          1900
+
+
+  (C5)                                                                                                       1520
+                                                                                                            1900
+                                                                                                             1140
+ Eff. (%)     22.1±0.3 18.8±0.3 20.9± 0.3           21.4± 0.3                                               1520
+
+                                                                                                              760
+                                                                                                            1140
+
+  Bkg.       0.05±0.02 0.04±0.01 0.03±0.01          0.02±0.01                                                 380
+                                                                                                             760
+
+
+  Data               0         0         0                  0                                                380
+                                                                                                                   0
+                                                                                                                       0    500    1000    1500    2000
+                                                                                                               0
+                                                                                                                   0       500 Times
+                                                                                                                                  1000 (ns)
+                                                                                                                                          1500    2000
+
+                                                                                                                             Times (ns)
+
+
+TABLE XIII. Efficiency, expected background, and data
+                                                                  FIG. 15. Surviving atmospheric neutrino MC event for the
+events for the SKI-IV nn → π 0 π 0 search, for each analysis
+                                                                  nn → π 0 π 0 search. The interaction is νµ neutral current deep-
+selection criterion. Statistical errors are shown. The criteria
+                                                                  inelastic scattering. In particular, the interaction produced a
+are described in the text.
+                                                                  π 0 and an η meson, from which four γ’s are produced. All but
+                                                                  the left-most ring correspond to true photons from the π 0 and
+   The total momentum Ptot is defined as Ptot =                   η meson. Many additional charged pions are also produced,
+ P  nring
+| i=1     p~i |, where nring is the number of reconstructed       concentrated near the center of the display, thereby compli-
+rings, p~i is the 3-momentum of the p     ith ring, and the in-   cating reconstruction. The left-most ring corresponds to a
+variant P mass is defined as Minv = Etot      2 − P 2 , where     charged pion. There is a ring near the center from multiple,
+                                                     tot
+            nring
+Etot = i=1 |~      pi | (the rings are assumed to come from       closely overlapping charged pion tracks, which is not found
+photons, so there is no rest-mass energy). A nn → π 0 π 0         by the reconstruction program. The total reconstructed mo-
+MC event is shown in Fig. 14, and a background MC                 mentum is 553 MeV/c, and the reconstructed invariant mass
+event surviving all selection criteria is shown in Fig. 15.       is 1763 MeV/c2 .
+   Criterion (C1) allows for both one- and two-ring π 0 fits.
+Criteria (C2) and (C3) are designed to eliminate muons
+                                                                                                                        16
+
+
+                                     SK-I                                                    SK-I
+                12                                                    500
+                10                                                    400
+
+
+       Events                                                Events
+                 8
+                                                                      300
+                 6
+                                                                      200
+                 4
+                 2                                                    100
+
+
+                      0   1000 2000 3000 4000 5000   6000                   0   500   1000    1500        2000   2500
+                                                                                                      2
+                            Total Momentum (MeV/c)                              Invariant Mass (MeV/c )
+
+
+                                     SK-II                            300
+                                                                                             SK-II
+                 7
+                 6                                                    250
+                 5                                                    200
+
+       Events                                                Events
+                 4
+                                                                      150
+                 3
+                                                                      100
+                 2
+                  1                                                    50
+
+
+                      0   1000 2000 3000 4000 5000   6000                   0   500   1000    1500        2000   2500
+                                                                                                      2
+                            Total Momentum (MeV/c)                              Invariant Mass (MeV/c )
+
+
+                                     SK-III                                                  SK-III
+                3.5                                                   200
+                                                                      180
+                 3                                                    160
+                2.5                                                   140
+
+       Events                                                Events
+                 2                                                    120
+                                                                      100
+                1.5                                                    80
+                  1                                                    60
+                                                                       40
+                0.5
+                                                                       20
+
+                      0   1000 2000 3000 4000 5000   6000                   0   500   1000    1500        2000   2500
+                                                                                                      2
+                            Total Momentum (MeV/c)                              Invariant Mass (MeV/c )
+
+
+                                     SK-IV                                                   SK-IV
+                12                                                    600
+                10                                                    500
+
+
+       Events                                                Events
+                 8                                                    400
+                 6                                                    300
+                 4                                                    200
+                 2                                                    100
+
+                      0   1000 2000 3000 4000 5000   6000                   0   500   1000    1500        2000   2500
+                            Total Momentum (MeV/c)                              Invariant Mass (MeV/c2)
+
+
+FIG. 16. Total momentum (left) and invariant mass (right) for data (crosses), nn → π 0 π 0 MC (solid histogram), and at-
+mospheric neutrino MC (dashed histogram). Criteria (C1)-(C3) have been applied to all distributions. The invariant mass
+criterion (C5) has been applied to the total momentum, and the total momentum criterion (C4) to the invariant mass. The
+thin green vertical lines indicate the locations of the final cuts for each variable.
+                                                                                                                                                   17
+
+                                          nn → π0π0 SK-I-IV MC                    atm. ν SK-I-IV MC                     SK-I-IV Data
+
+                                  1800                            1800                                 1800
+
+
+
+
+         Total Momentum (MeV/c)
+                                  1600                            1600                                 1600
+                                  1400                            1400                                 1400
+                                  1200                            1200                                 1200
+                                  1000                            1000                                 1000
+                                   800                             800                                  800
+                                   600                             600                                  600
+                                   400                             400                                  400
+                                   200                              200                                  200
+                                     0                                0                                    0
+                                         500   1000   1500       2000       500     1000     1500     2000       500   1000     1500     2000
+                                                                     Total Invariant Mass (MeV/c2)
+
+
+FIG. 17. The total momentum and invariant mass distributions for nn → π 0 π 0 MC (left), atmospheric neutrino MC (center),
+and data (right) for SK I-IV. As seen in Fig. 16, there is no major structural difference for SK-I-IV distributions, so events from
+all periods are combined. Events have passed criteria (C1)-(C3). The solid box indicates the total momentum and invariant
+mass cuts ((C4) and (C5) in the text).
+
+
+and charged pions. Criterion (C4) is chosen to ensure a                                      mode         SK-I      SK-II       SK-III     SK-IV
+low total momentum, and to reject cases where only one                                      NCDIS      63±32%     30±18%      67±25%     50±50%
+π 0 is reconstructed, as each π 0 from nn → π 0 π 0 has a                                   CCDIS      15±16%     50±22%      24±14%      0+50%
+momentum that peaks closer to 1 GeV/c. Criterion (C5)                                        CC1π      21±15%     20±14%        9±9%     51±51%
+is chosen to cover the ∼ 2Mn region as tightly as possible
+without getting too close to the peak (Fig. 16). This                                  TABLE XV. neutrino interaction mode percentages for the
+eliminates nearly all background, which peaks sharply                                  remaining background in the nn → π 0 π 0 search for SKI-IV.
+near Mπ0 .
+   The signal efficiency, background, and data events af-
+ter each selection criteria are shown in Table XIII. The                                                Systematic Uncertainties
+final efficiencies and background rates are summarized in
+Table XIV. The remaining background is mostly neutral
+                                                                                          Systematic uncertainties for the dinucleon decay
+current deep-inelastic scattering (Table XV). The inter-
+                                                                                       searches are comprised of MC simulation uncertanties
+action mode percentages agree across SK periods within
+                                                                                       specific to the signal and background MC, and common
+statistical fluctuations, which are large due to the very
+                                                                                       signal and background uncertainties related to event re-
+low number of remaining events. The lower background
+                                                                                       construction and BDT bias (for modes which use a BDT).
+in SK-IV is due to improved Michel electron tagging rel-
+ative to SK-I, II, and III.                                                               The largest systematic uncertainties for the dinucleon
+                                                                                       decay signal come from the simulation stage. The domi-
+                                                                                       nant systematic uncertainty for all modes come from pion
+                                                                                       final state interaction (FSI) uncertainties. To estimate
+                    SK-I    SK-II    SK-III    SK-IV
+                                                                                       this, we generated separate sets of dinucleon decay MC
+ Efficiency (%) 22.1±0.3 18.8±0.3 20.9± 0.3 21.4± 0.3
+ bkg. (MT-yr.)   0.6±0.2 0.9±0.3    1.0±0.3   0.2±0.1                                  for 24 parameter variations consisting of 1-sigma changes
+ bkg. (SK live.)    0.05     0.04      0.03      0.02                                  in pion-nucleon cross-sections, corresponding to uncer-
+   candidates          0        0         0         0                                  tainties determined from fits to pion scattering data.
+                                                                                       This is the same set of variations used in the T2K νe ap-
+                                                                                       pearance result [30]. The variations affect the cross sec-
+TABLE XIV. Efficiency, expected background, and candidate                              tion for both low-energy (charge exchange, absorption,
+data events for the SKI-IV nn → π 0 π 0 search, with statisti-                         quasi-elastic scattering) and high-energy (hadron pro-
+cal uncertainties. Background is quoted both for each SK                               duction) interactions. These variations were propagated
+livetime and in megaton-years.                                                         through all stages of the analysis. For the pp → π + π +
+                                                                                       and pn → π + π 0 modes, each set of MC was processed
+                                                                                       with the trained, unvaried BDT used for the data and
+  Fig. 17 shows the final total momentum and invariant                                 analysis MC. The systematic error is conservatively taken
+mass distributions for signal and background MC, and                                   to be the largest percentage change in efficiency across all
+the data. No candidate events are found for this mode,                                 variations upon applying all of the analysis selection cri-
+consistent with the near-zero expected background for all                              teria. Other significant simulation systematic uncertain-
+SK periods.                                                                            ties come from Fermi motion (∼20%) and correlated de-
+                                                                                                                          18
+
+cay (∼10%). These are not passed through the BDT, but                                              nn → π 0 π 0
+estimated through a simple re-weighting method of the               Signal (%)         SK-I     SK-II SK-III      SK-IV
+final event sample. For Fermi motion, the re-weighting              Simulation         31.1      34.4   37.3       33.1
+comes from differences between the Fermi momentum                 Reconstruction        1.5       1.7    4.0       3.6
+simulation for dinucleon decay and the Fermi gas model.               Total            31.2      34.4   37.6       33.3
+For correlated decay, the effect is not well understood,          Background (%)       SK-I     SK-II SK-III      SK-IV
+and so a conservative 100% uncertainty is placed on the             Simulation         13.6      15.5   14.5       13.9
+                                                                  Reconstruction       10.9      18.1   28.9       24.3
+detection efficiency of events with a correlated decay,
+                                                                      Total            17.5      24.0   32.3       28.0
+which is 10% at the simulation stage and still about 10%
+in the final event sample.
+   The largest overall contributions to background sys-       TABLE XVIII. Systematic uncertainties for the nn → π 0 π 0
+                                                              mode.
+tematic uncertainties are related to neutrino interactions.
+In particular, for pp → π + π + and pn → π + π 0 , the un-
+certainties associated with charged current single pion
+                                                              1.7%, 2.7%, and 2.3% for SK-I, II, III, and IV, respec-
+production are dominant. This is mainly due to a 40%
+                                                              tively [5] [30]. This uncertainty is propagated into all
+uncertainty in the π 0 /π + production ratio. Other simu-
+                                                              energy-dependent variables, and is propagated through
+lation systematic uncertainties due to pion FSI and neu-
+                                                              the trained, unvaried BDT used for the data and analysis
+trino flux are also considered.
+                                                              MC for pp → π + π + and pn → π + π 0 . The energy scale
+                                 pp → π + π +                 uncertainty is the dominant systematic uncertainty for
+      Signal (%)       SK-I   SK-II SK-III      SK-IV         the atmospheric neutrino background in the nn → π 0 π 0
+      Simulation       35.2    35.1    33.6      38.5         search. Other reconstruction-related uncertainties taken
+    Reconstruction      6.0     8.6     4.0      3.2          into account are ring separation, particle identification,
+         BDT            3.6     2.2     4.4      2.0          and the ring directional resolution.
+        Total          35.9    36.2    34.1      38.7            Finally, for the multivariate method, an additional sys-
+    Background (%)     SK-I   SK-II SK-III      SK-IV         tematic uncertainty for the training bias of the BDT is
+      Simulation       29.1    29.1    35.8      26.5         considered. This is estimated by assessing the difference
+    Reconstruction      6.1     8.1     4.1      3.2          in the testing and analysis distributions of the BDT out-
+         BDT            6.8     1.0     4.3      1.4          put for both signal and background. Tables XVI-XVIII
+        Total          30.5    30.3    36.4      26.8
+                                                              break down the systematic uncertainties for each mode
+                                                              and each SK period.
+TABLE XVI. Systematic uncertainties for the pp → π + π +
+mode.
+
+                                                                       VI.    RESULTS AND DISCUSSION
+                                        +   0
+                                 pn → π π
+      Signal (%)       SK-I   SK-II SK-III      SK-IV           Since no significant excess was observed in the data,
+      Simulation       33.3    32.2    28.4      35.0         we set a lower limit on the lifetime of each dinucleon de-
+    Reconstruction      3.3     1.7     5.6      5.6          cay mode. This is done using a Bayesian method, which
+         BDT            <1      1.6    <1        <1           incorporate systematic uncertainties as follows [32]:
+        Total          33.4    32.3    28.9      35.3
+    Background (%)     SK-I   SK-II SK-III      SK-IV
+      Simulation       22.1    19.9    24.0      27.8                                                             n
+                                                                                              e−(Γλ+b) (Γλ + b)
+                                                                                     ZZZ
+    Reconstruction      1.8     1.8     3.3      3.8                   P (Γ|n) = A
+         BDT            6.3     7.4    10.3      11.3                                                  n!
+        Total          23.1    21.3    26.3      28.6
+
+TABLE XVII. Systematic uncertainties for the pn → π + π 0                    ×P (Γ) P (λ) P () P (b) dλddb,
+mode.
+                                                              where Γ is the true dinucleon decay rate, n is the number
+   The most important reconstruction systematic uncer-        of candidate events, λ is the exposure,  is the efficiency, b
+tainty for both dinucleon decay and atmospheric neutri-       is the background
+                                                                            R ∞ rate, and A is a normalization constant
+nos comes from the energy scale. The energy scale un-         that ensures 0 P (Γ|n) dΓ = 1.
+certainty is determined from comparing the absolute mo-          The distributions P (λ), P (), and P (b) are taken to
+menta of data and MC for several control samples, such        be Gaussian, while P (Γ) is uniform for Γ > 0. The un-
+as cosmic ray muons, their resulting decay electrons, and     certainty on λ is assumed to be negligible. The exposure
+π 0 ’s from neutral current interactions. Time variation      is 16 O-years, not nucleon-years as in most proton decay
+in the reconstructed momenta of the control samples is        analyses. This is consistent with the exposure used in
+also taken into account in the uncertainty calculation.       [11] and [12], which used total 16 O and 56 Fe nuclei, re-
+The energy scale uncertainty is estimated to be 1.1%,         spectively.
+                                                                                                                          19
+
+                                                                                ACKNOWLEDGEMENTS
+      mode        Frejus limit (56 Fe) This analysis (16 O)
+
+   pp → π + π +     7.0 × 1029 yrs      7.22 × 1031 yrs              We gratefully acknowledge the cooperation of the
+                                                                  Kamioka Mining and Smelting Company. The Super-
+   pn → π + π 0     2.0 × 1030 yrs      1.70 × 1032 yrs           Kamiokande experiment has been built and operated
+   nn → π 0 π 0     3.4 × 1030 yrs      4.04 × 1032 yrs           from funding by the Japanese Ministry of Education,
+                                                                  Culture, Sports, Science and Technology, the United
+                                                                  States Department of Energy, and the U.S. National Sci-
+TABLE XIX. Limits on each mode, compared with previous            ence Foundation. This work was partially supported by
+results in [12].                                                  the Research Foundation of Korea (BK21 and KNRC),
+                                                                  the Korean Ministry of Science and Technology, the Na-
+                                                                  tional Science Foundation of China, the European Union
+  Finally, the confidence level is calculated as:                 FP7 (DS laguna-lbno PN-284518 and ITN invisibles GA-
+                       Z Γlimit                                   2011-289442), the National Science and Engineering Re-
+                C.L. =          P (Γ|n) dΓ                        search Council (NSERC) of Canada, and the Scinet and
+                           0                                      West-grid consortia of Compute Canada.
+and the lower lifetime limit is just the reciprocal of Γlimit .
+Table XIX shows the lifetime limits at 90% confidence
+level, compared with the previous limits set by the Frejus               Appendix: A: Dinucleon decay lifetimes
+collaboration in ref. [12].
+   The interpretation of our results depends on the un-             Here we discuss the lifetime formula for dinucleon de-
+derlying physics model. For instance, our limit for nn →          cay to pions. We assume that the same operator which
+π 0 π 0 is the most stringent experimental limit for dinu-        mediates neutron-antineutron oscillation (n-nbar) also
+cleon decay to light mesons, including [11], which mea-           mediates dinucleon decay to pions, which follows from
+sured τpp→K + K + > 1.77 × 1032 years. However, [11] was          crossing symmetry.
+motivated by supersymmetric models that forbid cou-                 Reference [33] discusses both n-nbar and dinucleon de-
+plings between quarks of the same generation. If, as with         cay with the same operator. This operator takes the
+the models considered in [33], such couplings are not for-        general form:
+bidden, and no preference is given for couplings to first-
+or second-generation quarks, our result for nn → π 0 π 0
+provides the strongest general constraint on dinucleon                                              1
+                                                                                      O∆B=2 =           O6Q
+decay to mesons.                                                                                  Λ5sup
+   As stated in Section I, there is a connection between
+neutron-antineutron oscillation (n-nbar) and dinucleon            where O6Q is a six quark operator containing two up-type
+decay to pions, if the same operator is dominant for both         and four down-type quarks, and Λsup is a suppression
+processes. This is discussed further in Appendix A. Our           scale, with the fifth power following from dimensional
+results provide a useful cross-check to n-nbar searches.          analysis. Indices related to quark generation, color, etc.,
+By isolating a single final state for each mode, as opposed       are suppressed. For all first-generation quarks, this op-
+to the many non-negligible final states of n-nbar [36],           erator leads to both n-nbar and dinucleon decay. The
+these analyses are simple and robust.                             (free) n-nbar lifetime is given by:
+
+
+                   VII.   CONCLUSION                                                              Λ5sup
+                                                                                         τnn̄ ≈         ,              (A.1)
+                                                                                                  Λ6QCD
+   We have performed searches for dinucleon decay to pi-
+ons via the processes pp → π + π + , pn → π + π 0 , and           where ΛQCD is a hadronic matrix element near the QCD
+nn → π 0 π 0 with 282.1 kiloton-years of data with the            scale, estimated to be 200 MeV. The dinucleon decay
+Super-Kamiokande detector. This is the first search for           lifetime τN N is given by [33, 34]
+dinucleon decay to pions done in a water Cherenkov de-
+                                                                                                  2 Λ10
+tector. We do not observe any significant event excess                                         πMN    sup
+                                                                                      τN N ≈              ,            (A.2)
+for any of the modes, and the data remain consistent                                           8ρN Λ10
+                                                                                                     QCD
+with the atmospheric neutrino background. Therefore,
+partial lifetime limits of τpp→π+ π+ > 7.22 × 1031 years,         where MN is the nucleon mass and ρN ≈ 0.25 f m−3 is
+τpn→π+ π0 > 1.70×1032 years, and τnn→π0 π0 > 4.04×1032            the average nuclear density. From equations A.1 and A.2,
+years per 16 O nucleus have been set. The limits per nu-
+cleus are about two orders of magnitude more stringent
+                                                                                         2
+than previous limits set in [12], and constrain models that                           πMN
+predict ∆B = 2 processes.                                                    τN N ≈        Λ2 τ 2 = Tnuc τnn̄
+                                                                                                          2
+                                                                                                              .        (A.3)
+                                                                                      8ρN QCD nn̄
+                                                                                                                              20
+
+Equation A.3 is mathematically similar to the formal-              0.517 × 1023 s−1 . The current lower limit on the n-
+ism for comparing free and bound n-nbar lifetimes, al-             nbar lifetime, from Super-Kamiokande, is τnn̄ > 2.7×108
+though in the latter case the factor Tnuc comes from dif-          s [36]. This translates to a lower lifetime for dinucleon
+ferent physics related to the difference in neutron and            decay to pions of τN N →ππ ≈ 2.5 × 1034 years, about two
+antineutron nuclear potentials. For dinucleon decay,               orders of magnitude beyond the limits obtained in this
+Tnuc ≈ 1.1 × 1025 s−1 , while for n-nbar Tnuc is two               paper. Thus, our results do not place any new constraints
+orders of magnitude less, with [35] calculating it to be           on n-nbar.
+
+
+
+
+ [1] A. D. Sakharov, Pisma Zh. Eksp. Teor. Fiz. 5, 32 (1967)       [18] T. Yamazaki, Y. Akaishi, Phys. Lett. B 453, 1 (1999).
+     [JETP Lett. 5, 24 (1967)] [Sov. Phys. Usp. 34, 392            [19] R. D. Woods and D. S. Saxon, Phys. Rev. 95, 577 (1954).
+     (1991)] [Usp. Fiz. Nauk 161, 61 (1991)].                      [20] Y. Hayato, Nucl. Phys. Proc. Suppl. 112, 171 (2002).
+ [2] K. Abe et al. [Super-Kamiokande Collaboration], Phys.         [21] CERN program library W5013 (1994).
+     Rev. D 90, 072005 (2014) [arXiv:1408.1195 [hep-ex]].          [22] M. Nakahata et al., J. Phys. Soc. Jpn. 55, 3786 (1986);
+ [3] K. Abe et al. [Super-Kamiokande Collaboration], Phys.              A. S. Clough et al., Nucl. Phys. B 76, 15 (1974).
+     Rev. Lett. 113, 121802 (2014) [arXiv:1305.4391 [hep-ex]].     [23] J. P. Albanese, J. Arvieux, J. Bolger, E. Boschitz,
+ [4] H. Nishino et al. [Super-Kamiokande Collaboration],                C. H. Q. Ingram, J. Jansen and J. Zichy, Nucl. Phys.
+     Phys. Rev. D 85, 112001 (2012) [arXiv:1203.4030 [hep-              A 350, 301 (1980).
+     ex]].                                                         [24] M. Honda, T. Kajita, K. Kasahara, S. Midorikawa and
+ [5] C. Regis et al. [Super-Kamiokande Collaboration], Phys.            T. Sanuki, Phys. Rev. D 75, 043006 (2007) [astro-
+     Rev. D 86, 012006 (2012) [arXiv:1205.6538 [hep-ex]].               ph/0611418].
+ [6] K. Kobayashi et al. [Super-Kamiokande Collaboration],         [25] D. Rein and L. M. Sehgal, Annals Phys. 133, 79 (1981).
+     Phys. Rev. D 72, 052007 (2005) [hep-ex/0502026].              [26] M. Davies. Machine Vision: Theory, Algorithms, Practi-
+ [7] J. L. Raaf [Super-Kamiokande Collaboration], Nucl.                 calities. Academic Press, San Diego, 1997.
+     Phys. Proc. Suppl. 229-232, 559 (2012).                       [27] M. Shiozawa [Super-Kamiokande Collaboration], Nucl.
+ [8] H. Georgi and S. L. Glashow, Phys. Rev. Lett. 32, 438              Instrum. Meth. A 433, 240 (1999).
+     (1974).                                                       [28] T. Barszczak, UMI-31-71221. Ph.D Thesis, 2005.
+ [9] J. M. Arnold, B. Fornal and M. B. Wise, Phys. Rev. D          [29] R. Wendell et al. [Super-Kamiokande Collaboration],
+     87, 075004 (2013) [arXiv:1212.4556 [hep-ph]].                      Phys. Rev. D 81, 092004 (2010) [arXiv:1002.3471 [hep-
+[10] K. Babu, S. Banerjee, D. V. Baxter, Z. Berezhi-                    ex]].
+     ani, M. Bergevin, S. Bhattacharya, S. Brice and               [30] K. Abe et al. [T2K Collaboration], Phys. Rev. D 88, no.
+     T. W. Burgess et al., arXiv:1310.8593 [hep-ex].                    3, 032002 (2013) [arXiv:1304.0841 [hep-ex]].
+[11] M. Litos et al. [Super-Kamiokande Collaboration], Phys.       [31] A. Hocker, J. Stelzer, F. Tegenfeldt, H. Voss, K. Voss,
+     Rev. Lett. 112, 131803 (2014).                                     A. Christov, S. Henrot-Versille and M. Jachowski et al.,
+[12] C. Berger et al. [Frejus Collaboration], Phys. Lett. B 269,        PoS ACAT , 040 (2007) [physics/0703039 [PHYSICS]].
+     227 (1991).                                                        See especially Section 7 and Section 8.12.
+[13] Y. Fukuda et al. [Super-Kamiokande Collaboration],            [32] R. M. Barnett et al. [Particle Data Group Collaboration],
+     Nucl. Instrum. Meth. A 501, 418 (2003).                            Phys. Rev. D 54, 165 (1996).
+[14] H. Nishino et al., Nucl. Instrum. Meth. A 610, 710            [33] C. Csaki, E. Kuflik and T. Volansky, Phys. Rev. Lett.
+     (2009).                                                            112, 131801 (2014) [arXiv:1309.5957 [hep-ph]].
+[15] K. Abe, Y. Hayato, T. Iida, K. Iyogi, J. Kameda,                   [34]
+     Y. Kishimoto, Y. Koshio and L. .Marti et al., Nucl.           [34] J. L. Goity and M. Sher, Phys. Lett. B 346, 69 (1995)
+     Instrum. Meth. A 737, 253 (2014) [arXiv:1307.0162                  [Erratum-ibid. B 385, 500 (1996)] [hep-ph/9412208].
+     [physics.ins-det]].                                           [35] E. Friedman and A. Gal, Phys. Rev. D 78, 016002 (2008)
+[16] Y. Ashie et al. [Super-Kamiokande Collaboration], Phys.            [arXiv:0803.3696 [hep-ph]].
+     Rev. D 71, 112005 (2005) [hep-ex/0501064].                    [36] K. Abe et al. [Super-Kamiokande Collaboration],
+[17] K. Nakamura et al., Nucl. Phys. A 268, 381 (1976).                 arXiv:1109.4227 [hep-ex].
+

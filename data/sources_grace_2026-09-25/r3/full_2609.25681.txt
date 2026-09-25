@@ -1,0 +1,1226 @@
+                                               Search for the 16 O(ppp) →13 Cπ + π + e+ Decay Mode in Super-Kamiokande Using
+                                                                         Machine Learning Techniques
+                                           J. Feng,29 K. Abe ,1, 51 Y. Asaoka ,1, 51 M. Harada ,1 Y. Hayato ,1, 51 K. Hiraide ,1, 51 T. H. Hung,1 K. Ieki
+                                                   ,1, 51 M. Ikeda ,1, 51 J. Kameda,1, 51 Y. Kataoka ,1, 51 S. Mine,1, 7 M. Miura ,1, 51 S. Moriyama ,1, 51
+                                          K. Nakagiri ,1 M. Nakahata ,1, 51 S. Nakayama ,1, 51 Y. Noguchi ,1 G. Pronost ,1 K. Sato,1 H. Sekiya ,1, 51
+                                          R. Shinoda ,1 M. Shiozawa ,1, 51 Y. Suzuki,1 A. Takeda,1, 51 Y. Takemoto ,1, 51 H. Tanaka,1, 51 S. Chen,2 Y. Itow
+                                            ,2, 33, 34 T. Kajita,2, 51, 24 R. Nishijima,2 K. Okumura ,2, 51 T. Tashiro ,2 T. Tomiya,2 X. Wang,1 F. J. de Garay
+                                            Arcones ,3 P. Fernandez ,3 L. Labarga ,3 D. Samudio ,3 C. Yanagisawa ,4, 38 B. Jargowsky ,5 E. Kearns
+                                               ,5, 51 J. Mirabito,5 L. Wan ,5 T. Wester ,5 B. W. Pointon ,6, 55 J. Bian,7 B. Cortez,7 N. J. Griskevich ,7
+                                          Y. Jiang,7 M. B. Smy ,7, 51 H. W. Sobel ,7, 51 V. Takhistov,7, 26 J. Hill,8 B. D. Xu ,9 D. Jung ,10 D. H. Moon,10
+                                              R. G. Park,10 B. S. Yang ,10 K. Scholberg ,11, 51 C. W. Walter ,11, 51 T. P. Leplumey,12 O. Drapier ,12
+                                          A. Ershova ,12 M. Ferey,12 Z. Hu ,12 E. Le Blévec,12 Th. A. Mueller ,12 P. Paganini ,12 C. Quach,12 R. Rogly
+                                                ,12 T. Nakamura,13 J. S. Jang,14 R. P. Litchfield,15 L. N. Machado ,15 F. J. P. Soler ,15 J. G. Learned,16
+
+
+
+
+arXiv:2609.25681v1 [hep-ex] 22 Sep 2026
+                                          K. Choi,17 S. Cao,18 T. V. Ngoc ,18 L. H. V. Anthony,19 N. W. Prouse ,19 M. Scott ,19 Y. Uchida,19 V. Berardi
+                                                  ,20 N. F. Calabria ,20 M. G. Catanesi,20 N. Ospina ,20 E. Radicioni,20 A. Langella ,21 G. De Rosa,21
+                                             G. T. Burton ,22 G. Collazuol ,22 M. Feltre,22 M. Mattiazzi ,22 L. Ludovici,23 M. Gonin,24 L. Périssé ,24
+                                           B. Quilain,24 H. Tanigawa ,25 Z. Utagawa ,25 M. Fukazawa,25 S. Horiuchi ,25 A. Kawabata ,25 Y. M. Liu,25
+                                                Y. Maekawa ,25 Y. Nishimura ,25 A. Oka,25 R. Akutsu,26 M. Friend,26 T. Hasegawa ,26 Y. Hino ,26
+                                                 T. Ishida,26 T. Kobayashi,26 T. Matsubara ,26 T. Nakadaira,26 Y. Oyama ,26 A. Portocarrero Yrey,26
+                                          K. Sakashita,26 T. Sekiguchi,26 N. Bhuiyan ,27 F. Di Lodovico ,27 T. Katori ,27 R. Kralik ,27 N. Latham ,27
+                                                 R. M. Ramsden ,27 V. Siccardi,27 S. Aoyama,28 H. Bambara,28 Y. Inaba,28 H. Ito ,28 M. Nishigami,28
+                                               T. Sone,28 A. T. Suzuki,28 Y. Takeuchi ,28, 51 S. Wada,28 H. Zhong,28 L. Feng,29 S. Han ,29 J. Hikida,29
+                                                 N. Fujimoto,29 M. Kawaue ,29 T. Kikawa,29 F. Nakanishi ,29 T. Nakaya ,29, 51 R. A. Wendell ,29, 51
+                                             U. Limbu,30 S. J. Jenkins ,30 N. McCauley ,30 M. Fanì ,31 M. J. Wilking ,31 Z. Xie ,31 Y. Fukuda ,32
+                                             H. Menjo ,33, 34 Y. Yoshioka,33 J. Lagoda,35 J. Zalipska,35 T. Yano ,36 M. Mori ,37 J. Jiang,38 Y. Asano,39
+                                            K. Hamaguchi,39 H. Ishino,39 Y. Koshio ,39, 51 S. Ohshita,39 T. Tada ,39 T. Ishizuka,40 G. Barr,41 D. Barrow
+                                                   ,41 D. Wark,41, 47 A. Holin,42 F. Nova ,42 M. Jo,43 S. Jung ,43 J. Yoo,43 L. Kneale ,44 T. Peacock,44
+                                           P. Stowell,44 H. Okazawa,45 S. M. Lakshmi,46 S. Hong,48 E. Kwon ,48 M. W. Lee ,48 J. W. Seo ,48 I. Yu ,48
+                                             Y. Ashida,49 A. K. Ichikawa ,49 S. Kobayashi,49 K. D. Nakamura ,49 S. Abe ,50 S. Goto,50 H. Hayasaki,50
+                                             S. Kodama,50 Y. Kong,50 Y. Masaki,50 Y. Mizuno,50 T. Muro,50 Y. Nakajima ,50, 51 W. Cai,50 Y. Endo ,50
+                                          M. Sekiyama,50 N. Taniuchi,50 T. Yamazumi,50 M. Yokoyama ,50, 51 P. de Perio ,51 S. Fujita ,51 C. Jesús-Valls
+                                                   ,51 K. Martens ,51 Ll. Marti ,51 A. D. Santos ,51 K. M. Tsui ,51 M. R. Vagins ,51, 7 M. Kuze ,52
+                                                S. Izumiyama ,52 R. Matsumoto ,52 C. Ise,53 M. Ishitsuka,53 M. Sugo,53 M. Wako,53 K. Yamauchi ,53
+                                            Y. Nakano ,54 A. Yankelevich ,54 F. Cormier,29 R. Gaur,55 M. Hartz,55 A. Konaka,55 X. Li,55 B. R. Smithers
+                                                    ,55 S. Chen ,56 Y. Wu,56 A. Q. Zhang,56 B. Zhang,56 H. Adhikary ,57 M. Girgus,57 P. Govindaraj,57
+                                                 M. Posiadala-Zezula ,57 Y. S. Prabhu ,57 S. B. Boyd,58 R. Edwards,58 D. Hadley,58 M. O’Flaherty,58
+                                                B. Richards,58 A. Ali,59, 55 B. Jamieson,59 C. Bronner ,60 D. Horiguchi,60 A. Minamino ,60 Y. Sasaki,60
+                                           K. Hosokawa ,1 Y. Kanemura,1 S. Miki ,1 K. Shimizu,1 B. Zaldivar,3 M. C. Jang,11 S. H. Lee,11 B. Bodur ,11
+                                          A. Beauchêne ,17 N. Iovine ,17 D. Martin,25 M. Kobayashi,25 R. Okazaki,25 M. Jakkapu,26, 51 K. Nakamura,26, 51
+                                             T. Tsukamoto,26 J. Gao,27, 51 J. Migenda ,27, 51 S. Zsoldos ,27, 51 Y. Takagi,28 J. R. Hu ,29 K. Yasutome,29
+                                          A. Tarrant ,30 M. Mandal,38 M. Jia,38 C. K. Jung,38 W. Shi,38 S. Sakai ,39 T. Tano,39 L. Cook,41, 51 S. Samani,41
+                                               J. Y. Yang ,44 J. E. P. Fannon,44 M. Malek,44 J. M. McElwee,44 M. D. Thiesse ,44 L. F. Thompson ,44
+                                           S. T. Wilson,44 S. Tairafune ,49 A. Eguchi ,50 E. Watanabe,50 J. Xia ,51 K. Terada,52 R. Asaka,53 M. Shinoki
+                                               ,53 T. Yoshida,53 V. Gousy-Leblanc,55, ∗ M. Nicholson,60 S. Amanai,60 R. Shibayama,60 and R. Shimamura60
+                                                                                      (The Super-Kamiokande Collaboration)
+                                               1
+                                                   Kamioka Observatory, Institute for Cosmic Ray Research, University of Tokyo, Kamioka, Gifu 506-1205, Japan
+                                                                       2
+                                                                         Research Center for Cosmic Neutrinos, Institute for Cosmic Ray
+                                                                         Research, University of Tokyo, Kashiwa, Chiba 277-8582, Japan
+                                                            3
+                                                              Department of Theoretical Physics, University Autonoma Madrid, 28049 Madrid, Spain
+                                                                        4
+                                                                          Science Department, Borough of Manhattan Community College
+                                                                       / City University of New York, New York, New York, 1007, USA.
+                                                                     5
+                                                                       Department of Physics, Boston University, Boston, MA 02215, USA
+                                                      6
+                                                        Department of Physics, British Columbia Institute of Technology, Burnaby, BC, V5G 3H2, Canada
+                                                                                                                            2
+
+          7
+                Department of Physics and Astronomy, University of California, Irvine, Irvine, CA 92697-4575, USA
+                   8
+                     Department of Physics, California State University, Dominguez Hills, Carson, CA 90747, USA
+                   9
+                     School of Physical Sciences, University of Chinese Academy of Sciences, Beijing 101408, China
+             10
+                Institute for Universe and Elementary Particles, Chonnam National University, Gwangju 61186, Korea
+                                       11
+                                          Department of Physics, Duke University, Durham NC 27708, USA
+                     12
+                        Ecole Polytechnique, IN2P3-CNRS, Laboratoire Leprince-Ringuet, F-91120 Palaiseau, France
+                                      13
+                                         Department of Physics, Gifu University, Gifu, Gifu 501-1193, Japan
+                         14
+                             GIST College, Gwangju Institute of Science and Technology, Gwangju 500-712, Korea
+            15
+               School of Physics and Astronomy, University of Glasgow, Glasgow, Scotland, G12 8QQ, United Kingdom
+                        16
+                           Department of Physics and Astronomy, University of Hawaii, Honolulu, HI 96822, USA
+                      17
+                         Center for Underground Physics, Institute for Basic Science (IBS), Daejeon, 34126, Korea
+              18
+                 Institute For Interdisciplinary Research in Science and Education, ICISE, Quy Nhon, 55121, Vietnam
+                        19
+                            Department of Physics, Imperial College London , London, SW7 2AZ, United Kingdom
+ 20
+    Dipartimento Interuniversitario di Fisica, INFN Sezione di Bari and Università e Politecnico di Bari, I-70125, Bari, Italy
+                  21
+                     Dipartimento di Fisica, INFN Sezione di Napoli and Università di Napoli, I-80126, Napoli, Italy
+                22
+                   Dipartimento di Fisica, INFN Sezione di Padova and Università di Padova, I-35131, Padova, Italy
+                          23
+                             INFN Sezione di Roma and Università di Roma “La Sapienza”, I-00185, Roma, Italy
+          24
+             ILANCE, CNRS - University of Tokyo International Research Laboratory, Kashiwa, Chiba 277-8582, Japan
+                              25
+                                 Department of Physics, Keio University, Yokohama, Kanagawa, 223-8522, Japan
+                       26
+                          High Energy Accelerator Research Organization (KEK), Tsukuba, Ibaraki 305-0801, Japan
+                                   27
+                                      Department of Physics, King’s College London, London, WC2R 2LS, UK
+                                    28
+                                       Department of Physics, Kobe University, Kobe, Hyogo 657-8501, Japan
+                                   29
+                                      Department of Physics, Kyoto University, Kyoto, Kyoto 606-8502, Japan
+                          30
+                              Department of Physics, University of Liverpool, Liverpool, L69 7ZE, United Kingdom
+                      31
+                         School of Physics and Astronomy, University of Minnesota, Minneapolis, MN 55455, USA
+                       32
+                          Department of Physics, Miyagi University of Education, Sendai, Miyagi 980-0845, Japan
+              33
+                 Institute for Space-Earth Environmental Research, Nagoya University, Nagoya, Aichi 464-8602, Japan
+34
+   Kobayashi-Maskawa Institute for the Origin of Particles and the Universe, Nagoya University, Nagoya, Aichi 464-8602, Japan
+                                          35
+                                             National Centre For Nuclear Research, 02-093 Warsaw, Poland
+                           36
+                              National Institute of Technology, Niihama College, Niihama, Ehime 792-8580, Japan
+                         37
+                             National Institute of Technology, Numazu College, Numazu, Shizuoka 410-8501, Japan
+         38
+            Department of Physics and Astronomy, State University of New York at Stony Brook, NY 11794-3800, USA
+                            39
+                               Department of Physics, Okayama University, Okayama, Okayama 700-8530, Japan
+        40
+           Media Communication Center, Osaka Electro-Communication University, Neyagawa, Osaka, 572-8530, Japan
+                               41
+                                  Department of Physics, Oxford University, Oxford, OX1 3PU, United Kingdom
+                                       42
+                                          Rutherford Appleton Laboratory, Harwell, Oxford, OX11 0QX, UK
+                        43
+                           Department of Physics and Astronomy, Seoul National University, Seoul 151-742, Korea
+           44
+              School of Mathematical and Physical Sciences, University of Sheﬀield, S3 7RH, Sheﬀield, United Kingdom
+       45
+          Department of Informatics in Social Welfare, Shizuoka University of Welfare, Yaizu, Shizuoka, 425-8611, Japan
+  46
+     August Chełkowski Institute of Physics, University of Silesia in Katowice, 75 Pułku Piechoty 1, 41-500 Chorzów, Poland
+47
+   STFC, Rutherford Appleton Laboratory, Harwell Oxford, and Daresbury Laboratory, Warrington, OX11 0QX, United Kingdom
+                                   48
+                                      Department of Physics, Sungkyunkwan University, Suwon 440-746, Korea
+                  49
+                     Department of Physics, Faculty of Science, Tohoku University, Sendai, Miyagi, 980-8578, Japan
+                                50
+                                   Department of Physics, University of Tokyo, Bunkyo, Tokyo 113-0033, Japan
+                      51
+                         Kavli Institute for the Physics and Mathematics of the Universe (WPI), The University of
+                      Tokyo Institutes for Advanced Study, University of Tokyo, Kashiwa, Chiba 277-8583, Japan
+                            52
+                               Department of Physics, Institute of Science Tokyo, Meguro, Tokyo 152-8551, Japan
+                                          53
+                                             Department of Physics and Astronomy, Faculty of Science and
+                                      Technology, Tokyo University of Science, Noda, Chiba 278-8510, Japan
+                             54
+                                Faculty of Science, University of Toyama, Toyama City, Toyama 930-8555, Japan
+                                       55
+                                          TRIUMF, 4004 Wesbrook Mall, Vancouver, BC, V6T2A3, Canada
+                              56
+                                 Department of Engineering Physics, Tsinghua University, Beijing, 100084, China
+                                       57
+                                          Faculty of Physics, University of Warsaw, Warsaw, 02-093, Poland
+                                   58
+                                      Department of Physics, University of Warwick, Coventry, CV4 7AL, UK
+                                    59
+                                       Department of Physics, University of Winnipeg, MB R3J 3L8, Canada
+                  60
+                     Department of Physics, Yokohama National University, Yokohama, Kanagawa, 240-8501, Japan
+                                                             (Dated: September 22, 2026)
+                We report a new partial lifetime limit of 4.2 × 1032 years for the trinucleon decay mode
+              16
+                O(ppp) →13 Cπ + π + e+ , obtained from a search conducted using the Super-Kamiokande detector
+              with 0.401 megaton-years of exposure across five operational periods (SK-I: 1996–2001, SK-II: 2002–
+              2005, SK-III: 2006–2008, SK-IV: 2008–2018, SK-V: 2019–2020). This represents an improvement
+              of six orders of magnitude over previous experimental constraints. The analysis utilizes a convo-
+              lutional neural network (CNN) incorporating an attention mechanism—a computational technique
+                                                                                                                              3
+
+              that enables the model to focus on the most relevant regions of Cherenkov ring patterns—to enhance
+              event classification, thereby improving the sensitivity of the search. This is the first application of a
+              CNN to a nucleon decay search in Super-Kamiokande. Furthermore, the large dataset available in
+              Super-Kamiokande (hereafter ”SK”) strengthens the statistical power of the study, enabling a more
+              stringent constraint than those set by prior experiments.
+
+
+                   I.   INTRODUCTION                                  arise as the lowest-dimensional baryon-number-violating
+                                                                      interactions that remain consistent with an underlying
+   The conservation of baryon number, B, is a corner-                 U (1)2Y −B+3L gauge symmetry, while automatically for-
+stone of the Standard Model (SM) of particle physics,                 bidding dangerous ∆B = 1 and ∆B = 2 transitions even
+though it is not dictated by a fundamental gauge sym-                 when the new-physics scale lies near the TeV range. The
+metry. Its violation is of theoretical interest, particu-             resulting dimension-15 operators respect B − L conserva-
+larly in the context of explaining the observed matter-               tion and can be embedded in unified constructions that
+antimatter asymmetry in the universe, as proposed by                  simultaneously address neutrino masses and the origin of
+Sakharov [1]. Grand Unified Theories (GUTs) and other                 the baryon asymmetry, thereby linking trinucleon decay
+extensions of the SM naturally predict baryon number                  searches to the broader program of testing baryogenesis
+violation [2], leading to processes such as proton, dinu-             mechanisms resilient to electroweak sphaleron washout.
+cleon, and trinucleon decays. Because the SM contains                 These theoretical motivations make the ppp → π + π + e+
+no perturbative interaction that mediates proton decay,               channel an especially sensitive probe of baryon-parity-
+observation of such a process would constitute evidence               protected scenarios.
+for physics beyond the SM. Experimental searches have                    Previous experiments have investigated baryon-
+so far constrained the proton lifetime to be greater than             number-violating processes, including searches for trin-
+1034 years [3], demonstrating the extreme rarity of these             ucleon decay. For instance, GERDA (τ > 4.7 × 1025
+decays and the challenges associated with their detection.            years) [5] and the Majorana Demonstrator (τ > 1.6×1026
+   In certain extensions of the SM, particularly those with           years) [6] have placed constraints on the specific trinu-
+an anomaly-free Z6 symmetry, itself a subgroup of the                 cleon decay mode ppp → π + π + e+ . However, these ex-
+U (1)2Y −B+3L gauge group. This symmetry imposes a                    periments employed different detection techniques and
+constraint on allowed processes [4]:                                  target materials compared to water Cherenkov detectors.
+                                                                      The SK detector, with its large fiducial volume and long
+                                                                      exposure time, enables further investigation of this decay
+             2∆Y − ∆B + 3∆L = 0 (mod 6).                              mode under different experimental conditions [7].
+                                                                         Hadronic final state interactions (hereafter ”FSI”)
+Here, Y denotes the hypercharge, ∆Y = 0, and L de-                    within the oxygen nucleus can alter the observed event
+notes the lepton number. The modulo 6 condition arises                topology from the initial particle kinematics of both sig-
+from the cyclic nature of the Z6 symmetry group, which                nal and background events, affecting event reconstruction
+has order 6, requiring all physical transformations to be             and the performance of conventional selection methods.
+invariant under six-fold iterations. This mathematical                To address this, the analysis applies a CNN architecture
+constraint allows for various values of baryon number vi-             with an attention mechanism to improve event classifica-
+olation, such as ∆B = 3, 9, or other multiples that is                tion. This approach enhances the identification of event
+satisfy the modulo 6 condition. In this study, we fo-                 signatures affected by FSI and improves background sup-
+cus specifically on processes with ∆B = 3, which can                  pression.
+occur through dimension-15 operators and represent the                   This paper is organized as follows. Section II de-
+lowest-order baryon number violation permitted by this                scribes the SK detector and data acquisition. Section III
+symmetry.                                                             presents the signal and atmospheric-neutrino simulations.
+   This study focuses on a specific ∆B = 3 process: trin-             Section IV describes event reconstruction, pre-selection,
+ucleon decay in oxygen nuclei. In this process, 16 O(ppp)             and the CNN analysis. Section V discusses systematic
+undergoes decay into 13 Cπ + π + e+ . Three protons si-               uncertainties. Section VI presents the search results and
+multaneously decay, producing two π + mesons and one                  lifetime-limit calculation, and Section VII summarizes
+positron, leaving a 13 C nucleus as the residual. Through-            the conclusions.
+out this paper, this process is abbreviated as ppp →
+π + π + e+ . Theoretical predictions for such processes es-
+timate their partial lifetime to be on the order of 1033                II.   THE SUPER-KAMIOKANDE DETECTOR
+years [4]. Within the anomaly-free Z6 baryon parity
+framework described in Ref. [4], these ∆B = 3 operators
+                                                                        Super-Kamiokande (Super-K, SK) is a large cylindri-
+                                                                      cal water-Cherenkov detector located 1 km underground
+                                                                      (2700 meters water equivalent) in the Kamioka mine in
+∗ also at University of Victoria, Department of Physics and Astron-
+                                                                      Gifu, Japan. Full details of the detector can be found
+  omy, PO Box 1700 STN CSC, Victoria, BC V8W 2Y2, Canada.             in Refs. [7, 8], but here we summarize only the features
+                                                                                                                            4
+
+most relevant to the present analysis.
+                                                                 TABLE I: Summary of the SK pure-water phases used in
+   The SK detector consists of two optically separated         this analysis. The total livetime is 6511.3 days (17.827 years,
+regions: the inner detector (hereafter “ID”) and the           using 365.25 days per year). With a 22.5-kiloton fiducial mass,
+outer detector (hereafter “OD”). The ID contains 32 kilo-      the total exposure is 0.4011 megaton-years.
+tons of ultrapure water, corresponding to approximately
+                                                                  Phase    Dates Livetime (Days) Photocoverage (%)
+1.07×1033 oxygen nuclei, and is lined with approximately
+                                                                  SK I 1996–2001      1489.2            40
+11,100 inward-facing 20-inch photomultiplier tubes (here-         SK II 2002–2005      798.6            19
+after “PMTs”) that detect Cherenkov light emitted by              SK III 2006–2008     518.1            40
+charged particles. Under normal operating conditions              SK IV 2008–2018     3244.4            40
+the photocathode coverage of the ID is approximately              SK V 2019–2020       461.0            40
+40%. However, during the SK-II period (2002-2005) the
+number of PMTs was reduced to 5,200 following an ac-
+cident in 2001 that destroyed approximately half of the        multiple pions in the final state. These processes can
+original PMTs. Accordingly, SK-II was operated with            generate event topologies with charged leptons and mul-
+only 19% coverage. On the other hand, the OD consists          tiple pions that closely resemble the trinucleon decay sig-
+of 1,885 outward-facing 8-inch PMTs and wavelength-            nature, leading to background events with similar ring
+shifting plates mounted on the ID support structure. It’s      multiplicities and energy distributions to those expected
+walls are lined with reflective Tyvek® to enhance light        from the signal.
+collection and allow for more eﬀicient rejection of incom-        To calculate the signal eﬀiciency and estimate the ex-
+ing cosmic ray muons and for identification of particles       pected atmospheric neutrino background in the signal
+that exit the ID.                                              sample, we generated Monte Carlo (MC) simulations for
+   SK collected data over multiple data-taking periods,        the trinucleon decay and atmospheric neutrinos. We pro-
+beginning in 1996. For this analysis, we utilized data         duced separate MC samples for both the trinucleon decay
+from all five pure-water phases, as summarized in Table I.     signal and atmospheric neutrino background for each SK
+The first three periods from 1996 to 2008, SK-I, -II, and      detector period. The generation and analysis of the trin-
+-III, differed from later periods primarily in their readout   ucleon decay MC follow previous SK analyses of single
+electronics. Events were recorded within a fixed event         and dinucleon decay [13, 14] and is described below.
+gate of about 1.3 µs (−300 to +1000 ns around the trig-
+ger), which introduced a dead time of roughly 800–1200
+ns after a primary event and limited the eﬀiciency for                    A. Trinucleon Decay Simulation
+tagging Michel electrons shortly afterward; an impedance
+mismatch between the electronics and PMT cables pro-
+                                                                  Given that the decay mode involves three nucleons, we
+duced signal reflections in a similar time window but was
+                                                               focused on decays occurring within the oxygen nucleus.
+a sub-dominant effect. In 2008, corresponding to SK-
+                                                               The simulation takes into account Fermi motion, corre-
+IV and later, an electronics upgrade introduced a much
+                                                               lations between nucleons, the nuclear binding energy, as
+wider 40 µs gate (−5 to +35 µs around the trigger) for
+                                                               well as pion interactions within the nucleus. The impact
+high-energy events and enabled essentially dead-time-free
+                                                               of pion interaction during propagation through the dense
+recording of all PMT hits (apart from a residual ∼1 µs
+                                                               nuclear medium is particularly significant in this study
+channel dead time in the QTC), substantially improv-
+                                                               and is discussed in more detail below.
+ing Michel-electron tagging. During these periods events
+                                                                  The nucleon Fermi momentum in 16 O is simulated
+were formed using offline software trigger algorithms. For
+                                                               based on data from electron-12 C scattering experi-
+the purposes of this analysis, the difference between the
+                                                               ments [15]. When simulating a decay, the effect of the
+first three and last two periods was a higher Michel elec-
+                                                               nuclear binding energy is introduced by modifying the
+tron tagging eﬀiciency in the latter. Otherwise the de-
+                                                               proton mass according to, M0p = Mp − Eb , where M0p
+tector performance was comparable across the data sets.
+                                                               is the modified proton mass, Mp is the proton rest mass,
+More details of the detector and its calibration proce-
+                                                               and Eb is the nuclear binding energy. Here, Eb is sampled
+dures, including the recent detector calibrations, can be
+                                                               from a Gaussian distribution with a mean of 39.0 MeV
+found in Refs. [7–11].
+                                                               (standard deviation of 10.2 MeV) for S-state protons, and
+                                                               a mean of 15.5 MeV (standard deviation of 3.8 MeV) for
+                                                               P-state protons. The ratio of S-state to P-state protons
+                  III.   SIMULATION                            is taken as 1:3, based on the nuclear shell model [16].
+                                                                  During the trinucleon decay process, the kinematics of
+   In the search for nucleon decay signals, atmospheric        the protons may be distorted due to binding effects with
+neutrino interactions constitute the primary background,       surrounding nucleons, a phenomenon referred to as cor-
+particularly in the energy range of a few to several GeV.      related decay. The probability of such correlated decays
+The dominant background processes include charged-             is estimated to be about 10% for each nucleon pair [17].
+current single pion production (CC1π) [12] and deep in-        Since three protons are involved, there are three possible
+elastic scattering (DIS), where a neutrino can produce         correlated pairs; each pair is treated independently with
+                                                                                                                            5
+
+a 10% correlation probability. The effect of correlated
+decay on the signal eﬀiciency is evaluated as a system-
+atic uncertainty by varying the correlation probability
+between 0% and 20%. Additionally, the positions of the
+decaying nucleons within the 16 O nucleus are approxi-
+mated using the Woods-Saxon nuclear density model [18].
+The decay of three nucleons leaves the residual nucleus
+in an excited state, which subsequently de-excites via the
+emission of gamma rays. Individual de-excitation gamma
+rays typically have energies less than 10 MeV, producing
+a total energy deposit less than 30 MeV. Typically this
+light is diﬀicult to distinguish from the light produced by
+other primary particles in the event. The decay products
+are generated with energy and momentum uniformly dis-
+tributed within the available phase space, following the
+approach of previous SK nucleon decay searches [19]. Pi-
+ons from the decay, for example, have momenta rang-
+ing from about 200 MeV/c to several GeV/c, with a 200             FIG. 1: Initial momentum distribution of π + mesons from
+MeV/c pion producing Cherenkov light comparable to             trinucleon decay before FSI.
+that of a 30 MeV electron. The positron also has a simi-
+lar momentum, contributing significantly more light than
+the de-excitation gamma rays.
+   Pion-nucleon interactions within the nucleus (pion FSI)
+can have significant impact on the observed final state
+and are simulated using the NEUT cascade model [20].
+Figure 1 shows the initial generated momentum distri-
+bution of π + mesons from trinucleon decay prior to
+FSI, exhibiting a broad spectrum with a peak around
+1200 MeV/c. The interaction probabilities for differ-
+ent FSI processes exhibit a strong momentum depen-
+dence, as illustrated in Figure 2. At low momenta (be-
+low 400 MeV/c), inelastic scattering and absorption dom-
+inate the interaction landscape. The inelastic channel
+maintains a significant probability across all momentum
+ranges, accounting for approximately 20% of the interac-
+tions. Charge exchange processes, while maintaining a
+relatively constant probability of around 10–20% across           FIG. 2: Momentum dependence of pion FSI processes in
+the momentum range, play a crucial role in modifying           oxygen nuclei. The stacked probability distributions show the
+                                                               relative contributions from different interaction channels as a
+the event topology by converting charged pions to neu-
+                                                               function of the true π + momentum: absorption (Abs., green),
+tral ones. The probability of pions traversing the nuclear     charge exchange (Ch. Ex., blue), hadron production (Had.
+medium without interaction ranges from about 20% at            Prod., orange), inelastic scattering (Inel. Scat., magenta),
+200 MeV/c to approximately 35% at 800 MeV/c. Above             and no interaction (No Int., gray).
+this threshold this survival probability decreases again as
+hadron production channels are opened.
+   The effects of these FSI on the number of π + and π 0       propagation and Cherenkov light emission are simulated
+mesons from 16 O(ppp) →13 Cπ + π + e+ decay are summa-         using a custom detector model based on GEANT3 [21].
+rized in Table II. After FSI the fraction of events with the   Charged pions are subject to further hadronic interac-
+same number of pions as in the initial state is estimated      tions in water, while neutral pions decay before such in-
+to be 47.8%. The next most probable combination, oc-           teractions can occur. The propagation of charged pions
+curring in 18.1% of events, consists of one π + and one        at momenta below 500 MeV/c is simulated using the nu-
+π 0 . This combination is typically realized when a π + ex-    clear effect part of NEUT [22], while higher momentum
+changes charge with a neutron and produces a π 0 . In          pions are handled by GCALOR [23].
+some cases, this could also happen when one π + is ab-            MC events are generated within 1 meter from the wall
+sorbed while the other π + interacts with a nucleon and        of the ID, expanding the fiducial volume to accommodate
+generates an additional π 0 . Other combinations, includ-      the requirements of machine learning models used later
+ing those involving multiple charge exchange or absorp-        in the analysis to identify common features of trinucleon
+tion processes, occur with lower probabilities.                decay events and to distinguish them from backgrounds.
+   Once the positron and pions exit the nucleus, their         For each SK period, a total of 100,000 signal events were
+                                                                                                                            6
+
+generated.                                                       mass W . For 1.3 GeV/c2 ≤ W ≤ 2.0 GeV/c2 , only
+                                                                 multiple-pion production is simulated with multiplici-
+                                                                 ties based on bubble chamber experimental data. For
+   TABLE II: Impact of FSI on the number of π + and π 0          W > 2.0 GeV/c2 , the hadronic final states are modeled
+mesons in the decay 16 O(ppp) →13 Cπ + π + e+ . Values shown     using PYTHIA/JETSET, allowing for production of ad-
+are percentages of the total sample. The original signal com-
+                                                                 ditional mesons such as kaons and η mesons. The nu-
+binations (two π + with no π 0 , or one π + with one π 0 af-
+ter charge exchange) are highlighted with bold text. Due
+                                                                 cleon’s internal structure is described using GRV98 par-
+to strong FSI within the oxygen nucleus, only about 66% of       ton distribution functions [25] with Bodek-Yang correc-
+events maintain these viable signal combinations, with the re-   tions [26, 27] applied in the low Q2 region. These atmo-
+maining events significantly altered through various nuclear     spheric neutrino events were simulated using the same
+interactions. Nπ0 denotes the number of π 0 mesons.              detector simulation program as the signal events, incorpo-
+                                                                 rating GEANT3 with GCALOR for hadron interactions
+               Nπ 0 0 π + 1 π +   2 π+ 3 π+                      in water and NEUT for low-momentum pion interactions,
+                0   0.1% 12.1% 47.8% 4.3%                        following the standard SK simulation framework [7, 9].
+                1   2.8% 18.1% 6.7% 1.9%                            The atmospheric neutrino MC samples were gener-
+                2   2.0% 2.6% 1.4% 0.4%                          ated with statistics equivalent to a 500-year exposure of
+                                                                 each SK period. Background estimates were reweighted
+                                                                 using three-flavor neutrino oscillation probabilities ap-
+                                                                 plied using the PDG 2022 global best-fit parameters:
+               B. Atmospheric Neutrinos                          sin2 θ12 = 0.307, sin2 θ13 = 0.0220, sin2 θ23 = 0.546,
+                                                                 ∆m221 = 7.53 × 10−5 eV2 , ∆m232 = 2.453 × 10−3 eV2 ,
+                                                                 and δCP = 0. This approach is consistent with that used
+   Atmospheric neutrinos are the primary background to
+                                                                 in Ref. [28].
+this study. For this analysis, we generate atmospheric
+neutrino MC samples for each SK period using the Honda
+atmospheric neutrino flux model [24] and the NEUT neu-
+                                                                                     IV.   ANALYSIS
+trino interaction generator [20]. These samples include
+neutrino interactions in water, where charged-current sin-
+gle pion production (CC1π) and deep inelastic scatter-              In this study, we first applied event selections using the
+ing (DIS) constitute the dominant background processes.          standard SK reconstruction algorithm (APFit) [8, 19, 29]
+Both interaction modes can produce final states that             to identify events broadly consistent with the expected
+closely mimic our signal topology: CC1π events can gen-          trinucleon decay mode. These pre-selected events are
+erate combinations with multiple pions and charged lep-          then subjected to advanced machine learning (ML) algo-
+tons through FSI, while DIS processes can directly pro-          rithms for further classification.
+duce multi-pion final states with kinematics similar to
+our trinucleon decay signal.
+   Charged-current single pion production (CC1π) fol-                       A.   Preliminary Event Selection
+lows the reaction:
+                                                                    For this analysis, we first reconstructed the interac-
+                                                                 tion vertex using timing and charge information from
+                    ν + N → l + N′ + π                           the PMTs to identify events within the SK detector. We
+                                                                 then selected Fully Contained Fiducial Volume (hereafter
+where ν represents the neutrino, N is the initial nucleon,       “FCFV”) events, which satisfy two critical criteria: all
+l is the charged lepton, N ′ is the final-state nucleon, and     charged particles must be confined within the ID with
+π is the produced pion.                                          no significant activity in the OD, and the reconstructed
+   Deep inelastic scattering (DIS) can be further catego-        vertex must lie within the fiducial volume, defined as the
+rized into charged-current (CCDIS) and neutral-current           region 2 meters inward from the ID walls. Additionally
+(NCDIS) interactions, represented by the following reac-         events are required to have at least 30 MeV of visible
+tions:                                                           energy deposited in the detector.
+                                                                    Events passing the FCFV selection underwent a recon-
+                                                                 struction process to determine key parameters, including
+             CCDIS: ν + N → l + N ′ + hadrons
+                                                                 vertex position, number of Cherenkov rings, direction,
+                                                                 momentum, and particle type. The reconstruction al-
+           NCDIS: ν + N → ν + N ′ + hadrons                      gorithm first determines the vertex position using tim-
+                                                                 ing and charge information from the PMTs, then iden-
+ In DIS processes, the final-state products can include          tifies Cherenkov rings using the Hough transformation
+multiple pions, as well as other hadrons such as η               method [19, 30]. Particle identification is performed by
+mesons and kaons. In NEUT, the hadronic system is                analyzing the photon charge distribution within each ring
+modeled differently depending on the invariant hadronic          and each ring in an event is identified as either showering,
+                                                                                                                             7
+
+representative of an electron or photon, or non-showering,      events (green). Trinucleon decay events pass the pre-
+representing a muon or charged pion. The correspond-            selection with 82.9% eﬀiciency, whereas only 28.0% of
+ing momentum is reconstructed from the total charge             atmospheric neutrino events survive.
+associated with each Cherenkov ring. Michel electrons
+from stopping muons are identified by detecting clusters
+of PMT hits within a 20-microsecond window following
+the primary event. Full details of this reconstruction
+process, including the algorithm refinements introduced
+after SK-I such as the ring correction, are available in
+Refs. [8, 19, 29].
+   The nominal target event topology for this search in-
+cludes two π + and one e+ , which should produce two non-
+showering and one showering ring. Often the π + will de-
+cay within the inner detector producing a Michel electron
+that can be tagged and used to improve signal identifica-
+tion. However, in addition to the FSI described above,
+pions emerging from the oxygen nucleus can undergo sec-
+ondary interactions (SI) with nuclei in the water, under-
+going charge exchange, absorption, or additional particle
+production, altering the final event topology. The pre-
+selection described below has been developed to include
+many signal events even after accounting for these pro-
+cesses:
+
+   • Require FCFV: Event vertices must be greater than
+     2 m from the nearest ID wall with limited OD activ-
+     ity. Further, events must have more than 30 MeV
+     of visible energy.
+
+   • Require events with three or four Cherenkov rings:
+     Signal events are expected to have at least three             FIG. 3: Event topology distributions after FSI and SI, cat-
+     rings (two from π + and one from the primary e+ ),         egorized by number of Cherenkov rings and Michel electrons
+     with a fourth ring possible if a π + scatters at a large   for both signal events (top) and atmospheric neutrino events
+     angle or undergoes charge exchange to produce a π 0        (bottom). The signal region (3-4 rings, 1-2 Michel electrons)
+     that promptly decays to two photons. We note that          is highlighted in red, while the sideband region (2 or 5 rings,
+     Particle identification (PID) to distinguish shower-       1-2 Michel electrons) used for CNN systematic uncertainty
+     ing and non-showering rings was not applied at this        assessment is highlighted in blue. Other event topologies are
+     stage to preserve events for machine learning train-       shown in green.
+     ing.
+
+   • Require one or two Michel electrons: This targets
+     signal events where at least one π + successfully                      B. Machine Learning Methods
+     completes its decay chain (π + → µ+ → e+ ).
+                                                                   Our analysis employs machine learning techniques that
+   • Require total visible energy below 3 GeV: This cut,        process detector response patterns to identify characteris-
+     corresponding to the mass of three nucleons (ap-           tic signatures of trinucleon decay events. This is the first
+     proximately 3 GeV), retains signal events while re-        time a CNN has been applied to a nucleon decay search
+     jecting higher-energy background neutrino interac-         at SK. The machine learning approach systematically an-
+     tions. No further lower energy limit was set to max-       alyzes spatial correlations in the charge distribution pat-
+     imize the event sample available for subsequent ma-        terns recorded by photomultiplier tubes to distinguish
+     chine learning analysis.                                   signal events from background.
+                                                                   The fundamental computational unit in this analysis
+   Figure 3 presents the distribution of events across          is a convolution neural network, termed a CNN, which
+the different topologies after the FCFV cut (including          divides the detector response into discrete spatial regions
+the fiducial volume and visible energy requirements) but        and analyzes local correlations through a series of math-
+before applying the other selection criteria. The pre-          ematical transformations. These transformations are ap-
+selection’s signal region is shown (highlighted in red) to-     plied sequentially, with each subsequent operation build-
+gether with sidebands discussed below (blue) and other          ing upon the results of previous calculations to identify
+                                                                                                                         8
+
+increasingly complex spatial patterns in the detector re-      to η via:
+sponse. The method’s eﬀicacy stems from its ability to                         ⌊                    ⌋
+                                                                               z − zmin
+recognize subtle correlations in detector response pat-                    η=             × Nηbarrel + η0 .            (2)
+terns that may not be apparent in conventional recon-                         zmax − zmin
+struction approaches.                                          For end-cap PMTs, the transformation first computes
+   CNNs excel at recognizing complex structures within         their radial coordinate ρ in the end-cap plane:
+Cherenkov rings by automatically extracting significant                                  √
+features from the input images, such as ring shapes and                             ρ = x2 + y 2 .             (3)
+intensity patterns. This enables more precise classifica-      This radial coordinate is subsequently mapped to η :
+tion of high-momentum pion events. The effectiveness of                          ⌊                 ⌋
+this approach builds on foundational studies, such as the                           ρ
+                                                                             η=          × Nηendcap + η0 ,          (4)
+CNN architecture proposed by LeCun et al. [31].                                    ρmax
+   To address the impact of hadron production for pion         while the azimuthal position determines ξ through:
+momenta above 500 MeV/c, we employed CNNs for fea-                             ⌊                    ⌋
+ture extraction.                                                                 arctan 2(y, x)
+                                                                           ξ=                   × Nξ + ξ0 .            (5)
+                                                                                      2π
+                                                               The transformation parameters are defined as follows:
+              1.   Unfolding the SK Detector                   Nξ = 224 and Nη = 224 specify the total dimensions
+                                                               of the output image, encompassing both the barrel and
+                                                               end-cap regions after projection into a 2D plane; zmin and
+   In our study, the SK detector, a large cylindrical struc-
+                                                               zmax denote the vertical height limits of the barrel section
+ture equipped with more than ten thousand PMTs, was
+                                                               of the detector, while ρmax represents the maximum ra-
+used to record physical events. To effectively apply CNNs
+                                                               dial extent of the end-caps. The constants ξ0 and η0 are
+for event analysis, we transformed the surface images of
+                                                               offsets ensuring proper alignment in the transformed co-
+the cylindrical detector into a 2D plane. For this trans-
+                                                               ordinate system. The floor function ⌊·⌋ ensures discrete
+formation, we used the total charge collected by each
+                                                               pixel coordinates in the output image.
+PMT throughout the entire event duration (1.3 µs for
+                                                                  This cylindrical-to-planar projection introduces geo-
+SK-I to SK-III, and 40 µs for SK-IV and SK-V), which
+                                                               metric distortions, particularly in the top and bottom
+includes charges from both the primary interaction and
+                                                               (end-cap) sections of the detector compared to the bar-
+any subsequent decay processes. The timing information
+                                                               rel region. These distortions have a negligible impact
+of PMT hits was not included in the analysis to maintain
+                                                               on our analysis for two reasons. First, the same fixed
+simplicity and focus on the spatial charge distribution.
+                                                               projection is applied identically to both the simulated
+   To facilitate the application of CNN analysis, we de-       and the observed events, so any distortion is common to
+veloped a mapping procedure to transform the cylindri-         signal MC, background MC, and data, and is therefore
+cal detector surface into a rectangular image representa-      learned consistently by the network rather than intro-
+tion. This transformation defines a two-dimensional co-        ducing a data/MC bias. Second, the fiducial-volume re-
+ordinate system (ξ, η), where ξ represents the azimuthal       quirement (vertex more than 2 m from the wall) and the
+coordinate and η denotes the vertical position in the pro-     multi-ring topology of the signal mean that the major-
+jected plane. The transformation preserves the topologi-       ity of Cherenkov rings are imaged on the barrel, where
+cal properties of Cherenkov ring patterns, which is essen-     the projection is close to area-preserving; events domi-
+tial for subsequent pattern recognition. Figure 4 demon-       nated by the more strongly distorted end-cap regions are
+strates this transformation applied to simulated trinu-        a small fraction of the sample.
+cleon decay events, showing both the original cylindrical         The geometric shape and intensity distribution of
+detector view and the resulting 2D Mercator projection.        Cherenkov rings are directly related to the particle’s di-
+   The mapping procedure implements distinct transfor-         rection and speed. Therefore, ring features contain not
+mations for PMTs located on the barrel and end-caps of         only the particle’s momentum information but also char-
+the detector. Each PMT maps to at most one pixel in the        acteristics related to the particle type. CNNs are par-
+224×224 grid of the projection, with unoccupied grid po-       ticularly effective in processing image data, excelling at
+sitions assigned zero charge values. For barrel PMTs, the      extracting geometric features such as edges and curves.
+azimuthal angle ϕ is mapped linearly to the ξ coordinate       By using Cherenkov rings as the primary features, CNNs
+with a constant offset (Eq. 1):                                can leverage their convolutional layers to incrementally
+                       ⌊     ⌋                                 extract edge information from the image, identifying the
+                       ϕ                                       ring boundaries in earlier layers and capturing the over-
+                   ξ=    × Nξ + ξ0 ,                    (1)
+                      2π                                       all shape and details in deeper layers. This layered fea-
+                                                               ture extraction enables CNNs to effectively distinguish
+where Nξ = 224 is the number of horizontal pixels in the       between different event types, especially in the case of
+output image and ξ0 is a horizontal offset parameter for       multiple partially overlapping rings as expected from the
+proper alignment. The vertical position z is transformed       trinucleon decay signal.
+                                                                                                                           9
+
+                                                                intensities according to their calculated significance.
+                                                                   Second, a series of dimensional reduction operations,
+                                                                referred to as the Bottleneck structure, that process the
+                                                                detector response data through three stages: an initial
+                                                                transformation that reduces the dimensionality of the sig-
+                                                                nal, followed by a spatial correlation analysis using either
+                                                                3×3 or 5×5 matrices, and a final transformation that
+                                                                restores the original signal dimensions. This structure,
+                                                                based on the inverted-residual bottleneck design intro-
+                                                                duced in MobileNetV2 [34], allows for eﬀicient computa-
+                                                                tion while preserving the essential spatial correlations in
+                                                                the detector response.
+                                                                   The detector response data is preprocessed by project-
+                                                                ing the cylindrical detector geometry onto a planar sur-
+                                                                face. This projection is then discretized into a numerical
+                                                                array intended as input for the CNN, with dimensions
+                                                                [3, 224, 224]. The final two dimensions, Nξ = 224 and
+                                                                Nη = 224, specify the spatial resolution of the projected
+                                                                image in pixels. The first dimension represents the input
+                                                                channels. Since the PMT charge distribution constitutes
+                                                                single-channel data (analogous to a grayscale image), but
+                                                                the CNN architecture expects a three-channel input (akin
+                                                                to standard RGB images), this single channel of charge
+                                                                information is replicated across all three channels. Conse-
+                                                                quently, the array features three identical input channels,
+                                                                each containing the same PMT charge distribution.
+
+
+                                                                  3. Training and Classification of the 16 O(ppp) → 13 C
+                                                                                   π + π + e+ Search
+
+                                                                   This analysis utilized MC from five SK operational pe-
+                                                                riods. For each period, we generated 100,000 trinucleon
+                                                                decay signal events and 150,000 atmospheric neutrino
+                                                                background events that passed the event selection criteria
+  FIG. 4: MC simulated images of trinucleon decay and their     in Section IV.A, resulting in a total of 1,250,000 events for
+corresponding Mercator projections. The upper image shows       the machine learning analysis. A separate CNN model
+the original cylindrical detector simulation, while the lower
+                                                                was trained for each SK period to account for the differ-
+image demonstrates the 2D plane obtained using our Mercator
+projection method.
+                                                                ent detector configurations and operational conditions.
+                                                                   To ensure the reliability of our method, we employed a
+                                                                cross-validation process—a statistical technique that as-
+                                                                sesses model performance by partitioning data into train-
+                 2. Network Architecture
+                                                                ing and testing subsets. For each SK period, the events
+                                                                were randomly split into two sets: 80% for optimizing pa-
+   We implemented a modified version of the Mo-                 rameters and 20% for validating performance. This split
+bileNetV3 architecture[32], which performs sequential           enabled a fair assessment of the method’s ability to dis-
+mathematical operations on detector response data. The          tinguish signal from background events, with each period
+architecture consists of two primary computational com-         analyzed separately to account for variations in detector
+ponents, designed to optimize both computational eﬀi-           conditions.
+ciency and pattern recognition capability.                         The analysis was implemented using the PyTorch
+   First, a spatial averaging operation across detector re-     framework [35]. The network weights were initialized
+gions is applied, followed by a weighting calculation that      from a MobileNetV3 model pre-trained on the ImageNet-
+determines the relative importance of different spatial re-     1k natural-image dataset [36]. This transfer-learning ini-
+gions in the detector response. This component, known           tialization provides the convolutional filters with generic
+as the Squeeze-and-Excitation mechanism in computa-             low-level feature detectors (edges, curves, and intensity
+tional literature [33], enables adaptive weighting of de-       gradients) that are also relevant for Cherenkov-ring pat-
+tector signals based on their spatial distribution. These       terns. Starting from these pre-trained weights, rather
+weights are then applied to modulate the detector signal        than from random initialization, accelerates convergence
+                                                                                                                          10
+
+and improves stability of the training given our limited       tween machine learning output values of 0 to 10, indi-
+number of simulated events, while the subsequent train-        cates the CNN’s strong discriminatory power for trinu-
+ing on SK MC adapts the higher-level features to the           cleon decay event identification. To further illustrate the
+detector-specific topologies. A CNN was employed to            discrimination capability, Figure 6 shows the Data/MC
+classify the pre-selected samples, leveraging its ability      ratio, providing a complementary view of the agreement
+to process the projected detector response data (Section       between experimental data and MC predictions across
+IV.B.1). To optimize the CNN settings, we used a bi-           different machine learning output values.
+nary cross-entropy loss function—a mathematical mea-
+sure that quantifies the difference between predicted
+and actual event classifications—to guide adjustments.
+Through iterative optimization, we fine-tuned key train-
+ing parameters: the batch size (number of events pro-
+cessed simultaneously, set to 32), the regularization co-
+eﬀicient (parameter controlling model complexity to pre-
+vent overfitting, set to 1 × 10−4 ), the learning rate (step
+size for parameter updates, set to 1 × 10−3 ), and the
+number of epochs (complete passes through the training
+dataset, set to 30). The trained CNN model was then
+applied to both the simulation and observed data, pro-
+ducing a distribution with two distinct peaks—one cor-
+responding to the trinucleon decay signal and the other
+to the atmospheric neutrino background—as shown in                FIG. 5: Machine learning output distribution for SK-IV pe-
+Figure 5.                                                      riod on a logarithmic scale. The red line shows the trinucleon
+                                                               decay signal MC events, while the blue line represents the at-
+                                                               mospheric neutrino MC background events. Black dots with
+C.   Application and Performance of the CNN in the             error bars indicate the experimental data for atmospheric neu-
+           16
+              O(ppp) → 13 C π + π + e+ Search                  trino events. The orange dash-dotted line shows the normal-
+                                                               ized score curve (right y-axis), and the green dashed vertical
+                                                               line indicates the optimal cut value. The separation between
+   The trained CNN model was applied to the pre-               signal and background distributions demonstrates the CNN’s
+selected samples from all five SK periods, producing a         discrimination power. All other SK periods show similarly
+distribution of output scores that separated trinucleon de-    good agreement between the data and the background MC;
+cay signal events from atmospheric neutrino background         the corresponding distributions are shown in the Appendix.
+events. To determine the optimal threshold for event clas-
+sification, we defined a scoring function that balances the       The optimal cut value is determined independently for
+true positive rate (TPR, fraction of correctly identified      each SK data-taking period (SK-I through SK-V). For
+signal events) with the true negative rate (TNR, fraction      each period, only events with machine learning output
+of correctly identified background events):                    values greater than their respective optimized cut will
+                               TPR                             be selected as the final sample. This period-specific op-
+                 Score = √             .                       timization ensures consistent signal selection eﬀiciency
+                             TPR + TNR                         while maintaining effective background rejection across
+   Figure 5 illustrates the CNN model output distribution      all operational phases (Table III). Using these optimized
+for the SK-IV dataset, displaying both MC simulations          cuts, we can estimate both the method’s eﬀiciency and
+and experimental data on a logarithmic scale. The red          the atmospheric neutrino content in the final sample for
+line represents the trinucleon decay signal MC events,         each period.
+while the blue line shows the atmospheric neutrino MC             In our analysis of Cherenkov ring concentration, we
+background events. Black dots with error bars indi-            observe that trinucleon decay events tend to produce
+cate the actual experimental data, demonstrating good          more dispersed ring distributions, whereas atmospheric
+agreement with the atm-nu MC prediction. The orange            neutrino events are characterized by a higher spatial con-
+dash-dotted line represents
+                      √       the normalized scoring func-     centration of rings. This concentration is quantified by
+tion Score = TPR/ TPR + TNR (plotted against the               the average angle between the highest energy ring and
+right y-axis), which is designed to balance signal eﬀi-        the other rings, reflecting their relative positions within
+ciency (TPR) against background rejection (related to          the detector. For trinucleon decay events, low initial mo-
+TNR). The optimal cut, indicated by the green dashed           menta of the decaying nucleons results in decay products
+vertical line, is chosen at the machine learning output        being more isotropically distributed.
+value where this Score function reaches its maximum.              In contrast, atmospheric neutrino events, particularly
+This selection strategy aims to effectively distinguish sig-   those involving deep inelastic scattering (DIS), typically
+nal from background. The clear separation between sig-         exhibit smaller average angles because the incoming neu-
+nal and background distributions, particularly visible be-     trino’s directional momentum tends to produce more con-
+                                                                                                                          11
+
+                                                                SK periods (SK-I to SK-V), here we focus on SK-II and
+                                                                SK-IV only. The results from SK-I, SK-III, and SK-V
+                                                                showed patterns similar to SK-IV, without significant de-
+                                                                viations and SK-II has features distinct from the other
+                                                                periods.
+                                                                   Figure 7 illustrates the distribution of the mean angu-
+                                                                lar deviation for the SK-IV period (upper panel) and the
+                                                                SK-II period (lower panel). The mean angular deviation
+                                                                is calculated using the true (generator-level) directions of
+                                                                the final-state particles from the MC simulation, taken
+                                                                after FSI. It is computed as:
+
+                                                                                                  N −1
+                                                                                              1 ∑
+                                                                                   θavg =              θi ,
+                                                                                            N − 1 i=1
+
+                                                                where θi is the angular difference (in radians) between the
+                                                                direction of the highest-energy final-state particle and the
+  FIG. 6:        Atmospheric-neutrino data divided by
+atmospheric-neutrino MC as a function of the CNN
+                                                                direction of the i-th particle, and N is the total number
+output for SK-IV. Black points show the Data/MC ratio           of final-state particles in the event (excluding the highest-
+with statistical error bars, the horizontal gray dashed line    energy particle). Because this quantity is computed from
+marks unity, and the red dashed vertical line indicates the     generator-level directions after FSI, it is a property of
+optimized cut. The corresponding Data/MC ratios for the         the underlying interaction physics and is therefore essen-
+other SK periods are shown in the Appendix and exhibit          tially the same for a given event sample across SK peri-
+similarly good agreement between data and background MC.        ods; in particular, the atmospheric-neutrino background
+                                                                distribution in mean angular deviation is consistent be-
+                                                                tween SK-II and SK-IV. The pronounced difference be-
+   TABLE III: Eﬀiciencies and background estimates across       tween the two periods instead appears along the CNN
+different SK periods for the ppp → π + π + e+ search. The       output axis: in SK-IV the signal and background popu-
+expected-background counts are calculated from the displayed
+                                                                lations are well separated in the model output, whereas
+event rates multiplied by each period’s exposure, Ei =
+(22.5/1000)(Ti /365.25) megaton-years, using the livetimes Ti
+                                                                in SK-II they overlap considerably more. This degraded
+in Table I. Counts are approximate because the input rates      separation arises from the different PMT configuration
+are rounded.                                                    of SK-II, which operated with roughly half the photo-
+            Eff. (%) Expected       Event Rate        Data      cathode coverage of the other periods. With fewer active
+                      bkg events (events/MT·yr) Events          PMTs collecting Cherenkov photons, the ring patterns
+ SK-I                                                           are less sharply defined in the detector images, which
+   PreCut     81.4      386.54          4213.6          0       reduces the discriminating power of the CNN for SK-II
+   ML Cut 25.9           0.29            3.2            0       rather than shifting the underlying angular-deviation dis-
+ SK-II                                                          tribution. The marked difference between the SK-II and
+   PreCut     80.9      211.05          4290.1          0       SK-IV results thus reflects the direct impact of PMT cov-
+   ML Cut 22.8           0.21            4.3            0       erage on the clarity of the Cherenkov-ring images and
+ SK-III
+                                                                hence on the network’s classification performance.
+   PreCut     80.4      135.88          4257.3          0
+   ML Cut 25.7           0.10            3.1            0          Finally, to determine whether the CNN and full APFit
+ SK-IV                                                          selections identify the same signal-MC population, and
+   PreCut     81.3      849.65          4251.2          1       in particular whether either selection contains the other,
+   ML Cut 25.8           0.64            3.2            1       we performed an event-by-event migration comparison
+ SK-V                                                           using the 8,589 archived SK-IV signal-MC event records
+   PreCut     81.2      121.15          4266.0          0       in 200 CSV files. The CNN route requires three or four
+   ML Cut 25.9           0.09            3.0            0       rings, one or two Michel electrons, a reconstructed wall
+                                                                distance greater than 200 cm, 30 < Evis < 3000 MeV,
+                                                                and a CNN output greater than 6.12. The full APFit
+centrated ring patterns along the direction of the incom-       route requires 1 < nring < 5, a wall distance greater than
+ing neutrino. However, this directionality is partially al-     200 cm, fewer than 10 OD hits, 500 < Evis < 2800 MeV,
+tered by FSI within the nuclear medium, which can sig-          1600 < Minv < 3000 MeV/c2 , Ptot < 900 MeV/c, and
+nificantly alter the trajectories of the outgoing particles     fewer than three Michel electrons. The OD-hit require-
+and lead to more diffuse angular distributions than would       ment had already been imposed at the upstream Step0
+be expected from pure DIS kinematics alone.                     stage and is therefore not a column in the archived CSV
+   Though we performed comparative analyses across all          files. Table IV gives the resulting migration matrix.
+                                                                                                                            12
+
+                                                                       The CNN selects 1,044 signal-MC events, of which
+                                                                    689 (66.00%) are outside the full APFit selection; the
+                                                                    full APFit selection accepts 1,714 events, of which 1,359
+                                                                    (79.29%) are not selected by the CNN. The sizable ex-
+                                                                    clusive populations in both directions show that neither
+                                                                    selection contains the other. The only conclusion drawn
+                                                                    from this comparison is that the two selections iden-
+                                                                    tify different and complementary signal-MC populations.
+                                                                    This comparison does not demonstrate that the CNN gen-
+                                                                    erally outperforms full APFit and does not constitute a
+                                                                    conclusion about their relative sensitivity or performance.
+                                                                    The archived CSV files do not contain event-level FSI or
+                                                                    SI histories, so no physical cause is inferred for either
+                                                                    migration direction. Figure 11 provides the correspond-
+                                                                    ing shape comparison in the APFit invariant-mass and
+                                                                    total-momentum variables.
+
+
+                                                                            V. SYSTEMATIC UNCERTAINTY
+                                                                                    ESTIMATION
+
+                                                                       We categorize systematic uncertainties into two pri-
+                                                                    mary components. The first arises from uncertainties
+                                                                    in the physics modeling, which are uncertainties in both
+                                                                    the signal and background models. The second compo-
+                                                                    nent is closely related to the intrinsic properties of the
+                                                                    detector and event reconstruction, which are inherently
+                                                                    tied to the CNN model utilized in this analysis. Below is
+                                                                    a detailed examination of these uncertainty estimates.
+
+
+                                                                                  A. Modeling Uncertainties
+   FIG. 7: CNN model output versus the mean angular de-
+viation of the final-state particles (computed from generator-         Modeling uncertainties are divided into two subcate-
+level directions after FSI) for SK-IV (top) and SK-II (bottom).     gories: those arising from physical processes and those
+The colored hexagonal bins show the atmospheric-neutrino            related to background estimation.
+background MC density (color scale at right), and the open
+black circles show the trinucleon decay signal MC, with the
+marker area proportional to the number of events. The mean
+angular deviation, a generator-level physics quantity, is consis-               1.   Physics Modeling Uncertainties
+tent between the two periods, but the signal and background
+populations are clearly separated along the CNN output axis            For the detector model utilized in this study, the
+in SK-IV while overlapping substantially more in SK-II. This        largest systematic uncertainty originates from the sim-
+reduced separation reflects the lower PMT coverage of SK-           ulation phase. Across all models, the dominant system-
+II (roughly half that of the other periods), which makes the
+                                                                    atic uncertainty stems from the FSI of pions. These FSI
+Cherenkov rings less sharply defined and thereby degrades the
+network’s discriminating power.
+                                                                    processes significantly affect the Cherenkov ring patterns
+                                                                    by modifying the pion kinematics through absorption,
+                                                                    charge exchange, and scattering interactions within the
+   TABLE IV: Event-by-event migration between the SK-IV             nuclear medium. Such modifications can alter the spa-
+CNN and full APFit selections in the archived signal-MC sam-        tial distribution and intensity of the observed Cherenkov
+ple. Fractions are relative to all 8,589 event records.             rings, potentially impacting our event classification.
+        Selection category Events Fraction [%]                         To quantify the uncertainty in our analysis, we gen-
+        CNN and full APFit          355            4.13             erated MC simulation samples with 24 parameter per-
+        CNN only                    689            8.02             turbations. These perturbations include 1σ variations in
+        Full APFit only            1359           15.82             the π-nucleon scattering cross-sections—derived from fits
+        Neither                    6186           72.02             to pion scattering experimental data and consistent with
+                                                                    the treatment in Ref. [37]—affecting charge exchange, ab-
+        Total                      8589          100.00
+                                                                    sorption, inelastic scattering, and hadron production.
+                                                                                                                         13
+
+   Figure 8 illustrates the impact of these perturbations
+using the mean angular deviation distribution. The top
+panel shows the distribution with the nominal FSI pa-
+rameter settings, while the bottom panel highlights the
+parameter set with the most significant variation among
+the 24 analyzed: inelastic scattering cross section in-
+creased by 50% at low energies and 28% at high energies,
+with accompanying changes including a 50% decrease in
+the hadron production cross section, a 36% increase in
+pion absorption, and a substantial reduction in charge ex-
+change processes (60% at low energies and 28% at high en-
+ergies). These modifications in nuclear interaction prob-
+abilities lead to observable shifts in the Cherenkov ring
+patterns, significantly impacting our signal identification
+capability.
+   When evaluating the overall systematic uncertainty,
+we averaged the changes across all 24 parameters. Us-
+ing the unperturbed CNN model to process the data, we
+calculated the resulting effects on the signal eﬀiciency
+and the atmospheric neutrino background rate in the fi-
+nal sample. The average eﬀiciency variation observed
+after applying all analysis selection criteria was adopted
+as the estimate for this systematic uncertainty. The FSI
+uncertainty is the dominant systematic in this analysis,
+amounting to approximately 22–26% on the signal eﬀi-
+ciency and 16–19% on the atmospheric-neutrino back-
+ground rate, depending on the SK period.
+   In addition, for uncertainties related to Fermi motion
+and correlated decay, we applied re-weighting techniques
+to the MC simulations and evaluated the impact on the fi-
+nal signal eﬀiciency and background levels. Given the in-
+complete understanding of correlated decay mechanisms,
+we conservatively assigned a 100% uncertainty to its de-         FIG. 8: Impact of FSI parameter variations on the mean
+tection eﬀiciency. During the simulation phase, we as-        angular deviation distributions in MC simulations. The top
+sumed a 10% occurrence probability for correlated decay       panel shows the distribution using nominal FSI parameters,
+and retained this 100% uncertainty through to the final       while the bottom panel shows the distribution with modified
+analysis sample.[3]                                           FSI parameters including variations in absorption cross sec-
+                                                              tions, scattering processes, and hadron production rates. The
+                                                              mean angular deviation is calculated between the highest-
+                                                              energy particle and other particles emerging from the FSI
+          2.   Background Modeling Uncertainties
+                                                              process for each simulated event.
+
+   The uncertainty in background modeling primarily
+arises from uncertainties in the atmospheric neutrino flux       TABLE V: Percentage changes in background event esti-
+and interaction model. Based on previous SK atmo-             mates due to systematic uncertainties in the neutrino interac-
+spheric neutrino analyses, we constructed a set of weights    tion modeling. Each row corresponds to an independent error
+                                                              source; the deep inelastic scattering (DIS) contributions are
+that describe the behavior of each event under a 1σ per-
+                                                              itemized separately, following the SK convention [38].
+turbation in each systematic uncertainty [38]. These
+weights were applied to MC samples, propagating the           Source                                     Uncertainty [%]
+uncertainties to the final background predicion. Table V      Deep inelastic scattering
+presents a breakdown of these uncertainties for dominant        Structure functions                                     8.2
+error sources. The uncertainties describe the fractional        DIS multiplicity                                        7.4
+change in the number of background events under a 1σ            DIS nuclear effects                                     6.1
+variation of the source, following the error sources and        Low-W DIS/resonance transition                          5.8
+naming conventions of the SK atmospheric neutrino os-         Single-meson production (axial mass MA )                 12.3
+cillation analysis [38].                                      Neutrino interaction model                                5.1
+   The DIS cross-section modeling provides the largest        Cross section ratios (ν/ν̄, π 0 /π ± )                    4.8
+contribution; its individual error sources—structure func-    Total systematic uncertainty                             21.2
+tions (8.2%), hadron multiplicity (7.4%), nuclear ef-
+                                                                                                                          14
+
+fects (6.1%), and the low-W DIS/resonance transition            riod, showing the normalized distribution of CNN out-
+(5.8%)—combine in quadrature to 15.6%. Additional sig-          put scores for both MC simulated atmospheric neutrino
+nificant contributions arise from single-meson production       events and actual detector data. The good agreement
+via the axial-mass MA uncertainty (12.3%), the neutrino         between simulation and data in these control samples
+interaction model (5.1%), and the ν/ν̄ and π 0 /π ± cross-      provides confidence in our systematic uncertainty esti-
+section ratios (4.8%). The combined systematic uncer-           mation.
+tainty from all sources amounts to 21.2%.
+
+
+   B. Detector and Reconstruction Uncertainties
+
+   Finally, we considered uncertainties introduced by the
+detector and event reconstruction. Standard SK anal-
+yses treat detector non-uniformity as a source distinct
+from the absolute and time-dependent energy-scale com-
+ponents. In the SK proton-decay analysis of Ref. [3],
+the absolute energy scale is constrained with Michel elec-
+trons, reconstructed π 0 masses, and stopping cosmic-
+ray muons; the time variation is combined in quadra-
+ture with the absolute component, while zenith-angle-
+dependent non-uniformity is evaluated separately with
+Michel electrons. The conventional-fiducial-volume de-
+tector non-uniformity uncertainties reported there are
+0.6%, 1.1%, 0.6%, and 0.5% for SK-I through SK-
+                                                                   FIG. 9: Comparison of CNN output distributions between
+IV, respectively.      Ref. [14] likewise treats detector
+                                                                MC simulations and detector data for SK-IV sideband sam-
+non-uniformity and energy scale as independent detec-           ples. The red histogram shows atmospheric neutrino MC
+tor/reconstruction sources and propagates them sepa-            events, while the blue points represent the corresponding de-
+rately to signal eﬀiciency and background. The detector         tector data. Both distributions are normalized to unity.
+simulation also models the time and position dependence
+of the water optical properties [11].
+   For the present analysis, the detector non-uniformity
+contribution was evaluated in the established systematic-          For the systematic uncertainty estimation of the CNN
+uncertainty study and is included in the aggregate “Re-         output, we adjusted the CNN-score distribution of the
+construction” entries of Table VI. These entries, 0.91–         MC simulation using a linear transformation of the score
+1.72% for signal and 0.82–1.62% for background, already         axis, x → ax + b, where x represents the CNN output
+combine the relevant detector and reconstruction effects        score, to match the detector data distribution in the side-
+for each SK period. We therefore do not add a separate          band control sample. The optimal values of a and b were
+non-uniformity term, which would double count the same          determined through a chi-square minimization of the dif-
+contribution.                                                   ference between the transformed MC and data distribu-
+   For the uncertainty assessment of the CNN, we utilized       tions. The best-fit transformation (a, b) measures the
+an independent dataset containing control samples, re-          residual data/MC discrepancy in the shape of the CNN
+ferred to as the “sideband” dataset. This dataset consists      response that is not captured by the nominal simulation.
+of events outside the primary signal region—specifically,       To propagate this into a systematic uncertainty, we ap-
+topologies not expected to contain the trinucleon decay         ply the same best-fit transformation to the CNN-score
+signal— that can serve as a control sample to evaluate          distribution of the signal-region MC and recompute the
+the CNN’s performance as well as systematic uncertain-          number of signal and background events surviving the
+ties in background modeling. As shown in Figure 3, the          CNN cut. The fractional change in these event counts,
+events selected for the sideband analysis focus on spe-         relative to the nominal (untransformed) MC, is taken
+cific topologies with two or five Cherenkov rings and one       as the CNN systematic uncertainty, and is listed in the
+or two decay electrons, highlighted in blue in the figure.      “CNN” row of Table VI.
+These sideband regions provide a clean control sample
+for validating the CNN’s performance on event topolo-             The calculated systematic uncertainties for signal and
+gies that are distinct from the signal region but share         background events across all SK periods are summarized
+similar detector response characteristics.                      in Table VI, showing contributions from simulation, re-
+   By comparing the CNN classification output scores be-        construction, and CNN analysis. The uncertainties re-
+tween MC and data in these sideband samples, we quan-           main consistent across different SK periods, with total
+tified the differences in event categorization probabilities.   uncertainties ranging from 24.89% to 27.13% for signal
+Figure 9 illustrates this comparison for the SK-IV pe-          events and 26.25% to 29.62% for background events.
+                                                                                                                                 15
+
+                                                                  This event was observed during SK-IV operations, with a
+  TABLE VI: Systematic uncertainties
+                                                                  CNN prediction value of 6.20, marginally exceeding the
+                          16
+                               O(ppp) → 13 C π + π + e+           period-specific cut threshold of 6.12. The observation
+                    SK-I SK-II SK-III SK-IV SK-V                  of one event is consistent with an expected background
+                                                                  of approximately 1.33 events, as summarized in Table III.
+   Signal (%)                                                     The Poisson probability of observing one event, given this
+   Simulation     25.92 25.61 25.41           23.95 24.95         background expectation is 35.2%.
+   Reconstruction 1.2    1.72  1.1             0.91  1.1             To cross-validate these results, we employed tradi-
+   CNN             6.7   8.8   8.4             6.7   8.2          tional reconstruction methods, with the resulting invari-
+   Total         26.80 27.13 26.79            24.89 26.29         ant mass and total momentum distributions shown in Fig-
+   Background (%)                                                 ure 11. This analysis follows methodologies established
+   Simulation     26.09 28.24 24.86           27.45 25.37
+                                                                  in previous SK studies [8, 19, 29], where each Cherenkov
+   Reconstruction 1.22 1.62    0.82            0.91  1.1          ring is reconstructed to determine particle type and mo-
+   CNN             6.7   8.8   8.4             6.7   8.2          mentum. However, the traditional reconstruction ap-
+   Total          26.96 29.62 26.25           28.27 26.68         proach reveals several notable limitations. We obtained
+                                                                  a reconstructed invariant mass of 1.2 GeV/c2 and a total
+                                                                  momentum of 888 MeV/c. While these values fall within
+                      VI. RESULTS                                 the broader distribution of signal MC events, they devi-
+                                                                  ate notably from the expected central values. The re-
+                                                                  constructed invariant mass is somewhat lower than the
+   In this section, we analyze data collected from SK-I
+                                                                  expected peak around 1.5 GeV/c2 , and the total momen-
+to SK-V, with a cumulative exposure of 0.401 megaton-
+                                                                  tum, though within the allowed range, differs from the
+years. Applying the selection criteria established in Sec-
+                                                                  central values predicted by our MC simulations. Further-
+tion IV B, we processed the full dataset through our anal-
+                                                                  more, all three reconstructed particles exhibited electron-
+ysis chain. Figure 5 shows representative results from the
+                                                                  like signatures, which contrasts with the expected signa-
+SK4 period, demonstrating the signal-background sepa-
+                                                                  ture of two π + and one e+ , where we would anticipate
+ration achieved by our selection. The analysis results for
+                                                                  observing two muon-like rings and one electron-like ring.
+other SK periods showed similar characteristics and can
+be found in the appendix.
+                                                                     TABLE VII: Comparison of trinucleon decay lifetime lim-
+                                                                  its at 90% confidence level between this work and previous
+                                                                  experiments [5, 6].
+                                                                    Experiment                  Lifetime Limit (90% C.L.)
+                                                                    Super-Kamiokande                  τ > 4.2 × 1032 years
+                                                                    GERDA                             τ > 4.7 × 1025 years
+                                                                    Majorana Demonstrator             τ > 1.6 × 1026 years
+
+
+                                                                     We employ a Bayesian method incorporating system-
+                                                                  atic uncertainties to set an upper limit for the trinucleon
+                                                                  decay rate. The formula for the posterior probability dis-
+                                                                  tribution is given by
+                                                                                 ∫∫∫
+                                                                                       e−(Γλi ϵi +bi ) (Γλi ϵi + bi )ni
+                                                                   P (Γ|ni ) =
+                                                                                                      ni !                        (6)
+                                                                                       × P (Γ)P (λi )P (ϵi )P (bi ) dλi dϵi dbi ,
+
+   FIG. 10: Event display of the identified event in the SK de-   where the index i runs over the five SK run periods (SK-I–
+tector, showing the event location at the detector center. The    SK-V); Γ is the true trinucleon decay rate, and ni , λi , ϵi ,
+figure also includes the reconstructed result using traditional   and bi are, respectively, the number of candidate events,
+methods, illustrating the particle tracks and their respective    the true exposure, the true signal eﬀiciency, and the true
+Cherenkov rings.                                                  background rate for the ith period. The decay-rate prior
+                                                                  P (Γ) is uniform for Γ ≥ 0 and zero otherwise, while
+   After applying both the pre-selection and CNN-based            P (λi ), P (ϵi ), and P (bi ) are Gaussian priors whose widths
+selections, only one event remained in the signal region.         are set by the corresponding systematic uncertainties; the
+Figure 10 shows the event display of the final candidate.         exposure uncertainty is taken to be negligible.
+                                                                                                                             16
+
+
+
+
+   FIG. 11: Distributions of the reconstructed invariant mass (top row) and total momentum (bottom row) from the traditional
+reconstruction, shown separately before (left column) and after (right column) the CNN selection. In each panel the atmospheric-
+neutrino background MC is shown in red and the trinucleon-decay signal MC in blue (filled after the CNN selection). Before
+the CNN selection the two distributions overlap strongly, whereas after the selection the surviving signal MC is shifted to
+higher invariant mass and lower total momentum, clearly separated from the surviving background. All histograms are area-
+normalized to unity so that the change in shape produced by the CNN selection is emphasized rather than the (much larger)
+reduction in absolute background rate. The observed candidate event is indicated by the vertical purple line in the right-hand
+panels.
+
+
+
+  The five run periods are combined by taking the prod-           mode. Table VII presents our results alongside previous
+uct of their per-period posterior distributions. The 90%          experimental limits set by the GERDA and Majorana
+confidence-level upper limit on the decay rate, Γlimit , is       Demonstrator collaborations [5, 6].
+defined by
+                      ∫ Γlimit ∏
+                               5
+                                 P (Γ|ni ) dΓ                                       VII.   CONCLUSION
+                        0  i=1
+              C.L. =    ∫ ∞∏
+                           5
+                                                     .    (7)
+                                                                    In conclusion, utilizing data from SK-I to SK-V, we
+                                      P (Γ|ni ) dΓ                conducted a search for trinucleon decay using deep learn-
+                            0   i=1
+                                                                  ing methods for the first time in the SK experiment.
+  At the 90% confidence level, we establish a lower limit           We observed only one event, which is consistent with
+on the lifetime of τ > 4.2 × 1032 years for this decay            an expected background of 1.33 events, showing no sta-
+                                                                                                                           17
+
+tistically significant excess. Consequently, we set a lower     2024-00442775); the Japan Society for the Promotion
+limit on the trinucleon decay lifetime at τ > 4.2 × 1032        of Science; the National Natural Science Foundation
+years. This result achieves more than a six-order-of-           of China under Grants No.12375100; the Spanish Min-
+magnitude improvement over previous limits and reaches          istry of Science, Universities and Innovation (grant
+the theoretical model prediction, which estimates the par-      PID2021-124050NB-C31); the Natural Sciences and En-
+tial lifetime of this ∆B = 3 mode to be on the order            gineering Research Council (NSERC) of Canada; the
+of 1033 years within the anomaly-free Z6 baryon-parity          Scinet and Westgrid consortia of Compute Canada; the
+framework [4].                                                  National Science Centre (UMO-2018/30/E/ST2/00441
+                                                                and UMO-2022/46/E/ST2/00336) and the Ministry of
+                                                                Science and Higher Education (2023/WK/04), Poland;
+           VIII.   ACKNOWLEDGMENTS                              the Science and Technology Facilities Council (STFC)
+                                                                and Grid for Particle Physics (GridPP), UK; the Eu-
+   We gratefully acknowledge the cooperation of the             ropean Union’s Horizon 2020 Research and Innova-
+Kamioka Mining and Smelting Company. The Super-                 tion Programme under the Marie Sklodowska-Curie
+Kamiokande experiment has been built and operated               grant agreement no.754496; H2020-MSCA-RISE-2018
+from funding by the Japanese Ministry of Education,             JENNIFER2 grant agreement no.822070, H2020-MSCA-
+Culture, Sports, Science and Technology; the U.S.               RISE-2019 SK2HK grant agreement no. 872549; and
+Department of Energy; and the U.S. National Sci-                European Union’s Next Generation EU/PRTR grant
+ence Foundation. Some of us have been supported                 CA3/RSUE2021-00559; the National Institute for Nu-
+by funds from the National Research Foundation of               clear Physics (INFN), Italy.
+Korea (NRF-2009-0083526, NRF-2022R1A5A1030700,
+NRF-2202R1A3B1078756) funded by the Ministry of                    OpenAI Codex (model gpt-6-astra) was used to as-
+Science, Information and Communication Technology               sist with the manuscript’s English and for arithmetic con-
+(ICT); the Institute for Basic Science (IBS-R016-Y2);           sistency checks of the exposure-normalized background
+and the Ministry of Education (2018R1D1A1B07049158,             counts. The authors retain responsibility for the scien-
+2021R1I1A1A01042256, 2021R1I1A1A01059559, RS-                   tific content and final manuscript.
+
+
+
+
+ [1] A. D. Sakharov, “Violation of CP invariance, C asymme-          Minegishi, and Y. Arai, Nucl. Instrum. Methods Phys.
+     try, and baryon asymmetry of the universe,” JETP Lett.          Res., Sect. A 610, 710 (2009).
+     5, 24-27 (1967).                                           [11] K. Abe et al. (Super-Kamiokande Collaboration), “Cal-
+ [2] H. Georgi and S. L. Glashow, “Unity of All Elementary           ibration of the Super-Kamiokande detector,” Nucl. In-
+     Particle Forces,” Phys. Rev. Lett. 32, 438 (1974).              strum. Methods Phys. Res., Sect. A 737, 253 (2014).
+ [3] A. Takenaka et al. (The Super-Kamiokande Collabo-          [12] D. Rein and L. M. Sehgal, “Neutrino-excitation of baryon
+     ration), “Search for proton decay via p → e+ π 0 and            resonances and single pion production,” Ann. Phys.
+     p → µ+ π 0 with an enlarged fiducial volume in Super-           (N.Y.) 133, 79 (1981).
+     Kamiokande I-IV,” Phys. Rev. D 102, 112011 (2020).         [13] J. Gustafson et al. (The Super-Kamiokande Collabora-
+ [4] K. S. Babu, I. Gogoladze, and K. Wang, “Gauged baryon           tion), “Search for dinucleon decay into pions at Super-
+     parity and nucleon stability,” Phys. Lett. B 570, 32-38         Kamiokande,” Phys. Rev. D 91, 072009 (2015).
+     (2003).                                                    [14] R. Matsumoto et al. (The Super-Kamiokande Collabora-
+ [5] M. Agostini et al. (GERDA Collaboration), “Search for           tion), “Search for proton decay via p → µ+ K 0 in 0.37
+     tri-nucleon decays of 76 Ge in GERDA,” Eur. Phys. J. C          megaton-years exposure of Super-Kamiokande,” Phys.
+     83, 778 (2023).                                                 Rev. D 106, 072003 (2022).
+ [6] S. I. Alvis et al. (The Majorana Collaboration), “Search   [15] K. Nakamura, S. Hiramatsu, T. Kamae, H. Muramatsu,
+     for Tri-Nucleon Decay in the Majorana Demonstrator,”            N. Izutsu, and Y. Watase, “The reaction 12 C(e, e′ p) at
+     Phys. Rev. D 99, 072004 (2019).                                 700 MeV and DWIA analysis,” Nucl. Phys. A 268, 381
+ [7] Y. Fukuda et al. (Super-Kamiokande Collaboration),              (1976).
+     Nucl. Instrum. Methods Phys. Res., Sect. A 501, 418        [16] M. G. Mayer and J. H. D. Jensen, Elementary Theory of
+     (2003).                                                         Nuclear Shell Structure (Wiley, New York, 1955).
+ [8] S. Mine, “The Super-Kamiokande and Other Detectors:        [17] T. Yamazaki and Y. Akaishi, “Nuclear medium effects
+     A Case Study of Large Volume Cherenkov Neutrino De-             on invariant mass spectra of hadrons decaying in nuclei,”
+     tectors,” in Instrumentation and Techniques in High En-         Phys. Lett. B 453, 1 (1999).
+     ergy Physics (World Scientific, 2024), Chap. 8, pp. 251–   [18] R. D. Woods and D. S. Saxon, “Diffuse Surface Opti-
+     290.                                                            cal Model for Nucleon-Nuclei Scattering,” Phys. Rev. 95,
+ [9] S. Yamada et al., “Commissioning of the New Electron-           577 (1954).
+     ics and Online System for the Super-Kamiokande Exper-      [19] M. Shiozawa (Super-Kamiokande Collaboration), Nucl.
+     iment,” IEEE Trans. Nucl. Sci. 57, 428-432 (2010).              Instrum. Methods Phys. Res., Sect. A 433, 240 (1999).
+[10] H. Nishino, K. Awai, Y. Hayato, S. Nakayama, K.            [20] Y. Hayato, “NEUT,” Nucl. Phys. B, Proc. Suppl. 112,
+     Okumura, M. Shiozawa, A. Takeda, K. Ishikawa, A.                171 (2002).
+                                                                                                                          18
+
+[21] CERN Program Library W5013 (1994).                               072001 (2018).
+[22] M. Nakahata et al., “Atmospheric Neutrino Background        [39] T. Wester et al. (Super-Kamiokande Collaboration), “At-
+     and Pion Nuclear Effect for Kamioka Nucleon De-                  mospheric neutrino oscillation analysis with neutron
+     cay Experiment,” J. Phys. Soc. Jpn. 55, 3786 (1986);             tagging and an expanded fiducial volume in Super-
+     A. S. Clough et al., “Pion-nucleus total cross sections          Kamiokande I–V,” Phys. Rev. D 109, 072014 (2024).
+     from 88 to 860 MeV,” Nucl. Phys. B 76, 15 (1974).
+[23] C. Zeitnitz and T. A. Gabriel, “The GEANT-CALOR
+     interface and benchmark calculations of ZEUS test
+     calorimeters,” Nucl. Instrum. Methods Phys. Res., Sect.
+     A 349, 106 (1994).
+[24] M. Honda, T. Kajita, K. Kasahara, and S. Midorikawa,
+     “Improvement of low energy atmospheric neutrino flux
+     calculation using the JAM nuclear interaction model,”
+     Phys. Rev. D 83, 123001 (2011).
+[25] M. Glück, E. Reya, and A. Vogt, “Dynamical parton
+     distributions revisited,” Eur. Phys. J. C 5, 461 (1998).
+[26] U. K. Yang and A. Bodek, “Parton Distributions, d/u,
+     and Higher Twist Effects at High x,” Phys. Rev. Lett.
+     82, 2467 (1999).
+[27] A. Bodek and U. K. Yang, “Modeling neutrino and
+     electron scattering inelastic cross sections,” arXiv:hep-
+     ex/0308007 (2003).
+[28] S. Jung et al. (Super-Kamiokande Collaboration),
+     “Search for nucleon decay via p → νπ + and n → νπ 0
+     in 0.484 Mton-year of Super-Kamiokande data,” Phys.
+     Rev. D 113, 012015 (2026).
+[29] Y. Ashie et al. (The Super-Kamiokande Collaboration),
+     “A measurement of atmospheric neutrino oscillation pa-
+     rameters by Super-Kamiokande I,” Phys. Rev. D 71,
+     112005 (2005).
+[30] E. R. Davies, Machine Vision: Theory, Algorithms, Prac-
+     ticalities, 2nd ed. (Academic Press, San Diego, 1997).
+[31] Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick
+     Haffner, Gradient-based learning applied to document
+     recognition, Proceedings of the IEEE, 86(11):2278-2324,
+     1998.
+[32] Andrew Howard, Mark Sandler, Grace Chu, Liang-
+     Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang,
+     Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc
+     V. Le, Hartwig Adam. Searching for MobileNetV3.
+     arXiv:1905.02244 [cs.CV], 2019.
+[33] J. Hu, L. Shen, and G. Sun, “Squeeze-and-Excitation
+     Networks,” in Proceedings of the IEEE Conference on
+     Computer Vision and Pattern Recognition (CVPR), 7132-
+     7141 (2018).
+[34] M. Sandler, A. Howard, M. Zhu, A. Zhmoginov, and L.-
+     C. Chen, “MobileNetV2: Inverted Residuals and Linear
+     Bottlenecks,” in Proceedings of the IEEE Conference on
+     Computer Vision and Pattern Recognition (CVPR), 4510-
+     4520 (2018).
+[35] A. Paszke et al., “PyTorch: An Imperative Style, High-
+     Performance Deep Learning Library,” Advances in Neu-
+     ral Information Processing Systems 32, 8024-8035 (2019).
+[36] R. Wightman, “PyTorch Image Models (timm):
+     MobileNetV3 pretrained on ImageNet-1k,” https:
+     //huggingface.co/timm/mobilenetv3_large_100.ra_
+     in1k.
+[37] K. Abe et al. (T2K Collaboration), “Improved con-
+     straints on neutrino mixing from the T2K experiment
+     with 3.13 × 1021 protons on target,” Phys. Rev. D 103,
+     112008 (2021).
+[38] K. Abe et al. (The Super-Kamiokande Collaboration),
+     “Atmospheric neutrino oscillation analysis with external
+     constraints in Super-Kamiokande I-IV,” Phys. Rev. D 97,
+                                                                                                                       19
+
+                                      APPENDIX: FIGURES FOR SK1–SK5
+
+
+
+
+  FIG. 12: Machine learning output distributions (logarithmic scale) for the SK-I through SK-V periods. Blue: atmospheric-
+neutrino MC; red: trinucleon-decay signal MC; black points: data; green dashed line: optimal cut; purple curve: normalized
+score.
+                                                                                                                    20
+
+
+
+
+  FIG. 13: Atmospheric-neutrino data/MC ratio of the machine learning output for the SK-I through SK-V periods. The red
+dashed line indicates the optimal cut.
+

@@ -1,0 +1,834 @@
+                                             Entangled photons from para-positronium decay: Do coincidences from scattered photons imply a
+                                                                                      Bell state?
+                                                                                                 Paul Joos1 and Peter Kling1
+                                                   1 German Aerospace Center (DLR), Institute of Quantum Technologies, Wilhelm-Runge-Straße 10, D-89081 Ulm, Germany
+
+
+                                                             Electron and positron can form a meta-stable bound state called positronium that decays via pair annihilation.
+                                                          We show how polarization-dependent Compton scattering can be used to verify that the two annihilation photons
+                                                          in the spin-zero case (para-positronium) are emitted in a maximally entangled Bell state. Our theoretical approach
+                                                          based on two-photon density matrices connects concepts from relativistic quantum electrodynamics and quantum
+                                                          information theory.
+
+
+                                                                 I.   INTRODUCTION                                   coincidences of scattered annihilation photons were performed
+                                                                                                                     during the years [12–21].
+
+
+
+
+arXiv:2606.31726v1 [quant-ph] 30 Jun 2026
+                                               According to the results of quantum electrodynamics, the                 The topic gained renewed interest as proposals to use the
+                                            photons emitted by the para-positronium (para-Ps) decay are              polarization correlation for improving medical imaging tech-
+                                            maximally entangled with respect to their polarizations [1,              niques, in particular positron emission tomography (PET),
+                                            2]. So far, there exists no verification of this entanglement,           emerged [22–24]. In the following years, several experi-
+                                            that does not come along with additional assumptions [1].                ments [25–31] were performed, for example with the Jagiel-
+                                            For the high energies of the annihilation photons (511 keV)              lonian PET (J-PET) device [32]. In parallel, much theoretical
+                                            standard polarimeters cannot be used and one has to resort to            effort was invested, for example in Refs. [33–38] or in a series
+                                            the polarization dependence of Compton scattering. In this               of papers [39–44] that employed a Stokes vector formula-
+                                            paper we show the following statement: The predicted angular             tion [45, 46] to describe the photon polarization.
+                                            distribution [3, 4] for coincidences of scattered photons from              We complement these approaches with a formalism [47]
+                                            the para-Ps decay is obtained, if and only if the emitted photons        that is based directly on the density matrix. This procedure
+                                            have been in a maximally entangled Bell state prior scattering.          helps us to study entanglement and facilitates the connection
+                                               This proof is enabled by our representation of this distribu-         of concepts from relativistic quantum electrodynamics and
+                                            tion, that factorizes into a contribution containing information         quantum information theory.
+                                            on the two-photon density matrix and a part corresponding to                This paper is organized as follows: We begin in Sec. II by
+                                            the geometry of the detection setup. Moreover, we sketch a               writing down the two-photon state of the annihilation photons
+                                            scheme for efficiently tracing back to the Bell state without scan-      according to quantum electrodynamics. In Sec. III we dis-
+                                            ning the complete solid angles, that relies on the comparison            cuss the basic setup for detecting coincidences from scattered
+                                            of the number of counts for different geometrical configura-             photons and we explain how measuring the predicted angular
+                                            tions slightly modifying the usual approaches [1]. Lastly, we            distribution implies that the photons were indeed in a Bell state
+                                            study effects of finite angular widths reflecting the nonzero            before scattering. Finally, we discuss our main results and
+                                            resolutions of the detectors.                                            conclude in Sec. IV. To keep this paper self-contained we add
+                                               John Wheeler already developed in 1946 the idea of detecting          Appendices A and B, where we present the detailed calculations
+                                            coincidences of scattered photons from the para-Ps decay [5].            for obtaining the two-photon state for the para-Ps decay and
+                                            Shortly thereafter, the correct angular distribution for such            the angular distribution for Compton scattering, respectively,
+                                            coincidences was calculated predicting the maximum value                 both starting from first principles.
+                                            2.84 for the ratio of counts detected (i) perpendicularly to
+                                            each other and (ii) parallel [3, 4]. After the first experimental
+                                            realizations [6, 7], the experiment of Wu and Shaknov in 1950                                  II.   PHOTON STATE
+                                            demonstrated for the first time a reliable consistency with
+                                            theory [8].                                                                 Ps represents a meta-stable bound state of the electron and
+                                               In 1957 Bohm and Aharanov made the connection of the                  its anti-particle the positron [48–51]. Depending on the spin
+                                            Wu & Shaknov experiment to the EPR paradox: The entangled                configuration of its constituents Ps can either form a singlet
+                                            state from quantum theory was compared with a separable one              (para-Ps) with total spin zero or a triplet (ortho-Ps) with total
+                                            and it was shown that the experimental results strongly imply            spin one. In the present article we only consider ground-state
+                                            the entanglement of the photons [1]. However, as discussed               para-Ps which decays in leading order into two photons via pair
+                                            in Refs. [9, 10], the polarization measurement via Compton               annihilation [52].
+                                            scattering does not enable a violation of Bell inequalities as              The results from quantum electrodynamics show that the
+                                            a sufficient condition to rule out hidden variable theories. It          emitted photons are entangled in polarization [2, 53]. In
+                                            was argued that a mapping of the discrete degrees of freedom             App. A we recall the calculations from Ref. [2] and obtain the
+                                            of polarization to partitions of the scattering sphere impedes           two-photon state
+                                            such a violation [10]. Hence, the focus of research successfully                                ∫
+                                            shifted to the optical regime, where suitable polarizers are
+                                            available [11]. Nevertheless, several experiments regarding the                       |𝜓p-Ps ⟩ ∝ d3 𝑘 δ(| 𝒌 | − 𝑚) |𝜓p-Ps ( 𝒌)⟩        (1)
+                                                                                                                                                    2
+
+                           yA                       yB               κB        for example in Ref. [8]. Alternatively, an inner ring of detectors
+    κA
+                                                              xB               can simultaneously act as scatterers such that it is always clear
+                                                                    ϕB         which path the photons took to end up at the outer and final
+  ϕA                  θA        kA             kB        θB                    ring of detectors [32].
+                zA                   e+   e−                   zB
+                xA
+
+                                                                                                 A.   Two-photon coincidences
+
+FIG. 1. Setup for determining two-photon coincidences from para-Ps                We now detect the scattered photons as functions of the
+decay and subsequent polarization-dependent Compton scattering:                scattering angle 𝜃 and the azimuth 𝜙 (compare to Fig. 1). By
+The photons are emitted at the origin in opposite directions with two
+                                                                               installing detectors on both sides we can measure coincidences.
+scatterers equidistantly placed on both sides in a line with the source.
+The coordinate systems for the two observers, A and B, are defined
+                                                                               This setup resembles schemes for quantum state tomography
+such that the 𝑧-axes are in the direction of the respective photon, that       of optical photon pairs [55] with the difference that we have
+is 𝑧 A = −𝑧 B , and we further choose 𝑥A = −𝑥 A and 𝑦 A = 𝑦 B . On             to resort to Compton scattering instead of employing standard
+each side detectors are placed such that we can measure coincidences           polarizers.
+as a function of the scattering angles 𝜃 A , 𝜃 B and azimuths 𝜙A , 𝜙B             In App. B we derive the probability distribution
+(compare to Eq. (B14) for the relation of the propagation direction
+and the corresponding angles).                                                                                           T
+                                                                                𝑝(𝜃 A , 𝜙A , 𝜃 B , 𝜙B ) = N vec(𝑊 T ) ·𝑣(𝜃 A , 𝜙A ) ⊗ 𝑣(𝜃 B , 𝜙B ) (3)
+
+                                                                               for coincidences with an arbitrary two-photon density matrix
+with                                                                           𝜌 in (linear) polarization representation. This distribution
+                    1                                                        depends on the scattering angles 𝜃 A , 𝜃 B and azimuthal angles
+    |𝜓p-Ps ( 𝒌)⟩ = √ |+( 𝒌), +(−𝒌)⟩ − |−( 𝒌), −(−𝒌)⟩                           𝜙A , 𝜙B . We note that the expression in Eq. (3) can be separated
+                     2                                                         into (i) a term containing information on the initial density
+                                                                         (2)
+                    1                               
+                                                                               matrix 𝜌 and (ii) a geometric contribution corresponding to the
+                 = √ |1( 𝒌), 2(−𝒌)⟩ + |2( 𝒌), 1(−𝒌)⟩
+                     2                                                         setup.
+                                                                                  We express the latter part with the help of the column vector
+after the para-Ps decay. For convenience, we have chosen
+the units such that ℏ = 𝑐 = 1. The photon pairs are emitted                                                       2          𝑆(𝜃)
+with equal probability in any direction. However, the photons                                          𝜘(𝜃)
+                                                                                             𝑣(𝜃, 𝜙) ≡                  ­− 𝑓 (𝜃) cos 2𝜙®          (4)
+                                                                                                                        ©                ª
+within one distinct pair have always opposite direction due                                             𝑘
+to momentum conservation, that is 𝒌 A = −𝒌 B ≡ 𝒌. Energy                                                                « − 𝑓 (𝜃) sin 2𝜙 ¬
+conservation implies that the energy of each photon equals                     and the 𝜃-dependent functions
+the rest mass of an electron, that is | 𝒌 | ≡ 𝑘 = 𝑚, which is
+ensured by the delta function in Eq. (1). We have written                                                𝜘(𝜃)    𝑘
+the state in Eq. (2) in terms of circular (+, −) and linear                                     𝑆(𝜃) =        +      − sin2 𝜃 ,                   (5)
+                                                                                                          𝑘     𝜘(𝜃)
+polarization (1, 2), respectively, which are connected via the
+relation |±⟩ = 2−1/2 (|1⟩ ± 𝑖 |2⟩). In both bases the state                                      𝑓 (𝜃) = sin2 𝜃 ,                                 (6)
+represents a maximally entangled Bell state: |Φ− ⟩ for circular                                                      𝑘
+and |Ψ+ ⟩ for linear polarization [40]. For the remainder of                                    𝜘(𝜃) =                                            (7)
+                                                                                                         1 + 𝑚𝑘 (1 − cos 𝜃)
+the article we consider linear polarization. We note that the
+form of Eq. (2) also follows from selection rules imposed by                   in the notation of Ref. [10]. The wave number 𝜘 = 𝜘(𝜃) of a
+fundamental symmetries [40, 53, 54].                                           scattered photon depends via the Compton formula, Eq. (7), on
+                                                                               the scattering angle and on the initial wave number 𝑘. For the
+                                                                               sake of completeness, we quote the constant [4]
+         III.        POLARIZATION-DEPENDENT COMPTON
+                             SCATTERING                                                                                 1
+                                                                                                  N= h                          i2              (8)
+                                                                                                                   40
+   Our setup is depicted in Fig. 1: At the origin, photons from                                           2𝜋       9 − 3 log 3
+the Ps decay are emitted. Two scatterers are equidistantly placed
+from the source such that the source and the scatterers form                   normalizing the distribution to unity with respect to the solid
+a straight line. Hence, only photons directed along this line                  angles on both sides, where we have set 𝑘 = 𝑚 for the para-Ps
+are scattered reducing the isotropic state in Eq. (1) to a single              decay.
+wave-vector component in Eq. (2). To further decrease the                         The contribution corresponding to the two-photon density
+influence of unwanted directions we could coat the source with                 matrix prior scattering is determined by the matrix 𝑊 whose
+a lead sphere with a small canal through the origin and place                  elements are formed via the prescription
+the scatterers directly behind the openings of this channel as                                               
+proposed in the original paper of Wheeler [5] and implemented                                      𝑊𝑖 𝑗 ≡ Tr 𝑢 𝑖 ⊗ 𝑢 𝑗 · 𝜌                 (9)
+                                                                                                                                           3
+
+with the help of the column vector                                        motivate this mathematical statement by realizing that if there
+                                                                          are no populations (diagonal elements) of the states |1, 1⟩ and
+                                   1                                      |2, 2,⟩, there also cannot be coherences (off-diagonal elements)
+                             𝑢 ≡ ­ 𝜎𝑧 ®                            (10)
+                                 © ª
+                                                                          for these states. Hence, we deduce that 𝑎 = 𝑏 = 𝑐 = 𝑑 = 𝛾 = 0
+                                 «𝜎𝑥 ¬                                    while 𝛼 = 1/2. It is then straightforward to calculate the (pos-
+                                                                                                               1 1 √︁
+containing the identity matrix and two of the three Pauli matri-          sibly) nonzero eigenvalues 𝜆± = ±            1 + 4𝛽2 of 𝜌. Since
+                                                                                                               2 2
+ces. We note that the vectorization operation vec( 𝐴) in Eq. (3)          𝜆 − < 0 for |𝛽| > 0 we conclude that 𝛽 = 0 since a negative
+stacks the three columns of a 3 × 3 matrix 𝐴 such that a column           eigenvalue would contradict the semi-definiteness of 𝜌. As a
+vector with nine entries emerges.                                         result, we are left with the expression for 𝜌 in Eq. (11), that
+   In the following we derive two statements: Firstly, we                 is, the Bell state |Ψ+ ⟩ is the only possible initial condition for
+calculate the coincidence distribution of scattered photons from          which the distribution in Eq. (12) can be observed. In other
+|Ψ+ ⟩ which is straightforward due to Eq. (3). Secondly, we               words: If we can measure 𝑝(𝜃 A , 𝜙A , 𝜃 B , 𝜙B ) completely and
+show that this result emerges only, if the initial state is given         observe the result in Eq. (12), the annihilation photons must
+by this Bell state.                                                       have been in the Bell state |Ψ+ ⟩ before scattering.
+   The density matrix corresponding to |Ψ+ ⟩ reads
+
+                                                0 0 0 0                             B.   Ratios for different measurement angles
+                                            1 ©­0 1 1 0ª®
+         𝜌p-Ps = |𝜓p-Ps ( 𝒌)⟩ ⟨𝜓p-Ps ( 𝒌)| = ­                     (11)
+                                            2 ­0 1 1 0®
+                                                        ®
+                                                                             In experiments [8, 30] often ratios of counts for two different
+                                               «0 0 0 0¬                  geometric configurations were determined. This procedure
+                                                                          eliminates the need for scanning the entire solid angle. These
+in (linear) polarization representation, where we have omitted            ratios depend on the quantity
+the dependency on the wave vector 𝒌. We find the distribu-
+tion [3, 4]                                                                                              𝑓 (𝜃)
+                                                                                                𝑎(𝜃) ≡         ≤ 0.69                   (16)
+                                         2             2                                             𝑆(𝜃)
+                                      𝜘(𝜃 A )     𝜘(𝜃 B )
+    𝑝 p-Ps (𝜃 A , 𝜙A , 𝜃 B , 𝜙B ) = N                                     which attains its maximum at 𝜃 0  81.7◦ [3]. We fix both
+                                        𝑚           𝑚
+              n                                                   o       scattering angles to this value, that is 𝜃 A = 𝜃 B = 𝜃 0 , while
+           × 𝑆(𝜃 A )𝑆(𝜃 B ) − 𝑓 (𝜃 A ) 𝑓 (𝜃 B ) cos [2(𝜙A + 𝜙B )]         comparing the results for different values of the azimuths. For
+                                                                  (12)    example, we consider the ratio
+for the coincidences resulting from Eq. (3) with 𝜌 = 𝜌p-Ps from
+Eq. (11).                                                                           𝑝(𝜃 0 |0, 𝜋/2) 1 + 𝑎 2 (𝜃 0 )
+                                                                                                  =                ≡ 𝑅(𝜃 0 )  2.84     (17)
+   Conversely, by inserting an arbitrary 4 × 4 density matrix                        𝑝(𝜃 0 |0, 0)   1 − 𝑎 2 (𝜃 0 )
+into Eq. (3) we derive the conditions 𝑊11 = 𝑊33 = −𝑊22 = 1
+for the diagonal elements of 𝑊 while 𝑊𝑖 𝑗 = 0 for 𝑖 ≠ 𝑗, if we            of the number of counts in perpendicular directions to the num-
+assume that Eq. (12) holds and equate the coefficients. These             ber of counts in anti-parallel directions (compare to Fig. 2) [3–
+relations translate to the following constraints                          5, 8]. Indeed, this measurement alone cannot distinguish an
+                                                                          entangled – or even Bell – state from a separable one, unless
+   Tr {𝜌} = Tr {𝜎𝑥 ⊗ 𝜎𝑥 · 𝜌} = − Tr {𝜎𝑧 ⊗ 𝜎𝑧 · 𝜌} = 1              (13)   reasonable restrictions to a hypothetical separable state are
+                                                                         applied (see App. B) [1, 40].
+             Tr 𝑢 𝑖 ⊗ 𝑢 𝑗 · 𝜌 = 0 𝑖 ≠ 𝑗                            (14)      However, we can add modifications to this setup to directly
+                                                                          extract the initial Bell state. Instead of measuring solely coinci-
+for the density matrix. Of course, the trace of a density operator
+                                                                          dences we can detect counts on only one side while disregarding
+should always equal unity to ensure the correct normalization.
+                                                                          the other side and vice versa. The reduced density operators of
+Moreover, 𝜌 has to be Hermitian and positive semi-definite to
+                                                                          𝜌p-Ps in Eq. (11) describe a completely unpolarized state for each
+describe meaningful probabilities [56].
+   With the help of Eqs. (13) and (14) and by demanding                   side, that is 𝜌A = 𝜌B = 21 1. From the Klein–Nishina formula
+Hermiticity we obtain the expression                                      (see App. B) we obtain the probabilities 𝑝 A (𝜃 A , 𝜙A ) ∝ 𝑆(𝜃 A )
+                                                                          and 𝑝 B (𝜃 B , 𝜙B ) ∝ 𝑆(𝜃 B ) that are independent of 𝜙A and 𝜙B .
+                                                 1                        By placing two detectors at the same side of the experiment
+                 0        𝑖𝑎     𝑖𝑏              2 − 𝛼 + 𝑖𝛾 ª
+           ­ −𝑖𝑎
+           ©               1
+                               𝛼 + 𝑖𝛽                𝑖𝑐                   but at different azimuth angles we find that the ratios
+         𝜌=­               2                                   ®
+                                                                   (15)
+                                  1
+           ­ −𝑖𝑏        𝛼 − 𝑖𝛽
+                                                               ®
+                                  2                  𝑖𝑑        ®                          𝑝 A (𝜃 0 |𝜋/2)   𝑝 B (𝜃 0 |𝜋/2)
+             1
+           « 2 − 𝛼 − 𝑖𝛾 −𝑖𝑐     −𝑖𝑑                   0                                                  =                =1            (18)
+                                                               ¬                            𝑝 A (𝜃 0 |0)     𝑝 B (𝜃 0 |0)
+for the density matrix containing seven real parameters                   equal unity reflecting the rotational symmetry with respect to
+𝑎, 𝑏, 𝑐, 𝑑, 𝛼, 𝛽, 𝛾. We observe that two diagonal elements                the 𝑧-axis. For Eq. (18) to hold the density matrix has to satisfy
+of 𝜌 are zero. In this case, all elements of the corresponding            the relations
+rows and columns have to be zero as well, which is a necessary
+condition to ensure positive semi-definiteness [57]. We can                           Tr {𝜎𝑧 ⊗ 1 · 𝜌} = Tr {1 ⊗ 𝜎𝑧 · 𝜌} = 0 .           (19)
+                                                                                                                                                 4
+
+                                  π                                                                                              𝑅(𝜃 0 , Δ𝜃, Δ𝜙)
+                                  2                                             𝜋
+                                                                                                                                           3.0
+                                                                                2
+                                  π
+           3π                     2                      π
+            4                                            4
+                 π
+                               yA , yB              3π        κA                                                                           2.5
+      κB         4                                   4
+
+                                                                                𝜋
+                                                                           Δ𝜙                                                              2.0
+                                                                                4
+
+                       ϕB                 ϕA        xA
+  π        0                                              π        0                                                                       1.5
+                xB
+
+                                                                                0                                                          1.0
+                                                                                    0                        𝜋                   𝜃0
+                 7π                                 5π
+                                                                                                             4
+                  4                                  4                                                  Δ𝜃
+           5π                                            7π
+            4                     3π                      4
+                                   2                                      FIG. 3. Contour plot of the ratio 𝑅 of perpendicular to (anti-)parallel
+                                                                          counts as a function of the angular widths Δ𝜃 and Δ𝜙. We note that
+                                  3π                                      𝑅 = 𝑅(𝜃 0 , Δ𝜃, Δ𝜙) is a generalization of the expression in Eq. (17)
+                                   2
+                                                                          with the substitution of 𝑎(𝜃 0 ) from Eq. (16) by 𝑎(𝜃 0 , Δ𝜃, Δ𝜙) from
+                                                                          Eq. (26). In all cases we set the mean value of the scattering angle to
+FIG. 2. Top view of the 𝑥 − 𝑦 plane of our setup: We illustrate how the   𝜃¯A = 𝜃¯B = 𝜃 0  81.7◦ while we compare the number of counts for two
+values of the azimuths 𝜙A (blue) and 𝜙B (red) correspond to each other.   different mean azimuths 𝜙¯A and 𝜙¯B analogously to Eq. (17) or Eq. (22).
+For example, the ratio in Eq. (17) compares cases, where the counts       We observe that for larger angular widths, with 𝜃¯𝑖 ± Δ𝜃 and 𝜙¯𝑖 ± Δ𝜙,
+are detected perpendicular to each other (𝜙A = 0 and 𝜙B = 𝜋/2) and        the value of 𝑅 decreases from its maximum value 𝑅(𝜃 0 )  2.84 at
+where they are anti-parallel (𝜙A = 0 and 𝜙B = 0). Similarly, the          Δ𝜃, Δ𝜙 → 0, as already derived in Ref. [4], with a slightly slower
+events considered in Eq. (22) are either perpendicular (𝜙A = 𝜋/4 and      decrease in the Δ𝜙-direction. Ultimately 𝑅 approaches unity for
+𝜙B = 𝜋/4) or parallel (𝜙A = 𝜋/4 and 𝜙B = 3𝜋/4).                           increasing Δ𝜃, Δ𝜙 making it more and more difficult to distinguish the
+                                                                          result of the Bell state |Ψ+ ⟩ from any other – eventually separable –
+                                                                          state showing the same behavior.
+Moreover, Eq. (17) requires that
+                       Tr {𝜎𝑧 ⊗ 𝜎𝑧 · 𝜌} = −1                       (20)   of coincidences for the angles 𝜙A = 𝜋/4, 𝜙B = 𝜋/4 (perpen-
+                                                                          dicular to each other) and 𝜙A = 𝜋/4, 𝜙B = 3𝜋/4 (parallel)
+is fulfilled.
+                                                                          also yields the maximal value of 2.84 for the Bell state |Ψ+ ⟩.
+   With the help of Eqs. (19) and (20) together with the condition
+                                                                          However, in this case, we do not require Eq. (20) to hold, but
+Tr {𝜌} = 1, we obtain the expression
+                                                                          instead we find that
+                            0 0  0 0
+                          ­0 1/2 𝑧 0®
+                          ©         ª                                                            Tr {𝜎𝑥 ⊗ 𝜎𝑥 · 𝜌} = 1                       (23)
+                        𝜌=­    ∗                                   (21)
+                          ­0 𝑧 1/2 0®
+                                    ®
+                                                                          is a necessary condition. For the density matrix in Eq. (21) this
+                          «0 0   0 0¬
+                                                                          constraint translates to Re(𝑧) = 1/2. Together with |𝑧| ≤ 1/2
+for the density matrix, where we have already used that all               we arrive at 𝑧 = 1/2, that is, the density matrix is of the form
+entries in rows and columns corresponding to zero diagonal                of Eq. (11) and describes the Bell state |Ψ+ ⟩.
+elements have to be zero as well for positive semi-definite matri-           Hence, if we (i) measure the value 2.84 for, both, the ratios
+ces (analogously to the preceding section) [57]. The remaining            of coincidences in Eqs. (17) and (22) and (ii) observe the
+complex parameter 𝑧 has to fulfill the condition |𝑧| ≤ 1/2 ensur-         symmetry with respect to the 𝑧-axis for each side separately
+ing that all eigenvalues of 𝜌 are non-negative. For nonzero 𝑧 the         with the help of the ratios in Eq. (18), we know that the photons
+application of the Peres–Horodecki criterion [58, 59] shows that          were in a Bell state before scattering.
+𝜌 is non-separable since at least one eigenvalue of the partial
+transpose of 𝜌 is negative. However, the case 𝑧 = 0 corre-
+                                    1                                                          C.   Finite angle intervals
+sponds to the separable state 𝜌 = (|1, 2⟩ ⟨1, 2| + |2, 1⟩ ⟨2, 1|)
+                                    2
+[60]. Hence, we require additional measurements to verify
+                                                                             So far, we have assumed a definite value for the measured
+entanglement.
+                                                                          angles, which represents a simplification since every real de-
+   Indeed, the further ratio (compare to Fig. 2)
+                                                                          tector has a finite resolution. Already in Ref. [4] this issue
+                      𝑝(𝜃 0 |𝜋/4, 𝜋/4)                                    was recognized and the effect of finite angle intervals was
+                                        = 𝑅(𝜃 0 )                  (22)   calculated.
+                      𝑝(𝜃 0 |𝜋/4, 3𝜋/4)
+                                                                                                                                               5
+
+   We consider the symmetric intervals 𝜃¯𝑖 ± Δ𝜃 and 𝜙¯𝑖 ± Δ𝜙.           scheme, for example in a more detailed description of Compton
+Similarly to the preceding section we set 𝜃¯𝑖 = 𝜃 0 for both            scattering from bound electrons [61] or in the geometry of the
+sides while varying 𝜙¯A and 𝜙¯B . The resulting distribution of         setup.
+coincidences reads                                                         Another possible source of inconsistency between experi-
+                                                 T
+                                                                        ment and theory could of course emerge, if the initial state is
+     𝑝(𝜃 0 ;Δ𝜃| 𝜙¯A , 𝜙¯B ; Δ𝜙) = N vec(𝑊 T )                           not a Bell state. According to Refs. [30, 62], the measured
+                                                                (24)
+            × 𝑣(𝜃 0 , Δ𝜃, 𝜙¯A , Δ𝜙) ⊗ 𝑣(𝜃 0 , Δ𝜃, 𝜙¯B , Δ𝜙) ,           value of 𝑅 depends on the specific Ps source and the authors
+                                                                        concluded that the emission of photons from different processes
+where we have introduced                                                beyond the para-Ps decay (direct annihilation, pick-off annihi-
+                                                                        lation of ortho-Ps) lead to changed results. In this case, the
+                               ¯
+                               𝜙+Δ𝜙   0 +Δ𝜃
+                                     𝜃∫
+                               ∫                                        two-photon density matrix would be described by the mixture
+               ¯ Δ𝜙) ≡ 1
+   𝑣(𝜃 0 , Δ𝜃, 𝜙,                 d𝜙      d𝜃 sin 𝜃 𝑣(𝜃, 𝜙)      (25)    𝑃𝜌p-Ps + (1 − 𝑃) 𝜌˜ of the Bell state and an unknown density
+                      ΔΩ                                                matrix 𝜌˜ with a source-dependent probability 𝑃 [30]. This ap-
+                              ¯
+                              𝜙−Δ𝜙    𝜃0 −Δ𝜃
+                                                                        proach could be a promising starting point for future theoretical
+as a generalization of the expression in Eq. (4) with ΔΩ ≡              and experimental efforts.
+4Δ𝜙 sin 𝜃 0 sin Δ𝜃 as the interval of the solid angle. The pro-            A different strategy is to find lower limits of 𝑅 (or of similar
+cedure of the preceding section can now easily be adapted to            measures) that still verify entanglement. In real-life experi-
+finite angle intervals by substituting the parameter 𝑎 0 (𝜃) with       ments there will always be a uncertainty such that 𝑅(𝜃 0 ) = 2.84
+the generalized version                                                 could be validated only up to a certain precision. Our deriva-
+                                                                        tion in Sec. III, however, strongly relies on the on-off criterion
+                                       𝜃0∫+Δ𝜃                           that two diagonal elements of the density matrix are exactly
+                                               d𝜃 sin 𝜃 𝑓 (𝜃)           zero. Deviations from the theoretical predictions lead to very
+                                      𝜃0 −Δ𝜃                            small but non-zero diagonal elements and there will be now a
+      𝑎(𝜃 0 , Δ𝜃, Δ𝜙) ≡ sinc(2Δ𝜙)                               (26)
+                                       𝜃0∫+Δ𝜃                           whole class of possible density matrices. One can study the
+                                               d𝜃 sin 𝜃 𝑆(𝜃)            properties of this class by means of standard entanglement
+                                      𝜃0 −Δ𝜃
+                                                                        criteria/measures (Peres–Horodecki criterion, concurrence,
+depending on the widths Δ𝜃 and Δ𝜙. In Fig. 3 we have plotted            Schmidt-number, etc.) or with the help of alternative methods,
+the result for the ratio 𝑅 = 𝑅(𝜃 0 , Δ𝜃, Δ𝜙) as a function of the       such as for example in Refs. [63, 64].
+angular widths.
+  If we can precisely determine the mean values and if know
+                                                                                             ACKNOWLEDGMENTS
+the values of Δ𝜃 and Δ𝜙, we know how much the ratio
+𝑅(𝜃 0 , Δ𝜃, Δ𝜙) is reduced from its maximum 2.84 and we
+repeat the arguments from the preceding section to verify if the          We thank Maxim A. Efremov, Michael Tschaffon, Jan Fun-
+photons are initially in a Bell state. In practice, this verification   kler, and Alexander Wolf for many fruitful discussions.
+becomes more difficult for increasing values of Δ𝜃 and Δ𝜙,
+because the results for different initial states approach unity
+and ultimately they cannot be distinguished from another.                              Appendix A: Para-positronium decay
+
+                                                                          In this appendix, we calculate the two-photon state from the
+                        IV.   DISCUSSION                                para-Ps decay by means of relativistic quantum electrodynamics.
+                                                                        Hereby, we closely follow the lines of Refs. [2, 53, 65, 66].
+   Detection of coincidences from Compton scattered photons               Prior to interaction, the state vector
+makes it possible to verify that the annihilation photon were                        ∫            ∫
+in a Bell state with respect to their polarization. It suffices to           |Ps⟩ = d3 𝑃 Ψ(𝑷) d3 𝑝 𝜓( 𝒑)
+place four detectors one each side at the proposed angles and                                 ∑︁                                              (A1)
+                                                                                                   R 𝑠1 ,𝑠𝑧2 𝑏ˆ †𝑠1 ( 𝒑 1 ) 𝑑ˆ𝑠†2 ( 𝒑 2 ) |0⟩
+                                                                                                     𝑆,𝑆
+consider ratios (i) of counts on each side separately and (ii)                              ×
+of coincidences. Hence, our scheme only slightly modifies or                                     𝑠1 ,𝑠2
+reinterprets existing ones in the way that measurement data are
+recorded and further analyzed.                                          of the Ps [52, 66] is described by the wave functions, Ψ =
+   So far, the maximum value 𝑅(𝜃 0 ) = 2.84 was never com-              Ψ(𝑷) and 𝜓 = 𝜓( 𝒑), of center-of-mass and relative motion,
+pletely verified in experiments [30]. This fact immediately             respectively. We note that the creation operators 𝑏ˆ †𝑠1 = 𝑏ˆ †𝑠1 ( 𝒑 1 )
+raises the question of the underlying cause. One possible source        and 𝑑ˆ𝑠†2 = 𝑑ˆ𝑠†2 ( 𝒑 2 ) of electron and positron depend on the
+of inconsistency between theory and experiment is the detection         momenta 𝒑 1 and 𝒑 2 of the single particles. In our formalism,
+scheme. If the deviation comes from a finite angular resolution         these momenta are functions of the center-of mass momentum
+this issue can be straightforwardly solved by taking finite angu-       and the relative momentum, that is 𝒑 1 = 𝒑 1 (𝑷, 𝒑) and 𝒑 2 =
+lar widths into account by means of Eq. (26) [4] leading to a            𝒑 2 (𝑷, 𝒑).
+decreased value of 𝑅. If that procedure does not suffice, one               The spins 𝑠1 and 𝑠2 of electron and positron can add up either
+has to continue searching for a more accurate modelling of the          to a total spin 𝑆 = 0 (para-Ps) or to 𝑆 = 1 (ortho-Ps). In the
+                                                                                                                                                                    6
+
+                                                                                            we have depicted the two Feynman diagrams that correspond
+                            γ                                    γ                          to the matrix element given in Eqs. (A5) and (A6).
+                                                                                               We assume that the Ps is at rest and the non-relativistic
+                                                                                            motion of its constituents can be neglected [66], that is
+                                                                                              𝜇         𝜇
+                                                                                            𝑝 1 = 𝑝 2  (𝑚, 0, 0, 0). In this approximation the center-
+                          e−                                    e+                          of-mass momentum 𝑷 = 𝒑 1 + 𝒑 2 and the relative momentum
+                                                                                             𝒑 = ( 𝒑 1 − 𝒑 2 )/2 are also zero, that is 𝑷 = 𝒑  0. If the
+                                                                                            center-of-mass wave function can be approximated by a delta
+                            γ                                    γ                          function, Ψ(𝑷) ∝ δ 3 (𝑷), the integration with respect to 𝑷
+                                                                                            can be easily performed. Similarly, the ground-state wave
+                                                                                            function for the relative momentum varies on a typical scale
+                                                                                            of ∼ (𝛼/2)𝑚𝑐 ≪ 𝑚𝑐 with 𝛼 denoting the fine-structure con-
+                          e−                                    e+                          stant [65]. Consequently, the integration over 𝒑 yields the
+                                                                                            wave function in position space at the center of the Ps, that is
+                                                                                            𝜓(𝒙 = 0), that is only a constant factor. Due to the delta func-
+FIG. 4. The two Feynman diagrams corresponding to pair annihilation                         tion in Eq. (A3) the wave vectors of the photons have opposite
+of electron (𝑒 − ) and positron (𝑒 + ) to two photons (𝛾). The direction                    directions with 𝒌 1 = −𝒌 2 ≡ 𝒌 but the same modulus 𝑘 = 𝑚
+of time is from bottom to top.                                                              which means an energy equal to the rest mass of an electron. We
+                                                                                            note that the corrections to this non-relativistic approximation
+                                                                                            scale with powers of 𝑷/𝑚 and 𝒑/𝑚, respectively.
+case of para-Ps we consider the spin wave function [52]                                        With the help of the elementary relation ( 𝑝/ − 𝑚)𝑢( 𝒑) =
+                                                                                            0 [67] we obtain the expression [66]
+                             1
+                 R 𝑠0,0
+                                                             
+                           = √ δ𝑠1 ,+ δ𝑠2 ,− − δ𝑠1 ,− δ𝑠2 ,+                         (A2)                         1 h ∗           ∗           ∗          ∗
+                                                                                                                                                                 i
+                     1 ,𝑠2
+                              2                                                                 Γ 𝑗,𝑙 ( 𝒌, −𝒌) =      /
+                                                                                                                      𝜀 ( 𝒌) /̄
+                                                                                                                             𝑘  /
+                                                                                                                                𝜀   (−𝒌) +  /
+                                                                                                                                            𝜀   (−𝒌) /
+                                                                                                                                                     𝑘 /
+                                                                                                                                                       𝜀    ( 𝒌)   ,
+                                                                                                                 2𝑚 2 𝑗           𝑙           𝑙           𝑗
+
+which forms a singlet with only one possible configuration                                                                                                        (A7)
+(𝑆 = 0, 𝑆 𝑧 = 0).                                                                           where we have defined 𝑘¯ 𝜇 ≡ (𝑘, −𝒌). We ∑︁     proceed by rewriting
+                               ˆ
+   Applying the terms of the 𝑆-operator  in second-order pertur-                            the spin wave function as R 𝑠0,0
+                                                                                                                           1 ,𝑠2
+                                                                                                                                    = 2−1/2      𝑠 δ𝑠,𝑠1 δ𝑠,−𝑠2 . By
+bation theory [52] that are relevant for annihilation yields the                                                                              𝑠
+
+expressions                                                                                 employing the identity 𝛾 5 𝑢 𝑠 = 𝑠𝑣 −𝑠 [53] and the spin projection
+                                                                                            operator (1 + 𝛾 0 )/2 [67] for 𝑝 = 0 we arrive at [53]
+              ∫
+   |𝜓p-Ps ⟩ ∝ d3 𝒌 1 d3 𝒌 2 d3 𝑷 d3 𝒑 Ψ(𝑷) 𝜓( 𝒑)
+                                                                                             ∑︁                                  1
+                                                                                                    R 𝑠0,0    𝑀𝑠1 ,𝑠2 ( 𝒌, −𝒌) = √ Tr 𝛾 5 Γ 𝑗,𝑙 ( 𝒌, −𝒌)𝛾 0 (A8)
+                                                                                                                𝑗,𝑙                  
+                                                                                                        1 ,𝑠2
+                                                                                             𝑠1 ,𝑠2                             2 2
+              × δ 4 ( 𝑝 1 + 𝑝 2 − 𝑘 1 − 𝑘 2 ) |𝜓p-Ps ( 𝒌 1 , 𝒌 2 , 𝒑 1 , 𝒑 2 )⟩
+                                                                             (A3)           for the spin summation in Eq. (A4), where we have already
+and                                                                                         used that the trace of the 𝛾 5 -matrix times an odd number of
+                                             ∑︁ ∑︁                                          𝛾-matrices vanish [67].
+      |𝜓p-Ps ( 𝒌 1 , 𝒌 2 , 𝒑 1 , 𝒑 2 )⟩ =                   R 𝑠0,0
+                                                                1 ,𝑠2                          Finally, we obtain the state
+                                               𝑗,𝑙 𝑠1 ,𝑠2                            (A4)                          ∫
+               × 𝑀𝑠1 ,𝑠2 ( 𝒌 1 , 𝒌 2 , 𝒑 1 , 𝒑 2 ) 𝑎ˆ †𝑗 ( 𝒌 1 ) 𝑎ˆ 𝑙† ( 𝒌 2 ) |0⟩
+                   𝑗,𝑙                                                                                   |𝜓p-Ps ⟩ ∝ d3 𝑘 δ(𝑘 − 𝑚) |𝜓p-Ps ( 𝒌)⟩      (A9)
+
+describing the emission of two photons with wave vectors 𝒌 1                                of the two emitted photons with
+and 𝒌 2 . The matrix element                                                                                      1 ∑︁
+                                                                                                  |𝜓p-Ps ( 𝒌)⟩ = √       M 𝑗,𝑙 ( 𝒌) | 𝑗 ( 𝒌), 𝑙 (−𝒌)⟩         (A10)
+    𝑗,𝑙
+  𝑀𝑠1 ,𝑠2 ( 𝒌 1 , 𝒌 2 , 𝒑 1 𝒑 2 ) = 𝑣¯ 𝑠2 ( 𝒑 2 ) Γ 𝑗,𝑙 ( 𝒌 1 , 𝒌 2 , 𝒑 1 ) 𝑢 𝑠1 ( 𝒑 1 )                           2 𝑗,𝑙
+                                                           (A5)                             and the matrix element
+depends on the elementary Dirac spinors 𝑢 𝑠1 = 𝑢 𝑠1 ( 𝒑 1 ) and                                                 h                    i
+𝑣¯ 𝑠2 = 𝑣¯ 𝑠2 ( 𝒑 2 ) while the term                                                              M 𝑗,𝑙 ( 𝒌) = 𝑖 𝜺 ∗𝑗 ( 𝒌) × 𝜺𝑙∗ (−𝒌) · 𝒌ˆ = 𝑗 δ 𝑗,𝑙 ,        (A11)
+                                                         1                                  where we have introduced the unit vector 𝒌ˆ ≡ 𝒌/𝑘 in 𝒌-
+       Γ 𝑗,𝑙 ( 𝒌 1 , 𝒌 2 , 𝒑 1 ) = 𝜀/ ∗𝑗 ( 𝒌 1 )                  𝜀/𝑙∗ ( 𝒌 2 )
+                                                         /
+                                                 /𝑝 1 − 𝑘 2 − 𝑚                             direction. To find the first expression, we have evaluated the
+                                                                                     (A6)
+                                                          1                                 trace in Eq. (A8) with the help of elementary identities [67]. For
+                                  + 𝜀/𝑙∗ ( 𝒌 2 )                   𝜀/ ∗𝑗 ( 𝒌 1 )            the second one, we have assumed that both photons         are circularly
+                                                  /𝑝 1 − 𝑘/ 1 − 𝑚                                                                               √
+                                                                                            polarized, that   √  is 𝜺 ± ( 𝒌) = ( 𝒙
+                                                                                                                                 ˆ A ± 𝑖 𝒚
+                                                                                                                                         ˆ A )/   2 and 𝜺 ± (−𝒌) =
+contains the four momenta 𝑝 1 , 𝑝 2 , 𝑘 1 , 𝑘 2 of the particles and                        ( 𝒙ˆ B ± 𝑖 ˆ𝒚 B )/ 2, and that the linear polarization vectors in 𝑦-
+the polarization four vectors 𝜀 ∗𝑗 𝜇 = (0, 𝜺 ∗𝑗 ( 𝒌 1 )), and 𝜀𝑙∗ 𝜇 =                       direction coincide ˆ𝒚 A = ˆ𝒚 B while 𝒙ˆ A = −𝒙ˆ B (compare to
+(0, 𝜺𝑙∗ ( 𝒌 2 )) of the photons. We use the notation 𝑎/ ≡ 𝛾 𝜇 𝑎 𝜇 =                         Fig. 1). We note that Eqs. (A9), (A10) and (A11) give rise to
+𝛾 𝜇 𝑎 𝜇 with the Dirac matrices 𝛾 𝜇 and a four-vector 𝑎. In Fig. 4                          Eqs. (1) and (2) in the main part of this paper.
+                                                                                                                                                                   7
+
+                                                                                                                           𝑗,𝑚
+                                                                                      with the matrix element 𝑀𝑠,𝑠′ given by the relations
+                 γ                e   −          γ           e   −
+
+                                                                                        𝑀𝑠,𝑠′ ( 𝒌, 𝒌 ′ , 𝒑, 𝒑 ′ ) ≡ (−𝑖𝑒) 2 𝑢¯ 𝑠′ ( 𝒑 ′ ) ΓC ( 𝒌, 𝒌 ′ , 𝒑) 𝑢 𝑠 ( 𝒑)
+                                                                                           𝑗,𝑚                                              𝑗,𝑚
+
+                                                                                                                                                                 (B4)
+                                                                                      and
+                                                                                                                                          1
+                                                                                                  ΓC ( 𝒌, 𝒌 ′ , 𝒑) ≡ 𝜀/ ∗𝑚 ( 𝒌 ′ )
+                                                                                                    𝑗,𝑚
+                                                                                                                                                  𝜀/ ( 𝒌)
+                                                                                                                                    𝑝/ + 𝑘/ − 𝑚 𝑗
+                                                                                                                                                               (B5)
+                                                                                                                                      1
+                 γ                e−             γ           e−                                                      +/𝜀 𝑗 ( 𝒌)               𝜀/ ∗ ( 𝒌 ′ ) .
+                                                                                                                                𝑝/ − 𝑘/ ′ − 𝑚 𝑚
+
+                                                                                      These expressions correspond to the two Feynman diagrams of
+FIG. 5. The two Feynman diagrams corresponding to Compton                             Compton scattering depicted in Fig. 5.
+scattering of a photon (𝛾) with an electron (𝑒 − ). The direction of time               If we measure only the degrees of freedom of the photon,
+is from bottom to top.                                                                we restrict ourselves to the reduced density operator
+                                                                                                             ∑︁ ∫
+                                                                                                      phot                              ˆ†
+                                                                                                   𝜌ˆ 𝑁 =1 =      d3 ℘ 𝑏ˆ 𝜎 (℘) 𝜌ˆ out
+                                                                                                                                   𝑁 =1 𝑏 𝜎 (℘) (B6)
+                     Appendix B: Compton scattering
+                                                                                                                𝜎
+
+   In this appendix, we derive the angular distributions for                          for the photon, that is, we average over the subsystem of the
+photons from Compton scattering. Instead of employing the                             electron. Ultimately, we measure the angular distribution of
+Stokes vector formalism [45, 46], we directly work with the                           the scattered photons, that are described by the wave vector
+density matrix [47]. We generalize the situation for a single                         𝝒 = 𝝒(𝜘, 𝜃, 𝜙). This distribution is given by the expression
+photon to coincidences of many photons and finally apply these                                        ∫        ∑︁ n                             o
+                                                                                                                                  phot
+results to the two-photon case relevant for the para-Ps decay.                              𝑝(𝜃, 𝜙) = d𝜘 𝜘2        Tr 𝑎ˆ 𝜆 (𝝒) 𝜌ˆ 𝑁 =1 𝑎ˆ †𝜆 (𝝒) , (B7)
+                                                                                                                       𝜆
+
+                                                                                      where we integrate over the radial degrees of freedom. Due to
+                                1.        One photon
+                                                                                      the delta function in Eq. (B3) the wave number of the scattered
+                                                                                      photon depends via the Compton formula
+  We start with the simplest case, that is the scattering of one
+photon from one electron. The initial state of this system is                                                 𝜘(𝜃) =
+                                                                                                                                   𝑘
+                                                                                                                                                               (B8)
+given by the product                                                                                                   1 + 𝑚𝑘 (1 − cos 𝜃)
+              ∑︁                                 1 ∑︁                                 on the scattering angle 𝜃, that is, the angle between 𝒌 and 𝝒.
+  𝜌ˆ in
+     𝑁 =1 =         𝜌 𝑗,𝑙 | 𝑗 ( 𝒌)⟩ ⟨𝑙 ( 𝒌)| ⊗        |𝑠( 𝒑)⟩ ⟨𝑠( 𝒑)| , (B1)
+                                                 2 𝑠                                  With the help of Eqs. (B2) – (B7) we find
+              𝑗,𝑙
+                                                                                                                     2
+where 𝜌 𝑗,𝑙 denotes the density matrix of the photon with                                                        𝜘(𝜃)
+                                                                                                  𝑝(𝜃, 𝜙) = N            Tr {V (𝜃, 𝜙) · 𝜌}     (B9)
+respect to its polarization while the electron is completely                                                      𝑘
+unpolarized. We assume that both, photon and electron, are
+                                                                                      with the elements
+described by plane waves with definite wave vector 𝒌 and
+momentum 𝒑, respectively. Moreover, the electron is initially
+                                                                                                     ∑︁
+                                                                                                        𝑗𝜆                                        †
+                                                                                        V𝑗,𝑙 (𝜃, 𝜙) ≡ 𝑀𝑠 𝜎 ( 𝒌, 𝝒, 0, 𝒌 −𝝒) 𝑀𝑠𝑙𝜆𝜎 ( 𝒌, 𝝒, 0, 𝒌 −𝝒)
+at rest, that is 𝒑 = 0. For convenience, we use a notation, where                                      𝜆,𝑠, 𝜎
+| 𝑗 ( 𝒌)⟩ ≡ 𝑎ˆ †𝑗 ( 𝒌) |0⟩ and |𝑠( 𝒑)⟩ ≡ 𝑏ˆ †𝑠 ( 𝒑) |0⟩.
+                                                                                                                                     /𝑝 + 𝑚 𝑙,𝜆
+                                                                                                                                                           
+                                                                                                 ∑︁        ℘ + 𝑚 𝑗,𝜆
+                                                                                                            /
+     After scattering, the density operator of the total system                              =        Tr          Γ ( 𝒌, 𝝒, 𝒑)               Γ̄ ( 𝒌, 𝝒, 𝒑)
+                                                                                                              2𝑚 C                     2𝑚 C
+reads                                                                                             𝜆
+                                                                                                                                                            (B10)
+              1 ∑︁ ∑︁                                             †                  of the matrix V = V (𝜃, 𝜙). Here we have omitted the explicit
+  𝜌ˆ out              𝜌 𝑗,𝑙 𝑆ˆ | 𝑗 ( 𝒌), 𝑠( 𝒑)⟩ 𝑆ˆ |𝑙 ( 𝒌), 𝑠( 𝒑)⟩ ,
+                                              
+     𝑁 =1 ∝                                                                           dependency of 𝝒 on the angles, that is 𝝒 = 𝝒(𝜃, 𝜙). Moreover,
+              2 𝑗,𝑙 𝑠
+                                                                                      we note the identities ℘ = 𝒌 − 𝝒, 𝒑 = 0, and the definition
+                                                          (B2)
+           ˆ
+where the 𝑆-operator   in second-order perturbation theory acts                       Γ̄C ≡ 𝛾 0 ΓC† 𝛾 0 . The constant N is determined by normalizing
+on the basis states yielding                                                          the distribution to unity with respect to the entire solid angle
+                                                                                      of 4𝜋.
+                          𝑚
+                                  ∫ 3 ′ ∫ 3 ′
+                                    d 𝑝        d 𝑘                                       After a tedious calculation, we obtain [47]
+𝑆ˆ | 𝑗 ( 𝒌), 𝑠( 𝒑)⟩ ∝ √︁           √︁         √︁ ′ δ( 𝑝 ′ + 𝑘 ′ − 𝑝 − 𝑘)                                                          
+                         𝐸𝒑 | 𝒌 |     𝐸 𝒑′        |𝒌 |                                                       𝜘(𝜃)       𝑘
+                             ∑︁                                                           V𝑗,𝑙 (𝜃, 𝜙) =           +          − 2 δ 𝑗,𝑙
+                                   𝑀𝑠,𝑠′ ( 𝒌, 𝒌 ′ , 𝒑, 𝒑 ′ ) |𝑚( 𝒌 ′ ), 𝑠′ ( 𝒑 ′ )⟩                            𝑘     𝜘(𝜃)
+                                     𝑗,𝑚
+                          ×                                                                                     ∑︁                                          (B11)
+                               𝑠 ′ ,𝑚                                                                      +2      𝜺 𝑗 ( 𝒌) · 𝜺 𝜆′ (𝝒) 𝜺𝑙 ( 𝒌) · 𝜺 𝜆′ (𝝒) ,
+                                                                             (B3)                                𝜆
+                                                                                                                                                                                    8
+
+                                                                                                  2.         Generalization to many photons
+
+
+                        ε2                                                       Now, we generalize our results of the preceding section to a
+                                     ε′1                                      situation with 𝑁 modes each containing a single photon. For
+                  ε′2                                                         that purpose, we assume a local interaction of each photon
+                             ϕ              ε1                  κ̂            with one certain electron due to the macroscopic distances
+                                      θ    ϕ
+                                                                              ∼ 𝑑 between the scatterers. The width Δ𝑟 of the electron
+                                                 θ         k̂                 wave packets has to be in the regime 𝑘 −1 ≪ Δ𝑟 ≪ 𝑑, such
+                                                                              that (i) the interaction is localized and (ii) the electron wave
+                                                                              functions can be approximated as plane waves (𝑘 −1 ∼ 10−12 m
+                                                                              for annihilation photons).
+                                                                                 The final density operator for the total system reads
+                                                                                               ∑︁         ∑︁
+                                                                                           −𝑁
+                                                                                  𝜌ˆ out
+                                                                                     𝑁 ∝2                       𝜌 𝑗1 ,𝑙1 ,..., 𝑗 𝑁 ,𝑙𝑁
+                                                                                               𝑗1 ,𝑙1 ,..., 𝑗 𝑁 ,𝑙 𝑁 𝑠1 ,...,𝑠 𝑁
+                                                                                           𝑁
+                                                                                           Ì                                                                                   †
+                                                                                                           𝑆ˆ | 𝑗 𝑛 ( 𝒌 𝑛 ), 𝑠 𝑛 ( 𝒑 𝑛 )⟩        𝑆ˆ |𝑙 𝑛 ( 𝒌 𝑛 ), 𝑠 𝑛 ( 𝒑 𝑛 )⟩
+                                                                                                                                           
+                                                                                            𝑛=1
+                                                                                                                                       (B17)
+                                                                              which reduces to the initial state when we let 𝑆ˆ → 1. The
+FIG. 6. Geometry of Compton scattering in terms of a linear po-               density operator for the photons is given by the expression
+larization basis: The initial set of basis vectors, 𝜺 1 , 𝜺 2 , 𝒌ˆ and the
+final set 𝜺 1′ ,𝜺 2′ , 𝝒ˆ are connected by the relations Eqs. (B12), (B13),              ∑︁ ∫              ∫
+                                                                                  phot
+and (B14) [68], where 𝜃 represents the scattering angle while 𝜙 is the         𝜌ˆ 𝑁 =              d ℘1 ... d3 ℘ 𝑁
+                                                                                                     3
+
+azimuthal angle.                                                                          𝜎1 ,..., 𝜎𝑁
+
+                                                                                    × 𝐵ˆ 𝜎1 ,..., 𝜎𝑁 (℘1 , ..., ℘ 𝑁 ) 𝜌ˆ out ˆ†
+                                                                                                                         𝑁 𝐵 𝜎1 ,..., 𝜎𝑁 (℘1 , ..., ℘ 𝑁 ) ,
+                                                                                                                                                     (B18)
+where we have employed fundamental trace identities for 𝛾-                    where we have introduced the operator
+matrices and have expanded both, initial and scattered, fields
+in linear polarization-bases with real polarization vectors. We                                                                        𝑁
+                                                                                                                                       Ì
+choose the geometry such that the final set of basis vectors,                            𝐵ˆ 𝜎1 ,..., 𝜎𝑁 (℘1 , ..., ℘ 𝑁 ) ≡                        𝑏ˆ 𝜎𝑛 (℘𝑛 )                 (B19)
+𝜺 1′ ,𝜺 2′ , ˆ𝝒, and the initial set 𝜺 1 ,𝜺 2 , 𝒌ˆ are connected by the                                                                 𝑛=1
+relations [68]
+                                                                              for the electrons. We then calculate the the probability for
+         𝜺 1′ = cos 𝜃 (𝜺 1 cos 𝜙 + 𝜺 2 sin 𝜙) − 𝒌ˆ sin 𝜃 ,           (B12)    photon coincidences via the relation
+         𝜺 2′ = −𝜺 1 sin 𝜙 + 𝜺 2 cos 𝜙 ,                             (B13)                                         ∑︁ ∫           ∫
+                                                                                   𝑝(𝜃 1 , 𝜙1 , ..., 𝜃 𝑁 , 𝜙 𝑁 ) =      d𝜘1 𝜘1 ... d𝜘 𝑁 𝜘2𝑁
+                                                                                                                             2
+          𝝒ˆ = sin 𝜃 (𝜺 1 cos 𝜙 + 𝜺 2 sin 𝜙) + 𝒌ˆ cos 𝜃              (B14)                                                    𝜆1 ,...,𝜆 𝑁
+                                                                                           n                                                                o
+                                                                                                                          phot
+defining the scattering angle 𝜃 and azimuth angle 𝜙 with                            × Tr 𝐴ˆ 𝜆1 ,...,𝜆 𝑁 (𝝒1 , ...𝝒 𝑁 ) 𝜌ˆ 𝑁 𝐴ˆ 𝜆† 1 ,...,𝜆 𝑁 (𝝒1 , ...𝝒 𝑁 )
+0 ≤ 𝜃 < 𝜋 and 0 ≤ 𝜙 < 2𝜋, respectively. This geometry,                                                                                                     (B20)
+illustrated in Fig. 6, leads finally to the expression                        after introducing the operator
+
+ V (𝜃, 𝜙) = 𝑆(𝜃) 1 − 𝑓 (𝜃) [cos (2𝜙) 𝜎𝑧 + sin (2𝜙) 𝜎𝑥 ] (B15)                                                                                𝑁
+                                                                                                                                             Ì
+                                                                                                𝐴ˆ 𝜆1 ,...,𝜆 𝑁 (𝝒1 , ..., 𝝒 𝑁 ) ≡                     𝑎ˆ 𝜆𝑛 (𝝒𝑛 )             (B21)
+for the matrix V with the definitions from Eq. (5) and (6).                                                                                  𝑛=1
+   We can rewrite the distribution in Eq. (B9) as
+                                                                              for the photons. It is easy to see that the prescription in
+                        𝑝(𝜃, 𝜙) = N 𝑤 T · 𝑣(𝜃, 𝜙)                    (B16)    Eqs. (B17) to (B21) consists of repeating the procedure in the
+                                                                              preceding section for a single photon 𝑁 times. Finally, we
+with the 
+         help of Eqs. (B15) and (4) and by defining the elements              arrive at the result
+𝑤 𝑗 ≡ Tr 𝑢 𝑗 · 𝜌 of a column vector 𝑤 with 𝑢 from Eq. (10).                                                                                      2
+                                                                                                                            𝑁
+                                                                                                                            Ö
+   For a photon initially linearly polarized in 𝑥-direction, that is                                                                𝜘(𝜃 𝑛 )                  ∑︁
+                                                                                   𝑝(𝜃 1 , 𝜙1 , ...𝜃 𝑁 , 𝜙 𝑁 ) ∝
+𝜌 𝑗,𝑙 = δ 𝑗,1 δ𝑙,1 we straightforwardly find a distribution 𝑝 ∝ V11                                                                  𝑘𝑛                                       (B22)
+                                                                                                                            𝑛=1                       𝑗1 ,𝑙1 ,..., 𝑗 𝑁 ,𝑙 𝑁
+which is of course identical to the Klein–Nishina cross section
+for polarized photons. Similarly, we obtain for completely                          V𝑗1 ,𝑙1 (𝜃 1 , 𝜙1 )...V𝑗 𝑁 ,𝑙𝑁 (𝜃 𝑁 , 𝜙 𝑁 ) 𝜌 𝑗1 ,𝑙1 ,..., 𝑗 𝑁 ,𝑙𝑁 ,
+                                   1
+unpolarized photons with 𝜌 = 1 a distribution 𝑝 ∝ 𝑆(𝜃) that                   where the contribution of each mode is weighted with the
+                                   2
+is independent of 𝜙.                                                          density matrix 𝜌 𝑗1 ,𝑙1 ,..., 𝑗 𝑁 ,𝑙𝑁 for 𝑁 photons.
+                                                                                                                                                          9
+
+         3                                          Bell state            angular momentum is conserved [1]. We obtain the expression
+      2.84                                          separable                                                  1 0 0 1
+                                                                                                          1 ©­0 3 1 0ª®
+                                                                                                  𝜌sep = ­                                 (B26)
+                                                                                                          8 ­0 1 3 0®
+                                                                                                                         ®
+
+                                                                                                             «1 0 0 1¬
+         2                                                                that leads to the distribution
+                                                                                                                 1
+                                                                          𝑝(𝜃 A ,𝜙A ,𝜃 B ,𝜙B ) ∝ 𝑆(𝜃 A )𝑆(𝜃 B ) − 𝑓 (𝜃 A )𝑓 (𝜃 B )cos[2(𝜙A +𝜙B)]
+      1.63                                                                                                       2
+                                                                                                                                           (B27)
+                                                                          of coincidences by means of Eq. (3). At first sight this result
+                                                                          looks similar to the distribution for the Bell state in Eq. (12).
+                                                                          However, the pre-factor in front of the cosine is 1/2 instead of
+         1
+             0                    θ0 π2                          π        1. Hence, the ratio in Eq. (17) would lead to
+                                      θ                                                  𝑝(𝜃 0 |0, 𝜋/2) 1 + 𝑎 2 (𝜃 0 )/2
+                                                                                                       =                   1.63                  (B28)
+                                                                                          𝑝(𝜃 0 |0, 0)   1 − 𝑎 2 (𝜃 0 )/2
+FIG. 7. Ratio of counts for perpendicular and (anti-)parallel detection   instead of 2.84. This different behavior is illustrated in Fig. 7.
+of coincidences for a Bell state (blue curve), Eq. (17), and the con-
+                                                                             We note that the authors of Ref. [1] considered also a product
+structed separable state (red curve), Eq. (B28), respectively. We study
+the dependency on the scattering angle 𝜃 A = 𝜃 B ≡ 𝜃. In both cases,      state of two circularly polarized photons |+, +⟩ or |−, −⟩. These
+this ratio attains its maximum at 𝜃 0  81.7◦ , but the maximum value     states are already symmetric with respect to a rotation around the
+for the separable state is with 1.63 smaller compared to the Bell state   𝑧-axis, that is 𝐷 (−𝛼) |±⟩ 𝐷 (𝛼) |±⟩ = |±, ±⟩, and an integration
+with 2.84 [1, 40].                                                        over 𝛼 would not have any effect. For these input states
+                                                                          the resulting distribution 𝑝(𝜃 A , 𝜙A , 𝜃 B , 𝜙B ) ∝ 𝑆(𝜃 A)𝑆(𝜃 B ) of
+                                                                          coincidences is independent of the azimuths which can be
+                          3.   Two photons                                immediately ruled out by the experimental results [8].
+
+   We illustrate the procedure for calculating coincidences from
+                                                                                        4.   Multiple Compton scattering events
+Compton scattering for the example of two emitted photons
+from the p-Ps decay. For that purpose, we consider the initial
+state |𝜓⟩ = |𝜓p-Ps ( 𝒌)⟩ from Eq. (2). By setting 𝑁 = 2 in                   In the following, we briefly discuss the setup from Refs. [28,
+Eq. (B22) we obtain the relation                                          41], where one of the two photons is scattered two times, that
+                                                                          is on one side is an additional scatterer. We have to adapt our
+                                           2          2
+                                                                          formalism to this situation and calculate the angular distribution
+                                  
+                                   𝜘(𝜃 A )      𝜘(𝜃 B )
+       𝑝(𝜃 A , 𝜙A , 𝜃 B , 𝜙B ) = N                                        of coincidences via the prescription
+                                     𝑚            𝑚              (B23)                                         ∑︁
+               × Tr {V (𝜃 A , 𝜙A ) ⊗ V (𝜃 B , 𝜙B ) · 𝜌} ,                   𝑝(𝜃 A , 𝜙A , 𝜃 B2 , 𝜙B2 ; 𝜃 B1 ) ∝    𝜌 𝑗1 𝑙1 , 𝑗2 ,𝑙2 V𝑗1 𝑙1 (𝜃 A , 𝜙A )
+                                                                                                                𝑗1 ,𝑙1 , 𝑗2 ,𝑙2
+where we have changed the subscripts 1, 2 → A, B to connect                                          ∑︁
+with the notation in the main part of the article. Inserting the                                 ×         V𝑚𝑛 (𝜃 A2 , 𝜙A2 ; 𝜃 A1 )V𝑚𝑛| 𝑗2 𝑙2 (𝜃 B1 ) ,
+                                                                                                     𝑚,𝑛
+explicit representation of V from Eq. (B15) leads to Eq. (3) by                                                                    (B29)
+means of Eqs. (4), (9), and (10). With the help of Eq. (11) we            where 𝜃 A , 𝜃 B2 and 𝜙A , 𝜙B2 are the scattering and azimuthal
+finally recover the expression from Eq. (12) for the probability          angles for the detected photons, respectively, while 𝜃 B1 gives
+of coincidences from the para-Ps decay.                                   the scattering angle for the intermediate scattering process on
+   In the following we review the arguments of Refs. [1, 40],             one side of the setup. We set the corresponding azimuth to
+where a hypothetical separable state was constructed. The                 zero, that is 𝜙B1 = 0. The matrix element
+density operator [1]
+                                                                                                                        1
+                                                                          V𝑚,𝑛| 𝑗,𝑙 (𝜃 B1 ) = 2𝜺 𝑗 · 𝜺 𝑚 ′ 𝜺𝑙 · 𝜺 ′𝑛 + (𝑆(𝜃 B1 ) + 𝑓 (𝜃 B1 ) − 2)
+            ∫2 𝜋                                                                                                        2
+          1
+               d𝛼 [𝐷 (−𝛼) |1⟩ 𝐷 (𝛼) |2⟩] ⟨1| 𝐷 † (−𝛼) ⟨2| 𝐷 † (𝛼)                                 𝜺 𝑗 · 𝜺𝑙 𝜺 ′𝑛 · 𝜺 𝑚 ′ + 𝜺 𝑗 × 𝜺𝑙 · 𝜺 ′𝑚 × 𝜺 ′𝑛
+                                                                                                                                             
+𝜌ˆ sep =
+         2𝜋                                                                                                                                 (B30)
+             0
+                                                         (B24)            describes this intermediate scattering process. It is analogously
+describes a mixture of perpendicularly polarized photons which            derived as the expression for V𝑗,𝑙 in Eq. (B11), but here we do
+are rotated with the help of the rotation matrix [40]                     not sum over the polarizations 𝑚, 𝑛 of the scattered photons
+                                                                        and we do not set 𝑚 = 𝑛 ≡ 𝜆.
+                                cos 𝛼 sin 𝛼                                 Inserting the density matrix for |Ψ⟩ + from Eq. (11) into
+                    𝐷 (𝛼) ≡                              (B25)
+                               − sin 𝛼 cos 𝛼                              Eq. (B29) yields the same results as derived in Eqs. (30), (31),
+                                                                          and (32) of Ref. [41] with the help of an approach using the
+by the angles ±𝛼. This construction ensures that the average              Stokes vector.
+                                                                                                                                             10
+
+
+
+
+ [1] D. Bohm and Y. Aharonov, Discussion of experimental proof for              optimal imaging with PET: an in silico feasibility study, Physics
+     the paradox of Einstein, Rosen, and Podolsky, Physical Review              in Medicine & Biology 59, 7587 (2014).
+     108, 1070 (1957).                                                     [24] M. Toghyani, J. Gillam, A. McNamara, and Z. Kuncic,
+ [2] A. Acín, J. I. Latorre, and P. Pascual, Three-party entanglement           Polarisation-based coincidence event discrimination: An in silico
+     from positronium, Phys. Rev. A 63, 042107 (2001).                          study towards a feasible scheme for Compton-PET, Physics in
+ [3] M. H. L. Pryce and J. C. Ward, Angular correlation effects with            Medicine & Biology 61, 5803 (2016).
+     annihilation radiation, Nature 160, 435 (1947).                       [25] M. Makek, D. Bosnar, L. Pavelić, P. Šenjug, and P. Žugec,
+ [4] H. S. Snyder, S. Pasternack, and J. Hornbostel, Angular correla-           Single-layer Compton detectors for measurement of polarization
+     tion of scattered annihilation radiation, Physical Review 73, 440          correlations of annihilation quanta, Nuclear Instruments and
+     (1948).                                                                    Methods in Physics Research Section A: Accelerators, Spec-
+ [5] J. A. Wheeler, Polyelectrons, Annals of the New York Academy               trometers, Detectors and Associated Equipment 958, 162835
+     of Sciences 48, 219 (1946).                                                (2020).
+ [6] E. Bleuler and H. L. Bradt, Correlation between the states of         [26] D. Watts, J. Bordes, J. Brown, A. Cherlin, R. Newton, J. Allison,
+     polarization of the two quanta of annihilation radiation, Phys.            M. Bashkanov, N. Efthimiou, and N. Zachariou, Photon quantum
+     Rev. 73, 1398 (1948).                                                      entanglement in the MeV regime and its application in PET
+ [7] R. Hanna, Polarization of annihilation radiation, Nature 162, 332          imaging, Nature communications 12, 2646 (2021).
+     (1948).                                                               [27] A. Ivashkin, D. Abdurashitov, A. Baranov, F. Guber, S. Morozov,
+ [8] C. S. Wu and I. Shaknov, The angular correlation of scattered              S. Musin, A. Strizhak, and I. Tkachev, Testing entanglement of
+     annihilation radiation, Physical Review 77, 136 (1950).                    annihilation photons, Scientific Reports 13, 7559 (2023).
+ [9] J. F. Clauser, M. A. Horne, A. Shimony, and R. A. Holt, Proposed      [28] J. Bordes, J. R. Brown, D. P. Watts, M. Bashkanov, K. Gibson,
+     experiment to test local hidden-variable theories, Phys. Rev. Lett.        R. Newton, and N. Zachariou, First detailed study of the quantum
+     23, 880 (1969).                                                            decoherence of entangled gamma photons, Phys. Rev. Lett. 133,
+[10] M. A. Horne, Experimental consequences of local hidden vari-               132502 (2024).
+     able theories, Dissertation, Boston University (1970).                [29] S. Parashari, D. Bosnar, I. Friščić, A. M. Kožuljević, Z. Kuncic,
+[11] M. Genovese, Research on hidden variable theories: A review                P. Žugec, and M. Makek, Closing the door on the “puzzle of
+     of recent progresses, Physics Reports 413, 319 (2005).                     decoherence” of annihilation quanta, Physics Letters B 852,
+[12] G. Bertolini, M. Bettoni, and E. Lazzarini, Angular correlation of         138628 (2024).
+     scattered annihilation radiation, Il Nuovo Cimento (1955-1965)        [30] P. Moskal, D. Kumar, S. Sharma, E. Y. Beyene, N. Chug,
+     2, 661 (1955).                                                             A. Coussat, C. Curceanu, E. Czerwiński, M. Das, K. Dulski,
+[13] H. Langhoff, Die Linearpolarisation der Vernichtungsstrahlung              et al., Nonmaximal entanglement of photons from positron-
+     von Positronen, Zeitschrift für Physik 160, 186 (1960).                    electron annihilation demonstrated using a plastic PET scanner,
+[14] L. R. Kasday, The distribution of Compton scattered annihilation           Science Advances 11, eads3046 (2025).
+     photons, and the Einstein-Podolsky-Rosen argument, Disserta-          [31] I. Tkachev, S. Musin, D. Abdurashitov, A. Baranov, F. Guber,
+     tion, Columbia University (1972).                                          A. Ivashkin, and A. Strizhak, Measuring the evolution of en-
+[15] G. Faraci, D. Gutkowski, S. Notarrigo, and A. Pennisi, An                  tanglement in Compton scattering, Scientific Reports 15, 6064
+     experimental test of the EPR paradox, Lettere al Nuovo Cimento             (2025).
+     9, 607 (1974).                                                        [32] P. Moskal, N. Krawczyk, B. Hiesmayr, M. Bała, C. Curceanu,
+[16] L. R. Kasday, J. D. Ullman, and C.-S. Wu, Angular correlation              E. Czerwiński, K. Dulski, A. Gajos, M. Gorgol, R. Del Grande,
+     of Compton-scattered annihilation photons and hidden variables,            et al., Feasibility studies of the polarization of photons beyond
+     Il Nuovo Cimento B (1971-1996) 25, 633 (1975).                             the optical wavelength regime with the J-PET detector, The
+[17] A. Wilson, J. Lowe, and D. Butt, Measurement of the relative               European Physical Journal C 78, 970 (2018).
+     planes of polarization of annihilation quanta as a function of        [33] B. C. Hiesmayr and P. Moskal, Witnessing entanglement in
+     separation distance, Journal of Physics G: Nuclear Physics 2,              Compton scattering processes via mutually unbiased bases, Sci-
+     613 (1976).                                                                entific reports 9, 8166 (2019).
+[18] D. Bohm and B. J. Hiley, Nonlocality and polarization corre-          [34] B. Hiesmayr, W. Krzemień, and M. Bała, Quantum error channels
+     lations of annihilation quanta, Il Nuovo Cimento B 35, 137                 in high energetic photonic systems, Scientific Reports 14, 9672
+     (1976).                                                                    (2024).
+[19] M. Bruno, M. d’Agostino, and C. Maroni, Measurement of linear         [35] M. Bała, W. Krzemień, B. C. Hiesmayr, J. Baran, K. Dulski,
+     polarization of positron annihilation photons, Il Nuovo Cimento            K. Klimaszewski, L. Raczyński, R. Y. Shopa, and W. Wiślicki,
+     B (1971-1996) 40, 143 (1977).                                              Probing arbitrary polarized photon pairs undergoing double
+[20] G. Bertolini, E. Diana, and A. Scotti, Correlation of annihilation         Compton scatterings by a dedicated MC simulator validated with
+     𝛾-ray polarization, Il Nuovo Cimento B 63, 651 (1981).                     experimental data, The European Physical Journal C 85, 1115
+[21] S. Osuch, M. Popkiewicz, Z. Szeflinski, and Z. Wilhelmi, Exper-            (2025).
+     imental test of Bell’s inequality using annihilation photons, Acta    [36] M. Funck, I. Funk, T. Schmidt, and R. Schwonnek, Entangle-
+     Physica Polonica, Series B 27 (1996).                                      ment detection with rotationally covariant measurements – from
+[22] Z. Kuncic, A. McNamara, K. Wu, and D. Boardman, Polariza-                  Compton scattering to lemonade (2025), arXiv:2512.03984.
+     tion enhanced X-ray imaging for biomedicine, Nuclear Instru-          [37] P. Žugec, E. Andreas Vivoda, M. Makek, and I. Friščić, A
+     ments and Methods in Physics Research Section A: Accelerators,             reconciliation of the Pryce-Ward and Klein-Nishina statistics for
+     Spectrometers, Detectors and Associated Equipment 648, S208                semi-classical simulations of annihilation photons correlations,
+     (2011).                                                                    Physics Letters B 875, 140346 (2026).
+[23] A. McNamara, M. Toghyani, J. Gillam, and K. Wu, Towards               [38] J. Clarke, P. Asenov, J. Smeets, J.-S. Wang, D. B. Cassidy,
+                                                                                                                                             11
+
+     and A. Serafini, Bell test of photons from electron-positron             Frankfurt am Main, 1993).
+     annihilation via POVM-based Compton polarimetry (2026),             [53] J. M. Jauch and F. Rohrlich, The Theory of Photons and Elec-
+     arXiv:2604.25034.                                                        trons (Addison-Wesley Publishing Company, Inc, Cambridge,
+[39] P. Caradonna, D. Reutens, T. Takahashi, S. Takeda, and V. Vegh,          Massachusetts, 1955).
+     Probing entanglement in Compton interactions, Journal of            [54] C. N. Yang, Selection rules for the dematerialization of a particle
+     Physics Communications 3, 105005 (2019).                                 into two photons, Physical Review 77, 242 (1950).
+[40] P. Caradonna, I. D’Amico, D. G. Jenkins, and D. P. Watts, Stokes-   [55] D. F. V. James, P. G. Kwiat, W. J. Munro, and A. G. White,
+     parameter representation for Compton scattering of entangled             Measurement of qubits, Phys. Rev. A 64, 052312 (2001).
+     and classically correlated two-photon systems, Phys. Rev. A 109,    [56] M. A. Nielsen and I. L. Chuang, Quantum Computation and
+     033719 (2024).                                                           Quantum Information (Cambridge University Press, Cambridge,
+[41] P. Caradonna, Kinematic analysis of multiple Compton scattering          United Kingdom, 2016).
+     in quantum-entangled two-photon systems, Annals of Physics          [57] R. A. Horn and C. R. Johnson, Matrix Analysis (Cambridge
+     470, 169779 (2024).                                                      University Press, New York, NY, 2013).
+[42] P. Caradonna, Compton scattering mediated by quantum entan-         [58] A. Peres, Separability criterion for density matrices, Phys. Rev.
+     glement, Physical Review A 111, 053708 (2025).                           Lett. 77, 1413 (1996).
+[43] P. Caradonna and K. Shimazoe, Entanglement, steering, and           [59] M. Horodecki, P. Horodecki, and R. Horodecki, Separability of
+     separability in Compton-scattered annihilation photons, Physical         n-particle mixed states: necessary and sufficient conditions in
+     Review A 112, 032413 (2025).                                             terms of linear maps, Physics Letters A 283, 1 (2001).
+[44] P. Caradonna and K. Shimazoe, Polarization symmetry as a            [60] We note that this state does not show a rotational symmetry with
+     signature of Bell states in Compton scattering, Physical Review          respect to the 𝑧-axis as premised in Refs. [1, 40].
+     Research 8, 023288 (2026).                                          [61] J. Sommerfeldt, N. M. Mayer, A. Maiorova, W. Middents,
+[45] U. Fano, Remarks on the classical and quantum-mechanical                 S. Fritzsche, T. Stöhlker, and A. Surzhykov, Bound-state
+     treatment of partial polarization, Journal of the Optical Society        Compton scattering of linearly polarized photons (2026),
+     of America 39, 859 (1949).                                               arXiv:2604.14748.
+[46] W. H. McMaster, Matrix representation of polarization, Reviews      [62] D. Kumar, S. Sharma, P. Moskal, and J.-P. collaboration., In-
+     of Modern Physics 33, 8 (1961).                                          vestigating quantum entanglement of high-energy photons from
+[47] A. Wightman, Note on polarization effects in Compton scattering,         positron annihilation in a porous medium, in Journal of Physics:
+     Physical Review 74, 1813 (1948).                                         Conference Series, Vol. 3029 (2025) p. 012006.
+[48] S. Berko and H. N. Pendleton, Positronium, Annual Review of         [63] M. E. Tschaffon, J. Seiler, and M. Freyberger, Average correlation
+     Nuclear and Particle Science 30, 543 (1980).                             as an indicator for nonclassicality, Physical Review Research 5,
+[49] A. Rich, Recent experimental advances in positronium research,           023063 (2023).
+     Rev. Mod. Phys. 53, 127 (1981).                                     [64] M. E. Tschaffon and J. Seiler, Average correlation as an indicator
+[50] G. S. Adkins, D. B. Cassidy, and J. Pérez-Ríos, Precision spec-          for inseparability, Physical Review Research 6, 013186 (2024).
+     troscopy of positronium: Testing bound-state QED theory and         [65] C. Itzykson and J.-B. Zuber, Quantum Field Theory (McGraw-
+     the search for physics beyond the standard model, Physics Reports        Hill Inc., 1980).
+     975, 1 (2022).                                                      [66] A. Sen and Z. K. Silagadze, Two-photon decay of p-wave positro-
+[51] S. D. Bass, S. Mariazzi, P. Moskal, and E. Stȩpień, Colloquium:         nium: a tutorial, Canadian Journal of Physics 97, 693 (2019).
+     Positronium physics and biomedical applications, Rev. Mod.          [67] J. D. Bjorken and S. D. Drell, Relativistische Quantenmechanik
+     Phys. 95, 021002 (2023).                                                 (B. I. Wissenschaftsverlag, Mannheim, 1966).
+[52] W. Greiner, Feldquantisierung (Verlag Harri Deutsch, Thun und       [68] J. D. Jackson, Klassische Elektrodynamik (Walter de Gruyter,
+                                                                              Berlin/Boston, 2006).
+

@@ -1,0 +1,37 @@
+=== (1) eta: source strings ===
+  [PASS] 1807.06209.txt: '0.02237 ± 0.00015'
+  [PASS] 1807.06209.txt: '0.02242 ± 0.00014'
+  [PASS] 1912.01132.txt: '273.754'
+  [PASS] 2011.11320.txt: '0.02195 ± 0.00022'
+  [PASS] pdg_bbn_2025.txt: '6.040 ± 0.118'
+  [PASS] 1710.11129.txt: '2.166 ± 0.015 ± 0.011'
+
+  eta10_BST = 2 alpha^4 / (3 pi) x 1e10 = 6.01756
+  CMB  Planck 2018 TT,TE,EE+lowE+lensing (Eq. 24)  omega_b = 0.02237(15)  eta10 = 6.124 ± 0.041  pull -2.59 sigma
+  CMB  Planck 2018 +BAO (Table 2)                  omega_b = 0.02242(14)  eta10 = 6.138 ± 0.038  pull -3.13 sigma
+  D/H  Cooke-Pettini-Steidel 2018 (Eq. 12)         omega_b = 0.02166(19)  eta10 = 5.930 ± 0.051  pull +1.73 sigma
+  BBN  Pitrou et al. 2021 (Eq. 9)                  omega_b = 0.02195(22)  eta10 = 6.009 ± 0.060  pull +0.14 sigma
+  BBN  PDG 2025 SBBN (Eq. 24.6)                    omega_b = 0.02205(43)  eta10 = 6.036 ± 0.118  pull -0.16 sigma
+  [PASS] CMB side: BST eta is > 2.5 sigma LOW on both Planck combinations
+  [PASS] BBN side: BST eta within 0.5 sigma of both BBN-only determinations
+
+=== (2) Lund b*kappa, kappa = 1 GeV/fm x hbar c ===
+  [PASS] monash2013_arXiv1404.5630.txt: 'StringZ:bLund         =                  0.98'
+  [PASS] pythia83_manual_arXiv2203.11601.txt: 'κ ≈ 1 GeV/fm'
+  Monash 2013                    b = 0.98 GeV^-2   b*kappa = 0.1934
+  Pythia 8 pre-Monash default    b = 0.80 GeV^-2   b*kappa = 0.1579
+  Professor Q^2 (P6)             b = 0.60 GeV^-2   b*kappa = 0.1184
+  Professor pT (P6)              b = 1.20 GeV^-2   b*kappa = 0.2368
+  Pythia 6.418 default           b = 0.58 GeV^-2   b*kappa = 0.1144
+  (kappa is '≈ 1 GeV/fm' in the manual; the spread across tunes, 0.11-0.24, is the target's width)
+
+=== (3) Gamma_ee / Gamma, PDG 2026 (compare line; Lyra's direction first) ===
+  [PASS] pdg2026_listing_upsilon-3S.txt: '0.443± 0.008 OUR EVALUATION'
+  phi(1020)    Gamma_ee/Gamma = 2.9889e-04
+  J/psi(1S)    Gamma_ee/Gamma = 5.9719e-02
+  psi(2S)      Gamma_ee/Gamma = 7.9522e-03
+  Upsilon(1S)  Gamma_ee/Gamma = 2.4806e-02
+  Upsilon(2S)  Gamma_ee/Gamma = 1.9137e-02
+  Upsilon(3S)  Gamma_ee/Gamma = 2.1801e-02
+
+SCORE 11/11

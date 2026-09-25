@@ -1,0 +1,17 @@
+Title:Rare multi-nucleon decays with the full data sets of the Majorana Demonstrator LA-UR-24-33090 https://doi.org/10.1103/2pgp-hvst
+
+            
+            
+              
+                
+                Focus to learn more
+              
+              
+              
+                
+                DOI(s) linking to related resources
+              
+            
+           
+            Abstract:The Majorana Demonstrator was an ultra-low-background experiment designed for neutrinoless double-beta decay ($0\nu\beta\beta$) investigation in $^{76}$Ge. Located at the Sanford Underground Research Facility in Lead, South Dakota, the Demonstrator utilized modular high-purity Ge detector arrays within shielded vacuum cryostats, operating deep underground. The arrays, with a capacity of up to 40.4 kg (27.2 kg enriched to $\sim 88\%$ in $^{76}$Ge), have accumulated the full data set, totaling 64.5 kg yr of enriched active exposure and 27.4 kg yr of exposure for natural detectors. Our updated search improves previously explored three-nucleon decay modes in Ge isotopes, setting new partial lifetime limits of $1.83\times10^{26}$ years (90\% confidence level) for $^{76}$Ge($ppp$) $\rightarrow$ $^{73}$Cu e$^+\pi^+\pi^+$ and $^{76}$Ge($ppn$) $\rightarrow$ $^{73}$Zn e$^+\pi^+$. The partial lifetime limit for the fully inclusive tri-proton decay mode of $^{76}$Ge is found to be $2.1\times10^{25}$ yr. Furthermore, we have updated limits for corresponding multi-nucleon decays.
+    
