@@ -1,0 +1,23 @@
+PART A -- tau_n implied by row A2 (|V_ud|^2 = 19/20) and measured g_A
+  K=4905.7(1.7) [2501.17916]   PERKEO III 1.27641(56)   tau_n =  877.07 +- 0.71 s
+  K=4905.7(1.7) [2501.17916]   PDG 1.2756(13)           tau_n =  877.99 +- 1.52 s
+  K=4908(4) [CMS 2018]         PERKEO III 1.27641(56)   tau_n =  877.48 +- 0.96 s
+  K=4908(4) [CMS 2018]         PDG 1.2756(13)           tau_n =  878.41 +- 1.65 s
+  sensitivity to |V_ub|^2 = 1.5e-5: +0.014 s
+  for comparison, superallowed |V_ud| = 0.97373 gives tau_n = 878.78 s (same K, PERKEO III)
+  COMPARE (measured, read last): UCNtau bottle 877.75(34) s; beam ~887.7 s
+
+PART B -- real dimension of the stabilizer in gl(3,C) of structures on V12 (C^3)
+  eps        dim 16  (expected 16 = sl(3,C))  PASS
+  h          dim  9  (expected  9 = u(3))  PASS
+  eps+h      dim  8  (expected  8 = su(3))  PASS
+  q          dim  6  (expected  6 = o(3,C))  PASS
+  h+q        dim  3  (expected  3 = o(3)/so(3))  PASS
+  eps+h+q    dim  3  (expected  3 = o(3)/so(3))  PASS
+  control: su(3) fixing a generic vector has dim 3 < 8  PASS
+PASS A1 row-A2 tau_n within 2 sigma of the bottle value
+PASS A2 row-A2 tau_n excludes the beam value at >3 sigma
+PASS A3 row-A2 V_ud gives a shorter lifetime than the superallowed V_ud
+PASS B  stabilizer dimensions (6 structures) as expected
+PASS CONTROL extra structure cuts su(3)
+SCORE: 5/5
