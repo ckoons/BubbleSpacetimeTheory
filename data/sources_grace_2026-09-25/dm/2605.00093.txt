@@ -1,0 +1,885 @@
+                                                Draft version July 10, 2026
+                                                Typeset using LATEX twocolumn style in AASTeX7.0.1
+
+
+
+
+                                               A New Robust Constraint on the Self-interaction Cross-section of Dark Matter with Double Radio
+                                                                                       Relic Clusters
+                                                                                                                                           1
+                                                                              M. James Jee      ,1, 2 Dongak Park,1 and Wonki Lee
+                                                                       1 Department of Astronomy, Yonsei University, 50 Yonsei-ro, Seoul 03722, Korea
+                                                      2 Department of Physics and Astronomy, University of California Davis, One Shields Avenue, Davis, CA 95616, USA
+
+
+
+                                                                                                       ABSTRACT
+                                                        Merging galaxy clusters are a promising laboratory for measuring the self-interaction cross-section
+                                                      (SICS) of dark matter. However, previous studies have focused on galaxy-mass offsets, which numer-
+                                                      ical simulations have shown to be intrinsically small because galaxies remain tightly coupled to the
+                                                      dominant dark matter potential even with significant self-interaction. Their interpretation is further
+                                                      complicated by unknowns of the merger phase, geometry, and initial conditions. In this paper, we
+                                                      overcome these obstacles by introducing the shock-to-shock distance, traced by double radio relics, as
+                                                      a merger chronometer that time-stamps the post-pericenter dynamical phase. Because the propagation
+                                                      speed of merger shocks is nearly independent of the SICS, while the halo-to-halo distance is depressed
+
+
+
+
+arXiv:2605.00093v2 [astro-ph.CO] 9 Jul 2026
+                                                      by SIDM-induced drag, the ratio of the two distances translates directly into a constraint on σ/m.
+                                                      Applying this method to a gold sample of eleven cluster mergers hosting symmetric double radio relics,
+                                                      we determine an upper limit on the SICS of σ/m < 0.22 (0.63) cm2 g−1 at the 68% (95%) confidence
+                                                      level. This is the first constraint from cluster collisions that fully marginalizes over mass uncertainty,
+                                                      viewing angle, collision speed, merger phase, impact parameter, and gas profile slope.
+
+                                                                1. INTRODUCTION                                   properties beyond the reach of terrestrial experiments.
+                                                The standard Cold Dark Matter (CDM) paradigm has                  These merging clusters allow us to observe DM behavior
+                                              been remarkably successful in explaining the large-scale            during high-velocity impacts, where the separation of
+                                              structure of the universe. However, persistent discrepan-           distinct cluster components provides a direct handle on
+                                              cies on small scales, such as the core-cusp and too-big-            DM physics (e.g., M. Markevitch et al. 2004).
+                                              to-fail problems, suggest that dark matter (DM) may                   In a typical cluster merger, the hot intra-cluster
+                                              possess a non-zero self-interaction cross-section (SICS)            medium (ICM) experiences ram-pressure stripping and
+                                              (D. N. Spergel & P. J. Steinhardt 2000; S. Tulin & H.               lags behind the collisionless galaxies and DM halos. If
+                                              Yu 2018). While these astrophysical puzzles provide                 DM is truly collisionless, the DM halos should coincide
+                                              a bottom-up motivation for self-interacting dark mat-               with the galaxies. Conversely, a significant SICS would
+                                              ter (SIDM), there is a strong top-down rationale from               induce a momentum-transfer drag, resulting in an off-
+                                              theoretical particle physics. Many dark matter candi-               set between the DM mass centroid and the galaxies (M.
+                                              dates arise from extensions of the Standard Model in                Markevitch et al. 2004; D. Harvey et al. 2015).
+                                              which they reside in a hidden sector with its own gauge               However, recent studies have demonstrated that these
+                                              symmetries; in such constructions, self-interactions me-            mass-galaxy offsets are susceptible to large systematic
+                                              diated by hidden-sector gauge bosons are generic rather             uncertainties that undermine their reliability as a dark
+                                              than exceptional (S. Tulin et al. 2013). Such models                matter probe (D. Wittman et al. 2018). The primary
+                                              naturally predict self-interactions that can be many or-            challenge arises from the complex dynamical behavior
+                                              ders of magnitude larger than those between dark and                of galaxies that are not perfect tracers of the dark mat-
+                                              visible matter, making the SICS a unique window into                ter potential. Instead, galaxies often undergo significant
+                                              the physics of the dark sector (S. Tulin & H. Yu 2018).             sloshing motions within the dark matter halo on time
+                                                While terrestrial experiments continue to search for              scales much shorter than the overall cluster orbital pe-
+                                              DM particles, colliding galaxy clusters serve as powerful           riod (S. Y. Kim et al. 2017). This internal oscillation can
+                                              astrophysical laboratories to probe these hidden-sector             produce transient offsets driven by local gravitational
+                                                                                                                  dynamics rather than by dark matter self-interaction.
+                                                                                                                    Furthermore, numerical simulations have shown that
+                                              Corresponding author: M. James Jee                                  even in the presence of a non-zero cross-section, the
+                                              Email: mkjee@yonsei.ac.kr                                           expected mass-galaxy offset is frequently too small to
+2
+
+be detected with current observational precision (F.                            4.5
+                                                                                            shock-shock (0 cm2g 1)
+Kahlhoefer et al. 2014). Because galaxies remain grav-                          4.0         DM-DM (0 cm2g 1)
+itationally bound to the dark matter halos, which pro-                                      shock-shock (3 cm2g 1)
+vide the dominant contribution to the local potential,                          3.5         DM-DM (3 cm2g 1)
+they tend to stay centered within the halo despite the                          3.0
+
+
+
+                                                               Distance [Mpc]
+momentum-transfer drag acting on the dark matter par-
+ticles. This strong gravitational coupling means that a                         2.5
+lack of observed offset does not necessarily imply a lack                       2.0
+of self-interaction, leading to significantly weaker and
+more ambiguous constraints than previously assumed.                             1.5
+   The interpretation of these offsets is further plagued                       1.0
+by the inherent ambiguity of the merger phase and the
+projection effects of the viewing angle (D. Wittman et al.                      0.5
+2018). A prominent example is the study by D. Har-                              0.0
+vey et al. (2015), which initially claimed a stringent                             0.0           0.2          0.4       0.6   0.8   1.0
+                                                                                                                TSC [Gyr]
+95% confidence-level upper limit of σ/m < 0.47 cm2 g−1
+by combining dark matter-galaxy offsets across 72 clus-
+                                                               Figure 1. Time evolution of the shock-to-shock and
+ter collisions. However, subsequent reanalysis by D.           halo-to-halo distances.      We simulate a merger of two
+Wittman et al. (2018) identified substantial methodolog-       5 × 1014 M⊙ halos and trace the halo-to-halo (dashed) and
+ical flaws, noting that averaging such offsets is physically   shock-to-shock (solid) distances as a function of the time
+unsound because their magnitude and direction depend           since collision (TSC), with TSC= 0 at pericenter pas-
+critically on whether the system is in an approaching or       sage. The shock-to-shock distance is nearly identical in the
+receding phase. When these errors were rectified and           collisionless (σ/m = 0 cm2 g−1 , red) and self-interacting
+                                                               (σ/m = 3 cm2 g−1 , black) DM cases. However, the SIDM
+the uncertainties properly marginalized, the constraint
+                                                               halos lose orbital energy via momentum-transfer drag, reach-
+was relaxed by a factor of four.                               ing apocenter earlier and at smaller separations. The halo–
+   In this paper, we introduce a new, powerful approach        to-halo distance relative to the shock-to-shock distance is
+by utilizing the shock-to-shock distance relative to the       therefore a robust probe of self-interaction strength.
+halo-to-halo distance as the indicator of dark matter self-
+interaction. While DM halos slow down following a col-           We apply this method to a sample of eleven “gold”
+lision due to self-interaction, the propagation speed of       cluster mergers, which are selected for their double radio
+merger shocks remains nearly independent of the SICS           relics, clear mass bimodality, and near head-on collision
+(Figure 1). By comparing the shock-to-shock distance           geometry to minimize systematic modeling errors, pro-
+to the halo-to-halo distance derived from weak-lensing         viding the most stringent and marginalized constraint
+(WL) analysis, we can significantly reduce the geomet-         on the DM self-interaction cross-section to date from
+ric and temporal uncertainties that have plagued SICS          cluster-scale collisions: σ/m < 0.22 (0.63) cm2 g−1 at
+measurements.                                                  the 68% (95%) confidence level. The paper is organized
+   Double radio relics are diffuse radio sources that trace    as follows. In §2, we describe our numerical simulations,
+merger shock fronts, providing a direct measurement of         Bayesian inference framework, and methodological val-
+the shock-to-shock distance (T. A. Ensslin et al. 1998;        idation with mock data. §3 presents the application to
+L. Feretti et al. 2012; R. J. van Weeren et al. 2012,          our gold sample and the resulting SICS constraint. Sys-
+2019). They arise from diffusive shock acceleration            tematic effects and future prospects are discussed in §4,
+(DSA) of relativistic electrons at outward-propagating         and we summarize our findings in §5.
+merger shocks and appear as Mpc-scale, arc-like struc-
+tures at the cluster outskirts. Systems hosting two relics                               2. NUMERICAL SIMULATIONS AND
+on opposite sides of the cluster are especially useful: the                                             METHODOLOGY
+symmetric geometry indicates a nearly head-on binary                                     2.1. Cluster Collision Simulation Setup
+merger viewed close to the plane of the sky (R. J. van
+                                                                 To model the observable signals from merging clus-
+Weeren et al. 2012; N. Golovich et al. 2019), and the relic
+                                                               ters, we perform a suite of numerical hydrodynamic sim-
+pair directly marks the positions of both shock fronts,
+                                                               ulations using the GIZMO code (version 2022; P. F.
+enabling a clean measurement of the shock-to-shock sep-
+                                                               Hopkins 2015), which incorporates dark matter self-
+aration.
+                                                               interaction between pairs of phase-space patches (M.
+                                                               Rocha et al. 2013). We generate initial conditions for
+                                                                                                                              3
+
+merging halos using the cluster generator package3 .                  Our simulation framework explores an N -dimensional
+The dark matter halo is assumed to follow a Navarro-                grid of physical parameters (N = 6) to enable statistical
+Frenk-White (NFW) density profile (J. F. Navarro et al.             comparison with observed radio relic clusters. These pa-
+1997):                                                              rameters include the gas profile slope (β), the masses of
+                             ρs,dm                                  the primary and secondary halos (M1 , M2 ), the collision
+              ρdm =                                (1)
+                      (r/rs )(1 + r/rs )2                           velocity factor (fv ), the impact parameter (b), and the
+where ρs,dm represents the scale density and rs is the              self-interaction cross-section (σ/m). By varying these
+scale radius defined by the virial radius r200 and the              inputs, each simulation run produces a comprehensive
+concentration parameter c. The initial value of rs is               time series tracking the time since collision (tsc , ab-
+determined through the mass-concentration relation of               breviated TSC in figures), projected halo distance (dh ),
+A. R. Duffy et al. (2008). For the gas component, we                and projected shock distance (ds ) across a wide range
+utilize a beta profile:                                             of viewing angles (α).
+                                                                      The full range of values explored in our fiducial grid,
+                                  ρs,gas
+                  ρgas =                                      (2)   which forms the basis for our subsequent likelihood sam-
+                            [1 + (r/rc )2 ]3β/2                     pling and parameter estimation, is summarized in Ta-
+where the gas core radius rc is fixed at rc = rs /2. Scale          ble 1. To represent the diverse mass scales observed
+densities are selected to achieve a fiducial gas fraction           in our gold sample, we initialize the secondary halo
+of 0.1 at r500 .                                                    mass, M2 , at four distinct scales: 1013 , 1014 , 5 × 1014 ,
+  The collision kinematics are initialized by defining the          and 1015 M⊙ . For each scale, we define the primary
+relative velocity vini between the two halos at their ini-          halo mass, M1 , using the mass ratio fM = M1 /M2 ,
+tial separation d, which is defined as the sum of their             with values of fM = 1 and 3. This configuration ef-
+virial radii (d = r200,1 + r200,2 ). This initial velocity is       fectively covers mass pairings in major mergers (fM ≤
+characterized by a velocity factor fv = vini /vf f , where          3) ranging from low-mass group-scale mergers such as
+vf f is the free-fall velocity evaluated at distance d (C. L.       PSZ2 G181.06+48.47 (e.g., E. Ahn et al. 2025) to ex-
+Sarazin 2002):                                                      treme, high-mass systems such as the ACT-CL J0102-
+                                                                    4915 cluster (“El Gordo”, J. Kim et al. 2021). The
+                                1/2            −1/2             maximum impact parameter at each mass scale is set
+                      M1 + M 2               d
+  vf f = 2930 ·                       ·                             according to bmax = 500 (M2 /1014 M⊙ )log10 2 kpc, ap-
+                      1015 M⊙            1 Mpc                      proximately half of r200 of the smaller halo, ensuring
+                                            1/2
+                                 1 − d/d0                           that the simulated range of off-axis collisions remains
+                            ·                      km s−1 ,   (3)
+                                1 − (b/d0 )2                        physically relevant across the grid.
+
+where M1 and M2 represent the respective halo masses,                   2.2. Determination of halo and shock positions
+b is the impact parameter evaluated at the initial sep-                To locate the halo centers in our simulations, we em-
+aration d, and d0 is the theoretical maximum separa-                ploy the shrinking sphere method (C. Power et al. 2003),
+tion where the two halos are assumed to be at rest                  which is widely used to find density peaks in N -body
+before their initial gravitational collapse. We define a            simulations. We iteratively calculate the mean position
+cut radius rcut = d + max[r200,1 , r200,2 ] so that the two         of dark matter particles within a radius that is reduced
+halos’ density profiles join smoothly along the merger              by a factor f in each step until a threshold radius is
+axis at the initial separation, without truncation gaps             reached. Halo membership is determined based on par-
+that could distort the early gas dynamics. We adopt                 ticle IDs to measure the center positions of both groups
+adaptive gravitational softening for all particle types,            separately.
+with a minimum softening length of 1 kpc and 32 neigh-                 For the shock positions, we utilize the velocity diver-
+bors for the kernel estimation, ensuring that the force             gence ∇ · v, as gas particles reach maximum compres-
+resolution scales with the local particle density (P. F.            sion at the shock front where ∇ · v is most negative.
+Hopkins 2015). Each simulation uses 2 × 105 dark                    We examine the one-dimensional ∇ · v profile along the
+matter and 4 × 105 gas particles for the lower-mass                 merger axis in two-dimensional density-weighted projec-
+systems (M2 ≤ 1014 M⊙ ), and 2 × 106 dark matter                    tion maps and locate the two shock positions with the
+and 4 × 106 gas particles for the higher-mass systems               minimum velocity divergence.
+(M2 ≥ 5 × 1014 M⊙ ).
+                                                                               2.3. Geometric Projection Effects
+                                                                      The observable parameters in our analysis, such as
+ 3 https://github.com/jzuhone/cluster generator
+                                                                    the separation between cluster halos and the distance
+4
+
+                                              Table 1. Simulation Parameter Grid
+
+                   M2 [1014 M⊙ ]   fM (M1 /M2 )          fv                                    β             b [kpc]     σ/m [cm2 g−1 ]
+                        0.1            1, 3         0.4, 0.8, 1.2   0.57, 0.67, 0.77                          0, 250         0, 0.5, 1, 3
+                         1             1, 3         0.4, 0.8, 1.2   0.57, 0.67, 0.77                         0, 500          0, 0.5, 1, 3
+                         5             1, 3         0.4, 0.8, 1.2   0.57, 0.67, 0.77                         0, 814          0, 0.5, 1, 3
+                        10             1, 3         0.4, 0.8, 1.2   0.57, 0.67, 0.77                         0, 1000         0, 0.5, 1, 3
+                  Note—Summary of the N -dimensional grid of physical parameters used to initialize the
+                   hydrodynamic merger simulations. The predicted shock-to-shock and halo-to-halo dis-
+                   tances are derived via interpolation across these 576 fiducial simulation runs: piecewise
+                   quadratic in log10 M2 and linear in all other dimensions (see §2.4).
+
+
+
+
+between radio-traced shock fronts, are inherently sub-                                        1.00
+ject to geometric projection along the line of sight. To
+map our three-dimensional (3D) simulation data to the                                         0.95
+two-dimensional (2D) plane of the sky, we must account
+
+
+
+
+                                                                     Ratio relative to = 0°
+for the viewing angle (α), defined as the angle between
+                                                                                              0.90
+the merger axis and the plane of the sky.
+  The projected halo-to-halo distance is straightforward
+                                                                                              0.85
+and can be modeled following a standard trigonometric
+projection:
+                                                                                              0.80
+                   d2D            3D
+                    h = cos α · dh .                  (4)
+                                                                                                         ds2D
+In contrast, because the radio-emitting shock fronts are                                      0.75       (cos ) , = 0.223
+highly extended and parts of quasi-spherical surfaces,                                                   dh2D
+their projected positions are much less sensitive to the                                      0.70       cos
+viewing angle than the halo separation. Figure 2 il-                                                 0   5      10      15       20    25    30   35   40
+lustrates a head-on collision case where M1 = M2 =                                                                     Viewing angle (deg)
+5 × 1014 M⊙ , fv = 1.2, and σ/m = 0 cm2 g−1 . We
+model this deviation using a power-law modification:                 Figure 2. Projected shock-to-shock and halo-to-halo dis-
+                                                                     tances as a function of viewing angle. We illustrate a head-on
+                                                                     collision case where M1 = M2 = 5 × 1014 M⊙ , fv = 1.2, and
+                   d2D     η     3D
+                    s = cos α · ds .                      (5)
+                                                                     σ/m = 0 cm2 g−1 . Both distances are normalized to unity at
+                                                                     α = 0◦ . The blue (orange) data points represent normalized
+By fitting the equation to our simulation ensemble                   projected shock-to-shock (halo-to-halo) distances measured
+across a range of viewing angles, we find a best-fit value           at different viewing angles. As expected, the halo-to-halo
+of η ≈ 0.223, which leads to an accuracy of ≲ 1%.                    distances perfectly scale as cos α (orange line). On the other
+                                                                     hand, the dependence on the viewing angle is much weaker in
+    2.4. Interpolation Scheme for Off-Grid Mergers                   shock-to-shock distances. For instance, at α = 30◦ , the pro-
+                                                                     jected shock-to-shock distance decreases by only ∼ 3%. We
+  Our fiducial simulation grid is discrete by construc-              model this weaker dependence as d2D     = cosη α · d3D
+                                                                                                          s              s ; fitting
+tion, yet the MCMC sampler requires the predicted dis-               our simulation ensemble yields a best-fit value of η ≈ 0.223
+tances ds and dh to be evaluated at arbitrary parameter              (blue line), which provides an excellent (≲ 1%) description
+values. We therefore build a continuous forward model                of this merger case.
+by interpolating across the 576 simulation outputs.
+  The forward model is a seven-dimensional interpola-                  Because the secondary halo mass grid, M2 ∈
+tor with axes (β, M2 , fM , fv , b̂, σ/m, tsc ), where fM =          {0.1, 1, 5, 10} × 1014 M⊙ , is strongly non-uniform in lin-
+M1 /M2 ≥ 1 is the mass ratio and b̂ = b/bmax (M2 ) is                ear space, we adopt a hybrid interpolation scheme. In
+the impact parameter normalized by the maximum grid                  the M2 dimension, we apply piecewise quadratic in-
+value at the mass scale of the smaller halo (Table 1).               terpolation in log10 M2 space; in all remaining six di-
+Separate interpolators are constructed for the predicted             mensions, we apply standard linear interpolation using
+shock-to-shock distance (ds ) and halo-to-halo distance
+(dh ).
+                                                                                                                            5
+
+SciPy’s RegularGridInterpolator4 . Specifically, for              2.6. Likelihood Sampling and Parameter Estimation
+each query point, we evaluate the six-dimensional lin-              To derive constraints on the dark matter self-
+ear interpolator at every M2 grid node and then fit a            interaction cross-section (σ/m), we employ a Bayesian
+piecewise quadratic through the resulting values as a            inference framework. We explore the multidimensional
+function of log10 M2 to obtain the final prediction. The         parameter space by sampling the posterior distribution,
+projection corrections derived in §2.3 are then applied:         which is proportional to the product of our likelihood
+d2D
+  s = cos
+           0.223
+                 α · d3D
+                      s  and d2D           3D
+                              h = cos α · dh .                   function and the prior distributions of our model pa-
+   To validate the interpolation scheme, we generate             rameters.
+20 sets of randomized merger parameters drawn from                  For the sampling process, we utilize the emcee Python
+within the grid bounds but offset from any grid node,            package (D. Foreman-Mackey et al. 2013), which imple-
+and run dedicated GIZMO simulations for each. Com-               ments an affine-invariant ensemble Markov Chain Monte
+paring the interpolated predictions to the directly simu-        Carlo (MCMC) sampler. The posterior probability dis-
+lated shock-to-shock and halo-to-halo distances, we find         tribution is obtained by sampling an 8-dimensional pa-
+agreement well within 2% in all cases. This confirms             rameter space θ = (β, M1 , M2 , fv , b, tsc , α, σ/m), where
+that the hybrid quadratic–linear interpolation captures          M1 and M2 are the masses of the two subclusters, fv
+the nonlinear dependence on M2 with sufficient accuracy          is the collision velocity factor, β is the gas profile in-
+for our Bayesian inference. Although this 2% accuracy            dex, b is the impact parameter, σ/m is the SICS, tsc
+is, in principle, a model-side systematic, it is subdomi-        is the time-since-collision, and α is the viewing angle.
+nant to the observational uncertainties on the halo-to-          For any given parameter set θ, we employ a function S
+halo distance (typically ∼ 10–30% at weak-lensing preci-         that maps these parameters to the predicted projected
+sion; Table 2), which dominate the per-system likelihood         shock-to-shock and halo-to-halo distances, dp = [dps , dph ].
+width. The propagated effect on the joint σ/m posterior          The function S is the interpolation scheme described in
+is therefore negligible.                                         §2.4.
+                                                                    The log-likelihood for a single cluster system is defined
+ 2.5. Sensitivity of Halo and Shock Distances to SICS            as:
+                                                                                                    X  do − dp 2
+   A critical finding from our simulations is the dis-                    ln(likelihood) = −0.5 ×                          (6)
+tinct sensitivity of halo and shock distances to the SICS                                                     σo
+(Figure 1). While the shock propagation speed re-
+mains nearly independent of the cross-section, the post-         where do = [dos , doh ]T represents the observed shock-to-
+collision orbital velocity of dark matter halos is sensi-        shock and halo-to-halo distances, and σ o = [σds , σdh ]T
+tive to the SICS. After pericenter passage, as the cross-        represents their corresponding measurement uncertain-
+section increases, the momentum-transfer drag slows the          ties.
+halo orbital velocity, causing dh to decrease while ds re-          We specify prior distributions that reflect both the
+mains virtually unchanged. This decoupling allows us to          physical constraints of cluster merger dynamics and
+use ds as a near-independent reference scale. By jointly         the observational uncertainties of the gold sample. We
+fitting the observed dh and ds against our simulation            adopt log-normal priors for the halo masses M1 and M2 ,
+predictions, we can isolate the SICS-dependent suppres-          centered on the weak-lensing estimates provided in Ta-
+sion of the halo separation.                                     ble 2. The use of log-normal priors is physically mo-
+   This approach was first presented in D. Park &                tivated by the positive-definite nature of mass and the
+M. J. Jee (2022). M. S. Fischer et al. (2023) subse-             characteristic uncertainty distributions of lensing mea-
+quently noted that combining shock-front positions with          surements.
+galaxy/BCG positions holds promise as a probe of dark               For the remaining nuisance parameters, we employ flat
+matter physics, but concluded that a more detailed theo-         priors over physically motivated ranges to ensure that
+retical study would be needed before it could be turned          our constraints on σ/m are not biased by overly restric-
+into a quantitative constraint. The present work ad-             tive assumptions:
+vances this idea into a rigorous quantitative constraint
+                                                                     • Gas Profile (β): A flat prior is set over the
+through a Bayesian framework calibrated against 576
+                                                                       range [0.57, 0.77], which spans the values typically
+simulations and applied to eleven gold cluster mergers.
+                                                                       obtained when fitting single β-models to the X-
+                                                                       ray surface brightness profiles of massive, relaxed
+ 4 https://docs.scipy.org/doc/scipy/reference/generated/scipy.         galaxy clusters (e.g., C. Jones & W. Forman 1984;
+  interpolate.RegularGridInterpolator.html                             J. J. Mohr et al. 1999).
+6
+
+    • Collision Velocity (fv ): The collision velocity
+      factor fv is assigned a flat prior over [0.7, 1.0].
+      Since fv = 1 corresponds to the free-fall speed
+      (the theoretical maximum for a two-body system
+      infalling from rest at infinity), values slightly be-
+      low unity are typical for cosmological infall. Cos-
+      mological simulations show that the pairwise infall
+      velocities of massive halos at first virial crossing
+      are distributed near fv ∼ 0.9 with a dispersion of
+      ∼0.2 (A. J. Benson 2005; A. R. Wetzel 2011), so
+      [0.7, 1.0] encompasses the bulk of the distribution
+      around the theoretical free-fall maximum.
+    • Viewing Angle (α): We assume a flat view-
+      ing angle prior [0◦ , 40◦ ]. Double radio relics are
+                                                              Figure 3. SICS recovery test with a single mock radio
+      subject to a strong projection bias: the limb-
+                                                              relic cluster. Solid curves represent posteriors while the
+      brightening of the quasi-spherical shock front dra-     vertical dashed lines indicate the medians. When we em-
+      matically increases the radio surface brightness        ploy tight priors centered on the true physical parameters of
+      when the merger axis lies near the plane of the         the merger, the resulting posterior distribution (blue) peaks
+      sky, making such systems the most readily identi-       sharply at the true σ/m = 1 value. Conversely, when the
+      fied double-relic population in flux-limited surveys    priors are relaxed to reflect a realistic observational scenario,
+      (R. J. van Weeren et al. 2019). Accordingly, we         the constraining power (red) is substantially diminished.
+      restrict α to < 40◦ , beyond which the probabil-
+      ity of identifying a system as a double relic drops     P (σ/m | µi ) for each merger µi and multiply them to
+      sharply.                                                obtain the joint posterior. This is justified by the in-
+                                                              dependence of all nuisance parameters across systems:
+    • Impact Parameter (b): A flat prior is adopted
+                                                              only σ/m is shared. A joint fit would otherwise require
+      for b over [0, 0.2 bmax ], where bmax is the maximum
+                                                              sampling an N = 7 × 11 + 1 = 78 dimensional param-
+      impact parameter in our simulation grid at the rel-
+                                                              eter space, which is computationally prohibitive. By
+      evant mass scale (Table 1). This restricts the anal-
+                                                              marginalizing over the system-specific parameters first,
+      ysis to nearly head-on collisions, consistent with
+                                                              we effectively harness the collective statistical power of
+      the finding from hydrodynamical simulations that
+                                                              the gold sample:
+      the symmetric shocks necessary to produce dou-
+      ble radio relics form preferentially for b ≲ 0.2 Rvir                                    11
+                                                                                               Y
+      (H. Kang et al. 2012; J.-H. Ha et al. 2018); we                     P (σ/m | {µi }) ∝          P (σ/m | µi ).        (7)
+      adopt a more conservative bound to ensure clean,                                         i=1
+
+      well-separated double-relic morphologies.
+    • Merger Phase (tsc ): We adopt a flat prior for tsc          2.7. Methodological Validation with Mock Data
+      of [0.4, 1.0] Gyr. This window targets the active         To demonstrate the reliability of our statistical frame-
+      phase of radio relic evolution. Hydrodynamical          work before applying it to observed clusters, we per-
+      simulations of binary mergers show that the ki-         formed two sets of validation tests using mock data gen-
+      netic energy flux dissipated by merger shocks rises     erated from our simulation grid. First, we assess how
+      sharply ∼ 0.4 Gyr after core passage and fades sig-     well the method recovers a known input cross-section for
+      nificantly beyond ∼ 1.0 Gyr as the shocks reach         a single mock merger under idealized and realistic prior
+      the low-density outskirts (J.-H. Ha et al. 2018; W.     assumptions (§2.7.1). Second, we demonstrate how the
+      Lee et al. 2026).                                       constraining power improves as the number of indepen-
+                                                              dent mergers increases (§2.7.2).
+    • Self-interaction Cross-section (σ/m): A flat
+      prior is adopted over [0, 2] cm2 g−1 , spanning from                  2.7.1. Single Merger Case Study
+      the collisionless case to well above the upper range
+                                                                We first evaluate the sensitivity of our method using a
+      probed by our simulation grid.
+                                                              single mock merger event. The physical parameters for
+  Rather than computing a global likelihood for the           this test are configured as follows: β = 0.67, M1 = 9.9 ×
+entire sample, we estimate the individual posterior           1014 M⊙ , M2 = 6.5 × 1014 M⊙ , fv = 0.8, b = 200 kpc,
+                                                                                                                                7
+
+                          Table 2. Observed Parameters of the Eleven Gold Radio Relic Clusters
+
+                          Name               z     dshock [Mpc]    dhalo [Mpc]   M1 [1014 M⊙ ]      M2 [1014 M⊙ ]
+                 Abell 3376a               0.046    2.08 ± 0.02    1.10 ± 0.11     3.00 ± 1.50       0.90 ± 0.65
+                 ZWCL 0008.8+5215b         0.104    1.61 ± 0.02    1.02 ± 0.10     2.90 ± 0.80       2.70 ± 0.80
+                 Abell 2345b               0.176    2.28 ± 0.02    1.00 ± 0.10     4.70 ± 1.20       3.20 ± 1.00
+                 CIZA J2242.8+5301c        0.192    2.56 ± 0.03    1.07 ± 0.29     11.0 ± 3.45       9.80 ± 3.15
+                 Abell 1240d               0.195    2.23 ± 0.02    1.10 ± 0.16     2.61 ± 0.56       1.09 ± 0.39
+                 PSZ2 G181.06+48.47e       0.234    2.70 ± 0.02    0.50 ± 0.12     2.71 ± 0.50       0.88 ± 0.33
+                 RXC J1314.4-2515b         0.247    1.50 ± 0.01    0.54 ± 0.09     4.20 ± 1.30       2.30 ± 1.00
+                 ZWCL 1856.8+6616b         0.304    1.92 ± 0.02    0.66 ± 0.09     1.60 ± 0.80       1.50 ± 0.70
+                 MACS J1752.0+4440b        0.366    2.10 ± 0.02    1.19 ± 0.07     5.60 ± 1.80       5.60 ± 1.70
+                 ZWCL1447.2+2619f          0.372    2.01 ± 0.02    0.36 ± 0.15     2.70 ± 0.80       1.00 ± 0.50
+                 ACT-CL J0102-4915g        0.870    1.82 ± 0.02    0.77 ± 0.13     9.90 ± 2.15       6.50 ± 1.65
+                Note—Observational properties of the eleven gold clusters. Asymmetric mass errors from the
+                 literature were symmetrized using arithmetic averaging to maintain central values. Refer-
+                 ences: a R. Monteiro-Oliveira et al. (2017); b K. Finner et al. (2025); c M. J. Jee et al. (2015);
+                 d
+                   H. Cho et al. (2022); e E. Ahn et al. (2025); f W. Lee et al. (2022); g J. Kim et al. (2021).
+
+
+
+
+tsc = 0.75 Gyr, and α = 30◦ , assuming a true cross-                       5
+                                                                            . As shown in Figure 3, the constraining power
+section of σ/m = 1 cm2 g−1 . The mass values for this                      for a single merger is substantially diminished (red
+case study are adopted from the “El Gordo” cluster (J.                     curve). Marginalization over these degenerate pa-
+Kim et al. 2021).                                                          rameters significantly broadens the posterior dis-
+  We investigate the impact of prior distributions on                      tribution, illustrating why single-cluster studies
+the recovered SIDM cross-section by considering two dis-                   are generally insufficient for providing precise dark
+tinct scenarios for the seven nuisance parameters (β, M1 ,                 matter constraints.
+M2 , fv , b, tsc , and α):
+                                                                         2.7.2. Improving Constraining Power with Multiple
+                                                                                                      Mergers
+
+   1. Idealized Scenario (Tight Priors): We adopt                      To overcome the weak constraining power of individ-
+      unrealistically narrow flat priors with widths of 1%           ual mergers when realistic priors are applied, we demon-
+      of the true value on all nuisance parameters, sim-             strate the efficacy of our stacking methodology by in-
+      ulating near-perfect knowledge of the merger’s ge-             creasing the sample size. Using the same realistic priors
+      ometry and physical properties except for σ/m.                 as in §2.7.1, we generated mock observational data sets
+      Under these idealized conditions, the resulting                for two true cross-sections of σ/m = 0.5 and 1 cm2 g−1
+      posterior distribution for σ/m is sharply peaked               and analyzed the resulting joint posteriors for samples
+      at the true input value (blue curve in Figure 3).              of 10, 20, 50, 100, and 200 mergers.
+      This confirms that the ratio of halo-to-shock dis-               As illustrated in Figure 4, the posterior distribution
+      tances serves as a high-fidelity indicator of dark             P (σ/m) becomes increasingly sharper as the sample size
+      matter self-interaction when the merger phase and              grows. In both cases, the posteriors peak near the re-
+      viewing angle are precisely constrained.                       spective true values and the true σ/m is recovered within
+                                                                     the 68% credible interval.
+                                                                       While a single cluster collision provides only marginal
+                                                                     information, the accumulation of independent data
+   2. Realistic Scenario (Broad Priors): We impose
+                                                                     points effectively averages out the merger-to-merger
+      broader priors that reflect typical observational
+                                                                     variations in nuisance parameters such as merger phase
+      uncertainties and merger ambiguities. Specifically,
+                                                                     and viewing angle. This validation confirms that our
+      we adopt the prior ranges described in §2.6. For
+      the masses, we use log-normal priors with medi-
+      ans and linear-scale dispersions of M1 = (9.90 ±                5 We adopt the weak-lensing mass measurements and uncertain-
+
+      2.15)×1014 M⊙ and M2 = (6.50±1.65)×1014 M⊙                        ties from J. Kim et al. (2021).
+8
+
+
+
+
+Figure 4. SICS recovery test with multiple mergers. The true cross-sections are σ/m = 0.5 cm2 g−1 and 1 cm2 g−1 in the left
+and right panels, respectively, as indicated by the green vertical lines. The faint thin lines indicate the individual posteriors
+                                    th
+p(σ/m | µi ) derived from eachQN i merger data µi . The blue solid line represents the (unsmoothed) combined posterior
+distribution p(σ/m | {µ}) ∝ i=1 p(σ/m | µi ). The orange line represents the smoothed Kernel Density Estimate (KDE) of this
+combined posterior. The red vertical solid (dashed) line shows the median√ (±1σ limit). As the number of mergers N increases,
+the joint posterior distribution narrows with its error shrinking as ∼ 1/ N .
+
+method can achieve high precision by combining multi-                  1. Bimodality: The system displays a clear bimodal
+ple systems, and motivates our strategy of applying the                   morphology in both galaxy density and weak lens-
+joint analysis to the eleven gold mergers in §3.                          ing (WL) mass maps.
+                                                                       2. Mass Precision: High-fidelity WL mass esti-
+                       3. RESULTS                                         mates are available for both subclusters.
+  Having validated the statistical framework with mock                 3. Radio Morphology: The system hosts double
+data (§2.7), we now apply the method to our gold sample                   radio relics.
+of observed double radio relic clusters. We describe the
+sample selection criteria in §3.1 and present the resulting            4. Geometry: The relics are symmetric, and the
+SICS constraint in §3.2.                                                  relic–relic vector is well-aligned with the merger
+                                                                          axis inferred from the mass distribution (the mass–
+                                                                          mass vector) (W. Lee et al. 2026).
+                  3.1. Sample Selection
+                                                                    Table 2 summarizes the observational properties of the
+  With the increased sensitivity of new-generation ra-              11 gold clusters, which serve as constraints for our
+dio surveys, the census of known radio relic clusters has           MCMC inference.
+grown to approximately 100–120 (e.g., R. J. van Weeren
+et al. 2019; K. Knowles et al. 2022). For this study, we                            3.2. Constraints on σ/m
+defined a gold sample of 11 targets selected based on the            Applying this methodology to the eleven gold clusters,
+following criteria:                                                 we obtain individual marginalized posteriors and com-
+                                                                                                                          9
+
+                                                                 their double radio relics align with the halo-to-halo vec-
+                                                                 tors.
+                                                                    Nevertheless, it is important to test if we can achieve
+                                                                 similar levels of constraining power when the aforemen-
+                                                                 tioned physical complexities are included. Here we uti-
+                                                                 lize the cosmological zoom-in simulation TNG-Cluster
+                                                                 (D. Nelson et al. 2024; W. Lee et al. 2024, 2026) and
+                                                                 demonstrate that our approach is still valid in the cos-
+                                                                 mological context. TNG-Cluster is an extension to
+                                                                 the IllustrisTNG suite of cosmological magnetohydro-
+                                                                 dynamical simulations. The project re-simulates 352
+                                                                 cluster regions from a parent (1 Gpc)3 simulation vol-
+                                                                 ume. Since dark matter self-interaction is not included
+                                                                 in the TNG-Cluster simulation, the true cross-section to
+                                                                 be recovered is σ/m = 0 cm2 g−1 .
+                                                                    Analogous to our observational gold sample selection,
+Figure 5. Constraints on the SICS from real radio relic clus-    we identify 15 analogs within the TNG-Cluster simula-
+ters. The faint thin lines indicate the individual posteriors
+                                                                 tion that experience major binary mergers with small
+p(σ/m | µi ) derived from each merger µi . The blue solid line
+is the combined posterior and the orange line its smoothed       impact parameters and clear symmetric double radio
+KDE. The red vertical dashed and dot-dashed lines mark the       relics, as shown in Figure 6. The selected systems have
+68% and 95% upper limits, respectively.                          mass ratios fM < 3 and smaller halo masses in the
+                                                                 range 1014 M⊙ ≲ M2 ≲ 5 × 1014 M⊙ . Using the same
+bine them into a joint posterior. Each individual poste-         prior ranges and methodology applied to our gold ob-
+rior encodes the full degeneracy between σ/m and the             servational sample, we derive the SICS constraint (Fig-
+system-specific nuisance parameters, which are then in-          ure 7). The 68% (95%) upper limit is ≤ 0.32 cm2 g−1
+tegrated out, leaving only the SICS dependence to prop-          (≤ 0.75 cm2 g−1 ). Given that the exact value varies with
+agate into the joint constraint.                                 the sample selection, as expected from the small sample
+   As shown in Figure 5, the combined analysis yields            of 15 systems, this result is consistent within the 68%
+a 68% (95%) upper limit of σ/m < 0.22 cm2 g−1 (<                 credible interval of the observational result.
+0.63 cm2 g−1 ) on the dark matter self-interaction cross-
+                                                                        4.2. Bias and Prior Sensitivity Analysis
+section. This is the most stringent constraint on the
+SICS derived from cluster-scale collisions to date. The             While the total uncertainty budget in the current
+constraining power arises from the combination of eleven         study is dominated by statistical variance from the lim-
+independent merger systems, each contributing an in-             ited gold sample size, the sensitivity of our results to
+dividual posterior that is marginalized over seven nui-          prior assumptions must be assessed. As future surveys
+sance parameters: halo masses, gas profile slope, col-           provide much larger samples, prior-driven systematics
+lision velocity, impact parameter, merger phase, and             will become the limiting factor.
+viewing angle. The joint posterior is well-peaked and               We investigate the systematic dependence of our σ/m
+smoothly declining, with no significant support at large         measurements by examining the following four expanded
+cross-sections, indicating a robust preference for low or        prior assumptions:
+vanishing self-interaction at cluster scales. Systematic            • Viewing angle prior: We increase the current
+effects and the sensitivity of this result to prior choices           prior upper bound from α ≤ 40◦ to α ≤ 70◦ . This
+are examined in §4.                                                   accounts for the possibility that some of our eleven
+                                                                      gold mergers may be occurring at more extreme
+                     4. DISCUSSION
+                                                                      inclinations relative to the line of sight (e.g., PSZ2
+           4.1. Validation with TNG-Cluster                           G181.06+48.47; K. Rajpurohit et al. 2025).
+  For our constraint on σ/m with observations, we rely
+                                                                    • Impact parameter prior: We increase the max-
+on idealized simulations, which do not capture physical
+                                                                      imum allowed impact parameter (b) by 50%, allow-
+complexities such as surrounding large-scale structures,
+                                                                      ing for more off-axis collision geometries.
+halo substructures, and mass accretion. These issues
+are somewhat mitigated in the current study because                 • Collision velocity prior: We expand the nor-
+we carefully select bimodal merger cases and ensure that              malized infall velocity (fv = vrel /vf f ) prior range
+10
+
+
+
+
+Figure 6. Radio relic galaxy cluster analogs from the TNG-Cluster simulation used for validation. Analogous to our ob-
+servational gold sample selection, we identify 15 analogs within the TNG-Cluster simulation that experience major binary
+mergers with small impact parameters and clear symmetric double radio relics. These systems are selected as massive halo pairs
+(Mhalo ≥ 1014 M⊙ ) undergoing active, first-passage collisions. The background images display the projected dark matter density
+distribution, with green circles indicating the halo centers. Red contours represent projected radio emissions, which trace the
+locations of merger shocks. Red rectangles denote the identified shock front positions.
+
+
+
+
+                                                                   Figure 8. Sensitivity of the σ/m upper limit to prior as-
+                                                                   sumptions. Each red point marks the joint 68% upper limit
+                                                                   obtained when one prior range is expanded as described in
+                                                                   the text, and the black point shows the fiducial 68% upper
+Figure 7. Same as Figure 5, but based on synthetic data            limit. The shaded band indicates the 68% bootstrap range of
+from the 15 TNG-Cluster analogs shown in Figure 6. The             the fiducial upper limit, derived from 1,000 resamples of the
+TNG-Cluster simulation models dark matter with no self-in-         eleven-cluster sample. This band characterizes the sample–
+teraction (σ/m = 0 cm2 g−1 ). We constrain the SICS upper          to-sample variability of the limit itself and is not a credible
+limit to a level comparable to the observational result.           interval on σ/m. All four prior variations fall within this
+                                                                   band.
+
+      from [0.7, 1.0] to [0.4, 1.2]. This covers a broader
+      range of the pairwise velocity distribution, in-
+                                                                                                                       11
+
+      cluding the lower-velocity population identified in     largest observed halo-to-halo separation with the small-
+      large-scale simulations.                                est fractional uncertainty (1.19 ± 0.07 Mpc; Table 2),
+                                                              and a large halo separation at a given shock separa-
+   • Merger phase prior: We enlarge the TSC inter-            tion most strongly disfavors the SIDM-induced drag.
+     val from [0.4, 1.0] Gyr to [0.1, 1.6] Gyr to cover a     A jackknife test (Table 3) confirms that the joint re-
+     wider range of dynamical stages.                         sult does not hinge on this single system: removing
+                                                              MACS J1752.0+4440 relaxes the joint 68% limit from
+   Figure 8 illustrates the resulting variations in the σ/m
+                                                              0.22 to 0.38 cm2 g−1 (0.63 to 0.95 at 95%), the largest
+posterior. To judge whether these prior-induced shifts
+                                                              change produced by excluding any single system, while
+are significant, we require a yardstick for how much the
+                                                              still remaining below the σ/m ≳ 1 cm2 g−1 regime in-
+upper limit itself fluctuates when the makeup of the gold
+                                                              voked to address small-scale structure problems. The
+sample changes. We therefore quantified this sample-
+                                                              jackknife is also two-sided: excluding the least constrain-
+to-sample variability by performing 1,000 bootstrap re-
+                                                              ing systems (e.g., ZWCL 1447.2+2619, whose individual
+samples of our eleven-cluster dataset. We stress that
+                                                              posterior mildly rises toward larger σ/m, perhaps owing
+the resulting band measures the robustness of the re-
+                                                              to its small observed halo separation) slightly tightens
+covered limit against changes in sample composition; it
+                                                              the joint limit, indicating that the ensemble contains
+is not a credible interval on σ/m, and the spread of the
+                                                              systems pulling in both directions rather than being uni-
+band should not be read as an uncertainty attached to
+                                                              formly stacked against large cross-sections.
+the reported upper limit. As indicated by the shaded
+                                                                 Figure 9 presents the full eight-dimensional posterior
+region and error bars in Figure 8, the distribution of
+                                                              for MACS J1752.0+4440, showing the marginalized dis-
+bootstrap limits is highly skewed. This skewness is at-
+                                                              tributions and mutual correlations of all sampled pa-
+tributed to the heterogeneous constraining power of in-
+                                                              rameters. Because the model contains eight free param-
+dividual systems, where some mergers contribute sub-
+                                                              eters while each system supplies only two scalar con-
+stantially more information than others. Notably, the
+                                                              straints (the projected shock-to-shock and halo-to-halo
+shifts produced by all four prior variations remain well
+                                                              distances), most marginalized posteriors are necessar-
+within this bootstrap range. We therefore conclude that
+                                                              ily prior-dominated and not very informative. The no-
+while prior dependence is observable, it is subdominant
+                                                              table exception is the merger phase: the shock-to-shock
+to the sample-to-sample variability that governs the cur-
+                                                              distance acts as a merger chronometer and pins down
+rent error budget.
+                                                              tsc = 0.44+0.03
+                                                                         −0.02 Gyr, a factor of ∼6 tighter than the prior.
+4.3. Per-System Contributions to the Joint Constraint         No single nuisance parameter exhibits a strong degener-
+                                                              acy with σ/m; instead, mild correlations, most notably
+   The heterogeneous constraining power noted above
+                                                              with the halo masses and the merger phase, collectively
+raises the question of whether the joint constraint in
+                                                              broaden the σ/m posterior. This illustrates why an in-
+Figure 5 is dominated by a small number of systems.
+                                                              dividual system, however well measured, cannot tightly
+To address this, we computed individual upper lim-
+                                                              constrain the SICS on its own, and why marginalization
+its from each system’s marginalized posterior (the faint
+                                                              over the full nuisance space, followed by the combination
+lines in Figure 5). The individual constraints are uni-
+                                                              of independent systems, is essential to our approach.
+formly weak: the per-system 68% (95%) upper limits
+range from 0.7 to 1.5 (1.6 to 1.9) cm2 g−1 (Table 3), with
+the 95% values only modestly below the prior boundary            4.4. Impact of the Mass–Concentration Relation
+of 2 cm2 g−1 . Even the most constraining single system         Our simulation grid assigns halo concentrations
+is thus a factor of ∼3.2 weaker than the joint 68% limit      through the mass–concentration (M –c) relation of A. R.
+of 0.22 cm2 g−1 (0.63 cm2 g−1 at 95%), demonstrating          Duffy et al. (2008), and one may ask whether departures
+that the result is a genuine ensemble property rather         from this relation, either through the intrinsic scatter in
+than the imprint
+            √       of any individual cluster, consistent     concentration or through changes in the functional form
+with the 1/ N scaling seen in our mock recovery tests         of the density profile, could mimic the SIDM-induced
+(Figure 4).                                                   suppression of the halo separation (Figure 1) and thus
+   The systems nevertheless contribute unequally. The         be degenerate with σ/m. Incorporating a full marginal-
+most informative is MACS J1752.0+4440, with an                ization over the M –c scatter into the simulation grid is
+individual 68% upper limit of 0.70 cm2 g−1 , fol-             computationally prohibitive: the current set of 576 runs
+lowed by Abell 3376 (0.79 cm2 g−1 ) and Abell 1240            requires approximately three months on our computing
+(0.95 cm2 g−1 ). We suspect that this ranking has             facility, and adding even two runs per merger to bracket
+a physical origin: MACS J1752.0+4440 combines the             the ±1σ concentration boundaries would roughly triple
+12
+
+                            Table 3. Per-System Time-Since-Collision and Jackknife σ/m Upper
+                            Limits
+
+                                     Name            tsc [Gyr]   Individual σ/m   Jackknife σ/m
+                                                                   68% (95%)        68% (95%)
+                             MACS J1752.0+4440       0.44+0.03
+                                                         −0.02     0.70 (1.64)      0.38 (0.95)
+                             Abell 3376              0.58+0.06
+                                                         −0.06     0.79 (1.70)      0.33 (0.92)
+                             Abell 1240              0.73+0.05
+                                                         −0.05     0.95 (1.75)      0.29 (0.82)
+                             ZWCL 0008.8+5215        0.45+0.03
+                                                         −0.03     1.03 (1.81)      0.29 (0.80)
+                             Abell 2345              0.58+0.04
+                                                         −0.04     1.07 (1.82)      0.27 (0.77)
+                             ZWCL 1856.8+6616        0.66+0.07
+                                                         −0.06     1.19 (1.86)      0.25 (0.68)
+                             PSZ2 G181.06+48.47      0.95+0.06
+                                                         −0.06     1.34 (1.90)      0.23 (0.63)
+                             CIZA J2242.8+5301       0.50+0.04
+                                                         −0.04     1.38 (1.90)      0.24 (0.64)
+                             ACT-CL J0102-4915       0.42+0.02
+                                                         −0.01     1.41 (1.90)      0.22 (0.62)
+                             RXC J1314.4-2515        0.45+0.04
+                                                         −0.03     1.47 (1.92)      0.22 (0.59)
+                             ZWCL1447.2+2619         0.73+0.07
+                                                         −0.06     1.51 (1.93)      0.21 (0.59)
+                             Joint (all 11)             ···        0.22 (0.63)          ···
+                            Note—Upper limits on σ/m are in units of cm2 g−1 . The tsc col-
+                             umn gives the time since collision (median with 1σ uncertainties, in
+                             Gyr) pinned down by the shock-to-shock distance acting as a merger
+                             chronometer. The “Individual” column gives the 68% (95%) upper
+                             limit derived from each system’s marginalized posterior; the “Jack-
+                             knife” column gives the joint 68% (95%) limit obtained when that
+                             system is removed from the gold sample. Systems are ordered from
+                             most to least constraining. The bottom row lists the joint limit from
+                             all eleven systems.
+
+
+
+
+the total. We therefore performed dedicated perturba-              demonstrates that our method recovers consistent pos-
+tion tests to directly estimate the associated systematic.         teriors when applied to clusters drawn from a cosmo-
+  Since the scatter in the M –c relation is approximately          logical zoom-in simulation, in which the full diversity of
+log-normal, we adopt δ log10 c = 0.11 and generate ran-            halo profiles and environments is naturally present.
+domized initial conditions for the eleven gold systems in
+Table 2, assuming the A. R. Duffy et al. (2008) M –c                4.5. Future Outlook: Synergies with Rubin, Roman,
+relation. When the concentrations of both halos are in-                                Euclid, and SKA
+creased by 1σ, the shock propagation speed increases by              The methodology established in this study provides
+∼1%, while the maximum halo-to-halo separation de-                 a scalable framework for the next decade of cosmolog-
+creases by 2–4%, as expected from the enhanced dy-                 ical surveys. As the census of known radio relic clus-
+namical friction experienced by more concentrated ha-              ters is expected to grow from ∼120 to a few thousand
+los. These offsets are within the observational measure-           with the full operation of the Square Kilometre Array
+ment uncertainties (Table 2) and are thus subdominant              (SKA) (W. Lee et al. 2026), the statistical
+                                                                                                           √ uncertainty
+in the σ/m constraint: the resulting shift of the 68%              on σ/m is projected to decrease as 1/ N (Figure 4).
+(95%) upper limit is ∼ 0.05 cm2 g−1 (∼ 0.03 cm2 g−1 ).             However, this transition to a population-wide statistical
+  More generally, any departure of our idealized setup             analysis will require high-precision imaging and multi-
+from reality, including deviations in the halo profile             wavelength capabilities from upcoming flagship missions
+shape, triaxiality, substructure, mass accretion, and sur-         to control systematic floors.
+rounding large-scale structure, can in principle modify              Future extensions of this work will leverage the fol-
+the trend shown in Figure 1. While expanding the sim-              lowing advancements:
+ulation grid to marginalize over all of these effects is be-
+yond the scope of the current study, the TNG-Cluster                  • High-Resolution Weak Lensing with Roman
+validation (§4.1) plays a critical role in this regard: it              and Euclid: The sub-arcsecond resolution of the
+                                                                        Nancy Grace Roman Space Telescope and Eu-
+                                                                                                                           13
+
+
+
+
+Figure 9. Posterior distribution of all eight model parameters for MACS J1752.0+4440, the most constraining system in our
+gold sample. The contours indicate the 1σ and 2σ credible regions, and the dashed lines in the marginal histograms mark the
+16th, 50th, and 84th percentiles. No single nuisance parameter is strongly degenerate with σ/m; rather, mild correlations with
+several parameters collectively broaden the σ/m posterior, illustrating why marginalization over the full parameter space and
+the combination of independent systems are essential for a robust SICS constraint.
+
+      clid will provide a stable, diffraction-limited Point             identified in TNG-Cluster. These specialized cos-
+      Spread Function (PSF). This will drastically re-                  mological zoom-in simulations will track the evo-
+      duce measurement uncertainties for halo-to-halo                   lution of multi-wavelength observables in merg-
+      distances (dh ) by resolving smaller, high-redshift               ing clusters with dark matter self-interaction, pro-
+      background galaxies and controlling shear calibra-                viding a direct testbed for our proposed method.
+      tion biases.                                                      As a preliminary validation, a low-mass cluster
+                                                                        merger analog confirms that the shock separation
+   • Advanced Cosmological Modeling with                                evolves independently of the SICS (W. Lee et al.,
+     TNGC-SIDM: While the current study relies                          in prep), supporting the robustness of our indica-
+     on idealized simulations, future work will utilize                 tor even under real-life complexities such as large-
+     the TNG-Cluster-SIDM (TNGC-SIDM) simula-                           scale structures, mass accretion, and halo sub-
+     tions (W. Lee et al., in prep), which will implement               structures.
+     SIDM models within the merging cluster systems
+14
+
+     • Line-of-Sight Kinematics: Utilizing next-                                  5. CONCLUSION
+       generation spectroscopic surveys will allow for the        In this paper, we have presented a new and robust con-
+       integration of line-of-sight velocity information for   straint on the dark matter self-interaction cross-section
+       cluster member galaxies. This added dimension of        (σ/m) using a sample of eleven “gold” cluster collisions
+       phase-space data can break the current degeneracy       hosting double radio relics. By utilizing the shock-to-
+       between the viewing angle (α) and the collision ve-     shock distance as a dynamical anchor, we have over-
+       locity (fv ), both of which are currently treated as    come the systematic uncertainties and geometric am-
+       marginalized nuisance parameters in our MCMC            biguities that have historically hindered measurements
+       framework. Beyond optical spectroscopy, the kine-       based on mass-galaxy offsets. Our joint-likelihood anal-
+       matic Sunyaev–Zel’dovich (kSZ) effect provides          ysis, marginalized over mass, viewing angle, collision ve-
+       an independent line-of-sight velocity probe of the      locity, merger phase, and impact parameter, yields an
+       bulk gas motion in merging clusters. Although no        upper limit of σ/m < 0.22 (0.63) cm2 g−1 at the 68%
+       double-relic system has yet been mapped this way,       (95%) confidence level. This represents the most strin-
+       pilot studies such as the ICM-SHOX program have         gent constraint obtained to date from cluster-scale col-
+       already demonstrated kSZ-based gas–dark mat-            lisions.
+       ter velocity decoupling in a cluster merger (E. M.         These results place our constraint in mild tension with
+       Silich et al. 2024), and forthcoming wide-field sub-    existing SIDM models that require σ/m ≳ 1 cm2 g−1
+       millimetre facilities such as AtLAST are expected       to resolve small-scale discrepancies in dwarf and spiral
+       to deliver routine cluster kSZ measurements.            galaxies (J. Zavala et al. 2013; O. D. Elbert et al. 2015;
+                                                               M. Kaplinghat et al. 2016). This discrepancy suggests
+     • Independent Viewing-Angle Constraints                   that if dark matter self-interaction is indeed the solution
+       from Radio Polarization: The polarization               to these puzzles, its cross-section must be significantly
+       fraction and orientation of double radio relics en-     suppressed at the high-velocity scales typical of clus-
+       code the projected geometry of the shock fronts         ter mergers, a behavior naturally predicted by velocity-
+       and can independently constrain the merger view-        dependent SIDM theories (S. Tulin et al. 2013; L. Ack-
+       ing angle α. Combining polarimetric data from           erman et al. 2009; K. K. Boddy et al. 2014). While the
+       upcoming SKA-era surveys with the kinematic             current sample size is insufficient to explicitly map this
+       framework presented here will further reduce the        velocity dependence, our results provide a robust “ef-
+       projection-related systematic floor.                    fective” upper limit within the rare-scattering (contact-
+                                                               interaction) regime. From our mock recovery tests (Fig-
+     • Enhanced Radio Selection via SKA: The in-               ure 4), a sample of ∼ 100 double radio relic systems
+       creased sensitivity of the SKA will allow for the       would tighten this limit to the ∼ 0.1 cm2 g−1 level, at
+       detection of more symmetric, gold-standard dou-         which velocity-dependent models become meaningfully
+       ble radio relics. By aligning these radio-traced        distinguishable. The applicability of this framework to
+       shock positions with high-precision mass maps           more general self-interaction models, including the long-
+       from Roman and Euclid, we can further refine the        range frequent-interactions, will be explored in future
+       use of the relic-relic distance as a robust merger      work.
+       chronometer for dark matter physics. Moreover,             The robustness of our methodology is supported by
+       SKA’s sensitivity will preferentially expand the        extensive validation against both idealized and cosmo-
+       census toward fainter, late-phase relics, where the     logical (TNG-Cluster) simulations. These tests confirm
+       cumulative effect of self-interaction on halo decel-    that stacking independent merger systems effectively av-
+       eration is largest and the SIDM/CDM contrast in         erages out system-specific nuisance parameters, such as
+       the dh /ds ratio is most pronounced. This phase-        merger phase and viewing angle, allowing for a precise
+       space extension will yield not only more systems        recovery of the true cross-section despite the inherent
+       but also higher per-system constraining power.          ambiguities of individual clusters.
+                                                                  As the census of radio relic clusters grows with next-
+By combining the statistical power of the Rubin Ob-            generation surveys like the SKA, this framework will
+servatory and SKA with the high-resolution imaging of          enable increasingly precise probes of dark-sector physics.
+Roman and Euclid, supported by the cosmological real-          By combining the statistical power of upcoming radio
+ism of TNGC-SIDM, future studies will be able to probe         and optical surveys, we will soon be able to directly map
+the velocity-dependence of the dark matter cross-section       the velocity dependence of dark matter self-interaction
+with unprecedented precision.                                  in regimes inaccessible to terrestrial laboratories.
+                                                                                                                          15
+
+                ACKNOWLEDGMENTS                                for the current research from the National Research
+We thank the Merging Cluster Collaboration for                 Foundation (NRF) of Korea under the programs
+their useful comments. MJJ acknowledges support                2022R1A2C1003130 and RS-2023-00219959.
+
+
+                                                       REFERENCES
+Ackerman, L., Buckley, M. R., Carroll, S. M., &                Kang, H., Ryu, D., & Jones, T. W. 2012, ApJ, 756, 97,
+  Kamionkowski, M. 2009, Phys. Rev. D, 79, 023519,                doi: 10.1088/0004-637X/756/1/97
+  doi: 10.1103/PhysRevD.79.023519                              Kaplinghat, M., Tulin, S., & Yu, H. 2016, Phys. Rev. Lett.,
+Ahn, E., et al. 2025, Astrophys. J., 984, 26,                     116, 041302, doi: 10.1103/PhysRevLett.116.041302
+  doi: 10.3847/1538-4357/ad0f1e                                Kim, J., et al. 2021, Astrophys. J., 923, 101,
+Benson, A. J. 2005, MNRAS, 358, 551,                              doi: 10.3847/1538-4357/ac294d
+  doi: 10.1111/j.1365-2966.2005.08788.x                        Kim, S. Y., Peter, A. H. G., & Wittman, D. 2017, Mon.
+Boddy, K. K., Feng, J. L., Kaplinghat, M., & Tait,                Not. R. Astron. Soc., 469, 1414,
+  T. M. P. 2014, Phys. Rev. D, 89, 115017,                        doi: 10.1093/mnras/stx896
+  doi: 10.1103/PhysRevD.89.115017                              Knowles, K., Cotton, W. D., Rudnick, L., et al. 2022,
+Cho, H., et al. 2022, Astrophys. J., 925, 68,                     Astronomy & Astrophysics, 657, A56,
+  doi: 10.3847/1538-4357/ac3a00                                   doi: 10.1051/0004-6361/202141488
+Duffy, A. R., Schaye, J., Kay, S. T., & Dalla Vecchia, C.      Lee, W., Pillepich, A., Nelson, D., et al. 2026, ApJ, 998,
+  2008, MNRAS, 390, L64,                                          201, doi: 10.3847/1538-4357/ae3245
+  doi: 10.1111/j.1745-3933.2008.00537.x                        Lee, W., Pillepich, A., ZuHone, J., et al. 2024, A&A, 686,
+Elbert, O. D., et al. 2015, Mon. Not. R. Astron. Soc., 453,       A55, doi: 10.1051/0004-6361/202348194
+  29, doi: 10.1093/mnras/stv1470                               Lee, W., et al. 2022, Astrophys. J., 924, 18,
+                                                                  doi: 10.3847/1538-4357/ac35e4
+Ensslin, T. A., Biermann, P. L., Klein, U., & Kohle, S.
+                                                               Markevitch, M., et al. 2004, Astrophys. J., 606, 819
+  1998, A&A, 332, 395
+                                                               Mohr, J. J., Mathiesen, B., & Evrard, A. E. 1999, ApJ,
+Feretti, L., Giovannini, G., Govoni, F., & Murgia, M. 2012,
+                                                                  517, 627, doi: 10.1086/307197
+  The Astronomy and Astrophysics Review, 20, 54,
+                                                               Monteiro-Oliveira, R., et al. 2017, Mon. Not. R. Astron.
+  doi: 10.1007/s00159-012-0054-z
+                                                                  Soc., 468, 4566, doi: 10.1093/mnras/stx791
+Finner, K., Jee, M. J., Cho, H., et al. 2025, ApJS, 277, 28,
+                                                               Navarro, J. F., Frenk, C. S., & White, S. D. M. 1997,
+  doi: 10.3847/1538-4365/adb0b6
+                                                                  Astrophys. J., 490, 493, doi: 10.1086/304888
+Fischer, M. S., Durke, N.-H., Hollingshausen, K., et al.
+                                                               Nelson, D., Pillepich, A., Ayromlou, M., et al. 2024, A&A,
+  2023, MNRAS, 523, 5915, doi: 10.1093/mnras/stad1786
+                                                                  686, A157, doi: 10.1051/0004-6361/202348608
+Foreman-Mackey, D., Hogg, D. W., Lang, D., & Goodman,
+                                                               Park, D., & Jee, M. J. 2022, BAAS, 54, 139.17
+  J. 2013, PASP, 125, 306, doi: 10.1086/670067
+                                                               Power, C., Navarro, J. F., Jenkins, A., et al. 2003, Mon.
+Golovich, N., Dawson, W. A., Wittman, D., et al. 2019,
+                                                                  Not. R. Astron. Soc., 338, 14,
+  ApJS, 240, 39, doi: 10.3847/1538-4365/aaf88b
+                                                                  doi: 10.1046/j.1365-8711.2003.05925.x
+Ha, J.-H., Ryu, D., & Kang, H. 2018, ApJ, 857, 26,             Rajpurohit, K., Stroe, A., O’Sullivan, E., et al. 2025,
+  doi: 10.3847/1538-4357/aab3e6                                   Astrophys. J., 984, 25, doi: 10.3847/1538-4357/adbbb9
+Harvey, D., Massey, R., Kitching, T., Taylor, A., & Tittley,   Rocha, M., Peter, A. H. G., Bullock, J. S., et al. 2013,
+  E. 2015, Science, 347, 1462                                     MNRAS, 430, 81, doi: 10.1093/mnras/sts514
+Hopkins, P. F. 2015, Mon. Not. R. Astron. Soc., 450, 53,       Sarazin, C. L. 2002, in Astrophysics and Space Science
+  doi: 10.1093/mnras/stv195                                       Library, Vol. 272, Merging Processes in Clusters of
+Jee, M. J., et al. 2015, Astrophys. J., 802, 46,                  Galaxies, ed. L. Feretti, I. M. Gioia, & G. Giovannini
+  doi: 10.1088/0004-637X/802/1/46                                 (Dordrecht: Kluwer Academic Publishers), 1–38,
+Jones, C., & Forman, W. 1984, ApJ, 276, 38,                       doi: 10.1007/0-306-48096-4 1
+  doi: 10.1086/161591                                          Silich, E. M., Bellomi, E., Sayers, J., et al. 2024, ApJ, 968,
+Kahlhoefer, F., Schmidt-Hoberg, K., Frandsen, M., &               74, doi: 10.3847/1538-4357/ad3fb5
+  Sarkar, S. 2014, Mon. Not. R. Astron. Soc., 437, 2865,       Spergel, D. N., & Steinhardt, P. J. 2000, Phys. Rev. Lett.,
+  doi: 10.1093/mnras/stt2097                                      84, 3760
+16
+
+Tulin, S., & Yu, H. 2018, Phys. Rep., 730, 1               Wetzel, A. R. 2011, MNRAS, 412, 49,
+Tulin, S., Yu, H.-B., & Zurek, K. M. 2013, Phys. Rev. D,     doi: 10.1111/j.1365-2966.2010.17877.x
+  87, 115007, doi: 10.1103/PhysRevD.87.115007
+                                                           Wittman, D., Golovich, N., & Dawson, W. A. 2018,
+van Weeren, R. J., de Gasperin, F., Akamatsu, H., et al.
+                                                             Astrophys. J., 869, 104
+  2019, Space Science Reviews, 215, 16,
+  doi: 10.1007/s11214-019-0584-z                           Zavala, J., Vogelsberger, M., & Walker, M. G. 2013, Mon.
+van Weeren, R. J., Röttgering, H. J. A., Intema, H. T.,     Not. R. Astron. Soc. Lett., 431, L20,
+  et al. 2012, A&A, 546, A124,                               doi: 10.1093/mnrasl/sls053
+  doi: 10.1051/0004-6361/201219000
+

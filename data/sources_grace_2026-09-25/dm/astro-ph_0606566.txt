@@ -1,0 +1,258 @@
+                                                                  Galilean Equivalence for Galactic Dark Matter
+
+                                                                               Michael Kesden1 and Marc Kamionkowski2
+                                                                           1
+                                                                             Canadian Institute for Theoretical Astrophysics,
+                                                                        University of Toronto, Toronto, ON M5S 3H8, Canada
+                                                             2
+                                                               California Institute of Technology, Mail Code 130-33, Pasadena, CA 91125
+                                                                                        (Dated: November 8, 2021)
+                                                      Satellite galaxies are tidally disrupted as they orbit the Milky Way. If dark matter (DM) experi-
+                                                   ences a stronger self-attraction than baryons, stars will preferentially gain rather than lose energy
+                                                   during tidal disruption leading to an enhancement in the trailing compared to the leading tidal
+                                                   stream. The Sgr dwarf galaxy is seen to have roughly equal streams, challenging models in which
+                                                   DM and baryons accelerate differently by more than 10%. Future observations and a better under-
+                                                   standing of DM distribution should allow detection of equivalence violation at the percent level.
+
+
+
+
+arXiv:astro-ph/0606566v2 2 Oct 2006
+                                                   PACS numbers: 98.65.Fz, 95.35.+d, 98.56.Wm, 98.10.+z
+
+
+                                         Galileo showed at the Leaning Tower that objects of              Several cosmological consequences of such a DM force
+                                      different masses and materials fall the same way in a grav-      have already been explored. First of all, to clear dwarf
+                                      itational field. This equivalence principle, later a corner-     galaxies from voids, values β & 1 and m−1 φ & 1 Mpc are
+                                      stone of Einstein’s general relativity, has been tested re-      required [17]. An attractive force for r ≪ m−1  φ would
+                                      peatedly through a variety of experiments since Galileo’s        enhance structure formation on these scales leading to a
+                                      time and since the time of Einstein (see, e.g., Ref. [1]).       corresponding increase in the density-perturbation power
+                                      These tests have confirmed that the materials found on           spectrum [18], an effect, though, that can be mimicked by
+                                      Earth and in the Solar System all satisfy the equivalence        a blue tilt in the power spectrum. An EP-violating cou-
+                                      principle to a remarkable degree. But what about the             pling between DM and quintessence could also induce a
+                                      dark matter that fills galactic halos and dominates the          scale-independent bias between baryons and DM, though
+                                      mass density of the Universe? Is the dark matter in the          this effect is model dependent [14]. Refs. [15, 18] had
+                                      Milky Way’s halo accelerated the same as baryons in a            noted that a DM force would strip a baryonic core from
+                                      gravitational field?                                             its dark halo, and applied this to typical galaxies in the
+                                         The simplest and most favored candidates for dark             Coma cluster to set a limit β < 2.2. Clusters might also
+                                      matter (DM), like weakly interacting massive particles           test an attractive DM force, as baryons would be pref-
+                                      [2, 3, 4] and axions [5, 6, 7], do satisfy the equivalence       erentially lost compared to the more tightly bound DM
+                                      principle (EP). However, there are a number of reasons to        during the mergers leading to their formation [19]. This
+                                      test this assumption. First of all, we still have no empiri-     test is complicated, however, by gas physics which is ex-
+                                      cal evidence for the existence of WIMPs or axions. Some          pected to reduce the cluster baryon-to-DM mass ratio
+                                      have argued that a stronger self-gravity for dark matter is      below the cosmological value, even in the absence of a
+                                      required to clear dwarf galaxies from voids in the galaxy        DM force.
+                                      distribution [8, 9, 10]. Moreover, the recent discovery             In this Letter, we consider the effects of a DM force
+                                      that the cosmological expansion is accelerating [11, 12]         on galactic scales. We propose here that tidal streams
+                                      suggests that there may be more to gravity than general          produced by the disruption of a DM-dominated satellite
+                                      relativity—in particular, the quintessence field may me-         galaxy orbiting in the halo of a much larger host galaxy
+                                      diate an additional long-range self-interaction between          provide a powerful probe of an EP-violating DM force.
+                                      dark-matter particles [13, 14]. There is thus considerable       The reasoning follows by comparing the satellite’s orbital
+                                      motivation to scrutinize our cherished notions about the         energy Eorb , the energy Etid imparted during tidal dis-
+                                      equivalence principle.                                           ruption, and the self-binding energy Ebin of the satellite
+                                         Violations of the equivalence principle in the dark sec-      [20],
+                                      tor may be modeled phenomenologically by attributing
+                                      to dark-matter particles ψ a “fifth force” [15, 16],                             GMR
+                                                                                                                Eorb =         ,                              (2)
+                                                                                                                          R
+                                                                    g 2 −mφ r
+                                                        Vφ (r) = −      e     .              (1)                            dΦhost
+                                                                                                                                      
+                                                                                                                                        msat
+                                                                                                                                             1/3
+                                                                   4πr                                          Etid = rtid         =             Eorb ,      (3)
+                                      Here g is a dimensionless coupling constant, and mφ is the                              dR        MR
+                                                                                                                                          2/3
+                                      mass of the scalar particle φ mediating the interaction.
+                                                                                                                                   
+                                                                                                                       Gmsat         msat
+                                      On scales r ≪ m−1                                                         Ebin =           =             Eorb .         (4)
+                                                       φ , the potential of Eq. (1) leads to an                          rsat        MR
+                                      inverse-square-law force between DM particles of mass
+                                                                                    2
+                                      mψ with a strength suppressed√ by a factor β compared            Here the host galaxy has a potential Φhost (R) and mass
+                                      to gravity, where β ≡ gmPl / 4πmψ .                              MR within the satellite’s orbit of radius R, and the satel-
+                                                                                                                              2
+
+lite has a mass msat and radius rsat which fill its tidal
+radius rtid . When the satellite is much less massive than
+the host galaxy, msat /MR ≪ 1, a distinct hierarchy,
+                   Eorb ≫ Etid ≫ Ebin ,                 (5)
+exists in these three energy scales, implying that the dis-
+rupted stars and satellite will trace similar orbits in the
+host galaxy’s potential regardless of the details of tidal
+disruption or the satellite’s internal structure. The dis-
+rupted stars will act like purely baryonic test particles,
+while the satellite itself behaves largely like a DM test
+particle, if it is DM dominated.
+   Fortunately, the Sagittarius (Sgr) dwarf galaxy, the
+Milky Way’s closest satellite at a Galactocentric dis-
+tance of only 16 kpc, is nearly ideal for our purposes.
+The Sgr dwarf has extended leading and trailing tidal
+streams observed by the Two-Micron All Sky Survey
+(2MASS) [21] and the Sloan Digital Sky Survey (SDSS)
+[22]. Using a sample of over 1,000 M-giant stars with a
+known color-magnitude relation, the 2MASS collabora-           FIG. 1: Simulations of the tidal disruption of a satellite galaxy
+tion have measured not just surface brightnesses along         in the presence of a dark-matter force. The charge-to-mass
+the streams, but distances and spectroscopic velocities        ratio β increases from 0.0 in increments of 0.1 going counter-
+as well [23]. Comparing these observations to simula-          clockwise from the bottom left. The Galactic disk is in black.
+                                                               Sgr stars are shown in red (dark grey) while the Sgr dark mat-
+tions has led to estimates of the mass of the Sgr dwarf of
+                                                               ter is blue (light grey). The tidal streams are projected onto
+MSgr = (2−5)×108M⊙ , mass-to-light ratio MSgr /LSgr =          the orbital plane. Orbits are counterclockwise; the upper left
+14 − 36 M⊙/L⊙ , and Sgr orbit with pericenter 10–19 kpc,       figure shows that for β = 0.3 (a dark-matter force 9% the
+apocenter 56–59 kpc, and period 0.85–0.87 Gyr [24]. The        strength of gravity) stars are almost absent from the leading
+large mass-to-light ratio suggests that the Sgr dwarf is       stream (at 12 o’clock with respect to the Galactic center). X’s
+indeed DM dominated and therefore a suitable place to          denote the location of the bound Sgr core.
+search for DM forces.
+   To study more carefully the effects of EP violation on
+tidal disruption, we performed our own simulations of the      a modified version of the N -body code GADGET-2 [27].
+tidal disruption of a satellite with a mass (5 × 108 M⊙ ),     A more detailed description of our simulations are pro-
+mass-to-light ratio (40M⊙ /L⊙ ), and orbit (pericenter 14      vided in Ref. [28].
+kpc, apocenter 59 kpc) similar to that of the Sgr dwarf.          Four simulations of tidal disruption are depicted in
+We could not compare our simulations directly with those       Fig. 1, with DM forces given by Eq. (1) with different
+of Ref. [24], as we performed N -body simulations of a         values of the charge-to-mass ratio β. The scalar field is
+Navarro-Frenk-White (NFW) profile for our Milky Way            assumed massless (mφ = 0), so the DM force is a true
+halos, and they used a static logarithmic potential. An        inverse square law. The ratio β increases from 0.0 at
+active halo allows for dynamical friction over the course of   bottom left to 0.3 at top left as one proceeds counter-
+the simulation and possible backreaction on the halo due       clockwise. The simulations begin with the satellite at
+to the DM force. While we did not attempt to reproduce         apocenter 59 kpc from the Galactic center and last for
+the detailed features of the Sgr tidal streams, our simula-    2.4 Gyr (almost three full orbits). The tangential veloc-
+tions are sufficient to demonstrate that even a small DM       ities are adjusted so that all orbits are projected to have
+force could have significant observational consequences.       a pericenter of 14 kpc. The orbits are counterclockwise
+The initial conditions for our simulations were produced       in the x-z plane, so that the edge of the leading stream
+using GALACTICS [25], which makes use of phase-space           appears at 12 o’clock with respect to the Galactic center
+distribution functions (DFs) that are analytic in the or-      in Fig. 1, while the edge of the trailing stream is at about
+bital energy and angular momentum. By Jeans’ theo-             10 o’clock. The Sgr dwarf is modelled with a truncated
+rem, these DFs are equilibrium solutions to the collision-     NFW profile for both stars and DM, in keeping with the
+less Boltzmann equations [26], and they can be combined        simulations of Ref. [24], where it was concluded that ob-
+to produce realistic and stable models of the composite        servations could not yet determine distinct profiles for
+Milky Way bulge-disk-halo system [25]. We used the two         the two components. Thus, the stars shown in red (dark
+Milky Way models of Ref. [25] that best fit observational      grey) in the bottom left panel are simply a downsampling
+constraints, including the Galactic rotation curve and lo-     of the DM distribution illustrated in blue (light grey).
+cal velocity ellipsoid. The simulations were evolved using        As the DM force increases in strength, the leading
+                                                                                                                          3
+
+                                                                    This asymmetry in the leading compared to the trail-
+                                                                 ing tidal streams is a distictive signature of a DM force
+                                                                 that can be observed in the stellar densities measured
+                                                                 along the stream. The normalized stellar densities of
+                                                                 the four simulations presented in Fig. 1 are shown in the
+                                                                 four curves of Fig. 2. Orbits in our composite Milky Way
+                                                                 model do not close, and the four peaks in the stellar den-
+                                                                 sity distribution correspond to the four apocenter pas-
+                                                                 sages appearing at 2, 7, 10, and 12 o’clock in Fig. 1. Or-
+                                                                 bital velocities are minimized at apocenter so stars tend
+                                                                 to accumulate there. The ratio of the number of stars
+                                                                 near the apocenters furthest along the leading and trail-
+                                                                 ing tidal streams thus provides a convenient measure of
+                                                                 the asymmetry between the streams. The ratio of the
+                                                                 number of stars in the leading segment stretching from
+                                                                 −300◦ to −200◦ as compared to the trailing segment from
+                                                                 350◦ to 450◦ drops from 0.66 in the absence of a DM force
+                                                                 down to 0.44, 0.091, and 0.0042 for β = 0.1, 0.2, and 0.3
+                                                                 as indicated by the solid black curve in Fig. 3. The SDSS
+                                                                 has observed hundreds of stars per square degree along
+FIG. 2: Surface density of stars as a function of angular dis-   the Sgr tidal stream [22]. As the Sgr dwarf is observed to
+tance θ along the tidal stream. The satellite core is located    have an extensive leading stream, we conclude that a DM
+at 0◦ , while the trailing and leading streams are at positive   force as weak as 9% the strength of gravity is likely to be
+and negative θ respectively. As the tidal streams wrap around    observationally unacceptable, in which case the proposal
+the Galaxy more than once, θ extends beyond ±180◦ . The
+                                                                 [9, 10, 17] that EP-violating dark matter clears dwarf
+four curves correspond to the four panels of Fig. 1, with
+black (solid), red (long-dashed), green (short-dashed), and      galaxies from voids would be ruled out.
+blue (dotted) curves belonging to the β = 0.0 through 0.3           Our simulations suggest that current observations can
+simulations.                                                     already place impressive constraints on a DM-force, but
+                                                                 several concerns remain before we can confront our simu-
+                                                                 lations with data. If the stream wraps around the Galaxy
+stream is systematically depleted of stars, while the trail-     more than once, we must be able to distinguish true lead-
+ing stream is correspondingly enhanced. By the time β            ing stars from trailing stars that have almost been lapped
+reaches 0.3 in the top left panel, the leading stream is         by the satellite. We have been able to do this surpris-
+virtually devoid of stars. The primary reason for this           ingly well in simulations using only the radial velocities,
+effect is that in the presence of an attractive DM force,        distances, and positions along the stream. As 2MASS
+the center of mass of the satellite’s stars is displaced out-    has collected this data, identifying leading and trailing
+wards with respect to that of its DM. The bound stars            stars should already be feasible and can ceratainly be
+lie at the bottom of the satellite’s gravitational potential     accomplished by a future high-precision astrometry ex-
+well and are therefore forced to orbit the Galactic center       periment like the Space Interferometry Mission (SIM) or
+at the same speed as the DM. However, they do not have           Gaia. More troublesome is whether some other change
+the attractive pull of the DM force from the Milky Way’s         in our Sgr or Milky Way models could produce the same
+halo to supplement gravity in providing the required cen-        asymmetric tidal tails that we are claiming as a signa-
+tripetal force. The stars are therefore displaced outwards       ture of a DM force. Future investigation of this concern
+so that the inward gravitational pull of the satellite’s DM      is certainly needed, and we have made a first attempt at
+can provide this additional centripetal force. From this         this in Ref. [28], the results of which are summarized in
+outer position, stars are more likely to be tidally dis-         Fig. 3. This signature is seen to be robust to changes in
+rupted from the far side of the satellite than the side          the Milky Way model and the mass, orbit, and phase-
+closest to the Galactic center. Stars disrupted from the         space distribution of the Sgr dwarf. In the absence of a
+far side gain energy and are boosted onto higher orbits          DM force, the leading-to-trailing ratio exceeds 0.5 for all
+in the Milky Way’s potential well where their angular            our models, while for β > 0.2 the ratio is always below
+velocity is slower than that of the satellite. They there-       0.2. The detailed morphology of the stream also allows us
+fore trail behind the satellite and develop into a trailing      to anticipate when the ratio should be high or low, mak-
+tidal stream. A repulsive DM force will induce an op-            ing our test more sensitive than a single number. Our
+posite effect, displacing the stars towards the Galactic         simulations suggest that it may be possible to detect a
+center and preferentially creating a leading rather than a       DM force a few percent the strength of gravity. We may
+trailing tidal stream.                                           not be able to drop DM off the Leaning Tower of Pisa,
+                                                                                                                              4
+
+                                                                   [2] G. Jungman, M. Kamionkowski, and K. Griest, Phys.
+                                                                       Rept. 267, 195 (1996), hep-ph/9506380.
+                                                                   [3] L. Bergstrom, Rept. Prog. Phys. 63, 793 (2000), hep-
+                                                                       ph/0002126.
+                                                                   [4] G. Bertone, D. Hooper, and J. Silk, Phys. Rept. 405, 279
+                                                                       (2005), hep-ph/0404175.
+                                                                   [5] M. S. Turner, Phys. Rept. 197, 67 (1990).
+                                                                   [6] G. G. Raffelt, Phys. Rept. 198, 1 (1990).
+                                                                   [7] L. J. Rosenberg and K. A. van Bibber, Phys. Rept. 325,
+                                                                       1 (2000).
+                                                                   [8] P. J. E. Peebles, Astrophys. J. 557, 495 (2001), astro-
+                                                                       ph/0101127.
+                                                                   [9] S. S. Gubser and P. J. E. Peebles, Phys. Rev. D 70,
+                                                                       123511 (2004), hep-th/0407097.
+                                                                  [10] S. S. Gubser and P. J. E. Peebles, Phys. Rev. D 70,
+                                                                       123510 (2004), hep-th/0402225.
+                                                                  [11] S. Perlmutter et al. (Supernova Cosmology Project), As-
+                                                                       trophys. J. 517, 565 (1999), astro-ph/9812133.
+                                                                  [12] A. G. Riess et al. (Supernova Search Team), Astron. J.
+                                                                       116, 1009 (1998), astro-ph/9805201.
+                                                                  [13] G. R. Farrar and P. J. E. Peebles, Astrophys. J. 604, 1
+                                                                       (2004), astro-ph/0307316.
+                                                                  [14] L. Amendola and D. Tocchini-Valentini, Phys. Rev. D
+FIG. 3: The ratio of leading to trailing stars as a function           66, 043528 (2002), astro-ph/0111535.
+of charge-to-mass ratio β for different models of the host-       [15] J. A. Frieman and B. A. Gradwohl, Phys. Rev. Lett. 67,
+satellite system. The black (solid) curve is our default best-         2926 (1991).
+fit model. The magenta (long-short dashed) curve doubles          [16] J. A. Frieman and B. A. Gradwohl, Science 260, 1441
+the initial mass of the satellite. The two red (long-dashed)           (1993).
+curves have rotating satellites: the top is prograde and the      [17] A. Nusser, S. S. Gubser, and P. J. E. Peebles, Phys. Rev.
+bottom is retrograde. The blue (dotted) curves have satellites         D 71, 083505 (2005), astro-ph/0412586.
+with different orbits: the top curve has a more circular orbit,   [18] B.-A. Gradwohl and J. A. Frieman, Astrophys. J. 398,
+while the bottom curve has a planar orbit rather than the              407 (1992).
+polar orbit of Sgr. The cyan (dot-short dashed) curve uses        [19] R. Mainini and S. Bonometto, astro-ph/0605621.
+a Milky Way model with lighter halo and heavier disk. The         [20] K. V. Johnston, H. Zhao, D. N. Spergel, and L. Hern-
+green (short-dashed) curve has a satellite where 25% of the            quist, Astrophys. J. 512, L109 (1999), astro-ph/9807243.
+most bound particles represent stars. The yellow (dot-long        [21] S. R. Majewski, M. F. Skrutskie, M. D. Weinberg, and
+dashed) curves have satellites with lower M/L ratios (higher           J. C. Ostheimer, Astrophys. J. 599, 1082 (2003), astro-
+stellar mass fractions): the top curve has M/L = 4.5 while             ph/0304198.
+the bottom curve has M/L = 10.                                    [22] V. Belokurov et al., Astrophys. J. 642, L137 (2006),
+                                                                       astro-ph/0605025.
+                                                                  [23] S. R. Majewski et al., Astron. J. 128, 245 (2004), astro-
+but the Sgr tidal streams may be the next best thing.                  ph/0403701.
+  We wish to thank John Dubinski and Larry Widrow for             [24] D. R. Law, K. V. Johnston, and S. R. Majewski, Astro-
+assistance with the use of GALACTICS and Pat McDo-                     phys. J. 619, 807 (2005), astro-ph/0407566.
+                                                                  [25] L. M. Widrow and J. Dubinski, Astrophys. J. 631, 838
+nanld, Neal Dalal, Christoph Pfrommer, and Jonathan
+                                                                       (2005), astro-ph/0506177.
+Sievers for useful conversations. All computations were           [26] K. Kuijken and J. Dubinski, Mon. Not. R. Astron. Soc.
+performed on CITA’s McKenzie cluster [29], which was                   277, 1341 (1995), astro-ph/9502051.
+funded by the Canada Foundation for Innovation and                [27] V. Springel, Mon. Not. R. Astron. Soc. 364, 1105 (2005),
+the Ontario Innovation Trust. Kesden acknowledges                      astro-ph/0505010.
+support from the NASA Graduate Research Program,                  [28] M. Kesden and M. Kamionkowski, in preparation.
+and NSERC of Canada. Kamionkowski acknowledges                    [29] J. Dubinski, R. Humble, U.-L. Pen, C. Loken, and
+                                                                       P. Martin (2003), astro-ph/0305109.
+support from the DoE DE-FG03-92-ER40701, NASA
+NNG05GF69G, and the Gordon and Betty Moore Foun-
+dation.
+
+
+
+
+ [1] C. M. Will, Living Rev. Rel. 4, 4 (2001), gr-qc/0103036.
+

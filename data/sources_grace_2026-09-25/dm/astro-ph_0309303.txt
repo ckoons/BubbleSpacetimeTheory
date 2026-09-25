@@ -1,0 +1,420 @@
+                                         A P J IN PRESS ; ASTRO - PH /0309303 V 2
+                                         Preprint typeset using LATEX style emulateapj v. 11/26/03
+
+
+
+
+                                         DIRECT CONSTRAINTS ON THE DARK MATTER SELF-INTERACTION CROSS-SECTION FROM THE MERGING
+                                                                        GALAXY CLUSTER 1E 0657–56
+                                          M. M ARKEVITCH 1 , A. H. G ONZALEZ 2 , D. C LOWE 3,4 , A. V IKHLININ 1,5 , W. F ORMAN 1 , C. J ONES 1 , S. M URRAY 1 , W. T UCKER 1,6
+                                                                                                      ApJ in press; astro-ph/0309303 v2
+
+                                                                                                      ABSTRACT
+                                                  We compare new maps of the hot gas, dark matter, and galaxies for 1E 0657–56, a cluster with a rare, high-
+                                                  velocity merger occurring nearly in the plane of the sky. The X-ray observations reveal a bullet-like gas sub-
+                                                  cluster just exiting the collision site. A prominent bow shock gives an estimate of the subcluster velocity, 4500
+                                                  km s−1 , which lies mostly in the plane of the sky. The optical image shows that the gas lags behind the subclus-
+
+
+
+
+arXiv:astro-ph/0309303v2 22 Jan 2004
+                                                  ter galaxies. The weak-lensing mass map reveals a dark matter clump lying ahead of the collisional gas bullet,
+                                                  but coincident with the effectively collisionless galaxies. From these observations, one can directly estimate the
+                                                  cross-section of the dark matter self-interaction. That the dark matter is not fluid-like is seen directly in the X-
+                                                  ray – lensing mass overlay; more quantitative limits can be derived from three simple independent arguments.
+                                                  The most sensitive constraint, σ/m < 1 cm2 g−1 , comes from the consistency of the subcluster mass-to-light
+                                                  ratio with the main cluster (and universal) value, which rules out a significant mass loss due to dark matter
+                                                  particle collisions. This limit excludes most of the 0.5 − 5 cm2 g−1 interval proposed to explain the flat mass
+                                                  profiles in galaxies. Our result is only an order-of-magnitude estimate which involves a number of simplifying,
+                                                  but always conservative, assumptions; stronger constraints may be derived using hydrodynamic simulations of
+                                                  this cluster.
+                                                  Subject headings: dark matter — galaxies: clusters: individual (1E0657–56) — galaxies: formation — large
+                                                                       scale structure of universe
+
+                                                                   1. INTRODUCTION                                       shock (and bullet subcluster) velocity of vs = 4500+1100
+                                                                                                                                                                              −800 km s
+                                                                                                                                                                                       −1
+
+                                          1E 0657–56, one of the hottest and most X-ray luminous                         (Markevitch et al., in prep., hereafter M04). The new X-ray
+                                       galaxy clusters known, was discovered by Tucker et al.                            data also further clarified the geometry of the merger.
+                                       (1995). It was first observed by Chandra in October 2000                            In this paper, we combine these new optical and X-ray data
+                                       for 24 ks. That observation revealed a bullet-like, relatively                    to constrain the self-interaction cross-section of dark matter
+                                       cool subcluster just exiting the core of the main cluster, with                   particles. We use Ω0 = 0.3, ΩΛ = 0.7, H0 =70 km s−1 Mpc−1 ,
+                                       a prominent bow shock (Markevitch et al. 2002, hereafter                          for which 1′′ = 4.42 kpc at the cluster redshift z = 0.296.
+                                       M02). A comparison of the X-ray and optical images revealed
+                                       a galaxy subcluster just ahead of the gas “bullet”, which led                             2. COLLISIONAL CROSS-SECTION ESTIMATES
+                                       M02 to suggest that this unique system could be used to de-                          The dark matter collisional cross-section, σ, can be con-
+                                       termine whether dark matter is collisional or collisionless, if                   strained from the 1E 0657–56 data by at least three indepen-
+                                       only one could map the mass distribution in the subcluster.                       dent methods, using simple calculations described in the sec-
+                                       Apart from the obvious interest for the still unknown nature                      tions below. They are based on the observed gas–dark mat-
+                                       of dark matter, the possibility of it having a nonzero self-                      ter offset, the high subcluster velocity, and the subcluster sur-
+                                       interaction cross-section has far-reaching astrophysical impli-                   vival. First, we give the main assumptions that will go into
+                                       cations (Spergel & Steinhardt 2000; for more discussion see                       these calculations.
+                                       §3.2 below).                                                                         There are two estimates of the total masses of the subclus-
+                                          Just such a map of the dark matter distribution in                             ter and the main cluster — from the galaxy velocity dispersion
+                                       1E 0657–56 has recently been obtained by Clowe, Gonza-                            (Barrena et al. 2002) and from weak lensing (C04). Given the
+                                       lez, & Markevitch (2004, hereafter C04) from weak lensing                         disturbed state of this system, virial or hydrostatic mass esti-
+                                       data. It reveals a dark matter clump coincident with the cen-                     mates (either from galaxy velocities or the gas temperature)
+                                       troid of the galaxies (Fig. 1a). C04 also derived M/L ra-                         can be incorrect, and we chose to use the direct weak lensing
+                                       tios of the main cluster and the subcluster and found them in                     measurements from C04 even though their formal statistical
+                                       agreement with each other and with other clusters’ values. In                     accuracy is poorer. The main cluster’s lensing signal can be
+                                       addition, Chandra re-observed 1E 0657–56 for 70 ks in July                        fit by a King mass profile ρ = ρ0 (1 + r2 /rc2 )−3/2 with best-fit
+                                       2002, from which a more accurate estimate of the shock Mach                       parameters ρ0 ≃ 2.6 × 10−25 g cm−3 and rc ≃ 210 kpc (C04).
+                                       number was derived using the gas density jump at the shock,                       These two parameters are degenerate so their individual er-
+                                       M = 3.2+0.8
+                                                −0.6 (all uncertainties 68%), which corresponds to a                     ror bars are not meaningful; the quantity of interest to us is
+                                          1 Harvard-Smithsonian Center for Astrophysics, 60 Garden St., Cam-
+                                                                                                                         the central mass column density (approximately proportional
+                                       bridge, MA 02138; maxim@head.cfa.harvard.edu
+                                                                                                                         to ρ0 rc ), which is measured with a 16% accuracy. This mass
+                                          2 Department of Astronomy, University of Florida                               profile is very close to the Barrena et al. NFW profile at all
+                                          3 Institut für Astrophysik und Extraterrestrische Forschung der Universität    radii outside the core. A King profile is marginally preferred
+                                       Bonn, Germany                                                                     over an NFW profile (also acceptable statistically).
+                                          4 Stewart Observatory, University of Arizona
+                                                                                                                            The projected mass excess created by the subcluster is de-
+                                          5 IKI, Moscow, Russia
+                                          6 University of California at San Diego
+                                                                                                                         tected in the lensing data with a 3.0σ significance. The sub-
+                                                                                                                         cluster mass signal is detected to r ≃ 150 − 200 kpc from the
+2                                                                 MARKEVITCH ET AL.
+
+
+ −55.9◦
+               a                                                                           b
+
+
+
+
+ δ
+
+
+
+
+ −56.0◦                                                      0.5 Mpc                                                                     0.5 Mpc
+
+
+              104.7◦                             104.6◦                                   104.7◦                             104.6◦
+                                             α                                                                           α
+
+ F IG . 1.— (a) Overlay of the weak lensing mass contours on the optical image of 1E 0657–56. Dashed contours are negative (relative to an arbitrary zero level).
+The subcluster’s DM peak is coincident within uncertainties with the centroid of the galaxy concentration. (b) Overlay of the mass contours on the X-ray image
+(only the upper 4 of those in panel a are shown for clarity). The gas bullet lags behind the DM subcluster.
+
+
+
+mass (or galaxy) peak, beyond which the subcluster may be                           surement error propagation for clarity.
+tidally stripped (C04). The lensing-derived subcluster mass
+(M ≃ 7 × 1013M⊙ ) is significantly higher than the Barrena et                                      2.1. The gas — dark matter offset
+al. estimate, but the latter result was based on only 7 galax-                         The most remarkable feature in Fig. 1b is a ∼ 23′′ offset be-
+ies and the equilibrium assumption, thus could easily be bi-                        tween the subcluster’s DM centroid and the gas bullet, which
+ased. The current lensing data accuracy is not sufficient to                        is at least 2σ-significant (C04). C04 use this fact as a direct
+derive an exact mass distribution for the subcluster, but our es-                   proof of dark matter existence, as opposed to modified grav-
+timates below are not particularly sensitive to it, being mostly                    ity hypotheses (Milgrom 1983 and later works) in which one
+determined by its overall projected mass. For the sake of                           would expect the lensing mass peak to be associated with the
+modeling, we will adopt a King profile with rc = 70 kpc and                         gas — the dominant visible mass component. For our pur-
+ρ0 = 1.3 × 10−24 g cm−3 , truncated at rtr = 150 kpc, which ade-                    poses, this offset means that the scattering depth of the dark
+quately describes the lensing data.                                                 matter subcluster w.r.t. collisions with the flow of dark mat-
+   The subcluster is assumed to have passed (once) close to the                     ter particles cannot be much greater than 1. Otherwise the
+center of the main cluster. This is supported by the X-ray im-                      DM subcluster would behave as a clump of fluid, experienc-
+age (Fig. 1b), the gas temperature map (M04) and their com-                         ing stripping and drag deceleration, similar to that of the gas
+parison with the radio halo map (Govoni et al. 2004; Liang et                       bullet (assuming the same gas mass fraction in the main clus-
+al. 2000). A cooler North-South bar in the X-ray image be-                          ter and the subcluster), and there would be no offset between
+tween the two dark matter clumps appears to be an edge-on                           the gas and dark matter. The subcluster’s scattering depth is
+pancake-like remnant of the merged main cluster’s gas core
+and the subcluster’s outer atmosphere (stripped from what is                                                         σ
+                                                                                                                τs = Σs ,                        (1)
+now the gas bullet), suggesting that the subcluster has passed                                                       m
+straight through the densest cluster region (M04). The line-                        where σ is the DM collision cross-section, m is its particle
+of-sight velocity of the subcluster relative to the main cluster                    mass, and Σs is the DM mass surface density of the subclus-
+is about 600 km s−1 (Barrena et al. 2002); combined with the                        ter. The surface density averaged over the face of the sub-
+X-ray-measured Mach number, it gives an angle of only ∼ 8◦                          cluster within r = rtr is Σs ≃ 0.2 g cm−2 . Assuming spherical
+between the direction of motion and the plane of the sky. The                       symmetry and requiring that τs < 1, we obtain
+sharpness of the shock front also confirms that the subcluster                                                σ
+is presently moving very nearly in the plane of the sky (M02).                                                   < 5 cm2 g−1 .                   (2)
+From all the above, it is reasonable to assume that the sub-                                                  m
+cluster has passed through the core of the main cluster.                            The surface density toward the subcluster center is several
+   The accuracy of our qualitative cross-section estimates will                     times higher, so by using an average we obtain a conserva-
+be determined by the validity of this and other assumptions                         tive upper limit.
+(given below where relevant) to a greater degree than by the                           Another remarkable feature in Fig. 1a is the coincidence of
+measurement uncertainties, so below we will omit the mea-                           the subcluster’s DM and galaxy centroids within their uncer-
+                                                                                    tainties (C04). To avoid an easily made mistake, we should
+                                          DARK MATTER SELF-INTERACTION CROSS-SECTION                                                             3
+
+note here that the subcluster galaxies, although effectively                        An elastic collision of two equal-mass particles proceeds as
+collisionless, do not give us the position at which the sub-                     shown in Fig. 2. In the subcluster’s reference frame, particle
+cluster would be in the absence of the DM collisions. The                        2 is at rest and particle 1, in the incoming flow, collides with
+galaxies are gravitationally bound to the DM clump and will                      it with a velocity
+be dragged back by it, should it experience any deceleration                                           q
+from the DM collisions. This can be taken into account, and                                       v0 = v2s + V 2 ≈ 4800 km s−1 ,              (3)
+a limit on the offset between the DM and galaxy centroids
+can indeed be used to derive an independent σ/m constraint;                      where vs is the subcluster’s velocity and the relatively small
+however, it requires more accurate centroid positions than cur-                  increase is because of the subcluster’s gravitational pull
+rently available.                                                                within r = r′ . Particle 1 scatters at an angle α1 > 0 with
+                                                                                 a velocity v1 , while particle 2 acquires a velocity v2 at an
+             2.2. The high velocity of the subcluster                            angle α2 > 0. From energy and momentum conservation,
+                                                                                 α1 + α2 = π/2 and the velocities are
+   The observed velocity of the subcluster, vs = 4500 km s−1 ,
+is in good agreement with the expected free-fall velocity onto                                    v1 = v0 cos α1 , v2 = v0 sin α1 .            (4)
+the main cluster. For our main cluster’s mass profile, a small                    As a result of each collision, the subcluster acquires a net
+subcluster falling from a large distance should acquire 4400                     momentum along the v0 direction, p = p0 + p1 + p2 , where
+km s−1 at core passage, decelerating to 3500 km s−1 at the cur-
+rent 0.66 Mpc off-center distance of the subcluster. Since                                                p0 = m (vs − v0 )                    (5)
+the cluster peculiar velocities are small, such an agreement                     comes from the infalling particle (which carries back exactly
+strongly suggests that the subcluster could not have lost much                   −p0 if it passes through the subcluster without scattering), and
+of its momentum to drag forces. Drag is created by puta-                         pi (i = 1, 2) comes from the respective outbound particle. If
+tive DM particle collisions, as well as the gravitational pull of                vi < V then
+the gas being stripped from the subcluster and of the tidally-
+stripped outer subcluster mass, and by dynamical friction as                                              pi = m vi cos αi                     (6)
+the moving subcluster disturbs the main cluster’s matter dis-                    (the particle transfers all its momentum to the subcluster),
+tribution. We will conservatively disregard the latter three (all                while for vi > V ,
+of which are relatively small effects) and assume, for a qual-                                          h                   i
+itative estimate, that the loss of velocity due to the DM colli-                                 pi = m vi − (v2i − V 2 )1/2 cosαi .     (7)
+sions, compared to free fall, is less than 1000 km s−1 , accumu-
+lated along the way through the main cluster.                                    For our particular mass and velocity, at least one particle al-
+   We will now derive the drag force on the subcluster from                      ways escapes beyond r′ . If both escape, which occurs in col-
+the DM particle collisions. The subcluster will be decelerated                   lisions with αe < α1 < π2 − αe (αe ≃ 23◦ for our parameters),
+by collisions when its particles acquire a momentum compo-                       the momentum loss by the subcluster as a function of the scat-
+nent opposite to the subcluster’s velocity and then transfer all                 tering angle α1 is (combining eqs. 5, 7, 3, and 4):
+or part of it to the whole subcluster via gravitational interac-                                                                  1/2
+                                                                                                                       V2
+                                                                                                           
+tions. We assume for simplicity that (a) dark matter particles                        pboth = mvs 1 − cosα1 cos2 α1 − 2 sin2 α1
+have no peculiar velocities, and (b) the subcluster’s gravity is                                                        vs
+felt by the particles, and vice versa, as long as the particle is                                                                 1/2 #     (8)
+                                                                                                                      V2
+                                                                                                            
+within a fiducial radius r′ = 2rtr of the subcluster (the result                                    − sin α1 sin α1 − 2 cos α1
+                                                                                                                2             2
+                                                                                                                                         .
+will not depend qualitatively on r′ in the range rtr − ∞). We                                                          vs
+further assume that a particle transfers all of its momentum
+to the subcluster if its post-collision velocity is insufficient to              If only one particle escapes, which occurs when 0 < α1 < αe
+escape beyond r′ . Faster-scattered particles retard the cluster                 or π2 − αe < α1 < π2 , the net momentum loss is (combining
+only until they reach r′ . The critical velocity that a subcluster               eqs. 5, 6, 7, 3, and 4):
+particle needs to reach r′ , mass-averaged (in the rms sense)
+                                                                                                  "                            1/2 #
+                                                                                                                      V2 2
+                                                                                                           
+over the subcluster mass profile, is V ≃ 1900 km s−1 . Use of                        pone = mvs 1 − cosα1 cos α1 − 2 sin α1
+                                                                                                                2
+                                                                                                                                      .  (9)
+this average value lets us make a further simplifying assump-                                                          vs
+tion that all collisions occur at the subcluster center. We also                    Now we should average the above momentum loss over all
+conservatively disregard multiple scattering in the subcluster;                  scattering angles. For this, it is convenient to use the refer-
+the adequacy of this assumption will be addressed below.                         ence frame of the center of mass of the colliding particles.
+                                                                                 In this frame, the scattering is isotropic, as long as the parti-
+                                                                                 cles are “slow” in the sense that mur/h̄ ≪ 1, where r is the
+                                                                                 linear scale of the interaction and u = v0 /2 is the collision ve-
+                                                                                 locity (Landau & Lifshitz 1958, §132). For example, for rigid
+                                                                                 spheres with radius r (for which the scattering cross-section is
+                                                                                 σ = 4πr2 , Landau & Lifshitz 1958), the scattering is isotropic
+                                                                                 if
+                                                                                             3/2                  σ/m 1/2
+                                                                                        mc2
+                                                                                    
+                                                                                                          u
+                                                                                                                                       ≪ 1 (10)
+                                                                                      1 GeV         2400 km s−1       50 cm2 g−1
+                                                                                 Note that if the DM particles are WIMPs with the currently
+  F IG . 2.— Collision of two equal-mass particles in the subcluster reference   favored mass (mc2 > 40 GeV, Hagiwara et al. 2002), this con-
+frame.                                                                           dition is not satisfied for the values of σ/m ∼ (1 − 10) cm2 g−1
+4                                                       MARKEVITCH ET AL.
+
+that we are able to constrain. Scattering with such combina-         Mellier 1999; Dahle 2000), and a factor of 1.1 ± 0.3 from the
+tions of σ and m would be strongly beamed, reducing all the          main cluster values derived from the same data. If the sub-
+observable effects for a given σ. However, there is still ample      cluster had been continuously losing DM particles, we would
+parameter space for isotropic scattering (e.g., if particles are     expect an anomalously low M/L value for the subcluster —
+not WIMPs), and we will confine our estimates to this simple         and in particular, a value lower than the main cluster’s. From
+case. Our conclusions will be directly comparable to other as-       this agreement we can infer that the subcluster could not have
+trophysical cross-section measurements which also implicitly         lost more than f ≈ 0.2 − 0.3 of its initial mass within rtr . We
+assume isotropic scattering.                                         should make two supporting comments here — first, the sub-
+   In this reference frame, particle 1 scatters by an angle θ =      cluster crossing time for its member galaxies is comparable
+2α1 (0 < θ < π) and particle 2 scatters by π − θ. Combining          to the time it took for the subcluster itself to cross the main
+eqs. (8, 9), weighting with solid angle and taking into account      cluster. Thus, if the subcluster’s gravitational well has been
+the symmetries, the average momentum lost by the subcluster          slowly diminishing due to DM collisions, its galaxies did not
+in each particle collision is (for our values of V and vs ):         have time to evaporate, so this process can be ignored. Sec-
+           "     Z 1                        1/2 #                   ond, although the main cluster’s DM particles are similarly
+                                  2
+                         
+                                V                                    affected by the subcluster impact, the effect on the main clus-
+  p̄ = mvs 1 − 4       x2 x2 − 2 1 − x2
+                                          
+                                                dx ≈ 0.1 mvs .       ter’s M/L value is smaller by at least their mass ratio (about a
+                  sin αe         vs
+                                                                     factor of 6).
+                                                             (11)
+                                                                        To escape beyond r = rtr , the average subcluster particle
+  When the subcluster with mass Ms (all in the form of dark          needs a velocity vesc ≃ 1200 km s−1 . The subcluster experi-
+matter for clarity) travels with a velocity v through the main       ences a net loss of a particle in a collision if both v1 > vesc and
+cluster with density ρm , it experiences                             v2 > vesc , which occurs at scattering angles θ given by (from
+                                                                     eqs. 4):
+                             Ms σ
+                         n=        ρm v                       (12)                                                 1/2
+                             m m                                                                             v2esc
+                                                                                                       
+                                                                                      vesc        θ
+                                                                                           < sin < 1 − 2                .           (16)
+collisions per second. As a result, it loses velocity, relative to                     v0         2           v0
+the free-fall velocity vff :
+                                                                     For our vesc and v0 , such angles exist. The probability of this
+                  d(v − vff) p̄n p̄ σ                                loss, per collision, is
+                            =   =     ρm v,                  (13)
+                     dt       Ms m m                                                      R
+                                                                                                 2π sin θ dθ        v2
+                                                                                                             = 1 − 2 esc
+                                                                                            (16)
+where p̄ is from eq. (11). We conservatively disregard the                           χ= Rπ                               ,      (17)
+higher subcluster velocity during core passage and assume                                    0 2π sin θ dθ
+                                                                                                                     v20
+that the loss of mass and velocity is relatively small, so p̄
+                                                                     where the upper integral is calculated over the interval of θ
+is roughly constant. Integration of eq. (13) along the sub-
+                                                                     given by eq. (16). During the subcluster’s transit through the
+cluster trajectory gives the total velocity loss. Noting that
+R           R                                                        main cluster, each of its original particles has a probability to
+  ρm v dt = ρm dl is the mass column density of the main
+                                                                     collide
+cluster along the subcluster’s trajectory, Σm , we obtain
+                                                                                                     σ
+                                p̄ σ                                                           τm = Σm .                         (18)
+                       v − vff =     Σm .                  (14)                                      m
+                                mm
+                                                                     Combining (17) and (18), the fraction of particles lost is
+   Almost all of Σm accumulates within the main cluster’s                                       "
+core, at distances smaller than the current subcluster posi-                                            ′ 2 #
+                                                                                          σ              v
+tion. If, as we assume, the subcluster passed through the main                    χτm = Σm 1 − 2 esc              ,             (19)
+cluster center, Σm ≃ 0.3 g cm−2 ; if it missed the center by                             m                v0
+200 − 300 kpc, Σm is lower by about a factor of 2. On the
+other hand, we observe the main cluster after the collision; if      where v′esc is a slightly higher escape velocity that allows for
+it used to have an NFW-type peak disrupted by a direct hit of        the subcluster’s mass decline
+                                                                                               √       by up to a factor of 1 + f along
+the subcluster, then Σm that we should use would be higher           the way; v′esc ≈ vesc (1 + 1 + f )/2. We also ignore the subclus-
+than the observed one.                                               ter’s higher velocity at core passage, assuming the constant
+   Requiring that v − vff < 1000 km s−1 , from eq. (14) we get       present velocity. (Both effects are small and our simplifica-
+                                                                     tions are conservative.) Requiring that χτm < f = 0.3, from
+                          σ
+                            < 7 cm2 g−1 .                  (15)      eq. (19) we obtain
+                          m                                                                    σ
+                                                                                                 < 1 cm2 g−1 .                     (20)
+        2.3. The survival of the dark matter subcluster                                        m
+   For the observed subcluster mass and velocity, the most             The expression in the brackets in eq. (19) is close to 1 for
+likely result of a particle collision is the loss of a particle      any small value of vesc , thus our resulting constraint is only
+by the subcluster. The opposite effect, i.e., accretion of the       weakly dependent on the exact mass profile of the subcluster.
+main cluster’s particles, is negligible because of the low mass      We also note that the subcluster’s M/L ratios derived by C04
+and high velocity of the subcluster. We can put an upper             represent lower bounds on the true values (because of possible
+limit on the integrated mass loss and thereby on the colli-          projection and the particular technique employed to derive the
+sion cross-section. C04 have derived mass-to-light ratios for        subcluster mass), which makes our constraint conservative.
+the subcluster within rtr = 150 kpc, M/LB ≃ 280 ± 90 and               For cross-sections such as (20) and the subcluster’s ob-
+M/LI ≃ 170 ± 50. These ratios are in good agreement with             served mass and radius, the mean scattering depth of the sub-
+the universal cluster values from the lensing analyses (e.g.,        cluster is τs . 0.2. Thus our single-scattering assumption is
+                                   DARK MATTER SELF-INTERACTION CROSS-SECTION                                                       5
+
+reasonable as a first approximation. If one considers a pos-        particles into the cool halos. We note that our constraint in
+sibility that the escaping particle may expel another subclus-      §2.3 uses a very similar idea, except that we have a cluster-
+ter particle, the probability (19) is a conservative underesti-     sized halo subjected to a flow of particles from one direction
+mate. In §2.2, even higher τs are allowed by our resulting          instead of random bombardment.
+limit (15); for that method, single scattering is also a con-          Furlanetto & Loeb (2002) proposed to use the different
+servative assumption. Inclusion of multiple scattering would        shapes of a gravitational wake that a subcluster halo moving
+lead to tighter limits, but requires detailed knowledge of the      through a bigger halo would create in the collisionless and
+matter distribution inside the subcluster and is not warranted      fluid-like DM models. They argue that the X-ray image of the
+by the present data.                                                bright galaxy in the Fornax cluster already disfavors fluid-like
+                       3. DISCUSSION                                DM. Their method is somewhat similar to our 1E 0657–56 es-
+                                                                    timates in that it also uses the motion of a halo within a bigger
+                 3.1. Improving the constraints                     halo, but appears more observationally challenging. Follow-
+   From the above order-of-magnitude estimates, the most            ing another suggestion of Furlanetto & Loeb (2002), Natara-
+promising way of improving the limit on (or measuring) the          jan et al. (2002) used observed sizes of the galactic halos in
+DM collision cross-section using 1E 0657–56 would be to re-         the A2218 cluster (which should be truncated at different radii
+fine the weak lensing mass map and limit (or detect) the mass       for different DM cross-sections) to obtain σ/m < 40 cm2 g−1 .
+loss from the subcluster core. Indeed, if it had lost a sig-        Upper limits in the 0.02 − 10 cm2 g−1 range were derived by
+nificant fraction of its DM particles, they should form a tail      Hennawi & Ostriker (2002) from the absence of supermas-
+detectable in the dark matter map, not unlike the X-ray gas         sive black holes in the centers of galaxies.
+tail. This tail would, of course, be in addition to the matter         Strong constraints are reported from the galaxy cluster
+tidally stripped from the subcluster and a gravitational wake       cores. Yoshida et al. (2000) simulated evolution of a clus-
+discussed by Furlanetto & Loeb (2002). The main cluster’s           ter for σ/m = 10, 1, and 0.1 cm2 g−1 and obtained systemati-
+DM particles also would be scattered, probably resulting in         cally flatter radial mass profiles for higher σ/m. Using Chan-
+additional detectable effects in the mass map. These consider-      dra X-ray data and the assumption of hydrostatic equilibrium,
+ations, along with the conservative assumptions that we made        Arabadjis et al. (2002) derived a mass profile for the cluster
+throughout to simplify calculations, suggest that the best way      MS 1358+62 that is strongly centrally peaked (in fact, more
+to proceed with the data interpretation is a detailed hydrody-      peaked than even the collisionless simulations predict). From
+namic simulation of this merger, such as that performed by          the comparison with Yoshida et al. (2000), they conclude that
+Tormen, Moscardini, & Yoshida (2003) but with the inclu-            σ/m < 0.1 cm2 g−1 . There are two potential difficulties with
+sion of collisionless galaxies and collisional DM with various      this stringent limit, however. Chandra revealed widespread
+cross-sections, followed by comparison of the results with the      gas sloshing in the cores of “relaxed” clusters (Markevitch,
+X-ray, optical and lensing data.                                    Vikhlinin, & Forman 2002), including in MS 1358+62, which
+                                                                    does not lend support to the hydrostatic equilibrium assump-
+                    3.2. Astrophysical context
+                                                                    tion and the resulting X-ray mass estimates at relevant radii.
+   The nature of dark matter is still a great unsolved astro-       More importantly, Yoshida et al. present time evolution of
+physical problem. Laboratory searches for the DM candidates         their simulated cluster profile for σ/m = 10 cm2 g−1 , which
+succeeded in showing that any interaction between the dark          at different epochs covers a range of shapes comparable to the
+and baryonic matter is vanishingly small, with cross-sections       whole difference between their 0.1 and 10 cm2 g−1 simula-
+many orders of magnitude lower than the values we consider          tions (see also Hennawi & Ostriker 2002). This suggests that
+in this work (e.g., Bernabei et al. 2003 and references therein).   for a high σ/m, one expects a variety of cluster mass profiles
+Despite their size, galaxy clusters have an average projected       — and indeed, while many real-world clusters exhibit peaked
+mass density of order 0.1 − 1 g cm−2 , so they are no match for     profiles, a large fraction has flat cores (e.g., Coma). There-
+the laboratory experiments for constraining the DM-baryon           fore, a sample of cluster profiles is required for such stud-
+interactions. However, clusters and galaxies may provide the        ies. Miralda-Escudé (2002) used lensing data for the cluster
+best available laboratory for studying the DM self-interaction.     MS 2137–23 to show that its central mass distribution is ellip-
+   While the common wisdom holds that DM is collision-              tical, and concluded that σ/m < 0.02 cm2 g−1 , since otherwise
+less, a hypothesis of self-interacting dark matter (SIDM)           DM collisions would erase ellipticity. Again, this interpreta-
+with cross-sections of order 1 − 100 cm2 g−1 was most re-           tion may not be unique, because ellipticity may be affected by
+cently proposed by Spergel & Steinhardt (2000) to alleviate         line-of-sight projections. This ambiguity is illustrated by the
+several apparent problems of the collisionless CDM model,           fact that Sand et al. (2002), using lensing data for the same
+such as the non-observation of predicted cuspy mass profiles        cluster but considering the flatness of the central mass distri-
+in galaxies (e.g., Moore 1994; Flores & Primack 1994; cf.           bution instead of its ellipticity, arrived at the opposite conclu-
+Navarro, Frenk, & White 1997; Moore et al. 1999b) and over-         sion.
+prediction of small sub-halos within the larger systems (e.g.,         While the above methods may eventually provide more sen-
+Klypin et al. 1999; Moore et al. 1999a). Simulations and the-       sitive constraints on σ/m than we have obtained, they require
+oretical studies (e.g., Davé et al. 2001; Ahn & Shapiro 2002)       a statistical sample of clusters and cosmological simulations
+narrowed the range required to explain the galaxy profiles to       to reach solid conclusions. In comparison, the unique ge-
+σ/m ∼ 0.5 − 5 cm2 g−1 and pointed out that fluid-like DM with       ometry of the 1E 0657–56 cluster merger allows us to see
+σ/m ∼ 104 cm2 g−1 is another possibility.                           directly the (cumulative) results of single DM particle colli-
+   Several observational constraints have been reported.            sions, which makes the resulting limits quite robust.
+Gnedin & Ostriker (2001; see also Hennawi & Ostriker 2002)             Finally, we note that our limit, σ/m < 1 cm2 g−1 , excludes
+pointed out that unless σ/m < 0.3 − 1 cm2 g−1 , galactic halos      most of the 0.5 − 5 cm2 g−1 interval proposed to explain the
+inside clusters should evaporate on the Hubble timescale, be-       flat mass profiles in galaxies. Within the SIDM paradigm,
+cause of collisional heat conduction from the hot cluster DM
+6                                                                 MARKEVITCH ET AL.
+
+the galaxy profiles and the tight cross-section limits coming                   of-magnitude estimate; a more accurate, and quite possibly
+from clusters can still be reconciled if the cross-section were                 stronger, limit may be derived through hydrodynamic simula-
+velocity-dependent, so that it would be smaller on average                      tions of this merging system.
+in clusters than in galaxies (e.g., Firmani et al. 2000, 2001;
+Hennawi & Ostriker 2002; Colín et al. 2002). However, it
+is difficult to justify this additional degree of freedom in the
+model until a nonzero cross-section is detected at any velocity.                  We thank Neal Dalal and the anonymous referee for help-
+                                                                                ful comments. Support for this work was provided by NASA
+                             4. SUMMARY                                         contract NAS8-39073, Chandra grant GO2-3165X, and the
+  We have combined new X-ray, optical and weak lensing                          Smithsonian Institution. AHG was supported under award
+observations of the unique merging cluster 1E 0657–56 to                        AST-0407485 by an NSF Astronomy and Astrophysics Post-
+derive a simple, direct upper limit on the dark matter colli-                   doctoral Fellowship; DC received support from Deutsche
+sional cross-section, σ/m < 1 cm2 g−1 . This is only an order-                  Forschungsgemeinschaft under the project SCHN 342/3-1.
+                                                                        REFERENCES
+Ahn, K., & Shapiro, P. R. 2002, J. Korean Astronomical Soc., 36, 89 (astro-     Landau, L. D., & Lifshitz, E. M. 1958, Quantum mechanics: non-relativistic
+   ph/0212575)                                                                     theory (London: Pergamon)
+Arabadjis, J. S., Bautz, M. W., & Garmire, G. P. 2002, ApJ, 572, 66             Liang, H., Hunstead, R. W., Birkinshaw, M., & Andreani, P. 2000, ApJ, 544,
+Barrena, R., Biviano, A., Ramella, M., Falco, E. E., & Seitz, S. 2002, A&A,        686
+   386, 816                                                                     Markevitch, M., Gonzalez, A. H., David, L., Vikhlinin, A., Murray, S.,
+Bernabei, R., et al. 2003, preprint astro/ph-0307403                               Forman, W., Jones, C., & Tucker, W. 2002, ApJ, 567, L27 (M02)
+Colín, P., Avila-Reese, V., Valenzuela, O., & Firmani, C. 2002, ApJ, 581, 777   Markevitch, M., Vikhlinin, A., & Forman, W. 2002, astro-ph/0208208
+Clowe, D., Gonzalez, A. H., & Markevitch, M. 2004, ApJ, in press; astro-        Markevitch, M., et al. 2004, in preparation (M04)
+   ph/0312273 (C04)                                                             Mellier, Y. 1999, ARA&A, 37, 127
+Dahle, H. 2000, Proc. The NOT in the 2000’s, Eds. N. Bergvall, L. O. Takalo,    Milgrom, M. 1983, ApJ, 270, 365
+   & V. Piirola (Univ. of Turku), 45                                            Miralda-Escudé, J. 2002, ApJ, 564, 60
+Davé, R., Spergel, D. N., Steinhardt, P. J., & Wandelt, B. D. 2001, ApJ, 547,   Moore, B. 1994, Nature, 370, 629
+   574                                                                          Moore, B., Ghigna, S., Governato, F., Lake, G., Quinn, T., Stadel, J., & Tozzi,
+Firmani, C., D’Onghia, E., Avila-Reese, V., Chincarini, G., & Hernández, X.        P. 1999a, ApJ, 524, L19
+   2000, MNRAS, 315, L29                                                        Moore, B., Quinn, T., Governato, F., Stadel, J., & Lake, G. 1999b, MNRAS,
+Firmani, C., D’Onghia, E., Chincarini, G., Hernández, X., & Avila-Reese, V.        310, 1147
+   2001, MNRAS, 321, 713                                                        Natarajan, P., Loeb, A., Kneib, J., & Smail, I. 2002, ApJ, 580, L17
+Flores, R. A., & Primack, J. R. 1994, ApJ, 427, L1                              Navarro, J. F., Frenk, C. S., & White, S. D. M. 1997, ApJ, 490, 493
+Furlanetto, S. R., & Loeb, A. 2002, ApJ, 565, 854                               Sand, D. J., Treu, T., & Ellis, R. S. 2002, ApJ, 574, L129
+Gnedin, O. Y., & Ostriker, J. P. 2001, ApJ, 561, 61                             Spergel, D. N., & Steinhardt, P. J. 2000, Phys. Rev. Lett., 84, 3760
+Govoni, F., Markevitch, M., Vikhlinin, A., VanSpeybroeck, L., Feretti, L., &    Tormen, G., Moscardini, L., & Yoshida, N. 2003, MNRAS, submitted (astro-
+   Giovannini, G. 2004, ApJ, in press (astro-ph/0401421)                           ph/0304375)
+Hagiwara, K., et al. 2002, Phys. Rev. D, 66, 10001                              Tucker, W. H., Tananbaum, H., & Remillard, R. A. 1995, ApJ, 444, 532
+Hennawi, J. F., & Ostriker, J. P. 2002, ApJ, 572, 41                            Yoshida, N., Springel, V., White, S. D. M., & Tormen, G. 2000, ApJ, 544,
+Klypin, A., Kravtsov, A. V., Valenzuela, O., & Prada, F. 1999, ApJ, 522, 82        L87
+

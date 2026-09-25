@@ -1,0 +1,1218 @@
+                                                   No massive black holes in the Milky Way halo
+                                                   Przemek Mróz1*, Andrzej Udalski1 , Michal K. Szymański1 ,
+                                                  Igor Soszyński1 , Lukasz Wyrzykowski1 , Pawel Pietrukowicz1 ,
+                                                     Szymon Kozlowski1 , Radoslaw Poleski1 , Jan Skowron1 ,
+                                                  Dorota Skowron1 , Krzysztof Ulaczyk1,2 , Mariusz Gromadzki1 ,
+                                                     Krzysztof Rybicki1,3 , Patryk Iwanek1 , Marcin Wrona1 ,
+                                                                         Milena Ratajczak1
+
+
+
+
+arXiv:2403.02386v3 [astro-ph.GA] 3 Jan 2025
+                                                 1* Astronomical Observatory, University of Warsaw, Al. Ujazdowskie 4,
+
+                                                                      Warszawa, 00-478, Poland.
+                                                2 Department of Physics, University of Warwick, Coventry CV4 7 AL, UK.
+                                                 3 Department of Particle Physics and Astrophysics, Weizmann Institute
+
+                                                                   of Science, Rehovot 76100, Israel.
+
+
+                                                      *Corresponding author(s). E-mail(s): pmroz@astrouw.edu.pl;
+
+
+
+                                              The gravitational wave detectors have unveiled a population of massive
+                                              black holes that do not resemble those observed in the Milky Way [1–3]
+                                              and whose origin is debated [4–6]. According to one possible explanation,
+                                              these black holes may have formed from density fluctuations in the early
+                                              Universe (primordial black holes) [7–9], and they should comprise from
+                                              several to 100% of dark matter to explain the observed black hole merger
+                                              rates [10–12]. If such black holes existed in the Milky Way dark matter
+                                              halo, they would cause long-timescale gravitational microlensing events
+                                              lasting years [13]. The previous experiments were not sufficiently sensitive
+                                              to such events [14–17]. Here we present the results of the search for long-
+                                              timescale microlensing events among the light curves of nearly 80 million
+                                              stars located in the Large Magellanic Cloud that were monitored for 20
+                                              years by the OGLE survey [18]. We did not find any events with timescales
+                                              longer than one year, whereas all shorter events detected may be explained
+                                              by known stellar populations. We find that compact objects in the mass
+                                              range from 1.8 × 10−4 to 6.3 M⊙ cannot compose more than 1% of dark
+                                              matter, and those in the mass range from 1.3 × 10−5 to 860 M⊙ cannot make
+                                              up more than 10% of dark matter. Thus, primordial black holes in this mass
+
+
+                                                                                   1
+range cannot simultaneously explain a significant fraction of dark matter
+and gravitational wave events.
+     We analyze the photometric observations of the Large Magellanic Cloud (LMC)
+that have been collected for nearly 20 years by the Optical Gravitational Lensing
+Experiment (OGLE), during its third (OGLE-III; 2001–2009; [19]) and fourth (OGLE-
+IV; 2010–2020; [18]) phases. Since OGLE-III and OGLE-IV had similar observing
+setups, it was possible to merge the observations to create a 20-year-long photomet-
+ric time-series data set. We developed a new method of reductions of photometric
+observations, which enabled us to obtain homogeneous light curves. The design of the
+survey, extraction of photometry, and methods used to search for microlensing events
+and calculate the event detection efficiency are described in detail in a companion
+paper [20].
+     About 33 million objects are detected in the overlapping OGLE-III/OGLE-IV
+region, and an additional 29 million objects are observed by OGLE-IV only. The
+number of stars that may be microlensed is even higher because of blending, which
+occurs when two or more stars cannot be resolved in ground-based seeing-limited
+images. We used the archival high-resolution images from the Hubble Space Telescope
+[21] to correct the star counts for blending. After removing the contribution from
+foreground Milky Way stars, we found that the survey monitored for microlensing
+about 78.7 million source stars in the LMC brighter than I = 22 mag [20].
+     We searched for microlensing events using a variation of the method described by
+[22]. The algorithm tries to identify a flat portion of the light curve, and then searches
+for consecutive data points that are magnified with respect to the flat part. Then, a
+standard point-source point-lens microlensing model [13] is fitted to the light curve,
+and the goodness-of-the-fit statistics are evaluated. The events are selected on the
+basis of a series of selection cuts. This procedure enabled us to find thirteen events
+that fulfill all detection criteria. Additionally, three events were identified by a manual
+inspection of the light curves, although they did not meet all selection criteria. The
+sample of thirteen events is used for a later statistical analysis [20].
+     We also carried out extensive light curve simulations to measure the event detection
+efficiency as a function of the event timescale [20]. To this end, we created synthetic
+light curves of microlensing events by injecting the microlensing signal into the light
+curves of constant stars observed by the project. Then, we measured the fraction of
+simulated events that passed all selection criteria. This procedure enabled us to take
+into account the noise in the data, as well as the effects of irregular sampling, gaps in
+the data, outliers, etc.
+     We parameterize the fraction of the dark matter in the form of primordial black
+holes (PBHs) and other compact objects as f = MPBH /MDM , where MDM is the total
+mass of the dark matter halo, and MPBH is the total mass of PBHs in it [16]. We note
+that we expect to detect some gravitational microlensing events even if f = 0: they
+come from lensing objects located in the Milky Way disk and the LMC itself. The
+latter phenomenon is also called self-lensing [e.g., 23].
+     We found that all thirteen microlensing events detected in our survey can be
+explained by brown dwarfs, stars, and stellar remnants located in the LMC and the
+foreground Milky Way disk (Methods). We adopted the LMC model from ref. [14] with
+
+
+
+                                            2
+some modifications, and considered two Milky Way disk models by [24] and [25] (Meth-
+ods). We calculated the theoretical microlensing event rate and the event timescale
+distribution in each field analyzed by OGLE. Then, we estimated the expected number
+of events by multiplying the event rate by the duration of the observations, the num-
+ber of source stars, and the average event detection efficiency. In total, we expected
+to find 5.7 events due to LMC lenses and 7.0 or 14.7 events due to lenses in the Milky
+Way disk (depending on the adopted model), which can be compared to the total
+number of thirteen events in the final statistical sample. We also found that positions,
+timescales, and microlensing parallaxes of the detected events are consistent with the
+predictions of the adopted model (Methods).
+    To infer the constraints on the value of f , we calculated the expected number of
+events and their timescale distribution, assuming that the entire dark matter halo
+is composed of compact objects of the same mass M , and taking into account the
+measured event detection efficiency [20]. We assumed the contracted Milky Way halo
+model by [24] and the LMC halo model by [26] (Methods). The expected distributions
+of event timescales, for three example PBH masses (0.01, 1, and 100 M⊙ ) are presented
+                                                                                   √
+in Extended Data Figure 1a. The mean event timescales approximately scale as M
+and amount to 8, 70, and 600 days, respectively.
+                                        √            On the other hand, the theoretical
+event rate is inversely proportional to M .
+    Our experiment has the highest sensitivity to PBHs with masses of 0.01 M⊙ ; we
+should have detected more than 1100 events if the entire dark matter were composed of
+such objects. However, thanks to the long duration of observations, OGLE has a high
+sensitivity for even more massive objects. For M = 1 M⊙ , we should have detected 554
+events; for M = 10 M⊙ —258 events; for M = 100 M⊙ —99 events; for M = 1000 M⊙ —
+27 events. Additional information that can be used to further constrain the abundance
+of PBHs in the Milky Way and LMC haloes is included in the timescales of observed
+events (Methods).
+    Our 95% upper limits on PBHs (and other compact objects) as constituents of dark
+matter are presented in Figure 1. The solid red line marks the strict limits derived in
+this paper under the assumption that all gravitational microlensing events detected by
+OGLE in the direction of the LMC are due to known stellar populations in the LMC
+itself or the Milky Way disk. These limits are inversely proportional to the number of
+events expected if the entire dark matter was composed of compact objects of a given
+mass. As expected, the limits are strongest (f = 2.8 × 10−3 ) for M ≈ 0.01 M⊙ , for
+which the model predicts the largest number of expected events. The PBHs of mass
+M = 1 M⊙ may make up less than f = 0.55% of dark matter; M = 10 M⊙ —f = 1.2%;
+M = 100 M⊙ —f = 3.0%; M = 1000 M⊙ —f = 11%. The PBHs in the mass range
+1.8 × 10−4 M⊙ < M < 6.3 M⊙ cannot compose more than 1% of dark matter, and the
+PBHs in the mass range 1.3 × 10−5 M⊙ < M < 8.6 × 102 M⊙ cannot make up more
+than 10% of dark matter.
+    We also found that, thanks to the long duration of the survey and the large number
+of stars monitored, the derived limits weakly depend on the choice of the Milky Way
+halo model. In particular, we tested the dark matter halo model of [27] and found
+consistent results (as shown in Extended Data Figure 2a). The latter model was based
+
+
+
+
+                                           3
+on recent measurements of the rotation curve in the outer regions of the Milky Way
+by the Gaia satellite.
+    The dotted and dashed lines in Figure 1 mark the relaxed limits, for the derivation
+of which we did not make any assumptions about the origin of events. These limits
+only slightly depend on the choice of the Milky Way disk model. Overall, the differ-
+ences between different models are minimal for the least massive (M ≲ 10−4 M⊙ ) and
+the most massive (M ≳ 10 M⊙ ) PBHs, because we do not expect that known stellar
+objects would produce microlensing events with timescales that could be attributed
+to those by extremely low- or high-mass PBHs. In the intermediate mass range
+(10−4 M⊙ ≲ M ≲ 10 M⊙ ), microlensing events caused by PBHs may be mistaken
+with those caused by known stellar populations in the LMC or the Milky Way disk.
+Therefore, the relaxed limits are slightly weaker than the strict ones in this mass range.
+    Limits presented in Figure 1 are derived for a delta-function mass function of PBHs
+and, in principle, may become weaker if the underlying mass function is extended. Such
+extended mass functions of PBHs are frequently discussed in the context of binary
+black hole mergers discovered by gravitational wave detectors [10–12]. For example,
+the model presented by [10] predicts four peaks in the mass spectrum of PBHs at
+10−6 , 1, 30, and 106 M⊙ (Extended Data Figure 3a). These peaks would be associated
+with different phase transitions in the quark–gluon plasma filling the early universe
+(W ± /Z 0 decoupling, the quark–hadron transitions, and e+ e− annihilation), which are
+thought to enhance the formation of PBHs.
+    Several studies argue that such a multi-peak mass function of PBHs can naturally
+explain the observed merger rates of black hole binaries observed by gravitational wave
+detectors and a significant fraction (from several to 100%) of dark matter [e.g., 10–12].
+This hypothesis has one important prediction: PBHs in the Milky Way dark matter
+halo should cause long-timescale gravitational microlensing events that may last years.
+For example, if the entire dark matter was composed of PBHs with the mass spectrum
+described by the model of [10], we should have detected over 500 microlensing events
+(Extended Data Figure 3b). The non-detection gives us a 95% upper limit on the
+fraction of dark matter in the form of PBHs of f = 1.2% (assuming a Milky Way disk
+model by [24]). Similar limits of the order of 1% can be obtained for other multi-peak
+mass functions proposed in the literature. Our observations, therefore, demonstrate
+that PBHs with masses in the range 1 ≲ M ≲ 1000 M⊙ cannot comprise a significant
+fraction of the dark matter and, at the same time, explain the observed black hole
+merger rates as was argued by refs. [10–12].
+    Our observations provide limits on any compact objects that may compose dark
+matter, not just PBHs. In particular, neutron stars and stellar-origin black holes are
+estimated to make up less than 0.01% of the total Milky Way halo mass each [28, 29],
+well below the limits presented in this paper.
+
+References
+ [1] Abbott, B. P. et al. Observation of Gravitational Waves from a Binary Black
+     Hole Merger. Phys. Rev. Lett. 116, 061102 (2016).
+
+
+
+
+                                            4
+ [2] Abbott, B. P. et al. GWTC-1: A Gravitational-Wave Transient Catalog of Com-
+     pact Binary Mergers Observed by LIGO and Virgo during the First and Second
+     Observing Runs. Phys. Rev. X 9, 031040 (2019).
+
+ [3] Abbott, R. et al. Population Properties of Compact Objects from the Second
+     LIGO-Virgo Gravitational-Wave Transient Catalog. Astrophys. J. Lett. 913, L7
+     (2021).
+
+ [4] Belczynski, K., Holz, D. E., Bulik, T. & O’Shaughnessy, R. The first gravitational-
+     wave source from the isolated evolution of two stars in the 40-100 solar mass
+     range. Nature 534, 512–515 (2016).
+
+ [5] Askar, A., Szkudlarek, M., Gondek-Rosińska, D., Giersz, M. & Bulik, T. MOCCA-
+     SURVEY Database - I. Coalescing binary black holes originating from globular
+     clusters. Mon. Not. R. Astron. Soc. 464, L36–L40 (2017).
+
+ [6] Rodriguez, C. L., Amaro-Seoane, P., Chatterjee, S. & Rasio, F. A. Post-
+     Newtonian Dynamics in Dense Star Clusters: Highly Eccentric, Highly Spinning,
+     and Repeated Binary Black Hole Mergers. Phys. Rev. Lett. 120, 151101 (2018).
+
+ [7] Bird, S. et al. Did LIGO Detect Dark Matter? Phys. Rev. Lett. 116, 201301
+     (2016).
+
+ [8] Sasaki, M., Suyama, T., Tanaka, T. & Yokoyama, S. Primordial Black Hole
+     Scenario for the Gravitational-Wave Event GW150914. Phys. Rev. Lett. 117,
+     061101 (2016).
+
+ [9] Clesse, S. & Garcı́a-Bellido, J. The clustering of massive Primordial Black Holes
+     as Dark Matter: Measuring their mass distribution with advanced LIGO. Phys.
+     Dark Universe 15, 142–147 (2017).
+
+[10] Carr, B., Clesse, S., Garcı́a-Bellido, J. & Kühnel, F. Cosmic conundra explained
+     by thermal history and primordial black holes. Phys. Dark Universe 31, 100755
+     (2021).
+
+[11] Jedamzik, K.  Consistency of Primordial Black Hole Dark Matter with
+     LIGO/Virgo Merger Rates. Phys. Rev. Lett. 126, 051302 (2021).
+
+[12] Escrivà, A., Bagui, E. & Clesse, S. Simulations of PBH formation at the QCD
+     epoch and comparison with the GWTC-3 catalog. J. Cosmol. Astropart. P. 2023,
+     004 (2023).
+
+[13] Paczyński, B. Gravitational microlensing by the galactic halo. Astrophys. J. 304,
+     1–5 (1986).
+
+[14] Alcock, C. et al. The MACHO Project: Microlensing Results from 5.7 Years of
+     Large Magellanic Cloud Observations. Astrophys. J. 542, 281–307 (2000).
+
+
+
+                                           5
+[15] Tisserand, P. et al. Limits on the Macho content of the Galactic Halo from
+     the EROS-2 Survey of the Magellanic Clouds. Astron. Astrophys. 469, 387–404
+     (2007).
+
+[16] Wyrzykowski, L. et al. The OGLE view of microlensing towards the Magellanic
+     Clouds - IV. OGLE-III SMC data and final conclusions on MACHOs. Mon. Not.
+     R. Astron. Soc. 416, 2949–2961 (2011).
+
+[17] Blaineau, T. et al. New limits from microlensing on Galactic black holes in the
+     mass range 10 M⊙ < M < 1000M⊙ . Astron. Astrophys. 664, A106 (2022).
+
+[18] Udalski, A., Szymański, M. K. & Szymański, G. OGLE-IV: Fourth Phase of the
+     Optical Gravitational Lensing Experiment. Acta Astronom. 65, 1–38 (2015).
+
+[19] Udalski, A. The Optical Gravitational Lensing Experiment. Real Time Data
+     Analysis Systems in the OGLE-III Survey. Acta Astronom. 53, 291–305 (2003).
+
+[20] Mróz, P. et al. Microlensing optical depth and event rate toward the Large
+     Magellanic Cloud based on 20 years of OGLE observations. Astrophys. J. Suppl.
+     S. DOI: 10.3847/1538-4365/ad452e (2024).
+
+[21] Holtzman, J. A., Afonso, C. & Dolphin, A. The Local Group Stellar Populations
+     Archive from the Hubble Space Telescope WFPC2. Astrophys. J. Suppl. S. 166,
+     534–548 (2006).
+
+[22] Mróz, P. et al. No large population of unbound or wide-orbit Jupiter-mass planets.
+     Nature 548, 183–186 (2017).
+
+[23] Sahu, K. C. Stars within the Large Magellanic Cloud as potential lenses for
+     observed microlensing events. Nature 370, 275–276 (1994).
+
+[24] Cautun, M. et al. The milky way total mass profile as inferred from Gaia DR2.
+     Mon. Not. R. Astron. Soc. 494, 4291–4313 (2020).
+
+[25] Han, C. & Gould, A. Stellar Contribution to the Galactic Bulge Microlensing
+     Optical Depth. Astrophys. J. 592, 172–175 (2003).
+
+[26] Erkal, D. et al. The total mass of the Large Magellanic Cloud from its per-
+     turbation on the Orphan stream. Mon. Not. R. Astron. Soc. 487, 2685–2700
+     (2019).
+
+[27] Jiao, Y. et al. Detection of the Keplerian decline in the Milky Way rotation curve.
+     Astron. Astrophys. 678, A208 (2023).
+
+[28] Olejak, A., Belczynski, K., Bulik, T. & Sobolewska, M. Synthetic catalog of black
+     holes in the Milky Way. Astron. Astrophys. 638, A94 (2020).
+
+[29] Abramowicz, M., Bejger, M., Udalski, A. & Wielgus, M. A Robust Test of the
+
+
+                                           6
+     Existence of Primordial Black Holes in Galactic Dark Matter Halos. Astrophys.
+     J. Lett. 935, L28 (2022).
+
+[30] Niikura, H. et al. Microlensing constraints on primordial black holes with
+     Subaru/HSC Andromeda observations. Nature Astronomy 3, 524–534 (2019).
+
+
+      100
+                                                                                  MACHO+
+                                                                    OGLE-III       EROS
+                                                      EROS
+    10 1                    HSC
+f
+
+    10 2
+               OGLE-III + OGLE-IV 95% limits on PBHs:
+                      strict (no PBH lenses observed)                       This work
+                      relaxed (Cautun+ (2020) MW model)                     (OGLE-III + OGLE-IV)
+                      relaxed (Han & Gould (2003) MW model)
+    10103 12             10 9            10 6          10 3                 100             103
+                                                   M (M )
+Fig. 1 95% upper limits on PBHs (and other compact objects) as constituents of dark
+matter. The solid red line marks the limits derived in this paper under the assumption that all
+gravitational microlensing events detected by OGLE in the direction of the LMC are due to objects
+in the LMC itself or the Milky Way disk. If this assumption is relaxed, the limits (dotted and dashed
+lines) depend on the choice of the LMC and Milky Way disk model ([24] or [25], respectively). The gray
+lines mark the limits determined by the following surveys: EROS [15], OGLE-III [16], Hyper Suprime-
+Cam (HSC) [30], and MACHO+EROS [17]. The new limits are available online as Supplementary
+Table 1.
+
+
+
+
+                                                  7
+Methods
+Model
+Let us suppose that we have a sample of Nobs events and let tE,i be the Einstein
+timescale of the ith event. We use that information to measure f (or derive upper
+limits on f ) by maximizing the likelihood function defined as
+
+                                          Nobs                                   
+                           −Nexp (f,M )
+                                          Y            dΓ
+              L(f, M ) = e                       Ns ∆t     (tE,i , f, M ) ε(tE,i ) ,   (1)
+                                          i=1
+                                                       dtE
+
+where Ns is the number of microlensing sources observed in the experiment, ∆t is the
+duration of observations, and ε(tE ) is the event detection efficiency in the experiment
+(as a function of the Einstein timescale). Here dΓ/dtE is the differential event rate,
+which contains contributions from lenses in the Milky Way disk, LMC, and Milky Way
+and LMC dark matter haloes:
+                  dΓ     dΓMW halo                dΓLMC halo
+                      =f            (tE , M ) + f            (tE , M )
+                  dtE       dtE                       dtE
+                                                                                       (2)
+                        dΓMW disk          dΓLMC
+                      +           (tE ) +          (tE ) ,
+                          dtE               dtE
+
+and                                          Z
+                                             dΓ ′
+                    Nexp (f, M ) = Ns ∆t         (t , f, M ) ε(t′E )dt′E            (3)
+                                             dtE E
+is the expected number of events. Eq. (1) can be derived by dividing the observed
+event timescale distribution into infinitesimally small bins that contain either one or
+zero events, and assuming that the number of events detected in each bin follows the
+Poisson distribution. The microlensing event rate and the event timescale distribution
+are calculated following the standard approach [e.g., 31]. We describe the components
+of the model in the following subsections.
+
+Milky Way halo
+Our model is based on the contracted halo model of [24], which was inferred by fitting
+physically motivated models to the Gaia DR2 Galactic rotation curve and other data
+[32]. The model includes the effect of the contraction of the dark matter halo in the
+presence of baryons, which was observed in large galaxy formation simulations [e.g.,
+33–35]. The model predicts the total mass of the dark matter Milky Way halo of
+0.97 × 1012 M⊙ within 200 kpc.
+    We use the best-fitting model of [24] to predict the rotation curve of the Milky
+Way V0 (R) (which, by design, matches the Gaia data very well), where R is the
+Galactocentric radius. We assume that the distribution of velocities of halo particles (in
+the rest frame of the Galaxy) can be considered as Maxwellian
+                                                         √        [36] with the standard
+deviation of velocities in one direction equal to V0 (R)/ 2. (There is some evidence that
+(at least some) black holes may attain a large recoil velocity after a binary black hole
+merger [e.g., 37]. If all PBHs had such additional velocity, the derived limits would be
+
+
+                                                 8
+modified, such that they would be moved toward more massive PBHs.) Assuming that
+the Milky Way halo is composed of objects of identical mass M   p, the mean Einstein
+timescale of events predicted by the model is equal to tE = 62 d M/M⊙ , which is in
+good agreement with the predictions of models by [14] or [17].
+
+LMC halo
+The Gaia observations indicate that stars in the Orphan stream have velocity vectors
+that are significantly misaligned with the stream track [38]. Ref. [26] demonstrated
+that this effect can be explained by gravitational perturbations from the LMC, and
+inferred the total mass of the LMC of 1.49 × 1011 M⊙ (in the model with the spherical
+Milky Way, which can move in response to the LMC; ref. [26] also considered models
+with an oblate or a prolate Milky Way halo, which result in the LMC mass that is
+5 − 8% smaller). The total mass of the Milky Way in the [26] model (enclosed within a
+radius of 50 kpc) is 4.04 × 1011 M⊙ , which is in excellent agreement with that inferred
+from the [24] model of the Milky Way halo (4.1 × 1011 M⊙ ).
+    Following [26], we assume that the LMC halo can be modeled by a Hernquist profile
+with the total mass of 1.49 × 1011 M⊙ . The scale length is 17.1 kpc, and is taken so
+that the mass enclosed within 8.7 kpc matches the measured value of 1.7 × 1010 M⊙
+from [39].
+
+Milky Way disk
+For consistency with the Milky Way halo model presented above, we adopt the best-
+fitting thin and thick disk models from [24]. The stellar density is described by the
+double exponential profile with a scale height of 0.3 kpc (thin disk) or 0.9 kpc (thick
+disk) and a radial scale length of 2.63 kpc (thin disk) or 3.80 kpc (thick disk). The total
+masses of the thin and thick disks are 3.18×1010 M⊙ and 0.92×1010 M⊙ , respectively.
+As an alternative, we also consider the thin and thick Milky Way disk models of [25].
+The scale heights in the model are 0.156 kpc (thin disk) and 0.439 kpc (thick disk),
+the scale length is 2.75 kpc for both think and thick disk. The total masses of the thin
+and thick disks are 0.98 × 1010 M⊙ and 0.60 × 1010 M⊙ , respectively. We assume that
+stars in the Milky Way disk follow the circular velocity curve derived above with a
+dispersion of 30 km s−1 in each direction. We adopt the mass function of [40].
+
+LMC
+To take into account the effects of self-lensing by stars located within the LMC itself,
+we adopt the LMC disk and bar models of [41] and [14] with some slight modifications.
+The disk is modeled as a double exponential profile with the scale length of 1.8 kpc
+and the scale height of 0.3 kpc [41], the inclination and position angle of 25◦ and 132◦ ,
+respectively [42]. The bar is modeled as a triaxial Gaussian with the scale lengths of
+xb = 1.2, yb = zb = 0.44 kpc along the three axes [41, 43, 44]. We adopt the total
+stellar mass (disk + bar) of the LMC of 2.7 × 109 M⊙ [45], and the bar-to-disk mass
+ratio of 0.2 [46, 47]. We adopt the LMC distance of 49.59 kpc [42]. We assume that the
+stellar mass function is identical to that of the Milky Way. We use an empirical model
+of the kinematics of stars in the LMC, which is based on Gaia EDR3 data (see below).
+
+
+                                            9
+Limits on the PBH abundance
+Limits under the hypothesis that all microlensing events detected
+by OGLE can be explained by known stellar populations
+We start by deriving upper limits on the PBH abundance by assuming that all detected
+events can be explained by the known stellar populations located in the Milky Way
+disk or the LMC itself. In other words, we assume that we did not see any events due
+to dark matter in the form of compact objects. In this case, the likelihood function
+(Eq. (1)) simplifies to:
+                                 L(f, M ) = e−Nexp (f,M ) ,                         (4)
+where Nexp (f, M ) is the expected number of microlensing events, defined in Eq. (3).
+    Extended Data Figure 1b shows the number of gravitational microlensing events
+expected to be detected by OGLE if the entire dark matter were composed of compact
+objects of a given mass. The blue and red lines in Figure 1b mark the expected number
+of events that originate from lenses in the Milky Way and LMC haloes, respectively.
+For PBHs more massive than 0.1 M⊙ , Milky Way halo lenses contribute to ≈ 70% of
+the expected events. For lower masses, LMC halo lenses start to dominate, because the
+LMC events generally have longer timescales than those by Milky Way halo objects
+and so are easier to detect. The thin solid lines in Figure 1b show the contribution
+from fields observed during both the OGLE-III and OGLE-IV phases (from 2001 to
+2020), while dashed lines—fields observed during OGLE-IV only (from 2010 to 2020).
+The latter contribute less than 10% of the sensitivity of the experiment, because they
+are located on the outskirts of the LMC (and therefore contain fewer source stars) and
+were observed for a shorter period of time.
+    Given the likelihood function L(f, M ) (Eqs. (1) and (4)) and our model, we employ
+the Bayes’ theorem to derive the posterior distribution for PBH abundance P (f |M ):
+
+                               P (f |M ) ∝ L(f, M )P0 (f ),                          (5)
+
+where P0 (f ) is a flat (uniform) prior on f ∈ [0, 10]. We use the Markov chain Monte
+Carlo (MCMC) sampler of [48] to sample from the posterior and derive 95% upper
+limits on f as a function of the PBH mass M . To speed up the calculations, we
+first evaluate ln L(f, M ) on a grid of 101 logarithmically spaced masses ranging from
+10−6 M⊙ to 104 M⊙ and 101 logarithmically spaced values of f from 10−4 to 10, and
+use the linear interpolation to calculate the likelihood between the grid points.
+
+Can all microlensing events detected by OGLE be explained by
+non-dark-matter objects?
+In this section, we would like to verify our assumption that all gravitational microlens-
+ing events detected by OGLE in the direction of the LMC can be explained by
+known stellar populations. We show that the presented simple models of the LMC and
+the Milky Way disk are capable of explaining the number and properties (positions,
+timescales, parallaxes) of virtually all gravitational microlensing events detected in
+our experiment [49, 50]. We emphasize that we did not attempt to construct a perfect
+Milky Way/LMC model nor we did not fit the components of that model to match
+
+
+                                           10
+the data ideally, which would be beyond the scope of this work. Our main goal is to
+measure the contribution of compact objects to dark matter and study how the choice
+of an astrophysical model affects our limits on the PBH abundance.
+    First, we use our fiducial model of the Milky Way disk and the LMC to calculate the
+theoretical microlensing event rate and the event timescale distribution in each field
+analyzed by OGLE. Then, we estimate the expected number of events in each field by
+multiplying the event rate by the duration of the observations, the number of source
+stars, and the average event detection efficiency (Eq. (3)). The results are summarized
+in Extended Data Table 1, separately for fields observed during both the OGLE-III
+and OGLE-IV phases (2001–2020) and observed by OGLE-IV only (2010–2020).
+    We expect to detect 5.7 microlensing events due to self-lensing by stars in the LMC
+itself and 7.0 or 14.7 events due to stars in the Milky Way disk (assuming disk models
+by [25] or [24], respectively). The total mass of the Milky Way disk in the latter model
+is 2.6 times larger than in the former, which explains why the model predicts twice as
+many microlensing events. In total, we expect 12.7 or 20.4 events, depending on the
+Milky Way disk model, which can be compared to the total number of thirteen events
+in the final statistical sample of [20]. The Milky Way disk model of [25] is clearly
+favored, although the model of [24] is still allowed, because the Poisson probability
+of observing 13 events given the expected 20.4 or more events is 5.6%. See Extended
+Data Figure 4.
+    Extended Data Figure 5 shows the number of events due to known stellar popu-
+lations in the LMC and Milky Way disk expected to be detected in each OGLE field.
+Most events are expected to be found in the central regions of the LMC, where the
+self-lensing event rate is highest and the number of source stars is largest. Approx-
+imately 80% of the events are expected to be located within 3 deg from the LMC
+center (defined by [51]) in both the [25] and [24] models. There are two events in
+the [20] sample that are located more than 3 deg of the LMC center, OGLE-LMC-16
+(3.2 deg) and OGLE-LMC-17 (4.9 deg), in excellent agreement with the predictions of
+the [25] model (2.5 events). The cumulative distribution of the angular distances of
+the detected events from the LMC center matches that expected from both models,
+with p-values of 0.29 and 0.16 for the [25] and [24] models, respectively.
+    The distribution of Einstein timescales of events that are expected to be detected
+by OGLE (taking into account the detection efficiencies in a given field) is presented in
+Extended Data Figure 6ab. 80% of the expected events should have timescales between
+26 and 417 d in the [25] model (between 25 and 316 d in the [24] model). Events with
+lenses located in the LMC are expected to have generally longer timescales than those
+originating from the Milky Way disk lenses, because the relative lens-source proper
+motions are smaller.
+    The timescales of the detected events generally match those expected from the
+model (Extended Data Figure 6ab). However, three events in the sample have
+timescales shorter than 25 d (OGLE-LMC-08: tE = 13.5+6.0    −4.0 d, OGLE-LMC-13: tE =
+    +2.0                                +1.9
+7.0−1.1 d, OGLE-LMC-17: tE = 13.8−1.1 d), whereas the model predicts that about
+10% of all events (that is, 1.3) should fall in this range. It is possible that this is due
+to a statistical fluctuation, the Poisson probability of observing three events given the
+expected 1.3 events is about 10%. The model may also underpredict the number of
+
+
+                                            11
+low-mass lenses or the number of high-proper motion objects, both of which contribute
+to the population of short-timescale microlensing events.
+    Extended Data Figure 6cd shows the distribution of the microlensing parallaxes of
+events expected to be detected in our experiment, assuming the Milky Way disk models
+by [25] and [24]. In both cases, the πE distributions are clearly bimodal: the two peaks
+correspond to two distinct populations of lenses, those in the Milky Way disk, and those
+in the LMC [49]. The Milky Way disk lenses are located nearby, and so their microlens
+parallaxes are relatively large; they peak at πE ≈ 0.5. The second population of lenses
+that reside in the LMC is characterized by small parallaxes (typically πE ≈ 0.01). The
+different values of the parallaxes are consistent with our expectations. For the same
+                                                    √
+lens mass, the microlens parallax scales as πE ∝ πrel , where πrel is the relative lens–
+source parallax. For events with Milky Way disk lenses, πrel ≈ 1/Dl ≈ 1 mas. For the
+LMC lenses, πrel ≈ ∆D/Ds2 ≈ 1/2500 mas, where ∆D ≈ 1 kpc is the thickness of the
+LMC disk, so the LMC self-lensing events should have microlensing parallaxes that
+are about 50 times smaller than the Milky Way disk events, which is consistent with
+the simulations presented in Extended Data Figure 6cd.
+    The statistical sample of [20] contains four events with reliably measured microlens-
+ing parallaxes. This does not mean that the remaining events have parallaxes close to
+zero; rather, these events are too short or too faint to robustly measure the microlens
+parallax. However, whenever the parallax is clearly detected in the light curve and its
+value is larger than πE ≈ 0.1, the lensing object is very likely to be located in the
+Milky Way disk.
+
+Full limits on PBHs
+The Einstein timescales of detected events carry information that can be used to fur-
+ther constrain the abundance of PBHs in the Milky Way and LMC haloes. According
+to Extended Data Figure 1b, if the entire dark matter was composed of black holes of
+2200 M⊙ , we ought to detect thirteen microlensing events. However, the typical Ein-
+stein timescales of these events should be on the order of 9 yr, in stark contrast to the
+observed values.
+    To take into account the information included in the timescales of the detected
+events, we evaluate the full likelihood function defined in Eq. (1). We follow the same
+procedure as above. We calculate ln L(f, M ) on a grid of 101 logarithmically spaced
+masses ranging from 10−6 M⊙ to 104 M⊙ and 101 logarithmically spaced values of f
+from 10−4 to 10.
+    Although most of the detected events have precisely measured timescales, the frac-
+tional error bar on tE may be larger than 20% for some events. Thus, we replace
+the term ε(tE,i )dΓ/dtE (tE,i , f, M ) in the definition of L(f, M ) by the mean over Ni
+samples from the posterior distribution of tE,i :
+
+                             Ni                               
+                          1 X               dΓ
+                                  ε(tE,ik )     (tE,ik , f, M ) ,                    (6)
+                          Ni                dtE
+                              k=1
+
+where the index i denotes the ith event and the index k runs from 1 through Ni =
+2 × 105 .
+
+                                            12
+    Extended Data Figure 7 shows the contours of the log-likelihood function, sepa-
+rately for the [25] and [24] models. Regardless of the model chosen, it is clear there
+is no evidence that PBHs in the mass range 10−6 M⊙ < MPBH < 104 M⊙ comprise
+a measurable fraction of the dark matter mass. For the [25] model, the likelihood is
+highest for (log M, log f ) = (−1.5, −2.55). However, the model with log f = −4 is dis-
+favored by only ∆χ2 ≡ 2(ln Lmax − ln L) ≈ 3.7. Similarly, for the second model, the
+likelihood is highest for (log M, log f ) = (−1.8, −2.85), and the model with log f = −4
+is disfavored only by ∆χ2 ≈ 1.5.
+    We found that the highest-likelihood grid point has log f > −4 mostly due to
+one event, OGLE-LMC-13, which has the shortest timescale in the sample of only
+          +2.0
+tE = 7.0−1.1   d. Indeed, such a short-timescale event seems to be very rare in our
+simulations (Extended Data Figure 6ab). If the event is removed from the sample,
+models with log f = −4 are disfavored by less than ∆χ2 ≈ 1.5.
+    We calculate the posterior distribution for the PBH abundance P (f |M ) using the
+MCMC approach. Our 95% upper limits on the PBH abundance in dark matter are
+presented in Figure 1 by dashed ([25] model) and dotted ([24] model) lines, and they
+can be compared to those derived above (solid red line in Figure 1). Overall, the
+differences are very small for the least massive (MPBH ≲ 10−4 M⊙ ) and the most
+massive (MPBH ≳ 10 M⊙ ) PBHs, because we do not expect that ordinary lenses would
+produce microlensing events with timescales that could be attributed to those by
+extremely low- or high-mass PBHs.
+    In the intermediate mass range (10−4 M⊙ ≲ MPBH ≲ 10 M⊙ ), microlensing events
+caused by PBHs may be mistaken with those caused by known stellar populations in
+the LMC or the Milky Way disk. Therefore, the derived limits are slightly weaker.
+The difference between the 95% upper limits on PBHs calculated assuming the [25]
+Milky Way disk model and those calculated above is the largest for log M = −0.6 and
+amounts to ∆ log f = 0.59 dex (that is, the limits are about a factor of 3.9 weaker).
+The choice of the Milky Way model may also slightly affect the derived limits. The
+difference between the 95% upper limits on PBHs calculated assuming the [25] and
+the [24] models is greatest for log M = −0.1 and equals to ∆ log f = 0.18 dex at that
+mass.
+
+Discussion
+The limits on the PBH abundance that are presented in the previous section (and
+in Figure 1) are calculated based on a full statistical sample of thirteen microlensing
+events detected over 20 years of the OGLE observations of the LMC [20]. As discussed
+in a companion paper [20], the sample includes all microlensing events with source stars
+brighter than I = 22 mag. Likewise, the detection efficiencies ε(tE ) and the number of
+source stars Ns used in the calculations include only sources brighter than I = 22 mag.
+However, the event detection efficiency rapidly drops with the brightness of source
+stars; the fainter the source, the lower the chances of detecting the microlensing event.
+Faint source stars are additionally more difficult to count because of the increased
+amount of blending from unrelated stars [20]. As a result, although the final sample
+of events is larger, there is a risk of introducing unknown systematic errors in the
+analysis.
+
+
+                                           13
+    Events with brighter source stars should be less prone to such systematic effects.
+Therefore, we check how our results depend on the adopted limiting magnitude. We
+re-calculate the detection efficiency for all fields and the number of source stars for lim-
+iting magnitudes of I = 21 and I = 21.5 mag. Then, we follow the methods described
+above to infer the 95% upper limits on the PBH abundance. The results of the calcula-
+tions are presented in Extended Data Figure 2b. Red and blue lines in Extended Data
+Figure 2b mark the limits for the limiting magnitudes of 21 and 21.5 mag, respectively,
+whereas black lines indicate the original limits calculated for the limiting magnitude
+of 22 mag.
+    As expected, the differences between the inferred limits are relatively small. The
+limits for the limiting magnitudes of 21.5 and 22 mag differ by at most ∆ log f =
+−0.10 dex, for the limiting magnitudes of 21 and 22 mag—by at most ∆ log f =
+−0.20 dex. This demonstrates that possible systematic effects related to the inclusion
+of faint source stars are very small and do not influence our conclusions.
+    The recent studies of the Galactic rotation curve by [27] and [52] seem to indicate
+that the mass of the dark matter Milky Way halo may be smaller than in the adopted
+model. In the first-order approximation, our limits on PBHs are inversely proportional
+to the microlensing optical depth (the larger the optical depth, the stronger the limits).
+The microlensing optical depth toward the center of the LMC in our fiducial Milky
+Way dark matter halo model [24] is 4.4 × 10−7 . If we use the “B2” halo model of [27]
+(with the Einasto profile of index 0.43), then the optical depth toward the center of
+the LMC is approximately 4.2 × 10−7 , and our limits on PBHs as dark matter are very
+similar to those calculated with the fiducial model (Extended Data Figure 2a). For the
+best-fit model from [52] (Einasto profile of index 1.1), the optical depth is 4.1 × 10−7 .
+    Because the distribution of dark matter predicted by halo models of [27] and [52]
+is more compact than in our fiducial model, the mean distance to the lens (in the
+direction of the LMC center) is shorter: ⟨Dl ⟩ = 7.6 kpc [27], 8.5 kpc [52], 12.5 kpc [24].
+Therefore, both angular Einstein radii and relative lens–source proper motions are
+larger. These two effects nearly cancel each other out, and the resulting mean Einstein
+timescales and event rates are very similar in all three models considered [24, 27, 52].
+
+LMC proper motion and rotation
+We use the Gaia EDR3 data [53, 54] to measure the mean LMC proper motion and
+to devise a simple model of the LMC rotation. The proper motion and rotation of
+the LMC (and other nearby dwarf galaxies) were extensively studied by [55] based on
+Gaia DR2 data and here we closely follow their approach. We select stars brighter
+than G = 19 that are located within 8 deg of the dynamical center of the Hi LMC
+disk (α0 = 78.77◦ , δ0 = −69.01◦ ) [39, 55], have a reliable astrometric solution (with
+RUWE ≤ 1.4), and have parallaxes consistent with that of the LMC (ϖ ≤ 1 mas and
+ϖ/σϖ ≤ 10), in total about 4.8 million sources. We then calculate the positions x,
+y and proper motions µx , µy of all stars in an orthographic projection centered at
+
+
+
+
+                                            14
+(α0 , δ0 ) using equations:
+
+                      x = cos δ sin(α − α0 ),
+                      y = sin δ cos δ0 − cos δ sin δ0 cos(α − α0 ),
+                    µx =µα cos(α − α0 ) − µδ sin δ sin(α − α0 ),                    (7)
+                    µy =µα sin δ0 sin(α − α0 )
+                          + µδ (cos δ cos δ0 + sin δ sin δ0 cos(α − α0 )).
+
+The median proper motions of the selected stars are presented in Extended Data
+Figure 8.
+     The median proper motion of the LMC (which is determined using stars located
+within 5◦ of the dynamical center) is µx = 1.851 ± 0.340 mas yr−1 and µy = 0.277 ±
+0.382 mas yr−1 , in good agreement with the results of [55]. Here the uncertainties
+denote the dispersion of proper motions in a given direction. This corresponds to µl =
+−0.662 ± 0.381 mas yr−1 and µb = 1.751 ± 0.342 mas yr−1 in the Galactic coordinates.
+     The proper motion pattern seen in the middle and bottom panels of Extended Data
+Figure 8 reflects the rotation of the LMC and, in the first order, can be approximated
+by the central value and two gradients. Additional striping pattern of lower amplitude
+is indicative of small-scale systematics in Gaia EDR3 [56]. To minimize their influence,
+we calculate the median proper motion (and its dispersion) in 100 × 100 bins in the
+range |x| ≤ 0.15 rad and |y| ≤ 0.15 rad and fit the following linear model to the binned
+data:
+                                            ∂µx    ∂µx
+                                µx = µx,0 +     x+     y,
+                                            ∂x     ∂y
+                                                                                    (8)
+                                            ∂µy    ∂µy
+                                µy = µy,0 +     x+     y.
+                                             ∂x     ∂y
+
+The six fit coefficients are determined using the least squares approach using bins
+with at least 10 stars. The model is fit in 7 annuli with a width of 1 deg. The best-fit
+parameters are presented in Extended Data Table 2.
+
+Data availability
+The data used to perform the analysis (event detection efficiencies, source star
+counts, posterior distributions of event parameters) are publicly available at https:
+//www.astrouw.edu.pl/ogle/ogle4/LMC OPTICAL DEPTH/ and Zenodo (https://
+zenodo.org/doi/10.5281/zenodo.10879576).
+
+Code availability
+The custom codes for the simulation of microlensing events toward the LMC and the
+calculation of limits on PBHs as dark matter are available upon request from the
+corresponding author.
+
+
+
+                                                15
+References
+[31] Clanton, C. & Gaudi, B. S. Synthesizing Exoplanet Demographics from Radial
+     Velocity and Microlensing Surveys. I. Methodology. Astrophys. J. 791, 90 (2014).
+
+[32] Eilers, A.-C., Hogg, D. W., Rix, H.-W. & Ness, M. K. The Circular Velocity
+     Curve of the Milky Way from 5 to 25 kpc. Astrophys. J. 871, 120 (2019).
+
+[33] Schaye, J. et al. The EAGLE project: simulating the evolution and assembly of
+     galaxies and their environments. Mon. Not. R. Astron. Soc. 446, 521–554 (2015).
+
+[34] Fattahi, A. et al. The APOSTLE project: Local Group kinematic mass constraints
+     and simulation candidate selection. Mon. Not. R. Astron. Soc. 457, 844–856
+     (2016).
+
+[35] Grand, R. J. J. et al. The Auriga Project: the properties and formation mecha-
+     nisms of disc galaxies across cosmic time. Mon. Not. R. Astron. Soc. 467, 179–207
+     (2017).
+
+[36] Griest, K. et al. Gravitational microlensing as a method of detecting disk dark
+     matter and faint disk stars. Astrophys. J. Lett. 372, L79–L82 (1991).
+
+[37] Varma, V. et al. Evidence of Large Recoil Velocity from a Black Hole Merger
+     Signal. Phys. Rev. Lett. 128, 191102 (2022).
+
+[38] Koposov, S. E. et al. Piercing the Milky Way: an all-sky view of the Orphan
+     Stream. Mon. Not. R. Astron. Soc. 485, 4726–4742 (2019).
+
+[39] van der Marel, R. P. & Kallivayalil, N. Third-epoch Magellanic Cloud Proper
+     Motions. II. The Large Magellanic Cloud Rotation Field in Three Dimensions.
+     Astrophys. J. 781, 121 (2014).
+
+[40] Kroupa, P. On the variation of the initial mass function. Mon. Not. R. Astron.
+     Soc. 322, 231–246 (2001).
+
+[41] Gyuk, G., Dalal, N. & Griest, K. Self-lensing Models of the Large Magellanic
+     Cloud. Astrophys. J. 535, 90–103 (2000).
+
+[42] Pietrzyński, G. et al. A distance to the Large Magellanic Cloud that is precise to
+     one per cent. Nature 567, 200–203 (2019).
+
+[43] Jetzer, P., Mancini, L. & Scarpetta, G. Microlensing towards the Large Magellanic
+     Cloud. Astron. Astrophys. 393, 129–147 (2002).
+
+[44] Sajadian, S. On the detection of free-floating planets through microlensing
+     towards the Magellanic Clouds. Mon. Not. R. Astron. Soc. 506, 3615–3628
+     (2021).
+
+
+
+                                          16
+[45] van der Marel, R. P., Alves, D. R., Hardy, E. & Suntzeff, N. B. New Understanding
+     of Large Magellanic Cloud Structure, Dynamics, and Orbit from Carbon Star
+     Kinematics. Astron. J. 124, 2639–2663 (2002).
+
+[46] Mancini, L., Calchi Novati, S., Jetzer, P. & Scarpetta, G. LMC self-lensing from
+     a new perspective. Astron. Astrophys. 427, 61–77 (2004).
+
+[47] Calchi Novati, S., Mancini, L., Scarpetta, G. & Wyrzykowski, L. Large Magellanic
+     Cloud self-lensing for OGLE-II microlensing observations. Mon. Not. R. Astron.
+     Soc. 400, 1625–1631 (2009).
+
+[48] Foreman-Mackey, D., Hogg, D. W., Lang, D. & Goodman, J. emcee: The MCMC
+     Hammer. Publ. Astron. Soc. Pac. 125, 306 (2013).
+
+[49] Gould, A., Miralda-Escude, J. & Bahcall, J. N. Microlensing Events: Thin Disk,
+     Thick Disk, or Halo? Astrophys. J. Lett. 423, L105 (1994).
+
+[50] Evans, N. W. & Kerins, E. Is the Large Magellanic Cloud a Large Microlensing
+     Cloud? Astrophys. J. 529, 917–924 (2000).
+
+[51] Kim, S. et al. An H I Aperture Synthesis Mosaic of the Large Magellanic Cloud.
+     Astrophys. J. 503, 674–688 (1998).
+
+[52] Ou, X., Eilers, A.-C., Necib, L. & Frebel, A. The dark matter profile of the Milky
+     Way inferred from its circular velocity curve. Mon. Not. R. Astron. Soc. 528,
+     693–710 (2024).
+
+[53] Gaia Collaboration et al. The Gaia mission. Astron. Astrophys. 595, A1 (2016).
+
+[54] Gaia Collaboration et al. Gaia Early Data Release 3. Summary of the contents
+     and survey properties. Astron. Astrophys. 649, A1 (2021).
+
+[55] Gaia Collaboration et al. Gaia Data Release 2. Kinematics of globular clusters
+     and dwarf galaxies around the Milky Way. Astron. Astrophys. 616, A12 (2018).
+
+[56] Lindegren, L. et al. Gaia Early Data Release 3. The astrometric solution. Astron.
+     Astrophys. 649, A2 (2021).
+
+Acknowledgements
+We thank all the OGLE observers for their contribution to the collection of the pho-
+tometric data over the decades. We thank T. Bulik for insightful comments on the
+manuscript. This research was funded in part by National Science Centre, Poland,
+grant OPUS 2021/41/B/ST9/00252 awarded to P.M.
+
+
+
+
+                                          17
+Author contributions
+P.M. led the analysis and interpretation of the data and wrote the manuscript. A.U.
+is the PI of the OGLE project, and was responsible for the data reduction. All
+authors collected the OGLE photometric observations, and reviewed, discussed, and
+commented on the presented results and on the manuscript.
+
+Competing interests
+The authors declare no competing interests.
+
+Additional information
+Correspondence and requests for materials should be addressed to Przemek
+Mróz (pmroz@astrouw.edu.pl).
+Reprints      and      permissions information      is    available   at
+http://www.nature.com/reprints.
+
+
+
+
+                                        18
+             a                                                                PBH (0.01 M )
+                                                                              PBH (1 M )
+                               102
+
+
+
+
+   Expected number of events
+                                                                              PBH (100 M )
+
+
+                               101
+
+                               100
+
+                          10 1
+
+                          10 2
+                                     1      10           100           1000             10000
+                                                        tE (d)
+             b                                                           MW (O-III+O-IV)
+                                                                         MW (O-IV only)
+                               103
+
+
+
+
+   Expected number of events
+                                                                         LMC (O-III+O-IV)
+                                                                         LMC (O-IV only)
+                                                                         Total (O-III+O-IV)
+
+                               102
+
+
+                               101
+
+
+                               100 6
+                                 10      10 4    10 2            100     102              104
+                                                   Mass (M )
+Extended Data Figure 1 Expected number of microlensing events from a PBH dark
+matter halo. a, Number of microlensing events as a function of their Einstein timescale that should
+have been discovered by OGLE assuming that the entire dark matter were composed of PBHs of
+0.01 (red), 1 (blue), and 100 M⊙ (green). b, Number of gravitational microlensing events expected
+to be detected by OGLE if entire dark matter were composed of compact objects of a given mass
+Nexp (f = 1, M ). Thin solid lines correspond to fields observed during OGLE-III and OGLE-IV phases
+(from 2001 to 2020), dashed lines – fields observed during OGLE-IV only (from 2010 to 2020). Blue
+lines mark the contribution from the Milky Way dark matter halo, red lines – the LMC dark matter
+halo.
+
+
+
+                                                        19
+             a 100
+
+                10 1
+
+
+           f    10 2
+
+
+                10 3
+                          OGLE-III + OGLE-IV limits on PBHs:
+                                Cautun+20 halo
+                                Jiao+23 halo
+
+                10 4 6
+                   10                  10 3            100                  103
+                                                  M (M )
+             b 100
+
+                10 1
+
+
+           f    10 2
+
+
+                10 3
+                       OGLE-III + OGLE-IV limits on PBHs:   Limiting magnitude:
+                             strict                         I = 22 mag
+                             relaxed (Cautun+ model)        I = 21.5 mag
+                             relaxed (Han & Gould model) I = 21 mag
+                10 4 6
+                   10               10 3                100              103
+                                                  M (M )
+Extended Data Figure 2 95% upper limits on PBHs as constituents of dark matter. a,
+Dependence of the limits on the Milky Way halo model. The black solid line marks limits for the
+Cautun et al. (2020) [24] model. The blue dashed line—Jiao et al. (2023) [27] model. b, Limits as a
+function of the limiting magnitude.
+
+
+
+                                                20
+        a 100                                                                 b 102
+
+
+
+
+                                                                      Expected number of events
+                        10 1
+                                                                                                   101
+f                       10 2
+                                                                                                   100
+                        10 3
+
+                        10 4 8                                                                    10 1
+                           10           10 4       1    104     108                                      1   10      100      1000   10000
+                                               M (M )                                                               tE (d)
+
+ Extended Data Figure 3 Predictions for a multi-peak PBH mass function. a, Multi-peak
+ mass function of PBHs from [10] (assuming spectral index ñs = 0.960). b, Expected distribution of
+ event timescales assuming that the entire dark matter is composed of PBHs with the mass function
+ from [10]. In total, we should have detected 513 microlensing events.
+
+
+
+
+                             0.12
+                                                                                                                  Cautun+2020
+                                                                                                                  Nexp = 20.4
+                                                                                                                  (p = 0.056)
+
+
+
+
+Probability P(k = 13|Nexp)
+                             0.08
+
+
+                             0.04
+                                                                              Han & Gould 2003
+                                                                              Nexp = 12.7
+                                                                              (p = 0.61)
+                             0.00
+                                    0          5          10         15          20                                          25        30
+                                                        Number of expected events Nexp
+
+ Extended Data Figure 4 Poisson probability of observing 13 events as a function of the
+ expected number of events in the model. The blue and red dashed lines mark the models by
+ [24] and [25], respectively.
+
+
+
+
+                                                                      21
+                            0.0 0.0 0.0
+                               0.0 0.0 0.0           60                              4h
+             6 h                                                    0.0
+                                 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+   55                               0.0 0.0 0.0 0.0 0.0 0.0                                   65
+                                                                         0.0 0.0
+                                0.0 0.0 0.0 0.0 0.0 0.0 0.0
+                                                                            0.0
+                             0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+                          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+                                                                             0.0                   100
+
+
+
+
+                                                                                                         Expected number of events
+                             0.0 0.0 0.0 0.0 0.1 0.1 0.1 0.0 0.0
+                                                0.1 0.1 0.2 0.3 0.1 0.00.0                    70
+                          0.0 0.0 0.0 0.1
+                                                   0.1 0.3 0.9 0.3 0.1
+                             0.0 0.0 0.0 0.1                                    0.0
+                                                0.2  0.5 2.4 0.7 0.1 0.0
+                                0.0 0.0 0.1                                       0.0
+                                                        1.6 0.7 0.2 0.0 0.0
+                                   0.0 0.0 0.1 0.3                                  0.0
+                                                0.1 0.6 0.5 0.1 0.1 0.0 0.0 0.0               75
+                                 0.0 0.0 0.1
+                                                  0.0 0.2 0.1 0.0 0.0 0.0 0.0
+                                    0.0 0.0 0.0
+                                                          0.0 0.0 0.0 0.0 0.0 0.0
+                                            0.0 0.0 0.0
+                                                             0.0 0.0 0.0 0.0 0.0 0.0
+ 8h                            0.0
+                                     0.0
+                                   0.0
+                                         0.0
+                                              0.0 0.0   0.0
+                                                      0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+                                                          0.0                                      10 1
+                         0.0
+                              0.0
+                                   0.0
+                                        0.0
+                                             0.0
+                                                        0.0 0.0
+                                                                   0.0 0.0 0.0 0.0 0.0        80
+                              0.0      0.0                       0.0   0.0 0.0 0.0 0.0 0.0
+                                                            0.0
+                         0.0      0.0                                0.0  0.0 0.0 0.0 0.0
+                    0.0       0.0                               0.0
+                         0.0       0.0                              0.0 0.0 0.0 0.0 0.0 0.0
+                     0.0      0.0                                                 0.0
+                 0.0
+                          0.0
+                               0.0                                                            85
+                      0.0
+                           0.0
+                  0.0 0.0
+                             0.0
+  Han & Gould (2003) model
+                                                                                                   10 2
+Extended Data Figure 5 Expected number of microlensing events from known stellar
+populations in the LMC and Milky Way disk in OGLE-IV fields. The Milky Way disk model
+used in calculations is from Han & Gould (2003) [25]. Black asterisks mark events that are a part of
+the statistical sample of [20], black dots mark other events.
+
+
+
+
+                                                                  22
+        a                                                                        b
+                                      Milky Way disk                                      Milky Way disk
+                                      (Han & Gould 2003)                                  (Cautun+2020)
+                            100       LMC                                                 LMC
+                                      Total                                               Total
+
+
+
+
+Expected number of events
+                                                                                  100
+
+
+
+
+                       10 1
+                                                                                 10 1
+
+
+
+
+                       10 2                                                    10 2
+                                  1      10           100          1000    10000 1           10            100          1000    10000
+                                                   tE (d)                                              tE (d)
+         c                                                                       d
+                                      Milky Way disk                                      Milky Way disk
+                                      (Han & Gould 2003)                                  (Cautun+2020)
+                            1.0       LMC                                         2.0     LMC
+
+
+
+
+Expected number of events
+                            0.8                                                   1.6
+
+                            0.6                                                   1.2
+
+                            0.4                                                   0.8
+
+                            0.2                                                   0.4
+
+                            0.0 4                                                 0.0 4
+                              10      10 3     10 2         10 1     100   101      10    10 3     10 2          10 1     100    101
+                                                       E                                                    E
+
+
+Extended Data Figure 6 Expected distributions of timescales and parallaxes of
+microlensing events from known stellar populations in the LMC and Milky Way disk.
+a, b, Expected distributions of Einstein timescales for the Han & Gould (2003) [25] and Cautun et
+al. (2020) [24] Milky Way disk models. Vertical blue lines mark the detected events. c, d, Expected
+distributions of microlensing parallaxes.
+
+
+
+
+                                                                            23
+           a 100
+                                                                             68.7
+
+             10 1                                                            53.4
+                                                                             40.1
+                                                                                   ln max)
+                                                                             28.7
+        f    10 2
+                                                                             19.3  2(ln
+                                                                             11.8  2
+             10 3                                                            6.2
+                                                                             2.3
+                      Han & Gould (2003)
+             10 4 6                                                          0.0
+                10              10 3          100               103
+                                         M (M )
+           b 100
+                                                                             68.7
+
+             10 1                                                            53.4
+                                                                             40.1
+                                                                                   ln max)
+                                                                             28.7
+        f    10 2
+                                                                             19.3  2(ln
+                                                                             11.8  2
+             10 3                                                            6.2
+                                                                             2.3
+                      Cautun et al. (2020)
+             10 4 6                                                          0.0
+                10              10 3          100               103
+                                         M (M )
+Extended Data Figure 7 Contours of the likelihood function (Eq. 1). a, Contours for the
+Han & Gould (2003) [25] Milky Way disk model. b, Contours for the Cautun et al. (2020) [24] Milky
+Way disk model. The color codes the difference ∆χ2 ≡ 2(ln Lmax − ln L).
+
+
+
+
+                                               24
+          a 8
+                                                                2.1
+                6
+                4                                               2.0
+
+                2                                               1.9
+      y (deg)                                                     x (mas/yr)
+                0
+                                                                1.8
+                2
+                4                                               1.7
+                6
+                                                                1.6
+                8
+                    8   6   4   2      0    2   4    6     8
+                                    x (deg)
+          b 8
+                                                                0.5
+                6
+                4                                               0.4
+                2                                               0.3
+      y (deg)                                                     y (mas/yr)
+                0
+                2                                               0.2
+
+                4                                               0.1
+                6
+                                                                0.0
+                8
+                    8   6   4   2      0    2   4    6     8
+                                    x (deg)
+Extended Data Figure 8 Gaia EDR3 proper motions of stars in the LMC.
+
+
+
+
+                                       25
+                               OGLE-III & OGLE-IV            OGLE-IV Only         Total
+ Milky Way disk [25]                   5.5                       1.5               7.0
+ Milky Way disk [24]                  11.5                       3.2              14.7
+ LMC                                   5.3                       0.4               5.7
+ Total (disk model [25])              10.8                       1.9              12.7
+ Total (disk model [24])              16.8                       3.6              20.4
+Extended Data Table 1 Expected number of microlensing events from known stellar
+populations in the Milky Way disk and the LMC. We separately list contributions from fields
+observed by both OGLE-III and OGLE-IV (second column) and OGLE-IV only (third column).
+
+
+
+
+  ρ (deg)      ∂µx /∂x     ∂µx /∂y      µx,0     ∂µy /∂x    ∂µy /∂y      µy,0     rms(µx )    rms(µy )
+ 0<ρ<1         −3.6832     −6.7018     1.8535    5.6324     −1.5691     0.2348     0.029       0.023
+ 1<ρ<2         −2.3530     −5.6825     1.8565    5.7179     −0.7549     0.2135     0.041       0.027
+ 2<ρ<3         −1.2292     −4.5601     1.8471    5.3498     −0.3510     0.2178     0.037       0.028
+ 3<ρ<4         −1.0871     −3.5981     1.8355    4.5304     −0.5892     0.2357     0.035       0.036
+ 4<ρ<5         −0.9070     −2.7004     1.8348    3.7424     −0.5745     0.2659     0.042       0.057
+ 5<ρ<6         −0.7520     −2.1700     1.8430    3.2343     −0.4711     0.2770     0.049       0.058
+ 6<ρ<7         −0.7497     −1.7328     1.8510    2.8296     −0.4742     0.2655     0.048       0.050
+Extended Data Table 2 Parameters of the LMC proper motion model. Units of ∂µx /∂x,
+∂µx /∂y, ∂µy /∂x, and ∂µy /∂y are mas yr−1 rad−1 , whereas µx,0 , µy,0 , rms(µx ), and rms(µy ) are
+given in mas yr−1 .
+
+
+
+
+                                                26
+

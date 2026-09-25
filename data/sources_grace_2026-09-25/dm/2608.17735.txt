@@ -1,0 +1,1657 @@
+                                  Astronomy & Astrophysics: 2MRS-eRASS1                                                                                                      ©ESO 2026
+                                  September 10, 2026
+
+
+
+
+                            eROSITA cosmology with galaxy groups: Hot gas budget out to the
+                                                    virial radius
+                                                  H. Khalil⋆1 , A. Finoguenov1 , D. Eckert2 , R. Seppi2 , E. Tempel3, 4 , L. Lovisari5, 6 , and F. Gastaldello7
+
+                                              1
+                                                Department of Physics, University of Helsinki, Gustaf Hällströmin katu 2A, Helsinki, FI-00014, Finland
+                                              2
+                                                Department of Astronomy, University of Geneva, Ch. d’Ecogia 16, CH-1290 Versoix, Switzerland
+                                              3
+                                                Tartu Observatory, University of Tartu, Observatooriumi 1, 61602 Tõravere, Estonia
+                                              4
+                                                Estonian Academy of Sciences, Kohtu 6, 10130 Tallinn, Estonia
+                                              5
+
+
+
+
+arXiv:2608.17735v2 [astro-ph.CO] 9 Sep 2026
+                                                INAF-IASF Milano, Via Alfonso Corti 12, 20133 Milan, Italy
+                                              6
+                                                Center for Astrophysics | Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA
+                                              7
+                                                INAF, Istituto di Astrofisica Spaziale e Fisica Cosmica di Milano, via A. Corti 12, 20133 Milano, Italy
+
+                                              Received September 10, 2026
+
+                                                                                                           ABSTRACT
+
+                                              Non-gravitational processes that expel hot gas beyond the virial regions of groups and clusters of galaxies, known collectively as
+                                              baryonic feedback, play a key role in reshaping the matter distribution of the Universe on megaparsec scales. Tracing the baryonic
+                                              content of galaxy groups outside R500 provides a unique opportunity to constrain the modification of the matter distribution on these
+                                              scales. Our aim is to quantify the baryon budget at the virial radii of galaxy groups and constrain the effect of active galactic nuclei
+                                              feedback in redistributing matter on the largest scales ever probed with X-ray observations. We used eROSITA observations of a
+                                              complete sample of 25 galaxy groups selected from the first public release of the eROSITA-DE data (eRASS1) and identified with the
+                                              Two Micron Redshift Survey optical group catalogue (2MRS). We extracted and fitted surface brightness (SBx) profiles and present
+                                              hot gas mass and hot gas fraction profiles out to R200 . We explored the physical properties of our sample by performing a Bayesian
+                                              analysis of Mgas − Mtot , LX − Mtot , and LX − Mgas relations, taking into account the aperture covariance effects. At R500 , we report
+                                              uniformly flat SBx profiles with a mean β parameter of 0.38 ± 0.04, steepening to β = 0.76 ± 0.19 beyond R500 . We measure a
+                                              sub-cosmic hot gas fraction at the median mass of our sample, M500 = 2.54 × 1013 M⊙ , of fgas,500 = 4.32 ± 0.42%. Similarly, at R200
+                                              and the median mass, M200 = 3.69 × 1013 M⊙ , we obtain fgas,200 = 5.78 ± 0.69%. Our fgas − Mtot and LX − Mtot relations deviate
+                                              significantly from predictions of the strong feedback variants of the FLAMINGO simulation (2.5σ to 8.0σ tension), whereas the
+                                              fiducial FLAMINGO and BAHAMAS models provide the closest match to our measurements. Our results are consistent with prior
+                                              X-ray observations but achieve twice the statistical precision of recent stacking studies. Using our measured baryon fractions and the
+                                              hydrodynamical simulation-based model SP(k), we infer a 10% − 15% reduction in the matter power spectrum at k = 5 h Mpc−1
+                                              relative to a dark matter-only universe (0.85 ≤ P(k)/PDMO (k) ≤ 0.90), in agreement with the predictions of fiducial FLAMINGO and
+                                              BAHAMAS, while revealing a growing tension on smaller scales with the strong feedback variants.
+                                              Key words. Galaxies: groups: general – Galaxies: clusters: intracluster medium – X-rays: galaxies: clusters – Cosmology: large-scale
+                                              structure of Universe
+
+
+                           1. Introduction                                                                         feedback, are currently the favoured scenario for ejecting gas
+                                                                                                                   outside the virial regions of galaxy groups and clusters and ulti-
+                           X-ray emission from the hot gaseous atmospheres of galaxy                               mately reshaping the matter distribution of the Universe on small
+                           groups and clusters is a sensitive tracer of the non-gravitational                      scales (Rudd et al. 2008; Semboloni et al. 2011; Fabian 2012;
+                           processes that redistribute matter within and around dark mat-                          Somerville & Davé 2015; van Daalen et al. 2020; Salcido et al.
+                           ter halos. In the absence of such processes, the hot gas fraction                       2023; Sorini et al. 2022; Kovač et al. 2025). The energy released
+                           within massive halos would approach the cosmic baryon frac-                             by AGNs can be comparable to or even exceed the gravitational
+                           tion, fb,cosmic = Ωb /Ωm ≈ 0.157 (Planck Collaboration et al.                           binding energy of group-scale halos, making galaxy groups the
+                           2016), and the gas mass would scale self-similarly with halo                            ideal laboratories for studying the impact of feedback on baryon
+                           mass. However, observations over the past two decades have                              distributions (for comprehensive reviews, see Eckert et al. 2021
+                           firmly established that this simple picture is broken: the hot gas                      and Oppenheimer et al. 2021). Unlike massive clusters, where
+                           fraction within R500c 1 of galaxy groups (M500 = 1013 − 1014 M⊙ )                       deeper potential wells retain most of the baryons, groups retain
+                           falls significantly below the cosmic value, indicating that a sub-                      only a fraction of their expected gas, with the missing baryons
+                           stantial fraction of baryons have been displaced from the inner                         thought to reside in the warm-hot intergalactic medium at larger
+                           regions (see Eckert et al. 2021 for a review).                                          radii or to have been ejected beyond the virial boundary entirely.
+                               Energetic processes associated with matter accretion onto su-
+                           permassive black holes, known as active galactic nuclei(AGN)                                The current observational consensus, based on Chandra,
+                                                                                                                   XMM-Newton, and Suzaku observations, is that the gas fractions
+                                       ⋆                                                                           inside R500 of galaxy groups are indeed sub-cosmic (Gastaldello
+                               Corresponding author: hossam.khalil@helsinki.fi
+                               1
+                              The radius enclosing 500 times the critical density of the Universe,                 et al. 2007; Pratt et al. 2009; Lovisari et al. 2015; Eckert et al.
+                           ρc = 3H 2 (z)/8πG, at a given redshift, z.                                              2016; Lovisari & Maughan 2022; Matsushita et al. 2025). At
+                                                                                                                                                              Article number, page 1 of 20
+                                                   A&A proofs: manuscript no. aa60299-26corr
+
+
+                 15.0   2MRS-eRASS1Ngal, nH                                                                           Low-mass groups
+                        High LX clusters
+
+
+
+
+                                                                                 LX[0.1 2.4] [erg s 1]
+                        This work
+                 14.5                                                                                    1044
+
+
+   log10 M200c[M ]
+                                                                                                                Clusters
+                 14.0
+                 13.5
+                                                                                                         1043
+                 13.0                                                                                    1042
+                 12.5                             Src. confusion    Incomplete
+                                                      eRASS1 detections < 50%
+
+                 12.0                                                                                    1041
+                                0.01                                 0.1                                                   0.01            0.1
+                                              z                                                                                    z
+Fig. 1: Selection criteria for the sample studied in this work. Left: Total mass – redshift plane. The parent 2MRS-eRASS1 catalogue
+with Ngal ≥ 5 and nH ≤ 7 × 1020 cm−2 is plotted with black circles. High-LX clusters are shown in green, and our selected 2MRS-
+eRASS1 sample is bordered with red edges. The bottom-right key explains the selection rationale: the source confusion limit and
+catalogue completeness (down to our LX limit) dictated our low and high redshift limits, respectively. The horizontal line denotes
+our mass cut at ≥ 2 × 1013 M⊙ , where the fraction of the eRASS1 detections of 2MRS groups becomes lower than 50%. Right: X-ray
+luminosity – redshift plane. Black and red markers have the same meaning, but the green circles now show the low-mass systems
+defined below the mass cut. The horizontal line represents the group regime limit defined at ≤ 3 × 1043 erg s−1 .
+
+
+R200 , however, measurements become increasingly scarce at                       & Teyssier 2015; Schneider et al. 2019; Giri & Schneider 2021;
+group scales due to the limited sensitivity of X-ray instruments                 Debackere et al. 2020).
+and the elevated and poorly constrained background levels at                         The extended ROentgen Survey with an Imaging Telescope
+such large radii. The few existing studies suggest gas fractions                 Array (eROSITA) aboard the Spectrum-Roentgen-Gamma mis-
+that either reach or remain slightly below the cosmic value (e.g.                sion (Predehl et al. 2021) offers a transformative capability for
+Matsushita et al. 2025; Thölken et al. 2016). This uncertainty at                addressing these questions. Its large field of view (FOV), stable
+large radii is particularly problematic because it is precisely in               background, and excellent point spread function (PSF) are ideal
+these outer regions that the signatures of feedback — gas that                   for detecting low-surface brightness (SBx) emission beyond the
+has been heated and expelled — should be most evident.                           virial radii of nearby groups (Merloni et al. 2024; Bulbul et al.
+    Parallel to observational progress, modern cosmological hy-                  2024; Bahar et al. 2024). Recently, we constructed the AXES-
+drodynamical simulations have made significant strides in mod-                   2MRS catalogue (Khalil et al. 2024) by cross-matching ROSAT
+elling the complex interplay between gravity, gas physics, and                   megaparsec-scale X-ray sources with Two Micron Redshift Sur-
+feedback processes. Simulations such as IllustrisTNG (Nelson                     vey (2MRS) optical groups (Tempel et al. 2018). A reanalysis of
+et al. 2019), SIMBA (Davé et al. 2019), EAGLE (Schaye et al.                     public eROSITA data (Finoguenov et al. 2026) confirmed these
+2015), BAHAMAS (McCarthy et al. 2017), and FLAMINGO                              sources and identified new counterparts. The high detection frac-
+(Schaye et al. 2023) now routinely predict gas fractions out to                  tion (> 50% for massive 2MRS systems) provides a complete,
+several R500 , though their predictions exhibit notable discrepan-               unstacked view of X-ray emission from optically selected groups
+cies traceable to different AGN feedback implementations. Due                    that preserves system-to-system variations.
+to resolution limitations, feedback is modelled using subgrid pa-                    We exploited these advantages to investigate the hot gas mass
+rameters typically tuned to match observed gas fractions at R500 ,               fractions at R500 and R200 for a well-defined sample of 25 galaxy
+meaning predictions beyond this radius represent genuine ex-                     groups, and to construct scaling relations between X-ray observ-
+trapolations not directly constrained by calibration data. Obser-                ables and total mass. Our study was performed at low redshifts
+vational constraints on fgas beyond R500 are therefore particularly              (0.01 < z < 0.025), ensuring that the scales of interest are well
+valuable as critical tests of a feedback models’ fidelity.                       resolved (the typical R500c of our groups is ∼ 20 arcmin) and that
+    The importance of constraining baryon distributions extends                  contamination from unresolved galactic emission can be fully
+beyond the study of individual halos. Baryonic feedback pro-                     excluded. We compared these observations with hydrodynam-
+cesses, by ejecting gas from halos, suppress the matter power                    ical simulations to assess AGN feedback implementations and
+spectrum (MPS) on scales k ∼ 5 − 30h Mpc−1 , with group-scale                    constrain baryon distribution physics.
+halos (M200 = 1013 − 1014 M⊙ ) contributing most significantly                       In Sect. 2 we present the sample selection and describe the
+(Miller et al. 2026). This suppression is a key uncertainty for up-              2MRS and eROSITA datasets. In Sect. 3 we detail our analy-
+coming large-scale structure surveys such as the Legacy Survey                   sis of the eROSITA X-ray data, including SBx profile extraction
+of Space and Time (Ivezić et al. 2019) and those being carried                  and the derivation of gas mass and gas fraction profiles. In Sect.
+out by Euclid (Euclid Collaboration et al. 2025) and the Nancy                   4 we present our results on gas fractions and scaling relations,
+Grace Roman Space Telescope (e.g. Wang et al. 2022). More-                       including a careful treatment of aperture covariance. We discuss
+over, direct baryon budget measurements in groups provide es-                    the implications of our findings in the form of constraints on the
+sential input for baryonification correction schemes (Schneider                  matter power spectrum in Sect. 5 and summarise our findings
+Article number, page 2 of 20
+                       H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+in Sect. 6. Throughout this study, we adopt a flat Λ cold dark                        60°                              eROSITA bubbles
+matter (ΛCDM) cosmology with parameters H0 = 70 km s−1                                                                 This work (2MRS-eRASS1)
+                                                                              30°
+Mpc−1 , Ωm = 0.3, and ΩΛ = 0.7. Unless otherwise stated, errors
+represent 1σ uncertainties (68% confidence level).                                  300°      240°     180°    120°       60°
+                                                                         0°
+
+2. Sample                                                                  -30°
+The complete cross-correlation between the large-scale X-                             -60°
+ray sources in the first public release of eROSITA-DE data                                           -90°
+(eRASS1; Merloni et al. 2024) and the optical galaxy clustering
+in 2MRS (Tempel et al. 2018) is the subject of an accompanying                             0.002     0.003     0.004        0.005
+paper (Finoguenov et al. 2026). In this work, we focused on a                       Mean X-ray background (cts s 1 arcmin 2)
+subsample defined by the redshift range 0.01 < z < 0.025 and
+describe it below.                                                      Fig. 2: All-sky distribution of the 2MRS-eRASS1 galaxy group
+                                                                        sample with respect to the eROSITA X-ray bubbles, using Galac-
+2.1. 2MRS dataset                                                       tic coordinates and a Hammer-Aitoff projection. The elliptical
+                                                                        boundaries represent the approximate extent of the bubbles at
+The 2MRS group catalogue is an optical galaxy group sample              l ≳ 290◦ in the north and l ≳ 320◦ in the south (Yeung
+constructed from the 2MASS Redshift Survey galaxy sample                et al. 2024). Groups are colour-coded by their mean X-ray back-
+(Huchra et al. 2012), with galaxies brighter than KS = 11.75            ground.
+mag, and is highly complete above Galactic latitudes of |b| > 5◦ .
+It employs a probabilistic approach, modelling the groups within
+a Bayesian framework using a marked point process model. In
+practice, this probabilistic algorithm produces groups very simi-       and it is typically a factor of 30 for our eROSITA study. This
+lar to those identified by the widely used Friends of Friends algo-     means that to explain the unresolved X-ray emission, one would
+rithm (Tempel et al. 2016). The use of 2MRS in the identification       require an excess of hundreds of undetected point sources, ex-
+of large X-ray sources has been adopted recently in Khalil et al.       ceeding the number of group members by an order of magnitude.
+(2024) where we presented all ROSAT All-Sky Survey (RASS)
+sources that have an optical galaxy group counterpart at z < 0.07
+down to three spectroscopic members.                                    2.3. 2MRS-eRASS1
+
+                                                                        We used dynamical masses from the 2MRS group catalogue,
+2.2. eRASS1 catalogue                                                   limited to groups with at least five members where these esti-
+                                                                        mates are reliable, and verified their consistency with the AGN
+We performed our analysis with the released eRASS1 event lists          feedback simulations of Munari et al. (2013). Total masses
+that cover the Galactic longitudes l > 179.6◦ . Due to the ‘light       (M500c and M200c ) and R500c are listed in Tables F.1 and F.2.
+leak’ problem in two of the seven eROSITA telescope modules             X-ray emitting groups are selected via the modified Hausdorff
+(TM5 and TM7), where optical solar photons reach the detec-             distance method of Kosowski et al. (2025), as described in
+tors creating fake X-ray events with energies ≤ 0.5 keV (Predehl        Finoguenov et al. (2026), and in this work we studied their X-
+et al. 2021) — as well as the large-scale soft X-ray filament emis-     ray emission and constrain the hot gas budget out to R200c with
+sion — we worked with [0.6 − 2.3] keV images and correspond-            eROSITA.
+ing exposure maps to eliminate these effects from our analysis.
+We followed the same extended source detection method and de-                Our redshift range 0.01 < z < 0.025 is conservatively cho-
+termination of the flux extraction regions applied in, for example,     sen to ensure sensitivity to group outskirts within eRASS1 spa-
+Käfer et al. (2019), Finoguenov et al. (2020), and Khalil et al.        tial scales and to avoid source confusion, and is further guided
+(2024). Briefly, a multi-scale wavelet decomposition method2            by the AXES-2MRS completeness limit down to LX > 3 × 1042
+(Vikhlinin et al. 1998) is used where an image reconstruction           erg s−1 (Figs. 2 and 10 in Khalil et al. 2024). We further imposed
+is made for each of 4 × 2n−1 arcsecond scales, with n ∈ [2, 9].         LX < 3 × 1043 erg s−1 to remain in the group regime (Vulcani
+We show the wavelet images describing the X-ray emission of             et al. 2026), applied the typical neutral hydrogen column den-
+our group sample in Appendix A. To avoid missing any sources,           sity extragalactic definition of nH < 7 × 1020 cm−2 , and adopted
+we identified structures on separate scales and merged them af-         a mass limit of M500c > 2 × 1013 M⊙ , below which the fraction
+terwards. We used SExtractor (Bertin & Arnouts 1996) to pro-            of X-ray sources identified as 2MRS groups drops below 50%
+duce catalogues of point sources using the spatial scales below         (Finoguenov et al. 2026). The full selection is illustrated in Fig.
+one arcminute, which were visually inspected and then masked            1, and the group locations, including the eROSITA X-ray bub-
+in the subsequent analysis. The sensitivity to point sources is         bles (Predehl et al. 2020), are shown in Fig. 2.
+significantly higher for eROSITA than for RASS, primarily due                Our selection criteria initially yielded a sample of 37 groups.
+to eROSITA’s substantially improved PSF. This creates a large           However, 12 systems were excluded: eight due to elevated X-
+separation between the flux detection limits for point-like and         ray background exceeding twice the quiescent level within 0.5◦ ;
+extended emission, computed as                                          two eROSITA tiles (192099 and 192105) affected by projection
+                                                                        effects from overlapping optical systems with 3D separations
+              Flux of extended source                                   below 100 Mpc; one field (303132) where most X-ray emis-
+factor =                                   ,                     (1)
+           Limit of point source detection                              sion falls outside German proprietary rights; and one system
+                                                                        (194102) at the FOV boundary with only a detectable core. The
+2
+    https://github.com/avikhlinin/wvdecomp                              remaining 25 groups define our 2MRS-eRASS1 sample.
+                                                                                                                  Article number, page 3 of 20
+                                                            A&A proofs: manuscript no. aa60299-26corr
+
+                                                                                  and X-ray background subtraction, and PSF modelling. The X-
+                                         0.15 R500c            R500c      R200c   ray background was extracted from multiple regions across the
+                       100                            (0.15 1)R500 =              FOV of each group and subtracted from the source regions (the
+
+
+
+
+SBx [cts/s/arcmin2]
+                                                       0.38 ± 0.04                procedure is described in Appendix D). Nine systems showed an
+                                                      R500 R200 =                 elevated and spatially varying background; these lie within the
+                      10 1                            0.76 ± 0.19                 eROSITA Galactic foreground bubble pair (Predehl et al. 2020),
+                                                                                  which extends to |b| ≈ 85◦ at l ≳ 290◦ (north) and l ≳ 320◦
+                      10 2                                                        (south; Yeung et al. 2024; sample location relative to the bub-
+                                                                                  bles shown in Fig. 2). Excluding these systems has no significant
+                                                                                  impact on the scaling relations beyond a marginal flattening of
+                      10 3                                                        the Mgas − Mtot relation, confirming the robustness of our multi-
+                                                                                  region background subtraction.
+                      10 4                                                            The central < 0.15R500c region was excised when fitting SBx
+                                    Best-fit model                                profiles and computing X-ray luminosity, since we found the
+                                                                                  scatter in the LX,500 − Mgas,500 relation increases by a factor of
+                             10 2             10 1                  100
+                                              r/R500c                             1.8 ± 0.4 using the full-range LX , consistent with other studies
+                                                                                  where core inclusion enhances scatter by at least a factor of 2
+                                                                                  (e.g. Lovisari & Maughan 2022; Pratt et al. 2009). We computed
+Fig. 3: Background-subtracted X-ray SBx profiles ([0.6 −                          core-excised luminosity in the standard [0.1 − 2.4] keV band for
+2.3] keV) of the 2MRS-eRASS1 group sample. Vertical dashed                        two apertures, [0.15−1]R500c and 0.15R500c −R200c , and list them
+lines mark 0.15R500c , R500c , and R200c ; the thick dashed blue                  in Table F.1.
+curve is the median profile. Green and red curves show the best-                      We fitted the profiles with a 1D beta model (Cavaliere &
+fit β models of the median profile in the [0.15 − 1]R500c and                     Fusco-Femiano 1976) that has the same form as the King model
+R500c − R200c ranges, respectively. The stacked profile steepens                  (Eq. C.1) with α = 3β − 0.5, where α represents the slope at
+beyond R500c , with β rising from 0.38 ± 0.04 to 0.76 ± 0.19.                     large radii (r >> Rc ). To investigate profile steepening beyond
+                                                                                  R500c , a high S/N is required to obtain reliable constraints in the
+                                                                                  outskirts. We therefore stacked the profiles of the sample into 15
+3. Data analysis                                                                  logarithmically spaced bins spanning 0.15R500c − R200c , and fit-
+                                                                                  ted the resulting profile with a beta model. The resulting profiles
+We used the standard eROSITA Science Analysis Software Sys-                       and best-fit parameters are presented in Sect. 4.1.
+tem (eSASS4DR1; Brunner et al. 2022) version 010 as well as
+its calibration database (CALDB) to process the event lists into
+calibrated (3.6 × 3.6 deg2 ) count and exposure maps. In more de-                 3.2. Gas mass
+tail, we used the evtool task to create images and filtered them                  Following Eckert et al. (2016), we used pyproffit3 (Eckert
+with flaregti to remove flared times, PATTERN ≤ 15 to keep                        et al. 2020) to convert SBx into gas mass profiles. First, we sim-
+all valid events, and FLAG=0xc00fff30 to exclude bad pixels                       ulated an absorbed APEC model (Smith et al. 2001) to convert
+and their neighbouring ones. Finally, we excised the [1.4 − 1.6]                  SBx profiles to emission measure (EM) profiles, assuming a con-
+keV energy band associated with the Al-Kα instrumental line, as                   stant temperature from the LX − T relation of the XXL-100-GC
+its fluorescence was found to be consistently ∼ 20 − 60% lower                    bright cluster sample (Giles et al. 2016):
+in the filter-wheel closed (FWC) data for all telescope modules
+(TMs; Yeung et al. 2024; Perinati et al. 2025). We still refer to                         LX                              T 2.63
+our used band as [0.6 − 2.3] keV for simplicity. We produced                                        = E(z) 1.64
+                                                                                                                × 0.71 ×            .             (2)
+                                                                                  3 × 1043 erg s−1                        3 keV
+exposure maps with similar settings using the expmap task.
+     Particle-induced background (PIB) maps were generated for                    The implied median kT of our sample is 1.2 keV ([20th − 80th ]
+each sky tile by measuring count rates in the hard [6–9] keV band                 percentiles: [0.88 - 1.54 keV]). The XXL relation intrinsic scat-
+and scaling to the [0.6–2.3] keV band of interest using a fixed ra-               ter of LX is 47%, which translates to 18% on kT (σkT =
+tio derived from FWC data, following the procedure of Reiprich                    σLX /slope ). This yields an 8 ± 2% systematic uncertainty on our
+et al. (2021). The resulting maps are spatially distributed using                 measured gas mass. We also remark that for systems with kT ∼ 1
+unvignetted exposure maps. Full details of the procedure are pro-                 keV, adopting a single temperature and metallicity to charac-
+vided in Appendix B. The eROSITA PSF model was calibrated                         terise each system can introduce a systematic uncertainty of up
+in-flight using three point sources from eRASS1, whose radial                     to ∼ 30% in the inferred gas mass. (Eckert et al. 2026).
+SBx profiles were fitted with a King model (Eq. C.1). The best-                       The Galactic absorption value for each group was adopted
+fit parameters are Rc = 6 arcsec and α = 1.19, and the model                      from HI4PI Collaboration et al. (2016)’s neutral hydrogen col-
+was validated by recovering exactly 50% of the total flux within                  umn density maps (nH4 ). The metallicity was fixed to 0.3 Z⊙
+the eROSITA half-energy width of 30 arcsec. The details of this                   based on Anders & Grevesse (1989) solar abundances. This al-
+process are provided in Appendix C.                                               lowed us to compute a conversion factor between the EM and
+                                                                                  the APEC normalisation parameter that is related to the EM ac-
+                                                                                  cording to
+3.1. Surface brightness profiles and luminosities
+                                                                                                        10−14
+                                                                                                                   Z
+Surface brightness profiles were extracted from the [0.6 − 2.3]                   NormAPEC =                         ne nH dV,                  (3)
+keV eROSITA images from all seven TMs (TM0) in logarithmic                                         4π[DA (1 + z)]2
+radial bins centred on the large-scale X-ray peak, out to R200c ,                 3
+                                                                                    https://pyproffit.readthedocs.io/en/latest/
+with a minimum bin size of 30 arcsec, using pyproffit (Eck-                       4
+                                                                                    https://heasarc.gsfc.nasa.gov/cgi-bin/Tools/w3nh/
+ert et al. 2020), accounting for exposure map correction, particle                w3nh.pl
+
+Article number, page 4 of 20
+                                H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+
+                   1013                                                                                                           R500c
+                   1012                                                                 10 1
+
+
+      Mgas [M ]
+                   1011
+                                                     R500c                       fgas
+                   1010
+                   109
+                                                                                        10 2
+                   108                                          Median profile
+                          0.0       0.2      0.4    0.6 0.8             1.0                     0.0       0.2     0.4    0.6 0.8              1.0
+                                                r/R200c                                                              r/R200c
+Fig. 4: Hot gas mass and hot gas fraction profiles of the 2MRS-eRASS1 groups. Left: Hot gas mass profiles in units of R200c . The
+vertical dashed black line marks R500c . Right: Hot gas fraction profiles in units of R200c .
+
+              3                                                                      Using a mean molecular weight of µ = 0.61 and the proton
+              2                                                                  mass mp , the cumulative gas mass within a radius r was then
+ fgas, 200                                                                       obtained by integrating the enclosed density profile
+ fgas, 500    1
+                                                                                                  Z r
+               0                                                                 Mgas (< r) = µmp     4πr2 ne (r) dr.                      (4)
+            0.20
+            0.15                               fgas, cosmic                                           0
+
+
+fgas, 200   0.10
+            0.05
+                                                                                 3.3. Total mass
+                                                                                 We modelled the total mass using a Navarro-Frenk-White
+            0.25                                                                 (NFW) profile (Navarro et al. 1996) with Duffy et al. (2008) con-
+            0.20
+                                               fgas, cosmic
+fgas, 500
+            0.15                                                                 centrations (c200c ):
+            0.10                                                                                         "        !          #
+            0.05                                                                                                r       r
+                                                                                 MNFW (< r) = 4πρs rs ln 1 +
+                                                                                                       3
+                                                                                                                    −          ,               (5)
+            0.00
+                    2MRS 343                                                                                   rs     r + rs
+                    2MRS 391
+                   2MRS 1075
+                   2MRS 1683
+                   2MRS 2657
+                                                                                 where the NFW scale radius rs = r200c /c200c and the characteris-
+                   2MRS 2938
+                   2MRS 3089
+                   2MRS 4021
+                   2MRS 4050
+                   2MRS 4808
+                   2MRS 5199
+                   2MRS 7727
+                                                                                 tic density ρs = M200c /[4πrs3 f (c)] with f (c) = ln (1 + c) − c/(1 +
+                   2MRS 6448
+                   2MRS 1925
+                   2MRS 4417
+                   2MRS 4701
+                   2MRS 4757
+                   2MRS 4766
+                   2MRS 4957
+                   2MRS 5318
+                   2MRS 3148
+                   2MRS 3224
+                   2MRS 3657
+                   2MRS 3807                                                     c). The optical M200c values from 2MRS agree within 5% of the
+                   2MRS 4271
+                                                                                 standard Munari et al. (2013) velocity dispersion-mass relation.
+Fig. 5: Cumulative hot gas mass fractions of the 2MRS-eRASS1
+sample. Bottom: fgas inside R500c . Middle: fgas inside R200c . Top:
+                                                                                 3.4. Gas fraction
+Ratio between fgas inside R200c to that inside R500c , with the
+dashed black line marking fgas,200 = fgas,500 .                                  To marginalise over the concentration parameter distribution
+                                                                                 from Duffy et al. (2008) and correctly propagate all of the un-
+                                                                                 certainties associated with M200c , c200c , and Mgas to the gas mass
+                                                                                 fraction profile calculation, a Monte Carlo simulation was con-
+where DA is the angular diameter distance to the source. In                      structed where for each iteration:
+this step, we used the exposure and PSF-corrected SBx profiles,
+properly rescaled using the on-axis effective area of eROSITA.                    – An M200c value was drawn from a log-normal distribution
+    We assumed the gas density is the sum of the electron and                       parametrised using the mean M200c and its 1σ deviation
+proton densities in the fully ionised plasma ρgas = ne + nH with                    (M200c,i ).
+ne = 1.17nH . Next, a multi-scale forward-fitting method was                      – M200c,i was then used to obtain a mean c200c from Duffy et al.
+used to deproject the observed 2D EM profiles into 3D density                       (2008)’s concentration-mass relation (cmean,i ).
+profiles by decomposing them into a sum of King functions, each                   – A concentration value was drawn from a log-normal distribu-
+deprojected individually assuming spherical symmetry. We refer                      tion centred on cmean,i with an intrinsic scatter of that reported
+the reader to Eckert et al. (2020), Appendix B of Eckert et al.                     in the relation σlog10 = 0.15 dex (ci ).
+(2016), and Appendix D of Seppi et al. (2025) for a detailed de-                  – Hot gas mass values at each radius were drawn from log-
+scription of the method. In extracting the SBx profiles, we em-                     normal distributions parametrised using the mean cumulative
+ployed fine radial log binning with a minimum bin size between                      gas mass and their 1σ deviation (Mgas,i (< r)).
+10 and 30 arcsec adaptively chosen to ensure a reliable S/N in                    – The hot gas mass fraction profile was calculated for this iter-
+                                                                                                            Mgas,i (<r)
+each annulus.                                                                       ation as fgas,i (< r) = MNFW,i  (<r) .
+
+                                                                                                                          Article number, page 5 of 20
+                                                  A&A proofs: manuscript no. aa60299-26corr
+
+The adopted fgas profile is the median of fgas,i (< r) across 10,000       fraction value fb,cosmic = 0.157 ± 0.003 and a stellar mass frac-
+iterations. The 16th-84th percentiles were calculated and now              tion of f∗ = 0.025 based on the IllustrisTNG100 prediction for
+reflect the propagated uncertainties from M200c , c200c , and Mgas .       groups with total mass M200c ∼ 1013.5 M⊙ (see the middle panel
+We note that one system (2MRS: 6696, eROSITA tile: 303132)                 of Fig. 3 in Oppenheimer et al. 2021).
+was on the edge of the eROSITA-DE footprint, and thus we                         At our median mass (M500c = 2.54 × 1013 M⊙ ), we obtain
+could not extract the profile out to R500c . Another system (2MRS:          fgas,500 = 4.32±0.42%, in agreement at a 1.6σ level with Popesso
+4401, eROSITA tile: 194102) was on the edge of the FOV, so we              et al. (2026)’s eRASS1 stacking results for the Galaxy And Mass
+could only reach 0.75R500c . Both systems were omitted from the            Assembly survey (GAMA) groups in the eFEDS area spanning
+gas fraction analysis.                                                     1012 M⊙ − 1014 M⊙ and z < 0.2. At R200c and median mass
+                                                                           (M200c = 3.69 × 1013 M⊙ ), we find fgas,200 = 5.78 ± 0.69%, fully
+                                                                           consistent with Popesso et al. (2026)’s fgas,200 at the same mass
+4. Results                                                                 (see Sect. 4.3.4). We also compared our eROSITA gas masses
+                                                                           with published results for the seven groups in our sample for
+4.1. Beta model parameters                                                 which published Chandra studies are available (see Appendix
+The particle and X-ray sky background-subtracted SBx profiles              E).
+of 2MRS-eRASS1 are shown in Fig. 3. We detect uniformly flat
+β parameter values across our sample with a best-fit β value               4.3. Scaling relations
+of 0.38 ± 0.04 when fitting the stacked profile in the range
+[0.15 − 1]R500c . We report the individual β values in Table F.3.          We fitted a power-law to the scaling relation between the observ-
+Remarkably, we detect steepening of the density profiles of our            ables [LX , Mtot , Mgas ] of the form
+group sample, indicated by the best-fit β value for the stacked                   !                   !
+                                                                               Y                    X
+profile outside R500c of β0.15R500c −R200c = 0.76 ± 0.19. This steep-      ln       = A + B ln           + σint ,                        (6)
+ening suggests that the relative ejection of baryons beyond R200c             C1                   C2
+weakens, providing a first point of tension with strong feedback           where A, B, and σint are the normalisation, slope, and intrinsic
+models, which preferentially suppress core densities while leav-           scatter of the relations, respectively. σint is measured in the form
+ing the outskirts close to fiducial values, producing flatter rather       σln Y| ln X . The medians and/or pivots C1 and C2 for each relation
+than steeper outer profiles (see Fig. 7 in Braspenning et al. 2024).       are listed in Table 1.
+A similar trend between the steepening of the profiles and the
+AGN feedback strength in galaxy groups is also seen in X-GAP-
+like (Eckert et al. 2024) groups in FLAMINGO (Seppi et al. in              4.3.1. Aperture covariance correction
+prep.). We explore this tension further in Sects. 4.3.3 and 4.3.4.         The integrated quantities Mtot (< r) and Mgas (< r) are covari-
+    The core radius of the beta model is a difficult measurement           ant because they depend on the same radius of integration r.
+in the galaxy group regime. The SBx profiles in our sample                 In other words, the shared dependence of M500c (M200c ) and
+rise like power laws towards the central regions with no well-             Mgas,500 (Mgas,200 ) on R500c (R200c ) suppresses the physical vari-
+defined cores. We report extremely small core radii of less than           ation of Mgas (and thus fgas ) with the total mass, leading to arti-
+0.1′ and present our best-fit RC constraints in Table F.3. We re-          ficially flatter fgas − Mtot relations. When M500c is up-scattered,
+mark that our RC values are sensitive to the detailed shape of             R500c is also up-scattered and Mgas increases accordingly. We can
+the PSF model. Our results are in agreement with the recent                quantify this effect as follows: the electron density of an isother-
+study of Li et al. (2024) who stacked [0.2-2.3] keV X-ray images           mal sphere of radius r can be modelled as (Cavaliere & Fusco-
+of a large optically selected sample of poor galaxy groups (de-            Femiano 1978)
+fined as having fewer than five members) based on the Dark En-
+ergy Spectroscopic Instrument (DESI) Legacy Imaging Surveys
+and cross-matched with the eROSITA Final Equatorial-Depth
+                                                                                                    !2 −3β/2
+                                                                                                    r 
+                                                                           ρgas (r) = ρ0 1 +               ,
+                                                                                            
+Survey (eFEDS). They divide their sample into 16 subsamples                                                                                    (7)
+based on redshift and group mass, and report a best-fit β value                                    RC 
+of 0.41+0.07
+        −0.04 in the bin most closely comparable to our sample             where β is the same parameter studied in Sect. 3.1. At r >> RC ,
+(0.1 < z < 0.2 and 13.0 < log M/M⊙ < 13.5).
+                                                                           ρgas ∝ r−3β and since Mgas = 4π drρgas r2 , then
+                                                                                                          R
+
+                                                                                   1−β            −β
+4.2. Hot gas fraction                                                      Mgas ∝ Mtot −→ fgas ∝ Mtot ,                                         (8)
+The cumulative hot gas fraction is defined as the median of                which is exactly the geometric effect of decreasing fgas with total
+ fgas,i (< r) across 10,000 Monte Carlo iterations (see Sect. 3.2          mass. Similarly, one can write
+for details). We present the hot gas mass and the hot gas mass                   1−2β
+fraction radial profiles of 2MRS-eRASS1 in Fig. 4, and show                LX ∝ Mtot  .                                                         (9)
+the resulting fgas,500 and fgas,200 values in the bottom and mid-          Assuming that the observed M̂gasobs     obs
+                                                                                                               , L̂X             obs
+                                                                                                                       , and M̂tot   are noisy real-
+dle panels of Fig. 5, respectively. We show the diagnostic quan-
+         f (<R200c )                                                       isations of the covariant quantities M̂gas , L̂X , and M̂tot , which are
+tity fgas gas (<R500c )
+                        , which is the ratio between the gas fraction at   related to the true underlying Mgas , LX , and Mtot according to
+R200c to that at R500c , in the upper panel of Fig. 5. This pa-
+                                                                                                 !1−β                            !1−2β
+rameter quantifies the baryon redistribution outside the virial                            M̂tot                           M̂tot
+regions by AGN feedback, and serves as a direct constraining               M̂gas = Mgas               and L̂X = LX                     .       (10)
+                                                                                           Mtot                            Mtot
+parameter across the predictions of different numerical simu-
+lations. The cosmic gas mass fraction marked in the figure at              We applied these corrections and present the details of construct-
+ fgas,cosmic = 0.132±0.003, is adopted based on the cosmic baryon          ing the scaling relations in the following sections. We used the
+Article number, page 6 of 20
+                           H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+                           Table 1: Fitting formulas and best-fit parameters of the scaling relations defined in Eq. 6.
+
+                    Relation (Y − X)              A                       B                σint                             C1                    C2
+                    Mgas,500 − M500c          0.15+0.11
+                                                   −0.12              1.59+0.34
+                                                                           −0.28        0.23+0.12
+                                                                                             0.11                     8.96 × 1011 M⊙        2.54 × 1013 M⊙
+                    Mgas,200 − M200c         −0.16+0.12
+                                                    −0.13             1.53+0.26
+                                                                           −0.24        0.28+0.14
+                                                                                             −0.13                    2.52 × 1012 M⊙        3.69 × 1013 M⊙
+                    LX,500 − Mgas,500        0.03 ± 0.07             1.04 ± 0.07       0.16 ± 0.07                  1.32 × 1042 erg s−1     8.96 × 1011 M⊙
+                    LX,200 − Mgas,200        0.09 ± 0.06             1.02 ± 0.08         0.200.05
+                                                                                              0.04                  2.41 × 1042 erg s−1     2.52 × 1012 M⊙
+                     LX,500 − M500c           0.13+0.16
+                                                   −0.18              1.78+0.54
+                                                                           −0.45       0.41 ± 0.17                  1.32 × 1042 erg s−1     2.54 × 1013 M⊙
+                     LX,200 − M200c          −0.12+0.15
+                                                    −0.16             1.55+0.25
+                                                                           −0.28        0.28+0.19
+                                                                                             −0.15                  2.41 × 1042 erg s−1     3.69 × 1013 M⊙
+
+
+individual best-fit β values obtained from fitting the SBX profiles
+at R500c for relations at R200c , as individual β measurements are
+                                                                                                                          This work (2MRS-eRASS1)
+only available only at R500c . We tested the impact of using the
+steeper β from the stacked profile at R200c (Fig. 3) and found no                                            1043
+
+
+
+                                                                                         LX, 500 [erg s 1]
+significant difference in the median best-fit parameters.
+
+4.3.2. Likelihood
+                                                                                                             1042
+Our hierarchical formalism of the likelihood of the M̂gas − Mtot
+relation can be written as
+
+                                                                                                             1041                                 BAHAMAS         L1_m9
+P( M̂tot ) = P( M̂tot |Mtot )P(Mtot )                                           (11)                                                              fgas+2          fgas-4
+                                                                                                                                                  fgas-8          Jet
+                                                                                                              0.5
+                                                                                         log10 LX
+P( M̂gas |Mtot , β, θ) =P( M̂gas |Mgas , β, M̂tot , Mtot )                                                                                +3.1 +3.9
+                                                                                                              0.0                         -1.0
+                                                                                                                                                -2.0
+                        P(Mgas |Mtot , θ)P( M̂tot |Mtot )
+                        P(Mtot )P(β),                                           (12)
+                                                                                                              0.5                          -8.6 -6.5
+                                                                                                                              1013                            1014
+where θ denote the scaling parameters [A, B, S ln Y| ln X ], and the                                                                  M500c [M ]
+first term on the right-hand side, P( M̂gas |Mgas , β, M̂tot , Mtot ), is
+the covariance correction term as described in Eq. 10. In Eq. 6,                         Fig. 6: X-ray luminosity vs total mass at R500c . Top: Aper-
+we model the parameter Y as log-normally distributed around X,                           ture covariance-corrected LX − Mtot relation (blue curve) for the
+then the scaling relation term P(Mgas |Mtot , θ) becomes                                 2MRS-eRASS1 sample. The blue shaded region is the 1σ confi-
+                                                                                         dence interval of the slope and normalisation. The orange curve
+P(Mgas |Mtot , θ) =                                                                      shows the prediction of BAHAMAS, and the other curves repre-
+                                               !B                                      sent different FLAMINGO feedback model variations (Braspen-
+                                      Mtot                                               ning et al. 2024). Bottom: Difference in log10 LX between the
+        LN µ = Mgas,piv A                         , σ = S ln Y| ln X  .
+                                                                        
+                                                                                (13)
+                                     Mtot,piv                                            explored simulations and our observed relation at the median
+                                                                                         mass. Text annotations indicate the offset significance at the σ
+The two terms P( M̂gas |Mgas , β, M̂tot , Mtot ) and P( M̂tot |Mtot ) rep-               level. The relation at R200c is shown in Fig. H.2.
+resent the probability of observing M̂gas and M̂tot given the true
+Mgas and Mtot , respectively. Finally, P(Mtot ) and P(β) are the dis-
+tributions of the true mass and the β parameter of our sample,                               In our inference model, we used this relation to get an esti-
+respectively.                                                                            mate for the true mass of each group Mtot,T given its measured
+    Modelling the distribution of the true underlying mass of our                        velocity dispersion (see Table F.1). We then treated the distribu-
+sample is crucial in the hierarchical construction of the scaling                        tion of true masses in our sample as a latent Gaussian population
+relations. The measured total masses we used are dynamical es-                           centred on the mean of Mtot,T and with a width that is itself a free
+timates from the 2MRS catalogue, derived from the observed                               parameter. In practice, this corresponds to a prior of the form
+line-of-sight velocity dispersion and the projected distance be-
+tween galaxy pairs within the groups (Tempel et al. 2014). Since                         Mtot ∼ N(µMT , σMT ),                                                             (14)
+we did not explicitly model the full selection function of our
+sample starting from the halo mass function, we needed a physi-                          where µMT is a Gaussian prior centred on the mean of Mtot,T
+cally motivated form for P(Mtot ). To this end, we used the veloc-                       (with the width set by the intrinsic scatter of the Seppi et al. 2025
+ity dispersion-true mass calibration by Seppi et al. (2025), who                         relation), and σMT is a half-normal hyperparameter that captures
+established a relation between the true dark matter halo mass                            the sample-level mass spread. Our P(Mtot ) posterior agrees with
+in light cones generated from the Uchuu N-body simulations                               the expectation from the Seppi et al. (2025) modelling according
+(Ishiyama et al. 2021) and the corresponding measured velocity                           to the Kolmogorov-Smirnov two-sample test. Moreover, the dis-
+dispersion of the galaxy members with end-to-end simulations                             tribution mean (µMT ), which is a hyperparameter we fitted for,
+(see their Sect. 6 for more details). This relation provides an un-                      is consistent within < 1% statistical error with the mean of the
+biased mapping between velocity dispersion and total mass as it                          expected distribution. We show the comparison between the ex-
+takes into account X-ray and optical selection effects.                                  pected and the posterior P(Mtot ) in Fig. G.7.
+                                                                                                                                                 Article number, page 7 of 20
+                                                       A&A proofs: manuscript no. aa60299-26corr
+
+     The likelihood for the LX − Mtot relation is constructed sim-
+ilarly by replacing Mgas by LX in the previous formalism and                                        This work (2MRS-eRASS1)
+                                                                                                    Akino+22
+using the LX,cov correction instead (Eq. 10). On the other hand,
+the LX − Mgas relation has no covariance correction applied and                              1013   Stacks of Popesso+26
+
+
+
+                                                                            Mgas, 500 [M ]
+its likelihood reads
+     obs
+P( M̂gas , L̂X
+             obs
+                 |Mgas , LX , θ) =P(LX |Mgas , θ)P(L̂X
+                                                     obs
+                                                         |LX )
+                                     obs
+                                P( M̂gas |Mgas )P(Mgas ),            (15)
+where P(Mgas ) is the distribution of the true gas masses of our                             1012
+sample, which is modelled, similar to Eq. 14, as a normal dis-
+tribution centred on the mean observed gas mass and allowed a
+varying width.
+    We implemented the described Bayesian hierarchical frame-
+work for the scaling relations using PyMC (Abril-Pla et al. 2023),
+which samples the posterior distributions with a Hamiltonian                                          1013                             1014
+Monte Carlo algorithm. The best-fit median parameters are listed
+in Table 1 and their 1D and 2D posterior distributions are shown
+                                                                                                             M500c [M ]
+in Appendix G. Sampling is performed using four chains, each
+with 20,000 draws after 7,000 tuning iterations. We present be-              Fig. 7: Gas mass vs total mass relation inside R500c . The blue
+low the LX − Mtot and Mgas − Mtot relations, and we discuss the              curve represents the best-fit relation for the 2MRS-eRASS1 sam-
+LX − Mgas in Appendix H.                                                     ple. The blue shaded region is the 1σ confidence interval of the
+                                                                             slope and normalisation. The orange curve indicates the result
+                                                                             of the HSC-XXL sample (Akino et al. 2022), and the teal curve
+4.3.3. LX − Mtot relation                                                    shows Popesso et al. (2026)’s result from stacking eROSITA data
+Although Mtot depends on the adopted cosmology and, more                     of GAMA galaxy groups. The relation inside R200c is shown in
+strongly, on the group membership algorithm, LX and Mtot re-                 Fig. J.1.
+main among the least model-dependent tracers of AGN feed-
+back. Figure 6 shows our covariance-corrected LX[0.1−2.4] − Mtot             slope of B = 1.59+0.34 −0.28 , slightly steeper than self-similar, with
+relation, with best-fit parameters listed in Table 1. We compared
+                                                                             intrinsic scatter σint = 0.23+0.12 −0.11 . We compared our relation to
+our results with BAHAMAS and FLAMINGO feedback mod-
+                                                                             Akino et al. (2022), who studied 136 X-ray selected groups and
+els (Braspenning et al. 2024). Simulation luminosities, origi-
+                                                                             clusters from the XXL survey (Pierre et al. 2016) using weak-
+nally computed in the [0.5–2.0] keV band, were converted to
+                                                                             lensing masses from the Hyper Suprime-Cam (HSC) Subaru
+our [0.1–2.4] keV band using a factor of 1.56 derived from an
+                                                                             Strategic Program. We report consistency with the HSC-XXL
+unabsorbed APEC model in XSPEC, assuming 0.4 Solar abun-
+                                                                             sample within 1σ across the studied mass range. Comparison
+dance, our median temperature (1.2 keV) and redshift (0.02),
+                                                                             with Popesso et al. (2026) shows perfect agreement in the low-
+and the eROSITA response matrix. Following Braspenning et al.
+                                                                             to-intermediate mass regime, with deviations at the high-mass
+(2024), we adopted Asplund et al. (2009)’s solar abundances
+                                                                             end.
+for consistency. The conversion factor ranges from 1.56 at 0.4
+                                                                                    We show the resulting covariance-corrected fgas,500 − M500c
+solar abundance to 1.35 for the extreme case of 1.9 Fe/H, but
+                                                                             relation in Fig. 8. To put our result in context, we compared it
+this difference is not significant (< 1σ). We used core-excised
+                                                                             to a compilation of pre-eROSITA literature X-ray observations,
+LX ([0.15 − 1]R500c ), which we estimated its contribution to be
+                                                                             as summarised by the fitting relation introduced by Eckert et al.
+∼ 12% for our sample. We accordingly removed this amount
+                                                                             (2021), including the results on the gas fraction by Eckert et al.
+from the simulation luminosities.
+                                                                             (2016), Ettori (2015), Pratt et al. (2009), Chiu et al. (2018), Lo-
+    As shown in the lower panel of Fig. 6, BAHAMAS best re-
+                                                                             visari et al. (2015), Sun et al. (2009), Sanderson et al. (2013),
+produces the observed relation, agreeing within 1.0σ at our me-
+                                                                             Nugent et al. (2020), and Eckert et al. (2019). The relation reads
+dian mass, while the fiducial L1_m9 FLAMINGO model is con-
+sistent at the 1.5σ level. In contrast, the stronger feedback mod-                                                      !0.22+0.06
+                                                                                                                M500c        −0.04
+els fgas-4σ and fgas-8σ underpredict LX at the median mass of                 fliterature = 0.079 ± 0.03 ×                         .            (16)
+our sample, differing by 6.5σ and 8.6σ, respectively. This agrees                                              1014 M⊙
+with Eckert et al. (2026), who found similar tension with the ob-                 We obtain an increasing fgas with mass, in agreement with
+served LX − Mtot and LX −T relations of the X-GAP sample (Eck-               pre-eROSITA observations. We compared our results with re-
+ert et al. 2024). Figure H.2 presents the covariance-corrected               cent stacking analyses by Popesso et al. (2026) and Siegel
+core-excised LX[0.1−2.4] − Mtot relation at R200c , with best-fit pa-        et al. (2026b); the latter combines kinematic Sunyaev-Zel’dovich
+rameters listed in Table 1.                                                  (kSZ) effect profiles from DESI/SDSS with eRASS1 X-ray data.
+                                                                             We find a mild tension with Siegel et al. (2026b)’s two indepen-
+4.3.4. Mgas − Mtot                                                           dent stacked halo masses at the 1.4σ level at ≈ 1013.7 −1013.8 M⊙ ;
+                                                                             their measured fgas,500 is lower than our 2MRS-eRASS1 results.
+The gas mass versus total mass relation probes the hot gas budget            Our relation is in excellent agreement with Akino et al. (2022).
+in group atmospheres. In a self-similar scenario, the gas fraction                Eckert et al. (2021) compiled the predictions of the gas
+reaches the cosmic value and a linear Mgas –Mtot relation is ex-             fraction at R500c by most modern hydrodynamical simula-
+pected, while a steeper slope signals non-gravitational processes            tions as a function of M500c , including BAHAMAS (McCarthy
+expelling gas beyond the virial radius (Lovisari et al. 2015). Our           et al. 2017), EAGLE (Schaye et al. 2015), FABLE (Henden
+Mgas,500 –M500c relation (Fig. 7 and Table 1) yields a median                et al. 2018), SIMBA (Davé et al. 2019), and IllustrisTNG100
+Article number, page 8 of 20
+                                 H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+
+                   0.18                  This work (2MRS-eRASS1)
+                   0.16                  Stacks of Popesso+26
+                                         Pre-eROSITA X-ray observations
+                   0.14                  Akino+22
+                                         Siegel+25
+                   0.12
+
+    fgas, 500
+                   0.10
+                   0.08
+                   0.06
+                   0.04
+                   0.02
+                   0.00
+                                   12.8            13.0             13.2                13.4                  13.6             13.8                14.0         14.2
+                                                                            log10M500c[M ]
+                 0.15          This work (2MRS-eRASS1)          EAGLE           FABLE                 0.15          This work (2MRS-eRASS1)          L1_m9          Jet
+                 0.12                                                                                 0.12
+
+
+     fgas, 500                                                                            fgas, 500
+                 0.09                                                                                 0.09
+                 0.06                                                                                 0.06
+                 0.03                                                                                 0.03
+                 0.00          BAHAMAS          TNG100           SIMBA                                0.00          fgas+2         fgas-2           fgas-4      fgas-8
+
+    fgas         0.03                       log10M500c[M ]                                fgas        0.03
+                 0.00                                                                                 0.00
+                 0.03                                                                                 0.03
+                        12.8    13.0     13.2   13.4     13.6    13.8    14.0      14.2                      13.0      13.2      13.4       13.6      13.8   14.0         14.2
+                                           log10 M500c[M ]                                                                      log10 M500c[M ]
+Fig. 8: Hot gas fraction as a function of total mass inside R500c . Top: Comparison with observations. The black curve and shaded
+area show the aperture covariance-corrected median relation and its 1σ uncertainty for our 2MRS-eRASS1 sample (Sect. 4.3). The
+dashed brown area shows the pre-eROSITA X-ray compilation fit of Eckert et al. (2021), the orange line and shaded area the HSC-
+XXL measurements (Akino et al. 2022), and the dashed teal line and area the stacked eROSITA result for GAMA groups (Popesso
+et al. 2026). Open diamonds show the kSZ+GGL+X-ray (DESI+ACT+eROSITA) stacking result of Siegel et al. (2026b). Bottom
+left: Comparison with hydrodynamical simulations. Blue, purple, green, magenta, and orange show IllustrisTNG100 (Pillepich et al.
+2018), EAGLE (Schaye et al. 2015), FABLE (Henden et al. 2018), SIMBA (Davé et al. 2019), and BAHAMAS (McCarthy et al.
+2017), respectively. The dark grey slab indicates the cosmic gas fraction, and the lower subpanel shows residuals ∆ fgas = fsim −
+ f2MRS−eRASS1 vs M500c . SIMBA best reproduces the observed relation. Bottom right: Same as the bottom left but for FLAMINGO
+runs with various AGN feedback strengths; the fiducial L1_m9 reproduces the observed fgas − M500c relation exactly.
+
+
+(Pillepich et al. 2018). We provide a comparison of our result                             BLE, and EAGLE overpredict fgas,500 at 1013 < M500c <
+to those predictions in the bottom left panel of Fig. 8, where                             1014 M⊙ , deviating from our relation by 7.3σ, 7.1σ, and 5.2σ,
+we add a residual plot showing the difference between our fgas                             respectively, at the median mass.
+and that predicted by each simulation. We find that SIMBA
+                                                                                               Although SIMBA strongly underestimates the gas content in
+and BAHAMAS best reproduce our 2MRS-eRASS1 gas frac-
+                                                                                           the inner regions relative to other simulations and is inconsistent
+tions across the whole overlapping mass range with an aver-
+                                                                                           with the observed inner hot intracluster medium properties (e.g.
+age deviation of 0.64σ and 1.44σ, respectively, with agreement
+                                                                                           Fig. 2 in Eckert et al. 2024), its fgas –M relation converges with
+improving at higher masses. SIMBA achieves < 1σ consis-
+                                                                                           them at and beyond R500c . Given the resolution limitations of the
+tency at lower masses (M500c ≈ 1013.5 M⊙ ) than BAHAMAS
+                                                                                           simulations considered, we focus our comparison on the larger
+(M500c ≈ 1013.8 M⊙ ), in agreement with the high-mass trend seen
+                                                                                           scales of R500c and R200c , and we find SIMBA to be consistent
+in Eckert et al. (2021, see their Fig. 15). At our median mass
+                                                                                           with our observed relation.
+(log M500c /M⊙ = 13.4), we find a 1.74σ deviation for SIMBA
+and 2.41σ for BAHAMAS. Conversely, IllustrisTNG100, FA-                                        We also evaluate the predictions of FLAMINGO (Schaye
+                                                                                           et al. 2023), a simulation suite calibrated to observed nearby
+                                                                                                                                                    Article number, page 9 of 20
+                                                A&A proofs: manuscript no. aa60299-26corr
+
+
+            0.18       Aperture-covariance corrected                                 0.25        This work (2MRS-eRASS1)        Stacks of Popesso+26
+
+            0.15       Not corrected                                                 0.20
+                       Akino+22
+                                                                                     0.15
+                                                                         fgas, 200
+            0.12
+fgas, 500   0.09
+                                                                                     0.10
+                                                                                     0.05
+            0.06
+                                                                                     0.00        EAGLE         TNG100          BAHAMAS          SIMBA
+            0.03
+                                                                        fgas         0.05
+                   12.75 13.00 13.25 13.50 13.75 14.00                               0.00
+                            log10M500c[M ]                                           0.05 1013
+                                                                                                                        M200c[M ]
+                                                                                                                                      1014
+
+Fig. 9: Aperture covariance correction. The corrected best-fit re-
+lation, shown also in Fig. 8, is plotted in blue. We show the un-       Fig. 10: Hot gas fraction as a function of the total mass in-
+corrected relation with the red curve. The HSC-XXL result is            side R200c . The black curve represents the best-fit aperture
+shown in orange.                                                        covariance-corrected line to our 2MRS-eRASS1 sample. The
+                                                                        purple, blue, orange, and magenta lines show the predictions of
+                                                                        EAGLE (Schaye et al. 2015), IllustrisTNG100 (Pillepich et al.
+group gas fractions, in the bottom right panel of Fig. 8. AGN           2018), BAHAMAS (McCarthy et al. 2017), and SIMBA (Davé
+feedback is implemented in FLAMINGO’s model variants ther-              et al. 2019) hydrodynamical simulations, respectively, as re-
+mally by changing the temperature of gas particles around the           ported in Oppenheimer et al. (2021). Median simulation rela-
+black hole by ∆T AGN , except in the Jet model, which uses kinetic      tions are shown up to a mass scale at which individual objects
+acceleration of the particles (vjet ). Both parameters are tuned to     begin to be plotted. In this regime, we use 0.1 dex mass bins.
+match cluster gas fractions (see Table 4 in Kugel et al. 2023).         The teal line indicates the eROSITA stacking result of Popesso
+The alternative fgas models (e.g. fgas−8σ, fgas+2σ) represent           et al. (2026). Other details are the same as in Fig. 8.
+shifts in the calibrating data by corresponding multiples of their
+observational uncertainties. We refer the reader to the reviews by
+                                                                        2023; Schaller et al. 2025). We estimated the ratio of the MPS
+Eckert et al. (2021) and Oppenheimer et al. (2021) for details on
+                                                                        while considering baryonic physics to a dark matter only case
+AGN feedback implementation in simulations.
+                                                                        P(k)/PDMO (k) using the ANTILLES-based model SP(k) (Sal-
+      The fiducial FLAMINGO L1_m9 model accurately repro-
+                                                                        cido et al. 2023), which predicts power suppression from the
+duces our observed gas fractions between 1013 M⊙ and 1014 M⊙
+                                                                        power-law-fitted parameters of the fb − M relation at a given
+with a negligible 0.17σ deviation at the median mass. However,
+                                                                        redshift and cosmology. ANTILLES comprises 400 simulations
+strong feedback models significantly deviate from our relation
+                                                                        with sufficient volume and mass resolution to constrain baryonic
+with fgas−8σ, fgas−4σ, and fgas−2σ models underestimating
+                                                                        effects on power suppression up to k ≲ 10 h Mpc−1 and z ≤ 3,
+ fgas with tensions at our median mass of of 5.1σ, 3.6σ, and 2.2σ,
+                                                                        incorporating a wide range of AGN feedback flavours spanning
+respectively. While the Jet and fgas+2σ models overpredict the
+                                                                        −7σ to +6σ relative to Akino et al. (2022). Salcido et al. (2023)
+gas fraction by 3.9σ and 4.7σ.
+                                                                        introduces the exponential plateau model SP(k) that approxi-
+      In Sect. 4.3.1 we formalise the aperture covariance effect for
+                                                                        mates the MPS suppression from the baryon fraction measured
+quantities with a shared integration radius, and provided a β-
+                                                                        at the optimal halo mass, defined as the mass at which the corre-
+model slope-dependent correction. Figure 9 illustrates how cor-
+                                                                        lation between fb and power suppression is maximised (see their
+recting the negative fgas,500 − Mtot correlation steepens the rela-
+                                                                        Figs. 3 and 5).
+tion. We find that the flatter, uncorrected relation natively recov-
+                                                                             To use SP(k), we complemented our gas fractions with stel-
+ers the HSC-XXL results (Akino et al. 2022).
+                                                                        lar mass fractions ( f⋆ ) from Leauthaud et al. (2012), assuming a
+      Finally, we present the first individual-system eROSITA con-
+                                                                        Chabrier initial mass function (IMF) and adopting 0.012 < f⋆ <
+straints on the Mgas − Mtot relation at R200c (Fig. 7, Table 1). The
+                                                                        0.025 at our median M500c . We re-fitted ( fgas + f⋆ ) − M500c with
+median slope (B = 1.53) is mildly shallower than at R500c , indi-
+cating relatively more baryons at larger radii, which is expected
+from the density profile steepening beyond R500c (Fig. 3). Our                                                 !γ
+                                                                                              M500c
+ fgas,200 − M200c relation agrees with Popesso et al. (2026) but with   fb,500 /(Ωb /Ωm ) = α                       .                                   (17)
+                                                                                              Mpiv
+significantly higher precision (Fig. 10). Comparing with simula-
+tions (Oppenheimer et al. 2021), BAHAMAS and SIMBA ex-                      The systematic uncertainty of the stellar fraction σ⋆, sys ≈
+cellently match our observations, whereas IllustrisTNG100 and           0.25 dex (Behroozi et al. 2010; Leauthaud et al. 2012) is driven
+EAGLE overpredict the gas fraction at the median mass by ≈ 5σ           primarily by the IMF choice, with smaller contributions from
+and 10σ, respectively.                                                  dust attenuation, star formation history, and stellar population
+                                                                        synthesis assumptions. In our analysis, we propagated σ⋆, sys
+5. Matter power spectrum suppression                                    alongside the gas fraction uncertainty when deriving the confi-
+                                                                        dence interval. We stress that MPS suppression is sensitive to the
+The connection between the baryon fraction fb in groups                 total baryon budget and not just the gas fraction, as implied by
+and clusters and the MPS suppression on large scales (k <               the middle and right panels of Fig. 4 in Siegel et al. (2026a). In
+10 h Mpc−1 ) is well established (e.g. Schneider et al. 2019;           that work, the SIMBA and fiducial FLAMINGO (L1_m9) sim-
+Debackere et al. 2020; van Daalen et al. 2020; Salcido et al.           ulations yield similar gas fractions yet predict different suppres-
+Article number, page 10 of 20
+                          H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+
+               1.00
+                        SP(k)   fit to:
+               0.95     This work (eROSITA)
+
+
+
+P(k)/PDMO(k)
+                        BAHAMAS
+                        BAHAMAS Low AGN
+               0.90
+                         Baryonification fit to:
+                        Stacks of Siegel+25b (kSZ+X-ray)
+               0.85     FLAMINGO L1_m9
+                        FLAMINGO fgas-8
+                        SIMBA
+               0.80
+                 10 1                                                                    100
+                                                                    k [h Mpc 1]
+  Fig. 11: Suppression of the matter power spectrum. The black shaded area indicates our constraint on the power suppression
+  implied by an SP(k) model (Salcido et al. 2023) fit to the fb − M relation of the 2MRS-eRASS1 sample. The orange and dark
+  golden curves show SP(k) fits to the predictions of BAHAMAS and BAHAMAS Low AGN simulations, respectively. The red
+  shaded region demonstrates a baryonification model (Schneider & Teyssier 2015; Giri & Schneider 2021) fit to stacked kSZ effect
+  profiles combined with XMM-Newton and eROSITA gas fractions (Siegel et al. 2026a). Baryonification model fits to the predictions
+  of fiducial and strong-feedback FLAMINGO variants are shown with green and blue curves, respectively, while that to SIMBA is
+  shown in magenta.
+
+
+  sion curves due to differing stellar, and thus total baryon, budgets        tems from cluster catalogues that rely on modelling X-ray
+  (see Fig. 1 in Bigwood et al. 2026), highlighting the importance            peaks. Beyond R500c , we detect a significant steepening, with
+  of accounting for all sources of error in stellar fraction estimates.       β[0.15−1]R500c = 0.38 ± 0.04 rising to βR500c −R200c = 0.76 ± 0.19
+      Our constraints on P(k)/PDMO (k) are shown in Fig. 11, com-             (Fig. 3).
+  pared to SP(k) fits to fiducial and weak-AGN BAHAMAS mod-                 • At the median mass log10 M500c /M⊙ = 13.4, we measure
+  els (Salcido et al. 2023), and to the baryonification model results          fgas,500 = 4.32 ± 0.42%, which increases to fgas,200 = 5.78 ±
+  of Siegel et al. (2026a) fitted to kSZ+XMM-Newton+eROSITA                   0.69% at R200c and the median mass log10 M200c /M⊙ =
+  data. On scales k < 1 h Mpc−1 , our constraint is in broad agree-           13.57. However, it remains well below the cosmic value. This
+  ment with all hydrodynamical simulations and the kSZ+X-ray                  implies substantial AGN-driven gas ejection, consistent with
+  results. On smaller scales (k ≳ 1.5 h Mpc−1 ), growing ten-                 Ayromlou et al. (2023), who found mean closure radii of 2,
+  sion emerges with strong feedback FLAMINGO, SIMBA, and                      3.5, and 9.5 R200c in EAGLE, IllustrisTNG, and SIMBA, re-
+  the kSZ+X-ray constraints, while fiducial FLAMINGO and BA-                  spectively. A detailed eROSITA study of the closure radius
+  HAMAS remain consistent throughout.                                         is the focus of a future study (Khalil et al. in prep.).
+                                                                            • We present the Mgas − Mtot , LX − Mtot , and LX − Mgas scal-
+                                                                              ing relations at R500c and R200c (Sect. 4.3, Table 1). We cor-
+  6. Summary                                                                  rected for aperture-induced covariance between quantities
+  We have presented eROSITA X-ray properties of the hot inter-                that share the same integration radius (Sect. 4.3.1) and mod-
+  galactic gas at the outskirts of a sample of 25 galaxy groups               elled our optical selection.
+  detected in the first public release of the eROSITA-DE data               • Our fgas − Mtot relation agrees with the stacking study of
+  (eRASS1; Merloni et al. 2024; Bulbul et al. 2024) and confirmed             Popesso et al. (2026) although with approximately twice the
+  in the 2MRS spectroscopic catalogue (Tempel et al. 2018). In                statistical precision at the median mass (Figs. 8 and 10), is
+  our analysis, we used dynamical halo masses that were verified              fully consistent with Akino et al. (2022) and Eckert et al.
+  against the Munari et al. (2013) velocity dispersion-mass rela-             (2021), and shows mild tension with Siegel et al. (2026b).
+  tion and gas masses obtained from a multi-scale de-projection of          • Of the simulations (Figs. 6, 8, and 10), the fiducial
+  the EM profiles described in Sect. 3.2. We estimated the hot gas            FLAMINGO best reproduces both the fgas –M500c and LX –
+  fraction profiles, up to R200c , through a Monte Carlo process to           M500c relations. BAHAMAS and SIMBA provide the closest
+  propagate all sources of error. We constructed scaling relations            match to fgas,500 –M500c over the full mass range, with FABLE
+  between X-ray observables and the total mass and compared our               and TNG100 agreeing only at the highest masses. At R200c ,
+  results to stacking-based and individual-system observations, as            EAGLE and TNG100 overpredict fgas,200 at the median mass.
+  well as to the predictions of most modern hydrodynamical sim-               For the LX,500 –M500c relation, strong FLAMINGO feedback
+  ulations. Finally, we used our gas fraction results to measure the          models fgas−4σ and fgas−8σ deviate by 6.5σ and 8.6σ at
+  MPS suppression. We summarise our main findings as follows:                 the median mass, consistent with the independent findings
+                                                                              of Seppi et al. (2026) based on FLAMINGO–X-GAP (Eck-
+    • 2MRS-eRASS1 groups exhibit uniformly flat SBx profiles                  ert et al. 2024) analogues.
+      that are well described by a β model with a mean β of                 • Combining our gas mass fractions with stellar mass fractions
+      ∼ 0.4 and vanishing inner cores, such that the profiles rise            from Leauthaud et al. (2012) via the SP(k) model (Salcido
+      as power laws towards the centre (Table F.3). This mor-                 et al. 2023), we infer a 10%−15% suppression of the MPS at
+      phological property may lead to the omission of such sys-               k = 5 h Mpc−1 relative to a dark-matter-only universe (Sect.
+                                                                                                                   Article number, page 11 of 20
+                                                       A&A proofs: manuscript no. aa60299-26corr
+
+    5, Fig. 11). This is consistent with the fiducial FLAMINGO                    Morandi, A., Sun, M., Mulchaey, J., Nagai, D., & Bonamente, M. 2017, MN-
+    and BAHAMAS but in growing tension with strong feedback                          RAS, 469, 2423
+    variants on smaller scales.                                                   Munari, E., Biviano, A., Borgani, S., Murante, G., & Fabjan, D. 2013, MNRAS,
+                                                                                     430, 2638
+                                                                                  Navarro, J. F., Frenk, C. S., & White, S. D. M. 1996, ApJ, 462, 563
+Acknowledgements. HK acknowledges support by the European Union’s Hori-
+                                                                                  Nelson, D., Springel, V., Pillepich, A., et al. 2019, Computational Astrophysics
+zon Europe research and innovation programme under grant agreement No
+                                                                                     and Cosmology, 6, 2
+101131928, project ACME. ET acknowledges funding from the HTM (grant
+                                                                                  Nugent, J. M., Dai, X., & Sun, M. 2020, ApJ, 899, 160
+TK202), ETAg (grant PRG3034) and the EU Horizon Europe (EXCOSM, grant
+                                                                                  Oppenheimer, B. D., Babul, A., Bahé, Y., Butsky, I. S., & McCarthy, I. G. 2021,
+No. 101159513).
+                                                                                     Universe, 7, 209
+                                                                                  Osmond, J. P. F., Ponman, T. J., & Finoguenov, A. 2004, MNRAS, 355, 11
+                                                                                  Perinati, E., Freyberg, M. J., Pommranz, C., et al. 2025, Experimental Astron-
+                                                                                     omy, 60, 18
+References                                                                        Pierre, M., Pacaud, F., Adami, C., et al. 2016, A&A, 592, A1
+                                                                                  Pillepich, A., Springel, V., Nelson, D., et al. 2018, MNRAS, 473, 4077
+Abril-Pla, O., Andreani, V., Carroll, C., et al. 2023, PeerJ Computer Science,
+                                                                                  Planck Collaboration, Ade, P. A. R., Aghanim, N., et al. 2016, A&A, 594, A13
+   9:e1516
+Akino, D., Eckert, D., Okabe, N., et al. 2022, PASJ, 74, 175                      Popesso, P., Biviano, A., Marini, I., et al. 2026, A&A, 707, A362
+Anders, E. & Grevesse, N. 1989, Geochim. Cosmochim. Acta, 53, 197                 Pratt, G. W., Croston, J. H., Arnaud, M., & Böhringer, H. 2009, A&A, 498, 361
+Asplund, M., Grevesse, N., Sauval, A. J., & Scott, P. 2009, ARA&A, 47, 481        Predehl, P., Andritschke, R., Arefiev, V., et al. 2021, A&A, 647, A1
+Ayromlou, M., Nelson, D., & Pillepich, A. 2023, MNRAS, 524, 5391                  Predehl, P., Sunyaev, R., Becker, W., et al. 2020, Nature, 588, 227
+Bahar, Y. E., Bulbul, E., Clerc, N., et al. 2022, A&A, 661, A7                    Reiprich, T. H., Veronica, A., Pacaud, F., et al. 2021, A&A, 647, A2
+Bahar, Y. E., Bulbul, E., Ghirardini, V., et al. 2024, A&A, 691, A188             Rudd, D. H., Zentner, A. R., & Kravtsov, A. V. 2008, ApJ, 672, 19
+Behroozi, P. S., Conroy, C., & Wechsler, R. H. 2010, ApJ, 717, 379                Runge, J., Walker, S. A., & Mirakhor, M. S. 2022, MNRAS, 509, 2647
+Bertin, E. & Arnouts, S. 1996, A&AS, 117, 393                                     Salcido, J., McCarthy, I. G., Kwan, J., Upadhye, A., & Font, A. S. 2023, MN-
+Bigwood, L., Yamamoto, M., Siegel, J., et al. 2026, MNRAS, 550, stag1314             RAS, 523, 2247
+Braspenning, J., Schaye, J., Schaller, M., et al. 2024, MNRAS, 533, 2656          Sanderson, A. J. R., O’Sullivan, E., Ponman, T. J., et al. 2013, MNRAS, 429,
+Brunner, H., Liu, T., Lamer, G., et al. 2022, A&A, 661, A1                           3288
+Bulbul, E., Liu, A., Kluge, M., et al. 2024, A&A, 685, A106                       Sarkar, A., Su, Y., Randall, S., et al. 2021, MNRAS, 501, 3767
+Cavaliere, A. & Fusco-Femiano, R. 1976, A&A, 49, 137                              Schaller, M., Schaye, J., Kugel, R., Broxterman, J. C., & van Daalen, M. P. 2025,
+Cavaliere, A. & Fusco-Femiano, R. 1978, A&A, 70, 677                                 MNRAS, 539, 1337
+Chiu, I., Mohr, J. J., McDonald, M., et al. 2018, MNRAS, 478, 3072                Schaye, J., Crain, R. A., Bower, R. G., et al. 2015, MNRAS, 446, 521
+Churazov, E., Khabibullin, I., Bykov, A. M., Lyskova, N., & Sunyaev, R. 2023,     Schaye, J., Kugel, R., Schaller, M., et al. 2023, MNRAS, 526, 4978
+   A&A, 670, A156                                                                 Schneider, A. & Teyssier, R. 2015, J. Cosmology Astropart. Phys., 2015, 049
+Davé, R., Anglés-Alcázar, D., Narayanan, D., et al. 2019, MNRAS, 486, 2827        Schneider, A., Teyssier, R., Stadel, J., et al. 2019, J. Cosmology Astropart. Phys.,
+Debackere, S. N. B., Schaye, J., & Hoekstra, H. 2020, MNRAS, 492, 2285               2019, 020
+Duffy, A. R., Schaye, J., Kay, S. T., & Dalla Vecchia, C. 2008, MNRAS, 390,       Semboloni, E., Hoekstra, H., Schaye, J., van Daalen, M. P., & McCarthy, I. G.
+   L64                                                                               2011, MNRAS, 417, 2020
+Eckert, D., Ettori, S., Coupon, J., et al. 2016, A&A, 592, A12                    Seppi, R., Eckert, D., Finoguenov, A., et al. 2025, A&A, 699, A206
+Eckert, D., Finoguenov, A., Ghirardini, V., et al. 2020, The Open Journal of      Seppi, R., Eckert, D., Schaye, J., et al. 2026, A&A, 710, A153
+   Astrophysics, 3, 12                                                            Siegel, J., Bigwood, L., Amon, A., et al. 2026a, MNRAS, 549, stag993
+Eckert, D., Gaspari, M., Gastaldello, F., Le Brun, A. M. C., & O’Sullivan, E.     Siegel, J. C., Amon, A., McCarthy, I. G., et al. 2026b, ApJ, 1003, 151
+   2021, Universe, 7, 142                                                         Sivakoff, G. R., Sarazin, C. L., & Carlin, J. L. 2004, ApJ, 617, 262
+Eckert, D., Gastaldello, F., O’Sullivan, E., et al. 2024, Galaxies, 12, 24        Smith, R. K., Brickhouse, N. S., Liedahl, D. A., & Raymond, J. C. 2001, ApJ,
+Eckert, D., Ghirardini, V., Ettori, S., et al. 2019, A&A, 621, A40                   556, L91
+Eckert, D., Seppi, R., Braspenning, J., et al. 2026, A&A, 709, L4                 Smith, R. M., Martínez, V. J., Fernández-Soto, A., Ballesteros, F. J., & Ortiz-Gil,
+Ettori, S. 2015, MNRAS, 446, 2629                                                    A. 2008, ApJ, 679, 420
+Euclid Collaboration, Mellier, Y., Abdurro’uf, et al. 2025, A&A, 697, A1          Somerville, R. S. & Davé, R. 2015, ARA&A, 53, 51
+Fabian, A. C. 2012, ARA&A, 50, 455                                                Sorini, D., Davé, R., Cui, W., & Appleby, S. 2022, MNRAS, 516, 883
+Finoguenov, A., Rykoff, E., Clerc, N., et al. 2020, A&A, 638, A114                Sun, M., Voit, G. M., Donahue, M., et al. 2009, ApJ, 693, 1142
+Finoguenov, A., Seppi, R., Eckert, D., et al. 2026, arXiv e-prints,               Sutton, A. D., Roberts, T. P., Gladstone, J. C., & Walton, D. J. 2015, MNRAS,
+   arXiv:2608.17732                                                                  450, 787
+Gastaldello, F., Buote, D. A., Humphrey, P. J., et al. 2007, ApJ, 669, 158        Tempel, E., Kipper, R., Tamm, A., et al. 2016, A&A, 588, A14
+Gastaldello, F., Di Gesu, L., Ghizzardi, S., et al. 2013, ApJ, 770, 56            Tempel, E., Kruuse, M., Kipper, R., et al. 2018, A&A, 618, A81
+Giles, P. A., Maughan, B. J., Pacaud, F., et al. 2016, A&A, 592, A3               Tempel, E., Tamm, A., Gramann, M., et al. 2014, A&A, 566, A1
+Giri, S. K. & Schneider, A. 2021, J. Cosmology Astropart. Phys., 2021, 046        Thölken, S., Lovisari, L., Reiprich, T. H., & Hasenbusch, J. 2016, A&A, 592,
+Goulding, A. D., Greene, J. E., Ma, C.-P., et al. 2016, ApJ, 826, 167                A37
+Henden, N. A., Puchwein, E., Shen, S., & Sijacki, D. 2018, MNRAS, 479, 5385       van Daalen, M. P., McCarthy, I. G., & Schaye, J. 2020, MNRAS, 491, 2424
+HI4PI Collaboration, Ben Bekhti, N., Flöer, L., et al. 2016, A&A, 594, A116       Vikhlinin, A., McNamara, B. R., Forman, W., et al. 1998, ApJ, 502, 558
+Huchra, J. P., Macri, L. M., Masters, K. L., et al. 2012, ApJS, 199, 26           Vulcani, B., De Lucia, G., Zakharova, D., et al. 2026, A&A, 708, A141
+Ishiyama, T., Prada, F., Klypin, A. A., et al. 2021, MNRAS, 506, 4210
+                                                                                  Wang, Y., Zhai, Z., Alavi, A., et al. 2022, ApJ, 928, 1
+Ivezić, Ž., Kahn, S. M., Tyson, J. A., et al. 2019, ApJ, 873, 111
+                                                                                  Yeung, M. C. H., Ponti, G., Freyberg, M. J., et al. 2024, A&A, 690, A399
+Käfer, F., Finoguenov, A., Eckert, D., et al. 2019, A&A, 628, A43
+Khalil, H., Finoguenov, A., Tempel, E., & Mamon, G. A. 2024, A&A, 690, A212
+Kosowski, J., Finoguenov, A., Tempel, E., & Mamon, G. A. 2025, A&A, 700,
+   A98
+Kovač, M., Nicola, A., Bucko, J., et al. 2025, J. Cosmology Astropart. Phys.,
+   2025, 046
+Kugel, R., Schaye, J., Schaller, M., et al. 2023, MNRAS, 526, 6103
+Leauthaud, A., George, M. R., Behroozi, P. S., et al. 2012, ApJ, 746, 95
+Li, D., Fang, T., Ge, C., et al. 2024, ApJ, 977, L40
+Lovisari, L. & Maughan, B. J. 2022, in Handbook of X-ray and Gamma-ray
+   Astrophysics, ed. C. Bambi & A. Sangangelo, 65
+Lovisari, L., Reiprich, T. H., & Schellenberger, G. 2015, A&A, 573, A118
+Matsushita, K., Kondo, M., Sato, K., et al. 2025, arXiv e-prints,
+   arXiv:2510.04523
+McCarthy, I. G., Schaye, J., Bird, S., & Le Brun, A. M. C. 2017, MNRAS, 465,
+   2936
+Merloni, A., Lamer, G., Liu, T., et al. 2024, A&A, 682, A34
+Miller, K., More, S., & Jain, B. 2026, J. Cosmology Astropart. Phys., 2026, 092
+
+Article number, page 12 of 20
+                        H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+Appendix A: Wavelet gallery                                               the total flux, confirming the validity of our PSF model. We as-
+                                                                          sessed the effect of stray light from single mirror reflections on
+The exposure-corrected wavelet images obtained according to               our analysis by cross-checking our results using the PSF model
+the procedure outlined in Sect. 2.2 in the [0.6–2.3] keV band are         introduced in Appendix A in Churazov et al. (2023). The dif-
+shown in Fig. A.1.                                                        ference in the observed SBx between this model and our simple
+                                                                          one is ∼ 1% in regions of interest ∼ 20′ , and thus we found no
+Appendix B: Particle-induced background                                   impact on the gas mass results.
+
+Particle-induced background maps were generated for each sky                       Table C.1: AGNs used in the PSF calibration.
+tile following the procedure outlined in Reiprich et al. (2021).
+We summarise the procedure as follows: due to the stability of                    eROSITA tile     Src ID    RA (deg)      Dec (deg)
+the PIB spectral shape and its negligible spatial variation, we                     085153           1         84.73        -64.09
+measure the count rate in a hard energy band [6−9] keV, which is                    202069           2        201.22         21.60
+dominated by PIB events, and scale it to the [0.6 − 2.3] keV band                   006135           1          6.25        -45.50
+of interest using a fixed ratio R = S PIB[0.6−2.3]keV /HPIB[6−9]keV de-
+rived from the FWC5 data. The final PIB map is created by mul-
+tiplying the hard band counts of the observation Hobs by R and
+spatially distributing the product using the unvignetted exposure         Appendix D: Background regions
+maps created for the [0.6 − 2.3] keV band using the eSASS task,
+expmap. The values of S PIB[0.6−2.3]keV and H[6−9]keV of the FWC          The X-ray background in each eROSITA tile was estimated from
+data are listed in Table B.1.                                             nine circular regions, each with 15-arcmin radius, sampling a
+                                                                          range of FOV locations and distances from the source, to miti-
+Table B.1: Number of soft band [0.6 − 2.3] keV and hard band              gate spatial background variability (example in Fig. D.1 and the
+[6 − 9] keV counts in eROSITA FWC data.                                   mean background SBx per field listed in Table F.3). We utilised
+                                                                          knowledge of the extended wavelet scales to avoid placing back-
+                   TM     S PIB[0.6−2.3]   HPIB[6−9]                      ground apertures in regions of extended X-ray emission (such as
+                    1        62011          99243                         those associated with infalling substructure).
+                    2        44676          68931
+                    3        46737          72632
+                    4        46425          77307                         Appendix E: Literature comparison
+                    5        25518          40623                         To validate our analysis, we compared our derived gas masses
+                    6        47562          77529                         with literature results for the same groups using different X-ray
+                    7        50560          82620                         instruments (Chandra and XMM-Newton) at the same physical
+                                                                          radius. We found literature studies for seven of our 25 groups,
+                                                                          which we detail below, and show the comparison in Fig. E.1.
+                                                                          Overall, we report consistent gas mass measurements with pre-
+Appendix C: eROSITA point spread function                                 vious instruments with a systematic 15 ± 4.5% lower gas mass
+Modelling the shape of the eROSITA survey PSF is required to              values using eROSITA, a trend also seen for LX in Fig. 18 in
+take into account the effect of photon smearing across the in-            Bulbul et al. (2024).
+ner annuli of the galaxy group emission and accurately charac-
+                                                                           – 2MRS 2657 (NGC 2832): Gastaldello et al. (2007) measured
+terise core radii of the emission region. We performed an in-
+                                                                             a gas mass of 3.1 ± 0.3 × 1011 M⊙ at 185 kpc with XMM-
+flight calibration by searching eRASS1 on point sources with
+                                                                             Newton European Photon Imaging Camera (EPIC pn) versus
+high detection likelihood (DET_LIKE_0) and 0 extent likelihood
+                                                                             our 3.5±0.7×1011 M⊙ . At 456 kpc, Morandi et al. (2017) used
+(EXT_LIKE). Next, radial SBx profiles are extracted for three
+                                                                             Chandra Advanced CCD Imaging Spectrometer (ACIS-I) to
+such point sources using logarithmically spaced concentric an-
+                                                                             measure a gas mass of 2.89 ± 0.2 × 1012 M⊙ (vs our 2.19 ±
+nuli with a minimum bin size of 1.5 arcsec and extending out to
+                                                                             0.4 × 1012 M⊙ ) and 4.5 ± 1.0 × 1012 M⊙ at 691 kpc (vs our
+4 arcmin. The coordinates of those point sources, their eROSITA
+                                                                             2.92 ± 0.53 × 1012 M⊙ ).
+sky tiles, and source identifiers within each tile, are listed in Ta-
+ble C.1. We then fitted them with a King model of the form                 – 2MRS 2938 (NGC 2832): Goulding et al. (2016) reported the
+                                                                             Chandra ACIS-I X-ray properties of only the central galaxy
+            
+                  r
+                    !2 −α                                                   in a 21′′ aperture with no data found on larger scales.
+Σ(r) = Σ0 1 +          ,
+                    
+                                                                (C.1)      – 2MRS 7727 (IC 4320): Sutton et al. (2015) reported
+                 Rc                                                         on a hyper-luminous X-ray source candidate (2XMM
+where Σ0 , rc , and α are the normalisation, the core radius, and the        J120405.8+201345) associated with the galaxy IC 4320 us-
+slope of the King model, respectively. Our eROSITA PSF model                 ing Chandra ACIS-S with no gas measurements on larger
+has mean best-fit parameters of Rc = 6 arcsec and α = 1.19. To               scales.
+verify our PSF model, we integrated Eq. C.1 with these best-fit            – 2MRS 4808 (NGC 5171): Osmond et al. (2004) measured
+parameters out to a large radius of 100 arcmin to estimate the               the XMM-Newton LX,500 in the [0.4–2.0] keV band to be
+total flux. We then repeated this integration out to the eROSITA             3.47±0.7×1042 erg s−1 , which corresponds to 5.76±1.1×1042
+survey half-energy width of 30 arcsec in the [0.2–2.3] keV en-               erg s−1 in our [0.1–2.4] keV band of interest (consistent with
+ergy band (Merloni et al. 2024), and retrieved exactly 50% of                our 5.01 ± 0.39 × 1042 erg s−1 value).
+                                                                           – 2MRS 1683 (NGC 1600): This group meets many of the
+5
+  https://eROSITA.mpe.mpg.de/dr1/AllSkySurveyData_dr1/                       fossil group criteria such as having a high dark matter con-
+FWC_dr1/                                                                     centration (Runge et al. 2022) and a large magnitude gap
+                                                                                                                 Article number, page 13 of 20
+                                                                                    A&A proofs: manuscript no. aa60299-26corr
+
+       12.00°
+                              R200c                                                       13.50°                                                                                                            R200c
+                                                                                                                   R200c
+                              R500c                                                                                                                                                                                                             10 2
+
+
+
+                                                              [cts s 1 arcmin 2]                                                                     [cts s 1 arcmin 2]
+                                                                                                                                                                                                            R500c
+
+                                                                                                                                                                                                                                                   [cts s 1 arcmin 2]
+                                                                                                                                                  10 2                          34.00°
+       12.50°                                              10 2
+                                                                                          14.00°
+                                                                                                                   R500c
+Dec                                                                                Dec                                                                                    Dec
+
+                                                                                                                                                                                33.50°
+       13.00°                                              10 3                                                                                   10 3                                                                                          10 3
+                                                                                          14.50°
+
+                 grpID: 4417                                                                       grpID: 4701                                                                            grpID: 2938
+                 194.50°    194.00°     193.50°                                                          200.50°         200.00°        199.50°                                             140.50°       140.00°         139.50°
+                                RA                                                                                  RA                                                                                          RA
+      22.00°
+                                                                                         21.00°
+                              R200c                        10 2                                                R200c                              10 2                                                      R200c                               10 2
+      21.50°
+                              R500c                                                                            R500c
+
+
+                                                              [cts s 1 arcmin 2]                                                                     [cts s 1 arcmin 2]                                                                            [cts s 1 arcmin 2]
+                                                                                         20.50°                                                                                 25.50°                      R500c
+Dec   21.00°                                                                       Dec                                                            10 3                    Dec
+                                                           10 3                                                                                                                                                                                 10 3
+                                                                                         20.00°                                                                                 25.00°
+      20.50°
+                grpID: 2657                                                              19.50° grpID: 7727                                       10 4
+                                                                                                                                                                                          grpID: 4050
+               126.00° 125.50° 125.00° 124.50°                                                     181.50° 181.00°            180.50°                                                       182.50°        182.00°          181.50°
+                               RA                                                                                  RA                                                                                           RA
+                                                                                                                                                                                                            R200c
+                              R200c                                                                            R200c                                                            2.50°
+       46.50°                                                                                                                                     10 2                                                      R500c
+                                                           10 2
+
+
+
+                                                              [cts s 1 arcmin 2]                                                                     [cts s 1 arcmin 2]                                                                            [cts s 1 arcmin 2]
+                                                                                         12.00°
+                              R500c                                                                            R500c                                                                                                                            10 2
+                                                                                                                                                                                2.00°
+Dec                                                                                Dec                                                                                    Dec
+       47.00°
+                                                           10 3                          11.50°
+                                                                                                                                                  10 3                          1.50°
+                                                                                                                                                                                                                                                10 3
+       47.50° grpID: 343                                                                           grpID: 4808                                                                           grpID: 4021
+                18.00° 17.50° 17.00° 16.50° 16.00°                                            203.00°     202.50°          202.00°                                                182.00°      181.50°          181.00°         180.50°
+                                RA                                                                                 RA                                                                                           RA
+
+                              R200c                                                                                                                                              13.00°
+       4.50°                                               10 2
+                                                                                                                   R200c
+                              R500c                                                        9.00°                                                                                                                R500c                           10 2
+
+
+
+                                                              [cts s 1 arcmin 2]                                                                     [cts s 1 arcmin 2]                                                                            [cts s 1 arcmin 2]
+                                                                                                                   R500c                          10 2
+       5.00°                                                                                                                                                                     13.50°
+Dec                                                                                Dec                                                                                    Dec
+                                                                                           9.50°                                                                                                                                                10 3
+       5.50°                                               10 3
+                                                                                                                                                                                 14.00°
+                                                                                                                                                  10 3
+       6.00° grpID: 1683                                                                  10.00° grpID: 3807                                                                              grpID: 3657
+                68.50° 68.00°         67.50°      67.00°                                      175.50°   175.00°            174.50°                                                                    169.00°         168.50°         168.00°
+                               RA                                                                                   RA                                                                                           RA
+Fig. A.1: Exposure-corrected [0.6-2.3] keV band eROSITA TM0 wavelet maps of the 2MRS-eRASS1 group sample. The 2MRS
+group identifier is indicated in each cutout, and the radial extent of R500c and R200c is shown with solid and dashed circles, respec-
+tively. The colour bar is reported in units of cts/s/arcmin2 .
+
+
+Article number, page 14 of 20
+                                     H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+       4.50°                                                                                                                                                                        26.50°
+                                                                                             30.50°
+                                  R200c                                                                                                                                                                        R200c
+                                                               10 2
+                                                                                                                          R200c                       10 2
+                                                                                                                                                                                    27.00°                                               10 2
+
+
+
+                                                                  [cts s 1 arcmin 2]                                                                     [cts s 1 arcmin 2]                                                                 [cts s 1 arcmin 2]
+       5.00°                      R500c                                                      31.00°                                                                                                            R500c
+                                                                                                                          R500c
+Dec                                                                                    Dec                                                                                    Dec   27.50°
+                                                                                             31.50°                                                   10 3
+       5.50°                                                   10 3
+                                                                                                                                                                                    28.00°
+                                                                                                                                                                                                                                         10 3
+
+                grpID: 3089                                                                  32.00° grpID: 1075                                                                               grpID: 5199
+                148.00°        147.50°     147.00°                                                    43.00° 42.50°               42.00°     41.50°                                           215.50° 215.00° 214.50° 214.00°
+                                   RA                                                                                      RA                                                                                    RA
+      39.50°                                                                                                                                                                                                                             10 1
+                                                               10 1                          2.50°
+                                 R200c                                                                                    R200c                                                     60.80°
+                                                                                                                                                                                                               R500c
+
+
+                                                                  [cts s 1 arcmin 2]                                                                     [cts s 1 arcmin 2]                                                                 [cts s 1 arcmin 2]
+      39.00°                     R500c                                                                                    R500c                       10 2                          61.00°
+                                                                                                                                                                                                                                         10 2
+                                                               10 2                          3.00°
+Dec                                                                                    Dec                                                                                    Dec   61.20°
+
+      38.50°                                                                                                                                                                        61.40°
+                                                                                             3.50°                                                    10 3
+                                                               10 3                                                                                                                                                                      10 3
+                                                                                                                                                                                    61.60°
+                grpID: 3224                                                                           grpID: 3148                                                                              grpID: 1925
+                     154.00°     153.50°   153.00°                                                    150.50°        150.00°           149.50°                                                    80.50° 80.00° 79.50° 79.00°
+                                   RA                                                                                      RA                                                                                    RA
+                                                                                                                                                                                                                                         10 1
+                                                                                                                                                                                                               R200c
+                                  R200c                                                      39.50°                       R500c                                                     61.50°
+                                                               10 2
+                                                                                                                                                                                                               R500c
+
+
+                                                                  [cts s 1 arcmin 2]                                                                     [cts s 1 arcmin 2]                                                                 [cts s 1 arcmin 2]
+       31.50°                     R500c                                                                                                               10 2                          62.00°                                               10 2
+Dec                                                                                    Dec   40.00°                                                                           Dec
+
+       32.00°                                                                                                                                                                       62.50°
+                                                               10 3
+                                                                                                                                                      10 3                                                                               10 3
+                                                                                             40.50°                                                                                 63.00°
+                  grpID: 391                                                                           grpID: 4271                                                                            grpID: 6448
+                     19.00°       18.50°    18.00°                                                         189.50° 189.00° 188.50°                                                              288.00° 287.00° 286.00° 285.00°
+                                    RA                                                                                     RA                                                                                    RA
+                                                                                                                                                                                    6.60°
+                                                                                                                          R200c                                                                                                          10 1
+                                  R200c                                                                                                                                             6.80°                     R200c
+                                                                                                                                                      10 2
+       12.00°                                                                                30.00°                       R500c
+
+
+                                                                  [cts s 1 arcmin 2]                                                                     [cts s 1 arcmin 2]
+                                                               10 2
+
+
+
+                                                                                                                                                                                                                                            [cts s 1 arcmin 2]
+                                  R500c                                                                                                                                             7.00°                     R500c
+                                                                                                                                                                                                                                         10 2
+Dec                                                                                    Dec                                                                                    Dec   7.20°
+       12.50°                                                                                30.50°                                                                                 7.40°
+                                                               10 3                                                                                   10 3
+                                                                                                                                                                                    7.60°                                                10 3
+       13.00° grpID: 4757                                                                    31.00°
+                                                                                                       grpID: 4766                                                                  7.80°
+                                                                                                                                                                                              grpID: 4957
+                  202.00° 201.50°                    201.00°                                     202.00°        201.50°      201.00°       200.50°                                          207.80°207.60°207.40°207.20°207.00°206.80°
+                                    RA                                                                                     RA                                                                                   RA
+                                                                                                           Fig. A.1: Continued.
+
+
+
+
+                                                                                                                                                                                                          Article number, page 15 of 20
+                                                             A&A proofs: manuscript no. aa60299-26corr
+
+                                                                                                                      between it and its nearest neighbours (Smith et al. 2008).
+                                                                                                                      However, it lacked the high LX associated with fossil groups
+                 16.50°
+                                         R200c                                                                        (LX > 5 × 1041 erg s−1 ) as its previously measured LX with
+                                                                                                                      Chandra is 2.9 × 1041 erg s−1 (Sivakoff et al. 2004). We
+
+
+
+                                                                      [cts s 1 arcmin 2]
+                                                                   10 2
+                                                                                                                      present the first eROSITA observation of this group with
+                                         R500c                                                                        core-excised LX,500 = 2.46 ± 0.2 × 1042 erg s−1 , almost an
+           Dec   17.00°                                                                                               order of magnitude higher than previously reported, resolv-
+                                                                                                                      ing its fossil group LX discrepancy.
+                                                                                                                    – 2MRS 1075 (IC 1860): This system is the only group with
+                                                                   10 3                                               super-cosmic fgas,200 and is an outlier in the fgas − M500c rela-
+                 17.50°                                                                                               tion. Gastaldello et al. (2013) show that IC 1860 has two SBx
+                          grpID: 5318                                                                                 discontinuities (cold fronts) due to a minor merger, which
+                               201.00°         200.50°   200.00°                                                      explains its unusually high fgas . At 319 kpc,Gastaldello et al.
+                                          RA                                                                          (2007) reported a gas mass of 1.50 ± 0.05 × 1012 M⊙ with
+                                                                                                                      XMM-Newton (vs our 1.56 ± 0.32 × 1012 M⊙ ).
+                            Fig. A.1: Continued.                                                                    – 2MRS 4021 (MKW4): At 353 kpc, Gastaldello et al. (2007)
+                                                                                                                      reported a gas mass of 2.84 ± 0.06 × 1012 M⊙ with Chandra
+                                                                                                                      ACIS-S (vs our 2.20 ± 0.35 × 1012 M⊙ ). At 538 kpc, Sun et al.
+                                                                                                                      (2009) used Chandra ACIS to measure a gas mass of 4.17 ±
+                                                                                                                      0.38×1012 M⊙ (vs our 4.3±0.69×1012 M⊙ . At 884 kpc, Sarkar
+                                                                                                                      et al. (2021) measured a value of 8.73 ± 0.7 × 1012 M⊙ using
+                                                                                                                      a combined Chandra ACIS-I + Suzaku XIS analysis (vs our
+                                                                                                                      8.62 ± 1.38 × 1012 M⊙ ).
+
+
+                                                                                                                                                      1:0.85
+                                                                                                                                             1013     1:1
+
+
+
+
+                                                                                                                       Mgas [eROSITA (M )]
+                   R200c
+
+      47.00°
+                                                                                           10 2                                              1012
+
+
+                                                                                              [cts s 1 arcmin 2]
+                                                                                                                                                                     2MRS 2657 (NGC 2563)
+Dec   48.00°                                                                                                                                                         2MRS 1075 (IC 1860)
+                                                                                                                                                                     2MRS 4021 (MKW4)
+                                                                                                                                             1011
+                                                                                                                                               1011            10 12               1013
+                                                                                           10 3
+      49.00°
+                                                                                                                                                      Mgas [literature (M )]
+                                                                                                                   Fig. E.1: Comparison of gas masses for a matched sample of
+                                                                                                                   galaxy groups, comparing our new eROSITA measurements
+                    17.00° 16.00° 15.00° 14.00° 13.00°                                                             with previous Chandra and XMM-Newton literature at the same
+                                           RA                                                                      physical radius. eROSITA measures 15 ± 4.5% lower Mgas , in
+                                                                                                                   agreement with Fig. 18 in Bulbul et al. (2024).
+Fig. D.1: Source and background extraction regions of a 2MRS-
+eRASS1 example galaxy group. The white circle indicates the
+extent of R200c . For each group, we define nine 15′ background                                                    Appendix F: Sample properties
+extraction regions (red circles), selected manually to explore the
+variation in the background across the FOV, and we adopt the                                                       In this section we list the optical and X-ray properties of the
+median value.                                                                                                      2MRS-eRASS1 galaxy group sample studied in this work. In
+                                                                                                                   Table F.1, we present the coordinates of the X-ray emission cen-
+                                                                                                                   tres, redshift, velocity dispersion, core-excised X-ray luminosi-
+                                                                                                                   ties, extent of R500c , and number of member galaxies. In Table
+                                                                                                                   F.2, we list the total and gas masses of the sample. The best-fit
+                                                                                                                   β parameter (Sect. 4.1) and core radius of the β-model, together
+                                                                                                                   with the mean X-ray background value for each group are listed
+                                                                                                                   in Table. F.3.
+
+                                                                                                                   Appendix G: Scaling parameter distributions
+                                                                                                                   In Figs. G.1-G.6, we show the 1D and 2D distributions of the
+                                                                                                                   posteriors of the scaling relations studied in Sect. 4.3.
+Article number, page 16 of 20
+                       H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+                     Table F.1: Optical and X-ray properties of the 2MRS-eRASS1 groups studied in this work.
+
+       Group ID Field ID           RA          Dec            z          σv            LX,500            LX,200          R500c     Ngal
+        2MRS    eRASS1           (J2000)      (J2000)                 (km s−1 )    (1042 erg s−1 )   (1042 erg s−1 )    (kpc)
+        2938     139057        139.9323      33.7601       0.0241       430         6.21 ± 0.52       6.85 ± 0.66      559 ± 65     14
+        2657     126069        125.1149      21.0893       0.0170       373         2.80 ± 0.29       3.27 ± 0.33      499 ± 58     12
+        7727     180069        181.0194      20.2867       0.0248       445         3.76 ± 0.43       5.62 ± 0.63      595 ± 44     20
+        4050     183066        181.9770      25.2658       0.0230       319         2.51 ± 0.37       4.02 ± 0.52      496 ± 69     10
+        4808     203078        202.3497      11.7466       0.0239       347         4.36 ± 0.38       5.91 ± 0.52      471 ± 45     11
+        1683     068096         67.9180       -5.0859      0.0153       405         2.46 ± 0.20       2.85 ± 0.28      509 ± 60     12
+        3089     149096        147.4049       -5.1671      0.0220       287         1.20 ± 0.25       1.48 ± 0.31      387 ± 37      9
+        1075     043120         42.3849      -31.2031      0.0227       292         4.99 ± 0.27       5.76 ± 0.33      373 ± 60      7
+        5199     215117        214.6592      -27.4093      0.0233       502         6.77 ± 0.56       9.36 ± 0.81      625 ± 64     16
+         343     139057        16.9808       -46.8638     0.0222        364         3.43 ± 0.33       5.76 ± 0.48      438 ± 62     5
+        6448     287153        286.5991      -62.2351      0.0144       390         0.79 ± 0.24       1.36 ± 0.30      541 ± 88      7
+         391     019123        18.4809       -31.7330     0.0188        284         1.15 ± 0.15       1.63 ± 0.21      397 ± 77     9
+        4021     139057        181.1144       1.8958       0.0211       574         10.2 ± 0.55       12.0 ± 0.72      684 ± 79     16
+        5318     202108        200.7273      -16.9867      0.0229       233         1.32 ± 0.26       1.96 ± 0.36      359 ± 55     10
+        4957     209096        207.2674       -7.2070     0.02401       361         1.05 ± 0.24       1.80 ± 0.37      444 ± 64      5
+        4766     201120        201.1628      -30.3003     0.01377       220         0.17 ± 0.08       0.31 ± 0.14      381 ± 46     11
+        4757     203102        201.6672      -12.3089     0.02231       329         2.12 ± 0.29       3.26 ± 0.41      436 ± 80      5
+        4701     202105        200.2432      -14.1083     0.02192       388         0.86 ± 0.27       0.99 ± 0.31      430 ± 76      5
+        4417     194102        193.9116      -12.6915     0.01466       236         0.74 ± 0.13       0.90 ± 0.16      372 ± 47     11
+        3807     174099        174.7969       -9.3056     0.01922       261         1.17 ± 0.21       1.24 ± 0.27      405 ± 65      6
+        3657     168105        168.7264      -13.6051     0.01719       364         0.75 ± 0.13            –           495 ± 48      5
+        3224     153051        153.4901      38.8114      0.02263       404         1.10 ± 0.18       1.40 ± 0.23      471 ± 64     11
+        3148     149093        149.9206       -3.1057     0.02069       329         1.02 ± 0.20       1.25 ± 0.26      359 ± 59      7
+        1925     083150         79.8134      -61.1481     0.01612       252         0.75 ± 0.04            –           306 ± 51      5
+        4271     188129        188.9642      -39.9756     0.01092       310         1.52 ± 0.11            –           461 ± 54      9
+Notes. RA and Dec are coordinates of the peak large-scale X-ray emission centres. LX is core-excised and computed in the [0.1 − 2.4] keV band.
+
+                          Table F.2: Total and gas masses of the 2MRS-eRASS1 groups studied in this work.
+
+                           Group ID Field ID            M500c           M200c           Mgas,500        Mgas,200
+                            2MRS    eRASS1             1013 M⊙         1013 M⊙          1012 M⊙         1012 M⊙
+                            2938     139057          5.08 ± 1.75    7.52 ± 1.88       3.05 ± 0.58    6.99 ± 0.55
+                            2657     126069          3.58 ± 1.29    5.27 ± 1.38       1.92 ± 0.36    3.56 ± 0.41
+                            7727     180069          6.14 ± 1.36    9.01 ± 1.39       3.17 ± 0.44    6.41 ± 0.56
+                            4050     183066          3.54 ± 1.53    5.25 ± 1.64       1.88 ± 0.49    4.23 ± 0.49
+                            4808     203078          3.03 ± 0.88    4.41 ± 0.92       2.19 ± 0.38    4.55 ± 0.48
+                            1683     068096          3.83 ± 1.38    5.63 ± 1.48       1.75 ± 0.34    3.43 ± 0.40
+                            3089     149096          1.68 ± 0.62    2.48 ± 0.64       0.80 ± 0.15    1.40 ± 0.26
+                            1075     043120          1.51 ± 0.76    2.22 ± 0.82       1.67 ± 0.40    3.16 ± 0.18
+                            5199     215117          7.10 ± 2.23    10.50 ± 2.38      3.99 ± 0.70    7.70 ± 1.24
+                             343     139057          2.44 ± 1.07     3.59 ± 1.15      1.77 ± 0.52     4.29 ± 0.23
+                            6448     287153          4.56 ± 2.32     6.85 ± 2.52      0.81 ± 0.21    1.43 ± 0.35
+                             391     019123          1.81 ± 1.03     2.69 ± 1.14       0.81 ± 0.2     1.51 ± 0.24
+                            4021     139057          9.29 ± 3.31    13.90 ± 3.54      5.75 ± 0.94    10.50 ± 0.72
+                            5318     202108          1.35 ± 0.63     1.97 ± 0.68      0.62 ± 0.18    1.36 ± 0.24
+                            4957     209096          2.54 ± 1.13     3.79 ± 1.23      0.79 ± 0.19    1.45 ± 0.35
+                            4766     201120          1.60 ± 0.50     2.34 ± 0.62      0.32 ± 0.08    0.54 ± 0.15
+                            4757     203102          2.40 ± 1.39     3.59 ± 1.43      1.25 ± 0.47    3.19 ± 0.34
+                            4701     202105          2.32 ± 1.29     3.46 ± 1.40      0.60 ± 0.20    1.19 ± 0.34
+                            4417     194102          1.49 ± 0.57     2.16 ± 0.61      0.58 ± 0.12    1.07 ± 0.17
+                            3807     174099          1.93 ± 0.96     2.86 ± 1.04      0.68 ± 0.17    1.22 ± 0.23
+                            3657     168105          3.55 ± 0.98          –           0.73 ± 0.14          –
+                            3224     153051          3.02 ± 1.26     4.46 ± 1.43      0.88 ± 0.19    1.65 ± 0.29
+                            3148     149093          1.34 ± 0.68     1.97 ± 0.74      0.53 ± 0.14    0.91 ± 0.19
+                            1925     083150          0.83 ± 0.41          –           0.36 ± 0.09          –
+                            4271     188129           2.82 ± 1.0          –           0.87 ± 0.22          –
+
+
+
+
+                                                                                                                  Article number, page 17 of 20
+                                                             A&A proofs: manuscript no. aa60299-26corr
+
+                                Table F.3: SBx profile fitting results of the 2MRS-eRASS1 groups studied in this work.
+
+                                      Group ID          Field-ID         β0.15−1R500c          RC              Bkg
+                                       2MRS             eRASS1                          (10−3 arcmin) (log10 cts/s/arcmin2 )
+                                       2938              139057          0.41 ± 0.02      1.52 ± 0.22          -2.765
+                                       2657              126069          0.42 ± 0.03      2.13 ± 2.95          -2.746
+                                       7727              180069          0.38 ± 0.01      0.20 ± 0.42          -2.759
+                                       4050              183066          0.36 ± 0.03      1.25 ± 0.03          -2.707
+                                       4808              203078          0.39 ± 0.02      0.27 ± 0.41          -2.361
+                                       1683              068096          0.41 ± 0.03      1.73 ± 1.01          -2.580
+                                       3089              149096          0.37 ± 0.03      5.14 ± 6.90          -2.757
+                                       1075              043120          0.46 ± 0.01       945 ± 394           -2.814
+                                       5199              215117          0.41 ± 0.07      0.28 ± 0.35          -2.298
+                                       343               139057          0.32 ± 0.01      0.06 ± 1.10          -2.714
+                                       6448              287153          0.47 ± 0.07      8.02 ± 2.49          -2.340
+                                       391               019123          0.44 ± 0.04      0.35 ± 0.51          -2.746
+                                       4021              139057          0.47 ± 0.02       370 ± 30            -2.724
+                                       5318              202108          0.36 ± 0.04            –              -2.557
+                                       4957              209096          0.45 ± 0.06      0.10 ± 0.06          -2.591
+                                       4766              201120          0.49 ± 0.11      0.22 ± 0.12          -2.572
+                                       4757              203102          0.32 ± 0.01     0.01 ± 0.003          -2.583
+                                       4701              202105          0.44 ± 0.08      0.05 ± 0.08          -2.539
+                                       4417              194102          0.37 ± 0.02      0.03 ± 0.02          -2.442
+                                       3807              174099          0.43 ± 0.02       0.1 ± 0.04          -2.708
+                                       3657              168105          0.44 ± 0.04            –              -2.727
+                                       3224              153051          0.38 ± 0.04      0.01 ± 0.01          -2.708
+                                       3148              149093          0.34 ± 0.03      0.08 ± 0.04          -2.700
+                                       1925              083150          0.43 ± 0.02     0.16 ± 0.004          -2.760
+                                       4271              188129          0.23 ± 0.04            –              -2.898
+
+
+                      A = 0.14+0.11
+                               0.12                                                                          A = 0.16+0.12
+                                                                                                                      0.13
+
+
+
+
+                                        B = 1.59+0.34
+                                                 0.27                                                                            B = 1.53+0.26
+                                                                                                                                          0.24
+
+
+           2                                                                                        2
+     B                                                                                        B
+           1                                                                                        1
+                                                            int = 0.23+0.12
+                                                                       0.11                         0                                             int = 0.28+0.14
+                                                                                                                                                             0.13
+
+
+
+             int                                                                                      int
+      0.0 0.3 0.6                                                   Akino+22
+                                                                                               0.0 0.3 0.6
+                    0.5   0.0   0.5    1      2          0.0                                                 0.5   0.0       0   1      2        0.0
+                                                                                                                                                 0.1 0
+                                                                                                                   A                  B
+                                                         0.2                                                                                         5
+                           A                 B
+                                                         0.4
+                                                         0.6
+                                                         0.8                                                                                     0.3
+                                                                                                                                                 0.4
+                                                                                                                                                 0.6 0
+                                                                                                                                                     5
+                                                                                                                                                     0
+                                                                   int                                                                                  int
+
+Fig. G.1: 1D and 2D distributions for the posteriors of the                                    Fig. G.2: Same as Fig. G.1 but for Mgas,200 − M200c .
+Mgas,500 − M500c relation parameters according to Eq. 6. The or-
+ange curve shows the intrinsic scatter value from Akino et al.
+(2022).                                                                                  Appendix H: LX − Mgas relation
+                                                                                         X-ray luminosity and gas mass are tightly correlated observables
+                                                                                         as they both depend on the electron density and trace the hot
+                                                                                         intragroup medium. We show the LX − Mgas relation and provide
+                                                                                         its best-fit parameter distribution inside R500c and R200c in Fig.
+                                                                                         H.1 and Table 1, respectively. Our relation at R500c has a median
+                                                                                         slope of B = 1.06 ± 0.07 and an intrinsic scatter of σint = 0.17 ±
+                                                                                         0.07.
+                                                                                             We show a comparison to Bahar et al. (2022) and Lovis-
+                                                                                         ari et al. (2015). The former constructed a highly pure sam-
+                                                                                         ple of 265 groups and clusters in the eFEDS survey, for which
+                                                                                         they measured eROSITA X-ray properties and constructed the
+Article number, page 18 of 20
+                                                    H. Khalil et al.: eROSITA cosmology with galaxy groups: Hot gas budget out to the virial radius
+
+                                           A = 0.13+0.16
+                                                    0.18                                                               A = 0.09+0.06
+                                                                                                                                0.06
+
+
+
+
+                                                             B = 1.78+0.56
+                                                                      0.45                                                                B = 1.02+0.08
+                                                                                                                                                   0.08
+                          4
+     B                    2                                                                               B
+                                                                              int = 0.41+0.17                                                               int = 0.20+0.05
+                                                                                                             0.75
+                                                                                         0.17                                                                          0.04
+
+                   int                                                                                     int
+                                                                                                             0.7
+           0.0 0.3 0.6 0.9 0
+                                                                                                                 5
+
+                                                                                                             0.00
+                                           0.75                  2     4     0.0
+                                                                             0.2 0                                      0                 5               0.0
+                                                                                                                                                          0.1 0
+                                                A                  B                                                         A                   B
+                                           0.0
+                                           0.7 0
+                                               5                             0.5
+                                                                             0.7
+                                                                             1.0 5
+                                                                                 0
+                                                                                 5                                     0.0             0.7                0.3
+                                                                                                                                                          0.4
+                                                                                                                                                          0.6 5
+                                                                                                                                                              0
+                                                                                                                                                              5
+                                               0                                 0                                                                            0
+                                                                                    int                                                                           int
+
+               Fig. G.3: Same as Fig. G.1 but for LX,500 − M500c .                                         Fig. G.6: Same as Fig. G.1 but for LX,200 − Mgas,200 .
+
+                                           A = 0.12+0.15
+                                                    0.16
+
+
+
+
+                                                             B = 1.55+0.25
+                                                                      0.28
+
+
+
+
+                              B
+                                                                                                                             P(Mtot) posterior
+
+             int
+                                                                                                                2.0          Expected P(Mtot)
+                                                                              int = 0.28+0.19                                Observed P(Mtot)
+
+     0.0 0.3 0.6 0.9 0.00 0.75 1.50 2.25
+                                                                                         0.15
+
+                                                                                                                1.5
+                                                                                                          PDF   1.0
+                                           0.75                  5     0     0.0
+                                                                             0.2
+                                                A                  B
+                                           0.0
+                                           0.7
+                                           0.050             0.7     1.5     0.4
+                                                                             0.6
+                                                                             0.8
+                                               0
+                                                                                    int                         0.5
+                 Fig. G.4: Same as Fig. G.1 but for LX,200 − M200c
+                                                                                                                0.0
+                                           A = 0.03+0.07
+                                                                                                                      12.5         13.0         13.5          14.0
+                                                                                                                                          log10 (Mtot)
+                                                                                                     Fig. G.7: Comparison between the posterior of the distribution of
+                                                                                                     the true masses in our sample (red), the expected true mass dis-
+                                                             B = 1.04+0.07                           tribution inferred from Seppi et al. (2025)’s modelling (black),
+                     .50
+                                                                                                     and the observed dynamical mass distribution (blue) at R500c .
+     B 1
+
+                  0.7     5                                                   int = 0.16+0.07
+
+
+           int
+
+                  0.0     0
+                                               0            5           1.5
+                                                                        0.0 0
+                                                A                  B
+                                             0.0           0.7          0.1
+                                                                        0.3
+                                                                        0.4 0
+                                                                            5
+                                                                            0
+                                                                            5
+                                                                        0.6
+                                                                                    int
+                                                                            0
+                                                                                                     lected from RASS and observed with XMM-Newton with masses
+                                                                                                     of ∼ 1013 − 1014 M⊙ . They report a slope of B = 1.02 ± 0.24,
+            Fig. G.5: Same as Fig. G.1 but for LX,500 − Mgas,500                                     consistent with our relation. We note that in the case of Bahar
+                                                                                                     et al. (2022), luminosities are reported in the [0.5 − 2.0] keV
+                                                                                                     band and were converted to our [0.1 − 2.4] keV band using a
+LX − Mgas relation, including selection effects. They report a                                       conversion factor of 1.67 (see Sect. 4.3.3). Our results, obtained
+slope of B = 1.10 ± 0.025 consistent with our result and an in-                                      with the most recent eROSITA software and calibration files, are
+trinsic scatter of σint = 0.3 ± 0.02, substantially higher than our                                  in agreement with the well-established XMM-Newton results of
+value. We also compared our relation to that of Lovisari et al.                                      Lovisari et al. (2015), while initial eROSITA results reported by
+(2015), who compiled a complete sample of 20 galaxy groups se-                                       Bahar et al. (2022) were discordant.
+                                                                                                                                                     Article number, page 19 of 20
+                                                        A&A proofs: manuscript no. aa60299-26corr
+
+                                                                             Appendix I: LX,200c − Mtot,200c
+                        1044                   This work (2MRS-eRASS1)
+                                               Bahar+22 (eFEDS)              In Fig. H.2 we present the X-ray luminosity–total mass scaling
+                                               Lovisari+15                   relation inside R200c (see Sect. 4.3.3 for the relation inside R500c ).
+
+
+
+
+    LX, 500 [erg s 1]
+                                                                             Appendix J: Mgas,200c − Mtot,200c
+                        1043                                                 In Fig. J.1 we present the gas mass–total mass scaling relation
+                                                                             inside R200c (see Sect. 4.3.4 for the relation inside R500c ).
+
+
+                        1042                                                                             This work (2MRS-eRASS1)
+                                                                                                         Stacks of Popesso+26
+                                                                                               1013
+
+
+                                                                              Mgas, 200 [M ]
+                                            1012                    1013
+                                         Mgas, 500 [M ]
+                                   This work (2MRS-eRASS1)
+                                                                                               1012
+                         1043
+
+
+     LX, 200 [erg s 1]
+                                                                                                  1013                          1014
+                         1042
+                                                                                                                M200c [M ]
+                                                                             Fig. J.1: Gas mass vs total mass relation inside R200c . Details are
+                                                                             the same as in Fig. 7.
+
+
+                                     1012                    1013
+                                         Mgas, 200 [M ]
+Fig. H.1: X-ray luminosity vs gas mass. Top: LX − Mgas relation
+inside R500c . The solid blue line shows our best-fit relation for
+2MRS-eRASS1. The red and magenta lines show Bahar et al.
+(2022)’s eFEDS and Lovisari et al. (2015)’s relations, respec-
+tively. Bottom: LX − Mgas relation inside R200c . Other details are
+the same as in Fig. 7.
+
+
+                                  This work (2MRS-eRASS1)
+
+                    1043
+
+
+LX, 200 [erg s 1]   1042
+
+
+                           1013                          1014
+                                         M200c [M ]
+Fig. H.2: X-ray luminosity vs total mass inside R200c . The solid
+blue line shows our best-fit relation for 2MRS-eRASS1.
+Article number, page 20 of 20
+

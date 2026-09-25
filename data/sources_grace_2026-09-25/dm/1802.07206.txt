@@ -1,0 +1,408 @@
+                                               MNRAS 000, 1–6 (2018)                          Preprint 26 November 2018               Compiled using MNRAS LATEX style file v3.0
+
+
+
+
+                                               The Fifth Force in the Local Cosmic Web
+
+                                               Harry Desmond1 ∗, Pedro G. Ferreira1 , Guilhem Lavaux2,3 , and
+                                               Jens Jasche4,5
+                                               1   Astrophysics, University of Oxford, Denys Wilkinson Building, Keble Road, Oxford OX1 3RH, UK
+                                               2 Sorbonne Université, CNRS, UMR 7095, Institut d’Astrophysique de Paris, 98 bis bd Arago, 75014 Paris, France
+                                               3 Sorbonne Universités, Institut Lagrange de Paris (ILP), 98 bis bd Arago, 75014 Paris, France
+                                               4 The Oskar Klein Centre, Department of Physics, Stockholm University, Albanova University Center, SE 106 91 Stockholm, Sweden
+                                               5 Excellence Cluster Universe, Technische Universität München, Boltzmannstrasse 2, D-85748 Garching, Germany
+
+
+
+
+arXiv:1802.07206v3 [astro-ph.CO] 23 Nov 2018
+                                               26 November 2018
+
+
+                                                                                  ABSTRACT
+                                                                                  Extensions of the standard models of particle physics and cosmology often lead to
+                                                                                  long-range fifth forces with properties dependent on gravitational environment. Fifth
+                                                                                  forces on astrophysical scales are best studied in the cosmic web where perturbation
+                                                                                  theory breaks down. We present constraints on chameleon- and symmetron-screened
+                                                                                  fifth forces with Yukawa coupling and megaparsec range – as well as unscreened
+                                                                                  fifth forces with differential coupling to galactic mass components – by searching for
+                                                                                  the displacements they predict between galaxies’ stars and gas. Taking data from
+                                                                                  the Alfalfa Hi survey, identifying galaxies’ gravitational environments with the maps
+                                                                                  of Desmond et al. (2018a) and forward-modelling with a Bayesian likelihood frame-
+                                                                                  work, we set upper bounds on fifth-force strength relative to Newtonian gravity from
+                                                                                  ∆G/GN < few × 10−4 for range λC = 50 Mpc, to ∆G/GN . 0.1 for λC = 500
+                                                                                  kpc. In f (R) gravity this requires fR0 < few × 10−8 . The analogous bounds with-
+                                                                                  out screening are ∆G/GN < few × 10−4 and ∆G/GN < few × 10−3 . These are the
+                                                                                  tightest and among the only fifth-force constraints on galaxy scales. We show how our
+                                                                                  results may be strengthened with future survey data and identify the key features of
+                                                                                  an observational programme for furthering fifth-force tests beyond the Solar System.
+                                                                                  Key words: gravitation – galaxies: kinematics and dynamics – galaxies: statistics –
+                                                                                  cosmology: theory
+
+
+
+                                               1     INTRODUCTION                                                  a non-minimal coupling of the form φ2 R, which complicates
+                                                                                                                   dynamics: not only will it source energy and momentum
+                                               Despite fundamental open questions, almost all attempts at
+                                                                                                                   (along with all other constituents of the Universe) but it
+                                               extending the standard models of particle physics and cos-
+                                                                                                                   will also modify the gravitational force. Taking the simplest
+                                               mology have proven unsatisfactory. Nevertheless, a generic
+                                                                                                                   case of standard kinetic energy and potential V (φ), the New-
+                                               feature of such extensions is the introduction of extra degrees
+                                                                                                                   tonian potential Φ of a point mass M is modified to
+                                               of freedom. These arise by replacing dimension-full param-                                                   
+                                               eters with dynamical fields [e.g. lepton masses (Weinberg                                GM         ∆G −mr
+                                                                                                                                Φtot =         1+      e                     (1)
+                                               1967), dynamical dark energy (Ratra & Peebles 1988) or                                    r          G
+                                               the gravitational constant (Brans & Dicke 1961; Wetterich
+                                               1988)], and embody higher derivatives and extra dimensions.         where G is the bare (Newtonian) gravitational constant,
+                                               As any generalisation of the Einstein-Hilbert action must           m ∼ d2 V /dφ2 and ∆G/G depends on the magnitude of the
+                                               evolve new fields (Clifton et al. 2012), practically all at-        non-minimal coupling and the background field value rela-
+                                               tempts to extend the standard model add scalar, vector or           tive to the Planck mass Mpl . m sets the range of the fifth
+                                               tensor fields that influence the dynamics of the Universe and       force and ∆G its strength. The General Relativistic (GR)
+                                               its contents.                                                       result is recovered for ∆G → 0, and also for m → ∞ so
+                                                    Extra fields couple naturally to the Ricci scalar R in the     that the fifth force is confined to a narrow radius around
+                                               gravitational action. For example, a scalar φ may generate          the source. The scalar Higgs field for example generates a
+                                                                                                                   very short-range fifth force (Herranen et al. 2015).
+                                                                                                                        There are extremely stringent constraints on fifth forces
+                                                    ∗E-mail: harry.desmond@physics.ox.ac.uk                        over a wide range of scales (see Adelberger et al. 2003 for
+
+                                               c 2018 The Authors
+L2      H. Desmond, P. G. Ferreira, G. Lavaux, J. Jasche
+                                                                   2   METHODS AND OBSERVABLES
+
+                                                                   The detailed procedure for charting the gravitational envi-
+                                                                   ronments of the local Universe is given in Desmond et al.
+                                                                   (2018a) (building on earlier work in Cabré et al. 2012); we
+                                                                   provide a summary here. Our map encompasses a region out
+                                                                   to approximately 200 h−1 Mpc and is based on the 2M++
+                                                                   galaxy catalogue (Lavaux & Hudson 2011), a synthesis of
+                                                                   2MASS, 6dF and SDSS data. We connect the K-band lu-
+                                                                   minosity function with the halo mass function from a high
+                                                                   resolution ΛCDM N-body simulation (darksky-400; Skill-
+                                                                   man et al. 2014) by using abundance matching (AM) to as-
+                                                                   sociate a dark matter halo to each galaxy, according to the
+                                                                   specific prescription of Lehmann et al. 2017. (We validate
+                                                                   this model in the K-band using a counts-in-cells clustering
+                                                                   statistic in Desmond et al. (2018a).) The magnitude limit
+                                                                   of the 2M++ survey (12.5 in K) means that it misses faint
+                                                                   galaxies and their associated halos. To correct for this, we
+                                                                   use the abundance-matched simulation to estimate the dis-
+Figure 1. 1σ bound on fifth-force strength ∆G/G and range λC       tribution and density of halos hosting galaxies above the
+obtained from offsets between the stellar and gas mass centroids
+                                                                   magnitude limit, and fill these in through their probabilis-
+of Alfalfa galaxies, both with and without screening.
+                                                                   tic correlation with observables. Finally, we account for the
+                                                                   matter not associated with resolved halos by means of a
+                                                                   Bayesian reconstruction of the density field with resolution
+a review); on astrophysical scales the tightest constraints        2.65h−1 Mpc using the BORG algorithm (Jasche et al. 2010;
+for low m come from Shapiro time delay measurements                Jasche & Wandelt 2012; Jasche et al. 2015; Jasche & Lavaux
+from the Cassini satellite (Bertotti et al. 2003), which re-       2018), which propagates information from the number den-
+quire ∆G/G . 10−5 . Although this is sufficiently strong           sities and peculiar velocities of 2M++ galaxies assuming
+to make a universally-coupled fifth force cosmologically in-       concordance cosmology and a bias model. We call this the
+significant, a number of theories (for example generalised         “smooth density field”. As each step in this chain is proba-
+scalar-tensor theories and massive gravity) evade Solar Sys-       bilistic, we generate many Monte Carlo realisations of the
+tem bounds by means of a screening mechanism whereby               fields to sample the statistical uncertainties in the inputs.
+the fifth-force strength or range becomes a function of envi-           We focus here on a particular fifth-force signal: the dis-
+ronment. Chameleon screening (Khoury & Weltman 2004)               placement between galaxies’ optical (tracing stellar mass)
+arises when the effective mass, meff , becomes dependent on        and Hi (tracing cold gas mass) centroids. Such a displace-
+local density (and thus on ∇2 Φ, where Φ is the Newtonian          ment may come about either from a difference in the cou-
+potential): in denser regions, meff become large and the fifth     pling of the fifth force to stars and gas, or, more likely,
+force has short range, while in empty regions (or on cos-          from chameleon or symmetron screening (Jain & VanderPlas
+mological scales) meff → 0 and the fifth force effectively         2011; Brax et al. 2012). In the latter, gas and dark matter
+emerges. By virtue of the ‘thin-shell effect’, and corroborated    in unscreened galaxies feel a fifth force due to neighbouring
+in simulations (Zhao et al. 2011a,b; Cabré et al. 2012), an        unscreened mass, leading to an effective increase in New-
+object’s degree of screening is set by Φ = Φin + Φex , where       ton’s constant ∆G = 2β 2 G for coupling coefficient β if the
+Φin is the potential at the object’s surface due to its own        scalar field is light. Stars on the other hand self-screen and
+mass and Φex is the contribution from surrounding mass.            feel only G. The result of this effective equivalence principle
+The object is unscreened if |Φ| is less than a critical value      violation (Hui et al. 2009) is an offset between the stellar
+|Φc |. Conversely, in the Vainshtein (Vainshtein 1972) and         and gas mass in the direction of the external fifth-force ~a5 .
+symmetron (Hinterbichler & Khoury 2010) mechanisms the                  We search for such a displacement, and its correlation
+fifth-force strength depends on environment: near massive          with ~a5 , using the complete catalogue of Alfalfa (Giovanelli
+bodies ∆G/G → 0, while away from them ∆G/G 6= 0.                   et al. 2005; Kent et al. 2008; Haynes et al. 2011), a blind
+      In the presence of screening, the laboratory, the Solar      Hi survey out to z ≃ 0.06 conducted with the Arecibo ob-
+System and clusters will generally probe the screened regime       servatory. Optical counterparts (OCs) for the majority of
+and hence be expected to yield the GR result. However, this        detections were derived from cross-correlation with optical
+is not the case for a range of galaxy environments in the          surveys and included in the catalogue. The uncertainty in
+cosmic web, which probe very low density regions and should        the Hi centroid position is best estimated directly from its
+therefore manifest a fifth force. In this Letter we use a map of   displacement from the OC: we create 50 logarithmically uni-
+screening proxies to identify these environments and hence         form bins in the signal to noise ratio of the detection (SNR)
+forward-model a key signal of chameleon and symmetron              between the minimum and maximum values 4.6 and 1000
+screening: a displacement between galaxies’ stellar and gas        respectively, calculate in each bin the standard deviation of
+mass centroids. Comparing to optical and Hi data, we set 1σ        the RA and DEC components of the Hi-optical offset, and
+limits from ∆G/G < few × 10−4 at range 1/meff ≃ λC = 50            set the corresponding components of the Hi centroid un-
+Mpc to ∼ 0.1 for λC = 500 kpc. In f (R) gravity, where             certainties to be twice these to ensure our constraints are
+∆G/G = 1/3, this corresponds to fR0 . few × 10−8 .                 conservative. This gives the uncertainty a median and stan-
+
+                                                                                                         MNRAS 000, 1–6 (2018)
+                                                                      The Fifth Force in the Local Cosmic Web                        L3
+dard deviation across the sample of 3600 and 800 respectively.
+(We briefly mention the results of a less conservative choice
+below, and note that similar results are obtained by fitting
+for the uncertainty as a zeroth, first or second order polyno-
+mial in SNR.) We cut the catalogue at 100 Mpc where the
+fixed angular uncertainty leads to an unacceptably large spa-
+tial uncertainty, yielding a sample of size 12, 177. We then
+cut a further 1,355 galaxies with poor SNR (Alfalfa qual-
+ity flag 2 or 9) and 262 galaxies where the optical and Hi
+images are likely misidentified (> 20 Hi-OC offset), which
+corresponds roughly to a 3σ outlier clip. We have checked
+that our analysis is not especially sensitive to this: even cut-
+ting at 10 (a <2σ clip), removing 4.6% of our sample, does
+not appreciably alter our results. Our final sample has size
+NAlf = 10, 822. We supplement the Alfalfa information for
+22% of our galaxies with structural galaxy properties from
+the Nasa Sloan Atlas (NSA; stellar mass M∗ , half-light ra-
+dius Reff , apparent axis ratio b/a, aperture velocity disper-
+sion σd and Sérsic index n), which will improve the precision
+                                                                      Figure 2. Offsets r∗ between optical and Hi centroids predicted
+of the predicted Hi-OC offset as calculated below.                    for Alfalfa galaxies within 100 Mpc by a model with λC = 5
+     To constrain the fifth-force strength ∆G and range λC            Mpc and ∆G/G = 1, as a function of total Newtonian potential
+we proceed as follows. First, assuming a Compton wave-                Φ. The green points are for the full model with screening; the
+length for the scalar field in the range 0.4 < λC /Mpc < 50           blue points show the case where screening is switched off. The
+we set the screening threshold                                        bars in the legend show the average size of the uncertainties in Φ,
+                                                                      defined as the minimal widths enclosing 68% of the Monte Carlo
+                                  2
+         3                  λC                                        realisations of the model. The y-uncertainties are too small to
+|Φc |/c = × 10−4
+      2
+                                        .                      (2)    be visible on this plot, and are subdominant to the measurement
+         2                32 Mpc
+                                                                      uncertainties. The vertical dashed line shows the threshold |Φc |
+This is exact for the case of Hu-Sawicki f (R) (Hu & Saw-             above which galaxies in the model with screening are screened.
+icki 2007) (where |Φc | is 1.5 times the background scalar
+field value φ0 = fR0 ) and also applicable more generally
+                                                                      2016; Milgrom 2016). This yields
+with λC interpreted in terms of the self-screening parame-
+ter φ0 /(2βMpl ). We use our gravitational maps to determine                   3 1 ∆G
+                                                                      ~r∗ =            ~a5 .                                         (4)
+which halos, and portions of the smooth density field, are un-                4π ρ0 G2
+screened given these parameters by calculating Φex as a sum
+                                                                      As ~r∗ spans a very small angle on the plane of the sky we
+over all mass within λC of the test point. We take Φin = −σd2
+                                                         2            compare separately its orthogonal RA (r∗,α ) and DEC (r∗,δ )
+for galaxies with NSA information and Φin = −Vmax            for
+                                                                      components with those of the measured displacement for
+those without, where Vmax is the maximum rotational ve-
+                                                                      each galaxy.
+locity estimated by correcting the full-width half-max of the
+                                                                            We feed these calculations into a Bayesian likelihood
+radio detection for turbulence and projection effects (Tully
+                                                                      formalism. First, we generate NMC = 1000 Monte Carlo re-
+& Fouque 1985). These contributions to the total potential
+                                                                      alisations of the predicted signal ~r∗ for each Alfalfa galaxy,
+derive primarily from the test galaxy’s dark matter. Note
+                                                                      sampling independently for each one the galaxy–halo con-
+that in the case of cluster galaxies, the potential of the clus-
+                                                                      nection (from 200 independent AM realisations), the distri-
+ter itself is part of the external contribution. We calculate ~a5
+                                                                      bution of mass in the smooth density field (from 10 particle-
+by summing the contributions of all unscreened mass within
+                                                                      mesh BORG realisations), the contribution to Φex and ~a5
+λC . We then calculate the equilibrium Hi-OC offset ~r∗ pre-
+                                                                      from halos too faint to be recorded in 2M++ (calibrated
+dicted for a given galaxy:
+                                                                      with the darksky-400 N-body box), and the Gaussian ob-
+M (< r∗ ) ˆ    ∆G                                                     servational uncertainties on the structural galaxy proper-
+          ~r∗ = 2 ~a5                                          (3)    ties used to derive M (< r∗ ) and Φin . The full probabil-
+   r∗2         G
+                                                                      ity distributions that we marginalise over are given in ta-
+if it is unscreened and 0 otherwise, where M (< r∗ ) is the           ble 1 of Desmond et al. (2018b). We estimate the proba-
+dark matter plus gas mass between the Hi and optical cen-             bility that a given galaxy is unscreened as f ≡ N (|Φex | +
+troids. This follows from the requirement that the extra force        |Φin | < |Φc |)/NMC . The likelihood function then has sepa-
+on the stellar disk due to its offset from the halo centre com-       rate screened (r∗ = 0) and unscreened (Eq. 4) components,
+pensate for its not feeling the fifth force, so that the stars, gas   with relative weights 1 − f and f respectively. We model
+and dark matter continue to move together (Jain & Vander-             the unscreened component using a normalised histogram of
+Plas 2011). We calculate M (< r∗ ) by assuming a constant             the distributions of r∗,α and r∗,δ over all NMC realisations,
+density ρ0 within r∗ (justified post-hoc: r∗ for the fifth-force      obviating the need for assumptions on the form of the like-
+models we are sensitive to is 10−2 −10−1 kpc, much less than          lihood function such as Gaussianity. We convolve this like-
+the halo scale radius rs ), and estimate it separately for each       lihood with the Gaussian Hi measurement uncertainty for
+galaxy using the empirical relation between central baryonic          each galaxy, θi , and treat galaxies as uncorrelated and RA
+and dynamical surface mass densities (Lelli 2014; Lelli et al.        and DEC components as independent. This gives the total
+
+MNRAS 000, 1–6 (2018)
+L4      H. Desmond, P. G. Ferreira, G. Lavaux, J. Jasche
+likelihood of the Alfalfa data under the fifth-force model         owes to the large sample size, great range of gravitational
+specified by {λC , ∆G}. Finally, we take 20 logarithmically        environments probed (including with very low |Φ|), and a
+uniformly spaced values of λC between 400 kpc and 50 Mpc           vector rather than scalar observable, which effectively af-
+and constrain λC and ∆G/G by MCMC.                                 fords two orthogonal signals in the plane of the sky.
+      Our study greatly extends previous work testing                   We have checked that our analysis is converged with
+chameleon screening by means of this signal (Vikram et al.         number of Monte Carlo realisations, that the AM galaxy–
+2013), in which M (< r∗ ) and ~a5 were not modelled. We de-        halo connection and smooth density field from BORG are
+scribe our method exhaustively in Desmond et al. (2018b).          thoroughly sampled, that our MCMC is converged with the
+                                                                   number of steps, and that our principal results are insensi-
+                                                                   tive to reasonable variations in M (< r∗ ) and the assumed
+                                                                   uncertainties in galaxy and halo properties.
+3    RESULTS
+In Fig. 1 we show our 1σ constraint in the λC − ∆G/G
+plane, with and without screening. The dependence of the
+∆G/G limit on λC may be understood as a combination of
+two effects. First, when λC is smaller less mass contributes       4   CAVEATS AND SYSTEMATIC
+to ~a5 , leading to a smaller predicted signal at fixed ∆G/G           UNCERTAINTIES
+(Eq. 4). This allows ∆G/G, which simply scales the pre-
+dicted ~r∗ , to be larger while keeping the prediction consis-      We have marginalised over the statistical uncertainties in
+tent with the observations. Second, a smaller λC corresponds        most of the model inputs, including the galaxy–halo connec-
+to a smaller |Φc | (Eq. 2), making both the test galaxy it-         tion, the smooth density field and the observed properties of
+self and the surrounding mass less likely to be unscreened,         galaxies. Nevertheless, we make three key assumptions that
+and hence to contribute to ~a5 . In the case without screen-        may lead to systematic error in our results:
+ing, ~a5 is calculated from all mass within λC (rather than              1) We assume that Hi-optical offsets generated by non-
+only unscreened mass), and each test galaxy is considered           fifth-force effects follow the Gaussian likelihood model we
+fully unscreened (f = 1). Removing screening strengthens            created for the noise. While baryonic processes such as hy-
+the ∆G/G constraints at low λC but does not change them             drodynamical drag, ram pressure and stellar feedback may
+significantly for λC & 10 Mpc, because at higher λC most            induce a stronger signal than fifth forces, their environment-
+masses are unscreened anyway. Instead, the factor limiting          dependence is unlikely to mimic the effect of screening: our
+the constraint is the volume around a galaxy within which           constraints derive primarily from the correlation between
+matter contributes to ~a5 , which is set by λC and is the same      the direction of the Hi-OC offset and ~a5 , as well as both
+between the screening and no-screening runs. Similar results        the relative magnitude of these vectors over all galaxies and
+are obtained from resamples of the Alfalfa data with repeats        the precise dependence of the prediction on gravitational
+(bootstraps) and from parts of the full dataset (jackknifes).       potential. Indeed, our model for the uncertainty θ in the
+     In Fig. 2 we show the correlation with Φ of the signal r∗      Hi centroid implies that on average the entire signal can
+predicted for the Alfalfa galaxies by a fiducial model with         be accounted for by non-fifth-force effects; that strong con-
+λC = 5 Mpc, ∆G/G = 1. Green points are for the case                 straints are nonetheless attainable attests to the specificity
+with screening included (so that r∗ → 0 for |Φ| > |Φc |) and        of the features of the signal that fifth forces should induce.
+blue for the case without. For this relatively high value of             2) To calculate Φ and ~a5 we assume ΛCDM structure
+∆G/G the predicted signal is typically O(kpc). The trend            formation. Although the fifth-force scenarios we investigate
+with Φ derives from r∗ ∝ a5 (Eq. 4) combined with the               would alter cosmology, this is a small effect for {λC , ∆G}
+positive correlation of a5 with |Φ|; in the case with screening,    as low as is in question here (Lombriser 2014); this system-
+however, the signal vanishes for |Φ|/c2 > |Φc |/c2 = 3.7 ×          atic error is almost certainly subdominant to the statistical
+10−6 .                                                              errors in the ΛCDM galaxy–halo connection and smooth
+     Many chameleon constraints have focused on f (R) grav-         density field. Our method should not therefore be consid-
+ity where ∆G/G = 1/3; in this case we require λC . 0.5 Mpc          ered a means of probing modified gravity in cosmology, but
+(1σ), or equivalently fR0 ≡ df /dR|R0 < few × 10−8 , where          rather of unearthing any galaxy-scale fifth force in the low-z
+R0 is the current cosmological value of the Ricci scalar. This      Universe, of gravitational or non-gravitational origin.
+is stronger than cluster and cosmology constraints by two                3) Our fiducial noise model sets the positional uncer-
+orders of magnitude (Song et al. 2007; Schmidt et al. 2009;         tainty of the Hi centroid to be twice as large on a galaxy-by-
+Yamamoto et al. 2010; Ferraro et al. 2011; Lombriser et al.         galaxy basis as the Hi-OC displacement itself. If we remove
+2012a,b; Lombriser 2014; Terukina et al. 2014; Dossett et al.       the factor of two in our θ assignment – as would roughly
+2014; Wilcox H. et al. 2015) and by distance indicators (Jain       be derived by fitting θ to the data as a zeroth, first or sec-
+et al. 2013) and rotation curves (Vikram et al. 2018) by one,       ond order polynomial in SNR – we find 6.6σ evidence for
+and operates in a fully complementary regime to laboratory          ∆G/G > 0. This reflects a positive correlation between
+fifth-force searches (Adelberger et al. 2003; Burrage & Sak-       ~a5 and the observed ~r∗ over the unscreened part of the
+stein 2016; Burrage & Sakstein 2017; Brax et al. 2018). For         sample across the lower portion of our λC range (λC . 5
+λC → ∞, which holds for a light scalar field, we expect a           Mpc), with a maximum log-likelihood at λC ≃ 1.8 Mpc
+∆G/G constraint better than 10−4 . These results extend di-         and ∆G/G ≃ 0.025 that is 16 larger than that obtained
+rect constraints on fifth forces from Solar System to galactic      by ∆G = 0. We describe and validate this possible detec-
+scales, helping to fill the gap in the parameter space of tests     tion fully in Desmond et al. (2018b), and note that a similar
+of gravity (Baker et al. 2015). The strength of our bounds          signal is found in Desmond et al. (2018c).
+
+                                                                                                         MNRAS 000, 1–6 (2018)
+                                                                                      The Fifth Force in the Local Cosmic Web                     L5
+5       CONCLUSIONS AND OUTLOOK                                                       ACKNOWLEDGEMENTS
+We use the observed displacements between galaxies’ stel-                             HD is supported by St John’s College, Oxford. PGF ac-
+lar and gas mass centroids in the Alfalfa catalogue to con-                           knowledges support from Leverhulme, STFC, BIPAC and
+strain fifth forces that couple differentially to stars, gas                          the ERC. GL acknowledges support by the ANR grant num-
+and dark matter. As a case study we consider chameleon                                ber ANR-16-CE23-0002 and from the Labex ILP (refer-
+and symmetron screening, in which stars in otherwise un-                              ence ANR-10-LABX-63) part of the Idex SUPER (ANR-
+screened galaxies self-screen. We deploy the gravitational                            11-IDEX-0004-02). We thank Martha Haynes for sharing
+maps of Desmond et al. (2018a) to determine screened and                              the complete Alfalfa catalogue before public release, Phil
+unscreened regions of the d < 200 Mpc Universe, and calcu-                            Bull for information on SKA and Jeremy Sakstein and Tessa
+late the acceleration that would be induced at the position                           Baker for comments on the draft. Computations were per-
+of each Alfalfa galaxy by a fifth force with strength ∆G and                          formed at Oxford and SLAC.
+range λC . Comparing to the data with a Monte Carlo like-
+lihood formalism, we require ∆G/G . 0.1 for λC = 500 kpc
+and ∆G/G . few × 10−4 for λC = 50 Mpc. In f (R) gravity
+                                                                                      REFERENCES
+this is fR0 . few×10−8 . The corresponding bounds without
+screening are ∆G/G . few ×10−4 and ∆G/G . few ×10−3 .                                 Adelberger E. G., Heckel B. R., Nelson A. E., 2003, Ann. Rev.
+These are the strongest and among the only fifth-force con-                               Nucl. Part. Sci., 53, 77
+straints at astrophysical scales.                                                     Baker T., Psaltis D., Skordis C., 2015, Astrophys. J., 802, 63
+      While our results reveal the gravitational information                          Bertotti B., Iess L., Tortora P., 2003, Nature, 425, 374
+that can currently be extracted with this signal, they may be                         Brans C., Dicke R. H., 1961, Phys. Rev., 124, 925
+                                                                                      Brax P., Davis A.-C., Li B., Winther H. A., 2012, Phys. Rev. D,
+strengthened as data from future galaxy surveys is brought
+                                                                                          86, 044015
+to bear. The principal factors limiting the inference in Fig. 1                       Brax P., Davis A.-C., Elder B., Wong L. K., 2018, Phys. Rev.,
+are the large uncertainty θ that we use for the angular po-                               D97, 084050
+sition of the Hi centroid (with average θ̄ = 3600 ), and the                          Burrage C., Sakstein J., 2016, JCAP, 11, 045
+number of galaxies in the sample. To forecast the improve-                            Burrage C., Sakstein J., 2017, arXiv, 1709.09071
+ment afforded by future surveys, we generate mock datasets                            Cabré A., Vikram V., Zhao G.-B., Jain B., Koyama K., 2012,
+with Ngal = f × NAlf galaxies (10−3 < f < 1), and Hi an-                                  JCAP, 7, 034
+gular uncertainty Θ × θi (10−3 < Θ < 1) for galaxy i. We                              Clifton T., Ferreira P. G., Padilla A., Skordis C., 2012, Phys.
+generate a mock signal for each galaxy by randomly scat-                                  Rept., 513, 1
+tering around 0 by this uncertainty, and select the galaxies                          Desmond H., Ferreira P. G., Lavaux G., Jasche J., 2018a, Mon.
+                                                                                          Not. Roy. Astron. Soc., 474, 3152
+randomly from the full Alfalfa sample. We rederive posteri-
+                                                                                      Desmond H., Ferreira P. G., Lavaux G., Jasche J., 2018b, Phys.
+ors on ∆G/G (at λC = 5 Mpc) for each mock dataset, and                                    Rev., D98, 064015
+fit to this data a power-law of the form                                              Desmond H., Ferreira P. G., Lavaux G., Jasche J., 2018c, Phys.
+                                                                                          Rev., D98, 083010
+                                               0.91               1.00
+                                        103                                           Dossett J., Hu B., Parkinson D., 2014, JCAP, 3, 046
+                                  
+            ∆G                                              θ̄
+    σ                ≃ 8.6 × 10−4                                           ,   (5)   Ferraro S., Schmidt F., Hu W., 2011, PRD, 83, 063503
+             G                          Ngal             1 arcsec
+                                                                                      Giovanelli et al. 2005, AJ, 130, 2598
+                                                                                      Haynes et al. 2011, AJ, 142, 170
+where the left hand side is the 1σ constraint on ∆G/G.                                Herranen M., Markkanen T., Nurmi S., Rajantie A., 2015, Phys.
+To project constraints for Ngal > NAlf we extrapolate this                                Rev. Lett., 115, 241301
+relation: for Ngal ∼ 108 , θ̄ ∼ 0.100 – achievable by next-                           Hinterbichler K., Khoury J., 2010, Phys. Rev. Lett., 104, 231301
+generation radio surveys such as SKA (Santos et al. 2015;                             Hu W., Sawicki I., 2007, Phys. Rev., D76, 064004
+Yahya et al. 2015) – the constraints on ∆G/G should be                                Hui L., Nicolis A., Stubbs C. W., 2009, PRD, 80, 104002
+O(10−9 ). This would be competitive with proposed Solar                               Jain B., VanderPlas J., 2011, JCAP, 10, 032
+System tests involving laser ranging to Phobos and optical                            Jain B., Vikram V., Sakstein J., 2013, Astrophys. J., 779, 39
+                                                                                      Jasche J., Lavaux G., 2018, arXiv, 1806.11117
+networks around the Sun (Sakstein 2018). We caution how-
+                                                                                      Jasche J., Wandelt B. D., 2012, MNRAS, 425, 1042
+ever that further modelling will be required to extend the
+                                                                                      Jasche J., Kitaura F. S., Wandelt B. D., Enßlin T. A., 2010, MN-
+gravitational maps to the higher redshift (z ∼ 0.5) that this                             RAS, 406, 60
+Ngal requires, and also that the time-dependence of param-                            Jasche J., Leclercq F., Wandelt B. D., 2015, JCAP, 1, 036
+eters such as fR0 may impact the inference.                                           Kent B. R., et al., 2008, Astron. J., 136, 713
+     Our analysis is the first to employ “big data” from                              Khoury J., Weltman A., 2004, Phys. Rev., D69, 044026
+galaxy surveys to constrain gravitational physics with an                             Lavaux G., Hudson M. J., 2011, MNRAS, 416, 2840
+intra-galaxy signal. We have shown this to afford tighter                             Lehmann B. V., Mao Y.-Y., Becker M. R., Skillman S. W., Wech-
+constraints on fifth forces than other methods involving ei-                              sler R. H., 2017, Astrophys. J., 834, 37
+ther cosmological information or cherry-picked astrophysical                          Lelli F., 2014, Galaxies, 2, 292
+                                                                                      Lelli F., McGaugh S. S., Schombert J. M., Pawlowski M. S., 2016,
+objects. Nevertheless, the power of tests of this type remains
+                                                                                          Astrophys. J., 827, L19
+largely unexplored: many more galactic signals – including
+                                                                                      Lombriser L., 2014, Annalen der Physik, 526, 259
+disk warps, mass discrepancies, dynamical asymmetries and                             Lombriser L., Schmidt F., Baldauf T., Mandelbaum R., Seljak U.,
+offsets between kinematics at different wavelengths – will                                Smith R. E., 2012a, PRD, 85, 102001
+bring further and independent constraining power. Our work                            Lombriser L., Slosar A., Seljak U., Hu W., 2012b, PRD, 85,
+paves the way for fundamental physics to be incorporated                                  124038
+as a key science driver in upcoming survey programmes.                                Milgrom M., 2016, Phys. Rev. Lett., 117, 141101
+
+MNRAS 000, 1–6 (2018)
+L6      H. Desmond, P. G. Ferreira, G. Lavaux, J. Jasche
+Ratra B., Peebles P. J. E., 1988, Phys. Rev., D37, 3406
+Sakstein J., 2018, Phys. Rev., D97, 064028
+Santos M., Alonso D., Bull P., Silva M. B., Yahya S., 2015,
+    Advancing Astrophysics with the Square Kilometre Array
+    (AASKA14), p. 21
+Schmidt F., Vikhlinin A., Hu W., 2009, PRD, 80, 083505
+Skillman S. W., Warren M. S., Turk M. J., Wechsler R. H., Holz
+    D. E., Sutter P. M., 2014, arXiv, 1407.2600
+Song Y.-S., Peiris H., Hu W., 2007, PRD, 76, 063517
+Terukina A., Lombriser L., Yamamoto K., Bacon D., Koyama K.,
+    Nichol R. C., 2014, JCAP, 4, 013
+Tully R. B., Fouque P., 1985, ApJS, 58, 67
+Vainshtein A. I., 1972, Phys. Lett., 39B, 393
+Vikram V., Cabré A., Jain B., VanderPlas J. T., 2013, JCAP,
+    1308, 020
+Vikram V., Sakstein J., Davis C., Neil A., 2018, Phys. Rev., D97,
+    104055
+Weinberg S., 1967, Phys. Rev. Lett., 19, 1264
+Wetterich C., 1988, Nucl. Phys., B302, 668
+Wilcox H. et al. 2015, MNRAS, 452, 1171
+Yahya S., Bull P., Santos M. G., Silva M., Maartens R., Okouma
+    P., Bassett B., 2015, MNRAS, 450, 2251
+Yamamoto K., Nakamura G., Hütsi G., Narikawa T., Sato T.,
+    2010, PRD, 81, 103517
+Zhao G.-B., Li B., Koyama K., 2011a, Phys. Rev. Lett., 107,
+    071303
+Zhao G.-B., Li B., Koyama K., 2011b, Phys. Rev., D83, 044007
+
+
+This paper has been typeset from a TEX/LATEX file prepared by
+the author.
+
+
+
+
+                                                                    MNRAS 000, 1–6 (2018)
+

@@ -1,0 +1,979 @@
+                                               New Constraints on the free-streaming of warm dark matter from intermediate and
+                                                                        small scale Lyman-α forest data
+                                                        Vid Iršič1,2,3 ,∗ Matteo Viel4,5,6 ,† Martin G. Haehnelt 7 , James S. Bolton 8 , Stefano Cristiani5,6 ,
+                                                       George D. Becker7,9 , Valentina D’Odorico5 , Guido Cupani5 , Tae-Sun Kim5 , Trystyn A. M. Berg10 ,
+                                                        Sebastian López11 , Sara Ellison10 , Lise Christensen12 , Kelly D. Denny13 , and Gábor Worseck14
+                                                                                 1
+                                                                                  University of Washington, Department of Astronomy,
+                                                                                    3910 15th Ave NE, WA 98195-1580 Seattle, USA
+                                                                                                   2
+                                                                                                     Institute for Advanced Study,
+                                                                                        1 Einstein Drive, NJ 08540 Princeton, USA
+                                                                            3
+                                                                              The Abdus Salam International Centre for Theoretical Physics,
+                                                                                          Strada Costiera 11, I-34151 Trieste, Italy
+                                                                                   4
+                                                                                      SISSA-International School for Advanced Studies,
+
+
+
+
+arXiv:1702.01764v4 [astro-ph.CO] 8 Jun 2018
+                                                                                            Via Bonomea 265, 34136 Trieste, Italy
+                                                                                       5
+                                                                                         INAF - Osservatorio Astronomico di Trieste,
+                                                                                        Via G. B. Tiepolo 11, I-34143 Trieste, Italy
+                                                                                     6
+                                                                                       INFN - National Institute for Nuclear Physics,
+                                                                                              via Valerio 2, I-34127 Trieste, Italy
+                                                                               7
+                                                                                 Institute of Astronomy and Kavli Institute of Cosmology,
+                                                                                         Madingley Road, Cambridge CB3 0HA, UK
+                                                                                              8
+                                                                                                  School of Physics and Astronomy,
+                                                                                          University of Nottingham, University Park,
+                                                                                                     Nottingham, NG7 2RD, UK
+                                                                                                9
+                                                                                                  Space Telescope Science Institute,
+                                                                                  3700 San Martin Drive, Baltimore, MD 21218, USA
+                                                                                           10
+                                                                                              Department of Physics and Astronomy,
+                                                                                 University of Victoria, Victoria, BC V8P 1A1, Canada
+                                                                                                  11
+                                                                                                     Departamento de Astronomı́a,
+                                                                                   Universidad de Chile, Casilla 36-D, Santiago, Chile
+                                                                                     12
+                                                                                         Dark Cosmology Centre, Niels Bohr Institute,
+                                                                                    University of Copenhagen, Juliane Maries Vej 30,
+                                                                                                  DK-2100 Copenhagen, Denmark
+                                                                                                     13
+                                                                                                        Department of Astronomy,
+                                                                                   The Ohio State University, 140 West 18th Avenue,
+                                                                                                     Columbus, OH 43210, USA
+                                                                                             14
+                                                                                                Max-Planck-Institut für Astronomie,
+                                                                                        Königstuhl 17, D-69117 Heidelberg, Germany
+
+
+                                                               We present new measurements of the free-streaming of warm dark matter (WDM) from Lyman-
+                                                            α flux-power spectra. We use data from the medium resolution, intermediate redshift XQ-100 sample
+                                                            observed with the X-shooter spectrograph (z = 3−4.2) and the high-resolution, high-redshift sample
+                                                            used in Viel et al. (2013) obtained with the HIRES/MIKE spectrographs (z = 4.2 − 5.4). Based
+                                                            on further improved modelling of the dependence of the Lyman-α flux-power spectrum on the free-
+                                                            streaming of dark matter, cosmological parameters, as well as the thermal history of the intergalactic
+                                                            medium (IGM) with hydrodynamical simulations, we obtain the following limits, expressed as the
+                                                            equivalent mass of thermal relic WDM particles. The XQ-100 flux power spectrum alone gives a
+                                                            lower limit of 1.4 keV, the re-analysis of the HIRES/MIKE sample gives 4.1 keV while the combined
+                                                            analysis gives our best and significantly strengthened lower limit of 5.3 keV (all 2σ C.L.). The
+                                                            further improvement in the joint analysis is partly due to the fact that the two data sets have
+                                                            different degeneracies between astrophysical and cosmological parameters that are broken when the
+                                                            data sets are combined, and more importantly on chosen priors on the thermal evolution. These
+                                                            results all assume that the temperature evolution of the IGM can be modelled as a power law
+                                                            in redshift. Allowing for a non-smooth evolution of the temperature of the IGM with sudden
+                                                            temperature changes of up to 5000K reduces the lower limit for the combined analysis to 3.5 keV.
+                                                            A WDM with smaller thermal relic masses would require, however, a sudden temperature jump of
+                                                            5000 K or more in the narrow redshift interval z = 4.6 − 4.8, in disagreement with observations of
+                                                            the thermal history based on high-resolution resolution Lyman-α forest data and expectations for
+                                                            photo-heating and cooling in the low density IGM at these redshifts.
+
+                                                            PACS numbers:
+
+
+
+
+                                              ∗ E-mail: irsic@uw.edu (VI)
+                                                                                                                 † E-mail: viel@sissa.it (MV)
+                                                                                                                            2
+
+                                                                the method is briefly outlined in Section IV while Sec-
+                                                                tion V contains all the new results (with an Appendix fo-
+                 I.   INTRODUCTION                              cusing on degeneracies between the various parameters).
+                                                                We conclude with a summary in Section VI.
+   The intergalactic medium (IGM) and its main observ-
+able manifestation, the Lyman-α forest (see [1]), have
+been used as unique tools to address key cosmological                               II.   DATA SETS
+issues: the free-streaming of dark matter and in particu-
+lar departures from cold dark matter, generally labelled           We make use of two different and complementary data
+as warm dark matter (WDM) [2–8]; measuring the lin-             sets: the XQ-100 and HIRES/MIKE samples. XQ-100
+ear power spectrum at small scales [9–14]; probing the          consists of 100 medium resolution and signal-to-noise
+effect of the free-streaming and thus the masses of neu-        QSO spectra obtained as part of the XQ-100 survey with
+trinos [14, 15], and placing (high-redshift) geometrical        emission redshifts 3.5 < z < 4.5 [20]. A detailed de-
+constraints on our Universe from Baryonic Acoustic Os-          scription of the data and the 1D flux power spectrum
+cillations measurements [16, 17].                               measurements is presented in [29]. The resolution of the
+   At present, constraints on the matter power spec-            XQ-100 spectra is 30 − 50km s−1 (FWHM) depending on
+trum are either derived from moderate size samples              wavelength and the pixel size used for calculating the flux
+with tens of high-resolution, high signal-to-noise spectra      power spectrum for the two spectral arms is 20 (UVB)
+(VLT, HIRES/KECK, [7, 9, 12]) or large samples with             and 11 km s−1 (VIS), respectively (see [29] for details).
+thousands of low-resolution, low signal-to-noise spectra           The spectral resolution sets the smallest scales probed
+(SDSS-II, SDSS-III/BOSS, [13, 18, 19]). The XQ-100 [20]         by the data. The flux power spectrum extraction has
+sample bridges the gap between these two regimes with           been extensively modeled with mock data sets built from
+its homogeneous set of intermediate resolution and in-          hydrodynamic simulations which allows an accurate esti-
+termediate signal-to-noise QSO absorption spectra, with         mation of statistical and systematic uncertainties of the
+the additional benefit that the flux power spectrum in-         flux power at z = 3, 3.2, 3.4, 3.6, 3.8, 4, 4.2 for 19 bins in
+ferred from medium resolution QSO absorption spectra            k−space in the range 0.003–0.057 s km−1 . In [29] the co-
+is subject to quite different systematic and statistical        variance matrix was multiplied with a constant factor 1.1,
+uncertainties. Here, we will provide constraints on the         to correct for the underestimation of variance through
+free-streaming length of dark matter from modelling the         the bootstrap method. We use the same correction fac-
+XQ-100 flux-power spectrum as well as from a combined           tor here unless otherwise noted. We further assume that
+analysis with new modelling of the HIRES/MIKE flux              the cross-correlations between different redshift bins is
+power spectrum presented in [7]. These two data sets            zero. A total of 133 (k, z) points are thus used in our
+have a small redshift overlap and it can be expected            modelling of the XQ-100 flux power spectrum.
+that a combined analysis will further break degenera-              We also combine the new data with measurements of
+cies with remaining uncertainties in the parameters de-         the power spectrum used in [7], measured at higher red-
+scribing the thermal evolution of the IGM, the evolution        shift z = 4.2, 4.6, 5.0, 5.4, for 10 k−bins in the range
+of the mean flux and cosmological parameters. Push-             0.001–0.08 s km−1 . The QSO absorption spectra of this
+ing the constraints on the free-streaming length of dark        sample have been obtained with the HIRES/KECK and
+matter as far as possible is very relevant for the wider        the MIKE/Magellan spectrographs, with resolution 6.7
+astrophysics community given that considerable tensions         km s−1 and 13.6 km s−1 , respectively. Following [7] a
+with the Cold Dark Matter (CDM) model on small scales           conservative cut is imposed on the MIKE and HIRES
+continue to persist for a range of astrophysical observa-       data, such that wavenumbers with k < 0.005 s km−1 are
+tions, especially with regard to the dynamical properties       removed, due to possible systematic uncertainties on the
+of Milky Way satellites (see e.g [21]). From a particle         large scales of those measurements that used only a small
+physics point of view, small scale modifications of the         number of QSO sightlines. Moreover, we also do not con-
+cold dark matter power spectrum can e.g. arise from             sider the highest redshift bin for the MIKE data, where
+the free-streaming of sterile neutrinos [22–24] or ultra-       the flux power spectrum measurements have large error
+light bosons [25], alternatives to the more generic ther-       bars. The analysis in [7] used a correction factor of 1.5 for
+mal relics on which we concentrate our modelling here           the nominal error estimates of the flux power spectrum.
+[26]. For the purpose of our analysis here the different        We use the same value in our analysis here, unless other-
+DM candidates differ in the exact shape of the suppres-         wise stated. Ref. [7] further checked the error estimates
+sion of the small scale power spectrum they cause due           using a sample of mock absorption spectra. This sug-
+to free-streaming. However, apart from changing the na-         gested that the two error bars in the MIKE and HIRES
+ture of the DM several studies have shown that baryonic         data sets with σF /PF < 0.075 should be set to 0.075,
+physics could help in alleviating or even solving the small     which we also do in our analysis here (see [7] for more
+scale tensions [27, 28].                                        details). We further regularize the covariance matrix of
+   In Section II we briefly describe the data sets used; Sec-   the HIRES/MIKE data following the procedure of [7].
+tion III presents the hydrodynamical simulations grid;          A total of 49 (k, z) points is used in the HIRES/MIKE
+                                                                                                                             3
+
+analysis.                                                      zrei = 7, 15 for two additional models. The zrei = 7 model
+                                                               has also been simulated for all 3 values of the WDM ther-
+                                                               mal relic mass, since the redshift of reionization has an
+                 III.   SIMULATIONS                            impact on the Jeans smoothing scale and could affect the
+                                                               cutoff scale of the flux power spectrum. We note here,
+                                                               however, that the effect is large enough for the degener-
+   Our analysis of the flux power spectrum is based on
+                                                               acy between free-streaming and Jeans smoothing to be
+a set of hydrodynamical simulations that is significantly
+                                                               broken (although see [35] in the context of CDM models)
+extended compared to that used in [7]. The hydrody-
+                                                               and that the data are not constraining this parameter
+namical simulations were performed with the GADGET-
+                                                               well (see B for details).
+3 code, which is a modified version of the publicly avail-
+able GADGET-2 code [30]. A simplified star formation              The final parameter we explored characterizes the pos-
+criterion is applied for which gas particles above an over-    sible effect of ultraviolet (UV) background fluctuations.
+density 1000 and temperature below T= 105 K are con-           A model has been chosen where the spatial fluctuations
+verted into stars (e.g. [31]). The reference model simula-     of the meta-galactic UV background are dominated by
+tion has a box length of 20/h comoving Mpc with 2×7683         rare QSOs, which has a strong scale dependent effect
+gas and (cold) dark matter particles (with gravitational       on the flux power spectrum particularly at high redshift
+softening 1.04/h comoving kpc) in a flat ΛCDM universe         and at large scales. The model of UV fluctuations used
+with cosmological parameters Ωm = 0.301, Ωb = 0.0457,          here is an update of the model presented in [7] (see ap-
+ns = 0.961, H0 = 70.2 km s−1 Mpc−1 and σ8 = 0.829 in           pendix there). The updated model uses the more re-
+agreement with [32]. Three different WDM models with           cent mean free path measurements of [36] and parame-
+masses mWDM = 2, 3, 4 keV have also been simulated.            terizes the effect of UV fluctuations on the flux power
+Initial conditions were implemented using the same ap-         spectrum as fUV – defined as the fraction of the volume
+proach as [3]. We explore the thermal history of the           averaged hydrogen photo-ionisation rate that arises from
+Lyman-α forest by modifying the photo-heating rates in         a fluctuating QSO component. The remaining fraction,
+the simulations as in [33]. The low density IGM (∆ =           1 − fUV is attributed to a spatially uniform UV back-
+1+δ < 10) is well described by a power-law temperature-        ground arising from faint galaxies with a typical separa-
+density relation, T = T0 ∆γ−1 . We consider a range of         tion much less than the mean free path of ionising pho-
+values for the temperature at mean density T0 and the          tons. The flux power spectrum template is built from
+slope of the T − ρ relation, γ, based on the previous anal-    a set of 3 models variations with fUV = 0, 0.5, 1 where
+ysis of the Lyman-α forest and recent observations [34].       fUV = 0 corresponds to a spatially uniform UV back-
+These consist of a set of three different temperatures at      ground. Note, however, that a comprehensive treatment
+mean density, T0 (z = 3.6) = 7200, 11000, 14800 K, which       of spatial UV (and temperature, which we neglect here)
+evolve with redshift, as well as a set of three values of      fluctuations would require computationally prohibitive
+the slope of the T − ρ relation: γ(z = 3.6) = 1.0, 1.3, 1.5.   radiative transfer calculations in large volumes. As dis-
+These 9 thermal history models have been simulated for         cussed in [25] spatial variations in the IGM temperature
+the reference ΛCDM case; additionally all three differ-        [37], mean free path [38] and fluctuations from bright Ly-
+ent temperature models have been simulated for all three       man break galaxies at high redshift [39] (particularly at
+WDM models as well. The reference thermal history as-          z > 5) may also have an uncertain impact on the flux
+sumes (T0 (z = 3.6), γ(z = 3.6)) = (11000 K, 1.5).             power.
+   Instead of using the standard cosmological parameters
+of σ8 , the slope of the initial power spectrum ns and Ωm         Last but not least, we also vary the mean flux
+as in [7], we exploit the fact that these three parameters     (or equivalently amplitude of the UV background) by
+are tightly connected in ΛCDM (and ΛWDM) models                rescaling τeff = − ln F̄ . We use three different values
+and impact on the flux power spectrum only in terms            (0.8, 1, 1.2) × τobs,eff , with the reference values of τobs,eff
+of the amplitude and the (effective) slope of the matter       chosen to be those of the SDSS-III/BOSS measurements
+power spectrum at scales that are probed by the Lyman-         [19]. The mean flux evolution derived from the SDSS-
+α forest. We therefore use instead only two parameters         III/BOSS analysis has values that are 5-8% lower com-
+describing cosmology, σ8 and neff = d ln Pm (k)/d ln k,        pared to those measured by [34], but note that the range
+evaluated at k = 0.005 s km−1 , similarly to what was          of values considered in our analysis brackets the observed
+done in [13]. Five different values are considered for         values by [34] as well.
+both σ8 = 0.754, 0.804, 0.829, 0.854, 0.904, and neff =
+−2.3474, −2.3274, −2.3074, −2.2874, −2.2674. The refer-           Finally, a few lower resolution simulations have also
+ence model has (σ8 , neff , ns ) = (0.829, −2.3074, 0.961).    been run to check convergence and a single 1 keV WDM
+Other cosmological parameters are kept fixed at the            model has been considered to check the validity of the
+Planck best fit values. In practice, the change in neff        method described below. Each simulation used about
+is implemented with small changes of ns .                      20,000 CPU hours. The total grid consists of 23 simu-
+   We also vary the redshift of reionization zrei which is     lations at the reference resolution and 10 simulations at
+chosen to be zrei = 9 for the reference model as well as       lower resolution.
+                                                                                                                           4
+
+                     IV.    METHOD                                from (zp = 3.6, 4.5, 4.2 for XQ-100, HIRES/MIKE and
+                                                                  the combined analysis, respectively). As we will see later
+   Using the models of the transmitted flux ob-                   the choice of thermal priors significantly affects the re-
+tained from the simulations we establish a grid of                sults.
+points for each redshift, in the parameter space of                  A default set of priors was used in the reference runs
+(F̄ (z), T0 (z), γ(z), σ8 , zrei , neff , fUV , mWDM ). We then   for the mean flux (F̄ ) in each redshift bin, according to
+perform a linear interpolation between the grid points            the τeff fit to the data presented in [7], with 0.04 stan-
+in this multidimensional parameter space. The interpo-            dard deviation (1σ). These priors account for the fact
+lation is done in the PF (k, z) space directly, rather than       that different continuum treatments and different mea-
+for ratios of flux power spectra as in [7]. We perform            surements give a slightly different normalization for the
+several tests of the interpolation scheme (by predicting          mean flux. The chosen fit roughly represents the median
+the value of the flux power at a given grid point where           values of the observations (see [29]), with the 1σ standard
+exact values are known, without using that grid point in          deviations capturing the uncertainty in the normalization
+the interpolation) and conclude that while a small sys-           given by different measurements.
+tematic error due to interpolation exists (< 5% of the               For all three data sets, the preferred ranges of other
+flux power spectrum), it does not bias the results. Addi-         parameters are in agreement with independent observa-
+tional tests were done when including this correction in          tions. In particular the values of cosmological parameters
+the error budget of the likelihood estimation and results         σ8 and neff are consistent with the latest Planck results
+were unchanged. This reflects the fact that the inter-            within 1σ for XQ-100 and HIRES/MIKE and within 2σ
+polation error is small compared to the statistical error         for the combined analyses of XQ-100 and HIRES/MIKE.
+and sub-dominant in the systematic error budget of the            We have furthermore verified that the moderate 2σ dis-
+current data. A Gaussian likelihood estimation was then           crepancy in σ8 (and to lesser extent in neff ) can be al-
+used to evaluate a Monte Carlo Markov Chain (MCMC)                leviated by using additional priors on the above param-
+algorithm to obtain the set of parameters that minimizes          eters. The applied priors were Gaussian on σ8 and neff
+the likelihood for a given data set.                              of ± 0.01 (1σ) around Planck values. Our measurements
+   To estimate the convergence, four independent chains           of the cosmological parameters are consistent with those
+were run from randomly chosen initial set of parame-              measured by SDSS/BOSS collaboration [19], and more-
+ters with different seed values for pseudo-random number          over also show a similar tendency towards slightly higher
+generators. Using the Gelman-Rubin test on all of the             values of σ8 and slightly lower values of neff .
+chains we concluded that the chains have converged suf-              It is also important to emphasise that the redshift cov-
+ficiently (for each of the parameters the Gelman-Rubin            erage of XQ-100 and the higher resolution HIRES/MIKE
+measure of convergence was required to be less than 1.1).         data sets is mostly complementary (covering lower and
+The resulting chains were combined after pruning the              higher redshifts respectively) and thus different con-
+burn-in samples, from which the estimates of the poste-           straints and degeneracies are expected in each. Even
+rior distributions (and its moments) were obtained.               though XQ-100 covers a similar redshift range as the
+                                                                  SDSS-II and SDSS-III Lyman-α power spectrum mea-
+                                                                  surements, it extends to significantly smaller scales and
+                      V.    RESULTS                               should carry more information from the thermal cut-off
+                                                                  in the flux power-spectrum. Note that the thermal cut-off
+   We performed a detailed MCMC analysis for three                is fixed in comoving co-ordinates in real space, while the
+different data sets: XQ-100 (the new data set),                   cut-off in the observed transmitted flux power spectrum
+HIRES/MIKE (as in [7]) and the combined data sets.                scales as H(z)/(1 + z) in velocity space. At a fixed veloc-
+For the reference analysis case we model the mean flux            ity scale this means smaller comoving length scales (and
+parameters independently for each redshift bin, the num-          thus free streaming lengths) are probed with increasing
+ber of which varies for each data set (XQ-100 has 7,              redshift. As a result, higher redshift data are more sensi-
+MIKE/HIRES has 4 and the combined analysis has 10                 tive to the equivalent larger WDM relic mass than lower
+redshift bins). We complement these parameters with               redshift data, where the effect of the thermal motions
+an additional 9 parameters: 5 parameters describing ei-           dominates already at larger comoving length scales. Mea-
+ther cosmology or astrophysics (σ8 , neff , zrei , mWDM ,         surements of WDM from lower redshift data, like those
+fUV ) and 4 parameters describing the thermal state               obtained from SDSS/BOSS flux power spectra, are thus
+of the IGM, using a power-law T − ρ relation, T =                 mostly sensitive to the change of the power spectrum am-
+T0 ∆γ−1 . Unless otherwise noted we model the redshift            plitude on the large scales, instead of probing the shape
+evolution of the parameters T0 and γ as power-laws,               and redshift evolution of the free-streaming cut-off. In
+                                          TS                      our analysis, this is supported by the fact that large de-
+such that T0 (z) = T0A [(1 + z)/(1 + zp )] 0 and γ(z) =           generacies are found in our MCMC analysis for XQ-100
+                      γS
+γ A [(1 + z)/(1 + zp )] . The pivot redshift is different         between the WDM mass and the values of the mean flux
+for each data set and roughly corresponds to the redshift         at each redshift (see Fig. A.1 in the appendix). Fur-
+at which most of the Lyman-α forest pixels are coming             thermore, since XQ-100 consists of fewer QSO spectra,
+                                                                                                                         5
+
+
+                       3.0
+                                       sims                                XQ-100 + HIRES/MIKE
+                       2.5             T0 z-bins                           Becker+11 γ ∼ 1.5
+                       2.0             XQ-100                              Becker+11 γ = 1.3
+                                       HIRES/MIKE
+            T0[104K]
+                       1.5
+
+                       1.0
+
+                       0.5
+
+                       0.0
+                             3.0       3.5              4.0               4.5              5.0
+                                                                z
+
+FIG. 1: Temperature measurements (2σ) as a function of redshift: reference simulation (black curve), XQ-100 (shaded blue
+area), HIRES/MIKE (shaded red area), joint constraints (shaded green area); points (same color coding) represent measure-
+ments obtained using T0 in redshift bins, limiting temperature variations to ∆T = 5000 K between adjacent bins, rather than
+assuming a power-law evolution. Cyan and orange points with error bars are the IGM temperature measurements from [34]
+for two values of the slope of the temperature-density relation, γ = 1.3 and 1.5.
+
+
+
+the error bars are larger than that of the SDSS measure-          Earlier measurements of the IGM temperature at z =
+ments, which is why we do not expect the results from          3–4.3 by [40] using a Voigt profile fitting approach are
+XQ-100 alone to constrain the WDM mass as tightly as           also in reasonable agreement with our XQ-100 constraint
+various SDSS measurements.                                     (blue shading), although the error bars are large in that
+   Before discussing our new free-streaming constraints,       study. More recently, Ref. [41] measured T0 ≃ 26, 000 ±
+in Fig. 1 we show the temperature estimates from our           5000 K (2σ) at z = 3.4 using wavelets, a result which is
+MCMC analysis of the flux power spectrum for the dif-          in greater tension with our measurement. This suggests
+ferent data sets as 2σ shaded regions, assuming the tem-       there are still some systematic differences between these
+perature of the IGM varies smoothly with redshift as a         analyses likely associated with the calibration of hydro-
+power-law. In addition, we show individual points with         dynamical simulations and observational data. Note also
+2σ errorbars that are obtained by allowing the tempera-        that higher gas temperatures will in general raise the
+ture to float freely from bin to bin, but with a maximum       lower limit on the WDM particle mass and tighten the
+temperature jump between bins of ∆T = 5000 K (dis-             constraint further, so in this sense our constraint can be
+cussed further below). Both results are in good agree-         considered conservative.
+ment with the measurements of [34] obtained from the              Table 1 presents our marginalized parameter con-
+curvature of the transmitted flux, shown as orange and         straints, and Fig. 2 shows our constraints on the free-
+cyan points for two different assumptions for the power-       streaming of dark matter expressed as the mass of a puta-
+law slope γ of the temperature-density relation (but note      tive thermal relic WDM particle. As expected the results
+that these measurements were calibrated with hydrody-          from the XQ-100 data set alone (solid blue curve) only
+namical simulations where the dark matter was assumed          weakly constrain the mass (mWDM > 1.4 keV at 2σ).
+to be cold). While our measurements are consistent             While the peak of the likelihood is not at 0, the peak is
+with no evolution in temperature in the redshift range         not statistically significant (not even at 1σ). Moreover,
+3 < z < 5.4, the preferred slope is negative (temperature      the exact position of the peak is strongly dependent on
+increasing with decreasing redshift), which is in agree-       the choice of priors. However, the 2σ upper limit for
+ment with HeII reionisation occuring somewhere around          1/mWDM is nearly independent of prior choice, and con-
+redshifts 3 − 4 as inferred from high-resolution Lyman-        stitutes a very robust measurement. We also show the
+α forest data [40–43].                                         case where a correction factor of 1.3 has been applied to
+                                                                                                                         6
+
+the covariance matrix and with weak priors on cosmo-              Our analysis of the combined data sets also gives sig-
+logical parameters (σ8 and neff have Gaussian priors of        nificantly strengthened constraints on the WDM mass,
+± 0.1 (1σ) around Planck values and the assumed tem-           driven mostly again by the high redshift HIRES/MIKE
+perature T0A is 10, 000 ± 5000 K (1σ)). When we move           data set. However, unlike combining the above data
+to the model with with freely floating T (z) bins rather       set with SDSS (as in [7] where the inclusion of SDSS-
+than a power-law evolution of the temperature the free-        II data did not impact on the free-streaming con-
+streaming length inferred from the XQ-100 sample does          straints), our combined analysis of the high-redshift,
+not change.                                                    high-resolution data with the XQ-100 sample gives a sig-
+   Constraints on the WDM mass using the                       nificantly stronger lower limit on mWDM . This is again
+HIRES/MIKE sample were first presented in [7].                 mostly due to the more physical temperature evolution
+Compared to the analysis presented in [7] the main             that we assumed when combining the two data sets, that
+improvements in this work are as follows: the reference        does not allow for sudden jumps in the temperature evo-
+simulations have higher resolution and better coverage         lution. We expect that were such a prior on the tem-
+of parameter space, the model of spatial UV fluctuations       perature evolution used also in the case when combining
+has been extended, the interpolation scheme is based           SDSS-II with HIRES/MIKE, that a stronger bound on
+on the prediction of flux power rather than flux power         the WDM mass would also be obtained.
+ratios, and the (now one) cosmological parameter                  Much like in our analysis of the HIRES/MIKE only
+describing the slope of the power spectrum is closer to        data set, the results for the combined data sets is – apart
+what is constrained by the data (neff rather than Ωm           from the thermal priors – largely independent of the
+and ns ).                                                      choices of prior and thus robust. For the combined data
+   We furthermore explored more physical priors for the        sets the 2σ C.L. lower limit is 5.3 keV. This limit again
+evolution of the temperature that do not allow sudden,         weakens if we use the freely-floating temperature bins
+large jumps in the temperature. For reference, we have         rather than a power law to 3.5 keV. The same priors were
+repeated the analysis in [7]) with the reference priors (and   used in this analysis as for the HIRES/MIKE only analy-
+thermal history parameterized as a power law) used here        sis, with an upper limit on the difference in temperature
+and found that the the lower limit on mWDM increases,          between adjacent redshift bins again of ∆T = 5000 K.
+from > 3.3 keV to > 3.9 keV (with the same Planck
+priors on σ8 and ns as used by [7]) and > 4.1 keV (with        Parameter      XQ-100         HIRES/MIKE Combined
+the reference priors used in this work).                       mWDM [keV] > 1.4              > 4.1          > 5.3
+   The Planck prior used puts a Gaussian prior of ±0.01        σ8             [0.75, 0.92]   [0.75, 1.32]   [0.83, 0.95]
+(1σ) around Planck values for σ8 and neff . The result         neff           [−2.42, −2.25] [−2.53, −2.11] [−2.43, −2.32]
+appears thus quite robust to changes in the choice of prior      A        4
+                                                               T (zp ) [10 K] [0.73, 1.27]   [0.46, 1.12]   [0.74, 1.06]
+in cosmological parameters and details of the analysis but     T S (zp )      [−4.39, 1.89] [−4.78, −1.80] [−3.22, −0.82]
+is sensitive to the assumed thermal priors. If we drop the
+                                                               γ A (zp )      [1.12, 1.45]   [1.08, 1.52]   [1.23, 1.69]
+assumption of a power-law evolution for the temperature
+                                                               γ S (zp )      [−1.89, 0.17] [−1.18, 1.77] [−0.07, 1.81]
+of the IGM we get a lower bound of mWDM > 3.8 keV.
+                                                               zrei           [6.5, 15.66]   [6.26, 14.88]  [6.25, 13.43]
+   This is a stronger limit than obtained by [7] in their
+analysis of the HIRES/MIKE data, as well as in a more          fUV            [0.06, 0.96]   [0.05, 0.96]   [0.05, 0.94]
+recent reanalysis of the same data by [44] that further re-    χ2 /d.o.f.     134/124        33/40          185/173
+laxed assumptions regarding the IGM temperature evo-
+lution. This is because we have limited the change in          TABLE I: Marginalized constraints at 95 %. Pivot redshifts
+                                                               for different data sets are: zp = 3.6, 4.5, 4.2 for XQ-100,
+temperature jumps between redshift bins of ∆z = 0.2–
+                                                               HIRES/MIKE and combined.
+0.4 to a physically plausible value of ∆T = 5000 K. Any
+change in the (volume averaged) IGM temperature over
+3 < z < 5.4 will be due to either photo-heating of the
+IGM during (QSO driven) HeII reionisation or adiabatic
+cooling due to the expansion of the Universe. Models                            VI.   CONCLUSIONS
+that follow the expected HeII ionising emissivity and
+spectral shape of quasars are consistent with tempera-            We have presented new constraints on the free-
+ture boosts of at most ∆T = 5000–10000 K which are             streaming of WDM based on an MCMC analysis of the
+gradual and occur over ∆z & 1 [42, 43, 45]. The same           XQ-100 and HIRES/MIKE Lyman-α forest data sets.
+holds for a plausible drop in the temperature due to adia-     The new constraints in terms of the mass of a thermal
+batic cooling, which (ignoring heating) will at most scale     relic WDM particle, mWDM > 5.3 keV at 2σ, are the
+as T0 ∝ (1 + z)2 . Larger values of ∆T are not readily         strongest to date, and thus imply significantly colder dark
+achievable within physically motivated reionization mod-       matter than the 2 − 2.5 keV values that are typically re-
+els. For this reason, [7] strongly disfavored the binned       quired to mitigate tensions in the predictions of cold dark
+analysis they performed for completeness that weakened         matter models with other astrophysical observations on
+their constraint by around 1 keV.                              small scales.
+                                                                                                                            7
+
+
+
+
+                                             ref                             XQ-100
+                                             Cf = 1.3                        HIRES/MIKE
+                                             Weak priors                     XQ-100 + HIRES/MIKE
+
+            L
+
+
+
+
+               0.0              0.2               0.4              0.6               0.8              1.0
+                                                     1/mWDM [keV−1]
+
+
+FIG. 2: One dimensional posterior likelihood distributions for the WDM mass for XQ-100, HIRES/MIKE and the combined
+data (blue, red and green solid curves). We also show how the results change by using a larger value for the correction factor
+of the XQ-100 covariance matrix (dotted curves) and using weak priors (see text) on the thermal history and cosmological
+parameters (dot-dashed curves). Vertical lines show the corresponding 2σ confidence limits.
+
+
+   Previous analysis of the same high-resolution Lyman-α         ferent set of degeneracies. At higher redshifts the WDM
+forest data had given constraints of mWDM > 3.3 keV ([7]         smoothing scale increases relative to the thermal/Jeans
+using HIRES/MIKE) and > 3.95 keV ([8]; using SDSS-               smoothing scale in velocity space, thus most constraining
+III/BOSS). Adding the new data from the XQ-100 survey            power comes from small scales at high redshift.
+which has similar redshift coverage as SDSS, but extends
+                                                                    We conclude with three important remarks. First, the
+to significantly smaller scales, has strengthened the con-
+                                                                 tightest limit presented here weakens if we drop the as-
+straints to a significantly smaller free-streaming length
+                                                                 sumption of a power-law evolution for the temperature
+and corresponding larger values of the mass of a thermal
+                                                                 and use instead a thermal history with freely floating
+relic WDM particle. Another important aspect of our
+                                                                 T (z) bins (but with limited temperature jumps between
+new analysis was the assumption of more physical priors
+                                                                 adjacent bins) in our analysis. In this case the limit weak-
+on the gas temperature evolution with redshift. While
+                                                                 ens to 3.5 keV, a number which is very similar to the one
+the results of our analysis for the new XQ-100 data alone
+                                                                 obtained from similar analyses of HIRES/MIKE data as-
+give relatively weak constraints, the combined analysis is
+                                                                 suming a power-law evolution of the thermal parameters
+very robust to different choices of priors and also gives
+                                                                 characterising the IGM [7]. Models with free-streaming
+a largely consistent picture with independent, more di-
+                                                                 lengths larger than this require, however, an unphysi-
+rect measurements of the the thermal history of the IGM
+                                                                 cal heating and/or cooling of the IGM over a very short
+over a wide redshift range z = 3 − 5.4 [34]. This is due to
+                                                                 short timescale, in strong disagreement with theoretical
+the complementarity of the XQ-100 and MIKE/HIRES
+                                                                 expectations for the IGM thermal history and measure-
+data sets in redshift and the corresponding longer “lever
+                                                                 ments of the IGM temperature based on high-resolution
+arm” of the combined sample in redshift. On large scales
+                                                                 Lyman-α forest data.
+the main degeneracies are between the mean flux, gas
+temperature and the amplitude of matter fluctuations.               Secondly, [25] have recently suggested that tempera-
+At the lower redshifts probed by the moderate resolution         ture fluctuations could compensate for the WDM cutoff
+XQ-100 data, the WDM constraints are coming predom-              by providing an increase of power at small scales (but see
+inantly from these scales and are therefore coupled to           also [46]). This is potentially an important systematic ef-
+the same degeneracies. On small scales, however, the             fect that should be better quantified by performing tem-
+cut-off in the flux power spectrum is dominated by ther-         plate fitting based on more accurate modelling of spatial
+mal, Jeans or WDM smoothing, which introduces a dif-             fluctuations of the meta-galactic UV background, as well
+                                                                 as the residual temperature fluctuations from hydrogen
+                                                                                                                         8
+
+reionization with radiation hydrodynamical simulations          free-streaming of the WDM becomes more and more im-
+that incorporate radiative transfer effects rather than an-     portant and this scale will show no redshift evolution
+alytical modeling.                                              and will be thus easier to pick up in the data. This is
+   Thirdly, it should (at least in principle) be possible to    the reason why the higher redshift data becomes such
+further (moderately) strengthen the limits on the free-         a powerful tool for constraining the free-streaming. To
+streaming of warm dark matter by reducing the statisti-         increase the constraining power, more observations to de-
+cal errors of the high-redshift, small scale flux power spec-   crease the statistical errors would be more beneficial than
+trum obtainable with high-resolution spectrographs and          pushing to smaller scales (although the latter would be
+further constraining the thermal and reionization history       helpful as well). This is because the MCMC analysis
+of the IGM.                                                     shows that the constraints on the free-streaming length
+                                                                are largely independent of the different assumed values
+                                                                of priors, meaning that the resulting lower bound on the
+        Appendix A: Parameter degeneracies                      mass of the WDM is driven by the statistical error.
+
+   Degeneracies between the parameters play an impor-
+tant role in how well a specific parameter (e.g. free
+streaming length/WDM mass) can be estimated using
+different data sets. In the bottom row of Fig. A.1, it is
+clear that for low redshift data (XQ-100; blue coloured            Lastly we draw attention to a slight discrepancy in the
+contours), there are strong degeneracies between the            measurement of the slope of the T − ρ relation (third row
+mass of a thermal relic WDM particle and the temper-            of Fig. A.1). The value of γ(z = 4.2) measured from the
+ature (at a given redshift). This is not surprising, since      low and high redshift data sets are in modest (1 − 2σ)
+both the temperature and WDM effects change the power           tension. While this could be a statistical fluke, we would
+spectrum on large as well as small scales. At lower red-        like to point out that this might actually be an expected
+shifts the effects are small in both cases and thus harder      result, if HeII reionization happens somewhere between
+to distinguish within the observational errorbars. The          redshift 3 − 4. The high redshift data (HIRES/MIKE)
+degeneracy with temperature is an anti-correlation that         measures the thermal history above a redshift of z = 4.2,
+is expected; the data prefers either higher temperatures        where HeII reionization (that happens at lower redshifts)
+and lower masses of WDM, or lower temperatures with             would have little effect. The value of γ at these red-
+higher WDM masses.                                              shifts is thus expected to slowly increase and approach
+   However, whereas the temperature degeneracy with             the asymptotic value of around 1.6 [40, 42, 43]). The evo-
+the free streaming length comes as no surprise, the mean        lution is well described by a power-law in redshift. How-
+flux degeneracy might not be naively expected (bottom           ever, with HeII reionization somewhere between z = 3−4,
+left panel of Fig. A.1). Since this degeneracy has a sim-       a feature is to be expected in the evolution of γ, where
+ilar anti-correlation with the mass of the WDM as seen          its value falls to γ = 1.2–1.3 and then start to rise again
+for the temperature (also shown as positive correlation         towards higher asymptotic values over a redshift interval
+between mean flux and temperature - top left 2D panel           of ∆z ∼ 2 [42]. If we fit such a feature with a simple
+in Fig. A.1), it means the sensitivity of the XQ-100 data       power-law in redshift, a lower amplitude for the power-
+to the WDM mass comes mostly from the overall ampli-            law would be obtained compared to the case where there
+tude of the flux power spectrum, rather than its shape in       is no feature in the evolution, and no HeII reionization.
+the cutoff regime at smaller scales. A possible solution        This is what the data is preferring - higher values of γ
+(apart from measuring different statistics, and increasing      measured from high redshift data set, and lower overall
+the precision of the current measurements) would be to          amplitude of γ at lower redshifts. We note, however, that
+increase the maximum scale up to which the flux power           a more detailed model of γ(z) evolution may be necessary
+spectrum is measured. If the thermal/Jeans smoothing            at lower redshift to capture possible HeII reionization ef-
+and smoothing due to a high WDM mass are different              fects. Dropping the assumption of a simple power-law
+enough a feature (kink) should be observable on some            describing the evolution of T0 (z) and γ(z), and allowing
+(arbitrarily) small scales where the flux power spectrum        for the power-law evolution to have different slope below
+cutoff transitions from being dominated by the ther-            and above zp = 4.2, relaxes this tension considerably, as
+mal/Jeans smoothing to being dominated by the mass of           is shown in the third row of Fig. A.1 (magenta colour
+the WDM. This would, however, only work if the WDM              – double powerlaw). The WDM constraints in this case
+mass is large enough.                                           are slightly weaker compared to the reference case of the
+   The above degeneracies almost disappear when using           analysis of the combined data sets, and exclude WDM
+the higher redshift data in the analysis (HIRES/MIKE;           masses above mWDM > 4.5 keV. The tension disappears
+red coloured contours). Fig. A.1 shows no appreciable           for the case of using T0 in independent redshift bins, even
+degeneracy between mass of the WDM and any other                though γ(z) is still described as a single power-law in
+parameters. This is because at higher redshifts, for the        such a case. The WDM limits derived from this case are
+WDM masses we consider here the cutoff scale by the             described in the main text.
+                                                                                                                                         9
+
+
+                                                                                       XQ-100
+                                                                                       HIRES/MIKE
+                                                                                       XQ-100 + HIRES/MIKE
+                                                                                       XQ-100 + HIRES/MIKE + double powerlaw
+
+                1.6
+
+  T0 (z =4.2)
+                1.2
+                0.8
+                0.4
+
+            1.75
+
+
+γ(z =4.2)
+            1.50
+            1.25
+            1.00
+
+            1.05
+
+σ8          0.90
+            0.75
+            0.60
+
+                2.0
+neff            2.2
+                2.4
+
+            1.00
+
+
+keV/mWDM
+            0.75
+            0.50
+            0.25
+
+                      0.32 0.36 0.40 0.44   0.4 0.8 1.2 1.6   1.00 1.25 1.50 1.75 0.60 0.75 0.90 1.05   2.4 2.2 2.0    0.25 0.50 0.75 1.00
+                        F(z =4.2)            T0 (z =4.2)         γ(z =4.2)                 σ8              neff         keV/mWDM
+FIG. A.1: Two dimensional posterior (marginalized) likelihood distributions for the main parameters for the XQ-100,
+HIRES/MIKE and combined data sets (blue, red and green curves), respectively. We also show contours when using a double
+power-law evolution of the thermal parameters (cyan curves), as described in more details in the text. Instead of 4 parameters
+describing the thermal history only values evaluated at a specific redshift were chosen. The redshift chosen is where different
+data sets overlap.
+
+
+
+  Appendix B: Degeneracy between WDM mass and                                   matter power spectrum a certain amount of degeneracy
+              redshift of reionization                                          between the parameters is expected. However, in this
+                                                                                section we show that this degeneracy is largely broken
+                                                                                by the long redshift range considered in the data analy-
+ Due to the fact that smoothing from both WDM ther-                             sis.
+mal relic as well as pressure smoothing act on the 3D
+                                                                                                                                                    10
+
+                     1.4
+                                                                                                                     10 z-bins
+                     1.2                                                                           0.60              3 z-bins
+                     1.0
+
+
+
+ PF (k)/PF,ref (k)
+                                                                                                   0.45
+
+                                                                                        keV/mWDM
+                     0.8
+
+
+                     0.6
+                                                                                                   0.30
+                              z = 4.2       zrei = 7
+                     0.4      z = 4.6       zrei = 15
+                              z = 5.0       mWDM = 2 keV
+
+
+                     0.2
+                      0.003
+                              z = 5.4
+
+                                    0.006
+                                            mWDM = 4 keV
+
+                                              0.01                        0.03   0.06
+                                                                                                   0.15
+                                                                −1
+                                                        k [km        s]
+
+
+                                                                                                   0.00
+FIG. B.2: The flux power spectrum for different models vary-
+ing mass of the WDM (mWDM ) and redshift of reionization
+                                                                                                          6    8       10        12     14       16
+(zrei ). The colours show two values of mWDM - 2 keV in blue
+and 4 keV in black - and two values of zrei - 7 in green and                                                              zrei
+15 in red. The reference model against which the flux power
+is compared, was ΛCDM model with zrei = 9. Different line
+styles show the redshift evolution of the flux power: full line                         FIG. B.3: The 2D posterior likelihood contours in the param-
+(z = 4.0), dashed line (z = 4.6), dot-dashed line (z = 5.0)                             eter plane of mass of WDM particle and redshift of reioniza-
+and dotted line (z = 5.4). Only the effect on the largest red-                          tion. Different colours represent different subsets of the com-
+shift bins is shown since that is where the effect of WDM                               bined data set used. In particular, the blue colour shows the
+on the smoothing scale becomes largest. The plot illustrates                            full analysis of the combined data (XQ-100 + HIRES/MIKE)
+how the redshift evolution changes the shape of the flux power                          which used 10 redshift bins. In red we show the results when
+differently for the two parameters.                                                     only 3 redshift bins were used in the analysis, centered around
+                                                                                        z = 4.2 (z = 4.0, 4.2, 4.6).
+
+
+
+   Fig. B.2 shows the flux power ratio when we vary
+                                                                                        ing scale since it has been argued in [47] that the filter-
+WDM and zrei models compared to the reference ΛCDM
+                                                                                        ing scale λF will always be smaller than the Jeans scale
+case. The plot nice nicely illustrates how the different
+                                                                                        λJ . Thus the Jeans scale plays a role of a (conservative)
+redshift evolution of the effect of reionization redshift and
+                                                                                        upper limit on the amount of pressure smoothing. The
+free-streaming of the dark matter on the flux power spec-
+                                                                                        plot shows that thermal and filtering (or Jeans) scales
+trum makes it possible to separate the two effects. To
+                                                                                        have a very different redshift evolution compared to the
+fully capture the effect these two degenerate parameters
+                                                                                        free-streaming scale of the warm dark matter, which is
+have, we used used a grid of simulations that samples the
+                                                                                        the only scale slowly increasing with redshift in velocity
+parameter plane of 1/mWDM and zrei .
+                                                                                        space. Fig. B.4 is meant to be of illustrative purpose
+   To illustrate the effect of redshift evolution further, we                           only, to show that different scales evolve differently with
+show a 2D plot of the posterior likelihood distribution                                 redshift. We would also like to caution the reader that,
+in the parameter plane of mWDM and zrei (Fig. B.3).                                     while the pressure smoothing scale (Jeans or filtering)
+The degeneracy between the two parameters is increased                                  and WDM free-streaming scale, are acting on the 3D
+when only three redshift bins are considered in the anal-                               matter density field, the thermal scale is a 1D smoothing
+ysis. These redshift bins also do not span the whole                                    scale that operates on the optical depth field.
+length of the redshift range the combined data set tracks,                                 While Fig. B.4 shows that the redshift evolution differs
+but are centered around the pivot redshift of z = 4.2                                   between different smoothing scales, the MCMC bounds
+(z = 4.0, 4.2, 4.6).                                                                    derived in this paper make use of the full shape of the
+   Furthermore, in Fig. B.4 we show the redshift evolu-                                 flux power spectrum. Furthermore, the flux power spec-
+tion of the different smoothing scales that affect the cut-                             trum traces the integral over the 3D matter power, and is
+off in the flux power spectrum. We have used the ther-                                  thus sensitive to small scales at any given parallel wave-
+mal history evolution of our reference model in the case                                number. Indeed, this is why lower resolution surveys are
+of thermal, Jeans and filtering scale. The filtering scale                              also able to put bounds on the WDM free-streaming scale
+shown on this plot was computed using the relation in                                   [8]. The effect of redshift evolution on the shape of the
+[47] - i.e. λF = 2π/kF . We also show the Jeans smooth-                                 flux power spectrum is shown in Fig. B.5. Even on large
+                                                                                                                                                          11
+
+                  90                                                                        1.4
+                        thermal           mWDM = 2.5 keV
+                  80
+                        Jeans             mWDM = 5 keV                                      1.2
+                  70    Filtering
+
+
+
+
+ λsmooth [km/s]
+                  60                                                                        1.0
+
+
+
+                                                                        PF (k)/PF,ref (k)
+                  50
+                                                                                            0.8
+                  40
+
+                  30                                                                        0.6
+                  20
+                                                                                                     z = 4.2       ΛCDM cold
+                                                                                            0.4      z = 4.6       ΛCDM hot
+                  10
+                                                                                                     z = 5.0       mWDM = 2 keV
+                                                                                                     z = 5.4       mWDM = 4 keV
+                  0
+                  3.0     3.5       4.0        4.5         5.0   5.5                        0.2
+                                                                                             0.003         0.006     0.01                   0.03   0.06
+                                          z                                                                                    k [km−1 s]
+
+
+
+FIG. B.4: The redshift evolution of the different smoothing            FIG. B.5: The flux power spectrum for different models vary-
+scales in units of km s−1 : thermal (red), Jeans (blue), fil-          ing mass of the WDM (mWDM ) and the amplitude of the IGM
+tering (green) and free-streaming from WDM thermal relic               temperature at the mean density (T0A ). The colours show two
+(magenta). The two line-styles show different values of the            values of mWDM - 2 keV in black and 4 keV in green - and
+WDM mass for 2.5 keV (full line) and 5 keV (dashed line)               two ΛCDM models with different temperatures - hot IGM in
+respectively.                                                          red (roughly 3000K hotter) and cold in blue (roughly 3000K
+                                                                       colder). The reference model against which the flux power
+                                                                       is compared, was ΛCDM model with T0 (z = 3.6) = 11000K.
+                                                                       Different line styles show the redshift evolution of the flux
+scales (k < 0.01s km−1 ), models with varying amount of                power: full line (z = 4.0), dashed line (z = 4.6), dot-dashed
+thermal or WDM free-streaming smoothing have quite                     line (z = 5.0) and dotted line (z = 5.4). As with Fig. B.2,
+distinct shapes. Combining the shape with the redshift                 only the effect on the largest redshift bins is shown since that
+evolution helps break the degeneracies among the IGM                   is where the effect of WDM on the smoothing scale becomes
+parameters and the mass of the WDM.                                    largest.
+
+
+
+    Appendix C: The effect of different priors on the                                        Priors used    XQ-100 HIRES/MIKE Combined
+                   limits of mWDM                                                            Reference      > 1.38 > 4.08     > 5.32
+                                                                                             Weak priors    > 1.33 > 4.11     > 5.21
+   In this section we show an extended table of how the                                      Planck priors > 1.34 > 3.95      > 5.25
+limits on the mass of the WDM change when imposing                                           Thermal priors > 1.49 > 2.11     > 3.48
+different priors. The priors for reference case and weak
+priors are the same as the ones plotted in Fig. 2.                     TABLE II: Marginalized constraints at 95 % for mWDM in
+   The reference priors consist of weak priors on the val-             the units of keV. Different priors used are the reference case,
+ues of mean flux in each redshift bin. These priors were               weak priors, Planck priors on the cosmological parameters and
+chosen to be Gaussian with mean value as predicted by                  physical priors on thermal evolution where T0 varies freely
+the empirical fit by [19] with ± 0.04 (1σ). Further,                   with redshift bins. Compared to the result shown in Table I
+                                                                       more decimal points are shown in the result.
+the reference priors include bounds on some of the pa-
+rameters that are physically motivated: mWDM ≥ 0,
+6 ≤ zrei ≤ 16, 0 K ≤ T0A ≤ 20000 K, −5 ≤ T0S ≤ 5
+and 1 ≤ γ(zi ) < 1.7 for each redshift zi . We have also                 Furthermore, priors on cosmological parameters were
+checked that the exact values for upper and lower bounds               added to the reference once (Planck priors), such that:
+on zrei and the temperature amplitude (T0A ) and slope                 σ8 and neff have Gaussian priors of ± 0.01 (1σ) around
+(T0S ) do not have an impact on the final constraints of               Planck values.
+the WDM. The bounds for γ at each redshift are physi-                    And lastly, we also considered a temperature evolution
+cally motivated for the time of HeII reionization [1, 48].             where the temperature T0 was allowed to vary freely in
+   The weak priors, as already described in the main                   each of the redshift bins. In this case we have used refer-
+body of the text, add the following priors to the refer-               ences values for priors to which we have added additional
+ence values: σ8 and neff have Gaussian priors of ± 0.1                 constraint on the change of the temperature between red-
+(1σ) around Planck values and the assumed temperature                  shift bins, such that the change in temperature jumps
+T0A is 10000 ± 5000 K (1σ).                                            between redshift bins of ∆z = 0.2–0.4 was limited to a
+                                                                                                                            12
+
+physically plausible value of ∆T = 5000 K.                       Parameter             (1σ)           (2σ)           Best fit
+                                                                 F̄ (z = 3.0)          [0.69, 0.70]   [0.67, 0.71]   0.69
+                                                                 F̄ (z = 3.2)          [0.62, 0.63]   [0.61, 0.64]   0.63
+  Appendix D: Bestfit and confidence levels tables
+                                                                 F̄ (z = 3.4)          [0.56, 0.57]   [0.54, 0.58]   0.56
+                                                                 F̄ (z = 3.6)          [0.51, 0.52]   [0.50, 0.53]   0.52
+  In this section we show the full tables of the best-fit
+                                                                 F̄ (z = 3.8)          [0.45, 0.46]   [0.44, 0.47]   0.45
+parameters (and their 1 and 2σ confidence intervals) for
+the MCMC analysis of the three different data sets: XQ-          F̄ (z = 4.0)          [0.38, 0.39]   [0.37, 0.40]   0.38
+100 (Table S1), HIRES/MIKE (Table S2) and combined               F̄ (z = 4.2)          [0.33, 0.35]   [0.32, 0.36]   0.34
+XQ-100 + HIRES/MIKE (Table S3).                                  F̄ (z = 4.6)          [0.25, 0.27]   [0.23, 0.29]   0.26
+                                                                 F̄ (z = 5.0)          [0.13, 0.14]   [0.11, 0.17]   0.13
+ Parameter             (1σ)           (2σ)           Best fit    F̄ (z = 5.4)          [0.03, 0.04]   [0.01, 0.06]   0.04
+ F̄ (z = 3.0)          [0.67, 0.68]   [0.65, 0.70]   0.68        T0A (z = zp ) [104 K] [0.83, 0.94]   [0.74, 1.06]   0.89
+                                                                    S
+ F̄ (z = 3.2)          [0.61, 0.62]   [0.59, 0.64]   0.61        T0 (z = zp )          [−2.59, −1.99] [−3.22, −0.82] −2.23
+ F̄ (z = 3.4)          [0.54, 0.56]   [0.53, 0.57]   0.55        γ A (z = zp )         [1.51, 1.63]   [1.23, 1.69]   1.53
+ F̄ (z = 3.6)          [0.50, 0.51]   [0.49, 0.53]   0.51        γ S (z = zp )         [0.81, 1.42]   [−0.07, 1.81] 1.04
+ F̄ (z = 3.8)          [0.44, 0.45]   [0.41, 0.46]   0.44        σ8                    [0.87, 0.89]   [0.83, 0.95]   0.88
+ F̄ (z = 4.0)          [0.38, 0.39]   [0.36, 0.41]   0.39        zrei                  [8.21, 11.37]  [6.25, 13.43]  9.80
+ F̄ (z = 4.2)          [0.34, 0.36]   [0.32, 0.38]   0.35        neff                  [−2.39, −2.35] [−2.43, −2.32] −2.37
+                                                                                  −1
+ T0A (z = zp ) [104 K] [0.97, 1.12]   [0.73, 1.27]   1.03        1/mWDM [keV ] [0, 0.13]              [0, 0.22]      0.07
+ T0S (z = zp )         [−1.54, 0.73] [−4.39, 1.89] −0.69         fUV                   [0.32, 0.65]   [0.05, 0.94]   0.48
+ γ A (z = zp )         [1.25, 1.31]   [1.12, 1.45]   1.28
+   S                                                            TABLE V: Combined: Marginalized constraints at 68 and 95
+ γ (z = zp )           [−1.55, −0.97] [−1.89, 0.17] −1.14
+                                                                %, obtained from the MCMC analysis as well as bestfit values.
+ σ8                    [0.81, 0.86]   [0.75, 0.92]   0.84       The pivot redshift is zp = 4.2.
+ zrei                  [9.92, 13.47]  [6.50, 15.66]  11.50
+ neff                  [−2.36, −2.32] [−2.42, −2.25] −2.34
+ 1/mWDM [keV−1 ] [0, 0.63]            [0, 0.77]      0.40
+ fUV                   [0.36, 0.72]   [0.06, 0.96]   0.53
+                                                                                    Acknowledgments
+TABLE III: XQ-100: Marginalized constraints at 68 and 95
+%, obtained from the MCMC analysis as well as bestfit values.
+The pivot redshift is zp = 3.6.                                    VI is supported by US NSF grant AST-1514734. VI
+                                                                also thanks M. McQuinn for useful discussions, and IAS,
+                                                                Princeton, for hospitality during his stay where part
+                                                                of this work was completed. MV and TSK are sup-
+ Parameter           (1σ)           (2σ)           Best fit
+                                                                ported by ERC-StG ”cosmoIGM”. SL has been sup-
+ F̄ (z = 4.2)        [0.33, 0.38]   [0.27, 0.46]   0.36         ported by FONDECYT grant number 1140838 and par-
+ F̄ (z = 4.6)        [0.25, 0.29]   [0.21, 0.37]   0.27         tially by PFB-06 CATA. VD, MV, SC acknowledge sup-
+ F̄ (z = 5.0)        [0.14, 0.17]   [0.12, 0.21]   0.16         port from the PRIN INAF 2012 ”The X-Shooter sample
+ F̄ (z = 5.4)        [0.04, 0.06]   [0.03, 0.08]   0.05         of 100 quasar spectra at z ∼ 3.5: Digging into cosmol-
+    A            4
+ T0 (z = zp ) [10 K] [0.71, 0.91]   [0.46, 1.12]   0.80         ogy and galaxy evolution with quasar absorption lines.
+ T0S (z = zp )       [−3.93, −3.11] [−4.78, −1.80] −3.46        GB is supported by the NSF under award AST-1615814.
+ γ A (z = zp )       [1.22, 1.38]   [1.08, 1.52]   1.30
+                                                                SLE acknowledges the receipt of an NSERC Discovery
+                                                                Grant. MH acknowledges support by ERC ADVANCED
+ γ S (z = zp )       [−0.28, 0.81] [−1.18, 1.77] 0.25
+                                                                GRANT 320596 ”The Emergence of Structure during the
+ σ8                  [0.86, 1.01]   [0.75, 1.32]   0.96         epoch of Reionization”. LC is supported by YDUN DFF
+ zrei                [8.44, 11.52]  [6.26, 14.88]  10.12        4090-00079. KDD is supported by an NSF AAPF fel-
+ neff                [−2.43, −2.33] [−2.53, −2.11] −2.36        lowship awarded under NSF grant AST-1302093. JSB
+ 1/mWDM [keV−1 ] [0, 0.17]          [0, 0.28]      0.09         acknowledges the support of a Royal Society University
+ fUV                 [0.35, 0.70]   [0.05, 0.96]   0.52         Research Fellowship. Based on observations collected at
+                                                                the European Organisation for Astronomical Research in
+TABLE IV: HIRES/MIKE: Marginalized constraints at 68            the Southern Hemisphere under ESO programme 189.A-
+and 95 %, obtained from the MCMC analysis as well as bestfit    0424. This work made use of the DiRAC High Perfor-
+values. The pivot redshift is zp = 4.5.                         mance Computing System (HPCS) and the COSMOS
+                                                                shared memory service at the University of Cambridge.
+                                                                These are operated on behalf of the STFC DiRAC HPC
+                                                                facility. This equipment is funded by BIS National E-
+                                                                                                                             13
+
+infrastructure capital grant ST/J005673/1 and STFC               grants ST/H008586/1, ST/K00333X/1.
+
+
+
+
+ [1] M. McQuinn.         The Evolution of the Intergalactic      [15] N. Palanque-Delabrouille, C. Yèche, J. Baur, C. Mag-
+     Medium. ArXiv e-prints, November 2015.                           neville, G. Rossi, J. Lesgourgues, A. Borde, E. Burtin,
+ [2] V. K. Narayanan, D. N. Spergel, R. Davé, and C.-P. Ma.          J.-M. LeGoff, J. Rich, M. Viel, and D. Weinberg. Neu-
+     Constraints on the Mass of Warm Dark Matter Particles            trino masses and cosmology with Lyman-alpha forest
+     and the Shape of the Linear Power Spectrum from the              power spectrum. J. Cosmology Astropart. Phys., 11:011,
+     Lyα Forest. Astrophysical Journal Letters, 543:L103–             November 2015.
+     L106, November 2000.                                        [16] N. G. Busca, T. Delubac, J. Rich, S. Bailey, A. Font-
+ [3] M. Viel, J. Lesgourgues, M. G. Haehnelt, S. Matarrese,           Ribera, D. Kirkby, J.-M. Le Goff, M. M. Pieri, A. Slosar,
+     and A. Riotto. Constraining warm dark matter can-                É. Aubourg, J. E. Bautista, D. Bizyaev, M. Blomqvist,
+     didates including sterile neutrinos and light gravitinos         A. S. Bolton, J. Bovy, H. Brewington, A. Borde,
+     with WMAP and the Lyman-α forest. Phys. Rev. D ,                 J. Brinkmann, B. Carithers, R. A. C. Croft, K. S.
+     71(6):063534, March 2005.                                        Dawson, G. Ebelke, D. J. Eisenstein, J.-C. Hamilton,
+ [4] U. Seljak, A. Makarov, P. McDonald, and H. Trac. Can             S. Ho, D. W. Hogg, K. Honscheid, K.-G. Lee, B. Lund-
+     Sterile Neutrinos Be the Dark Matter? Physical Review            gren, E. Malanushenko, V. Malanushenko, D. Margala,
+     Letters, 97(19):191303, November 2006.                           C. Maraston, K. Mehta, J. Miralda-Escudé, A. D. My-
+ [5] M. Viel, G. D. Becker, J. S. Bolton, M. G. Haehnelt,             ers, R. C. Nichol, P. Noterdaeme, M. D. Olmstead,
+     M. Rauch, and W. L. W. Sargent. How Cold Is Cold                 D. Oravetz, N. Palanque-Delabrouille, K. Pan, I. Pâris,
+     Dark Matter? Small-Scales Constraints from the Flux              W. J. Percival, P. Petitjean, N. A. Roe, E. Rollinde,
+     Power Spectrum of the High-Redshift Lyman-α Forest.              N. P. Ross, G. Rossi, D. J. Schlegel, D. P. Schneider,
+     Physical Review Letters, 100(4):041304, February 2008.           A. Shelden, E. S. Sheldon, A. Simmons, S. Snedden,
+ [6] S. Bird, H. V. Peiris, M. Viel, and L. Verde. Minimally          J. L. Tinker, M. Viel, B. A. Weaver, D. H. Weinberg,
+     parametric power spectrum reconstruction from the Ly-            M. White, C. Yèche, and D. G. York. Baryon acoustic
+     man α forest. MNRAS, 413:1717–1728, May 2011.                    oscillations in the Lyα forest of BOSS quasars. A&A,
+ [7] M. Viel, G. D. Becker, J. S. Bolton, and M. G. Haehnelt.         552:A96, April 2013.
+     Warm dark matter as a solution to the small scale crisis:   [17] A. Slosar, V. Iršič, D. Kirkby, S. Bailey, N. G. Busca,
+     New constraints from high redshift Lyman-α forest data.          T. Delubac, J. Rich, É. Aubourg, J. E. Bautista,
+     Phys. Rev. D , 88(4):043502, August 2013.                        V. Bhardwaj, M. Blomqvist, A. S. Bolton, J. Bovy,
+ [8] J. Baur, N. Palanque-Delabrouille, C. Yèche, C. Mag-            J. Brownstein, B. Carithers, R. A. C. Croft, K. S. Daw-
+     neville, and M. Viel. Lyman-alpha forests cool warm              son, A. Font-Ribera, J.-M. Le Goff, S. Ho, K. Hon-
+     dark matter. J. Cosmology Astropart. Phys., 8:012, Au-           scheid, K.-G. Lee, D. Margala, P. McDonald, B. Medolin,
+     gust 2016.                                                       J. Miralda-Escudé, A. D. Myers, R. C. Nichol, P. Noter-
+ [9] R. A. C. Croft, D. H. Weinberg, M. Bolte, S. Burles,             daeme, N. Palanque-Delabrouille, I. Pâris, P. Petitjean,
+     L. Hernquist, N. Katz, D. Kirkman, and D. Tytler. To-            M. M. Pieri, Y. Piškur, N. A. Roe, N. P. Ross, G. Rossi,
+     ward a Precise Measurement of Matter Clustering: Lyα             D. J. Schlegel, D. P. Schneider, N. Suzuki, E. S. Sheldon,
+     Forest Data at Redshifts 2-4. Astrophys. J. , 581:20–52,         U. Seljak, M. Viel, D. H. Weinberg, and C. Yèche. Mea-
+     December 2002.                                                   surement of baryon acoustic oscillations in the Lyman-α
+[10] M. Zaldarriaga, R. Scoccimarro, and L. Hui. Inferring the        forest fluctuations in BOSS data release 9. J. Cosmology
+     Linear Power Spectrum from the Lyα Forest. Astrophys.            Astropart. Phys., 4:26, April 2013.
+     J. , 590:1–7, June 2003.                                    [18] K. S. Dawson, D. J. Schlegel, C. P. Ahn, S. F. Anderson,
+[11] P. McDonald. Toward a Measurement of the Cosmologi-              É. Aubourg, S. Bailey, R. H. Barkhouser, J. E. Bautista,
+     cal Geometry at z ˜ 2: Predicting Lyα Forest Correlation         A. Beifiori, A. A. Berlind, V. Bhardwaj, D. Bizyaev,
+     in Three Dimensions and the Potential of Future Data             C. H. Blake, M. R. Blanton, M. Blomqvist, A. S. Bolton,
+     Sets. Astrophys. J. , 585:34–51, March 2003.                     A. Borde, J. Bovy, W. N. Brandt, H. Brewington,
+[12] M. Viel, M. G. Haehnelt, and V. Springel. Inferring the          J. Brinkmann, P. J. Brown, J. R. Brownstein, K. Bundy,
+     dark matter power spectrum from the Lyman α forest               N. G. Busca, W. Carithers, A. R. Carnero, M. A. Carr,
+     in high-resolution QSO absorption spectra. MNRAS,                Y. Chen, J. Comparat, N. Connolly, F. Cope, R. A. C.
+     354:684–694, November 2004.                                      Croft, A. J. Cuesta, L. N. da Costa, J. R. A. Davenport,
+[13] P. McDonald, U. Seljak, R. Cen, D. Shih, D. H. Wein-             T. Delubac, R. de Putter, S. Dhital, A. Ealet, G. L.
+     berg, S. Burles, D. P. Schneider, D. J. Schlegel, N. A.          Ebelke, D. J. Eisenstein, S. Escoffier, X. Fan, N. Filiz
+     Bahcall, J. W. Briggs, J. Brinkmann, M. Fukugita,                Ak, H. Finley, A. Font-Ribera, R. Génova-Santos, J. E.
+     Ž. Ivezić, S. Kent, and D. E. Vanden Berk. The Lin-            Gunn, H. Guo, D. Haggard, P. B. Hall, J.-C. Hamilton,
+     ear Theory Power Spectrum from the Lyα Forest in the             B. Harris, D. W. Harris, S. Ho, D. W. Hogg, D. Holder,
+     Sloan Digital Sky Survey. Astrophys. J. , 635:761–783,           K. Honscheid, J. Huehnerhoff, B. Jordan, W. P. Jordan,
+     December 2005.                                                   G. Kauffmann, E. A. Kazin, D. Kirkby, M. A. Klaene,
+[14] U. Seljak, A. Slosar, and P. McDonald. Cosmological pa-          J.-P. Kneib, J.-M. Le Goff, K.-G. Lee, D. C. Long, C. P.
+     rameters from combining the Lyman-α forest with CMB,             Loomis, B. Lundgren, R. H. Lupton, M. A. G. Maia,
+     galaxy clustering and SN constraints. J. Cosmology As-           M. Makler, E. Malanushenko, V. Malanushenko, R. Man-
+     tropart. Phys., 10:14, October 2006.                             delbaum, M. Manera, C. Maraston, D. Margala, K. L.
+                                                                                                                               14
+
+     Masters, C. K. McBride, P. McDonald, I. D. McGreer,                 gourgues, D. Lhuillier, Y. F. Li, W. Liao, A. W.
+     R. G. McMahon, O. Mena, J. Miralda-Escudé, A. D.                   Long, M. Maltoni, G. Mangano, N. E. Mavromatos,
+     Montero-Dorta, F. Montesano, D. Muna, A. D. Myers,                  N. Menci, A. Merle, S. Mertens, A. Mirizzi, B. Monreal,
+     T. Naugle, R. C. Nichol, P. Noterdaeme, S. E. Nuza,                 A. Nozik, A. Neronov, V. Niro, Y. Novikov, L. Ober-
+     M. D. Olmstead, A. Oravetz, D. J. Oravetz, R. Owen,                 auer, E. Otten, N. Palanque-Delabrouille, M. Pallavicini,
+     N. Padmanabhan, N. Palanque-Delabrouille, K. Pan,                   V. S. Pantuev, E. Papastergis, S. Parke, S. Pastor,
+     J. K. Parejko, I. Pâris, W. J. Percival, I. Pérez-Fournon,        A. Patwardhan, A. Pilaftsis, D. C. Radford, P. C.-O.
+     I. Pérez-Ràfols, P. Petitjean, R. Pfaffenberger, J. Pforr,        Ranitzsch, O. Rest, D. J. Robinson, P. S. Rodrigues
+     M. M. Pieri, F. Prada, A. M. Price-Whelan, M. J. Rad-               da Silva, O. Ruchayskiy, N. G. Sanchez, M. Sasaki,
+     dick, R. Rebolo, J. Rich, G. T. Richards, C. M. Rock-               N. Saviano, A. Schneider, F. Schneider, T. Schwetz,
+     osi, N. A. Roe, A. J. Ross, N. P. Ross, G. Rossi, J. A.             S. Schönert, F. Shankar, N. Steinbrink, L. Strigari,
+     Rubiño-Martin, L. Samushia, A. G. Sánchez, C. Sayres,             F. Suekane, B. Suerfu, R. Takahashi, N. T. H. Van,
+     S. J. Schmidt, D. P. Schneider, C. G. Scóccola, H.-J.              I. Tkachev, M. Totzauer, Y. Tsai, C. G. Tully, K. Va-
+     Seo, A. Shelden, E. Sheldon, Y. Shen, Y. Shu, A. Slosar,            lerius, J. Valle, D. Venos, M. Viel, M. Y. Wang, C. Wein-
+     S. A. Smee, S. A. Snedden, F. Stauffer, O. Steele, M. A.            heimer, K. Wendt, L. Winslow, J. Wolf, M. Wurm,
+     Strauss, A. Streblyanska, N. Suzuki, M. E. C. Swanson,              Z. Xing, S. Zhou, and K. Zuber. A White Paper on keV
+     T. Tal, M. Tanaka, D. Thomas, J. L. Tinker, R. Tojeiro,             Sterile Neutrino Dark Matter. ArXiv e-prints, February
+     C. A. Tremonti, M. Vargas Magaña, L. Verde, M. Viel,               2016.
+     D. A. Wake, M. Watson, B. A. Weaver, D. H. Wein-               [23] E. Bulbul, M. Markevitch, A. Foster, E. Miller, M. Bautz,
+     berg, B. J. Weiner, A. A. West, M. White, W. M. Wood-               M. Loewenstein, S. W. Randall, and R. K. Smith. Search-
+     Vasey, C. Yeche, I. Zehavi, G.-B. Zhao, and Z. Zheng.               ing for the 3.5 keV Line in the Stacked Suzaku Observa-
+     The Baryon Oscillation Spectroscopic Survey of SDSS-                tions of Galaxy Clusters. Astrophys. J. , 831:55, Novem-
+     III. Astronomical Journal, 145:10, January 2013.                    ber 2016.
+[19] N. Palanque-Delabrouille, C. Yèche, A. Borde, J.-M.           [24] A. Boyarsky, O. Ruchayskiy, D. Iakubovskyi, and
+     Le Goff, G. Rossi, M. Viel, É. Aubourg, S. Bailey,                 J. Franse. Unidentified Line in X-Ray Spectra of the An-
+     J. Bautista, M. Blomqvist, A. Bolton, J. S. Bolton, N. G.           dromeda Galaxy and Perseus Galaxy Cluster. Physical
+     Busca, B. Carithers, R. A. C. Croft, K. S. Dawson,                  Review Letters, 113(25):251301, December 2014.
+     T. Delubac, A. Font-Ribera, S. Ho, D. Kirkby, K.-G.            [25] L. Hui, J. P. Ostriker, S. Tremaine, and E. Witten. On
+     Lee, D. Margala, J. Miralda-Escudé, D. Muna, A. D.                 the hypothesis that cosmological dark matter is com-
+     Myers, P. Noterdaeme, I. Pâris, P. Petitjean, M. M.                posed of ultra-light bosons. ArXiv e-prints, October
+     Pieri, J. Rich, E. Rollinde, N. P. Ross, D. J. Schlegel,            2016.
+     D. P. Schneider, A. Slosar, and D. H. Weinberg. The            [26] P. Bode, J. P. Ostriker, and N. Turok. Halo Formation in
+     one-dimensional Lyα forest power spectrum from BOSS.                Warm Dark Matter Models. Astrophys. J. , 556:93–107,
+     A&A, 559:A85, November 2013.                                        July 2001.
+[20] S. López, V. D’Odorico, S. L. Ellison, G. D. Becker,          [27] A. M. Brooks and A. Zolotov. Why Baryons Matter: The
+     L. Christensen, G. Cupani, K. D. Denney, I. Pâris,                 Kinematics of Dwarf Spheroidal Satellites. Astrophys. J.
+     G. Worseck, T. A. M. Berg, S. Cristiani, M. Dessauges-              , 786:87, May 2014.
+     Zavadsky, M. Haehnelt, F. Hamann, J. Hennawi, V. Iršič,      [28] A. R. Wetzel, P. F. Hopkins, J.-h. Kim, C.-A. Faucher-
+     T.-S. Kim, P. López, R. Lund Saust, B. Ménard, S. Per-            Giguère, D. Kereš, and E. Quataert. Reconciling Dwarf
+     rotta, J. X. Prochaska, R. Sánchez-Ramı́rez, M. Vester-            Galaxies with ΛCDM Cosmology: Simulating a Realis-
+     gaard, M. Viel, and L. Wisotzki. XQ-100: A legacy sur-              tic Population of Satellites around a Milky Way-mass
+     vey of one hundred z = 3.5 − 4.5 quasars observed with              Galaxy. Astrophysical Journal Letters, 827:L23, August
+     VLT/X-shooter. A&A, 594:A91, October 2016.                          2016.
+[21] D. H. Weinberg, J. S. Bullock, F. Governato, R. Kuzio          [29] V. Iršič, M. Viel, T. A. M. Berg, V. D’Odorico, M. G.
+     de Naray, and A. H. G. Peter. Cold dark matter: Con-                Haehnelt, S. Cristiani, G. Cupani, T.-S. Kim, S. Lopez,
+     troversies on small scales. Proceedings of the National             S. Ellison, G. D. Becker, L. Christensen, K. D. Denney,
+     Academy of Science, 112:12249–12255, October 2015.                  G. Worseck, and J. S. Bolton. The Lyman-alpha forest
+[22] R. Adhikari, M. Agostini, N. A. Ky, T. Araki,                       power spectrum from the XQ-100 Legacy Survey. MN-
+     M. Archidiacono, M. Bahr, J. Behrens, F. Bezrukov,                  RAS, 2017.
+     P. S. Bhupal Dev, D. Borah, A. Boyarsky, A. de Gou-            [30] Volker Springel.      The cosmological simulation code
+     vea, C. A. d. S. Pires, H. J. de Vega, A. G. Dias,                  GADGET-2. MNRAS, 364:1105–1134, 2005.
+     P. Di Bari, Z. Djurcic, K. Dolde, H. Dorrer, M. Durero,        [31] J. S. Bolton, E. Puchwein, D. Sijacki, M. G. Haehnelt,
+     O. Dragoun, M. Drewes, C. E. Düllmann, K. Eberhardt,               T.-S. Kim, A. Meiksin, J. A. Regan, and M. Viel. The
+     S. Eliseev, C. Enss, N. W. Evans, A. Faessler, P. Filianin,         Sherwood simulation suite: overview and data compar-
+     V. Fischer, A. Fleischmann, J. A. Formaggio, J. Franse,             isons with the Lyman-alpha forest at redshifts 2 < z < 5.
+     F. M. Fraenkle, C. S. Frenk, G. Fuller, L. Gastaldo,                ArXiv e-prints, May 2016.
+     A. Garzilli, C. Giunti, F. Glück, M. C. Goodman, M. C.        [32] Planck Collaboration, P. A. R. Ade, N. Aghanim, M. Ar-
+     Gonzalez-Garcia, D. Gorbunov, J. Hamann, S. Hannes-                 naud, M. Ashdown, J. Aumont, C. Baccigalupi, A. J.
+     tad, J. Heeck, V. Hannen, S. H. Hansen, C. Hassel,                  Banday, R. B. Barreiro, J. G. Bartlett, and et al. Planck
+     F. Hofmann, T. Houdy, A. Huber, D. Iakubovskyi,                     2015 results. XIII. Cosmological parameters. A&A,
+     A. Ianni, A. Ibarra, R. Jacobsson, T. Jeltema, S. Kempf,            594:A13, September 2016.
+     T. Kieck, M. Korzeczek, V. Kornoukhov, T. Lachen-              [33] J. S. Bolton, M. Viel, T.-S. Kim, M. G. Haehnelt,
+     maier, M. Laine, P. Langacker, T. Lasserre, J. Les-                 and R. F. Carswell. Possible evidence for an inverted
+                                                                         temperature-density relation in the intergalactic medium
+                                                                                                                              15
+
+     from the flux distribution of the Lyα forest. MNRAS,          [41] A. Lidz, C.-A. Faucher-Giguère, A. Dall’Aglio, M. Mc-
+     386:1131–1144, May 2008.                                           Quinn, C. Fechner, M. Zaldarriaga, L. Hernquist, and
+[34] G. D. Becker, J. S. Bolton, M. G. Haehnelt, and W. L. W.           S. Dutta. A Measurement of Small-scale Structure in
+     Sargent. Detection of extended He II reionization in the           the 2.2-4.2 Lyα Forest. Astrophys. J. , 718:199–230, July
+     temperature evolution of the intergalactic medium. MN-             2010.
+     RAS, 410:1096–1112, January 2011.                             [42] E. Puchwein, J. S. Bolton, M. G. Haehnelt, P. Madau,
+[35] F. Nasir, J. S. Bolton, and G. D. Becker. Inferring the            G. D. Becker, and F. Haardt. The photoheating of the
+     IGM thermal history during reionization with the Lyman             intergalactic medium in synthesis models of the UV back-
+     α forest power spectrum at redshift z ∼ 5. MNRAS,                  ground. MNRAS, 450:4081–4097, July 2015.
+     463:2335–2347, December 2016.                                 [43] P. R. Upton Sanderbeck, A. D’Aloisio, and M. J. Mc-
+[36] G. Worseck, J. X. Prochaska, J. M. O’Meara, G. D.                  Quinn. Models of the thermal evolution of the intergalac-
+     Becker, S. L. Ellison, S. Lopez, A. Meiksin, B. Ménard,           tic medium after reionization. MNRAS, 460:1885–1897,
+     M. T. Murphy, and M. Fumagalli. The Giant Gemini                   August 2016.
+     GMOS survey of zem > 4.4 quasars - I. Measuring the           [44] A. Garzilli, A. Boyarsky, and O. Ruchayskiy. Cutoff in
+     mean free path across cosmic time. MNRAS, 445:1745–                the Lyman {\alpha} forest power spectrum: warm IGM
+     1760, December 2014.                                               or warm dark matter? ArXiv e-prints, October 2015.
+[37] A. D’Aloisio, M. McQuinn, and H. Trac. Large Opac-            [45] J. Oñorbe, J. F Hennawi, and Z. Lukić. Self-Consistent
+     ity Variations in the High-redshift Lyα Forest: The Sig-           Modeling of Reionization in Cosmological Hydrodynam-
+     nature of Relic Temperature Fluctuations from Patchy               ical Simulations. ArXiv e-prints, July 2016.
+     Reionization. Astrophysical Journal Letters, 813:L38,         [46] K. Lai, A. Lidz, L. Hernquist, and M. Zaldarriaga. The
+     November 2015.                                                     Impact of Temperature Fluctuations on the Lyα Forest
+[38] G. D. Becker, J. S. Bolton, P. Madau, M. Pettini, E. V.            Power Spectrum. Astrophys. J. , 644:61–70, June 2006.
+     Ryan-Weber, and B. P. Venemans. Evidence of patchy            [47] Nickolay Y. Gnedin and Lam Hui. Probing the universe
+     hydrogen reionization from an extreme Lyα trough below             with the Lyman alpha forest: 1. Hydrodynamics of the
+     redshift six. MNRAS, 447:3402–3419, March 2015.                    low density IGM. Mon. Not. Roy. Astron. Soc., 296:44–
+[39] P. McDonald, U. Seljak, R. Cen, P. Bode, and J. P. Os-             55, 1998.
+     triker. Physical effects on the Lyα forest flux power spec-   [48] M. McQuinn, A. Lidz, M. Zaldarriaga, L. Hernquist, P. F.
+     trum: damping wings, ionizing radiation fluctuations and           Hopkins, S. Dutta, and C.-A. Faucher-Giguère. He II
+     galactic winds. MNRAS, 360:1471–1482, July 2005.                   Reionization and its Effect on the Intergalactic Medium.
+[40] J. Schaye, T. Theuns, M. Rauch, G. Efstathiou, and                 Astrophys. J. , 694:842–866, April 2009.
+     W. L. W. Sargent. The thermal history of the intergalac-
+     tic medium∗ . MNRAS, 318:817–826, November 2000.
+

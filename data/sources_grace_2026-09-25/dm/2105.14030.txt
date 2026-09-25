@@ -1,0 +1,983 @@
+                                               Astronomy & Astrophysics manuscript no. aanda                                                                                        ©ESO 2021
+                                               December 1, 2021
+
+
+
+
+                                                      Weighing the Galactic disk using phase-space spirals
+                                                II. Most stringent constraints on a thin dark disk using Gaia EDR3
+                                                                                 A. Widmark1 , C.F.P. Laporte2, 3 , P.F. de Salas4 , and G. Monari5
+
+                                                     1
+                                                       Dark Cosmology Centre, Niels Bohr Institute, University of Copenhagen, Jagtvej 128, 2200 Copenhagen N, Denmark
+                                                       e-mail: axel.widmark@nbi.ku.dk
+                                                     2
+                                                       Institut de Ciències del Cosmos (ICCUB), Universitat de Barcelona (IEEC-UB), Martí i Franquès 1, 08028 Barcelona, Spain
+                                                     3
+                                                       Kavli Institute for the Physics and Mathematics of the Universe (WPI), The University of Tokyo Institutes for Advanced Study
+                                                       (UTIAS), The University of Tokyo, Chiba 277-8583, Japan
+                                                     4
+                                                       The Oskar Klein Centre for Cosmoparticle Physics, Department of Physics, Stockholm University, AlbaNova, 10691 Stockholm,
+
+
+
+
+arXiv:2105.14030v4 [astro-ph.GA] 30 Nov 2021
+                                                       Sweden
+                                                     5
+                                                       Université de Strasbourg, CNRS UMR 7550, Observatoire astronomique de Strasbourg, 11 rue de l’Université, 67000 Strasbourg,
+                                                       France
+
+                                                     Received Month XX, XXXX; accepted Month XX, XXXX
+
+                                                                                                                  ABSTRACT
+
+                                                     Using the method that was developed in the first paper of this series, we measured the vertical gravitational potential of the Galactic
+                                                     disk from the time-varying structure of the phase-space spiral, using data from Gaia as well as supplementary radial velocity in-
+                                                     formation from legacy spectroscopic surveys. For eleven independent data samples, we inferred gravitational potentials that were in
+                                                     good agreement, despite the data samples’ varied and substantial selection effects. Using a model for the baryonic matter densities,
+                                                     we inferred a local halo dark matter density of 0.0085 ± 0.0039 M pc−3 = 0.32 ± 0.15 GeV cm−3 . We were also able to place the
+                                                     most stringent constraint on the surface density of a thin dark disk with a scale height ≤ 50 pc, corresponding to an upper 95 %
+                                                     confidence limit of roughly 5 M pc−2 (compared to the previous limit of roughly 10 M pc−2 , given the same scale height). For the
+                                                     inferred halo dark matter density and thin dark disk surface density, the statistical uncertainties are dominated by the baryonic model,
+                                                     which potentially could also suffer from a significant systematic error. With this level of precision, our method is highly competitive
+                                                     with traditional methods that rely on the assumption of a steady state. In a general sense, this illustrates that time-varying dynam-
+                                                     ical structures are not solely obstacles to dynamical mass measurements, but they can also be regarded as assets containing useful
+                                                     information.
+                                                     Key words. Galaxy: kinematics and dynamics – Galaxy: disk – solar neighborhood – Astrometry
+
+
+
+                                               1. Introduction                                                            of dark substructures, such as the subhalos predicted in the cold
+                                                                                                                          dark matter scenario (Diemand et al. 2008; Springel et al. 2008;
+                                               Our knowledge about the dynamics, composition, and history                 Stref & Lavalle 2017; Facchinetti et al. 2020). There has also
+                                               of the Milky Way is intimately connected to the determination              been speculation that a dark disk, co-planar with the stellar disk,
+                                               of its gravitational potential (Dehnen & Binney 1998; Klypin               could exist in the Milky Way, formed either from the accretion
+                                               et al. 2002; Widrow et al. 2008; Kafle et al. 2014; Cole & Binney          of satellites (Read et al. 2008; Purcell et al. 2009; Ruchti et al.
+                                               2017; McMillan 2017; Nitschai et al. 2020; Cautun et al. 2020;             2014) or, in a less standard scenario, from a dark matter particle
+                                               Li et al. 2020). Furthermore, direct and indirect dark matter de-          sub-species with strong dissipative self-interactions (Fan et al.
+                                               tection experiments rely on precise knowledge on how dark mat-             2013a,b). This latter type of dark disk could potentially be very
+                                               ter is distributed in our Galaxy (Stoehr et al. 2003; Vogelsberger         thin, with a scale height as small as a few tens of parsecs. Such
+                                               et al. 2009; Klasen et al. 2015; Petač 2020; Nobile 2021). The            a disk has been constrained in dynamical mass measurements of
+                                               gravitational potential of the Galaxy is often inferred by fitting a       the solar neighbourhood (Kramer & Randall 2016b; Caputo et al.
+                                               stellar number density distribution to data under the assumption           2018; Schutz et al. 2018; Buch et al. 2019), where the strongest
+                                               of a steady state, either in the solar neighbourhood (McKee et al.         constraints use Gaia observations of the very local population
+                                               2015; Widmark & Monari 2018; Sivertsson et al. 2018; Schutz                of stars. However, in a similar study by Widmark et al. (2021a)
+                                               et al. 2018; Buch et al. 2019; Guo et al. 2020; Salomon et al.             (also drawing from the results of Widmark 2019), they argue that
+                                               2020; Li & Widrow 2021) or a more global spatial volume (Nesti             such measurements are strongly biased by time-varying dynam-
+                                               & Salucci 2013; Cole & Binney 2017; McMillan 2017; Cautun                  ical effects.
+                                               et al. 2020; Hattori et al. 2020; Petač 2020). Other studies have
+                                               explored a measurement of the gravitational potential directly                 Although disk formation requires a fairly quiescent accretion
+                                               from stellar accelerations (Chakrabarti et al. 2021; Buschmann             history (Freeman & Bland-Hawthorn 2002), non-equilibrium ef-
+                                               et al. 2021) or from stellar streams (Koposov et al. 2010; Bonaca          fects are certainly not lacking in the Milky Way. Over the last
+                                               & Hogg 2018; Malhan & Ibata 2019; Widmark et al. 2020).                    decades, a growing body of observations, partly enabled by the
+                                                    Gravitational probes of the Milky Way can help constrain the          advent of large automated Milky Way surveys, have revealed
+                                               particle nature of dark matter through the detection or exclusion          signs of large-scale asymmetries in the vertical structure in the
+                                                                                                                                                                     Article number, page 1 of 20
+                                                     A&A proofs: manuscript no. aanda
+
+solar neighbourhood (Widrow et al. 2012) and the outskirts of           the local halo dark matter density and placed the most stringent
+the Galactic disk (Newberg et al. 2002), as well as in its veloc-       constraints on the surface density of a thin dark disk.
+ity distribution (Widrow et al. 2012; Williams et al. 2013; Car-             This article is structured as follows. We begin with some def-
+lin et al. 2013). This suggests the presence of bending waves           initions in Sect. 2, such as the coordinate system, continuing with
+in the disk (Xu et al. 2015; Price-Whelan et al. 2015; Sheffield        a description of the data in Sect. 3. In Sects. 4 and 5, we outline
+et al. 2018; Bergemann et al. 2018), possibly sourced by self-          our model of inference and our model for the baryonic matter
+excitation (Chequers & Widrow 2017), satellite and dark subhalo         densities in the solar neighbourhood. In Sect. 6, we present our
+interactions (Kazantzidis et al. 2008; Gómez et al. 2013; Widrow        results. Finally, we discuss and conclude in Sects. 7 and 8.
+et al. 2014; Chequers et al. 2018), fly-bys (Gómez et al. 2016), or
+even bar buckling (Khoperskov et al. 2019). The Gaia satellite
+reaffirmed the presence of these asymmetries and helped char-           2. Coordinate system and other definitions
+acterise the wavelength of these perturbations (e.g. Schönrich &        In this paper, we use the following system of coordinates. The
+Dehnen 2018), as well as their time-evolving nature. Using the          spatial coordinates X ≡ {X, Y, Z} denote the position with re-
+second data release from Gaia, Antoja et al. (2018) revealed the        spect to the Sun, where positive X corresponds to the direction
+presence of a phase-space spiral in the solar neighbourhood. The        of the Galactic centre, positive Y corresponds to the direction of
+presence of the phase-space spiral at all stellar ages, as shown        Galactic rotation, and positive Z corresponds to the direction of
+by Laporte et al. (2019), indicates a recent collective perturba-       Galactic north. Their respective time derivatives correspond to
+tion of the disk. Furthermore, the spiral’s presence over more          velocities V ≡ {U, V, W} in the solar rest frame.
+than two disk scale lengths (Laporte et al. 2019) and as far as             The spatial coordinate Z, denoting height with respect to the
+14 kpc from the Galactic centre (Xu et al. 2020) confirms it be-        Sun, is related to the height with respect to the Galactic disk,
+ing a manifestation of a disk-wide disequilibrium phenomenon.           written z, according to
+This reinforces the connection between the perturbations seen in
+the solar neighbourhood and the Galactic outskirts, as was origi-       z=Z+Z ,                                                         (1)
+nally predicted by pre-Gaia models of satellite interactions (La-
+porte et al. 2018), such as the Sagittarius dwarf galaxy. Indeed,       where Z is the Sun’s height with respect to the Galactic mid-
+using toy models, Antoja et al. (2018) and Binney & Schönrich           plane. Similarly, the velocities in the Local Standard of Rest (see
+(2018) noted that the perturbation may have been set off as far         Binney & Tremaine 2008), written v ≡ {u, v, w}, are found via the
+back as 900 Myr ago, which is similar to the orbital period of          Sun’s peculiar motion, written V ≡ {U , V , W }, according to
+the Sagittarius dwarf galaxy derived from stream fitting models
+(e.g. Johnston et al. 2005; Vasiliev et al. 2021). Although the         v=V+V .                                                         (2)
+phase-space spiral was originally identified and mostly studied
+in its azimuthal and radial velocity moments (e.g. Antoja et al.        We adopt values of V = {11.1, 12.24, 7.25} km s−1 (Schönrich
+2018; Binney & Schönrich 2018; Khoperskov et al. 2019; Bland-           et al. 2010).
+Hawthorn et al. 2019), we exploit the spiral’s shape as seen in             The Poisson equation is written
+terms of its relative number density with respect to the stellar
+                                                                        ∂2 Φ(R, z) 1 ∂         ∂Φ(R, z)
+                                                                                           "            #
+bulk background, as first revealed in Laporte et al. (2019). This                  +         R            = 4πGρ(z),             (3)
+reduces the exercise of potential fitting to only the vertical di-          ∂z2       R ∂R       ∂R
+mension, similar to what is typically done when determining the
+gravitational potential and dark matter density in the solar neigh-     where we have neglected the contribution in the azimuthal di-
+bourhood (Read 2014; de Salas & Widmark 2020).                          rection (which is zero in the case of rotational symmetry). The
+                                                                        second term of the left-hand side is known as the circular veloc-
+     The phase-space spiral is a time-varying dynamical structure       ity term, because the circular velocity of the Galactic plane vc is
+and as such it constitutes an obstacle and a systematic bias to         given by
+traditional dynamical mass measurement methods that assume a
+steady state (e.g. Jeans modelling). The method employed in this                      ∂Φ(R, 0 pc)
+                                                                        v2c (R) = R               .                                     (4)
+work is complementary to such traditional methods, in the sense                          ∂R
+that it extracts information from the shape of the phase-space
+                                                                        This term can be written as a matter density correction, as
+spiral itself. It does so under the assumption that the winding an-
+gle of the spiral is a smooth function with respect to vertical en-             1 ∂
+                                                                                       "
+                                                                                           ∂Φ(R, 0 pc)
+                                                                                                       #
+ergy; given the shape of spiral in the (z, w)-plane, this sets strong   ∆ρ =             R               .                              (5)
+constraints on the vertical gravitational potential. The general              4πGR ∂R          ∂R
+principles of our method are discussed at length in the first paper     Because the rotational velocity curve is close to flat, this cor-
+of this series—Widmark et al. (2021b), henceforth referred to as        rection is small; the slope of the circular velocity is roughly
+Paper I—where we also tested our method on one-dimensional              ∂vc /∂R = −1.5±0.2 km s−1 kpc−1 (−1.7±0.1 km s−1 kpc−1 in Eil-
+simulations. In those tests, we were able to retrieve the true grav-    ers et al. 2019; −1.33 ± 0.1 km s−1 kpc−1 in Ablimit et al. 2020),
+itational potentials of our simulations with high accuracy.             giving ∆ρ ≃ −0.0016 ± 0.0006 M pc−3 .
+    In this work, we applied our method to the Milky Way, using             In our model of inference, the gravitational potential is equal
+the early instalment of Gaia’s third data release (EDR3), sup-          to
+plemented with radial velocity measurements from legacy spec-                         4
+                                                                                              4πGρh                        z
+                                                                                                             "                      !#
+troscopic surveys through the catalogue compiled by Sanders &
+                                                                                     X
+                                                                        Φ(z | ρh ) =                      log cosh h−1                , (6)
+Das (2018). We constructed eleven main data samples using dif-                       h=1
+                                                                                         (2h−1 × 100 pc)2            2 × 100 pc
+ferent cuts in Galactocentric radius and angular momentum. We
+were able to measure the gravitational potential to high preci-         where the free parameters ρh={1,2,3,4} are constrained to lie in the
+sion and, using a model for the baryonic densities, we inferred         range [0, 0.2] M pc−3 . Via the Poisson equation of Eq. (3) and
+Article number, page 2 of 20
+                                 A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+also accounting for the matter density correction of Eq. (5), the      completeness, which has a strong spatial dependence. However,
+total matter density is equal to                                       strong selection effects are not detrimental to our method, as long
+          4                                                            as the shape of the phase-space spiral is robustly extracted (this
+                               z
+       "X                              !#
+ρ(z) =       ρh cosh −2
+                                          + ∆ρ.               (7)      is discussed further in the beginning of Sect. 4.1).
+        h=1
+                         2h−1 × 100 pc                                     We required that the stars in our data sets would have a Gaia
+Using this functional form, the gravitational potential and matter     G-band magnitude smaller than 15 mag (in Gaia EDR3 there
+density distribution are very free to vary in shape (although as-      are only spurious stars with radial velocity information above
+sumed to be symmetric, smooth, and strictly decreasing with |z|).      15 mag, see Gaia Collaboration et al. 2021a), and a radial ve-
+They are not constrained by strong prior information about the         locity uncertainty (σRV ) smaller than 3 km s−1 . For the radial
+baryonic matter density distribution in the Galactic disk, but are     velocity measurements coming from the Gaia spectrograph, the
+flexible enough to emulate such models (see e.g. McKee et al.          uncertainties are typically around 0.3 km s−1 for bright stars and
+2015 and Schutz et al. 2018).                                          1.8 km s−1 for dim stars (Katz et al. 2019), with only a thin tail
+                                                                       of stars with uncertainties larger than 3 km s−1 ; as such, our cut
+                                                                       in radial velocity uncertainty only removed a small fraction of
+3. Data                                                                stars from our data samples.
+In this work we have used data from Gaia EDR3, supplemented                In terms of the astrometric measurements, we required that
+with radial velocity information compiled in Sanders & Das             the renormalised unit weight error (RUWE) would be smaller
+(2018) using LAMOST DR3 (Deng et al. 2012), GALAH DR2                  than 1.4 and that the parallax uncertainty (σ$ ) would be smaller
+(Buder et al. 2018), RAVE DR5 (Kunder et al. 2017), APOGEE             than 0.05 mas. The first of these criteria is already very con-
+DR14 (Abolfathi et al. 2018), SEGUE (Yanny et al. 2009), and           straining, such that applying the subsequent second criteria re-
+GES DR3 (Gilmore et al. 2012). A supplementary radial veloc-           moved only one in a thousand stars.
+ity was used if a star in the Gaia catalogue had missing radial            In summary, the data quality cuts can be written as follows:
+velocity information or had a radial velocity uncertainty larger
+than 3 km s−1 . If there was radial velocity information from sev-       (i) G < 15 mag,
+eral supplementary surveys, we used the value with the smallest         (ii) σRV < 3 km s−1 ,
+associated uncertainty. Additionally, we excluded any star with        (iii) RUWE < 1.4,
+discrepant radial velocity measurements, requiring less than a
+2.5σ tension between all supplementary surveys that had a ra-          (iv) σ$ < 0.05 mas.                                              (8)
+dial velocity uncertainty smaller than 5 km s−1 ; this amounted to
+removing roughly one per cent of the stars with supplementary          3.2. Phase-space cuts
+radial velocity measurements. The stellar number counts of the
+radial velocity information taken from the respective surveys are      For the main data samples, we made the following phase-space
+listed in Table 1.                                                     cuts. We constructed bins in Galactocentric radius that were 100
+                                                                       pc wide, labelled by the index s, and also restricted the spatial
+Table 1: Stellar number counts of radial velocity information for      extent in the azimuthal direction to |Y| ≤ 400 pc. In this spatial
+our eleven main data samples.                                          volume, we made cuts in angular momentum, requiring it to be
+                                                                       close (±10 %) to that of a circular orbit. The angular momentum
+           Survey        Number count       Percentage                 of a star is equal to
+           Gaia                 943,742           91.61                Lz = vφ × R,                                                     (9)
+           LAMOST                38,271            3.72
+                                                                       where vφ is the velocity in the azimuthal direction in the Galactic
+           GALAH                 22,834            2.22                rest frame. The angular momentum of a perfectly circular orbit
+                                                                       was calculated by taking the data sample’s Galactocentric mid-
+           RAVE                  12,273            1.19                point and multiplying it by the circular velocity, according to
+           APOGEE                11,530            1.12
+                                                                       Lz,circ. = vc × [R + (100s pc)],                                (10)
+           SEGUE                    950            0.09
+                                                                       assuming a flat rotation curve with a circular velocity of vc =
+           GES                      518            0.05
+                                                                       240 km s−1 (Reid et al. 2014) and a solar Galactocentric radius
+                                                                       of R = 8178 pc (Gravity Collaboration et al. 2019). In Fig-
+    We constructed eleven main data samples on which we ap-            ure 1, we show the histogram of the angular momentum relative
+plied our method. To begin with, we made cuts in data quality,         to the angular momentum of a circular orbit. The Lz distribution
+which all samples were subjected to. After that, we constructed        is not perfectly centred on Lz,circ , but rather slightly shifted to-
+our respective samples by making cuts in phase-space. These            wards smaller values, as expected due to asymmetric drift (Bin-
+cuts are discussed in detail below.                                    ney & Tremaine 2008).
+                                                                           When making these cuts in data, we neglected any obser-
+3.1. Data quality cuts                                                 vational uncertainties associated with the measurements. For
+                                                                       example, a star’s coordinate Y is taken directly from its an-
+In this work, we applied quite strong constraints with respect to      gular position on the sky and its parallax value, according to
+data quality. This was done in order to be able to neglect observa-    Y = cos(l) cos(b) (mas/$) kpc. This is motivated by our restric-
+tional uncertainties and utilise the stars’ six-dimensional phase-     tive cuts in data quality; for example, with this parallax preci-
+space information. At the same time, this gave rise to strong se-      sion, the distance is known to a relative uncertainty of only a
+lection effects, most importantly with regards to radial velocity      few percent at the furthest relevant distance of one kilo-parsec.
+                                                                                                                Article number, page 3 of 20
+                                                              A&A proofs: manuscript no. aanda
+
+               18000                                                           Table 2: Total number count of of our main eleven data sam-
+                             s = −5                                            ples summed together, with the additional constraints that |Z| <
+               16000
+                                                                               800 pc.
+                             s = −4
+                             s = −3
+               14000         s = −2
+                                                                                                  Data sample      Number count
+                             s = −1                                                               s = −5                    36,810
+               12000
+                             s=0
+                                                                                                  s = −4                    54,099
+
+
+Number count
+                             s=1
+               10000
+                             s=2                                                                  s = −3                    78,581
+               8000          s=3                                                                  s = −2                  111,918
+                             s=4
+               6000          s=5
+                                                                                                  s = −1                  150,048
+                                                                                                  s=0                     171,432
+               4000
+                                                                                                  s=1                     145,883
+               2000                                                                               s=2                     108,238
+
+                  0                                                                               s=3                       76,247
+                       0.6    0.7     0.8       0.9     1.0   1.1     1.2
+                                            Lz /Lz,circ
+                                                                                                  s=4                       52,402
+                                                                                                  s=5                       35,727
+Fig. 1: Histogram of angular momentum (Lz ) relative to the an-                                   < 300 pc                812,250
+gular momentum of a circular orbit (Lz,circ. ), for different cuts in
+Galactocentric radius, where R − R ∈ [100s − 50, 100s + 50] pc.
+The grey band highlights the region where Lz is within 10 % of
+Lz,circ. .                                                                     as follows: (i) we constrain ourselves to an asymmetric single-
+                                                                               armed spiral; (ii) the spiral is fitted to slightly lower vertical ener-
+                                                                               gies; (iii) we mask the data for latitudes lower than |b| . 20◦ ; (iv)
+      In summary, the phase-space cuts of the main data samples                the Sun’s vertical position and vertical velocity are fixed rather
+can be written:                                                                than free parameters. Our method is described below, with em-
+         R−R                                                                   phasis on its modifications with respect to the original version.
+  (i)            ∈ [100s − 50, 100s + 50],
+            pc                                                                     Just as for the tests run in Paper I, we assume separability
+         Y                                                                     of the gravitational potential and reduce the dynamics to only
+ (ii)        ∈ [−400, 400],                                                    the vertical dimension. In Jeans analysis, the so-called tilt term
+         pc
+                  Lz                                                           accounts for the coupling between the radial and vertical direc-
+(iii)                          ∈ [0.9, 1.1],               (11)                tions, and is a derivative of the bulk phase-space density distri-
+         vc × [R + (100s pc)]                                                  bution with respect to the radial direction. Because our method
+where s is an integer in range -5 to 5.                                        disregards the bulk density, no such term enters our method. The
+    To validate our choice of phase-space cuts, we also applied                radial-vertical coupling of the gravitational potential does induce
+our method to a variety of data samples using different cuts. In               a radial motion, but for the relevant range of vertical energies
+particular, we include the results from an additional                          (Ez < Φ(700 pc)) this motion is small compared to the radial
+                                                       √ data sam-             extent of our data samples. In principle, this can still become
+ple where we only make a spatial cut according to X 2 + Y 2 <
+300 pc, with no cut in angular momentum. The total number of                   relevant to the extent that the shape of the spiral has a radial
+stars in our respective data samples is listed in Table 2, counting            dependence. Because the inferred gravitational potentials and
+only the stars for which |Z| < 800 pc.                                         phase-space spiral shapes are so similar between neighbouring
+                                                                               data samples (see Sect. 6 for more details), we deem such effects
+                                                                               to be negligible, which motivates the assumption of vertical sep-
+3.3. Data reduction                                                            arability when using this method.
+In our model of inference, the data was in the reduced form
+of a two-dimensional histogram in the (Z, W)-plane. This his-                  4.1. Bulk and spiral phase-space densities
+togram is the number count of observed stars in bins of size
+(20 pc) × (1 km s−1 ), written di, j , where the indices (i, j) label          In our method, we fit a phase-space distribution to data, consist-
+the respective bins. Similar to the phase-space cuts defined in                ing of a product of bulk and a spiral phase-space density distribu-
+Sect. 3.2, the values for Z and W are taken directly from the                  tion. In traditional methods that are based on the assumption of a
+astrometric measurements, neglecting any observational uncer-                  steady state, the bulk density is the quantity that is used to infer
+tainties.                                                                      the gravitational potential. Conversely, in our method the bulk is
+                                                                               only fitted in order to extract the spiral shape and does not in-
+4. Model of inference                                                          fluence, nor is influenced by, the inferred gravitational potential.
+                                                                               Because the bulk is fitted as a mere background, to a large extent
+The method used in this work is the same as the one presented                  it absorbs any selection effects pertinent to the data. Such effects
+in Paper I, although with some minor modifications, which are                  are critical to account for in steady state modelling, but can be
+Article number, page 4 of 20
+                                       A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+disregarded in our method as long as the shape of the spiral is               dominate the shape of the eventual spiral, as long as the per-
+robustly extracted.                                                           turbation is not a spiral-resembling shape to begin with (a more
+    The free parameters of our model are shown in Table 3. The                thorough discussion on the underlying assumptions of our spiral
+parameters are split into two groups: the bulk phase-space den-               model can be found in Paper I). The spiral angle as a function of
+sity parameters, written Ψbulk , and the spiral phase-space density           vertical energy Ez evolves according to
+parameters, written Ψspiral . The total number of free parameters                                                 t
+is equal to 7 + 3K, where K is the number of Gaussian compo-                  ϕ̃(t, Ez | ρh , ϕ̃0 ) = ϕ̃0 + 2π             ,               (15)
+                                                                                                               P(Ez | ρh )
+nents in the bulk stellar density, for which we set K = 6.
+                                                                              where ϕ̃0 is the initial angle of the perturbation.
+          Table 3: Free parameters in our model of inference.                      The total phase-space density of our analytical model is
+                                                                              equal to
+     Ψbulk          Bulk phase-space density parameters                                                        h                                     i
+                                                                              f (z, w | Ψ) = B(z, w | Ψbulk ) × 1 + m(z, w | ρh ) S (z, w | Ψspiral ) .
+     ak             Weights of the Gaussian mixture model                                                                                              (16)
+     σz,k , σw,k    Dispersions of the Gaussian mixture model                 In this expression,
+     Ψspiral        Spiral phase-space density parameters
+                                                                                                         h                                     i
+                                                                              S (z, w | Ψspiral ) = α cos ϕ(z, w | ρh ) − ϕ̃(t, Ez | ρh , ϕ̃0 ) ,      (17)
+     ρh={1,2,3,4}   Mid-plane matter densities                                is the relative number density of the spiral with respect to the
+     t              Time since the perturbation was produced                  bulk, where α is a unit-less amplitude in range [0, 1]. This is the
+                                                                              first difference with respect to how the method was formulated in
+     ϕ̃0            Initial angle of the perturbation                         Paper I, which included a symmetric spiral component with an
+                                                                              amplitude β. This component was not included here, as no sec-
+     α              Relative density amplitude of the spiral
+                                                                              ond arm is seen for the Milky Way spiral. Furthermore, Eq. (16)
+                                                                              contains the quantity
+    We model the bulk density as a Gaussians mixture model
+                                                                                                     Ez (z, w | ρh ) − Φ(300 pc | ρh )
+                                                                                                  "                                    #
+according to                                                                  m(z, w | ρh ) = sigm                                      ,    (18)
+                                                                                                    Φ(300 pc | ρh ) − Φ(280 pc | ρh )
+                                  z2              w2
+                                        !               !
+                          exp  −          exp  −                              where
+                   XK            2σ2z,k          2σ2w,k                                          1
+B(z, w | Ψbulk ) =     ak    q               q            , (12)              sigm(x) ≡                 .                                              (19)
+                   k=1        2πσ2z,k         2πσ2w,k                                       1 + exp(−x)
+                                                                              This sets a lower boundary in Ez to the spiral of our ana-
+where Ψbulk are the bulk density components, which includes the               lytic model; close to the origin of the (z, w)-plane, the spiral
+Gaussian weights (ak ) and dispersions (σz,k , σw,k ).                        is washed out due to self-gravity effects. The numerical val-
+   A star’s vertical oscillation has a total time period of                   ues of the m(z, w | ρh ) function constitute our second modifica-
+                       Z zmax                                                 tion with respect to the method as formulated in Paper I, in that
+                dz                      dz
+              I
+P(Ez | ρh ) =      =4                               ,       (13)              the inner boundary is somewhat less restrictive, using a limit of
+                w                2[Ez − Φ(z | ρh )]                           Ez & Φ(300 pc) instead of Ez & Φ(400 pc). The reason for
+                               p
+                         0
+                                                                              this change is that the phase-space spiral of the actual Milky
+where Ez = Φ(z | ρh ) + w2 /2 is a star’s vertical energy per                 Way is more clearly defined in the inner region than for the one-
+mass, zmax is the maximum height that a star reaches, and ρh                  dimensional simulations of Paper I, possibly because the effects
+parametrises the gravitational potential according to Eq. (6). The            of self-gravity are not as strong and cohesive for the more com-
+position of a star in the (z, w)-plane is associated with a temporal          plex, three-dimensional kinematics of our Galaxy.
+angle, which is given by
+                                                                              4.2. Data likelihood and masks
+ϕ(z, w | ρh ) =
+         Z |z|
+                           dz0                                                In our method, the phase-space density model was fitted to data
+ 2πP  −1
+                                                 if z ≥ 0 and w ≥ 0,          in two separate steps. In the first step, we fitted the bulk density
+
+
+
+
+                   2[Ez − Φ(z0 | ρh )]
+                p
+            0                                                                 distribution without the spiral; in other words, we minimised the
+
+
+
+
+                               dz0
+                Z |z|
+                                                                              data likelihood with respect to Ψbulk while α = 0. In the second
+
+
+
+ π    2πP    −1
+                                                 if z ≥ 0 and w < 0,
+
+    −
+
+                                                                              step, we fitted the relative phase-space density spiral; in other
+
+
+                Z |z| 2[Ez − Φ(z
+                                    0 | ρ )]
+                      p
+                 0
+
+                                         h
+                                                                       (14)
+
+                                                                              words, we minimised the likelihood with respect to Ψspiral while
+
+                               dz 0
+
+
+ π + 2πP     −1
+                                                 if z < 0 and w < 0,          Ψbulk remained fixed.
+
+
+
+
+                         2[Ez − Φ(z0 | ρh )]
+                      p
+                 0                                                                The data likelihood is given by the Poisson count comparison
+
+
+
+
+                     |z|
+                                dz0                                           of the model and data in the (Z, W)-plane, in bins labelled by the
+
+
+                Z
+ 2π     2πP   −1
+                                                 if z < 0 and w ≥ 0.
+
+     −
+
+                                                                              indices (i, j). The logarithm of the likelihood is equal to
+
+
+                           2[Ez − Φ(z0 | ρh )]
+                        p
+                   0
+
+
+    In our analytic spiral model, the initial perturbation is as-             ln L(di, j | Ψ) =
+sumed to have no initial winding. Because the gravitational po-                 X                                [di, j − f (Zi + Z , W j + W , Ψ)]2
+tential is anharmonic, this perturbation winds into a spiral with             −       θ(|Zi | − Z̄) M(Zi , W j )
+                                                                                 i, j
+                                                                                                                      2 f (Zi + Z , W j + W | Ψ)
+time. Even though the initial perturbation might have a more
+complicated form, the winding behaviour can be expected to                    + {constant term},
+                                                                                                                              Article number, page 5 of 20
+                                                           A&A proofs: manuscript no. aanda
+
+                                                                     (20)   4.3. Jackknifing
+
+where θ(|Zi | − Z̄) and M(Zi , W j ) are mask functions described           In order to estimate the statistical uncertainty of our respective
+below, and f (Zi + Z , W j + W | Ψ) is the model phase-space                data samples, we employed the technique of “delete-d jackknif-
+density as defined in Eq. (16).                                             ing” (Efron 1982). With this technique, the statistical uncertainty
+    The first mask function in Eq. (20) is a Heaviside step func-           of some inferred parameter (e.g. ψ) is evaluated by inferring this
+tion equal to                                                               parameter for a number of subsamples constructed from the full
+                                                                            data sample. The statistical variance, written Var(ψ), is propor-
+                (
+                  0, if |Zi | ≤ Z̄,                                         tional to the variance of the inferred parameter between the dif-
+θ(|Zi | − Z̄) =                                              (21)           ferent subsamples, written Var∗ (ψ), according to
+                  1, if |Zi | > Z̄,
+                                                                                       n−d
+where Z̄ = sin(20◦ )×|100s| pc. This mask is applied to stars with          Var(ψ) =       Var∗ (ψ),                                       (23)
+                                                                                        d
+low heights, roughly corresponding to a cut in Galactic latitude
+of |b| < 20◦ . This constitutes the third modification with respect         where n is the total number of data objects and d is the number
+to how the method was formulated in Paper I. It is included in              of deleted data objects.
+this work due to severe selection effects, especially in terms of                Jackknifing should ideally be performed by running infer-
+the availability of radial velocity information close to the Galac-         ence on all possible subsample constructions. This was not pos-
+tic plane (see Sect. 6 and Fig. 4).                                         sible for us due to the computational cost of our algorithm. For
+     The second mask function in Eq. (20) is M(Z, W), defining              each data sample and fixed value of Z , we independently con-
+a circular outer boundary in the (Z, W)-plane. It is applied in             structed ten subsamples by randomly selecting half of the stars
+order to mask the high vertical energies where the stellar number           (i.e. d = n/2).
+density is low and the spiral is less pronounced. It is defined
+                                     !2              !2
+                              Z             W +W                            5. Baryonic model
+                  (      "                                  #)
+M(Z, W) = sigm − 10                       +               −1 ,       (22)
+                             Zlim.           Wlim.                          The gravitational potential of our model of inference, as stated
+                                                                            in Eq. (6), did not rely on any baryonic model. However, after
+where sigm is the sigmoid function of Eq. (19). The numerical               applying our method, we compared our results with a model for
+values of Zlim. and Wlim. differed for the two minimisation steps           the baryonic matter densities, in order to constrain the halo dark
+of our method, in order to avoid fitting artefacts. In the first step,      matter density and the surface density of a thin dark disk.
+when the bulk was fitted, we set Zlim. = 800 pc and Wlim. =                      We used the baryonic model from Schutz et al. (2018), based
+44 km s−1 . In the second step, when the spiral was fitted, we set          on the pre-Gaia studies by Flynn et al. (2006), McKee et al.
+Zlim. = 700 pc and Wlim. = 40 km s−1 .                                      (2015), and Kramer & Randall (2016a). This baryonic model is
+     The fourth and final modification of our method with respect           also used in other local dynamical mass measurements, such as
+to Paper I is that we fixed the Sun’s vertical position and veloc-          Sivertsson et al. (2018), Buch et al. (2019), Widmark (2019), and
+ity (Z and W ), rather than letting them be free parameters in              Widmark et al. (2021a). In this model, the total baryonic density
+our fitting procedure. This is motivated by significant and spa-            is a sum of twelve different components: four gas components
+tially dependent selection effects, coming from radial velocity             (molecular, cold atomic, warm atomic, and hot ionised gas);
+completeness and other data quality cuts; completeness is poor              six stellar components divided by absolute magnitude; white
+close to the Galactic mid-plane and also has a strong asymme-               dwarfs; and brown dwarfs. Each of the twelve components is
+try with respect to the Galactic north and south for many data              described in terms of its mid-plane matter density (ρt,0 ) and its
+samples. These issues made our inference of Z and W highly                  vertical velocity dispersion (σw,t ). It is assumed that the respec-
+unstable and they are better determined in other studies. For the           tive components are iso-thermal, such that their matter density
+Sun’s vertical velocity, we set W = 7.25 km s−1 , which is a                profiles decay with height according to
+well established value, known to within an uncertainty smaller
+than 0.05 km s−1 (Schönrich et al. 2010). Within this uncer-                                 "
+                                                                                                 Φ(z)
+                                                                                                      #
+tainty, varying W has a negligible effect on our results. For the           ρt (z) = ρt,0 exp − 2 .                                         (24)
+Sun’s vertical position, the uncertainty is more significant. Dif-                               σw,t
+ferent studies have produced somewhat discrepant results, rang-
+ing from roughly 0–20 pc (Juric et al. 2008; Yao et al. 2017; Ben-               In Fig. 2, we show the matter density distribution and vertical
+nett & Bovy 2019; Buch et al. 2019; Widmark et al. 2021a; Gaia              gravitational potential of this baryonic model. In this figure, the
+Collaboration et al. 2021b). For this reason, we adopt three dif-           baryons are divided into four different groups: stars and dwarfs,
+ferent values of Z = {0, 10, 20} pc when applying our method,               cold atomic gas, molecular gas, warm and hot gas. We also in-
+which allows us to estimate the uncertainty of our result with              clude a halo dark matter density of 0.011 ± 0.03 M pc−3 , which
+respect to the Sun’s position.                                              encapsulates the approximate range of recent local dark matter
+     Our method was implemented in TensorFlow, allowing for                 density measurements (de Salas & Widmark 2020).
+efficient minimisation using the Adam optimiser (Kingma & Ba                     It is important to note that this model of baryonic matter den-
+2014). Still, minimising the spiral likelihood function is compu-           sities in the solar neighbourhood could potentially suffer from
+tationally expensive, requiring several hundred CPU hours. For              significant systematic errors. For the stellar components, the as-
+a more detailed explanation of our method, as well as illustrative          sumption of iso-thermality are not ideal descriptions when com-
+examples highlighting its general principles, we refer back to              paring with Gaia data: the stellar components’ vertical velocity
+Paper I. The code used in this work is open source and available            distributions are not strictly Gaussian but have heavier tails and
+online.1                                                                    the shape of the stellar number density profiles differ from those
+                                                                            predicted by the baryonic model (a comparison can be found
+1
+    https://github.com/AxelWidmark/SpiralWeighing                           in the appendix of Widmark et al. 2021a). This is, at least in
+Article number, page 6 of 20
+                                 A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+
+
+
+Fig. 2: Baryonic model from Schutz et al. (2018), including a component of halo dark matter, shown in terms of its matter density
+distribution (left panel) and vertical gravitational potential (right panel). Details are found in Sect. 5.
+
+
+part, connected to the fact that the stellar components are cate-      cially close to the Galactic mid-plane where the radial velocity
+gorised in terms of absolute magnitude, which does not differ-         measurements are obfuscated by stellar crowding.
+entiate them in terms of age and kinematic properties. Perhaps             In Fig. 4, we show the phase-space spirals for the same four
+even more worrisome are the matter density distributions of the        data samples as in Fig. 3 (s = {−4, −1, 0, 3}). The visualised
+gas components, which have larger statistical uncertainties and        quantity is equal to
+are arguably more prone to significant systematic bias. For ex-
+ample, measuring molecular hydrogen depends on the CO-to-H2                             di, j − B(Zi + Z , W j + W | Ψbulk )
+                                                                                      "                                      #
+conversion factor, while measuring atomic hydrogen depends on          M(Zi , W j ) ×                                         ,    (25)
+                                                                                             B(Zi + Z , W j + W | Ψbulk )
+corrections for optical depth (e.g. discussed in Hessman 2015).
+Furthermore, the cold gas is non-uniformly distributed, both in        where we have assumed a value of Z = 10 pc. Furthermore,
+terms of density and ionisation (Lallement et al. 2003). As such,      this quantity is smoothed to an effective bin size of (40 pc) ×
+it is not at all impossible that the baryonic model suffers from       (2 km s−1 ) for better visibility. The number density depression
+systematic errors significantly larger than the reported statistical   close to the Galactic mid-plane is seen clearly in this figure, and
+uncertainties.                                                         is confined to the boundaries of the θ mask function of Eq. (21).
+                                                                       There is also some asymmetry with respect to the Galactic mid-
+                                                                       plane, at least for the more distant data samples (seen also in the
+6. Results
+                                                                       figures in Appendix A). It is evident from both Fig. 3 and Fig. 4
+In this section, we present the results from having applied our        that selection effects vary dramatically between the respective
+method of inference on our respective data samples. Using a            data samples. Despite this, the phase-space spirals that emerge
+summary of those results, we also place constraints on the lo-         when subtracting the bulk density are qualitatively similar, most
+cal dark matter density and the surface density of a thin dark         importantly in terms of their shapes.
+disk. Most figures in this section only show a smaller number of            In Fig. 5, we show the inferred matter density distribution
+data samples. The corresponding figures for the remaining data         and inferred gravitational potential for three representative data
+samples are found in Appendix A.                                       samples (s = {−2, 0, 2}). The coloured band corresponds to the
+    In Fig. 3, we show the data histograms of four representa-         1σ statistical uncertainty given by jackknifing (as explained in
+tive data samples (s = {−4, −1, 0, 3}). The stellar number density     Sect. 4.3), including the variance coming from the three different
+differs quite dramatically between data samples (their number          solar height values. The black lines correspond to the mean result
+counts are listed in Table 2), mainly depending on the distance.       for the three different solar heights (Z = {0, 10, 20} pc). The
+They vary in terms of their dispersion in Z, where the more            grey band shows the baryonic model to within a 1σ uncertainty,
+distant data samples are wider while nearby data samples seem          including a local dark matter density of 0.011 ± 0.003 M pc−3 .
+pinched (seen most clearly when comparing data samples s = −4          The inferred gravitational potential agrees well with the baryonic
+and s = 0). Furthermore, the more distant data samples have a          model, and is very well consistent between samples.
+number density depression close to the Galactic mid-plane (i.e.             The inferred matter density distribution has a higher rela-
+for low |Z|, seen most clearly for s = −4 and to a lesser extent       tive statistical uncertainty than the inferred gravitational poten-
+also for s = 3). All these features are due to selection effects,      tial, which is expected in any dynamical mass measurement due
+most significantly because of the completeness of the radial ve-       to it being derived from the gravitational potential’s second order
+locity measurements. For the nearby spatial volume, the radial         derivative. It also varies more dramatically between samples, and
+velocity data is deeper in terms of absolute magnitude. The com-       also for the different values of Z . A general trend seen in Fig. 5,
+pleteness gets progressively worse with greater distances, espe-       as well as for the other data samples shown in Appendix A, is
+                                                                                                               Article number, page 7 of 20
+                                                     A&A proofs: manuscript no. aanda
+
+
+
+
+Fig. 3: Histograms in the (Z, W)-plane, for data samples s = {−4, −1, 0, 3}. The scale of the colour bar is not linear, but follows
+sinh[10 × di, j /max(di, j )].
+
+
+that the inferred matter density distribution is flatter and agrees     samples, the size of the statistical uncertainties differ quite a lot
+better with the baryonic model for the data samples closer to           depending on Z . This is most notable for data sample s = −4,
+the Galactic centre (s ≤ 1). Conversely, the data samples in the        which has a very large uncertainty for Z = 0 pc, but rather small
+direction of the anti-centre (s ≥ 2) are more pinched, and some-        uncertainties for Z = {10, 20} pc. The reason is that the inner
+what discrepant with the baryonic model. There is a similar but         mask function, m(z, w | ρh ) as defined in Eq. (18), is a function
+less pronounced trend for the different values of Z , where espe-       of the phase-space coordinates in the rest frame of the Galactic
+cially Z = 0 pc gives rise to flatter matter density distributions.     disk. This means that this masked region shifts somewhat in the
+    In Fig. 6, we show the inferred value of Φ(400 pc) for              (Z, W) histogram, depending on the fixed value of Z . Especially
+all twelve data samples. As suggested by the test on one-               for the noisy histogram of data sample s = −4, this small shift
+dimensional simulations in Paper I, the gravitational potential at      has a significant effect on the likelihood function.
+this height is the quantity that is most robustly inferred. Indeed,          In order to infer the local dark matter density, we com-
+the inferred values for Φ(400 pc) are largely consistent between        pared the inferred value of Φ(400 pc) with that of the bary-
+the different data samples. Interestingly, this is the case even for    onic model. The baryons and the matter density correction of
+the samples at greater distances (i.e. large |s|), for which the spi-   Eq. (5) amounted to a total contribution of 265.0 ± 16.0 km2 s−2
+ral was much less clearly defined (e.g. s = −4 in Fig. 4). This         to Φ(400 pc). Any surplus with respect to this value was inter-
+demonstrates that our method works reasonably well even when            preted as halo dark matter. The reason for only using the value
+the data is noisy and suffers from severe selection effects, which      of Φ(400 pc) is that this quantity was shown to be the most ac-
+are absorbed by the bulk density distribution. It is expected that      curately inferred in tests on one-dimensional simulations (Paper
+the mass of the Galactic disk varies with Galactocentric radius,        I), and also agrees well between the different data samples and
+giving rise to a negative slope with respect to the data sample in-     fixed values of Z used in this work.
+dex s. Such a slope is allowed but not preferred given our results,          When placing constraints on the surface density of a thin
+and varies depending on what data samples are considered reli-          dark disk, we used a similar line of reasoning: a thin dark disk
+able enough to include in the fit of such a slope. For some data        was allowed to the extent that there is room for its contribu-
+Article number, page 8 of 20
+                                  A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+
+
+
+Fig. 4: Spirals in the (Z, W)-plane, for data samples s = {−4, −1, 0, 3}. They are plotted in terms of the relative difference between the
+data histogram and the fitted bulk density distribution, as defined in Eq. (25). The vertical dashed lines correspond to the boundaries
+of the θ mask function defined in Eq. (21).
+
+
+tion to Φ(400 pc). We use the same model for the baryonic                of ΣDD = 1 M pc−2 and a scale height of hDD = {20, 50, 100} pc,
+matter densities, and a dark matter halo density coming from             assuming a matter density profile
+independent studies of the Milky Way circular velocity curve
+(to use the halo density derived in this or any other work that                 ΣDD            z
+                                                                                                   !
+analyses the vertical motion of stars would be circular reason-          ρDD =       cosh−2
+                                                                                                     ,                             (26)
+                                                                                4hDD         2hDD
+ing). In order to be conservative when placing thin dark disk
+constraints, we assumed a local halo dark matter density of              contributes with {9.9, 8.9, 7.2} km2 s−2 to Φ(400 pc).
+ρDM, = 0.009 ± 0.003 M pc−3 , which is a somewhat low value                  When inferring the local dark matter density, as well as set-
+with a large uncertainty.2 A thin dark disk with a surface density       ting constraints on the thin dark disk surface density, we only use
+                                                                         the information coming from the nearby data samples, namely
+ 2
+   In a recent review on the local dark matter density by de Salas       |s| ≤ 3. The reason for this is that the more distant data sam-
+& Widmark (2020), the measurements based on the Milky Way cir-           ples have less statistics and suffer from more extreme selection
+cular velocity curve lie in the range 0.008–0.013 M pc−3 , which is      effects. This is seen in for example Fig. 4, where the spiral of
+lower than the range of 0.011–0.016 M pc−3 for more local analy-
+ses. For example, de Salas et al. (2019) report 0.008 ± 0.0008 M pc−3    ing on the shape of the dark matter halo. With this in mind, ρDM, =
+or 0.001 ± 0.0001 M pc−3 depending on the baryonic model, Cau-           0.009 ± 0.003 M pc−3 is a conservative choice when constraining the
+tun et al. (2020) report 0.009 ± 0.0005 M pc−3 , and Petač (2020) re-   thin dark disk surface density, because the assumed ρDM, has a low
+ports 0.0096 ± 0.0005 M pc−3 or 0.0010 ± 0.0005 M pc−3 depend-           mean and a large uncertainty.
+
+                                                                                                                Article number, page 9 of 20
+                                                 A&A proofs: manuscript no. aanda
+
+
+
+
+Fig. 5: Inferred matter density distribution (left panels) and inferred gravitational potential (right panel), for data samples s =
+{−2, 0, 2}. The black lines correspond to the mean values for different fixed values of Z . We also show 1σ bands of the inferred
+results and the baryonic density distribution model.
+
+
+Article number, page 10 of 20
+                                  A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+
+
+
+                                                                                                       √
+Fig. 6: Inferred gravitational potential at height z = 400 pc for all data samples (s from -5 to 5 and X 2 + Y 2 < 300 pc). The
+markers and vertical lines show the mean and standard deviations as derived from jackknifing, where the colours represent the three
+fixed values for the height of the Sun (Z = {0, 10, 20} pc). The grey band represents the baryonic model, including a dark matter
+density of 0.011 ± 0.003 M pc−3 .
+
+
+data sample s = −4 is poorly defined. Our method does seem                   Using the assumptions discussed above and a dark disk scale
+to have worked well even for those data samples, but we still           height of 50 pc, the likelihood of its surface density is a Gaus-
+found it more cautious to exclude them. When summarising the            sian with a mean and standard deviation of −0.24±2.40 M pc−2 ,
+results of several data samples and a fixed value of Z , the total      which is consistent with zero. Negative values for this quan-
+weighted mean was calculated according to                               tity are unphysical and therefore excluded; the upper limits are
+                     P3                                                 given by the likelihood ratio relative to the null hypothesis (i.e.
+                           {mean} s × {variance}−1
+                                                s                       ΣDD = 0 M pc−2 ). We obtain an upper 68 % (95 %) confi-
+{weighted mean} = s=−3P3                           ,         (27)       dence limit of 2.17 M pc−2 (4.56 M pc−2 ). For scale heights
+                                 {variance} −1
+                            s=−3            s
+                                                                        of 20 pc and 100 pc, the limits are 1.96 M pc−2 (4.13 M pc−2 )
+with a total statistical variance of                                    and 2.71 M pc−2 (5.59 M pc−2 ), respectively. Even if we would
+                                                                        have been extremely conservative and assumed no halo dark
+                             1                                          matter, we would still have placed the most stringent constraints
+{total variance} = P3                     .                     (28)
+                                     −1
+                      s=−3 {variance} s                                 on a thin dark disk surface density, corresponding to an upper
+                                                                        68 % (95 %) confidence limit of 6.02 M pc−2 (7.93 M pc−2 ),
+For the respective values of Z , the summary results of data sam-       assuming a scale height of 50 pc.
+ples |s| ≤ 3 was
+                                                                          √ As a comparison, for the data sample with a spatial cut
+              
+               304.8 ± 4.0 km2 s−2 , for Z = 0 pc,                     ( X 2 + Y 2 < 300 pc), the inferred values were
+              
+                                                                                        304.2 ± 9.7 km2 s−2 , for Z = 0 pc,
+              
+Φ(400 pc) =    295.3 ± 3.7 km2 s−2 , for Z = 10 pc,          (29)
+              
+                                                                                     
+                                                                                      
+                                                                                      
+                                                                                      
+              305.2 ± 3.9 km2 s−2 , for Z = 20 pc.                                     314.1 ± 9.0 km2 s−2 , for Z = 10 pc,
+              
+                                                                        Φ(400 pc) =                                                  (31)
+              
+                                                                                     
+                                                                                      
+                                                                                      320.3 ± 8.5 km2 s−2 , for Z = 20 pc.
+                                                                                      
+                                                                                      
+                                                                                      
+These three different values of Z have a total mean value of
+301.8 km2 s−2 , and the dispersion between them amounts to              Using the same analysis as above, applied to this one data sam-
+4.6 km2 s−2 . In order to account for the statistical variance given    ple, we obtained Φ(400 pc) = 312.9 ± 11.2 and ρDM, =
+a fixed value of Z , as well as the variance that arises from chang-    0.0111 ± 0.0045 M pc−3 . This result is statistically consistent
+ing Z , we added these measurement uncertainties together ac-           with the one presented above, although slightly higher in both
+cording to                                                              value and uncertainty. For a thin dark disk with a scale height of
+                                                                        50 pc, the upper 68 % (95 %) confidence limit is 3.62 M pc−2
+                                                                        (6.25 M pc−2 ).
+ r
+    4.02 + 3.72 + 3.92
+                        + 4.62 km2 s−2 = 6.0 km2 s−2 .          (30)
+            3
+                                                                        7. Discussion
+Hence, for the joint analysis of samples |s| ≤ 3, we inferred
+Φ(400 pc) = 301.8 ± 6.0 km2 s−2 and ρDM, = 0.0085 ±                     Using a new method that extracts information from the time-
+0.0039 M pc−3 . The dominant component of this uncertainty              varying structure of the Milky Way phase-space spiral, we have
+comes from the baryonic model (0.0037 M pc−3 ), which was               been able to infer the vertical gravitational potential of the so-
+added in quadrature to the statistical measurement uncertainty          lar neighbourhood for eleven statistically independent data sam-
+(0.0014 M pc−3 ).                                                       ples. Using these results and a model for the total matter density
+                                                                                                               Article number, page 11 of 20
+                                                    A&A proofs: manuscript no. aanda
+
+of baryons, we have inferred the local halo dark matter density,           In this work, we did not attempt to infer the height of the
+as well as placed the most stringent constraints on the surface        Sun with respect to the Galactic mid-plane (Z ), mainly because
+density of a thin dark disk.                                           of strong selection effects. Rather, we accounted for the uncer-
+                                                                       tainty of this parameter by producing results for three different
+    Overall, the inferred gravitational potential of the respective
+                                                                       fixed values of Z = {0, 10, 20} pc. Interestingly, studies based on
+data samples agree well, at least in terms of Φ(400 pc), which
+                                                                       the more local spatial volume, within a few hundred parsec, tend
+was deemed to be the most robustly inferred quantity in tests on
+                                                                       to prefer lower values (0–10 pc, e.g. Buch et al. 2019; Widmark
+one-dimensional simulations in Paper I. The results are consis-
+                                                                       et al. 2021a; Gaia Collaboration et al. 2021b); conversely, higher
+tent, despite the fact that the data samples are subject to very
+                                                                       values typically come from studies that reach several kilo-parsec
+different selection effects and differ significantly in their number
+                                                                       in height (e.g. Juric et al. 2008; Yao et al. 2017; Bennett & Bovy
+density profiles as a function of height. For data sample s = 0, we
+                                                                       2019). This discrepancy indicates that the Galaxy is not perfectly
+see a high stellar number density, especially close to the Galac-
+                                                                       mirror symmetric and that an estimate of Z can depend on how
+tic mid-plane; conversely, for the distant data samples, most no-
+                                                                       this quantity is defined. With this caveat in mind, a comparison
+tably |s| ≥ 4, the mid-plane number density is low. Despite this,
+                                                                       between the baryonic model and the inferred matter density dis-
+the different data samples gave rise to very similar results; this
+                                                                       tributions seems to suggest that our results are vaguely in favour
+illustrates that our method is robust with respect to such system-
+                                                                       of Z = 0 pc, which is in agreement with other local studies.
+atics, and that selection effects are absorbed by the bulk density
+                                                                           The spatial reach of the method employed in this work is
+distribution.
+                                                                       mainly limited by the completeness of the radial velocity sam-
+     The inferred matter density distributions agree fairly well       ple. This will improve with Gaia’s future data releases, most im-
+with the baryonic model, especially for Z = 0 pc and s ≤ 1.            manently with the full third data release (EDR3 only contains a
+This can be compared with Widmark (2019) and Widmark et al.            cleaned version of the second data release’s radial velocity sam-
+(2021a), where they used a similarly free model for the total den-     ple). Apart from such improvements to the data, it should be
+sity, but weighed the Galactic disk using a distribution function      possible to use the astrometric information of stars even when
+fitting method based on the assumption of a steady state. For          the radial velocity is missing; especially for more distant parts
+several statistically independent stellar samples, they inferred a     of the Galactic disk, stars close to the Galactic mid-plane have
+matter density distribution that was very pinched (i.e. with a high    a vertical velocity that is well approximated by their latitudinal
+mid-plane value and quickly decreasing with height) and argued         proper motion. With careful data treatment, we might be able
+that their result must be biased by time-varying dynamics. The         to circumvent the issue of missing radial velocity measurements
+reason that the results of this work agree better with the baryonic    and weigh different parts of the Galactic disk with high preci-
+model is probably explained by the fact that the different meth-       sion.
+ods are subject to different systematic biases. For example, the           In order to perform more careful tests and further refine
+method used in this work is not as sensitive to the distribution of    this new method, we plan to apply it to high resolution three-
+stars with low vertical energies (Ez . Φ(300 pc)).                     dimensional galaxy simulations. To reproduce well-resolved
+                                                                       phase-space spirals requires simulations with roughly a billion
+     Using summary statistics of seven data samples (fulfilling
+                                                                       particles, which only very recently have become feasible (Asano
+|s| ≤ 3), we infer a local halo dark matter density of ρDM, =
+                                                                       et al. 2020, Hunt et al. in preparation).
+0.0085±0.0039 M pc−3 . This is a somewhat low value compared
+to most other analyses of the vertical motion of stars in the solar
+neighbourhood (although strictly speaking not discrepant as our        8. Conclusion
+uncertainty is fairly large), and more in line with more global
+estimates, such as those coming from the Milky Way rotational          For the first time, we have employed a method for weighing the
+velocity curve (de Salas & Widmark 2020). We also set an upper         Galactic disk using the time-varying structure of the Milky Way
+68 % (95 %) confidence limit of 2.17 M pc−2 (4.56 M pc−2 ) to          phase-space spiral. Our method extracts information from the
+the matter density of a thin dark disk with a scale height ≤ 50 pc.    shape of the phase-space spiral and is complementary to tra-
+This is significantly stronger than any previous constraints on a      ditional methods that are based on the assumption of a steady
+thin dark disk (Schutz et al. 2018 set an upper 95 % confidence        state. Using a baryonic model, we have inferred a local halo
+limit of roughly 10 M pc−2 , for a scale height of 50 pc). The sta-    dark matter density of ρDM, = 0.0085 ± 0.0039 M pc−3 =
+tistical uncertainties on the inferred halo dark matter density and    0.32±0.15 GeV cm−3 , which is consistent with other recent mea-
+thin dark disk surface density are dominated by the uncertainty        surements. Using conservative assumptions, we have been able
+associated with the baryonic model. Therefore, in order to make        to place the most stringent constraints on the surface density of
+further progress, it is crucial to revisit and improve on the bary-    a thin dark disk: a 95 % confidence limit of roughly 5 M pc−2 ,
+onic matter density distributions of the solar neighbourhood. As       assuming a dark disk scale height ≤ 50 pc.
+discussed in Sect. 5, it is not implausible that the baryonic model        For both the halo dark matter density and the surface density
+used in this work suffers from significant systematic errors, po-      of a thin dark disk, the statistical uncertainty is dominated by the
+tentially larger than the reported statistical uncertainties.          baryonic model. As discussed in Sect. 5, this model is somewhat
+                                                                       outdated and could potentially suffer from significant systematic
+    For the data
+               √ sample that only had a cut in spatial coordinates,    errors, both in terms of its stellar and gaseous components. We
+according to X 2 + Y 2 < 300 pc, the results agree with the main       plan to update this model using new data in the near future.
+analysis to within 1σ, both in terms of Φ(400 pc) and ρDM,                 Our method places strong constraints on the weight of the
+(where only the latter includes uncertainties from the baryonic        Galactic disk and its dark sector components. In terms of its pre-
+model). The results agree particularly well for Z = 0 pc. This         cision, it is highly competitive with respect to methods based
+data sample is not statistically independent from the main anal-       on the assumption of a steady state. In a general sense, this illus-
+ysis and was only included as a test of consistency. We consider       trates that time-varying structures, that break the assumption of a
+this result less reliable, due to not having any cuts in angular mo-   steady state, are not solely obstacles to dynamical mass measure-
+mentum and thus including stars with strongly elliptical orbits.       ments, but can in fact be assets containing useful information.
+Article number, page 12 of 20
+                                          A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+Acknowledgements. We thank the anonymous referee for a constructive re-                   Hunter, J. D. 2007, Computing In Science & Engineering, 9, 90
+view. AW acknowledges support from the Carlsberg Foundation via a Sem-                    Johnston, K. V., Law, D. R., & Majewski, S. R. 2005, ApJ, 619, 800
+per Ardens grant (CF15-0384). CL acknowledges funding from the European                   Juric, M. et al. 2008, ApJ, 673, 864
+Research Council (ERC) under the European Union’s Horizon 2020 research                   Kafle, P. R., Sharma, S., Lewis, G. F., & Bland-Hawthorn, J. 2014, ApJ, 794, 59
+and innovation programme (grant agreement No. 852839). PFdS acknowledges                  Katz, D., Sartoretti, P., Cropper, M., et al. 2019, A&A, 622, A205
+support by the Vetenskapsrådet (Swedish Research Council) through contract                Kazantzidis, S., Bullock, J. S., Zentner, A. R., Kravtsov, A. V., & Moustakas,
+No. 638-2013-8993 and the Oskar Klein Centre for Cosmoparticle Physics.                      L. A. 2008, ApJ, 688, 254
+GM acknowledge funding from the Agence Nationale de la Recherche (ANR                     Khoperskov, S., Di Matteo, P., Gerhard, O., et al. 2019, A&A, 622, L6
+project ANR-18-CE31-0006 and ANR-19-CE31-0017) and from the European                      Kingma, D. P. & Ba, J. 2014, arXiv e-prints, arXiv:1412.6980
+Research Council (ERC) under the European Union’s Horizon 2020 research                   Klasen, M., Pohl, M., & Sigl, G. 2015, Progress in Particle and Nuclear Physics,
+and innovation programme (grant agreement No. 834148). This work made                        85, 1
+use of an HPC facility funded by a grant from VILLUM FONDEN (project-                     Klypin, A., Zhao, H., & Somerville, R. S. 2002, Astrophys.J., 573, 597
+number 16599). This work was supported in part by World Premier Interna-                  Koposov, S. E., Rix, H.-W., & Hogg, D. W. 2010, ApJ, 712, 260
+tional Research Center Initiative (WPI Initiative), MEXT, Japan. This work                Kramer, E. D. & Randall, L. 2016a, ApJ, 829, 126
+has made use of data from the European Space Agency (ESA) mission Gaia                    Kramer, E. D. & Randall, L. 2016b, ApJ, 824, 116
+(https://www.cosmos.esa.int/gaia), processed by the Gaia Data Process-                    Kunder, A., Kordopatis, G., Steinmetz, M., et al. 2017, AJ, 153, 75
+ing and Analysis Consortium (DPAC, https://www.cosmos.esa.int/web/                        Lallement, R., Welsh, B. Y., Vergely, J. L., Crifo, F., & Sfeir, D. 2003, A&A,
+gaia/dpac/consortium). Funding for the DPAC has been provided by na-                         411, 447
+tional institutions, in particular the institutions participating in the Gaia Multilat-   Laporte, C. F. P., Johnston, K. V., Gómez, F. A., Garavito-Camargo, N., & Besla,
+eral Agreement. This research utilised the following open-source Python pack-                G. 2018, MNRAS, 481, 286
+ages: Matplotlib (Hunter 2007), NumPy (Harris et al. 2020), SciPy (Virtanen               Laporte, C. F. P., Minchev, I., Johnston, K. V., & Gómez, F. A. 2019, MNRAS,
+et al. 2020), Pandas (Wes McKinney 2010), TensorFlow (Abadi et al. 2015).                    485, 3134
+                                                                                          Li, H. & Widrow, L. M. 2021, MNRAS, 503, 1586
+                                                                                          Li, Z.-Z., Qian, Y.-Z., Han, J., et al. 2020, ApJ, 894, 10
+                                                                                          Malhan, K. & Ibata, R. A. 2019, MNRAS, 486, 2995
+References                                                                                McKee, C. F., Parravano, A., & Hollenbach, D. J. 2015, ApJ, 814, 13
+                                                                                          McMillan, P. J. 2017, MNRAS, 465, 76
+Abadi, M., Agarwal, A., Barham, P., et al. 2015, TensorFlow: Large-Scale Ma-              Nesti, F. & Salucci, P. 2013, J. Cosmology Astropart. Phys., 2013, 016
+   chine Learning on Heterogeneous Systems, software available from tensor-               Newberg, H. J., Yanny, B., Rockosi, C., et al. 2002, ApJ, 569, 245
+   flow.org                                                                               Nitschai, M. S., Cappellari, M., & Neumayer, N. 2020, MNRAS, 494, 6001
+Ablimit, I., Zhao, G., Flynn, C., & Bird, S. A. 2020, ApJ, 895, L12                       Nobile, E. D. 2021 [arXiv:2104.12785]
+Abolfathi, B., Aguado, D. S., Aguilar, G., et al. 2018, ApJS, 235, 42                     Paper I. 2021, refers to Widmark et al. (2021b)
+Antoja, T., Helmi, A., Romero-Gómez, M., et al. 2018, Nature, 561, 360                    Petač, M. 2020, Phys. Rev. D, 102, 123028
+Asano, T., Fujii, M. S., Baba, J., et al. 2020, MNRAS, 499, 2416                          Price-Whelan, A. M., Johnston, K. V., Sheffield, A. A., Laporte, C. F. P., & Sesar,
+Bennett, M. & Bovy, J. 2019, MNRAS, 482, 1417                                                B. 2015, MNRAS, 452, 676
+Bergemann, M., Sesar, B., Cohen, J. G., et al. 2018, Nature, 555, 334
+                                                                                          Purcell, C. W., Bullock, J. S., & Kaplinghat, M. 2009, ApJ, 703, 2275
+Binney, J. & Schönrich, R. 2018, MNRAS, 481, 1501
+                                                                                          Read, J. I. 2014, Journal of Physics G Nuclear Physics, 41, 063101
+Binney, J. & Tremaine, S. 2008, Galactic Dynamics: Second Edition (Princeton
+                                                                                          Read, J. I., Lake, G., Agertz, O., & Debattista, V. P. 2008, MNRAS, 389, 1041
+   University Press)
+Bland-Hawthorn, J., Sharma, S., Tepper-Garcia, T., et al. 2019, MNRAS, 486,               Reid, M. J., Menten, K. M., Brunthaler, A., et al. 2014, ApJ, 783, 130
+   1167                                                                                   Ruchti, G. R., Read, J. I., Feltzing, S., Pipino, A., & Bensby, T. 2014, MNRAS,
+Bonaca, A. & Hogg, D. W. 2018, ApJ, 867, 101                                                 444, 515
+Buch, J., Leung, J. S. C., & Fan, J. 2019, J. Cosmology Astropart. Phys., 2019,           Salomon, J.-B., Bienaymé, O., Reylé, C., Robin, A. C., & Famaey, B. 2020,
+   026                                                                                       Astron.Astrophys., 643, A75
+Buder, S., Asplund, M., Duong, L., et al. 2018, MNRAS, 478, 4513                          Sanders, J. L. & Das, P. 2018, MNRAS, 481, 4093
+Buschmann, M., Safdi, B. R., & Schutz, K. 2021 [arXiv:2103.05000]                         Schönrich, R., Binney, J., & Dehnen, W. 2010, MNRAS, 403, 1829
+Caputo, A., Zavala, J., & Blas, D. 2018, Phys. Dark Univ., 19, 1                          Schönrich, R. & Dehnen, W. 2018, MNRAS, 478, 3809
+Carlin, J. L., DeLaunay, J., Newberg, H. J., et al. 2013, ApJ, 777, L5                    Schutz, K., Lin, T., Safdi, B. R., & Wu, C.-L. 2018, Phys. Rev. Lett., 121, 081101
+Cautun, M., Benítez-Llambay, A., Deason, A. J., et al. 2020, MNRAS, 494, 4291             Sheffield, A. A., Price-Whelan, A. M., Tzanidakis, A., et al. 2018, ApJ, 854, 47
+Chakrabarti, S., Chang, P., Lam, M. T., Vigeland, S. J., & Quillen, A. C. 2021,           Sivertsson, S., Silverwood, H., Read, J. I., Bertone, G., & Steger, P. 2018, MN-
+   Astrophys.J., 907, L26                                                                    RAS, 478, 1677
+Chequers, M. H. & Widrow, L. M. 2017, MNRAS, 472, 2751                                    Springel, V., Wang, J., Vogelsberger, M., et al. 2008, MNRAS, 391, 1685
+Chequers, M. H., Widrow, L. M., & Darling, K. 2018, MNRAS, 480, 4244                      Stoehr, F., White, S. D. M., Springel, V., Tormen, G., & Yoshida, N. 2003, MN-
+Cole, D. R. & Binney, J. 2017, MNRAS, 465, 798                                               RAS, 345, 1313
+de Salas, P. F., Malhan, K., Freese, K., Hattori, K., & Valluri, M. 2019, J. Cos-         Stref, M. & Lavalle, J. 2017, Phys. Rev. D, 95, 063003
+   mology Astropart. Phys., 2019, 037                                                     Vasiliev, E., Belokurov, V., & Erkal, D. 2021, MNRAS, 501, 2279
+de Salas, P. F. & Widmark, A. 2020, arXiv e-prints, arXiv:2012.11477                      Virtanen, P., Gommers, R., Oliphant, T. E., et al. 2020, Nature Methods, 17, 261
+Dehnen, W. & Binney, J. 1998, MNRAS, 294, 429                                             Vogelsberger, M., Helmi, A., Springel, V., et al. 2009, MNRAS, 395, 797
+Deng, L.-C., Newberg, H. J., Liu, C., et al. 2012, Research in Astronomy and              Wes McKinney. 2010, in Proceedings of the 9th Python in Science Conference,
+   Astrophysics, 12, 735                                                                     ed. Stéfan van der Walt & Jarrod Millman, 56 – 61
+Diemand, J., Kuhlen, M., Madau, P., et al. 2008, Nature, 454, 735                         Widmark, A. 2019, A&A, 623, A30
+Efron, B. 1982, The jackknife, the bootstrap and other resampling plans (Society          Widmark, A., de Salas, P. F., & Monari, G. 2021a, A&A, 646, A67
+   for industrial and applied mathematics)                                                Widmark, A., Laporte, C., & de Salas, P. F. 2021b, A&A, 650, A124
+Eilers, A.-C., Hogg, D. W., Rix, H.-W., & Ness, M. K. 2019, ApJ, 871, 120                 Widmark, A., Malhan, K., de Salas, P. F., & Sivertsson, S. 2020, MNRAS, 496,
+Facchinetti, G., Lavalle, J., & Stref, M. 2020, arXiv e-prints, arXiv:2007.10392             3112
+Fan, J., Katz, A., Randall, L., & Reece, M. 2013a, Phys. Rev. Lett., 110, 211302          Widmark, A. & Monari, G. 2018, MNRAS, sty2400
+Fan, J., Katz, A., Randall, L., & Reece, M. 2013b, Phys. Dark Univ., 2, 139               Widrow, L. M., Barber, J., Chequers, M. H., & Cheng, E. 2014, MNRAS, 440,
+Flynn, C., Holmberg, J., Portinari, L., Fuchs, B., & Jahreiss, H. 2006, MNRAS,               1971
+   372, 1149                                                                              Widrow, L. M., Gardner, S., Yanny, B., Dodelson, S., & Chen, H.-Y. 2012, ApJ,
+Freeman, K. & Bland-Hawthorn, J. 2002, ARA&A, 40, 487                                        750, L41
+Gaia Collaboration, Brown, A. G. A., Vallenari, A., et al. 2021a, A&A, 649, A1
+                                                                                          Widrow, L. M., Pym, B., & Dubinski, J. 2008, Astrophys.J., 679, 1239
+Gaia Collaboration, Smart, R. L., Sarro, L. M., et al. 2021b, A&A, 649, A6
+                                                                                          Williams, M. E. K., Steinmetz, M., Binney, J., et al. 2013, MNRAS, 436, 101
+Gilmore, G., Randich, S., Asplund, M., et al. 2012, The Messenger, 147, 25
+Gómez, F. A., Minchev, I., O’Shea, B. W., et al. 2013, MNRAS, 429, 159                    Xu, Y., Liu, C., Tian, H., et al. 2020, ApJ, 905, 6
+Gómez, F. A., White, S. D. M., Marinacci, F., et al. 2016, MNRAS, 456, 2779               Xu, Y., Newberg, H. J., Carlin, J. L., et al. 2015, ApJ, 801, 105
+Gravity Collaboration, Abuter, R., Amorim, A., et al. 2019, A&A, 625, L10                 Yanny, B., Rockosi, C., Newberg, H. J., et al. 2009, AJ, 137, 4377
+Guo, R., Liu, C., Mao, S., et al. 2020, MNRAS, 495, 4828                                  Yao, J. M., Manchester, R. N., & Wang, N. 2017, MNRAS, 468, 3289
+Harris, C. R., Millman, K. J., van der Walt, S. J., et al. 2020, Nature, 585, 357
+Hattori, K., Valluri, M., & Vasiliev, E. 2020 [arXiv:2012.03908]
+Hessman, F. V. 2015, A&A, 579, A123
+
+                                                                                                                                         Article number, page 13 of 20
+                                                  A&A proofs: manuscript no. aanda
+
+Appendix A: Plots of the remaining data samples
+In this appendix, we present the plots corresponding to Figs. 3,
+4, and 5, for the data samples that were not already shown in
+Sect. 6. We show the data histograms in Fig. A.1, the extracted
+spirals in Fig. A.2, and the inferred matter density distribution
+and gravitational potential in Fig. A.3.
+
+
+
+
+Article number, page 14 of 20
+               A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+
+
+
+                                                                                   √
+Fig. A.1: Same as Fig. 3, but for data samples s = {−5, −3, −2, 1, 2, 4, 5} and        X 2 + Y 2 < 300 pc.
+
+
+
+
+                                                                                               Article number, page 15 of 20
+                                                    A&A proofs: manuscript no. aanda
+
+
+
+
+                                                          Fig. A.1: Continued.
+
+
+
+
+                                                                                              √
+                         Fig. A.2: Same as Fig. 4, but for s = {−5, −3, −2, 1, 2, 4, 5} and       X 2 + Y 2 < 300 pc.
+
+
+
+
+Article number, page 16 of 20
+A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+
+
+
+                          Fig. A.2: Continued
+
+                                                                             Article number, page 17 of 20
+                                                    A&A proofs: manuscript no. aanda
+
+
+
+
+                                                                                                √
+                       Fig. A.3: Same as Fig. 5, but for s = {−5, −4, −3, −1, 1, 3, 4, 5} and       X 2 + Y 2 < 300 pc.
+
+
+
+
+Article number, page 18 of 20
+A. Widmark et al.: Weighing the Galactic disk using phase-space spirals II
+
+
+
+
+                         Fig. A.3: Continued.
+
+
+
+
+                                                                             Article number, page 19 of 20
+                                A&A proofs: manuscript no. aanda
+
+
+
+
+                                     Fig. A.3: Continued.
+
+
+
+
+Article number, page 20 of 20
+

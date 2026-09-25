@@ -1,0 +1,677 @@
+                                                                        Gravitational Direct Detection of Dark Matter
+
+                                                                Daniel Carney,1, 2, ∗ Sohitri Ghosh,1 Gordan Krnjaic,2 and Jacob M. Taylor1, †
+                                                          1
+                                                            Joint Quantum Institute/Joint Center for Quantum Information and Computer Science,
+                                                University of Maryland, College Park/National Institute of Standards and Technology, Gaithersburg, MD, USA
+                                                                        2
+                                                                          Fermi National Accelerator Laboratory, Batavia, IL, USA
+                                                                                          (Dated: August 25, 2021)
+                                                         The only coupling dark matter is guaranteed to have with the standard model is through gravity.
+                                                      Here we propose a concept for direct dark matter detection using only this gravitational coupling.
+                                                      We suggest that an array of quantum-limited mechanical impulse sensors may be capable of detect-
+                                                      ing the correlated gravitational force created by a passing dark matter particle. We consider the
+                                                      effects of irreducible noise from couplings of the sensors to the environment and noise due to the
+                                                      quantum measurement process. We show that the signal from Planck-scale dark matter is in prin-
+                                                      ciple detectable using a large number of gram-scale sensors in a meter-scale array with sufficiently
+
+
+
+
+arXiv:1903.00492v3 [hep-ph] 24 Aug 2021
+                                                      low quantum noise, and discuss some experimental challenges en route to achieving this target.
+
+
+                                                                   CONTENTS                               stead, these test the additional hypothesis that DM in-
+                                                                                                          teracts with visible matter through much stronger non-
+                                           I. Introduction                                          1     gravitational forces, and that DM is in a range of rela-
+                                                                                                          tively light masses. Here we propose a new direct detec-
+                                          II. Detector paradigm                                     2     tion technique based entirely on DM’s required gravita-
+                                                                                                          tional interactions, completely independent of any non-
+                                          III. Implications for the DM landscape                    4     gravitational couplings. If this target can be achieved,
+                                                                                                          it would open an entirely new mode of DM search in a
+                                          IV. Technical challenges                                  5     largely unexplored mass range.
+                                              A. Backgrounds                                        5        Our proposed strategy is to build a three-dimensional
+                                              B. Achieving thermally-limited sensitivities          5     array of force sensors. A heavy DM particle passing
+                                              C. Correlated noise between sensors                   6     through the array will exert a small but correlated force
+                                              D. Data processing                                    7     on the sensors nearest its trajectory. Much like tracking
+                                              E. Architectural choices                              8     a particle in a bubble chamber, we can then pick out this
+                                                                                                          correlated force signal along the DM “track” through the
+                                          V. Outlook and conclusions                                8     array. In particular, this means that the detector gains
+                                                                                                          complete directional information, allowing for robust re-
+                                              Acknowledgments                                       8     jection of many traditional DM detection backgrounds.
+                                                                                                             Since the gravitational interaction strength increases
+                                              References                                            8     linearly with mass of both the passing DM and the sen-
+                                                                                                          sor, we suggest the use of macroscopic mechanical force
+                                                                                                          sensing devices. Driven in large part by LIGO [8], the
+                                                           I.     INTRODUCTION                            last few decades have witnessed dramatic improvements
+                                                                                                          in the continuous quantum-limited sensing of mechanical
+                                             Observations of galactic rotation curves [1], gravita-       systems with masses ranging from single ions to tens of
+                                          tional lensing [2], the cosmic microwave background [3],        kilograms. Numerous devices have been demonstrated
+                                          galaxy cluster collisions [4], and the large scale struc-       with sensing at the “standard quantum limit” (SQL) [9],
+                                          ture of our universe [5] are inconsistent with a model          and advanced techniques such as the use of squeezed light
+                                          of the universe containing only general relativity and          [10–12] or backaction evasion [13–18] have achieved even
+                                          the standard model of particle physics. Positing the ex-        lower noise levels.
+                                          istence of cold dark matter (DM) successfully explains             The sensitivity of the array is set by various sources of
+                                          these diverse, independent observations (see [6] for a re-      noise acting on the devices, and the core goal of this paper
+                                          view). However, despite decades of dedicated searches,          is to study these noise limitations. In particular, we fo-
+                                          dark matter has yet to be directly detected in the neigh-       cus on two key, irreducible noise sources: coupling of the
+                                          borhood of Earth [7].                                           sensors to their thermal environment, and quantum mea-
+                                             Existing approaches to direct detection are insensi-         surement noise coming from the Heisenberg principle.
+                                          tive to DM scattering via the gravitational force. In-          While numerous additional technical noise sources–stray
+                                                                                                          fields, laser instabilities, collective modes of an array, and
+                                                                                                          so forth–are inevitable, these are ultimately avoidable by
+                                                                                                          sufficiently clever experimentalists. On the other hand,
+                                          ∗ E-mail: carney@umd.edu
+                                                                                                          thermal and quantum noise set the fundamental floor for
+                                          † E-mail: jmtaylor@umd.edu
+                                                                                                          any experiment. Indeed, many experiments, for exam-
+                                                                                                                              2
+
+
+                                  MACHOs
+                                                                              II.       DETECTOR PARADIGM
+                             30
+                                  Composite DM, Primordial BHs,
+            This work             WIMPZillas, Non-thermal DM         We begin by giving an overview of the detector concept
+                                                                  and methods for estimating its sensitivity to DM candi-
+                             10
+                                                                  dates of various masses. The primary goal is to derive the
+                                  Thermal DM                      requirements on the detector such that it has non-trivial
+
+            log10 (m /GeV)
+                                  WIMPs
+                                                                  detection reach to sufficiently heavy dark matter. We
+                             10
+                                                                  will see that achieving this goal will require overcoming
+                                  Ultralight DM                   a number of technical challenges, which are discussed in
+                                  Axions, ALPs, Fuzzy DM
+                                                                  detail in section IV.
+                             30                                      The essential idea is to continuously monitor a three-
+                                                                  dimensional array of mechanical sensors. Each sensor
+FIG. 1. Broad classification of viable dark matter models         has its position (or momentum) read out continuously, as
+according to mass. In this work, we focus on dark matter          done for example in LIGO. When a heavy object passes
+candidates around mpl ∼ 1019 GeV and above.                       through the array, for example a heavy dark matter parti-
+                                                                  cle, it will exert a small gravitational force on each sensor,
+                                                                  causing slight deviation in the sensor motions. The sen-
+                                                                  sors which are nearest this passing object will have the
+                                                                  largest deviation, forming a “track” through the array.
+ple advanced LIGO, now operate in a regime in which               See figure 2 for some visualizations of this process.
+quantum measurement noise is the dominant factor set-                Before discussing the array, we begin by studying the
+ting their sensitivity. Here we study the extent to which         interaction of a passing DM particle with a single sen-
+this fundamental noise floor would allow for gravitational        sor. See figure 2 for a diagram of the kinematics. We are
+direct detection of dark matter.                                  interested in the Newton force FN = GN mχ ms r̂/r2 be-
+                                                                  tween a sensor of mass ms and DM particle of mass mχ .
+   In order to maximize the signal from the passing               A lab at rest on Earth sees the DM pass by with average
+dark matter, we suggest an array of gram-scale devices            “wind speed” v ≈ 220 km/s. Thus the DM imparts mo-
+spaced at centimeter-scale distances. At these scales, we         mentum to the detector on a very short timescale τ . For
+find that with well-isolated systems (eg. at high vac-            a representative impact parameter b of approximately a
+uum and/or dilution refrigeration temperatures), quan-            millimeter, we have τ ≈ b/v ∼ 10−8 s.
+tum noise at the SQL dominates over thermal noise. This              The fundamental limitation to sensing this tiny New-
+calls for the use of advanced measurement techniques              tonian force is the presence of other, noisy forces acting
+which can evade the SQL, as we 7   detail below. However,         on the sensor. The total force on the sensor is
+assuming the use of a sufficiently noise-evading measure-                     Fin (t) = Fsig (t) + FT (t) + FM (t).         (1)
+ment protocol, we find that an array of around 108 − 109
+sensors could in principle detect any DM candidate with           The noise terms Fnoise = FT + FM are random vari-
+mass heavier than around mPl ∼ 1019 GeV.                          ables. The measurement-added noise FM is a fundamen-
+                                                                  tal quantum limitation, and depends on the system ob-
+   There are many viable models of DM in our window of            servable we probe and how precisely we perform the read-
+detectability. Some examples include WIMPzillas [19–              out (see section IV B for details). Meanwhile, the thermal
+22], GUT-scale coannihilating particles [23], Planckian           noise FT is set by the ambient temperature T and the na-
+interacting DM [24], composite “nuclear” DM with large            ture of the thermal bath coupling to the detectors, but
+occupation numbers [25–28], dark quark nuggets [29–34],           independent of the measurement readout scheme.
+Planckian relics from evaporated black holes [35, 36] or            In our continuous monitoring protocol, the data comes
+even small extremal black holes [37]. While there are             in the form of a timeseries F (t) for each sensor. For
+some recent proposals to detect the non-gravitational in-         the signal, we will take as our basic observable the total
+teractions of specific ultraheavy DM candidates [38–40],          impulse delivered to the sensor along the axis transverse
+most viable DM candidates in this mass range have ex-             to the dark matter trajectory (see figure 2),
+tremely feeble non-gravitational interactions with visi-
+                                                                                                  GN mχ ms b
+ble matter. A mature realization of our concept can ro-                                 Fsig =                     .        (2)
+bustly test all such models without invoking any non-                                            (b2 + v 2 t2 )3/2
+gravitational interaction.                                        The total impulse is easy to calculate:
+                                                                          Z tint /2
+   We note two recent works looking to detect DM grav-
+                                                                      I=            dt Fsig (t) → 2GN mχ ms τ /b2 = F τ, (3)
+itationally [41, 42]. Both suggest using a single sen-                       −tint /2
+sor without a noise-evading measurement protocol, lead-
+ing to comparatively limited detection reach and lack of          where tint is an integration window, F is the average
+background event rejection.                                       force, and we assume tint & τ and sufficient incoming
+                                                                                                                            3
+
+                         v
+
+
+        Fk
+                             vt
+
+   md
+                  Fsig
+
+              b
+
+
+
+
+FIG. 2. Left: Kinematics of the DM-sensor scattering event, viewed from above the scattering plane. Center left: Schematic
+of (a cross-section of) the detector array, with suspended pendula used as mechanical resonators. As the DM passes through
+the array, it produces a correlated impulse on the sensors nearest its track. This diagram suppresses the readout mechanism
+(see figure 4), for which there are many potential implementations. Center right: Simulation of an event on a 50 × 50 plane
+of sensors. The colors represent impulses; blue are impulses to the left while red are to the right. The track of yellow-red
+corresponds to the signal. Right: Cartoon of single-sensor data stream, with an event.
+
+
+ velocity so that we can approximate the DM as moving on          tion: given a fixed track of N sensors, did they all receive
+ a straight-line track. Here we have chosen the transverse        enough impulse to be seen above their individual noises?
+ component because its time integral is finite, but one           This is answered by adding the SNR of each sensor      √ in
+ could filter the data F (t) with an appropriate function         quadrature, so the standard error decreases like 1/ N ,
+ and use instead the time-integral of this filtered data. In      and the signal-to-noise ratio is given by
+ this sense one can look for any particular component of
+ the force. See section IV D for details on data processing                                        2
+ issues.                                                                              SNR2 = N F τ /α.                    (5)
+    Note that by the equivalence principle, only tidal forces
+ are observable. To use equation (2), it is critical that the     It is critical that the signal here is the entire, corre-
+ readout be referenced to a system sufficiently far from the      lated track of moving sensors. This in particular means
+ sensor such that the Newtonian acceleration produced on          that our backgrounds–that is, events other than pass-
+ the reference is negligible.                                     ing DM which likewise trigger a correlated track of
+    To estimate our sensitivity to the signal (2), we need        displacements–are very different from traditional direct
+ to compare its size to the noise acting on the sensors.          detection experiments (see section IV A for more details
+RThe
+   R noise    is characterized by the variance h∆I 2 i =          on background rejection). It also means that the signal
+     dtdt0 hFnoise (t)Fnoise (t0 )i. For stationary noise, this   includes complete directional information.
+ correlation function is proportional to δ(t − t0 ). Thus the
+                                  3
+ RMS impulse grows as a square root in time                          Our basic result (5) can be used to estimate the SNR
+                                                                  for any particular detector scheme. Given a target DM
+                              ∆I 2 = αtint ,               (4)    mass, the SNR is set entirely by the noise on our detector.
+                                                                  Thermal coupling of the sensors to their environment sets
+for some constant α. This time dependence is charac-              the ultimate, irreducible technical noise floor–one can
+teristic of Brownian motion. Since the integrated sig-            environmentally isolate the system as much as possible,
+nal strength grows approximately linearly in t√ int while         but never completely. On the other hand, measurement-
+the DM is nearby and the noise only grows as tint , an            added noise can be reduced by a variety of techniques, as
+appropriately chosen tint ≈ τ serves to average out the           discussed below. Thus, to understand the fundamental
+fluctuations caused by the noise.                                 limits on gravitational DM detection, we begin by esti-
+   The signal-to-noise ratio of a single sensor during a          mating our SNR under the assumption that we have suffi-
+                                                    2
+passing DM event is therefore SNR2 = I 2 /∆I 2 = F τ /α.          ciently reduced measurement-added noise to be subdomi-
+Now consider constructing an array with Ndet of these             nant to the thermal component. It is important to under-
+sensors. As the DM passes through the array, it will              stand that this is an ambitious experimental target–see
+                             1/3
+pass by a “track” of N ∼ Ndet of the sensors. For sen-            section IV B for an extensive discussion on challenges to
+sors spaced far enough from each other, thermal noise             reaching the thermal floor in macroscopic sensors.
+is uncorrelated amongst the sensors, and we further as-              For detectors mechanically coupled to a support struc-
+sume that we separately monitor each sensor so that               ture at temperature T , we have αmech = 4ms kB T γ with
+measurement-added noise is also uncorrelated. In prac-            γ the detector’s mechanical damping rate [43]. For freely-
+tice there will also be some correlated sources of noise;         falling detectors, we are limited instead
+                                                                                                        √ by the latent gas
+here we assume this is sub-dominant to the single-sensor          pressure P , which gives αgas = P Ad ma kB T , where Ad
+noise, and refer the reader to section IV C for a more            is the cross-sectional area of each detector and ma is the
+extensive discussion. We then ask the statistical ques-           mass of the gas atoms [44]. Numerically, we thus obtain
+                                                                                                                           4
+
+                                                                 through the detector, and we demand our detector pa-
+                                                                 rameters are such that SNR > 5, it will always will be
+                                                                 detected with 5σ confidence. The number of DM events
+                                                                 we have per year is then entirely determined by the num-
+                                                                 ber density of the DM. The observed local DM density
+                                                                 ρχ ≈ 0.3 GeV / cm3 [47] means that, for a detector array
+                                                                 of total cross-section Ad , the rate of DM passing through
+                                                                 the detector is
+                                                                                                             
+                                                                                 ρχ vAd       1    mPl      Ad
+                                                                            R=          ∼                         .      (8)
+                                                                                   mχ       year mχ        1 m2
+
+                                                                 In figure 3, we plot our predicted event rates with a va-
+                                                                 riety of detector geometries, with 109 detectors. With
+                                                                 a billion detectors at the gram scale, Planck-scale grav-
+                                                                 itational DM detection is achievable. Reaching heavier
+                                                                 masses can be achieved with a sparser array.
+                                                                    The above estimates should be interpreted as a long-
+FIG. 3. Detectable DM event rates, with a variety of detec-      term target subject to further possible developments.
+tor configurations. Thick lines correspond to number of events   There are a number of technical challenges which need
+per year, assuming all DM particles have mass mχ . The 1/mχ      to be overcome to realize these estimates, which we dis-
+falloff in the rate is due purely to number flux (see equation   cuss in detail in section IV. Our central message is really
+(8)); by construction, all DM candidates passing through the     that the rules of measurement in quantum mechanics al-
+detector are detected with 5σ confidence. Solid lines are la-
+                                                                 low for the required sensitivities: it is not inconceivable
+beled by the array lattice spacing (mm, cm, or 10 cm) of the
+detector and individual sensor masses (milligram in blue or      that one could build an appropriate apparatus and per-
+gram in red). Dashed lines labeled by temperature (4 K or        form gravitational direct detection searches of heavy dark
+10 mK) demonstrate the increased sensitivity of our scheme       matter.
+with improved environmental isolation. Here we are assuming         We note also that there are numerous ways one can
+background gas-limited environmental noise with the same         imagine improving the situation from that considered
+fiducial parameters as in (7).                                   here. Advanced measurement techniques involving co-
+                                                                 herent readout [48] or error correction [49, 50] can signif-
+                                                                 icantly improve the detection sensitivity. One can also
+the following estimates for the SNR:                             relax the need for 5σ detection of each individual track
+                                                                 event and look for statistics to build up over a long time
+               G2N m2χ L ms                                      (say, a few years of exposure) for the evidence of tracks,
+      SNR2 =
+                  v    d4 kB T γ                                 analagous to statistical evidence for WIMP events in a
+                            2               4          (6)
+                    
+                       mχ         ms
+                                      
+                                         1 mm                    heavy noble detector. Pursuing these types of techniques
+             ≈ 10 ×                                              is a subject of active work, beyond the scope of this in-
+                      1 mg       1 mg      d
+                                                                 troductory paper.
+in the case of detectors mechanically coupled to a support
+structure, and
+                                                                        III.   IMPLICATIONS FOR THE DM
+        24G2N m2χ L       m2s                                                       LANDSCAPE
+   SNR =                 √
+             v    d4 P Ad ma kB T
+                       2       2       4             (7)
+                                                                    Before moving on to discuss technical issues in the ex-
+               
+                  mχ         ms       1 mm
+       ≈ 104 ×                                ,                  perimental realization of these ideas, we make some brief
+                 1 mg       1 mg        d
+                                                                 comments on the implications for such an experiment
+for freely-falling detectors. Here for simplicity we as-         in the broader search for dark matter. As emphasized
+sumed a cubical array of side length L (so that the num-         above, the scheme relies only on the gravitational cou-
+ber of sensors nearest the DM path is N ∼ L/d and the            pling of DM to visible matter, so if the required sensitiv-
+total number of sensors Ntot = (L/d)3 ) with L = 1 m,            ity can be achieved, the experiment would either discover
+and assumed dilution fridge temperatures T = 10 mK,              or rule out any dark matter candidate in the appropriate
+helium ion-pump vacuum pressures P = 10−10 Pa, ma =              range of mass.
+4 u [45], mechanical damping γ = 10−8 Hz [46], and typ-             Our detector concept is capable of searching for DM
+ical solid density ρs ∼ 10 g/cm3 for the detectors.              candidates around and above the Planck mass. At this
+   The signal-to-noise ratios (6), (7) represent our funda-      scale, DM is presumably not a fundamental particle.
+mental detection sensitivities. Crucially, the detection is      Viable options include composite objects like dark nu-
+deterministic: if a sufficiently heavy DM particle passes        clei or dark quark nuggets [25–34], extended objects like
+                                                                                                                          5
+
+topological defects, or quantum gravity exotica like pri-       grounds should have vastly different propagation speed
+mordial black hole remnants [35–37]. In the most opti-          from our DM signal v ∼ 220 km/s. While a detailed
+mistic scenario, a large-scale version of our proposal could    study of backgrounds will be needed for a mature exper-
+reach down to feebly-interacting GUT-scale DM candi-            imental realization, the basic characteristics of the signal
+dates [19–23], which could be fundamental particles.            in our proposal offer an extremely promising route to ro-
+   A confirmed signal would then imply a rich cosmo-            bust background rejection.
+logical history for this sector, which must contain ei-
+ther a modified inflationary potential, an early phase of
+DM self-assembly, a non-thermal abundance generation                B.   Achieving thermally-limited sensitivities
+mechanism, or a dark-sector phase transition. At least
+one of these mechanisms must be active to realize masses           Our optimal measurement sensitivities (6), (7) were
+for the DM in these scenarios. Conversely, a null re-           derived assuming that thermal noise dominates over
+sult would have far reaching consequences for this class        measurement-added noise. We now turn to an analysis of
+of models by excluding a broad swath of DM candidate            the feasibility of achieving sufficiently low measurement
+masses, independently of their other non-gravitational in-      noise for this approximation to be accurate. For an intro-
+teractions.                                                     duction to the topic of quantum measurement noise, we
+                                                                refer the reader to the excellent review [43]. For a self-
+                                                                contained treatment of noise in a linear optomechanical
+         IV.    TECHNICAL CHALLENGES                            device, see the appendix of [51].
+                                                                   In the continuous measurement of a quantum system,
+   A detailed realization of the detector concept outlined      noise arises through a combination of random fluctua-
+above will necessarily come with a large set of technical       tions in the probe and back-action of the probe on the
+challenges to be overcome. Many of these would depend           central system [9]. For example, in optomechanics, the
+sensitively on the chosen sensor platform–microwave ver-        system is a mechanical element and the probe is an op-
+sus optical domain, sensors which are superconducting or        tical field mode. The random probe fluctuations induce
+not, and so forth. Here, we discuss a number of further         shot noise in the readout, and back-action of the probe
+issues which would be largely independent of any par-           comes from random radiation pressure of the input light
+ticular experimental choices, again focusing on the fun-        exerting a random force on the mechanics. The total
+damental limits to achieving the desired sensitivity. We        quantum measurement-added noise is the sum of these
+discuss backgrounds in the sense of a traditional particle      two noise contributions.
+physics detection experiment, requirements for achieving           A standard benchmark level for this noise is known
+the necessary reduction in quantum measurement noise,           as the “standard quantum limit” (SQL). The SQL
+correlations between sensors, and make some preliminary         is achieved by optimizing the shot noise (which de-
+remarks about data processing and filtering issues. We          creases with increasing input laser power) and back-
+end with a few comments on possible choices of concrete         action (which increases with increasing laser power) to
+sensor architectures.                                           find a total minimum. In the case of a rapid impulse
+                                                                delivered to a mechanical sensor of mass m and mechan-
+                                                                ical frequency ω, a detailed analysis gives the benchmark
+                    A.   Backgrounds                            value [52]
+                                                                                       2
+   In direct DM detection experiments, background                                    ∆ISQL = ~mω.                       (9)
+events pose a serious problem and need to be system-
+atically understood. For example, in a xenon-based de-          This universal formula is easy to interpret: it is the size
+tector, the signal is that a DM particle scatters elastically   of the ground-state momentum fluctuations of the oscil-
+off a xenon nucleus, causing the xenon atom to recoil and       lator. Numerous devices exist which operate at or even
+emit a photon. The photon is the signal. The issue is that      below this noise level, as we discuss in detail shortly.
+any number of other events, having nothing to do with              In general, even in the absence of any other techni-
+DM, could cause the same signal.                                cal noise, one has to deal with both thermal noise and
+   Unlike traditional direct DM detection experiments,          measurement-added noise. We can compare SQL-level
+the signal in our proposal does not consist of a single         measurement-added noise to the thermal noise estimated
+recoiling object, but rather a correlated track worth of        in equation (4). One has
+displaced, macroscopic objects. This allows for rejec-                      2
+                                                                                   ( ~Q
+tion of many typical backgrounds. For example, cos-                      ∆ISQL       4kT τ           suspended
+                                                                              2  =     ~m1/3 ρs2/3 ω                   (10)
+mic rays only hit an individual sensor. More challeng-                    ∆IT        P (m kT )1/2 τ
+                                                                                                     gas − limited
+                                                                                          a
+ing issues come from correlated backgrounds like seismic
+noise or propagating signals induced by sensor-sensor in-       Using again mm, mg-scale detectors and high vacuum,
+teractions. The latter should be suppressed at the lattice      dilution-refrigeration environments as above (see (6),
+spacings used here; more generally, these types of back-        (7)), we find that the measurement-added noise at the
+                                                                                                                            6
+
+level of the SQL is substantially larger than the ther-                                           e iVN ⌧
+mal noise (which, in such an environment, is minis-
+cule). This means that to achieve thermally-limited                           e iH0 td
+detection, one needs to go below the SQL. Numeri-                  d
+cally, with the same detector parameters, we would need
+10 log10 ∆ISQL /∆IT ≈ 35, 45 dB reduction in the mea-              1
+surement noise for the case of a suspended or free-falling             e ixXtp           eixXtp
+detector, respectively. This is a fundamental problem for          2
+achieving our desired sensitivities. Fortunately, there are
+                                                                       time
+known ways to lower the measurement-added noise to
+levels below the SQL.
+   One option is “squeeze” the quantum state of the read-
+out light [9–11]. Without any squeezing, the shot noise
+in the probe light is limited by the light’s vacuum fluc-
+tuations. By putting the light in a squeezed state, the
+variance in one of its canonical variables is reduced (at                                                   delay line td
+the expense of an increase in the conjugate variable, as
+required by Heisenberg uncertainty). Performing mea-
+surements with this squeezed degree of freedom can thus
+enable measurements below the SQL. This technique is          FIG. 4. Top: Circuit diagram depicting a backaction-evading
+now used in many applications, including gravitational        velocity measurement. A pulse γ1 imprints the mechanical po-
+wave detection [12] and searches for axion dark matter        sition x onto the light (described by its amplitude and phase
+with microwave cavities [53, 54]. In practice, squeezing      quadratures X, Y ). This is done twice, with opposite phase
+has so far been limited to about 20 dB, typically due to      and a time delay td , leading to a velocity measurement. A
+optical losses.                                               second pulse γ2 then enables a measurement of the impulse
+   Another method to reduce measurement noise, which          ∆I. Inset: Concrete realization of a single velocity measure-
+can be used in tandem with squeezing, is a back-action        ment, using a pair of optical ring cavities with a suspended
+                                                              mirror as the detector [14, 18, 51]. The output light is read
+evading or “quantum non-demolition” measurement [13–
+                                                              out via interferometry. Since the photon imprints a momen-
+18]. Here, instead of modifying the state of the probe        tum +p in the first cavity and −p in the second, there is no
+light, we choose to couple it to an operator of the me-       net forcing of the mechanics: the measurement produces no
+chanical system which enables noise reduction. In stan-       quantum backaction.
+dard optomechanical sensing, the optical field is coupled
+to the position variable of the oscillator. However, one
+could instead try to couple to the momentum variable.         also induce a sizable source of noise. With the scale of
+For a sufficiently fast signal (such as the rapid impulse     devices considered in this paper, substantial reduction of
+from a passing dark matter particle), the slow mechan-        the measurement-added noise will be required, at least
+ical sensor is essentially a free particle over the course    a few orders of magnitude beyond what has currently
+of a given event, and so its Hamiltonian commutes with        been demonstrated. This presents the key challenge to
+p. Thus the measurement adds no noise to a subsequent         realizing our proposal (besides the large number of de-
+measurement, i.e. the measurement is “non-demolition”.        vices). Although difficult, there10is no reason in principle
+   It was realized long ago that back-action evasion could    to believe that these noise levels cannot be achieved.
+be used to reduce measurement noise below the SQL in
+a mechanical system [13]. See figure 4 and [51] for a
+detailed momentum sensing protocol which in principle                  C.     Correlated noise between sensors
+should exhibit around 30 dB of noise reduction below the
+SQL with the sensor parameters and signal considered in          So far, we have assumed that the noise on a given sen-
+this paper. Experimental demonstrations of backaction-        sor is independent of the noise on other sensors, i.e., there
+evasion exist (eg. [15]), and LIGO-scale prototypes are       are no sensor-sensor correlations. More precisely, we as-
+under current development [18]. The noise reductions          sumed the uncorrelated noise dominates over correlated
+achieved have so far been modest, and again are typi-         noise. Here we make some simple estimates justifying
+cally limited by optical loss. However, utilization of this   this assumption.
+technique is substantially unexplored, particularly in the       Given the macroscopic nature of our sensors and small
+sub-kg scale devices considered here, so we hope that our     spacings, the most important effect to worry about is
+proposal can provide impetus for new developments.            coming from electromagnetic potentials which couple the
+   To summarize: the fundamental technical noise floor in     sensors to each other. The most important such poten-
+a high-precision mechanical sensing protocol is set by the    tials come from “patch potentials” (surface imperfections
+irreducible coupling of the sensors to their thermal envi-    which carry charge) and van der Waals/Casimir forces.
+ronments. However, continuous quantum measurements            In fact, this is the key reason we chose our spacings to be
+                                                                                                                             7
+
+at least d = 1 mm: it is well known from eg. torsion bal-          In addition to the above concerns, we note also the ex-
+ance experiments that these forces are sufficiently weak        istence of environmental noise sources which have char-
+around this scale that they can be safely ignored [55].         acteristic wavelength long enough to affect multiple sen-
+This is the basic reason that searches for fifth-forces or      sors in the array. Given millimeter or larger spacing,
+modified Newtonian potentials tend to be sensitive only         the dominant source of such noise would be seismic noise
+down to around the 50 µm scale [56].                            and gravity gradients (see eg. [58]). These types of noise
+   Given that we can neglect these electromagnetic cor-         would necessarily be at low (sub-10 Hz) frequencies, and
+relations, another question arises: what about sensor-          thus do not contribute to the range of frequencies of the
+sensor interactions from gravity? Indeed, by design, our        DM signal (∼ 1/τ & MHz).
+sensors are capable of measuring the sensor-sensor grav-           Finally, we note that correlations between sensors
+itational interactions. The question then is what is the        could be purposefully engineered, as a mechanism for
+nature of the noise generated by this interaction. The          enhancing the sensitivity of the total detector. While
+sensor-sensor coupling is                                       relatively unexplored, this idea has been suggested as a
+                                                                promising route to a number of sensing goals, see eg.
+                                                                [59–61].
+                                          r
+      GN m2s x1 x2                            GN ms
+V =                ≡ ms Ω2 x1 x2 ,   Ω=             . 0.1 mHz
+        d     d2                               d3
+                                                       (11)
+                                                                                   D.   Data processing
+where x1 , x2 are the displacements from equilibrium
+of the two sensors. The bound comes from assuming                  As described above, the detector concept involves con-
+a reasonable solid density. Each sensor position re-            tinuously monitoring a large number of devices and then
+sponds to input forces according to the usual linear-           looking for tracks in the data. Brute force implementa-
+response relation xi (ν) = χm (ν)F (ν), where χm (ν) =          tion of this would be a computationally intensive pro-
+                       −1
+ ms (ν − ωs )2 − iγωs
+
+                            is the mechanical response          cess. Although looking for tracks with a billion sensors
+function for a damped harmonic oscillator.                      may seem daunting, it is worth noting that the next gen-
+  The sensor-sensor coupling (11) allows for correlated         eration CMS detector at the LHC has of order two bil-
+noise, namely, the input noises on sensor 2 can be trans-       lion pixels, and will be used to search for substantially
+mitted to sensor 1 and vice versa. The question then is         more complex track signals than the simple straight-line
+how the scale of this correlated noise compares to the          trajectories considered here. Understanding the compu-
+uncorrelated noise. We write Fi (ν), i = 1, 2 for the noise     tational requirements and efficient implementation of the
+acting separately on each sensor. Then sensor 1 for ex-         algorithms, including compression, is a subject of current
+ample has two noise terms                                       work by us. Here we make a few preliminary remarks.
+                                                                   Data filtering is a key component of our proposal. We
+      x1 (ν) = χm (ν)F1 (ν) + χm (ν)ms Ω2 χm (ν)F2 (ν), (12)    are interested in searching for a signal of known temporal
+                                                                shape in a noisy time-series. This problem is essentially
+where the second term is due to (11). But then for high-        the same as faced by LIGO in the search for gravitational
+frequency signals like the fast impulses we are concerned       waves, and we suggest borrowing a technique from them
+with, we see that the correlated second term is suppressed      (and many other signal-processing applications) known
+relative to the first by a factor Ω2 /ν 2 due to the high-      as matched filtering [62]. Here one takes the output data
+frequency behavior of the additional response function.         Fi (t) with i = 1, . . . , N labeling the
+                                                                                                      P Rindividual sensors
+For our gravitational problem with signals ν ∼ 1 MHz,           and convolves the data O(te ) =          i Fi (t − te )fi (t)dt
+this factor is on thus of order (10−4 /106 )2 = 10−20 ,         with a filter designed so that the convolution peaks on
+and utterly neglible compared to the uncorrelated noise         the tracks we are looking for. Here te means the time
+terms.                                                          of an event, which must be scanned over. In our prob-
+   The above considerations stem from the interactions          lem, f (t) would roughly match the time-dependent force
+between the mechanical elements in the sensors. In a            (2) we are looking for; as described above, we could for
+practical realization, there can also be coupling through,      example use such a filter to look for any particular com-
+for example, the support structure which may connect            ponent of the force, not just the component perpendicu-
+the sensors. Although important to understand, a seri-          lar to the DM track [51]. The effects of compression on
+ous study would require a detailed implementation. In           the time-series data are controllable and should present
+particular, one may be concerned about collective modes         a minor fractional change in the sensitivity [63–65], al-
+in the array which could mimic the track signal consid-         though a detailed analysis of this issue in the context
+ered above. Standard phononic engineering techniques            studied here will be an important piece of future work.
+(see eg. [57]) should be capable of controlling and/or          A particularly appealing method could be to use discrete
+mitigating these effects. Since this goes beyond the sim-       pulse-based measurements instead of a continuous mea-
+ple approximations of a uniformly spaced lattice as we          surement scheme [66].
+are using here, we postpone a detailed study for further           The convolution over multiple sensors represents the
+work.                                                           major computational challenge in our problem. Imple-
+                                                                                                                            8
+
+menting it efficiently is an important challenge which         to eliminate this, one could periodically drop the detec-
+we are currently studying. We note here one key op-            tors and allow them to freely fall for some short time,
+tion to reduce the overhead could be to use Radon-             so that thermal noise comes only from collisions with
+transformed data 1 . The Radon transformation maps             ambient gas. The essential duty cycle is schematically
+functions f : R3 → R on the detector
+                                  R       array to the in-     depicted in the circuit diagram of figure 4. In the first
+tegral of the function Rf (γ) = γ dλf (λ) along a given        step, we turn off the trap [77] and allow the sensor to fall.
+track γ through the detector. Since our fundamental ob-        We then measure the momentum of the sensor, wait for
+servable is really the impulse delivered to a track worth      a time of order the DM flyby time τ to let the potential
+of sensors, it is natural to look in Radon space. This         DM interact with the sensor, and perform a second mo-
+substantially reduces the computational cost because in-       mentum measurement, yielding the change in momentum
+stead of looking at N 3 sensors one needs only to scan over    I = ∆p. Given the short times of interest, the sensor will
+the set of ∼ N 2 independent tracks. The Radon trans-          fall an essentially negligible amount, so this cycle can be
+formation, including matched filtering, could in principle     repeated.
+be implemented in hardware (see e.g. [67, 68]), which                 V.    OUTLOOK AND CONCLUSIONS
+would reduce the complete computational cost to a max-
+imization scan over N 2 pixels of Radon space. We are             We have presented a radically new DM direct detection
+currently studying a prototype of this idea, the details of    strategy involving a meter-scale array of high precision
+which will appear in a separate publication.                   force sensors. Unlike traditional searches for dark mat-
+                                                               ter, our technique requires no ad hoc assumptions about
+                                                               DM beyond its required gravitational coupling to other
+                                                               particles. Reaching the required sensitivity presents a
+                E.   Architectural choices
+                                                               clear target for development of quantum impulse mea-
+                                                               surement protocols, a concept with many applications
+   Mechanical sensing devices operated in the classical        beyond those discussed here. Although significant fur-
+or quantum regime come in a wide variety of architec-          ther work will be required to realize our scheme in de-
+tures. These include torsion balances [46, 69, 70], sus-       tail, the potential payoff–the possibility of a direct DM
+pended mirrors [8], stretched membranes [16], levitated        detection method with no reliance on non-gravitational
+dielectrics [71, 72] or superconductors [73, 74], liquid he-   coupling–is enormous.
+lium [75], and more. The choice of which specific type
+of device to use for an experiment like the one described
+here is well beyond the scope of this paper, but here we                       ACKNOWLEDGMENTS
+make a few remarks about basic issues to be considered.
+   The most familiar example of an optomechanical force           We thank Vladimir Aksyuk, Joshua Batson, Zackaria
+sensor consists of a suspended mirror monitored by light,      Chacko, Aaron Chou, Roni Harnik, Matthew Hollister,
+as in LIGO [8]. One may be concerned about the use             Dan Hooper, Mark Kasevich, Noah Kurinsky, Rafael
+of an enormous number of lasers in a small volume; to          Lang, Zhen Liu, Nobuyuki Matsumoto, Sam McDermott,
+eliminate the need for these, one can instead use elec-        Alissa Monte, David Moore, Lina Necib, Jon Pratt, Tom
+tromechanical couplings or fiber-coupled devices [76]. An      Purdy, Peter Shawhan, and Terry Tope for discussions,
+alternative approach would be to use a single laser to in-     and we thank our referees for a highly instructive corre-
+terrogate multiple devices; this could potentially be used     spondance. Fermilab is operated by Fermi Research Al-
+to coherently read out the system.                             liance, LLC, under Contract No. DEAC02-07CH11359
+   Support structures will thermally load on the sensors;      with the US Department of Energy.
+
+
+
+
+ [1] Yoshiaki Sofue and Vera Rubin, “Rotation curves of spi-    [4] Maxim Markevitch, A. H. Gonzalez, D. Clowe,
+     ral galaxies,” Ann. Rev. Astron. Astrophys. 39, 137–174        A. Vikhlinin, L. David, W. Forman, C. Jones, S. Mur-
+     (2001), arXiv:astro-ph/0010594 [astro-ph].                     ray, and W. Tucker, “Direct constraints on the dark mat-
+ [2] Richard Massey, Thomas Kitching, and Johan Richard,            ter self-interaction cross-section from the merging galaxy
+     “The dark matter of gravitational lensing,” Rept. Prog.        cluster 1E0657-56,” Astrophys. J. 606, 819–824 (2004),
+     Phys. 73, 086901 (2010), arXiv:1001.1739 [astro-ph.CO].        arXiv:astro-ph/0309303 [astro-ph].
+ [3] N. Aghanim et al. (Planck), “Planck 2018 results. VI.      [5] Joel R. Primack, “Cosmological Structure Formation,”
+     Cosmological parameters,” (2018), arXiv:1807.06209             in The Philosophy of Cosmology (2015) pp. 136–160,
+     [astro-ph.CO].                                                 arXiv:1505.02821 [astro-ph.GA].
+                                                                [6] Gianfranco Bertone and Dan Hooper, “History of
+                                                                    dark matter,” Rev. Mod. Phys. 90, 045002 (2018),
+                                                                    arXiv:1605.04909 [astro-ph.CO].
+1 This idea is due to Juehang Qin.
+                                                                                                                              9
+
+ [7] M. Tanabashi et al. (Particle Data Group), “Review of             arXiv:1511.03278 [hep-ph].
+     Particle Physics,” Phys. Rev. D98, 030001 (2018).            [25] Gordan Krnjaic and Kris Sigurdson, “Big Bang Dark-
+ [8] J. Aasi et al. (LIGO Scientific), “Advanced LIGO,” Class.         leosynthesis,” Phys. Lett. B751, 464–468 (2015),
+     Quant. Grav. 32 (2015).                                           arXiv:1406.1171 [hep-ph].
+ [9] Carlton M Caves, “Quantum-mechanical noise in an in-         [26] Edward Hardy, Robert Lasenby, John March-Russell,
+     terferometer,” Physical Review D 23, 1693 (1981).                 and Stephen M. West, “Big Bang Synthesis of Nuclear
+[10] Thomas P Purdy, P-L Yu, R W Peterson, N S Kam-                    Dark Matter,” JHEP 06, 011 (2015), arXiv:1411.3739
+     pel, and C A Regal, “Strong optomechanical squeezing              [hep-ph].
+     of light,” Physical Review X 3, 031012 (2013).               [27] Edward Hardy, Robert Lasenby, John March-Russell,
+[11] Jeremy B Clark, Florent Lecocq, Raymond W Simmonds,               and Stephen M. West, “Signatures of Large Com-
+     José Aumentado, and John D Teufel, “Sideband cool-               posite Dark Matter States,” JHEP 07, 133 (2015),
+     ing beyond the quantum backaction limit with squeezed             arXiv:1504.05419 [hep-ph].
+     light,” Nature 541, 191 (2017).                              [28] Michele Redi and Andrea Tesi, “Cosmological Produc-
+[12] Junaid Aasi, J Abadie, BP Abbott, Richard Abbott,                 tion of Dark Nuclei,” (2018), arXiv:1812.08784 [hep-ph].
+     TD Abbott, MR Abernathy, Carl Adams, Thomas                  [29] William Detmold, Matthew McCullough,            and An-
+     Adams, Paolo Addesso, RX Adhikari, et al., “Enhanced              drew Pochinsky, “Dark Nuclei I: Cosmology and In-
+     sensitivity of the ligo gravitational wave detector by us-        direct Detection,” Phys. Rev. D90, 115013 (2014),
+     ing squeezed states of light,” Nature Photonics 7, 613            arXiv:1406.2276 [hep-ph].
+     (2013).                                                      [30] William Detmold, Matthew McCullough,            and An-
+[13] Vladimir B Braginsky, Yuri I Vorontsov, and Kip S                 drew Pochinsky, “Dark nuclei. II. Nuclear spectroscopy
+     Thorne, “Quantum nondemolition measurements,” Sci-                in two-color QCD,” Phys. Rev. D90, 114506 (2014),
+     ence 209, 547–557 (1980).                                         arXiv:1406.4116 [hep-lat].
+[14] V.B. Braginsky and F.Ja. Khalili, “Gravitational wave        [31] Moira I. Gresham, Hou Keong Lou, and Kathryn M.
+     antenna with qnd speed meter,” Physics Letters A 147,             Zurek, “Nuclear Structure of Bound States of Asym-
+     251 – 256 (1990).                                                 metric Dark Matter,” Phys. Rev. D96, 096012 (2017),
+[15] AA Clerk, Florian Marquardt, and K Jacobs, “Back-                 arXiv:1707.02313 [hep-ph].
+     action evasion and squeezing of a mechanical resonator       [32] Moira I. Gresham, Hou Keong Lou, and Kathryn M.
+     using a cavity detector,” New Journal of Physics 10,              Zurek, “Early Universe synthesis of asymmetric dark
+     095010 (2008).                                                    matter nuggets,” Phys. Rev. D97, 036003 (2018),
+[16] JB Hertzberg, T Rocheleau, T Ndukum, M Savva,                     arXiv:1707.02316 [hep-ph].
+     AA Clerk, and KC Schwab, “Back-action-evading mea-           [33] Moira I. Gresham, Hou Keong Lou, and Kathryn M.
+     surements of nanomechanical motion,” Nature Physics 6,            Zurek, “Astrophysical Signatures of Asymmetric Dark
+     213 (2010).                                                       Matter Bound States,” Phys. Rev. D98, 096001 (2018),
+[17] Kiran E Khosla, George A Brawley, Michael R Vanner,               arXiv:1805.04512 [hep-ph].
+     and Warwick P Bowen, “Quantum optomechanics be-              [34] Yang Bai, Andrew J. Long, and Sida Lu, “Dark Quark
+     yond the quantum coherent oscillation regime,” Optica             Nuggets,” (2018), arXiv:1810.04360 [hep-ph].
+     4, 1382–1387 (2017).                                         [35] Yakir Aharonov, Aharon Casher, and Shmuel Nussinov,
+[18] Stefan L Danilishin, Eugene Knyazev, Nikita V                     “The unitarity puzzle and planck mass stable particles,”
+     Voronchev, Farid Ya Khalili, Christian Gräf, Sebastian           Physics Letters B 191, 51–55 (1987).
+     Steinlechner, Jan-Simon Hennig, and Stefan Hild, “A          [36] Jane H. MacGibbon, “Can Planck-mass relics of evapo-
+     new quantum speed-meter interferometer: measuring                 rating black holes close the universe?” Nature 329, 308–
+     speed to search for intermediate mass black holes,” Light:        309 (1987).
+     Science & Applications 7, 11 (2018).                         [37] Yang Bai and Nicholas Orlofsky, “Primordial Extremal
+[19] Edward W. Kolb, Daniel J. H. Chung, and Anto-                     Black Holes as Dark Matter,” Phys. Rev. D 101, 055006
+     nio Riotto, “WIMPzillas!” Trends in theoretical physics           (2020), arXiv:1906.04858 [hep-ph].
+     II. Proceedings, 2nd La Plata Meeting, Buenos Aires,         [38] Dorota M. Grabowska, Tom Melia, and Surjeet Rajen-
+     Argentina, November 29-December 4, 1998, AIP Conf.                dran, “Detecting Dark Blobs,” Phys. Rev. D98, 115020
+     Proc. 484, 91–105 (1999), [,592(1999)], arXiv:hep-                (2018), arXiv:1807.03788 [hep-ph].
+     ph/9810361 [hep-ph].                                         [39] Joseph Bramante, Benjamin Broerman, Jason Kumar,
+[20] Edward W. Kolb and Andrew J. Long, “Superheavy dark               Rafael F. Lang, Maxim Pospelov, and Nirmal Raj, “For-
+     matter through Higgs portal operators,” Phys. Rev. D96,           aging for dark matter in large volume liquid scintilla-
+     103540 (2017), arXiv:1708.04293 [astro-ph.CO].                    tor neutrino detectors with multiscatter events,” (2018),
+[21] Edward W. Kolb, A. A. Starobinsky, and I. I. Tkachev,             arXiv:1812.09325 [hep-ph].
+     “Trans-Planckian wimpzillas,” JCAP 0707, 005 (2007),         [40] Joseph Bramante, Benjamin Broerman, Rafael F. Lang,
+     arXiv:hep-th/0702143 [hep-th].                                    and Nirmal Raj, “Saturated Overburden Scattering and
+[22] Keisuke Harigaya, Tongyan Lin,          and Hou Keong             the Multiscatter Frontier: Discovering Dark Matter at
+     Lou, “GUTzilla Dark Matter,” JHEP 09, 014 (2016),                 the Planck Mass and Beyond,” Phys. Rev. D98, 083516
+     arXiv:1606.00923 [hep-ph].                                        (2018), arXiv:1803.08044 [hep-ph].
+[23] Asher Berlin, “WIMPs with GUTs: Dark Matter Coan-            [41] Evan D Hall, Rana X Adhikari, Valery V Frolov, Holger
+     nihilation with a Lighter Species,” Phys. Rev. Lett. 119,         Müller, and Maxim Pospelov, “Laser interferometers as
+     121801 (2017), arXiv:1704.08256 [hep-ph].                         dark matter detectors,” Physical Review D 98, 083019
+[24] Mathias Garny, McCullen C Sandora,              and Mar-          (2018).
+     tin S. Sloth, “Planckian Interacting Massive Particles       [42] Akio Kawasaki, “Search for kilogram-scale dark matter
+     as Dark Matter,” Phys. Rev. Lett. 116, 101302 (2016),             with precision displacement sensors,” Physical Review D
+                                                                                                                            10
+
+     99, 023005 (2019).                                               chanical arrays,” Physical review letters 107, 043603
+[43] Aashish A Clerk, Michel H Devoret, Steven M Girvin,              (2011).
+     Florian Marquardt, and Robert J Schoelkopf, “Introduc-      [60] DE Chang, Amir H Safavi-Naeini, Mohammad Hafezi,
+     tion to quantum noise, measurement, and amplification,”          and Oskar Painter, “Slowing and stopping light using an
+     Reviews of Modern Physics 82, 1155 (2010).                       optomechanical crystal array,” New Journal of Physics
+[44] Melville S Green, “Brownian motion in a gas of noninter-         13, 023003 (2011).
+     acting molecules,” The Journal of Chemical Physics 19,      [61] André Xuereb, Claudiu Genes, and Aurélien Dantan,
+     1036–1046 (1951).                                                “Strong coupling and long-range collective interactions
+[45] W Thompson and S Hanrahan, “Characteristics of a                 in optomechanical arrays,” Physical review letters 109,
+     cryogenic extreme high-vacuum chamber,” Journal of               223601 (2012).
+     Vacuum Science and Technology 14, 643–645 (1977).           [62] Benjamin J Owen and Bangalore Suryanarayana
+[46] PW Adams and Jing-chun Xu, “The use of aluminum al-              Sathyaprakash, “Matched filtering of gravitational waves
+     loy 5056 for high-q mechanical oscillators at low temper-        from inspiraling compact binaries: Computational cost
+     atures,” Review of scientific instruments 62, 2461–2464          and template placement,” Physical Review D 60, 022002
+     (1991).                                                          (1999).
+[47] Jo Bovy and Scott Tremaine, “On the local dark matter       [63] Matthew A Herman and Thomas Strohmer, “High-
+     density,” Astrophys. J. 756, 89 (2012), arXiv:1205.4033          resolution radar via compressed sensing,” IEEE trans-
+     [astro-ph.GA].                                                   actions on signal processing 57, 2275–2284 (2009).
+[48] K Micadei, DA Rowlands, FA Pollock, LC Céleri,             [64] Mark A Davenport, Michael B Wakin, and Richard G
+     RM Serra, and K Modi, “Coherent measurements in                  Baraniuk, “The compressive matched filter,” Rice Univ.,
+     quantum metrology,” New Journal of Physics 17, 023057            Houston, USA, Tech. Rep. TREE 610 (2006).
+     (2015).                                                     [65] Guglielmo Panelli, Benjamin M Roberts, and Andrei
+[49] Eric M Kessler, Igor Lovchinsky, Alexander O Sushkov,            Derevianko, “Applying the matched-filter technique to
+     and Mikhail D Lukin, “Quantum error correction for               the search for dark matter transients with networks of
+     metrology,” Physical review letters 112, 150802 (2014).          quantum sensors,” EPJ Quantum Technology 7, 1–33
+[50] Sisi Zhou, Mengzhen Zhang, John Preskill, and Liang              (2020).
+     Jiang, “Achieving the heisenberg limit in quantum           [66] Michael R Vanner, Igor Pikovski, Garrett D Cole,
+     metrology using quantum error correction,” Nature com-           MS Kim, Č Brukner, Klemens Hammerer, Gerard J Mil-
+     munications 9, 78 (2018).                                        burn, and Markus Aspelmeyer, “Pulsed quantum op-
+[51] Sohitri Ghosh, Daniel Carney, Peter Shawhan, and                 tomechanics,” Proceedings of the National Academy of
+     Jacob M. Taylor, “Back-action evading impulse mea-               Sciences 108, 16182–16187 (2011).
+     surement with mechanical quantum sensors,” (2019),          [67] William H Steier and Raj K Shori, “Optical hough trans-
+     arXiv:1910.11892 [quant-ph].                                     form,” Applied optics 25, 2734–2738 (1986).
+[52] AA Clerk, “Quantum-limited position detection and am-       [68] Tali Ilovitsh, Asaf Ilovitsh, John Sheridan, and Zeev
+     plification: A linear response perspective,” Physical Re-        Zalevsky, “Optical realization of the radon transform,”
+     view B 70, 245306 (2004).                                        Optics express 22, 32301–32307 (2014).
+[53] Huaixiu Zheng, Matti Silveri, RT Brierley, SM Girvin,       [69] GT Gillies and RC Ritter, “Torsion balances, torsion
+     and KW Lehnert, “Accelerating dark-matter axion                  pendulums, and related devices,” Review of scientific in-
+     searches with quantum measurement technology,” arXiv             struments 64, 283–309 (1993).
+     preprint arXiv:1607.02529 (2016).                           [70] MK Bantel and RD Newman, “High precision measure-
+[54] L Zhong, S Al Kenany, KM Backes, BM Brubaker,                    ment of torsion fiber internal friction at cryogenic tem-
+     SB Cahn, G Carosi, YV Gurevich, WF Kindel, SK Lam-               peratures,” Journal of Alloys and Compounds 310, 233–
+     oreaux, KW Lehnert, et al., “Results from phase 1 of             242 (2000).
+     the haystac microwave cavity axion experiment,” Physi-      [71] Zhang-Qi Yin, Andrew A Geraci, and Tongcang Li, “Op-
+     cal Review D 97, 092001 (2018).                                  tomechanics of levitated dielectric particles,” Interna-
+[55] W. J. Kim, A. O. Sushkov, D. A. R. Dalvit, and S. K.             tional Journal of Modern Physics B 27, 1330018 (2013).
+     Lamoreaux, “Measurement of the short-range attractive       [72] David Hempston, Jamie Vovrosh, Marko Toroš, George
+     force between ge plates using a torsion balance,” Phys.          Winstone, Muddassar Rashid, and Hendrik Ulbricht,
+     Rev. Lett. 103, 060401 (2009).                                   “Force sensing with an optically levitated charged
+[56] D. J. Kapner, T. S. Cook, E. G. Adelberger, J. H. Gund-          nanoparticle,” Applied Physics Letters 111, 133111
+     lach, Blayne R. Heckel, C. D. Hoyle, and H. E. Swanson,          (2017).
+     “Tests of the gravitational inverse-square law below the    [73] H A Chan and H J Paik, “Superconducting gravity gra-
+     dark-energy length scale,” Phys. Rev. Lett. 98, 021101           diometer for sensitive gravity measurements. i. theory,”
+     (2007), arXiv:hep-ph/0611184 [hep-ph].                           Physical Review D 35, 3551 (1987).
+[57] Amir H Ghadimi, Sergey A Fedorov, Nils J Engelsen,          [74] Jordi Prat-Camps, C Teo, C C Rusconi, W Wieczorek,
+     Mohammad J Bereyhi, Ryan Schilling, Dalziel J Wilson,            and O Romero-Isart, “Ultrasensitive inertial and force
+     and Tobias J Kippenberg, “Elastic strain engineering for         sensors with diamagnetically levitated magnets,” Physi-
+     ultralow mechanical dissipation,” Science 360, 764–768           cal Review Applied 8, 034002 (2017).
+     (2018).                                                     [75] AB Shkarin, AD Kashkanova, CD Brown, S Garcia,
+[58] Scott A Hughes and Kip S Thorne, “Seismic gravity-               K Ott, J Reichel, and JGE Harris, “Quantum optome-
+     gradient noise in interferometric gravitational-wave de-         chanics in a liquid,” Physical review letters 122, 153601
+     tectors,” Physical Review D 58, 122002 (1998).                   (2019).
+[59] Georg Heinrich, Max Ludwig, Jiang Qian, Björn Kubala,      [76] Miles Blencowe, “Quantum electromechanical systems,”
+     and Florian Marquardt, “Collective dynamics in optome-           Physics Reports 395, 159–222 (2004).
+                                                                                                                 11
+
+[77] Kevin Henderson, Changhyun Ryu, Calum MacCormick,       ing arbitrary and dynamic potentials for bose–einstein
+     and MG Boshier, “Experimental demonstration of paint-   condensates,” New Journal of Physics 11, 043030 (2009).
+

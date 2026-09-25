@@ -1,0 +1,2054 @@
+                                              Prepared for submission to JCAP
+
+
+
+
+                                              Using Gaia DR2 to Constrain Local
+                                              Dark Matter Density and Thin
+                                              Dark Disk
+
+
+
+
+arXiv:1808.05603v2 [astro-ph.GA] 4 Apr 2019
+                                              Jatan Buch a,1 , Shing Chau (John) Leung a , and JiJi Fan a
+                                              a Department of Physics, Brown University, Providence, RI, 02912, USA
+
+                                               E-mail: jatan_buch@brown.edu, shing_chau_leung@brown.edu,
+                                               jiji_fan@brown.edu
+
+                                              Abstract. We use stellar kinematics from the latest Gaia data release (DR2) to measure
+                                              the local dark matter (DM) density ρDM in a heliocentric cylinder of radius R = 150 pc
+                                              and half-height z = 200 pc. We also explore the prospect of using our analysis to estimate
+                                              the DM density in local substructure by setting constraints on the surface density and scale
+                                              height of a thin dark disk aligned with the baryonic disk and formed due to dissipative dark
+                                              matter self-interactions. Performing the statistical analysis within a Bayesian framework for
+                                              three types of tracers, we obtain ρDM = 0.016 ± 0.010 M /pc3 for A stars; early G stars give
+                                              a similar result, while F stars yield a significantly higher value. For a thin dark disk, A
+                                              stars set the strongest constraint: excluding surface densities (5-12) M /pc2 for scale heights
+                                              below 100 pc with 95% confidence. The upper bound of this constraint implies <     ∼ 1% of the
+                                              Milky Way DM mass is present in a dissipative dark sector. Comparing our results with those
+                                              derived using Tycho-Gaia Astrometric Solution (TGAS) data, we find that the uncertainty in
+                                              our measurements of the local DM content is dominated by systematic errors that arise from
+                                              assumptions of our dynamical analysis in the low z region. Furthermore, there will only be a
+                                              marginal reduction in these uncertainties with more data in the Gaia era. We comment on
+                                              the robustness of our method and discuss potential improvements for future work.
+
+
+
+
+                                                1
+                                                  ORCID: https://orcid.org/0000-0001-6672-6750
+                                                2
+                                                  ORCID: https://orcid.org/0000-0002-8326-9544
+                                                3
+                                                  ORCID: https://orcid.org/0000-0002-3774-5626
+Contents
+
+1 Introduction                                                                               1
+
+2 Data Selection                                                                             4
+  2.1 Preliminaries: selection function, color and volume cuts                               4
+  2.2 Vertical number density distribution                                                   6
+  2.3 Midplane velocity distribution                                                         7
+
+3 Fiducial Analysis                                                                          9
+  3.1 Equilibrium density modeling                                                           9
+  3.2 Local matter content: baryons, halo DM, and a thin DD                                 10
+  3.3 Likelihood, model uncertainties, and priors                                           12
+  3.4 Sampling the posterior                                                                14
+
+4 Results                                                                                   15
+  4.1 Local DM density                                                                      15
+  4.2 Constraints on a thin DD                                                              15
+
+5 Discussion                                                                                16
+  5.1 Effect of volume cuts                                                                 16
+  5.2 Disequilibria in the solar neighborhood?                                              17
+  5.3 Degeneracy between ρDM and ρb                                                         17
+  5.4 Comparison of constraints between DR2 and TGAS                                        17
+
+6 Conclusions and Outlook                                                                   20
+
+A Constructing a Volume Complete Density                                                    22
+  A.1 Color-magnitude modeling                                                              22
+  A.2 Poisson process likelihood                                                            22
+
+B Uncertainty Analysis                                                                      24
+
+C Variation of Midplane Cut                                                                 24
+
+D Bootstrap Statistics                                                                      25
+
+
+1   Introduction
+
+The second release of data collected by the European Space Agency’s Gaia telescope provides
+the positions and proper motions, with unprecedented precision, of more than one billion
+sources in the Milky Way (MW) [1–9]. With the release of line-of-sight velocities for about
+seven million stars, DR2 also allows, for the first time, a dynamical analysis with a self-
+consistent measurement of the 6D phase space for a stellar population.
+      DR2 presents an exciting opportunity to use the vertical velocity and number density
+distributions of different populations of stars that trace the gravitational potential for pre-
+cisely determining the total matter density, including baryons and dark matter (DM), in the
+
+
+
+
+                                            –1–
+local solar neighborhood. Significant progress has been made in modeling the local baryon
+budget (interstellar gas, stars, stellar remnants) and its uncertainties [10–13] since Oort’s
+early estimate [14] of the baryon density. Meanwhile, kinematic methods for estimating the
+local DM density rely on constraining the total matter content using motions of tracers after
+assuming a model for the baryons and attributing any additional density, within uncertainty,
+to DM. These methods are based on: a) the Jeans analysis that reduces the collisionless
+Boltzmann equation for the phase space distribution function into a set of moment equations
+by integrating over all velocities, and b) the Poisson equation which uses the total matter
+density in all components to calculate the gravitational potential. In this work, we primar-
+ily focus on the 1D distribution function method developed by Refs. [15–19] and used by
+Refs. [20, 21] to constrain the local DM density with data from the Hipparcos satellite [22].
+However, the approximations of isothermality and decoupling of radial and vertical motions in
+this method are only valid up to scale height z ∼1 kpc. Therefore, for using tracer data at high
+z, Refs. [23, 24] adopt the more general moment-based method to estimate the DM density. A
+non-parametric formulation of the moment-based method, described by Ref. [25] and imple-
+mented in Ref. [26], uses SDSS/SEGUE G stars in a heliocentric cylinder with R ∼1 kpc and
+0.5 kpc <∼ |z| <
+               ∼ 2.5 kpc, grouped by age, namely α-young and α-old stars, as tracers. Ref. [11]
+also uses SDSS/SEGUE G star data between 4 kpc <         ∼R <∼ 9 kpc and 0.3 kpc <  ∼ |z| <
+                                                                                          ∼ 3 kpc
+to constrain the stellar and DM density through action-based distribution function model-
+ing [27]. Their analysis incorporated the age information of tracers in a more sophisticated
+manner by constructing mono-abundance populations [28] that consist of stars with similar
+elemental abundances. The above discussion is by no means an exhaustive review of the differ-
+ent attempts at measuring the local DM density (most notably, it doesn’t address dynamical
+measurements made by, for example, Refs. [29, 30]); instead, we refer interested readers to
+Refs. [31, 32].
+      Besides determining the local DM density, one could apply the data of stellar kinematics
+to constrain more exotic DM distributions. A recent example is dissipative DM scenarios, in
+which self-interactions among a sub-dominant component of DM dissipates energy to form a
+(possibly thin) dark disk (DD), co-rotating with the baryonic disk [33, 34]. Possible effects of
+such a DD and variants of dissipative DM scenarios have been studied further in Refs. [13, 35–
+53]. The formation of the disk from DM self-interactions is highly debatable [54] and numerical
+simulations using a cooling prescription (as in Ref. [55]) are still absent. Inspite of these
+uncertainties regarding its formation, it is still worthwhile to use the stellar data to test the
+simplest possibility of a thin DD aligned with the baryonic disk and parametrized by only
+two parameters: the surface density, ΣDD and a scale height, hDD . This has been carried
+out using Hipparcos data in Ref. [45] and Tycho–Gaia Astrometric Solution (TGAS), a joint
+solution combining Tycho-2 catalog with early Gaia data, in Ref. [56].
+      In this article, we work with the second Gaia data release (DR2) [2] to estimate the local
+DM density as well as constrain thin DD models assuming that the DD is aligned with the
+baryonic disk. We follow the method in Refs. [20, 45, 56] and use A, F and early G dwarf stars
+in the Gaia catalog as the tracers. In Section 2, we discuss the details of Gaia DR2 and the
+empirically determined survey selection function (Section 2.1), which we use to construct the
+vertical number density profile and midplane velocity distribution for each tracer population
+in Sections 2.2 and 2.3 respectively. Our fiducial analysis is described in Section 3. We use
+the 1D distribution function method summarized in Section 3.1 to construct the equilibrium
+number density for the parameters of our mass model described in Section 3.2. In Sections 3.3
+and 3.4, we introduce a Bayesian framework for comparing our predicted density with data
+
+
+
+
+                                             –2–
+                             Figure 1: Flowchart of our analysis.
+
+
+for each tracer population while taking into account the uncertainties due to potential non-
+equilibrium effects. The important steps of our analysis are outlined as a flowchart in Fig. 1.
+While our method is not new, we obtain interesting results, some of which are quite different
+from those based on TGAS. We present our results for the local DM content using Gaia DR2
+in Section 4.1 and 4.2, and list various sources of systematic uncertainties in the context of our
+
+
+
+
+                                              –3–
+method in Sections 5.1-5.3. Differences between constraints derived using DR2 and TGAS
+are discussed in Section 5.4. We conclude and comment on future directions in Section 6.
+
+2       Data Selection
+
+The Gaia DR2 catalog contains ∼1.7 billion sources, among which ∼1.3 billion sources have
+a five-parameter astrometric solution: (α, δ, µαe , µδ , $), representing positions and proper mo-
+tions along the right ascension and declination, and parallax respectively. We emphasize that
+for DR2, the parallaxes and proper motions are based solely on Gaia measurements, unlike
+DR1 which depends on the Tycho-2 catalog [2, 3]. DR2 also provides photometric data in
+three passbands, G, GBP , and GRP , for a majority of the sources in the range 3 . G . 21 [4, 5].
+Another new feature in DR2 is the line-of-sight radial velocities, vr , for ∼7.2 million stars
+brighter than GRVS ∼ 12 [6–8].
+      Despite a significant increase in statistics, the DR2 catalog is still incomplete for stars
+with G < 12. We calculate the completeness fraction for the DR2 catalog by comparing
+it with the Two Micron All-Sky Survey (2MASS ) Point Source Catalog [57] that is 99%
+complete down to its faint magnitude limit J = 15.8 over almost the entire sky. The 2MASS
+catalog also provides the angular positions, (α, δ), for each source along with its J and Ks
+magnitudes, which we use to categorize stars in DR2 by stellar type.
+      We query the Gaia archive1 for DR2 cross-matched with the 2MASS catalog, requiring
+the apparent magnitude J < 13.5, thereby cutting away stars that are either too dim for the
+main sequence, or too distant from the Sun.2 As we discuss in the following section, the star
+counts in the 2MASS catalog with J < 13.5 are then used to determine the selection function,
+S(J, J − Ks , α, δ), defined as the fraction of stars at a given (J, J − Ks , α, δ) in the sky that
+are contained in the DR2 catalog.
+
+2.1       Preliminaries: selection function, color and volume cuts
+
+
+
+
+                 0                                    50                0                                10
+                     Number of good AL observations                         SD of good AL observations
+
+
+Figure 2: Skymaps showing the number (left) and variance (right) of good AL observations
+in 3.36 deg2 (Nside = 25 ) HEALPix pixels. The white regions are the parts of the sky which
+do not pass our selection cuts defined in the main text.
+    1
+        https://gea.esac.esa.int/archive/
+    2
+        In our selected volume, the apparent magnitude of all tracer stars satisfies J < 12.
+
+
+
+
+                                                           –4–
+      Since there has been no official release by the Gaia collaboration, we follow the procedure
+introduced in Ref. [58] to determine the selection function for the cross-matched data set. As
+a first step, using the gaia_tools package,3 we identify parts of the sky that satisfy,
+
+  (i) Mean number of along-scan (AL) observations ≥ 8.5;
+
+ (ii) Spread in the number of AL observations ≤ 10.
+
+After these cuts, 95.6% of the sky remains as shown in Fig. 2. The overall completeness
+in these parts of the sky is largely isotropic, implying that our selection function only has
+a negligible dependence on sky position. Thus, for the rest of our analysis, we use the
+approximation S(J, J − Ks , α, δ) ≈ S(J, J − Ks ). A similar approximation has been adopted
+for analyzing TGAS data in Ref. [58], in which stronger cuts were used to identify the ‘good’
+parts of the sky.
+      Although the uncertainties of astrometric parameters in DR2 are an order of magnitude
+improvement over TGAS, there are still several systematic effects that we need to include
+in our data analysis. As suggested by Ref. [59], we add 0.03 mas to the reported parallax
+to account for the global offset. Following Ref. [9], we also add in quadrature a systematic
+uncertainty of ±0.1 mas and ±0.1 mas/yr respectively to the reported values of parallax and
+proper motion uncertainties. We check that our analysis is not sensitive to the exact values
+of these numbers, only their order-of-magnitude estimate.
+      Next, we identify stellar populations that: a) are tracers of the local galactic potential
+(see Sec. 3.6 of Ref. [32] for a recent overview), and b) show a reasonable change in their
+number densities within the solar neighborhood (defined below). The most important factor
+in selecting tracer stars is their sensitivity to disequilibria, which could result in incompatible
+ρDM measurements [60]. While there is some disagreement in the literature about which stars,
+old [20, 61] or young [26], are more suitable for an equilibrium analysis, we follow Ref. [26]
+in choosing younger A (A0-A9), F (F0-F9), and early G (G0-G3) dwarf stars (simply stars
+henceforth) which have lower scale heights and consequently shorter equilibration timescales,
+instead of older stars, in our analysis.
+      We use the mean dwarf stellar locus from Ref.   [62] to define each stellar type t based on
+its absolute magnitude M J t and color J¯t − K̄st ,
+
+                       J t + 5 log10 ($t (mas)) − 10 ∈ {M J t , min , M J t , max }
+                                                                                             (2.1)
+                                 J t − K t ∈ { J¯t − K̄ t   , J¯t − K̄ t
+                                                                         
+                                        s                s min             s max  }
+
+and include all A, F, and early G stars in a heliocentric cylinder with radius R = 150 pc and
+half-height z = 200 pc,
+                                                  
+                        1                            1
+                            cos b < 150 pc,               sin b < 200 pc                 (2.2)
+                        $                            $
+
+where all the un-barred quantities are data from our cross-matched catalog. In Eq. 2.1 and 2.2,
+we use (1/$) as an estimator of the distance, where $ is the noisy parallax reported in the
+DR2 catalog. We treat it as an unbiased estimator since our tracer sample contains nearby
+stars within a distance, (1/$) < 250 pc, and a low parallax uncertainty, σ$ <    ∼ 0.1 mas. We
+discuss the uncertainties in our results due to the choice of cuts in Section 5.1.
+  3
+      https://github.com/jobovy/gaia_tools
+
+
+
+
+                                                  –5–
+2.2   Vertical number density distribution
+To make any meaningful inferences about stellar dynamics, we require the volume complete
+number density of stars. Since Gaia DR2 is incomplete, the number density constructed from
+data must be corrected for the survey selection function (determined in Sec. 2.1) to reflect the
+underlying true Poisson-distributed density. Ref. [58] accomplishes this by deriving a bin-by-
+bin normalization for each stellar population, defined as the effective volume completeness,
+under the assumption that all observed stars are samples from an inhomogeneous Poisson
+process. We follow the same procedure and summarize its important details in Appendix A.2.
+      We calculate the effective volume completeness for our DR2 tracer populations using the
+gaia_tools package and plot it as a function of scale height in Fig. 3. We also include the
+effective volume completeness for TGAS data as a reference, and note that the DR2 sample
+is significantly more complete.
+
+                                                                             R = 150 pc
+                                         1.0
+
+
+
+                                         0.8
+
+
+
+
+         Effective volume completeness
+                                         0.6
+
+
+
+                                         0.4
+
+
+
+                                         0.2
+
+                                                                                                                 A stars
+                                                                                                                 F stars
+                                         0.0
+                                                                                                                 Early G stars
+
+                                          −200      −150      −100    −50        0         50           100        150           200
+                                                                               z [pc]
+
+Figure 3: Effective volume completeness for each stellar type. The completeness of DR2
+(solid) is significantly improved as compared to TGAS (dashed) for A (blue), F (green), and
+early G (orange) stars.
+
+
+
+                                                       Data set             Gaia DR2                    TGAS
+                                                  Type      Subtype   Total    Midplane         Total         Midplane
+                                                   A        A0-A9     4445           321        1729            182
+                                                   F         F0-F9    37707       2253          16789           1308
+                                                 Early G    G0-G3     43332       2188          18653           1205
+
+Table 1: Star counts in DR2 and TGAS catalogs for the heliocentric cylinder and the
+midplane region (|b| < 5o ) inside it.
+
+      There are 4445 A, 37707 F, and 43332 early G stars in the solar neighborhood defined
+
+
+
+
+                                                                              –6–
+by our heliocentric cylinder. The volume complete vertical number density for the ith tracer
+population, νidata shown in Fig. 4, is obtained by dividing the number counts with the effective
+volume completeness in each z bin. We choose 20 pc as the bin size based on parallax
+uncertainties as discussed in Appendix B. However, varying the bin size doesn’t significantly
+affect the results of our analysis. We also present a comparison of star counts in the full
+volume and in the midplane (defined to be the region with |b| < 5o in the cylinder) between
+DR2 and TGAS in Table 1.
+
+
+                   0.0
+
+
+                  −0.5
+
+
+                  −1.0
+
+       ln(ν/ν0)
+                  −1.5
+
+
+                  −2.0
+                                                     A stars
+                                                     F stars
+                  −2.5
+                                                     Early G stars
+
+                         −200   −150   −100   −50         0     50     100      150      200
+                                                      z [pc]
+
+Figure 4: Binned vertical number density profiles for A, F, and early G stars. Also shown is
+the median predicted density (dotted line) and the 68% confidence interval (shaded region)
+for each tracer population obtained from our dynamical analysis described in Sec. 3.
+
+                                                                     data
+      The number density uncertainty for the k th z bin, σln   2
+                                                                 ν         , is obtained by adding in
+                                         √                         i
+quadrature the statistical uncertainty, Nk (see Eq. A.8), and a 3% systematic uncertainty
+due to dust extinction. We expect the dust extinction to be important in the visible spectrum
+such as the B and V colors used in Hipparcos catalog, or the GBP and GRP used in DR2.
+However, colors in the infrared spectrum, i.e. the J and Ks colors used in our cross-matched
+DR2-2MASS catalog, are associated with longer wavelengths and therefore much less affected
+by galactic dust. Ref. [58] finds that the effect of dust reddening on the number density of
+stars in the solar neighborhood defined using J and Ks is only . 3% and mostly affects the
+overall normalization. Thus, instead of doing a full dust analysis, we conservatively adopt an
+overall 3% correction for all three types of stars. We also find that this is only a sub-dominant
+uncertainty and doesn’t significantly affect our constraints.
+
+2.3   Midplane velocity distribution
+The last ingredient we need from the data is the vertical velocity distribution in the midplane,
+i.e. in the region near z = 0. The vertical velocity of a star is approximated by,
+                                          κµb
+                               w=w +           cos b + vr sin b,                           (2.3)
+                                            $
+
+
+
+                                                    –7–
+where w is the Sun’s vertical velocity that we determine by fitting a Gaussian distribution
+to the data, κ = 4.74 km yr s −1 is a unit conversion constant, µb is the proper motion along
+the galactic latitude b in mas/yr, $ is the parallax in mas, and vr is the heliocentric radial
+velocity in km/s. Following the discussion below Eq. 2.2, we note that for regions near the
+midplane, (1/$) is an unbiased estimator for distance in the formula for vertical velocity.
+      The ‘midplane region’ can be defined by imposing a cut on either the: a) galactic
+latitude |b|, or b) height |z|.4 In our analysis, we follow Refs. [45, 56] in choosing |b| < 5◦ as
+our midplane cut, and are left with 310, 2213 and 2166 A, F and early G stars respectively.
+We use radial velocities reported in DR2, when available, substituting vr by its mean value
+otherwise,
+
+                           hvR i = −u cos l cos b − v sin l sin b − w sin b,                                  (2.4)
+
+where u = 11.1 ± 0.7stat ± 1.0sys km/s and v = 12.24 ± 0.47stat ± 2.0sys km/s as the x- and
+y-component of the Sun’s peculiar velocity [63]. We also note that as sin b  1 (in radians) in
+our midplane region, vr only has a subdominant contribution to w in Eq. 2.3, and the velocity
+uncertainties have a negligible effect on our results. We determine the Sun’s vertical velocity,
+w , by considering the weighted mean of the best-fit Gaussian distribution to each tracer
+population’s vertical velocity data in the midplane region. Our estimate, w = 6.9 ± 0.2
+km/s, is consistent within 1σ of the value quoted in Ref. [63].
+
+
+        0.14                                                           0.25
+                                            A stars                                                A stars
+                                            F stars                                                F stars
+        0.12                                Early G stars                                          Early G stars
+                                                                       0.20
+        0.10
+
+        0.08                                                           0.15
+
+f0(w)                                                        f0(|w|)
+        0.06
+                                                                       0.10
+
+        0.04
+
+                                                                       0.05
+        0.02
+
+        0.00                                                           0.00
+               −40   −20      0        20            40                       0   10      20      30               40
+                           w [km/s]                                                    w [km/s]
+
+Figure 5: Midplane velocity distributions of A, F, and early G stars after subtracting w
+(left). The best-fit Gaussian distribution to f0 (|w|) with error bars that include contributions
+from the statistical uncertainty due to Poisson error and the asymmetry in −|w| and +|w|
+bins (right).
+
+     Subtracting w from the stars’ vertical velocity, we find the distributions are roughly
+symmetric about w = 0. The resultant normalized midplane vertical velocity distribution
+f0 (w) with a w-bin size of 1.5 km/s (see Appendix B for more details about this choice) is
+plotted in the left panel of Fig. 5. We consider the asymmetry between star counts in −|w|
+        4
+    At larger b and consequently larger z, the kinematically hotter stars broaden the distribution [20]. Mean-
+while, simply choosing stars with z = 0 yields poor statistics.
+
+
+
+
+                                                            –8–
+and +|w| bins to be the systematic uncertainty, which may be attributed to non-equilibrium
+effects. We illustrate the magnitude of this uncertainty in the right panel of Fig. 5 by adding
+it in quadrature with the statistical error for every w bin. In practice, however, we propagate
+these errors into the uncertainty of the prediction density as described in Sec. 3.3.
+      We also explore the possibility of using the z-cut [64] in Appendix C by including the
+radial velocities reported in DR2. Unfortunately, DR2 only contains radial velocities for
+approximately 2% of A stars, 53% of F stars, and 62% of early G stars within |z| < 20 pc.
+We check that the percentage of tracers with radial velocity doesn’t change significantly for
+values of |z| . 50 pc. In that case, only including stars with available vr could potentially
+introduce a selection bias, while approximating vr by its mean value might result in large
+errors at higher b (even at low z). Thus, defining the midplane region using a z-cut isn’t a
+viable option currently, but that could change with future data releases.
+
+3       Fiducial Analysis
+
+The main objective of our analysis is to infer the matter content of the solar neighborhood
+by fitting data observed by Gaia to a dynamical model. Sec. 3.1 summarizes the 1D distribu-
+tion function method [15–19] we adopt for constructing the equilibrium number density of a
+tracer population, while the parameters of our gravitational potential model are described in
+Sec. 3.2. We outline the Bayesian statistical framework used for constraining these parameters
+in Secs. 3.3 and 3.4.
+
+3.1      Equilibrium density modeling
+A self-gravitating stellar population with phase space distribution function (DF), f (x, v),
+satisfies the collisionless Boltzmann equation (CBE),
+
+                           Df   ∂f
+                              ≡    + (∇x f ) . v − (∇x Φ) . (∇v f ) = 0.                               (3.1)
+                           Dt   ∂t
+where x and v are the positions and velocities respectively, and Φ is the gravitational potential.
+Assuming axisymmetry for the local solar neighborhood, we use cylindrical polar coordinates
+for the rest of our analysis.
+      At this stage, we make two critical assumptions that allow us to drop the partial time
+derivative term in Eq. 3.1: a) populations of all tracer stars are in equilibrium,5 , and b) the
+potential is time-independent, since the timescale for galactic processes is much longer than
+Gaia’s mission lifetime. Moreover, since we’re interested in the dynamics of stars very close
+to the galactic plane (|z| . 0.5 kpc), we approximate the DF to be of the form,6
+
+                                 f (x, v) ≡ fr,φ (r, vr , φ, vφ ) fz (z, vz ).                         (3.2)
+
+Separability of the DF implies that the motion of a stellar population i in the z-direction is
+independent of {R, φ}, and follows the 1D CBE,
+
+                                           ∂fz,i ∂Φ ∂fz,i
+                                       w        −         = 0.                                         (3.3)
+                                            ∂z    ∂z ∂w
+    5
+     This assumption is central to all dynamical analyses of stars in the MW. We discuss its validity at some
+length in Sec. 5.
+   6
+     In the language of Jeans modeling, this follows from the observed smallness of the so-called ‘tilt term’
+that couples the vertical and radial motions.
+
+
+
+
+                                                     –9–
+which has a general solution of the form, fz,i (z, w) = Fz (Ez ) ≡ Fz w2 /2 + Φ(z) , where the
+                                                                                   
+
+vertical energy is defined as, Ez = 12 w2 + Φ(z).
+      We integrate the DF over vertical velocity (or equivalently, energy) to obtain the stellar
+number density [18],
+                                  Z ∞                     Z ∞
+                         νi (z) =       dw fz,i (z, w) =        dw fz,i (Ez )
+                                   −∞                      −∞
+                                   Z ∞                  p
+                                =2       dwfz=0, i (0, w2 + 2Φ(z))
+                                   Z0 ∞
+                                             f0, i (|w|) w dw
+                                =2 √         p                ,                            (3.4)
+                                       2Φ(z)     w2 − 2Φ(z)
+
+where f0, i (|w|) is the midplane (absolute) velocity distribution of stars of a tracer population
+i, which we determine from Gaia data using the procedure described in Sec. 2.3.
+
+3.2    Local matter content: baryons, halo DM, and a thin DD
+We calculate the gravitational potential due to the total mass density, ρtot , in the solar
+neighborhood through the Poisson equation,
+
+                                   ∂2Φ 1 ∂
+                                                     
+                                                   ∂Φ
+                          ∇2 Φ =        +        r      = 4πGρtot (z),                     (3.5)
+                                   ∂z 2    r ∂r    ∂r
+                          ∂
+where the radial term, 1r ∂r r ∂Φ                                                  7
+                                  
+                               ∂r , effectively contributes a constant mass density with a value
+                −3         3
+(3.4 ± 0.6) × 10 M /pc determined from the TGAS data [65]. We have also assumed that
+the R and z components of the potential can be decoupled such that, Φ(R, z) = Φ(R) + Φ(z).
+      The total mass density contains contributions from Nb baryon components, DM in the
+halo, and other gravitational sources such as a thin DD. The baryon mass density, ρb , is given
+by the Bahcall model that consists of a set of isothermal components for gas, stars, and star
+remnants [66–68],
+                                                Nb
+                                                                    2
+                                                      ρi (0)e−Φ(z)/σz;i
+                                                X
+                                     ρb (z) =                                                          (3.6)
+                                                i=1
+
+where each isothermal component is characterized by its midplane density, ρ(0), and vertical
+velocity dispersion, σz as shown in Table 2.
+     We approximate the contribution of DM density from the smooth halo near the disk,
+ρDM , to be constant. As shown by Eq. (28) in Ref. [24], the DM density at or below 200 pc
+is equal to that in the midplane up to a 2% correction.
+     In models with a thin DD, we assume that the DD is isothermal, axisymmetric, and
+perfectly aligned with the baryonic disk. Following Ref. [69], we choose the parametrization
+of the thin DD density to be,
+                                                           
+                                        ΣDD              z
+                              ρDD (z) =       sech2           ,                        (3.7)
+                                        4hDD          2 hDD
+   7
+    For an axisymmetric system, the radial term is related to Oort’s constants. Strictly speaking, the Oort’s
+constants and consequently the radial term also depend on z. However, since our tracers only explore a small
+volume close to the midplane, the variation is smaller than the measurement uncertainty [24].
+
+
+
+
+                                                  – 10 –
+                               Baryonic components             ρ(0) [M /pc3 ]               σz [km/s]
+                                Molecular gas (H2 )           0.0104 ± 0.00312              3.7 ± 0.2
+                              Cold atomic gas (HI (1))        0.0277 ± 0.00554              7.1 ± 0.5
+                          Warm atomic gas (HI (2))             0.0073 ± 0.0007              22.1 ± 2.4
+                               Hot ionized gas (HII )         0.0005 ± 0.00003              39.0 ± 4.0
+                                      Giant stars             0.0006 ± 0.00006              15.5 ± 1.6
+                                       MV < 3                 0.0018 ± 0.00018              7.5 ± 2.0
+                                     3 < MV < 4               0.0018 ± 0.00018              12.0 ± 2.4
+                                     4 < MV < 5               0.0029 ± 0.00029              18.0 ± 1.8
+                                     5 < MV < 8               0.0072 ± 0.00072              18.5 ± 1.9
+                                MV > 8 (M dwarfs)              0.0216 ± 0.0028              18.5 ± 4.0
+                                     White dwarfs              0.0056 ± 0.001               20.0 ± 5.0
+                                     Brown dwarfs              0.0015 ± 0.0005              20.0 ± 5.0
+
+Table 2: Bahcall model consisting of midplane densities and velocity dispersions for Nb
+baryonic components adapted from Ref. [56]. The values and uncertainties, both observational
+and estimated, for all components have been compiled from Refs. [10, 12, 13, 32]
+
+
+where ΣDD is the surface density and hDD is the disk height. A thin DD aligned with the
+baryonic disk contributes an additional source of attractive potential, which pulls matter
+towards the midplane (see Section 2.2 of Ref. [45] for an example with a toy model). This
+results in a narrowed pinched density profiles of tracers, as illustrated in Fig. 6.
+
+                          0
+
+
+                         −1
+
+
+                         −2
+
+             ln(ν/ν0 )
+                         −3
+
+
+                         −4
+
+                                                      No dark disk
+                         −5
+                                                      ΣDD = 20 M /pc2 , hDD = 10 pc
+
+                              −200    −150   −100     −50        0        50          100      150       200
+                                                               z [pc]
+
+
+Figure 6: The predicted number density of a tracer in a model containing a thin DD with
+surface density ΣDD = 20 M /pc2 and scale height hDD = 10 pc (dashed). For comparison,
+we also plot the prediction of a model with the same matter content but without the thin DD
+(solid).
+
+
+
+
+                                                            – 11 –
+     Thus, to obtain the local gravitational potential, we plug the total matter density, ρtot ,
+given by,
+                                        Nb
+                                                            2
+                                              ρi (0)e−Φ(z)/σz;i + ρDM + ρDD (z).
+                                        X
+                           ρtot (z) =                                                                      (3.8)
+                                        i=1
+
+into Eq. 3.5 and solve the resulting nonlinear, second-order differential equation numerically
+with scipy.integrate.ODEint. We also explicitly check that our results agree with those
+obtained by Refs. [45, 56] using the iterative solver method.
+      To summarize, we calculate the equilibrium number density in the solar neighborhood
+for each tracer population, i.e. A, F, and early G stars, by integrating its midplane velocity
+distribution (constructed from data) as a function of the parameters of our mass model using
+Eq. 3.4. We also apply a Gaussian kernel smoothing to the result to approximate the effect
+of parallax uncertainties that smear the exact positions of stars. However, since the parallax
+uncertainties in DR2 are significantly reduced as compared to TGAS, this procedure only has
+a negligible effect on the predicted density.
+
+3.3    Likelihood, model uncertainties, and priors
+Our model M is characterized by θ = {ψ, ξ}, such that ψ = {ρDM , ΣDD , hDD } are our
+parameters of interest, and ξ are the nuisance parameters which include: midplane densities,
+ρk (0), and velocity dispersion, σz;k , for each baryonic component in the Bahcall model; overall
+normalization for each stellar population, Nν ; height of sun above the midplane, z .
+      For each tracer population, we use the likelihood, pν (d|M, θ), to fit the number density
+constructed from data with our model prediction in the presence of statistical and systematic
+uncertainties. Since each number density bin contains a large number of stars (O(1000) for F
+and early G stars), the likelihood can be reasonably approximated by a Gaussian distribution,8
+                              Nz
+                                                                                      !
+                              Y        1             (ln(Nν νimod (θ)) − ln νidata )2
+              pν (d|M, θ) =       q           exp −               2 (θ)                 ,   (3.9)
+                              i=1   2πσ 2                      2 σln νi
+                                               ln νi
+
+
+where Nz is the number of z bins, νimod is the prediction of a model with parameters θ,
+and νidata is volume complete number density constructed from data, as described in Sec. 2.2.
+Unlike Ref. [56], we do not multiply the likelihood functions for different stellar populations
+in our analysis since doing so assumes all populations are similar and trace the same galactic
+potential independently. This is a rather simplified assumption which ignores the evolution
+history of different stellar types. We comment more on this in Section 4.1.
+     The total uncertainty, σln  2 , is obtained by adding in quadrature the data and the
+                                   νi
+prediction uncertainties,
+                                 2            2
+                                                          mod      2
+                                                                            data
+                                σln νi (θ) = σln νi (θ)          + σln νi           .                    (3.10)
+   8
+     We note that surveys like Gaia (SDSS-SEGUE) measure astrometric (spectrophotometric) parameters of
+individual stars. Thus, an ideal likelihood analysis should involve star-by-star predictions for these parameters
+drawn from a generative process that accounts for the survey selection function. The forward modeling
+approach of Refs. [11, 28, 70], for example, accomplishes this for several different scenarios. For DR2, such
+an analysis has been carried out by Ref. [71] after this work appeared on arXiv, and their results agree with
+ours.
+
+
+
+
+                                                       – 12 –
+The data uncertainty is discussed in Sec. 2.2, whereas the model uncertainty originates from
+uncertainties in the velocity profile fz=0 (|w|). It consists of two sources: a) the statistical
+uncertainty due to the finite sample size, and b) the systematic uncertainty due to possible
+non-equilibrium effects, which we characterize by the difference between fz=0 (w > 0) and
+fz=0 (w < 0) following the treatment in Ref. [56].
+      Direct error propagation from uncertainties of fz=0 (|w|) is difficult due to the large
+number of parameters and their correlations involved. Instead, we estimate the errors by
+bootstrap resampling. The bootstrap is a technique that extracts estimates for the mean
+and standard deviation of a given data set by repeated random sampling with replacement.
+For each stellar type, the raw midplane star data sets are bootstrapped multiple times to
+generate a suite of velocity distributions. For every velocity distribution, we use Eq. (3.4) to
+                                                                                 mod, stat
+derive a density distribution, and estimate the statistical uncertainty, σν2i (z)           , as the
+bin-by-bin variance in the suite of density distributions. More details of the procedure are
+deferred to Appendix D.
+                                                           mod, sys
+      We approximate the systematic uncertainty, σν2i (z)            , by computing the difference
+                                                                                         (w>0)         (w<0)
+between number densities predicted using the velocity distributions fz=0                          and fz=0      for
+every unique value of the gravitational potential,
+
+                          (σν )mod, sys ≈ | ln ν (w>0) (z) − ln ν (w<0) (z)|.                                (3.11)
+
+The total uncertainty for the predicted number density, in every z bin, is then given by,
+                                   mod             mod, stat           mod, sys
+                        σν2i (z)          = σν2i (z)           + σν2i (z)          .                         (3.12)
+
+We find that the systematic uncertainties dominate over statistical ones in our analysis.
+The various sources of uncertainties in our analysis and their corresponding treatment are
+summarized in Table 3.
+
+        Type                 Source                                      Treatement
+                                                                   √
+                            Poisson                                    Nk in the k-th bin
+        ν data        3% dust extinction                                 0.03 × ν data
+                 Gaia systematic uncertainty             ±0.1 mas in $; ±0.1 mas/yr in µαe , µδ
+                 statistical errors of fz=0 (|w|)                  bootstrap resampling
+        ν mod     fz=0 (w > 0) − fz=0 (w < 0)                    | ln ν (+) (z) − ln ν (−) (z)|
+                     parallax uncertainty                      Gaussian kernel smoothing
+
+                 Table 3: Various sources of uncertainties and their treatment.
+
+     Our statistical analysis closely follows that of Ref. [56] with one major difference: the
+treatment of velocity uncertainties. In Ref. [56], normalization of each velocity bin is also
+treated as a nuisance parameter, which adds an additional 20-30 parameters to the analysis.
+In our approach, we propagate the velocity uncertainties, both statistical, estimated using
+bootstrap resampling, and systematic, into the prediction uncertainties. We check that these
+two methods yield similar results for TGAS data.
+
+
+
+
+                                                     – 13 –
+      Finally, to obtain the posterior distribution, we assume uniform prior distributions for
+all parameters except the baryonic ones; their priors follow a Gaussian distribution,
+                                                                                        !
+                  Nb                              2                                      2
+                                       (ρk − ρ̄k )                      (σz,k − σ̄z,k ) 
+                                                   
+                     q 1                                    1
+                 Y
+  pb (ζ|M) =                    exp −        2
+                                                                    exp −                     ,
+                                                                              2 σσ2z,k
+                                                         q
+                         2πσρ2k           2 σρk            2πσσ2z;k
+                 k=1
+
+                                                                                        (3.13)
+where the mean and variance for each component are taken from Table 2. We summarize the
+details and ranges of assumed prior distributions for all parameters, θ, used in our analysis
+in Table 4.
+
+                      Parameters     Prior type          Range              Total
+                      ρk (0), σz;k   Gaussian           Eq. (3.13)           24
+                          Nν         Uniform            [0.9, 2.0]           3
+                          z          Uniform       [−30.0, 30.0] pc          1
+                         hDD         Uniform        [0.0, 100.0] pc          1
+                          ρDM        Uniform      [0.0, 0.06] M      /pc3    1
+                         ΣDD         Uniform      [0.0, 30.0] M /pc2         1
+
+                       Table 4: Prior distributions of model parameters.
+
+
+3.4     Sampling the posterior
+The posterior probability density function (simply the posterior henceforth) of the parameters
+can be defined using Bayes’ theorem,
+
+                                              p(d|M, θ)p(θ|M)
+                                 p(θ|M, d) =                     ,                 (3.14)
+                                                   p(d|M)
+where the numerator is given by Eqs. (3.13) and (3.9) and the denominator, referred to in
+the literature as ‘marginal likelihood’ or ‘evidence’, is defined as
+                                         Z
+                              p(d|M) =       p(d|M, θ)p(θ|M) dθ.                   (3.15)
+
+     We sample the posterior in Eq. (3.14) with the Markov Chain Monte Carlo (MCMC)
+sampler emcee9 for estimating values of parameters and determining correlations between
+them. To draw samples from a d-dimensional parameter space, emcee implements the affine-
+invariant ensemble sampling algorithm of Ref. [72] that is based on simultaneously evolving
+an ensemble of N walkers. Since each walker in the ensemble independently samples the
+posterior, emcee is naturally suited for parallel computing on multicore systems (see Ref. [73]
+for more details).
+     In our implementation, we let (100-300) walkers run for (15000-25000) steps depending
+on the stellar type and components (ρDM or ρDM + thin DD) of the local DM content. These
+numbers are chosen to achieve an acceptance fraction af ≈ 0.3 [74] for each walker. After
+accounting for the ‘warm-up’ time, ∼4000 steps, of the ensemble, we obtain >         6
+                                                                             ∼ 2 × 10 samples
+on average for each iteration of our analysis.
+  9
+      http://dfm.io/emcee/current/
+
+
+
+
+                                               – 14 –
+4        Results
+
+4.1       Local DM density
+We summarize the results from the posterior sampling for the analysis with baryons and a
+constant halo DM density ρDM in Table 5. The median value of ρDM obtained through our
+kinematic analysis of A and early G stars are similar to each other, while using F stars yields
+a significantly higher value. We also note that our value of ρDM determined using A and
+early G stars is consistent with previous measurements made using SDSS/SEGUE G star
+data [75], ρDM = 0.012+0.001           3                                +0.025
+                         −0.002 M /pc (within 1σ) and ρDM = 0.008−0.025 M /pc (within
+                                                                                     3
+
+2σ), by Refs. [26] and [11] respectively.
+      While the 95% credible region (CR) for measurements of ρDM with A, F, and early G
+stars in Fig. 15 overlap and seem consistent with each other at the 2σ level, we emphasize
+that each tracer population doesn’t necessarily probe the same galactic environment due to
+differences in age and star formation history.10 Consequently, without appropriate modeling
+of all prior information in a (hierarchical) Bayesian framework, results derived from different
+tracers should be compared with caution.
+
+            Stellar type   ρDM [M /pc3 ]       ρDM [GeV/cm3 ]         ρb [M /pc3 ]       z [pc]
+              A stars        0.016+0.010
+                                  −0.010           0.608+0.380
+                                                        −0.380        0.088+0.007
+                                                                           −0.007       8.80+3.74
+                                                                                            −4.23
+              F stars        0.039+0.008
+                                  −0.008           1.482+0.304
+                                                        −0.304        0.089+0.007
+                                                                           −0.007       2.04+2.84
+                                                                                            −3.13
+              G stars        0.011+0.010
+                                  −0.009           0.418+0.380
+                                                        −0.342        0.087+0.007
+                                                                           −0.007      −8.82+5.32
+                                                                                            −4.64
+
+Table 5: Median posterior values with 1σ errors for the local densities of baryons ρb and
+halo DM ρDM , and height of the sun above the midplane z . The halo DM density ρDM is
+expressed in both M /pc3 (astronomical unit) and GeV/cm3 (particle physics unit), where
+1 M /pc3 ≈ 38 GeV/cm3 .
+
+
+4.2       Constraints on a thin DD
+We perform a full MCMC scan of the posterior after including a thin DD component along
+with local density of halo DM ρDM , and plot the marginalized posteriors for thin DD parame-
+ters, ρDM , and the total midplane baryon density ρb in Figs. 16–18. On the other hand, Fig. 7
+gives the constraints on thin DD parameters after marginalizing over the uncertainties of the
+baryon mass model and asymmetries in velocity distribution. Given the exploratory nature
+of our analysis, this may be interpreted, at best, as an approximate upper bound on the thin
+DD parameters.
+      We also use the constraint on ΣDD to estimate the amount of dissipative DM in the
+galaxy. Following Ref. [33], we relate the locally measured surface density of a thin DD to
+DD , the fraction of the total DM mass in the MW that has dissipative self-interactions and
+forms a DD,
+                                                   gal
+                                             DD MDM
+                              ΣDD (R ) =         2     exp (−R /RDD )                                    (4.1)
+                                              2πRDD
+    10
+    For instance, each tracer type could have different sensitivity to non-equilibrium features of the MW [60].
+Propagating these uncertainties to our estimates for the baryon and DM densities requires a detailed study
+using simulations, which is beyond the scope of this paper.
+
+
+
+
+                                                   – 15 –
+                                                      DR2
+                                20.0                                        0.025
+
+
+                                17.5
+                                                                            0.020
+                                15.0
+
+
+                                12.5
+
+
+
+                 ΣDD [M /pc2]
+                                                                     A      0.015
+                                            F
+                                10.0                                            DD
+                                                 G
+                                                                            0.010
+                                 7.5
+
+
+                                 5.0
+                                                                            0.005
+                                 2.5
+
+
+                                 0.0
+                                       20       40              60   80   100
+                                                     hDD [pc]
+
+
+Figure 7: 95% CR upper limit contours for surface density ΣDD and scale height hDD of a
+thin DD for A (blue), F(green), and G (orange) stars using data from DR2 (left panel) and
+TGAS (right). The upper bound for the fraction of the total DM mass in the MW that could
+exist in a DD, DD , is also shown on the right side of each plot for reference.
+
+
+         gal
+where MDM    ∼ 1012 M is the total DM mass in the MW, R ∼ 8.1 kpc is the Sun’s distance
+from the galactic center, and the scale radius of the thin DD is assumed to be equal to that
+of baryons, RDD = 2.15 kpc [11]. As indicated in Fig. 7, only ∼1% of the total DM mass
+could reside in a thin DD.
+
+5     Discussion
+
+Our main results from the MCMC sampling of the posterior, e.g. for A stars, imply that
+the local DM content can accommodate a constant density ρDM = 0.016 ± 0.010 M /pc3 ,
+                                                                   +3.75
+or ρDM = 0.008+0.011           3                                                2
+                 −0.008 M /pc and a thin DD with ΣDD = 2.99−2.18 M /pc , the precise
+value depending on hDD . We observe that the 1σ uncertainties are fairly large in both
+cases and suggest high systematic noise in our determination. We discuss different sources of
+the uncertainties in Secs. 5.1-5.3 and comment on the robustness of our dynamical analysis.
+Lastly, we cross-validate our statistical setup by repeating our analysis with TGAS data in
+the same galactic volume, and comparing the results with those from DR2 in Sec. 5.4.
+
+5.1    Effect of volume cuts
+We vary the cylinder radius R and find that the tracers’ vertical density distributions do not
+vary much for R . 200 pc. Increasing R from 150 pc to 250 pc, though, results in an overall
+broadening of the density distributions. Ref. [56] attributed a similar trend in TGAS data to
+the so-called ‘Eddington’ bias, i.e: higher parallax uncertainties of distant stars could lead to
+a smearing of the density distributions at large |z|. However, as shown in Fig. 13, the parallax
+uncertainties are significantly reduced in DR2 and remain small at large |z| even when R is
+increased to 250 pc. Thus, it seems unlikely that the broadening of the density distributions
+is due to the ‘Eddington’ bias. A more plausible option is the presence of local disequilibrium
+
+
+
+
+                                                     – 16 –
+effects as we discuss in the following section. We note that our procedure would result in a
+lower local DM density estimate for a broader density distribution, since additional matter
+tends to pinch the predicted density profile as shown in Fig. 6.
+
+5.2    Disequilibria in the solar neighborhood?
+An implicit assumption in our modeling of the tracer density profile is that the local neigh-
+borhood is axisymmetric and the stellar disk is in dynamic equilibrium. However, growing
+evidence in DR2 data for: asymmetry in the vertical number counts [76, 77]; vertical waves in
+the disk at Sun’s position [78–80]; kinematic substructure [81–83], warrants a closer look at
+sources of disequilibria in the solar neighborhood. We defer searches of local disequilibria and
+the corresponding revision of our traditional kinematic method outlined in Sec. 3.1 to future
+work. Presently, we only approximate the effect of non-equilibrium behavior by propagating
+asymmetries in the midplane velocity distribution to the errors in the predicted density.
+
+5.3    Degeneracy between ρDM and ρb
+The marginalized posterior for each tracer in Fig. 15 indicates a strong degeneracy between
+measurements of ρb and ρDM . As proposed by Ref. [66], and recently implemented on simu-
+lated data by Ref. [64], this degeneracy can only be broken if any kinematic analysis includes
+the density falloff at larger |z| away from the midplane. Since most of the baryonic matter
+is confined to the stellar disk with a scale height O(kpc), any excess matter that causes the
+falloff can be attributed to (at least to leading order) to DM, allowing a more precise mea-
+surement of ρDM with smaller error bars. On the other hand, this introduces another layer of
+complexity as the coupling between the radial and vertical motions is no longer negligible at
+|z| >
+    ∼ 0.5 kpc and must be modeled by simultaneously fitting to the velocity data [25, 84].
+      Meanwhile, the highly diagonal posterior in the ρDM –ΣDD plane combined with identi-
+cally flat posterior in the ρDM –ρb and ΣDD –ρb planes of Figs. 16–18 implies that introducing
+a thin DD in our analysis merely shifts some of the DM density from ρDM while increasing its
+relative error. Thus, to set realistic constraints on, or seek evidence for, DM density in the
+thin DD (or equivalently some form of extended substructure near the midplane) using our
+procedure, we would need more physical insight to break the degeneracy between different
+distributions of DM.
+      As the discussion above indicates, our results are dominated by systematic errors stem-
+ming from an approximate modeling of non-equilibrium behavior and a strong degeneracy
+between different matter components near the midplane. We note that these errors, in the
+context of the 1D distribution function method, may not be reduced significantly in future Gaia
+data releases.
+
+5.4    Comparison of constraints between DR2 and TGAS
+We plot the 95% CR upper limit contours for the thin DD parameters using data from DR2
+and TGAS in Fig. 7 and Fig. 8 respectively. Both sets of exclusion curves are significantly
+stronger than previous results based on the Hipparcos catalog [45]. However, there are obvious
+differences between our results derived using DR2 and TGAS data.11
+      Using TGAS data, early G stars exclude ΣDD ≈ 5 M /pc3 depending on hDD while
+A stars set the weakest constraint. On the other hand, using DR2 data, A stars exclude
+ΣDD >                  3
+      ∼ (5 − 12) M /pc while the weakest constraint is due to F stars.
+  11
+   Our TGAS results derived using a fully Bayesian analysis roughly agree with those of Ref. [56]; see left
+panel of their Fig. S17 in particular.
+
+
+
+
+                                                 – 17 –
+                                                         TGAS
+                                  20.0                                        0.025
+
+                                  17.5
+                                                                              0.020
+                                  15.0
+
+
+
+
+                   ΣDD [M /pc2]
+                                  12.5              A                         0.015
+                                  10.0                                            DD
+                                   7.5          F                             0.010
+                                                                   G
+                                   5.0
+                                                                              0.005
+                                   2.5
+
+                                   0.0
+                                           20       40          60     80   100
+                                                        hDD [pc]
+
+                                  Figure 8: Same as Fig. 7 but using TGAS data.
+
+
+
+      Naively, we expect that there would be an (modest) improvement in the constraints from
+DR2 data compared to those from TGAS due to increased statistics (about a factor of ∼2.5)
+and decreased parallax uncertainties (due to our choice of binning, these only affect the high z
+bins). We check numerically that if we take central values from TGAS and uncertainties from
+DR2 to generate mock distributions for the tracers, the derived constraints on thin DD are
+indeed similar to those from TGAS data with minor improvements. Given this expectation,
+it seems counterintuitive that our DR2 constraints are different from the TGAS ones.
+      Before discussing possible origins of the differences for each tracer population, we note
+that adding more matter pinches the density profile of tracer stars, such as the effect of thin
+DD discussed in Sec. 3.1. Thus, the narrower the profile from data or broader the predicted
+density is, the more matter that can be included, and weaker the constraint on local DM
+content.
+      The significant weakening of constraints for F stars stems from small differences in the
+midplane velocity distributions, as shown in the right panel of Fig. 9. The DR2 velocity
+distribution is slightly broader. We verify that this trend in the velocity distribution is not
+an artifact of our choice of the midplane latitude cut or the binning of the velocity data.
+Although velocity (and vertical density) profiles from TGAS and DR2 are consistent with
+each other within uncertainties, the predicted density distribution with DR2 data is broader
+than that with TGAS data with fixed model parameters (one example is shown in the left
+panel of Fig. 9). As a result, a higher density in DM components is required to fit the predicted
+density of F stars to the DR2 number density profile for a fiducial baryon mass model.
+      We also present the volume complete number density profiles and midplane velocity
+distributions for A and early G stars in Fig. 10 and Fig. 11. From the plots, we note that
+all the distributions based on TGAS and DR2 data for both these tracers are also consistent
+within uncertainties, yet there are subtle differences. The velocity distributions using DR2
+data are smoother compared to the TGAS ones with smaller systematic uncertainties from
+asymmetry between negative and positive velocity data.
+      The constraint from early G stars in the DR2 data set gets weaker due to both a slightly
+narrower density profile, and a slightly broader predicted density. However, in the case of
+
+
+
+
+                                                         – 18 –
+                                                F stars
+
+
+                                                                                                             TGAS
+            0.0                                                                                              Gaia DR2
+                                                                0.08
+           −0.2
+                                                                0.06
+
+ln(ν/ν0)
+           −0.4
+                                                      f0(|w|)
+           −0.6                                                 0.04
+
+
+           −0.8                                                 0.02
+                             TGAS
+           −1.0              Gaia DR2
+                                                                0.00
+              −200   −100     0         100   200                      0   10        20           30             40
+                            z [pc]                                                 w [km/s]
+
+Figure 9: F stars: (left) volume complete number density profiles overlaid with the predicted
+density derived using the mean TGAS and DR2 velocity distributions assuming fiducial values
+for baryons and ρDM = 0.02 M /pc3 ; (right) midplane velocity distributions with interpolated
+fits to the data. Note that the TGAS velocity distribution has a bin size of 2 km/s while DR2
+bin size is 1.5 km/s.
+
+                            A stars                                               Early G stars
+
+            0.0                                                  0.0
+
+           −0.5                                                −0.1
+
+
+
+ln(ν/ν0)                                            ln(ν/ν0)
+           −1.0                                                −0.2
+
+
+           −1.5                                                −0.3
+
+                                                               −0.4
+           −2.0
+                             TGAS                                                     TGAS
+                                                               −0.5
+           −2.5              Gaia DR2                                                 Gaia DR2
+
+              −200   −100     0         100   200                  −200    −100           0            100            200
+                            z [pc]                                                   z [pc]
+
+Figure 10: Comparison of volume complete number density profiles in TGAS and DR2 data
+for A (left) and G (right) stars.
+
+
+A stars, the constraint gets considerably stronger at high hDD due to the reduction in the
+systematic errors from the asymmetry in the midplane velocity distribution.
+     We reiterate that Gaia DR2 should be regarded as a different data catalog from TGAS,
+rather than just a statistical improvement over it [2]. DR1 incorporated positions from the
+Tycho-2 catalog to generate the five-parameter astrometric solution in the TGAS catalog,
+whereas, the DR2 catalog is independent from any other external catalogs with its own self-
+consistent astrometric solution. Any comparison between the constraints on local DM content
+
+
+
+
+                                              – 19 –
+                           A stars                                               Early G stars
+                                                                 0.08
+          0.20                            TGAS                                                        TGAS
+                                          Gaia DR2               0.07                                 Gaia DR2
+
+                                                                 0.06
+          0.15
+                                                                 0.05
+
+f0(|w|)   0.10                                         f0(|w|)   0.04
+
+                                                                 0.03
+
+          0.05                                                   0.02
+
+                                                                 0.01
+          0.00                                                   0.00
+                 0   10    20        30       40                        0   10      20           30       40
+                          w [km/s]                                                w [km/s]
+
+Figure 11: Comparison of midplane velocity distributions in TGAS and DR2 data for A
+(left) and G (right) stars. Note that the TGAS velocity distribution has a bin size of 2 km/s.
+
+
+from TGAS and DR2 should be made bearing this difference in mind.
+
+6          Conclusions and Outlook
+
+We apply the 1D distribution function method to Gaia DR2 and use stellar kinematics in the
+solar neighborhood to constrain the local DM density and properties of a thin DD aligned
+with the baryonic disk by performing our analysis within a Bayesian framework. We adopt
+young A, F, and early G stars as tracers as they have shorter equilibration timescales and
+consequently are expected not to be strongly affected by disequilibria. Using A stars gives
+an estimate of ρDM = 0.016 ± 0.010 M /pc3 and sets the strongest constraint on the thin
+DD, excluding ΣDD >                     2
+                       ∼ (5-12) M /pc depending on the scale height with 95% confidence.
+This upper bound is used to constrain the amount of dissipative DM in the galaxy: a thin
+DD with ΣDD <                 2
+                ∼ 12 M /pc and a scale radius ∼3 kpc contains <       ∼ 1% of the total DM mass
+in the Milky Way [33]. While we obtain similar results from early G stars, F stars seem to
+prefer a higher value of the local DM content. Even though the distributions derived from
+DR2 are consistent with those from TGAS data within uncertainties, the allowed DM density
+and parameters of DD model are quite different for all tracers. In light of these results, we
+address the origins of the differences and discuss the robustness of our kinematic analysis.
+      Our results also suggest that we need a better understanding of the physical origin of the
+systematic uncertainties, which we include in our analysis to account for the asymmetry in the
+midplane velocity distributions of tracers. One possibility is that with complete data for radial
+velocities, we could define the midplane region using the z-cut instead of the b-cut and obtain
+a more precise determination of the velocity distribution. Another possibility is to take a
+closer look at local disequilibria and their effects on traditional kinematic methods. Although
+we do not find any statistically significant evidence for non-equilibrium in the vertical density
+and velocity distributions in our samples, several analyses based on DR2 seem to suggest
+various sources of disequilibria at distances larger than the heliocentric cylinder we consider.
+In terms of baryon modeling, it could be useful to find a self-consistent, data-driven approach
+to determine the baryon distributions instead of assuming the isothermal Bahcall model. One
+
+
+
+
+                                                     – 20 –
+way to achieve this would be to construct the mass density for stars directly from the data
+rather than treating it as an isothermal disk.
+     For a more precise determination of the local DM density, a dynamical analysis could
+be performed using tracers at heights greater than the scale height of the stellar disk to
+minimize the latent degeneracy between baryons and DM. However, besides modeling effects
+of disequilibria, an analysis at larger scale height has to go beyond the 1D method and
+must include terms that couple the motions of tracers in different directions. We also see a
+degeneracy between parameters of ordinary DM and thin DD in the marginalized posteriors
+obtained through MCMC sampling. To break the degeneracy, we would need to distinguish
+between their effects on tracers by developing new observables and modeling priors that reflect
+these differences.
+
+Acknowledgments
+
+We thank Ian Dell’Antonio, Eric Kramer, Tongyan Lin, Matt Reece, Ben Safdi, and Chih-
+Liang Wu for useful discussions. JB would like to thank Nicolas Garcia-Trillos and Alexander
+Fengler for extended conversations on MCMC sampling methods and Bayesian statistics. We
+are also grateful to the anonymous referee for their many insightful comments that greatly
+enriched the manuscript. This project was finished in part at the 2019 Santa Barbara Gaia
+Sprint, hosted by the Kavli Institute for Theoretical Physics (KITP) at the University of
+California, Santa Barbara.
+      This work has made use of data from the European Space Agency (ESA) mission Gaia
+(https://www.cosmos.esa.int/Gaia), processed by the Gaia Data Processing and Analysis
+Consortium (DPAC, https://www.cosmos.esa.int/web/Gaia/dpac/consortium). Funding
+for the DPAC has been provided by national institutions, in particular the institutions partic-
+ipating in the Gaia Multilateral Agreement. It also makes use of data products from the Two
+Micron All Sky Survey (2MASS), which is a joint project of the University of Massachusetts
+and the Infrared Processing and Analysis Center/California Institute of Technology, funded
+by the National Aeronautics and Space Administration (NASA) and the National Science
+Foundation (NSF). The results in this work were computed using the following open-source
+software: IPython [85], matplotlib [86], scipy [87], numpy [88], astropy [89], gala [90],
+gaia_tools [58], and emcee [73].
+      This research was supported in part at KITP by the Heising-Simons Foundation and
+the National Science Foundation under Grant No. NSF PHY-1748958. JF is supported by
+the DOE grant DE-SC-0010010 and NASA grant 80NSSC18K1010.
+
+
+
+
+                                            – 21 –
+A     Constructing a Volume Complete Density
+
+We use the gaia_tools package to determine the: a) selection function by comparing the
+number counts in Gaia DR2 to those in 2MASS, and b) effective volume completeness in each
+z bin using the Poisson likelihood approach introduced by Ref. [58]. We modify the default
+color-magnitude modeling in gaia_tools, and discuss, in Appendix A.1, its effect on the
+completeness of the DR2 selection function. We highlight the important parts of the Poisson
+likelihood approach in Appendix A.2.
+
+A.1    Color-magnitude modeling
+The completeness for TGAS stars has a strong color dependence and drops off sharply at
+faint magnitudes, J & 12. To account for this effect, gaia_tools calculates the completeness
+in each bin as a function of a color-dependent magnitude, JG . However, as the faint end of
+DR2 extends well beyond J∼12, we use the J magnitude instead of JG in our computation.
+
+                    Effective completeness                         Effective completeness
+                                                                                                  1.0
+              12                                             12
+                                                   0.8                                            0.8
+              10                                             10
+
+               8                                   0.6        8                                   0.6
+          J                                              J
+               6                                              6
+                                                   0.4                                            0.4
+               4                                              4
+                                                   0.2                                            0.2
+               2                                              2
+
+               0                                   0.0        0                                   0.0
+                   0.0        0.5            1.0                  0.0        0.5            1.0
+                           J − Ks                                         J − Ks
+
+
+Figure 12: The effective completeness in color-magnitude space. Left: 3 J − Ks bins. Right:
+20 J − Ks bins.
+
+     As a consistency check, we also vary the J −Ks color in the range −0.05 < J −Ks < 1.05
+from the default 3 bins to 20 bins, as shown in Fig. 12, and find that the variation on our
+number density profiles (through the effective volume completeness) is . 2%. Thus, we
+conclude that the choice of binning has a negligible effect on the completeness of the selection
+function.
+
+A.2    Poisson process likelihood
+Given the the selection function of a survey, S(J, J − Ks , α, δ), which indicates the fraction of
+stars observed at any (J, J − Ks , α, δ), we are interested in determining the volume complete
+number density, ν? (X, Y, Z), for a particular stellar population. An important ingredient that
+relates the completeness in (J, J − Ks , α, δ) space to real (X, Y, Z) space is the (de-reddened)
+color-(absolute) magnitude density (CMD), ρCMD (MJ , [J −Ks ]0 |X, Y, Z). In case of Gaia, the
+CMD may be determined empirically using an external survey like 2MASS that is (almost)
+complete over the entire sky and a three-dimensional extinction map (AJ , E(J −Ks ))[X, Y, Z].
+
+
+
+
+                                                   – 22 –
+      The number density, ν? (X, Y, Z), is determined by assuming that the observed stars are
+independent samples of an inhomogeneous Poisson process. This process is characterized by
+its rate function, λ(O|θ), that relates the observables, O ≡ {X, Y, Z, J, J − Ks }, measured by
+the survey to the model parameters θ,
+                     λ(O|θ) = ν? (X, Y, Z|θ) × |J(X, Y, Z; α, δ, D)|
+                                                                                                    (A.1)
+                                ρCMD (MJ , [J − Ks ]0 |X, Y, Z) S(J, J − Ks , α, δ),
+
+where |J(X, Y, Z; α, δ, D)| = D2 cos δ is the Jacobian for the coordinate transformation. Drop-
+ping all terms independent of θ, the likelihood of this process, L(θ), can be written as,
+                  X             Z
+        ln L(θ) =     λ(Oi |θ) − dOλ(O|θ)
+                      i
+                     X                             Z                                                (A.2)
+                                                               2
+                =         ν? (Xi , Yi , Zi |θ) −       dD D dα dδ cos δν? (X, Y, Z|θ) S(α, δ, D),
+                      i
+
+where S(α, δ, D) is the effective selection function as defined by Ref. [58],
+                    Z
+      S(α, δ, D) = dJ d(J − Ks ) ρCMD (MJ , [J − Ks ]0 |X, Y, Z) S(J, J − Ks , α, δ).               (A.3)
+
+We can interpret the effective selection function as the fraction of stars of a stellar population
+at a distance D and position (α, δ) observed by the survey.
+      With these ingredients in place, we can estimate the true underlying (binned) stellar den-
+sity, nk , from the observed number counts of stars, Nk , in non-overlapping bins, Πk (X, Y, Z).
+Thus, plugging in a parametric density law,
+                                               X
+                              ν? (X, Y, Z|θ) =    nk Πk (X, Y, Z)                            (A.4)
+                                                           k
+
+into the expression for the log-likelihood in Eq. A.2, we obtain,
+      ln L({nk }k )
+         X X                         Z                  X
+      =     ln      nk Πk (X, Y, Z) − dD D2 dα dδ cos δ   nk Πk (X, Y, Z) S(α, δ, D)
+          i      k                                                        k                         (A.5)
+          X                      Z                                           
+                                          2
+      =        Nk ln nk − nk          dD D dα dδ cos δ Πk (X, Y, Z) S(α, δ, D) ,
+          k
+
+where the second equality follows from considering all possible combinations of i stars dis-
+tributed in k identical bins. The maximum likelihood estimate (MLE) can be calculated
+analytically by differentiating the above equation with respect to nk and setting the k deriva-
+tives to zero. We find that
+                                                    Nk
+                          n̂k = R       2
+                                                                             ,                      (A.6)
+                                    dD D dα dδ cos δ Πk (X, Y, Z) S(α, δ, D)
+which can be written more compactly   by defining Ξ(Πk ) as the effective volume completeness
+per bin and Ξ(Πk ) V (Πk ) = Πk d3 x S(α, δ, D) as the effective volume,
+                            R
+
+                                                           Nk
+                                            n̂k =                     .                             (A.7)
+                                                       Ξ(Πk ) V (Πk )
+
+
+
+                                                         – 23 –
+The uncertainty in our estimate is easily evaluated by calculating the Fisher information,
+                            s
+                                ∂ 2 ln L({nk }k )           n̂k
+                             −               2
+                                                  ≡ σn̂k = √ .                          (A.8)
+                                   ∂({nk }k )                Nk
+
+B            Uncertainty Analysis
+
+In this section, we discuss our choices of bin sizes in the vertical height z and velocity w for
+constructing the number density and midplane velocity distribution respectively.
+
+                         R = 150 pc                                 R = 200 pc                                 R = 250 pc
+        10                                           10                                         10
+                   A stars                                    A stars                                    A stars
+                   F stars                                    F stars                                    F stars
+             8                                            8                                          8
+                   Early G stars                              Early G stars                              Early G stars
+
+             6                                            6                                          6
+ σ|z| [pc]                                    σ|z| [pc]                                  σ|z| [pc]
+             4                                            4                                          4
+
+
+             2                                            2                                          2
+
+
+             0                                            0                                          0
+                   50        100      150   200               50        100      150   200               50        100      150    200
+                           |z| [pc]                                   |z| [pc]                                   |z| [pc]
+
+
+Figure 13: 1σ spread in the uncertainty (at leading order) of z as a function of z for different
+radial cuts.
+
+
+             The uncertainty in z is given by,
+
+                                       sin b 2 2
+                                                   cos b 2        2 sin b cos b 
+                        2      2                                 2                      2
+                      δz (kpc ) =              σ$ +            σ b +                   σ$b                                        (B.1)
+                                        $2             $                    $3
+which is dominated by the parallax uncertainty due to the extra factor of $ in unit of
+mas ≈ 10−9 in the first term. We plot the uncertainty in z (at leading order) as a function of
+z for all tracers in Fig. 13. Although the maximum uncertainty is ≈ 10 pc, we conservatively
+adopt 20 pc as the bin size to account for the underestimation of the reported uncertainties
+in DR2 [3].
+      Similarly, the uncertainty in w is
+                        σ 2  σ 2  σ 2
+                           w        $        µb
+                               =         +       + subleading terms.                     (B.2)
+                          w        $        µb
+
+where the omitted terms are suppressed by 10−2 when |b| < 5◦ . Around the midplane,
+σµb /µb <
+        ∼ 0.2, which translates to σw ≈ 1.5 km/s. Therefore, we pick 1.5 km/s as the bin size
+for obtaining the f0 (w) profile.
+
+C            Variation of Midplane Cut
+
+The midplane velocity profile is required in Eq. (3.4) to predict the tracer density for a given
+mass model. With partial radial velocity measured by Gaia, we define the midplane in two
+ways: one is putting a cut on the galactic latitude |b| < 5o while the other is requiring
+
+
+
+
+                                                                   – 24 –
+|z| < (20 − 50) pc [64]. For both samples, we approximate vr by its mean value hvr i in
+Eq. (2.4) when there is no vr data available for a star. However, for the z-cut sample, we
+discard stars with |b| > 5o that do not have any vr data.
+     The midplane velocity distributions of the z- and b-cut samples are presented in Fig. 14
+and agree with each other within 1σ uncertainties. We note that the uncertainties in the
+midplane velocity data using z-cut are smaller than those using the b-cut. The uncertainties
+are dominated by systematics due to differences between f (w > 0) and f (w < 0). It turns
+out that the z-cut data is more symmetric about z = 0 and thus has smaller uncertainties.
+In our analysis, we still use the b-cut sample, since there could be a potential selection bias
+in the z-cut sample, in which we discard a considerable fraction of stars with five-parameter
+astrometric solutions because we don’t know their radial velocities.
+                              A stars                                           F stars                                           G stars
+              0.20                            z−cut                                             z−cut                                             z−cut
+                                              b−cut                                             b−cut                                             b−cut
+                                                                0.08                                              0.06
+              0.15
+                                                                0.06
+
+    f0(|w|)                                           f0(|w|)                                           f0(|w|)
+                                                                                                                  0.04
+              0.10
+                                                                0.04
+
+              0.05                                                                                                0.02
+                                                                0.02
+
+              0.00                                              0.00                                              0.00
+                     0   10     20       30      40                    0   10     20       30      40                    0   10     20       30      40
+                              w [km/s]                                          w [km/s]                                          w [km/s]
+
+
+Figure 14: Midplane velocity distribution f0 (|w|) for A (left), F (middle) and early G (right)
+stars. The distributions obtained using the |b| < 5o cut (green) and the |z| < 20 pc cut (blue)
+are consistent within error bars.
+
+       We also check the isothermality of the tracers by fitting the midplane data with Gaussian
+distributions. From the fits, we find that the velocity dispersions σz are 5.7, 11.2, 15.0 km/s
+for A, F and early G stars respectively. The χ2 of the fits are 11.9, 20.3 and 35.4 for 16, 28, and
+28 degrees of freedom respectively. The Gaussian (isothermal) distributions give reasonable
+fits for A and early G stars, but not as good a fit for F stars. In our analysis, we always use
+the distributions from data and never their Gaussian fits.
+
+D             Bootstrap Statistics
+
+Bootstrap resampling is a standard statistical technique to acquire the mean and uncertainty
+when there is only one data set available and analytic propagation of uncertainty cannot be
+performed easily. The basic idea of the method is described below.
+      Suppose we have a set of N stars labelled as SN = {X1 , X2 , · · · , XN }. Each star
+Xk is associated with 6 dimensional phase space coordinates denoted by θk . In bootstrap
+resampling, we make random draws with replacement star-by-star from the original set of
+stars SN . This generates a new data set SeN of the same size N , with each star labeled as X
+                                                                                            ek .
+Since the draws are with replacement, we expect (many) duplicated coordinate values in the
+new data set, such as Xek = θk and Xek+1 = θk , for large N . Therefore, SeN 6= SN in general.
+
+
+
+
+                                                                            – 25 –
+                                                                       (1)   (2)        (B)
+     We resample B times the original data set SN , labeling them as SeN , SeN , ..., SeN . The
+variance of the underlying distribution in each z bin can be estimated as follows,
+                            B                                               B
+                         1 X (k)                                        1 X (k)
+             eν2 (z) =
+             σ               ν (z) − νe(z))2 ,
+                            (e                          where   νe(z) =    νe (z).             (D.1)
+                         B                                              B
+                           k=1                                             k=1
+
+                                                eν2 → σν2 [91].
+For sufficiently large B, it can be proven that σ
+      In propagating velocity uncertainties into prediction uncertainties via the bootstrap
+method, we choose B = 1000 as a compromise between computational time and statistical
+precision. We take the bin-by-bin variance of all the predictions based on the 1000 resampled
+                                                                    mod, stat
+velocity sets as the estimator for the statistical uncertainty, σν2            , of the predicted
+profile ν mod .
+
+References
+ [1] Gaia Collaboration, T. Prusti, J. H. J. de Bruijne, A. G. A. Brown, A. Vallenari, C. Babusiaux
+     et al., The Gaia mission, A&A 595 (Nov., 2016) A1, [1609.04153].
+ [2] Gaia Collaboration, A. G. A. Brown, A. Vallenari, T. Prusti, J. H. J. de Bruijne, C. Babusiaux
+     et al., Gaia Data Release 2. Summary of the contents and survey properties, ArXiv e-prints
+     (Apr., 2018) , [1804.09365].
+ [3] L. Lindegren, J. Hernandez, A. Bombrun, S. Klioner, U. Bastian, M. Ramos-Lerate et al., Gaia
+     Data Release 2: The astrometric solution, ArXiv e-prints (Apr., 2018) , [1804.09366].
+ [4] D. W. Evans, M. Riello, F. De Angeli, J. M. Carrasco, P. Montegriffo, C. Fabricius et al., Gaia
+     Data Release 2: Photometric content and validation, ArXiv e-prints (Apr., 2018) ,
+     [1804.09368].
+ [5] M. Riello, F. De Angeli, D. W. Evans, G. Busso, N. C. Hambly, M. Davidson et al., Gaia Data
+     Release 2: processing of the photometric data, ArXiv e-prints (Apr., 2018) , [1804.09367].
+ [6] P. Sartoretti, D. Katz, M. Cropper, P. Panuzzo, G. M. Seabroke, Y. Viala et al., Gaia Data
+     Release 2: Processing the spectroscopic data, ArXiv e-prints (Apr., 2018) , [1804.09371].
+ [7] M. Cropper, D. Katz, P. Sartoretti, T. Prusti, J. H. J. de Bruijne, F. Chassat et al., Gaia
+     Radial Velocity Spectrometer, ArXiv e-prints (Apr., 2018) , [1804.09369].
+ [8] D. Katz, P. Sartoretti, M. Cropper, P. Panuzzo, G. M. Seabroke, Y. Viala et al., Gaia Data
+     Release 2: Properties and validation of the radial velocities, ArXiv e-prints (Apr., 2018) ,
+     [1804.09372].
+ [9] X. Luri, A. G. A. Brown, L. M. Sarro, F. Arenou, C. A. L. Bailer-Jones, A. Castro-Ginard
+     et al., Gaia Data Release 2: using Gaia parallaxes, ArXiv e-prints (Apr., 2018) , [1804.09376].
+[10] C. Flynn, J. Holmberg, L. Portinari, B. Fuchs and H. Jahreiss, On the mass-to-light ratio of the
+     local Galactic disc and the optical luminosity of the Galaxy, Mon. Not. Roy. Astron. Soc. 372
+     (2006) 1149–1160, [astro-ph/0608193].
+[11] J. Bovy and H.-W. Rix, A Direct Dynamical Measurement of the Milky Way’s Disk Surface
+                                                                          <   <
+     Density Profile, Disk Scale Length, and Dark Matter Profile at 4 kpc ∼ R ∼ 9 kpc, Astrophys.
+     J. 779 (2013) 115, [1309.0809].
+[12] C. F. McKee, A. Parravano and D. J. Hollenbach, Stars, Gas, and Dark Matter in the Solar
+     Neighborhood, Astrophys. J. 814 (Nov., 2015) 13, [1509.05334].
+[13] E. D. Kramer and L. Randall, Interstellar Gas and a Dark Disk, Astrophys. J. 829 (2016) 126,
+     [1603.03058].
+
+
+
+
+                                               – 26 –
+[14] J. H. Oort, The force exerted by the stellar system in the direction perpendicular to the galactic
+     plane and some related problems, Bull. Astros. Inst. Netherlands 6 (Aug., 1932) 249.
+[15] K. Kuijken and G. Gilmore, The mass distribution in the galactic disc. I - A technique to
+     determine the integral surface mass density of the disc near the sun., Mon. Not. Roy. Astron.
+     Soc. 239 (Aug., 1989) 571–603.
+[16] K. Kuijken and G. Gilmore, The Mass Distribution in the Galactic Disc - II - Determination of
+     the Surface Mass Density of the Galactic Disc Near the Sun, Mon. Not. Roy. Astron. Soc. 239
+     (Aug., 1989) 605–649.
+[17] K. Kuijken and G. Gilmore, The Mass Distribution in the Galactic Disc - Part III - the Local
+     Volume Mass Density, Mon. Not. Roy. Astron. Soc. 239 (Aug., 1989) 651–664.
+[18] B. Fuchs and R. Wielen, Kinematical constraints on the dynamically determined local mass
+     density of the Galaxy, in Back to the Galaxy (S. S. Holt and F. Verter, eds.), vol. 278 of
+     American Institute of Physics Conference Series, pp. 580–583, 1993, DOI.
+[19] C. Flynn and B. Fuchs, Density of dark matter in the Galactic disk, Mon. Not. Roy. Astron.
+     Soc. 270 (Oct., 1994) .
+[20] J. Holmberg and C. Flynn, The local density of matter mapped by hipparcos, Mon. Not. Roy.
+     Astron. Soc. 313 (2000) 209–216, [astro-ph/9812404].
+[21] J. Holmberg and C. Flynn, The local surface density of disc matter mapped by Hipparcos, Mon.
+     Not. Roy. Astron. Soc. 352 (Aug., 2004) 440–446, [astro-ph/0405155].
+[22] F. van Leeuwen and E. Fantino, A New reduction of the raw Hipparcos data, Astron. Astrophys.
+     439 (2005) 791–803, [astro-ph/0505432].
+[23] S. Garbari, C. Liu, J. I. Read and G. Lake, A new determination of the local dark matter
+     density from the kinematics of K dwarfs, Mon. Not. Roy. Astron. Soc. 425 (Sept., 2012)
+     1445–1458, [1206.0015].
+[24] J. Bovy and S. Tremaine, On the local dark matter density, Astrophys. J. 756 (2012) 89,
+     [1205.4033].
+[25] H. Silverwood, S. Sivertsson, P. Steger, J. I. Read and G. Bertone, A non-parametric method
+     for measuring the local dark matter density, Mon. Not. Roy. Astron. Soc. 459 (July, 2016)
+     4191–4208, [1507.08581].
+[26] S. Sivertsson, H. Silverwood, J. I. Read, G. Bertone and P. Steger, The Local Dark Matter
+     Density from SDSS-SEGUE G-dwarfs, Mon. Not. Roy. Astron. Soc. (Apr., 2018) ,
+     [1708.07836].
+[27] Y.-S. Ting, H.-W. Rix, J. Bovy and G. van de Ven, Constraining the Galactic potential via
+     action-based distribution functions for mono-abundance stellar populations, "Mon. Not. Roy.
+     Astron. Soc." 434 (Sept., 2013) 652–660, [1212.0006].
+[28] J. Bovy, H.-W. Rix, C. Liu, D. W. Hogg, T. C. Beers and Y. S. Lee, The Spatial Structure of
+     Mono-abundance Sub-populations of the Milky Way Disk, Astrophys. J. 753 (July, 2012) 148,
+     [1111.1724].
+[29] P. Salucci, F. Nesti, G. Gentile and C. F. Martins, The dark matter density at the Sun’s
+     location, Astron. Astrophys. 523 (2010) A83, [1003.3101].
+[30] M. Pato, F. Iocco and G. Bertone, Dynamical constraints on the dark matter distribution in the
+     Milky Way, JCAP 1512 (2015) 001, [1504.06324].
+[31] L. E. Strigari, Galactic searches for dark matter, Phys. Rep. 531 (Oct., 2013) 1–88,
+     [1211.7090].
+[32] J. I. Read, The Local Dark Matter Density, J. Phys. G41 (2014) 063101, [1404.1938].
+
+
+
+
+                                                – 27 –
+[33] J. Fan, A. Katz, L. Randall and M. Reece, Dark-Disk Universe, Phys. Rev. Lett. 110 (2013)
+     211302, [1303.3271].
+[34] J. Fan, A. Katz, L. Randall and M. Reece, Double-Disk Dark Matter, Phys. Dark Univ. 2
+     (2013) 139–156, [1303.1521].
+[35] F.-Y. Cyr-Racine and K. Sigurdson, Cosmology of atomic dark matter, Phys. Rev. D87 (2013)
+     103515, [1209.5752].
+[36] M. McCullough and L. Randall, Exothermic Double-Disk Dark Matter, JCAP 1310 (2013)
+     058, [1307.4095].
+[37] J. Fan, A. Katz and J. Shelton, Direct and indirect detection of dissipative dark matter, JCAP
+     1406 (2014) 059, [1312.1336].
+[38] L. Randall and M. Reece, Dark Matter as a Trigger for Periodic Comet Impacts, Phys. Rev.
+     Lett. 112 (2014) 161301, [1403.0576].
+[39] W. Fischler, D. Lorshbough and W. Tangarife, Supersymmetric Partially Interacting Dark
+     Matter, Phys. Rev. D91 (2015) 025010, [1405.7708].
+[40] R. Foot and S. Vagnozzi, Dissipative hidden sector dark matter, Phys. Rev. D91 (2015) 023512,
+     [1409.7174].
+[41] L. Randall and J. Scholtz, Dissipative Dark Matter and the Andromeda Plane of Satellites,
+     JCAP 1509 (2015) 057, [1412.1839].
+[42] M. Reece and T. Roxlo, Nonthermal production of dark radiation and dark matter, JHEP 09
+     (2016) 096, [1511.06768].
+[43] R. Foot and S. Vagnozzi, Solving the small-scale structure puzzles with dissipative dark matter,
+     JCAP 1607 (2016) 013, [1602.02467].
+[44] N. J. Shaviv, The Paleoclimatic evidence for Strongly Interacting Dark Matter Present in the
+     Galactic Disk, 1606.02851.
+[45] E. D. Kramer and L. Randall, Updated Kinematic Constraints on a Dark Disk, Astrophys. J.
+     824 (2016) 116, [1604.01407].
+[46] P. Agrawal, F.-Y. Cyr-Racine, L. Randall and J. Scholtz, Dark Catalysis, JCAP 1708 (2017)
+     021, [1702.05482].
+[47] P. Agrawal and L. Randall, Point Sources from Dissipative Dark Matter, JCAP 1712 (2017)
+     019, [1706.04195].
+[48] M. R. Buckley and A. DiFranzo, Collapsed Dark Matter Structures, Phys. Rev. Lett. 120
+     (2018) 051102, [1707.03829].
+[49] G. D’Amico, P. Panci, A. Lupi, S. Bovino and J. Silk, Massive Black Holes from Dissipative
+     Dark Matter, Mon. Not. Roy. Astron. Soc. 473 (2018) 328–335, [1707.03419].
+[50] A. Caputo, J. Zavala and D. Blas, Binary pulsars as probes of a Galactic dark matter disk,
+     Phys. Dark Univ. 19 (2018) 1–11, [1709.03991].
+[51] K. Vattis and S. M. Koushiappas, Self-interacting dark matter constraints in a thick dark disk
+     scenario, 1801.06556.
+[52] N. J. Outmazgine, O. Slone, W. Tangarife, L. Ubaldi and T. Volansky, Accretion of Dissipative
+     Dark Matter onto Active Galactic Nuclei, 1807.04750.
+[53] S. Alexander and L. Smolin, The Equivalence Principle and the Emergence of Flat Rotation
+     Curves, 1804.09573.
+[54] A. Ghalsasi and M. McQuinn, Exploring the astrophysics of dark atoms, 1712.04779.
+
+
+
+
+                                               – 28 –
+[55] E. Rosenberg and J. Fan, Cooling in a Dissipative Dark Sector, Phys. Rev. D96 (2017) 123001,
+     [1705.10341].
+[56] K. Schutz, T. Lin, B. R. Safdi and C.-L. Wu, Constraining a Thin Dark Matter Disk with Gaia,
+     1711.03103.
+[57] M. F. Skrutskie, R. M. Cutri, R. Stiening, M. D. Weinberg, S. Schneider, J. M. Carpenter
+     et al., The Two Micron All Sky Survey (2MASS), AJ 131 (Feb., 2006) 1163–1183.
+[58] J. Bovy, Stellar inventory of the solar neighbourhood using Gaia DR1, "Mon. Not. Roy.
+     Astron. Soc." 470 (Sept., 2017) 1360–1387, [1704.05063].
+[59] J. C. Zinn, M. H. Pinsonneault, D. Huber and D. Stello, Confirmation of the zero-point offset
+     in Gaia Data Release 2 parallaxes using asteroseismology and APOGEE spectroscopy in the
+     Kepler field, ArXiv e-prints (May, 2018) , [1805.02650].
+[60] N. Banik, L. M. Widrow and S. Dodelson, Galactoseismology and the local density of dark
+     matter, "Mon. Not. Roy. Astron. Soc." 464 (Feb., 2017) 3775–3783, [1608.03338].
+[61] J. N. Bahcall, C. Flynn and A. Gould, Local dark matter from a carefully selected sample,
+     Astrophys. J. 389 (Apr., 1992) 234–250.
+[62] M. J. Pecaut and E. E. Mamajek, Intrinsic Colors, Temperatures, and Bolometric Corrections
+     of Pre-main-sequence Stars, ApJS 208 (Sept., 2013) 9, [1307.2657].
+[63] R. Schönrich, J. Binney and W. Dehnen, Local kinematics and the local standard of rest, Mon.
+     Not. Roy. Astron. Soc. 403 (Apr., 2010) 1829–1833, [0912.3693].
+[64] S. Garbari, J. I. Read and G. Lake, Limits on the local dark matter density, "Mon. Not. Roy.
+     Astron. Soc." 416 (Sept., 2011) 2318–2340, [1105.6339].
+[65] J. Bovy, Galactic rotation in Gaia DR1, Mon. Not. Roy. Astron. Soc. 468 (June, 2017)
+     L63–L67, [1610.07610].
+[66] J. N. Bahcall, Self-consistent determinations of the total amount of matter near the sun,
+     Astrophys. J. 276 (Jan., 1984) 169–181.
+[67] J. N. Bahcall, The distribution of stars perpendicular to galactic disk, Astrophys. J. 276 (Jan.,
+     1984) 156–168.
+[68] J. N. Bahcall, K giants and the total amount of matter near the sun, Astrophys. J. 287 (Dec.,
+     1984) 926–944.
+[69] L. Spitzer, Jr., The Dynamics of the Interstellar Medium. III. Galactic Distribution.,
+     Astrophys. J. 95 (May, 1942) 329.
+[70] J. Bovy, H.-W. Rix, G. M. Green, E. F. Schlafly and D. P. Finkbeiner, On Galactic Density
+     Modeling in the Presence of Dust Extinction, ApJ 818 (Feb., 2016) 130, [1509.06751].
+[71] A. Widmark, Measuring the local matter density using Gaia DR2, 1811.07911.
+[72] J. Goodman and J. Weare, Ensemble samplers with affine invariance, Communications in
+     Applied Mathematics and Computational Science, Vol. 5, No. 1, p. 65-80, 2010 5 (2010) 65–80.
+[73] D. Foreman-Mackey, D. W. Hogg, D. Lang and J. Goodman, emcee: The MCMC Hammer,
+     Publ. Astron. Soc. Pac. 125 (2013) 306–312, [1202.3665].
+[74] G. O. Roberts, A. Gelman and W. R. Gilks, Weak convergence and optimal scaling of random
+     walk metropolis algorithms, The Annals of Applied Probability 7 (04, 1997) .
+[75] B. Yanny, C. Rockosi, H. J. Newberg, G. R. Knapp, J. K. Adelman-McCarthy, B. Alcorn
+     et al., SEGUE: A Spectroscopic Survey of 240,000 Stars with g = 14-20, Astronomical. J. 137
+     (May, 2009) 4377–4399, [0902.1781].
+
+
+
+
+                                               – 29 –
+[76] L. M. Widrow, S. Gardner, B. Yanny, S. Dodelson and H.-Y. Chen, Galactoseismology:
+     Discovery of Vertical Waves in the Galactic Disk, Astrophys. J. Lett. 750 (May, 2012) L41,
+     [1203.6861].
+[77] M. Bennett and J. Bovy, Vertical waves in the solar neighbourhood in Gaia DR2, Mon. Not.
+     Roy. Astron. Soc. 482 (Jan, 2019) 1417–1425, [1809.03507].
+[78] F. A. Gómez, I. Minchev, B. W. O’Shea, T. C. Beers, J. S. Bullock and C. W. Purcell, Vertical
+     density waves in the Milky Way disc induced by the Sagittarius dwarf galaxy, "Mon. Not. Roy.
+     Astron. Soc." 429 (Feb., 2013) 159–164, [1207.3083].
+[79] J. L. Carlin, J. DeLaunay, H. J. Newberg, L. Deng, D. Gole, K. Grabowski et al., Substructure
+     in Bulk Velocities of Milky Way Disk Stars, Astrophys. J. Lett. 777 (Nov., 2013) L5,
+     [1309.6314].
+[80] L. M. Widrow, J. Barber, M. H. Chequers and E. Cheng, Bending and breathing modes of the
+     Galactic disc, "Mon. Not. Roy. Astron. Soc." 440 (May, 2014) 1971–1981, [1404.4069].
+[81] T. Antoja, A. Helmi, M. Romero-Gomez, D. Katz, C. Babusiaux, R. Drimmel et al., Wrinkles
+     in the Gaia data unveil a dynamically young and perturbed Milky Way disk, ArXiv e-prints
+     (Apr., 2018) , [1804.10196].
+[82] G. C. Myeong, N. W. Evans, V. Belokurov, J. L. Sanders and S. E. Koposov, The Sausage
+     Globular Clusters, 1805.00453.
+[83] L. Necib, M. Lisanti and V. Belokurov, Dark Matter in Disequilibrium: The Local Velocity
+     Distribution from SDSS-Gaia, 1807.02519.
+[84] A. Budenbender, G. van de Ven and L. L. Watkins, The tilt of the velocity ellipsoid in the
+     Milky Way disc, Mon. Not. Roy. Astron. Soc. 452 (2015) 956–968, [1407.4808].
+[85] F. Perez and B. E. Granger, IPython: A System for Interactive Scientific Computing, Comput.
+     Sci. Eng. 9 (2007) 21–29.
+[86] J. D. Hunter, Matplotlib: A 2D Graphics Environment, Comput. Sci. Eng. 9 (2007) 90–95.
+[87] E. Jones, T. Oliphant, P. Peterson et al., SciPy: Open source scientific tools for Python, 2001–.
+[88] S. van der Walt, S. C. Colbert and G. Varoquaux, The NumPy Array: A Structure for Efficient
+     Numerical Computation, Comput. Sci. Eng. 13 (2011) 22–30, [1102.1523].
+[89] Astropy Collaboration, T. P. Robitaille, E. J. Tollerud, P. Greenfield, M. Droettboom, E. Bray
+     et al., Astropy: A community Python package for astronomy, A & A 558 (Oct., 2013) A33,
+     [1307.6212].
+[90] A. M. Price-Whelan, Gala: A python package for galactic dynamics, The Journal of Open
+     Source Software 2 (oct, 2017) .
+[91] Z. Ivezic, A. J. Connolly, J. T. VanderPlas and A. Gray, Statistics, Data Mining, and Machine
+     Learning in Astronomy: A Practical Python Guide for the Analysis of Survey Data. Princeton
+     University Press, Princeton, NJ, USA, 2014.
+
+
+
+
+                                               – 30 –
+                               A stars                                                                          F stars
+              0.12                                                                     0.12
+
+
+              0.11                                                                     0.11
+
+
+              0.10                                                                     0.10
+
+
+
+ρb [M /pc3]                                                              ρb [M /pc3]
+              0.09                                                                     0.09
+
+
+              0.08                                                                     0.08
+
+
+              0.07                                                                     0.07
+
+
+              0.06                                                                     0.06
+                     0.01   0.02                  0.03   0.04    0.05                             0.02           0.04     0.06   0.08
+                                                    3
+                            ρDM [M /pc ]                                                                 ρDM [M /pc3]
+
+
+
+                                                                  Early G stars
+                                                 0.12
+
+
+                                                 0.11
+
+
+                                                 0.10
+
+
+
+                                   ρb [M /pc3]
+                                                 0.09
+
+
+                                                 0.08
+
+
+                                                 0.07
+
+
+                                                 0.06
+                                                          0.01    0.02                  0.03   0.04      0.05
+                                                                  ρDM [M /pc3]
+
+
+
+Figure 15: Marginalized posteriors indicating the degeneracy between the local densities of
+baryons ρb and halo DM ρDM .
+
+
+
+
+                                                                  – 31 –
+                         hDD [pc] = 67.435+22.848
+                                          −32.718
+
+
+
+
+                                                         ΣDD [M /pc2 ] = 2.993+3.753
+                                                                              −2.177
+
+
+
+                 24
+
+
+
+
+ΣDD [M /pc2 ]
+                 18
+
+                 12
+
+                 6
+
+                                                                                        ρDM [M /pc3 ] = 0.008+0.011
+                                                                                                             −0.008
+
+
+
+                 5
+                04
+
+
+
+
+ρDM [M /pc3 ]
+                0.
+
+                03 0
+                0.
+
+                 5
+                01
+                0.
+
+                 0
+                00                                                                                                     ρb [M /pc3 ] = 0.087+0.007
+                                                                                                                                           −0.007
+                0.
+
+
+                 5
+                10
+                0.
+
+
+
+ρb [M /pc3 ]
+                 0
+                09
+                0.
+
+                07 5
+                0.
+
+                 0
+                06
+                0.
+                           20   40   60    80        0
+                                                    10      6     12   18       24      0
+                                                                                       00      5
+                                                                                              01      0
+                                                                                                     03        5
+                                                                                                              04       0
+                                                                                                                      06    075    090        5
+                                                                                                                                             10
+                                                                                       0.    0.     0.     0.         0.   0.     0.         0.
+
+                                hDD [pc]                        ΣDD [M /pc2 ]                 ρDM [M /pc3 ]                   ρb [M /pc3 ]
+
+
+                       Figure 16: Marginalized posterior distributions of thin DD parameters, local dark matter
+                       density ρDM , and the total baryon density in the midplane ρb for A stars. The dark (light)
+                       shaded regions indicate the 68% (95%) credible regions, whereas the dashed lines represent
+                       the 16th, 50th, and 84th percent quantile values of the posterior distribution.
+
+
+
+
+                                                                            – 32 –
+                            hDD [pc] = 63.457+25.615
+                                             −33.438
+
+
+
+
+                                                            ΣDD [M /pc2 ] = 6.231+5.995
+                                                                                 −4.326
+
+
+
+                  24
+
+
+
+
+ΣDD [M /pc2 ]
+                  18
+
+
+                  12
+
+                   6
+
+                                                                                           ρDM [M /pc3 ] = 0.019+0.015
+                                                                                                                −0.015
+
+
+
+
+                 04 5
+
+
+
+
+ρDM [M /pc3 ]
+                0.
+
+                 030
+                0.
+
+                 015
+                0.
+
+
+                0. 0.
+                                                                                                                         ρb [M /pc3 ] = 0.088+0.007
+                                                                                                                                             −0.007
+                  12 00
+                    0 0
+
+                 105
+
+
+ρb [M /pc3 ]
+                0.
+
+
+                 090
+                0.
+
+
+                 075
+                0.
+
+
+                             20    40   60    80        0
+                                                       10       6     12    18      24     0
+                                                                                          00      5
+                                                                                                 01      0
+                                                                                                        03        5
+                                                                                                                 04           5
+                                                                                                                             07        0
+                                                                                                                                      09     10  5    0
+                                                                                                                                                     12
+                                                                                          0.    0.     0.     0.           0.        0.     0.       0.
+
+                                   hDD [pc]                         ΣDD [M /pc2 ]                ρDM [M /pc3 ]                    ρb [M /pc3 ]
+
+
+                          Figure 17: Marginalized posterior distributions of thin DD parameters, local dark matter
+                          density ρDM , and the total baryon density in the midplane ρb for F stars. The dark (light)
+                          shaded regions indicate the 68% (95%) credible regions, whereas the dashed lines represent
+                          the 16th, 50th, and 84th percent quantile values of the posterior distribution.
+
+
+
+
+                                                                                 – 33 –
+                         hDD [pc] = 57.314+30.191
+                                          −36.546
+
+
+
+
+                                                         ΣDD [M /pc2 ] = 3.070+3.425
+                                                                              −2.162
+
+
+
+                 24
+
+
+
+
+ΣDD [M /pc2 ]
+                 18
+
+
+                 12
+
+                 6
+
+                                                                                        ρDM [M /pc3 ] = 0.005+0.010
+                                                                                                             −0.006
+
+
+
+
+                04 5
+
+
+
+
+ρDM [M /pc3 ]
+                0.
+
+                 0
+                03
+                0.
+
+                 5
+                01
+                0.
+
+                 0
+                00                                                                                                     ρb [M /pc3 ] = 0.087+0.007
+                                                                                                                                           −0.007
+                0.
+
+
+                 5
+                10
+
+
+
+ρb [M /pc3 ]
+                0.
+
+                090
+                0.
+
+                 5
+                07
+                0.
+
+                 0
+                06
+                0.
+                           20   40   60    80        0
+                                                    10       6     12    18      24     0
+                                                                                       00      5
+                                                                                              01      0
+                                                                                                     03        5
+                                                                                                              04       0
+                                                                                                                      06    075    090        5
+                                                                                                                                             10
+                                                                                       0.    0.     0.     0.         0.   0.     0.     0.
+
+                                hDD [pc]                         ΣDD [M /pc2 ]                ρDM [M /pc3 ]                   ρb [M /pc3 ]
+
+
+                       Figure 18: Marginalized posterior distributions of thin DD parameters, local dark matter
+                       density ρDM , and the total baryon density in the midplane ρb for G stars. The dark (light)
+                       shaded regions indicate the 68% (95%) credible regions, whereas the dashed lines represent
+                       the 16th, 50th, and 84th percent quantile values of the posterior distribution.
+
+
+
+
+                                                                              – 34 –
+

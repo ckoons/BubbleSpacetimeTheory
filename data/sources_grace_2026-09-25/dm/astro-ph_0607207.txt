@@ -1,0 +1,1707 @@
+                                         Astronomy & Astrophysics manuscript no. 6017                                                                                     c ESO 2024
+                                         November 26, 2024
+
+
+
+
+                                        Limits on the Macho Content of the Galactic Halo from the EROS-2
+                                                        Survey of the Magellanic Clouds⋆
+                                         P. Tisserand1 ⋆⋆ , L. Le Guillou1⋆⋆⋆ , C. Afonso1† , J.N. Albert2 , J. Andersen5 , R. Ansari2 , É. Aubourg1 ‡ , P. Bareyre1 ,
+                                           J.P. Beaulieu3 , X. Charlot1 , C. Coutures1,3 , R. Ferlet3 , P. Fouqué7,8 , J.F. Glicenstein1 , B. Goldman1§ , A. Gould6 ,
+                                       D. Graff6¶ , M. Gros1 , J. Haissinski2 , C. Hamadache1 , J. de Kat1 , T. Lasserre1 , É. Lesquoy1,3 , C. Loup3 , C. Magneville1 ,
+                                       J.B. Marquette3 , É. Maurice4 , A. Maury8k , A. Milsztajn1 , M. Moniez2 , N. Palanque-Delabrouille1 , O. Perdereau2 , Y.R.
+
+
+
+
+arXiv:astro-ph/0607207v2 19 Apr 2007
+                                                               Rahal2 , J. Rich1 , M. Spiro1 , A. Vidal-Madjar3 , L. Vigroux1,3 , S. Zylberajch1
+                                                                                          The EROS-2 collaboration
+
+                                             1
+                                               CEA, DSM, DAPNIA, Centre d’Études de Saclay, F-91191 Gif-sur-Yvette Cedex, France
+                                             2
+                                               Laboratoire de l’Accélérateur Linéaire, IN2P3 CNRS, Université de Paris-Sud, F-91405 Orsay Cedex, France
+                                             3
+                                               Institut d’Astrophysique de Paris, UMR 7095 CNRS, Université Pierre & Marie Curie, 98 bis Boulevard Arago, F-75014 Paris,
+                                               France
+                                             4
+                                               Observatoire de Marseille, 2 place Le Verrier, F-13248 Marseille Cedex 04, France
+                                             5
+                                               The Niels Bohr Institute, Copenhagen University, Juliane Maries Vej 30, DK-2100 Copenhagen, Denmark
+                                             6
+                                               Department of Astronomy, Ohio State University, Columbus, OH 43210, U.S.A.
+                                             7
+                                               Observatoire Midi-Pyrénées, Laboratoire d’Astrophysique (UMR 5572), 14 av. E. Belin, F-31400 Toulouse, France
+                                             8
+                                               European Southern Observatory (ESO), Casilla 19001, Santiago 19, Chile
+                                             Received;accepted
+
+                                                                                                         ABSTRACT
+
+                                             Aims. The EROS-2 project was designed to test the hypothesis that massive compact halo objects (the so-called “machos”) could be
+                                             a major component of the dark matter halo of the Milky Way galaxy. To this end, EROS-2 monitored over 6.7 years 33 × 106 stars in
+                                             the Magellanic clouds for microlensing events caused by such objects.
+                                             Methods. In this work, we use only a subsample of 7 × 106 bright stars spread over 84 deg2 of the LMC and 9 deg2 of the SMC.
+                                             The strategy of using only bright stars helps to discriminate against background events due to variable stars and allows a simple
+                                             determination of the effects of source confusion (blending). The use of a large solid angle makes the survey relatively insensitive to
+                                             effects that could make the optical depth strongly direction dependent.
+                                             Results. Using this sample of bright stars, only one candidate event was found, whereas ∼ 39 events would have been expected if
+                                             the Halo were entirely populated by objects of mass M ∼ 0.4M⊙ . Combined with the results of EROS-1, this implies that the optical
+                                             depth toward the Large Magellanic Cloud (LMC) due to such lenses is τ < 0.36 × 10−7 (95%CL), corresponding to a fraction of the
+                                             halo mass of less than 8%. This optical depth is considerably less than that measured by the MACHO collaboration in the central
+                                             region of the LMC. More generally, machos in the mass range 0.6 × 10−7 M⊙ < M < 15M⊙ are ruled out as the primary occupants of
+                                             the Milky Way Halo.
+                                             Key words. Galaxy:halo - Cosmology: dark matter - Gravitational Lensing
+
+
+
+                                                                                                                 1. Introduction
+
+                                         ⋆
+                                                                                                                 Since the proposal (Paczyński 1986; Petrou 1981) that dark mat-
+                                            Based on observations made with the Marly telescope at the           ter in the form of faint compact objects (machos1 ) could be
+                                        European Southern Observatory, La Silla, Chile.                          found through gravitational microlensing, the EROS, MACHO,
+                                        ⋆⋆
+                                            Now at Research School of Astronomy and Astrophysics,                OGLE, MOA and SuperMACHO collaborations have monitored
+                                        Australian National University, Mount Stromlo Obs., Cotter Rd.,
+                                        Weston, ACT 2611, Australia
+                                                                                                                 millions of stars in the Magellanic Clouds to search for mi-
+                                       ⋆⋆⋆
+                                            now at LPNHE, CNRS-IN2P3 and Universités Paris 6 et Paris 7, 4
+                                                                                                                 crolensing events. Such events would be due to a lensing object
+                                        Place Jussieu, F-75252 Paris Cedex 05 France                             passing near the line of sight toward a background Magellanic
+                                          †
+                                            Now at Max-Planck-Institut für Astronomie, Koenigstuhl 17, D-       star, causing a transient magnification of the star’s primary im-
+                                        69117 Heidelberg, Germany                                                age as well as creating a secondary image. Neither the image
+                                          ‡
+                                            Also at APC, 10, rue Alice Domon et Lonie Duquet, F-75205 Paris      separation nor the image size are normally resolvable, so the
+                                        Cedex 13, France                                                         only easily observable effect during an event is an apparent tran-
+                                          §
+                                            Now at Max-Planck-Institut für Astronomie, Koenigstuhl 17, D-       sient amplification of the star’s flux. The amplification is greater
+                                        69117 Heidelberg, Germany                                                than a factor 1.34 if the line of sight to the star passes within the
+                                          ¶
+                                            Now at Division of Medical Imaging Physics, Johns Hopkins            lens’s Einstein ring of squared radius rE2 = 4GMDs x(1 − x)/c2
+                                        University Baltimore, MD 21287-0859, USA
+                                          k                                                                        1
+                                            Now at San Pedro de Atacama Celestial Exploration, Casilla 21,            for “Massive Astrophysical Compact Halo Objects” (Griest 1991),
+                                        San Pedro de Atacama, Chile                                              not to be confused with the “MACHO collaboration.”
+2                              P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+where Ds is the distance to the star and xDs is the distance to            contamination by variable stars. This paper made use of the ob-
+the lens of mass M. The optical depth for microlensing, i.e. the           servation by the EROS collaboration (Tisserand 2004) of fur-
+probability that at a given time a given star is amplified by more         ther variability of one of the MACHO A candidates, indicating
+than a factor 1.34, is                                                     intrinsic stellar variability. The paper also noted that the spec-
+                                                                           trum of the MACHO B candidate MACHO-LMC-22 indicated
+      4πGD2s 1
+               Z
+τ =                dxρ(x)x(1 − x) ,                            (1)         that the source is an active background galaxy, as reported in
+         c2     0                                                          Alcock et al. (2001b) where the event was eliminated from the
+                                                                           sample for studying high-mass lenses. Using four MACHO A
+where ρ is the mass density of lenses. For source stars in the
+                                                                           candidates whose microlensing nature was confirmed by preci-
+Magellanic Clouds, the order of magnitude of τ is f v2rot /c2 ∼ f ×
+                                                                           sion photometry and the one A candidate rejected as a variable
+10−6 where vrot ∼ 220 km s−1 is the rotation velocity of the Milky         star, Bennett (2005) performed a likelihood analysis to argue that
+Way and f is the fraction of the halo mass that is comprised               11±1 of the 13 A candidates are likely to be microlensing events,
+of lensing objects. The factor of proportionality between τ and            yielding the revised optical depth.
+f v2rot /c2 depends on the structure of the Halo. The benchmark
+value is often taken to be that for a spherical isothermal halo of             Machos can also be searched for by monitoring M31 and
+core radius 5 kpc, the so-called “S model” used by the MACHO               looking for temporal variations of surface brightness consistent
+collaboration (Alcock et al. 2000b; Griest 1991). For the Large            with a star in M31 being microlensed. Candidate events have
+Magellanic Cloud (LMC) this gives                                          been reported by the VATT (Uglesich et al. 2004), WeCAPP
+                                                                           (Riffeser et al. 2003), POINT-AGAPE (Calchi Novati et al.
+τlmc = 4.7 f × 10−7 .                                               (2)    2005), MEGA (de Jong et al. 2006) and Nainital (Joshi et al.
+                                                                           2005) collaborations. The POINT-AGAPE and MEGA col-
+For the Small Magellanic Cloud (SMC), the S model gives                    laborations presented efficiency calculations allowing them
+τsmc ∼ 1.4τlmc . For a flattened halo, one finds a smaller value,          to constrain the content of the M31 and Milky Way halos.
+typically τsmc ∼ τlmc (Sackett and Gould 1993).                            The disagreement between these two collaborations parallels
+     Magellanic stars can also be lensed by non-halo stars, ei-            that between the MACHO and EROS collaborations with the
+ther in the Magellanic Clouds or in the Milky Way disk. Lensing            AGAPE collaboration finding a halo fraction in the range
+by disk stars is expected to have an optical depth of order 10−8           0.2 < f < 0.9, while the MEGA collaboration finds a halo
+(Alcock et al. 2000b). The optical depth for lensing by “self-             fraction f < 0.3.
+lensing”, i.e. lensing by stars in the Clouds, is expected to range
+from ∼ 5 × 10−8 in the center of the LMC bar to ∼ 0.5 × 10−8                   In this paper, we extend our previous analysis to find τlmc <
+at 3 deg from the bar (Mancini et al. 2004). For the SMC, the              0.36 × 10−7 (95% CL) for M ∼ 0.4M⊙ , corresponding to
+self-lensing optical depth is expected to be somewhat larger,               f < 0.08. Unlike the previous EROS limit, this is significantly
+∼ 4 × 10−8 averaged over the central 10 deg2 (Graff & Gardiner             lower than the optical depth measured by the MACHO collabo-
+1999).                                                                     ration. Unlike all previous analyses, we use only a bright, well-
+     Microlensing events are characterized by a timescale tE giv-          measured subsample of the Magellanic stars, about 20% of the
+ing the time for the lens to travel a distance corresponding to its        total. We believe that the use of this bright subsample gives more
+Einstein radius, tE = rE /vt where vt is the lens’s transverse ve-         reliable limits on the optical depth than measurements using
+locity relative to the line of sight. For high amplification events,       faint stars. There are two reasons for this. First, bright stars have
+2tE is the time over which the amplification is A > 1.34. Since rE         well reconstructed light curves that permit discrimination of in-
+is proportional to the square root of the lens mass M, the mean            trinsically variable stars. Second, the use of bright stars makes it
+tE will scale like M 1/2 . The S model has a 3-dimensional macho           relatively simple to estimate so-called blending effects where re-
+velocity dispersion of 270 km s−1 and gives                                constructed fluxes can receive contributions from more than one
+                                                                           star, complicating the interpretation of events.
+                  !1/2
+              M                                                                EROS-2 is a second generation microlensing experiment.
+htE i ∼ 70             days .                                    (3)       The first generation, EROS-1, consisted of two programs, both
+              M⊙
+                                                                           at the European Southern Observatory (ESO) at La Silla, Chile.
+    Much excitement was generated by the MACHO collabora-                  The first program (Ansari et al. 1996a) used Schmidt photo-
+tion’s measurement of the LMC microlensing rate which sug-                 graphic plates to monitor a 27 deg2 region containing the LMC
+gested that a significant amount of the Milky Way’s Halo is                bar during the southern summer from October, 1990 through
+comprised of machos. Their latest analysis (Alcock et al. 2000b)           April, 1993. With a sampling frequency of up to one image per
+used 13/17 observed events2 to measure an optical depth of                 night, it was sensitive mostly to machos in the range 10−4 M⊙ <
+τlmc /10−7 = 1.2+0.4
+                 −0.3 (stat) with an additional 20% to 30% sys-            M < 1M⊙ . The second program (Renault et al. 1998) used
+tematic error. This would correspond to a Halo fraction 0.08 <             a 0.4 deg2 CCD mosaic from December 1991 through March,
+ f < 0.50 (95% CL). The mean tE of their events was 40 d corre-            1995 to monitor one field in the LMC bar and another in the
+sponding to machos in the mass range 0.15M⊙ < M < 0.9M⊙ .                  SMC. With up to 40 images taken per night, this program was
+On the other hand the EROS collaboration (Lasserre et al. 2000;            sensitive mostly to machos in the range 10−7 M⊙ < M < 10−3 M⊙ .
+Afonso et al. 2003a) has placed only an upper limit on the halo            The results of these two EROS-1 programs are summarized in
+fraction, f < 0.2 (95% CL) for objects in this mass range, rul-            Renault et al. (1997).
+ing out a large part of the range of f favored by the MACHO
+                                                                               The second generation program described here, EROS-2,
+collaboration.
+                                                                           used the Marly 1 meter telescope at ESO, La Silla. The tele-
+    Bennett (2005) argued that the MACHO optical depth should
+                                                                           scope was equipped with two 0.95 deg2 CCD mosaics to monitor
+be reduced to τlmc /10−7 = 1.0 ± 0.3 in order to take into account
+                                                                           93 deg2 in the Magellanic Clouds, 63 deg2 in the Galactic Bulge,
+    2
+    13 of the 17 events satisfied their so-called A criteria intended to   and 28 deg2 in the spiral arms of the Milky Way. The observa-
+identify high signal-to-noise events. The other 4 events, so-called B      tions were performed between July 1996 and February 2003 (JD
+events, are selected by looser cuts.                                       between 2,450,300 and 2,452,700).
+                             P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2                                                      3
+
+    Besides the Magellanic results presented here, EROS-2                                                                                 52
+has also published measurements of the optical depth to-                                          LMC                                     4
+ward the Galactic Bulge (Afonso et al. 2003b; Hamadache et al.                    −65                        51                         00000
+                                                                                                                                        11111
+                                                                                                                         50 49 48 47 46 45 44 43 42 41
+                                                                                                                                        11111
+                                                                                                                                        00000
+2006). The measured optical depth is in agreement with that                                                  2
+                                                                                                                                        11111
+                                                                                                                                        00000
+                                                                                                                         4 4 5 6 6 6 7 7 6 4
+                                                                                                                                        11111
+                                                                                                                                        00000
+                                                                           dec. (deg)
+measured by MACHO (Popowski et al. 2005), and OGLE-
+                                                                                                              3 4 5 6 8 8 11 10 9 00000 11111
+                                                                                                              40 39 38 37 36 35 34 33 32 31 30 29 28
+2 (Sumi et al. 2006) and with the predictions of Galactic                                                               111111111111111
+                                                                                                                        000000000000000 11111
+                                                                                                                                        00000
+                                                                                                                                         10 11 11 7
+                                                                                                                        111111111111111
+                                                                                                                        000000000000000
+                                                                                                          88
+models (Evans & Belokurov 2002; Bissantz & Gerhard 2002;                                                  3 27 26 25 24
+                                                                                                                        111111111111111
+                                                                                                                        000000000000000
+                                                                                                                          23 22 21 20 19 18 17 16 15
+                                                                                                                        111111111111111
+                                                                                                                        000000000000000
+                                                                                                             4 4 5 6 8 10 12 11        12 13 12 13 8
+                                                                                                         14 8 7 6 5000000000000000
+                                                                                                                        111111111111111
+Han & Gould 2003; Wood and Mao 2005).
+    EROS-1 and EROS-2 overlapped with the MACHO program                                                                 000000000000000
+                                                                                                                        111111111111111
+                                                                                                                          4 3 2 1
+                                                                                                                        000000000000000
+                                                                                                                        111111111111111
+                                                                                                                                        9 10 11      2 13
+
+                                                                                                                        000000000000000
+                                                                                                                        111111111111111
+                                                                                  −70                    2 3 4 4 7 11 13 16 16          15 14 12       1 6
+that monitored ∼ 13.4 deg2 of the LMC from July, 1992 through                                                           111111111111111
+                                                                                                                        000000000000000
+                                                                                                        2 3 3 4 7000000000000000
+                                                                                                                        111111111111111
+                                                                                                        65 64 63 62 61 60 59 58      57 56 55 54 53
+January, 2000. Three other wide-angle microlensing searches are
+now in operation: MOA3 (since August, 1998), OGLE-34 (since
+                                                                                                                        111111111111111
+                                                                                                                        000000000000000
+                                                                                                                           13 13 12 11 11 9 8 5
+                                                                                                        77 76 75 74 73 72 71 70 69 68 67 66
+June, 2001) and SuperMACHO5 (since October, 2001).                                                      2 2 3 3 3 6 8 7 7 5 5 4
+    In this article, we report on the analysis of the full EROS-2                                              86 85 84 83 82 81 80 79 78
+data set (July 1996 till February 2003) toward the Magellanic                                                  2 3 3 3 3 3 3 3 3
+
+Clouds. Our previous analyses reported on 5 years of data                         −75                                    87
+                                                                                                                         2
+and 5 million stars toward the SMC (Afonso et al. 2003a),
+and 2 years of data and 17 million stars toward the LMC
+(Lasserre et al. 2000). An update of the LMC analysis was re-                               7                        6                              5
+ported in Milsztajn et al. (2001) and Lasserre (2000), which                                                                                            r.a (hr)
+                                                                                  −71
+dealt with 25 million stars and 3 years. The limits determined in                                   4   5 6 7                 SMC
+
+                                                                               dec. (deg)
+the previous analyses are refined in the analysis presented here.                                   8   12 12 9 8
+                                                                                                    3             5
+More details about the present analysis can be found in Tisserand                                        2 1   10
+                                                                                                    6    11 12 10 9
+(2004).                                                                                                             4
+    The plan of the article is as follows. In Section 2, we recall
+                                                                                −75
+the basics of the EROS-2 setup, give the general characteristics                            1.5                                     0.0
+                                                                                                                  r.a (hr)
+of the data sample and describe the data reduction steps used
+to produce the light curves. Section 3 presents the Bright-Star        Fig. 1. Map of the EROS-2 LMC and SMC fields in equatorial
+Sample of stars to be used in the measurement of the optical           coordinates. A total of 88 LMC and 10 SMC fields were moni-
+depth. In Section 4, we describe the selection criteria used to        tored. The first number in each field is the field number and the
+choose the microlensing candidates in the Bright-Star Sample.          second is the number of bright stars (as defined in Section 3) in
+(Selection of events in the full sample is described in Appendix       the field in units of 104 . The two shaded regions (the larger one
+A.) Section 5 presents the final sample of selected events from        centered on the LMC bar) are the 13.4 deg2 used by the MACHO
+the Bright-Star Sample as well as events found by relaxing the         collaboration to measure the optical depth (Alcock et al. 2000b).
+selection criteria. In Section 6 we discuss the status of former
+EROS-1 and EROS-2 microlensing candidates as well as those
+of the MACHO collaboration. In Section 7, we describe the com-         Images were taken simultaneously in two wide passbands, so-
+putation of the EROS-2 detection efficiency. Section 8 presents        called Reros centered close to the IC standard band, and Beros in-
+the limit on the optical depth and on the abundance of machos in       termediate between the standard V and R bands. While no results
+the Galactic halo by combining all EROS-1 and EROS-2 data.             presented here depend on the photometric calibration, almost all
+We conclude in Section 9 with a discussion of the significance         of our fields could be calibrated using stars from the catalogs
+of the limit, and a comparison with the results of Alcock et al.       of the Magellanic Clouds Photometric Survey (Zaritsky et al.
+(2000b).                                                               2004). For 4.5 deg2, the calibration was checked with the OGLE-
+                                                                       II catalog (Udalski et al. 2000b). To a precision of ∼ 0.1 mag, the
+                                                                       EROS magnitudes satisfy
+2. Experimental setup, observations and data
+   reduction                                                           Reros = IC                 Beros = VJ − 0.4(VJ − IC ) .                                     (4)
+                                                                                                                                                2
+The EROS-2 Marly telescope, camera, telescope operations                    The observed fields correspond to 0.95 deg each and they
+and data reduction are described in Bauer et al. (1997),               are twice as large in declination than in right ascension (1.38 ×
+Palanque-Delabrouille et al. (1998), and references therein. Here      0.69 deg2 ). A total of 88 fields have been monitored toward
+we give only general information, and details or modifications         the LMC and 10 toward the SMC. The positions of the fields
+that are specific to the present analysis.                             are shown in Figure 1. The exposure times ranged from 180 s
+                                                                       to 900 s. The fields have been sampled differently, according to
+                                                                       their stellar density and distance from the optical centers of the
+2.1. The setup and the data                                            LMC and the SMC. Broadly, there are three families of LMC
+The Marly telescope is a one meter diameter Ritchey-Chrétien          fields : in the first 3 years of operation, 22 outer fields were sel-
+(f = 5.14m), equipped with two wide angle CCD cameras.                 dom imaged, 22 fields were imaged about 100 times and the
+Each camera is a mosaic of 8 CCDs, 2 along right ascension             remaining 44 inner fields were imaged over 200 times. Later,
+and 4 along declination. Each CCD has 2048 x 2048 pixels               from July 1999 on, all 88 LMC fields were imaged with a simi-
+of 15 × 15 µm2 size, corresponding to 0.602 × 0.602 arcsec2 .          lar sampling. The number of photometric measurements, per star
+                                                                       and per band, ranges from 300 to 600 in the LMC fields.
+ 3
+   http://www.phys.canterbury.ac.nz/moa/                                    The ten SMC fields were imaged with a similar sampling,
+ 4
+   http://bulge.astro.princeton.edu/∼ogle/                             except in 2001 and 2002 when the inner six fields were imaged
+ 5
+   http://www.ctio.noao.edu/∼supermacho/                               twice as often as the four outer ones. The number of photometric
+4                           P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+measurements, per star and per band, ranges from 600 to 900 in               0.5
+these SMC fields.
+    After rejection of bad images (11%) due to bad seeing, high                       lm009
+sky background or instrumental problems, the average numbers                          CCDs 0−3
+of measurements used in the analysis, per star and per band, are
+                                                                          ∆φ/φ
+about 430 and 780 in the LMC and SMC fields respectively.
+
+2.2. Template Images
+The production of light curves proceeded in three steps : tem-
+plate image construction, star catalog production from the tem-
+plates, and photometry of individual images to obtain the light
+curves.                                                                       0.0
+    The template images were obtained by co-adding 15 images                    16                                                    21
+                                                                                                                  R eros
+of each field; they were resampled so that the templates have
+twice as many pixels as the original images. The 15 images were              0.5
+chosen among the best ones available, i.e. with low sky back-
+ground, good seeing, and with a large number of stars (as esti-                       lm048
+mated from a quick first look algorithm). All images susceptible
+                                                                                      CCDs 0−3
+to enter the template construction were checked for the absence
+of long tracks, caused by satellites, planes or meteors. For tech-
+nical reasons linked to computing and to PSF variation within              ∆φ/φ
+one CCD, the CCD images were divided in four quadrants, such
+that there were in total 6272 template images (98 fields, 8 CCDs,
+4 quadrants, 2 passbands). In order to ensure relatively uniform
+zeropoints of the 6272 templates, we required that the first im-
+age used in template construction (to which the other 14 images
+were photometrically aligned) be registered within a short time
+interval with good and uniform sky conditions (23rd to 26th,                 0.0
+November 2000). For each field, the same epochs were used in                    16                                                    21
+                                                                                                                    R eros
+the construction of the templates in the two passbands.
+    The stars were identified on the template images using a          Fig. 2. The photometric precision as a function of Reros for the
+pseudo-image that we call a correlation image. Each pixel of          dense field lm009 (top) and the sparse field lm048 (bottom).
+this image contains the correlation coefficient of neighboring        Each point represents the r.m.s. dispersion of the measurements
+pixels of the template itself with a two-dimensional Gaussian         for a single star after elimination of outliers. The vertical line
+PSF. Each group of pixels satisfying some threshold value on the      shows the position of the bright-star magnitude cut (5) for the
+pseudo-image was retained as a star in the catalog. In previous       field, Reros = 18.23 for lm009 CCDs 0-3 and Reros = 19.7 for
+EROS-2 analyses, the thresholds were identical for all templates;     lm048 CCDs 0-3.
+this had led to over 20% failures in this cataloging step. The
+present analysis has chosen to progressively relax the thresholds
+when such failures occur; in this way, the cataloging step fail-      metrically aligned with the template. Then, imposing the star po-
+ures were drastically reduced. (The number of identified stars on     sition determined from the template image, PSF-fitting photom-
+fields using relaxed thresholds was lower on average.) The star       etry was performed for all stars by a linear least-squares method
+catalogs obtained from the template images in the two passbands       involving the star and all neighbors closer than 11 pixels, plus a
+were then merged. A star was retained only if it was detected         sky background. An estimate of the error on this flux measure-
+in both. The overall efficiency of the template plus star catalog     ment was computed that depends on the photon statistics and on
+construction was excellent; only 24 CCD quadrants could not be        the overall quality of the photometered image. Typical photo-
+processed out of a total of 3136.                                     metric precisions are shown in Figure 2.
+    Examples of color-magnitude diagrams can be found in                   Before the analysis was started, we removed from the light
+Figures 7 to 10 and A.1 to A.5. They are all characterized by         curves measurements taken under far from normal conditions.
+a prominent group of clump giants and a main sequence whose           This happened not infrequently, as the data taking policy was
+relative strength varies from field to field. There are also stars    to work whenever possible, leaving to the analysis the task of
+that are redder than Magellanic red giants. Most of them are          rejecting these abnormal measurements. These were identified
+likely to be foreground stars in the disk of the Milky Way and        by extreme values of the sky background, seeing or absorption.
+their number is consistent with the predictions of Galactic mod-      In addition, images where the photometry failed for over 40%
+els (Robin et al. 2003).                                              of cataloged stars were eliminated, as well as images for which
+                                                                      more than 12% of the stars showed an excursion from their aver-
+2.3. Light Curves                                                     age flux larger than three standard deviations. Depending on the
+                                                                      CCD, the number of rejected images varied between 7 and 18%,
+Photometry was then performed on each image of a given quad-          with an average of 11%.6
+rant in turn with software specifically designed for crowded
+fields, PEIDA (Photométrie et Étude d’Images Destinées à            6
+                                                                           The largest single cause for rejection was the malfunction that af-
+l’Astrophysique) (Ansari et al. 1996b). First, the image was geo-     fected 5 CCDs of the Reros passband camera starting in January 2002.
+                               P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2                             5
+
+    To reduce systematic errors in the photometry, each light                  Limiting the number of studied objects limits the sensitivity
+curve was searched for significant linear correlations between             of the experiment so the magnitude cut must be a compromise
+the measured flux and three observational variables, the seeing,           between quantity and quality of objects. The efficiency calcula-
+the hour angle and the airmass. This was done independently in             tions of Section 7 for unblended sources indicated that keeping
+the two passbands. The measured fluxes were corrected linearly             only the ∼ 20% brightest stars reduces by only ∼ 50% the num-
+by requiring a vanishing correlation coefficient between the cor-          ber of simulated microlensing events that pass our selection cri-
+rected fluxes and the given variable. The largest correlation was          teria. We therefore initially decided to accept a nominal ∼ 50%
+found with the seeing, in both passbands. For the bright stars             loss of events by requiring Reros < Rmedian , where Rmedian is the
+considered in this work, the correction has only a small influence         median Reros for simulated unblended microlensing events pass-
+on the point-to-point dispersion of the lightcurves, reducing it on        ing our event selection criteria. Rmedian ranges from ∼ 18.2 in the
+average by 6%.                                                             densest fields to ∼ 20.5 in the sparsest. However, for sparse fields
+    A potential problem with this correction is that an artificial         far from the LMC bar, in order to have a reasonable object re-
+correlation can be induced if a real flux variation happens to oc-         construction efficiency, a stricter cut was found to be necessary,
+cur during a period of poor seeing (for example). In this case, ap-        Reros < 19.7.
+plication of the correction would reduce the amplitude of the real             The final sample of bright stars is therefore defined by
+flux variation but increase the point-to-point dispersion of the
+curve by making an incorrect flux correction. To guard against             16.0 < Reros < Rmax             Rmax = min(Rmedian , 19.7) .    (5)
+this possibility, we did not apply the correction if it increases the
+point-to-point dispersion of the light curves.                             The minimum magnitude Reros = 16 was chosen to avoid the
+                                                                           large number of variable stars brighter than this.
+                                                                               The position of the magnitudes cut are shown in the color-
+2.4. The Full Sample of Stars                                              magnitude diagrams of Figures 7 to 10 and A.1 to A.5. Generally
+                                                                           speaking, the cut includes clump giants but not the numer-
+A total of 58.4 million objects were found on the template im-
+                                                                           ous main sequence stars seen far below the clump. Other than
+ages of both passbands – 51.8 million in the LMC and 6.6 mil-
+                                                                           the small number of bright main sequence stars, we there-
+lion in the SMC. We chose to ignore those stars for which the
+                                                                           fore employ stars of colors and magnitudes similar to those
+association between the objects detected separately in the two
+                                                                           used in Galactic Bulge measurements that use clump giants
+passbands was doubtful or ambiguous (8.4 million) and objects
+                                                                           (Hamadache et al. 2006).
+that are dimmer than about twice the typical size of sky back-
+                                                                               It turns out that the cut (5) gives a rather uniform photo-
+ground fluctuations (14.9 million). We rejected light curves for
+                                                                           metric precision for the Bright-Star Sample. Figure 3 shows the
+which more than half of the photometry points are absent (1.0
+million). Finally, we did not consider stars whose photometry is           distribution of precision with a mean in both bands of ∼ 7%.
+                                                                           The precision in dense fields hardly differs from that in sparse
+unstable due to its environment. This includes stars close to a
+                                                                           fields and the precision in the LMC hardly differs from that in
+very bright field star (VJ < 10.1, probably in the Galactic disk)
+and stars close to a visible diffraction feature in the PSF of bright      the SMC.
+stars; these two categories contain respectively 1.1% and 0.8%                 The number of EROS-2 objects in the Bright-Star Sample
+of the remaining stars.                                                    defined by (5) is 6.05 million in the LMC and 0.90 million in the
+    We removed from consideration stars in field lm003,                    SMC. We must subtract from these numbers the expected num-
+CCD0 which has numerous events caused by light echos from                  ber of foreground stars in the Milky Way disk. The Besançon
+SN1987a. The echos generate arc-like images that appear to                 model of the Milky Way (Robin et al. 2003) predicts that 0.56
+move a few arcsec per year7 , causing false variations of a star’s         million (LMC) and 0.04 million (SMC) are foreground Milky
+flux as the arc passes through the star’s position.                        Way stars, consistent with the number of stars we observe that
+                                                                           are redder than Magellanic red giants. The number of Bright-
+    After these cuts, 33.4 million objects remained, 29.2 million
+                                                                           Sample stars to be used for optical depth measurements must
+in the LMC and 4.2 million in the SMC. This constitutes the
+                                                                           therefore be reduced by 9% (4%) for the LMC (SMC), giving
+Full Sample of EROS-2 stars. In the next section we describe the
+selection of the Bright-Star Sample used for the measurement of
+                                                                           Nob jects = 5.49 × 106 (LMC) ;                                  (6)
+optical depths.
+                                                                           Nob jects = 0.86 × 106 (SMC) .                                  (7)
+3. The Bright-Star Sample
+                                                                                We now show how we evaluate the effect of blending on the
+We have chosen to restrict our analysis to the Bright Sample of            Bright-Star Sample. For a given lens model (defined by the spa-
+stars defined below. Besides the obvious advantage of ensuring             tial, velocity and mass distribution of lenses), the expected num-
+a good photometric resolution, we do this to simplify the eval-            ber of detected events is
+uation of the number of expected events predicted by a model.
+In crowded fields, this evaluation is complicated by “blending”,                            Nstars
+                                                                                   2 T obs X
+i.e. the fact that photometry of a given object can be influenced          Nex =          τ        hǫi i                                   (8)
+                                                                                   π htE i i=1
+by more than one star. We shall see that these effects are rather
+small and simple to evaluate for the Bright-Star Sample (which
+                                                                           where T obs is the observing period, htE i is the mean Einstein ra-
+should, strictly speaking, be called the Bright-Object Sample).
+                                                                           dius crossing time given by the model, e.g. (3), and τ is the opti-
+We have thus chosen to reject all measurements taken in 2002 and 2003      cal depth. The sum is over all observed stars and the “efficiency”,
+for these 5 CCDs.                                                          hǫi i, is the expected ratio between the number of events passing
+  7
+     Using 1000 pictures of this region co-added by groups of 10, we       the selection cuts of Section 4 and the number of events with
+have produced a film that shows the motion of the light echos; it can be   u < 1 occurring during the observation period. The efficiency
+found at the URL http://eros.in2p3.fr/EchoesSN1987a/                       must be averaged over the tE distribution given by the model.
+6                               P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+                                                     entries 138677              If there were no blending, the efficiency could be estimated
+                    R eros                           mean 0.073              by modifying a sample of light curves with measured fluxes
+                                                     r.m.s. 0.047
+                                                                             F0 (t) by
+                                                                                               u2 + 2
+                                                                             F(t) = F0 (t) √            ,    u(t)2 = u20 + [(t − t0 )/tE ]2 ,  (10)
+                                                                                             u u2 + 4
+                                                                             where u(t) is the distance of the lens to the star’s line-of-sight
+                                                                             in units of the Einstein radius, u0 is this distance at the time,
+                                                                             t0 , of maximum amplification, and tE is the Einstein ring radius
+                                                                             crossing time. The modified lightcurves can then be subjected
+                                                                             to the selection criteria and the efficiency deduced by averaging
+                                                                             over tE and u0 .
+                                                                                   For blended events only a fraction α of an object’s flux is
+                                                                             amplified. If the fraction is independent of amplification, the re-
+    0.0                                                          0.5         sulting light curve is
+                                              ∆φ/φ
+                                                                                                            u2 + 2
+                                                                                             "                       #
+                                                                             F(t) = F0 (t) (1 − α) + α √               .                       (11)
+                                                     entries 138677                                       u u2 + 4
+                                                     mean 0.062
+                       B eros                        r.m.s. 0.048
+                                                                             The efficiency to see such events now depends on α: ǫi j = ǫi j (αi ).
+                                                                             Stars with small αi require a small impact parameter u0 to give
+                                                                             a sufficiently large reconstructed amplification. Since our selec-
+                                                                             tion criteria require a reconstructed amplification greater than
+                                                                             1.34 (u0 = 1 for α = 1), the primary effect of blending is to
+                                                                             reduce the efficiency by a factor ui (αi ), the impact parameter
+                                                                             needed for star i to produce a reconstructed amplification of 1.34.
+                                                                             The efficiency is reduced by this factor because of the flat a priori
+                                                                             u distribution. Additionally, the event appears shorter by a factor
+                                                                             ui further modifying the efficiency.
+                                                                                   A simple example is two superimposed stars of the same
+                                                                             magnitude and color. In this case α1 = α2 = 0.5 and u1 =
+                                                                             u2 ∼ 0.7. Before efficiency corrections, the event rate would be
+    0.0                                                          0.5         0.7 + 0.7 = 1.4 times the rate calculated ignoring blending. If
+                                              ∆φ/φ
+                                                                             the two stars have colors differing by ∆(B − R)eros = 0.7, the
+Fig. 3. The flux precision, ∆φ/φ, for the Bright-Star Sample (2%             requirement that Amax > 1.34 in both colors yields a rate that is
+of the sample are in the histograms). Each entry is the mean                 increased by a factor 1.3 over the rate for α = 1.
+flux uncertainty for a star on its light curve. The top (bottom)                   To statistically evaluate the distribution of the αi for Bright-
+histograms are for the Reros (Beros ) bands.                                 Sample objects, a spectrum of 8000 artificial stars was placed
+                                                                             at random positions on real EROS images (lm009, lm019,
+                                                                             lm034, lm048) to give artificial images (xm009, xm019, xm034,
+                                                                             xm048). These fields were chosen as representative of the
+                                                                             crowding variations over the LMC fields. The stars were given
+    EROS photometry is performed on a set of “objects” found                 fluxes according to randomly chosen microlensing events (one
+on a reference image. In crowded fields, the correspondence be-              per artificial star). Reference xm images were created using these
+tween objects and stars is not straightforward. Generally speak-             images and photometry performed in the same manner as for the
+ing, most objects are dominated by one star, i.e. by the brightest           normal (lm) images.
+star in the object’s seeing disk. However, if a fainter star in the                After photometry, the light curves of xm objects falling near
+seeing disk is microlensed, EROS photometry will assign some                 artificial stars were studied to find values of the αi . In practice,
+of the extra flux to the object with the remainder assigned to sky           one median value of α was calculated for each lightcurve us-
+background. It is thus convenient to rewrite (8) as                          ing points for which (A − 1)input > 0.5, though no nonlinearity
+                                                                             was observed that made this a crucial point. Of the 8000 artifi-
+                  Nobjects                                                   cial stars that were added to each of the four fields, most are not
+      2 T obs X X                                                            usable for various (understandable) reasons: star in a masked re-
+Nex =         τ       hǫi j i                                          (9)
+      π htE i                                                                gion of the CCD, event during a period with no observations,
+                j=1 i
+                                                                             or the reconstructed magnitude not satisfying the Bright Sample
+                                                                             cuts. For the field xm009, a total of 1123 lightcurves were usable
+where the second sum is over the stars i near the object j. The              for determining α. Of these lightcurves, 982 concerned objects
+efficiency, hǫi j i, is again the expected ratio (averaged over tE )         for which the artificial star is the primary component, while in
+between the number of microlensings of star i that pass selec-               the remaining 141 objects the artificial star falls underneath a
+tion cuts and the number of microlensings of star i with u < 1               preexisting bright object on the original image. We use the first
+occurring during the observation period. Since we do not know                type of object to determine the distribution of α1 , the value of α
+the stars in the seeing disk of each object, we must estimate the            for the primary star associated with each object.
+sum statistically using knowledge of the luminosity function. We                   Figure 4 (top) shows the distribution of α1 for the dense field
+will see that sum is dominated by the brightest star, i = 1, with            lm009 and the sparse field lm048. The other two fields give sim-
+contributions from the second brightest, i = 2, of order 10%.                ilar distributions. The distributions of α1 are characterized by
+                             P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2                                                7
+
+  200
+                                                    entries 982                                                                     entries 401
+              lm009                                 mean 0.858                         lm048                                        mean 0.861
+                                                    r.m.s. 0.237                                                                    r.m.s. 0.189
+                                                                          400
+
+
+
+  100
+                                                                          200
+
+
+
+
+          0           0.5               1.0         α1             1.5            0                   0.5                1.0     α1                1.5
+
+       1                                                                       1
+              lm009                                                                    lm048
+
+∆R
+                                                                         ∆R
+      −1                                                                   −1
+
+
+
+
+     −3                                                                       −3
+
+
+
+
+     −5                                                                       −5
+       0               0.5              1.0 α                      1.5          0                     0.5                                          1.5
+                                                1                                                                                α1
+
+     0.6                                                                  0.6
+              lm009                                                                    lm048
+α2                                                                       α2
+
+     0.4                                                                  0.4
+
+
+
+
+     0.2                                                                  0.2
+
+
+
+
+      0                                                                       0
+          0                             1.0                        1.5                                 0.5               1.0                       1.5
+                      0.5                     α1                                  0                                            α1
+
+Fig. 4. The effects of blending on artificial stars added to the dense field lm009 (left) and the sparse field lm048 (right). The top
+two panels show the distribution of α1 using artificial stars that do not fall under a brighter pre-existing object. Stars further than 2
+arcsec from the nearest pre-existing object are concentrated in the peak at α1 ∼ 1 while stars nearer to pre-existing objects form the
+tail at α1 < 1. The middle two panels show, for objects within 2 arcsec of pre-existing objects, the correlation between α1 and the
+difference in magnitude between the artificial star and the pre-existing object. Artificial objects with α1 significantly below unity
+are associated with pre-existing objects of similar magnitude. The line shows the expected relation for two superimposed objects:
+α1 = 1./(1. + 100.4∆R ). The bottom two panels show the distribution of (α1 , α2 ) with α2 calculated from (12) and the magnitude of
+the pre-existing object. The line shows the expected relation for two superimposed objects: α1 + α2 = 1.
+
+
+peaks at α1 ∼ 1 due to artificial stars falling more than ∼ 2 arcsec                  pre-existing stars, the correlation between α1 and the magnitude
+from any pre-existing lm object. This happens for about half the                      difference between artificial and pre-existing stars. The distribu-
+artificial stars in the densest field (lm009) so blending has little                  tion follows closely the expected form α1 = 1/(1 + f2 / f1 ) where
+effect on about half the bright stars in dense fields. Stars falling                   f1 is the flux of the artificial star and f2 is the flux of the preexist-
+on pre-existing stars yield the tail at α1 < 1. This can be seen in                   ing star. For example, when α1 ∼ 0.5 the cloud of points passes
+the middle plots that show, for artificial stars within 2 arcsec of                   near ∆R ∼ 0.
+8                             P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+      The mean value of α1 is ∼ 0.86 equivalent to a mean value             lm048
+                                                                                                                  entries 401
+of u1 of 0.92. This means that the (efficiency uncorrected) rate                                                  <u1>= 0.919
+                                                                                                                  <u1+u2>= 1.015
+of events with amplifications of the primary component greater
+than 1.34 is reduced by a factor 0.92 from the rate calculated
+assuming no blending.
+      The loss of 8% of the events is compensated by extra events
+due to stars under the primary component. Since α1 ∼ 1/(1 +
+ f2 / f1 ), we can expect that α2 ∼ 1/(1 + f1 / f2 ) for superimposed
+objects. However, the superposition is not perfect so α2 must be
+a decreasing function of the separation between the object and
+star 2. The artificial events due to artificial stars falling under
+brighter pre-existing objects are well described by
+              f2
+α2 (d) ∼           exp[−(d/d0)2 ]         d0 = 1.9 arcsec       (12)
+           f1 + f2                                                                                  1                              2
+                                                                        0                                 u1         u 1+u 2
+where f1 is the flux of the major component, f2 is the flux of the
+minor (amplified) component and d is the separation between the
+                                                                            lm009
+xm object and the minor component. This formula can then be                                                       entries 982
+                                                                                                                  <u1>= 0.916
+applied to the objects where the artificial star is the major com-                                                <u1+u2>= 1.116
+ponent since the flux and position of the minor component (on
+the original image) is known. In the bottom panels of figure 4
+we show αl vs.α2 for the fields lm009 and lm048. The anticorel-
+lation between αl and α2 means that the loss of events due to
+α1 < 1 is partially compensated by events from the second star
+on an object by object basis.
+    The compensation is seen in figure 5 histogramming u1 and
+u1 + u2 . The sum u1 + u2 gives the rate for event with amplifi-
+cations > 1.34 compared to that calculated assuming α = 1. In
+lm048, events due to the second star compensate for the loss of
+events on the first star while in the dense field lm009 there is
+a 10% overcompensation. As we will see in Section 7, the ef-
+                                                                        0                           1      u1        u 1+u 2       2
+ficiency to observe the blended events is degraded compared to
+unblended events, so the overall number of expected events is
+about 10% less than what one would calculate ignoring blend-                HST
+                                                                                                                  entries 112
+ing.                                                                                                              <u1>= 0.844
+    We have checked our calculations by studying public HST                                                       <u1+u2>= 1.175
+images of a small part of the densest EROS region, that of lm009
+ccd 3. A catalog of stars for this region was produced and images
+with EROS seeing were fabricated. As in the previous analysis,
+images with some amplifications were compared with reference
+images. Figure 5 shows the distribution of u1 for bright objects
+on the convoluted images. Because of the very high density of
+stars, u1 is somewhat smaller than that calculated with the artifi-
+cial images: hu1 i = 0.85 as opposed to hu1 i = 0.92. This lower
+value of u1 is, as expected, compensated by higher values of u2 .
+Figure 5 shows the histogram of u1 + u2 indicating that the event
+rate is raised by 15% over the unblended rate. Including the loss
+of efficiency modifies this so that the event rate is only 5% higher    0                           1      u1        u 1+u 2       2
+than the unblended rate.
+                                                                        Fig. 5. The distribution of u1 (solid line) and (u1 + u2 ) dashed
+4. Candidate selection from the Bright-Star Sample                      line for the sparse EROS field lm048 (top panel) the dense EROS
+                                                                        field lm009 (middle panel) and the very dense HST field in
+The present analysis aims at detecting luminosity excursions,           lm009, ccd3 (bottom panel) as described in the text. The dis-
+due to microlensing, on otherwise constant light curves. The            tributions of u1 are all characterized by a peak near u1 ∼ 1 and a
+smallest reachable microlensing timescale, tE , is determined by        tail at u1 < 1. With increasing star density, the mean of u1 +u2 in-
+the sampling of the fields; in practice, except for a few fields,       creases because of the increasing importance of secondary stars.
+the detection efficiency is very low below 2-3 days. The largest
+detectable timescale, about 800 days, is determined by the re-
+duction in the detection efficiency when the timescale becomes              In the present analysis, luminosity excursions are defined
+so large that the baseline flux is not seen during the observing        with respect to the baseline stellar flux; the first task is thus
+period.                                                                 to determine this baseline. To that end, we order the N mea-
+    The analysis is guided using the simulation of microlensing         sured fluxes Φi of the light curve by increasing values of Φ. For
+described in Section 7, which also serves to determine the effi-        each of the N − 1 middle values of the flux intervals Φi,mid =
+ciency of the selection procedure.                                      0.5(Φi + Φi+1 ), we count the number Nrun,i of runs, i.e. groups of
+                                  P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2                              9
+
+            cut                                LMC         SMC               tection efficiency for short duration phenomena, we allow small
+                                                                             “holes” within the excursion (series of points less than 1.5σ ptp
+            Bright-Star Sample               6052102      900809             from the baseline) provided that each hole contains exactly one
+            Filter (C1, C2, C3)                33876        5787             measurement. We call positive (negative) excursions those com-
+            LPN,pos,1 /LPN,pos,2 > 10 (C4)      6778         847             prised of fluxes higher (lower) than the baseline.
+            good χ2base (C5)                    2636         266
+                                                                                 The relative significance of each excursion is then estimated
+            t0 (C6)                             2065         195
+            N peak > 4 (C7)                     1624         149             using the probability that it corresponds to a statistical fluctua-
+            significant ∆χ2 (C8)                 350          32             tion of a normal law. We use the variable LPN , the co-logarithm
+            good χ2peak (C9)                     152          17             of this probability
+            BlueBumper (C10)                      10           4                                           i=N                     !!
+            SN (S < 0.3) (C11)                     7           4                                           X           1      xi
+            u0 < 1 (C12)                       1(SN)           1                              LPN = −            log     Erfc √         ,
+                                                                                                           i=1
+                                                                                                                       2       2
+Table 1. The number of light curves surviving the cuts C1 to                 where xi is the deviation from the baseline of the point taken at
+C12 as described in the text.                                                time ti , in units of its error σi , and N is the number of points
+                                                                             within the excursion. The excursions are ranked by decreasing
+                                                                             values of LPN (decreasing significance).
+                                                                                 We now describe the 12 selection criteria, C1-C12, used to
+    100
+                                                                             select microlensing candidates. C1 requires at least one signifi-
+                                                                             cant positive excursion:
+                    C1−7
+                    1773 events                                              C1 :     LPN,pos,1 > 20 .
+                                      C1−8
+                                      382 events                             The largest negative excursion should be much smaller than the
+                                                   C1−9                      largest positive one:
+     50
+                                                   169 events
+                                                                             C2 :     LPN,pos,1 /LPN,neg,1 > 10 .
+                                                                             There should be less than 10 excursions in total:
+                                                                             C3 :     Nexcursions < 10 .
+                                                                                  Cuts C1, C2 and C3 are applied independently in the two
+       0
+           0.                         1.0                          2.0       passbands and a star is retained for further analysis only if it
+                                                     u0                      passes the three cuts in both bands. There are 33876 LMC light
+                                                                             curves and 5787 SMC light curves that survive. The progression
+Fig. 6. The u0 (mean of those for Reros and Beros ) distribution             of the number of surviving light curves with the subsequent cuts
+for LMC and SMC light curves surviving cuts C1-C7, C1-C8,                    is shown in Table 1.
+and C1-C9. The positions of the 14 light curves surviving cuts                    All light curves passing C1 − 3 are fitted with a simple mi-
+C1-C10 are shown with the 4 supernovae as dashed lines.                      crolensing curve (10), independently in the two passbands. The
+                                                                             results of the fits, i.e. the fitted parameters t0 , u0 and tE and the
+                                                                             values of χ2 , are used in cuts C5-C10.
+consecutive points on the light curve that are on the same side                   Cuts C4 and C5 eliminate light curves with significant vari-
+of Φi,mid .8 The baseline flux is defined as that value of Φi,mid            ability outside the main positive excursion. We first require that
+which maximizes Nrun,i . This way of defining the baseline has               the second positive excursion be much less significant than the
+a precision similar to that of a simple average of the fluxes, but           first one:
+it proves much more robust to aberrant measurements, and less
+biased for most variable stars. We have checked on the simu-                 C4 :     LPN,pos,1 /LPN,pos,2 > 10 .
+lated microlensing light curves that there is no visible bias for
+timescales tE shorter than ∼ 200 d. The bias is non-negligible               To discriminate against low amplitude variations (either real or
+above 600 d, but this is taken into account in the efficiency cal-           due to photometric problems) we require that the normalized
+culation.                                                                    χ2base for a time independent light curve outside the main excur-
+    Next, we determine the point-to-point dispersion in the light            sion (points with u > 2) be sufficiently good:
+curve σ ptp , from the comparison of each measured flux with the
+linear interpolation of its two neighboring (in time) fluxes. This                    χ2base − Ndo f,base
+                                                                             C5 :        p                < 20 .
+is done separately for the 7 seasons of data taking, as we have                            2Ndo f,base
+observed a progressive degradation of the photometric scatter in
+the last 3 seasons.                                                          This cut may seem loose as it would correspond to cuts at 20
+    Using the baseline flux and the photometric scatter, we then             standard deviations, for a normal law. However, the errors we
+search for luminosity excursions defined as a group of consec-               use to compute χ2norm are only estimates of the actual errors. For
+utive points with fluxes sufficiently far from the baseline flux.            isolated stars, the errors are overestimated. The values of the cuts
+These should have at least 5 consecutive measurements more                   have thus been tuned using the simulated light curves, that have
+than 1.5σ ptp from the baseline. In practice, to increase the de-            the same uncertainties as the original data; the two cuts reject
+                                                                             about 10% of the simulated microlensing light curves.
+  8
+    Or, equivalently, Nrun,i is the number of times the time-ordered light       Cuts C6 and C7 require that the main fluctuation occur at a
+curve crosses the constant flux line at Φi,mid , plus one.                   time when the light curve is sufficiently well sampled. In order
+10                                 P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+to discriminate against stellar variations with very asymmetric              them, about 20%, the host galaxy is visible, which makes them
+peaks we thus require that the time t0 be within the observing               indisputable SN. In order to identify the remaining SN, we have
+interval:                                                                    devised a fitting function with a time asymmetry parameter S ;
+                                                                             the function reduces to simple microlensing for S = 0. The fit-
+C6 :     T beg + tE < t0 < T end − tE ,                                      ting function is obtained from simple microlensing (10) by re-
+where T beg and T end are the first and last date of EROS-2 obser-           placing the Einstein timescale tE by the “supernova” varying
+vations. We also require that there be more than 4 flux measure-             timescale
+ments within the main fluctuation (u < 2)
+                                                                                     "                      !#
+                                                                                                     t − t0
+                                                                             tS = tE 1 + S arctan              .                        (13)
+C7 :     N peak > 4 .                                                                                  tE
+
+     There are 1624 LMC light curves and 149 SMC light curves                For positive (negative) values of S , the rise time is faster (slower)
+that survive cuts C1-C7. Their distribution of u0 and those of               than the decrease time. When fitting this function to the remain-
+light curves satisfying subsequent cuts are shown in Figure 6. It            ing light curves, we expect to find S > 0 for the SN. Based on
+is seen that most light curves show only low amplitude variations            the study of the supernovae found in the Full Sample analysis
+with u0 > 0.6.                                                               and on simulated microlensing events, we choose to eliminate
+     We next require that the microlensing fit to the light curves           light curves with blue-band asymmetries by requiring
+in both passbands be significantly better than the fit of a constant         C11 :     S b < 0.30 .
+flux:
+                                                                             This cut eliminates 3 light curves from the Bright-Star Sample,
+         χ2ct − χ2ml          1                                              leaving 11 light curves, mostly with very small amplitudes, u0 >
+C8 :                                     > 40 ,
+         χ2ml /Ndo f
+                       p
+                           2Ndo f,peak                                       1. Since the u0 distribution for microlensing events is flat, the
+                                                                             events with u0 > 1 in Figure 6 must be mostly background. We
+where χ2ct and χ2ml are the chi-squared values for the constant fit          therefore require
+and the simple microlensing fits, and Ndo f and Ndo f,peak are the
+number of measured points in the full light curve and in the peak.           C12 :     u0 < 1.0 .
+The event is required to pass this cut in both passbands. This cut           This leaves two light curves. One of them is superimposed on a
+eliminates light curves that have low amplifications, poor sam-              clear background galaxy. It is therefore most likely a supernova
+pling, and/or poor photometric errors.                                       and we eliminate this event leaving one event to be discussed in
+    We then require a reasonably good fit to the microlensing                the next section.
+curve within the peak:
+         χ2peak − Ndo f,peak                                                 5. Candidate sample and verifications
+C9 :        p                < 10 .
+              2Ndo f,peak                                                    After the cuts described in the previous two sections have been
+    There are 152 LMC and 17 SMC light curves that pass cuts                 applied, only one candidate microlensing event remains in the
+C1-C9. As can be seen in Figure 6, almost all of these light                 Bright-Star Sample, EROS2-SMC-1. Its light curve is shown
+curves have u0 > 0.8. They are mostly bright main-sequence                   in fig. 7 and its characteristics are given on the first entry in
+stars that display low-amplitude variations that are difficult to            Table 2. It has been known since 1997 (Alcock et al. 1997b;
+distinguish from microlensing, though they often show ∼ 20%                  Palanque-Delabrouille et al. 1998) and is identical to candidate
+more variation in the red than in the blue. They were first men-             MACHO-97-SMC-1. It has one of the two longest timescales
+tioned in Alcock et al. (1997a) and are commonly called “blue                (103 d) and the highest luminosity of all published microlensing
+bumpers”.                                                                    candidates reported toward the Magellanic Clouds. The star is
+    We identify blue bumpers first from their position in the                separated by 1.6 arcsec from another star that is 1.2 mag fainter
+color-magnitude diagram and their low, chromatic amplification.              (Udalski et al, 1997) causing ∼ 30% blending in EROS-2 im-
+For stars with (B − R)eros < 0.2 and Reros < 18.6 (LMC) or                   ages. Including the blend in the light curve fit increases tE to
+Reros < 18.9 (SMC), we require                                               125 d.9 The star displays a 4-5% variability with a period P =
+                                                                             5.12 d (Palanque-Delabrouille et al. 1998). For further details on
+                                                  AR − 1                     this event, see Palanque-Delabrouille et al. (1998), Afonso et al.
+C10 :     min(AR , AB ) > 1.6            and             < 1.2 ,             (1999, 2003a) and Assef et al. (2006).
+                                                  AB − 1
+                                                                                 As a check on the cuts C1 − 12 leading to EROS2-SMC-
+where AR and AB are the maximum amplifications observed in                   1 and to search for nonstandard microlensing events (e.g. those
+the two bands. These two amplifications are taken to be the fitted           due to binary lenses), a large number of light curves were visu-
+amplifications at the time of the maximum observed amplifica-                ally scanned. Among them were all events satisfying C1-C8 and
+tion. This value is used since the fitted amplification at t = t0            u0 < 1, all events satisfying C1-C7 and u0 < 0.5, all events sat-
+may significantly overestimate a blue bumper amplitude if the                isfying C1-C10, and all events satisfying C1-C12 but with Rmax
+peak region is not well sampled.                                             increased by 0.2 mag. Only one interesting event was found,
+    There are 10 LMC light curves and 4 SMC light curves                     EROS2-LMC-15 shown in Figure 8. The beginning of the event
+that pass cuts C1-C10. Four of these light curves are most                   is very similar to a standard microlensing event but subsequent
+likely supernovæ (SN) exploding in galaxies far behind the                   points are too high.10 It was rejected by the χ2peak cut (C9) but it
+Magellanic Clouds. In the analysis of the Full Sample of EROS-
+2 Magellanic light curves (Tisserand 2004), 31 such supernovae                 9
+                                                                                 When blending is taken into account, this event has the longest tE
+were found. All SN in our sample have fitted timescales in the               of any published Magellanic event.
+range 25-50 days, asymmetric light curves with a faster rise time,            10
+                                                                                 OGLE-3 data confirm the high flux of the post-peak points (A.
+and larger variations in the bluer passband. For a fraction of               Udalski, private communication).
+                           P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2         11
+
+       sm0054m    5761           EROS2−SMC−1
+17.2                                                                     16
+                                           R 18.14
+                                           u0 0.52
+R                                          te 101.55
+                                           t0 460.53
+
+
+18.2
+                                                                R eros
+17.1                                       B 18.01
+                                           u0 0.53
+B                                          te 105.85
+                                           t0 458.95
+
+
+18.1
+   200                                                  2600
+17.2
+
+R
+
+
+18.2
+17.1
+B
+
+                                                                         22
+18.1                                                                          −0.5                (B−R)eros    1.0
+  250                            JD −2450000             700
+
+Fig. 7. The light curves of EROS-2 microlensing candidate EROS2-SMC-1 (star sm005-4m-5761). Also shown is the color-
+magnitude diagram of the star’s CCD-quadrant and the excursion of the event.
+
+       lm0570n     29305         EROS2−LMC−15
+15.5                                                                     15
+         R 18.29
+         u0 0.09
+R        te 27.51
+         t0 2350.05
+
+
+18.5
+16.5 B 19.05
+     u0 0.10                                                      R eros
+B    te 27.50
+     t0 2350.11
+
+
+19.5
+   200                                                  2600
+15.5
+
+R
+
+
+18.5
+16.5
+B
+
+                                                                         21
+19.5                                                                          −0.5                             1.0
+  2290                                                   2410                                     (B−R)eros
+                                  JD−2450000
+Fig. 8. The light curves of EROS-2 star lm057-0n-29305 (r.a.= 79.9488 deg, dec.= −70.7741 deg). Also shown is the color-
+magnitude diagram of the star’s CCD-quadrant and the excursion of the event.
+12                            P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+         candidate           EROS-2 star          r.a. (deg)   dec. (deg)    Reros    (B − R)eros   t0       tE      u0     χ2 /do f
+
+         EROS2-SMC-1         sm005-4m-5761        15.0233      -72.2507      18.14    -0.13         459.0    105.8   0.53   972.4/873
+                                                                                                    460.5    101.6   0.52   862.4/748
+         EROS2-SMC-5         sm006-6k-19475       12.6625      -72.6983      17.83    0.34          1414.8   29.5    0.90   485.1/875
+                                                                                                    1432.0   15.1    1.12   560.0/573
+         EROS2-LMC-8         lm055-7m-23303       76.6396      -71.6624      20.34    1.16          1594.1   15.3    0.01   344.0/572
+                                                                                                    1594.1   8.0     0.03   540.9/510
+         EROS2-LMC-9         lm042-1l-2622        75.3717      -65.0486      20.93    0.23          2204.1   57.8    0.36   640.8/369
+                                                                                                    2215.3   52.7    0.30   292.1/228
+         EROS2-LMC-10        lm045-5n-26323       80.9925      -65.8733      20.55    0.81          1600.3   37.1    0.33   580.0/505
+                                                                                                    1602.2   35.9    0.51   649.1/447
+         EROS2-LMC-11        lm061-4m-15782       88.4392      -71.2536      20.55    0.55          451.9    51.3    0.36   456.5/444
+                                                                                                    446.6    46.1    0.37   458.7/394
+         EROS2-LMC-12        lm085-6l-14234       89.8750      -74.5676      20.19    0.34          2664.0   49.6    0.27   580.4/391
+
+Table 2. Events found in the analysis of the full sample of EROS-2 stars (Tisserand 2004). Only event EROS2-SMC-1 is in the
+Bright-Star Sample and passes the cuts C1-C12 and therefore is used for limits on the optical depth. All fits assume zero blending
+and no intrinsic variability. The two values of the fitted parameters t0 , tE and u0 are for Beros (first line) and Reros (second line). (There
+are no Reros points during the event for EROS2-LMC-12.) The time of maximum, t0 is given as JD-2450000.
+
+
+
+
+may, in fact, be a lensing event due to a binary lens. Note that its        (MACHO-LMC-14 and 20) are seen in the EROS-2 images and
+position in the color-magnitude diagram suggests that the star is           give microlensing parameters compatible with those measured
+either not in the LMC or behind a foreground Milky Way star.                by MACHO (see Table 3).
+     An important verification of the analysis of the Bright-                   MACHO-LMC-14 was selected in the MACHO A analysis.
+Star Sample presented here comes from an analysis of the                    In EROS-2, it was located in a defective zone of 200 x 2000
+Full Sample of Magellanic light curves described in Tisserand               pixels on CCD 7 of our blue camera, near the edge of the mo-
+(2004). Because faint stars were analyzed, the cuts, given in               saic. The corresponding star was not cataloged in this band, and
+Appendix A, were generally slightly stricter than those described           the star failed the requirement to be observed in both passbands.
+in Section 4. However, the analysis did not require observation of          Consequently, it does not appear in Table 2.
+the event in both colors. It therefore provides an important check              MACHO-LMC-20 was selected in the MACHO B analysis.
+on our analysis. The candidates found in this analysis are listed           In EROS-2, it is located 35 arcsec from a very bright Galactic
+in Table 2 and their light curves shown in Appendix A. Two                  star (about V = 10 vs. 21 for the candidate). In this analysis,
+candidates EROS2-SMC-1 and 5 are in the Bright-Star Sample.                 stars too near bright stars were eliminated so this candidate does
+Candidate 5 does not pass the cuts presented here because it fails          not appear in Table 2.
+C12. We also note that it shows non-microlensing-like variations
+in the light curve of the MACHO collaboration11.
+     Two other independent analyses were performed on the SMC               6. The status of published Magellanic microlensing
+data, restricted to the first five years of data. In both cases, the
+only event found in the Bright-Star Sample was EROS2-SMC-1.                    candidates
+The first analysis, reported in Afonso et al. (2003a), was based            In this section, we review and update the status of the published
+on a larger set of stars (5.2 million); the number of analysis cuts         Magellanic microlensing candidates of the EROS and MACHO
+common to it and the present analysis is small; the computer pro-           collaborations.
+grams were written independently. The second analysis followed                  EROS has, in the past, used 11 candidates to place upper
+a complete reprocessing using a new implementation of differen-             limits on the optical depth toward the LMC and to measure the
+tial photometry developed by Le Guillou (2003). The technique               depth toward the SMC. Six of the candidates are in the Bright-
+would allow us to find events not on cataloged stars.                       Star Sample considered here. The candidates and their present
+     We attempted to check our efficiency for finding microlens-            status are given in Table 4.
+ing events by considering the events published by the MACHO
+                                                                                Of the candidates in Table 4 only EROS2-SMC-1 re-
+collaboration. The 13-17 events (Alcock et al. 2000b) used by
+                                                                            mains as a candidate microlensing event. The others have
+them to measure the optical depth toward the LMC are listed
+                                                                            been eliminated either because continued observations of the
+in Table 3. Only 2 of the 17 stars (MACHO-LMC-18 and 25)
+                                                                            same stars show further variability on the light curves, or be-
+are bright enough to be in our Bright-Star Sample. Three of
+                                                                            cause improved photometry, in some cases complemented by
+the 17 events occurred after the beginning of EROS-2 opera-
+                                                                            spectroscopy, lead to re-interpreting the candidates as vari-
+tions but none of these three events occurred on stars in our
+                                                                            able stars. Before the analysis presented here, the following
+Bright-Star Sample. One of the three (MACHO-LMC-15) was
+                                                                            EROS candidates were eliminated: EROS1-LMC-2, presented
+on a star too dim to be seen by EROS-2.12 The two other events
+                                                                            in Aubourg et al. (1993) and which displayed a new varia-
+ 11
+    http://wwwmacho.mcmaster.ca/Data/MachoData.html. There is no            tion 8 years later (Lasserre et al. 2000); and candidate EROS2-
+information at this site on the EROS-2 LMC candidates of Table 2 since      LMC-4, presented in Lasserre et al. (2000) and eliminated in
+none are in MACHO fields.                                                   Milsztajn et al. (2001).
+ 12
+     The 1.27 m telescope of the MACHO collaboration allowed them               Before this analysis started, there were 5 surviving LMC
+to use fainter stars than EROS-2 with its 1 m telescope.                    microlensing candidates from EROS, one from EROS-1 (num-
+                             P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2                                13
+
+      MACHO candidate               EROS-2 star        Reros    (B − R)eros     t0       tE                Amax          comments
+
+
+      MACHO-LMC-1                   lm019-6k-14879     18.97    0.61            -942.9   17.20             7.15
+      MACHO-LMC-4                   lm057-0l-27696     19.85    0.24            -353.1   22.70             2.92
+      MACHO-LMC-5                   lm057-0k-27469     19.97    1.52            -976.1   37.80             47.28
+      MACHO-LMC-6                   too faint                                   -802.9   45.80             2.43
+      MACHO-LMC-7                   lm010-2k-21383     20.47    0.52            -536.5   51.45             5.91
+      MACHO-LMC-8                   too faint                                   -612.2   33.20             2.19
+      MACHO-LMC-9 B-binary          lm001-0l-6864      20.92    0.83            -400.1   89.60             1.95
+      MACHO-LMC-13                  lm020-6m-19733     21.03    -0.07           134.0    50.05             2.36
+      MACHO-LMC-14                  lm002-7n-24616     18.84                    391.3    50.05 (38.2)      3.37 (2.77)
+      MACHO-LMC-15                  too faint                                   472.4    18.40             2.83
+      MACHO-LMC-18                  lm060-2n-16057     18.35    0.47            -217.2   37.10             1.54          Bright Sample
+      MACHO-LMC-20 B                lm012-5n-23157     20.09    1.03            774.7    36.35 (23.2)      2.95 (3.1)
+      MACHO-LMC-21                  dead zone                                   -786.8   46.60             5.64
+      MACHO-LMC-22 B                dead zone                                   -43.3    114.65            2.70
+      MACHO-LMC-23                  lm055-3n-4994      19.82    0.37            -237.7   42.60             2.41          variable (Fig. 10)
+      MACHO-LMC-25                  lm017-2m-2056      17.95                    -265.7   42.60             1.50          Bright Sample
+      MACHO-LMC-27 B                lm010-0n-23830     19.00    0.14            -485.9   25.25             1.45
+
+Table 3. The 17 microlensing candidates of the MACHO collaboration (Alcock et al. 2000b). Candidates 20, 22 and 27 (marked
+B) are low signal-to-noise candidates not satisfying the MACHO “A” requirements. Candidate 9 is due to a binary lens and does not
+satisfy their A requirements. The values of tE and maximum amplification Amax are from the MACHO fit assuming no blending, and
+t0 is given as JD-2450000. Candidates 18 and 25 are each within 1 arcsec of an object of similar magnitude that is resolved by the
+MACHO analysis but blended in the EROS analysis. Candidates 14 and 20 occurred during EROS-2 observations, and the EROS-2
+values of tE and Amax are shown in parentheses (averages of Reros and Beros measurements).
+
+
+
+    Candidate         EROS-2 star              Reros   (B − R)eros     original ref.              status
+
+
+    EROS1-LMC-1       lm058-2k-21915           18.75   0.34            Aubourg et al. (1993)      2nd variation (Tisserand 2004) (Figure 9)
+    EROS1-LMC-2       lm043-6m- 9377 B-S       19.32   -0.04           Aubourg et al. (1993)      2nd variation (Lasserre et al. 2000)
+    EROS2-LMC-3       lm034-6l-20493           20.90   0.61            Lasserre et al. (2000)     2nd variation (Tisserand 2004)
+    EROS2-LMC-4       lm018-6n-23236           19.10   1.87            Lasserre et al. (2000)     2nd variation (Milsztajn et al. 2001)
+    EROS2-LMC-5       lm015-3n-22431 B-S       19.17   0.14            Milsztajn et al. (2001)    Supernova (Tisserand 2004)
+    EROS2-LMC-6       lm067-5m-14700           21.01   0.63            Milsztajn et al. (2001)    Supernova (Tisserand 2004)
+    EROS2-LMC-7       lm070-3n-23389           21.00   0.76            Milsztajn et al. (2001)    Supernova (Tisserand 2004)
+    EROS2-SMC-1       sm005-4m-5761 B-S        18.13   -0.13           Palanque-D. et al.(1998)   Fig. 7
+    EROS2-SMC-2       sm001-6l-13221 B-S       19.56   0.44            Afonso et al. (2003a)      long period variable (Tisserand 2004)
+    EROS2-SMC-3       sm001-6n-16904 B-S       19.31   0.59            Afonso et al. (2003a)      long period variable (Tisserand 2004)
+    EROS2-SMC-4       sm002-7m-21331 B-S       19.48   0.32            Afonso et al. (2003a)      long period variable (Tisserand 2004)
+Table 4. The 11 events of the EROS collaboration used in the past to set upper limits on the microlensing optical depth toward the
+LMC and to measure the depth toward the SMC. Candidates marked “B-S” in column 2 occur on stars in the EROS-2 Bright-Star
+Sample. All candidates except EROS2-SMC-1 have been eliminated as variable stars or as supernovae.
+
+
+
+
+ber EROS1-LMC-1) and four from EROS-2 (numbered EROS2-                   between 1999 and 2002, of a more irregular nature, and was thus
+LMC-3, 5, 6 and 7).                                                      rejected.
+
+                                                                             The light curves of candidates EROS2-LMC-5, 6 and 7
+    The EROS-1 candidate EROS1-LMC-1 displayed a new                     have been improved, due to the better template images in the
+variation in the EROS-2 data (Figure 9) in 1998, 6.3 years after         present analysis. The reduced photometric scatter, compared
+the first one, of similar amplitude (a factor two) and timescale         to Milsztajn et al. (2001), made apparent an asymmetry in rise
+(27 days). This second variation is well fitted by a microlensing        and fall times; the asymmetry test (C11) allowed us to iden-
+light curve. Because they are separated in time by more than 80          tify and reject them as supernovæ. EROS2-LMC-5 is identical
+Einstein timescales, the probability that these two bumps corre-         to MACHO-LMC-26, which had been rejected by Alcock et al.
+spond to the microlensing of a double source star is lower than          (2000b) for the same reason.
+half a percent, even in the favorable case of the two stars being of
+equal luminosity. This candidate was thus rejected. Let us recall            The conclusion is that none of the former EROS LMC mi-
+that it was already known to be a Be star (Beaulieu et al. 1995)         crolensing candidates are still considered valid. Four displayed
+and was thus already suspected of being variable (Paczyński             further variability, and three were identified as SN thanks to im-
+1996). Candidate EROS2-LMC-3 also displayed new variations               proved photometry.
+14                              P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+    There have been four EROS-2 SMC candidates, EROS2-                                         0.6
+SMC-1 discussed in Section 5, and EROS2-SMC-2, 3 and 4
+presented in Afonso et al. (2003a). Candidates 2, 3 and 4 were
+described as doubtful candidates, as all three display very long
+timescale variations, and look more like irregular variable stars.                             0.4
+Another analysis of the same SMC data using differential pho-
+
+                                                                                  efficiency
+tometry (Le Guillou 2003) allowed us to reduce the photomet-                                                 SMC
+ric errors and substantiate this interpretation. The additional two                                                      LMC
+years of data since Afonso et al. (2003a) have confirmed this, as                              0.2
+further irregular variations have been observed. They are not se-
+lected in the present analysis, and are now considered as defini-
+tively rejected.
+    We have also searched for further variations in the 17
+                                                                                               0.0
+stars used by the MACHO collaboration to measure the opti-                                       0.0               1.0          2.0             3.0
+cal depth toward the LMC (Table 3). One of the candidates,                                                                     log(t E )
+MACHO-LMC-23, showed a further variation in the EROS-2
+data (Tisserand 2004), 6.8 years after its first variation in the           Fig. 11. The detection efficiency for unblended (α = 1) mi-
+MACHO data. Its EROS-2 lightcurve is shown in Figure 10. As                 crolensing light curves (10) as a function of tE for LMC (bold
+such, we can eliminate it as a microlensing candidate. In spite             line) and SMC (light line) fields. The efficiency applies to a
+of this, both the variation shown in Figure 10 and the original             2500 d total observing period. The efficiency used for calcula-
+variation in the MACHO data are quite achromatic, indicating                tion of the optical depth is the efficiency shown here, multiplied
+that achromaticity is not a fool-proof criterion for selecting mi-          by 0.9 to take into account lensing by binary lenses.
+crolensing events. We note however that Bennett et al. (2005)
+argued that, even without considering its further variation seen                                  1.5
+in the EROS-2 data, the form of its light curve made MACHO-
+                                                                                                                                           19
+LMC-23 a weak microlensing candidate.                                                                                                       9
+
+
+
+
+                                                                               (ε 1+ε 2)/ε(α=1)
+    The MACHO collaboration has also reported candidate                                                                                    34
+events found by their alert system. The most notable is                                                                                    48
+MACHO99-LMC-2 that was studied by Bond et al. (2002). This
+impressive microlensing candidate was on a star too faint to be                                   1.0
+in the EROS Full Sample.
+    Besides the 17 LMC events of the MACHO collaboration,
+they have reported two candidates in the SMC, though they
+have reported no systematic search for SMC events. The first                                             9
+                                                                                                        48
+MACHO SMC candidate (Alcock et al. 1997b) is identical to                                               34
+EROS2-SMC-1 (Section 5). The second candidate, MACHO-                                             0.5
+                                                                                                        19
+98-SMC-1, concerned a star too faint to be included in our Full                                     0.0            1.0          2.0             3.0
+Sample of SMC stars. The event was detected by the alert sys-                                                                  log(t E )
+tem of the MACHO group in May 1998 and a probable caustic                   Fig. 12. The ratio between the summed efficiency, ǫ1 (α1 )+ǫ2 (α2 )
+crossing due to a double lens was announced soon after. The                 and the unblended efficiency ǫ(α = 1) for pairs (α1 , α2 ) taken
+source star was monitored by most microlensing groups, includ-              from the artificial star analysis of Section 3. The ratio is a func-
+ing EROS-2. The second caustic crossing was fully measured,                 tion of tE . The four curves correspond to the four studied fields,
+which allowed the determination of the relative proper motion               lm009, 019, 034 and 048.
+between the lens and source, allowing one to conclude that the
+event was due to a lens in the SMC (Afonso et al. 1998, 2000).
+13
+
+                                                                            described by three parameters of (10): date of maximum amplifi-
+                                                                            cation t0 , impact parameter u0 and time scale tE . Blended events
+7. The detection efficiency                                                 have the additional parameter α in (11). The microlensing pa-
+To measure the optical depth from the detected events, or lim-              rameters are chosen at random: t0 follows a flat distribution over
+its on this quantity, we first need to evaluate the detection effi-         our 2500 days observing period, JD 2,450,242 till 2,452,742; u0
+ciency as a function of the time scale tE . This was determined by          is picked randomly between 0 and 1.2; and tE is chosen at ran-
+using Monte Carlo simulated light curves : we superimpose ar-               dom from a distribution flat in ln(tE ), between 1 and 1000 days.
+tificial microlensing events on a representative sample of light            Each star in the 2% sample is actually used thrice in the simu-
+curves, corresponding to 2% of the Bright-Star Sample from                  lation, once per decade in tE . The simulation takes into account
+each of the 98 monitored fields. The light curve for a simple mi-           the relative variation of photometric errors.
+crolensing event (i.e. point-source point-lens zero-blending) is                 Simulated light curves were then fed into the analysis chain
+ 13
+                                                                            to find the fraction that are recovered by our detection algorithm.
+       Note that there exists a third, unpublished, microlens-              The detection efficiency in a given tE bin, ǫ(tE ), is then given by
+ing     candidate     toward    the    SMC,       OGLE-2005-SMC-001
+                                                                            the ratio between the number of events passing all selection cri-
+(http://bulge.astro.princeton.edu/∼ogle/). Its long timescale ( > 150 d),
+large amplification ( > 12) and bright source (I = 18.2) offer the          teria in this bin and the number of microlensing events generated
+prospect of completely resolving the microlensing parameters degener-       in the same bin with u0 < 1.
+acy through measurements of lightcurve deformations, e.g. of that due            Figure 11 shows the LMC and SMC efficiencies for un-
+to parallax.                                                                blended events (α = 1) as a function of tE . For the range of
+                            P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2               15
+
+       lm0582k      21915       EROS1−LMC−1
+18.0                                                                   15
+        R 18.81
+        u0 0.56
+R       te 26.60
+        t0 858.90
+
+
+19.0
+                                                              R eros
+18.3 B 19.03
+     u0 0.56
+B    te 26.60
+     t0 858.90
+
+
+19.3
+   200                                                2600
+18.0
+
+R
+
+
+19.0
+18.3
+B
+
+                                                                       21
+19.3                                                                        −0.5                                1.0
+  800                                                  920                                   (B−R)eros
+                                JD−2450000
+Fig. 9. The EROS-2 light curve of EROS-1 microlensing candidate EROS1-LMC-1. The curve shows a second variation, 6.3 years
+after the variation observed in EROS-1. Also shown is the color-magnitude diagram of the star’s CCD-quadrant and the excursion
+of the event.
+       lm0553n     4994          MACHO−LMC−23
+18.3                                                                   15
+         R 19.82
+         u0 0.52
+R        te 55.70
+         t0 2233.50
+
+
+20.3
+                                                              R eros
+18.7 B 20.19
+     u0 0.46
+B    te 61.10
+     t0 2234.60
+
+
+20.7
+   200                                                2600
+18.3
+
+R
+
+
+20.3
+18.7
+B
+
+                                                                       21
+20.7                                                                        −0.5                                1.0
+  2100                                                 2350                                  (B−R)eros
+                                JD−2450000
+Fig. 10. The EROS-2 light curve of MACHO microlensing candidate MACHO-LMC-23. The curve shows a second variation, 6.8
+years after the variation seen by MACHO. Also shown is the color-magnitude diagram of the star’s CCD-quadrant and the excursion
+of the event.
+16                           P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+                  0.6
+
+
+
+
+                                                                           d Γ /dt E (arbitrary units)
+                  0.4                                                                                                   t E = 70days
+
+
+     efficiency
+
+                  0.2
+
+
+
+
+                  0.0
+                    0.0                                     1.0                                          0   50   100       150        200   250
+                                              u0
+                                                                                                                              t E (days)
+                  0.6
+                                                                       Fig. 14. The tE distribution dΓ/dtE expected for 1M⊙ lenses
+                                                                       in a spherically symmetric isothermal halo with core radius
+                                                                       5 kpc, i.e. the S model used by the MACHO collaboration
+                                                                       (Alcock et al. 2000b).
+                  0.4
+
+
+     efficiency                                                        lenses with caustic crossings are discriminated against, mostly
+                                                                       by C9. Of the 17 LMC events of the MACHO collaboration
+                  0.2                                                  (Alcock et al. 2000b) only 1 event, MACHO-LMC-9, is of this
+                                                                       type and would not pass our selection criteria. This event cor-
+                                                                       responds to ∼ 10% of their optical depth. We note also that to-
+                                                                       ward the Galactic Bulge ∼ 10% of the observed microlensing
+                  0.0                                                  events are due to binary lenses (Udalski et al. 2000a). To com-
+                    16            18                        20
+                                           R eros                      pensate for this loss of efficiency, we conservatively reduce the
+                                                                       efficiency of Figure 11 by a factor 0.9 when calculating limits on
+Fig. 13. The detection efficiency for simple microlensing light        the optical depth.
+curves (10) as a function of u0 (top) and of Reros (bottom) for
+LMC and SMC events in the range 10 d < tE < 200 d.
+                                                                       8. Limits on the abundance of machos
+tE of interest for this work, the efficiency varies from ∼ 0.25 at     The microlensing optical depth, τ, is defined as the probability
+tE = 10 d to ∼ 0.45 at tE = 200 d.                                     that any given star, at a given time, is amplified by at least 1.34,
+      Blended events have an efficiency that is reduced because an     i.e. with an impact parameter u < 1. From a set of Nev events, τ
+impact parameter smaller than unity is necessary to produce an         can be estimated from
+amplification of 1.34. The efficiency is also modified because
+the time scale is reduced. To sufficiently good approximation we                 πNev  tE 
+find                                                                   τ =                      ,                                      (15)
+                                                                             2Nstars T obs ǫ
+                  ui (2.18, αi )
+ǫi j (αi , tE ) ∼                ǫ(α = 1, ui (1, αi )tE )       (14)   where htE /ǫi is the mean tE divided by efficiency for the observed
+                       0.5                                             events.
+where ui (Amax , αi ) is the impact parameter necessary to produce          In the LMC we have found no events so we can only give an
+a maximum amplification Amax .                                         upper limit on τ by calculating the expected number of events
+      To evaluate the summed detection efficiency for a realistic      as a function of τ as given by (9). For this analysis we use the
+distribution of α1 and α2 we used the pairs from the artificial        tE distribution of the S model (Alcock et al. 2000b) shown in
+images of Section 3, Figure 4. Figure 12 shows the ratio between       Figure 14. It√relates htE i to the macho mass (assumed unique):
+the calculated sum (for the four studied fields) and the unblended     htE i = 70 d M/M⊙ . Limits using other halo models or macho
+efficiency. For tE = 40 d the efficiency is reduced by a factor        mass distributions can be found to often good approximation by
+ranging from 0.90 in the sparse fields lm048 and lm034 to 0.92         simply scaling (9) with ǫ(htE i)/htE i.
+and 0.97 in the denser fields lm019 and lm009. The brightest                The expected number of LMC events for τlmc = 4.7 × 10−7
+star, i = 1 accounts for 95% of the rate in the sparse fields and      as a function of lens mass, M, is shown in Figure 15a. For M =
+88% in the dense fields.                                               0.4M⊙ , we have htE i = 44 d, hǫi = 0.35, N star = 5.5 × 106 and
+      Figure 13 shows the efficiency for unblended events as a         T obs = 2500 d, giving 32 LMC events for EROS-2. We add 7
+function of u0 and of Reros for events with 10 d < tE < 200 d.         LMC events for EROS-1 to give a total of 39 expected events for
+The efficiency for the Bright-Star Sample has a much weaker            τlmc = 4.7 × 10−7 .
+dependence on u0 and Reros than that for the Full Sample. For               For no observed events (N < 3.0, 95% CL), the 95% CL
+the Full Sample the efficiency falls rapidly with increasing u0        upper limit on the optical depth is
+and Reros (Tisserand 2004).
+      The efficiencies in Figures 11 and 13 are for the detection of        τ                3
+microlensing events due to simple lenses. Events due to binary                  −7
+                                                                                   <                                                               (16)
+                                                                       4.7 × 10      Nex (4.7 × 10−7 )
+                                 P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2                                            17
+
+For 39 expected events, The upper limit is then τlmc < 0.36 ×                                      150
+10−7 . The limit on τlmc as a function of M is shown in Figure                                                 EROS−1+EROS−2
+15b. In the tE range favored by the MACHO collaboration, we
+
+
+                                                                                 (τ = 4.7 10 −7)
+find
+                                                                                                   100         EROS−2−LMC
+τlmc < 0.36 × 10−7 × 1 + log(M/0.4M⊙ )
+                                         
+                                               95%CL , (17)
+i.e.
+
+                                                                                     N events
+                            
+f < 0.077 × 1 + log(M/0.4M⊙)                95%CL ,                (18)                             50     EROS−1−Plates
+                            −7
+where f ≡ τlmc /4.7 × 10 is the halo mass fraction within the                                                                  EROS−2−SMC
+framework of the S model. This limit on the optical depth is
+significantly below the value for the central region of the LMC                                            EROS−1−CCD
+measured by the MACHO collaboration (Alcock et al. 2000b),                                           0
+                                                                                                     −8       −6        −4           −2        0          2
+τlmc /10−7 = 1.2+0.4
+                 −0.3 (stat.) ± 0.36(sys.) and the revised value of
+                                                                                                                                      logM= 2log( t E /70d)
+Bennett (2005), τlmc /10−7 = 1.0 ± 0.3. The Alcock et al. (2000b)                                  0.6
+optical depth used for the entire LMC predicts that EROS would
+see ∼ 9 LMC events whereas none are seen.
+    For the SMC, the one observed event corresponds to an opti-
+cal depth of 1.7 × 10−7 (Nstar = 0.86 × 106 ). Taking into account                                 0.4
+only Poisson statistics on one event, 0.05 < Nobs < 4.74 (90%
+
+
+                                                                               f = τ / 4.7 10 −7
+                                                                                                                                     MACHO
+CL) this gives
+                                                                                                                                     95% cl
+0.085 × 10−7 < τsmc < 8.0 × 10−7            90%CL .                (19)
+                                                                                                   0.2        EROS−2 + EROS−1
+This is consistent with the expectations of lensing by objects in                                             upper limit (95% cl)
+the SMC itself, τsmc ∼ 0.4 × 10−7 (Graff & Gardiner 1999). The
+value of tE = 125 d is also consistent with expectations for self-
+lensing htE i ∼ 100 d for a mean lens mass of 0.35M⊙ .
+                                                                                                   0.0                                                   2
+    We also note that the self-lensing interpretation is favored                                      −8      −6        −4           −2        0
+from the absence of an indication of parallax in the light curve                                                                      logM= 2log( t E /70d)
+(Assef et al. 2006).
+                                                                           Fig. 15. The top panel shows the numbers of expected events
+    We can combine the LMC data and the SMC data to give a
+                                                                           as a function of macho mass M for the S model of Alcock et al.
+limit on the halo contribution to the optical depth by supposing
+                                                                           (2000b). The expectations for EROS-2-LMC, SMC (this work)
+that the SMC optical depth is the sum of a halo contribution,
+                                                                           are shown along with those of EROS-1 (Renault et al. 1997) with
+τsmc−halo = ατlmc (α ∼ 1.4) and a self-lensing contribution τsl .
+                                                                           contributions from the photographic plate program (Ansari et al.
+(We conservatively ignore contributions from LMC self-lensing
+                                                                           1996a) and CCD program (Renault et al. 1998). The number of
+and from lensing by stars in the disk of the Milky Way.) For one
+                                                                           events for EROS-2-SMC supposes τ smc = 1.4τlmc . In the lower
+observed SMC event with tE = 125 d and zero observed LMC
+                                                                           panel the solid line shows the EROS 95% CL upper limit on
+events, the likelihood function is
+                                                                           f = τlmc /4.7 × 10−7 based on no observed events in the EROS-
+                                                                           2 LMC data and the EROS-1 data. The dashed line shows the
+                 h                               i
+L(τlmc , τsl ) ∝ ατlmc Γ′h (tE ) + τsl Γ′sl (tE ) exp [− N(τlmc , τsl )]
+                                                                           EROS upper limit on τlmc based on one observed SMC event in
+where N(τlmc , τsl ) is the total number of expected events (LMC           all EROS-2 and EROS-1 data assuming τsmc−halo = 1.4τlmc . The
+and SMC) as a function of the two optical depths as calcu-                 MACHO 95% CL. curve is taken from Figure 12 (A, no lmc
+lated with equation (8). The function Γ′h (tE ) is the distribu-           halo) of Alcock et al. (2000b).
+tion (normalized to unit integral) expected for halo lenses of
+mass M (Figure 14) and Γ′sl (tE ) is the expected distribution for
+SMC self-lensing taken from Graff & Gardiner (1999). We as-                of the Sagittarius Stream can be explained if the halo is close to
+sume the SMC self-lensing optical depth is that calculated by              spherical.
+Graff & Gardiner (1999) though the results are not sensitive to                A possible systematic error in our result could come from
+this assumption. For macho masses less than 1M⊙ , the likeli-              our assumption that the optical depth due to binary lenses is
+hood function is maximized for τlmc = 0 because there are                  small, 10% of the total. An alternative strategy would have been
+no LMC events in spite of the greater number of LMC source                 to relax the cuts so as to include the event shown in Figure 8.
+stars. For M < 0.1M⊙ the limit on the halo contribution ap-                We have chosen not to do this because the light curve itself is
+proaches that one would calculate for no candidates in either              not sufficiently well sampled to establish the nature of the event
+the LMC or the SMC because the observed tE of 125 d is too                 (other than that it is not a simple microlensing event) and also
+long for a halo event. The calculated upper limit is shown as              because of its anomalous position in the color-magnitude dia-
+the dashed line in Figure 15b. In the mass range favored by the            gram. We note also that the optical depth associated with the
+MACHO collaboration, the limit is slightly lower than that us-             event, τ = 0.7 × 10−8 , is a factor ∼ 4 below the upper limit (17).
+ing only the LMC data. The combined limit would be somewhat                    Another important question concerns the influence on our
+stronger if we assumed an oblate halo (α < 1.4) and somewhat               results of the Bright-Sample magnitude cut. Since the cut was
+weaker if we assumed a prolate halo (α > 1.4). Constraints on              not established before the event search, it is natural to ask if the
+the shape of the Milky Way halo were recently summarized by                position of the cut was chosen to give a strong limit. In fact,
+Fellhauer et al. (2006) who argued that the observed bifurcation           elimination of the cut would not change significantly the conclu-
+18                            P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+sions of this paper. Four additional events (EROS2-LMC-8, 9, 10         of the accompanying deformation of the lightcurve with respect
+and 11 from Table 2) were found with the analysis described in          to the simple microlensing lightcurve requires that the lens be in
+Appendix A. The baselines of the source stars of these events           the LMC. A second event, MACHO-LMC-9, is due to a binary
+are on average 0.9 magnitude below the Bright Sample cut. An            lens and the self-lensing interpretation can be avoided only by
+additional event (EROS2-LMC-12) with no Reros data during the           assuming that the source is also a binary system and that each of
+variation was found. The values of tE for these events are in the       the two widely separated components happened to land on the
+range 10-60 days, similar to those in the MACHO sample. The             caustic on the two successive observations made of the caustic
+optical depth associated with the four events seen in two colors        entrance (Alcock et al. 2000a).
+is (1.7 ± 0.6) × 10−8 (Tisserand 2004), not in contradiction with           If it turns out that the self-lensing rate is higher than the
+the limit from the Bright-Sample analysis. The 95% CL limit on          model estimates in the MACHO fields but still negligible in the
+the halo fraction is 12% at M = 0.4M⊙ . We prefer to use the            outer fields of the LMC, the disagreement between MACHO and
+limit from the Bright Sample for the reasons already mentioned:         this work is considerably reduced. Since only 1/3 of our Bright
+better understanding of blending and a superior photometry al-          Sample stars are in MACHO fields, the EROS-2 95% CL up-
+lowing better rejection of variable stars. Indeed, inspection of the    per limit on τ for the MACHO fields is the limit (17) multiplied
+light curves of EROS2-LMC-8-12 in Figures A.1-A.5 indicates             by a factor 3, consistent with the Alcock et al. (2000b) result as
+that most are not especially convincing candidates. An excep-           modified by Bennett (2005).
+tion is EROS2-LMC-8 but its position in the color-magnitude                 A possible explanation for the discrepancy that is similar
+diagram and strongly chromatic magnification indicate that the          to self-lensing is the possibility that the events are due to halo
+event is most likely due to a lens in the Milky Way disk.               lenses but the Halo is clumpy and that the MACHO-fields lie
+                                                                        behind a clump of size less than that of the EROS-2 fields. The
+                                                                        effect of a clumpy halo on the optical depth was discussed by
+9. Discussion of the results
+                                                                        Holopainen et al. (2006) though they did not discuss directly the
+The limits shown in Figure 15 rule out machos as the majority of        possibility that it could resolve the EROS-MACHO controversy.
+Galactic dark matter over the range 0.6 × 10−7 M⊙ < M < 15M⊙ .          At any rate, if this is the cause of the discrepancy, the EROS-2
+The limits are f < 0.04 for 10−3 M⊙ < M < 10−1 M⊙ and f < 0.1           result gives the more representative optical depth because it is
+for 10−6 M⊙ < M < 1M⊙ . We note that even stronger limits in            based on a larger solid angle.
+the range 10−7 M⊙ < M < 10−3 M⊙ were found (Alcock et al.                   The use of faint stars by MACHO may also give an explana-
+1998) by combining the data from the EROS-1 CCD program                 tion of the disagreement. Only two of the 17 MACHO candidates
+with those of the MACHO program. These data gave f < 0.07               (MACHO-LMC-18 and 25) are sufficiently bright to be in our
+for M ∼ 3 × 10−6 M⊙ . It should also be possible to improve limits      Bright-Star Sample. Of these two, MACHO-LMC-18 is in the
+in the range 10M⊙ < M < 100M⊙ by combining the results pre-             EROS Bright-Sample only because the EROS starfinder mixed
+sented here with the MACHO high mass results (Alcock et al.             two similar objects that are resolved by the MACHO starfinder.
+2001b). This may narrow the small remaining allowed ma-                     The use of faint stars by MACHO suggests two possible ex-
+cho mass range between the range excluded by microlensing               planations for the disagreement. The first would be contamina-
+and that excluded by the abundance of halo wide binary stars            tion by variable stars that, in our Bright-Star Sample, are either
+(Yoo, Chanamé and Gould 2004).                                         not present or identified as such because of superior photomet-
+    Initially, the EROS and MACHO programs were primar-                 ric precision. The low photometric precision for the faint LMC
+ily motivated by the search for halo brown dwarfs of mass               stars makes most of the events less convincing than the events on
+0.02 − 0.08M⊙ . Such objects are clearly ruled out as primary           bright stars in the Galactic Bulge or the one EROS event in the
+components of the Milky Way halo by Figure 15 (implying f <             SMC. Indeed, one of the MACHO A events, MACHO-LMC-
+0.04) and the data of the MACHO collaboration (Alcock et al.            23, has been identified as a variable star by a second variation
+2000b).                                                                 in the EROS-2 data shown in Figure 10 (Tisserand 2004). As al-
+    The observation of 17 events by MACHO with htE i ∼ 40 d             ready noted, Bennett et al. (2005) argued that MACHO-LMC-23
+suggested the existence of machos of M ∼ 0.4M⊙ . Such ob-               was, in any case, a weak candidate and that its variability doesn’t
+jects could be invisible (e.g. primordial black holes) or faint (e.g.   call into question the nature of the other MACHO candidates.
+cool white dwarfs). However, the latter are not seen at the cor-        Indeed, some of the MACHO candidates are very convincing
+responding level in multi-color surveys (Gates et al. 2004) and         microlensing candidates. In particular, MACHO-LMC 1, 5, 9, 14
+high proper-motion surveys (Goldman et al. 2002; Reid 2005,             and 21 are strong candidates based only on MACHO photome-
+and references therein).                                                try while Bennett et al. (2005) argued that MACHO-LMC-4, 13
+    At any rate, the EROS limit (17) is significantly less than         and 15 are strong candidates because of high precision followup
+the MACHO result τlmc = 1.2+0.4             −7
+                                  −0.3 × 10 . However, there are
+                                                                        photometry. We might note, however, that of these candidates,
+considerable differences between the EROS and MACHO data                MACHO-LMC-14 is most likely due to LMC self-lensing and
+sets that may help to resolve the conflict. Generally speaking,         MACHO-LMC-5 is due to lensing by a normal red-dwarf star in
+MACHO uses faint stars in dense fields (1.1 × 107 stars over            the disk of the Milky Way (Alcock et al. 2001d; Gould 2004).
+13.4 deg2) while EROS-2 uses bright stars in sparse fields (0.7 ×           The second possible explanation related to the use of faint
+107 stars over 84 deg2). Of these bright EROS-2 stars, 0.2 × 107        source stars is the large blending effects that must be understood.
+are in MACHO fields.                                                    Alcock et al. (2000b, 2001a) suggest a 30% systematic error to
+    The use of dense fields by the MACHO group suggests that            reflect this uncertainty. The experience with the use of faint stars
+the higher MACHO optical depth may be due, in part, to self-            in the Galactic Bulge suggests that this uncertainty may be un-
+lensing in the inner parts of the LMC. This would contradict            derestimated, though in principle the star distribution is better
+LMC models (Mancini et al. 2004) which suggest that only 1-             understood in the LMC than in the Bulge. At any rate, the exten-
+3 MACHO events should be expected to be due to self-lensing.            sion of the limits presented here, either by EROS or by OGLE-3
+In fact, MACHO-LMC-14 is known to be due to self-lensing                or SuperMACHO, will require the use of faint stars and a good
+(Alcock et al. 2001c) because it has a binary source and the form       understanding of blending.
+                                    P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2                                             19
+
+Acknowledgements. Over the last 17 years, the EROS collaboration has prof-            changed the PSF. Faint stars near a diffraction feature in the PSF
+ited from discussions with members of the MACHO collaboration, especially             of bright stars were affected; this was seen as light curves with
+Charles Alcock (who introduced us to machos and microlensing), Dave Bennett,          two plateaus, one (higher) before and one (lower) after May
+Kim Griest and Chris Stubbs. We thank Annie Robin for help with the Galactic
+model calculations. We are grateful to the technical staff of ESO, La Silla for the   1998. A rather complicated algorithm was developed to iden-
+support given to the EROS-2 project. We thank J-F. Lecointe and A. Gomes for          tify such light curves. It relies mostly on the relative flux val-
+the assistance with the online computing and the staff of the CC-IN2P3, espe-         ues of the two stars, their distance and the relative height of
+cially the team in charge of the HPSS storage system, for their help with the data    the two plateaus in the light curve. The details can be found in
+management. AG was supported by grant AST-0452758 from the NSF and JA
+by the Danish Natural Science Research Council. Finally, we thank the referee
+                                                                                      (Tisserand 2004) but we note that it affects our efficiency only
+for questions and comments that led to significant improvements in this paper.        for tE > 150 d.
+                                                                                      c9 :       no influence of telescope realignment
+Appendix A: Candidate selection for the full sample
+                                                                                          At this point we accepted only light curves that passed crite-
+In this paper we have concentrated on the analysis of the Bright-                     ria c1 − c9 in both colors:
+Star Sample of stars because this leads to the most reliable limits
+of the optical depth. A search for microlensing events on the                         c10 :       c1 − c9 red and blue
+full sample of stars was also performed (Tisserand 2004). The                                Criterion c11 is similar to C7:
+candidates found in this search are listed in Table 2 and displayed
+in Figures A.1-A.5. In this section we list the selection criteria                    c11 :       N peak > 4 ; ≥ 2 points in rise ; ≥ 2 points in fall .
+leading to this set of candidates.
+    The criteria are very similar to those described in Section 4                         The remaining cuts follow closely the cuts for the Bright-
+for the Bright-Star Sample. However, the problems encountered                         Star Sample
+with analyzing low precision light curves necessarily led to more                     c12 = C6
+complicated criteria to avoid the many spurious events caused by
+photometric problems. In all, 17 criteria, c1 − c17, were applied                     c13 :       u0r < 1 or u0b < 1
+compared to the 12 criteria, C1 − C12, applied to the Bright-Star
+Sample.                                                                                            χ2ct − χ2ml          1
+    The first four criteria are identical to those applied to the                     c14 :                                        > 50 in R or B .
+                                                                                                  χ2ml /Ndo f
+                                                                                                                 p
+Bright-Star Sample:                                                                                                  2Ndo f,peak
+
+c1 = C1         c2 = C2         c3 = C3          c4 = C4 .                            Criterion c15 eliminates light echos from SN1987a by requiring
+    We then required that the total amplitude of luminosity vari-                     c15 :       Distance event − SN1987a > 30 arcmin .
+ation along the light curve be greater than 5 times the point-to-
+point dispersion, σbase in the light curve, recomputed after ex-                      Finally, c16 and c17 are the blue bumper and supernovae crite-
+cluding the most significant excursions:                                              ria C10 and C11 supplemented by a visual rejection of events
+                                                                                      superimposed on background galaxies.
+c5 :      F5max − F5min > 5σbase .                                                        The first six events in Table 2 passed the cuts c1-c17. A
+Here F5max and F5min are the maximum and minimum fluxes av-                           monochromatic analysis was performed where c10 was removed
+eraged over any 5 neighboring measurements.                                           and candidates were only required to pass the other criteria in ei-
+    For excursions with a regular variation, the point-to-point                       ther of the two colors. About 500 events were scanned by eye.
+dispersion of the measured fluxes within the excursion, σ ptp,exc ,                   Only one event, EROS2-LMC-12, was found, the others being
+obtained from the comparison of each measured flux with the                           due to photometric problems or long period variable stars.
+linear interpolation of its two neighbors (in time), is normally
+smaller than the global dispersion, σexc , i.e. the width of the dis-                 References
+tribution of all fluxes within the excursion. To exclude irregular
+variations, we require that their ratio be sufficiently small;                        Afonso, C., Albert, J. N., Alard, C. et al. (EROS-2 coll.), 1998, A&A, 337, L17
+                                                                                      Afonso, C., Alard, C., Albert, J.N. et al. (EROS-2 coll.), 1999, A&A, 344, L63
+         σ ptp,exc                                                                    Afonso C., Alard, C., Albert, J.N. et al. (EROS-2 , MACHO -GMAN , MPS ,
+c6 :               < 0.90 .                                                              OGLE and PLANET colls.), 2000, ApJ, 532, 340
+          σexc                                                                        Afonso, C., Albert, J. N., Andersen, J., et al. (EROS-2 coll.) 2003a, A&A, 400,
+    Cuts c4 − c6 are applied independently in the two passbands.                         951
+                                                                                      Afonso, Albert, J. N., Alard, C., et al. (EROS-2 coll.) 2003b, A&A, 404, 145
+Light curves are retained if they are selected in one passband                        Alcock, C. Allsman, R.A., Alves, D. et al. (MACHO coll.), 1997a, ApJ, 486, 697
+at least. This reduces the star sample to slightly less than 0.1%                     Alcock, C. Allsman, R.A., Alves, D. et al. (MACHO coll.), 1997b, ApJ, 491,
+(28,500 objects) of the full sample.                                                     L11
+    The next two criteria are similar to C5 and C9 applied to the                     Alcock, C. Allsman, R.A., Alves, D. et al. (MACHO and EROS-1 colls.), 1998,
+Bright-Star Sample                                                                       ApJ, 499, L9
+                                                                                      Alcock, C., Allsman R. A., Alves D. R., et al. (MACHO coll.) 2000a, ApJ, 541,
+              2             
+              χ − Ndo f                                                            270
+c7 :           
+                p             < 15 ,                                             Alcock, C., Allsman, R. A., Alves, D. R., et al. (MACHO coll.) 2000b, ApJ, 542,
+                    2Ndo f base                                                          281
+                                                                                      Alcock, C., Allsman, R. A., Alves, D. R., et al. (MACHO coll.) 2001a, ApJS,
+          2                                                                            136, 439
+          χ − Ndo f                                                             Alcock, C., Allsman, R. A., Alves, D. R., et al. (MACHO coll.) 2001b, ApJ, 550,
+c8 :        p                < 10 .                                                L169
+                    2Ndo f peak
+                                                                                      Alcock, C., Allsman, R. A., Alves, D. R., et al. (MACHO coll.) 2001c, ApJ, 552,
+                                                                                         259
+    The next cut, c9, deals with a background connected to the                        Alcock, C., Allsman, R. A., Alves, D. R., et al. (MACHO coll.) 2001d, Nature,
+realignment of the telescope optics in May 1998, which slightly                          414, 617
+20                         P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+     lm0557m     23303            EROS2−LMC−8
+16.00 R 20.34                                                      16.00
+      u0 0.03
+ R    te 8.00
+      t0 1594.10
+
+
+21.00
+                                                                  R eros
+17.00 B 21.51
+      u0 0.01
+ B    te 15.30
+      t0 1594.10
+
+
+22.00
+        200                                                2800
+16.00
+
+ R
+
+
+21.00
+17.00
+
+ B
+
+                                                                   22.00
+22.00                                                                      −0.25                                   1.25
+        1550
+                                                                                                    (B−R)eros
+                                   JD −2450000             1650
+
+Fig. A.1. The light curves of EROS-2 star lm055-7m-23303. Also shown is the color-magnitude diagram of the star’s CCD-quadrant
+and the excursion of the event.
+     lm0421l     2622             EROS2−LMC−9
+19.20 R 20.93                                                      16.00
+      u0 0.30
+ R    te 52.70
+      t0 2215.30
+
+
+21.20
+                                                                  R eros
+19.50 B 21.16
+      u0 0.36
+ B    te 57.80
+      t0 2204.10
+
+
+21.50
+        200                                                2800
+19.20
+
+ R
+
+
+21.20
+19.50
+
+ B
+
+                                                                   22.00
+21.50                                                                      −0.50                                   1.00
+                                                                                                    (B−R)eros
+        2100                       JD −2450000             2300
+
+Fig. A.2. The light curves of EROS-2 star lm042-1l-2622. Also shown is the color-magnitude diagram of the star’s CCD-quadrant
+and the excursion of the event.
+                           P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2               21
+
+     lm0455n     26323            EROS2−LMC−10
+19.20 R 20.55                                                      16.00
+      u0 0.51
+ R    te 35.90
+      t0 1602.20
+
+
+21.20
+                                                                  R eros
+19.70 B 21.35
+      u0 0.33
+ B    te 37.10
+      t0 1600.30
+
+
+21.70
+        200                                                2800
+19.20
+
+ R
+
+
+21.20
+19.70
+
+ B
+
+                                                                   22.00
+21.70                                                                      −0.50                                   1.00
+                                                                                                    (B−R)eros
+        1500                                               1700
+                                   JD −2450000
+Fig. A.3. The light curves of EROS-2 star lm045-5n-26323. Also shown is the color-magnitude diagram of the star’s CCD-quadrant
+and the excursion of the event. Note the visible asymmetry in the B light curve, possibly indicative of a supernova.
+
+        lm0614m    15782          EROS2−LMC−11
+19.00                                      R 20.55                 16.00
+                                           u0 0.37
+R                                          te 46.10
+                                           t0 446.60
+
+
+21.00
+                                                                  R eros
+19.30                                            B 21.11
+                                                 u0 0.36
+B                                                te 51.30
+                                                 t0 451.90
+
+
+21.30
+        200                                                2800
+19.00
+
+ R
+
+
+21.00
+19.30
+
+ B
+
+                                                                   22.00
+21.30                                                                      −0.50                                   1.00
+        350
+                                                                                                    (B−R)eros
+                                   JD −2450000             550
+
+Fig. A.4. The light curves of EROS-2 star lm061-4m-15782. Also shown is the color-magnitude diagram of the star’s CCD-quadrant
+and the excursion of the event.
+22                                 P. Tisserand et al.: Limits on the Macho content of the Galactic Halo from EROS-2
+
+     lm0856l     14234                      EROS2−LMC−12
+19.00 R 20.19                                                                       16.00
+      u0 100.00
+ R    te 49.60
+      t0 2664.00
+
+
+21.00
+                                                                                R eros
+19.00 B 20.54
+      u0 0.27
+ B    te 49.60
+      t0 2664.00
+
+
+21.00
+        200                                                              2800
+19.00
+
+ R
+
+
+21.00
+19.00
+
+ B
+
+                                                                                    22.00
+21.00                                                                                        −0.50                                                          1.00
+                                                                                                                              (B−R)eros
+        2550                                                             2750
+                                             JD −2450000
+Fig. A.5. The light curves of EROS-2 star lm085-6l-14234. Also shown is the color-magnitude diagram of the star’s CCD-quadrant
+and the position of the source’s baseline.
+
+
+Ansari, R., Cavalier, F., Moniez, M., et al. (EROS-1 coll.) 1996a, A&A, 314, 94          Palanque-Delabrouille, N., Afonso, C., Albert, J. N., et al. (EROS-2 coll.), 1998,
+Ansari, R. et al. (EROS-2 coll.) 1996b, Vistas in Astronomy, 40, 519                        A&A, 332, 1
+Assef, R.J., Gould, A., Afonso, C., et al 2006, ApJ, 649, 954                            Petrou, M., 1981. Ph.D. thesis, University of Cambridge
+Aubourg, É. et al., (EROS-1 coll.), 1993, Nature, 365, 623                              Popowski, P., Griest, K., Thomas, C. L., et al. (MACHO coll.) 2005, ApJ, 631,
+Bauer, F. et al. (EROS-2 coll.) 1997, Proceeding of the “Optical Detectors for              879
+   Astronomy” workshop, ESO                                                              Reid, I.N. 2005, ARA&A, 43, 247
+Beaulieu, J.-Ph., Ferlet, R., Grison, Ph. et al., (EROS-1 coll.), 1995, A&A, 299,        Renault, C., Afonso, C., Aubourg, E., et al. (EROS-1 coll.) 1997, A&A, 324,
+   168                                                                                      L69
+Bennett, D. P., Becker, A. C., & Tomaney, A. 2005, ApJ, 631, 301                         Renault, C., Aubourg, E., Bareyre, P., et al. (EROS-1 coll.) 1998, A&A, 329, 522
+Bennett, D. P. 2005, ApJ, 633, 906                                                       Riffeser, A., Fliri, J., Bender, R., et al. (WeCapp coll.) 2003, ApJ, 599, L17
+Bissantz, N. and Gerhard, O., 2002, MNRAS, 330, 591                                      Robin, A., Reylé, C., Derrière, S., & Picaud, S. 2003, A&A, 409, 523; and 2004,
+Bond, I.A., Rattenbury, N.J., Skuljan, J., et al. 2002, MNRAS, 333, 71-83.                  A&A, 416, 157
+Calchi Novati, S., Paulin-Henriksson, S., An, J., et al. (AGAPE coll.) 2005,             Sackett, P.D. and Gould, A., 1993, ApJ, 419, 648
+   A&A, 443, 911                                                                         Sumi, T., Wozniak, P. R., Udalski, A., et al. (OGLE coll.) 2006, ApJ, 636, 240.
+de Jong, J. T. A., Widrow, L.M., Cseresnjes, P., et al. (MEGA coll.) 2006, A&A,          Tisserand, P. 2004, Thesis Université de Nice, http://tel.ccsd.cnrs.fr/
+   446, 855                                                                              Udalski, A., Szymańsi, M., Kumiak, M., et al. (OGLE coll.), 1997, Acta Astron.,
+Evans, N.W. & Belokurov, V. 2002, ApJ, 567, L119                                            47, 431
+Fellhauer, M., Belokurov, V., Evans, N.W., et al. 2006, ApJ, 651, 167                    Udalski A., Zebrun K., Szymanski M., et al. (OGLE coll.) 2000a, Acta Astron.,
+Gates, E., Gyuk, G., Harris, H. C., et al. (SDSS coll.) 2004, ApJ, 612, 132                 50, 1
+Goldman, B., Afonso, C., Alard, C., et al. (EROS-2 coll.) 2002, A&A, 389, 69             Udalski, A., Szymanski, M., Kubiak, M., et al. (OGLE coll.) 2000b, Acta
+Gould, A. 2004, ApJ, 606, 319                                                               Astron., 50, 307
+Graff, D. & Gardiner, L.T. 1999, MNRAS, 307, 577                                         Uglesich, R.R., Crotts, A. P. S., Baltz, E.A., et al. (VATT coll.) 2004, ApJ, 612,
+Griest, K. 1991, ApJ, 366, 412                                                              877
+Hamadache, C., Le Guillou, L., Tisserand, P., et al (EROS-2 coll.) 2006, A&A,            Wood, A. and Mao, S. 2005, MNRAS, 362, 945
+   454, 185                                                                              Yoo, J., Chanamé J., and Gould, A. 2004, ApJ, 601, 311
+Han, C. and Gould, A. 2003, ApJ, 592, 172                                                Zaritsky Z., Harris J., Thompson I., and Grebel, E. 2004, AJ, 128, 1606
+Holopainen, J., Flynn, C., Knebe, A., et al., 2006, MNRAS, 368, 1209
+Joshi, Y.C., Pandey, A.K., Narasimha, D. & Sagar, R. (Nainital coll.) 2005,
+   A&A, 433, 787
+Lasserre, T. 2000, Thesis Université de Paris VI, http://tel.ccsd.cnrs.fr/
+Lasserre, T., Afonso, C., Albert, J.N.et al., (EROS-2 coll.), 2000, A&A, 355, L39
+Le Guillou, L. 2003, Thesis Université de Paris VI, http://tel.ccsd.cnrs.fr/
+Mancini, L., Calchi Novati, S., Jetzer, Ph., & Scarpetta, G. 2004, A&A, 427, 61
+Milsztajn, A. and Lasserre, T. (for the EROS-2 coll.), 2001, Nucl. Phys. B (Proc.
+   Suppl) 91, 413
+Paczyński, B. 1986, ApJ, 304, 1
+Paczyński, B., 1996, ARA&A, 34, 419
+

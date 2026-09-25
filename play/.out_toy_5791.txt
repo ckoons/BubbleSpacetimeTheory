@@ -1,0 +1,36 @@
+=== source strings ===
+  [PASS] r3/1807.06209.txt: '0.1200 ± 0.0012'
+  [PASS] r3/1807.06209.txt: '0.11933 ± 0.00091'
+  [PASS] r3/1807.06209.txt: '0.1430 ± 0.0011'
+  [PASS] dm/2503.14452.txt: '0.11790 ± 0.00085'
+  [PASS] dm/2503.14452.txt: '0.02256 ± 0.00011'
+  [PASS] dm/2111.09343.txt: 'Ωb /Ωm = 0.156 ± 0.034'
+  [PASS] dm/2111.09343.txt: 'Ωb /Ωm = 0.173 ± 0.024'
+  [PASS] dm/2111.09343.txt: 'Ωb /Ωm = 0.150 ± 0.021'
+  [PASS] dm/2204.12823.txt: '0.140+0.014'
+  [PASS] dm/1309.3565.txt: 'fbary = 0.144±0.005'
+
+=== (1) Omega_c/Omega_b vs 16/3 = 5.3333 (CMB epoch; uncorrelated errors) ===
+  Planck 2018 TT,TE,EE+lowE+lensing      R = 5.364 ± 0.065  pull -0.48σ   | f_b = 0.15713 (no ν), 0.15642 (with ω_ν = 0.000644)
+  Planck 2018 +BAO                       R = 5.322 ± 0.052  pull +0.21σ   | f_b = 0.15817 (no ν), 0.15745 (with ω_ν = 0.000644)
+  ACT DR6 P-ACT                          R = 5.302 ± 0.059  pull +0.52σ   | f_b = 0.15867 (no ν), 0.15796 (with ω_ν = 0.000644)
+  ACT DR6 P-ACT-L                        R = 5.291 ± 0.055  pull +0.77σ   | f_b = 0.15896 (no ν), 0.15824 (with ω_ν = 0.000644)
+  ACT DR6 P-ACT-LB (includes DESI BAO)   R = 5.226 ± 0.045  pull +2.36σ   | f_b = 0.16062 (no ν), 0.15988 (with ω_ν = 0.000644)
+  [PASS] 16/3 within 1 sigma of every CMB combination WITHOUT DESI BAO
+  [PASS] 16/3 is > 2 sigma from P-ACT-LB (the DESI-BAO combination) — reported, not hidden
+  Planck ω_b/ω_m (ω_m incl. 0.06 eV ν) = 0.15643 ± 0.00160  -> 3/19 pull +0.92σ
+
+=== (2) f_b vs 3/19 = 0.157895 (late epoch, clusters; systematics-limited) ===
+  Mantz+2022 low-z f_gas, h prior F01 (Table 2)           0.156 (+0.034/-0.034)  pull +0.06σ
+  Mantz+2022, h prior P18                                 0.173 (+0.024/-0.024)  pull -0.63σ
+  Mantz+2022, h prior R19                                 0.150 (+0.021/-0.021)  pull +0.38σ
+  Wicker+2023 CB (Table 2)                                0.140 (+0.014/-0.02)  pull +1.28σ
+  Gonzalez+2013 stars+ICL+gas r500 (no depletion corr.)   0.144 (+0.005/-0.005)  pull +2.78σ
+  NOTE: every cluster f_b inherits the depletion factor from simulations run in a Planck cosmology.
+
+=== (3) BBN epoch: omega_b only — f_b needs an external omega_m (not independent) ===
+  Pitrou 2021      ω_b = 0.02195  -> f_b = 0.1535 only with Planck's ω_m (mixes epochs; illustrative)
+  PDG 2025 SBBN    ω_b = 0.02205  -> f_b = 0.1542 only with Planck's ω_m (mixes epochs; illustrative)
+  Cooke 2018 D/H   ω_b = 0.02166  -> f_b = 0.1515 only with Planck's ω_m (mixes epochs; illustrative)
+
+SCORE 12/12

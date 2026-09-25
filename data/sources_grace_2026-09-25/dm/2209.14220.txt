@@ -1,0 +1,960 @@
+                                               New Constraints on Warm Dark Matter from the Lyman-α Forest Power Spectrum
+
+                                                                           Bruno Villasenor ,∗ Brant Robertson , and Piero Madau
+                                                                         Department of Astronomy and Astrophysics, University of California,
+                                                                             Santa Cruz, 1156 High Street, Santa Cruz, CA 95064 USA
+
+                                                                                                    Evan Schneider
+                                                                         Department of Physics and Astronomy & Pittsburgh Particle Physics,
+                                                                                Astrophysics, and Cosmology Center (PITT PACC),
+                                                                                University of Pittsburgh, Pittsburgh, PA 15260, USA
+                                                                                               (Dated: June 13, 2023)
+                                                              The forest of Lyman-α absorption lines detected in the spectra of distant quasars encodes infor-
+                                                            mation on the nature and properties of dark matter and the thermodynamics of diffuse baryonic
+
+
+
+
+arXiv:2209.14220v2 [astro-ph.CO] 9 Jun 2023
+                                                            material. Its main observable – the 1D flux power spectrum (FPS) – should exhibit a suppression on
+                                                            small scales and an enhancement on large scales in warm dark matter (WDM) cosmologies compared
+                                                            to standard ΛCDM. Here, we present an unprecedented suite of 1080 high-resolution cosmological
+                                                            hydrodynamical simulations run with the Graphics Processing Unit-accelerated code Cholla to
+                                                            study the evolution of the Lyman-α forest under a wide range of physically-motivated gas thermal
+                                                            histories along with different free-streaming lengths of WDM thermal relics in the early Universe. A
+                                                            statistical comparison of synthetic data with the forest FPS measured down to the smallest velocity
+                                                            scales ever probed at redshifts 4.0 <     <
+                                                                                                  ∼ z ∼ 5.2 [1] yields a lower limit mWDM > 3.1 keV (95 percent
+                                                            CL) for the WDM particle mass and constrains the amplitude and spectrum of the photoheating
+                                                            and photoionizing background produced by star-forming galaxies and active galactic nuclei at these
+                                                            redshifts. Interestingly, our Bayesian inference analysis appears to weakly favor WDM models with a
+                                                            peak likelihood value at the thermal relic mass of mWDM = 4.5 keV. We find that the suppression of
+                                                                                                                     −1
+                                                            the FPS from free-streaming saturates at k >  ∼ 0.1 s km because of peculiar velocity smearing, and
+                                                            this saturated suppression combined with a slightly lower gas temperature provides a moderately
+                                                            better fit to the observed small-scale FPS for WDM cosmologies.
+
+
+                                                                I.   INTRODUCTION                               a powerful cosmological probe as it traces density fluctu-
+                                                                                                                ations, the underlying dark matter web-like distribution
+                                                 The Λ-cold dark matter (ΛCDM) cosmological                     (the “cosmic web”), and the ionization state and temper-
+                                              paradigm has been immensely successful at matching                ature of the intergalactic medium (IGM) at scales and
+                                              across cosmic time observations spanning physical scales          redshifts that cannot be probed by any other observable
+                                              from the horizon length [2] all the way down to galaxy            [9–12]. The primary statistic derived from spectroscopic
+                                              scales [e.g., 3–5], and a vast menagerie of hypotheti-            data is the 1D power spectrum (FPS) of the flux distri-
+                                              cal non-baryonic elementary particles has been proposed           bution in the forest – the Fourier transform of the frac-
+                                              to explain the astrophysical data [6]. Cold dark mat-             tional flux autocorrelation function in velocity space –
+                                              ter particles have negligible thermal velocities in the           which arguably provides the best tool for distinguishing
+                                              matter-dominated era and therefore clump gravitation-             between CDM and WDM models [13–17]. The FPS is
+                                              ally even on the smallest sub-galactic scales, a property         observationally-accessible over a wide range of redshifts,
+                                              that has caused persistent challenges with observations           involves the fundamental, well-known physics of the hy-
+                                              of the abundances and density profiles of dwarf galaxies          drogen atom, and is largely free from the uncertain bary-
+                                              in the local Universe [e.g., 7]. Warm dark matter (WDM)           onic physics (star formation, feedback, and metal cool-
+                                              is a simple modification of CDM that has been proposed            ing) that affects, e.g., the abundance of Milky Way satel-
+                                              to suppress small-scale power and alleviate some of these         lites and the central density cores of dwarf galaxies [18].
+                                              problems [8]. WDM particles of a few keV have signif-             Interpreting such observations requires expensive hydro-
+                                              icant intrinsic velocities from having decoupled as ther-         dynamical simulations of the IGM that cover an exten-
+                                              mal relics or been produced by non-equilibrium processes,         sive range of uncertain IGM photoionization and photo-
+                                              and one of the effects of their Mpc-range free-streaming          heating histories and consistently maintain high resolu-
+                                              length is to limit the gravitational collapse of structures       tion throughout a statistically representative sub-volume
+                                              and produce a cut-off in the matter power spectrum.               of the Universe, a traditional limiting factor in previous
+                                                 Intergalactic hydrogen at redshift 2 <     <                   analyses [e.g., 14, 19–22]. At present, the tightest lower
+                                                                                        ∼ z ∼ 5 scatters
+                                              Lyman-α radiation and produces absorption features in             limit to the mass of a thermal WDM relic, mWDM > 1.9
+                                              the spectra of distant quasars. This “Lyman-α forest” is          keV (95 percent CL), is obtained for highly conserva-
+                                                                                                                tive thermal histories of intergalactic gas and without a
+                                                                                                                marginalization over the properties of the cosmic ionizing
+                                                                                                                background [17].
+                                              ∗ brvillas@ucsc.edu
+                                                                                                                   In this Paper, we revisit these constraints in light of
+                                                                                                                         2
+
+recent measurements with the Keck and VLT telescopes           where x̄ is the comoving position at which the redshift
+of the Lyman-α FPS down to the smallest scales ever            from Hubble expansion is exactly z̄, and H(z̄) is the Hub-
+probed at redshifts 4 < ∼z<  ∼ 5 [1], using a massive suite    ble expansion rate. Line center in the rest frame of in-
+of 1080 high-resolution cosmological hydrodynamics sim-        tervening hydrogen occurs at velocity v = u + vp , which
+ulations that are part of the Cholla IGM Photoheating          is related to the observed frequency ν0 by
+Simulations (CHIPS) suite [23, 24]. High-redshift ob-
+servations provide better limits on the mass of a WDM                                               v
+particle, as free-streaming becomes more prominent in                           να = ν0 (1 + z̄) 1 +    .              (5)
+                                                                                                     c
+velocity space and the effect of the non-linear evolution
+of the matter density field – resulting in a transfer of       Because of peculiar velocities, a photon observed at ν0
+power from large scales to small scales – is weaker at         can have the same rest-frame frequency να at more than
+these epochs. There is also observational evidence for         one place in its trajectory from the quasar to the ob-
+a local minimum of the temperature of the IGM – and            server.
+therefore a corresponding minimum in the thermal cut-             In practice, only a limited range of u values con-
+off length scale – in the redshift range 4 < z < 5 [24, 25],   tributes to τv , and one can replace in Equation (3)
+making this era an optimal epoch for deriving bounds on        H(z) with H(z̄). We can then define the flux contrast
+dark matter properties.                                        δF (v) = F (v)/⟨F ⟩−1, where F (v) = exp(−τv ) is the flux
+                                                               at velocity v and ⟨F ⟩ is the mean transmitted flux at a
+                                                               given redshift, and decompose each absorption spectrum
+           II. BASIC EQUATIONS AND                             into Fourier modes δ̃F (k). Their variance as a function of
+            CHARACTERISTIC SCALES                              the Fourier wavenumber k = 2π/v is the FPS over some
+                                                               velocity interval ∆v,
+   The hydrogen and helium photoheating Hi and pho-
+toionization Γi rates per atom i depend on the intensity                          PF (k) = ∆v⟨δ̃F (k)2 ⟩,              (6)
+of a uniform UV background radiation field J(ν, z) as
+                                                               which is commonly expressed in terms of the dimension-
+                        Z ∞                                    less quantity ∆2F (k) = kPF (k)/π.
+                       J(ν, z)                                    Four physical effects (cf. [16]) act to erase small-scale
+       Γi (z) = 4π             σi (ν)dν,                 (1)
+                   ν     hν                                    power in the FPS:
+                  Z i∞
+                       J(ν, z)
+      Hi (z) = 4π              (hν − hνi ) σi (ν)dν,     (2)   1. Doppler broadening caused by gas thermal ve-
+                   νi    hν                                       locities along the line of sight. Assuming a Gaus-
+where νi and σi (ν) are the threshold frequency and pho-          sian smoothing kernel in the δ̃F (k) field of the form
+toionization cross-section, respectively. The total pho-          exp(−k 2 σth
+                                                                            2
+                                                                               /2), where σth = (kB T /mH )1/2 is the
+toheating rate H is summed over the species i = H I,              broadening velocity scale, a cut-off in the FPS arises
+                                                                  then at the proper wavenumber
+P I, and He II each of proper number density ni , H =
+He
+   i ni Hi . These rates, together with radiative recombi-                           1          −1/2
+nations, adiabatic compression, Compton and expansion                       kth =       = 0.11 T4    km−1 s,           (7)
+                                                                                    σth
+cooling, and the gas density and peculiar velocity fields
+shaped by gravity and by pressure forces, fully determine        where T4 ≡ T /104 K.
+the hydrogen Lyman-α absorption optical depth in veloc-
+ity space v [26],                                              2. Pressure support. Pressure smooths gas density
+                                                                  fluctuations in the spatial Fourier domain with a Gaus-
+                    Z
+                              nHI              2  2
+                                                                  sian kernel [27, 28]
+        τv = σα c        √          e−(v−u−vp ) /b du.   (3)
+                             πbH(z)                                            W (k̃, k̃F ) = exp(−k̃ 2 /k̃F2 ),       (8)
+Here, σα = πe2 f12 /(me c να ), να and f12 are the fre-
+quency and upward oscillator strength of the Lyman-α             where k̃ is a comoving wavenumber,
+transition, b = (2kB T /mH )1/2 is the Doppler parameter,                                      ap
+T the gas temperature, H(z) the Hubble parameter, u                            k̃F = g k̃J = g    4πGρ̄                (9)
+                                                                                               cs
+and vp are, respectively, the real-space coordinate (in km
+s−1 ) and the peculiar velocity along the line of sight, and     is the ‘filtering scale’, and k̃J is the wavenum-
+we have assumed a Gaussian profile. Denoting with z̄             ber corresponding to the Jeans scale. Here, cs =
+some mean redshift of interest, e.g. the redshift of a sim-      [5kB T /(3µmH )]
+                                                                                 1/2
+                                                                                     is the sound speed, µ is the mean
+ulation output or the average redshift of any given data         molecular weight (µ = 0.61 for an admixture of ionized
+subset, one can write                                            hydrogen and singly ionized helium), ρ̄ is the mean
+                                                                 total (dark matter plus baryons) mass density of the
+                               H(z̄)                             Universe, and a is the scale factor. The g factor ac-
+                 u(x) =                (x − x̄),         (4)
+                              (1 + z̄)                           counts for the fact that the filtering scale depends on
+                                                                                                                            3
+
+
+
+
+FIG. 1. Impact of particle free-streaming on baryonic structures at 0 < z < 5.2. The evolution of the gas density from a slice
+through the IGM was obtained from a subset of 8 CHIPS simulations where the mass of the warm dark matter particle mWDM
+was increased from 0.3 keV to ∞. All simulations assume the same gas thermal history from the best-fit model presented in
+[24]. Due to thermal pressure, the gas distribution is smoothed relative to the dark matter.
+
+
+  the prior thermal history of the IGM, and not just                g ∼ 4 − 10 at the redshifts 4 <         <
+                                                                                                      ∼ z ∼ 5.2 of interest
+  the instantaneous Jeans scale. Typically, g > 1 after             here [27]. Pressure filtering, always lagging behind the
+  reionization [28].                                                growth of the Jeans length, is therefore subdominant
+  Mapping the                                                       compared to the thermal broadening of the absorption
+              √3D filtering scale to a broadening velocity          spectrum [1, 29–31].
+  scale σF = 2 Ha/k̃F along the line of sight results in
+  a cut-off of the FPS at proper wavenumber                      3. Non-linear peculiar velocities in the gas. Pe-
+                     √                                              culiar motions smear power along line-of-sight (the
+                1      3g             −1/2                          “fingers-of-God” effect”) over a range of scales com-
+        kF =       ≃      = 0.06 g T4      km−1 s,    (10)
+               σF    2cs                                            parable with the one-dimensional velocity dispersion.
+                                                                    A fit to the results of numerical simulations with a
+  where the second equality is valid at high enough red-            Gaussian in Fourier space yields [32]
+  shifts. Under the physically-motivated assumptions                                                   1/2
+  that the gas temperature decays as 1/a after reion-                                      −1       k
+                                                                              σk = 0.25 km s                 .        (11)
+  ization completes around redshift z ∼ 6, the factor                                            km−1 s
+                                                                                                                        4
+             √
+  Setting k = 2σk , a cut-off in the FPS arises at proper      The volume and numerical size of the simulations corre-
+  wavenumber                                                   spond to L = 25 h−1 Mpc and N = 2×10243 cells and
+                                                               particles. All simulations were run on the Summit com-
+                     kv = 0.13 km−1 s.                 (12)    puting system at the Oak Ridge National Laboratory.
+                                                               The effect of a thermally produced WDM particle was
+4. Dark matter free-streaming. This effect can be de-          introduced by modifying the input transfer function fol-
+   scribed by the wavenumber, k̃1/2 , at which the WDM         lowing the fitting formula of [33], and no attempt was
+   matter power spectrum is suppressed relative to the         made to explicitly incorporate particle thermal velocities
+   CDM case by a factor of 2 [33],                             in the initial conditions [37]. WDM thermal velocities
+                           m       1.11                      will be only a few percent of the velocities due to grav-
+            k̃1/2 = 4.25
+                             WDM
+                                            Mpc−1      (13)    itational acceleration at the cosmic time of our initial
+                            1 keV                              conditions, and should not be important on the scales
+                                                               resolved by our simulations.
+  for a standard thermal relic. The conversion to
+                                                                  To compare the properties of the IGM in our simu-
+  a proper wavenumber in inverse km s−1 , kFS =
+                                                               lations to observations, we extracted synthetic Lyman-α
+  k̃1/2 /(aH), yields a cut-off in the FPS at
+                                                               forest spectra measuring H I densities, temperatures, and
+                m      1.11  6 1/2                         peculiar velocities of the gas using 4096 skewers randomly
+                     WDM
+   kFS = 0.05                          km−1 s.         (14)    distributed for each simulation along each axis of the box.
+                  1 keV        1+z                             The optical depth τv along each discretized line of sight
+                                                               was estimated as described in [23]. From the set of lines
+  Note how the free-streaming cut-off moves toward
+                                                               of sight, we computed the transmitted flux and the mean
+  larger scales (smaller k) at higher redshift.
+                                                               one-dimensional power spectrum of the fractional trans-
+   The numerical values of kth , kF , kv , and kFS above       mission (see §5.4 in [23] for a detailed description).
+suggest that free-streaming, thermal and velocity broad-
+ening effects all set in at similar scales. Thus, compar-
+ing the observations of the FPS to a large set of mod-                     A.   WDM Effects on the IGM
+els that accurately depict the suppression on the FPS in
+the non-linear regime associated to each of these mecha-          The impact of particle free-streaming on the gas den-
+nisms is critical to constrain the WDM particle mass. In       sity structure of the IGM at fixed thermal history is
+the following section, we present our grid of simulations      shown in Figure 1. The image displays a slice through
+that evolve a total of 1080 models, which simultaneously       the gaseous cosmic web at 0 ≤ z ≤ 5.2 generated from a
+vary the impact of free-streaming, Doppler broadening,         set of 8 simulations that vary the mass of the dark mat-
+and pressure smoothing. A comparison between our grid          ter particle mWDM increasing from 0.3 keV to ∞. The
+of models and the observed FPS will provide new con-           simulations follow the thermal history produced by the
+straints on the mass of the dark matter particle that, for     baseline photoheating and photoionization history pre-
+the first time, marginalize over all the important con-        sented in [24].
+founding physical effects.                                        The main effect of the free-streaming of keV parti-
+                                                               cles on the matter density distribution is to suppress the
+                                                               formation of small-scale structure, reducing the clumpi-
+                 III.   SIMULATIONS                            ness of the cosmic web. As free-streaming washes out
+                                                               small-scale inhomogeneities and decreases the concentra-
+   The simulations used in this work were performed us-        tion of overdense regions, baryon redistribution leaves an
+ing the GPU-native MPI-parallelized code Cholla [34],          excess (relative to CDM) of close-to-mean density gas
+and evolve the equations of hydrodynamics on a uni-            to permeate the IGM. Figure 2 (left) shows the change
+form Cartesian grid while simultaneously tracking the          in the volume-weighted probability distribution function
+non-equilibrium ionization states of hydrogen and helium       of the gas density at z = 4.6 for different mWDM cos-
+using the GRACKLE library [35]. A spatially uniform,           mologies compared to a CDM simulation with the same
+time-dependent UV radiation background was assumed             thermal history. The enhanced fraction of close-to-mean
+in the form of redshift-dependent photoionization and          density as a consequence of free-streaming increases the
+photoheating rates per ion, Γi and Hi , for the species H I,   opacity of the IGM to Lyman-α scattering. Figure 2
+He I, and He II. The initial conditions at z = 100 were        (right) shows the probability distribution function of the
+generated using the MUSIC code [36] for a flat cosmology       Lyman-α transmitted flux F along the skewer set for the
+with parameters h = 0.6766, ΩM = 0.3111, ΩΛ = 0.6889,          WDM and CDM runs at z = 4.6. The distribution of
+Ωb = 0.0497, σ8 = 0.8102, and ns = 0.9665, consistent          transmitted flux shifts to lower values with increasing
+with constraints from Planck data [2]. The initial condi-      free-streaming lengths. The arrows at the bottom of the
+tions for all runs were generated from identical random        figure display the decrease of the mean transmission ⟨F ⟩
+number seeds to preserve the same amplitude and phase          of the forest as mWDM decreases.
+for all initial Fourier modes across the simulation suite.        While free-streaming (in the regime mWDM ≥ 1 keV)
+                                                                                                                                 5
+
+
+
+
+FIG. 2. Left: Volume-weighted probability distribution function of the gas density at z = 4.6 in WDM cosmologies compared
+to ΛCDM. Due to free-streaming, gas that otherwise would collapse into small-scale structures redistributes on larger scales.
+This suppressed collapse shifts the peak of the distribution closer to the mean density ρ̄. Right: Gas redistribution in WDM
+cosmologies results in an increase of the Lyman-α scattering optical depth of the IGM and a decrease of the transmitted flux
+F . Arrows display the decrease of the mean transmission ⟨F ⟩ as mWDM decreases.
+
+
+changes the IGM opacity it has a negligible effect on its       photoionization and photoheating rates of [24] (hereafter
+density-temperature relation, often approximated with a         V22) as a template to generate different gas reionization
+power-law model T = T0 (ρ/ρ)γ−1 , and the parameters T0         and thermal histories. The V22 photorates are a modifi-
+and γ are virtually unchanged – for fixed photoionization       cation of the rates by [38] and were determined by run-
+and photoheating histories – from the CDM case.                 ning hundreds of cosmological simulations to produce a
+                                                                reheating history in agreement with observations of the
+                                                                hydrogen Lyman-α FPS as well as the effective opacity
+  B.   WDM Effects on the Flux Power Spectrum                   of the He II Lyman-α forest (see [24] for details).1
+                                                                   Our grid of models is based on three different transfor-
+   The suppression of small-scale density fluctuations          mations of the V22 fiducial rates:
+from free-streaming translates into a decrease of the
+small-scale FPS compared to CDM. Figure 3 shows the             1. We rescale the hydrogen (H I) and helium (He I) pho-
+dimensionless FPS of the Lyman-α transmitted flux,                 toionization rates Γi by a constant factor β. This
+π −1 kP (k), measured at z = 4.6 in simulations with dif-          rescaling mainly impacts the neutral hydrogen (and
+ferent WDM particle mass. The ratio of P (k) with re-              helium) fractions, changing the mean transmitted flux
+spect to the standard CDM case is depicted in the bot-             ⟨F ⟩ and therefore the overall normalization of the
+tom panel. Free-streaming affects the FPS differently on           FPS.
+small and large scales. On small scales, k >          −1
+                                           ∼ 0.02 s km ,
+the suppression of density fluctuations reduces power.          2. We modify the H I and He I photoheating rates Hi
+On large scales, k <             −1                                by rescaling the mean energy of the ejected photoelec-
+                    ∼ 0.02 s km , there is an increase             trons Hi (z)/Γi (z) by a factor αE . This modification
+of the overall normalization of P (k) associated with the
+reduction of the mean transmitted flux ⟨F ⟩.
+
+                                                                 1 In our modeling, the ionization and thermal evolution of the IGM
+                  C.   Simulation Grid
+                                                                  is primarily determined by the radiation emitted by star-forming
+                                                                  galaxies and active galactic nuclei (AGNs) over cosmic history.
+  To constrain WDM cosmologies, we have performed an              The photoionization and photoheating rates of [38] were com-
+unprecedented grid of 1080 high-resolution simulations            puted from the intensity of the UV background (UVB) radiation
+                                                                  field, which was in turn determined by the emissivity of the ra-
+(with L = 25 h−1 Mpc and N = 2×10243 ) for a variety of
+                                                                  diating sources. An improved treatment of the IGM opacity to
+particle masses mWDM and thermal histories of the IGM             ionizing radiation that consistently captures the transition from
+that alter the impact of free-streaming, Doppler broad-           a neutral to an ionized IGM was also adopted in [38]. This UVB
+ening, and pressure smoothing on the forest FPS. Here,            model, when applied to cosmological simulations, results in a
+we use the fiducial model for the hydrogen and helium             hydrogen reionization era that completes by redshift ∼ 6 (V22).
+                                                                                                                             6
+
+                                                                            TABLE I. WDM-CHIPS Simulation Grid
+
+                                                                        Parameter              Parameter Values
+                                                                       mWDM [keV] 1, 2, 3, 4, 5, 6, 8, 12, 20, 40, 80, CDM
+                                                                           β              0.6, 0.8, 1.0, 1.2, 1.4, 1.8
+                                                                          αE                0.1, 0.5, 0.9, 1.3, 1.7
+                                                                          ∆z                     -0.5, 0.0, 0.5
+                                                                      NOTE.- The grid of models consist of the 1080
+                                                                     possible combinations of the parameters θ =
+                                                                     {mWDM , β, αE , ∆z}. Each simulation evolves an L =
+                                                                     25h−1 Mpc and N = 2 × 10243 box.
+
+
+                                                                  reheating becomes dominant, however, only at z < 4 and
+                                                                  does not significantly impact the FPS at z ≥ 4.2. Accord-
+                                                                  ingly, we do not marginalize over the reionization history
+                                                                  of helium, and fix the He II photorates to those of V22.
+                                                                  We note that since our simulations assume a spatially-
+                                                                  uniform UV background, there are no couplings between,
+                                                                  e.g., the UV radiation field, the dark matter density, and
+                                                                  peculiar motions that would affect the interpretation of
+FIG. 3. Transmitted FPS at z = 4.6 from simulations that          our power spectrum results.
+vary the WDM particle mass at fixed thermal history. The             Each model in our simulation suite is therefore char-
+bottom panel displays the fractional difference relative to the   acterized by the four-dimensional parameter vector θ =
+CDM case. The suppression of small-scale structure due to         {mWDM , β, αE , ∆z}, and our parameter grid is shown in
+free-streaming results in reduced power compared to CDM           Table I. The range of dark matter masses were chosen to
+for k >             −1
+       ∼ 0.02 s km . On large scales, the increase of the         span from very light WDM (mWDM = 1keV) to CDM.
+overall normalization compared to CDM is associated with the      After running some test calculations the ranges of ther-
+excess of close-to-mean density gas and resulting reduction of
+                                                                  mal parameters (α, β) were chosen to encompass the pa-
+the mean transmitted flux ⟨F ⟩. The gray bands denote the
+regions that fall outside the observational measurements of       rameter space with large likelihood. The range of ∆z
+[1].                                                              shifts span about 200 million years of cosmic time around
+                                                                  the end of reionization. Full cosmological hydrodynami-
+                                                                  cal simulations were performed for all possible combina-
+   changes the temperature of the IGM and the impact of           tions of these four parameters, requiring the suite of 1080
+   thermal Doppler broadening on the small-scale FPS.             simulations used for our analysis.
+
+3. We change the timing of hydrogen reionization by off-
+   setting the H I and He I photoionization and photo-            D.     Effects of Model Variations on the Flux Power
+   heating rates by an amount ∆z – a value ∆z > 0                                        Spectrum
+   shifts reionization to earlier times. This shift affects
+   the time available for the IGM to cool by adiabatic
+                                                                     Suppression of small-scale fluctuations in the Lyman-α
+   expansion and respond to thermally induced pressure
+                                                                  forest can be attributed to decreased small-scale inhomo-
+   gradients, changing the impact of pressure smoothing
+                                                                  geneities in the intergalactic gas due to the free-streaming
+   on the small-scale FPS.
+                                                                  of WDM particles, but also to Doppler broadening of ab-
+  The transformations applied to the H I and He I pho-            sorption lines and pressure smoothing of gas overdensi-
+torates described above can be expressed as                       ties. Providing accurate constraints on the WDM parti-
+                                                                  cle mass from observations of the FPS requires differenti-
+                                                                  ating the impact that these processes have on P (k), and
+               Γi (z) → β ΓV22
+                           i   (z − ∆z),                          sampling over a dense set of models that simultaneously
+                                                          (15)
+               Hi (z) → β αE HiV22 (z − ∆z).                      vary the effect of each mechanism.
+                                                                     Figure 4 illustrates the impact on the FPS of free-
+In this work we shall compare the results of our simula-          streaming (left), thermal broadening (center), and pres-
+tions to observational determinations of the FPS in the           sure smoothing (right) at z = 4.6. Shown is the ratio
+redshift range 4.2 ≤ z ≤ 5.0. In the V22 model the IGM            of the P (k) measured in simulations that independently
+cools roughly adiabatically after reionization at z ∼ 6           vary the model parameters mWDM (left), αE (center)
+until AGNs begin to photoionize He II and heat inter-             and ∆z (right) to the P0 (k) measured from a simula-
+galactic gas at z ∼ 4.5, resulting in a local minimum of          tion that adopts the fiducial V22 model corresponding
+the IGM temperature at this epoch. The effect of He II            to a ΛCDM cosmology and parameters β = 1, αE = 1,
+                                                                                                                              7
+
+
+
+
+FIG. 4. Effects of free-streaming (left), thermal broadening (center) and pressure smoothing (right) on P (k) at z = 4.6,
+compared with the P0 (k) measured from a simulation that adopts the V22 fiducial model (ΛCDM, β = 1, αE = 1, and ∆z = 0).
+Gray bands show the regions outside the observational measurements from [1]. Free-streaming has the largest effect on the
+shape of P (k) relative to the fiducial CDM model, with suppression of 10 − 60% at k ∼ 0.1 s km−1 for mWDM ∼ 5 − 2 keV. On
+smaller scales the free-streaming suppression saturates due to peculiar velocities (see text and Figure 5). Thermal broadening
+of lines induces a 10 − 20% effect at k ∼ 0.1 s km−1 for mean IGM temperature changes of ∆T0 ∼ 1, 000 − 2, 000 K. Shifting
+the redshift of reionization by ∆z ∼ 0.5 leads to differences in the impact of pressure smoothing of 1 − 2% at k ∼ 0.1 s km−1 .
+
+
+and ∆z = 0. To isolate small-scale effects, for this com-        continues to k ∼ 0.2 s km−1 . Figure 5 displays the ra-
+parison the Lyman-α optical depths of the skewers from           tio P (k)/PCDM (k) for simulations with WDM particle
+each simulation were rescaled to produce the same ⟨F ⟩ of        mass mWDM = 5 keV (blue) and mWDM = 4 keV (green).
+the fiducial model as this equalizes P (k) on large scales.      Dashed lines show the same ratio P (k)/PCDM (k) but in
+Additionally, for the simulations that vary ∆z (right), we       this case the FPS is computed from synthetic spectra in
+separate the impact of pressure smoothing by also rescal-        real space. Here, the effective opacity of the skewers of
+ing the instantaneous gas temperature along the skewers          the WDM simulations has been rescaled to match CDM
+to have the same value at mean density T0 as the fidu-           on large scales.
+cial model. Variations of the model parameter β mainly
+impact the ionization fraction of intergalactic hydrogen,
+changing the mean transmitted flux and thereby rescal-
+ing the overall normalization of the FPS. For a detailed
+analysis on this effect we refer the reader to Appendix B
+of [24].
+   As shown in Figure 4 (center), the effect from in-
+creasing/decreasing the IGM temperature is to sup-
+press/boost the FPS for k >                −1
+                             ∼ 0.01 s km relative to the
+fiducial model. On these scales P (k) is also altered by
+pressure smoothing (right). An earlier (later) reioniza-
+tion epoch suppresses (boosts) power as overdensities
+have more (less) time to respond to thermally-induced
+pressure gradients. Figure 4 also makes clear the small-
+scale P (k) behavior of WDM models (left) relative to
+the fiducial CDM model. On (quasi-)linear scales (e.g.,
+k < 0.1 s km−1 ), the effect on the power spectrum of in-
+creasing the WDM particle mass is well captured by the
+                                                                 FIG. 5. Suppression of P (k) due to free-streaming relative to
+exponential cut-off of Equation (14). The suppression
+                                                                 CDM at z = 4.6. The full lines show the ratio P (k)/PCDM (k)
+of P (k) due to free-streaming increases with decreasing         where P (k) has been measured from the Lyman-α transmitted
+mWDM , and extends to k ≥ 0.1 s km−1 where it saturates          flux computed in redshift space. For the dashed lines the
+owing to peculiar motions. We argue that this important          transmitted flux from the CDM and WDM case is computed
+feature could be key for constraining the nature of dark         in real space (ignoring peculiar velocities). In real space the
+matter.                                                          suppression of P (k) due to free-streaming continues to k >  ∼
+   Interestingly, we find that if P (k) is measured in con-      0.2 s km−1 , while in redshift space the suppression saturates
+figuration (‘real’) space instead of redshift space (ignor-      at k ∼ 0.1 s km−1 .
+ing gas peculiar velocities) then the suppression of P (k)
+                                                                                                                         8
+
+
+
+
+FIG. 6. Observational determination of P (k) in the redshift range 4.2 ≤ z ≤ 5.0 used in this work to constrain WDM
+cosmologies. The best-fit from the full WDM-CHIPS grid (purple) and the subset CDM grid (orange) are shown as lines
+and shaded regions which correspond to 95% confidence range of P (k) marginalized over the posterior distribution. From our
+analysis, the P (k) from WDM cosmologies with mWDM = 4.5 keV is preferred over the best-fit CDM model. We note that
+the WDM best-fit results in lower IGM temperatures compared to CDM (see Figure 10). The bottom panels show the ratios
+between the observations and the best-fit WDM FPS (blue points) and the best-fit CDM and WDM FPS (orange line), along
+with the WDM and CDM model 95% confidence intervals (shaded regions).
+
+
+  The comparison presented in Figure 5 suggests that pe-                         B.   MCMC Inference
+culiar velocities play an influential role shaping the struc-
+ture of the Lyman-α forest on small scales. We conclude            To constrain WDM cosmologies from the observations
+that for k >            −1
+            ∼ 0.1 s km peculiar velocities are more im-         of P (k), we use an MCMC approach to sample over our
+portant for shaping P (k) than free-streaming. Since pe-        suite of models and obtain best-fit distributions for our
+culiar velocities and thermal broadening on the smallest        parameters. The likelihood function for the model given
+scales affect WDM and CDM models similarly, the de-             by the parameters θ = {m−1
+                                                                                         WDM , β, αE , ∆z} is evaluated
+crease in P (k) from WDM relative to CDM saturates at           as
+k>∼ 0.1 s km .
+              −1
+
+
+                                                                               1 X  T −1                              
+        IV.    STATISTICAL COMPARISON
+                                                                 ln L(θ) = −         ∆ C ∆ + ln det(C) + N ln 2π ,
+                                                                               2 z
+                                                                                                                       (16)
+  In this section we present the observations of P (k) used     where ∆ denotes the difference vector between the obser-
+for this work and we describe the methodology used for          vational P (k) and the model ∆ = Pobs (z, k) − P (z, k|θ),
+the Bayesian approach used in this work to constrain the        and C corresponds to the covariance matrix associated
+models used for our simulation suite.                           with the observation of P (k) as reported by [1]. These au-
+                                                                thors have considered how systematic uncertainties may
+                                                                affect their covariance matrix, and find that the level of
+      A.    Observational Flux Power Spectrum                   potential systematics is <
+                                                                                         ∼ 1%. To compute P (z, k|θ) for
+                                                                arbitrary values of the parameters θ not directly sim-
+   For this work we employ observations of the Lyman-α          ulated by our grid, we perform a four-dimensional lin-
+forest power spectrum from the Keck observatory and the         ear interpolation of the FPS measured from the six-
+Very Large Telescope, presented in [1]. These measure-          teen neighboring simulations in parameter space. The
+ments represent the highest resolution determination of         methodology for our inference approach differs from pre-
+P (k) to date and probe the structure of the forest in the      vious works in a number of key respects:
+redshift range 4.2 ≤ z ≤ 5.0. Since the impact of free-
+streaming on P (k) is greater at high redshift the data set     1. Our WDM-CHIPS simulation grid captures a wide
+from [1] is arguably the most constraining determination           range of free-streaming lengths and UVB models to
+of P (k) to infer the nature of dark matter currently avail-       sample over a variety of cosmic structure formation
+able. The measurements of P (k) from [1] along our best-           and gas thermal histories, and thereby produce differ-
+fit determination obtained from our analysis are shown             ent statistical properties for the Lyman-α forest. Due
+in Figure 6.                                                       to the computational cost of the simulations, evolving
+                                                                                                                           9
+
+
+
+
+FIG. 7. Results from the Bayesian inference procedure, showing one- and two-dimensional projections of the posterior dis-
+tributions for the parameters θ = {m−1   WDM , β, αE , ∆z} recovered by fitting synthetic flux power spectra from our grid of
+WDM-CHIPS simulations to observations of the Lyman-α forest from [1]. Gray bands in the 1D distributions show the 1σ and
+2σ intervals. The marginalized likelihood for 1/mWDM peaks at 1/(4.5 keV). The preference for a non-vanishing free-streaming
+length is only weakly statistically significant, as the CDM case is contained within the 3σ interval of the distribution. Our
+main result is a lower bound mWDM > 3.1 keV at the 2σ confidence level.
+
+
+  such a large grid of high-resolution cosmological hy-         2. We evaluate the performance of a given model in
+  drodynamical simulations had not been achieved be-               matching the observations of P (k) by marginalizing
+  fore. With the advent of efficient numerical codes like          over the self-consistently evolved hydrogen reioniza-
+  Cholla and capable systems like Summit, it is now                tion history in the redshift interval 4.2 ≤ z ≤ 5.0. The
+  possible to simulate thousands of models.                        IGM thermal properties at one redshift cannot be dis-
+                                                                                                                         10
+
+
+
+
+FIG. 8. Results from our MCMC procedure, showing one- and two-dimensional projections of the posterior distributions for
+the UVB parameters θ = {β, αE , ∆z}. Here the sampling of models is restricted to the subset of 90 simulations that evolve a
+CDM cosmology. Gray bands in the 1D distributions show the 1σ and 2σ intervals.
+
+
+  entangled from its properties at previous epochs, thus                             V.   RESULTS
+  the marginalization over the parameter posterior dis-
+  tributions should not be performed independently at
+  each redshift [c.f. 1, 31, 39–42]).                              By comparing the high-resolution observation of the
+                                                                flux power spectrum from [1] to our suite of simulations
+3. We do not modify, in post-processing, the mean               that simultaneously vary the impact of free-streaming
+   transmitted flux ⟨F ⟩ in the forest by rescaling the         from WDM cosmologies on the matter distribution and
+   Lyman-α optical depth, nor do we assume an instan-           different reionization and thermal histories of the IGM,
+   taneous power-law temperature-density relation (cf.          we infer new constraints on the WDM particle mass
+   [1, 14, 20, 22]). The latter does not accurately re-         mWDM . In this section we present the posterior distri-
+   produce the thermal state of IGM gas in the range            bution from our MCMC analysis and the marginalized
+   −1 ≤ log10 ∆ ≤ 1. Instead, in our approach simula-           P (k) and thermal evolution of the IGM for our best-fit
+   tions self-consistently evolve the ionization and ther-      models. To complement our results, we repeat our anal-
+   mal structure of the IGM determined by the wide              ysis by modifying P (k) from the simulations to account
+   range of photoionization and photoheating histories          for a non-uniform UV background, and finally, we show
+   applied in our model grid.                                   hypothetical constraints on mWDM from an artificially
+                                                                increased number of quasars.
+                                                                                                                          11
+
+                                                                       A.   Distribution of the Model Parameters
+
+                                                                     The posterior distribution of our four model pa-
+                                                                  rameters θ = {m−1   WDM , β, αE , ∆z} resulting from the
+                                                                  Bayesian inference procedure is shown in Figure 7. A
+                                                                  clear global maximum of the 1D marginalized distribu-
+                                                                  tions is shown for mWDM and the parameters β and αE
+                                                                  responsible for rescaling the photoionization and photo-
+                                                                  heating rates. The distribution of the parameter ∆z is
+                                                                  not fully contained by our grid of models, but we ar-
+                                                                  gue that this issue does not represent a significant chal-
+                                                                  lenge to our conclusions. Values of ∆z < −0.5 would
+                                                                  reduce the suppression of the small-scale P (k) from pres-
+                                                                  sure smoothing which could be compensated by free-
+                                                                  streaming or thermal broadening, possibly shifting our
+                                                                  constraint of mWDM to slightly lower values.
+                                                                     The marginalized distribution for m−1    WDM (top left
+FIG. 9. One-dimensional posterior likelihood for the WDM          panel, Figure 7) is well constrained and it peaks at
+particle mass obtained by limiting the observational measure-     m−1
+                                                                    WDM = 1/(4.5 keV). Arguably, the preference for a
+ments of P (k) [1] to k <         −1
+                        ∼ 0.1 s km compared to the likelihood     non-zero free-streaming length is weakly significant as
+distribution from fitting to the complete data set (dashed
+blue). The limited data set for the observational P (k) is con-   the CDM cosmology is contained within the 3σ inter-
+structed by excluding the last three points of each redshift      val of the marginalized distribution. The principal result
+snapshot. Gray bands show the 1σ and 2σ interval from the         from our analysis is the lower limit mWDM > 3.0 keV
+fit to the limited data. In this case ΛCDM is the preferred       (at the 2σ level) obtained for the WDM particle mass.
+cosmology and the lower limit at 95% confidence shifts to         We have also performed our MCMC analysis sampling in
+mWDM > 3.6 keV compared to mWDM > 3.0 keV from the fit            mWDM space (instead of m−1    WDM space) applying a flat
+to the full data set.                                             prior in mass the mass range of 1 < mWDM < 80 keV,
+                                                                  and we find that our conclusions are unchanged. We also
+                                                                  note that the sensitivity of the best-fit WDM mass on
+                                                                  the UVB parameters (and hence on the reionization his-
+                                                                  tory) is largely a thermal Doppler broadening (and to a
+                                                                  less extent, a pressure) effect.
+                                                                     To find the best-fit model to P (k) for a CDM cos-
+                                                                  mology, we repeat our MCMC approach but restricted
+                                                                  to the models that evolve the ΛCDM cosmology varying
+                                                                  only the photoionization and photoheating history. Fig-
+                                                                  ure 8 shows the one- and two-dimensional projections of
+                                                                  the posterior distribution for the UV background (UVB)
+                                                                  parameters {β, αE , ∆z} obtained from the comparison
+                                                                  of P (k) from [1] to the grid of 90 CDM simulations. The
+                                                                  posterior distribution of the UVB parameters from our
+                                                                  CDM fit differs slightly from the distribution of param-
+                                                                  eters obtained from the inference that included WDM
+                                                                  cosmologies (see Figure 7). The main difference between
+                                                                  the two distributions is that the parameters β and αE
+                                                                  peak at slightly shifted values. In particular, the product
+                                                                  β αE , which rescales the photoheating rates, is higher for
+FIG. 10. Redshift evolution of the temperature T0 of IGM          the CDM case. Higher photoheating rates directly result
+gas at the mean density from the best-fit ΛCDM and WDM            in increased IGM temperatures (see Section V C).
+models (solid lines) and 1σ interval (colored bands) obtained
+from our MCMC analysis. The data points show the values of
+T0 inferred from observations of the Lyman-α forest by [1] and
+[25]. The best-fit from WDM cosmologies have moderately                       B.   Best-Fit Power Spectrum
+lower temperatures compared to CDM, which compensates
+for the suppression of small-scale P (k) due to free-streaming.      The marginalized flux power spectrum P (k) over the
+                                                                  posterior distribution obtained from our MCMC analysis
+                                                                  along the observational data used to constrain the model
+                                                                  is shown in Figure 6. Lines and shaded regions show the
+                                                                  best-fit P (k) and the 95% confidence range. The result
+                                                                                                                      12
+
+from the fit performed by sampling over the entire WDM       rescaling T0 and the effective optical depth τeff of the
+model grid (purple) and restricting to the CDM grid (or-     simulated skewers.
+ange) are shown separately. As shown, both results pro-
+vide a good match to the observed P (k) nevertheless,          Figure 10 shows the redshift evolution of the tempera-
+the relative difference                                      ture of the gas at mean density T0 marginalized over the
+                    P between the model and the data         posterior distribution from our MCMC analysis; shaded
+quantified as χ2 = z ∆T C−1 ∆ is slightly lower for the
+best-fit WDM model (χ2 = 38.3), compared to χ2 = 40.9        bars show the 1σ interval. The best-fit model for WDM
+from the CDM best-fit model. Here C denotes the co-          cosmologies with mWDM = 4.5 keV results in moder-
+variance matrix taken from [1] and ∆ is the difference       ately lower (5 − 10%) IGM temperatures (purple) due
+vector between the observed and model P (k).                 to the slightly reduced photoheating rates compared to
+                                                             the ΛCDM best-fit model (orange). Lower temperatures
+   We find that the preference for a non-zero free-
+                                                             are expected from the WDM models as they decrease the
+streaming scale derived from our analysis is driven by
+                                                             impact of thermal broadening in suppressing P (k) which
+the smallest scales probed by the high-resolution mea-
+                                                             compensates for the suppression due to free-streaming.
+surement of P (k) from [1]. We repeated our inference
+methodology but excluding the three last data points            In Figure 10, we compare the IGM temperature T0
+(k > 0.1 s km−1 ) from the likelihood calculation. Here      inferred by this work to other measurements at z > 4
+we found that excluding the high-k measurements places       [1, 25]. The high-redshift inference presented by [25] was
+ΛCDM as the preferred cosmology. The marginalized            obtained by characterizing the transmission spikes ob-
+posterior distributions for mWDM from the fits limited       served in z > 5 spectra. The thermal histories obtained
+to k ≤ 0.1 s km−1 and to full data set are displayed         from our analysis are consistent with the results from
+in Figure 9. As shown, the likelihood peaks at CDM           [25], suggesting a peak in T0 due to hydrogen reonization
+and the lower limit constraint at the 2σ level shifts to     at z ∼ 6.
+mWDM > 3.6 keV.
+   In section III D we showed that free-streaming and           The measurement of T0 presented in [1] for 4.2 ≤ z ≤
+Doppler broadening impact P (k) differently on small         5.0 was made by fitting the observed P (k) to simulated
+scales (k > 0.1 s km−1 ). As the temperature of the gas      spectra according to a ΛCDM cosmology where the in-
+is increased/decreased, the impact of thermal broaden-       stantaneous density-temperature distribution of the gas
+ing is to decrease/increase the small-scale P (k) . While    is modified in post-processing changing parameters T0
+free-streaming decreases small-scale density fluctuations,   and γ from the power-law relation T = T0 (ρ/ρ̄)γ−1 . De-
+its effect on the flux power spectrum saturates at k >       spite using the same observational determination of P (k)
+                                                        ∼    for our inference, the IGM temperatures obtained in this
+0.1 s km−1 due to the impact from peculiar velocities (see
+Figs. 4, 5).                                                 work during 4.2 ≤ z ≤ 5.0 are slightly higher than those
+   We have shown that the preference for a WDM cosmol-       inferred by [1]. Restricting to a ΛCDM cosmology, we
+ogy over ΛCDM originates from the k > 0.1 s km−1 mea-        find a best-fit T0 is 15 − 20% higher at redshift z = 5.0
+surement of P (k). Also, we showed that on these scales      and z = 4.6 compared to the result from [1]. At redshift
+(k > 0.1 s km−1 ) the suppression of P (k) due to free-      z = 4.2 the difference lowers to 10 - 15% and our result
+streaming saturates while the suppression of P (k) from      agrees with their inference within 1σ. The evolution of
+thermal broadening increases monotonically. Therefore,       T0 from our best-fit WDM model is also higher (5 - 10%)
+we conclude that the saturated suppression of P (k) due      than the results from [1], but in this case our results also
+to a mWDM ∼ 4.5 keV combined with a moderately lower         agree to within 1σ.
+IGM temperature provides a slightly better fit to the
+k > 0.1 s km−1 observation of P (k) compared to the
+ΛCDM best-fit model with higher IGM temperatures at
+4 ≤ z ≤ 5 (see Fig. 10).
+                                                                    D.   Thomson Scattering Optical Depth
+         C.   Thermal Evolution of the IGM
+                                                                Our WDM and CDM-Only best-fit models result in
+   One of the advantages of our approach compared to         very similar reionization histories with Thomson scatter-
+previous works that aim to constrain the WDM free-           ing optical depths that are consistent with constraints
+streaming from observations of the Lyman-α forest power      from the Planck satellite [43, 44]. Figure 11 shows
+spectrum is that our simulations self-consistently evolve    such constraints together with the marginalized Thomson
+the IGM thermal and ionization history during and after      scattering optical depth, τe , for our WDM best-fit model
+reionization by sampling over a large grid models that       (black line, with the shaded regions displaying the 1σ in-
+vary the UVB photoionization and photoheating rates.         terval), and for our CDM-Only best-fit model (blue line).
+Instead, the methodology adopted by previous works           We measure τe = 0.0586+0.0043                      +0.0041
+                                                                                       −0.0012 and τe = 0.0584−0.0010
+[14, 16, 17, 20] was to change the temperature T0 and        from our WDM and CDM-Only best-fit simulations, re-
+the ionization fraction of the IGM in post-processing by     spectively.
+                                                                                                                         13
+
+                                                                 will allow tighter constraints on cosmological parameters
+                                                                 as well as on WDM and the sum of the neutrino masses
+                                                                 from their role in suppressing small-scale structure in the
+                                                                 forest.
+                                                                    To assess how better statistics would impact the con-
+                                                                 straining power of high-redshift and high-resolution ob-
+                                                                 servations of the Lyman-α forest for WDM cosmologies,
+                                                                 we repeat our analysis but decreasing the uncertainty on
+                                                                 the observed P (k) by a factor of one half, which would
+                                                                 correspond to increasing the number of observed quasar
+                                                                 spectra from fifteen used by [1] for their measurement of
+                                                                 P (k), to about sixty (a factor of four increase).
+                                                                    In our approach, we approximate a more constrain-
+                                                                 ing dataset by rescaling the covariance matrix C of P (k)
+                                                                 by a factor of one-fourth in Equation (16). Note that
+                                                                 the observational measurements of the FPS are not al-
+                                                                 tered, and only the covariance matrix is reduced. Figure
+FIG. 11. Electron scattering optical depth, τe , to reioniza-    12 shows the marginalized likelihood for mWDM −1 ob-
+tion. Black line and shaded bar: WDM best-fit model and 1σ
+                                                                 tained from our analysis using the reduced uncertainty.
+interval. Dashed blue line: CDM-Only best-fit model. Also
+shown are the observational constraints from the Planck satel-   In this hypothetical case, the improved statistics of the
+lite [43, 44].                                                   P (k) measurement provide a tighter constraint for the
+                                                                 WDM particle mass measured as mWDM = 4.5+1.9       −1.0 keV
+                                                                 at the 95% confidence level. This exercise demonstrates
+                                                                 that increasing the sample of high-z and high-resolution
+                                                                 observations of the Lyman-α forest should place tight
+                                                                 constraints on WDM cosmologies.
+
+
+                                                                      F.   Modified P (k) for Inhomogeneous UVB
+
+                                                                    One of the main limitations of our analysis is that the
+                                                                 WDM-CHIPS simulations evolve under a homogeneous
+                                                                 UVB in the form of uniform photoionization and photo-
+                                                                 heating rates. We evaluate the effect of this assumption
+                                                                 on our conclusions by repeating our analysis but using
+                                                                 the modification to P (k) prescribed by [45] to account
+                                                                 for the impact of a nonuniform UVB on the simulated
+                                                                 P (k).
+                                                                    In [45], a set of simulations that apply a uniform UVB
+FIG. 12. One-dimensional posterior likelihood for the WDM        were compared to a set that follows a hybrid-RT method.
+particle mass obtained by fitting to the measurements of the
+                                                                 For the latter, spatially-varying maps for the H I pho-
+FPS from [1] but with an artificially reduced uncertainty mo-
+tivated by the improved statistics of Lyman-α spectra from       toionization and photoheating rates were computed in
+upcoming surveys. Here we rescale the covariance matrix          post-processing and used as input for a re-run of the
+C of P (k) by a factor of one-fourth. In this hypotheti-         base simulation, incorporating the response of the gas
+cal case, the constraint on mWDM is tighter, measured as         to the non-uniform photoionization and photoheating.
+mWDM = 4.5+1.9−1.0 keV at 95% confidence level. The dashed       For the comparison, pairs of uniform and nonuniform
+line shows our result from fitting to P (k) with the reported    UVB simulations were calibrated to have the same av-
+uncertainty from [1].                                            erage ionization and thermal history. The authors con-
+                                                                 cluded that simulations with a patchy reionization show
+                                                                 a suppression (10 − 15%) of the FPS on small scales
+   E.   Constraining WDM with Increased Quasar                   (k ∼ 0.1 s km−1 ) with respect to the uniform UVB case.
+                     Sightlines                                  This effect is mainly driven by the Doppler broadening
+                                                                 associated with the high temperatures of recently ionized
+  Upcoming surveys of the Lyman-α forest (e.g., DESI             regions and the divergent peculiar velocities of thermally
+[46], WEAVE [47], EUCLID [48], LSST) will drastically            pressurized gas [49]. On large scales (k > 0.03 s km−1 )
+increase the available observations of quasar sightlines,        the variation of the IGM neutral fraction due to large-
+which will significantly improve the statistics of measure-      scale fluctuations of the gas temperature leads to an in-
+ments derived from the forest. The improved statistics           crease on P (k).
+                                                                                                                           14
+
+
+
+
+FIG. 13. Posterior distribution of the parameters θ = {m−1
+                                                        WDM , β, αE , ∆z} from fitting the observed P (k) from [1] with models
+that account for a patchy reionization according to the modification to P (k) presented in [45]. In this case, the preference
+for a WDM cosmology persists but the distribution shifts to higher mass. The likelihood peaks at mWDM = 7.1 keV and the
+lower limit at the 95% levels is mWDM = 3.8 keV. In this case the ΛCDM cosmology is contained within the 95% interval of
+the distribution. The dashed blue lines show the one-dimensional likelihood distributions obtained from fitting P (k) measured
+directly from the uniform UVB simulations.
+
+
+   The likelihood distribution from our MCMC inference           lines correspond to the one-dimensional marginalized dis-
+where we modify the P (k) from each one of the simu-             tributions obtained from fitting the base P (k) from the
+lations in our WDM-CHIPS grid to account for an in-              simulations with a uniform reionization.
+homogeneous reionization according to the transforma-              Figure 13 shows that modifying the models P (k) to ac-
+tion presented in [45] is shown in Figure 13. Dashed blue        count for patchy reionization mainly affects the likelihood
+                                                                                                                 15
+
+of mWDM . While WDM cosmologies are still preferred            WDM particle mass mWDM , our four-dimensional
+over ΛCDM when fitting the non-uniform UVB models,             grid of models densely sample a wide range of self-
+the likelihood shifts to higher values of mWDM compared        consistently evolved reionization and thermal his-
+to the result from uniform UVB models. An inclination          tories of the IGM. This represents a significant im-
+for models with reduced free-streaming compensates for         provement over previous studies that aimed to con-
+the reduction of small-scale P (k) due to patchy reion-        strain WDM cosmologies from observations of the
+ization. In this case the maximum likelihood occurs at         Lyman-α forest [14, 16, 17, 20, 33].
+mWDM = 7.1 keV and the lower limit at 95% level is at
+mWDM = 3.8 keV. Notably, for the patchy UVB mod-             • The large range of thermal histories produced by
+els, the ΛCDM cosmology is contained within the 95%            the different UVB models in our grid of simula-
+interval of the likelihood distribution.                       tions results in synthetic measurements of Lyman-α
+   We note that the difference between    the observed and     spectra where the impact from Doppler broadening
+model P (k) defined as χ2 =
+                                 P     T −1
+                                             ∆ (see § IV B     and pressure smoothing on suppressing the small-
+                                   z∆ C
+is larger for the nonuniform UVB modified best-fit mod-        scale P (k) varies widely. This flexibility is impor-
+els compared to the best-fit models sampling from the          tant as these mechanisms have similar effects as
+uniform UVB simulated P (k). When fitting with P (k)           free-streaming decreasing small-scale fluctuations
+measured directly from the uniform UVB simulations, we         in the Lyman-α forest. Additionally, our approach
+measure χ2 = 38.3 for the best-fit model with mWDM =           does not require an assumption of a power-law re-
+4.5 keV and a slightly higher χ2 = 40.9 for the ΛCDM           lation for the density-temperature distribution of
+best-fit model. On the other hand, when sampling over          the gas. Self-consistent evolution of the IGM phase
+the modified P (k) to account for patchy reionization,         structure proves to be important as we find that a
+we measure larger values χ2 = 46.4 and χ2 = 46.6 for           single power law does not accurately describe the
+the WDM and CDM best-fit models, respectively. The             ρgas − T distribution in the density range relevant
+higher values of χ2 obtained for the patchy reionization       to generating the signal of the Lyman-α forest (see
+modified models show that, in the context of this work,        Appendix E of [24]).
+P (k) measured directly from the uniform UVB simula-         • We compare our grid of models to the high-redshift
+tions provide a better match to the observation from [1],      (4.2 ≤ z ≤ 5.0) observational measurement of the
+therefore we use the likelihood distribution obtained from     Lyman-α forest power spectrum from [1]. The
+the sampling over the uniform UVB models to construct          observations presented in [1] provide the highest
+the main results from our analysis.                            resolution measurement of P (k) at the time that
+                                                               work was executed. We perform a Bayesian MCMC
+                                                               sampling to determine the best-fit model for free-
+                VI.   CONCLUSIONS                              streaming due to WDM cosmologies and the IGM
+                                                               photoionization and photoheating history.
+   To constrain cosmological models where dark matter
+free-streaming smooths the matter distribution in the        • From our MCMC analysis, we find that a cosmolog-
+Universe, we have used the GPU-native code Cholla to           ical model with non-vanishing free-streaming is pre-
+perform a massive suite of high-resolution hydrodynami-        ferred over ΛCDM. The likelihood function peaks
+cal cosmological simulations that simultaneously vary the      at the thermal relic mass of mWDM = 4.5 keV and
+effect of free-streaming from WDM particles and the IGM        a we measure a lower limit of mWDM = 3.1 keV at
+reionization history. We compare the power spectrum            the 95% CL. We find a weak (3σ) preference for
+of the synthetic Lyman-α forest from our simulations to        WDM over ΛCDM, but both are statistically con-
+the high-resolution observational measurement presented        sistent with the currently available data.
+by [1] to determine via a likelihood analysis the optimal    • We repeat our MCMC analysis, restricting to
+model for cosmological free-streaming that best matches        ΛCDM only but with a variable UVB. We find that
+the observation. A summary of the efforts and conclu-          the best-fit ΛCDM model mainly differs from the
+sions from this work follows.                                  WDM optimal model in that the IGM tempera-
+                                                               tures are slightly lower (5 − 10%) for the WDM
+   • We present the WDM-CHIPS suite consisting of              case. We find that both thermal histories are in
+     a grid of 1080 high-resolution simulations (L =           good agreement with the inference from [25] at
+     25h−1 Mpc, N = 2 × 10243 ) that vary the free-            5.4 <   <
+                                                                   ∼ z ∼ 5.8 and moderately higher than the tem-
+     streaming from WDM cosmologies and the pho-               peratures from [1] at 4.2 ≤ z ≤ 5.0.
+     toionization and photoheating rates from the meta-
+     galactic UVB. The UVB rates applied for our grid        • We introduce the effect of a patchy reionization
+     use the model from [24] as a template, and use            in our models by modifying P (k) from our uni-
+     three parameters that control a rescaling amplitude       form UVB simulations according to the prescrip-
+     and redshift-timing of the hydrogen photoioniza-          tion presented in [45]. The likelihood distribution
+     tion and photoheating rates. Combined with the            from our MCMC approach using the modified P (k)
+                                                                                                                             16
+
+      shows that the preference for a WDM cosmology is                          ACKNOWLEDGMENTS
+      maintained but the distribution shifts to higher val-
+      ues of mWDM . The maximum likelihood and the                 This research used resources of the Oak Ridge Leader-
+      95% lower limit constraint are mWDM = 7.1 keV             ship Computing Facility at the Oak Ridge National Labo-
+      and mWDM = 3.8 keV, respectively. Additionally,           ratory, which is supported by the Office of Science of the
+      the ΛCDM case is 2σ consistent with the best-fit          U.S. Department of Energy under Contract DE-AC05-
+      WDM model when accounting for an inhomoge-                00OR22725, using Summit allocations AST169 and
+      neous UVB. Notably, the different χ2 between the          AST175. An award of computer time was provided by
+      observed and best-fit P (k) model is higher for the       the INCITE program, via project AST175. We acknowl-
+      modified model to account for a nonuniform UVB,           edge use of the lux supercomputer at UC Santa Cruz,
+      and we therefore use the likelihood distribution ob-      funded by NSF MRI grant AST1828315, and support
+      tained from the uniform UVB models as the basis           from NASA TCAN grant 80NSSC21K0271. B.V. is sup-
+      for our results.                                          ported in part by the UC MEXUS-CONACyT doctoral
+                                                                fellowship. B.E.R. acknowledges support from NASA
+                                                                contract NNG16PJ25C and grants 80NSSC18K0563 and
+                                                                80NSSC22K0814. E.E.S. acknowledges support from
+                                                                NASA grant 80NSSC22K0720 and STScI grant HST-AR-
+                                                                16633.001-A. We wish to thank Nick Gnedin and Avery
+                                                                Meiksin for many useful inputs and valuable discussions.
+
+
+
+
+ [1] E. Boera, G. D. Becker, J. S. Bolton, and F. Nasir, Re-    [11] A. A. Meiksin, The physics of the intergalactic
+     vealing Reionization with the Thermal History of the            medium, Reviews of Modern Physics 81, 1405 (2009),
+     Intergalactic Medium: New Constraints from the Lyα              arXiv:0711.3358 [astro-ph].
+     Flux Power Spectrum, Astrophys. J. 872, 101 (2019),        [12] M. McQuinn, The Evolution of the Intergalactic Medium,
+     arXiv:1809.06980 [astro-ph.CO].                                 ARA&A 54, 313 (2016), arXiv:1512.00086 [astro-ph.CO].
+ [2] Planck Collaboration, N. Aghanim, Y. Akrami, M. Ash-       [13] U. Seljak, A. Makarov, P. McDonald, and H. Trac, Can
+     down, J. Aumont, C. Baccigalupi, and et al., Planck 2018        sterile neutrinos be the dark matter?, Phys. Rev. Lett.
+     results. VI. Cosmological parameters, Astron. Astrophys.        97, 191303 (2006).
+     641, A6 (2020), arXiv:1807.06209 [astro-ph.CO].            [14] M. Viel, G. D. Becker, J. S. Bolton, and M. G. Haehnelt,
+ [3] S. Chabanier, M. Millea, and N. Palanque-Delabrouille,          Warm dark matter as a solution to the small scale crisis:
+     Matter power spectrum: from Ly α forest to CMB                  New constraints from high redshift Lyman-α forest data,
+     scales, Mon. Not. Roy. Astron. Soc. 489, 2247 (2019),           Phys. Rev. D 88, 043502 (2013), arXiv:1306.2314 [astro-
+     arXiv:1905.08103 [astro-ph.CO].                                 ph.CO].
+ [4] P. Colı́n, V. Avila-Reese, and O. Valenzuela, Substruc-    [15] J. Baur, N. Palanque-Delabrouille, C. Yèche, C. Mag-
+     ture and Halo Density Profiles in a Warm Dark Matter            neville, and M. Viel, Lyman-alpha forests cool warm dark
+     Cosmology, Astrophys. J. 542, 622 (2000), arXiv:astro-          matter, J. Cosmology Astropart. Phys. 2016, 012 (2016),
+     ph/0004115 [astro-ph].                                          arXiv:1512.01981 [astro-ph.CO].
+ [5] V. Avila-Reese, P. Colı́n, O. Valenzuela, E. D’Onghia,     [16] A. Garzilli, A. Magalich, T. Theuns, C. S. Frenk,
+     and C. Firmani, Formation and Structure of Halos in a           C. Weniger, O. Ruchayskiy, and A. Boyarsky, The
+     Warm Dark Matter Cosmology, Astrophys. J. 559, 516              Lyman-α forest as a diagnostic of the nature of the dark
+     (2001), arXiv:astro-ph/0010525 [astro-ph].                      matter, Mon. Not. Roy. Astron. Soc. 489, 3456 (2019),
+ [6] J. L. Feng, Dark Matter Candidates from Particle Physics        arXiv:1809.06585 [astro-ph.CO].
+     and Methods of Detection, ARA&A 48, 495 (2010),            [17] A. Garzilli, A. Magalich, O. Ruchayskiy, and A. Bo-
+     arXiv:1003.0904 [astro-ph.CO].                                  yarsky, How to constrain warm dark matter with the
+ [7] J. S. Bullock and M. Boylan-Kolchin, Small-Scale Chal-          Lyman-α forest, Mon. Not. Roy. Astron. Soc. 502, 2356
+     lenges to the ΛCDM Paradigm, ARA&A 55, 343 (2017),              (2021).
+     arXiv:1707.04256 [astro-ph.CO].                            [18] J. S. Bullock and M. Boylan-Kolchin, Small-Scale Chal-
+ [8] P. Bode, J. P. Ostriker, and N. Turok, Halo Formation           lenges to the ΛCDM Paradigm, ARA&A 55, 343 (2017),
+     in Warm Dark Matter Models, Astrophys. J. 556, 93               arXiv:1707.04256 [astro-ph.CO].
+     (2001), arXiv:astro-ph/0010389 [astro-ph].                 [19] Z. Lukić, C. W. Stark, P. Nugent, M. White, A. A.
+ [9] L. Hernquist, N. Katz, D. H. Weinberg, and J. Miralda-          Meiksin, and A. Almgren, The Lyman α forest in op-
+     Escudé, The Lyman-Alpha Forest in the Cold Dark Mat-           tically thin hydrodynamical simulations, Mon. Not. Roy.
+     ter Model, ApJ 457, L51 (1996), arXiv:astro-ph/9509105          Astron. Soc. 446, 3697 (2015), arXiv:1406.6361 [astro-
+     [astro-ph].                                                     ph.CO].
+[10] R. A. C. Croft, D. H. Weinberg, N. Katz, and L. Hern-      [20] V. Iršič, M. Viel, M. G. Haehnelt, J. S. Bolton, S. Cris-
+     quist, Recovery of the Power Spectrum of Mass Fluctu-           tiani, G. D. Becker, V. D’Odorico, G. Cupani, T.-S. Kim,
+     ations from Observations of the Lyα Forest, Astrophys.          T. A. M. Berg, S. López, S. Ellison, L. Christensen, K. D.
+     J. 495, 44 (1998), arXiv:astro-ph/9708018 [astro-ph].           Denney, and G. Worseck, New constraints on the free-
+                                                                                                                               17
+
+     streaming of warm dark matter from intermediate and           [33] M. Viel, J. Lesgourgues, M. G. Haehnelt, S. Matar-
+     small scale Lyman-α forest data, Phys. Rev. D 96, 023522           rese, and A. Riotto, Constraining warm dark matter can-
+     (2017), arXiv:1702.01764 [astro-ph.CO].                            didates including sterile neutrinos and light gravitinos
+[21] J. S. Bolton, E. Puchwein, D. Sijacki, M. G. Haehnelt,             with WMAP and the Lyman-α forest, Phys. Rev. D 71,
+     T.-S. Kim, A. Meiksin, J. A. Regan, and M. Viel, The               063534 (2005), arXiv:astro-ph/0501562 [astro-ph].
+     Sherwood simulation suite: overview and data compar-          [34] E. E. Schneider and B. E. Robertson, CHOLLA: A New
+     isons with the Lyman α forest at redshifts 2 ≤ z ≤ 5, Mon.         Massively Parallel Hydrodynamics Code for Astrophys-
+     Not. Roy. Astron. Soc. 464, 897 (2017), arXiv:1605.03462           ical Simulation, ApJS 217, 24 (2015), arXiv:1410.4194
+     [astro-ph.CO].                                                     [astro-ph.IM].
+[22] M. Walther, E. Armengaud, C. Ravoux, N. Palanque-             [35] B. D. Smith, G. L. Bryan, S. C. O. Glover, N. J. Gold-
+     Delabrouille, C. Yèche, and Z. Lukić, Simulating in-             baum, M. J. Turk, J. Regan, J. H. Wise, H.-Y. Schive,
+     tergalactic gas for DESI-like small scale Lymanα forest            T. Abel, A. Emerick, B. W. O’Shea, P. Anninos, C. B.
+     observations, J. Cosmology Astropart. Phys. 2021, 059              Hummels, and S. Khochfar, GRACKLE: a chemistry and
+     (2021), arXiv:2012.04008 [astro-ph.CO].                            cooling library for astrophysics, Mon. Not. Roy. Astron.
+[23] B. Villasenor, B. Robertson, P. Madau, and E. Schnei-              Soc. 466, 2217 (2017), arXiv:1610.09591 [astro-ph.CO].
+     der, Effects of Photoionization and Photoheating on Lyα       [36] O. Hahn and T. Abel, Multi-scale initial conditions for
+     Forest Properties from Cholla Cosmological Simulations,            cosmological simulations, Mon. Not. Roy. Astron. Soc.
+     Astrophys. J. 912, 138 (2021), arXiv:2009.06652 [astro-            415, 2101 (2011), arXiv:1103.6031 [astro-ph.CO].
+     ph.CO].                                                       [37] A. V. Macciò, O. Ruchayskiy, A. Boyarsky, and
+[24] B. Villasenor, B. Robertson, P. Madau, and E. Schnei-              J. C. Muñoz-Cuartas, The inner structure of haloes in
+     der, Inferring the Thermal History of the Intergalactic            cold+warm dark matter models, Mon. Not. Roy. Astron.
+     Medium from the Properties of the Hydrogen and Helium              Soc. 428, 882 (2013), arXiv:1202.2858 [astro-ph.CO].
+     Lyman-alpha Forest, arXiv e-prints , arXiv:2111.00019         [38] E. Puchwein, F. Haardt, M. G. Haehnelt, and P. Madau,
+     (2021), arXiv:2111.00019 [astro-ph.CO].                            Consistent modelling of the meta-galactic UV back-
+[25] P. Gaikwad, M. Rauch, M. G. Haehnelt, E. Puchwein,                 ground and the thermal/ionization history of the inter-
+     J. S. Bolton, L. C. Keating, G. Kulkarni, V. Iršič,              galactic medium, Mon. Not. Roy. Astron. Soc. 485, 47
+     E. Bañados, G. D. Becker, E. Boera, F. S. Zahedy, H.-W.           (2019), arXiv:1801.04931 [astro-ph.GA].
+     Chen, R. F. Carswell, J. Chardin, and A. Rorai, Probing       [39] J. S. Bolton, G. D. Becker, M. G. Haehnelt, and M. Viel,
+     the thermal state of the intergalactic medium at z &gt;            A consistent determination of the temperature of the in-
+     5 with the transmission spikes in high-resolution Ly α             tergalactic medium at redshift z = 2.4, Mon. Not. Roy.
+     forest spectra, Mon. Not. Roy. Astron. Soc. 494, 5091              Astron. Soc. 438, 2499 (2014), arXiv:1308.4411 [astro-
+     (2020), arXiv:2001.10018 [astro-ph.CO].                            ph.CO].
+[26] L. Hui, N. Y. Gnedin, and Y. Zhang, The Statistics            [40] H. Hiss, M. Walther, J. F. Hennawi, J. Oñorbe, J. M.
+     of Density Peaks and the Column Density Distribu-                  O’Meara, A. Rorai, and Z. Lukić, A new measurement of
+     tion of the Lyα Forest, Astrophys. J. 486, 599 (1997),             the temperature–density relation of the IGM from voigt
+     arXiv:astro-ph/9608157 [astro-ph].                                 profile fitting, The Astrophysical Journal 865, 42 (2018).
+[27] N. Y. Gnedin and L. Hui, Probing the Universe with            [41] M. Walther, J. Oñorbe, J. F. Hennawi, and Z. Lukić, New
+     the Lyalpha forest - I. Hydrodynamics of the low-density           Constraints on IGM Thermal Evolution from the Lyα
+     intergalactic medium, Mon. Not. Roy. Astron. Soc. 296,             Forest Power Spectrum, Astrophys. J. 872, 13 (2019),
+     44 (1998), arXiv:astro-ph/9706219 [astro-ph].                      arXiv:1808.04367 [astro-ph.CO].
+[28] N. Y. Gnedin, E. J. Baker, T. J. Bethell, M. M. Drosback,     [42] P. Gaikwad, R. Srianand, M. G. Haehnelt, and T. R.
+     A. G. Harford, A. K. Hicks, A. G. Jensen, B. A. Keeney,            Choudhury, A consistent and robust measurement of the
+     C. M. Kelso, M. C. Neyrinck, S. E. Pollack, and T. P. van          thermal state of the IGM at 2 ≤ z ≤ 4 from a large sample
+     Vliet, Linear Gas Dynamics in the Expanding Universe,              of Ly α forest spectra: evidence for late and rapid He
+     Astrophys. J. 583, 525 (2003), arXiv:astro-ph/0206421              II reionization, Mon. Not. Roy. Astron. Soc. 506, 4389
+     [astro-ph].                                                        (2021), arXiv:2009.00016 [astro-ph.CO].
+[29] M. S. Peeples, D. H. Weinberg, R. Davé, M. A. Fardal,        [43] Planck Collaboration, N. Aghanim, Y. Akrami, M. Ash-
+     and N. Katz, Pressure support versus thermal broadening            down, J. Aumont, C. Baccigalupi, M. Ballardini, A. J.
+     in the Lyman α forest - I. Effects of the equation of state        Banday, R. B. Barreiro, N. Bartolo, S. Basak, R. Battye,
+     on longitudinal structure, Mon. Not. Roy. Astron. Soc.             K. Benabed, J. P. Bernard, M. Bersanelli, P. Bielewicz,
+     404, 1281 (2010), arXiv:0910.0256 [astro-ph.CO].                   J. J. Bock, J. R. Bond, J. Borrill, F. R. Bouchet,
+[30] G. Kulkarni, J. F. Hennawi, J. Oñorbe, A. Rorai, and              F. Boulanger, M. Bucher, C. Burigana, R. C. Butler,
+     V. Springel, Characterizing the Pressure Smoothing Scale           E. Calabrese, J. F. Cardoso, J. Carron, A. Challinor,
+     of the Intergalactic Medium, Astrophys. J. 812, 30                 H. C. Chiang, J. Chluba, L. P. L. Colombo, C. Combet,
+     (2015), arXiv:1504.00366 [astro-ph.CO].                            D. Contreras, B. P. Crill, F. Cuttaia, P. de Bernardis,
+[31] F. Nasir, J. S. Bolton, and G. D. Becker, Inferring the            G. de Zotti, J. Delabrouille, J. M. Delouis, E. Di
+     IGM thermal history during reionization with the Lyman             Valentino, J. M. Diego, O. Doré, M. Douspis, A. Ducout,
+     α forest power spectrum at redshift z = 5, Mon. Not. Roy.          X. Dupac, S. Dusini, G. Efstathiou, F. Elsner, T. A.
+     Astron. Soc. 463, 2335 (2016), arXiv:1605.04155 [astro-            Enßlin, H. K. Eriksen, Y. Fantaye, M. Farhang, J. Fer-
+     ph.CO].                                                            gusson, R. Fernandez-Cobos, F. Finelli, F. Forastieri,
+[32] N. Y. Gnedin and A. J. S. Hamilton, Matter power                   M. Frailis, A. A. Fraisse, E. Franceschi, A. Frolov,
+     spectrum from the Lyman-alpha forest: myth or re-                  S. Galeotta, S. Galli, K. Ganga, R. T. Génova-Santos,
+     ality?, Mon. Not. Roy. Astron. Soc. 334, 107 (2002),               M. Gerbino, T. Ghosh, J. González-Nuevo, K. M.
+     arXiv:astro-ph/0111194 [astro-ph].                                 Górski, S. Gratton, A. Gruppuso, J. E. Gudmundsson,
+                                                                                                                                18
+
+     J. Hamann, W. Handley, F. K. Hansen, D. Herranz,                    cations for thermal parameter recovery, Mon. Not. Roy.
+     S. R. Hildebrandt, E. Hivon, Z. Huang, A. H. Jaffe,                 Astron. Soc. 509, 6119 (2022), arXiv:2109.06897 [astro-
+     W. C. Jones, A. Karakci, E. Keihänen, R. Keskitalo,                ph.CO].
+     K. Kiiveri, J. Kim, T. S. Kisner, L. Knox, N. Krach-           [46] DESI Collaboration, A. Aghamousa, J. Aguilar,
+     malnicoff, M. Kunz, H. Kurki-Suonio, G. Lagache, J. M.              S. Ahlen, S. Alam, L. E. Allen, C. Allende Prieto,
+     Lamarre, A. Lasenby, M. Lattanzi, C. R. Lawrence,                   J. Annis, S. Bailey, and C. Balland, The DESI Experi-
+     M. Le Jeune, P. Lemos, J. Lesgourgues, F. Levrier,                  ment Part I: Science,Targeting, and Survey Design, arXiv
+     A. Lewis, M. Liguori, P. B. Lilje, M. Lilley, V. Lind-              e-prints , arXiv:1611.00036 (2016), arXiv:1611.00036
+     holm, M. López-Caniego, P. M. Lubin, Y. Z. Ma,                     [astro-ph.IM].
+     J. F. Macı́as-Pérez, G. Maggio, D. Maino, N. Man-             [47] M. M. Pieri, S. Bonoli, J. Chaves-Montero, I. Pâris,
+     dolesi, A. Mangilli, A. Marcos-Caballero, M. Maris,                 M. Fumagalli, J. S. Bolton, M. Viel, P. Noterdaeme,
+     P. G. Martin, M. Martinelli, E. Martı́nez-González,                J. Miralda-Escudé, N. G. Busca, H. Rahmani, C. Peroux,
+     S. Matarrese, N. Mauri, J. D. McEwen, P. R. Mein-                   A. Font-Ribera, and S. C. Trager, WEAVE-QSO: A Mas-
+     hold, A. Melchiorri, A. Mennella, M. Migliaccio, M. Mil-            sive Intergalactic Medium Survey for the William Her-
+     lea, S. Mitra, M. A. Miville-Deschênes, D. Molinari,               schel Telescope, in SF2A-2016: Proceedings of the An-
+     L. Montier, G. Morgante, A. Moss, P. Natoli, H. U.                  nual meeting of the French Society of Astronomy and As-
+     Nørgaard-Nielsen, L. Pagano, D. Paoletti, B. Partridge,             trophysics, edited by C. Reylé, J. Richard, L. Cambrésy,
+     G. Patanchon, H. V. Peiris, F. Perrotta, V. Pettorino,              M. Deleuil, E. Pécontal, L. Tresse, and I. Vauglin (2016)
+     F. Piacentini, L. Polastri, G. Polenta, J. L. Puget,                pp. 259–266, arXiv:1611.09388 [astro-ph.CO].
+     J. P. Rachen, M. Reinecke, M. Remazeilles, A. Renzi,           [48] J. Amiaux, R. Scaramella, Y. Mellier, B. Altieri, C. Buri-
+     G. Rocha, C. Rosset, G. Roudier, J. A. Rubiño-Martı́n,             gana, A. Da Silva, P. Gomez, J. Hoar, R. Laureijs,
+     B. Ruiz-Granados, L. Salvati, M. Sandri, M. Savelainen,             E. Maiorano, D. Magalhães Oliveira, F. Renk, G. Saave-
+     D. Scott, E. P. S. Shellard, C. Sirignano, G. Sirri, L. D.          dra Criado, I. Tereno, J. L. Auguères, J. Brinchmann,
+     Spencer, R. Sunyaev, A. S. Suur-Uski, J. A. Tauber,                 M. Cropper, L. Duvet, A. Ealet, P. Franzetti, B. Gar-
+     D. Tavagnacco, M. Tenti, L. Toffolatti, M. Tomasi,                  illi, P. Gondoin, L. Guzzo, H. Hoekstra, R. Holmes,
+     T. Trombetti, L. Valenziano, J. Valiviita, B. Van Tent,             K. Jahnke, T. Kitching, M. Meneghetti, W. Percival, and
+     L. Vibert, P. Vielva, F. Villa, N. Vittorio, B. D. Wan-             S. Warren, Euclid mission: building of a reference sur-
+     delt, I. K. Wehus, M. White, S. D. M. White, A. Za-                 vey, in Space Telescopes and Instrumentation 2012: Op-
+     cchei, and A. Zonca, Planck 2018 results. VI. Cosmo-                tical, Infrared, and Millimeter Wave, Society of Photo-
+     logical parameters, Astron. Astrophys. 641, A6 (2020),              Optical Instrumentation Engineers (SPIE) Conference
+     arXiv:1807.06209 [astro-ph.CO].                                     Series, Vol. 8442, edited by M. C. Clampin, G. G. Fazio,
+[44] R. de Belsunce, S. Gratton, W. Coulton, and G. Efs-                 H. A. MacEwen, and J. Oschmann, Jacobus M. (2012)
+     tathiou, Inference of the optical depth to reionization             p. 84420Z, arXiv:1209.2228 [astro-ph.IM].
+     from low multipole temperature and polarization Planck         [49] X. Wu, M. McQuinn, R. Kannan, A. D’Aloisio, S. Bird,
+     data, Mon. Not. Roy. Astron. Soc. 507, 1072 (2021),                 F. Marinacci, R. Davé, and L. Hernquist, Imprints of
+     arXiv:2103.14378 [astro-ph.CO].                                     temperature fluctuations on the z ∼ 5 Lyman-α forest: a
+[45] M. Molaro, V. Iršič, J. S. Bolton, L. C. Keating, E. Puch-        view from radiation-hydrodynamic simulations of reion-
+     wein, P. Gaikwad, M. G. Haehnelt, G. Kulkarni, and                  ization, Mon. Not. Roy. Astron. Soc. 490, 3177 (2019),
+     M. Viel, The effect of inhomogeneous reionization on the            arXiv:1907.04860 [astro-ph.CO].
+     Lyman α forest power spectrum at redshift z ¿ 4: impli-
+

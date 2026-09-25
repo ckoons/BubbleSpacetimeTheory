@@ -1,0 +1,1200 @@
+                                               MNRAS 000, 1–13 (2021)                                              Preprint 19 November 2021                   Compiled using MNRAS LATEX style file v3.0
+
+
+
+
+                                               Cosmological Constraints from Gas Mass Fractions of Massive, Relaxed
+                                               Galaxy Clusters
+                                               Adam B. Mantz,1★ R. Glenn Morris,1,2 Steven W. Allen,1,2,3 Rebecca E. A. Canning,1,4 Lucie Baumont,5
+                                               Bradford Benson,6,7,8 Lindsey E. Bleem,8,9 Steven R. Ehlert,10 Benjamin Floyd,11 Ricardo Herbonnet,5
+                                               Patrick L. Kelly,12 Shuang Liang,5 Anja von der Linden,5 Michael McDonald,13 David A. Rapetti,14,15,16
+                                               Robert W. Schmidt,17 Norbert Werner,18 and Adam Wright19
+
+
+
+
+arXiv:2111.09343v1 [astro-ph.CO] 17 Nov 2021
+                                               1 Kavli Institute for Particle Astrophysics and Cosmology, Stanford University, 452 Lomita Mall, Stanford, CA 94305, USA
+                                               2 SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, CA 94025, USA
+                                               3 Department of Physics, Stanford University, 382 Via Pueblo Mall, Stanford, CA 94305, USA
+                                               4 Institute of Cosmology and Gravitation, University of Portsmouth, Portsmouth, PO1 3FX, UK
+                                               5 Department of Physics and Astronomy, Stony Brook University, Stony Brook, NY 11794, USA
+                                               6 Fermi National Accelerator Laboratory, Batavia, IL 60510-0500, USA
+                                               7 Department of Astronomy and Astrophysics, University of Chicago, 5640 S Ellis Ave, Chicago, IL 60637, USA
+                                               8 Kavli Institute for Cosmological Physics, University of Chicago, 5640 S Ellis Ave, Chicago, IL 60637, USA
+                                               9 HEP Division, Argonne National Laboratory, Argonne, IL 60439, USA
+                                               10 Marshall Space Flight Center, Huntsville, AL 35812, USA
+                                               11 Department of Physics and Astronomy, University of Missouri–Kansas City, 5110 Rockhill Road, Kansas City, MO 64110, USA
+                                               12 School of Physics and Astronomy, University of Minnesota, 116 Church St SE, Minneapolis, MN 55455
+                                               13 Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, 77 Massachusetts Avenue,
+
+                                               Cambridge, MA 02139, USA
+                                               14 NASA Ames Research Center, Moffett Field, CA 94035, USA
+                                               15 Research Institute for Advanced Computer Science, Universities Space Research Association, Mountain View, CA 94043, USA
+                                               16 Center for Astrophysics and Space Astronomy, Department of Astrophysical and Planetary Sciences, University of Colorado, Boulder, CO 80309, USA
+                                               17 Astronomisches Rechen-Institut, Zentrum für Astronomie der Universität Heidelberg, Mönchhofstrasse 12-14, D-69120 Heidelberg, Germany
+                                               18 Department of Theoretical Physics and Astrophysics, Faculty of Science, Masaryk University, Kotlářská 2, Brno, 611 37, Czech Republic
+                                               19 Department of Physics and Chemistry, Milwaukee School of Engineering, 432 E Kilbourn Ave, Milwaukee, WI 53202, USA
+
+
+
+
+                                               Accepted 2021 November 16. Received 2021 November 5; in original form 2021 August 6
+
+
+
+                                               ABSTRACT
+                                               We present updated cosmological constraints from measurements of the gas mass fractions ( 𝑓gas ) of massive, dynamically relaxed
+                                               galaxy clusters. Our new data set has greater leverage on models of dark energy, thanks to the addition of the Perseus Cluster
+                                                                                                 > 1, and significantly longer observations of four clusters at 0.6 < 𝑧 < 0.9. Our
+                                               at low redshifts, two new clusters at redshifts 𝑧 ∼
+                                               low-redshift (𝑧 < 0.16) 𝑓gas data, combined with the cosmic baryon fraction measured from the cosmic microwave background
+                                               (CMB), imply a Hubble constant of ℎ = 0.722 ± 0.067. Combining the full 𝑓gas data set with priors on the cosmic baryon density
+                                               and the Hubble constant, we constrain the dark energy density to be ΩΛ = 0.865 ± 0.119 in non-flat ΛCDM (cosmological
+                                               constant) models, and its equation of state to be 𝑤 = −1.13+0.17
+                                                                                                           −0.20 in flat, constant-𝑤 models, respectively 41 and 29 per cent tighter
+                                               than our previous work, and comparable to the best constraints available from other probes. Combining 𝑓gas , CMB, supernova,
+                                               and baryon acoustic oscillation data, we also constrain models with global curvature and evolving dark energy. For the massive,
+                                               relaxed clusters employed here, we find the scaling of 𝑓gas with mass to be consistent with a constant, with an intrinsic scatter
+                                               that corresponds to just ∼ 3 per cent in distance.
+                                               Key words: cosmological parameters – cosmology: observations – dark matter – distance scale – galaxies: clusters: general –
+                                               X-rays: galaxies: clusters
+
+
+
+                                               1 INTRODUCTION                                                                   ences therein). Furthermore, the relationship between the gas-mass
+                                                                                                                                fraction of these clusters, 𝑓gas = 𝑀gas /𝑀tot , and the cosmic baryon
+                                               For massive clusters of galaxies, whose internal dynamics are dom-
+                                                                                                                                mass fraction, Ωb /Ωm , is both straightforward to predict from sim-
+                                               inated by gravity, the mass of the intracluster medium (ICM) corre-
+                                                                                                                                ulations of cosmic structure formation and minimally sensitive to
+                                               lates tightly with total mass (Borgani & Kravtsov 2011, and refer-
+                                                                                                                                cosmological modeling assumptions (Eke et al. 1998; Kay et al.
+                                                                                                                                2004; Crain et al. 2007; Nagai, Vikhlinin & Kravtsov 2007; Young
+                                               ★ Corresponding author e-mail: amantz@stanford.edu                               et al. 2011; Battaglia et al. 2013; Planelles et al. 2013; Le Brun et al.
+
+                                               © 2021 The Authors
+2      A. B. Mantz et al.
+2014, 2017; Barnes et al. 2017; Henden et al. 2020; Singh et al.            and light shading respectively indicate the marginalized 68.3 and
+2020). Precise measurements of 𝑓gas from X-ray data thus provide            95.4 per cent probability HPD regions.
+a route to constraining cosmological models, and, in combination
+with external information on Ωb , have provided some of the earliest
+and most robust constraints on the cosmic matter density, Ωm (White
+                                                                            2 DATA
+et al. 1993; David et al. 1995; White & Fabian 1995; Evrard 1997;
+Ettori & Fabian 1999; Mohr et al. 1999; Allen et al. 2002; Ettori           2.1 X-ray data
+et al. 2003). In addition, values of 𝑓gas inferred from cluster data are
+sensitive to the luminosity and angular-diameter distances between          The galaxy clusters used in this study are the most dynamically re-
+the observer and target; since the evolution of 𝑓gas in massive clus-       laxed, hottest clusters known that have sufficiently deep Chandra
+ters is theoretically constrained to be minimal, such measurements          data to enable the requisite measurements. Specifically, we require
+also provide constraints on cosmological distances as a function of         the clusters to have relaxed X-ray morphologies (as a proxy for
+redshift, and thus on models of dark energy (Sasaki 1996; Pen 1997).        true dynamical relaxation) according to the Symmetry-Peakiness-
+Over the past two decades, such data have consistently provided             Alignment (SPA) criterion of Mantz et al. (2015b, hereafter M15).
+cosmological constraints comparable to those of other low-redshift          The restriction to the most relaxed systems is intended to mini-
+probes, even with small samples of relaxed clusters (Allen et al. 2002,     mize systematic uncertainty and scatter associated with departures
+2004, 2008; Ettori et al. 2003, 2009; Rapetti, Allen & Weller 2005;         from hydrostatic equilibrium and spherical symmetry. We addition-
+Mantz et al. 2014). The 𝑓gas approach complements tests based on            ally require that the ICM temperature in the isothermal part of the
+the number density of clusters, and has independently provided sim-         temperature profile be ≥ 5 keV, to ensure that the selected clusters
+ilarly powerful constraints on dark energy (Allen, Evrard & Mantz           have genuinely deep gravitational potentials, such that their internal
+2011).                                                                      dynamics are gravitationally rather than astrophysically dominated
+   Constraints on Ωm from the absolute value of 𝑓gas have generally         at the radii of interest (∼ 𝑟 2500 1 ). This also reduces systematic uncer-
+been systematically limited by uncertainty in the accuracy of clus-         tainties associated with cluster formation and active galactic nucleus
+ter mass determinations (Applegate et al. 2016, hereafter A16). In          (AGN) feedback compared with less massive systems.
+contrast, dark energy constraints based on the apparent evolution of           A sample of 40 clusters meeting these criteria was constructed and
+ 𝑓gas have been limited by the redshift range of the available data,        employed for cosmological studies (M14, M15). To that sample, we
+and the precision of measurements at high redshifts (Mantz et al.           add 4 clusters that had not been observed or did not have adequate
+2014, hereafter M14). While Sunyaev-Zel’dovich (SZ) surveys now             Chandra data at the time of the original search: the Perseus Cluster,
+routinely discover new clusters at redshifts 𝑧 > 0.5 (e.g., Planck Col-     RCS J1447+0828, SPT J0615−5746, and SPT J2215−3537. We also
+laboration 2014, 2016; Bleem et al. 2015, 2020; Hilton et al. 2018,         incorporate new observations of the original 40 clusters where avail-
+2021), the restriction of the cosmological sample to the most dynam-        able. Compared with that of M14, the new data set extends to both
+ically relaxed systems (required to limit observational systematics),       lower and higher redshifts, and has significantly deeper exposures for
+and the additional X-ray observations needed to identify clusters as        targets at 0.6 < 𝑧 < 0.9, increasing its utility for constraining dark
+relaxed and provide 𝑓gas measurements, means that relatively few            energy models. The Chandra data are summarized in Appendix A;
+new, high-redshift clusters have made their way into these studies. In      after cleaning, the total observing time is 4.9 Ms (compared with
+short, new relaxed clusters at high redshifts, or deeper observations       3.1 Ms used by M14).
+of those already in the cosmological sample, can be expected to have           Our procedures for reducing and analyzing the Chandra data, and
+an outsized impact on dark energy constraints from 𝑓gas . In addition,      extracting constraints on 𝑓gas for each cluster, are unchanged from
+any extension of the sampled redshift range at the low-redshift end,        our previous work, and are described by M14 and M15 (though note
+where precise measurements can be obtained with comparatively               the special case of Perseus, addressed in the next section). We do,
+short exposures, will disproportionately improve constraints from           however, use updated versions of the Chandra analysis software and
+the method (M14).                                                           calibration files, namely ciao 4.9 and caldb 4.7.5.1.2 Among the
+                                                                            updates is a retroactive change to the time-dependent model of the
+   In this work, we report the impact of improving and expanding the
+                                                    > 0.6, we incorporate   contaminant accumulating on the ACIS detectors. We have not ex-
+ 𝑓gas data set at both low and high redshifts. At 𝑧 ∼
+                                                                            amined the impact of the calibration changes on individual clusters
+significantly deeper data for several of the known relaxed clusters,
+                                                                            in detail, i.e. using only the old data reduced with the old and new
+compared with previous work, and add two systems, at 𝑧 = 0.972 and
+                                                                            calibrations, but note that in all cases our old and new constraints
+𝑧 = 1.160, that have not previously been employed in this context.
+                                                                            on gas density agree extremely well, such that systematic differences
+At low redshifts, we incorporate a precise 𝑓gas measurement for
+                                                                            from M14 in 𝑓gas estimates can be attributed to changes in the mea-
+the Perseus Cluster (Abell 426), based on a new Chandra mosaic,
+extending the sample from 𝑧 = 0.078 (Abell 2029) down to 𝑧 = 0.018.         sured temperatures. 3 For redshifts < 0.6, where the data set is best
+                                                                            populated, the average impact of the calibration update is a marginal
+   This paper is structured as follows. In Section 2, we describe the
+                                                                            decrease in measured ICM temperatures, leading to a ∼ 4 per cent
+analysis of X-ray and weak gravitational lensing data employed in
+                                                                            increase in 𝑓gas estimates. For each of the clusters at 0.6 < 𝑧 < 1,
+this work, with particular attention to the relatively challenging case
+                                                                            our new analysis incorporates a significant amount of new data,
+of the X-ray observations of Perseus. Section 3 reviews the cosmo-
+logical model fitted to the data, including allowances for various
+systematic uncertainties, while Section 4 presents the resulting con-       1  This characteristic radius is defined such that the average enclosed density
+straints on cosmological parameters from the 𝑓gas data alone, and in
+                                                                            is 2500 times the critical density at the cluster’s redshift.
+combination with other probes. We conclude in Section 5. In general,        2 Since the SPT J2215−3537 data are more recent than these calibration files,
+quoted fitted parameter values refer to the modes of the corresponding      we use ciao 4.12 and caldb 4.9.21 in that case.
+marginalized posterior probability distributions, and quoted uncer-         3 The later entries in our previous series of papers on relaxed clusters (Mantz
+tainties refer to the 68.3 per cent probability highest posterior density   et al. 2016a,b; A16) employed an intermediate calibration version, which
+(HPD) intervals. In plots showing joint parameter constraints, dark         produces temperature profiles indistinguishable from those in this work.
+
+MNRAS 000, 1–13 (2021)
+                                                                                                Cosmological Constraints from 𝑓gas                       3
+
+             0.50
+                                                                                  tent and the short duration of many of the individual pointings at the
+                                                                                  radii of interest (5 ks), leading to a number of specializations of our
+                                                                                  standard analysis.
+                                                                                     For these short observations, it is not possible to clean the data of
+             0.20                                                                 point source emission to the level where the blank-sky fields normally
+                                                                                  used to model the extragalactic X-ray and particle backgrounds ap-
+
+  fgas(r∆)   0.10
+                                                                                  ply. Furthermore, Perseus lies behind the Galactic plane, making the
+                                                                                  Galactic soft X-ray foreground significantly stronger in this field than
+                                                                                  in the blank-sky data. To handle these issues, we constructed a back-
+             0.05                                                                 ground plus foreground model as follows. The brightest point sources
+                                            2500          500                     were identified and masked using preliminary results from the Cluster
+                                                                                  AGN Topography Survey pipeline (CATS; Canning et al., in prepa-
+             0.02                                                                 ration). To account for fainter sources, we include in the spectral
+                                                                                  model a power law component with index 1.4, whose normalization
+                    105           104               103              102          was computed based on the flux limit for detection by the CATS algo-
+                                            ∆                                     rithm and the AGN luminosity function model of Miyaji et al. (2015).
+                                                                                  This model normalization varies on an observation-by-observation
+Figure 1. Differential 𝑓gas profiles as a function of overdensity, calculated     basis, dependent on the exposure time and local cluster surface bright-
+for our reference cosmology. The shaded region shows the typical range in         ness; for the ∼ 5 ks observations that predominate at radii ∼ 𝑟 2500 , a
+Δ corresponding to the 0.8–1.2 𝑟2500 shell where our cosmological measure-        typical AGN detection flux limit is ∼ 2.8 × 10−14 erg s−1 cm−2 in the
+ments are made; by this point the dispersion is small compared with that seen     0.5–8 keV band. To model the particle-induced background, we use
+at small radii (large overdensities). Results for the Perseus Cluster are shown   data obtained while ACIS was in a stowed position, including these in
+with thicker, red lines (see Section 2.2).
+                                                                                  the analysis in an identical manner to what is generally done with the
+                                                                                  blank-sky data (see M14). The Galactic foreground was modeled as
+                                                                                  the sum of two thermal emission components with Solar metallicity,
+and thus these 𝑓gas constraints have shrunk, while remaining con-
+                                                                                  one unabsorbed and one absorbed. The respective temperatures of
+sistent with the (significantly less precise) previous measurements.
+                                                                                  0.0974 keV and 0.221 keV were determined by fitting ROSAT All-
+For CL J1415.2+3612 and 3C 186, with 1.0 < 𝑧 < 1.1, the updates
+                                                                                  Sky Survey spectra, extracted from an annulus spanning cluster radii
+reduce 𝑓gas slightly while increasing its uncertainty, with the overall
+                                                                                  of 2◦ –4◦ (i.e., beyond 1.5 𝑟 200 ; Simionescu et al. 2011), excluding
+shift being small compared with the error bars. We note that all these
+                                                                                  regions to the W and NW that are contaminated by nearby struc-
+effects are within the scope of the systematic allowances employed
+                                                                                  tures. Given the role of point-source finding in this procedure, and
+in previous work and reprised here.
+                                                                                  its reliance on an accurate model of the point spread function, we use
+   The result of the X-ray analysis is simultaneous constraints on the
+                                                                                  data only from ACIS CCDs 0–3 and 7. We note that the models for
+gas mass and total mass profiles of each cluster, where the former is
+                                                                                  the soft foreground and the residual AGN emission, given the above
+constructed non-parametrically and the latter assumes a parametrized
+                                                                                  treatment, are significantly fainter than both the cluster emission and
+Navarro, Frenk & White (1997, hereafter NFW) form, as well as
+                                                                                  the particle-induced background at the radii of interest.
+hydrostatic equilibrium. Figure 1 shows the resulting differential
+                                                                                     Another consequence of Perseus’ position behind the Galaxy and
+ 𝑓gas profiles (that is, the ratio of gas to total mass at a given radius,
+                                                                                  its angular size is that the equivalent absorbing hydrogen column
+not interior to that radius) for the cluster sample. The ordinate is the                                                            > 2◦ diameter of the
+                                                                                  density, 𝑁H , is high, and varies across the ∼
+“overdensity”, Δ, defined as the ratio of the mean enclosed density at a
+                                                                                  cluster. In particular, H i surveys reveal an overall gradient across
+given radius, 𝑟 Δ , to the critical density of the Universe at the cluster’s
+                                                                                  the cluster. However, since 𝑁H values based on only H i measure-
+redshift. For a monotonically decreasing density profile (such as
+                                                                                  ments are known to be inaccurate for sufficiently dense lines of sight
+the NFW profile), Δ is thus a monotonically decreasing proxy for
+                                                                                  (> 1021 cm−2 ), we allow the overall column density to be variable
+radius, for which the self-similar nature of many ICM thermodynamic
+                                                                                  in our analysis, taking only its spatial variation from the LAB H i
+profiles becomes clear (e.g., Mantz et al. 2016a).
+                                                                                  survey (Kalberla et al. 2005). We checked the adequacy of model-
+   As input to the cosmological likelihood, the X-ray measurements
+                                                                       ref ,      ing only this overall shift in 𝑁H by also performing independent fits
+are summarized as constraints on the total mass within 𝑟 2500 , 𝑀2500
+                                                                                  in projection to spectra extracted over individual CCDs for every
+and the gas mass fraction in a shell spanning radii of 0.8–1.2 𝑟 2500 ,
+  ref (Table 1; see discussion in M14). The superscript “ref” indi-               observation, each time modeling thermal emission from the cluster,
+ 𝑓gas
+                                                                                  the Galactic absorption, and the foreground and background com-
+cates that these quantities are computed assuming a reference ΛCDM
+                                                                                  ponents discussed above. Those fits are consistent with a uniform,
+model with ℎ = 0.7, Ωm = 0.3 and ΩΛ = 0.7, with the likelihood
+                                                                                  overall increase in 𝑁H by a factor of ∼ 1.3 compared with the LAB
+function accounting for this assumption (Section 3). Figure 2 shows
+                                                                                  values, apart from a statistically significant trend with radius at radii
+the measured (reference) gas mass fractions as a function of redshift
+                                                                                  < 100 kpc (conservatively). The latter likely reflects inadequacy of
+and mass.
+                                                                                  the single-temperature model for the cluster emission rather than
+                                                                                  the nature of the Galactic absorption, and data at these small radii
+                                                                                  are excluded from our final analysis based on other considerations,
+2.2 Perseus Cluster
+                                                                                  discussed below. Our fitted values of 𝑁H are consistent with the
+Measurements of 𝑓gas for the Perseus Cluster using Chandra have                   correction suggested by Willingale et al. (2013), based on compar-
+been enabled by a mosaic of observations providing nearly com-                    ing measurements of both H i and molecular hydrogen to survey H i
+plete coverage of the cluster out to ∼ 1.2 𝑟 2500 in radius, and lim-             values.
+ited azimuthal coverage in 8 directions out to ∼ 𝑟 500 (proposal ID                  While Perseus’ global morphology satisfies the SPA criteria for
+16800086). Perseus is unique in our sample in its large angular ex-               inclusion in the 𝑓gas sample, its emission is not perfectly circularly or
+
+                                                                                                                                 MNRAS 000, 1–13 (2021)
+4      A. B. Mantz et al.
+
+                                                   0.20
+
+
+
+
+                       fgas(0.8 < r r2500 < 1.2)
+                                                   0.15
+
+
+
+                                                   0.10
+
+
+
+                                                   0.05
+
+                                                          0.0   0.2   0.4   0.6   0.8 1.0 1.2          2              5               10
+                                                                       redshift                             M2500 (1014 M )
+
+Figure 2. Gas mass fractions for our cluster sample, measured in our reference cosmology, as a function of redshift (left) and mass (right). Color coding is blue
+to red with increasing redshift. Note that the measurement uncertainties on 𝑓gas and 𝑀2500 are typically strongly anti-correlated; this is not reflected in the way
+the error bars are displayed, but is accounted for in our analysis (Section 3).
+
+
+elliptically symmetric. Departures from symmetry exist at all radii,
+associated with large-scale sloshing of the gas, as well as a cold front
+aligned with the cluster’s major axis (Simionescu et al. 2012). In this,
+Perseus is not necessarily different from any other cluster, including
+the most relaxed examples known. However, its large X-ray flux,
+combined with our high spatial resolution, means that azimuthal
+variations are detected at extremely high significance, even in our
+shallow Chandra data. Consequently, our usual assumption that the
+ICM is characterized by a single density at each radius results in a
+poor fit that can bias the measurement of temperature, when a single
+emission model is used to describe the data at all azimuths. Following
+Urban et al. (2014), we divide the cluster into 8 sectors (divided by
+position angles 25◦ , 70◦ , 115◦ , . . . E of N); when fitting the data
+in these individual sectors at radii > 8 0 , we find that the variations
+in brightness are small enough to obtain acceptable fits. Note that
+this exclusion is larger than the 100 kpc scale discussed above (at
+this redshift, 1 0 ≈ 21.8 kpc). Figure 3 shows the spatial layout of the
+observations employed below.
+   For the measurement of 𝑓gas , we are only interested in those sec-                      Figure 3. Smoothed ROSAT All-Sky Survey image of the Perseus Cluster
+tors that lack large-scale cold fronts or signatures of sloshing at the                    (Trümper 1993), with per-CCD fields of view of the Chandra data used in
+radii of interest. Again following Urban et al. (2014), we henceforth                      our analysis outlined in cyan (a subset of the available central pointings and
+restrict the analysis to the N, NW and S sectors, as the NE, E and                         wider mosaic). Magenta lines delimit the 8 sectors defined, of which we use
+SE sectors intersect the largest cold front along the cluster’s major                      3, with inner and outer circles showing radii of 80 and 750 . The dashed, yellow
+axis (approximately E–W), and the W and SW sectors intersect a                             circles delineate the radial range 0.8–1.2 𝑟2500 , as estimated in Section 2.2.
+bright sloshing feature (effectively a minor cold front). We constrain
+deprojected density, temperature and mass profiles for the N, NW
+and S sectors independently, using our standard methodology (Sec-                          surements of the 𝑓gas profile along different directions into a single
+tion 2.1; note that this entails independent solutions for both the gas                    estimate for Perseus. Scatter among estimates made in this way is ex-
+density and the gravitational potential in each sector), with the modi-                    pected, driven primarily by asphericity and the resulting ellipticity of
+fied treatment of Galactic absorption and background and foreground                        the cluster emission in the plane of the sky (e.g. Roncarelli et al. 2013;
+components described above, and considering only data at radii > 8 0                       Ansarifard et al. 2020). To gain some insight, we turned to the single
+from the cluster center. In addition, the Chandra coverage of the NW                       other cluster in the sample for which an azimuthally resolved analysis
+arm has a gap at radii of approximately 18.5 0 –21.5 0 (405–470 kpc), a                    is possible, Abell 2029. In this case, there are no visible substructures
+range within which our model nominally has 3 free temperatures. In                         outside the cluster core that would discourage the use of particular re-
+order to perform the deprojection to the NW, we marginalize each of                        gions within the cluster. We therefore divided the data into 8 sectors,
+these temperatures over a uniform prior spanning 7–9 keV, centered                         oriented sensibly with respect to the cluster’s major and minor axes,
+on the best fit of ≈ 8 keV found in the N sector; given the use of a                       and measured deprojected 𝑓gas profiles independently using the data
+parametrized mass model and the assumption of hydrostatic equilib-                         in each sector, as was done in Perseus. The posterior distributions for
+rium, an additional prior on the density profile is not necessary.                          𝑓gas in the 0.8–1.2 𝑟 2500 shell, as determined from each sector, are
+   We are then left with the question of how to combine 3 mea-                             shown in Figure 4. The observed variation is primarily due to differ-
+
+MNRAS 000, 1–13 (2021)
+                                                                                                    Cosmological Constraints from 𝑓gas                            5
+
+Table 1. Redshifts, gas masses, total masses and gas-mass fractions of clusters in our sample from our X-ray analysis. Apart from redshift, these quantities are
+computed for our reference ΛCDM cosmology; the applicable radial range is given in the header. Quoted error bars account for statistical uncertainties only.
+Note that the total mass values listed here do not incorporate the calibration from weak lensing data, which is accounted for later in our analysis; a “∗” indicates
+clusters for which we use lensing data (see M14 and A16).
+
+
+                      Cluster                       𝑧        ref (1013 𝑀 )
+                                                            𝑀gas                   ref (1014 𝑀 )
+                                                                                 𝑀tot                         ref
+                                                                                                            𝑓gas          ref (1014 𝑀 )
+                                                                                                                         𝑀2500
+                                                              0.8–1.2 𝑟2500        0.8–1.2 𝑟2500       0.8–1.2 𝑟2500        0.0–1.0 𝑟2500
+                      Perseus                     0.018    1.638 ± 0.014         1.30 ± 0.04           0.129 ± 0.004      2.66 ± 0.04
+                      Abell 2029                  0.078    2.243 ± 0.021         1.69 ± 0.06           0.134 ± 0.004      4.06 ± 0.09
+                      Abell 478                   0.088    2.273 ± 0.043         1.94 ± 0.17           0.117 ± 0.009      4.20 ± 0.24
+                      RX J1524.2−3154             0.103    2.740 ± 0.030         2.07 ± 0.08           0.132 ± 0.004      4.58 ± 0.13
+                      PKS 0745−191                0.103    0.827 ± 0.022         0.67 ± 0.06           0.123 ± 0.009      1.76 ± 0.09
+                      Abell 2204∗                 0.152    2.719 ± 0.055         1.95 ± 0.15           0.139 ± 0.008      5.09 ± 0.24
+                      RX J0439.0+0520             0.208    0.853 ± 0.037         0.74 ± 0.13           0.115 ± 0.017      1.98 ± 0.19
+                      Zwicky 2701                 0.214    0.934 ± 0.019         0.83 ± 0.06           0.112 ± 0.006      1.88 ± 0.08
+                      RX J1504.1−0248             0.215    2.571 ± 0.027         1.93 ± 0.09           0.133 ± 0.005      4.92 ± 0.16
+                      Zwicky 2089∗                0.235    1.815 ± 0.060         1.18 ± 0.16           0.154 ± 0.019      2.85 ± 0.20
+                      RX J2129.6+0005             0.235    0.829 ± 0.026         0.72 ± 0.08           0.115 ± 0.011      1.64 ± 0.12
+                      RX J1459.4−1811             0.236    1.833 ± 0.076         1.21 ± 0.13           0.151 ± 0.014      2.73 ± 0.23
+                      Abell 1835∗                 0.252    3.088 ± 0.040         2.38 ± 0.13           0.130 ± 0.006      4.99 ± 0.15
+                      Abell 3444                  0.253    2.165 ± 0.071         1.53 ± 0.17           0.141 ± 0.012      3.11 ± 0.20
+                      MS 2137.3−2353∗             0.313    1.093 ± 0.031         0.79 ± 0.07           0.138 ± 0.011      2.09 ± 0.12
+                      MACS J0242.5−21             0.314    1.421 ± 0.123         1.09 ± 0.30           0.130 ± 0.029      2.90 ± 0.53
+                      MACS J1427.6−25             0.318    0.814 ± 0.047         0.65 ± 0.13           0.126 ± 0.022      1.80 ± 0.23
+                      MACS J2229.7−27             0.324    1.170 ± 0.050         0.81 ± 0.13           0.144 ± 0.021      1.98 ± 0.20
+                      MACS J0947.2+7623           0.345    2.042 ± 0.075         1.90 ± 0.23           0.107 ± 0.010      4.43 ± 0.37
+                      MACS J1931.8−26             0.352    1.943 ± 0.043         1.48 ± 0.13           0.131 ± 0.010      3.45 ± 0.18
+                      MACS J1115.8+0129∗          0.355    2.170 ± 0.055         1.39 ± 0.15           0.156 ± 0.014      3.38 ± 0.24
+                      MACS J1532.8+3021∗          0.363    0.921 ± 0.039         0.58 ± 0.09           0.159 ± 0.021      1.51 ± 0.17
+                      MACS J0150.3−10             0.363    1.912 ± 0.053         1.69 ± 0.15           0.113 ± 0.007      3.62 ± 0.22
+                      RCS J1447+0828              0.376    2.401 ± 0.070         1.83 ± 0.16           0.131 ± 0.008      3.99 ± 0.28
+                      MACS J0011.7−15             0.378    1.617 ± 0.070         1.20 ± 0.21           0.135 ± 0.021      3.02 ± 0.30
+                      MACS J1720.2+3536∗          0.391    1.681 ± 0.053         1.24 ± 0.18           0.136 ± 0.016      3.09 ± 0.34
+                      MACS J0429.6−02∗            0.399    1.579 ± 0.126         1.52 ± 0.43           0.104 ± 0.023      3.21 ± 0.61
+                      MACS J0159.8−08             0.404    2.584 ± 0.107         2.10 ± 0.34           0.123 ± 0.017      4.91 ± 0.47
+                      MACS J2046.0−34             0.423    1.046 ± 0.052         0.67 ± 0.13           0.156 ± 0.026      1.71 ± 0.20
+                      IRAS 09104+4109             0.442    1.243 ± 0.066         1.16 ± 0.21           0.107 ± 0.015      2.82 ± 0.33
+                      MACS J1359.1−19             0.447    0.925 ± 0.066         0.96 ± 0.23           0.096 ± 0.019      2.22 ± 0.36
+                      RX J1347.5−1145∗            0.451    4.883 ± 0.106         4.23 ± 0.37           0.116 ± 0.008     10.93 ± 0.68
+                      3C 295                      0.460    1.024 ± 0.063         0.91 ± 0.21           0.112 ± 0.021      2.12 ± 0.31
+                      MACS J1621.3+3810∗          0.461    1.390 ± 0.048         1.10 ± 0.16           0.126 ± 0.016      2.76 ± 0.23
+                      MACS J1427.2+4407∗          0.487    1.546 ± 0.089         0.97 ± 0.17           0.159 ± 0.022      2.40 ± 0.30
+                      MACS J1423.8+2404∗          0.539    1.552 ± 0.054         1.12 ± 0.13           0.138 ± 0.012      2.83 ± 0.21
+                      SPT J2331−5051              0.576    1.120 ± 0.039         0.92 ± 0.07           0.121 ± 0.006      2.07 ± 0.17
+                      SPT J2344−4242              0.596    3.044 ± 0.076         2.48 ± 0.15           0.122 ± 0.004      6.07 ± 0.33
+                      SPT J0000−5748              0.702    0.944 ± 0.036         0.93 ± 0.14           0.102 ± 0.012      2.05 ± 0.23
+                      SPT J2043−5035              0.723    1.210 ± 0.037         1.11 ± 0.11           0.109 ± 0.008      2.19 ± 0.18
+                      SPT J0615−5746              0.972    2.969 ± 0.075         2.54 ± 0.22           0.117 ± 0.007      4.70 ± 0.36
+                      CL J1415.2+3612             1.028    0.846 ± 0.024         0.98 ± 0.18           0.087 ± 0.015      1.92 ± 0.26
+                      3C 186                      1.063    0.992 ± 0.067         0.97 ± 0.22           0.102 ± 0.018      1.91 ± 0.30
+                      SPT J2215−3537              1.160    1.569 ± 0.085         1.07 ± 0.20           0.147 ± 0.021      2.40 ± 0.35
+
+
+
+ences in the derived gas mass profiles, with the total mass profiles                 with different uncertainties, as can be seen in Figure 4. From the
+(and thus 𝑟 2500 ) being more mutually consistent.                                   mean+scatter fit, the intrinsic scatter is constrained to be 8 ± 4 per
+   We considered two methods of combining the information from                       cent, consistent with predictions for relaxed clusters (Roncarelli et al.
+each arm: fitting a mean plus Gaussian intrinsic scatter, and com-                   2013; Ansarifard et al. 2020).
+puting the unweighted mean while marginalizing over the individual                     In the case of Perseus, the same mean+scatter model cannot be
+posteriors from each sector. The former method is more interesting                   constrained based on measurements from only 3 sectors. We can,
+in that it can provide a measurement of the scatter that we expect                   however, fit a mean 𝑓gas value when fixing the intrinsic scatter to
+to be present due to asphericity, given sufficient data. The second                  the best-fitting value from the Abell 2029 analysis (i.e., assuming
+has the advantage of providing an estimate of the mean even when                     the sector-to-sector scatter is similar). This turns out to produce es-
+there is insufficient data to simultaneously constrain the scatter, as               sentially identical results to the unweighted-mean method applied to
+is the case for the 3 sectors of Perseus. For Abell 2029, we find that               Perseus, including the uncertainty estimate (unlike in Abell 2029).
+these methods produce very similar values of the mean 𝑓gas , albeit                  We adopt the simpler unweighted-mean method for our final Perseus
+
+                                                                                                                                        MNRAS 000, 1–13 (2021)
+6      A. B. Mantz et al.
+                                                                                 2.3 Weak gravitational lensing
+         150                                unweighted
+                                            mean                                 To constrain any overall bias of the masses estimated from X-ray
+                                                                                 data, we incorporate weak gravitational lensing measurements from
+                                                                                 the Weighing the Giants project (von der Linden et al. 2014; Kelly
+    density                                                                      et al. 2014; Applegate et al. 2014), as in M14. Specifically, we use the
+                                                                                 subset of lensing measurements for relaxed clusters in our sample.
+         100
+                         fitted mean                                             There are 12 of these, of which 6 have 5-band data sufficient to obtain
+                                                                                 robust photometric redshifts for individual source galaxies, and 6 for
+                  individual
+         50                                                                      which “color-cut” methods have been employed instead; for consis-
+                   sectors
+                                                                                 tency, we use the color-cut estimates for all 12 clusters, accounting
+                                                                                 for the additional systematic uncertainty as required (Applegate et al.
+                                                                                 2014). While the data have not changed from previous work, we do
+         0                                                                       incorporate updated systematics modeling from A16, in particular
+                    0.10       0.12       0.14        0.16       0.18            a potential redshift dependence in the absolute accuracy of masses
+                               fgas(0.8 − 1.2 r2500)
+                                                                                 estimated using these methods (see Section 3).
+
+
+Figure 4. Posterior distributions of 𝑓gas measured independently from data in
+8 sectors about the center of Abell 2029 (gray, solid curves). The solid, blue   3 MODEL
+curve shows the distribution of the unweighted mean of 𝑓gas in the 8 sectors,
+                                                                                 Our modeling of the data follows previous work (M14; A16), with
+marginalizing over their individual posteriors. The red, dashed curve shows
+the constraint on the mean 𝑓gas in the 8 sectors when a Gaussian intrinsic       the exception that here we allow 𝑓gas to potentially vary with mass
+scatter is fitted simultaneously.                                                as a power law, constraining its slope, 𝛼, simultaneously with other
+                                                                                 parameters. We describe the model and its parameters below, and
+                                                                                 refer the reader to the works cited above for complete details.
+                                                                                    We model the true gas mass fraction in a spherical shell spanning
+                                                                                 radii of 0.8–1.2 𝑟 2500 as
+                                          ref = 0.129 ± 0.004. The dif-                                            Ωb
+results, arriving at the estimate of 𝑓gas                                        𝑓gas (𝑧, 𝑀2500 ) = Υ(𝑧, 𝑀2500 )      ,                              (1)
+ferential 𝑓gas profile, computed in the same way as a function of                                                  Ωm
+overdensity, is shown in Figure 1. Applying the same procedure to                where Υ(𝑧, 𝑀2500 ) is the gas depletion of massive clusters, parame-
+the estimate of 𝑟 2500 , we find 𝑟 2500 = 569 ± 3 kpc (26.05 0 ± 0.13 0 ),       terized as
+or, equivalently, 𝑀2500 = (2.66 ± 0.04) × 1014 𝑀 .                                                            
+                                                                                                                   𝑀2500
+                                                                                                                            𝛼
+   Systematic azimuthal variations in ICM density at a given radius              Υ(𝑧, 𝑀2500 ) = Υ0 (1 + Υ1 𝑧)                  .                  (2)
+                                                                                                                3 × 1014 𝑀
+cause an overestimate of the density when the data at all azimuths
+are straightforwardly combined in a single fit, rather than indepen-             The model includes a log-normal intrinsic scatter about
+dent fits in multiple sectors, as above. In the simplest approximation,           𝑓gas (𝑧, 𝑀2500 ), with standard deviation 𝜎 𝑓 .
+lognormal variations in the true density of standard deviation 𝜎 lead               M14 adopted a uniform prior on Υ0 centered on the average pre-
+to a multiplicative bias of 1 + 𝜎 in the estimated density. This is              diction of the hydrodynamic simulations of Battaglia et al. (2013)
+compatible with our analysis of Abell 2029, where the best-fitting               and Planelles et al. (2013), which include radiative cooling, star for-
+ 𝑓gas value from an azimuthally averaged analysis exceeds the mean               mation, and heating from AGN and supernova feedback. However, a
+ 𝑓gas among 8 sectors by 5 per cent, consistent with the 8 ± 4 per cent          misinterpretation of one of the results of Planelles et al. (2013) led
+scatter found above. To the extent that this scatter is driven by the            this central value to be somewhat larger than it should have been.
+elliptical shape of the gas, one might consider correcting such a bias           We correct this here, centering the prior at Υ0 = 0.79, maintaining
+on a cluster-by-cluster basis based on their projected ellipticities at          the full width of 20 per cent (2.3 times the difference between the
+𝑟 2500 . However, we note that the 𝑓gas variations among the sectors             two simulations) from M14. We maintain the uniform prior on Υ1
+in Figure 4 do not quite correspond to each sector’s placement with              between −0.05 and +0.05 from M14, which is not impacted by the
+respect to the major and minor axes, as one would expect in this sim-            issue noted above.
+plistic interpretation. Furthermore, the exposure time as a function                Even in the absence of statistical uncertainties, systematic biases
+of azimuth for Abell 2029 is much more heterogenous than for other               and the assumption of a reference cosmology may cause the measured
+clusters in the sample, with significantly deeper observations along             gas mass fractions to differ from 𝑓gas (𝑧, 𝑀2500 ):
+the major axis; it is possible that this may introduce additional scatter                                 ref  3/2
+that does not generalize to other cluster observations. We therefore              ref                     𝑑 (𝑧)
+                                                                                 𝑓gas = 𝐾 (𝑧) 𝐴(𝑧) 𝜂 𝑓               𝑓gas (𝑧, 𝑀2500 ).               (3)
+choose not to attempt a general correction for this bias based on the                                      𝑑 (𝑧)
+single cluster where we can obtain suitable measurements in sev-
+eral sectors, though further investigation in future work is certainly           Here the ratio [𝑑 ref (𝑧)/𝑑 (𝑧)] 3/2 accounts for the impact of the as-
+warranted. Instead, we adopt the improved 𝑓gas estimates based on                sumed reference cosmology on 𝑓gas measurements within a fixed
+azimuthally resolved measurements for Perseus and Abell 2029 only.               angular aperture, while the term
+We expect any small shift in their 𝑓gas values with respect to other                   𝜃 ref     𝐻 (𝑧) 𝑑 (𝑧)
+clusters in the sample so introduced to be subsumed into the global              𝐴(𝑧) = 2500 =                                                       (4)
+intrinsic scatter parameter in our cosmological analysis. Moreover,
+                                                                                       𝜃 2500  [𝐻 (𝑧) 𝑑 (𝑧)] ref
+the relatively small values of this intrinsic scatter that we find a             accounts for the relatively smaller correction that arises from the de-
+posteriori imply that such an effect cannot be large.                            pendence of the measurement aperture itself on the reference model.
+
+MNRAS 000, 1–13 (2021)
+                                                                                                                    Cosmological Constraints from 𝑓gas           7
+We empirically measure a power-law slope of the aperature-measured
+                                                                                                                                                  ΛCDM
+                                                                                                            0.18
+ 𝑓gas with radius of 𝜂 𝑓 = 0.390 ± 0.024; note that this is not the
+slope of 𝑓gas (𝑟), but of the gas mass fraction integrated in a shell,                                                                            OCDM
+
+
+
+
+                                                                                fgas(0.8 < r r2500 < 1.2)
+ 𝑓gas (0.8𝑥 < 𝑟 < 1.2𝑥), as 𝑥 varies in the neighborhood of 𝑟 2500 . The                                                                          w = −3
+final term,
+                                                                                                            0.14
+𝐾 (𝑧) = 𝐾0 (1 + 𝐾1 𝑧),                                               (5)
+
+parametrizes a potentially redshift-dependent bias in the 𝑓gas mea-
+surements due to bias in the total mass estimates. The 𝐾0 parameter                                         0.10
+is well constrained by our weak lensing data (see below), while we
+marginalize 𝐾1 over the range −0.05 < 𝐾1 < 0.05.
+   Biases in the X-ray gas mass estimates may also be present, in                                           0.06
+particular due to azimuthal variations in gas density at a given circular
+radius, which leads the root-mean-square density measured from the
+                                                                                                                   0.0    0.2    0.4    0.6     0.8   1.0 1.2
+data to exceed the true mean density. At radii ∼ 𝑟 2500 in relaxed
+clusters, simulations place the bias in density (and thus gas mass)                                                               redshift
+at ∼< 5 per cent (Battaglia et al. 2013, 2015; Roncarelli et al. 2013;
+                                                                            Figure 5. The 𝑓gas data as a function of redshift, as in Figure 2, are compared
+Planelles et al. 2017; Ansarifard et al. 2020). Observations are in         with predictions of 3 dark energy models. These predictions incorporate the
+broad agreement with this limit (Eckert et al. 2015; Zhuravleva et al.      complete model of Section 3, meaning that they are predictions for what 𝑓gas
+2019), but do not yet address the specific cluster selection and radial     values we would measure given the adopted reference cosmology, for nominal
+range of interest here. Lacking such direct, empirical input, and           values for the nuisance parameters. The solid line shows predictions for a flat
+given that any bias is expected to be subdominant to the systematic         ΛCDM model (Ωm = 0.3, ΩΛ = 0.7, 𝑤 = −1; identical to the reference), the
+uncertainty in the mass measurements, we do not explicitly account          dashed line an open model (Ωm = 0.3, ΩΛ = 0.0), and the dot-dashed line
+for potential bias in gas masses in this work. We note, however, that a     a flat, constant-𝑤 model (Ωm = 0.3, ΩDE = 0.7, 𝑤 = −3). To illustrate the
+positive bias of 5 per cent would straightforwardly impact constraints      different shapes of the curves as a function of redshift, they are normalized
+from the absolute value of 𝑓gas (Section 4.1) by the same amount. For       to intersect at 𝑧 = 0.3, which is approximately the weighted mean redshift of
+                                                                            the data (note that this is a different and arguably better motivated choice than
+Ωm , for example, this would result in a shift of 0.01, or one quarter
+                                                                            in the equivalent figure in M14). The figure thus demonstrates the redshift-
+of our posterior uncertainty.                                               dependent signal available to the 𝑓gas (𝑧) data once the Ωm constraint from
+   Analogously to 𝑓gas , we can write the relationship between true         the normalization of 𝑓gas is accounted for, in particular emphasizing the role
+mass and mass as estimated for a reference cosmological model as            of data at the lowest redshifts in ruling out the more extreme models.
+                     ref 
+   ref          𝜂 𝑀 𝑑 (𝑧)
+𝑀2500 = 𝐴(𝑧)                  𝑀2500 ,                                 (6)
+                       𝑑 (𝑧)                                                cosmological analysis, and the corresponding priors (see further dis-
+                                                                            cussion in M14).
+with the slope of the mass profile near 𝑟 2500 , 𝜂 𝑚 = 1.065 ± 0.016,         To illustrate the redshift dependence of the model, we show in
+measured empirically from the X-ray fits.                                   Figure 5 predictions in data space for 3 different cosmologies. The
+   The joint posterior distributions of 𝑓gasref and 𝑀 ref from the X-
+                                                       2500                 curves are normalized to intersect at the weighted-mean redshift of
+ray analysis are well described by bivariate log-normal distributions,      the data, to better illustrate their different shapes as a function of
+and we model them as such, including their (generally substantial)          redshift. In this way, we can see how precise measurements across
+anti-correlation.                                                           a wide range in redshifts, especially when extending to 𝑧 ≈ 0, can
+   Since the measured gravitational lensing shear depends on dis-           place constraints on dark energy parameters.
+tances between the observer, lens and numerous background objects
+(as opposed to only the observer and cluster, as in the X-ray case),
+the cosmological dependence of inferred masses cannot be accounted
+for with simple factors of 𝑑 (𝑧)/𝑑 ref (𝑧), as above. Instead, following    4 RESULTS
+A16, we directly incorporate the measured shear profiles and their          The posterior probability encoded by the model of Section 3 is imple-
+Gaussian measurement uncertainties in our cosmological analysis.            mented as a stand-alone library.4 The results presented below were
+We assume a log-normal distribution of lensing/X-ray mass ratios            produced by including it in cosmomc5 (Lewis & Bridle 2002; ver-
+     ref , with mean ln 𝐾 (𝑧) and scatter 𝜎 , and marginalize over
+at 𝑟 2500                                      𝐾                            sion May 2020), with cosmological calculations provided by camb
+the mass constraints from the lensing and X-ray data, assuming an           (Lewis, Challinor & Lasenby 2000). When analyzing the 𝑓gas data
+NFW form of the mass profile in both cases. Note that, while the            alone, or in combination with simple, external priors, we use cos-
+same parametrized model is fit to both types of data, the constraints       momc’s “astro” cosmological parametrization, with the free param-
+from each method are independent of the other. In particular, the           eters and priors given by Table B2.
+X-ray data are sufficient to constrain both parameters of the NFW              We also compare and combine our results with those of other
+model in all cases, while for the lensing analysis we adopt a prior         cosmological probes whose likelihoods are available in cosmomc.
+on the distribution of NFW concentration parameters of massive,             In particular, these include the final (2018) Planck CMB tempera-
+relaxed clusters motivated by simulations (Neto et al. 2007). The           ture, polarization and lensing power spectra (Planck Collaboration
+systematic error budget for the lensing mass estimates is discussed         2020a,c), type Ia supernova (SN) from the Pantheon project (Scolnic
+by Applegate et al. (2014) and A16, and is described by a redshift-
+dependent bias of 𝑊 (𝑧) = 𝑊0 + 𝑊1 (𝑧 − 0.4), with 𝑊0 = 0.96 ± 0.09
+and 𝑊1 = −0.09 ± 0.03.                                                      4   https://github.com/abmantz/fgas-cosmo
+   Table B1 summarizes the model parameters specific to the 𝑓gas            5   http://cosmologist.info/cosmomc/
+
+                                                                                                                                             MNRAS 000, 1–13 (2021)
+8      A. B. Mantz et al.
+et al. 2018), and Baryon Acoustic Oscillations (BAO). In the case of
+BAO, we will show the final results from the Sloan Digital Sky Sur-                                                               fgas(z < 0.16)
+vey (SDSS) IV extended Baryon Oscillation Spectroscopic Survey                        0.9                                         Planck CMB
+(BOSS) (Alam et al. 2021); however, as the data underlying those                                                                  Riess 2019
+results is not publicly available at the time of our analysis, we use ear-
+lier data from the 6-degree Field Galaxy Survey (𝑧 = 0.106; Beutler
+et al. 2011), the SDSS DR7 main galaxy sample (𝑧 = 0.15; Ross et al.                  0.8
+2015) and the SDSS-III BOSS (𝑧 = 0.38, 0.51 and 0.61; Alam et al.                h
+2017) when obtaining joint constraints. When obtaining constraints
+using CMB data (alone or in combination with others), we use the                      0.7
+“theta” cosmological parametrization in cosmomc, with the free pa-
+rameters and priors shown in Table B3. Though we do not perform
+a combined analysis with them, we also reproduce constraints from
+the Dark Energy Survey (DES) Year-3 analysis of galaxy clustering                     0.6
+and weak lensing (“3 × 2pt”; DES Collaboration 2021) as a point of
+comparison.
+   In models with 𝑤 free, constraints from only the CMB data em-                            0.10        0.14           0.18           0.22
+ployed here are effectively unable to place an upper limit on the                                                  Ωb Ωm
+Hubble parameter, 𝐻0 (equivalently, ℎ = 𝐻0 /100 km s−1 Mpc−1 ).
+The resulting contours (Figures 6 and 8) may appear surprisingly             Figure 6. Constraints on the Hubble parameter and the cosmic baryon frac-
+unconstrained to some readers, due to the degeneracy between ℎ and           tion from our 𝑓gas data at 𝑧 < 0.16 only (red), Planck CMB data (Planck
+other parameters, and the fact that we marginalize over a wider uni-         Collaboration 2020a,c), and the Cepheid distance ladder (Riess et al. 2019).
+form prior on ℎ than is typical in the literature (0.2–2 rather than         The Planck analysis assumes a flat, constant-𝑤 model, while the 𝑓gas and
+                                                                             distance-ladder constraints are essentially independent of the cosmological
+0.4–1; e.g. Planck Collaboration 2020b). While one could argue un-
+                                                                             model.
+convincingly about which range better reflects our prior knowledge
+of ℎ, we prefer not to show contours that appear to provide con-
+straints on other parameters (e.g. Ωm ) that are, ultimately, due to the
+                                                                             Table 2. Marginalized best-fitting values and 68.3 per cent probability cred-
+limited prior range of ℎ. The reader should interpret these particular
+                                                                             ible intervals on cosmological parameters from our analysis of low-redshift
+contours as being indicative of which combinations of parameters             (𝑧 < 0.16) cluster 𝑓gas data, including systematic uncertainties. At the quoted
+are well constrained and which are degenerate, and thus how com-             precision, these constraints are identical for all cosmological models consid-
+binations of independent probes might improve constraints, without           ered in this work. Columns 1–3 indicate whether priors on each cosmological
+taking the absolute probability levels too seriously.                        quantity were included (see text; F01=Freedman et al. 2001; P18=Planck
+                                                                             Collaboration 2020b, R19=Riess et al. 2019, H20=Hsyu et al. 2020).
+
+
+4.1 Constraints from low-redshift 𝑓gas data                                                     Prior                         Constraint
+                                                                                       ℎ       Ωb ℎ 2 Ωb /Ωm
+The dependence of the 𝑓gas observable on the cosmological pa-
+rameters, apart from the relatively minor 𝐴(𝑧) term, is 𝑓gas      ref ∝
+                                                                                       —           —       —        ℎ 3/2 Ωb /Ωm = 0.096 ± 0.013
+𝑑 (𝑧) −3/2 Ωb /Ωm . Thus, constraints can in principle be obtained                     —           —      P18                  ℎ = 0.722 ± 0.067
+from both the normalization of 𝑓gas   ref (𝑧) and its behavior with red-
+                                                                                      F01          —       —            Ωb /Ωm = 0.156 ± 0.034
+shift. The former depends the cosmological parameter combination
+ℎ3/2 Ωb /Ωm , and can be measured to high statistical precision using                 P18          —       —            Ωb /Ωm = 0.173 ± 0.024
+only the low-redshift clusters in our sample. We can, therefore, ob-                  R19          —       —            Ωb /Ωm = 0.150 ± 0.021
+tain constraints on this degenerate combination of parameters from                     —       H20         —            Ωm ℎ 1/2 = 0.221 ± 0.031
+a subset of the 𝑓gas data. The advantage of doing so is that these con-
+                                                                                      F01      H20         —                 Ωm = 0.260 ± 0.040
+straints are insensitive to the particular model of dark energy used,
+provided that its equation of state does not evolve strongly over the                 P18      H20         —                 Ωm = 0.270 ± 0.038
+redshift range of the data employed. Following M14, we obtained                       R19      H20         —                 Ωm = 0.257 ± 0.037
+such constraints from the 6 clusters in our sample with 𝑧 < 0.16,
+marginalizing over a non-flat cosmological model with 𝑤 free, find-
+ing ℎ3/2 Ωb /Ωm = 0.096 ± 0.013. Since we do not use weak lensing
+data for any of these low-𝑧 clusters, we employ a Gaussian prior,            tarities with independent data. We investigate three forms of such
+𝐾0 = 0.93 ± 0.11, obtained from our full analysis (Section 4.5).             external information, with the results shown in Table 2.
+As mentioned in Section 3, this simplified approach neglects any                Combining our data with a prior on the cosmic baryon fraction,
+correlations between cosmological parameters and the measured X-             Ωb /Ωm = 0.156 ± 0.003, from Planck, we constrain the Hubble pa-
+ray/lensing mass ratio, but we note that these are small compared            rameter to be ℎ = 0.722 ± 0.067. Note that, whereas the direct con-
+with current uncertainties (see A16). At present, the constraint on          straints placed on ℎ by the CMB data are precise only when assuming
+ℎ3/2 Ωb /Ωm is limited by this uncertainty in 𝐾0 , which is primarily        a flat ΛCDM model, the CMB baryon fraction constraints hold much
+due to the small number of clusters for which we use lensing data to         more widely (Figure 6 shows contours for a constant-𝑤 model, dis-
+calibrate our X-ray masses.                                                  playing essentially no correlation in the ℎ vs Ωb /Ωm plane). As the
+   The above constraint was obtained without external cosmological            𝑓gas constraints considered here are similarly insensitive to the dark
+priors, but, as Figure 6 illustrates, there are interesting complemen-       energy model assumed, the combined 𝑓gas +CMB constraint on ℎ is
+
+MNRAS 000, 1–13 (2021)
+                                                                                                 Cosmological Constraints from 𝑓gas                      9
+an interesting one to compare to independent probes. In particular,                         12
+we prefer a value closer to that determined from the Cepheid-based                                     normalization
+distance ladder (Riess et al. 2019) than to the constraints from Planck                     10         evolution
+when assuming flat ΛCDM, although our results are consistent with
+both within uncertainties. Forthcoming weak lensing data (Baumont                           8
+
+
+                                                                               p(Ωm|data)
+et al., in preparation; Wright et al., in preparation) will roughly halve
+the uncertainty in 𝐾0 , translating directly to tighter constraints on ℎ                    6
+from the 𝑓gas +CMB combination. We note that compatible results to
+those above were obtained from the combination of WMAP CMB
+                                                                                            4
+data with 𝑓gas data from Allen et al. (2008) or M14, and the com-
+bination of BAO data with the M14 𝑓gas data (Holanda et al. 2020).
+                                                                                            2
+Our contraints are also compatible with those obtained by enforcing
+consistency between X-ray and SZ measurements of the same ICM;
+the latter method has the benefit of not requiring even the limited ex-                     0
+ternal priors adopted here, but is significantly less precise at present                         0.0     0.1      0.2        0.3       0.4        0.5
+(see Wan et al. 2021 for a recent discussion).                                                                          Ωm
+   Conversely, adopting external priors on ℎ allows us to test for
+consistency with the baryon fraction measured from the CMB. We               Figure 7. Posterior distributions for Ωm based on 𝑓gas data. The blue-shaded
+find good agreement, within uncertainties, using priors from the             constraints are from the normalization of 𝑓gas (𝑧) measured from only the
+Hubble Key project (ℎ = 0.72 ± 0.08; Freedman et al. 2001), Planck           𝑧 < 0.16 clusters in our sample, using standard priors on ℎ, Ωb ℎ 2 and
+(assuming flat ΛCDM; ℎ = 0.674 ± 0.005; Planck Collaboration                 the relevant nuisance parameters (Section 4.1). These results are insensitive
+2020b) or Cepheids (ℎ = 0.7403 ± 0.0142; Riess et al. 2019).                 to the assumed model of dark energy. The red-shaded results are from the
+                                                                             shape of the measured 𝑓gas (𝑧) curve, using our full sample without the priors
+   Combining the 𝑓gas data with a prior on the baryon density, Ωb ℎ2 =
+                                                                             that would produce a constraint from the normalization, and assuming a flat
+0.0215 ± 0.0005, based on estimates of the primordial helium and
+                                                                             ΛCDM model (Section 4.2).
+deuterium abundances (Hsyu et al. 2020), provides the constraint
+Ωm ℎ1/2 = 0.221 ± 0.031. The weak residual dependence on ℎ means
+that we obtain nearly identical constraints on Ωm when additionally             Our results are consistent with flat ΛCDM, and in good agreement
+combining with any of the priors on ℎ listed above. Using the results        individually with those from CMB, SN, BAO and 3 × 2pt data, as
+of Freedman et al. (2001), which are comfortably consistent with             shown in Figure 8, though we note that the CMB and BAO constraints
+the more recent estimates, the low-redshift 𝑓gas data yield Ωm =             shown appear to be in tension with one another for the flat, constant-
+0.260 ± 0.040.                                                               𝑤 model (this is not true of the older BAO data set that we employ
+                                                                             in the combined-probe analysis below). For the constant-𝑤 model
+                                                                             in particular, our constraint of 𝑤 = −1.13+0.17
+                                                                                                                           −0.20
+                                                                                                                                 compares well with
+4.2 Ωm from the evolution of 𝑓gas
+                                                                             those from other low-redshift probes: 𝑤 = −1.09 ± 0.22 (SN), 𝑤 =
+While the normalization of 𝑓gas     ref (𝑧) constrains the combination       −0.69 ± 0.15 (BAO), and 𝑤 = −0.98+0.32  −0.20
+                                                                                                                           (3 × 2pt). The 𝑓gas results
+  3/2                                                                        are also comparable to independent constraints from the number
+ℎ Ωb /Ωm , its behavior with redshift is sensitive to cosmology
+                                                                             counts of massive clusters (𝑤 = −1.01 ± 0.20; Mantz et al. 2010; see
+through the shape of 𝑑 (𝑧). Uniquely, Ωm contributes to the observed
+                                                                             also Vikhlinin et al. 2009; Mantz et al. 2015a; Bocquet et al. 2019).
+signal in both places. For the flat ΛCDM model, we can obtain precise
+                                              ref (𝑧) alone, and compare     Moreover, apart from a very weak dependence on ℎ (Section 3), the
+constraints on Ωm from the evolution of 𝑓gas
+                                                                              𝑓gas data provide these constraints without sensitivity to (or requiring
+them to those from its normalization. This can be accomplished in
+                                                                             assumptions about) additional parameters such as the number or mass
+practice by widening any of the informative priors impacting the
+                                                                             of neutrinos, or the shape or amplitude of the matter power spectrum,
+normalization of 𝑓gas (𝑧) (i.e. on ℎ, Ωb ℎ2 or Υgas,0 ) until it no longer
+                                                                             which do impact some of the probes discussed above.
+has an effect on the posterior distribution. Our constraints from this
+procedure are compared with those of the preceding section in Fig-
+ure 7; we find Ωm = 0.200 ± 0.044, consistent with but marginally
+                                                                             4.4 Combination with independent probes
+lower than the results from the normalization.
+                                                                             Combining the 𝑓gas data with CMB, SN and BAO information, we
+                                                                             obtain the constraints listed in Table 4. Note that the priors on ℎ and
+4.3 Constraints from the full 𝑓gas data set                                  Ωb ℎ2 employed in the last section are not used here, as the above
+We next report the constraints available from the combination of             combination of data is sufficient to constrain those parameters tightly
+the complete 𝑓gas data set with an external prior on Ωb ℎ2 from              in all of the models considered here. We find Ωk = (0.9 ± 2.0) × 10−3
+Hsyu et al. (2020), and a broad prior on ℎ from Freedman et al.              for the non-flat ΛCDM model, and 𝑤 = −1.04 ± 0.03 for the flat,
+(2001). Figure 8 shows our results as red-shaded contours for the            constant-𝑤 model, with Ωm tightly constrained around values of
+non-flat ΛCDM model (left) and flat constant-𝑤 model (right). The            0.30–0.31 in both cases. Generalizing to a model with both curvature
+degeneracies of ΩΛ and 𝑤 with Ωm are modest, due to the direct               and the dark energy equation of state free, the combination yields
+constraint on Ωm coming from the normalization of 𝑓gas (𝑧). For the          Ωk = (−0.5 ± 2.2) × 10−3 and 𝑤 = −1.04 ± 0.04 (left panel of
+ΛCDM model, we find Ωm = 0.257±0.039 and ΩΛ = 0.865±0.119,                   Figure 10).
+while for the flat, constant-𝑤 model we find Ωm = 0.256 ± 0.037 and             We also consider models with an evolving equation of state, of the
+𝑤 = −1.13+0.17
+            −0.20
+                    (Table 3). Compared with M14, these constraints          form
+                                                                                                                         
+represent improvements of 41 per cent in the constraints on ΩΛ and                                                     𝑧
+                                                                             𝑤(𝑧) = 𝑤 0 + 𝑤 𝑎 (1 − 𝑎) = 𝑤 0 + 𝑤 𝑎           ,                     (7)
+29 per cent on 𝑤 in the respective models.                                                                           1+𝑧
+
+                                                                                                                               MNRAS 000, 1–13 (2021)
+10       A. B. Mantz et al.
+
+                                                                                                                  0.0
+          1.2
+                                                                                                                  −0.5
+          1.0
+                                                                                                                  −1.0
+                                                                                                                                   fgas
+                                                                                                                                   CMB
+     ΩΛ   0.8                                                                                                 w
+                                                                                                                                   SN
+                                                                                                                  −1.5             BAO
+                                                                                                                                   3x2pt
+          0.6                                     fgas
+
+                                                                                                                  −2.0
+                                                  CMB
+                                                  SN
+          0.4                                     BAO
+                                                                                                                  −2.5
+                                            0.0     0.1       0.2         0.3       0.4         0.5                      0.0        0.1         0.2           0.3     0.4    0.5
+                                                                    Ωm                                                                                  Ωm
+
+Figure 8. Constraints on parameters of the ΛCDM (left) and flat, constant-𝑤 (right) models from 𝑓gas (this work), Planck CMB (Planck Collaboration 2020a,c),
+Pantheon SN (Scolnic et al. 2018), BAO (Alam et al. 2021), and galaxy clustering and lensing (“3 × 2pt”; DES Collaboration 2021) data. In the left panel, the
+solid, gray line indicates spatial flatness (ΩΛ = 1 − Ωm ).
+
+
+Table 3. Marginalized best-fitting values and 68.3 per cent probability credible intervals on cosmological parameters of ΛCDM and flat, constant-𝑤 models
+from our data, in combination with priors on ℎ (Freedman et al. 2001) and Ωb ℎ 2 (Hsyu et al. 2020).
+
+
+                                                                    Model           Ωm                ΩDE                  Ω𝑘                 𝑤0
+
+                                                                 ΛCDM           0.257 ± 0.039     0.865 ± 0.119   −0.128 ± 0.128              −1
+                                                                constant-𝑤      0.256 ± 0.037     0.744 ± 0.037                0                +0.17
+                                                                                                                                           −1.13−0.20
+
+
+
+
+                                                                                                                  0.0
+
+
+
+
+          0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+                                                                                                                  −0.5
+
+
+                                                                                                                  −1.0
+     ΩΛ                                                                                                       w
+                                                                                                                  −1.5
+
+
+                                                                                                                  −2.0
+                                                  Allen08
+                                                  Mantz14
+                                                  this work
+                                                                                                                  −2.5
+                                            0.0    0.1    0.2       0.3      0.4     0.5        0.6                      0.0       0.1       0.2        0.3     0.4    0.5   0.6
+                                                                    Ωm                                                                                  Ωm
+
+Figure 9. Constraints on parameters of the ΛCDM (left) and flat, constant-𝑤 (right) models from 3 generations of the 𝑓gas analysis presented in this paper:
+Allen et al. (2008), M14, and this work. Compared with M14, our new constraints on ΩΛ are 41 per cent tighter, while constraints on 𝑤 are 29 per cent tighter.
+
+
+where 𝑎 = (1 + 𝑧) −1 is the scale factor and 𝑤 𝑎 parametrizes the                                           the former case, we find Ωk = (−3.3±3.0) ×10−3 , 𝑤 0 = −0.92±0.10
+change in 𝑤(𝑧) between the present day (𝑎 = 1) and the early Universe                                       and 𝑤 𝑎 = −0.60 ± 0.47, consistent with the flat ΛCDM model.
+(𝑎 → 0). The right panel of Figure 10 shows constraints on 𝑤 0 and
+𝑤 𝑎 , with and without free curvature, from the combined data set. In
+
+
+
+MNRAS 000, 1–13 (2021)
+                                                                                                 Cosmological Constraints from 𝑓gas                         11
+
+          −0.8
+                                                                                                                                           flat
+                                                                                          1                                                non−flat
+
+          −0.9
+                                                                                          0
+       w
+                                                                                     wa
+      −1.0
+                                                                                          −1
+
+          −1.1
+                                                                                          −2
+
+          −1.2
+                 −0.015       −0.005            0.005             0.015                               −1.2        −1.0         −0.8        −0.6
+                                          Ωk                                                                              w0
+
+Figure 10. Constraints on parameters of the non-flat, constant-𝑤 (left) and evolving-𝑤 (right) models from the combination of 𝑓gas (this work), Planck CMB
+(Planck Collaboration 2020a,c), Pantheon SN (Scolnic et al. 2018), and BAO (Beutler et al. 2011; Ross et al. 2015; Alam et al. 2017) data. Gray lines correspond
+to the values each parameter takes in the flat ΛCDM model.
+
+
+Table 4. Marginalized best-fitting values and 68.3 per cent probability credible intervals on cosmological parameters of constant- and evolving-𝑤 models from
+the combination of 𝑓gas (this work), Planck CMB (Planck Collaboration 2020a,c), Pantheon SN (Scolnic et al. 2018), and BAO (Beutler et al. 2011; Ross et al.
+2015; Alam et al. 2017) data.
+
+
+                          Model            ℎ                 Ωm               ΩDE               103 Ω 𝑘         𝑤0                𝑤𝑎
+
+                        ΛCDM         0.680 ± 0.007     0.308 ± 0.006      0.691 ± 0.005        0.9 ± 2.0        −1                 0
+                      constant-𝑤     0.686 ± 0.008     0.303 ± 0.007      0.697 ± 0.007           0        −1.04 ± 0.03            0
+                                     0.686 ± 0.009     0.303 ± 0.008      0.698 ± 0.008     −0.5 ± 2.2     −1.04 ± 0.04            0
+                     evolving-𝑤      0.686 ± 0.008     0.303 ± 0.007      0.697 ± 0.007           0        −0.97 ± 0.08     −0.27 ± 0.30
+                                     0.683 ± 0.009     0.304 ± 0.008      0.699 ± 0.008     −3.3 ± 3.0     −0.92 ± 0.10     −0.60 ± 0.47
+
+
+
+
+4.5 Constraints on cluster parameters                                              4.3 per cent in 𝑓gas corresponds to a precision of 2.9 per cent in
+                                                                                   the distance estimate associated with a given cluster, compared with
+Beyond the cosmological parameters, there are 4 parameters of the                  ∼ 4.6 per cent intrinsic scatter in distance estimates from type Ia
+cluster model that the data constrain. These constraints are essentially           supernovae (Scolnic et al. 2018).
+independent of cosmological assumptions within the range of models
+explored above; the specific values quoted below are from a fit of
+the flat, constant-𝑤 model, using the 𝑓gas data plus priors on ℎ and
+Ωb ℎ2 .
+   The power-law slope of 𝑓gas in the 0.8–1.2 𝑟 2500 shell with mass
+is found to be 𝛼 = 0.025 ± 0.033, consistent with zero. While the
+                                                                                      We constrain the weak lensing to X-ray mass ratio to be 𝐾0 =
+gas mass fraction is expected to be an increasing function of mass
+                                                                                   0.93 ± 0.11, a small change from A16. Strictly speaking, this param-
+going from the group to the cluster regime, our results verify that
+                                                                                   eter describes the ratio at 𝑧 = 0, but the posterior correlation between
+this trend becomes consistent with a constant for sufficiently massive
+                                                                                   𝐾0 and the evolution parameter, 𝐾1 , is small enough that the con-
+clusters at these radii (Eke et al. 1998; Kay et al. 2004; Crain et al.
+                                                                                   straints on the ratio at other relevant redshifts (𝑧 < 1.2) are identical
+2007; Nagai et al. 2007; Young et al. 2011; Battaglia et al. 2013;
+                                                                                   at this precision. 𝐾1 itself is unconstrained by the data. Note that,
+Planelles et al. 2013; Le Brun et al. 2014, 2017; Barnes et al. 2017;
+                                                                                   unlike the other parameters discussed here, 𝐾0 is degenerate with
+Henden et al. 2020; Singh et al. 2020). We note that there is visually
+                                                                                   cosmological parameters, primarily Ωm . We therefore obtain tighter
+no indication of steepening towards lower masses in Figure 2.
+                                                                                   and slightly offset constraints from the combination of 𝑓gas , CMB,
+   For the log-normal intrinsic scatter in 𝑓gas , we find 𝜎 𝑓 =                    BAO and SN data, which prefer a larger value of Ωm than 𝑓gas alone:
+0.043+0.020
+      −0.032
+             , with a 95.4 per cent probability upper limit of 0.089.              𝐾0 = 0.99 ± 0.06. Finally, the intrinsic scatter in the lensing to X-ray
+This result is consistent with, though smaller than, the previous con-             mass ratio is found to be 𝜎𝐾 = 0.14+0.09  −0.07
+                                                                                                                                   , consistent with expec-
+straint of 0.074 ± 0.023 from M14 (see also Mahdavi et al. 2013;                   tations for the impact of halo triaxiliaty on the inferred 3D lensing
+Herbonnet et al. 2020). Remarkably, this best-fitting scatter of just              masses (Becker & Kravtsov 2011).
+
+                                                                                                                                    MNRAS 000, 1–13 (2021)
+12       A. B. Mantz et al.
+5 CONCLUSION                                                                  contract numbers DE-AC02-76SF00515 and DE-SC0018053. PLK
+                                                                              acknowledges support from NSF AST-1908823. NW is supported by
+We have derived constraints on cosmological models from measure-
+                                                                              the GACR grant 21-13491X.
+ments of the gas mass fraction at intermediate radii in a sample of
+                                                                                 This work was performed in the context of the South Pole Tele-
+the most dynamically relaxed, massive galaxy clusters. Compared to
+                                                                              scope scientific program. SPT is supported by the National Science
+previous work, our analysis incorporates additional Chandra data,
+                                                                              Foundation through grants PLR-1248097 and OPP-1852617. Par-
+as well as an expanded cluster sample. Notably, the expanded data
+                                                                              tial support is also provided by the NSF Physics Frontier Center
+set include a precise determination of 𝑓gas in the Perseus Cluster, at
+                                                                              grant PHY-1125897 to the Kavli Institute of Cosmological Physics
+𝑧 = 0.018, as well as new measurements at 𝑧 = 0.97 and 𝑧 = 1.16. The
+                                                                              at the University of Chicago, the Kavli Foundation and the Gordon
+resulting increase in leverage on the apparent evolution of 𝑓gas with
+                                                                              and Betty Moore Foundation grant GBMF 947 to the University
+redshift has a disproportionate impact on dark energy constraints;
+                                                                              of Chicago. The SPT is also supported by the U.S. Department of
+compared with M14, we find that the constraint on ΩΛ for the non-
+                                                                              Energy. Work at Argonne National Lab was supported by the U.S. De-
+flat ΛCDM model shrinks by 41 per cent to ΩΛ = 0.865 ± 0.119,
+                                                                              partment of Energy, Office of Science, Office of High Energy Physics,
+while the constraint on 𝑤 in the flat, constant-𝑤 model improves by
+                                                                              under contract DE-AC02- 06CH11357. Work at Fermi National Ac-
+29 per cent to 𝑤 = −1.13+0.17
+                           −0.20
+                                  . Despite the modest size of the data set
+                                                                              celerator Laboratory, a DOE-OS, HEP User Facility managed by the
+overall, comprising observations of just 44 sources, dark energy con-
+                                                                              Fermi Research Alliance, LLC, was supported under Contract No.
+straints from 𝑓gas data remain competitive with the best constraints
+                                                                              DE-AC02-07CH11359.
+from other cosmological probes. Combining the 𝑓gas analysis with
+CMB, SN and BAO data, we explore non-flat and evolving-𝑤 models,
+continuing to find consistency with the simple flat ΛCDM concor-
+dance model. The lowest-redshift 𝑓gas data, combined only with a              DATA AVAILABILITY
+measurement of Ωb /Ωm from the CMB, constrain the Hubble con-                 Chandra X-ray data are available from the Chandra Data Archive
+stant to be ℎ = 0.722 ± 0.067.                                                (CDA) at https://cxc.harvard.edu/cda/. Appendix A pro-
+   Our analysis internally constrains a possible trend with mass and          vides the specific observation IDs employed in this work. Our weak
+the intrinsic scatter of 𝑓gas . We obtain tight constraints on the power-     lensing analysis uses data from the Subaru and Canada-France-
+law slope of 𝑓gas (in a shell including radii of 0.8–1.2 𝑟 2500 ) with        Hawaii telescopes (see von der Linden et al. 2014 and A16 for
+mass, 𝛼 = 0.025 ± 0.033, consistent with no dependence in this                details), which can respectively be obtained from the SMOKA
+intermediate radial range, given the cluster selection. The log-normal        Science Archive (https://smoka.nao.ac.jp/index.jsp) and
+intrinsic scatter is found to be 𝜎 𝑓 = 0.043+0.020
+                                                −0.032
+                                                       , somewhat smaller     the Canadian Astronomy Data Centre (https://www.cadc-ccda.
+than in previous work and equivalent to just 3 per cent scatter in the        hia-iha.nrc-cnrc.gc.ca/en/cfht/index.html). The code
+distance estimated to a single cluster.                                       and data tables required to perform the 𝑓gas cosmological analysis can
+   Even with the additional data introduced in this work, constraints         be obtained from https://github.com/abmantz/fgas-cosmo.
+on dark energy from the 𝑓gas method remain statistically limited.             All data shown in figures and tables can be obtained in digital form
+With the precise anchor at low redshifts provided by Perseus and other        from https://github.com/abmantz/fgas-2021-paper.
+bright clusters, long-term improvement will be driven by additions
+to the cluster sample at 𝑧 ∼    > 0.5. The growing number of relaxed
+clusters in our data set at 0.6 < 𝑧 < 1.2 that were discovered via
+                                                                              REFERENCES
+the SZ effect (Bleem et al. 2015, 2020; Planck Collaboration 2016),
+now 6 in total, demonstrates that this is a viable approach to finding        Alam S. et al., 2017, MNRAS, 470, 2617
+such systems, even if a smaller fraction of relaxed clusters is found         Alam S. et al., 2021, Phys. Rev. D, 103, 083533
+in SZ surveys at these redshifts compared with X-ray surveys of the           Allen S. W., Schmidt R. W., Fabian A. C., 2002, MNRAS, 334, L11
+low-redshift Universe. In the long term, significant expansions of            Allen S. W., Schmidt R. W., Ebeling H., Fabian A. C., van Speybroeck L.,
+                                                                                  2004, MNRAS, 353, 457
+the sample have the potential to dramatically improve constraints on
+                                                                              Allen S. W., Rapetti D. A., Schmidt R. W., Ebeling H., Morris R. G., Fabian
+dark energy, as discussed by M14. In the nearer term, dark-energy-
+                                                                                  A. C., 2008, MNRAS, 383, 879
+independent constraints on Ωm can be straightforwardly tightened by           Allen S. W., Evrard A. E., Mantz A. B., 2011, ARA&A, 49, 409
+expanding and improving the weak lensing data for relaxed clusters.           Ansarifard S. et al., 2020, A&A, 634, A113
+                                                                              Applegate D. E. et al., 2014, MNRAS, 439, 48
+                                                                              Applegate D. E. et al., 2016, MNRAS, 457, 1522
+                                                                              Barnes D. J., Kay S. T., Henson M. A., McCarthy I. G., Schaye J., Jenkins
+ACKNOWLEDGEMENTS                                                                  A., 2017, MNRAS, 465, 213
+                                                                              Battaglia N., Bond J. R., Pfrommer C., Sievers J. L., 2013, ApJ, 777, 123
+We thank the referee for their careful reading of the manuscript. The         Battaglia N., Bond J. R., Pfrommer C., Sievers J. L., 2015, ApJ, 806, 43
+scientific results reported in this article are based on observations         Becker M. R., Kravtsov A. V., 2011, ApJ, 740, 25
+made by the Chandra X-ray Observatory, and data obtained from the             Beutler F. et al., 2011, MNRAS, 416, 3017
+Chandra Data Archive. Support for this work was provided by the               Bleem L. E. et al., 2015, ApJS, 216, 27
+National Aeronautics and Space Administration through Chandra                 Bleem L. E. et al., 2020, ApJS, 247, 25
+                                                                              Bocquet S. et al., 2019, ApJ, 878, 55
+Awards Number GO5-16122X, GO5-16148X, GO6-17112B, and
+                                                                              Borgani S., Kravtsov A., 2011, Adv. Sci. Lett., 4, 204
+GO0-21124B issued by the Chandra X-ray Center, which is operated
+                                                                              Crain R. A., Eke V. R., Frenk C. S., Jenkins A., McCarthy I. G., Navarro J. F.,
+by the Smithsonian Astrophysical Observatory for and on behalf                    Pearce F. R., 2007, MNRAS, 377, 41
+of the National Aeronautics Space Administration under contract               DES Collaboration, 2021, preprint, arXiv:2105.13549
+NAS8-03060. This research has made use of software provided by                David L. P., Jones C., Forman W., 1995, ApJ, 445, 578
+the Chandra X-ray Center (CXC) in the application packages CIAO.              Eckert D., Roncarelli M., Ettori S., Molendi S., Vazza F., Gastaldello F.,
+We acknowledge support from the U.S. Department of Energy under                   Rossetti M., 2015, MNRAS, 447, 2198
+
+MNRAS 000, 1–13 (2021)
+                                                                                                 Cosmological Constraints from 𝑓gas                            13
+Eke V. R., Navarro J. F., Frenk C. S., 1998, ApJ, 503, 569                          Willingale R., Starling R. L. C., Beardmore A. P., Tanvir N. R., O’Brien P. T.,
+Ettori S., Fabian A. C., 1999, MNRAS, 305, 834                                          2013, MNRAS, 431, 394
+Ettori S., Tozzi P., Rosati P., 2003, A&A, 398, 879                                 Young O. E., Thomas P. A., Short C. J., Pearce F., 2011, MNRAS, 413, 691
+Ettori S., Morandi A., Tozzi P., Balestra I., Borgani S., Rosati P., Lovisari L.,   Zhuravleva I., Churazov E., Schekochihin A. A., Allen S. W., Vikhlinin A.,
+    Terenziani F., 2009, A&A, 501, 61                                                   Werner N., 2019, Nature Astronomy, 3, 832
+Evrard A. E., 1997, MNRAS, 292, 289                                                 von der Linden A. et al., 2014, MNRAS, 439, 2
+Freedman W. L. et al., 2001, ApJ, 553, 47
+Henden N. A., Puchwein E., Sĳacki D., 2020, MNRAS, 498, 2114
+Herbonnet R. et al., 2020, MNRAS, 497, 4684
+Hilton M. et al., 2018, ApJS, 235, 20                                               APPENDIX A: CHANDRA DATA
+Hilton M. et al., 2021, ApJS, 253, 3                                                Table A1 lists details of the Chandra data used in this work.
+Holanda R. F. L., Pordeus-da-Silva G., Pereira S. H., 2020, J. Cosmology
+    Astropart. Phys., 2020, 053
+Hsyu T., Cooke R. J., Prochaska J. X., Bolte M., 2020, ApJ, 896, 77
+Kalberla P. M. W., Burton W. B., Hartmann D., Arnal E. M., Bajaja E., Morras        APPENDIX B: MODEL PARAMETERS AND PRIORS
+    R., Pöppel W. G. L., 2005, A&A, 440, 775
+                                                                                    Tables B1–B3 list the astrophysical and cosmological model param-
+Kay S. T., Thomas P. A., Jenkins A., Pearce F. R., 2004, MNRAS, 355, 1091
+Kelly P. L. et al., 2014, MNRAS, 439, 28                                            eters of our analysis, and the prior distributions adopted for each.
+Le Brun A. M. C., McCarthy I. G., Schaye J., Ponman T. J., 2014, MNRAS,
+    441, 1270
+Le Brun A. M. C., McCarthy I. G., Schaye J., Ponman T. J., 2017, MNRAS,
+    466, 4442
+Lewis A., Bridle S., 2002, Phys. Rev. D, 66, 103511
+Lewis A., Challinor A., Lasenby A., 2000, ApJ, 538, 473
+Mahdavi A., Hoekstra H., Babul A., Bildfell C., Jeltema T., Henry J. P., 2013,
+    ApJ, 767, 116
+Mantz A., Allen S. W., Rapetti D., Ebeling H., 2010, MNRAS, 406, 1759
+Mantz A. B., Allen S. W., Morris R. G., Rapetti D. A., Applegate D. E., Kelly
+    P. L., von der Linden A., Schmidt R. W., 2014, MNRAS, 440, 2077
+Mantz A. B. et al., 2015a, MNRAS, 446, 2205
+Mantz A. B., Allen S. W., Morris R. G., Schmidt R. W., von der Linden A.,
+    Urban O., 2015b, MNRAS, 449, 199
+Mantz A. B., Allen S. W., Morris R. G., Schmidt R. W., 2016a, MNRAS,
+    456, 4020
+Mantz A. B., Allen S. W., Morris R. G., 2016b, MNRAS, 462, 681
+Miyaji T. et al., 2015, ApJ, 804, 104
+Mohr J. J., Mathiesen B., Evrard A. E., 1999, ApJ, 517, 627
+Nagai D., Vikhlinin A., Kravtsov A. V., 2007, ApJ, 655, 98
+Navarro J. F., Frenk C. S., White S. D. M., 1997, ApJ, 490, 493
+Neto A. F. et al., 2007, MNRAS, 381, 1450
+Pen U., 1997, NewA, 2, 309
+Planck Collaboration, 2014, A&A, 571, A29
+Planck Collaboration, 2016, A&A, 594, A27
+Planck Collaboration, 2020a, A&A, 641, A5
+Planck Collaboration, 2020b, A&A, 641, A6
+Planck Collaboration, 2020c, A&A, 641, A8
+Planelles S., Borgani S., Dolag K., Ettori S., Fabjan D., Murante G., Tornatore
+    L., 2013, MNRAS, 431, 1487
+Planelles S. et al., 2017, MNRAS, 467, 3827
+Rapetti D., Allen S. W., Weller J., 2005, MNRAS, 360, 555
+Riess A. G., Casertano S., Yuan W., Macri L. M., Scolnic D., 2019, ApJ, 876,
+    85
+Roncarelli M., Ettori S., Borgani S., Dolag K., Fabjan D., Moscardini L.,
+    2013, MNRAS, 432, 3030
+Ross A. J., Samushia L., Howlett C., Percival W. J., Burden A., Manera M.,
+    2015, MNRAS, 449, 835
+Sasaki S., 1996, PASJ, 48, L119
+Scolnic D. M. et al., 2018, ApJ, 859, 101
+Simionescu A. et al., 2011, Sci, 331, 1576
+Simionescu A. et al., 2012, ApJ, 757, 182
+Singh P., Saro A., Costanzi M., Dolag K., 2020, MNRAS, 494, 3728
+Trümper J., 1993, Science, 260, 1769
+Urban O. et al., 2014, MNRAS, 437, 3939
+Vikhlinin A. et al., 2009, ApJ, 692, 1060
+Wan J. T., Mantz A. B., Sayers J., Allen S. W., Morris R. G., Golwala S. R.,
+    2021, MNRAS, 504, 1062
+White D. A., Fabian A. C., 1995, MNRAS, 273, 72
+White S. D. M., Navarro J. F., Evrard A. E., Frenk C. S., 1993, Nat, 366, 429
+
+                                                                                                                                       MNRAS 000, 1–13 (2021)
+14       A. B. Mantz et al.
+
+Table A1. Chandra data used in this work: [1] cluster name (ordered by increasing redshift); [2] observation ID; [3] date of observation; [4] detector (ACIS-I
+or ACIS-S); [5] clean exposure time in ks.
+
+       Cluster                ObsId        Date        Det      Exp                  Cluster                   ObsId        Date        Det      Exp
+       Perseus                3237     2003-03-15       S      33.8                  RX J1504.1−0248           17197     2015-06-01      I      24.2
+                              4953     2004-10-18       S      30.1                                            17669     2015-06-17      I      24.9
+                              6145     2004-10-19       S      85.0                                            17670     2015-06-10      I      42.2
+                              6146     2004-10-20       S      28.7                  Zwicky 2089                7897     2006-12-23      I       8.4
+                             11713     2009-11-29       I     108.4                                            10463     2009-02-24      S      38.6
+                             11714     2009-12-07       I      89.7                  RX J2129.6+0005             552     2000-10-21      I       9.4
+                             11715     2009-12-02       I      70.0                                             9370     2009-04-03      I      27.3
+                             11716     2009-10-10       I      38.6                  RX J1459.4−1811            9428     2008-06-16      S      39.6
+                             12025     2009-11-25       I      17.9                  Abell 1835                  496     2000-04-29      S      10.7
+                             12033     2009-11-27       I      18.4                                             6880     2006-08-25      I     106.7
+                             12036     2009-12-02       I      46.8                                             6881     2005-12-07      I      29.9
+                             12037     2009-12-05       I      83.1                                             7370     2006-07-24      I      36.3
+                             13989     2011-11-07       I      34.3                  Abell 3444                 9400     2008-02-11      S      35.7
+                             13990     2011-11-11       I      34.0                  MS 2137.3−2353              928     1999-11-18      S      23.3
+                             13991     2011-11-05       I      32.7                                             5250     2003-11-18      S      27.6
+                             13992     2011-11-05       I      32.9                  MACS J0242.5−21            3266     2002-02-07      I       7.7
+                             17260     2015-12-01       I       4.7                  MACS J1427.6−25            3279     2002-06-29      I      14.4
+                             17261     2015-12-01       I       4.2                                             9373     2008-06-11      I      26.9
+                             17262     2015-12-07       I       4.2                  MACS J2229.7−27            3286     2002-11-13      I      11.5
+                             17263     2015-12-04       I       4.3                                             9374     2007-12-09      I      14.3
+                             17274     2015-12-09       I       5.0                  MACS J0947.2+7623          2202     2000-10-20      I      10.7
+                             17275     2015-12-09       I       4.7                                             7902     2007-07-09      S      38.3
+                             17276     2015-12-09       I       4.8                  MACS J1931.8−26            3282     2002-10-20      I      11.5
+                             17277     2015-12-10       I       4.6                                             9382     2008-08-21      I      92.5
+                             17278     2015-12-10       I       4.4                  MACS J1115.8+0129          3275     2003-01-23      I       9.5
+                             17279     2015-11-30       I       4.6                                             9375     2008-02-03      I      34.8
+                             17280     2015-12-11       I       4.5                  MACS J1532.8+3021          1649     2001-08-26      S       9.2
+                             17283     2015-10-06       I       5.0                                             1665     2001-09-06      I       8.4
+                             17286     2015-10-06       I       4.5                                            14009     2011-11-16      S      84.8
+       Abell 2029              891     2000-04-12       S      19.8                  MACS J0150.3−10           11711     2009-09-14      I      26.1
+                              4977     2004-01-08       S      72.8                  RCS J1447+0828            10481     2008-12-14      S       9.2
+                              6101     2004-12-17       I       8.7                                            17233     2016-04-05      I      37.9
+                             10434     2009-04-01       I       4.9                                            18825     2016-04-06      I      21.9
+                             10435     2009-04-01       I       4.1                  MACS J0011.7−15            3261     2002-11-20      I      17.5
+                             10436     2009-04-01       I       4.1                                             6105     2005-06-28      I      31.7
+                             10437     2009-04-01       I       4.5                  MACS J1720.2+3536          3280     2002-11-03      I      18.3
+       Abell 478              1669     2001-01-27       S      36.2                                             6107     2005-11-22      I      27.2
+                              6102     2004-09-13       I       5.9                                             7718     2007-09-28      I       6.2
+                              6928     2005-12-02       I       5.7                  MACS J0429.6−02            3271     2002-02-07      I      19.3
+                              6929     2005-12-02       I       1.9                  MACS J0159.8−08            3265     2002-10-02      I      14.6
+                              7217     2005-11-15       I      17.0                                             6106     2004-12-04      I      31.0
+                              7218     2005-11-17       I       6.6                                             9376     2008-10-03      I      17.0
+                              7222     2005-11-19       I       5.4                  MACS J2046.0−34            5816     2005-06-28      I       8.2
+                              7231     2006-07-29       I      15.4                                             9377     2008-06-27      I      34.6
+                              7232     2005-12-04       I      13.0                  IRAS 09104+4109           10445     2009-01-06      I      69.0
+                              7233     2005-12-03       I       7.7                  MACS J1359.1−19            5811     2005-03-17      I       8.9
+                              7234     2005-12-01       I       7.8                                             9378     2008-03-21      I      45.3
+                              7235     2005-11-29       I       6.8                  RX J1347.5−1145             506     2000-03-05      S       8.2
+       RX J1524.2−3154        9401     2008-01-07       S      40.9                                              507     2000-04-29      S      10.0
+       PKS 0745−191           2427     2001-06-16       S      17.9                                             3592     2003-09-03      I      48.1
+                              6103     2004-09-24       I       9.2                                            13516     2012-12-11      I      34.4
+                              7694     2007-01-25       I       4.7                                            13999     2012-05-14      I      50.8
+                             12881     2011-01-27       S     117.0                                            14407     2012-03-16      I      55.0
+       Abell 2204              499     2000-07-29       S       9.0                  3C 295                      578     1999-08-30      S      15.4
+                              6104     2004-09-20       I       8.6                                             2254     2001-05-18      I      75.5
+                              7940     2007-06-06       I      72.5                  MACS J1621.3+3810          3254     2002-10-18      I       8.3
+       RX J0439.0+0520         527     2000-08-29       I       8.8                                             6109     2004-12-11      I      32.7
+                              9369     2007-11-12       I      18.8                                             6172     2004-12-25      I      26.2
+                              9761     2007-11-15       I       7.9                                             7720     2007-11-08      I       5.8
+       Zwicky 2701            3195     2001-11-04       S      14.6                                             9379     2008-10-17      I      28.9
+                              7706     2007-06-25       I       4.6                                            10785     2008-10-18      I      27.4
+                             12903     2011-02-03       S      92.1                  MACS J1427.2+4407          6112     2005-02-12      I       8.4
+       RX J1504.1−0248        4935     2004-01-07       I       9.2                                             9380     2008-01-14      I      23.0
+                              5793     2005-03-20       I      30.7                                             9808     2008-01-15      I      13.4
+MNRAS 000, 1–13 (2021)
+                                                                                                    Cosmological Constraints from 𝑓gas                        15
+
+Table A1 – continued
+
+        Cluster                   ObsId         Date         Det      Exp                    Cluster                ObsId         Date       Det     Exp
+        MACS J1427.2+4407         11694       2010-10-09      S        6.0                                          14437       2012-09-16    I     23.1
+        MACS J1423.8+2404          1657       2001-06-01      I       16.2                                          15572       2012-10-29    I     14.1
+                                   4195       2003-08-18      S      107.5                                          15574       2012-10-31    I     11.3
+        SPT J2331−5051             9333       2009-08-12      I       26.4                                          15579       2012-11-11    I     17.3
+                                  11738       2009-08-30      I        5.4                                          15582       2012-11-17    I     17.3
+                                  18241       2016-08-29      I       79.1                                          15588       2012-11-22    I     20.7
+                                  19697       2016-09-02      I       27.4                                          15589       2012-11-24    I      9.9
+        SPT J2344−4242            13401       2011-09-19      I       10.7                   CL J1415.2+3612         4163       2003-09-16    I     74.4
+                                  16135       2014-08-18      I       48.6                                          12255       2010-08-30    S     60.4
+                                  16545       2014-08-20      I       51.6                                          12256       2010-08-28    S    115.4
+        SPT J0000−5748             9335       2009-03-16      I       28.4                                          13118       2010-09-01    S     44.6
+                                  18238       2016-08-26      I      118.2                                          13119       2010-09-05    S     54.3
+                                  18239       2016-08-05      I       16.8                   3C 186                  3098       2002-05-16    S     16.9
+                                  19695       2016-08-24      I       23.7                                           9407       2007-12-03    S     66.3
+        SPT J2043−5035            13478       2011-08-10      I       73.3                                           9408       2007-12-11    S     39.6
+                                  18240       2016-08-05      I       96.9                                           9774       2007-12-06    S     75.1
+        SPT J0615−5746            14017       2012-11-03      I       13.8                                           9775       2007-12-08    S     15.9
+                                  14018       2012-09-15      I       31.2                   SPT J2215−3537         22653       2020-08-17    I     32.3
+                                  14349       2012-11-09      I       21.8                                          24614       2020-08-18    I     26.9
+                                  14350       2012-11-21      I        9.2                                          24615       2020-08-20    I      8.2
+                                  14351       2012-11-12      I       22.5
+
+
+
+Table B1. Parameters and priors specific to the cluster 𝑓gas model (see Section 3). N ( 𝜇, 𝜎) represents the normal distribution with mean 𝜇 and variance 𝜎 2 ,
+and U ( 𝑥1 , 𝑥2 ) the uniform distribution with endpoints 𝑥1 and 𝑥2 . Priors marked with a ★ are informative in the sense that the posterior distribution for the
+corresponding parameter essentially reproduces the prior (see Section 3 and M14 for discussion). Note that in Section 4.2 we use a much wider prior on Υ0 than
+that listed here.
+
+
+                                          Symbol       Meaning                                         Prior
+
+                                          Υ0           Gas depletion at 𝑧 = 0                          U (0.71, 0.87) ★
+                                          Υ1           Gas depletion evolution                         U (−0.05, 0.05) ★
+                                          𝛼            Power-law slope of 𝑓gas with mass               U (−1, 1)
+                                          𝜎𝑓           Intrinsic scatter of ln 𝑓gas                    U (0.0, 0.5)
+                                          𝜂𝑓           Power-law slope of shell 𝑓gas profile           N (0.390, 0.024) ★
+                                          𝐾0           X-ray mass calibration at 𝑧 = 0                 U (0.0, 2.0)
+                                          𝐾1           X-ray mass calibration evolution                U (−0.05, 0.05) ★
+                                          𝜎𝐾           Lensing/X-ray mass ratio intrinsic scatter      U (0.0, 1.0)
+                                          𝜂𝑚           Power-law slope of mass profile                 N (1.065, 0.016) ★
+                                          𝑊0           Lensing mass bias at 𝑧 = 0.4                    N (0.96, 0.09) ★
+                                          𝑊1           Lensing mass bias evolution                     N (−0.09, 0.03) ★
+
+
+
+Table B2. Parameters and priors of the cosmological model used when analyzing the 𝑓gas , SN or BAO data alone, presented as in Table B1. Ωb ℎ 2 is derived
+from the other parameters listed, rather than being a free parameter itself. Note that the normal priors on 𝐻0 and Ωb ℎ 2 (indicated by the † symbol) are not used
+for results in Sections 4.1 and 4.2, nor in any joint analysis of 𝑓gas and CMB data.
+
+
+                                     Symbol       Meaning                                           Prior
+
+                                     Ωm           Total matter density normalized to 𝜌cr            U (0.0, 1.0)
+                                     Ωb           Baryon density normalized to 𝜌cr                  U (0.0, 1.0)
+                                     𝐻0           Hubble parameter in km s−1 Mpc−1                  U (20, 200) / N (72, 8) †
+                                     Ωk           Equivalent energy density due to curvature        U (−0.65, 0.65)
+                                     𝑤            Dark energy equation of state                     U (−5, 5)
+                                     Ωb ℎ 2       Baryon density (derived)                          N (0.0215, 0.0005) †
+
+
+
+
+                                                                                                                                         MNRAS 000, 1–13 (2021)
+16       A. B. Mantz et al.
+
+Table B3. Parameters and priors of the cosmological model used when analyzing CMB data, alone or in combination with other probes, presented as in
+Table B1. Adopted values of the neutrino mass and effective number of relativistic species are shown for reference, but were not varied. 𝐻0 is derived from the
+other parameters listed, rather than being a free parameter itself.
+
+
+                                   Symbol         Meaning                                                Prior
+
+                                   Ωb ℎ 2         Baryon density                                         U (0.005, 0.1)
+                                   Ωc ℎ 2         Cold dark matter density                               U (0.001, 0.99)
+                                   𝜃s             Angular size of the sound horizon at last scattering   U (0.5, 10)
+                                   Ω𝑘             Effective density from spatial curvature               U (−0.65, 0.65)
+                                   𝑤 (𝑤0 )        Dark energy equation of state (at 𝑧 = 0)               U (−5, 5)
+                                   𝑤𝑎             Evolution parameter for 𝑤 (𝑎)                          U (−10, 10)
+                                   𝜏              Optical depth to reionization                          U (0.01, 0.8)
+                                   log 1010 𝐴s    Scalar power spectrum amplitude                        U (1.61, 3.91)
+                                   𝑛s             Scalar spectral index                                  U (0.8, 1.2)
+                                   Σ 𝑚𝜈           Species-summed (degenerate) neutrino mass in eV        = 0.056
+                                   𝑁eff           Effective number of neutrino species                   = 3.046
+                                   𝐻0             Hubble parameter in km s−1 Mpc−1 (derived)             U (20, 200)
+
+
+
+
+MNRAS 000, 1–13 (2021)
+

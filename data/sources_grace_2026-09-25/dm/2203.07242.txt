@@ -1,0 +1,633 @@
+                                                        Submitted to the Proceedings of the US Community Study
+                                                           on the Future of Particle Physics (Snowmass 2021)
+
+
+
+
+                                                   Snowmass 2021 White Paper: The Windchime Project
+
+
+
+
+arXiv:2203.07242v1 [hep-ex] 14 Mar 2022
+                                            The Windchime Collaboration: Alaina Attanasio,1 Sunil A. Bhave,1 Carlos
+                                          Blanco,2, 3 Daniel Carney,4 Marcel Demarteau,5 Bahaa Elshimy,1 Michael Febbraro,5
+                                            Matthew A. Feldman,5 Sohitri Ghosh,6 Abby Hickin,1 Seongjin Hong,5 Rafael F.
+                                            Lang,1 Benjamin Lawrie,5 Shengchao Li,1 Zhen Liu,7 Juan P. A. Maldonado,1, 8
+                                          Claire Marvinney,5 Hein Zay Yar Oo,1 Yun-Yi Pai,5 Raphael Pooser,5 Juehang Qin,1
+                                             Tobias J. Sparmann,1 Jacob M. Taylor,6 Hao Tian,1 and Christopher Tunnell9
+                                                                 1
+                                                                   Purdue University, West Lafayette, IN, USA
+                                                                   2
+                                                                     Princeton University, Princeton, NJ, USA
+                                                                    3
+                                                                      Stockholm University, Stockholm, Sweden
+                                                        4
+                                                          Lawrence Berkeley National Laboratory, Berkeley, CA, USA
+                                                            5
+                                                              Oak Ridge National Laboratory, Oak Ridge, TN, USA
+                                                              6
+                                                                Joint Quantum Institute/Joint Center for Quantum
+                                                         Information and Computer Science, University of Maryland,
+                                            College Park/National Institute of Standards and Technology, Gaithersburg, MD, USA
+                                            7
+                                              School of Physics and Astronomy, University of Minnesota, Minneapolis, MN, USA
+                                                            8
+                                                              Universidad Nacional de Colombia, Bogotá, Colombia
+                                                                       9
+                                                                         Rice University, Houston, TX, USA
+                                                                              (Dated: March 15, 2022)
+                                             The absence of clear signals from particle dark matter in direct detection experiments
+                                           motivates new approaches in disparate regions of viable parameter space. In this Snowmass
+                                           white paper, we outline the Windchime project, a program to build a large array of quantum-
+                                           enhanced mechanical sensors. The ultimate aim is to build a detector capable of searching for
+                                           Planck mass-scale dark matter purely through its gravitational coupling to ordinary matter.
+                                           In the shorter term, we aim to search for a number of other physics targets, especially
+                                           some ultralight dark matter candidates. Here, we discuss the basic design, open R&D
+                                           challenges and opportunities, current experimental efforts, and both short- and long-term
+                                           physics targets of the Windchime project.
+                                                                                                   2
+
+
+                                           CONTENTS
+
+ I. Introduction                                                                                   2
+
+II. Detector concept                                                                               3
+
+III. Physics targets                                                                               4
+
+IV. Key R&D needs and current efforts                                                              5
+    A. Environmental isolation                                                                     6
+    B. Quantum noise reduction                                                                     6
+    C. Large-scale arrays                                                                          8
+    D. Computational techniques                                                                    8
+
+V. Outlook                                                                                         9
+
+    References                                                                                    10
+
+
+
+                                      I.   INTRODUCTION
+
+    All evidence to date for the existence of dark matter (DM) is through its gravitational cou-
+pling to visible matter. On the other hand, all direct detection searches for dark matter to-date
+have necessarily had to assume some additional coupling to the Standard Model, for example a
+Weak nuclear coupling in the case of WIMPs, or gluonic/photonic couplings in the case of axions.
+A clearly desirable target would be to search for particle DM directly through its gravitational
+coupling alone.
+    Recently, it has been suggested that a purely gravitational direct detection strategy could
+be possible, albeit very challenging, with a terrestrial experiment [1–3]. This idea leverages the
+incredible and rapid progress in quantum readout and control of mechanical sensing devices with
+optical or microwave light [4–6]. These devices have been demonstrated as a promising platform
+for a searches for number of dark matter candidates [7], spanning the ultralight [8–11], light [12],
+and up to WIMP-scale and heavier mass ranges [13]. In particular, Ref. [3] suggested that a large
+array consisting of at least 106 mechanical sensors, each with mass around the gram scale, could
+be sensitive to the gravitational signatures of dark matter with masses around the Planck scale
+mPl ≈ 2 × 1018 GeV ≈ 4 µg. See the Snowmass 2021 community whitepaper [14] for an overview
+of these ultraheavy dark matter candidates.
+    In this Snowmass white paper, we outline a nascent experimental effort, which we dub the
+Windchime project, to develop such dark matter detectors. The core program is to construct and
+operate arrays of many quantum-limited mechanical accelerometers in parallel. Such a system
+would be uniquely capable of searching for a number of interesting signals, with gravitational
+dark matter detection a very long-term goal. Many technical developments are needed, spanning
+four key axes: thermal isolation, quantum measurement noise below the standard quantum limit,
+scaling in the number of sensors and their readout, and data handling and analysis techniques
+for continuous data streams from many detectors. Many shorter-term physics opportunities will
+be enabled during the development of these technologies, and the R&D program will have a vast
+number of applications beyond the search for dark matter. We outline the technical challenges,
+physics opportunities, our current efforts, and pathways to the fulfillment of the long-term program.
+                                                                                                                     3
+                                                                                                                            1903.00492 Carne
+                                                                                                                            1908.04797 Carne
+
+
+
+
+                                                                                                                /s
+                                                                                                              km
+                                                                                                          0
+                                                                                                       20
+                                                                                                   ~
+                                                                                               v DM
+
+
+
+
+FIG. 1. Schematic illustration of the Windchime detector concept. Impulsive
+                                                                       Left: detection:
+                                                                              an arraygravitational detection
+                                                                                        of mechanical         of
+                                                                                                         sensors, here Monochromatic dete
+depicted as suspended pendula, with a potential DM track signal. Center: cross-section, emphasizing the (m << 1 eV)
+                                                                  heavy   DM  (M_pl scale), composites, maybe
+“track” signal. Right: single-sensor depiction of a gravitational lighter WIMPy Here,
+                                                                   DM event.     things?for conceptual illustration,
+the sensor is depicted in a small optical cavity with laser readout. In practice, readout through either fibers
+or microwave transmission lines will be more convenient for a densely packed array.
+
+
+
+
+                                       II.   DETECTOR CONCEPT
+
+
+    The central concept of the Windchime detector is to use an array of mechanical sensors, operated
+as a single detector, see Fig. 1 (and Ref. [3] for more details). This setup should be uniquely
+sensitive to signals which are coherent over one, many, or even all of the mechanical devices.
+Examples include both gravitationally-coupled, localized DM, which acts coherently on sensors
+near its location (Fig. 1, center), as well as ultralight DM, which can act coherently on many or all
+of the sensors (Fig. 1, right). In this section, we provide a brief, high-level description of both the
+individual mechanical sensing elements, as well as the operation of a large array of these. More
+details about physics signals of interest are then given in Sec. III, followed by details about possible
+physical implementations of the detector concepts in Sec. IV.
+
+   The individual mechanical sensors of the array are optomechanical/electromechanical systems.
+The essential architecture is a mechanical element (e.g., suspended reflective pendula [15, 16],
+optically levitated dielectric spheres [13, 17], or magnetically levitated superconducting masses
+[18, 19]), coupled to a readout and control system consisting of an optical or microwave field. The
+readout field encodes the position or momentum of the mechanical element continuously in time,
+so the data stream per sensor is a time series x(t) or p(t). Using linear response, this can be
+converted in software to a continuous measurement ofR an external force F(t). The core idea is to
+use this readout to look for the small impulse ∆p = F(t)dt imparted to the mechanical system
+while a DM candidate acts on it. Sensors may be designed with readout on multiple axes, enabling
+detection of the full vector ∆p, i.e., enabling perfect directional sensitivity.
+
+   Placing many of these sensors in an array offers a variety of important advantages. For signals
+coherent over N sensors, √ each of which has independent noise, the signal-to-noise (SNR) can be
+improved by standard N statistics. Crucially, in the case of ultraheavy DM detected through
+gravity,
+√        the signal is coherent over a “track” of sensors, as shown in Fig. 1. This enables both
+  N SNR enhancement and, even more importantly, exquisite background rejection. Almost all
+traditional DM detection backgrounds like cosmic rays or neutrinos will act only on one or a few
+individual sensors, or be at faster speeds than those expected from DM. Therefore, the correlated
+track-like signature of a passing heavy DM particle makes a unique signal. This way, not only the
+direction of the DM itself, but also the speed of a passing DM object, can be determined.
+                                                                                                   4
+
+
+                                   III.    PHYSICS TARGETS
+
+   A full realization of the Windchime detector would have exquisite sensitivity in a number of
+channels. Any signal that generates a small acceleration or force coherent over scales comparable
+to the detector will be uniquely accessible. Here, we outline a few targets already identified as
+interesting examples. Further theory input for potential possibly interesting signals would be of
+substantial value.
+   The central, long-term target of this project is Planck-scale DM detection through gravity alone.
+This target sets the basic design parameters of the experiment. Because the flux of DM is expected
+to be approximately
+                                           ρχ      1      mPl
+                                    Φχ =      v≈      2
+                                                        ×     ,                                  (1)
+                                           mχ    yr m     mχ
+
+we need a total detector cross-section of at least around  √ a square meter [20]. Moreover, the
+sensitivity of an accelerometer scales with its mass like m, while the gravitational signal scales
+like 1/b, where b is the typical impact parameter. Numerically, this leads one to look at gram-
+scale sensors, spaced at approximately centimeter distances, in an array roughly 1000 sensors on a
+side. We discuss the substantial technical challenges to reaching this detection target in detail in
+Section IV.
+    Prior to this long-term gravitational detection target, a number of other DM candidates can
+be probed. In terms of localized, particle-like excitations [14], this includes composite DM and
+solitons coupled to the Standard Model (SM) through some new non-gravitational force. As long
+as this force has a range of order the size of a sensor, the detection problem is essentially similar
+to the gravitational interaction. As a concrete example, in [13], a search for TeV-scale composite
+DM charged under a gauged B − L symmetry was performed, leading to novel constraints with
+just a single µg-scale optomechanical sensor and a few days of observation time. Generically, we
+can parametrize the interaction potential in terms of the charge-to-mass ratio, λSM (DM ) , of the
+SM (DM) and the new long-range coupling gφ . The impulse imparted on each sensor during a
+transit, and therefore the sensitivity of the detector, scales as F ∼ (gφ2 λSM λDM )/b2 . Fifth-force
+searches generically constrain the new coupling to be weaker than gφ . 10−21 [21–23]. Therefore,
+the charge-to-mass ratio of the dark matter must be rather large, λDM & 1200/GeV, in order for
+the DM to leave visible tracks through the array [24]. This is particularly clear when the DM is
+confined to a scale smaller than the typical sensor separation (. mm − cm); detection prospects
+with less-confined, blob-like objects presents another interesting possibility [25].
+    The theory space in which the DM appears as point-like and couples through a new long-range
+force can be spanned by two complementary model classes. In the first, the charge confinement is
+realized via the formation of bound states of constituent fundamental particles. These could either
+belong to the SM [26, 27] or to a dark sector [28–37]. In order to be visible, these composite models
+must generically be strongly confining in order to evade BBN constraints. On the other hand, the
+dark charge can be confined in a non-fundamental particle solution to the field equations such as
+in non-topological solitons, i.e. Q-balls [38–55]. Thick-walled Q-balls are an especially promising
+class of models that could be probed significantly with Windchime for charges between 1020 to
+1030 and for masses above 1016 GeV [24]. In the case where the DM couples only gravitationally,
+the parameter space is broadly split into two regions: the sub-Planckian and super-Planckian
+regimes. Below the Planck scale fundamental particles can be produced gravitationally either as
+WIMPZILLAs around the inflationary epoch [56–58] or by the evaporation of primordial black
+holes (PBHs) following an era of PBH domination [59]. Above the Planck scale, DM can be
+produced in the form of Planck-scale relics of extremal gravitational singularities [23, 60–65].
+    Another quite different target that has been identified is ultralight bosonic, or “fuzzy”, dark
+matter [11]. In an ultralight scenario, the DM is comprised mainly of fields with mass mχ . 0.1 eV,
+which necessarily behaves more like a classical wave than single particle excitations due to the
+                                                                                                            5
+               Signals coherent across whole array
+               Caused by, for example:
+
+               -Gravitational waves
+
+               -Ultra-light dark matter (m < eV)
+
+               -Seismic noise
+
+
+
+               Signal to detect: force/acceleration correlated across
+               many devices (typically ~sinusoidally time-varying)
+
+
+
+
+FIG. 2. Left: Detection reach for accelerometer searches of ultralight dark matter, taking a vector B − L
+boson as an example. We assume one day of integration time, and the use of a pair of accelerometers with
+differential neutron-to-nucleon ratio ∆ = N1 /A1 − N2 /A2 = 0.05. For more details, see discussion in the
+text and in Refs. [7–9]. Right: Schematic illustration of the detection signal. Here the ultralight DM field
+acts as a wave with coherence length larger than the linear scale of at least one sensor (a single grey blob),
+and possibly many sensors.
+
+
+large number density. If this DM couples to matter, it will produce a weak, persistent, and nearly
+monochromatically time-varying force on each sensor. See Fig. 2, right panel. For example, if
+this ultralight field is a vector field coupling to B − L charge, it will produce a force F (t) =
+gBL Nn F0 sin(mχ t) on each sensor, where Nn is the number of neutrons in the sensor, gBL . 10−24
+                                                                           √
+is a coupling already well-constrained by fifth force experiments, and F0 = ρχ ≈ 10−15 N is set by
+the background density of DM quanta. For mχ . 0.1 µeV it will act coherently over all the sensors
+in the array, leading to substantial signal-to-noise enhancements. Crucially, this force scales with
+the mass of the sensor in a material-dependent way: it produces an acceleration sensitive to the
+ratio of neutrons to total nucleons of the sensor. Thus two sensors, or one sensor referenced to a
+fixed target, will feel a differential acceleration [7–9]
+
+                                       asignal (t) = gBL ∆a0 sin(mχ t)                                    (2)
+
+where ∆ = A1 /Z1 − A2 /Z2 is the difference between the neutron-to-nucleon ratios of the two
+materials, typically a quantity of order 0.01 − 0.1. Here a0 = F0 /mneutron ≈ 7 × 1012 m/s2 . This
+means that we are looking for accelerations at the 10−12 m/s2 level. This is an ideal task for
+a network of quantum-limited (or enhanced) mechanical accelerometers! In Figure 2, we sketch
+the detection reach for such ultralight DM for sensors with acceleration sensitivities in this range.
+This signal can be integrated coherently over many sensors, not just a track, leading to substantial
+possible detection reach.
+
+
+                      IV.    KEY R&D NEEDS AND CURRENT EFFORTS
+
+   Reaching the ultimate goal of gravitational direct detection requires substantial technical de-
+velopment in four central directions. These are isolation from thermal environments, reduction of
+quantum measurement-added noise, construction and operation of a large-scale array of optome-
+chanical sensors, and computational techniques for handling the massive data stream generated by
+such an array. In this section, we briefly discuss all of these issues in some detail, and some current
+solutions being pursued by the Windchime collaboration and others.
+                                                                                                   6
+
+
+                                   A.   Environmental isolation
+
+   The sensors must be well isolated from thermal backgrounds in order to bring these below the
+weak gravitational signals of interest. With physically suspended devices, very high mechanical
+quality factors are of crucial importance. For an example from the current state of the art, the Mat-
+sumoto group has produced mg-scale optomechanical pendula with Q & 2×106 [16]. Moreover, the
+bath temperature needs to be as low as possible. Meter-scale experiments at dilution refrigeration
+temperatures ∼ 10 mK are already demonstrated (e.g. the SuperCDMS experiment [66]). Similar
+cooling methods should be adaptable to optomechanical arrays. Additionally, free-space and fiber
+coupled optical readout of materials and devices within dilution refrigerators at mK temperatures
+are also already in operation [67].
+   Another option is to go beyond suspended systems, removing the phononic environment by
+levitating or even dropping the sensors. In this case, the background thermal noise comes primarily
+from collisions with the ambient gas molecules. Here the primary technical requirement becomes
+achieving a sufficiently good vacuum. This also requires cryogenic cooling, although only at the 4
+K level. Pressures similar to those achieved in the LHC tunnel [68] appear to be sufficiently low
+that one could see the gravitational signal [3]. More detailed study of gas damping noise spectra
+in the mechanical systems at these kinds of pressure, and when looking for impulsive signals, will
+be of crucial importance.
+
+
+                                  B.    Quantum noise reduction
+
+   With control over technical noise sources such as stray background fields and thermal noise,
+mechanical sensors become limited by noise due to the quantum mechanical uncertainty of the
+readout system. A typical benchmark for the quantum measurement-added noise is given by the
+so-called Standard Quantum Limit (SQL),
+
+                                                        ms 1/2 1 µs 1/2
+                              r                                  
+                                ~ms
+                    ∆pSQL =           ≈ 600 GeV/c ×                       ,                (3)
+                                  τ                    1g         τ
+
+where ms is the mass of the mechanical element and τ is the integration time. This is roughly set
+by the scale of vacuum fluctuations of the mechanical element [69]. Noise levels around the SQL are
+now routinely achieved in many systems, including the impulsive optomechanical detector of [13].
+However, SQL-level noise is orders of magnitude larger than the gravitational impulse signal [3].
+Thus, methods to get below the SQL level are of crucial importance to this program. Current
+techniques to go below the SQL are aleady in use in, e.g., advanced LIGO [70], with world records
+at ∼ 15dB below the SQL [71]. We are also developing new techniques specialized to our particular
+detection problems, which should have wide utility beyond the Windchime project.
+    A key advantage here over more typical quantum sensing problems is that the impulses are
+expected to be delivered relatively quickly (sub µs for typical expectations of dark matter wind
+velocities). Techniques for going well below the SQL can be used more readily in this case than
+in low frequency detection systems. Two concurrent paths have promise, and can be combined for
+maximum effectiveness. The first is to take advantage of squeezing of the light (or microwaves)
+used to measure effects of the impulse on the sensor. The role of squeezing is to trade off lower
+imprecision – analogous to less shot noise – at the price of higher backaction, in which intensity
+fluctuations are imprinted on the sensor and limit ultimate performance. Overall, this allows an
+improvement in the limiting impulse that can be measured, but only at the square root of the
+squeezing improvement.
+    The other technique is to directly monitor the velocity or momentum of the sensor, rather than
+infer its momentum via measurement of the position over time [72–74]. This enables a so-called
+back action evading measurement in the free mass limit – when the detection frequency is well
+                                                                                                       7
+
+
+above the mechanical resonance of the sensor mass. In its simplest incarnation, a back action
+evading sensor has a velocity- or rotation rate-dependent phase shift of an optical or microwave
+resonance, as occurs, e.g., in a waveguide optical gyro. Improvements in phase estimation enabled
+by squeezing can thus be directly combined with back action evasion. To date, experimental
+progress in back action evasion remains nascent, with most results in the low mass (µg or smaller)
+regime, and thus substantial work remains to bring this to the right mass domain. Parallel to our
+current experimental efforts on this front, we are also actively pursuing new theoretical proposals
+for backaction evasion measurements tailored to impulse sensing [74].
+    As a first step, we are developing a squeezed optical readout technique that will be used to
+measure the displacement of sensors with potential for greater than 9 dB of quantum noise reduction
+below the shot noise limit [75]. Improved future squeezed light sources aim to reach and succeed
+the record in squeezing of 15 dB [76]. The two-mode squeezed light source used here is based on
+four-wave-mixing (4WM) in 85 Rb, and an image of the apparatus and an example of the frequency
+dependent squeezing in the system is shown in Fig. 3. Because the 4WM process amplifies multiple
+spatial modes, this approach will allow for proof-of-principle scaling of the squeezed readout field
+across an array of sensors [77]. In this case, the sensor displacement or velocity will be read-out
+using a truncated nonlinear interferometer, which leverages the continuous variable entanglement
+in two-mode squeezed light sources to access amplitude difference or phase sum squeezing [78].
+We have already used this detection scheme to characterize the displacement of an atomic force
+microscope microcantilever with quantum enhanced sensitivity [79, 80], and we are now extending
+it to the domain of larger mechanical devices.
+    In an improved detection scenario, the sensor response may be transduced onto both channels of
+the two mode squeezed light source, allowing for quantum noise reduction together with a doubling
+of the readout signal. Because the shot noise level is defined by the total power at the detector, it is
+possible to improve the shot-noise-limited sensitivity by utilizing high power local oscillators with
+squeezed vacuum readout fields, leading to substantially reduced heating compared to schemes that
+rely on single mode squeezing [81]. This benefit is particularly critical for the ultralow temperature
+implementations of the sensing scheme described above. In the long term, arrays of large numbers of
+these sensors will be used to measure vector information, and squeezing will be used at each sensor.
+To accomplish this in a scalable way, waveguided sources of squeezed and entangled light will be
+required. We are currently developing integrated, telecom wavelength sources for this purpose, with
+entangled light spread over a range of frequencies that are resonant with each sensor. Including
+linear-optical operations in line with the resonators and sources will also allow for complex state
+preparation schemes in which multiparty entangled states can be shared between sensing nodes.
+
+
+
+
+FIG. 3. Left: Two-mode squeezed light source apparatus, viewed from the probe arm before going through
+the vapor cell. Right: Noise power measurement of the two-mode squeezed light source (blue) in comparison
+to a shot-noise-limited classical light source (green) of comparable power, with over 5.6 dB of squeezing
+observed at 180 kHz.
+                                                                                                    8
+
+
+                                       C.   Large-scale arrays
+
+    Operating an array of many optomechanical sensors provides a unique and exciting challenge.
+Issues range from an appropriate choice of single-sensor architecture and readout, multiplexing, and
+large-scale environmental isolation. There are also substantial issues with real-time data processing,
+which are discussed in the next subsection.
+    As a first step, we are constructing a small array of milligram-scale accelerometers named
+Protochime. This prototype is an array of 15 commercial MEMS (microelectronic mechanical
+systems) accelerometers, set up to take data continuously and in parallel for 16 channels with
+sampling rates in the order of low MHz. The sensors are mechanically mounted on one or more
+solid material blocks with sizes in the cm-m range. This array is able to measure correlated
+vibrations produced by external driving forces along the sensitive axis if they are above a certain
+noise level determined by the accelerometer noise level, the electronics and the bit-precision in the
+digitization process of the data. Successful measurements with this prototype include a proof-of-
+principle constraint (not competitive with pre-existing fifth force bounds) on ultralight DM models,
+following the general methodology proposed in [8, 9]. Protochime serves as the first experimental
+realization capable of producing real data to test the novel approach of Windchime in DM detection.
+It is useful to explore current hardware and software scope and limitations.
+    Laser shot-noise limited optomechanical accelerometers have been demonstrated by coupling
+optical free-space readout of suspended proof-masses [82, 83]. However, Windchime requires at
+least 106 such accelerometers. A frequency multiplexed and optically coherent readout scheme
+is thus necessary. One potential solution is to interface the extremely sensitive MEMS [84] with
+photonic integrated circuits (PIC) and take advantage of the frequency tuning [85], multiplexing,
+combs [86] and coherent readout technologies demonstrated on PIC platforms. The next generation
+array that we are working on will use ∼ 102 dedicated accelerometers √     based on integrated Si3 N4
+photonic circuits, achieving a noise density in the order of µg/ Hz at room temperature and
+pressure. These sensors are based around an optical microring resonator, and would be read
+out using a fibre-coupled inteferometric setup [87]. The optical resonance frequency is adjustable
+on the order of GHz by integrating piezoelectric actuators [86], allowing for frequency domain
+multiplexing. A single frequency laser can be electro-optically modulated for producing a frequency
+comb [88], where each comb line can be aligned with each sensor with low cross-talk. Such a setup
+will serve as a test-bed for the technological developments needed to detect dark matter with an
+optomechanical array.
+
+
+                                  D.   Computational techniques
+
+   Windchime presents interesting R&D opportunities as we develop the computational techniques
+needed for large arrays of quantum-enabled mechanical sensors. The array produces streaming
+spatiotemporal data, where each sensor is producing its own time series data. The novelty of
+Windchime is in using a large number of sensors to take advantage of incoherent noise. Beyond the
+challenges of having many sensors, the data analysis presents its own challenges. However, there is
+a substantial body of previous work on related problems; as a benchmark, the CMS silicon tracker
+has 10 million readout channels being sampled at a rate of 40 MHz, then read out at up to 100
+kHz [89].
+   There are two different scientific objectives that provide competing requirements for how signals
+could be detected in such an array. Heavy dark matter will produce a fast transient signal in the
+array with signals localized in a few sensors, which requires a faster digitization frequency thus
+high date rate per sensor. However, ultralight dark matter is a coherent effect across the entire
+array, where information from all sensors is needed to search for a signal, thereby scaling the high
+sensor rate by a large number of sensors. Therefore, different techniques are required for both of
+                                                                                                   9
+
+
+these extremes.
+    For heavy dark matter, we are performing track finding in an optomechanical sensor array to
+identify sensors nearby the track. Track finding is a mature field in particle physics, as this is a
+core part of the analysis of most collider physics detectors. The main computational challenges
+related to this task are areas of active research in computational science. First, how does one
+perform triggering, which is also known as object detection, to only record interesting data? This
+requires having streaming algorithms to identify where they may be a track. Second, how does
+one perform the analysis or optimization to determine where a track might be? An interesting
+possibility is to use signal processing techniques to preprocess this data. Third, what opportunities
+are there to quantify uncertainties on the track parameters, such as is done for sky localization in
+multimessenger astronomy?
+    Because gravity is a long range interaction, even sensors that are not directly impacted by the
+track can contribute to a signal. This means that parameter inference could be more sophisticated
+than basic track finding, for example using Bayesian methods to infer the posterior distribution of
+the track from data. This has been successfully trialed using a simulated array of 83 sensors and
+the ultranest package [90]. Such methods, however, would be highly computationally intensive,
+necessitating the use of a trigger as mentioned above. In addition, triggering might be needed for
+data storage reasons. For example, an array of 106 sensors sampled at 10 MHz at 12 bits would
+result in a data rate of about 15 TB/s. Only storing triggered data will be crucial to reduce the
+data storage requirements.                                                       √
+    For ultralight dark matter, the noise level can be suppressed by up to Ndet , as discussed
+above. The main challenge is designing a data acquisition system that can probe coherent effects
+across the entire array. The ultralight dark matter signal has a finite coherence time, inversely
+proportional to its bandwidth, Tcoh ∼ 106 /ωDM . Therefore, for the experiment time scale that
+is shorter than the dark matter coherence time (e.g., Tcoh >1yr for mDM < 10−13 eV), the signal
+behaves as a monochromatic wave with a single frequency across all sensors. In that case, a time-
+domain Wiener optimal filter can be used (even at the FPGA level). For larger DM mass, thus
+smaller coherence time, the DM produces an incoherent power signal. This may require offline
+processing of the time series, potentially with a method similar to a Dicke radiometer, whose
+analysis framework was presented in [91], while for smaller timescales analysis procedures similar
+to the one presented in [92] can be used.
+    In all cases above, an exciting opportunity is performing machine-learning-enabled experimental
+design. As we are operating a cubic lattice, simulations and forward models of the processes
+involved lend themselves to optimization techniques that operate on large matrices. Existing
+routines for analyzing data on a grid, such as convolutional neural networks, mean that there is an
+exciting opportunity for being able to perform global detector optimization in a way that is not as
+tractable in other particle physics experiments.
+
+
+                                         V.   OUTLOOK
+
+   The direct detection of dark matter through gravity alone was long thought to be impossible.
+Thanks to advances made in the control of optomechanical systems, we have identified a possible
+avenue to achieve this goal in the foreseeable future. While certainly a long-term endeavour,
+the Windchime project is charting a path towards achieving sensitivity to well-motivated Planck-
+mass dark matter through gravitational interaction alone. On the way to such sensitivity to
+this well-motivated parameter space, Windchime is also probing ultralight DM candidates, and
+possibly a number of other targets of interest. A number of applications of this technology to
+other areas—including acceleration sensing, impulse metrology, and multiplexing of large quantum
+sensing arrays—can be expected in the process. Taken together, the Windchime project constitutes
+a unique and well-motivated approach to enhance our sensitivity to particle dark matter.
+                                                                                                       10
+
+
+
+
+ [1] E. D. Hall, R. X. Adhikari, V. V. Frolov, H. Müller, M. Pospelov, and R. X. Adhikari, Phys. Rev. D
+     98, 083019 (2018), arXiv:1605.01103 [gr-qc].
+ [2] A. Kawasaki, Phys. Rev. D 99, 023005 (2019), arXiv:1809.00968 [physics.ins-det].
+ [3] D. Carney, S. Ghosh, G. Krnjaic, and J. M. Taylor, Phys. Rev. D 102, 072003 (2020), arXiv:1903.00492
+     [hep-ph].
+ [4] M. Aspelmeyer, T. J. Kippenberg, and F. Marquardt, Reviews of Modern Physics 86, 1391 (2014).
+ [5] M. Blencowe, Physics Reports 395, 159 (2004).
+ [6] Snowmass 2021 Instrumentation Frontier: Quantum Sensing for HEP Science — Interferometers, Me-
+     chanics, Clocks, and Traps, arXiv:2203.xxxxx.
+ [7] D. Carney, G. Krnjaic, D. C. Moore, C. A. Regal, et al., arXiv:2008.06074 [physics.ins-det].
+ [8] P. W. Graham, D. E. Kaplan, J. Mardon, S. Rajendran, and W. A. Terrano, Physical Review D 93,
+     075029 (2016).
+ [9] D. Carney, A. Hook, Z. Liu, J. M. Taylor, and Y. Zhao, (2019), arXiv:1908.04797 [hep-ph].
+[10] J. Manley, M. D. Chowdhury, D. Grin, S. Singh, and D. J. Wilson, (2020), arXiv:2007.04899 [quant-
+     ph].
+[11] Snowmass 2021 CF2 Whitepaper: New Horizons: Scalar and Vector Ultralight Dark Matter,
+     arXiv:2203.xxxxx.
+[12] G. Afek, D. Carney, and D. C. Moore, Phys. Rev. Lett. 128, 101301 (2022), arXiv:2111.03597
+     [physics.ins-det].
+[13] F. Monteiro, G. Afek, D. Carney, G. Krnjaic, J. Wang, and D. C. Moore, (2020), arXiv:2007.12067
+     [hep-ex].
+[14] Snowmass 2021 Cosmic Frontier White Paper: Ultraheavy dark matter, arXiv:2203.xxxxx.
+[15] A. Abramovici, W. E. Althouse, R. W. Drever, Y. Gürsel, S. Kawamura, F. J. Raab, D. Shoemaker,
+     L. Sievers, R. E. Spero, K. S. Thorne, et al., Science 256, 325 (1992).
+[16] S. B. Cataño-Lopez, J. G. Santiago-Condori, K. Edamatsu, and N. Matsumoto, Phys. Rev. Lett. 124,
+     221102 (2020), arXiv:1912.12567 [quant-ph].
+[17] U. Delić, M. Reisenbauer, K. Dare, D. Grass, V. Vuletić, N. Kiesel, and M. Aspelmeyer, Science 367,
+     892 (2020).
+[18] M. V. Moody, H. J. Paik, and E. R. Canavan, Review of scientific instruments 73, 3957 (2002).
+[19] O. Romero-Isart, L. Clemente, C. Navau, A. Sanchez, and J. Cirac, Physical review letters 109, 147205
+     (2012).
+[20] J. Bramante, B. Broerman, R. F. Lang, and N. Raj, Phys. Rev. D 98, 083516 (2018), arXiv:1803.08044
+     [hep-ph].
+[21] S. Schlamminger, K. Y. Choi, T. A. Wagner, J. H. Gundlach, and E. G. Adelberger, Phys. Rev. Lett.
+     100, 041101 (2008), arXiv:0712.0607 [gr-qc].
+[22] T. A. Wagner, S. Schlamminger, J. H. Gundlach, and E. G. Adelberger, Class. Quant. Grav. 29,
+     184002 (2012), arXiv:1207.2442 [gr-qc].
+[23] R. Abbott et al. (LIGO Scientific, Virgo, KAGRA), (2021), arXiv:2105.13085 [astro-ph.CO].
+[24] C. Blanco, B. Elshimy, R. F. Lang, and R. Orlando, (2021), arXiv:2112.14784 [hep-ph].
+[25] D. M. Grabowska, T. Melia, and S. Rajendran, Phys. Rev. D 98, 115020 (2018), arXiv:1807.03788
+     [hep-ph].
+[26] A. R. Bodmer, Phys. Rev. D 4, 1601 (1971).
+[27] E. Witten, Phys. Rev. D 30, 272 (1984).
+[28] Y. Bai, A. J. Long, and S. Lu, Phys. Rev. D 99, 055047 (2019), arXiv:1810.04360 [hep-ph].
+[29] E. Hardy, R. Lasenby, J. March-Russell, and S. M. West, JHEP 06, 011 (2015), arXiv:1411.3739
+     [hep-ph].
+[30] E. Hardy, R. Lasenby, J. March-Russell, and S. M. West, JHEP 07, 133 (2015), arXiv:1504.05419
+     [hep-ph].
+[31] M. I. Gresham, H. K. Lou, and K. M. Zurek, Phys. Rev. D 96, 096012 (2017), arXiv:1707.02313
+     [hep-ph].
+[32] M. Redi and A. Tesi, JHEP 04, 108 (2019), arXiv:1812.08784 [hep-ph].
+[33] W. Detmold, M. McCullough, and A. Pochinsky, Phys. Rev. D 90, 115013 (2014), arXiv:1406.2276
+     [hep-ph].
+[34] W. Detmold, M. McCullough, and A. Pochinsky, Phys. Rev. D 90, 114506 (2014), arXiv:1406.4116
+     [hep-lat].
+                                                                                                        11
+
+
+[35] M. I. Gresham, H. K. Lou, and K. M. Zurek, Phys. Rev. D 98, 096001 (2018), arXiv:1805.04512
+     [hep-ph].
+[36] G. Krnjaic and K. Sigurdson, Phys. Lett. B 751, 464 (2015), arXiv:1406.1171 [hep-ph].
+[37] M. I. Gresham, H. K. Lou, and K. M. Zurek, Phys. Rev. D 97, 036003 (2018), arXiv:1707.02316
+     [hep-ph].
+[38] S. R. Coleman, Nucl. Phys. B 262, 263 (1985), [Erratum: Nucl.Phys.B 269, 744 (1986)].
+[39] R. Friedberg, T. D. Lee, and A. Sirlin, Phys. Rev. D 13, 2739 (1976).
+[40] A. Kusenko and M. E. Shaposhnikov, Phys. Lett. B 418, 46 (1998), arXiv:hep-ph/9709492.
+[41] A. Kusenko, Phys. Lett. B 405, 108 (1997), arXiv:hep-ph/9704273.
+[42] A. Kusenko, in Workshop on Exotic Physics with Neutrino Telescopes (2006) arXiv:hep-ph/0612159.
+[43] J.-P. Hong, M. Kawasaki, and M. Yamada, JCAP 08, 053 (2016), arXiv:1604.04352 [hep-ph].
+[44] J.-P. Hong, S. Jung, and K.-P. Xie, Phys. Rev. D 102, 075028 (2020), arXiv:2008.04430 [hep-ph].
+[45] B. Holdom, Phys. Rev. D 36, 1000 (1987).
+[46] D. Lohiya, (1994), arXiv:gr-qc/9407014.
+[47] D. Stojkovic, Phys. Rev. D 67, 045012 (2003), arXiv:hep-ph/0111061.
+[48] A. L. Macpherson and B. A. Campbell, Phys. Lett. B 347, 205 (1995), arXiv:hep-ph/9408387.
+[49] B. Holdom, (1987).
+[50] A. R. Zhitnitsky, JCAP 10, 010 (2003), arXiv:hep-ph/0202161.
+[51] K. Ogure, T. Yoshida, and J. Arafune, Phys. Rev. D 67, 123518 (2003), arXiv:hep-ph/0212332.
+[52] J. A. Frieman, G. B. Gelmini, M. Gleiser, and E. W. Kolb, Phys. Rev. Lett. 60, 2101 (1988).
+[53] I. Affleck and M. Dine, Nucl. Phys. B 249, 361 (1985).
+[54] M. Dine and A. Kusenko, Rev. Mod. Phys. 76, 1 (2003), arXiv:hep-ph/0303065.
+[55] E. Krylov, A. Levin, and V. Rubakov, Phys. Rev. D 87, 083528 (2013), arXiv:1301.0354 [hep-ph].
+[56] D. J. H. Chung, P. Crotty, E. W. Kolb, and A. Riotto, Physical Review D 64 (2001), 10.1103/phys-
+     revd.64.043503.
+[57] D. J. H. Chung, E. W. Kolb, and A. Riotto, Phys. Rev. D 59, 023501 (1998), arXiv:hep-ph/9802238.
+[58] D. J. H. Chung, E. W. Kolb, and A. Riotto, Phys. Rev. Lett. 81, 4048 (1998), arXiv:hep-ph/9805473.
+[59] D. Hooper, G. Krnjaic, and S. D. McDermott, JHEP 08, 001 (2019), arXiv:1905.01301 [hep-ph].
+[60] N. Bernal and O. Zapata, JCAP 03, 015 (2021), arXiv:2011.12306 [astro-ph.CO].
+[61] B. V. Lehmann, C. Johnson, S. Profumo, and T. Schwemberger, Journal of Cosmology and Astropar-
+     ticle Physics 2019, 046–046 (2019).
+[62] Y. Bai and N. Orlofsky, Phys. Rev. D 101, 055006 (2020), arXiv:1906.04858 [hep-ph].
+[63] U. Aydemir, B. Holdom, and J. Ren, Phys. Rev. D 102, 024058 (2020), arXiv:2003.10682 [gr-qc].
+[64] J. H. MacGibbon, Nature 329, 308 (1987).
+[65] A. Salvio and H. Veermäe, JCAP 02, 018 (2020), arXiv:1912.13333 [gr-qc].
+[66] R. Agnese, A. J. Anderson, M. Asai, D. Balakishiyeva, R. B. Thakur, D. Bauer, J. Beaty, J. Billard,
+     A. Borgland, M. Bowles, et al., Physical review letters 112, 241302 (2014).
+[67] B. J. Lawrie, M. Feldman, C. E. Marvinney, and Y.-Y. Pai, in Quantum Nanophotonic Materials, De-
+     vices, and Systems 2021, Vol. 11806 (International Society for Optics and Photonics, 2021) p. 1180604.
+[68] O. Gröbner, Vacuum 60, 25 (2001).
+[69] C. M. Caves, Physical Review D 23, 1693 (1981).
+[70] J. Aasi, J. Abadie, B. Abbott, R. Abbott, T. Abbott, M. Abernathy, C. Adams, T. Adams, P. Addesso,
+     R. Adhikari, et al., Nature Photonics 7, 613 (2013).
+[71] H. Vahlbruch, M. Mehmet, K. Danzmann, and R. Schnabel, Phys. Rev. Lett. 117, 110801 (2016).
+[72] C. M. Caves, K. S. Thorne, R. W. Drever, V. D. Sandberg, and M. Zimmermann, Reviews of Modern
+     Physics 52, 341 (1980).
+[73] V. B. Braginsky and F. J. Khalili, Physics Letters A 147, 251 (1990).
+[74] S. Ghosh, D. Carney, P. Shawhan, and J. M. Taylor, (2019), arXiv:1910.11892 [quant-ph].
+[75] Q. Glorieux, L. Guidoni, S. Guibal, J.-P. Likforman, and T. Coudreau, in Quantum Optics, Vol. 7727
+     (SPIE, 2010) pp. 9–16.
+[76] H. Vahlbruch, M. Mehmet, K. Danzmann, and R. Schnabel, Physical review letters 117, 110801 (2016).
+[77] B. J. Lawrie, P. D. Lett, A. M. Marino, and R. C. Pooser, ACS Photonics 6, 1307 (2019).
+[78] B. E. Anderson, P. Gupta, B. L. Schmittberger, T. Horrom, C. Hermann-Avigliano, K. M. Jones, and
+     P. D. Lett, Optica 4, 752 (2017).
+[79] R. Pooser, N. Savino, E. Batson, J. Beckey, J. Garcia, and B. Lawrie, Physical Review Letters 124,
+     230504 (2020).
+[80] R. C. Pooser and B. Lawrie, Optica 2, 393 (2015).
+                                                                                                        12
+
+
+[81] Y.-Y. Pai, C. E. Marvinney, C. Hua, R. C. Pooser, and B. J. Lawrie, Advanced Quantum Technologies
+     5, 2100107 (2022).
+[82] F. Zhou, Y. Bao, R. Madugani, D. A. Long, J. J. Gorman, and T. W. LeBrun, Optica 8, 350 (2021).
+[83] F. Guzmán Cervantes, L. Kumanchik, J. Pratt, and J. M. Taylor, Applied Physics Letters 104, 221111
+     (2014).
+[84] D. N. Hutchison and S. A. Bhave, in 2012 IEEE 25th international conference on micro electro me-
+     chanical systems (MEMS) (IEEE, 2012) pp. 615–619.
+[85] H. Tian, J. Liu, B. Dong, J. C. Skehan, M. Zervas, T. J. Kippenberg, and S. A. Bhave, Nature
+     communications 11, 1 (2020).
+[86] J. Liu, H. Tian, E. Lucas, A. S. Raja, G. Lihachev, R. N. Wang, J. He, T. Liu, M. H. Anderson,
+     W. Weng, et al., Nature 583, 385 (2020).
+[87] A. G. Krause, M. Winger, T. D. Blasius, Q. Lin, and O. Painter, Nature Photonics 6, 768 (2012).
+[88] M. Zhang, B. Buscaino, C. Wang, A. Shams-Ansari, C. Reimer, R. Zhu, J. M. Kahn, and M. Lončar,
+     Nature 568, 373 (2019).
+[89] C. Foudas et al., IEEE Trans. Nucl. Sci. 52, 2836 (2005), arXiv:physics/0510229.
+[90] J. Buchner, The Journal of Open Source Software 6, 3001 (2021), arXiv:2101.09604 [stat.CO].
+[91] S. Chaudhuri, K. Irwin, P. W. Graham, and J. Mardon, (2018), arXiv:1803.01627 [hep-ph].
+[92] C. P. Salemi, J. W. Foster, J. L. Ouellet, A. Gavin, K. M. Pappas, et al., Physical Review Letters 127
+     (2021).
+

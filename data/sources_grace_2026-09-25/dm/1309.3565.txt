@@ -1,0 +1,1299 @@
+                                                Submitted to The Astrophysical Journal
+                                                Preprint typeset using LATEX style emulateapj v. 5/2/11
+
+
+
+
+                                                                               GALAXY CLUSTER BARYON FRACTIONS REVISITED
+                                                             Anthony H. Gonzalez,1 Suresh Sivanandam,2,3 Ann I. Zabludoff,2 & Dennis Zaritsky2
+                                                                                                Submitted to The Astrophysical Journal
+
+                                                                                                      ABSTRACT
+                                                          We measure the baryons contained in both the stellar and hot gas components for twelve galaxy
+                                                       clusters and groups at z ∼ 0.1 with M = 1−5×1014 M⊙ . This paper improves upon our previous work
+
+
+
+
+arXiv:1309.3565v1 [astro-ph.CO] 13 Sep 2013
+                                                       through the addition of XMM-Newton X-ray data, enabling measurements of the total mass and masses
+                                                       of each major baryonic component — intracluster medium, intracluster stars, and stars in galaxies —
+                                                                                                                                                        −0.52±0.04
+                                                       for each system. We recover a mean relation for the stellar mass versus halo mass, M⋆ ∝ M500                ,
+                                                       that is 1σ shallower than our previous result. We confirm that the partitioning of baryons between the
+                                                       stellar and hot gas components is a strong function of M500 ; the fractions of total mass in stars and X-
+                                                                                                                 −0.45±0.04               0.26±0.03
+                                                       ray gas withing a sphere of radius r500 scale as f⋆ ∝ M500           and fgas ∝ M500         , respectively.
+                                                       We also confirm that the combination of the brightest cluster galaxy and intracluster stars is an
+                                                       increasingly important contributor to the stellar baryon budget in lower halo masses. Studies that fail
+                                                       to fully account for intracluster stars typically underestimate the normalization of the stellar baryon
+                                                       fraction versus M500 relation by ∼25%. Our derived stellar baryon fractions are also higher, and
+                                                       the trend with halo mass weaker, than those derived from recent halo occupation distribution and
+                                                       abundance matching analyses. One difference from our previous work is the weak, but statistically
+                                                                                                                                                    0.16±0.04
+                                                       significant, dependence here of the total baryon fraction upon halo mass: fbary ∝ M500                 . For
+                                                       M500 & 2 × 1014 , the total baryon fractions within r500 are on average 18% below the Universal
+                                                       value from the seven year WMAP analysis, or 7% below for the cosmological parameters from the
+                                                       Planck analysis. In the latter case the difference between the Universal value and cluster baryon
+                                                       fractions is less than the systematic uncertainties associated with the M500 determinations. The total
+                                                       baryon fractions exhibit significant scatter, particularly at M500 < 2 × 1014 M⊙ where they range from
+                                                       60-90%, or 65-100%, of the Universal value for WMAP7 and Planck, respectively. The ratio of the
+                                                       stellar-to-gas mass within r500 (M⋆ /Mgas ), a measure of integrated star formation efficiency, strongly
+                                                       decreases with increasing M500 . This relation is tight, with an implied intrinsic scatter of 12%. The
+                                                       fact that this relation remains tight at low mass implies that the larger scatter in the total baryon
+                                                       fractions at these masses arises from either true scatter in the total baryon content or observational
+                                                       scatter in M500 rather than late-time physical processes such as redistribution of gas to beyond r500 .
+                                                       If the scatter in the baryon content at low mass is physical, then our results imply that in this mass
+                                                       range it is the integrated star formation efficiency and not the baryon fraction that is constant at
+                                                       fixed halo mass.
+                                                       Subject headings: galaxies: clusters: general — galaxies:cD, formation, evolution, fundamental pa-
+                                                                            rameters — X-rays: galaxies: clusters
+
+                                                                    1. INTRODUCTION                                  The partitioning of the baryons between the hot intra-
+                                                 Precision measurements of the total baryon content                  cluster medium and stars constrains the net, integrated
+                                              test the degree to which the expectation that clusters are             efficiency with which baryons are converted to stars in
+                                              nearly fair samples of the matter content of the Universe              massive halos (hereafter star formation efficiency) and
+                                              is valid (White & Frenk 1991), and provide insight on the              clarifies the importance of halo mass as a fundamental
+                                              key physical processes that may act to drive observed                  parameter tracing star formation efficiency (Bryan 2000;
+                                              total baryon fractions away from the Universal value                   Lin et al. 2003). This partitioning is also an important
+                                              (e.g., Nagai et al. 2007; McNamara & Nulsen 2007, 2012;                consideration for cosmological tests that aim to use the
+                                              McCarthy et al. 2008, 2011; Simionescu et al. 2011, and                gas fraction to constrain ΩM and w (e.g., Allen et al.
+                                              references therein). How the baryons are distributed                   2008), because variation will contribute to the obser-
+                                              amongst the various components in a cluster also informs               vational scatter even for massive clusters. Finally, the
+                                              models for cluster assembly and cluster galaxy evolution.              partitioning of stellar baryons between satellite galaxies,
+                                                                                                                     the brightest cluster galaxy (BCG), and intracluster light
+                                                 1 Department    of Astronomy,      University of Florida,           provides a stringent test for models of cluster galaxy evo-
+                                               Gainesville, FL 32611-2055                                            lution and cluster luminosity function evolution, as the
+                                                 2 Steward Observatory, University of Arizona, 933 North
+                                                                                                                     latter serves as a final reservoir for all stars liberated from
+                                               Cherry Avenue, Tucson, AZ 85721                                       other cluster galaxies (Conroy et al. 2007; Purcell et al.
+                                                 3 Dunlap Fellow, Dunlap Institute, University of Toronto, 50
+                                               St. George St, Toronto, ON, Canada                                    2007; Behroozi et al. 2012; Watson et al. 2012).
+                                                 1 BASED ON OBSERVATIONS OBTAINED WITH XMM-                             In a pair of previous papers, we conducted an initial
+                                               NEWTON, AN ESA SCIENCE MISSION WITH INSTRU-                           census of the stellar baryon content in a sample of 24
+                                               MENTS AND CONTRIBUTIONS DIRECTLY FUNDED BY
+                                               ESA MEMBER STATES AND NASA.
+                                                                                                                     nearby systems with prominent BCGs (Gonzalez et al.
+2                                                       Gonzalez et al.
+
+2005, 2007, hereafter GZZ05 and GZZ07). In GZZ07                 (2008), if our mass determinations are systematically bi-
+we used this sample in conjunction with published rela-          ased then the amplitude of the slope of the stellar baryon
+tions between M500 and gas mass to quantify the total            fraction scaling relation will also be biased. This lim-
+baryon fractions on group to cluster scales. Two cen-            itation also precluded measuring scatter in the baryon
+tral results were that the total baryon fraction within          fractions from cluster to cluster variation.
+r500 is roughly constant and ∼ 20% below the Universal              The central aim of this paper is to improve upon
+value from WMAP (Komatsu et al. 2011), and that the              GZZ07, directly measuring the mass of each baryonic
+gas and stellar baryon fractions have strong, opposite           component plus the total cluster mass for a subset of
+trends with system mass. The matching of the falling             twelve galaxy clusters from GZZ07. As part of this work,
+stellar and rising gas mass fractions with M500 supports         we also attempt to carefully assess the impact of any sys-
+the suggestion made previously that the star formation           tematic biases that may impact any of the observed mea-
+efficiency decreases with increasing system mass (Bryan          surements. In section 2 we describe the cluster sample
+2000; Lin et al. 2003). In GZZ07 we also emphasized the          and data. Details of the total and gas mass measure-
+importance of including the intracluster light (ICL). Our        ments are provided in section 3, with a description of
+observations demonstrated that the combination of the            the stellar luminosity and stellar mass measurements in
+brightest cluster galaxy and intracluster light (hereafter       section 4. In section 5 we present our results for the parti-
+BCG+ICL) dominate the stellar content within r500 at             tioning of stars between the BCG+ICL and the galaxies,
+group scales, but contain a decreasing percentage of the         the partitioning of baryons between stars and gas, and
+total stellar mass with increasing cluster mass. Omission        the mass fractions for each component. We also con-
+of the ICL can thus bias both the slope and normalization        sider the impact of potential systematics in this section
+of the derived relation between stellar and total mass.          and compare our results with previous studies. Section 6
+   Similar results of declining stellar mass fraction with       presents the main conclusions from this work. Through-
+halo mass have been obtained by a number of groups               out the paper we adopt cosmological parameters con-
+— albeit in most cases excluding the ICL. Power law              sistent with the Komatsu et al. (2011) results from the
+slopes for f∗ ∝ M α in the literature span the range             seven-year Wilkinson Microwave Anisotropy Probe data
+−0.65 < α < −0.25 (e.g., Lin et al. 2003; Laganá et al.         (H0 = 70.2 km s−1 , ΩM = 0.275,ΩΛ = 0.725). Changes
+2008; Giodini et al. 2009; Andreon 2010; Laganá et al.          between the seven- and nine-year WMAP cosmological
+2011; Zhang et al. 2011; Lin et al. 2012). While the case        parameters (Bennett et al. 2012) have minimal effect on
+for a strong decrease of the stellar baryon fraction with        the results. We discuss the impact of the Planck cosmo-
+increasing halo mass is compelling, there exists disagree-       logical parameters (Planck Collaboration et al. 2013) in
+ment among these studies regarding the precise slopes of         section 5.3.4. We demonstrate that the main effect of the
+both the stellar and total baryon fractions as a function        change in cosmology is to reduce the offset between the
+of cluster mass.                                                 cluster baryon fractions and the Universal baryon mass
+   A significant contributing factor to the present unset-       fraction.
+tled state of the field is the quality of data available in
+past studies, including our own. To conduct a compre-                              2. CLUSTER SAMPLE
+hensive study of the baryon fraction within a given radius         The primary data set for this work consists of galaxy
+(typically r500 ), the data should include deep X-ray imag-      clusters drawn from the GZZ07 sample that have been
+ing for determination of the intracluster medium (ICM)           observed by the XMM-Newton X-ray telescope (hereafter
+gas mass, redshifts to determine cluster membership far          XMM ). A total of ten clusters initially satisfied this re-
+below L∗ , high-quality, multiband photometry suitable           quirement. We exclude one of these clusters, Abell 3705,
+for both measurement of the ICL contribution and stel-           from our present analysis because the X-ray data in-
+lar masses of cluster members, and a reliable means of           dicate that it is unrelaxed with multiple X-ray peaks
+determining the cluster mass. The only existing study            (Sivanandam et al. 2009). We also include three addi-
+that satisfies all these criteria is Sanderson et al. (2013),    tional systems from GZZ07 that have recently been tar-
+which focuses upon a subset of the five lowest mass sys-         geted with XMM by Sanderson et al. (2013) to explore
+tems in the current sample and thus lacks the dynamic            the baryon fractions of low-mass systems, reanalyzing the
+range in mass to robustly constrain the dependence of f⋆         data for consistency with our other systems.
+upon M500 .                                                        In addition to the twelve clusters in our primary sam-
+   Our previous study (GZZ07) had the advantage of di-           ple, we also analyze XMM data for the most massive
+rectly measuring the contribution of the ICL, a compo-           clusters from the Vikhlinin et al. (2006) sample to extend
+nent that contains a significant percentage of the stel-         our mass baseline. While there are many massive clus-
+lar baryons and becomes increasingly important with              ters with published results in the literature, we opt here
+decreasing halo mass. However, a particularly critical           to only include ones from Vikhlinin et al. (2006) that we
+limitation of this work was the lack of X-ray data. As           have reanalyzed to ensure that differences in analysis do
+a result, we constrained the total baryon fraction only          not bias the observed trends. Specifically, we reprocess
+by combining the derived stellar baryon fraction scaling         XMM data for the three clusters from Vikhlinin et al.
+relation with published X-ray data for a different clus-         (2006) with T > 7.5 keV (Abell 478, Abell 2029, and
+ter sample. This limitation also led us in GZZ07 to use          Abell 2390). While we lack the necessary data to con-
+cluster velocity dispersion (σ) as a crude proxy for clus-       strain the stellar masses, we use these clusters to place
+ter mass. Specifically, we used data from Vikhlinin et al.       a lower limit on the total baryon content at higher M500
+(2006) to derive an MX − σ relation to convert from dis-         than are reached by our primary sample.
+persion to M500 . The uncertainty associated with this             XMM observations for clusters presented in this work
+relation is relevant because, as noted by Balogh et al.          were either taken through our guest observer (GO) pro-
+                                             Galaxy Cluster Baryon Fractions                                                  3
+
+                                                           TABLE 1
+                                                     X-ray Data Properties
+
+                  Name        Obs ID1         Date       Type2     Filter   tMOS (ks)    tMOS,ff (ks)   Aperture (′ )
+               Abell 0122    0504160101   2007 Dec 03    GO       Medium    55.9/56.0    48.5/49.4      1.1 − 3.6
+               Abell 1651    0203020101   2004 Jul 01    GO       Thin      14.9/14.9    8.2/8.3        1.9 − 6.3
+               Abell 2401    0555220101   2010 Oct 29    S12      Thin      56.8/56.9    54.9/54.8      1.6 − 5.3
+               Abell 2721    0201903801   2005 May 13    XSA      Thin      17.5/17.6    9.5/9.9        1.3 − 4.3
+               Abell 2811    0404520101   2006 Nov 28    GO       Medium    24.1/24.1    21.7/22.0      1.3 − 4.5
+               Abell 2955    0555220201   2008 Aug 02    S12      Thin      81.4/81.5    73.9/75.3      1.0 − 3.3
+               Abell 2984    0201900601   2004 Dec 27    XSA      Thin      28.8/28.8    27.9/27.5      0.9 − 3.0
+               Abell 3112    0105660101   2000 Dec 24    XSA      Medium    23.1/23.1    22.4/22.5      1.7 − 5.8
+               Abell 3693    0404520201   2006 Oct 14    GO       Medium    34.2/34.3    28.8/29.1      0.9 − 3.2
+               Abell 4010    0404520501   2006 Nov 13    GO       Thin      19.4/19.4    17.7/18.3      1.3 − 4.3
+               Abell S0084   0201900401   2004 Dec 04    XSA      Thin      33.7/34.0    18.3/18.1      1.2 − 3.8
+               Abell S0296   0555220301   2008 Dec 26    S12      Thin      68.8/68.9    51.2/53.6      1.3 − 4.5
+               Abell 0478    0109880101   2002 Feb 15    XSA      Thin      69.7/125.0   48.0/77.2      1.9 − 6.4
+               Abell 2029    0551780201   2008 Jul 17    XSA      Thin      46.0/46.0    32.7/33.4      2.4 − 8.1
+               Abell 2390    0111270101   2001 Jun 19    XSA      Thin      22.2/22.2    9.9/10.0       1.1 − 3.5
+              1 XMM-Newton observation identification.
+              2 XSA denotes data from the XMM-Newton Science Archive; GO denotes data from our Guest Observer
+              programs; S12 denotes systems from the Sanderson et al. (2012) program.
+
+grams, drawn from Sanderson et al. (2013), or obtained             In general, greater than 50% of the integration time of
+from publicly available data in the XMM-Newton Science             each cluster observation is used. However, this culling
+Archive (XSA). In Table 1, we present the details of the           may not remove low-level soft proton flares, which need
+observations used in this work, including the observation          to be explicitly accounted for as part of the analysis (see
+IDs, time of observation, data source, filter choice, total        §3.2). We next identify point sources, which must be
+integration time of the XMM EPIC-MOS camera obser-                 masked prior to spectroscopic or spatial analysis of the
+vations both before and after flare-filtering, and the aper-       extended cluster emission. For source detection we gener-
+ture used in the current analysis to derive cluster X-ray          ate a combined 0.5−10 keV joint MOS1 and MOS2 image
+temperature. We present optical images of each cluster             and run the wavelet detection algorithm ewavelet with a
+in our primary sample along with their associated X-               5σ detection threshold on scales of 4-8 pixels (10′′ −20′′ ).
+ray contours in Figure 1. The brightest cluster galaxy             After using emldetect to determine the source extraction
+is nearly co-centric with the peak of the X-ray emission,          regions, we visually inspect the source extraction regions
+with offsets of less than 75 kpc in all cases. A compar-           to ensure that there are no spurious source detections
+ison of the outer (3σ) contours to r500 (dashed circles)           or sources associated with extended cluster emission. In
+illustrate that the data typically reach beyond 0.7 r500           the few cases where the detection algorithm flags clus-
+before the cluster emission drops below the background             ter emission, we manually remove these detections from
+level.                                                             the point source catalog. This list is used to exclude
+         3. TOTAL AND GAS MASS FROM XMM                            regions in each observation when extracting spectra or
+                                                                   generating a surface brightness map. Finally, we note
+  We reduce the XMM data using standard techniques                 that we exclude data from individual chips in instances
+for extended sources. Our cluster observations gener-              where they exhibit anomalously elevated backgrounds in
+ally fill a large portion of the XMM field-of-view, re-            the 0.5−10 keV image relative to the other chips. The ex-
+quiring careful consideration of instrumental and cos-             cluded chips were typically CCD #4 in MOS1 and CCD
+mic backgrounds. For the processing we use XMM-                    #5 in MOS2.
+Newton Science Analysis Software (SAS) version 12 with
+recent calibration data from September 2012. We use                               3.2. Spectral Fitting and M500
+the XMM-ESAS software package to carry out flare fil-                Because the sample is heterogenous in terms of depth,
+tering and determine the quiescent particle background             we choose a straight-forward and consistent method for
+(see Snowden et al. 2008, for full details on XMM back-            determining M500 , which simply requires that the signal-
+grounds). We restrict our attention to the MOS1 and                to-noise be sufficient to perform spectral fitting out to
+MOS2 cameras, as background estimation is more fully               at least 0.5r500 . We use the Vikhlinin et al. (2009) cal-
+developed in XMM-ESAS for these than for the PN cam-               ibration to convert from X-ray temperature measured
+era.                                                               within an aperture spanning 0.15 to 0.5 r500 to the to-
+  Our data analysis proceeds in two stages. The first              tal M500 for each cluster. The relevant equations from
+stage consists of spectral fitting to determine r500 and           Vikhlinin et al. (2009) are
+M500 . Given r500 , we then proceed to fit the surface
+brightness profiles for the XMM data to determine the                          TX /TX,2 = 0.9075 + 0.00625TX,2               (1)
+gas mass profile and total gas mass within r500 . We pro-                          M500 = M0 (TX /5 keV) E(z) α         −1
+                                                                                                                             (2)
+vide a brief description of our full procedure below.
+                                                                   where TX and TX,2 are the X-ray temperatures measured
+                  3.1. Basic Processing                            at r500 and 0.5r500 , respectively, M0 = (3.02 ± 0.11) ×
+  The data are flare-filtered for soft proton flares using         1014 h−1 M⊙ , α = 1.53 ± 0.08, and E(z), which describes
+the XMM-ESAS flare filtering technique. The final in-              the evolution of the Hubble parameter, is defined as in
+tegration times after flare-filtering are listed in Table 1.       (Peebles 1993, pp. 310-321).
+4                                                             Gonzalez et al.
+
+
+
+
+   Fig. 1.— 2.5 × 2.5 Mpc thumbnails from the Digitized Sky Survey (DSS) for the primary sample of twelve clusters, with their X-ray
+surface brightness contours overlaid. The X-ray contours are generated from an adaptively smoothed surface brightness map. There are
+five contour levels which are logarithmically spaced at equal intervals. The lowest one corresponds to a value 3σ above the brightness level
+measured at the outskirts of the XMM EPIC-MOS field-of-view, and the highest value corresponds to 0.1 dex below the brightest value.
+The crosshair indicates the fitted centre for the X-ray emission. The dotted circle is the measured r500 value for each cluster.
+  Measuring TX is an iterative process where we first es-                ROSAT All-Sky Survey X-ray background data to con-
+timate r500 to compute the appropriate spectral extrac-                  strain the cosmic background. The initial guess of r500
+tion aperture, and iterate until the computed value of                   is computed using the temperature determined from an
+r500 is stable. The spectra are extracted using the XMM-                 aperture with inner and outer radii of 0′ and 6′ , respec-
+ESAS software and fit using XSPEC 12. XMM-ESAS                           tively. The spectral extraction and fits are repeated un-
+generates the appropriate quiescent particle background                  til the inner and outer extraction radii do not change by
+spectrum, which is then subtracted from the spectra be-                  more than 10′′ . The extraction aperture for each cluster
+fore fitting. The fit model and method used for the                      are given in Table 1 and the final derived TX,2 are listed
+spectral fitting is outlined in Snowden et al. (2008) and                in Table 3. The 1σ uncertainties are determined by carry-
+is identical to the one described in our previous work                   ing out 10,000 Monte Carlo simulations, which take into
+(Sivanandam et al. 2009). The fit function properly ac-                  account the uncertainties in TX,2 and the Vikhlinin et al.
+counts for instrument background such as residual soft                   (2009) fit functions. The derived M500 values are also
+proton flux and fluorescent lines, the cosmic background,                given in Table 3.
+and the thermal emission from the cluster ICM. Only the
+spectrum within the extracted aperture is fit along with                  3.3. Surface Brightness Profile Fitting and Gas Mass
+                                                       Galaxy Cluster Baryon Fractions                                                    5
+                                                                                       0.2
+                                                                                              This work
+                        1.3                                                                   Vikhlinin et al.(2006)
+                                                                                              Sun et al. (2009)
+                        1.2                                                                   Sanderson et al.(2012)
+                                                                                   0.15
+
+
+
+    M500,G13/M500,V06
+                        1.1
+
+
+
+                         1
+                                                                            fgas,500
+                                                                                       0.1
+                    0.9
+
+
+
+                    0.8
+
+
+
+                    0.7                                                            0.05
+                    0.6
+                                                                                       1013                1014                1015
+                                    M500,V06 M ⊙                                                       M500 [M ⊙]
+                               14                         15
+                              10                        10
+
+                                           [       ]
+
+
+ Fig. 2.— Comparison of M500 measurements for a common set of              Fig. 3.— X-ray gas fraction within r500 as a function of M500 .
+clusters as measured by Vikhlinin et al. (2006, V06) using Chandra       Different data sets are shown as a comparison with our work (black
+data with our XMM -derived values (G13). Our M500 values are             circles). The red triangles are from a Chandra study of groups
+on average 8% below those of Vikhlinin et al. (2006, dotted line),       (Sun et al. 2009), while the green diamonds are Chandra measure-
+with no observable dependence upon cluster mass.                         ments of clusters by Vikhlinin et al. (2006). We also include as
+                                                                         boxes the measurements from Sanderson et al. (2013) for five sys-
+   We compute the gas mass within r500 using the gas                     tems in our sample. The dotted line is the fit to the gas fraction
+density profile determined from the imaging and spec-                    as determined by Vikhlinin et al. (2009). The consistency of X-ray
+                                                                         and optical centers, and regularity of the X-ray countours, argue
+tral information. We use the same methods described in                   that these systems are roughly relaxed, although small X-ray sub-
+Sivanandam et al. (2009) with a few minor refinements.                   structures are present in several. At low mass our gas fractions
+The technique involves fitting a radially symmetric pro-                 span a similar range to those from Sun et al. (2009). At higher
+jected β profile (Cavaliere & Fusco-Femiano 1978) to an                  mass our measurements are consistent with the mean trend, but
+                                                                         are ∼ 10% higher than the Vikhlinin et al. (2006) data. This offset
+X-ray image of the cluster to determine the structural                   is consistent with arising simply from the normalization difference
+parameters of the gas density profile, i.e., r0 and β.                   for M500 shown in Figure 2.
+The central gas density is determined using the cluster                  with M500 measured using Chandra data(Vikhlinin et al.
+model’s normalization (norm) parameter obtained from                     2006) for a common set of clusters.4 The result of our
+the XSPEC spectral fits within a given radial bin com-                   comparison is shown in Figure 2. While the majority of
+bined with the structural parameters. One change from                    clusters are consistent to within the statistical errors, the
+our previous analysis is that we now use the 0.4 − 1.25                  XMM masses are on average 8% lower. This offset, which
+keV X-ray images for the surface brightness fits rather                  is likely the result of differences in the cross-calibration
+than a simultaneous fit to the 0.4 − 1.25 keV and 2 − 7.2                of Chandra and XMM (Nevalainen et al. 2010), provides
+keV images. As some of the clusters have cool-cores, this                an estimate of the systematic uncertainty in M500 from
+approach minimizes the temperature dependence of the                     instrumental effects. In section 5.4.2 we also consider the
+structural parameters. We also model the instrumental                    potential systematic uncertainty associated with the use
+background component slightly differently. We include a                  of hydrostatic gas masses.
+flat instrumental background, which is set to be the aver-                  We also compare our fgas with other group and clus-
+age quiescent particle background as determined by the                   ter samples (Figure 3). We compile these measurements
+XMM-ESAS software. The instrument background is                          from three different samples, Vikhlinin et al. (2006),
+held fixed during the initial fit, which determines the pro-             Sun et al. (2009), and Sanderson et al. (2013). The two
+jected β model parameters and the cosmic background                      Chandra studies, (Sun et al. 2009) and Vikhlinin et al.
+contribution. After the initial fit converges, a new fit is              (2006), together cover the full mass range from groups to
+carried out where the value of the instrument background                 clusters. We find that our measurements are consistent
+is allowed to vary. This freedom is necessary to account                 with the mean trend, but systematically offset to higher
+for residual soft proton flux not removed during flare fil-              gas fractions by ∼10% relative to the Vikhlinin et al.
+tering. With these final fit parameters, the β model is                  (2006) data (see 5.3.1). The observed offset is consistent
+integrated out to r500 to obtain Mgas,500 . Fit parameters               with arising simply from the normalization difference for
+and calculated properties are listed in Table 3.                         M500 shown in Figure 2. At low mass, our gas fractions
+                                                                         span a similar range to those from Sun et al. (2009).
+        3.4. Comparisons with other measurements
+                                                                         4. LUMINOSITY AND STELLAR MASS DETERMINATIONS
+   We next check the consistency of our M500 and gas
+fraction (fgas ) measurements with other studies. Be-                      4 We note that while our M
+                                                                                                          500 values are derived using an
+cause the M500 −TX relation from Vikhlinin et al. (2009)                 integrated temperature measurement, Vikhlinin et al. (2006) use
+was calibrated using Chandra data, and there may ex-                     gas density and temperature profiles that extend out to r500 to
+ist slight offsets between XMM and Chandra temper-                       directly estimate hydrostatic masses for these systems within that
+atures (Nevalainen et al. 2010), we compare our M500                     radius.
+6                                                         Gonzalez et al.
+
+                     4.1. Luminosities
+                                                                                            TABLE 2
+   For each component, we compute the total luminos-                              Derived Mass Fractions (r <r500 )
+ity within r500 using the radius derived from the XMM
+data. To compute the luminosities of the BCG+ICL and                        Cluster       fgas         fstellar       fbaryons
+cluster galaxy population, we use the same data and tech-
+niques as in GZZ05 and GZZ07. As described in GZZ05,                   Abell 0122     0.088 ± .012   0.024 ± .002   0.112 ± .012
+all imaging was obtained in Gunn i, with photometry                    Abell 1651     0.130 ± .012   0.013 ± .001   0.143 ± .012
+calibrated to Cousins I using Landolt standards. In con-               Abell 2401     0.089 ± .013   0.028 ± .003   0.118 ± .014
+verting from magnitudes to luminosities, we take the ab-               Abell 2721     0.126 ± .020   0.017 ± .002   0.143 ± .020
+                                                                       Abell 2811     0.125 ± .011   0.013 ± .002   0.138 ± .011
+solute magnitude of the Sun to be MI = 4.09 (Vega;                     Abell 2955     0.067 ± .010   0.030 ± .004   0.097 ± .011
+Mancone & Gonzalez 2012),5 which is fainter than the                   Abell 2984     0.111 ± .014   0.041 ± .005   0.152 ± .015
+normalization, MI = 3.94, used in GZZ07. This change                   Abell 3112     0.133 ± .009   0.022 ± .002   0.155 ± .009
+                                                                       Abell 3693     0.110 ± .013   0.023 ± .003   0.133 ± .013
+in normalization results in all luminosities – and hence               Abell 4010     0.119 ± .010   0.023 ± .003   0.143 ± .010
+stellar masses – increasing by 15% relative to GZZ07, and              Abell S0084    0.088 ± .011   0.022 ± .003   0.110 ± .011
+corrects an inconsistency with Cappellari et al. (2006) in             Abell S0296    0.075 ± .013   0.020 ± .003   0.095 ± .013
+our previous paper. The luminosities for the BCG+ICL                   Abell 0478     0.173 ± .016        —              —
+                                                                       Abell 2029     0.130 ± .009        —              —
+component are computed using the same models, and the                  Abell 2390     0.144 ± .023        —              —
+resulting values are typically identical to those quoted in
+Table 1 of that paper, modulo the change in MI , because                Note. — The quoted stellar baryon fractions include a de-
+the physical extent of this component is generally much               projection correction, as discussed in the text.
+smaller than r500 . Error bars are computed by propagat-
+ing the uncertainties in the model fit to the BCG+ICL
+                                                                   constrained input when computing stellar baryon frac-
+component.
+                                                                   tions. There are several approaches that one can take
+   We compute the total luminosity of the galaxy popu-
+                                                                   for this conversion, as we discuss in §5.4.1.
+lation, excluding the BCG+ICL, using statistical back-
+                                                                      We choose to base our estimate for Υ⋆ on the dynam-
+ground subtraction. Specifically, we compute the total
+                                                                   ical results from Cappellari et al. (2006), as in GZZ07.
+flux from galaxies with mBCG < mI < 18 within r500 ,
+                                                                   The strength of this approach is that it avoids the use
+and use a 30′ −60′ annular aperture encircling the cluster
+                                                                   of stellar population models and associated systematic
+to compute a statistical background correction for sub-
+                                                                   uncertainties. There are however several limitations.
+traction. In GZZ07 we assessed the potential impact of
+                                                                   First, the population of galaxies with robust dynami-
+large-scale structure on the derived background correc-
+                                                                   cal measurements of central mass-to-light ratios is pre-
+tions via comparisons with the SDSS luminosity func-
+                                                                   dominantly comprised of quiescent galaxies, which have
+tion from Blanton et al. (2003), finding it to be mini-
+                                                                   systematically higher Υ⋆ values than the star-forming
+mal. We next convert from flux to absolute magnitude
+                                                                   population. In GZZ07 we ignored the impact of the
+using the cluster redshift, and apply a completeness cor-
+                                                                   star-forming population in altering the global mass-to-
+rection to account for galaxies with mI > 18. For this
+                                                                   light ratio. We retain in this paper the assumption of
+correction we adopt the cluster luminosity function of
+                                                                   a purely passive population, as in GZZ07, but assess
+Christlein & Zabludoff (2003), using R − I = 0.82 to
+                                                                   the impact of this assumption in §5.4.1. Second, in
+convert between filters. Additional details of this pro-
+                                                                   the Cappellari et al. (2006) study the derived dynam-
+cedure are discussed in Gonzalez et al. (2007). The two
+                                                                   ical masses within the effective radius were noted to
+dominant uncertainties in the total galaxy luminosity are
+                                                                   include 0 − 30% dark matter contributions, indicating
+uncertainty associated with the statistical background
+                                                                   that the stellar Υ⋆ values are smaller by a correspond-
+subtraction and systematic uncertainty assocated with
+                                                                   ing amount. While the contribution of dark matter in
+the completeness correction for the faint end of the lu-
+                                                                   Cappellari et al. (2006) can be up to 30% for individual
+minosity function. As noted in GZZ07, the derived lu-
+                                                                   systems, it is generally less for the slow rotators that best
+minosity is 12% lower if one assumes α = −1 instead
+                                                                   represent the most massive galaxies, and contribute sub-
+of α = −1.21. No strong dependence of the faint end
+                                                                   stantially to the total baryon fraction. In this paper we
+slope upon mass is expected even at group scales (e.g.
+                                                                   assume an average contribution of 15% dark matter, a
+Zandivarez & Martı́nez 2011), and so this assumption
+                                                                   change from GZZ07 in which we assumed a 0% contri-
+should yield no scale-dependent bias. We therefore es-
+                                                                   bution. The total impact of these limitations is expected
+timate a total uncertainty of 0.15 mag for the integrated
+                                                                   to be minor, as we discuss further in §5.4.1.
+magnitude of the cluster galaxy population. The de-
+                                                                      Cappellari et al. (2006) provide an empirical determi-
+rived luminosities and associated uncertainties for the
+                                                                   nation of Υ⋆ using Schwarzschild dynamical modelling of
+BCG+ICL and the total luminosity of the system are
+                                                                   two-dimensional kinematic data from SAURON. Equa-
+included in Table 3.
+                                                                   tion (9) in Cappellari et al. (2006) quantifies the lumi-
+                     4.2. Stellar Mass                             nosity dependence of Υ⋆ in the I−band, which is con-
+  Conversion of observed luminosity to stellar mass re-            sistent with more recent observations from ATLAS3D
+quires choosing an appropriate stellar mass-to-light ratio         (Cappellari, priv. comm). We use a similar method
+(Υ⋆ ) for the cluster galaxy population. While in prin-            as in GZZ07, computing a luminosity-weighted Υ⋆,I for
+ciple straightforward, in practice this is the least well          L > 0.25L∗ (the range over which the SAURON relation
+                                                                   is established) and using the same Christlein & Zabludoff
+  5     Based      upon      the     solar     spectrum     at     (2003) luminosity function. We then include a correction
+http://www.stsci.edu/hst/observatory/cdbs/calspec.html             for the estimated 15% dark matter contribution, deriv-
+                                                   Galaxy Cluster Baryon Fractions                                                              7
+
+                                                                  TABLE 3
+                                                         Observed Cluster Properties
+
+      Cluster        z          TX,2      LBCG+ICL           LT otal        r500          M500        Mgas,500     M⋆,2D,500     M⋆,3D,500
+                               (keV)       (1012 L⊙ )       (1012 L⊙ )     (Mpc)       (1014 M⊙ )    (1013 M⊙ )    (1013 M⊙ )    (1013 M⊙ )
+    Abell 0122    0.1134    3.65 ± 0.15    0.84 ± 0.03     2.57 ± 0.16    0.89 ± .03    2.26 ± .19   1.98 ± .21    0.68 ± .04     0.55 ± .03
+    Abell 1651    0.0845    6.10 ± 0.25    0.87 ± 0.09     3.11 ± 0.22    1.18 ± .03    5.15 ± .42   6.70 ± .32    0.82 ± .06     0.65 ± .05
+    Abell 2401    0.0571    2.06 ± 0.07    0.33 ± 0.01     1.30 ± 0.09    0.68 ± .02    0.95 ± .10   0.85 ± .09    0.35 ± .03     0.27 ± .02
+    Abell 2721    0.1144    4.78 ± 0.23    0.57 ± 0.01     2.81 ± 0.21    1.03 ± .03    3.46 ± .32   4.36 ± .57    0.74 ± .06     0.57 ± .04
+    Abell 2811    0.1079    4.89 ± 0.20    0.85 ± 0.14     2.13 ± 0.18    1.04 ± .03    3.59 ± .28   4.47 ± .17    0.56 ± .05     0.47 ± .04
+    Abell 2955    0.0943    2.13 ± 0.10    0.60 ± 0.03     1.33 ± 0.08    0.68 ± .04    0.99 ± .11   0.66 ± .05    0.35 ± .02     0.30 ± .02
+    Abell 2984    0.1042    2.08 ± 0.07    0.86 ± 0.03     1.72 ± 0.08    0.67 ± .01    0.95 ± .10   1.05 ± .08    0.46 ± .02     0.39 ± .02
+    Abell 3112    0.0750    4.54 ± 0.11    0.93 ± 0.05     3.33 ± 0.23    1.02 ± .02    3.23 ± .19   4.29 ± .16    0.88 ± .06     0.70 ± .04
+    Abell 3693    0.1237    3.63 ± 0.20    0.71 ± 0.07     2.42 ± 0.18    0.90 ± .03    2.26 ± .23   2.49 ± .15    0.64 ± .05     0.51 ± .04
+    Abell 4010    0.0963    3.78 ± 0.13    0.81 ± 0.12     2.65 ± 0.21    0.92 ± .02    2.41 ± .18   2.87 ± .11    0.70 ± .06     0.56 ± .05
+    Abell S0084   0.1100    3.75 ± 0.20    0.70 ± 0.02     2.46 ± 0.16    0.91 ± .03    2.37 ± .24   2.09 ± .16    0.65 ± .04     0.52 ± .03
+    Abell S0296   0.0696    2.70 ± 0.21    0.57 ± 0.01     1.30 ± 0.07    0.78 ± .04    1.45 ± .21   1.09 ± .10    0.35 ± .02     0.29 ± .01
+    Abell 0478    0.0881    7.09 ± 0.12        —               —         1.28 ± 0.03   6.58 ± 0.38   11.5 ± 0.8        —              —
+    Abell 2029    0.0773    8.41 ± 0.12        —               —         1.42 ± 0.03   8.71 ± 0.55   12.0 ± 0.4        —              —
+    Abell 2390    0.2329    10.6 ± 0.8         —               —         1.50 ± 0.07    11.8 ± 1.8   17.2 ± 1.0        —              —
+
+    Note. — Abell 0478, Abell 2029, and Abell 2390 are not part of the main sample. These clusters were included only in the X-ray analysis
+  to extend the baseline to higher mass, but have no photometry equivalent to the other systems with which to measure the stellar mass.
+  At the high mass end; however, the stellar component contributes a relatively small fraction of the total baryons. The luminosities include
+  appropriate e+k corrections for each galaxy from GZZ07. The stellar masses are quoted as observed, with no deprojection correction applied.
+
+ing Υ⋆,I = 2.65. This value lies between the median Υ⋆                                     5. RESULTS AND DISCUSSION
+derived for Chabrier and Salpeter IMFs via stellar popu-                   5.1. Stripping Efficiency: Partitioning of Stars between
+lation modelling in Leauthaud et al. (2012), and is 26%                                      the BCG+ICL and Galaxies
+lower than the value used in GZZ07 due to the combi-
+nation of the dark matter correction and a correction to                      Given the updated M500 and r500 determinations, we
+our previous Υ⋆ calculation. We note that the resultant                    first investigate what percentage of the cluster luminosity
+stellar masses are however only ∼ 13% lower than those                     is contained within the central BCG and ICL as a func-
+used in our previous work because the dark matter cor-                     tion of M500 . In GZZ07 we found a strong trend of the
+rection is offset by the change in the absolute magnitude                  BCG+ICL contributing a decreasing percentage of the
+of the Sun between the two papers. We use same the                         total cluster luminosity with increasing cluster velocity
+e + k corrections as in GZZ07 to account for passive evo-                  dispersion. In Figure 4 we show an updated version of
+lution between the redshifts of our clusters and that of                   this relation, comparing the original results with lumi-
+the Cappellari et al. (2006) sample, which lie at z < 0.01.                nosity fractions calculated within the r500 radii derived
+   One final consideration in deriving stellar mass is line                from the X-ray data. The main change is a modest flat-
+of sight projection. While the derived gas and total                       tening of the trend, as the percentages have decreased for
+masses are three-dimensional quantities, we measure the                    the lower dispersion systems and increased for the high-
+projected stellar mass within r500 . In most previous stud-                est mass systems. A fit to the data still however yields
+ies, including GZZ07, no attempt was made to deproject                     LBCG+ICL /LT otal ∝ σ −0.78±0.12 for r < r500 within the
+the stellar mass and derive an estimate of the total stellar               range of dispersions covered by this sample.
+mass enclosed within a three-dimensional sphere of ra-                        With the inclusion of the X-ray data, we can now also
+dius r500 . 6 For the current paper we compute both the                    move beyond velocity dispersion, which is a high-scatter
+observed and deprojected stellar masses, hereafter M⋆,2D                   proxy for cluster mass, and directly investigate the mass-
+and M⋆,3D , respectively. We calculate M⋆,3D using a sim-                  dependence of the fractional BCG+ICL contribution. In
+ilar approach to Sanderson et al. (2013). Specifically, we                 Figure 5 we plot the proportion of the total luminos-
+model the galaxy distribution using an NFW profile with                    ity within r500 that is contained in the BCG+ICL as
+c = 2.9 (Lin et al. 2004). For this concentration, 71% of                  a function of M500 . The trend in fractional BCG+ICL
+the galaxy stellar mass within a projected r500 lies within                contribution originally observed with velocity dispersion
+a sphere or radius r500 . We apply no deprojection cor-                    in GZZ07 is seen with M500 at comparable statisti-
+                                                                                                                            −0.37±0.06
+rection to the BCG+ICL, as the observed physical ex-                       cal significance, with LBCG+ICL /LT otal ∝ M500             .
+tent of the ICL is significantly less than r500 in all cases.              This trend has also been confirmed independently by
+This deprojection correction decreases the normalization                   searches for intracluster suernovae (McGee & Balogh
+of the stellar baryon fraction relation by ∼ 20%. In ad-                   2010; Sand et al. 2011). Low mass systems in our sample
+dition, because the importance of the galaxy population                    exhibit a substantially higher percentage of stars in the
+relative to the BCG+ICL increases with M500 , this cor-                    BCG+ICL than the most massive systems, with 40−50%
+rection has the greatest impact at high mass and also                      of the stellar luminosity contained in this component for
+acts to steepen the relation. We list both the projected                   M500 ≈ 1 × 1014 M⊙ . There is, however, one outlier
+and deprojected stellar masses in Table 3.                                 (A2955) at low mass and low BCG+ICL content from the
+                                                                           Sanderson et al. (2013) sample. While it is difficult to
+                                                                           draw strong conclusions based upon a single data point,
+  6 An exception is Giodini et al. (2009), in which the authors do         this group may be indicative of significant scatter in the
+apply a deprojection correction.                                           partitioning of stars between BCG+ICL and galaxies at
+8                                                             Gonzalez et al.
+
+
+
+
+                   0.5                                                                  0.5
+        Total
+                                                                                Total
+
+     /L            0.4                                                      /L          0.4
+
+       BCG + ICL
+                                                                                ICL
+
+                   0.3
+                                                                             +
+                                                                                BCG     0.3
+                                                                            L
+     L             0.2
+                          r <r500                                                       0.2    r <r    500
+                    200             500             1000                                           1                              10
+                                      −1
+                               σ (km s )                                                               M500 [1014 M ⊙]
+   Fig. 4.— Contribution of light within r500 contained by the             Fig. 5.— Fraction of light within r500 contained by the
+BCG+ICL as function of cluster velocity dispersion. The black          BCG+ICL as function of cluster mass. For the majority of low
+circles denote the values from GZZ07; the blue squares correspond      mass systems the BCG+ICL contribution to the total luminosity
+to the revised contribution based upon the new r500 values from our    is nearly comparable to that of the galaxy population.
+current work, including the groups from Sanderson et al. (2012).
+                                                                         If we only include the stellar baryons in the clus-
+low mass.                                                              ter galaxy population and the BCG+ICL contribution
+                                                                       within the inner 50 kpc (red, square data points), then we
+    5.2. Star Formation Efficiency: Partitioning of the                recover a slope, −0.79±0.05, which is approximately 2.5σ
+                         Stars and Gas                                 steeper than Zhang et al. (2011). Inclusion of the ICL
+                                                                       beyond 50 kpc slightly steepens this slope to −0.78±0.04
+   An important strength of the current data set is that               due to the larger fractional contribution of the ICL at
+it enables us to compare the stellar and gaseous masses                lower mass. The best fit relation is presented in Table
+for individual systems, thereby directly assessing how the             4 along with the best fit for M⋆,3D /Mgas , which has a
+efficiency with which baryons are converted to stars de-               comparable slope.
+pends upon cluster mass, as well as cluster-to-cluster                   The normalization of the relation confirms the claim
+scatter about the mean trend. Zhang et al. (2011) ex-                  in GZZ07 that the stellar component contributes nearly
+plore this question, albeit without inclusion of the ICL,              half of the total baryonic mass by group scales. The 17%
+using XMM and ROSAT data in combination with SDSS                      scatter about the best fit relation can be explained by
+photometry. The authors find a relatively strong depen-                a combination of the known observational uncertainties
+                            −0.537±0.101
+dence, M⋆,2D /Mgas ∝ M500                , within r500 with            and 12% intrinsic scatter. The physical implication of
+an intrinsic (physical) scatter of 29 ± 5%. In Figure 6 we             this low intrinsic scatter is that star formation efficiency
+present our measurement of this ratio, along with a com-               at a fixed cluster mass is quite uniform.
+parison to the best-fit relation from Zhang et al. (2011),
+which assumed a Salpeter IMF and used separate Υ⋆ for                  5.3. Stellar, Hot Gas, and Total Baryon Mass Fractions
+the star-forming and quiescent populations. For a pro-
+gram such as Zhang et al. (2011), which uses SDSS pho-                   The combination of X-ray and optical data described
+tometry for the BCG, we expect that ∼ 60% of the to-                   above enable us to conduct the first analysis of the
+tal light in the BCG+ICL will be missed.7 We therefore                 baryon mass fractions within r500 for a statistical sample
+also include points for which we have removed 60% of the               of clusters in which each system has direct determina-
+BCG+ICL stellar mass in our systems to enable a more                   tions of the stellar, intracluster, and dark matter contri-
+direct comparison of slopes between the two data sets.                 butions within comparable radii.
+We define this as the “50 kpc” case below. Residual dif-                                      5.3.1. Gas Mass Fraction
+ferences will be present in the normalizations due to the
+                                                                                                         b
+different treatments of the IMF and star-forming versus                  We fit the relation Mgas = aM500  , where Mgas is the
+quiescent populations, as well as to known biases in SDSS              gas mass within r500 using orthogonal distance regres-
+photometry for brightest cluster galaxies (Lauer et al.                sion. We list the best fit parameters in Table 4. The
+2007; Bernardi et al. 2007; Hyde & Bernardi 2009).8                    gas fractions derived in this paper yield a mass depen-
+                                                                       dence slightly steeper than the fiducial relation derived
+   7 Gonzalez et al. (2005) find that a 50 kpc aperture contains       from Vikhlinin et al. (2006) that was used in GZZ07.
+∼ 40% of the total light in the BCG+ICL. Magnitudes measured
+within this aperture are close to the Kron total magnitudes derived    derestimates due to oversubtraction of the sky in crowded re-
+for BCGs (e.g., Stott et al. 2010, found consistency to within 0.05    gions and for extended sources (Lauer et al. 2007; Bernardi et al.
+mag), so a 60% fractional reduction in the total luminosity should     2007; Hyde & Bernardi 2009), with Hyde & Bernardi (2009) find-
+be a reasonable estimate.                                              ing magnitude corrections of up to 30%. We make no attempt here
+   8 It has been pointed out by multiple authors that the SDSS         to exclude additional luminosity in our systems to match this effect
+magnitudes, such as those used by Zhang et al. (2011), are un-         in the SDSS photometry.
+                                                  Galaxy Cluster Baryon Fractions                                                           9
+                   1                                                                  1
+
+
+
+
+    M ⋆ ,2D/Mgas                                                       M ⋆ ,3D/Mgas
+               0.1      All Stars                                                 0.1      All Stars
+                        Excluding ICL                                                      Excluding ICL
+
+                                M500 M ⊙                                                           M500 M ⊙
+                         14                                      15                         14                                      15
+                       10                                     10                          10                                     10
+
+                                         [       ]                                                           [      ]
+  Fig. 6.— Ratio of stellar to gas mass as a function of M500 . The left panel shows the total stellar mass projected within r500 , while the
+right panel includes a deprojection correction (see §5.3.2). We plot this ratio for both the total stellar mass (BCG+ICL and cluster galaxies,
+blue filled circles) and the stellar mass contained only in the cluster galaxies and the BCG, excluding the ICL (red open squares). For
+comparison, we overplot as a dotted line the relation (with no deprojection correction) derived by Zhang et al. (2011), which did not include
+the ICL and assumed a Salpeter IMF in deriving stellar masses. Zhang et al. (2011) also did not apply a deprojection correction, so the
+lefthand panel is most directly comparable. For the cluster galaxy population, our data yield a slope slightly steeper than of Zhang et al.
+(2011), while the contribution of the ICL steepens the slope such that at M500 ≈ 1014 M⊙ the stars contribute ∼ 40% as much mass as
+the gas within r500 .
+The slope in GZZ07, which corresponds to b − 1, was                       relation to the current data (solid line) compared with
+0.20 ± 0.05; here we report 0.26 ± 0.03. The normaliza-                   the best fit relation from GZZ07 (dotted). In GZZ07 we
+tion of the relation is also 8% higher than the one derived               reported log f⋆,2D ∝ (−0.64 ± 0.13) log M500 . Here we
+from the data in Vikhlinin et al. (2006), which is consis-                find that a best orthogonal distance regression fit to the
+tent with the offset in total mass presented in Figure 2                  full new set of data points yields log f⋆,2D ∝ (−0.45 ±
+and §3. The uncertainty in the total masses due to both                   0.04) log M500 , shallower than the previous value by 1.5
+calibration and departures from hydrostatic equilibrium                   σ, but still significantly steeper than −0.3.
+is our largest source of systematic uncertainty in the gas                   One notable difference in the new stellar baryon frac-
+fractions. As discussed in section 5.4.2, the derived slope               tions relative to GZZ07 is that the current data are less
+is robust to this uncertainty.                                            consistent with a simple power-law fit with low scatter.
+                                                                          The few systems with M < 2 × 1014 have stellar baryon
+                   5.3.2. Stellar Mass Fraction                           fractions that on average lie below a simple extrapola-
+   While a steep decrease in stellar baryon fraction with                 tion of the trend observed at higher mass. The ratio of
+increasing cluster mass has been observed now by a num-                   stellar to gas mass however shows little scatter or de-
+ber of groups (e.g., GZZ07; Giodini et al. 2009; Andreon                  parture from a pure power law over the full mass range.
+2010; Zhang et al. 2011; Lin et al. 2012), the most re-                   Any departure from a simple power-law must be driven
+cent generation of simulations have difficulty reproduc-                  by either lower true total baryon fractions or by residual
+ing this trend (e.g., Kravtsov et al. 2009; Puchwein et al.               bias in the M500 determinations. We return to this point
+2010; Young et al. 2011). The much weaker mass de-                        below in the context of total baryon fractions.
+pendence found in these simulations, when coupled with                       The overall normalization of the stellar baryon fraction
+their matching of the gas fraction versus halo mass rela-                 relation (prior to deprojection) is similar to that in our
+tion, implies too weak a dependence of star formation                     previous work. While Υ⋆ is ∼ 13% lower than in GZZ07
+efficiency on M500 . Additionally, Balogh et al. (2008)                   (§4.2), the new M500 values largely offset this change.
+have argued on analytic grounds that slopes steeper that                  The X-ray data used in this analysis enables us to avoid
+α ∼ −0.3 are difficult to reconcile with hierarchical struc-              the conversion from σ to Tx to M500 via scaling relations
+ture formation in a ΛCDM cosmology — put simply, it                       as in GZZ07, which is a clear improvement.
+is hard to form clusters with low stellar baryon fractions                   The application of a deprojection correction to esti-
+through the assembly of lower mass systems with higher                    mate M⋆,3D is therefore the most significant change rela-
+stellar baryon fractions. In that study, the authors pos-                 tive to GZZ07. Because the BCG+ICL fraction decreases
+tulated that the GZZ07 results could potentially be rec-                  with M500 , deprojection slightly steepens the slope of the
+onciled with theoretical expectations if the velocity dis-                stellar baryon fraction relation (0.48 ± 0.04) in addition
+persion mass estimates were systematically biased for the                 to decreasing the overall normalization by ∼ 20% (Fig-
+lowest mass systems. The improved, independent masses                     ure 7). We list both the projected and deprojected stellar
+in our current work directly address this concern.                        mass relations in Table 4. We focus upon M⋆,3D in the
+   We present in Fig. 7 updated data for stellar baryon                   next section when considering the total baryon content
+fractions as a function of M500 . We overplot the best fit                within r500 . The largest source of systematic uncertainty
+10                                                                 Gonzalez et al.
+
+
+          0.06                                                                                      TABLE 4
+
+          0.05
+                                                                                            Derived Mj −M500 Relations
+                                           GZZ07
+          0.04                             Observed(2D)
+                                           Deprojected(3D)
+                                                                                     Component                a                    b
+                                                                                     M⋆,2D           3.9 ± 0.2 × 10−2        0.55 ± 0.04
+          0.03                                                                       M⋆,3D
+                                                                                     Mgas
+                                                                                                     3.2 ± 0.1 × 10−2
+                                                                                                     8.8 ± 0.3 × 10−2
+                                                                                                                             0.52 ± 0.04
+                                                                                                                             1.26 ± 0.03
+                                                                                     Mbary          1.17 ± 0.04 × 10−1       1.16 ± 0.04
+
+          0.02
+   f⋆                                                                                M⋆,2D /Mgas    4.75 ± 0.02 × 10−1      −0.82 ± 0.05
+                                                                                     M⋆,3D /Mgas    3.90 ± 0.02 × 10−1      −0.84 ± 0.04
+
+                                                                                    Note. — Best fit parameters for the relation Mj =
+                     r<r500                                                      a(M500 /1014 M⊙ )b , where Mj is the mass contained
+                                                                                 in each baryonic component. Mbary is derived using
+                                                                                 the deprojected stellar mass. The slope for the baryon
+          0.01                                                                   fraction relations is equivalent to 1 − b. We also include
+                                                                                 the best fit parameters for the stellar-to-gas mass ratios
+                                                                                 as a function of M500 . The relation for the gas mass
+
+
+                              M500 M ⊙
+                     14                                       15
+                  10                                         10                  is derived including the clusters from Vikhlinin et al.
+                                                                                 (2006), while the other relations are derived using only
+                                     [      ]                                    clusters with both gas and stellar mass data.
+
+  Fig. 7.— Stellar baryon fraction as a function of cluster mass for       contribution (Figure 10).
+the systems in our sample. The blue open circles denote the stellar          Systems with M . 2 × 1014 M⊙ show evidence for
+mass determined within a projected radius of r500 , and the solid
+line is the best fit to the dependence of observed stellar mass upon       larger scatter in fbary than do the higher mass systems,
+M500 over the range covered by the current data. The dotted line           with total baryon fractions ranging from 60 − 90% of the
+is the best fit relation from GZZ07. Our current results confirm           Universal value. This large scatter, which is also dis-
+the trend in the stellar baryon fraction from our previous paper.
+The green filled triangles correspond to the same data points after
+                                                                           cussed in Sanderson et al. (2013), is not however present
+applying a correction for projection effects to estimate the total         in the ratio of stellar to gas mass.9 Even if the total
+stellar baryon content within a sphere of radius r500 centered on          baryon fraction within a halo varies from the mean ex-
+the brightest cluster galaxy. This correction lowers the inferred          pectation, the division of baryons between hot and cold
+stellar baryon fractions by ∼ 20 percent, with the best fit in this
+case denoted by the dashed line.                                           components is relatively unaffected. Consequently, the
+                                                                           observed scatter must be due to either intrinsic variations
+in the stellar baryon fraction arises from uncertainty in                  in the total baryon content within r500 or remaining, un-
+the conversion from luminosity to stellar mass, which                      appreciated uncertainties in the derived M500 . While
+could change the normalization of the derived relation                     both the analyses in this work and in Sanderson et al.
+by up to 15% (see section 5.4.1). Uncertainty in the to-                   (2013) rely upon the same fundamental assumptions and
+tal mass is sub-dominant, having a minimal impact on                       include some of the same systems, the fact that both ob-
+the slope and normalization (see section 5.4.2).                           serve large scatter for low mass systems argues against
+                                                                           a large bias in M500 arising from details of the analysis
+              5.3.3. Total Baryon Mass Fraction
+                                                                           method.
+   The total baryon mass fractions within r500 for each                      The existence of some systems at low mass with baryon
+individual cluster are shown in the lower panel of Figure                  fractions as high as those of massive clusters raises the
+8 for a WMAP7 cosmology. Above 2 × 1014 M⊙ , the                           possibility that there exists a flat upper envelope of
+weighted mean baryon fraction for the current data (in-                    baryon fractions across all masses. If so, then the ob-
+cluding only systems with both stellar and gas masses)                     served weak trend could simply be due to smaller sys-
+is fbary = 0.136 ± 0.005, which is 18% below the Uni-                      tems being increasingly susceptible to baryon loss and
+versal value. For comparison, in GZZ07 we derived                          scattering downward from their initial baryon fractions.
+fbary = 0.133 ± 0.004. In GZZ07 we found that the                          Conversely, it may be that there is an intrinsic trend
+total baryon fraction was consistent with being indepen-                   of fbary with mass, but with increasing physical scatter
+dent of cluster mass. In contrast, the current data are                    with decreasing mass. We cannot currently distinguish
+consistent with a weak dependence of the baryon frac-                      between these alternatives.
+tion upon cluster mass (Table 4). The derived power
+law slope is 0.16 ± 0.04. The updated stellar masses and                              5.3.4. Impact of Cosmological Parameters
+deprojection correction have a minimal impact; the pri-                      To assess the impact of the choice of cosmologi-
+mary factor driving this change is the addition of X-ray                   cal model, we repeat our entire analysis using the
+data for use in deriving total and gas masses for indi-                    recently released cosmolgical parameters from Planck
+vidual systems. In contrast, the overall baryon fractions                  (Planck Collaboration et al. 2013) In Figure 9 we show
+are higher, and the trend with mass weaker, than found                     the gas, stellar, and total baryon mass fractions derived
+by Leauthaud et al. (2012) using an extended halo oc-                      using these parameters. The most striking difference rel-
+cupation distribution approach (HOD; see their Figure                      ative to Fig. 8 is the reduced offset between the clus-
+11). The similarity of our derived slope with the result                   ter total baryon mass fractions and the Universal value.
+of Giodini et al. (2009, 0.09 ± 0.03) is likely coincidental.
+The stellar mass fraction relation in that work, which                       9 The baryon fractions presented in this paper are typically ∼
+does not include the ICL, is high relative to most studies                 10% higher than those in Sanderson et al. (2013) due to differences
+by an amount similar to our estimated additional ICL                       between the X-ray analyses, but the scatter is similar.
+                                                  Galaxy Cluster Baryon Fractions                                                          11
+
+
+                                                                                                         WMAP7
+
+                          0.1                                                                            Gas
+
+            f ⋆ ,fgas
+                                                                                                         Stars
+
+                        0.01
+                                          r<r500
+                                      1014                                                                  1015
+                       0.15
+            fbary      0.10                                                                              Baryons
+                       0.05
+                                      1014                                                                  1015
+                                                                  M500 [M ⊙]
+  Fig. 8.— Stellar, gas, and total baryon fraction as a function of cluster mass for the systems in our sample. The stellar data (blue
+                                                                                                                       −0.48±0.04
+circles) include the deprojection correction, as discussed in the text. Our best fit to this stellar data is f⋆,3D ∝ M500         , confirming
+evidence for a steep slope in our previous work. The gas fractions (red triangles) are plotted for all systems including the massive clusters
+from Vikhlinin et al. (2006) for which we lack stellar fractions. The opposing trends for gas and stellar baryon fractions imply strongly
+decreasing star formation efficiency with increasing cluster mass. The total baryon fractions in the lower panel are plotted as black
+squares for all systems with stellar and gas data. We also include as red squares the gas fractions for the most massive clusters that
+lack stellar data; these are formally lower limits on the total baryon fractions, with stellar baryon fractions expected to be at the level of
+f⋆ ∼ 0.01 − 0.02. The total baryon fractions are consistent with a weak, but statistically significant dependence of the total baryon fraction
+                        0.16±0.04
+upon M500 (fbary ∝ M500           ) over the mass range where we have both stellar and gas measurements. This trend is driven primarily by
+the lower mass systems, for which we also see evidence of large scatter in the total baryon fractions. The weighted mean baryon fraction
+for the current data at M > 2 × 1014 M⊙ , fbary = 0.136 ± 0.005, is 18% below the Universal value.
+
+Above 2×1014 M⊙ , the weighted mean baryon fraction is                    the stellar and gas fractions are strong, inverse func-
+fbary = 0.144±0.005, which is only 7% below the Univer-                   tions of M500 , and demonstrated that the gas-to-stellar
+sal value from Planck. Meanwhile, the change in parame-                   baryon ratio is tightly correlated with M500 . We also find
+ters has minimal impact on either the derived slopes (see                 that the total baryon fraction is ∼ 17% (7%) below the
+Appendix), or on the scatter at lower mass, with total                    Universal values for systems with M500 & 2 × 1014 M⊙
+baryon fractions ranging from 65-100% of the Universal                    when using cosmological parameters from the WMAP7
+value from Planck.                                                        (Planck) analysis, with a weak but statistically signifi-
+                                                                          cant dependence upon M500 . We now assess the ampli-
+              5.4. Potential Systematic Biases                            tudes of biases that may affect the stellar, gas, and total
+                                                                          mass determinations within r500 , and consider the extent
+ In the preceeding sections we showed that the
+                                                                          to which they may alter our conclusions.
+BCG+ICL contribute appreciably to the total stellar lu-
+minosity, especially for low mass systems, confirmed that
+12                                                          Gonzalez et al.
+
+
+                                                                                                    PLANCK
+
+                        0.1                                                                         Gas
+
+           f ⋆ ,fgas
+                                                                                                    Stars
+
+                      0.01
+                                        r<r500
+                                    1014                                                               1015
+                      0.15
+           fbary      0.10                                                                          Baryons
+                      0.05
+                                    1014                                                               1015
+                                                               M500 [M ⊙]
+  Fig. 9.— Same as Fig. 8, but using the Planck cosmological parameters from (Planck Collaboration et al. 2013). The best fit slopes to
+the stellar and gas relations, which are provided in the Appendix, are minimally affected by the change in cosmology. The derived total
+baryon fractions however are closer to the Universal value when using the Planck cosmological parameters. The weighted mean baryon
+fraction for the current data at M > 2 × 1014 M⊙ , fbary = 0.144 ± 0.005, is only 7% below the Universal value.
+
+                     5.4.1. Stellar Mass                              lation models using an assumed spectral energy distri-
+                                                                      bution. This approach can either be done using single-
+   For the stellar masses, the two stages in which biases             band photometry and a mean conversion for the ensemble
+might arise are determination of the total luminosity and             galaxy population (Lin et al. 2003; Giodini et al. 2009;
+the conversion to stellar mass. As noted earlier, uncer-              Zhang et al. 2011; Laganá et al. 2011), or preferrably us-
+tainty in the faint end slope of the galaxy luminosity                ing multiband photometry to fit for stellar masses for
+function induces a 12% uncertainty in the integrated lu-              each individual cluster galaxy (Leauthaud et al. 2012).
+minosity of the galaxy population, which corresponds to               Deriving an independent Υ⋆ for each galaxy has the ad-
+a 5 − 8% uncertainty in the total luminosity including                vantage of making the integrated results insensitive to
+the BCG and ICL. The luminosity of the intracluster                   variations in the passive galaxy fraction from cluster to
+light can also be underestimated if there is a more ex-               cluster.
+tended component at very low surface brightness levels                  All Υ⋆ estimates based upon stellar population mod-
+that is not co-centric with the BCG. We see no evidence               els share a common weakness, however, which is that
+at higher surface brightness levels for such a component,             they are only as accurate as the underlying assumptions.
+but include the possibility here for completeness.                    Specifically, the derived Υ⋆ is strongly sensitive to as-
+   A more immediate concern, as mentioned in §4.2, is                 sumptions about the shape of the initial mass function
+the conversion of luminosity to stellar mass. There are               and to systematic uncertainties in the stellar population
+several approaches that one can take for this conversion.             models themselves (see e.g., Conroy et al. 2009, for a de-
+One approach is to derive Υ⋆ based upon stellar popu-
+                                                    Galaxy Cluster Baryon Fractions                                               13
+
+                                                                          Cappellari et al. (2006) found that the dark matter con-
+          0.06                                                            tribution can be up to 30% in individual systems for a
+          0.05            GZZ07 Lin03 Gio09 And10
+                          Zha11 Lag11 Lin12 Lea12
+                                                                          Kroupa IMF, but it is generally lower for slow rotators,
+                                                                          like the massive galaxies that contribute most to the total
+          0.04                   This Work (2D, ICL <50 kpc)              stellar mass.
+                                                                             A number of recent studies find evidence for IMFs
+          0.03                          This Work (2D)
+                                                                          as steep as, or steeper than, Salpeter in mas-
+                                                                          sive elliptical galaxies (Conroy & van Dokkum 2012;
+
+   Ω ⋆ /Ωm
+                                                                          van Dokkum & Conroy 2012; Cappellari et al. 2012),
+          0.02                                                            and other stellar systems (Zaritsky et al. 2012). The av-
+                                                                          erage contribution of 15% used in this paper is chosen
+                                                                          as the midpoint of values spanned by the range of in-
+                                                                          put assumptions. The associated systematic uncertainty
+                                                                          is therefore at most 15% even considering the impact of
+                                                                          the IMF. This remaining uncertainty changes the slope
+          0.01                                                            of the relation between total baryon mass and M500 by
+                                                                          < 1σ. Only if the IMF of cluster galaxies were correlated
+                   1014                                      1015
+                                M500 [M ⊙]
+                                                                          with M500 could one achieve a larger change in slope. Fu-
+                                                                          ture results from the ATLAS3D survey (Cappellari et al.
+                                                                          2011) should further reduce this systematic uncertainty.
+  Fig. 10.— Comparison of the stellar baryon fraction relations in           The impact of the star-forming population upon the
+the literature with our observed relations, which illustrates that our    mean Υ⋆ , which we have previously ignored, is a more
+∼ 25% higher normalization is due to the significant contribution
+of ICL beyond 50 kpc, which is generally not included in other            subtle issue. There are several factors to consider. First,
+studies. The increasing importance of ICL in low mass systems             if the star-forming fraction depends upon M500 then
+also acts to steepen the slope of the relation. We include published      this will induce a bias that scales with cluster mass,
+results from Lin et al. (2003, Lin03), Giodini et al. (2009, Gio09),
+Andreon (2010, And10), Zhang et al. (2011, Zha11), Laganá et al.         as noted by Leauthaud et al. (2012). Recent studies
+(2011, Lag11), Lin et al. (2012, Lin12), and Leauthaud et al.             yield somewhat contradictory results for this depen-
+(2012, Lea12). The Andreon (2010) relation is derived within r200 ,       dence. Both Finn et al. (2008) and Balogh & McGee
+while all others are within r500 . The Lin et al. (2003), GZZ07,          (2010) find that the fraction of star-forming galaxies is
+and Andreon (2010) mass-to-light ratios are based upon dynam-
+ical measurements, while the rest are shown for a Salpeter IMF.           nearly independent of mass from group to cluster scales,
+In the case of Lin et al. (2012), we have scaled the stellar mass up      while Weinmann et al. (2006) and Wetzel et al. (2012)
+by a factor of 1.34 to convert from Kroupa to Salpeter IMF, while         conclude that the passive fraction does increase with
+for Leauthaud et al. (2012) we have used the shaded region corre-         mass. For the mass range under consideration in this
+sponding to a Salpeter IMF from their Figure 5. For GZZ07 we
+have changed the mass-to-light ratio to match that used in this pa-       paper, M > 1014 M⊙ , the change is however minimal.
+per. The thick, solid black line is our observed relation within r500 .   For example, in Wetzel et al. (2012) the passive fraction
+If we approximately remove the contribution of the ICL beyond 50          increases by ∼ 5% between 1014 M⊙ and 1015 M⊙ for
+kpc, we recover a relation similar in both slope and normalization
+to most other published studies within r500 (“50 kpc” case; thick,        massive cluster galaxies (Mstellar & 5 × 1011 M⊙ ), with
+solid grey line). If we apply a deprojection correction to our ob-        a < 10% increase even for the lowest mass clusters in
+served relation, the resulting normalization is similar to that of the    that study. If we assume the extreme, limiting case of
+relation for the “50 kpc” case — the contribution from the ICL at         Υ⋆ = 0 for star-forming galaxies, then a 10% decrease
+larger radii and the amplitude of the deprojection correction are
+roughly equal and opposite. Both relations are inconsistent with          in the passive fraction changes the inferred Υ⋆ by only
+the Leauthaud et al. (2012) HOD results, particularly at low mass.        4% if the ICL contribution is still assumed to be purely
+                                                                          passive.
+                                                                             Second, the presence of star-forming galaxies in the
+tailed description of these uncertainties), which can re-                 cluster means that we will systematically overestimate
+sult in a significant mis-estimation of the stellar baryon                Υ⋆ because we are assuming a purely quiescent popula-
+fraction. Moreover, recent results from Cappellari et al.                 tion. To gauge the amplitude of this effect for our data we
+(2012) argue that the initial mass function is not univer-                use the formalism described in Lin et al. (2003). As in-
+sal, but rather is dependent upon galaxy mass — imply-                    puts to this calculation we take the true passive fraction
+ing a different conversion than under the assumption of                   among cluster galaxies to be ∼ 75% (Balogh & McGee
+a universal IMF.                                                          2010) and consider the BCG+ICL as an additional purely
+  An alternative approach is to estimate Υ⋆ using dy-                     passive stellar population, using the BCG+ICL fractions
+namical measurements of the central mass-to-light ratio                   in Fig. 5. We explore the impact of three values of
+for nearby galaxies. The dynamical approach, while less                   Υ⋆,I for the star-forming population: 0.5, 1, and 2. If
+sensitive to the IMF, is not entirely free of assumptions.                we weight by the relative contributions of the passive
+The measured dynamical mass includes both stellar and                     and star-forming stellar populations then the composite
+dark matter contributions, providing a direct observed                    Υ⋆,I decreases by 14%, 12%, and 7%, respectively. Re-
+upper limit on M⋆ . One must then estimate the frac-                      cently quenched galaxies will also have lower Υ⋆ than
+tional contribution of dark matter to the dynamical mass                  galaxies whose star formation ended earlier. The overall
+in the central regions of galaxies in order to estimate the               impact of this population is expected to be small given
+stellar mass-to-light ratio. The standard technique for                   the rarity of post-starburst galaxies in local clusters (e.
+estimating the dark matter fraction involves comparing                    g. Couch et al. 2001; Poggianti et al. 2004).
+the total dynamical mass with the stellar mass one infers                    Third, the Υ⋆ values in Cappellari et al. (2006) are
+from stellar population models. Using this technique,
+14                                                     Gonzalez et al.
+                                                                              −0.54
+derived for a sample of local galaxies. The galaxy clusters    to f⋆,3D ∝ M500      .
+in our sample lie at z ≃ 0.1, and evolution since z ∼ 0.1        Considering all of the above factors, the largest sys-
+acts to increase Υ⋆ with time. In our current analysis we      tematic uncertainties in our conversion to stellar mass
+make the approximation that this evolution is passive,         are clearly defined and impact our results at a level of
+as in GZZ07. Any residual systematic related to this           15%. We therefore consider this approach a robust al-
+evolutionary correction will be minor and subdominant          ternative to the use of stellar population models, which
+to other sources of systematic and statistical uncertainty.    have much larger systematic uncertainty arising from the
+  Another concern is that in our analysis we have              IMF. For the total baryon fraction this corresponds to a
+treated the BCG and ICL as having the same Υ⋆ as               maximum systematic uncertainty of < 5%, given that
+the luminosity-weighted value for the cluster population.      M⋆ /Mgas < 0.5 for all systems in our study.
+For the BCG, this approach likely underestimates Υ⋆ .            A final consideration is potential bias arising from ob-
+A BCG with a velocity dispersion of ∼ 300 km s−1 is            serving the projected stellar mass within r500 and apply-
+expected to have Υ⋆,I ≃ 4.8 based upon Cappellari et al.       ing a deprojection correction to estimate the true stel-
+(2006). In GZZ05 we found that the BCG typically con-          lar mass enclosed within a sphere of radius r500 . For
+tributes ∼ 10 − 20% of the total light in the BCG+ICL,         this correction we assume an NFW profile with a con-
+implying a net Υ⋆ for the BCG+ICL 8−16% higher than            centration c = 2.9 for the galaxy population (Lin et al.
+the value assumed here. Given that the fraction of light       2004), and apply no correction to the more compact
+in the BCG+ICL is < 50% (Figure 5), this corresponds           BCG+ICL component. As discussed in §5.3.2, this con-
+to a potential bias of < 10% for the total cluster stellar     centration implies that 71% of the stellar mass associated
+masses.                                                        with the galaxy population within a projected radius of
+  As for the ICL, which dominates the luminosity of the        r500 lies within a sphere of radius r500 . There are several
+BCG+ICL, using the same Υ⋆ as for the galaxy popula-           other estimates in the literature where the concentra-
+tion is a reasonable approximation if ICL predominantly        tion is measured in a similar fashion to Lin et al. (2004).
+originates from tidal stripping and tidal disruption of        Carlberg et al. (1997) found c ≃ 3.7 for CNOC clusters,
+cluster galaxies, consistent with theoretical predictions      while Budzynski et al. (2012) find c ≃ 2.6 using a sample
+(Purcell et al. 2007; Conroy et al. 2007; Behroozi et al.      of over 50,000 clusters and groups from the Sloan Digital
+2012; Watson et al. 2012; Contini et al. 2013). Obser-         Sky Survey. Notably, Budzynski et al. (2012) find that
+vational constraints on ICL color gradients support this       this concentration is approximately independent of clus-
+picture: the color of the ICL lies within the range found      ter mass over the mass range covered by our study, in-
+for the cluster galaxy population (Zibetti et al. 2005, De     dicating that any systematic uncertainty associated with
+Maio et al., in prep). The Υ⋆ of the ICL would need            the mass dependence of the concentration is subdomi-
+to differ from the luminosity-weighted Υ⋆ of the cluster       nant to the uncertainty in the overall normalization. The
+galaxy population by more than 30% for this to be the          Carlberg et al. (1997) and Budzynski et al. (2012) con-
+dominant systematic uncertainty, an implausible level          centration values would give fractions of 73% and 69%
+given current observational constraints.                       of the projected stellar mass lying within a sphere of ra-
+  Finally, one can ask whether there is any systematic         dius r500 , respectively. Thus, in the mean, the choice of
+uncertainty introduced by our methodology. As dis-             concentration value can induce a few percent bias in the
+cussed in §4, our approach has been to sum up the total        stellar mass associated with the galaxy population. The
+luminosity, apply a background correction, and then ap-        impact on the total stellar mass should thus be ∼ 1−2%,
+ply a single Υ⋆ weighted by a typical cluster luminosity       depending on the contribution of the BCG+ICL for a
+function. An alternate approach is to compute the stellar      given system.
+mass of each galaxy individually prior to the background
+subtraction, assuming that it lies at the cluster redshift.                    5.4.2. Gas Mass and M500
+  To assess the impact of the choice of methodology, we           As noted in §5.3.1, our gas fractions are on average
+have repeated our analysis with this alternate approach.       8% higher than those derived by Vikhlinin et al. (2006)
+For both the cluster and background regions, we assign         for the same systems. The gas fractions in general are
+each galaxy an Υ⋆ according to its magnitude using the         offset by a similar amount relative to the relation from
+Cappellari et al. (2006) relation and assuming that it lies    Vikhlinin et al. (2009) at high mass (M500 & 3 × 1014
+at the cluster redshift, and then subtract off the back-       M⊙ ), though they span a similar range at lower mass
+ground contribution. As before, we apply a complete-           as both the Vikhlinin et al. (2009) and Sun et al. (2009)
+ness correction to account for the contribution of cluster     data. The primary origin of this offset is expected be
+galaxies fainter than the magnitude limit of our data. For     the 8% smaller M500 values we derive from the XMM
+the BCG+ICL, we use Υ⋆ = 2.65 as in or main analysis.          data. This remaining systematic uncertainty in M500 is
+We again assume that all galaxies are quiescent, and re-       one of the two dominant systematic uncertainties in the
+fer the reader to the discussion above on the impact of        current analysis (the other being uncertainty in Υ⋆ ). As
+star-forming galaxies upon the integrated stellar mass.        discussed in §3.4, any residual systematic error in M500
+We find that this alternate approach yields total stellar      is to first order expected to be a constant fractional error
+masses that are on average 15% lower, corresponding to         independent of mass. It therefore should only impact the
+a systematic uncertainty comparable in amplitude to the        overall normalization of the gas fractions.
+uncertainty associated with the dark matter contribution          A related concern is whether there exists any system-
+in the Cappellari et al. (2006) relation. The slope of the     atic bias endemic in gas-based M500 measurements due
+stellar mass fraction relation meanwhile steepens by 1.5σ.     to departures from hydrostatic equilibrium. The ampli-
+                                                      −0.48    tude and direction of this systematic remains a topic of
+For the deprojected case it changes from f⋆,3D ∝ M500
+                                                               significant ongoing research activity. While simulations
+                                            Galaxy Cluster Baryon Fractions                                                    15
+
+by Lau et al. (2013) indicated that the bias should be
+at the few percent level, recent studies comparing weak                                 TABLE 5
+                                                                    Best Fit Parameters For Baryon Fraction Relations
+lensing and X-ray mass determinations within r500 do
+not yet unambiguously resolve this issue. Zhang et al.                  Source           Slope (b − 1)           comments
+(2010) find minimal offset for their full cluster ensemble,
+but a dichotomy between disturbed and relaxed clusters,          Lin et al. (2003)       −0.26 ± 0.09
+with the X-ray masses exceeding the lensing masses by            Lin et al. (2012)       −0.29 ± 0.04
+6% for disturbed systems and being 9% low for relaxed            Laganá et al. (2011)   −0.36 ± 0.17
+systems. (Mahdavi et al. 2013) meanwhile find that for           Giodini et al. (2009)   −0.37 ± 0.04
+their full sample the X-ray masses are low by 12% rel-           This paper              −0.38 ± 0.05    No ICL at r > 50 kpc (2D)
+                                                                 This paper              −0.45 ± 0.04     Including full ICL (2D)
+ative to lensing, but with the cool-core systems having          This paper              −0.48 ± 0.04     Including full ICL (3D)
+larger relative X-ray masses.                                    Zhang et al. (2011)     −0.49 ± 0.09
+   We consider this potential bias associated with the hy-       Andreon (2010)          −0.55 ± 0.09           Within r200
+drostatic equilibrium approximation to be an outstand-           GZZ07                   −0.64 ± 0.13     Including full ICL (2D)
+ing issue that may impact our M500 determinations by up
+to ∼ 15%. If, for example, our derived M500 (and hence            Note. — Slopes are sorted in order of decreasing value. All values
+                                                                are computed for r500 except for Andreon (2010).
+r500 ) are too low then Mgas and M⋆ will also be under-
+estimated due to their dependence on r500 . For a 15%
+increase in M500 , fgas and f⋆ should decrease by ∼ 8%          the inferred stellar baryon fraction that we would obtain
+and ∼ 3%, respectively (c.f. Sanderson et al. 2013). The        if we were to use a similar approach. Excluding 60% of
+slopes of the gas and stellar fraction relations are neg-       the BCG+ICL luminosity in this fashion yields a shal-
+                                                                                                            −0.38±0.05
+ligibly affected by such bias, regardless of whether the        lower stellar baryon relation, f⋆,2D ∝ M500            . This
+masses are biased high or low.                                  slope lies near the median of values derived in recent lit-
+   One final potential concern is that our stellar mass         erature within r500 which range from −0.26 to −0.49 (see
+measurements are derived in an aperture centered on the         Table 5 and Figure 10).
+BCG, while the gas and total masses are derived within             Second, Andreon (2010) derives the stellar baryon frac-
+an equivalent aperture about the centroid of the X-ray          tion within r200 rather than r500 , and derives a relation
+emission. In practice, this difference in centering has a       between stellar mass and M200 . This choice of aperture
+minimal impact on our results. As can be seen in Figure         clearly provides a more complete census of the stellar
+1, the offsets between the BCG and X-ray emission are           baryon content. It also mitigates the impact of not in-
+generally not large. For all but three clusters this offset     cluding the ICL, leading to a steeper slope that is con-
+is less than 20 kpc, while the maximum offset is 75 kpc         sistent with the slope we derive when including the ICL.
+for Abell S0296. As a consistency check, for the systems        Unfortunately, use of this radius means that the normal-
+with the largest offsets we recalculate the total baryon        ization is not directly comparable with our studies and
+fractions with common centers, finding that they change         others, which select r500 as a radius within which the gas
+by < 1% in all cases.                                           content can also be accurately measured. We still include
+                                                                the Andreon (2010) relation in Fig. 10, but emphasize
+          5.5. Comparison with Other Studies                    this key difference relative to other studies.
+  It is useful at this point to compare the stellar                Third, each of the studies listed uses a different Υ⋆ (or
+baryon fractions derived in this work with the liter-           in the case of Leauthaud et al. (2012) a distribution of Υ⋆
+ature to assess the level of consistency among differ-          values) and is based upon data sets at different redshifts.
+ent studies. In particular, we consider results from            As discussed above, the conversion from luminosity to
+Lin et al. (2003), Giodini et al. (2009), Andreon (2010),       stellar mass is easily the dominant source of systematic
+Laganá et al. (2011), Zhang et al. (2011), Lin et al.          uncertainty.
+(2012), and Leauthaud et al. (2012). These studies use             We make a best attempt in Figure 10 to compare the
+a range of techniques to quantify the stellar baryon frac-      various studies on relatively equal footing. In this Fig-
+tion, each with different associated systematics, and thus      ure we show the literature results for a Salpeter (1955)
+the ensemble provides an indication of the overall uncer-       IMF for those studies based upon stellar population mod-
+tainty in cluster stellar baryon fractions. To enable as fair   els. In the case of Lin et al. (2012), which is based
+a comparison as possible, it is worthwhile to consider the      upon a Kroupa (2001) IMF, we use the prescription in
+key ways in which the methods differ.                           their paper (multiplying by a factor of 1.34) to con-
+  There are three key issues. First, this paper and             vert to a Salpeter IMF. Those studies that use dynam-
+GZZ07 are the only studies that directly consider the           ical Υ⋆ values are plotted as published (Lin et al. 2003;
+contribution of the ICL to the stellar baryon con-              Gonzalez et al. 2007; Andreon 2010). We also plot the
+tent. The other studies do include the BCG, either              band derived from the extended HOD formalism in Fig-
+directly (Lin et al. 2003; Giodini et al. 2009; Andreon         ure 5 of Leauthaud et al. (2012) for a Salpeter IMF,
+2010; Laganá et al. 2011; Zhang et al. 2011; Lin et al.        where the width of the band reflects associated system-
+2012), or by virtue of an extended HOD formalism                atic uncertainties. We note that the stellar masses used
+(Leauthaud et al. 2012). If we make the rough approx-           by Giodini et al. (2009) have subsequently been found
+imation that the BCG magnitudes in these papers cor-            to be biased high (Leauthaud et al. 2012; Giodini et al.
+respond to the total light enclosed within the central 50       2012), contributing to the relatively high normalization
+kpc, then the BCG luminosities will include ∼ 40% of the        of that relation.
+combined BCG+ICL luminosity (Gonzalez et al. 2005).                While there are several relations that are outliers rel-
+For direct comparison with previous studies we calculate        ative to the ensemble, we recover a normalization and
+16                                                      Gonzalez et al.
+
+slope that approximate the median of the literature val-              The current data are less consistent with a sim-
+ues if we exclude the fraction of the ICL that is expected            ple power-law fit with low scatter than our previ-
+to be missed by these studies. Our total stellar baryon               ous data. In particular, the stellar baryon frac-
+fraction relation including the ICL remains similar in                tions at M < 2 × 1014 M⊙ on average are lower
+amplitude to the relation in GZZ07. When we add a de-                 than expected from a simple extrapolation of the
+projection correction to the stellar mass, which was not              trend observed at higher mass. The limited exist-
+done in GZZ07, the resultant normalization is similar to              ing data however make any firm conclusions pre-
+that of the “50 kpc” relation plotted in Figure 10, which             mature. We also recover a scaling relation for the
+excludes the contribution of the ICL beyond 50 kpc from                                  0.26±0.03
+                                                                      hot gas, fgas ∝ M500         , with a slope similar to
+the BCG — the ICL contribution and deprojection cor-                  that of the relation used in our previous work and
+rection are roughly equal and opposite in amplitude.                  consistent with other determinations in the litera-
+  It is clear that the Leauthaud et al. (2012) extended               ture.
+HOD results are significantly lower than direct f⋆ deter-
+minations, particularly at low mass where the inclusion            2. The combination of brightest cluster galaxy plus in-
+of the ICL further exacerbates this tension (though at                tracluster light is confirmed to contain an decreas-
+even lower mass scales they are consistent with the di-               ing fraction of the total luminosity within r500 with
+rect measurements in Leauthaud et al. (2012)). This fact              increasing cluster mass. For systems with M500 ≈
+was discussed in Leauthaud et al. (2012) in the context               1014 M⊙ , the BCG+ICL together typically con-
+of a comparison with GZZ07 and Giodini et al. (2009).                 tribute 40-50% of the total luminosity within r500 .
+Leauthaud et al. (2012) suggested that the offset be-                 As discussed in GZZ07, the decrease in the impor-
+tween their work and the GZZ07 results is due to use                  tance of the BCG+ICL, and particularly the ICL,
+of an excessively large Υ⋆ in GZZ07. In this paper we                 with increasing cluster mass is consistent with less
+have carefully recalculated the dynamical Υ⋆ values, re-              efficient tidal stripping and disruption of galaxies in
+considering all assumptions to assess the level of remain-            the more massive systems. We do note that one of
+ing systematic uncertainties. While the value of Υ⋆ used              the M500 ≈ 1014 M⊙ clusters from Sanderson et al.
+in this paper is 26% lower than in GZZ07 the offset with              (2013) has a lower BCG+ICL luminosity fraction
+Leauthaud et al. (2012) remains despite our efforts to                that is similar to more massive systems. This sys-
+place all studies on equal footing. The reason for this               tem suggests that there may be significant scatter
+tension is unclear, but certainly warrants further inves-             in the BCG+ICL luminosity fraction at this mass
+tigation.                                                             scale, but a larger sample will be required to clarify
+                                                                      this point.
+                    6. CONCLUSIONS
+  The central goal of this paper is to extend the main             3. The partitioning of baryons between stars and
+results from Gonzalez et al. (2007) using a sample for                gas within r500 , a measure of the integrated effi-
+which we possess total, gas, and stellar mass measure-                ciency with which baryons are converted to stars,
+ments for each cluster. The combination of these mea-                 is strongly correlated with M500 . Our results for
+surements for individual systems addresses the two main               the galaxy population, excluding ICL beyond 50
+weaknesses of our previous analysis: the lack of robust               kpc from the BCG, yield a relation, M⋆,2D /Mgas ∝
+cluster mass estimates used to derive the stellar mass                   −0.79±0.05
+                                                                      M500          . This power law slope is 2.5σ steeper
+scaling relation and the use of disjoint data sets for the            than that found by Zhang et al. (2011). While dif-
+gas and stellar mass measurements. As a result, the                   ferences in the X-ray analyses may contribute, we
+total baryon fractions in GZZ07 were based upon scal-                 cannot identify any single reason for this 2.5σ dif-
+ing relations rather than derived for individual systems.             ference. Inclusion of the entire contribution from
+Here we present an analysis of the total baryon fraction              the ICL, which constitutes a greater fraction of the
+within r500 for a sample of clusters with complete data on            stellar mass at low cluster mass, and applying a
+the intracluster medium and stellar component. These                  deprojection correction both further steepen this
+data also enable a direct comparison of the partitioning              slope, yields M⋆,3D /Mgas ∝ M500  −0.82±0.05
+                                                                                                                   . If the
+of baryons between gas and stars for individual systems               observed trend continues to lower mass, then the
+and for stars between galaxies and the brightest cluster              stellar contribution may be > 50% on mass scales
+galaxy plus intracluster light (BCG+ICL) component.                   M500 . 3 × 1013 M⊙ .
+Our central findings are:
+                                                                   4. The derived relations for M⋆,2D /Mgas and
+   1. We confirm the trend of steeply decreasing stel-                M⋆,3D /Mgas versus M500 demonstrate a stronger
+      lar mass fraction with cluster mass seen in GZZ07,              dependence of star formation efficiency upon clus-
+      which has now been verified by multiple groups                  ter mass than the most recent generation of nu-
+      for the cluster galaxy population without inclu-                merical simulations are able to reproduce (e.g.,
+      sion of intracluster light (−0.3 & α & −0.55, Table             Puchwein et al. 2010; Young et al. 2011). For the
+      5; Giodini et al. 2009; Andreon 2010; Zhang et al.              M⋆,3d /Mgas − M500 relation we derive an intrinsic
+      2011; Lin et al. 2012). Our best fit to the current             scatter of only 12%. This low scatter in the stellar-
+                                      −0.45±0.04
+      data has a scaling f⋆,2D ∝ M500            , including          to-gas mass relation implies that the star forma-
+      the BCG+ICL; if we exclude the fraction of the                  tion efficiency at a fixed cluster mass scale is quite
+      ICL that we expect is typically missed by other                 uniform. It further argues that in the f∗ −M500 re-
+                                            −0.38±0.05
+      studies, then we recover f⋆,2D ∝ M500             with          lation any departure from a power law at low mass
+                                        14
+      a 26% lower normalization at 10 M⊙ (Figure 10).                 must be attributed to either the M500 determina-
+                                                Galaxy Cluster Baryon Fractions                                                   17
+
+      tions or changes in the total baryon content rather                  IMF at all mass scales will yield inherently biased
+      than to variations in the star formation efficiency.                 estimates of Υ⋆ .
+   5. For systems with M500 ≥ 2 × 1014 M⊙ , the aver-                      For M500 both instrumental calibration and de-
+      age total baryon fraction is fbary = 0.136 ± 0.005,                  partures from hydrostatic equilibrium are poten-
+      18% below the Universal value for the WMAP7                          tial sources of bias. We note that our derived
+      cosmology. Use of the Planck cosmological pa-                        M500 are systematically lower than those from
+      rameters raises the derived total baryon fraction                    Vikhlinin et al. (2006) by 8%, providing an approx-
+      to fbary = 0.144 ± 0.005 for these systems, which                    imate estimate of the magnitude of calibration un-
+      at only 7% below the Universal baryon fraction is                    certainty. As discussed in the text, literature com-
+      consistent with this Universal value to within the                   parisons also indicate that weak lensing M500 de-
+      current systematic uncertainties For this Planck                     terminations may be up to 15% higher than X-ray
+      cosmology there are essentially no missing baryons                   values. The net impact of a bias of this magni-
+      within r500 for massive galaxy clusters. In GZZ07,                   tude would be to decrease fgas and f⋆ by ∼ 8%
+      we concluded that the total baryon fraction was                      and ∼ 3% respectively, thus decreasing the total
+      consistent with being independent of halo mass on                    baryon fraction by a comparable amount. All other
+      group to cluster scales. With the present, improved                  quantitative conclusions in this paper, including
+      data, we now see a modest increase with mass of                      the slopes in the gas, stellar, and baryon fraction
+                                            0.16±0.04
+      the total baryon fraction, fbary ∝ M500         . Be-                relations, are robust to this level of uncertainty in
+                  14
+      low 2 × 10 M⊙ , our results suggest an increas-                      the total mass.
+      ing physical spread in the total baryon fraction
+      among systems (see also Sanderson et al. 2013),                  Given that our new data set provides the most com-
+      with fractions ranging from 60-90% (65-100%) of                plete census to date of the hot and cold baryons, the
+      the WMAP7 (Planck) Universal value. Such a vari-               central remaining questions are the detailed properties
+      ation could arise in a number of ways, including               of lower mass groups and the redshift evolution of the
+      variance in the initial conditions or redistribution           baryonic components. Sanderson et al. (2012) provides
+      of baryons to beyond r500 . However, the relative              a first step towards addressing the former, while we are
+      tightness of the M⋆ /Mgas relation, even at these              using the capability of the HST /WFC3 camera IR chan-
+      lower halo masses, suggests that this scatter must             nel in conjunction with X-ray data from Chandra and
+      arise in a fashion that affects both the stellar and           XMM to explore the redshift evolution (programs 12575
+      gaseous components equally, arguing against late-              and 12634) .
+      time hydrodynamic redistribution (e.g., via feed-
+      back) of some baryons beyond r500 .
+                                                                        The authors thank Alastair Sanderson, Trevor Pon-
+   6. Uncertainties associated with the conversion of lu-            man, Alexie Leauthaud, and Kevin Bundy for extensive
+      minosity to stellar mass, and with the X-ray de-               discussions pertaining to this project, and are also grate-
+      rived M500 , are the most important sources of sys-            ful to Alexie Leauthaud and Yu-Ying Zhang for provid-
+      tematic uncertainty for the derived stellar baryon             ing data from their papers. We greatly appreciate the
+      fractions. The assorted systematics associated with            efforts of the anonymous referee, whose suggestions re-
+      the conversion to stellar mass are present at the              sulted in an improved paper. AHG thanks Carnegie Ob-
+      level of ∼ 15%. We advocate use of dynamical                   servatories and IPAC for their hospitality while working
+      estimates for Υ⋆ due to the minimal required as-               on this paper, and acknowledges support from the Na-
+      sumptions, and advise caution in interpreting re-              tional Science Foundation through grant NSF-1108957.
+      sults that rely on Υ⋆ values derived using stellar             SS acknowledges the Dunlap Institute for Astronomy
+      population models, for which the choice of IMF                 and Astrophysics for funding him through the Dun-
+      can change the inferred stellar mass by nearly a               lap Fellowship program. AIZ and DZ thank the Max-
+      factor of two (e.g., Leauthaud et al. 2012). Addi-             Planck-Institut für Astronomie and the Center for Cos-
+      tionally, the recent Cappellari et al. (2011, 2013)            mology and Particle Physics at NYU for their hospital-
+      results suggest variation in the shape of the initial          ity and support. AIZ also acknowledges support through
+      mass function, and hence Υ⋆ , with galaxy mass. If             NASA grants NNX08AX81G and NNX08AC68G associ-
+      correct, then current analyses that presume a single           ated with XMM observations.
+
+                                                             REFERENCES
+Allen, S. W., Rapetti, D. A., Schmidt, R. W., Ebeling, H., Morris,   Blanton, M. R. et al. 2003, ApJ, 592, 819
+  R. G., & Fabian, A. C. 2008, MNRAS, 383, 879, 0706.0033            Bryan, G. L. 2000, ApJ, 544, L1, arXiv:astro-ph/0009286
+Andreon, S. 2010, MNRAS, 407, 263, 1004.2785                         Budzynski, J. M., Koposov, S. E., McCarthy, I. G., McGee, S. L.,
+Balogh, M. L., McCarthy, I. G., Bower, R. G., & Eke, V. R. 2008,       & Belokurov, V. 2012, MNRAS, 423, 104, 1201.5491
+  MNRAS, 385, 1003, 0801.0990                                        Cappellari, M. et al. 2006, MNRAS, 366, 1126, astro-ph/0505042
+Balogh, M. L., & McGee, S. L. 2010, MNRAS, 402, L59,                 ——. 2011, MNRAS, 413, 813, 1012.1551
+  0912.0938                                                          ——. 2012, Nature, 484, 485, 1202.3308
+Behroozi, P. S., Wechsler, R. H., & Conroy, C. 2012, ArXiv           ——. 2013, MNRAS, 432, 1862, 1208.3523
+  e-prints, 1207.6105                                                Carlberg, R. G., Yee, H. K. C., & Ellingson, E. 1997, ApJ, 478,
+Bennett, C. L. et al. 2012, ArXiv e-prints, 1212.5225                  462
+Bernardi, M., Hyde, J. B., Sheth, R. K., Miller, C. J., & Nichol,    Cavaliere, A., & Fusco-Femiano, R. 1978, A&A, 70, 677
+  R. C. 2007, AJ, 133, 1741, arXiv:astro-ph/0607117
+18                                                            Gonzalez et al.
+
+Christlein, D., & Zabludoff, A. I. 2003, ApJ, 591, 764,               Nevalainen, J., David, L., & Guainazzi, M. 2010, A&A, 523, A22,
+  astro-ph/0304031                                                      1008.2102
+Conroy, C., Gunn, J. E., & White, M. 2009, ApJ, 699, 486,             Peebles, P. J. E. 1993, Principles of Physical Cosmology
+  0809.4261                                                           Planck Collaboration et al. 2013, ArXiv e-prints, 1303.5076
+Conroy, C., & van Dokkum, P. G. 2012, ApJ, 760, 71, 1205.6473         Poggianti, B. M., Bridges, T. J., Komiyama, Y., Yagi, M., Carter,
+Conroy, C., Wechsler, R. H., & Kravtsov, A. V. 2007, ApJ, 668,          D., Mobasher, B., Okamura, S., & Kashikawa, N. 2004, ApJ,
+  826, arXiv:astro-ph/0703374                                           601, 197, arXiv:astro-ph/0309449
+Contini, E., De Lucia, G., Villalobos, A., & Borgani, S. 2013,        Puchwein, E., Springel, V., Sijacki, D., & Dolag, K. 2010,
+  MNRAS                                                                 MNRAS, 406, 936, 1001.3018
+Couch, W. J., Balogh, M. L., Bower, R. G., Smail, I., Glazebrook,     Purcell, C. W., Bullock, J. S., & Zentner, A. R. 2007, ApJ, 666,
+  K., & Taylor, M. 2001, ApJ, 549, 820, arXiv:astro-ph/0010505          20, arXiv:astro-ph/0703004
+Finn, R. A., Balogh, M. L., Zaritsky, D., Miller, C. J., & Nichol,    Salpeter, E. E. 1955, ApJ, 121, 161
+  R. C. 2008, ApJ, 679, 279, 0802.2282                                Sand, D. J. et al. 2011, ApJ, 729, 142, 1011.1310
+Giodini, S. et al. 2012, A&A, 538, A104, 1111.1729                    Sanderson, A. J. R., O’Sullivan, E., Ponman, T. J., Gonzalez,
+——. 2009, ApJ, 703, 982, 0904.0448                                      A. H., Sivanandam, S., Zabludoff, A. I., & Zaritsky, D. 2013,
+Gonzalez, A. H., Zabludoff, A. I., & Zaritsky, D. 2005, ApJ, 618,       MNRAS, 429, 3288, 1212.1613
+  195                                                                 Simionescu, A. et al. 2011, Science, 331, 1576, 1102.2429
+Gonzalez, A. H., Zaritsky, D., & Zabludoff, A. I. 2007, ApJ, 666,     Sivanandam, S., Zabludoff, A. I., Zaritsky, D., Gonzalez, A. H., &
+  147, 0705.1726                                                        Kelson, D. D. 2009, ApJ, 691, 1787, 0810.1272
+Hyde, J. B., & Bernardi, M. 2009, MNRAS, 394, 1978, 0810.4922         Snowden, S. L., Mushotzky, R. F., Kuntz, K. D., & Davis, D. S.
+Komatsu, E. et al. 2011, ApJS, 192, 18, 1001.4538                       2008, A&A, 478, 615, 0710.2241
+Kravtsov, A. et al. 2009, in Astronomy, Vol. 2010, astro2010: The     Stott, J. P. et al. 2010, ApJ, 718, 23, 1005.4681
+  Astronomy and Astrophysics Decadal Survey, 164, 0903.0388           Sun, M., Voit, G. M., Donahue, M., Jones, C., Forman, W., &
+Kroupa, P. 2001, MNRAS, 322, 231, arXiv:astro-ph/0009005                Vikhlinin, A. 2009, ApJ, 693, 1142, 0805.2320
+Laganá, T. F., Lima Neto, G. B., Andrade-Santos, F., &               van Dokkum, P. G., & Conroy, C. 2012, ApJ, 760, 70, 1205.6471
+  Cypriano, E. S. 2008, A&A, 485, 633, 0804.1102                      Vikhlinin, A. et al. 2009, ApJ, 692, 1033, 0805.2207
+Laganá, T. F., Zhang, Y.-Y., Reiprich, T. H., & Schneider, P.        Vikhlinin, A., Kravtsov, A., Forman, W., Jones, C., Markevitch,
+  2011, ApJ, 743, 13, 1108.3678                                         M., Murray, S. S., & Van Speybroeck, L. 2006, ApJ, 640, 691,
+Lau, E. T., Nagai, D., & Nelson, K. 2013, ArXiv e-prints,               astro-ph/0507092
+  1306.3993                                                           Watson, D. F., Berlind, A. A., & Zentner, A. R. 2012, ApJ, 754,
+Lauer, T. R. et al. 2007, ApJ, 662, 808, arXiv:astro-ph/0606739         90, 1201.2407
+Leauthaud, A. et al. 2012, ApJ, 746, 95, 1109.0010                    Weinmann, S. M., van den Bosch, F. C., Yang, X., & Mo, H. J.
+Lin, Y.-T., Mohr, J. J., & Stanford, S. A. 2003, ApJ, 591, 749,         2006, MNRAS, 366, 2, arXiv:astro-ph/0509147
+  astro-ph/0304033                                                    Wetzel, A. R., Tinker, J. L., & Conroy, C. 2012, MNRAS, 3128,
+——. 2004, ApJ, 610, 745, astro-ph/0402308                               1107.5311
+Lin, Y.-T., Stanford, S. A., Eisenhardt, P. R. M., Vikhlinin, A.,     White, S. D. M., & Frenk, C. S. 1991, ApJ, 379, 52
+  Maughan, B. J., & Kravtsov, A. 2012, ApJ, 745, L3, 1112.1705        Young, O. E., Thomas, P. A., Short, C. J., & Pearce, F. 2011,
+Mahdavi, A., Hoekstra, H., Babul, A., Bildfell, C., Jeltema, T., &      MNRAS, 413, 691, 1007.0887
+  Henry, J. P. 2013, ApJ, 767, 116, 1210.3689                         Zandivarez, A., & Martı́nez, H. J. 2011, MNRAS, 415, 2553,
+Mancone, C., & Gonzalez, A. H. 2012, PASP, submitted                    1012.3445
+McCarthy, I. G., Babul, A., Bower, R. G., & Balogh, M. L. 2008,       Zaritsky, D., Colucci, J. E., Pessev, P. M., Bernstein, R. A., &
+  MNRAS, 386, 1309, 0706.2768                                           Chandar, R. 2012, ArXiv e-prints, 1209.3788
+McCarthy, I. G., Schaye, J., Bower, R. G., Ponman, T. J., Booth,      Zhang, Y.-Y., Laganá, T. F., Pierini, D., Puchwein, E., Schneider,
+  C. M., Dalla Vecchia, C., & Springel, V. 2011, MNRAS, 412,            P., & Reiprich, T. H. 2011, A&A, 535, A78, 1109.0390
+  1965, 1008.4799                                                     Zhang, Y.-Y. et al. 2010, ApJ, 711, 1033, 1001.0780
+McGee, S. L., & Balogh, M. L. 2010, MNRAS, 403, L79,                  Zibetti, S., White, S. D. M., Schneider, D. P., & Brinkmann, J.
+  0912.3455                                                             2005, MNRAS, 358, 949
+McNamara, B. R., & Nulsen, P. E. J. 2007, ARA&A, 45, 117,
+  0709.2152
+——. 2012, New Journal of Physics, 14, 055023, 1204.0006
+Nagai, D., Kravtsov, A. V., & Vikhlinin, A. 2007, ApJ, 668, 1,
+  arXiv:astro-ph/0703661
+
+                                                              APPENDIX
+
+  The Planck first year results were released shortly after submission of this paper (Planck Collaboration et al. 2013).
+In the paper we discuss the impact on our results of changing from a WMAP7 to Planck cosmology, but retain WMAP7
+as the fiducial cosmological model. In this Appendix we also provide versions of the main Tables from the paper for
+the Planck cosmological parameters.
+                                                 Galaxy Cluster Baryon Fractions                                                              19
+
+                                                           TABLE 6
+                                          Derived Mass Fractions for Planck Cosmology
+                                                           (r <r500 )
+
+                                           Cluster          fgas          fstellar        fbaryons
+
+                                         Abell 0122     0.094 ± .013    0.026 ± .003     0.120 ± .013
+                                         Abell 1651     0.139 ± .013    0.012 ± .001     0.151 ± .013
+                                         Abell 2401     0.095 ± .014    0.026 ± .003     0.121 ± .014
+                                         Abell 2721     0.134 ± .021    0.016 ± .002     0.150 ± .021
+                                         Abell 2811     0.132 ± .011    0.013 ± .002     0.145 ± .012
+                                         Abell 2955     0.071 ± .010    0.031 ± .004     0.103 ± .011
+                                         Abell 2984     0.117 ± .015    0.041 ± .005     0.159 ± .016
+                                         Abell 3112     0.142 ± .010    0.022 ± .002     0.163 ± .010
+                                         Abell 3693     0.117 ± .014    0.024 ± .003     0.141 ± .014
+                                         Abell 4010     0.127 ± .011    0.023 ± .003     0.150 ± .012
+                                         Abell S0084    0.094 ± .012    0.024 ± .003     0.118 ± .011
+                                         Abell S0296    0.081 ± .013    0.020 ± .003     0.101 ± .014
+                                         Abell 0478     0.185 ± .017         —                —
+                                         Abell 2029     0.139 ± .010         —                —
+                                         Abell 2390     0.153 ± .025         —                —
+
+                                          Note. — The quoted stellar baryon fractions include a de-
+                                        projection correction, as discussed in the text.
+
+
+
+
+                                                           TABLE 7
+                                        Observed Cluster Properties for Planck Cosmology
+
+   Cluster         z          TX,2       LBCG+ICL         LT otal         r500            M500        Mgas,500    M⋆,2D,500    M⋆,3D,500
+                             (keV)        (1012 L⊙ )     (1012 L⊙ )      (Mpc)         (1014 M⊙ )    (1013 M⊙ )   (1013 M⊙ )   (1013 M⊙ )
+ Abell 0122     0.1134    3.65 ± 0.15     0.91 ± 0.04   2.87 ± 0.18     0.93 ± .03      2.35 ± .20   2.20 ± .23   0.76 ± .05    0.61 ± .04
+ Abell 1651     0.0845    6.10 ± 0.25     0.93 ± 0.09   3.17 ± 0.23     1.23 ± .03      5.37 ± .43   7.45 ± .35   0.84 ± .06    0.67 ± .05
+ Abell 2401     0.0571    2.06 ± 0.07     0.35 ± 0.01   1.23 ± 0.08     0.71 ± .03      0.99 ± .11   0.95 ± .10   0.33 ± .02    0.26 ± .02
+ Abell 2721     0.1144    4.78 ± 0.23     0.61 ± 0.01   2.82 ± 0.20     1.07 ± .03      3.60 ± .33   4.82 ± .63   0.75 ± .05    0.58 ± .04
+ Abell 2811     0.1079    4.89 ± 0.20     0.91 ± 0.15   2.12 ± 0.18     1.08 ± .03      3.73 ± .29   4.94 ± .19   0.56 ± .05    0.47 ± .04
+ Abell 2955     0.0943    2.13 ± 0.10     0.64 ± 0.04   1.46 ± 0.08     0.71 ± .03      1.03 ± .12   0.74 ± .05   0.39 ± .02    0.32 ± .02
+ Abell 2984     0.1042    2.08 ± 0.07     0.92 ± 0.03   1.79 ± 0.09     0.70 ± .02      0.99 ± .10   1.16 ± .09   0.48 ± .02    0.41 ± .02
+ Abell 3112     0.0750    4.54 ± 0.11     0.98 ± 0.05   3.45 ± 0.23     1.06 ± .02      3.37 ± .20   4.77 ± .18   0.92 ± .06    0.73 ± .04
+ Abell 3693     0.1237    3.63 ± 0.20     0.76 ± 0.08   2.74 ± 0.20     0.93 ± .03      2.36 ± .24   2.76 ± .16   0.73 ± .05    0.57 ± .04
+ Abell 4010     0.0963    3.78 ± 0.13     0.87 ± 0.13   2.68 ± 0.21     0.95 ± .02      2.51 ± .19   3.18 ± .13   0.71 ± .06    0.57 ± .05
+ Abell S0084    0.1100    3.75 ± 0.20     0.77 ± 0.03   2.78 ± 0.19     0.94 ± .03      2.47 ± .25   2.32 ± .17   0.74 ± .05    0.58 ± .04
+ Abell S0296    0.0696    2.70 ± 0.21     0.61 ± 0.02   1.38 ± 0.08     0.81 ± .04      1.51 ± .21   1.22 ± .11   0.37 ± .02    0.31 ± .01
+ Abell 0478     0.0881    7.09 ± 0.12         —             —          1.33 ± 0.03     6.80 ± 0.39   12.6 ± 0.9       —             —
+ Abell 2029     0.0773    8.41 ± 0.12         —             —          1.47 ± 0.03     9.01 ± 0.57   12.5 ± 0.4       —             —
+ Abell 2390     0.2329    10.6 ± 0.8          —             —          1.53 ± 0.08      12.1 ± 1.8   18.5 ± 1.2       —             —
+
+  Note. — Abell 0478, Abell 2029, and Abell 2390 are not part of the main sample. These clusters were included only in the X-ray analysis
+to extend the baseline to higher mass, but have no photometry equivalent to the other systems with which to measure the stellar mass.
+At the high mass end; however, the stellar component contributes a relatively small fraction of the total baryons. The luminosities include
+appropriate e+k corrections for each galaxy from GZZ07. The stellar masses are quoted as observed, with no deprojection correction applied.
+20                        Gonzalez et al.
+
+                      TABLE 8
+         Derived Mj −M500 Relations for Planck
+                      Cosmology
+
+       Component                  a                    b
+      M⋆,2D              3.9 ± 0.2 × 10−2        0.56 ± 0.05
+      M⋆,3D              3.3 ± 0.2 × 10−2        0.53 ± 0.05
+      Mgas               9.2 ± 0.4 × 10−2        1.26 ± 0.03
+      Mbary             1.21 ± 0.05 × 10−1       1.17 ± 0.04
+      M⋆,2D /Mgas       4.70 ± 0.03 × 10−1      −0.85 ± 0.05
+      M⋆,3D /Mgas       3.87 ± 0.02 × 10−1      −0.81 ± 0.05
+
+        Note. — Best fit parameters for the relation Mj =
+     a(M500 /1014 M⊙ )b , where Mj is the mass contained
+     in each baryonic component. Mbary is derived using
+     the deprojected stellar mass. The slope for the baryon
+     fraction relations is equivalent to 1 − b. We also include
+     the best fit parameters for the stellar-to-gas mass ratios
+     as a function of M500 . The relation for the gas mass
+     is derived including the clusters from Vikhlinin et al.
+     (2006), while the other relations are derived using only
+     clusters with both gas and stellar mass data.
+

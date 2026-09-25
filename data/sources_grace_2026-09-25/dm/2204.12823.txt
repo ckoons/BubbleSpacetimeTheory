@@ -1,0 +1,1710 @@
+                                              Astronomy & Astrophysics manuscript no. fgas_bias                                                                                       ©ESO 2023
+                                              April 7, 2023
+
+
+
+
+                                                 Constraining the mass and redshift evolution of the hydrostatic
+                                                   mass bias using the gas mass fraction in galaxy clusters
+                                                                                        R. Wicker1 , M.Douspis1 , L. Salvati1 , N. Aghanim1
+
+                                                    Université Paris-Saclay, CNRS, Institut d’Astrophysique Spatiale, 91405, Orsay, France
+                                                    e-mail: raphael.wicker@ias.u-psud.fr
+
+                                                    Received XXX; accepted XXX
+
+                                                                                                                  ABSTRACT
+
+
+
+
+arXiv:2204.12823v2 [astro-ph.CO] 6 Apr 2023
+                                                    The gas mass fraction in galaxy clusters is a convenient probe to use in cosmological studies, as it can help derive constraints on
+                                                    a range of cosmological parameters. This quantity is, however, subject to various effects from the baryonic physics inside galaxy
+                                                    clusters, which may bias the obtained cosmological constraints. Among different aspects of the baryonic physics at work, in this
+                                                    paper we focus on the impact of the hydrostatic equilibrium assumption. We analyzed the hydrostatic mass bias B, constraining a
+                                                    possible mass and redshift evolution for this quantity and its impact on the cosmological constraints. To that end, we considered
+                                                    cluster observations of the Planck-ESZ sample and evaluated the gas mass fraction using X-ray counterpart observations. We show
+                                                    a degeneracy between the redshift dependence of the bias and cosmological parameters. In particular we find evidence at 3.8σ for a
+                                                    redshift dependence of the bias when assuming a Planck prior on Ωm . On the other hand, assuming a constant mass bias would lead
+                                                    to the extremely large value of Ωm > 0.860. We show, however, that our results are entirely dependent on the cluster sample under
+                                                    consideration. In particular, the mass and redshift trends that we find for the lowest mass-redshift and highest mass-redshift clusters of
+                                                    our sample are not compatible. In addition, we show that assuming self-similarity in our study can impact the results on the evolution
+                                                    of the bias, especially with regard to the mass evolution. Nevertheless, in all the analyses, we find a value for the amplitude of the bias
+                                                    that is consistent with B ∼ 0.8, as expected from hydrodynamical simulations and local measurements. However, this result is still
+                                                    in tension with the low value of B ∼ 0.6 derived from the combination of cosmic microwave background primary anisotropies with
+                                                    cluster number counts.
+                                                    Key words. Cosmology: large-scale structure of Universe – Cosmology: Cosmological parameters – Galaxies: clusters: general –
+                                                    Galaxies: clusters: intracluster medium – X-rays: galaxies: clusters – Methods: data analysis
+
+
+                                              1. Introduction                                                              dark energy w (see e.g. Allen et al. (2008), Holanda et al. (2020),
+                                                                                                                           Mantz et al. (2022) and references therein).
+                                              Galaxy clusters are the most massive gravitationally bound sys-                  The gas content inside galaxy clusters is, however, also af-
+                                              tems of our Universe. As such they contain a wealth of cosmo-                fected by baryonic physics. Such baryonic effects need to be
+                                              logical and astrophysical information. They can be used either as            taken into account while performing the cosmological analysis,
+                                              powerful cosmological probes (White et al. (1993), Allen et al.              as they introduce systematic uncertainties in the final constraints
+                                              (2011)) or as astrophysical objects of study to better characterise          (see e.g. the discussions from McCarthy et al. (2003a), Mc-
+                                              the physics of the intra-cluster medium (ICM, Sarazin (1988))                Carthy et al. (2003b), Poole et al. (2007), Hoekstra et al. (2012),
+                                              and how these structures are connected to the rest of the cos-               Mahdavi et al. (2013), Ruan et al. (2013), Sakr et al. (2018)).
+                                              mic web. Constraints on the matter density, Ωm , or the amplitude                For instance, feedback mechanisms inside clusters, such as
+                                              of the matter power spectrum, σ8 , can be inferred from several              active galactic nuclei (AGN) heating, can drive gas out of the
+                                              galaxy cluster observables. We could, for instance, use cluster              potential wells, resulting in slightly gas-depleted clusters. This
+                                              number counts, their clustering, or the properties of their gas              depletion of galaxy clusters’ gas with respect to the universal
+                                              content to constrain cosmological parameters (see e.g. Kravtsov              baryon fraction is accounted for by the depletion factor Υ (Eke
+                                              & Borgani (2012) or Allen et al. (2011) for reviews). Among the              et al. (1998), Crain et al. (2007)). This depletion factor has been
+                                              more recent probes, we can also cite the cluster sparsity (Balmès            thoroughly studied in hydrodynamical simulations throughout
+                                              et al. 2013).                                                                the years, in clusters (Kravtsov et al. (2005), Planelles et al.
+                                                                                                                           (2013), Sembolini et al. (2016), Henden et al. (2020), and ref-
+                                                  The baryon budget of these objects is also interesting in                erences therein) as well as in filaments (Galárraga-Espinosa
+                                              terms of the aspect of galaxy clusters as cosmological probes                et al. 2022). As a result, this parameter can be very well con-
+                                              and especially the hot gas of the ICM that composes the major                strained and robustly predicted in numerical simulations. Sec-
+                                              part of the baryonic matter inside clusters (Gouin et al. 2022). In-         ondly, galaxy clusters are often assumed to be in hydrostatic
+                                              deed the gas mass fraction of galaxy clusters, fgas , is considered          equilibrium (HE hereafter). Nevertheless, non-thermal processes
+                                              to be a good proxy for the universal baryon fraction (Borgani                such as turbulence, bulk motions, magnetic fields or cosmic rays
+                                              & Kravtsov 2011) and can be used to constrain cosmological                   (Lau et al. (2009), Vazza et al. (2009), Battaglia et al. (2012),
+                                              parameters including the matter density, Ωm , the Hubble param-              Nelson et al. (2014), Shi et al. (2015), Biffi et al. (2016)), might
+                                              eter, h, the dark energy density, ΩDE , or the equation of state of          cause a departure from the equilibrium condition in the ICM.
+                                                                                                                                                                       Article number, page 1 of 24
+                                                     A&A proofs: manuscript no. fgas_bias
+
+Therefore, the HE assumption leads to cluster mass estimations
+biased toward lower values with respect to the total cluster mass.
+The impact of non-thermal processes, and therefore an evalua-
+tion for the bias in the cluster mass estimation, was first consid-
+ered in hydrodynamical simulations (Rasia et al. 2006). Since
+then, a parametrization for this mass bias has been introduced
+also in observations, for instance when detecting clusters in X-
+ray or millimeter wavelengths, the latter exploiting the thermal
+Sunyaev-Zeldovich effect (Sunyaev & Zeldovich (1972), tSZ
+hereafter) (see Pratt et al. (2019) for a review). We stress that
+this bias affects all the observables which might assume hydro-
+static equilibrium when evaluating cluster masses and, thus, the
+gas mass fraction. Throughout the paper we define this mass bias
+as B = MHE /Mtot .
+     If the depletion factor is well constrained and understood,
+this is not the case for the hydrostatic mass bias as its value is still
+under debate. In a number of analyses including weak lensing
+works (Weighing the Giants (WtG) (von der Linden et al. 2014),
+the Canadian Cluster Comparison Project (CCCP) (Hoekstra
+et al. 2015), Okabe & Smith (2016), Sereno et al. (2017)), tSZ
+number counts (Salvati et al. 2019), X-ray observations (Eck-
+ert et al. 2019), or hydrodynamical simulations (McCarthy et al.
+(2017), Bennett & Sijacki (2022)), this mass bias is estimated
+to be around B ∼ 0.8 − 0.85. The works from Planck Collabo-
+ration et al. (2014), Planck Collaboration et al. (2016) however
+show that to alleviate the tension on the amplitude of the mat-
+ter power spectrum, σ8 , between local and cosmic microwave
+background (CMB hereafter) measurements, a much lower B is
+needed. Indeed, when combining CMB primary anisotropies and
+tSZ cluster counts, CMB measurements drive the constraining
+power on the cosmological parameters and, thus, on the bias, fa-
+voring a bias B ∼ 0.6 − 0.65. This result was confirmed later on
+by Salvati et al. (2018) and Planck Collaboration et al. (2020).
+In addition, the study from Salvati et al. (2018) shows that when
+forcing B = 0.8 while assuming a Planck cosmology, the ob-
+served cluster number counts are way below the number counts
+predicted using the CMB best-fit cosmological parameters. In
+other words, when assuming B = 0.8 with a CMB cosmology,
+one predicts approximately thrice as many clusters as what is
+actually observed.
+     As the precise value of the mass bias is still an open mat-
+ter and has a direct impact on the accuracy and precision of the           Fig. 1. Gas mass fraction of Planck-ESZ clusters with respect to redshift
+cosmological constraints deduced from galaxy clusters, we pro-             (top) and with respect to cluster mass (bottom). The yellow bands in
+                                                                           both plots mark the Planck Collaboration et al. (2020) value of Ωb /Ωm =
+pose a new and independent measurement of this quantity. In                0.156 ± 0.003.
+this paper we use the gas mass fractions of 120 galaxy clusters
+from the Planck-ESZ sample Planck Collaboration et al. (2011)
+to bring robust constraints on the value of the hydrostatic bias.          conclusions in Section 6. Throughout the paper, we assume a
+More importantly, we aim at studying the potentiality of varia-            reference cosmology with H0 = 70km.s−1 .Mpc−1 , Ωm = 0.3 and
+tions of the bias with mass and redshift. Such studies on mass             ΩΛ = 0.7.
+and redshift trends of B have already been carried out in works
+using weak lensing (von der Linden et al. (2014), Hoekstra et al.          2. Theoretical modelling and data
+(2015), Smith et al. (2016), Sereno & Ettori (2017)) or tSZ num-
+ber counts (Salvati et al. 2019), sometimes giving contradictory           2.1. Gas fraction sample
+results. In this work we measure and use gas mass fractions from
+a sample to get new independent constraints on B as well as on             The gas mass fraction is defined as the ratio of the gas mass over
+its mass and redshift evolution. This study is also aimed at inves-        the total mass of the cluster :
+tigating the role that an evolution of the bias would have on the                  Mgas
+                                                                            fgas =      .                                                 (1)
+cosmological constraints we obtain from fgas data.                                 Mtot
+     After describing the theoretical modelling and our cluster
+                                                                           Using X-ray observations, the gas mass is obtained by integrat-
+sample in Section 2, we detail our methods for the data analy-
+                                                                           ing the density profile ρ(r) inside a certain radius, r, as shown in
+sis in Section 3. We show our results in Section 4, first focussing
+                                                                           Equation 2 below
+on the effect of assuming a varying bias on our derived cosmo-                          Z r
+logical constraints, then looking at the sample dependence of our
+results. Finally, we discuss our results in Section 5 and draw our         Mgas (< r) =     4πr02 ρ(r0 )dr0 .                               (2)
+                                                                                           0
+
+Article number, page 2 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+Here, the density profile ρ(r) is obtained from the electron den-       2.2. Modelling of the observed gas fraction
+sity profile ne (r), measured from X-ray observations. We have :
+                                                                        The hydrostatic mass is used to evaluate the total cluster mass,
+                                                                        yet it is biased low with respect to the true total mass by a factor
+ρ(r) = µm p (ne (r) + n p (r)),                                   (3)   B = MHE /Mtrue . The measured gas mass fraction is thus :
+                                                                                     Mgas     Mgas     1
+where µ is the mean molecular weight, m p the proton mass, ne           fgas,mes =        =           = × fgas,true .                          (5)
+the electron number density, and n p the proton number density                       MHE    B × Mtrue  B
+with ne = 1.17n p in a fully ionised gas. Using the density profile     Besides the hydrostatic mass bias, the measured gas fraction de-
+and a temperature profile, T (r), the total hydrostatic mass, MHE ,     pends on a variety of instrumental, astrophysical, and cosmolog-
+can be computed by solving the hydrostatic equilibrium equation         ical effects. One way of quantifying these effects is to compare
+shown below :                                                           the gas fraction we obtain from gas mass and hydrostatic mass
+                                               !                        measurements to the theoretical (hydrostatic) gas fraction we ex-
+               rkB T (r) d lnρ(r) d lnT (r)
+MHE (< r) = −                      +             ,             (4)      pect from Equation 6 below, from Allen et al. (2008). In this
+                Gµm p       d lnr       d lnr                           equation (and in the rest of the paper), the quantity noted as X re f
+                                                                        is the quantity X in our reference cosmology :
+where kB is the Boltzmann constant and G is the gravitational
+constant.                                                                                                        !  re f 3/2
+                                                                                            Υ(M, z)      Ωb         DA (z) 
+     Similarly to the gas mass and the hydrostatic mass, the clus-      fgas,T h (M, z) = K         A(z)                         − f∗ .      (6)
+                                                                                                         Ωm
+                                                                                                                     
+ter gas mass fraction is evaluated within a characteristic radius,                          B(M, z)                      DA (z) 
+determined by the radius of the mass measurements. We define
+this radius, R∆ , as the radius that encloses ∆ times the critical      Here, K is an instrumental calibration correction. We take K =
+density of the Universe, ρc = 3H 2 /8πG. The gas content inside         1 ± 0.1 from Allen et al. (2008) and discuss the soundness of
+galaxy clusters is affected by baryonic physics and the impact of       this assumption in Section 5.1.1. Regarding the astrophysical
+the different astrophysical processes might depend on the con-          contributions, Υ(M, z) is the baryon depletion factor, describing
+sidered cluster radius, R∆ . In this work, we focus on gas frac-        how baryons in clusters are depleted with respect to the univer-
+tions taken at R500 , and from now on all the quantities we con-        sal baryon fraction and B(M, z) is the hydrostatic mass bias we
+sider are taken at R500 . We note that this radius is larger than       discuss above. Finally Ωb /Ωm is the universal baryon fraction,
+most studies using the gas fraction of galaxy clusters as a cos-        DA is the angular diameter distance, f∗ is the stellar fraction, and
+mological probe, which are generally carried out at R2500 (Allen        A(z) is an angular correction which we show in Equation 7:
+et al. (2002), Allen et al. (2008), Allen et al. (2011), Mantz et al.
+(2014), Holanda et al. (2020), Mantz et al. (2022)). We briefly                    re f η                     !η
+                                                                                   θ         H(z)DA (z)
+discuss this choice of radius in Section 5.2.2.                         A(z) =  500  ≃                     .                           (7)
+     We computed the gas fraction for the clusters in the Planck-                    θ500      [H(z)DA (z)]re f
+ESZ survey (Planck Collaboration et al. 2011). In particular, we
+considered 120 out of 189 clusters of the Planck-ESZ sample, for        The parameter η accounts for the slope of the fgas profiles en-
+which we have follow-up X-ray observations by XMM-Newton                closed in a spherical shell. Here we take η = 0.442 from Mantz
+up to R500 (here called the ESZ sample for simplicity). Our sam-        et al. (2014). With A(z) being, however, very close to one for re-
+ple therefore spans a total mass range from 2.22 × 1014 M to            alistic models and within our range of parameters, the value of
+1.75×1015 M and redshift range from 0.059 to 0.546. We started          this parameter has a negligible impact on our results.
+from the gas and total masses of the clusters derived in Lovisari           We note that this model is valid as long we are assuming
+et al. (2020b). We refer to their work for the detailed analysis        self-similarity, which we do here. Deviations from self-similarity
+of the mass evaluation. We just stress here that the total clus-        may induce supplementary dependencies. We thus discuss our
+ter masses were obtained assuming hydrostatic equilibrium, as           hypothesis in Section 5.1.2 and Appendix B.
+shown in Equation 4, thus inducing the presence of the hydro-
+static mass bias. From these gas masses and hydrostatic masses,
+                                                                        3. Methods
+we computed the gas fraction following Equation 1 to find that
+they are within the range [0.06, 0.20]. We note that there are          Our purpose in this work is to use the gas mass fraction of galaxy
+correlations between the gas mass and hydrostatic mass mea-             clusters to constrain the value of the hydrostatic mass bias and,
+surements. These correlations induce a corrective term when             in particular, its evolution with mass and redshift. We also want
+computing the error bars of fgas . We check that this correlation       to study the role of such an evolution of the bias on the subse-
+term (provided by Lorenzo Lovisari, private communication) in-          quent cosmological constraints derived from fgas data. We recall
+troduces a negligible contribution to the total error budget. We        here that all constraints derived from gas mass fraction data are
+propagate the asymmetric errors from the mass measurements to           obtained by comparing the measured gas fraction to the theoreti-
+obtain the uncertainty on fgas . We also note that the Malmquist        cal gas fraction expected from Equation 6, which is proportional
+bias may affect our final results; however, the discussions in Lo-      to the universal baryon fraction. Besides this proportionality, all
+visari et al. (2020b) and Andrade-Santos et al. (2021) show that        the other constraints are deduced as corrections needed to match
+this effect is negligible in the case of this sample.                   the observed fgas in clusters to the constant Ωb /Ωm . As discussed
+     We give the redshifts, gas masses, hydrostatic masses and          in Section 2, one of these correction terms accounts for the bary-
+gas fractions of the clusters from our sample in Table A.1 in the       onic effects taking place in the ICM. These baryonic effects are
+appendix. We show in Figure 1 the observed gas fraction in this         accounted for by the depletion factor Υ(M, z) and the hydrostatic
+sample, with respect to redshift and mass. We also compare these        bias B(M, z), which we are interested in. As shown in Equation
+ fgas values to the universal baryon fraction Ωb /Ωm = 0.156±0.03       6, we cannot constrain independently B(M, z) and Υ(M, z), as the
+from Planck 2018 results (Planck Collaboration et al. 2020).            two parameters are strongly degenerated. What we have access
+                                                                                                                       Article number, page 3 of 24
+                                                       A&A proofs: manuscript no. fgas_bias
+
+Table 1. Set of priors used in our analysis.
+
+
+                                               Bias evolution study                      Sample dependence of the results                  Reference
+        Parameter                                     Prior                                                       Prior
+            B0                                          –                                                  U(0.3, 1.7)                        –
+   B(zCCCP , MCCCP )                              N(0.84, 0.04)                                                       –                       1
+             f∗                                  N(0.015, 0.005)                                      N(0.015, 0.005)                         2
+            Υ0                                    N(0.85, 0.03)                                           N(0.85, 0.03)                       3
+             K                                      N(1, 0.1)                                               N(1, 0.1)                         4
+            σf                                       U(0, 1)                                                 U(0, 1)                          –
+             h                                   N(0.674, 0.005)                                      N(0.674, 0.005)                         5
+         Ωb /Ωm                                    U(0.05, 0.3)                                       N(0.156, 0.003)                         5
+            Ωm              U(0.01, 1) (CB, VB) or N(0.315, 0.007) (VB + Ωm )                         N(0.315, 0.007)                         5
+             α                 Fixed at 0 (CB) or U(−2, 2) (VB, VB + Ωm )                                    U(−2, 2)                         –
+             β                 Fixed at 0 (CB) or U(−2, 2) (VB, VB + Ωm )                                    U(−2, 2)                         –
+
+References. (1) Herbonnet et al. (2020); (2)Eckert et al. (2019); (3)Planelles et al. (2013); (4)Allen et al. (2008); (5)Planck Collaboration et al.
+(2020).
+Notes. A prior noted U(l, u) is a uniform prior of lower bound l and upper bound u, while a prior noted N(µ, σ) is a gaussian prior of mean µ and
+standard deviation σ.
+
+
+to instead is the ratio of the two quantities, Υ(M, z)/B(M, z). In         3.1. Bias evolution modelling
+order to break this degeneracy and properly constrain the bias,
+strong constraints on the depletion factor and its evolution with          In order to analyze a possible mass and redshift evolution of the
+mass and redshift are required. Obtaining such results is however          mass bias, we consider a power law evolution for the hydrostatic
+out of the scope of this paper, and we retrieve these constraints          bias, with pivot masses and redshifts set at the mean values of
+from hydrodynamical simulations works.                                     the considered cluster sample :
+                                                                                               !α          !β
+                                                                                           M        1+z
+                                                                           B(z, M) = B0                                                  (8)
+                                                                                          hMi      h1 + zi
+    The depletion factor is known to vary with mass, however
+this evolution is particularly strong for groups and low mass clus-        with B0 as the amplitude.
+ters (< 2.1014 M ) while it becomes negligible at the high masses              We chose this model for the sake of simplicity following
+we consider (see the discussion in Section 3.1.1 of Eckert et al.          what is done in Salvati et al. (2019), as the exact dependence
+(2019) based on results from The Three Hundred Project sim-                of B on mass and redshift is not known. In Section 5.1.3 we
+ulations (Cui et al. 2018)). Works from Planelles et al. (2013)            discuss the role of this parametrization by comparing our results
+and Battaglia et al. (2013) also show that the depletion factor is         with a linear evolution of B, and find results similar to those of
+constant with redshift when working at R500 . Throughout the pa-           the power law description. The complete likelihood function
+per, we thus assume a constant depletion factor with mass and              thus writes, assuming no deviation from self-similarity :
+redshift Υ0 = 0.85 ± 0.03, based on hydrodynamical simulations
+from Planelles et al. (2013).
+
+
+                                                                                                        !3/2           2 
+                                                   −α  1+z −β                            re f
+                                 fgas,i − K Υ0 Mi              A(zi , h, Ωm ) ΩΩmb
+                                                                                          DA (zi )
+                                                                                                                       
+                                                                                                                 + f∗  
+                              
+                                                             i
+                                                                                         DA (zi ,h,Ωm )
+               
+          X                                 B0  hMi   h1+zi
+−2 ln L =        ln 2πs2 +                                                                                                     ,
+                                                                                                                               
+                          i                                                                                                                        (9)
+                                                                   s2i
+                                                                                                                                
+          i                                                                                                                      
+                                                                                                                                      
+
+
+
+where                                                                      with σi as the uncertainties on the gas fraction data and fgas,T h as
+                                                                           the gas fraction expected from Equation 6. The parameter σ f is
+s2i = σ2i + fgas,T
+             2
+                   hσ f ,
+                     2
+                                                                   (10)
+Article number, page 4 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+                                                                          ysis Herbonnet et al. (2020) :
+                                                                          B(zCCCP , MCCCP ) = 0.84 ± 0.04,
+                                                                          where zCCCP = 0.189 and MCCCP = 6.24 × 1014 M are the mean
+                                                                          mass and redshift for the CCCP-MENeaCS sample.
+
+                                                                          3.3. Sample dependence tests
+                                                                          In the second part, we looked into possible sample dependen-
+                                                                          cies of our results regarding the value of the bias parameters
+                                                                          B0 , α, and β. To that end, we focus on different subsamples
+                                                                          within the main sample, based on mass and redshift selections.
+                                                                          Matching the selection from weak lensing studies such as the
+                                                                          Comparing Masses in Literature (CoMaLit) (Sereno & Ettori
+                                                                          2017) or Local Cluster Substructure Survey (LoCuSS) (Smith
+                                                                          et al. 2016) studies, we operate a redshift cut at z = 0.2, differ-
+                                                                          entiating clusters that are above or below this threshold value.
+                                                                          This choice was also motivated by the results from Salvati et al.
+                                                                          (2019), investigating the hydrostatic mass bias from the perspec-
+                                                                          tive of tSZ number counts. Their study showed that the trends in
+                                                                          the mass bias depended on the considered redshift range, with
+                                                                          results changing when considering only clusters with z > 0.2.
+                                                                          We also performed a mass selection, differentiating between the
+                                                                          clusters that are above or below the median mass of the sample
+                                                                          Mmed = 5.89 × 1014 M .
+                                                                              In summary, the samples we consider in this study are the
+Fig. 2. Binned mass-redshift plane of the Planck-ESZ sample. Inside       following :
+each bin we compute the mean value of fgas . We show the number of            The full sample of 120 clusters, with the mean mass and red-
+clusters included in each bin and mark the delimitation of each subsam-
+                                                                          shift given previously in Equation 11. The second subsample is
+ple.
+                                                                          composed of clusters with z < 0.2 and M < 5.89 × 1014 M .
+                                                                          We consider them in the ’low Mz’ subsample, which contains 47
+the intrinsic scatter of the data, which we treat as a free parame-       clusters. The mean mass and redshift are
+ter.                                                                      (MlowMz , zlowMz ) = (4.26 × 1014 M , 0.126)                   (12)
+                                                                          Finally our third subsample is constituted of clusters with z >
+3.2. Free cosmology study                                                 0.2 and M > 5.89 × 1014 M . We consider them in the ’high
+In the first part of our analysis we simply assess the necessity to       Mz’ subsample, which contains 45 clusters. The mean mass and
+consider an evolving bias, by looking at the impact of assuming           redshift are
+such a variation on the subsequent cosmological constraints. To           (MhighMz , zhighMz ) = (8.86 × 1014 M , 0.333)                 (13)
+do so, we compare the posterior distributions in three different
+cases : In the first case we let free the baryon fraction, Ωb /Ωm ,       We did not consider the ’low z - high M’ and ’high z - low
+the matter density, Ωm , and the parameters accounting for the            M’ subsamples as by construction they do not contain enough
+variation of the bias α, β, and B0 . We refer to this scenario as         clusters (15 and 13, respectively) to obtain meaningful results.
+’VB’. In the second case we let free only the cosmological pa-            For illustration purposes, we show in Figure 2 the binned mass-
+rameters and fix the bias parameters to α = 0 and β = 0, resulting        redshift plane of our sample, with the delimitation of the differ-
+in a constant bias at the value B0 . This scenario will be noted in       ent subsamples. Inside each bin, we computed the mean value of
+the rest of the paper as ’CB’. Due to a degeneracy between β and           fgas if at least one clusters is inside the bin.
+Ωm which we discuss later on, we also look at our results when                 To carry out this study of the sample dependence, we com-
+leaving the set of parameters (B0 , α, β, Ωb /Ωm ) free but assuming      pared the posterior distributions obtained when running our
+a prior on Ωm , in order to break this degeneracy and constrain β         MCMC on the three aforementioned samples independently. We
+more accurately. We call this scenario ’VB + Ωm ’.                        note that we kept the prior on Ωm for this part of the study, and
+    The set of parameters for which we assume flat priors in this         that we add a prior on Ωb /Ωm . This choice is motivated by the
+part of the study is thus (B0 , α, β, Ωb /Ωm , Ωm , σ f ), as we show     presence of a degeneracy between the baryon fraction and the
+in the first column of Table 1. This work is performed on the             amplitude of the bias B0 . This degeneracy is broken in the first
+entirety of our cluster sample, for which our mean mass and red-          part of the analysis by assuming a prior on the total value of the
+shift are :                                                               bias. However, when trying to compare all the bias parameters
+                                                                          between samples (including the amplitude), we do not wish to
+(M f ull , z f ull ) = (6.42 × 1014 M , 0.218)                    (11)    be dependent on such a prior. The universal baryon fraction be-
+                                                                          ing well known and constrained, such a prior is a convenient way
+Throughout this whole part of the analysis, we consider a prior           to break the degeneracy between Ωb /Ωm and B0 and still obtain
+on the total value of the bias for a certain cluster mass and red-        meaningful results on the value of all the bias parameters. The
+shift, taken from the Canadian Cluster Comparison Project -               set of parameters following flat priors in this part of the study is
+Multi Epoch Nearby Cluster Survey (CCCP-MENeaCS) anal-                    thus (B0 , α, β, σ f ), as we show in the second column of Table 1.
+                                                                                                                  Article number, page 5 of 24
+                                                        A&A proofs: manuscript no. fgas_bias
+
+    In brief, we adopted the list of priors given in Table 1 to               yet compatible with the value found in the varying bias case,
+constrain the parameters used to describe our fgas data. We fit our           with B0 = 0.842 ± 0.040. This is simply caused by the fact that
+model in Equation 6 to the fgas data with an MCMC approach                    for a constant bias the amplitude B0 is now completely deter-
+using the sampler emcee (Foreman-Mackey et al. 2013). We note                 mined by the total value of the bias B(zCCCP , MCCCP ). On the
+that the prior we consider on f∗ = 0.015 ± 0.005 coming from                  other hand, due to the degeneracy between β and Ωm , imposing
+Eckert et al. (2019) has close to no effect on our final results, as          no redshift evolution of the bias requires a very high matter den-
+this term in Equation 6 is almost negligible.                                 sity, resulting in Ωm > 0.860, fully incompatible with the Planck
+                                                                              value. Such a high matter density is not expected in current stan-
+                                                                              dard cosmology and is totally aberrant. We note that these results
+4. Results                                                                    do not completely rely on our prior on the total value of the bias.
+                                                                              Indeed, we also performed our analysis while assuming a prior
+4.1. Bias evolution study
+                                                                              from the first results of the CCCP analysis (Hoekstra et al. 2015):
+In the first part of this analysis, we intend on studying the pos-
+sibility of an evolution of the hydrostatic mass bias with cluster
+mass and redshift. To that end, we compare the cosmological                   B(hzi , hMi) = 0.780 ± 0.092                                     (14)
+constraints obtained on the full sample when considering a con-
+stant bias to those obtained when leaving the bias free to vary.              with (hzi , hMi) = (0.246, 14.83 × 1014 h−1 M ). Our constraints
+Our results are summed up in Figure 3 and in Table 2.                         when considering this prior do not change with respect to
+     In the VB case, namely when leaving the set of parameters                B( zCCCP , MCCCP ) = 0.84±0.04, except a small shift on Ωb /Ωm =
+(B0 , α, β, Ωb /Ωm , Ωm , σ f ) free with a prior on the total value of       0.132+0.019
+                                                                                     −0.024 in the CB case.
+B, we show that a mass-independent bias seems to be favored.                       As such, we show that we need to assume an evolution of the
+Indeed, with α = −0.056 ± 0.037 we remain compatible with 0                   hydrostatic mass bias, at least in redshift, to properly describe
+within 2σ, even though the peak is slightly lower. We also show               our fgas data. In the rest of our study we focus on exploring the
+that our derived Ωb /Ωm is fully compatible with the Planck Col-              bias evolution. We thus consider only the VB + Ωm scenario, to
+laboration et al. (2020) value, since we obtained 0.154+0.018                 be able to constrain β despite its degeneracy with the matter den-
+                                                                −0.026 . We
+cannot, however, bring such constraints on β and Ωm , as these                sity. We also assume a Planck Collaboration et al. (2020) prior
+two parameters are heavily degenerated. We zoom in on this de-                on Ωb /Ωm , as the universal baryon fraction is degenerated with
+generacy in Figure 4 and show that higher values of β call for                the total value of the bias (see Equation 6). The bias parameters
+higher values of Ωm . This degeneracy can be explained by the                 (B0 , α, β) are thus left free and we chose not to use a prior on the
+fact that both parameters entail a redshift dependence on the part            total value of B going forward.
+of the gas fraction. Indeed, Ωm intervenes in the computation of
+DA (z) and H(z), which entirely drive the sensitivity of fgas to              4.2. Sample dependence of the results
+cosmology. We thus argue that this degeneracy between β and
+Ωm (which we show here in a simple Flat-ΛCDM model) could                     If an evolution of the bias seems necessary to properly constrain
+also be observed between β and any other cosmological param-                  cosmological parameters using fgas data at R500 , the strength of
+eter, as long as they appear in the computation of DA (z) or H(z).            this evolution might differ depending on the masses and redshifts
+As a side note, we show a slight degeneracy between the baryon                of the clusters we consider. We thus repeat the previous study,
+fraction Ωb /Ωm and β, with a lower Ωb /Ωm implying a higher,                 this time focusing only on the bias parameters, using the pre-
+closer to 0 β. This degeneracy is caused by the combined ef-                  viously defined LowMz and HighMz subsamples in addition to
+fect of the degeneracy between β and Ωm , and the degeneracy                  the full sample. We recall that in this section, we are considering
+between Ωb /Ωm and Ωm , which is expected (shown in Figure 3).                the VB + Ωm scenario, with an additional prior on Ωb /Ωm . The
+     As the matter density, Ωm , has been strongly constrained in a           summary of our results is given in Table 3 and in Figures 5 and
+number of works, we chose to assume the Planck Collaboration                  6.
+et al. (2020) prior shown in Table 1 on this parameter to break its                 Our results when considering the full sample are (as ex-
+degeneracy with β, in the VB + Ωm scenario. The effect of this                pected) the same as when adopting flat priors on the cosmo-
+prior is negligible on the constraints on α and Ωb /Ωm , as we ob-            logical parameters. The only slight exception is B0 , peaking
+tain α = −0.057 ± 0.038 and 0.160+0.016   −0.025 , fully compatible with
+                                                                              slightly higher due to the absence of a prior on the total bias.
+the results obtained without this prior. On the other hand, the               We find an amplitude of B0, f ull = 0.840 ± 0.095. The parame-
+use of this prior allows us to constrain β. We show that the hy-              ters accounting for the bias evolution remain unchanged, with
+drostatic bias seems to show a strong redshift dependence, with               α f ull = −0.057 ± 0.038 and β f ull = −0.64 ± 0.18. Thus, our re-
+β = −0.64 ± 0.18. This value of β < 0 would mean a value of                   sults remain compatible with no mass evolution of the bias but
+B decreasing with redshift, that is to say, more and more biased              still find a strong hint for a redshift dependence.
+masses toward higher redshifts. We also note a slight degeneracy                    If all subsamples provide compatible values for the ampli-
+between α and β, but this is most probably due to selection ef-               tude with B0,lowMz = 0.92+0.10−0.11 , B0,HighMz = 0.767 ± 0.086 and
+fects of the sample. As the higher redshift clusters tend to mostly           B0, f ull = 0.840 ± 0.095, this cannot be said regarding α and
+have higher masses (see Figure 2), a redshift trend of the bias               β. Indeed, if the study of the full sample seems to suggest no
+could then be interpreted as a slight mass trend, explaining this             mass evolution and a mild redshift trend of the bias, we observe
+degeneracy. These selection effects causing the degeneracy are                the reverse behavior in the HighMz subsample. With αhighMz =
+those we explore in the second part of the analysis when looking              −0.149±0.058 and βHighMz = −0.08±0.23, the preferred scenario
+at the sample dependence of the results (see Sect 4.2).                       would be the one of B constant with redshift, yet decreasing with
+     The effect of assuming a constant bias (α = β = 0) in the                cluster mass. On the other end of the mass-redshift plane, the re-
+CB case does not have a strong impact on our constraints on                   sults show exactly the opposite evolution, in agreement with the
+Ωb /Ωm , which peaks just slightly below the Planck; it does re-              constraints from the full sample but aggravating the trends. With
+main compatible, with Ωb /Ωm = 0.140+0.014   −0.020 . B0 is slightly above    αLowMz = 0.09 ± 0.11 and βLowMz = −0.995+0.44   −0.78 , we show we are
+
+Article number, page 6 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+
+
+
+
+Fig. 3. 1D and 2D posterior distributions for the CB, VB, and VB + Ωm scenarios. The contours mark the 68% and 95% confidence level (c.l.).
+The gray dashed lines highlight reference values for (α, β, Ωb /Ωm , Ωm ) = (0, 0, 0.156, 0.315). The orange bands mark the Planck Collaboration
+et al. (2020) values for Ωb /Ωm and Ωm at 2σ c.l.
+
+Table 2. Constraints obtained on bias and cosmological parameters in the CB, VB and VB + Ωm scenarios. Uncertainties are given at 68%c.l.
+
+
+                                   Parameter             CB                 VB               VB + Ωm
+                                        B0         0.842 ± 0.040       0.832 ± 0.041       0.828 ± 0.039
+                                         α                0           −0.056 ± 0.037      −0.057 ± 0.038
+                                         β                0              −0.43+0.61
+                                                                              −0.37        −0.64 ± 0.18
+                                     Ω b /Ω m        0.140+0.014
+                                                          −0.020        0.154+0.018
+                                                                             −0.026          0.160+0.016
+                                                                                                  −0.025
+
+                                        Ωm            > 0.860                –             0.315 ± 0.007
+
+
+                                                                                                                   Article number, page 7 of 24
+                                                     A&A proofs: manuscript no. fgas_bias
+
+Table 3. Constraints obtained on the bias parameters depending on the considered sample. Uncertainties are given at 68% c.l.
+
+
+                               Parameter      LowMz subsample             HighMz subsample          Full sample
+                                   B0               0.92+0.10
+                                                        −0.11               0.767 ± 0.086          0.840 ± 0.095
+                                    α              0.09 ± 0.11             −0.149 ± 0.058         −0.057 ± 0.038
+                                    β              −0.995+0.44
+                                                         −0.77              −0.08 ± 0.23           −0.64 ± 0.18
+
+
+
+
+Fig. 4. Posterior distributions showing the degeneracy between β and        Fig. 5. 1D and 2D posterior distributions for the bias parameters in the
+Ωm . The contours mark the 68% and 95% c.l. The gray dashed lines           three mass- and redshift-selected samples. The levels of the contours
+highlight reference values for (β, Ωm ) = (0, 0.315). The orange band       mark the 68% and 95% confidence levels. Gray dashed lines mark the
+marks the Planck Collaboration et al. (2020) value for Ωm at 2σ c.l.        reference values (α, β) = (0, 0).
+
+
+
+fully compatible with no mass evolution of the bias, even with              ure 5. Finally, we note an offset in the relative positions of the
+the posterior of α peaking slightly above 0 contrary to the other           curves for the two subsamples, depending on mass and redshift.
+samples. More importantly, we show a strong decreasing trend                This is simply due to the fact that our model describes a simul-
+of B with redshift, as we obtain β peaking close to -1. We note             taneous evolution of the bias both with mass and redshift, which
+that the posterior distribution for this subsample is quite wider it        happens to be non-zero in our case.
+is than for the full sample or the HighMz subsample. This is due                In summary, we claim to have found strong evidence for the
+to the smaller mass and redshift range of this sample (see Figure           sample dependence of our results regarding the mass and red-
+2), diminishing its constraining power with respect to the other            shift evolution of the hydrostatic mass bias. Such a sample de-
+two selections. This is, however, sufficient to highlight a redshift        pendence had already been noted in other works studying the
+dependence of the bias when considering the least massive clus-             evolution of the bias using tSZ cluster counts, but not when us-
+ters of our sample at the lowest redshifts.                                 ing fgas data.
+     In Figure 6, we show what these values of the bias parame-
+ters translate to in terms of the gas fraction with respect to red-
+shift and mass. We show these fits computed at [Mmin , Mmax ]               5. Discussion
+with z free and at [zmin , zmax ] with M free, taking into account
+the uncertainties at 68% and 95% c.l. We first notice what was              As we have shown in the previous section, considering an evo-
+highlighted in the contours of Figure 5, which is that the results          lution of the bias seems to be necessary to infer sensible cosmo-
+obtained for the full sample mainly fall in between the two ex-             logical constraints. On the other hand, the variation of the bias
+treme cases of the LowMz and HighMz subsamples. Secondly we                 that we measure is very dependent on the sample we consider, as
+show that the incompatibility between the two smaller subsam-               we show different trends of the bias depending on mass and red-
+ples is fully visible in the result of the fits. In the bottom two pan-     shift selections inside our main sample. We discuss these results
+els showing the fgas (M) relation, the LowMz and HighMz even                here, trying to take into account all the systematic effects that
+seem to exhibit opposite trends, similarly to what is seen in Fig-          could appear and bias our results. We also compare our findings
+Article number, page 8 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+
+
+
+
+Fig. 6. Fits obtained from our analysis, for the different mass- and redshift-selected samples. The results in the top two panels are represented with
+respect to redshift at constant mass (respectively minimal and maximal masses of the full sample), while the bottom two panels are the results
+presented with respect to mass, at a fixed redshift (respectively minimal and maximal redshifts of the full sample). The shaded areas around the
+curves mark the 68% and 95% confidence levels. The blue dashed line marks the reference value Ωb /Ωm = 0.156.
+
+                                                                                                                        Article number, page 9 of 24
+                                                  A&A proofs: manuscript no. fgas_bias
+
+                                                                      than the Chandra masses. This result had already been shown
+                                                                      previously (see Appendix D of Schellenberger et al. (2015)).
+                                                                      This offset is however well accounted for by the 10% uncer-
+                                                                      tainty we allow in the K prior in the majority of the sample.
+                                                                      We do, however, point out that this comparison has been car-
+                                                                      ried out only on the total masses, while our study is focused on
+                                                                      the gas mass fraction. To be able to fully rule out possible bi-
+                                                                      ases from instrumental effects we would need to compare the
+                                                                      gas mass fractions obtained from both observations rather than
+                                                                      the total masses. Unfortunately as we do not have access to the
+                                                                      gas masses from the Chandra observations, we can only assume
+                                                                      that the compatibility we see for Mtot stays true for fgas . This
+                                                                      assumption is sensible, as we have
+                                                                         fgas,Chandra    Mgas,Chandra     Mtot,XMM−Newton
+                                                                                      =                 ×                 .        (16)
+                                                                      fgas,XMM−Newton   Mgas,XMM−Newton    Mtot,Chandra
+
+                                                                      As it happens, the discrepancy between Chandra and XMM-
+                                                                      Newton mass measurements originates mainly from the calibra-
+                                                                      tion of the temperature profiles (Schellenberger et al. 2015). As
+                                                                      these profiles are not used in the computation of the gas masses
+                                                                      and as the R500 used in both studies are compatible, is it reason-
+                                                                      able to assume Mgas,Chandra /Mgas,XMM−Newton ∼ 1. We thus argue
+Fig. 7. Comparison of the total masses inside the Planck-ESZ sample   that the compatibility that we see between Chandra and XMM-
+between XMM-Newton and Chandra.                                       Newton total mass measurements holds true for the gas fractions.
+                                                                      We therefore assume that if calibration biases are affecting our
+                                                                      study, they have only minor effects on our results.
+to previous studies focused on the bias and its evolution, from
+different probes.
+                                                                      5.1.2. Other contributions to the evolution of fgas
+5.1. Possible sources of systematic effects                           In this work, we consider the evolution of the gas fraction as a
+                                                                      probe for the evolution of the hydrostatic mass bias, as well as
+5.1.1. Instrumental calibration effects
+                                                                      a cosmological probe. As discussed in Sect. 2 and shown in Eq.
+All of the masses used in this work were taken from Lovisari          6 however, several physical and instrumental effects may vary
+et al. (2020b), where the authors used XMM-Newton observa-            with mass and redshift and play a role in the evolution of fgas .
+tions. Possible calibration effects may have impacted the mass            The depletion factor Υ is fully degenerated with the hydro-
+measurements in their work and induced biases (see e.g. Mah-          static mass bias, both regarding its value and its evolution with
+davi et al. (2013) or Schellenberger et al. (2015)) This effect       mass and redshift. As such, we need a robust prior on this pa-
+has been taken into account under the form of a K = 1.0 ± 0.1         rameter to be able to disentangle its effects on the fgas measure-
+parameter in our analysis, but we try here to check if this as-       ments from those of the bias. Following Planelles et al. (2013),
+sumption is sound. The clusters of the Planck-ESZ sample have         here we considered a depletion at R500 Υ = 0.85 ± 0.03, with
+also been observed using Chandra, in Andrade-Santos et al.            no evolution with mass nor redshift. This value is lower than the
+(2021). From their work, we retrieved their total masses and          value of Υ = 0.94 ± 0.03 from Eckert et al. (2019), however
+compare them to the XMM-Newton masses. The result of the              the use of different priors on the mean value of the depletion
+comparison is shown in Figure 7. We performed a fit of the            only affects the results on B0 , and does not change the results
+point cloud in the log-log space, assuming a linear model of the      on the mass and redshift evolution of the bias, as we show in
+form log(MXMM ) = a log(MChandra ) + b. Similarly to the model        Appendix C. Furthermore, the latter study shows no evolution of
+we defined in Equation 8 when studying the evolution of the           the depletion with mass or redshift. Henden et al. (2020) found
+bias, we set a pivot to the mean value of the Chandra masses,         a depletion Υ ∼ 0.8 in the clusters of the Fable simulations, this
+hMChandra i = 6.32 × 1014 M . We note that the results we present     time again with no clear trend with mass and redshift for clus-
+below do not change when putting the pivot at the median mass         ters with M500 > 3 × 1014 M , compatible with the prior assumed
+instead of the mean. To perform the fit of the point cloud we re-     in this work. We however stress once again that both parameters
+sorted to an MCMC, in order to be able to account for the asym-       are heavily degenerated and that a shift in the value of Υ will
+metric measurement errors both in X and Y axis and the intrisic       produce a similar shift in the predicted value of B0 . As B0 and
+scatter of the data. By doing this we obtain the following relation   Ωb /Ωm are also degenerated, a shift in the value of Υ might also
+:                                                                     produce a shift in the predicted value of Ωb /Ωm . However, this
+                                                                      has no effect on our values of α and β, nor on our constraints on
+log(Mtot,XMM ) =(0.959 ± 0.053) log(Mtot,Chandra )            (15)    other cosmological parameters.
+                 − (0.029 ± 0.008),                                       In addition, a deviation from self-similarity due to baryonic
+                                                                      physics may cause the Mtot − Mgas relation to be mass- and
+with an intrinsic scatter σi = 15.2 ± 1.3%.                           redshift-dependent. In Lovisari et al. (2020b), deviations from
+    We show that we are fully compatible with a mass-                 self-similarity of the ESZ cluster sample are studied. In partic-
+independent mass calibration bias. We still however observe an        ular, the redshift evolution of the relation is compatible with 0,
+offset, with the masses from XMM-Newton being globally lower          in agreement with the self-similar prediction. On the other hand,
+Article number, page 10 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+
+
+
+
+                                                                         Fig. 9. 1D and 2D posteriors obtained when comparing the bias param-
+Fig. 8. 1D and 2D posteriors obtained when comparing the CB, VB and
+                                                                         eters derived for the three samples, when considering a linear evolution
+VB + Ωm scenarios with a linear parametrization. The contours mark the
+                                                                         of the bias. The contours mark the 68% and 95% c.l.
+68% and 95% c.l. and the gray dashed lines highlight reference values
+for (B1 , Ωb /Ωm , Ωm ) = (0, 0.156, 0.315). The orange bands mark the
+Planck Collaboration et al. (2020) values for Ωb /Ωm and Ωm at 2σ c.l.
+                                                                         5.1.3. Role of the parametrization
+
+                                                                         In the previous work Wicker et al. (2022), we investigated the
+the slope of the relation (i.e. its mass evolution), which we call       evolution of B with redshift, using a linear parametrization for
+γ departs from the self similar prediction by more than 4σ, with         the evolution of the bias,
+γ = 0.802 ± 0.049. This result however was obtained on the
+hydrostatic masses computed from the X-ray observations and,
+thus, the fitted relation is MHE − Mgas . We show in Appendix B          B(z) = B0 + B1 (z − hzi)                                           (17)
+that the observed evolution of fgas with mass is, consequently,
+most likely due to a combination of an evolution of the bias and
+a deviation of the true Mtot − Mgas relation from self-similarity.       instead of a power law. Here, we compare the results given by
+However, we cannot disentangle the two effects and acknowl-              this choice of parametrization to the results we got for a power
+edge that assuming or not self-similarity may lead to changes in         law model. In this comparison of the linear case with the power
+the value of the mass evolution of the bias (see e.g. Eckert et al.      law case we focus on the redshift dependence, as we did not find
+(2016) or Truong et al. (2018)).                                         strong evidence for a mass evolution of the bias in the major-
+                                                                         ity of our samples. We show in Figures 8 and 9 and in Table
+   The calibration bias, K, may evolve with cluster mass. We             4 that the results are qualitatively consistent between the power
+show in Sect. 5.1.1 that when comparing Chandra and XMM-                 law and linear descriptions. Indeed, in both cases, when consid-
+Newton masses such an evolution should be small. For this rea-           ering the VB + Ωm scenario, we observe a strong sample de-
+son, any possible impact is accounted for by our prior on K.             pendence of the results. As a matter of fact, we show in Fig-
+                                                                         ure 8 that the LowMz clusters strongly favor a non-zero slope,
+    The stellar fraction may also vary both with mass and with           namely, B1 = −0.73+0.30
+                                                                                               −0.66 . On the high end of the mass-redshift
+redshift (see e.g. Lin et al. (2012) or Henden et al. (2020)). The       plane, we find results that are consistent with the power law case
+mean value of this parameter being negligible, such an evolution         and that are also compatible with no redshift evolution of B,
+only has a minor impact on our our results and we can consider           as we find B1 = −0.095 ± 0.14. Our estimates of B0 are also
+it constant in our analysis, following the prior from Eckert et al.      consistent between the power law case and the linear case for
+                                                                                                                                     +0.051
+(2019).                                                                  each subsample respectively, as we find B0,lowMz = 0.912−0.059     ,
+                                                                                           +0.044
+    Thus, the only two possible remaining contributions to the           B0,highMz = 0.763−0.039 and B0, f ull = 0.839 ± 0.046.
+evolution of fgas are the hydrostatic bias, which can evolve with            When studying the VB scenario, we still observe the strong
+mass and redshift, and the cosmology, inducing a redshift evo-           degeneracy between the term accounting for the redshift evolu-
+lution on the part of the gas fraction. Following our motivated          tion of B (here, B1 ) and Ωm . This explains why we again ob-
+choice of priors on both bias and cosmological parameters in the         tained aberrant values of Ωm when considering the CB scenario.
+two parts of the analysis, we conclude that the only effect able         This compatibility between the qualitative results given by both
+to induce a mass and redshift evolution of fgas is the hydrostatic       parametrizations would hint at the fact that our results are not
+mass bias.                                                               dominated by our choice of model for the bias evolution.
+                                                                                                                  Article number, page 11 of 24
+                                                    A&A proofs: manuscript no. fgas_bias
+
+Table 4. Constraints obtained on bias and cosmological parameters, when assuming a linear parametrization. Uncertainties are given at 68%c.l.
+
+
+                                              B0                 B1                    Ωb /Ωm                      Ωm
+                       CB               0.842 ± 0.038             0               0.1375 ± 0.0096                > 0.869
+                       VB               0.838 ± 0.040        −0.21+0.27
+                                                                  −0.13              0.144+0.011
+                                                                                          −0.015                    –
+                    VB + Ωm             0.829 ± 0.039     −0.486 ± 0.093            0.15 ± 0.011         0.315 ± 0.007 (prior)
+              LowMz subsample            0.912+0.051
+                                              −0.059         −0.73+0.30
+                                                                  −0.66        0.156 ± 0.003 (prior)     0.315 ± 0.007 (prior)
+              HighMz subsample           0.763+0.039
+                                              −0.044       −0.095 ± 0.14       0.156 ± 0.003 (prior)     0.315 ± 0.007 (prior)
+                  Full sample           0.839 ± 0.046       −0.496+0.10
+                                                                  −0.091       0.156 ± 0.003 (prior)     0.315 ± 0.007 (prior)
+
+Notes. We remind that when investigating the sample dependence (second part of the table), we are considering the VB + Ωm scenario with a prior
+on Ωb /Ωm .
+
+
+                                                                          serve the same behavior regarding the value of the constant term
+                                                                          of the bias B0 , with compatible results for the high redshift clus-
+                                                                          ters but incompatible ones when considering the full sample. We
+                                                                          might argue that these differences come from different choices of
+                                                                          priors in the two studies. Indeed, when investigating sample de-
+                                                                          pendencies we did not assume any prior on the bias parameters
+                                                                          and we considered priors on cosmology, whereas Salvati et al.
+                                                                          (2019) assumed a prior on the total value of the bias and let their
+                                                                          cosmological parameters remain free. However, this might not
+                                                                          have such a strong impact, since in the first part in the analysis,
+                                                                          we let the cosmological parameters free and we put a prior on
+                                                                          the total value of the bias; in our results we do not see significant
+                                                                          deviations in the value of B0 between the two cases. These dif-
+                                                                          ferences are actually most probably due to differences between
+                                                                          the clusters considered in the two studies, as the clusters from
+                                                                          the ESZ sample have globally higher mass at an equivalent red-
+                                                                          shift than the PSZ2Cosmo sample considered in their study, as
+                                                                          we show in Figure 10. If anything, this could be yet another indi-
+                                                                          cation of the strong sample dependence in the results we present
+                                                                          here.
+                                                                              Our results are nonetheless consistent with other weak lens-
+                                                                          ing studies, which include Weighing the Giants (WtG, von der
+Fig. 10. Comparison between the PSZ2Cosmo sample used in Salvati          Linden et al. (2014) or CCCP (Hoekstra et al. 2015), display-
+et al. (2019) and the Planck-ESZ sample.                                  ing a mild decreasing trend in mass for B when considering
+                                                                          high redshift (zWtG = 0.31, zCCCP = 0.246) and high mass
+                                                                          (M500,WtG = 13.58×1014 M , M500,CCCP = 10.38×1014 M ) clus-
+5.2. Comparison with other studies                                        ters. More recent works such as the X-ray study X-COP (Eckert
+                                                                          et al. 2019) also seem to show a possible mass-dependent bias,
+5.2.1. Mass and redshift trends of the bias                               with a decreasing trend of B. The weak-lensing studies LoCuSS
+In this work, we show a strong sample dependence of our sam-              (Smith et al. 2016) and CoMaLit (Sereno & Ettori 2017) both
+pled results on different mass and redshift variations of the bias        find decreasing trends of B with redshift, in agreement with this
+depending on the mass and redshift range of the subsample.                work, for clusters in the mass and redshift range of our sample
+We show that for low redshift and low mass clusters, the bias             (zLoCuS S = 0.22, MLoCuS S = 6.8 × 1014 M ).
+tends to stay constant with mass, while it increases toward higher            On a side note, our results regarding the amplitude, B0 ,
+redshift. The reverse behavior is observed in the case of high            are also compatible with Lovisari et al. (2020a), where the au-
+masses and high redshift clusters, with a bias that is constant           thors measured the ratio of hydrostatic to weak lensing mass
+with redshift but slightly increasing with the mass of the objects.       MHE /MWL inside the Planck-ESZ sample. The authors found a
+This sample dependence had already been noted in Salvati et al.           ratio (MHE /MWL )ES Z = 0.74 ± 0.06, which is in agreement with
+(2019), where the authors used tSZ number counts on the cos-              our amplitude B0,ES Z = 0.840 ± 0.095.
+mology sample of the PSZ2 catalog. The authors indeed noted a
+non-zero trend of the bias with redshift when considering their           5.2.2. Discussing the choice of a sample at R500
+complete sample, which disappeared when considering only the
+clusters above z = 0.2. We note, however, that the compatibil-            In this work, we focus on gas fractions taken at R500 , which is
+ity of our results with that study regarding the mass and redshift        larger than most works using fgas as a cosmological probe, car-
+trends depends on the considered subsample of clusters. We ob-            ried out at R2500 . The choice of R2500 is generally motivated by
+Article number, page 12 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+the low scatter of the gas fraction data around those radii (see
+Mantz et al. (2014) and references therein), allowing for more
+precise cosmological constraints. The scatter fgas in data is larger
+at R500 , however, this inconvenient is balanced by the stability of
+the depletion factor Υ at this radius. Indeed, as shown by the hy-
+drodynamical simulations from Planelles et al. (2013), the value
+of Υ does not vary much with the radius when it is measured
+around R500 . This reduces the possibility of a biased estimation
+of the depletion due to incorrect determinations of R500 . On the
+other hand Υ starts to decrease in the vicinity of R2500 . As a con-
+sequence, if the radius is not properly measured, (e.g. due to er-
+roneous estimations of the density contrast), the estimation of
+the depletion will be biased. Our purpose in this study being to
+constrain the hydrostatic mass bias and its evolution, we need a
+robust prior on the depletion factor, due to the degeneracy be-
+tween Υ and B. A bias in the value of the depletion due to an
+incorrectly measured radius would then impact our results on
+the mean value and evolution of B.
+
+
+5.3. Discussing the tension on the bias value
+
+Finally, we highlight that the value of B0 = 0.840 ± 0.095 we
+found for the full sample is in agreement with a collection of
+other studies, including the aforementioned weak-lensing and X-
+ray studies, as well as with works from hydrodynamical simula-
+tions, as shows in Figure 11. The works shown in Figure 11 are
+those for which the bias is known at R500 with a central value
+and error bars, where the mean mass and redshift of the samples
+are available. We show, however, that this value is incompati-
+ble with the values B0 = 0.62 ± 0.03 from Planck Collaboration
+et al. (2020), or B0 . 0.67 from Salvati et al. (2018), which are
+needed to reconcile local measurements of the bias with the com-
+bination of CMB and tSZ number counts measurements. Indeed,
+as we show in Figure 11, the tension is alleviated only for the
+highest redshifts and, more particularly for the highest masses,
+for clusters with M & 1015 M .
+    Similarly the X-COP study (Eckert et al. 2019) shows that
+assuming a bias of B = 0.58 ± 0.04 from Planck Collabora-
+tion et al. (2016) results in gas fractions that are way lower
+than expected, as they find a median gas fraction of their sam-
+ple fgas,B=0.58 = 0.108 ± 0.006. This would imply that the galaxy
+clusters from their sample are missing about a third of their gas.
+A low value for the bias thus seems highly unlikely given its
+implications fir the gas content of galaxy clusters.
+    We show a similar result in this work. Indeed, from Equa-
+tion 6, it is possible to compute the expected universal baryon
+fraction for a certain value of the bias, namely :
+
+                                              !3/2
+Ωb             1 B(M, z) DA (z)                                       Fig. 11. Comparison of our value of the mass bias depending on mass
+   = fgas + f∗                                       ,          (18)    and redshift with other works in X-ray, weak lensing, and hydrodynam-
+Ωm              KA(z) Υ(M, z) DA (z)re f                                ical simulations. In both panels, the shaded areas mark the 1 and 2σ
+                                                                        confidence levels and the gray band marks the value preferred by CMB
+                                                                        observations of B = 0.62 ± 0.003. The half-filled circles are hydrody-
+meaning Ωb /Ωm ∝ B. When assuming a low value of the                    namical simulation works. Other points represent works based on ob-
+bias B = 0.62 ± 0.03 from Planck Collaboration et al. (2020),           servations. Top : Value of the bias depending on redshift, computed for
+we show that the derived baryon fraction becomes Ωb /Ωm =               the mean mass of our sample. Bottom : Value of the bias depending on
+0.108±0.018, which is incompatible with the value of the baryon         mass, computed at the mean redshift of our sample.
+fraction derived from the CMB, Ωb /Ωm = 0.156 ± 0.003 (Planck           References : Rasia et al. (2012), Mahdavi et al. (2013), von der Linden
+Collaboration et al. 2020), as we show in Figure 12. Assuming           et al. (2014), Gruen et al. (2014), Hoekstra et al. (2015), Israel et al.
+a low value of the bias would then imply that the Universe hosts        (2015), Biffi et al. (2016), Okabe & Smith (2016), Smith et al. (2016),
+roughly 20% less baryons than expected. We thus argue that a            Sereno et al. (2017), Gupta et al. (2017), Jimeno et al. (2018), Medezin-
+value of the bias B = 0.62 ± 0.03 seems highly unlikely provided        ski et al. (2018), Eckert et al. (2019), Salvati et al. (2019), Herbonnet
+                                                                        et al. (2020), Lovisari et al. (2020a), Planck Collaboration et al. (2020),
+our gas fraction data.                                                  Gianfagna et al. (2021).
+                                                                                                                   Article number, page 13 of 24
+                                                    A&A proofs: manuscript no. fgas_bias
+
+                                                                         when considering a Planck prior on Ωm . Furthermore, the sample
+                                                                         dependence we observe for the power law case holds true when
+                                                                         assuming a linear evolution of the bias.
+                                                                             Despite these results, we stress that our results remain com-
+                                                                         patible with a collection of X-ray, weak lensing, and hydrody-
+                                                                         namical simulation works regarding the mean value of the bias,
+                                                                         given our finding of B0 = 0.840 ± 0.095. This value remains, on
+                                                                         the other hand, in tension with the value required from the com-
+                                                                         bination of CMB observations and tSZ cluster counts to alleviate
+                                                                         the tension on σ8 .
+                                                                             Finally, we recall that this work is focused on gas fractions
+                                                                         taken at R500 , with a goal to obtain constraints on two cosmolog-
+                                                                         ical parameters, the universal baryon fraction, Ωb /Ωm , and the
+                                                                         matter density of the Universe, Ωm , which are the two parame-
+                                                                         ters mainly probed by fgas . We thus argue that the gas fraction
+                                                                         can be used to set constraints on the cosmological model, albeit
+Fig. 12. Comparison of the expected baryon fraction Ωb /Ωm between       provided that one properly models the gas effects taking place in-
+the bias we derived in the VB + Ωm scenario and B = 0.62 from (Planck    side clusters and provided that fgas is used in combination with
+Collaboration et al. 2020).                                              other probes.
+                                                                         Acknowledgements. The authors thank the anonymous referee for their help-
+6. Conclusion                                                            ful comments and discussion. They also acknowledge the fruitful discussions
+                                                                         and comments from Lorenzo Lovisari, Stefano Ettori, Hideki Tanimura, Daniela
+We measured the gas mass fraction of galaxy clusters at R500             Galárraga-Espinosa, Edouard Lecoq, Joseph Kuruvilla and Celine Gouin. The
+                                                                         authors also thank the organisers and participants of the 2021 edition of the "Ob-
+and used it to constrain a possible mass and redshift evolution          serving the mm Universe with the NIKA2 Camera" conference for their use-
+of the hydrostatic mass bias. To do so, we compared the cosmo-           ful comments and discussions. RW acknowledges financial support from the
+logical constraints we obtained when assuming a varying bias to          Ecole Doctorale d’Astronomie et d’Astrophysique d’Ile-de-France (ED AAIF).
+those we obtained when assuming a constant B. We show that               This research has made use of the SZ-Cluster Database operated by the Inte-
+                                                                         grated Data and Operation Center (IDOC) at the Institut d’Astrophysique Spa-
+assuming a redshift evolution seems necessary when performing            tiale (IAS) under contract with CNES and CNRS. This project was carried out
+a cosmological analysis using fgas data at R500 . Indeed we show         using the Python libraries matplotlib (Hunter 2007), numpy (Harris et al.
+a significant degeneracy between the redshift dependence of the          2020), astropy (Astropy Collaboration et al. (2013), Astropy Collaboration
+bias β and the matter density Ωm . This degeneracy implies that          et al. (2018)) and pandas (Reback et al. 2021). It also made use of the Python
+                                                                         library for MCMC sampling emcee (Foreman-Mackey et al. 2013), and of the
+high and close to zero β push the matter density to higher values.       getdist (Lewis 2019) package to read posterior distributions.
+As a consequence, assuming a constant bias implies Ωm > 0.860,
+which is aberrant. Forcing Ωm to have sensible values by impos-
+ing a Planck Collaboration et al. (2020) prior in turns induces
+β = −0.64 ± 0.17, in a 3.8σ tension with 0.                              References
+    We show, however, that these results are strongly dependent          Allen, S. W., Evrard, A. E., & Mantz, A. B. 2011, ARA&A, 49, 409
+on the considered sample. Indeed for the least massive clusters          Allen, S. W., Rapetti, D. A., Schmidt, R. W., et al. 2008, MNRAS, 383, 879
+of our sample at the lowest redshifts, we show an important de-          Allen, S. W., Schmidt, R. W., & Fabian, A. C. 2002, MNRAS, 334, L11
+creasing trend of B with redshift and no trend with mass, with the       Andrade-Santos, F., Pratt, G. W., Melin, J.-B., et al. 2021, ApJ, 914, 58
+                                                                         Astropy Collaboration, Price-Whelan, A. M., Sipőcz, B. M., et al. 2018, AJ, 156,
+set (α, β) = (0.09 ± 0.11, −0.995+0.44
+                                   −0.78 ). On the other hand, for the      123
+most massive clusters at highest redshifts, we observe no vari-          Astropy Collaboration, Robitaille, T. P., Tollerud, E. J., et al. 2013, A&A, 558,
+ation with redshift but we see that a decreasing evolution with             A33
+mass is favored, with (α, β) = (−0.149 ± 0.058, −0.08 ± 0.23).           Balmès, I., Rasera, Y., Corasaniti, P.-S., & Alimi, J.-M. 2013, Monthly Notices
+                                                                            of the Royal Astronomical Society, 437, 2328
+When we consider the full sample, the results we obtain lie be-          Battaglia, N., Bond, J. R., Pfrommer, C., & Sievers, J. L. 2012, ApJ, 758, 74
+tween the two extremes, largely favoring a decreasing trend of           Battaglia, N., Bond, J. R., Pfrommer, C., & Sievers, J. L. 2013, ApJ, 777, 123
+B with redshift, yet remaining compatible with no mass trend of          Bennett, J. S. & Sijacki, D. 2022, MNRAS, 514, 313
+the bias as we obtain (α, β) = (−0.057 ± 0.038, −0.64 ± 0.18). We        Biffi, V., Borgani, S., Murante, G., et al. 2016, ApJ, 827, 112
+recall, however, that other selection effects might affect our re-       Borgani, S. & Kravtsov, A. 2011, Advanced Science Letters, 4, 204
+                                                                         Crain, R. A., Eke, V. R., Frenk, C. S., et al. 2007, MNRAS, 377, 41
+sults as the clusters at the highest redshifts are also generally the    Cui, W., Knebe, A., Yepes, G., et al. 2018, MNRAS, 480, 2898
+most massive. In addition, deviations from self-similarity may           Eckert, D., Ettori, S., Coupon, J., et al. 2016, A&A, 592, A12
+lead to changes in the value of the mass evolution of the bias.          Eckert, D., Ghirardini, V., Ettori, S., et al. 2019, A&A, 621, A40
+    In order to identify and rule out different sources of system-       Eke, V. R., Navarro, J. F., & Frenk, C. S. 1998, ApJ, 503, 569
+                                                                         Foreman-Mackey, D., Hogg, D. W., Lang, D., & Goodman, J. 2013, PASP, 125,
+atic effects in our study, we looked at the possibility of being            306
+subject to instrumental calibration effects. Using mass measure-         Galárraga-Espinosa, D., Langer, M., & Aghanim, N. 2022, A&A, 661, A115
+ments of the galaxy clusters in our sample both from Chandra             Gianfagna, G., De Petris, M., Yepes, G., et al. 2021, MNRAS, 502, 5115
+and XMM-Newton, we find no evidence of a bias that would sig-            Gouin, C., Gallo, S., & Aghanim, N. 2022, A&A, 664, A198
+                                                                         Gruen, D., Seitz, S., Brimioulle, F., et al. 2014, MNRAS, 442, 1507
+nificantly change our results. In this study, we assumed a power-        Gupta, N., Saro, A., Mohr, J. J., Dolag, K., & Liu, J. 2017, MNRAS, 469, 3069
+law description for the evolution of the bias. We look at the ef-        Harris, C. R., Millman, K. J., van der Walt, S. J., et al. 2020, Nature, 585, 357
+fect of this choice of parametrization by comparing our results          Henden, N. A., Puchwein, E., & Sijacki, D. 2020, MNRAS, 498, 2114
+to those we obtain when assuming a linear evolution of B with            Herbonnet, R., Sifón, C., Hoekstra, H., et al. 2020, MNRAS, 497, 4684
+                                                                         Hoekstra, H., Herbonnet, R., Muzzin, A., et al. 2015, MNRAS, 449, 685
+redshift. We find no major difference with the power law case, as        Hoekstra, H., Mahdavi, A., Babul, A., & Bildfell, C. 2012, MNRAS, 427, 1298
+we still observe a strong degeneracy between the redshift evolu-         Holanda, R. F. L., Pordeus-da-Silva, G., & Pereira, S. H. 2020, J. Cosmology
+tion of B and Ωm , favoring an evolution of the bias with redshift          Astropart. Phys., 2020, 053
+
+Article number, page 14 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+Hunter, J. D. 2007, Computing in Science and Engineering, 9, 90
+Israel, H., Schellenberger, G., Nevalainen, J., Massey, R., & Reiprich, T. H. 2015,
+   MNRAS, 448, 814
+Jimeno, P., Diego, J. M., Broadhurst, T., De Martino, I., & Lazkoz, R. 2018,
+   MNRAS, 478, 638
+Kravtsov, A. V. & Borgani, S. 2012, ARA&A, 50, 353
+Kravtsov, A. V., Nagai, D., & Vikhlinin, A. A. 2005, ApJ, 625, 588
+Lau, E. T., Kravtsov, A. V., & Nagai, D. 2009, ApJ, 705, 1129
+Lewis, A. 2019, arXiv e-prints, arXiv:1910.13970
+Lin, Y.-T., Stanford, S. A., Eisenhardt, P. R. M., et al. 2012, ApJ, 745, L3
+Lovisari, L., Ettori, S., Sereno, M., et al. 2020a, A&A, 644, A78
+Lovisari, L., Schellenberger, G., Sereno, M., et al. 2020b, ApJ, 892, 102
+Mahdavi, A., Hoekstra, H., Babul, A., et al. 2013, ApJ, 767, 116
+Mantz, A. B., Allen, S. W., Morris, R. G., et al. 2014, MNRAS, 440, 2077
+Mantz, A. B., Morris, R. G., Allen, S. W., et al. 2022, MNRAS, 510, 131
+McCarthy, I. G., Babul, A., Holder, G. P., & Balogh, M. L. 2003a, ApJ, 591, 515
+McCarthy, I. G., Holder, G. P., Babul, A., & Balogh, M. L. 2003b, ApJ, 591, 526
+McCarthy, I. G., Schaye, J., Bird, S., & Le Brun, A. M. C. 2017, MNRAS, 465,
+   2936
+Medezinski, E., Battaglia, N., Umetsu, K., et al. 2018, PASJ, 70, S28
+Nelson, K., Lau, E. T., & Nagai, D. 2014, ApJ, 792, 25
+Okabe, N. & Smith, G. P. 2016, MNRAS, 461, 3794
+Planck Collaboration, Ade, P. A. R., Aghanim, N., et al. 2014, A&A, 571, A20
+Planck Collaboration, Ade, P. A. R., Aghanim, N., et al. 2011, A&A, 536, A8
+Planck Collaboration, Ade, P. A. R., Aghanim, N., et al. 2016, A&A, 594, A24
+Planck Collaboration, Aghanim, N., Akrami, Y., et al. 2020, A&A, 641, A6
+Planelles, S., Borgani, S., Dolag, K., et al. 2013, MNRAS, 431, 1487
+Poole, G. B., Babul, A., McCarthy, I. G., et al. 2007, MNRAS, 380, 437
+Pratt, G. W., Arnaud, M., Biviano, A., et al. 2019, Space Sci. Rev., 215, 25
+Rasia, E., Ettori, S., Moscardini, L., et al. 2006, MNRAS, 369, 2013
+Rasia, E., Meneghetti, M., Martino, R., et al. 2012, New Journal of Physics, 14,
+   055018
+Reback, J., McKinney, W., jbrockmendel, et al. 2021, pandas-dev/pandas: Pan-
+   das 1.2.4
+Ruan, J. J., Quinn, T. R., & Babul, A. 2013, MNRAS, 432, 3508
+Sakr, Z., Ilić, S., Blanchard, A., Bittar, J., & Farah, W. 2018, A&A, 620, A78
+Salvati, L., Douspis, M., & Aghanim, N. 2018, A&A, 614, A13
+Salvati, L., Douspis, M., Ritz, A., Aghanim, N., & Babul, A. 2019, A&A, 626,
+   A27
+Sarazin, C. L. 1988, X-ray emission from clusters of galaxies
+Schellenberger, G., Reiprich, T. H., Lovisari, L., Nevalainen, J., & David, L.
+   2015, A&A, 575, A30
+Sembolini, F., Yepes, G., Pearce, F. R., et al. 2016, MNRAS, 457, 4063
+Sereno, M., Covone, G., Izzo, L., et al. 2017, MNRAS, 472, 1946
+Sereno, M. & Ettori, S. 2017, MNRAS, 468, 3322
+Shi, X., Komatsu, E., Nelson, K., & Nagai, D. 2015, MNRAS, 448, 1020
+Smith, G. P., Mazzotta, P., Okabe, N., et al. 2016, MNRAS, 456, L74
+Sunyaev, R. A. & Zeldovich, Y. B. 1972, Comments on Astrophysics and Space
+   Physics, 4, 173
+Truong, N., Rasia, E., Mazzotta, P., et al. 2018, MNRAS, 474, 4089
+Vazza, F., Brunetti, G., Kritsuk, A., et al. 2009, A&A, 504, 33
+von der Linden, A., Mantz, A., Allen, S. W., et al. 2014, MNRAS, 443, 1973
+White, S. D. M., Navarro, J. F., Evrard, A. E., & Frenk, C. S. 1993, Nature, 366,
+   429
+Wicker, R., Douspis, M., Salvati, L., & Aghanim, N. 2022, in European Physical
+   Journal Web of Conferences, Vol. 257, European Physical Journal Web of
+   Conferences, 00046
+
+
+
+
+                                                                                                                Article number, page 15 of 24
+                                                           A&A proofs: manuscript no. fgas_bias
+
+Appendix A: Cluster sample
+                                                                                              (α+1) 1−γ             1−γ
+The redshifts, gas masses, total masses, and gas mass fractions               ⇒ fgas,obs ∝ Mtot      γ
+                                                                                                          · (1 + z)β γ                        (B.7)
+within R500 of the clusters we used for this study are given in
+Table A.1. The redshifts and gas and total masses for the clusters            and the fitted Mtot − Mgas scaling relation can be summed up as
+were taken from Lovisari et al. (2020b). We computed the gas                  follows:
+fractions from these masses.                                                   α+1                  γ
+                                                                              Mtot (1 + z)β(1−γ) ∝ Mgas .                                     (B.8)
+
+Appendix B: Effect of non self-similarity                                     In the paper, we find an evolution of the gas fraction fgas,obs ∝
+                                                                                0.057±0.038
+                                                                              Mtot          (1 + z)0.64±0.017 for the full sample. There are several
+The scaling relations between two quantities (X, Y) from Lovis-               possibilities to explain this result when accounting for deviations
+ari et al. (2020b) are fitted using the following generic form :              of the Mtot − Mgas relation from self-similarity :
+      Y                   Z                                                – The self-similar hypothesis predicts a linear and redshift in-
+log          =  + γ log           + δ log Fz ± σY|Z                  (B.1)      dependent relation between the total mass and the gas mass,
+       C1                   C2                                                   i.e. α+1 = γ and β(1−γ) = 0. In this description, all the mass
+with                                                                             and redshift evolution of the gas fraction comes from the
+                                                                                 bias. From Lovisari et al. (2020b) we have γ = 0.802±0.049.
+log X = log Z ± σX|Z ,                                                           This means that in the self-similar case, we should obtain
+                                                                                                                          (α+1) 1−γ
+where C1 and C2 are pivot points,  is the normalisation, γ the                  α = −0.198 ± 0.049 i.e. fgas ∝ Mtot γ = Mtot          0.198±0.049
+                                                                                                                                                   ,
+slope of the relation, δ its evolution with redshift, σ the intrinsic            which is in tension with our measured value at 2.9σ. In addi-
+scatter in the two variables and Fz = E(z)/E(z)re f (Lovisari et al.             tion, from our measured value of β = −0.64 ± 0.17, we find
+2020b). As a result, when we focus on the MHE − Mgas relation,                   β(1 − γ) = −0.13 ± 0.05, in tension with 0 at 2.6σ. This hints
+we have the following expression (we ignore σ for simplicity as                  at the fact that the mass and redshift evolution of fgas can not
+they only represent a scatter, i.e. an uncertainty, around a mean                be accounted for solely by an evolution of the bias. Instead,
+value):                                                                          a deviation from self-similarity of the Mtot − Mgas relation is
+                 !                       !                   !                   necessary to explain our results.
+         MHE                       Mgas               E(z)                     – As we show a deviation of the Mtot − Mgas relation from
+log                =  + γ log             + δ log             (B.2)
+     6 · 1014 M                  1014 M             E(z)re f                     self-similarity, one may wonder whether this effect may to-
+                                                                                 tally mimic the effect of a mass evolution of the bias. This
+                                      !γ              !δ                         is however not the case. Indeed, if we set a constant bias
+          MHE         Mgas                  E(z)
+⇒              = 10                                                  (B.3)      α = β = 0, then (α + 1) 1−γ       1−γ
+                                                                                                             γ = γ = 0.057 ± 0.049 (found
+            14
+      6 · 10 M       1014 M                E(z)re f                              with the full sample), leading to γ = 0.946 ± 0.034, in ten-
+In particular, the value for δ measured by Lovisari et al. (2020b)               sion at 4σ the with the value found by Lovisari et al. (2020b)
+is δ = −0.317 ± 0.307. Even if this value is consistent with 0                   of γ = 0.802 ± 0.049. Furthermore, putting β = 0 leads to
+within 1σ, the error bars encompass a large range of values, up                  β 1−γ
+                                                                                    γ = 0, i.e. a redshift independent gas fraction. This is
+to δ = −0.6, which represents a strong evolution. We test there-                 however not what we observe.
+fore the impact of having δ , 0. We find here that this assump-
+tion does not affect our results, as the factor Fzδ = (E(z)/E(z)re f )δ       We thus show that the dependence of fgas on mass and redshift
+does not deviate from 1 when we are close to the reference cos-               cannot be due to deviations from self-similarity or to an evo-
+mology. In our analysis, the cosmological constraints we find are             lution of the bias alone. Instead, it can only be explained by a
+always in agreement with a Planck Collaboration et al. (2020)                 combination of the two effects.
+cosmology within 1σ (see Table 2). When using this cosmology
+in our redshift range, we always remain compatible with Fzδ = 1               Appendix C: Effect of the prior on the depletion Υ0
+within 1σ, with less than 1% of deviation. This term can thus
+be ignored in the rest of the analysis, and we are left with the              In order to properly assess the effect of the depletion factor on
+following relation :                                                          our conclusions, we performed runs of the VB scenario when
+                                         !γ                                   considering two different values of the depletion, the one we as-
+      1−γ   6 · 1014 M × 10 Mgas                                             sumed throughout the paper Υ0 = 0.85 ± 0.03 from Planelles
+⇒ MHE     =                     ·           .                  (B.4)
+                 (1014 M )γ        MHE                                        et al. (2013) and Υ0 = 0.94 ± 0.04 from Eckert et al. (2019).
+                                                                                  When we apply a 10% shift in the value of the depletion, we
+For displaying purposes we set :                                              do not observe a significant shift in the value of the other pa-
+       6 · 1014 M × 10                                                       rameters, as we show in Figure C.1 and Table C.1. We however
+A=                      .                                                     acknowledge that this result is due to the presence of a prior on
+           (1014 M )γ                                                         the total value of the bias, which we assume in the first part of
+We obtain the following expression, as MHE = B(M, z) · Mtot :                 the analysis. To try to quantify the impact of this prior, we leave
+                            γ                                                 the bias fully free in second MCMC runs. We show the results in
+(B(M, z) · Mtot )1−γ = A · fgas,obs .                                 (B.5)   Figure C.2 Table C.1. Similarly to the previous case, we do not
+                                                                              observe a particular shift of the constraints from a shift of the de-
+We remind that throughout the paper we assumed a power law
+                                         M α                               pletion, mostly because the posterior distribution are extremely
+                                                  1+z β
+                                                       
+evolution of the bias B(M, z) = B0 hM      tot
+                                           tot i h1+zi   . We thus have       wide. In particular, we do not find a degeneracy between Υ and
+the following relation:                                                       other parameters, including B0 or cosmological parameters. We
+                        1−γ                                                  thus claim that although the depletion factor is indeed a strong
+      α                         γ
+          Mtot (1 + z)β
+
+  B0 Mtot                    ∝ fgas,obs                           (B.6)       systematic in our analysis, we address it properly.
+Article number, page 16 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+
+
+
+
+Fig. C.1. MCMC results for a 10% shift of the depletion factor in our analysis in the VB scenario. We note that in this case, we assume a prior on
+the total value of the bias.
+
+
+
+
+                                                                                                                   Article number, page 17 of 24
+                                                      A&A proofs: manuscript no. fgas_bias
+
+
+
+
+Fig. C.2. MCMC results for a 10% shift of the depletion factor in our analysis in the VB scenario, without any prior on the total value of the bias.
+
+
+
+
+Article number, page 18 of 24
+ R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                        fraction in galaxy clusters
+Table C.1. Constraints on the model parameters in the VB scenario, after a 10% shift of the depletion factor, with and without a prior on the total
+value of the bias. All uncertainties and limits are at the 68% c.l.
+
+                             Prior on the total bias                                                   No prior on the total bias
+                                Υ0 = 0.85 ± 0.03         Υ0 = 0.94 ± 0.04       Υ0 = 0.85 ± 0.03            Υ0 = 0.94 ± 0.04
+             B0                   0.831 ± 0.04              0.832 ± 0.04             1.10+0.53
+                                                                                         −0.23                   > 0.968
+             α                  −0.055 ± 0.037            −0.056 ± 0.037         −0.056 ± 0.037              −0.055 ± 0.037
+             β                     −0.43+0.60
+                                        −0.37                −0.41+0.58
+                                                                  −0.36             −0.40+0.59
+                                                                                         −0.33                  −0.43+0.60
+                                                                                                                     −0.36
+
+             Ω b /Ω m              0.153+0.018
+                                        −0.025               0.139+0.018
+                                                                  −0.023           0.198+0.095
+                                                                                        −0.036                  0.188+0.082
+                                                                                                                     −0.052
+
+             Ωm                         –                         –                      –                           –
+             σf                    0.129+0.010
+                                        −0.012               0.129+0.010
+                                                                  −0.012           0.129+0.010
+                                                                                        −0.012                  0.129+0.010
+                                                                                                                     −0.012
+
+             (Υ0 , f∗ , h)           = prior                   = prior               = prior                     = prior
+
+
+
+
+                                                                                                                    Article number, page 19 of 24
+                                                     A&A proofs: manuscript no. fgas_bias
+
+
+Table A.1. The 120 clusters we used in this study, from the Planck-ESZ sample.
+
+
+                           Planck Name           z       Mgas,500 [×1014 M ]     Mtot,500 [×1014 M ]     fgas,500
+                          G000.44-41.83       0.165          0.661+0.036
+                                                                  −0.033             5.01+0.55
+                                                                                         −0.48         0.132+0.016
+                                                                                                            −0.014
+
+                          G002.74-56.18       0.141          0.563+0.021
+                                                                  −0.014             4.96+0.43
+                                                                                         −0.28         0.114+0.011
+                                                                                                            −0.007
+
+                          G003.90-59.41       0.151          0.865+0.008
+                                                                  −0.008             6.94+0.19
+                                                                                         −0.19         0.125+0.004
+                                                                                                            −0.004
+
+                          G006.70-35.54       0.089          0.427+0.005
+                                                                  −0.008             2.42+0.04
+                                                                                         −0.03         0.176+0.004
+                                                                                                            −0.004
+
+
+
+
+Article number, page 20 of 24
+R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                       fraction in galaxy clusters
+
+                                                Table A.1 continued from previous page
+
+                          Planck Name           z      Mgas,500 [×1014 M ]     Mtot,500 [×1014 M ]       fgas,500
+                         G006.78+30.46       0.203         3.200+0.020
+                                                                −0.020             17.50+0.20
+                                                                                        −0.20         0.183+0.002
+                                                                                                           −0.002
+
+                         G008.44-56.35       0.149         0.464+0.005
+                                                                −0.004              3.61+0.08
+                                                                                        −0.07         0.129+0.003
+                                                                                                           −0.003
+
+                         G008.93-81.23       0.307         1.560+0.010
+                                                                −0.010             10.30+0.20
+                                                                                        −0.20         0.151+0.003
+                                                                                                           −0.003
+
+                         G021.09+33.25       0.151         1.040+0.030
+                                                                −0.030              6.88+0.20
+                                                                                        −0.18         0.151+0.006
+                                                                                                           −0.006
+
+                         G036.72+14.92       0.152         0.816+0.029
+                                                                −0.028              5.21+0.32
+                                                                                        −0.29         0.157+0.011
+                                                                                                           −0.010
+
+                         G039.85-39.98       0.176         0.532+0.036
+                                                                −0.017              3.77+0.47
+                                                                                        −0.17         0.141+0.020
+                                                                                                           −0.008
+
+                         G042.82+56.61       0.072         0.601+0.008
+                                                                −0.007              4.65+0.15
+                                                                                        −0.13         0.129+0.005
+                                                                                                           −0.004
+
+                         G046.08+27.18       0.389         0.990+0.035
+                                                                −0.030              6.26+0.61
+                                                                                        −0.48         0.158+0.016
+                                                                                                           −0.013
+
+                         G046.50-49.43       0.085         0.624+0.009
+                                                                −0.008              6.05+0.28
+                                                                                        −0.26         0.103+0.005
+                                                                                                           −0.005
+
+                         G049.20+30.86       0.164         0.651+0.007
+                                                                −0.007              5.86+0.16
+                                                                                        −0.16         0.111+0.003
+                                                                                                           −0.003
+
+                         G049.33+44.38       0.097         0.385+0.018
+                                                                −0.017              3.84+0.46
+                                                                                        −0.38         0.100+0.013
+                                                                                                           −0.011
+
+                         G049.66-49.50       0.098         0.441+0.008
+                                                                −0.008              4.81+0.21
+                                                                                        −0.19         0.092+0.004
+                                                                                                           −0.004
+
+                         G053.52+59.54       0.113         0.703+0.010
+                                                                −0.008              5.87+0.20
+                                                                                        −0.15         0.120+0.004
+                                                                                                           −0.003
+
+                         G055.60+31.86       0.224         0.941+0.012
+                                                                −0.010              6.54+0.18
+                                                                                        −0.15         0.144+0.004
+                                                                                                           −0.004
+
+                         G055.97-34.88       0.124         0.344+0.009
+                                                                −0.009              5.41+0.45
+                                                                                        −0.37         0.064+0.006
+                                                                                                           −0.005
+
+                         G056.81+36.31       0.095         0.512+0.004
+                                                                −0.004              3.98+0.08
+                                                                                        −0.07         0.129+0.003
+                                                                                                           −0.002
+
+                         G056.96-55.07       0.447         1.520+0.010
+                                                                −0.010              9.62+0.25
+                                                                                        −0.25         0.158+0.004
+                                                                                                           −0.004
+
+                         G057.26-45.35       0.397         1.860+0.020
+                                                                −0.020             13.10+0.60
+                                                                                        −0.60         0.142+0.007
+                                                                                                           −0.007
+
+                         G058.28+18.59       0.065         0.454+0.020
+                                                                −0.005              3.72+0.06
+                                                                                        −0.07         0.122+0.006
+                                                                                                           −0.003
+
+                         G062.42-46.41       0.091         0.287+0.013
+                                                                −0.012              3.26+0.39
+                                                                                        −0.15         0.088+0.011
+                                                                                                           −0.005
+
+                         G067.23+67.46       0.171         1.040+0.000
+                                                                −0.010              8.11+0.17
+                                                                                        −0.18         0.128+0.003
+                                                                                                           −0.003
+
+                         G071.61+29.79       0.157         0.532+0.051
+                                                                −0.043              4.24+0.76
+                                                                                        −0.59         0.125+0.026
+                                                                                                           −0.020
+
+                         G072.63+41.46       0.228         1.650+0.020
+                                                                −0.020             10.70+0.40
+                                                                                        −0.30         0.154+0.006
+                                                                                                           −0.005
+
+                         G072.80-18.72       0.143         0.825+0.011
+                                                                −0.008              5.33+0.17
+                                                                                        −0.12         0.155+0.005
+                                                                                                           −0.004
+
+                         G073.96-27.82       0.233         1.710+0.020
+                                                                −0.020             11.40+0.40
+                                                                                        −0.30         0.150+0.006
+                                                                                                           −0.004
+
+                         G080.38-33.20       0.107         0.383+0.003
+                                                                −0.003              3.66+0.07
+                                                                                        −0.06         0.105+0.002
+                                                                                                           −0.002
+
+                         G080.99-50.90         0.3         0.955+0.020
+                                                                −0.017              6.62+0.32
+                                                                                        −0.23         0.144+0.008
+                                                                                                           −0.006
+
+                         G083.28-31.03       0.412         1.240+0.030
+                                                                −0.020              7.68+0.47
+                                                                                        −0.38         0.161+0.011
+                                                                                                           −0.008
+
+                         G085.99+26.71       0.179         0.397+0.047
+                                                                −0.041              3.31+0.68
+                                                                                        −0.57         0.120+0.028
+                                                                                                           −0.024
+
+                         G086.45+15.29        0.26         0.930+0.021
+                                                                −0.018              5.74+0.33
+                                                                                        −0.25         0.162+0.010
+                                                                                                           −0.008
+
+                         G092.73+73.46       0.228         1.070+0.020
+                                                                −0.020              6.18+0.32
+                                                                                        −0.28         0.173+0.010
+                                                                                                           −0.008
+
+                         G093.91+34.90       0.081         0.549+0.044
+                                                                −0.033              4.68+0.71
+                                                                                        −0.50         0.117+0.020
+                                                                                                           −0.014
+
+                         G096.87+24.21         0.3         0.628+0.108
+                                                                −0.089              5.47+2.40
+                                                                                        −0.39         0.115+0.054
+                                                                                                           −0.018
+
+                         G097.73+38.11       0.171         0.687+0.017
+                                                                −0.016              4.21+0.21
+                                                                                        −0.20         0.163+0.009
+                                                                                                           −0.009
+
+                         G098.95+24.86       0.093         0.299+0.014
+                                                                −0.007              3.25+0.35
+                                                                                        −0.15         0.092+0.011
+                                                                                                           −0.005
+
+
+
+                                                                                                                Article number, page 21 of 24
+                                                A&A proofs: manuscript no. fgas_bias
+
+
+                                           Table A.1 continued from previous page
+
+                           Planck Name      z       Mgas,500 [×1014 M ]   Mtot,500 [×1014 M ]     fgas,500
+                          G106.73-83.22   0.292         0.831+0.026
+                                                             −0.022            5.18+0.36
+                                                                                   −0.29        0.160+0.012
+                                                                                                     −0.010
+
+                          G107.11+65.31   0.292         0.694+0.030
+                                                             −0.028            7.26+0.75
+                                                                                   −0.67        0.096+0.011
+                                                                                                     −0.010
+
+                          G113.82+44.35   0.225         0.570+0.028
+                                                             −0.022            3.87+0.32
+                                                                                   −0.21        0.147+0.014
+                                                                                                     −0.010
+
+                          G124.21-36.48   0.197         0.781+0.029
+                                                             −0.033            5.81+0.57
+                                                                                   −0.62        0.134+0.014
+                                                                                                     −0.015
+
+                          G125.70+53.85   0.302         0.964+0.043
+                                                             −0.043            6.78+0.69
+                                                                                   −0.65        0.142+0.016
+                                                                                                     −0.015
+
+                          G139.19+56.35   0.322         1.020+0.140
+                                                             −0.080            7.42+5.68
+                                                                                   −0.68        0.137+0.107
+                                                                                                     −0.017
+
+                          G149.73+34.69   0.182         1.160+0.050
+                                                             −0.050            7.12+0.71
+                                                                                   −0.63        0.163+0.018
+                                                                                                     −0.016
+
+                          G157.43+30.33   0.45          0.964+0.035
+                                                             −0.031            6.23+0.52
+                                                                                   −0.42        0.155+0.014
+                                                                                                     −0.012
+
+                          G159.85-73.47   0.206         0.988+0.041
+                                                             −0.047            6.73+0.64
+                                                                                   −0.70        0.147+0.015
+                                                                                                     −0.017
+
+                          G164.18-38.89   0.074         0.630+0.028
+                                                             −0.015            5.07+0.45
+                                                                                   −0.22        0.124+0.012
+                                                                                                     −0.006
+
+                          G166.13+43.39   0.217         0.868+0.022
+                                                             −0.019            6.86+0.48
+                                                                                   −0.41        0.127+0.009
+                                                                                                     −0.008
+
+                          G167.65+17.64   0.174         0.925+0.026
+                                                             −0.021            5.88+0.40
+                                                                                   −0.30        0.157+0.012
+                                                                                                     −0.009
+
+                          G171.94-40.65   0.27          1.500+0.090
+                                                             −0.070           12.30+3.40
+                                                                                   −2.10        0.122+0.034
+                                                                                                     −0.022
+
+                          G180.24+21.04   0.546         2.340+0.030
+                                                             −0.050           12.50+0.50
+                                                                                   −0.60        0.187+0.008
+                                                                                                     −0.010
+
+                          G182.44-28.29   0.088         0.958+0.011
+                                                             −0.020            6.93+0.17
+                                                                                   −0.18        0.138+0.004
+                                                                                                     −0.005
+
+                          G182.63+55.82   0.206         0.688+0.015
+                                                             −0.010            4.77+0.26
+                                                                                   −0.16        0.144+0.008
+                                                                                                     −0.005
+
+                          G186.39+37.25   0.282         1.240+0.060
+                                                             −0.050            9.28+1.19
+                                                                                   −0.89        0.134+0.018
+                                                                                                     −0.014
+
+                          G195.62+44.05   0.295         0.877+0.049
+                                                             −0.036            5.82+0.72
+                                                                                   −0.49        0.151+0.020
+                                                                                                     −0.014
+
+                          G195.77-24.30   0.203         1.110+0.020
+                                                             −0.010            6.67+0.32
+                                                                                   −0.22        0.166+0.009
+                                                                                                     −0.006
+
+                          G218.85+35.50   0.175         0.430+0.020
+                                                             −0.019            3.86+0.45
+                                                                                   −0.41        0.111+0.014
+                                                                                                     −0.013
+
+                          G225.92-19.99   0.46          2.190+0.280
+                                                             −0.540           11.00+3.20
+                                                                                   −4.40        0.199+0.063
+                                                                                                     −0.094
+
+                          G226.17-21.91   0.099         0.510+0.011
+                                                             −0.009            4.61+0.32
+                                                                                   −0.23        0.111+0.008
+                                                                                                     −0.006
+
+                          G226.24+76.76   0.143         0.834+0.006
+                                                             −0.005            6.28+0.12
+                                                                                   −0.09        0.133+0.003
+                                                                                                     −0.002
+
+                          G228.15+75.19   0.545         1.350+0.070
+                                                             −0.050            7.94+0.96
+                                                                                   −0.60        0.170+0.022
+                                                                                                     −0.014
+
+                          G228.49+53.12   0.143         0.587+0.017
+                                                             −0.021            5.16+0.35
+                                                                                   −0.42        0.114+0.008
+                                                                                                     −0.010
+
+                          G229.21-17.24   0.171         0.656+0.084
+                                                             −0.068            5.26+1.84
+                                                                                   −0.19        0.125+0.046
+                                                                                                     −0.014
+
+                          G229.94+15.29   0.07          0.851+0.012
+                                                             −0.013            7.01+0.25
+                                                                                   −0.26        0.121+0.005
+                                                                                                     −0.005
+
+                          G236.95-26.67   0.148         0.696+0.014
+                                                             −0.014            5.91+0.32
+                                                                                   −0.33        0.118+0.007
+                                                                                                     −0.007
+
+                          G241.74-30.88   0.271         0.759+0.025
+                                                             −0.022            5.80+0.42
+                                                                                   −0.33        0.131+0.010
+                                                                                                     −0.008
+
+                          G241.77-24.00   0.139         0.395+0.004
+                                                             −0.004            3.29+0.06
+                                                                                   −0.06        0.120+0.003
+                                                                                                     −0.003
+
+                          G241.97+14.85   0.169         0.710+0.069
+                                                             −0.045            4.13+0.64
+                                                                                   −0.38        0.172+0.031
+                                                                                                     −0.019
+
+                          G244.34-32.13   0.284         1.140+0.030
+                                                             −0.030            6.94+0.54
+                                                                                   −0.50        0.164+0.013
+                                                                                                     −0.013
+
+                          G244.69+32.49   0.153         0.504+0.017
+                                                             −0.012            3.70+0.31
+                                                                                   −0.19        0.136+0.012
+                                                                                                     −0.008
+
+                          G247.17-23.32   0.152         0.416+0.037
+                                                             −0.026            3.17+0.54
+                                                                                   −0.35        0.131+0.025
+                                                                                                     −0.017
+
+                          G249.87-39.86   0.165         0.402+0.036
+                                                             −0.028            2.86+0.56
+                                                                                   −0.40        0.141+0.030
+                                                                                                     −0.022
+
+
+
+Article number, page 22 of 24
+R. Wicker , M.Douspis, L. Salvati, N. Aghanim : Constraining the mass and redshift evolution of the hydrostatic mass bias using the gas mass
+                                                       fraction in galaxy clusters
+
+                                                Table A.1 continued from previous page
+
+                          Planck Name           z      Mgas,500 [×1014 M ]     Mtot,500 [×1014 M ]       fgas,500
+                         G250.90-36.25         0.2         0.674+0.027
+                                                                −0.020              5.36+0.51
+                                                                                        −0.36         0.126+0.013
+                                                                                                           −0.009
+
+                         G252.96-56.05       0.075         0.390+0.003
+                                                                −0.003              3.58+0.04
+                                                                                        −0.05         0.109+0.001
+                                                                                                           −0.002
+
+                         G253.47-33.72       0.191         0.571+0.030
+                                                                −0.033              4.52+0.44
+                                                                                        −0.48         0.126+0.014
+                                                                                                           −0.015
+
+                         G256.45-65.71        0.22         0.718+0.057
+                                                                −0.054              5.42+0.89
+                                                                                        −0.76         0.132+0.024
+                                                                                                           −0.021
+
+                         G257.34-22.18       0.203         0.451+0.082
+                                                                −0.051              3.19+0.88
+                                                                                        −0.51         0.141+0.047
+                                                                                                           −0.028
+
+                         G260.03-63.44       0.284         1.000+0.030
+                                                                −0.020              7.15+0.73
+                                                                                        −0.73         0.140+0.015
+                                                                                                           −0.015
+
+                         G262.25-35.36       0.295         1.080+0.070
+                                                                −0.060              6.59+0.90
+                                                                                        −0.70         0.164+0.025
+                                                                                                           −0.020
+
+                         G262.71-40.91        0.42         1.220+0.070
+                                                                −0.060              9.16+2.11
+                                                                                        −0.59         0.133+0.032
+                                                                                                           −0.011
+
+                         G263.16-23.41       0.227         1.120+0.020
+                                                                −0.010              7.07+0.35
+                                                                                        −0.28         0.158+0.008
+                                                                                                           −0.006
+
+                         G263.66-22.53       0.164         1.050+0.020
+                                                                −0.020              8.59+0.65
+                                                                                        −0.45         0.122+0.010
+                                                                                                           −0.007
+
+                         G266.03-21.25       0.296         2.170+0.020
+                                                                −0.020             12.50+0.30
+                                                                                        −0.30         0.174+0.004
+                                                                                                           −0.004
+
+                         G269.31-49.87       0.085         0.319+0.026
+                                                                −0.016              2.65+0.41
+                                                                                        −0.23         0.120+0.021
+                                                                                                           −0.012
+
+                         G271.19-30.96        0.37         1.280+0.040
+                                                                −0.050              8.38+0.68
+                                                                                        −0.53         0.153+0.013
+                                                                                                           −0.011
+
+                         G271.50-56.55         0.3         0.979+0.075
+                                                                −0.061              8.07+2.11
+                                                                                        −0.51         0.121+0.033
+                                                                                                           −0.011
+
+                         G272.10-40.15       0.059         0.779+0.005
+                                                                −0.005              6.11+0.09
+                                                                                        −0.08         0.127+0.002
+                                                                                                           −0.002
+
+                         G277.75-51.73        0.44         1.440+0.050
+                                                                −0.040              8.96+0.73
+                                                                                        −0.59         0.161+0.014
+                                                                                                           −0.011
+
+                         G278.60+39.17       0.307         1.330+0.050
+                                                                −0.050              9.37+0.87
+                                                                                        −0.81         0.142+0.014
+                                                                                                           −0.013
+
+                         G280.19+47.81       0.156         0.744+0.061
+                                                                −0.047              6.53+1.70
+                                                                                        −0.09         0.114+0.031
+                                                                                                           −0.007
+
+                         G282.49+65.17       0.077         0.664+0.011
+                                                                −0.010              5.25+0.22
+                                                                                        −0.20         0.126+0.006
+                                                                                                           −0.005
+
+                         G283.16-22.93        0.45         1.050+0.060
+                                                                −0.060              7.34+1.14
+                                                                                        −0.97         0.143+0.024
+                                                                                                           −0.021
+
+                         G284.46+52.43       0.441         1.690+0.030
+                                                                −0.030             10.60+0.50
+                                                                                        −0.40         0.159+0.008
+                                                                                                           −0.007
+
+                         G284.99-23.70        0.39         1.480+0.080
+                                                                −0.070             10.10+1.50
+                                                                                        −1.20         0.147+0.023
+                                                                                                           −0.019
+
+                         G285.63-17.24        0.35         0.820+0.057
+                                                                −0.078              6.59+1.00
+                                                                                        −0.17         0.124+0.021
+                                                                                                           −0.012
+
+                         G286.58-31.25        0.21         0.718+0.024
+                                                                −0.015              5.52+0.45
+                                                                                        −0.26         0.130+0.011
+                                                                                                           −0.007
+
+                         G286.99+32.91        0.39         2.200+0.060
+                                                                −0.050             12.20+0.70
+                                                                                        −0.70         0.180+0.011
+                                                                                                           −0.011
+
+                         G288.61-37.65       0.127         0.735+0.067
+                                                                −0.050              4.00+0.70
+                                                                                        −0.48         0.184+0.036
+                                                                                                           −0.025
+
+                         G292.51+21.98         0.3         1.130+0.020
+                                                                −0.020              8.03+0.49
+                                                                                        −0.44         0.141+0.009
+                                                                                                           −0.008
+
+                         G294.66-37.02       0.274         0.988+0.036
+                                                                −0.026              7.20+0.59
+                                                                                        −0.39         0.137+0.012
+                                                                                                           −0.008
+
+                         G304.67-31.66       0.193         0.538+0.076
+                                                                −0.061              4.16+1.10
+                                                                                        −0.79         0.129+0.039
+                                                                                                           −0.029
+
+                         G304.84-41.42        0.41         1.140+0.030
+                                                                −0.030              8.28+0.64
+                                                                                        −0.60         0.138+0.011
+                                                                                                           −0.011
+
+                         G306.68+61.06       0.085         0.503+0.007
+                                                                −0.017              3.93+0.13
+                                                                                        −0.31         0.128+0.005
+                                                                                                           −0.011
+
+                         G306.80+58.60       0.085         0.582+0.014
+                                                                −0.009              4.60+0.26
+                                                                                        −0.16         0.127+0.008
+                                                                                                           −0.005
+
+                         G308.32-20.23        0.48         1.050+0.050
+                                                                −0.040              8.61+1.22
+                                                                                        −0.98         0.122+0.018
+                                                                                                           −0.015
+
+                         G313.36+61.11       0.183         1.050+0.000
+                                                                −0.000              7.87+0.10
+                                                                                        −0.09         0.133+0.002
+                                                                                                           −0.002
+
+                         G313.87-17.10       0.153         1.070+0.010
+                                                                −0.010              8.24+0.25
+                                                                                        −0.23         0.130+0.004
+                                                                                                           −0.004
+
+
+
+                                                                                                                Article number, page 23 of 24
+                                                    A&A proofs: manuscript no. fgas_bias
+
+
+                                                Table A.1 continued from previous page
+
+                           Planck Name          z       Mgas,500 [×1014 M ]    Mtot,500 [×1014 M ]       fgas,500
+                          G318.13-29.57       0.217         0.743+0.040
+                                                                 −0.038             5.59+0.64
+                                                                                        −0.57         0.133+0.017
+                                                                                                           −0.015
+
+                          G321.96-47.97       0.094         0.483+0.017
+                                                                 −0.014             3.95+0.29
+                                                                                        −0.23         0.122+0.010
+                                                                                                           −0.008
+
+                          G324.49-44.97       0.095         0.347+0.020
+                                                                 −0.010             3.09+0.40
+                                                                                        −0.19         0.112+0.016
+                                                                                                           −0.008
+
+                          G332.23-46.36       0.098         0.706+0.008
+                                                                 −0.006             5.09+0.15
+                                                                                        −0.10         0.139+0.004
+                                                                                                           −0.003
+
+                          G332.88-19.28       0.147         0.774+0.021
+                                                                 −0.019             6.22+0.38
+                                                                                        −0.33         0.124+0.008
+                                                                                                           −0.007
+
+                          G335.59-46.46       0.076         0.461+0.054
+                                                                 −0.044             3.53+0.74
+                                                                                        −0.56         0.131+0.031
+                                                                                                           −0.024
+
+                          G336.59-55.44       0.097         0.488+0.046
+                                                                 −0.036             3.78+0.71
+                                                                                        −0.52         0.129+0.027
+                                                                                                           −0.020
+
+                          G337.09-25.97        0.26         0.894+0.034
+                                                                 −0.030             5.75+0.50
+                                                                                        −0.41         0.155+0.015
+                                                                                                           −0.012
+
+                          G342.31-34.90       0.232         0.949+0.045
+                                                                 −0.040             6.85+0.74
+                                                                                        −0.62         0.139+0.016
+                                                                                                           −0.014
+
+                          G347.18-27.35       0.237         1.100+0.040
+                                                                 −0.050             8.24+0.63
+                                                                                        −0.73         0.133+0.011
+                                                                                                           −0.013
+
+                          G349.46-59.94       0.347         2.230+0.040
+                                                                 −0.040             13.50+0.60
+                                                                                         −0.60        0.165+0.008
+                                                                                                           −0.008
+
+Notes. Columns: (1) Name in the ESZ catalog; (2) Cluster redshift; (3) Gas mass; (4) Total mass derived assuming hydrostatic equilibrium; (5)
+Gas mass fraction. This table is available at http://szcluster-db.ias.u-psud.fr
+
+
+
+
+Article number, page 24 of 24
+
