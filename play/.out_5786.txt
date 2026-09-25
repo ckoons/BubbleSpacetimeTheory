@@ -1,0 +1,17 @@
+Toy 5786 — one exterior algebra: Pauli + colour, 56 vs 20
+
+DIRECTION: P1 56; P2 40+16; P3 control 20 = 4+16; P4 Delta++ with colour only; P5 Lambda^3(C^3)=1
+
+  [PASS] P5 Lambda^3(C^3) has dimension 1 (one cell = eps) and Lambda^4(C^3) = 0
+  Lambda^3(C^18) dim = 816; colour-singlet subspace dim = 56
+  [PASS] P1 colour-singlet part of Lambda^3(C^18) has dimension 56
+  colour singlets by (flavour irrep, spin): {('8', '1/2'): 16, ('10', '3/2'): 40}   max rounding 1.2e-14
+  [PASS] P2 = (10, 3/2) x 40 states + (8, 1/2) x 16 states
+  no colour, Lambda^3(C^6): {('8', '1/2'): 16, ('1', '3/2'): 4}   max rounding 8.9e-16
+  [PASS] P3 control: Lambda^3(C^6) = 20 = (1, 3/2) x 4 + (8, 1/2) x 16 — no decuplet
+  [PASS] Sym^3(C^6) has dimension 56 = colour-singlet count (eps absorbs the antisymmetry)
+  [PASS] P4a without colour: u-up u-up u-up is not a state of Lambda^3(C^6) (w^w = 0)
+  [PASS] P4b with colour: u-up(r) u-up(g) u-up(b) exists, is unique, and is a colour singlet (eps)
+  [PASS] (control) Grassmann: w^w = 0 for a random write w (antisymmetric part of w(x)w vanishes)
+
+SCORE 8/8  (can-fail 7/7; 1 controls)
