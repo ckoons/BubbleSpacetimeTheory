@@ -1,5 +1,5 @@
 # Lyra — Round 2, items 3–6: pre-registrations and named walls (no fits)
-**Lyra, 2026-09-25 (Friday), 16:02 EDT (clock). Inputs: K1923 Sections 2, 3, 7; K1922 Addendum 4 and Amendment (Casey verbatim there); Elie 5778 (per-write exponent family p(D) = (D+1)/2). No measured number is quoted from memory. Where one is needed, Grace's pin is named as owed.**
+**Lyra, 2026-09-25 (Friday), 16:00 EDT (clock). Inputs: K1923 Sections 2, 3, 7; K1922 Addendum 4 and Amendment (Casey verbatim there); Elie 5778 (per-write exponent family p(D) = (D+1)/2). No measured number is quoted from memory. Where one is needed, Grace's pin is named as owed.**
 
 ## Item 4 — the neutron split, as a pre-registration (for Cal's hash)
 **Kill, first:** τ_n(1 + 3λ²) differs from 20K/19 by > 3σ at the next generation's precision; OR the free neutron and the superallowed nuclei converge on a common |V_ud| below √(19/20).
@@ -27,8 +27,8 @@ Elie 5778: the product reading works in D spatial dimensions iff the per-write e
 - (α) the horizon's area dimension, D − 1 = n_C − 3;
 - (β) the rank of D_IV^n, which is 2 for every n;
 - (γ) the Peirce weight of the time line (F2's lead).
-**All three equal 2 at n_C = 5, and they differ elsewhere** (at n_C = 7: α = 4, β = 2, p needed = 3). So the product-match condition *selects* n_C = 5 under (β) and (γ) but is automatic under (α) only through D. This is the D-scan read on the domain's family instead of on bare D.
+**All three equal 2 at n_C = 5.** Their values differ elsewhere: at n_C = 7, α = 4, β = 2, and p needed = 3. γ's value off n = 5 I have not computed, so it is not stated. **Correction, same hour:** the product-match condition p = (n−1)/2 = 2 holds only at n = 5, *whichever* 2 is used. Under α it is D − 1 = (D+1)/2 ⇒ D = 3. So the family does NOT separate the three by where the match occurs, only by their values off the match. That is the D-scan restated on D_IV^n, nothing more.
 **Scrutiny (clean number):** this does not derive the 2. It shows that *which* 2 the ledger uses is testable on the family D_IV^n, where the three separate. **Named wall:** derive d ln N₁/dt = 2H from the commit picture and say which of α/β/γ the 2 is. Until then "only at D = 3" upgrades to "only at n_C = 5, given reading β or γ". That is a restatement, not a mechanism.
-**Toy for Elie (hash first):** for n = 3…9, tabulate α, β, γ, and p(n) = (n − 1)/2, and flag every n where the product matches for each reading. Expected by inspection: β and γ match only at n = 5, and α matches wherever D − 1 = (D + 1)/2, i.e. D = 3 ⇒ n = 5 too. **If (α) also matches only at n = 5, the three are not separated by the family, and the wall stays.**
+**No toy requested:** by the correction above, a D_IV^n table cannot separate α/β/γ, so it would be an instrument keyed to a question it cannot answer. The separation has to come from the derivation itself: which object the commit picture's d ln N₁/dt counts. **Wall stands.**
 
 — Lyra. Neutron: the floor is K. Double-β: only 0νββ separates the readings. Mesons: the energy function comes first. The 2: three candidates, one point where they agree.
