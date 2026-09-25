@@ -1,0 +1,48 @@
+/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5784_SEP25_2nbb_100Mo_SSD_sum_spectrum_fermionic_vs_bosonic_neutrinos_Barabash_Dolgov_2007_formulas_r0_and_peak_shift_reproduction.py:53: RuntimeWarning: overflow encountered in exp
+  out.flat[i] = 4*(2*pp*R)**(2*(g - 1))*np.exp(pi*yy)*absgamma2(g, yy)/np.exp(2*lgamma(2*g + 1))
+/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5784_SEP25_2nbb_100Mo_SSD_sum_spectrum_fermionic_vs_bosonic_neutrinos_Barabash_Dolgov_2007_formulas_r0_and_peak_shift_reproduction.py:53: RuntimeWarning: invalid value encountered in scalar multiply
+  out.flat[i] = 4*(2*pp*R)**(2*(g - 1))*np.exp(pi*yy)*absgamma2(g, yy)/np.exp(2*lgamma(2*g + 1))
+Toy 5784 — 100Mo 2nbb SSD, fermionic vs bosonic antineutrinos
+
+DIRECTION: P1 bosonic softer everywhere; P2 a physical D reproduces r0=0.076; P3 shift 15+-5 % there;
+           P4 SSD fermionic wider than HSD-like; P5 control g_b=0 on the symmetric point.
+
+  [PASS] (control) P5 control: K^b = L^b = 0 at Ee1 = Ee2, Ev1 = Ev2
+  Coulomb: F0_rel
+    D=-0.45 (D+me=0.061): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+    D=-0.40 (D+me=0.111): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+    D=-0.35 (D+me=0.161): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+    D=-0.30 (D+me=0.211): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+    D=-0.20 (D+me=0.311): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+    D=-0.10 (D+me=0.411): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+    D=+0.00 (D+me=0.511): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+    D=+0.20 (D+me=0.711): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+    D=+0.50 (D+me=1.011): r0 = nan   peak_f = 0.000  peak_b = 0.000  shift =   0.0 %
+  Coulomb: F0=1
+    D=-0.45 (D+me=0.061): r0 = 0.0939   peak_f = 1.221  peak_b = 1.042  shift =  14.7 %
+    D=-0.40 (D+me=0.111): r0 = 0.0843   peak_f = 1.222  peak_b = 1.041  shift =  14.8 %
+    D=-0.35 (D+me=0.161): r0 = 0.0766   peak_f = 1.222  peak_b = 1.039  shift =  14.9 %
+    D=-0.30 (D+me=0.211): r0 = 0.0701   peak_f = 1.222  peak_b = 1.039  shift =  15.0 %
+    D=-0.20 (D+me=0.311): r0 = 0.0598   peak_f = 1.222  peak_b = 1.037  shift =  15.1 %
+    D=-0.10 (D+me=0.411): r0 = 0.0518   peak_f = 1.222  peak_b = 1.037  shift =  15.1 %
+    D=+0.00 (D+me=0.511): r0 = 0.0455   peak_f = 1.222  peak_b = 1.036  shift =  15.2 %
+    D=+0.20 (D+me=0.711): r0 = 0.0362   peak_f = 1.222  peak_b = 1.036  shift =  15.2 %
+    D=+0.50 (D+me=1.011): r0 = 0.0270   peak_f = 1.222  peak_b = 1.036  shift =  15.2 %
+  [FAIL] P1 bosonic peak below fermionic for every D and both Coulomb versions
+
+  F0_rel: D reproducing r0 = 0.076 -> 0.4899999995431863
+  F0=1: D reproducing r0 = 0.076 -> -0.34585980596905574
+  [PASS] P2 a D with D + m_e in (0,1) MeV reproduces r0 = 0.076 (F0_rel)
+  at D* = +0.4900 MeV (D*+me = 1.0010): peak_f 0.000, peak_b 0.000, shift 0.0 %
+  mixed (Eq. 8), normalised peak position vs sin^2 chi:
+    sin^2chi = 0.00: peak 0.000 MeV
+    sin^2chi = 0.25: peak 0.000 MeV
+    sin^2chi = 0.50: peak 0.000 MeV
+    sin^2chi = 0.75: peak 0.000 MeV
+    sin^2chi = 1.00: peak 0.000 MeV
+  [FAIL] P3 peak shift at D* is 15 +- 5 %
+
+  fermionic sum-spectrum rms width: SSD nan MeV vs HSD-like (D=50) nan MeV
+  [FAIL] P4 SSD fermionic spectrum wider than HSD-like (paper: 'slightly wider')
+
+SCORE 2/5  (can-fail 1/4; 1 controls)

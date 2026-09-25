@@ -1,0 +1,44 @@
+Toy 5784 — 100Mo 2nbb SSD, fermionic vs bosonic antineutrinos
+
+DIRECTION: P1 bosonic softer everywhere; P2 a physical D reproduces r0=0.076; P3 shift 15+-5 % there;
+           P4 SSD fermionic wider than HSD-like; P5 control g_b=0 on the symmetric point.
+
+  [PASS] (control) P5 control: K^b = L^b = 0 at Ee1 = Ee2, Ev1 = Ev2
+  Coulomb: F0_rel
+    D=-0.45 (D+me=0.061): r0 = 0.1089   peak_f = 1.102  peak_b = 0.915  shift =  16.9 %
+    D=-0.40 (D+me=0.111): r0 = 0.0970   peak_f = 1.102  peak_b = 0.913  shift =  17.2 %
+    D=-0.35 (D+me=0.161): r0 = 0.0875   peak_f = 1.102  peak_b = 0.911  shift =  17.4 %
+    D=-0.30 (D+me=0.211): r0 = 0.0798   peak_f = 1.102  peak_b = 0.910  shift =  17.5 %
+    D=-0.20 (D+me=0.311): r0 = 0.0676   peak_f = 1.102  peak_b = 0.908  shift =  17.6 %
+    D=-0.10 (D+me=0.411): r0 = 0.0584   peak_f = 1.102  peak_b = 0.907  shift =  17.7 %
+    D=+0.00 (D+me=0.511): r0 = 0.0512   peak_f = 1.102  peak_b = 0.907  shift =  17.7 %
+    D=+0.20 (D+me=0.711): r0 = 0.0405   peak_f = 1.102  peak_b = 0.906  shift =  17.8 %
+    D=+0.50 (D+me=1.011): r0 = 0.0301   peak_f = 1.102  peak_b = 0.906  shift =  17.8 %
+  Coulomb: F0=1
+    D=-0.45 (D+me=0.061): r0 = 0.0939   peak_f = 1.221  peak_b = 1.042  shift =  14.7 %
+    D=-0.40 (D+me=0.111): r0 = 0.0843   peak_f = 1.222  peak_b = 1.041  shift =  14.8 %
+    D=-0.35 (D+me=0.161): r0 = 0.0766   peak_f = 1.222  peak_b = 1.039  shift =  14.9 %
+    D=-0.30 (D+me=0.211): r0 = 0.0701   peak_f = 1.222  peak_b = 1.039  shift =  15.0 %
+    D=-0.20 (D+me=0.311): r0 = 0.0598   peak_f = 1.222  peak_b = 1.037  shift =  15.1 %
+    D=-0.10 (D+me=0.411): r0 = 0.0518   peak_f = 1.222  peak_b = 1.037  shift =  15.1 %
+    D=+0.00 (D+me=0.511): r0 = 0.0455   peak_f = 1.222  peak_b = 1.036  shift =  15.2 %
+    D=+0.20 (D+me=0.711): r0 = 0.0362   peak_f = 1.222  peak_b = 1.036  shift =  15.2 %
+    D=+0.50 (D+me=1.011): r0 = 0.0270   peak_f = 1.222  peak_b = 1.036  shift =  15.2 %
+  [PASS] P1 bosonic peak below fermionic for every D and both Coulomb versions
+
+  F0_rel: D reproducing r0 = 0.076 -> -0.2721083724494092
+  F0=1: D reproducing r0 = 0.076 -> -0.34585980596905574
+  [PASS] P2 a D with D + m_e in (0,1) MeV reproduces r0 = 0.076 (F0_rel), all r0 finite
+  at D* = -0.2721 MeV (D*+me = 0.2389): peak_f 1.102, peak_b 0.909, shift 17.5 %
+  mixed (Eq. 8), normalised peak position vs sin^2 chi:
+    sin^2chi = 0.00: peak 1.102 MeV
+    sin^2chi = 0.25: peak 1.101 MeV
+    sin^2chi = 0.50: peak 1.090 MeV
+    sin^2chi = 0.75: peak 1.029 MeV
+    sin^2chi = 1.00: peak 0.909 MeV
+  [PASS] P3 peak shift at D* is 15 +- 5 %
+
+  fermionic sum-spectrum rms width: SSD 0.4935 MeV vs HSD-like (D=50) 0.4854 MeV
+  [PASS] P4 SSD fermionic spectrum wider than HSD-like (paper: 'slightly wider')
+
+SCORE 5/5  (can-fail 4/4; 1 controls)
