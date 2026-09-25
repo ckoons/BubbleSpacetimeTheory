@@ -1,0 +1,10 @@
+Q2 W_xW_y e = [0.011864+0.j       0.      -0.011864j 0.      +0.j
+ 0.      +0.j       0.      +0.j      ]  coefficient/q(x,y) = (-1-0j)
+structure algebra dim_C = 11  ad D(e,e) eigenvalue multiplicities: {-2: 0, -1: 3, 0: 5, 1: 3, 2: 0}
+Q4 rank of {D(x,e)} u {D(ebar,x)} = 3
+Q5 D(e,e) diag on (e,V1,ebar): [ 2.  1. -0.]  D(e,e)+D(eb,eb) = [2. 2. 2. 2. 2.]  (2*identity => the centre)
+HELD Q1
+HELD Q2
+HELD Q3
+HELD Q4
+HELD Q5
