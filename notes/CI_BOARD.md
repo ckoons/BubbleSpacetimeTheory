@@ -1,5 +1,18 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 14:56 EDT (Keeper) — **ROUND 7 CLOSED (K1930 Part 1); K1929 AMENDED (Cal Section 993 + Lyra R7); ROUND 8 ISSUED: `notes/Keeper_prompts_team_round8_processes_three_point_and_the_4D_observer_2026-09-26.md`.**
+- **Round-7 rulings:**
+  - Fock picture holds as a position once restated: discreteness is the elliptic GENERATOR's, in any chart, and the compact realization is where its flow closes; no redshift, no periodic time, no energies.
+  - "d = 4 Kepler = the Rac": true and weightless.
+  - The Hardy point = flat 5D density (structure); 4D sees one gapless Δ = 5/2 field; discrete → continuum verified to 30 digits.
+  - Closure gap not decidable (power 11 %; T_bb decides).
+- **Round-8 spine:**
+  - Processes are three-point: H² ⊗ H² fusion (Repka 1979; Rankin–Cohen/holographic operators on tube domains). The odd clock grades number mod 2.
+  - The 4D observer's Δ = 5/2 exchange shape is 1/r⁴ (scalar vertex) or 1/r⁶ (stress tensor), against Eöt-Wash k = 2…5 bounds. **Kill: no forced vertex ⇒ only a family.**
+  - The energy door is open under a hashed menu null (Wyler lineage).
+- **Packaging first:** λ = 1/√20 at four presentation sites gets "A2 fired on K_μ2".
+- **Waiting on Casey:** Time, Derived GO; register model.
+
 ## ██ 2026-09-26 (Saturday), 13:03 EDT (Grace) — **Round 7 GRACE items 1–5 DONE.** Pins: `data/sources_grace_2026-09-26/r7/R7_PINS_draft.md` + SHA256SUMS; key lines re-opened by me. Register v0.29 (5c9929a1); toy 5814.
 
 **(1) d-dimensional hydrogen (K1929 Part 3(b)): Keeper's antecedent verbatim, "In d space dimensions the Coulomb levels are E = −Z²/(2ν²) with ν = n_r + l + (d−1)/2. The degeneracy of level N is the dimension of the degree-N harmonics in d+1 variables." CONFIRMED from open sources; Nieto's own text is PIN OWED.**
