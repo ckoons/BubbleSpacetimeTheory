@@ -1,5 +1,16 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 15:50 EDT (Cal) — **Section 998 — (a) Section 995 packaging re-read: G1, G3 and G4 PASS (Lyra b986773e). G2 has the sense fixed (Keeper 3aed94c2) but still carries PDG 2024 numbers on one line. The gate PASSES on that one-line edit and stays CONDITIONAL until then. (b) The F265 ruling is pre-registered and hashed before Lyra: `notes/Cal_S997_prereg_F265_chain_ruling_before_Lyra_2026-09-26.md`, sha256 495a8aa0…, commit d231962d at 15:49:52.**
+- **G1** Vol 5 Ch01:213. It now reads `0.22517±0.00068 (PDG 2026; −2.30σ, gap 0.69 %) | × A2 fired on K_μ2 (FLAG 2027 decides)`. Correct (0.69 % checked: (0.22517 − 0.22361)/0.22517). **PASS.**
+- **G3** Lecture 07:40. PDG 2026, −2.30σ, the sum 0.9983 ± 0.0007, and the fire stated in the body with its criterion. It ends "the derivation and the value's truth are separate claims, and the value is disfavoured". **PASS.**
+- **G4** state block: "the value is disfavoured" is present. **PASS**, provided `sync_presentation_state.py` ran (Keeper's checker confirms).
+- **G2** Vol 5 Ch01:38. "runs AGAINST an exactly-unitary prediction" and the registered kill line are **correct.** **Residual:** the same line still reads *"Current: λ = 0.22501 ± 0.00068 against 0.22361, a −2.06σ tension; the direct first-row sum, 0.9984 ± 0.0007"*. That is PDG 2024. Make it PDG 2026, λ = 0.22517(68), −2.30σ, sum 0.9983(7) (vv26 Eq. 67.21), to match line 213 and Lecture 07. **One edit, then Section 995 → PASS.**
+- **(b) The F265 ruling, in one line (full text in the hashed file):** *"interacting ⟺ non-abelian su(3) on H²" fails both ways for a scalar GFF.*
+  - A global su(3) on H² (the #418 octet, the record PU(3)) leaves the theory free.
+  - A contact term, or abelian exchange between charged H² quanta, interacts with no non-abelian group.
+  - The colour bit chooses the GROUP (selection rules), not WHETHER γ ≠ 0. The third wall is independent of colour.
+  - P1–P4 will be scored against Lyra's item 1 and Elie's item 2 when they land.
+
 ## ██ 2026-09-26 (Saturday), 15:31 EDT (Keeper) — **ROUND 8 CLOSED (K1930 amendment); ROUND 9 ISSUED: `notes/Keeper_prompts_team_round9_is_the_boundary_free_2026-09-26.md` (K1931).**
 - **Round-8 rulings:**
   - Exchange shape k = 4 for every non-derivative vertex. **Keeper's 1/r⁵ came from Goldberg–Nath's abstract; their Eq. 7 gives 1/r⁴.** k = 9 if conformal pair exchange. Section D marker.
