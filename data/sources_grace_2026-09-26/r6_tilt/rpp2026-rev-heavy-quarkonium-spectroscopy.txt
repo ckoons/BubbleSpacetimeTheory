@@ -1,0 +1,1022 @@
+1              77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+     77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+Revised October 2025 by J.J. Hernández-Rey (IFIC, Valencia), C. Lourenço (CERN), R.E. Mitchell
+(Indiana U.), S. Navas (Granada U.) and C. Patrignani (Bologna U.).
+    A golden age for heavy quarkonium physics dawned at the turn of this century, triggered by
+the confluence of new approaches to non-perturbative quantum chromodynamics (QCD) and a
+series of experimental results. The subsequent broad spectrum of breakthroughs, surprises, and
+continuing puzzles had not been anticipated. Indeed, CLEO-c, BESIII, and the B-factories, later
+joined by ATLAS, CMS and LHCb, have made a series of groundbreaking observations. For
+an extensive presentation of the status of heavy quarkonium physics, the reader is referred to
+several reviews [1–10]. This note focuses on experimental developments in heavy quarkonium
+spectroscopy with very few theoretical comments. Possible theoretical interpretations of the states
+with properties incompatible with the quark model are presented in the review “Heavy non-q q̄
+mesons”. Note that in this review we follow the new naming scheme for hadrons (see the review
+“Naming scheme for hadrons” in the current edition of the RPP).
+    This review covers states discovered since 2003, the year that marked the unexpected discovery
+of the X(3872) [11]. The X(3872), now called χc1 (3872), was the first of the mesons containing
+two heavy quarks that could not be easily accommodated by the q q̄ quark model. Its discovery
+was a watershed event in meson spectroscopy. In earlier versions of this write-up the particles were
+sorted according to an assumed conventional or unconventional nature with respect to the quark
+model. However, since this classification is not always unambiguous, we here follow Ref. [12] and
+sort the states into three groups, namely states below (cf. Table 77.1), above (cf. Table 77.2), and
+near (cf. Table 77.3) the lowest open-flavor thresholds. Due to the presence of many open-flavor
+thresholds, we note that the division of states between “above” and “near” open-flavor thresholds
+is not absolute.
+77.1 States Below Open-Flavor Threshold
+   Table 77.1 lists properties of recently observed heavy quarkonium states located below the lowest
+open-flavor thresholds. Those are expected to be (at least prominently) conventional quarkonia.
+The majority of charmonium (cc̄) and bottomonium (bb̄) states were established prior to 2003.
+77.1.1 Charmonium
+    The hc (1P ) is the 11 P1 charmonium state, the singlet partner of the long-known χcJ triplet 13 PJ .
+After being firmly established in 2005 through the process ψ(2S) → π 0 hc (1P ) [13], it has since been
+studied extensively by BESIII using large samples of ψ(2S) decays. Exclusive hadronic decays of
+the hc (1P ), strongly suppressed relative to the dominant radiative transition hc (1P ) → γηc (1S),
+were first observed in 2019 [14] and additional decays were found in 2020 [15] and 2022 [16].
+    Belle reported an observation of the ψ2 (1D) decaying to γχc1 (1P ) with J P C presumed to be
+2−−   [17]. This state is listed in Table 77.1 as ψ2 (3823). Its existence was confirmed with high
+significance by BESIII [18, 19]. While the negative C-parity is indeed established by its observed
+decay channel, the assignment of J = 2 was made by matching to the closest quark model state
+(13 D2 ) and requires experimental confirmation.
+    The 11 D2 state, or the ηc2 (1D), with a mass expected near 3820 MeV, has not yet been observed.
+Recently Belle performed a search in B → ηc2 (1D)K(π) decays in the mass range 3795–3845 MeV
+and found no signal [20]. Thus, the ηc2 (1D) remains the only unobserved conventional charmonium
+state that does not have open-charm decays.
+
+                 F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+                                                1st June, 2026 11:08am
+2                      77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+    Table 77.1: New states below the open-flavor thresholds in the cc̄, bc̄, and bb̄ regions, ordered
+    by mass. Masses m and widths Γ represent the PDG25 weighted averages with statistical and
+    systematic uncertainties added in quadrature. In the Production column, the state is always
+    denoted by X. Ellipses (...) indicate inclusively selected event topologies, i.e., additional
+    particles not directly detected by experiment. A question mark (?) indicates an unmeasured
+    value. The Discovery Year column gives the date of the first measurement cited. The Summary
+    Table column indicates whether or not the state appears in the summary tables, usually
+    requiring at least two independent experiments with significance of >5σ. Refer to the particle
+    listings for references and further information.
+
+    PDG          Former          m (MeV)           Γ (MeV)      I G (J P C )       Production                Decay           Discovery     Summary
+    Name          Name                                                                                                         Year          Table
+                                                       +0.30
+    hc (1P )                  3525.37 ± 0.14       0.78−0.27    0− (1+− )         ψ(2S) → π 0 X              γηc (1S)          2004          YES
+                                                                                       pp̄ → X               hadrons
+                                                                                  e+ e− → ππX             (see listings)
+    ψ2 (3823)    X(3823)      3823.51 ± 0.34         < 2.9      0− (2−− )            B → KX                 γ χc1 (1P )         2013          YES
+                                                                                 e+ e− → π + π − X       π + π − J/ψ(1S)
+    Bc+                       6274.47 ± 0.32        stable∗       0(0− )             p̄p → X...            π + J/ψ(1S)          2007          YES
+                                                                                     pp → X...            (see listings)
+    Bc+ (1P )†                 6704.8 ± 6.2            ?          0(?? )             pp → X...                 γBc+             2025          NO
+                               6752.4 ± 10.0
+    Bc+ (2S)                   6871.2 ± 1.0            ?         0(0− )                pp → X...            Bc+ π + π −         2014          YES
+    ηb (1S)                    9398.7 ± 2.0          10+5
+                                                       −4       0+ (0−+ )        Υ (2S, 3S) → γX            hadrons             2008          YES
+                                                                                 hb (1P, 2P ) → γX        (see listings)
+    hb (1P )                   9899.3 ± 0.8            ?        0− (1+− )      Υ (10860) → π + π − X         γηb (1S)           2011          YES
+                                                                                    Υ (3S) → π 0 X
+                                                                                     Υ (4S) → ηX
+                                                                               Tbb̄ (10610)+ → π + X
+                                                                               Tbb̄ (10650)+ → π + X
+    ηb (2S)                     9999.0+4.5
+                                       −4.0          < 24       0+ (0−+ )           hb (2P ) → γX           hadrons             2012          NO
+    Υ2 (1D)                    10163.7 ± 1.4          ?         0− (2−− )           Υ (3S) → γγX            γγΥ (1S)            2004          YES
+                                                                               Υ (10860) → π + π − X      π + π − Υ (1S)
+    hb (2P )                   10259.8 ± 1.2           ?        0− (1+− )      Υ (10860) → π + π − X      γηb (1S, 2S)          2011          YES
+                                                                               Tbb̄ (10610)+ → π + X
+                                                                               Tbb̄ (10650)+ → π + X
+    χb1 (3P )                10513.42 ± 0.67           ?        0+ (1++ )              pp → X...        γΥ (1S, 2S, 3S)         2011          YES
+    χb2 (3P )                10524.02 ± 0.78           ?        0+ (2++ )              pp → X...            γΥ (3S)             2011          YES
+
+    ∗
+     The Bc+ decays only weakly and has a lifetime of 0.510 ± 0.009 ps (Γ ≈ 1.3 × 10−9 MeV).
+    †
+     The observed structure in γBc+ is described by two Gaussian functions and is consistent with contributions from 3 P0 , 3 P2 , and mixed 3 P1 and 1 P1
+states decaying to both γBc+ and γBc∗+ .
+
+
+
+
+77.1.2 Bottomonium
+    The ground state of bottomonium, ηb (1S), is well established. After the initial reports from
+BaBar in radiative decays of the Υ (3S) (observation) [21] and Υ (2S) (evidence) [22], Belle confirmed
+the existence of the ηb (1S) with more than 5σ significance in radiative decays of the newly discovered
+hb (1P ) [23,24] and hb (2P ) [23] (see next paragraph), as well as in Υ (2S) radiative decays [25]. Belle
+has also reported strong evidence for the ηb (2S) [23], but it still needs confirmation at the 5σ level.
+Note that there are hints of tension in the ηb (1S) mass as measured in radiative M1 and E1
+                                                                                            +2.7+4.5
+transitions. In the M1 transition Υ (2S) → γηb (1S) Belle measures a mass of 9394.8−3.1−2.7          MeV
+[25], while in the E1 transitions hb (1P, 2P ) → γηb (1S) Belle measures 9402.4 ± 1.5 ± 1.8 MeV
+[23]. This tension may point to an incomplete understanding of the ηb (1S) lineshape in different
+production mechanisms.
+    The hb (1P ), the bottomonium counterpart of the hc (1P ), and the next excited state, the hb (2P ),
+
+                                                                 1st June, 2026
+3              77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+
+
+Figure 77.1: From Belle [26], the mass recoiling against π + π − pairs, Mmiss , in e+ e− collision data
+taken near the peak of the Υ (10860). The smooth combinatorial and KS0 → π + π − background
+contributions have been subtracted. The fit to the various labeled signal contributions is overlaid
+(curve). The fit is performed separately in three regions with boundaries indicated by the vertical
+dashed lines.
+
+
+were simultaneously discovered by Belle using dipion transitions from the Υ (10860) [26] (Fig. 77.1).
+The same analysis also showed the ΥJ (1D), the lowest-lying D-wave triplet of the bb̄ system, but
+did not resolve the J = 1, 2, 3 components. The search for the hb (1P ) was directly inspired by
+a CLEO result [27], which found a surprisingly copious production of e+ e− → π + π − hc (1P ) as
+well as an indication that ψ(4230) → π + π − hc (1P ) occurs at a comparable rate with the signature
+mode ψ(4230) → π + π − J/ψ(1S). The presence of Υ (nS) peaks in Fig. 77.1 at rates two orders of
+magnitude larger than expected, along with separate studies with exclusive decays Υ (nS) → µ+ µ− ,
+allow precise calibration of the π + π − recoil mass spectrum and very accurate measurements of the
+hb (1P ) and hb (2P ) masses. Both corresponding hyperfine splittings are consistent with zero within
+an uncertainty of about 1.5 MeV (lowered to 1.1 MeV for the hb (1P ) in Ref. [28]). Belle later
+observed the transition Υ (4S) → hb (1P )η [24] and the corresponding 1P hyperfine splitting was
+also found to be compatible with zero at a similar precision level.
+    Just before Christmas 2011, ATLAS offered the world a beautiful gift, in the form of the
+discovery of the χb (3P ) quarkonium state [29], observed by combining dimuons from Υ (1S) or
+Υ (2S) decays with photons emitted in the radiative χb (3P ) decays (Fig. 77.2, bottom left panel).
+The new resonance, with a mass of 10 530 ± 5(stat) ± 9(syst) MeV, was soon confirmed by D0 [30].
+Also LHCb observed the χb (3P ) peak, using the full Run 1 event sample, corresponding to an
+integrated luminosity of 3 fb−1 [31] (Fig. 77.2, middle left panel). Finally, CMS used 80 fb−1 of
+13 TeV pp collisions, collected in 2016 and 2017, to show two well-resolved χb1 (3P ) and χb2 (3P )
+peaks [32], separated by a mass difference of 10.60 ± 0.64(stat) ± 0.17(syst) MeV (Fig. 77.2, top left
+panel). The remarkable precision of the individual mass measurements, with relative uncertainties
+as small as 50 ppm, shows that the LHC experiments can provide important results in the field
+of hadron spectroscopy, especially in the case of heavy particles, which require very high collision
+energies and large event samples.
+77.1.3 Bc System
+   The Bc± family is quite special because these (charged) quarkonium states consist of two heavy
+quarks of different flavor. Among other interesting properties, this means that they cannot an-
+
+                                            1st June, 2026
+4                                       77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+             100                                                  (3P )                                                        LHCb                                                             Comb. backg.
+                           CMS
+                                                                 b1                                                                                                  Bc*(2S)+
+
+
+
+                                                                                                   Events / 3 MeV
+                                                                                                                                           -1
+                                        -1                             (3P )                                     30            L = 8.5 fb
+
+
+
+
+  Events / 3 MeV
+                   80      L = 80 fb                                  b2                                                       s = 7, 8, 13 TeV
+                            s = 13 TeV                                                                                                                                          Bc(2S)+
+                                                                                                                 20
+                   60
+                                (3S )
+                                                                                                                 10
+                   40
+
+
+                   20                                                                                                0
+                                                                                    Background
+                                                                                                                                     500                                  600                              700
+
+
+                   10.4            10.45             10.5             10.55                 10.6                                                          Bc*(2S)+
+
+
+
+
+                                                                                                   Events / 10 MeV
+                                                                                                                 60            CMS
+                                                                                                                               L = 143 fb
+                                                                                                                                           -1
+                                                                                                                                                                      Bc(2S)+
+                          LHCb                                                      (1S )                                      s = 13 TeV
+
+
+
+
+  Events / 6 MeV
+                                                       (3P )
+                                        -1
+                          L = 3.0 fb
+                  30
+                           s = 7, 8 TeV
+                                                      b                             (2S )                        40
+                                                                              Backgrounds                                        +         +
+                                                                                                                                Bc ( J/ψ K ) π +π −
+                  20                                                                                                            Comb. backg.
+
+                                                                                                                 20
+
+                  10
+
+                                                                                                                     0
+                   0                                                                                                           400                  500          600              700             800
+                                 10.4        10.5         10.6             10.7         10.8
+                                                                                                                 30
+
+
+
+
+                                                                                                   Events / 20 MeV
+            200
+                          ATLAS                                                    (1S )                                       ATLAS
+                                                                                                                                               -1
+                                        -1                                                                                     L = 19.2 fb
+            160
+                          L = 4.4 fb                                               (2S )                                        s = 8 TeV
+
+
+
+
+Events / 25 MeV
+                           s = 7 TeV                                                                             20
+                                                                                                                                           -1
+                                                                                  Background                                   L = 4.9 fb
+            120                                                                                                                 s = 7 TeV
+
+
+                                                                                    b
+                                                                                     (3P )                                      Comb. backg.
+                  80                                                                                             10
+
+                  40
+
+                   0                                                                                                 0
+                          9.6       9.8       10.0        10.2        10.4          10.6                                 300         400             500        600        700            800        900
+                            m ( μ μ ) − m ( μ μ ) + m (n S) (GeV)                                                                           m (B+c π +π - ) − m (B+c) (MeV)
+                                    + −               + −
+
+
+
+Figure 77.2: (Left Column) Invariant mass distributions measured by the ATLAS [29] (bottom),
+LHCb [31] (middle) and CMS [32] (top) experiments in their searches for the χb (3P ) states through
+their radiative decays to one of the S-wave bottomonia. (Right Column) Invariant mass distribu-
+tions measured by the ATLAS [33] (bottom), CMS [34] (middle) and LHCb [35] (top) experiments
+in their searches for Bc± excited states decaying to the Bc± ground state with the emission of two
+charged pions.
+
+
+nihilate into gluons, the excited states only decaying to the pseudoscalar ground state, Bc± , via
+electromagnetic and pionic transitions.
+    On the basis of an event sample collected in the Run 1 of the LHC, corresponding to an
+integrated luminosity of 24 fb−1 , adding the 7 and 8 TeV data, the ATLAS Collaboration observed
+a resonance in the Bc+ π + π − invariant mass spectrum [33] (Fig. 77.2, bottom right panel). This peak,
+
+                                                                                             1st June, 2026
+5              77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+observed with a significance of 5.2 standard deviations and a mass of 6842 ± 4(stat) ± 5(syst) MeV,
+was immediately recognized as the Bc (2S)± state, the first radial excitation in the Bc± family.
+Profiting from the much larger Run 2 event sample, corresponding to 143 fb−1 of 13 TeV pp
+collisions, as well as from a measurement resolution of around 6 MeV, the CMS Collaboration could
+observe two well-resolved peaks, separated by 29.1±1.5(stat)±0.7(syst) MeV [34] (Fig. 77.2, middle
+right panel). The existence of two peaks, rather than a single one, is established with a significance of
+6.5 standard deviations. The “right peak” has a mass of 6871.0±1.2(stat)±0.8(syst)±0.8(Bc+ ) MeV,
+where the last term is the uncertainty in the Bc+ mass, and is identified as the Bc (2S)± state, which
+decays directly to the Bc± , emitting two (easy to detect) pions. The CMS observation, reported a
+couple of months after the end of the LHC Run 2, was soon followed by the corresponding LHCb
+result [35] (Fig. 77.2, top right panel), which confirmed the existence of the two states and reported
+a second measurement of the Bc (2S)± mass, 6872.1 ± 1.3(stat) ± 0.1(syst) ± 0.8(Bc+ ) MeV.
+    The “left peak” is interpreted as being the Bc∗ (2S)± signal. It is observed at a mass lower than
+the real value because the experiments are unable to detect the low-energy photon emitted in the
+decay chain, Bc∗ (2S)± → Bc∗± π + π − followed by Bc∗± → Bc± γ (Fig. 77.3). Its energy, expected
+to be in the range 40–80 MeV, leads to a very small probability that the photon converts into
+an e+ e− pair and the two electrons are reconstructed. The relative ordering of the two peaks
+is based on a generally-agreed assumption: the M (Bc∗± ) − M (Bc± ) mass difference is larger than
+the M (Bc∗ (2S)± ) − M (Bc (2S)± ) difference. Naturally, these observations provide evidence for the
+existence of the Bc∗ (1S)± state. They also provide measurements of two interesting mass differences,
+between the masses of the pseudoscalar mesons, M (Bc (2S)± ) − M (Bc (1S)± ) = 596.1 MeV, and of
+the vector mesons, M (Bc∗ (2S)± ) − M (Bc∗ (1S)± ) = 567.0 MeV (Fig. 77.3).
+
+                                                    B*c + (2S)
+                                     2S
+                                                     B+c (2S)
+
+
+
+
+                                                                                      567.0 ± 1.0 MeV
+
+
+                                                      ππ
+
+
+                                                                    596.1 ± 1.4 MeV
+
+
+
+                                                       B*c +
+                                     1S                         γ
+                                                        B+c
+
+                Figure 77.3: Diagram showing the decays mentioned in the text.
+
+77.2 States Above Open-Flavor Threshold
+    Many states have been discovered both above and near the lowest open-flavor thresholds. They
+are displayed in Tables 77.2 and 77.3, respectively. With the exception of the ψ3 (3842) and the
+
+                                            1st June, 2026
+6               77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+tensor state located at 3930 MeV (now called χc2 (3930)), which have properties consistent with
+those expected for the ψ3 (13 D3 ) and χc2 (23 P2 ), respectively, none of these states can easily be
+assigned a place in the quark model spectrum of the charmonium or bottomonium families. The
+theoretical interpretation of these states remains under discussion.
+77.2.1 Charmonium
+     Using proton-proton collisions, LHCb observed a narrow state, the ψ3 (3842) resonance, in the
+decay modes ψ3 (3842) → D0 D̄0 and D+ D− [36]. The mass and width of this state are measured
+to be 3842.71 ± 0.16 ± 0.12 MeV and 2.79 ± 0.51 ± 0.35 MeV, respectively. The observed mass and
+narrow width are consistent with expectations for the spin-3 ψ3 (13 D3 ) charmonium. Accordingly,
+the state is given the name ψ3 (3842) in the listings, with the remark that the quantum numbers
+are fixed from the quark model and need to be confirmed.
+     The χc2 (3930), which is a natural candidate for the χc2 (23 P2 ) quark model state, was originally
+seen by Belle [37] and later confirmed by BaBar [38] in the γγ process e+ e− → e+ e− DD̄. This
+interpretation was strengthened by the more recent LHCb observation of the χc2 (3930) alongside
+the ψ3 (3842) in proton-proton collisions [36].
+     Unlike the χc2 (23 P2 ), the identification of the χc0 (23 P0 ) quark model state remains controver-
+sial. The original candidate was the χc0 (3915), discovered by Belle in the γγ process e+ e− →
+e+ e− ωJ/ψ(1S) [39]. In a subsequent measurement by BaBar, its quantum numbers were deter-
+mined to be J P C = 0++ [40]. However, its identification as the χc0 (23 P0 ) quark model state was
+soon challenged [41, 42]. In addition, it was pointed out in Ref. [43] that if the assumption of
+helicity-2 dominance is abandoned and, instead, one allows for a sizeable helicity-0 component, a
+J P C = 2++ assignment is possible. This could imply that it is the same as the χc2 (3930), but to
+explain the large helicity-0 component a sizable portion of non-q q̄ is necessary [43]. A more recent
+LHCb amplitude analysis of the process B + → D+ D− K + finds distinct 0++ and 2++ components
+decaying to D+ D− [44], which are currently identified in the listings as the χc0 (3915) and χc2 (3930),
+respectively.
+     An alternative candidate for the χc0 (23 P0 ) (here referred to as the χc0 (3860)) was reported in
+Ref. [45] with properties more consistent with expectation: its mass is close to the potential model
+expectations, it decays to DD̄, and the preferred quantum numbers are J P C = 0++ (this hypothesis
+is favored over the 2++ one with a 2.5σ significance).
+     In the excited vector charmonium spectrum, the ψ(4040), ψ(4160), and ψ(4415) are prominent
+in the inclusive e+ e− hadronic cross section and are naturally identified as the 33 S1 , 23 D1 , and 43 S1
+cc̄ quark model states, respectively. In addition to these long-established states, however, another
+set of peaks has been found in exclusive e+ e− cross sections. Unlike conventional vector charmonia,
+they do not appear in the inclusive hadronic cross section and they apparently do not decay to
+D(∗) D̄(∗) . The PDG summary table currently lists the ψ(4230), ψ(4360), and ψ(4660) within this
+category. The first of these to be discovered was originally known as the Y (4260) (now the ψ(4230)),
+seen by BaBar [46] and Belle [47, 48] in e+ e− → π + π − J/ψ(1S) using initial state radiation. In a
+more recent high-statistics scan of e+ e− → π + π − J/ψ(1S), BESIII demonstrated that the lineshape
+in this mass range is highly non-trivial [49]. The latter observation was interpreted by the authors
+as the presence of two states. This interpretation was supported by the coupled-channel analysis
+in Ref. [50]. However, this lineshape is also consistent with other possible interpretations, such
+as one assuming a molecular structure for the ψ(4230) [51, 52]. The data of Ref. [49] also called
+for a significant downward shift of the mass of what was originally called the Y (4260), making
+it consistent with the masses (but not necessarily the widths) of peaks in other exclusive cross
+sections, such as hc (1P )ππ [53]. We thus merged the original Y (4260) (or, more formally, the
+ψ(4260)) with the ψ(4230) in the listings.
+
+                                             1st June, 2026
+7                77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+     BESIII observed the χc1 (3872), also known as X(3872), in e+ e− → γχc1 (3872) in the ψ(4230)
+mass range [54], which could allow for additional insight into the structure of both states (see the
+review “Heavy non-q q̄ mesons”). BESIII also performed a recent study of the process e+ e− →
+π + π − ψ(2S) and found evidence for a lower mass state, possibly the ψ(4230), in addition to the
+more dominant ψ(4360) [55].
+     Another interesting question is whether a heavier π + π − ψ(2S) state, the ψ(4660), discovered
+by Belle [56, 57] and confirmed by BaBar [58], is identical to the Λ+            −
+                                                                             c Λ̄c resonance observed by
+Belle with a nearby mass and width [59]. Most probably it is, the Λc Λ̄−      +
+                                                                                  c being one more decay
+mode of the ψ(4660) (see the review “Heavy non-q q̄ mesons” for more details). Note that this is
+the interpretation adopted in the particle listings. In addition, Belle reported the first observation
+of a vector charmonium-like state decaying to Ds+ Ds1 (2536) with a significance of 5.9σ [60]. Its
+                                         +6.2                     +13.9
+measured mass and width are 4625.9−6.0        ±0.4 MeV and 49.8−11.5    ±4.0 MeV, respectively, consistent
+                                               +
+with those of the ψ(4660). Therefore, Ds Ds1 (2536) appears as an additional decay mode of the
+ψ(4660) in the listings.
+     A series of isovector states1 containing cc̄ have been found in B decays to Kπ(cc̄), where the
+isovector state decays to π(cc̄) and (cc̄) stands for J/ψ(1S), ψ(2S), or χc1 (1P ). They are man-
+ifestly non-q q̄. The Tcc̄1 (4430) (originally called the Zc (4430)), decaying to πψ(2S), is the most
+well established state in this group. Based on a full amplitude analysis of B 0 → K + π − ψ(2S) de-
+cays, Belle determined the spin-parity of the Tcc̄1 (4430) to be J P = 1+ [61]. From their study
+of B 0 → K + π − J/ψ(1S) decays, Belle also found evidence for the decay mode Tcc̄1 (4430) →
+πJ/ψ(1S) [62], which has an order of magnitude lower branching fraction than the discovery mode
+Tcc̄1 (4430) → πψ(2S). In the same analysis, Belle reported evidence for one more charged state,
+dubbed Tcc̄1 (4200), decaying to πJ/ψ(1S). The observation of the Tcc̄1 (4430) in πψ(2S), as well as
+its quantum number assignments, were confirmed by LHCb [63] with a much larger data sample,
+leading to improved mass and width values, consistent with earlier measurements; the experiment
+even reports a resonant behavior of the Tcc̄1 (4430) amplitude. The Tcc̄1 (4430) was not confirmed
+(or excluded) by BaBar [64].
+     Belle also reported an observation of two charged states decaying to πχc1 (1P ) in an analysis of
+B → K + π − χc1 (1P ) decays [65]. These were originally called Z1 (4050)± and Z2 (4250)± , but are
+   0
+
+referred to in Table 77.2 as Tcc̄ (4050) and Tcc̄ (4250). These states were not confirmed by BaBar [66].
+Belle observes signals with 5.0σ significance for both the Tcc̄ (4050) and Tcc̄ (4250), whereas BaBar
+reports 1.1σ and 2.0σ effects, respectively, setting upper limits that are not inconsistent with Belle’s
+measured rates. The situation remains unresolved.
+     The decay B + → K + φJ/ψ(1S) appears to be especially rich in resonant substructure. The
+Y (4140) (now the χc1 (4140)), decaying to φJ/ψ(1S), was first observed in 2008 by CDF [67,68], and
+confirmed by D0 and CMS [69, 70]. However, a second structure, the Y (4274) (now the χc1 (4274)),
+could not be established unambiguously. Neither of the two states was seen in B decays at Belle [71],
+LHCb [72] and BaBar [73], or in γγ collisions at Belle [74]. The real breakthrough happened when
+LHCb performed a full amplitude analysis of B + → K + φJ/ψ(1S) with J/ψ(1S) → µ+ µ− , φ →
+K + K − decays and showed that the data cannot be described in a model that contains only excited
+kaon states decaying into K + φ [75, 76]. They observe two 1++ states with masses close to those
+originally reported by CDF (the χc1 (4140) and χc1 (4274)), but the width of the one at 4140 MeV
+is much larger. In addition, they find two significant 0++ structures at 4500 and 4700 MeV (the
+χc0 (4500) and χc0 (4700)). The LHCb analysis was extended even further in Ref. [77] with a factor
+of six increase in statistics: the χc1 (4140), χc1 (4274), χc0 (4500), and χc0 (4700) were confirmed, and
+two new states, the X(4630) and χc1 (4685) were reported, also decaying to φJ/ψ(1S). Note that
+    1
+    These isovector states were originally called Zc . They are now referred to as Tcc̄ . See the “Naming scheme for
+hadrons” review.
+
+
+                                                 1st June, 2026
+8                      77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+                    Table 77.2: As in Table 77.1, but for states above the first open-flavor
+                    thresholds in the cc̄ and bb̄ regions, ordered by mass.
+
+PDG               Former          m (MeV)          Γ (MeV)       I G (J P C )      Production           Decay           Discovery   Summary
+Name              Name(s)                                                                                                   Year      Table
+ψ3 (3842)                      3842.71 ± 0.20    2.79 ± 0.62     0− (3−− )∗          pp → X...          DD̄                 2019      YES
+χc0 (3860)                        3862+48
+                                       −35         201+177
+                                                       −106      0+ (0++ )      e+ e− → J/ψ(1S)X        DD̄                 2017       NO
+χc0 (3915)        X(3915),      3922.1 ± 1.8        20 ± 4       0+ (0++ )           B → KX           ωJ/ψ(1S)              2004      YES
+                  Y (3940)                                                       e+ e− → e+ e− X        DD̄
+χc2 (3930)        χc2 (2P ),    3922.5 ± 1.0       35.2±2.2       0+ (2++ )      e+ e− → e+ e− X        DD̄                2005      YES
+                  Z(3930)
+X(3940)                           3942 ± 9          43+28
+                                                      −18          ?? (??? )    e+ e− → J/ψ(1S)X         DD̄∗              2007       NO
+                                                                                    B+ → K +X
+Tcc̄ (4050)       Z1 (4050)        4051+24
+                                       −43          82+51
+                                                      −28         1− (??+ )         B̄ 0 → K − X      π + χc1 (1P )        2008       NO
+                  X(4050)
+Tcc̄ (4055)       Zc (4055)       4054 ± 3         45 ± 13        1+ (??− )       e+ e− → π − X        π + ψ(2S)           2015       NO
+                  X(4055)
+Tcc̄ (4100)       X(4100)         4096+27
+                                       −30          152+83
+                                                       −68        1− (??+ )         B̄ 0 → K − X       π + ηc (1S)         2018      NO
+χc1 (4140)        Y (4140)      4146.5 ± 3.0         19+7
+                                                       −5         0+ (1++ )         B+ → K +X          φJ/ψ(1S)            2009      YES
+X(4160)                           4153+23
+                                       −21          136+60
+                                                       −35         ?? (??? )    e+ e− → J/ψ(1S)X         D∗ D̄∗            2007      NO
+                                                                                    B+ → K +X          φJ/ψ(1S)
+Tcc̄1 (4200)      Zc (4200)      4242 ± 26         310 ± 40       1+ (1+− )         B̄ 0 → K − X      J/ψ(1S)π +           2014      NO
+ψ(4230)           Y (4230)      4221.7 ± 2.5        51 ± 7        0− (1−− )          e+ e− → X      π + π − J/ψ(1S)        2015      YES
+                  Y (4260)                                                                             ωχc0 (1P )
+                                                                                                     π + π − hc (1P )
+                                                                                                     (see listings)
+Tcc̄0 (4240)      Zc (4240)        4239+48
+                                       −21         220+118
+                                                      −88         1+ (0−− )        B̄ 0 → K − X        π + ψ(2S)           2014       NO
+                  Rc0 (4240)
+Tcc̄ (4250)       Z2 (4250)       4248+185
+                                      − 45         177+321
+                                                      − 72        1− (??+ )        B̄ 0 → K − X       π + χc1 (1P )        2008       NO
+                  X(4250)
+χc1 (4274)        Y (4274)        4290 ± 6          54 ± 8        0+ (1++ )       B+ → K +X           φJ/ψ(1S)             2011      YES
+                                                                                    pp → ppX
+X(4350)                          4350.6+4.7
+                                       −5.1         13+18
+                                                      −10         0+ (??+ )      e+ e− → e+ e− X       φJ/ψ(1S)            2009      NO
+ψ(4360)            Y (4360)       4373 ± 7         124±13         0− (1−− )         e+ e− → X        π + π − ψ(2S)         2007      YES
+                                                                                                     (see listings)
+Tcc̄1 (4430)      Zc (4430)        4478+15
+                                       −17         189 ± 29       1+ (1+− )        B̄ 0 → K − X        π + ψ(2S)           2007      YES
+                                                                                                      π + J/ψ(1S)
+χc0 (4500)        X(4500)         4484 ± 12         87+30
+                                                      −24         0+ (0++ )       B+ → K +X            φJ/ψ(1S)            2017      YES
+                                                                                   pp → ppX
+X(4630)                           4636+29
+                                       −100        350+140
+                                                       −100       0+ (??+ )       B+ → K +X           φJ/ψ(1S)             2021      NO
+ψ(4660)           Y (4660),       4623 ± 10         55 ± 9        0− (1−− )       e+ e− → X          π + π − ψ(2S)         2007      YES
+                                                                                                    Ds+ Ds1 (2536)
+                                                                                                     (see listings)
+χc1 (4685)                         4677+13
+                                       −15         180 ± 50       0+ (1++ )       B+ → K +X           φJ/ψ(1S)             2021      NO
+χc0 (4700)        X(4700)          4708+6
+                                       −4           78+15
+                                                       −11        0+ (0++ )       B+ → K +X           φJ/ψ(1S)             2017      NO
+Tccc̄c̄ (6600)                     6646+28
+                                       −25         440 ± 70       0+ (2++ )        pp → X...       J/ψ(1S)J/ψ(1S)          2023      NO
+Tccc̄c̄ (6900)    X(6900)         6898 ± 12        161 ± 26       0+ (2++ )        pp → X...       J/ψ(1S)J/ψ(1S)          2020      YES
+Tccc̄c̄ (7100)                     7134+63
+                                       −29          97+49
+                                                       −39        0+ (2++ )        pp → X...       J/ψ(1S)J/ψ(1S)          2024      NO
+Υ (10753)                       10756.6 ± 2.8       29 ± 9        ?? (1−− )       e+ e− → X        ππΥ (1S, 2S, 3S)        2019      NO
+
+    ∗
+        Quantum numbers fixed from the quark model and need confirmation.
+
+
+
+
+the properties (or even the existence) of these states are sensitive to the parameterization of the
+amplitudes and, in particular, to the treatment of thresholds [78].
+
+                                                              1st June, 2026
+9              77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+77.2.2 Resonances in the J/ψ(1S)-pair mass spectrum
+                                                              √
+     Based on proton-proton event samples collected at s = 7, 8 and 13 TeV, corresponding to
+an integrated luminosity of 9 fb−1 , the LHCb Collaboration reported the observation of a narrow
+structure in the invariant mass distribution of J/ψ(1S) pairs [79]. The new resonance, denoted as
+Tccc̄c̄ (6900) (also X(6900)), is clearly seen at a mass of 6.9 GeV in the bottom panel of Fig. 77.4, as
+indicated by the red curve. The ATLAS Collaboration has also observed the Tccc̄c̄ (6900) resonance
+                                                                           √
+in the di-J/ψ(1S) mass spectrum, using 140 fb−1 of pp collisions at s = 13 TeV [80], as can be
+seen in the middle panel of Fig. 77.4. More recently, also the CMS Collaboration reported the
+observation of the Tccc̄c̄ (6900) in the J/ψ(1S)-pair mass distribution, using 135 fb−1 of 13 TeV pp
+collisions [81]. Thanks to its good mass resolution and relatively large event yields, CMS determined
+the mass and width of the Tccc̄c̄ (6900) with the best precision among the three measurements.
+Furthermore, another resonance is seen with a significance exceeding 5 standard deviations, at a
+mass of 6.55 GeV, as shown in the top panel of Fig. 77.4. The measured values of the masses
+and widths of the new states depend on whether the model used to fit the distributions includes
+interference effects between the resonances and the underlying continuum (and also among the
+
+
+                                                                                      -1
+                                                       160                L = 135 fb           CMS
+                                                                           s = 13 TeV
+
+
+
+
+                        Candidates / 25 MeV
+                                                                                                Data
+                                                                                                Fit
+                                                       120                                      Resonances
+                                                                                                Background
+                                                        80
+
+                                                        40
+
+                                                         0
+                                                             6.5   7       7.5             8    8.5          9
+                                                                                      -1
+                                                   160                    L = 140 fb           ATLAS
+                                                                           s = 13 TeV
+
+
+
+
+                        Events / 40 MeV
+                                                                                                Data
+                                                                                                Fit
+                                                   120                                          Background
+
+                                                       80
+
+                                                       40
+
+                                                        0
+                                                             6.5   7       7.5             8    8.5          9
+
+
+
+
+                        Weighted candidates / 28 MeV
+                                                                                 -1
+                                                       160                L = 9 fb             LHCb
+                                                                           s = 7, 8, 13 TeV
+                                                                                                Data
+                                                                                                Fit
+                                                       120                                      Resonance
+
+
+                                                        80
+
+                                                        40
+
+                                                         0
+                                                             6.5   7       7.5             8    8.5          9
+                                                                       m (J/ψ J/ψ) (GeV)
+
+Figure 77.4: J/ψ(1S)-pair invariant mass distributions measured by the LHCb [79] (bottom),
+ATLAS [80] (middle), and CMS [81] (top) experiments.
+
+                                                                   1st June, 2026
+10             77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+resonances). In addition, fits that incorporate the scattering of vector charmonia to explain the
+structure in the J/ψ(1S)-pair mass distribution indicate the possible existence of a state very close
+to the di-J/ψ(1S) threshold [82–85]. The larger event samples presently being collected by the LHC
+experiments will surely lead to significantly improved measurements, as well as to complementary
+results (including determinations of spin-parity quantum numbers), so that one can expect near-
+future progress in our understanding of the nature of these “narrow structures”.
+77.2.3 Bottomonium
+    In 2019, Belle reported a measurement of the e+ e− → Υ (nS)π + π − (n = 1, 2, 3) cross sections
+at energies from 10.52 to 11.02 GeV [86]. They observed, with a 5.2σ significance, a new structure
+with a mass near 10753 MeV in the energy dependence of the cross sections. The observation of the
+Υ (10753) was confirmed by Belle II using a dedicated energy scan with a total integrated luminosity
+of 19 fb−1 [87]. If the combined Belle and Belle II data is described by a Breit–Wigner function, the
+mass and width of the Υ (10753) are 10756.6 ± 2.7 ± 0.9 MeV and 29.0 ± 8.8 ± 1.2 MeV, respectively.
+The Υ (10753) was also seen by Belle II in the process e+ e− → ωχbJ (1P ) using data from the same
+energy scan [88]. The new structure could have a resonant origin and correspond to the not yet
+observed Υ (3D) state, provided S − D mixing is enhanced, or an exotic state, e.g., a compact
+tetraquark or hadrobottomonium. It could also be a non-resonant effect due to rescattering. The
+Υ (10753) was confirmed in a global K-matrix fit to exclusive and inclusive e+ e− → bb̄ cross sections
+in Ref. [89].
+    We no longer mention a hypothetical Yb (10888) state since a new analysis of the Υ (10860)
+energy range does not show evidence for an additional state with a mass different from that of the
+Υ (10860) [90]. After the mass of the ηb (1S) was shifted upwards by about 10 MeV based on the
+Belle measurements [23,24], all of the bottomonium states mentioned above fit into their respective
+spectroscopies, roughly where expected. An independent experimental confirmation of the shifted
+masses came from the Belle observation of Υ (4S) → ηhb (1P ) decays [24]. This process turns out
+to be the strongest observed transition of the Υ (4S) to lower bottomonium states.
+77.3 States Near Open-Flavor Threshold
+   A number of states, listed in Table 77.3, appear near open-flavor thresholds, which is likely an
+important factor in their theoretical interpretation [91].
+77.3.1 Charmonium
+    The χc1 (3872), also known as X(3872), is widely studied and seen in many transitions — see
+Table 77.3. Yet its interpretation remains unsettled (see the review “Heavy non-q q̄ mesons”).
+Its unique experimental features include: it has J P C = 1++ [92, 93], yet it is too light to be
+the χc1 (23 P1 ) quark model state; its mass is within 200 keV of the D0 D̄0∗ threshold; it shows
+substantial isospin-breaking in its decays to ρJ/ψ(1S) and π 0 χc1 (1P ); and it is extremely narrow.
+Using a large sample of inclusively produced χc1 (3872) decaying to π + π − J/ψ(1S), LHCb recently
+determined the decay width of the χc1 (3872) under two different assumptions [94]. Assuming a
+Flatté-inspired line shape and exploiting the strong coupling of the χc1 (3872) to D0 D̄∗0 , LHCb
+performed the first exploration of the pole structure of the χc1 (3872), finding a FWHM width of
+    +0.06+0.25
+0.22−0.08−0.17  MeV. On the other hand, assuming a Breit–Wigner line shape, its width was found
+to be 1.39 ± 0.24 ± 0.10 MeV. While the former analysis has a more firm theoretical foundation, the
+LHCb detector resolution did not allow for a distinction between the different line shapes. More
+recently, BESIII hstudied the
+                            i line shape of the  χc1 (3872) by simultaneously fitting the e+ e− →
+                     0  0 0               +  −
+                                               
+γχc1 (3872) → γ D D̄ π and γ J/ψπ π              reactions [95]. Two poles were found on the first
+and second Riemann sheets corresponding to the D∗0 D̄0 channel, the most prominent being at
+(3871.70 ± 0.15+0.07                  +0.14
+               −0.08 ) − i(0.19 ± 0.08−0.19 ) MeV on the first sheet, confirming the sub-MeV width
+
+
+                                           1st June, 2026
+11                    77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+                  Table 77.3: As in Table 77.1, but for states near the first open-flavor
+                  thresholds in the cc̄ and bb̄ regions, ordered by mass. Updated from Ref.
+                  [96] with kind permission, copyright (2011), Springer, and from Ref. [12]
+                  with kind permission from the authors.
+
+PDG              Former         m (MeV)         Γ (MeV)       I G (J P C )        Production              Decay        Discovery   Summary
+Name             Name(s)                                                                                                   Year      Table
+χc1 (3872)       X(3872)      3871.64±0.06     1.19 ± 0.21    0+ (1++ )           B → KX              π + π − J/ψ(1S)      2003      YES
+                                                                                  pp̄ → X...            3πJ/ψ(1S)
+                                                                                  pp → X...                 D∗0 D̄0
+                                                                                 e+ e− → γX              γJ/ψ(1S)
+                                                                                 e+ e− → ωX                γψ(2S)
+                                                                                                         π 0 χc1 (1P )
+Tcc (3875)                    3874.74 ± 0.10   0.048+0.002
+                                                    −0.014      ?(?? )            pp → X...                D0 D0 π         2022     NO
+Tcc̄1 (3900)     Zc (3900)     3886.7 ± 2.3    29.5 ± 2.4     1+ (1+− )        ψ(4230) → π − X            +
+                                                                                                        π J/ψ(1S)          2013     YES
+                                                                               ψ(4230) → π 0 X           π 0 J/ψ(1S)
+                                                                                                           (DD̄∗ )+
+                                                                                                           (DD̄∗ )0
+Tcc̄s̄1 (4000)   Zcs (4000)    3980 − 4010      5 − 150         1 +
+                                                                2 (1 )           e+ e− → KX           Ds D∗ + Ds∗ D        2021      NO
+                                                                                  B + → φX             K + J/ψ(1S)
+Tcc̄ (4020)      Zc (4020)     4024.1 ± 1.9      13 ± 5       1+ (??− )      ψ(4230, 4360) → π − X       π + hc (1P )      2013     YES
+                 X(4020)                                                     ψ(4230, 4360) → π 0 X        π 0 hc (1P )
+                                                                                                          (D∗ D̄∗ )+
+                                                                                                          (D∗ D̄∗ )0
+Tcc̄s̄1 (4220)   Zcs (4220)     4216+49
+                                     −38        233+110
+                                                    −90
+                                                               1 +
+                                                               2 (1 )              B + → φX            K + J/ψ(1S)         2021     NO
+Tbb̄1 (10610)    Zb (10610)   10607.2 ± 2.0    18.4 ± 2.4     1 (1+− )
+                                                               +               Υ (10860) → π − X     π + Υ (1S, 2S, 3S) 2011        YES
+                                                                               Υ (10860) → π 0 X     π 0 Υ (1S, 2S, 3S)
+                                                                                                      π + hb (1P, 2P )
+                                                                                                           (B B̄ ∗ )+
+Tbb̄1 (10650)    Zb (10650)   10652.2 ± 1.5    11.5 ± 2.2     1+ (1+− )        Υ (10860) → π − X     π + Υ (1S, 2S, 3S) 2011        YES
+                                                                                                      π + hb (1P, 2P )
+                                                                                                          (B ∗ B̄ ∗ )+
+
+
+
+
+found by LHCb.
+    In addition to the Tcc̄ (also known as Zc ) states found in B decays, discussed above, several
+isovector states with masses near DD̄∗ and D∗ D̄∗ thresholds appear to be unique to e+ e− annihi-
+lation. In 2013, a state named Tcc̄1 (3900) (originally Zc (3900)) was unearthed in the charmonium
+region at BESIII [97] and Belle [48] in the process e+ e− → π ∓ Tcc̄1 (3900)± with Tcc̄1 (3900)± →
+π ± J/ψ(1S). The corresponding spectrum from BESIII is shown in Fig. 77.5. An analysis of CLEO
+data [98] confirmed this finding and also provided evidence for a neutral partner. A nearby signal
+was also seen in the DD̄∗ channel [99] whose quantum numbers were fixed to 1+− . BESIII reported
+its neutral partner in both J/ψ(1S)π 0 [100] and DD̄∗ [101] decay modes. The masses extracted
+from these experiments in different decay modes agree within 2σ. However, since the extraction of
+the mass and width parameters did not allow for an interference with the background and Breit–
+Wigner line shapes are used, which is not justified near thresholds, there might be some additional
+systematic uncertainty in the mass values. Therefore, in the RPP listings as well as in Table 77.3
+both structures appear under the name Tcc̄1 (3900). BESIII also reported the observation of another
+charged state, the Tcc̄ (4020)± (originally called Zc (4020)± ), in two decay modes: hc (1P )π ± [102]
+and (D∗ D̄∗ )± [103]. The neutral partners have also been observed by BESIII in the hc (1P )π 0 [104]
+and (D∗ D̄∗ )0 [105] final states. The Tcc̄ states show some remarkable similarities to the Tbb̄ states
+(discussed below), e.g. they decay dominantly to D(∗) D̄∗ channels. However, current analyses sug-
+gest that the mass of the Tcc̄1 (3900) might be somewhat above the DD̄∗ threshold. If confirmed,
+this feature would challenge a possible DD̄∗ –molecular interpretation with S-wave interactions only
+
+                                                             1st June, 2026
+12              77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+
+
+                                                   π± ψ
+Figure 77.5: The π ± J/ψ(1S) invariant mass distribution from BESIII [97] e+ e− collision data
+taken at a center-of-mass energy near 4260 MeV.
+
+
+— prominent D-waves can shift molecular poles above threshold (see the discussion in Sec. 77.3.3).
+Finally, 3.5σ evidence for one more charged charmonium-like state at 4055 MeV decaying into
+ψ(2S)π ± was reported by Belle in their analysis of the process e+ e− → ψ(2S)π + π − [57]. The same
+process was studied by BESIII, where there appears to be complications in the Dalitz plot requiring
+further investigation [55].
+      An isospin-1/2 state with open strangeness, the Tcc̄s̄1 (4000), has been reported near Ds D∗
+threshold by both BESIII [106, 107] and LHCb [77]. BESIII observes the charged Tcc̄s̄1 (4000)
+in the process e+ e− → K + (Ds− D∗0 + Ds∗− D0 ) [106] and the neutral Tcc̄s̄1 (4000) in the process
+e+ e− → KS (Ds− D∗+ +Ds∗− D+ ) [107]. LHCb observes the charged version in B + → φ(K + J/ψ(1S))
+[77], although with a much larger decay width. The same LHCb analysis also finds a higher mass
+                                                                                0 near D ∗ D ∗ threshold
+Tcc̄s̄ candidate, the Tcc̄s̄1 (4220). A search by BESIII for a heavier partner Tcc̄s̄   s
+was negative [108].
+77.3.2 Double Charm
+    The most striking recent result, however, is due to the observation by LHCb [109, 110] of a
+doubly charmed state, the Tcc (3875)+ , in the inclusive cross section of D∗+ D0 → D0 D0 π + (see
+                                                                                           ¯ and the
+Fig. 77.6). The statistical significance is overwhelming, the minimal quark content is ccūd,
+                                                                                        P
+width is approximately what would be expected for an isoscalar ground state having J = 1+ . The
+integrated luminosity used in this study was 9 fb−1 . The larger integrated luminosity of the event
+sample to be collected by the end of the LHC Run 3, together with improved analysis techniques,
+might bring the Tbc states within reach.
+77.3.3 Bottomonium
+    New results on the ηb , hb , and Tbb̄ mostly come from Belle [23, 24, 26, 28, 90, 111–117], all from
+analyses of 121.4 fb−1 of e+ e− collision data collected near the peak of the Υ (10860) resonance,
+as well as from an additional 25 fb−1 of data collected during the scans of the c.m. energy range
+10.63–11.05 GeV. The ηb , hb , and Tbb̄ appear in the decay chains Υ (10860) → π − Tb+b̄ , Tb+b̄ → π + (bb̄),
+and, when the bb̄ forms an hb (1P ), frequently decaying as hb (1P ) → γηb .
+    Belle soon noticed that, for events in the peaks of Fig. 77.1 corresponding to the processes
+
+                                              1st June, 2026
+13             77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+                                           70                                    40
+
+
+
+
+                         Yield / 500 keV
+                                                               Yield / 200 keV
+                                                  LHCb                           35
+                                           60                                    30
+                                                  9 fb 1
+                                                      −
+                                                                                 25
+                                                                                 20
+                                           50                                    15
+                                                                                 10
+                                           40                                     5
+                                                                                  0
+                                                  +   Data                            3.874              3.876
+                                                      T +cc ͢ D 0 D 0 π +
+                                           30         Background
+                                                                                              mD 0 D 0 π + (GeV)
+                                                      Total
+
+                                           20
+                                                      D *+ D 0 threshold
+                                                      D *0 D + threshold
+
+
+                                           10
+
+                                            0
+
+                                           3.87   3.88                                3.89                         3.9
+                                                      mD0D0π + (GeV)
+
+          Figure 77.6: The D0 D0 π + invariant mass distribution from LHCb [109, 110].
+
+
+
+
+Figure 77.7: From Belle [111] e+ e− collision data taken near the peak of the Υ (10860) for events
+with a π + π − -missing mass consistent with an Υ (2S) → µ+ µ− , (a) the maximum of the two possible
+single π ± -missing-mass-squared combinations vs. the π + π − -mass-squared; and (b) projection of
+the maximum of the two possible single π ± -missing-mass combinations overlaid with a fit (curve).
+Events to the left of the vertical line in (a) are excluded from the amplitude analysis. The hatched
+histogram in (b) corresponds to the combinatorial background. The two horizontal stripes in (a)
+and two peaks in (b) correspond to the two Tbb̄ states.
+
+
+e+ e− → π + π − Υ (1S, 2S, 3S) and π + π − hb (1P, 2P ), there seemed to be two intermediate charged
+states in the π ± Υ and π ± hb channels, called the Tbb̄ (10610) and the Tbb̄ (10650). For example,
+Fig. 77.7 shows a Dalitz plot for events restricted to the Υ (2S) region of π + π − recoil mass, with
+Υ (2S) → µ+ µ− [111]. The two bands observed in the maximum of the two M [π ± Υ (2S)]2 values also
+appear in the Υ (1S), Υ (3S), hb (1P ), and hb (2P ) samples. Belle fits all subsamples to resonant plus
+non-resonant amplitudes, allowing for interference (notably, between π − Tb+b̄ and π + Tb−b̄ ), and finds
+consistent pairs of Tbb̄ masses for all bottomonium transitions, and comparable strengths of the two
+states. A recent angular analysis assigned J P = 1+ for both Tbb̄ states [112], which must also have
+negative G-parity. Transitions through Tbb̄ to the hb (nP ) saturate the observed π + π − hb (nP ) cross
+sections. While the two masses of the Tbb̄ states as extracted from Breit–Wigner fits for the various
+
+                                                  1st June, 2026
+14             77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+channels are just a few MeV above the B ∗ B̄ and B ∗ B¯∗ thresholds, more refined analyses using only
+S-waves find pole locations right below the corresponding thresholds either on the physical [118] or
+the unphysical [119] sheet. Once D-waves are included, the pole of the Tbb̄ (10650) moves above the
+B ∗ B̄ ∗ threshold [120]. Regardless of their proximity to the corresponding thresholds, both states
+predominantly decay into these open-flavor channels [114,121] with branching fractions that exceed
+80% and 70%, respectively, at 90% CL. This feature provides strong evidence for their molecular
+nature.
+77.4 Concluding Remarks
+    The discovery of the χc1 (3872) (also known as the X(3872)) in 2003 ushered in an era of tremen-
+dous progress in experimental heavy quark meson spectroscopy, even though many issues remain
+unsettled. As shown in Tables 77.1 to 77.3, more than 40 new states have been reported during
+this period, many of which were unanticipated. While the states below open-flavor thresholds
+(Table 77.1) appear to be well-explained by the conventional q q̄ quark model, a thorough under-
+standing of the suite of states above (Table 77.2) and near (Table 77.3) open-flavor thresholds
+remains elusive. After nearly two decades, experimental progress remains rapid with the contin-
+uation of BESIII, the commencement of the Belle II program, and the imminent accumulation of
+additional data at the LHC.
+Acknowledgements
+    We thank Alexander Bondar and Christoph Hanhart for carefully reading the manuscript and
+for detailed and constructive suggestions.
+References
+ [1] N. Brambilla et al., Phys. Rept. 873, 1 (2020), [arXiv:1907.07583].
+  [2] Y.-R. Liu et al., Prog. Part. Nucl. Phys. 107, 237 (2019), [arXiv:1903.11976].
+  [3] S. L. Olsen, T. Skwarnicki and D. Zieminska, Rev. Mod. Phys. 90, 1, 015003 (2018),
+      [arXiv:1708.04012].
+  [4] A. Ali, J. S. Lange and S. Stone, Prog. Part. Nucl. Phys. 97, 123 (2017), [arXiv:1706.00610].
+  [5] F.-K. Guo et al., Rev. Mod. Phys. 90, 1, 015004 (2018), [arXiv:1705.00141].
+  [6] R. F. Lebed, R. E. Mitchell and E. S. Swanson, Prog. Part. Nucl. Phys. 93, 143 (2017),
+      [arXiv:1610.04528].
+  [7] A. E. Bondar, R. V. Mizuk and M. B. Voloshin, Mod. Phys. Lett. A 32, 04, 1750025 (2017),
+      [arXiv:1610.01102].
+  [8] H.-X. Chen et al., Rept. Prog. Phys. 86, 2, 026201 (2023), [arXiv:2204.02649].
+  [9] M. Mai, U.-G. Meißner and C. Urbach, Phys. Rept. 1001, 1 (2023), [arXiv:2206.01477].
+ [10] N. Hüsken, E. S. Norella and I. Polyakov, Mod. Phys. Lett. A 40, 17n18, 2530002 (2025),
+      [arXiv:2410.06923].
+ [11] S. K. Choi et al. (Belle), Phys. Rev. Lett. 91, 262001 (2003), [hep-ex/0309032].
+ [12] N. Brambilla et al., Eur. Phys. J. C74, 10, 2981 (2014), [arXiv:1404.3723].
+ [13] J. L. Rosner et al. (CLEO), Phys. Rev. Lett. 95, 102003 (2005), [hep-ex/0505073].
+ [14] M. Ablikim et al. (BESIII), Phys. Rev. D 99, 7, 072008 (2019), [arXiv:1810.12023].
+ [15] M. Ablikim et al. (BESIII), Phys. Rev. D 102, 112007 (2020), [arXiv:2010.12092].
+ [16] M. Ablikim et al. (BESIII), JHEP 05, 108 (2022), [Erratum: JHEP 03, 022 (2023)],
+      [arXiv:2203.10439].
+ [17] V. Bhardwaj et al. (Belle), Phys. Rev. Lett. 111, 3, 032001 (2013), [arXiv:1304.3975].
+
+                                           1st June, 2026
+15            77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+ [18] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 115, 1, 011803 (2015), [arXiv:1503.08203].
+ [19] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 129, 10, 102003 (2022), [arXiv:2203.05815].
+[20] K. Chilikin et al. (Belle), JHEP 05, 034 (2020), [arXiv:2003.08335].
+[21] B. Aubert et al. (BaBar), Phys. Rev. Lett. 101, 071801 (2008), [Erratum: Phys.Rev.Lett.
+     102, 029901 (2009)], [arXiv:0807.1086].
+[22] B. Aubert et al. (BaBar), Phys. Rev. Lett. 103, 161801 (2009), [arXiv:0903.1124].
+[23] R. Mizuk et al. (Belle), Phys. Rev. Lett. 109, 232002 (2012), [arXiv:1205.6351].
+[24] U. Tamponi et al. (Belle), Phys. Rev. Lett. 115, 14, 142001 (2015), [arXiv:1506.08914].
+[25] B. G. Fulsom et al. (Belle), Phys. Rev. Lett. 121, 23, 232001 (2018), [arXiv:1807.01201].
+[26] I. Adachi et al. (Belle), Phys. Rev. Lett. 108, 032001 (2012), [arXiv:1103.3419].
+[27] T. K. Pedlar et al. (CLEO), Phys. Rev. Lett. 107, 041803 (2011), [arXiv:1104.2025].
+[28] I. Adachi (Belle), in “8th International Workshop On Heavy Quarkonium (QWG2011) Darm-
+     stadt, Germany, October 3-7, 2011,” (2011), [arXiv:1110.3934].
+[29] G. Aad et al. (ATLAS), Phys. Rev. Lett. 108, 152001 (2012), [arXiv:1112.5154].
+[30] V. M. Abazov et al. (D0), Phys. Rev. D 86, 031103 (2012), [arXiv:1203.6034].
+[31] R. Aaij et al. (LHCb), JHEP 10, 088 (2014), [arXiv:1409.1408].
+[32] A. M. Sirunyan et al. (CMS), Phys. Rev. Lett. 121, 092002 (2018), [arXiv:1805.11192].
+[33] G. Aad et al. (ATLAS), Phys. Rev. Lett. 113, 212004 (2014), [arXiv:1407.1032].
+[34] A. M. Sirunyan et al. (CMS), Phys. Rev. Lett. 122, 132001 (2019), [arXiv:1902.00571].
+[35] R. Aaij et al. (LHCb), Phys. Rev. Lett. 122, 232001 (2019), [arXiv:1904.00081].
+[36] R. Aaij et al. (LHCb), JHEP 07, 035 (2019), [arXiv:1903.12240].
+[37] S. Uehara et al. (Belle), Phys. Rev. Lett. 96, 082003 (2006), [hep-ex/0512035].
+[38] B. Aubert et al. (BaBar), Phys. Rev. D 81, 092003 (2010), [arXiv:1002.0281].
+[39] K. Abe et al. (Belle), Phys. Rev. Lett. 94, 182002 (2005), [hep-ex/0408126].
+[40] J. P. Lees et al. (BaBar), Phys. Rev. D86, 072002 (2012), [arXiv:1207.2651].
+[41] F.-K. Guo and U.-G. Meissner, Phys. Rev. D86, 091501 (2012), [arXiv:1208.1134].
+[42] S. L. Olsen, Phys. Rev. D91, 5, 057501 (2015), [arXiv:1410.6534].
+[43] Z.-Y. Zhou, Z. Xiao and H.-Q. Zhou, Phys. Rev. Lett. 115, 2, 022001 (2015),
+     [arXiv:1501.00879].
+[44] R. Aaij et al. (LHCb), Phys. Rev. D 102, 112003 (2020), [arXiv:2009.00026].
+[45] K. Chilikin et al. (Belle), Phys. Rev. D95, 112003 (2017), [arXiv:1704.01872].
+[46] B. Aubert et al. (BaBar), Phys. Rev. Lett. 95, 142001 (2005), [hep-ex/0506081].
+[47] C. Z. Yuan et al. (Belle), Phys. Rev. Lett. 99, 182004 (2007), [arXiv:0707.2541].
+[48] Z. Q. Liu et al. (Belle), Phys. Rev. Lett. 110, 252002 (2013), [arXiv:1304.0121].
+[49] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 118, 9, 092001 (2017), [arXiv:1611.01317].
+[50] S. X. Nakamura et al., Phys. Rev. D 112, 5, 054027 (2025), [arXiv:2312.17658].
+[51] M. Cleven et al., Phys. Rev. D90, 7, 074039 (2014), [arXiv:1310.2190].
+[52] L. von Detten et al., Phys. Rev. D 109, 11, 116002 (2024), [arXiv:2402.03057].
+[53] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 118, 9, 092002 (2017), [arXiv:1610.07044].
+[54] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 112, 9, 092001 (2014), [arXiv:1310.4101].
+
+                                         1st June, 2026
+16             77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+ [55] M. Ablikim et al. (BESIII), Phys. Rev. D96, 3, 032004 (2017), [erratum:                    Phys.
+      Rev.D99,no.1,019903(2019)], [arXiv:1703.08787].
+ [56] X. L. Wang et al. (Belle), Phys. Rev. Lett. 99, 142002 (2007), [arXiv:0707.3699].
+ [57] X. L. Wang et al. (Belle), Phys. Rev. D91, 112007 (2015), [arXiv:1410.7641].
+ [58] J. P. Lees et al. (BaBar), Phys. Rev. D89, 11, 111103 (2014), [arXiv:1211.6271].
+ [59] G. Pakhlova et al. (Belle), Phys. Rev. Lett. 101, 172001 (2008), [arXiv:0807.4458].
+ [60] S. Jia et al. (Belle), Phys. Rev. D100, 11, 111103 (2019), [arXiv:1911.00671].
+ [61] K. Chilikin et al. (Belle), Phys. Rev. D88, 7, 074026 (2013), [arXiv:1306.4894].
+ [62] K. Chilikin et al. (Belle), Phys. Rev. D90, 11, 112009 (2014), [arXiv:1408.6457].
+ [63] R. Aaij et al. (LHCb), Phys. Rev. Lett. 112, 22, 222002 (2014), [arXiv:1404.1903].
+ [64] B. Aubert et al. (BaBar), Phys. Rev. D79, 112001 (2009), [arXiv:0811.0564].
+ [65] R. Mizuk et al. (Belle), Phys. Rev. D78, 072004 (2008), [arXiv:0806.4098].
+ [66] J. P. Lees et al. (BaBar), Phys. Rev. D85, 052003 (2012), [arXiv:1111.5919].
+ [67] T. Aaltonen et al. (CDF), Phys. Rev. Lett. 102, 242002 (2009), [arXiv:0903.2229].
+ [68] T. Aaltonen et al. (CDF), Mod. Phys. Lett. A32, 26, 1750139 (2017), [arXiv:1101.6058].
+ [69] V. M. Abazov et al. (D0), Phys. Rev. D89, 1, 012004 (2014), [arXiv:1309.6580].
+ [70] S. Chatrchyan et al. (CMS), Phys. Lett. B734, 261 (2014), [arXiv:1309.6920].
+ [71] J. Brodzicka, Conf. Proc. C0908171, 299 (2009).
+ [72] R. Aaij et al. (LHCb), Phys. Rev. D85, 091103 (2012), [arXiv:1202.5087].
+ [73] J. P. Lees et al. (BaBar), Phys. Rev. D91, 1, 012003 (2015), [arXiv:1407.7244].
+ [74] C. P. Shen et al. (Belle), Phys. Rev. Lett. 104, 112004 (2010), [arXiv:0912.2383].
+ [75] R. Aaij et al. (LHCb), Phys. Rev. D95, 1, 012002 (2017), [arXiv:1606.07898].
+ [76] R. Aaij et al. (LHCb), Phys. Rev. Lett. 118, 2, 022003 (2017), [arXiv:1606.07895].
+ [77] R. Aaij et al. (LHCb), Phys. Rev. Lett. 127, 8, 082001 (2021), [arXiv:2103.01803].
+ [78] S. X. Nakamura, Phys. Lett. B 834, 137486 (2022), [arXiv:2111.05115].
+ [79] R. Aaij et al. (LHCb), Sci. Bull. 65, 1983 (2020), [arXiv:2006.16957].
+ [80] G. Aad et al. (ATLAS), Phys. Rev. Lett. 131, 15, 151902 (2023), [arXiv:2304.08962].
+ [81] A. Hayrapetyan et al. (CMS), Phys. Rev. Lett. 132, 11, 111901 (2024), [arXiv:2306.07164].
+ [82] X.-K. Dong et al., Phys. Rev. Lett. 126, 13, 132001 (2021), [Erratum: Phys.Rev.Lett. 127,
+      119901 (2021)], [arXiv:2009.07795].
+ [83] C. Gong et al., Phys. Lett. B 824, 136794 (2022), [arXiv:2011.11374].
+ [84] Z.-R. Liang, X.-Y. Wu and D.-L. Yao, Phys. Rev. D 104, 3, 034034 (2021), [arXiv:2104.08589].
+ [85] Y.-L. Song et al., Phys. Rev. D 111, 3, 034038 (2025), [arXiv:2411.12062].
+ [86] R. Mizuk et al. (Belle), JHEP 10, 220 (2019), [arXiv:1905.05521].
+ [87] I. Adachi et al. (Belle-II), JHEP 07, 116 (2024), [arXiv:2401.12021].
+ [88] I. Adachi et al. (Belle-II), Phys. Rev. Lett. 130, 9, 091902 (2023), [arXiv:2208.13189].
+ [89] N. Hüsken, R. E. Mitchell and E. S. Swanson, Phys. Rev. D 106, 9, 094013 (2022),
+      [arXiv:2204.11915].
+ [90] D. Santel et al. (Belle), Phys. Rev. D93, 1, 011101 (2016), [arXiv:1501.01137].
+
+                                          1st June, 2026
+17             77. Spectroscopy of Mesons Containing Two Heavy Quarks
+
+
+ [91] F.-K. Guo, X.-H. Liu and S. Sakai, Prog. Part. Nucl. Phys. 112, 103757 (2020),
+      [arXiv:1912.07030].
+ [92] R. Aaij et al. (LHCb), Phys. Rev. Lett. 110, 222001 (2013), [arXiv:1302.6269].
+ [93] R. Aaij et al. (LHCb), Phys. Rev. D92, 1, 011102 (2015), [arXiv:1504.06339].
+ [94] R. Aaij et al. (LHCb), Phys. Rev. D 102, 9, 092005 (2020), [arXiv:2005.13419].
+ [95] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 132, 15, 151903 (2024), [arXiv:2309.01502].
+ [96] N. Brambilla et al., Eur. Phys. J. C71, 1534 (2011), [arXiv:1010.5827].
+ [97] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 110, 252001 (2013), [arXiv:1303.5949].
+ [98] T. Xiao et al., Phys. Lett. B727, 366 (2013), [arXiv:1304.3036].
+ [99] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 112, 2, 022001 (2014), [arXiv:1310.1163].
+[100] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 115, 11, 112003 (2015), [arXiv:1506.06018].
+[101] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 115, 22, 222002 (2015), [arXiv:1509.05620].
+[102] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 111, 24, 242001 (2013), [arXiv:1309.1896].
+[103] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 112, 13, 132001 (2014), [arXiv:1308.2760].
+[104] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 113, 21, 212002 (2014), [arXiv:1409.6577].
+[105] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 115, 18, 182002 (2015), [arXiv:1507.02404].
+[106] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 126, 10, 102001 (2021), [arXiv:2011.07855].
+[107] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 129, 11, 112003 (2022), [arXiv:2204.13703].
+[108] M. Ablikim et al. (BESIII), Chin. Phys. C 47, 3, 033001 (2023), [arXiv:2211.12060].
+[109] R. Aaij et al. (LHCb), Nature Phys. 18, 7, 751 (2022), [arXiv:2109.01038].
+[110] R. Aaij et al. (LHCb), Nature Commun. 13, 1, 3351 (2022), [arXiv:2109.01056].
+[111] A. Bondar et al. (Belle), Phys. Rev. Lett. 108, 122001 (2012), [arXiv:1110.2251].
+[112] A. Garmash et al. (Belle), Phys. Rev. D91, 7, 072003 (2015), [arXiv:1403.0992].
+[113] P. Krokovny et al. (Belle), Phys. Rev. D88, 5, 052016 (2013), [arXiv:1308.2646].
+[114] I. Adachi et al. (Belle) (2012), [arXiv:1209.6450].
+[115] K. F. Chen et al. (Belle), Phys. Rev. Lett. 100, 112001 (2008), [arXiv:0710.2577].
+[116] P. Krokovny (Belle), Nuovo Cim. C 035, 06, 223 (2012).
+[117] A. Abdesselam et al. (Belle), Phys. Rev. Lett. 117, 14, 142001 (2016), [arXiv:1508.06562].
+[118] M. Cleven et al., Eur. Phys. J. A47, 120 (2011), [arXiv:1107.0254].
+[119] F. K. Guo et al., Phys. Rev. D93, 7, 074031 (2016), [arXiv:1602.00940].
+[120] Q. Wang et al., Phys. Rev. D 98, 7, 074023 (2018), [arXiv:1805.07453].
+[121] A. Garmash et al. (Belle), Phys. Rev. Lett. 116, 21, 212001 (2016), [arXiv:1512.07419].
+
+
+
+
+                                           1st June, 2026
+

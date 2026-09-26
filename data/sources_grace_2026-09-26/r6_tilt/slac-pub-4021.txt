@@ -1,0 +1,666 @@
+                                                                            SLAC - PUB - 4021
+                                                                            CERN - TH.4494/86
+                                                                            July 1986
+                                                                            (T/E)
+
+  Production        and Decay Properties                    of Ultra-Heavy               Quarks*
+
+
+                                            I. BIGI+
+
+                            Stanford    Linear     Accelerator        Center
+                Stanford     University,     Stanford,        California,        94305
+
+
+                             Y. Dokshitzer        and V. Khoze
+                Leningrad     Nucl.     Phys.    In&it.,      Leningrad,          USSR
+
+
+                                            J. Kiihn
+            Max-Planck-Instit.fu”r          Physik,      Mti’nchen,    FR Germany
+
+
+                                            P. Zerwas
+                             CERN,         Geneva, Switzerland
+
+
+
+
+                            Submitted       to Physics Letters             B
+
+
+
+
+* Work supported    by the Department       of Energy,     contract   DE       - AC03    - 76SF00515.
++ Max-Kade   Fellow
+                                   ABSTRACT
+
+    The widths of ultra-heavy    quarks that can decay into W, 2 or Higgs bosons
+are discussed. If the lifetimes become much shorter than the typical strong inter-
+action time scale A$*     - 1O-23 set, then open-flavor       hadrons and quarkonium
+bound states cannot be formed any more.             Consequences for the jet evolution
+are investigated.   On the other hand, if such quarks can decay only through tiny
+mixing angles - as it could happen for sequential down-type quarks and for SU(2)
+singlet quarks in E6 models - then these bound states do form. Production               rates
+for quarkonia in e+e- annihilation      and in hadronic collisions are estimated and
+their decay signatures are discussed.
+
+
+
+                                 1. Introduction
+
+    It has often been conjectured that more leptons and quarks might exist than
+those presently known in the first three generations, with masses in the range of
+0 (100 GeV):
+
+  (i) No explanation    has been given so far for the replication         of fermion gener-
+      ations in the Standard Model.       The existence of a fourth        family is not in
+      conflict with any experimental     facts. It has even been speculated recently
+      that another generation might facilitate       the description   of CP violation        in
+      KL decays.
+
+  (ii) Each generation itself might have a richer fermion content than presently
+      observed.     Grand unified models based on E6, for example, predict                   the
+      existence of isoscalar, charge - l/3       quarks with small, quite possibly tiny
+      mixing to the well-known    doublet quarks.
+
+    The only constraint on heavy quark masses follows from the requirement               that
+low energy observables must not be renormalized           too strongly.     In particular,     a
+stringent bound on the mass splitting     in isodoublets can be derived from fermion-
+
+                                             2
+loop contributions     to the p parameters1
+
+
+                                 m&-m,    2 1’2 2 0.3 TeV
+
+
+The masses in nearly degenerate doublets can therefore be very large. Since high
+energy e+e- and hadron-hadron         colliders will provide the opportunity           to explore
+the 0 (100 GeV) d omain experimentally              [and hopefully the range beyond in the
+more distant future],     a general discussion of the production          of such particles and
+their decay properties     is called for. In this note we shall discuss two topics:
+
+      First we focus on the ultra-heavy            quarks that decay semi-weakly into light
+      quarks and W/Z         bosons2 -Q        +     q + W/Z-      or Higgs bosons3 - Q +
+      q + Hf/Ho.        One finds that the Q lifetime            will - for a sufficiently   large
+      quark mass mQ       - become much shorter than the time scale A&,                  - 1O-23
+      set typically    needed to build up open-flavor hadrons (Qa) and quarkonium
+      bound states (Q&).        I n many aspects such quarks behave like (quasi)-free
+      particles,   their dynamical    properties      determined     only by electroweak and
+      perturbative     strong interactions.        The large width     of these states requires
+      a refined analysis of the threshold behavior in e+e- annihilation                 generally
+      used to measure particle masses very accurately.               A very similar discussion
+      applies to corrections due to the finite W/Z              width in Q decays throughout
+      the transition     region from virtual       to real bosons.
+
+  (ii) In the second part we will elaborate on a scenario where the decays Q +
+      q + W/Z,       q + H are greatly suppressed due to tiny quark mixing              angles as
+      it might happen for sequential down-type             quarks and for singlet quarks in
+      Es models. In an extreme case such quarks Q might even be stable. Then
+      (Qq) and (Q&j b ound states can form.               We analyze their production         and
+      decay properties      in more detail.
+                                                2. Q Decay
+
+
+    Adopting      the Standard Model coupling with a mixing parameter                           V(Qq)   for
+the Q + q + W decay vertex, one finds for the width
+
+
+
+r(Q-v++)=                  8Ta
+                           GFm3s    IV(Q           &
+
+                                                                                                        (2)
+
+                       (l-      (z)2+           [l+(z)2]         (z)‘-2(z)‘}
+
+
+
+where
+
+                                                 112
+             k=       mi     - (mw + rnq)’
+                                                1[                                     2 “6
+
+
+denotes the W momentum                  in the Q rest frame.    This width quickly reaches the
+asymptotic     form
+
+
+
+                       I’(Q    + q + W) = 180 MeV IV(Q                                                  (3)
+
+
+and the lifetime       drops below 1O-23 sec. This behaviour                   is illustrated    in Fig. 1
+(solid line) where the light quark mass is chosen to be 5 GeV. The final state
+consists of a q jet plus a lepton pair or two other jets from W decay. For Q an
+up-type quark we expect the mixing parameter                   IV(Qq))    to be close to unity while
+for a down-type        quark it should be much smaller, namely IV(Qq) I - 8, , 0: or
+even less.
+
+    Near W threshold Eq. (2) h as t o b e modified due to the finite W width which
+provides a smooth transition              to the conventional     weak three-body             decay below
+W threshold.       The partial          width    into qev, for instance, via virtual            or real W
+
+                                                       4
+emission can be written       as
+
+
+r(Q-+q+W(-+
+          ev>) = G$rnt
+                 192n3            m$   mi    I?&
+                       lV(Qq)12f -m&’ -rn&’ -rn&
+
+                  o-ma
+       f(AA 7) =2 / [(1_x;; + 72]2 [(l- PJ2      +(1+/-4x
+                                                        - 2x21
+                                        0
+
+
+                          X        1+       p2 +x2          -       qp    + /-Lx + x)
+
+                                                                                                                   (4
+For quark masses mQ       up to N 3 GeV below the threshold                                    for real W produc-
+tion one can ignore the effect of the non-vanishing                              W width;          the W propagator,
+however, remains important            for smaller masses as well, as shown in Fig. 2. The
+narrow width   approximation             becomes again adequate for                           mQ     roughly   10 GeV
+above the qW thresho1d.A similar calculation                                can be found in ref.17.
+
+    Isoscalar quarks might decay via 2” emission; the required flavor-changing
+neutral current coupling could be generated via mixing of the left-handed                                      compo-
+nents of isoscalar and isodoublet quarks. The mass dependance of I’(Q + 2 + q)
+is the same as in Eq. (2) - mw replaced by rnz - while the overall normalization
+is reduced by a factor of two.
+
+    Charged Higgs particles - as for example predicted by SUSY extensions of the
+Standard Model - provide a similarly rapid decay mode of heavy quarks. Defining
+the coupling by da                 kfQp[(1-75)                      v~+(1+75)           vR]Qoneobtainsforthe
+width of this decay mode3
+
+
+           I’(Q-+q+H)=-               GFmt           - 2k            (lv#     + lug)      x
+                                      8qh            mQ
+                                                                                                                   (5)
+
+                               [1+(32-(32]+4ResLvp}
+
+
+which rises asymptotically         again like m$.                        The mass dependence is shown for a
+light and heavy charged Higgs by the dotted lines in Fig. 1. These widths get
+
+                                                                5
+reduced by mixing             parameters     if the Q +       q transition        connects two different
+generations;        the relative strength      of H versus W transitions,              however, remains
+unchanged.          At first thought       it might be expected that a peculiar choice of the
+unknown          couplings VL, VR could reduce this rate to an arbitrarily
+                                                                   small level.
+                                                                     mq
+However in a model with just two Higgs doublets4 VL = tan@, VR = -cot/3
+                                                                     “8
+hold so that the minimal rate is obtained for tan2 /3 = ?nq/?nQ. Even for this
+extreme choice, the Higgs decay mode would still dominate the conventional weak
+decays for Higgs masses nearly up to the kinematic                       limit.
+
+
+         3. Short-lived          Quarks:     Hadron       Formation         and Jet Evolution
+
+        Rapid semiweak decays have very interesting                   consequences for strong inter-
+action phenomena involving ultra-heavy                    quarks:
+
+         (i) The binding         force in a heavy quarkonium           state is essentially      Coulom-
+bit.         The revolution      time of the (Q&) b ound state is then estimated                 as tR -
+9/(4mQai).           If the lifetime of the (Q&) system becomes shorter than the revo-
+lution time tR, then the quarkonium                bound state cannot be formed any more.
+Setting LYE= 0.15 to illustrate             the point one finds this to happen for
+
+
+                                     mQ    2 125 GeV       x lV(Qq)l-g                                (64
+
+
+Equation          (6a) can be interpreted       also in a different way: when the uncertainty
+in the quark masses becomes larger than the (Q&) level spacing of - 800 MeV
+estimated         in potential     models, 5 the non-perturbative           binding forces become in-
+effective.        Any resonance structure        in QQ production            near threshold    is washed
+out, and the properties of the process e+e- + QQ follow literally                         the predictions
+of the free quark model, modified only by perturbative                            QCD corrections.    The
+apparent threshold            will be lowered by about         2rQ,    as shown in Fig. 3. This can
+be described by smearing out the quark mass values (in the phase space factor
+of a(e+e-         + QQ)) by Breit-Wigner          expressions, an approximation             valid as long
+
+                                                      6
+as the matrix      element does not change rapidly                 over the threshold        domain.        [A
+similar prescription      has been used for W+W-                 production6].        This pattern     com-
+plicates an accurate measurement               of mQ       and limits precision tests of potential
+models already at lower energies.
+
+    A somewhat        stronger limit     applies to (Qq) bound states.                   We find a mass
+limit of
+
+                                mQ   2 100 GeV             X   IV(Qq                                    w
+
+
+above which no more open-flavor            hadrons can exist, i.e. Q decays before it can
+form a meson by picking up a light quark q: TQ < t&d - AQiD - 1O-23 sec.
+
+     (ii) Hadronization      of a heavy quark jet with           EQ     >> mQ,      produced for example
+in e+e- collisions, is a complicated           interplay       of non-perturbative         as well as per-
+turbative     QCD effects. In a parton picture, due to the inertia of the heavy quark,
+most of the energy resides in the (Qq) o p en-flavor hadrons leaving only a small
+fraction    for the light particles in the accompanying                  jet.‘-1°     This leading parti-
+cle effect and the truncation        of the plateau has in fact been observed for charm
+and bottom jets, and the total energy of the light particles in a jet amounts to
+approximately      (0.6 GeV/mQ)EQ.’            For ultra-heavy          quarks the picture simplifies
+considerably:      the energy fraction         due to the non-perturbative                QCD force ap-
+proaches zero when the lifetime           TQ    becomes much less than the typical strong
+interaction     time characterized     by the confinement               radius Rconf - A$-,,      - 1O-23
+set; on the other hand the degrading of the virtual                     quark Q due to perturbative
+gluon bremsstrahlung         needs less than the decay time for any foreseeable energy.
+
+     At high energies E >> mQ,         perturbative            gluon bremsstrahlung         softens the Q
+spectrum tolo
+
+
+                                               1+ x;
+                     DQ(XQ     = EQ/E)     = A 2                  (I_    xQ)-l++E                        (7)
+                                                       7
+I   -   -
+
+
+
+            where
+
+
+
+
+                                                     b=lI-~NF
+
+            NF is the number           of active flavors, and A is chosen such that 1 ~XQDQ                                                 = 1.
+            For all practical        cases A[         remains small (for A-                         100 MeV,           MQ      2 100 GeV:
+            At    5 0.05 even at E = 5 TeV).                             Note that the distribution                         turns   into a S-
+            function    for At -+ 0. The distribution                         DQ(XQ)          is infrared          stable for (1 -    XQ)      >
+            (m~r~%~,f)-l-     For E >> mQ                        the average fraction                    of energy residing            in the
+            quark Q is given by
+
+
+                                              (XQ)     = [ ;s;s;]-t                        (1 + $    T)                                       (8)
+
+
+                 The distributions           of W (or H) are controlled by perturbative                                 &CD, unaffected
+            by hadronization         of the heavy quark. Apart from a few low energy hadrons due to
+            the remnant        non-perturbative               interaction             energy, the final state jet distributions
+            in e+e-     +     QQ after Q, & fragmentation                               and decay are analogous to particle
+            distributions        in heavy lepton pair production.                            [In events like e+e- + Q(-,                    W +
+            q) + &(+        W + a) with the W’S decaying leptonically,                                  the q, Q jets will fragment
+            independently         of each other, their color fluxes connected to the remnants of Q, &
+            fragmentation].         Note that the emission of hard particles with EH > (E/7?Q)rQ
+            is suppressed at angles 8 < mQ/E                       due to the short lifetime of the heavy quark.
+
+                 Near threshold         when (E -               mQ)/mQ                 <     1, the perturbative               gluon brem-
+            strahlung       is drastically       suppressed due to the dipole character                                  of the emission.
+            The average energy loss through                      perturbative               radiation         is
+                                                                                                              2
+                                              1 -                  =      F       7
+                                                                                                     Q
+                                                     (xQ)p&                                                                                   (9)
+                                                                                           CEz            1
+
+            If the emitted        gluon energy is less than the Q width,                                the QG is produced                  prac-
+            tically    without     accompanying               color quanta,                and the production                characteristics
+
+                                                                              8
+will parallel those for heavy leptons near threshold.                             As a consequence, the quark
+is, for example, not depolarized                    through          either fragmentation         or perturbative
+multigluon         emission in electroweak e+e- annihilation.ll                          The primary       quark po-
+larization        in e+e- + 7, 2” + QQ can therefore manifest itself via parity viola-
+tions in the energy and angular distributions                            of the decay products       [even for top
+production         at LEP and SLC one expects at most a few light, low energy hadrons
+to accompany the top meson pair.]11a12
+
+
+        4. Long-lived            Quarks:Quarkonium                           Formation        and Decay
+
+     (Q&) quarkonium             resonances can be formed even for very large quark mass
+values if the mixing parameter is sufficiently                          SmakmQ         5 125 GeV x IV(Qq) lm2i3.
+While for up-type quarks, I3 = l/2,                           IV(Qq)I     - 1 should hold, we expect on the
+other hand IV(Qq)l             - Br,n        = 1,2,3 ,... for down-type                quarks, I3 = -l/2,     which
+reduces single quark decays significantly.                           For isoscalar quarks in EP, type GUTS
+IVC&q)I mighteven be much smaller.                              Nevertheless such states are not easy to
+observe.
+
+     The production            cross section in e+e- annihilation                      on the peak of the (QQ)
+resonance depends on the energy spread AW of the beams:2
+
+                                     R        -
+                                                         9       r((Q&) --+e+e->
+                                         peak -   2fid                     AW                                   (10)
+
+Since I?( (QQ)           +   e+e-)       -   1OkeV is expected to hold away from Z,Z’,...                       reso-
+nances, a decent cross section is obtained only if the beam spread could be kept
+sufficiently       small in a dedicated effort.
+
+     The cross section for the production                        of the O-+ (QQ) bound state in hadronic
+collisions is estimated to be l3
+                                                               7r2       r(o-+     + gg)
+                    0 p(p)---,o-+ + x                    N-
+                                                              8m&                                                (11)
+                                                                                 mQQ                !7L7
+
+where
+           [ d7
+              1
+             ra
+                    99
+                         denotes the gluon luminosity                      for r = %.         Using the estimate
+
+
+                                                                 9
+r(o-+ + gg) N 2 MeV and the luminosities                   computed       in ref.13,14 we obtain
+the cross section estimates shown by the dashed lines in Figs. 4 and 5 for the
+three different energies fi     =0.63,2,40 TeV.Uncertainties            in the cross sections are
+estimated to be of the order of three. Above m QQ
+                                                - -400                  GeV the width into two
+gluons increases slightly.    Below rnQg -400          GeV the only distinctive      decay mode
+is the 77 decay with a branching       ratio of 1 % . However the background                due to
+7r” production   in jets would be very severe. At mQg -400                 GeV the spectacular
+decay mode (Q&)       --) Z”H     could become dominant            for isodoublet     down-type
+quarks15.
+
+    To estimate the production      of the l--        quarkoniumstate      we employ a different
+method:     first one computes the continuum           Qs cross section near threshold        (see,
+e.g., ref. 13)
+
+
+
+
+where fi     denotes the CM energy of the qtj or gg system respectively.                     Then
+we invoke the concept of duality        to argue that integrating            these parton    cross
+sections from threshold       over the level spacing A -           800 MeV 5 should give a
+rough estimate of the l--(&Q)        production         rate. The integration    which contains
+as a weight factor the qij and gg luminosities            13y14yields
+
+                                                                    312
+
+
+
+
+                          (4 rv,;zg [+gqq
+                                        ($!I)“”                                              W)
+
+This estimate is shown by the solid curves in Figs. 4 and 5 for the three different
+CM energies fi      = 0.63, 2, 40 TeV using crs = 0.15. It should be clear from the
+
+                                                 10
+preceding discussion that these curves represent ball-park                         estimates only. At the
+parton       level the produced         QQ system is not yet in the proper colour and spin
+configuration      for the production         of a l--          bound state; therefore the solid curves
+in Figs. 4 and 5 could represent overestimates.
+
+     A possible clean signature for the l--                     production     is provided by the leptonic
+mode l--        --) e+e-,p + p -. In discussing the branching ratios for these modes we
+have to distinguish          between three different cases: (i) Q belongs to an isodoublet
+with electric charge CQ = -i              or (ii)     eQ   = + $ or (iii) Q forms an isoscalar with
+eQ   = -i.     Applying      the formulae of Ref. 2 with sin28, = 0.23 one then finds:
+
+
+              Case (i) Ri E
+                                       r (i-- + e+e-, p+p-)                   - 0.064; 0.07; 0.06       (14~)
+                                  w-        + c f f, %I, 7X 72)
+
+
+             Case (ii)    Rii N 0.11; 0.10; 0.077                                                       W)
+
+
+where the three numbers each in (14a,b) refer to rnQs = 120,200,30OGeV                                   and
+C ff     denotes the sum over all fermion-antifermion                        final states. Note that these
+ratios change very little over this range in mQg.
+
+      Case (iii) has to be treated somewhat differently                      since isoscalar quarks couple
+to isoscalar Higgs fields and not to the conventional                        Higgs doublet, at least in the
+absence of quark mixing.               Since such isoscalar Higgs are presumably               quite heavy
+we ignore the transition          Qg + 7H and thus find
+
+
+                Case (iii)     R;ii E
+                                         r(i-- + e+e-, p+p-1 = 0.10; 0.12; 0.13
+                                          r(l--       j    cff,3g)                                      (144
+
+
+For mQg > 2 mw one has to consider (Q&) + W+W-                                     as well. Modifying     the
+results of Ref. 16 appropriately                  one finds that this channel is very insignificant
+for Q being an isoscalar.              This is not surprising           since isospin arguments tell us
+that this transition         has to be suppressed for mQg >> mz.
+
+                                                           11
+      If Q is an isodoublet          quark then (Q&) -+ W+W-                  becomes significant          once
+the threshold suppression fades away. For example the leptonic branching ratios
+(14a, b) get reduced for mQa = 300 GeV: Ri N 0.043, Rii N 0.043.
+
+      So far we have ignored single quark decays (=SQD)                        (Q&) -+ Qq “W” where
+“W”       denotes an on or off shell W ( or 2) boson, apart from noting                                that for
+MQ    2     125 GeV       x   IV(Qq)l-        g no resonance can be formed.            For quarks Q with
+I3 = + f one expects IV(Qq) I -                        1. Then for MQg      2 110 GeV SQD               already
+dominates        (Q&) d eta y s and the branching ratio for l--                    + e+e-,     j~+p- quickly
+decreases below the 1% level.
+
+      For quarks with I3 = -l/2                 on the other hand one expects IV(Qq)I                 - ep,n =
+1,2,3, . . . which reduces SQD significantly.                    If IV(Qq) I - 0: - a conjecture          made
+by several authors - then one reads off from Fig. 1: rsQo((QQ))                                  N 2I’(Q)     -
+200 MeV          IV(Q         -   30 keV for mQs               = 200 GeV; this reduces the leptonic
+branching     ratio of l--         to roughly 5% . The same argument applies to isoscalar
+quarks where one might actually expect even smaller mixing angles: IV(Qq) 1 5
+0:; then SQD contributes             not more than 24 % to I’(l--)                 for mQa = 250GeV.
+
+      From Figs. 4 and 5 one reads off that the production                             cross section for a
+(Q&) vector resonance with mQG 5 250 GeV exceeds 1 pb for ,/Z = 40 TeV. An
+integrated       luminosity       s Ldt       = 104’ cm -2 then yields more than               lo4 produced
+l--    states.      For BR(l--            +    e+e-,     p+p- ) > 1% one obtains             > 100 leptonic
+decays. As discussed above one expects BR(l--                          *   e+e-,     p+p-)     - 3 - 13% for
+quarks with        eQ   = -&; the argument becomes even stronger for isoscalar quarks.
+Thus the SSC would allow searches for l--                          resonances with MQg           at least up
+to 250 GeV if eQ          = -i,      if a sufficiently         good mass resolution          and background
+rejection can be achieved.
+
+      The decays in particular                of isoscalar quarks are expected to be suppressed by
+tiny mixing angles V (Qq).                If IV (Qq) I - 0; for example then (QQ) resonances
+can form up to MQ~ - 12 TeV. Extrapolating                            our curves of Fig. 5 one finds a
+production        cross section that could be as large as 10-l                     pb for MQ~     -    1 TeV if
+
+                                                          12
+fi   =   40 TeV. If the decay (QQ)        + 7H    is still forbidden   by phasespace then
+BR(l--        + e+e-,   pL+p-) - 14% is estimated leading to 14 l--          --+ e+e-, p+p-
+decays for s Ldt = 104’ cm -2. This presumably           denotes the limit of sensitivity.
+
+     It is amusing to note that this leptonic branching           ratio actually   increases
+for stable quarks, i.e. IV(Qq) I + 0 since SQD then becomes irrelevant.                Thus
+the decays (Q&) + e+e-, p+p-          would still provide a striking     signature while it
+would be very difficult     in this extreme case to identify     the open flavor hadrons
+(Q!$
+                            ACKNOWLEDGEMENTS
+
+     We have benefitted     greatly from stimulating     discussions with N.N.Nikolaev,
+L.B.Okun,      F.Paige and N.G.Uraltsev    and we are grateful for the warm hospitality
+extended to us by M.Jacob at CERN where this work was begun.
+                                FIGURE      CAPTIONS
+
+     Fig-l:    The decay widths of ultra-heavy      quarks Q
+
+     Fig.2: The effects of the finite W width on I’(Q)
+
+     Fig.3: The impact of I’(Q) on the threshold behaviour for QQ production.
+
+     Fig.4: O-+ and l--      production   cross sections in p(p) collisions for &=0.63,
+2 TeV. Parton luminosities      are taken from ref. 13.
+
+     Fig.5: The same as Fig. 4 for &=40           TeV. Parton luminosities     from ref. 14.
+
+
+
+
+                                             13
+I   --   -
+
+
+
+                                                 REFERENCES
+
+              1. M. Veltman,        Nucl. Phys. B123 (1977) 89; M. B. Einhorn,        D. R. T. Jones
+                 and M. Veltman,        Nucl. Phys. B191 (1981) 146; M. Chanowitz,          M. Furman
+                 and I. Hinchcliffe,     Physics Lett.    78B (1978) 285.
+
+              2. J. H. Kiihn,       Acta Phys.   Polon.    B12 (1981) 374; Acta Phys.        Austriaca,
+                 Suppl. XXIV         (1982) 23, and references therein.
+
+             3. H. Baer et al., in: Physics at LEP, CERN             8602    (1986), eds. J.Ellis and
+                 R.Peccei.
+
+             4. See e.g.: G. Branco, A. Bums and J. M. Gerard, Nucl. Phys. B259 (1985)
+                 306.
+
+              5. S. Giisken, J. H. Kiihn and P. M. Zerwas, Nucl. Phys.B262(1986)393.
+
+             6. G. Barbiellini       et al., in: Physics at LEP, op. cit.
+
+              7. Ya. I. Azimov, L. L. Frankfurt       and V. A. Khoze, Leningrad     preprint   LNPT-
+                 222 (1976).
+
+              8. M. Suzuki, Phys. Lett.          71B (1977) 139; J. D. Bjorken,     Phys.    Rev. D17
+                 (1978) 171.
+
+              9. C. Peterson, D. Schlatter, I. Schmitt and P. Zerwas, Phys. Rev. D17 (1983)
+                 105.
+
+             10. Ya. I. Azimov,       Yu. L. Dokshitzer     and V. A. Khoze, Yad.     Fiz. 36 (1982)
+                 1510; Ya. I. Azimou et al., Yad. Fiz. 40 (1984) 777.
+
+             11. J. H. Kiihn,       A. Reiter and P. Zerwas, Nucl. Phys.B272(1986)560.
+
+             12. I. I. Bigi, SLAC-PUB-3915         (Phys. Lett.   B, in print).
+
+             13. R. Cahn, lectures given at the 10 th SLAC Summer Institute,                1982, SLAC
+                 Report      No.    259; see also, F. E. Paige, talk given at the 1981 Isabelle
+                 Workshop,         BNL 30154.
+
+             14. E. Eichten et al., Rev.Mod.Phys.          56, 579 (1984)
+
+                                                          14
+15. V. Barger et al., Madison preprint    MAD/PHI297   (1986)
+
+16. W. Alles, Ch. Boyer and A. Bums, Nucl. Phys. B119 (1977) 125.
+
+17. V.Barger   et al., Phys.Rev.DSO (1984)947.
+
+
+
+
+                                         15
+                                  cA+q+W'    b&=       1)
+                         ---      Q+q+H’     (if‘=   1, vR=   0)
+                                             mq= S GeV
+
+
+
+10' 1 II   I      I     I        I      1     I          I          I I
+    80     100   120   140      160    180   200        220        240
+                               mQ (GeW                             5520A2
+
+
+
+
+                                Fig.1
+            I                 I                I          I        I
+                      I                I             I        I
+           r (Q -t q+e+v)                                                       A
+           GErnh 1192 x3
+
+                          m9= 5 GeV
+                          mw= 82 GeV
+                            rw= 2.3
+                ---         rw= 0
+
+
+
+
+10'   r     I         I       I       I        I     I    I   I
+      50              60              70             80       90
+                                           ma (GeW                     5520A3
+
+
+
+
+                                            Fig. 2
+x1o-3
+   3     II
+                  II
+                            I    I     I     I   I
+                                                     I     II
+         2 particle
+         phase space
+
+
+
+
+  2 --        -   Narrrow width
+                  approximation
+
+
+
+
+  1
+
+
+
+
+  0
+         4             -2              0         2        4
+                                (E-2 hvra                5520A4
+
+
+
+                                     Fig.3
+    Quarkonium      production
+     in pp collisions
+     W-B      0-+
+             Duality estimate      of 1”
+
+
+
+
+  100         120            140
+rnaa (GeV)                         5520A5
+
+
+
+
+ Fig. 4
+lo4 -
+             u   (pb)
+
+                                                         Charkonium production
+                                                         in pp collisions, 40 TeV
+
+    ,\                                                   ---    0-+
+         \
+                                                                Duality estimate of l--
+
+
+
+
+                              \
+                                  \
+                                      \
+                                          \
+                                              \
+                        \                         \
+
+
+
+
+  100                       180                         260                            420
+                                                  maa (GeW                          5520Al
+
+
+
+
+                                                      Fig. 5
+

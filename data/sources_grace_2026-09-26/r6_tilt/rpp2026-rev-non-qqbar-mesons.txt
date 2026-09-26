@@ -1,0 +1,1041 @@
+1                                     78. Heavy Non-qq Mesons
+
+
+                                 78. Heavy Non-qq Mesons
+
+Revised October 2025 by T. Gutsche (Tübingen U.), C. Hanhart (FZ Jülich) and R.E. Mitchell
+(Indiana U.).
+    The constituent quark model describes the observed meson spectrum as bound qq states grouped
+into SU(N) flavor multiplets (see the ‘Quark Model’ in this issue of the Review of Particle Physics).
+However, the self coupling of gluons in QCD suggests that additional mesons made of bound gluons
+(glueballs), or qq-pairs with an excited gluon (hybrids), may exist. Furthermore, multiquark color
+singlet states such as qqqq (tetraquarks as compact diquark-antidiquark systems and ‘molecular’
+bound states of two mesons) or qqqqqq (six-quark, ‘baryonium’ or quasinuclear baryon-antibaryon
+bound states) have also been predicted—they were actually already mentioned in the pre-QCD
+works on the quark model in Refs. [1, 2] . The focus of this review is on the current understanding
+of exotic states that apparently do not fit into the most simple realizations of the q q̄ constituent
+quark model and contain at least one heavy quark (charm or bottom — the lifetime of the top
+quark is too short to provide the formation of hadrons with a sufficiently long life time that allows
+for spectroscopic investigations). Light non-qq candidates (made of u, d and s quarks) are discussed
+in ‘Scalar Mesons below 1 GeV’ and ‘Spectroscopy of Light Meson Resonances’ in this Review.
+    There are candidates for exotic states with both quantum numbers not allowed and quantum
+numbers allowed for q̄q states. For the latter class it is up to now unclear to what extend a mixing
+of conventional and unconventional states occurs. While Refs. [3–6] report a significant mixing,
+Refs. [7, 8] describe a scenario where the mixing especially between molecular structures and q̄q
+states is suppressed. Ref. [9] finds a mixing that depends strongly on the pole location of the
+state studied. A promising path to study mixing of different configurations is the use of few-body
+Bethe-Salpeter equation within the Dyson-Schwinger framework which is outlined in Refs. [10, 11]
+for open and hidden-flavor doubly heavy states, respectively.
+    Theoretically heavy non-q q̄ mesons are studied using quark models, see, e.g., Refs. [12, 13],
+diquark-anti-diquark models, where (anti-)diquarks are treated as compact dynamical degrees of
+freedom within the hadron, see, e.g., Refs. [14–17], meson-exchange models, see, e.g., [18, 19],
+as well as different variants of effective field theories (EFTs). For mesons made of one heavy
+quark the proper non-relativistic EFT is called Heavy Quark Effective Theory (HQET), for reviews
+see [20, 21]. Doubly heavy systems are characterized by various scales. For mQ  mQ v  mQ v 2 ,
+non-relativistic QCD (NRQCD) [22–24] can be employed at the scale mQ v, obtained by integrating
+out QCD modes associated with the heavy scale mQ , and potential NRQCD (pNRQCD) [25–27] at
+the scale mQ v 2 , obtained additionally integrating out modes associated with the energy scale mQ v.
+The most modern development in this family of effective field theories is the Born-Oppenheimer
+EFT (BOEFT) [28–32] that can be applied to quarkonia, and all the exotics states discovered in
+the last decades that are all composed of two heavy quarks (or antiquarks): hybrids, tetraquarks,
+pentaquarks and doubly-heavy baryons.
+    To investigate the energy range around two-hadron thresholds, one can construct an NREFT
+with these hadrons as the effective degrees of freedom. In particular, in its most simple realisation
+for S-wave interactions, the LO interaction Lagrangian contains only constant contact terms, while
+higher-order terms involve derivatives of the hadron fields. The effective parameters that at the
+same time serve as counter terms in the renormalisation procedure are then adjusted by fits to
+experimental or lattice data. In this context the role of the one-pion exchange (OPE) is still
+under debate. There are three different approaches available in the literature, namely pionless
+EFT [33, 34], EFT with perturbative pions [35–40], and EFT with non-perturbative pions [41–48].
+All those find their analogs in studies of the nucleon-nucleon interaction—see, e.g., Refs. [49–51] for
+
+                F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+                                               1st June, 2026 11:09am
+2                                   78. Heavy Non-qq Mesons
+
+
+reviews. Most of those were used to study the spectrum or line shapes of hadronic molecules [33,
+35, 38, 41, 48, 52–56] (for a review, see Ref. [57]). Those are states that owe their existence to the
+QCD residual force between color–neutral hadrons and not to the gluon exchange between the
+colored quarks or diquarks. Here chiral symmetry and heavy quark spin symmetry typically guide
+the construction of the interactions.
+    QCD sum-rules are also employed to investigate QCD exotics. Here the analyticity of physical
+amplitudes is used in a dispersion integral to relate the integral over hadronic amplitudes to a
+sum over various perturbative QCD contributions as well as non-perturbative condensates. The
+proper choice of interpolating currents allows one to access certain configurations, although the
+construction is significantly more involved for multi-quark than for quark-antiquark systems [58].
+For a recent review on the application of this technique to exotics see Ref. [59].
+    In recent years lattice QCD also became an important tool to investigate exotics in the light
+and heavy quark sectors. Lattice QCD, explained in detail in a dedicated section of this Review, is
+a numerical solution of QCD on a discretised space-time lattice, often employing unphysical quark
+masses, not only for numerical reasons but also to address certain physical phenomena as is detailed
+below. The applications and challenges of lattice QCD with regard to exotics are discussed in the
+review [60].
+    The review is split into 3 parts, discussing separately heavy–light systems, heavy–heavy sys-
+tems, as well as systems with more than two heavy quarks. For a more detailed discussion of the
+experimental and/or theoretical status on exotic meson candidates in the doubly heavy meson sec-
+tor we refer to Refs. [60–66]. Also see the “Spectroscopy of Mesons Containing Two Heavy Quarks”
+in this Review. Reviews with main focus on tetraquarks and molecular states are presented in
+Ref. [67] and in Ref. [57, 68], respectively. The latest reviews dealing with exotic hadrons are given
+by Refs. [59, 69, 70].
+    The naming scheme for hadrons has been updated by the Particle Data Group in 2023, and now
+covers the heavy “exotic” tetraquark (qq q̄ q̄) and pentaquark (qqqq q̄) candidates recently discovered.
+We use the new naming scheme in the following. See “Naming Scheme for Hadrons” in this Review
+for details and a table mapping old and new particle names.
+78.1 Heavy-light systems
+78.1.1 Positive parity open charm ground states
+    Two very narrow states, Ds0 ∗ (2317)± and D (2460)± , were observed at B factories [71, 72].
+                                                  s1
+They lie far below the predicted masses for the two expected broad P -wave cs mesons. However,
+strong cusp effects, due to the nearby DK (DK ∗ ) thresholds, could shift their masses downwards
+and quench the observed widths, still allowing for a conventional explanation of these states [73].
+Such an effect was also claimed for the a0 (980) and f0 (980) mesons, which lie just below the KK
+threshold. In contrast to this picture, many authors favor exotic explanations for these lightest
+positive parity charmed states, such as compact four-quark states with prominent diquark–anti-
+diquark structure [74–77] or DK (DK ∗ ) molecules [78–83]. Both states are isoscalars, and thus
+                                                                                     (∗)±
+strong decays are suppressed, since they are possible only to isovector channels Ds π 0 , leading
+to very small widths. For compact structures the hadronic decay is driven by η−π 0 mixing and
+one finds widths below 10 keV [73, 84]. In contrast to this, a hadronic width typically larger than
+100 keV would be the unequivocal signature for a prominent molecular nature of Ds0 ∗ (2317)± [80,82,
+
+83,85,86], since then meson loops generating enhanced isospin violation due to the energy difference
+between the D(∗)0 K + and the D(∗)+ K 0 thresholds would contribute significantly. The most refined
+analysis in the molecular scenario [85], where the parameters of the formalism are constrained by
+a large bulk of lattice QCD data on singly charmed systems, reports a prediction for the width in
+the range (104–116) keV. The currently measured upper bound for the width is 3.8 MeV.
+
+                                            1st June, 2026
+3                                          78. Heavy Non-qq Mesons
+
+
+    It should be stressed that – akin to qq mesons – multiquark states also appear in multiplets. An
+important probe for the structure of hadrons is therefore the spectra, and in particular the SU(3)
+flavor multiplets within the different scenarios and associated mass splittings. For example, the
+tetraquark model advocated in Refs. [77, 87] finds that the Ds0   ∗ (2317)± should be degenerate with
+                                  ∗
+its non-strange partner state D0 (2300) in line with the currently available experimental analyses.
+However, Ref. [88] showed that the recent LHCb data for B → Dππ [89, 90] call for a significantly
+lighter lightest non-strange scalar charmed meson as soon as constraints from the chiral symmetry
+of QCD are employed in the analysis. This claim is in line with the recent lattice QCD study of
+Ref. [91]. In fact, experimental as well as lattice data turn out to be consistent with the predictions
+from unitarised chiral perturbation theory pioneered for these systems in Ref. [79], where the
+lightest open flavor positive parity states appear as dynamically generated two-hadron states. For
+more recent calculations see Refs. [85, 92, 93]. Moreover, all the mentioned calculations that are
+consistent with chiral constraints predict that the interactions in the 15-plet should be repulsive
+while there should be in addition an about 300 MeV heavier flavor exotic state, formally a member
+of a flavor sixtet and absent for cq̄ states. As shown in Ref. [93] there are indeed indications also for
+this state in the above mentioned LHCb data—why this state was not reported in the lattice study
+of Ref. [94] is explained in Ref. [95] by its being located on a hidden Riemann-sheet. The pattern
+described above—with the interactions in the flavor anti-triplet most attractive, in the flavor sixtet
+attractive and in the 15-plet repulsive—was recently also observed in a lattice QCD analysis for
+πD scattering based on the Lüscher method at a pion mass of about 700 MeV [96]. Thus, in this
+picture the structure that appears as D0∗ (2300) in the Listings originates from the interplay of two
+poles, similar to the Λ(1405) in the baryon sector, see ‘Pole structure of the Λ(1405) region’ in this
+Review. Two poles in the non-strange scalar sector are also generated in the tetraquark picture of
+Ref. [77], but in this work the real parts of the poles are located at 2308 MeV and 2666 MeV, in
+conflict with the data mentioned above. In the refined analysis of Ref. [87] it is shown, however,
+that the exact pole locations and even the ordering of the higher multiplets depend on the details
+of the model. In Ref. [97] it was argued that as soon as one restricts the diquark phenomenology to
+only scalar diquarks, as a consequence of the Pauli principle also the diquark–anti-diquark picture
+is consistent with a repulsion in the 15-plet. However, axial-vector diquarks, which would be
+needed for a consistent hadron phenomenology, if diquarks are indeed relevant degrees of freedom,
+also produce states in the 15-plet. In particular, while in the scalar D-meson sector those should
+be rather heavy, in the axial-vector spectrum, they should be even lighter than the states in the
+sixtet [98]. Contrary to this, in the two-hadron picture of unitarised chiral perturbation theory, the
+scalar and the axial-vector sectors should be equal (up to spin symmetry violations). In this sense
+the recent lattice study of Ref. [99] is in conflict with the predictions of the diquark-anti-diquark
+picture, while being consistent with a two-hadron structure for those states.
+    What is needed in addition to the above quoted strong, mostly theoretical, evidence for the
+unusual pattern of non-strange D-mesons, is a more direct experimental determination of the
+pole location of the lightest positive parity D-meson. This could be derived from a high quality
+measurement of the πD scattering parameters—analogously to the case of the f0 (500), whose pole
+location was significantly constrained by high quality data on the ππ scattering length. One way to
+get access to the scattering parameters of unstable particles is to use the femtoscopy technique—
+here semi-inclusively, the correlations of two (or more) outgoing hadrons produced in a high-energy
+collision are measured—for reviews see Refs. [100, 101]. Recent studies using this technique find
+results for the DK and D∗ K systems consistent with the above mentioned lattice and chiral effective
+field theory calculations, however, for Dπ and D∗ π the extracted scattering parameters are below
+0.03 fm and are thus inconsistent with the theoretical investigations [102]1 . It remains to be seen,
+    1
+        Ref. [103] shows that there is a systematic uncertainty in the femtoscopy method not yet accounted for.
+
+                                                    1st June, 2026
+4                                    78. Heavy Non-qq Mesons
+
+
+if these latter values get confirmed by other investigations like in semi-leptonic B decays [104, 105].
+    Lattice QCD allows for predictions of the flavor partner states in the B-sector. The most recent
+analysis can be found in Ref. [106]. In this work also a comparison with theoretical predictions
+can be found. Unfortunately an experimental confirmation for those states is difficult with existing
+facilities. Radiative decays are predicted to be the most prominent decay channels [86], since the
+above mentioned isospin violation from meson loops is suppressed in the B sector as a consequence
+of the tiny B ± − B 0 mass difference.
+78.1.2 The Tcs0   ∗ (2870) and T ∗ (2900)
+                                     cs1
+     Manifestly exotic candidates around 2.9 GeV were reported in Refs. [107–109] by LHCb in the
+D̄K system. Since the strong interaction preserves the quark flavor and the final state contains an
+s̄ as well as a c̄, color neutrality calls for a minimum quark content of udc̄s̄. A resonant structure
+consistent with the Tcs0∗ (2870) is also observed in the D 0 K 0 invariant-mass spectrum [110], although
+                                                              s
+with no evidence for the Tcs1 ∗ (2900). Charged open-charm tetraquark structures were searched for
+
+in B 0 → D+ D− Ks0 decays, but without any significant signal [111].
+     The explanation for those states include compact tetraquarks with a structure dominated by a
+diquark–anti-diquark pair [112–114], hadronic molecules with a prominent D∗ K̄ ∗ component [115–
+120], or kinematic effects such as cusps or triangle singularities (for an explanation of the latter
+terms we refer to the section ‘Resonances’ in this Review) without nearby poles [121, 122]. The
+different pictures are contrasted and observable differences between them are discussed in Ref. [123].
+78.1.3 The Tcs̄0 ∗ (2900)0 and T ∗ (2900)++
+                                   cs̄0
+    There is a recent report by LHCb [124] on the observation of a doubly charged open-charm
+tetraquark candidate together with a neutral partner in the Ds π channel, with masses near 2.9
+GeV. The results imply two states with cs̄ūd or cs̄ud¯ flavor structures. Although masses and
+widths are consistent with the Tcs states of Refs. [107, 108], the strangeness quantum numbers do
+not match. The first explanation for those states in coupled-channel studies is based on a kinematic
+effect such as a cusp [125]. In Ref. [126] a molecular structure with a dominant D∗ K ∗ component
+is claimed to be excluded. However, since the Tcs̄0  ∗ (2900) is situated near this threshold, some
+
+works [119, 127–129] argue that this isospin triplet state should be interpreted as a D∗ K ∗ hadronic
+molecule. Within this picture, in Ref. [129] predictions for states with other quantum numbers are
+given. A QCD sum rule study based on diquark–anti-diquark interpolating currents is presented
+in Ref. [130].
+    Recently LHCb reported an amplitude analysis on a resonant structure in Ds1 (2460)+ →
+                                                                            ++
+Ds+ π + π − decays [131]. One of the analysis models calls for a new Tcs̄       state and its isospin
+partner Tcs̄0 with mass and width of about 2327 MeV and 96 MeV. At first sight these T
+                                                                                             cs̄ states
+can be interpreted as two members of the isotriplet predicted in Ref. [97], although data could also
+be explained dynamically [132].
+78.2 Heavy-heavy systems
+    With the discovery of the χc1 (3872)2 in B ± → K ± X (X → J/ψ(1S) π + π − ) by Belle [133]
+in 2003, soon confirmed by BaBar [134], many searches for states beyond the standard q q̄ quark
+model were initiated in the charm and bottom sectors. For an updated collection of the currently
+available experimental information on multiquark states we refer to ‘Spectroscopy of mesons con-
+taining two heavy quarks’ in this Review, and in particular to Table 77.2. Moreover, in the decay
+Λ0b → J/ψ(1S) K − p the LHCb collaboration has recently reported the observation of new baryons
+decaying into J/ψ(1S) p, which are candidates for heavy pentaquark states [135, 136]. They are
+discussed in some depth in ‘Pentaquarks’ in this Review.
+   2
+     The χc1 (3872) is also known as the X(3872). According to the PDG naming scheme, the primary name for a
+meson expresses its quantum numbers.
+
+                                              1st June, 2026
+5                                      78. Heavy Non-qq Mesons
+
+
+    In addition to the multiquark scenarios discussed for the heavy-light systems, in double heavy
+systems two more basic configurations are discussed in the literature. On the one hand there are the
+hadroquarkonia, which call for a compact quarkonium core surrounded by a light quark cloud [137].
+On the other hand there are hybrid mesons, in which an excited gluon field, in combination with
+the valence quarks, contributes to the overall quantum numbers and properties of the meson.
+    When restricting ourselves to confirmed states we are faced with several states that do not
+seem to fit into the mass and quantum number schemes of q q̄ quark models. This is clear for the
+five established charged states (Tcc̄1 (3900)± , Tcc̄ (4020)± and Tcc̄1 (4430)± in the charmonium sector,
+and Tbb̄1 (10610)± and Tbb̄1 (10650)± in the bottomonium sector3 ). The neutral states (χc1 (3872),
+ψ(4230), ψ(4360), and ψ(4660))4 also challenge the quark model since their masses and decay
+properties are in conflict with expectations. Although so far seen just by a single experiment in a
+single channel [138, 139], the Tcc (3875) and its proposed heavy partner states are also discussed.
+    It should be stressed that mass parameters for resonances located not too far with respect to
+their width from a pertinent threshold extracted with Breit-Wigner methods should be considered
+with care, since the lineshape can very well be distorted by the threshold. An example for such a
+case is reported in Ref. [140], where it was demonstrated that the experimental data by Belle are
+consistent with a D̄D bound state at 3695 MeV in line with lattice QCD simulations for the same
+system [141], while from experiment a mass as high as 3860 MeV with a width of 200 MeV was
+extracted [142].
+78.2.1 The χc1 (3872)
+     The quantum numbers of the χc1 (3872) have been determined by LHCb to be J P C = 1++ ,
+first by assuming zero angular momentum between the J/ψ(1S) and the dipion [143] and then by
+relaxing this constraint [144]. The χc1 (3872) cannot be easily identified with the χc1 (23 P1 ), since
+the latter is predicted to lie about 100 MeV higher in mass [145]. Instead, the X(3940) reported
+by Belle in e+ e− → J/ψ(1S)X, decaying into D∗ D̄ but not into DD̄ [146] could be the χc1 (23 P1 ).
+The χc2 (3930) 23 P2 tensor partner was reported by Belle at 3931 MeV in γγ interactions [147].
+     The χc1 (3872) lies within 200 keV of the D0 D̄∗0 threshold and its width is very small — recent
+Breit-Wigner analyses by LHCb [148, 149] result in an average value of Γ = (1.19 ± 0.21) MeV as
+indicated in the Listings. However, since the respective pole is located very close to an S-wave
+thresholds to which it couples strongly, the Breit-Wigner lineshape should not be used (see section
+‘Resonances’ in this Review). Employing the more appropriate Flatté formalism of Ref. [150] under
+the constraint that the D∗ D̄ decay channel dominates, results in Γ = 0.22+0.18  −0.19 MeV, where the
+standard convention is applied to use twice the imaginary part of the pole location as width. A
+recent determination of the χc1 (3872) lineshape parameters and the resulting pole location based on
+BESIII data can be found in Ref. [151]. A combined analysis of the LHCb data and BESIII data is
+presented in Ref. [152], where the pole location of the χc1 (3872) was determined with unprecedented
+accuracy. Moreover, further evidence was presented for the existence of an additional pole in the
+isovector channel, originally predicted in Ref. [153], which should show up more prominently in
+e.g. the decay B 0 → K 0 J/ψπ + π − . In the future the mass parameters can be refined more
+by either a direct measurement of the width that should be possible at the planned PANDA
+experiment [154, 155] or by exploiting the interplay of a triangle singularity and the χc1 (3872)
+pole [156–158].
+     The most natural explanation for the χc1 (3872) is a 1++ DD̄∗ molecule [159]. In this scenario a
+strong isospin breaking is predicted [159, 160], since the distance of the pole of the χc1 (3872) to the
+D0 D̄∗ 0 threshold is significantly smaller than to the D+ D∗− threshold. Indeed, the comparable
+    3
+    In the literature those states are often labeled as Zc and Zb , respectively.
+    4
+    The ψ(4230), ψ(4360), and ψ(4660) are also known as the Y (4230), Y (4360), and Y (4660), respectively. Before
+improved mass measurements, the ψ(4230) was originally called the ψ(4260) or Y (4260).
+
+                                                1st June, 2026
+6                                   78. Heavy Non-qq Mesons
+
+
+rates for ωJ/ψ(1S) and ρ0 J/ψ(1S) are consistent with an interpretation of χc1 (3872) as an isoscalar
+DD̄∗ molecule, when the different widths of the ρ and ω are taken into account [161]. A molecular
+component of above 99% was also found in Refs. [152, 162] in sophisticated analyzes that kept the
+full three-body dynamics of the intermediate state DD̄π, first studied in Ref. [41].
+    A dominant molecular D0 D̄∗0 structure in the χc1 (3872) with further subleading more compact
+hadronic components is used to explain strong and radiative decays involving J/ψ(1S) and ψ(2S)
+in the final states [163, 164]—it should be mentioned that those rates are also consistent with a cq̄
+structure [165]. The most recent measurement of the ratio of radiative partial decay widths [166]
+indicates that the ψ(2S)γ mode dominates over J/ψγ. This observation is claimed to point to
+a sizable compact component in the χc1 (3872) (for a compilation of various structure-dependent
+predictions see [166]). However, from an effective field theory point of view these radiative transi-
+tions are not well suited to quantify the molecular admixture in the χc1 (3872), since there appears
+a counter term at leading order, diminishing the sensitivity to the long-ranged molecular compo-
+nent [167].
+    A diquark–anti-diquark structure (cq)(c̄q̄ 0 ) is another possible interpretation of the χc1 (3872)
+[76]. Contrary to the two hadron structure discussed above, here diquark-anti-diquark substruc-
+tures are assumed to be bound by QCD flux tubes—for a discussion of possible configurations see
+Ref. [168]. What speaks against this interpretation is that so far no near mass degenerate charged
+partner of the χc1 (3872) has been observed (e.g. not in B − → K̄ 0 X − nor in B 0 → K + X − , where
+X − → J/ψ(1S) π − π 0 [169] )—see [170] for a possible explanation of this non-observation within
+the tetraquark approach assuming specific diquark correlations and the more recent discussion in
+Ref. [171]. Note that the isovector partner state of the χc1 (3872) discussed in [153] is not consistent
+with the proposed charged compact tetraquark state, since the pole is located on an unphysical
+sheet, clearly pointing at a molecular nature of the state [172], and its mass is close to the D+ D∗−
+threshold, 8 MeV above the mass of the χc1 (3872).
+    The claim that χc1 (3872) must be a compact (tetraquark) state, since it is also produced
+at very high pT in p̄p collisions [173] and in high multiplicity final states [174], was challenged
+in [175] and [176], respectively, which in particular stress the importance of rescattering, see also
+Refs. [177, 178].
+    The high statistics measurement of the χc1 (3872) lineshape of Ref. [148] also allowed for an
+extraction of the effective range for the D0 D̄∗0 interaction. At face value, the values provided
+in this publication indicate a large and negative effective range [179], which could be interpreted
+as a signature of a prominent compact component in the χc1 (3872) wave function — this follows
+from the famous Weinberg compositeness criterion [180]. The effect of the one-pion exchange on
+the effective range turns out to be small [40, 41, 181, 182] and should therefore not invalidate the
+Weinberg-type analysis. However, it was argued in Ref. [183] that once the effect of the large isospin
+violation as well as the strong correlations between the effective parameters appearing in Ref. [150]
+are subtracted, the effective range is consistent with a purely molecular χc1 (3872). There is no
+consensus yet how to interpret the line shapes of χc1 (3872).
+78.2.2 The ψ(4230) and ψ(4360)
+    A broad structure, originally called Y (4260), decaying into J/ψ(1S) π + π − was reported by
+BaBar in initial state radiation e+ e− → (γISR )Y (4260) [184]. A subsequent measurement with sig-
+nificantly improved precision was reported by BESIII [185], and revealed that the original Y (4260)
+cannot be described with a simple resonant lineshape. Fitting the BESIII data with two Breit-
+Wigner distributions leads to a narrower and lighter structure (referred to in the Listings as the
+ψ(4230)), but also requires a second state at 4320 MeV. While the D1 (2420)D̄ molecular model
+for the ψ(4230) can describe the same data with just one single exotic pole [186, 187], the coupled
+
+                                            1st June, 2026
+7                                 78. Heavy Non-qq Mesons
+
+
+channel analysis of Ref. [188] needs an additional exotic state near 4320 MeV. Both, Ref. [187]
+and Ref. [188] need the interference of the signal of the ψ(4230) with the ψ(4160) to get a good
+description of the large amount of available data. How many vector states are in the mass range
+between 4220 MeV and 4400 MeV is not yet settled, but knowing this is crucial to allow for further
+progress.
+    There are no charmonium states expected in this mass region with quantum numbers 1−−
+from quark models using the Cornell type of interaction, although this might not be true for
+some screened versions thereof—for a recent discussion we refer to Ref. [189]. In addition, a
+charmonium state at this mass is expected to have significant couplings to one or more of the
+D̄(∗) D(∗) channels [190, 191], a feature that is not observed for the ψ(4230). This state could be
+a hybrid charmonium with a spin-1 [28, 192] or a spin-0 [193, 194] c̄c core—for a recent review on
+this state see Ref. [195]. However, provided that the observation of ψ(4230) decay into hc (1P )ππ
+by BESIII [196] is confirmed, the hybrid hypothesis would be under pressure, since the spin of
+the heavy quarks (coupled to zero in the hc (1P )) should be conserved in leading order in the
+expansion in (ΛQCD /mc ). (The individual conservation of the heavy quark spin and the total
+angular momentum of the light quark cloud is a consequence of the heavy-quark spin symmetry, see
+‘Heavy-Quark and Soft-Collinear Effective Theory’ in this issue of the Review.) The same criticism
+applies to the hadrocharmonium interpretation of the ψ(4230). To circumvent the spin-symmetry
+argument, Ref. [197] suggests that ψ(4230) and ψ(4360) could be mixtures of two hadrocharmonia
+with spin-triplet and spin-singlet heavy quark pairs. The same kind of mixing could also be at
+work for hybrid structures. Hybrids can also be treated employing the Born-Oppenheimer EFT
+originally suggested in Ref. [30, 198]. Those studies revealed that while the ψ(4230) is in principle
+a good candidate for a hybrid state [199], its decays are incompatible with this assignment [200].
+    A dominant D1 (2420)D̄ component in the ψ(4230) [201] explains naturally why the Tcc̄1 (3900)±
+(interpreted by the authors as a D̄D∗ bound state) is seen in ψ(4230) → π ∓ Tcc̄1 (3900)± . A
+similar mechanism is also found in Ref. [202] linking in addition the J/ψ(1S)π + π − and ψ(2S)π + π −
+decays of the ψ(4230). Furthermore, a copious production of χc1 (3872) in ψ(4230) radiative decays
+was predicted from the prominent D1 D̄ component of the ψ(4230) [203], which was confirmed by
+BESIII [204]. Possible charmonia components both in ψ(4230) and χc1 (3872) can influence the
+radiative transition but they are shown to be of subleading order [205]. It was proposed that
+ψ(4360) as a D1 D̄∗ bound state could be the spin partner of the ψ(4230) [206, 207]. In Ref. [208]
+a dynamical model is presented that identifies the vector states ψ(4230), ψ(4360) and ψ(4415) as
+DD̄1 , D∗ D̄1 and D∗ D̄2 molecular states, respectively. Moreover, an exotic 0−− state is predicted
+as D∗ D̄1 molecule with a mass of 4366 ± 18 MeV and a width of less than 10 MeV.
+    The tetraquark picture calls for four ground state vector states — once the parameters of
+the model are fixed from some candidate states in the negative and positive parity sector, states
+with other quantum numbers can be predicted. Possible scenarios are for instance discussed in
+Ref. [209] which builds on a tailor-made spin-spin interaction [16] to describe the χc1 (3872),
+both Tcc̄1 (3900)±,0 and Tcc̄ (4020)± and even the Tcc̄1 (4430)± confirmed by Belle [210] and LHCb
+[211]. This model also explains the copious production of χc1 (3872) in ψ(4230) radiative decays
+mentioned above [16,212]. However, tetraquark models (in most cases based on diquark-antidiquark
+configurations) tend to predict many additional charged and neutral states which have not yet been
+discovered. In particular, as for the conventional q̄q structures one should expect nearly degenerate
+isoscalar and isovector states in analogy to the near degeneracy of ρ(770) and ω(782). The problem
+and possible explanations are discussed in some detail in Refs. [170, 171].
+    Ref. [213] found a sizable SU(3) flavor octet contribution when analyzing the ππ final state from
+ψ(4230) → J/ψ(1S)π + π − , which is consistent with both a molecular and a tetraquark interpreta-
+tion of ψ(4230), but is at odds with a hybrid or a c̄c interpretation.
+
+                                           1st June, 2026
+8                                           78. Heavy Non-qq Mesons
+
+
+78.2.3 The ψ(4660)
+    In the mass range above 4600 MeV, the number of poles is also not yet settled. Experimental
+signals are seen in the ψ(2S)ππ, Λ+     −                  ∗         ∗0 ∗− +
+                                    c Λ̄c , Ds D̄s1 , Ds D̄s2 , and D D π final states. In the Listings
+these structures go into one node, ψ(4660), due to their proximity in parameter values. Moreover,
+various theoretical works describe these states in a combined analysis [214–216]. The signal in the
+hidden strangeness mode around 4630 MeV still calls for confirmation and might be yet another
+realization of the same state, but there are already speculations about its nature. Ref. [217] finds
+a single state in this mass range and identifies it with the ψ(5S). While Ref. [218] argues in favor
+        (∗)                (∗)
+of a Ds D̄s1 (2536) or Ds D̄s2 (2573) [219] molecular nature, Ref. [220] does not confirm these
+claims. Ref. [221] identifies the structure as P -wave [cs][c̄s̄] tetraquark state. Other explanations
+of the ψ(4660) include a ψ(2S)f0 (980) molecule [222] and a Λ+            −
+                                                                      c Λ̄c baryonium [214]. Also in this
+mass range studies of the partner states, driven either by spin or flavor symmetry will be very
+valuable—see e.g. the predictions in Ref. [223].
+78.2.4 The Tcc̄1 (3900), Tcc̄ (4020), Tbb̄1 (10610), and Tbb̄1 (10650)
+     The isovector states Tcc̄1 (3900) and Tcc̄ (4020), first observed by BESIII [224, 225], decay pre-
+dominantly into D̄D∗ and D̄∗ D∗ , respectively, while the Tbb̄1 (10610) and Tbb̄1 (10650), first observed
+by Belle [226, 227], decay predominantly into B̄B ∗ and B̄ ∗ B ∗ [228], respectively, although all four
+were discovered in a decay into a heavy quarkonium plus a pion. This suggests that these states
+are close relatives and their interactions are connected via heavy quark flavor symmetry5 . A molec-
+ular interpretation for the bottomonium states was proposed shortly after the discovery of the two
+Tbb̄ states [230] and also shortly after that of the Tcc̄1 (3900) [201]—the up-to-now most precise
+determination of the pole location of the latter state is reported in Ref. [231]. This picture is
+confirmed within the meson exchange model of Ref. [232]. Decay patterns of Tcc̄1 (3900) and the
+two Tbb̄ were also shown to be consistent with a molecular interpretation [233–235]. However, some
+of their properties also appear to be consistent with tetraquark structures [236]. If the molecular
+picture were correct for the Tbb̄ states, spin symmetry would lead to the existence of spin partner
+states [37, 237, 238], which are still to be found. In Ref. [47] it was shown that the actual pole loca-
+tions of these partner states would be good probes of one-pion exchange in the molecular potential,
+which makes the experimental search for those states even more interesting. A possible interpreta-
+tion of Tcc̄1 (3900) and Tcc̄ (4020) as crossed channel effects is put forward in Ref. [239]. It remains to
+be seen, however, if this kind of explanation is also capable of explaining the observations of these
+lowest Tcc̄ states, also at other total energies. A recent lattice QCD calculation suggests that the
+Tcc̄1 (3900) can be reconciled with a two pole structure in the J/ψπ − DD̄∗ coupled-channel [240].
+In this study the coupling between DD̄∗ and J/ψπ is significant and plays a crucial role.
+78.2.5 The Tcc̄1 (4200) and Tcc̄1 (4430)
+    The heaviest confirmed charged state in the charmonium sector is the Tcc̄1 (4430)± observed
+by Belle [210]. It is interpreted as hadrocharmonium [137], D̄1 D∗ molecule [241], as well as
+diquark–anti-diquark structure [16]. Alternatively, in [242, 243] the Tcc̄1 (4430)± is explained as
+a cross-channel effect enhanced by a triangle singularity from open charm states. These works were
+criticized in Ref. [244] where an alternative triangle consisting of a K ∗ , a π, and the ψ(4230), is
+proposed to generate the Tcc̄1 (4430). The Argand diagram shows an anticlockwise circle, in line
+with the experimental analysis [211], while the one of Ref. [243] shows a clockwise motion. By
+replacing the ψ(4230) with the ψ(3770), and changing the K ∗ , one can also interpret the Tcc̄1 (4200)
+as a kinematic effect [244].
+
+    5
+        For a critical examination of this claim from an effective field theory point of view see Ref. [229].
+
+
+                                                      1st June, 2026
+9                                    78. Heavy Non-qq Mesons
+
+
+78.2.6 The Tcc̄s̄1 (4000)
+      There is recent evidence for a charged charmonium-like state with strangeness, Tcc̄s̄1 (4000),
+from BESIII [245] and LHCb [246]. The possible existence of a strange partner to the Tcc̄ near the
+Ds D̄∗ thresholds has been predicted in molecular models [247, 248], for tetraquarks [249, 250], for
+hadrocharmonium structures [250,251], and as a coupled-channel effect [252]. Later on this state is
+interpreted in Refs. [253, 254] as a member of the same multiquark octet and in Refs. [255–257] as
+a member of the same molecular one as the Tcc̄1 (3900). Ref. [254] is also able to describe the recent
+LHCb data in the J/ψ(1S)K − system [246], although the extracted total width for their lowest Tcc̄s̄
+state is an order of magnitude larger than that found by BESIII. Refs. [258, 259] claim that both
+the molecular components and the compact tetraquark core are relevant to describe the Tcc̄1 (3900)
+and Tcc̄s̄1 (4000) resonances. Again, in [260] the Tcc̄s̄1 (4000) can be explained as a coupled-channel
+effect producing the enhancement close to threshold.
+      Ref. [255] comes to the conclusion that an understanding of the experimental data for the
+Tcc̄s̄1 (4000) calls for the inclusion of both triangle diagrams as well as a pole term. The authors
+conclude from their calculations that Tcc̄s̄1 (4000) and Tcc̄1 (3900) are members of the same SU(3)
+multiplet. This conclusion was confirmed in Ref. [261] and the study extended to higher energies.
+The fit of the experimental data allowed for two solutions, one where the Tcc̄ (4020) is a spin partner
+of the mentioned isovector states and one where it is not. Data e.g. for e+ e− → K + D∗− D∗0 is
+claimed to be decisive which scenario is indeed realized.
+      It should be stressed that the various scenarios, while describing much of the available data,
+also make decisive predictions, e.g. for states with yet unobserved quantum numbers [209, 262].
+The forthcoming data on heavy meson spectroscopy from various facilities should provide a much
+deeper understanding of how QCD forms matter out of quarks and gluons.
+      Note that for various states listed above it is still possible that they reflect the presence of cusps
+and not states—for recent studies see [263, 264].
+78.2.7 The Tcc (3875)
+    There is a recent report and follow-up by LHCb [138,139] on the observation of a narrow peak in
+the D0 D0 π + mass spectrum just below the D∗+ D0 threshold. The observed state is a candidate for
+an isoscalar double-charm Tcc  + tetraquark configuration with a quark content of ccūd. ¯ Unsuccessful
+searches in D D π and D D mass spectra disfavour the isovector assignment. The D0 π + mass
+              +   0 +         +    +
+
+distribution indicates that the Tcc + proceeds through the formation of a D ∗ in the intermediate state.
+
+The additional proximity to the D∗+ D0 mass threshold favors the J P = 1+ assignment. The Tcc          +
+                                                              ∗+   0
+has a remarkable narrow width and lies very close to the D D threshold [139], comparable to the
+properties of the χc1 (3872). Indeed, employing a meson-exchange model [19] or the BOEFT [265]
+the two states can be described together in the same framework.
+    Evaluations in the context of QCD sum rules [266, 267] result in mass and width values consis-
+tent with the assumption of a compact diquark-antidiquark structure of the Tcc       + . A pole analysis
+
+performed with D0 D0 π + − D∗+ D0 coupled-channels [268] suggests that the Tcc       + has its origin in
+    ∗+
+a D D virtual state resulting from the attraction in this channel and the coupling to D0 D0 π + .
+         0
+
+The interpretation of the observed Tcc   + as a D ∗ D molecular structure was pursued in [48, 56] based
+
+on non-relativistic effective field theories without and with pion exchange, respectively, in [269,270]
+employing a combination of meson exchange and quark-gluon forces, and in [271] employing the
+Bethe-Salpeter framework. Predictions depend on fine model details and are usually accompanied
+by additional partner states, like an isovector molecule or higher radial excitations. A fit to the
+LHCb data on Tcc (3875) [272] is also consistent with a molecular D0 D∗+ , D+ D∗0 interpretation in
+the isoscalar channel, while for the isovector case binding is prevented. A coupled-channel analysis
+of the D0 D0 π + mass spectrum within a meson-exchange model [19] also concludes the nature of Tcc     +
+
+
+                                              1st June, 2026
+10                                  78. Heavy Non-qq Mesons
+
+
+as an isoscalar DD∗ hadronic molecule. As a consequence a double-charm isoscalar D∗ D∗ hadronic
+molecule candidate is predicted.
+
+    In analogy to the case of the χc1 (3872) in Ref. [273] the production of Tcc    + in high-energy
+
+proton-proton collisions at the LHC is studied. Effects of a charm-meson triangle singularity on
+                              + from the rescattering of DD lead to a narrow peak in the T + π +
+the inclusive production of Tcc                                                                 cc
+                                                      + is predicted in Refs. [48,56], whose hadronic
+invariant mass distribution. A spin 2 partner of the Tcc
+decays are studied in Ref. [274].
+
+    As for the χc1 (3872) one can employ the effective range deduced from experiment for the effective
+range in the DD∗ -channel as a measure of the nature of the Tcc (3875). Also here isospin violations
+are significant. It turns out that in a calculation where the one-pion exchange is kept fully non-
+perturbative, its effect on the effective range is small and positive [48], while it is small and negative
+when being treated perturbatively [182, 275].
+
+     First lattice studies with fully dynamical quarks are also available for the Tcc (3875) [276–278],
+all performed at pion masses slightly larger than physical such that the D∗ and with this also the
+Tcc (3875) are stable. They all find that at these pion masses the Tcc is a virtual state. In Ref. [279]
+it was stressed, however, that all those analyses should be redone, since the proximity of a left-
+hand cut invalidates the method used—analogously also the effective range expansion needs to be
+changed in the proximity of a left-hand cut [280,281]. Possible modifications of the Lüscher method
+are proposed in Refs. [281–284]. Results point towards a resonance interpretation of the Tcc (3875).
+Chiral extrapolations of lattice simulations for the isoscalar DD∗ scattering with [285, 286] and
+without left-hand cut [287] to the physical pion mass lead to a Tcc bound states with binding
+energies compatible with experiment, however, significantly different trajectories.
+
+    A first coupled channel isospin-0 DD∗ , D∗ D∗ scattering calculation in lattice QCD [288] also
+indicates a pole below the DD∗ threshold, a further pole corresponding to Tcc  0 is also found just
+             ∗  ∗
+below the D D threshold. A further lattice QCD study [289] in the doubly charm ccq̄ q̄ isospin-1
+channel concludes that no poles are found in the scattering amplitude near the DD∗ threshold
+consistent with the current experimental status.
+
+     Not very long after the discovery of the charm quark it was stressed that, if the ratio of heavy (Q)
+to light quark (q) masses is well beyond 10, binding should occur for states of the kind QQq̄ q̄ [290–
+292]. These studies were performed within constituent quark models. Accordingly the quoted
+ratio refers to constituent masses, which are of the order of 300 MeV for the light quarks in
+contradistinction to the current quark masses of the order of a few MeV. Based on those studies
+one should expect binding for bcq̄ q̄ systems and even more so for bbq̄ q̄—the transition from a
+(predominantly) molecular structure to a diquark–anti-diquark structure as the masses of the heavy
+quarks are increased is discussed e.g. in the phenomenological models of Ref. [269, 270]. Nowadays
+many works investigate doubly heavy tetraquarks including phenomenological models [291–298],
+lattice QCD either employing static potentials [299–302] or NRQCD for the b-quarks [106,303–307]
+as well as QCD sum rules [266, 308–310] . All those papers agree that a Tbb should be bound for
+the I = 0 and J P = 1+ channel, but there is no consensus about the binding energy relative to
+the lowest open bottom threshold (BB ∗ ), which ranges from values near zero to 500 MeV. Since
+in contrast to the states that contain a heavy quark–anti-quark pair this family of states contains
+two heavy quarks, no strong decay channels are accessible for the heavier partner states of the
+Tcc (3875) and they could only decay weakly. Accordingly, once found, they would provide an
+exciting laboratory not only to investigate the strong but also the weak interaction.
+
+                                             1st June, 2026
+11                                  78. Heavy Non-qq Mesons
+
+
+78.3 Systems containing four heavy quarks
+78.3.1 The Tccc̄c̄ (6900)
+    LHCb reported the observation of pronounced structures in a double-J/ψ(1S) invariant mass
+distribution [311] thus pointing at states with ccc̄c̄ quarks contents. First results on di-J/ψ(1S)
+and J/ψ(1S)ψ(2S) invariant mass distributions in proton-proton collision data by the CMS [312]
+and ATLAS [313] Collaborations confirm and extend the resonance structures seen by LHCb. In
+Ref. [314] the quantum numbers of the structures were determined to be J P C = 2++ . Belle reported
+on a first search for a double-charmonium state with e+ e− → ηc J/ψ(1S) near threshold via the
+ISR process. No significant signal of the double charmonium state is found in several bins of the
+invariant mass of ηc J/ψ(1S) [315]. Recently the COMPASS [316] Collaboration also studied double
+J/ψ(1S) production in pion scattering off nuclear targets. No significant signatures that could be
+associated with tetraquarks are found in the double J/ψ(1S) mass spectrum in the relatively limited
+data set.
+    From quark models the possible existence of bound states like this was discussed already long
+ago [290]. There are now also many model calculations available in the literature. For discussions of
+those data from the compact tetraquark perspective see Refs. [317–323]. Most of these quark model
+calculations assign the reported structure to a ccc̄c̄ state in the 2S multiplet with near-degenerate
+J P = 0+ , 1+ and 2+ configurations. The dominance of a compact tetraquark component in the
+apparently exotic structure is also supported by the coupled multichannel study of Ref. [324]. The
+extended coupled-channel study of Ref. [325], where two-meson states are coupled to a potential
+derived within a quark model, leads to a very rich spectrum of cc̄-cc̄ states where parts are candidates
+for the observed double J/ψ(1S) structures. For direct analyses of the data within the tetraquark
+approach, see, e.g., Ref. [326]. Also QCD sum rule studies of the system were published, but
+do not give consistent results: For example Ref. [327] interprets the structure at 6900 MeV as a
+hybrid state, Ref. [328] as a tetraquark, and Ref. [329] states that both molecular and tetraquark
+interpretations are possible.
+    An alternative view on the double-J/ψ(1S) data is provided in Refs. [330–332] where the analy-
+ses are performed using coupled channel T -matrices, involving vector-vector channels of quarkonia.
+In these works the structures in the data emerge from the interplay of thresholds and resonances.
+While the number of poles that appear above the double J/ψ threshold depends on the number
+of channels, there is the non-trivial prediction that there should exist, if this dynamical picture
+were correct, a state located very near the double-J/ψ(1S) threshold. In Ref. [333] it was shown
+that a J/ψ(1S)J/ψ(1S) scattering potential sufficiently strong to bind is in fact consistent with
+our current understanding of πJ/ψ(1S) scattering as well as the strength of the ππ interactions.
+In Ref. [334] it is shown that the above mentioned data by LHCb, CMS and ATLAS are con-
+sistent with the presence of the above mentioned pole, whose pole position could be determined
+with improved accuracy. In this work it is also stressed that the nature of this X(6200) cannot be
+determined based on the data currently available.
+    In contrast, Ref. [335, 336] explains the double-J/ψ(1S) data as cusps without nearby poles.
+This claim can be tested experimentally: if this explanation were correct, there should not be any
+narrow near threshold structure in the channel that generates the cusp, for that would call for a
+non-perturbative interaction in that channel, as pointed out in Ref. [337].
+Acknowledgements
+    We thank Jean-Marc Richard for carefully reading the manuscript and for detailed and con-
+structive suggestions.
+References
+ [1] M. Gell-Mann, Phys. Lett. 8, 214 (1964).
+
+                                            1st June, 2026
+12                               78. Heavy Non-qq Mesons
+
+
+ [2] G. Zweig, CERN-TH-401 (1964).
+ [3] Y. S. Kalashnikova and A. V. Nefediev, Phys. Rev. D 80, 074004 (2009), [arXiv:0907.4901].
+ [4] M. Takizawa and S. Takeuchi, PTEP 2013, 093D01 (2013), [arXiv:1206.4877].
+ [5] P. G. Ortega, D. R. Entem and F. Fernandez, J. Phys. G 40, 065107 (2013), [arXiv:1205.1699].
+ [6] S. Coito, G. Rupp and E. van Beveren, Eur. Phys. J. C 73, 3, 2351 (2013), [arXiv:1212.0648].
+ [7] I. K. Hammer, C. Hanhart and A. V. Nefediev, Eur. Phys. J. A 52, 11, 330 (2016),
+     [arXiv:1607.06971].
+ [8] C. Hanhart and A. Nefediev, Phys. Rev. D 106, 11, 114003 (2022), [arXiv:2209.10165].
+ [9] L. R. Dai, J. Song and E. Oset, Phys. Lett. B 846, 138200 (2023), [arXiv:2306.01607].
+[10] J. Hoffer, G. Eichmann and C. S. Fischer, Phys. Rev. D 111, 5, 054028 (2025),
+     [arXiv:2409.05779].
+[11] J. Hoffer, G. Eichmann and C. S. Fischer, Phys. Rev. D 109, 7, 074025 (2024),
+     [arXiv:2402.12830].
+[12] L. Meng et al., Phys. Rev. D 108, 11, 114016 (2023), [arXiv:2310.13354].
+[13] P. G. Ortega et al., Phys. Rev. D 110, 5, 054038 (2024), [arXiv:2406.01697].
+[14] M. Y. Barabanov et al., Prog. Part. Nucl. Phys. 116, 103835 (2021), [arXiv:2008.07630].
+[15] L. Maiani and A. Pilloni (2022), [arXiv:2207.05141].
+[16] L. Maiani et al., Phys. Rev. D 89, 114010 (2014), [arXiv:1405.1551].
+[17] R. F. Lebed and S. R. Martinez, Phys. Rev. D 106, 7, 074007 (2022), [arXiv:2207.01101].
+[18] N. Li et al., Phys. Rev. D 88, 11, 114008 (2013), [arXiv:1211.5007].
+[19] L. Qiu, C. Gong and Q. Zhao, Phys. Rev. D 109, 7, 076016 (2024), [arXiv:2311.10067].
+[20] M. Neubert, Phys. Rept. 245, 259 (1994), [hep-ph/9306320].
+[21] A. V. Manohar and M. B. Wise, Heavy quark physics, volume 10 (2000), ISBN 978-0-521-
+     03757-0, 978-1-009-40212-5.
+[22] W. E. Caswell and G. P. Lepage, Phys. Lett. B 167, 437 (1986).
+[23] G. P. Lepage et al., Phys. Rev. D 46, 4052 (1992), [hep-lat/9205007].
+[24] G. T. Bodwin, E. Braaten and G. P. Lepage, Phys. Rev. D 51, 1125 (1995), [Erratum:
+     Phys.Rev.D 55, 5853 (1997)], [hep-ph/9407339].
+[25] N. Brambilla et al., Nucl. Phys. B 566, 275 (2000), [hep-ph/9907240].
+[26] N. Brambilla et al., Rev. Mod. Phys. 77, 1423 (2005), [hep-ph/0410047].
+[27] A. Pineda and J. Soto, Nucl. Phys. B Proc. Suppl. 64, 428 (1998), [hep-ph/9707481].
+[28] M. Berwein et al., Phys. Rev. D92, 11, 114019 (2015), [arXiv:1510.04299].
+[29] M. Berwein et al., Phys. Rev. D 110, 9, 094040 (2024), [arXiv:2408.04719].
+[30] N. Brambilla et al., Phys. Rev. D 97, 1, 016016 (2018), [arXiv:1707.09647].
+[31] N. Brambilla et al., Phys. Rev. D 99, 1, 014017 (2019), [Erratum: Phys.Rev.D 101, 099902
+     (2020)], [arXiv:1805.07713].
+[32] J. Soto and J. Tarrús Castellà, Phys. Rev. D 102, 1, 014012 (2020), [Erratum: Phys.Rev.D
+     110, 099901 (2024)], [arXiv:2005.00552].
+[33] M. T. AlFiky, F. Gabbiani and A. A. Petrov, Phys. Lett. B 640, WSU-HEP-0502, 238 (2006),
+     [hep-ph/0506141].
+[34] M. Albaladejo et al., Eur. Phys. J. C 75, 11, 547 (2015), [arXiv:1504.00861].
+
+                                         1st June, 2026
+13                                78. Heavy Non-qq Mesons
+
+
+ [35] S. Fleming et al., Phys. Rev. D 76, 034006 (2007), [hep-ph/0703168].
+ [36] M. P. Valderrama, Phys. Rev. D 85, 114037 (2012), [arXiv:1204.2400].
+ [37] T. Mehen and J. W. Powell, Phys. Rev. D84, 114013 (2011), [arXiv:1109.3479].
+ [38] L. Dai, F.-K. Guo and T. Mehen, Phys. Rev. D 101, 5, 054024 (2020), [arXiv:1912.04317].
+ [39] L. Dai et al., Phys. Rev. D 107, 7, 076001 (2023), [arXiv:2301.11950].
+ [40] M. Jansen, H. W. Hammer and Y. Jia, Phys. Rev. D 89, 1, 014033 (2014), [arXiv:1310.6937].
+ [41] V. Baru et al., Phys. Rev. D 84, 074029 (2011), [arXiv:1108.5644].
+ [42] V. Baru et al., Phys. Lett. B 726, 537 (2013), [arXiv:1306.4108].
+ [43] M. Schmidt, M. Jansen and H. W. Hammer, Phys. Rev. D 98, 1, 014032 (2018),
+      [arXiv:1804.00375].
+ [44] V. Baru et al., Phys. Rev. D 92, 11, 114016 (2015), [arXiv:1509.01789].
+ [45] V. Baru et al., Phys. Lett. B 763, 20 (2016), [arXiv:1605.09649].
+ [46] Q. Wang et al., Phys. Rev. D 98, 7, 074023 (2018), [arXiv:1805.07453].
+ [47] V. Baru et al., Phys. Rev. D99, 9, 094013 (2019), [arXiv:1901.10319].
+ [48] M.-L. Du et al., Phys. Rev. D 105, 1, 014024 (2022), [arXiv:2110.13765].
+ [49] E. Epelbaum, H.-W. Hammer and U.-G. Meißner, Rev. Mod. Phys. 81, 1773 (2009),
+      [arXiv:0811.1338].
+ [50] H.-W. Hammer and S. König, Lect. Notes Phys. 936, 93 (2017), [arXiv:1610.02961].
+ [51] U.-G. Meißner and A. Rusetsky, Effective Field Theories, Cambridge University Press (2022),
+      ISBN 978-1-108-68903-8.
+ [52] E. Braaten, H. W. Hammer and T. Mehen, Phys. Rev. D 82, INT-PUB-10-019, HISKP-TH-
+      10-12, 034018 (2010), [arXiv:1005.1688].
+ [53] J. Nieves and M. P. Valderrama, Phys. Rev. D 86, 056004 (2012), [arXiv:1204.2790].
+ [54] F.-K. Guo et al., Phys. Rev. D 88, 054007 (2013), [arXiv:1303.6608].
+ [55] J. B. Habashi et al., Annals Phys. 422, 168283 (2020), [arXiv:2007.07360].
+ [56] M. Albaladejo, Phys. Lett. B 829, 137052 (2022), [arXiv:2110.02944].
+ [57] F.-K. Guo et al., Rev. Mod. Phys. 90, 1, 015004 (2018), [arXiv:1705.00141].
+ [58] W. Lucha, D. Melikhov and H. Sazdjian, Phys. Rev. D 100, 1, 014010 (2019),
+      [arXiv:1901.03881].
+ [59] Z.-G. Wang (2025), [arXiv:2502.11351].
+ [60] N. Brambilla et al., Phys. Rept. 873, 1 (2020), [arXiv:1907.07583].
+ [61] N. Brambilla et al., Eur. Phys. J. C71, 1534 (2011), [arXiv:1010.5827].
+ [62] H.-X. Chen et al., Phys. Rept. 639, 1 (2016), [arXiv:1601.02092].
+ [63] A. Ali, J. S. Lange and S. Stone, Prog. Part. Nucl. Phys. 97, 123 (2017), [arXiv:1706.00610].
+ [64] R. F. Lebed, R. E. Mitchell and E. S. Swanson, Prog. Part. Nucl. Phys. 93, 143 (2017),
+      [arXiv:1610.04528].
+ [65] S. L. Olsen, T. Skwarnicki and D. Zieminska, Rev. Mod. Phys. 90, 1, 015003 (2018),
+      [arXiv:1708.04012].
+ [66] Y.-R. Liu et al., Prog. Part. Nucl. Phys. 107, 237 (2019), [arXiv:1903.11976].
+ [67] A. Esposito, A. Pilloni and A. D. Polosa, Phys. Rept. 668, 1 (2017), [arXiv:1611.07920].
+
+                                          1st June, 2026
+14                                78. Heavy Non-qq Mesons
+
+
+ [68] M.-Z. Liu et al., Phys. Rept. 1108, 1 (2025), [arXiv:2404.06399].
+ [69] D. Johnson et al., Ann. Rev. Nucl. Part. Sci. 74, 583 (2024), [arXiv:2403.04051].
+ [70] C. Hanhart (2025), [arXiv:2504.06043].
+ [71] B. Aubert et al. (BaBar), Phys. Rev. Lett. 90, 242001 (2003), [hep-ex/0304021].
+ [72] D. Besson et al. (CLEO), Phys. Rev. D68,                032002 (2003),     [Erratum:   Phys.
+      Rev.D75,119908(2007)], [hep-ex/0305100].
+ [73] S. Godfrey, Phys. Lett. B568, 254 (2003), [hep-ph/0305122].
+ [74] H.-Y. Cheng and W.-S. Hou, Phys. Lett. B566, 193 (2003), [hep-ph/0305038].
+ [75] K. Terasaki, Phys. Rev. D68, 011501 (2003), [hep-ph/0305213].
+ [76] L. Maiani et al., Phys. Rev. D71, 014028 (2005), [hep-ph/0412098].
+ [77] V. Dmitrasinovic, Phys. Rev. Lett. 94, 162002 (2005).
+ [78] T. Barnes, F. E. Close and H. J. Lipkin, Phys. Rev. D68, 054006 (2003), [hep-ph/0305025].
+ [79] E. E. Kolomeitsev and M. F. M. Lutz, Phys. Lett. B582, 39 (2004), [hep-ph/0307133].
+ [80] A. Faessler et al., Phys. Rev. D76, 014005 (2007), [arXiv:0705.0254].
+ [81] A. Faessler et al., Phys. Rev. D 76, 114008 (2007), [arXiv:0709.3946].
+ [82] M. F. M. Lutz and M. Soyeur, Nucl. Phys. A813, 14 (2008), [arXiv:0710.1545].
+ [83] L. Liu et al., Phys. Rev. D87, 1, 014508 (2013), [arXiv:1208.4535].
+ [84] P. Colangelo and F. De Fazio, Phys. Lett. B570, 180 (2003), [hep-ph/0305140].
+ [85] X.-Y. Guo, Y. Heo and M. F. M. Lutz, Phys. Rev. D98, 1, 014510 (2018), [arXiv:1801.10122].
+ [86] H.-L. Fu et al., Eur. Phys. J. A 58, 4, 70 (2022), [arXiv:2111.09481].
+ [87] V. Dmitrasinovic, Phys. Rev. D 86, 016006 (2012).
+ [88] M.-L. Du et al., Phys. Rev. Lett. 126, 19, 192001 (2021), [arXiv:2012.04599].
+ [89] R. Aaij et al. (LHCb), Phys. Rev. D94, 7, 072001 (2016), [arXiv:1608.01289].
+ [90] R. Aaij et al. (LHCb), Phys. Rev. D 94, 7, 072001 (2016), [arXiv:1608.01289].
+ [91] L. Gayer et al. (Hadron Spectrum), JHEP 07, 123 (2021), [arXiv:2102.04973].
+ [92] M. Albaladejo et al., Phys. Lett. B767, 465 (2017), [arXiv:1610.06727].
+ [93] M.-L. Du et al., Phys. Rev. D98, 9, 094018 (2018), [arXiv:1712.07957].
+ [94] G. Moir et al., JHEP 10, 011 (2016), [arXiv:1607.07093].
+ [95] A. Asokan et al., Eur. Phys. J. C 83, 9, 850 (2023), [arXiv:2212.07856].
+ [96] J. D. E. Yeo, C. E. Thomas and D. J. Wilson (Hadron Spectrum), JHEP 07, 012 (2024),
+      [arXiv:2403.10498].
+ [97] L. Maiani, A. D. Polosa and V. Riquer, Phys. Rev. D 110, 3, 034014 (2024),
+      [arXiv:2405.08545].
+ [98] F.-K. Guo and C. Hanhart (2025), [arXiv:2503.05372].
+ [99] E. B. Gregory et al. (2025), [arXiv:2503.23954].
+[100] S. Cho et al. (ExHIC), Prog. Part. Nucl. Phys. 95, 279 (2017), [arXiv:1702.00486].
+[101] L. Fabbietti, V. Mantovani Sarti and O. Vazquez Doce, Ann. Rev. Nucl. Part. Sci. 71, 377
+      (2021), [arXiv:2012.09806].
+[102] S. Acharya et al. (ALICE), Phys. Rev. D 110, 3, 032004 (2024), [arXiv:2401.13541].
+[103] E. Epelbaum et al. (2025), [arXiv:2504.08631].
+
+                                          1st June, 2026
+15                                78. Heavy Non-qq Mesons
+
+
+[104] E. J. Gustafson et al., Phys. Rev. D 110, 9, L091502 (2024), [arXiv:2311.00864].
+[105] M. L. Du et al. (2025), [arXiv:2509.12133].
+[106] R. J. Hudspith and D. Mohler, Phys. Rev. D 107, 11, 114510 (2023), [arXiv:2303.17295].
+[107] R. Aaij et al. (LHCb), Phys. Rev. D 102, 112003 (2020), [arXiv:2009.00026].
+[108] R. Aaij et al. (LHCb), Phys. Rev. Lett. 125, 242001 (2020), [arXiv:2009.00025].
+[109] R. Aaij et al. (LHCb), Phys. Rev. Lett. 133, 13, 131902 (2024), [arXiv:2406.03156].
+[110] R. Aaij et al. (LHCb), Phys. Rev. Lett. 134, 10, 101901 (2025), [arXiv:2411.19781].
+[111] R. Aaij et al. (LHCb), JHEP 07, 140 (2024), [arXiv:2403.03586].
+[112] M. Karliner and J. L. Rosner, Phys. Rev. D 102, 9, 094016 (2020), [arXiv:2008.05993].
+[113] X.-G. He, W. Wang and R. Zhu, Eur. Phys. J. C 80, 11, 1026 (2020), [arXiv:2008.07145].
+[114] Z.-G. Wang, Int. J. Mod. Phys. A 35, 30, 2050187 (2020), [arXiv:2008.07833].
+[115] R. Molina and E. Oset, Phys. Lett. B 811, 135870 (2020), [arXiv:2008.11171].
+[116] Y. Huang et al., Eur. Phys. J. C 80, 10, 973 (2020), [arXiv:2008.07959].
+[117] M.-Z. Liu, J.-J. Xie and L.-S. Geng, Phys. Rev. D 102, 9, 091502 (2020), [arXiv:2008.07389].
+[118] B. Wang and S.-L. Zhu, Eur. Phys. J. C 82, 5, 419 (2022), [arXiv:2107.09275].
+[119] Z.-L. Yue, C.-J. Xiao and D.-Y. Chen, Phys. Rev. D 107, 3, 034018 (2023), [arXiv:2212.03018].
+[120] J.-Z. Wang et al., Phys. Rev. D 110, 11, 114003 (2024), [arXiv:2408.08965].
+[121] T. J. Burns and E. S. Swanson, Phys. Lett. B 813, 136057 (2021), [arXiv:2008.12838].
+[122] X.-H. Liu et al., Eur. Phys. J. C 80, 12, 1178 (2020), [arXiv:2008.07190].
+[123] T. J. Burns and E. S. Swanson, Phys. Rev. D 103, 1, 014004 (2021), [arXiv:2009.05352].
+[124] R. Aaij et al. (LHCb), Phys. Rev. D 108, 1, 012017 (2023), [arXiv:2212.02717].
+[125] R. Molina and E. Oset, Phys. Rev. D 107, 5, 056015 (2023), [arXiv:2211.01302].
+[126] H.-W. Ke et al., Phys. Rev. D 106, 11, 114032 (2022), [arXiv:2210.06215].
+[127] S. S. Agaev, K. Azizi and H. Sundu, Phys. Rev. D 107, 9, 094019 (2023), [arXiv:2212.12001].
+[128] B. Wang et al., Phys. Rev. D 109, 3, 034027 (2024), [arXiv:2309.02191].
+[129] M.-Y. Duan et al., Phys. Rev. D 108, 7, 074006 (2023), [arXiv:2307.04092].
+[130] D.-K. Lian et al., Eur. Phys. J. C 84, 1, 1 (2024), [arXiv:2302.01167].
+[131] R. Aaij et al. (LHCb), Sci. Bull. 70, 1432 (2025), [arXiv:2411.03399].
+[132] L. Roca, J. M. Dias and E. Oset (2025), [arXiv:2502.18401].
+[133] S. K. Choi et al. (Belle), Phys. Rev. Lett. 91, 262001 (2003), [hep-ex/0309032].
+[134] B. Aubert et al. (BaBar), Phys. Rev. D71, 071103 (2005), [hep-ex/0406022].
+[135] R. Aaij et al. (LHCb), Phys. Rev. Lett. 115, 072001 (2015), [arXiv:1507.03414].
+[136] R. Aaij et al. (LHCb), Phys. Rev. Lett. 122, 22, 222001 (2019), [arXiv:1904.03947].
+[137] M. B. Voloshin, Prog. Part. Nucl. Phys. 61, 455 (2008), [arXiv:0711.4556].
+[138] R. Aaij et al. (LHCb), Nature Phys. 18, 7, 751 (2022), [arXiv:2109.01038].
+[139] R. Aaij et al. (LHCb), Nature Commun. 13, 1, 3351 (2022), [arXiv:2109.01056].
+[140] O. Deineka, I. Danilkin and M. Vanderhaeghen, Phys. Lett. B 827, 136982 (2022),
+      [arXiv:2111.15033].
+[141] S. Prelovsek et al., JHEP 06, 035 (2021), [arXiv:2011.02542].
+
+                                          1st June, 2026
+16                                 78. Heavy Non-qq Mesons
+
+
+[142] K. Chilikin et al. (Belle), Phys. Rev. D 95, 112003 (2017), [arXiv:1704.01872].
+[143] R. Aaij et al. (LHCb), Phys. Rev. Lett. 110, 222001 (2013), [arXiv:1302.6269].
+[144] R. Aaij et al. (LHCb), Phys. Rev. D92, 1, 011102 (2015), [arXiv:1504.06339].
+[145] T. Barnes and S. Godfrey, Phys. Rev. D69, 054008 (2004), [hep-ph/0311162].
+[146] K. Abe et al. (Belle), Phys. Rev. Lett. 98, 082001 (2007), [hep-ex/0507019].
+[147] S. Uehara et al. (Belle), Phys. Rev. Lett. 96, 082003 (2006), [hep-ex/0512035].
+[148] R. Aaij et al. (LHCb), Phys. Rev. D 102, 9, 092005 (2020), [arXiv:2005.13419].
+[149] R. Aaij et al. (LHCb), JHEP 08, 123 (2020), [arXiv:2005.13422].
+[150] C. Hanhart et al., Phys. Rev. D 76, 034007 (2007), [arXiv:0704.0605].
+[151] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 132, 15, 151903 (2024), [arXiv:2309.01502].
+[152] T. Ji et al. (2025), [arXiv:2502.04458].
+[153] Z.-H. Zhang et al., JHEP 08, 130 (2024), [arXiv:2404.11215].
+[154] G. Barucca et al. (PANDA), Eur. Phys. J. A 55, 3, 42 (2019), [arXiv:1812.05132].
+[155] G. Barucca et al. (PANDA), Eur. Phys. J. A 57, 6, 184 (2021), [arXiv:2101.11877].
+[156] F.-K. Guo, Phys. Rev. Lett. 122, 20, 202002 (2019), [arXiv:1902.11221].
+[157] E. Braaten, L.-P. He and K. Ingles, Phys. Rev. D 100, 3, 031501 (2019), [arXiv:1904.12915].
+[158] S. Sakai, H.-J. Jing and F.-K. Guo, Phys. Rev. D 102, 11, 114041 (2020), [arXiv:2008.10829].
+[159] N. A. Tornqvist, Phys. Lett. B590, 209 (2004), [hep-ph/0402237].
+[160] E. S. Swanson, Phys. Lett. B588, 189 (2004), [hep-ph/0311229].
+[161] D. Gamermann and E. Oset, Phys. Rev. D80, 014003 (2009), [arXiv:0905.0402].
+[162] J.-Z. Wang et al., Phys. Rev. D 111, 11, L111502 (2025), [arXiv:2404.16575].
+[163] Y.-b. Dong et al., Phys. Rev. D 77, 094013 (2008), [arXiv:0802.3610].
+[164] Y. Dong et al., Phys. Rev. D 79, 094013 (2009), [arXiv:0903.5416].
+[165] P. Colangelo, F. De Fazio and G. Roselli, Phys. Rev. D 111, 7, 074014 (2025),
+      [arXiv:2501.15888].
+[166] R. Aaij et al. (LHCb), JHEP 11, 121 (2024), [arXiv:2406.17006].
+[167] F.-K. Guo et al., Phys. Lett. B 742, 394 (2015), [arXiv:1410.6712].
+[168] O. Andreev, Phys. Rev. D 106, 6, 066002 (2022), [arXiv:2205.12119].
+[169] B. Aubert et al. (BaBar), Phys. Rev. D71, 031501 (2005), [hep-ex/0412051].
+[170] L. Maiani, A. D. Polosa and V. Riquer, Phys. Lett. B778, 247 (2018), [arXiv:1712.05296].
+[171] L. Maiani, A. D. Polosa and V. Riquer, Phys. Rev. D 102, 3, 034017 (2020),
+      [arXiv:2005.08764].
+[172] I. Matuschek et al., Eur. Phys. J. A 57, 3, 101 (2021), [arXiv:2007.05329].
+[173] C. Bignamini et al., Phys. Rev. Lett. 103, 162001 (2009), [arXiv:0906.0882].
+[174] A. Esposito et al., Eur. Phys. J. C 81, 669 (2021), [arXiv:2006.15044].
+[175] P. Artoisenet and E. Braaten, Phys. Rev. D81, 114018 (2010), [arXiv:0911.2016].
+[176] E. Braaten et al., Phys. Rev. D 103, 7, L071901 (2021), [arXiv:2012.13499].
+[177] F.-K. Guo et al., JHEP 05, 138 (2014), [arXiv:1403.4032].
+[178] M. Albaladejo et al., Chin. Phys. C41, 12, 121001 (2017), [arXiv:1709.09101].
+[179] A. Esposito et al., Phys. Rev. D 105, 3, L031503 (2022), [arXiv:2108.11413].
+
+                                           1st June, 2026
+17                                78. Heavy Non-qq Mesons
+
+
+[180] S. Weinberg, Phys. Rev. 137, B672 (1965).
+[181] E. Braaten, Phys. Rev. D 91, 11, 114007 (2015), [arXiv:1503.04791].
+[182] A. Esposito et al., Phys. Lett. B 847, 138285 (2023), [arXiv:2307.11400].
+[183] V. Baru et al., Phys. Lett. B 833, 137290 (2022), [arXiv:2110.07484].
+[184] B. Aubert et al. (BaBar), Phys. Rev. Lett. 95, 142001 (2005), [hep-ex/0506081].
+[185] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 118, 9, 092001 (2017), [arXiv:1611.01317].
+[186] M. Cleven et al., Phys. Rev. D90, 7, 074039 (2014), [arXiv:1310.2190].
+[187] L. von Detten et al., Phys. Rev. D 109, 11, 116002 (2024), [arXiv:2402.03057].
+[188] S. X. Nakamura et al. (2023), [arXiv:2312.17658].
+[189] C. Hanhart and E. Klempt, Int. J. Mod. Phys. A 35, 05, 2050019 (2020), [arXiv:1906.11971].
+[190] T. Barnes, S. Godfrey and E. S. Swanson, Phys. Rev. D 72, 054026 (2005), [hep-ph/0505002].
+[191] L.-C. Gui et al., Phys. Rev. D 98, 1, 016010 (2018), [arXiv:1801.08791].
+[192] F. E. Close and P. R. Page, Phys. Lett. B628, 215 (2005), [hep-ph/0507199].
+[193] E. Kou and O. Pene, Phys. Lett. B631, 164 (2005), [hep-ph/0507119].
+[194] Yu. S. Kalashnikova and A. V. Nefediev, Phys. Rev. D77, 054025 (2008), [arXiv:0801.2036].
+[195] Q. Wang and Q. Zhao (2025), [arXiv:2508.05304].
+[196] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 111, 24, 242001 (2013), [arXiv:1309.1896].
+[197] X. Li and M. B. Voloshin, Mod. Phys. Lett. A29, 12, 1450060 (2014), [arXiv:1309.1681].
+[198] E. Braaten, C. Langmack and D. H. Smith, Phys. Rev. D 90, 1, 014044 (2014),
+      [arXiv:1402.0438].
+[199] N. Brambilla et al., Phys. Rev. D 101, 5, 054040 (2020), [arXiv:1908.11699].
+[200] N. Brambilla et al., Phys. Rev. D 107, 5, 054034 (2023), [arXiv:2212.09187].
+[201] Q. Wang, C. Hanhart and Q. Zhao, Phys. Rev. Lett. 111, 13, 132003 (2013),
+      [arXiv:1303.6355].
+[202] Y. Dong et al., Phys. Rev. D 89, 3, 034018 (2014), [arXiv:1310.4373].
+[203] F.-K. Guo et al., Phys. Lett. B725, 127 (2013), [arXiv:1306.3096].
+[204] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 112, 9, 092001 (2014), [arXiv:1310.4101].
+[205] Y. Dong et al., Phys. Rev. D 90, 7, 074032 (2014), [arXiv:1404.6161].
+[206] Q. Wang et al., Phys. Rev. D89, 3, 034001 (2014), [arXiv:1309.4303].
+[207] V. Baru et al., Phys. Rev. D91, 3, 034002 (2015), [arXiv:1501.02924].
+[208] T. Ji et al., Phys. Rev. Lett. 129, 10, 102002 (2022), [arXiv:2205.10994].
+[209] A. Ali et al., Eur. Phys. J. C78, 1, 29 (2018), [arXiv:1708.04650].
+[210] K. Chilikin et al. (Belle), Phys. Rev. D88, 7, 074026 (2013), [arXiv:1306.4894].
+[211] R. Aaij et al. (LHCb), Phys. Rev. Lett. 112, 22, 222002 (2014), [arXiv:1404.1903].
+[212] L. Maiani, A. D. Polosa and V. Riquer, Symmetry 13, 5, 751 (2021), [arXiv:2103.14356].
+[213] Y.-H. Chen et al., Phys. Rev. D99, 7, 074016 (2019), [arXiv:1902.10957].
+[214] G. Cotugno et al., Phys. Rev. Lett. 104, 132005 (2010), [arXiv:0911.2178].
+[215] F.-K. Guo et al., Phys. Rev. D82, 094008 (2010), [arXiv:1005.2055].
+[216] L.-Y. Dai, J. Haidenbauer and U. G. Meissner, Phys. Rev. D96, 11, 116001 (2017),
+      [arXiv:1710.03142].
+
+                                          1st June, 2026
+18                                78. Heavy Non-qq Mesons
+
+
+[217] Z.-Y. Cui et al. (2025), [arXiv:2506.06652].
+[218] J. He et al., Eur. Phys. J. C 80, 3, 246 (2020), [arXiv:1912.08420].
+[219] F.-L. Wang and X. Liu, Phys. Rev. D 102, 9, 094006 (2020), [arXiv:2008.13484].
+[220] H.-W. Ke, X.-H. Liu and X.-Q. Li, Chin. Phys. C 44, 9, 093104 (2020), [arXiv:2004.03167].
+[221] J.-R. Zhang, Phys. Rev. D 102, 5, 054006 (2020), [arXiv:2004.10985].
+[222] F.-K. Guo, C. Hanhart and U.-G. Meiß ner, Phys. Lett. B 665, 26 (2008), [arXiv:0803.1392].
+[223] F.-K. Guo, C. Hanhart and U.-G. Meiß ner, Phys. Rev. Lett. 102, 242004 (2009),
+      [arXiv:0904.3338].
+[224] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 110, 252001 (2013), [arXiv:1303.5949].
+[225] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 112, 2, 022001 (2014), [arXiv:1310.1163].
+[226] P. Krokovny et al. (Belle), Phys. Rev. D88, 5, 052016 (2013), [arXiv:1308.2646].
+[227] A. Bondar et al. (Belle), Phys. Rev. Lett. 108, 122001 (2012), [arXiv:1110.2251].
+[228] A. Garmash et al. (Belle), Phys. Rev. Lett. 116, 21, 212001 (2016), [arXiv:1512.07419].
+[229] V. Baru et al., Eur. Phys. J. C 79, 1, 46 (2019), [arXiv:1810.06921].
+[230] A. E. Bondar et al., Phys. Rev. D84, 054010 (2011), [arXiv:1105.4473].
+[231] Y.-H. Chen, M.-L. Du and F.-K. Guo, Sci. China Phys. Mech. Astron. 67, 9, 291011 (2024),
+      [arXiv:2310.15965].
+[232] Z.-M. Ding, H.-Y. Jiang and J. He, Eur. Phys. J. C 80, 12, 1179 (2020), [arXiv:2011.04980].
+[233] Y. Dong et al., Phys. Rev. D 88, 1, 014030 (2013), [arXiv:1306.0824].
+[234] F. Goerke et al., Phys. Rev. D 94, 9, 094017 (2016), [arXiv:1608.04656].
+[235] F. Goerke et al., Phys. Rev. D 96, 5, 054028 (2017), [arXiv:1707.00539].
+[236] A. Ali et al., Phys. Rev. D91, 1, 017502 (2015), [arXiv:1412.2049].
+[237] M. B. Voloshin, Phys. Rev. D84, 031502 (2011), [arXiv:1105.5829].
+[238] V. Baru et al., JHEP 06, 158 (2017), [arXiv:1704.07332].
+[239] J.-Z. Wang et al., Eur. Phys. J. C 80, 11, 1040 (2020), [arXiv:2007.02263].
+[240] M. Sadl et al., Phys. Rev. D 111, 5, 054513 (2025), [arXiv:2406.09842].
+[241] T. Branz, T. Gutsche and V. E. Lyubovitskij, Phys. Rev. D82, 054025 (2010),
+      [arXiv:1005.3168].
+[242] P. Pakhlov, Phys. Lett. B702, 139 (2011), [arXiv:1105.2945].
+[243] P. Pakhlov and T. Uglov, Phys. Lett. B748, 183 (2015), [arXiv:1408.5295].
+[244] S. X. Nakamura and K. Tsushima, Phys. Rev. D100, 5, 051502 (2019), [arXiv:1901.07385].
+[245] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 126, 10, 102001 (2021), [arXiv:2011.07855].
+[246] R. Aaij et al. (LHCb), Phys. Rev. Lett. 127, 8, 082001 (2021), [arXiv:2103.01803].
+[247] S. H. Lee, M. Nielsen and U. Wiedner, J. Korean Phys. Soc. 55, 424 (2009), [arXiv:0803.1168].
+[248] J. M. Dias, X. Liu and M. Nielsen, Phys. Rev. D 88, 9, 096014 (2013), [arXiv:1307.7100].
+[249] D. Ebert, R. N. Faustov and V. O. Galkin, Eur. Phys. J. C 58, 399 (2008), [arXiv:0808.3912].
+[250] J. Ferretti and E. Santopinto, JHEP 04, 119 (2020), [arXiv:2001.01067].
+[251] M. B. Voloshin, Phys. Lett. B 798, 135022 (2019), [arXiv:1901.01936].
+[252] D.-Y. Chen, X. Liu and T. Matsuki, Phys. Rev. Lett. 110, 23, 232001 (2013),
+      [arXiv:1303.6842].
+
+                                           1st June, 2026
+19                                78. Heavy Non-qq Mesons
+
+
+[253] L. Meng, B. Wang and S.-L. Zhu, Phys. Rev. D 102, 11, 111502 (2020), [arXiv:2011.08656].
+[254] P. G. Ortega, D. R. Entem and F. Fernandez, Phys. Lett. B 818, 136382 (2021),
+      [arXiv:2103.07871].
+[255] Z. Yang et al., Phys. Rev. D 103, 7, 074029 (2021), [arXiv:2011.08725].
+[256] B. Wang, L. Meng and S.-L. Zhu, Phys. Rev. D 103, 2, L021501 (2021), [arXiv:2011.10922].
+[257] M.-L. Du et al., Phys. Rev. D 105, 7, 074018 (2022), [arXiv:2201.08253].
+[258] R. M. Albuquerque, S. Narison and D. Rabetiarivony, Phys. Rev. D 103, 7, 074015 (2021),
+      [arXiv:2101.07281].
+[259] Z.-H. Guo and J. A. Oller, Phys. Rev. D 103, 5, 054021 (2021), [arXiv:2012.11904].
+[260] N. Ikeno, R. Molina and E. Oset, Phys. Lett. B 814, 136120 (2021), [arXiv:2011.13425].
+[261] V. Baru et al., Phys. Rev. D 105, 3, 034014 (2022), [arXiv:2110.00398].
+[262] M. Cleven et al., Phys. Rev. D92, 1, 014005 (2015), [arXiv:1505.01771].
+[263] X. Luo and S. X. Nakamura, Phys. Rev. D 107, L011504 (2023), [arXiv:2207.12875].
+[264] S. X. Nakamura and X. Luo, Nuovo Cim. C 47, 4, 189 (2024), [arXiv:2309.14694].
+[265] N. Brambilla et al. (2024), [arXiv:2411.14306].
+[266] R. Albuquerque, S. Narison and D. Rabetiarivony, Nucl. Phys. A 1034, 122637 (2023),
+      [arXiv:2301.08199].
+[267] S. S. Agaev, K. Azizi and H. Sundu, Nucl. Phys. B 975, 115650 (2022), [arXiv:2108.00188].
+[268] L.-Y. Dai et al., Phys. Rev. D 105, 5, L051507 (2022), [arXiv:2108.06002].
+[269] C. Deng and S.-L. Zhu, Phys. Rev. D 105, 5, 054015 (2022), [arXiv:2112.12472].
+[270] P. G. Ortega et al., Phys. Lett. B 841, 137918 (2023), [arXiv:2211.06118].
+[271] H.-W. Ke, X.-H. Liu and X.-Q. Li, Eur. Phys. J. C 82, 2, 144 (2022), [arXiv:2112.14142].
+[272] L. R. Dai et al., Eur. Phys. J. C 83, 10, 983 (2023), [arXiv:2304.01870].
+[273] E. Braaten et al., Phys. Rev. D 106, 3, 034033 (2022), [arXiv:2202.03900].
+[274] Z.-S. Jia et al., Phys. Rev. D 107, 7, 074029 (2023), [arXiv:2211.02479].
+[275] M. Mikhasenko (2022), [arXiv:2203.04622].
+[276] M. Padmanath and S. Prelovsek, Phys. Rev. Lett. 129, 3, 032002 (2022), [arXiv:2202.10110].
+[277] S. Chen et al., Phys. Lett. B 833, 137391 (2022), [arXiv:2206.06185].
+[278] Y. Lyu et al., Phys. Rev. Lett. 131, 16, 161901 (2023), [arXiv:2302.04505].
+[279] M.-L. Du et al., Phys. Rev. Lett. 131, 13, 131903 (2023), [arXiv:2303.09441].
+[280] M.-L. Du, F.-K. Guo and B. Wu, Phys. Rev. Lett. 135, 1, 011903 (2025), [arXiv:2408.09375].
+[281] R. Bubna et al. (2025), [arXiv:2507.18399].
+[282] M. T. Hansen, F. Romero-López and S. R. Sharpe, JHEP 06, 051 (2024), [arXiv:2401.06609].
+[283] L. Meng et al., Phys. Rev. D 109, 7, L071506 (2024), [arXiv:2312.01930].
+[284] R. Bubna et al., JHEP 05, 168 (2024), [arXiv:2402.12985].
+[285] M. Abolnikov et al., Phys. Lett. B 860, 139188 (2025), [arXiv:2407.04649].
+[286] S. Collins et al., Phys. Rev. D 109, 9, 094509 (2024), [arXiv:2402.14715].
+[287] F. Gil-Domínguez, A. Giachino and R. Molina, Phys. Rev. D 111, 1, 016029 (2025),
+      [arXiv:2409.15141].
+
+                                          1st June, 2026
+20                                 78. Heavy Non-qq Mesons
+
+
+[288] T. Whyte, D. J. Wilson and C. E. Thomas (Hadron Spectrum), Phys. Rev. D 111, 3, 034511
+      (2025), [arXiv:2405.15741].
+[289] L. Meng et al., Phys. Rev. D 111, 3, 034509 (2025), [arXiv:2411.06266].
+[290] J. P. Ader, J. M. Richard and P. Taxil, Phys. Rev. D 25, 2370 (1982).
+[291] J. l. Ballot and J. M. Richard, Phys. Lett. B 123, 449 (1983).
+[292] S. Zouzou et al., Z. Phys. C 30, 457 (1986).
+[293] D. M. Brink and F. Stancu, Phys. Rev. D 57, 6778 (1998).
+[294] M. Karliner and J. L. Rosner, Phys. Rev. Lett. 119, 20, 202001 (2017), [arXiv:1707.07666].
+[295] E. J. Eichten and C. Quigg, Phys. Rev. Lett. 119, 20, 202002 (2017), [arXiv:1707.09575].
+[296] W. Park, S. Noh and S. H. Lee, Nucl. Phys. A 983, 1 (2019), [arXiv:1809.05257].
+[297] S. Noh, W. Park and S. H. Lee, Phys. Rev. D 103, 114009 (2021), [arXiv:2102.09614].
+[298] Y. Ma et al., Phys. Rev. D 109, 7, 074001 (2024), [arXiv:2309.17068].
+[299] P. Bicudo and M. Wagner (European Twisted Mass), Phys. Rev. D 87, 11, 114511 (2013),
+      [arXiv:1209.6274].
+[300] Z. S. Brown and K. Orginos, Phys. Rev. D 86, 114506 (2012), [arXiv:1210.1953].
+[301] P. Bicudo et al., Phys. Rev. D 93, 3, 034501 (2016), [arXiv:1510.03441].
+[302] P. Bicudo, J. Scheunert and M. Wagner, Phys. Rev. D 95, 3, 034502 (2017),
+      [arXiv:1612.02758].
+[303] A. Francis et al., Phys. Rev. Lett. 118, 14, 142001 (2017), [arXiv:1607.05214].
+[304] P. Junnarkar, N. Mathur and M. Padmanath, Phys. Rev. D 99, 3, 034507 (2019),
+      [arXiv:1810.12285].
+[305] S. Meinel, M. Pflaumer and M. Wagner, Phys. Rev. D 106, 3, 034507 (2022),
+      [arXiv:2205.13982].
+[306] P. Mohanta and S. Basak, Phys. Rev. D 102, 9, 094516 (2020), [arXiv:2008.11146].
+[307] C. Alexandrou et al. (2024), [arXiv:2404.03588].
+[308] F. S. Navarra, M. Nielsen and S. H. Lee, Phys. Lett. B 649, 166 (2007), [hep-ph/0703071].
+[309] M.-L. Du et al., Phys. Rev. D 87, 1, 014003 (2013), [arXiv:1209.5134].
+[310] Z.-G. Wang, Acta Phys. Polon. B 49, 1781 (2018), [arXiv:1708.04545].
+[311] R. Aaij et al. (LHCb), Sci. Bull. 65, 23, 1983 (2020), [arXiv:2006.16957].
+[312] A. Hayrapetyan et al. (CMS) (2023), [arXiv:2306.07164].
+[313] Y. Xu (ATLAS), Acta Phys. Polon. Supp. 16, 3, 21 (2023), [arXiv:2209.12173].
+[314] A. Hayrapetyan et al. (CMS) (2025), [arXiv:2506.07944].
+[315] J. H. Yin et al. (Belle) (2023), [arXiv:2305.17947].
+[316] G. D. Alexeev et al. (COMPASS), Phys. Lett. B 838, 137702 (2023), [arXiv:2204.01817].
+[317] L. Maiani, Sci. Bull. 65, 1949 (2020), [arXiv:2008.01637].
+[318] K.-T. Chao and S.-L. Zhu, Sci. Bull. 65, 23, 1952 (2020), [arXiv:2008.07670].
+[319] J.-M. Richard, Sci. Bull. 65, 1954 (2020), [arXiv:2008.01962].
+[320] R. N. Faustov, V. O. Galkin and E. M. Savchenko, Phys. Rev. D 102, 11, 114030 (2020),
+      [arXiv:2009.13237].
+[321] J. F. Giron and R. F. Lebed, Phys. Rev. D 102, 7, 074003 (2020), [arXiv:2008.01631].
+
+                                           1st June, 2026
+21                                78. Heavy Non-qq Mesons
+
+
+[322] X. Jin et al., Eur. Phys. J. C 80, 11, 1083 (2020), [arXiv:2006.13745].
+[323] Q.-F. Lü, D.-Y. Chen and Y.-B. Dong, Eur. Phys. J. C 80, 9, 871 (2020), [arXiv:2006.14445].
+[324] Z.-H. Guo and J. A. Oller, Phys. Rev. D 103, 3, 034024 (2021), [arXiv:2011.00978].
+[325] P. G. Ortega, D. R. Entem and F. Fernández, Phys. Rev. D 108, 9, 094023 (2023),
+      [arXiv:2307.00532].
+[326] M. Karliner and J. L. Rosner, Phys. Rev. D 102, 11, 114039 (2020), [arXiv:2009.04429].
+[327] B.-D. Wan and C.-F. Qiao, Phys. Lett. B 817, 136339 (2021), [arXiv:2012.00454].
+[328] B.-C. Yang, L. Tang and C.-F. Qiao, Eur. Phys. J. C 81, 4, 324 (2021), [arXiv:2012.04463].
+[329] R. M. Albuquerque et al., Phys. Rev. D 102, 9, 094001 (2020), [arXiv:2008.01569].
+[330] X.-K. Dong et al., Phys. Rev. Lett. 126, 13, 132001 (2021), [arXiv:2009.07795].
+[331] C. Gong et al., Phys. Lett. B 824, 136794 (2022), [arXiv:2011.11374].
+[332] Z.-R. Liang, X.-Y. Wu and D.-L. Yao, Phys. Rev. D 104, 3, 034034 (2021), [arXiv:2104.08589].
+[333] X.-K. Dong et al., Sci. Bull. 66, 24, 2462 (2021), [arXiv:2107.03946].
+[334] Y.-L. Song et al., Phys. Rev. D 111, 3, 034038 (2025), [arXiv:2411.12062].
+[335] J.-Z. Wang et al., Phys. Rev. D 103, 7, 071503 (2021), [arXiv:2008.07430].
+[336] J.-Z. Wang, X. Liu and T. Matsuki, Phys. Lett. B 816, 136209 (2021), [arXiv:2012.03281].
+[337] F.-K. Guo et al., Phys. Rev. D 91, 5, 051504 (2015), [arXiv:1411.5584].
+
+
+
+
+                                          1st June, 2026
+

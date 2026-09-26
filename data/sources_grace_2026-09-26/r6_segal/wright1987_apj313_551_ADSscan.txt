@@ -1,0 +1,284 @@
+1987ApJ. . .313. .551W
+                         The Astrophysical Journal, 313:551-555,1987 February 15
+                         © 1987. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+
+
+
+                                                                         SOURCE COUNTS IN THE CHRONOMETRIC COSMOLOGY
+                                                                                                               Edward L. Wright
+                                                                                                           Department of Astronomy, UCLA
+                                                                                                     Received 1986 April 28 ; accepted 1986 August 12
+                                                                                                                     ABSTRACT
+                                          The chronométrie cosmology (a static, homogeneous, and hence nonevolving model proposed by Segal) is
+                                       unable to explain the steep number versus flux law N(S) for quasars or extragalactic radio sources. The expla-
+                                       nation given by Segal to explain the steep N(S) laws gives at best a small increase over a Euclidean
+                                       N(S)ocS~1'5, and requires that the source spectral index a be close to but greater than zero to create the
+                                       effect (where Fvocv_a). For typical radio spectral indices a ä 0.75, the chronométrie model cannot give a
+                                       quantitative fit to the excess number of 1-3 Jy sources that the standard cosmology attributes to evolution.
+                                       Thus the chronométrie model can explain a steep N(S) law only for flat spectrum sources, while the observa-
+                                       tions show the steepest N(S) law for steep spectrum sources. Furthermore, the observed Af(S) law for ultraviol-
+                                       et excess quasars is steeper than the steepest possible chronométrie prediction. The agreement between the
+                                       chronométrie theory and the quasar counts claimed by Segal, Loncaric, and Segal and Segal and Nicoll is a
+                                       side effect of the restricted redshift range used by these authors, rather than a correct prediction by the chro-
+                                       nométrie theory.
+                                       Subject headings: cosmology — quasars — radio sources: general — radio sources: spectra
+
+                                                 I. INTRODUCTION                                                                   métrie cosmology is that the redshift follows the square of the
+                                                                                                                                   distance for small distances :
+                            Source counts provide one of the strongest indications that
+                         the universe has evolved from a more active state in the past to                                                                     z = tan2 (6/2) .                   (2)
+                         a quieter present. They have been used as evidence against
+                         cosmological models that propose an unchanging universe, for                                              The chronométrie cosmology predicts the following redshift-
+                                                                                                                                   flux law for power-law sources:
+                         example the steady state. Such models predict a number versus
+                         flux law that is less steep than the Euclidean S 1,5 relation,                                                                 Fv = (Lv/16nR2)(l + z)2-7z •             (3)
+                         while the observed radio counts follow a steeper S"1*8 law for
+                         bright sources. The standard Friedmann models without evol-                                               The volume-redshift law is given by
+                         ution have the same deficiency, but in an evolving universe an                                                                 dV/dz = 16nR3z°'5/(l + z)3 .             (4)
+                         evolving source density is logically consistent. The chrono-
+                         métrie model proposed by Segal (1976) is a static, homoge-                                                The qualitative explanation for the excess of medium flux
+                         neous, nonevolving cosmology, so one would expect the same                                                sources involves the redshift-flux law, which for a < 1 reaches a
+                         difficulties with N(S) would arise, but Segal gives a qualitative                                         minimum flux Fmin at a redshift zmin, then rises for larger red-
+                         argument that suggests that the radio source counts could be                                              shifts. Thus a source can appear bright either by being close to
+                         reproduced for sources with spectral index a < 1. This paper                                              the observer or close to the antipode where 6 = n and z = go.
+                         makes a quantitative calculation to find out how much less                                                This produces a large number of sources with fluxes near Fmin,
+                         than one the spectral index must be for the chronométrie pre-                                             which can explain the excess of medium flux sources over the
+                         diction to match the 408 MHz source counts in Wall, Pearson,                                              Euclidean expectation. The magnitude of this effect depends on
+                         and Longair (1980). The same method is then used to compare                                               a, however, and it is never very large. Figure 1 shows a plot of
+                         counts of optically selected quasi-stellar objects with the chro-                                         S3I2N(>S) versus S for a = —0.25, 0, 0.25, 0.5, 0.75, and 1.00.
+                         nométrie prediction. I find that the good fit of the quasar                                               As a approaches 0+, the rise above Euclidean increases until it
+                         counts by the chronométrie theory claimed by Segal, Loncaric,                                             abruptly falls when a < 0.
+                         and Segal (1980, hereafter SLS) and Segal and Nicoll (1986) is                                               The rise above the Euclidean law does not continue to
+                         due to their redshift cutoff and not to the chronométrie theory.                                          increase with decreasing a after a = 0 because for a < 0 the
+                                                                                                                                   high redshift region giving an apparently bright source
+                                                                                                                                   becomes larger than the low redshift region giving an equally
+                                                II. CALCULATION                                                                    bright source. The volume-redshift law has the property that
+                            Segal’s (1976) chronométrie cosmology is based on a static                                             the volume with redshift less than z is the same as the volume
+                          universe with a spherical geometry for space. The distance is                                            with redshift greater than 1/z. When a is negative, zmin is less
+                          given by                                                                                                 than 1, and the region with z > zmin has a larger volume than
+                                                                      d = dR,                                          (1)         the region with z < zmin. Since the flux for z > zmin follows
+                                                                                                                                                                 F oc z1-a ,                     (5)
+                          where R is the radius of the universe. The redshift in this model
+                          is due to differences between the two generators of timelike                                             the volume with z ^ zmin that gives a flux greater than S goes
+                          translations in the conformal group 0(4, 2) : it is not caused by                                        as
+                          expansion. The most remarkable prediction of the chrono-                                                                   V cc z~1,5 oc 5_1-5/u-a)                  (6)
+                                                                                                                             551
+
+
+                                           © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1987ApJ. . .313. .551W
+                         552                                                                  WRIGHT                                                                 Vol. 313
+
+
+
+
+                            Fig. 1.—Chronometrie model number counts (divided by a Euclidean law)     Fig. 2.—Maximum excess over Euclidean counts vs. flux range in the chro-
+                         for a = 1,0.75,0.5,0.25,0, and -0.25.                                      nométrie model.
+
+                         for a < 1. Thus the high redshift region contributes an N(S) law           1984) to 15.4th magnitude (29 quasars in 10,700 deg2; Schmidt
+                         that follows                                                               and Green 1983), which is much greater than 3n/2. The
+                                                                                                    maximum E predicted by the chronométrie model is less than
+                                                  N(S) oc 5“1-5/(1“a)                         (7)   37r/2 for a finite flux range, such as S'2/S1 = 58 corresponding
+                         at high fluxes, which for 0 < a < 1 is steeper than Euclidean, as          to the 4.4 mag range for Eobs. Figure 2 shows £max versus
+                         is required. But for a < 0 this becomes less steep than Euclid-            and the chronométrie model predicts £< 3.3 for this flux
+                         ean, as can be seen in the curve for a = —0.25 in Figure 1.                range.
+                         Models with a < 0 in the chronométrie cosmology are very                      Other nonevolving cosmologies, such as a nonevolving
+                         improbable, since the brightest sources in these models are                Friedmann model, the steady state model, or the tired light
+                         dominated by objects with z > 1, unlike any known sample.                  model, do not produce any rise above Euclidean at all. This
+                            This mechanism for explaining the steep N(S) law for radio              requires that £max = 1 for these models. By contrast, an evolv-
+                         sources has a definite limitation: the rise above a Euclidean              ing cosmology has a source density that can depend on the
+                         law is always less than a small factor. To quantify the rise               redshift z as well, and £max is infinity for a single type of source
+                         above Euclidean given by the chronométrie model I will define              at a single redshift. Thus the chronométrie cosmology can give
+                         a Euclidean excess ratio for the flux range Sj < S2 in a number            a steeper N(S) law than other nonevolving models, but the
+                         versus flux law N(S) as                                                    observed quasar counts seem to rule out all the nonevolving
+                                                                                                    cosmologies.
+                                        E(SU S2) = (SJS^NiSJ/NiSJ .                          (8)
+                                                                                                                       III. RADIO SOURCE COUNTS
+                         This ratio can be calculated both for theoretical models and for
+                         observed counts. Theoretically E depends on the density of                    A quantitative comparison of the chronométrie model with
+                         sources with special index a and luminosity L : p(a, L). But if p          the observed radio source counts depends on the luminosity
+                         can be written as the sum of two nonnegative functions/(a, L)              function. Wall et al. use identifications of bright sources to
+                         and g(cc, L),                                                              construct a luminosity function, but this method depends on
+                                                                                                    the cosmological model. I have used a more general approach
+                                             p(a, L) =f(cc, L) + g(a, L) ,                   (9)    in my calculations, by asking whether any positive luminosity
+                         with corresponding Euclidean excesses Ey and Eg such that                  function can fit the data. Thus I have performed a linear least-
+                                                                                                    squares fit to the 408 MHz source counts using the values of
+                                                       Ef<Eg,                               (10)    the luminosity function in bins of width 0.1 in log10 L as
+                                                                                                    parameters. The density of sources in each bin is constrained to
+                         then the Euclidean excess for p, Ep, satisfies                             be positive, so the problem can be solved by quadratic prog-
+                                                    Ef<Ep<Eg.                               (11)    ramming. To be specific, let the observations give AT, sources in
+                                                                                                    solid angle    in the ith flux bin, and let the model specify the
+                         This implies that the extreme values of E will always be                   density pj of sources with luminosity Lj. Define          as the
+                         attained by models with a single type of source, having                    volume per steradian in which a source with luminosity Lj
+                                                                                                    would give a flux in the ith flux bin. Then
+                                           p(o£, L) = Ô((X - cc0)ô(L - L0) .                (12)
+                         For the chronométrie cosmology the largest value of E for any                               x2 = I (ut - Í2,1 VijP^21 Ni,                       (13)
+                         a, Su and S2 is £max = 3n/2 in the limit a 0+, Sl = Fmin, and
+                         S2 -► oo.                                                                  and the calculation consists of minimizing x2 by varying the p7
+                            Observationally Eohs is 17.21 for quasars in the flux range             subject to the constraint that pj > 0. I have done this calcu-
+                         from 19.8th magnitude (35 quasars in 1.72 deg2; Marshall et al.            lation many times with different values of the spectral index a.
+
+
+
+
+                                     © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1987ApJ. . .313. .551W
+                         No. 2, 1987                             SOURCE COUNTS IN CHRONOMETRIC COSMOLOGY                                                                        553
+
+                                                                                                           shows the counts from Wall et al compared with fits for three
+                                                                                                           different values of a. The jagged structure in the model curves
+                                                                                                           at low fluxes is real. It is caused by the sharp peaks in N(S) at
+                                                                                                           S = Fmin for fixed luminosity, and the small bin width in my
+                                                                                                           model luminosity functions. As a result the quadratic program-
+                                                                                                           ming algorithm can give an exact fit to the low flux counts
+                                                                                                           wherever N(S) is less steep than Euclidean. Thus the fairly
+                                                                                                           good value of x2 = 30 is obtained by a model which gives a
+                                                                                                           mediocre fit to the steep N(S) at high fluxes. However, even if I
+                                                                                                           assume every nonzero value of the luminosity function is a free
+                                                                                                           parameter, x2 = 30 with 12 degrees of freedom occurs 0.3% of
+                                                                                                           the time from statistical fluctuations alone, which is similar to a
+                                                                                                           3 a fluctuation.
+                                                                                                              My interpretation of these results is that the fit to the source
+                                                                                                           counts is marginally acceptable for 0.1 < a < 0.4. Wall et al,
+                                                                                                           using a five-parameter evolving luminosity function in the
+                                                                                                           standard big bang cosmology, obtained x2 = 23.8, which is
+                                                                                                           somewhat better than the best chronométrie model, and do not
+                                                                                                           require unrealistic spectral indices. In an evolving model the
+                                                                                                           “K corrections” to fluxes implied by different values of the
+                                                                                                           spectral index can be absorbed into the luminosity evolution,
+                                                                                                           so the x2 of the fit is independent of the assumed spectral index.
+                                                                                                           Wall et al actually used a = 0.75. The observed spectral index
+                                     0.0          0.25              0.5          0.75          1.0         distribution of sources selected at 408 MHz has been measured
+                                                 SPECTRAL INDEX a                                          by Katgert (1976), who gives <a> = 0.79 ± 0.024 (sd of mean)
+                                                                                                           for sources brighter than 5.5 Jy at 408 MHz, and
+                            Fig. 3.—Goodness of fit /2 vs. spectral index a for chronométrie models of
+                         the 408 MHz radio source counts. The mean spectral index of 408 MHz               <a> = 0.87 ± 0.028 for a sample of 61 sources brighter than
+                         sources is marked. The Wall et al. evolving Friedmann model is also shown.        0.06 Jy. For these measured values of a the best fitting chrono-
+                                                                                                           métrie model gives x2 > 140 which is totally unacceptable.
+                            Figure 3 shows the result of this calculation. The effect pos-                    Considering radio samples with known spectral indices
+                         tulated by Segal can be seen as the x2 improves toward smaller                    makes the deficiency of the chronométrie model most evident.
+                         a. The best value of x2 is 30, obtained when a = 0.19. Since                      Machalski (1978) gives counts from the GB2 survey of sources
+                         there are 24 flux bins in the Wall et al data, this fit is accept-                with 408-1400 MHz spectral indices a > 1. This steep spec-
+                         able, if one ignores the number of parameters fitted to the data.                 trum sample shows an N(S) following
+                         The actual calculations had 40 free parameters, defining the                                                  N = N0S~ß ,                              (14)
+                         luminosity function over a 104 :1 range in luminosity; but the
+                         densities of only 12 bins were nonzero and truly free. Figure 4                    with ß = 1.90 + 0.11. Figure 1 shows that the chronométrie
+
+
+
+
+                                                                       0.01               0.1                1               10                100
+                                                                                                         Flux (Jy)
+                           Fig. 4.—Chronometrie model fits compared with 408 MHz source counts.  -1 5
+                                                                                                     Top: a = 0.75, y1 = 136. Middle: a = 0.19, y1 = 30. Bottom: a = —0.06, y2 = 124.
+                         Models and data have been normalized to a Euclidean N(S) law, N0 = 1200S ’ .
+
+
+
+                                      © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1987ApJ. . .313. .551W
+                         554                                                                        WRIGHT                                                                        Vol. 313
+                         model will have /? < 1.5 for a > 1, so the chronométrie model                        in the SLS luminosity function would have m = 15.5 at z = 0.1,
+                         fails by 3.6 a. For flat spectrum sources with a < 0.5, which                        so SLS could predict an infinitely steep N(S) with no bright
+                         could have ß > 1.5 in the chronométrie model, Machalski finds                        quasars at all. Thus when SLS conclude that the chronométrie
+                         that ß = 1.36 ± 0.09. Thus the chronométrie cosmology                                theory fits the quasar counts, this conclusion is not a conse-
+                         cannot explain the observed steepness of the steep spectrum                          quence of their theoretical discussion, but rather a side effect of
+                         source counts. It could explain a steep N(S) law for flat spec-                      the apparently innocuous parameter zv Introducing a lower
+                         trum sources, but this is not observed.                                              limit to redshifts will produce a steep N(S) law in any theory
+                                                                                                              where flux is anticorrelated with redshift: for example, the N(S)
+                                              IV. OPTICAL QSO COUNTS                                          law for galaxies with z > 0.1 is very steep near £ = 16, but this
+                            Since the N(S) curve for optical quasars is much steeper than                     is not a result of evolution.
+                         Euclidean, and is in fact steeper than the radio source counts,                         The use of a restricted redshift range by SLS is a very strong
+                         the limited ability of the chronométrie cosmology to give steep                      assumption in the chronométrie cosmology. For a fixed absol-
+                         source counts is quite inadequate to explain quasar counts.                          ute magnitude, the total range of apparent magnitudes in the
+                         Figure 5 shows the quasar counts of Koo and Kron (1982),                             redshift range 0.1 < z < 4 considered by Segal and Nicoll
+                         normalized to a Euclidean law with two quasars per square                           (1986) is only 1.62 mag for a = 0.5, and only 1.31 mag for
+                         degree brighter than 18th magnitude. The counts for bright                           a = 0.15. Contrast this with an Q = 1 Friedmann model which
+                         quasars were read from Figure 7 in Koo and Kron, as was the                         gives a range of 8.66 mag. Thus by limiting the redshift range,
+                         luminosity evolution model of Braccesi et al. (1980). However,                       Segal and Nicoll destroy the power of the N(S) test, because
+                         the points for £ < 16 are from Schmidt and Green (1983),                            apparently faint quasars must be intrinsically faint, while
+                         and the Green and Schmidt (1978) point has been replaced by                         apparently bright quasars must be intrinsically luminous, and
+                         two bins taken from Table 2 of Schmidt and Green (1983),                            an arbitrary N(S) can be fitted by adjusting the luminosity
+                         using the counts for all objects, not the sample restricted to                      function. But the calculations in this paper show that a large
+                         Mb< —23. By analyzing just the N(S) curve for quasars                               number of bright quasars with z < 0.1 are predicted by any
+                         without using their redshifts, the radio source count calcu-                        chronométrie model that matches the quasar counts at 18th-
+                         lation can be used without modification. But now the best fit,                       19th magnitude. Figure 6 shows a comparison of the Segal and
+                         which is obtained with a = 0.15, gives x2 = 69 for 15 degrees of                    Nicoll model (the extended RLF from their Table 7) with the
+                         freedom, which is quite unacceptable. This best fitting chrono-                     quasar count data. To make this plot I have used a = 0.5, and
+                         métrie model is plotted in Figure 5, and it is unable to match                      adjusted the count and flux normalization to best fit the peak
+                         the observed N(S).                                                                  and the sharp drop. By requiring z > 0.1 Segal and Nicoll get a
+                                                                                                             fair fit over the range from 15.5th to 19th magnitude, and could
+                                                   v. DISCUSSION                                             fit all the data with a more extended luminosity function. But
+                            My conclusions about quasar counts in the chronométrie                           the predicted counts from the same model without the redshift
+                         cosmology are completely different from those reached by SLS                        restriction are 10 times higher than the observed counts at the
+                         and Segal and Nicoll (1986), and it is important to examine the                     bright end.
+                         causes of this disagreement. SLS present the theory of number                           Certainly some correction for the resolution of low redshift
+                         counts in the chronométrie cosmology in their § II, and explain                     quasars into AT galaxies and/or Seyferts must be made, but the
+                         the steepening of the number counts near Fmin, in a manner                          redshift cutoff used by SLS does not match the de facto defini-
+                         that is completely consistent with this paper. However, in § III,                   tion based on a stellar appearance on the POSS. Half the
+                         “ Empirical Comparison,” SLS introduce a lower limit to red-                        quasars with £ < 15.4 in the Schmidt and Green (1983) sample
+                         shifts, z > zx =0.1, which is the actual reason their calculated                    have z < 0.1. On the other hand, there is no difficulty in dis-
+                         N(S) is steep at high fluxes. In fact, the most luminous quasar                     tinguishing galaxies from stellar objects down to 18th magni-
+
+
+
+
+                                                                                                        B or J
+                               Fig. 5.—Model fits compared to optical quasar counts. LEM : luminosity evolution model of Braccesi et ai ; a = 0AS : best fitting chronométrie model.
+
+
+
+
+                                      © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1987ApJ. . .313 . .55IW
+                          No. 2, 1987                                SOURCE COUNTS IN CHRONOMETRIC COSMOLOGY                                                                        555
+
+
+
+
+                                                                                                         B or J
+                             Fig. 6.—Segal and Nicoll model compared to quasar counts: with redshift restricted to z > 0.1 (solid curve), and the same model with no redshift restriction
+                          (dashed curve).
+
+                          tude on the POSS. Thus the abrupt redshift cutoff used by SLS                       these slightly nebulous sources would make the quasar counts
+                          rejects some true quasars and passes some true galaxies. The                        even steeper, and the fit to the chronométrie model even worse.
+                          proper selection model would require a minimum difference
+                          between the magnitude of the nucleus and the magnitude of the                                                VI. CONCLUSIONS
+                          underlying galaxy before accepting the nucleus as a quasar,                            Segal’s chronométrie cosmology provides an adequate fit to
+                          and if this difference were independent of the magnitude of the                     the radio source counts only for an unrealistic choice of spec-
+                          galaxy then no redshift or magnitude-dependent correction to                        tral index. Since the typical observed spectral index of 0.75
+                          the counts would be needed. The analysis by Yee (1983) of the                       gives a completely unacceptable x2 = 136 with 24 (or fewer)
+                          ratio of the nuclear luminosity LN to the galaxy luminosity LG                      degrees of freedom, I conclude that the actual universe does
+                          in Markarian galaxies shows that LN/LG < 1, while the study                         not fit the chronométrie model. Counts of ultraviolet excess
+                          by Gehren et al (1984) of fuzz around low redshift quasars                          quasi-stellar objects also show a steep N(S) curve that the chro-
+                          shows that LN/LG > 1 for most quasars, and finds no trend of                        nométrie cosmology cannot explain. Claims to the contrary by
+                          Ln/Lg with redshift. Thus it appears that a stellar appearance                      Segal, Epncaric, and Segal (1980) and Segal and Nicoll (1986)
+                          on the POSS requires LN/LG > 1 independent of redshift, so                          depend on a seemingly innocuous assumption that in fact
+                          the resolution correction to quasar counts is negligible, and the                   destroys the power of the N(S) test. Even though the chrono-
+                          results presented above eliminate the chronométrie theory as a                      métrie model gives a better fit than other nonevolving models
+                          possible model of the universe.                                                     (such as the steady state, the tired light model of LaViolette
+                              Schmidt and Green used a model-dependent luminosity                             1986, or a nonevolving Friedmann model), it must be ruled out
+                          cutoff, Mb < — 23, to define quasars, but I have analyzed their                     along with all nonevolving cosmologies.
+                          total sample without this cutoff Some of these objects show
+                          associated nebulosity on the POSS: 50% of the objects with                            This work was supported in part by grant number NAG2-
+                          J3 < 15, and 14% of those with 15.4 < 5 < 15. Eliminating                           315 from the NASA Ames Research Center.
+
+
+                          Braccesi, A., Zitelli, V., Bonoli, F., and Formiggini, L. 1980, Astr. Ap., 85,80.   Schmidt, M., and Green, R. F., 1983, Ap. J., 269, 352.
+                          Gehren, T., Fried, J., Wehinger, P. A., and Wyckoff, S. 1984, Ap. J, 278,11.        Segal, I. E. 1976, Mathematical Cosmology and Extragalactic Astronomy (New
+                          Katgert, P. 1976, Astr. Ap., 49,221.                                                  York: Academic).
+                          Koo, D. C, and Krön, R. G. 1982, Astr. Ap., 105,107.                                Segal, I. E., Loncaric, J., and Segal, W. 1980, Ap. J., 239, 38.
+                          LaViolette, P. A. 1986, Ap. J., 301, 544.                                           Segal, I. E., and Nicoll, J. F. 1986, Ap. J., 300,224.
+                          Machalski, J. 1978, Astr. Ap., 65,157.                                              Wall, J. V., Pearson, T. J., and Longair, M. S. 1980, M.N.R.A.S., 193,683.
+                          Marshall, H. L., Avni, Y., Braccesi, A., Huchra, J. P., Tananbaum, H., Zamo-        Yee, H. C. 1983, Ap. J., 272,473.
+                            rani, G., and Zitelli, Z. 1984, Ap. J., 283,50.
+
+
+                          Edward L. Wright: UCLA Department of Astronomy, Los Angeles, CA 90024
+
+
+
+
+                                        © American Astronomical Society • Provided by the NASA Astrophysics Data System
+

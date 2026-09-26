@@ -1,0 +1,1090 @@
+                                                      The Cosmic Microwave Background Spectrum
+                                                          from the Full COBE1 FIRAS Data Set
+
+
+                                       Submitted to the Astrophysical Journal                                     astro-ph/9605054
+
+
+
+
+arXiv:astro-ph/9605054v1 10 May 1996
+                                       D. J. Fixsen1 , E. S. Cheng2 , J. M. Gales1 , J. C. Mather2 , R. A. Shafer2 , and E. L. Wright3
+
+
+                                                  Received                          ;   accepted
+
+
+
+
+                                          1
+                                              The National Aeronautics and Space Administration/Goddard Space Flight Center
+                                       (NASA/GSFC) is responsible for the design, development, and operation of the Cosmic
+                                       Background Explorer (COBE). Scientific guidance is provided by the COBE Science Working
+                                       Group. GSFC is also responsible for the development of the analysis software and for the
+                                       production of the mission data sets.
+                                          1
+                                              Applied Research Corporation, Code 685.3, NASA/GSFC, Greenbelt MD 20771
+                                          2
+                                              NASA Goddard Space Flight Center, Code 685, Greenbelt MD 20771
+                                          3
+                                              UCLA Physics and Astronomy, PO Box 951562, Los Angeles CA 90095-1562
+                                     –2–
+
+
+                                ABSTRACT
+
+
+   We have refined the analysis of the data from the FIRAS (Far InfraRed
+Absolute Spectrophotometer) on board the COBE (COsmic Background
+Explorer). The FIRAS measures the difference between the cosmic microwave
+background and a precise blackbody spectrum. We find new tighter upper
+limits on general deviations from a blackbody spectrum. The RMS deviations
+are less than 50 parts per million of the peak of the CMBR. For the
+Comptonization and chemical potential we find |y| <15 × 10−6 and
+|µ| <9 × 10−5 (95% CL). There are also refinements in the absolute
+temperature, 2.728 ± 0.004 K (95% CL), and dipole direction,
+(ℓ, b) = (264.14◦ ± 0.30, 48.26◦ ± 0.30) (95% CL), and amplitude, 3.372 ± 0.007
+mK (95% CL). All of these results agree with our previous publications.
+
+
+
+Subject headings: cosmology: cosmic microwave background — cosmology:
+observations
+                                             –3–
+
+
+                                     1.   Introduction
+
+
+
+The FIRAS (Far Infrared Absolute Spectrophotometer) instrument aboard the COBE
+(COsmic Background Explorer) satellite (Boggess et al. 1992 and references therein;
+Bennett et al. 1992a) was designed to measure the spectrum of the cosmic microwave
+background radiation (CMBR). In the simple hot Big Bang model the spectrum has a
+blackbody form, but it could be distorted by energy release after a redshift z ∼ 3 × 106
+(Peebles 1971, Sunyaev & Zel’dovich 1980). After the annihilation of positrons and the
+decoupling of neutrinos until z ∼ 3 × 104 , the CMBR was the dominant energy field. The
+number of photons exceeds the number of baryons by a factor ∼ 109 , so excellent
+sensitivity is required to detect even large radiant energy releases.
+
+Spectral distortion limits from the FIRAS were presented by Mather et al. (1994). These
+were based on ∼ 40 days of high Galactic latitude data from a single detector and scan
+mode. The dipole spectrum was also determined (Fixsen et al. 1994a) from this single
+detector. Wright et al. (1994) found that the spectrum and dipole are consistent with a
+simple Big Bang model.
+
+All of the previous work in this frequency range (2 to 21 cm−1 ) was based on part of the
+data from a single detector. This paper uses all of the low frequency data from the 10
+month mission, except for the first month when settings were frequently readjusted to
+reach the optimum condition, approximately doubling the statistical weight of the results.
+There have been several improvements in the calibration that we note, but the basic
+calibration process remains the same.
+
+The instrument was recalibrated using the method described in Fixsen et al. (1994b). The
+calibration was applied to the sky data, producing spectra from 2 to 21 cm−1 (5000 to 480
+µm). Five important improvements were made to the calibration: (1) a bias in some pixels
+                                             –4–
+
+
+is corrected; (2) insufficiently sampled pixels “borrow” data from neighboring pixels to
+determine a template for deglitching (removing effects of cosmic ray hits on the detector);
+(3) data with a large number of glitches (cosmic ray hits) are deweighted relative to data
+with few glitches; (4) we use 320 points in the spectrum rather than 256; and (5) the data
+are “destriped” after the calibration. Each of these processes is described in more detail
+below.
+
+
+
+
+                     2.    Instrument Design, Operation and Data
+
+
+
+The FIRAS is a polarizing Michelson interferometer, described by Mather et al. (1990,
+1993). It measures the spectral difference between a 7◦ patch of sky and an internal
+blackbody. The symmetric FIRAS optics are differential, with two input and two output
+ports. One input port receives emission from the sky, defined by a non-imaging
+concentrator. The other input port receives emission from an internal reference calibrator
+(emissivity ≈ 0.98) with an associated concentrator. Each of the two output beams
+(arbitrarily labeled “left” and “right”) is split by a dichroic filter into low and high
+frequency beams, separated at 20 cm−1 , feeding four silicon composite bolometer detectors
+operated simultaneously.
+
+An external blackbody calibrator provides the critical absolute calibration. The other
+elements are operated in the same manner while taking sky data or calibration data so the
+only requirement on them is that they be repeatable. Although we verify that the
+emissivities of the concentrators and internal calibrator are reasonable, the fundamental
+comparison is between the sky and the external calibrator. During calibration the sky
+aperture is completely filled by the external calibrator with an emissivity > 0.99997,
+calculated and measured. The external calibrator is isothermal to better than 1 mK at 2.7
+                                                 –5–
+
+
+K according to calculation. During calibration the sky acts as a back drop to the external
+calibrator, so residual transmission is still nearly 2.73 K radiation. Most of the radiation
+reflected by the external calibrator was originally emitted by it and then returned by
+reflection within the concentrator, contributing to the effective emissivity. The next largest
+source of incident radiation towards the calibrator is the emission from the concentrator
+but this is also at 2.7 K and thus introduces negligible error. The only important sources of
+radiation on the calibrator not at 2.7 K are the detector at 1.65 K and the general
+instrument at ∼1.5 K. The measured and calculated reflectance of the calibrator for this
+radiation is < 3 × 10−5 at 1 cm−1 and diminishes rapidly with frequency. Thus the
+spectrum uncertainty of the FIRAS instrument due to the external calibrator is
+approximately 10 parts per million. The full story of the external calibrator will be covered
+in a future paper.
+
+The temperatures of the two calibrators and associated concentrators are controllable from
+2 to 25 K. Redundant thermometers measure the temperatures of these four temperature
+controlled elements and other infrared emitters such as the moving mirrors, the mechanical
+structure, and the detector housings. When observing the sky, the spectrometer is operated
+with its output nearly nulled, by adjusting the internal calibrator temperature. This
+reduces sensitivity to gain errors and instrument drifts.
+
+The path difference x between the two arms of the interferometer is varied by scanning a
+pair of mirrors at a constant velocity. This motion produces a modulated power P (x) at
+the output ports. P (x) is approximately the cosine transform of the net power
+
+                               1
+                                   Z ∞         X
+                       P (x) ≈           dν            Ei (ν)Si (ν) cos(2πν x),             (1)
+                               2   0
+                                              inputs
+where Ei is the effective instrument étendue for each emitting element, Si is the spectral
+intensity of each emitter, and ν is the frequency in cm−1 . The principal inputs are the sky
+(or external calibrator) and the internal calibrator, which are 180◦ out of phase and thus
+                                             –6–
+
+
+enter into Eqn. 1 with opposite signs. Each of the outputs of the interferometer also
+receives emission from other components of the instrument.
+
+The mirrors are scanned at one of two velocities (“slow” and “fast”), and over one of two
+lengths (“short” and “long”). An insignificant amount of data was taken in the long slow
+mode so there are 12 data sets (4 detectors at each of 3 scan modes). The long data (up to
+5.9 cm excursion) were truncated to match the short data (with maximum 1.2 cm
+excursion) for this analysis. In retrospect perhaps all of the data should have been taken in
+the short slow mode but at the launch of COBE the detailed nature of the CMBR was not
+as clear as it is now. The use of two velocities allows clear separation of some instrument
+effects (eg. vibration) from optical or sky effects.
+
+Although the high frequency (>20 cm−1 ) radiation was effectively excluded from the low
+frequency detectors, the filter reflected low frequency radiation into the high frequency
+detectors. We do not use the 6 high frequency data sets as the calibration for these is more
+susceptible to systematic error. The detectors do not have equal noise. Thus even though
+we include 5 additional data sets we only double the statistical weight of the “left low short
+slow” data set used in the previous publications.
+
+The FIRAS points ≈ 94◦ from the Sun and away from the Earth as the COBE orbits the
+Earth with a period of 103 minutes. The orbit plane is maintained approximately
+perpendicular to the direction to the Sun. This scan pattern concentrates the observing
+time near the ecliptic poles. We divide the sky into 6144 equal area pixels according to a
+quadrilateralized spherical cube representation (O’Neill and Laubscher 1976). Each pixel
+has ∼ 0.2 of the beam area.
+
+
+
+
+                                    3.   Data Reduction
+                                              –7–
+
+
+The data are sorted, “deglitched”, averaged, calibrated, averaged again and “destriped” by
+a series of programs. At each step variance is calculated and statistics of the results
+checked. The final result is a map of 6144 pixels (76 are unobserved) with a spectrum at
+each pixel.
+
+
+
+
+                                       3.1.    Sorting
+
+
+
+A total of 1411829 good (free from transmission errors) 512 point sky interferograms were
+received. Approximately 20% of the sky data is rejected for various conditions (eg. sky
+horn temperature, high noise, bolometer temperature too high etc). After sorting into the
+12 data sets, 11 mission periods, 6114 pixels, and several instrument states the remaining
+1138149 interferograms are sorted into 272525 groups with an average of ∼ 4
+interferograms per group or coadd. There are an average of 187 interferograms per pixel
+corresponding to an integration time of ∼ 30 minutes.
+
+In the first part of the mission, the calibrator was commanded into the horn approximately
+2 days each month. However for the last 6 weeks of the mission the calibrator was
+commanded into the horn approximately 3 days each week. Thus approximately 10% of
+the data set is calibration data.
+
+There are 149260 calibration interferograms. Approximately 10% of the calibration
+interferograms are rejected. The fraction is lower for the calibration data because it was
+primarily collected near the end of the mission when we had more experience operating
+FIRAS. The remaining 134739 interferograms are sorted into 3028 coadds with an average
+of 44 interferograms per coadd. The calibration coadds are larger because they are not
+divided into pixels. The maximum size coadd is arbitrarily set at 100.
+                                              –8–
+
+
+                                      3.2.    Deglitching
+
+
+A robust estimate of each coadd average is formed at each point in the interferogram, to
+aid in recognizing glitches. This average is subtracted from each interferogram to yield a
+“noise” interferogram. The individual interferograms are “deglitched” using a modified
+“CLEAN” algorithm (Isaacman et al. 1992). The glitches are recognized by their shape
+which is due to the bolometer and amplifier response to a delta function. Glitches are
+probably due to cosmic particle hits on the detectors so they are not correlated to the
+position of the mirrors. Thus they add only noise. In the raw data most of the noise is in
+the glitches so deglitching is critical to the noise.
+
+We average the center half of the data to form a robust template. In the case of 4n
+interferograms, the top n points and the bottom n points are discarded and the remaining
+2n points are averaged. In the case of 4n + 1 or 4n − 1 interferograms the top n points and
+bottom n points are discarded leaving 2n + 1 or 2n − 1 to be averaged. While this is not
+exactly the center half, it is close and there is no bias. In the case of 4n + 2 interferograms
+our previous analysis ignored the bottom n + 1 points and the top n leaving 2n + 1 points
+to be averaged.
+
+Clearly this biases the template, but a simple bias in the interferogram domain leads to
+only a DC term in the spectral domain, and the DC term (zero frequency) is not used.
+Since both sky and calibration observations are broad band features, the central peak of
+the interferogram has most of the signal and hence some real signal. This extra signal
+causes the “CLEAN” algorithm to infer extra “glitches” at the peak only. In the unbiased
+case this regresses the data towards the mean, which is a robust average of the group so
+this is not a problem. In the case where the template is biased this induces a small
+deviation in the interferogram, which becomes a small amplitude wide band distortion in
+the spectrum. This is not enough by itself to cause a problem, because the calibration data
+                                             –9–
+
+
+use the same procedure and thus suffer the same distortion. However, the calibration data
+are collected in large groups, while the sky coadds form small groups, as the sky data are
+scattered over many pixels. This bias appeared most pronounced in the sky data using
+only six interferograms.
+
+To fix this bias, we changed the template for the case with 4n + 2 interferograms to discard
+the bottom n points and the top n points. The top point and bottom point of the
+remaining 2n + 2 points are included in the average with the other 2n points but with only
+half the weight as a better approximation to the average of the center half.
+
+For groups with fewer than eight interferograms, we included interferograms from
+neighboring pixels (up to 8 total) to form the robust estimate for deglitching only. If there
+were a sufficient number of interferograms (8 or more) we did not use neighboring pixels.
+After the data were deglitched the interferograms from the original pixel were averaged like
+the other groups. This borrowing of neighboring interferograms allows us to deglitch data
+where there are only a few interferograms in a group. This allows us to add an additional
+15% of the data and closes many of the gaps that are otherwise unobserved. We checked
+this procedure to verify that it did not introduce biases. The noise in a single interferogram
+is high so it is possible to use data from a neighboring pixel to approximate the original
+data. The neighboring pixels are sampled by the beam which is almost 3 pixels across and
+there is little gradient in most of the sky so the actual signal difference is small. We
+selected the closest interferograms (in angle) from neighboring pixels from the same time
+period and at the same Galactic latitude for |b| < 20◦ .
+
+The same result is obtained when we exclude the data using neighboring pixels. We also
+compared directly the spectra with and without using neighbors in the deglitching. Finally
+we compared the spectra with and without using neighbors in the high frequency Galactic
+plane data. This is a more sensitive test, because the Galaxy exhibits high gradients and
+                                            – 10 –
+
+
+sharper spectral features. In all cases the differences were consistent with the expected
+random noise.
+
+The other features of the deglitching remain as in the previous work (see Isaacman et al.
+1992). As in the previous calibration in some cases a second template was subtracted to
+allow for gradients across a pixel and the “CLEAN” procedure was iterated.
+
+
+
+
+                               3.3.   Variance Estimation
+
+
+Each interferogram is assigned a statistical weight before averaging. We estimate the
+variance as a function of glitch rate (or glitch number, as the duration of all interferograms
+is the same for a given scan mode). This is modeled as V = a + bg, where V is the variance,
+g is the glitch rate and a and b are parameters fit for each detector and scan mode. From
+the deglitching there are estimates of the variance for each of the 272525 coadds. These
+variance estimates are fit to V = a + bg for each detector and scan mode. The weight is
+then modeled as 1/(a + bg). Although the group estimated variances, v, are not biased, a
+weight, which is the inverse of the variance, is biased high by the presence of fluctuations.
+hwesti = h1/vi > 1/hvi = hwtrue i. This is particularly important (25% effect) for the small
+coadds of the sky but it is also significant for the larger coadds of the calibration data. To
+minimize this bias we use an entire data set to fit for a and b rather than the variance of a
+single group to estimate variance and weight. Typically 25 glitches halves the weight, and
+there are typically 15 glitches in each interferogram. The weighted average interferogram is
+calculated and converted to a spectrum by apodization, zero padding, and Fourier
+transformation. The total weight of the coadd is carried along as a weight of the spectrum.
+
+The weighted average of the covariance at each frequency was estimated for each detector
+and scan mode using the dispersion of these weighted spectra. This variance was used in
+                                              – 11 –
+
+
+following calculations to compute the statistical weights. When fitting in the frequency
+domain we need to include the correlation effects. We use the inverse of the covariance
+matrix to weight the data. The covariance between frequencies is well approximated by
+Cνν ′ = σν σν ′ Q(|ν − ν ′ |). The expression |ν − ν ′ | can take on the values (0,0.4538,...,19.06)
+for which Q takes on the values (1.000, 0.176,−0.203, 0.145, 0.077,−0.005,−0.022, 0.032,
+0.053, 0.025,−0.003, 0.007, 0.029, 0.029, 0.003,−0.002, 0.016, 0.020, 0.011, 0.002, 0.007,
+0.011, 0.009, 0.003,−0.004,−0.001, 0.003, 0.003,−0.001,−0.003, 0.000, 0.003, 0.009, 0.015,
+0.008, 0.003,−0.002, 0.000,−0.006,−0.006, 0.000, 0.002, 0.008). The values for σ are in
+Table 3 for the dipole and in Table 4 for the CMBR spectrum.
+
+The covariance matrix could also be calculated analytically by propagating delta functions
+through the apodization, Fourier transform, and calibration process. These generally agree
+but there are parameters of the electronic filters, effects of self apodization, and effects of
+the deglitching which complicate the calculation so we use the estimated covariance matrix.
+
+
+
+
+                                       3.4.   Calibration
+
+
+The Fixsen et al. (1994b) calibration procedure was used. This includes ∼ 3000
+parameters for each detector and scan mode. Some of the parameters are nonlinear and the
+process involves considerable computation. For a more detailed description see Fixsen et al.
+(1994b). Here we will only address the changes in that procedure. Rather than weighting
+according to the variance of each spectrum at each frequency, we used the mission average
+for the noise spectrum shape (dependence on frequency) for each type of spectrum
+(particular setting of temperatures) and the glitch weighting to scale the noise of each
+coadd.
+
+The Nyquist frequency (set by the sampling rate) is 145.212 cm−1 . Our use of a 320 point
+                                            – 12 –
+
+
+spectrum leaves 43 significant elements in the 2 to 21 cm−1 frequency range. The excursion
+of the mirrors is not symmetric with about 1.2 cm in one direction and 0.5 cm in the other.
+Thus there is information down to 0.4 cm−1 rather than only to 0.56 cm−1 . By zero
+padding the short end of the interferogram out to a total of 640 points, we can use more of
+the information from the Fourier transform which otherwise winds up in the imaginary
+part of the spectrum. The resulting real elements are not independent but our analyses
+include correlation effects.
+
+The truncated long and short interferograms are calibrated together. There are eight data
+sets or “channels” (4 detectors × 2 speeds). The data taken with the external calibrator in
+the input aperture were used to construct a calibration model for each channel. Each
+model includes 7 parameters to describe the bolometer, 2 parameters for the J-FET
+amplifier, 6 parameters for the spectrometer and 5 parameters for the unwanted vibrations.
+The model is nonlinear in these parameters. The temperature of each of the four
+“controllables” and an overall time shift for each coadd are also parameters of the fit, with
+constraints consistent with the thermometer readout noise (temperature dependent). The
+model is almost linear in these parameters. A complex number at each frequency
+parameterizes the emission from each of seven sources: internal and external calibrators,
+sky and reference concentrators, mirrors, structure, and bolometer housing, with the
+Kirchhoff constraint that they sum to zero. The model is linear in these parameters. The
+complex number for the external calibrator is identified as the transfer function, as the
+external calibrator is black and fills the beam.
+
+The χ2 for the calibration for each channel is given in Table 1. Excess χ2 indicates an
+imperfect model of the bolometer and vibration, and other possible errors. The imperfect
+bolometer model is also indicated by preflight data on the bolometers alone. The χ2 /DOF
+for the cold null, sky-like coadds are much closer to unity. This is expected because the hot
+                                            – 13 –
+
+
+calibrations stress the model much more than the near null sky conditions.
+
+The fitted calibration models are then applied to both the sky and calibration spectra,
+resulting in a sky coadds and calibration coadds in absolute flux units. After calibration
+the sky spectra are adjusted to the Solar System barycenter to account for the Earth’s
+orbital velocity around the Sun, which would otherwise be readily detectable as an
+additional variable dipole of amplitude 0.3 mK. Although this further correlates the data,
+the correlation effect is negligible since the Earth’s velocity around the Sun is ∼ 10−4 c.
+
+
+
+
+                                     3.5.    Destriping
+
+
+After the barycenter corrected coadds were produced, a linear fit was made to the sky and
+calibration coadds from all four low frequency channels at each frequency. The fit includes
+14 time dependent templates, 4 temperature templates, and a parameter for the sky
+emission at each pixel and frequency. Thus 18 stripe parameters and 6068 fluxes are used
+to fit ∼ 100000 coadds separately at each frequency. By simultaneously fitting all of the
+data sets with a single “best” sky and a photometric model, we get the maximum amount
+of cross checking on each data set. By simultaneously fitting the calibration data we
+effectively recalibrate the data, get the best sky signal, and get a covariance matrix to
+measure the correlations we have introduced by this process. The χ2 for this fitting is
+shown in Fig. 1.
+
+The templates consist of two global decaying exponentials with time constants of 61 and
+153 days, and step functions for three time periods for each of the four channels. The
+exponentials were included because an exponential-like decay was seen in the data, both in
+the sky data and in the calibration data (Fixsen et al. 1994b). The cause of this is not
+known but it is seen in all of the detectors and scan modes. The time period templates
+                                            – 14 –
+
+
+were unity during a certain period and zero at other times. Two of the periods were when
+the concentrator temperatures were raised to 6K and 4K respectively. The third period
+covers the rest of the time when the concentrator temperatures were 2.73K. The transition
+between these periods was very short and not used. The temperature of the dihedral
+mirrors was also used as a template because parts of the instrument had temperature
+fluctuations of ∼ 2 K, correlated with the dihedral mirror temperature. We use a separate
+model for each channel because the higher temperatures may have different effects on the
+different detectors. The calibration corrected for these, but there is uncertainty in the
+correction. We reduce the residual uncertainty by using the more abundant sky data to
+determine the corrections.
+
+
+
+
+                          4.   The FIRAS Temperature scale
+
+
+Mather et al. (1994) gave the absolute temperature of the CMBR as 2.726 ± 0.010 K,
+with a conservative systematic uncertainty estimate. They noted a discrepancy between
+the thermometers and the color temperature scale. We have accounted for most of the
+discrepancy by using the low frequency lines to calibrate the frequency scale rather than
+the high frequency scale. Since the uncertainty in going from the FIRAS temperature scale
+to the CMBR temperature scale in only a few µK we discuss them together. Only the
+absolute temperature of the external calibrator is an issue since the other parts of the
+instrument only need to be stable. There are three ways of determining the CMBR
+temperature from the FIRAS data set:
+
+
+  1. We use the preflight calibration of the external calibrator thermometers, which
+     should be good to the nominal 1 mK accuracy of the calibration specification. The
+     task is quite simple since there exist substantial calibration data with the external
+                                        – 15 –
+
+
+  calibrator at 2.73 K and other temperatures near the sky conditions. This gives a
+  CMBR temperature of 2.730 ± 0.001 K, with the error entirely dominated by the
+  absolute thermometry calibration error on the external calibrator. The main
+  difficulty with this is that there is evidence that the internal calibrator thermometry
+  has errors of ∼ 3 mK and that the thermometer at the tip of the external calibrator
+  differs from the other two by 3 mK (at 2.73 K). There is some evidence from testing
+  the alternate calibrators on the ground that both of these problems may be due to
+  insufficient thermal contact for the thermometers embedded in epoxy at the tip, and
+  that the two thermometers on the external calibrator fixed to the copper base ring
+  should not have this problem. These were used in estimating the external calibrator
+  temperature and the tip temperature is not used.
+
+2. We use the calibration data to determine the temperature scale. This effectively uses
+  the “color” to determine the temperature and so depends on the frequency
+  determination. We have improved the frequency determination of the FIRAS (see
+  Fig 2). While Mather et al. (1994) use the C+ (63 cm−1 ) and N+ (49 cm−1 ) lines, we
+  note the possibility that the high frequency calibration and the low frequency
+  calibration need not agree. A discrepancy can arise because the beam in the
+  interferometer has divergence (5.5◦ HWHM on average) which because of the cosine
+  effect implies a 0.5% frequency shift. However the beam profile of the high frequency
+  light may be more strongly attenuated than the beam profile of the low frequency
+  data. To improve the frequency scale we used a combination of CO and C+ lines
+  (7.69, 11.53, 15.38, and 16.42 cm−1 ) to make our low frequency determination to
+  ±0.03%. The difference between the high frequency and low frequency scales implies
+  a difference of 1◦ in average beam divergence. The 0.03% frequency uncertainty
+  implies a temperature uncertainty of 0.82 mK. There is an additional 0.2 mK error in
+  determining the color temperature once the frequency scale is set, but as this adds in
+                                              – 16 –
+
+
+      quadrature it is negligible. The result of this analysis is that the CMBR temperature
+      is 2.7255 ± 0.0009 K.
+
+  3. We can also use the CMBR itself. If we assume the dipole is a result of a Doppler
+      shift the shape of the differential spectrum should be dBν /dT , where Bν (T ) is the
+      Planck function. The best fit temperature to the dipole spectrum (see below) is a
+      CMBR temperature of 2.717 ± 0.007 K. This result depends on a differential spectrum
+      so offsets of the instrument calibration do not matter. Since the measurements are
+      taken 50 minutes apart (on opposite sides of the orbit), long term drifts (of the sort
+      we see and correct for) also do not matter. This measurement is not completely
+      independent because it still depends on the frequency calibration. The uncertainty is
+      dominated by the uncertainty in fitting the Galaxy radiation which modulates the
+      dipole signal which is only 0.1% of the CMBR signal in the Rayleigh-Jeans region.
+
+
+These three methods give answers that are within three sigma. Apparently there are
+additional systematic errors in one or more of these methods. We conclude the absolute
+temperature of the CMBR is 2.728 ± 0.004 K (95% CL), entirely dominated by the
+systematic errors. While this is not a true statistical uncertainty it is a useful summary of
+the uncertainty in the result.
+
+
+
+
+                                 5.   Analysis of Sky Data
+
+
+The calibrated destriped sky spectra were then fit to four spatial templates. We use the
+FIRAS data to determine the spectra of the four components. We model the data
+S(ν; ℓ, b), where ℓ, b are Galactic coordinates and ν is frequency, as follows:
+
+              S(ν; ℓ, b) = I◦ (ν) + D(ℓ, b)d(ν) + G1 (ℓ, b)g1 (ν) + G2 (ℓ, b)g2 (ν) .         (2)
+                                            – 17 –
+
+
+The monopole is represented by the spectrum I◦ (ν); the dipole variation is represented by
+the spatial distribution D(ℓ, b) and the spectrum d(ν); and the Galactic emission is
+represented by one or two spatial distributions Gk (ℓ, b) and corresponding spectra gk (ν).
+The fit is made independently at each frequency, only the spatial variation is assumed.
+Each of the resulting spectra will be discussed and further modeled below. In all cases the
+uncertainties due to this template fit are propagated to the following analysis.
+
+To make this separation the functions D(ℓ, b) for the dipole and Gk (ℓ, b) for the Galactic
+emission must be specified. The dipole is D(ℓ, b) = cos(θ), where θ is the angle between the
+observation and the maximum of the dipole, (ℓ, b) = (264.26◦ , +48.22◦) (Bennett et al.
+1996).
+
+For Gk (ℓ, b) we tried several combinations of predictors. Five templates for G(ℓ, b) are:
+
+
+  1. A plane-parallel, csc |b| distribution. This is clearly an oversimplification of the
+     Galaxy, but our results are independent of the Galactic template used. This provides
+     strong evidence that our results are not contaminated by any inadequacy of the
+     model of the Galactic emission.
+
+  2. The spatial distribution of the total power received in the high frequency FIRAS
+     channel above 25 cm−1 . This is used under the assumption that the high frequency
+     (25 < ν < 80 cm−1 ) radiation is well correlated to the low frequency
+     (2 < ν < 21 cm−1 ) Galactic radiation. The high frequency channel is centered on
+     41 cm−1 with a 44 cm−1 effective bandwidth. Since the high and low frequency data
+     are taken simultaneously through the same concentrator there is little mismatch in
+     sky coverage and no need for beam convolution.
+
+  3. COBE DIRBE (Diffuse Infrared Background Experiment) 240 µm map, convolved to
+     FIRAS resolution. This has the advantage of being totally independent and low noise
+                                             – 18 –
+
+
+     but could suffer from beam convolution errors. The DIRBE resolution is ∼ 0.7◦ and
+     the FIRAS resolution is ∼ 7◦ .
+
+  4. COBE DIRBE 140 µm map, convolved to FIRAS resolution. This in combination
+     with the 240 µm allows adjustments for varying dust temperatures.
+
+  5. COBE DIRBE 100 µm map, convolved to FIRAS resolution. This has lower noise
+     than the 140 µm data but it is further afield in frequency and may be contaminated
+     by other effects (zodiacal emission).
+
+
+For Galaxy templates 2-5 we use the normalization hG(ℓ, b)i|b|>60◦ = 1.074, the natural
+normalization of the csc|b| model. The only effect of the normalization, of course, is to
+rescale the Galaxy spectrum. With this normalization the resulting Galaxy spectrum is the
+sky brightness near the Galactic poles.
+
+The principal fit for this paper uses the DIRBE 240 and DIRBE 140 combination for
+Gk (ℓ, b) and a 5◦ Galactic cut. There is a high χ2 “tail” (see Fig 1) so after the fit was
+made, pixels with a χ2 /DOF> 2 were removed. The fit was repeated with the remaining
+pixels and again pixels with a χ2 /DOF> 2 were removed.This process was repeated until
+the pixels removed formed a stable set. This removes 58 pixels.
+
+To investigate the sensitivity to these parameters many other fits were made. We also tried
+Galactic cuts of 0, 10, 15, 20, 30, and 40 degrees. We tried fits to subsets of the data. We
+also tried each of the five Galactic templates individually and the DIRBE 240 & DIRBE
+100, DIRBE 240 & high frequency FIRAS and high frequency FIRAS & DIRBE 140
+combinations. While one spatial Galactic template gives a reasonable result a proper
+combination of two templates greatly reduces the dependence on the Galactic cut. We also
+varied the χ2 /DOF cutoff from 1.3 to 3. For other Galactic models or other Galactic
+cutoffs of course different pixels were removed. In particular for single component Galactic
+                                             – 19 –
+
+
+models many pixels at low Galactic latitudes were removed.
+
+These other fits form a background “cloud” of solutions which test the result for systematic
+effects. We use the RMS deviation of a solution amongst these to estimate the size of the
+systematic uncertainties.
+
+The data are weighted according to the channel variance including glitch effects (see
+section 3.3). The spectra which are determined by the fit are the linear coefficients of the
+three or four spatial components discussed above, made independently at each frequency.
+The result can be viewed as three or four spectra, one for each spatial component. It is
+important to note that this fit makes no a priori assumptions about the forms of these
+spectra; only their spatial distribution is posited.
+
+
+
+
+                                 5.1.   Galactic Spectrum
+
+
+To get a single Galactic spectrum we add the Galactic spectra if there are more than one.
+The result is the average spectrum near the Galactic poles. The Galactic spectrum can be
+approximately fit by functions of the form ν n Bν (Tdust ). Wright et al. (1991) examined the
+FIRAS Galaxy spectrum and found that it was fit by n = 1.65 and Tdust = 23.3 K. The
+Galactic spectrum derived here, which is determined by high latitude Galactic data,
+produces a lower temperature, Tdust = 13 ± 1 K, with n fixed at 2 and an emissivity of
+∼ 10−4 at 60 cm−1 . With only the low frequency data used here we cannot fit for both n
+and the temperature. About half of temperature difference is due to the change in index
+from 1.65 to 2 and half from the change to the higher latitudes. Even emphasizing the high
+Galactic latitude regions the CO and C+ lines are still evident.
+
+When using the DIRBE 240 and DIRBE 140 templates to fit the Galactic radiation we
+note that the DIRBE 140 template produces a spectrum that is negative for all frequencies,
+                                            – 20 –
+
+
+however the strong correlation between DIRBE 240 and DIRBE 140 ensures that the sum
+is positive everywhere.
+
+The Galactic fit to csc |b| has more radiation at the Galactic poles than the fit to the other
+Galactic models, indicating that the Sun is in a local “hole” in the Galaxy. This local
+“hole” is approximately 2/3 as dense as a typical Galactic location.
+
+The dust can be modeled with other forms as well. Most of the information on the
+Galactic regions is at higher frequencies. A full discussion of the Galaxy requires the high
+frequency data (see Bennett 1994 and Reach 1995); here the Galactic radiation is treated
+as a contaminant of the CMBR.
+
+
+
+
+                                 5.2.   Dipole Spectrum
+
+
+We fit the dipole spectrum to the derivative of a Planck function Tamp dBν (Tcmbr )/dT where
+we fix Tcmbr =2.728 K and allow Tamp to vary. The best fit value of the dipole amplitude is
+Tamp = 3.369 mK ±0.004 mK. However the value is dependent on the Galactic cutoff and
+the Galaxy model. In our “cloud” of solutions we find an RMS variation of 0.006 mK.
+Adding this in quadrature gives an uncertainty of 0.007 mK. We also make a 0.003 mK
+correction for the finite beamsize, which is approximately 7◦ FWHM. The result is
+summarized in Table 2. This amplitude of the dipole is in agreement with 3.353 ± .024 mK
+measured by the COBE DMR (Bennett et al. 1996), derived from observations at 1.05,
+1.77, and 3.00 cm−1 . The DMR beam is also approximately 7◦ but the details of the beam
+patterns are different. We do not include possible effects of the octupole and higher
+harmonics although because of our nonuniform sky coverage these might perturb our
+result. Bennett et al. 1996 includes these effects.
+
+The the dipole spectrum and the fitted Planck derivative are shown in Figure 3 and in
+                                             – 21 –
+
+                                    qP
+                                             ∆ν 2 P 1
+Table 3. The weighted deviations,        ν ( σν ) / ν σν2 , from the blackbody derivative dipole
+
+spectrum are 14 kJy/sr rms, smaller than the deviations of the monopole from its fitted
+blackbody, primarily because it is less susceptible to systematic errors.
+
+By choosing the monopole temperature as the point to evaluate dBν /dT , we have forced
+the dipole temperature to be that of the monopole. If we fit both Tamp and Tcmbr we obtain
+Tcmbr =2.717 K±0.003 K (1 σ statistical uncertainty). However the result is sensitive to the
+Galactic cut. We add a systematic uncertainty of 0.006 to account for this effect. This
+results in a final estimation of Tcmbr =2.717 K±0.007 K (1 σ combined uncertainty). The
+agreement of the dipole temperature with the monopole temperature is consistent with the
+conventional Doppler interpretation of the dipole. It is also a confirmation that the overall
+temperature scale and calibration for the FIRAS are consistent.
+
+We can also find the dipole direction from the FIRAS data with a different fit. Here we
+reverse the assumptions of the principal fit. We assume three spectra, a CMBR
+temperature and two Galactic dust optical depths, one for each of the spectra derived from
+the DIRBE templates in the principal fit, gk (ν), and fit for their intensities at each pixel.
+The CMBR temperature assumes a Planck spectrum. These spectra were chosen to match
+the shape of the spectrum in the data. This yields maps of the CMBR temperature and
+dust intensities. A monopole plus three dipole components are then fit to the resulting
+temperature map.
+
+The vector sum of the dipole coefficients points in the direction
+(ℓ, b) = (264.14◦ ± 0.15, 48.26◦ ± 0.15), consistent with the direction from the DMR results.
+Data for |b| < 10◦ were excluded from the dipole fit because of the potential inaccuracy of
+the model of the Galaxy. The direction is particularly sensitive to the galaxy because it is
+almost orthogonal to the direction to the Galactic center. Galactic variations in spectral
+shape as a function of longitude couple into the angle directly while for the fixed angle case
+                                               – 22 –
+
+
+they come in as second order terms for the same reason.
+
+
+
+
+                                   6.   The Cosmic Spectrum
+
+
+The monopole spectrum (see Fig 4) is well fit by a Planck blackbody spectrum, and
+deviations are small, consistent with the earlier FIRAS results within their larger
+uncertainties (Shafer et al. 1992, Cheng et al. 1992, and Mather et al. 1994). To
+determine or constrain any deviations from a blackbody, consider a generic cosmological
+model Sc (ν; p), where p is some cosmic parameter quantifying the deviation from a
+blackbody, such as the Kompaneets y parameter for Comptonized spectra or the
+dimensionless chemical potential µ for a Bose-Einstein photon distribution. Because the
+deviation is small, a linear fit
+                                                    ∂Bν               ∂Sc
+                           I0 (ν) = Bν (T0 ) + ∆T       + G0 g(ν) + p                          (3)
+                                                    ∂T                ∂p
+can be performed to the unknown parameters p, G0 , and ∆T . The first two terms are the
+Planck blackbody spectrum, with the temperature T0 + ∆T . The third term allows for
+Galactic contamination remaining in the monopole spectrum. The final term is the
+modeled deviation. We fit either the Kompaneets parameter or the chemical potential, but
+the two are too similar to fit them simultaneously. The uncertainties are propagated from
+the template fits, and the correlation between the g(ν) and ∂S
+                                                            ∂p
+                                                               c
+                                                                 increases the uncertainty of
+G0 and p.
+
+
+
+
+                                 6.1.   Galactic contamination
+
+
+                                                                                       2
+We use either the       k gk (ν) derived from the all sky data set (see section 4) or ν Bν (T ) and
+                    P
+
+
+fit a temperature and emissivity. The ν 2 Bν (T ) model produces a lower χ2 with a
+                                             – 23 –
+
+
+temperature of 9 K and we use this model for the analysis in Table 4. One possible
+interpretation of this fit is a 9 K Galactic halo or a cosmic background (uniform
+component) with a spectrum similar to the Galactic spectrum. One must be cautious
+however as subtle variations in dust temperature or emissivity can produce similar effects.
+
+The determination of g(ν) is dominated by low latitude Galactic emission, and there is
+some variation from this form at higher latitudes. We vary the Galactic latitude cutoff used
+in deriving I0 (ν) in eqn. (3) to test the effect of variations in the Galactic spectrum from
+g(ν). Variations greater than the statistical uncertainty in any derived parameters, such as
+the cosmological term p, would most likely be due to an inadequacy in our Galactic model.
+Indeed if the χ2 cutoff is raised and the csc|b| model is used such effects can be seen.
+
+When p is fixed at 0, i.e. there is only a Galactic deviation fit, the weighted rms deviation
+in the frequency range 2 to 21 cm−1 is 50 ppm (parts per million) of the peak brightness.
+                                 qP
+                                          ∆ν 2 P 1
+The weighted rms is defined as        ν ( σν ) / ν σν2 , where ∆ν is the difference of the model
+
+and the data at spectrum point ν, and σν is the uncertainty of the spectrum point ν. The
+formal χ2 per degree of freedom = 46/40 = 1.15. The residuals, with the errors, are shown
+in Fig. 5 and listed in Table 4. The best fit temperature is 2.728 K, which is determined by
+our choice of frequency and thermometry scales (see section 4). When comparing this to
+values from other experiments, the systematic thermometry uncertainty of 2 mK (1σ)
+should be included. The detector noise part of the temperature uncertainty is only 10 µK,
+and is entirely negligible.
+
+
+
+
+                              6.2.   Bose-Einstein Distortion
+
+
+There are two likely forms for distortions of the primeval spectrum produced during the
+plasma epoch before recombination, and we compute a limit independently for each.
+                                             – 24 –
+
+
+Energy release or conversion in the redshift range 105 < z < 3 × 106 produces a
+Bose-Einstein distribution, where the Planck law is modified by a dimensionless chemical
+potential µ (Zeld́ovich & Sunyaev 1970):
+                                                    2hc2 ν 3
+                                  Sµ (ν; T, µ) =             ,                             (4)
+                                                   ex+µ − 1
+where x = hcν/kT and ν is measured in cm−1 . The linearized deviation of Sµ from a
+blackbody is the derivative of Eq. 4 with respect to µ:
+                                      ∂Sµ   −T0 ∂Bν
+                                          =                  .                             (5)
+                                      ∂µ     x ∂T
+
+The current FIRAS result is µ =−1 ± 4 × 10−5 , or a 95% confidence level upper limit of
+|µ| <9 × 10−5 . This result and those following are summarized in Table 2, including the
+effects of systematic uncertainties and the variation of the result according to the Galactic
+model used in the fit.
+
+
+
+
+                               6.3.   Compton Distortion
+
+
+Energy release at later times, z < 105 , produces a Comptonized spectrum, a mixture of
+blackbodies at a range of temperatures. In the case of non-relativistic electron
+temperatures this spectrum is described by the Kompaneets (1957) equation,
+parameterized by the value of y (Zeld́ovich & Sunyaev 1969):
+                                           k(Te − Tγ )
+                                       Z
+                                  y=                   dτe       ,                         (6)
+                                              me c2
+where Te , Tγ and τe are the electron temperature, the CMBR photon temperature, and the
+optical depth to electron Compton scattering. The distortion will be of the form (Zeld́ovich
+& Sunyaev 1969)
+                             ∂Sy                      ∂B
+                                                         ν
+                                     
+                                 = T0 xcoth(x/2) − 4                 .                     (7)
+                             ∂y                        ∂T
+                                           – 25 –
+
+
+The results are y =−1 ± 6 × 10−6 . There is some dependence on Galactic cut and on the
+Galactic model. This indicates either residual Galactic contamination or a nearly uniform
+source with a spectrum simular to the Galactic spectrum. We include a systematic
+uncertainty of 4 × 10−6 to account for these effects for a final 95% confidence level upper
+limit of 15 × 10−6 .
+
+The limit for |µ| is about 1/3 as large as that given in Mather et al. (1994) and the limit
+on |y| is about 1/2 as large. The |y| is more strongly coupled to the residual Galactic
+contamination. These new values place stringent constraints on theories of the early
+universe and the development of cosmic structure.
+
+
+
+
+                                    7.   Interpretation
+
+
+The cosmological interpretation of the limits on y and µ are developed by Wright et al.
+(1994). We summarize their conclusions here briefly. Since the FIRAS spectrum with the
+Galactic dust emission removed is close to a blackbody, strict limits can be set on energy
+release after the Big Bang. For energy release during the Bose-Einstein period, the limit is
+∆U/U = 0.71µ where U is the energy of the cosmic background and ∆U is the energy
+converted from other forms. For energy release after that but before decoupling, the limit
+is ∆U/U = 4y. The result can be summarized as a limit on ∆U/U as a function of redshift
+shown in Fig 6.
+
+
+
+
+                            8.   Summary and Conclusions
+
+
+The FIRAS spectrum of the cosmic microwave background radiation agrees with a
+blackbody spectrum to high accuracy. The CMBR monopole and dipole spectra are the
+                                           – 26 –
+
+
+result of fitting a model including a dust map derived from the DIRBE data. The CMBR
+dipole has a spectrum consistent with its thermal origin and a Doppler shift. The dipole
+itself has a differential thermal spectrum the temperature of which, 2.717 ± 0.007 K, agrees
+with the monopole temperature. The Doppler shift implies that the Sun’s peculiar velocity
+relative to the comoving frame is 371 ± 1 km/s (95% CL) toward
+(ℓ, b) = (264.14◦ ± 0.15, 48.26◦ ± 0.15), in agreement with the microwave results from the
+DMR.
+
+The CMBR temperature is 2.728 ± 0.004 K (95% CL), where the error is dominated by our
+estimate of the thermometry errors. The weighted rms deviation from the fit is 50 ppm of
+the peak brightness. The limit on |y| is 15 × 10−6 and the limit on |µ| is 9 × 10−5 (95% CL).
+
+
+
+
+                                 9.   Acknowledgments
+
+
+
+We thank the computer scientists and analysts who operated the COBE, processed the
+data, and solved problems in software that could no longer be solved with hardware. In
+particular, we thank S. Alexander, K. Jensen, S. Read, F. Shuman, and A. Trenholme.
+This work was supported by the Astrophysics Division of NASA Headquarters.
+                                                 – 27 –
+
+
+
+
+                                     Low Frequency            High Frequency
+                                          Left     Right         Left      Right
+                       Short Slow    68143         53795 451509 558325
+                       DOF           34856         35276 205650 200216
+                       Fast          20785         17198 228365 229018
+                       DOF           13688         14360       96552       95298
+
+
+Table 1: Calibration χ2 and number of degrees of freedom for each channel.
+
+
+
+
+                                    Fit      Statistical      Systematic             Final
+                               Value       uncertainty        uncertainty      uncertainty
+              Galaxy Temp       13.3                 0.6                 0.8         1.0 K
+              Dipole Amp       3.372               0.004            0.006       0.007 mK
+              Dipole Temp      2717                       3               6          7 mK
+              Gal Latitude     48.26                0.11                0.10       0.15 deg
+              Gal Longitude   264.14                0.14                0.06       0.15 deg
+              CMBR Temp        2.728             0.00001            0.002          0.002 K
+              y para                 -1                   6               4        7 ×10−6
+              µ para                 -1                   4               1        4 ×10−5
+
+
+Table 2: Results of fits.
+                                          – 28 –
+
+
+
+                    Frequency    Measurement    Residual    Uncertainty
+                         cm−1                    kJy/sr              1σ
+                          2.27            458          33            7
+                          2.72            605          23            9
+                          3.18            770          23           12
+                          3.63            956          45           11
+                          4.08           1106          38           11
+                          4.54           1218           5           10
+                          4.99           1346           5            9
+                          5.45           1473          26            9
+                          5.90           1534           5            8
+                          6.35           1588           1            7
+                          6.81           1623           2            6
+                          7.26           1645          12            6
+                          7.71           1619          -3            5
+                          8.17           1576         -17            5
+                          8.62           1541          -7            5
+                          9.08           1490           1            6
+                          9.53           1423           2            7
+                          9.98           1331         -12            8
+                         10.44           1234         -26            9
+                         10.89           1171          -3           11
+                         11.34           1077         -10           11
+                         11.80            996          -4           11
+                         12.25            910          -5           11
+                         12.71            814         -18           11
+                         13.16            780          27           11
+                         13.61            687           8           10
+                         14.07            595         -14           10
+                         14.52            551           7            9
+                         14.97            492           7            9
+                         15.43            435           5           10
+                         15.88            388           8           10
+                         16.34            326          -9           11
+                         16.79            318          24           13
+                         17.24            275          18           14
+                         17.70            230           5           15
+                         18.15            224          28           16
+                         18.61            172           2           16
+                         19.06            162          14           17
+                         19.51            157          30           20
+                         19.97            113           3           27
+                         20.42            102           7           43
+                         20.87            161          79           76
+                         21.33             45         -25          139
+Table 3: Dipole spectrum and residuals. Intensities in kJy/sr.
+                                         – 29 –
+
+
+
+                       Frequency   Residual   Uncertainty   Galaxy
+                           cm−1     kJy/sr             1σ   at Pole
+                            2.27          5            14          4
+                            2.72          9            19          3
+                            3.18         15            25         -1
+                            3.63          4            23         -1
+                            4.08         19            22          3
+                            4.54        -30            21          6
+                            4.99        -30            18          8
+                            5.45        -10            18          8
+                            5.90         32            16         10
+                            6.35          4            14         10
+                            6.81         -2            13         12
+                            7.26         13            12         20
+                            7.71        -22            11         25
+                            8.17          8            10         30
+                            8.62          8            11         36
+                            9.08        -21            12         41
+                            9.53          9            14         46
+                            9.98         12            16         57
+                           10.44         11            18         65
+                           10.89        -29            22         73
+                           11.34        -46            22         93
+                           11.80         58            23         98
+                           12.25          6            23        105
+                           12.71         -6            23        121
+                           13.16          6            22        135
+                           13.61        -17            21        147
+                           14.07          6            20        160
+                           14.52         26            19        178
+                           14.97        -12            19        199
+                           15.43        -19            19        221
+                           15.88          8            21        227
+                           16.34          7            23        250
+                           16.79         14            26        275
+                           17.24        -33            28        295
+                           17.70          6            30        312
+                           18.15         26            32        336
+                           18.61        -26            33        363
+                           19.06         -6            35        405
+                           19.51          8            41        421
+                           19.97         26            55        435
+                           20.42         57            88        477
+                           20.87       -116           155        519
+                           21.33       -432           282        573
+Table 4: Residual of monopole spectrum. Intensities in kJy/sr.
+                                         – 30 –
+
+
+                                   REFERENCES
+
+Bennett, C. L. et al. , 1992a, “Recent Results from COBE,” in The Evolution of Galaxies
+       and Their Environment, H.A. Thronson & J.M. Shull, eds., Proc. Third Teton
+       Summer School
+Bennett, C. L. et al. , 1992b, ApJ, 396, L7
+Bennett, C. L. et al. , 1994, ApJ, 436, 423
+Bennett, C. L. et al. , 1996, In preparation
+Boggess, N. W. et al. , 1992, ApJ, 397, 420
+Cheng, E. S. 1992, “Far-Infrared Cosmology Measurements,” in Proceedings of the
+       International Symposium on Observational Cosmology, Milan, Italy, September 1992
+Fixsen, D. J. et al. , 1994a, ApJ, 420, 445
+Fixsen, D. J. et al. , 1994b, ApJ, 420, 457
+Isaacman, R., Read S., & Barnes, W. 1992, in Astronomical Data Analysis Software and
+       Systems I ed. D. M. Worall, C. Biemesderfer, & J. Barnes, (Astronomical Society of
+       the Pacific Conf. Ser., Vol. 25) p. 403
+Kompaneets, A. S. 1957, JETP, 4, 730
+Mather, J. C. et al. , 1990, ApJ, 354, L37
+Mather, J.C., Fixsen, D.J. and Shafer, R.A. “Design for the COBE Far Infrared Absolute
+       Spectrophotometer (FIRAS),” COBE Preprint 93-10, Proc. SPIE, vol 2019, pp.
+       168-179, conf. on Infrared Spaceborne Remote Sensing, in San Diego, CA, 11-16
+       July 1993, (SPIE: Bellingham, WA)
+Mather, J. C. et al. , 1994, ApJ, 420, 440
+O’Neill, E. M. & Laubscher, R. E. 1976, Extended Studies of a Quadrilateralized Spherical
+       Cube Earth Data Base, (NEPRF Technical Report 3-76) (NTIS Report
+       AD-A026294) (Computer Sciences Corp. CSC/TR-76/6008)
+Peebles, P. J. E. 1971, Physical Cosmology, (Princeton: Princeton University Press)
+Reach, W. T. et al. , 1995, ApJ, 451, 188
+Shafer, R. A., et al. , 1992, BAAS, 23, 1398
+Sunyaev, R. A. & Zel’dovich, Ya. B. 1980, ARA&A, 18, 537
+Wright, E. L. et al. , 1991, ApJ, 381, 200
+Wright, E. L. et al. , 1994, ApJ, 420, 450
+Zeld́ovich, Ya. B. & Sunyaev, R. A. 1969, Ap&SS, 4, 301
+Zeld́ovich, Ya. B. & Sunyaev, R. A. 1970, Ap&SS, 7, 20
+
+
+
+
+    This manuscript was prepared with the AAS LATEX macros v3.0.
+                                              – 31 –
+
+
+
+Fig. 1.— χ2 /DOF in the destriping process. a) χ2 /DOF as a function of frequency for low
+frequency channels. b) χ2 distribution for pixels for low frequency data.
+
+
+
+
+Fig. 2.— Frequency of C + line as a function of Galactic longitude. Galactic rotation is
+clearly evident. Diamond shows low frequency measurement, which was used to set the
+frequency scale.
+
+
+
+
+Fig. 3.— Dipole spectrum and fit to dB
+                                    dT
+                                       . Vertical lines indicate plus and minus one σ
+uncertainties. Peak of uniform CMBR is approximately 400 MJy/sr.
+
+
+
+
+Fig. 4.— Uniform spectrum and fit to P lanck(T ). Uncertainties are a small fraction of the
+line thickness.
+
+
+
+
+Fig. 5.— FIRAS measured CMBR residuals,(——) I0 − Bν (T0 ) − ∆T dB
+                                                               dT
+                                                                  − G0 g(ν). Spectrum
+model components: the maximum allowed distortions (95% CL) y = 15 × 10−6 (– – –) and
+|µ| = 9 × 10−5 (· · ·); the Galaxy spectrum g(ν) scaled to one fourth the flux at the Galactic
+pole (· –), and the effects of a 100 µK temperature shift in T0 , 0.0001 dB
+                                                                         dT
+                                                                            , (· · · –).
+                                           – 32 –
+
+
+
+
+Fig. 6.— Derived limit on injected energy as a function of redshift.
+

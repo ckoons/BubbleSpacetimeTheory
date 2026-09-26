@@ -1,0 +1,174 @@
+197 9ApJ. . .230L. .63S
+                          The Astrophysical Journal, 230:L63-L65, 1979 June 1
+                          © 1979. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+
+
+
+                                                        A COSMOLOGICAL RED SHIFT-D IST AN CE SQUARE LAW?*
+                                                                                      Raymond M. Soneira
+                                                                               Institute for Advanced Study, Princeton
+                                                                          Received 1978 November 21; accepted 1979 March 7
+                                                                                 ABSTRACT
+                                       We directly examine the claims of Segal that the {m,z) Hubble diagram is fitted best by a square
+                                     law z — Kr2 rather than by the traditional Hubble law z = Hr m the low-redshift range 2 < 0.01,
+                                     corresponding to galaxies brighter than 14th mag. Segal attempts to fit a distance relation to the
+                                     (w,2) scatter diagram in which each individual galaxy is plotted. We calculate the exact relation
+                                     between the mean redshift (z(rn)) for all galaxies in a small magnitude interval m + bm/2 and the
+                                     apparent magnitude m. Our relation is independent of luminosity function and peculiar velocity
+                                     distribution about the general expansion. Also, it is not affected by sample incompleteness as a
+                                     function of apparent magnitude or the clustering of galaxies in the sample. Segal’s method is
+                                     affected by all of these and requires a highly sophisticated statistical analysis to deal with the
+                                     non-Gaussian pointwise scatter. Our analysis favors the Hubble law and conclusively rules out the
+                                     square law for the small redshift region.
+                                     Subject headings: cosmology — galaxies : redshif ts
+
+                                                                                I. INTRODUCTION
+                             There has been some discussion in the literature that the (m,z) Hubble diagram is fitted best by a square law
+                          z = Kr2 rather than by the traditional Hubble law 2 = Hr (Segal 1976; Nicoll and Segal 1978, and references there-
+                          in). In recent years Segal has been the strongest advocate of this position. His approach has been to fit a distance
+                          relation to the scatter (m,2) diagram in which each individual galaxy is plotted. A highly sophisticated statistical
+                          analysis is needed to take into account the (typically non-Gaussian) scatter arising from the following sources: (1) a
+                          broad galaxy luminosity distribution; (2) a relatively large peculiar velocity distribution about the general expansion,
+                          as well as redshift measurement errors; (3) surveys which are necessarily magnitude-limited and have a completeness
+                          that varies with magnitude; and (4) the clustering of galaxies which causes points in the diagram not to be statistically
+                          independent. Segal neither takes all of these effects into account nor does he use presently accepted descriptions of
+                          them. (For example, Segal uses a Gaussian luminosity function; this is very different from the generally accepted
+                          form. The luminosity function measured for the local galaxy “field” depends on the adopted redshift-distance rela-
+                          tion. When testing the linear Hubble case, the function determined from this “assumption” [Felten 1977] must
+                          be used.)
+                             There is a possibility that if these incorrect analyses remain unchallenged they may somehow entrench themselves
+                          into the literature as a real uncertainty. It is the purpose of this short Letter to directly address this question. Using
+                          a data base quite similar to one that has been used by Segal, we consider the general redshift-distance relation 2 =
+                          brv. Our method does not require statistical analysis and does not suffer from any of the four systematic effects
+                          noted above. The results favor the Hubble law /> = 1 and conclusively rule out the square law p = 2 for the small
+                          redshift region.
+                                                                                 II. THE METHOD
+                             The mean redshift (2) for galaxies which have apparent magnitudes in the interval m + 5m/2 is given exactly by
+
+                                                                       JiZidy Jlœz(r, y)Q(y)G[m — 5 log r — 25 — k(z)]r2dr
+                                                         (z(m)) =                                                         ,
+                                                                          jy^dy JlœQ{y)G[m — 5 log r — 25 — k{z)]r2dr
+
+                                                                       z(r, y)   = brv       y,      f_c°M{y)dy = 1 ,
+
+                                                                       jyyQ(y)dy = 0 ,                                                          (1)
+                          where G is an unspecified differential galaxy luminosity function, Q is an unspecified distribution function of peculiar
+                          velocities y (including measurement errors) about the general redshift-distance relation brv (b a constant), and k is
+                            * Work supported by National Aeronautics and Space Administration grant NAS8-32902.
+                                                                                                   L63
+
+
+
+                           © American Astronomical Society • Provided by the NASA Astrophysics Data System
+197 9ApJ. . .230L. .63S
+                          L64                                                    SONEIRA                                                   Vol. 230
+                          the dimming due to movement of the galaxies away from us. In equation (1) we have assumed radial homogeneity;
+                          the validity of this assumption is discussed below. For the redshifts we consider here and for any Q with a reason-
+                          able characteristic width of a few hundred km s-1 (Soneira 1978, 1979), the k term is at least an order of magnitude
+                          less than the bin size bm we shall adopt (Pence 1976). Hence we can neglect k. The integral yQ then vanishes by
+                          definition, so equation (1) reduces to
+                                                                      {z{m)) = constant X 10(p/5)m .                                            (2)
+                          The constant is independent of z and M) its particular value is not of interest here. The redshift-distance relation
+                          proposed by Segal remains a square law only for small redshifts z < 0.04 (Segal 1978). This is a factor of ^5 greater
+                          than the redshifts for a 14th mag limited sample we consider here. The integral in equation (1) is cut off by the
+                          luminosity function G (because of a brightness limit for galaxies) well before deviations from the square law begin.
+                          Hence equations (1) and (2) accurately test the redshift-distance law proposed by Segal. We rewrite equation (2) as
+
+                                                                     log {z(m)) — ^ m       constant' .                                         (3)
+
+                          In the regime where we apply this equation it is essentially exact. In the discussion which follows we neglect the
+                          constant in the equation.
+                              Considering the systematic effects noted in § I, we see that: (1) the equation is independent of luminosity func-
+                          tion—this is important because the shape of the function depends on the redshift-distance relation adopted; (2) it
+                          is independent of the peculiar velocity distribution because of the averaging process; (3) it is not affected by a limit-
+                          ing magnitude or magnitude-dependent completeness because only small magnitude intervals bm are considered;
+                          and (4) it is not affected by correlated galaxies, again because of the averaging process. Note that within an ap-
+                          parent magnitude interval there is no selection bias according to redshift because the surface brightness of a galaxy
+                          is independent of distance (and therefore redshift) as long as the k term is negligible. Hence, an incomplete sample
+                          of redshifts is still expected to comprise a fair sample for measuring {z{m)) in the regime under discussion.
+                             When galaxies are selected collectively rather than individually there is an observational bias that can influence
+                          (z{m)) for samples which have a completeness that falls with increasing apparent magnitude. If galaxies with
+                          dim apparent magnitudes are selected for redshift measurement on the basis of their association with galaxies that
+                          have bright apparent magnitudes (and these typically have low redshifts), there will be a bias toward smaller red-
+                          shifts in the dimmer magnitudes. We can test for such an effect in the data. Turner and Gott (1976) have compiled
+                          a complete 14th mag catalog of galaxy groups. The (incomplete) redshift sample in their catalog is quite similar,
+                          to ours (§ HI, below). We compare the redshift completeness and magnitude distribution of isolated galaxies (32%
+                          of the total number of galaxies) to the strongly associated galaxies that are in groups with 10 or more members
+                          (43% of the total number of galaxies). The remaining 25% of the galaxies belong to small groups which have prop-
+                          erties intermediate to the two extreme populations. To consider the possibility of differing magnitude-dependent
+                          completeness in the two populations we divide each into galaxies brighter and dimmer than 12th mag. (The mean
+                          magnitude for galaxies with measured redshifts is 12.1 for both populations; the standard deviation of the magni-
+                          tude distributions is 1.1 mag for isolated galaxies and 1.0 mag for the galaxies in rich groups.) Both populations have
+                          a redshift completeness of 90% for m < 12; for w > 12 the isolated galaxies are 20% complete and the galaxies in
+                          rich groups are 25% complete. The latter difference is in the noise for a fair sampling of the complete distribution.
+                          Any effect of this size is much too small to significantly influence our study of the redshift-distance relation.
+                              In equation (1) we have assumed radial homogeneity. However, because of clustering about our own Galaxy there
+                          is a local density inhomogeneity which can be measured by using the number-magnitude diagram for galaxies (Soneira
+                          and Peebles 1977, Fig. 8 and eq. [6]). The inhomogeneity lowers (z) somewhat for the brighter (and typically
+                          nearer) magnitudes m < 12 but has virtually no influence on the dimmer magnitudes, thereby increasing the slope
+                           of equation (3) and favoring the p = 2 case. One can take explicit account of the density inhomogeneity in equa-
+                           tion (1), as in Soneira (1978, 1979), but we have not done this here because the effect is small—an increase of <10%
+                           in the slope p. (Local clustering could also produce virial motions for which (z) —> 0. Again, this would affect only the
+                           brighter magnitudes and likewise favor the p = 2 case.)
+                                                                                III. THE DATA
+                             We have calculated (z(m)) for galaxies in the Reference Catalogue of Bright Galaxies (de Vaucouleurs and de Vau-
+                          couleurs 1964; 1967) supplemented by redshifts from Roberts (1967)—the only sample available to us at present in
+                          computer-readable form. In order that absorption in the Galaxy not be important, we consider only the region h11 >
+                          40°; there are 375 galaxies in the sample. We have plotted the results in Figure 1 for bm = 0.4 mag. The range.in
+                          m plotted (10.4 to 14.0) includes all bins that have 10 or more galaxies. The flags are rough estimates of the noise
+                          in (z{m)) given by (jm/n112, with gJ the variance about the mean redshift {z{m)) for all galaxies in each magnitude
+                          bin, and n the number of galaxies in a bin. The relations ^ = 1 and 2 are drawn as solid and dashed lines, respec-
+                          tively. Graphically, the linear relation is very strongly favored over the square law. Performing a weighted least-
+                          squares fit to the data gives a slope p = 0.85 ± 0.10, with a linear correlation coefficient of 0.95. The reduced x2 is
+
+
+
+
+                             © American Astronomical Society • Provided by the NASA Astrophysics Data System
+No. 2, 1979                                  REDSHIFT-DISTANCE SQUARE LAW?                                                             L65
+
+
+
+
+   Fig. 1.—The (m,z) Hubble diagram for nearby galaxies. The redshifts in each magnitude interval have been averaged. The solid line is
+the relation expected for a linear Hubble law according to eq. (3). The dashed line has the slope expected for a square-law redshift-distance
+relation.
+
+1.7 per degree of freedom. We notice that the first point m = 10.4 is more than 2J standard deviations away from
+the fit. Eliminating this point a posteriori we obtain a slope p = 1.0 ± 0.10, a linear correlation coefficient of 0.98,
+and a reduced x2 of 0.6 per degree of freedom. The first fit is somewhat worse than expected for an ideal fit in the
+ensemble average (which will have a reduced x2 of 1 per degree of freedom) and the second somewhat better. The
+latter fit is a linear Hubble law and corresponds to the solid line in 2the figure. The best fit constrained to the square
+law ÿ = 2 is drawn as the dashed line in the figure. The reduced x is 30 per degree of freedom; with the first point
+m = 10.4 removed it is 17 per degree of freedom. The p = 2 case fails at the ^>>99.9999% confidence level. The
+formal probability that the plotted points come from & p = 2 relation is less than 10“25 (assuming a normal error
+distribution). The scatter about the linear relation = 1 is reduced somewhat when either the galaxies in the core
+of the Virgo cluster are excluded or the sample of galaxies with b11 < — 40 from the southern galactic hemisphere
+are included. There is little question that the Hubble relation is strongly favored and the square law definitively
+ruled out here.
+   There are somewhat deeper and more complete redshift samples available that can easily be analyzed using this
+method, but it appears unlikely that the case for ÿ = 2 will improve. Our result is important because it is a rigorous
+statistical test of the Hubble law for a fair sample of all galaxies out to ^35 h^1 Mpc (h is Hubble’s constant in units
+of 100 km s_1 Mpc-1) and complements the more specialized methods that have confirmed this relation out to sig-
+nificantly greater distances, such as those of Sandage, Kristian, and Westphal (1976).
+
+                                                             REFERENCES
+de Vaucouleurs, A., and de Vaucouleurs, G. 1967, A.J., 72, 730.     Segal, I. E. 1976, Mathematical Cosmology and Extragalactic
+de Vaucouleurs, G., and de Vaucouleurs, A. 1964, Reference            Astronomy (New York: Academic Press).
+  Catalogue of Bright Galaxies (Austin: University of Texas Press).        . 1978, Astr. Ap.f 68, 353.
+Felten, J. E. 1977, A./., 82, 861.                                  Soneira, R. M. 1978, Ph.D. thesis, Princeton University.
+Nicoll, J. F., and Segal, I. E. 1978, Ann. Phys., 113, 1.                  . 1979, to be published.
+Pence, W. 1976, Ap. /., 203, 39.                                    Soneira, R. M., and Peebles, P. J. E. 1977, Ap. J., 211, 1.
+Roberts, M. S. 1967, private communication.                         Turner, E. L., and Gott, J. R. 1976, Ap. J. Suppl., 32, 409.
+Sandage, A., Kristian, J., and Westphal, J. A. 1976, Ap. /., 205,
+  688.
+
+
+Raymond M. Soneira: Institute for Advanced Study, Princeton, NJ 08540
+
+
+
+
+ © American Astronomical Society • Provided by the NASA Astrophysics Data System
+

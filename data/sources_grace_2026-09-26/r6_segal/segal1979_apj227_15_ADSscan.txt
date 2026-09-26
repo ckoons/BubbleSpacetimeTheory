@@ -1,0 +1,166 @@
+197 9ApJ. . .227. . .153
+                           The Astrophysical Journal, 227:15-17, 1979 January 1
+                           © 1979. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+
+
+
+                                                                   APPARENT SUPERRELATIVISTIC VELOCITIES
+                                                                    AND THE CHRONOMETRIC COSMOLOGY
+                                                                                        I. E. Segal
+                                                                Department of Mathematics, Massachusetts Institute of Technology
+                                                                         Received 1978 March 31; accepted 1978 July 5
+                                                                                 ABSTRACT
+                                         In the best established of apparently superrelativistic radio source expansion velocities, that of
+                                      3C 345, the reported apparent velocity of ~2.5c is reduced to one of ~0.1c in the chronométrie
+                                      cosmology. All other published apparent superrelativistic velocities are also reduced to sub-
+                                      relativistic levels.
+                                      Subject headings: cosmology — radio sources: general
+                              The model-independent establishment of a two-                                      The linear velocity i?chrono in units of c, corresponding
+                           source configuration in the apparent expansion of the                               to an observed angular velocity œ on a 3-dimensional
+                           variable quasar 3C 345 reported by Wittels et al                                    sphere of radius R, is o>R sin p, where p is the angular
+                           (1976) leads to an apparent unequivocal expansion                                   distance between the source and observer. Employing
+                           velocity of ~2.5c, on the basis of the Friedmann                                    the relation (1) with p = r/R, it follows that iWono =
+                           cosmology with the Hubble constant // = 60 km s-1                                   2Rœzll2(l + z)“1. In the case of a Friedmann model
+                           Mpc-1 and the deceleration parameter              = 1- As                           with q0, the corresponding velocity may be inferred from
+                           noted by these authors, other reported apparent super-                              Weinberg (1972) as vFrled =                       + z)"1 x
+                           relativistic velocities, which are summarized by Cohen                              {q0z + (q0 — 1)[(1 + 2q0z)112 — 1]}. The ratio is ac-
+                           et al (1977), are less clear-cut, being dependent on                                cordingly
+                           assumptions regarding the source structure.
+                              On the other hand, the reported velocity for 3C 345                                   ttFrted = qo£ ± (go - 1)[Q + ^pZ)1'2 - 1]          m
+                                                                                                                                                                       V
+                           is itself dependent on the utilization of a Friedmann                                    vcbroao              IRHq'fz™             '          '
+                           model for the determination of the distance to the
+                           source. While within the class of Friedmann models
+                           the distance is fairly insensitive to the precise values of
+                           H and q0, within the range generally regarded as
+                           realistic, the redshift-distance relation is altogether
+                           different in the chronométrie cosmology of Segal
+                           (1976). This relation has received additional con-
+                           firmation in recent studies on galaxies (Segal 1978;
+                           Nicoll and Segal 1978a) and quasars (Nicoll and Segal
+                            19786). This note explores in a more detailed fashion
+                           the possible impact on the apparent superrelativistic
+                           velocities reported in the literature, and especially the
+                           cited work on 3C 345, of the chronométrie relation.
+                              This relation takes the form
+                                                     z — tan2 (r/2R) ,                            (1)
+
+                           where r is the distance and R is a constant which sets
+                           the distance scale for the chronométrie cosmos; it may
+                           be described as the chronométrie “radius of the
+                           universe.” This constant must, like H, be inferred from
+                           observations of z at known distances. If we assume
+                           that the best established cosmological distances for
+                           which there are substantial numbers of redshift deter-
+                           minations are in the range 1-5 Mpc(cf., e.g., Holmberg
+                            1964), a value of R may be established by equating the
+                           chronométrie distance with the Friedmann model
+                           distance within this range. Assuming H = 60 km s“1                                    Fig. 1.—Ratio of Friedmann (expansion) to chronométrie
+                           Mpc "1, the resulting values of R are in the approximate                            model linear velocities corresponding to a given observed
+                           range 40-80 Mpc.                                                                    angular velocity.
+
+
+
+
+                                © American Astronomical Society • Provided by the NASA Astrophysics Data System
+197 9ApJ. . .227. . .153
+                           16                                                     SEGAL                                               Vol. 227
+                              This relation forms the basis for Figure 1, which        is reduced to 0.1c, which is entirely in keeping with
+                           shows the relative expansion velocities in the Fried-       expectations regarding variable quasars. Since the
+                           mann and chronométrie cosmologies, corresponding            ratio shown in Figure 1 varies approximately inversely
+                           to a given observed angular velocity, assuming R ~          with the square root of the distance at which the
+                           60 Mpc, which corresponds to the assumption that            Friedmann and chronométrie models are synchronized
+                           the chronométrie and Friedmann distances coincide           {H being fixed), the utilization of any other base
+                           at ~ 3 Mpc. It is interesting to note in particular that    distance in the range 1-5 Mpc would alter this esti-
+                           all of the published angular velocities of expansion for    mated velocity by a factor of < 1.5.
+                           the sources 3C 120, 3C 273, and 3C 279 (cf. Cohen              To summarize, the superrelativistic velocities re-
+                           et al. 1977) correspond in the chronométrie cosmology       ported for sources which have been observed by YLBI
+                           to linear expansion velocities which are definite sub-      appear as an artifact of the theory employed to infer
+                           relativistic. Moreover, in the only case in which the       the linear expansion velocity from the observed angular
+                           relevant source structure has been directly observed        velocity, and are not inevitable features of a realistic
+                           rather than hypothesized, that of 3C 345, the velocity      theory with a well-defined redshift-distance relation.
+
+                                                                               APPENDIX
+
+                                                        SUMMARY OF THE CHRONOMETRIC THEORY
+
+                               It has been suggested that a two-page summary of        expected for the global energy in a nonflat spacetime;
+                           the chronométrie theory may be useful for some              while Hq is scale-covariant, a feature which underlies
+                           readers, in view of the length of the principal reference   the conventional units of measurement, whether based
+                           (Segal 1976).                                               on spectral wavelengths or standard mechanical
+                               The chronométrie cosmology derives from general         objects. That is, a change of scale by a factor À, which
+                           principles of particle quantum mechanics together with      is one of the elements of the conformal group, changes
+                           the specific postulate that the true energy is not quite    i/0 and other standard dynamical variables by a factor
+                           the conventional special-relativistic operator H0 ~         which is a power of À; but H is altered in a more
+                           (ñli)(dldx0), but is a different generator H of the con-    complex way. More specifically, H has a unique
+                           formal group, which likewise enjoys such fundamental        Lorentz-covariant separation into relativistic and
+                           properties as positivity and finiteness of the propaga-     superrelativistic components,
+                           tion velocity. This specific postulate was first proposed
+                           by Segal (1951) in a group-theoretic study of funda-                           iZ=iZ0 + i/i,                      (3)
+                           mental physics. In normal localized states, H and H0        such that the superrelativistic energy H1 is positive;
+                           are not observably different, and indeed H0 can be          and under a change of scale by the factor A, HQ -> \H0
+                           regarded as obtained from H simply by an infinite           while i/i    A-1//!. The nonflatness of the spacetime
+                           scale renormalization. Moreover, /fis the only operator     appropriate to the chronométrie cosmology can be
+                           other than HQ which can be representative of the energy     understood in terms of the singularity of the action of
+                           if general requirements of spatial and temporal isotropy    the conformal group on Minkowski space. These
+                           are imposed on a 4-dimensional spacetime model.             singularities can be avoided only by embedding
+                               All this is irrespective of any assumption as to a      Minkowski space conformally in a larger spacetime,
+                            Lorentzian structure for spacetime, and is primarily       whose spatial component is curved. This larger space-
+                            a matter of the theory of groups and their representa-     time is in fact representable in the form R1 x S3
+                           tions. The group here is one which is locally (i.e., hear   (R1 = real line, S3 = surface of unit sphere in 4-
+                            its identity element) the conformal group of Minkowski     space), in such a way that H = (fi/i)(d[dT)9 where r
+                            space, but differs in the large, being in fact a doubly    denotes the component in R1. This same embedding
+                            infinite sheeted covering of the latter group. The         also eliminates the multivaluedness of the Maxwell
+                            relevant representation is that defined by Maxwell’s       representation of the conformal group on Minkowski
+                            equation, which is in fact unitary with respect to a       space.
+                            unique Hilbert space structure on the photon single-          According to standard quantum mechanics, the
+                            particle space. In this representation, both the           implication of the chronométrie cosmology for free
+                            “chronométrie” energy H and the special-relativistic       propagation of photons is that at time r, the observed
+                            energy H0 are represented by nonnegative operators ;       energy will not be H0 but rather eixHH0e~ixH = H0(t).
+                            and for a photon wave function 0 which is localized,       The corresponding redshift z is given by the equation
+                            <Zf0, j/f> ~ <7^0^? 0); but for one which has a large      (1 + z)-1 = <í/o(t)>/<í/0>. Alternatively, a photon
+                            spatial extent, as implied by Maxwell’s equations for      of wave function ^ after passage of chronométrie time
+                            photons propagated through large distances, there is a     T has a wave function ^T, and z is given by the equation
+                            significant deviation of </f > from </f0)-                 (1 + z)-1 = <i/oí/fT,            0)- Evaluation of the
+                                The chronométrie cosmology postulates that the         inner product involved leads to the law z = tan2 (r/2),
+                            physical Hamiltonian is //, while the energy that is       where r is measured in units such that, as Minkowski
+                             observed via a conventional local measurement is H0.      times goes from —go to +oo, r goes from — tt to +tt.
+                            The operator H is not scale-covariant, as is not un-       The same law follows also by a similar classical analysis
+
+
+
+
+                                © American Astronomical Society • Provided by the NASA Astrophysics Data System
+No. 1, 1979                              SUPERRELATIVISTIC VELOCITIES                                                      17
+of the diffusion of the chronométrie energy into rela-            nothing beyond the redshift-distance law and the
+tivistic and superrelativistic components.                        elementary geometry of S3. This geometry can be
+   Choosing further units so that ft = c = l, the red-            regarded as associated with a corresponding Lorentzian
+shift-distance relation becomes z = tan2 (/>/2), where            metric which is strictly invariant under chronométrie
+P is the distance, on the *S3, or “space” component. It           time and space displacements, and conformally in-
+should be noted that the replacement of H0 by H as                variant under the doubly infinite sheeted covering of
+the physical (and conserved) energy involves, for                 the Minkowski space conformal group. From the
+preservation of spatial isotropy and homogeneity, the             standpoint of general relativity, it is this invariant
+replacement of the Euclidean space R3 by S3, and of               metric, rather than that in Minkowski space, which
+the Euclidean group (rotations and translations) by               corresponds within the chronométrie framework to
+the group 0(4) of rotations of S3.                                the absence of gravitational forces. Analytic expres-
+   Observable implications regarding the luminosity,              sions for the observable implications and the relations
+angular diameter, and number redshift relations, etc.,            between the Minkowski and chronométrie spacetimes
+for statistically proper samples of extragalactic objects         and associated groups are given in Segal (1976) and in
+then follow in the usual way, involving essentially               references cited there.
+                                                            REFERENCES
+Cohen, M. H., et al. 1977, Nature, 268, 405.                       Segal, I. E. 1976, Mathematical Cosmology and Extragalactic
+Holmberg, E. 1964, Ark. f. Astr., 3, 387 = Uppsala Astr. Obs.        Astronomy (New York: Academic Press).
+  Medd., No. 148.                                                     ;—. 1978, Astr. Ap., 68, 353.
+Nicoll, J. F., and Segal, I. E. 1978a, Ann. Phys., in press.       Weinberg, S. Gravitation and Cosmology (New York: Wiley).
+       . 19786, Proc. Nat. Acad. Sei. USA, 75, 535.                Wittels, J. J., et al. 1976, Ap. J. (Letters), 206, L75.
+Segal, I. E. 1951, Duke Math. J., 18, 221.
+
+
+I. E. Segal: Room 2-244, Massachusetts Institute of Technology, Cambridge, MA 02139
+
+
+
+
+    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+

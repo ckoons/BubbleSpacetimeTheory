@@ -1,0 +1,542 @@
+                                                                                                          9th International Conference on Clifford Algebras
+                                                                                                             and their Applications in Mathematical Physics
+                                                                                                                                         K. Gürlebeck (ed.)
+                                                                                                                        Weimar, Germany, 15–20 July 2011
+
+
+
+
+                                             CONFORMALLY COMPACTIFIED MINKOWSKI SPACE: MYTHS
+                                                               AND FACTS
+                                                                                 Arkadiusz Jadczyk
+
+                                                             Center CAIROS, Institut de Mathématiques de Toulouse
+
+
+
+
+arXiv:1105.3948v2 [math-ph] 23 May 2011
+                                               Université Paul Sabatier, 118 Routé de Narbonne 31062, Toulouse Cedex 9, France
+                                                                        E-mail: arkadiusz.jadczyk@cict.fr
+
+
+
+                                          Keywords: Minkowski space, conformal group, compactification, conformal infinity, con-
+                                          formal inversion, light cone at infinity, SU(2,2), SO(4,2), Hodge star operator, Clifford alge-
+                                          bra, spinors, twistors, antilinear operators, exterior algebra, bivectors, isotropic subspaces, null
+                                          geodesics, Lie spheres, Dupin cyclides, gravitation
+
+                                          Abstract. Maxwell’s equations are invariant not only under the Lorentz group but also under
+                                          the conformal group. Irving E. Segal has shown that while the Galilei group is a limiting case of
+                                          the Poincaré group, and the Poincaré group comes from a contraction of the conformal group,
+                                          the conformal group ends the road, it is rigid . There are thus compelling mathematical and
+                                          physical reasons for promoting the conformal group to the role of the fundamental symmetry
+                                          of space–time, more important than the Poincaré group that formed the group-theoretical ba-
+                                          sis of special and general theories of relativity. While the action of the conformal group on
+                                          Minkowski space is singular, it naturally extends to a nonsingular action on the compactified
+                                          Minkowski space, often referred to in the literature as “Minkowski space plus light-cone at in-
+                                          finity”. Unfortunately in some textbooks the true structure of the compactified Minkowski space
+                                          is sometimes misrepresented, including false proofs and statements that are simply wrong.
+                                              In this paper we present in, a simple way, two different constructions of the compactified
+                                          Minkowski space, both stemming from the original idea of Roger Penrose, but putting stress on
+                                          the mathematically subtle points and relating the constructions to the Clifford algebra tools. In
+                                          particular the little-known antilinear Hodge star operator is introduced in order to connect real
+                                          and complex structures of the algebra. A possible relation to Waldyr Rodrigues’ idea of gravity
+                                          as a plastic deformation of Minkowski’s vacuum is also indicated.
+
+
+
+
+                                                                                           1
+1       PRELIMINARIES
+
+1.1      Notation
+   Let E be a real 6–dimensional vectors space endowed with a bilinear form (x, y) of signature
+(4, 2). Let Q be the diagonal 6 × 6 matrix
+
+                                        Q = diag (1, 1, 1, −1, 1, −1).                                      (1)
+
+We will call a basis ei in E orthonormal if (ei , ej ) = Qi,j .1 Any two orthonormal bases of E are
+related by a transformation from the group O(4, 2) :
+
+                              O(4, 2) = {R ∈ Mat(6, R) : R Q tR = Q}.                                       (2)
+
+When a preferred orthonormal basis is selected in E, then E is denoted by E2,2 . For x ∈ E4,2
+we write
+              Q(x) = txQx = (x1 )2 + (x2 )2 + (x3 )2 − (x4 )2 + (x5 )2 − (x6 )2 .         (3)
+Let G be the diagonal 4 × 4 matrix G = diag(+1, +1, −1, −1). Let V be a four–dimensional
+complex vector space endowed with a pseudo–Hermitian form (·|·) of signature (2.2). A basis
+ei of H2,2 is said to be orthonormal if (ei |ej ) = Gij . Any two orthonormal bases in H2,2 are
+related by a transformation from the group U (2, 2) :
+
+                              U (2, 2) = {U ∈ Mat(4, C) : U GU ∗ = G}.                                      (4)
+
+When a preferred orthonormal basis is selected in V, then V is denoted by H2,2 .
+
+
+                                           +
+1.2      The algebras Cl4,2 ≈ Mat(4, R), Cl4,2 ≈ Mat(4, C), and the groups SO+ (4, 2) and
+         U (2, 2)
+    Define the following six 4 × 4 antisymmetric matrices Σα = (ΣAB
+                                                                 α ):
+                           0 0 −i 0       0 0 −1 0         0 0 0 i
+                    Σ1 = 0i 00 00 0i Σ2 = 01 00 00 −10    Σ3 = 00 −i
+                                                                   0 i 0
+                                                                     0 0
+                               0 −i 0 0               0 1 0   0              −i 0 0 0
+                           0 i0 0                  0 0 0 1                0 1 0 0
+                             −i 0 0 0                  0 0 −1 0                 −1 0 0 0
+                    Σ4 =     0 0 0 −i        Σ5 =      0 1 0 0        Σ6 =      0 0 0 1
+                             0 0 i 0                  −1 0 0 0                  0 0 −1 0
+
+The following identities hold:
+                                             1 ijkl
+                                         Σij
+                                          α =      Gkm Gln Σmn
+                                                             α ,                                            (5)
+                                             2
+where α = 1, ..., 6; i, j, k, l, m, n = 1, ..., 4.
+Recall that for an antilinear operator A acting on a pseudo-Hermitian space V the adjoint A∗ is
+defined by the formula: (Av|w) = (A∗ w, v). The following proposition holds:
+    According to our conventions, in E4,2 , the first four coordinates x1 , x2 , x3 and x4 will correspond to
+    1
+
+Minkowski space coordinates x, y, z and t, while the coordinates x5 , x6 will correspond to the added hyperbolic
+plane E1,1 .
+
+
+
+
+                                                       2
+Proposition 1.2.1. Define the following six complex matrices
+
+                             Γiαk = Σα ij Gjk , (α = 1, ..., 6; i, j, k = 1, ..., 4).                             (6)
+
+Explicitly:
+                                                                                    0 0 −i
+                               0 0 i 0                                      0           
+                                                           0 0 1 0
+                                  0 0 0 −i                 0 0 0 1               0 0 −i 0
+                        Γ1 =      i 0 0 0      Γ2 =        1 0 0 0       Γ3 =    0 −i 0 0
+                                  0 −i 0 0                 0 1 0 0               −i 0 0 0
+                            0 i 0 0                 0 0 0 −1                      0 10 0 
+                              −i 0 0 0                  0 0 1 0                       −1 0 0 0
+                    Γ4 =      0 0 0 i         Γ5 =      0 1 0 0            Γ6 =        0 0 0 −1   .
+                              0 0 −i 0                  −1 0 0 0                       0 0 1 0
+
+Let Γα be the antilinear operators on H2,2 defined by the formula:
+
+                                   (Γα f )i = Γiαj f j ,       f = (f i ) ∈ H2,2 .
+
+Then the antilinear operators Γα are anti–self–adjoint: Γα = −Γ∗α , and satisfy the following
+anti–commutation relations of the Clifford algebra of E 4,2 :
+
+                                         Γα ◦ Γβ + Γβ ◦ Γα = 2 Qαβ .
+
+The space H2,2 considered as an 8–dimensional real vector space carries this way an irre-
+ducible representation of the Clifford algebra Cl4,2 . The Hermitian conjugation in H2,2 coin-
+cides with the conjugation of Cl4,2 . The space H2,2 considered as a 4-dimensional complex
+                                                                                          +
+vector space carries a faithful irreducible representation of the even Clifford algebra Cl4,2 .
+                1       6
+For each x = (x , ..., x ) ∈ E4,2 , let X be the matrix
+                                                        6
+                                                        X
+                                                 X=            xα Γα ,                                            (7)
+                                                        α=1
+
+then                                                             
+                              0      ix4 + x6  ix1 + x2 −ix3 − x5
+                        −ix4 − x6       0    −ix3 + x5 −ix1 + x2 
+                      X=
+                         ix1 + x2 −ix3 + x5
+                                                                                                                 (8)
+                                                   0    ix4 − x6 
+                          −ix3 − x5 −ix1 + x2 −ix4 + x6     0
+We have
+                                                 1
+                                         X̄ i j = imnk Gmj Gnl X l k ,                                           (9)
+                                                 2
+and
+                                         det(X) = det(X̄) = Q(x)2 ,                                             (10)
+where X̄ is the complex conjugate matrix.
+   2
+
+   We recall [2, p. 387, Definition IX.4.C] that the group Spin(E) consist of products of
+even numbers of vectors x ∈ E with Q(x) = 1, and even numbers of vectors y ∈ E with
+Q(y) = −1. The action of Spin(E) on E ⊂ Cl(4, 2) is given by x 7→ π(g)xg −1 , which is
+   2
+     There are several errors in Ref. [1]: in the listing of the matrices Σα , the matrix Σ2 is listed twice; in Lemma
+5, Eq. (31) instead of Qjk should be Gjk ; in a formula below, Γα should be Γα ; it is stated that the Hermitian
+conjugation coincides with the main antiautomorphism, which is incorrect, it should be ‘conjugation’. Also the
+Lorentz Lie algebra block matrix at the end of section 8.3 should be in the upper left corner.
+
+
+                                                           3
+                                                + 3
+the same as gxg −1 when g ∈ Spin(E) ⊂ Cl4,2       . If x, x0 are two normalized in E, then their
+            0
+product xx operates on H2,2 via a complex linear transformation implemented by the matrix
+X X̄ 0 of determinant one. It follows that, with our identification, the group Spin(E) coincides
+with the group SU (2, 2). In fact, for x ∈ E4,2 and U ∈ SU (2, 2, we have U XU ∗ = X 0 , where
+
+                                               X 0α = L(U )α β X β ,                                           (11)
+
+where U 7→ L(U ) is a homomorphism from SU (2, 2)) ≈ Spin(4, 2) onto SO+ (E4,2 ) with
+kernel {1, −1, i, −i}.
+
+
+2       THE EXTERIOR ALGEBRA Λ2 H2,2
+
+   Let Λ2 H2,2 be the (complex) exterior algebra of H2,2 . It carries a natural pseudo-Hermitian
+form:
+                                      1
+                            (x|y) =      Gi j ..Gip jp xi1 ...ip y j1 ...jp .              (12)
+                                     p! 1 1
+If ei is the orthonormal basis of H2,2 , we define the following six bivectors Eα ∈ Λ2 H2,2 :
+                                                   1
+                                              Eα = √ Σij
+                                                      α ei ∧ ej                                                (13)
+                                                  2 2
+They are normalized:
+                                                 (Eα |Eβ ) = Qαβ .                                             (14)
+In [3] an antilinear Hodge ? operator has been defined in the case of the Euclidean signature. It
+can be readily extended to the pseudo–Euclidean case. Thus we define ? : Λk H2,2 → Λ4−k H2,2
+by the formula:
+                                                           ^k
+                                x ∧ ?y = (x|y)e, x, y ∈        V,                           (15)
+where e = e1 ∧ ... ∧ e4 , x ∈ Λk H2,2 , y ∈ Λ4−k H2,2 . Notice that we have:
+
+                                         (x| ? y) = (−1)k(4−k) (y| ? x),                                       (16)
+
+We easily find that ?? x = (−1)k(n−k) x, x ∈ Λk H2,2 . It follows that on Λ2 H2,2 we have ?2 = 1.
+Thus Λ2 H2,2 , which is a vector space of complex dimension 6 splits into a direct sum of two
+real 6–dimensional subspaces
+
+                                          Λ2 H2,2 = Λ2+ H2,2 ⊕ Λ2− H2,2 ,                                      (17)
+
+where
+                                     Λ2± H2,2 = {x ∈ Λ2 H2,2 : ?x = ±x}.                                       (18)
+The multiplication by the imaginary unit i gives a bijective correspondence between these sub-
+spaces. The bivectors Eα are self–dual: ?Eα = Eα , and form a basis in Λ2+ H2,2 .
+   Thus E4,2 can be interpreted in two ways: either as a real linear subspace of anti–
+linear transformations of H2,2 determined by the matrices of the form (7), or as the sub-
+space Λ2+ H2,2 of self–dual bivectors in Λ2 H2,2 , as suggested originally by Kopczyński and
+Woronowicz [4], though these authors did not recognize the relation of their reality condi-
+tion to the anti–linear Hodge operator (16).
+    3
+        We denote by π (resp. by τ ) the main automorphism (resp. antiautomorphism) of the Clifford algebra.
+
+                                                          4
+2.1   Compactified Minkowski space
+    Early in the XX-th century Bateman and Cunningham [5, 6, 7] established invariance of the
+wave equation and of Maxwell’s equations under conformal transformations. The central role
+in these transformations is being played by the conformal inversion, formally defined by
+
+                                                      (x, t)
+                                    R : (x, t) 7→                .                           (19)
+                                                    x2 − c2 t2
+It is singular on the light cone x2 = x2 − c2 t2 = 0. More general, special conformal transforma-
+tions, of the form RT (a)R, where T (a) is the translation by a vector a in R4 , are also singular
+in the Minkowski space–time M. In order to avoid singularities the conformally compactified
+Minkowski space M c - a homogeneous space for the conformal group SO+ (4, 2) is introduced.
+There are three different, though related to one another, ways of describing M c : a) The group
+manifold of the unitary group U (2), b) The projective quadric defined by the equation Q(x) = 0
+in E4,2 , and c) The space of maximal isotropic subspaces of H2,2 . Let us discuss briefly the re-
+lation between b) and c). The relation to a) has been discussed in [1].
+Let ϕ be the mapping ϕ : E4,2 → Λ+ H2,2 defined by ϕ(x) = xα Eα . The following lemma
+holds [1].
+
+Lemma 2.1.1. The mapping ϕ defines a bijective correspondence between generators of the
+null cone Q(x) = 0 in E4,2 and maximal isotropic subspaces in H2,2 .
+
+   In particular, Q(x) = 0, if and only if ϕ(x) is a bivector of the form v ∧ w, where v and w
+are two linearly independent, mutually orthogonal, isotropic vectors in H2,2 . There is another
+method of viewing this correspondence, studied by René Deheuvels in [8, Théorème VI.6.D, p.
+283], and generalized by Pierre Anglès [9]. We start with a brief recapitulation, with a slight
+change of notation, of the construction given in [9]. The construction is quite general. but we
+restrict ourselves to the case we are interested in. Let E = E4,2 , V = H2,2 . It is convenient
+to identify x ∈ E with the antilinear operator ϕ(x) acting on the spinor space V. Then the
+following theorem holds:
+
+Theorem 2.1.2. [9, 1.5.5.1.1, p. 45] The mapping
+
+          { isotropic line Rx of E4,2 } 7→ maximal totally isotropic subspace S(x) of V is
+      injective and realizes a natural embedding of Q̃(E), the projective quadric associ-
+      ated with E, into the Grassmannian G(V, 12 dim V ) of subspaces of V of dimension
+      1
+      2
+        dim V.
+
+    The proof goes as follows: given a null vector x ∈ E ⊂ LR (V ) ≈ Cl4,2 , there exists another
+null vector y ∈ E such that (x, y) = 2. Denoting by x, y antilinear operators on V representing
+x, y, in LC (V ), (xy)2 = xy, (yx)2 = yx, and xy + yx = I. Therefore xy and yx are two
+complementary idempotents in LC (V ). Evidently we have Im(xy) ⊂ Im(x). Since x2 = 0 we
+have that Im(x) ⊂ Ker(x). On the other hand, if v ∈ V is in Ker(x) then v = (xy+yx)v = xyv,
+therefore Ker(x) ⊂ Im(xy) ⊂ Im(x). It follows that Im(x) = Im(xy) = Ker(x). Now, owing
+to the fundamental property of the trace, we have TrR (xy) = TrR (yx). But since xy and yx are
+complex linear, it follows that TrC (xy) = 12 TrR (xy) = 21 TrR (yx) = TrC (yx). Since xy and yx
+are complementary idempotents, it follows that TrC (xy) = dimC (Im(xy)) = dimC (Im(yx)).
+Then, from Im(xy) ⊕ Im(yx) = V, Im(xy) ∩ Im(yx) = {0}, we deduce that dim(Im(xy)) =
+dim(Im(yx)) = 21 dim(V ). In our particular case 12 dim(V ) = 2.
+
+                                                5
+    In order to complete the demonstration we notice that (xy)τ = (xy)∗ = yx therefore for all
+s, t ∈ V we have (xy s|xy) = (s, (xy)∗ yy|t) = (s|yxxy t) = 0. It follows that Im(xy) is a
+totally isotropic subspace, thus maximal totally isotropic. On the other hand from the equality
+Im(xy) = Im(x) we find that this subspace is independent of the choice of y having the required
+properties.
+    In our case the correspondence x 7→ S(x) is not only an embedding, but also a bijection.
+This follows form the construction above, the covering homomorphism U (2, 2) → O(4, 2) and
+the fact that the pseudo–orthogonal group O(4, 2) (resp. unitary group U (2, 2)) acts transitively
+on totally isotropic subspaces of E (resp. of V ) of the same dimension - cf. [10, Corollaire 2,
+p. 74]
+    While isotropic lines Rx in E (or maximal isotropic subspaces S(x) in V ) correspond to
+the points of the compactified Minkowski space M c , there is an interesting duality: maximal
+isotropic subspaces (isotropic planes) in E are in one–to–one correspondence with isotropic
+(complex) lines in V, and they correspond to null geodesics in M c .4
+
+2.2    From maximal isotropic subspaces in E to isotropic lines in V.
+    We will use the method and the results of the previous subsection. Let N be a maximal
+isotropic subspace of E. Since, in our case, E = E4,2 , it follows that N is two–dimensional.
+It is then known [11, p. 77-78] that there exists another maximal isotropic subspace P such
+that N ∩ P = {0}, vectors x1 , x2 spanning N and vectors y1 , y2 spanning P, with the property
+(xi , yj ) = 2δij , i = 1, 2. We define Pi = xi yi , Qi = yi xi , and it easily follows that Pi2 = Pi ,
+Q2i = Qi , Pi + Qi = I, and, moreover, Pi and Qj commute for i 6= j. It follows R1 =
+P1 P2 , R2 = P1 Q2 , R3 = Q1 P2 , R4 = Q1 Q2 are four idempotents with Ri Rj = 0, i =
+1, 2, 3, 4, and R1 + R2 + R3 + R4 = I. It is easy to see that Tr(R1 ) = ... = Tr(R4 ). For instance
+                             1                     1                    1
+               Tr(R1 ) =       TrR (x1 y1 x2 y2 ) = TrR (y2 x1 y1 x2 ) = TrR (x1 y1 y2 x2 )
+                             2                     2                    2
+                           = TrC (P1 Q2 ) = Tr(R2 ),
+
+where we have use the fact y2 anticommutes with x1 and y1 , therefore commutes with x1 y1 .
+Therefore we have that dim Im(Ri ) = 1. Since Im(R1 ) ⊂ Im(x1 ), the subspace Im(R1 ) is an
+isotropic line.
+Let us now show that Im(R1 ) depends only on the subspace N and not on the choice of the
+auxiliary subspace P or a particular choice of our vectors xi and yi . For this end we first notice
+that Im(R1 ) = Im(x1 x2 ). Indeed, we evidently have Im(x1 y1 x2 y2 ) ⊂ Im(x1 x2 ). On the other
+hand assume that s ∈ Im(x1 x2 ), then, for some t ∈ V, we have
+
+                 s = x1 x2 t = x1 x2 (x1 y1 x2 y2 + x1 y1 y2 x2 + y1 x1 x2 y2 + y1 x1 y2 x2 ).
+
+Multiplying, using commutation properties and nilpotency of xi , we find that only the last term
+survives and it can be written as x1 x2 x2 y1 x1 y2 x2 t = x1 y1 x2 y2 (x1 x2 t). Therefore s ∈ Im(R1 ),
+                                         df
+and so we have shown that S(x1 , x2 ) = Im(R1 ) =PIm(x1 x2 ) does not depend on the choice
+of yi with the properties as above. Finally, if x0i = 2j=1 aij xj is a nonsingular transformation
+of the basis xi of N, then a simple calculation gives that x01 x02 = det(a) x1 x2 , and therefore
+Im(x1 x2 ) = Im(x01 x02 ).
+   4
+    It is important to notice that naturally M c carries only a conformal structure rather than a Riemannian metric.
+But null geodesics are the same for each Riemannian metric in the conformal class.
+
+
+                                                         6
+   There is an alternative way of looking at this correspondence: let v be a non–zero null vector
+in V, and let N (v) be defined as:
+
+                                            N (v) = {x ∈ E : xv = 0}.                                   (20)
+
+Then N (v) is a maximal isotropic subspace of E and Cv corresponds to N (v) according to
+the construction above. Indeed, it follows immediately from the construction that S(x1 , x2 ) ⊂
+N (v). To show that, in fact, equality holds, it is enough to show that N (v) is an isotropic
+subspace of E. If x2 6= 0, and x ∈ N (v), then for all w ∈ V we have 0 = (xv|xw) = −(w|x2 v),
+and therefore we must have x2 = 0.
+
+2.3 E4,2 as the arena for Lie spheres of R3
+   The space E4,2 carrying a natural linear representation of the conformal group O(4, 2) has
+been introduced by Sophus Lie in 1872 [12], and developed further by W. Blaschke in 1929
+[13]. We will follow the modern presentation of Ref. [14], though we will change the coordinate
+labels so as to adapt them to our notation introduced in section 1.1. It is instructive to see how the
+Lorentz, Poincaré and the conformal group naturally enter the scene without any philosophical
+load of Einstein’s relativity.
+We can assume absolute time. We can also assume absolute space, its points represented by
+coordinates of R3 , and compactified by adding one point: ∞, and absolute time, represented
+by points of R. An oriented sphere with center at x and radius r can be also interpreted as the
+coordinate of an ’event’ in space–time, taking place at x at time r/c.5 We allow for r to be
+negative, with the interpretation that negative radius corresponds to the negative orientation of
+the sphere. The radius r can be interpreted as the radius of a spherical wave at time t, if the
+wave, propagating through space with the speed light, was emitted at x at time t = 0. The image
+being that when the spherical wave reduces to a point, it turns itself inside–out, thus reversing its
+orientation. As a limit case there will also be spheres of infinite radius - represented by oriented
+2–planes - these will correspond to events that took place in infinitely distant past or future.
+Points (spheres of zero radius), spheres, and planes (spheres of infinite radius) are bijectively
+represented by generator lines of the null cone in E4,2 as follows (cf. [14, p. 16]):
+
+                                   Euclidean                                    Lie
+                                                                               2         2
+                                points: x ∈ R3                     [(x, 0, 1+x
+                                                                             2
+                                                                                 , − 1−x
+                                                                                       2
+                                                                                           , 0, 0)]
+                                      ∞                                     [(0, 0, 1, 1)]
+                                                                               2  2        2  2
+                       spheres: center x, signed radius t          [(x, t, 1+x2 −t , − 1−x2 +t )]
+                       planes: x · n = h, unit normal n                     (n, 1, h, h)]
+
+    Table 1: Correspondence between Lie spheres and points of the compactified Minkowski
+                     space. [x] denotes the equivalence class modulo R∗ .
+
+
+
+3       MYTHS AND FACTS
+
+    One of the ‘myths’ we have already encountered above. Minkowski space and its compact-
+ification arise naturally through the studies of geometry of spheres in R3 - it not necessary to
+invoke Einstein’s relativity principle, or restrict the range of available velocities, as it is usually
+    5
+        We will assume the system of units in which c, the speed of light, is numerically equal to 1.
+
+                                                            7
+being done. Second myth, more serious one, can be summarized in one sentence: ‘conformal
+infinity’ is the result of the conformal inversion of the light cone at the origin of M.’ Such a
+statement can be found, for instance, in [15, p. 127]. Conformal inversion is implemented
+by O(4, 2) transformation (x, t, v, w) 7→ (x, t, −v, w). Conformal infinity of M is represented
+by generator lines of the quadric Q(x) = 0 of the form (x, t, v, v). According to Table 1,
+the light cone x2 = t2 is represented in E by generator lines of the form [(x, t, 1/2, −1/2)].
+Applying conformal inversion we get [(x, t, −1/2, −1/2)]. Clearly the whole 2-sphere S 2 of
+[(x, 1, 0, 0)], x2 = 1 is missing. This two–sphere is located at conformal infinity and is
+pointwise invariant under the conformal inversion. The third myth is closely related, and
+it is usually summarized by giving to conformal infinity the name ‘light cone at infinity’ [16]
+or, sometimes, ‘double light cone at infinity’. For instance Huggett and Tod write [17, p. 36]:
+‘Thus M c consists of M with an extra null cone added at infinity.’ Not only they write so in
+words, but also miss this S 2 in their formal analysis. A pictorial representation of the confor-
+mal infinity (suppressing just one dimension) is that of one of the degenerate cases of Dupin
+cyclides6 - so called needle (horn) cyclide [18, Fig. 6, p. 80], [14, Fig. 5.7, p. 156], or, in
+French, croissant simple [19]:
+
+
+
+
+Figure 1: Pictorial representation of the conformal infinity with one dimension skipped. ‘Double light cone at
+infinity’ , with endpoints identified. While topologically correct such a name is misleading as it suggests non
+differentiability at the base, where the two half-cones meet - cf. [1]. The ill-fated sphere S 2 is marked.
+
+
+
+
+4       CONCLUDING COMMENTS
+
+    We discussed, briefly, several interesting properties of the compactified Minkowski space -
+an important homogeneous space for the conformal group, the group of symmetries of Maxwell
+equations discovered long ago. Conformal group appears to be important in several areas of
+physics, mathematics, also in computer graphics and pattern recognition. It is quite possible that
+its full potential has not yet been exhausted. One of the interesting properties of the conformal
+group is that it is the first element in a sequence of group contractions [20]: conformal group,
+Poincaré group, Galilei group. The Lie algebra of the conformal group, as demonstrated by
+    6
+        The exact connection of these two concepts is not known to the present author at the time of this writing.
+
+
+                                                            8
+I. Segal in the final part of his 1951 paper [21]7 , does not result as a limit of some other Lie
+algebra. Segal has constructed the foundations of his cosmological model [23] starting from the
+compactified Minkowski space and its universal covering space, a model with some difficulties,
+but also with some promises if connected with elementary particle physics (cf. [24], (see also
+R. I, Ingraham, via a somewhat different, but related path [25], and a recent paper extending
+the idea of Segal’s chronogeometry in new directions, by A. V. Levichev [26]). Segal himself
+did not really touch the problem of placing gravity within his framework. But recent papers
+(cf. [26] and references therein) seem to point at the possibility of realizing gravity along the
+lines suggested also by Waldyr Rodrigues in his monograph written with V. V. Fernández [27]:
+gravitation is somehow related to ‘quantum fluctuations of the vacuum’. The geometrical arena
+for such a description can be either Minkowski space or, what seems to be more attractive to
+the present author, one of the homogeneous spaces of the conformal group (or its covering).
+
+
+5        ACKNOWLEDGEMENTS
+
+  The author thanks Pierre Anglès for reading the paper, his kind encouragement and advice,
+and for constructive and critical comments.
+
+
+
+REFERENCES
+
+    [1] Arkadiusz Jadczyk, On Conformal Infinity and Compactifications of the Minkowski
+        Space , Advances in Applied Clifford Algebras, DOI: 10.1007/s00006-011-0285-5, 2011
+
+    [2] René Deheuvels, Formes quadratiques et groupes classiques , Presse Universitaires de
+        France, Paris, 1981
+
+    [3] Leszek Z. Stolarczyk, The Hodge Operator in Fermionic Fock Space , Collect. Czech.
+        Chem. Commun. 70, 979–1016, 2005
+
+    [4] W. Kopczyński and L. S. Woronowicz, A geometrical approach to the twistor formalism ,
+        Rep. Math. Phys. Vol 2, 35–51, 1971
+
+    [5] H. Bateman, The Conformal Transformations of a Space of Four Dimensions and their
+        Applications to Geometrical Optics , Proc. London. Math. Soc. (ser. 2), 7, 70–98, (1909)
+
+    [6] E. Cunningham, The Principle of Relativity in Electrodynamics and Extension Thereof ,
+        Proc. London. Math. Soc. (ser. 2), 8, 77–98, (1910)
+
+    [7] H. Bateman, The Transformation of the Electrodynamical Equations , Proc. London. Math.
+        Soc. (ser. 2), 8, 223–264, (1910)
+
+    [8] René Deheuvels, Tenseurs et Spineurs , Presse Universitaires de France, Paris, 1993
+
+    [9] Pierre Anglès, Conformal Groups in Geometry and Spin Structures, Birkhauser, Progress
+        in Mathematical Physics, Vol. 50, 2008
+
+[10] N. Bourbaki, Éléments de Mathématique, Algèbre, Chapitre 9 , Springer, Berlin, 2007
+     7
+         Cf. also [22]
+
+                                                 9
+[11] Chevalley C., The algebraic theory of Spinors, Columbia University Press, New-York,
+     1954
+
+[12] Sophus Lie, Über Komplexe, inbesondere Linien- und Kugelkomplexe, mit Anwendung
+     auf der Theorie der partieller Differentialgleichungen , Math. Ann., 5, 145-208, 209-256
+     (Ges. Abh. 2, 1121), 1872
+
+[13] Wilhelm Blaschke, Vorlesungen über Differentialgeometrie und geometrische Grundla-
+     gen von Einsteins Relativitätstheorie , Vol. 3, Springer-Verlag, Berlin, 1929
+
+[14] Thomas E. Cecil, Lie Sphere Geometry, Springer–Verlag, New York, 2000
+
+[15] Maks A. Akivis, Vladislav V. Goldberg, Conformal Differential Geometry and its Gener-
+     alizations , A Wiley Interscience Publications, New York (1996)
+
+[16] Roger Penrose, The Light Cone at Infinity , in “Relativistic Theories of Gravitation”, ed.
+     L. Infeld, Pergamon Press, Oxford, 369–373, 1964
+
+[17] S. A. Huggett, K. P. Tod, An Introduction to Twistor Theory, Cambridge Univ. Press, 1994
+
+[18] Michael Scrott, Boris Odehnal, Ortho-Circles or Dupin Cyclides , Journal of Geometry
+     and Graphics, 1, 73–98, 2006
+
+[19] Robert Ferréol, CYCLIDE DE DUPIN, Dupin’s Cyclide, dupinsche Zyklide ,
+     http://www.mathcurve.com/surfaces/cycliddedupin/cyclidededupin.shtml
+
+[20] E. Inonu and E. P. Wigner, On the contraction of groups and their representations , Proc.
+     Nat-Acad. Sci 39, 510–524, 1953; cf also Erdal Inonu, A Historical Note on Group Con-
+     tractions, http://www.ysfine.com/wigner/inonu.pdf
+
+[21] I. E. Segal, A class of operator algebras which are determined by groups , Duke Math, J.
+     18, 221–265, 1951
+
+[22] I. E. Segal, Maxwell’s Equations in the Einstein Universe and Chronometric Cosmology ,
+     Astrophysical Journal, Suppl. Series, 100, 307–324, 1995
+
+[23] I. E. Segal, Mathematical Cosmology and Extragalactic Astronomy , Academic Press, New
+     York, 1976
+
+[24] I. E. Segal, H. P. Jacobsen, B. Ørsted, S. M. Paneitz and B. Speh, Covariant chrono-
+     geometry and extreme distances: Elementary particles , Proc. Natl. Acad. Sci. USA, 9,
+     5261–5265, 1981
+
+[25] R. I. Ingraham, Particle masses and the fifth dimension , Ann. Found. Louis de Broglie, 29
+     Hors série, 989–1004
+
+[26] A. V. Levichev, Pseudo–Hermitian realization of the Minkowski world through DLF the-
+     ory , Phys. Scr. 83, doi:10.1088/0031-8949/83/01/015101, 2011
+
+[27] V. V. Fernández and W. A. Rodrigues Jr., Gravitation as a Plastic Distortion of the Lorentz
+     Vacuum , Fundamental Theories of Physics 168, Springer, Heidelberg, 2010.
+
+
+                                               10
+

@@ -1,0 +1,68 @@
+
+
+Irving Ezra Segal (1918–1998) · Vol. 31, Issue 4
+
+Skip to main content
+
+Search
+Dashboardcaret-down
+LoginLogin or Signup
+
+Home
+Community Reports
+News & Commentary
+Meeting Abstracts
+Obituaries
+About
+AAS Publishingcaret-down
+
+Vol. 31, Issue 4
+Vol. 31, Issue 4
+
+Obituary
+
+Published on Jan 01, 1999
+
+Irving Ezra Segal (1918–1998)
+by Jeff Nicholl
+Published onJan 01, 1999
+
+Cite
+
+Social
+PDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX Download
+
+Download
+
+last released
+5 years agoIrving Ezra Segal (1918–1998) - Release #1
+
+Show details
+
+Irving Ezra Segal (1918–1998)
+
+Irving Ezra Segal, a long time member of the AAS, died suddenly 30 August 1998, a few weeks short of his 80th birthday.
+He received his PhD from Yale at the age of 22; after war work at Princeton and the Aberdeen Proving Ground, he spent several years at the Institute for Advanced Study, moving on to the University of Chicago (1948-1960) and then MIT. He supervised 40 PhD students including Edward Nelson, Bertram Konstant, and Leonard Gross. He held three Guggenheim Fellowships, was elected to the National Academy of Sciences in 1973, and won the Humboldt Award in 1981. He was the author of several books and over 200 papers in mathematics and physics.
+His work focused on application of mathematics to physics. Segal thought that worthwhile mathematics deepened our fundamental understanding of physical law. In order to build this foundation, he ranged far and wide in algebra, group theory, and functional analysis. He established a program for a rigorous constructive quantum field theory: for example, replacing the description of operators on a Hilbert space, with the C*-algebra of observables, to which a sounder mathematical description applied. The work of the last 30 years brought Segal into contact with astronomers. It began 50 years ago with an observation in his theory of group deformations. He noted that just as the Galileo group was a limiting case of the inhomogeneous Lorentz group (as c tends toward infinity), the Lorentz group was a limiting case of the conformal group (as some length, later identified with the radius of the universe, R goes to infinity). This, relationship and the corresponding one between Minkowski space and the universal cover of its conformal compactification, essentially R 1 × S3, was very, fruitful. Segal and his students demonstrated a divergence-free QED, a rigorous nontrivial φ4 theory, and alternative approaches to parity violation, among other results. In addition, the larger group permitted the definition of two different time coordinates, a global clock defined on R 1× S 3 (the R 1) and Minkowski clock, "tangent" to the global time, but at larger distances mixing space and time components. Two clocks imply two energy operators, the first corresponding to the "curved" time and the second to the flat time. If one hypothesizes that the curved energy is conserved, but the flat energy is the energy measured, the result is a redshift dependent on distance: The redshift-distance relation for small distances is z = constant r2 in contrast to the linear law. Segal's r- z relationship is not completely foreign: it is the standard relationship in the limit of an infinite deceleration parameter, q0 (Zeldovich (private communication) pointed out that adjusting the cosmological constant produces a cubic law!).
+The application of these insights to cosmology was controversial. With the chronometric approach, a number of phenomena had alternate descriptions: for example, quasar absolute magnitudes were greatly reduced and there was no evidence for luminosity or density evolution. However, it was the conflict between the square and linear laws which provided the major stumbling block. In a long series of papers, Segal and his co-authors tirelessly examined data set after data set and catalog after catalog, applying statistical analysis to compare the chronometric to the standard cosmological model, focusing on the characterization of large samples where available.
+The number of astronomers convinced was small, with experimentalists providing a slightly more favorable reception than theoreticians. Occasionally, the controversy was quite theatrical. A younger colleague of Segal was assaulted on Massachusetts Avenue by an astrophysicist still fuming from a Segalian conversation, and the publication of all the correspondence to and from Cambridge would be delightful. Particularly vituperative referee reports were always posted on his office door, some years overflowing onto the walls. Tee-shirts emblazoned with "Save Energy—Stop the Expansion of the Universe" can still be seen in Harvard Square. Whatever the final judgment is on the chronometric theory, Segal's contributions to mathematics and mathematical physics have already had profound influence. Segal will be remembered for his conviction that the proper role of mathematics is to illuminate physics and his constant, irascible charm. We will also remember the perfect host, pouring wine for many a dinner, discussing physics, mathematics, philosophy, the proper preparation of coffee, and life.
+
+License
+
+Creative Commons Attribution 4.0 International License (CC-BY 4.0)
+
+Comments
+
+0
+
+comment
+
+No comments here
+
+Bulletin of the AAS
+AAS Privacy Policy
+AAS Terms of Use
+RSS
+Legal
+
+Published with

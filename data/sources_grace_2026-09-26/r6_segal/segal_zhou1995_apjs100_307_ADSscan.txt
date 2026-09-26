@@ -1,0 +1,1186 @@
+1995ApJS. .100. .307S
+                        The Astrophysical Journal Supplement Series, 100:307-324,1995 October
+                        © 1995. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+
+
+
+                                  MAXWELL’S EQUATIONS IN THE EINSTEIN UNIVERSE AND CHRONOMETRIC COSMOLOGY
+                                                                                   I. E. Segal2 and Z. Zhou3
+                                                                         Received 1993 October 29; accepted 1995 February 21
+                                                                                     ABSTRACT
+                                    The theoretical basis for chronométrie cosmology is developed from general physical principles of causality,
+                                 cosmic uniformity, and quantum phenomenology. Empty spacetime M is assumed to be the unique alternative
+                                 to Minkowski space Mo that enjoys similar properties of causality, isotropy, and separability into time ® space.
+                                 At any given point in Mo there is a unique Poincare-invariant imbedding of Mo into M, and every normalizable
+                                 free photon wave function on Mo extends uniquely to the same on M. These features provide a basis for the
+                                 comparison of astronomical observables in the respective spacetimes.
+                                    Temporal evolution on a cosmic timescale differs greatly in M from temporal evolution in Mo, but on a mi-
+                                 croscopic scale the difference appears unobservably small. M is conformally equivalent to the Einstein universe
+                                 E = Æ1 X S3, (where R1 denotes the time axis and S3 the space consisting of a three-dimensional sphere). Tem-
+                                 poral evolution in M is equivalent to that in E; i.e., simple translation along the time axis R1. This is materially
+                                 inequivalent to time evolution in Mo. The “Einstein” and “Minkowski” energies in M and Mo (i.e., conjugate
+                                 quantities to the respective times) are correspondingly materially different on a cosmic timescale, although mi-
+                                 croscopically they differ by unobservably little. Chronometrie cosmology (CC) proposes that the Einstein energy
+                                 is the driving energy of the universe, while the Minkowski energy is the locally observed energy, as required for
+                                 coincidence with the local frequency of oscillation. The redshift is correspondingly the excess of the Einstein over
+                                 the Minkowski energy. CC is devoid of adjustable cosmological parameters, luminosity, or density evolution,
+                                 implies conservation of the Einstein (but not Minkowski) energy, and predicts that remnant radiation will be in
+                                 an isotropic Planck-law state.
+                                    The redshift-distance law in CC, which takes the form z = tan2 (p/2), where p is the distance in radians on S3,
+                                 is derived rigorously for photons of localized spatial support. This relation departs locally from the Hubble law,
+                                 which, however, appears seriously flawed (e.g., Segal 1993; Segal et al. 1993, 1994a,b). The chronométrie redshift
+                                 is directly proportional to the space curvature, exemplifying the proposal by Hubble & Tolman ( 1935), for an
+                                 alternative to the Doppler explanation.
+                                 Subject headings: cosmology: theory — distance scale — MHD
+
+
+                                                                 1. CAUSALITY AND SYMMETRY IN SPACETIME MODELS
+                                                                                         1.1. Introduction
+                            Chronometrie cosmology (CC) is basically an adaptation of principles expressed by Mach, Einstein, and Minkowski to the
+                        formulation of a non-Doppler, temporally homogeneous, “essentially static” model for the redshift. In his seminal paper “Space
+                        and Time,” Minkowski ( 1908) explained special relativity as a logical deduction from symmetry principles. In modem terms, his
+                        point was essentially that the boost (Lorentz) generators x0dj + {xj/c^do (where dj = d/dx/, 7 = 0, 1, 2, 3) converge as c ^ oo to
+                        the corresponding Galilean generators XqSj and suggest thereby a more fundamental character for the Poincaré than for the Galilean
+                        group, particularly in view of the Poincaré invariance of the Maxwell equations. In CC, the temporal evolution generator d0 in the
+                        Poincaré group is similarly obtained from the temporal evolution generator dt in the Einstein universe E as its radius R -► oo ( where
+                        t is the time in E). The inclusion of the Einstein temporal evolution among the fundamental symmetries gives rise to the conformal
+                        group, under which the Maxwell equations were shown to be invariant by Bateman (1910) and Cunningham (1910). The Einstein
+                        temporal evolution generator dt differs from the Minkowski generator d0 by a fixed differential operator proportional to the space
+                        curvature 1 /R, thus exemplifying the suggestion by Hubble & Tolman (1935) that a more natural origin for the redshift than by a
+                        cosmic motion would be a space curvature effect.
+                           The predictions of CC for observable relations in objectively selected samples of extragalactic sources at both high and low
+                        redshifts have been consistent with observation, without luminosity or density evolution, in a wide range of published samples (cf.
+                        Segal 1993; Segal et al. 1993, 1994a, b, and references therein). The theoretical basis for CC is, however, technically somewhat
+                        sophisticated, involving group theory and Hilbert space considerations. This article is devoted to the clarification of the basic
+                        principles of CC, in particular its formulation of cosmic uniformity and the derivation of its redshift-distance law.
+
+                          1
+                          2
+                            Dedicated to the memory of Oswald Veblen, who first explored the physical relevance of conformal spacetime.
+                          3
+                            Massachusetts Institute of Technology, Cambridge, MA 02139.
+                           Michigan State University, East Lansing, MI 48824.
+                                                                                                 307
+
+
+
+                                     © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        308                                                                 SEGAL & ZHOU                                                                     Vol. 100
+                           Section 1.2 surveys the principal ideas. The universal cosmos, on which CC is based, is described in § 1.3. The meaning and
+                        observational significance of cosmic uniformity is developed in § 1.4. The derivation of unique local Minkowski coordinates from
+                        cosmic uniformity is treated in § 1.5. The microscopic form of CC in the limit of an infinite cosmic distance scale is identified with
+                        relativistic quantum mechanics in § 1.6.
+                           Section 2 treats cosmic aspects of normalizable photons. Section 2.1 sets up the photon Hilbert spaces in Minkowski and universal
+                        spacetimes. Section 2.2 clarifies the structure and physical interpretation of the energy operators in these spacetimes. Section 2.3
+                        develops the analytic relations between photons in the respective spacetimes.
+                           Section 3 treats redshift theory in CC. The key ideas are first developed in two spacetime dimensions, via the Schrôdinger and
+                        Heisenberg pictures, in §§3.1 and 3.2, respectively. Section 3.3 treats the redshift as a perturbation by an interaction Hamiltonian.
+                        The physical case of four dimensions is treated via the Schrôdinger and Heisenberg pictures in §§ 3.4 and 3.5. Section 4 provides
+                        discussion and conclusions.
+                          The papers by Paneitz & Segal ( 1982a, b) and Paneitz ( 1983) will be referred to as PI, P2, and P3.
+                          Among a number of excellent reviews of the topics involved in the following, we note especially those of Hoyle & Narlikar
+                        (1974), Wesson (1980), and Will (1992).
+
+                                                                                        1.2. Preliminary Survey
+                           In CC, energy is defined in correspondence to the temporal evolution group in the Einstein universe and is conserved, as in
+                        traditional microphysics. The redshift arises because this group differs from the corresponding one in the osculating flat Minkowski
+                        space at the point of observation, in terms of which the simplest observations are made and reduced. The generator of temporal
+                        evolution in this local Minkowski space corresponds to the usual relativistic energy that is measured by extant local apparatus but it
+                        is fundamentally inequivalent to the generator of temporal evolution in the global Einstein universe. The latter generator necessarily
+                        exceeds the former, not by theoretical fiat but in an intrinsic mathematical way, giving rise to a spectral shift to the red for the energy
+                        as measured by the former. But in relation to phenomena of small temporal duration and spatial extent, the two energies are almost
+                        identical.
+                           CC arose originally as a natural application of the Ansatz that Minkowski ( 1908 ) advanced to explain the essential idea of special
+                        relativity (cf. Segal 1951). In modem terms, e.g., of Lichnerowicz (1988) & Faddeev (1989), special relativity is essentially a
+                        deformation of Newtonian physics, to which it tends as c -► oo (briefly put). Quantum theory is a similar deformation, of classical
+                        physics, as ñ      0. If we take into account the fact that physics requires three fundamental units, it is natural to consider the
+                        introduction of a fundamental length, as emphasized by Heisenberg ( 1946 ). CC exemplifies Minkowski’s Ansatz, to the effect that
+                        improved physics may require the introduction of a new symmetry group, which tends to the traditional one in the extreme limit
+                        of a new fundamental parameter. This new parameter however, is, the cosmic distance scale            rather than the microscopic length
+                        that Heisenberg contemplated, to the end of eliminating the ultraviolet divergences of quantum field theory. Somewhat paradoxi-
+                        cally, the introduction of this cosmic length effectively removes these divergences in quantum electrodynamics and other nonlinear
+                        quantum field theories (see, e.g., Segal & Zhou 1992, 1994).4
+                           Indeed, the intractability of the ultraviolet divergences in quantum field theory had earlier led Schwinger ( 1958 ) to conclude that
+                         “a convergent [nonlinear local quantum field] theory cannot be formulated within the framework of present spacetime concepts,”
+                         somewhat foreshadowing such a result. More specifically, CC basically postulates that the proper spacetime arena for fundamental
+                        physics is a variant of Minkowski space that has been called the Einstein-Maxwell cosmos. This spacetime M is conformally
+                        equivalent to the Einstein universe E at the same time that it is the maximal spacetime to which Maxwell’s equations canonically
+                        extend. In the language of quantum field theory, it is a bare spacetime, meaning that conceptually it precedes the introduction of
+                        interactions; in classical terms, it is an empty, free, or reference spacetime, whose metric, moreover, is specified only within con-
+                        formal equivalence. In mathematical terms, the Einstein-Maxwell cosmos M is the homogeneous space consisting of the simply
+                        connected form of the quotient of the conformal group G* = SU(2,2) by its maximal parabolic subgroup P*, as endowed with the
+                        unique locally Minkowskian causal structure that is invariant under G *. There is no invariant metric under the conformal group G
+                        ofM.
+                           However, there is an invariant fundamental length. This is the distance between antipodal points, when M is represented by the
+                        Einstein universe as the conjunction of a time axis represented by the real line Rl with a three-dimensional spherical space S3.
+                        There is an eight-parameter family of such representations of M as E, which are distinct but conformally equivalent. Although
+                        conformal transformations on E cannot, and do not, leave invariant the Einstein metric dt2 — ds2 mYi (where units are chosen so
+                        that c = R= \,R being the radius of S3, and t the time and ds the element of arc length on S3 ), they map antipodal points in space
+                        (irrespective of the time) into points whose distance is tt.
+                           The “bare” spacetime M acquires structure from the energetic contents of the universe by a natural interpretation of Mach’s
+                        principle in this context. ( In quantum field theoretic terms, M becomes “clothed” and takes the form of the Einstein universe E.
+                        More specifically, the contents of the universe, i.e., its state, determine a time® space frame in which the energy (which is definable
+                        as the expectation value in this state of the infinitesimal generator of time evolution) is minimal. In this way, the contents of the
+
+                           4
+                             There is little direct observational evidence of a fundamental length scale. Its main justification is that its introduction leads to accurate and informa-
+                        tionally efficient predictions of observed redshift phenomena. It may be noted, however, that while other basic constants such as G could equally be used to
+                        complete the set of fundamental units, the distance scale R is unique in its conformal invariance ( Segal 1982).
+
+
+
+
+                                      © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        No. 2, 1995                                MAXWELL’S EQUATIONS IN EINSTEIN UNIVERSE                                                                          309
+                        universe break down its symmetry from the 15 parameter conformal group G applicable to empty spacetime M to the seven-
+                        dimensional essential isometry group K of physical spacetime, as represented by the Einstein universe E. The group K is character-
+                        ized in purely mathematical terms as the maximal essentially compact subgroup of G ; there is an eight-parameter family of such
+                        subgroups, all of which are obtainable from any particular one by a conformal transformation.
+                           This framework may appear to depart from the philosophical principle that spacetime exists only as a manifestation of its ener-
+                        getic contents. However, CC essentially coordinates this principle with the standpoint introduced into quantum field theory by the
+                        advent of renormalization theory. Just as there is a mathematical equivalence between bare and free physical particles, there is one
+                        between bare (theoretical) spacetime and free (physical) spacetime, i.e., that in which active interaction is insignificant (cf. also
+                        Fock 1964). The Einstein equation represents in CC the simplest causal equation for the propagation of the local versions of the
+                        Einstein universe that would arise from perturbations of the bare” Minkowskian causal structure by local concentrations of matter
+                        and energy. The local causal structure determines the local metric, apart from a local scale factor. Globally this scale factor is the
+                        cosmic distance scale R, or radius of space S3, but it attains a microscopic interpretation from the fact that the minimal energy of
+                        Maxwell photons in M (the energy spectrum being discrete) is 2R~l, i.e., twice the space curvature, in units in which c = ft = l.5
+                           The absence of an invariant metric under G may appear at first glance as a blemish, but in fact it is an advantageous feature that
+                        facilitates the reconciliation of the Newtonian with the Huygens-Leibniz standpoints regarding space and time. It makes possible
+                        an objective distinction between reference, or free spacetime, which has a highly symmetrical causal structure, and physical space-
+                        time, which has a metric structure reflective of the actual state of the universe and so is symmetrical only to a reduced extent and
+                        on the largest scale. On the cosmic scale, this state is represented in CC by E. But on a smaller scale, e.g., of the solar system, there
+                        will be perturbations that reduce or eliminate symmetries, which in principle could affect the redshift in CC as well as in FLC. It
+                        will be assumed here—as usually done in cosmological theories—that this relatively small scale effect is negligible relative to the
+                        cosmic redshift in free space, which in clothed form is represented as E. (See also Segal 1984a.6)
+                           The position of Huygens and Leibniz was updated by Mach and Einstein and is generally considered correct from a fundamental
+                        position. However, the Newtonian position is essential for practical purposes and is in effect adopted by modern quantum field
+                        theory. This deals with “free” physical particles whose freedom is inexact, from a fundamental position. In particular, the interac-
+                        tion of these particles with the background universe is neglected, and the free particles inhabit a Poincare group invariant spacetime
+                        whose structure is unaffected by the particles. Similarly, in CC, photons inhabit the conformally invariant spacetime M, whose free
+                        structure is considered substantially independent of any microscopic system of particles. In a more exact theory local variations in
+                        spacetime metric deriving from isolated concentrations of matter and energy would also be involved, but we operate here on the
+                        assumption that they do not have a presently measurable affect on the general cosmic redshift, much as gravitational forces are
+                        usually neglected in particle theory.
+                           Hubble & Tolman ( 1935 ), among others, expressed doubts about the Doppler explanation for the redshift and suggested that it
+                        would be more intelligible as a space curvature effect. In fact, the expression for the chronométrie redshift in terms of Minkowski
+                        coordinates, as the difference between the Einstein and Minkowski energies, shows that it varies directly as the space curvature, in
+                        literal exemplification of this idea.
+                           As special relativity applies to all of physics and not merely to electromagnetic radiation, the theory from which it developed, so
+                        the role of the Einstein energy would be expected to drive temporal evolution not merely for the Maxwell field, but for all fields,
+                        massive or massless. Detailed consideration of massive fields is beyond the scope of the present article, and we note here only an
+                        apparent possible physical interpretation of the analog to the redshift for such fields. We observe the following:
+                           1. The excess E - Eqoï the Einstein energy E over the Minkowski energy EQ vanishes to second order in the distance from the
+                        point of observation and so represents locally a type of superweak force that would not be expected to contribute significantly to
+                        local particle production;
+                           2. E - E0 is inherently positive, and vanishes only in the limit of a pointlike system, indicating that E - E0 represents an
+                        attractive force;
+                           3. E- E0 transforms identically to the Newtonian gravitational potential under scaling and Euclidean transformations.
+                        One is thereby led to the proposal that the diffuse energy E- E0 may primarily represent what is otherwise familiar as gravitational
+                        energy. However, the absence of any large systematic nontrivial body of measurements on large-scale gravity implies that the
+                        validation of any theory of gravity on the cosmic scale cannot be directly empirical. Nevertheless, the analysis thus far suggests that
+                        the chronométrie redshift may be regarded as gravitational in a generalized sense and thus in a direction similar to that proposed by
+                        Zwicky (1929).
+                           In its more developed form applicable to massive particles, CC appears coherent with the Einstein equivalence principle as well
+                        as with Mach’s principle. More specifically, since local accelerations may be represented up to a certain order of approximation as
+
+                            5
+                              Both the Maxwell and the neutrino equations, and their solutions, extend uniquely and Lorentz-covariantly from Mo to M (PI, P2, P3). Although the
+                        ( relativistic ) energy spectrum of the photon and neutrino extend down to zero in Mo, the ( Einstein ) energy spectrum in M has a strictly positive lowest level.
+                        In units in which h = c = R= 1, the lowest neutrino energy is 3/2, and the lowest photon energy is 2 (PI, P2, P3). If mass is understood as rest energy, these
+                        particles have nonvanishing mass in M. The value of this “Einstein” mass is, however, far below the threshold of observability, if R is of the order of
+                        magnitude
+                            6
+                                      of any recent estimates of the cosmic distance scale.
+                              The well-known theory of N. Rosen involves two metrics, a feature that is also present in chronométrie theory. Rosen’s theory has, however, little if any
+                        connection with redshift observations and, unlike chronométrie theory, is not conformally covariant, among other differences.
+
+
+
+
+                                      © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        310                                                                  SEGAL & ZHOU                                                                      Vol. 100
+                        infinitesimal conformal transformations, the equivalence principle may be correspondingly formulated as the infinitesimal confor-
+                        mal invariance of the fundamental forces. From a modem standpoint it is then natural to exponentiate this infinitesimal law,
+                        arriving at the global conformal invariance of the (bare) fundamental fields and their interactions. Of course, in their physically
+                        observed form, which is structured by the mutual interactions of all particles on the longest time and distance scale, in accordance
+                        with the present more specific form of Mach’s principle, invariance is restricted to that represented by the cosmos on this very large
+                        scale, i.e., to the isometry group K of E.7
+                          This interpretation of the equivalence principle may appear in conflict with the noninvariance of the wave equations for particles
+                        of given non vanishing mass under scaling (not to mention special conformal transformations). However, invariance of the funda-
+                        mental forces under given symmetries by no means automatically implies invariance of the vacua or equilibrium states of their
+                        corresponding interacting quantized field. Thus physically, the cosmic microwave background cannot even be Lorentz, or a fortiori
+                        conformally, invariant. In this context, Mach’s principle has a natural formulation, essentially to the effect that the mass of a stable
+                        massive particle is the expected value of its interaction energy with the background universe, as it has evolved over a cosmic time
+                        period.8
+
+                                                                                         1.3. Universal Spacetime
+                            The principal features of the spacetime in which CC takes place will now be specified. This spacetime is universal in several
+                         senses, e.g., it contains as submanifolds all other four-dimensional manifolds endowed with causal structure admitting symmetries
+                         that implement spatial and temporal isotropy ( e.g., Segal 1976b ). It will be called the universal cosmos ( for greater clarity, “cosmos”
+                         is used to indicate the inclusion of time and “universe” to refer primarily to space) and denoted as M. It can be defined succinctly as
+                         the conformal manifold represented by the Einstein universe E; however, it differs fundamentally from E in having a 15 parameter
+                         symmetry group, in contrast to the seven-parameter symmetry group of E. In CC, E is only approximately fixed, and may evolve
+                         in time (i.e., the factorization of M as iU ® S3 may evolve), in accordance with conformal transformations generated by “cosmic
+                         interactions (e.g., Segal 1984a). However, within the limits of present measurability, the simple fixed version of E is consistent with
+                         objective direct observations. The theoretical small fluctuations in the inertial frame of the universe, as represented by E, have no
+                        effect on the theoretical empty ( “bare” ) spacetime M, which has no invariant separation into time and space components.
+                            The Einstein universe E (Einstein 1917; Möller 1972) is the manifoldRX®S3, whereR1 denotes the one-dimensional time axis
+                        consisting of the real line, and S3 denotes the space component consisting of a three-dimensional sphere, with the metric c2 dt2 —
+                        R2 ds2, where c and R are positive constants, t is the time coordinate, and ds is the element of arc length on S'3 in radians. In units
+                        in which c = \ = R, the metric is simply dt2 — ds2. E admits a 15 parameter family of transformations that change its metric only
+                        by a positive spacetime dependent factor ; these are the conformal transformations on E.
+                            Conformality is a technical mathematical concept, and in order to emphasize the directly observed aspect and clarify the notions
+                        of time that are involved below, we formulate our treatment in terms of the physical concept of causality. In the present context,
+                        the two notions of causality and conformality are virtually equivalent, so that nothing is lost thereby, while the physical interpreta-
+                        tion becomes more explicit and the formalism adaptable to generalizations.9
+                            To explain the role of causality in the present connection, we begin with the simpler case of Minkowski space, whose causal
+                        structure is well known. At each point of Mo, there is a future cone and a past cone, which are interchanged by time reversal. This
+                        gives rise to a notion of temporal precedence, according to which a point p precedes a point q in case q is in the future of /?, defined
+                        specifically as /? + C, where C is the cone of all points x: in Mo whose coordinates Xj satisfy the inequalities Xq> 0,Xo — x2 - x2 —
+                        x2 > 0. We denote this relation asp <q. This binary physical relation completely determines Mo, including its linear structure and
+                        metric, within a scale factor, and is entirely independent of the coordinate system or choice of origin. In particular, let T denote a
+                        one-to-one transformation that maps every point of Mo into another point of Mo, and such that every point of Mo is included in
+                        the range of T. Suppose also that whenever p<q, then T(p) T(q) and vice versa. Then T is necessarily a transformation of the
+                           7
+                             The Einstein equivalence principle, that observation of the laws of physics is unaffected by a local acceleration, is effectively tantamount to infinitesimal
+                        conformal invariance of the fundamental laws, inasmuch as infinitesimal local accelerations may be represented by infinitesimal conformal transformations.
+                        Normally in theoretical physics, if a symmetry appears valid infinitesimally, it is considered likely to hold globally. This is not readily formulated in
+                        Minkowski space, in which there are singularities in the action of global conformal symmetries. However, it is quite possible in the larger universal spacetime
+                        that underlies chronométrie theory. The conformal group operates without singularities on universal spacetime, and the singularities in its action on
+                        Minkowski space arise because it is carried into universal spacetime by all transformations other than those of the 11 parameter Weyl subgroup. The
+                        connection between the infinitesimal and global invariance here is identical to that between infinitesimal and global transformation groups, whose theory
+                        was8 initiated by S. Lie more than a century ago.
+                             Invariance of the fundamental forces” is understood here in the same sense as in quantum field or particle theory. In these subjects, the forces are
+                        represented by an interaction Lagrangian. These forces are said to be invariant under a given transformation if the action integral of the Lagrangian is a
+                        scalar invariant. Compare more specifically Paneitz, Segal, & Yogan ( 1987), where a possible unified conformally invariant interaction Lagrangian for
+                        chronométrie
+                           9
+                                        theory is presented.
+                             The conformal group of spacetime, of 15 parameters, must be distinguished from the conformal group of space, of 10 parameters. Only the former group
+                        represents causal transformations, i.e., those that leave invariant the relation of temporal precedence in spacetime. Moreover, conformal transformations
+                        on the space component of spacetime are not necessarily extendable to conformal transformations on spacetime. The most familiar ones, such as six-
+                        parameter isometry groups of Euclidean or spherical space, have this property, but it is not generically possible to causally extend conformal transformations
+                        on space to all of spacetime.
+                           The conformal group has played a role in other cosmological theories, such as that of Hoyle & Narlikar ( 1974), but without essential use of transforma-
+                        tions that mix space and time, such as the imbedding of Mq into M. The steady state theory resembles chronométrie theory in its temporal homogeneity and
+                        infinite timescale, but differs in its Doppler source for the redshift and in its lack of energy conservation, which features it shares with the big bang theory.
+
+
+
+
+                                       © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                         No. 2, 1995                         MAXWELL’S EQUATIONS IN EINSTEIN UNIVERSE                                                        311
+                        form Tx = \Ax + y, where X is is a positive constant, ^ is a Lorentz transformation, and y is a fixed vector. This theorem is due to
+                        Alexandrov & Ovchinnikova (1953) and was rediscovered by Zeeman ( 1964 ) ; cf. also Alexandrov (1967).
+                           The set of all causal transformations T thus forms a group P, of all scale-extended Poincare transformations on Minkowski space
+                        that are connected to the identity, where the scaling operation is defined as the transformation x -► \x. This is an 11 parameter
+                         group of which the usual Poincare group P0 is a 10 parameter subgroup. Discrete (time or space reversing) symmetries are excluded
+                         here, and we use the terms “conformal” or “isometry” groups of a manifold to refer only to the connected component, unless
+                         otherwise indicated.
+                           It is natural to presume that any bona fide physical transformation T will preserve causality, but physical observation is a local
+                        process, and there exist transformations that preserve causality locally and are not in the group P. It will be seen that time evolution
+                        in E appears locally in Mo, as imbedded in E, as one of these transformations. Such locally causal transformations, constituting the
+                        local conformal group in Mo, ultimately become singular as they act on regions at large distances in Mo, i.e., they cannot be defined
+                        on all of Mo as a transformation into Mo. It will be seen, however, that they can be represented in a precise and invariant way as
+                        mapping M© into M, into which it will be seen Mo may be causally and covariantly imbedded. In this representation, the group P
+                        operates in the usual way on Mo, leaving it invariant, but no other nontrivial conformal transformations leave Mo setwise invariant.
+                           Now consider the causal structure in E, where the future of a point /? in E is defined to consist of all points q that are connected
+                        to by a timelike path, meaning one whose forward tangent at every point of the path points inside the infinitesimal future cone
+                        corresponding to the Einstein metric. The tangent space at each point of E is a Minkowski space relative to the restriction of the
+                        Einstein metric, and the future cone in it is defined correspondingly. This notion of temporal precedence has the properties that if
+                        (\) p < q, and q < then p < r; (2) p < q, then q is not < p. Condition (2) is a form of global” causality. The group of all
+                        transformations T on E that preserve this notion of temporal precedence, in the sense that whenever p < q9 then Tp < Tg, and
+                        conversely, will be denoted as G.
+                           The isometry group (again restricted to its connected component) of E will be denoted as K. K is a seven-parameter group
+                        consisting of all transformations of the form t-+ t + s, which we call Einstein time evolution, multiplied with transformations of
+                        the form u -► Su, where w is a point of S3, and S is arbitrary in the rotation group 0(4), on S3. The transformations of G that are
+                        not in the subgroup K are less easily described explicitly, except as local transformations, although they are everywhere defined and
+                        entirely regular. Fortunately, the local description includes the specification of how the transformations act on Minkowski space, as
+                        imbedded in E, which suffices here.
+                           To describe explicitly the local action of G, the space E must be reduced by a covering transformation (which is conformal and
+                        locally but not globally one-to-one). Convenient also is a reformulation of the space S3 as the group SU(2) of all 2 X 2 unitary
+                        matrices. We represent S3 by the points « = (mj , u2, u3, u4) in real four-dimensional space R4 that satisfy the equation wi + W2 +
+                        z/3 + W4 = 1. To any such point u there corresponds a unitary matrix Vdefined by the equation F = w4 + /( Wj ai + w2 072 + w3 03).
+                        This mapping is an isometry relative to a suitable metric on SU(2), which is, moreover, invariant under left and right group
+                        translations on SU(2), which correspond on S3 to certain rotations. Accordingly, E may be represented as Rl ® SU(2). In this
+                        form, the requisite covering transformation W takes the form t<8)V-> exp (it)V, which maps E into the group C/( 2) of all 2 X 2
+                        unitary matrices.
+                           In addition, a similar reduction must be made of the group G. We denote as          2, 2 ) the group of all 4 X 4 matrices of the form
+
+                                                                                         A B
+                                                                                         C D
+
+                        in whichy4, B, C, Dare 2 X 2 complex matrices, that leave invariant the complex Hermitian form zV* + z2z2* - z3z3* - z4z4*,
+                        where the asterisks denote complex conjugation. If g is in SU(2,2) and Zis in U(2), then (AZ + B)(CZ + D)~l exists, is again in
+                        U(2), and will be denoted gZ. Then there exists a covering transformation C, g            g' that carries every element g in G into an
+                        element g' of SU(2,2 ) ; preserves group multiplication, C(£i g? )= C(gi )€(£?) ; and is such that every element of SU( 2,2 ) is covered
+                        by some transformation in G. Finally, if/? is an arbitrary point ofEandgisan arbitrary element of G then W{gp) = C(g)W(p).
+                           Transformations that are sufficiently close to the identity in G may be explicitly computed as regards their effects on points of E
+                        that are sufficiently close to an origin represented by 0 ® <r0 in Æ1 ® SU(2), where a0 denotes the 2X2 identity matrix. The
+                        transformations of K correspond in SU(2,2) to those elements for which B = C = 0. For example, Einstein time evolution through
+                        the time ^ is represented by the corresponding matrix with^4 = exp(/s/2)andZ) = exp(-/5/2). Rotations are represented by those
+                        transformations for which D = A~x and A is in SU(2). It will be seen that G effectively includes the full scale-extended Poincare
+                        group P, and the action of this group on M© is included in these transformation rules. Alternatively, every transformation in P may
+                        be uniquely extended to a conformal transformation on all of M or E and not only on M0 as imbedded in M.
+                           There is an alternative description of E, which shows more explicitly the connection between Poincare transformations on Mo
+                        and on E. Let the Xj (7 = 0, 1, 2, 3) denote the usual coordinates in M©, where x0 denotes the time and (Xi, x2, x3) = x denotes the
+                        space position. Let H(2) denote the space of all 2 X 2 complex Hermitian matrices. We recall a useful one-to-one correspondence
+                        between M© and H(2) that will be used here. First, we introduce a notion of causality in H (2) by defining the future of any matrix
+                        // in //(2) as the set of all matrices of the form H + K, where K is in the cone of all positive matrices in H (2), where positive is
+                        defined to mean that both eigenvalues are positive. Next we define a mapping ./from Mo onto H(2)as follows: x x0(To + Xi<7i +
+                        x2<t2 + x3a3, where the 0) (7 = 1,2,3) are the Pauli matrices. Then it is known ( and easily seen ) that / is a one-to-one mapping from
+                        Mo onto all of H(2), which preserves causality: x< yin Mo if and only if Jx <£Jy in H (2).
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        312                                                        SEGAL & ZHOU                                                           Vol. 100
+                           Next, we map H{2) into £/(2), by the Cayley transform. We set c for the mapping from the matrix H '\nH(2) into the matrix U
+                        in f/( 2) given by the equation £/ = [02 +              [a2 — (/7/)/2]_1. This matrix U maybe uniquely expressed in the form exp (/OU,
+                        where t is real and Fis in SU(2), t being made unique by the constraints that the map from U\ot® Fbe continuous, and / = 0 if
+                        // = 0. Now replacing F by the corresponding point on S3, we have constructed a one-to-one mapping T0 of Mo into E. This
+                        mapping T0 is causal (e.g., Segal 1976b). Thus, points p and q of Mo are in the relation p<q\î and only if T0p < T0q.
+                            If g is any scale-extended Poincare (i.e., “Weyl” ) transformation on Mo, there will be a corresponding transformation g' on the
+                         submanifold r0(Mo) = Mo in E, such that T0(gx) = g'(T0x) for all points x of Mo. There is a unique conformal transformation g’'
+                         on all o/E that coincides with the transformation g' on the submanifold MÓ. We have thus constructed a causal mapping from M©
+                         into E that is co variant with respect to the operations of the group P, as defined on Mo, and extended to all of M. This mapping
+                         carries the origin in M© into the point 0® <70 of E, but there is a corresponding mapping that will carry any given point po of M©
+                         into any given point p of E by the application of suitable transformations in P or the conformal group G(E) on E that exchange the
+                         points O and pQ and the points 0® 00 and p. This defines a local Minkowski space at any given point # of E.
+                           To treat the unicity of this space it will suffice to consider the special case in which Po = O and /? = 0 ® 00. The most general causal
+                        and Po-covariant mappingfrom Mo into E that carries O intoO® a0 differs from the given transformation T only by a scalefactor in
+                        M0. For given two such transformations T and T\ then T^'T' = S will be a causal mapping of M© into itself that leaves the point 0
+                        fixed, and by virtue of the covariance of T and T! commutes with Lorentz transformations S in Mo. The theorem of Alexandrov &
+                        Ovchinnikova implies that S is in P, and since it leaves O fixed it is homogeneous. Since it commutes with all Lorentz transforma-
+                        tions, it must be multiplication by a nonvanishing constant, which must be positive to preserve causality.
+                           The given causal imbedding of Mq into M is in fact not merely covariant with respect not only to the six-dimensional Lorentz
+                        group, but also with respect to the 11 dimensional scale-extended Poincaré group P (PI ). This is in the direction of establishing a
+                        physically meaningful concept of cosmic uniformity, to which issue we now turn.
+
+                                                                     1.4. Cosmic Uniformity and Local Observers
+                           We begin by noting a crucial difference between the fundamental units in M0 and in M. This is relevant to the question of what
+                        it means for theoretical physics or its fundamental constants to be the same in all parts of the universe. It is intuitively plausible that
+                        this is the case, and it has traditionally been assumed on a philosophic basis. Our aim here is to formulate cosmic uniformity in a
+                        general and explicit way that is in principle physically meaningful and foundationally complete.
+                           First, if local observers at different points of E observe or analyze physical events in terms of local Minkowski coordinates, there
+                        is no a priori specification of a common scale, at different points of observation, on the basis of causality and covariance alone. A
+                        common scale, or set of units, is needed, however, if the question of the identity of physical laws at different points is to be well
+                        defined.
+                           There is no intrinsic length scale in Mo, whereas the radius of the space S3 in E provides such a scale. Although the Einstein
+                        metric in E is invariant only under the subgroup K, the distance between antipodal points on S* is invariant under arbitrary
+                        conformal transformations onE. In other terms, this particular distance is invariant under the full 15 parameter group G, and
+                        thereby provides an invariant length scale in M. This has no counterpart in Mo.
+                           This observation is correlated with a difference in the natures of the respective fundamental causal symmetry groups. (A causal
+                        symmetry is defined as a one-to-one transformation that preserves the relation of temporal precedence.) The Poincare group P0
+                        admits a continuum of “outer automorphisms,” defined by changes of scale in Mo. The group of all causal symmetries of M, i.e.,
+                        G, is, however, a semisimple group, for which no continuum of outer automorphisms can exist.
+                           The units are involved in and determine the quantum mechanical commutation relations of the fundamental dynamical vari-
+                        ables that are represented by generators of the groups. In the case of the Poincaré group, the choice of units such that h = c = \
+                        produces unit or zero coefficients in the commutation relations of the 10 fundamental dynamical variables (energy-momentum,
+                        angular momenta, generators of Lorentz boosts), irrespective of the choice of the third fundamental unit, which is thus uncon-
+                        strained by the commutation relations. In the case of the conformal group, the coefficients in the commutation relations of its 15
+                        fundamental dynamical variables (represented by generators of G) are ± 1 or 0 only in conjunction with the further stipulation that
+                        Æ = 1. Thus, in this case the fundamental units may be specified by the commutation relations of the theoretical observables,
+                        consisting of the Minkowski and Einstein energy-momenta, the angular momenta, and their commutators, which are all repre-
+                        sentable by the generators of the underlying symmetry group G.
+                           Local observers at different points of M can identify their respective basic dynamical variables (definable as those corresponding
+                        to generators of the fundamental symmetry group), or derived variables (e.g., corresponding to polynomials in the generators),
+                        only by additional considerations. Thus, even if fundamental units were the same throughout the universe, say the Einstein units,
+                        there is no a priori well-defined way to compare the microscopic variables at one spacetime point of the cosmos with those at
+                        another such point. One might think of imposing the requirement that these basic variables have the same expressions in terms of
+                        local coordinates at each point, but this only shifts the problem to the specification of comparable local coordinates at different
+                        points. But at any given point there is an 11 parameter group of conformal transformations that will transform any given local
+                        Minkowskian coordinates at the point into another such set of coordinates (with possible changes of scale), and there is no a priori
+                        invariant basis in M for preferring any particular such set.
+                           In order to give physical meaning to the identity of the laws of physics at different points of the cosmos, a common class of well-
+                        defined observables appears necessary. If quantum phenomenology is accepted as a universal principle, as done here, all local
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                         No. 2, 1995                          MAXWELL’S EQUATIONS IN EINSTEIN UNIVERSE                                                           313
+                         observation is reducible to elementary particle observation. The fundamental observables in particle theory are the particle
+                         quantum numbers. These in turn are represented basically by certain of the generators of the fundamental symmetry group, as well
+                         as various functions of these generators. In particular, the energy, linear and angular momenta, and helicity are the primary
+                         quantum numbers in relativistic theory based on Mo as the physical spacetime arena for the fundamental interactions.
+                           The quantum numbers are observable within the limitation of commutativity required for simultaneous observability. The
+                         expectation values, etc., of other observables are then indirectly determined, since the underlying state is determined from the
+                         observation of the quantum numbers, from which the general rules of quantum mechanics determine the rest.
+                           The same principles can be applied to any spacetime whose causal symmetry group is sufficiently extensive, and CC proposes
+                        their application to M. The fundamental symmetry group G includes P0 as a subgroup, in consequence of which all of the generators
+                        of P0 are also generators of G. There are five additional independent generators, which do not materially enlarge the number of
+                        direct observables, due in part to the restriction to commutativity for appropriate quantum numbers. They remain (apart from
+                        internal quantum numbers) energy, linear momentum, angular momentum, and helicity. Maxwell’s equations define a pair of
+                        irreducible unitary representations of G on a Hilbert space, which are interchanged by space reversal, and which remain irreducible
+                        on restriction to the subgroup P0. The underlying principles of quantum phenomenology remain the same as in Mo, but the
+                        analytical form of the basic quantum numbers (and features such as their spectra) are subject to some change. It is basic for CC that
+                        the energy in M is different from, and fundamentally inequivalent to, the energy in Mo; e.g., the former has a discrete and the latter
+                        a continuous spectrum.
+                           To label the generators of G so that they most closely resemble those of P0, it is convenient to represent G in the form of the
+                        pseudo-orthogonal group SO(2, 4). The six-dimensional space on which SO(2,4) operates is only an auxiliary one, and devoid of
+                        direct physical existence; we denote it as E and its coordinates as £,, where7 = -1,0, 1,2, 3,4. Setting
+
+                                                                  e = (¿-i, ¿o, ¿i, ¿2, e3, *4) = (1, 1, -1, -1, -1, -1),
+
+                        then the inner product between two vectors £ and £' in E is ££' = €/£/£/. Setting Dj = d/d£;, the generators of the conformal
+                        transformation group G may be expressed as Ly = el^l Dj - ej^Di. These L'ij represent the conformal infinitesimal transformations
+                        in E, relative to a Lorentzian metric in E. For clarity we make an explicit distinction between a generator of the group G as an
+                        abstract group, i.e., an element of the Lie algebra of G, and a corresponding infinitesimal transformation on Mo. Abstract generators
+                        of the group G, i.e., vectors in its Lie algebra G, will be denoted by boldface letters, and the corresponding infinitesimal transfor-
+                        mation on E by the same nonboldface letter, primed. The unprimed notation Lÿ will denote the corresponding infinitesimal trans-
+                        formation on M. Note that the mapping L/, -► L/, is an ««//representation rather than a representation:
+
+                                                                    [L/y, Ly^] —   tjhjk,     but [Lÿ, Ljk\ ~ tjLjk ♦                                        ( 1.1 )
+
+                           The transformations L/, on M that extend the L^ on Mo may be obtained as follows. First make E projective by identifying
+                        vectors that are the same within proportionality. The transformations in SO(2,4) then act on this five-dimensional projective space
+                        P5. Consider the quadric surface Q in P5 defined by the equation €/£/ = 0. The infinitesimal generators L/y of SO(2, 4) give rise to
+                        infinitesimal transformations        on Q. These are then lifted up to the universal covering space of Q, providing the canonical
+                        extensions of the L'^ to all of M.
+                           The Liy are abstract elements of G, but give rise to self-adjoint operators representing the dynamical variables as follows. If Wis
+                        any unitary representation of G on a Hilbert space, there is a corresponding operator defined as the self-adjoint generator of the
+                        one-parameter unitary group IT[(exp (//L/y)]; we denote this as dIT(Liy), and note that idW = wis an isomorphism, i.e., [w(X),
+                        w( Y )] and w( [X, Y ] ) coincide on a common domain on which each of these operators is essentially skew-adjoint. In these terms,
+                        the basic chronométrie variables are as follows, in the Einstein units h = c = R = 1: ( 1 ) Einstein energy: vv(L_10); (2) Einstein
+                        linear momenta: w(L_iy) (j = 1, 2, 3); (3) angular momenta: w(L,y) (i,j = 1, 2, 3); (4) Lorentz boosts: w(Lo/)(7 = 1» 2, 3); (5)
+                        Minkowskian energy-momentum: { w(L_iy + Ly4); and (6) scaling: —w(L_l54).
+                           These 15 operators are linearly independent and span the full space w(G). The infinitesimal transformations L/y corresponding
+                        to the angular momenta, the Lorentz boosts, the flat energy-momenta, and scaling all vanish on the boundary of M« as imbedded
+                        in M, and in exponentiated form the corresponding conformal transformations in G all leave Mo invariant. Within Mo, they
+                        coincide with the usual relativistic quantities, i.e., they generate the usual Weyl group.
+
+                                                                     1.5. Covariant Global and Local Coordinates
+
+                           Global Einstein coordinates that are uniquely determined by the L/y, apart from the zero point of time are definable as follows.
+                        Let          w4 be the functions on M that are uniquely defined by the equations: ( 1 ) L_ 10My = 0; ( 2 ) Li2Mi = «2 ? and variants derived
+                        from cyclic permutations of 1, 2, 3,4; (3) w? + «2 + W3 + w4 = 1. To show that such functions exist, define u) = £y(£-i + £o)-1/2 on
+                        Q and lift these up to corresponding quantities wy on M. To show their unicity, note that the difference between any two sets of
+                        solutions of these equations is annihilated by the L/, involved in their definition. But these infinitesimal transformations span the
+                        full tangent space at each point of M. Accordingly, all infinitesimal transformations on M annihilate the differences, which must
+                        therefore be constants. But if the constraint u] + ul + ul + ul = 1 is satisfied for one solution of these differential equations, it
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                         314                                                      SEGAL & ZHOU                                                          Vol. 100
+                        cannot be satisfied identically on M for any other non vanishing set of constants. For if also
+
+                                                                (h, + Ci)2 + (n2 + C2)2 + (n3 + G)2 + (»4 + C4)2 = 1                                       (1.2)
+
+                        for suitable constants Cj(j = 1, 2, 3, 4), then       + w2£2 + u3c3 + W4C4 = const, which is impossible since (ux, u2, u3, uA) ranges
+                        over all of S3.
+                           The Einstein time t is determined in a similar way. Specifically, it is the function on M that is determined, uniquely modulo
+                        constants, by the constraints: L-uot = 1;       = 0(i,j = 1, 2, 3, 4). The zero point of t is arbitrary and conventional; each observer
+                        has the option to set his time coordinate as ¿ = 0 at a convenient instant. Having essentially uniquely defined coordinates in terms
+                        of the basic observables, the definitional cycle may now be completed and the observables in terms of these coordinates; cf. PI.
+                           Having derived global Einstein coordinates from the fundamental microscopic dynamical variables, we may now do the same
+                        for local Minkowski coordinates. We set Tj for             + ^4) and define the x,, uniquely modulo constants—not on all of M but
+                        only within M0 (which is the orbit of the putative point of observation under the subgroup of G generated by the Tj)—by the
+                        constraints T¡Xj = àij(ij = 0, 1, 2, 3). All four additive constants are here entirely conventional, and each local observer again has
+                        the option of choosing coordinate zero points conveniently. Again, all the generators of P, and not merely the Tj, may be given
+                        their usual expressions in terms of such coordinates. However, the conventional choice that the Minkowski coordinates vanish at
+                        the time and place of observation imposes constraints on the physical interpretation of the Lÿ.
+                           For an observer at a given point /?, this point is invariant under rotations, Lorentz boosts, and scaling. Accordingly, the infini-
+                        tesimal rotations ^(Z, 7 = 1, 2, 3), boosts Lq/(7 = 1,2, 3), and the infinitesimal scaling generator ~L-lA must vanish at/7. If this is
+                        not the case, these mathematical quantities cannot be identified with the indicated physically relevant quantities. But in addition,
+                        four more independent generators must vanish at /?, if the coordinates are to be the canonical ones involved in the construction of
+                        a set of the Liy indicated above. For the subgroup Gp of G that leaves fixed the point /? is 11 dimensional, while only seven constraints
+                        have thus far been imposed.
+                           The additional four generators are the ^(L_ l7 — Lj4) (7 = 0, 1,2,3 ). These vanish at p to second order and thus have approximately
+                        vanishing expectation value in local measurement, for which reason they do not appear in conventional relativistic kinematics.
+                        When all 11 infinitesimal transformations vanish at p, physically appropriate local coordinates at p are uniquely fixed by the
+                        indicated actions of the Tj. They will in general not be physically appropriate at any other time or place. However, they serve to
+                        specify uniquely, within transformation by an element of G^, an appropriate notion of local observer at p. Thus, if the Lÿ form an
+                        appropriate basic set of microscopic dynamical variables at p in the foregoing sense, and if g is any transformation in G such that
+                        g(p) = P, then the giLÿ) = gLÿg'1 form another appropriate such set at p. Conversely, every basic set of microscopic dynamical
+                        observables at p that is physically appropriate in the indicated sense is obtained in this way from any given one, i.e., by conjugation
+                        with some element £ of G such that g{p) = 1.
+                           However, the observer represented by the g(Lq) will not in general be at rest relative to the observer represented by Li7, as is
+                        required in order that the observations be directly comparable. Similarly, a redshift observer must be essentially at rest or in known
+                        motion relative to the sources observed in order to compare theory and observation.
+                           The concept of mutual rest positions in M involves the maximal essentially compact ( MEC ) subgroup K of G. All such subgroups
+                        are conjugate in G, and thus representable by the Einstein isometry group. In E, an observer must be fixed in space and evolving in
+                        accordance with Einstein time in order to be at rest relative to E, according to normal physical interpretation. Generalizing from
+                        this, an ensemble of observers (or sources, where hypothetical observers may be located) is mutually at rest in case their respective
+                        Lÿ (sets of microscopic dynamical variables) have the same MEC subgroup K (physically, same Einstein frame, within choice of
+                        time zero point and coordinates on S'3).
+                           K is isomorphic to the group          S£/(2)® SU{2). The R1 factor, which represents time evolution, is unique, so that any two
+                        observers who are mutually at rest must have the same L_ j j0. The subgroup of K that represents spatial transformations, or rotations
+                        on S3, is also unique; however, its decomposition in the form SU(2) ® SU(2) is observer dependent. If the observer is at the point
+                        I of S£/(2), in terms of the representation of S3 as SU(2), there is a unique decomposition of this spatial subgroup such that if U
+                        and Vare in SU(2), then (7® Vtransforms JFinto UWV~l. In particular, if £/ = F, then / is left fixed, and the transformation
+                        represents a rotation about the point /, both in M and in Mo. It is then possible, and natural in conjunction with the physical
+                        interpretation, to choose coordinates so that the rotations (which leave fixed /) act only on        w2, and w3, and leave w4 fixed. This
+                        determines the angular momenta, and also Einstein spatial translation generators.
+                           At any given point /? of M, there is one and only one observer who is physically appropriate (in the sense of the vanishing of the
+                        II cited generators Lÿ at /?) and has a given K. For the K determines the spatial subgroup, which together with the spatial position
+                        of the observer determines the rotation group at this position. This in turn leads not only to unique Lÿ for /, 7 = 1,2,3, but also L/ 4,
+                        within a choice of basis, or arbitrary spatial rotation at the point. In extension of the idea of the Lorentz frame concept applicable
+                        in M0, we define an Einstein frame at a given point /? of M as a labeled set of generators Lÿ for G satisfying the commutation
+                        relations given above, and such that the 11 generators indicated above vanish at p. This determines unique coordinates wz and t as
+                        described above that are global in M, and such that at the point p,ux = u2 = u3 = 0, and w4 = 1. Conversely, such a specification of
+                        coordinates determines an Einstein frame at p.
+                           The analogy between the concepts of Lorentz and Einstein frame is limited by the rigidity of the Einstein length scale and the
+                        essential conventionality of the Minkowski length scale. Defining a normalized Lorentz frame as one having a specified length unit,
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        No. 2, 1995                         MAXWELL’S EQUATIONS IN EINSTEIN UNIVERSE                                                        315
+                        there is then a corresponding relation between the Einstein and Minkowski coordinates, relative to any given observer. This is the
+                        relation that derives from the definitions in terms of the L/, of the t and uk(k = 1, 2, 3, 4), and of the Jt/ (/ = 0, 1, 2, 3), and is
+                        observer dependent.
+                           In this way, the CC provides a conformally covariant and unique framework for treating the relation between physics in different
+                        parts of the universe. The fundamental dynamical variables are the microscopic quantities w(Liy), where the Lÿ generate the
+                        fundamental symmetry group. The quantities L0 are the same at all points and for all observers, within conjugation by a causality
+                        preserving transformation g, or transformation in G. For observers who are mutually at rest in M, this transformation g from the
+                        Einstein frame of one to the other is merely a change in the temporal zero point, together with a choice of different coordinates Uj
+                        on S3, i.e., g must be in the MEC of the observers.
+
+                                                       1.6. Relativistic Quantum Mechanics as the Microscopic Limit of CC
+                           We retain the particle units h = c = \ and take only R in laboratory units. In terms of the Minkowski coordinates xM, the
+                        fundamental dynamical variables L’^ whose expression depends on R may be expressed in Einstein units as follows at points of Mo
+                        (cf., e.g., PI ), where denotes d/dxM
+
+                                                 (U = 0, 1, 2, 3),      X2 = Xq- x\- X2 - X2,        S = X0do + Xidi + X2^2 + *3^3 •
+                                                                                                                                                          (1.3)
+                                                         = ( 1 - (x2/4))¿)„ + (x/2\eßS,            = [1 + (*2/4)R - (x2/!)^.
+
+                        Now introducing R explicitly, and denoting the Minkowski coordinates in laboratory units also as xM (so that in Einstein units the
+                        former coordinates are now xJR), these dynamical variables take the form
+
+                                                                     Z/_Im = R[l + (R/4y2x2]dfl + (i?/2)“1xMeM5,                                          (1.4)
+
+                                                                      L’0,» = R[l - (R/4y2x2]d, - (R/iy'x^S.                                              (1.5)
+                        The L^forji, v = 0, 1,2, 3 are independent ofR. It follows that in the limit R        oo, both /^(R) = R £-i,m and<7M(R) = R~lLotfl
+                                                                                                                                   -1
+
+                        converge to d„, i.e., the relativistic energy-momentum variables. The L'^ for p, v = 0, 1, 2, 3 are of course identical to the cor-
+                        responding relativistic variables associated with the homogeneous Lorentz group. In summary, the Lie algebra of all the infinites-
+                        imal transformations         converges, after a change in the unit of length in Mo by the factor R, to the Lie algebra of the basic
+                        dynamical variables of relativistic quantum mechanics, consisting of generators of the Poincare group and scaling. Scaling plays
+                        only a passive role, as the transformation between different sets of units, e.g., as often specified in relativistic quantum mechanics
+                        by taking as the third unit the mass of the primary particle under consideration. As a dynamical variable its expectation value
+                        approximates 0 in free photon states. The procedure here is closely parallel to that showing the effective convergence of classical
+                        relativistic mechanics to classical nonrelativistic mechanics as c -► oo, and is known as a limiting case ( Segal 1951 ) or contraction
+                        (Inonu & Wigner 1953).
+                           A Lie algebra is a limiting case of another Lie algebra in case the constants of structure of the latter relative to some sequence of
+                        bases converges to those of the former. In terms of the basis for G consisting of the L//( R), where
+
+                                                         L-\j{R) = R~XL-Xj,         LjA{R) = R~xLj4,        for / = 0, 1, 2, 3 ,                          (1.6)
+
+                        while the other seven L/,( R) are unchanged, we may state the following:
+                          Theorem. The direct sum of the Weyl group and a four-dimensional Abelian Lie algebra is a limiting case of G. G is itself
+                        "terminal’ in the sense that it is not a limiting case ofany inequivalent Lie algebra.
+                          The first statement follows by computation of the commutators of the LifR). The terminal character of G was shown by
+                        Segal (1951).
+                          Similar results apply in the theoretical context of the abstract group generators. The chronométrie interpretation of the four-
+                        dimensional Abelian subgroup in the limit is that they represent superweak, or generalized gravitational, contributions to the
+                        energy-momentum vector that are neglected in conventional relativistic quantum mechanics.
+
+                                                             2. COSMIC ASPECTS OF THE PHOTON HILBERT SPACES
+
+                                                                       2.1. Photon Hilbert Spaces in M and Mo
+
+                           In the scalar approximation often used in photon calculations, a photon is represented by a solution </> of the wave equation
+                        □o</> = 0 in Mo, where Do denotes the usual wave operator. The inner product in the photon Hilbert space is most simply described
+                        in terms of the Fourier transform $ of </>, being nonlocal in physical space Mo. Setting X = (xb, x1,x2, x3) for the position vector
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        316                                                        SEGAL & ZHOU                                                            Vol. 100
+                        and K = (k0, ki, k2, ki) for the energy-momentum vector, (f>(X ) takes the form
+
+                                                                        MX) = (2ir)-2 J expiiX.KWfOdJi,                                                      (2.1)
+
+                        where X K = XqIcq - x^kx - x2k2 - x3k3.
+                          4>( AT) may be expressed in the form
+
+                                                                 <ï>(K) = [ô(k0- \k\)f+(k) + ô(k0+ \k\)f-(k)]k~l,                                            (2.2)
+
+                        where k = (ki,k2,k3) and | A: | = (k] + k2 + k3)l/2. The reality of $ is equivalent to the condition that /L ( A:) = /^ ( -k) *.
+                         The Poincare-invariant inner product between two photon wave functions 0 and y may be expressed as
+
+                                                            = j [fAk)g+(k)*+Uk)g-(k)*]\k\-'d3k                   (d3k = dkldk2dk3),                          (2.3)
+
+                        the integration being confined to the region A:0 > 0. A normalizable photon 0 is one for which <0, 0) is well defined and finite; this
+                        condition is satisfied, e.g., if 0 is smooth and has bounded spatial support at any time, and the photon Hilbert space H© is properly
+                        defined as the completion of the space of all such photons, relative to the given inner product (note that the wave function 0(jc) =
+                         1 is not normalizable in this sense). The action of the complex unit on wave functions is also defined in terms of the Fourier
+                        transform as multiplication by ±i applied to the respective positive and negative frequency components. The indicated inner
+                        product is not only Poincare invariant but invariant under the full conformal group G. Thus for any transformation £ in G, there
+                        is a unitary operator U(g) on Ho, taking the form 0(X) -► m(g, X)0[g-1 (X)], where the “multiplier” m(g, X) is independent of
+                        0 and is identically one when gis in P0. Compare, e.g., Gross ( 1964) and Jakobsen & Vergne ( 1977).
+                            The counterpart H to the Hilbert space Ho in the universal cosmos M takes the following form. A scalar photon wave function is
+                        definable as a solution 0 of the “conformal wave” equation D0 + 0 = 0, where □ denotes the d’Alembertian operator in M,
+                        expressible in terms of any representation of M as E in the form □ = d2/dt2 - A, where A denotes the Laplace-Beltrami operator
+                        on S3. Setting C = ( 1 - A)1/4, a normalizable photon wave function 0 is one such that at any fixed Einstein time, C<j> and C'xdt<¡)
+                        are square-integrable over the space S3. The action of the complex unit is multiplication by ±i as earlier, applied to the positive and
+                        negative frequency components in terms of the Einstein time. The real part of the inner product, from which the imaginary part
+                        may be derived from the action of/, takes the form (0, 7) = ((C0(O), C7(0)) + ((C^d^O), C-1dr7(0)), where ((0, 7))
+                        for any two functions on S3 is defined as J/( x)g(x)*¿x, and dx denotes the usual volume element on S3, while 0(0) denotes the
+                        wave function in space at time 0. This inner product is conformally invariant.
+                           It is important that ( 1 ) every normalizable solution 0O of the wave equation on Mo extends uniquely to a normalizable solution
+                        0 of the conformal wave equation on M, and conversely every solution 0 arises in this way; (2) the mapping 0O -► 0 is local and
+                        unitary. These features indicate that the only physical difference between the Minkowski and Einstein descriptions of the present
+                        wave functions arise from the difference in some of the quantum numbers, notably the respective energy-momentum operators.
+                           In the case of the photon Hilbert spaces, the situation is essentially the same, and the inner products take a similar form. The only
+                        significant difference is the presently immaterial one that photon wave functions are invariant under the central transformation f :
+                        t —► / + Tr, F      — F, which commutes with all other conformal transformations and maps the infinite Minkowski past into the
+                        infinite Minkowski future, whereas solutions of the conformal wave equation are mapped by f into their negatives.
+                           The photon Hilbert space H, and the photon quantum number operators on H that represent the observables accessible to local
+                        measurement, are thus the same for all observers throughout M, within a local unitary equivalence, which does not affect physically
+                        observable features. A photon emitted from a source in the solar system and observed on Earth is represented by a wave function in
+                        the local photon Hilbert space which is observed at a later time. The local observation of the photon quantum numbers permit the
+                        inference of an approximate form of the photon wave function. By continuity, the same applies to photons emitted from sources at
+                        various distances, including ultimately, cosmic distances. However, the quantum numbers presently accessible to measurement are
+                        normally taken as the Minkowski rather than the Einstein quantum numbers, and this is reinforced by theoretical considerations.
+                           For example, the energy of light may be inferred from interferometric measurement of its wavelength, or apparent oscillation
+                        frequency, via Planck’s law. This is of course rigorously applicable only to eigenstates of the energy. Now microscopic local obser-
+                        vations are of freshly emitted photons whose wave functions are presumptively localized. It has always been assumed, and is
+                        supported by rigorous computations in the photon Hilbert space, that they are, in general, within the limits of present observational
+                        methods effective eigenstates of the Minkowski energy. However, the measurement of the Einstein energy is another matter. As
+                        noted below, it possesses normalizable eigenstates, but these are necessarily of cosmic spatial support. Accordingly, a direct mea-
+                        surement of the Einstein energy of an extragalactic photon may depend on more than the pointwise oscillation frequency of the
+                        photon wave. Indeed, mathematical analysis (e.g., Segal 1976a) shows that the Einstein energy of a photon depends not only on the
+                        oscillation frequency of the photon but also on the number of oscillations, which appears beyond the scope of present methods to
+                        observe. Thus the conventional laboratory measurement of the energy of a photon appears indubitably to be represented by the
+                        Minkowski energy, whether the photon is regarded as propagated in M or Mo.
+                           According to conventional quantum phenomenology, once a photon state 0 is determined, e.g., by measurement of a full set of
+                        quantum numbers, the expectation value of an arbitrary self-adjoint operator ^4 on H, and the distribution of its spectral values in
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        No. 2, 1995                           MAXWELL’S EQUATIONS IN EINSTEIN UNIVERSE                                                          317
+                        the state ^ are completely determined. Among such self-adjoint operators are the additional five generators of G that are not in P0.
+                        The conformal invariance of Maxwell’s equations and the unitarity of the corresponding representation of G mean that these all of
+                        these generators are effective observables. All 15 generators of G, in particular the Einstein energy, as they impact on photon states,
+                        could therefore be measured by local observers having sufficiently refined apparatus.
+                           As the generator of global temporal evolution in M, the Einstein energy appears as basic energy for cosmic considerations in M.
+                        In contrast, Minkowski temporal evolution as applied to a given point /? in M produces a bounded orbit whose Einstein time
+                        remains throughout all of Minkowski time within tt eons of its starting value, where an eon is unit time in Einstein units (so that
+                        the time required for a free photon to encircle space S3 once is 27r). Locally, however, the Minkowski energy differs from .the
+                        Einstein energy by an amount that varies as the curvature of space, and the difference is far below the threshold for direct observ-
+                        ability on the basis of empirically based estimates of this curvature.
+                           In addition to the energy, the analytic specifications of the linear momentum and helicity are different in M from their formula-
+                        tions in Mo, while the angular momentum quantum numbers are the same. For details regarding photons and other particles, see
+                        P1-P3; here, only the case of the energies, as applied to photons, is relevant and further treated.
+
+                                                                2.2. The Propagation ofLight through Large Distances
+                           On the cosmic scale, effects that are negligible on the local scale, such as the representation of photons as (nonnormalizable)
+                        plane waves, may be observationally quite significant. Moreover, it is crucial for cosmic considerations, although irrelevant for most
+                        local considerations, whether the energy in question is the Minkowski or Einstein energy. These two energies do not commute, so
+                        that if one is conserved, the other cannot be. They are both representable as the integral over space in the respective cosmos of the
+                        square of the electromagnetic field, in terms of spatially natural coordinates, but in the case of Mo this space is three-dimensional
+                        euclidean space, and in the case of M it is a three-dimensional sphere, of which Euclidean space may be regarded as the stereographic
+                        projection, and the latter integral is always larger (Segal 1984b). Only for cosmically young and localized photon states of high
+                        frequency are both energies approximately equal to each other and to the local frequency for photons sufficiently energetic to be
+                        involved in redshift measurements.
+                           Although Maxwell’s equations imply in theoretical principle the existence of certain aging effects on normalizable photons in
+                        Mo, these effects appear in practice to be below the threshold for observability. Thus, if the driving Hamiltonian is K, the state of
+                        the wave function f (assumed normalized to unit norm at time t)\s\p{t) = exp {-itK)yp(Q). In general yp(t) differs from ^(0) in
+                        more than phase. Indeed, this is invariably the case when the Hamiltonian K is the relativistic operator H0 in Mo, as a result of the
+                        continuous spectrum of H0. However, the expected energy and its dispersion, etc., in the state ^(0 is the same as that for ^(0), and
+                        the same would be true of all other quantum numbers, so that a freely propagated photon appears unchanged in the course of time.
+                           All of this is no less true if K is the Einstein Hamiltonian. Indeed, H has a discrete spectrum, and rigorous eigenstates exist. If \p is
+                        such a rigorous eigenstate, then \¡/(t) = ^(0) for all so any state labels, whether Einstein or Minkowski, are trivially conserved. For
+                        an arbitrary state \H0), it remains the case that the expectation values of the quantities that commute with the Hamiltonian are
+                        conserved. But when the driving Hamiltonian differs from the observed energy operator, the situation is different. More specifically,
+                        suppose the directly observed quantities are Minkowski quantum numbers. Then the expected value of the presently observed
+                        energy at time Ms (//0 exp {-itH)\p, exp (-itH)\f), which by unitarity equals {elíHH0e~líH\p, \¡/). This will differ in general from
+                        (H0\l/, \p) as a result of the noncommutativity of H and H0. It will in fact be seen below that the Einstein energy is a more global
+                        quantity than the Minkowski energy, in that it depends materially on the number of oscillations, as well as their frequency, in the
+                        case of a photon propagated over a large distance.
+                           In effect, the driving Hamiltonian // is a perturbation of the observed Hamiltonian H0, H = H0 + V, where F is a positive
+                        operator. In principle, Maxwell’s equations permit the evolution of a free photon in Minkowski space to be determined from either
+                        Hamiltonian. But in the case of H0, the evolution is that of the wavefunction on the usual one-parameter family of spacelike
+                        surfaces (hyperplanes) described by the equation Xo = const., while in the case of H the evolution is that of the same wave function
+                        on the different one-parameter family of spacelike surfaces, namely, the spheres given by the equations t = const. General formula-
+                        tions of fundamental physical theory, developed by Dirac and extended by Tomonaga and Schwinger (e.g., Schwinger 1958) in
+                        connection with renormalization theory, show that the choice of spacelike surfaces is in part conventional and not entirely intrinsic
+                        to the physical process under consideration. It is, however, connected with the observational process, and the physical process
+                        determines on which (if either) of the spacelike surfaces the energy is conserved in the course of propagation. At any given point
+                        and frame of observation, Einstein and Minkowski coordinates may be chosen so that all of the latter vanish and the stationary
+                        frames are defined by the equationsx0 = 0 = i and define the same spacelike surface (apart from one additional point in the Einstein
+                        case) at this instant.
+                           However, energy is not determined by the spacelike surface but involves additional considerations, such as a selection of temporal
+                        evolution group or kinematically natural coordinates. Segal ( 1976b) argues that this choice must be coherent with the respective
+                        underlying causal symmetry groups. In particular, a one-parameter temporal evolution group is required which has the property
+                        that the time coordinate increases by the amount s when time evolution of parameter s is applied. The corresponding energy is then
+                        conserved theoretically, and this is applicable to both the Einstein and Minkowski energies, but which, if either, of these energies is
+                        conserved physically is an observational question. The nonconservation of the Minkowski energy represented by the cosmic redshift
+                        indicates in this context that the energy that is measured by conventional apparatus differs from the physical driving energy.
+                           This may appear paradoxical, since a free photon in Minkowski space may theoretically be propagated by the Minkowski energy.
+                        This implies that its energy is conserved, but only if the local normalized Lorentz frame in which the photon was emitted is coherent
+
+
+
+
+                                     © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                         318                                                      SEGAL & ZHOU                                                          Vol. 100
+                        with (i.e., at rest and having the same length scale as) that at the point of observation. This will not be the case in E; the relevant
+                        microscopic length scales and also the Lorentz frames, as treated earlier, will differ at the points of emission and observation.
+                           In the present context, the respective curved and flat spacelike surfaces involved are tangent to each other at the points of emission
+                        and observation. The differences between the surfaces is thus a matter of curvature, or a second-order rather than a first-order
+                        difference. The effective interaction Hamiltonian V is not a function but a differential operator that vanishes up to second order at
+                        the point of observation. This gives rise to a significant qualitative difference from the results of application of perturbation theory
+                        in conventional microscopic analysis. Transition probabilities are not locally approximately proportional to the elapsed time, as in
+                        most familiar applications ofperturbation theory, but rather to the square ofthe observed time. Indeed, locally emitted photons in E
+                        age significantly over cosmic (but not microscopic) time periods, as presently observed locally, as a rigorous consequence of Max-
+                        well’s equations, which predicts that they will appear of lower frequency and greater spatial extent than initially.
+
+                                                                2.3. Relations ofPhoton Wavefunctions in M and M0
+                          To facilitate computation of the evolution of simple photon models in the universal cosmos, we recall the imbedding of Mo into
+                        M and other geometrical issues from PI. The conformal covariance of this imbedding, relative to any choice of origin in Mo and
+                        point of observation in M, is summarized by the
+                           Theorem. For any scale-extended Poincare transformation g on Mo, let g' denote the corresponding transformation on M ca-
+                        nonically associated with M0 as the simply connected form (= “universal cover”) of its conformal compactification. Let p be any
+                        given point o/M0 and p' be any given point o/M. Then there exists a unique one-to-one conformal mapping T o/M0 into M such
+                        that (1) for all points qofMv and all transformations g in P,g'T(q) = T(gq), and(2) T(p) = p’.
+                           For the proof as well as explicit form of T we refer to PI. What the theorem means is that for all intents and purposes, Mo as a
+                        causal manifold (e.g., as regards light propagation) may be regarded as a submanifold of M that is uniquely determined by the
+                        subgroup P of G, of which it forms an orbit. M0 inherits the causal structure of M and enjoys just those symmetries that are
+                        restrictions of those of M. At the same time, it acquires a fundamental length, which has so far been lacking in relativistic theory or
+                        has been rather purely conventional. The laws of fundamental physics at different points of the universe are subject to meaningful
+                        and unique comparison in terms of these units, derived from c, ft, and R. Effectively, this is equivalent to using conventional
+                        relativistic standards, with the crucial caveat that the spectral lines that are used must be freshly emitted.
+                           For the reader’s convenience, we quote the simplest relations from PI, assuming the local observer to be at the origin in Mo, that
+                        this origin corresponds to the point 0 X (0, 0, 0, 1 ) = in i?1 X S3 :
+
+                                                      Xo = 2 sint (cost + cos p)-1;        = 2w7(cost + cos p)-1    (7=1,2, 3);                            (2.4)
+
+                                                      / = tan"1 [xo/(l “i-*2];        uj = pxj, where 77= [(1 - ^x2)2 + xg]1/2 ;                          (2.5)
+
+                                                                     d, = ( 1 — \x2)do + ^XoS, where S = x^M .                                            (2.6)
+
+                           Note that the Jacobian matrix of the map from (¿, iq, w2, w3) to the (x0, X!, x2, x3) is unity at the designated point of observation
+                        but has determinant ^ 1 in general. Note also that because of the uniqueness of the P-covariant imbedding of Mo into M, it is
+                        impossible covariantly to rescale Minkowski coordinates so as to be tangential to the local Einstein ones at distinct points. Thus, at
+                        the point in space having the coordinates (0,0, 0, 1 ) in S3* and (0, 0,0) in i?3, the Minkowski time xb is related to the Einstein time
+                        t by the equation x0 = 2 tan (¿/2). This is an intrinsically nonlinear relation that cannot be transformed into a linear one because
+                        of the fundamental inequivalence of the Einstein and Minkowski temporal evolution groups. At the time / = x0 = 0, the two times
+                        are instantaneously synchronous, in the sense that dx^/dt | ,=0 = 1, but at any substantially different time, the Minkowski clock runs
+                        at a different rate from the Einstein clock: dx^/dt = sec2 (i/2). Any other time could, of course, be chosen as the time origin, and
+                        Xo and t synchronized at that time, but they would then be asynchronous at the original time i = 0. It may also be noted that even
+                        the local Minkowski coordinates at different points that osculate the Einstein coordinates at those points are not in general related by
+                        a Lorentz transformation. The relation is generically nonlinear ( via a local conformal transformation ) and infinitesimally involves a
+                        nontrivial scale factor.
+
+                                                                           3. THEORY OF THE REDSHIFT
+                                                            3.1. The Schrôdinger Picture in Two Spacetime Dimensions
+                           The Schrôdinger picture appears more physical as well as closer to the familiar classical picture. To exemplify the essential ideas
+                        in their simplest form, we first treat the wave equation in two-dimensional Minkowski space, denoted Mo(2).
+                           The counterpart to the Einstein universe in the case of Mo(2) is the space E(2) = Æ1 X S1 with the metric dt2 - dp2, where p is
+                        the angle on the circle S1, in radians. The canonical (P-covariant) conformal imbedding of M0(2) into M, as parameterized by
+                        E(2), takes the form (x0,Xi) (¿,p), where
+
+                                                   ¿ = tan“1 [xo( 1 -x2/4)_1],        p = tan"1 [xj( 1 - x2/4)_1], x2 = Xo -x2.                           (3.1 )
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                         No. 2, 1995                         MAXWELL’S EQUATIONS IN EINSTEIN UNIVERSE                                                        319
+                        The normalizable solutions of the wave equation in Mo(2) form a Hilbert space H0, on which the conformal group [which is here
+                        locally SO(2, 2)] acts unitarily and with positive energy, as it does in Minkowski space of any even dimension.
+                           In Mo(2), the action of the conformal transformation g sends a wave function 0(x) simply into (¡)(g~xx). In addition, the
+                        respective expected quantum energies of the state represented by the wavefunction 0(x), which take the form (//</>, 0) or (H0 0,
+                        0) if 0 is normalized to unit norm, (0, 0) = 1, coincide with the familiar classical energies or the integrals over space (respectively,
+                        S3 and R3) of the square of the respective spacetime gradients of 0.
+                           Now consider the case of a traveling wave solution 0(.Xo,      of the wave equation in M0(2), of the form 0(xo, Xj) =/(Xo — Xi),
+                        where /is a given function, and it will be no essential loss of generality to assume that 0 is normalized. The Minkowski energy of
+                        this solution is then (^) J [(d0/dxo)2 + (dÿldx\)2]dx{. Under Einstein temporal evolution, t              t — s, this wave function is
+                        transformed as follows. We first express x0 and Xj in terms of t and p. Noting that
+
+                                          x0 = 2 sin /(cos / + cos p)-1,     X! = 2 sin p(cos / + cosp)-1,      Xo - Xj = 2 tan [(/ - p)/2],               (3.2)
+
+                        it follows that
+
+                                                                           0(xo, Xi)=f[2 tan (/ - p)/2].                                                  (3.3)
+
+                        Replacing / by / — s shows that the effect of Einstein temporal evolution through time 5 is to transform 0(xo, Xj ) into 05(xo, xr) =
+                        f[2 tan 5(/-^-p)].Ifwe replace / and p by their expressions in terms of x0 and Xj, the result is
+
+                                                                    0,(xo, X,) =/[(w - s')/( 1 + us'/4)] - fs(u),                                         (3.4)
+
+                        where u = x0 — x{ and s' = 2 tan s/2.
+                         The Minkowski energy ^ of 05is f [(du)fs(u)]2du. If we set us = ( i¿ - s')/( 1 + ¿us'), this maybe expressed as
+
+
+                                                       J [d„f(us)]2du = J [f'(us)(dus/du)]2du) = ff'(its)2(di/s/di/)dus.
+
+                        Now diis/du = ( 1 + \s'2)/{ 1 -f \us'). When we express u in terms of     as w = (w5 + s')/{ 1 — \uss'), du5/du may be reexpressed as
+                        (1 —\uss’)2l{ \    s'2). It follows that
+
+                                                                    £-0(5) = (l + ^'2r'J/'(w)2(l -\ws')2dw.                                               (3.5)
+
+                        The redshift z is given by definition by the equation 1 + z = E0{f))l E0{s), which in the present instance means that
+
+                                                              1 +z = (l +|i'2) Jf'(w) 2dw j jf'(w)2( \ -\ws')2dw .                                        (3.6)
+
+                        If/( w) is initially localized near w = 0 in a region of diameter d, the denominator in the last expression \s\ + 0(d2), which implies
+                        that 1 + z = 1 + \s'2, or that z = s'2 = tan2 (p/2), within terms of order d2 .If d is of the order of a star or even a galaxy diameter,
+                        in units of the cosmic distance scale, 0{d2) would be expected to be unobservably small.
+
+                                                                             3.2. The Heisenberg Picture
+                          The Heisenberg picture facilitates calculation of the small line broadening. The Hilbert space Ho of traveling wave functions on
+                        M0(2) includes all “normalizable” solutions of the wave equation (do - d2)0 = 0, of the form /(x0 - Xi) on Mo(2). The criterion
+                        for normalizability is technically slightly involved because of the nonlocal character of the norm in boson fields. More specifically,
+                        Ho includes all such real solutions/( x0 - Xj ) for which the Fourier transform f has the property that fk>0 k |/( k)\2dk is convergent,
+                        with multiplication by a complex number being defined by its application to the positive-frequency component off, and the inner
+                        product (/, g) = Jj, kf(k)¿*(k)dk. This expression in momentum space is evidently local, but in physical space, (/,/) has the
+                        nonlocal form 2||C/|[2, where C is the operator (-A)1/4 (e.g., as defined by Fourier transformation), and ||^|| for any function g
+                        denotes the L2 norm, / | g(x) \2dx\ and multiplication by i is represented by the Hilbert transform with respect to time.
+                          The underlying Hilbert space may equally be formulated as a space of functions on M(2), namely, all real functions of the form
+                        F(t - p), modulo constant functions, that are normalizable relative to the norm | 11 F| 112 = Zw>o ^|öw|2, where F(z) = 2 anzn.
+                        Again, multiplication by complex numbers is applied only to the positive-frequency component (n> 0), and the inner product is
+                        analogous to that in H0. We denote as H the space of such functions Fon M(2).
+                          The spaces Ho and H are unitarily equivalent via a local transformation T. Ttakes here the form/( x0 - Xj ) ->/[2 tan 5 ( / - p)] ;
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                         320                                                      SEGAL & ZHOU                                                         Vol. 100
+                        i.e., the Minkowski variables x0 and Xi are simply replaced by their expressions in terms of the Einstein variables. T “intertwines”
+                        the respective actions U0 and U of the conformal group, in the sense that U(g)T = TUo{g). Here U denotes the representation of
+                        the conformal group on H, and U0 its representation on Hq. In addition, Tis unitary: | 11 r</>111 = 11101 | |, where 11 | • • • 111
+                        denotes the conformally invariant norm, and the context indicates whether the wave function is on M or Mq.
+                           In the Heisenberg picture, a physical single-photon state vector 0 is represented by a fixed vector in Ho or H of unit norm; for
+                        specificity and to avoid inessential singularities, let us say H. The Minkowski energy operator H0 is w(d0), or the self-adjoint
+                        generator of the one-parameter unitary group corresponding to the transformations x0 jc0 — 5, Xi Xi, as extended from Mo to M
+                        in accordance with the foregoing. The Einstein energy operator is similarly w{dt) and is derived from the group of transformations in
+                        M,         — The expected value of the Minkowski energy in the single-photon state 0 then takes the form (//o05 0)*
+                           Under the assumption that H is the physical driving Hamiltonian, the photon state after lapse of Einstein time t is
+                        exp {—itH)<¡) = 0(¿). Under the assumption that H0 is the energy locally observed by extant apparatus, which has been
+                        argued above, and represents conventional practice, the expected observed energy of the photon after this lapse of time is
+                        (exp(/¿//)//0exp(—/i//)0, 0)-
+                           This leads to the same result as the Schrôdinger picture and may be extended to a computation of line breadth. The variance
+                        (dispersion2) in Minkowski energy of the state with wave function 0 is (//o0> 0)/(0> 0) — ((#o0? 0)/(0> 0))2- We represent 0
+                        as a localized plane wave, taking/( w) = 1 + cos vuîor\u\ <a, and = 0 otherwise. If va is of the form (2Á> 1 )ir, where TV is integral,
+                        this function is continuously differentiable, and the resulting wave function is normalizable, in the two-dimensional case. For
+                        arbitrary g,
+
+                                        (g,g) = J\k\\g(k)\2dk,           (H0g,g) = j \k\2\g(k)\2dk,           (H%g, g) = J \k\3\g(k)\2dk.                 (3.7)
+
+                        When ^=0(5), these expressions are nontrivial to evaluate in closed form, and we merely quote the result from Segal ( 1976a). The
+                        dispersion (ts in the observed energy (i.e., frequency) after lapse of Einstein time s satisfies the inequality
+
+                                                                       (<ri/Vs)2 ^ (<r0/v)2 + C(a,     1 + z)2,                                           (3.8)
+
+                        where vs is the expected observed energy, <70 is the initial dispersion in energy, and C(a,v) is a, constant that is independent of z.
+                        Under conservative assumptions as to the cosmic distance scale (>100 Mpc), the size of the emitting region (a < 1 pc), and the
+                        emitted wavelength ( <21 cm), the line broadening ô X is estimated to be less than 0.005X, for redshifts z < 5.
+
+
+                                                                 3.3. Chronometrie Redshift as a Perturbative Effect
+
+                           Taking the standpoint of microscopic particle theory, the “free” Hamiltonian H0 that is presumed to describe the unperturbed
+                        motion of the photon is the usual w(d0)* The perturbation Hx = V oï H0, or interaction Hamiltonian, may be characterized in
+                        several ways. (1) H{is the difference between the Einstein and Minkowski energies. (2) Hi is ¿ idU[L-U0 - L0,4]. (3)              is the
+                        transform of H0 under conformal inversion, which takes the form .x 4.x/.x2 in Mo ; ( 4 ) /^ is the scaling-contravariant component
+                        of H, as H0 is the scale-covariant component, in the Lorentz-covariant decomposition of H at the point of observation, H=H0 +
+                        Hi.(5) H{ isw{&), where & denotes differentiation with respect to the Minkowski time x’o at the antipode on S'3 to the point of
+                        observation. These characterizations, which apply to spacetimes of arbitrary even dimensions, indicate that Hx is a fundamental
+                        quantity and not an adventitious or ad hoc one.
+                           We amplify these characterizations briefly. The first appears to refer to the energies in two different spacetimes, but as noted
+                        above, the photon Hilbert spaces Ho and H over Mo and M are unitarily equivalent, via a local transformation. This transformation,
+                        which consists in concrete terms of multiplication by a spacetime dependent matrix as applied to the photon field, is unique because
+                        of the irreducibility of the photon representation. Accordingly, the Einstein energy, as represented by a self-adjoint operator in H,
+                        corresponds to a unique such operator in Ho. The difference between this operator and the usual Minkowski energy then represents
+                             Alternatively, the Minkowski energy operator on Ho is unitarily equivalent to a unique self-adjoint operator on H.            may
+                        then be represented, in a unitarily equivalent form to that just defined, by the difference between the Einstein energy in H and the
+                        representative for the Minkowski energy in this space.
+                           The expression for Hx given in characterization 2 follows from the quantum number assignments given in § 2. Characterization
+                        3 provides a simple means to show the positivity of Hx and also exhibits in the interpretation on M, the symmetry between H0 and
+                        Hx. Characterization 5 shows that H0 and Hx are covariant quantities; the energy is, of course, frame dependent, and H0 and Hx
+                        have the identical frame (Lorentz group) dependence. From the standpoint of an observer at the spatial antipode to the point of
+                        observation, the roles of H0 and Hx are reversed according to characterization 5, which in essence restates characterization 3 in
+                        terms of the Einstein universe rather than Minkowski space.
+                           We note that the chronométrie principle that the driving energy is the Einstein has applications to massive particles, in particular
+                        to the elimination of the ultraviolet divergences in quantum electrodynamics in conjunction with the Dirac equation appropriate
+                        to the Einstein metric (Segal & Zhou 1994), to which reference must be made for elaboration.
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        No. 2, 1995                          MAXWELL’S EQUATIONS IN EINSTEIN UNIVERSE                                                          321
+                                                   4.5. Analysis in Four Spacetime Dimensions: The Schrôdinger Representation
+                           Let x denote an arbitrary point of Mo, let H =       and set (/ = (oo + i íH)(g0 ~ 5 iH)~l. Under Einstein temporal evolution
+                        through time 5, ^transforms into         Now solving for C/in terms of//, U = -2i(U- g0)(U-\- <70). Setting5) for the transform
+                        of H through Einstein time 5, it follows that
+
+                                                                         H(s) = -2i(eisU- a0)(eisU + <T0rl                                                  (3.9)
+
+                        If we substitute the expression for U in terms of //and simplify, the result is that Einstein temporal evolution through time s has the
+                        effect:
+
+                                                            H2(2 sin ij + //cosis)(2cos^-//sin ¿¿r1 ^//(s).                                                (3.10)
+
+                           This shows that the Minkowski coordinates xM(,y) corresponding to Ii(s) are expressible as quotients of quadratic polynomials in
+                        the     with 5-dependent coefficients. To compute explicitly the x/s), note that If(s) has the form 2(2a + bH)(2b — ally1, where
+                        <2 = sin 5 5 and b = cos 5 5. Now if X =      and y2 ^ 0, then K~l exists and equals (yo^o - yiGi — y2<T2 ~ y^iúly2, by the properties
+                        of the Pauli matrices. If we apply this to y0 = 2b- oxq, yi = -axi, y2 - ax2, y3 = -ax3, the result is det (26 - aH) = 462 - 4abxo +
+                        a2x2 = D,ar\d
+
+                                                            (2b - aH)~y = D~{[(2b - axo)<ro + axXGi + ax2<j2 + ax3<j3\.                                    (3.11 )
+
+                        From this, it follows in turn (recalling the relation ax<j2 = ia3 and its cyclic permutations) that H(s) =
+
+                        2D~'[(2a + bxo)G0 + bx{G{ + bx2a2 + bx3o3][(2b - 0x0)00 + axioi + ax2o2 + ax3o3]
+                          = 2D~{ {[Aab + 2(b2 - a2)xo - abx2]oo + [(2a + bxo)axx + bxx(2b - axo) + bx2ax3i - bx3ax2i\ox
+                             + [(2a + bxo)ax2 + bx2(2b - axo) - bxxax3i + bx3axx]o2 4- [(2a + bxo)ax3 + bx3(2b - axo) + bxxax2i - bx2axxi]o3}
+                                                                                = 2D~l {[4ab + 2(b2 - a2)xo- abx2]oo + 2(xxox +x2o2 + x3o3)}.              (3.12)
+
+                        It follows that
+
+                                                                     x0(s)= [2 sin 5 + 2x0cos5 - (x2/2)]/2Z),                                              (3.13)
+
+                                                                     Xj(s) = Xj/D 0= 1,2,3).                                                               (3.14)
+
+                           Locally, the mapping Ts may be approximated arbitrarily closely, in sufficiently small regions, by its linearized form, or differ-
+                        ential dTs. If we confine consideration to a small neighborhood of the origin in Mo and differentiate the relations just derived, it
+                        follows that dTs locally takes the form
+
+                                                                     (Xo, xx, *2, -^3)   sec2 (s/2)(xq, xx , x2, x3).                                      (3.15)
+
+                        It is no essential loss of generality to assume that the source is at the origin or, alternatively, to interpret the as coordinates in the
+                        tangent spaces. This result then shows that a local wavelength at the source is magnified by the factor sec2 (s/2), which implies the
+                        redshift z = tan2 (5/2) for a sufficiently localized source.
+                           A more complete analysis, which involves the representation of the observed photon by a solution of Maxwell’s equations,
+                        proceeds as follows. We take the solution \f/ in the form of a differential form F^X x)dxtldxv of second degree, where FßV( x) are the
+                        components of the field strength at the point jc. The effect of any conformal transformation Ton ^ is to map it into the solution \¡/T,
+                        where iMjc) = FßV( T~xx)d( r-1x)M</( T~xx)v\ the representation of the conformal group on the Hilbert space of solutions of the
+                        Maxwell equations has precisely this form. The Minkowski energy of \¡/ takes the form, apart from a constant factor that depends
+                        on the units, /        F^v(x)2d3x, and similarly for ^T. Exact evaluation of \pT or its Minkowski energy is difficult, but when ÿ is
+                        sufficiently localized and T = Ts, the Minkowski energy may be approximated arbitrarily closely by the use of the linearized form
+                        of Ts. Then \pT may be expressed in the form
+
+                                                        2 F,v(T-'x)d(T-lx)Jdxpd(T-lx)v)/dxadxpdxa = 2 Fpv(x)dxpdxv,                                        (3.16)
+                                                       pvp a                                        (iv
+
+                        where F'^x) = Tp<r Fl>„(x')dx'/,/dxtldx'a/dxl,andx' = T lx. Now setting sec2 (p/2) = k, and T = Ts, the dx^/dx,, may be approxi-
+                        mated, by      within the region in which the field is effectively nonvanishing, and it results that F'ßl,(x) ~ k^F^Ax'). It follows
+
+
+
+
+                                     © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                         322                                                      SEGAL & ZHOU                                                          Vol. 100
+                        in turn that the Minkowski energy of i^is correspondingly approximated by
+
+                                       2 J [/c 2FllXx')]2dxidx2dxi ~ x 4 S J [F^Xx')]2^3dx'ydx^dx'i = k 1 Z f [F^Xx)]2dxidxidx^.                          (3.17)
+                                       tiv                               flV                              flV
+                        Thus the Minkowski energy is reduced by the factor k, implying the redshift z = tan2 (5/2).
+
+                                                       4.6. Analysis in Four Spacetime Dimensions: The Heisenberg Picture
+                          Passing from the Schrôdinger to the Heisenberg representation, the expected Minkowski energy (H0U(s)\¡/, U(s)\f/y may also be
+                        expressed as ( U{s)~xHqU(s)\P, i^). Now, unlike U(s)y, the operator U{s)~xH0U{s) = H0(s) may be expressed in a general closed
+                        form:
+
+                                                                Ho(s) =5(1+ coss)H-\r 5(1— coss)Hx + 5 sin5iS,                                            (3.18)
+
+                        where S denotes the generator         of the one-parameter group of scaling transformations. It follows that the observed Minkowski
+                        energy after time 5 is given by the equation
+
+                                                          (//o(5)) = 5(1+ cos5)(7/) + 5(1- cos5)<//i) + j sin s(Sy .                                      (3.19)
+
+                        The calculation is thereby reduced to one which involves only the photon data at the initial time. This is in part nontrivial as a result
+                        of the nonlocality of the invariant inner product in the photon Hilbert space together with the nonlinearity of the transformation
+                        generated by Hx. The main point is that for a localized photon in the observable frequency range, (#1) and (5) are negligible
+                        (Segal 1976a). From this follows the redshift time of travel relation, z = ( 1 — cos s)/{ 1 + cos 5), which is equivalent to that given
+                        above. For the wave equation in two-dimensional spacetime, the computations are greatly simplified, as described above.
+                           To treat the four-dimensional case in the Hilbert space context, we work in the Heisenberg representation and model the emitted
+                        photon as a spatially cutoff plane wave, which is then normalizable, at the time of emission. To show that the redshift time of
+                        travel relation z = tan2 \ t is valid within the present limits of measurability, it suffices to show that the coefficients (Hop, \py and
+                        ( w(S)\p, \py in the expression derived above are negligible relative to (H0\p, \py. We formulate the spatially cutoff plane wave by
+                        designating its initial values at time 0:
+
+                                                            ^(0, x) = exp (ik-x)f(x),        d0\p(0,x) = exp(ik x)g(x),                                  (3.20)
+                        where \k\ is the frequency p and f(x) and g(x) are nonoscillatory functions, which without loss of generality may be assumed of
+                        orders 1 or less, since only ratios of the expectation values of the dynamical variables are involved here.
+                           In more than two spacetime dimensions, the multipliers in the action of G are non vanishing in general, so that w(Z,l7) = -Lÿ +
+                        mÿ, where      is a function on spacetime. The form of the multiplier depends on the spacetime and its “parallelization.” In its form
+                        on M0 as normally parallelized, as in conventional relativistic theory, the explicit form of this function follows from Theorem 5.2
+                        of PI. This implies that m_10 = -ix0 and that m_14 = 1. Applying Theorem 5.6, it follows that at the time of emission Xo = 0,
+
+                                                                <//0^^> = £3[|grad^|2+ \d0t\2]d3x/(t,i),                                                 (3.21)
+
+                                                                          = | f3|x|2[|grad^|2+ |<WI2]d3*/<^>,                                            (3.22)
+                                                                             %/R
+
+                                                              (w(S)t,      = £3 (Xjdjt)rdyx/(t,        .                                                 (3.23)
+
+                           Now letting d denote the overall diameter of the spatial support of /and g, and expressing d and v in chronométrie units, it
+                        follows that
+
+                                                                            (Hyyp, \py/(H0\p, \py < 2d2,
+
+                                                                         (w(s)t, py/(H0\p, py<o(d/p).
+
+                        Thus on the highly conservative basis that > 100 Mpc, that p is of the order or greater than the frequency corresponding to the 21
+                        cm hydrogen line, and that the spatial support of the emitted photon is 1 pc or less, these ratios (<10-16) are far below the level
+                        where they would imply a measurable effect on z, according to its expression in the Heisenberg representation.
+                          Essentially the same analysis applies to the full Maxwell equations, as developed by Segal ( 1976a). Here /and g were taken to be
+                        Gaussian functions, and quantitative bounds were computed in this case. However, the main part of the argument applies to
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                         No. 2, 1995                         MAXWELL’S EQUATIONS IN EINSTEIN UNIVERSE                                                       323
+                        general / and g, as regards order-of-magnitude estimates. These are sufficient to establish the simple nonparametric and frequency-
+                        independent implication of chronométrie theory in the form given above, at the level of practical observations.
+
+                                                                                     4. DISCUSSION
+                           Starting from the premise that the fundamental microscopic dynamical variables for all observers are the generators of the
+                        conformal group and that they satisfy the same commutation relation at all points of the universe, we have specified and distin-
+                        guished the Einstein and Minkowski energies, and local Minkowskian coordinates. It is then a mathematical fact that propagation
+                        of light as driven by the Einstein energy affects the local structure of an initially localized photon, as observed in terms of the
+                        Minkowski dynamical variables. In particular, a rigorous computation in the free photon Hilbert space shows that after Einstein
+                        time t, the wavelength of a localized photon in an observable wave band is increased by the factor sec2 (i/2).
+                           The chronométrie analysis is conformally covariant and applies in the universal cosmos M, which represents empty or reference
+                        spacetime. While, in principle, observers and sources may be in arbitrary motions relative to one another, the regularity of the
+                        redshift phenomenon indicates that there exists a cosmic frame in which they are substantially at rest mutually. In chronométrie
+                        theory this frame is represented by the Einstein universe, which provides a factorization of M into time ® space, as Æ1 X S'3. There
+                        is an eight-parameter family of such distinct factorizations, corresponding to the homogeneous space quotient G/K and there is a
+                        particular factorization that is applicable at any epoch and is definable as that in which the mutual motions of sources and observers
+                        are minimized. The physical Einstein universe may also be specified by the designation of its isometry group, which is a maximal
+                        essentially compact subgroup K of the conformal group G on M. All such groups are conjugate, and the physical Einstein universe,
+                        may, in principle, be picked out, starting from any particular one Ko by minimizing the expectation value ( w(L_li0) U(g)\p, U{g))py
+                        of the cosmic energy with respect to the element # of G, where ^ is the vector in the cosmic quantized field Hilbert space H that
+                        represents the actual state of the universe, and U{g) is the unitary action of G on H. Starting with the establishment by Hubble of
+                        the extragalactic character of nebulae, the concept of the state \¡/ of the universe has attained observational significance, primarily
+                        through the characteristics of the extragalactic source population and of the diffuse backgrounds, on which CC implies observable
+                        constraints. There is no apparent theoretical or clearly objective empirical contraindication for CC, and it provides a conceptually
+                        simple and natural explanation for the redshift as well as improved efficiency in the correlation of observation with theory and
+                        microphysical connections.
+                           The derivations of the redshift to time of travel relation treated above assumed that the source was localized on a cosmic scale, as
+                        appropriate for discrete sources. Delocalized sources exist in theory and are predicted to be less redshifted, or in some cases not
+                        redshifted at all, depending on the extent of the delocalization. The flux from such a source would be slowly varying with time,
+                        which suggests their possible use as a model for gamma-ray bursts (cf., e.g., Brainerd 1993 ).
+                           More specifically, a free photon wavefunction that is invariant under Einstein temporal propagation necessarily has global sup-
+                        port in E, as measured by the dispersion in distance and averaged over S3 relative to the field strength. An exact lower bound on the
+                        dispersion is given for the case of the wave equation, to which the Maxwell equations are reducible, by the
+                          Theorem. Let <p bea solution of the wave equation that is invariant under Einstein temporal evolution. Then the variance V(f)
+                        ofsin p, where p is the distancefrom the base point O, as measured by
+
+
+                                                                         J sin2 pl</>(u)l2du j j*\<¡>(u)\2du,
+
+
+                        is > \ and < | /both limits being attained by certain solutions).
+                           The proof involves extensive calculation involving spherical harmonics and Gegenbauer polynomials ( it was provided for the
+                        referee but is here omitted). Further analysis shows that the same conclusion holds if the solution is not an exact eigensolution for
+                        Einstein temporal evolution but is in any spectral manifold for 7/that is significantly bounded away from zero. Thus a solution can
+                        be spatially localized at a fixed time only if it is extremely remote from being invariant under Einstein temporal evolution.
+                          Conversely, it has already been shown that for a localized solution, there is a corresponding redshift z = tan2 (t/2) under evolution
+                        through Einstein time /, showing that localized solutions age, as observed by their interaction with local matter. Extant photon
+                        detectors are based on the use of localized charged particles and are thereby necessarily sensitive only to the H0 component of the
+                        Einstein energy H and not at all to the quasi-gravitational component            . The measurement of the Hx component presents a
+                        challenge to instrumentation on an extremely large scale.
+                           Because of its freedom from adjustable parameters, CC provides also an efficient basis for objective and model-independent
+                        estimation of important astrophysical parameters. To mention only a few, these include the cosmic distance scale R, the motions
+                        of the Galaxy and the microwave background radiation relative to the cosmic inertial frame represented by the Einstein universe,
+                        and the multi-wave band luminosity functions of objectively specified populations of extragalactic sources.
+                          The treatment of nucleosynthesis is similar in CC and in big bang theory, to first order. The difference is only that a stochastic
+                        sequence of minibangs, associated with, e.g., the formation of galaxy clusters, replaces the unique big bang. Cluster formation would
+                        be expected to be accompanied by extremely high temperatures, which, as in big bang theory, would be productive of light elements.
+                        The impressive agreement of the big bang predictions regarding the abundances of the four major light elements depend on an
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1995ApJS. .100. .307S
+                        324                                                             SEGAL & ZHOU
+                        adjustable parameter, which is so tightly constrained as to suggest that some modifications may be needed in the underlying scenario
+                        (see, e.g., Audouze 1989).
+                           The infinitude of the Einstein timescale relative to the Minkowski scale provides greater scope for such modifications, via ancil-
+                        lary processes of longer duration. For example, an adaptation of CC to microphysics suggests a possible theory according to which
+                        the fundamental partons consist of a massive x-particle represented by a spinor field of conformal dimension 5/2, together with
+                        electrons and/or neutrinos (Segal 1991, and references therein). Such a particle would be electromagnetically noninteracting via
+                        the conventional trilinear interaction Lagrangian and would produce nucleons on encountering ordinary matter. The physical
+                        existence of such a particle is suggested by the apparently isotropic production of ultrahigh-energy cosmic rays and by the apparent
+                        missing mass in the Galaxy. Such a particle would be expected to play a significant role in cluster formation and thereby to enhance
+                        the flexibility of the big bang scenario for nucleosynthesis as adapted to a model for the latter process.
+                           Heavy elements could be produced primarily in stars along conventional lines, and the infinitude of Einstein time relative to
+                        Minkowski time would eliminate possible problems with the otherwise limited timescale for their production. As observed by
+                        Steigman ( 1989), “Abundances are not observed. Abundances are derived from observational data, often following a long and
+                        tortuous path involving theory.... All this is to dispell the notion that the observational situation involves little new work.” In the
+                        light of this and the earlier considerations, there is no special reason to doubt that a variant of big bang nucleosynthesis theory can
+                        be effectively adapted to CC.
+                           Finally, the transparency of cosmic space implies that photons in E will typically make many circuits before being absorbed or
+                        undergoing interaction. A free photon will be infinitely redshifted at the antipode in S3 to its point P of emission, but on returning
+                        to P it will be in its original state, as a consequence of the periodicity of free photon wave functions in E. The Planck theory ( or the
+                        maximization of the entropy subject to energy conservation) implies that the remnant radiation in the universe will be in a black-
+                        body state, irrespective of how optically thin cosmic space may be. By virtue of the large-scale isotropy of the source distribution,
+                        the state of the radiative background would also be isotropic. CC thus implies, without any ad hoc scenario, the existence of an
+                        isotropic cosmic background radiation. Further details, including possible effects of local perturbations, are given by Segal ( 1983).
+
+                          We thank J. F. Nicoll for useful discussion.
+
+                                                                                              REFERENCES
+                        Alexandrov, A. D. 1967, Canadian J. Math., 19, 1119                          Paneitz, S. M., Segal, I. E., & Yogan, D. A., Jr. 1987, J. Funct. Analysis,
+                        Alexandrov, A. D., & Ovchinnikova, V. V. 1953, Vestn. Leningr. Gos.            75, 1
+                          Univ., 11,95                                                               Schwinger, J. 1958, Selected Papers on Quantum Electrodynamics (New
+                        Audouze, J. 1989, in Cosmic Abundances of Matter (New York: AIP),              York: Dover)
+                          304                                                                        Segal, I. E. 1951, Duke Math. J., 18,221
+                        Brainerd, J. J. 1993, ApJ, 410, 507                                                  . 1976a, Proc. Natl. Acad. Sei., 73, 669
+                        Bateman, H. 1910, Proc. Lond. Math. Soc., 2, No. 8,223                               . 1976b, Mathematical Cosmology and Extragalactic Astronomy,
+                        Cunningham, E. 1910, Proc. Lond. Math. Soc., 2, No. 8,77                       (New York: Academic)
+                        Einstein, A. 1917, Sitzber. Preuss. Akad. Wiss., 142                                 . 1982, Proc. Natl. Acad. Sei., 79, 7961
+                        Faddeev, L. D. 1989, in Braid Group, Knot Theory, and Statistical Me-                . 1983, Phys. Rev., D28, 2392
+                          chanics, ed. C. N. Yang & M. L. Ge (Teaneck, NJ: World Scientific), 97             . 1984a, Nuov. Cimento, B79, 187
+                        Fock, V. 1964, The theory of space, time, and gravitation (2d ed.; Oxford:           . 1984b, in Proc. J. C. Maxwell, the Sesquicentennial Symp., ed.
+                          Pergamon)                                                                    M. S. Berger (Amsterdam: North-Holland), 245
+                        Gross, L. 1964, J. Math. Phys., 5, 687                                               . 1986b, in Quantum Theory and the Structure of Time and Space,
+                        Heisenberg, W. 1946, Z. Nat., 1, 608                                           Vol. 6, ed. L. Castell & C. F. v. Weizsäcker ( Munich: Hanser), 120
+                        Hoyle, F., & Narlikar, J. 1974, Action at a Distance in Physics and Cos-             . 1991, Proc. Natl. Acad. Sei., 88,994
+                          mology (San Francisco: Freeman)                                                    . 1993, Proc. Natl. Acad. Sei., 90,4798
+                        Hubble, E. P., & Tolman, R. C. 1935, ApJ, 82, 302                                    . 1993, ApJ, 411,465
+                        Inonu, E., & Wigner, E. P. 1953, Proc. Natl. Acad. Sei., 39, 510             Segal, I. E., Nicoll, J. F., & Blackman, E. 1994a, ApJ, 430,63
+                        Jakobsen, H. P., & Vergne, M. 1977, J. Funct. Analysis, 24, 52               Segal, I. E., Nicoll, J. F., & Wu, P. 1994b, ApJ, 431, 52
+                        Lichnerowicz, A. 1988, in NATO Adv. Sei. Inst., Ser. C, Math.-Phys. Sei.,    Segal, I. E., & Zhou, Z. 1992, Ann. Phys., 218,279
+                          Vol. 247, Deformation Theory of Algebras and Structures, and Applica-              . 1994, Ann. Phys., 232, 61
+                          tions ( Dordrecht: Kluwer), 855                                            Steigman, G. 1989, in Cosmic Abundances of Matter (New York: AIP),
+                        Minkowski, H. 1908, address at 80th Assembly of German Natural Scien-          310
+                          tists and Physicists, Cologne                                              Wesson, P. S. 1980, Gravity, Particles, and Astrophysics (Dordrecht:
+                        Möller, C. 1972, The General Theory of Relativity ( 2d ed.; Oxford: Oxford     Reidel)
+                          Univ. Press)                                                               Will, C. 1992, Int. J. Mod. Phys., Dl, 13
+                        Paneitz, S. M. 1983, J. Funct. Analysis, 54, 18 (PI )                        Zeeman, C. 1964, J. Math. Phys., 5,490
+                        Paneitz, S. M., & Segal, I. E. 1982a, J. Funct. Analysis, 47,78 (P2)         Zwicky, F. 1929, Proc. Natl. Acad. Sei., 15,773
+                                . 1982b, J. Funct. Analysis, 49, 335 (P3)
+
+
+
+
+                                      © American Astronomical Society • Provided by the NASA Astrophysics Data System
+

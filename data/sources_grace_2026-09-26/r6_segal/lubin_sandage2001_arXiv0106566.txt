@@ -1,0 +1,1771 @@
+                                       The Tolman Surface Brightness Test for the Reality of the Expansion. IV. A
+                                          Measurement of the Tolman Signal and the Luminosity Evolution of
+                                                                 Early-Type Galaxies
+
+                                                                                    Lori M. Lubin1,2
+
+                                                           Department of Astronomy, California Institute of Technology,
+                                                                  Mailstop 105-24, Pasadena, California 91125
+
+
+
+
+arXiv:astro-ph/0106566v1 29 Jun 2001
+                                                                                     Allan Sandage
+
+                                                             Observatories of the Carnegie Institution of Washington,
+                                                              813 Santa Barbara Street, Pasadena, California 91101
+
+
+                                                                                     ABSTRACT
+
+
+                                                 We review a sample of the early literature in which the reality of the expansion is
+                                             discussed. Hubble’s reticence, even as late as 1953, to accept the expansion as real
+                                             is explained as due to his use of equations for distances and absolute magnitudes of
+                                             redshifted galaxies that do not conform to the modern Mattig equations of the standard
+                                             model. The Tolman surface brightness test, once the only known test for the reality
+                                             of the expansion, is contrasted with three other modern tests. These are (1) the time
+                                             dilation in Type Ia supernovae light curves, (2) the temperature of the relic radiation
+                                             as a function of redshift, and (3) the surface brightness normalization of the Planckian
+                                             shape of the relic radiation.
+                                                 We search for the Tolman surface brightness depression with redshift using the
+                                             Hubble Space Telescope (HST) data from Paper III for 34 early-type galaxies from the
+                                             three clusters Cl 1324+3011 (z = 0.76), Cl 1604+4304 (z = 0.90), and Cl 1604+4321
+                                             (z = 0.92). Depressions of the surface brightness relative to the zero-redshift fiducial
+                                             lines in the mean surface brightness, log linear radius diagrams of Paper I are found
+                                             for all three clusters. Expressed as the exponent, n, in 2.5 log (1 + z)n mag, the value
+                                             of n averaged over Petrosian radii of η = 1.7 and η = 2.0 for all three clusters is
+                                             n = 2.59 ± 0.17 in the R band and 3.37 ± 0.13 in the I band for a qo = 12 model.
+                                             The sensitivity of the result to the assumed value of qo is shown to be less than 23%
+                                             between qo = 0 and +1. The conclusion is that the exponent on (1 + z) varies from
+                                             2.28 to 2.81 (±0.17) in the R band and 3.06 to 3.55 (±0.13) in the I band, depending
+                                             on the value of qo . For a true Tolman signal with n = 4, the luminosity evolution in
+                                             the look-back time, expressed as the exponent in 2.5 log (1 + z)4−n mag, must then be
+
+                                       1
+                                           Hubble Fellow
+                                       2
+                                           Current address : Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218
+                                                –2–
+
+
+     between 1.72 to 1.19 (±0.17) in the R band and 0.94 to 0.45 (±0.13) in the I band. We
+     show that this is precisely the range expected from the evolutionary models of Bruzual
+     & Charlot (1993, ApJ, 405, 538) and other measurements of the luminosity evolution of
+     early-type galaxies. We conclude that the Tolman surface brightness test is consistent
+     with the reality of the expansion to within the combined errors of the observed hSBi
+     depression and the theoretical correction for luminosity evolution.
+         We have also used the high-redshift HST data to test the “tired light” speculation
+     for a non-expansion model for the redshift. The HST data rule out the “tired light”
+     model at a significance level of better than 10 σ.
+
+     Subject headings: galaxies: clusters: general – cosmology: observations
+
+
+
+                                         1.   Introduction
+
+               1.1.   Early Commentaries on the Reality of the Expansion
+
+    With the announcement by Hubble (1929a) of a correlation between his estimates of distances
+to nearby galaxies and their redshifts, observational cosmology came of age, beginning its Long
+Journey into Night. The redshifts used by Hubble had been measured by Slipher, published by
+Eddington (1923), and added to by Humason (1929) in his crucial extension to higher values before
+Hubble’s announcement.
+
+     However, the announcement of an expanding universe was such an extraordinary claim that
+proof of its reality by some independent means seemed essential, even though an expanding universe
+had been predicted by Friedmann (1922) [cf. Tropp, Frenkel & Chernin 1993] as one of the solutions
+of fundamental Einstein equation of general relativity. Expanding solutions were also detailed later
+by Lemaitre (1927, 1931) and Robertson (1928), each of which, acknowledging Friedmann, made
+advances beyond Friedmann by their adumbrations concerning the available observations of galaxies
+and their relative distances.
+
+    It is not clear whether Hubble knew of the Friedmann (1922) prediction or of the theoretical,
+cum observational, papers of Lemaitre and Robertson in 1927 and 1928, although Robertson told
+one of us (AS) that he had discussed with Hubble the existence of an expanding solution to the
+Einstein equations before 1929 (e.g. Sandage 1995, footnote 16 to Chapter 5). None of these three
+principal theoreticians are mentioned in Hubble’s 1929 announcement.
+
+     Nevertheless, the decade of the 1920’s was not entirely free of observational attempts to test a
+related cosmological prediction. A year after the publication of Einstein’s field equations, de Sitter
+(1917a,b) had discovered one curious solution to them. Although his solution was that of a static
+metric (there are only three such solutions; Tolman 1929), it remarkably exhibited a redshift. The
+metric coefficient of the four-space time coordinate was a function of distance from the observer.
+Clocks that are further from the observer’s origin in the three-space manifold would appear to tick
+                                                     –3–
+
+
+more slowly than clocks at that origin. This effect would give an apparent redshift that would vary
+with distance. The formal feature of a redshift in the de Sitter metric was called “the de Sitter
+effect.” A curious additional feature was that any test particle put into the de Sitter manifold
+would exhibit a radial motion (Eddington 1923, §70; de Sitter 1933; Tolman 1934, §144–145)3 even
+though the spatial metric was static.
+
+    The predicted existence of the de Sitter redshift effect with its static metric became well
+known in the decade of the 1920’s. Many attempts were made to find the effect using astronomical
+data (distances and velocities) for objects such as stars and globular clusters, thought then to
+comprise the wider universe before Hubble (1925, 1926, 1929b) proved the existence of external
+galaxies. Among the most accessible papers concerning the search for the de Sitter effect are those
+by Silberstein (1924), Stromberg (1925), Wirtz (1925), Lundmark (1925), and undoubtedly many
+others.
+
+     With regard to the de Sitter effect, it is a continuing curiosity as to what Hubble meant in the
+final sentence of his announcement in 1929 where he wrote:
+
+
+       The outstanding feature is the possibility that the velocity-distance relation may rep-
+       resent the de Sitter effect.... In this connection it may be emphasized that the linear
+       relation found in the present discussion is a first approximation representing a restricted
+       range in distance (emphasis added).
+
+
+      In other words, a larger range in distance may not show a linear relation, he surmised, where
+he apparently knew that the first order de Sitter effect is quadratic in distance rather than linear
+(e.g. Sandage 1995, eq. 5.10). Cautiously, Hubble left open the possibility that the data which he
+had discussed might define a redshift-distance relation that would actually vary as the square of
+the distance, which, in first approximation, would appear to be linear for short distances near the
+origin (i.e. the first term of a Taylor series). Hubble also undoubtedly knew of the earlier searches
+for the de Sitter effect by Lundmark (1925) and Silberstein (1924) where they attempted parabolic
+fits to their adopted data.
+
+     However, Hubble & Humason (1931) soon proved that the redshift-distance relation was, in
+fact, linear over the much larger range of redshifts than was available in 1929. For this and other
+reasons, de Sitter (1933) wrote: “We know now, because of the observed expansion, that the actual
+universe must correspond to one of the non-static models.... The static models are, so to say, only
+of academic interest.”
+
+   3
+    An accessible derivation of the de Sitter static metric and its properties is given by Tolman (1934, §136 and
+§142–145). A more recent summary of the de Sitter metric with its redshift properties is given elsewhere (Sandage
+1975, §2.2).
+                                                –4–
+
+
+             1.2.   Later Attempts to Counter the Reality of the Expansion
+
+    Nevertheless, the concept of an expanding universe seemed so bizarre to many commentators
+that attempts began already in 1929 to find alternate ways to produce large redshifts other than
+from a true expansion. These attempts continue to this day.
+
+      The first alternate suggestion was made by Zwicky (1929) where he proposed that photons
+lose energy on their way to us from a distant source. As a consequence, they would show a redshift
+in their energy distribution, both in the continuum radiation and in the Fraunhofer lines used to
+measure the redshifts. To first order, the redshift effect would be linear with distance because the
+                                             HD
+first term in a Taylor expansion of 1 + z = e c is linear in D. Here, H is the Hubble constant and
+D is the distance. With this suggestion, Zwicky (1929) introduced the notion of “tired light.”
+
+      Even as late as mid-twentieth century, Zwicky (1957) maintained that the hypothesis was
+viable. However, neither Zwicky nor any other subsequent supporter of the proposition (e.g. La
+Violette 1986; Pecker & Vigier 1987) gave a convincing physical theory for the “tiredness.” As
+critics still point out, any scattering process with energy transfer from the photon beam to the
+scattering medium, as required for a redshift, must broaden (deflect) the beam. This effect would
+cause images of distant galaxies to be fuzzier than their local counterparts, which they are not.
+
+
+
+                                    1.3.   Hubble’s Reticence
+
+     Perhaps the most interesting attack on the reality of the expansion was the reluctance of Hubble
+himself to believe that the redshifts represent a true expansion rather than “caused by an unknown
+law of nature.” Much has been written about Hubble’s reluctance, most of which is wrong. Some
+commentators even suggest philosophical or religious reasons related to a presumed abhorrence of
+a “creation” event that is implied in some interpretations of a real Friedmann expansion.
+
+     However, the fact is that Hubble’s reasons were those of a reductionist bench scientist. He relied
+(mistakenly, it turns out) solely on the interpretation of his observational data and their accuracy,
+coupled with a mistaken theory of how redshifts should vary with “distance.” His equation for
+“distance” has no justification within the modern Mattig (1958) equations. This story, and why
+Hubble’s conclusion would not have been reached using current data analyzed with the modern
+theoretical equations, is set out in detail elsewhere (Sandage 1998).
+
+     In outline, Hubble’s argument was as follows. By the mid 1930’s, Hubble (1934; 1936a,b) had
+completed his program of galaxy counts, the goal of which was to measure the curvature of space.
+He also completed the extension of the Hubble diagram of redshift versus apparent magnitude to
+the limit of the Mount Wilson 100-inch reflector (Hubble 1936; Humason 1936). The data for each
+of these programs had to be corrected for the effects of redshifts on the apparent magnitudes. If
+the expansion was real, Hubble assumed that the observed bolometric magnitudes (or equivalently,
+the observed magnitudes corrected for the selective part of the K term) must be made brighter
+                                               –5–
+
+
+by two factors of 2.5 log (1 + z); however, if the redshift was due to “an unknown law of nature”
+rather than the expansion, only one such factor was to be applied to the observed magnitudes.
+
+    Hubble believed that the Hubble diagram (log of the redshift versus apparent magnitude)
+must be strictly linear; in addition, the radius of curvature of space implied by his “corrected”
+magnitudes for his galaxy counts must not be “too small.” Consequently, he became convinced
+that only one factor of 2.5 log (1 + z) should be applied. If so, the expansion would not be real.
+Hubble (1936b) wrote:
+
+
+     If the redshifts are not primarily due to velocity shifts ... [then] the velocity-distance
+     relation is linear; the distribution of nebulae is uniform; there is no evidence of expan-
+     sion, no trace of curvature, no restriction of the time scale.... The unexpected and truly
+     remarkable features are introduced by the additional assumption that redshifts measure
+     recession. The velocity-distance relation deviates from linearity by the exact amount of
+     the postulated recession. The distribution departs from uniformity by the exact amount
+     of the recession. The departures are compensated by curvature which is the exact equiv-
+     alent of the recession. Unless the coincidences are evidence of an underlying necessary
+     relation between the various factors, they detract materially from the plausibility of the
+     interpretation. The small scale of the expanding model, both in space and time, is a
+     novelty and as such will require rather decisive evidence for its acceptance.
+
+
+That “rather decisive evidence” is now available from at least three modern experiments that are
+independent of the Tolman galaxy surface brightness test.
+
+
+
+                  1.4.   Other Recent Proofs that the Expansion is Real
+
+                                 1.4.1.   The Time Dilation Test
+
+     The Tolman (1930) surface brightness (1 + z)4 effect was the only known test for the reality of
+the expansion until Wilson (1939) suggested that the shape of the light curves of Type Ia supernovae
+provides a clock. This supposition was based on the uniform shape of the light curve discovered
+by Baade (1938) and recalled as history by Minkowski (1964). Wilson reasoned that such clocks
+at different redshifts would measure the special relativity time dilation if the light curve shapes
+of SNe Ia at high redshifts could be observed. The stretching of the light curves, increasing with
+redshift, has now been observed. The data give a spectacular confirmation of the time dilation
+effect (Goldhaber et al. 1997, 2001).
+                                                 –6–
+
+
+          1.4.2.   Temperature of the Relic Blackbody Radiation as a Function of Redshift
+
+     Blackbody radiation in an expanding cavity remains Planckian in shape but with a decreasing
+temperature that scales as T (z) = T (0)(1 + z) with redshift (Tolman 1934, eq. 177.7; Bahcall &
+Wolf 1968). The observations of the Boltzman temperature of interstellar molecules in the spectra
+of high-redshift galaxies has now apparently been measured in a difficult experiment with the Keck
+10-m telescopes (Songaila et al. 1994). An important confirmation of these first results was made
+in observations by Ge et al. (1997) and Srianand, Petitjean & Ledoux (2000). Only upper limits
+had been achieved before (cf. Meyer et al. 1986) which, nevertheless, were highly important in
+pioneering this test.
+
+
+
+ 1.4.3.   Measurement of the Chemical Potential the Alpher-Herman Relic Black Body Radiation
+
+     Although the shape of an initial blackbody spectrum remains Planckian in an expanding cavity,
+the vertical normalization (i.e. the photon number) remains Planckian only if that normalization
+is decreased with redshift by (1 + z)4 . This fact is derived trivially from the Planck equation as
+expressed in terms of energy flux per wavelength per unit wavelength interval rather than frequency
+per unit frequency interval. (Of course, both representations are equivalent by minding the relation
+between wavelength interval and frequency interval, where dν = c dλ λ2
+                                                                       .)
+
+      Hence, because the Planck equation defines a surface brightness, a test of the Tolman surface
+brightness effect is equivalent to measuring the deviation of the photon number per unit surface
+area in the sky by comparing the observations with the normalization given by the Planck equation
+itself. The deviation of the data from the Planck equation is called the “chemical potential.”
+Among other things, the deviation with wavelength could be due to Compton scattering in the
+early universe.
+
+     No deviation has been found in the observations to within one part in 104 . The perfect
+Planckian shape of the relic radiation was measured with COBE to within this limit of 9 × 10−5
+(Mather et al. 1990; Fixsen et al. 1996). The conclusion to be drawn from this spectacular result is
+that this seemingly perfect normalization of the spectral energy distribution is a definitive proof of
+the Tolman surface brightness factor and, therefore, a definitive proof of the reality of the expansion.
+We shall adopt this assumption later in §4 where we combine our surface brightness signal with the
+theoretical (1 + z)4 Tolman signal and interpret the difference to be due to luminosity evolution in
+the high-redshift look-back time.
+
+
+
+                                1.5.   Plan of the Present Paper
+
+    In the first three papers of this series (Sandage & Lubin 2001, hereafter Paper I; Lubin &
+Sandage 2001a and 2001b, hereafter Papers II and III), we provide the background and observational
+                                                –7–
+
+
+data required to carry out the Tolman test. Most importantly, we measure the fiducial (zero-
+redshift) relations between the mean surface brightness, absolute magnitude, and linear radius for
+local early-type galaxies in Paper I. In Paper III, we present the observational data on our high-
+redshift comparison sample of 34 early-type galaxies in the three clusters used in this program, Cl
+1324+3011 at z = 0.76, Cl 1604+4304 at z = 0.90, and Cl 1604+4321 at z = 0.92 (Oke, Postman
+& Lubin 1998; Postman et al. 1998, 2001; Lubin et al. 1998, 2001). To compare accurately the
+local and high-redshift data, the parameters of each galaxy are measured at discrete values of the
+Petrosian (1976) η metric radius, which is defined as the difference in magnitude between the mean
+surface brightness averaged over the area interior to a particular radius and the surface brightness
+at that radius (see §2 of Paper I).
+
+     In the present paper, we use the results presented in Papers I–III to complete the Tolman test.
+In §2 we review the Mattig (1958) cosmological equations with which to calculate the absolute
+magnitudes and linear radii of galaxies from their apparent magnitudes and angular radii. Explicit
+equations for the special case of qo = 21 are given. We use these equations to obtain the total
+magnitude M , linear radius R, and mean surface brightness hSBi as functions of five Petrosian η
+radii of 1.0, 1.3, 1.5, 1.7, and 2.0 mag for the 34 high-redshift early-type galaxies. Tables 2–4 list
+these values for qo = 21 and Ho = 50 km s−1 Mpc−1 . These values are derived from the observational
+data listed in Paper III. The Tolman test is made in §3 based on the data in §2 and the comparison
+with the surface brightness data at zero redshift from Paper I.
+
+     In §4 we set out the theoretical evolutionary corrections, first, using the simplest model of
+passive evolution by main sequence burn-down in the HR diagram as a function of time and, second,
+using the sophisticated star-formation models of Bruzual & Charlot (1993), following earlier papers
+by Guiderdoni & Rocca-Volmerange (1987, 1988) and Rocca-Volmerange & Guiderdoni (1988).
+
+     In §5 we show the sensitivity of the observed Tolman signal to the assumed value of qo = 21
+used in the data of Tables 2–4. Proof that the “tired light” assumption does not fit the data by a
+large factor is given in §6. In §7, we discuss the systematic uncertainties in the Tolman test made
+here and describe plans to strengthen the present test.
+
+
+
+   2.   Calculation of Absolute Magnitudes and Linear Radii for the High-Redshift
+                                        Galaxies
+
+    Comparison of the high-redshift data in Paper III with the data for local galaxies in Paper I
+requires knowledge of absolute magnitudes (corrected for K term) and linear radii.
+
+     We have two options to calculate these values. (1) If we were to assume that the standard
+model that leads to the Mattig (1958, 1959) equations (which assume that the expansion is real)
+did not exist, the natural assumption is that the distance, Do , at the time that light is received is
+related to redshift by Do = Hczo . This was Hubble’s assumption throughout his work, including the
+last summary paper in his Darwin lecture (Hubble 1953). (2) Alternately, we can adopt the details
+                                                        –8–
+
+
+of the standard model by choosing a value for the deceleration parameter, qo (Hoyle & Sandage
+1956). We then use the Mattig (1958) equations to calculate the distance modulii, m − M , and the
+linear radii, R, from the observed angular radii.4
+
+     Because these equations already contain the Tolman (1 + z)4 factor, the test for the Tolman
+effect becomes one of consistency between the surface brightness observations and the predictions
+of the standard model. The argument of why this does not lead to a hermenuetical circularity was
+given in §5 of Paper I. We adopt option (2) in calculating the distance moduli and the linear radii
+of the program clusters. We treat only the qo = 21 case of the standard model in this section. The
+cases for qo = 0 and +1 are treated in §5 using the correction recipes in Table 8.
+
+
+
+                                     2.1.     The Equations for qo = 21
+
+         For the qo = 12 case with Ho = 50 km s−1 Mpc−1 , the Mattig equations reduce to
+
+                                                                  √
+                                m − M = 5 log [2(1 + z −           1 + z)] + 43.89,                               (2)
+
+and
+
+                                                                  
+                                                 2c             1
+                                        D1 =              1− √       ,                                            (3)
+                                             Ho (1 + z)        1+z
+
+where D1 is the distance (in parsecs) when light left the galaxy at the observed redshift z. The
+linear radius R, in parsecs, of a galaxy with angular radius θ, in radians, is
+
+                                                   √
+                                               2c ( 1 + z − 1)
+                                    R(pc) =                   3     θ(radians),                                   (4)
+                                                  Ho (1 + z) 2
+
+using the distance D1 from equation (3).
+
+         Changing the angular radius in radians to arcseconds, equation (4) can be conveniently written
+as
+
+     4
+    To avoid confusion with our use of R in this paper to mean the linear radius of a galaxy rather than its use as
+the time-dependent scale factor in the metric, we have used D here as the distance parameter by replacing Rr by
+D, where, in the standard notation, R is the scale factor that varies with time and r is the dimensionless co-moving
+radial coordinate in the metric. Hence, in our notation here, Do is the distance at the time light is received from a
+galaxy at redshift z. This is given by Mattig (1958; see also Sandage 1988, eq. 30) as
+                                             c                           p
+                                 Do =      2
+                                                     [zqo + (qo − 1){−1 + 2qo z + 1}]                              (1)
+                                       Ho qo (1 + z)
+                                                 –9–
+
+
+
+                                     log R(pc) = log θ ′′ + log A,                                  (5)
+
+where
+
+                                                       "√           #
+                                                   4        1+z−1
+                                   A = 5.818 × 10               3       ,                           (6)
+                                                        (1 + z) 2
+
+for qo = 21 and Ho = 50.
+
+   Equations 2–4 are derived in Sandage (1961a,b; 1988; 1995), where the standard model is
+summarized from the point of view of practical cosmology.
+
+    Table 1 shows the m − M and A values for the three program clusters for the qo = 21 case using
+equations (2), (5), and (6). The K terms are those derived in Paper III (see Table 4).
+
+
+
+ 2.2.    The M , R, and hSBi Data for the Three Program Clusters for the qo = 21 Case
+
+     The results for absolute magnitude M , linear radius R, and mean surface brightness hSBi are
+listed in Tables 2–4 where the hSBi values are those in Paper III, corrected for the effects of redshift
+by the K terms from Table 1. The format of Tables 2–4 is the same as for Tables 5–7 in Paper
+III. Data for the five η values of 1.0, 1.3, 1.5, 1.7, and 2.0 are listed. For each η, the K-corrected
+absolute magnitude is calculated using the m − M value from Table 1 and the apparent magnitudes
+from Paper III. The K-corrected mean surface brightnesses from Paper III are given next. The
+logs of the linear radii (in parsecs) are obtained by adding the log of the angular radii from Tables
+5–7 of Paper III to the A values from Table 1, calculated using equations (5) and (6).
+
+
+
+ 3.     The Tolman Test Using the HST Data for Early-Type Galaxies from the Three
+                                Program Clusters for qo = 21
+
+     The data that are necessary to make the Tolman test are given in Tables 2–4. The search for
+a Tolman signal, as modified by luminosity evolution, is made by comparing these high-redshift
+data with the calibrations at zero redshift in Paper I. The comparisons for the R photometric band
+of cluster Cl 1604+4321 (z = 0.9243) can be made directly because the Postman & Lauer (1995)
+calibrations in Paper I are already in the standard Cape/Cousins R photometric band.
+
+     Comparisons in the I band for clusters Cl 1324+3011 (z = 0.7565) and Cl 1604+4304 (z =
+0.8967) are made by converting the calibrations in Paper I to the I photometric band by applying
+the adopted color of hR − Ii = 0.62. This mean (R − I) color for early-type galaxies at zero redshift
+was derived by (1) using hB − Ri = 1.52 from the photometry of Postman & Lauer (1995), as
+                                               – 10 –
+
+
+corrected for K term and Galactic absorption in Paper I, and (2) using the two-color (B − R),
+(R − I) diagram from the data of Poulain & Nieto (1994) to give hR − Ii = 0.62 at hB − Ri = 1.52.
+A color of hR − Ii = 0.62 corresponds to a mean stellar spectral type of about K5 (see Figure 10
+of Sandage 1997).
+
+
+
+            3.1.   The Tolman Signal in the log R, hSBi Correlation Diagram
+
+     We approach the problem first by considering the data in the parameter space which contains
+the smallest evolutionary signal and, therefore, is expected to have the strongest Tolman signal (if
+it exists). Beyond a doubt, luminosity evolution occurs in a stellar population with no new star
+formation after the first initial star burst. The main sequence termination point in the Hertzsprung–
+Russell (HR) diagram burns down to fainter luminosities as the population ages, making the total
+luminosity of the aggregate fainter with time. Calculation of the burn-down rate, coupled with the
+luminosity function that determines relative numbers of stars that partake in the evolution, gives
+a first estimate of the change of total luminosity with time. This is how we make a first estimate
+of the effect in §4.
+
+     Luminosity evolution affects both the observed surface brightness and the absolute magnitude.
+However, we expect that it does not affect the radius as a function of time. The consequence is
+that the correlation of surface brightness versus absolute magnitude has a double dose of evolution
+because both coordinates are affected, whereas the correlation of surface brightness and linear radius
+contains only a single dose, on the assumption that the radius does not change. On this basis, the
+most powerful of the three correlation diagrams from Paper I is the hSBi, log R diagram. In this
+section we examine this correlation, searching for a Tolman signal in each of the three high-redshift
+clusters.
+
+
+
+                      3.1.1.   The data in R for Cl 1604+4321 (z = 0.9243)
+
+    Figure 1 shows the hSBi, log R correlation diagram for Cl 1604+4321 in the R photometric
+band as corrected for K dimming using Table 1. Large dots are those galaxies in Table 2 that
+have directly measured redshifts. Small dots are assumed cluster members on the basis of their
+photometric redshifts (for details, see Paper III).
+
+     The lines in each panel are the correlations for zero redshift from Tables 2 and 3 of Paper
+I based on the photometry by Postman & Lauer (1995) and extended to radii smaller than log
+R = 4.3 using the data of Sandage & Perelmuter (1991). Note that Table 3 in Paper I lists the
+magnitude difference between the best-fit relations of the Sandage & Perelmuter (1991) and the
+Postman & Lauer (1995) data; therefore, the best-fit lines given in Table 2 of Paper I need to be
+made fainter by the absolute value of the corrections listed in Table 3 of Paper I. The resulting
+local lines carry an error in the hSBi vertical position that varies between 0.04 mag and 0.50 mag
+                                               – 11 –
+
+
+depending on log R (see Table 3 of Paper I).
+
+     The effect for which we are searching is clearly seen in Figure 1. It is the depressed surface
+brightness at a given radius compared with the surface brightness of early-type galaxies at zero
+redshift. We interpret this depression to be the Tolman signal as diluted by luminosity evolution.
+
+     The amount of the depression for each galaxy was calculated relative to the zero-redshift line
+at a given radius. This is done by using the equations for the zero-redshift lines from Tables 2 and
+3 of Paper I and subtracting the observed hSBi values for each galaxy from these fiducial lines read
+at the same log R value. The subsequent errors on this difference in mean surface brightness include
+both the measurement error in the hSBi of the galaxy and the uncertainties in the local line (see
+Tables 2–3 of Paper I). The result for Cl 1604+4321 is listed in Table 5 as the mean depressions
+for the five Petrosian η radii of 1.0, 1.3, 1.5, 1.7, and 2.0 using all of the galaxies in Table 2.
+
+     Column 2 of Table 5 shows the depression in magnitudes from the local line which was calcu-
+lated from a weighted average of the program galaxies in Cl 1604+4321. Column 3 of Table 5 gives
+the exponent, n, in 2.5 log (1 + z)n for the observed mean ∆hSBi depression, which are listed as
+magnitudes in column 2. With z = 0.9243, it follows that n = 1.407 × ∆hSBi for Cl 1604+4321.
+
+     Column 4 of Table 5 shows the correction for luminosity evolution, in magnitudes, that is
+required in order to make the Tolman signal of 2.5 log (1 + 0.9243)4 = 2.84 mag, based on the
+argument in §1.4.3 that the true exponent must be 4 because of the black body normalization
+of the relic radiation. Therefore, column 4 is the difference between 2.84 mag and the listings
+in column 2. Column 5 shows the exponent, 4 − n, for the luminosity evolution, expressed as
+∆Mevol = 2.5 log (1 + z)4−n mag that is required to make the true Tolman signal (1 + z)4 . Finally,
+column 6 shows the number of galaxies in Cl 1604+4321 that are used in the averages.
+
+     Table 5 shows that the apparent Tolman signal in columns 2 and 3 dominates over the evo-
+lutionary requirements for luminosity evolution in columns 4 and 5. The exponent n varies from
+3.43 ± 0.23 to 2.48 ± 0.25 for η radii from η = 1.0 to 2.0 for Cl 1604+4321.
+
+
+
+   3.1.2.   The Data in I for the Two Clusters Cl 1324+3011 (z = 0.7565) and Cl 1604+4304
+                                              (z = 0.8967)
+
+     Figure 2 shows the combined data in the I band for the two clusters observed with HST in the
+F 814W filter, reduced to the standard I system and corrected for K dimming by the values listed
+in Table 1. The M and log R values listed in Tables 3 and 4 for these clusters are calculated from
+the Mattig (1958) equations using the m − M and log A values listed in Table 1 and the observed
+data in Tables 5 and 6 of Paper III. Filled circles indicate the galaxies in Cl 1324+3011, while open
+circles indicate the galaxies in the higher-redshift cluster Cl 1604+4304. Again, the different symbol
+sizes separate the galaxies with measured redshifts from the assumed cluster members based on
+photometric redshifts (see Paper III).
+                                               – 12 –
+
+
+     The differences between the observed hSBi magnitudes and the zero-redshift calibration values
+at a given radius, given as a weighted average over the galaxies in each cluster, are listed in Tables
+6–7 in the same format as for Table 5. Column 2 shows the mean surface brightness depression
+from the zero-redshift fiducial line, expressed in magnitudes.
+
+     Column 3 shows the exponent on 2.5 log (1 + z) to produce the listed mean values of these
+surface brightness depressions. Clearly, n = 1.635 × ∆hSBi for Cl 1324+3011 (z = 0.7565) and
+n = 1.439 × ∆hSBi for Cl 1604+4304 (z = 0.8967). The exponent n varies from 4.15 ± 0.25 to
+3.25 ± 0.25 for Cl 1324+3011 and from 4.20 ± 0.26 to 3.29 ± 0.30 for Cl 1604+4304 for η radii from
+1.0 to 2.0.
+
+
+
+                    3.1.3.   The Mean Tolman Signal From the Three Clusters
+
+       Tables 5–7 show the values of the mean depression in hSBi and, therefore, the exponent n
+are a strong function of Petrosian radii η, being measured larger at smaller η values. This trend
+is a direct result of the finite angular resolution of the WFPC2 point-spread-function described
+in Paper II (Lubin & Sandage 2001a). Specifically, for smaller values of η we are not accurately
+measuring the true η(r) curve (see §2 of Paper II). As a result, we underestimate the mean surface
+brightness hSB(r)i and, therefore, overestimate the signal, i.e. the depression from the zero-redshift
+relation. We have shown in Paper II that, even for the smallest galaxies with half-light radii of
+0.′′ 25, the true η(r) curve is reached only for η & 1.8. At these η values, the error in the measured
+mean surface brightness is less than 0.07 mag.
+
+     Therefore, in order to calculate our final numbers, we disregard the data at η values of less
+than 1.7 as undoubtedly unreliable at the > 0.1 mag level. Consequently, we calculate the mean
+value of the exponent n averaged over the two η values of 1.7 and 2.0 only. We obtain a final value
+of the exponent n in the R band by using the data from Cl 1604+4321. For the I band, we note
+that the resulting values of the exponent n (as a function of η) are the same within the errors for
+the two clusters observed in the I band, Cl 1324+3011 and Cl 1604+4304 (see Column 3 of Tables
+5–7). Therefore, we have combined the data for both clusters for the final measurement in the I
+band.
+
+     As discussed above, we calculate the values for the depression ∆hSBi (as represented by the
+exponent n) for the R and I bands from a weighted average of the data from η = 1.7 and 2.0. The
+results for qo = 12 are
+
+
+
+                        ∆hSBi = 2.5 log (1 + z)2.59±0.17 mag (R Band)
+                                      2.5 log (1 + z)3.37±0.13 mag (I Band)                       (7)
+
+
+for the apparent Tolman signal as compromised by luminosity evolution. The required luminosity
+                                                – 13 –
+
+
+evolution would then be
+
+
+
+                          Mevol = 2.5 log (1 + z)1.41±0.17 mag (R Band)
+                                      2.5 log (1 + z)0.63±0.13 mag (I Band)                         (8)
+
+We adopt equations (7) and (8) as our final values from the current experiment.
+
+     We must now test whether equation (8) is reasonable within the independent discipline of
+luminosity evolution of the stellar content using the precepts of population synthesis. In §4 we
+use the 1996 version of the Bruzual & Charlot (1993) models to test for compatibility between
+equation (8) and the stellar-population synthesis models. There is, of course, now a vast literature
+on population synthesis models. We have only used the Bruzual & Charlot (1993) models here. It
+will eventually be important to test for compatibility using different codes, such as earlier papers
+by Guiderdoni & Rocca-Volmerange (1987, 1988), Rocca-Volmerange & Guiderdoni (1988), and
+Worthey (1994).
+
+
+
+    3.2.   The Doubly Diluted Tolman Signal in the hSBi, M Correlation Diagram
+
+     In the last section we chose to analyze the data in the hSBi, log R plane rather than in the
+hSBi, M plane as was done in Sandage & Perelmuter (1991). As explained in §3.1, the present
+method is preferred because it minimizes the effect of luminosity evolution, which, from the result
+in the last section, must be present at the level of 2.5 log (1 + z)1.41±0.17 mag in the R band and
+2.5 log (1 + z)0.63±0.13 in the I band if the radius does not evolve over the look-back time and if
+the expansion is real. Nevertheless, it is of interest to examine the data in the hSBi, M correlation
+diagram that is doubly degenerate to the effects of luminosity evolution.
+
+     Figure 3 shows the data for Cl 1604+4321 in the R photometric band with the same symbols as
+in Figure 1. The data for the individual galaxies are from Table 2 and, therefore, refer to Ho = 50
+and qo = 21 in calculating M from the redshift. The ordinate of hSBi, as before, is independent of
+both Ho and qo because it is given directly as observed, except that it has been corrected for K(R)
+dimming via Table 1.
+
+     We also plot in Figure 3 the envelope lines for the zero-redshift calibration. These relations
+have been calculated from the equations of hSBi versus log R given in Table 2 of Paper I, as
+modified by the non-linearity corrections, given in Table 3 of Paper I, at radii smaller than log
+R = 4.3. We use equation (11) of Paper I, which gives hSBi = M + 5 log R(pc) + 22.815, to
+calculate the absolute magnitude M from the hSBi, log R local relations. The resulting envelope
+lines, which are plotted in Figure 3, are the same to within the errors as the linear least-squares fits
+to the Postman & Lauer (1995) local data given in Table 4 of Paper I over the overlapping linear
+range.
+                                               – 14 –
+
+
+    Figure 4 shows the I band data for Cl 1324+3011 and Cl 1604+4304 as taken from Tables 3
+and 4. The envelope lines plotted in this figure are the same as in Figure 3; however, they have
+been converted to the I band by hR − Ii = 0.62 (see above).
+
+     Two features of Figures 3 and 4 are noted. (1) The scatter is larger than in the hSBi, log R
+plane (Figures 1–2). (2) Although the mean hSBi in both diagrams is depressed relative to the
+zero-redshift calibration lines, the amount is less in the hSBi, M plane than in the hSBi, log R
+plane. The first effect on the larger scatter in Figures 3–4 is due to the larger scatter in the hSBi,
+M plane even for zero redshift (see Figure 3 of Paper I). The obvious reason is that errors in M
+and/or hSBi move points perpendicular to the slope of the correlation line. By contrast, the error
+vectors in the hSBi, log R plane in Figures 1 and 2 are nearly parallel to the correlation lines.
+
+     The second effect is due to the double degeneracy to luminosity evolution in the hSBi, M plane.
+As said before, luminosity evolution affects both coordinates. Relative to the zero-redshift line, an
+increase in the luminosity at high redshift due to luminosity evolution moves a point brighter in M
+and also brighter in hSBi relative to that line. Therefore, in an observed hSBi, M diagram that
+contains luminosity evolution, the depression from the zero-redshift line is diluted twice, once in
+hSBi and once in M .
+
+     Because Figures 1–2 are more powerful than Figures 3–4 for this reason of double degeneracy,
+we have made the calculations of the signal, as represented by n, and the luminosity evolution, as
+represented by 4 − n, only from the hSBi, log R data in Figures 1–2. Of course, the final answers
+from the analysis in either representation must be the same because the hSBi versus log R and
+the hSBi versus M diagrams are simply different representations of the same data, connected by
+equation (11) of Paper I.
+
+
+
+       3.3.   The Tautalogical Absolute Magnitude Signal in the log R, M Plane
+
+     Use of the Mattig (1958) equations for linear radius and absolute magnitude guarantees that
+the combination of hSBi, M , and the linear radius, R, are consistent with the variation of hSBi
+with redshift as 2.5 log (1 + z)4 mag. Because the log R and M values in Tables 2–4 are calculated
+using the Mattig (1958) equations, the deviations of the “observed” M , calculated with the Mattig
+equation, must be precisely 2.5 log (1 + z)4−n . Hence, the observed deviations from the zero-
+redshift lines prove nothing except to show how much the absolute magnitude, M , must change in
+the look-back time to conform with the log (1 + z)n + log (1 + z)4−n = log (1 + z)4 relation.
+
+     In Figures 5 and 6, we plot the relation between log R and M for the R band and I band,
+respectively. The envelope lines are calculated from the zero-redshift relations using the linear
+equations from Table 2, the non-linear corrections for small R from Table 3, and equation (11)
+given in Paper I. These figures do nothing more than demonstrate that M must become brighter
+with increasing redshift (due to evolution) in order to make the true depression of hSBi in Figures
+1 and 2, corrected for evolution, equal to (1 + z)4 if the standard model is correct. From equation
+                                                 – 15 –
+
+
+(8), we see that the requirements for a precise agreement with the Tolman prediction is that the
+mean magnitude deviation at constant log R must be h∆M i = 0.39 ± 0.08 mag in the I band for Cl
+1324+3011 (z = 0.7565), h∆M i = 0.44 ± 0.09 mag in the I band for Cl 1604+4304 (z = 0.8967),
+and h∆M i = 1.00 ± 0.12 mag in the R band Cl 1604+4321 (z = 0.9243) if the Tolman signal,
+freed from luminosity evolution, would be precisely (1 + z)4 . Calculating the average difference at
+constant log R between the high-redshift data and the zero-redshift relations plotted in Figures 5
+and 6, we measure precisely, by definition, these values. The predictions for luminosity evolution
+from spectral synthesis models with varying star formation histories are made in the next section
+to compare with these predictions from the Tolman test.
+
+
+
+   4.   Theoretical Luminosity Evolution Estimated Using Two Different Methods
+
+4.1.    Elementary Estimate of the Correction for Passive Luminosity Evolution Due
+                              To Main Sequence Burn Down
+
+     An early order-of-magnitude estimate of the expected change of the luminosities of early-
+type galaxies in the look-back time was based on the change of the turnoff luminosity in the HR
+diagram for an old, coeval population where no new stars are formed after the initial starburst.
+The method is interesting because of its simplicity. It led early on to the result that the passive
+luminosity evolution correction was close to ∆Mbol ∼ ∆MV = 2.5 log (1 + z). This result is
+given by the simplistic calculation of direct main sequence burn-down, including corrections for the
+main sequence luminosity function (Sandage 1961b, 1988). In addition, the elaborate population
+synthesis models by Tinsley (1968, 1972a,b, 1976, 1977, 1980 and references therein) gave nearly
+the same result.
+
+     We show in the next section that nearly the same result is also given by fitting the observed
+spectral energy distribution and the size of the 4000Å break with the star formation models of
+Bruzual & Charlot (1993). The look-back times vary, of course, with the assumed value of qo . The
+calculated ages for galaxies with the observed redshifts of the three clusters must agree with the
+ages from the Bruzual & Charlot models, at least approximately, if our story is to have coherence.
+Anticipating the next section, we set out here the “cosmological ages” based on the redshift, the
+look-back time, and the assumed values of the Hubble constant Ho and qo . The general case of
+the calculation of the look-back time for all values of qo is solved elsewhere (Sandage 1961b). The
+special cases of qo = 0 and qo = 12 are, of course, trivial. The ages, T , at a given redshift are given
+by
+
+                                                   2Ho−1
+                                           T =             3   ,                                    (9)
+                                                 3(1 + z) 2
+
+for qo = 21 and
+                                              – 16 –
+
+
+
+                                                  Ho−1
+                                           T =           ,                                     (10)
+                                                 (1 + z)
+
+for qo = 0.
+
+The case for qo = 1 is more complicated and can be found from the tables in Sandage (1961b).
+
+     Equation (9) gives ages of 4.82 Gyr, 4.30 Gyr, and 4.21 Gyr at the time light left the three
+clusters with redshifts of 0.7565, 0.8967, and 0.9243, respectively, for qo = 21 and Ho = 58 km
+s−1 Mpc−1 . For these calculations, we must use the real value of Ho (Sandage & Tammann 1997;
+Theureau et al. 1997; Saha et al. 1999; Sandage 1999; Parodi et al. 2000) rather than an arbitrary
+value as in previous sections because we need real ages in this section.
+
+     Equation (10) gives the ages at the time light left of 9.60 Gyr, 8.89 Gyr, and 8.76 Gyr,
+respectively, for the same clusters using qo = 0. The extreme case of qo = +1, where the age of the
+universe is only 0.571 × Ho−1 = 9.63 Gyr for Ho = 58, gives ages when light left the three clusters
+of 3.77 Gyr, 3.32 Gyr, and 3.26 Gyr, respectively, using Table 3 of Sandage (1961b).
+
+    It is also interesting to calculate the absolute magnitudes of the main sequence termination
+(T O) for these ages. The modern oxygen enhanced evolutionary models by Bergbush & VandenBerg
+(1992) for [Fe/H] = 0 give bolometric magnitudes of
+
+
+                             M (bol, T O) = 2.564 log T (yr) − 21.644,                         (11)
+
+as interpolated from their tables (Sandage 1993). Hence, the main sequence absolute bolometric
+magnitudes for the qo = 12 look-back times for the three clusters are 3.18, 3.06 and 3.03 mag,
+respectively. The brightest turn off magnitudes are, of course, for the qo = +1 models because the
+ages when light left are the smallest. These bolometric turnoff magnitudes for the qo = +1 case
+are 2.91, 2.79, and 2.73 mag, respectively.
+
+
+
+      4.2.    The Expected Evolution From the Bruzual & Charlot (1993) models
+
+     To calculate the expected amount of luminosity brightening with look-back time, we have
+chosen to use the stellar population synthesis code of Bruzual & Charlot (1993) because, as part
+of the original photometric and spectral analyses of these clusters, Postman, Lubin & Oke (1998,
+2001; hereafter PLO98 and PLO01) use the 1996 stellar evolution models of Bruzual & Charlot
+(hereafter BC96) to study the star-formation histories and ages of the cluster galaxies. The authors
+find that the Bruzual & Charlot models are ideal because they can be used to generate absolute
+energy distributions over a broad wavelength range, with a spectral resolution which is comparable
+to the observed Keck spectra (see Oke, Postman & Lubin 1998; PLO98; PLO01).
+
+    The free parameters in the BC96 models include the mass function, the metal abundance, and
+                                                – 17 –
+
+
+the star-formation rate. Following PLO98 and PLO01, we have chosen models with a Salpeter
+mass function (Salpeter 1955) and a maximum stellar mass of 125 M⊙ . Comparisons with models
+constructed with a Scalo luminosity function (Scalo 1986) show no significant difference at the level
+of accuracy that can be achieved with low-resolution Keck spectra (PLO98). Based on the metal-
+line equivalent widths and balmer jump strengths, PLO01 determine that models with assumed
+metallicities between Z = 0.004 (0.2 solar) and Z = 0.020 (solar) provide reasonable fits to the
+data. Because the metallicities of the cluster galaxies are not strongly constrained, we assume a
+solar abundance for our calculations.
+
+    The most significant constraint on the BC96 models is the choice of the star formation history.
+The simplest model assumes that there is a large, initial burst of star formation after which the
+galaxy fades in accordance with passive stellar evolution models. These model are called “ssp”
+models by Bruzual & Charlot. The next simplest models are those where star formation begins at
+t = 0.0 and decreases exponentially with a fixed time constant. PLO98 and PLO01 refer to these
+models as tau (τ ) models and have considered time constants ranging from 0.2 to 20 Gyr. Any of
+these models can be used to generate the expected broad-band (BV RI) AB magnitudes once the
+galaxy redshift is specified (see e.g. Figure 7 of Paper III).
+
+     In order to characterize the observed spectral energy distribution (SED) of each galaxy, PLO01
+have used the slope, referred to as b, of a linear least-squares fit to the measured AB magnitudes as
+a function of log ν (see §2.1 of PLO01). The slope b provides a more robust indicator of the overall
+broad-band SED than any individual color measure, although b is strongly correlated with the usual
+                                     b
+broad-band colors [e.g. (V − R) ≈ 13   ]. The early-type galaxies used in the present experiment are
+the reddest galaxies in the clusters and, therefore, have the largest values of slope b with b & 10
+(see Tables 2–4 of PLO01). The best-fit BC96 models to these galaxies are either the ssp model
+(which is essentially equivalent to a τ = 0.2 Gyr model) or a tau model with τ ≤ 1.0 Gyr (see
+Figure 6 of PLO01). Therefore, we have chosen these models to measure the range in luminosity
+evolution that we expect between z = 0 and the cluster redshifts of z = {0.7565, 0.8967, 0.9243},
+respectively.
+
+     For these calculations, we use the ages for each cluster derived in §4.1 for different values of qo
+and assume that the epoch of star formation occurred at zf orm & 2.5. This high formation epoch
+is consistent with other observations of cluster early-type galaxies (e.g. Aragón-Salamanca et al.
+1993; Stanford, Eisenhardt & Dickinson 1995, 1998; Oke, Gunn & Hoessel 1996; Ellis et al. 1997;
+van Dokkum et al. 1998; de Propis et al. 1999).
+
+     Using these models to measure the luminosity brightening with look-back time, we find, as
+expected, that the smallest luminosity evolution is measured with the ssp model because the burst
+of star formation is the shortest of the models that we are considering; conversely, the largest
+luminosity evolution is measured with the τ = 1.0 Gyr model because of its extended burst of star
+formation. For a τ = 0.2 Gyr model with qo = 12 , we find that the theoretical luminosity evolution
+would be ∆Mevol (I) = 0.80 mag for Cl 1324+3011 at z = 0.7565, ∆Mevol (I) = 0.99 mag for Cl
+                                                – 18 –
+
+
+1604+4304 at z = 0.8967, and ∆Mevol (R) = 1.12 mag for Cl 1604+4321 at z = 0.9243. These
+values are ∼ 0.4 mag larger in the I band that what we measure from our analysis (see equation
+8). The same difference is found in a comparison between the observations and the models for
+the brightest cluster galaxy (BCG) in each of our program clusters. On average, the BC96 models
+predict a BCG magnitude which is ∼ 0.4 mag brighter than observed (see §6.1 of PLO01).
+
+     If we include the full range of models and cosmologies, the amount of luminosity evolution
+expressed as the exponent, p, in 2.5 log (1 + z)p varies between p = 0.85 − 2.36 in the R band and
+p = 0.76− 2.07 in the I band, depending on the particular model and qo . For a given star-formation
+model, the amount of evolution increases as qo increases. In magnitudes, this luminosity evolution
+corresponds to ∆Mevol (I) = 0.49 − 1.25 mag for Cl 1324+3011, ∆Mevol (I) = 0.53 − 1.44 mag for
+Cl 1604+4304, and ∆Mevol (R) = 0.61 − 1.68 mag for Cl 1604+4321.
+
+     The results of the theoretical calculations agree well with other measures of luminosity evolu-
+tion for early-type galaxies at z ∼ 0.5 − 1. Depending on the particular passband and cosmological
+parameters, the absolute luminosities of field and cluster early-type galaxies are brighter by ap-
+proximately 1.0 ± 0.5 mag at redshifts of z & 0.5 (e.g. Im et al. 1996; Oke, Gunn & Hoessel 1996;
+Schade et al. 1996, 1999; Smail et al. 1997; van Dokkum et al. 1998; Postman, Lubin & Oke 1998,
+2001).
+
+     Clearly, the amount of evolution that we require to make n = 4 (see equation 8) is fully con-
+sistent, within the errors, with the range of theoretical expectations determined above. Therefore,
+we assert that we have either (1) detected the evolutionary brightening directly from the hSBi
+observations on the assumption that the Tolman effect exists, or (2) confirmed that the Tolman
+test for the reality of the expansion is positive provided that the theoretical luminosity correction
+for evolution is real.
+
+     Our conclusions are fully consistent with the two previous attempts to perform the Tolman Test
+using primarily ground-based data at more moderate redshifts. Specifically, Sandage & Perelmuter
+(1991) completed an identical analysis comparing local ellipticals with the first-ranked elliptical
+galaxies in clusters at redshifts up to z ∼ 0.6. Later, Pahre et al. (1996) used the Kormendy
+relation between effective radius and mean surface brightness to compare elliptical galaxies in the
+Coma cluster to those in Abell 2390 (z = 0.23) and Abell 851 (z = 0.41). Both studies found
+that the data were fully consistent with the universal expansion assuming simple models of passive
+evolution of elliptical galaxies.
+
+
+
+     5.   Sensitivity of the Conclusions to the Assumption that qo = 0 and qo = +1
+
+     We need now to estimate the sensitivity of the results in §3 to the value of qo . The sensitivity
+arises from the differences in the values of the linear radii calculated from the angular radii and
+the redshift for different values of qo . Different linear radii entered into the log R, hSBi diagnostic
+diagrams of Figures 1 and 2 will give different displacements from the zero-redshift local envelope
+                                               – 19 –
+
+
+lines and, therefore, a different Tolman signal. We can estimate these differences by calculating
+the change in the linear radii made by changing the value of qo and calculating the effect on the
+Tolman signal using the zero-redshift envelope lines for different η values from Tables 2 and 3 of
+Paper I.
+
+    The Mattig (1958) equations for linear radius R = f (qo , z, Ho ) and absolute magnitude M are
+summarized elsewhere (Sandage 1988; 1995, eqs. 3.9 & 4.5) for any qo and arbitrarily large z values.
+They will not be repeated here. Table 8 shows the result of using these equations to calculate the
+necessary parameters for the qo = 0 and +1 models.
+
+     The distance moduli listed in columns 3 and 7 are for Ho = 50. The log A values to convert
+log (angular radii) to log (linear radii) are given in columns 4 and 8 via equations (5) and (6) of
+§2.1. The differences in absolute magnitude and log R relative to the qo = 12 case are listed in
+columns 5–6 and 9–10 for the qo = 0 and the qo = +1 cases, respectively. The magnitude and log
+R differences relative to the qo = 12 case can be used to convert the M , log R data in Tables 2–4 to
+the other qo cosmologies.
+
+     Calculation of the changes in the Tolman signal for different qo values is made by multiplying
+the change in log R from columns 6 and 10 of Table 8 by the slopes in Table 2 of Paper I. These
+slopes vary between 3.0 and 3.5 depending on the η value. For our most reliable values of η = 1.7
+and 2.0, the average slope is 3.1. Multiplying the ∆ Log R values by 3.1 shows that the Tolman
+signal will be made smaller for the qo = 0 case relative to that for qo = 12 . That is, there will
+be a smaller deviation from the local line. The required evolutionary correction is made larger by
+0.18 mag for Cl 1324+3011 at z = 0.7565, 0.23 mag for Cl 1604+4304 at z = 0.8967, and 0.22
+mag for Cl 1604+4321 at z = 0.9243. This difference translates into changing the exponent for
+the Tolman signal and the evolutionary corrections in equations (7) and (8) for the qo = 12 case to
+n = 2.28 ± 0.17 and 4 − n = 1.72 ± 0.17 for the R band and n = 3.06 ± 0.13 and 4 − n = 0.94 ± 0.13
+for the I band.
+
+     The opposite sense is required for the qo = +1 case because Table 8 shows that the log R values
+are smaller than for the qo = 12 case by {0.057, 0.064, 0.065} dex for z = {0.7565, 0.8967, 0.9243},
+respectively. Using smaller log R values in Figures 1 and 2 gives a larger Tolman signal (in magni-
+tudes) by 3.1 times the differences in log R which are listed in Table 8. Consequently, the measured
+luminosity evolution is smaller by 0.11 mag for Cl 1324+3011 at z = 0.7565, 0.12 mag for Cl
+1604+4304 at z = 0.8967, and 0.15 mag for Cl 1604+4321 at z = 0.9243. These changes cor-
+respond to a final Tolman signal of n = 2.81 ± 0.17 and n = 3.55 ± 0.13 in the R and I band,
+respectively. The corresponding evolutionary requirement is, of course, 4 − n = 1.19 ± 0.17 and
+0.45 ± 0.13 for the R and I band, respectively.
+
+     The conclusion is that the Tolman test as performed here is sensitive to the value of qo at
+the less than 23% level. However, as argued in Paper I, it is not so severe as to make the test
+degenerate. Our result is that a Tolman signal exists, as modified by evolution, at the level of
+(1 + z)n with n lying between 2.28 − 2.81 (±0.17) in the R band and between 3.06 − 3.55 (±0.13)
+                                                 – 20 –
+
+
+in the I band, depending on qo . Therefore, the correction for luminosity evolution is (1 + z)p where
+p lies between 1.72 − 1.19 (±0.17) in the R band and between 0.94 − 0.45 (±0.13) in the I band,
+again depending on qo . The required evolutionary correction to make the real Tolman signal equal
+to (1 + z)4 is well within the errors of the requirements of Bruzual & Charlot spectral synthesis
+models, i.e. approximately 2.5 log (1 + z)p where p ≈ 0.8 to 2.4 in the R band and p ≈ 0.7 to 2.1
+in the I band, as qo changes from 0 to +1. Therefore, we conclude that the Tolman prediction is
+verified and that the expansion is real.
+
+     We note that recent studies of high-redshift Type Ia supernovae, the Cosmic Microwave Back-
+ground, and the statistics of gravitational lenses suggest that the universe is flat with a non-zero
+cosmological constant, Λ (see e.g. Kochanek 1996; Helbig et al. 1999; de Bernadis et al. 2000;
+Pryke et al. 2001; Riess et al. 2001 and references therein). Currently, the preferred world model
+is ΩM ≈ 0.35 and ΩΛ ≈ 0.65. In this cosmology, the log R values are almost identical to the
+empty-universe (qo = 0) case; they are larger by only 0.01 dex or less at the redshifts of our three
+clusters. In addition, all flat-universe models with 0 ≤ ΩΛ ≤ 0.65 give log R values which lie within
+the range that we have calculated for the ΩΛ = 0 cosmologies (see Table 8). Consequently, our
+conclusions about the universal expansion are still robust for these Λ cosmologies.
+
+     In the next section, we show that the predictions of the “tired light” speculation is not verified
+at the definitive level of better than 10 σ.
+
+
+
+              6.   The Tired Light Model Compared with the Observations
+
+     In contrast with the standard model with the Mattig equations, there is no metric theory of
+how distances and magnitudes are measured in a “tired light” model. Therefore, we must guess at
+a reasonable equation for distance. We adopt a discussion that is given elsewhere (Sandage 1995,
+§4.3) and use an equation for “coordinate” distance in a flat space which is
+
+                                                     
+                                                 c
+                                       D=                 ln(1 + z).                              (12)
+                                                 Ho
+
+      Because the universe is not expanding in the model, the distance “now” in equation (12) is
+also the distance when light left. This, of course, is the crucial point. In the expanding case, the
+distance at the present epoch must be divided by (1+z) to give the distance when light was emitted.
+It is this latter distance in the expanding case that, when multiplied by the angular radius, fixes
+the linear radius.
+
+     With Ho = 50, the linear radius that corresponds to an observed angular radius (in arcsec) in
+the “tired light” case is
+
+
+                            log R(pc) = 4.464 + log [ln(1 + z)] + log θ”,                         (13)
+                                                – 21 –
+
+
+using equation (12). Hence, the A term, as defined in equation (5), becomes
+
+
+                                   log A = 4.464 + log [ln(1 + z)].                               (14)
+
+     The log A values calculated in this way are listed in column 12 of Table 8 for the three high-
+redshift clusters. These values, compared with the log A values for the qo = 21 case, give the increase
+in the log R values that must be entered in the hSBi, log R diagnostic diagram. For example, for Cl
+1324+3011 (z = 0.7565) the log R values must be made larger by 0.305 dex relative to the qo = 12
+values listed in Table 3.
+
+     The magnitudes must also be changed because the distance moduli are different than those in
+the fiducial qo = 12 case. The absolute magnitude calculation for the tired light model follows from
+the expected theoretical relation that
+
+                                                    L
+                                          l=                 ,                                    (15)
+                                               4πD 2 (1 + z)
+
+where only one power of (1 + z) for the “energy effect” is required, rather than two powers of (1 + z)
+in the Roberston (1938) equation in the standard theory (cf. Sandage 1995, eq. 2.1). Hence,
+
+
+                        m − M = 2.5 log (1 + z) + 5 log [ln(1 + z)] + 43.89,                      (16)
+
+for Ho = 50.
+
+     It is can be shown from equation (16) that the magnitude–redshift relation for “tired light” is
+the same to within a few hundredths of a magnitude with the case for qo = +1 using the Mattig
+equation. This is true even for redshifts as large as z = 1. Column 13 of Table 8 confirms this
+statement, seen by the fact that the entries in column 9 for the qo = +1 case are very close to
+those in column 13 for “tired light.” However, these magnitude changes are academic here in using
+the hSBi, log R diagnostic diagram because no corrections for the magnitude differences need to
+be applied to the hSBi values. These are observed hSBi values (only corrected for K dimming);
+hence, as emphasized before, they are independent of all cosmologies.
+
+      With the changes to Tables 2–4 for log R that are listed in column 14 of Table 8, we can enter
+Figures 1 and 2 for the “tired light” case in order to measure the depression from the local upper
+envelope calibration. The result, not shown but which the reader can recover using the ∆ log R
+values given in Table 8 together with Tables 2–4, is that a measurable hSBi depression at these
+larger log R values is again present. It is, of course, smaller than for the expanding case because of
+the larger log R values. But, by how much? The crucial question is whether it is so much smaller as
+to conform to a depression of only 2.5 log (1 + z) mag when the correction for luminosity evolution
+is also applied.
+                                               – 22 –
+
+
+     We have analyzed the data for the three clusters in the same way as in §3; however, we now
+use the correct log R values required by the “tired light” conjecture, using the recipes in Table 8.
+Expressing the result of the hSBi depression from the zero-redshift fiducial line in the hSBi, log R
+diagram as the exponent, n, in 2.5 log (1 + z)n gives the weighted mean of n = 1.61 ± 0.13 for the R
+band and n = 2.27±0.12 for the I band. As described in §3, we have used the results from the most
+reliable η values of η = 1.7 and 2.0. The resulting exponents are too large by approximately 5 and
+10 σ, respectively, compared to the n = 1 prediction of the “tired light” scenario. Consequently,
+to produce coherence with the “tired light” model, we require negative luminosity evolution in the
+look-back time, i.e. galaxies must be fainter in the past. No feasible model of stellar evolution can
+produce such luminosity evolution with time.
+
+     In fact, just as in the expanding case, positive luminosity evolution must have occurred in the
+look-back time because there is no way in the tired light model to prevent the stellar content of
+galaxies from evolving during the look-back time.
+
+     A static model where the redshift is not due to expansion is not the same as a steady state
+model where the mean parameters of galaxies, averaged over an ensemble of galaxies, are required
+to be the same at all distances and at all times. For a steady state to exist, despite the evolution
+of the stellar content of individual galaxies, requires that there must be young and old galaxies in
+every volume of space and at every cosmic time such that the mean age is the same at all distances
+and times. This requires continuous galaxy formation at the same rate at all cosmic times in order
+to maintain a constant mean age everywhere, always.
+
+      However, such steady state models are not the same as static models where the redshift is
+due to an unknown physical cause, either at the source or in the intervening light path from the
+source to the observer as originally postulated by Zwicky (1929). In fact, the steady state models
+proposed by Bondi, Gold, and Hoyle are truly expanding models where the redshift is due to the
+expansion. They are not static models. Furthermore, a early proof that steady state models cannot
+be correct was the demonstration of the failure of the predicted steady state color distribution, with
+its required mixture of ages, to match the observed color distribution of early-type galaxies (Sandage
+1973).
+
+     Hence, as in the present paper, evolutionary corrections to magnitudes must be applied to
+both the expanding and the static models in making the present test. The supposed degeneracy of
+the Tolman test due to the identity claimed by Moles et al. (1998) of the surface brightness effect
+in both the expanding and a static (tired light) case is not correct. Their error is due to a category
+mistake by confusing static and steady-state models. What Moles et al. have done is to combine
+a static model with a steady state model. This is a higher order departure from the standard
+expanding model than we have considered here and is not the test we have made. In any case, as
+stated above, a steady state model can again be disproved by the color argument (Sandage 1973).
+Hence, even the higher order model proposed by Moles et al. cannot be correct on this ground
+alone.
+                                                – 23 –
+
+
+     The result of the present paper is that a static model, where the redshift is due to an unknown
+physical cause, fails the surface brightness test by a large factor. Such a model requires luminosity
+evolution in the look-back time, just as in the expanding case. Based on the analysis in §4, we find
+that a good approximation for the amount of increase in luminosity at the epoch of light emission is
+2.5 log (1 + z)p mag, where p > 0.7. Applying this correction to the “tired light” analysis gives the
+intrinsic “tired light” prediction for the corrected exponents of > 2.31 (±0.13) and > 2.87 (±0.12)
+for the R and I bands, respectively. Each value is more than 10 σ from the required exponent of 1.0
+if the “tired light” scenerio were correct. We take this to be a definitive proof that the hypothesis
+of non-expansion does not fit the surface brightness data.
+
+
+
+  7.   Systematic Uncertainties in the Experiment : How can the Present Result be
+                                        Improved?
+
+     There are two systematic uncertainties in the present experiment. Although neither of them
+are severe enough to jeopardize the results presented in §3 and §5 that the expansion is real, each
+can be overcome by more data with expanded boundary conditions on the parameters compared
+to the data used here.
+
+     First, the principal uncertainty at small radii (log R < 4.0) is the position of the zero-redshift
+fiducial line in the hSBi, log R diagram, relative to which the hSBi depressions for high-redshift
+galaxies are compared. The Postman & Lauer (1995) data (Figure 2 of Paper I) do not extend
+to radii smaller then log R(pc) = 4.0. Their data are confined to the first ranked cluster early-
+type galaxies. They do not sample into the luminosity function of each cluster to provide data
+for smaller galaxies. We have extended the data to smaller radii with the sample in Sandage &
+Perelmuter (1991) to generate a non-linear correction at small radii to the best-fit linear equations
+to the Postman & Lauer (1995) data (see Table 3 of Paper I). However, the Sandage & Perelmuter
+(1991) data are also only for the first few, brightest cluster galaxies, again not going far into the
+fainter part of the luminosity function. Hence, although Table 3 of Paper I gives our adopted
+extension to radii as small as log R(pc) = 3.3, the uncertainties are large and can be reduced by a
+more complete study of the hSBi, log R relation for fainter and smaller galaxies at low redshift.
+
+     Second, the three clusters studied here are near the faint end of the distribution of absolute
+magnitude of first ranked galaxies in, for example, the sample of first ranked cluster galaxies whose
+data are listed by Kristian, Sandage & Westphal (1978). The mean of the distribution of absolute
+magnitude in the R band for the Kristian et al. sample is hMR i = −24.5, whereas the first-ranked
+early-type galaxies in the three clusters studied have absolute magnitudes of MR = −23.7 for Cl
+1604+4321, −23.7 for Cl 1604+4304, and −24.2 for Cl 1324+3011 (see PLO01). (Note again that
+the system of RJ magnitudes used by Kristian et al. is 0.25 mag brighter than the Cape R system
+used here). The galaxies in the three clusters studied here have fainter absolute magnitudes and
+smaller radii than the average local clusters, exacerbating the problem described above. Richer
+high-redshift clusters with brighter and, therefore, larger first-ranked galaxies are known. A study
+                                              – 24 –
+
+
+of the HST data from such clusters will improve the present Tolman test. We suspect that the
+present experiment is only the beginning of similar work that will be done in the coming years with
+HST on such clusters as they are discovered and observed.
+
+
+     We are grateful to Mark Postman and J.B. Oke for their permission to use part of their
+extensive Keck and HST database for this paper and the previous papers in the series. LML would
+like to thank Chris Fassnacht for his essential material aids to this paper. AS is grateful for a
+conversation with James Peebles concerning the proof of the Tolman (1 + z)4 factor from the exact
+normalization of the observed Planck black body background radiation in the COBE experiment,
+as discussed in §1.4.3.
+
+     LML was supported through Hubble Fellowship grant HF-01095.01-97A from the Space Tele-
+scope Science Institute, which is operated by the Associated Universities for Research in Astronomy,
+Inc. under NASA contract NAS 5-26555. AS acknowledges support for publication from NASA
+grants GO-5427.01-93A and G-06459.01-95A for work that is related to data taken with the Hubble
+Space Telescope.
+                                                 – 25 –
+
+
+                                        REFERENCES
+
+Aragón-Salamanca, A., Ellis, R.S., Couch, W.J., & Carter, D. 1993, MNRAS, 262, 764
+
+Baade, W. 1938, ApJ, 88, 285
+
+Bahcall, J.N. & Wolf, R.A. 1968, ApJ, 152, 701
+
+Bergbush, P.A. & VandenBerg, D.A. 1992, ApJS, 81, 163
+
+Bruzual, A.G. & Charlot, S. 1993, ApJ, 405, 538
+
+Cowie, L.L, Gardner, J.P., Hu, E.M., Songaila, A., Hodapp, K.-H., & Wainscoat, P.J. 1994, Nature,
+      371, 43
+
+de Bernardis, P. et al. 2000, Nature, 404, 955
+
+de Propis, R., Stanford, S.A., Eisenhardt, P.R., Dickinson, M., & Elston, R. 1999, AJ, 118, 719
+
+de Sitter, W. 1917a, Proc. Akad. Wetensch. Amsterdam, 19, 1217
+
+de Sitter, W. 1917b, MNRAS, 78, 3
+
+de Sitter, W. 1933, The Astronomical Aspect of the Theory of Relativity, University of California
+       Pub. in Mathematics (Berkeley: Univ. Calif. Press), Vol. 2, No. 8
+
+Eddington, A.S. 1923, Mathematical Theory of Relativity, (Cambridge, Cambridge University
+      Press)
+
+Ellis, R.S., Smail, I., Dressler, A., Couch, W.A., Oemler, A., Butcher, H., & Sharples, R.M. 1997,
+        ApJ, 483, 582
+
+Fixsen, D.J., Cheng, E.S., Gales, J.M., Mather, J.C., Shafer, R.A., & Wright, E.L. 1996, ApJ, 473,
+       576
+
+Friedmann, A.A. 1922, Zs. f. Phys., 10, 377
+
+Ge, J., Bechtold, J., & Black, J.H. 1997, ApJ, 474, 67
+
+Goldhaber, G. et al. 1997, in Thermonuclear Supernovae, eds. R. Canal, P. Ruiz-Lapuente, & J.
+      Isern (Dordrecht: Kluwer), 777
+
+Goldhaber, G. et al. 2001, ApJ, submitted
+
+Guiderdoni, B., & Rocca-Volmerange, B. 1987, A&A, 186, 1
+
+Guiderdoni, B., & Rocca-Volmerange, B. 1988, A&AS, 74, 185
+
+Helbig, P., marlow, D., Quast, R., Wilkinson, P.N., Browne, I.W.A., & Koopmans, L.V.E. 1999,
+       A&AS, 136, 297
+                                              – 26 –
+
+
+Hoyle, F. & Sandage, A. 1956, PASP, 68, 301
+
+Hubble, E. 1925, ApJ, 62, 409 (NGC 6822)
+
+Hubble, E. 1926, ApJ, 63, 236 (M33)
+
+Hubble, E. 1929a, Proc. Nat. Acad. Sci., 15, 168
+
+Hubble, E. 1929b, ApJ, 69, 103 (M31)
+
+Hubble, E. 1934, ApJ, 79, 8
+
+Hubble, E. 1936a, ApJ, 84, 270
+
+Hubble, E. 1936b, ApJ, 84, 517
+
+Hubble, E. 1953, MNRAS, 113, 658
+
+Hubble, E. & Humason, M.L. 1931, ApJ, 74, 43
+
+Humason, M.L. 1929, Proc. Nat. Acad. Sci., 15, 167
+
+Humason, M.L. 1936, ApJ, 83, 10.
+
+Im, M., Griffiths, R.E., Ratnatunga, K.U., & Sarajedini, V.L. 1996, ApJ, 461, L79
+
+Kochanek, C.S. 1996, ApJ, 466, 638
+
+Kristian, J.M., Sandage, A., & Westphal, J. 1978, ApJ, 221, 383
+
+La Violette, P.A. 1986, ApJ, 301, 544
+
+Lemaitre, G. 1927, Ann. Soc. Sci. Bruxelles, 47A, 49
+
+Lemaitre, G. 1931, MNRAS, 91, 483 (the 1927 paper in English translation)
+
+Lubin, L.M. & Sandage, A. 2001a, AJ, 121, 2289 (Paper II)
+
+Lubin, L.M. & Sandage, A. 2001b, AJ, in press (Paper III)
+
+Lubin, L.M., Postman, M., Oke, J.B., Ratnatunga, K.U., Gunn, J.E., Hoessel, J.G., & Schneider,
+      D.P. 1998, AJ, 116, 584
+
+Lubin, L.M., Postman, M., Oke, J.B., Brunner, R., Gunn, J.E., & Schneider, D.P. 2001, AJ, in
+      preparation
+
+Lundmark, K. 1925, MNRAS, 85, 865
+
+Mather, J.C. et al. 1990, ApJ, 354, L37
+                                             – 27 –
+
+
+Mattig, W. 1958, Astron. Nach., 284, 109
+
+Mattig, W. 1959, Astron. Nach., 285, 1
+
+Meyer, D.M., Black, J.H., Chafee, F.H., Foltz, G., & York, D. 1986, ApJ, 308, L37
+
+Minkowski, R. 1964, ARAA, 2, 247
+
+Moles, M., Campos, A., Kjaergaard, P., Fasano, G., & Belloni, D. 1998, ApJ, 495, L34
+
+Oke, J. B., Gunn, J.E., & Hoessel, J.G. 1996, AJ, 111, 290.
+
+Oke, J.B., Postman, M., & Lubin, L.M. 1998, AJ, 116, 549 (OPL)
+
+Pahre, M.A., Djorgovski, S.G., & de Carvalho, R.R. 1996, ApJ, 456, L79
+
+Parodi, B.R., Saha, A., Sandage, A., & Tammann, G.A. 2000, ApJ, 540, 634
+
+Pecker, J.-C. & Vigier, J.-P. 1987, in Observational Cosmology, IAU Symp. 124, eds. A. Hewitt, G.
+       Burbidge, & L-A. Fang (Dordrecht: Reidel), 50
+
+Petrosian, V. 1976, ApJ, 209, L1
+
+Postman, M. & Lauer, T. 1995, ApJ, 440, 28
+
+Postman, M., Lubin, L.M., & Oke, J.B. 1998, AJ, 116, 560 (PLO98)
+
+Postman, M., Lubin, L.M., & Oke, J.B. 2001, AJ, in press (PLO01)
+
+Poulain, P. & Nieto, J.-L. 1994, A&AS, 103, 573
+
+Pryke, C., Halverson, N.W., Leitch, E.M., Kovac, J., Carlstrom, J.E., Holzapfel, W.L., & Dragovan,
+       M. 2001, ApJ, submitted
+
+Riess, A.G. et al. 2001, ApJ, in press
+
+Robertson, H.P. 1928, Phil. Mag., 5, 835
+
+Robertson, H.P. 1938, Zs. f. Ap, 15, 69
+
+Rocca-Volmerange, B. & Guiderdoni, B. 1988, A&AS, 75, 93
+
+Saha, A., Sandage, A., Tammann, G.A., Labhardt, L., Macchetto, F.D., & Panagia, N. 1999, ApJ,
+      522, 802
+
+Salpeter, E.E. 1955, ApJ, 121, 161
+
+Sandage, A. 1961a, ApJ, 133, 355
+
+Sandage, A. 1961b, ApJ, 134, 916
+                                             – 28 –
+
+
+Sandage, A. 1973, ApJ, 183, 711
+
+Sandage, A. 1975, in Galaxies and the Universe, eds. A. Sandage, M. Sandage, & G. Kristian,
+      (Chicago : Univ. Chicago Press), Chapter 19
+
+Sandage, A. 1988, ARAA, 26, 561
+
+Sandage, A. 1993, AJ, 106, 7191
+
+Sandage, A. 1995, “Practical Cosmology: Inventing the Past,” in The Deep Universe, 23rd Sass
+      Fee Advanced Course in Astrophysics, eds. B. Binggeli & R. Buser (Springer: Berlin)
+
+Sandage, A. 1997, PASP, 109, 1193
+
+Sandage, A. 1998, in The Hubble Deep Field, Space Telescope Science Institute Symposium Series
+      No. 11, eds. M. Livio, S.M. Fall, & P. Madau, (Cambridge: Cambridge University Press), 1
+
+Sandage, A. 1999, ApJ, 527, 479
+
+Sandage, A. & Perelmuter, J.-M. 1991, ApJ, 370, 455
+
+Sandage, A. & Tammann, G.A. 1997, in Critical Dialogues in Cosmology, ed. N. Turok, (Singapore
+      : World Scientific), 130
+
+Sandage, A., & Lubin, L.M. 2001, AJ, 121, 2271 (Paper I)
+
+Scalo, L.M. 1986, Fund Cosmic Phys, 11, 1
+
+Schade, D., Carlberg, R.G., Yee, H.K.C., & López-Crux, O. 1996, ApJ, 646, L63
+
+Schade, D. et al. 1999, ApJ, 525, 31
+
+Silberstein, L. 1924, MNRAS, 84, 365
+
+Smail, I., Dressler, A., Couch, W.J., Ellis, R.S., Oemler, A., Butcher, H., & Sharples, R.M. 1997,
+       ApJS, 110, 213
+
+Songaila, A. et al. 1994, Nat, 371, 43
+
+Srianand, R., Petitjean, P. & Ledoux, C. 200, Nat, 408, 931
+
+Stanford, S.A., Eisenhardt, P.R., & Dickinson, M. 1995, ApJ, 450, 512
+
+Stanford, S.A., Eisenhardt, P.R., & Dickinson, M. 1998, ApJ, 492, 461.
+
+Stromberg, G. 1925, ApJ, 61, 353
+
+Theureau, G., Harrski, M., Ekholm, T., Bottinelli, L., Gouguenheim, L., Palurel, G., & Teerikorpi,
+      P. 1997, A&A, 322, 730
+                                                  – 29 –
+
+
+Tinsley, B.M. 1968, ApJ, 151, 547
+
+Tinsley, B.M. 1972a, ApJL, 173, L93
+
+Tinsley, B.M. 1972b, A&A, 20, 383
+
+Tinsley, B.M. 1976, ApJ, 203, 63
+
+Tinsley, B.M. 1977, ApJ, 211, 621
+
+Tinsley, B.M. 1980, ApJ, 241, 41
+
+Tolman, R.C. 1929, Proc. Nat. Acad. Sci., 15, 297
+
+Tolman, R.C. 1930, Proc. Nat. Acad. Sci., 16, 511
+
+Tolman, R.C. 1934, Relativity, Thermodynamics, and Cosmology, (Oxford: Oxford University
+     Press)
+
+Tropp, E.A., Frenkel, V. Ya., & Chernin, A.D. 1993, in Alexander A. Friedmann, (Cambridge:
+      Cambridge University Press)
+
+van Dokkum, P., Franx, M., Kelson, D., & Illingworth, G. 1998, ApJ, 504, L17
+
+Wilson, O.C. 1939, ApJ, 90, 634
+
+Wirtz, C. 1925, Scientia, 38, 303
+
+Worthey, G. 1994, ApJS, 95, 107
+
+Zwicky, F. 1929, Proc. Nat. Acad. Sci., 15, 773
+
+Zwicky, F. 1957, Morphological Astronomy, (Berlin: Springer)
+
+
+
+
+   This preprint was prepared with the AAS LATEX macros v5.0.
+                                         – 30 –
+
+
+
+
+Table 1. Adopted K-corrections, Distance Moduli, and A Factor for the Linear Radii using
+                                   qo = 12 , Ho = 50
+
+
+         Cluster      z      K(R) ± ∆K(R)         K(I) ± ∆K(I)   m−M      log A
+                                (mag)                (mag)
+
+       1324+3011    0.7565         ···             0.71 ± 0.03   43.57    3.910
+       1604+4304    0.8967         ···             0.80 ± 0.07   43.97    3.924
+       1604+4321    0.9243     1.89 ± 0.06             ···       44.04    3.926
+                          Table 2. The M , hSBi, Log R Data for Cl 1604+4321 [R Band; qo = 21 ; Ho = 50]
+
+Gal                    η = 1.0                                η = 1.3                                 η = 1.5                               η = 1.7                                  η = 2.0
+#           Ma           hSBia   Log R(pc)          Ma          hSBia   Log R(pc)         Ma            hSBia   Log R(pc)       Ma            hSBia   Log R(pc)            Ma          hSBia   Log R(pc)
+
+ 23b   −23.13 ± 0.10     18.48     3.224      −23.46 ± 0.09     19.16      3.409      −23.57 ± 0.09     19.49     3.493     −23.65 ± 0.08     19.81     3.571        −23.78 ± 0.08     20.48     3.729
+ 29b   −23.11 ± 0.10     20.35     3.568      −23.28 ± 0.09     20.71      3.674      −23.37 ± 0.09     20.97     3.742     −23.44 ± 0.08     21.23     3.805        −23.56 ± 0.08     21.84     3.955
+ 36    −22.46 ± 0.10     20.24     3.420      −22.82 ± 0.09     20.97      3.632      −22.94 ± 0.08     21.34     3.727     −23.05 ± 0.08     21.74     3.809        −23.15 ± 0.08     22.28     3.966
+ 38    −22.63 ± 0.10     20.21     3.451      −22.87 ± 0.09     20.71      3.583      −22.97 ± 0.08     21.02     3.666     −23.06 ± 0.08     21.39     3.767        −23.20 ± 0.08     22.02     3.918
+ 44b   −22.47 ± 0.09     21.06     3.586      −22.84 ± 0.09     21.76      3.790      −22.95 ± 0.09     22.10     3.881     −23.04 ± 0.08     22.40     3.959        −23.12 ± 0.08     22.82     4.058
+ 46    −22.30 ± 0.10     21.20     3.581      −22.63 ± 0.09     21.89      3.778      −22.77 ± 0.08     22.27     3.879     −22.86 ± 0.08     22.62     3.966             ···           ···       ···
+ 49    −21.95 ± 0.10     20.07     3.303      −22.56 ± 0.09     21.33      3.647      −22.71 ± 0.09     21.77     3.770     −22.80 ± 0.08     22.10     3.853        −22.88 ± 0.08     22.46     3.930
+ 57    −22.15 ± 0.10     21.65     3.636      −22.58 ± 0.09     22.50      3.887      −22.79 ± 0.09     23.05     4.029     −22.88 ± 0.08     23.39     4.132        −22.92 ± 0.08     23.58     4.171
+ 58    −21.88 ± 0.10     20.38     3.345      −22.24 ± 0.09     21.11      3.547      −22.45 ± 0.09     21.72     3.707     −22.67 ± 0.08     22.54     3.913        −22.82 ± 0.08     23.25     4.083
+ 65    −22.10 ± 0.10     19.83     3.278      −22.40 ± 0.09     20.44      3.441      −22.50 ± 0.08     20.74     3.515     −22.57 ± 0.08     21.01     3.590        −22.64 ± 0.08     21.43     3.667
+ 78b   −21.53 ± 0.10     20.70     3.336      −21.86 ± 0.09     21.40      3.529      −22.00 ± 0.09     21.80     3.643     −22.14 ± 0.08     22.30     3.759        −22.17 ± 0.08     22.48     3.801
+112b   −21.29 ± 0.10     20.27     3.219      −21.60 ± 0.09     20.94      3.383      −21.70 ± 0.08     21.27     3.477     −21.79 ± 0.08     21.62     3.568        −21.89 ± 0.08     22.12     3.667
+
+                                                                                                                                                                  – 31 –
+115b   −21.16 ± 0.09     21.09     3.325      −21.55 ± 0.10     21.87      3.556      −21.64 ± 0.08     22.14     3.618     −21.71 ± 0.08     22.44     3.718        −21.84 ± 0.08     22.95     3.860
+144b   −21.01 ± 0.10     20.74     3.246      −21.37 ± 0.09     21.49      3.461      −21.48 ± 0.09     21.82     3.536     −21.58 ± 0.08     22.21     3.632        −21.69 ± 0.08     22.78     3.767
+
+
+a Values have been corrected with the appropriate K(R) = 1.89 correction (see Table 1).
+
+b Member galaxy selected based on its photometric redshift (see Brunner & Lubin 2000).
+                          Table 3.     The M , hSBi, Log R Data for Cl 1324+3011 [I Band; qo = 12 ; Ho = 50]
+
+Gal                   η = 1.0                                  η = 1.3                                    η = 1.5                               η = 1.7                                  η = 2.0
+#           Ma          hSBia   Log R(pc)           Ma           hSBia   Log R(pc)             Ma           hSBia   Log R(pc)       Ma            hSBia   Log R(pc)            Ma          hSBia   Log R(pc)
+
+ 9    −23.23 ± 0.07     19.11      3.425       −24.03 ± 0.05     20.75      3.905         −24.46 ± 0.04     21.87     4.294          ···           ···       ···              ···           ···       ···
+11    −23.21 ± 0.07     19.89      3.574       −23.87 ± 0.05     21.21      3.964         −24.11 ± 0.04     21.82     4.136     −24.18 ± 0.04     22.04     4.222             ···           ···       ···
+12    −23.31 ± 0.06     20.27      3.667       −23.54 ± 0.05     20.73      3.802         −23.63 ± 0.05     20.97     3.866     −23.68 ± 0.04     21.15     3.915        −23.73 ± 0.04     21.39     3.968
+18    −22.69 ± 0.07     19.65      3.424       −23.05 ± 0.05     20.39      3.638         −23.20 ± 0.05     20.81     3.749     −23.32 ± 0.05     21.24     3.859        −23.46 ± 0.04     21.95     4.029
+21    −22.45 ± 0.08     19.36      3.327       −22.91 ± 0.06     20.31      3.603         −23.08 ± 0.05     20.81     3.734     −23.20 ± 0.05     21.26     3.843        −23.29 ± 0.04     21.69     3.952
+26    −22.24 ± 0.07     20.20      3.446       −22.88 ± 0.05     21.44      3.816         −23.02 ± 0.05     21.82     3.912     −23.12 ± 0.05     22.16     3.995        −23.17 ± 0.04     22.41     4.070
+29    −22.47 ± 0.06     20.36      3.519       −22.83 ± 0.05     21.08      3.742         −23.00 ± 0.04     21.55     3.851     −23.25 ± 0.04     22.45     4.087        −23.32 ± 0.04     22.81     4.174
+30b   −22.42 ± 0.07     20.52      3.546       −22.61 ± 0.05     20.93      3.657         −22.72 ± 0.05     21.22     3.740     −22.82 ± 0.04     21.62     3.841        −22.89 ± 0.04     21.95     3.918
+40    −21.78 ± 0.07     19.42      3.229       −22.19 ± 0.05     20.28      3.447         −22.37 ± 0.05     20.81     3.588     −22.49 ± 0.04     21.28     3.702        −22.58 ± 0.04     21.72     3.811
+55b   −21.43 ± 0.07     20.50      3.348       −21.69 ± 0.05     21.04      3.502         −21.78 ± 0.05     21.31     3.571     −21.83 ± 0.04     21.52     3.619        −21.91 ± 0.03     21.94     3.710
+59    −21.60 ± 0.08     19.73      3.245       −21.89 ± 0.05     20.30      3.395         −21.99 ± 0.04     20.57     3.465     −22.04 ± 0.04     20.81     3.526        −22.11 ± 0.04     21.16     3.605
+69    −21.48 ± 0.04     19.24      3.109       −21.71 ± 0.06     19.76      3.256         −21.80 ± 0.04     20.05     3.327     −21.86 ± 0.04     20.29     3.382        −21.92 ± 0.03     20.61     3.455
+
+                                                                                                                                                                      – 32 –
+74b   −21.27 ± 0.07     21.28      3.470       −21.57 ± 0.05     21.91      3.648         −21.72 ± 0.05     22.34     3.764     −21.92 ± 0.04     23.03     3.938        −21.99 ± 0.04     23.35     4.016
+
+
+a Values have been corrected with the appropriate K(I) = 0.71 correction (see Table 1).
+
+b Member galaxy selected based on its photometric redshift (see Brunner & Lubin 2000).
+                          Table 4. The M , hSBi, Log R Data for Cl 1604+4304 [I Band; qo = 12 ; Ho = 50]
+
+Gal                   η = 1.0                                  η = 1.3                                    η = 1.5                               η = 1.7                                  η = 2.0
+#           Ma          hSBia   Log R(pc)           Ma           hSBia   Log R(pc)            Ma            hSBia   Log R(pc)        Ma           hSBia   Log R(pc)            Ma          hSBia   Log R(pc)
+
+ 9    −23.24 ± 0.10     20.59      3.651       −23.72 ± 0.10     21.55     3.938          −23.89 ± 0.09     22.03     4.062     −23.98 ± 0.09     22.36     4.149        −24.04 ± 0.09     22.59     4.204
+10b   −23.12 ± 0.10     20.90      3.687       −23.59 ± 0.10     21.82     3.963          −23.71 ± 0.09     22.16     4.058     −23.80 ± 0.09     22.46     4.131             ···           ···       ···
+13    −23.17 ± 0.10     20.00      3.525       −23.41 ± 0.10     20.50     3.669          −23.51 ± 0.09     20.80     3.746     −23.59 ± 0.09     21.10     3.821        −23.68 ± 0.09     21.53     3.924
+34b   −22.06 ± 0.10     20.98      3.495       −22.35 ± 0.09     21.60     3.674          −22.50 ± 0.09     22.03     3.785     −22.58 ± 0.09     22.32     3.866        −22.64 ± 0.09     22.60     3.930
+46b   −22.01 ± 0.11     20.40      3.378       −22.25 ± 0.10     20.90     3.513          −22.34 ± 0.09     21.17     3.589     −22.42 ± 0.09     21.46     3.661        −22.50 ± 0.09     21.90     3.761
+50    −21.83 ± 0.11     21.11      3.479       −22.18 ± 0.10     21.83     3.689          −22.39 ± 0.09     22.43     3.855     −22.47 ± 0.09     22.73     3.919        −22.60 ± 0.09     23.38     4.077
+58b   −21.72 ± 0.10     20.65      3.371       −21.94 ± 0.09     21.11     3.499          −22.03 ± 0.09     21.37     3.569     −22.10 ± 0.09     21.63     3.632        −22.18 ± 0.09     22.03     3.725
+
+
+a Values have been corrected with the appropriate K(I) = 0.80 correction (see Table 1).
+
+b Member galaxy selected based on its photometric redshift (see Brunner & Lubin 2000).
+
+
+
+
+                                                                                                                                                                      – 33 –
+                                               – 34 –
+
+
+
+
+Table 5. Summary of the Tolman Signal and the Inferred Luminosity Evolution for Cl
+                     1604+4321 in the R band using qo = 21
+
+
+              η        ∆hSBi               n        ∆Mevol         4−n          #
+                       (mag)                        (mag)
+           (1)          (2)             (3)          (4)            (5)         (6)
+
+              1.0    2.44 ± 0.16    3.43 ± 0.23    0.40 ± 0.16   0.57 ± 0.23    14
+              1.3    2.24 ± 0.16    3.15 ± 0.23    0.60 ± 0.16   0.85 ± 0.23    14
+              1.5    2.21 ± 0.16    3.11 ± 0.23    0.63 ± 0.16   0.89 ± 0.23    14
+              1.7    1.96 ± 0.17    2.76 ± 0.24    0.88 ± 0.17   1.24 ± 0.24    14
+              2.0    1.76 ± 0.18    2.48 ± 0.25    1.08 ± 0.18   1.52 ± 0.25    13
+
+
+
+
+Table 6. Summary of the Tolman Signal and the Inferred Luminosity Evolution for Cl
+                     1324+3011 in the I band using qo = 12
+
+
+          η          ∆hSBi             n            ∆Mevol          4−n          #
+                     (mag)                          (mag)
+         (1)          (2)             (3)            (4)             (5)         (6)
+
+          1.0       2.54 ± 0.15    4.15 ± 0.25    −0.09 ± 0.15   −0.15 ± 0.25       13
+          1.3       2.33 ± 0.14    3.81 ± 0.23     0.12 ± 0.14    0.19 ± 0.23       13
+          1.5       2.33 ± 0.13    3.81 ± 0.21     0.12 ± 0.13    0.19 ± 0.21       13
+          1.7       2.13 ± 0.14    3.48 ± 0.23     0.32 ± 0.14    0.52 ± 0.23       12
+          2.0       1.99 ± 0.15    3.25 ± 0.25     0.46 ± 0.15    0.75 ± 0.25       11
+                                        – 35 –
+
+
+
+
+Table 7. Summary of the Tolman Signal and the Inferred Luminosity Evolution for Cl
+                     1604+4304 in the I band using qo = 21
+
+
+          η      ∆hSBi            n           ∆Mevol          4−n         #
+                 (mag)                        (mag)
+         (1)      (2)            (3)           (4)             (5)        (6)
+
+          1.0   2.92 ± 0.18   4.20 ± 0.26   −0.14 ± 0.18   −0.20 ± 0.26   7
+          1.3   2.73 ± 0.17   3.93 ± 0.24    0.05 ± 0.17    0.07 ± 0.24   7
+          1.5   2.72 ± 0.17   3.91 ± 0.24    0.06 ± 0.17    0.08 ± 0.24   7
+          1.7   2.43 ± 0.18   3.50 ± 0.26    0.35 ± 0.18    0.50 ± 0.26   7
+          2.0   2.29 ± 0.21   3.29 ± 0.30    0.49 ± 0.21    0.71 ± 0.30   6
+                 Table 8. Recipes to Convert the qo = 12 , Ho = 50 Tables for Log R and m − M to the Other
+                                                         Cosmologies
+
+                                        qo = 0                                         qo = 1                                        “Tired Light”
+  Cluster        z      m−M     Log A       ∆M           ∆ Log R       m−M     Log A      ∆M           ∆ Log R        m−M      Log A        ∆M           ∆ Log R
+    (1)         (2)      (3)     (4)        (5)            (6)          (7)     (8)        (9)           (10)          (11)     (12)        (13)           (14)
+
+Cl 1324+3011   0.7565   43.98   3.992   0.41 brighter   0.082 larger   43.28   3.853   0.29 fainter   0.057 smaller    43.26   4.215    0.31 fainter   0.305 larger
+Cl 1604+4304   0.8967   44.46   4.021   0.49 brighter   0.097 larger   43.66   3.860   0.31 fainter   0.064 smaller    43.62   4.270    0.35 faitner   0.346 larger
+Cl 1604+4321   0.9243   44.53   4.025   0.50 brighter   0.100 larger   43.73   3.861   0.32 fainter   0.065 smaller    43.68   4.280    0.36 fainter   0.354 larger
+
+
+
+
+                                                                                                                                                       – 36 –
+                                               – 37 –
+
+
+
+
+                    20
+
+
+
+
+                    22
+
+
+
+
+                    24
+
+
+
+
+                    20
+
+
+
+
+                    22
+
+
+
+
+                    24
+
+                         3.2   3.6   4   4.4   4.8      3.2   3.6   4   4.4   4.8
+
+
+
+
+Fig. 1.— Surface brightness measured in the R band versus log linear radius for the galaxies in
+Cl 1604+4321 (z = 0.9243) from the data in Table 2. Large dots are for the galaxies in Table 2
+with directly measured redshifts. Small dots are cluster members inferred for their photometric
+redshifts (see Paper III). The mean correlation for zero-redshift early-type galaxies is shown by the
+lines taken from Tables 2 and 3 of Paper I.
+                                               – 38 –
+
+
+
+
+                   20
+
+
+
+
+                   22
+
+
+
+
+                   24
+
+
+
+
+                   20
+
+
+
+
+                   22
+
+
+
+
+                   24
+
+                         3.2   3.6   4   4.4   4.8      3.2   3.6   4   4.4   4.8
+
+
+
+
+Fig. 2.— Same as Figure 1 but for the I band data for the two clusters Cl 1324+3011 at z = 0.7565
+(closed circles) and Cl 1604+4304 at z = 0.8967 (open circles) from the data in Tables 3 and 4.
+The lines for zero redshift are the same as in Figure 1 but shifted to the I band by hR − Ii = 0.62.
+                                               – 39 –
+
+
+
+
+                   20
+
+
+
+
+                   22
+
+
+
+
+                   24
+
+
+
+
+                   20
+
+
+
+
+                   22
+
+
+
+
+                   24
+
+                        -26     -24      -22        -26     -24       -22
+
+
+
+
+Fig. 3.— The M , hSBi diagram for Cl 1604+4321 from the data in Table 2 for the Ho = 50, qo = 21
+model. The solid line is the zero-redshift calibration derived from the zero-redshift log R, hSBi
+relation in Figure 1 and equation (11) of Paper I. The symbols are the same as in Figure 1.
+                                             – 40 –
+
+
+
+
+                  20
+
+
+
+
+                  22
+
+
+
+
+                  24
+
+
+
+
+                  20
+
+
+
+
+                  22
+
+
+
+
+                  24
+
+                       -26    -24      -22        -26    -24      -22
+
+
+
+
+Fig. 4.— Same as Figure 3 for the M , hSBi diagram for the combined data for the clusters Cl
+1324+3011 and Cl 1604+4304 from Tables 3 and 4. Closed and open circles are for Cl 1324+3011
+and Cl 1604+4304, respectively.
+                                                 – 41 –
+
+
+
+
+                   4.5
+
+
+
+
+                     4
+
+
+
+
+                   3.5
+
+
+
+                   4.5
+
+
+
+
+                     4
+
+
+
+
+                   3.5
+
+
+
+
+                         -26     -24       -22        -26     -24       -22
+
+
+
+
+Fig. 5.— The deviation of the absolute magnitude at a given linear radius in the R photometric
+band from the zero-redshift correlation line for Cl 1604+4321. The solid line is the zero-redshift
+calibration derived from the zero-redshift log R, hSBi relation in Figure 1 and equation (11) of
+Paper I. The increase in absolute luminosity that is required to preserve the (1 + z)4 Tolman factor
+is the deviation toward brighter magnitudes seen relative to the zero-redshift line. This is clearly
+due to luminosity evolution. To preserve the Tolman factor requires that the evolutionary factor
+must be h∆M i = 2.5 log (1.9243)1.41 = 1.00 mag for the weighted mean of the η values of 1.7 and
+2.0. Because of the tautology of the argument, this diagram must show this factor, by necessity.
+The expectation from the theory of passive evolution is set out in §4.
+                                                  – 42 –
+
+
+
+
+                   4.5
+
+
+
+
+                     4
+
+
+
+
+                   3.5
+
+
+
+                   4.5
+
+
+
+
+                     4
+
+
+
+
+                   3.5
+
+
+
+
+                         -26      -24       -22        -26      -24       -22
+
+
+
+
+Fig. 6.— Same as Figure 5 but in the I photometric band for the two clusters Cl 1324+3011
+(z = 0.7565) and Cl 1604+4304 (z = 0.8967). The tautological deviations in magnitudes from the
+zero redshift lines are required to be 2.5 log (1.7565)0.63 = 0.39 mag and 2.5 log (1.8967)0.63 = 0.44
+mag, respectively, as the weighted mean of the η values of 1.7 and 2.0 if the expansion is real.
+These required evolutionary corrections are within the errors of the independent calculation of the
+evolution correction from the spectral synthesis calculations in §4 based on the observed colors.
+

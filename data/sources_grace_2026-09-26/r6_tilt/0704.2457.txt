@@ -1,0 +1,408 @@
+                                                 Another Odd Thing About Unparticle Physics
+
+                                                                            Howard Georgi∗
+
+
+
+
+arXiv:0704.2457v2 [hep-ph] 21 May 2007
+                                                         Center for the Fundamental Laws of Nature
+                                                                Jefferson Physical Laboratory
+                                                                      Harvard University
+                                                                    Cambridge, MA 02138
+
+                                                                                April 2007
+
+                                                                                  Abstract
+                                             The peculiar propagator of scale invariant unparticles has phases that produce unusual
+                                             patterns of interference with standard model processes. We illustrate some of these
+                                             effects in e+ e− → µ+ µ− .
+
+
+
+
+                                         ∗
+                                             georgi@physics.harvard.edu
+1     Introduction
+In a previous paper [1], I argued that a scale invariant sector that decouples at a large scale
+is associated with “unparticles” whose production might be detectable in missing energy
+and momentum distributions. In this note, we consider some of the leading virtual effects
+of unparticles. In particular, we write down the unparticle propagator and consider the in-
+terference between standard model amplitudes and amplitudes involving virtual unparticles.
+As emphasized long ago by Eichten, Lane and Peskin [2], this kind of interference can be
+a sensitive probe of high-energy processes. In particular, the interference terms are effects
+of leading nontrivial order in the small couplings of unparticles to standard model particles,
+the same order as the production cross-sections considered in [1]. We will find that the
+peculiar phases associated with the unparticle propagator in the time-like region give rise to
+unusual patterns of interference which depend dramatically on the scaling dimension of the
+unparticles.
+    In this note, as in [1], we assume that the very high energy theory contains the fields of the
+standard model and the fields of a theory with a nontrivial IR fixed point, which I call BZ (for
+Banks-Zaks [3]) fields. The two sets interact through the exchange of particles with a large
+mass scale MU . Below MU , there are nonrenormalizable couplings between standard model
+fields and Banks-Zaks fields suppressed by powers of MU . The renormalizable couplings of the
+BZ fields then produce dimensional transmutation and the scale-invariant unparticle fields
+emerge below an energy scale ΛU . In the effective theory below the scale ΛU the BZ operators
+match onto unparticle operators, and the nonrenormalizable interactions match onto a new
+set of interactions between standard model and unparticle fields with small coefficients. We
+make crucial use of the simplifications that result by working to lowest nontrivial order in
+the small couplings of unparticles fields to standard model fields in the effective field theory
+below ΛU . This allows us reliably to calculate some important quantities without having to
+understand in detail what unparticles look like. We will return to some of these questions
+at the end of the paper.
+    To illustrate the interesting properties of the unparticle propagator, we consider the
+example of the low energy effect of the following interaction terms.
+
+                      CV U Λk+1−dU
+                                             µ   CAU Λk+1−dU
+                            U
+                                   e γ µ e O U +      U
+                                                             e γµ γ5 e OUµ                    (1)
+                           MUk                       MUk
+
+where the unparticle operator is hermitian and transverse,
+
+                                           ∂µ OUµ = 0 .                                       (2)
+
+I stress that this is just an example. Unparticle operators with different tensor structures
+can be dealt with in a similar way.
+
+
+
+
+                                                2
+   In the notation of [1], the transverse 4-vector unparticle propagator is given by
+                                 Z
+                                      eiP x h0| T (OUµ (x) OUν (0)) |0i d4 x
+                                     Z ∞
+                            Ad                   dU −2 −g µν + P µ P ν /P 2                (3)
+                          =i U              M2                               dM 2
+                            2π        0                  P 2 − M 2 + iǫ
+                                 AdU −g µν + P µ P ν /P 2          d −2
+                            =i                            −P 2 − iǫ U
+                                  2       sin(dU π)
+where
+                                            16π 5/2  Γ(dU + 1/2)
+                                  AdU =                                                     (4)
+                                           (2π)2dU Γ(dU − 1) Γ(2dU )
+We can check this odd-looking result by finding the discontinuity across the cut for P 2 > 0.
+
+                 AdU −g µν + P µ P ν /P 2   d −2                                  
+             i                            P2 U      (−1 − iǫ)dU −2 − (−1 + iǫ)dU −2
+                  2       sin(dU π)
+                   AdU −g µν + P µ P ν /P 2   d −2 −i(d −2)π
+                                            P2 U              − ei(dU −2)π
+                                                                           
+                   =i                               e U
+                     2       sin(dU π)
+    Ad −g µν + P µ P ν /P 2    d −2                                          d −2
+   i U                      P 2 U (−2i sin(dU π)) = AdU −g µν + P µ P ν /P 2 P 2 U
+     2      sin(dU π)
+                                                                                            (5)
+in agreement with the arguments of [1].
+    As (5) shows, the non-trivial phases along the physical cut in (3) play a necessary role in
+reproducing the scale invariance. We will find that these phases, even more than the nontriv-
+ial scaling itself, produce unique physical effects in interference. These peculiar interference
+effects are the key results in this paper. We explore a few of these below for the explicit
+example of (1).
+    It is important to note that while the discontinuity across the cut is not singular for
+integer dU > 1, the propagator (3) is singular because of the sin(dU π) in the denominator.
+I believe that this is a real effect. These integer values describe multiparticle cuts and
+the mathematics is telling us that we should not be trying to describe them with a single
+unparticle field. For this reason we will focus on 1 < dU < 2, and we will find that the virtual
+effect of unparticles are gentlest away from the integer boundaries.
+    Let us first compute the cross section for e+ e− → µ+ µ− in the the presence of the
+interactions (1). It is convenient to rescale the dimensional coefficients to the Z mass, and
+define the dimensionless coefficients
+                                     CV U Λk+1−d
+                                           U
+                                                 U
+                                                                  CAU Λk+1−d
+                                                                        U
+                                                                              U
+
+                           cV U =                         cAU =                             (6)
+                                      MUk MZ1−dU                   MUk MZ1−dU
+
+   Then (ignoring the lepton masses) the square of the invariant matrix element can be
+written as (where q 2 = s is the square of the total center of mass energy and θ is the angle
+
+                                                      3
+of the µ− from the e− direction in the center of mass)
+
+                     h                                                                                  
+                                         2                    2                  2                   2
+        2
+   |M| = 2(q ) 2 2                   2                    2
+                          ∆V V (q ) + ∆AA (q ) + ∆V A (q ) + ∆AV (q )        2                   2
+                                                                                                             (1 + cos2 θ)
+                                                                                                                             (7)
+                                                                                                       i
+               + Re (∆∗V V (q 2 ) ∆AA (q 2 )) + Re (∆∗V A (q 2 ) ∆AV (q 2 )) 4 cos θ
+
+where                                        X
+                          ∆xy (q 2 ) ≡             dexj dµyj ∗ ∆j (q 2 ) where x, y = V or A                                 (8)
+                                             j=γ
+                                             Z,U
+
+with the ds given in the following table
+
+                               dxj       γ                        Z                      U
+                                                    e                       cV U
+                               V         e                 (−1/4 + sin2 θ)                                                   (9)
+                                               sin θ cos θ                 MZdU −1
+                                                            e/4                       cAU
+                               A         0
+                                                         sin θ cos θ                 MZdU −1
+
+and the ∆j s being the γ, Z and U propagators,
+
+
+               ∆j         γ                    Z                                     U
+                          1            1                                  AdU        d −2                                  (10)
+                =                    2
+                                                                                  q 2 U e−i(dU −2)π
+                          q2     2
+                               (q − MZ + iMZ ΓZ )                     2 sin(dU π)
+
+ We have tacitly assumed in (9) that the unparticle interactions are lepton-flavor-blind, so
+that we do not have to keep track of the e and µ superscripts on the cs, and we will continue
+to assume this in the graphs below. But (7) is entirely general and does not depend on this
+assumption.
+    As a first example of the interesting structure of (7), consider the total cross section in
+the LEP region. We are used to thinking that the Z pole is not a good place to look for
+interference with the effects of small non-renormalizable interactions because the amplitude
+is dominantly imaginary on the pole. This prejudice is not warranted for unparticle interac-
+tions. The unparticle amplitude can interfere with both the real and imaginary parts of the
+standard model and can therefore contribute both on and off the pole.
+    It is instructive to begin by assuming cV U = 0 (remember, we are taking the same c
+for e and µ) and considering the total cross section. Because the vector coupling vanishes,
+the interference between the unparticle exchange amplitude and the photon decay amplitude
+does not contribute to the total cross section, so we expect only interference with Z exchange.
+In figure 1, I show the fractional change in the total cross section for small non-zero cAU for
+various values of dU between 1 and 2. The dominant effect as expected is the interference
+
+                                                                  4
+             5|cAU |2
+
+
+
+                                                                    √
+                                                                        s (GeV)→
+                   0      25          50    75        100     125        150   175        200
+
+
+
+
+           −5|cAU |2
+
+
+                                                                                √
+Figure 1: The fractional change in total cross-section for e+ e− → µ+ µ− versus   s for dU = 1.1, 1.3,
+1.5, 1.7 and 1.9 for non-zero cAU and cV U = 0. The dash-length increases with dU .
+
+term proportional to a single power of |cAU |2 . But the striking thing about this graph is how
+sensitively the result depends on the value of dU . We can understand qualitatively what is
+going on by thinking about the phase of the unparticle propagator along the physical cut
+which is
+                                     φdU = −(dU − 1)π                                       (11)
+
+
+
+
+             |cAU |2
+
+
+
+
+               0
+                                 90               91 √
+                                                         s (GeV)→ 92                 93
+
+
+
+
+                                                                                √
+Figure 2: The fractional change in total cross-section for e+ e− → µ+ µ− versus   s for dU = 1.1, 1.3,
+1.5, 1.7 and 1.9 for non-zero cAU and cV U = 0. The dash-length increases with dU . Note the different
+scales compared to figure 1.
+
+   The real part of (11) is positive for 1 < dU < 3/2 and negative for 3/2 < dU < 2. The
+
+                                                  5
+real part of 1/(q 2 − MZ2 + iMZ ΓZ ) is negative below the Z pole and positive above. Thus
+away from the Z pole, where the imaginary part of 1/(q 2 − MZ2 + iMZ ΓZ ) is small, we
+expect destructive (constructive) interference below (above) the pole for 1 < dU < 3/2, and
+vice-versa for 3/2 < dU < 1. Near the Z pole, the situation is complicated, as illustrated in
+figure 2 because both real and imaginary parts contribute to the interference.
+
+           |cAU |2 /2
+
+
+
+
+                                                                    √
+                                                                        s (GeV)→
+                0         25      50       75        100   125      150     175       200
+
+
+
+
+                                                                                  √
+Figure 3: The fractional change in total cross-section for e+ e− → µ+ µ− versus    s for dU = 1.48,
+1.49, 1.5, 1.51 and 1.52 for non-zero cAU and cV U = 0. The dash-length increases with dU . Note the
+different vertical scale compared to figure 1.
+
+    The situation simplifies in a very interesting way for dU = 3/2. In this case, the phase
+from (11) is φdU = −π/2, so the unparticle amplitude interferes only with the imaginary
+part of the Z-exchange amplitude. This is a smaller effect than we see for values of dU very
+different from 3/2 because it is proportional to the Z width, rather than q 2 − MZ2 . It gives
+constructive interference that peaks on the Z pole and goes to zero far from the pole. This
+is shown on a different scale in figure 3. Here I have also included a few values of dU close
+to 3/2, for comparison.
+    Having seen how things work for purely axial vector unparticle couplings, let us now con-
+sider what the total cross section looks like for a vector coupling. Now we expect interference
+with the photon-exchange amplitude, and because the vector part of the leptonic coupling of
+the Z is (by an “accident” of the value of sin2 θ) very small, there is very little interference
+with the Z-exchange amplitude. Now we expect constructive interference for 1 < dU < 3/2
+and destructive interference for 3/2 < dU < 1. The result is shown in figure 4. The dip at the
+Z pole arises simply because we are plotting a fractional change and the large contribution
+from the pole is in the denominator.
+    The unparticle interference in the matrix element (7) also gives rise to a complicated
+pattern of changes in the front-back asymmetry
+                              Re (∆∗V V (q 2 ) ∆AA (q 2 )) + Re (∆∗V A (q 2 ) ∆AV (q 2 ))
+                                                                                         
+             σf − σb    3
+                     =                                                                      (12)
+             σf + σb    8 |∆V V (q 2 )|2 + |∆AA (q 2 )|2 + |∆V A (q 2 )|2 + |∆AV (q 2 )|2
+
+                                                 6
+           10|cV U |2
+
+
+
+
+                                                                   √
+                                                                       s (GeV)→
+                   0      25       50       75        100    125         150    175    200
+
+
+
+
+                                                                                √
+Figure 4: The fractional change in total cross-section for e+ e− → µ+ µ− versus   s for dU = 1.1, 1.3,
+1.5, 1.7 and 1.9 for non-zero cV U and cAU = 0. The dash-length increases with dU .
+
+
+
+
+             |cAU |2
+
+
+
+                                                                   √
+                                                                       s (GeV)→
+               0         25       50      75      100       125         150    175    200
+
+
+
+
+                                                                                  √
+Figure 5: The change in the front-back asymmetry for e+ e− → µ+ µ− versus        s for dU = 1.1, 1.3,
+1.5, 1.7 and 1.9 for non-zero cAU and cV U = 0. The dash-length increases with dU .
+
+
+This is shown in figures 5 and 6. As for the total cross section, the effect for dU = 3/2 is
+smaller and concentrated at the Z pole. In figures 5 and 6, we focus down on values of
+dU ≈ 3/2.
+    I hope I have convinced the reader that the unparticle propagator in the time-like region
+has interesting properties that force us to reexamine many of our preconceived notions about
+interference. Working to lowest non-trivial order in the couplings of the unparticles in the
+effective low energy theory, we can make detailed predictions of the form of interference be-
+tween time-like unparticle exchange amplitudes and standard model amplitudes even though
+
+
+                                                  7
+           |cV U |2 /2
+
+
+
+
+                 0        25       50      75        100     125    √ 150   175       200
+                                                                     s (GeV)→
+
+
+
+
+                                                                               √
+Figure 6: The change in the front-back asymmetry for e+ e− → µ+ µ− versus        s for dU = 1.1, 1.3,
+1.5, 1.7 and 1.9 for non-zero cV U and cAU = 0. The dash-length increases with dU .
+
+
+
+
+          |cAU |2 /100                               √
+                                                         s (GeV)→
+                  0        25       50      75        100     125      150    175      200
+
+
+
+
+                                                                             √
+Figure 7: The change in the front-back asymmetry for e+ e− → µ+ µ− versus      s for dU = 1.48, 1.49,
+1.5, 1.51 and 1.52 for non-zero cAU and cV U = 0. The dash-length increases with dU .
+
+
+we still lack an intuitive or even detailed picture of what an unparticle looks like.
+    Let me close with a couple of more speculative comments. One might argue that the
+term “propagator” is not particularly felicitous for the unparticle time-ordered product, (3),
+because the unparticle does not really propagate in the usual way. It is also worth noting the
+connection between this analysis and the more confusing issue of unparticle decay. There
+is a sense in which the unparticle exchange amplitude that we have used in our analysis is
+associated with unparticle production and decay. But in the process we have studied in this
+note, the decay process is masked by the leading order (and therefore larger) interference
+
+
+                                                 8
+          |cV U |2 /100
+                                              √
+                                                  s (GeV)→
+                  0        25       50      75        100    125      150     175      200
+
+
+
+
+                                                                             √
+Figure 8: The change in the front-back asymmetry for e+ e− → µ+ µ− versus      s for dU = 1.48, 1.49,
+1.5, 1.51 and 1.52 for non-zero cV U and cAU = 0. The dash-length increases with dU .
+
+
+term. And as with the term “propagator,” the term “decay” may be a little misleading for an
+unparticle because it suggests that the particle was propagating over an large distance before
+it decayed. I hope to return to these deliciously confusing issues in a future publication.
+
+
+Acknowledgments
+I am grateful to Nima Arkani-Hamed, Spencer Chang, Lisa Randall and Matthew Schwartz
+for discussions. An independent work addressing some of the same issue is [4].
+    This research is supported in part by the National Science Foundation under grant PHY-
+0244821.
+
+
+References
+[1] H. Georgi, “Unparticle physics,” hep-ph/0703260.
+
+[2] E. Eichten, K. D. Lane, and M. E. Peskin, “New tests for quark and lepton
+    substructure,” Phys. Rev. Lett. 50 (1983) 811–814.
+
+[3] T. Banks and A. Zaks, “On the phase structure of vector - like gauge theories with
+    massless fermions,” Nucl. Phys. B196 (1982) 189.
+
+[4] K. Cheung, W.-Y. Keung, and T.-C. Yuan, “Novel signals in unparticle physics,”
+    arXiv:0704.2588 [hep-ph].
+
+
+
+
+                                                  9
+

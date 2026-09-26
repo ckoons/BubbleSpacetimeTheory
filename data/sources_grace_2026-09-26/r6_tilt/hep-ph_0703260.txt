@@ -1,0 +1,421 @@
+                                                                      Unparticle Physics
+
+                                                                         Howard Georgi,∗
+                                                      Center for the Fundamental Laws of Nature
+
+
+
+
+arXiv:hep-ph/0703260v3 20 May 2007
+                                                             Jefferson Physical Laboratory
+                                                                   Harvard University
+                                                                 Cambridge, MA 02138
+
+                                                                                Abstract
+                                         I discuss some simple aspects of the low-energy physics of a nontrivial scale invariant
+                                         sector of an effective field theory — physics that cannot be described in terms of
+                                         particles. I argue that it is important to take seriously the possibility that the unpar-
+                                         ticle stuff described by such a theory might actually exist in our world. I suggest a
+                                         scenario in which some details of the production of unparticle stuff can be calculated.
+                                         I find that in the appropriate low energy limit, unparticle stuff with scale dimension
+                                         dU looks like a non-integral number dU of invisible particles. Thus dramatic evidence
+                                         for a nontrivial scale invariant sector could show up experimentally in missing energy
+                                         distributions.
+
+
+
+
+                                     ∗
+                                         georgi@physics.harvard.edu
+     Stuff with nontrivial scale invariance in the infrared (IR) [1] would be very unlike anything
+we have seen in our world. Our quantum mechanical world seems to be well-described
+in terms of particles. We have a common-sense notion of what a particle is. Classical
+particles have definite mass and therefore carry energy and momentum in a definite relation
+E 2 = p2 c2 + m2 c4 . In quantum mechanics, this relation becomes the dispersion relation
+for the corresponding quantum waves with the mass fixing the low-frequency cut-off, ω 2 =
+c2 k 2 + m2 c4 /~2 .
+     Scale invariant stuff cannot have a definite mass unless that mass is zero. A scale transfor-
+mation multiplies all dimensional quantities by a rescaling factor raised to the mass dimension
+so a nonzero mass is not scale invariant. A free massless particle is a simple example of scale
+invariant stuff because the zero mass is unaffected by rescaling. But quantum field theorists
+have long realized that there are more interesting possibilities — theories in which there are
+fields that get multiplied by fractional powers of the rescaling parameter.1 The standard
+model does not have the property of scale invariance. Many of our particles have definite
+nonzero masses.2 But there could be a sector of the theory, as yet unseen, that is exactly
+scale invariant and very weakly interacting with the rest of the standard model.3 In such
+an interacting scale invariant sector in four space-time dimensions, there are no particles
+because there can be no particle states with a definite nonzero mass. Scale invariant stuff,
+if it exists, is made of unparticles.
+     But what does this mean? It is clear what scale invariance is in the quantum field
+theory. Fields can scale with fractional dimensions. Indeed, much beautiful theory is devoted
+working out the structure of these theories.4 But what would scale invariant unparticle stuff
+actually look like in the laboratory? In spite of all we know about the correlation functions
+of conformal fields in Euclidean space, it is a little hard to even talk about the physics of
+something so different from our familiar particle theories. It does not seem a priori very
+likely that such different stuff should exist and have remained hidden. But this is no reason to
+assume that it is impossible. We should determine experimentally whether such unparticle
+stuff actually exists. But how will we know if it we see it? That is one of the questions I
+address in this note.
+     I discuss a simple scenario in which we can say something simple and unambiguous about
+what unparticles look like. The tool I use to say something quantitative about unparticle
+physics is effective field theory (see for example [7]). The idea is that while the detailed
+physics of a theory with a nontrivial scale invariant infrared fixed point is thoroughly nonlin-
+ear and complicated, the low energy effective field theory, while very strange, is very simple
+because of the scale invariance. We can use this to understand what the interactions of
+unparticles with ordinary matter look like in an appropriate limit. Parts of what I have to
+   1
+     See for example [2].
+   2
+     It could be that the high energy is scale invariant, but that the scale invariance is broken at or above
+the electroweak scale. That is not what I am discussing. It leads to ordinary particles.
+   3
+     I will make this precise below.
+   4
+     The huge literature intersects with supersymmetry (for a review see [3]), with string theory (for a review
+see [4]) and particularly with the AdS/CFT conjecture (for a review see [5]).
+
+
+
+                                                      2
+say are well understood by many experts in scale invariant field theories.5 I hope to make
+it common knowledge among phenomenologists and experimenters. My goal here is not to
+do serious phenomenology myself, but rather to describe very clearly a physical situation
+in which phenomenology is possible in spite of the essential strangeness of unparticle theo-
+ries. And while my motivation is primarily just theoretical curiosity, the scheme I discuss
+could very well be a component of the physics above the TeV scale that will show up at
+the LHC. To my mind, this would be a much more striking discovery than the more talked
+about possibilities of SUSY or extra dimensions. SUSY is more new particles. From our
+4-dimensional point of view until we see black holes or otherwise manipulate gravity, finite
+extra dimensions are just a metaphor.6 Again what we see is just more new particles. We
+would be overjoyed and fascinated to see these new particles and eventually patterns might
+emerge that show the beautiful theoretical structures they portend. But I will argue that
+unparticle stuff with nontrivial scaling would astonish us immediately.
+    Here is the scheme. The very high energy theory contains the fields of the standard
+model and the fields of a theory with a nontrivial IR fixed point, which we will call BZ
+(for Banks-Zaks) fields. The two sets interact through the exchange of particles with a large
+mass scale MU . Below the scale MU , there are nonrenormalizable couplings involving both
+standard model fields and Banks-Zaks fields suppressed by powers of MU . These have the
+generic form
+                                          1
+                                             Osm OBZ                                      (1)
+                                         MUk
+where Osm is an operator with mass dimension dsm built out of standard model fields and OBZ
+is an operator with mass dimension dBZ built out of BZ fields. The renormalizable couplings
+of the BZ fields then cause dimensional transmutation as scale-invariance in the BZ sector
+emerges at an energy scale ΛU . In the effective theory below the scale ΛU the BZ operators
+match onto unparticle operators, and the interactions of (1) match onto interactions of the
+form
+                                     CU ΛdUBZ −dU
+                                                  Osm OU                                 (2)
+                                         MUk
+where dU is the scaling dimension of the unparticle operator OU .7 The constant CU is a
+coefficient function. We are interested in the operators of the lowest possible dimension,
+which have the largest effect in the low energy theory, so we will assume that OU is one
+such. The effective field theory interaction (2) is a good starting point in our search for
+unparticle stuff, for two reasons. Because the BZ fields decouple from ordinary matter at
+low energies, the interaction (1) should not effect the IR scale invariance of the unparticle.
+And (1) seems likely to be allowed experimentally for sufficiently large MU . If MU is large
+enough, the unparticle stuff just doesn’t couple strongly enough to ordinary stuff to have
+   5
+     See, for example, [4]. But note that one reason that it is difficult to extract unparticle physics from the
+beautiful formal works on conformal theory is that these papers often have in mind the scheme described in
+footnote 2.
+   6
+     Infinite extra dimensions, however, can have unparticle-like behavior. See [6].
+   7
+     For now we assume for simplicity of presentation that OU is a Lorentz scalar. See (22).
+
+
+                                                       3
+been seen. What happens as we lower MU or raise our machine energy and this peculiar
+stuff can be produced by interactions of ordinary particles?
+    If the IR fixed point is perturbative, we may be able to calculate the dU s and CU s. But
+typically the matching from the BZ physics to the unparticle physics will be a complicated
+strong interaction problem, like the matching from the physics of high-energy QCD onto the
+physics of the low-energy hadron states. In that case, we should be able to estimate these
+constants very roughly by including the appropriate geometrical factors (powers of 4π and
+that sort of thing - we will return to this below), but detailed calculation will be impossible.
+    Now we can ask what physics this produces in the low energy theory below ΛU . We expect
+that the virtual effects of fields with nontrivial scaling will produce odd forces. But here
+I consider what it looks like to actually produce the unparticle stuff. The most important
+effects will be those that involve only one factor (in the amplitude) of the small parameter
+in (2),
+                                           CU ΛdUBZ −dU
+                                                                                             (3)
+                                               MUk
+from a single insertion of the interaction (2) in some standard model process. The result will
+be the production of unparticle stuff, which will contribute to missing energy and momentum.
+To calculate the probability distribution for such a process, we need to know the density of
+final states for unparticle stuff. In the low energy theory described above, this is constrained
+by the scale invariance. Consider the vacuum matrix element
+                                                                             d4 P
+                                          Z
+                              †
+                  h0| OU (x) OU (0) |0i =    e−ipx |h0| OU (0) |P i|2 ρ P 2                  (4)
+                                                                              (2π)4
+where |P i is the unparticle state with 4-momentum P µ produced from the vacuum by OU .
+Because of scale invariance, the matrix element (4) scales with dimension 2dU , which requires
+that                                                                d −2
+                    |h0| OU (0) |P i|2 ρ P 2 = AdU θ P 0 θ P 2 P 2 U
+                                                              
+                                                                                           (5)
+This is the appropriate phase space for unparticle stuff. (5) should remind you of the phase
+space for n massless particles,8
+                        n
+                              ! n
+                       X         Y                d 4 pj           0       2     2 n−2
+         (2π)4 δ 4 P −               δ p2j θ p0j
+                                                                                
+                           pj                              = An θ P     θ P     P        (6)
+                       j=1       j=1
+                                                   (2π)  3
+
+
+where
+                                              16π 5/2 Γ(n + 1/2)
+                                       An =                                                         (7)
+                                              (2π)2n Γ(n − 1) Γ(2n)
+The zero in An for n = 1 together with the pole in P 2 reproduce the δ(P 2 ) in 1-particle
+phase space if the limit n → 1 is approached from above
+                                                 ǫ θ(x)
+                                              lim       = δ(x)                                      (8)
+                                             ǫ→0+ x1−ǫ
+
+  8
+      The left hand side has an extra (2π)4 compared to the definition in the particle date book.
+
+                                                      4
+   Thus we can describe the situation concisely as follows:
+                Unparticle stuff with scale dimension dU looks like a
+                                                                                           (9)
+                non-integral number dU of invisible particles.
+
+In fact, we may as well identify the A in (5) with the A in (7), and thus adopt (7) for
+non-integral n as the normalization for AdU . This is purely conventional because a different
+definition could be absorbed in the coefficient function CU in (2), but this choice fixes the
+normalization of the field OU in a way that incorporates the geometrical factors that go with
+dimensional analysis, although the combinatoric factors may be wildly wrong.
+    To illustrate the procedure in a realistic situation consider the decay t → u + U of a t
+quark into a u quark plus unparticles of scale dimension dU from the coupling9
+                                    λ
+                               i       u γµ (1 − γ5 ) t ∂ µ OU + h.c.                     (10)
+                                   ΛdU
+where the constant λ
+                                              CU ΛdUBZ
+                                           λ=                                             (11)
+                                                MUk
+(which in this particular case is dimensionless) contains most of the factors from the matching
+onto the low energy theory. We can ignore the mass of the u quark, so the final state densities
+are
+                                   dΦu (pu ) = 2π θ p0u δ p2u
+                                                             
+                                                                                           (12)
+                                                                d −2
+                            dΦU (pU ) = AdU θ p0U θ p2U p2U U
+                                                        
+                                                                                           (13)
+The way the phase space factors compose in my normalization is
+                                                   !
+                                                                d 4 pj
+                             Z              X        Y
+                   dΦ(P ) = (2π)4 δ 4 P −       pj     dΦ(pj )                            (14)
+                                             j       j
+                                                               (2π)4
+
+and the differential decay rate is
+
+                                             |M|2
+                                        dΓ =      dΦ(P )                                  (15)
+                                              2M
+where M is the invariant matrix element. Suitably averaged over initial spin and summed
+over final spin this gives
+
+                           dΓ  Ad m2 E 2 |λ|2   θ (mt − 2Eu )
+                              = U t 2du U                    2−d
+                                                                                          (16)
+                          dEu    2π 2 ΛU      (m2t − 2mt Eu ) U
+
+We are primarily interested in the shape as a function of Eu , so we will plot d ln Γ/dEu which
+has the simple form
+                       1 dΓ
+                             = 4 dU (d2U − 1) (1 − 2Eu /mt )dU −2 Eu2 /m2t                (17)
+                       Γ dEu
+
+                                                  5
+                            10
+
+
+                             8
+
+
+                      ↑     6
+                     d ln Γ                                                     dU = 2
+                  mt
+                      dEu 4
+
+                             2
+
+
+                                        0.1          0.2          0.3     0.4   0.5
+                                                         Eu /mt →
+
+Figure 1: d ln Γ/dEu versus Eu in units of mt with dU = j/3 for j = 4 to 9. The dashes get longer
+as j increases.
+
+The result is shown in figure 1. As dU → 1 from above, d ln(Γ)/dEu becomes more peaked
+at Eu = mt /2, matching smoothly unto the kinematics of a 2-particle decay in the limit,
+as expected from the general principle (9). Obviously, for higher dU the shape depends
+sensitively on du , but at least for dU in this range, the calculation appears to make sense.
+The kind of peculiar distributions of missing energy that we see in figure 1 may allow us to
+discover unparticles experimentally! The particular operator (10) is flavor changing, and thus
+may be suppressed by small and unknown flavor factors. But a similar analysis applies to
+scattering processes due to flavor conserving operators. The most interesting straightforward
+things to look at I believe are the collider phenomenology of
+                                  q+q →G+U              and q + G → q + U                   (18)
+from the operators
+                                    CU Λk+1−d U
+                                         U
+                                                q γµ q OUµ                                  (19)
+                                        MUk
+where q is a left- or right-handed quark, and the LEP constraints on the operators
+                                        CU Λk+1−dU
+                                            U
+                                                   e γµ (1 ± γ5 ) e OUµ                     (20)
+                                           MUk
+where the unparticle operator is hermitian and transverse,
+                                                     ∂µ OUµ = 0                             (21)
+The calculation of matrix elements goes the same way except for the tensor structure. For
+example
+                                                                                      d −2
+   h0| OUµ (0) |P i hP | OUν (0) |0 i ρ P 2 = AdU θ P 0 θ P 2 −g µν + P µ P ν /P 2 P 2 U
+                                                                               
+
+                                                                                          (22)
+   9
+       Chosen for simplicity rather than interest!
+
+                                                           6
+Also amusing is
+                                      G+G→G+U                                            (23)
+from the gluon operators
+
+                    CU Λk−dU
+                                                   CU Λk−dU
+                        U
+                        k
+                             Gµν Gµν OU     and        U
+                                                       k
+                                                            Gµλ Gν λ OUµν                (24)
+                      MU                             MU
+
+    I have argued in this brief note that unparticle stuff with nontrivial scaling dimension
+might exist in our world, and that up to constants associated with the binding of massless
+matter into unparticles, we can predict interesting features of unparticle production that
+serve as experimental tests of this crazy possibility. Let me close with some remarks.
+
+   • Many remarkable things are known about the scale and conformal invariant theories
+     in 2 dimensions (see for example [8]). It is not clear to me what 2D results translate
+     into 4D because the phase space in 2D is so constrained. But there are certainly
+     consequences for condensed matter physics, where conformal structures do exist (see
+     for example [9]).
+
+   • The connection between operator scaling dimension in a cft and missing energy distri-
+     butions was made for ordinary particles with integral scaling dimension in [10].
+
+   • The effective field theory picture above assumes that the unparticle fields do not carry
+     the standard model gauge interactions. It would be interesting to try to relax this, but
+     I have no idea whether it is possible.
+
+   • In (2), (19), (20) and (24), we assumed that the unparticle operator is a bosonic field.
+     Fermionic fields are possible if the standard model fields include fermions and bosons
+     with the same gauge couplings, as in SUSY, or if one can makes sense of unparticle
+     fields with standard model gauge quantum numbers.
+
+   • If unparticles exist, their cosmological consequences should be investigated. It should
+     be possible to use effective field theory to understand how low energy unparticles
+     behave in the universe today. But additional tools may be required to understand how
+     they got there from the hot big bang.
+
+   • I had hoped briefly to make sense of unparticles with dU < 1. However, in the calcu-
+     lation leading to figure 1 the differential decay rate into unparticles with dU < 1 has a
+     non-integrable singularity as EU → 0, suggesting that the vacuum might be unstable.
+     This is in accord with the general theorem in [11] that such fields are not possible in a
+     unitary theory (one of many important contributions by this author to the subject of
+     conformal field theory).
+
+   Note Added: While this paper was being reviewed, a number of papers have appeared
+applying its ideas. [12, 13, 14, 15, 16, 17, 18, 19, 20] Several of these discuss an extension
+
+
+                                              7
+of the ideas discussed in this paper to the interference between virtual unparticles in the
+s-channel and standard model amplitudes.
+    Acknowledgments: I am grateful to Nima Arkani-Hamed, Tom Banks, Spencer Chang,
+Ann Nelson, Lisa Randall and Edward Witten for comments on the manuscript. This re-
+search is supported in part by the National Science Foundation under grant PHY-0244821.
+
+
+References
+ [1] T. Banks and A. Zaks, “On the phase structure of vector - like gauge theories with
+     massless fermions,” Nucl. Phys. B196 (1982) 189.
+
+ [2] K. G. Wilson, “Operator product expansions and anomalous dimensions in the
+     thirring model,” Phys. Rev. D2 (1970) 1473.
+
+ [3] K. A. Intriligator and N. Seiberg, “Lectures on supersymmetric gauge theories and
+     electric- magnetic duality,” Nucl. Phys. Proc. Suppl. 45BC (1996) 1–28,
+     hep-th/9509066.
+
+ [4] O. Aharony, S. S. Gubser, J. M. Maldacena, H. Ooguri, and Y. Oz, “Large n field
+     theories, string theory and gravity,” Phys. Rept. 323 (2000) 183–386, hep-th/9905111.
+
+ [5] J. M. Maldacena, “Lectures on ads/cft,” hep-th/0309246.
+
+ [6] L. Randall and R. Sundrum, “An alternative to compactification,” Phys. Rev. Lett. 83
+     (1999) 4690–4693, hep-th/9906064.
+
+ [7] H. Georgi, “Effective field theory,” Ann. Rev. Nucl. Part. Sci. 43 (1993) 209–252.
+
+ [8] P. H. Ginsparg, “Applied conformal field theory,” hep-th/9108028.
+
+ [9] J. L. Cardy, “Conformal invariance in percolation, self-avoiding walks, and related
+     problems,” Annales Henri Poincare 4 (2003) S371–S384.
+
+[10] N. Arkani-Hamed, M. Porrati, and L. Randall, “Holography and phenomenology,”
+     JHEP 08 (2001) 017, hep-th/0012148.
+
+[11] G. Mack, “All unitary ray representations of the conformal group su(2,2) with positive
+     energy,” Commun. Math. Phys. 55 (1977) 1.
+
+[12] H. Georgi, “Another odd thing about unparticle physics,”
+     arXiv:0704.2457 [hep-ph].
+
+[13] K. Cheung, W.-Y. Keung, and T.-C. Yuan, “Novel signals in unparticle physics,”
+     arXiv:0704.2588 [hep-ph].
+
+[14] M. Luo and G. Zhu, “Some phenomenologies of unparticle physics,”
+     arXiv:0704.3532 [hep-ph].
+
+                                             8
+[15] C.-H. Chen and C.-Q. Geng, “Unparticle physics on cp violation,”
+     arXiv:0705.0689 [hep-ph].
+
+[16] G.-J. Ding and M.-L. Yan, “Unparticle physics in dis,” arXiv:0705.0794 [hep-ph].
+
+[17] Y. Liao, “Bounds on unparticles couplings to electrons: From electron g-2 to
+     positronium decays,” arXiv:0705.0837 [hep-ph].
+
+[18] T. M. Aliev, A. S. Cornell, and N. Gaur, “Lepton flavour violation in unparticle
+     physics,” arXiv:0705.1326 [hep-ph].
+
+[19] S. Catterall and F. Sannino, “Minimal walking on the lattice,”
+     arXiv:0705.1664 [hep-lat].
+
+[20] X.-Q. Li and Z.-T. Wei, “Unparticle physics effects on d-anti-d mixing,”
+     arXiv:0705.1821 [hep-ph].
+
+
+
+
+                                             9
+

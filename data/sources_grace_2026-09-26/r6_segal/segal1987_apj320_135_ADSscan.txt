@@ -1,0 +1,253 @@
+198 7ApJ. . .320. .1353
+                           The Astrophysical Journal, 320:135-138,1987 September 1
+                           © 1987. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+
+
+
+                                          CORRECTION OF A STUDY OF SOURCE COUNTS IN THE CHRONOMETRIC COSMOLOGY
+                                                                                                                     I. E. Segal
+                                                                                                          Massachusetts Institute of Technology
+                                                                                                   Received 1986 December 8 ; accepted 1987 February 25
+                                                                                             ABSTRACT
+                                           A recent study of source counts in the chronométrie cosmology (Wright 1987) is flawed in several respects.
+                                        It is in error (1) mathematically (2) logically, (3) statistically, and (4) in its representation of uncertain and
+                                        model-dependent data as statistically cogent. Specifically, it states that in the chronométrie cosmology “a
+                                        source can appear bright by being close to the antipode where z = oo,” whereas in fact its brightness must
+                                        vanish at this point. (2) The study ignores the statistics of the flux-redshift relation that is fundamental for
+                                        testing theories as to the nature of the redshift and is based on the logically inconclusive question of the
+                                        spatial distribution of sources. (3) It indicates levels of significance derived by a posteriori reasoning, involving
+                                        moreover unrealistic assumptions. (4) It ignores the smallness of the excess in the slope of the log Aí-log S
+                                        over the Euclidean value, and its only marginal statistical significance, found by Kellermann (1972) and con-
+                                        firmed by Kellermann and Wall (1987), in radio source counts, and cites preferentially data that have been
+                                        extensively corrected and show a large increase, exaggerating their statistical reliability. These and other flaws
+                                        are detailed.
+                                        Subject headings: cosmology—radio sources: general
+
+                                                    I. INTRODUCTION
+                                                                                                                                   Wright’s starting point is a mathematical analysis of the
+                              A recent manuscript by Wright (1987) purports to invalidate                                      ratio E(S1, 52) = (-Si/52)1-5Ar(51)/Ar(S'2), whose extremes he
+                           the chronométrie cosmology by a comparison of its predictions                                       considers. Of course, extremes in general are among the least
+                           with source counts. This is on the face of it entirely illogical,                                   stable statistics and here depend on observations at the
+                           since the fundamental observable prediction of the theory is                                        extreme limits in S where the data are minimal or least certain.
+                           the flux-redshift relation, which stands or falls irrespective of                                   It would be very difficult to establish reliable significance levels
+                           whatever the spatial distribution of sources may or may not be.                                     for these extremes, even for complete samples devoid of mea-
+                           But in fact the study involves basic mathematical, statistical,                                     surement errors. But Wright ignores sampling fluctuations and
+                           and observational errors. When these are corrected, the theory                                      claims that an observed ratio exceeds the “maximum E pre-
+                           appears in perfectly satisfactory agreement with large-scale                                        dicted by the chronométrie model.” “Thus,” he writes, “the
+                           homogeneity of sources.                                                                             observed quasar counts seem to rule out all the nonevolving
+                              Of course no theory can predict all the features of a sta-                                       cosmologies ” (including the chronométrie). This is simply
+                           tistical sample. Everything that happens is in fact of probabil-                                    wrong; the maximum ratio in the chronométrie cosmology is
+                           ity zero in the manifold of all events. Subjective, undisciplined,                                  not 3n/2 as Wright asserts, but oo.
+                           or model-dependent analysis can easily give a correct theory                                           Next comes an analysis of radio source counts. The docu-
+                           an appearance of deviation from observation. The last section                                      mentation is quite insufficient for reproducibility, but it is clear
+                           of the study derogates the quasar study by Segal and Nicoll                                         that materially unrealistic assumptions are needed, in conjunc-
+                          (1986) and an earlier study by Segal, Loncaric, and Segal (1980)                                    tion with an a posteriori argument, to attain even a marginally
+                          on just this basis. Whereas the latter studies make a rigorous,                                     significant level of deviation.
+                          reproducible analysis on an a priori well-defined and system-                                           Following this is a brief study of optical quasar counts that
+                          atic basis, the Wright discussion is a posteriori, misrepresents                                    ignores the reported redshifts and follows the same statistically
+                          our work, and faults it for an alleged inadequate distinction                                       unsound procedure as in the case of radio sources. When the
+                          between “ true quasars ” and “ true galaxies,” of quite uncertain                                   major sample involved, that of Schmidt and Green (1983), is
+                          physical reality.                                                                                   tested for spatial homogeneity within the chronométrie frame-
+                              But the main observational problem with Wright’s work is                                        work, by exhaustive analyses making full use of the observed
+                          its gross exaggeration of the statistical definitiveness of the rise                                redshifts (Segal and Nicoll 1986), complete consistency has
+                          in the radio source log iV-log S slope above the Euclidean                                          been found.
+                          value, and its failure to recognize the extreme complexity of                                           Finally there is a lengthy “ Discussion,” which essentially is
+                          radio source count interpretation. Kellermann (1972, 1980)                                          an expression of the suspicion that the empirically consistent
+                          and Jauncey (1975) have emphasized the slightness of the rise                                       quasar number counts reported by Segal, Loncaric, and Segal
+                          above the Euclidean level, the marginal character of its sta-                                       (1980) and by Segal and Nicoll (1986) arise from a failure to
+                          tistical significance, and the uncertainties and even inconsis-                                     separate “true quasars” from “true [N or Seyfert] galaxies.”
+                          tencies in radio source counts. More recent observations                                            In the absence of direct* model-independent evidence for the
+                          including fainter counts have underlined, if not enhanced, the                                      physical reality of such a distinction, this is to castigate the
+                          complexity and ambiguity of radio source count interpreta-                                          chronométrie theory for not granting a hypothesis needed to
+                          tion. Yet Wright cites only work indicating a steep rise in slope                                   reconcile the Friedmann model with observation. Despite their
+                          and adjusted in model-dependent ways, without qualification.                                        identity in spectrum (apart from possible subtle model-
+
+
+
+
+                                          © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1987ApJ. . .320. .1353
+                         136                                                             SEGAL                                                           Vol. 320
+
+                         dependent distinctions), the Friedmann luminosity of quasars         consequence of the convergence of the integral Jo /(v¥v rep-
+                         in much greater than that of N and Seyfert galaxies, rendering       resenting the total energy radiated by the source.
+                         their identification a major embarrassment. In the chrono-             Thus there are sources of arbitrarily small observed flux.
+                         métrie theory the difference in luminosity does not exceed the       Since the volume of space is finite, N(S) remains finite as S
+                         random fluctuation level, and there is no objective basis for        approaches 0, while S3/2 tends to 0, so that altogether S3/2N(S)
+                         classifying bright active galactic nuclei (AGNs) as distinct from    approaches 0. In consequence, S11-5Ar(S,1)/S23/2A(S,2)
+                         quasars. Since operationally, objects designated as AGNs have        approaches oo as S2 approaches 0, rather than being bounded
+                         been observed largely at low redshifts, typically below 0.3 and      by 3n/2.
+                         especially below 0.1, their inclusion or exclusion in number
+                         counts can have a considerable effect on the appearance of                                III. STATISTICAL ANALYSIS
+                         spatial homogeneity. Such an effect was indeed indicated early          The description of the statistical procedures in (W) is not
+                         on by the differences in redshift distribution of 3C and 4C          sufficiently detailed for the statistical analysis to be fully repro-
+                         quasars and optical quasars (Segal 1976). Nevertheless, surveys      ducible or checked. However, on the basis of the information
+                         in the past, and some at this time, attempt to implement a           provided, it is clear that unrealistic assumptions are made that
+                         distinction between AGNs and quasars. A realistic statistical        in principle must prejudice the results of the test, and that in
+                         analysis must take account of this, and observers consulted in       addition a posteriori reasoning is used to represent the thereby
+                         connection with the 1980 analysis were satisfied with and could      derived deviations as statistically significant.
+                         propose no better way than the deletion of the small region             Thus it is assumed that all the sources have the same, fixed
+                         below redshift 0.1. The 1986 analysis used a sample defined by       spectral index, to the values of which the results are quite
+                         criteria that sought to define the same physical objects inde-       sensitive, as indicated in (W). In actuality, sources vary con-
+                         pendently of their redshifts, although it identified the objects     siderably in spectral index. Moreover, many spectra are
+                         that appeared as Seyfert type from the earlier point of view.        curved. In the almost complete absence of redshift information
+                         This was a large sample and we reported both on the full             for the counts analyzed, it is impossible to make precise infer-
+                         sample, and the presumptively more homogeneous (fewer                ence of the emitted spectrum from that observed.
+                         Seyfert-type objects) sample above redshift 0.1, particularly rel-      Since despite these unrealistic assumptions and others that
+                         evant in connection with the question of quasar evolution.           appear questionable (e.g., rigorous completeness), the radio
+                         Further observational work at higher resolution on the sample        souce count analysis in (W) is described as “ marginally accept-
+                         of Schmidt and Green (1983) involved in this study has con-          able for 0.1 < a < 0.4,” a fair summary would appear to be:
+                         firmed the very close relation, possibly inclusionary, between       “ no significant discrepancy.” Nevertheless, entirely a posteriori
+                         Seyfert-type galaxies and quasars. Indeed, this close relation       (W) reduces by fiat the number of degrees of freedom, spe-
+                         was an early prediction of the chronométrie theory (Segal            ciously rationalizing a claim for an effective 3 a deviation. The
+                         1976), and the near physical identity of Seyferts and quasars        statistical treatment is otherwise biased and subjective. For
+                         has the corollary that the low-redshift space distribution of        example, the results of a fit using luminosity evolution fitted to
+                         quasars would appear inhomogeneous if objects defined as             the data are claimed to be “somewhat better than the best
+                         Seyferts by conventional operational procedures are excluded.        chronométrie model,” a clearly unfair comparison in the
+                         Thus the critique of our quasar count analysis is inequitable        absence of any adjustable parameters in chronométrie theory
+                         and devoid of objective cogency.                                     comparable to those describing luminosity evolution.
+                            I regret the lack of an opportunity to comment on the manu-
+                                                                                                                  IV. OBSERVATIONAL DATA
+                         script of Wright (1987) when submitted for publication.
+                                                                                                 Radio surveys and source counts have had detailed reviews
+                                              II. MATHEMATICAL THEORY                         by Jauncey (1975) and Kellermann (1980). These have if any-
+                            In the first section of (W), as the manuscript by Wright will     thing enhanced the qualifications regarding the steepness of
+                         henceforth be cited, it is claimed that the ratio E(SU S2) =         the source counts expressed by Kellermann (1972). The counts
+                         (Si /iS'2)1,5 N(S1)/N(S2) cannot exceed 3ti/2 in the chronométrie    are inherently more complex than observations on individual
+                         cosmology, for theoretical reasons. This derives in part from        discrete sources. They are often of doubtful completeness, even
+                         the claim that “a source can appear bright either by being           at considerably brighter limits than the nominal ones. Appar-
+                         close to the observer or close to the antipode where 9 = n and       ent inconsistencies between different surveys are not uncom-
+                         z = oo.” The theoretical argument is brief and unconvincing.         mon. A referee comments: “The slope excess near 1 Jy is small,
+                         Indeed a straightforward analysis shows that both statements         but there is no doubt of its significance” (our italics); the con-
+                         are wrong.                                                           sistency of such an excess with the chronométrie cosmology
+                            Consider an arbitrary source of spectrum /(v). The observed       was shown already by Segal (1976; cf. especially p. 103, Fig. 4).
+                         flux Fohs in the frequency band v1 < v < v2 takes the form              The surveys cited by (W) are typical in making a number of
+                         (Segal [1976] p. 94)                                                 adjustments to the raw data that are model-dependent, as
+                                                                  V2(l +z)                    appears necessary to limit confusion, enhance resolution, etc. A
+                                       Fobs = (sin p) 2(1 + z) 1                              general account of some of the complex problems and pro-
+                                                                 Vl(l +z)                     cedures that may be involved is given by Windhorst, van
+                         where p is the distance in radians on the sphere S3 that rep-        Heerde, and Katgert (1984). Such adjustments diminish sta-
+                         resents chronométrie space. Using the redshift-distance rela-        tistical control, and in some cases a Friedmann cosmology is
+                         tion z = tan2 (p/2) to express the factor (1 + z)-1 in terms of p,   used to resolve uncertain issues. It is obviously inappropriate
+                         and simplifying the product with (sin p)-2, the entire factor to     to use such data to test the chronométrie cosmology. In any
+                         the left of the integral becomes (2 sin p/2)"2. As z approaches      event, tests of spatial homogeneity are extremely sensitive to
+                         oo, p approaches n, and this factor approaches The integral          completeness, and somewhat sensitive to the shape of the spec-
+                         itself tends to 0 independently of the form of the spectrum, as a    trum of the objects surveyed. Even under the best of circum-
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1987ApJ. . .320. .1353
+                          No. 1, 1987                         CORRECTIONS OF A STUDY OF SOURCE COUNTS                                                            137
+                           stances there is no reason to expect that radio source counts        AGNs and quasars developed. These observational studies (of
+                           will provide as efficient a basis for cosmological testing as        Wyckhoff, Wehninger, and Gehren 1981; Boroson, Oke, and
+                           complete samples of discrete sources. Statistical analysis can be    Green 1982; and Gehren et al 1984) confirmed an earlier pre-
+                           no better than the data on which it is based, and the source         diction of the chronométrie cosmology (Segal 1976). In any
+                           counts used in (W) are not demonstrably at the definitive level      event, the 1980 study is superseded in statistical technique and
+                           that is required for the invalidation of a cosmology that has        weight by Segal and Nicoll (1983), which (W) appears to inti-
+                           provided highly satisfactory fits to the observations on com-        mate also restricts consideration to the region above z = 0.1,
+                           plete samples of galaxies (Segal 1986a, and references given         but in fact reports in detail on the full sample of Schmidt and
+                           there) and quasars (Segal and Nicoll 1986).                          Green (1983) as well as the subsample above z = 0.1. Recent
+                              A further relevant point is the emphasis on the slope of the      samples of Seyfert galaxies due to Cheng et al (1985), and
+                           log AT-log S relation in (W). This slope depends on the deriv-       Wilson (1984), Meurs and others agree in imparting to Seyfert I
+                           ative of the spectrum of the source, and not only on the spec-       galaxies approximately the same optical luminosity as fairly
+                           trum itself, as do the observations on discrete sources. For this    bright quasars, within the chronométrie frame. Thus for a
+                           reason it is inherently less stable and suitable as a summary        variety of reasons, chronométrie and otherwise, it appears
+                           statistic than those like the dispersion of residuals in the flux-   appropriate to include at least some part of the class of AGNs
+                          redshift relation, that involve the spectrum directly, without        in the category of quasars, even if nonstellar in appearance.
+                          differentiation. A far more stable and suitable statistic would       This is especially the case in tests of the chronométrie theory
+                          be, e.g., the Kolmogorov-Smirnov statistic £>, representing the       and fully justifies the quite limited precautions taken in our
+                          deviation between the normalized observed and predicted N(S)          work to avoid possible bias.
+                          relations. However, this N(S) relation involves both the lumin-
+                          osity function of the sources and their space distribution. If                                     v. DISCUSSION
+                          these are statistically acceptable, the N(S) relation can auto-            Many authors have stressed the utility of optical identifica-
+                          matically be presumed to be such, although statistical fluctua-         tions of radio sources, and Spinrad et al (1985) have reported
+                          tions may cause it to appear more deviant occasionally.                 on redshifts for most of the 3C sample. It should soon be
+                          However, the N(S) relation may appear statistically acceptable          possible to treat this relatively bright sample on a basis similar
+                          without either the flux-redshift relation or the space distribu-        to complete samples at optical and other frequencies. This
+                          tion being such, due to cancellations. For this reason it appears      should be vastly more informative regarding cosmological
+                          most satisfactory to resolve the issues into two logically inde-       issues than the number counts without redshifts.
+                          pendent ones, which are in part statistically independent.                 In particular, the chronométrie theory implies that the
+                          These are namely the conditional distribution of flux at given         apparent luminosity evolution in the frame of a Friedmann
+                          redshifts, which can test for luminosity evolution; and the            cosmology will be the same at all frequencies, after due allow-
+                          K/Fm or N(z) relations, which can test for spatial homogeneity.        ance for the flux cutoff bias—namely the ratio of the chrono-
+                          The V/Vm relation does not involve estimation of the lumin-            métrie and nonevolutionary Friedmann flux-redshift relations.
+                          osity function, and so its use separates the luminosity evolution      This has already been found to be the case for complete
+                          from the density evolution issue. Consequently we have sys-            samples of quasars at optical frequencies and of AGNs at
+                         tematically analyzed observations on this basis and in particu-         X-ray frequencies (Segal 1986h). Disregarding one quasar
+                         lar found that the sample of Schmidt and Green is consistent            lacking its redshift, the data given by Spinrad et al for 3C
+                         with the chronométrie cosmology, without either luminosity or           quasars have a dispersion in the radio flux-redshift relation
+                         density evolution. This automatically implies acceptability of          from the chronométrie prediction equivalent to 0.65 mag on a
+                         the prediction for the N(S) relation, just as acceptability of a        Pogson scale.
+                         bivariate distribution implies that of the marginal totals. In             This is small enough to be of the same order of magnitude as
+                         particular it would be a mere fluke if on some occasion the             the optical fits and suggests that apparent radio frequency
+                         flux-redshift and V/Vm relations fitted acceptably but the N(S)        luminosity evolution in the frame of Friedmann cosmology is
+                         relation did not.                                                      indeed similar to that at other frequencies. This is confirmed by
+                             The sensitivity of the log AT-log S relation to the derivative     the analysis of Condon (1984), who derives from radio source
+                         of the spectrum leads to a sensitivity to spectral index, which is     counts an estimate of luminosity evolution that is of similar
+                         observed only over a redshift-dependent range. Since the spec-         form to and intermediate between those earlier estimated for
+                         trum may show curvature (and ultimately must, for spectral             optical quasars (Marshall et al 1984) and for X-ray AGNs
+                         indices below 1), this may be a source of a significant amount         (Maccacaro Gioia, and Stocke 1984), and so similar to the
+                         of noise affecting estimates of the slope. The considerable his-       foregoing prediction. The chronométrie prediction also serves
+                         torical interest in this relation does not justify its use for         to explain the observation by Condon (1984) that the evolu-
+                         cosmological testing, as in (W), in view of its relative instability   tionary parameters that are determined by the E + SO popu-
+                         and uncertainty of interpretation.                                     lation appear fortuitously to apply to spiral galaxies as well.
+                             Quasar counts do not suffer from many of the problems of               These results indicate quite satisfactory agreement at a
+                         the radio source counts, but the analysis of them in (W) suffers       phenomenological level between the observed and chrono-
+                         from the errors noted in §§ II and III. Otherwise (W) includes a       metrically predicted conditional distribution of flux for given
+                         largely qualitative discussion focused on the deletion of the          redshift, at radio frequencies. The missing redshifts and
+                         region below z = 0.1, which has done in Segal, Loncaric, and           unidentified sources make a test of spatial homogeneity with a
+                         Segal (1980) in order to avoid the problem of the distinction          given cosmology more difficult. However, on the reasonable
+                         between quasars and Seyfert-type galaxies. This distinction            assumption that the incompleteness in these features is largely
+                         may well have a significant effect on the statistics of the low-       at higher redshifts, the log AT-log z relation at low redshifts
+                         redshift region that had been observed in earlier years before         provides a directly observed and quite discriminatory relation
+                         strong observational evidence of the near identity of bright           that should be minimally affected by the flux cutoff. One would
+
+
+
+
+                                    © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1987ApJ. . .320. .1353
+                         138                                                                          SEGAL
+
+                         expect a linear log AT-log z relation at the lowest redshifts, with                      Thus the chronométrie theory shows the potential to illumi-
+                         a break followed by a decrease in the slope as the flux cutoff                        nate radio observations when systematic, complete samples
+                         impacts. The chronométrie prediction here is that a line of the                       with optical identifications and redshifts become available.
+                         form log N = (3/2) log z + constant will fit satisfactorily in                        Early on it provided a nonevolutionary explanation for the rise
+                         some range z < z0 and flatten above z0. Indeed, a break is seen                       above the Euclidean level in the slope of the log AT-log S
+                         at z ~ 0.75, followed by flattening; but for all redshifts up to                      relation. (Contrary to the description in [W] of this analysis as
+                         this value, the dispersion of the residuals in the chronométrie                       “ qualitative,” it was analytically, graphically, and numerically
+                         relation is less than 0.10; i.e., N is predicted correctly within                     explicit; cf. Segal [1976] pp. 100-103.) On the whole it does
+                          ~ 10%. For comparison purposes, the line log N = 3 log                               better than should be expected with the complex and presump-
+                         z + constant predicted for sufficiently low redshifts by a Fried-                     tively noisy radio data. But it is not yet suitable for cosmo-
+                         mann cosmology appears to bear no significant relation to the                         logical testing (with the possible exception of the 3C sample)
+                         observed values. Indeed, its residuals have a dispersion more                         and will probably never be as efficient for this purpose as
+                         than 5 times that from the chronométrie line, in the range up to                      observations at frequencies that appear more representative of
+                         every redshift below 0.75. A linear eye fit to the relation up to                     the underlying power source.
+                         this redshift has slope ^ 1.25.
+
+                                                                                                      REFERENCES
+                         Boroson, T. A., Oke, J. B., and Green, R. F. 1982, Ap. J., 263,76.                  Meurs, E. J. A., and Wilson, A. S. 1984, Astr. Ap., 136,206.
+                         Cheng, F.-Z., Danese, L., DeZottie, G., and Franceschini, A. 1985, M.N.R.A.S.,      Schmidt, M., and Green, R. F. 1983, Ap. J., 269,352.
+                           212, 857.                                                                         Segal, I. E. 1976, Mathematical Cosmology and Extragalactic Astronomy (New
+                         Condon, J. J. 1984, Ap. J., 287,461.                                                  York : Academic)
+                         Gehren, T., Fried, J., Wehninger, P. A., and Wyckoff, S. 1985, Ap. J., 298,11.              . 1986u, Proc. Nat. Acad. Sei., 83, 7129.
+                         Jauncey, D. 1975, Ann. Rev. Astr. Ap., 13,23.                                       —       . 1986h, Pub. Astr. Soc. Japan, 38,611.
+                         Kellermann, K. 1.1972, A.J., 77, 531                                                Segal, I. E., Loncaric, J., and Segal, W. 1980, Ap. J., 239,38.
+                                . Phys. Scripta, 21,664.                                                     Segal, I. E., and Nicoll, J. F. 1986, Ap. J., 300,224.
+                         Kellermann, K. I., and Wall, J. V. 1987, in IAU Symposium 124, Observational        Spinrad, H., Djorgovski, S., Marr, J., and Aguilar, L. 1985, Pub. A.S.P., 97,932.
+                           Cosmology (Dordrecht : Reidel), in press.                                         Windhorst, R. A., van Heerde, G. M., and Katgert, P. 1984, Astr. Ap. Suppl., 58,
+                         Maccacaro, T., Gioia, I. M., and Stocke, J. T. 1984, Ap. J., 283,486.                 1.
+                         Marshall, H. L., Avni, Y., Braccesi, A., Huchra, J. P., Tananbaum, H., Zamo-        Wright, E. L. 1987, Ap. J., 313,551(W).
+                           rani, G., and Zitelli, V. 1984, Ap. J., 283, 50.                                  Wyckoff, S., Wehninger, P. A., and Gehren, T. 1981, Ap. J., 247,750.
+
+
+                         I. E. Segal: M. I. T., Room 2-244, Cambridge, MA 02139
+
+
+
+
+                                      © American Astronomical Society                                Provided by the NASA Astrophysics Data System
+

@@ -1,0 +1,382 @@
+                                                                                    Deconstruction of Unparticles
+                                                                                                 M. A. Stephanov
+                                                                Department of Physics, University of Illinois, Chicago, Illinois 60607-7059,USA
+                                                                                             (Dated: May 2007)
+                                                          We discuss properties of hypothetical scale invariant (unparticle) matter by viewing it as a tower
+                                                       of massive particles. We show how peculiar properties of unparticles emerge in the limit when the
+                                                       mass spacing parameter ∆ vanishes. We explain why unparticle cannot decay in this limit and how,
+                                                       for finite ∆, the decays manifest themselves in a relation between the reconstructed invariant mass
+                                                       and vertex displacement. We describe a model field theory in AdS5 which explicitly implements the
+                                                       deconstruction procedure by truncating the extra dimension to size of order 1/∆.
+
+
+
+
+arXiv:0705.3049v1 [hep-ph] 22 May 2007
+                                                       PACS numbers:
+
+
+                                                           I.   INTRODUCTION                                 unparticle into particle physics language. In Section VI
+                                                                                                             we shall take more constructive approach and describe
+                                            In a recent paper [1] Georgi suggests to consider a              a model of a field theory in which the unparticle in-
+                                         hypothetical scale invariant, or conformal, matter very             deed arises as a limiting procedure. Not surprisingly, the
+                                         weakly coupled to the Standard Model matter as a pos-               model requires an additional space dimension, and the
+                                         sible component of physics above TeV scale which might              tower of deconstructing particles appears naturally as a
+                                         begin to show up at the LHC. Vast amount of knowledge               Kaluza-Klein tower, once the extra dimension is com-
+                                         exists about the properties of conformal field theories,            pactified/truncated. In order to produce an unparticle
+                                         and its applications to condensed matter problems, such             with non-integer scaling dimension we use AdS5 geome-
+                                         as critical phenomena, abound. However, there is little             try and describe unparticle using a massive scalar field.
+                                         understanding of how such a conformal sector, if it ex-
+                                         ists, would manifest itself in particle physics experiments.
+                                                                                                                        II.   SETUP AND NOTATIONS
+                                         Georgi terms such matter “unparticle”, for its properties
+                                         and signatures are qualitatively different from those of
+                                         particles. Several curious properties of unparticles have              Following Ref.[1], let us imagine that there exists a
+                                         been exposed in Ref. [1, 2], including the unusual scaling          scale invariant sector of our world described, e.g., by
+                                         of the apparent phase space volume, the unusual missing             some strongly selfcoupled conformal theory. Scale in-
+                                         energy spectra, unusual interference patterns, etc. Sev-            variance means that there are no (massive) particles in
+                                         eral recent papers have been addressing novel signatures            this sector. Since such unparticle sector is not seen in
+                                         of unparticles [3–9].                                               present experiments, we must further assume that the
+                                                                                                             coupling of this conformal sector to the Standard Model
+                                            The purpose of this paper is to clarify the notion of the
+                                                                                                             particles/fields is very weak – somewhat in the spirit of
+                                         unparticle using the language familiar to a particle physi-
+                                                                                                             the “hidden-valley” models [10]. This interaction can be
+                                         cist. To that end we deconstruct the unparticle and view
+                                                                                                             described in an effective field theory language as a (non-
+                                         it as an infinite tower of particles of different masses.1
+                                                                                                             renormalizable) coupling between some Standard Model
+                                         We show how the peculiar properties of unparticles ex-
+                                                                                                             operator and the unparticle operator O of scaling dimen-
+                                         posed in Refs. [1, 2] can be interpreted and understood
+                                                                                                             sion dU . Since the unparticle sector is selfinteracting, the
+                                         in that language.
+                                                                                                             dimension of O can be nontrival (noninteger).
+                                            We shall think of the unparticle as a limiting case in              The correlation function of the operator is given by
+                                         which the spacing ∆2 of the (squared) masses in the tower                        Z
+                                         of particles goes to zero. Using this limiting procedure we                         d4 xeiP x h0|T O(x)O† (0)|0i
+                                         explain an apparent paradox mentioned in Ref. [2], that
+                                         unparticle need not decay despite the presence of finite                                                                      (1)
+                                                                                                                                 dM 2                 i
+                                                                                                                             Z
+                                         imaginary part in its two-point correlator. As a corollary                       =            ρO (M 2 ) 2
+                                                                                                                                  2π            P − M 2 + iε
+                                         we find that if ∆ is small but finite, the unparticle can
+                                         decay, and we describe peculiar signatures of such decays.          By scale invariance the spectral function of the opera-
+                                            In the beginning we shall view deconstruction as a               tor O must be a power of M 2 :
+                                         purely mathematical device translating the properties of                             ρO (M 2 ) = AdU (M 2 )dU −2 ,           (2)
+                                                                                                             where AdU is a normalization constant chosen by conven-
+                                                                                                             tion in Ref.[1]. Its precise form/value is not consequential
+                                         1 We rely on a more generic meaning of the term “deconstruc-
+                                                                                                             for the discussion below. On the other hand
+                                           tion”, and wish to emphasize the difference from so far more                             X
+                                           common specific use of this term to describe deconstruction of           ρO (M 2 ) = 2π      δ(M 2 − Mλ2 )|h0|O(0)|λi|2 . (3)
+                                           5-dimensional theories by discretization of the 5-th dimension.                          λ
+                                                                                                                                    2
+
+The sum in Eq. (3) is over all relativistically normalized              According to (7), on the mass shell of the n’s particle
+states |λi (at fixed spatial momentum – i.e., no d3 pλ in-              this field will be canonically normalized. Thus, the inter-
+tegration). The unparticle spectral function means that                 action Eq. (10) becomes after deconstruction
+the spectrum of the operator O is continuous, i.e., the
+sum in Eq. (3) is in fact an integral. Let us imagine that                             λ                     X
+                                                                                  i        ūγ µ (1 − γ 5 )t   Fn ∂ µ λn + h.c.   (12)
+the scale invariance is broken in the system in a control-                            ΛdUU                   n
+lable way, so that, instead of a continuous spectrum of
+states λ, there is a discrete tower of states with the spac-            Now it is easy to study the production of the unparticle
+ing controlled by parameter ∆. To simplify discussion,                  using the standard notions of the particle physics. The
+we shall pick a particular spectrum                                     kinematics is that of a two body decay of a t quark.
+                                                                        That is, for each n the energy of the u quark is fixed to
+                              Mn2 = ∆2 n.                         (4)   Eu = (m2t −Mn2 )/(2mt ). The spectrum of Eu consists of a
+                                                                        peak for each value of n, which in the limit ∆ → ∞ merge
+It is straightforward to adjust all subsequent discussion               into the continuum distribution displayed in Ref. [1]. The
+to any other spectrum, e.g., Mn2 = ∆2 n2 , etc. We shall                decay rate for each n is
+assume that ∆ is much smaller than other scales perti-
+nent to the problem. Let us introduce notation for the                                                     |λ|2 mt Eu2 2
+matrix element for the nth particle:                                                  Γ(t → u + λn ) =                Fn .        (13)
+                                                                                                           Λ2d
+                                                                                                            U
+                                                                                                               U 2π
+                        Fn2 ≡ |h0|O(0)|λn i|2                     (5)   The interval dEu corresponds to the interval of masses
+                                                                        dM 2 = 2mt dE which contains 2mt dE/∆2 states λn .
+We can then write:
+                                                                        Thus we obtain
+                                 X
+            ρO (M 2 ) = 2π            δ(M 2 − Mn2 )Fn2 .          (6)         dΓ    2mt
+                                  n                                               = 2 Γ(t → u + λn )
+                                                                             dEu    ∆
+                                                                                                                                  (14)
+                                                                                2mt |λ|2 mt Eu2 AdU 2
+                                                                                                               
+and                                                                                                     2 dU −2
+                                                                             = 2 2dU                ∆ (Mn )       ,
+                                                                                 ∆ ΛU     2π     2π
+                                                     iFn2
+  Z                                       X
+      d4 xeiP x h0|T O(x)O† (0)|0i =                              (7)
+                                            n
+                                                P 2 − Mn2 + iε          with Mn2 = m2t − 2mt Eu , in agreement with Ref. [1]. We
+                                                                        see that each of the deconstructing particles λn couples
+In the limit ∆ → 0 the sum over n in Eq. (6) becomes an                 weaker and weaker as ∆ → 0 but their number in a fixed
+integral, which must match Eq. (2). From this condition                 interval of energies dEu is increasing inversely propor-
+we easily determine that Fn must be given by                            tionally to their coupling leading to finite dΓ/dEu in the
+                                                                        scaling limit ∆ → 0.
+                              AdU 2
+                    Fn2 =        ∆ (Mn2 )dU −2                    (8)
+                              2π
+The constants Fn are similar to the decay constants of                                    IV.    INTERFERENCE
+mesons in QCD. More generally:
+                                                                           Another example considered in Ref. [2] is the coupling
+                                     AdU 2γ                             of a vector unparticle operator Oµ to a neutral vector or
+ Mn2 = ∆2 n1/γ            ⇒    Fn2 =     ∆ (Mn2 )dU −2−(γ−1)
+                                     2πγ                                axial lepton current, e.g., (ℓ = e or µ)
+                                                           (9)
+                                                                                            cAU MZ1−dU ℓ̄γ µ γ5 ℓ Oµ ,            (15)
+
+                     III.     PRODUCTION                                where, following notations in Ref. [2] we expressed the
+                                                                        dimensionful coupling in units of the Z-boson mass MZ .
+  Consider example from Ref. [1] of production of such                  These couplings produce contributions to, e.g., e+ e− →
+an unparticle. Imagine the coupling of the unparticle                   µ+ µ− amplitudes due to virtual unparticle which inter-
+given by                                                                feres with the Standard Model γ and Z boson amplitudes.
+                                                                        In the case of the vector operator Oµ , which we assume to
+                    λ                                                   be conserved ∂µ Oµ = 0, the Eqs. (1), (2), etc. generalize
+               i          ūγµ (1 − γ5 )t ∂ µ O + h.c.           (10)   as
+                   ΛdUU
+                                                                                      Z
+where λ is a dimensionless coupling and ΛU is the Banks-                   Π (q) ≡ d4 xeiqx h0|T Oµ (x)Oν (0)|0i
+                                                                             µν
+
+Zaks scale in the unparticle theory. Using representa-
+                                                                                                     dM 2               i
+                                                                                                  Z
+tion (7) we can define the deconstructing particle field                           µν    µ ν
+                                                                            = (−g + q q /q )   2
+                                                                                                          ρO (M 2 ) 2
+                                                                                                      2π           q − M 2 + iε
+                          λn (x) ≡ O(x)/Fn .                     (11)                                                         (16)
+                                                                                                                             3
+
+where again by scale invariance ρO is given by Eq. (2).                Away from the Z pole, where ∆Z is real, the interfer-
+Evaluating the integral over M 2 one finds                          ence term is proportional to Re ∆U . This is given by the
+                                                                    sum in (22) where particles with masses Mn2 < q 2 con-
+                                 iAdU                               tribute with the opposite sign from those with Mn2 > q 2 .
+ Πµν (q) = (−g µν + q µ q ν /q 2 )        (−q 2 − iε)dU −2 .
+                              2 sin(πdU )                           The case dU = 3/2 is special, as pointed out in Ref.[2]:
+                                                        (17)        Re ∆U ∼ cot(πdU ) vanishes. This has a simple meaning
+Deconstructing the unparticle operator Oµ proceeds sim-             – at this value of dU particles with Mn2 above q 2 exactly
+ilarly to the scalar operator. We introduce decay con-              cancel contribution of particles below q 2 (for any q 2 ).
+stants Fn via                                                       This is most clear from the integral representation:
+                                                                                            Z ∞
+                    h0|Oµ (0)|λn i = ǫµ Fn ,                 (18)                                    (M 2 )dU −2
+                                                                                   Re ∆U = − dM 2 2                       (25)
+                                                                                             0        q − M2
+where ǫµ is the polarization of the massive vector parti-
+cle λn . Then the correlation function is given by                  That this (principal value) integral vanishes at dU = 3/2
+                                                                    can be seen by doing the change of variables M → q 2 /M
+                                        X         iFn2              (mass inversion) which maps the regions above and below
+   Πµν (q) = (−g µν + q µ q ν /q 2 )                         (19)
+                                              q − Mn2 + iε
+                                               2                    q 2 onto each other.
+                                          n
+
+If we assume the same mass spectrum as in Eq. (4), the
+constants Fn are again given by Eq. (8).                                                 V.   DECAY?
+   The contribution to the e+ e− → µ+ µ− amplitude from
+the unparticle is proportional to the correlation function             We observe (8) that each deconstructing particle λn
+(16) and following Ref. [2] we define:                              couples with strength proportional to Fn2 ∼ ∆2 which
+                                                                    vanishes as ∆ → 0. Thus, in a certain sense, a
+                         AdU                                        true (∆ = 0) unparticle, once produced, never decays.
+             ∆U =                (−q 2 − iε)dU −2 .          (20)
+                     2 sin(πdU )                                    This limiting procedure explains the apparent paradox
+                                                                    pointed out in Ref. [2]: the finite imaginary part (24)
+This amplitude interferes with the amplitude due to the             of the “propagator” of unparticle does not mean it has
+virtual Z proportional to                                           finite lifetime.
+                                   1                                   What if the unparticle sector is almost conformal with
+                 ∆Z =                       .                (21)   a very small but nonzero ∆? The lifetime of a decon-
+                         q 2 − MZ2 + iMZ ΓZ
+                                                                    structing particle λn is proportional to Fn−2 ∼ ∆−2 , and
+This Standard Model amplitude is mostly real away                   let us assume that it is in the range that one can observe
+from the Z-pole and is mostly imaginary near the pole.              the displaced vertex of λn decay into ordinary Standard
+The unusual property of the unparticle amplitude (20)               Model particles. What would the signatures of such de-
+pointed out in Ref.[2] is that it has nonzero imaginary             cays be? For simplicity, let us assume here no interference
+part for all q 2 > 0. This allows the amplitudes ∆U and             with Standard Model amplitudes.
+∆Z to interfere even at the Z pole, where the latter is                First of all, the invariant mass spectrum of the decay
+imaginary.                                                          products (e.g., lepton pairs) will not peak but will be
+   This property follows naturally from the deconstructed           a monotonous distribution (we assume that ∆ is much
+picture in which                                                    less than the experimental resolution). Furthermore, the
+                                                                    lifetime would be proportional to Fn−2 , which depends
+                          X              Fn2                        on Mn according to Eq. (8) or (9). There are of course
+                  ∆U =                            .          (22)
+                                   q 2 − Mn2 + iε                   trivial kinematic and coupling factors, which might add
+                           n
+                                                                    an integer power of Mn . One would therefore observe sec-
+   The imaginary part of the amplitude ∆U as a function             ondary vertices whose average displacement is correlated
+of q 2 consists of a series of δ-function peaks at q 2 = Mn2 :      with the invariant mass of the products of decay.
+                            X                                          For example, the contribution of the interaction (15)
+              Im ∆U = −         Fn2 πδ(q 2 − Mn2 ).      (23)       to the decay rate of λn is (taking Fn from Eq. (8))
+                               n
+                                                                                         c2AU MZ2−2dU 2
+                                                                      Γ(λn → µ+ µ− ) =                 Fn Mn
+Each peak becomes lower as Fn2                   2
+                                 ∼ ∆ → 0, but their                                           8π                        (26)
+density increases. Converting the sum over n into the                                    c2AU MZ2−2dU AdU 2 2dU −3
+integral over Mn2 we find that                                                        =                   ∆ Mn       .
+                                                                                               16π 2
+                         Fn2      Ad                                Thus, the lifetime τd measured through the mean dis-
+           Im ∆U → −       2
+                             π = − U (Mn2 )dU −2             (24)   placement of a vertex (τd = ℓd /(γv)), if observed, will
+                         ∆         2
+                                                                    scale with the reconstructed invariant mass as
+in agreement with (20). The factor sin(πdU ) which can-
+cels in (20) never appears in the first place in (24).                                τd = 1/Γ ∼ M 3−2dU .                (27)
+                                                                                                                                    4
+
+   VI.   MODELING AND DECONSTRUCTING                            correlation function of the field Φ which appears in
+           UNPARTICLE USING AdS5
+                                                                  hO(x)O(0)i = lim
+                                                                                 ′
+                                                                                   z −dU (z ′ )−dU hΦ(x, z)Φ(0, z ′ )i (31)
+                                                                                    z,z →0
+   So far we have viewed deconstruction as an abstract
+mathematical trick to cast the interaction of unparticle        is the Green’s function of the linear differential opera-
+as a sum of the interactions of the particles λn . This         tor obtained by taking two variational derivatives of the
+construction can be made more explicit by considering           Lagrangian (28) w.r.t. Φ:
+a model of the unparticle based on a 5-dimensional field
+                                                                    ∂z z −3 ∂z + z −3 q 2 − z −5 m25 G(q; z, z ′ ) = δ(z − z ′ ), (32)
+                                                                                                   
+theory. The idea is simple: restricting the extent of the
+5th dimension to size of order 1/∆ will lead to the nec-
+                                                                where G(q; z, z ′ ) is the Fourier transform of
+essary discrete spectrum of deconstructing particles λn .
+                                                                hΦ(x, z)Φ(0, z ′ )i w.r.t.     x.      The behavior of the
+   For concreteness and simplicity let us focus on a scalar
+                                                                Green’s function at small z is easy to find by noticing
+unparticle as in Section III. The correlator (7) can be
+                                                                that the term q 2 is negligible for z ≪ q −1 , and that the
+obtained from a two-point Green’s function of a mas-
+                                                                equation (32) with q 2 neglected is solved (for z 6= z ′ )
+sive scalar field Φ(x, z), where x is a Minkowski coor-
+                                                                by a power ansatz G ∼ z σ , with σ(σ − 4) = m25 . Thus,
+dinate, while the 5th coordinate z can be thought of
+                                                                on the account of Eq. (30): G(q; z, z ′ ) ∼ z dU (z ′ )dU .2
+either as a continuous index, or as a 5th coordinate.
+                                                                Thus the correlator hO(x)O(0)i in Eq. (31) is finite in
+We shall take AdS metric for this 5-dimensional space:
+                                                                the limit z, z ′ → 0, and by dimension counting must be
+ds2 = (dxµ dxµ − dz 2 )/z 2 . The Lagrangian (density in
+                                                                proportional to x−2dU , which is what the dimension of
+Minkowski space) reads:
+                                                                the operator O(x) implies.
+                √                                                Consider now AdS space with finite extent in the z
+          Z
+     L = dz g g MN ∂M Φ∂N Φ − m25 Φ2 /2,
+                                             
+                                                       (28)     direction (AdS slice): z ∈ [0, zm ], with zm ∼ 1/∆. We
+                                                                can write the representation for the Green’s function in
+where, as usual, xM = (x1 , x2 , x3 , t, z) and g =             terms of the normalizable modes:
+det ||gMN ||, gtt = +1. Note that the mass parameter                                          X φn (z)φn (z ′ )
+m5 is dimensionless, and so is the field Φ. The operator                      G(q; z, z ′ ) =                    .     (33)
+O can then be defined in terms of the field Φ as follows:                                     n
+                                                                                                  q 2 − Mn2 + iε
+
+                 O(x) ≡ lim z −dU Φ(x, z).              (29)    The normal modes φn are normalized according to
+                         z→0
+                                                                                 Z
+In other words, the Standard-Model operators such as,                               dzz −3 φ2n = 1.             (34)
+e.g., ∂µ (ūγ µ (1 − γ5 )t) from Eq. (10) couple to the field
+Φ(x, z) only on the boundary z → 0.
+   The dimension of the operator dU determines the re-          They behave as φn ∼ z dU for small z, and the constants
+quired mass of the field (or is determined if the mass is       Fn can be identified, comparing (7), (31) and (33), as
+given) by the well-known formula:
+                                                                                       Fn = lim z −dU φn (z).                   (35)
+                                                                                             z→0
+                    m25 = dU (dU − 4).                  (30)
+                                                                This result is similar to the expression for the meson
+   The following analysis of this model bears obvious           decay constants in AdS/QCD in terms of the z → 0
+resemblance to the holographic technique described in           asymptotics of the normalizable modes [23, 24].
+[11, 12] and developed in many subsequent works. In                The distribution of masses Mn can be obtained given
+fact, our 5d model could be perceived as a dual descrip-        the specific boundary conditions at zm . Instead of rely-
+tion of some 4-dimensional conformal field theory in the        ing on the exact solution, let us note that only n ≫ 1
+sense of the AdS/CFT correspondence [13]. There is a            modes interest us here, since, by assumption, ∆ ≪ Mn .
+similarity with the extra-dimensional scenarios [14, 15],       The equation for normal modes (32) can be cast into
+but here we consider a scalar field in the bulk, rather than    Schrödinger form by substitution: φn = z −3/2 ψn , and
+gravity. Gauge fields have been also extensively studied        then solved in the WKB approximation. For z ≫ Mn−1 ,
+in AdS5 (see, e.g., [16–18] and refs. therein), as well as      including z = zm boundary, the large n modes are
+massless scalar field [19–22] in a similar setup, but dif-      ψn ∼ sin(Mn z − C1 ), where constant C1 depends on m5
+ferent contexts. Here we shall focus on the case of the         (i.e., on dU ), but not on n. Thus the mass spectrum is
+massive scalar field which will allow a nontrivial scaling      given by Mn ∼ (zm )−1 (πn + C2 ), where constant C2 is
+dimension dU . With the understanding that many ele-            related to C1 and depends also on the type of the bound-
+ments of the following analysis can be found in the above       ary condition at zm (e.g., C2 = C1 for Dirichlet boundary
+literature, we shall, nevertheless, carry the following dis-
+cussion in a self-contained manner.
+   To understand and derive the relationship (30) be-
+tween the rescaling factor in Eq. (29) and the mass pa-         2 Explicit solution,    which we do not need here, is G(q; z, z ′ ) =
+rameter given by (30), let us recall that the two-point           (π/2)(zz ′ )2 JdU −2 (qz)YdU −2 (qz)θ(z ′ − z) + (z ↔ z ′ ).
+                                                                                                                              5
+
+condition). Neglecting O(1/n) terms we find quite gener-          dence can be found, e.g., in [26, 27].
+ally Mn2 → ∆2 n2 for n ≫ 1, where ∆ = π/zm . To obtain
+                                                                     In summary, we have seen how the notion of unpar-
+the linear spectrum as in (4) one can modify the AdS
+                                                                  ticle can be somewhat demystified by representing it as
+background at large z, as it is done in Ref. [25], instead
+                                                                  an infinite tower of massive particles with controllable
+of cutting the space off at zm .
+                                                                  mass-squared spacing ∆2 . We used such a deconstruction
+   The arguments in this section assume that the dimen-
+                                                                  technique to rederive and clarify the peculiar properties
+sion of the operator satisfies 1 < dU < 2. Indeed, for
+                                                                  of unparticle pointed out in Refs. [1, 2] and to show that
+the normal modes to be normalizable in the sense of
+                                                                  pure (∆ = 0) unparticle cannot decay, while for small but
+Eq. (34) we must have dU > 1. More subtly, in order
+                                                                  nonzero ∆ the decay is possible, with peculiar signature.
+for the Green’s function in Eq. (32) to have the behavior
+                                                                  Finally, we described a possible field theory realization of
+z dU (z ′ )dU as z, z ′ → 0, the value dU must be the smallest
+                                                                  the deconstruction procedure using a slice of AdS5 space.
+of the two solutions of quadratic equation (30), which
+means dU < 2. The integer values dU = 1, 2 are of course            The author thanks Prof. W. Y. Keung for bringing
+special and, although interesting, will not be considered         Ref. [1] to his attention and for stimulating discussions.
+here. Discussion of the possible dimensions of a scalar           This research is supported by the DOE grant No. DE-
+field in a conformal theory and in AdS/CFT correspon-             FG0201ER41195.
+
+
+
+
+ [1] H. Georgi, “Unparticle physics,” arXiv:hep-ph/0703260.       [16] A. Pomarol, “Grand unified theories without the
+ [2] H. Georgi, “Another Odd Thing About Unparticle                    desert,” Phys. Rev. Lett. 85, 4004 (2000) [arXiv:hep-
+     Physics,” arXiv:0704.2457 [hep-ph].                               ph/0005293].
+ [3] K. Cheung, W. Y. Keung and T. C. Yuan, “Novel signals        [17] W. D. Goldberger and I. Z. Rothstein, “High energy
+     in unparticle physics,” arXiv:0704.2588 [hep-ph].                 field theory in truncated AdS backgrounds,” arXiv:hep-
+ [4] M. Luo and G. Zhu, “Some Phenomenologies of Unpar-                th/0204160.
+     ticle Physics,” arXiv:0704.3532 [hep-ph].                    [18] L. Randall, Y. Shadmi and N. Weiner, “Deconstruction
+ [5] C. H. Chen and C. Q. Geng, “Unparticle physics on CP              and gauge theories in AdS(5),” JHEP 0301, 055 (2003)
+     violation,” arXiv:0705.0689 [hep-ph].                             [arXiv:hep-th/0208120].
+ [6] G. J. Ding and M. L. Yan, “Unparticle Physics in DIS,”       [19] C. Csaki, H. Ooguri, Y. Oz and J. Terning, JHEP 9901,
+     arXiv:0705.0794 [hep-ph].                                         017 (1999) [arXiv:hep-th/9806021].
+ [7] Y. Liao, “Bounds on unparticles couplings to elec-           [20] J. Polchinski and M. J. Strassler, “Hard scattering and
+     trons: From electron g-2 to positronium decays,”                  gauge/string duality,” Phys. Rev. Lett. 88, 031601 (2002)
+     arXiv:0705.0837 [hep-ph].                                         [arXiv:hep-th/0109174].
+ [8] T. M. Aliev, A. S. Cornell and N. Gaur, “Lepton Flavour      [21] H. Boschi-Filho and N. R. d. Braga, “Gauge / string
+     Violation in Unparticle Physics,” arXiv:0705.1326 [hep-           duality and scalar glueball mass ratios,” JHEP 0305,
+     ph].                                                              009 (2003) [arXiv:hep-th/0212207].
+ [9] X. Q. Li and Z. T. Wei, “Unparticle Physics Effects on       [22] G. F. de Teramond and S. J. Brodsky, Phys. Rev. Lett.
+     D-anti-D Mixing,” arXiv:0705.1821 [hep-ph].                       94, 201601 (2005) [arXiv:hep-th/0501022].
+[10] M. J. Strassler and K. M. Zurek, arXiv:hep-ph/0604261.       [23] J. Erlich, E. Katz, D. T. Son and M. A. Stephanov,
+[11] S. S. Gubser, I. R. Klebanov and A. M. Polyakov, “Gauge           “QCD and a holographic model of hadrons,” Phys. Rev.
+     theory correlators from non-critical string theory,” Phys.        Lett. 95, 261602 (2005) [arXiv:hep-ph/0501128].
+     Lett. B 428, 105 (1998) [arXiv:hep-th/9802109].              [24] L. Da Rold and A. Pomarol, “Chiral symmetry breaking
+[12] E. Witten, “Anti-de Sitter space and holography,”                 from five dimensional spaces,” Nucl. Phys. B 721, 79
+     Adv. Theor. Math. Phys. 2, 253 (1998) [arXiv:hep-                 (2005) [arXiv:hep-ph/0501218].
+     th/9802150].                                                 [25] A. Karch, E. Katz, D. T. Son and M. A. Stephanov,
+[13] J. M. Maldacena, “The large N limit of superconfor-               “Linear confinement and AdS/QCD,” Phys. Rev. D 74,
+     mal field theories and supergravity,” Adv. Theor. Math.           015005 (2006) [arXiv:hep-ph/0602229].
+     Phys. 2, 231 (1998) [Int. J. Theor. Phys. 38, 1113 (1999)]   [26] I. R. Klebanov and E. Witten, “AdS/CFT correspon-
+     [arXiv:hep-th/9711200].                                           dence and symmetry breaking,” Nucl. Phys. B 556, 89
+[14] N. Arkani-Hamed, S. Dimopoulos and G. R. Dvali, “The              (1999) [arXiv:hep-th/9905104].
+     hierarchy problem and new dimensions at a millimeter,”       [27] V. Balasubramanian, P. Kraus and A. E. Lawrence,
+     Phys. Lett. B 429, 263 (1998) [arXiv:hep-ph/9803315].             “Bulk vs. boundary dynamics in anti-de Sitter space-
+[15] L. Randall and R. Sundrum, “A large mass hierarchy                time,” Phys. Rev. D 59, 046003 (1999) [arXiv:hep-
+     from a small extra dimension,” Phys. Rev. Lett. 83, 3370          th/9805171].
+     (1999) [arXiv:hep-ph/9905221].
+

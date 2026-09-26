@@ -1,0 +1,437 @@
+                                                          Time Dilation in the Light Curve of the Distant Type Ia Supernova SN 1995K
+
+
+                                                  B. Leibundgut1 , R. Schommer2 , M. Phillips2 , A. Riess3 , B. Schmidt4 , J. Spyromilio1 , J. Walsh1 , N. Suntzeff2 ,
+                                                  M. Hamuy2,5 , J. Maza6 , R. P. Kirshner3 , P. Challis3 , P. Garnavich3 , R. C. Smith7 , A. Dressler8 , R. Ciardullo9
+
+
+
+
+arXiv:astro-ph/9605134v1 22 May 1996
+                                                                                                             ABSTRACT
+                                                      The light curve of a distant Type Ia supernova acts like a clock that can be used to test the expansion of
+                                                  the Universe. SN 1995K, at a spectroscopic redshift of z = 0.479, provides one of the first meaningful data sets
+                                                  for this test. We find that all aspects of SN 1995K resemble local supernova Ia events when the light curve is
+                                                  dilated by (1+z), as prescribed by cosmological expansion. In a static, non-expanding universe SN 1995K would
+                                                  represent a unique object with a spectrum identifying it as a regular Type Ia supernova but a light curve shape
+                                                  and luminosity which do not follow the well-established relations for local events. We conclude that SN 1995K
+                                                  provides strong evidence for an interpretation of cosmological redshifts as due to universal expansion. Theories
+                                                  in which photons dissipate their energy during travel are excluded as are age-redshift dependencies.
+
+                                                  Subject headings: Cosmology: observations – galaxies: distances and redshifts – supernovae: general – super-
+                                                  novae: individual (SN 1995K)
+
+
+
+
+                                                                             Accepted for publication in the Astrophysical Journal Letters
+
+
+
+                                       1
+                                           European Southern Observatory, Karl-Schwarzschild-Strasse 2, D–85748 Garching, Germany
+                                       2 Cerro Tololo Inter-American Observatory, Casilla 603, La Silla, Chile
+
+                                       3 Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138, USA
+
+                                       4
+                                           Mt. Stromlo and Siding Springs Observatories, Australian National University, Private Bag, Weston Creek Post Office, ACT 2611, Australia
+                                       5
+                                           Current address: Steward Observatory, University of Arizona, Tucson, AZ 85721, USA
+                                       6
+                                           Departamento de Astronomía, Universidad de Chile, Casilla 36-D, Santiago, Chile
+                                       7
+                                           University of Michigan, Department of Astronomy, 834 Dennison, Ann Arbor, MI 48109-1090, USA
+                                       8
+                                           Carnegie Observatories, 813 Santa Barbara Street, Pasadena, CA 91101-1292, USA
+                                       9
+                                           Pennsylvania State University, Astronomy Department, 525 Davey Laboratory, University Park, PA 16802, USA
+
+
+
+                                                                                                                     1
+1.   Introduction                                              curve shape mask the effect of time dilation. The
+                                                               light curve of the distant SN 1988U was employed for
+   The nature of galaxy redshifts has usually been             a first test (z = 0.31; Nørgaard-Nielsen et al. 1989,
+interpreted as due to a general expansion of the uni-          Leibundgut 1991), but the observations do not cover
+verse. However widely accepted clear experimental              the maximum and no definite answer could be found.
+proof of this fundamental assumption of most cos-              Recently, the light curve data on other distant su-
+mological models has been lacking. The main ar-                pernovae have been used for a similar analysis (Gold-
+gument in favor of expansion is the observed nearly            haber et al. 1996). Here we describe the time dilation
+perfect blackbody energy distribution of the cosmic            test with observations of SN 1995K, a spectroscopi-
+background radiation (Mather et al. 1990, Peebles              cally confirmed SN Ia with a well-observed light curve.
+et al. 1991). The Tolman surface brightness test
+(Tolman 1930) fundamentally probes for expansion as            2.   The case of SN 1995K
+well, but implementation of this test has proven diffi-
+cult (Sandage & Perelmutter 1991, Pahre et al. 1996),              We have observed a distant supernova superposed
+as galaxy evolution has to be evaluated independently.         on the spiral arm of a galaxy at a redshift of 0.479
+The interpretation of redshifts as due to universal ex-        (Schmidt et al. 1995, 1996). The SN spectrum iden-
+pansion has been questioned (e.g. Arp 1987, Arp et             tifies the object as a genuine Type Ia supernova dis-
+al. 1990). Observations of the apparent clustering             playing the characteristic [Si II] absorption around
+of high-redshift quasars around low-redshift galaxies          λrest ≈ 6100Å observed near 9000Åand matches
+(Burbidge et al. 1971, Arp 1987) and the anomalous             that observed near maximum for local events like
+distribution of redshifts in groups (Arp 1994) have            SN 1990N or SN 1989B, but shows distinct differences
+been used to argue against cosmological expansion.             from the peculiar examples SN 1991T and SN 1991bg
+A theory linking observed redshifts to the ages of the         (Schmidt et al. 1996).
+objects has been developed to explain these findings               CCD photometry of SN 1995K has been secured
+(Narlikar & Arp 1993).                                         in special filters corresponding to B and V passbands
+   A direct test of the nature of cosmological red-            shifted to a redshift of 0.45 and in Kron-Cousins R
+shifts is provided by the observable effects of time           and I filters. Rest frame B and V light curves have
+dilation on time variable phenomena at large red-              been constructed from these observations. The close
+shifts. In an expanding universe these redshifts are           match of the regular B passband with the R filter
+directly related to the change in the scale parameter          at redshift 0.48 reduces the K-correction terms to a
+inducing a change of distant clock rates for a local           nearly constant value, independent of the exact color
+observer. The light curve of a distant supernova is            evolution (Kim et al. 1996, Schmidt et al. 1996).
+predicted to be stretched in the observer’s frame by           The available rest frame B light curve of SN 1995K
+a factor (1 + z) compared to the rest frame of the             covers the supernova peak for over 7 weeks. At least
+object (Wilson 1939, Rust 1974, Colgate 1979, Tam-             one pre-maximum point from pre-discovery search ob-
+mann 1979, Leibundgut 1990, Hamuy et al. 1993).                servations of the field has been recorded. Since the
+Although the light curves of nearby events display, in         search was performed with the redshifted B filter we
+general, a fairly uniform shape (Barbon et al. 1973,           lack any pre-discovery observations in the rest-frame
+Leibundgut 1988), recent high-precision photometry             V passband.
+shows that SNe Ia exhibit differences in their light               Simple determination of the decline after maxi-
+curves which are related to their luminosities (Phillips       mum indicates a very slow apparent evolution com-
+1993, Hamuy et al. 1995, Riess et al. 1995a).                  pared to even the slowest local events (e.g. SN 1992bc;
+   To observe the real effect one needs a well observed,       Maza et al. 1994, Hamuy et al. 1995). In fact,
+spectroscopically classified SN Ia at a considerable           SN 1995K is the slowest SN Ia ever observed which
+redshift and a thorough understanding of the varieties         we attribute not to intrinsic properties of SN 1995K
+of light curve shapes. Attempts to measure the cos-            but to time dilation. The photometric observations
+mological time dilation with SNe Ia have been made             of SN 1995K provide the basis for this test of time
+before. A sample of nearby events (z < 0.05) was               dilation. The cases of an expanding and a static uni-
+investigated by Rust (1974). For such low redshifts,           verse are discussed separately in the following sec-
+errors in photometry and the real variations in light          tions. We compare the rest-frame photometry of
+
+
+                                                           2
+                                                   Table 1
+                                          Fit parameters for z = 0.479
+
+ Comparison template          tB
+                               max
+                                   a
+                                          σ(tB
+                                             max )        Bmax         σ(Bmax )        Vmax         σ(Vmax )        χ2b
+
+ average template             802.7          1.0          22.93           0.06          22.98         0.05          12.6
+ SN 1990N                     801.5          1.0          22.92           0.06          22.93         0.05          12.4
+ SN 1991T                     802.5          1.1          22.94           0.06          22.96         0.05          11.1
+ SN 1992bc                    799.8          1.1          22.89           0.06          22.85         0.06          12.1
+
+  a
+      JD – 2449000
+  b Degrees of freedom: 21
+
+
+
+SN 1995K with light curves of local supernovae of                 fits for the different templates are largely determined
+different decline speeds. As representatives of local             by the observations made well before and well after
+SNe Ia we have taken SN 1990N (Leibundgut et al.                  peak. The sigmas are the formal errors from the fit
+1991), SN 1991T (Phillips et al. 1992), SN 1992bc                 and only include the photometric uncertainties of the
+(Maza et al. 1994), and an average SN Ia template                 data. Systematic errors certainly increase the uncer-
+(Leibundgut 1988). SN 1991T and SN 1992bc are the                 tainty on the peak magnitudes.
+slowest SNe Ia observed to date, while SN 1990N rep-                  To demonstrate the robustness of the result, we
+resents a fairly regular event. All three supernovae              can estimate the redshift of SN 1995K from the pho-
+have well-observed light curves from which we con-                tometry through the redshift dependence of the light
+structed comparison templates. SN 1991T displayed                 curve stretching. The results of this analysis is shown
+spectral peculiarities near maximum (Filippenko et                in the upper panel of Figure 1. The deduced redshift
+al. 1992, Ruiz-Lapuente et al. 1991, Phillips et al.              changes with the assumed light curve shape. Inter-
+1992), which we would have detected, if they were                 estingly, the formally best fits appear to prefer a slow
+present, in SN 1995K. The photometry of SN 1995K                  supernova at a somewhat smaller redshift than deter-
+has been fitted to the light curves of the local events           mined from the spectra, although the differences are
+by means of χ2 minimization. We find that the sim-                small. A zero redshift is clearly excluded in all fits.
+plest possible hypothesis fits the facts best: SN 1995K           The light curves of SN 1995K are certainly consis-
+has the spectrum and the light curve of a normal                  tent with the ones of regular SNe Ia assuming a time
+SN Ia, stretched in time by a factor (1+0.479).                   dilation as expected from universal expansion.
+   We could hope to find a close relative of SN 1995K                 To investigate time dilation in a more general man-
+in the sample of nearby SNe Ia by determining the                 ner, we have performed fits with a parameterized di-
+best fitting case, very similar to the procedure em-              lation factor of the form (1 + z)b . However, the data
+ployed by Hamuy et al. (1995). The results of simul-              do not constrain the problem enough to fit both pa-
+taneous fits to the rest frame B and V photometry                 rameters simultaneously. The analysis was performed
+are presented in Table 1. As can be seen, the best fit            in such a way that we determined the global χ2 of
+is achieved for the template light curve of SN 1991T.             the fit by varying one parameter while keeping the
+However, no clear trend emerges and all fits are quite            other at the expected value (0.479 for z and 1 for
+acceptable. The dates and magnitudes at maximum                   b). The lower panel in Figure 1 display the results
+found in the comparisons agree with each other to                 of this analysis. Values of b > 1 introduce additional
+within the errors. This is an encouraging result as               light curve stretching and a compression for b < 1.
+it means we are able to determine these values fairly             We find that for comparisons with slower local su-
+accurately independently of the assumptions about                 pernovae, the SN 1995K light curve is too fast for
+the comparison light curve. Conversely, it indicates              the regular dilation factor. The faster light curves
+the small differences among the comparison templates              reach values closer to 1 as they need a larger stretch-
+near maximum. The variations in χ2 of the best
+
+
+                                                           3
+ing factor to match the SN 1995K photometry. Inde-              3.   Discussion
+pendent fits employing the light curve shape fitting
+method developed by Riess et al. (1995a,b) confirm                 Figure 2 shows the rest-frame B light curve of
+this result. This method is based on a set of known             SN 1995K compared to the best fits of light curves
+light curve shapes and interpolates between them. It            stretched by the expected factor (1 + z) for universal
+further uses a weighing scheme for the model points             expansion and for non-dilated templates. Two fits for
+which gives more importance to brighter peak magni-             the non-dilated case are shown which emphasize the
+tudes and larger uncertainties to the fainter parts of          importance of the pre-maximum observation. The fig-
+the light curve. This is the reason for the higher χ2           ure demonstrates that without time dilation effects,
+of this fit and the much shallower minimum in the χ2            SN 1995K must be a unique event unrelated to the
+distribution. This method also indicates a solution             observational data of local SNe Ia. When we assume
+for b = 1.0+0.5                                                 universal expansion, SN 1995K appears as a rather
+             −0.25 and also clearly excludes small values
+of b.                                                           normal SN Ia. The spectrum shows great similarities
+                                                                to local events which are regarded as non-peculiar, the
+    In a static universe time dilation is not expected
+                                                                color at maximum (0.0 < B − V < 0.1) is similar to
+to act on the light curve. Redshift in this case is
+                                                                unreddened nearby SNe Ia, indicating little if any ab-
+caused by tired light or an equivalent theory (e.g.
+                                                                sorption, and the luminosity is in the range expected
+the variable mass hypothesis; Narlikar & Arp 1993)
+                                                                from expanding cosmologies (Schmidt et al. 1996).
+and is linked to distance through analyses such as
+                                                                The light curve in itself indicates a redshift which is
+the expanding photospheres in Type II supernovae
+                                                                close to the spectroscopic redshift. Complicating the
+(Schmidt et al. 1994) and gravitational lenses (Dar
+                                                                analysis is the variety of light curve shapes observed
+1991). Another manifestation is the redshift-apparent
+                                                                for nearby SNe Ia. This effect has been interpreted
+magnitude diagram of brightest cluster galaxies (e.g.
+                                                                as an apparent stretching of an underlying basic tem-
+Postman & Lauer 1995) and SNe Ia. The small scat-
+                                                                plate (Perlmutter et al. 1996). However, we know
+ter in the Hubble diagram of Hamuy et al. (1995) sup-
+                                                                from detailed analysis that the light curve behavior is
+ports this redshift-distance relation. Table 2 lists the
+                                                                more complicated (Riess et al. 1995a). The data of
+fit parameters for the non-dilated light curve shapes.
+                                                                SN 1995K, unfortunately, can not distinguish which
+The global χ2 values clearly exclude these fits. None
+                                                                local supernova provides the best match. We find the
+of the known light curves of local SNe Ia is slow
+                                                                formally best fits to indicate a slightly lower redshift
+enough to match the photometry of SN 1995K (Fig-
+                                                                or, equivalently, a slightly retarded cosmological ex-
+ure 2). In particular the maximum magnitude is far
+                                                                pansion. All fits are determined very strongly by the
+from the observed one due to the attempt of the fits
+                                                                pre-maximum observation and the latest data points.
+to match the pre-maximum point. The formal errors
+                                                                This highlights the importance for extended coverage
+of the fit parameters are not valid, as can be judged
+                                                                of SN Ia events to perform this time dilation test. In
+from large χ2 .
+                                                                addition, the photometric accuracy of the data criti-
+    If we take a static universe literally, then SN 1995K       cally determines the goodness of the fits.
+was observed at an earlier phase (16 days before max-
+                                                                   In a static universe the Hubble constant is time-
+imum) than any nearby supernova. In that case we
+                                                                independent and just measures the redshift-distance
+are depending on extrapolated pre-maximum points
+                                                                proportionality. For a conventional Hubble constant
+in the template light curves, which may not be cor-
+                                                                of H0 = 50 km s−1 Mpc−1 one unit in redshift
+rect. Therefore we have removed the pre-maximum
+                                                                corresponds to 6000 Mpc. The same number for
+point from the SN 1995K photometry and compared
+                                                                H0 = 80 km s−1 Mpc−1 is 3750 Mpc. The lu-
+it again with light curves of local SNe Ia. The qual-
+                                                                minosity of SN 1995K in such a static universe is
+ity of the fits improves dramatically (Figure 2). The
+                                                                MB = −19.3+5 log(H/50). Our best estimate for the
+maximum date and magnitude agree much better
+                                                                absolute magnitude SN 1995K should have when we
+with the observations. Slower light curves are clearly
+                                                                use the decline rate relation of Hamuy et al. (1995),
+favored in this picture. Nevertheless, even the slowest
+                                                                however, is MB = −20.4 ± 0.2 + 5 log(H/50), with
+local templates are qualitatively worse than dilated
+                                                                ∆m15 ≈ 0.5 and the most conservative estimate of
+light curves; the evolution of SN 1995K was consider-
+                                                                the decline-luminosity relation (eq. 11 of Hamuy et al.
+ably slower than any of the comparison curves.
+                                                                1995). This means SN 1995K should be about 1 mag-
+
+
+
+                                                            4
+                                                    Table 2
+                               Fit parameters for non-dilated light curves (z = 0)
+
+ Comparison template             tB
+                                  max
+                                      a
+                                          σ(tB
+                                             max )        Bmax         σ(Bmax )        Vmax        σ(Vmax )         χ2b
+
+ average template                799.1      0.5           22.27          0.06          22.54          0.05         137.7
+ SN 1990N                        798.9      0.5           22.32          0.06          22.54          0.05         129.0
+ SN 1991T                        799.4      0.6           22.38          0.06          22.58          0.05          90.1
+ SN 1992bc                       797.5      0.5           22.36          0.05          22.39          0.05          74.7
+
+  a
+      JD – 2449000
+  b
+      Degrees of freedom: 21
+
+
+nitude more luminous than what would be observed                  4.   Conclusions
+in a static universe model. Note that the extrapola-
+tion goes well beyond the set of objects on which the                The photometry of SN 1995K extending over about
+method is based (0.8 < ∆m15 < 1.5). Even compared                 50 days provides sufficient data to probe the effect of
+to the average absolute magnitude of local supernovae             time dilation on a clock running at a cosmological
+(MB = −19.7±0.25+5 log(H/50)) SN 1995K appears                    distance. We find that including the time dilation
+underluminous. In a static universe, SN 1995K would               expected from universal expansion makes SN 1995K
+have been a truly unique SN Ia - exhibiting the slowest           comparable to local SNe Ia and a fair representative
+known photometric evolution, yet displaying a normal              of its class. The spectrum, color, luminosity at max-
+spectrum, and being substantially less luminous than              imum, and the light curve shape are all very similar
+its nearby counterparts.                                          to what is observed in local Type Ia supernova. To-
+                                                                  gether with more SNe Ia at cosmological distances it
+   The apparent peak magnitude of SN 1995K can
+                                                                  can be used to determine the deceleration parameter
+also be compared to the expectation of a steady-state
+                                                                  and contributions of non-baryonic mass to the cosmic
+model. Since the universe is expanding in this model,
+                                                                  mass density.
+time dilation cannot distinguish it from the standard
+Big Bang. However, the steady-state model predicts                   On the other hand, assuming a static universe,
+a luminosity-redshift relation. With the sample of                SN 1995K had the slowest photometric evolution of all
+nearby SNe Ia compiled by Hamuy et al. (1995) we                  known SNe Ia despite appearing spectroscopically in-
+can predict the expected apparent magnitude of a dis-             distinguishable from local events. The photometry of
+tant supernova given its redshift. With equation (9)              SN 1995K cannot be approximated by any light curve
+from Hamuy et al., i.e. excluding any luminosity cor-             shape of nearby events and, in a non-expanding uni-
+rections from the light curve shape, we predict a peak            verse, does also not follow the decline-luminosity re-
+magnitude of SN 1995K of B=23.4 ± 0.1 where the                   lation established for nearby events. It is even less lu-
+error is composed from the uncertainty in the deter-              minous than the mean of local supernovae and would
+mination of the zero-point (cf. difference between eqs.           constitute a unique and peculiar SN Ia.
+(3) and (9) in Hamuy et al.). The scatter of the local               We take this as a clear vindication of an expanding
+supernovae around the relation is σ = 0.25. SN 1995K              universe. Further supernovae at redshifts beyond 0.1
+was observed about 0.4 magnitude brighter than this               provide additional checks (cf. Goldhaber et al. 1996).
+prediction. With this single measurement we are thus              Such distant objects are currently discovered at a reg-
+not able to exclude the steady-state model due to the             ular rate (Perlmutter et al. 1995a,b, 1996, Kirshner
+intrinsic scatter in the luminosity of SNe Ia.                    et al. 1995, Garnavich et al. 1996a,b) and will pro-
+                                                                  vide additional tests for consistency. The importance
+                                                                  of extensive light curve coverage as early and as long
+                                                                  as possible must be stressed. It is only these observa-
+
+
+
+                                                           5
+tions which provide enough leverage to perform this                   R. 1996, ApJ, 456, L79
+test. The early and late phase photometry is also of           Peebles, P. J. E., Schramm, D. N., Turner, E. L., &
+paramount importance for an accurate determination                    Kron, R. G. 1991, Nature, 352, 769
+of the deceleration parameter q0 in order to identify          Perlmutter, S., et al. 1995a, ApJ, 440, L41
+the best local counterpart and find the most appro-            Perlmutter, S., et al. 1995b, IAU Circ. 6270
+priate luminosity. Direct observation of the detailed          Perlmutter, S., et al. 1996, Thermonuclear Super-
+spectral evolution of a distant supernova provides a                  novae, eds. R. Canal, P. Ruiz-Lapuente, & J.
+further test. Here the changes in line shifts and rel-                Isern, (Dordrecht: Kluwer), in press
+ative strengths would reveal the apparently retarded           Phillips, M. M. 1993, ApJ, 413, L105
+evolution of the supernova.                                    Phillips, M. M., et al. 1992, AJ, 103, 1632
+                                                               Postman, M. & Lauer, T. R. 1995, ApJ, 440, 28
+5.   References                                                Riess, A. G., Press, W. M., & Kirshner, R. P. 1995a,
+                                                                      ApJ, 438, L17
+Arp, H. C. 1987, Quasars, Redshifts and Controver-
+                                                               Riess, A. G., Press, W. M., & Kirshner, R. P. 1995b,
+       sies, Interstellar Media, Berkeley
+                                                                      ApJ, 445, L91
+Arp, H. C. 1994, ApJ, 430, 74
+                                                               Ruiz-Lapuente, P., Cappellaro, E., Turatto, M., Gouiffes,
+Arp, H. C., Burbidge, G. R., Hoyle, F., Narlikar, J. V.,
+                                                                      C. Danziger, I. J., Della Valle, M., & Lucy, L.
+       & Wickramasinghe, N. C. 1990, Nature, 346,
+                                                                      B. 1992, ApJ, 387, L33
+       807
+                                                               Rust, B. W. 1974, Ph.D. Thesis, Oak Ridge National
+Barbon, R., Ciatti, F., & Rosino, L. 1973, A&A, 25,
+                                                                      Laboratory (ORNL-4953)
+       241
+                                                               Sandage, A. & Perelmutter, J.-M. 1991, ApJ, 370, 455
+Burbidge, E. M., Burbidge, G. R., Solomon, P. M., &
+                                                               Schmidt, B. P., Kirshner, R. P., Eastman, R. G.,
+       Strittmatter, P. A. 1971, ApJ, 170, 233
+                                                                      Phillips, M. M., Suntzeff, N. B., Hamuy, M.,
+Colgate, S. A. 1979, ApJ, 232, 404
+                                                                      Maza, J., & Avilés, R. 1994, ApJ, 432, 42
+Dar, A. 1991, ApJ, 382, L1
+                                                               Schmidt, B. P., et al. 1995, IAU Circ. 6160
+Filippenko, A. V., et al. 1992, ApJ, 384, L15
+                                                               Schmidt, B. P., et al. 1996, in preparation
+Garnavich,, P., et al. 1996a, IAU Circ. 6332
+                                                               Tammann, G. A. 1978, Astronomical Uses of the Space
+Garnavich,, P., et al. 1996b, IAU Circ. 6358
+                                                                      Telescope, eds. F. Macchetto, F. Pacini & M.
+Goldhaber, G., et al. 1996, Thermonuclear Super-
+                                                                      Tarenghi (Garching: ESO Proceedings), 329
+       novae, eds. R. Canal, P. Ruiz-Lapuente, & J.
+                                                               Tolman, R. C. 1930, Proc. Nat. Acad. Sci., 16, 511
+       Isern, (Dordrecht: Kluwer), in press
+                                                               Wilson, O. C. 1939, ApJ, 90, 634
+Hamuy, M., Phillips, M. M., Wells, L. A., & Maza, J.
+       1993, PASP, 105, 787
+Hamuy, M., Phillips, M. M., Maza, J., Suntzeff, N. B.,
+       Schommer, R. A., & Avilés, R. 1995, AJ, 109, 1
+Kim, A., Goobar, A., & Perlmutter, S. 1996, PASP, in
+       press
+Kirshner, R. P., et al. 1995, IAU Circ. 6267
+Leibundgut, B. 1988, Ph.D. Thesis, University of Basel
+Leibundgut, B. 1990, A&A, 229, 1
+Leibundgut, B. 1991, Supernovae, ed. S. E. Woosley,
+       (New York: Springer), 751
+Leibundgut, B., et al. 1991, ApJ, 371, L23
+Mather, J., et al. 1990, ApJ, 354, L37
+Maza, J., Hamuy, M., Phillips, M. M., Suntzeff, N. B.,
+       Avilés, R. 1994, ApJ, 424, L107
+Narlikar, J. & Arp, H. 1993, ApJ, 405, 51
+Nørgaard-Nielsen, H. U., Hansen, L., Jørgensen, H. E.,
+       Salamanca, A. A., Ellis, R. S., & Couch, W. J.
+       1989, Nature, 339, 523
+Pahre, M. A., Djorgovski, S. G., & de Carvalho., R.
+
+
+                                                           6
+                15
+  2             10
+  χ
+                 5
+                 0
+                      .2               .4     .6                       .8
+                                        redshift
+
+                30
+  2
+  χ             20
+                10
+                 0
+                             .5                1               1.5
+                                               b
+   Figure 1: 2 distributions for di erent values of the     tting parameters.
+For each calculation the other parameter have been set to the canonical values,
+i.e. z = 0.479 and b = 1. The curves are for SN 1990N (full lines), SN 1991T
+(dotted), SN 1992bc (short dashes), and the average template (long dashes).
+The thick line is the result from the LCS tting.
+                                    SN 1995K
+
+
+                               template                      SN 1990N
+       23
+
+
+       24
+
+
+       25
+mB
+                              SN 1991T                      SN 1992bc
+       23
+
+
+       24
+
+
+       25
+
+            780     800      820      840 780      800      820      840
+                                 JD (2449000+)
+
+    Figure 2: Comparison of the SN 1995K photometry with B light curves
+of local supernovae. The lines correspond to the best ts assuming a (1 + z )
+stretching as expected from universal expansion. Short dashes represent the
+best t of non-dilated light curves to the data and long dashes are the best ts
+excluding the pre-maximum observation of SN 1995K.
+

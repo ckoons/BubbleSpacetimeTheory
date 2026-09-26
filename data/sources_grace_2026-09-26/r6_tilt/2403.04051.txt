@@ -1,0 +1,2101 @@
+                                                  Exotic Hadrons at LHCb
+
+
+
+
+arXiv:2403.04051v1 [hep-ex] 6 Mar 2024
+                                         Daniel Johnson,1 Ivan Polyakov,2 Tomasz Skwarnicki,3 and Mengzhen Wang4
+                                                       1
+                                                         University of Birmingham, Birmingham, United Kingdom;
+                                                                       email: daniel.johnson@cern.ch
+                                               2
+                                                 European Organization for Nuclear Research (CERN), Geneva, Switzerland;
+                                                                       e-mail: ivan.polyakov@cern.ch
+                                                            3
+                                                              Syracuse University, Syracuse, NY 13244, USA;
+                                                                         e-mail: tskwarni@syr.edu
+                                                                 4
+                                                                   Sezione INFN di Milano, Milano, Italy;
+                                                                      e-mail: mengzhen.wang@cern.ch
+
+                                                                            March 6, 2024
+
+
+
+
+                                                                               Abstract
+
+
+                                             It has been five years since the data sample from the LHCb detector, the first
+                                         experiment optimized for heavy-flavor physics studies at a hadronic collider, was
+                                         completed. These data led to many major discoveries in exotic hadron spectroscopy,
+                                         which we review in this article. We supplement the experimental results with a
+                                         selection of phenomenological interpretations. As the upgraded LHCb detector is
+                                         expected to collect a larger data sample starting in 2024, the near- and further-future
+                                         potential of the LHCb program in exotic hadron physics is also discussed.
+
+
+
+
+                                                           Annu. Rev. Nucl. Part. Sci. 74: In press.
+                                                      https://doi.org/10.1146/annurev-nucl-102422-040628
+Contents
+1 INTRODUCTION                                                                           1
+
+2 THE LHCB EXPERIMENT                                                                    3
+
+3 THE χc1 (3872) STATE                                                                   6
+
+4 PENTAQUARK STATES                                                               10
+  4.1 Pentaquark candidates in beauty baryon decays . . . . . . . . . . . . . . . 11
+  4.2 Pentaquark candidates in beauty meson decays . . . . . . . . . . . . . . . 14
+
+5 HIDDEN CHARM TETRAQUARK CANDIDATES                                                    14
+
+6 CHARMING AND STRANGE TETRAQUARK CANDIDATES                                            18
+
+7 HIDDEN DOUBLE CHARM TETRAQUARK CANDIDATES                                             22
+
+8 NARROW DOUBLE CHARM TETRAQUARK                                                        24
+
+9 FUTURE PROSPECTS                                                                      26
+
+10 CONCLUSIONS                                                                          28
+
+
+1    INTRODUCTION
+Hadrons are bound states created by strong interactions, which couple objects carrying
+color charge: quarks and gluons. We have known about quarks – elementary fermions with
+fractional electric charge and one unit of strong color charge – since the mid nineteen-
+sixties when their existence was deduced from the observed mass spectrum of hadrons
+which could be explained using three light quark (hereafter q) flavors: up (u, electric
+charge +2/3e), down (d, electric charge −1/3e) and strange (s, electric charge −1/3e). All
+hadrons at that time could be explained as bound states either of a quark and an antiquark
+(qq) or of three quarks (qqq), so called conventional mesons and baryons, respectively. The
+properties of strong interactions which drove the observed light hadron mass spectrum
+were quark-flavor independence and the confinement of color charges. Combined with the
+similarity of the light quark masses (mq ), flavor independence accounted for the observed
+isospin symmetry (mu ≈ md ) which, through inclusion of the strange quark (ms ≈ mu,d ),
+was extended to SU (3)f lavor symmetry. Confinement limits the extent of unscreened color
+fields to about a size of a light hadron, ∼ 1 fm. When the lightest baryons i.e. nucleons,
+protons (uud) and neutrons (udd), are in close proximity, residual strong interactions can
+bind them into more extended structures, known as nuclei, [(qqq)(qqq)...]. Such nuclear
+interactions bear some resemblance to the residual electromagnetic interactions through
+which electrically neutral atoms form molecular structures.
+    It took another decade to develop a complete theory of strong interactions based on
+SU (3)color symmetry – Quantum Chromo-Dynamics (QCD) – which introduced the gluon
+
+
+                                            1
+(g), a massless elementary boson mediating color interactions. Unlike the photons of QED,
+gluons carry complex color charges, a unit of color and a unit of anticolor. Consequently,
+gluons could become hadron constituents and form so called hybrid mesons (qqg), hybrid
+baryons (qqqg), or glueballs (gg). Going beyond the well established conventional hadronic
+states, (qq) and (qqq), hybrids are classified as “exotic” hadrons.
+     Also falling into the broad category of “exotic” hadrons are those bound states com-
+prising more than the minimal number of quarks. Such multiquark states can come in the
+form of either exotic mesons, e.g. tetraquarks (qqqq), or exotic baryons, e.g. pentaquarks
+(qqqqq). In fact, the very first quark-model proposals [1] speculated about their exis-
+tence. QCD provided further motivation for multiquark states since quark (antiquark)
+pairs, {qq}, in antisymmetric color combinations act as a single antiquark (quark). Such
+pairs could thus become the building blocks of diquark tetraquarks, ({qq}{qq}), or di-
+quark pentaquarks, ({qq}{qq}q). These hadrons would have compact sizes of the order
+of the confining scale. Different color schemes of compact multiquark hadrons have been
+also proposed, like that of so-called hadrocharmonium, in which a light hadron surrounds
+the heavy charmonium state in the center, both color-polarized, ({cc}{qq}), ({cc}{qqq}).
+A further mechanism for the creation of multiquark structures arises if the nuclear type
+of binding is effective in baryon-meson and meson-meson combinations so as to produce
+“molecular” pentaquarks ([(qqq)(qq)]) or tetraquarks ([(qq)(qq)]). They would be loosely
+bound, with extended sizes due to two, nearly independent, confinement volumes. These
+various quark binding schemes could lead to different hadron families, or to hadrons with
+mixed features.
+     Even after the passage of half a century since the formation of QCD, believed to be the
+exact theory of strong interactions, experimental studies of the hadron spectrum still at-
+tract great interest. Because the strong coupling constant becomes large in the confining
+domain that drives hadronic structures, perturbative methods – so useful in QED appli-
+cations – are of limited use in QCD. The lattice QCD approach, using numerical methods
+applied to the QCD Lagrangian, has been very successful in reproducing the observed
+mass spectrum of stable (i.e. long-lived) conventional hadrons. Numerical simulations of
+unstable (e.g. excited mesons and baryons) or multiquark structures are in their infancy
+and are often limited by computational practicalities. Thus, instead of first-principle theo-
+retical predictions, phenomenological models are used to predict the full hadron spectrum,
+introducing often contradictory assumptions and uncontrollable systematic uncertainties.
+This leaves many fundamental questions (Do gluons act as hadron constituents? Do com-
+pact and/or molecular multiquark hadrons exist? Do they mix with each other and with
+conventional hadrons? Are diquarks useful concepts for compact hadron substructure?)
+still to be answered experimentally. Therefore, hadron spectroscopy is one of the last
+frontiers within the Standard Model of interactions still largely driven by experimental
+studies.
+     Light hadron masses are often dominated by quark interaction energy, making their
+quark content less evident, especially given the presence of three different quark flavors of
+similar masses. For excited states, this energy can be easily converted into the creation of
+additional qq pairs resulting in large decay widths. Constituent quarks are highly relativis-
+tic making quark-spin-dependent mass splittings large. The masses of charm (c, electric
+charge +2/3e) and bottom (b, electric charge −1/3e) quarks differ substantially and are
+
+                                             2
+much larger than their interaction energies, making their presence in hadrons obvious.
+These heavy quarks (hereafter Q) are nearly static in hadrons, suppressing their spin-
+dependent couplings. These large Q masses lie at the heart of several effective theories
+simplifying their theoretical modeling. Furthermore, several states with lower excita-
+tion energies are below the threshold for easy hadron disintegration, resulting in narrow
+widths. These factors conspire to make heavy-quark hadrons particularly important for
+explorations of various hadronic structures.
+    The LHCb experiment is the first operating at a hadronic collider to have been opti-
+mized for the study of hadrons containing charm and/or bottom quarks. Large production
+cross-sections at the highest energy proton-proton collider, combined with the high in-
+stantaneous luminosity of the Large Hadron Collider provide an unmatched source of c-
+and b-quarks, limited chiefly by the processing capabilities of the detector. The archi-
+tecture of LHCb detector is optimized for an efficient detection of heavy-quark hadrons
+with simultaneous suppression of backgrounds arising from the large number of particles
+produced at the primary pp interaction point. Not surprisingly, the LHCb experiment
+has produced a large number of discoveries in hadron spectroscopy, which we review in
+this article.
+
+
+2     THE LHCB EXPERIMENT
+The LHCb experiment was conceived for the study of heavy flavour hadrons at the LHC;
+most notably to examine the production and decay of objects containing heavy b- or
+c-quarks. The forward geometry of the LHCb detector underscores this objective, instru-
+menting only regions of high pseudorapidity – between approximately 2 and 5 pseudo-
+rapidity units – where b- and c-hadrons are copiously produced and can be detected in
+a relatively small solid angle, minimizing detector cost. A schematic of the detector is
+shown in Figure 1.
+    In the endeavour to perform the most excellent studies of hadronic spectroscopy, three
+objectives must be achieved: mis-reconstruction effects must be kept to a minimum, the
+effect of limited experimental resolution must be minimised, and background processes –
+real and combinatorial – must be suppressed. The characteristics of the LHCb experiment
+which allow it to satisfy these demands are now discussed.
+    A hallmark of the LHCb detector is its excellent particle identification (PID) perfor-
+mance. For muons, this is achieved through the five “stations” of its muon system [3],
+comprising multi-wire proportional chambers and gaseous electron multiplier detectors
+(M1-M5 in Fig. 1). The system efficiently vetoes hadronic backgrounds and achieves a
+muon trigger efficiency surpassing 95%, of particular importance for those final states
+featuring a J/ψ meson as many discussed in this review do. Useful electron identification
+capability is delivered by combining information from the hadron and electromagnetic
+calorimeter systems.
+    Central to many of the decays used in studies of spectroscopy by the LHCb collabo-
+ration are final states that consist largely or entirely of as many as 9 light stable hadrons:
+pions, kaons, and protons. Without mitigation, the combinatorial background introduced
+through the mis-assignation of mass hypothesis, in particular for kaons and pions during
+
+
+                                              3
+                  Figure 1: Schematic of the LHCb experiment at CERN [2].
+
+reconstruction of such high-multiplicity final states would be very high. This is over-
+come principally using two Ring Imaging Cherenkov (RICH) detectors which collect the
+Cherenkov radiation emitted as charged particles traverse their radiator volumes, with
+the two RICH detectors accommodating particles in differing momentum ranges. Con-
+sidering the whole momentum range from 2 GeV1 to 100 GeV, the efficiency for correctly
+identifying kaons is found to be around 95% with a pion misidentification rate of around
+10%.
+     That the best experimental resolution should be targeted is obvious. Its consequences
+are particularly important for hadron spectroscopy in two areas. Firstly greater mo-
+mentum resolution translates directly into better resolution in invariant-mass spectra.
+With improved mass resolution, signals emerge more significantly above broad background
+shapes, nearby partially reconstructed contributions are more distinctly separated, and
+clusters of states become more readily resolved (where their natural widths are not limit-
+ing), simplifying otherwise complicated fits to overlapping resonances. The performance
+of the LHCb experiment’s tracking system is essential here. It consists of a 55 µm pitch
+silicon-strip Vertex Locator, with 104 double-sided modules (one with strips oriented ra-
+dially, the other azimuthally) arranged at discrete z, surrounding the interaction point
+and a further 4-layer, 183 µm pitch silicon microstrip detector just upstream of the warm
+dipole magnet (TT). The magnet has a bending power of 4Tm, and is followed by the
+final 3 layers of the tracking system (T1-T3). Two technologies are in use in each layer:
+the innermost region is instrumented once more with 183 µm silicon microstrips and the
+outer, experiencing lower particle flux, with straw tubes. The relative momentum un-
+certainty for tracks with momentum up to 300 GeV increases from 0.5% below 20 GeV to
+around 0.8% for tracks with momentum 100 GeV. Through comparison to a range of c-
+  1
+      convention ℏ = c = 1 is adopted throughout the article
+
+
+                                                    4
+and b-hadrons whose masses are well known, the systematic uncertainty on the momen-
+tum scale is found to be around 0.03%. The achieved relative mass resolution is around
+0.5% up to the Υ (3S) resonance. Such excellent resolution explains, for instance, why fits
+to backgrounds from B → D∗0 DK processes, where a neutral product of the D∗0 decay
+was not reconstructed, could be circumvented in the study of B ± → D+ D− K ± decays
+discussed later. The processes were cleanly separated experimentally.
+    The second consequence of excellent experimental resolution is for the precise deter-
+mination of impact parameters (IP). The LHCb experiment relies heavily on the fact that
+final state particles produced during the decays of relatively long-lived b- and c-hadrons
+– each typically travelling several millimeters in the laboratory frame – exhibit a large
+impact parameter with respect to the well-measured pp collision point. Many of the online
+event filters select based on the presence of significantly displaced tracks. Strict impact
+parameter cuts continue to be employed offline to suppress combinatorial backgrounds
+formed when “background” particles produced promptly in the pp collision are wrongly
+included in the reconstruction of a particular decay process. They are especially effec-
+tive in decays of b-particles that involve an intermediate open-charm hadron (D0 or D± ).
+The LHCb experiment achieves an IP resolution of approximately 13 µm for the highest-
+momentum tracks, which deteriorates to around 80 µm for the lowest momentum tracks
+thanks to the greater role of multiple scattering. Compared to the scale of b- and c-hadron
+flight distances, this resolution gives an exceptional opportunity to suppress background
+from prompt processe.
+    Despite the low rate of pp interactions per crossing of proton bunches in the LHCb –
+only a little over 1 during Run 1 (2011–2012) and Run 2 (2015–2018) – the abundance
+of soft hadronic production accompanying the hard scatter of an LHC pp collision allows
+wide scope for combinatorial backgrounds where particles (mainly pions) are wrongly
+employed during the reconstruction of a particular process. Requirements on the minimum
+impact parameters of included particles, enabled by the displaced decays of the original
+b- and c-hadrons in most studies of spectroscopy at LHCb, are critical to suppress such
+backgrounds. They are not universal, however, and significant progress has been made in
+studies of promptly produced objects, originating at a point indistinguishable from the
+pp collision, including some of those discussed in this review.
+    A major challenge across the LHCb physics programme is the use of decay processes
+that involve one or more neutral particles; the relatively low efficiency for photon recon-
+struction and the non-4π acceptance and incomplete reconstruction of the pp interaction
+products the primary considerations. Although the reconstruction is challenging, note-
+worthy efforts have been made to investigate hadron spectroscopy using decays to final
+states involving neutrals.
+    The detectors built at the e+ e− B-factories, most recently Belle II, have also excellent
+heavy-hadron reconstruction efficiencies, which can even surpass the LHCb capabilities
+especially for high-multiplicity final states, the final states with photons or involving
+Ks0 → π = π − decays. However, the significance of the LHCb experiment is in achiev-
+ing a good heavy-hadron detection at a high energy hadron-hadron collider. The strong
+production cross-sections provide overwhelming competitive advantage over the electro-
+magnetic processes. Furthermore, b-baryons, which are unreachable at the B-factories,
+are copiously produced at the LHC together with b-mesons, providing additional avenues
+
+                                             5
+for exotic hadron studies.
+
+
+3     THE χc1(3872) STATE
+The beginning of experimental results on exotic heavy quark spectroscopy dates two
+decades back, when the narrow χc1 (3872) state was discovered in B +,0 → χc1 (3872)K +,0
+(charge conjugate states are implied), χc1 (3872) → π + π − J/ψ, J/ψ → ℓ+ ℓ− decays by the
+Belle e+ e− → BB experiment [4]. Just 36 ± 7 signal events were observed in the data
+sample corresponding to an integrated luminosity of about 140 fb−1 . The observation was
+later confirmed by the BaBar experiment [5], and, by inclusive studies, dominated by the
+prompt production at the pp Tevatron collider, by the CDF (730 ± 90 signal events in 0.22
+fb−1 of data) [6], and by the D0 [7] experiments. The state was intriguing since its mass
+                                                 ∗0
+coincided exactly with the threshold for D0 D decays. As if to underline the advantages
+of a high-energy pp collider for studies of hadronic spectroscopy, it took a dataset initially
+corresponding to an integrated luminosity of just 0.035 fb−1 for the LHCb collaboration
+to observe promptly produced 565 ± 62 χc1 (3872) events at the LHC [8]. The ease of
+χc1 (3872) detection at LHCb reflects √ not only the increased heavy quark cross-section at
+the higher beam collision energies ( s = 7 − 13 TeV LHC vs 2 TeV Tevatron), but also,
+much more so, the higher detection efficiency of the forward LHCb detector as compared
+to the central detectors, which were optimized to high-pT physics rather than heavy flavor
+studies.
+    Settling the χc1 (3872) quantum numbers was an early, important contribution of the
+LHCb experiment. Previously, the CDF experiment narrowed them down to J P C = 1++
+or 2−+ in the sample of 2292 ± 113 χc1 (3872) events (0.78 fb−1 ) [9]. The sensitivity was
+limited by high backgrounds and the lack of χc1 (3872) polarization in the inclusive studies.
+The Belle experiment, with 173 ± 16 signal events reconstructed in B decays (711 fb−1 ),
+which allowed for the χc1 (3872) polarization and small backgrounds, agreed with this J P C
+selection [10]. With a 2011 dataset corresponding to an integrated luminosity of 1 fb−1 ,
+the LHCb collaboration reconstructed 313 ± 26 signal events in B-meson decays, with a
+background level comparable to that of the e+ e− experiments, thanks to the excellent B-
+decay vertex separation from the primary pp interaction point [11]. By performing a full
+five-dimensional angular analysis for the first time, it was possible to favor overwhelmingly
+the 1++ assignment over 2−+ . Like the previous analyses, it was assumed that χc1 (3872) →
+(π + π − )J/ψ decay proceeds via S-wave. With the 2011-2012 dataset (3 fb−1 ) and 1011±38
+signal events, the LHCb collaboration found no evidence for D-wave contributions, setting
+an upper limit of < 4% at 95% C.L. on their fraction, and firmly established J P C = 1++
+relatively to all other alternatives [12].
+                                                             ∗0
+    Such quantum numbers are consistent with the D0 D molecular interpretation and
+compact tetraquark models, as well as the conventional χc (2 3 P1 ) meson hypothesis. How-
+ever, the χc1 (3872) cannot be a pure charmonium state, which is best evidenced by the
+LHCb analysis of the dipion mass spectrum in χc1 (3872) → π + π − J/ψ decays performed
+with the 2011-2018 data sample (9 fb−1 ) and 6788 ± 117 signal events reconstructed
+in B + → χc1 (3872)K + decays [13]. The decay is dominated by the isospin violating
+χc1 (3872) → ρ0 J/ψ decay, with the isospin-conserving χc1 (3872) → ωJ/ψ decay contribut-
+
+
+                                              6
+ing significantly (21.4 ± 2.3 ± 2.0)%, strongly amplified by ρ0 − ω interference. From
+this LHCb determined the ratio of coupling constants, gχc1 (3872)→ρ0 J/ψ /gχc1 (3872)→ωJ/ψ =
+0.29 ± 0.04, which is an order of magnitude larger than the amount of isopin violation de-
+termined for the pure cc state, gψ(2S)→π0 J/ψ /gψ(2S)→ηJ/ψ = 0.045 ± 0.001 [13]. Large isospin
+violation is naturally expected in models in which the χc1 (3872) state has a significant
+     ∗
+DD component, either as constituents (i.e. in the “molecular model”) or generated dy-
+                                                                                 ∗0
+namically in the decay [14] The proximity of the χc1 (3872) mass to the D0 D threshold,
+enhances such contributions over D+ D∗− combinations, which are 8 MeV heavier. It has
+also been suggested in compact tetraquark models that two neutral states, expected in
+the diaquark model, could be degenerate and mix to form the χc1 (3872), giving rise to
+large isospin violation in χc1 (3872) decays [15].
+    The large number of reconstructed χc1 (3872) → π + π − J/ψ decays coming from the
+displaced b-hadron vertex allowed the LHCb collaboration to achieve the best sensitivity
+in seeking to measure the χc1 (3872) mass and width. Two complementary approaches
+were taken: that of exclusive B + → χc1 (3872)K + reconstruction [16], which gives the
+best background suppression, and that of semi-inclusive χc1 (3872) reconstruction with
+a displaced vertex, which integrates over all b-hadron species [17], yielding more signal
+(15, 630 ± 380 events in a dataset corresponding to an integrated luminosity of 3 fb−1 ),
+but also resulting in a higher background level. The mass determinations are consistent
+with those previous, and are the most precise to date [18]. The measured mass is still
+                                   ∗0
+indistinguishable from the D0 D threshold. The width determinations, according to a
+Breit-Wigner parameterization, yielded values different from zero for the first time (com-
+bined: 1.19 ± 0.21 MeV [18]). However, this parameterization has questionable value for
+a state coinciding with a coupled-channel threshold. Therefore, the LHCb collaboration
+also undertook an analysis using a Flatté-like parameterization which contains parame-
+                                                                                    ∗0      ∗−
+ters for the couplings to the analyzed π + π − J/ψ channel, as well as to the D0 D , D+ D
+thresholds, and the π + π − π 0 J/ψ channel constrained to the measurements made by the
+                                                                              ∗
+other experiments. The pole mass, the couplings to π + π − J/ψ and to DD channels (the
+latter assumed to be isospin symmetric), and Γ0 parameter to catch all other contribu-
+tions were free parameters when fitting the observed π + π − J/ψ mass distributions. The
+obtained underlying lineshape is much narrower, with FWHM= 0.22 ± 0.07 MeV (sta-
+tistical error only), than the Breit-Wigner lineshape. However, the fit quality is only
+marginally improved reflecting difficulty in probing the lineshape when the detector mass
+resolution dominates over the lineshape effects by a large factor. The pole position, and
+therefore the binding energy, is poorly constrained because of its strong correlation to
+the other fit parameters. Furthermore, the obtained value of Γ0 = 1.4 ± 0.4 MeV was
+uncomfortably large, pointing to the importance of modes not explicitly represented in
+the lineshape model. In the future, increased statistics and including in the analysis other
+invariant-mass distributions, alongside that of the π + π − J/ψ candidates, in a simultane-
+ous coupled-channel fit will improve LHCb sensitivity to the χc1 (3872) mass and width
+parameters.
+    Decays of the χc1 (3872) to a J/ψ or ψ(2S) meson and a photon provide a valuable
+opportunity to understand its nature. The partial widths of these decays depend on
+the overlap of the cc wave function in the χc1 (3872) with that in the charmonium state.
+
+
+                                              7
+Therefore the ratio of the corresponding branching fractions,
+Rψγ ≡ B(χc1 (3872) → ψ(2S)γ)/B(χc1 (3872) → J/ψγ), should depend heavily on whether
+                        ∗
+the χc1 (3872) has DD molecule or charmonium components.
+    The BaBar collaboration has reported evidence for the χc1 (3872) → ψ(2S)γ decay and
+measured Rψγ = 3.4 ± 1.4 [19]. In contrast, the Belle collaboration found no significant
+χc1 (3872) → ψ(2S)γ signal and reported an upper limit Rψγ < 2.1 (90% C.L.) [20]. Using
+a data sample corresponding to an integrated luminosity of 3 fb−1 , collected during 2011
+and 2012, the LHCb collaboration obtained evidence for the χc1 (3872) → ψ(2S)γ decay
+in a sample of B + → χc1 (3872)K + decays with a yield of 36.4 ± 9.0 candidates and a
+significance of 4.4 standard deviations (see Fig. 2). The ratio Rψγ was measured to be
+2.46 ± 0.64 ± 0.29 [21], being compatible with both the preceding measurements by the
+BaBar and Belle collaborations. The measured value exceeds estimates of O(10−3 ) for
+                              ∗
+the χc1 (3872) as a pure DD molecular state [22, 23, 24], thus indicating the presence of
+a charmonium component. However, it is not in conflict with a predominantly molecular
+nature for the χc1 (3872) [25] and can be explained with only a 5 − 12% admixture of
+charmonium [23] or even less [26].
+    In a more recent analysis by the BESIII collaboration, no signal of the decay χc1 (3872) →
+ψ(2S)γ was found and an upper limit on Rψγ was set at 0.59 (90% CL) [27]. This result is
+in tension with the measurements by the LHCb and BaBar collaborations. A future anal-
+ysis from the LHCb collaboration, incorporating the larger Run 2 dataset, will elucidate
+it.
+    To study χc1 (3872) production in decays of various b hadrons the χc1 (3872) → π + π − J/ψ
+decay mode was used. In addition to the well established B + → χc1 (3872)K + [16]
+decay, the new decays Bs0 → χc1 (3872)K + K − [28], Bs0 → χc1 (3872)π + π − [29] and
+Λ0b → χc1 (3872)pK − [30] were observed for the first time (see Fig. 2). It was found that
+(38.9 ± 4.9)% of Bs0 → χc1 (3872)K + K − decays and (58 ± 15)% of Λ0b → χc1 (3872)pK −
+decays proceed via the ϕ and Λ(1520) intermediate resonances, respectively. The Bs0 →
+χc1 (3872)π + π − decay was found to be dominated by f0 (980) and f0 (1500) resonance com-
+ponents. Branching fractions of these decay modes relative to those in analogous decays,
+replacing the χc1 (3872) candidate with a conventional ψ(2S) cc state, including the sub-
+sequent X → π + π − J/ψ decay, were measured to be
+
+  RB + →XK + = (3.69 ± 0.07 ± 0.06) × 10−2 ,     RΛ0b →XpK − = (5.4 ± 1.1 ± 0.2) × 10−2 ,
+    RBs0 →Xϕ = (2.42 ± 0.23 ± 0.07) × 10−2 , RBs0 →Xπ+ π− = (6.8 ± 1.1 ± 0.2) × 10−2 ,
+
+where RB→XY represents the corresponding ratio of branching fractions
+B(B → χc1 (3872)Y )/B(B → ψ(2S)Y ). The ratio for Bs0 → Xϕ decays is consistent with,
+but more precise than, the value of (2.21 ± 0.29 ± 0.17) × 10−2 reported earlier by the
+CMS collaboration [31]. The large variation of the R ratio between production modes
+may reflect a tetraquark component in the χc1 (3872) state [32].
+    Just as for b decays, the χc1 (3872) prompt production cross-section was
+                                                                          √ measured rel-
+                                    + −
+ative to that of ψ(2S) using the π π J/ψ decay mode. In pp collisions at s = 7 TeV the
+product of the χc1 (3872) production cross-section and the branching ratio into π + π − J/ψ
+was measured for χc1 (3872) candidates with rapidity between 2.5 and 4.5 and transverse
+momentum between 5 and 20 GeV (both promptly and via b decays). It was found to
+
+                                             8
+      Candidates / (10 MeV/c2 )                                                                        Candidates / (10 MeV/c2 )
+                                    400                                                                                             40
+                                            B + → J/ψγK +                         LHCb                                                     B + → ψ(2S)γK +                    LHCb
+                                    300     N = 591 ± 48                          3 fb−1                                            30     N = 36.4 ± 9.0                     3 fb−1
+
+                                    200                                                                                             20
+
+
+                                    100                                                                                             10
+
+
+                                                                                                                                     0
+                                      3.7          3.8           3.9          4           4.1                                               3.8              3.9             4      
+                                                          mγJ/ψ                     GeV/c2                                                              mγψ(2S)                 GeV/c2
+                                    1.2 ×10
+                                            3
+
+
+
+
+      Candidates / (1.25 MeV/c2 )
+                                                                                                                                   150
+
+
+
+
+                                                                                                       Candidates / (1 MeV/c2 )
+                                          B + → J/ψπ + π − K +                    LHCb                                                     Bs0 → J/ψπ + π − K + K −           LHCb
+                                      1 N = 4230 ± 70                                                                                      N = 154 ± 15
+                                                                                  9 fb−1                                                                                      9 fb−1
+                                    0.8                                                                                            100
+
+                                    0.6
+
+                                    0.4                                                                                            50
+
+                                    0.2
+
+                                                                                                                                     0
+                                     3.85       3.86     3.87    3.88         3.89
+                                                                                      3.9
+                                                                                                                                   3.85       3.86     3.87         3.88     3.89
+                                                                                                                                                                                       3.9
+                                                                                                                                                                                         
+                                                         mπ+ π− J/ψ              GeV/c2                                                                 mπ+ π− J/ψ                 GeV/c2
+
+                                     80                                                                                             80
+
+
+
+
+      Candidates / (2 MeV/c2 )                                                                         Candidates / (5 MeV/c2 )
+                                            Bs0 → J/ψπ + π − π + π −              LHCb                                                     Λ0b → J/ψπ + π − pK −              LHCb
+                                                                                                                                    70
+                                            N = 155 ± 23                          9 fb−1                                                   N = 55 ± 11                        9 fb−1
+                                     60                                                                                             60
+                                                                                                                                    50
+                                     40                                                                                             40
+                                                                                                                                    30
+                                     20                                                                                             20
+                                                                                                                                    10
+                                     0                                                                                               0
+                                     3.85       3.86      3.87         3.88       3.89
+                                                                                               3.9                                 3.8              3.85              3.9           3.95
+                                                                                                                                                                                        
+                                                                                            2
+                                                          mπ+ π− J/ψ                GeV/c                                                               mπ+ π− J/ψ                 GeV/c2
+
+
+Figure 2: The χc1 (3872) signal in various b-hadron decays with corresponding yields:
+B + → χc1 (3872)J/ψγ K + , B + → χc1 (3872)ψ(2S)γ K + [21], B + → χc1 (3872)J/ψπ+ π− K + [16],
+Bs0 → χc1 (3872)J/ψπ+ π− K + K − [28], Bs0 → χc1 (3872)J/ψπ+ π− π + π − [29], Λ0b →
+χc1 (3872)J/ψπ+ π− pK − [30].
+
+
+
+
+                                                                                                  9
+                                                                  √
+be 5.4 ± 1.3 ± 0.8 nb [8]. In an analysis of pp collisions at s = 8 TeV and 13 TeV the
+double-differential cross-sections of the χc1 (3872) state relative to that of the ψ(2S) meson
+were measured as a function of transverse momentum (pT ) and rapidity (y) separately for
+promptly produced χc1 (3872) and those from b-decays [33]. The ratios, integrated over
+the kinematic region 4 < pT < 20 GeV and 2.0 < y < 4.5, were
+     8 TeV
+    Rprompt = (7.6 ± 0.5 ± 0.9) × 10−2 ,           8 TeV
+                                                  Rnon−prompt = (4.6 ± 0.4 ± 0.5) × 10−2 ,
+      13 TeV
+    Rprompt  = (7.6 ± 0.3 ± 0.6) × 10−2 , and Rnon−prompt
+                                                  13 TeV
+                                                              = (4.4 ± 0.2 ± 0.4) × 10−2 .
+                          √
+     In pp collisions at s = 8 TeV the production of χc1 (3872) and ψ(2S) was also
+studied as a function of charged particle multiplicity [34] (see Fig. 3). Prompt production
+of the χc1 (3872) relative to the ψ(2S) was found to decrease with event multiplicity
+while for χc1 (3872) and ψ(2S) particles produced via b-decays no significant dependence
+on multiplicity was found, as expected for production at the isolated secondary vertex.
+Possible explanations involve break-up of the χc1 (3872), extended in size by its tetraquark
+component, by rescaterring with comoving partons. However, the exact interpretation is
+still unclear [35, 36].
+     For the first time, production of the χc1 (3872) was measured in pPb collisions at
+√
+  sN N = 8.16 TeV in both forward (1.5 < y < 4, pPb) and backward (−5 < y <
+−2.5, Pbp) rapidity regions [37]. Measurements of cross-sections multiplied by branching
+fraction of decay to J/ψπ + π − measured relative to that of the ψ(2S) yield the ratios
+           RpPb = 0.27 ± 0.08 ± 0.05 , and             RPbp = 0.36 ± 0.15 ± 0.11.
+These are an order of magnitude larger than in pp collisions and closer to the value of
+1.08 ± 0.49 ± 0.52 measured by CMS in PbPb collisions at significantly higher transverse
+momentum [38]. In this ratio, effects from modification of the nuclear parton distribution
+function largely cancel. Given that in pp collisions this ratio decreases with multiplicity,
+one may suggest that as the collision system size – or density – increases, the χc1 (3872)
+production becomes dominated by a new mechanisms, such as quark coalescence [37].
+However, the experimental errors in all the heavy-ion collision results are very large.
+More data are needed before these effects are clearly established.
+
+
+4     PENTAQUARK STATES
+Multiquark states consisting of four quarks and one antiquark have been predicted since
+the inception of the quark model, and decades of efforts have been made to search for
+these pentaquarks experimentally. Over the first 50 years, candidates came and went,
+but none were widely-accepted. Some of these states had both exotic and conventional
+interpretations and are the subject of continuing debate, such as the Λ(1405) particle
+which can be thought of as either a KN bound state or as a conventional baryon with
+mass shifted due to the couplings to virtual channels [39]. Others were not confirmed in
+subsequent experiments having improved statistical precision. One such, classic, example
+is the Θ(1540 )+ particle [40, 41, 42].
+    During the past decade, the LHCb collaboration has reported observations and evi-
+dences of several pentaquark candidates that are charmonium-like, containing a cc pair.
+
+                                             10
+                                                                                                                         σ χ (3872) Β (χ (3872)→ J/ ψ π + π −)
+                                                                                                                                                                                                            CMS
+
+
+
+
+   σ χ (3872) Β (χ (3872)→ J/ ψ π +π −)
+                                          0.14
+                                                      LHCb                                                                                                                                           p T > 15 GeV/c
+                                                     pp s = 8 TeV             Prompt        b decays
+                                          0.12
+                                                     p > 5 GeV/c
+                                                      T             Comover Interaction Model, Esposito et al.                                                                LHCb
+                                                                                                                                                                 1
+                                           0.1                                        Compact                                                                               Preliminary
+
+
+
+                                                                                                                          σ ψ (2S) × Β (ψ (2S)→ J/ ψ π + π −)
+                                                                      Molecule                           Molecule
+                                                                                                                                        c1
+                                                                    (coalescence)    tetraquark         (geometric)
+                                                                                                                            c1
+
+
+
+                  c1
+                                          0.08                                                                                                                              p T > 5 GeV/c
+      c1
+
+
+
+
+    σ ψ (2S) Β (ψ (2S)→ J/ ψ π +π −)
+                                          0.06
+
+                                          0.04
+
+                                          0.02                                                                                             10−1
+                                                                                                                                                                     2<y <4.5    1.5<y <4   -5<y <-2.5    |y|<0.9
+                                            0
+                                                 0             50              100                150              200                                                 pp          p Pb        Pbp         PbPb
+                                                                                                             NVELO
+                                                                                                              tracks
+
+
+
+
+Figure 3: Ratio of χc1 (3872) and ψ(2S) cross-sections multiplied by branching fractions
+of decay to J/ψπ + π − (left) in pp collisions depending on event multiplicity [34] and (right)
+in pp, pPb and PbPb collisions [37].
+
+Various exclusive b hadron decays were studied, and intermediate states emerged in strong
+decays to a charmonium meson and a light baryon [43, 44, 45, 46, 47]. Their decay sig-
+natures indicate a minimal quark content consisting of a cc quark pair and three light
+quarks, placing them firmly outside the household of conventional baryons.
+
+4.1                            Pentaquark candidates in beauty baryon decays
+The first observation of charmonium-like pentaquark candidates originated in a study of
+the Λ0b → J/ψpK − decay. Using a data sample corresponding to an integrated luminosity
+of 3 fb−1 , the LHCb collaboration reported the observation of two J/ψp states (ccuud)
+in an amplitude analysis [43]. One of these states, referred to as Pc (4450)+ , has a mass
+around 4450 MeV. It contributes an obvious peaking structure in the J/ψp invariant-
+mass spectrum with a width too narrow to be explained by reflections from conventional
+Λ∗ (→ pK − ) resonances [48]. The other broad Pc (4380)+ state (width of about 200 MeV)
+was not directly visible in the J/ψp mass spectrum, but was needed in the amplitude model
+to reach a good description of the multi-dimensional dataset. As this amplitude model is
+now obsolete [44, 49], the question of whether broad pentaquark states are needed for a
+good description of these data remains.
+    By adding data collected by the LHCb collaboration between 2015 and 2018 at a
+higher pp collision energy, with a total integrated luminosity of 6 fb−1 , and with a further
+improvement in the event selection, a nine-fold increase of the sample size was reached
+in the reanalysis of Λ0b → J/ψpK − decays [44]. A one-dimensional J/ψp mass-spectrum
+analysis was performed. With the improved statistical precision, the J/ψp structure at
+4450 MeV was found to be composed of two narrower peaks close to one another, and a
+new peaking state at 4312 MeV was also uncovered, as shown in Fig. 4. Masses, widths and
+relative fractions of these new narrow peaking states are listed in Tab. 1. The Pc (4312)+
+state lies right below the mass threshold of the Σc D baryon-meson combination, and has
+a statistical significance of 7.3σ. The overlapping narrow states Pc (4440)+ and Pc (4457)+
+
+                                                                                                  11
+are close to the mass threshold of the Σc D∗ combination, and the statistical significance
+of the two-peak hypothesis against the Pc (4450)+ single-peak hypothesis is 5.4σ.
+     The narrow widths of the Pc (4312)+ , Pc (4440)+ and Pc (4457)+ states, in spite of their
+large decay phasespace, call for a decay-width suppression mechanism. In the tightly
+bound multiquark model, it is questionable whether a potential barrier, e.g. an angular
+momentum barrier [50], can provide enough spatial separation between the c and c quarks
+for an effective width suppression. The loosely-bound meson-baryon “molecular” model
+provides a more natural interpretation of these narrow structures, since c and c are sepa-
+rated by much larger distances, making it harder for them to recombine to form the J/ψ
+meson. The binding energy of hadronic molecules cannot be large, usually predicted to be
+at O(10 MeV) level [51] on par with nucleon binding, thus their masses are expected to be
+near the mass thresholds of the meson-baryon combinations, which is consistent with the
+observed Pc peak positions. The observed mass splitting between the Pc (4312) and the
+other two narrow Pc states cannot be reproduced with comparable precision in the com-
+pact pentaquark model when attributed to the difference between quark orbital angular
+                                          (∗)
+momenta [50]. The existence of Σc D hadronic molecules was predicted [52, 53, 54, 55]
+before the first pentaquark observation [43], and continues to be the most popular theo-
+retical interpretation [51, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72,
+73, 74, 75, 76]. It was suggested that a triangle singularity could generate near-threshold
+peaks in the J/ψp mass spectrum [77, 78, 79, 80], but LHCb has demonstrated that the
+observed peaks are too narrow to be explained in that way (Supplemental Material of
+Ref. [44]). The hadrocharmonium model can accommodate the Pc (4440)+ and Pc (4457)+
+(Pc (4312)+ ) as quasi ψ(2S)p (χc0 p) states [81]. When taking this hypothesis as input to
+fix its free parameters, seven more states are predicted in the same mass range (quasi
+ηc (2S)p, χc1 p, hc p, χc2 p states), which have not been observed.
+     A multidimensional amplitude analysis of Λ0b → J/ψpK − decays using the combined
+LHCb Run 1 and 2 datasets has not been published. Such an analysis could provide
+additional inputs for understanding the nature of these Pc states by measuring their
+spin-parity quantum numbers and investigating the possible contributions from broad
+J/ψp states. The helicity amplitude formulation used in Ref. [43] was later corrected
+to properly align proton helicities from conventional (pK − ) and exotic (J/ψp) hadron
+contributions [49]. Some of the ongoing efforts of the amplitude analysis are documented in
+Ref. [82], where several outstanding challenges have been identified. The huge data sample
+and complicated multi-dimensional fit function with a large number of free parameters
+require the use of high-speed processors, like GPUs, to perform the amplitude fits within a
+reasonable timeframe. The small relative production fractions for the narrow Pc states in
+Λ0b → J/ψpK − decays, as summarized in Table 1, result in a low tolerance for mis-modeling
+of the rest of the components contributing to the decay amplitude. Better external inputs
+concerning the properties of conventional hadrons (Λ excitations) contributing to the Λ0b
+decay would be helpful, especially in the poorly known high pK − mass region. Potential
+        (∗)
+Σc (∗) D coupled-channel effects can have a significant impact on the interpretation of
+                                                                                         (∗)
+the properties of Pc states [82]. A joint analysis of Λ0b → J/ψpK − and Λ0b → Σc (∗) D K −
+data using a coupled-channel lineshape model will be useful alongside the addition of data
+collected with the upgraded LHCb detector.
+
+
+                                              12
+Table 1: Masses and widths of narrow pentaquarks observed by the LHCb collaboration
+in the Λ0b → J/ψpK − data sample [44].
+              State     mass [ MeV]     width [ MeV]    relative fraction [%]
+                                  +6.8             +3.7
+           Pc (4312)+
+                      4311.9 ± 0.7−0.6 9.8 ± 2.7±−4.5     0.30 ± 0.07+0.34
+                                                                       −0.09
+                                  +4.1             +8.7
+           Pc (4440)+ 4440.3 ± 1.3−4.7 20.6 ± 4.9±−10.1   1.11 ± 0.33+0.22
+                                                                       −0.10
+           Pc (4457)+ 4457.3 ± 0.6+4.1
+                                  −1.7   6.4 ± 2.0+5.7
+                                                  −1.9    0.53 ±  0.16 +0.15
+                                                                       −0.13
+
+                                                           0
+                                                   Σ +cD                     Σ +cD *
+                                                                                       0
+
+
+
+
+      Weighted candidates/(2 MeV)
+                                                                                                   Candidates/(2 MeV)
+                                                                                                                        180 LHCb              Data
+                                    1200                                                                                                      Nominal fit
+                                            data                                           LHCb                         160 9 fb -1           Baseline fit
+                                            total fit
+                                    1000
+                                            background                                                                  140                   NR(J/ψ p )
+                                                                                                                                              NR(Λ p )
+                                                                                                                        120                   Pcs(4338)0
+                                    800
+                                                                                                                        100                   Background
+                                    600                                                                                  80
+                                    400
+                                                                                                                         60
+                                                               P c (4440)+      P c (4457)+
+                                                P c (4312)+                                                              40
+                                    200
+                                                                                                                         20
+                                       0                                                                                  0
+                                      4200 4250 4300 4350 4400 4450 4500 4550 4600                                        4.2       4.25     4.3             4.35
+                                                                                                                                           m(J/ψ Λ) [GeV]
+                                                                        mJ / ψ p [MeV]
+
+
+
+
+Figure 4: Pentaquark candidates observed by LHCb. The left figure shows the peaking
+states Pc (4312)+ , Pc (4440)+ and Pc (4457)+ observed in a J/ψp mass-spectrum analysis of
+the Λ0b → J/ψpK − data sample [44]. Black dots with error bars show the data distribution,
+where single-event weights are applied to suppress the contribution from the conventional
+Λ∗ components. Peaking positions of these Pc states are close to the mass thresholds
+        (∗)0
+of Σ+
+    c D      combinations, which are highlighted using vertical dashed lines in the figure.
+The right figure shows the J/ψΛ mass projection of the B − → J/ψΛp amplitude analysis
+where the pentaquark candidate Pcs (4338)0 was observed [47]. The Pcs (4338)0 peaking
+position is close to the mass threshold of the Ξc+ D− combination, which is highlighted
+using a vertical black dashed line.
+
+    Triggered by the pentaquark-candidate observations made in the Λ0b → J/ψpK − de-
+cay [43], two additional amplitude analyses were performed to search for pentaquarks in
+similar b baryon decays. In 2016, the LHCb collaboration released the amplitude analysis
+result of the Cabibbo-suppressed decay Λ0b → J/ψpπ − using data collected in 2011 and
+2012, which supported the existence of pentaquark candidates contributing to the J/ψp
+system [83]. Using the larger pp dataset collected between 2011 and 2018, correspond-
+ing to an integrated luminosity of 9 fb−1 , an amplitude analysis of approximately 1750
+Ξb− → J/ψΛK − decays was carried out and evidence was found for a Pcs (4459)0 particle
+decaying to the J/ψΛ final state. Based on a relativistic Breit-Wigner lineshape descrip-
+tion, its mass and width were measured to be 4458.8 ± 2.9+4.7                    +8.0
+                                                          −1.1 MeV and 17.3 ± 6.5−5.7 MeV,
+respectively, behaving as a narrow peaking state just below the mass threshold of the
+Ξc0 D∗0 combination. Inspired by the observation of the Pc (4440)+ and Pc (4457)+ states
+close to the Σc D∗ mass threshold, the two-peak hypothesis of the Pcs (4459)0 particle was
+
+                                                                                                  13
+tested, but it could be neither confirmed nor rejected using the current dataset.
+
+4.2    Pentaquark candidates in beauty meson decays
+Decays of B mesons to J/ψp or J/ψΛ particles and an additional light-flavor baryon offer
+an unique environment to precisely study properties of hidden-charm pentaquark can-
+didates. These decays benefit from smaller contributions from light-flavor conventional
+resonances decaying into baryon-baryon final states, compared to the situation of the
+Λ0b → J/ψpK − [44] and Ξb− → J/ψΛK − [45] decays whose amplitudes are dominated
+by conventional resonances in pK − and ΛK − systems. In 2019, the LHCb collaboration
+reported the first observation of the decay Bs0 → J/ψpp [84] using a pp dataset correspond-
+ing to an integrated luminosity of 5.2 fb−1 . An enhancement of its measured branching
+fraction compared to the predicted value [85] hinted at unexpected exotic resonances con-
+tributing to this decay channel. The intermediate structures in the Bs0 → J/ψpp decay
+were investigated using the LHCb data collected between 2011 and 2018, corresponding
+to an integrated luminosity of 9 fb−1 [46]. An excess at about 4.3 GeV was seen in the
+J/ψp invariant-mass spectrum, indicating the potential contributions of pentaquark can-
+didates. An amplitude analysis was performed to extract the properties of the possible
+state, and showed evidence for a J/ψp structure, denoted as Pc (4337)+ , with a mass and
+width of 4337+7                    +26
+               −4 ± 2 MeV and 29−12 ± 14 MeV, respectively [46]. The significance of the
+new state is 3.1σ and, as such, more data are needed to verify the existence of this state.
+The contribution from the Pc (4312)+ state to the Bs0 → J/ψpp decay was also tested, and
+no evidence was found.
+    The latest observation of a hidden-charm pentaquark candidate was found in the
+B → J/ψΛp [47] decay. An amplitude analysis was applied to a sample of B − → J/ψΛp
+  −
+
+decays, using a helicity-based formalism optimized for analyzing three-body decays [86].
+An observation of a J/ψΛ intermediate structure was reported with a statistical sig-
+nificance higher than 15σ. This (ccsud) pentaquark candidate, denoted by Pcs (4338)0 ,
+was measured to have a Breit-Wigner mass of 4338.2 ± 0.7 ± 0.4 MeV and a width of
+7.0 ± 1.2 ± 1.3 MeV. The amplitude analysis favored a J P = 1/2− assignment. The hy-
+pothesis of J = 1/2 was established and the J P = 1/2+ assignment was excluded with
+90% confidence. Its mass – right at the Ξc D threshold – and narrow width of 7.0±1.2±1.3
+ MeV, along with its J P = 1/2− spin-parity , support a molecular interpretation. This
+                                           0                                      0
+makes the Pcs (4338)0 state a likely Ξc0 D analog of the Pc + state in the Σ0c D system.
+Furthermore, as for the Pcs (4459)0 case, a Ξc′ D state is expected, predicting a total of
+three additional strange pentaquarks [87].
+
+
+5     HIDDEN CHARM TETRAQUARK CANDIDATES
+One of the earliest heavy-quark tetraquark candidates was the Zc (4430)+ in its decay to
+                                                                 0
+the ψ(2S)π + final state, from a study of around two thousand B → ψ(2S)π + K − decays
+by the Belle collaboration [88]. It was the first explicitly exotic tetraquark structure,
+but the road to its confirmation at e+ e− machines was not always smooth [89]. The
+LHCb experiment reconstructed 25,000 of the B decays in a dataset corresponding to an
+
+
+                                            14
+integrated luminosity of 3 fb−1 . By means of a four-dimensional amplitude analysis, they
+confirmed significant resonant activity with spin-parity J P = 1+ in the ψ(2S)π + channel
+in the mass region of interest [90]. The result was consistent with the amplitude analysis
+results by Belle [91]. When interpreted as one Breit-Wigner resonance, the Zc (4430)+
+mass and widths are 4478 ± 18 MeV and 181 ± 31 MeV, respectively [18]. The LHCb
+analysis indicated also a significant structure in the 0− or 1+ ψ(2S)π + wave at lower
+                                                      0
+mass. The Belle experiment analyzed 32,000 B → J/ψπ + K − decays and claimed a
+significant, and very broad (370 ± 70+     70        +          +
+                                        −132 MeV), 1 Zc (4200) resonance in the amplitude
+model, in addition to the Zc (4430)+ resonance which had been included with fixed mass
+and width [92]. LHCb also demonstrated, with high confidence, the presence of exotic
+                          0                        0
+hadron structures in B → ψ(2S)π + K − and B → J/ψπ + K − decays using a semi-model-
+independent approach [90, 93, 94]. Without dependence upon an amplitude model, this
+showed that these channels cannot be described only using conventional kaon excitations
+decaying to the π + K − final state. However, such an approach does not provide a complete
+picture of possible exotic contributions.
+    The LHCb data collected between 2011 and 2018, corresponding to an integrated
+luminosity of 9 fb−1 , yields 2.3 million and 140,000 reconstructed B → Xπ + K − candidates
+where X is a J/ψ or a ψ(2S) states respectively (72 and 6 fold increases, respectively).
+No amplitude analyses of the two decays in the LHCb dataset have yet been published,
+but unofficial results are available in a form of Ph.D. thesis [95]. A large number (6-10)
+of relatively broad, exotic ψ(nS)π + and ψ(nS)K − states of various J P are required for a
+good description of the data. Conceivably, such states can be explained by means of direct
+color couplings among the four quarks of a compact tetraquark system. In such states,
+the c and c share the same confinement volume and can relatively easily fuse to form the
+ψ(nS) states. This is in contrast with “molecular” charmed meson-antimeson pairs where
+decays to the ψ(nS) states are suppressed. There is no clear evidence for production
+of the likely molecular, narrow Zc (3900)+ and Zc (4020)+ states in B + → ψ(nS)π + K −
+decays [18]. Comparing the two amplitude analyses, except for the parameters of the
+Zc (4200)+ , the masses, widths and exact J P composition of resonances do not align
+well [95]. This may be due to the fact that coupled channel effects, though expected,
+have not yet been accounted for in the amplitude fits. Direct three-body decays have
+been also neglected. Until more satisfactory amplitude models have been developed, with
+better correspondence between the J/ψ and ψ(2S) decays, discussion of the related exotic
+states should be approached with care. This applies especially to the 1+ wave (including
+the Zc (4430)+ and Zc (4200)+ structures), which requires the largest number of poles to
+                                                                                  ∗          ∗
+describe the LHCb data, and at the same time is expected to couple to DD and D∗ D
+channels in an S-wave. Improvements to the amplitude models applied to the large LHCb
+B → ψ(nS)π − K + data sets are being pursued, thus updated results are expected to be
+published in the future.
+    In 2009, the CDF experiment reported an evidence of a very narrow (Γ = 12 ± 9 MeV)
+near-threshold X(4140) structure decaying to the J/ψϕ final state in 58±10 reconstructed
+B − → J/ψϕK − decays. This report, using a dataset corresponding to an integrated lumi-
+nosity of 2.7 fb−1 of pp Tevatron data [96], triggered a series of further investigations into
+the nature of resonances contributing to the decay [97, 98, 99, 100, 101, 102, 103]. A char-
+monium state at this mass is expected to have a large decay width to open-charm pair,
+
+                                             15
+thus the narrow width and decay to J/ψϕ pointed to the exotic nature of the X(4140)
+particle [96]. The first result from LHCb data collected in 2010 (corresponding to an
+integrated pp luminosity of just 0.37 fb−1 ) involved the study of 382 ± 22 reconstructed
+B − → J/ψϕK − decays and did not confirm the existence of the narrow X(4140) state [99].
+The CMS collaboration reconstructed 2480 ± 160 of the decays in a dataset corresponding
+to an integrated luminosity of 5.2 fb−1 and observed the narrow (28 ± 24 MeV) X(4140)
+state with high significance [101]. Results from the CDF [98], CMS [101] and D0 [103]
+collaborations also indicated a second, relatively narrow J/ψϕ state in 4274 − 4328 MeV
+range. All these results were obtained by performing simple fits to the J/ψϕ invariant-
+mass distirbutions with significant assumptions about the background shapes in the signal
+regions. The first six-dimensional amplitude analysis of B − → J/ψϕK − decays, modeling
+the backgrounds as reflections of various kaon excitations, K ∗− → ϕK − , was performed
+by the LHCb collaboration using around 4,000 reconstructed decays. Only data col-
+lected during 2011 and 2012 data-taking were included, corresponding to an integrated
+luminosity of 3 fb−1 [104, 105]. Four prominent J/ψϕ resonances were needed for a good
+description of the data, including the X(4140) threshold structure, albeit with signif-
+icantly larger width (83 ± 30 MeV) than obtained by the other experiments without
+amplitude analysis. Its quantum numbers were determined to be J P C = 1++ . The second
+J/ψϕ structure, X(4274), was confirmed and assigned the same quantum numbers. Two
+further new states, X(4500) and X(4700), were found with 0++ quantum numbers. The
+amplitude analysis was updated to the full 2011-2018 LHCb dataset in 2021, in which
+around 24,000 B − → J/ψϕK − decays were reconstructed with improved purity [106].
+The amplitude fit projections onto subsystem masses are shown in Fig. 5. The four broad
+J/ψϕ mass peaks indicate the contributions from the X(4140), X(4274), X(4500) and
+X(4700) particles. A broad J/ψK − mass peak at about 4 GeV suggests a contribution
+from an explicitly exotic J/ψK − structure – a tetraquark candidate with minimal quark
+content (ccus). From the amplitude analysis this J P = 1+ Zcs (4000)− state has a mass of
+4003 ± 6+  4
+         −14 MeV and a width of 131 ± 15 ± 26 MeV. This is likely a different state than
+the narrow (Γ ∼ 8 − 13 MeV) Zcs (3985)−,0 state observed by the BES III experiment
+in decays to Ds− D(∗) . Properties of all the potentially exotic components in the LHCb
+amplitude model are summarized in Table 2. In addition to all four X → J/ψϕ states
+observed using the 2011-2012 data [104, 105], there are several additional exotic candi-
+dates which do not generate a visible peaking state in two-body final state invariant-mass
+spectra (Fig. 5), but are found to significantly improve the fit quality. They include the
+2−+ X(4150), 1++ X(4685) and 1−+ X(4630) states decaying to the J/ψϕ final state, and
+the 1+ Zcs (4220)− state decaying into the J/ψK − final state.
+    After the observation of the Zcs (4000)− tetraquark candidate [106], the LHCb col-
+laboration also performed an amplitude analysis of B 0 → J/ψϕKS0 decays [107]. Due
+to the lower reconstruction efficiency of the KS0 compared to K − particles with the
+LHCb detector, the B 0 → J/ψϕKS0 signal yield is one order of magnitude lower than
+the B − → J/ψϕK − signal yield, which makes it hard to perform a completely indepen-
+dent amplitude analysis of the B 0 decays. Assuming isospin symmetry, a simultaneous
+amplitude analysis was performed of both the B 0 → J/ψϕKS0 and B − → J/ψϕK − decays,
+where most of lineshape and coupling parameters were shared between these two channels,
+except for those related to the Zcs (4000)− and Zcs (4000)0 states. Evidence at the level of
+
+                                            16
+Candidates / (10 MeV)
+                              X (4630)
+                              X (4500)
+                              X (4700)           LHCb                          LHCb                           LHCb
+                        600   X NR
+                                                        600                           600
+                              X (4140)
+                              X (4274)
+                              X (4685)
+                              X (4150)
+                        400   Z cs(4000)                400                           400
+                              Z cs(4220)
+                              K 0−
+                              K 1+
+                              K 1−
+                        200   K 2+                      200                           200
+                              K 2−
+                              Background
+                              Total fit
+                              Data 9 fb -1
+                                                           0
+                                           1.5    2             4.2   4.4   4.6         4.8 3.6   3.8   4         4.2
+                                                 mφ K − [GeV]                  mJ/ψ φ [GeV]                 mJ/ψ K − [GeV]
+
+
+
+Figure 5: Distributions of the ϕK − (left), J/ψϕ (middle) and J/ψK − (right) invariant
+masses of B − → J/ψϕK − data sample collected by LHCb during Run 1 and 2 [106].
+Black dots with error bars show the data distribution. Projections of the amplitude fit
+are overlaid. Contributions from different intermediate structures are presented using
+different line colors, as indicated in the legend of the figure. Four peaks clearly visible in
+the J/ψϕ mass spectrum are described using the X(4140), X(4274), X(4500) and X(4700)
+states, which were previously observed using LHCb Run 1 data [104, 105]. A broad peak at
+4 GeV in the J/ψK + mass spectrum corresponds to the Zcs (4000)− tetraquark candidate.
+The amplitude model includes also the X(4150), X(4630), X(4685) and Zcs (4220)− exotic
+states and conventional kaon excitations, which are needed to reach a good description of
+the multi-dimensional data.
+
+4σ was seen for a Zcs (4000)0 state, having a mass and width consistent with that of the
+Zcs (4000)− particle [107].
+    A simple fit to the high-mass peaking structure led the LHCb collaboration to conclude
+the presence of a J/ψϕ state with a mass of 4741 ± 6 ± 6 MeV and width of 53 ± 15 ± 11
+ MeV in a study of Bs0 → J/ψϕπ + π − decays [28].
+             −
+    While Zcs  → J/ψK − states are minimally four-quark objects, the X → J/ψϕ states
+could either be conventional (cc) states, (ccss) tetraquarks or (ccg) hybrids. The X(4140)
+state, which was initially claimed to have a very narrow width [96, 98], has a width of
+162 ± 21+24
+         −49 MeV as determined by the latest LHCb analysis. Nevertheless, its high fit
+fraction in the phasespace suppressed region makes it a probable (ccss) candidate. The
+quantum number pattern of the observed J/ψϕ states does not fit the expectations for
+charmonia, making it likely that the compact tetraquark dynamics is involved, possibly
+mixing in with high radial excitations of the (cc) states. Like for the B − → ψ(nS)π + K −
+decays discussed above, the amplitude analysis of B − → J/ψϕK − performed by the LHCb
+                                                              (∗) (∗)
+experiment did not include coupled-channel terms from Ds D(s) pairs, nor three-body
+contributions, thus the exact spectral decomposition of the obvious J/ψϕ and J/ψK −
+mass structures may contain model-dependent biases.
+    Recently, the LHCb collaboration has detected B − → Ds+ Ds− K − decays for the first
+time, reconstructing roughly 360 candidates, and performed an amplitude analysis [108].
+A significant (much more than 5σ) near-threshold peak is seen in the Ds+ Ds− mass spec-
+
+
+                                                                      17
+Table 2: Properties of exotic hadrons contributing to the B − → J/ψϕK − decay measured
+in Ref. [106].
+    J P Component Significance          M0 [MeV]         Γ0 [MeV]          FF [%]
+    2−     X(4150)         4.8 σ     4146 ± 18 ± 33 135 ± 28 +    59
+                                                                − 30   2.0 ± 0.5 +  0.8
+                                                                                 − 1.0
+    1−     X(4630)         5.5 σ     4626 ± 16 +   18
+                                                − 110  174 ± 27 + 134
+                                                                − 73
+                                                                                 + 2.9
+                                                                       2.6 ± 0.5 −  1.5
+                                                               + 10
+    0+     X(4500)         20 σ      4474 ± 3 ± 3       77 ± 6 − 8     5.6 ± 0.7 − 2.4
+                                                                                 +
+                                                                                    0.6
+           X(4700)         17 σ      4694 ± 4 + 16
+                                              − 3       87 ± 8 + 16
+                                                               − 6     8.9 ± 1.2 + 4.9
+                                                                                 − 1.4
+    1+     X(4140)         13 σ      4118 ± 11 +  19
+                                                − 36   162 ± 21 + 24
+                                                                − 49    17 ± 3 + 19
+                                                                               − 6
+           X(4274)         18 σ      4294 ± 4 +
+                                              −6
+                                                3
+                                                        53 ± 5 ± 5               + 0.8
+                                                                       2.8 ± 0.5 −  0.4
+           X(4685)         15 σ      4684 ± 7 + 13
+                                              − 16     126 ± 15 + 37
+                                                                − 41   7.2 ± 1.0 + 4.0
+                                                                                 − 2.0
+    1+ Zcs (4000)−         15 σ      4003 ± 6 +  4
+                                              − 14     131 ± 15 ±   26 9.4 ± 2.1 ± 3.4
+                    −                           + 43            + 97           + 10
+          Zcs (4220)       5.9 σ     4216 ± 24 − 30    233 ± 52 − 73    10 ± 4 − 7
+
+
+trum, which can be modelled as a 0++ X(3960) state at 3956 ± 5 ± 10 MeV with rather
+narrow width of 43 ± 13 ± 8 MeV [109]. There is also a possible 0++ state at 4133 ± 6 ± 6
+ MeV, with a relatively narrow width (Γ = 67 ± 17 ± 7 MeV), generating the Ds+ Ds−
+invariant-mass dip via interference with a sizeable non-resonant component. An alterna-
+tive way to describe the mass dip is to use K-Matrix lineshape for the X(3960) including
+the coupling to the J/ψϕ channel. The X(3960) state is too narrow to be a 33 P0 charmo-
+nium state.
+
+
+6    CHARMING AND STRANGE TETRAQUARK
+     CANDIDATES
+Conventional states involving a charm and an anti-strange quark are well established, but
+no evidence for corresponding states including a charm and strange quark had arisen be-
+fore 2020. Bound states containing both a charm and a strange quark would be manifestly
+exotic, having minimal 4-quark content in order to form a color-singlet state. Experimen-
+tal context aside, precious few suggestions had been made for their existence even in the
+theoretical literature, prior to that point [110, 111, 112].
+    Experimental evidence for bound states containing both a charm and a strange quark
+first emerged in studies published by the LHCb collaboration [113, 114] involving B ± →
+D+ D− K ± decays, with the charm mesons reconstructed in their decays to the K − π + π +
+final state. Care was taken to ensure that the combinatorial backrounds that often plague
+high-multiplicity, fully hadronic final states (the feed-down from 3 kaon or 4 pion charmed-
+meson decays) were heavily suppressed. The LHCb particle-identification system was
+effective at reducing backgrounds from pion-kaon misidentification, and the particular
+topology of the decay – two long-lived charged D mesons – allowed effectively all back-
+ground from charmless and single-charm decays to be removed. Two methods were used
+to analyse the three-body phasespace of the B ± decay.
+    The first approach [113] built on the expectation that conventional resonances would
+only appear in the D+ D− channel, not in the D+ K − (csud) or doubly-charged D+ K +
+
+
+                                            18
+(csud) channels. A semi-model-independent treatment, similar to that previously used
+in the analysis of other three-body b hadron decays featuring only one two-body decay
+chain in which conventional resonances were expected [89, 90, 93, 48]. The approach
+involved assessing how well the data in entire phasespace could be described assuming
+the presence of resonances in D+ D− . The phasespace was divided into slices of D+ D−
+invariant mass and the helicity angle was decomposed in terms of the orthogonal basis of
+Legendre Polynomials. The spin component of the amplitude for contributing resonances
+would be expected to give rise to a helicity structure that could be described using a finite
+set of Legendre Polynomials, the size of which would correspond to the maximum spin
+of the D+ D− resonances in that slice. A limit on the order of the Legendre Polynomials
+available for the decomposition was introduced, motivated by the fact that very high-spin
+(> 3) intermediate states are unlikely to be formed during the decay of a pseudoscalar
+particle to three more pseudoscalars. A recombination of the descriptions obtained in each
+slice allows a test of how well the phasespace has been described, as well as the possibility
+to test the success of that description in different projections of the phasespace. Poor
+agreement was observed, where the disagreement was most marked when the D+ K −
+projection of the phasespace was considered, particularly in the region of invariant mass
+near 2.9 GeV.
+    To characterize the exotic hadron contributions, the second approach involved a full
+amplitude analysis of the three-body phasespace [114]. An amplitude was constructed
+consisting of known charmonium resonances (modelled by a Relativistic Breit-Wigner
+function in invariant mass with helicity structure corresponding to the resonance spin)
+and a non-resonant component. Complex coefficients multiplying each resonance were
+free to vary, but only a rather poor description of the data was achieved. Only when
+two new amplitudes were added in the D+ K − spectrum, with quantum numbers J P =
+0+ and 1− , was an adequate description obtained, as illustrated in Fig. 6. The two
+new amplitudes corresponded to Tcs0 (2900)0 and Tcs1 (2900)0 resonant components having
+masses of 2866 ± 7 ± 2 MeV and 2904 ± 5 ± 1 MeV and widths of 57 ± 12 ± 4 MeV and
+110 ± 11 ± 4 MeV for the 0+ and 1− states, respectively.
+    The interpretation of the two new amplitudes in the D+ K − channel has not been
+                                                                                   ∗
+easy. Much speculation focused on the proximity of the new states to the D K ∗ and
+D1 K thresholds: 2902 MeV and 2913 MeV, respectively [115]. Compact tetraquark expla-
+nations often yield states with expected masses well below the slightly lighter observed
+0+ state [116]. Difficulty has been encountered in accounting for both the 0+ and 1−
+                          ∗
+states within a single D K ∗ or D1 K molecular picture though, treated separately, more
+progress has been made [117]. Attempts have, equally, been made to accommodate the
+structures as the products of coupled-channel kinematic effects arising from rescattering
+processes [118].
+    In order to make progress in understanding the unexpected structures, a close part-
+nership between experiment and theory may prove fruitful. The first study by the LHCb
+collaboration employed data taken between 2011 and 2018, but an increase in the size of
+the dataset available to pursue these particular B + decays of at least an order of magni-
+tude can be anticipated during Run 3 and Run 4. Furthermore LHCb will not be alone
+in acquiring datasets of interest to engage these processes: the Belle II collaboration is
+well-placed to make important contributions here, too, with their higher absolute track
+
+                                             19
+Figure 6: Invariant mass distributions of D− K + pairs in the decay B + → D+ D− K +
+(black points) [114]. In the left plot, the data are fit with an amplitude model (solid
+black line) corresponding to the second approach described in the text. This consists of
+resonances only in the D+ D− channel, and individual model components are indicated by
+colored lines. Severe discrepancy is observed around 2.9 GeV. In the right plot, resonant
+components are added to the model in the D− K + channel, and an adequate description
+is achieved.
+
+reconstruction efficiency making up in high multiplicity final states for much lower B ±
+production rates. A significant opportunity exists for experimentalists and theorists to
+implement new theoretical models early on in the analysis of ever-growing data samples.
+     The study of other decays is also highly likely to shed light on the nature of the
+Tcs (2900)0 structures. In particular, the results of a future study of B + → D+ K − π +
+                                                                                 0
+decays [113, 114] and a future first revealing of the LHCb data for B 0 → D+ D K − decays
+are obvious candidates, both sharing the channel of interest in the discovery study.
+     Although at face value the study of decays involving a Ds+ π − channel (csud) seems only
+indirectly connected to that of B + → D+ D− K + , a remarkable parallel emerged, leading
+to the discovery of the Tcs0 (2900) states. The LHCb collaboration undertook amplitude
+                                   0
+analyses of the decays B 0 → D Ds+ π − and B + → D− Ds+ π + , process in which conven-
+                                                           0
+tional (qq) resonances would only be expected in the D π − or D− π + channels [119, 120].
+The two datasets were fit simultaneously, where isospin relationships were imposed be-
+tween corresponding amplitudes in the two channels. The Dalitz plot visualisation of the
+decay phasespace clearly illustrates the similarity of the resonant structure. Resonant
+amplitudes, modelled again by relativistic Breit-Wigner functions, were introduced cor-
+responding to various excited open-charm states, and a quasi-model-independent spline
+function was used to model the non-resonant S-wave contribution. The model fails to
+describe the phasespace well, particularly in the region around a mass of 2.9 GeV in the
+                                           0
+Ds+ π − and Ds− π + spectra in the B 0 → D Ds+ π − and B + → D− Ds+ π + decays, respectively.
+A good fit quality is achieved through the addition of two new Ds+ π − states, sharing a
+complex coefficient, mass, and width, according to isospin symmetry expectations. The
+best fit was achieved with a spin-parity, J P = 0+ , and the fitted mass and width of the
+new states, named Tcs0 a
+                          (2900)0 and Tcs0
+                                         a
+                                           (2900)++ , are 2909 ± 10 MeV and 134 ± 19 MeV
+respectively. An encouraging confirmation of the resonant character of the new state was
+
+                                             20
+obtained through the use of a spline function to model the S-wave component in the Ds− π +
+channel. Plotting the amplitude at the knots of the spline function, it is observed in Fig. 7
+that the amplitude follows a trajectory consistent with that expected for a resonance in
+the channel, as a function of Ds− π + invariant mass.
+
+
+
+
+Figure 7: Argand diagram, showing the complex coefficients associated to a spline function
+used to describe the S-wave component in the Ds− π + channel [119]. The amplitude follows
+a trajectory consistent with that expected for a resonant contribution in that S-wave
+channel (approximately circular counter-clockwise mass evolution).
+
+     It is interesting that the earlier study of the D+ K + channel B + → D+ D− K + decay
+did not lead to the need for introduction of a doubly-charged contribution, though the
+sample size was considerably smaller in that case [113, 114]. In actual fact an excess
+was observed at a mass of 2.9 GeV in the D+ K + channel in that analysis but it was
+adequately described as the reflection of the spin-2 χc2 (3930) component of the amplitude
+model. It will be of interest whether the description remains satisfactory as the larger
+Run 3 dataset is brought into view. As for the the states discovered in the D+ D− K +
+final state, the use of single-charm decays is likely to be of considerable value here, in this
+case B − → Ds+ K − π − where the Ds+ π − channel appears once more.
+     The claim for observation of a new isospin pair of states, with one electrically-neutral
+and one doubly charged, was a striking one. The relationship between the earlier-discussed
+Tcs (2900)0 structures and the new Tcs0 a
+                                          (2900) states is non-obvious; aside from the differing
+quark content, their widths differ significantly also. Interpretation of the new states
+followed a similar pattern to that of the Tcs (2900)0 states, with models ranging from
+compact tetraquarks to molecular models [121, 122], once more noting the proximity of
+the 2.9 GeV structure to the D∗ K ∗ threshold and to that of the Ds∗ ρ combination [117].
+Attempts have also been made to provide a unified description of the D+ K − and Ds+ π
+
+                                              21
+states, as part of a new SU (3) flavour 6-plet, though the absence of a corresponding
+non-strange D∗ (2900)0 state is notable [123].
+
+
+7     HIDDEN DOUBLE CHARM TETRAQUARK CAN-
+      DIDATES
+If the discoveries outlined in Sec. 6 had been made earlier, those tempted to apply
+a molecular interpretation to the excesses observed near meson-pair thresholds might
+have been less surprised by evidence of a new structure near threshold in the invari-
+ant mass spectrum of promptly produced pairs of J/ψ mesons [124]. It was, however,
+the searches for tetraquark states comprising four heavy b quarks, (bbbb), decaying to
+(Υ(1S) → µ+ µ− )µ+ µ− [125, 126], which had captured attention of experimentalists be-
+fore the LHCb collaboration turned to look for (cccc) states. Such states might be ex-
+pected to decay into a pair of J/ψ (or other charmonium) mesons, each composed of a
+cc pair. Predictions for such states were already in place in the range from 5.8 GeV to
+7.4 GeV [127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143].
+    A search for tetraquark states decaying to the (J/ψ → µ+ µ− )(J/ψ → µ+ µ− ) final
+state was undertaken by the LHCb collaboration using the full LHCb 2011–2018 dataset
+(9 fb−1 ). The sample preparation was relatively straightforward, consisting of momentum
+thresholds for momentum tracks, standard muon-ID, and requirement that pairs of oppo-
+sitely charged muon tracks form a reasonable vertex with an invariant mass from 3 GeV
+to 3.2 GeV. A further requirement that the J/ψ candidates be consistent with originating
+at the primary pp collision point suppressed the background from B-decays, thanks to the
+displaced production point for candidates produced via those processes. The possibility
+for muon tracks to be used twice in reconstructing the J/ψJ/ψ pair was excluded simply
+by requiring a significant angular separation for the tracks.
+    The resulting sample contained a large fraction of correlated J/ψ candidates. Finally,
+the invariant mass spectrum of the J/ψ pair could be considered, with improved resolution
+thanks to a kinematic refit with mass-constraints on each J/ψ candidate. As resonant
+J/ψ pair production is associated with a single parton scattering (SPS) as opposed to
+the independent J/ψ production of a double-parton scattering (DPS), and as such SPS
+interactions are characterised by a higher transverse momentum for the J/ψ pair, it was
+easy to suppress the DPS background. The residual DPS production component was
+identified by exploiting the fact that it typically inhabits the high J/ψ pair invariant
+mass region. The di-J/ψ spectrum displayed two peculiar features: firstly a broad near-
+threshold structure and a second, narrower structure around 6.9 GeV (often referred to as
+the X(6900)). Both appeared to grow in significance as the transverse momentum of the
+J/ψ pair increased and neither appeared to originate in efficiency structures, themselves
+found to be rather flat as a function of invariant mass.
+    The interpretation of the structures is complicated, and affects the functions applied
+in a fit to the di-J/ψ spectrum. Two models achieved a satisfactory description of the
+data. The first, shown in Fig. 8, comprised a single Breit-Wigner (BW) function corre-
+sponding to the higher-mass, narrower structure, and two more BW functions to describe
+the near-threshold shape. A second model allowed for interference between the compo-
+
+                                             22
+nent describing the non-resonant SPS production and the near-threshold resonance. The
+first model yields a measurement for the higher-mass sate of 6905 ± 11 MeV and width of
+80 ± 19 MeV, whereas the second produced a slightly lower mass of 6886 ± 11 MeV and
+width of 168 ± 33 MeV.
+
+
+
+
+Figure 8: Fit to the J/ψJ/ψ invariant-mass spectrum according to the first of two models,
+where a single relativistic Breit-Wigner function is used to describe the higher-mass excess
+and two more are used to describe the near-threshold region [124].
+
+    Since no hadron identification is needed, and all LHC detectors are equipped with
+muon detectors, the J/ψJ/ψ final state is also accessible to the ATLAS and CMS experi-
+ments [144, 145]. The lower absolute reconstruction efficiencies, due to the higher muon
+transverse-momentum thresholds, are offset by the higher integrated luminosities (135-
+140 fb−1 , Run 2) obtained by these central detectors collecting their data at the maximal
+LHC instantaneous luminosity. The LHCb discovery prompted these collaborations to
+analyze their µ+ µ− µ+ µ− samples near the double-charmonium threshold with a superior
+sensitivity. The 6.9 GeV structure was confirmed by both experiments. In addition to
+the J/ψJ/ψ structure, the ATLAS collaboration has a 4.7σ evidence for a J/ψψ(2S) mass
+structure in the similar mass range [144]. The CMS collaboration found a clear evidence
+for the lower-mass state at 6.6 GeV and a 4.1σ evidence for a peak at 7.3 GeV [145].
+    Once more, the nature of the observed four-quark mass structure is unclear. De-
+composition of the observed mass spectrum into resonant contributions is assumption-
+dependent, though it is likely that multiple resonances play a role. Their widths are of
+the order 100 MeV or more, unlike for the tetraquark and pentaquark candidates – good
+candidates for the “molecular” states – discussed in the previous sections. Both of these
+observations point to compact tetraquark dynamics. However, coupled-channel effects
+(e.g. from J/ψψ(2S)) can also play a role [146]. The addition of the new, larger Run 3
+dataset should shed light on some of these questions.
+
+
+                                            23
+8    NARROW DOUBLE CHARM TETRAQUARK
+                                                                                      − + +
+In 2017 the LHCb collaboration observed a Ξcc     ++
+                                                      state in its decay to the Λ+c K π π
+final state and having a mass around 3621 MeV [147]. The signal consisted of 313 ±
+33 candidates and had overwhelming significance in Run 2 data corresponding to an
+integrated luminosity of 1.7 fb−1 . Later analysis of the full Run 2 dataset – approximately
+                                                                    − + +
+3 times larger – confirmed observation of the state in the Λ+                     + +
+                                                                c K π π and Ξc π decay
+modes with a combined yield exceeding two thousand candidates [148]. Together with the
+observation of hundreds of signal candidates for the X(6900) state decaying to J/ψJ/ψ
+(see Sec. 7), this indicated that the LHCb data sample could be used to search for even
+more rare hadronic states containing two charm quarks. This included tetraquark states
+formed by two charm quarks and two light anti-quarks. They have been awaited since
+the 1980’s [129, 149] as candidates for a tightly-bound exotic hadron state. The measured
+                ++
+mass of the Ξcc     baryon, allowed to refine models of binding of doubly-heavy diquark
+and implied that the mass of the (ccud) tetraquark should be close to the sum of D and
+D∗ masses [150] and therefore might be narrow providing a clear experimental signature.
+                                                                              (∗)
+Also, in analogy to the number of narrow tetraquark states seen in D(∗) D spectra near
+the corresponding mass thresholds (for instance the χc1 (3872), or Zc (3900)), one might
+expect similar “molecular” states near the D(∗) D(∗) thresholds. At the same time, no
+consensus regarding these states existed and theoretical predictions for the isospin-zero
+ground state (ccud) varied within a ±250 MeV range around D0 D∗+ mass threshold.
+    Using the full Run 1 and 2 LHCb data sample, the mass spectra of various DD(π + )
+combinations, where D represents D0 or D+ produced directly in pp collisions, were ana-
+lyzed [151, 152]. Peaking structures were observed in the D0 D0 , D0 D+ and D0 D0 π + mass
+spectra near the corresponding mass thresholds. The peak in the D0 D0 π + distribution
+appeared to lie a fraction of 1 MeV below the D0 D∗+ threshold. It was narrower than
+the peak in D0 D+ channel and, as such, was the most natural candidate for the pre-
+dicted ground (ccud) tetraquark state, Tcc+ . Given the close proximity to the threshold, a
+simple Breit-Wigner function could not be used for the description of its shape. Instead
+a unitarised Breit–Wigner model was constructed, taking into account coupled-channel
+effects and relying on two assumptions. The first assumption was that the observed state
+should decay strongly in the D0 D∗+ and D+ D∗0 channels and, subsequently, to D0 D0 π + ,
+D0 D+ π 0 and D0 D+ γ final states, with equal couplings. Secondly, it was assumed to
+have isospin I = 0 and quantum numbers J P = 1+ , in accordance with the theoretical
+expectation for the Tcc+ ground state. In the derivation of the subsequent Tcc+ line shape,
+unitarity is ensured by accounting for the energy dependence of the D0 D0 π + , D0 D+ γ
+and D0 D+ π 0 decay widths. Analyticity is ensured by accounting for the imaginary part
+of the total width via Kramer-Kronig relations. The resulting function for Tcc+ lineshape
+happens to depend on only one parameter, the mass position of the peak, given that the
+decay coupling to DD∗ is large enough. The function is then convolved with a detector
+resolution of around 400 keV, which is an order of magnitude larger than the natural Tcc+
+width calculated in this model. The non-resonant D0 D∗+ background in the fit to the
+data is assigned a phasespace model. The resulting model provided a good description
+of the data as shown in Fig. 9. The mass of the state relative to the D0 D∗+ threshold
+was measured to be δmTcc+ = −359 ± 40+9     −6 keV. For this value of the mass, the model
+
+
+                                            24
+                                    70
+
+
+
+
+               Yield/(500 keV/c2)
+                                                                               40
+
+
+
+
+                                                         Yield/(200 keV/c2 )
+                                                                               35
+                                           LHCb
+                                    60                                         30
+                                           9 fb−1                              25
+                                                                               20
+                                    50                                         15
+                                                                               10
+                                    40                                          5
+                                                                                0
+                                           +
+                                           •   data                                 3.874               3.876
+                                                                                                                  
+                                               T+      0 0 +
+                                                 cc → D D π                                 mD0 D0 π+       GeV/c2
+                                    30         background
+                                               total
+                                               D∗+ D0 threshold
+                                    20         D∗0 D+ threshold
+
+
+                                    10
+
+                                     0
+
+                                    3.87   3.88                                      3.89                     3.9
+                                                     mD0D0π+                                               GeV/c2
+
+Figure 9: Fit to D0 D0 π + invariant mass with the Tcc+ signal described as a unitarized Breit-
+Wigner function on top of non-resonant background described modelled by a phasespace
+term multiplied by a polynomial, all convolved with detector resolution [151].
+
+calculation gives a width of Γ = 48 ± 2+   0
+                                         −14 keV, where the first width uncertainty is due
+to that on the mass measurement, and the second is due to the uncertainty in the cou-
+pling parameter of the Tcc+ to DD∗ , |g|. While the lower limit reflects the experimental
+constraints, the upper one does not and is entirely a feature of the model, namely that
+the width of the Tcc+ saturates at high values of the coupling |g|.
+    Using the same Tcc+ decay model, with the Tcc+ mass value determined from the fit
+to the D0 D0 π + channel, the expected Tcc+ signal shapes in the D0 D0 , D0 D+ and D0 π +
+mass distributions from Tcc+ decays to the D0 D0 π + , D0 D+ π 0 and D0 D+ γ final states
+were obtained. In all cases a good agreement with the data distributions was observed
+when fitting their amplitudes on top of the non-resonant backgrounds. Together with
+non-observation of any peaking structures in the D+ D+ and D+ D0 π + mass spectra, this
+provides additional support for the assumed Tcc+ decay model, and in particular, for the
+assumption that the discovered state is an isoscalar. In addition, the dependence of
+Tcc+ production on its transverse momentum and event track multiplicity was studied.
+It was compared to the production of D0 D0 pairs with mass in the 3.75 < mD0 D0 <
+3.87 GeV range, expected to have a large contribution from double-parton scattering,
+             0
+and of D0 D pairs with the mass below 3.87 GeV, given the similarity to charmonium
+production. While the χc1 (3872) production was found to be suppressed with respect
+to ψ(2S) production at high multiplicities (see Fig. 3) [34], no such suppression was
+observed for the Tcc+ state. This suggests that different mechanisms might play role in
+their production. However, given the low statistics, no firm conclusions could be made.
+
+
+                                                    25
+    The Tcc+ state is very close to the D0 D∗+ threshold (see Fig. 9), reminiscent the
+                                         ∗0
+χc1 (3872) state being close to the D0 D threshold. As for the χc1 (3872), it is natu-
+ral to assume that the Tcc+ is dominantly a loosely-bound DD∗ molecule which, in fact,
+matches the theoretical predictions based on the non-relativistic constituent quark model
+made a long time before the Tcc+ discovery [153]. However, since compact tetraquark
+models predict that the Tcc+ mass also be in this range, both configurations might play a
+role. At the same time, a good description of the D0 D0 π + mass spectra by the model
+assuming only Tcc+ → DD∗ decays, discussed above, does not leave much room for non-
+resonant Tcc+ → DDπ(γ) decay modes, which are expected to be sizeable for a compact
+tetraquark. Compared to the Tcc+ , the χc1 (3872) has an order of magnitude larger width,
+it decays to the lighter charmonium states, and it can contain an admixture of the con-
+ventional charmonium state itself. This makes the Tcc+ a much simpler state for theoretical
+description and allows for less ambiguous interpretation of its experimentally measured
+properties. Hence it has a great potential for helping to identify the relative roles of
+compact tetraquark and “molecular” configurations.
+
+
+9     FUTURE PROSPECTS
+During Run 1 and 2 the LHCb experiment successfully operated at instantaneous lu-
+minosities reaching L ∼ 4 × 1032 cm−2 s−1 and produced excellent results. To cope with
+higher instantaneous luminosity, while maintaining or improving detection efficiency, a
+major upgrade of the detector has been installed during Long Shutdown 2 [154]. The new
+detector is now in place.
+    Increased luminosity will result in signal rates exceeding 1 MHz, which previously was
+the maximum output rate of the hardware (‘level-0’) trigger of the original detector. If
+a similar hardware trigger had been used, it would have resulted in a large loss of the
+signal efficiency devaluing the gain from the higher luminosity, especially for fully hadronic
+channels. To overcome this limitation, the level-0 trigger was eliminated, thus for the first
+time introducing a full-software trigger and readout of the entire detector at the visible
+LHC beam-beam collision rate of 30 MHz. This allows to discriminate signals from the
+backgrounds based on full event reconstruction. Hence trigger efficiencies are kept as high
+as in Run 1 and Run 2 or, in case of fully hadronic channels, are even doubled. This new
+approach required migration of the first stage of the partial event reconstruction to a
+farm of GPU-equipped compute nodes and speeding up the rest of event reconstruction
+via efficient use of memory allocations and multi-threading. To cope with the increased
+number of beam-beam interactions per beam crossing, and thus detector occupancy, the
+experiment’s tracking system was completely upgraded. A new vertex detector is made of
+an array of silicon pixel detectors, replacing the silicon strips used before the upgrade. The
+inner radius was decreased from 8.2 mm to 5.1 mm. The silicon-strip tracker in front of
+the dipole magnet has a much improved readout segmentation and also extends closer to
+the beam pipe. The tracker behind the magnet, which used to be a combination of silicon-
+strips in the inner part and straw-tubes in the outer part was replaced by scintillating
+fibers. All sensors, including new photo-detectors in the RICH detectors (multi-anode
+PMTs instead of HPDs), are now read out at the 40 MHz beam crossing frequency.
+
+
+                                             26
+The new nominal luminosity should reach L ∼ 2 × 1033 cm−2 s−1 and a total integrated
+luminosity of around 50 fb−1 is expected by the end of Run 4 of the LHC (including Run 1-
+2). Together with improved trigger efficiency, the total yields in most physics channels
+will be an order of magnitude larger than in Run 1-2. This opens vast opportunities for
+extension of exotic hadron studies.
+    For various b decays to final states containing a J/ψ or ψ(2S) decaying to µ+ µ− signal
+yields will reach millions of events. For final states with other types of charmonium
+states decaying to hadrons, like ηc or χc0,1,2 decaying to pp, which have relatively low
+branching fractions and lower trigger efficiencies, signal yields will reach up to hundreds
+of thousands events. This will allow for precise characterisation of already-discovered
+tetraquark and pentaquark states with hidden charmonium. At the same time, signal
+yields for b decays to final states with double open charm (DD, Λ+       c D etc.) will reach
+tens of thousands of events allowing for observation of tetraquarks and pentaquarks in
+these modes. That will open the way to constrain coupled-channel effects in their various
+decay modes and, eventually, a joint description of corresponding decay amplitudes via
+e.g. K-matrix formalism.
+    In relation to exploration of the χc1 (3872) state, the larger dataset would allow precise
+determination of relative branching fractions of its various decays and access to new
+suppressed decay modes (χc1 π + π − , pp etc.). Moreover, decays of other exotic states to the
+χc1 (3872) may be discovered. Improved studies of the χc1 (3872) mass lineshape in selected
+decay channels will elucidate the nature of the χc1 (3872). With the SMOG system [155]
+capable of injecting various noble gases into the volume of LHCb vertex detector, studies
+of the χc1 (3872) production can be extended to a larger number of colliding systems.
+    Run 3 and 4 will also make it possible to do detailed study of doubly-charmed exotic
+states, namely the Tcc+ and resonances in J/ψJ/ψ system, and to search for analogous
+states with beauty quarks. They will also increase prospects for studies of exotic states
+with hidden beauty, so far observed only in e+ e− collisions, and searches for other types
+of exotic states like tetra/pentaquarks decaying only weakly or hadrons formed by six
+quarks.
+    To exploit the High Luminosity LHC (HL-LHC), a further upgrade (‘Upgrade II’)
+is planned to be for Long Shutdown 4 [156]. After the second upgrade, the detector
+will operate at a maximum instantaneous luminosity of L ∼ 1.5 × 1034 cm−2 s−1 , with
+a plan to integrate a dataset corresponding to an integrated luminosity of 300 fb−1 by
+the end of data collection, thus increasing statistics in most channels by another order
+of magnitude. The LHCb experiment will be capable of studying exotic hadrons with
+charm in decays of any b-hadron up to Bc+ meson, and in almost all conceivable final
+states, which otherwise will not be accessible in any other experiment foreseen in the
+coming decades. For a number of exotic states, double-differential measurements of their
+production cross-sections will be performed, together with their dependence on collision
+environment. Potentially, the obtained experimental knowledge will reach a volume and
+quality to allow a profound understanding of nature of the multiquark states and will help
+to improve knowledge of non-perturbative QCD.
+    While exotic hadron spectroscopy has a bright future in the LHCb program, other
+experimental programs have an important role to play in investigating exotic hadrons
+which may not be reachable at the LHC, like e.g. ψ(4230) or Zb+,0 states [157].
+
+                                             27
+10     CONCLUSIONS
+The first generation of the LHCb experiment, which collected data over the past decade
+(Run 1 and 2 at the LHC), had a profound impact on exotic hadron spectroscopy. This was
+achieved thanks to its unique capabilities (Sec. 2) to efficiently trigger on, and suppress
+backgrounds in, final states containing heavy charm and bottom quarks at the LHC. The
+resulting heavy-quark dataset will be unrivalled for decades to come. It demonstrated
+that many previously known exotic hadron candidates can be best studied at such a
+high-energy hadron collider, in spite of the experimental complications stemming from
+the large number of particles produced in such environment. The LHCb collaboration’s
+achievements in studies of the χc1 (3872) particle (Sec. 3) are excellent examples including
+the definite determination of its quantum numbers, reaching sensitivity to observe its
+natural lineshape for the first time, providing precise clarification of the isopin-violating
+nature of its discovery mode χc1 (3872) → π + π − J/ψ, and uncovering evidence for unusual
+particle-multiplicity dependence of its prompt production.
+    The improved sensitivity helped to demonstrate that many hidden-charm exotic hadrons
+previously observed in B meson decays, like the Zc (4430)+ → ψ(2S)π + and X(4140) →
+J/ψϕ, were only the tip of the iceberg of a rich spectrum of similar states with various
+quantum numbers (Sec. 5). Exotic J/ψK + resonances in the same B meson decays have
+been observed for the first time. None of these states are very narrow, qualitatively fit-
+ting the expectations of compact tetraquark model, (ccqq), in which there is no effective
+mechanism to suppress c and c finding each other to form ψ(2S) or J/ψ. Coupled-channel
+effects still need to be taken into account in the amplitude analyses used to extract their
+spectra, before the spectral decomposition of these resonances is to be fully trusted. So
+far, there is no evidence for comparatively narrow “molecular” tetraquark states, like the
+Zc (3900)+,0 → J/ψπ +,0 so well established in e+ e− production.
+    In contrast, among the most striking discoveries by the LHCb experiment are the rela-
+tively narrow pentaquark states Pc+ → J/ψp and Pcs0 → J/ψΛ, matching the expectations
+for “molecular” states near the charmed-baryon+charmed-meson mass thresholds (Sec. 4).
+Whether broader pentaquark states, matching compact pentaquark spectroscopy, exist is
+an open experimental question. These hidden-charm pentaquarks have been observed in
+b baryon decays, which are not reachable at the e+ e− B−factories.
+    Less clear is the origin of the charmed-and-strange tetraquark candidates discovered
+by the LHCb experiment in B meson decays (Sec. 6). The BelleII experiment has good
+prospects to contribute here.
+    The other frontier opened by the LHCb experiment concerns (cccc) states observed in
+prompt productions, and decaying to vector-charmonium pairs (Sec. 7). Since the latter
+are detected the in (µ+ µ− )(µ+ µ− ) final state, the ATLAS and CMS experiments have
+good sensitivity to them. They both confirmed the mass structures discovered by the
+LHCb collaboration and contributed additional evidence for the states. These structures
+are not unlikely to be due to compact tetraquark dynamics, though coupled-channel effects
+may also play a role.
+    Last but not least, the LHCb experiment also discovered the narrowest exotic hadron
+known to date, the Tcc+ → D0 D0 π + (Sec. 8), carrying two units of charm (ccud). Having
+some similarities with the χc1 (3872) state, due to the proximity to the DD∗ threshold (or
+
+
+                                            28
+DD∗ in the case of χc1 (3872)), it is also a much simpler state, from both an experimental
+and theoretical point of view, since the two heavy quarks cannot form a conventional
+meson. It thus provides better prospects for understanding the relative roles of compact-
+tetraquark and “molecular” configurations.
+    The full potential of the already-accumulated LHCb data has not yet been realized.
+More experimentally-difficult final states, including neutral particles (γ, π 0 , η, ω) are being
+analyzed and results should become available in the coming years. Prompt production of
+exotic hadrons, which comes with difficult-to-control high backgrounds, may also lead to
+interesting new observations. Central (semi)exclusive production of clean low-multiplicity
+final state has also a potential to be fully explored.
+    To conclude this article, it became very clear from the LHCb discoveries of several
+narrow pentaquarks near the baryon-meson mass thresholds with heavy quarks inside, that
+“molecular” type of bindings are at work. More of such states are likely to be discovered
+in the future. This fits well with the narrow heavy tetraquark states discovered earlier
+at the e+ e− colliders near meson-meson thresholds. There are many other observations
+of broader exotic hadron structures, which don’t fit the molecular model, which point
+to presence of compact color bindings. However, because of experimental difficulties
+of resolving broader states, as well as large theoretical uncertainties in modelling such
+systems, it is harder to draw strong conclusions. It is also quite possible that both
+types of bindings contribute simultaneously to the formation of the observed structures.
+More effort is needed on both experimental and theoretical sides to clarify if compact
+multiquark hadrons really exist, and how the two types of bindings interplay with each
+other. The order-of-magnitude increase in the data samples expected to be collected using
+the upgraded LHCb experiment over the next decade, and the further order-of-magnitude
+increase expected by the Upgrade II of LHCb (Sec. 9) will help this goal.
+
+
+DISCLOSURE STATEMENT
+The authors are not aware of any affiliations, memberships, funding, or financial holdings
+that might be perceived as affecting the objectivity of this review.
+
+
+ACKNOWLEDGMENTS
+This work was supported by the National Science Foundation (USA) Award Number
+2102879, the Science and Technology Facilities Council (UK) [grant reference ST/W004305/1]
+and the 2022/2023 INFN Research Grant Program (Italy) [Announcement n.23591].
+
+
+References
+  [1] M. Gell-Mann, A schematic model of baryons and mesons, Phys. Lett. 8 (1964) 214;
+      G. Zweig, An SU3 model for strong interaction symmetry and its breaking, 1964.
+      version 1: CERN-TH-401; version 2: CERN-TH-412 .
+
+
+
+                                               29
+ [2] LHCb, R. Aaij et al., LHCb Detector Performance, Int. J. Mod. Phys. A 30 (2015),
+     no. 07 1530022, arXiv:1412.6352.
+
+ [3] F. Archilli et al., Performance of the Muon Identification at LHCb, JINST 8 (2013)
+     P10020, arXiv:1306.0249.
+
+ [4] Belle, S. K. Choi et al., Observation of a narrow charmonium-like state in
+     exclusive B ± → K ± π + π − J/ψ decays, Phys. Rev. Lett. 91 (2003) 262001,
+     arXiv:hep-ex/0309032.
+
+ [5] BaBar, B. Aubert et al., Study of the B → J/ψK − π + π − decay and measure-
+     ment of the B → X(3872)K − branching fraction, Phys. Rev. D 71 (2005) 071103,
+     arXiv:hep-ex/0406022.
+                                                                          + −
+                          √ Observation of the narrow state X(3872) → J/ψπ π
+ [6] CDF, D. Acosta et al.,
+     in p̄p collisions at  s = 1.96 TeV, Phys. Rev. Lett. 93 (2004) 072001,
+     arXiv:hep-ex/0312021.
+
+ [7] D0, V. M. Abazov et al., Observation
+                                 √         and properties of the X(3872) decaying to
+          + −
+     J/ψπ π in pp̄ collisions at s = 1.96 TeV, Phys. Rev. Lett. 93 (2004) 162002,
+     arXiv:hep-ex/0405004.
+                                                                                √
+ [8] LHCb, R. Aaij et al., Observation of X(3872) production in pp collisions at s =
+     7 TeV, Eur. Phys. J. C72 (2012) 1972, arXiv:1112.5310.
+
+ [9] CDF, A. Abulencia et al., Analysis of the quantum numbers J P C of the X(3872),
+     Phys. Rev. Lett. 98 (2007) 132002, arXiv:hep-ex/0612053.
+
+[10] Belle, S.-K. Choi et al., Bounds on the width, mass difference and other properties of
+     X(3872) → π + π − J/ψ decays, Phys. Rev. D 84 (2011) 052004, arXiv:1107.0163.
+
+[11] LHCb, R. Aaij et al., Determination of the X(3872) meson quantum numbers, Phys.
+     Rev. Lett. 110 (2013) 222001, arXiv:1302.6269.
+
+[12] LHCb, R. Aaij et al., Quantum numbers of the X(3872) state and orbital an-
+     gular momentum in its ρ0 Jψ decay, Phys. Rev. D 92 (2015), no. 1 011102,
+     arXiv:1504.06339.
+
+[13] LHCb, R. Aaij et al., Observation of sizeable ω contribution to
+     χc1 (3872) → π + π − J/ψ decays, Phys. Rev. D 108 (2023), no. 1 L011103,
+     arXiv:2204.12597.
+
+[14] N. A. Tornqvist, Comment on the narrow charmonium state of Belle at 3871.8-
+     MeV as a deuson, arXiv:hep-ph/0308277; N. A. Tornqvist, Isospin breaking of
+     the narrow charmonium state of Belle at 3872-MeV as a deuson, Phys. Lett. B590
+     (2004) 209, arXiv:hep-ph/0402237; M. B. Voloshin, Interference and binding ef-
+     fects in decays of possible molecular component of X(3872), Phys. Lett. B579 (2004)
+     316, arXiv:hep-ph/0309307; E. S. Swanson, Short range structure in the X(3872),
+     Phys. Lett. B588 (2004) 189, arXiv:hep-ph/0311229.
+
+                                           30
+[15] K. Terasaki, A new tetra-quark interpretation of X(3872), Prog. Theor. Phys. 118
+     (2007) 821, arXiv:0706.3944; L. Maiani, A. D. Polosa, and V. Riquer, A Theory
+     of X and Z Multiquark Resonances, arXiv:1712.05296.
+
+[16] LHCb, R. Aaij et al., Study of the ψ2 (3823) and χc1 (3872) states in
+     B + → (J/ψπ + π − ) K + decays, JHEP 08 (2020) 123, arXiv:2005.13422.
+
+[17] LHCb, R. Aaij et al., Study of the lineshape of the χc1 (3872) state, Phys. Rev. D
+     102 (2020), no. 9 092005, arXiv:2005.13419.
+
+[18] Particle Data Group, R. L. Workman et al., Review of Particle Physics, PTEP 2022
+     (2022) 083C01.
+
+[19] BaBar, B. Aubert et al., Evidence for X(3872) → ψ2S γ in B ± → X3872 K ± decays,
+     and a study of B → cc̄γK, Phys. Rev. Lett. 102 (2009) 132001, arXiv:0809.0042.
+
+[20] Belle, V. Bhardwaj et al., Observation of X(3872) → J/ψγ and search for
+     X(3872) → ψ ′ γ in B decays, Phys. Rev. Lett. 107 (2011) 091803, arXiv:1105.0177.
+
+[21] LHCb, R. Aaij et al., Evidence for the decay X(3872) → ψ(2S)γ, Nucl. Phys. B
+     886 (2014) 665, arXiv:1404.0275.
+
+[22] E. S. Swanson, Molecular interpretation of the X(3872), in 32nd International Con-
+     ference on High Energy Physics, pp. 1037–1039, 10, 2004. arXiv:hep-ph/0410284.
+     doi: 10.1142/9789812702227 0206.
+
+[23] Y. Dong, A. Faessler, T. Gutsche, and V. E. Lyubovitskij, J/ψγ and ψ(2S)γ decay
+     modes of the X(3872), J. Phys. G38 (2011) 015001, arXiv:0909.0380.
+
+[24] J. Ferretti, G. Galatà, and E. Santopinto, Quark structure of the X(3872) and
+     χb (3P ) resonances, Phys. Rev. D 90 (2014), no. 5 054010, arXiv:1401.4431.
+
+[25] F.-K. Guo et al., What can radiative decays of the X(3872) teach us about its nature?,
+     Phys. Lett. B742 (2015) 394, arXiv:1410.6712.
+
+[26] S. Takeuchi, M. Takizawa, and K. Shimizu, Radiative Decays of the X(3872) in
+     the Charmonium-Molecule Hybrid Picture, JPS Conf. Proc. 17 (2017) 112001,
+     arXiv:1602.04297.
+
+[27] BESIII, M. Ablikim et al., Study of Open-Charm Decays and Radiative Transitions
+     of the X(3872), Phys. Rev. Lett. 124 (2020), no. 24 242001, arXiv:2001.01156.
+
+[28] LHCb, R. Aaij et al., Study of Bs0 → J/ψπ + π − K + K − decays, JHEP 02 (2021) 024,
+     arXiv:2011.01867, [Erratum: JHEP 04, 170 (2021)].
+
+[29] LHCb, R. Aaij et al., Observation of the Bs0 → χc1 (3872)π + π − decay, JHEP 07
+     (2023) 084, arXiv:2302.10629.
+
+[30] LHCb, R. Aaij et al., Observation of the Λ0b → χc1 (3872)pK − decay, JHEP 09
+     (2019) 028, arXiv:1907.00954.
+
+                                           31
+[31] CMS Collaboration, A. M. Sirunyan et al., Observation of the Bs0 → X (3872)ϕ
+     decay, Phys. Rev. Lett. 125 (2020) 152001, arXiv:2005.04764.
+
+[32] L. Maiani, A. D. Polosa, and V. Riquer, X(3872) tetraquarks in B and Bs decays,
+     Phys. Rev. D 102 (2020), no. 3 034017, arXiv:2005.08764.
+
+[33] LHCb, R.√ Aaij et al., Measurement of χc1 (3872) production in proton-proton colli-
+     sions at s = 8 and 13 TeV, JHEP 01 (2022) 131, arXiv:2109.07360.
+
+[34] LHCb, R. Aaij et al., Observation of Multiplicity Dependent Prompt χc1 (3872) and
+     ψ(2S) Production in pp Collisions, Phys. Rev. Lett. 126 (2021), no. 9 092001,
+     arXiv:2009.06619.
+
+[35] A. Esposito et al., The nature of X(3872) from high-multiplicity pp collisions, Eur.
+     Phys. J. C 81 (2021) 669, arXiv:2006.15044.
+
+[36] E. Braaten, L.-P. He, K. Ingles, and J. Jiang, Production of X(3872) at High Mul-
+     tiplicity, Phys. Rev. D 103 (2021), no. 7 L071901, arXiv:2012.13499.
+
+[37] LHCb, R. Aaij et al., Modification of χc1 (3872) and ψ(2S) production in pPb colli-
+             √
+     sions at sN N = 8.16 TeV, LHCb-CONF-2022-001.
+
+[38] CMS, A. M. Sirunyan et al., Evidence for X(3872) in Pb-Pb Collisions and Studies
+                                 √
+     of its Prompt Production at sN N =5.02 TeV, Phys. Rev. Lett. 128 (2022), no. 3
+     032001, arXiv:2102.13048.
+
+[39] N. Isgur and G. Karl, P Wave Baryons in the Quark Model, Phys. Rev. D18 (1978)
+     4187.
+
+[40] LEPS, T. Nakano et al., Evidence for a narrow S = +1 baryon resonance
+     in photoproduction from the neutron, Phys. Rev. Lett. 91 (2003) 012002,
+     arXiv:hep-ex/0301020.
+
+[41] CLAS, S. Stepanyan et al., Observation of an exotic S = +1 baryon in ex-
+     clusive photoproduction from the deuteron, Phys. Rev. Lett. 91 (2003) 252001,
+     arXiv:hep-ex/0307018.
+
+[42] CLAS, V. Kubarovsky et al., Observation of an exotic baryon with S = +1
+     in photoproduction from the proton, Phys. Rev. Lett. 92 (2004) 032001,
+     arXiv:hep-ex/0311046, [Erratum: Phys.Rev.Lett. 92, 049902 (2004)].
+
+[43] LHCb, R. Aaij et al., Observation of J/ψp Resonances Consistent with Pen-
+     taquark States in Λ0b → J/ψK − p Decays, Phys. Rev. Lett. 115 (2015) 072001,
+     arXiv:1507.03414.
+
+[44] LHCb, R. Aaij et al., Observation of a narrow pentaquark state, Pc (4312)+ , and of
+     two-peak structure of the Pc (4450)+ , Phys. Rev. Lett. 122 (2019), no. 22 222001,
+     arXiv:1904.03947.
+
+
+
+                                          32
+[45] LHCb, R. Aaij et al., Evidence of a J/ψΛ structure and observation of excited Ξ−
+     states in the Ξ−
+                    b → J/ψΛK
+                                −
+                                  decay, Sci. Bull. 66 (2021) 1278, arXiv:2012.10380.
+
+[46] LHCb, R. Aaij et al., Evidence for a new structure in the J/ψp and J/ψ p̄ systems in
+     Bs0 → J/ψpp̄ decays, Phys. Rev. Lett. 128 (2022), no. 6 062001, arXiv:2108.04720.
+
+[47] LHCb, R. Aaij et al., Observation of a J/ψΛ Resonance Consistent with a Strange
+     Pentaquark Candidate in B − → J/ψΛp Decays, Phys. Rev. Lett. 131 (2023), no. 3
+     031901, arXiv:2210.10346.
+
+[48] LHCb, R. Aaij et al., Model-independent evidence for J/ψp contributions to
+     Λ0b → J/ψpK − decays, Phys. Rev. Lett. 117 (2016) 082002, arXiv:1604.05708.
+
+[49] M. Wang et al., A novel method to test particle ordering and final state alignment
+     in helicity formalism, Chin. Phys. C 45 (2021), no. 6 063103, arXiv:2012.03699.
+
+[50] A. Ali and A. Y. Parkhomenko, Interpretation of the narrow J/ψp Peaks in
+     Λb → J/ψpK − decay in the compact diquark model, Phys. Lett. B 793 (2019)
+     365, arXiv:1904.00446.
+
+[51] M.-Z. Liu et al., Emergence of a complete heavy-quark spin symmetry multiplet:
+     seven molecular pentaquarks in light of the latest LHCb analysis, Phys. Rev. Lett.
+     122 (2019), no. 24 242001, arXiv:1903.11560.
+
+[52] Z.-C. Yang et al., The possible hidden-charm molecular baryons composed of anti-
+     charmed meson and charmed baryon, Chin. Phys. C 36 (2012) 6, arXiv:1105.2901.
+
+[53] J.-J. Wu, R. Molina, E. Oset, and B. S. Zou, Prediction of narrow N ∗ and Λ∗
+     resonances with hidden charm above 4 GeV, Phys. Rev. Lett. 105 (2010) 232001,
+     arXiv:1007.0573.
+
+[54] J.-J. Wu, T.-S. H. Lee, and B. S. Zou, Nucleon Resonances with Hidden Charm in
+     Coupled-Channel Models, Phys. Rev. C 85 (2012) 044002, arXiv:1202.1036.
+
+[55] M. Karliner and J. L. Rosner, New Exotic Meson and Baryon Resonances
+     from Doubly-Heavy Hadronic Molecules, Phys. Rev. Lett. 115 (2015) 122001,
+     arXiv:1506.06386.
+
+[56] R. Chen, Z.-F. Sun, X. Liu, and S.-L. Zhu, Strong LHCb evidence supporting the
+     existence of the hidden-charm molecular pentaquarks, Phys. Rev. D 100 (2019),
+     no. 1 011502, arXiv:1903.11013.
+
+[57] F.-K. Guo, H.-J. Jing, U.-G. Meißner, and S. Sakai, Isospin breaking decays as a
+     diagnosis of the hadronic molecular structure of the Pc (4457), Phys. Rev. D 99
+     (2019), no. 9 091501, arXiv:1903.11503.
+
+[58] J. He, Study of Pc (4457), Pc (4440), and Pc (4312) in a quasipotential Bethe-Salpeter
+     equation approach, Eur. Phys. J. C 79 (2019), no. 5 393, arXiv:1903.11872.
+
+
+
+                                           33
+[59] H. Huang, J. He, and J. Ping, Looking for the hidden-charm pentaquark resonances
+     in J/ψp scattering, arXiv:1904.00221.
+
+[60] Y. Shimizu, Y. Yamaguchi, and M. Harada, Heavy quark spin multiplet structure of
+     Pc (4312), Pc (4440), and Pc (4457), arXiv:1904.00587.
+
+[61] Z.-H. Guo and J. A. Oller, Anatomy of the newly observed hidden-charm pen-
+     taquark states: Pc (4312), Pc (4440) and Pc (4457), Phys. Lett. B 793 (2019) 144,
+     arXiv:1904.00851.
+
+[62] C.-J. Xiao et al., Exploring the molecular scenario of Pc(4312) , Pc(4440) , and
+     Pc(4457), Phys. Rev. D 100 (2019), no. 1 014022, arXiv:1904.00872.
+
+[63] L. Meng, B. Wang, G.-J. Wang, and S.-L. Zhu, The hidden charm pentaquark states
+     and Σc D̄(∗) interaction in chiral perturbation theory, Phys. Rev. D 100 (2019), no. 1
+     014031, arXiv:1905.04113.
+
+[64] Q. Wu and D.-Y. Chen, Production of Pc states from Λb decay, Phys. Rev. D 100
+     (2019), no. 11 114002, arXiv:1906.02480.
+
+[65] C.-W. Shen, J.-J. Wu, and B.-S. Zou, Decay behaviors of possible Λcc̄ states
+     in hadronic molecule pictures, Phys. Rev. D 100 (2019), no. 5 056006,
+     arXiv:1906.03896.
+
+[66] C. W. Xiao, J. Nieves, and E. Oset, Prediction of hidden charm strange molecular
+     baryon states with heavy quark spin symmetry, Phys. Lett. B 799 (2019) 135051,
+     arXiv:1906.09010.
+
+[67] M. B. Voloshin, Some decay properties of hidden-charm pentaquarks as baryon-
+     meson molecules, Phys. Rev. D 100 (2019), no. 3 034020, arXiv:1907.01476.
+
+[68] S. Sakai, H.-J. Jing, and F.-K. Guo, Decays of Pc into J/ψN and ηc N with heavy
+     quark spin symmetry, Phys. Rev. D 100 (2019), no. 7 074007, arXiv:1907.03414.
+
+[69] Z.-G. Wang and X. Wang, Analysis of the strong decays of the Pc (4312) as a pen-
+     taquark molecular state with QCD sum rules, Chin. Phys. C 44 (2020) 103102,
+     arXiv:1907.04582.
+
+[70] Y. Yamaguchi et al., Pc pentaquarks with chiral tensor and quark dynamics, Phys.
+     Rev. D 101 (2020), no. 9 091502, arXiv:1907.04684.
+
+[71] Y.-J. Xu, C.-Y. Cui, Y.-L. Liu, and M.-Q. Huang, Partial decay widths of
+     Pc (4312) as a D̄Σc molecular state, Phys. Rev. D 102 (2020), no. 3 034028,
+     arXiv:1907.05097.
+
+[72] M. Pavon Valderrama, One pion exchange and the quantum numbers of the
+     Pc (4440) and Pc (4457) pentaquarks, Phys. Rev. D 100 (2019), no. 9 094028,
+     arXiv:1907.05294.
+
+
+
+                                           34
+[73] F.-Z. Peng et al., Five-flavor pentaquarks and other light- and heavy-flavor symmetry
+     partners of the LHCb hidden-charm pentaquarks, Nucl. Phys. B 983 (2022) 115936,
+     arXiv:1907.05322.
+
+[74] M.-Z. Liu et al., Spin-parities of the Pc (4440) and Pc (4457) in the one-boson-
+     exchange model, Phys. Rev. D 103 (2021), no. 5 054004, arXiv:1907.06093.
+
+[75] Y.-W. Pan et al., Model independent determination of the spins of the Pc (4440) and
+     Pc (4457) from the spectroscopy of the triply charmed dibaryons, Phys. Rev. D 102
+     (2020), no. 1 011504, arXiv:1907.11220.
+
+[76] T. J. Burns and E. S. Swanson, Molecular interpretation of the Pc (4440) and
+     Pc (4457) states, Phys. Rev. D 100 (2019), no. 11 114033, arXiv:1908.03528.
+
+[77] F.-K. Guo, U.-G. Meißner, W. Wang, and Z. Yang, How to reveal the exotic nature
+     of the Pc (4450), Phys. Rev. D92 (2015) 071502, arXiv:1507.04950.
+
+[78] U.-G. Meißner and J. A. Oller, Testing the χc1 p composite nature of the Pc (4450),
+     Phys. Lett. B751 (2015) 59, arXiv:1507.07478.
+
+[79] X.-H. Liu, Q. Wang, and Q. Zhao, Understanding the newly observed heavy pen-
+     taquark candidates, Phys. Lett. B757 (2016) 231, arXiv:1507.05359.
+
+[80] M. Mikhasenko, A          triangle   singularity   and   the   LHCb     pentaquarks,
+     arXiv:1507.06552.
+
+[81] M. I. Eides, V. Y. Petrov, and M. V. Polyakov, New LHCb pentaquarks as hadrochar-
+     monium states, Mod. Phys. Lett. A 35 (2020), no. 18 2050151, arXiv:1904.11616.
+
+[82] M. Wang, Amplitude analysis of the Λ0b → J/ψpK − decay and first observation of
+     the Λ0b → ηc (1S)pK − decay, PhD thesis, Tsinghua U., 2021, CERN-THESIS-2021-
+     314.
+
+[83] LHCb, R. Aaij et al., Evidence for exotic hadron contributions to Λ0b → J/ψpπ −
+     decays, Phys. Rev. Lett. 117 (2016) 082003, arXiv:1606.06999, [Addendum: Phys.
+     Rev. Lett.117 (2016) 109902].
+                                           0
+[84] LHCb, R. Aaij et al., Observation of B(s) → J/ψpp decays and precision mea-
+                        0
+     surements of the B(s) masses, Phys. Rev. Lett. 122 (2019), no. 19 191804,
+     arXiv:1902.05588.
+
+[85] Y. K. Hsiao and C. Q. Geng, fJ (2220) and hadronic B̄s0 decays, Eur. Phys. J. C 75
+     (2015), no. 3 101, arXiv:1412.4900.
+
+[86] JPAC, M. Mikhasenko et al., Dalitz-plot decomposition for three-body decays, Phys.
+     Rev. D 101 (2020), no. 3 034033, arXiv:1910.04566.
+
+[87] M. Karliner and J. L. Rosner, New strange pentaquarks, Phys. Rev. D 106 (2022),
+     no. 3 036024, arXiv:2207.07581.
+
+
+                                           35
+ [88] Belle, S. K. Choi et al., Observation of a resonance-like structure in the π ± ψ ′ mass
+      distribution in exclusive B → Kπ ± ψ ′ decays, Phys. Rev. Lett. 100 (2008) 142001,
+      arXiv:0708.1790.
+
+ [89] BaBar, B. Aubert et al., Search for the Z(4430)− at BABAR, Phys. Rev. D 79
+      (2009) 112001, arXiv:0811.0564.
+
+ [90] LHCb, R. Aaij et al., Observation of the resonant character of the Z(4430)− state,
+      Phys. Rev. Lett. 112 (2014), no. 22 222002, arXiv:1404.1903.
+
+ [91] Belle, K. Chilikin et al., Experimental constraints on the spin and parity of the
+      Z(4430)+ , Phys. Rev. D88 (2013) 074026, arXiv:1306.4894.
+
+ [92] Belle, K. Chilikin et al., Observation of a new charged charmoniumlike state in
+      B̄ 0 → J/ψK − π + decays, Phys. Rev. D 90 (2014), no. 11 112009, arXiv:1408.6457.
+
+ [93] LHCb, R. Aaij et al., Model-independent confirmation of the Z(4430)− state, Phys.
+      Rev. D 92 (2015), no. 11 112009, arXiv:1510.01951.
+
+ [94] LHCb, R. Aaij et al., Model-Independent Observation of Exotic Contributions
+      to B 0 → J/ψK + π − Decays, Phys. Rev. Lett. 122 (2019), no. 15 152002,
+      arXiv:1901.05745.
+
+ [95] A. Beiter, Amplitude analysis of B 0 decays to J/ψπ − K + and ψ(2S)π − K + , PhD
+      thesis, Syracuse U., 2023, CERN-THESIS-2023-027.
+
+ [96] CDF, T. Aaltonen et al., Evidence for a Narrow Near-Threshold Structure in the
+      J/ψϕ Mass Spectrum in B + → J/ψϕK + Decays, Phys. Rev. Lett. 102 (2009)
+      242002, arXiv:0903.2229.
+
+ [97] Belle, S. Cheng-Ping, XYZ particles at Belle, Chin. Phys. C 34 (2010) 615,
+      arXiv:0912.2386.
+
+ [98] CDF, T. Aaltonen et al., Observation of the Y (4140) Structure in the J/ψϕ Mass
+      Spectrum in B ± → J/ψϕK ± Decays, Mod. Phys. Lett. A 32 (2017), no. 26 1750139,
+      arXiv:1101.6058.
+
+ [99] LHCb, R. Aaij et al., Search for the X(4140) state in B + → J/ψϕK + decays, Phys.
+      Rev. D 85 (2012) 091103, arXiv:1202.5087.
+
+[100] BaBar, J. P. Lees et al., Study of B ±,0 → J/ψK + K − K ±,0 and search for B 0 → J/ψϕ
+      at BABAR, Phys. Rev. D 91 (2015), no. 1 012003, arXiv:1407.7244.
+
+[101] CMS, S. Chatrchyan et al., Observation of a Peaking Structure in the J/ψϕ
+      Mass Spectrum from B ± → J/ψϕK ± Decays, Phys. Lett. B 734 (2014) 261,
+      arXiv:1309.6920.
+
+[102] D0, V. M. Abazov et al., Inclusive Production of the X(4140) State in pp Collisions
+      at D0, Phys. Rev. Lett. 115 (2015), no. 23 232001, arXiv:1508.07846.
+
+
+                                             36
+[103] D0, V. M. Abazov et al., Search for the X(4140) state in B + → J/ψϕK + decays
+      with the D0 Detector, Phys. Rev. D 89 (2014), no. 1 012004, arXiv:1309.6580.
+[104] LHCb, R. Aaij et al., Amplitude analysis of B + → J/ψϕK + decays, Phys. Rev. D
+      95 (2017), no. 1 012002, arXiv:1606.07898.
+[105] LHCb, R. Aaij et al., Observation of J/ψϕ structures consistent with exotic states
+      from amplitude analysis of B + → J/ψϕK + decays, Phys. Rev. Lett. 118 (2017),
+      no. 2 022003, arXiv:1606.07895.
+[106] LHCb, R. Aaij et al., Observation of New Resonances Decaying to J/ψK + and J/ψϕ,
+      Phys. Rev. Lett. 127 (2021), no. 8 082001, arXiv:2103.01803.
+[107] LHCb, R. Aaij et al., Evidence of a J/ψKS0 Structure in B 0 → J/ψϕKS0 Decays,
+      Phys. Rev. Lett. 131 (2023), no. 13 131901, arXiv:2301.04899.
+[108] LHCb, R. Aaij et al., First observation of the B + → Ds+ Ds− K + decay, Phys. Rev.
+      D 108 (2023) 034012, arXiv:2211.05034.
+[109] LHCb, R. Aaij et al., Observation of a Resonant Structure near the Ds+ Ds− Thresh-
+      old in the B + → Ds+ Ds− K + Decay, Phys. Rev. Lett. 131 (2023), no. 7 071901,
+      arXiv:2210.15153.
+                                                                       ∗
+[110] R. Molina, T. Branz, and E. Oset, A new interpretation for the Ds2 (2573) and
+      the prediction of novel exotic charmed mesons, Phys. Rev. D 82 (2010) 014010,
+      arXiv:1005.0335.
+[111] Y.-R. Liu, X. Liu, and S.-L. Zhu, X(5568) and and its partner states, Phys. Rev. D
+      93 (2016), no. 7 074023, arXiv:1603.01131.
+[112] J.-B. Cheng et al., Spectrum and rearrangement decays of tetraquark states with four
+      different flavors, Phys. Rev. D 101 (2020), no. 11 114017, arXiv:2001.05287.
+[113] LHCb, R. Aaij et al., A model-independent study of resonant structure in
+      B + → D+ D− K + decays, Phys. Rev. Lett. 125 (2020) 242001, arXiv:2009.00025.
+[114] LHCb, R. Aaij et al., Amplitude analysis of the B + → D+ D− K + decay, Phys. Rev.
+      D 102 (2020) 112003, arXiv:2009.00026.
+[115] T. J. Burns and E. S. Swanson, Discriminating among interpretations for the
+      X(2900) states, Phys. Rev. D 103 (2021), no. 1 014004, arXiv:2009.05352.
+[116] T. Guo, J. Li, J. Zhao, and L. He, Mass spectra and decays of open-heavy tetraquark
+      states, Phys. Rev. D 105 (2022), no. 5 054018, arXiv:2108.06222.
+[117] R. Molina and E. Oset, Tcs (2900)− as a threshold effect from the interaction of the
+      D∗ K ∗ , Ds∗ ρ channels, Phys. Rev. D 107 (2023), no. 5 056015, arXiv:2211.01302.
+[118] X.-H. Liu et al., Triangle singularity as the origin of X0 (2900) and X1 (2900)
+      observed in B + → D+ D− K + , Eur. Phys. J. C 80 (2020), no. 12 1178,
+      arXiv:2008.07190.
+
+                                           37
+[119] LHCb, R. Aaij et al., First Observation of a Doubly Charged Tetraquark and Its
+      Neutral Partner, Phys. Rev. Lett. 131 (2023), no. 4 041902, arXiv:2212.02716.
+                                                              0
+[120] LHCb, R. Aaij et al., Amplitude analysis of B 0 → D Ds+ π − and B + → D− Ds+ π +
+      decays, Phys. Rev. D 108 (2023), no. 1 012017, arXiv:2212.02717.
+
+[121] D.-K. Lian et al., Strong decays of Tcs̄0 (2900)++/0 as a fully open-flavor tetraquark
+      state, arXiv:2302.01167.
+                                                                     a
+[122] S. S. Agaev, K. Azizi, and H. Sundu, Modeling the resonance Tcs0 (2900)++
+      as a hadronic molecule D∗+ K ∗ + , Phys. Rev. D 107 (2023), no. 9 094019,
+      arXiv:2212.12001.
+
+[123] V. Dmitrašinović, Are LHCb exotics Tcs̄0 (2900)0 , Tcs̄0 (2900)++ and X 0 (2900) mem-
+      bers of an SUF (3) 6-plet?, arXiv:2301.05471.
+
+[124] LHCb, R. Aaij et al., Observation of structure in the J/ψ -pair mass spectrum, Sci.
+      Bull. 65 (2020), no. 23 1983, arXiv:2006.16957.
+
+[125] LHCb, R. Aaij et al., Search for beautiful tetraquarks in the Υ(1S)µ+ µ− invariant-
+      mass spectrum, JHEP 10 (2018) 086, arXiv:1806.09707.
+
+[126] CMS, A. M. Sirunyan et al., Measurement of the Υ(1S) pair production cross section
+                                                    + −
+      √ search for resonances decaying to Υ(1S)µ µ in proton-proton collisions at
+      and
+        s = 13 TeV, Phys. Lett. B 808 (2020) 135578, arXiv:2002.06393.
+
+[127] Y. Iwasaki, Is a State c anti-c c anti-c Found at 6.0-GeV?, Phys. Rev. Lett. 36
+      (1976) 1266.
+
+                              cc) (Diquark - Anti-Diquark) States in e+ e− Annihilation,
+[128] K.-T. Chao, The (cc) - ( ¯
+      Z. Phys. C 7 (1981) 317.
+
+[129] J. P. Ader, J. M. Richard, and P. Taxil, Do narrow heavy multiquark states exist?,
+      Phys. Rev. D 25 (1982) 2370.
+
+[130] B.-A. Li and K.-F. Liu, J/ψ Pair Production in Hadronic Collisions, Phys. Rev. D
+      29 (1984) 426.
+
+[131] A. V. Berezhnoy, A. V. Luchinsky, and A. A. Novoselov, Tetraquarks Composed of
+      4 Heavy Quarks, Phys. Rev. D 86 (2012) 034004, arXiv:1111.1867.
+
+[132] J. Wu et al., Heavy-flavored tetraquark states with the QQQ̄Q̄ configuration, Phys.
+      Rev. D 97 (2018), no. 9 094015, arXiv:1605.01134.
+
+[133] M. Karliner, S. Nussinov, and J. L. Rosner, QQQ̄Q̄ states: masses, production, and
+      decays, Phys. Rev. D95 (2017) 034011, arXiv:1611.00348.
+
+[134] N. Barnea, J. Vijande, and A. Valcarce, Four-quark spectroscopy within the hyper-
+      spherical formalism, Phys. Rev. D 73 (2006) 054004, arXiv:hep-ph/0604010.
+
+
+                                             38
+[135] V. R. Debastiani and F. S. Navarra, A non-relativistic model for the [cc][c̄c̄]
+      tetraquark, arXiv:1706.07553.
+
+[136] M.-S. Liu, Q.-F. Lü, X.-H. Zhong, and Q. Zhao, All-heavy tetraquarks, Phys. Rev.
+      D 100 (2019), no. 1 016006, arXiv:1901.02564.
+
+[137] W. Chen et al., Hunting for exotic doubly hidden-charm/bottom tetraquark states,
+      Phys. Lett. B 773 (2017) 247, arXiv:1605.01647.
+
+[138] G.-J. Wang, L. Meng, and S.-L. Zhu, Spectrum of the fully-heavy tetraquark state
+      QQQ̄′ Q̄′ , Phys. Rev. D 100 (2019), no. 9 096013, arXiv:1907.05177.
+
+[139] M. A. Bedolla, J. Ferretti, C. D. Roberts, and E. Santopinto, Spectrum of fully-
+      heavy tetraquarks from a diquark+antidiquark perspective, Eur. Phys. J. C 80 (2020),
+      no. 11 1004, arXiv:1911.00960.
+
+[140] R. J. Lloyd and J. P. Vary, All charm tetraquarks, Phys. Rev. D 70 (2004) 014009,
+      arXiv:hep-ph/0311179.
+
+[141] X. Chen, Fully-charm tetraquarks: ccc̄c̄, arXiv:2001.06755.
+
+[142] Z.-G. Wang and Z.-Y. Di, Analysis of the vector and axialvector QQQ̄Q̄
+      tetraquark states with QCD sum rules, Acta Phys. Polon. B 50 (2019) 1335,
+      arXiv:1807.08520.
+
+[143] M. N. Anwar et al., Spectroscopy and decays of the fully-heavy tetraquarks,
+      arXiv:1710.02540.
+
+[144] ATLAS, G. Aad et al., Observation of an Excess of Dicharmonium Events in the
+      Four-Muon Final State with the ATLAS Detector, Phys. Rev. Lett. 131 (2023),
+      no. 15 151902, arXiv:2304.08962.
+
+[145] CMS, A. Hayrapetyan et al., Observation√ of new structure in the J/ψJ/ψ mass
+      spectrum in proton-proton collisions at s = 13 TeV, arXiv:2306.07164.
+
+[146] X.-K. Dong et al., Coupled-Channel Interpretation of the LHCb Double- J/ψ Spec-
+      trum and Hints of a New State Near the J/ψJ/ψ Threshold, Phys. Rev. Lett. 126
+      (2021), no. 13 132001, arXiv:2009.07795, [Erratum: Phys.Rev.Lett. 127, 119901
+      (2021)].
+
+[147] LHCb, R. Aaij et al., Observation of the doubly charmed baryon Ξ++
+                                                                      cc , Phys. Rev.
+      Lett. 119 (2017), no. 11 112001, arXiv:1707.01621.
+
+[148] LHCb, R. Aaij et al., Precision measurement of the Ξ++
+                                                          cc mass, JHEP 02 (2020)
+      049, arXiv:1911.08594.
+
+[149] J. L. Ballot and J. M. Richard, Four quark states in additive potentials, Physics
+      Letters B 123 (1983), no. 6 449.
+
+
+
+                                           39
+[150] M. Karliner and J. L. Rosner, Discovery of doubly-charmed Ξcc baryon implies a
+                  ¯ tetraquark, Phys. Rev. Lett. 119 (2017) 202001, arXiv:1707.07666.
+      stable (bbūd)
+
+[151] LHCb, R. Aaij et al., Observation of an exotic narrow doubly charmed tetraquark,
+      Nature Phys. 18 (2022), no. 7 751, arXiv:2109.01038.
+
+[152] LHCb, R. Aaij et al., Study of the doubly charmed tetraquark Tcc+ , Nature Commun.
+      13 (2022), no. 1 3351, arXiv:2109.01056.
+
+[153] D. Janc and M. Rosina, The Tcc = DD∗ molecular state, Few Body Syst. 35 (2004)
+      175, arXiv:hep-ph/0405208.
+
+[154] LHCb, R. Aaij et al., The LHCb upgrade I, arXiv:2305.10515.
+
+[155] C. Barschel, Precision luminosity measurement at LHCb with beam-gas imaging,
+      PhD thesis, RWTH Aachen U., 2014, CERN-THESIS-2013-301.
+
+[156] LHCb, Framework TDR for the LHCb Upgrade II: Opportunities in flavour physics,
+      and beyond, in the HL-LHC era, tech. rep., CERN, Geneva, 2021. CERN-LHCC-
+      2021-012, LHCB-TDR-023.
+
+[157] R. F. Lebed et al., Summary of Topical Group on Hadron Spectroscopy (RF07)
+      Rare Processes and Precision Frontier of Snowmass 2021, in Snowmass 2021 (R. F.
+      Lebed and T. Skwarnicki, eds.), 7, 2022. arXiv:2207.14594.
+
+
+
+
+                                          40
+

@@ -1,0 +1,2714 @@
+                                                                                                       EFI 20-1, USC/20-1, arXiv:2001.nnnnn
+
+
+                                                Duality Between Hydrogen Atom and Oscillator Systems
+                                                          via Hidden SO(d,2) Symmetry and 2T-physics
+
+                                                                        Itzhak Bars† and Jonathan L. Rosner‡
+                                                  †
+                                                      Department of Physics and Astronomy, University of Southern California,
+                                                                       Los Angeles, CA 90089-0484, USA, and
+                                                               ‡
+
+
+
+
+arXiv:2001.08818v1 [hep-th] 23 Jan 2020
+                                                                   Enrico Fermi Institute and Department of Physics,
+                                                                    University of Chicago, Chicago, IL 60637, USA
+
+                                                                      In memory of Peter George Oliver Freund
+
+                                                                                       Abstract
+                                            The relation between motion in −1/r and r 2 potentials, known since Newton, can be demon-
+                                          strated by the substitution r → r 2 in the classical/quantum radial equations of the Ke-
+                                          pler/Hydrogen problems versus the harmonic oscillator. This suggests a duality-type relationship
+                                          between these systems. However, when both radial and angular components of these systems are
+                                          included the possibility of a true duality seems to be remote. Indeed, investigations that explored
+                                          and generalized Newton’s radial relation, including algebraic approaches based on noncompact
+                                          groups such as SO(4,2), have never exhibited a full duality consistent with Newton’s. On the other
+                                          hand, 2T-physics predicts a host of dualities between pairs of a huge set of systems that includes
+                                          Newton’s two systems. These dualities take the form of rather complicated canonical transforma-
+                                          tions that relate the full phase spaces of these respective systems in all directions. In this paper we
+                                          focus on Newton’s case by imposing his radial relation to find an appropriate basis for 2T-physics
+                                          dualities, and then construct the full duality. Using the techniques of 2T-physics, we discuss the
+                                          hidden symmetry of the actions (beyond the symmetry of Hamiltonians) for the Hydrogen atom
+                                          in D-dimensions and the harmonic oscillator in D̄ dimensions. The symmetries lead us to find the
+                                          one-to-one relation between the quantum states, including angular degrees of freedom, for specific
+                                                          
+                                          values of D, D̄ , and construct the explicit quantum canonical transformation in those special
+                                          cases. We find that the canonical transformation has itself a hidden gauge symmetry that is cru-
+                                          cial for the respective phase spaces to be dual even when D 6= D̄. In this way we display the
+                                          surprising beautiful symmetry of the full duality that generalizes Newton’s radial duality.
+
+
+
+
+                                                                                           1
+  Contents
+
+
+ I. Introduction and brief statement of results                3
+
+II. Radial duality through substitution                        6
+   A. Spectra in D, D̄ dimensions                              9
+    B. Hints of full duality                                   11
+
+III. Non-compact symmetries of the HatomD and HOscD̄           13
+   A. SO(D + 1, 2) and the HatomD                              13
+               
+   B. Sp 2D̄, R and the Harmonic Oscillator                    18
+
+IV. Duality as canonical transformations and SO(D + 1, 2)      21
+   A. Case of D = D̄ = 2 and SO(3, 2) = Sp(4, R)               22
+    B. Case of D = 3, D̄ = 4, and SO(4, 2) ⊗ U(1) ⊂ Sp(8, R)   25
+    C. 2T-physics and more general dualities in any D          31
+
+V. Generalizations                                             33
+
+VI. Conclusion and Outlook                                     38
+
+   Acknowledgments                                             39
+
+A. Concepts of 2T-physics                                      39
+
+   References                                                  52
+
+
+
+
+                                         2
+I.    INTRODUCTION AND BRIEF STATEMENT OF RESULTS
+
+
+     A relation between power-law potentials in the radial Schrödinger equation was encoun-
+tered when considering the interaction between heavy quarks and antiquarks (“quarkonium”)
+[1]. For every potential V (r) ∼ r α in the radial Schrödinger equation there exists a related
+radial Schrödinger equation with a “partner potential” V̄ (r̄) ∼ r̄ ᾱ obtained from the first by
+the substitution (see Section II)
+
+                               r = r̄ −ᾱ/α , (α + 2) (ᾱ + 2) = 4.                           (1)
+
+The Kepler or Hydrogen atom (Hatom) problem, with α = −1, is thus related to the
+harmonic oscillator problem (HOsc), with ᾱ = 2. See, e.g., Refs. [2–8]. Moreover, every
+potential with −∞ < α < −2 or −2 < α < ∞ has a partner potential with −∞ < ᾱ < −2
+or −2 < ᾱ < ∞, respectively, as noted for classical [9–12] and quantum [13–15] systems.
+However [16], this relation can be traced as far back as Newton [17] and Hooke [18]. Not
+only did Newton transform the radial equation for the Hatom to the HOsc in order to solve
+it, but he noted that pairs of potentials related by Eq. (1) gave congruent orbits with small
+deviations from circular shape.
+     The close relationship between the Hatom-HOsc problems in D = 3 space dimensions
+described above is limited to the radial equation. Whether this relationship could be ele-
+vated to include the angular degrees of freedom in addition to the radial degrees of freedom
+remained as an unsolved problem. A pessimism on this issue developed because when the
+complete set of states of the Hatom, including the orbital angular momentum quantum
+numbers, are compared to the corresponding complete set of states of the HOsc, one finds
+that they are different, so the radial duality is not a true full duality between the complete
+systems.
+     We mention parallel developments related to the Hatom and HOsc that use spectrum-
+generating algebrae involving noncompact groups such as SO(2,1), SO(4,1), and SO(4,2)
+[19]-[32]. Unitary representations of these groups contain an infinity of energy levels of the
+Hamiltonian, related to each other by group transformations within the same representation
+of the noncompact group. By suitable identification of generators, one can pick out stepping
+operators relating eigenstates with different energies. This is an indication that these systems
+may have some hidden symmetry structure that goes beyond the well known symmetries
+of the respective Hamiltonians in three spatial dimensions (SO(4) for Hatom, SU(3) for
+
+                                               3
+HOsc). However, beyond being dynamical groups, the possible existence of non-compact
+symmetries remained undetermined within those developments. Furthermore, these efforts
+did not establish a duality-type relationship between the Hatom and HOsc on the basis of a
+common non-compact group and its common representations that apply simultaneously to
+both of these systems.
+  A full duality between the Hatom-HOsc (and many other systems as well) in every spa-
+tial dimension D and 1 time dimension was discovered as a simple prediction of Two-Time
+Physics (2T-physics) in 1998 [33–35]. A summary of the concepts of 2T-physics appears
+in Appendix A. As briefly explained in the paragraphs containing Eqs. (A15-A19) in the
+Appendix, the general duality transformation predicted by 2T-physics between any two 1T-
+physics shadows (explained in the Appendix), that include the Hatom and HOsc shadows, is
+a non-linear canonical transformation between their phase spaces involving time and Hamil-
+                                    
+tonian, (r, p, t, H) ↔ r̄, p̄,t̄, H̄ . This is just a gauge transformation, of the underlying
+Sp(2, R) local phase space gauge symmetry, that takes one fixed gauge to another fixed
+gauge. We emphasize the change of the Hamiltonian and the simultaneous change of the
+concept of time as part of the canonical transformation in which t is canonically conju-
+gate to H. Moreover, 2T-physics predicts that these systems (and many other shadows)
+have a common hidden symmetry SO(D + 1, 2) in their actions, beyond the symmetry of
+Hamiltonians, and despite having different 1T Hamiltonians and different 1T actions, the
+spectra of the respective Hamiltonians fit into the same unitary representations of the hid-
+den SO(D + 1, 2) , with the same fixed Casimir eigenvalues Cn given in Eq. (A14) in the
+Appendix. Therefore, there is indeed a true duality between the Hatom, HOsc and many
+others in every dimension D, as explained in the Appendix.
+  In a general number of spatial dimensions, D, the canonical transformation derived from
+2T-physics, including time and Hamiltonian, is rather complicated and we can provide it
+at this time only at the classical level for most systems [36] because of the complexities of
+quantum ordering for non-linear functions of phase space. The predicted canonical trans-
+formation that follows from Eq. (A19) in the Appendix includes angular directions beyond
+Eq. (1), but for general D it yields a radial direction different than Eq. (1). However, in
+the special case of D = 2, as well as a few other special cases discussed in Section IV,
+the canonical transformation Hatom↔HOsc can be brought to a special phase space basis
+in which time does not transform, t = t̄. In those cases the radial direction is identical to
+
+                                            4
+Eq. (1) up to an overall constant, and it includes angular directions beyond Eq. (1), thus
+becoming a full duality rather than only a partial radial duality. Moreover, for D = 2 there
+are some beautiful SO(3, 2) = Sp(4, R) group-theoretical properties of the Hatom2 ↔ HOsc2
+spectra1 that clarify the duality at the quantum level. These nice properties are consistent
+with the expected hidden SO(3, 2) symmetry of the action predicted by 2T-physics, as will
+be displayed in Section IV A.
+    Inspired by the form of the D = 2 full canonical transformation at the quantum level in
+Section IV A, we are able to generalize it in Section IV B to a full canonical transformation
+that embeds the phase space (r, p)D of the HatomD into the phase space (r̄, p̄)D̄ of HOscD̄
+for some special values of 3 ≤ D < D̄, with D 6= D̄, such that we obtain a HatomD ↔
+HOscD̄ full duality (i.e., including angles, beyond (1)) that is consistent with 2T-physics
+and the expected hidden symmetry SO(D + 1, 2) of the HatomD action. In this paper we
+                                     
+display the cases for the pairs D, D̄ = (2, 2) and (3, 4) and comment on a few larger values
+             
+of the D, D̄ pairs.
+    The rest of this paper is organized as follows. In Section II we display generalized radial
+duality in all dimensions D through radial substitution of the form (1) by relating the radial
+equations for two different potentials, V (r) = λr α and V̄ (r̄) = λ̄r̄ ᾱ , including the cases of the
+HatomD and HOscD̄ . In Section III we introduce details of separate non-compact groups:
+                                                                                  
+SO(D + 1, 2) for the HatomD ’s hidden symmetry of its action [34],2 and Sp 2D̄, R for
+HOscD̄ ’s dynamical symmetry. We discuss the classification of the respective spectra under
+
+1
+  From here on, subscripts in HatomD or HOscD̄ imply the corresponding system in the indicated number
+  of dimensions, D or D̄.
+2
+  When the action has a larger symmetry than the Hamiltonian it is imperative that both the spectrum
+  of the Hamiltonian as well as the dynamics due to interactions are controlled by the symmetry of the
+  action. As an example, consider the Lorentz symmetry in special relativity, which is a symmetry of the
+  action, but not a symmetry of the Hamiltonian. Recall that the Hamiltonian is the time component of
+  the total momentum that is a Lorentz vector, not a Lorentz scalar. A familiar setting that fits the bill
+  is relativistic field theory. The same is true also in much simpler particle systems, such as the Lorentz-
+  invariant worldline formalism with a gauge symmetry under reparametrizations of proper time τ . After
+  gauge fixing, such as x0 (τ ) = τ, the canonical conjugate p0 becomes the Hamiltonian that controls
+  the evolution of the remaining spatial degrees of freedom. The action still has Lorentz symmetry as
+  a hidden non-linear symmetry, but the Hamiltonian p0 is clearly not invariant under the boosts. The
+  hidden symmetry SO(D + 1, 2) of the Hatom’s action, as well as of all the dual shadow’s actions, is easily
+  understood in the worldline formalism as a generalization of the statements above. Then at the quantum
+  level the spectrum of every shadow ends up in the same unitary representation of the non-compact group,
+  thus obeying a full duality. See the Appendix to better understand this point.
+
+
+                                                   5
+these non-compact groups. In Section IV we derive our main result, namely, the duality
+in terms of canonical transformations. This is done by equating LM N (r, p) = LM N (r̄, p̄) ,
+where LM N (r, p) are the SO(D + 1, 2) generators expressed in terms of the phase space for
+                                                                                          
+the HatomD , while LM N (r̄, p̄) are the subgroup generators for SO(D + 1, 2) ⊂ Sp 2D̄, R
+expressed in terms of the phase space for the HOscD̄ , for dimensions D ≤ D̄. The logic
+behind this method was introduced in 2T-physics as discussed in the Appendix. The method
+                                         
+is explicitly applied for the cases D, D̄ = (2, 2) and (3, 4) . In Section V we generalize what
+                                                                              
+was learned in the previous sections and present further examples D, D̄ = (1, 4) , (4, 6)
+and (5, 8) . The conclusions are in Section VI, where we summarize the information on all
+the cases we successfully constructed the full duality. For all these cases we established
+conclusively a one-to-one correspondence between a subset of quantum states of the HOscD̄
+and all the quantum states of the HatomD . Based on this experience we conjecture the full
+duality satisfies D̄ = 2 (D − 1) for all D ≥ 2, with the same form of canonical transformation
+and dual quantum states. However, there is room for the formula forD̄ to be more general
+as we indicate for D ≥ 6 that we have not analyzed in detail, so this remains open for
+further investigation. The Appendix summarizes the concepts of 2T-physics on which we
+have based our methods and shows the deeper spacetime structure hidden in the systems
+we have discussed in this paper.
+
+
+II.    RADIAL DUALITY THROUGH SUBSTITUTION
+
+
+  The Schrödinger equation with a spherically symmetric potential in D spatial dimensions,
+                 
+    1
+ − 2µ ∇2 + V (|r|) ψ (r) = Eψ (r) , is solved in spherical coordinates in a complete angular
+momentum and energy basis as follows: [34, 37]3
+                                   D−1
+                     ψ (r) = r − 2 u (r) Ti1 i2 ··· ,il (r̂) , with r ≡ |r| , r̂ ≡ r/ |r| ,
+                     Ti1 i2 ··· ,il (r̂) = [(r̂i1 r̂i2 · · · r̂il − trace) + permutations] ,
+                                         h                            2
+                                                                            i                    (2)
+                       ~2 ′′
+                     − 2µ   u (r) + V (r) + lD (l2µr           D +1)~
+                                                                  2     − E   u(r) = 0,
+                     lD ≡ l + D−3
+                               2
+                                  , with l = 0, 1, 2, · · · .
+
+Here, the integer l parametrizes the eigenvalues of angular momentum in D dimensions,
+1 ij
+2
+  L Lij → l (l + D − 2) , while the symbol Ti1 i2 ··· ,il (r̂) is the angular momentum wavefunc-
+
+3
+    For alternative approaches in D dimensions with equivalent conclusions, see also [38–40].)
+
+                                                         6
+tion in D dimensions.4 It is constructed from direct products of the unit vector r̂ ≡ r/ |r|
+and the SO(D) metric δij , as a traceless completely symmetric tensor of rank l, such that
+its indices (i1 i2 · · · , il ) take values in D dimensions, ik = 1, 2, · · · , D. This is an irreducible
+representation of SO(D) , and up to an overall normalization, plays the same role as the
+complete set of spherical harmonics in D = 3 dimensions, Ylm (θ, φ) . The degeneracy of
+the angular momentum eigenstate with fixed angular momentum l in D dimensions is the
+dimension of this SO(D) irreducible representation,
+
+                                                     (l + D − 3)!
+                                      Nl (D) =                    (2l + D − 2) .                                              (4)
+                                                      (D − 2)! l!
+
+For D = 3 this reduces to the familiar, Nl (3) = (2l + 1) , while for D = 2 it reduces to
+N0 (2) = 1 or Nl6=0 (2) = 2, as expected (i.e., angular momentum spin up or down, ±l, in
+                                                                                                              D−1
+two spatial dimensions). Having taken into account the overall factor r 2                                           in the radial
+                                  D−1
+wavefunction, R (r) = r − 2 u (r) , the normalization of the wavefunction in D dimensions,
+R D                                                                         R∞
+ d r |ψ (r)|2 = 1, reduces to an integral on the half line in one dimension, 0 dr |u (r)|2 = 1.
+                                                     ~ lD (lD +1)              2
+Note the effective potential in (2), Vef f = V (r) + 2µ     r2
+                                                                  , that includes the angular
+momentum barrier in D dimensions parametrized by lD ≡ l + D−3
+                                                           2
+                                                              .
+     The relation between the radial Schrödinger equation solutions in a power-law potential
+V (r) = λr α and a potential V̄ (r̄) = λ̄r̄ ᾱ may be derived by substituting r = r̄ −ᾱ/α in the
+radial Schrödinger equation in D spatial dimensions given above, taking u(r) = r̄ β ū(r̄),
+                                                           
+demanding that (α + 2)(ᾱ + 2) = 4, and with β = 21 1 + αᾱ = − ᾱ4 , chosen so that no terms
+with ū′ (r̄) occur. Then one recovers a radial Schrödinger equation of the same form for ū(r̄)
+                                                            
+but with a change of parameters, (λ, lD , E) → λ̄, ¯lD̄ , Ē , that are related to each other as
+
+4
+    Here are examples for l = 1, 2, 3, 4, taken from [37]:
+                                                        1
+                         Ti = r̂i , Tij = r̂i r̂j − D     δij
+                                                    1
+                         Tijk = r̂i r̂j r̂k − D+2 (δij r̂k + δki r̂j + δjk r̂i )                       !
+                                   
+                                                        1      δij r̂k r̂l + δik r̂l r̂j + δil r̂j r̂k    .                   (3)
+                                    r̂i r̂j r̂k r̂l − D+4                                              
+                         Tijkl =                             +δjk r̂l r̂i + δjl r̂i r̂k + δkl r̂i r̂J  
+                                                  D
+                                      + (D+2)(D+4) (δij δkl + δik δlj + δil δjk )
+
+
+
+
+                                                              7
+follows:5                                    h                                  i
+                                                         2
+                                 ~2 ′′
+                               − 2µ ū (r̄) + λ̄r̄ ᾱ + ~ l̄D̄2µ(l̄D̄r̄2+1) − Ē ū(r̄) = 0 ,
+                                           2                 2
+                                                                                                                 (5)
+                               Ē = −λ ᾱα2 , λ̄ = −E αᾱ2 , ℓ̄D̄ + 12 =          ᾱ
+                                                                                  α
+                                                                                       lD + 12   .
+                                                                        2
+                                                                                           2      
+ The last relation in (5) is the solution of the quadratic equation, ᾱα2 lD (lD + 1) + 14 ᾱα2 − 1 =
+¯lD̄ (¯lD̄ + 1), that imposes the same form of angular momentum barrier in the effective poten-
+
+tial.
+     This defines the radial duality, under which, coupling constant λ and energy eigenvalue
+E trade places up to the factor −(ᾱ/α)2 ; furthermore the positive integer angular momenta
+l, ¯l are related by
+                               ¯l + D̄ − 2 = ᾱ l + D − 2 ,                             (6)
+                                       2        α        2
+It is important to emphasize that the dimension D need not be equal to D̄ but both must
+be positive integers; hence ¯l need not be equal to l while satisfying Eq. (6), but both must
+be positive integers since they determine the ranks of the angular tensors, Ti1 i2 ··· ,il (r̂) and
+T̄i1 i2 ··· ,il̄ (b̄
+                  r) respectively.
+     We have not yet given an explicit transformation rule that relates the angular variables
+r̂ and b̄
+       r. We would like to keep the possibility of D̄ 6= D open if the claim for duality is
+only for the radial equation rather than for the complete system. Complete duality requires
+that the degeneracy of the states should match when l, ¯l are related as in (6), but given
+                      
+that Nl (D) 6= N̄l̄ D̄ when D̄ 6= D, this non-linear requirement is clearly much too strong.
+So complete duality guided by the radial equations (2-6) seems impossible to satisfy except
+for special cases of D, D̄ and α, ᾱ. Later, when we provide an explicit nonlinear relation
+between the angles r̂ and b̄
+                          r, we will show how for certain dimensions, D ≤ D̄, there is
+a duality between an appropriate subset of the degenerate quantum states by embedding
+               
+SO(D) ⊂ SO D̄ .
+
+5
+    The version of radial duality in Eq. (5), involving lD (see (2)) rather than l, is a generalization of the same
+    equation in [1] from D = 3 to general D dimensions. Moreover, if the substitution in Eq. (1) is slightly
+                             −ᾱ/a
+    generalized to r = (r̄/b)      , with b > 0 instead of b = 1, then Eq. (5) is further modified to an uglier
+                     2
+                   ᾱ 1             ᾱ2 1
+                                                                                  √
+    form, Ē = −λ α2 b2 , λ̄ = −E α   2 b2+ᾱ , but this generalization, with b =  2 for all D, will be needed to fit
+    the canonical transformation derived in Eq. (47) when ᾱ = 2 and α = −1.
+
+
+
+
+                                                              8
+   A.     Spectra in D, D̄ dimensions
+
+
+   Let’s consider the case of the HatomD with α = −1 and HOscD̄ with ᾱ = 2. The spectra
+of the respective Hamiltonians in D dimensions are well known (using units c = 1, ~ =
+1, µ = 1)
+
+                                       HatomD                                         HOscD̄
+ V (r) , V̄ (r̄)                          − Zr                                       1 2 2
+                                                                                       ω r̄
+                                                                                    2
+                                                                                 n̄even = 0, 2, 4, · · ·
+                                Z2
+    En , Ēn̄          −              2 , n = 1, 2, 3, · · ·         ω n̄ + D̄2 ,
+                                  2 )
+                            2(n+ D−3                                                 n̄odd = 1, 3, 5, · · ·                 (7)
+                                                                           
+                                                                            ¯l
+                                                                               even = 0, 2, 4, · · · , n̄even
+        l, ¯l                l = 0, 1, 2, · · · , (n − 1)             ¯l =
+                                                                            ¯lodd = 1, 3, 5, · · · , n̄odd
+
+  radial q.n. n = (1 + l + nr ) , nr = 0, 1, 2, · · ·                  n̄ = l¯ + 2nr , nr = 0, 1, 2, · · ·
+
+The spectra for the Hatom2 and HOsc2 are graphically displayed in Eq. (8), where (n, l) ,
+                   
+respectively n̄, ¯l , label rows and columns. For the HOsc2 case the n̄even , ¯leven labels are
+shown in large bold numbers, 0,2,4,· · · , while the n̄odd , ¯lodd labels are shown in smaller
+                                                         
+numbers, 1,3,5,· · · . The entry at each (n, l) or n̄, ¯l pigeon holes is the SO(2) angular
+momentum degeneracy of the state which is in accordance with the dimensions of SO(D)
+representations in (4). The leftmost column of each table lists the total degeneracy for
+each energy level labelled by n or n̄. Note that the total degeneracy at level n for the
+                                                             
+Hatom2 is (2 (n − 1) + 1) while for the HOsc2 it is 2 n̄2 + 1 . These match the dimensions
+of representations for SO(3) or SU(2) , namely (2J + 1) , where we identify J = (n − 1) for
+Hatom2 and J = n̄2 for HOsc2 .
+    Hatom2                                                            HOsc2
+                            l→                                                             l̄→
+  SO(3)⊃SO(2)      n             0 1 2 3 4 5 6 7···                SU(2)⊃SO(2)   n̄              0 1 2 3 4 5 6 7· · ·
+                   ↓                                                             ↓
+         ..            ..        .. .. .. .. .. .. .. ..                ..            ..         .. .. .. .. .. .. .. ..
+          .             .         . . . . . . . .                        .             .          . . . . . . . .
+        13             7         1222222                                7             6          1       2       2       2
+        11             6         122222                                 6             5              2       2       2
+
+         9             5         12222                                  5             4          1       2       2           (8)
+
+         7             4         1222                                   4             3              2       2
+
+         5             3         122                                    3             2          1       2
+         3             2         12                                     2             1              2
+
+         1             1         1                                      1             0          1
+
+                                                               9
+   As shown in [34], for general D or D̄ the pigeon holes would be filled with the numbers
+                 
+Nl (D) or N̄l̄ D̄ respectively as given in (4). The total degeneracies at the leftmost column
+for each fixed n or n̄ are then
+                     Pn−1                     (n+D−3)!
+             HatomD : l=0     Nl (D) = (D−1)!     (n−1)!
+                                                          (2n + D − 3) = Nn−1 (D + 1) ,
+                     P                             (n̄+D̄−1)!                                     (9)
+             HOscD̄ : n̄l̄=even or odd N̄l̄ (D̄) = n̄! D̄−1 ! .
+                                                      (    )
+
+For D = D̄ = 2 these total degeneracies reproduce the results of the previous paragraph and
+tables in (8), while for D = D̄ = 3 they match the well known degeneracies, n2 for Hatom3 ,
+and 12 (n̄ + 2) (n̄ + 1) for HOsc3 . For the HatomD ,the total degeneracy at each n matches the
+dimension of the SO(D + 1) representation for the completely symmetric traceless tensor,
+TI1 I2 ···In−1 , of rank (n − 1) in (D + 1) dimensions (single-row Young tableau, (n − 1) boxes,
+with trace removed). Similarly, for the HOscD̄ , the total degeneracy matches the dimension
+                                     
+of the completely symmetric SU D̄ tensor with n̄ indices (single-row Young tableau, n̄
+boxes). The underlying reason for these degeneracies is the well known hidden symmetries
+                                                                         
+of the Hamiltonians: SO(D + 1) for the HatomD Hamiltonian and SU D̄ for the HOscD̄
+Hamiltonian, as discussed in Section III.
+   This result is only a small part of the group-theoretical properties of the respective spectra
+for the HatomD or HOscD̄ . As seen in the tables above in (8), for each state in an SO(D)
+multiplet labelled by a fixed value of l or ¯l, there exists an infinite tower of states of increasing
+values of n or n̄. It was shown in [34] that these towers form infinite-dimensional irreducible
+representations of the non-compact groups SO(1, 2) or Sp(2, R) corresponding to the positive
+discrete series [41, 42] labelled by |j, mi (similar to SU(2) quantum numbers), with
+
+                              m (j) = j + 1 + nr , nr = 0, 1, 2, 3, · · ·                        (10)
+
+where the integer nr coincides with the usual radial quantum number in Eq. (7) that emerges
+when solving the radial equations in (2) or (5). For the towers associated with the SO(D)
+         
+or SO D̄ multiplets l or ¯l, the value of j depends on l or l¯ as follows [34] (see (25) and (36)
+                                      
+for the derivations of j (l) and j̄ ¯l respectively):
+                   
+                    j = 0 if D = 1                                                  
+                                                                   1          D̄ − 4
+         HatomD :                                                ¯
+                                                  , HOscD̄ : j̄ l =       ¯
+                                                                          l+            .    (11)
+                    j (l) = l + D−3 , if D ≥ 2                        2          2
+                                     2
+
+
+Hence the overall spectra are direct sums of irreducible representations of direct product
+
+                                                10
+groups as follows:
+          P∞
+HatomD :
+         Pl=0 ⊕|SO (1, 2)j(l) , SO (D)l i, with SO (1, 2) ⊗ SO (D) ⊂ SO (D + 1, 2) ,
+                                                     
+          ∞ ⊕|Sp (2, R)                    , SO  D̄            i                                        
+             leven            j̄ (l̄even )               l̄even
+HOscD̄ :   P                                                     , with Sp (2, R) ⊗ SO D̄   ⊂ Sp 2 D̄, R   .
+          ∞ ⊕|Sp (2, R)                  , SO   D̄          i
+             lodd            j̄ (l̄odd )              l̄odd
+                                                                                                      (12)
+The direct product groups that classify the spectra are themselves subgroups of larger non-
+                                             
+compact groups, SO(D + 1, 2) and Sp 2D̄, R respectively as indicated in (12). These non-
+compact groups will be discussed in Section III in more detail. In fact, the full spectrum
+of the HatomD corresponds to a single irreducible representation of SO(D + 1, 2) , while
+the even/odd states of the HOscD̄ correspond to two distinct irreducible representations
+            
+of Sp 2D̄, R as will be explained in Section III. In both cases these are called singleton
+representations that have the following Casimir eigenvalues (see Eqs. (32,A14)):
+                                                 2
+                                                        
+                   SO (D + 1, 2) : C2 = − (D+1)
+                                              4
+                                                    − 1   , C3 , C4 = · · ·
+                                                                                                    (13)
+                                even    odd     D̄ D̄     1
+                   Sp 2D̄ : C̄2 = C̄2 = − 2 2 + 4 , C̄3 , C̄4 = · · ·
+
+These facts about the spectra of HatomD and HOscD̄ will be relevant for the full duality
+we are seeking in this paper, namely a full duality that would be consistent with Newton’s
+radial duality r ∼ r̄ 2 discussed in the Introduction and details produced in Sections II B,
+IV A, IV B, VI.
+
+
+   B.   Hints of full duality
+
+
+   Armed with the full spectrum, including angles and angular momentum, we now return
+to the radial duality displayed in Eqs. (2-6). Specializing to D = D̄ = 2, the angular
+momentum relations (6) become
+
+                                         D = D̄ = 2 : ¯l = 2l .                                        (14)
+
+It is seen graphically in Eq. (8) that only the l¯ = even (equivalently the n̄ = even) HOsc2
+states are in one to one correspondence with all the states of the Hatom2 , including matching
+representations of the hidden symmetries SO(3) = SU(2) level by level, at each (n − 1) =
+n̄even
+   2
+       = J, with degeneracy (2J + 1). In particular, the infinite vertical towers for SO(1, 2) =
+Sp(2, R) also match at each leven = 2l.
+
+                                                   11
+   Moreover, the D = 2 noncompact group SO(3, 2) is the same as the D̄ = 2 non-compact
+group Sp(4, R) , and according to Eq. (13) the quadratic Casimir is the same, C2 = − 54 ,
+and so is the only other cubic Casimir, C3 = − 58 , according to (A14,32). Hence the full
+Hatom2 and even-HOsc2 spectra are in the same irreducible representation of SO(3, 2) =
+Sp(4, R) , just as expected on the basis of 2T-physics dualities as explained in the paragraphs
+containing Eqs. (A16-A19) in the Appendix. These are very encouraging indications of a
+full duality between the Hatom2 and the even half of the HOsc2 .
+   This result raises the question: what is the dual of the odd half of the HOsc2 ? Amazingly,
+the answer is provided in 2T-physics with spin, that yields a generalization of the HatomD
+in a particular gauge (see Section V in [43]). In the current paper we will call this case
+the dyonic-HatomD . The hidden symmetry in this case is again SO(D + 1, 2) , but the
+representation is different than the zero spin case, and has a quadratic Casimir given by (see
+Eq. (80) in [43] and substitute d = D + 1) as outlined in the Appendix around Eq. (A20):
+
+                                                      spin s=1/2      1
+               Dyonic-HatomD , SO (D + 1, 2) , C2                  = − D (D + 3) .        (15)
+                                                                      8
+
+Although the physical interpretation of this model was not fully grasped in [43], it was later
+understood that it corresponds to a hypothetical Hatom whose nucleus is a dyon that has
+both electric and magnetic charges instead of the usual proton. For D = 3 this matches the
+model discussed in [44]. The spectrum of the dyonic-Hatom2 resembles that of the Hatom2
+                                     
+but instead of l there appears l + 21 , where the additional 1/2 is generated by the dyon.
+Furthermore, we find that the dyonic-Hatom2 has Casimir C2 = − 54 , which is the same as
+the C2 for Hatom2 or HOsc2 , and the spectrum matches the spectrum of odd-HOsc2 since
+                                                   
+now the generalization of Eq. (14) is, ¯l = 2 l + 1 , where ¯l is odd.
+                                                  2
+
+   We have found very strong hints that the duals for the even and odd parts of the HOsc2 are
+given by Hatom2,s with s = 0, 21 respectively. In the next Section we will display a quantum
+canonical transformation that establishes the full duality transformation, Hatom2 ↔ even-
+HOsc2 , and show that it is compatible with the simple radial substitution, r ∼ r̄ 2 in Eq. (1)
+with α = −1, ᾱ = 2, that started the current investigation.
+   After displaying the canonical transformation, we will generalize the method to a few
+other special values of the pair D < D̄ that are compatible with the simple radial substi-
+tution, r ∼ r̄ 2 . There are also other dualities as non-linear canonical transformations that
+connect HatomD , HOscD (i.e., D̄ = D) and many other systems in D spatial and one time
+
+                                             12
+dimensions as predicted by 2T-physics [36], but those predicted more general cases, that
+apply in every dimension D, are at first sight not compatible with Newton’s simple radial
+substitution, r ∼ r̄ 2 . However, we suspect a further canonical transformation partly related
+to the one discussed in Section IV must make the general 2T dualities and Newton’s case
+compatible as well.
+
+
+III.    NON-COMPACT SYMMETRIES OF THE HATOMD AND HOSCD̄
+
+                                                            
+   In this section we discuss the SO(D + 1, 2) and Sp 2D̄, R generators constructed from
+the quantum phase space degrees of freedom of the HatomD and HOscD̄ . Following the
+method in [36] (as stated in the paragraphs that contain Eqs. (A17-A19) in the Appendix)
+we compare these gauge-invariant generators for different shadows (see Appendix) to one
+another when D = D̄ = 2, and from this we obtain the sought-after canonical transformation
+that relates the two phase spaces (r, p) ↔ (r̄, p̄), as shown in Section IV A.
+
+
+   A.    SO(D + 1, 2) and the HatomD
+
+
+   The subgroup SO(D + 1) is the well known hidden symmetry for the HatomD , which is
+best explained in the context of 2T-physics because of its extra space dimension (in addition
+to the extra time dimension) [33]. The hidden symmetry SO(4) in Hatom3 , associated
+with a conserved Runge-Lenz vector, was recognized already in the 19th century in the
+study of the Kepler problem in celestial mechanics, and used by Pauli to understand the
+“accidental degeneracy” in the spectrum of the Hatom3 [45–47]. Later, in the context of
+spectrum-generating algebraic techniques, the SO(4) = SU(2) ⊗ SU(2) hidden symmetry
+was embedded in the non-compact group SO(4, 2) [22–24, 26–32, 48, 49].
+   Eventually, the underlying reason for the existence of the spectrum-generating algebra
+was finally understood with the advent of 2T-physics. Namely, SO(D + 1, 2) is far more
+than an algebraic tool; it is actually a hidden symmetry of the action (not Hamiltonian) for
+the HatomD for any dimension D (see Eq. (20) in [34]) and for this reason the spectrum
+of HatomD must be described in terms of irreducible representations of SO(D + 1, 2) (see
+remarks in footnote 2). Part of this symmetry, namely SO(D + 1) × U(1), is also a symmetry
+of the HatomD Hamiltonian, where SO(D + 1) rotates all spatial dimensions in 2T-physics
+
+
+                                            13
+on an equal footing, and U(1) = SO(2) rotates the two temporal dimensions. In fact,
+                                                                   ′ 2          ′
+2T-physics shows that the Hamiltonian is proportional to (−1) / L00     where L00 is the
+SO(2) =U(1) generator. In this way the HatomD system is a very transparent window to all
+spatial and temporal dimensions of 2T-physics, and its spectrum displays the action of the
+                       ′
+remaining L0I or L0 I generators that mix spatial and temporal dimensions with each other.
+   The   generators of SO(D + 1, 2) are computed in 2T-physics as LM N                =
+                                             
+ X M P N − X N P M . The phase space X M , P M is not gauge-invariant under the Sp(2, R)
+gauge transformations of the phase space (for each M they transform as a doublet of the
+local gauge group Sp(2, R)), but the combination LM N for the global symmetry SO(D + 1, 2)
+are gauge-invariant, so the LM N can be evaluated in any gauge (see Appendix). It is cus-
+tomary in 2T-physics to label the (D + 1, 2) indices M by M = (0′ , 0, 1′, 1, 2, · · · D) , or by
+M = (+′ , −′ , 0, 1, 2, · · · D) , where
+                 ′         ′                                      ′                    ′
+        +′     X0 + X1     ′    ′    ′      ′    ′  X−     ′    ′  X−
+    X        =         , X− = X0 − X1 , ⇔ X0 = X+ +    , X1 = X+ −    .                     (16)
+                  2                                  2              2
+
+and similarly for P M . Then SO(D + 1, 2)-invariant dot products in flat spacetime take the
+form                         
+                              −X 0′ P 0′ − X 0 P 0 + X 1′ P 1′ + X · P
+                      X ·P =                                                ,               (17)
+                              = −X +′ P −′ − X −′ P +′ − X 0 P 0 + X · P
+
+and similarly for X · X and P · P, where the dot product in bold letters is the Euclidean dot
+product in D spatial dimensions.
+   In the Hatom shadow (see Eqs. (12-21) in [34]), the gauge-fixed version of the D-
+dimensional Euclidean phase space (X, P) is relabeled as (e    r,e
+                                                                 p) , while the remaining 6
+                                                                                ′ ′    ′ ′
+functions of the worldline proper time τ introduced in the Appendix, X 0,0 ,1 , P 0,0 ,1 ,
+                                     
+are gauge-fixed as functions of e p,e
+                                r,e t . To get there, three gauge parameters of Sp(2, R) are
+used to gauge-fix three functions, and the three constraints X · X = P · P = X · P = 0
+                                                              ′ ′        ′ ′
+are explicitly solved to fix 3 more functions. Therefore X 0,0 ,1 , P 0,0 ,1 are all dependent
+              
+on er te ,e
+          p te and te(τ ) = τ . The gauge-invariant 2T-physics action is then evaluated in
+this gauge, and it is shown in [34] that it reduces to the 1T-physics action for the HatomD ,
+R                       
+  de
+   t ∂ete p− 12 e
+        r·e     p2 − |eZr| . Note that the original 2T action has no parameters, so the mass
+and coupling constants in the Hatom Hamiltonian (and similarly in actions for other shad-
+                                                          ′ ′        ′ ′
+ows) emerge from the gauge-fixing of the phase space X 0,0 ,1 , P 0,0 ,1 in a way similar to the
+emergence of parameters from “moduli” in M-theory. The gauge-invariant action that one
+
+                                               14
+starts with in Eq. (A3) in the Appendix is explicitly invariant under the global symmetry
+                                                                     
+SO(D + 1, 2) that acts linearly on the original phase space X M , P M . Since the global sym-
+metry commutes with the local symmetry, the gauge-fixed action, namely the HatomD action
+in this paragraph, must have the same non-linearly realized hidden SO(D + 1, 2) symmetry.
+The generators of this symmetry have to be the gauge-fixed form of the gauge-invariant LM N
+                                                                                
+which is now a non-linear function of the gauge-fixed X M e   p, te , P M re,e
+                                                            r,e              p,te in terms of
+the D-dimensional Euclidean phase space, LM N (r̃, p̃) . Indeed, it was shown [34] that the
+HatomD action is invariant under the non-linear transformations obtained by applying Pois-
+son brackets between 21 ωM N LM N and the phase space (e
+                                                       r, e
+                                                          p) , namely
+                                                                    
+                     1     ∂LM N e  p,e
+                                  r,e t            1     ∂LM N e  p,e
+                                                                r,e t
+                 δωe
+                   r= ωM N               , δω e
+                                              p = − ωM N               .                (18)
+                     2          ∂e
+                                 p                 2          ∂e
+                                                               r
+
+where the constant ωM N are the global SO(D + 1, 2) parameters. One may reverse this
+approach by starting from the invariance of the action and use Noether’s theorem to build
+                                                ′          ′     ′  
+the LM N e  p,e
+          r,e t . Either way, one finds that L00 = X 0 P 0 − X 0 P 0 , evaluated in the
+Hatom shadow, yields classically (i.e., ignoring quantum ordering)
+                                                          
+                   00′      Z                    1 2    Z        Z 2 /2
+                  L =√            , with H =       e
+                                                   p −       =−          .              (19)
+                            −2H                  2     |e
+                                                        r|      (L00′ )2
+
+Hence the HatomD Hamiltonian can be written very simply in terms of the gauge-invariant
+             ′
+generator L00 . Now, this is the generator of a compact SO(2) that rotates the two times into
+each other, so its eigenvalues must be parametrized by an integer, just like orbital angular
+momentum, but due to quantum ordering issues the integer may be shifted by a constant
+that depends on D.
+                                                                                    
+   Resolving the quantum ordering is too complicated in the Hatom shadow using e p,e
+                                                                               r,e t .
+                   ′
+However, since L00 is gauge-invariant, and its commutation rules with all other LM N are
+also gauge-invariant, one may choose any convenient gauge to evaluate the LM N , resolve all
+                                                         ′
+quantum ordering ambiguities, and then diagonalize L00 to find its gauge-invariant eigenval-
+ues algebraically by using only the commutation rules of the hidden symmetry SO(D + 1, 2)
+in any shadow. This was done in [34] by choosing the following gauge (evaluated at zero
+
+
+
+
+                                            15
+time for that gauge6 )
+                                                    +′              −′
+                                                                                                 
+                                                                            0     i=1,··· ,D
+
+                                    XM   0                      r·p          |r|      r         
+                                      =                                                                      (20)
+                                                                                                
+                                    PM     1                     p2 /2        0        p
+
+                                         ′              ′
+The three numerical entries, X + = 0, P + = 1, P 0 = 0, are gauge choices, while (X, P) =
+(r, p) is just renaming symbols to indicate that we are in another gauge, and the remaining
+three entries (r · p, |r| , p2 /2) are computed by solving the tree constraints X 2 = P 2 =
+X · P = 0 by using the lightcone version (17) of the SO(D + 1, 2) invariant dot product.
+     Now we evaluate the gauge-invariant LM N in this gauge and perform the necessary quan-
+tum ordering to insure that (i) the LM N obey the correct SO(D + 1, 2) commutation rules
+by using only the quantum rules [ri , pj ] = iδij , and (ii) the quadratic Casimir eigenvalue for
+C2 = 21 LM N LM N , as computed in this gauge, gives the same gauge-invariant result in the Ap-
+pendix, namely C2 = 1 − (D + 1)2 /4, that was obtained in covariant quantization for phys-
+ical states, without choosing any gauge. The result that satisfies these physical conditions,
+with all quantum ordering issues resolved, and insuring hermiticity of the 21 (D + 3) (D + 2)
+generators, is as follows [34]:
+                                     
+                                     
+                                       0+′
+                                      L = |r|
+                                     
+                    SO (1, 2) : Lmn = L− + = r·p+p·r     , m, n = (+′ , −′ , 0)
+                                         ′ ′
+
+                                     
+                                            p
+                                                2
+                                                    p
+                                     
+                                      L0−′ = |r| p2 |r|
+                                                                      2
+                                    ij       i j    j       i                                                    (21)
+                    SO (D) :     L = (r p −r p ) , i, j = 1, 2, · · · , D.
+                                      
+                                      
+                                      
+                                           ′
+                                        Li+ = ri
+                                      
+                                      
+                                                   i   i |r|
+                    Coset :      Lim = Li0 = − |r|p +p       ,
+                                      
+                                      
+                                                     2
+                                      
+                                       Li− = − (p·r)p +pi (r·p) + p2 ri +ri p2 −
+                                           ′           i
+                                                                                                      ri
+                                                                          2                  4       8|r|2
+
+The subgroup structure, SO(1, 2) ⊗ SO(D) ⊂ SO(D + 1, 2) , that is used to classify the
+HatomD spectrum as in Eqs. (8-12) is indicated above. The coset is in the (vector ⊗ vector)
+representation of the subgroup. It is also possible to reorganize the generators according to
+                                                                                                             ′
+the subgroup, SO(2) ⊗ SO(D + 1) ⊂ SO(D + 1, 2) , where the SO(2) generator is L0 0 that
+
+6
+    Normally, in choosing the gauges there is a non-trivial explicit dependence on time, t (τ ) = τ, where τ is
+    the proper time in the original Lagrangian (A3) in the Appendix. Since at this stage we are interested
+    in the equal-time commutation rules of observables, we have chosen t (τ ) = τ = 0 to simplify as much as
+                                                  
+    possible the gauge-fixed versions of X M , P M as shown in (20).
+
+                                                                16
+                                         ′    
+rotates the two temporal coordinates X 0 , X 0 into each other and SO(D + 1) rotates the
+                       ′   
+spatial coordinates X 1 , X into each other. These subalgebra operators are related to the
+above according to the lightcone map in (16) as follows:
+                                 ′        ′        ′
+                                                       p    2 p
+                    SO (2) : L0 0 = L0− + 21 L0+ = |r| p 2+1 |r|,
+                                          ′       ′      ′
+                                                                                                        (22)
+                    SO (D + 1) : Lij , Li1 = Li− − 21 Li+ ,
+             ′
+where Li1 is related (by gauge invariance) to the famous Runge-Lenz vector when (r, p)
+are rewritten in terms of (e
+                           r,e
+                             p) (see Eq. (24) in [34]). Recall that the aim is to find the
+                       ′                                                                      ′
+eigenvalues of L0 0 . This is easily done algebraically [34] by noting that L0 0 is the compact
+generator of the SO(1, 2) Lie algebra, whose quadratic Casimir is related to SO(D) angular
+momentum as follows:7
+                            SO(1,2)                   ′    ′        ′   ′        ′   ′   2
+                           C2     = 1 Lmn Lmn = L0+ L0− + L0− L0+ − L+ −
+                             h 2 2 22 2                   i
+                                             r·p+p·r 2
+                            = r p +p2
+                                        r
+                                          −      2
+                                                       + 3
+                                                                                                        (23)
+                             h                        i 4
+                                           (D−1)(D−3)
+                            = 12 Lij Lij +      4
+                                                       .
+
+The computation above that yields the numerical contribution 34 (proportional to ~2 → 1)
+is performed by watching the orders of operators and using the commutators, [ri , pj ] = iδ ij ,
+                                                                              SO(1,2)
+to change their orders. Since the right hand side shows that C2                           ≥ − 41 for all D =
+1, 2, 3, · · · , only the unitary positive discrete series representation of SO(1, 2) = SL(2, R) =
+SU(1, 1) can occur. Then according to known representation theory of SL(2, R) [47], the
+                       SO(1,2)         ′
+eigenvalues of C2                and L0 0 are respectively, j (j + 1) and m (j) = j + 1 + nr , with
+nr = 0, 1, 2, · · · . Simultaneously, SO(D) angular momentum is also diagonal, 21 Lij Lij →
+l (l + D − 2) . Therefore, we have the following relations among (j, l, nr , D) [34]
+                         h                          i
+             j (j + 1) = l (l + D − 2) + (D−1)(D−3)
+                                              4
+                                                      , ⇒ j (l) = − 21 ± l + D−2
+                                                                               2
+                                                                                   ,
+                   ′
+                                                                                                        (24)
+                 L0 0 → m (j) = j (l) + 1 + nr .
+Since this is the positive discrete series we must have m (j) > 0, which requires (j (l) + 1) >
+0. Accordingly, we can choose the ± → +, resolve the absolute value sign, and write:
+                  
+                   0, if D = 1 (and l = 0 necessarily)
+          j (l) =                                       ,
+                   l + D−3 , if D ≥ 2
+                          2                                                         (25)
+                                    (0 + 1 + n ) = n, for D = 1
+                                                r
+          m (j) = j (l) + 1 + nr =                                             ,
+                                    (l + 1 + nr ) + D−3 = n + D−3 , for D ≥ 2
+                                                                2            2
+
+
+7
+    To raise/lower SO(1, 2) indices Lmn use the metric ηmn with nonzero entries: η+′ −′ = η−′ +′ = η00 = −1.
+
+                                                    17
+where n = (l + 1 + nr ) ≥ 1 since both l, nr = 0, 1, 2, · · · . This explains the Hatom part in
+Eq. (11).
+                                                                                  ′
+     Thus, we have computed algebraically the desired eigenvalue of L0 0 , which then, accord-
+ing to 2T-physics,8 determines the quantum eigenvalue of the Hatom Hamiltonian given in
+                                      ′
+terms of the gauge-invariant L0 0 in Eq. (19),
+                                      2
+                         2
+                       Z /2       − Z 2/2 , for D = 1
+                                       n
+               H =−            →          2 /2               , n = 1, 2, 3, · · · .                     (26)
+                      (L00′ )2    − ZD−3      2 , for D ≥ 2
+                                      (n+ 2 )
+As anticipated, quantum ordering did produce a quantum shift of the integer n by the
+amount (D − 3) /2. This result agrees with solving the HatomD radial differential equation,
+hence the quantum-ordered generators given above are correct since they produce not only
+the correct spectrum, but also the correct SO(D + 1, 2) Casimir eigenvalue, as well as the
+correct Lie algebra for SO(D + 1, 2).
+     A useful final observation that follows from (21) is to realize that the phase space (r, p)
+                                                              ′
+can be written in terms of the gauge-invariants L0+ = |r| and Li0 = − 21 (|r| pi + pi |r|) :
+                               ′
+                                              
+                                              ′ −1/2
+                                                             
+                                                             ′ −1/2
+                       ri = Li+ , pi = − L0+         Li0 L0+        .                     (27)
+
+The second relation is verified at the quantum level as follows:
+                                                                       !
+                 ′
+                    −1/2         ′
+                                     −1/2 1 p          1        1   p
+          − L0+           Li0 L0+         =      |r|pi p + p pi |r| = pi .                              (28)
+                                            2           |r|      |r|
+Eq. (27) will be very important to extract the desired canonical transformation.
+
+                   
+     B.   Sp 2D̄, R and the Harmonic Oscillator
+
+                                                  
+     The HOscD̄ has a dynamical symmetry Sp 2D̄, R that controls its spectrum as described
+in this section. The harmonic oscillator in D̄ space dimensions, with phase space (r̄α , p̄α ) ,
+α = 1, 2, · · · , D̄, has dynamics described by the Hamiltonian
+                       2                                s           r       !
+                                2
+                        p̄   µω 2                D̄            ~ω          µ
+               H=          +      r̄ = a† · a +       , a≡        r̄ + i      p̄ .                      (29)
+                        2µ    2                   2            2µ         2~ω
+
+8
+    Historically, the algebraic computation of the Hatom spectrum followed a different path. It relied on the
+    Runge-Lenz vector that together with orbital angular momentum, complete an SO(D + 1) algebra. The
+    quadratic Casimir of this algebra can be shown to be related to the Hatom Hamiltonian, so the spectrum
+                                                      SO(D+1)
+    of the Hamiltonian was computed by computing C2           . The 2T-physics approach showed another way
+                                                            ′
+    to get there, namely by computing the eigenvalues of L0 0 .
+
+                                                    18
+For convenience (or by a rescaling of the coordinates and momenta) we will take µ = 1,
+ω = 1 and ~ = 1. The Hamiltonian is invariant under unitary transformations aα → Uαβ aβ
+                                                                                     
+where U † U = 1. These transformations belong to the group SU D̄ ⊗ U(1) ⊂ Sp 2D̄, R .
+Excited levels are of the form a†α1 a†α2 . . . a†αn̄ |0i, where |0i denotes the ground state. The
+totally symmetric tensor form of the quantum states implies that only totally symmetric
+representations of SU(D̄) will occur (single-row Young tableaux with n̄ boxes). Thus the
+spectrum will have degeneracy
+                                                                                    
+                  (D̄ + n̄ − 1)!                   D̄(D̄ + 1) D̄(D̄ + 1)(D̄ + 2)
+                                 , or       1, D̄,           ,                   ,... ,         (30)
+                   n̄!(D̄ − 1)!                        2              6
+
+corresponding to total excitation number, n̄ = 0, 1, 2, 3, . . . , and energies, En̄ = ~ω(n̄ + D̄2 ).
+             
+   Sp 2D̄, R acts linearly on a 2D̄ dimensional column consisting of D̄ position and D̄
+                                                   
+momentum real degrees of freedom in a real basis p̄r̄ , or equivalently in a pseudo-complex
+                                       
+basis, aa† . The generators of Sp 2D̄, R are formed by the symmetric product of two such
+columns, so there are D̄(2D̄ + 1) generators that take the form
+                                                      (                               )
+                 r̄α r̄β r̄α p̄β + p̄β r̄α p̄α p̄β        a†α a†β a†α aβ + aβ a†α aα aβ
+                        ,                 ,          or          ,               ,        .     (31)
+                    2            4            2              2           4          2
+                         
+These form the Sp 2D̄, R Lie algebra under classical Poisson brackets or quantum com-
+                                                    
+mutators. The subset of operators 12 a†α aβ + aβ a†α or 21 (r̄α p̄β + p̄β r̄α ) that can be decom-
+                                                                               
+posed into one symmetric and one antisymmetric tensor form the SU D̄ ⊗ U(1) subalgebra,
+where the U(1) operator, which is the trace of the symmetric tensor, is the Hamiltonian
+                                   
+H = 21 (p̄2 + r̄2 ) = a† · a + D̄/2 . Acting on the harmonic oscillator quantum states in
+                                                              
+Fock space, the step-up or step-down generators a†α a†β , aα aβ doubly excite or doubly de-
+                                                                                     
+excite any given state with total excitation number n̄. For this reason the Sp 2D̄, R action
+cannot mix n̄odd states with n̄even states. Moreover, it is evident that all even (odd) states
+mix among the even (odd) sets under repeated action of the step up/down operators, so
+even/odd states form disjoint irreducible representation bases. The Casimir operators C̄k
+that commute with all the generators, in this construction, are all pure numbers (i.e., not
+operators),
+                             2                           k−1 
+                    C̄k =         2 D̄ + 1    1 − 2 D̄ + 1        , k = 2, 3, · · · , D̄.       (32)
+                            4k k!
+For example, the quadratic Casimir is computed explicitly as follows by taking into account
+
+
+
+                                                     19
+the order of harmonic oscillator operators,
+                               †             †                 †                   †
+                                                                                                 !                    
+            a† aβ + aβ a†α aβ aα + aα aβ aα aβ aβ a†α a†α aβ aβ aα                                      D̄       D̄ 1
+   C̄2 =   2 α                          −            −                                               =−            +     .   (33)
+                  4              4         2     2       2     2                                        2        2   4
+                                                                                                                               
+So, the Fock space of HOscD̄ corresponds to two specific fixed representations of Sp 2D̄, R
+such that both even and odd states have the same Casimir eigenvalues, C̄k , even though
+they are distinct irreducible representations.
+                                                        
+   Another commuting set of subalgebras of Sp 2D̄, R that is relevant for our analysis is
+                   
+Sp(2, R) ⊗ SO D̄ . The three Sp(2, R) generators Gµ=0,1,2 are obtained from the traces of the
+                                       
+tensors listed in (31), while the SO D̄ generators Lαβ correspond to the only antisymmetric
+                                                                                                
+tensor constructed from those listed in (31), namely Lαβ = (r̄α p̄β − r̄β p̄α ) = a†α aβ − a†β aα .
+                                                                                               
+The remaining coset generators are labelled by representations of Sp(2, R) ⊗ SO D̄ , as
+Sµ(αβ) , where the pair (αβ) corresponds to the irreducible symmetric traceless tensor of
+                             
+SO D̄ . So, the Sp 2D̄, R generators are given as follows (these may be rewritten in terms
+                                       
+of a†α , aα ), for a total of D̄ 2D̄ + 1 Hermitian operators:
+                                        
+                                        
+                                                           r̄·r̄
+                                         G+ = (G0 + G1 ) = 2
+                                        
+                       Sp (2, R) : Gµ =        G2 = − r̄·p̄+p̄·r̄        ,
+                                             
+                                             
+                                                           4
+                                             
+                                              G− = 1 (G0 − G1 ) = p̄·p̄
+                                                           2                                 4
+                                
+                       SO D̄ : Lαβ = (r̄α p̄β − r̄β p̄α ) ,                                                                  (34)
+                                       
+                                       
+                                          S
+                                                         r̄ r̄
+                                                    = α2 β − D̄
+                                                                       δαβ r̄·r̄
+                                       
+                                        +(αβ)                               2
+                                                        r̄α p̄β +r̄β p̄α      δαβ r̄·p̄+p̄·r̄
+                       Coset : Sµ(αβ) = S2(αβ) =                         − D̄                 .
+                                       
+                                       
+                                                                4                      4
+                                       
+                                        S−(αβ) = p̄αp̄β − δαβ p̄·p̄
+                                                                    2              D̄    2
+
+                                                                                                                               
+Note that the G±,0 are Hermitian combinations of the Hermitian Gµ . The Sp(2, R) ⊗ SO D̄
+subalgebras commute with each other, [Gµ , Lαβ ] = 0, because the Gµ are constructed
+           
+from SO D̄ -invariant dot products. It can be checked that the compact generator G0
+of Sp(2, R) = SL(2, R) = SU(1, 1) , given by G0 = 21 G+ + G− , is related to half the Hamil-
+tonian H in (29), and the quadratic Casimir operator, C̄2 (Sp (2, R)) = (G20 − G21 − G22 ) =
+(G+ G− + G− G+ − G22 ) , is related to angular momentum 21 Lαβ Lαβ :
+                   2    2
+           G0 = p̄ +r̄ = 21 H,
+                   4
+                                    h 2 2                               i                                         
+                                     r̄ p̄ +p̄2 r̄2
+                                                                   
+                                                        r̄·p̄+p̄·r̄ 2                             D̄ (D̄−4)                  (35)
+           C̄2 (Sp (2, R)) = 14            2
+                                                    −        2
+                                                                            = 41        1 αβ
+                                                                                        2
+                                                                                          L Lαβ +      4
+                                                                                                                       .
+
+
+
+                                                        20
+The eigenstates of Sp(2, R)         = SL(2, R)      = SU(1, 1) simultaneously diagonalize
+C̄2 (Sp (2, R)) → j̄ (j̄ + 1) , and the compact generator G0 → m (j) = (j + 1 + nr ). An-
+                                                                                   
+gular momentum is also simultaneously diagonalized, 12 Lαβ Lαβ → l¯ l¯ + D̄ − 2 . Hence Eq.
+                                                     
+(35) relates the quantum numbers j̄, ¯l, D̄, n̄, nr as follows:
+                                                      
+                                             D̄(D̄−4)            1            
+              j̄ (j̄ + 1) = 4 l¯ l¯ + D̄ − 2 +
+                             1
+                                                   4
+                                                         ,      ¯      ¯    D̄−4
+                                                             j̄ l = 2 l + 2 ,
+                                      1                ⇒                          (36)
+                           ¯
+              G0 → j̄ l + 1 + nr = 2 n̄ + 2 ,    D̄          n̄ = ¯
+                                                                  l + 2nr   ≥  0.
+
+In this case we see that the smallest eigenvalue of G0 (which corresponds to half the Hamil-
+tonian of HOscD̄ ) occurs for the vacuum of Fock space, and is givem by, j̄ (0) + 1 = D̄4 . This
+is positive for all values of D̄ = 1, 2, 3, · · · , so only one solution of the quadratic equation
+for j is given in (36). This explains the HOsc part in Eq. (11).
+
+
+IV.   DUALITY AS CANONICAL TRANSFORMATIONS AND SO(D + 1, 2)
+
+
+  We are now ready to compare the SO(D + 1, 2) generators LM N (r, p) in (21) to the
+         
+Sp 2D̄, R generators in (34). These clearly are different Lie algebras; however, they both
+share the crucial subgroups
+                                                                          
+              HatomD : SO (1, 2) ⊗ SO (D) , and HOscD̄ : Sp (2, R) ⊗ SO D̄ ,                 (37)
+
+that classify the spectra in the generalized version of Eq. (8) as described following that
+equation. The fact that SO(1, 2) = Sp(2, R) suggests that, for a duality to exist, we should
+identify some subsets of the infinite vertical towers of the HOscD̄ to all the towers of the
+HatomD . We already saw in Section II B that when D = D̄ = 2 this idea actually works. For
+more general 3 ≤ D ≤ D̄, identifying the towers requires at the very least that we require
+                                                                                      
+they are in the same representation of SO(1, 2) = Sp(2, R) , which means j (l) = j̄ ¯l . Using
+Eqs. (25,36), this gives
+                                                          
+                      for D = 1 : j (l) = 0 = 12 0 + D̄−4
+                                                       2
+                                                             and l, ¯l = 0.
+                                                                                           (38)
+                                                     1 ¯
+                      for D ≥ 2 : j (l) = l + D−3
+                                                2
+                                                   = 2
+                                                         l + D̄−4
+                                                               2
+                                                                    .
+
+This condition reproduces Eq. (6) for ᾱα = −2, that was based on the radial duality. This is
+a very encouraging observation, so we pursue it in this section.
+  Thus, for sufficiently large D̄ ≥ D we can find an appropriate subgroup SO(D + 1, 2) ⊂
+                                                                                          
+Sp 2D̄, R with generators LM N (r̄, p̄) that are some linear combinations of the Sp 2D̄, R
+
+                                              21
+generators in (34). These will look different than the Hatom’s LM N (r, p) in (21) as functions
+of different phase spaces (r, p)D versus (r̄, p̄)D̄ , but will have the crucial subalgebras in
+(37), with the imposed condition (38). By the 2T-physics gauge-invariance argument in the
+                                                          
+Appendix, we consider the pair LM N (r, p) , LM N (r̄, p̄) to be the algebraic description of
+the hidden SO(D + 1, 2) symmetry of two shadows, and on this basis we equate them as
+described in the Appendix:
+                                  LM N (r, p) = LM N (r̄, p̄) .                           (39)
+
+From this equation we will derive the sought-after canonical transformation that relates the
+two phase spaces (r, p) ↔ (r̄, p̄), as shown below. We will see that this scheme works for
+certain dimensions D̄ ≥ D.
+   To say that HatomD is dual to HOscD̄≥D via a canonical transformation may seem in-
+complete since the phase space (r̄, p̄)D̄>D has certainly more degrees of freedom as compared
+to (r, p)D . Hence we must expect some constraints on the phase space (r̄, p̄)D̄>D that re-
+duce the degrees of freedom such that the spectrum of HOscD̄≥D becomes compatible with
+HatomD . This means that the canonical transformation that we will display must have a
+gauge symmetry that gives rise to the constraints in the form of vanishing gauge generators
+(thus distinguishing the gauge-invariant subspace). Hence the duality HatomD ↔ HOscD̄>D
+can be true only on the gauge invariants for which the gauge generators vanish. We will
+display the gauge symmetry in precisely the form stated in this paragraph. Because of the
+gauge symmetry, the gauge-invariant sector of HOscD̄≥D is effectively equivalent to a phase
+space in D dimensions.
+
+
+   A.   Case of D = D̄ = 2 and SO(3, 2) = Sp(4, R)
+
+
+   For D = D̄ = 2 we already have SO(3, 2) = Sp(4, R) so there is no need to search for a
+subgroup. However the Sp(4, R) generators are expressed in the 4-dimensional spinor basis
+                                                  
+as the product of two 4-dimensional columns ψA = p̄r̄ , whereas the SO(3, 2) generators
+                                                            A
+LM N are expressed in the antisymmetric product of the 5-dimensional basis of SO(3, 2) .
+All we need to do is convert the symmetric product of the spinor basis 12 (ψA ψB + ψB ψA )
+discussed in Section III B to the antisymmetric product in the vector basis LM N discussed
+in Section III A. This is done by using the antisymmetric product of SO(3, 2) gamma ma-
+                                      
+trices, γ M N AB = 12 γ M γ N − γ N γ M AB , where the 4×4 gamma matrices γAB
+                                                                            M
+                                                                               satisfy the
+
+                                             22
+                
+Clifford algebra γ M , γ N = 2η M N , with the SO(3, 2) Minkowski metric η M N . Fortunately,
+                     
+for SO(3, 2) , Cγ M N AB where C is the “charge conjugation matrix”, is antisymmetric in
+the pair [MN] and symmetric in the pair (AB) , so we can write
+                                                           
+                        MN          MN
+                                             ψA ψB + ψB ψA
+                       L     ∼ Cγ        AB
+                                                              ,                                                         (40)
+                                                    2
+
+up to a normalization to preserve the correct commutation rules. We can now focus on
+just a subset of the generators that lead to the desired canonical transformation. These are
+     ′          ′                                                         
+ Li+ , Li0 , L0+ for the Hatom2 as given in (21), and S+(αβ) , S2(αβ) , G+ for the HOsc2 as
+given in (34). Relating them as in (40) we obtain a simplified version of (40) for this subset:
+
+                             ′                                         ′
+                          Li+ = γ i αβ S+(αβ) , Li0 = γ i αβ S2(αβ) , L0+ = G+ ,                                        (41)
+
+           i
+where now γαβ are simply the SO(2) gamma matrices given by 2×2 Pauli matrices, γ 1 = σ3
+                                                                                                                    ′
+and γ 2 = σ1 that are correctly normalized. Recalling (27) that says ri = Li+ and pi =
+       ′ −1/2         ′ −1/2
+− L0+          Li0 L0+         , and using Eqs. (21,34,41), we now can write
+                                                        αβ                    
+                       ′                                             δαβ r̄·r̄
+              ri = Li+ = (γ i )αβ S+(αβ) = γαβ     i     r̄ r̄
+                                                            2
+                                                                −     D̄ 2
+                                                                                 ,
+                              ′ −1/2         ′ −1/2
+              pi = − L0+              Li0 L0+           = − (G+ )−1/2 (γ i )αβ S2(αβ) Li0 (G+ )−1/2                     (42)
+                         √  α β β α                           √
+                     i      2 r̄ p̄ +r̄ p̄     δαβ r̄·p̄+p̄·r̄      2
+                = −γαβ   |r̄|         4
+                                           −    D̄      4        |r̄|
+                                                                      .
+
+               i
+For traceless γαβ , this simplifies to
+
+                                        1               1 1                         1
+                                    ri = r̄γ i r̄, pi =        r̄γ i p̄ + p̄γ i r̄       .                              (43)
+                                        2               2 |r̄|                      |r̄|
+
+Explicitly, using γ i = (σ3 , σ1 ) we obtain
+                                                               
+                                             1     2         2
+                                r              (r̄ − r̄2 )
+                             1=2 1                              ,
+                                r2                r̄1 r̄2
+                                                                                                                    (44)
+                                                 r̄1 p̄1 +p̄1 r̄1    r̄2 p̄2 +p̄2 r̄2
+                                p                                 −
+                             1= 1                     2                   2         1,
+                                        |r̄|                                            |r̄|
+                                p2                        r̄1 p̄2 + r̄2 p̄1
+                  p
+where |r̄| ≡          r̄12 + r̄22 . We can verify that this is indeed a canonical transformation by
+computing the Poisson brackets or quantum commutators as follows:
+                             h                                          i
+                     i   j     1 α i     β 1 1       κ j   λ    λ j κ 1
+                   [r , p ] = 2 r̄ γαβ r̄ , 2 |r̄| r̄ γκλp̄ + p̄ γλκ r̄ |r̄|
+                                                                                                                        (45)
+                                       1                               1
+                               = i 21 |r̄| r̄ (γ i γ j + γ j γ i ) r̄ |r̄| = 2i 2δ ij |r̄|
+                                                                                       1            1
+                                                                                           r̄ · r̄ |r̄| = iδ ij .
+
+                                                                  23
+This shows that we obtain the right result, [ri , pj ] = iδ ij , that a canonical transformation
+should obey. Moreover, one can verify that all components of the generators in Eqs. (21,34)
+do satisfy Eq. (40) at the quantum level (i.e., with correct ordering of operators) when the
+canonical transformation (43 or 44) is inserted in (40).
+   We can rewrite the canonical transformation (44) in cylindrical coordinates by defining
+
+                   r1 = r cos θ, r2 = r sin θ, and r̄1 = r̄ cos θ̄, r̄2 = r̄ sin θ̄.       (46)
+
+Then (44) for the transformation of the coordinates reduces to
+
+                                            1
+                                         r = r̄ 2 , θ = 2θ̄.                               (47)
+                                            2
+This reproduces Newton’s radial substitution (1) for the case α = −1 and ᾱ = 2, and adds
+the transformation of the angles as well, thus completing the radial duality to a full duality
+in the case of D = D̄ = 2. Moreover, we point out the fact that θ = 2θ̄ is consistent with
+the shapes of classical orbits in the Kepler and harmonic oscillator potentials: The perigee
+is reached once per Kepler orbit, but twice per harmonic oscillator orbit.
+   Relative to (1) we ended up with an extra factor of 1/2 in the relation r = 12 r̄ 2 in Eq.
+(47). This is of no concern: the extra factor of 1/2 slightly alters only the radial duality
+rules in (5) as explained in footnote 5.
+   As a final remark we identify a gauge symmetry that commutes with the canonical trans-
+                                                                         
+formation. Recall that according to Eq. (8) only the even n̄even , ¯leven quantum states of
+HOsc2 are dual to all the quantum states of the Hatom2 . As asserted in the paragraph
+following Eq. (39), there must be a gauge symmetry in the canonical transformation that
+                                            
+can be used to project out the n̄odd , ¯lodd quantum states of the HOsc2 . Indeed there is such
+a gauge symmetry in Eqs. (43) or (44) that amounts to the discrete rotation of the HOsc2
+phase space by 180 degrees, (r̄, p̄) → (−r̄, −p̄) . Only the even quantum states of the HOsc2
+are gauge-invariant under this discrete transformation as can be seen from the wavefunction
+in Eq. (2) that transforms under the gauge symmetry according to
+                                                                   
+                                           r = (−1)l̄ Tα1 ···αl̄ −b̄
+                               Tα1 ···αl̄ −b̄                     r .                      (48)
+
+Imposing this gauge symmetry on the quantum states of the HOsc2 eliminates the non-
+invariant odd states, and gives precisely the duality that is observed in the spectrum for the
+gauge-invariant even states, as displayed in Eq. (8).
+
+                                                24
+     For the odd states of the HOsc2 , we anticipated in Section II B that the dyonic-Hatom
+is the correct dual, based on 2T-physics properties. We will not discuss the details of this
+structure here in the same manner as above, because we have no space to introduce more
+technical tools in this paper to deal with the spin degrees of freedom required in the 2T
+formalism [43].
+
+
+     B.   Case of D = 3, D̄ = 4, and SO(4, 2) ⊗ U(1) ⊂ Sp(8, R)
+
+
+     The form of the canonical transformation (43) suggests applying it to higher dimensions
+D≥2:
+                                   1               1 1                         1
+                               ri = r̄γ i r̄, pi =        r̄γ i p̄ + p̄γ i r̄       .                  (49)
+                                   2               2 |r̄|                      |r̄|
+So, starting with Hatom3 let’s try it for D = 3 and some D̄ ≥ 3. A series of questions
+                                                                   i
+are: what is D̄, what are the three D̄ × D̄-symmetric matrices, γαβ  , and in what SO(3)
+                                                       i
+representation embedded in SO D̄ , compatible with γαβ    , should the components of the
+      
+SO D̄ vector r̄α be classified? As a first try, consider D̄ = 3. The relation ri = 12 r̄γ i r̄
+indicates that the product of two r̄ vectors is desired to be a vector of SO(3), but r̄γ i r̄ is
+necessarily a symmetric product of two r̄ vectors which yields SO(3) spin either 0 or 2 but
+not 1 (vector). Therefore, if (49) which is the only form consistent with Eq. (1), is adopted
+as part of the canonical transformation, D̄ cannot be 3.9
+     In search for D̄, we observe that the phase space (ri , pi ) for the Hatom3 is in the vector
+basis of SO(3) , while the spinor basis (which has the smallest dimension possible) is the
+               
+doublet Z = zz12 of SU(2) = SO(3) . The spinor basis is complex so it contains 4 real
+numbers. Therefore, for (49) to work for the smallest possible D̄, we must take D̄ = 4 for
+the phase space vectors (r̄, p̄) of the HOsc4 . This suggests to rearrange the 4 real components
+                                                                                           
+of r̄, which is a vector of SO(4) , into two complex numbers of an SO(3) spinor Z = zz12 ,
+and similarly for p̄. Then, using the 3 Pauli matrices σ i , we can write an SU(2) = SO(3)
+
+9
+    There are other forms of canonical transformations between these two systems predicted by 2T-physics
+    that are more general than (1) (see Section IV C). However, in this section we are focusing on dualities
+    consistent with the radial duality in (1).
+
+
+
+
+                                                      25
+covariant relation
+                                 i
+                         ri =Z † σ2 Z, with z1 = r̄4 + ir̄3 , z2 = −r̄2 + ir̄1 ,
+                                      i
+                                               i
+                                                       † 2             2               (50)
+                         r · r = Z † σ2 Z Z † σ2 Z = Z 2Z = r̄·r̄       2
+                                                                              ,
+
+                                     2
+The second line yields |r| = |r̄|2 , consistent with radial duality (1), including the extra
+factor of 1/2 that emerged in (47). The first line of (50) can be rewritten in the form (49) to
+                                 i
+derive three 4×4 real symmetric γαβ matrices with α, β = 1, 2, 3, 4. Furthermore, from (50)
+we obtain the relation between the angular coordinates r̂ for the Hatom3 and the angular
+coordinates b̄
+            r for the HOsc4
+                                                            √ Z (r̄) √     
+                               r = Ẑ † σ i Ẑ, with Ẑ ≡
+                           rγ ib̄
+                     r̂i = b̄                                2      = 2Z b̄
+                                                                         r ,               (51)
+                                                               |r̄|
+
+where the doublet Ẑ contains only angular coordinates, thus generalizing the radial duality
+relation (1) by including the angular relation. This embeds the angular spatial rotations
+SO(3) of the Hatom3 into the spatial rotations SO(4) of the HOsc4 .We will give more clar-
+ifying details about this embedding below, but first let’s complete and verify the canonical
+transformation.
+                             
+  In addition to the Z = zz12 doublet we introduce a doublet of canonical conjugates
+     
+Π = ππ12 , to write the second half of the canonical transformation
+
+                   Z † σi Π + Π† σi Z
+                  pi =                , with, π1 = p̄4 + ip̄3 , π2 = −p̄2 + ip̄1 .         (52)
+                          2Z † Z
+                                           
+Using the HOsc4 commutation rules r̄α , p̄β = iδ αβ , we see that
+          h        i                                  h        i
+                 †     †                                  †    †
+           Za , Πb = Za , Πb = iδab , while [Za , Πb ] = Za , Πb = 0, for a, b = 1, 2.     (53)
+
+Now we verify that Eqs. (50,52), that are equivalent to (49), amount to a canonical transfor-
+mation, by computing [ri , pj ] by using only the commutators (53) and obtain [ri , pj ] = iδ ij
+as follows:                                   †                 
+                          i j          †σ
+                                            i
+                                                  Z σi Π + Π† σi Z
+                          r ,p =       Z      Z ,         †
+                                                                     = iδ ij .             (54)
+                                          2            2Z Z
+   Now we give a group-theoretical analysis of the duality Hatom3 ↔ HOsc4 via the canon-
+ical transformation above. Given the reasoning at the beginning of Section IV, and using
+              
+ D = 3, D̄ = 4 , we infer that this duality involves the non-compact groups SO(4, 2) and
+Sp(8, R) that classify the corresponding spectra as discussed in Sections II and III, provided
+
+                                                 26
+these obey a subgroup relationship. Indeed in the spinor basis SO(4, 2) = SU(2, 2) is easily
+recognized as a subgroup of Sp(8, R) ⊃ SO(4, 2) ⊗ U (1) . Then, in the sense of Eq. (8), the
+entire spectrum of Hatom3 , in the form of SO(1, 2) towers with angular momentum l for
+SO(3) , should correspond to part of the HOsc4 spectrum in the form of Sp(2, R) towers
+with angular momentum ¯l for SO(4) . Furthermore, the condition for identical SO(1, 2) =
+                                                             
+Sp(2, R) representations for the towers, namely j (l) = j̄ ¯l given in (38), must also be
+satisfied. The last requirement boils down to simply
+                                                             1
+                                            j (l) = l, j̄ l¯ = ¯l; ⇒ l¯ = 2l.                                                (55)
+                                                              2
+This means the entire Hatom3 spectrum, in the SO(4, 2) singleton representation with
+Casimir eigenvalues Ck (D = 3) in Eq. (A14), must correspond to a subset of the states
+                                                    
+of the HOsc4 in the even sector with n̄even , ¯leven , i.e., within the even singleton represen-
+                                                           
+tation of Sp(8, R) with Casimir eigenvalues C̄k D̄ = 4 in Eq. (32). This is then consistent
+with SO(4, 2) = SU(2, 2) ⊂ Sp(8, R) .
+  Hatom3                                                          HOsc4
+                        l→                                                             l̄→
+SO(4)⊃SO(3)   n              012345              6 ···         SU(4)⊃SO(4)   n̄              012 3            4 5 6 ···
+               ↓                                                             ↓
+      ..           ..        .. .. .. .. .. ..     ..               ..            ..         .. .. .. ..      .. .. ..
+       .            .         . . . . . .           .                .             .          . . . .          . .   .
+     49            7         1 3 5 7 9 11         13               84             6          1       9        25        49
+     36            6         1 3 5 7 9 11                          56             5              4       16        36
+
+     25            5         13579                                 35             4          1       9        25
+     16            4         1357                                  20             3              4       16
+
+     9             3         135                                   10             2          1       9
+     4             2         13                                     4             1              4
+
+     1             1         1                                     1              0          1
+                                                                                                                             (56)
+   To see this more clearly, we display in Eq. (56) the full spectra of Hatom3 and HOsc4
+similar to Eq. (8) with all their states included. The entry in each pigeon hole labelled by
+(n, l) for Hatom3 is the dimension of the SO(3) l-representation, i.e., (2l + 1), while the entry
+                                      
+in each pigeon hole labelled by n̄, ¯l for HOsc4 is the dimension of the SO(4) ¯l-representation
+                          2
+given in (4), i.e., ¯l + 1 . Similarly, the entries at fixed values of n or n̄ at the leftmost
+columns of each table are the dimensions of the hidden symmetries of the Hamiltonians,
+SO(4) for the Hatom3 in the (n − 1)-representation, i.e., dimension n2 , and SU(4) for the
+HOsc4 in the totally symmetric n̄-representation, i.e., dimension (n̄+3)!
+                                                                    n̄!3!
+                                                                          . These correspond to
+
+                                                          27
+the total degeneracies of the energy levels of the respective systems, as discussed in Section
+III for general D, D̄.
+   We still need to indicate the specific subset of HOsc4 -even states that correspond to all
+                                                                                        
+the states of Hatom3 . We do this by comparing each pair of towers, at l = j, ¯l = 2j for
+                                                                                    
+j = 0, 1, 2, · · · , since we have already guaranteed that the towers l = j, ¯l = 2j have the
+same SO(1, 2)j = Sp(2, R)j representation as in (38), and that this is a common subgroup
+                                                                                 
+of SO(4, 2) ⊂ Sp(8, R) . For the pair of towers l = j, l¯ = 2j the SO (3) , SO (4)   dimen-
+                                                                                        j          2j
+
+sions are generally different as seen in the tables in Eq. (8). For example for l = j = 2 the
+tables show that there are 5 Hatom3 l = 2 towers, versus for the same j = 2, there are 25
+HOsc4 ¯l = 4 towers. Hence for j = 2, only 5 linear combinations of the 25 HOsc4 towers
+correspond to the 5 Hatom3 towers.
+   To figure out methodically the subset of HOsc4 towers that correspond to the Hatom3
+towers at each ¯l = 2l we must identify the gauge symmetry inherent in the canonical trans-
+formation given above in Eqs. (50,52,53). This gauge symmetry must commute with the
+SO(3) ⊂ SO(4) embedding provided by Eq. (50), on which we now expand. To do so,
+                         
+note that the spinor Z = zz12 is part of a 2×2 matrix M that is constructed from the
+4-component vector r̄
+                                                                                               
+                                                     r̄4 + ir̄3   r̄2 + ir̄1           z1 −z2∗
+     M = (iσ1 r̄1 + iσ2 r̄2 + iσ3 r̄3 + r̄4 ) =                               =                .    (57)
+                                                    −r̄2 + ir̄1 r̄4 − ir̄3             z2   z1∗
+
+The SO(4) rotations on r̄α amount now to SU(2)L ⊗ SU(2)R = SO(4) transformations on
+the left and right sides of the matrix M. The SO(3) transformation on the doublet spinor
+       
+Z = zz12 is the SU(2)L applied on the left side of the matrix M as seen clearly from
+                                 ∗
+(57). The second doublet Zc = −z  z∗
+                                    2  is the SU(2)L “charge conjugate” of the first doublet,
+                                      1
+              ∗
+Zc = (−iσ2 Z ) , and transforms also as a doublet under SU(2)L . The SU(2)R interchanges
+the two SU(2)L doublets (Z, Zc ) and this transformation commutes with SU(2)L = SO(3) .
+The matrix M satisfies MM † = M † M = r̄ · r̄. The canonical transformation (50) for the
+position coordinates may now be rewritten in terms of M in the form:
+                               i                      i
+                                                                     
+             σ3 †        i       σ    σ3 †       1    †σ        †σ
+                                                                   i
+                                                                          σi
+    r · σ =M M or r = T r          M M =            Z      Z − Zc Zc = Z † Z.                           (58)
+              2                  2    2          2     2         2        2
+
+Hence the gauge symmetry that commutes with SU(2)L = SO(3) must be part of SU(2)R
+since SU(2)R commutes with SU(2)L . The form of the canonical transformation in Eq. (58)
+
+                                                    28
+shows clearly that the SU(2)R is broken down to U(1) due to the σ3 insertion on the right
+side of M. Therefore the gauge symmetry operator is just the third generator of SU(2)R
+that we will call J3R . We can build this operator as a Hermitian operator that commutes
+with the expressions for the canonical transformation in (50,52). That is, we can verify the
+gauge-invariance of the canonical transformation by computing
+
+                              1              
+                       J3R =     Z † Π − Π† Z , [r,J3R ] = [p,J3R ] = 0.            (59)
+                              2i
+                                                   
+where (r, p) are written in terms of Z, Π, Z †, Π† before performing the commutators. It
+is easy to see that the finite transformation generated by J3R amounts to overall phase
+transformations on the doublets
+                                                                        
+                         Z, Π, Z †, Π† → eiα Z, eiα Π, e−iα Z † , e−iα Π† ,                (60)
+
+which is a symmetry of the the canonical transformation in (50,52,53). This U (1) is precisely
+the same U (1) that appears in SO(4, 2) ⊗ U(1) ⊂ Sp(8, R), so it commutes with all properties
+of the hidden SO(4, 2) symmetry of the Hatom3 . The vanishing of the operator J3R is the
+constraint that must be applied on the quantum states of the HOsc4 in order to project out
+the gauge-dependent states and keep only the gauge-invariant “physical states”. Only the
+“physical states” of the HOsc4 are dual to all the Hatom3 quantum states.
+  To see this projection and identification of the “physical states” explicitly, one may de-
+compose the SO(4) traceless symmetric tensors, whose dimensions for the ¯l-representations
+appear in (56). We remark that in this case the ¯l-representation can also be presented
+               
+as the 2l̄ , 2l̄ representation of SU(2)L ⊗ SU(2)R = SO(4), labelled by quantum numbers
+|jL , mL ; jR , mR i, with −jL ≤ mL ≤ jL and −jR ≤ mR ≤ jR and where jL = jR = 2l̄ = l. So
+                                                                                        2
+the multiplets |l, mL ; l, mR i have dimension, (2jL + 1) (2jR + 1) = (2l + 1)2 = l¯ + 1 , that
+matches the entries in the pigeon holes in the right-side table in Eq. (56). The gauge-invariant
+states are only those that have J3R → mR = 0, hence the physical states are |l, mL , l, 0i while
+all others with mL 6= 0 are to be projected out by demanding gauge-invariant states. Now we
+see that the |l, mL , l, 0i HOsc4 states are in one-to-one correspondence with the |l, mi states
+of the Hatom3 . This proves clearly that we have constructed the duality transformation
+correctly.
+   It is also interesting to illustrate the role of the gauge symmetry at the classical level
+(i.e., not keeping track of operator ordering) as follows. We have already established in (50)
+
+                                              29
+              2
+that |r| = |r̄|2 ; we now compute also all the SO(3) dot products of the Hatom3 phase space
+in terms of the HOsc4 phase space as follows:
+                                    †         †           †     †
+                  r · p =Z † σ2i Z Z σi2Z
+                                       Π+Π σi Z
+                                          †Z     = Z Π+Π
+                                                      4
+                                                          Z
+                                                            = r̄·p̄
+                                                                4
+                                                                    ,
+                         † Π+Π† σ Z Z † σ Π+Π† σ Z
+                                                      Π† Π    (Z Π−Π† Z )
+                                                                 †        2
+                                                                                  2            )2
+                                                                                                     (61)
+                  p2 = Z σi2Z    †Z
+                                    i      i
+                                              †
+                                            2Z Z
+                                                  i
+                                                    =   †
+                                                      Z Z
+                                                            +           2   = p̄r̄2 − (J(r̄3R
+                                                                                            2 )2 .
+                                                                4(Z Z )
+                                                                      †
+
+
+
+Then compute the classical Hatom3 Hamiltonian in terms of the HOsc4 phase space by using
+the relations above,
+                                                                                     !
+                                            1 2 Z           1       1 2 (J3R )2
+                        HHatom =              p −         = 2         p̄ −      − 2Z       .         (62)
+                                            2     r        r̄       2      2r̄2
+
+At a fixed bound energy state (planetary-type classical orbits) take HHatom → − |E| , and
+rewrite the above relation by multiplying both sides by r̄ 2 and re-arranging, to obtain
+                                              
+                                1 2          2   (J3R )2
+                                  p̄ + |E| r̄ −          = 2Z.                           (63)
+                                2                 2r̄2
+For gauge-invariant states of the HOsc4 we must set J3R → 0, resulting in a bound energy
+                                     
+state of the HOsc4 , 12 p̄2 + |E| r̄2 = 2Z, that is dual to a bound energy state of the Hatom3 .
+In this way we see again the role of the gauge symmetry, now at the classical level.
+   Next, we can also keep track of the angular behavior in those orbits. From (57,58) we
+can write the relation between the unit vectors r̂ and b̄
+                                                       r, in D = 3 and D̄ = 4 dimensions
+respectively, as a unitary transformation U:
+
+                            σ · r̂ =Uσ3 U † , U = b̄
+                                                  r4 + iσ1b̄
+                                                          r1 + iσ2b̄
+                                                                  r2 + iσ3b̄
+                                                                          r3 ,                       (64)
+
+that satisfies UU † = U † U = b̄
+                              r · b̄
+                                  r = 1. We parametrize the r̂ unit vector in 3 dimensions in
+the usual way
+                              r̂1 = sin θ cos φ, r̂2 = sin θ sin φ, r̂3 = cos θ.                     (65)
+
+With some hindsight, we parametrize the components of b̄
+                                                      rα of the unit vector in 4 dimensions
+as follows:
+                                                                             
+                            r1 = sin θ̄ sin φ̄ + χ̄ , b̄
+                            b̄                        r2 = sin θ̄ cos φ̄ + χ̄ ,
+                                                                                                   (66)
+                            r3 = cos θ̄ sin χ̄ − φ̄ , rb̄4 = cos θ̄ cos χ̄ − φ̄ ,
+                            b̄
+
+so that the SU(2) unitary 2×2 matrix U takes the following form:
+                                                            
+                        cos θ̄ ei(χ̄−φ̄) − sin θ̄ e−i(χ̄+φ̄)
+                 U =                                         = e−iφ̄σ3 eiθ̄σ2 eiχ̄σ3               (67)
+                                i(χ̄+φ̄)           −i(χ̄−φ̄)
+                        sin θ̄ e          cos θ̄ e
+
+                                                          30
+                                                                          
+                                                        2θ̄ e−i2φ̄ sin 2θ̄
+Now computing explicitly, Uσ3 U † = ei2cos          φ̄ sin 2θ̄ cos 2θ̄
+                                                                             , and comparing to (σ · r̂) =
+                    
+    cos θ e−iφ sin θ
+  eiφ sin θ cos θ
+                       in Eq. (64), we find the following simple relations between the angles (θ, φ)
+               
+and θ̄, φ̄, χ̄ :
+                                           θ = 2θ̄, φ = 2φ̄.                                         (68)
+
+Note that r̂ (θ, φ) is independent of the angle χ̄ that drops out in the expression Uσ3 U †
+because of the gauge symmetry generated by J3R (i.e., phase symmetry U (1) ⊂ SU(2)R ).
+So, χ̄ is the pure gauge freedom in the expression of the canonical transformation (50). This
+means an infinite number of HOsc4 closed trajectories map to the same Hatom3 trajectories
+but with correlations that involve the double circling in the HOsc4 versus the single circling
+in the Hatom3 as indicated by Eq. (68).
+
+
+   C.    2T-physics and more general dualities in any D
+
+
+   The Appendix summarizes how 2T-physics predicts many shadow 1T systems in the
+same number of spatial dimensions D, and that these are dual to each other for any pair of
+shadows. Each shadow in D space and 1 time dimensions, being merely a gauge choice of
+the Sp(2, R) gauge symmetry, holographically captures all the gauge-invariant details of the
+((D + 1) + 2) higher-dimensional system. Because of this holography, the gauge invariants of
+the unique ((D + 1) + 2) dimensional structure predict dualities among the multitude of 1T-
+physics systems {(r, p,t, H)}. The duality transformations are nothing but Sp(2, R) gauge
+transformations that take one fixed gauge to another fixed gauge, and in the traditional
+1T-physics language, these correspond to canonical transformations between two shadows,
+                           
+(r, p,t, H) ↔ r̄, p̄,t̄, H̄ . We emphasize that the meaning of time and Hamiltonian are
+different in the two shadows and the canonical transformations involve the time and Hamil-
+tonian, thus explaining how two very different 1T-physics systems (different Hamiltonians),
+that are traditionally presented as very different “physics”, are actually not independent of
+each other because they are holographic shadows of the same system in ((D + 1) + 2) di-
+mensions. The usual 1T formalism hides such relationships that are not evident but actually
+exist as predicted by 2T-physics. The predictions come in the form of hidden symmetries
+and dualities that are also measurable features of 1T physics. Establishing the existence
+of the predicted hidden symmetries and dualities in 1T-physics is tantamount to establish-
+ing the existence of the ((D + 1) + 2) higher-dimensional structure with its Sp(2, R) gauge
+
+                                                  31
+symmetry in phase space (beyond well studied local gauge symmetry in position space).
+Among these dualities, the duality for the pair Hatom ↔ HOsc is only one case among
+many dualities for a multitude of similar pairs.
+   When ((D + 1) + 2) is flat (a very special but very broad case), the corresponding ac-
+tions (not Hamiltonians) for the 1T systems all have an exact hidden global symmetry
+SO(D + 1, 2) . This has its origins as the global symmetry in flat ((D + 1) + 2) dimensions
+for the 2T action. The generators LM N of this global non-compact symmetry are gauge-
+invariant because they commute with the SL(2, R) generators as seen in (A8). So, each
+LM N is independent of the shadow, even when it is evaluated in terms of a given shadow
+                           
+                  M      M
+labelled by k : X(k) , P(k)   , k = 1, 2, 3, · · · . An infinite set of duality relations between
+gauge-invariant observables of shadow k1 and shadow k2 are predicted by evaluating any
+given function of the LM N in those two different shadows as in Eq. (A19):
+                                       LM  N      MN
+                                         (k1 ) = L(k2 ) = L
+                                                           MN
+                                                              ,
+                                                                                                      (69)
+                                                             MN     MN
+                     Dualities for every function F : F L(k1 ) = F L(k2 ) .
+These are an infinite set of measurable predictions from 2T-physics for the dynamics of 1T-
+physics. From these gauge-invariant predictions we can extract the canonical transforma-
+                                                                                               
+tions for the phase spaces r(k1 ) , p(k1 ) , t(k1 ) , H(k1 ) ↔ r(k2 ) , p(k2 ) , t(k2 ) , H(k2 ) . For examples,
+see [36].
+  Turning this relation around, the Hamiltonian H(k) of each shadow can be expressed as
+                       
+some function Hk LM N of the gauge-invariant LM N generators of SO(D + 1, 2) . Examples
+of such systems that have been explicitly discussed in the past 2T-physics literature include
+Hatom, HOsc, free relativistic massless/massive particles, particles moving in various curved
+spaces (including some black holes), twistor equivalents for all these, etc. These systems
+appear to be disjoint in the traditional 1T physics formalism. Actually, they are simply 1T
+“shadows”, with different meanings of 1 time, resulting from various gauge choices of the
+Sp(2, R) symmetry, thus embedding each shadow differently within a given representation
+of the underlying global symmetry SO(D + 1, 2). Furthermore, since the Hamiltonian is a
+function of the gauge invariant LM N , the spectrum of energy states in each dual shadow
+system is captured in the same infinite-dimensional unitary representation of SO(D + 1, 2) ,
+whose quadratic, cubic, quartic and higher Hermitian Casimir operators are predicted to
+have the fixed eigenvalues given in Eq. (A14) that identify the singleton representation.
+Thus, notably, the Hilbert space of one shadow is mapped to the Hilbert space of another
+
+                                                     32
+one by a unitary transformation within the fixed singleton representation of SO(D + 1, 2) . A
+further notable unification fact, unique to 2T-physics, is that the shadows listed above, and
+many others, satisfy the same equations in (D + 1, 2) dimensions, namely simply X · X =
+P · P = X · P = 0, that’s all. See (A10) in the Appendix for clarification how shadows in
+D + 1 dimensions emerge just from these equations.
+      The D = 2 case in Section IV A is a particularly clean example of dualities in flat
+((D + 1) + 2) dimensions, including the spinning case, because there is a clean choice of
+two dimensional phase space to describe the two shadows Hatom2 ↔ HOsc2 such that the
+                                                                         
+respective time coordinates do not transform t̄ = t. Similarly, the D, D̄ = (3, 4) case is
+the simplest example in which there is a leftover gauge symmetry that makes the respective
+phase spaces dual to each other. This set of examples, in which t = t̄, can be generalized
+to higher dimensions using similar methods involving beautiful group theory as outlined in
+the next section. For the more general cases in which t 6= t̄ the canonical transformations
+are more complicated, dramatic and surprising and were not expected to be possible in 1T-
+physics, but they do exist. For examples of 5 shadows and related canonical transformations
+see [36]. Among these there are in particular two versions of dualities that relate to the
+Hatom ↔ HOsc duality discussed here but the details of the canonical transformation are
+totally different. These cases include the dualities HatomD ↔ (HOsc(D−1) +1 dim phase
+space) that was treated in [34] and the HatomD ↔ HOscD that is implicitly given in [36].10
+
+
+V.      GENERALIZATIONS
+
+
+      We set out searching for a principle underlying the radial duality Eq. (1) between the
+hydrogen atom (radial coordinate r) and the harmonic oscillator (radial coordinate r̄) which
+follows from Newton’s substitution r ∝ r̄ 2 . The generalization of radial duality to other
+                                                       
+power-law potentials and any pair of dimensions D, D̄ , as given in (2-6), showed an im-
+portant quantum mechanical restriction, ¯l + D̄−2
+                                                2
+                                                    = αᾱ l + D−22
+                                                                    , where the quantized
+                                                        
+orbital angular momenta l, ¯l and the dimensions D, D̄ had to be integers.
+
+10
+     The nonrelativistic HOscD is briefly discussed in [36] as a specialized case of the more general “shadow-5”.
+     See Eq. (59) and related discussion in [36]. Thus HOscD is dual to all 5 shadows, including the HatomD .
+     The corresponding canonical transformation can be extracted in the same manner as the other cases
+     explicitly discussed in [36]. This is a pretty complicated expression that we may discuss in another paper.
+
+
+
+                                                       33
+  The analysis in Section II of the quantum spectra for the HatomD and HOscD̄ , with
+      
+ − ᾱα = 2, showed the disparity between the two systems when angular degrees of freedom
+are included, so a full duality consistent with Newton’s substitution, r ∝ r̄ 2 , could not be
+expected. However, hints did emerge on how a full quantum duality may be possible be-
+tween a subset of the HOscD̄ quantum states and the full HatomD quantum states. The
+                                                      
+non-compact group analysis SO(D + 1, 2) and Sp 2D̄, R of the respective spectra made
+it clear precisely how to proceed to construct the full duality by using 2T-physics as the
+guiding principle. To implement the 2T-physics perspective, it required the embedding of
+                           
+SO(D + 1, 2) into Sp 2D̄, R and demanding the identification of the corresponding gener-
+ators written in terms of the different phase spaces (r, p)D and (r̄, p̄)D̄ as in Eq. (38). From
+this we could extract the canonical transformation that relates the two phase spaces, thus
+constructing a full duality that includes all directions rather than only the radial direction,
+while at the same time obtaining a remarkable beautiful symmetry perspective of the full
+duality.
+   The explicit canonical transformation between phase spaces (49) in different dimensions,
+D < D̄, was clarified by identifying a gauge symmetry group GD in the canonical trans-
+                   G
+                   D
+formation, (r, p)D ↔ (r̄, p̄)D̄ , such that only the gauge-invariant subsector of the HOscD̄
+could be dual to the full HatomD . This gauge symmetry, that we now call GD , showed pre-
+cisely which subset of states of HOscD̄ , that are invariant under the gauge symmetry GD ,
+are dual to the full HatomD spectrum.
+                                                                                        
+   This program was carried out explicitly in the previous sections for the pairs, D, D̄ G =
+h                           i                                                             D
+
+ (2, 2)discrete ; (3, 4)U(1) . Here we sketch how to generalize to the case D = 5 and then to
+D = 1, 4.
+   The case D = 5 works exactly the same way as the case (3, 4). The spinor of SO(5) =
+USp(4) is a quartet of 4 complex numbers, so this suggests to consider D̄ = 8. Accordingly,
+we introduce a quartet Z and let the four complex numbers be constructed from the 8
+components of the real vector rα for the HOsc8 . Introduce the charge conjugate spinor
+Zc ≡ CZ ∗ , where C is the antisymmetric charge-conjugation matrix in spinor space which
+amounts to be the invariant metric of USp(4) . This structure guarantees that the quartet
+Zc transforms under USp(4) exactly the same way as Z. Now, similarly to the (3, 4) case
+we construct a 4×2 matrix M = (Z, Zc) and define an SU(2) transformation that mixes
+(Z, Zc ) like a doublet. Hence, M is now classified as (4, 2) under USp(4) ⊗ SU(2) . In this
+
+                                             34
+way the 8 real numbers r̄α become a basis for USp(4) ⊗ SU(2) transformations. This is
+consistent with the fact that SO(8) ⊃ SO(5) ⊗ SO(3) , not only in the vector basis but also
+in the SO(8) spinor basis. Accordingly, our starting point is to re-assign r̄α to the spinor
+basis of SO(8) rather than the vector basis (recall triality in SO(8)). Thus, USp(4) = SO(5)
+will serve to classify the D = 5 vector ri for the Hatom5 and G3 = SU(2) will serve as the
+gauge symmetry in the relation rI ∼ r̄α γαβ
+                                         I
+                                            r̄β in the canonical transformation (49), with
+I = 1, 2, 3, 4, 5 and α = 1, 2, · · · , 8. This G3 = SU(2) gauge group fits also in the subgroup
+structure of the hidden symmetry noncompact groups, Sp(16, R) ⊃ SO(6, 2) ⊗ SU(2) , as
+it should. With this background we are now able to use the 4 × 4 five SO(5) = USp(4)
+gamma matrices ΓI to construct the first half of the canonical transformation (49) for the
+          
+case D, D̄ G = (5, 8)SU(2) as follows:
+              D
+
+
+                                    1 † I               1
+                             rI =     Z Γ Z + Zc† ΓI Zc = Z † ΓI Z.                           (70)
+                                    8                    4
+By taking for example, z1 = r̄1 + ir̄2 , z2 = r̄3 + ir̄4 , z3 = r̄5 + ir̄6 , z4 = r̄7 + ir̄8 , this
+relation can be rewritten in the form rI ∼ r̄α γαβ
+                                                I
+                                                   r̄β . The first expression in (70) involving
+both (Z, Zc ) displays the SU(2) gauge symmetry, while the simpler last form is obtained
+because Zc† γ i Zc = Z † γ i Z, that can be proven by using the properties of the gamma matrices
+(namely CΓi are antisymmetric 4×4 matrices). Now, using the Fierz identity for SO(5)
+gamma matrices, Γiαβ Γiγδ = 2 (δαδ δγβ − Cαγ Cβδ ) , and noting ZCZ = Z † CZ † = 0 due to the
+antisymmetry of C, we compute r2 ,
+                             1 † i  † i  1 † 2 1
+                     r·r =     Z ΓZ Z ΓZ =   Z Z = (r̄ · r̄)2 .                               (71)
+                             8             4      4
+This shows agreement with Newton’s radial substitution |r| = r̄2 /2, while we have included
+all the angles in both the D = 5 and D̄ = 8 systems and satisfied the radial duality condition
+ ¯l + D̄−2 = 2 l + D−2 with ¯l − 2l. The rest of the canonical transformation involving the
+      2              2
+
+momenta is constructed through steps parallel to the case (3, 4) . Further group-theoretical
+investigation of the Hatom5 and HOsc8 spectra, similar to Eq. (56), confirms that the gauge-
+invariant subset of the HOsc8 spectrum exactly matches the full spectrum of the Hatom5
+spectrum.
+                              h                                   i
+   In the cases D, D̄ G = (2, 2)discrete ; (3, 4)U(1) ; (5, 8)SU(2) note the perfect match
+                        D
+
+of the counting of gauge-invariant degrees of freedom for the HOscD̄ , namely d¯(D) ≡
+               
+ D̄ − dim (GD ) = D, that is identical to the degrees of freedom of HatomD . Here dim (GD )
+
+                                               35
+is the number of continuous group parameters in the gauge group GD . In the D = 2, 3, 5
+cases we also note that we find D̄ = 2 (D − 1) , so ¯l = 2l satisfies the crucial radial duality
+relationships, l¯ + D̄−2
+                      2
+                         = 2 l + D−2
+                                  2
+                                     , given in (6) or (11). How about other dimensions?
+   Let’s start with D = 1, with the hidden symmetry of the Hatom1 being SO(2, 2) , and
+knowing l = 0 since there is no angular momentum, as well as j = 0 according to (11).
+Which value of D̄ for HOscD̄ is dual to this system? According to Eq. (11), since j = 0 for
+the Hatom1 tower, we must have the l¯ = 0 tower of j̄ (0) = D̄−4
+                                                              4
+                                                                 = 0. So we must have D̄ = 4,
+                                                                      
+with the 4 components of r̄ arranged into a complex doublet Z = zz12 of the gauge group
+                           α
+
+
+G1 ≡SU(2)L ⊂SO(4) . This leads to the SO(4) invariant canonical transformation (49), i.e.,
+r = 12 Z † Z = 21 (z1∗ z1 + z2∗ z2 ) = 21 r̄2 , which is consistent with Newton’s substitution (1).
+Note that angular degrees of freedom have been included in the canonical transformation,
+                                                                         
+although trivially due to the gauge symmetry G1 ≡SU(2)L . The D, D̄ = (1, 4) version
+of the radial duality condition ¯l + D̄−2 = 2 l + D−2 is also satisfied since ¯l = 0 due to
+                                        2               2
+
+the SO(4) gauge symmetry while l = 0 due to D = 1. Furthermore, the effective number of
+gauge invariant degrees of freedom for HOsc4 , d¯(D) = D̄−dim(GD ) = 4 − 3 = 1, matches
+the number of degrees of freedom D = 1 for Hatom1 .
+   Next consider D = 4 and analyze all the requirements of the duality we have discussed up
+ to now to find D̄. The radial duality condition (6) with D = 4 and assuming D̄ > 2, becomes
+¯l = 2l + 6−D̄ . The hidden symmetry of the Hatom4 is SO(5, 2) and we must embed this into
+           2
+        
+ Sp 2D̄ ⊃ SO(5, 2) ⊗ G4 , where G4 is the gauge symmetry of the canonical transformation
+                                        
+ (49), so G4 must also satisfy SO D̄ ⊃ SO(4) ⊗ G4 . These are severe restrictions on D̄.
+ If we consider the hint, that ¯l = 2l that worked so far in the cases D = 1, 2, 3, 5 might
+also work for D = 4, then we should choose D̄ = 6. Then G4 should satisfy SO(6) ⊃
+SO(4) ⊗ G4 , where SO(4) applies to the vector ri of the Hatom4 , while SO(6) applies to the
+vector r̄α of the HOsc6 . This pins down G4 = U(1) ⊗ U(1) that fits the counting of gauge-
+invariant degrees of freedom in HOsc6 , namely d¯(D) = D̄−dim(GD ) = 6 − 2 = 4, matching
+D = 4 the number of degrees of freedom in Hatom4 . This G4 = U(1) ⊗ U(1) is consistent
+also with the subgroup structure of the relevant hidden symmetry non-compact groups,
+Sp(12, R) ⊃ SO(5, 2) ⊗ (U (1) ⊗ U (1)) . With this information the relation ri ∼ r̄α γαβ
+                                                                                      i
+                                                                                         r̄β
+can now be constructed by re-arranging the 6 real numbers of r̄α into a complex quartet
+Z, but anticipating that this complex quartet contains only 6 real numbers rather than
+the natural 8 real numbers. We begin with the quartet spinor W of SO(6) = SU(4) that
+
+                                               36
+contains four complex numbers Wa = (w1 , w2 , w3 , w4 ) This is also a spinor of USp(4) =
+SO(5) and can be used as in Eq. (70) to construct an SO(5) vector out of two SO(5) spinors,
+rI = 41 W † ΓI W where I = 1, 2, 3, 4, 5. We now focus on the SO(4) = SU(2) ⊗ SU(2) subgroup
+of SO(5) =USp(4) and identity I → i = 1, 2, 3, 4 with the vector ri of the Hatom4 . Also for
+I → 5 we impose the following constraint on the quartet W
+
+                                               1
+                                           r5 = W † Γ5 W = 0.                                           (72)
+                                               4
+
+The solution of this constraint is the quartet is Z (r̄) ≡ W (solution) which is parametrized
+by only 6 real numbers that can be related to the six r̄α of the HOsc6 . Hence we have
+
+                               1
+                   ri=1,2,3,4 = Z † (r̄) Γi=1,2,3,4 Z (r̄) , and Z † (r̄) Γ5 Z (r̄) = 0.                (73)
+                               4
+
+Clearly, this relation is covariant under the rotation group SO(4) as a subgroup of SO(5) .
+                                1
+                                                     
+Moreover, we compute r · r = 16      Z † Γi Z Z † Γi Z by including the vanishing 5th component,
+                   h                             2 i
+r · r+ (r5 )2 = 16
+                1
+                     Z † Γi Z Z † Γi Z + Z † Γ5 Z       , because this allows us to use the Fierz
+identity as in Eq. (71) to find
+
+                                          1 †            2 1
+                                 r·r=       Z (r̄) Z (r̄) = (r̄ · r̄)2 ,                                (74)
+                                          4                 4
+
+which agrees with Newton’s radial substitution r = r̄ 2 /2. Of course, our transformation (73)
+includes all the angular variables for both unit vectors in 4-dimensions r̂ (3 angles) and
+6-dimensions b̄
+             r (5 angles). To display how Z (r̄) depends on the 5 angles of b̄
+                                                                            r we work in
+a basis in which Γ5 is diagonal, Γ5 =diag(1, 1, −1, −1) , and write the quartet Z (r̄) that
+satisfies the required properties Z † (r̄) Γ5 Z (r̄) = 0 as follows
+                                               
+                                cos θ̄+ eiχ̄+
+                                              
+                               sin θ̄ e−iχ̄+ 
+                                     +        
+           Z (r̄) = |r̄| eiφ̄                  , Z † (r̄) Γ5 Z (r̄) = 0, Z † (r̄) Z (r̄) = r̄ · r̄.   (75)
+                               cos θ̄− eiχ̄− 
+                                              
+                                         −iχ̄−
+                                sin θ̄− e
+
+The relation ri=1,2,3,4 = 41 Z † Γ1,2,3,4 Z has a G4 ≡ U(1) ⊗ U(1) gauge symmetry. The first
+U(1) amounts to an overall phase transformation on Z (r̄) ; this can be used to gauge-fix
+φ̄ → 0. The second U(1) amounts to a translation of θ̄± in opposite directions, θ̄± → θ̄± ± α,
+                          
+so that the sum θ̄+ + θ̄− remains invariant; this can be used to gauge-fix θ̄± → θ̄. Once
+                                                            
+gauge fixed, Z (r̄) has only 4 parameters, r̄, θ̄, χ̄+ , χ̄− , which is the expected number of
+
+                                                     37
+gauge invariants according to d¯(D) = D̄−dim(GD ) = 6 − 2 = 4, that matches D = 4 for
+Hatom4 . Further study of the spectra of Hatom4 versus HOsc6 reveals the perfect duality
+between the respective spectra, once the U(1) ⊗ U(1) gauge-invariant subset of states of
+HOsc6 are identified.
+
+
+VI.   CONCLUSION AND OUTLOOK
+
+
+   We hope the outline given above is sufficient for the cases D = 1, 4, 5. We have not
+included the group-theoretical details for D = 1, 4, 5 in the current paper because it would
+take too much space, but if interest persists, we may do it in a future publication.
+   We compile a list of the cases we have discussed up to now:
+                                                 
+            D D̄ Spinors SO(D) ! Sp 2D̄, R ⊃ SO (D + 1, 2) ⊗ G
+                                           D
+                      1
+                            Deven              odd −1
+                      2
+                        2     2     or 2        2
+
+
+
+              1 4 1real (four copies)                   Sp (8, R) ⊃ SO (2, 2) ⊗ SU (2)
+              2 2 1complex                              Sp (4, R) ⊃ SO (3, 2) ⊗ discrete         (76)
+              3 4 2complex                              Sp (8, R) ⊃ SO (4, 2) ⊗ U (1)
+                            plus one
+              4 6 4complex constraint                   Sp (12, R) ⊃ SO (5, 2) ⊗ U (1) ⊗ U (1)
+              5 8 4complex                              Sp (16, R) ⊃ SO (6, 2) ⊗ SU (2)
+                                                                        
+The third column gives information on the re-classification of the SO D̄ vector r̄ as repre-
+sentations under SO(D)×GD . In every case a spinor representation of SO(D) is included but
+                                                                
+in the case D = 4 we started with a complex quartet of SO D̄ = 6 and imposed constraints
+to reduce it effectively to two less real parameters. Furthermore, in the case D = 1 there
+is a repetition of representations (although trivial in this case). These should be taken as
+clues for how to proceed for larger dimensions D ≥ 6.
+   As a result of our experience with D = 1 to 5, we witness that ¯l = 2l applies to all the cases
+so far. Combined with the radial duality requirement, ¯l + D̄−2 = 2 l + D−2 , we see that
+                                                                              2             2
+
+ D̄ = 2 (D − 1) , for 2 ≤ D ≤ 5, except for the case of D = 1 for which D̄ = 4. The pattern
+l¯ = 2l, along with D̄ = 2 (D − 1) , may be taken as a conjecture for further investigations
+ to determine D̄ once D ≥ 6 is given, but it is not necessary that this conjecture, based on
+¯l = 2l, should hold at larger D. In any case, we have enough circumstantial evidence to
+                                                        G
+expect that there is a duality HatomD ↔D HOscD̄ for every dimension D. This is in harmony
+with the general prediction from 2T-physics.
+
+                                                            38
+   We note that so far only the even states of the HOscD̄ participate in the duality. As
+outlined in Section II B, a subset of the odd states of the HOscD̄ are supposed to be dual to
+the anyonic-Hatom according to 2T-physics. The detailed analysis of this prediction is left
+to future research.
+   We generalized Newton’s radial duality to a full duality in the form of a canonical trans-
+formation consistent with 2T-physics and its hidden symmetry SO(D + 1, 2) that applies to
+all shadows, beyond the two shadows, Hatom and HOsc, we discussed here. As emphasized
+in Section IV C 2T-physics offers other forms of canonical transformations that are more
+complicated and à priori do not seem compatible with Newton’s radial duality. The basis
+of the phase spaces in those cases are different (for example D = D̄ for all D) but must
+ultimately be related to the bases discussed in this paper by some canonical transforma-
+tions, especially after solving explicitly all the gauge constraints for the gauge groups GD
+introduced in the current paper (since then the HOscD̄ system in the gauge-invariant sector
+is reduced to a smaller phase space effectively in D dimensions). We leave the resolution of
+these and related questions to future investigations.
+
+
+   Acknowledgments
+
+
+   Both authors have known Peter Freund for several decades and have both valued his
+insights and broad knowledge. For one of us (JLR) he was a major reason for moving to
+the University of Chicago. When IB developed his work on super ternary algebras in late
+1970’s Freund and Kaplansky’s 1975 paper on superalgebras provided inspiration. We are
+both grateful to him for directing us to one another to investigate the subject of this paper.
+JLR thanks S. Chandrasekhar, A. Grant, and V. A. Kostelecký for helpful discussions.
+
+
+   Appendix A: Concepts of 2T-physics
+
+
+   In this Appendix we briefly outline the essential features of 2T-physics that are relevant
+for the reader to better understand the deeper spacetime meaning of the material in the text.
+The features of 2T-physics are what prompted Peter Freund to suggest to J. Rosner that the
+dualities encountered in the radial Schrödinger equation, that was originally discovered by
+Newton [17], and later encountered while analyzing quark-antiquark bound states [1], could
+
+
+                                            39
+be related to the more general dualities of the shadows predicted by 2T-physics.
+      2T-physics is based on having an additional Sp(2, R) gauge symmetry acting on phase
+space [33, 43] beyond the gauge symmetries that occur in traditional classical or quantum
+mechanics, field theory [50, 53, 54] or string theory (for reviews, see [35, 51, 52]). This
+gauge symmetry adds gauge degrees of freedom to conventional 1T-physics such that all
+physical systems in D-space and 1 time dimensions are elevated to a covariant description in
+(D + 1) space and 2 time dimensions with one extra time and one extra space dimension in
+flat or curved spacetime.11 The higher-dimensional perspective is very powerful and reveals
+correlations that actually exist in nature but remain well hidden and are impossible or very
+hard to capture in the traditional 1T-physics formalism. However, the predictions can be
+verified within 1T-physics either through theoretical computations or experiments. The
+dualities of the shadows that Peter Freund alluded to are part of general predictions by
+2T-physics.
+      Shadows are 1T-physics systems obtained from 2T-physics by making 1+1 gauge choices
+(in phase space, not just position space) and solving two constraints, thus eliminating 1+1
+position and momentum degrees of freedom. Any shadow captures holographically all the
+gauge-invariant physical phenomena that occur in (D + 1) + 2 dimensions. For several ex-
+amples of shadows, see [36] and references therein to previous similar 2T gauge choices. The
+remaining D spatial and 1 temporal dynamical phase space degrees of freedom, including
+time and its canonical conjugate Hamiltonian, are embedded in (D + 1) + 2 dimensional
+phase space in an infinite number of geometrical or algebraic configurations that create
+
+11
+     The reason for the extra 1+1 dimensions is closely related to the number and signature of the gauge
+     parameters in Sp(2, R) = SO(1, 2) , that has 1 spacelike gauge parameter and two timelike gauge pa-
+     rameters. By contrast, 1T-physics has only 1 timelike gauge parameter as recognized in the familiar
+     τ -reparametrization gauge symmetry in the worldline formalism. The difference then is 1+1 additional
+     gauge degrees of freedom in 2T-physics versus 1T-physics. Even though the number of physical spatial
+     (hence ghost free) degrees of freedom, D, is the same in both cases, the higher-dimensional perspective
+     turns out to be much richer in predictions of hidden symmetries and dualities as compared to 1T-physics.
+     Since we mentioned τ -reparametrization, it may be interesting to note that τ -reparametrization gauge
+     symmetry amounts to general relativity based on local (i.e., τ -dependent) translation invariance in one
+     temporal dimension. By contrast Sp(2, R) = SO(1, 2) gauge symmetry amounts to conformal gravity
+     based on local conformal transformations on the worldline, noting that SO(1, 2) is the conformal group
+     in the space of a single temporal dimension [33]. This is another way to understand the extra 1+1 gauge
+     parameters on the worldline and hence the extra 1+1 gauge degrees of freedom as part of target phase
+     space, and the associated extra 1+1 constraints.
+
+
+
+                                                     40
+very different perspectives for D + 1 dimensional observers (of gauge-invariants) to view
+the phenomena that occur in (D + 1) + 2 spacetime. For this reason, the concepts of time
+and Hamiltonian are different for the observers in different shadows. The duality of the
+shadows is expressed in the language of 1T-physics via canonical transformations that in-
+clude time and Hamiltonian, thus establishing unexpected connections to one another among
+many 1T-physics systems with diverse Hamiltonians. All the connected shadows are actually
+gauge-fixed forms of the same unique higher-dimensional system, and these dualities are just
+Sp(2, R) gauge transformations that take one fixed gauge to another fixed gauge. All con-
+nected shadows in 1T-physics are the same unique system in 2T-physics and obey the same
+equations in (D + 1) + 2 dimensions. Thus, 2T-physics in (4 + 2) dimensions provides an
+unprecedented unification that is manifested in our experience in 3+1 dimensions in the form
+of dualities and hidden symmetries. The widely recognized conformal symmetry, SO(4, 2)
+in relativistic 1T-physics in 3+1 dimensions, emerges from one of the simplest shadows in
+2T-physics directly because of the one extra space and one extra time dimension. This is
+the shadow for the free relativistic massless particle; by now we call this case the “conformal
+shadow”. Experimentally observing or theoretically verifying the predicted dualities, hidden
+symmetries and their consequences, in particular those related to conformal symmetry, is
+one form of experimental evidence for the underlying (D + 1) + 2 dimensions.
+   In this paper the simple cases of the shadows for Hydrogen atom, Harmonic oscillator and
+a third shadow, closely resembling the conformal shadow (but with r and p interchanged
+(see Eq. (20) and footnote 1 in [34])), are discussed in Section III with the purpose of trying
+to understand if Newton’s radial duality is part of the larger unifying features of 2T-physics.
+   In the simplest context of 2T-physics, the worldline formalism for a single spin = 0 parti-
+cle, the Sp(2, R) gauge symmetry acts on the phase space degrees of freedom of the particle
+                   
+ X M (τ ) , PM (τ ) , making position and momentum in (D + 1) + 2 dimensions interchange-
+able and on equal footing in the formulation of all classical and quantum physics for each
+particle. The signature with two temporal dimensions in target space, no less and no more,
+and any number of spatial dimensions, is not an input, but rather it is an output of the
+Sp(2, R) gauge symmetry as explained below. The gauge-invariant subspace of the phase
+               
+space X M , PM is unitary, causal, and is physically sensible just like 1T-physics, but with
+more predictions than the traditional formulation of 1T-physics.
+   The Sp(2, R) gauge symmetry has three gauge parameters, εa (τ ) , a = 0, 1, 2, local on the
+
+                                             41
+worldline, and three corresponding generators, Qa (X, P ) , that are functions of the phase
+space. Here Q0 is the compact generator (as in SU(2)) while Q1 , Q2 are non-compact. The
+                           
+equal-τ Poisson brackets,12 X M , PN = δNM
+                                           , are invariant under the infinitesimal canonical
+transformations generated by each Qa , namely
+                                  
+               M                  δ X M ≡ εa (τ ) X M , Q = εa (τ ) ∂Qa ,
+                                       ε                     a           ∂PM
+            δε X , PN = 0, for                                                                      (A1)
+                                   δε PM ≡ εa (τ ) {PM , Qa } = −εa (τ ) ∂QMa .
+                                                                                       ∂X
+
+
+Note that no spacetime metric gM N is involved in any of these expressions since X M is
+defined with a contravariant index and PM is defined with a covariant index. Therefore, this
+formalism applies in any curved spacetime.
+      Generally the Qa (X, P ) are non-linear functions of phase space [36, 52, 59] when the
+particle on the worldline moves in the presence of any set of background fields in (D + 1) + 2
+dimensions, such as gravity, electromagnetism, high spin fields, etc.. The Qa are required to
+form the Lie algebra of Sp(2, R) under classical Poisson brackets,
+
+                           {Q0 , Q1 } = Q2 , {Q2 , Q0 } = Q1 , {Q1 , Q2 } = −Q0 ,                   (A2)
+
+and similarly under quantum commutators (after quantum ordering the expressions for the
+Qa (X, P )). The minus sign on the right hand side of the last commutator is the difference
+between SU(2) and Sp(2, R) = SL(2, R) = SU(1, 1) = SO(1, 2) . The requirement of closure
+as a Lie algebra turns into a restriction on the background fields such that they must obey
+certain subsidiary conditions, covariant in (D + 1) + 2 dimensions, that follow from (A2).
+Then the physical content of the background fields amount to the same content of fields (of
+every spin) in one less time and one less space dimension, leaving no room for Kaluza-Klein-
+type additional degrees of freedom in those background fields [36, 59].
+      The general worldline Lagrangian for the dynamics of a single particle moving in any
+background field and subject to the Sp(2, R) gauge symmetry is given by [33, 36, 52]:
+                         dX M (τ )
+              L (τ ) =             PM (τ ) − Aa (τ ) Qa (X (τ ) , P (τ )) − H (X (τ ) , P (τ )) ,   (A3)
+                           dτ
+where Aa (τ ) is the gauge field for Sp(2, R) . The infinitesimal gauge transformations with
+local gauge parameters εa (τ ) are based on the canonical transformations in (A1) and the
+
+12                                                                                            ∂F   ∂G
+     By definition, the Poisson bracket between any two functions of phase space is {F, G} ≡ ∂X M ∂P
+                                                                                                    M
+                                                                                                      −
+      ∂F  ∂G
+     ∂PM ∂X M .
+
+                                                     42
+Yang-Mills-type transformation of the gauge field
+
+                             ∂Qa               ∂Qa            dεa
+               δε X M = εa       , δε PM = −εa      , δε Aa
+                                                            =     + η ab εbcdAc εd .     (A4)
+                             ∂PM               ∂X M           dτ
+
+where η ad is the Killing metric of Sp(2, R) , εabc is the Levi-Civita symbol and the combina-
+tions η ab εbcd amount to the structure constants of the Lie algebra in Eq. (A2). Under these
+gauge transformations the Lagrangian transforms to a total τ -derivative [52]
+                                                                                  
+                          d    a       ∂L                a
+             δε L (τ ) =      ε (τ )          PM (τ ) − ε (τ ) Qa (X (τ ) , P (τ )) ,    (A5)
+                         dτ          ∂PM (τ )
+
+provided the Hamiltonian H is gauge-invariant, which means it commutes with the gener-
+ators under Poisson brackets, {H, Qa } = 0. Even when the Hamiltonian is zero the theory
+based on Eq. (A3) is extremely rich in physical content. Therefore, in almost all discussions
+of 2T-physics in the literature so far, including in the present paper, the Hamiltonian is
+chosen to be zero, H = 0.
+   When the (D + 1) + 2 dimensional spacetime is flat and there are no background fields,
+the three Sp(2, R) real (or Hermitian) generators are rearranged to simple expressions,
+                                                                         
+                                                        X ·X P ·P X ·P
+               Qa → ((Q0 − Q1 ) , (Q0 + Q1 ) , Q2 ) =       ,      ,        ,          (A6)
+                                                          2    2      2
+
+where a flat spacetime metric ηM N with signature ((D + 1) , 2) is used for the dot products.
+This is how SO(D + 1, 2) becomes relevant as a global symmetry of the 2T-physics action
+(A3). Note that under Poisson brackets these quadratic expressions of phase space close to
+form the Lie algebra of Sp(2, R) as required in (A2). The canonical transformations in Eqs.
+                                                                                     
+(A1,A4) reduce to a linear transformation on the phase space that treats X M , P M as a
+collection of Sp(2, R) doublets, one for every spacetime direction M. The finite (as opposed
+to infinitesimal) Sp(2, R) gauge transformation is then linear
+                                                                             
+                  M                        2           1        0          M
+               X (τ )                    ε (τ )       ε (τ ) + ε (τ )    X (τ )
+                        → exp                                                .     (A7)
+               P M (τ )             ε1 (τ ) − ε0 (τ )    −ε2 (τ )        P M (τ )
+
+So in this special case of linear Sp(2, R) transformations, Sp(2, R) is the same as a 2×2
+                     
+SL(2, R) matrix ac db with unit determinant. Note that the ε0 transformation is compact and
+                                                                     
+as a subgroup it is a local SO(2) transformation. To treat X M , P M as a Sp(2, R) doublet
+as well as a SO(D + 1, 2) vector, the M index is raised for the momentum, P M = η M N PN ,
+by using the inverse metric η M N that is introduced in this flat background. In this form it
+
+                                                43
+is evident that the Sp(2, R) gauge transformation commutes with the global SO(D + 1, 2)
+Lorentz-type target spacetime transformations.
+   In the flat background, the Sp(2, R) generators in (A6), as well as the corresponding
+Lagrangian (A3), are symmetric under linear SO(D + 1, 2) Lorentz transformations of the
+                                       
+elementary degrees of freedom X M , P M . Using Noether’s theorem, the generators of the
+conserved SO(D + 1, 2) global symmetry are constructed and verified that they commute
+with the Qa :
+                                                                        
+              Qa ≡ X 2 , P 2 , X · P , LM N = X M P N − X N P M , Qa , LM N = 0.          (A8)
+
+Since the Sp(2, R) generators are SO(D + 1, 2)-invariant dot products, they had to commute
+with the LM N (classically using Poisson brackets, and quantum mechanically using quantum
+                                                              
+commutators based on the fundamental commutator, X M , P N = iη M N ). This statement
+also means that the LM N are Sp(2, R) gauge-invariants since they commute with the Qa .
+The gauge-invariant sector of phase space is identified as the observables F (functions of
+phase space) that commute with the Sp(2, R) generators, [Qa , F (X, P )] = 0. All gauge
+invariants are all possible functions of the LM N . Hence, for the flat background case, these
+are all the Sp(2, R) gauge-invariant physical observables:
+                                                                    
+                 All physical observables in flat background: F LM N .        (A9)
+                       
+These functions F LM N need not be SO(D + 1, 2)-invariant. Since we have identified
+the gauge invariants, if one wishes, one may add to the Lagrangian (A3) any Hamiltonian,
+                     
+H (X, P ) = H LM N , as long as it is any function of the LM N . Such a Hamiltoian may break
+the global SO(D + 1, 2) symmetry without destroying the essential Sp(2, R) gauge symmetry.
+Even with a broken global SO(D + 1, 2) there still remains an underlying SO(D + 1, 2) group
+structure that can be used to keep track of the hidden higher-dimensional nature of all related
+physics. In most of the 2T-physics literature the discussion has concentrated on the case of
+a zero Hamiltonian and unbroken SO(D + 1, 2).
+   The equation of motion derived from the Lagrangian, by minimizing with respect to
+the gauge field, ∂L/∂Aa = 0, demands the constraints Qa = 0. This defines the physical
+space as being the gauge invariants for which the gauge generators must vanish. In the flat
+background (A6) this restricts the classical phase space to only the solutions of the simple
+constraints
+                        If flat background: X 2 = 0, P 2 = 0, X · P = 0.                (A10)
+
+                                             44
+The vanishing of the generators on shell is the simple statement that the physical sub-
+space of the phase space that obeys these equations is gauge invariant. Here is where the
+reader can see why two times are required for non-trivial physical content in the solution
+of these constraints. If the flat background metric ηM N were purely Euclidean (no timelike
+dimensions in target space, but there still is the evolution parameter τ ), the only solution is
+X M (τ ) = P M (τ ) = 0, which is zero physics content. If the flat background metric ηM N were
+Minkowski with only one timelike direction in target space, then the only solution would be
+that X M (τ ) should be parallel to P M (τ ) and both lightlike; but this has zero angular mo-
+                                                                                    
+mentum LM N = 0, which implies there are no nontrivial gauge-invariant F LM N ; so again
+no physical content. If the flat background metric ηM N contained three or more timelike
+dimensions, then the gauge-invariant sector of the theory would violate causality and also
+have ghosts (negative norm states in the quantum treatment) because Sp(2, R) is insufficient
+gauge symmetry to remove them. So less than two times and more than two times are elim-
+inated as unphysical theories. Therefore the Sp(2, R) gauge symmetry is the fundamental
+underlying principle that requires two timelike directions in target spacetime,13 no less and
+no more, in order to have unitarily and causally sensible non-trivial physical content.14
+     When the metric has just two timelike dimensions, no less and no more, the gauge-
+invariant sector of the theory is causal and has no ghosts. When the background is not
+flat one can similarly construct a parallel argument. A more general reasoning confirms
+this conclusion: the signature of the gauge parameters εa is such that the non-compact
+
+13
+   This is a conceptually fundamental viewpoint because it attributes the signature and dimension of space-
+   time to emanate from the properties of the Sp(2, R) gauge symmetry. It may be compared to the statement
+   that the SU(3) ×SU(2) ×U(1) gauge symmetry is the underlying fundamental principle for the existence
+   and nature of the electroweak and QCD forces, because it is the gauge symmetry that requires the in-
+   troduction of the Yang-Mills gauge fields as the carriers of forces with the patterns of interactions in the
+   Standard Model of particles and fields. Similar statements also apply to the gauge symmetries in general
+   relativity and string theory. Extending the Sp(2, R) gauge symmetry concept to field theory has in fact
+   demanded that all known physics be (and in fact is) formulated with an additional space and an additional
+   time dimension.
+14
+   The question arises of whether a higher gauge symmetry could allow more timelike dimensions. This
+   has been tried many times over the past 20 years but it has never worked out in the sense that either
+   the physical content is empty (too much gauge symmetry, too many constraints) or the structure of
+   the noncompact gauge group (signature of the gauge parameters εa ) is incompatible with the signature
+   structure of spacetime to remove all the ghosts. It seems very likely that there is a no-go theorem, but
+   such a theorem has not been conclusively proven.
+
+
+
+
+                                                    45
+parameters ε1,2 are timelike and the compact parameter ε0 is spacelike. This means that
+εa (τ ) , together with the constraints Qa = 0, can remove from the ((D + 1) + 2) dimensional
+                         
+phase space X M , PM precisely one space and two timelike degrees of freedom, leaving
+behind only D independent spacelike physical degrees of freedom. This fully gauge-fixed
+spacelike phase space configuration has no ghosts and is causal (evolving with τ ) , just as in
+ordinary non-relativistic or relativistic 1T-physics. This is why two times in target space, no
+less and no more, amounting to one extra space and one extra time dimension (compared to
+a 1T-worldline theory with τ -reparametrization gauge symmetry) is predicted by the larger
+gauge symmetry Sp(2, R) .
+   In a covariant quantization formalism (without making gauge choices to solve the con-
+straints (A10)) the gauge transformations already vanish for the observables identified above
+                           
+as F LM N since Qa , LM N = 0, hence these observables are gauge-invariant. To im-
+plement the vanishing of the Qa in the covariantly quantized theory, one requires gauge-
+invariant states, namely Qa |gauge invarianti = 0. To identify these physical states, one
+begins by classifying all the quantum states (gauge-invariant and non-invariant) by the
+commuting symmetries Sp(2, R) ⊗SO(d, 2) of the action (A3), where d = D + 1 refers to the
+spatial dimensions,
+                              |all statesi = |Sp (2, R) , SO (d, 2)i.                     (A11)
+
+All possible unitary representations of both noncompact symmetries may appear. The gauge-
+invariant subset of quantum states, Qa |Sp(2, R) ,SO(d, 2)i = 0, can only be the unique singlet
+of Sp(2, R) , so this nails down the physical states as being singlets under Sp(2, R) and unitary
+representations under SO(d, 2) . The question still remains: Which unitary representations
+of SO(D + 1, 2)? This depends on the background fields from which the Qa (X, P ) are
+constructed. In the flat background there is a definite prediction.
+   In the flat background the physical state condition takes the form
+
+ If flat background: X · X|ψphys i = 0, P · P |ψphys i = 0, (X · P + P · X) |ψphys i = 0. (A12)
+
+These quantum states must now automatically fall into irreducible representations of the
+global symmetry SO(D + 1, 2) . Therefore all gauge-invariant quantum physics derived from
+                                                          
+the Lagrangian (A3), both quantum observables F LM N as well quantum states |ψphys i,
+are automatically predicted to have an underlying SO(D + 1, 2) structure that reveals the
+underlying (D + 1) + 2 dimensions, even if the SO(D + 1, 2) global symmetry may be bro-
+
+                                              46
+ken by adding some SO(D + 1, 2) non-invariant Hamiltonian in (A3). This provides the
+inescapable prediction of 2T-physics regarding the presence of the underlying (D + 1) + 2
+dimensions. This aspect may remain hidden in the usual formalism of 1T-physics, but spe-
+cific predictions made by 2T-physics become the practical tool for uncovering the hidden
+(D + 1) + 2 structure in 1T-physics.
+      What are the physical unitary representations of SO(D + 1, 2) that are predicted for
+the system (A3)? For this we should compute the predicted Casimir eigenvalues. At the
+classical level (ignoring quantum ordering) the quadratic Casimir is C2 = 21 LM N LM N =
+                    
+ X 2 P 2 − (X · P )2 = 0, where the vanishing occurs only in the physical sector that satisfies
+the constraints (A10). Similarly, all Casimir operators,
+
+                                   (i)k M1 M2                             
+                              Ck =      L     LM2 M3 · · · LMn−1 Mk LMk M1 ,                            (A13)
+                                    k!
+
+vanish in the physical sector of the phase space, in the classical theory. However, in the
+quantum theory, by implementing the quantum constraints (A12) while respecting the or-
+dering of the quantum operators (X, P ) as they appear in Ck , one finds that the Casimir
+operators are diagonal on the physical states, Ck |ψphys i = λk |ψphys i, where the λk are definite
+non-trivial eigenvalues given by15 (see Eq. (9) in [34] and Eq. (2.9) in [55])
+                                                                   
+                                    (D+1)2          D+1        (D+1)2
+                        C2 = 1 − 4           , C3 = 3! 1 − 4            ,
+                                             2
+                                                          2
+                                                                                                       (A14)
+                        C4 = 4!1 2 1 − (D+1)
+                                           4
+                                                  1 + 3(D+1)
+                                                         4
+                                                                ,···
+
+This is just a single infinite-dimensional unitary representation which is identified as the
+“singleton” representation of SO(D + 1, 2). So all gauge-invariant physical quantum states
+of the system must be assembled into the unique singleton representation with the specific
+Ck quantum numbers given above.
+      This is the result of “covariant quantization” (without choosing any gauges) of the 2T-
+physics particle given by the Lagrangian (A3) with H = 0 and a flat background. The full
+set of quantum states corresponds to the states of the infinite-dimensional unitary singleton
+representation of SO(D + 1, 2) taken in any basis. That is, along with the Casimir operators,
+a simultaneously diagonalizable subset of operators constructed from LM N that defines the
+
+15
+     The reader is alerted that the definition of Cn given here may differ from previous 2T-physics papers
+     by inessential overall normalization factors for the cases n ≥ 3. Moreover, in the broader literature, the
+     Casimirs for n ≥ 3 may in some definitions amount to a linear combination of our Cn .
+
+
+                                                      47
+basis is not specified, so any such basis will do. There clearly are an infinite set of combi-
+                 
+nations F LM N of simultaneously diagonalizable observables, so there are an infinite set
+                                                                                         
+of quantum bases. Adding in (A3) a nontrivial gauge-invariant Hamiltonian H LM N 6= 0,
+                                        
+or choosing a gauge for the X M , P M that favors some orientation within SO(D + 1, 2) ,
+would influence the choice of basis, but this would not change the singleton representation
+that is already fixed by the Ck .
+   The same gauge theory may also be treated by working in specific gauge choices and
+solving the constraints Qa = 0 explicitly. Then one finds an infinite number of solutions
+of the constraints in Eq. (A10) some of which are discussed explicitly in several papers
+[34, 36, 51]. These solutions are called “shadows”. The shadows are gauge-fixed versions of
+                           
+the phase space X M , P M fixed that solve the constraints, Xfixed
+                                                             2         2
+                                                                   = Pfixed = Xfixed · Pfixed = 0.
+When only two out of three gauge choices are made, and two out of three constraints are
+                                            
+                                   M       M
+solved explicitly, each solution, X(k) , P(k) labelled by k = 1, 2, 3, · · · , is parametrized
+                                                           
+in terms of a 1T-sub-phase-space, r(k) , p(k) , t(k) , h(k) , in one less space and one less time
+dimension,
+                                  M
+                                                                 M
+                                                                                              
+                  Shadows: X(k)     r(k) , p(k) , t(k) , h(k) , P(k) r(k) , p(k) , t(k) , h(k) . (A15)
+                          
+Here t(k) (τ ) , h(k) (τ ) is a temporal canonical pair at the same level as the D spatial canon-
+                                
+ical pairs r(k) (τ ) , p(k) (τ ) . An infinite set of shadows exist due to the fact that D spatial
+plus 1 temporal phase space can be embedded in (D + 1) + 2 dimensional phase space in
+an infinite number of non-linear geometric or algebraic ways. At this stage the gauge-fixed
+Lagrangian (A3) takes the form of a particle on the worldline in 1T-physics with a remaining
+gauge symmetry and a remaining constraint
+           h                                   i                                         
+    (k)
+  L2fixed = ẋµ(k) pµ(k) − A (τ ) Q x(k) , p(k) , xµ(k) ≡ t(k) , r(k) , pµ(k) ≡ h(k) , p(k) .   (A16)
+                                                            (k)
+A total τ -derivative dΛ
+                       dτ
+                         k
+                           (xµ ,pµ , τ ) is dropped from L2fixed since it does not affect the physics
+(see [36] for a nontrivial role of this total derivative for building canonical transformations
+among shadows). When the remaining third gauge choice is made by taking t(k) (τ ) = τ, the
+solution of the third constraint, Q (x, p) = 0, yields an expression for an h(k) that depends
+                                                                                      
+on the remaining dynamical spatial degrees of freedom, h(k) = Hk r(k) , p(k) , t(k) . Then
+the gauge-fixed form of the original action (A3) or of (A16) for the k th shadow takes the
+standard form in 1T-physics:
+                              (k)                                         
+                             L3fixed = ṙ(k) ·p(k) − Hk r(k) , p(k) , t(k) .                    (A17)
+
+                                                 48
+                                                    
+Here the emerging Hamiltonians Hk r(k) , p(k) , t(k) for the shadows are different for each
+distinct solution labelled by k. Examples of shadows that emerge from the Lagrangian (A3)
+with a flat background and H = 0 include: the free massless relativistic particle, free
+massive relativistic particle, free massive non-relativistic particle, Hatom, HOsc, particle
+moving in various curved backgrounds including the expanding universe, twistor equivalent
+of all these, and many others. All of these systems (an infinite set, but only a few studied)
+are united by the fact that they obey the same equations in the higher dimensions, namely
+X 2 = P 2 = X · P = 0, that’s all! In the lower D dimensions these shadows are all
+duals to each other; since they are gauge equivalent, each shadow in D-space and 1-time
+dimension holographically captures all the gauge-invariant physics content available in the
+(D + 1)-space and 2-time dimensions, as described below. The physics interpretation for 1T
+observers, like us humans, is different for each shadow, because the gauge choice of time and
+                                                    
+Hamiltonian, t(k) = τ, h(k) = H(k) = r(k) , p(k) , τ , as embedded in (D + 1) + 2 dimensions
+creates many different 1T observational perspectives of the same phenomena that occur in
+(D + 1) + 2 dimensions.
+   It is now evident that the shadow Lagrangian L(k) in (A17) has a hidden SO(D + 1, 2)
+symmetry since it is merely a gauge-fixed form of the original action (A3) that has the global
+SO(D + 1, 2) symmetry that commutes with the gauge symmetry. The transformation laws
+                                                                                      
+for the hidden symmetry are given by computing equal-τ Poisson brackets of r(k) , p(k) with
+the LM N evaluated for that shadow,
+                                 N                                                M                     
+  LM N
+   (k) ≡ X M
+           (k) r (k) , p(k) , τ  P (k) r (k) , p(k) , τ   − P  N
+                                                              (k) r (k) , p(k) , τ  X (k) r (k) , p(k) , τ   ,
+                   ∂LM N                         ∂LM N                                                            (A18)
+  δω r(k) = ωM2 N ∂p(k)
+                     (k)
+                         , δω p(k) = − ωM2 N ∂r(k)
+                                               (k)
+                                                   ⇒ δω L(k) = total τ -derivative.
+                                                                                                  R
+Then the shadow Lagrangian transforms to a total derivative, so the action,                           dτ L3fixed (τ ) , is
+SO(D + 1, 2) invariant. For examples, see [36, 56]. Applying Noether’s theorem by starting
+from the transformation rules above (without being informed that they are assembled into
+                                                                                
+LM N ) leads to the derivation of the conserved charges dτd LM N
+                                                             (k) r(k) , p(k) , τ = 0.
+    After quantization, quantum ordering for each shadow must be performed such that
+                                 
+the LM   (k)
+            N
+                r (k) , p(k) , τ   close correctly, under equal τ quantum commutators based on
+h             i
+ ri(k) , pj(k) = iδ ij , to form the SO(D + 1, 2) Lie algebra, and yield the same Casimir eigen-
+values given in Eq. (A14) (for examples of such properties of the shadows see [34, 56]).
+   The LM N are gauge-invariant because they commute with the SL(2, R) generators as seen
+
+
+                                                         49
+in (A8). So, each LM N is independent of the shadow, even when it is evaluated in terms
+                                                                               
+                     M     M
+of a given shadow X(k) , P(k)   . The physical gauge-invariant observables F LM N in (A9)
+are then identified as functions of a smaller D-dimensional Euclidean phase space for each
+                 
+              MN
+shadow, F L(k) . An infinite set of duality relations between gauge-invariant observables
+of shadow k1 and shadow k2 are predicted by evaluating any given function of the LM N in
+those two different shadows
+                                                                         
+                Dualities for every function : F LM N        MN
+                                                  (k1 ) = F L(k2 ) = F L
+                                                                        MN
+                                                                             .                          (A19)
+
+These are an infinite set of measurable predictions from 2T-physics for the dynamics of 1T-
+physics. From these gauge-invariant predictions we can extract the canonical transforma-
+                                                                                               
+tions for the phase spaces r(k1 ) , p(k1 ) , t(k1 ) , H(k1 ) ↔ r(k2 ) , p(k2 ) , t(k2 ) , H(k2 ) . For examples,
+see [36].
+   For spinning particles of spin s, fermions ψiM with i = 1, 2, . . . , 2s, are added to the
+                                  
+bosonic phase space ψiM , X M , PM , and then the gauge group is OSp(2s|2) that contains the
+previous Sp(2, R) [43]. Fermions can also be added via spacetime supersymmetry ([57] and
+Section 3.1 in [58]). Repeating the same reasoning that leads to the shadows, now we obtain
+1T-physics that includes spin, and the associated predictions for the corresponding shadows.
+In particular one bit of information relevant for the current paper is the SO(D + 1, 2) Casimir
+eigenvalues analogous to (A14) that unite all the shadows in the same unitary representation.
+For spin s it is given by [50]
+
+                                s−1
+                       C2,s =       ((D + 1) + 2)((D + 1) + 2s − 2), C3,s , · · ·                       (A20)
+                                 4
+
+The resulting dualities are far richer than just Hatom↔ HOsc and includes many shadows
+with spin that fit in the same spinning representation of SO(D + 1, 2) with the Ck,s given
+above. The spinning 1T-physics shadows include the massless spin 1/2 particle (Dirac equa-
+tion when quantized [43]) and the dyonic-Hatom whose properties are outlined in Section
+II B.
+   Moreover, instead of flat backgrounds, the generalized version of 2T-physics on the world-
+                                                                          
+line includes background fields on which the phase space ψiM , X M , P M propagates [59].
+Although there are an infinite set of shadows, only some of the shadows, including back-
+grounds that provide interactions, have been explicitly explored in the language of canonical
+transformations in the 1T-physics framework [36]. Little use has been made of the physics
+
+                                                     50
+predictions provided by these classical or quantum dualities. These can be useful both for
+experimental predictions to verify aspects of the hidden dimensions as well as for trying to
+solve difficult problems that may be more tractable in some dual shadow version [36].
+  In addition, these concepts have been generalized to field theory [50][51][52] including
+the Standard Model in (4 + 2) dimensions [53], gravity [54], their coupling to each other,
+and their supersymmetric and higher-dimensional generalizations. So, 2T-physics in (4 + 2)
+dimensions presents all the physics we know that actually works as a shadow in (3 + 1)
+dimensions. The emerging theory in the “conformal shadow” is closely related to the familiar
+(3 + 1) dimensional Standard Model coupled to gravity but yields an improved standard
+theory [60] with a predicted local scale invariance (Weyl symmetry). The familiar form of
+Weyl transformation in 3 + 1 is shown to come from local general coordinate transformations
+in the extra 1+1 dimensions and is present because of the local Sp(2, R) that acts on the
+                     
+phase space X M , P M . These are manifestations of the underlying 4+2 dimensions in forms
+that are recognizable in 3+1 dimensional theories of fundamental nature. Due to the Weyl
+symmetry the improved theory [60] is geodesically complete at cosmological and black hole-
+type singularities. It also shows how all dimensionful parameters in the Standard Model
+of particle physics (Newton constant, Higgs vacuum, cosmological constant) come from a
+single source that spontaneously breaks the Weyl symmetry [60, 61], thus opening a window
+to the extra dimensions. These consequences of the improved standard theory are consistent
+with all we know while providing new insight not available before for the source of mass and
+its relation to the symmetries of the underlying 4+2 dimensions.
+  2T-physics also potentially predicts the existence of many field theories that are dual
+to the Standard Model and general relativity which may be put to use as computational
+tools that take advantage of dualities in field theory [62]. A small part of this duality was
+used to explore the geodesic completeness of the improved standard theory [60] based on its
+Weyl symmetry and explore the new antigravity region behind the cosmological singularity
+[61, 63, 64] as well as beyond the black hole singularity [65]. Little effort has been made
+to expand on such predictions of 2T-physics and the more general dualities in field theory.
+
+
+
+
+                                            51
+Hence a lot more research needs to be dedicated to further exploration in these directions.
+
+
+
+
+ [1] C. Quigg and J. L. Rosner, “Quantum Mechanics with Applications to Quarkonium,” Phys.
+    Rept. 56, 167 (1979).
+ [2] K. Bohlin, “Note sur le problème des deux corps et sur une intégration nouvelle dans le
+    problème des trois corps,” Bulletin Astronomique 28, 113 (1911).
+ [3] J. M. Jauch and E. L. Hill, “On the problem of degeneracy in quantum mechanics,” Phys.
+    Rev. 57, 641-645 (1940).
+ [4] J. D. Louck and W. A. Schaffer, J. Mol. Spectrosc. 4, 285 (1960); J. D. Louck, ibid. 4, 298
+    (1960); 4, 334(1960).
+ [5] D. Bergmann and Y. Frishman, “A relation between the hydrogen atom and multidimensional
+    harmonic oscillators,” J. Math. Phys. 6, 1855 (1965).
+ [6] J. D. Talman, Special Functions: a Group Theoretic Approach, based on lectures by Eugene
+    P. Wigner (W. A. Benjamin, New York, 1968).
+ [7] M. Moshinsky, T. H. Seligman and K. B. Wolf, “Canonical transformations and the radial
+    oscillator and coulomb problems,” J. Math. Phys. 13, 901 (1972).
+ [8] R. Rockmore, “On the isotropic oscillator and the hydrogenic atom in classical and quantum
+    mechanics,” Am. J. Phys. 43, 29 (1975).
+ [9] R. Fauré, “Transformations conformes en mécanique ondulatoire,” Comptes Rendus 237,
+    603-605 (1953).
+[10] V. I. Arnol’d and V. A. Vasil’ev,         “Newton’s Principia read 300 years later,”
+    Not. Am. Math. Soc. 36, 1148-1154 (1989); 37, 144 [addendum] (1990).
+[11] V. I. Arnol’d, Huygens and Barrow, Newton and Hooke, translated by Eric J. F. Primrose
+    (Birkhäuser Verlag, Boston, 1990).
+[12] A. K. Grant and J. L. Rosner, “Classical orbits in power-law potentials,” Am. J. Phys. 62,
+    310 (1994).
+[13] G. Feldman, T. Fulton, and A. DeVoto, “Energy levels and level ordering in the WKB ap-
+    proximation,” Nucl. Phys. B154, 441 (1979).
+[14] J. P. Gazeau, “A remarkable duality in one-particle quantum mechanics between some con-
+    fining potentials and (R + L∞
+                                ǫ ) potentials,” Phys. Lett. 75A, 159 (1980).
+
+
+                                              52
+[15] B. R. Johnson, “On a connection between radial Schrödinger equations for different power-law
+    potentials,” J. Math. Phys. 21, 2640 (1980).
+[16] S. Chandrasekhar, private communication and Newton’s Principia for the Common Reader,
+    Clarendon Press, Oxford, 1995. Chandra would graciously discuss his forthcoming work, but
+    after a half hour he would say: “But I am like the Ancient Mariner. If you listen to me for
+    too long, you will miss your wedding.” And then he would leave.
+[17] I. Newton, Principia Mathematica, translated by A. Motte, revised by F. Cajori (University
+    of California Press, Berkeley, 1934).
+[18] F. F. Centore, Robert Hooke’s Contributions to Mechanics (Martinus Nijhoff, The Hague,
+    1970); M. Éspinasse, Robert Hooke (William Heinemann, London, 1956).
+[19] S. Goshen (Goldstein) and H. J. Lipkin, “ Simple independent-particle system having collective
+    properties,” Ann. Phys. (N.Y.) 6, 301 (1959).
+[20] A. O. Barut, “Dynamical symmetry group based on Dirac equation and its generalization to
+    elementary particles,” Phys. Rev. 135, B839 (1964).
+[21] A. O. Barut, “Dynamics of a broken SUN symmetry for the oscillator,” Phys. Rev. 139, B1433
+    (1965).
+[22] E. C. G. Sudarshan, N. Mukunda, and L. O’Raifeartaigh, “Group theory of the Kepler prob-
+    lem,” Phys. Lett. 19, 322 (1965).
+[23] M. Bander and C. Itzykson, “Group theory and the hydrogen atom,” Rev. Mod. Phys. 38,
+    330 (1966).
+[24] M. Bander and C. Itzykson, “Group yheory and the hydrogen atom. II,” Rev. Mod. Phys. 38,
+    346 (1966).
+[25] A. O. Barut, P. Budini, and C. Fronsdal, “Two examples of covariant theories with internal
+    symmetries involving spin,” Proc. Roy. Soc. A291, 106 (1966).
+[26] H. Bacry, “The de Sitter group L4,1 and the bound states of hydrogen atom,” Nuovo Cim.
+    41A, 222 (1966).
+[27] R. Musto, “Generators of O(4,1) for the quantum-mechanical hydrogen atom,” Phys. Rev.
+    148, 1274 (1966).
+[28] R. H. Pratt and T. F. Jordan, “Generators of the de Sitter Group for the hydrogen atom,”
+    Phys. Rev. 148, 1276 (1966).
+[29] A. O. Barut and H. Kleinert, “Current operators and Majorana equation for the hydrogen
+
+
+                                               53
+    atom from dynamical groups,” Phys. Rev. 157, 1180 (1967).
+[30] A. O. Barut, Dynamical Groups and Generalized Symmetries in Quantum Mechanics, Uni-
+    versity of Canterbury, Christchurch, New Zealand, 1972.
+[31] Brian G. Wybourne, Classical Groups for Physicists, John Wiley and Sons, New York, 1974.
+[32] A. O. Barut and Ryszard Raçzka, Theory of Group Representations and Applications, World
+    Scientific, Singapore, 1986.
+[33] I. Bars, C. Deliduman and O. Andreev, “Gauged duality, conformal symmetry and space-time
+    with two times, ” Phys. Rev. D 58, 066004 (1998) [hep-th/9803188].
+[34] I. Bars, “Conformal symmetry and duality between free particle, H–atom and harmonic os-
+    cillator,” Phys. Rev. D 58, 066006 (1998) [hep-th/9804028].
+[35] I. Bars, “Two-time physics,” hep-th/9809034, lecture delivered at the XXII International
+    Colloquium for Group Theoretical Methods in Physics, Hobart, Tasmania, Australia, July
+    1998, proceedings edited by S. P. Corney, Robert Delbourgo, and Peter D. Jarvis, Cambridge,
+    Mass., International Press, 1999.
+[36] I. J. Araya and I. Bars, “Generalized dualities in one-time physics as holographic predictions
+    from two-time physics,” Phys. Rev. D 89, 066011 (2014) [arXiv:1311.4205 [hep-th]].
+[37] I. Bars, “Quantum Mechanics,” unpublished book last revised in 2017, based on lecture notes
+    starting in 1973.
+[38] V. A. Kostelecký, M. M. Nieto and D. R. Truax, “Supersymmetry and the Relationship
+    Between the Coulomb and Oscillator Problems in Arbitrary Dimensions,” Phys. Rev. D 32,
+    2627 (1985).
+[39] V. A. Kostelecký and N. Russell, “Radial Coulomb and oscillator systems in arbitrary dimen-
+    sions,” J. Math. Phys. 37, 2166 (1996) [quant-ph/9602007].
+[40] C. R. Frye and C. J. Efthimiou, “Spherical harmonics in p dimensions,” arXiv:1205.3548
+    [math.CA]. See Chapter 4.
+[41] V. Bargmann, “Irreducible unitary representations of the Lorentz group,” Annals of Mathe-
+    matics (Princeton) 48, 568–640 (1947).
+[42] L. C. Biedenharn, J. Nuyts, and N. Straumann, “On the unitary representations of SU(1,1)
+    and SU(2,1),” Annales de l’Institut Henri Poincaré Section A, vol. 3, No. 1, pp. 13-39 (1965).
+[43] I. Bars and C. Deliduman, “Gauge symmetry in phase space with spin: a basis for con-
+    formal symmetry and duality among many interactions,” Phys. Rev. D 58, 106004 (1998)
+
+
+                                               54
+    [hep-th/9806085].
+[44] D. Zwanziger, “Exactly soluble nonrelativistic model of particles with both electric and mag-
+    netic charges,” Phys. Rev. 176, 1480 (1968).
+[45] W. Pauli, “Über das Wasserstoffspektrum vom Standpunkt der neuen Quantenmechanik” (On
+    the Hydrogen Spectrum from the Viewpoint of the New Quantum Mechanics), Z. Phys. 36,
+    336 (1926).
+[46] V. Fock, “On the theory of the hydrogen atoms,” Z. Phys. 98, 145 (1935).
+[47] V. Bargmann, “Zur theorie des wasserstoffatoms,” Z. Phys. 99, 576 (1936).
+[48] A. O. Barut and G. L. Bornzin, “SO(4,2)-formulation of the symmetry breaking in relativistic
+    Kepler problems with or without magnetic charges,” J. Math. Phys. 12, 841 (1971).
+[49] M. R. Kibler, “On the use of the group SO(4,2) in atomic and molecular physics,”
+    arXiv:quant-phys/0409209, Molecular Physics 102, 1221 (2004).
+[50] I. Bars, “Two time physics in field theory,” Phys. Rev. D 62, 046007 (2000) [hep-th/0003100].
+[51] I. Bars, “Survey of two time physics,” Class. Quant. Grav. 18, 3113 (2001) [hep-th/0008164].
+[52] I. Bars, “Gauge symmetry in phase space, consequences for physics and spacetime,” Int. J.
+    Mod. Phys. A25, 5235 (2010) [arXiv:1004.0688 [hep-th]].
+[53] I. Bars, “The standard model of particles and forces in the framework of 2T-physics,” Phys.
+    Rev. D 74, 085019 (2006) [hep-th/0606045].
+[54] I. Bars, “Gravity in 2T-Physics,” Phys. Rev. D 77, 125027 (2008) [arXiv:0804.1585 [hep-th]].
+[55] I. Bars and M. Picon, “Twistor transform in d dimensions and a unifying role for twistors,”
+    Phys. Rev. D 73, 064033 (2006) [hep-th/0512348].
+[56] I. Bars, “Hidden symmetries, AdSD × Sn , and the lifting of one time physics to two time
+    physics,” Phys. Rev. D 59, 045019 (1999) [hep-th/9810025].
+[57] I. Bars, C. Deliduman, and D. Minic, “Supersymmetric two time physics,” Phys. Rev. D 59,
+    125004 (1999) [hep-th/9812161].
+[58] I. Bars, “Twistors and 2T-physics,” AIP Conf.Proc. 767, 3 (2005) [hep-th/0502065].
+[59] I. Bars, “Two time physics with gravitational and gauge field backgrounds,” Phys. Rev. D 62,
+    085015 (2000) [hep-th/0002140] ;
+    I. Bars and C. Deliduman, “High spin gauge fields and two time physics,” Phys. Rev. D 64,
+    045004 (2001) [hep-th/0103042].
+[60] I. Bars, P. Steinhardt, and N. Turok, “Local conformal symmetry in physics and cosmology,”
+
+
+                                              55
+    Phys. Rev. D 89, 043515 (2014) [arXiv:1307.1848 [hep-th]].
+[61] I. Bars, “Wavefunction for the universe close to its beginning with dynamically and uniquely
+    determined initial conditions,” Phys. Rev. D 98, 103510 (2018) [arXiv:1807.08310].
+[62] I. Bars, S.-H. Chen, and G. Quelin, “Dual field theories in (d−1)+1 emergent spacetimes from
+    a unifying field theory in d + 2 spacetime,” Phys. Rev. D 76, 065016 (2007) [arXiv:0705.2834
+    [hep-th]];
+    I. Bars and G. Quelin, “Dualities among one-time field theories with spin, emerging from a
+    unifying two-time field theory,” Phys. Rev. D 77, 125019 (2008) [arXiv:0802.1947 [hep-th]].
+[63] I. Bars, C. Chen, P. Steinhardt, and N. Turok, “Antigravity and the big crunch/big bang
+    transition,” Phys. Lett. B715, 278 (2012) [arXiv:1112.2470 [hep-th]].
+[64] I. Bars and A. James, “Physical interpretation of antigravity,” Phys. Rev. D 93, 044029 (2016)
+    [arXiv:1511.05128 [hep-th]].
+[65] I. Araya, I. Bars, and A. James, “Journey beyond the Schwarzschild black hole singularity,”
+    arXiv:1510.03396 [hep-th].
+
+
+
+
+                                               56
+

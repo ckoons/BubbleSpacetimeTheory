@@ -1,0 +1,878 @@
+                                             Algebraic treatment of the hypercoulomb problem
+                                                                           R. Bijker
+                                                               Instituto de Ciencias Nucleares,
+                                                         Universidad Nacional Autónoma de México,
+                                                      Apartado Postal 70-543, 04510 México, D.F., México
+
+
+
+
+arXiv:nucl-th/9801051v3 11 Nov 1998
+                                                                            F. Iachello
+                                                        Center for Theoretical Physics, Sloane Laboratory,
+                                                       Yale University, New Haven, CT 06520-8120, U.S.A.
+                                                                          E. Santopinto
+                                                         Dipartimento di Fisica dell’Università di Genova,
+                                                    Istituto Nazionale di Fisica Nucleare, Sezione di Genova,
+                                                             via Dodecaneso 33, 16164 Genova, Italy
+
+
+                                                                                    Abstract
+                                          A completely algebraic treatment of the six-dimensional hypercoulomb problem is discussed in
+                                      terms of an oscillator realization of the dynamical algebra of SO(7, 2). Closed expressions are derived
+                                      for the energy spectrum and form factors.
+
+
+
+
+                                                                                        1
+1    Introduction
+Recently there has been renewed interest in the study of the three-body problem, mostly arising from
+constituent quark models of baryons in terms of three valence quarks. In these problems, the hypercentral
+approximation [1], which means using a hypercentral potential, provides often a good approximation to
+the actual situation [2, 3]. Among the hypercentral potentials, two play a special role: the six-dimensional
+harmonic oscillator and the six-dimensional coulomb potential, since both problems are exactly solvable.
+In this article, we present a completely algebraic solution of the hypercoulomb problem. The method is
+based on the use of SO(7, 2) as a dynamical group of the six-dimensional hypercoulomb potential [4]. It
+is a generalization of SO(4, 2) dynamical group of the ordinary hydrogen atom [5].
+    In addition to obtaining a series of mathematical results associated with this rather complicated
+algebra, we briefly point out that the hypercoulomb potential can be used as a good approximation to
+actual physical situations. One occurs in atomic physics and it was mentioned long ago in [6]. The
+authors showed that the two-body coulomb potential in the hypercentral approximation, that is the
+hypercoulomb potential, provides a good description of the lower atomic states. Another application
+occurs in hadronic physics, in the constituent quark model of baryons. Due to the extraordinary difficulty
+to calculate physical quantities from QCD (in the nonperturbative regime) one has to rely on models,
+like constituent quark models. The short range behaviour is dominated by coulomb potentials as seen
+from the nonrelativistic reduction of the one-gluon exchange diagram [7] and the long range one by a
+linear potential as from results of lattice calculations. So one considers the potential dominated by a
+coulomb-like plus a linear confining term [2, 8, 9]. The coulomb like term provides a good approximation
+to the low-lying states and the effects of the linear confining terms plus other small contributions can
+be taken into account in perturbation theory as shown in [3]. This application is discussed in Section 8.
+Particular emphasis is paid to form factors which are the quantities of direct experimental interest, but
+which in general are very difficult to calculate.
+
+
+2    The hypercoulomb potential
+We consider the hypercoulomb potential in six dimensions
+
+                                                        p2  τ
+                                              H   =        − ,                                          (1)
+                                                        2µ r
+          P6                 P6
+with p2 = j=1 p2j and r2 = j=1 rj2 . The energy eigenvalues and the degeneracy of the eigenstates can
+be obtained by studying the dynamical group SO(7, 2) [4]. The generators of the Lie algebra of SO(7, 2)
+can be realized in coordinate space by
+
+                              Ljk   =   rj pk − rk pj ,
+                                                        6
+                                         1 2         X        3     1
+                              Lj7   =      rj p − pj   rk pk + ipj − rj ,
+                                         2                    2     2
+                                                       k=1
+                                                        6
+                                         1 2           X            3     1
+                              Lj8   =      rj p − pj         rk pk + ipj + rj ,
+                                         2                          2     2
+                                                       k=1
+                              Lj9   =   rpj ,
+                                        6
+                                        X            5
+                              L78   =         rk pk − i ,
+                                                     2
+                                        k=1
+                                         1 2
+                              L79   =      (rp − r) ,
+                                         2
+                                         1 2
+                              L89   =      (rp + r) ,                                                   (2)
+                                         2
+
+
+                                                       2
+with j, k = 1, . . . , 6. These generators are antisymmetric Lij = −Lji , and satisfy the commutation
+relations
+
+                           [Lij , Lkl ] =     −i (gik Ljl + gjl Lik − gil Ljk − gjk Lil ) ,                             (3)
+
+with
+                                                  
+                                                        −δij       for j = 1, . . . , 7 ,
+                                    gij     =                                                                           (4)
+                                                        +δij       for j = 8, 9 .
+
+The SO(7, 2) algebra combines the SO(2, 1) spectrum generating algebra of the hypercoulomb problem
+and its SO(7) degeneracy group into a single algebraic structure [4]. The corresponding subgroup chains
+are
+                                                         
+                              
+                                 SO(6) ⊗ SO(2, 1)       
+                                    γ       ,      q
+                              
+                                                         
+                                                          
+                                                         
+                   SO(7, 2) ⊃                               ⊃ SO(6) ⊗ SO(2) .                       (5)
+                                  SO(7)    ⊗    SO(2)
+                              
+                                                         
+                                                          
+                              
+                                                         
+                                                          
+                                    ω       ,     q0
+                                                         
+
+The eigenstates of the hypercoulomb problem belong to a single infinite dimensional representation of
+SO(7, 2) [4], which can be decomposed into the irreducible representations of its subgroups to provide a
+complete set of basis states. The generators and the quadratic Casimir operators of the groups appearing
+in the group lattice of Eq. (5) are given by
+                                                                                                        7
+                                                                                                    1 X 2
+              SO(7) :                     Ljk (j, k = 1, . . . , 7)                         Λ27 =      Ljk ,
+                                                                                                    2
+                                                                                                      j,k=1
+                                                                                                        6
+                                                                                                    1 X 2
+              SO(6) :                     Ljk (j, k = 1, . . . , 6)                         Λ26 =      Ljk ,
+                                                                                                    2
+                                                                                                      j,k=1
+                                                                                               2
+           SO(2, 1) :            T1 = L79 , T2 = L78 , T3 = L89                             T =     T32 − T12 − T22 ,
+            SO(2) :                         T3 = L89                                        T32 .                       (6)
+
+The Casimir operators satisfy the relations [4]
+                                                                     15
+                                                  T2     =     Λ26 +    ,
+                                                                      4
+                                                                     25
+                                                  T32    =     Λ27 +    .                                               (7)
+                                                                      4
+This indicates that there exists a complementarity relationship [10] between the groups SO(2, 1) and
+SO(6) within the single irreducible representation of SO(7, 2). As a consequence, the irreducible repre-
+sentations of SO(6) are determined by those of SO(2, 1). The same holds for SO(7) and SO(2). The
+basis states |ψ̃i can be classified either by the SO(2, 1) ⊃ SO(2) labels q, q0 which span the discrete rep-
+resentation D+ of SO(2, 1), or by the SO(7) ⊃ SO(6) labels ω, γ which span the symmetric irreducible
+representation of SO(7). They are simultaneous eigenfunctions of the Casimir operators of the subgroups
+in Eq. (5) and satisfy the eigenvalue equations
+
+               T 2 |ψ̃i   = q(q + 1) |ψ̃i ,                         (q real and < 0) ,
+               T3 |ψ̃i    = q0 |ψ̃i ,                                (q0 = −q + s , with s = 0, 1, . . .) ,
+               Λ27 |ψ̃i   = ω(ω + 5) |ψ̃i ,                          (ω = 0, 1, . . .) ,
+               Λ26 |ψ̃i   = γ(γ + 4) |ψ̃i ,                          (γ = 0, 1, . . . , ω) .                            (8)
+
+
+
+                                                               3
+Combining Eqs. (7) and (8), we find
+                                                                          15
+                                          q(q + 1) =           γ(γ + 4) +    ,
+                                                                          4
+                                                                          25
+                                               q02       =     ω(ω + 5) +     ,                         (9)
+                                                                           4
+which, solving for q < 0 and q0 ≥ −q, gives
+                                                  5                            5
+                                     q = −γ −       ,              q0 = ω +      .                    (10)
+                                                  2                            2
+
+3    Basis states
+For three identical particles, the hypercoulomb Hamiltonian of Eq. (1) is invariant under the permutation
+group S3 , and hence its eigenstates also carry good permutation symmetry t = S, M or A, corresponding
+to the symmetric, mixed symmetric, and antisymmetric irreducible representation of S3 , respectively. In
+order to incorporate the permutation symmetry we associate the coordinates rj with the Jacobi vectors
+for the three-body problem [11]
+                                            1
+                                ρ
+                                ~     =    √ (~x1 − ~x2 ) ≡ (r1 , r2 , r3 ) ,
+                                             2
+                                ~λ          1
+                                      =    √ (~x1 + ~x2 − 2~x3 ) ≡ (r4 , r5 , r6 ) .                  (11)
+                                             6
+Here ~x1 , ~x2 and ~x3 denote the coordinates of the three particles. A convenient set of basis states is
+provided by the irreducible representations of the group chain
+                                                                                     
+               SO(7) ⊃ SO(6) ⊃ [SU (3) ⊃ SO(3) ⊃ SO(2)] ⊗ SO(2)
+                                                                                        .           (12)
+                 ω      ,    γ      , (n1 , n2 ) ,     L      ,     ML    ,     ν
+The reduction of SO(6) can be obtained by using the complementarity relationship between the groups
+SU (3) and SO(2) within the symmetric irreducible representation SO(6) [12]. As a consequence, the
+labels of SU (3) are determined by that of SO(2). The branching rules are given by
+                                              γ      =       0, 1, . . . , ω ,
+                                              ν      =       −γ, −γ + 2, . . . , γ ,
+                                                                 γ−ν
+                                       (n1 , n2 ) =          (γ,            ).                        (13)
+                                                                     2
+The reduction from SU (3) to the rotation group SO(3) is not fully reducible. In order to label the states
+uniquely an extra label is needed. We follow the procedure of [13] and introduce instead of (n1 , n2 ) the
+labels (λ, µ) = (n1 − n2 , n2 ) = ((γ + ν)/2, (γ − ν)/2) . The values of L contained in (λ, µ) are given by
+[13]
+                  κ   =   min{λ, µ}, min{λ, µ} − 2, . . . , 1 or 0 ,
+                          
+                            max{λ, µ}, max{λ, µ} − 2, . . . , 1 or 0 ,                 for κ = 0 ,
+                  L   =
+                            κ, κ + 1, . . . , κ + max{λ, µ} ,                          for κ > 0 ,
+                ML    =   −L, −L + 1, . . . , L .                                                     (14)
+The S3 invariant states are given by the linear combinations
+                                           −i
+                                       p              (|νi − | − νi) ,
+                                        2(1 + δν,0 )
+                                          (−1)ν0
+                                       p              (|νi + | − νi) .                                (15)
+                                         2(1 + δν,0 )
+
+                                                               4
+Here we have introduced the label ν0 by ν = ν0 (mod 3). These wave functions transform for ν0 = 0
+as t = A, S, and for ν0 = 1, 2 as the two components of the mixed symmetric representation t = M .
+Summarizing, the basis states of the hypercoulomb problem can be characterized uniquely by
+
+                                      |ψ̃i =           | ω, γ, |ν|, κ, LP
+                                                                        t , ML i .                   (16)
+
+Here P = (−)γ denotes the parity. In Table 1 we present the classification scheme of the basis states for
+ω = 4.
+
+
+4      Energy spectrum
+The energy spectrum of the hypercoulomb problem in six dimensions can be obtained by using the
+properties of the SO(2, 1) spectrum generating algebra [4, 14]. The Schrödinger equation can be expressed
+in terms of the generators of SO(2, 1) by introducing
+
+                                     O |ψi ≡ r(H − E) |ψi = 0 ,                                      (17)
+
+with
+                                                  1              1
+                                O     =      (      − E) T3 + (    + E) T1 − τ .                     (18)
+                                                 2µ             2µ
+This equation can be simplified further by performing a rotation about a tilting angle θ
+
+                                                      Õ |ψ̃i = 0 ,                                  (19)
+
+with
+
+            |ψ̃i = N e−iθT2 |ψi ,
+             Õ   = e−iθT2 O eiθT2
+                       1                                   1
+                  = (    − E) (T3 cosh θ + T1 sinh θ) + (    + E) (T1 cosh θ + T3 sinh θ) − τ .      (20)
+                      2µ                                  2µ
+The tilting angle may be chosen to diagonalize either the compact generator T3 for the bound states, or
+the noncompact generator T1 for the continuous states. The discrete spectrum is obtained by the choice
+                                                                      1
+                                                                 E + 2µ
+                                                 tanh θ    =          1    ,                         (21)
+                                                                 E − 2µ
+
+which reduces Eqs. (19) and (20) to an eigenvalue equation of T3
+                                    p               
+                                       −2E/µ T3 − τ |ψ̃i = 0 .                                       (22)
+
+The energy eigenvalues of the hypercoulomb problem are obtained by solving Eq. (22)
+
+                                    µτ 2                                    5
+                          E = −          ,                     (n = q0 = ω + ) .                     (23)
+                                    2n2                                     2
+The corresponding tilting angle is given by
+
+                                                  θ   =    − ln(n/µτ ) .                             (24)
+
+The physical eigenstates, i.e. the solutions of the Schrödinger equation for the hypercoulomb problem,
+are related to the group states by a tilting rotation
+                                                       1 −i ln(n/µτ ) T2
+                                       |ψi        =      e               |ψ̃i .                      (25)
+                                                       N
+
+                                                             5
+They satisfy the normalization condition (note that the group metric is 1/r [15])
+                                          1
+                     1 = hψ|ψi     =         hψ̃| ei ln(n/µτ ) T2 r e−i ln(n/µτ ) T2 |ψ̃i
+                                         N2
+                                          1
+                                   =          hψ̃| ei ln(n/µτ ) T2 (T3 − T1 ) e−i ln(n/µτ ) T2 |ψ̃i
+                                         N2
+                                            1
+                                   =             hψ̃| n(T3 − T1 ) |ψ̃i
+                                         N 2 µτ
+                                           n2
+                                   =              .                                                      (26)
+                                         N 2 µτ
+Hence, the normalized physical eigenstates can be expressed in terms of the group states as
+                                             √
+                                               µτ −i ln(n/µτ ) T2
+                                   |ψi =          e               |ψ̃i .                                 (27)
+                                              n
+
+5    Wave functions
+The wave function |ψ̃i satisfies the eigenvalue equations of Eq. (8), and hence is a SO(2, 1) eigenstate
+|ψ̃i = |q, q0 i with
+                                      s
+                                              (−2q − 1)!
+                         |q, q0 i =                             (T+ )q0 +q |q, −qi ,
+                                         (q0 + q)!(q0 − q − 1)!
+                                      s
+                                              (−2q − 1)!
+                         hq, q0 | =                             hq, −q| (T− )q0 +q ,                (28)
+                                         (q0 + q)!(q0 − q − 1)!
+with T± = T1 ± iT2 . The action of T3 and the raising and lowering operators T± on the SO(2, 1)
+eigenstates |q, q0 i is given by [16]
+                             T3 |q, q0 i =     q0 |q, q0 i ,
+                                               p
+                            T± |q, q0 i =         −(q ∓ q0 )(q ± q0 + 1) |q, q0 ± 1i .                   (29)
+The ground state of the hypercoulomb potential has ω = 0, and hence the principal quantum number is
+n = q0 = ω + 5/2 = 5/2. Moreover, since the only allowed value of γ is γ = 0, we have q = −γ − 5/2 =
+−5/2. Excited states with the same value of q, but with different values of q0 , can be created by applying
+the step operators T± according to Eq. (28). Since T± commute with the generators of SO(6) (and
+its subgroups), these operators do not change the quantum numbers associated with the irreducible
+representations of SO(6) and its subgroups γ, |ν|, κ, LP  t and ML . The operators T± are step operators
+in q0 , and hence change the value of the SO(7) label ω by one unit. Excited states with the same value
+of q0 , but with different values of q, can be created by using the operators Lj7 with j = 1, . . . , 6. Since
+Lj7 is a generator of SO(7), it does not change the value of ω. However, under SO(6) it transforms as a
+six-dimensional vector, and hence changes the value of γ by one unit. The transformation properties of
+T± and Lj7 under SO(2, 1) give rise to the selection rules
+                   T± :           ∆q = ∆γ = 0 ,                      ∆q0 = ∆ω = ±1 ,
+                                                                                                         (30)
+                   Lj7 :          ∆q = ∆γ = ±1 ,                     ∆q0 = ∆ω = 0 .
+Summarizing, the SO(2, 1) states |ψ̃i = |q, q0 i can be created from the ground state by applying the
+operators T+ and Lj7
+                                    T+                   T+                   T+
+                        | − 52 , 25 i −→ | − 52 , 72 i −→ | − 52 , 92 i −→ . . .
+                                           l Lj7            l Lj7
+                                                         T+                   T+
+                                             | − 72 , 72 i −→ | − 72 , 92 i −→ . . .                     (31)
+                                                                l Lj7
+                                                                              T+
+                                                                | − 92 , 92 i −→ . . .
+
+                                                         6
+Similarly, the ket states hψ̃| = hq, q0 | can be created by using the operators T− and Lj7 . It is important to
+note, that the SO(7) wave functions |ψ̃i = |q, q0 i of Eq. (28) satisfy a different normalization condition,
+see Eq. (26), than the SO(7) wave functions of [17, 18]. The hypercoulomb wave functions, i.e the
+eigenfunctions |ψi of the original Hamiltonian of Eq. (1), correspond to the group states |ψ̃i tilted about
+T2 by an angle θ = − ln(n/µτ ), see Eq. (27). Since T2 commutes with the generators of SO(6) (and its
+subgroups), the hypercoulomb wave function |ψi still has good γ, |ν|, κ, LP    t and ML , but the SO(7) label
+ω no longer is a good quantum number.
+
+
+6    Oscillator realization
+The oscillator realization, that is frequently used for hydrogenlike problems characterized by the dynam-
+ical group SO(4, 2), is based on the isomorphism between SO(4) and SU (2) ⊗ SU (2), and the Schwinger
+realization of SU (2) [5]. However, this realization cannot be generalized to other dimensions, since it is
+based on a particular property of the three-dimensional case. In [19] an oscillator realization was proposed
+for the general m−dimensional case which is characterized by the dynamical group SO(m + 1, 2). For six
+dimensions (m = 6) this gives a realization of the algebra of SO(7, 2) in terms of seven boson creation
+and annihilation operators
+                          Ljk   =    −i(a†j ak − a†k aj ) ,
+                                          7              7
+                                     1 X † †             X
+                          Lj8   =      i(   ak ak aj − 2   a†j a†k ak − 5a†j + aj ) ,
+                                     2
+                                           k=1                  k=1
+                                             7                    7
+                                      1     X                    X
+                          Lj9   =    − (         a†k a†k aj − 2         a†j a†k ak − 5a†j − aj ) ,
+                                      2
+                                           k=1                    k=1
+                                     7
+                                     X                5
+                          L89   =          a†k ak +     ,                     (j, k = 1, . . . , 7) .     (32)
+                                                      2
+                                     k=1
+
+The basis states of Eq. (16) correspond to linear combinations of the oscillator states
+                                             7
+                                             Y    1
+                                                 √ (a†i )ni |0i ,                                         (33)
+                                             i=1
+                                                  ni !
+
+where the total number of oscillator quanta is i ni = ω. According to Eq. (11), we associate a†j with
+                                                 P
+
+j = 1, . . . , 6 with the components of the two Jacobi vector boson operators and a†7 with a scalar boson
+operator
+                          a†k ≡ p†ρ,k ,          a†k+3 ≡ p†λ,k ,                 a†7 ≡ s† ,               (34)
+with k = 1, 2, 3. The oscillator realization of Eq. (32) is especially useful in deriving matrix elements.
+
+
+7    Form factors
+The six-dimensional hypercoulomb potential is an exactly solvable model, and hence provides a set of
+closed expressions for the spectrum and the form factors . The hypercoulomb ground state |ψ0 i =
+√
+  µτ e−i ln(n0 /µτ ) T2 |ψ̃0 i/n0 is characterized by the principal quantum number n0 = 5/2. According to
+the oscillator realization of Eq. (32), the ground state has zero oscillator quanta
+                                |ψ̃0 i ≡ |0i ,                      hψ̃0 | ≡ h0| .                        (35)
+Excited states can be created by the procedure outlined in Section 5 in Eqs. (28) and (31). The oscillator
+realization of some SO(2, 1) eigenstates |q, q0 i and hq, q0 | is given in Table 2.
+
+                                                            7
+   The derivation of the elastic form factor requires the evaluation of the matrix element of exp(ikλz ) =
+exp(ikr6 ) in the ground state |ψ0 i
+
+                               F0 (k)    = hψ0 | eikr6 |ψ0 i
+                                           µτ
+                                         =     hψ̃0 | ei ln(n0 /µτ ) T2 r eikr6 e−i ln(n0 /µτ ) T2 |ψ̃0 i            (36)
+                                           n20
+
+According to Eq.(2), both the coordinate rj and the radius r can be expressed in terms of a linear
+combination of generators
+
+                                        rj = Lj8 − Lj7 ,                r = L89 − L79 .                              (37)
+
+This allows one to express F0 (k) in terms of the generators of SO(7, 2)
+                             µτ
+             F0 (k)        =      hψ̃0 | ei ln(n0 /µτ ) L78 (L89 − L79 ) eik(L68 −L67 ) e−i ln(n0 /µτ ) L78 |ψ̃0 i
+                             n20
+                              1
+                           =     hψ̃0 | n0 (L89 − L79 ) eikn0 (L68 −L67 )/µτ |ψ̃0 i
+                             n20
+                                                                   1
+                           = hψ̃0 | eikn0 (L68 −L67 )/µτ |ψ̃0 i −    hψ̃0 | L79 eikn0 (L68 −L67 )/µτ |ψ̃0 i .        (38)
+                                                                  n0
+(i) The first term in Eq. (38) can be evaluated by rewriting
+
+                                    eikn0 (L68 −L67 )/µτ       = e−iαL67 e−iβL78 e−iγL67 ,                           (39)
+
+with
+
+                                          sinh(β/2) =           ±kn0 /2µτ ,
+                                                                                    1/2
+                                          cosh(β/2) =            1 + (kn0 /2µτ )2   ,
+                                                                                1
+                                                sin α =         − sin γ = ±           ,
+                                                                            cosh(β/2)
+                                               cos α =          − cos γ = − tanh(β/2) .                              (40)
+
+Since the ground state has zero oscillator quanta, the matrix element of Eq. (39) reduces to
+
+                      hψ̃0 | eikn0 (L68 −L67 )/µτ |ψ̃0 i       = hψ̃0 | e−iαL67 e−iβL78 e−iγL67 |ψ̃0 i ,
+                                                               = hψ̃0 | e−iβL78 |ψ̃0 i .                             (41)
+
+The ground state wave function satisfies
+
+                                                  T3 |ψ̃0 i     = n0 |ψ̃0 i ,
+                                                  T− |ψ̃0 i     = a7 |ψ̃0 i = 0 ,                                    (42)
+
+and can be characterized by |q = −n0 , q0 = n0 i. The ground state expectation value of exp(−iβL78 ) in
+Eq. (41) is a representation matrix element for the discrete series D+ of SO(2, 1) [16]
+                                                                                              −2n0
+                           −iβL78                              −iβT2                         β
+                hψ̃0 | e            |ψ̃0 i = h−n0 , n0 | e              | − n0 , n0 i = cosh         .               (43)
+                                                                                             2
+
+(ii) The second contribution to the form factor of Eq. (38) can be rewritten as
+
+              hψ̃0 | L79 eikn0 (L68 −L67 )/µτ |ψ̃0 i          = hψ̃0 | L79 e−iαL67 e−iβL78 e−iγL67 |ψ̃0 i
+                                                              = hψ̃0 | (L79 cos α + L69 sin α) e−iβL78 |ψ̃0 i .      (44)
+
+
+                                                                    8
+The first term on the right hand side can be expressed in terms of the derivative of Eq. (43)
+
+                       hψ̃0 | L79 e−iβL78 |ψ̃0 i   = −i hψ̃0 | L78 e−iβL78 |ψ̃0 i
+                                                      d
+                                                   =     hψ̃0 | e−iβL78 |ψ̃0 i
+                                                     dβ
+                                                                               −2n0 −1
+                                                                   β            β
+                                                   = −n0 sinh             cosh             .               (45)
+                                                                   2            2
+The second term in Eq. (44), proportional to sin α, vanishes identically. This can be seen by introducing
+the SO(2, 1) ⊗ SO(2, 1) algebra
+
+                [G1 , G2 ] = −iG3 ,                [G2 , G3 ] = iG1 ,                [G3 , G1 ] = iG2 ,
+                [H1 , H2 ] = −iH3 ,                [H2 , H3 ] = iH1 ,                [H3 , H1 ] = iH2 ,
+                                                    [Gi , Hj ] = 0 ,                                       (46)
+
+which is generated by the operators [19]
+                               1                                      1
+                          G1 =   (L68 + L79 ) ,                  H1 =   (L68 − L79 ) ,
+                               2                                      2
+                               1                                      1
+                          G2 = (L78 − L69 ) ,                    H2 = (L78 + L69 ) ,
+                               2                                      2
+                               1                                      1
+                          G3 = (L67 + L89 ) ,                    H3 = (L67 − L89 ) .                       (47)
+                               2                                      2
+We rewrite the second term in terms of the operators Gi and Hj
+
+           hψ̃0 | L69 e−iβL78 |ψ̃0 i = hψ̃0 | (H2 − G2 ) e−iβ(H2 +G2 ) |ψ̃0 i
+                                     = hψ̃0 | H2 e−iβH2 e−iβG2 |ψ̃0 i − hψ̃0 | G2 e−iβG2 e−iβH2 |ψ̃0 i .   (48)
+
+The action of G3 and H3 and the raising and lowering operators G± = G1 ± iG2 and H± = H1 ± iH2
+on the ground state wave function can be evaluated by using the oscillator realization of Eq. (32) and
+Eq. (35)
+                                                                       n0
+                                      G3 |ψ̃0 i = −H3 |ψ̃0 i =            |ψ̃0 i ,
+                                                                       2
+                                       G− |ψ̃0 i = H+ |ψ̃0 i =         0.                                  (49)
+
+Thus, the ground state wave function is characterized by g = −g0 = −n0 /2 and h = h0 = −n0 /2.
+Eq. (49) shows that the matrix element of exp(−iβG2 ) is a representation matrix element for the positive
+discrete series D+ , whereas that of exp(−iβH2 ) corresponds to a representation matrix element for the
+negative discrete series D− . The relevant matrix elements are given by [16]
+       D n n                             D n                                          −n0
+            0   0            n0 n0 E          0   n0 −iβH2       n0   n0 E           β
+        − ,       e−iβG2 − ,          = − ,−          e       − ,−          = cosh            .     (50)
+           2 2                2 2            2     2             2     2             2
+Therefore, the two terms on the right hand side of Eq. (48) cancel, and the matrix element
+
+                                          hψ̃0 | L69 e−iβL78 |ψ̃0 i =     0,                               (51)
+
+vanishes identically.
+   Summarizing, the elastic form factor of Eq. (38) is obtained by combining the contributions from
+Eqs. (43), (45) and (51)
+                                           −2n0 −2
+                                          β                        1
+                         F0 (k) =    cosh            =                      7/2 ,             (52)
+                                          2
+                                                          1 + 16µ252 τ 2 k 2
+
+
+                                                          9
+where we have used Eq. (40) and n0 = 5/2 for the ground state wave function. This result is in agreement
+with [3, 20], in which the form factor was derived as an integral in bispherical coordinates. The derivation
+of transition form factors connecting the ground state to excited states proceeds in a similar way. The
+results are given in Table 3.
+    The general result for the elastic form factor of the m-dimensional hypercoulomb potential can be
+obtained by using the properties of SO(m + 1, 2) dynamical group. The derivation proceeds along the
+same lines as used in this section for m = 6. The elastic form factor is given by
+                                                          1
+                                  F0 (k) =                     (m+1)/2 ,                             (53)
+                                                          2
+                                                1 + (m−1)
+                                                       2
+                                                    16µ τ 2 k 2
+
+
+and shows a power-law dependence on k. For the six-dimensional case it reduces to Eq. (52).
+
+
+8    Nucleon form factors
+The hypercoulomb interaction whose properties have been described in the previous sections, can be used
+to analyze, at least approximately, nucleon phenomenology. In order to do so, one has first to assign the
+observed nucleon resonances to states of the hypercoulomb potential. This is done in Table 4. The spatial
+wave function has to be combined with the spin-flavor and color parts, in such a way that the total wave
+function is antisymmetric (see e.g. [3, 21, 22]). The nucleon itself is identified with the ground state
+|ψ̃i = |0, 0, 0+                                                                            +
+               S i which has n = 5/2, the Roper resonance is associated with |ψ̃i = |1, 0, 0S i and n = 7/2,
+                                                        −
+and the negative parity resonances with |ψ̃i = |1, 1, 1M i and n = 7/2.
+    The formulas derived in the previous section provide a way to calculate form factors and helicity
+amplitudes between the ground state and the baryon resonances (see e.g. [2, 22, 23]). As an example, we
+show in Figs. 1 and 2 the helicity amplitudes leading to the resonances N(1520)D13 and N(1535)S11 . The
+hypercoulomb results are compared with experimental data and with complete calculations from [2] which
+take into account also the linear confining term. It is seen that the hypercoulomb results are comparable
+in quality with those of the second model [2]. Since the strength of the parameter of the linear confining
+term is not too strong, the hypercoulomb form factors provide a good lowest order approximation. We
+also comment on the fact that the hypercoulomb interaction produces form factors that decrease as the
+inverse of a power of the momentum transfer k, in contrast with the harmonic oscillator form factors (the
+other exactly solvable case) that drop too fast as a gaussian [23]. For example, the elastic form factor
+GpE (k) behaves as
+                                  
+                                   1/(1 + k 2 a2 )7/2        Hypercoulomb
+                        p
+                      GE (k) =                                                                          (54)
+                                     exp(−k 2 β 2 /6)         Harmonic oscillator [23]
+                                  
+
+where a2 = 25/24µ2τ 2 (see Table 3).
+
+
+9    Conclusions
+In this paper we have presented a completely algebraic treatment of the six-dimensional hypercoulomb
+problem in the context of the dynamical group SO(7, 2). We have developed a systematic way to construct
+the wave functions using step operators in the SO(7) ⊃ SO(6) labels ω, γ. This makes it possible to
+derive elastic form factors and transition matrix elements connecting the ground state to excited states in
+closed analytic form in an entirely algebraic way. In the derivation we have used an oscillator realization
+of the algebra of SO(7, 2). This procedure can readily be extended to the hypercoulomb problem in
+any number of dimensions, as it has been shown for the elastic form factor. We discussed briefly the
+application to baryon phenomenology, in which it was found that the form factors drop as powers of the
+momentum transfer, as it is observed experimentally.
+
+                                                    10
+   In conclusion, the present algebraic method provides an alternative to solving hypercoulomb problems
+with integro-differential methods.
+
+
+Acknowledgements
+This work is supported in part by DGAPA-UNAM under project IN101997 (R.B.), in part by DOE,
+Grant No. DE-FG02-91ER40608 (F.I.), and in part by INFN (E.S.).
+
+
+References
+ [1] J. Ballot and M. Fabre de la Ripelle, Ann. of Phys. (N.Y.) 127, 62 (1980).
+ [2] M. Ferraris, M.M. Giannini, M. Pizzo, E. Santopinto and L. Tiator, Phys. Lett. B 364, 231 (1995);
+     M. Aiello, M. Ferraris, M.M. Giannini, M. Pizzo and E. Santopinto, Phys. Lett. B 387, 215 (1996);
+     M. Aiello, M.M. Giannini and E. Santopinto, J. Phys. G: Nucl. Part. Phys. 24, 753 (1998).
+ [3] E. Santopinto, F. Iachello and M.M. Giannini, Nucl. Phys. A 623, 101c (1997); E. Santopinto, F.
+     Iachello and M.M. Giannini, Eur. Phys. J. A 1, 307 (1998).
+ [4] A.O. Barut and Y. Kitagawara, J. Phys. A: Math. Gen. 14, 2581 (1981).
+ [5] A.O. Barut and H. Kleinert, Phys. Rev. 156, 1541 (1967); ibid. 157, 1180 (1967); ibid. 160, 1149
+     (1967); Y. Nambu, Phys. Rev. 160, 1171 (1967).
+ [6] M. Fabre de la Ripelle and J. Navarro, Ann. Phys. (N.Y.) 123, 185 (1979).
+ [7] A. De Rújula, H. Georgi and S.L. Glashow, Phys. Rev. D 12, 147 (1975).
+ [8] E. Eichten, Phys. Rev. D 17, 3090 (1979); Phys. Rev. D 21, 203 (1980).
+ [9] J.-M. Richard and P. Taxil, Ann. Phys. (N.Y.) 150, 267 (1983).
+[10] M. Moshinsky and C. Quesne, Phys. Lett. 29B, 482 (1969); J. Math. Phys. 11, 1631 (1970).
+[11] P. Kramer and M. Moshinsky, Nucl. Phys. 82, 241 (1966).
+[12] E. Chacón, O. Castaños and A. Frank, J. Math. Phys. 25, 1442 (1984).
+[13] J.P. Elliott, Proc. Roy. Soc. A245, 128 (1958); Proc. Roy. Soc. A245, 562 (1958).
+[14] B.G. Wybourne, ‘Classical groups for physicists’, Wiley, 1974.
+[15] A.O. Barut and W. Rasmussen, J. Phys. B: Atom. Molec. Phys. 6, 1695 (1973).
+[16] W.J. Holman and L.C. Biedenharn, Ann. Phys. 39, 1 (1966).
+[17] R. Bijker and J.N. Ginocchio, Phys. Rev. C 45, 3030 (1992).
+[18] E. Santopinto, R. Bijker and F. Iachello, J. Math. Phys. 37, 2674 (1996).
+[19] E. Kyriakopoulos, Phys. Rev. 177, 2442 (1969).
+[20] J. Leal Ferreira and P. Leal Ferreira, Lett. Nuovo Cimento 3, 43 (1970).
+[21] N. Isgur and G. Karl, Phys. Rev. D 18, 4187 (1978); 19 2653 (1979); 20 1191 (1979).
+[22] R. Bijker, F. Iachello and A. Leviatan, Ann. Phys. (N.Y.) 236, 69 (1994); Phys. Rev. C 54, 1935
+     (1996); Phys. Rev. D 55, 2862 (1997).
+
+
+                                                  11
+[23] L.A. Copley, G. Karl and E. Obryk, Nucl. Phys. B13, 303 (1969).
+[24] Particle Data Group, Phys. Rev. D54, 1 (1996).
+[25] V. Burkert, Int. J. Mod. Phys. E1, 421 (1992) and private communication; G. Adams, N. Mukhopad-
+     hyay and P. Stoler, Excited Baryons 1988, proc. Topical Workshop, Troy, New York, 122 (1988).
+
+
+
+
+                                                12
+Table 1: Basis states of SO(7) with ω = 4. The corresponding SO(2, 1) labels are q0 = ω + 5/2 and q = −γ − 5/2.
+
+
+                                     ω   γ      ν   κ        LP
+                                                              t
+
+
+
+                                     4   0    0     0        0+
+                                                              S
+                                         1   ±1     0        1−
+                                                              M
+                                         2   ±2     0        0+    +
+                                                              M , 2M
+                                              0     1        1+    +
+                                                              A , 2S
+                                                              − − − −
+                                         3   ±3     0        1S , 1A , 3S , 3A
+                                             ±1     1        1−    −
+                                                              M , 2M , 3M
+                                                                         −
+                                                              +    +     +
+                                         4   ±4     0        0M , 2M , 4M
+                                             ±2     1        1+    +     +
+                                                              M , 2M , 3M , 4M
+                                                                               +
+                                                              + +
+                                              0     0        0S , 2A
+                                                    2        2+    + +
+                                                              S , 3A , 4S
+
+
+
+
+                                                        13
+Table 2: Oscillator realization for the wave functions |ψ̃i = |q, q0 i and hψ̃| = hq, q0 | with ω ≤ 2. For these states
+the labels ν and κ are redundant.
+
+
+
+                          q     q0   ω    γ    LP
+                                                t      ML                   oscillator
+
+
+                         − 25   5
+                                2     0   0    0+
+                                                S       0                       |0i
+                         − 25   5
+                                2     0   0    0+
+                                                S       0                       h0|
+
+                         − 25   7
+                                2     1   0    0+
+                                                S       0                     √1 h0|s
+                                                                                5
+                         − 27   7
+                                2     1   1    1−
+                                                Mρ      1                   √i h0|pρ,1
+                                                                              5
+                         − 27   7
+                                2     1   1    1−
+                                                Mλ      1                   √i h0|pλ,1
+                                                                              5
+
+
+                         − 25   9
+                                2     2   0    0+
+                                                S       0                     √1 h0|s2
+                                                                            2 15
+                         − 27   9
+                                2     2   1    1−
+                                                Mρ      1                    i
+                                                                           √ h0|spρ,1
+                                                                             35
+                         − 27   9
+                                2     2   1    1−
+                                                Mλ      1                  √i h0|spλ,1
+                                                                             35
+                         − 29   9
+                                2     2   2    2+
+                                                S       2         √1 h0|[pρ,1 pρ,1 + pλ,1 pλ,1 ]
+                                                                 2 35
+                         − 29   9
+                                2     2   2    1+
+                                                A       1        − √170 h0|[pρ,1 pλ,0 − pλ,1 pρ,0 ]
+                         − 29   9
+                                2     2   2    2+
+                                                Mρ      2                √1 h0|pρ,1 pλ,1
+                                                                           35
+                         − 29   9
+                                2     2   2    2+
+                                                Mλ      2         √1 h0|[pρ,1 pρ,1 − pλ,1 pλ,1 ]
+                                                                 2 35
+                         − 29   9
+                                2     2   2    0+
+                                                Mρ      0                 √ 1 h0|pρ · pλ
+                                                                           105
+                         − 29   9
+                                2     2   2    0+
+                                                Mλ      0          √1 h0|[pρ · pρ − pλ · pλ ]
+                                                                  2 105
+
+
+
+
+                                                            14
+Table 3: Form factors for the hypercoulomb problem. The hypercoulomb wave functions are given by Eq. (27)
+      √                                                                                                       +
+|ψi = µτ e−i ln(n/µτ ) T2 |ψ̃i/n with |ψ̃i = |ω, γ, LP
+                                                     t i and n = ω + 5/2. The initial state is |ψ̃i = |0, 0, 0S i and
+        √          √
+a = n0 / 6µτ = 5/2 6µτ .
+
+
+                                                                      √
+                             hψ̃ ′ | = hω, γ, LP
+                                               t |            hψ ′ |ei 2/3 kr6 |ψi
+
+
+                                 h0, 0, 0+
+                                         S|
+                                                                       1
+                                                                  (1+k2 a2 )7/2
+
+                                                        √
+                                 h1, 1, 1−
+                                         M|           −i 7 ( 56 )4 ( 76 )4 (1+ 49 ka
+                                                                                  k2 a2 )9/2
+                                                                                  36
+
+                                                       √ 5 4 7 5             2 2
+                                 h1, 0, 0+
+                                         S|             7 ( 6 ) ( 6 ) (1+ 49kka2 a2 )9/2
+                                                                              36
+
+                                                      √                           2 2
+                                 h2, 2, 2+
+                                         S|          − √21
+                                                        2
+                                                           ( 75 )5 ( 97 )5 (1+ 81kk2aa2 )11/2
+                                                                               49
+
+                                                       √
+                                                                               k 2 a2
+                                 h2, 2, 2+
+                                         M|
+                                                       √21 ( 5 )5 ( 9 )5
+                                                             7      7    (1+ 81   2 2 11/2
+                                                         2                   49 k a )
+
+                                                        √                              2 2
+                                 h2, 2, 0+
+                                         M|          − 221 ( 75 )5 ( 97 )5 (1+ 81kk2aa2 )11/2
+                                                                                  49
+
+                                                         √
+                                                                            ka[1+ 486 k2 a2 ]
+                                 h2, 1, 1−
+                                         M|          −i 37 ( 57 )4 ( 79 )5 (1+ 81 k49
+                                                                                   2 a2 )11/2
+                                                                                  49
+
+                                                       √           2 2      486 2 2
+                                                        3 5 4 9 5 k a [1+ 49 k a ]
+                                 h2, 0, 0+
+                                         S|            2 (7) (7)  (1+ 81  k 2 a2 )11/2
+                                                                       49
+
+
+
+
+                                                         15
+Table 4: Identification of the states of Eq. (27) and Table 1 (the quantum numbers are ω, γ, LPt ) with the
+observed baryon resonances. The spin, S, and the total angular momentum and parity, J P , is also indicated. The
+experimental masses are from [24].
+
+
+
+                   ω γ LP        S       JP             Baryon       Status    Mexp (MeV)
+
+
+                                 1       1+
+                    0 0 0+       2       2           N(938) P11       ****          938
+                                 3       3+
+                    0 0 0+       2       2           ∆(1232) P33      ****         1232
+                                 1       1+
+                    1 0 0+       2       2           N(1440) P11      ****         1440
+                                 1       3+
+                    1 0 0+       2       2           ∆(1600) P33      ***          1600
+                                 1       1−
+                    1 1 1−       2       2           N(1535) S11      ****         1535
+                                 1       3−
+                    1 1 1−       2       2           N(1520) D13      ****         1520
+                                 3       1−
+                    1 1 1−       2       2           N(1650) S11      ****         1650
+                                 3       3−
+                    1 1 1−       2       2           N(1700) D13      ***          1700
+                                 3       5−
+                    1 1 1−       2       2           N(1675) D15      ****         1675
+                                 1       1−
+                    1 1 1−       2       2           ∆(1620) S31      ****         1620
+                                 1       3−
+                    1 1 1−       2       2           ∆(1700) D33      ****         1700
+                                 1       1+
+                    2 0 0+       2       2           N(1710) P11      ***          1710
+                                 1       3+
+                    2 2 2+       2       2           N(1720) P13      ****         1720
+                                 1       5+
+                    2 2 2+       2       2           N(1680) F15      ****         1680
+                                 3       1+
+                    2 2 2+       2       2           ∆(1910) P31      ****         1910
+                                 3       3+
+                    2 2 2+       2       2           ∆(1920) P33      ***          1920
+                                 3       5+
+                    2 2 2+       2       2           ∆(1905) F35      ****         1905
+                                 3       7+
+                    2 2 2+       2       2           ∆(1950) F37      ****         1950
+                                 1       1−
+                    2 1 1−       2       2           ∆(1900) S31      ***          1900
+
+
+
+
+                                                      16
+Figure 1: The helicity amplitudes Ap1/2 and Ap3/2 in the Breit frame for the excitation of the N(1520)D13
+resonance. The full curve is the complete result of the model of [2], while the dashed curve is the result
+without the linear confining term. The experimental data are taken from [25].
+
+
+
+
+                                                   17
+Figure 2: The same as in Fig. 1, but for the excitation of the N(1535)S11 resonance.
+
+
+
+
+                                        18
+

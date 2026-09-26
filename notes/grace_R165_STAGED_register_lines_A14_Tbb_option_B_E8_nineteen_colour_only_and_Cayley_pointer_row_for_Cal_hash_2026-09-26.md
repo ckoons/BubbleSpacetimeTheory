@@ -31,3 +31,7 @@
 ## Section 4 — Applied without a hash (no claim changes)
 - **T1947 re-key:** "(T1939)" is a mis-pointer. The 6 = 21 − 15 is the vector representation ℝ^{4,2} (dim so(p+1,q) − dim so(p,q) = p + q). Its equality with C₂ = 6 is numerical. The pointer now goes to F475 and K1927. There is no graph edge T1939 → T1947, so no edge moves.
 - A2 and 16/3 wording per K1928 Part 1 items 5–6 lands with Cal's final word (register v0.28).
+
+## Amendment 11:50 (appended; the text above is unchanged from sha 19da608d)
+- **A14 current-bound cell:** replace "no dedicated search found (PIN OWED)" with "unobserved; LHCb searches ongoing (Phys. Rep. 1191 (2026), arXiv:2603.09315v2: 'LHCb is pursuing searches for … doubly-bottom (bbq̄q̄) candidates … in prompt production'); none published per the reviews (PDG 2026 non-qq̄ review; LHCb Annual Review 2024)". Sources: `data/sources_grace_2026-09-26/r6_tilt/`.
+- **T2632 row:** add "NOT Segal's reading: Segal & Zhou 1995 read (Einstein generator) − (Minkowski generator) as the cosmological redshift, z = tan²(ρ/2). The square law was ruled out at small z (Soneira 1979) and the source counts failed (Wright 1987). BST does not take the elliptic–parabolic difference as a redshift."
