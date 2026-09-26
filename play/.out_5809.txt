@@ -1,0 +1,11 @@
+[PASS] D(x,e) = x ēᵀ − ē xᵀ (antisymmetric) for generic x ∈ V1  
+[PASS] W_x† = D(e,x) (conjugate-transpose with x̄ symbolic)  
+[PASS] [W_x, W_y] = 0 identically (writes commute)  
+[PASS] W_x W_y e = −q(x,y) ē identically (two writes give symmetric q)  
+[PASS] W_x W_y W_z = 0 identically (no top product; ε not a product of writes)  
+[PASS] W_x² = −q(x,x)·ē ēᵀ exactly  ⇒  W_x² = 0 iff x isotropic  
+[PASS] generated complex Lie algebra = so(5,C): all antisymmetric, spans all 10 elementary E_ij − E_ji  dim 10
+[PASS] J = i·1 (centre of K) is NOT generated (1 is not antisymmetric; rank rises when added)  
+[PASS] compact form: real dim 10, all anti-Hermitian (so(5) of K, not su(3))  real dim 10
+
+SCORE: 9/9
