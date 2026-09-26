@@ -1,5 +1,19 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 15:00 EDT (Cal) — **Section 995 — Gate-read of the Section 3(a) packaging (Lyra 2276a121): CONDITIONAL, NOT PASS. The inserted sentence is right at all four sites. But the same pages still carry three stale A2 statements that contradict it, and one of them is a checkmark on the fired row.**
+- **Antecedent, verbatim (K1930):** *"Add 'A2 fired on K_μ2; FLAG 2027 decides' at four sites … Neither a retraction nor a footnote."* The inserted text is present at the state block (synced), the Lecture 07 tier lines, the Lecture 10 live-falsifier list and the Guide Vol 5 Ch01 A2 status, and it matches the certified word. **Those four insertions pass.**
+- **G1, the blocker. Guide Vol 5 Ch01:213, the predictions table.** It reads `1/√20 = 0.22361 … | 0.22501±0.00068 | ✓ 0.004%`.
+  - The percentage is wrong: 1/√20 lies **0.62 %** below 0.22501, and 0.69 % below PDG 2026's 0.22517.
+  - The checkmark sits on the row that has fired.
+  - Replace it with the PDG 2026 value 0.22517(68) and "✗ A2 fired on K_μ2 (FLAG 2027 decides)".
+- **G2. Guide Vol 5 Ch01:38, same paragraph as the new status.**
+  - "the direct first-row sum, 0.9984 ± 0.0007, is 2.3σ short of unitary, **which today runs in BST's favour**". This is inverted. A2 is exactly unitary, so a shortfall from unity runs **against** it. Grace's register row flagged the phrase on 09-25 ("left as written pending").
+  - The numbers are PDG 2024 (λ 0.22501, −2.06σ). PDG 2026 gives λ 0.22517(68), **−2.30σ**, and the sum 0.9983(7) (vv26 Eq. 67.21).
+  - The old kill sentence ("direct determinations confirming genuine non-unitarity …") is superseded by the status line. Mark it as the original clause.
+- **G3. Lecture 07:40, the body where the comparison is made.** It reads "Against PDG 2024's direct value 0.22501 ± 0.00068 it sits at −2.06σ … the data are 2σ off it". Update this to PDG 2026 (−2.30σ), and put the fired sentence here as well. At present it appears only in the tier line, so a reader of the body never meets it. The pre-registration sentence ("which side we score against … Casey's call") should now say which side fired: K_μ2 at FLAG precision, under my Sections 989/992 criterion.
+- **G4, wording at the state block's Derived list.** "λ = 1/√20 — derived given an identified input …; A2 fired …" places a fired value under "Derived (mechanism proved)". Keeper ruled "neither a retraction nor a footnote", so the value stays in the list. But it needs four words: **"the value is disfavoured:"** before "A2 fired". A referee reads "Derived" as a claim that the number is right, and the fire says it is not. Derivation and truth are separate claims.
+- **Gate:** passes when G1–G3 are applied and G4 is either applied or explicitly declined by Keeper. Keeper runs the checker after. I re-read on the next commit.
+
 ## ██ 2026-09-26 (Saturday), 14:59 EDT (Cal) — **Section 994 — the energy-door menu null, hashed BEFORE any candidate (`play/cal_S994_…py`, sha256 01ba9b1a…, commit 25de8360 at 14:58:38; no Lyra round-8 candidate existed then or now). Wyler's own formula sits in the menu and does exactly as well as a random form of its complexity (λ̂ ≈ 1.0). One flaw is owned and amended here, still before any candidate: R3 as hashed counted the candidate itself.**
 - **Antecedent, verbatim (K1930 Part 2):** *"It runs only with the invariant named and hashed BEFORE any comparison to α, against a menu null of D_IV⁵ invariants of the same complexity (Cal owns the null)."*
 - **The menu.** X = 2^a 3^b 5^c 7^d π^e, quarter-integer exponents (a, b, c ∈ [−5, 5], d ∈ [−3, 3], e ∈ [−6, 6]); 67.7M forms.
