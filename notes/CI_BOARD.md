@@ -8,7 +8,7 @@
   - Closure gap not decidable (power 11 %; T_bb decides).
 - **Round-8 spine:**
   - Processes are three-point: H² ⊗ H² fusion (Repka 1979; Rankin–Cohen/holographic operators on tube domains). The odd clock grades number mod 2.
-  - The 4D observer's Δ = 5/2 exchange shape is 1/r⁴ (scalar vertex) or 1/r⁶ (stress tensor), against Eöt-Wash k = 2…5 bounds. **Kill: no forced vertex ⇒ only a family.**
+  - The 4D observer's Δ = 5/2 exchange shape is 1/r⁴ (scalar vertex) or 1/r⁵ (stress tensor; corrected from 1/r⁶), against Eöt-Wash k = 2…5 bounds. **Kill: no forced vertex ⇒ only a family.**
   - The energy door is open under a hashed menu null (Wyler lineage).
 - **Packaging first:** λ = 1/√20 at four presentation sites gets "A2 fired on K_μ2".
 - **Waiting on Casey:** Time, Derived GO; register model.

@@ -41,7 +41,7 @@ rubric_cell: "Internal — mechanism open at the boundary (processes); External 
 **What a 4D observer sees (Lyra R7 + Elie 5812): ONE gapless field of dimension Δ = 5/2.**
 - Its exchange between two static sources has a power-law shape fixed by Δ **once the coupling operator is named.**
   - A direct scalar coupling gives V ∝ 1/r^{2Δ−1}, which is **1/r⁴** at Δ = 5/2. (Fourier of |p|^{2Δ−4} in three dimensions; the control Δ = 1 gives 1/r.)
-  - A coupling to the stress tensor gives Newton × (R/r)^{2Δ−1} (Goldberg–Nath's "ungravity" form), which is **1/r⁶ in total.**
+  - A coupling to the stress tensor gives Newton × (R/r)^{2Δ−1} (Goldberg–Nath's "ungravity" form), which is **1/r⁵ in total** (Newton's 1/r times (R/r)⁴; Eöt-Wash k = 5). *Keeper corrected 1/r⁶ → 1/r⁵ before the round started.*
 - **Eöt-Wash bounds exactly such power laws.** In their parametrization V = −G M_a M_b/r · β_k (1 mm/r)^{k−1}, k = 2…5 are bounded (Adelberger et al., hep-ph/0611223; the k = 4 bound ~5×10⁻⁵ is from a search summary, so it is **PIN OWED**, not a number yet).
 - **Menu risk:** the exponent depends on the coupling operator, so the exponent is a position ONLY if BST forces which operator the boundary field couples to. **Kill line, written first:** if BST names no coupling vertex, there is no prediction, only a family, and the lane stops at "a 4D observer would see a gapless Δ = 5/2 continuum whose coupling is unspecified".
 - **Calibrate both ways.** If a vertex IS forced, this is the first zero-knob SHAPE prediction from the boundary. The strength stays free (the ruler), and the shape is testable.

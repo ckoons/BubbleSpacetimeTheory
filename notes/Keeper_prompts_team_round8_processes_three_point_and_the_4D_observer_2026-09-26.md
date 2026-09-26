@@ -20,7 +20,7 @@
   - The intertwiners are Rankin–Cohen / holographic operators (Kobayashi–Pevzner; arXiv:2603.21472 for tube-type domains).
   - The first rule is already visible: k copies of H² live in 5k/2 + ℤ, so the odd clock grades number mod 2.
 - **A 4D observer sees ONE gapless Δ = 5/2 field.**
-  - Its static exchange has a shape fixed by Δ once the coupling vertex is named: a direct scalar vertex gives 1/r⁴, and a stress-tensor ("ungravity") vertex gives Newton × r⁻⁴, i.e. 1/r⁶ in total.
+  - Its static exchange has a shape fixed by Δ once the coupling vertex is named: a direct scalar vertex gives 1/r⁴, and a stress-tensor ("ungravity") vertex gives Newton × (R/r)⁴, i.e. 1/r⁵ in total (Eöt-Wash k = 5; Keeper corrected 1/r⁶ → 1/r⁵ before issue).
   - Eöt-Wash bounds power laws k = 2…5.
   - **Kill line:** no forced vertex ⇒ no prediction, only a family.
 
