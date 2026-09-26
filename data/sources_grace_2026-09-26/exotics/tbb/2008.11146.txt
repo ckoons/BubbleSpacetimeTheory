@@ -1,0 +1,1311 @@
+                                                        Construction of bbūd¯ tetraquark states on lattice
+                                                       with NRQCD bottom and HISQ up/down quarks
+
+                                                                       Protick Mohanta and Subhasish Basak
+                                                            School of Physical Sciences, National Institute of Science
+                                                              Education and Research, HBNI, Odisha 752050, India
+
+
+
+
+arXiv:2008.11146v2 [hep-lat] 23 Nov 2020
+                                                                              (Dated: November 24, 2020)
+
+                                                                                       Abstract
+                                             We construct bbūd¯ states on lattice using NRQCD action for bottom and HISQ action for the light
+                                                                                                                                  ¯ and
+                                           up/down quarks. The NRQCD-HISQ tetraquark operators are constructed for “bound” [bb][ūd]
+                                                              ¯ states. Corresponding to these different operators, two different appropriately
+                                           “molecular” [bū][bd]
+                                           tuned light quark masses are needed to obtain the desired spectra. We explain this requirement
+                                           of different mu/d in the light of relativised quark model involving Hartree-Fock calculation. The
+                                           mass spectra of double bottom tetraquark states are obtained on MILC Nf = 2 + 1 Asqtad lattices
+                                           at three different lattice spacings. Variational analysis has been carried out to obtain the relative
+                                           contribution of “bound” and “molecular” states to the energy eigenstates.
+
+
+
+
+                                                                                           1
+I.    INTRODUCTION
+
+
+     The multiquark hadronic states other than the mesons and baryons are relatively new
+entrants particularly in the heavy quark sector. The signature of some of such states con-
+taining four or more quarks and/or antiquarks have been observed in experiments [1–6].
+The QCD states composed of four valence quarks are popularly referred to as tetraquark,
+which is used to denote either bound or often both bound and two 2-quark mesonic particles
+bound in a molecular like structure. In this paper we use the term tetraquark in the latter
+sense. Such states are characterized by J P C quantum numbers that cannot be arrived at
+from the quark model. However, heavy hadronic tetraquark states QQl¯l¯ and their stabil-
+ity in the infinite quark mass limit had been studied in [7, 8] which raised the possibility
+of existence of heavy four quark bound states below the Q¯l − Q¯l threshold. Of late, the
+observations of Z − (4430, 1+ ) of minimal quark content being cc̄dū [3] have been reported
+along with the 1+ states like Zb (10610) and Zb′ (10650), having minimal quark content of four
+quarks (containing a bb̄ pair) that are a few MeV above the thresholds of B ⋆ B̄ (10604.6) and
+B ⋆ B̄ ⋆ (10650.2) [1, 2]. The proximity of Zb , Zb′ to the B ⋆ B̄ ⋆ threshold values perhaps suggest
+molecular, instead of bound, nature of the states.
+
+     Around the same time, lattice QCD has been employed to investigate the bound and/or
+molecular nature of the heavy tetraquark states, not only to understand the above experi-
+mentally observed states but also to identify other possible bound tetraquark states in both
+0+ and 1+ channels. In the context of lattice study of heavy tetraquarks, some early lattice
+calculations in charm sector involve Tcc and Tcs tetraquark states [9], ccc̄c̄ [10], X(3872)
+                                     ⋆
+and Y (4140) [11] and more recently Ds0 (2317) [12]. The bottom sector too received intense
+                                                                                            ¯
+attention in the past few years. However, on the lattice the Zb , Z ′ of quark content [bb̄ud]
+                                                                           b
+                                               ¯ or equivalently [b̄b̄ud] system; that is to say
+has been replaced with relatively simpler [bbūd]
+instead of B ∗ B̄ or B ∗ B̄ ∗ , the study is basically on BB ∗ / B ∗ B ∗ systems. One exploratory
+lattice study of the [bb̄ud̄] system has been reported in [13]. The lattice investigations this far
+involve four bottom bbb̄b̄ [14] and two bottom tetraquark states b̄b̄l1 l2 , where l1 , l2 ∈ c, s, u, d,
+[15–18]. An important observation of these lattice studies is that the possibility of the exis-
+tence of bb¯l1 ¯l2 tetraquark bound states increases with decreasing light quark masses, while
+they become less bound with decreasing heavy (anti)quark mass.
+
+     Besides the usual lattice simulations, the heavy tetraquark systems have also been studied
+
+                                                  2
+using QCD potential [19] and Born-Oppenheimer approximation [20–23]. The main idea in
+these references is to investigate tetraquark states with two heavy (anti)quarks, which was
+b̄b̄ in the study, and two lighter quarks using quantum mechanical Hamiltonian containing
+screened Coulomb potential. This approach has been used to explain our two different
+choices of light u/d quark masses for different classes of tetraquark operators.
+
+      In this work our goal is to construct tetraquark states, having quark content bb¯l1 ¯l2 in
+1+ both below and above B − B ∗ threshold, by a combination of lattice operators and
+tuning quark masses based on quantum mechanical potential calculation. For the b quark,
+we employed nonrelativistic QCD formulation [24, 25], as is the usual practice, and HISQ
+action [26] for l1 , l2 = u/d. Here we also explore through variational/GEVP analysis how
+the trial states created by our operators contribute to the energy eigenstates.
+
+      First, we briefly review the salient features and parameters of both NRQCD and HISQ
+actions along with the steps involve in combining the relativistic u/d HISQ propagators with
+the NRQCD b quark propagators in the section II. We have considered two different kind of
+operators – the local heavy diquark and light antidiquark (often referred as “good diquark”
+configuration) and molecular meson-meson, we described these constructions in the section
+III. We collect our spectrum results in section IV that contains subsections on quark mass
+tuning (IV A), Hartree-Fock calculation of two light quarks in the presence of a heavy quark
+(IV B), tetraquark spectra (IV C) and GEVP analysis (IV D). Finally we summarized our
+results in section V.
+
+
+
+
+II.     QUARK ACTIONS
+
+
+      Lattice QCD simulations with quarks require quark mass to be aml ≪ 1, where a is the
+lattice spacing. In the units of the lattice spacings presently available, the b quark mass is
+not small i.e. amb ≮ 1. As is generally believed, the typical velocity of a b quark inside a
+hadron is nonrelativistic v 2 ∼ 0.1 and is much smaller than the bottom mass. This makes
+NRQCD our action of choice for b quarks on lattice. We have used O(v 6 ) NRQCD action
+[25], where the Hamiltonian is H = H0 + δH, where H0 is the leading O(v 2 ) term, the O(v 4 )
+
+                                               3
+and O(v 6 ) terms are in δH with coefficients c1 through c7 ,
+         ˜
+         ∆2         a (∆2 )2
+     H0 = −   −                                                                              (1)
+        2mb 4n 4m2b
+           (∆2 )2          ig  ~ ± ~       ~   ~ ±
+                                                          g         
+                                                                       ˜ ± ~˜ ~˜ ~˜ ±
+                                                                       ~
+                                                                                       
+  δH = −c1           + c2        ∆ · E − E · ∆ − c3            ~σ · ∆ × E − E × ∆
+            8m3b          8m2b                           8m2b
+             g         ~˜ − c5 g
+                                    n
+                                      2       ~ − c6 3g
+                                                o            n
+                                                                 2
+                                                                          
+                                                                            ~ ±   ~ −E
+                                                                                     ~×~ ±
+                                                                                           o
+       −c4       ~σ · B              ∆  , ~
+                                          σ · B                ∆   , ~
+                                                                     σ  ·   ∆   × E    ∆
+           2mb                 8m3b                   64m4b
+            ig 2        ~ ×E~
+       −c7        ~σ · E                                                                     (2)
+           8m3b
+
+where ∆± and ∆2 are discretized symmetric covariant derivative and lattice Laplacian re-
+                                                                               ~ and chromo-
+spectively. Both the derivatives are O(a4 ) improved as are the chromoelectric E
+         ~ fields. The b quark propagator is generated by time evolution of the Hamiltonian
+magnetic B
+H,
+                                   n                                           n
+                              aH0             aδH               †       aδH       aH0
+G(~x, t + 1; 0, 0) =       1−              1−            U4 (~x, t) 1 −        1−        G(~x, t; 0, 0)
+                               2n              2                         2         2n
+                                                                                                    (3)
+                                             
+                                              0            for t < 0
+                       with G(~x, t; 0, 0) =
+                                              δ~x,0        for t = 0
+
+The tree level value of all the coefficients c1 , c2 , c3 , c4 , c5 , c6 and c7 is 1. Here n is the factor
+introduced to ensure numerical stability at small amb , where n > 3/2mb [24].
+     In NRQCD, the rest mass term does not appear either in the equation (1) or in (2),
+and therefore, hadron masses cannot be determined from their energies at zero momentum
+directly from the exponential fall-off of their correlation functions. Instead, we calculate the
+kinetic mass Mk of heavy-heavy mesons from its energy-momentum relation, which to O(p2 )
+is [27],
+                                                                                  E(0) 2
+                                 q
+               E(p) = E(0) +      p2 + Mk2 − Mk            ⇒    E(p)2 = E(0)2 +       p.              (4)
+                                                                                  Mk
+where Mk is the kinetic mass of the meson which is calculated considering E(p) at different
+values of lattice momenta p~ = 2~nπ/L. The b quark mass is tuned from the spin average of
+kinetic masses of Υ and ηb , and matching them with the experimental spin average value,
+
+                                                     3MΥ + Mηb
+                                            Mbb̄ =                                                    (5)
+                                                         4
+
+The experimental value to which Mbb̄ is tuned to, however, is not 9443 MeV that is obtained
+from spin averaging Υ (9460 MeV) and ηb (9391 MeV) experimental masses, but to an
+
+                                                     4
+                                                                   mod
+appropriately adjusted value of 9450 MeV [28], which we denote as Mphys in the equation
+(6) below. The hadron mass is then obtained from
+                                                nb  mod     ηb 
+                              Mlatt = Elatt +      Mphys − Elatt                            (6)
+                                                2
+where Elatt is the lattice zero momentum energy in MeV, nb is the number of b-quarks in
+the bottom hadron.
+   The u/d light quarks comfortably satisfy the criteria aml ≪ 1 and, therefore, we can use
+a relativistic lattice action. We use HISQ action for the u/d quarks, which is given in [26],
+            X                                                    a2
+              q̄(x) γ µ DµHISQ + m q(x) where, DµHISQ = ∆µ (W ) − (1 + ǫ) ∆3µ (x).
+                                  
+       S=                                                                                   (7)
+            x
+                                                                 6
+
+Because HISQ action reduces O(αs a2 ) discretization error found in Asqtad action, it is well
+suited for u/d (and s) quarks. The parameter ǫ in the coefficient of Naik term can be
+appropriately tuned to use the action for c quarks, which we do not have here. For u/d (and
+s) quarks, the ǫ = 0.
+   HISQ action is diagonal in spin space, and therefore, the corresponding quark propagators
+do not have any spin structure. The full 4 × 4 spin structure is regained by multiplying the
+propagators by Kawamoto-Smit multiplicative phase factor [29],
+                                       4
+                                       Y
+                              Ω(x) =       (γµ )xµ = γ1x1 γ2x2 γ3x3 γ4x4 .                  (8)
+                                       µ=1
+
+
+
+III.   TETRAQUARK OPERATORS
+
+
+   In the present paper, we have considered two kinds of tetraquark operators – the lo-
+cal heavy diquark and light antidiquark and molecular meson-meson. The b quark, being
+nonrelativistic, is expressed in terms of two component field ψh . We convert it into a four
+component spinor Q having vanishing two lower components,
+                                           
+                                            ψh
+                                     Q≡                                                   (9)
+                                            0
+
+which help us to combine b field and relativistic four component light quark fields in the usual
+way. The heavy-light meson operator, that we will make use of in the operator construction,
+is written as
+                                     Ohl (x) = Q̄(x) Γ l(x)                                (10)
+
+                                                5
+where l(x) stands for the light quark fields, Q̄ = Q† γ4 and depending on pseudoscalar and
+vector mesons Γ = γ5 and γi respectively.
+   Because of the vanishing lower components, the states with Q can only be projected
+to the positive parity states. The local double bottom tetraquark operators that we can
+construct for bb¯l1 ¯l2 system are,
+
+                                       l¯1 (x)γi Q(x) l¯2 (x)γ5 Q(x) ,
+                                                                 
+                  OM1 ≡ OB∗ B =                                                           (11)
+                  OM2 ≡ OB∗ B∗ = ǫijk ¯l1 (x)γj Q(x) ¯l2 (x)γk Q(x) ,
+                                                                 
+                                                                                          (12)
+                                        Q (x)Cγi Qb (x) ¯l1a (x)Cγ5 ¯l2b T (x)
+                                       aT                                   
+                   OD ≡ OQ∗ π̃ =                                                          (13)
+
+where l1 6= l2 and l1 , l2 ∈ u, d. The a, b are the color indices. The naming convention above
+is borrowed from reference [16] but the exact construction of the operators is different. In
+literature the operators in (11) and (12) are often referred to as “molecular”. In this work we
+have not included the non-local operators in our GEVP analysis like those in [18], although
+they will admittedly effect the first few excited states.
+   The diquark-antidiquark 1+ four quark state bb¯l1 ¯l2 with l1 6= l2 in (13) can actually be
+defined in two ways [30],
+
+                       OQ∗ π̃ = Qa T Cγi Qb ¯l1a Cγ5 ¯l2b T − ¯l1b Cγ5 ¯l2a T
+                                                                           
+
+                       OQπ̃∗ = Qa T Cγ5 Qb ¯l1a Cγi ¯l2b T + ¯l1b Cγi ¯l2a T
+                                                                           
+                                                                                          (14)
+
+The subscripts Q∗ and π̃ in the operator OQ∗ π̃ are in 3̄c and 3c respectively, while Q and
+π̃ ∗ in the operator OQπ̃∗ are in 6c and 6̄c . But both OQ∗ π̃ and OQπ̃∗ correspond to the 1+
+state. Of these the OQ∗ π̃ is our desired “bound” tetraquark operator because one-gluon-
+exchange interaction is attractive for a heavy quark pair in 3̄c diquark configuration [8]
+and spin dependent attraction exists for light quark pairs in “good diquark” configuration
+characterized by color 3̄c , spin J = 0 and isospin I = 0 or 1/2 [31]. The two terms in
+OQ∗ π̃ contribute identically in the final correlator, hence we consider only the first term in
+the calculation. The generic form of the temporal correlation among the operators at zero
+momentum is,
+                                        X
+                            CXY (t) =         [OX (x, t)] [OY (0, 0)]† ,                  (15)
+                                         x
+
+where X, Y can be any of D, M1 , M2 in equations (11), (12) and (13). For example, the
+explicit forms of the zero momentum correlators, including cross-correlator, when X and Y
+
+                                                 6
+are M1 = B ∗ B and D = Q∗ π̃, are
+                         X     h                              i    h                   i
+          CM1 M1 (t) =       Tr γ5 M1† (x, 0) γ5 γi G(x, 0) γi × Tr M2† (x, 0) G(x, 0)
+                         ~
+                         x
+                             X     h                                                 i
+                         −       Tr G(x, 0) M2† (x, 0) G(x, 0) γi γ5 M1† (x, 0) γ5γi       (16)
+                             ~
+                             x
+                         X        h              T                          i
+                                       ad                      bc
+            CD D (t) =       Tr       G (x, 0)        γi γ4 γ2 G (x, 0)γ4 γ2 γi ×
+                         ~
+                         x
+                                                                   T 
+                                    † da                 † cb
+                                                  
+                        Tr γ4 γ2 M1 (x, 0) γ4γ2 γ5 M2 (x, 0)γ5                             (17)
+                       X h                     da
+                                                                  i
+           CD M1 (t) =  Tr Gad (x, 0) γi γ5 M1† (x, 0) γ5γ2 γ4 γ5   ×
+                                                                             µν
+                         ~
+                         x
+                                                             cb
+                               h                                       i
+                             Tr γ2 γi γ4 Gbc (x, 0) γ5 γ5 M2† (x, 0)γ5                     (18)
+                                                                              µν
+
+Above in the equations (17) and (18), traces and transposes are taken over the spinor indices,
+while in the equation (16) the traces are taken over both the spinor and color indices.
+Here G(x, 0) denotes the heavy quark propagators while the M(x, 0) are the light quark
+                         h         i
+propagators. The term Tr GM2† GM1† appears only in CM1 M1 , CM2 M2 , CM1 M2 and CM2 M1
+correlators. The diquark and the anti-diquark part of OD in (13) do not have free spinor
+                                                h          i
+                                                     †   †
+index and, therefore, we do not have similar Tr GM2 GM1 term in CD D . The remaining
+                                                                              h      i
+correlators CD M1 , CD M2 , CM1 D and CM2 D can not be expressed in compact Tr G M1† ×
+   h       i
+         †
+Tr G, M2 form. In terms of coding, we have to keep in mind that NRQCD and MILC
+library suit use different representation of gamma matrices. Therefore the heavy quark
+propagator G(x, 0) has to be rotated to the MILC basis before implementing the equations
+(16), (17) and (18). The unitary matrix needed to do this transformation is given by [32],
+                                                                  
+                                                    1      σy   σy
+                     S γµMILC S † = γµNR where, S = √             .                  (19)
+                                                     2 −σy σy
+
+
+IV.   NUMERICAL STUDIES
+
+
+   We calculated the double bottom tetraquark spectra using the publicly available Nf =
+2 + 1 Asqtad gauge configurations generated by MILC collaboration. Details about these
+lattices can be found in [33]. It uses Symanzik-improved Lüscher-Weisz action for the gluons
+and Asqtad action [34, 35] for the sea quarks. The lattices we choose have a fixed ratio of
+aml /ams = 1/5 with lattice spacings 0.15 fm, 0.12 fm and 0.09 fm and they correspond to
+
+                                                       7
+the same physical volume. We have not determined the lattice spacings independently but
+use those given in [33]. In the Table I we listed the ensembles used in this work.
+
+TABLE I: MILC Nf = 2 + 1 Asqtad configurations used in this work. The gauge coupling
+      is β and the lattice spacing is a. The u/d and s sea quark masses are ml and ms
+ respectively and the lattice size is L3 × T . The Ncfg is number of configurations used in
+                                           this work.
+
+β = 10/g 2           a(fm)           aml                 ams              L3 × T         Ncfg
+
+  6.572              0.15           0.0097              0.0484            163 × 48        600
+   6.76              0.12           0.0100              0.0500            203 × 64        600
+   7.09              0.09           0.0062              0.0310            283 × 96        300
+
+
+
+
+  A.      Quark mass tuning
+
+
+  For bbūd¯ mass calculation, we need nonperturbative tuning of both mb and mu/d . With
+the help of equation (5), the tuning of mb has been carried out by calculating the spin
+average of Υ and ηb kinetic masses and comparing the same with the spin average and
+suitably adjusted experimental Υ and ηb masses as discussed in section II. The tuned bare
+amb quark masses for lattices used in this work are given in Table II.
+
+      TABLE II: Tuned b and u/d quark bare masses for lattices used in this work. For
+                u/d-quark mass, we mention the particle states used to tune.
+
+                   Tuning                163 × 48                203 × 64            283 × 96
+Quark
+                   hadron               (0.15 fm)                (0.12 fm)           (0.09 fm)
+
+amb                Υ − ηb                    2.76                  2.08                1.20
+amu/d              Λb (5620)                 0.105                0.083               0.064
+amu/d              B (5280)                  0.155                0.118               0.087
+
+
+
+  But the tuning of amu/d is rather tricky. It was found in [32] that the B-meson tuned
+amu/d reproduces the mass of Σb baryon but not that of Λb . Therefore, we tuned amu/d to
+
+                                              8
+two different values depending on the construction of the pairs [ud] and [bu] or [bd]. The
+motivation to do so followed from the observation that substantial mass difference exist
+among singly heavy baryons having same quark content and same J P . For instance, the
+                                        +
+mass differences between the J P = 21       pairs (Λb , Σb [bdu]), (Λc , Σc [cdu]), (Ξb , Ξ′b [bsu]) and
+(Ξc , Ξ′c [csu]) are in the range 110−190 MeV. The Λb , Λc , Ξb and Ξc baryons are characterized
+by the spin of the [l1 l2 ] (where l1,2 ∈ u, d, s) light-light diquark sl = 0 while Σb , Σc , Ξ′b and
+Ξ′c by sl = 1. This differences in their wave functions alone cannot generate such mass
+differences [36] but can at most account for a difference of about 30 MeV. The heavy hadron
+chiral perturbation theory calculations [37, 38] for ΛQ and ΣQ , where Q ∈ b, c, demonstrated
+that the mass differences get large correction of the order ≈ 150 MeV. A correction of similar
+magnitude is anticipated in our NRQCD-HISQ heavy baryon / tetraquark systems, but the
+relevant χPT for which is yet to be available. To include such a correction in our calculations,
+we propose this unique method of tuning the [ūd]  ¯ diquark system to Λb -baryon and [bū] to
+
+B-meson.
+   In the present paper, we try to understand this tuning scheme in more details with the
+help of relativised quark model [39, 40] and Hartree-Fock calculation. The basic idea is that
+amu/d has to be tuned to two different values corresponding to two different constructions
+                ¯ and [bū]. In the operator OD ≡ [bb][ūd],
+of the pairs [ūd]                                       ¯ the anti-diquark part formed with
+
+two light u/d quarks is the same that appear in the baryonic operator Λb ≡ (uT Cγ5 d) b, and
+hence, we use experimental Λb mass 5620 MeV to tune the bare amu/d . For the operators
+OM1 /M2 , the diquark part is formed between heavy quark and light antiquark [bū] which is
+the same as in the B-meson (b̄γ(5,k) u) or Σb ≡ (QT Cγ5 u) u. In such case we tend to use
+B-meson mass 5279 MeV to tune the amu/d .
+   For OD we have exclusively used amu/d tuned from Λb where as for determining the lattice
+tetraquark thresholds B − B ∗ it is B tuned. But OD , OM1 , OM2 all have the same quantum
+numbers and, therefore, expected to mix and contribute to the finite volume lattice “bound”
+states. When looking for such bound states, we will be using Λb tuned amu/d for all the
+operators. However, while searching for purely molecular states, in light of Hartree-Fock
+calculation in section IV B below we entirely omit OD and worked only with the OM1 /M2
+operators using just the B tuning.
+   This differently tuned amu/d gave consistent result in [32] and expect to repeat the same
+in this work. The results of u/d quark mass tuning that are made use of in this work is
+
+                                                 9
+given in the Table II.
+   Before we calculate the spectra of the |Di, |M1 i, |M2 i tetraquark states defined in sub-
+section IV C, in the following subsection IV B we try to understand the diquark dependent
+different tuning of the light u/d quark masses. For this we consider Schrödinger Hamilto-
+nian for (a) hydrogen-like system, namely B meson with an ū antiquark in the potential of
+a static b quark and (b) helium-like system, which is Λb baryon with u, d quarks in the same
+b quark field.
+
+
+   B.   Hartree-Fock calculation of tetraquark states
+
+
+   In order to gain a qualitative understanding of two different tunings of mu/d , we consider
+the light antiquark and light-light diquark in the potential of heavy, nearly static color
+source, the b quark(s). This picture is akin to hydrogen and helium-like quantum mechanical
+systems. For the molecular tetraquark states, the basic assumption is that the light antiquark
+wave functions do not have significant overlap with each other and they are effectively in
+the potential of their respective heavy b quarks [21] i.e. a two B-meson like system. But for
+                                                ¯ where antidiquark component is similar to
+the diquark-antidiquark tetraquark state [bb][ūd]
+the Λb light-light diquark, we tune the u/d quark mass using the Λb baryon. The situation
+is depicted schematically in Figs. 1 and 2. The relevant interpolating operators for Λb and
+B meson are fairly standard but for HISQ light quarks a whole array of bottom baryon
+operators, including Λb can be found in [32].
+
+
+
+
+                                 ū                        d¯
+
+
+                           B− b                     B0 b
+
+
+   FIG. 1: Molecular tetraquark state viewed as bound state of two B mesons, which is
+                 similar to two hydrogen atoms forming a hydrogen molecule.
+
+
+
+
+                                            10
+The relativised quark model [39, 40] helps us to numerically calculate the masses of B meson
+and Λb baryon using the light (anti)quark mass as parameter. The molecular tetraquark
+state can be visualized as two B meson molecule as shown in the Fig. 1. Then for each B
+meson, the light u/d antiquark is taken to be in the field of “static” b quark and we solve
+the problem by considering the radial part of the Schrödinger equation numerically using
+suitably modified Herman-Skillman code [41].
+                                   1 d2 U(r)
+                             −               + V (r)U(r) = EU(r)                                  (20)
+                                 2mu/d dr 2
+Here U(r) = rψ(r) and the potential V (r) is given by
+                                                    4α
+                                       V (r) = −       + βr                                       (21)
+                                                    3r
+The B meson mass MB is, therefore, determined from the energy eigenvalue E,
+
+                                     MB = mb + mu/d + E                                           (22)
+
+where mb = 4.18 GeV (MS) is the mass of the bottom quark, the α = π/16 [22] and β = 0.18
+GeV2 [39]. For MB = 5.279 GeV, the light quark mass obtained is mu/d ≈ 0.227 GeV.
+
+
+
+                         3                                                3
+                     u       d                                       ū       d¯
+
+
+                         b                                           b        b
+                                                                        ¯ 3
+                   Λb                                            [bb][ūd]
+
+
+
+      (a) u/d quarks in Λb baryons form a 3c        (b) Like Λb , two b quarks form a (nearly)
+         diquark in presence of a b quark.           static nucleus surrounded by ū, d¯ cloud.
+
+                                                           ¯ tetraquark state used for
+    FIG. 2: Schematic diagram of helium-like Λb and [bb][ūd]
+                                    Hartree-Fock treatment.
+
+
+
+
+For Λb baryon, we used Hartree-Fock method [42, 43] to solve the helium-like Hamiltonian,
+                             1          2α    βr1     1         2α    βr2
+                  H=−            ∇21 −      +     −       ∇22 −     +
+                           2mu/d        3r1    2    2mu/d       3r2    2
+                              ′     ′
+                           2α     β r12
+                         −      +                                                                 (23)
+                           3r12      2
+
+                                               11
+where r12 is the relative distance between two light quarks “orbiting” the heavy quark and
+their interaction potential is the last two terms in the equation (23) with coefficient α′ and
+β ′ . For the Hartree-Fock calculation of the energy E, we take β ′ = β and α′ = 0.6 [39].
+   To solve the Hamiltonian (23), we consider the trial wave function, which is space-
+symmetric and spin-antisymmetric, in terms of Slater determinant
+
+                                                       1 χ1 (x1 ) χ1 (x2 )
+                                                 ΨHF = √                     ,                                               (24)
+                                                         2 χ2 (x1 ) χ2 (x2 )
+
+where xi ≡ (~r, s) collectively denotes the space and spin indices, χi (~r, s) = φi s (~r) S(s) with
+φ(~r) being the 1S state. Therefore, the expectation value of the the Hamiltonian can be
+written as
+                                                                              Z′         ρ(~r)ρ(~r1 )
+                                                   Z                                ZZ
+                  HF          HF
+             hΨ        |H|Ψ         i = hT i +          ρ(~r) Vext (~r) d~r −                            d~r d~r1
+                                                                              2            |~r − ~r1 |
+                                           B′
+                                              ZZ
+                                        +           ρ(~r) ρ(~r1 ) |~r − ~r1 | d~r d~r1
+                                            2
+                                                    ZZ ⋆
+                                           Z′ X          φi s (~r) φ⋆j s (~r1 ) φi s (~r1 ) φj s (~r)
+                                        +                                                              d~r d~r1
+                                            2 i,j,s                      |~r − ~r1 |
+                                           B′ X
+                                                    ZZ
+                                        −                φ⋆is (~r) φ⋆j s (~r1 ) φi s (~r1 ) φj s (~r) |~r − ~r1 | d~r d~r1   (25)
+                                            2 i,j,s
+
+where, we have used
+                                                X                                           
+                                                                       1
+                                      hT i =             φi s (~r) −       ∇2 φi s (~r)
+                                                 i,s
+                                                                     2mu/d
+                                                X                                        2α βr
+                                     ρ(~r) =           |φi s (~r)|2 ,   Vext (~r) = −       +
+                                                 i,s
+                                                                                         3r   2
+                                                2α′          β′
+                                        Z′ =        and B ′ = .
+                                                 3           2
+In contrast to the helium atom, the presence of linear r-terms in the Hamiltonian leads
+to additional exchange-energy terms in the calculation. With these linear r-terms in, the
+Hartree-Fock equation becomes
+                                                                                                         
+                     1                                     ρ(~r1 )
+                                                     Z                          Z
+                         2                         ′                          ′
+  E φi s (~r) = −       ∇ + Vext (~r) − Z                            d~r1 + B     ρ(~r1 ) |~r − ~r1 | d~r1 φi s (~r)
+                  2mu/d                                  |~r − ~r1 |
+                     XZ
+               −B  ′
+                          φ⋆j s (~r1 ) φi s (~r1 ) φj s (~r) |~r − ~r1 | d~r1
+                              j,s
+                        X Z φ⋆j s (~r1 ) φi s (~r1 ) φj s (~r)
+                      ′
+                   +Z                                          d~r1                                                          (26)
+                        j,s
+                                        |~
+                                         r −   ~r 1 |
+
+                                                                   12
+We solve for E in equation (26) iteratively and, eventually, the Λb mass is calculated from
+
+                                      MΛb = mb + 2mu/d + E                                     (27)
+
+The PDG value of Λb (5620) is obtained by setting the mu/d to 0.157 GeV. In Table III, we
+
+     TABLE III: Comparison of mu/d obtained from various lattices with quark mass
+                             parameters in the equations (20) and (26).
+
+                      B meson: mu/d = 227 MeV                     Λb baryon: mu/d = 157 MeV
+ Lattice
+                   amu/d              mu/d (MeV)              amu/d               mu/d (MeV)
+
+163 × 48           0.155                  204                 0.105                   138
+203 × 64           0.118                  194                 0.083                   137
+283 × 96           0.087                  191                 0.064                   143
+
+
+compare the nonperturbatively tuned mu/d on our lattices with those obtained by solving the
+equations (20) and (26). The bare lattice light quark masses cannot be directly compared
+to the parameter mu/d in these equations mainly because of the use of renormalized b quark
+mass (in MS scheme) in the Hartree-Fock calculation. Therefore, the mu/d ’s in the above
+calculation return a sort of “renormalized constituent” quark mass. Nonetheless it is obvious
+that we need two different mu/d for two different systems, namely B and Λb . So by comparing
+the two sets, we simply wish to point out that the lattice tuned mu/d ’s are in same order of
+magnitude as Schrödinger equation based quark model but have a difference of 10 – 15%.
+This helps us to understand the possible physics behind two different tunings of light quark
+mass in determining the masses of single bottom hadron(s) and double bottom tetraquark.
+
+
+   C.      bbūd¯ spectrum
+
+
+   A plot of variation of bbūd¯ mass with various amu/d , including the Λb and B tuned values
+is shown in Fig. 3. Here we make a naive comparison of our data with the earlier quark
+model, lattice calculations and the PDG values, and it shows an interesting trend.
+   Firstly, PDG Zb , Zb′ and the lattice states, consisting of [bb]/[b̄b̄] heavy tetraquark systems,
+are clustered around two different masses. Our data at B-meson tuning point coincides with
+the PDG Zb (10610) and Zb′ (10650) states aligning with the idea that they decay mostly
+
+                                                13
+into B̄B ∗ and B̄ ∗ B ∗ respectively, possibly indicating molecular nature of the state. However,
+our tetraquark state with Λb tuning overlaps mostly with other lattice results indicating the
+possibility of capturing a bound tetraquark state [bb][l¯1 l¯2 ] much like the b[ll] state of Λb . The
+effective masses of the states, obtained from OD and OM1 , when compared with the B − B ∗
+threshold, we find |Di to exhibit a shallow bound state while |M1 i is just marginally above.
+The majority of the lattice results [15–18] are found to be below this threshold as is obvious
+from the Fig. 3.
+
+
+
+
+                                  11500
+                                                           ¯ this work
+                                                    [bb][ūd]
+                                                           ¯ this work
+                                                    [bū][bd]
+                                                     PDG Zb′
+                                                     PDG Zb
+                                  11000             Ei hten et al.
+                                                    Leskove et al.
+                                                    Junnarkar et al.
+
+                    Mass in MeV
+                                                    Fran is et al.
+                                                    Karliner et al.
+                                  10500
+
+
+
+
+                                  10000
+
+
+
+
+                                              D0          ηs         Λb        B0         Bs0
+                                   9500
+                                          0        0.05        0.1          0.15    0.2         0.25
+
+                                                                     a mq
+
+ FIG. 3: Variation of bbūd¯ mass at various amu/d in 163 × 48 lattice. Λb -tuned tetraquark
+   states almost overlap with many of the quark model and lattice calculations, namely
+    Eichten et al. [8], Leskovec at al. [18], Junnarkar et al. [17], Francis et al. [15, 16],
+  Karliner at al. [44]. The B-tuned states instead coincide with Zb , Zb′ PDG results [45].
+
+
+
+
+                                                               14
+                               2.8
+                                                                          Λb
+                                                                163 × 48 OD
+                               2.6
+                                                                163 × 48 OM
+                                                                          B
+                                                                            1
+                                                                  3       Λb
+                               2.4                              20 × 64 OD
+
+
+
+
+        Ee tive mass a meff
+                               2.2
+                                                                203 × 64 OM
+                                                                          B
+                                                                            1
+                                                                  3       Λb
+                                                                28 × 96 OD
+                               2.0
+                                                                283 × 96 OM
+                                                                          B
+                                                                            1
+
+                               1.8
+
+
+                               1.6
+
+
+                               1.4
+
+
+                               1.2
+
+
+                               1.0
+                                     0   10   20           30           40      50
+
+                                                   t0 −→
+
+FIG. 4: Effective mass plot of the states of the operators OD and OM1 calculated on 163 ×48,
+203 × 64 and 283 × 96 lattices. Dashed lines are B − B ∗ thresholds for different lattices, see
+Table IV. For easy viewing, the effective masses and thresholds on 203 × 64 (purple colored)
+are multiplied by a common factor of 0.85, while that of 283 × 96 (green colored) by 0.70.
+
+
+
+
+   To this end, in Fig. 4 we plot the effective masses of these two states obtained at different
+lattice spacings. The colored bands represent fitted ameff values. The superscripts Λb and B
+denote the light quark tuning. The dotted lines represent the lattice thresholds. The lattice
+threshold is defined as MB + MB∗ of the non-interacting B − B ∗ system and consequently
+constructed entirely from B-meson tuned amu/d and Υ − ηb tuned mb . We want to mention
+here in passing that on two occasions we used Λb tuning for operators OM1 /M2 – (i) to choose
+t0 for GEVP analysis and (ii) to determine relative contribution to the bound tetraquark
+ground state.
+   In the Table IV, we present our results of the tetraquark states corresponding to the
+                                                                       †
+operators given in the expressions (11, 12, 13). We call these states OX |Ωi ≡ |Xi as trial
+states, which will later be subjected to variational analysis. The |Ωi is the vacuum state.
+We use two-exponential uncorrelated fit to the correlation functions, the fitting range being
+chosen by looking at the positions of what we consider plateau in the effective mass plots. In
+the columns showing various lattices, we present the masses both in lattice unit a Elatt and
+
+                                                       15
+physical unit Mlatt in MeV, the notations being introduced in equation (6). The errors quoted
+are statistical, calculated assuming the lattice configurations of different lattice spacings are
+statistically uncorrelated. The second column shows the tuning used for the corresponding
+states. In the last column we provide the masses averaged over all the lattice ensembles.
+
+TABLE IV: Masses of tetraquark states for different amu/d tuning in lattice unit aElatt and
+Mlatt in MeV. We also include the B and B ∗ states that are used for threshold calculation.
+
+                                       163 × 48               203 × 64          283 × 96     Average
+Operators                Tuning
+                                   aElatt     Mlatt        aElatt   Mlatt   aElatt   Mlatt   (MeV)
+            ¯
+OD = [bb][ūd]            Λb      1.944(5) 10418(7) 1.852(3) 10422(5) 1.803(5) 10407(11) 10417(9)
+             ¯
+OM1 = [bū][bd]            B      2.133(7) 10667(10) 1.977(4) 10628(5) 1.892(6) 10602(13) 10638(27)
+                    ¯k
+OM2 = ǫijk [bū]j [bd]     B      2.124(7) 10655(8) 1.974(4) 10623(5) 1.890(5) 10560(10) 10623(35)
+OB = b γ5 ū               B      1.022(3) 5274(4) 0.974(3) 5290(3) 0.931(3) 5268(3)         5279(10)
+OB ∗ = b γk ū            B∗      1.032(3) 5288(4) 0.980(3) 5300(4) 0.938(2) 5284(3)         5292(8)
+
+MB + MB ∗                         2.054(3) 10562(4) 1.954(3) 10590(5) 1.869(3) 10552(4)
+
+
+
+   From the Fig. 4 and Table IV it is clear that the trial state generated by our OD operator
+is below B − B ∗ threshold which possibly indicates a bound state. On the other hand, the
+states for OM1 and OM2 are just above it. We tabulate the difference of the masses from
+their respective thresholds ∆MD/M1 /M2 = MD/M1 /M2 − MB − MB∗ in the Table V. In this
+table, we calculated the following correlator ratio to determine the mass differences which
+gives us an estimate of the binding energy [46],
+
+                                                 CX (t)
+                         CX−B−B∗ (t) =                       ∼ e−(MX −MB −MB∗ ) t                (28)
+                                            CB (t) × CB∗ (t)
+
+It has been observed [47] that the expression (28) used to determine ∆MX can possi-
+bly lead to false plateaus because of B − B ⋆ scattering states contributing differently in
+|Di, |M1 i, |M2 i excited states which might persist at large t. In the present analysis, we
+have assumed these contributions are of same order of magnitude and cancel each other at
+moderately large t.
+In the last column of Table V, we calculate our lattice average of ∆MX in MeV and compare
+with some of the previous lattice results. To our knowledge, the binding energies of the |M1 i
+
+                                                      16
+TABLE V: Mass differences of “bound” |Di and “molecular” |M1 i, |M2 i trial states from
+     B − B ∗ threshold. The subscript X denotes any of the D, M1 , M2 . The ∆MX are
+                calculated from the masses and threshold given in Table IV.
+
+
+Operators          Lattices            a ∆MX            ∆MX (MeV)             ∆MX (MeV)
+
+                   163 × 48         −0.125(12)            −164(16)            −167(19) this work
+OD                 203 × 64         −0.108(10)            −177(16)            −215(12) [44]
+                   283 × 96         −0.070(10)            −155(22)            −189(10) [15]
+                                                                              −143(34) [17]
+                                                                              −128(34) [18]
+
+                   163 × 48            0.070(12)           92(16)             65(29) this work
+OM1                203 × 64            0.026(11)           43(18)             see Table VI [18]
+                   283 × 96            0.024(9)            53(20)
+
+                   163 × 48            0.070(16)           92(21)             63(30) this work
+OM2                203 × 64            0.022(9)            36(20)
+                   283 × 96            0.020(10)           44(21)
+
+
+
+and |M2 i states have been calculated in the framework of chiral quark model [48] for B − B̄ ∗
+and B ∗ − B̄ ∗ states but there are no lattice results. The binding energies for the first excited
+states, along with the ground states, obtained on different lattice ensembles are given in
+[18]. Though their tuning of light quark mass is very different compared to ours, still we
+can use their result as a reference.
+
+   Our binding energy for the bound tetraquark state |Di ([bb][ū ¯
+                                                                 d]) lies somewhere in the
+middle of the previously quoted lattice results. The statistical errors of the molecular states
+|M1 i and |M2 i are rather large but still they tentatively indicate non-bound molecular nature
+of the states. We will revisit the binding energy calculation for the molecular state(s) after
+variational analysis of the OM1 × OM2 correlation matrix.
+
+   As we know, on lattice the states having the same quantum numbers can mix and,
+therefore, a GEVP analysis can help resolve the issue of mutual overlap of various states
+on the energy eigenstates. In this work, rather than the energies of the eigenstates, we are
+more interested to learn the overlap of our trial states, namely |Di, |M1 i and |M2 i on the
+
+                                                   17
+first few energy eigenstates, where |0i is the ground and |1i, |2i etc. are the excited states.
+
+
+   D.    Variational analysis
+
+
+   For the 2-bottom tetraquark system with quantum number 1+ , we consider the three
+local operators – “good” diquark OD , molecular OM1 and vector meson kind OM2 as defined
+above in the expressions (11 – 13) – to capture the ground state (|0i, E0 ) and possibly the
+first excited state (|1i, E1 ).
+   As is generally understood, these operators are expected to have overlap with the desired
+ground and excited states of the tetraquark system of our interest. The variational analysis
+can be performed to determine the eigenvalues and the eigenvectors from the states formed
+by lattice operators. This is typically achieved by constructing a correlation matrix involving
+the lattice operators OX and OY ,
+                            D              E X∞
+                   CXY (t) = OX (t) OY† (0) =   hΩ|OX |nihn|OY† |Ωi e−En t                (29)
+                                                          n=0
+
+where X, Y can be any two combinations of D, M1 , M2 in the expressions (11 – 13). The
+          †                                                            †
+terms hn|OX |Ωi are the coefficients of expansion of the trial states OX |Ωi, written in terms
+of the energy eigenstates |ni as,
+
+                                †
+                                            X           †
+                                                                    X
+                                                                           n
+                               OX |Ωi =          |nihn|OX |Ωi ≡           ZX |ni          (30)
+                                             n                        n
+
+Presently, we are interested in expressing the energy eigenstates in terms of the trial states
+to understand the contribution of each to the former. If we confine ourselves to the first few
+energy eigenstates, we can write
+                               X          †
+                                                                           X
+                                       X                                           X  l
+                       |mi =          vm OX |Ωi ⇒ hl|mi = δlm ≈                   vm ZX   (31)
+                                  X                                         X
+
+     X
+The vm are equivalent to the eigenvector components obtained by solving GEVP w.r.t a
+suitably chosen reference time t0 [12],
+
+                                  C(t) vm (t, t0 ) = λm (t) C(t0 ) vm (t, t0 ).           (32)
+
+The eigenvalues λm (t) are directly related to the energy of the m-th state, i.e. ground and
+the first few excited states, of our system through the relation
+
+                                           λm (t) = Am e−Em (t−t0 )                       (33)
+
+                                                     18
+The component of eigenvectors vm (t, t0 ) gives information about the relative overlap of the
+three local operators to the m-th eigenstate. The eigenvectors vm ’s are normalized to 1.
+
+
+
+                                      3   5          7   9          3   5          7   9
+
+
+                              2.20   E0         OM1 × OM2         E1          OM1 × OM2
+
+         E                    2.00
+
+
+
+
+         Energy eigenstates
+                              2.20   E0         OD × OM1          E1          OD × OM1
+
+                              2.00
+
+
+
+
+                              2.20   E0         OD × OM2          E1          OD × OM2
+
+                              2.00
+
+
+
+
+                                              t0 →       163 × 48           t0 →
+                                                         203 × 64
+                                                         283 × 96
+
+
+FIG. 5: Variation of ground and excited state energies Em of the equation (33) with t0 ,
+obtained by solving 2 × 2 GEVP of the correlation matrices OM1 × OM2 , OD × OM1 and
+OD × OM2 . In this plot we used Λb -tuned amu/d for all the operators.
+
+
+
+
+   To determine the parameter t0 , we solve the GEVP and found that the ground and excited
+state energies are almost independent for t0 = 3, 5, 7, 9 as demonstrated in the Fig. 5. In
+this plot, we showed our results for Λb -tuned amu/d for all the operators OX . As discussed
+before, we have used the Λb tuning whenever all three OD , OM1 , OM2 operators are made
+use of. We chose t0 = 5 for our calculations. To cross-check our choice of t0 , we also have B
+tuned runs and found it to be consistent.
+   The GEVP analysis has been carried out in two steps because of differences in the tuning
+of amu/d for the “molecular” states |M1 i, |M2 i and “good” diquark state |Di. In the first
+step, we will do a GEVP with the B-tuned molecular operators and determine the difference
+of its lowest energy state from the threshold, as these states are found to coincide with
+experimentally observed states. In the next step, we have done the GEVP analysis with all
+three operators using Λb tuning to understand the state(s) below the threshold.
+
+                                                             19
+    TABLE VI: Energy eigenvalues in lattice unit from GEVP analysis of the B-tuned
+                        OM1 × OM2 and Λb -tuned OD × OM1 × OM2 .
+
+Correlation matrix        Tuning             Energy            163 × 48         203 × 64      283 × 96
+
+                                               E0              2.063(10)       1.959(12)      1.888(7)
+   OM1 × OM2              B meson
+                                               E1              2.071(10)       1.969(20)      1.906(18)
+
+                                               E0              1.898(7)         1.846(5)      1.784(12)
+OD × OM1 × OM2           Λb baryon             E1              1.905(10)        1.851(7)      1.816(8)
+                                               E2              1.917(18)       1.856(15)      1.820(22)
+
+
+   In the Table VI we have shown our GEVP results of B-tuned OM1 × OM2 and the Λb -
+tuned OD × OM1 × OM2 correlation matrices. The energy eigenstates E0,1,2 correspond to
+the Em of the expression (33). In the Table VII, we calculated the energy difference of the
+eigenstates |0i, |1i etc. from their corresponding thresholds. We often find the energies of
+the highest states are very noisy and consequently the seperation from the thresholds ∆E
+have large errors, hence their entries are kept vacant. We can only reliably quote the lowest
+for 2 × 2, and first two lowest energies for 3 × 3 correlator matrices.
+
+ TABLE VII: Energy differences from the B − B ∗ threshold of the GEVP values of Table
+  VI for the OM1 × OM2 and Λb -tuned OD × OM1 × OM2 correlation matrices. Threshold
+                                 values are taken from Table IV.
+
+ Lattice     Unit     Threshold        OM1 × OM2                             OD × OM1 × OM2
+                                      ∆E0            ∆E1            ∆E0           ∆E1          ∆E2
+
+163 × 48    lattice   2.054(3)      0.010(7)        0.016(6)    −0.154(10)     −0.149(15)   −0.137(23)
+(0.15 fm)   MeV        10562         13(9)           21(8)       −202(13)       −196(20)         –
+
+203 × 64    lattice   1.954(3)      0.010(9)           –         −0.110(9)     −0.104(10)   −0.099(19)
+(0.12 fm)   MeV        10590         16(15)            –         −181(15)       −173(17)         –
+
+283 × 96    lattice   1.869(3)     0.012(10)           –        −0.085(10)     −0.053(10)        –
+(0.09 fm)   MeV        10552         26(22)            –         −186(22)       −117(22)         –
+
+
+
+   Next we look at the contribution of OM1 and OM2 in constructing the lowest molecular
+
+                                                20
+energy eigenstate |0i. In the Fig. 6, we plot the histogram of the components of normalized
+eigenvectors v0 = (v0M1 , v0M2 ) corresponding to the lowest energy E0 for all three lattices.
+Assuming that the coefficients v0M1 , M2 approximately remain the same on all time slices and
+for all the individual gauge configurations of an ensemble, the histogram figures are obtained
+by plotting the M1 , M2 components of normalized eigenvector v0 for all time points and
+individual gauge configurations. As is expected, all three lattices return identical histogram
+of the coefficients and hence, in the subsequent histogram plots we will show only the results
+from 283 ×96. The eigenvector component v0M1 shows a peak around 0.9 indicating the lowest
+energy state |0i receives dominant contribution from |M1 i trial state. We recall here that
+OM1 corresponds to the B − B ∗ molecular state as defined in the equation (11).
+
+
+
+
+   However, the first excitation |1i, for which our data is rather noisy to reliably estimate
+∆E, the |M1 i and |M2 i states appear to have comparable contribution and are broadly
+distributed over different time slices and vary significantly over configurations. This is
+evident from the histogram plot in the Fig. 7. This may have a bearing with the fact that
+above the threshold, the Zb tetraquark can couple to multiple decay channels resulting in a
+broad spectrum.
+
+
+
+   Including OD along with the OM1 and OM2 to form a 3 × 3 correlation matrix requires
+using Λb tuned amu/d in all three trial states. When we are exploring pure molecular states,
+we have used just OM1 × OM2 correlation matrix with B tuning. But for the bound state(s)
+the OM1 and OM2 operators are likely to have contributions to the bound ground state along
+with the OD . Certainly, a B-tuned bound |Di state above threshold is not well-defined and
+we find it has statistically small and varying overlap with the energy eigenstates much like
+in Fig. 7. On the other hand, Λb tuned molecular states can possibly have finite overlap to
+the states below the threshold. However, we always expect dominance of |Di in |0i because
+of the difference in construction of wave functions of the |M1 i and |M2 i.
+
+
+
+The histogram of the eigenvector components of 3 × 3 correlation matrix are shown in the
+Fig. 8 for the 283 × 96 lattices. The lowest energy eigenstate |0i is clearly dominated by
+
+                                            21
+                              |0i, E0 = 2.063 (10) (163 × 48)
+                  1500
+
+
+                   500
+                              v0M1 −→
+
+
+                  1500
+
+
+                   500
+                              v0M2 −→
+
+                     0.0          0.2          0.4           0.6     0.8      1.0
+
+                                                       v0X
+
+                              |0i, E0 = 1.959 (12) (203 × 64)
+                  1500
+
+
+                   500
+                              v0M1 −→
+
+
+                  1500
+
+
+                   500
+                              v0M2 −→
+
+                     0.0          0.2          0.4           0.6     0.8      1.0
+
+                                                       v0X
+
+                               |0i, E0 = 1.888 (7) (283 × 96)
+                  1500
+
+
+                   500
+                              v0M1 −→
+
+
+                  1500
+
+
+                   500
+                              v0M2 −→
+
+                     0.0          0.2          0.4           0.6     0.8      1.0
+
+                                                       v0X
+ FIG. 6: The histogram plots of the normalized components (v0M1 , v0M2 ) which define the
+                           energy eigenstate |0i = v0M1 |M1 i + v0M2 |M2 i.
+
+
+|Di showing peak around 0.8, although it receives sizeable overlap from both |M1 i and |M2 i
+peaking around 0.45. But overlap of |Di on |1i is rather small and it is mostly molecular
+|M1 i despite the excited state energy E1 is below the threshold. Our data for |2i is too noisy
+to extract much information. Based on this Λb tuned 3 × 3 GEVP analysis, the binding
+energy for the ground state obtained is −189 (18) MeV.
+
+
+V.     SUMMARY
+
+
+     In this work we have attempted to study two possible bbūd¯ tetraquark states – one which
+is bound and where most other lattice results are centered and, the other close to where
+
+                                                  22
+                             |1i, E1 = 1.906 (5) (283 × 96)
+                1500
+
+
+                 500
+                             v1M1 −→
+
+
+                1500
+
+
+                 500
+                             v1M2 −→
+
+                    0.0         0.2          0.4           0.6      0.8      1.0
+
+                                                     v1X
+
+
+       FIG. 7: The histogram plot of v1M1 and v1M2 that define the energy eigenstate
+                                   |1i = v1M1 |M1 i + v1M2 |M2 i.
+
+
+PDG reports of Zb and Zb′ are. The experimentally observed states are believed to contain
+a bb̄ pair but ours is bb pair which is considered as theoretically simpler. However, the
+possible molecular nature of Zb and Zb′ suggests that our molecular states can have similar
+masses. For the bottom quarks we have used NRQCD action while HISQ action for the
+u/d quarks. This NRQCD-HISQ combination has been employed earlier in [28] for bottom
+meson and recently in [32] for bottom baryons. We have constructed the three lattice 1+
+trial states: a bound |Di containing “good diquark” 3c configuration and two meson-meson
+molecular |M1 i, |M2 i with the expectation that they will contribute to the states above
+B − B ∗ threshold. There are not many lattice results on the states above threshold possibly
+because of the complication that they can couple to multiple decay channels besides B ∗ B̄
+and B ∗ B̄ ∗ . Our motivation here is to obtain a tentative estimate of the |M1 i, |M2 i states
+above threshold and their relative overlap with the bound state below the threshold.
+   An important component of the present investigation is the tuning of the light u/d quark
+mass. Depending on the wave function of the operators we need two different tuning of the
+u/d mass. For the operators made of heavy-light [b¯l] mesonic wave functions we find it is
+necessary to tune aml to match b¯l meson observed mass. Similarly, for light-light diquark
+[l1 l2 ], where l1 and l2 may or may not be equal, in presence of one or more heavy b quarks the
+amli is tuned with Λb . We applied this approach with fair success in bottom baryon [32] and
+presently with double bottom tetraquark we attempted the same. In order to understand
+and explain these two different tuning, we solve the quantum mechanical Hamiltonians of
+B-meson system, where a single light antiquark is in the potential of a static bottom quark,
+
+                                                23
+                             |0i, E0 = 1.784 (12) (283 × 96)
+                   1500
+
+
+                    500
+                             v0D −→
+
+
+                   1500
+
+
+                    500
+                             v0M1 −→
+
+
+                   1500
+
+
+                    500
+                             v0M2 −→
+
+                      0.0       0.2          0.4           0.6   0.8   1.0
+
+                                                     v0X
+
+                             |1i, λ1 = 1.816 (8) (283 × 96)
+                   1500
+
+
+                    500
+                             v1D −→
+
+
+                   1500
+
+
+                    500
+                             v1M1 −→
+
+
+                   1500
+
+
+                    500
+                             v1M1 −→
+
+                      0.0       0.2          0.4           0.6   0.8   1.0
+
+                                                     v0X
+
+                             |2i, λ2 = 1.820 (22) (283 × 96)
+                   1500
+
+
+                    500
+                             v0D −→
+
+
+                   1500
+
+
+                    500
+                             v0M1 −→
+
+
+                   1500
+
+
+                    500
+                             v0M1 −→
+
+                      0.0       0.2          0.4           0.6   0.8   1.0
+
+                                                     v0X
+FIG. 8: Histogram plots of the normalized eigenvector components v0X , v1X and v2X of 3 × 3
+              correlation matrix, where X = D, M1 , M2 , on 283 × 96 lattice.
+
+
+
+and the Λb -baryon system, where the two light quarks are in the same field of the static b
+quark. In this problem b mass is the experimental mass and the light quark mass is treated
+as a parameter which is tuned to reproduce the experimental B and Λb masses. We find that
+the meson and baryon systems are solved for two different light quark masses which justifies
+our need for two different tunings. However, the actual numbers from these two sets of light
+
+                                                24
+quark masses, one from solving the Schrödinger equation and the other lattice tuned, cannot
+be compared directly due to two different b masses used in these two instances.
+   Once tuned, we find the spectra of the lattice states |Di, |M1 i and |M2 i. Naive calcula-
+             †
+tion of hOD OD i spectrum yields a bound state −167 (19) MeV measured from the B − B ∗
+threshold. On lattice, states having the same quantum numbers can mix and, therefore, it is
+natural to construct correlation matrices to solve the generalized eigenvalue problem in order
+to obtain the first few lowest lying energies. Besides, the components of the eigenvectors
+provide the relative contribution of the trial states, corresponding to the lattice operators,
+to the energy eigenstates. They are the coefficient of expansion of the eigenstates when
+expressed in terms of trial states as shown in the equation (31). The GEVP analysis reveals
+that tetraquark molecular state just above the threshold by only 17(14) MeV is dominated
+by |M1 i lattice state while the lowest lying bound state receives dominant contribution from
+|Di along with significantly large contribution from both |M1 i and |M2 i. From 3 × 3 Λb
+tuned correlation matrix, we get our final binding energy number for bbūd¯ tetraquark system
+to be −189 (18) MeV, where the error is statistical.
+
+
+VI.    ACKNOWLEDGEMENT
+
+
+   The numerical part of this work, involving generation of heavy quark propagators, has
+been performed at HPC facility in “Kalinga” cluster at NISER funded by Dept. of Atomic
+Energy (DAE), Govt. of India. The construction of the correlators and other analysis part
+of this paper has been carried out in the “Proton” cluster funded by DST-SERB project
+number SR/S2/HEP-0025/2010. The authors acknowledge useful discussions with Rabeet
+Singh (Banaras Hindu University, India) on Hartree-Fock calculation. One of the authors
+(PM) thanks DAE for financial support.
+
+
+   REFERENCES
+
+
+
+
+ [1] A.E. Bondar, A. Garmash, A.I. Milstein, R. Mizuk and M.B. Voloshin, Phys. Rev. D 84,
+      054010 (2011).
+
+                                            25
+ [2] A. Bondar et al. (Belle Collaboration), Phys. Rev. Lett. 108, 122001 (2012).
+ [3] R. Aaij et al. (LHCb Collaboration), Phys. Rev. Lett 112, 222002 (2014).
+ [4] R.F. Lebed, R.E. Mitchell and E.S. Swanson, Prog. Part. Nucl. Phys. 93, 143 (2017).
+ [5] A. Esposito, A. Pilloni and A.D. Polosa, Phys. Rep. 668, 1 (2017).
+ [6] S.L. Olsen, T. Skwarnicki and D. Zieminska, Rev. Mod. Phys. 90, 015003 (2018).
+ [7] A.V. Manohar and M.B. Wise, Nucl. Phys. B399, 17 (1993).
+ [8] E.J. Eichten and C. Quigg, Phys. Rev. Lett. 119, 202002 (2017).
+ [9] Y. Ikeda, B. Charron, S. Aoki, T. Doi, T. Hatsuda, T. Inoue, N. Ishii, K. Murano, H. Nemura
+    and K. Sasaki, Phys. Lett. B729, 85 (2014).
+[10] Marc Wagner et al. 2014 J. Phys.: Conf. Ser. 503, 012031.
+[11] M. Padmanath, C.B. Lang and S. Prelovsek, Phys. Rev. D 92, 034501 (2015).
+[12] C. Alexandrou, J. Berlin, J. Finkenrath, T. Leontiou and M. Wagner, Phys. Rev. D 101,
+    034502 (2020).
+[13] S. Prelovsek, H. Bahtiyar and J. Petkovic, Phys. Lett. B 805 (2020) 135467.
+[14] C. Hughes, E. Eichten and C.T.H. Davies, Phys. Rev. D 97, 054505 (2018).
+[15] A. Francis, R.J. Hudspith, R. Lewis and K. Maltman, Phys. Rev. Lett. 118, 142001 (2017)
+[16] A. Francis, R.J. Hudspith, R. Lewis and K. Maltman, Phys. Rev. D 99, 054505 (2019).
+[17] P. Junnarkar, N. Mathur and M. Padmanath, Phys. Rev. D 99, 034507 (2019).
+[18] L. Leskovec, S. Meinel, M. Pflaumer and M. Wagner, Phys. Rev. D 100, 014503 (2019).
+[19] J. P. Ader, J. M. Richard, P. Taxil, Phys. Rev. D 25, 2370 (1982).
+[20] P. Bicudo, and M. Wagner, Phys. Rev. D 87, 114511 (2013).
+[21] P. Bicudo, K. Cichy, A. Peters, B. Wagenbach and M. Wagner, Phys. Rev. D 92, 014507
+    (2015).
+[22] P. Bicudo, J. Scheunert and M. Wagner, Phys. Rev. D 95, 034502, (2017).
+[23] P. Bicudo, M. Cardoso, A. Peters, M. Pflaumer and M. Wagner, Phys. Rev. D 96, 054510
+    (2017).
+[24] B.A. Thacker and G.P. Lepage, Phys. Rev. D 43, 196 (1991).
+[25] G.P. Lepage, L. Magnea, C. Nakhleh, U. Magnea and K. Hornbostel, Phys. Rev. D 46, 4052
+    (1992).
+[26] E. Follana, Q. Mason, C. Davies, K. Hornbostel, G.P. Lepage, J. Shigemitsu, H. Trottier and
+    K. Wong, Phys. Rev. D 75, 054502 (2007).
+
+
+                                              26
+[27] A.X. El-Khadra, A.S. Kronfeld and P.B. Mackenzie, Phys. Rev. D 55, 3933 (1997).
+[28] E.B. Gregory et al. (HPQCD Collaboration), Phys. Rev. D 83, 014506 (2011).
+[29] N. Kawamoto and J. Smit, Nucl. Phys. B 192, 100 (1981).
+[30] J. Jiang, W. Chen and S. Zhu, Phys. Rev. D 96, 094022 (2017).
+[31] R.L. Jaffe, Phys. Rep. 409, 1 (2005).
+[32] P. Mohanta and S. Basak, Phys. Rev. D 101, 094503 (2020).
+[33] A. Bazavov et al., Rev. Mod. Phys. 82, 1349 (2010).
+[34] K. Orginos and D. Toussaint (MILC), Phys. Rev. D 59, 014501 (1998).
+[35] K. Orginos, D. Toussaint, and R. L. Sugar (MILC), Phys. Rev. D 60, 054503 (1999).
+[36] K. C. Bowler et al., (UKQCD Collaboration), Phys. Rev. D 54, 3619 (1996).
+[37] B.C. Tiburzi, Phys. Rev. D 71, 034501 (2005).
+[38] Z.S. Brown, W. Detmold, S. Meinel, and K. Orginos, Phys. Rev. D90, 094507 (2014).
+[39] S. Godfrey and N. Isgur, Phys. Rev. D 32, 189 (1985).
+[40] S. Capstick and N. Isgur, Phys. Rev. D 34, 2809 (1986).
+[41] folk.uib.no/nfylk/Hartree/lindex.html
+[42] D. R. Hartree and W. Hartree, Proc. R. Soc. Lond. A150: 9–33, (1935).
+[43] V. Fock, Z. Physik 61, 126–148 (1930).
+[44] Marek Karliner and Jonathan L. Rosner, Phys. Rev. Lett. 119, 202001 (2017)
+[45] M. Tanabashi et al. (Particle Data Group), Phys. Rev. D98, 030001 (2018) and 2019 update.
+[46] S.R. Beane, K. Orginos, and M.J. Savage, Phys. Lett. B 654, 20 (2007).
+[47] T. Iritani et al. (HAL QCD Collaboration), JHEP 1610 (2016) 101.
+[48] G. Yang, J. Ping, and J. Segovia, Phys. Rev. D 101, 014001 (2020)
+
+
+
+
+                                              27
+

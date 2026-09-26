@@ -1,0 +1,134 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ T ∗cs0 (2870)0                                       I (J P ) = ?(0+ )
+
+OMITTED FROM SUMMARY TABLE
+was X0 (2900)
+        An exotic state with minimal quark content c d s u. Observed by
+        AAIJ 20AI using full amplitude analysis of B + → D + D − K + de-
+        cays.
+
+                                      T ∗cs0 (2870)0 MASS
+
+VALUE (MeV)                 EVTS           DOCUMENT ID               TECN      COMMENT
+2874± 11 OUR AVERAGE Error includes scale factor of 1.8. See the ideogram below.
+2883± 11 ± 8        1.5k    1 AAIJ             25C LHCB B + → D + D 0 K 0
+                                                                              S
+2914± 11 ± 15       1.6k    2 AAIJ             24AB LHCB B + → D ∗+ D − K +
+2866± 7± 2          1.2k    3 AAIJ             20AI LHCB B + → D + D − K +
+  1 Obtained from the amplitude analysis. Parameterized with the relativistic Breit-Wigner
+    line shape.
+  2 From a simultaneous amplitude analysis of B + → D ∗+ D − K + , B + → D ∗− D + K +
+    and their c.c.
+  3 Obtained from the full amplitude analysis. Parameterized with the relativistic Breit-
+    Wigner line shape. Also conﬁrmed by the model-independent analysis of AAIJ 20AF.
+
+         WEIGHTED AVERAGE
+         2874±11 (Error scaled by 1.8)
+
+
+
+
+                                                                                                   2
+                                                                                               χ
+                                                         AAIJ                25C LHCB      0.4
+                                                         AAIJ                24AB LHCB     4.5
+                                                         AAIJ                20AI LHCB     1.4
+                                                                                           6.3
+                                                                      (Confidence Level = 0.044)
+
+       2800        2850        2900         2950         3000         3050
+
+         T ∗cs0 (2870)0 MASS (MeV)
+
+
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                     T ∗cs0 (2870)0 WIDTH
+
+VALUE (MeV)                 EVTS           DOCUMENT ID               TECN      COMMENT
+ 68± 17 OUR AVERAGE Error includes scale factor of 1.5. See the ideogram below.
+ 87 + 22
+    − 47 ± 17      1.5k     1 AAIJ             25C LHCB B + → D + D 0 K 0
+                                                                              S
+128± 22 ± 23       1.6k     2 AAIJ             24AB LHCB B + → D ∗+ D − K +
+ 57± 12 ± 4        1.2k     3 AAIJ             20AI LHCB B + → D + D − K +
+  1 Obtained from the amplitude analysis. Parameterized with the relativistic Breit-Wigner
+    line shape.
+  2 From a simultaneous amplitude analysis of B + → D ∗+ D − K + , B + → D ∗− D + K +
+    and their c.c.
+  3 Obtained from the full amplitude analysis. Parameterized with the relativistic Breit-
+    Wigner line shape. Also conﬁrmed by the model-independent analysis of AAIJ 20AF.
+
+         WEIGHTED AVERAGE
+         68±17 (Error scaled by 1.5)
+
+
+
+
+                                                                                                   2
+                                                                                               χ
+                                                         AAIJ               25C LHCB       0.2
+                                                         AAIJ               24AB LHCB      3.5
+                                                         AAIJ               20AI LHCB      0.8
+                                                                                           4.5
+                                                                      (Confidence Level = 0.104)
+
+       -50       0        50       100     150      200      250      300
+
+         T ∗cs0 (2870)0 WIDTH (MeV)
+
+
+                               T ∗cs0 (2870)0 DECAY MODES
+
+      Mode                                                   Fraction (Γi /Γ)
+
+Γ1    D− K +                                                 seen
+Γ2    D 0 K 0S                                               seen
+
+
+
+
+https://pdg.lbl.gov                         Page 2                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                            T ∗cs0 (2870)0 BRANCHING RATIOS
+
+Γ D − K + /Γtotal
+         
+                                                                                                        Γ1 /Γ
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+seen                                        AAIJ                20AI LHCB B + → D + D − K +
+
+Γ D 0 K 0S /Γ D − K +
+                     
+                                                                                                       Γ2 /Γ1
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+3.3± 1.1± 1.6                 1.5k        1 AAIJ                25C LHCB B + → D + D 0 K 0 ,
+                                                                                         S
+                                                                            D+ D− K +
+  1 Obtained from ﬁt fractions based an amplitude analyses. Parameterized with the rel-
+    ativistic Breit-Wigner line shape. The last error includes uncertainties from B(B + →
+    D + D 0 K 0 ) and B(B + → D + D − K + ) values.
+               S
+
+                                 T ∗cs0 (2870)0 REFERENCES
+
+AAIJ          25C PRL 134 101901               R. Aaij et al.                             (LHCb Collab.)
+AAIJ          24AB PRL 133 131902              R. Aaij et al.                             (LHCb Collab.)
+AAIJ          20AF PRL 125 242001              R. Aaij et al.                             (LHCb Collab.)
+AAIJ          20AI PR D102 112003              R. Aaij et al.                             (LHCb Collab.)
+
+
+
+
+https://pdg.lbl.gov                          Page 3                      Created: 6/1/2026 16:25
+

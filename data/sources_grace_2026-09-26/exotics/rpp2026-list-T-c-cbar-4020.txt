@@ -1,0 +1,157 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ Tcc (4020)                                           I G (J PC ) = 1+ (??− )
+
+was X (4020)
+        Properties incompatible with a q q structure (exotic state). See the
+        review on non-q q states.
+
+        Charged Tcc (4020) seen by ABLIKIM 13X from e + e − →
+        π + π − hc (1P) at c.m. energy from 3.90 to 4.42 GeV as a peak
+        in the invariant mass distribution of the π ± hc (1P) system, and by
+        ABLIKIM 14B from e + e − → (D ∗ D ∗ )± π ∓ events in (D ∗ D ∗ )±
+        mass. A neutral Tcc (4020) seen by ABLIKIM 14P at three c.m. en-
+        ergies in the same range in e + e − → π 0 π 0 hc (1P) as a peak in the
+        larger of the two masses recoiling against a π 0 . ABLIKIM 15AA ob-
+        serves a 5.9 σ signal in (D ∗ D ∗ )0 in e + e − → (D ∗ D ∗ )0 π 0 events
+        using collisions at two c.m. energies. Production rates and mass
+        values support grouping neutral and charged Tcc (4020) together as
+        manifestations of a single I = 1 particle.
+
+                                        Tcc (4020) MASS
+
+VALUE (MeV)          EVTS           DOCUMENT ID              TECN     CHG COMMENT
+4024.1± 1.9 OUR AVERAGE
+       + 2.0 ± 3.1
+4025.5 −              116      1 ABLIKIM              15AA BES3 0     e + e − → (D ∗ D ∗ )0 π 0
+         4.7
+4026.3± 2.6 ± 3.7     401      1 ABLIKIM             14B BES3 ±       e + e − → (D ∗ D ∗ )± π ∓
+4023.9± 2.2 ± 3.8      61    1,2 ABLIKIM             14P BES3 0       e + e − → π 0 π 0 hc
+4022.9± 0.8 ± 2.7     253      1 ABLIKIM             13X BES3 ±       e + e − → π + π − hc
+  1 Neglecting interference between the T
+                                                cc (4020) and non-resonant continuum.
+  2 Assuming J P = 1+ and width of 7.9 ± 2.6 MeV.
+
+
+                                       Tcc (4020) WIDTH
+
+VALUE (MeV)         EVTS           DOCUMENT ID               TECN     CHG     COMMENT
+13 ± 5 OUR AVERAGE Error includes scale factor of 1.7. See the ideogram below.
+23.0± 6.0 ± 1.0      116     1 ABLIKIM      15AA BES3 0       e + e − → (D ∗ D ∗ )0 π 0
+24.8± 5.6 ± 7.7      401     1 ABLIKIM      14B BES3 ±        e + e − → (D ∗ D ∗ )± π ∓
+ 7.9± 2.7 ± 2.6      253     1 ABLIKIM      13X BES3 ±        e + e − → π + π − hc
+  1 Neglecting interference between the T (4020) and non-resonant continuum.
+                                         cc
+
+
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+          WEIGHTED AVERAGE
+          13±5 (Error scaled by 1.7)
+
+
+
+
+                                                                                                    2
+                                                                                                χ
+                                                           ABLIKIM            15AA BES3     2.5
+                                                           ABLIKIM            14B BES3      1.5
+                                                           ABLIKIM            13X BES3      2.1
+                                                                                            6.1
+                                                                       (Confidence Level = 0.048)
+
+        -10       0          10      20      30       40       50        60
+
+          Tcc (4020) WIDTH (MeV)
+
+                                   Tcc (4020) DECAY MODES
+
+        Mode                                                  Fraction (Γi /Γ)
+
+Γ1      hc (1P)π                                              seen
+Γ2      D∗ D∗                                                 seen
+Γ3      D D ∗ + c.c.                                          not seen
+Γ4      ηc π + π −                                            not seen
+Γ5      ηc (1S) ρ(770)±                                       not seen
+Γ6      J/ψ(1S)π ±                                            not seen
+
+
+                               Tcc (4020) BRANCHING RATIOS
+          
+Γ hc (1P)π /Γtotal                                                                                      Γ1 /Γ
+VALUE                    EVTS             DOCUMENT ID             TECN        CHG    COMMENT
+seen                          61          ABLIKIM          14P BES3           0      e + e − → π 0 π 0 hc
+seen                         253          ABLIKIM          13X BES3           ±      e + e − → π + π − hc
+
+Γ D ∗ D ∗ /Γtotal
+         
+                                                                                                        Γ2 /Γ
+VALUE                 EVTS          DOCUMENT ID              TECN      CHG        COMMENT
+seen               116             1 ABLIKIM          15AA BES3        0          e + e − → (D ∗ D ∗ )0 π 0
+seen               401             1 ABLIKIM          14B BES3         ±          e + e − → (D ∗ D ∗ )± π ∓
+  1 Neglecting interference between the T
+                                                  cc (4020) and non-resonant continuum.
+
+
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ D D ∗ + c.c. /Γtotal
+              
+                                                                                                        Γ3 /Γ
+VALUE                              DOCUMENT ID                TECN      CHG     COMMENT
+not seen                           ABLIKIM             15AC BES3        ±       e + e − → π ± (D D ∗ )∓
+
+Γ ηc π + π − /Γtotal
+            
+                                                                                                        Γ4 /Γ
+VALUE                                       DOCUMENT ID                TECN     COMMENT
+not seen                     1 VINOKUROVA 15 BELL B + → K + η π + π −
+                                                                 c
+  1 VINOKUROVA 15 reports B(B + → K + T (4020)0 ) × B(T    → η  π + π−) <
+                                       cc               cc    c
+    1.6 × 10−5 at 90% CL.
+
+Γ ηc (1S) ρ(770)± /Γ hc (1P)π
+                             
+                                                                                                       Γ5 /Γ1
+VALUE                   CL%           DOCUMENT ID               TECN      COMMENT
+<1.2               90      1 ABLIKIM     19BC BES3 e + e − → π + π − π 0 ηc (1S)
+ 1 Using e + e − → π ∓ (Z (4020)± → h (1P) π ± ) cross section at 4.23, 4.26 and 4.36
+                         c           c
+   GeV from ABLIKIM 13X.
+
+         π± /Γtotal
+           
+Γ J/ψ(1S)π                                                                                              Γ6 /Γ
+VALUE                                       DOCUMENT ID                TECN     COMMENT
+not seen                          1 ABLIKIM        17J BES3                     e + e − → π + π − J/ψ
+  1 From Partial Wave Analysis assuming J P = 1+ .
+
+
+                                   Tcc (4020) REFERENCES
+ABLIKIM       19BC PR D100 111102              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       17J PRL 119 072001               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       15AA PRL 115 182002              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       15AC PR D92 092006               M. Ablikim et al.                          (BESIII Collab.)
+VINOKUROVA    15   JHEP 1506 132               A. Vinokurova et al.                      (BELLE Collab.)
+   Also            JHEP 1702 088 (errat.)      A. Vinokurava et al.                      (BELLE Collab.)
+ABLIKIM       14B PRL 112 132001               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       14P PRL 113 212002               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       13X PRL 111 242001               M. Ablikim et al.                          (BESIII Collab.)
+
+
+
+
+https://pdg.lbl.gov                          Page 3                      Created: 6/1/2026 16:25
+

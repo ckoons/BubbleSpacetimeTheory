@@ -1,0 +1,1563 @@
+                                          EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH (CERN)
+
+
+                                                                                                                        CERN-EP-2020-071
+                                                                                                                     LHCb-PAPER-2020-009
+                                                                                                                             May 27, 2020
+
+
+                                                      Study of the ψ2(3823)
+                                                       and χc1(3872) states
+                                                  in B+ → J/ψ π+π− K+ decays
+
+
+
+
+arXiv:2005.13422v4 [hep-ex] 17 Sep 2021
+                                                                                   LHCb collaboration†
+
+                                                                                         Abstract
+                                                 The decays B+ → J/ψ π+ π− K+ are studied using a data set corresponding to an in-
+                                                 tegrated luminosity of 9 fb−1 collected with the LHCb detector in proton-proton
+                                                 collisions between 2011 and 2018. Precise measurements of the ratios of branching
+                                                 fractions with the intermediate ψ2 (3823), χc1 (3872) and ψ(2S) states are reported.
+                                                 The values are
+                                                        BB+→ψ2 (3823)K+ × Bψ2 (3823)→J/ψ π+ π−
+                                                                                                 = (3.56 ± 0.67 ± 0.11) × 10−2 ,
+                                                        BB+→χc1 (3872)K+ × Bχc1 (3872)→J/ψ π+ π−
+                                                         BB+→ψ2 (3823)K+ × Bψ2 (3823)→J/ψ π+ π−
+                                                                                                 = (1.31 ± 0.25 ± 0.04) × 10−3 ,
+                                                           BB+→ψ(2S)K+ × Bψ(2S)→J/ψ π+ π−
+                                                        BB+→χc1 (3872)K+ × Bχc1 (3872)→J/ψ π+ π−
+                                                                                                 = (3.69 ± 0.07 ± 0.06) × 10−2 ,
+                                                           BB+→ψ(2S)K+ × Bψ(2S)→J/ψ π+ π−
+                                                 where the first uncertainty is statistical and the second is systematic. The decay
+                                                 of B+ → ψ2 (3823)K+ with ψ2 (3823) → J/ψ π+ π− is observed for the first time with
+                                                 a significance of 5.1 standard deviations. The mass differences between the ψ2 (3823),
+                                                 χc1 (3872) and ψ(2S) states are measured to be
+                                                               mχc1 (3872) − mψ2 (3823) =      47.50 ± 0.53 ± 0.13 MeV/c2 ,
+                                                                   mψ2 (3823) − mψ(2S) = 137.98 ± 0.53 ± 0.14 MeV/c2 ,
+                                                                  mχc1 (3872) − mψ(2S) = 185.49 ± 0.06 ± 0.03 MeV/c2 ,
+                                                 resulting in the most precise determination of the χc1 (3872) mass. The width
+                                                 of the ψ2 (3823) state is found to be below 5.2 MeV at 90% confidence level.
+                                                 The Breit–Wigner width of the χc1 (3872) state is measured to be
+                                                                                               + 0.19
+                                                                            ΓBW
+                                                                             χc1 (3872) = 0.96 − 0.18 ± 0.21 MeV ,
+
+                                                 which is inconsistent with zero by 5.5 standard deviations.
+
+
+                                                                           Published in JHEP 08 (2020) 123
+                                                       © 2021 CERN for the benefit of the LHCb collaboration. CC BY 4.0 licence.
+                                           †
+                                               Authors are listed at the end of this paper.
+ii
+1       Introduction
+The observation of a narrow χc1 (3872) state in the J/ψ π+ π− mass spectrum
+of B+ → J/ψ π+ π− K+ decays by the Belle collaboration in 2003 [1] has led to a renewed
+interest in the study of hadrons containing heavy quarks. Many new charmonium-like
+states have since been observed [2]. Some of the new states are unambiguously inter-
+preted as conventional cc states, some are manifestly exotic [3–9], while for the others
+a definite interpretation is still missing [10–12]. Despite the large amount of experimental
+data [13–40], the nature of the χc1 (3872) state is still unclear. Several interpretations
+have been proposed, such as a conventional χc1 (2P) state [41], a molecular state [42–44],
+a tetraquark [45], a ccg hybrid state [46], a vector glueball [47] or a mixed state [48, 49].
+Precise measurements of the resonance parameters, namely the mass and the width, are
+crucial for the correct interpretation of the state. Comparison of the decays of beauty
+hadrons with final states involving the χc1 (3872) particle and those involving other char-
+monium resonances can shed light on the production mechanism, in particular, on the role
+of D0 D∗0 rescattering [50].
+    A recent analysis of D0 D0 and D+ D− mass spectra, performed by the LHCb collabora-
+tion [51], led to the observation of a new narrow state, ψ3 (3842), interpreted as a spin-3
+component of the D-wave charmonium triplet, ψ3 (13 D3 ) state [52, 53], and a precise
+measurement of the mass of the vector component of this triplet, the ψ(3770) state.
+Evidence for the third, tensor component of the triplet, the ψ2 (3823) state1 , was re-
+ported by the Belle collaboration in the B → (ψ2 (3823) → χc1 γ) K decays [55]. This was
+confirmed by the BES III collaboration with a significance in excess of 5 standard de-
+viations [56]. The partial decay widths of the ψ2 (3823) resonance are calculated to be
+Γψ2 (3823)→χc1 γ = 215 keV [57], Γψ2 (3823)→χc2 γ = 59 keV [57], Γψ2 (3823)→ggg = 36 keV [58], and
+Γψ2 (3823)→J/ψ ππ ≃ 160 keV [59], corresponding to a total width of 470 keV and a branching
+fraction Bψ2 (3823)→J/ψ ππ of 34% [60]. The predicted width is much smaller than the upper
+limit of 16 MeV at 90% confidence level (CL) set by the BES III collaboration [56].
+    In this paper, a sample of B+ → (Xcc → J/ψ π+ π− ) K+ decays2 is analysed, where Xcc
+denotes the ψ2 (3823), χc1 (3872) or ψ(2S) state and the J/ψ meson is reconstructed in
+the µ+ µ− final state. The study is based on proton-proton (pp) collision data, correspond-
+ing to an integrated luminosity of 1, 2, and 6 fb−1 , collected with the LHCb detector at
+centre-of-mass energies of 7, 8, and 13 TeV, respectively. This data sample allows studies of
+the properties of the ψ2 (3823) and χc1 (3872) states produced in B decay recoiling against
+a kaon. The presence of the ψ(2S) state in the same sample provides a convenient sample
+for normalisation and reduction of potential systematic uncertainties. A complementary
+measurement using inclusive b → (χc1 (3872) → J/ψ π+ π− ) X decays and a data set, cor-
+responding to an integrated luminosity of 1 and 2 fb−1 , collected at the centre-of-mass
+energies of 7 and 8 TeV, is reported in Ref. [61]. This gives a determination of the resonance
+parameters for the χc1 (3872) state with an unprecedented precision, including searches for
+the poles of the complex Flatté-like amplitude.
+    1
+     A hint for this state was reported in 1994 by the E705 experiment in studies of the J/ψ π+ π− final
+state in pion-lithium collisions with a statistical significance of 2.8 standard deviations [54].
+   2
+     Inclusion of charge-conjugate states is implied throughout the paper.
+
+
+
+
+                                                   1
+2    Detector and simulation
+The LHCb detector [62, 63] is a single-arm forward spectrometer covering
+the pseudorapidity range 2 < η < 5, designed for the study of particles containing
+b or c quarks. The detector includes a high-precision tracking system consisting of
+a silicon-strip vertex detector surrounding the pp interaction region [64], a large-area
+silicon-strip detector located upstream of a dipole magnet with a bending power of about
+4 Tm, and three stations of silicon-strip detectors and straw drift tubes [65, 66] placed
+downstream of the magnet. The tracking system provides a measurement of the mo-
+mentum of charged particles with a relative uncertainty that varies from 0.5% at low
+momentum to 1.0% at 200 GeV/c. The momentum scale is calibrated using samples
+of J/ψ → µ+ µ− and B+ → J/ψ K+ decays collected concurrently with the data sample
+used for this analysis [67, 68]. The relative accuracy of this procedure is estimated to
+be 3 × 10−4 using samples of other fully reconstructed b hadrons, Υ and K0S mesons.
+The minimum distance of a track to a primary pp-collision vertex (PV), the impact param-
+eter (IP), is measured with a resolution of (15 + 29/pT ) µm, where pT is the component of
+the momentum transverse to the beam, in GeV/c. Different types of charged hadrons are
+distinguished using information from two ring-imaging Cherenkov detectors (RICH) [69].
+Photons, electrons and hadrons are identified by a calorimeter system consisting of scin-
+tillating-pad and preshower detectors, an electromagnetic and a hadronic calorimeter.
+Muons are identified by a system composed of alternating layers of iron and multiwire
+proportional chambers [70].
+     The online event selection is performed by a trigger [71], which consists of a hardware
+stage, based on information from the calorimeter and muon systems, followed by a software
+stage, which applies a full event reconstruction. The hardware trigger selects muon
+candidates with high transverse momentum or dimuon candidates with a high value of
+the product of the pT of each muon. In the software trigger two oppositely charged muons
+are required to form a good-quality vertex that is significantly displaced from every PV,
+with a dimuon mass exceeding 2.7 GeV/c2 .
+     Simulated events are used to describe the signal shapes and to compute efficiencies,
+needed to determine the branching fraction ratios. In the simulation, pp collisions are
+generated using Pythia [72] with a specific LHCb configuration [73]. Decays of unstable
+particles are described by the EvtGen package [74], in which final-state radiation is
+generated using Photos [75]. The ψ2 (3823) → J/ψ π+ π− decays are simulated using
+a phase-space model. The χc1 (3872) → J/ψ π+ π− decays are simulated proceeding via
+the S-wave J/ψ ρ0 intermediate state [34]. For the ψ(2S) decays the model described in
+Refs. [76–79] is used. The interaction of the generated particles with the detector, and
+its response, are implemented using the Geant4 toolkit [80] as described in Ref. [81].
+To account for imperfections in the simulation of charged-particle reconstruction, the track
+reconstruction efficiency determined from simulation is corrected using data-driven tech-
+niques [82].
+
+
+3    Event selection
+Candidate B+ → J/ψ π+ π− K+ decays are reconstructed using the J/ψ → µ+ µ− decay mode.
+A loose preselection similar to Refs. [37, 83–93] is applied, followed by a multivariate
+
+
+                                             2
+classifier based on a decision tree with gradient boosting (BDT) [94].
+    Muon, pion and kaon candidates are identified by combining information from the RICH,
+calorimeter and muon detectors [95]. The transverse momentum of muon (hadron) candi-
+ates is required to be larger than 550 (220) MeV/c. To allow for efficient particle identifi-
+cation, kaons and pions are required to have a momentum between 3.2 and 150 GeV/c.
+To reduce combinatorial background, only tracks that are inconsistent with originating
+from any reconstructed PV in the event are considered. Pairs of oppositely charged muons
+consistent with originating from a common vertex are combined to form J/ψ → µ+ µ− can-
+didates. The reconstructed mass of the pair is required to be between 3.0 and 3.2 GeV/c2 .
+    To form the B+ candidates, the selected J/ψ candidates are combined with a pair of
+oppositely charged pions and a positively charged kaon. Each B+ candidate is associated
+with the PV that yields the smallest χ2IP , where χ2IP is defined as the difference in the ver-
+tex-fit χ2 of a given PV reconstructed with and without the particle under consideration.
+To improve the mass resolution for the B+ candidates, a kinematic fit [96] is performed.
+This fit constrains the mass of the µ+ µ− pair to the known mass of the J/ψ meson [2] and
+constraints the B+ candidate to originate from its associated PV. In addition, the mea-
+sured decay time of the B+ candidate, calculated with respect to the associated PV,
+is required to be greater than 75 µm/c. This requirement suppresses background from
+particles originating from the PV.
+    A BDT is used to further suppress the combinatorial background. It is trained using
+a simulated sample of B+ → (ψ2 (3823) → J/ψ π+ π− ) K+ decays as the signal. For the back-
+ground, a sample of J/ψ π+ π+ K− combinations with same-sign pions in data, passing
+the preselection criteria and having the mass in the range between 5.20 and 5.35 GeV/c2 , is
+used. The k-fold cross-validation technique [97] with k = 13 is used to avoid introducing
+a bias in the BDT evaluation. The BDT is trained on variables related to the reconstruction
+quality, decay kinematics, decay time of B+ candidate and the quality of the kinematic
+                                                                                    √
+fit. The requirement on the BDT output is chosen to maximize ε/(α/2 + B) [98],
+where ε is the signal efficiency for the B+ → ψ2 (3823)K+ decays obtained from simulation;
+α = 5 is the target signal significance in units of standard deviations; B is the ex-
+pected background yield within narrow mass windows centred at the known B+ and
+ψ2 (3823) masses [2]. The mass distribution of selected B+ → J/ψ π+ π− K+ candidates
+is shown in Fig. 1. The data are fit with a sum of a modified Gaussian function with
+power-law tails on both sides [99, 100] and a linear polynomial combinatorial background
+component. The B+ signal yield is (547.8 ± 0.8) × 103 candidates.
+
+
+4     Signal yields, masses and widths
+The yields for the B+ → (Xcc → J/ψ π+ π− ) K+ decays are determined using
+a two-dimensional unbinned extended maximum-likelihood fit to the J/ψ π+ π− K+ mass,
+mJ/ψ π+ π− K+ , and the J/ψ π+ π− mass, mJ/ψ π+ π− , distributions. The fit is performed simul-
+taneously in the three non-overlapping regions
+
+    • 3.67 ≤ mJ/ψ π+ π− < 3.70 GeV/c2 ,
+
+    • 3.80 ≤ mJ/ψ π+ π− < 3.85 GeV/c2 ,
+
+    • 3.85 ≤ mJ/ψ π+ π− < 3.90 GeV/c2 ,
+
+
+                                              3
+                          120 ×103
+
+
+
+
+  Candidates/(3 MeV/c2)
+                                     B+ → J/ψ π+π−K+                       LHCb
+                          100
+                                     comb. bkg.
+                                     total
+                           80
+
+                           60
+
+                           40
+
+                           20
+
+
+                            5.2           5.25                  5.3             5.35
+                                                                                    
+                                                                                  2
+                                                  mJ/ψ π+π−K+                GeV/c
+Figure 1: Distribution for the J/ψ π+ π− K− mass for selected B+ candidates (points with error
+bars). A fit, described in the text, is overlaid.
+
+
+corresponding to the B+ → ψ(2S)K+ , B+ → ψ2 (3823)K+ and B+ → χc1 (3872)K+ de-
+cays.     For each of the three regions the J/ψ π+ π− K+ mass is restricted to
+5.20 ≤ mJ/ψ π+ π− K+ < 5.35 GeV/c2 . To improve the resolution on the J/ψ π+ π− mass and
+to eliminate a small correlation between mJ/ψ π+ π− K+ and mJ/ψ π+ π− variables, the mJ/ψ π+ π−
+variable is computed using a kinematic fit [96] that constrains the mass of the B+ candi-
+date to its known value [2]. In each region, the fit function is defined as a sum of four
+components:
+
+       1. signal B+ → Xcc K+ decays parameterised as a product of the B+ and Xcc signal
+          templates described in detail in the next paragraph;
+
+       2. contribution from the decays B+ → (J/ψ π+ π− )NR K+ with no narrow intermediate
+          Xcc state, parameterised as a product of the B+ signal template and a linear function
+          of mJ/ψ π+ π− ;
+
+       3. random combinations of Xcc and K+ candidates, parameterised as a product of
+          the Xcc signal template and a linear function of mJ/ψ π+ π− K+ ;
+
+       4. random J/ψ π+ π− K+ combinations, described below.
+
+
+                                                    4
+The templates for the B+ signals are described by a modified Gaussian function with
+power-law tails on both sides of the distribution [99, 100]. The tail parameters are
+fixed to the values obtained from simulation. The narrow Xcc signal templates are
+parameterised with S-wave relativistic Breit–Wigner functions convolved with the mass
+resolution. Due to the proximity of the χc1 (3872) state to the D0 D∗0 threshold, modelling
+this component as a Breit–Wigner function may not be adequate [101–105]. However,
+the analysis from Ref. [61] demonstrates that a good description of data is obtained with
+a Breit–Wigner lineshape when the mass resolution is included. The mass resolution is
+described by a symmetric modified Gaussian function with power-law tails on both sides of
+the distribution, with the parameters fixed to the values from simulation. In the template
+for the B+ signal, the peak-position parameter is shared between all three decays and
+allowed to vary in the fit. The mass resolutions used in the B+ and Xcc signal templates are
+fixed to the values determined from simulation, but are corrected by common scale factors,
+fB+ and fXcc , to account for a small discrepancy in the mass resolution between data and
+simulation. The masses of the Xcc signal templates, as well as the Breit–Wigner widths for
+the ψ2 (3823) and χc1 (3872) states, are free fit parameters, while the width in the template
+for the ψ(2S) signal is fixed to its known value [2]. The combinatorial-background
+component is modelled with a smooth two-dimensional function
+
+             E(mJ/ψ π+ π− K+ ) × P3,4 (mJ/ψ π+ π− ) × P2D (mJ/ψ π+ π− K+ , mJ/ψ π+ π− ),    (1)
+
+where E(mJ/ψ π+ π− K+ ) is an exponential function, P3,4 (mJ/ψ π+ π− ) is a three-body
+phase-space function [106], and P2D is a two-dimensional positive bilinear function, which
+accounts for small non-factorizable effects. For the considered fit ranges P3,4 (mJ/ψ π+ π− ) is
+close to a constant.
+     The J/ψ π+ π− K+ and J/ψ π+ π− mass distributions together with projections of the si-
+multaneous unbinned maximum-likelihood fit are shown in Fig. 2. Signal yields NB+→Xcc K+ ,
+calculated mass differences δmXcc ≡ mXcc − mψ(2S) , Breit–Wigner widths ΓXcc and resolu-
+tion scale factors are listed in Table 1. The fit model is tested using pseudoexperiments
+and no bias is found in the results and their associated uncertainties. The masses of
+B+ and ψ(2S) mesons are found to be compatible with their known values [2]. The fit
+component corresponding to the B+ → (J/ψ π+ π− )NR K+ is found to be negligible for
+the ψ(2S) region, dominant for the ψ2 (3823) region and small for the χc1 (3872) region.
+The fit component corresponding to the random Xcc K+ combinations is negligible for all
+fit regions. The statistical significance of the observed B+ → (ψ2 (3823) → J/ψ π+ π− ) K+
+signal over the background-only hypothesis is estimated to be 5.1 standard deviations
+using Wilks’ theorem [107]. The significance is confirmed by simulating a large number of
+pseudoexperiments according to the background distribution observed in data.
+     The likelihood profiles for the Breit–Wigner widths of ψ2 (3823) and χc1 (3872) states are
+presented in Fig. 3. From these profiles the Breit–Wigner width of the χc1 (3872) state is
+found to be inconsistent with zero by 5.5 standard deviations, while for the ψ2 (3823) state
+the width is consistent with zero.
+
+
+
+
+                                                 5
+                           20 ×10                                                                                25 ×10
+                                   3                                                                                    3
+
+
+
+
+ Candidates/(3 MeV/c2 )
+                                                                                    Candidates/(1.25 MeV/c2 )
+                                  3.68 < mJ/ψ π+ π− < 3.69 GeV/c2   LHCb                                              5.26 < mJ/ψ π+ π− K+ < 5.30 GeV/c2 LHCb
+
+                                                                                                                 20
+                           15
+
+                                                                                                                 15
+                           10
+                                                                                                                 10
+
+                            5
+                                                                                                                  5
+
+
+                            5.2             5.25            5.3            5.35                                  3.67              3.68            3.69          3.7
+                                               mJ/ψ π+ π− K+        [GeV/c2 ]                                                             mJ/ψ π+ π−      [GeV/c2 ]
+                          250                                                                                   150
+
+
+
+
+ Candidates/(3 MeV/c2 )
+                                                                                    Candidates/(1.25 MeV/c2 )
+                                  3.82 < mJ/ψ π+ π− < 3.83 GeV/c2   LHCb                                              5.26 < mJ/ψ π+ π− K+ < 5.30 GeV/c2 LHCb
+
+                          200            B+ → Xcc̄ K+
+                                         B+ → J/ψ π+ π− NR K+
+                                                       
+                                                                                                                100
+                          150            comb. Xcc̄ K+
+                                         comb. bkg.
+                                         total
+                          100
+                                                                                                                 50
+                           50
+
+
+                            5.2             5.25            5.3            5.35                                   3.8       3.81     3.82       3.83      3.84   3.85
+                                               mJ/ψ π+ π− K+        [GeV/c2 ]                                                             mJ/ψ π+ π−      [GeV/c2 ]
+                          1.2 ×10                                                                               1.2 ×10
+                                   3                                                                                    3
+
+
+
+
+ Candidates/(3 MeV/c2 )
+                                                                                    Candidates/(1.25 MeV/c2 )
+                                  3.86 < mJ/ψ π+ π− < 3.88 GeV/c2   LHCb                                              5.26 < mJ/ψ π+ π− K+ < 5.30 GeV/c2 LHCb
+                            1                                                                                     1
+
+                          0.8                                                                                   0.8
+
+                          0.6                                                                                   0.6
+
+                          0.4                                                                                   0.4
+
+                          0.2                                                                                   0.2
+
+
+                            5.2             5.25            5.3            5.35                                  3.85       3.86     3.87       3.88      3.89   3.9
+                                               mJ/ψ π+ π− K+        [GeV/c2 ]                                                         mJ/ψ π+ π−          [GeV/c2 ]
+Figure 2: Distributions of the (left) J/ψ π+ π− K+ and (right) J/ψ π+ π− mass for selected
+(top) B+ → ψ(2S)K+ , (middle) B+ → ψ2 (3823)K+ and (bottom) B+ → χc1 (3872)K+ candidates
+shown as points with error bars. A fit, described in the text, is overlaid.
+
+
+5                          Ratios of branching fractions
+Ratios of branching fractions, RX
+                                Y , are defined as
+
+                                                                    BB+→XK+ × BX→J/ψ π+ π−
+                                                          RX
+                                                           Y ≡                             ,                                                                     (2)
+                                                                    BB+→YK+ × BY→J/ψ π+ π−
+
+
+                                                                                6
+             10                                                   20
+
+
+  −∆ log L                                             −∆ log L
+                                           LHCb                                                       LHCb
+              8
+                                                                  15
+
+             6
+                                                                  10
+             4
+
+                                                                   5
+             2
+
+             0                                                     0
+              0   2.5      5         7.5          10                0      0.5       1          1.5          2
+                        Γψ2 (3823)          [MeV]                                 Γχc1 (3872)         [MeV]
+Figure 3: Likelihood profiles for the Breit–Wigner width of (left) ψ2 (3823) and (right) χc1 (3872)
+states.
+
+
+where X, Y stand for either the ψ2 (3823), χc1 (3872) or ψ(2S) states. They are estimated
+as
+                                      NB+→XK+      εB+→YK+
+                              RXY =              ×          ,                           (3)
+                                      NB+→YK+      εB+→XK+
+where N is the signal yield reported in Table 1 and ε denotes the efficiency of the cor-
+responding decay. The efficiency is defined as the product of geometric acceptance,
+reconstruction, selection, hadron identification and trigger efficiencies, where each sub-
+sequent efficiency is defined with respect to the previous one. All of the contributions,
+except that of the hadron-identification efficiency, are determined using simulated sam-
+ples. The hadron-identification efficiency is determined using large calibration samples of
+D∗+ → (D0 → K− π+ ) π+ , K0S → π+ π− and D+               + −     +
+                                               s → (φ → K K ) π decays selected in data
+
+
+
+Table 1: Parameters of interest and derived quantities from the simultaneous unbinned extended
+maximum-likelihood two-dimensional fit. Results and statistical uncertainties are shown for
+the three fit regions.
+
+    Parameter             B+ → ψ(2S)K+                  B+ → ψ2 (3823)K+            B+ → χc1 (3872)K+
+
+    NB+→Xcc K+          (81.14 ± 0.29) × 103                         137 ± 26              4230 ± 70
+    δmXcc [MeV/c2 ]               —                               137.98 ± 0.53          185.49 ± 0.06
+    ΓXcc [MeV]               0.29 (fixed)                              0+  0.68
+                                                                         − 0.00            0.96 + 0.19
+                                                                                                − 0.18
+
+      fB +                                        1.052 ± 0.003
+      fXcc                                        1.048 ± 0.004
+
+
+
+
+                                                       7
+for kaons and pions [69, 108]. The ratios of the efficiencies are determined to be
+                             εB+→χc1 (3872)K+
+                                              = 1.098 ± 0.003 ,
+                             εB+→ψ2 (3823)K+
+                              εB+→ψ(2S)K+
+                                              = 0.778 ± 0.003 ,                           (4)
+                             εB+→ψ2 (3823)K+
+                              εB+→ψ(2S)K+
+                                              = 0.708 ± 0.003 ,
+                             εB+→χc1 (3872)K+
+
+where the uncertainty reflects the limited size of the simulated samples. Other sources
+of systematic uncertainty are discussed in the following section. The ratios of the ef-
+ficiencies differ from unity mostly due to the different pion momentum spectra in the
+different Xcc → J/ψ π+ π− decays.
+
+
+6     Systematic uncertainty
+Due to the similar decay topologies, systematic uncertainties largely cancel in the ratios
+RX Y . The remaining contributions are listed in Table 2 and are discussed below.
+     The systematic uncertainty related to the signal and background shapes is investigated
+using alternative parameterisations. A generalized Student’s t-distribution [109], an Apol-
+lonios function [110] and a modified Novosibirsk function [111] are used as alternative
+models for the B+ signal template. For the Xcc signal template, alternative parameterisa-
+tions of the mass resolution, namely a symmetric variant of an Apollonios function [110],
+a Student’s t-distribution and a sum of two Gaussian functions sharing the same mean are
+considered. In addition, P-wave and D-wave relativistic Breit–Wigner functions are used
+as alternative ψ2 (3823) signal templates, and the Blatt–Weisskopf barrier factors [112] are
+varied between 1.5 and 5 GeV−1 . The width of the ψ(2S) state, fixed in the fit, is varied
+between 270 and 302 keV [2]. The maximal deviations in the ratios RX        Y with respect to
+the baseline fit model are taken as systematic uncertainties for each of the systematic signal
+model sources. For the systematic uncertainty related to the modelling of the smooth
+polynomial functions, pseudoexperiments with about 107 simulated events (approximately
+100 times large than data sample are generated with the baseline fit model and fitted
+with alternative background models. In this study the degree of the polynomial functions
+is varied from the first to the second order, separately for each fit component and each
+channel. In each case the ratio RX  Y is computed and the maximal difference with respect
+to the baseline fit model is taken as a corresponding systematic uncertainty.
+     Since the decay model for ψ2 (3823) → J/ψ π+ π− is unknown, a phase-space model
+is used in simulation. To probe the associated systematic uncertainty the model dis-
+cussed in Ref. [59] is used. This model accounts for the quantum-chromodynamics
+multipole expansion [113], as well as the effective description of the coupled-channel effects
+via hadronic-loop mechanism [114] with the interference phase Φ as a free parameter.
+The π+ π− mass spectrum and the angular distributions in the decay strongly depend
+on the phase Φ, however, the efficiency for the B+ → (ψ2 (3823) → J/ψ π+ π− ) K+ decays
+is found to be stable. It varies within 0.2% with respect to the efficiency computed for
+the phase-space model when the unknown phase Φ varies in the range −π ≤ Φ < π.
+     An additional uncertainty arises from differences between the data and simula-
+tion, in particular differences in the reconstruction efficiency of charged-particle tracks.
+
+                                              8
+The track-finding efficiencies obtained from the simulation samples are corrected using
+data-driven techniques [82]. The uncertainties related to the correction factors, together
+with the uncertainty in the hadron-identification efficiency due to the finite size of
+the calibration samples [69, 108], are propagated to the ratio of total efficiencies using
+pseudoexperiments.
+     The systematic uncertainty related to the trigger efficiency is estimated using large
+samples of the B+ → J/ψ K+ and B+ → ψ(2S)K+ decays by comparing the ratios of trigger
+efficiencies in data and simulation [83]. The imperfect data description by the simulation
+due to remaining effects is studied by varying the BDT selection criteria in ranges that lead
+to ±20% change in the measured efficiency. The resulting variations in the efficiency ratios
+do not exceed 1%, which is taken as a corresponding systematic uncertainty. The last
+systematic uncertainty considered for the ratio RX    Y is due to the finite size of the simulated
+samples.
+     For each choice of the fit model, the statistical significance of the observed
+B → (ψ2 (3823) → J/ψ π+ π− ) K+ signal is calculated from fit to data using Wilks’ the-
+  +
+
+orem. The smallest significance found is 5.1 standard deviations, numerically close to
+the value obtained from the baseline fit model.
+     The systematic uncertainties on the mass differences between the ψ2 (3823), χc1 (3872)
+and ψ(2S) states are summarized in Table 3. An important source of systematic un-
+certainty is due to the signal and background shapes. Different parameterisations of
+the signal templates and non-signal components, described above, are used as the al-
+ternative fit models. The maximal deviation in the mass differences with respect to
+the baseline results is assigned as the corresponding systematic uncertainty. The un-
+certainty in the momentum-scale calibration, important for mass measurements, e.g.
+Refs. [51, 67, 68, 84, 89, 92, 93, 115–124], largely cancels for the mass differences. The as-
+sociated systematic uncertainty is evaluated by varying the momentum scale within its
+known uncertainty [68] and repeating the fit. The J/ψ π+ π− mass is computed constrain-
+ing the mass of the B+ candidate to the known value, mB+ = 5279.25 ± 0.26 MeV/c2 [2].
+The uncertainty on the B+ meson mass is propagated to the measured mass differences.
+     The main source of systematic uncertainty for the Breit–Wigner widths Γψ2 (3823) and
+
+
+  Table 2: Relative systematic uncertainties (in %) for the ratios of branching fractions RX
+                                                                                           Y.
+
+                                              ψ (3823)            ψ (3823)           χ (3872)
+   Source                                   Rχc12 (3872)          2
+                                                                Rψ(2S)               c1
+                                                                                   Rψ(2S)
+
+   Signal and background shapes
+    B+ signal template                         0.6                 0.5                0.1
+    Xcc signal template                        0.3                 0.2                0.2
+    Polynomial components                      2.5                 2.7                0.2
+   ψ2 (3823) decay model                        0.2                0.2                —
+   Efficiency corrections                     < 0.1                0.2                0.2
+   Trigger efficiency                           1.1                1.1                1.1
+   Data-simulation agreement                    1.0                1.0                1.0
+   Simulation sample size                      0.3                 0.4                0.4
+
+   Sum in quadrature                             3.0               3.2                1.6
+
+
+                                                9
+Table 3: Systematic uncertainties (in MeV/c2 ) for the mass splitting between the ψ2 (3823),
+χc1 (3872) and ψ(2S) states.
+
+Source                     mψ2 (3823) − mψ(2S)    mχc1 (3872) − mψ(2S)   mχc1 (3872) − mψ2 (3823)
+
+Signal and background shapes
+ B+ signal template          0.023                        0.002                   0.023
+ Xcc signal template         0.115                        0.005                   0.110
+ Polynomial components       0.070                        0.001                   0.070
+Momentum scale               0.004                        0.009                   0.005
+B+ mass uncertainty          0.021                        0.029                   0.008
+
+Sum in quadrature                 0.138                   0.031                   0.133
+
+
+Γχc1 (3872) is due to the signal and background shapes. The maximal Γχc1 (3872) deviation of
+0.21 MeV is taken as the systematic uncertainty. For all the fits, the Γψ2 (3823) parameter
+is found to be consistent with zero, and an upper limit is obtained from analysis of
+the likelihood profile curve. The maximal value of the upper limits is conservatively
+taken as the estimate that accounts for the systematic uncertainty
+
+                         Γψ2 (3823) < 5.2 (6.6) MeV at 90 (95)% CL.                           (5)
+
+The systematic uncertainty due to the mismodelling of the experimental resolution in
+simulation is accounted for with the resolution scale factors fB+ and fXcc and therefore is
+included as a part of the statistical uncertainty. A small dependency of the scale factor
+fXcc on the dipion momentum for the ψ(2S) → J/ψ π+ π− decay is reported in Ref. [61].
+Such effect causes a bias in the effective scale factor for different decays due to slightly
+different dipion spectra. Such bias is found to be negligible with respect to the statistical
+uncertainty for the factor fXcc .
+    The analysis is carried out by neglecting any interference effects between the Xcc reso-
+nances and other components. Such an assumption can bias the measurement of the mass
+and width-parameters associated to the Xcc states. To account for such interference
+effects a full amplitude analysis is required, which is beyond the scope of this study.
+However, to estimate the possible effect of this assumption on the χc1 (3872) mass and
+width-parameters, the background-subtracted J/ψ π+ π− mass distribution in the χc1 (3872)
+region is studied with the sPlot technique used for background subtraction [125] using
+the J/ψ π+ π− K+ mass as the discriminative variable. The distribution is fit with a model
+that accounts for the signal, coherent and incoherent backgrounds
+                                                        2
+                                                               
+                  F(m) = N ABW (m) + bc (m) eiδ(m) ~ R + b2i (m) ,                        (6)
+
+where ABW (m) is a Breit–Wigner amplitude, convolved with the mass resolution function
+R, and N stands for a normalisation constant. The coherent and incoherent background
+components bc (m) and b2i (m) are parameterised with polynomial functions. The relative in-
+terference phase δ(m) is taken to be constant for the narrow 3.85 ≤ mJ/ψ π+ π− < 3.90 GeV/c2
+region, δ(m) ≡ δ0 . An equally good description of data is achieved for totally inco-
+herent (bc (m) ≡ 0) and coherent (b2i (m) ≡ 0) background hypotheses, as well as for any
+
+                                             10
+intermediate scenarios with the phase δ0 close to π2 . The latter reflects a high symmetry
+of the observed χc1 (3872) lineshape. For all scenarios, variations of the mass and width
+parameters are limited to 50 keV/c2 and 150 keV, respectively.
+
+
+7     Results and summary
+The decay of B+ → (ψ2 (3823) → J/ψ π+ π− ) K+ is observed for the first time with
+a significance of 5.1 standard deviations.              The signal yield of 137 ± 26 candi-
+dates, together with 4230 ± 70 B+ → (χc1 (3872) → J/ψ π+ π− ) K+ and (81.14 ± 0.29) × 103
+B+ → (ψ(2S) → J/ψ π+ π− ) K+ signal candidates, allows for a precise determination of
+the ratios of the branching fractions
+     ψ (3823)     BB+→ψ2 (3823)K+ × Bψ2 (3823)→J/ψ π+ π−
+   Rχc12 (3872) =                                          = (3.56 ± 0.67 ± 0.11) × 10−2 ,
+                  BB+→χc1 (3872)K+ × Bχc1 (3872)→J/ψ π+ π−
+     ψ2 (3823)    BB+→ψ2 (3823)K+ × Bψ2 (3823)→J/ψ π+ π−
+   Rψ(2S)       =                                          = (1.31 ± 0.25 ± 0.04) × 10−3 ,
+                    BB+→ψ(2S)K+ × Bψ(2S)→J/ψ π+ π−
+     χc1 (3872)   BB+→χc1 (3872)K+ × Bχc1 (3872)→J/ψ π+ π−
+   Rψ(2S)       =                                          = (3.69 ± 0.07 ± 0.06) × 10−2 ,
+                    BB+→ψ(2S)K+ × Bψ(2S)→J/ψ π+ π−
+where the first uncertainty is statistical and the second is systematic. The last ratio is in
+good agreement with, but significantly more precise than the value of (4.0 ± 0.4) × 10−2 ,
+derived from Ref. [2]. Only two ratios RX    Y are statistically independent. The non-zero
+                                            ψ2 (3823)       ψ2 (3823)                ψ (3823)
+correlation coefficients are +97% for Rχc1 (3872) and Rψ(2S)          , and −7% for Rχc12 (3872)
+       χ (3872)
+       c1
+and Rψ(2S)    . The product of branching fractions for the decay via the intermediate
+ψ2 (3823) state is calculated to be
+        BB+→ψ2 (3823)K+ × Bψ2 (3823)→J/ψ π+ π− = (2.82 ± 0.54 ± 0.09 ± 0.10) × 10−7 ,
+where the last uncertainty is due to the knowledge of the branching fractions for
+B+ → ψ(2S)K+ and ψ(2S) → J/ψ π+ π− decays [2]. Combined with the calculated value
+of Bψ2 (3823)→J/ψ ππ [60] this yields BB+→ψ2 (3823)K+ = (1.24 ± 0.25) × 10−6 . This is smaller
+but more precise than the value of (2.1 ± 0.7) × 10−5 derived from the measurement of
+BB+→ψ2 (3823)K+ ×Bψ2 (3823)→χc1 γ = (9.7±2.8±1.1)×10−6 by the Belle collaboration [55] and
+the estimate for Bψ2 (3823)→χc1 γ [60]. Within a factorization approach the branching fraction
+for the decay B+ → ψ2 (3823)K+ vanishes, and a large value for this branching fraction
+                                        (∗)+
+requires a large contribution of the Ds D(∗)0 rescattering amplitudes in the B+ → ccK+ de-
+cays [60]. This measurement of the branching fraction for the B+ → ψ2 (3823)K+ decay
+                                                                 (∗)+
+allows for a more precise estimation of the role of the Ds D(∗)0 rescattering mecha-
+nism [60].
+    Using a Breit−Wigner parameterisation, the mass differences between the ψ2 (3823),
+χc1 (3872) and ψ(2S) states are found to be
+                  mχc1 (3872) − mψ2 (3823) = 47.50 ± 0.53 ± 0.13 MeV/c2 ,
+                    mψ2 (3823) − mψ(2S) = 137.98 ± 0.53 ± 0.14 MeV/c2 ,
+                   mχc1 (3872) − mψ(2S) = 185.49 ± 0.06 ± 0.03 MeV/c2 .
+Only two from three mass differences are independent. Two non-zero correlation coefficients
+are −93% for mχc1 (3872) −mψ2 (3823) and mψ2 (3823) −mψ(2S) and +10% for mχc1 (3872) −mψ2 (3823)
+and mχc1 (3872) − mψ(2S) .
+
+                                              11
+   The Breit–Wigner width of the χc1 (3872) state is found to be
+
+                            Γχc1 (3872) = 0.96 + 0.19
+                                               − 0.18 ± 0.21 MeV ,
+
+which is inconsistent with zero by 5.5 standard deviations. The width of the ψ2 (3823) state
+is found to be consistent with zero and an upper limit at 90% (95%) confidence level is
+set at
+                                 Γψ2 (3823) < 5.2 (6.6) MeV .
+The value of the Breit–Wigner width Γχc1 (3872) agrees well with the value from the analysis
+of a large sample of χc1 (3872) → J/ψ π+ π− decays from the inclusive decays of beauty
+hadrons [61]. Using the known value of the ψ(2S) mass [2], the Breit−Wigner masses for
+the ψ2 (3823) and χc1 (3872) states are computed to be
+
+                   mψ2 (3823) = 3824.08 ± 0.53 ± 0.14 ± 0.01 MeV/c2 ,
+                   mχc1 (3872) = 3871.59 ± 0.06 ± 0.03 ± 0.01 MeV/c2 ,
+
+where the last uncertainty is due to the knowledge of the ψ(2S) mass. These are the most
+precise measurements of these masses.
+   The mass difference between χc1 (3872) and ψ(2S) states is more precise than the average
+reported in Ref. [2]. It also agrees well with the measurement from Ref. [61]. Taking into
+account a partial overlap of the data sets and correlated part of systematic uncertainty,
+the LHCb average mass difference and the mass of the χc1 (3872) state are
+
+               mχc1 (3872) − mψ(2S) LHCb =     185.54 ± 0.06 MeV/c2 ,
+                         mχc1 (3872) LHCb = 3871.64 ± 0.06 ± 0.01 MeV/c2 ,
+
+where the second uncertainty is due to the knowledge of the ψ(2S) mass. The difference be-
+tween the mχc1 (3872) mass, determined from the Breit–Wigner fit, and the D0 D∗0 threshold
+δE ≡ ( mD0 + mD∗0 ) c2 − mχc1 (3872) c2 is computed to be
+
+                               δE     = 0.12 ± 0.13 MeV ,
+                              δE|LHCb = 0.07 ± 0.12 MeV ,
+
+where the first value corresponds to the measurement performed in this analysis, while
+the second one is an average with results from Ref. [61]. A value of 3871.70 ± 0.11 MeV/c2
+is taken for the threshold mD0 + mD∗0 , calculated from Ref. [2, 61], accounting for the cor-
+relation due to the knowledge of the charged and neutral kaon masses between the mea-
+surements. The uncertainty on δE is now dominated by the knowledge of kaon masses.
+These are the most precise measurements of the χc1 (3872) mass and δE parameter.
+
+
+Acknowledgements
+We thank X. Liu for the useful discussion on the ψ2 (3823) → J/ψ π+ π− and
+B+ → ψ2 (3823)K+ decays and A.V. Luchinsky for providing us with the code for
+modelling the ψ2 (3823) → J/ψ π+ π− decays. We express our gratitude to our col-
+leagues in the CERN accelerator departments for the excellent performance of the LHC.
+We thank the technical and administrative staff at the LHCb institutes. We acknowl-
+edge support from CERN and from the national agencies: CAPES, CNPq, FAPERJ
+
+                                             12
+and FINEP (Brazil); MOST and NSFC (China); CNRS/IN2P3 (France); BMBF, DFG
+and MPG (Germany); INFN (Italy); NWO (Netherlands); MNiSW and NCN (Poland);
+MEN/IFA (Romania); MSHE (Russia); MinECo (Spain); SNSF and SER (Switzerland);
+NASU (Ukraine); STFC (United Kingdom); DOE NP and NSF (USA). We acknowl-
+edge the computing resources that are provided by CERN, IN2P3 (France), KIT and
+DESY (Germany), INFN (Italy), SURF (Netherlands), PIC (Spain), GridPP (United King-
+dom), RRCKI and Yandex LLC (Russia), CSCS (Switzerland), IFIN-HH (Romania),
+CBPF (Brazil), PL-GRID (Poland) and OSC (USA). We are indebted to the commu-
+nities behind the multiple open-source software packages on which we depend. Individual
+groups or members have received support from AvH Foundation (Germany); EPLANET,
+Marie Sklodowska-Curie Actions and ERC (European Union); ANR, Labex P2IO and
+OCEVU, and Région Auvergne-Rhône-Alpes (France); Key Research Program of Frontier
+Sciences of CAS, CAS PIFI, and the Thousand Talents Program (China); RFBR, RSF
+                  ˙
+and Yandex LLC(Russia);    GVA, XuntaGal and GENCAT (Spain); the Royal Society and
+the Leverhulme Trust (United Kingdom).
+
+
+
+
+                                          13
+References
+ [1] Belle collaboration, S.-K. Choi et al., Observation of a narrow charmoniumlike
+     state in exclusive B± → K± π+ π− J/ψ decays, Phys. Rev. Lett. 91 (2003) 262001,
+     arXiv:hep-ex/0309032.
+
+ [2] Particle Data Group, M. Tanabashi et al., Review of particle physics, Phys. Rev.
+     D98 (2018) 030001, and 2019 update.
+
+ [3] Belle collaboration, S.-K. Choi et al., Observation of a resonancelike structure in
+     the π+− ψ0 mass distribution in exclusive B → Kπ+− ψ0 decays, Phys. Rev. Lett. 100
+     (2008) 142001, arXiv:0708.1790.
+
+ [4] Belle collaboration, R. Mizuk et al., Observation of two resonancelike structures
+     in the π+ χc1 mass distribution in exclusive B0 → K− π+ χc1 decays, Phys. Rev. D78
+     (2008) 072004, arXiv:0806.4098.
+
+ [5] Belle collaboration, R. Mizuk et al., Dalitz analysis of B → Kπ+ ψ0 decays and
+     the Z(4430)+ , Phys. Rev. D80 (2009) 031104(R), arXiv:0905.2869.
+
+ [6] Belle collaboration, K. Chilikin et al., Experimental constraints on the spin and
+     parity of the Z(4430)+ , Phys. Rev. D88 (2013) 074026, arXiv:1306.4894.
+
+ [7] LHCb collaboration, R. Aaij et al., Observation of the resonant character of
+     the Z(4430)− state, Phys. Rev. Lett. 112 (2014) 222002, arXiv:1404.1903.
+
+ [8] LHCb collaboration, R. Aaij et al., Model-independent confirmation of the Z(4430)−
+     state, Phys. Rev. D92 (2015) 112009, arXiv:1510.01951.
+
+ [9] LHCb collaboration, R. Aaij et al., Evidence for an ηc (1S)π− resonance in
+     B0 → ηc (1S)K+ π− decays, Eur. Phys. J. C78 (2018) 1019, arXiv:1809.07416.
+
+[10] S. L. Olsen, T. Skwarnicki, and D. Zieminska, Nonstandard heavy mesons
+     and baryons: experimental evidence, Rev. Mod. Phys. 90 (2018) 015003,
+     arXiv:1708.04012.
+
+[11] N. Brambilla et al., The XYZ states: experimental and theoretical status and
+     perspectives, arXiv:1907.07583, submitted to Phys. Rep.
+
+[12] Y.-R. Liu et al., Pentaquark and tetraquark states, Prog. Part. Nucl. Phys. 107
+     (2019) 237, arXiv:1903.11976.
+
+[13] CDF collaboration, D. Acosta et √    al., Observation of the narrow state
+                    + −
+     X(3872) → J/ψ π π in pp collisions at s = 1.96 TeV, Phys. Rev. Lett. 93 (2004)
+     072001, arXiv:hep-ex/0312021.
+
+[14] D0 collaboration, V. M. Abazov et al., √
+                                            Observation and properties of the X(3872)
+                      + −
+     decaying to J/ψ π π in pp collisions at s = 1.96 TeV, Phys. Rev. Lett. 93 (2004)
+     162002, arXiv:hep-ex/0405004.
+
+
+
+
+                                          14
+[15] BaBar collaboration, B. Aubert et al., Study of the B− → J/ψ K− π+ π− decay and
+     measurement of the B− → X(3872)K− branching fraction, Phys. Rev. D71 (2005)
+     071103, arXiv:hep-ex/0406022.
+
+[16] CDF collaboration, A. Abulencia et al., Measurement of the dipion mass spec-
+     trum in X(3872) → J/ψ π+ π− decays, Phys. Rev. Lett. 96 (2006) 102002,
+     arXiv:hep-ex/0512074.
+
+[17] BaBar collaboration, B. Aubert et al., Study of the X(3872) and Y(4260) in
+     B0 → J/ψ π+ π− K0 and B− → J/ψ π+ π− K− decays, Phys. Rev. D73 (2006) 011101(R),
+     arXiv:hep-ex/0507090.
+
+[18] BaBar collaboration, B. Aubert et al., Search for B+ → X(3872)K+ ,
+     X(3872) → J/ψ γ, Phys. Rev. D74 (2006) 071101(R), arXiv:hep-ex/0607050.
+
+[19] CDF collaboration, A. Abulencia et al., Analysis of the quantum numbers J PC of
+     the X(3872) particle, Phys. Rev. Lett. 98 (2007) 132002, arXiv:hep-ex/0612053.
+
+[20] BaBar collaboration, B. Aubert et al., Search for prompt production of
+     χc and X(3872) in e+ e− annihilations, Phys. Rev. D76 (2007) 071102(R),
+     arXiv:0707.1633.
+
+[21] BaBar collaboration, B. Aubert et al., Study of B → X(3872)K, with
+     X(3872) → J/ψ π+ π− , Phys. Rev. D77 (2008) 111101(R), arXiv:0803.2838.
+
+[22] CDF collaboration, T. Aaltonen et al., Precision measurement of the X(3872) mass
+     in J/ψ π+ π− decays, Phys. Rev. Lett. 103 (2009) 152001, arXiv:0906.5218.
+
+[23] BaBar collaboration, B. Aubert et al., Evidence for X(3872) → ψ(2S)γ in
+     B± → X(3872)K± decays and a study of B → ccγK, Phys. Rev. Lett. 102 (2009)
+     132001, arXiv:0809.0042.
+
+[24] Belle collaboration, T. Aushev et al., Study of the B → X(3872)(→ D∗0 D0 )K decay,
+     Phys. Rev. D81 (2010) 031103(R), arXiv:0810.0358.
+
+[25] BaBar collaboration, P. del Amo Sanchez et al., Evidence for the decay
+     X(3872) → J/ψ ω, Phys. Rev. D82 (2010) 011101(R), arXiv:1005.5190.
+
+[26] Belle collaboration, S.-K. Choi et al., Bounds on the width, mass difference and
+     other properties of X(3872) → π+ π− J/ψ decays, Phys. Rev. D84 (2011) 052004,
+     arXiv:1107.0163.
+
+[27] Belle collaboration, V. Bhardwaj et al., Observation of X(3872) → J/ψ γ and
+     search for X(3872) → ψ0 γ in B decays, Phys. Rev. Lett. 107 (2011) 091803,
+     arXiv:1105.0177.
+
+[28] LHCb collaboration,
+             √           R. Aaij et al., Observation of X(3872) production in pp colli-
+     sions at s =7 TeV, Eur. Phys. J. C72 (2012) 1972, arXiv:1112.5310.
+
+[29] LHCb collaboration, R. Aaij et al., Determination of the X(3872) meson quantum
+     numbers, Phys. Rev. Lett. 110 (2013) 222001, arXiv:1302.6269.
+
+
+                                         15
+[30] CMS collaboration, S. Chatrchyan et al., Measurement   √ of the X(3872) production
+                                      + −
+     cross section via decays to J/ψ π π in pp collisions at s = 7 TeV, JHEP 04 (2013)
+     154, arXiv:1302.3968.
+
+[31] BES III collaboration, M. Ablikim et al., Observation of e+ e− → γX(3872) at
+     BES III, Phys. Rev. Lett. 112 (2014) 092001, arXiv:1310.4101.
+
+[32] LHCb collaboration, R. Aaij et al., Evidence for the decay X(3872) → ψ(2S)γ, Nucl.
+     Phys. B886 (2014) 665, arXiv:1404.0275.
+
+[33] Belle collaboration, A. Bala et al., Observation of X(3872) in B → X(3872)Kπ
+     decays, Phys. Rev. D91 (2015) 051101(R), arXiv:1501.06867.
+
+[34] LHCb collaboration, R. Aaij et al., Quantum numbers of the X(3872) state and
+     orbital angular momentum in its ρ0 J/ψ decays, Phys. Rev. D92 (2015) 011102(R),
+     arXiv:1504.06339.
+
+[35] ATLAS collaboration, M. Aaboud et al., Measurements
+                                                     √           of ψ(2S) and
+                    + −
+     X(3872) → J/ψ π π production in pp collisions at s = 8 TeV with the ATLAS
+     detector, JHEP 01 (2017) 117, arXiv:1610.09303.
+
+[36] LHCb collaboration, R. Aaij et al., Observation of ηc (2S) → pp and search for
+     X(3872) → pp decays, Phys. Lett. B769 (2017) 305, arXiv:1607.06446.
+
+[37] LHCb collaboration, R. Aaij et al., Observation of the Λ0b → χc1 (3872)pK− decay,
+     JHEP 09 (2019) 028, arXiv:1907.00954.
+
+[38] Belle collaboration, P.-C. Chou et al., Search for B0 → X(3872)γ, Phys. Rev. D100
+     (2019) 012002, arXiv:1905.11718.
+
+[39] Belle collaboration, V. Bhardwaj et al., Search for X(3872) and X(3915) decay into
+     χc1 π0 in B decays at Belle, Phys. Rev. D99 (2019) 111101(R), arXiv:1904.07015.
+
+[40] CMS collaboration, A. M. Sirunyan et al., Observation of the B0s → X(3872)φ decay,
+     arXiv:2005.04764, submitted to Phys. Rev. Lett.
+
+[41] N. N. Achasov and E. V. Rogozina, X(3872), I G (J PC ) = 0 + (1 ++ ), as
+     the χc1 (2P) charmonium, Mod. Phys. Lett. A30 (2015) 1550181, arXiv:1501.03583.
+
+[42] N. A. Törnqvist, Isospin breaking of the narrow charmonium state of Belle
+     at 3872 MeV as a deuson, Phys. Lett. B590 (2004) 209, arXiv:hep-ph/0402237.
+
+[43] E. S. Swanson, Short range structure in the X(3872), Phys. Lett. B588 (2004) 189,
+     arXiv:hep-ph/0311229.
+
+[44] C.-Y. Wong, Molecular states of heavy quark mesons, Phys. Rev. C69 (2004) 055202,
+     arXiv:hep-ph/0311088.
+
+[45] L. Maiani, F. Piccinini, A. D. Polosa, and V. Riquer, Diquark-antidiquark states with
+     hidden or open charm and the nature of X(3872), Phys. Rev. D71 (2005) 014028,
+     arXiv:hep-ph/0412098.
+
+
+                                           16
+[46] B. A. Li, Is X(3872) a possible candidate as a hybrid meson?, Phys. Lett. B605
+     (2005) 306, arXiv:hep-ph/0410264.
+
+[47] K. K. Seth, An alternative interpretation of X(3872), Phys. Lett. B612 (2005) 1,
+     arXiv:hep-ph/0411122.
+
+[48] R. D. Matheus, F. S. Navarra, M. Nielsen, and C. M. Zanetti, QCD sum rules for
+     the X(3872) as a mixed molecule-charmonium state, Phys. Rev. D80 (2009) 056002,
+     arXiv:0907.2683.
+
+[49] W. Chen et al., QCD sum-rule interpretation of X(3872) with J PC = 1 ++ mixtures
+     of hybrid charmonium and DD∗ molecular currents, Phys. Rev. D88 (2013) 045027,
+     arXiv:1305.0244.
+
+[50] E. Braaten, L.-P. He, and K. Ingles, Production of X(3872) accompanied by a pion
+     in B meson decay, Phys. Rev. D100 (2019) 074028, arXiv:1902.03259.
+
+[51] LHCb collaboration, R. Aaij et al., Near-threshold DD spectroscopy and observation
+     of a new charmonium state, JHEP 07 (2019) 035, arXiv:1903.12240.
+
+[52] S. Piemonte et al., Charmonium resonances with J PC = 1 −− and 3 −− from DD scat-
+     tering on the lattice, Phys. Rev. D100 (2019) 074505, arXiv:1905.03506.
+
+[53] G.-L. Yu and Z.-G. Wang, Analysis of the X(3842) as a D-wave charmonium meson,
+     Int. J. Mod. Phys. A34 (2019) 1950151, arXiv:1907.00341.
+
+[54] E705 collaboration, L. Antoniazzi et al., Search for hidden charm states decaying
+     into J/ψ or ψ0 plus pions, Phys. Rev. D50 (1994) 4258.
+
+[55] Belle collaboration, V. Bhardwaj et al., Evidence of a new narrow resonance decaying
+     to χc1 γ in B → χc1 γK, Phys. Rev. Lett. 111 (2013) 032001, arXiv:1304.3975.
+
+[56] BES III collaboration, M. Ablikim et al., Observation of the ψ(13 D2 ) state
+     in e+ e− → π+ π− γχc1 at BES III, Phys. Rev. Lett. 115 (2015) 011803,
+     arXiv:1503.08203.
+
+[57] D. Ebert, R. N. Faustov, and V. O. Galkin, Properties of heavy quarkonia
+     and Bc mesons in the relativistic quark model, Phys. Rev. D67 (2003) 014027,
+     arXiv:hep-ph/0210381.
+
+[58] E. J. Eichten, K. Lane, and C. Quigg, B-meson gateways to missing charmonium
+     levels, Phys. Rev. Lett. 89 (2002) 162002, arXiv:hep-ph/0206018.
+
+[59] B. Wang et al., Using X(3823) → J/ψ π+ π− to identify coupled-channel effects, Front.
+     Phys. 11 (2016) 111402, arXiv:1507.07985.
+
+[60] H. Xu, X. Liu, and T. Matsuki, Understanding B− → X(3823)K− via rescatter-
+     ing mechanism and predicting B− → ηc2 (1 D2 )/ψ3 (3 D3 )K− , Phys. Rev. D94 (2016)
+     034005, arXiv:1605.04776.
+
+[61] LHCb collaboration, R. Aaij et al., Study of the line shape of the χc1 (3872) meson,
+     Phys. Rev. D102 (2020) 092005, arXiv:2005.13419.
+
+                                           17
+[62] LHCb collaboration, A. A. Alves Jr. et al., The LHCb detector at the LHC, JINST
+     3 (2008) S08005.
+
+[63] LHCb collaboration, R. Aaij et al., LHCb detector performance, Int. J. Mod. Phys.
+     A30 (2015) 1530022, arXiv:1412.6352.
+
+[64] R. Aaij et al., Performance of the LHCb Vertex Locator, JINST 9 (2014) P09007,
+     arXiv:1405.7808.
+
+[65] R. Arink et al., Performance of the LHCb Outer Tracker, JINST 9 (2014) P01002,
+     arXiv:1311.3893.
+
+[66] P. d’Argent et al., Improved performance of the LHCb Outer Tracker in LHC Run 2,
+     JINST 12 (2017) P11016, arXiv:1708.00819.
+
+[67] LHCb collaboration, R. Aaij et al., Measurement of the Λ0b , Ξ−        −
+                                                                   b , and Ωb baryon
+     masses, Phys. Rev. Lett. 110 (2013) 182001, arXiv:1302.1072.
+
+[68] LHCb collaboration, R. Aaij et al., Precision measurement of D meson mass
+     differences, JHEP 06 (2013) 065, arXiv:1304.6865.
+
+[69] M. Adinolfi et al., Performance of the LHCb RICH detector at the LHC, Eur. Phys.
+     J. C73 (2013) 2431, arXiv:1211.6759.
+
+[70] A. A. Alves Jr. et al., Performance of the LHCb muon system, JINST 8 (2013)
+     P02022, arXiv:1211.1346.
+
+[71] R. Aaij et al., The LHCb trigger and its performance in 2011, JINST 8 (2013)
+     P04022, arXiv:1211.3055.
+
+[72] T. Sjöstrand, S. Mrenna, and P. Skands, A brief introduction to Pythia 8.1, Comput.
+     Phys. Commun. 178 (2008) 852, arXiv:0710.3820.
+
+[73] I. Belyaev et al., Handling of the generation of primary events in Gauss, the LHCb
+     simulation framework, J. Phys. Conf. Ser. 331 (2011) 032047.
+
+[74] D. J. Lange, The EvtGen particle decay simulation package, Nucl. Instrum. Meth.
+     A462 (2001) 152.
+
+[75] P. Golonka and Z. Was, Photos Monte Carlo: a precision tool for QED corrections
+     in Z and W decays, Eur. Phys. J. C45 (2006) 97, arXiv:hep-ph/0506026.
+
+[76] K. Gottfried, Hadronic transitions between quark-antiquark bound states, Phys. Rev.
+     Lett. 40 (1978) 598.
+
+[77] M. B. Voloshin, On dynamics of heavy quarks in a non-perturbative QCD vacuum,
+     Nucl. Phys. B154 (1979) 365.
+
+[78] M. E. Peskin, Short-distance analysis for heavy-quark systems: (I). Diagrammatics,
+     Nucl. Phys. B156 (1979) 365.
+
+[79] G. Bhanot and M. E. Peskin, Short-distance analysis for heavy-quark systems:
+     (II). Applications, Nucl. Phys. B156 (1979) 391.
+
+                                          18
+[80] Geant4 collaboration, J. Allison et al., Geant4 developments and applications,
+     IEEE Trans. Nucl. Sci. 53 (2006) 270; Geant4 collaboration, S. Agostinelli et al.,
+     Geant4 – a simulation toolkit, Nucl. Instrum. Meth. A506 (2003) 250.
+
+[81] M. Clemencic et al., The LHCb simulation application, Gauss: design, evolution
+     and experience, J. Phys. Conf. Ser. 331 (2011) 032023.
+
+[82] LHCb collaboration, R. Aaij et al., Measurement of the track reconstruction efficiency
+     at LHCb, JINST 10 (2015) P02007, arXiv:1408.1251.
+
+[83] LHCb collaboration, R. Aaij et al., Measurement of relative branching frac-
+     tions of B decays to ψ(2S) and J/ψ mesons, Eur. Phys. J. C72 (2012) 2118,
+     arXiv:1205.0918.
+                                                                                  ∗+
+[84] LHCb collaboration, R. Aaij et al., Observation of B+        +      +
+                                                         c → J/ψ Ds and Bc → J/ψ Ds
+     decays, Phys. Rev. D87 (2013) 112012, Erratum ibid. D89 (2014) 019901,
+     arXiv:1304.4530.
+
+[85] LHCb collaboration, R. Aaij et al., Observation of B0s → χc1 φ decay and study of
+     B0 → χc1,2 K∗0 decays, Nucl. Phys. B874 (2013) 663, arXiv:1305.6511.
+                                                                            + − +
+[86] LHCb collaboration, R. Aaij et al., Observation of the decay B+
+                                                                   c → J/ψ K K π ,
+     JHEP 11 (2013) 094, arXiv:1309.0587.
+                                                                              −
+[87] LHCb collaboration, R. Aaij et al., Evidence for the decay B+         +
+                                                                 c → J/ψ 3π 2π , JHEP
+     05 (2014) 148, arXiv:1404.0287.
+
+[88] LHCb collaboration, R. Aaij et al., Measurement of the lifetime of the B+
+                                                                             c meson
+                +        +
+     using the Bc → J/ψ π decay mode, Phys. Lett. B742 (2015) 29, arXiv:1411.6899.
+
+[89] LHCb collaboration, R. Aaij et al., Observation of Λ0b → ψ(2S)pK− and
+     Λ0b → J/ψ π+ π− pK− decays and a measurement of the Λ0b baryon mass, JHEP 05
+     (2016) 132, arXiv:1603.06961.
+
+[90] LHCb collaboration, R. Aaij et al., Observation of B+ → J/ψ 3π+ 2π− and
+     B+ → ψ(2S)π+ π+ π− decays, Eur. Phys. J. C77 (2017) 72, arXiv:1610.01383.
+
+[91] LHCb collaboration, R. Aaij et al., Observation of the decay Λ0b → ψ(2S)pπ− , JHEP
+     08 (2018) 131, arXiv:1806.08084.
+
+[92] LHCb collaboration, R. Aaij et al., Observation of new resonances in the Λ0b π+ π−
+     system, Phys. Rev. Lett. 123 (2019) 152001, arXiv:1907.13598.
+
+[93] LHCb collaboration, R. Aaij et al., Observation of a new baryon state in the Λ0b π+ π−
+     mass spectrum, JHEP 06 (2020) 136, arXiv:2002.05112.
+
+[94] L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone, Classification and
+     regression trees, Wadsworth international group, Belmont, California, USA, 1984.
+
+[95] A. Powell et al., Particle identification at LHCb, PoS ICHEP2010 (2010) 020,
+     LHCb-PROC-2011-008.
+
+
+                                           19
+ [96] W. D. Hulsbergen, Decay chain fitting with a Kalman filter, Nucl. Instrum. Meth.
+      A552 (2005) 566, arXiv:physics/0503191.
+ [97] S. Geisser, Predictive inference: an introduction, Chapman & Hall, New York, 1993.
+ [98] G. Punzi, Sensitivity of searches for new signals and its optimization, eConf
+      C030908 (2003) MODT002, arXiv:physics/0308063.
+ [99] LHCb collaboration,
+              √           R. Aaij et al., Observation of J/ψ -pair production in pp colli-
+      sions at s =7 TeV, Phys. Lett. B707 (2012) 52, arXiv:1109.0963.
+[100] T. Skwarnicki, A study of the radiative cascade transitions between the Υ0 and
+      Υ resonances, PhD thesis, Institute of Nuclear Physics, Krakow, 1986, DESY-F31-
+      86-02.
+[101] C. Hanhart, Yu. S. Kalashnikova, A. E. Kudryavtsev, and A. V. Nefediev, Reconciling
+      the X(3872) with the near-threshold enhancement in the D0 D∗0 final state, Phys.
+      Rev. D76 (2007) 034007, arXiv:0704.0605.
+[102] E. Braaten and J. Stapleton, Analysis of J/ψ π+ π− and D0 D0 π0 decays of
+      the X(3872), Phys. Rev. D81 (2010) 014019, arXiv:0907.3167.
+[103] Yu. S. Kalashnikova and A. V. Nefediev, Nature of X(3872) from data, Phys. Rev.
+      D80 (2009) 074004, arXiv:0907.4901.
+[104] P. Artoisenet, E. Braaten, and D. Kang, Using line shapes to discriminate
+      between binding mechanisms for the X(3872), Phys. Rev. D82 (2010) 014013,
+      arXiv:1005.2167.
+[105] C. Hanhart, Yu. S. Kalashnikova, and A. V. Nefediev, Interplay of quark and meson
+      degrees of freedom in a near-threshold resonance: multi-channel case, Eur. Phys. J.
+      A47 (2011) 101, arXiv:1106.1185.
+[106] E. Byckling and K. Kajantie, Particle kinematics, John Wiley & Sons Inc., New
+      York, 1973.
+[107] S. S. Wilks, The large-sample distribution of the likelihood ratio for testing composite
+      hypotheses, Ann. Math. Stat. 9 (1938) 60.
+[108] R. Aaij et al., Selection and processing of calibration samples to measure the particle
+      identification performance of the LHCb experiment in Run 2, EPJ Tech. Instrum. 6
+      (2019) 1, arXiv:1803.00824.
+[109] S. Jackman, Bayesian analysis for the social sciences, John Wiley & Sons, Inc.,
+      Hoboken, New Jersey, USA, 2009.
+[110] D. Martı́nez Santos and F. Dupertuis, Mass distributions marginalized over per-event
+      errors, Nucl. Instrum. Meth. A764 (2014) 150, arXiv:1312.5000.
+[111] BaBar collaboration, J. P. Lees et al., Branching fraction measurements of the color-
+      suppressed decays B0 to D(∗)0 π0 , D(∗)0 η, D(∗)0 ω, and D(∗)0 η0 and measurement of
+      the polarization in the decay B0 → D∗0 ω, Phys. Rev. D84 (2011) 112007, Erratum
+      ibid. 87 (2013) 039901(E), arXiv:1107.5751.
+
+                                             20
+[112] J. M. Blatt and V. F. Weisskopf, Theoretical nuclear physics, Springer, New York,
+      1952.
+
+[113] Y.-P. Kuang, S. F. Tuan, and T.-M. Yan, Hadronic transitions and 1 P1 states of
+      heavy quarkonia, Phys. Rev. D37 (1988) 1210.
+
+[114] X. Liu, X.-Q. Zeng, and X.-Q. Li, Study on contributions of hadronic loops to
+      decays of J/ψ → vector + pseudoscalar mesons, Phys. Rev. D74 (2006) 074003,
+      arXiv:hep-ph/0606191.
+
+[115] LHCb collaboration, R. Aaij et al., Measurements of B+
+                                                           c production and mass with
+           +        +
+      the Bc → J/ψ π decay, Phys. Rev. Lett. 109 (2012) 232001, arXiv:1209.5634.
+
+[116] LHCb collaboration, R. Aaij et al., Study of beauty hadron decays into pairs of
+      charm hadrons, Phys. Rev. Lett. 112 (2014) 202001, arXiv:1403.3606.
+
+[117] LHCb collaboration, R. Aaij et al., Precision measurement of the mass and lifetime
+      of the Ξ0b baryon, Phys. Rev. Lett. 113 (2014) 032001, arXiv:1405.7223.
+
+[118] LHCb collaboration, R. Aaij et al., Precision measurement of the mass and lifetime
+      of the Ξ−
+              b baryon, Phys. Rev. Lett. 113 (2014) 242002, arXiv:1409.8568.
+
+[119] LHCb collaboration, R. Aaij et al., Measurements of the mass and lifetime of the Ω−
+                                                                                        b
+      baryon, Phys. Rev. D93 (2016) 092007, arXiv:1604.01412.
+
+[120] LHCb collaboration, R. Aaij et al., Observation of the decays Λ0b → χc1 pK− and
+      Λ0b → χc2 pK− , Phys. Rev. Lett. 119 (2017) 062001, arXiv:1704.07900.
+
+[121] LHCb collaboration, R. Aaij et al., Observation of an excited B+
+                                                                     c state, Phys. Rev.
+      Lett. 122 (2019) 232001, arXiv:1904.00081.
+
+[122] LHCb collaboration, R. Aaij et al., Precision measurement of the Ξ++
+                                                                        cc mass, JHEP
+      02 (2020) 049, arXiv:1911.08594.
+
+[123] LHCb collaboration, R. Aaij et al., First observation of excited Ω−
+                                                                        b states, Phys.
+      Rev. Lett. 124 (2020) 082002, arXiv:2001.00851.
+
+[124] LHCb collaboration, R. Aaij et al., Precision measurement of the B+
+                                                                        c meson mass,
+      arXiv:2004.08163, to appear in JHEP.
+
+[125] M. Pivk and F. R. Le Diberder, sPlot: A statistical tool to unfold data distributions,
+      Nucl. Instrum. Meth. A555 (2005) 356, arXiv:physics/0402083.
+
+
+
+
+                                            21
+                                   LHCb collaboration
+R. Aaij31 , C. Abellán Beteta49 , T. Ackernley59 , B. Adeva45 , M. Adinolfi53 , H. Afsharnia9 ,
+C.A. Aidala82 , S. Aiola25 , Z. Ajaltouni9 , S. Akar64 , J. Albrecht14 , F. Alessio47 , M. Alexander58 ,
+A. Alfonso Albero44 , Z. Aliouche61 , G. Alkhazov37 , P. Alvarez Cartelle47 , A.A. Alves Jr45 ,
+S. Amato2 , Y. Amhis11 , L. An21 , L. Anderlini21 , G. Andreassi48 , A. Andreianov37 ,
+M. Andreotti20 , F. Archilli16 , A. Artamonov43 , M. Artuso67 , K. Arzymatov41 , E. Aslanides10 ,
+M. Atzeni49 , B. Audurier11 , S. Bachmann16 , M. Bachmayer48 , J.J. Back55 , S. Baker60 ,
+P. Baladron Rodriguez45 , V. Balagura11,b , W. Baldini20 , J. Baptista Leite1 , R.J. Barlow61 ,
+S. Barsuk11 , W. Barter60 , M. Bartolini23,47,h , F. Baryshnikov79 , J.M. Basels13 , G. Bassi28 ,
+V. Batozskaya35 , B. Batsukh67 , A. Battig14 , A. Bay48 , M. Becker14 , F. Bedeschi28 , I. Bediaga1 ,
+A. Beiter67 , V. Belavin41 , S. Belin26 , V. Bellee48 , K. Belous43 , I. Belyaev38 , G. Bencivenni22 ,
+E. Ben-Haim12 , A. Berezhnoy39 , R. Bernet49 , D. Berninghoff16 , H.C. Bernstein67 , C. Bertella47 ,
+E. Bertholet12 , A. Bertolin27 , C. Betancourt49 , F. Betti19,e , M.O. Bettler54 , Ia. Bezshyiko49 ,
+S. Bhasin53 , J. Bhom33 , L. Bian72 , M.S. Bieker14 , S. Bifani52 , P. Billoir12 , F.C.R. Bishop54 ,
+A. Bizzeti21,t , M. Bjørn62 , M.P. Blago47 , T. Blake55 , F. Blanc48 , S. Blusk67 , D. Bobulska58 ,
+V. Bocci30 , J.A. Boelhauve14 , O. Boente Garcia45 , T. Boettcher63 , A. Boldyrev80 ,
+A. Bondar42,w , N. Bondar37,47 , S. Borghi61 , M. Borisyak41 , M. Borsato16 , J.T. Borsuk33 ,
+S.A. Bouchiba48 , T.J.V. Bowcock59 , A. Boyer47 , C. Bozzi20 , M.J. Bradley60 , S. Braun65 ,
+A. Brea Rodriguez45 , M. Brodski47 , J. Brodzicka33 , A. Brossa Gonzalo55 , D. Brundu26 ,
+E. Buchanan53 , A. Buonaura49 , C. Burr47 , A. Bursche26 , A. Butkevich40 , J.S. Butter31 ,
+J. Buytaert47 , W. Byczynski47 , S. Cadeddu26 , H. Cai72 , R. Calabrese20,g , L. Calero Diaz22 ,
+S. Cali22 , R. Calladine52 , M. Calvi24,i , M. Calvo Gomez44,l , P. Camargo Magalhaes53 ,
+A. Camboni44 , P. Campana22 , D.H. Campora Perez31 , A.F. Campoverde Quezada5 ,
+S. Capelli24,i , L. Capriotti19,e , A. Carbone19,e , G. Carboni29 , R. Cardinale23,h , A. Cardini26 ,
+I. Carli6 , P. Carniti24,i , K. Carvalho Akiba31 , A. Casais Vidal45 , G. Casse59 , M. Cattaneo47 ,
+G. Cavallero47 , S. Celani48 , R. Cenci28 , J. Cerasoli10 , A.J. Chadwick59 , M.G. Chapman53 ,
+M. Charles12 , Ph. Charpentier47 , G. Chatzikonstantinidis52 , M. Chefdeville8 , C. Chen3 ,
+S. Chen26 , A. Chernov33 , S.-G. Chitic47 , V. Chobanova45 , S. Cholak48 , M. Chrzaszcz33 ,
+A. Chubykin37 , V. Chulikov37 , P. Ciambrone22 , M.F. Cicala55 , X. Cid Vidal45 , G. Ciezarek47 ,
+F. Cindolo19 , P.E.L. Clarke57 , M. Clemencic47 , H.V. Cliff54 , J. Closier47 , J.L. Cobbledick61 ,
+V. Coco47 , J.A.B. Coelho11 , J. Cogan10 , E. Cogneras9 , L. Cojocariu36 , P. Collins47 ,
+T. Colombo47 , A. Contu26 , N. Cooke52 , G. Coombs58 , S. Coquereau44 , G. Corti47 ,
+C.M. Costa Sobral55 , B. Couturier47 , D.C. Craik63 , J. Crkovská66 , M. Cruz Torres1,y ,
+R. Currie57 , C.L. Da Silva66 , E. Dall’Occo14 , J. Dalseno45 , C. D’Ambrosio47 , A. Danilina38 ,
+P. d’Argent47 , A. Davis61 , O. De Aguiar Francisco47 , K. De Bruyn47 , S. De Capua61 ,
+M. De Cian48 , J.M. De Miranda1 , L. De Paula2 , M. De Serio18,d , D. De Simone49 ,
+P. De Simone22 , J.A. de Vries77 , C.T. Dean66 , W. Dean82 , D. Decamp8 , L. Del Buono12 ,
+B. Delaney54 , H.-P. Dembinski14 , A. Dendek34 , V. Denysenko49 , D. Derkach80 , O. Deschamps9 ,
+F. Desse11 , F. Dettori26,f , B. Dey7 , A. Di Canto47 , P. Di Nezza22 , S. Didenko79 , H. Dijkstra47 ,
+V. Dobishuk51 , A.M. Donohoe17 , F. Dordei26 , M. Dorigo28,x , A.C. dos Reis1 , L. Douglas58 ,
+A. Dovbnya50 , A.G. Downes8 , K. Dreimanis59 , M.W. Dudek33 , L. Dufour47 , P. Durante47 ,
+J.M. Durham66 , D. Dutta61 , M. Dziewiecki16 , A. Dziurda33 , A. Dzyuba37 , S. Easo56 ,
+U. Egede69 , V. Egorychev38 , S. Eidelman42,w , S. Eisenhardt57 , S. Ek-In48 , L. Eklund58 , S. Ely67 ,
+A. Ene36 , E. Epple66 , S. Escher13 , J. Eschle49 , S. Esen31 , T. Evans47 , A. Falabella19 , J. Fan3 ,
+Y. Fan5 , B. Fang72 , N. Farley52 , S. Farry59 , D. Fazzini11 , P. Fedin38 , M. Féo47 ,
+P. Fernandez Declara47 , A. Fernandez Prieto45 , F. Ferrari19,e , L. Ferreira Lopes48 ,
+F. Ferreira Rodrigues2 , S. Ferreres Sole31 , M. Ferrillo49 , M. Ferro-Luzzi47 , S. Filippov40 ,
+R.A. Fini18 , M. Fiorini20,g , M. Firlej34 , K.M. Fischer62 , C. Fitzpatrick61 , T. Fiutowski34 ,
+F. Fleuret11,b , M. Fontana47 , F. Fontanelli23,h , R. Forty47 , V. Franco Lima59 ,
+
+
+                                                  22
+M. Franco Sevilla65 , M. Frank47 , E. Franzoso20 , G. Frau16 , C. Frei47 , D.A. Friday58 , J. Fu25,p ,
+Q. Fuehring14 , W. Funk47 , E. Gabriel57 , T. Gaintseva41 , A. Gallas Torreira45 , D. Galli19,e ,
+S. Gallorini27 , S. Gambetta57 , Y. Gan3 , M. Gandelman2 , P. Gandini25 , Y. Gao4 , M. Garau26 ,
+L.M. Garcia Martin46 , P. Garcia Moreno44 , J. Garcı́a Pardiñas49 , B. Garcia Plana45 ,
+F.A. Garcia Rosales11 , L. Garrido44 , D. Gascon44 , C. Gaspar47 , R.E. Geertsema31 , D. Gerick16 ,
+E. Gersabeck61 , M. Gersabeck61 , T. Gershon55 , D. Gerstel10 , Ph. Ghez8 , V. Gibson54 ,
+A. Gioventù45 , P. Gironella Gironell44 , L. Giubega36 , C. Giugliano20,g , K. Gizdov57 ,
+V.V. Gligorov12 , C. Göbel70 , E. Golobardes44,l , D. Golubkov38 , A. Golutvin60,79 , A. Gomes1,a ,
+M. Goncerz33 , P. Gorbounov38 , I.V. Gorelov39 , C. Gotti24,i , E. Govorkova31 , J.P. Grabowski16 ,
+R. Graciani Diaz44 , T. Grammatico12 , L.A. Granado Cardoso47 , E. Graugés44 , E. Graverini48 ,
+G. Graziani21 , A. Grecu36 , L.M. Greeven31 , P. Griffith20,g , L. Grillo61 , L. Gruber47 ,
+B.R. Gruberg Cazon62 , C. Gu3 , M. Guarise20 , P. A. Günther16 , E. Gushchin40 , A. Guth13 ,
+Yu. Guz43,47 , T. Gys47 , T. Hadavizadeh69 , G. Haefeli48 , C. Haen47 , S.C. Haines54 ,
+P.M. Hamilton65 , Q. Han7 , X. Han16 , T.H. Hancock62 , S. Hansmann-Menzemer16 , N. Harnew62 ,
+T. Harrison59 , R. Hart31 , C. Hasse47 , M. Hatch47 , J. He5 , M. Hecker60 , K. Heijhoff31 ,
+K. Heinicke14 , A.M. Hennequin47 , K. Hennessy59 , L. Henry25,46 , J. Heuel13 , A. Hicheur68 ,
+D. Hill62 , M. Hilton61 , S.E. Hollitt14 , P.H. Hopchev48 , J. Hu16 , J. Hu71 , W. Hu7 , W. Huang5 ,
+W. Hulsbergen31 , T. Humair60 , R.J. Hunter55 , M. Hushchyn80 , D. Hutchcroft59 , D. Hynds31 ,
+P. Ibis14 , M. Idzik34 , D. Ilin37 , P. Ilten52 , A. Inglessi37 , K. Ivshin37 , R. Jacobsson47 ,
+S. Jakobsen47 , E. Jans31 , B.K. Jashal46 , A. Jawahery65 , V. Jevtic14 , F. Jiang3 , M. John62 ,
+D. Johnson47 , C.R. Jones54 , T.P. Jones55 , B. Jost47 , N. Jurik62 , S. Kandybei50 , Y. Kang3 ,
+M. Karacson47 , J.M. Kariuki53 , N. Kazeev80 , M. Kecke16 , F. Keizer54,47 , M. Kelsey67 ,
+M. Kenzie55 , T. Ketel32 , B. Khanji47 , A. Kharisova81 , K.E. Kim67 , T. Kirn13 , V.S. Kirsebom48 ,
+O. Kitouni63 , S. Klaver22 , K. Klimaszewski35 , S. Koliiev51 , A. Kondybayeva79 ,
+A. Konoplyannikov38 , P. Kopciewicz34 , R. Kopecna16 , P. Koppenburg31 , M. Korolev39 ,
+I. Kostiuk31,51 , O. Kot51 , S. Kotriakhova37 , P. Kravchenko37 , L. Kravchuk40 , R.D. Krawczyk47 ,
+M. Kreps55 , F. Kress60 , S. Kretzschmar13 , P. Krokovny42,w , W. Krupa34 , W. Krzemien35 ,
+W. Kucewicz33,k , M. Kucharczyk33 , V. Kudryavtsev42,w , H.S. Kuindersma31 , G.J. Kunde66 ,
+T. Kvaratskheliya38 , D. Lacarrere47 , G. Lafferty61 , A. Lai26 , A. Lampis26 , D. Lancierini49 ,
+J.J. Lane61 , R. Lane53 , G. Lanfranchi22 , C. Langenbruch13 , O. Lantwin49,79 , T. Latham55 ,
+F. Lazzari28,u , R. Le Gac10 , S.H. Lee82 , R. Lefèvre9 , A. Leflat39,47 , O. Leroy10 , T. Lesiak33 ,
+B. Leverington16 , H. Li71 , L. Li62 , P. Li16 , X. Li66 , Y. Li6 , Y. Li6 , Z. Li67 , X. Liang67 , T. Lin60 ,
+R. Lindner47 , V. Lisovskyi14 , R. Litvinov26 , G. Liu71 , H. Liu5 , S. Liu6 , X. Liu3 , A. Loi26 ,
+J. Lomba Castro45 , I. Longstaff58 , J.H. Lopes2 , G. Loustau49 , G.H. Lovell54 , Y. Lu6 ,
+D. Lucchesi27,n , S. Luchuk40 , M. Lucio Martinez31 , V. Lukashenko31 , Y. Luo3 , A. Lupato61 ,
+E. Luppi20,g , O. Lupton55 , A. Lusiani28,s , X. Lyu5 , L. Ma6 , S. Maccolini19,e , F. Machefert11 ,
+F. Maciuc36 , V. Macko48 , P. Mackowiak14 , S. Maddrell-Mander53 , L.R. Madhan Mohan53 ,
+O. Maev37 , A. Maevskiy80 , D. Maisuzenko37 , M.W. Majewski34 , S. Malde62 , B. Malecki47 ,
+A. Malinin78 , T. Maltsev42,w , H. Malygina16 , G. Manca26,f , G. Mancinelli10 ,
+R. Manera Escalero44 , D. Manuzzi19,e , D. Marangotto25,p , J. Maratas9,v , J.F. Marchand8 ,
+U. Marconi19 , S. Mariani21,47,21 , C. Marin Benito11 , M. Marinangeli48 , P. Marino48 , J. Marks16 ,
+P.J. Marshall59 , G. Martellotti30 , L. Martinazzoli47 , M. Martinelli24,i , D. Martinez Santos45 ,
+F. Martinez Vidal46 , A. Massafferri1 , M. Materok13 , R. Matev47 , A. Mathad49 , Z. Mathe47 ,
+V. Matiunin38 , C. Matteuzzi24 , K.R. Mattioli82 , A. Mauri49 , E. Maurice11,b , M. Mazurek35 ,
+M. McCann60 , L. Mcconnell17 , T.H. Mcgrath61 , A. McNab61 , R. McNulty17 , J.V. Mead59 ,
+B. Meadows64 , C. Meaux10 , G. Meier14 , N. Meinert75 , D. Melnychuk35 , S. Meloni24,i , M. Merk31 ,
+A. Merli25 , L. Meyer Garcia2 , M. Mikhasenko47 , D.A. Milanes73 , E. Millard55 , M.-N. Minard8 ,
+O. Mineev38 , L. Minzoni20,g , S.E. Mitchell57 , B. Mitreska61 , D.S. Mitzel47 , A. Mödden14 ,
+R.A. Mohammed62 , R.D. Moise60 , T. Mombächer14 , I.A. Monroy73 , S. Monteil9 , M. Morandin27 ,
+G. Morello22 , M.J. Morello28,s , J. Moron34 , A.B. Morris10 , A.G. Morris55 , R. Mountain67 ,
+
+
+                                                     23
+H. Mu3 , F. Muheim57 , M. Mukherjee7 , M. Mulder47 , D. Müller47 , K. Müller49 , C.H. Murphy62 ,
+D. Murray61 , P. Muzzetto26 , P. Naik53 , T. Nakada48 , R. Nandakumar56 , T. Nanut48 ,
+I. Nasteva2 , M. Needham57 , I. Neri20,g , N. Neri25,p , S. Neubert74 , N. Neufeld47 , R. Newcombe60 ,
+T.D. Nguyen48 , C. Nguyen-Mau48,m , E.M. Niel11 , S. Nieswand13 , N. Nikitin39 , N.S. Nolte47 ,
+C. Nunez82 , A. Oblakowska-Mucha34 , V. Obraztsov43 , S. Ogilvy58 , D.P. O’Hanlon53 ,
+R. Oldeman26,f , C.J.G. Onderwater76 , J. D. Osborn82 , A. Ossowska33 , J.M. Otalora Goicochea2 ,
+T. Ovsiannikova38 , P. Owen49 , A. Oyanguren46 , B. Pagare55 , P.R. Pais47 , T. Pajero28,28,47,s ,
+A. Palano18 , M. Palutan22 , Y. Pan61 , G. Panshin81 , A. Papanestis56 , M. Pappagallo57 ,
+L.L. Pappalardo20,g , C. Pappenheimer64 , W. Parker65 , C. Parkes61 , C.J. Parkinson45 ,
+G. Passaleva21,47 , A. Pastore18 , M. Patel60 , C. Patrignani19,e , A. Pearce47 , A. Pellegrino31 ,
+M. Pepe Altarelli47 , S. Perazzini19 , D. Pereima38 , P. Perret9 , K. Petridis53 , A. Petrolini23,h ,
+A. Petrov78 , S. Petrucci57 , M. Petruzzo25 , A. Philippov41 , L. Pica28 , B. Pietrzyk8 , G. Pietrzyk48 ,
+M. Pili62 , D. Pinci30 , J. Pinzino47 , F. Pisani47 , A. Piucci16 , V. Placinta36 , S. Playfer57 ,
+J. Plews52 , M. Plo Casasus45 , F. Polci12 , M. Poli Lener22 , M. Poliakova67 , A. Poluektov10 ,
+N. Polukhina79,c , I. Polyakov67 , E. Polycarpo2 , G.J. Pomery53 , S. Ponce47 , A. Popov43 ,
+D. Popov5,47 , S. Popov41 , S. Poslavskii43 , K. Prasanth33 , L. Promberger47 , C. Prouve45 ,
+V. Pugatch51 , A. Puig Navarro49 , H. Pullen62 , G. Punzi28,o , W. Qian5 , J. Qin5 , R. Quagliani12 ,
+B. Quintana8 , N.V. Raab17 , R.I. Rabadan Trejo10 , B. Rachwal34 , J.H. Rademacker53 ,
+M. Rama28 , M. Ramos Pernas45 , M.S. Rangel2 , F. Ratnikov41,80 , G. Raven32 , M. Reboud8 ,
+F. Redi48 , F. Reiss12 , C. Remon Alepuz46 , Z. Ren3 , V. Renaudin62 , R. Ribatti28 , S. Ricciardi56 ,
+D.S. Richards56 , K. Rinnert59 , P. Robbe11 , A. Robert12 , G. Robertson57 , A.B. Rodrigues48 ,
+E. Rodrigues59 , J.A. Rodriguez Lopez73 , M. Roehrken47 , A. Rollings62 , V. Romanovskiy43 ,
+M. Romero Lamas45 , A. Romero Vidal45 , J.D. Roth82 , M. Rotondo22 , M.S. Rudolph67 ,
+T. Ruf47 , J. Ruiz Vidal46 , A. Ryzhikov80 , J. Ryzka34 , J.J. Saborido Silva45 , N. Sagidova37 ,
+N. Sahoo55 , B. Saitta26,f , C. Sanchez Gras31 , C. Sanchez Mayordomo46 , R. Santacesaria30 ,
+C. Santamarina Rios45 , M. Santimaria22 , E. Santovetti29,j , G. Sarpis61 , M. Sarpis74 , A. Sarti30 ,
+C. Satriano30,r , A. Satta29 , M. Saur5 , D. Savrina38,39 , H. Sazak9 , L.G. Scantlebury Smead62 ,
+S. Schael13 , M. Schellenberg14 , M. Schiller58 , H. Schindler47 , M. Schmelling15 , T. Schmelzer14 ,
+B. Schmidt47 , O. Schneider48 , A. Schopper47 , H.F. Schreiner64 , M. Schubiger31 , S. Schulte48 ,
+M.H. Schune11 , R. Schwemmer47 , B. Sciascia22 , A. Sciubba22 , S. Sellam68 , A. Semennikov38 ,
+A. Sergi52,47 , N. Serra49 , J. Serrano10 , L. Sestini27 , A. Seuthe14 , P. Seyfert47 , D.M. Shangase82 ,
+M. Shapkin43 , L. Shchutska48 , T. Shears59 , L. Shekhtman42,w , V. Shevchenko78 , E.B. Shields24,i ,
+E. Shmanin79 , J.D. Shupperd67 , B.G. Siddi20 , R. Silva Coutinho49 , L. Silva de Oliveira2 ,
+G. Simi27,n , S. Simone18,d , I. Skiba20,g , N. Skidmore74 , T. Skwarnicki67 , M.W. Slater52 ,
+J.C. Smallwood62 , J.G. Smeaton54 , A. Smetkina38 , E. Smith13 , M. Smith60 , A. Snoch31 ,
+M. Soares19 , L. Soares Lavra9 , M.D. Sokoloff64 , F.J.P. Soler58 , A. Solovev37 , I. Solovyev37 ,
+F.L. Souza De Almeida2 , B. Souza De Paula2 , B. Spaan14 , E. Spadaro Norella25,p , P. Spradlin58 ,
+F. Stagni47 , M. Stahl64 , S. Stahl47 , P. Stefko48 , O. Steinkamp49,79 , S. Stemmle16 ,
+O. Stenyakin43 , H. Stevens14 , S. Stone67 , S. Stracka28 , M.E. Stramaglia48 , M. Straticiuc36 ,
+D. Strekalina79 , S. Strokov81 , F. Suljik62 , J. Sun26 , L. Sun72 , Y. Sun65 , P. Svihra61 ,
+P.N. Swallow52 , K. Swientek34 , A. Szabelski35 , T. Szumlak34 , M. Szymanski47 , S. Taneja61 ,
+Z. Tang3 , T. Tekampe14 , F. Teubert47 , E. Thomas47 , K.A. Thomson59 , M.J. Tilley60 ,
+V. Tisserand9 , S. T’Jampens8 , M. Tobin6 , S. Tolk47 , L. Tomassetti20,g , D. Torres Machado1 ,
+D.Y. Tou12 , M. Traill58 , M.T. Tran48 , E. Trifonova79 , C. Trippl48 , A. Tsaregorodtsev10 ,
+G. Tuci28,o , A. Tully48 , N. Tuning31 , A. Ukleja35 , D.J. Unverzagt16 , A. Usachov31 ,
+A. Ustyuzhanin41,80 , U. Uwer16 , A. Vagner81 , V. Vagnoni19 , A. Valassi47 , G. Valenti19 ,
+M. van Beuzekom31 , H. Van Hecke66 , E. van Herwijnen79 , C.B. Van Hulse17 , M. van Veghel76 ,
+R. Vazquez Gomez45 , P. Vazquez Regueiro45 , C. Vázquez Sierra31 , S. Vecchi20 , J.J. Velthuis53 ,
+M. Veltri21,q , A. Venkateswaran67 , M. Veronesi31 , M. Vesterinen55 , D. Vieira64 ,
+M. Vieites Diaz48 , H. Viemann75 , X. Vilasis-Cardona83,44,l , E. Vilella Figueras59 , P. Vincent12 ,
+
+
+                                                   24
+G. Vitali28 , A. Vitkovskiy31 , A. Vollhardt49 , D. Vom Bruch12 , A. Vorobyev37 , V. Vorobyev42,w ,
+N. Voropaev37 , R. Waldi75 , J. Walsh28 , J. Wang3 , J. Wang72 , J. Wang4 , J. Wang6 , M. Wang3 ,
+R. Wang53 , Y. Wang7 , Z. Wang49 , D.R. Ward54 , H.M. Wark59 , N.K. Watson52 , S.G. Weber12 ,
+D. Websdale60 , C. Weisser63 , B.D.C. Westhenry53 , D.J. White61 , M. Whitehead53 ,
+D. Wiedner14 , G. Wilkinson62 , M. Wilkinson67 , I. Williams54 , M. Williams63,69 ,
+M.R.J. Williams61 , F.F. Wilson56 , W. Wislicki35 , M. Witek33 , L. Witola16 , G. Wormser11 ,
+S.A. Wotton54 , H. Wu67 , K. Wyllie47 , Z. Xiang5 , D. Xiao7 , Y. Xie7 , H. Xing71 , A. Xu4 , J. Xu5 ,
+L. Xu3 , M. Xu7 , Q. Xu5 , Z. Xu4 , D. Yang3 , Y. Yang5 , Z. Yang3 , Z. Yang65 , Y. Yao67 ,
+L.E. Yeomans59 , H. Yin7 , J. Yu7 , X. Yuan67 , O. Yushchenko43 , K.A. Zarebski52 ,
+M. Zavertyaev15,c , M. Zdybal33 , O. Zenaiev47 , M. Zeng3 , D. Zhang7 , L. Zhang3 , S. Zhang4 ,
+Y. Zhang47 , A. Zhelezov16 , Y. Zheng5 , X. Zhou5 , Y. Zhou5 , X. Zhu3 , V. Zhukov13,39 ,
+J.B. Zonneveld57 , S. Zucchelli19,e , D. Zuliani27 , G. Zunica61 .
+1
+  Centro Brasileiro de Pesquisas Fı́sicas (CBPF), Rio de Janeiro, Brazil
+2
+  Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil
+3
+  Center for High Energy Physics, Tsinghua University, Beijing, China
+4
+  School of Physics State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing,
+China
+5
+  University of Chinese Academy of Sciences, Beijing, China
+6
+  Institute Of High Energy Physics (IHEP), Beijing, China
+7
+  Institute of Particle Physics, Central China Normal University, Wuhan, Hubei, China
+8
+  Univ. Grenoble Alpes, Univ. Savoie Mont Blanc, CNRS, IN2P3-LAPP, Annecy, France
+9
+  Université Clermont Auvergne, CNRS/IN2P3, LPC, Clermont-Ferrand, France
+10
+   Aix Marseille Univ, CNRS/IN2P3, CPPM, Marseille, France
+11
+   Université Paris-Saclay, CNRS/IN2P3, IJCLab, Orsay, France
+12
+   LPNHE, Sorbonne Université, Paris Diderot Sorbonne Paris Cité, CNRS/IN2P3, Paris, France
+13
+   I. Physikalisches Institut, RWTH Aachen University, Aachen, Germany
+14
+   Fakultät Physik, Technische Universität Dortmund, Dortmund, Germany
+15
+   Max-Planck-Institut für Kernphysik (MPIK), Heidelberg, Germany
+16
+   Physikalisches Institut, Ruprecht-Karls-Universität Heidelberg, Heidelberg, Germany
+17
+   School of Physics, University College Dublin, Dublin, Ireland
+18
+   INFN Sezione di Bari, Bari, Italy
+19
+   INFN Sezione di Bologna, Bologna, Italy
+20
+   INFN Sezione di Ferrara, Ferrara, Italy
+21
+   INFN Sezione di Firenze, Firenze, Italy
+22
+   INFN Laboratori Nazionali di Frascati, Frascati, Italy
+23
+   INFN Sezione di Genova, Genova, Italy
+24
+   INFN Sezione di Milano-Bicocca, Milano, Italy
+25
+   INFN Sezione di Milano, Milano, Italy
+26
+   INFN Sezione di Cagliari, Monserrato, Italy
+27
+   INFN Sezione di Padova, Padova, Italy
+28
+   INFN Sezione di Pisa, Pisa, Italy
+29
+   INFN Sezione di Roma Tor Vergata, Roma, Italy
+30
+   INFN Sezione di Roma La Sapienza, Roma, Italy
+31
+   Nikhef National Institute for Subatomic Physics, Amsterdam, Netherlands
+32
+   Nikhef National Institute for Subatomic Physics and VU University Amsterdam, Amsterdam,
+Netherlands
+33
+   Henryk Niewodniczanski Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland
+34
+   AGH - University of Science and Technology, Faculty of Physics and Applied Computer Science,
+Kraków, Poland
+35
+   National Center for Nuclear Research (NCBJ), Warsaw, Poland
+36
+   Horia Hulubei National Institute of Physics and Nuclear Engineering, Bucharest-Magurele, Romania
+37
+   Petersburg Nuclear Physics Institute NRC Kurchatov Institute (PNPI NRC KI), Gatchina, Russia
+38
+   Institute of Theoretical and Experimental Physics NRC Kurchatov Institute (ITEP NRC KI), Moscow,
+Russia, Moscow, Russia
+
+
+                                                  25
+39
+   Institute of Nuclear Physics, Moscow State University (SINP MSU), Moscow, Russia
+40
+   Institute for Nuclear Research of the Russian Academy of Sciences (INR RAS), Moscow, Russia
+41
+   Yandex School of Data Analysis, Moscow, Russia
+42
+   Budker Institute of Nuclear Physics (SB RAS), Novosibirsk, Russia
+43
+   Institute for High Energy Physics NRC Kurchatov Institute (IHEP NRC KI), Protvino, Russia,
+Protvino, Russia
+44
+   ICCUB, Universitat de Barcelona, Barcelona, Spain
+45
+   Instituto Galego de Fı́sica de Altas Enerxı́as (IGFAE), Universidade de Santiago de Compostela,
+Santiago de Compostela, Spain
+46
+   Instituto de Fisica Corpuscular, Centro Mixto Universidad de Valencia - CSIC, Valencia, Spain
+47
+   European Organization for Nuclear Research (CERN), Geneva, Switzerland
+48
+   Institute of Physics, Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland
+49
+   Physik-Institut, Universität Zürich, Zürich, Switzerland
+50
+   NSC Kharkiv Institute of Physics and Technology (NSC KIPT), Kharkiv, Ukraine
+51
+   Institute for Nuclear Research of the National Academy of Sciences (KINR), Kyiv, Ukraine
+52
+   University of Birmingham, Birmingham, United Kingdom
+53
+   H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom
+54
+   Cavendish Laboratory, University of Cambridge, Cambridge, United Kingdom
+55
+   Department of Physics, University of Warwick, Coventry, United Kingdom
+56
+   STFC Rutherford Appleton Laboratory, Didcot, United Kingdom
+57
+   School of Physics and Astronomy, University of Edinburgh, Edinburgh, United Kingdom
+58
+   School of Physics and Astronomy, University of Glasgow, Glasgow, United Kingdom
+59
+   Oliver Lodge Laboratory, University of Liverpool, Liverpool, United Kingdom
+60
+   Imperial College London, London, United Kingdom
+61
+   Department of Physics and Astronomy, University of Manchester, Manchester, United Kingdom
+62
+   Department of Physics, University of Oxford, Oxford, United Kingdom
+63
+   Massachusetts Institute of Technology, Cambridge, MA, United States
+64
+   University of Cincinnati, Cincinnati, OH, United States
+65
+   University of Maryland, College Park, MD, United States
+66
+   Los Alamos National Laboratory (LANL), Los Alamos, United States
+67
+   Syracuse University, Syracuse, NY, United States
+68
+   Laboratory of Mathematical and Subatomic Physics , Constantine, Algeria, associated to 2
+69
+   School of Physics and Astronomy, Monash University, Melbourne, Australia, associated to 55
+70
+   Pontifı́cia Universidade Católica do Rio de Janeiro (PUC-Rio), Rio de Janeiro, Brazil, associated to 2
+71
+   Guangdong Provencial Key Laboratory of Nuclear Science, Institute of Quantum Matter, South China
+Normal University, Guangzhou, China, associated to 3
+72
+   School of Physics and Technology, Wuhan University, Wuhan, China, associated to 3
+73
+   Departamento de Fisica , Universidad Nacional de Colombia, Bogota, Colombia, associated to 12
+74
+   Universität Bonn - Helmholtz-Institut für Strahlen und Kernphysik, Bonn, Germany, associated to 16
+75
+   Institut für Physik, Universität Rostock, Rostock, Germany, associated to 16
+76
+   Van Swinderen Institute, University of Groningen, Groningen, Netherlands, associated to 31
+77
+   Universiteit Maastricht, Maastricht, Netherlands, associated to 31
+78
+   National Research Centre Kurchatov Institute, Moscow, Russia, associated to 38
+79
+   National University of Science and Technology “MISIS”, Moscow, Russia, associated to 38
+80
+   National Research University Higher School of Economics, Moscow, Russia, associated to 41
+81
+   National Research Tomsk Polytechnic University, Tomsk, Russia, associated to 38
+82
+   University of Michigan, Ann Arbor, United States, associated to 67
+83
+   DS4DS, La Salle, Universitat Ramon Llull, Barcelona, Spain
+a
+  Universidade Federal do Triângulo Mineiro (UFTM), Uberaba-MG, Brazil
+b
+  Laboratoire Leprince-Ringuet, Palaiseau, France
+c
+  P.N. Lebedev Physical Institute, Russian Academy of Science (LPI RAS), Moscow, Russia
+d
+  Università di Bari, Bari, Italy
+e
+  Università di Bologna, Bologna, Italy
+f
+  Università di Cagliari, Cagliari, Italy
+g
+  Università di Ferrara, Ferrara, Italy
+h
+  Università di Genova, Genova, Italy
+
+
+                                                   26
+i
+  Università di Milano Bicocca, Milano, Italy
+j
+  Università di Roma Tor Vergata, Roma, Italy
+k
+  AGH - University of Science and Technology, Faculty of Computer Science, Electronics and
+Telecommunications, Kraków, Poland
+l
+  DS4DS, La Salle, Universitat Ramon Llull, Barcelona, Spain
+m
+   Hanoi University of Science, Hanoi, Vietnam
+n
+  Università di Padova, Padova, Italy
+o
+  Università di Pisa, Pisa, Italy
+p
+  Università degli Studi di Milano, Milano, Italy
+q
+  Università di Urbino, Urbino, Italy
+r
+  Università della Basilicata, Potenza, Italy
+s
+  Scuola Normale Superiore, Pisa, Italy
+t
+  Università di Modena e Reggio Emilia, Modena, Italy
+u
+  Università di Siena, Siena, Italy
+v
+  MSU - Iligan Institute of Technology (MSU-IIT), Iligan, Philippines
+w
+  Novosibirsk State University, Novosibirsk, Russia
+x
+  INFN Sezione di Trieste, Trieste, Italy
+y
+  Universidad Nacional Autonoma de Honduras, Tegucigalpa, Honduras
+
+
+
+
+                                                27
+

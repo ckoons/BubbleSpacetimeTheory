@@ -1,0 +1,86 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  Pcc (4312)+                                          I (J P ) = 21 (?? )         Status:      ∗
+OMITTED FROM SUMMARY TABLE
+           Was Pc (4312)+ .
+
+                                        Pcc (4312)+ MASS
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+            + 6.8
+4311.9± 0.7 − 0.6                           AAIJ               19W LHCB p p at 7, 8, 13 TeV
+
+
+                                       Pcc (4312)+ WIDTH
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+         + 3.7
+9.8± 2.7 −                                  AAIJ               19W LHCB p p at 7, 8, 13 TeV
+           4.5
+
+
+                                Pcc (4312)+ DECAY MODES
+
+        Mode                                                  Fraction (Γi /Γ)
+
+Γ1      J/ψ p                                                 seen
+Γ2      Λ+
+         c D
+             0                                                not seen
+         + + −
+Γ3      Λc π D                                                not seen
+Γ4      Λ−  + +
+         c π D                                            [a] not seen
+
+
+     [a] Searched for the charge conjugate mode from P −
+                                                       cc decays.
+
+                            Pcc (4312)+ BRANCHING RATIOS
+       
+Γ J/ψ p /Γtotal                                                                                        Γ1 /Γ
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+seen                   246k       1 AAIJ            19W LHCB p p at 7, 8, 13 TeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+not seen                 797      2 AAIJ            22H LHCB p p at 7, 8, 13 TeV
+  1 Amplitude analysis of Λ0 → J/ψ p K − .
+                           b
+  2 Amplitude analysis of B 0 → J/ψ p p. AAIJ 22H ﬁnds evidence at just over 3 σ for a
+                            s
+    J/ψ p structure at 4337 + 7
+                            − 4 ± 2 MeV.
+
+Γ Λ+  0
+        
+   c D /Γtotal                                                                                         Γ2 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB p p, 5.7 fb−1 at 13 TeV
+
+Γ Λ+  + − /Γ
+         
+   c π D     total                                                                                     Γ3 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB p p, 5.7 fb−1 at 13 TeV
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Λ−  + + /Γ
+         
+   c π D     total                                                                                     Γ4 /Γ
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+not seen                                    AAIJ                24Z LHCB P − → Λ+ π − D −
+                                                                           cc   c
+
+                                  Pcc (4312)+ REFERENCES
+AAIJ          24Z    PR D110 032001            R. Aaij et al.                             (LHCb Collab.)
+AAIJ          22H    PRL 128 062001            R. Aaij et al.                             (LHCb Collab.)
+AAIJ          19W    PRL 122 222001            R. Aaij et al.                             (LHCb Collab.)
+
+
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:24
+

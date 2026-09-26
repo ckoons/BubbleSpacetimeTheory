@@ -1,0 +1,1509 @@
+                                             Improved analysis of strong-interaction-stable doubly-bottom
+                                                              tetraquarks on the lattice
+                                          B. Colquhoun,1 A. Francis,2 R. J. Hudspith,3 R. Lewis,4 K. Maltman,5, 6 and W. G. Parrott4
+                                          1
+                                            SUPA, School of Physics and Astronomy, University of Glasgow, Glasgow, G12 8QQ, UK
+                                          2
+                                            Institute of Physics, National Yang Ming Chiao Tung University, 30010 Hsinchu, Taiwan
+                                                3
+                                                  GSI Helmholtzzentrum für Schwerionenforschung, 64291 Darmstadt, Germany
+                                                                  4
+                                                                    Department of Physics and Astronomy, York
+                                                               University, Toronto, Ontario, M3J 1P3, Canada
+                                                               5
+                                                                 Department of Mathematics and Statistics, York
+
+
+
+
+arXiv:2407.08816v2 [hep-lat] 7 Nov 2024
+                                                                University, Toronto, Ontario M3J 1P3, Canada
+                                                         6
+                                                           CSSM, University of Adelaide, Adelaide, SA, 5005, Australia
+                                                                             (Dated: November 8, 2024)
+                                                                                      Abstract
+                                             We update earlier lattice results for the binding energies of the flavor antitriplet of strong-
+                                          interaction-stable doubly bottom, J P = 1+ tetraquarks, employing an extended sink construction
+                                          which produces significantly improved ground-state effective-mass plateaus, as well as new, larger-
+                                          volume ensembles which reduce possible finite-volume effects at lighter pion masses. The updated
+                                          bindings are 115(17) MeV for the I = 0 member of the antitriplet and 47(8) MeV for its I = 1/2
+                                          partner. We also provide an update of our earlier study of the variable heavy mass dependence
+                                          of binding in the 1+ channel and new results on this dependence for binding in the 0+ channel,
+                                          accessible when the two heavy quarks have unequal masses. Implications of these results of potential
+                                          relevance to experimental searches for signals of the production of doubly bottom tetraquarks
+                                          and/or a possible bottom-charm partner of the Tcc are also discussed.
+
+
+
+
+                                                                                         1
+                                                                                                 2
+
+I.     INTRODUCTION
+
+    It has long been known that strong-interaction-stable manifestly exotic doubly-antiheavy-
+doubly-light tetraquark states exist in QCD in the limit of arbitrarily large heavy quark
+mass [1–3]. The source of this binding is the color Coulomb interaction between heavy
+antiquarks in a color 3c configuration, which produces a binding contribution proportional to
+the reduced mass of the heavy antiquark pair. Additional attraction is present in channels
+where the accompanying light degrees of freedom (which necessarily have color 3̄c ,) are in the
+flavor antisymmetric, color 3̄c , light-quark spin Jl = 0 “good light diquark” configuration,
+known to be attractive from the observed splittings in the heavy baryon spectrum. Neither
+the heavy antidiquark color-Coulomb attraction nor the spin-dependent, good-light-diquark
+attraction are accessible to a system of two well-separated heavy mesons. The doubly heavy
+channels most favorable to tetraquark binding are thus those with J P = 1+ and either I = 0
+(light quark flavor ud) or I = 1/2 (light quark flavor ls, with l = u, d) for the case of identical
+heavy antiquarks, and J P = 0+ or 1+ and either I = 0 or I = 1/2 for the case of non-identical
+heavy antiquarks. The discussion below focuses on these channels.
+    While bound doubly heavy tetraquark states necessarily exist for sufficiently large heavy
+antiquark mass,1 whether the physical b̄ and c̄ masses are large enough for this binding
+to be realized in nature is a dynamical question. Since the heavy antidiquark reduced
+mass, and hence the 3c color Coulomb attraction, decreases with decreasing heavy quark
+mass, one expects such binding, if any, to be largest in doubly bottom channels. Numerous
+studies using QCD-inspired models predict binding in the doubly bottom I = 0, J P = 1+
+channel, with additional doubly heavy bound states predicted in other channels in a number
+of these works [1, 2, 13–39]. The possibility of bound, doubly heavy tetraquarks has
+also been investigated in heavy-quark-symmetry-based approaches [3, 40–43] as well as
+in implementations of the Borel-transformed QCD sum rule framework employing the
+approximate, single-narrow-resonance-plus-OPE-continuum SVZ ansatz [44, 45] for the
+relevant spectral functions [46–55]. The sum rule analyses produce much larger errors for
+the ground state masses, with, in addition, results from different groups not in agreement,
+even within these larger errors, for a number of the channels. This situation is reviewed in
+more detail in Ref. [56].
+    Recent lattice studies exist for all of the doubly bottom, bottom-charm and doubly charm
+channels. All analyses concur on the existence of deeply bound strong-interaction-stable
+doubly bottom, I = 0, J P = 1+ [56–73] and I = 1/2, J P = 1+ [56, 60, 61, 64, 65, 68, 69,
+72, 73] states. The situation is less clear for the I = 0 J P = 0+ and 1+ bottom-charm
+channels. Refs. [56, 64, 65, 68, 69, 74] find finite-volume ground-state energies near or just
+above threshold and hence no deep binding, but are unable to rule out the possibility that
+these correspond to weakly bound states in the continuum. Ref. [75], in contrast, found a
+preliminary result of ∼ 20 − 40 MeV for binding in the 1+ channel, though with the caveat
+that a finite-volume study would be required to determine whether this represented a true
+continuum bound state signal. A Lüscher scattering analysis employing only ground-state
+energies as input and ensembles with partially quenched valence mπ ≳ 500 MeV [76], also
+reports an   extrapolated physical-point B ∗ D̄ scattering length corresponding to a 1+ binding
+of 43 +7     +24
+                                                     +
+        −6   −14 MeV. The analogous study of the 0 channel by the       same
+                                                                            authors   [77], found
+                                                                  +6
+                                                                      +18          +
+a physical-point B D̄ scattering length corresponding to 39 −4 −8 MeV 0 binding. A
+more recent Lüscher scattering analysis [78], however, with significantly lighter mπ ≃ 220
+1
+     see [4–12] for (early) lattice studies in this direction.
+                                                                                              3
+
+MeV and larger operator basis (including operators designed to have improved overlap with
+continuum meson-meson scattering states), on two a ≃ 0.12 fm ensembles with different
+volumes, finds instead very weakly bound genuine bound states (though compatible within
+statistical errors with being virtual bound states) 2.4(2.9) and 0.5(9) MeV, respectively,
+below B ∗ D̄, respectively B D̄, threshold in the I = 0, J P = 1+ and 0+ channels.
+    In the doubly charmed sector, the 2021 LHCb discovery of the Tcc [79, 80] established the
+existence of a very weakly bound doubly charmed I = 0 state lying essentially right at DD∗
+threshold. This observation was in keeping with expectations from then-recent lattice studies,
+with Ref. [81] providing compelling evidence against the existence of a doubly charmed I = 0
+J P = 1+ state with significant binding at the heavier-than-physical pion mass mπ = 391
+MeV, and the results of the variable-b-mass study of Ref. [82], in combination with the
+negative bottom-charm results of Ref. [56], disfavoring the possibility of significant binding
+at physical mπ . The only lattice study leaving open the possibility of a moderately bound
+doubly charmed I = 0, J P = 1+ tetraquark had been that of Ref. [61], which reached mπ as
+low as 257 MeV for the coarsest of the three ensembles considered, and found a J P = 1+ ,
+I = 0 ground state lying 23 ± 11 MeV below DD∗ threshold, though with no additional state
+(such as might correspond to the continuum DD∗ threshold scattering state) nearby. As the
+authors noted, given the proximity of the two-meson threshold, a dedicated finite-volume
+study would have been required to clarify whether this result reflected the existence of an
+actual weakly bound ground state or, instead, corresponded to a continuum scattering state
+shifted below threshold by finite volume effects. The mass of the doubly charmed, strange,
+I = 1/2, J P = 1+ ground state in this study was also found to correspond within errors to
+that of the lowest-lying two-meson threshold, D∗ Ds [61]. With the weakness of binding in the
+Tcc channel established experimentally, lattice efforts in this channel have turned to dedicated
+finite-volume scattering studies [83–88]. These studies, mostly at heavier-than-physical mπ ,
+clearly establish the attractive nature of the I = 0 J P = 1+ DD∗ interaction and agree on
+the existence of genuine or virtual DD∗ bound states just below DD∗ threshold for the mπ
+considered, in semi-quantitative agreement with LHCb results. Additional studies at lighter
+mπ and on finer lattices are expected in the near future.
+    As discussed in Ref. [56], existing lattice results rule out all implementations of the
+chiral quark model framework we are aware of in the literature. Predictions from a number
+of non-chiral models[13, 14, 16, 17, 19, 21–23, 25, 26, 29, 32, 34, 37–39], in contrast, are
+in reasonable agreement with existing lattice results, and would require improved lattice
+determinations to test them further. The heavy-quark-symmetry analyses of Refs. [42, 43],
+which rely on phenomenological input for leading finite heavy mass corrections, including
+model [42], respectively lattice [43], results for doubly heavy baryon masses not yet measured
+experimentally, also predict binding only in the two doubly bottom channels, with no binding
+of bottom-charm or doubly charmed states.
+    While recent lattice studies concur on the existence of an SU (3)F antitriplet of bound,
+strong-interaction-stable, doubly bottom J P = 1+ tetraquarks, results for the physical-
+point-extrapolated binding energies show some disagreements. In the I = 0 channel, two
+wall-source, local-sink studies from 2016 and 2018, Ref. [60] and [61], quote 189 ± 10 MeV
+and 143 ± 34 MeV, respectively, compatible with the result of the later study, Ref. [63],
+which found 189(18) MeV from the finest ensemble and 167(19) MeV averaged over all three
+ensembles considered. These results, however, are significantly higher than those of other
+recent lattice studies, with Ref. [62] reporting 128 ± 26 MeV, the preliminary one-ensemble
+mπ ≃ 192 MeV study of Ref. [56] ∼ 113 MeV, Refs. [66, 67] 103(8) MeV, the HAL QCD study
+                                                                                                    4
+
+of Ref. [89] 83(10)(20) MeV, Ref. [71] 112(13) MeV and Ref. [73] 100(10) +43
+                                                                                          
+                                                                                       −30 MeV. The
+situation is similar in the I = 1/2 channel where binding energies 46(12) MeV and 30(3) +31
+                                                                                                     
+                                                                                                 −11
+MeV, found in the two most recent studies [71] and [73], are significantly lower than those
+of other recent lattice studies, which produced results 98(7) MeV [60], 87(32) MeV [61], a
+preliminary result ∼ 100(40) MeV [64], and 86(22)(10) MeV [65, 74]. A preliminary result,
+∼ 36 MeV, also favoring a lower value for the binding was also obtained in the multi-channel,
+but single-ensemble (mπ ≃ 192 MeV) study of Ref. [56].
+    The most deeply bound of the lattice results for the binding in the doubly bottom, J P = 1+ ,
+I = 0 and I = 1/2 channels, those of Ref. [60], came from an analysis using gauge-fixed wall
+sources and local sinks. Effective masses in such “wall-local” analyses typically approach the
+asymptotic ground state plateau from below, signalling negative excited state contamination.
+The fact that the ground state plateaus in this analysis were short, and reached at later
+Euclidean times, raised the possibility that the ground state masses were underestimated, and
+hence the associated bindings overestimated. This possibility was investigated in Ref. [56],
+at a single mπ (≃ 191 MeV), using an improved “Box-Sink” construction designed to reduce
+excited-state contamination. The construction was shown to extend the ground state effective
+mass plateaus to much earlier Euclidean times and to significantly improve the ground state
+mass determinations. The results of that study confirmed that, at the single mπ considered,
+the I = 0 and I = 1/2 binding energies were indeed overestimated in Ref. [60]. A similar
+conclusion was reached in Ref. [71], also employing improved sink-side operators, designed to
+have better ground state overlap. For the I = 0 channel, this conclusion is in keeping with the
+result obtained in Ref. [62], which included two non-local “scattering operators” (products of
+two heavy-meson-like operators each projected to zero spatial momentum), though on the
+source side only, to avoid having to compute all-to-all propagators. These operators were
+expected to have improved overlap with the threshold BB ∗ scattering state (presumably the
+first excited state in the channel), and hence, as a result, to also improve the ground-state
+signal. These expectations were born out by the pattern of relative overlaps of the source
+operators with the lowest few GEVP Eigenstates. Refs. [66, 67, 73] took further advantage of
+this improvement by including the non-local scattering operators at the sink as well as at the
+source, producing a reduced error on the ground-state I = 0 binding energy. In this paper,
+we follow the alternate strategy of employing sink-side operators designed specifically to
+improve overlap with the ground state, extending the improved box-sink analysis of Ref. [56]
+to ensembles with a range of mπ , allowing an extrapolation of the results for binding in the
+doubly bottom, J P = 1+ , I = 0 and I = 1/2 channels to physical mπ . Preliminary versions
+of this analysis were reported in Refs. [68, 69]. We also revisit the variable heavy mass
+study of Ref. [82] using the improved box-sink construction, and consider implications of the
+updated results for possible tetraquark binding in the J P = 1+ bottom-charm channel.
+    In light of the above discussion, we focus on doubly heavy states containing two heavy
+antiquarks, Q̄ and Q̄′ , and two light valence quarks, q and q ′ , with Q, Q′ either b or a
+variable-mass version thereof (denoted h), and qq ′ either ud or ls, with l = u, d. The
+compressed flavor notations udb̄b̄, udb̄h̄, udh̄h̄, lsb̄b̄, lsb̄h̄ and lsh̄h̄ will be used throughout
+to refer to such states.
+    The rest of this paper is organized as follows. In Sec. II we detail improvements to
+our earlier analysis, Ref. [60], implemented in the current work, outlining, in particular,
+the box-sink construction introduced in Ref. [56]. Sec. III provides details of our lattice
+simulations, including information on new, larger-volume ensembles. These ensembles allow
+us to reach near-physical mπ while keeping mπ L > 3.6. This provides better control over
+A The box sink construction                                                                   5
+
+possible finite volume effects than was the case in Ref. [60], where the ensemble with the
+lightest mπ had mπ L = 2.4. In Sec. IV, we present the results of these improved analyses for
+the binding energies of the doubly bottom, J P = 1+ , I = 0 and I = 1/2 states together with
+an updated version of our earlier variable heavy mass study. A summary of these results,
+together with a discussion of possible implications for the J P = 1+ udb̄c̄ channel, is provided
+in Sec. V.
+
+
+II.    IMPROVEMENTS TO THE PREVIOUS ANALYSIS
+
+      A.   The box sink construction
+
+   As in our previous study of the doubly bottom J P = 1+ channels [60], we work throughout
+with Coulomb gauge-fixed wall sources. The gauge condition has been implemented to high
+precision using the Fourier-accelerated conjugate gradient algorithm of Ref. [90] and applied
+over the full lattice volume. In order to avoid the larger errors noisier wall-wall correlators
+would have produced, our previous study, Ref. [60], employed local, rather than wall, sinks.
+   However, while source-sink symmetry ensures that excited state contributions enter wall-
+wall correlators with positive weights, and hence that ground state effective mass plateaus are
+approached from above, the effective masses for wall-local correlators typically approach their
+ground state plateaus from below, signalling negative amplitudes for at least the first excited
+state. When, as found in Ref. [60], ground state effective mass plateaus are short, and reached
+only at later Euclidean times, t, the possibility that the ground state signal has not yet fully
+plateaued leaves open the possibility that the ground state mass has been underestimated,
+and hence that, for channels in which the ground state is bound, the ground-state binding
+energy has been overestimated.
+   In Ref. [56] we addressed this issue by introducing the “box sink” construction. In contrast
+to a wall-wall correlator, which is constructed using propagators, S W (t), obtained by summing
+over the spatial sites of the sink time slice,
+                                                 X
+                                       S W (t) =    S(x, t)                                  (1)
+                                                x
+
+a “wall-box” correlator is constructed using propagators obtained by restricting the sum
+to points lying within a specified radius, R, of the reference sink point, x. The resulting
+propagators have the form
+                                            1 X
+                             S B;R (x, t) =        S(x + r, t) ,                         (2)
+                                            N 2 2
+                                               r ≤R
+
+and, as R2 is varied between the minimum and maximum values, 0 and 3L2 /4, produce
+wall-box correlators which interpolate continuously between the wall-local and wall-wall
+limits [56]. The construction is predicated on the expectation that a range of intermediate R
+should exist for which excited-state contamination will be intermediate between the positive
+contamination of wall-wall correlators and negative contamination of wall-local correlators.
+Excited-state contamination should then be small, producing ground-state effective-mass
+plateaus that extend to considerably lower Euclidean t. One would expect a box-sink
+radius of roughly physical ground-state hadron size to optimize this improvement. Both this
+expectation, and the existence of significantly extended ground-state effective-mass plateaus,
+A The box sink construction                                                                    6
+
+were confirmed in the single-ensemble study of Ref. [56]. The connection of this method to
+sink smearing was further elucidated in [91].
+
+
+   B.    Increased number of ensembles
+
+    Another improvement to our earlier analysis is the inclusion of a larger number of ensembles,
+with different pion masses, including two newly generated ensembles.
+    In our initial study, Ref. [60], we employed three a ≃ 0.09 fm, 323 × 64 Wilson-clover
+ensembles, generated by the PACS-CS collaboration, having pion masses ∼ 164, 299 and 416
+MeV [92, 93]. mπ L is > 4 for the latter two ensembles, but uncomfortably low (∼ 2.4) for
+the ensemble with the lightest pion mass. To ensure that potential finite-volume effects are
+under better control at lighter pion mass, and to improve the reliability of the extrapolation
+to physical mπ , we have generated additional, larger-volume, 483 × 64 ensembles at the same
+lattice spacing, with pion masses ∼ 191 and ∼ 165 MeV corresponding to mπ L = 4.2 and
+mπ L = 3.6, respectively. To more fully map out the light-quark mass dependence of the
+doubly bottom channel binding energies, we have also carried out box-sink analyses of two
+additional PACS-CS ensembles with heavier pion masses, ∼ 575 and 707 MeV, in addition to
+the box-sink updates of our earlier analyses of the three previously studied 323 × 64 PACS-CS
+ensembles. Details of all ensembles used are given in the next Section III A, and they are
+listed in Table I.
+
+
+   C.    Operator basis and multi-exponential fits
+
+   Finally, to help better determine the ground-state signal, we have expanded our operator
+bases beyond the two-operator basis used in [60], and hence the number of correlators entering
+our analyses. We also apply the box-sink analysis described above (Eq. (2)) to all operators,
+leading to an increased operator basis, as for each operator, we simultaneously fit data with
+several box sink radii. Further details of the operator bases used in the various channels are
+discussed in Appendix A.
+   We also perform multi-exponential fits in place of the GEVP previously used, which will
+be explained in detail in Section III B. This is not necessarily an improvement in itself, but
+rather a different approach to the problem, as the GEVP and multi-exponential fits are both
+equally valid methods to extract energies from correlator data. One potential advantage
+of the multi-exponential fit is that it does not require a complete matrix of all source sink
+combinations, however, in our case we include all combinations anyway. Another is that for
+a tower of very finely spaced excited states, the fit can more easily approximate the areas
+of spectral density over a number of states. Pion masses in Table I are also obtained from
+multi-exponential fits, agreeing well with previous values obtained on these ensembles [94].
+
+
+III.    DETAILS OF THE LATTICE SIMULATIONS
+
+   A.    Ensembles and correlator calculation
+
+   As noted above, our calculations are performed on nonperturbatively-improved Wilson-
+Clover PACS-CS ensembles [93], and additional ensembles generated as an extension to this
+A Ensembles and correlator calculation                                                                  7
+
+set. All ensembles were generated with the same gauge action, β and cSW , and we take the
+inverse lattice spacing to be a−1 = 2.194(10) GeV as determined from the Ω mass at the
+physical point [96].
+   The configurations were generated using the HMC algorithm implemented in openQCD
+version 1.6, see [97, 98] and references quoted therein. This package includes a number
+of beneficial techniques: such as the deflated SAP solver [99], mass-preconditioning [100],
+chronological inversions [101], and multiple time-scale integrators. In this work we have
+extended the existing set of PACS-CS ensembles by generating configurations with the same
+action parameters albeit with larger spatial volumes, L/a = 32 → 48, as well as new light
+quark masses. For consistency with PACS-CS the strange quark mass parameter is kept
+fixed at its PACS-CS value, κs = 0.13640, while adding two additional light quark values,
+κl = 0.13777 (E7) and 0.13779 (E9). The corresponding pion masses and mπ L are listed in
+Table I. There are some algorithmic differences worth noting in our ensemble generation,
+compared to that of PACS-CS: For the strange quark, the RHMC [102] was used, as opposed
+to the PHMC [103]. In this work, the number of poles in the rational approximation was kept
+large to ensure a stable generation process and allow for the corresponding reweighting factors
+to be dropped for the level of accuracy needed. Additionally a Hasenbusch preconditioning
+chain [100] with four intermediate masses µi was used for the light quarks. This is similar to
+the PACS-CS setup, however, the µi are different and the last is set to zero µ0 = 0, therefore
+no light quark reweighting is required. Measurements were performed every 16 MDU for E7
+and every 8 MDU for E9. For the light quark propagator inversions the deflated SAP solver
+supplied in the same software package [98] was used. For the heavy quarks we used the same
+tadpole-improved O(v 4 ) prescription detailed in the Appendices of [56].
+   We will use the following meson operators in determining our heavy-light meson masses:
+
+                            OH = (h̄(x)γ5 q(x)),      OH ∗ = (h̄(x)γi q(x)),                          (3)
+
+where q will be either an l or s quark. As we treat the source (wall) and sink (box) differently
+this will naturally need to be incorporated in our notation.
+   For the I = 0, J P = 1+ , Tudb̄b̄ and Tlsb̄b̄ tetraquarks we use the same set of local operators
+as in Ref. [56], listed in Tab. I of that reference.
+
+
+            Label          V             κl        Nconf × Nsrc           amπ           mπ L
+             E1         323 × 64      0.13700        399 × 4          0.32205(18)       10.3
+             E2         323 × 64      0.13727        400 × 4          0.26193(19)        8.4
+             E3         323 × 64      0.13754        400 × 4          0.18960(29)        6.1
+             E5         323 × 64      0.13770        800 × 4          0.13622(27)        4.4
+             E7         483 × 64      0.13777         94 × 8          0.08719(47)        4.2
+             E9         483 × 64      0.13779         88 × 4          0.07536(58)       3.6
+TABLE I: Details of the lattice ensembles used in this study. The ensemble labels and volume, V
+(in lattice units), are given, as well as κl values, the statistics in terms of configurations and sources
+per configuration, the pion mass in lattice units (amπ ) and the amπ L, where L is the spatial extent
+ in lattice units. In all cases κsea
+                                  s = 0.13640 and κs
+                                                       valence = 0.13666 [95]. Inverse lattice spacing in
+
+    each case has been determined to be a−1 = 2.194(10) GeV from the Ω mass at the physical
+                                                 point [96].
+B Correlator fitting                                                                                     8
+
+    This same set (with b replaced by h) is used for the local operators of the double-variable-
+heavy-mass Tudh̄h̄ and Tlsh̄h̄ channels. The operators for the I(J P ) = 0(1+ )/0(0+ ) and
+1 +
+2
+  (1 )/ 12 (0+ ) channels having one physical-b-mass and one variable-heavy-mass antiquark,
+Tudb̄h̄ and Tlsb̄h̄ , are obtained from the “udcb” and “uscb” rows of the same table by replacing
+the “c” (which in Ref. [56] denoted a relativistic charm antiquark) with h (denoting here
+a NRQCD heavy antiquark whose mass we allow to vary over a range including values
+both heavier and lighter than physical mb ).2 Appendix A lists the operators used in our
+case explicitly. For all ensembles except E7 we have, for each sink operator, four box radii
+squared3 . In lattice units, these are in the range 30-49 for the tetraquarks, and 16-49 for
+the mesons (for which we will only use one source and sink operator per box radius). Our
+strategy is to use multiple sinks in a simultaneous fit to reliably extract the ground- and
+excited-state energies, as will be detailed below.
+
+
+    B.   Correlator fitting
+
+  We use a standard Bayesian fitting approach, as outlined in [104], to simultaneously fit
+meson and tetraquark two point correlation functions to a multi-exponential fit form,
+
+                                             N
+                            Oi Oj
+                                             X
+                                                              −En t
+                          C2 src snk (t) =         asrci snkj
+                                                    n an (e         ± e−En (T −t) ),                   (4)
+                                             n=0
+
+
+obtaining correlated values for the ground state energies E0 , where T is the length of
+the (periodic) lattice in the time dimension. Our data contains different source and sink
+combinations, (see Sec. III A), and these translate into different values for the amplitudes
+  src/snk
+an        , with a common set of energy levels En .
+     The fits are performed using the corrfitter, lsqfit and gvar python packages [105–107]. The
+software calculates two measures of the goodness of fit, the χ2 per degree of freedom (d.o.f.),
+and the log of the Gaussian Bayes Factor, log(GBF). A good fit should have a χ2 /d.o.f. close
+to unity. The log(GBF) gives a measure of the likelihood that the fitting ansatz gave rise
+to the results. This measure is useful in relative comparisons of different fit ansatzes, and
+penalises over-fitting.
+     As described in Appendix D of [108], unless statistics are many times larger than the
+number of data points, a Singular Value Decomposition (SVD) cut is required in order
+to faithfully represent the uncertainties in fit results. In this analysis, our statistics are
+limited and so we use an SVD cut in our correlator fits. An SVD cut is a conservative move,
+increasing uncertainty in the final result to reflect poorly determined eigenvalues in the
+covariance matrix. The required cut, which we shall always use, is calculated by gvar [107],
+using the method described in [108]. A downside of applying an SVD cut is that it artificially
+reduces the χ2 of the fit, so SVD noise [108] is added as a final test to ensure that the
+unbiased χ2 /d.o.f. is acceptable.
+
+2
+  With NRQCD used for the heavy quarks, the variable heavy mass, mh , must, of course, remain in the
+  region of validity of the use of NRQCD. The range thus does not extend down to mh as low as physical mc .
+3
+  Owing to limited resources, for E7 we only have two box radii squared.
+B Correlator fitting                                                                          9
+
+   1.   Variable fit parameters
+
+   There are several input parameters which we choose in our fits. The first is the number of
+exponentials, N , appearing in Eq. (4), which may be different for the mesons and tetraquarks
+(N mes ,N tet ). Next, once the correlators have been folded (they are either periodic or anti-
+periodic), we can discard data at early and late times by choosing tmin and tmax and working
+in the window tmin ≤ t ≤ tmax , where, again, tmin and tmax can be different for mesons and
+tetraquarks. The other fit parameters we must choose are the prior values P[′ parameter′ ]
+which must be provided for each an and En in Eq. (4). We estimate the ground state energy
+prior, P[E0 ], using an effective mass calculation
+                                                                         !
+                                               C 2 (t − 1) + C 2 (t + 1)
+                          Meff = lim cosh−1                                ,               (5)
+                                  t→∞                   2C2 (t)
+
+and vary the uncertainty given to P[E0 ] in the fit. Similarly, for the effective amplitude, we
+have
+                                                        C2 (t)
+                                   (asrc snk
+                                      0 a0 )eff = lim −Meff t ,                              (6)
+                                                   t→∞ e
+
+where we can set all n asrc
+                         n
+                             0
+                               parameters in Eq. (4) to = 1 for any one of the source operators
+                           0
+(in this case operator Osrc ) without loss of generality. We are left with the parameters
+    snk                          j
+P[a0 j ], (for sink operators Osnk ) again with a variable uncertainty. We can then use these
+to find effective amplitudes for the other source operators, which we have not set to 1. The
+priors for excited state amplitudes P[an̸=0 ] (we drop the ‘src’ and ‘snk’ label from now on)
+are another choice varied in our fit.
+   For the meson excited state energy splitting priors, with excited state splittings expected
+to be of order ΛQCD , we take for P[En̸mes  =0 ] the range 500 ± 250 MeV. Since, in contrast,
+tetraquark/two-heavy-meson excited states are expected to be very closely spaced, we take
+as our prior for these splittings the value 30 ± 30 MeV. In both cases logarithmic priors are
+used to ensure the splittings are positive. This means that the 99.7% confidence interval for
+the meson splitting prior is between 100 MeV and 2 GeV, while that for the tetraquark is
+between 1.5 and 600 MeV.
+
+
+   2.   Binning
+
+   In each of our ensembles, we have correlator data on Ncfg uncorrelated configurations
+(see Table I). On each configuration, we take 4 (8 for E7) evenly spaced source times, t0 ,
+for the correlators. Furthermore, for the vector meson and 1+ tetraquarks, all three spatial
+components are calculated. For the pseudoscalar meson there is of course only one component.
+For the purposes of this discussion, let’s assume this component is copied three times for
+each t0 on each configuration, such that for each correlator, on each configuration, there are
+12 (24 for E7) measurements, which are not necessarily uncorrelated.
+   To obtain averaged data and a full covariance matrix from Ns samples, we use gvar [107],
+which calculates the covariance matrix, and required SVD cut, as per appendix D of Ref. [108].
+This method relies upon the different samples being uncorrelated in order to give a true
+measure of the uncertainties. For this reason, we would typically average (bin) the 12
+measurements for each configuration above (which could be correlated), before calculating
+the covariance matrix with the resulting Ns = Ncfg samples. However, if we can be sure
+B Correlator fitting                                                                                                                                   10
+
+                                 bin size = 1 Vs bin size = 12                                          bin size = 3 Vs bin size = 12
+
+                   150                                                  150               150                                                    150
+
+
+
+       Frequency                                                              Frequency
+                   100                                                  100               100                                                    100
+
+                    50                                                  50                 50                                                    50
+
+
+                     0                                                  0                   0                                                     0
+                           −0.4           −0.3        −0.2       −0.1                                −0.05        0.00         0.05            0.10
+                                           ∆σ/σ                                                                    ∆σ/σ
+
+                                 bin size = 6 Vs bin size = 12                                         bin size = 24 Vs bin size = 12
+                   200                                                  200
+
+                   150                                                  150               100                                                    100
+
+       Frequency   100                                                  100   Frequency
+                                                                                           50                                                    50
+                    50                                                  50
+
+                     0                                                  0                   0                                                    0
+                         −0.05             0.00           0.05                               −0.10     −0.05      0.00      0.05        0.10
+                                            ∆σ/σ                                                                   ∆σ/σ
+
+FIG. 1: The distribution of relative changes in uncertainty on correlators for binnings of size 1, 3, 6,
+         and 24, relative to the default of 12. The black dotted line indicates the mean.
+
+
+that these 12 measurements are only weakly correlated, we can treat them as independent
+samples. This effective increase in statistics will not change the central value or uncertainties
+on individual correlators, but should lead to a better determination of the covariance matrix,
+and thus a lower SVD cut, ultimately leading to smaller uncertainties in final fit parameters.
+To test what size of bin is permissible, we bin the data in sets of size 1, 3, 6, 12, and
+24, with 12 being the default4 , and 24 produced by combining the results from pairs of
+adjacent configurations. For each bin size, we average the data and generate the covariance
+matrix. Then we take each timeslice of each correlator and compare the relative change in
+the uncertainties from the default case (bin size 12), which we know is uncorrelated. If the
+samples in the new binning regime are also uncorrelated, we would expect the relative change
+in uncertainty to form a Gaussian distribution, with a mean of zero. In the case that they
+are correlated, we would expect the average standard deviation to be significantly different
+from the default (uncorrelated) binning for different bin sizes.
+   Figure 1 shows this distribution of the change in relative uncertainty for binnings of size
+1, 3, 6, and 24, relative to the default binning of 12 for udb̄b̄ data on the E3 ensemble. We
+see that the mean of the distribution is largely unchanged for binnings of 3 or 6, while the
+more conservative binning of 24 produces a mean increase of about 2% in uncertainty. For
+completeness, we include the binning of size 1, that is where individual vector components
+(or for the pseudoscalar 3 identical measurements) are treated as uncorrelated. As we expect,
+this results in a large decrease in uncertainty. All of our ensembles produce very similar
+results, where binnings of 3 or 6 would be acceptable. Taking a more conservative approach,
+we use a binning of 6 throughout, giving Ns = 2Ncfg (4Ncfg on E7). In our testing of fit
+stability, which will be described below, we check the effect of this binning on the final result.
+
+4
+    On E7, there are twice as many t0 values, so 24 is the default.
+B Correlator fitting                                                                                             11
+
+
+
+
+                     1.04                                                                    1.0
+
+
+
+                                                                                                   Av. err (%)
+            aMtet    1.03
+                                                                                             0.8
+
+                                                                                             0.6
+                     1.02
+
+                          2.0                                                                2.0
+
+                          1.5                                                                1.5
+
+
+              χ2/d.o.f.
+                          1.0                                                                1.0
+
+                          0.5                                                                0.5
+
+                     0.0                                                                     0.0
+                   17500                                                                     17500
+
+
+
+
+        log(GBF)
+                   17000                                                                     17000
+
+                   16500        16434   16689   16808           16737   16658        16574   16500
+
+                   16000                                                                     16000
+
+                                 5       6       7               8       9           10
+                                                        N tet
+
+   FIG. 2: Fit results for the udb̄b̄ tetraquark ground-state mass as a function of N tet on the E1
+ensemble. The right-hand vertical axis and solid black line in the top panel give the corresponding
+mean relative uncertainty. The mean values (median for χ2 and log(GBF)) are given by the dashed
+lines, with the value explicitly printed in the case of log(GBF). The spread of the data reflects the
+                                  variation of all other parameters.
+
+
+   3.      Fitting strategy
+
+   The fitting strategy employed here on each ensemble is designed to be as thorough and
+agnostic as possible. First, taking just the mesons, we select a generous range of choices for
+the variable parameters discussed above, and perform a fit for all possible combinations of
+these choices. We then plot the resulting ground state energy, aMmes , the χ2 /d.o.f. (recalling
+that these are artificially reduced by the SVD cut, so only meaningful in a relative sense),
+and the log(GBF) for each of the fits, against each variable in turn, giving a spread of results
+for those choices of that variable. We then repeat exactly this process for just the tetraquarks.
+An example of such a plot in the tetraquark case, varying the number, N tet , of exponentials
+for the udb̄b̄ fit on ensemble E1, is given in Fig. 2. In this case, we see that the central value
+of the mass (the dotted lines represent the averages of the displayed points) is relatively
+stable against changes in N tet , but the χ2 begins to grow below N tet = 7. As expected, there
+is a larger relative uncertainty for larger values of N tet . In this case, we can see that all
+N tet > 6 are reasonable choices, with stable aMtet values and small, stable χ2 values. We
+select N tet = 7, as it has the largest log(GBF), suggesting that including further exponentials
+beyond this would be over-fitting the data.
+   Once we have completed this process for the mesons and tetraquarks independently,
+we combine them in one simultaneous, correlated fit. There are now too many variable
+parameters to feasibly test all possible combinations, so we take the values we have already
+B Correlator fitting                                                                              12
+
+arrived at in the independent fits, and vary these one at a time. We check the stability of the
+result, and make changes to the choices if necessary (within the values which are acceptable
+from our above analysis), in order to find a fit which is stable. In general we found udb̄b̄
+fits to be much more stable than those for lsb̄b̄, likely due to the greater density of nearby
+threshold states in the latter.
+    Fig. 3 shows the results of this exploration for the lsb̄b̄ channel on the E3 ensemble. A list
+of the quantities varied is provided in the caption. The fit is seen to display good stability
+with respect to these variations, with generally small induced shifts in the χ2 /d.o.f. and
+log(GBF), except when either the number of exponentials, N , or the uncertainty on a prior, is
+too small. In the figure, we display such variations for completeness, even when the increases
+in log(GBF) they have produced are relatively large. The figure also includes the results for
+the splittings of the first excited tetraquark state, aE 1 − aE 0 . The priors for these splittings
+are logarithmic to enforce positive splittings, which results in the asymmetric error bars
+shown. In this case, the error bars for 1(2)σ (i.e. the 68% and 95% confidence limits) are
+shown in black (red) and the binding energy is included in blue for comparison.
+
+
+   4.   udh̄h̄, lsh̄h̄, udb̄h̄ and lsb̄h̄ fits
+
+    In updating the earlier study [82] of the heavy-quark-mass dependence of tetraquark
+binding, we follow Ref. [82] and employ the highest-statistics ensemble available, E5, which
+has mπ = 299 MeV and mπ L = 4.4. The approach followed is similar to that described above,
+though with some modifications required to handle the larger data set that results from the
+variation of the heavy-quark mass. We begin by performing a stability analysis identical to
+that above, for each tetraquark channel and each heavy amh value in turn, determining the
+corresponding bindings from stable versions of these individual fits. As we ultimately wish to
+fit the udh̄h̄, udb̄h̄, lsh̄h̄ and lsb̄h̄ binding energies for different amh to a fit form with common
+parameters, we would ideally like to fit all of the tetraquark correlators, for all amh , together
+with the corresponding threshold meson correlators in one large, correlated fit. However,
+we find that, owing to its large size, such a combined fit is not feasible. To break it up, we
+first performed a number of tests examining the strength of correlations between different fit
+parameters. We found it possible to perform a simultaneous fit for the doubly heavy 1+ udh̄h̄
+tetraquark and associated heavy meson, H and H ∗ , channels for all amh . The maximum
+correlation between udh̄h̄ bindings, ∆E(amh ), in this fit was found to be 0.12, with most
+correlations roughly 0.05. It is reasonable to assume the correlations between amh -dependent
+tetraquark bindings in the other (singly heavy and/or strange) tetraquark channels will be
+similarly small. Next, for each amh , we performed a simultaneous fit to extract aMudh̄h̄ ,
+aMudb̄h̄ , aMH and aMH ∗ . Correlations between meson and tetraquark masses were found
+to be small (≲ 0.1), but those between aMudh̄h̄ and aMudb̄h̄ were more significant (typically
+≈ 0.25). Similar results were found for the ls analogues. These inter-tetraquark correlations
+are further enhanced when we turn from the tetraquark masses to the corresponding binding
+energies, where the effect of shared threshold meson masses comes into play and we find
+correlations between the bindings of udh̄h̄ and udb̄h̄ tetraquarks of ≳ 0.5 (and similarly for
+lsh̄h̄ and lsb̄h̄).
+    Based on these observations, we adopt the following strategy. First, we simultaneously
+fit all meson correlators for all amh to extract aMH , aMH ∗ , aMHs and aMHs∗ . These will
+be taken in various combinations to provide the two meson thresholds for each tetraquark.
+Second, we simultaneously fit all tetraquarks for each amh to extract aMudh̄h̄ , aMudb̄h̄ , aMlsh̄h̄ ,
+B Correlator fitting                                                                                                                                                                                                                                                                                                                                                                    13
+
+
+
+
+                                    ames            ames
+                                                     n = 0.0(0.75)
+                                                                                             atet            atet                                     E0 err = 0.06   E0 err = 0.02                                                                                                                                                                           svd fac = 10.0
+                                     n = 0.0(0.3)
+                                                                                                                                                                                                                                                                                                                                              svd fac = 0.1
+                                                                                              n = 0.0(1.0)    n = 0.0(0.5)
+                                                                                                                                                                                      a0 err = 0.2   a0 err = 0.5                                                                                                binsize = 12   binsize = 3
+                            Final                                    N mes = 6   N mes = 4                                   N tet = 10   N tet = 8                                                                 tmes
+                                                                                                                                                                                                                     max = 24
+                                                                                                                                                                                                                                tmes
+                                                                                                                                                                                                                                 max = 28
+                                                                                                                                                                                                                                            tmes
+                                                                                                                                                                                                                                             min = 4
+                                                                                                                                                                                                                                                       tmes
+                                                                                                                                                                                                                                                        min = 6
+                                                                                                                                                                                                                                                                  ttet
+                                                                                                                                                                                                                                                                   max = 26
+                                                                                                                                                                                                                                                                              ttet
+                                                                                                                                                                                                                                                                               max = 30
+                                                                                                                                                                                                                                                                                          ttet
+                                                                                                                                                                                                                                                                                           min = 10
+                                                                                                                                                                                                                                                                                                      ttet
+                                                                                                                                                                                                                                                                                                       min = 8
+                  0.0275                                                                                                                                                                                                                                                                                                                                                       0.0275
+
+                  0.0250                                                                                                                                                                                                                                                                                                                                                       0.0250
+
+                  0.0225                                                                                                                                                                                                                                                                                                                                                       0.0225
+
+      aEbinding   0.0200                                                                                                                                                                                                                                                                                                                                                       0.0200
+
+                  0.0175                                                                                                                                                                                                                                                                                                                                                       0.0175
+
+                  0.0150                                                                                                                                                                                                                                                                                                                                                       0.0150
+
+
+
+                     0.05                                                                                                                                                                                                                                                                                                                                                      0.05
+
+                     0.04                                                                                                                                                                                                                                                                                                                                                      0.04
+
+            a(E 1 − E 0)
+                     0.03                                                                                                                                                                                                                                                                                                                                                      0.03
+
+                     0.02                                                                                                                                                                                                                                                                                                                                                      0.02
+
+                     0.01                                                                                                                                                                                                                                                                                                                                                      0.01
+
+                     0.00                                                                                                                                                                                                                                                                                                                                                      0.00
+
+                    59750                                                                                                                                                                                                                                                                                                                                                      59750
+
+                    59700                                                                                                                                                                                                                                                                                                                                                      59700
+
+
+        log(GBF)
+                    59650                                                                                                                                                                                                                                                                                                                                                      59650
+
+                    59600                                                                                                                                                                                                                                                                                                                                                      59600
+
+                    59550                                                                                                                                                                                                                                                                                                                                                      59550
+
+
+                    0.040                                                                                                                                                                                                                                                                                                                                                      0.040
+
+                    0.038                                                                                                                                                                                                                                                                                                                                                      0.038
+
+        χ2/d.o.f.
+                    0.036                                                                                                                                                                                                                                                                                                                                                      0.036
+
+                    0.034                                                                                                                                                                                                                                                                                                                                                      0.034
+
+                    0.032                                                                                                                                                                                                                                                                                                                                                      0.032
+
+                                                                                                                                                                                                     Test
+
+
+
+
+ FIG. 3: Stability tests for lsb̄b̄ on ensemble E3. We vary all parameters discussed in Sec. III B 1,
+  one at a time, both increasing and decreasing them. ‘Final’ is our final fit result. We vary the
+number of exponentials, N , the priors P[an̸=0 ] (labelled an ), and the relative uncertainty on P[a0 ]
+(Eq. (6), labelled a0 err) and P[E0 ] (Eq. (5), labelled E0 err). We also change tmin/max , change the
+     bin size, (see Sec. III B 2) and, finally, multiply the recommended SVD cut by 0.1 and 10,
+respectively. Note that log(GBF) is not plotted for some tests, as the relative values are meaningful
+ only when the raw data is unchanged. Similarly, χ2 is affected by changes to the SVD cut and is
+only meaningful relatively. We plot the binding energy, and the gaps between the ground and first
+    excited state, showing the 1(2)σ error bars in black (red). In the case of this first splitting,
+      a(E 1 − E 0 ), the binding energy from the row above is included in blue for comparison.
+B Correlator fitting                                                                                        14
+
+aMlsb̄h̄ . This ensures we have fits which are tractable, while also preserving correlations
+where they are significant. Finally, we ensure that the resulting bindings from this correlated
+method agree with those found when we optimised and stabilised the individual amh fits
+above.
+
+
+IV.     RESULTS
+
+  A. Light-quark mass dependence and the physical-point udb̄b̄ and lsb̄b̄ binding
+energies
+
+   Numerical results for the binding energies of the J P = 1+ udb̄b̄ and lsb̄b̄ tetraquarks on
+the six ensembles studied are presented in Table II, and plotted as a function of m2π in Fig.4.
+Results are given in lattice units and MeV.
+
+        mπ [MeV]         −a∆Eudb̄b̄       −a∆Elsb̄b̄        −∆Eudb̄b̄ [MeV]          −∆Elsb̄b̄ [MeV]
+          707            0.0193(34)       0.0152(42)          42.3(7.5)                33.3(9.2)
+          575            0.0281(40)       0.0209(39)          61.7(8.8)                45.9(8.6)
+          416            0.0243(45)       0.0211(50)          53.3(9.9)                 46(11)
+          299            0.0408(51)       0.0227(28)            90(11)                 49.8(6.1)
+          191            0.0508(47)       0.0227(32)           111(10)                 49.8(7.0)
+          165            0.0502(55)       0.0166(45)           110(12)                 36.4(9.9)
+      TABLE II: Binding energies in the J P = 1+ udb̄b̄ and lsb̄b̄ channels as a function of mπ .
+
+   To extrapolate these results to physical mπ , we employ fits with the expected leading
+linear-in-m2π chiral behavior and, as in Ref. [71], a finite volume (FV) term exponential in
+mπ L, where L is the spatial extent of the lattice. The resulting fit form is
+                               a∆E = A0 (1 + A1 (amπ )2 + A2 e−mπ L ) ,                                    (7)
+with the physical result recovered by setting mπ → mphys  π    and L → ∞. We have made a
+explicit for clarity, noting that all As are dimensionless5 . For A2 , the range of mπ L for the
+ensembles we consider extends down only to ≃ 3.6, giving us limited leverage for fitting FV
+effects and preventing a meaningful fit for this quantity. Since a significantly wider range
+of mπ L, extending down to ≃ 2.7, was available to the authors of Ref. [71], we have used
+the results of the fit from that reference, provided to us by the authors, as priors for our fit,
+taking A2 = −3.1(7) in the udb̄b̄ case. 6 With our mπ L values in the range 3.6 to 10.3, this
+turns out to give only a modest correction to the final values. In the lsb̄b̄ case, we expect,
+in addition to somewhat smaller effects proportional to e−mπ L , possible additional effects
+proportional to e−mK L . The former are dealt with by employing a FV term Als     2e
+                                                                                     −mπ L
+                                                                                           in the
+                                                                    ls
+lsb̄b̄ analogue of Eq. 7, taking a conservative prior of 0(3) for A2 . The latter are expected
+to be very small, and hence neglected, given the much larger values of mK L (mK L > 8.7)
+for the ensembles considered. These fits are again carried out using lsqfit [106]. Since the
+range of pion masses considered extends up to ≃ 707 MeV, a value likely well beyond the
+5
+  We perform the fit in lattice units to avoid D’Agostini (normalisation) bias [109]. Results are converted to
+  physical units after fitting.
+6
+  We thank the authors of for providing us with this information, which was not explicitly quoted in Ref. [71].
+A Light-quark mass dependence and the physical-point udb̄b̄ and lsb̄b̄ binding energies15
+
+
+
+                   0 (M   phys 2
+                              )
+                                                                                             0
+                          π
+
+
+
+
+   ∆E[MeV]
+              −50                                                                            −50
+
+
+             −100                                                                            −100
+                                                                                    udb̄b̄
+                                                                                    lsb̄b̄
+             −150                                                                            −150
+                     0.0                    0.2          0.4
+                                               Mπ2[GeV2]
+             FIG. 4: Tetraquark binding in the J P = 1+ udb̄b̄ and lsb̄b̄ channels versus m2π for
+                               mπ ≈ 700, 575, 415, 299, 192 and 165 MeV.
+
+
+range of validity of the fit ansatz Eq. (7), we perform a number of such fits, starting with one
+involving the two ensembles with mπ closest to the physical value (E7 and E9), and adding,
+one at a time, the ensemble with the next lightest mπ to the fit.
+    Figure 5 shows the resulting extrapolated physical-point values of the 1+ udb̄b̄ and lsb̄b̄
+binding energies, ∆E(Mπphys ), as a function of Nens , the number of ensembles included in the
+fit. The lsb̄b̄ binding is seen to be relatively independent of Nens , while the udb̄b̄ binding
+decreases by about a sigma once the two ensembles with the heaviest mπ are included.
+    While we expect the fits with smaller Nens (and hence smaller maximum mπ ) to be more
+reliable, to be conservative, we take as our final results in each channel those represented
+by the central values and half-widths of the colored bands shown in Fig. 5, which span the
+ranges covered by the error bars of all six such fits. These are
+
+                                    ∆Eudb̄b̄ (mphys
+                                               π    ) = −115(17) MeV                                (8)
+                                    ∆Elsb̄b̄ (mphys
+                                               π    ) = −46.7(7.6) MeV.                             (9)
+
+The finite volume corrections described above (and included in Fig. 5 and Eqs. (8) and
+(9)) decrease the ∆Eudb̄b̄ (mphys
+                             π    ) (i.e., deepen the binding) obtained for each Nens by roughly
+one standard deviation. The net effect is a final udb̄b̄ binding, quoted in Eq. (8), 7 MeV
+(≈ 0.4σ) more bound, and with an uncertainty 3 MeV larger, than that obtained neglecting
+finite-volume corrections. For ∆Elsb̄b̄ (mphysπ  ), the effects simply increase the uncertainties,
+without significantly changing the central values. The result is a final uncertainty in Eq. (9)
+1 MeV larger than that obtained in the uncorrected case.
+B Heavy mass dependence                                                                             16
+
+
+
+                     −40                                                                   −40
+
+
+
+
+   ∆E[MeV](Mπphys)
+                     −60                                                                   −60
+
+                     −80                                                          udb̄b̄   −80
+                                                                                  lsb̄b̄
+
+                 −100                                                                      −100
+
+                 −120                                                                      −120
+
+                                2            3     4              5              6
+                                                  Nens
+FIG. 5: Physical-point extrapolations of the 1+ udb̄b̄ and lsb̄b̄ binding energies from fits including
+       Nens ensembles (see text). Our final results are represented by the coloured bands.
+
+
+
+
+   B.                Heavy mass dependence
+
+
+   The heavy mass dependence of the binding, ∆E, for udh̄h̄, udb̄h̄, lsh̄h̄ and lsb̄h̄ tetraquarks
+is discussed at length in [82], with the underlying NRQCD implementation outlined in
+Appendix A of that paper. The variable, spin-averaged ηh -Υh mass is determined as a
+function of the input NRQCD parameter aMQ by measuring the kinetic mass, with the ratio
+of the physical spin-averaged ηb -Υb mass to the resulting kinetic mass taken to define the
+ratio rh ≡ mb /mh . We follow Ref. [82] in carrying out this study on the highest-statistics
+ensemble available, E5, which has mπ = 299 MeV and mπ L = 4.4. We also employ the
+phenomenological fit forms used in that paper, here recast using the notation δl = MB ∗ − MB
+                                                                                               spin av.
+and δs = MBs∗ − MBs for the physical heavy bottom-meson splittings. As usual, with MBB            ∗
+                                   ∗                  spin av.                        spin av.
+the spin average of the B and B masses, MB = MBB ∗ − 4 δl and MB ∗ = MBB ∗ + 14 δl ,
+                                                                3
+
+with analogous expressions for MBs and MBs∗ . These splittings set the overall scales of the
+mb /mh ≡ rh -dependent contributions to tetraquark binding in the various channels from
+heavy-light interactions in the associated two-meson threshold states, represented by the last
+terms in the expressions below. The mass-dependent factors accompanying the splittings in
+these expressions are determined by which two mesons form the two-meson threshold for the
+channel in question. For udb̄h̄, for example, the threshold is B ∗ H for mh < mb (rh > 1) and
+H ∗ B for mh > mb (rh < 1).
+
+   With the above notation, the expressions of Ref. [82] for the singly-heavy, variable-mass
+B Heavy mass dependence                                                                                    17
+
+1+ udb̄h̄ bindings become
+                           C0                             1      3 
+             ∆E udb̄h̄ =        + C1ud + C2ud (r + rh ) −     r − rh δl              (rh > 1)
+                         r + rh                             4     4
+                                                                                                          (10)
+                           C0                              1      3 
+             ∆E udb̄h̄ =        + C1ud + C2ud (r + rh ) −     rh − r δl              (rh < 1),
+                         r + rh                             4      4
+where r ≡ mb /mb = mh /mh = 1, and the terms proportional to C0 , C1ud , and C2ud serve to
+parameterize the attractive color Coulomb interaction between the two heavy antiquarks, the
+spin-dependent good-light-diquark attraction, and residual 1/mh -dependent effects (such as
+differences in light-heavy interactions and heavy-quark kinetic energy between the tetraquark
+and two-meson threshold states), respectively.7 The apparently unnecessary notation r for
+quantities which are here identically equal to 1 is introduced for the purpose of compactness,
+allowing the corresponding forms for the doubly-heavy, variable-mass 1+ udh̄h̄ cases to
+be obtained by replacing all occurrences of r with rh . For lsb̄h̄, the lowest two-meson
+thresholds are B ∗ Hs for rh > 1 and H ∗ Bs for rh < 1, and the phenomenological forms for
+the singly-heavy, variable-mass 1+ lsb̄h̄ bindings are
+                             C0                             1        3     
+              ∆E lsb̄h̄ =         + C1ls + C2ls (r + rh ) −    δl r − δs rh   (rh > 1)
+                           r + rh                            4        4
+                                                                                          (11)
+                  lsb̄h̄     C0       ls     ls
+                                                            1         3 
+              ∆E         =        + C1 + C2 (r + rh ) −        δl rh − δs r   (rh < 1),
+                           r + rh                            4         4
+with the corresponding doubly-heavy variable-mass forms again obtained by the replacement
+r → rh . The superscripts on the fit parameters C1ud,ls and C2ud,ls reflect the expected
+dependence of these quantities on the masses of the light quarks involved. This dependence
+also means that C1ud,ls and C2ud,ls will differ from ensemble to ensemble, with the results
+obtained from the fits of the current study specific to the E5 ensemble employed.
+    The fit forms above are predicated on the assumption that the binding in any deeply bound
+doubly heavy tetraquark system will be dominated by the combination of the attractive
+color-Coulomb interaction between two heavy antiquarks in a color 3c configuration and the
+attractive spin-dependent good-light-diquark interaction known to be present in the static
+heavy-quark limit and reflected experimentally in the splittings in the singly heavy baryon
+spectrum. Additional contributions, resulting from deviations of non-color-Coulomb effects
+from their static values, are assumed to be numerically subleading, and parametrizable by the
+terms proportional to C2ud,ls . These assumptions will become less reliable as the heavy-quark
+mass decreases and one moves farther from the static limit. The fit forms are also expected
+to break down for weakly bound systems, where the wave-function will become dominated by
+longer-distance two-meson components, reducing the effect of the attractive short-distance
+interactions available in a more deeply bound, localized system. Note that the assumptions
+underlying these forms, if reliable, should satisfy some semi-quantitative self-consistency
+tests. For example, the strong increase in the strength of the attractive color-Coulomb
+interaction with increasing amh expected in the udh̄h̄ and lsh̄h̄ systems should show up
+when the heavy-quark mass is varied to values larger than amb . Physically constrained
+expectations also exist for C1ud,ls , provided, as assumed, these are dominated by the known
+7
+    The color Coulomb term in Eq. (10) is proportional to the reduced mass of the two heavy quarks,
+    µbh = mb mh /(mb + mh ) = mb /[rh + 1], with the factor of mb in the numerator absorbed into the definition
+    of C0 . Similarly, the term proportional to C2 reflects an assumed heavy-mass dependence of the form
+    (1/mb ) + (1/mh ) = (1/mb )[1 + rh ], with the overall (1/mb ) factor absorbed into C2 .
+B Heavy mass dependence                                                                          18
+
+attractive good-light-diquark contribution. where we know, from the physical Σb -Λb splitting,
+that, relative to the spin average, the spin-dependent good-light-diquark attraction is −3/4
+times the Σb -Λb splitting, or −145 MeV. One would thus expect a physically sensible fit form
+to produce a result C1ud ≃ −145 MeV for an ensemble with physical mπ and mK . Similarly,
+from the physical Ξ′b -Ξb splitting, a physically sensible fit form should produce a result
+C1ls = ≃ −104 MeV for an ensemble with physical mπ and mK . With these physical-point
+results establishing the decrease of the good-light-diquark attraction with increasing light-
+quark mass, we further expect to find smaller negative values of C1ud and C1ls for ensembles
+with heavier-than-physical mπ , such as E5.
+    Correlated fits of the variable-rh E5 data are carried out using lsqfit [106], which makes
+extensive use of gvar [107].
+    The results for the parameters δl and δs , obtained from the combined all-amh fit for aMH ,
+aMH ∗ , aMHs and aMHs∗ , are δl = 41.7(2.7) MeV and δs = 45.8(1.7) MeV. These agree well
+with the PDG [110] values, δl = 45.42(26) MeV and δs = 46.1(1.5) MeV. Using the PDG
+values in place of the fit values has no significant impact on our results. As noted above, the
+aMH , aMH ∗ , aMHs and aMHs∗ results are used to determine the lowest two-meson thresholds
+needed for determining the tetraquark binding energies.
+
+               50                                                                       50
+
+                0                                                                       0
+
+             −50                                                                        −50
+
+   ∆E[MeV]
+             −100                                                                       −100
+
+             −150                                                                       −150
+
+             −200                           udh̄h̄            udb̄h̄
+                                                                              mh = mc
+                                                                                        −200
+                                            lsh̄h̄            lsb̄h̄
+             −250                                                                       −250
+                    0                1                    2                    3
+                                                     rh
+    FIG. 6: Binding energies of J P = 1+ tetraquark states bound below the lowest two-meson
+threshold on the E5 ensemble, plotted against rh . Coloured bands are the results of correlated fits
+  to Eqs. (10) and (11). The points at mb /mh = 1 with the black error bars are the results of a
+               physical-point continuum extrapolation, discussed below in Sec. IV A.
+
+    In Fig. 6, we present the results for the E5 ensemble J P = 1+ udh̄h̄, lsh̄h̄, udb̄h̄ and lsb̄h̄
+tetraquark binding energies, together with colored bands showing the fit to these results
+produced using the rh -dependent phenomenological forms above. Table III gives the resulting
+fit parameter values, errors and correlations. The fit has a χ2 /d.o.f. of 0.55.
+B Heavy mass dependence                                                                         19
+
+
+                      C0           C1ud          C2ud         C1ls         C2ls
+                  -31.8(6.3)    -102(14)      14.8(5.1)    -79(12)      16.7(4.2)
+                    1.000        -0.558         0.411       -0.786        0.663
+                                  1.000        -0.911        0.684       -0.573
+                                                1.000       -0.525        0.506
+                                                             1.000       -0.930
+                                                                          1.000
+  TABLE III: E5 ensemble J P = 1+ tetraquark fit results. Line 1: Fit results (in MeV) for the
+     coefficients in Eqs. (10) and (11). Lines 2-6: the corresponding correlation matrix.
+
+
+    Immediately evident from the figure are the rapid increases in udh̄h̄ and lsh̄h̄ binding with
+decreasing rh (increasing amh ), associated with the unbounded growth of the color-Coulomb
+attraction in those cases as rh → 0+ (amh → ∞). The fit results for C1ud and C1ls are also
+seen to be ∼ 20% less attractive than the corresponding physical-point values, in keeping
+with the heavier-than-physical 299 MeV value of mπ on the E5 ensemble and the expectations
+discussed above. The good agreement of the phenomenological fits with the rh -dependence of
+the lattice results clearly suggests the physical picture underlying the fit forms has succeeded
+in identifying the main sources responsible for the observed deep binding in the udb̄b̄ and lsb̄b̄
+tetraquark channels. While the region of reliability of the NRQCD heavy-quark treatment
+extends down only to mh ≃ 0.6mb [82] (rh ≃ 1.7), and hence does not reach mh = mc
+(rc ≃ 3.1), this suggests extrapolated versions of the fits (bearing in mind the additional
+∼ 45 (∼ 25) MeV in good ud (ls) diquark binding expected for physical mπ based on the E5
+results for C1ud and C1ls ) may provide useful qualitative guides to what is expected as mh is
+reduced further towards mc . This conclusion is supported by the observation that a rough
+by-eye extrapolation of the NRQCD-based E5 udh̄h̄ results to rh ≃ 3.1, supplemented by the
+expected additional ∼ 45 MeV in good-light-diquark-source binding at physical mπ for the
+points shown in the figure, leads to the expectation of a binding near zero in the physical 1+
+udc̄c̄ tetraquark channel, an expectation compatible with the observed very weakly bound
+Tcc found by LHCb [79, 80]. The figure, further, suggests that (i) with binding in the 1+
+lsh̄h̄ and lsb̄h̄ channels always less than that in the udh̄h̄ channel and the Tcc observed to lie
+essentially at threshold, no bound 1+ state is expected in either of the lsc̄c̄ or lsb̄c̄ channels,
+and (ii) with the Tcc weakly bound and the fit showing binding in the 1+ udb̄h̄ channel
+greater than that in the 1+ udh̄h̄ channel for rh > 1, a bound udb̄c̄ tetraquark is likely to
+exist in the I = 0, J P = 1+ channel, albeit (given the preponderance of previous lattice
+results) with relatively small binding. The latter conclusion is in keeping with expectations
+based on (i) the results of the recent, slightly heavier-than-physical mπ ≃ 220 MeV lattice
+scattering study of Ref. [78], which found a genuine bound state (though compatible within
+statistical errors with being a virtual bound state) 2.5(2.9) MeV below B ∗ D̄ threshold, and
+(ii) the anticipated small increase in binding due to increased good-light-diquark attraction
+at shorter B ∗ D̄ separations expected at slightly lower, physical mπ . Weak binding in this
+channel is also compatible with the results of Refs. [56, 74] which, though showing no signs of
+deep binding, could not rule out a weakly    bound state. The weak binding found in Ref. [78]
+                                    +7   +24
+shows some tension with the 43 −6 −14 MeV result of the mixed-action, overlap-valence on
+HISQ-sea study of Ref. [76], though the latter employs a small set of interpolating operators
+and results from a physical-point extrapolation from valence pion masses, 0.5, 0.6, 0.7, 1.0
+and 3.0 GeV, significantly heavier than considered in Ref. [78]. The 1+ udb̄c̄ channel will be
+B Heavy mass dependence                                                                        20
+
+discussed in more detail in Sec. V.
+
+
+
+                0                                                                       0
+
+             −25                                                                        −25
+
+
+   ∆E[MeV]
+             −50                                                                        −50
+
+             −75                                                                        −75
+                                                      udb̄h̄(1+)         udb̄h̄(0+)
+             −100                                     lsb̄h̄(1+)         lsb̄h̄(0+)     −100
+                0.0            0.5              1.0                1.5                2.0
+                                                rh
+ FIG. 7: Binding energies of J P = 1+ and 0+ udb̄h̄ and lsb̄h̄ tetraquark states bound below the
+lowest two-meson threshold on the E5 ensemble, plotted against rh in the region where we have
+data. Coloured bands are the results of correlated fits to Eqs. (10) and (11). The 0+ results are
+                           bolder and slightly offset in rh for clarity.
+
+
+
+   In Figure 7 we plot results for tetraquark binding in the J P = 0+ udb̄h̄ and lsb̄h̄ channels,
+channels in which tetraquark configurations without relative heavy-quark spatial excitation
+are possible when the two heavy quarks are different. Also shown for comparison are the
+corresponding 1+ udb̄h̄ and lsb̄h̄ results and associated phenomenological fit bands from
+Fig. 6. Tetraquark binding is found to be similar, within errors, in the 1+ and 0+ lsb̄h̄
+channels. In contrast, 0+ binding is found to be somewhat smaller than 1+ binding in the
+udb̄h̄ channel. The lattice scattering study of Ref. [78] also found a similar comparable,
+though somewhat reduced, binding in the 0+ than the 1+ udb̄c̄ channel in a simulation with
+mh = mc and mπ ≃ 220 MeV. Given that these scattering results, the results of Refs. [56, 74],
+and the qualitative extrapolation of the phenomenological fit to mh ≃ mc all agree on
+at-most-weak-binding in the 1+ udb̄c̄ channel, these observations suggest that, while a deeply
+bound 0+ udb̄c̄ tetraquark would definitely exist were the charm quark to be sufficiently
+heavier than it is in nature, at physical mc the 0+ udb̄c̄ state is likely either unbound or only
+weakly bound. In the case that the 0+ udb̄c̄ state is weakly bound, the weakness of both
+the 1+ and 0+ bindings ensures that the mass of the 0+ state will be less than that of the
+corresponding 1+ state. The consequences for a possible experimental udb̄c̄ tetraquark signal
+of either this scenario or a scenario where the 1+ state is bound but the 0+ state is not are
+discussed in Sec. V below.
+                                                                                                         21
+
+V.     SUMMARY AND DISCUSSION
+
+   In this paper we have revisited the earlier lattice determination of the binding energies
+of the flavour-antitriplet of doubly-bottom J P = 1+ tetraquarks reported in Ref. [60],
+introducing a number of significant improvements and producing results which update and
+supersede those of Ref. [60]. Relative to the previous studies, our new analysis employs
+several improvements. First, rather than using local operators at the sink, as done in Ref. [60],
+we implement the improved box-sink construction of Ref. [56]. As shown in Ref. [56], this
+construction significantly reduces excited state contamination of the ground-state signal,
+leading to much longer ground-state effective-mass plateaus, beginning at much earlier
+Euclidean times, than those obtained in the local-sink analysis of Ref. [60]. Second, we
+add two newly generated, larger-volume ensembles with mπ < 200 MeV, aimed at reducing
+possible FV effects. Finally, we employ an expanded sets of interpolating operators for the
+udb̄b̄ and lsb̄b̄ channels, and approach the correlator fits using a multi-exponential fit, rather
+than a GEVP.
+   It is difficult to separate the effects of these different changes out fully, but it is clear
+from [56] that the box sink method is likely the main driver for the shallower bindings we
+find with respect to previous analyses using local sinks. Whilst the additional pion masses
+certainly improved our uncertainties and confidence in our findings, it is clear from Fig. 4
+that without these additional data points our results would be broadly similar. Similarly, for
+the expanded operator basis and multi-exponential fits, it is more the case that these changes
+give us enhanced confidence in our results, than are directly responsible for any explicit shift
+in values from earlier analyses.
+   Our result for the I = 0, J P = 1+ udb̄b̄ binding, 115(17) MeV, shows some tension with
+the results of two earlier studies, Refs. [60] and [63], which found 189(10)(3) MeV and
+187(18) MeV, respectively, though, as noted above, the former result is superseded by that
+of the current, improved analysis. Our new result agrees within errors with all other recent
+lattice results for this channel, with Ref. [61] finding 143(34) MeV, Ref. [62] 128(24)(10)
+MeV, Ref. [71] 112(13) MeV, Ref. [70] 83(10)(20) MeV and Ref. [73] 100(10) +51   −36 MeV. It is
+worth noting that among these the physical-point HALQCD result, 83(10)(20) MeV [70], is
+obtained from a significantly longer physical-point extrapolation (of results with mπ ∼ 410,
+575 and 700 MeV) than are the results of Refs. [61, 62, 71, 73] or the current analysis, all
+of which include ensembles with mπ at least as low as ∼ 220 MeV. A potentially large
+systematic error can arise from the use of NRQCD. It cannot be estimated within our work
+since we have just one lattice spacing, but a previous study [91] has found it to be of the
+order of 10 MeV.
+   We also note that the more recent analysis of Ref. [73] improves on that of Ref. [62],
+including the “scattering operators” introduced in Ref. [62], and used there only on the sink
+side, now also on the source side.8 Our new result confirms the existence of the deeply-bound
+I = 0, J P = 1+ udb̄b̄ tetraquark state found in earlier lattice studies and joins other recent
+lattice analyses [62, 71, 73] in providing a consistent consensus for its binding energy. These
+results confirm that the state is stable with respect to both strong and electromagnetic
+interactions, and hence can decay only via the weak interaction. It is thus expected to be
+narrow, long-lived, and have a large number of exclusive decay modes, each with a small
+branching fraction, making experimental detection at current facilities extremely challenging
+8
+    In Ref. [62], these scattering operators (the products of pairs of independently zero-momentum-projected
+    single-heavy-meson interpolating operators) were shown to provide improved access to the threshold
+    two-meson BB ∗ state signal.
+                                                                                                                 22
+
+(see, e.g., the discussion of this point in Ref. [111]). An alternate, inclusive strategy for
+ detecting the presence of weakly decaying doubly-bottom hadrons (via searches for Bc mesons
+ originating from displaced secondary vertices at the LHC) was suggested in Ref. [112]. Such
+ a signal would, in principle, contain contributions from not just the J P = 1+ udb̄b̄ tetraquark
+ of interest, but also doubly bottom baryons, and hence, on its own, be insufficient to establish
+ the presence of the udb̄b̄ tetraquark signal. It would also, in principle, contain J P = 1+ lsb̄b̄
+ tetraquark contributions, should the lsb̄b̄ state have a binding energy greater than 46 MeV
+ and hence also be able to decay only weakly. In spite of these complications, a search for such
+ displaced Bc vertex events would be of interest in setting an upper bound on the production
+ cross-section for weakly decaying doubly-bottom tetraquark states and determining whether
+ additional efforts to identify, and separate out, the doubly bottom baryon component of the
+ signal would be worth pursuing, all this, of course, provided a good understanding of the
+ resolution of the tail of the impact parameter distribution relative to the primary collision
+vertex can be achieved.9
+     Our result for the I = 1/2, J P = 1+ lsb̄b̄ binding, 47(8) MeV, is (i) significantly lower
+ than the earlier lattice results, 98(7)(3), 87(32) and 86(27)(10) MeV, obtained in the analyses
+ of Refs. [60], [61], and Ref. [74], respectively,   but (ii) in good agreement with the more
+ recent results, 46(12) and 30(3) +31
+                                         
+                                     −11   MeV,  obtained in Refs. [71] and [73]. As noted above,
+ the latter analysis represents an improvement on the earlier analysis of Ref. [74], with the
+“scattering operators” of the earlier analysis now included at both the source and sink, rather
+ than just the sink. The analysis of Ref. [71] also improves on earlier analyses, employing
+ extended sink-side operators which produce much longer effective-mass plateaus than those
+ found in Refs. [60] and [61].10 The current analysis provides, via the box-sink construction,
+ a similar improvement for the J P = 1+ lsb̄b̄ ground-state signal. As noted above, our new
+ result, 47(8) MeV, for the binding in this channel also supersedes that obtained in Ref. [60].
+We consider the improved features of the analyses of Refs. [71], [73] and the current analysis,
+ and the good agreement of the determinations of the J P = 1+ lsb̄b̄ binding obtained from
+ these improved analyses, to establish the reliability of the lower range of results for the
+ lsb̄b̄ binding they produce. The binding is, however, still clearly positive, confirming the
+ strong-interaction-stability of the J P = 1+ lsb̄b̄ state. With the lowest of the two-meson
+ thresholds in this channel, Bs B ∗+ , lying only 45.3(3) MeV above Bs B + threshold, these
+ updated results raise the interesting possibility that the J P = 1+ lsb̄b̄ tetraquark state might
+ lie above the lowest two-heavy-pseudoscalar (Bs B) threshold and hence be able to decay
+ electromagnetically to Bs B plus a soft photon. The limited phase space available to such a
+ decay would restrict the maximum relative Bs -B momentum in the lsb̄b̄ tetraquark rest frame
+ to relatively low values. In contrast to the case of the J P = 1+ udb̄b̄ state, where only weak
+ decays are possible and one expects many exclusive decay modes, all with small branching
+ fractions, an electromagnetic Bs Bγ decay of the J P = 1+ lsb̄b̄ state would be expected to
+ have an essentially 100% branching fraction. While the soft photon from the decay would
+ not be detectable at LHCb, once boosted to the lab frame the Bs and B pair from the decay
+would be highly collimated and, because of the almost 100% branching fraction, provide
+ a potentially much higher statistics target for an experimental doubly bottom tetraquark
+ search than is the case for any exclusive weak decay of the udb̄b̄ analogue.
+ 9
+   Also worth noting in this context is the observation of double Υ production by CMS [113, 114], which
+   establishes the existence of a non-negligible double bb̄ pair production rate, and hence the (at least in
+   principle) possibility of the production of a small number of such weakly decaying doubly bottom hadrons
+   at the LHC.
+10
+   See Fig. 1 of Ref. [61] and the lower panel of Fig. 1 of Ref. [60] for examples of the short, late-Euclidean-time
+   effective mass J P = 1+ lsb̄b̄ channel plateaus found in those earlier references.
+                                                                                                              23
+
+    We close with a discussion of the I = 0, J P = 1+ and 0+ udb̄c̄ channels. Though we
+have not explicitly revisited these channels in this paper, the results of the updated variable-
+heavy-mass study detailed in Sec. IV B provide some additional qualitative information of
+relevance to expectations for possible experimental signatures in the bottom-charm sector.
+    We first note that the longest-distance, one-pion-exchange potentials between the lowest
+two-meson threshold states are the same for the I = 0, J P = 1+ udc̄c̄, udb̄c̄ and udb̄b̄
+channels [3]. At shorter distances, where the variable-heavy-mass results and associated
+phenomenological fit provide additional qualitative information, the corresponding D̄D̄∗ ,
+D̄B ∗ and BB ∗ two-meson s-wave threshold pairs, in contrast, have access to the heavy-
+mass-dependent attractive 3c color Coulomb c̄c̄, c̄b̄ and b̄b̄ interactions, as well as to the
+other heavy-mass-dependent interactions collectively parametrized by the C2 term in the
+phenomenological fit form. The color Coulomb attraction, which is proportional to the
+heavy-heavy reduced mass, is more attractive in the udb̄c̄ channel than the udc̄c̄ channel,
+though less attractive than in the udb̄b̄ channel. The shorter-distance, repulsive contribution
+proportional to C2 in the I = 0, J P = 1+ , udb̄h̄ phenomenological fit form, similarly, becomes
+less repulsive (hence increasing the binding) as the variable heavy mass, mh , is increased.
+If we imagine starting from the very weakly bound Tcc state, and changing the D̄∗ of the
+two-meson threshold in that channel slowly to B ∗ by dialing up the mass of the heavy quark
+in the vector meson of the two-meson threshold state, we thus expect (i) a small increase
+in binding (reduced kinetic energy) from long-distance sources due to the larger B ∗ D̄ (c.f.
+D̄D̄∗ ) reduced mass, and (ii) additional small increases in binding from the short-distance
+sources just discussed, which become more attractive/less repulsive as the variable heavy
+mass is increased. These observations provide further support the expectation that a bound
+tetraquark with binding energy at least somewhat greater than that of the Tcc should exist
+in the I = 0, J P = 1+ udb̄c̄ channel. Recent lattice results restrict how much larger this
+increased 1+ udb̄c̄ binding can be, with (i) the results of Refs. [56, 64,65, 74]   indicating
+                       11                                                  +7   +24
+at best weak binding and favoring results on the low side of the 43 −6 −14 MeV range
+reported in Ref. [76], and (ii) the result of the improved, more recent (albeit not-yet-physical-
+point-extrapolated) mπ ∼ 220 MeV scattering study of Ref. [78], suggesting an even smaller,
+few to several MeV, value. The preponderance of lattice evidence thus points to the existence
+of a strong-interaction-stable I = 0, J P = 1+ udb̄c̄ state with binding almost certainly less
+than the 46 MeV needed for its mass to lie below B D̄ threshold and thus be stable also with
+respect to electromagnetic decay. The I = 0, J P = 1+ udb̄c̄ state is therefore expected to
+decay electromagnetically.
+    The lattice scattering study of Ref. [78] also points to the possibility of a bound I = 0,
+J P = 0+ udb̄c̄ state, quoting a binding relative to B D̄ threshold of 0.5(9) MeV at mπ ≃ 220
+MeV. If bound at physical mπ , this state would be able to decay only weakly, with multiple
+exclusive decay modes, each with relatively small branching fraction, representing a challenge
+for experimental detection. The either very weakly bound or unbound 0+ result of Ref. [78]
+is compatible with the results of Refs. [56, 74], which found no signof a deeply bound state
+in this channel, though in some tension with the larger 39 +6  −4
+                                                                   +18
+                                                                   −8    MeV 0+ binding found
+in the alternate scattering analysis of Ref. [77], where fewer interpolating operators, heavier
+valence pion masses, but some finer ensembles were employed.
+    A summary of the above discussion of the udb̄c̄ sector is as follows. First, there is now
+good evidence for the existence of a strong-interaction-stable I = 0, J P = 1+ udb̄c̄ partner of
+the Tcc with binding small enough to allow it to decay electromagnetically. Second, though
+11
+     In the single-ensemble study of Ref. [56], we were easily able to resolve an lsb̄b̄ binding of 36 MeV.
+                                                                                             24
+
+it is clear that a bound I = 0, J P = 0+ udb̄c̄ tetraquark would exist were the charm-quark
+mass to be sufficiently heavier than it is in nature, without a J P = 0+ analogue of the Tcc to
+anchor the discussion it is not yet clear whether binding survives in this channel at physical
+mc and mπ . If the J P = 0+ state is not bound, then the 1+ state should decay essentially
+100% of the time to B D̄γ, producing highly collimated B-D̄ pairs in the lab frame with
+a narrow range of invariant masses lying between mB + mD and the 1+ tetraquark mass.
+If, in contrast, the J P = 0+ state is bound, the 1+ state will decay electromagnetically to
+a soft photon plus the 0+ state as well as to B D̄γ. With at most weak 0+ binding, the
+branching fraction of the B D̄γ mode should, however, still be sizeable. While the multiple
+small branching fraction exclusive modes of the weak decay of the 0+ state in this scenario
+will make detecting not just the production of the 0+ state itself, but also the 0+ -plus-soft
+photon decay branch of the 1+ state experimentally challenging, the B D̄γ branch will have
+the same potentially useful, statistically enhanced signal as in the scenario where the 0+
+state is unbound.
+
+
+   ACKNOWLEDGEMENTS
+
+   The authors wish to thank G. P. Lepage for considerable input and advice regarding
+correlator fitting with his software (described in text). WP, RL and KM are supported
+by grants from the Natural Sciences and Engineering Research Council of Canada. AF
+acknowledges support by the National Science and Technology Council of Taiwan under
+grant 111-2112-M-A49-018-MY2. All computations were carried out using an allocations as
+part of the Digital Research Alliance of Canada on the Niagara supercomputer at Scinet.
+
+
+   Appendix A: Operator basis
+
+   The operator basis used in this work is a subset of that used in [56]. Copying the
+generalised notation in that reference for our specific case, our operators are,
+
+                              D(Γ1 , Γ2 ) = (ψaT CΓ1 ϕb )(θ̄a CΓ2 ω̄bT ),
+                       E(Γ1 , Γ2 ) = (ψaT CΓ1 ϕb )(θ̄a CΓ2 ω̄bT − θ̄b CΓ2 ω̄aT ),         (A1)
+                M (Γ1 , Γ2 ) = (θ̄Γ1 ψ)(ω̄Γ2 ϕ),       N (Γ1 , Γ2 ) = (θ̄Γ1 ϕ)(ω̄Γ2 ψ).
+
+The list of operators used in this work for each tetraquark channel is given in Tables IV
+and V.
+
+
+
+  [1] J. Ader, J. Richard, and P. Taxil, Phys. Rev. D 25, 2370 (1982).
+  [2] L. Heller and J. Tjon, Phys. Rev. D 35, 969 (1987).
+  [3] A. V. Manohar and M. B. Wise, Nucl. Phys. B 399, 17 (1993), arXiv:hep-ph/9212236.
+  [4] D. G. Richards, D. K. Sinclair, and D. W. Sivers, Phys. Rev. D42, 3191 (1990).
+  [5] A. Mihaly, H. R. Fiebig, H. Markum, and K. Rabitsch, Phys. Rev. D55, 3077 (1997).
+  [6] A. M. Green and P. Pennanen, Phys. Rev. C57, 3384 (1998), arXiv:hep-lat/9804003 [hep-lat].
+  [7] C. Stewart and R. Koniuk, Phys. Rev. D57, 5581 (1998), arXiv:hep-lat/9803003 [hep-lat].
+                                                                                                       25
+
+
+       Type (ψϕθω)       I(J)P        Diquark-Antidiquark                       Dimeson
+                                                                        M (γ5 , γi ) − N (γ5 , γi )
+           udb̄h̄        0(1)+       E(γ5 , γi ), E(γt γ5 , γi γt )
+                                                                       M (I, γi γ5 ) − N (I, γi γ5 )
+                                                                        M (γ5 , γi ) − N (γ5 , γi )
+           udh̄h̄        0(1)+      D(γ5 , γi ), D(γt γ5 , γi γt )
+                                                                       M (I, γi γ5 ) − N (I, γi γ5 )
+                         1     +                                       M (γ5 , γi ), M (I, γi γ5 )
+           lsh̄h̄        2 (1)      D(γ5 , γi ), D(γt γ5 , γi γt )
+                                                                        N (γ5 , γi ), N (I, γi γ5 )
+                         1     +                                       M (γ5 , γi ), M (I, γi γ5 )
+           lsb̄h̄        2 (1)       E(γ5 , γi ), E(γt γ5 , γi γt )
+                                                                        N (γ5 , γi ), N (I, γi γ5 )
+               TABLE IV: J P = 1+ operators (from Eq. (A1)) used in this work.
+
+
+
+        Type (ψϕθω)       I(J)P        Diquark-Antidiquark                     Dimeson
+                                                                       M (γ5 , γ5 ) − N (γ5 , γ5 )
+            udb̄h̄        0(0)+       E(γ5 , γ5 ), E(γt γ5 , γt γ5 )
+                                                                        M (I, I) − N (I, I)
+                          1    +                                        M (γ5 , γ5 ), M (I, I)
+            lsb̄h̄        2 (0)      E(γ5 , γ5 ), E(γt γ5 , γt γ5 )
+                                                                        N (γ5 , γ5 ), N (I, I)
+               TABLE V: J P = 0+ operators (from Eq. (A1)) used in this work.
+
+
+
+ [8] C. Michael and P. Pennanen (UKQCD), Phys. Rev. D60, 054012 (1999), arXiv:hep-lat/9901007
+     [hep-lat].
+ [9] P. Pennanen, C. Michael, and A. M. Green (UKQCD), Nucl. Phys. Proc. Suppl. 83, 200
+     (2000), arXiv:hep-lat/9908032 [hep-lat].
+[10] M. S. Cook and H. R. Fiebig, (2002), arXiv:hep-lat/0210054 [hep-lat].
+[11] T. Doi, T. T. Takahashi, and H. Suganuma, AIP Conf. Proc. 842, 246 (2006), arXiv:hep-
+     lat/0601008.
+[12] W. Detmold, K. Orginos, and M. J. Savage, Phys. Rev. D76, 114503 (2007), arXiv:hep-
+     lat/0703009 [HEP-LAT].
+[13] J. Carlson, L. Heller, and J. Tjon, Phys. Rev. D 37, 744 (1988).
+[14] S. Zouzou, B. Silvestre-Brac, C. Gignoux, and J. Richard, Z. Phys. C 30, 457 (1986).
+[15] H. J. Lipkin, Phys. Lett. B 172, 242 (1986).
+[16] B. Silvestre-Brac and C. Semay, Z. Phys. C 57, 273 (1993).
+[17] C. Semay and B. Silvestre-Brac, Z. Phys. C 61, 271 (1994).
+[18] S. Pepin, F. Stancu, M. Genovese, and J. Richard, Phys. Lett. B 393, 119 (1997), arXiv:hep-
+     ph/9609348.
+[19] D. Brink and F. Stancu, Phys. Rev. D 57, 6778 (1998).
+[20] J. Vijande, F. Fernandez, A. Valcarce, and B. Silvestre-Brac, Eur. Phys. J. A 19, 383 (2004),
+     arXiv:hep-ph/0310007.
+[21] D. Janc and M. Rosina, Few Body Syst. 35, 175 (2004), arXiv:hep-ph/0405208.
+[22] J. Vijande, E. Weissman, A. Valcarce, and N. Barnea, Phys. Rev. D 76, 094027 (2007),
+     arXiv:0710.2516 [hep-ph].
+[23] D. Ebert, R. Faustov, V. Galkin, and W. Lucha, Phys. Rev. D 76, 114015 (2007),
+     arXiv:0706.3853 [hep-ph].
+                                                                                                26
+
+[24] M. Zhang, H. Zhang, and Z. Zhang, Commun. Theor. Phys. 50, 437 (2008), arXiv:0711.1029
+     [nucl-th].
+[25] J. Vijande, A. Valcarce, and N. Barnea, Phys. Rev. D 79, 074010 (2009), arXiv:0903.2949
+     [hep-ph].
+[26] Y. Yang, C. Deng, J. Ping, and T. Goldman, Phys. Rev. D 80, 114023 (2009).
+[27] T. Carames, A. Valcarce, and J. Vijande, Phys. Lett. B 699, 291 (2011).
+[28] R. R. Silbar and T. Goldman, Int. J. Mod. Phys. E 23, 1450091 (2014), arXiv:1304.5480
+     [nucl-th].
+[29] M. Karliner and J. L. Rosner, Phys. Rev. Lett. 119, 202001 (2017), arXiv:1707.07666 [hep-ph].
+[30] T. F. Caramés, J. Vijande, and A. Valcarce, Phys. Rev. D 99, 014006 (2019), arXiv:1812.08991
+     [hep-ph].
+[31] C. Deng, H. Chen, and J. Ping, Eur. Phys. J. A 56, 9 (2020), arXiv:1811.06462 [hep-ph].
+[32] W. Park, S. Noh, and S. H. Lee, Nucl. Phys. A 983, 1 (2019), arXiv:1809.05257 [nucl-th].
+[33] G. Yang, J. Ping, and J. Segovia, Phys. Rev. D 101, 014001 (2020), arXiv:1911.00215
+     [hep-ph].
+[34] E. Hernández, J. Vijande, A. Valcarce, and J.-M. Richard, Phys. Lett. B 800, 135073 (2020),
+     arXiv:1910.13394 [hep-ph].
+[35] Y. Tan, W. Lu, and J. Ping, Eur. Phys. J. Plus 135, 716 (2020), arXiv:2004.02106 [hep-ph].
+[36] Q.-F. Lü, D.-Y. Chen, and Y.-B. Dong, Phys. Rev. D 102, 034012 (2020), arXiv:2006.08087
+     [hep-ph].
+[37] J.-B. Cheng, S.-Y. Li, Y.-R. Liu, Z.-G. Si, and T. Yao, Chin. Phys. C 45, 043102 (2021),
+     arXiv:2008.00737 [hep-ph].
+[38] Q. Meng, E. Hiyama, A. Hosaka, M. Oka, P. Gubler, K. U. Can, T. T. Takahashi, and H. S.
+     Zong, Phys. Lett. B 814, 136095 (2021), arXiv:2009.14493 [nucl-th].
+[39] S. Noh, W. Park, and S. H. Lee, Phys. Rev. D 103, 114009 (2021), arXiv:2102.09614 [hep-ph].
+[40] S. Ohkoda, Y. Yamaguchi, S. Yasui, K. Sudoh, and A. Hosaka, Phys. Rev. D 86, 034019
+     (2012), arXiv:1202.0760 [hep-ph].
+[41] A. Czarnecki, B. Leng, and M. Voloshin, Phys. Lett. B 778, 233 (2018), arXiv:1708.04594
+     [hep-ph].
+[42] E. J. Eichten and C. Quigg, Phys. Rev. Lett. 119, 202002 (2017), arXiv:1707.09575 [hep-ph].
+[43] E. Braaten, L.-P. He, and A. Mohapatra, Phys. Rev. D 103, 016001 (2021), arXiv:2006.08650
+     [hep-ph].
+[44] M. A. Shifman, A. Vainshtein, and V. I. Zakharov, Nucl. Phys. B 147, 385 (1979).
+[45] M. A. Shifman, A. Vainshtein, and V. I. Zakharov, Nucl. Phys. B 147, 448 (1979).
+[46] F. S. Navarra, M. Nielsen, and S. H. Lee, Phys. Lett. B 649, 166 (2007), arXiv:hep-ph/0703071.
+[47] M.-L. Du, W. Chen, X.-L. Chen, and S.-L. Zhu, Phys. Rev. D 87, 014003 (2013),
+     arXiv:1209.5134 [hep-ph].
+[48] W. Chen, T. Steele, and S.-L. Zhu, Phys. Rev. D 89, 054037 (2014), arXiv:1310.8337 [hep-ph].
+[49] Z.-G. Wang, Acta Phys. Polon. B 49, 1781 (2018), arXiv:1708.04545 [hep-ph].
+[50] S. Agaev, K. Azizi, B. Barsbay, and H. Sundu, Phys. Rev. D 99, 033002 (2019),
+     arXiv:1809.07791 [hep-ph].
+[51] S. S. Agaev, K. Azizi, and H. Sundu, Nucl. Phys. B 951, 114890 (2020), arXiv:1905.07591
+     [hep-ph].
+[52] S. Agaev, K. Azizi, and H. Sundu, Phys. Rev. D 100, 094020 (2019), arXiv:1907.04017
+     [hep-ph].
+                                                                                              27
+
+[53] L. Tang, B.-D. Wan, K. Maltman, and C.-F. Qiao, Phys. Rev. D 101, 094032 (2020),
+     arXiv:1911.10951 [hep-ph].
+[54] Q.-N. Wang and W. Chen, Eur. Phys. J. C 80, 389 (2020), arXiv:2002.04243 [hep-ph].
+[55] S. S. Agaev, K. Azizi, B. Barsbay, and H. Sundu, Chin. Phys. C 45, 013105 (2021),
+     arXiv:2002.04553 [hep-ph].
+[56] R. J. Hudspith, B. Colquhoun, A. Francis, R. Lewis, and K. Maltman, Phys. Rev. D 102,
+     114506 (2020), arXiv:2006.14294 [hep-lat].
+[57] P. Bicudo, K. Cichy, A. Peters, and M. Wagner, Phys. Rev. D 93, 034501 (2016),
+     arXiv:1510.03441 [hep-lat].
+[58] P. Bicudo, J. Scheunert, and M. Wagner, Phys. Rev. D 95, 034502 (2017), arXiv:1612.02758
+     [hep-lat].
+[59] P. Bicudo, M. Cardoso, A. Peters, M. Pflaumer, and M. Wagner, Phys. Rev. D 96, 054510
+     (2017), arXiv:1704.02383 [hep-lat].
+[60] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman, Phys. Rev. Lett. 118, 142001 (2017),
+     arXiv:1607.05214 [hep-lat].
+[61] P. Junnarkar, N. Mathur, and M. Padmanath, Phys. Rev. D 99, 034507 (2019),
+     arXiv:1810.12285 [hep-lat].
+[62] L. Leskovec, S. Meinel, M. Pflaumer, and M. Wagner, Phys. Rev. D100, 014503 (2019),
+     arXiv:1904.04197 [hep-lat].
+[63] P. Mohanta and S. Basak, Phys. Rev. D 102, 094516 (2020), arXiv:2008.11146 [hep-lat].
+[64] M. Pflaumer, L. Leskovec, S. Meinel, and M. Wagner, in Asia-Pacific Symposium for Lattice
+     Field Theory (2020) arXiv:2009.10538 [hep-lat].
+[65] M. Pflaumer, L. Leskovec, S. Meinel, and M. Wagner, PoS LATTICE2021, 392 (2022),
+     arXiv:2108.10704 [hep-lat].
+[66] M. Wagner, C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel, and M. Pflaumer, PoS
+     LATTICE2022, 270 (2023), arXiv:2210.09281 [hep-lat].
+[67] M. Pflaumer, C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel, and M. Wagner, PoS
+     LATTICE2022, 075 (2023), arXiv:2211.00951 [hep-lat].
+[68] B. Colquhoun, A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman, PoS LATTICE2021,
+     144 (2022).
+[69] B. Colquhoun, A. Francis, R. Hudspith, R. Lewis, and K. Maltman, Rev. Mex. Fis. Suppl. 3,
+     0308044 (2022).
+[70] T. Aoki, S. Aoki, and T. Inoue, Phys. Rev. D 108, 054502 (2023), arXiv:2306.03565 [hep-lat].
+[71] R. J. Hudspith and D. Mohler, Phys. Rev. D 107, 114510 (2023), arXiv:2303.17295 [hep-lat].
+[72] L. Mueller, P. Bicudo, M. Krstic Marinkovic, and M. Wagner (2023) arXiv:2312.17060
+     [hep-lat].
+[73] C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel, M. Pflaumer, and M. Wagner, (2024),
+     arXiv:2404.03588 [hep-lat].
+[74] S. Meinel, M. Pflaumer, and M. Wagner, Phys. Rev. D 106, 034507 (2022), arXiv:2205.13982
+     [hep-lat].
+[75] N. Mathur and M. Padmanath, PoS LATTICE2021, 443 (2022), arXiv:2111.01147 [hep-lat].
+[76] M. Padmanath, A. Radhakrishnan, and N. Mathur, (2023), arXiv:2307.14128 [hep-lat].
+[77] A. Radhakrishnan, M. Padmanath, and N. Mathur, (2024), arXiv:2404.08109 [hep-lat].
+[78] C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel, M. Pflaumer, and M. Wagner, (2023),
+     arXiv:2312.02925 [hep-lat].
+[79] R. Aaij et al. (LHCb), Nature Phys. 18, 751 (2022), arXiv:2109.01038 [hep-ex].
+                                                                                                28
+
+ [80] R. Aaij et al. (LHCb), Nature Commun. 13, 3351 (2022), arXiv:2109.01056 [hep-ex].
+ [81] G. K. C. Cheung, C. E. Thomas, J. J. Dudek, and R. G. Edwards (Hadron Spectrum), JHEP
+      11, 033 (2017), arXiv:1709.01417 [hep-lat].
+ [82] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman, Phys. Rev. D 99, 054505 (2019),
+      arXiv:1810.10550 [hep-lat].
+ [83] M. Padmanath and S. Prelovsek, Phys. Rev. Lett. 129, 032002 (2022), arXiv:2202.10110
+      [hep-lat].
+ [84] S. Chen, C. Shi, Y. Chen, M. Gong, Z. Liu, W. Sun, and R. Zhang, Phys. Lett. B 833,
+      137391 (2022), arXiv:2206.06185 [hep-lat].
+ [85] Y. Lyu, S. Aoki, T. Doi, T. Hatsuda, Y. Ikeda, and J. Meng, Phys. Rev. Lett. 131, 161901
+      (2023), arXiv:2302.04505 [hep-lat].
+ [86] E. Ortiz-Pacheco, S. Collins, L. Leskovec, M. Padmanath, and S. Prelovsek, (2023),
+      10.22323/1.453.0052, arXiv:2312.13441 [hep-lat].
+ [87] S. Collins, A. Nefediev, M. Padmanath, and S. Prelovsek, (2024), arXiv:2402.14715 [hep-lat].
+ [88] T. Whyte, D. J. Wilson, and C. E. Thomas, (2024), arXiv:2405.15741 [hep-lat].
+ [89] S. Aoki and T. Aoki, PoS LATTICE2022, 049 (2023), arXiv:2212.00202 [hep-lat].
+ [90] R. J. Hudspith (RBC, UKQCD), Comput. Phys. Commun. 187, 115 (2015), arXiv:1405.5812
+      [hep-lat].
+ [91] R. J. Hudspith and D. Mohler, Phys. Rev. D 106, 034508 (2022), arXiv:2112.01997 [hep-lat].
+ [92] S. Aoki et al. (PACS-CS), Phys. Rev. D 79, 034503 (2009), arXiv:0807.1661 [hep-lat].
+ [93] S. Aoki et al. (PACS-CS), Phys. Rev. D 81, 074503 (2010), arXiv:0911.2561 [hep-lat].
+ [94] S. Aoki et al. (PACS-CS), Phys. Rev. D 79, 034503 (2009), arXiv:0807.1661 [hep-lat].
+ [95] C. B. Lang, L. Leskovec, D. Mohler, S. Prelovsek, and R. M. Woloshyn, Phys. Rev. D 90,
+      034510 (2014), arXiv:1403.8103 [hep-lat].
+ [96] Y. Namekawa et al. (PACS-CS), Phys. Rev. D 84, 074505 (2011), arXiv:1104.4600 [hep-lat].
+ [97] M. Luscher and S. Schaefer, Comput. Phys. Commun. 184, 519 (2013), arXiv:1206.2809
+      [hep-lat].
+ [98] http://luscher.web.cern.ch/luscher/openQCD/.
+ [99] M. Luscher, JHEP 07, 081 (2007), arXiv:0706.2298 [hep-lat].
+[100] M. Hasenbusch and K. Jansen, Nucl. Phys. B 659, 299 (2003), arXiv:hep-lat/0211042.
+[101] R. C. Brower, T. Ivanenko, A. R. Levi, and K. N. Orginos, Nucl. Phys. B 484, 353 (1997),
+      arXiv:hep-lat/9509012.
+[102] M. A. Clark and A. D. Kennedy, Nucl. Phys. B Proc. Suppl. 129, 850 (2004), arXiv:hep-
+      lat/0309084.
+[103] R. Frezzotti and K. Jansen, Nucl. Phys. B 555, 395 (1999), arXiv:hep-lat/9808011.
+[104] G. P. Lepage, B. Clark, C. T. H. Davies, K. Hornbostel, P. B. Mackenzie, C. Morningstar,
+      and H. Trottier (HPQCD), Nucl. Phys. B Proc. Suppl. 106, 12 (2002), arXiv:hep-lat/0110175.
+[105] G. P. Lepage, “Corrfitter version 8.2 (github.com/gplepage/corrfitter), 10.5281/zen-
+      odo.5733391,” (2021).
+[106] G. P. Lepage and C. Gohlke, “Lsqfit version 13.0.1 (github.com/gplepage/lsqfit), 10.5281/zen-
+      odo.7931361,” (2023).
+[107] G. P. Lepage, C. Gohlke, and D. Hackett, “Gvar version 11.11.11 (github.com/gplepage/gvar),
+      10.5281/zenodo.8025535,” (2023).
+[108] R. J. Dowdall, C. T. H. Davies, R. R. Horgan, G. P. Lepage, C. J. Monahan, J. Shigemitsu,
+      and M. Wingate, Phys. Rev. D 100, 094508 (2019), arXiv:1907.01025 [hep-lat].
+                                                                                              29
+
+[109] G. D’Agostini, Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+      Spectrometers, Detectors and Associated Equipment 346, 306 (1994).
+[110] R. L. Workman and Others (Particle Data Group), PTEP 2022, 083C01 (2022).
+[111] S. Blusk, Beyond Tcc : Tbc and Tbb , LHCb Online Mini-Workshop: Tcc and Beyond, September
+      14, 2021.
+[112] T. Gershon and A. Poluektov, JHEP 01, 019 (2019), arXiv:1810.06657 [hep-ph].
+[113] V. Khachatryan et al. (CMS), JHEP 05, 013 (2017), arXiv:1610.07095 [hep-ex].
+[114] A. M. Sirunyan et al. (CMS), Phys. Lett. B 808, 135578 (2020), arXiv:2002.06393 [hep-ex].
+

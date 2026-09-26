@@ -1,0 +1,271 @@
+{
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+        "indexed": {
+            "date-parts": [
+                [
+                    2026,
+                    9,
+                    21
+                ]
+            ],
+            "date-time": "2026-09-21T16:48:20Z",
+            "timestamp": 1790009300600,
+            "version": "4.0.1"
+        },
+        "reference-count": 13,
+        "publisher": "American Physical Society (APS)",
+        "issue": "17",
+        "license": [
+            {
+                "start": {
+                    "date-parts": [
+                        [
+                            2005,
+                            10,
+                            20
+                        ]
+                    ],
+                    "date-time": "2005-10-20T00:00:00Z",
+                    "timestamp": 1129766400000
+                },
+                "content-version": "vor",
+                "delay-in-days": 0,
+                "URL": "http://link.aps.org/licenses/aps-default-license"
+            }
+        ],
+        "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+        },
+        "short-container-title": [
+            "Phys. Rev. Lett."
+        ],
+        "DOI": "10.1103/physrevlett.95.171301",
+        "type": "journal-article",
+        "created": {
+            "date-parts": [
+                [
+                    2005,
+                    10,
+                    20
+                ]
+            ],
+            "date-time": "2005-10-20T18:32:28Z",
+            "timestamp": 1129833148000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 422,
+        "title": [
+            "The Spectral Dimension of the Universe is Scale Dependent"
+        ],
+        "prefix": "10.1103",
+        "volume": "95",
+        "author": [
+            {
+                "given": "J.",
+                "family": "Ambj\u00f8rn",
+                "sequence": "first",
+                "affiliation": [],
+                "role": [
+                    {
+                        "vocabulary": "crossref",
+                        "role": "author"
+                    }
+                ]
+            },
+            {
+                "given": "J.",
+                "family": "Jurkiewicz",
+                "sequence": "additional",
+                "affiliation": [],
+                "role": [
+                    {
+                        "vocabulary": "crossref",
+                        "role": "author"
+                    }
+                ]
+            },
+            {
+                "given": "R.",
+                "family": "Loll",
+                "sequence": "additional",
+                "affiliation": [],
+                "role": [
+                    {
+                        "vocabulary": "crossref",
+                        "role": "author"
+                    }
+                ]
+            }
+        ],
+        "member": "16",
+        "published-online": {
+            "date-parts": [
+                [
+                    2005,
+                    10,
+                    20
+                ]
+            ]
+        },
+        "reference": [
+            {
+                "key": "PhysRevLett.95.171301Cc1R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1103/PhysRevLett.93.131301"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc2R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1016/j.physletb.2004.12.067"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc3R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1103/PhysRevD.72.064014"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc4R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1088/1126-6708/1998/02/010"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc5R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1016/0550-3213(95)00468-8"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc6R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1088/1126-6708/1998/11/022"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc7R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1016/S0550-3213(97)00259-9"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc8R1",
+                "doi-asserted-by": "crossref",
+                "DOI": "10.1017/CBO9780511605826",
+                "volume-title": "Diffusion and Reactions in Fractals and Disordered Systems",
+                "author": "D. ben-Avraham",
+                "year": "2000"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc9R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1016/S0550-3213(98)00027-3"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc10R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1103/PhysRevLett.85.924"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc11R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1016/S0550-3213(01)00297-8"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc12R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1103/PhysRevD.65.025013"
+            },
+            {
+                "key": "PhysRevLett.95.171301Cc13R1",
+                "doi-asserted-by": "publisher",
+                "DOI": "10.1142/S0217751X95000085"
+            }
+        ],
+        "container-title": [
+            "Physical Review Letters"
+        ],
+        "original-title": [],
+        "language": "en",
+        "link": [
+            {
+                "URL": "http://link.aps.org/article/10.1103/PhysRevLett.95.171301",
+                "content-type": "unspecified",
+                "content-version": "vor",
+                "intended-application": "syndication"
+            },
+            {
+                "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.95.171301/fulltext",
+                "content-type": "unspecified",
+                "content-version": "vor",
+                "intended-application": "similarity-checking"
+            }
+        ],
+        "deposited": {
+            "date-parts": [
+                [
+                    2025,
+                    1,
+                    2
+                ]
+            ],
+            "date-time": "2025-01-02T17:31:16Z",
+            "timestamp": 1735839076000
+        },
+        "score": 1,
+        "resource": {
+            "primary": {
+                "URL": "https://link.aps.org/doi/10.1103/PhysRevLett.95.171301"
+            }
+        },
+        "subtitle": [],
+        "short-title": [],
+        "issued": {
+            "date-parts": [
+                [
+                    2005,
+                    10,
+                    20
+                ]
+            ]
+        },
+        "references-count": 13,
+        "journal-issue": {
+            "issue": "17",
+            "published-print": {
+                "date-parts": [
+                    [
+                        2005,
+                        10
+                    ]
+                ]
+            }
+        },
+        "URL": "https://doi.org/10.1103/physrevlett.95.171301",
+        "relation": {},
+        "ISSN": [
+            "0031-9007",
+            "1079-7114"
+        ],
+        "issn-type": [
+            {
+                "value": "0031-9007",
+                "type": "print"
+            },
+            {
+                "value": "1079-7114",
+                "type": "electronic"
+            }
+        ],
+        "subject": [],
+        "published": {
+            "date-parts": [
+                [
+                    2005,
+                    10,
+                    20
+                ]
+            ]
+        },
+        "article-number": "171301"
+    }
+}

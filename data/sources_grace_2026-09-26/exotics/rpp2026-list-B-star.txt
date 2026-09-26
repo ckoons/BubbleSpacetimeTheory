@@ -1,0 +1,94 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+                                                       I (J P ) = 21 (1− )
+  B∗                                                   I, J, P need conﬁrmation.
+         Quantum numbers shown are quark-model predictions.
+
+                                               B ∗ MASS
+         From mass diﬀerence below and the average of our B masses
+         (m ± +m 0 )/2.
+            B   B
+
+VALUE (MeV)                                 DOCUMENT ID
+5324.75± 0.20 OUR FIT
+
+                                             mB∗ − mB
+
+VALUE (MeV)                  EVTS           DOCUMENT ID               TECN      COMMENT
+45.18± 0.20 OUR FIT
+45.42± 0.26 OUR AVERAGE Includes data from the datablock that follows this one.
+46.2 ± 0.3 ± 0.8                  1 ACKERSTAFF 97M OPAL e + e − → Z
+45.3 ± 0.35± 0.87      4227       1 BUSKULIC        96D ALEP E ee     cm = 88–94 GeV
+45.5 ± 0.3 ± 0.8                  1 ABREU                             ee
+                                                    95R DLPH E cm = 88–94 GeV
+                                  1                                 E ee
+46.3 ± 1.9             1378         ACCIARRI        95B L3            cm = 88–94 GeV
+46.4 ± 0.3 ± 0.8                  2 AKERIB          91 CLE2 e + e − → γ X
+45.6 ± 0.8                        2 WU              91 CSB2 e + e − → γ X, γ ℓ X
+45.4 ± 1.0                        3 LEE-FRANZINI 90 CSB2 e + e − → Υ(5S)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+52 ± 2 ± 4             1400       4 HAN             85 CUSB e + e − → γ e X
+  1 u, d, s ﬂavor averaged.
+  2 These papers report E in the B ∗ center of mass. The m        − m B is 0.2 MeV higher.
+                          γ                                    B∗
+                                              0       +
+    E cm = 10.61–10.7 GeV. Admixture of B and B mesons, but not Bs .
+  3 LEE-FRANZINI 90 value is for an admixture of B 0 and B + . They measure 46.7 ± 0.4 ±
+    0.2 MeV for an admixture of B 0 , B + , and Bs , and use the shape of the photon line to
+    separate the above value.
+  4 HAN 85 is for E                                                 0    +
+                    cm = 10.6–11.2 GeV, giving an admixture of B , B , and Bs .
+
+                                            m B ∗+ − m B +
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+The data in this block is included in the average printed for a previous datablock.
+
+45.34± 0.20 OUR FIT
+45.01± 0.30 ± 0.23                5 AAIJ          13O LHCB p p at 7 TeV
+  5 Obtained the mass diﬀerence between B ∗+ K − and B + K − from B ∗ (5840)0 decay.
+                                                                    s2
+
+                              (m B ∗+ − m B + ) – (m B ∗0 − m B 0 )
+
+VALUE (MeV)                   CL%           DOCUMENT ID               TECN      COMMENT
+<6                            95            ABREU              95R DLPH E ee
+                                                                          cm = 88–94 GeV
+
+
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:26
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                          m B ∗0 − m B ∗+
+
+VALUE (MeV)                                DOCUMENT ID                 TECN    COMMENT
+0.91± 0.24 ± 0.09                        6 SIRUNYAN   18DF CMS p p at 8 TeV
+  6 Uses exclusively reconstructed ﬁnal states containing a J/ψ → µ+ µ− decay.
+
+
+                                      B ∗ DECAY MODES
+      Mode                                                   Fraction (Γi /Γ)
+
+Γ1    Bγ                                                     seen
+
+
+                                        B ∗ REFERENCES
+SIRUNYAN     18DF EPJ C78 939                 A.M. Sirunyan et al.                     (CMS Collab.)
+AAIJ         13O PRL 110 151803               R. Aaij et al.                          (LHCb Collab.)
+ACKERSTAFF 97M ZPHY C74 413                   K. Ackerstaﬀ et al.                     (OPAL Collab.)
+BUSKULIC     96D ZPHY C69 393                 D. Buskulic et al.                    (ALEPH Collab.)
+ABREU        95R ZPHY C68 353                 P. Abreu et al.                      (DELPHI Collab.)
+ACCIARRI     95B PL B345 589                  M. Acciarri et al.                         (L3 Collab.)
+AKERIB       91   PRL 67 1692                 D.S. Akerib et al.                      (CLEO Collab.)
+WU           91   PL B273 177                 Q.W. Wu et al.                       (CUSB II Collab.)
+LEE-FRANZINI 90   PRL 65 2947                 J. Lee-Franzini et al.               (CUSB II Collab.)
+HAN          85   PRL 55 36                   K. Han et al.               (COLU, LSU, MPIM, STON)
+
+
+
+
+https://pdg.lbl.gov                         Page 2                      Created: 6/1/2026 16:26
+

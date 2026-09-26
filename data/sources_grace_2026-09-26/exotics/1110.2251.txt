@@ -1,0 +1,529 @@
+                                                Observation of two charged bottomonium-like resonances in Υ(5S) decays
+
+                                             A. Bondar,1 A. Garmash,1 R. Mizuk,16 D. Santel,3 K. Kinoshita,3 I. Adachi,10 H. Aihara,52 K. Arinstein,1
+                                                D. M. Asner,41 T. Aushev,16 T. Aziz,48 A. M. Bakich,47 E. Barberio,29 K. Belous,14 V. Bhardwaj,42
+                                              M. Bischofberger,32 A. Bozek,36 M. Bračko,27, 17 T. E. Browder,9 M.-C. Chang,4 P. Chang,35 A. Chen,33
+                                             B. G. Cheon,8 K. Chilikin,16 R. Chistov,16 I.-S. Cho,57 K. Cho,20 S.-K. Choi,7 Y. Choi,46 J. Dalseno,28, 49
+                                           M. Danilov,16 Z. Doležal,2 A. Drutskoy,16 S. Eidelman,1 D. Epifanov,1 J. E. Fast,41 V. Gaur,48 N. Gabyshev,1
+                                            Y. M. Goh,8 B. Golob,25, 17 T. Hara,10 K. Hayasaka,31 Y. Hoshi,50 H. J. Hyun,23 T. Iijima,31, 30 K. Inami,30
+                                                A. Ishikawa,51 M. Iwabuchi,57 Y. Iwasaki,10 T. Iwashita,32 T. Julius,29 J. H. Kang,57 T. Kawasaki,38
+                                            H. Kichimi,10 C. Kiesling,28 J. B. Kim,21 J. H. Kim,20 K. T. Kim,21 M. J. Kim,23 Y. J. Kim,20 B. R. Ko,21
+                                           N. Kobayashi,53 S. Koblitz,28 P. Kodyš,2 S. Korpar,27, 17 P. Križan,25, 17 T. Kuhr,19 R. Kumar,42 T. Kumita,54
+                                             A. Kuzmin,1 J. S. Lange,5 S.-H. Lee,21 J. Li,45 Y. Li,56 J. Libby,11 C. Liu,44 Z. Q. Liu,12 D. Liventsev,16
+
+
+
+
+arXiv:1110.2251v1 [hep-ex] 11 Oct 2011
+                                              R. Louvot,24 D. Matvienko,1 S. McOnie,47 H. Miyata,38 Y. Miyazaki,30 G. B. Mohanty,48 A. Moll,28, 49
+                                               N. Muramatsu,58 R. Mussa,15 M. Nakao,10 Z. Natkaniec,36 S. Neubauer,19 M. Niiyama,22 S. Nishida,10
+                                            K. Nishimura,9 O. Nitoh,55 T. Nozaki,10 S. L. Olsen,45 Y. Onuki,51 P. Pakhlov,16 G. Pakhlova,16 H. Park,23
+                                                H. K. Park,23 T. K. Pedlar,26 M. Petrič,17 L. E. Piilonen,56 A. Poluektov,1 M. Prim,19 M. Ritter,28
+                                              M. Röhrken,19 S. Ryu,45 H. Sahoo,9 Y. Sakai,10 D. Santel,3 T. Sanuki,51 O. Schneider,24 C. Schwanda,13
+                                                K. Senyo,30 M. E. Sevior,29 M. Shapkin,14 V. Shebalin,1 T.-A. Shibata,53 J.-G. Shiu,35 B. Shwartz,1
+                                                F. Simon,28, 49 P. Smerkol,17 Y.-S. Sohn,57 A. Sokolov,14 E. Solovieva,16 M. Starič,17 M. Sumihama,6
+                                              T. Sumiyoshi,54 S. Tanaka,10 G. Tatishvili,41 Y. Teramoto,39 I. Tikhomirov,16 M. Uchida,53 S. Uehara,10
+                                          T. Uglov,16 Y. Ushiroda,10 S. E. Vahsen,9 G. Varner,9 A. Vinokurova,1 C. H. Wang,34 M.-Z. Wang,35 P. Wang,12
+                                           X. L. Wang,12 Y. Watanabe,18 K. M. Williams,56 E. Won,21 B. D. Yabsley,47 Y. Yamashita,37 M. Yamauchi,10
+                                                 C. Z. Yuan,12 Y. Yusa,38 Z. P. Zhang,44 V. Zhilich,1 V. Zhulanov,1 A. Zupanc,19 and O. Zyukova1
+                                                                                      (The Belle Collaboration)
+                                                   1
+                                                       Budker Institute of Nuclear Physics SB RAS and Novosibirsk State University, Novosibirsk 630090
+                                                                         2
+                                                                           Faculty of Mathematics and Physics, Charles University, Prague
+                                                                                   3
+                                                                                     University of Cincinnati, Cincinnati, Ohio 45221
+                                                                             4
+                                                                               Department of Physics, Fu Jen Catholic University, Taipei
+                                                                                         5
+                                                                                           Justus-Liebig-Universität Gießen, Gießen
+                                                                                                         6
+                                                                                                           Gifu University, Gifu
+                                                                                          7
+                                                                                            Gyeongsang National University, Chinju
+                                                                                                     8
+                                                                                                       Hanyang University, Seoul
+                                                                                     9
+                                                                                       University of Hawaii, Honolulu, Hawaii 96822
+                                                                        10
+                                                                            High Energy Accelerator Research Organization (KEK), Tsukuba
+                                                                                    11
+                                                                                       Indian Institute of Technology Madras, Madras
+                                                                   12
+                                                                      Institute of High Energy Physics, Chinese Academy of Sciences, Beijing
+                                                                                        13
+                                                                                           Institute of High Energy Physics, Vienna
+                                                                                       14
+                                                                                          Institute of High Energy Physics, Protvino
+                                                                                             15
+                                                                                                INFN - Sezione di Torino, Torino
+                                                                            16
+                                                                               Institute for Theoretical and Experimental Physics, Moscow
+                                                                                                  17
+                                                                                                     J. Stefan Institute, Ljubljana
+                                                                                               18
+                                                                                                  Kanagawa University, Yokohama
+                                                           19
+                                                              Institut für Experimentelle Kernphysik, Karlsruher Institut für Technologie, Karlsruhe
+                                                                        20
+                                                                            Korea Institute of Science and Technology Information, Daejeon
+                                                                                                       21
+                                                                                                          Korea University, Seoul
+                                                                                                      22
+                                                                                                         Kyoto University, Kyoto
+                                                                                           23
+                                                                                              Kyungpook National University, Taegu
+                                                                           24
+                                                                              École Polytechnique Fédérale de Lausanne (EPFL), Lausanne
+                                                                    25
+                                                                       Faculty of Mathematics and Physics, University of Ljubljana, Ljubljana
+                                                                                            26
+                                                                                               Luther College, Decorah, Iowa 52101
+                                                                                                27
+                                                                                                   University of Maribor, Maribor
+                                                                                        28
+                                                                                           Max-Planck-Institut für Physik, München
+                                                                             29
+                                                                                University of Melbourne, School of Physics, Victoria 3010
+                                                                               30
+                                                                                  Graduate School of Science, Nagoya University, Nagoya
+                                                                              31
+                                                                                 Kobayashi-Maskawa Institute, Nagoya University, Nagoya
+                                                                                               32
+                                                                                                  Nara Women’s University, Nara
+                                                                                           33
+                                                                                              National Central University, Chung-li
+                                                                                            34
+                                                                                               National United University, Miao Li
+
+
+                                         Typeset by REVTEX
+                                                                                                                               2
+
+                               35
+                                  Department of Physics, National Taiwan University, Taipei
+                                36
+                                    H. Niewodniczanski Institute of Nuclear Physics, Krakow
+                                               37
+                                                  Nippon Dental University, Niigata
+                                                     38
+                                                        Niigata University, Niigata
+                                                  39
+                                                     Osaka City University, Osaka
+                                                       40
+                                                          Osaka University, Osaka
+                           41
+                              Pacific Northwest National Laboratory, Richland, Washington 99352
+                                                  42
+                                                     Panjab University, Chandigarh
+                                         43
+                                            Research Center for Nuclear Physics, Osaka
+                                   44
+                                      University of Science and Technology of China, Hefei
+                                                 45
+                                                    Seoul National University, Seoul
+                                                46
+                                                   Sungkyunkwan University, Suwon
+                                    47
+                                       School of Physics, University of Sydney, NSW 2006
+                                      48
+                                         Tata Institute of Fundamental Research, Mumbai
+                        49
+                           Excellence Cluster Universe, Technische Universität München, Garching
+                                               50
+                                                  Tohoku Gakuin University, Tagajo
+                                                     51
+                                                        Tohoku University, Sendai
+                                     52
+                                        Department of Physics, University of Tokyo, Tokyo
+                                             53
+                                                Tokyo Institute of Technology, Tokyo
+                                             54
+                                                Tokyo Metropolitan University, Tokyo
+                                  55
+                                     Tokyo University of Agriculture and Technology, Tokyo
+                  56
+                     CNP, Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061
+                                                       57
+                                                          Yonsei University, Seoul
+                              58
+                                 Research Center for Nuclear Physics, Osaka University, Osaka
+                                                      (Dated: September 16, 2018)
+             We report the observation of two narrow structures in the mass spectra of the π ± Υ(nS) (n = 1, 2, 3)
+             and π ± hb (mP ) (m = 1, 2) pairs that are produced in association with a single charged pion in Υ(5S)
+             decays. The measured masses and widths of the two structures averaged over the five final states
+             are M1 = (10607.2 ± 2.0) MeV/c2 , Γ1 = (18.4 ± 2.4) MeV and M2 = (10652.2 ± 1.5) MeV/c2 ,
+             Γ2 = (11.5 ± 2.2) MeV. The results are obtained with a 121.4 fb−1 data sample collected with the
+             Belle detector in the vicinity of the Υ(5S) resonance at the KEKB asymmetric-energy e+ e− collider.
+
+             PACS numbers: 14.40.Pq, 13.25.Gv, 12.39.Pn
+
+
+   Recent studies of heavy quarkonium have produced               trometer that consists of a silicon vertex detector, a
+a number of surprises and puzzles [1], including some             central drift chamber, an array of aerogel threshold
+associated with Υ(5S) decays to non-BB final states.              Cherenkov counters, a barrel-like arrangement of time-
+The Belle Collaboration reported the observation of               of-flight scintillation counters, and an electromagnetic
+anomalously high rates for Υ(5S) → Υ(nS)π + π − (n =              calorimeter comprised of CsI(Tl) crystals located inside a
+1, 2, 3) [2] and Υ(5S) → hb (mP )π + π − (m = 1, 2) [3]           superconducting solenoid that provides a 1.5 T magnetic
+transitions. If the Υ(nS) signals are attributed entirely         field. An iron flux-return located outside the coil is in-
+to Υ(5S) decays, the measured partial decay widths                strumented to detect KL0 mesons and to identify muons.
+Γ[Υ(5S) → Υ(nS)π + π − ] ∼ 0.5 MeV are about two or-              The detector is described in detail elsewhere [6].
+ders of magnitude larger than typical widths for dipion
+transitions among the four lower Υ(nS) states. Further-              To reconstruct Υ(5S) → Υ(nS)π + π − , Υ(nS) → µ+ µ−
+more, the processes Υ(5S) → hb (mP )π + π − , which re-           candidates we select events with four charged tracks
+quire a heavy-quark spin flip, are found to have rates            with zero net charge that are consistent with coming
+that are comparable to those for the heavy-quark spin             from the interaction point. Charged pion and muon
+conserving transitions Υ(5S) → Υ(nS)π + π − [3]. These            candidates are required to be positively identified. Ex-
+observations differ from apriori theoretical expectations         clusively reconstructed events are selected by the re-
+and strongly suggest that exotic mechanisms are con-              quirement |Mmiss (π + π − ) − M (µ+ µ− )| < 0.2 GeV/c2 ,
+tributing to Υ(5S) decays. We report results of res-              where Mmiss (π + π − ) is the missing mass recoiling
+onant substructure studies of Υ(5S) → Υ(nS)π + π −                against the π + π − system calculated as Mmiss (π + π − ) =
+                                                                  q
+(n = 1, 2, 3) and Υ(5S) → hb (mP )π + π − (m = 1, 2) de-             (Ec.m. − Eπ∗+ π− )2 − p∗2
+                                                                                            π + π − , Ec.m. is the center-of-mass
+cays [4]. We use a 121.4 fb−1 data sample√ collected on or        (c.m.) energy and Eπ∗+ π− and p∗π+ π− are the energy
+near the peak of the Υ(5S) resonance ( s ∼ 10.865 GeV)            and momentum of the π + π − system measured in the
+with the Belle detector at the KEKB asymmetric energy             c.m. frame. Candidate Υ(5S) → Υ(nS)π + π − events
+e+ e− collider [5].                                               are selected by requiring |Mmiss (π + π − ) − mΥ(nS) | <
+   The Belle detector is a large-solid-angle magnetic spec-       0.05 GeV/c2 , where mΥ(nS) is the mass of an Υ(nS)
+                                                                                                                                                                                                  3
+
+state [7]. Sideband regions are defined as 0.05 GeV/c2 <                                116                                                                 116
+
+
+|Mmiss (π + π − ) − mΥ(nS) | < 0.10 GeV/c2 .        To re-                                                             (a)                                                                 (b)
+
+
+
+
+                                                               M2(Y(2S)π)max, GeV2/c4                                              M2(Y(2S)π)max, GeV2/c4
+move background due to photon conversions in the                                        114                                                                 114
+
+
+innermost parts of the Belle detector we require
+M 2 (π + π − ) > 0.20/0.14/0.10 GeV/c2 for a final state                                112                                                                 112
+
+
+with an Υ(1S), Υ(2S), Υ(3S), respectively.
+   Amplitude analyses of the three-body Υ(5S) →                                         110                                                                 110
+
+
+Υ(nS)π + π − decays reported here are performed by
+means of unbinned maximum likelihood fits to two-                                       108
+                                                                                              0   0.2    0.4     0.6         0.8
+                                                                                                                                                            108
+                                                                                                                                                                  0   0.2    0.4     0.6         0.8
+
+dimensional M 2 [Υ(nS)π + ] vs. M 2 [Υ(nS)π − ] Dalitz dis-                                       M2(π+π-), GeV2/c4                                                   M2(π+π-), GeV2/c4
+
+tributions. The fractions of signal events in the sig-
+                                                               FIG. 1: Dalitz plots for Υ(2S)π + π − events in the (a) Υ(2S)
+nal region are determined from fits to the correspond-
+                                                               sidebands; (b) Υ(2S) signal region. Events to the left of the
+ing Mmiss (π + π − ) spectrum and are found to be 0.937 ±      vertical line are excluded.
+0.015(stat.), 0.940 ± 0.007(stat.), 0.918 ± 0.010(stat.) for
+final states with Υ(1S), Υ(2S), Υ(3S), respectively. The
+variation of reconstruction efficiency across the Dalitz       with respect to π + and π − transposition. Using isospin
+plot is determined from a GEANT-based MC simula-               symmetry, the resulting amplitude is written as
+tion [8]. The distribution of background events is de-
+termined using events from the Υ(nS) sidebands and               AZk = aZk eiδZk (BW (s1 , Mk , Γk ) + BW (s2 , Mk , Γk )),
+found to be uniform (after efficiency correction) across                                                                          (2)
+the Dalitz plot.                                               where s1 = M 2 [Υ(nS)π + ], s2 = M 2 [Υ(nS)π − ]. The rel-
+   Dalitz distributions of events in the Υ(2S) sidebands       ative amplitudes aZk , phases δZk , masses Mk and widths
+and signal regions are shown in Figs. 1(a) and 1(b), re-       Γk (k = 1, 2) are free parameters. We also include the Af0
+spectively, where M (Υ(nS)π)max is the maximum invari-         and Af2 amplitudes to account for possible contributions
+ant mass of the two Υ(nS)π combinations. This is used          in the π + π − channel from the f0 (980) scalar and f2 (1270)
+to combine Υ(nS)π + and Υ(nS)π − events for visual-            tensor states, respectively. The inclusion of these two
+ization only. Two horizontal bands are evident in the          states is needed to describe the shape of the M (π + π − )
+Υ(2S)π system near 112.6 GeV2 /c4 and 113.3 GeV2 /c4 ,         spectrum around and above M (π + π − ) = 1.0 GeV/c2
+where the distortion from straight lines is due to inter-      for the Υ(1S)π + π − final state (see Fig. 2). We use
+ference with other intermediate states, as demonstrated        a Breit-Wigner function to parameterize the f2 (1270)
+below. One-dimensional invariant mass projections for          and a coupled-channel Breit-Wigner function [10] for the
+events in the Υ(nS) signal regions are shown in Fig. 2,        f0 (980). The mass and width of the f2 (1270) state are
+where two peaks are observed in the Υ(nS)π system near         fixed at their world average values [7]; the mass and the
+10.61 GeV/c2 and 10.65 GeV/c2 . In the following we refer      coupling constants of the f0 (980) state are fixed at val-
+to these structures as Zb (10610) and Zb (10650), respec-      ues determined from the analysis of B + → K + π + π − :
+tively.                                                        M [f0 (980)] = 950 MeV/c2 , gππ = 0.23, gKK = 0.73 [11].
+   We parameterize the Υ(5S) → Υ(nS)π + π − three-                Following suggestions in Ref. [12], the non-resonant
+                                                                                                                             iδ1nr
+body decay amplitude by:                                       amplitude Anr is parameterized as Anr = anr               1 e       +
+                                                                       nr
+                                                               anr
+                                                                 2 e
+                                                                     iδ2
+                                                                          s3 , where s3 = M 2 (π + π − ) (s3 is not an inde-
+          M = AZ1 + AZ2 + Af0 + Af2 + Anr ,             (1)    pendent variable and can be expressed via s1 and s2 but
+                                                                                                                       nr
+                                                               we use it here for clarity), anr         nr   nr
+                                                                                                   1 , a2 , δ1 and δ2 are free
+where AZ1 and AZ2 are amplitudes to account for con-           parameters of the fit.
+tributions from the Zb (10610) and Zb (10650), respec-            The logarithmic likelihood function L is then con-
+tively. Here we assume that the dominant contribu-             structed as
+tions come from amplitudes that preserve the orienta-                       X
+tion of the spin of the heavy quarkonium state and,               L = −2        log(fsig S(s1 , s2 ) + (1 − fsig )B(s1 , s2 )), (3)
+thus, both pions in the cascade decay Υ(5S) → Zb π →
+Υ(nS)π + π − are emitted in an S-wave with respect to          where S(s1 , s2 ) is the density of signal events |M (s1 , s2 )|2
+the heavy quarkonium system. As demonstrated in                convolved with the detector resolution function, B(s1 , s2 )
+Ref. [9], angular analyses support this assumption. Con-       describes the combinatorial background that is consid-
+sequently, we parameterize the observed Zb (10610) and         ered to be constant and fsig is the fraction of signal events
+Zb (10650) peaks with √
+                         an S-wave Breit-Wigner function       in the data sample. Both S(s1 , s2 ) and B(s1 , s2 ) are ef-
+                        MΓ
+BW (s, M, Γ) = M 2 −s−iMΓ , where we do not consider           ficiency corrected.
+possible s-dependence of the resonance width. To ac-              In the fit to the Υ(1S)π + π − and Υ(2S)π + π − samples,
+count for the possibility of Υ(5S) decay to both Zb+ π −       the amplitudes and phases of all of the components are al-
+and Zb− π + , the amplitudes AZ1 and AZ2 are symmetrized       lowed to float. However, in the Υ(3S)π + π − samples the
+                                                                                                                                                                                                                                                                                                      4
+
+
+
+
+                                                                                                                                                                            Events / 10 MeV/c2                                              Events / 10 MeV/c2
+                      80                                                                                 120
+                                                                                                                                                                                                 12000      (a)                                                  17500     (b)
+
+
+
+
+(Events/10 MeV/c2)                                                                  (Events/20 MeV/c2)
+                              (a)                                                                        100
+                                                                                                                  (b)
+                      60                                                                                                                                                                         10000                                                           15000
+                                                                                                          80                                                                                                                                                     12500
+                                                                                                                                                                                                 8000
+                      40                                                                                  60
+                                                                                                                                                                                                 6000                                                            10000
+
+                                                                                                          40                                                                                     4000                                                            7500
+                      20
+                                                                                                          20                                                                                     2000                                                            5000
+                                                                                                                                                                                                                                                                 2500
+                       0                                                                                   0                                                                                         0
+                       10.1   10.2     10.3   10.4   10.5   10.6     10.7   10.8                           0.2    0.4    0.6     0.8         1.0     1.2       1.4   1.6
+                                                                                                                                                                                                                                                                    0
+                               M(Y(1S)π)max, (GeV/c )              2
+                                                                                                                         M(π π ), (GeV/c )
+                                                                                                                               + -                        2
+                                                                                                                                                                                                 -2000
+                     100                                                                                 120                                                                                         10.4         10.5    10.6      10.7                            10.4         10.5    10.6      10.7
+                                                                                                                                                                                                                         Mmiss(π), GeV/c2                                               Mmiss(π), GeV/c2
+                              (c)                                                                                 (d)
+
+
+
+
+(Events/5 MeV/c2)                                                                   (Events/5 MeV/c2)
+                                                                                                         100
+                     80
+
+                                                                                                         80
+                     60                                                                                                                                                     FIG. 3: The (a) hb (1P ) and (b) hb (2P ) yields as a function
+                                                                                                         60
+                                                                                                                                                                            of Mmiss (π) (points with error bars) and results of the fit
+                     40
+                                                                                                         40                                                                 (histogram).
+                     20
+                                                                                                         20
+
+                      0                                                                                   0
+                      10.4 10.45 10.5 10.55 10.6 10.65 10.7 10.75                                          0.2    0.3    0.4     0.5         0.6     0.7       0.8   0.9
+                               M(Y(2S)π)max, (GeV/c2)                                                                    M(π+π-), (GeV/c2)                                  major sources of systematic error include variation of the
+                     120                                                                                  50
+                                                                                                                                                                            reconstruction efficiency over the Dalitz plot and uncer-
+                              (e)                                                                                 (f)
+
+
+
+
+(Events/4 MeV/c2)                                                                   (Events/5 MeV/c2)
+                     100
+                                                                                                          40                                                                tainty in the c.m. energy. Systematic effects associated
+                      80
+                                                                                                          30                                                                with uncertainties in the description of the combinato-
+                      60
+                                                                                                          20
+                                                                                                                                                                            rial background are found to be negligible. The overall
+                      40
+                                                                                                                                                                            systematic errors are quoted in Table I.
+                                                                                                          10
+                      20
+                                                                                                                                                                               To study the resonant substructure of the Υ(5S) →
+                       0
+                      10.58          10.62      10.66        10.70          10.74
+                                                                                                           0
+                                                                                                           0.25    0.3    0.35         0.4         0.45       0.5    0.55   hb (mP )π + π − (m = 1, 2) decays we measure their yield
+                               M(Y(3S)π)max, (GeV/c2)                                                                    M(π+π-), (GeV/c2)
+                                                                                                                                                                            as a function of the hb (1P )π ± invariant mass. The decays
+                                                                                                                                                                            are reconstructed inclusively using the missing mass of
+FIG. 2: Comparison of fit results (open histogram) with ex-
+perimental data (points with error bars) for events in the                                                                                                                  the π + π − pair, Mmiss (π + π − ). We fit the Mmiss (π + π − )
+Υ(1S) (a,b), Υ(2S) (c,d), and Υ(3S) (e,f) signal regions. The                                                                                                               spectra in bins of hb (1P )π ± invariant mass, defined as the
+hatched histogram shows the background component.                                                                                                                           missing mass of the opposite sign pion, Mmiss (π ∓ ). We
+                                                                                                                                                                            combine the Mmiss (π + π − ) spectra for the corresponding
+                                                                                                                                                                            Mmiss (π + ) and Mmiss (π − ) bins and we use half of the
+available phase space is significantly smaller and contri-                                                                                                                  available Mmiss (π) range to avoid double counting.
+butions from the f0 (980) and f2 (1270) channels are not                                                                                                                       Selection requirements and the Mmiss (π + π − ) fit pro-
+well constrained. Since the fit to the Υ(3S)π + π − signal                                                                                                                  cedure are described in detail in Ref. [3]. We consider all
+is insensitive to the presence of these two components,                                                                                                                     well reconstructed and positively identified π + π − pairs
+we fix their amplitudes at zero. Due to the very limited                                                                                                                    in the event. Continuum e+ e− → q q̄ (q = u, d, s)
+phase space available in the Υ(5S) → Υ(3S)π + π − decay,                                                                                                                    background is suppressed by a requirement on the ra-
+there is a significant overlap between the two processes                                                                                                                    tio of the second to zeroth Fox-Wolfram moments R2 <
+Υ(5S) → Zb+ π − and Υ(5S) → Zb− π + .                                                                                                                                       0.3 [13]. The fit function is a sum of peaking compo-
+   Results of the fits to Υ(5S) → Υ(nS)π + π − signal                                                                                                                       nents due to dipion transitions and combinatorial back-
+events are shown in Fig. 2, where one-dimensional pro-                                                                                                                      ground. The positions of all peaking components are
+jections of the data and fits are compared. Numerical                                                                                                                       fixed to the values measured in Ref. [3]. In the case of
+results are summarized in Table I, where the relative nor-                                                                                                                  the hb (1P ) the peaking components include signals from
+malization is defined as aZ2 /aZ1 and the relative phase                                                                                                                    Υ(5S) → hb (1P ) and Υ(5S) → Υ(2S) transitions, and
+as δZ2 − δZ1 . The combined statistical significance of the                                                                                                                 a reflection from the Υ(3S) → Υ(1S) transition, where
+two peaks exceeds 10 σ for all tested models and for all                                                                                                                    the Υ(3S) is produced inclusively or via initial state ra-
+Υ(nS)π + π − channels.                                                                                                                                                      diation. Since the Υ(3S) → Υ(1S) reflection is not well
+   The main source of systematic uncertainties in the                                                                                                                       constrained by the fits, we determine its normalization
+analysis of Υ(5S) → Υ(nS)π + π − channels is due to un-                                                                                                                     relative to the Υ(5S) → Υ(2S) signal from the exclu-
+certainties in the parameterization of the decay ampli-                                                                                                                     sive µ+ µ− π + π − data for every Mmiss (π) bin. In case of
+tude. We fit the data with modifications of the nom-                                                                                                                        the hb (2P ) we use a smaller Mmiss (π + π − ) range than
+inal model (described in Eq. 1). In particular, we vary                                                                                                                     in Ref. [3], Mmiss (π + π − ) < 10.34 GeV/c2 , to exclude
+the M (π + π − ) dependence of the non-resonant amplitude                                                                                                                   the region of the KS0 → π + π − reflection. The peak-
+Anr , include a D-wave component into Anr , include the                                                                                                                     ing components include the Υ(5S) → hb (2P ) signal and
+f0 (600) state, etc. The variations in the extracted Zb                                                                                                                     a Υ(2S) → Υ(1S) reflection. To constrain the normal-
+parameters determined from fits with modified models                                                                                                                        ization of the Υ(2S) → Υ(1S) reflection we use exclu-
+are taken as estimates of the model uncertainties. Other                                                                                                                    sive µ+ µ− π + π − data normalized to the total yield of the
+                                                                                                                           5
+
+
+TABLE I: Comparison of results on Zb (10610) and Zb (10650) parameters obtained from Υ(5S) → Υ(nS)π + π − (n = 1, 2, 3)
+and Υ(5S) → hb (mP )π + π − (m = 1, 2) analyses.
+
+           Final state              Υ(1S)π + π −     Υ(2S)π + π −     Υ(3S)π + π −     hb (1P )π + π − hb (2P )π + π −
+                                2
+           M [Zb (10610)], MeV/c 10611 ± 4 ± 3 10609 ± 2 ± 3 10608 ± 2 ± 3             10605 ± 2+3 −1    10599+6+5
+                                                                                                               −3−4
+           Γ[Zb (10610)], MeV                +3.0             +2.0                          +4.5+2.1
+                                   22.3 ± 7.7−4.0 24.2 ± 3.1−3.0 17.6 ± 3.0 ± 3.0 11.4 −3.9−1.2           13 +10+9
+                                                                                                             −8−7
+           M [Zb (10650)], MeV/c2 10657 ± 6 ± 3 10651 ± 2 ± 3 10652 ± 1 ± 2            10654 ± 3 +1−2    10651+2+3
+                                                                                                               −3−2
+                                             +6.0             +4.0                          +5.4+2.1
+           Γ[Zb (10650)], MeV      16.3 ± 9.8−2.0   13.3 ± 3.3−3.0 8.4 ± 2.0 ± 2.0     20.9 −4.7−5.7     19 ± 7 +11
+                                                                                                                −7
+           Rel. normalization     0.57 ± 0.21+0.19            +0.04            +0.08              +0.05
+                                             −0.04 0.86 ± 0.11−0.10 0.96 ± 0.14−0.05 1.39 ± 0.37−0.15    1.6+0.6+0.4
+                                                                                                            −0.4−0.6
+           Rel. phase, degrees       58 ± 43+4
+                                             −9      −13 ± 13+17
+                                                              −8      −9 ± 19+11
+                                                                              −26       187+44+3
+                                                                                            −57−12      181+65+74
+                                                                                                            −105−109
+
+
+
+
+reflection in the inclusive data. Systematic uncertainty             To estimate the systematic uncertainty we vary the
+in the latter number is included in the error propaga-            order of the Chebyshev polynomial in the fits to the
+tion. The combinatorial background is parameterized by            Mmiss (π + π − ) spectra; to study the effect of finite
+a Chebyshev polynomial. We use orders between 6 and               Mmiss (π) binning we shift the binning by half bin size; to
+10 for the hb (1P ) [the order decreases monotonically with       study the model uncertainty in the fits to the Mmiss (π)
+the Mmiss (π)] and orders between 6 and 8 for the hb (2P ).       distributions we remove [add] the non-resonant contribu-
+   The results for the yield of Υ(5S) → hb (mP )π + π −           tion in the hb (1P ) [hb (2P )] case; we increase the width
+(m = 1, 2) decays as a function of the Mmiss (π) are shown        of the resolution function by 10% to account for possible
+in Fig. 3. The distribution for the hb (1P ) exhibits a clear     difference between data and MC simulation. The max-
+two-peak structure without a significant non-resonant             imum change of parameters for each source is used as
+contribution. The distribution for the hb (2P ) is consis-        an estimate of its associated systematic error. We esti-
+tent with the above picture, though the available phase-          mate an additional 1 MeV/c2 uncertainty in mass mea-
+space is smaller and uncertainties are larger. We asso-           surements based on the difference between the observed
+ciate the two peaks with the production of the Zb (10610)         Υ(nS) peak positions and their world averages [3]. The
+and Zb (10650). To fit the Mmiss (π) distributions we use         total systematic uncertainty presented in Table I is the
+the expression                                                    sum in quadrature of contributions from all sources. The
+                                                                  significance of the Zb (10610) and Zb (10650) including
+                                                       qp         systematic uncertainties is 16.0 σ [5.6 σ] for the hb (1P )
+ |BW1 (s, M1 , Γ1 ) + aeiφ BW1 (s, M2 , Γ2 ) + beiψ |2 √ . (4)
+                                                        s         [hb (2P )].
+      √                                                              In conclusion, we have observed two charged
+Here s ≡ Mmiss (π); the variables Mk , Γk (k = 1, 2),
+a, φ, b and ψ are free parameters; √qp
+                                        is a phase-space          bottomonium-like resonances, the Zb (10610) and
+                                      s
+                                                                  Zb (10650), with signals in five different decay
+factor, where p (q) is the momentum of the pion origi-
+                                                                  channels, Υ(nS)π ± (n = 1, 2, 3) and hb (mP )π ±
+nating from the Υ(5S) (Zb ) decay measured in the rest
+                                                                  (m = 1, 2). The parameters of the resonances are
+frame of the corresponding mother particle. The P -wave
+                                                                  given in Table I. All channels yield consistent re-
+Breit-Wigner
+√
+              amplitude is expressed as BW1 (s, M, Γ) =
+  M Γ F (q/q0 )                                                   sults. Weighted averages over all five channels give
+ M 2 −s−iM Γ q  . Here F is the P -wave Blatt-Weisskopf form      M = 10607.2 ± 2.0 MeV/c2 , Γ = 18.4 ± 2.4 MeV
+factor F = 1+(q       0 R)
+                           2
+                                                                  for the Zb (10610) and M = 10652.2 ± 1.5 MeV/c2 ,
+                   1+(qR)2 [14], q0 is a daughter momentum
+                                                          −1      Γ = 11.5 ± 2.2 MeV for the Zb (10650), where statistical
+calculated with pole mass of its mother, R = 1.6 GeV .
+                                                                  and systematic errors are added in quadrature. The
+The function (Eq. 4) is convolved with the detector res-
+                                                                  Zb (10610) production rate is similar to that of the
+olution function (σ = 5.2 MeV/c2 ), integrated over the
+                                                                  Zb (10650) for each of the five decay channels. Their
+10 MeV/c2 histogram bin and corrected for the recon-
+                                                                  relative phase is consistent with zero for the final states
+struction efficiency. The fit results are shown as solid
+                                                                  with the Υ(nS) and consistent with 180 degrees for
+histograms in Fig. 3 and are summarized in Table I. We
+                                                                  the final states with hb (mP ). Production of the Zb ’s
+find that the non-resonant contribution is consistent with
+                                                                  saturates the Υ(5S) → hb (mP )π + π − transitions and
+zero [significance is 0.3 σ both for the hb (1P ) and hb (2P )]
+                                                                  accounts for the high inclusive hb (mS) production
+in accord with the expectation that it is suppressed due
+                                                                  rate reported in Ref. [3]. Analyses of charged pion
+to heavy quark spin-flip. In case of the hb (2P ) we im-
+                                                                  angular distributions [9] favor the J P = 1+ spin-parity
+prove the stability of the fit by fixing the non-resonant
+                                                                  assignment for both the Zb (10610) and Zb (10650). Since
+amplitude to zero. The C.L. of the fit is 81% (61%) for
+                                                                  the Υ(5S) has negative G-parity, the Zb states have
+the hb (1P ) [hb (2P )]. The default fit hypothesis is favored
+                                                                  positive G-parity due to the emission of the pion.
+over the phase-space fit hypothesis at the 18 σ [6.7 σ] level
+for the hb (1P ) [hb (2P )].                                         The minimal quark content of the Zb (10610) and
+                                                                                                                               6
+
+Zb (10650) is a four quark combination. The mea-                  [4] In the text, for conciseness, we refer to the initial state
+sured masses of these new states are a few MeV/c2                     as the Υ(5S). However it is possible that the final states
+above the thresholds for the open beauty channels B ∗ B               we discuss have a source that is distinct from the Υ(5S);
+                               ∗                                      see K.-F. Chen et al. (Belle Collaboration), Phys. Pev. D
+(10604.6 MeV/c2 ) and B ∗ B (10650.2 MeV/c2 ). This
+                                                                      82, 091196R (2010).
+suggests a “molecular” nature of these new states, which          [5] S. Kurokawa and E. Kikutani, Nucl. Instrum. Methods
+might explain most of their observed properties [15]. The             Phys. Res. Sect. A 499, 1 (2003), and other papers in-
+preliminary announcement of these results triggered in-               cluded in this Volume.
+tensive discussion of other possible interpretations [16–         [6] A. Abashian et al. (Belle Collaboration), Nucl. Instrum.
+19].                                                                  Methods Phys. Res., Sect. A 479, 117 (2002).
+  We are grateful to Alexander Milstein of BINP and               [7] K. Nakamura et al. (Particle Data Group), J. Phys. G
+Mikhail Voloshin of University of Minnesota for fruitful              37, 075021 (2010).
+                                                                  [8] R. Brun et al., GEANT 3.21, CERN DD/EE/84-1, 1984.
+discussions. We thank the KEKB group for excellent                [9] I. Adachi et al. (Belle Collaboration), arXiv:1105.4583
+operation of the accelerator, the KEK cryogenics group                [hep-ex].
+for efficient solenoid operations, and the KEK computer          [10] S.M. Flatté, Phys. Lett. B 63, 224 (1976).
+group and the NII for valuable computing and SINET4              [11] A. Garmash et al. (Belle Collaboration), Phys. Rev. Lett.
+network support. We acknowledge support from MEXT,                    96, 251803 (2006).
+JSPS and Nagoya’s TLPRC (Japan); ARC and DIISR                   [12] M.B. Voloshin, Prog. Part. Nucl. Phys. 61, 455 (2008).
+                                                                      M.B. Voloshin, Phys. Rev. D 74, 054022 (2006) and ref-
+(Australia); NSFC (China); MSMT (Czechia); DST (In-
+                                                                      erences therein.
+dia); MEST, NRF, NSDC of KISTI, and WCU (Korea);                 [13] G.C. Fox and S. Wolfram, Phys. Rev. Lett. 41, 1581
+MNiSW (Poland); MES and RFAAE (Russia); ARRS                          (1978).
+(Slovenia); SNSF (Switzerland); NSC and MOE (Tai-                [14] J. Blatt and V. Weisskopf, Theoretical Nuclear Physics,
+wan); and DOE and NSF (USA).                                          p.361, New York: John Wiley & Sons (1952).
+                                                                 [15] A.E. Bondar, A. Garmash, A.I. Milstein, R. Mizuk,
+                                                                      M.B. Voloshin, Phys. Rev. D 84, 054010 (2011).
+                                                                 [16] D.V. Bugg, arXiv:1105.5492.
+                                                                 [17] I.V.Danilkin,     V.D. Orlovsky,        Yu.A. Simonov,
+ [1] N. Brambilla et al., Eur. Phys. J. C 71, 1534 (2011).            arXiv:1106.1552.
+ [2] K.-F. Chen et al. (Belle Collaboration), Phys. Rev. Lett.   [18] C.Y. Cui et al., arXiv:1107.1343.
+     100, 112001 (2008).                                         [19] T. Guo, L. Cao, M.-Z. Zhou, H. Chen, arXiv:1106.2284.
+ [3] I. Adachi et al. (Belle Collaboration), arXiv:1103.3419
+     [hep-ex].
+

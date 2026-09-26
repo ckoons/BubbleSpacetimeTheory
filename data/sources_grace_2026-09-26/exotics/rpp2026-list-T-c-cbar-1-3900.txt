@@ -1,0 +1,291 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  Tcc1 (3900)                                         I G (J PC ) = 1+ (1 + − )
+
+was Zc (3900), X (3900)
+         Properties incompatible with a q q structure (exotic state). See the
+         review on non-q q states.
+
+         Charged Tcc1 (3900)± seen as a peak in the invariant mass distribu-
+         tion of the J/ψ π ± system by BES III (ABLIKIM 13T) in e + e − →
+         π + π − J/ψ at c.m. energy of 4.26 GeV and by radiative return from
+                              √
+         e + e − collisions at s from 9.46 to 10.86 GeV at Belle (LIU 13B).
+         Partial wave analysis of ABLIKIM 17J determines J P = 1+ with
+         more than 7 σ signiﬁcance. Neutral Tcc1 (3900)0 seen in the J/ψ π 0
+         invariant mass distribution in e + e − → π 0 π 0 J/ψ at c.m. ener-
+         gies of 4.23, 4.26, and 4.36 GeV by BES III (ABLIKIM 15U) and
+         at 4.17 GeV by XIAO 13A. Peaks in (D D ∗ )0,± reported by BES III
+         (ABLIKIM 14A, ABLIKIM 15AB) are assumed to be related.
+
+                                       Tcc1 (3900) MASS
+
+VALUE (MeV)           EVTS           DOCUMENT ID            TECN      CHG COMMENT
+3886.7± 2.3 OUR AVERAGE Error includes scale factor of 1.7. See the ideogram below.
+3884.6± 0.7 ± 3.3             1 ABLIKIM      25BU BES3 ±          e + e − → π + π − J/ψ
+3893.1± 2.2 ± 3.0             1 ABLIKIM      20N BES3 0           e + e − → π 0 π 0 J/ψ
+       + 5.2 + 3.3
+3902.6 −                    2,3 ABAZOV       19 D0          ±     1.96 TeV p p →
+         5.0 − 1.4
+                                                                     J/ψ π + π − X
+       + 4.3
+3885.7 − 5.7 ± 8.4          2,4 ABLIKIM      15AB BES3 0          e + e − → π 0 (D D ∗ )0
+3881.7± 1.6 ± 1.6 1.2k      2,4 ABLIKIM      15AC BES3 ±          e + e − → π ± (D D ∗ )∓
+3883.9± 1.5 ± 4.2 1.2k      2,4 ABLIKIM      14A BES3 ±           e + e − → π ± (D D ∗ )∓
+3894.5± 6.6 ± 4.5   159       2 LIU          13B BELL ±           e + e − → γ π + π − J/ψ
+3886 ± 4 ± 2         81     2,5 XIAO         13A            ±     4.17 e + e − →
+                                                                     π + π − J/ψ
+3904 ± 9 ± 5         25     2,5 XIAO         13A            0     4.17 e + e − →
+                                                                     π 0 π 0 J/ψ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+
+3895.0± 5.2 + 4.0
+            − 2.7       502      2,6 ABAZOV          18B D0           ±      1.96 TeV p p →
+                                                                                J/ψ π + π − X
+3881.2± 4.2 ± 52.7      6k    4,7 ABLIKIM      17J BES3 ±                    e e − → π + π − J/ψ
+                                                                               +
+3894.8± 2.3 ± 3.2      356    2,8 ABLIKIM      15U BES3 0                    e + e − → π 0 π 0 J/ψ
+3899.0± 3.6 ± 4.9      307    2,9 ABLIKIM      13T BES3 ±                    e + e − → π + π − J/ψ
+  1 Pole mass obtained from a ﬁt to a relativistic Breit-Wigner.
+  2 Neglecting interference between the T
+                                          cc1 (3900) and other processes.
+  3 Measured in weak decays of b-ﬂavored hadrons (nonprompt).
+  4 Pole mass obtained from a ﬁt to a Flatte-like formula.
+  5 For M2 (π + π − ) < 0.65 GeV2 . Obtained by analyzing CLEO-c data but not authored
+    by the CLEO Collaboration.
+  6 The signal of the T                                               + −
+                         cc1 (3900) is correlated with a parent J/ψ π π system in the
+    invariant mass range 4.2–4.7 GeV. Superseded by ABAZOV 19.
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  7 Superseded by ABLIKIM 25BU.
+  8 Superseded by ABLIKIM 20N.
+  9 Superseded by ABLIKIM 17J.
+
+         WEIGHTED AVERAGE
+         3886.7±2.3 (Error scaled by 1.7)
+
+
+
+
+                                                                                                   2
+                                                                                               χ
+                                                          ABLIKIM            25BU BES3    0.4
+                                                          ABLIKIM            20N BES3     3.0
+                                                          ABAZOV             19   D0      9.4
+                                                          ABLIKIM            15AB BES3    0.0
+                                                          ABLIKIM            15AC BES3    4.8
+                                                          ABLIKIM            14A BES3     0.4
+                                                          LIU                13B BELL     1.0
+                                                          XIAO               13A          0.0
+                                                          XIAO               13A          2.8
+                                                                                         21.8
+                                                                    (Confidence Level = 0.0053)
+
+       3860    3870     3880     3890     3900     3910      3920     3930
+
+          Tcc1 (3900) MASS (MeV)
+
+                                      Tcc1 (3900) WIDTH
+
+VALUE (MeV)           EVTS           DOCUMENT ID            TECN      CHG     COMMENT
+29.5± 2.4 OUR AVERAGE
+37.2± 1.3± 6.6          1 ABLIKIM                    25BU BES3        ±       e + e − → π + π − J/ψ
+44.4± 5.2± 14.0         1 ABLIKIM                    20N BES3         0       e + e − → π 0 π 0 J/ψ
+    + 28 +
+32 − 21 − 726         2,3 ABAZOV                     19     D0        ±       1.96 TeV p p →
+                                                                                 π + π − J/ψ X (non-
+                                                                                 prompt)
+35 +  11
+    − 12 ± 15
+                                 2,4 ABLIKIM         15AB BES3        0       e e − → π 0 (D D ∗ )0
+                                                                               +
+
+26.6± 2.0± 2.1        1248       2,4 ABLIKIM         15AC BES3     e + e − → π ± (D D ∗ )∓
+                                                                      ±
+24.8± 3.3± 11.0       1212       2,4 ABLIKIM         14A BES3      e + e − → π ± (D D ∗ )∓
+                                                                      ±
+63 ± 24 ± 26           159         2 LIU             13B BELL      e + e − → γ π + π − J/ψ
+                                                                      ±
+37 ± 4 ± 8              81       2,5 XIAO            13A           4.17 e + e − →
+                                                                      ±
+                                                                      π + π − J/ψ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+51.8± 4.6± 36.0      6k     4,6 ABLIKIM      17J BES3 ±            e + e − → π + π − J/ψ
+29.6± 8.2± 8.2      356     2,7 ABLIKIM      15U BES3 0            e + e − → π 0 π 0 J/ψ
+46 ± 10 ± 20        307     2,8 ABLIKIM      13T BES3 ±            e + e − → π + π − J/ψ
+  1 Pole width obtained from a ﬁt to a relativistic Breit-Wigner.
+  2 Neglecting interference between the T
+                                          cc1 (3900) and other processes.
+
+https://pdg.lbl.gov                         Page 2                        Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  3 Measured in weak decays of b-ﬂavored hadrons (nonprompt).
+  4 Pole width obtained from a ﬁt to a Flatte-like formula.
+  5 For M2 (π + π − ) < 0.65 GeV2 . Obtained by analyzing CLEO-c data but not authored
+    by the CLEO Collaboration.
+  6 Superseded by ABLIKIM 25BU.
+  7 Superseded by ABLIKIM 20N.
+  8 Superseded by ABLIKIM 17J.
+
+
+                                 Tcc1 (3900) DECAY MODES
+
+        Mode                                                  Fraction (Γi /Γ)
+
+Γ1      J/ψ π                                                 seen
+Γ2      hc π ±                                                not seen
+Γ3      ηc π + π −                                            not seen
+Γ4      ηc (1S) ρ(770)±                                       seen
+Γ5      (D D ∗ )±                                             seen
+Γ6         D 0 D ∗− + c.c.                                    seen
+Γ7         D − D ∗0 + c.c.                                    seen
+Γ8      ω π±                                                  not seen
+Γ9      J/ψ η                                                 not seen
+Γ10     D + D ∗− + c.c                                        seen
+Γ11     D 0 D ∗0 + c.c                                        seen
+
+
+                             Tcc1 (3900) BRANCHING RATIOS
+       
+Γ J/ψ π /Γtotal                                                                                        Γ1 /Γ
+VALUE           EVTS          DOCUMENT ID                TECN      CHG       COMMENT
+seen                          ABLIKIM             20N BES3         0         e + e − → π 0 π 0 J/ψ
+seen                        1 ABAZOV              19 D0            ±         1.96 TeV p p →
+                                                                                π + π − J/ψ X (prompt)
+seen                      ABLIKIM       17J BES3 ±                           e e − → π + π − J/ψ
+                                                                               +
+seen           356        ABLIKIM       15U BES3 0                           e + e − → π 0 π 0 J/ψ
+not seen                2 ADOLPH        15D COMP ±                           γ N → J/ψ π ± N
+seen           307        ABLIKIM       13T BES3 ±                           e + e − → π + π − J/ψ
+seen            25      3 XIAO          13A          0                       4.17 e + e − → π 0 π 0 J/ψ
+  1 But not seen in the ”prompt” sample (no b-hadron enhancement).
+  2 ADOLPH       15D     measure   B(Tcc1 (3900)±     →        J/ψ π ± )  σ(γ N                          →
+               ±
+    Tcc1 (3900) N)/σ(γ N → J/ψ N) < 3.7 × 10      −3  at 90% CL.
+  3 Obtained by analyzing CLEO-c data but not authored by the CLEO Collaboration.
+
+Γ hc π ± /Γtotal
+        
+                                                                                                       Γ2 /Γ
+VALUE                                  DOCUMENT ID               TECN        CHG    COMMENT
+not seen                               ABLIKIM            13X BES3           ±      e + e − → hc π + π −
+
+Γ ηc π + π − /Γtotal
+            
+                                                                                                       Γ3 /Γ
+VALUE                               DOCUMENT ID                 TECN     CHG       COMMENT
+not seen                          1 VINOKUROVA 15               BELL     0         B + → K + ηc π + π −
+
+
+https://pdg.lbl.gov                          Page 3                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 VINOKUROVA 15 reports B(B + → K + Z (3900)0 ) × B(X → η π + π − ) < 4.7 ×
+                                       c                   c
+    10−5 at 90% CL.
+
+Γ ηc (1S) ρ(770)± /Γ J/ψ π
+                          
+                                                                                                       Γ4 /Γ1
+VALUE                 EVTS           DOCUMENT ID                TECN        COMMENT
+2.3± 0.8           332      1 ABLIKIM     19BC BES3 e + e − → π + π − π 0 ηc (1S)
+  1 Using e + e − → π ∓ (T           ±       ±
+                           cc1 (3900) → J/ψ π ) cross section at 4.23 and 4.26 GeV
+    from ABLIKIM 17J.
+
+Γ (D D ∗ )± /Γ J/ψ π
+                    
+                                                                                                       Γ5 /Γ1
+VALUE                             DOCUMENT ID                TECN       CHG      COMMENT
+6.2± 1.1± 2.7             1 ABLIKIM          14A BES3 ±        e + e − → π ± (D D ∗ )∓
+  1 Assuming the same origin of the (D D ∗ )± and π ± J/ψ decay modes.
+
+Γ D 0 D ∗− + c.c. /Γtotal
+                 
+                                                                                                        Γ6 /Γ
+VALUE                       DOCUMENT ID               TECN      CHG     COMMENT
+seen                        ABLIKIM            15AC BES3        ±       e + e − → π + D 0 D ∗− + c.c.
+seen                        ABLIKIM            14A BES3         ±       e + e − → π + D 0 D ∗− + c.c.
+
+Γ D − D ∗0 + c.c. /Γtotal
+                 
+                                                                                                        Γ7 /Γ
+VALUE                       DOCUMENT ID               TECN      CHG     COMMENT
+seen                        ABLIKIM            15AC BES3        ±       e + e − → π + D − D ∗0 + c.c.
+seen                        ABLIKIM            14A BES3         ±       e + e − → π + D − D ∗0 + c.c.
+
+Γ ω π ± /Γtotal
+       
+                                                                                                        Γ8 /Γ
+VALUE                                  DOCUMENT ID               TECN        CHG   COMMENT
+not seen                               ABLIKIM            15R BES3           ±     e + e − → ω π+ π−
+       
+Γ J/ψ η /Γtotal                                                                                         Γ9 /Γ
+VALUE                          DOCUMENT ID               TECN       CHG      COMMENT
+not seen                       ABLIKIM             15Q BES3         0        4.0–4.6 e + e − → J/ψ η π 0
+                
+Γ J/ψ η /Γ J/ψ π                                                                                       Γ9 /Γ1
+VALUE             CL%           DOCUMENT ID               TECN       CHG      COMMENT
+<0.15         90          ABLIKIM          15Q BES3 0           4.226 e + e − → J/ψ η π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.65         90          ABLIKIM          15Q BES3 0           4.257 e + e − → J/ψ η π 0
+
+Γ D + D ∗− + c.c /Γtotal
+                
+                                                                                                       Γ10 /Γ
+VALUE                              DOCUMENT ID                TECN      CHG      COMMENT
+seen                               ABLIKIM             15AB BES3        0        e + e − → π 0 (D D ∗ )0
+
+Γ D 0 D ∗0 + c.c /Γtotal
+                
+                                                                                                       Γ11 /Γ
+VALUE                              DOCUMENT ID                TECN      CHG      COMMENT
+seen                               ABLIKIM             15AB BES3        0        e + e − → π 0 (D D ∗ )0
+
+Γ D + D ∗− + c.c /Γ D 0 D ∗0 + c.c
+                                 
+                                                                                                  Γ10 /Γ11
+VALUE                              DOCUMENT ID                TECN      CHG      COMMENT
+0.96± 0.18 ± 0.12                  ABLIKIM             15AB BES3        0        e + e − → π 0 (D D ∗ )0
+
+
+https://pdg.lbl.gov                          Page 4                       Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                Tcc1 (3900) REFERENCES
+ABLIKIM      25BU PR D112 092013             M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      20N PR D102 012009              M. Ablikim et al.                         (BESIII Collab.) JP
+ABAZOV       19   PR D100 012005             V.M. Abazov et al.                           (D0 Collab.)
+ABLIKIM      19BC PR D100 111102             M. Ablikim et al.                         (BESIII Collab.)
+ABAZOV       18B PR D98 052010               V.M. Abazov et al.                           (D0 Collab.)
+ABLIKIM      17J PRL 119 072001              M. Ablikim et al.                         (BESIII Collab.) JP
+ABLIKIM      15AB PRL 115 222002             M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      15AC PR D92 092006              M. Ablikim et al.                         (BESIII Collab.) JP
+ABLIKIM      15Q PR D92 012008               M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      15R PR D92 032009               M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      15U PRL 115 112003              M. Ablikim et al.                         (BESIII Collab.)
+ADOLPH       15D PL B742 330                 C. Adolph et al.                      (COMPASS Collab.)
+VINOKUROVA   15   JHEP 1506 132              A. Vinokurova et al.                     (BELLE Collab.)
+    Also          JHEP 1702 088 (errat.)     A. Vinokurava et al.                     (BELLE Collab.)
+ABLIKIM      14A PRL 112 022001              M. Ablikim et al.                         (BESIII Collab.) JP
+ABLIKIM      13T PRL 110 252001              M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM      13X PRL 111 242001              M. Ablikim et al.                         (BESIII Collab.)
+LIU          13B PRL 110 252002              Z.Q. Liu et al.                          (BELLE Collab.)
+XIAO         13A PL B727 366                 T. Xiao et al.                                   (NWES)
+
+
+
+
+https://pdg.lbl.gov                        Page 5                      Created: 6/1/2026 16:25
+

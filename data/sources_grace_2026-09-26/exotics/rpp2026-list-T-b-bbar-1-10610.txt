@@ -1,0 +1,276 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ Tbb1(10610)                                          I G (J PC ) = 1+ (1 + − )
+
+was Zb (10610), X (10610)
+        Properties incompatible with a q q structure (exotic state). See the
+        review on non-q q states.
+
+        Observed by BONDAR 12 in Υ(5S) decays to Υ(nS)π + π − (n =
+        1, 2, 3) and hb (mP) π + π − (m = 1, 2). J P = 1+ is favored from
+        angular analyses.
+
+                                     Tbb1 (10610)± MASS
+
+VALUE (MeV)                             DOCUMENT ID               TECN      COMMENT
+10607.2± 2.0                          1 BONDAR   12 BELL e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+             + 3.7
+10608.5± 3.4 −                        2 GARMASH             15    BELL      e + e − → Υ(1S) π + π −
+               1.4
+             + 1.5
+10608.1± 1.2 −                        2 GARMASH             15    BELL      e + e − → Υ(2S) π + π −
+               0.2
+             + 0.8
+10607.4± 1.5 −                        2 GARMASH             15    BELL      e+ e− →        Υ(3S) π + π −
+               0.2
+10611 ± 4 ± 3                    3 BONDAR          12 BELL                  e+ e− →        Υ(1S) π + π −
+10609 ± 2 ± 3                    3 BONDAR          12 BELL                  e+ e− →        Υ(2S) π + π −
+10608 ± 2 ± 3                    3 BONDAR          12 BELL                  e+ e− →        Υ(3S) π + π −
+10605 ± 2 − 1+ 3                 3 BONDAR          12 BELL e + e − → hb (1P) π + π −
+
+10599 +   6 +5
+        −3 −4
+                                 3 BONDAR          12 BELL e + e − → hb (2P) π + π −
+  1 Average of the BONDAR 12 measurements in separate channels.
+  2 Correlated with the corresponding result from BONDAR 12.
+  3 Superseded by the average measurement of BONDAR 12.
+                                 Tbb1 (10610)0 MASS
+
+VALUE (MeV)                     DOCUMENT ID                TECN      COMMENT
+10609± 4 ± 4             1 KROKOVNY 13 BELL e + e − → Υ(2S)/Υ(3S) π 0 π 0
+  1 From a simultaneous ﬁt to the KROKOVNY 13 Dalitz analysis of e + e − →
+    Υ(2S)/Υ(3S) π 0 π 0 decays with ﬁxed width Γ(T     (10610)0 ) = 18.4 MeV.
+                                                   bb1
+
+                                    Tbb1 (10610)± WIDTH
+
+VALUE (MeV)                             DOCUMENT ID               TECN      COMMENT
+18.4± 2.4                             1 BONDAR   12 BELL e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+          + 6.1
+18.5± 5.3 −                           2 GARMASH             15    BELL      e + e − → Υ(1S) π + π −
+            2.3
+          + 0.3
+20.8± 2.5 −                           2 GARMASH             15    BELL      e + e − → Υ(2S) π + π −
+            2.1
+          + 2.5
+18.7± 3.4 −                           2 GARMASH             15    BELL      e + e − → Υ(3S) π + π −
+            1.3
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+          + 3.0
+22.3± 7.7 −                              3 BONDAR              12     BELL     e + e − → Υ(1S) π + π −
+            4.0
+          + 2.0
+24.2± 3.1 −                              3 BONDAR              12     BELL     e + e − → Υ(2S) π + π −
+            3.0
+17.6± 3.0± 3.0                   3 BONDAR          12 BELL                     e + e − → Υ(3S) π + π −
+     +  4.5 + 2.1
+11.4 − 3.9 − 1.2                 3 BONDAR          12 BELL                     e + e − → hb (1P) π + π −
+
+13 +   10 + 9
+     − 8 −7
+                                 3 BONDAR          12 BELL e + e − → hb (2P) π + π −
+  1 Average of the BONDAR 12 measurements in separate channels.
+  2 Correlated with the corresponding result from BONDAR 12.
+  3 Superseded by the average measurement of BONDAR 12.
+
+
+                                  Tbb1 (10610) DECAY MODES
+
+         Mode                                                   Fraction (Γi /Γ)
+
+Γ1       Υ(1S) π +                                                    + 1.9 ) × 10−3
+                                                                ( 5.4 − 1.5
+Γ2       Υ(1S) π 0                                               not seen
+Γ3       Υ(2S) π +                                                    + 1.1 ) %
+                                                                ( 3.6 − 0.8
+Γ4       Υ(2S) π 0                                               seen
+Γ5       Υ(3S) π +                                                    + 0.8 ) %
+                                                                ( 2.1 − 0.6
+Γ6       Υ(3S) π 0                                               seen
+Γ7       hb (1P)π +                                                   + 1.2 ) %
+                                                                ( 3.5 − 0.9
+Γ8       hb (2P)π +                                                   + 1.7 ) %
+                                                                ( 4.7 − 1.3
+Γ9       B+ B0                                                   not seen
+Γ10      B + B ∗0 + B ∗+ B 0                                          + 2.1 ) %
+                                                                (85.6 − 2.9
+
+
+                              Tbb1 (10610) BRANCHING RATIOS
+
+Γ Υ(1S) π + /Γtotal
+           
+                                                                                                         Γ1 /Γ
+VALUE (units 10−3 )                        DOCUMENT ID                TECN     COMMENT
+    + 1.6 + 1.1                          1 GARMASH
+5.4 − 1.3 − 0.8                                                16e + e − → π − B + B ∗0 ,
+                                                                      BELL
+                                                                     π − B 0 B ∗+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+seen                              GARMASH        15 BELL e + e − → Υ(1S) π + π −
+seen                              BONDAR         12 BELL e + e − → Υ(1S) π + π −
+  1 Assuming the T         (10610) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                       bb1
+      π + hb (1P, 2P), and B + B ∗0 + B 0 B ∗+ , and using the results from BONDAR 12 and
+      MIZUK 16.
+
+Γ Υ(1S) π 0 /Γtotal
+           
+                                                                                                         Γ2 /Γ
+VALUE                                         DOCUMENT ID               TECN      COMMENT
+not seen                                      KROKOVNY           13     BELL      e + e − → Υ(1S) π 0 π 0
+
+
+https://pdg.lbl.gov                            Page 2                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Υ(2S) π + /Γtotal
+           
+                                                                                                        Γ3 /Γ
+VALUE (units 10−2 )                       DOCUMENT ID               TECN      COMMENT
+     + 0.76 + 0.79                      1 GARMASH
+3.62 − 0.59 − 0.53                                            16 e + e − → π − B + B ∗0 ,
+                                                                    BELL
+                                                                     π − B 0 B ∗+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+seen                              GARMASH        15 BELL e + e − → Υ(2S) π + π −
+seen                              BONDAR         12 BELL e + e − → Υ(2S) π + π −
+  1 Assuming the T       (10610) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                     bb1
+    π + hb (1P, 2P), and B + B ∗0 + B 0 B ∗+ , and using the results from BONDAR 12 and
+    MIZUK 16.
+
+Γ Υ(2S) π 0 /Γtotal
+           
+                                                                                                        Γ4 /Γ
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+seen                               1 KROKOVNY 13 BELL e + e − → Υ(2S) π 0 π 0
+  1 Combined signiﬁcance in e + e − → Υ(2S)/Υ(3S) π 0 π 0 , including systematics, of 6.5σ.
+
+Γ Υ(3S) π + /Γtotal
+           
+                                                                                                        Γ5 /Γ
+VALUE (units 10−2 )                       DOCUMENT ID               TECN      COMMENT
+     + 0.55 + 0.60                      1 GARMASH
+2.15 − 0.42 − 0.43                                            16 e + e − → π − B + B ∗0 ,
+                                                                    BELL
+                                                                     π − B 0 B ∗+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+seen                              GARMASH        15 BELL e + e − → Υ(3S) π + π −
+seen                              BONDAR         12 BELL e + e − → Υ(3S) π + π −
+  1 Assuming the T       (10610) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                     bb1
+    π + hb (1P, 2P), and B + B ∗0 + B 0 B ∗+ , and using the results from BONDAR 12 and
+    MIZUK 16.
+
+Γ Υ(3S) π 0 /Γtotal
+           
+                                                                                                        Γ6 /Γ
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+seen                               1 KROKOVNY 13 BELL e + e − → Υ(3S) π 0 π 0
+  1 Combined signiﬁcance in e + e − → Υ(2S)/Υ(3S) π 0 π 0 , including systematics, of 6.5σ.
+
+         π + /Γtotal
+            
+Γ hb (1P)π                                                                                              Γ7 /Γ
+VALUE (units 10−2 )                       DOCUMENT ID               TECN      COMMENT
+     + 0.87 + 0.86                      1 GARMASH
+3.45 − 0.71 − 0.63                                            16  e + e − → π − B + B ∗0 ,
+                                                                    BELL
+                                                                     π − B 0 B ∗+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+possibly seen                     2 MIZUK           16 BELL e + e − → hb (1P) π + π −
+seen                              3 BONDAR          12 BELL e + e − → hb (1P) π + π −
+  1 Assuming the T       (10610) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                     bb1
+    π + hb (1P, 2P), and B + B ∗0 + B 0 B ∗+ , and using the results from BONDAR 12 and
+    MIZUK 16.
+  2 Using e + e − energies near the Υ(11020).
+  3 Using e + e − energies near the Υ(10860).
+
+
+
+
+https://pdg.lbl.gov                           Page 3                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+         π + /Γtotal
+            
+Γ hb (2P)π                                                                                               Γ8 /Γ
+VALUE (units 10−2 )                       DOCUMENT ID                TECN     COMMENT
+     + 1.24 + 1.18                      1 GARMASH
+4.67 − 1.00 − 0.89                                            16  e + e − → π − B + B ∗0 ,
+                                                                     BELL
+                                                                     π − B 0 B ∗+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+possibly seen                     2 MIZUK           16 BELL e + e − → hb (2P) π + π −
+seen                              3 BONDAR          12 BELL e + e − → hb (2P) π + π −
+  1 Assuming the T       (10610) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                     bb1
+    π + hb (1P, 2P), and B + B ∗0 + B 0 B ∗+ , and using the results from BONDAR 12 and
+    MIZUK 16.
+  2 Using e + e − energies near the Υ(11020).
+  3 Using e + e − energies near the Υ(10860).
+
+Γ B + B 0 /Γtotal
+         
+                                                                                                         Γ9 /Γ
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+not seen                                     GARMASH            16     BELL      e + e − → π− B + B 0
+
+ Γ B + B ∗0 + Γ B ∗+ B 0 /Γtotal
+                      
+                                                                                                        Γ10 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+     + 1.5 + 1.5                           1 GARMASH
+85.6 − 2.0 − 2.1               357                              16    e + e − → π − B + B ∗0 ,
+                                                                       BELL
+                                                                         π − B ∗+ B 0
+    1 Assuming the T       (10610) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                       bb1
+      π + hb (1P, 2P), and B + B ∗0 + B ∗+ B 0 , and using the results from BONDAR 12 and
+      MIZUK 16. Using the mass and width of the T         (10610) from BONDAR 12.
+                                                      bb1
+
+ Γ B + B ∗0 + Γ B ∗+ B 0 / Γ Υ(1S) π + + Γ Υ(2S) π + +
+                                                
+
+Γ Υ(3S) π + + Γ hb (1P)π π + + Γ hb (2P)π +
+                                          
+                                               Γ10 /(Γ1 +Γ3 +Γ5 +Γ7 +Γ8 )
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+     + 0.99 + 1.01
+5.93 −                         357         1 GARMASH            16    e + e − → π − B + B ∗0 ,
+                                                                       BELL
+       0.69 − 0.73
+                                                                         π − B 0 B ∗+
+    1 Combined with the results of BONDAR 12 and MIZUK 16. Not independent from
+      T     (10610) branching fractions to π + Υ(1S, 2S, 3S), π + hb (1P, 2P), and B + B ∗0 +
+        bb1
+      B 0 B ∗+ .
+
+                                  Tbb1 (10610) REFERENCES
+
+GARMASH        16     PRL 116 212001            A. Garmash et al.                         (BELLE Collab.)
+MIZUK          16     PRL 117 142001            R. Mizuk et al.                           (BELLE Collab.)
+GARMASH        15     PR D91 072003             A. Garmash et al.                         (BELLE Collab.)
+KROKOVNY       13     PR D88 052016             P. Krokovny et al.                        (BELLE Collab.)
+BONDAR         12     PRL 108 122001            A. Bondar et al.                          (BELLE Collab.)
+
+
+
+
+https://pdg.lbl.gov                           Page 4                      Created: 6/1/2026 16:25
+

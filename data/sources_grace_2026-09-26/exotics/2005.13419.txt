@@ -1,0 +1,1790 @@
+                                          EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH (CERN)
+
+
+                                                                                                                          CERN-EP-2020-086
+                                                                                                                       LHCb-PAPER-2020-008
+                                                                                                                             March 11, 2021
+
+
+
+
+                                                                 Study of the lineshape
+                                                                 of the χc1(3872) state
+
+
+
+
+arXiv:2005.13419v3 [hep-ex] 12 Mar 2021
+                                                                                     LHCb collaboration†
+
+                                                                                         Abstract
+                                                   A study of the lineshape of the χc1 (3872) state is made using a data sample
+                                                   corresponding to an integrated luminosity of 3 fb−1 collected in pp collisions at
+                                                   centre-of-mass energies of 7 and 8 TeV with the LHCb detector. Candidate χc1 (3872)
+                                                   and ψ(2S) mesons from b-hadron decays are selected in the J/ψπ + π − decay mode.
+                                                   Describing the lineshape with a Breit–Wigner function, the mass splitting between
+                                                   the χc1 (3872) and ψ(2S) states, ∆m, and the width of the χc1 (3872) state, ΓBW ,
+                                                   are determined to be
+                                                                            ∆m = 185.598 ± 0.067 ± 0.068 MeV ,
+                                                                           ΓBW =         1.39 ± 0.24 ± 0.10 MeV ,
+                                                   where the first uncertainty is statistical and the second systematic. Using a Flatté-
+                                                   inspired model, the mode and full width at half maximum of the lineshape are
+                                                   determined to be
+                                                                                             + 0.00 + 0.05
+                                                                               mode = 3871.69−0.04 − 0.13       MeV
+                                                                            FWHM         = 0.22 + 0.07 + 0.11
+                                                                                                − 0.06 − 0.13   MeV.
+                                                   An investigation of the analytic structure of the Flatté amplitude reveals a pole
+                                                   structure, which is compatible with a quasi-bound D0 D∗0 state but a quasi-virtual
+                                                   state is still allowed at the level of 2 standard deviations.
+
+
+
+
+                                                                       Published in Phys. Rev. D102 (2020) 092005
+                                                               © CERN on behalf of the LHCb collaboration, licence CC BY 4.0.
+                                          †
+                                              Authors are listed at the end of this paper.
+ii
+1        Introduction
+The last two decades have seen a resurgence of interest in the spectroscopy of
+non-conventional (exotic) charmonium states [1] starting with the observation of the
+charmonium-like χc1 (3872) state by the Belle collaboration [2]. Though the existence
+of the χc1 (3872) particle has been confirmed by many experiments [3–7] with quantum
+numbers measured to be 1++ [8, 9], its nature is still uncertain. Several exotic inter-
+pretations have been suggested: e.g. a tetraquark [10], a loosely bound deuteron-like
+D0 D∗0 molecule [11] or a charmonium-molecule mixture [12].
+    A striking feature of the χc1 (3872) state is the proximity of its mass to the sum of the
+D and D0 meson masses. Accounting for correlated uncertainties due to the knowledge
+  ∗0
+
+of the kaon mass, this sum is evaluated to be mD0 + mD∗0 = 3871.70 ± 0.11 MeV 1 . The
+molecular interpretation of the χc1 (3872) state requires it to be a bound state. Assuming
+a Breit–Wigner lineshape, this implies that δE ≡ mD0 + mD∗0 − mχc1 (3872) > 0. Current
+knowledge of δE is limited by the uncertainty on the χc1 (3872) mass, motivating a more
+precise determination of this quantity. The nature of the χc1 (3872) state can also be
+elucidated by studies of its lineshape. This has been analysed by several experiments
+assuming a Breit–Wigner function [3, 5, 13]. The current upper limit on the natural width,
+ΓBW , is 1.2 MeV at 90% confidence level [14].
+    In this analysis a sample of χc1 (3872) → J/ψπ + π − candidates produced in inclusive
+b-hadron decays is used to measure precisely the mass and to determine the lineshape of
+the χc1 (3872) meson. Studies are made assuming both a Breit–Wigner lineshape and a
+Flatté-inspired model that accounts for the opening up of the D0 D∗0 threshold [15, 16].
+The analysis uses a data sample corresponding to an integrated luminosity of 3 fb−1 of
+data collected in pp collisions at centre-of-mass energies of 7 TeV and 8 TeV during 2011
+and 2012 using the LHCb detector.
+
+
+2        Detector and simulation
+The LHCb detector [17, 18] is a single-arm forward spectrometer covering the
+pseudorapidity range 2 < η < 5, designed for the study of particles containing b or c
+quarks. The detector includes a high-precision tracking system consisting of a silicon-strip
+vertex detector surrounding the pp interaction region [19], a large-area silicon-strip detector
+(TT) located upstream of a dipole magnet with a bending power of about 4 Tm, and
+three stations of silicon-strip detectors and straw drift tubes [20] placed downstream of
+the magnet. The tracking system provides a measurement of momentum, p, of charged
+particles with a relative uncertainty that varies from 0.5% at low momentum to 1.0% at
+200 GeV. As described in Refs. [21, 22] the momentum scale is calibrated using samples
+of J/ψ → µ+ µ− and B + → J/ψ K + decays collected concurrently with the data sample
+used for this analysis. The relative accuracy of this procedure is estimated to be 3 × 10−4
+using samples of other fully reconstructed b hadrons, Υ and KS0 mesons. The minimum
+distance of a track to a primary vertex (PV), the impact parameter (IP), is measured with
+a resolution of (15 + 29/pT ) µm, where pT is the component of the momentum transverse
+to the beam, in GeV.
+
+
+1
+    Natural units with c = ~ = 1 are used through this paper.
+
+
+                                                     1
+    Different types of charged hadrons are distinguished using information from two
+ring-imaging Cherenkov (RICH) detectors. Photons, electrons and hadrons are identified
+by a calorimeter system consisting of scintillating-pad and preshower detectors, an elec-
+tromagnetic calorimeter and a hadronic calorimeter. Muons are identified by a system
+composed of alternating layers of iron and multiwire proportional chambers [23].
+    The online event selection is performed by a trigger [24], which consists of a hardware
+stage, based on information from the calorimeter and muon systems, followed by a software
+stage, where a full event reconstruction is made. Candidate events are required to pass
+the hardware trigger, which selects muon and dimuon candidates with high pT based
+upon muon system information. The subsequent software trigger is composed of two
+stages. The first performs a partial event reconstruction and requires events to have two
+well-identified oppositely charged muons and that the mass of the pair is larger than
+2.7 GeV. The second stage performs a full event reconstruction. Events are retained for
+further processing if they contain a displaced µ+ µ− vertex. The decay vertex is required
+to be well separated from each reconstructed PV of the proton-proton interaction by
+requiring the distance between the PV and the µ+ µ− vertex divided by its uncertainty to
+be greater than three.
+    To study the properties of the signal and the most important backgrounds, simulated
+sampels of pp collisions are generated using Pythia [25] with a specific LHCb configura-
+tion [26]. Decays of hadronic particles are described by EvtGen [27], in which final-state
+radiation is generated using Photos [28]. The interaction of the generated particles with
+the detector, and its response, are implemented using the Geant4 toolkit [29] as described
+in Ref. [30]. For the study of the lineshape it is important that the simulation models
+well the mass resolution. The simulation used in this study reproduces the observed
+mass resolution for selected samples of B + → J/ψ K + , B 0 → J/ψ K + π − , Bs0 → J/ψ φ and
+B + → J/ψ K + π + π − decays within 5%. To further improve the agreement for the mass
+resolution between data and simulation, scale factors are determined using a large sample
+of ψ(2S) → J/ψ π + π − decays collected concurrently with the χc1 (3872) sample. This will
+be discussed in detail below.
+
+
+3    Selection
+The selection of χc1 (3872) → J/ψ π + π − candidates from b-hadron decays is performed
+in two steps. First, loose selection criteria are applied that reduce the background from
+random combinations of tracks significantly while retaining high signal efficiency. Subse-
+quently, a multivariate selection is used to further reduce this combinatorial background.
+In both steps, the selection requirements are chosen to reduce background whilst selecting
+well reconstructed candidates. The requirements are optimised using simulated signal
+decays together with a sample of selected candidates in data where the charged pions have
+the same sign. The latter sample is found to be a good proxy to describe the background
+shape. Though the selection criteria are tuned using the χc1 (3872) simulation sample,
+the ψ(2S) → J/ψ π + π − decay mode is also selected with high efficiency and used for
+calibration.
+    The selection starts from a pair of oppositely charged particles, identified as muons.
+Incorrectly reconstructed tracks are suppressed by imposing a requirement on the output
+of a neural network trained to discriminate between these and trajectories from real
+
+
+                                            2
+particles. To select J/ψ → µ+ µ− candidates, the two muons are required to originate
+from a common vertex that is significantly displaced from any PV. The difference between
+the reconstructed invariant mass of the pair and the known value of the J/ψ mass [31]
+is required to be within three times the uncertainty on the reconstructed mass of the
+µ+ µ− pair.
+      Pion candidates are selected using the same track-quality requirements as the muons.
+Information from the muon system is used to reject pions that decayed in the spectrometer
+since these pions tend to have poorly reconstructed trajectories which result in χc1 (3872)
+candidates with worse mass resolution. Combinatorial background is suppressed by
+requiring that the χ2IP of the pion candidates, defined as the difference between the χ2 of
+the PV reconstructed with and without the considered particle, is larger than four for
+all PVs. Good pion identification is ensured by applying a requirement on a variable
+that combines information from the RICH detectors with kinematic and track quality
+information. Since the pions produced in χc1 (3872) decays have relatively small pT , only
+a loose requirement on the transverse momentum (pT > 200 MeV) is imposed. In addition,
+the pion candidates are required to have p < 50 GeV. This requirement rejects candidates
+with poor momentum resolution and has an efficiency of 99.5 %.
+      To create χc1 (3872) candidates, J/ψ candidates are combined with pairs of oppositely
+charged pions. To improve the mass resolution a kinematic vertex fit [32] is made which
+constrains the J/ψ invariant mass to its known value [31]. The reduced χ2 of the fit,
+χ2fit /ndf, is required to be less than five. Candidates with a mass uncertainty greater than
+5.0 MeV are rejected. Finally, requiring the Q-value of the decay to be below 200 MeV
+substantially reduces the background whilst retaining 96% of the χc1 (3872) signal. Here
+the Q-value is defined as Q ≡ mµ+ µ− π+ π− − mµ+ µ− − mπ+ π− where mµ+ µ− π+ π− , mµ+ µ−
+and mπ+ π− are the reconstructed masses of the final state combinations.
+      The final step of the selection process is based on a neural network classifier [33–36].
+This is trained on a simulated sample of inclusive b → χc1 (3872)X decays and the same-
+sign pion sample in data. Simulated samples are corrected to reproduce kinematical
+distributions of the ψ(2S) mesons observed on data. The training is performed separately
+for the 2011 and 2012 data samples. Twelve variables that give good separation between
+signal and background are considered: the pseudorapidity and transverse momentum of the
+two pion candidates, the χ2IP for each of the two pions, the pseudorapidity and transverse
+momentum of the χc1 (3872) candidate, the χ2 of the two-track vertex fit for the pions,
+the χ2fit /ndf, the flight distance χ2 of the candidate calculated using the reconstructed
+primary and secondary vertices, and the total number of hits in the TT detector. All
+these variables show good agreement between simulation and data. The optimal cut on
+the classifier output is chosen using pseudoexperiments so as to minimise the uncertainty
+on the measured χc1 (3872) mass.
+
+
+4     Mass model
+The observed invariant mass distribution of the J/ψ π + π − system, mJ/ψ π+ π− , for the ψ(2S)
+and χc1 (3872) resonances is a convolution of the natural lineshape with the detector
+resolution. For the ψ(2S) resonance the lineshape is well described by a Breit–Wigner
+function. The situation for the χc1 (3872) meson is more complex. Previous measurements
+have assumed a Breit–Wigner resonance shape. However, as discussed in Refs. [12, 15, 16],
+
+
+                                              3
+this is not well motivated due to the proximity of the D0 D∗0 threshold. Several other
+alternative lineshapes have been proposed in the literature [15, 16, 37, 38]. In this analysis
+two lineshapes for the χc1 (3872) meson are considered in detail, a Breit–Wigner and a
+Flatté-inspired model [15, 16]. These models are investigated in the next sections. The
+S-wave threshold resonance model described in Ref. [37,38], that accounts for the non-zero
+width of the D∗0 meson, was considered but did not fit the data well. If the mass is close
+to the D0 D∗0 threshold, this model is not able to accommodate a value of the natural
+width much larger than ΓD∗0 = 65.5 ± 15.4 keV [37]. As will be discussed below, the study
+presented here favours larger values of the natural width.
+    The analysis proceeds in two steps. First, unbinned maximum-likelihood fits are made
+to the mJ/ψ π+ π− distribution in the region around the ψ(2S) mass. These measured values
+of the ψ(2S) mass and mass resolution are used to control systematic uncertainties in
+the subsequent fits to the mJ/ψ π+ π− distribution in the χc1 (3872) mass region. For both
+sets of fits the natural lineshape is convolved with a resolution model developed using the
+simulation. The application of the J/ψ mass constraint in the fit [32] results in the mass
+resolution being dominated by the kinematics of the pion pair. In particular, the resolution
+is worse for higher values of the total momentum of the pion pair, pπ+ π− . Consequently, the
+analysis is performed in three pπ+ π− bins chosen to contain an approximately equal number
+of signal candidates: pπ+ π− < 12 GeV, 12 ≤ pπ+ π− < 20 GeV and 20 ≤ pπ+ π− < 50 GeV.
+The core mass resolution for the χc1 (3872) state varies monotonically between 2.4 MeV
+and 3.0 MeV between the lowest-pπ+ π− and highest-pπ+ π− bin. Possible differences in data
+taking conditions are allowed for by dividing the data according to the year of collection
+resulting in a total of six data samples.
+    The resolution model is studied using simulation. In each pπ+ π− bin the mass resolution
+is modelled with the sum of a narrow Crystal Ball function [39] combined with a wider
+Gaussian function. The Crystal Ball function has a Gaussian core and two parameters
+that describe the power-law tail. The simulation is also used to determine the value of the
+transition point between the core and the power law tail, a, as a multiple of the width, σ,
+of the Gaussian core. The value of the exponent of the power law, n, is allowed to vary in
+the data fits with a Gaussian constraint to the value obtained in the simulation applied.
+When fitting the χc1 (3872) mass region in data the values of the core resolution, σ, for
+the Gaussian and Crystal Ball functions are taken from simulation up to an overall scale
+factor, sf , that accounts for residual discrepancies between data and simulation. For each
+pπ+ π− data sample the value of sf is determined in the corresponding fit to the ψ(2S)
+mass region and applied as a Gaussian constraint. The systematic uncertainty associated
+with the choice of the signal model is assessed by replacing the nominal model with the
+sum of either two Crystal Ball or Gaussian functions.
+    The shape of the combinatorial background is studied using the same-sign data sample
+as well as samples of simulated inclusive b → J/ψX decays. Based upon these studies, the
+background is modelled by the form (mJ/ψ π+ π− − mJ/ψ − 2mπ± )c0 e−mJ/ψ π+ π− /c1 , where
+c0 is fixed to 3.6 based on fits to the same-sign data. Variations of this functional
+form together with other models (e.g. exponential or polynomial functions) are used as
+systematic variations. In total, seven different background forms are considered.
+
+
+
+
+                                              4
+5     ψ(2S) mass
+Since the ψ(2S) state is narrow and away from the phase-space limits, a spin-0 relativistic
+Breit-Wigner function is used to model the lineshape. A spin-1 Breit-Wigner function is
+considered as part of the systematic uncertainties and found to give identical results. This
+lineshape is convolved with the default resolution model and a fit to J/ψ π + π − mass is
+performed in each of the six pπ+ π− data samples. The natural width of the ψ(2S) is fixed
+to the known value [31]. Figure 1 shows the mJ/ψ π+ π− distributions and fit projections for
+each data sample and Table 1 summarises the resulting parameters of interest. Binning
+the data and calculating the χ2 probability of consistency with the fit model gives the
+values greater than 5% for all fits. The fitted values of the ψ(2S) mass agree with the
+known value [31] within the uncertainty of the calibration procedure. The values of sf
+are consistent with the expectation that the simulation reproduces the mass resolution in
+data at the level of 5% or better. When applied as constraint in the fit to the χc1 (3872)
+region, additional uncertainties on sf are considered. Accounting for the finite size of
+the simulation samples, the background modelling and the assumption that the ψ(2S)
+calibration factor can be applied to the χc1 (3872) candidates, the uncertainty on sf is 0.02,
+independent of the bin. The values of sf in Table 1 are applied as Gaussian constraints in
+the fits to the χc1 (3872) region with an uncertainty of 0.02.
+
+
+6     Breit–Wigner mass and width of the χc1(3872)
+      state
+To extract the Breit–Wigner lineshape parameters of the χc1 (3872) meson, a fit is made
+to the mass range 3832 < mJ/ψ π+ π− < 3912 MeV in each of the six pπ+ π− data samples
+described above. A spin-0 relativistic Breit-Wigner is used, as in Ref. [9],
+    For each data sample the mass difference between the ψ(2S) and χc1 (3872) meson, ∆m,
+is measured relative to the measured mass of the ψ(2S) state rather than the absolute mass.
+This minimises the systematic uncertainty due to the momentum scale. The fit in each
+bin has seven free parameters: ∆m, the natural width ΓBW , the background parameter c1 ,
+the resolution scale factor sf , the tail parameter n, and the signal and background yields.
+Again a Gaussian constraint is applied to n based on the simulation. The parameter sf
+is constrained to the result of the fit to the ψ(2S) data. The fit procedure is validated
+
+
+Table 1: Results of the ψ(2S) mass and scale factor sf obtained for the nominal fit model. The
+quoted uncertainties on the ψ(2S) mass and sf are statistical.
+
+ Year                 pπ+ π− [GeV]                 mψ(2S) [MeV]                      sf
+
+ 2011                  pπ+ π− < 12                3685.97 ± 0.02                1.03 ± 0.01
+ 2011             12 ≤ pπ+ π− < 20                3685.98 ± 0.02                1.05 ± 0.01
+ 2011             20 ≤ pπ+ π− < 50                3686.10 ± 0.03                1.04 ± 0.01
+ 2012                  pπ+ π− < 12                3686.01 ± 0.01                1.03 ± 0.01
+ 2012             12 ≤ pπ+ π− < 20                3686.02 ± 0.01                1.05 ± 0.01
+ 2012             20 ≤ pπ+ π− < 50                3686.09 ± 0.02                1.01 ± 0.01
+
+
+                                              5
+                        5000
+                                      ψ(2S)           2011    2012                  LHCb
+                        4000
+                                      background
+                                      total
+                        3000
+
+                        2000
+
+                        1000
+
+
+
+
+ Candidates/(0.4 MeV)
+                        3000
+
+
+                        2000
+
+
+                        1000
+
+
+
+
+                        2000
+
+
+
+                        1000
+
+
+
+                           0
+                               3.67   3.68    3.69     3.7    3.67   3.68    3.69     3.7
+                                         mJ/ψ π+ π−   [GeV]           mJ/ψ π+ π−      [GeV]
+
+Figure 1: Mass distributions for J/ψ π + π − candidates in the ψ(2S) region for (top) the low,
+(middle) mid and (bottom) high pπ+ π− bins. The left (right)-hand plot is for 2011 (2012) data.
+The projection of the fit described in the text is superimposed.
+
+
+using both the simulation and pseudoexperiments. No significant bias is found and the
+uncertainties estimated by the fit agree with the spread observed in the pseudoexperiments.
+These studies show that, values of ΓBW larger than 0.6 MeV can reliably be determined.
+    For the six pπ+ π− data samples the J/ψ π + π − mass distributions in the χc1 (3872) region
+and fits are shown in Fig. 2 and the results summarised in Table 2. Binning the data
+and calculating the χ2 probability of consistency with the fit model gives values much
+larger than 5% for all bins apart from the high-momentum bin in the 2012 data where
+the probability is 2%. The values of ∆m and ΓBW are consistent between the bins giving
+confidence in the results.
+    A simultaneous fit is made to the six data samples with ∆m and ΓBW as shared
+parameters. This gives ∆m = 185.588 ± 0.067 MeV and ΓBW = 1.39 ± 0.24 MeV, where
+the uncertainties are statistical. Consistent values are found when these parameters are
+determined through a weighted average of the six individual bins, or by summing the
+
+                                                                 6
+                 1000
+                                   χc1 (3872)          2011    2012                      LHCb
+                      800
+                                   background
+                                   total
+                      600
+
+                      400
+
+                      200
+
+
+
+
+ Candidates/(1 MeV)
+                      800
+
+                      600
+
+                      400
+
+                      200
+
+
+
+
+                      800
+
+                      600
+
+                      400
+
+                      200
+
+                       0
+                            3.84   3.86        3.88     3.9    3.84       3.86    3.88     3.9
+                                          mJ/ψ π+ π−   [GeV]                mJ/ψ π+ π−     [GeV]
+
+Figure 2: Mass distributions for J/ψ π + π − candidates in the χc1 (3872) region for (top) the low,
+(middle) mid and (bottom) high pπ+ π− bins. The left (right)-hand plot is for 2011 (2012) data.
+The projection of the fit described in the text is superimposed.
+
+
+likelihood profiles returned by the fit.
+    The dominant systematic uncertainty on the mass difference ∆m arises from the
+3 × 10−4 relative uncertainty on the momentum scale. Its effect is evaluated by adjusting
+the four-vectors of the pions by this amount and repeating the analysis. The bias on ∆m
+from QED radiative corrections is determined to be (−10 ± 14) keV using the simulation,
+which uses Photos [28] to model this effect. The measured value of ∆m is corrected by
+this value and the uncertainty considered as a systematic error. The small uncertainty on
+the fitted values of the ψ(2S) mass is also propagated to the ∆m value. Biases arising from
+the modelling of the resolution and the treatment of the background shape are evaluated
+to be 2 keV using the discrete profiling method described in Ref. [40]. The uncertainties
+on the ∆m measurement are summarised in Table 3. Combining all uncertainties, the
+
+
+
+                                                                      7
+Table 2: Results for ∆m and ΓBW and χc1 (3872) signal yields. The quoted uncertainties are
+statistical.
+
+          Year     pπ+ π− [GeV]       ∆m [MeV]        ΓBW [MeV]       Nsig [103 ]
+
+          2011      pπ+ π− < 12    185.32   ± 0.20     1.88 ± 0.74    1.78 ± 0.13
+          2011 12 ≤ pπ+ π− < 20    185.78   ± 0.21     1.53 ± 0.74    1.79 ± 0.13
+          2011 20 ≤ pπ+ π− < 50    185.46   ± 0.21     1.03 ± 0.82    1.68 ± 0.13
+          2012      pπ+ π− < 12    185.63   ± 0.13     1.23 ± 0.47    3.24 ± 0.18
+          2012 12 ≤ pπ+ π− < 20    185.47   ± 0.14     1.48 ± 0.48    3.70 ± 0.18
+          2012 20 ≤ pπ+ π− < 50    185.81   ± 0.15     1.15 ± 0.57    3.26 ± 0.17
+
+          Total                    185.588 ± 0.067     1.39 ± 0.24   15.63 ± 0.38
+
+      Table 3: Systematic uncertainties on the measurement of the mass difference ∆m.
+
+ Source                                                                Uncertainty [MeV]
+
+ Momentum scale                                                               0.066
+ Radiative corrections                                                        0.014
+ Fitted ψ(2S) mass uncertainty                                                0.007
+ Signal + background model                                                    0.002
+
+ Sum in quadrature                                                            0.068
+
+mass splitting between the χc1 (3872) and ψ(2S) mesons is determined as
+
+                           ∆m = 185.598 ± 0.067 ± 0.068 MeV ,
+
+where the first uncertainty is statistical and the second is systematic. The value
+of ∆m can be translated into an absolute measurement of the χc1 (3872) mass using
+mψ(2S) = 3686.097 ± 0.010 MeV from Ref. [31], yielding
+
+                   mχc1 (3872) = 3871.695 ± 0.067 ± 0.068 ± 0.010 MeV ,
+
+where the third uncertainty is due to the knowledge of the ψ(2S) mass. For these
+measurements it is assumed that interference effects with other partially reconstructed
+b-hadron decays do not affect the lineshape. This assumption is reasonable since many
+exclusive b-hadron decays contribute to the final sample, and the χc1 (3872) state is narrow.
+This assumption has been explored in pseudoexperiments varying the composition and
+phases of the possible decay amplitudes that are likely to contribute to the observed data
+set. These studies conservatively limit the size of any possible effect on mχc1 (3872) to be
+less than 40 keV.
+    The uncertainties from the knowledge of sf and n are already included in the statistical
+uncertainty of ΓBW via the Gaussian constraints. Their contribution to the statistical
+uncertainty is estimated to be 0.05 MeV by comparison to a fit with these parameters fixed.
+Further uncertainties arise from the choice of signal and background model. These are
+evaluated using the discrete profiling method with the alternative models described above.
+
+                                             8
+Based upon these studies an uncertainty of 0.10 MeV is assigned. The uncertainty due to
+possible differences in the pT distribution between data and simulation is evaluated by
+weighting the simulation to achieve better agreement and lead to a 0.01 MeV uncertainty.
+Summing these values in quadrature gives a total uncertainty of 0.1 MeV.
+   The value of ΓBW , including systematic uncertainties,
+
+                             ΓBW = 1.39 ± 0.24 ± 0.10 MeV ,
+
+differs from zero by more than 5 standard deviations. Fits were also made fixing ΓBW to
+zero and allowing sf to float in each bin without constraint. The value of sf obtained is
+between 1.2 and 1.25 depending on the bin, much larger than can be reasonably explained
+by differences in the mass resolution between data and simulation after the calibration
+using the ψ(2S) data.
+    Care is needed in the interpretation of the measured ΓBW and mχc1 (3872) parameters
+since mD0 + mD∗0 − mχc1 (3872) < ΓBW . The Breit–Wigner parameterisation may not be
+valid since it neglects the opening of the D0 D∗0 channel.
+
+
+7     Flatté model
+7.1    The Flatté lineshape model
+The proximity of the χc1 (3872) mass to the D0 D∗0 threshold distorts the lineshape from
+the simple Breit–Wigner form. This has to be taken into account explicitly. The general
+solution to this problem requires a full understanding of the analytic structure of the
+coupled-channel scattering amplitude. However, if the relevant threshold is close to the
+resonance, simplified parametrisations are available and have been used to describe the
+χc1 (3872) lineshape [15, 16].
+    In the J/ψ π + π − channel the χc1 (3872) lineshape as a function of the energy with
+respect to the D0 D∗0 threshold, E ≡ mJ/ψ π+ π− − (mD0 + mD∗0 ), can be written as
+
+                                dR(J/ψ π + π − )    Γρ (E)
+                                                 ∝         ,                           (1)
+                                     dE            |D(E)|2
+
+where Γρ (E) is the contribution of the J/ψ π + π − channel to the width of the χc1 (3872)
+state. The complex-valued denominator function, taking into account the D0 D∗0 and
+D+ D∗− two-body thresholds, and the J/ψ π + π − J/ψ π + π − π 0 channels, is given by
+                                    i
+                D(E) = E − Ef +       [g (k1 + k2 ) + Γρ (E) + Γω (E) + Γ0 ] .         (2)
+                                    2
+The Flatté energy parameter, Ef , is related to a mass parameter, m0 , via the relation
+Ef = m0 − (mD0 + mD∗0 ). The width Γ0 is introduced in Ref. [16] to represent further
+open channels, such as radiative decays. The model assumes an isoscalar assignment of
+the χc1 (3872) state, using the same effective coupling, g, for both channels. The relative
+momenta of the decay products in the rest frame of the two-body system, k1 for D0 D∗0
+and k2 for the D+ D∗− channel, are given by
+                                 p                p
+                           k1 = 2µ1 E, k2 = 2µ2 (E − δ) ,                               (3)
+
+                                             9
+where δ = 8.2 MeV is the isospin splitting between the two channels. The reduced
+                          m m                      m    m
+masses are given by µ1 = (m D00+mD∗0∗0 ) and µ2 = (m D+++mD∗−
+                                                            ∗− )
+                                                                 . For mJ/ψ π+ π− masses below
+                              D    D                 D     D
+the D0 D∗0 and D+ D∗− thresholds these momenta become imaginary and thus their
+contribution to the denominator will be real. The energy dependence of the J/ψ π + π −
+and J/ψ π + π − π 0 partial widths is given by [16]
+                                       MR(E)
+                                           dm0    q(m0 , E) Γρ
+                       Γρ (E) = fρ              0        2     2
+                                                                 ,                        (4)
+                                       2mπ 2π (m − mρ ) + Γρ /4
+                                       MR(E)
+                                           dm0    q(m0 , E) Γω
+                       Γω (E) = fω              0         2    2
+                                                                 .                        (5)
+                                       3mπ 2π (m − mω ) + Γω /4
+
+The known values for masses mρ , mω and widths Γρ , Γω [31] are used and the lineshapes
+are approximated with fixed-width Breit–Wigner functions. The partial widths are param-
+eterised by the respective effective couplings fρ and fω and the phase space of these decays,
+where intermediate resonances ρ0 → π + π − and ω → π + π − π 0 are assumed. The dependence
+on E is given by the upper boundary of the integrals M (E) = E + (mD0 + mD∗0 ) − mJ/ψ .
+The momentum of the two- or three-pion system in the rest frame of the χc1 (3872) is
+given by
+                         s
+                             M 2 (E) − (m0 + mJ/ψ )2 M 2 (E) − (m0 − mJ/ψ )2
+                                                                            
+                 0
+             q(m , E) =                                                         .        (6)
+                                                  4M 2 (E)
+    The model as specified contains five free parameters: m0 , g, Γ0 and the effective
+couplings fρ and fω . In contrast to the Breit–Wigner lineshape, the parameters of the
+Flatté model cannot be easily interpreted in terms of the mass and width of the state.
+Instead it is necessary to determine the location of the poles of the amplitude. The
+analysis proceeds with a fit of the Flatté amplitude to the data and subsequent search for
+the poles.
+    The resulting Flatté lineshape replaces the Breit–Wigner function and is convolved with
+the resolution models described in the first part of the paper. The Flatté parameters are
+estimated from a simultaneous unbinned likelihood fit to the J/ψ π + π − mass distribution
+in the six pπ+ π− data samples. The data points are corrected for the observed shifts of
+the reconstructed mass of the ψ(2S) in each bin.
+
+7.2    Fits of the Flatté lineshape to the data
+In order to obtain stable results when using the coupled channel model to describe the
+J/ψ π + π − mass spectrum, a relation between the effective couplings fρ and fω is imposed.
+This relation requires that the branching fractions of the χc1 (3872) state to J/ψ ρ0 and
+J/ψ ω 0 final states are equal, which is consistent with experimental data [5, 14, 41], thus
+eliminating one free parameter in the fit. Furthermore, a Gaussian fit constraint is applied
+on the ratio of branching fractions
+                              Γ(χc1 (3872) → J/ψ π + π − )
+                    RDD∗ =                                 = 0.11 ± 0.03 .                (7)
+                               Γ(χc1 (3872) → D0 D∗0 )
+The value used here is obtained as the weighted average of the results from the BaBar [5]
+and Belle [14, 41] collaborations, as listed in Ref. [42]. The Flatté model reduces to the
+
+                                               10
+      Table 4: Results from the constrained Flatté fit. The uncertainties are statistical.
+
+        g                    fρ × 103                  Γ0 [MeV]                    m0 [MeV]
+
+ 0.108 ± 0.003               1.8 ± 0.6                 1.4 ± 0.4                 3864.5 (fixed)
+
+
+Breit–Wigner model as a special case, namely when there is no additional decay channel
+available near the resonance. However, the RDD∗ constraint enforces a large coupling to
+the D0 D∗0 channel and the lineshape will be different from the Breit–Wigner function in
+the region of interest.
+    For large couplings to the two-body channel the Flatté parameterisation exhibits a
+scaling property [43] that prohibits the unique determination of all free parameters on the
+given data set. Almost identical lineshapes are obtained when the parameters Ef , g, fρ
+and Γ0 are scaled appropriately. In particular, it is possible to counterbalance a lower
+                                                                 ∗
+value of Ef with a linear increase in the coupling to the DD channels g. While this is
+not a true symmetry of the parameterisation — there are subtle differences in the tails of
+the lineshape — in practice, within the experimental precision this effect leads to strong
+correlations between the parameters.
+    Figure 3 illustrates the scaling behavior in the data. The black points show the best-fit
+result for the parameter g evaluated at fixed Ef , optimising the remaining parameters at
+every step. To a good approximation g depends linearly on Ef with
+
+                                dg
+                                   = (−15.11 ± 0.16) GeV−1 .                                  (8)
+                               dEf
+
+The red points show the negative log likelihood relative to is minimum value ∆LL for each
+of these fits, revealing a shallow minimum around m0 = 3860 MeV. At lower Ef values
+∆LL raises very slowly, reaching a value of 1 around −270 MeV. Values of Ef approaching
+the D0 D∗0 threshold are disfavoured, though. In particular good quality fits are obtained
+only for negative values of Ef . A similar phenomenon has been observed in the previous
+analyses of BaBar and Belle data and is discussed in Ref. [16]. As in those studies, for the
+remainder of the paper the practical solution of fixing m0 = 3864.5 MeV, corresponding
+to Ef = −7.2 MeV, is adopted. The remaining model parameters are evaluated with this
+constraint applied. This procedure has been validated using pseudoexperiments and no
+significant bias is found. For g and Γ0 the uncertainties estimated by the fit agree with the
+spread of the pseudoexperiments. For fρ an uncertainty which is 10% larger than what is
+found in the pseudoexperiments is observed and this conservative estimate is reported.
+The measured values for g, fρ and Γ0 are presented in Table 4. In order to fulfill the
+constraint on the branching ratios, Eq. (7), the effective coupling, fω , is found to be 0.01.
+    The systematic uncertainties on the Flatté parameters are summarised in Table 5 and
+discussed below. The systematic uncertainties introduced by the background and resolution
+parameterisations are evaluated in the same way as for the Breit–Wigner analysis, using
+discrete profiling. The impact of the momentum scale uncertainty is investigated by
+shifting the data points by 66 keV and repeating the fit. Further systematic uncertainties
+are particular to the Flatté parameterisation. The location of the D0 D∗0 threshold is
+known to a precision of 0.11 MeV [31]. Varying the threshold by this amount and repeating
+the fit leads to an uncertainty on the parameters which is similar to that introduced by
+
+                                               11
+           0.3                                                                       3
+
+                                                                                          ∆ LL
+     g
+                                           LHCb
+          0.25                                                                      2.5
+
+
+           0.2                                                                       2
+
+
+          0.15                                                                      1.5
+
+
+           0.1                                                                       1
+
+
+          0.05                                                                      0.5
+
+
+            0                                                                        0
+
+                        −15                −10               −5                 0
+                                                                       E f [MeV]
+
+                                    ∗
+Figure 3: The coupling to the DD channels g as a function of Flatté energy parameter Ef
+(black points with error bars). The corresponding change in negative log likelihood, ∆LL is
+shown as well (red dots).
+
+
+         Table 5: Systematic uncertainty on the measurement of the Flatté parameters.
+
+                 Systematic                      g                fρ × 103           Γ0 [MeV]
+
+                 Model                  + 0.003 −0.004        + 0.6 −0.5            + 0.5        −0.4
+                 Momentum scale         + 0.003 −0.003        + 0.1 −0.2            + 0.1        −0.2
+                 Threshold mass         + 0.003 −0.003        + 0.2 −0.2            + 0.2        −0.3
+                 D∗0 width                      −0.001                                           −0.2
+
+                 Sum in quadrature + 0.005 −0.006             + 0.7 −0.6            + 0.6        −0.6
+
+
+the momentum scale. Finally, the D∗0 meson has a finite natural width, for which an
+upper limit of ΓD∗0 < 2.1 MeV [31] has been measured. However, theoretical predictions
+estimate ΓD∗ = 65.5 ± 15.4 keV [37], based on the measured width of the D∗+ meson.
+Modified lineshape models taking into account the finite width of the D∗0 are available.
+In particular, Refs. [37, 44] suggest replacing k1 (E) in Eq. (3) with
+                                     p
+                            k10 (E) = −2µ (E − ER + iΓD∗0 /2) ,                     (9)
+                                                                                m
+                                                                                D0    (m
+                                                                                     D0      +m
+                                                                                            π0     )
+where ER ≡ mD∗0 − mD0 − mπ0 . The reduced mass, µ, is calculated as (2m                        .
+                                                                                   D 0 +mπ 0 )
+With this modification there is always a contribution to both the imaginary and real part
+of the denominator function in Eq. (2). Repeating the fit results in a similar but worse fit
+quality with a log-likelihood difference of 0.1. The width Γ0 is reduced by 0.2 MeV, which
+is the smallest systematic uncertainty on this parameter.
+
+                                                 12
+                         ×103                                                       8000
+  [a.u.]
+
+
+
+                                                                 Events/(1.6 MeV)
+                                Breit–Wigner                                               Incl. resolution and background
+                   400                                                              7000
+                                Flatté                                                         Breit–Wigner
+                                                                                                                   LHCb
+dR(J/ψ π + π − )
+                   350                                                              6000        Flatté
+                   300
+                                                                                    5000
+ dmJ/ψ π+ π−       250
+                                                                                    4000
+                   200
+                                                                                    3000
+                   150
+                   100                                                              2000
+                    50                                                              1000
+                     0                                                                0
+                    3.868         3.87         3.872         3.874                         3.84    3.86       3.88        3.9
+                                         mJ/ψ π+ π−      [GeV]                                            mJ/ψ π+ π−       [GeV]
+
+Figure 4: Comparison of the Flatté (solid, red) and Breit–Wigner (dotted, black) lineshapes.
+The left plot shows the raw lineshapes for the default fits. The location of the D0 D∗0 threshold
+is indicated by the blue vertical line. On the right the distributions are shown after applying
+smearing with the resolution function and adding background.
+
+
+Table 6: Results of the fit with the Flatté lineshape including statistical and systematic
+uncertainties. The Flatté mass parameter m0 = 3864.5 MeV is used.
+
+          Mode [MeV]                                     Mean [MeV]                                             FWHM [MeV]
+
+  3871.69 + 0.00 + 0.05
+          − 0.04 − 0.13                                3871.66 + 0.07 + 0.11
+                                                               − 0.06 − 0.13                                    0.22 + 0.06 + 0.25
+                                                                                                                     − 0.08 − 0.17
+
+
+
+7.3                 Comparison between Breit–Wigner and Flatté lineshapes
+Figure 4 shows the comparison between the Breit–Wigner and the Flatté lineshapes.
+While in both cases the signal peaks at the same mass, the Flatté model results in a
+signifcantly narrower lineshape. However, after folding with the resolution function and
+adding the background, the observable distributions are indistinguishable.
+    To quantify this comparison the fit results for the mode, the mean and the full width
+at half-maximum (FWHM) of the Flatté model and their uncertainties are summarised
+in Table 6. The mode of the Flatté distribution agrees within uncertainties with the
+Breit–Wigner solution. However, the FWHM of the Flatté model is a factor of five smaller
+than the Breit–Wigner width. To check the consistency of these seemingly contradictory
+results, pseudoexperiments generated with the Flatté model and folded with the known
+resolution function are analysed with the Breit–Wigner model. Figure 5 shows the resulting
+distribution of the Breit–Wigner width determined from the pseudoexperiments, which
+is in good agreement with the value observed in the data. This demonstrates that the
+value obtained for the Breit–Wigner width, after taking into account the experimental
+resolution, is consistent with the expectation of the Flatté model. The result highlights
+the importance of a proper lineshape parameterisation for a measurement of the location
+of the pole.
+
+
+
+                                                               13
+ Pseudoexperiments/(50 keV)
+                              80       Flatté (input)                         LHCb
+                              70             Breit–Wigner (data)
+
+                              60
+
+                              50
+
+                              40
+
+                              30
+
+                              20
+
+                              10
+
+                               0
+                                   0                     1                    2
+                                                                           FWHM [MeV]
+Figure 5: Distribution of the FWHM obtained for simulated experiments generated from the
+result of the Flatté model and fitted with the Breit–Wigner model (filled histogram). Both
+models account for the experimental resolution. The dashed red line shows the FWHM of the
+Flatté lineshape, while the solid blue line indicates the value of the Breit–Wigner width observed
+in data.
+
+
+7.4                           Pole search
+The amplitude as a function of the energy defined by Eq. (2) can be continued analytically
+to complex values of the energy E. This continuation is valid up to singularities of
+the amplitude. There are two types of singularities, which are relevant here: poles and
+branch points. Poles of the amplitude in the complex energy plane are identified with
+hadronic states. The pole location is a unique property of the respective state, which
+is independent of the production process and the observed decay mode. In the absence
+of nearby thresholds the real part of the pole is located at the mass of the hadron and
+the imaginary part at half the width of the state. Branch point singularities occur at
+the threshold of every coupled channel and lead to branch cuts in the Riemann surface
+on which the amplitude is defined. Each branch cut corresponds to two Riemann sheets.
+Through Eq. (2) the amplitude will inherit the analytic structure of the square root
+functions of Eq. (3) that describe the momenta of the decay products in the rest frame of
+the two-body system. The square root is a two-sheeted function of complex energy. In
+the following, a convention is used where the two sheets are connected along the negative
+
+
+                                                             14
+real axis. An introduction to this subject can be found in Refs. [45–47] and a summary is
+available in Ref. [48].
+    For the χc1 (3872) state only the Riemann sheets associated to the D0 D∗0 channel
+are important, since all other thresholds are far from the signal region. The following
+convention is adopted to label the relevant sheets:
+                 g √             p                i
+    I: E − Ef −      + −2µ1 E + −2µ2 (E − δ) + Γ(E) with Im E > 0 ,
+                 2                                    2
+                 g √             p                i
+   II: E − Ef −      + −2µ1 E + −2µ2 (E − δ) + Γ(E) with Im E < 0 ,
+                 2                                    2
+                 g     √          p                 i
+ III: E − Ef −       − −2µ1 E + −2µ2 (E − δ) + Γ(E) with Im E < 0 ,
+                 2                                    2
+                 g     √          p                 i
+  IV: E − Ef −       − −2µ1 E + −2µ2 (E − δ) + Γ(E) with Im E > 0 ,
+                 2                                    2
+where Γ(E) ≡ Γρ (E) + Γω (E) + Γ0 . The fact that the model contains several coupled
+channels in addition to the D0 D√∗0 channel complicates the analytical structure. The
+sign in front of the momentum −2µ1 E is the same for sheets I and II and therefore
+they belong to a single sheet with respect to the D0 D∗0 channel. The two regions are
+labelled separately due to the presence of the the J/ψ π + π − , J/ψ π + π − π 0 channels, as well
+as radiative decays. Those channels have their associated branch points at smaller masses
+than the signal region. The analysis is performed close to the D0 D∗0 threshold and points
+above and below the real axis lie on different sheets with respect to those open channels.
+    Sheets I and II correspond to a physical sheet with respect to the D0 D∗0 channel,
+where the amplitude is evaluated in order to compute the measurable lineshape at real
+energies E. Sheets III and IV correspond to an unphysical sheet with respect to that
+channel. Sheet II is analytically connected to sheet IV along the real axis, above the D0 D∗0
+threshold.
+    In the single-channel case, a bound D0 D∗0 state would appear below threshold on the
+real axis and on the physical sheet.
+    A virtual state would appear as well below threshold on the real axis, but on the
+unphysical sheet. A resonance would appear on the unphysical sheet in the complex plane
+[45–47]. The presence of inelastic, open channels shifts the pole into the complex plane and
+turns both a bound state as well as a virtual state into resonances. In the implementation
+of the amplitude used for the analysis, the branch cut for the D0 D∗0 channel is taken
+to go from threshold towards larger energy E, while the branch cuts associated to the
+open channels Γ(E) are chosen to lie along the negative real axis. The analytic structure
+around the branch cut associated to the D+ D∗− threshold is also investigated, but no
+nearby poles are found on the respective Riemann sheets.
+    At the best estimate of the Flatté parameters the model exhibits two pole singularities.
+The first pole appears on sheet II and is located very close to the D0 D∗0 threshold .
+The location of this pole with respect to the branch point, obtained using the algorithm
+described in Ref. [49], is EII = (0.06 − 0.13 i) MeV. Recalling that the imaginary part
+of the pole position corresponds to half the visible width, it is clear that this pole is
+responsible for the peaking region of the lineshape. A second pole is found on sheet III. It
+appears well below the threshold and is also further displaced from the physical axis at
+EIII = (−3.58 − 1.22 i) MeV.
+
+                                               15
+                  0.2
+
+
+
+     Im E [MeV]
+                                                                                            phase
+                                                                                        3
+                                                                      LHCb
+                  0.1
+                                                                                        2
+
+                   0
+                                                                                        1
+             −0.1
+                                                                                        0
+            −0.2
+                                                                                        −1
+             −0.3
+
+                                                                                        −2
+            −0.4
+
+             −0.5                                                                       −3
+                −0.4        −0.2               0                0.2              0.4
+                                                                  Re E [MeV]
+
+Figure 6: The phase of the Flatté amplitude obtained from the fit to the data with
+m0 = 3864.5 MeV on sheets I (for Im E > 0) and II (for Im E < 0) of the complex energy
+plane. The pole singularity is visible at EII = (0.06 − 0.13 i) MeV. The branch cut is highlighted
+with the black line. The trajectory of the pole taken when the couplings to all but the DD∗
+channel are scaled down to zero is indicated in red.
+
+
+    Figure 6 shows the analytic structure of the Flatté amplitude in the vicinity of the
+threshold. The color code corresponds to the phase of the amplitude on sheets I (for
+Im E > 0) and II (for Im E < 0) in the complex energy plane. The pole on sheet II
+is visible, as is the discontinuity along the D0 D∗0 branch cut, which for clarity is also
+indicated by the black line. The trajectory followed by the pole when taking the limit
+where the couplings to all channels but D0 D∗0 are sent to zero is shown in red and
+discussed below.
+    As shown in Table 5, taking into account the finite width of the D∗0 has a small effect
+on the Flatté parameters. However, the analytic structure of the amplitude close to the
+threshold is changed such that in this case the branch cut is located in the complex plane
+at Im E = −ΓD∗0 /2. The phase of the amplitude for this case is shown in Fig. 7. The
+displaced branch cut is highlighted in black. The pole is found at EII0 = (25 − 140 i) keV
+in a similar location to the case without taking into account the D∗0 width. In particular,
+the most likely pole position is on sheet II, the physical sheet with respect to the D0 D∗0
+                                                                 0
+system. The location of the pole on sheet III is found to be EIII  = (−3.59 − 1.05 i) MeV,
+
+
+                                               16
+                 0.2
+
+
+
+    Im E [MeV]
+                                                                                          phase
+                                                                                      3
+                                                                    LHCb
+                 0.1
+                                                                                      2
+
+                  0
+                                                                                      1
+            −0.1
+                                                                                      0
+           −0.2
+                                                                                      −1
+            −0.3
+
+                                                                                      −2
+           −0.4
+
+            −0.5                                                                      −3
+               −0.4        −0.2               0               0.2              0.4
+                                                                Re E [MeV]
+
+Figure 7: The phase of the Flatté amplitude as obtained from the fit with a finite D∗0 width of
+ΓD∗0 = 65.5 keV on sheets I (for Im E > −ΓD∗0 /2) and II (for Im E < −ΓD∗0 /2) of the complex
+energy plane. Since the D∗0 meson is treated as an unstable particle, the D0 D∗0 branch cut,
+indicated by the black solid line, is located at Im E = −ΓD∗0 /2. The location of the pole is on
+the physical sheet with respect to the D0 D∗0 system.
+
+
+similar to the fit that does not account for D∗0 width.
+   The uncertainties of the Flatté parameters are propagated to the pole position by
+generating large sets of pseudoexperiments, sampling from the asymmetric Gaussian
+uncertainties that describe the statistical and the systematic uncertainties introduced
+through the resolution and background parameterisation. The systematic uncertainty on
+the pole position due to the momentum scale, location of the threshold and the choice of
+the Flatté mass parameter are discussed in the following.
+   The confidence regions for the location of the poles, corresponding to 68.3%, 95.4%
+and 99.7% intervals, are shown in Figures 8 and 9. For large values of g the pole on
+sheet II moves to sheet IV, which is analytically connected to the former along the real
+axis above threshold. Therefore, sheet II (for Im E < 0) and sheet IV (for Im E > 0) are
+shown together for this pole. While a pole location on sheet II is preferred by the data, a
+location on sheet IV is still allowed at the 2σ level. The pole on sheet III is located well
+below threshold and comparatively deep in the complex plane and is shown in Fig. 9. For
+comparison, the location of the confidence region for the first pole on sheets II and IV are
+
+
+                                              17
+Figure 8: Confidence regions for the pole position on sheets II and IV in the complex energy
+plane. The displayed uncertainties include statistical contributions and the modeling uncertainty.
+The poles are extracted at a Flatté mass point of m0 = 3864.5 MeV. The shaded areas are
+the 1, 2 and 3σ confidence regions. The branch cut is shown as the blue line. The location of
+the branch cut singularity is indicated with a vertical bar at E = 0 + 0 i. The best estimates
+for the pole position is indicated by a cross. The black points indicate the samples from the
+pseudoexperiments procedure that lie outside the 3σ region.
+
+
+also indicated on sheet III.
+    The positions of both poles depend on the choice of the Flatté mass parameter m0 .
+The dependence of the lineshape on m0 has been explored in the region below threshold
+and for the results shown in Fig. 3 the corresponding pole positions are evaluated. The
+location of the pole on sheet II extracted for −17 < Ef < 0 MeV are marked by black
+circles in Fig. 10. For smaller values of m0 the pole moves closer to the real axis, for
+values of m0 approaching the threshold, the pole moves further into the complex plane.
+
+
+                                               18
+Figure 9: Confidence regions for the pole position on sheet III in the complex energy plane. The
+displayed uncertainties include statistical contributions and the modeling uncertainty. The poles
+are extracted at a Flatté mass point of m0 = 3864.5 MeV. The shaded areas are the 1, 2 and
+3σ confidence regions. The branch cut is shown as the blue line. The location of the branch
+cut singularity is indicated with a vertical bar at E = 0 + 0 i. The best estimate for the pole
+positions is indicated by a cross. The confidence region for the pole on sheets II/IV is shown
+in outline for comparison. The black points indicate the samples from the pseudoexperiments
+procedure that lie outside the 3σ region.
+
+
+For all fits performed the best estimate for the location of the pole is on sheet II.
+   Figure 10 also shows the combined confidence regions, which account for the explored
+range of Ef . For each fit, a sample consisting of 105 pseudoexperiments is drawn from
+the Gaussian distribution described by the covariance matrix of the fit parameters. Only
+the statistical uncertainties obtained for each fit are used for this study. The resulting
+samples of pole positions are combined by weighting with their respective likelihood ratios
+
+
+                                               19
+Figure 10: Confidence regions for the pole on sheet II in the complex energy plane. The displayed
+uncertainties include statistical contributions and the uncertainty from the choice of the Flatté
+mass parameter m0 . Modelling uncertainties are not shown. The shaded areas are the 1, 2 and
+3σ confidence regions. The branch cut is shown as the blue line. The location of the branch cut
+singularity is indicated with a vertical bar at E = 0 + 0 i. The black circles indicate the best
+estimates for the pole position for the different choices of m0 .
+
+
+with respect to the best fit. The preferred location of the pole is on sheet II. However, a
+location of the pole on sheet IV is still allowed at the 2σ level.
+    The location of the pole on sheet III, in particular its real part, depends strongly on
+the choice of m0 . For small values of m0 the pole moves away from the threshold and has
+less impact on the lineshape. For m0 approaching the threshold this pole moves closer
+to the branch point and closer to the pole on sheet II. Since the asymmetry of the poles
+with respect to the threshold contains information on the potential molecular nature of
+the state [50], the values of the pole positions are provided for the most extreme scenario
+
+
+                                               20
+that is still allowed by the data with a likelihood difference of ∆LL = 1, (cf. Fig. 3) at
+m0 = 3869.3 MeV. In this case the two poles are found at EII = (0.09 − 0.33 i) MeV and
+EIII = (−0.85 − 0.97 i) MeV.
+    The location of the threshold with respect to the observed location of the peak has a
+profound impact on the Flatté parameters and therefore on the pole position. The main
+uncertainties, which affect on which sheet the pole is found, are the knowledge of the
+momentum scale and the location of the D0 D∗0 threshold. As shown in Table 5, both
+effects are of equal importance. Figure 11 shows the statistical uncertainties of the pole
+on sheet II for the case that the mass scale is shifted up by 66 keV. The pole is moving
+closer towards the real axis but the preferred location remains on sheet II. A measurement
+of the lineshape in the D0 D∗0 channel is needed to further improve the knowledge on the
+impact of the threshold location.
+    It is possible to study the behavior of the poles in the limit where only the DD∗ channels
+are considered. The trajectory traced by the pole on sheet II when the couplings to the
+other channels (fρ , fω , Γ0 ) are sent to zero is indicated by the red curve in Fig. 6. The
+coupling g and the Flatté mass parameter Ef are kept fixed while taking this limit.
+For the best fit solution the pole moves below threshold and reaches the real axis at
+E = −24 keV staying on the physical sheet with respect to the D0 D∗0 threshold. This
+location is consistent with a quasi-bound state in that channel with a binding energy of
+Eb = 24 keV. If the pole lies in the allowed region on sheet IV, taking the same limit also
+sends the pole onto the real axis below threshold, but on the unphysical sheet with respect
+to D0 D∗0 . This situation corresponds to a quasi-virtual state. Both types of solutions are
+analytically connected along the real axis through the branch cut singularity. Therefore,
+only upper limits on the binding energy can be set. For the bound state solution and
+only accounting for statistical uncertainties, the result is Eb < 57 keV at 90% confidence
+level (CL). Including the systematic uncertainties due to the choice of the model this limit
+becomes Eb < 100 keV at 90% CL. Setting the couplings to the other channels to zero
+causes the pole on sheet III to move to the real axis as well, reaching it at E = −3.51 MeV.
+The corresponding values extracted at the highest allowed value of m0 = 3869.3 MeV are
+Eb = 29 keV for the bound state pole and Eb = 0.73 MeV for the pole on the unphysical
+sheet.
+
+
+8     Results and discussion
+In this paper a large sample of χc1 (3872) mesons from b-hadron decays collected by LHCb
+in 2011 and 2012 is exploited to study the lineshape of the χc1 (3872) meson. Describing
+the lineshape with a Breit–Wigner function determines the mass splitting between the
+χc1 (3872) and ψ(2S) states to be
+
+                           ∆m = 185.598 ± 0.067 ± 0.068 MeV ,
+
+where the first uncertainty is statistical and the second systematic. Using the known value
+of the ψ(2S) mass [31] this corresponds to
+
+                   mχc1 (3872) = 3871.695 ± 0.067 ± 0.068 ± 0.010 MeV ,
+
+where the third uncertainty is due to the knowledge of the ψ(2S) mass. The result is in
+good agreement with the current world average [31]. The uncertainty is improved by a
+
+                                             21
+             0.2
+
+
+
+    Im E [MeV]
+                                                                      sheet IV
+                         LHCb
+                  0
+                                                     1σ
+                                                 2σ
+        −0.2                                    3σ
+
+
+         −0.4
+
+
+         −0.6
+
+
+         −0.8
+
+                                                                      sheet II
+                 −1
+                  −0.4      −0.2                0               0.2              0.4
+                                                              Re E [MeV]
+
+Figure 11: Confidence regions for the pole on sheet II in the complex energy plane, in the case
+that the mass scale is shifted up by 0.066 MeV, due to systematic uncertainty of the momentum
+scale. Only the statistical uncertainties are displayed. The shaded areas are the 1, 2 and 3σ
+confidence regions. The cross indicates the location of the pole found in the default fit, with the
+nominal momentum scale. The branch cut is shown as the blue line. The location of the branch
+cut singularity is indicated with a vertical bar at E = 0 + 0 i.
+
+
+factor of two compared to the best previous measurement by the CDF collaboration [4].
+The measured value can also be compared to the threshold value, mD0 + mD∗0 = 3871.70 ±
+0.11 MeV. The χc1 (3872) mass, evaluated from the mean of a fit assuming the Breit–
+Wigner lineshape, is coincident with the D0 D∗0 threshold within uncertainties, with
+δE = 0.01 ± 0.14 MeV. A non-zero Breit-Wigner width of the χc1 (3872) state is obtained
+with a value of
+                            ΓBW = 1.39 ± 0.24 ± 0.10 MeV.
+
+
+
+                                                22
+The values found here for mχc1 (3872) and ΓBW are in good agreement with a complementary
+analysis using fully reconstructed B + → χc1 (3872)K + decays presented in Ref. [51] and
+combined therein.
+    Since |δE| < ΓBW , the value of ΓBW needs to be interpreted with caution as coupled
+channel effects distort the lineshape. To elucidate this, fits using the Flatté parameteriza-
+tion discussed in Refs. [15, 16] are performed. The parameters are found to be
+                                                  + 0.005
+                               g = 0.108 ± 0.003 −        ,
+                                             + 0.7
+                                                    0.006 −3
+                              fρ = 1.8 ± 0.6 − 0.6 × 10 ,
+                              Γ0 = 1.4 ± 0.4 ± 0.6 MeV ,
+
+with m0 fixed at 3864.5 MeV. The mode of the Flatté distribution agrees with the
+mean of the Breit–Wigner lineshape. However, the determined FWHM is much smaller,
+0.22 + 0.06 + 0.25
+     − 0.08 − 0.17 MeV, highlighting the importance of a physically well-motivated lineshape
+parameterization. The sensitivity of the data to the tails of the mass distribution limits
+the extent to which the Flatté parameters can be determined, as is expected in the case
+of a strong coupling of the state to the D0 D∗0 channel [43]. Values of the parameter Ef
+above −2.0 MeV are excluded at 90% confidence level. The allowed region below threshold
+is −270 < Ef < −2.0 MeV. In this region a linear dependence between the parameters
+                           dg
+is observed. The slope dE    f
+                               is related to the real part of the scattering length [15] and is
+measured to be
+                                  dg
+                                      = (−15.11 ± 0.16) GeV−1 .
+                                 dEf
+In order to investigate the nature of the χc1 (3872) state, the analytic structure of the
+amplitude in the vicinity of the D0 D∗0 threshold is examined. Using the Flatté amplitude,
+two poles are found. Both poles appear on unphysical sheets with respect to the J/ψ π + π −
+channel and formally can be classified as resonances. With respect to the D0 D∗0 channel,
+one pole appears on the physical sheet, the other on the unphysical sheet. This configura-
+tion, corresponding to a quasi-bound D0 D∗0 state, is preferred for all scenarios studied in
+this paper. However, within combined statistical and systematic uncertainties a location
+of the first pole on the unphysical sheet is still allowed at the 2σ level and a quasi-virtual
+state assignment for the χc1 (3872) state cannot be excluded.
+    For the preferred quasi-bound state scenario the 90% CL upper limit of the D0 D∗0
+binding energy Eb is found to be 100 keV. The asymmetry of the locations of the two
+poles, which is found to be substantial, provides information on the composition of the
+χc1 (3872) state. In the case of a dominantly molecular nature of a state a single pole close
+to threshold is expected, while in the case of a compact state there should be two nearby
+poles [52]. The argument is equivalent to the Weinberg composition criterion [53] in the
+sense that the asymmetry of the pole location in momentum space determines the relative
+fractions of molecular and compact components in the χc1 (3872) wave function [54]
+                                    |k2 | − |k1 |
+                                                  =1−Z.
+                                    |k1 | + |k2 |
+Here Z is the probability to find a compact component in the wave function. The
+momentum |k1 | = 6.8 MeV is obtained by inserting the binding energy of the bound state
+pole into Eq. (3). The corresponding value for the second pole is |k2 | = 82 MeV and
+therefore one obtains Z = 15%. The asymmetry of the poles depends on the choice of m0 .
+
+                                              23
+The asymmetry is reduced as the m0 parameter approaches the threshold. The largest
+value for m0 that is still compatible with the data is 3869.3 MeV. In this case one obtains
+Z = 33% and therefore the probability to find a compact component in the χc1 (3872)
+wave function is less than a third. It should be noted that this argument depends on the
+extrapolation to the single channel case. For resonances the wave function normalisation
+used in the Weinberg criterion is not valid and Z has to be replaced by an integral over
+the spectral density [54]. Nevertheless, the value obtained in this work is in agreement
+with the results of the analysis of the spectral density using Belle data [41, 55], presented
+in Ref. [16].
+    The results for the amplitude parameters and in particular the locations of the poles,
+are systematically limited. In the future, a combined analysis of the χc1 (3872) → J/ψ π + π −
+and χc1 (3872) → D0 D∗0 channels will make possible improvements to the knowledge on
+the amplitude parameters.
+
+
+Acknowledgements
+We thank C. Hanhart and A. Pilloni for useful discussions on the Flatté model and
+the analytic structure of the amplitude. We express our gratitude to our colleagues
+in the CERN accelerator departments for the excellent performance of the LHC. We
+thank the technical and administrative staff at the LHCb institutes. We acknowledge
+support from CERN and from the national agencies: CAPES, CNPq, FAPERJ and
+FINEP (Brazil); MOST and NSFC (China); CNRS/IN2P3 (France); BMBF, DFG and
+MPG (Germany); INFN (Italy); NWO (The Netherlands); MNiSW and NCN (Poland);
+MEN/IFA (Romania); MinES and FASO (Russia); MinECo (Spain); SNSF and SER
+(Switzerland); NASU (Ukraine); STFC (United Kingdom); NSF (USA). We acknowledge
+the computing resources that are provided by CERN, IN2P3 (France), KIT and DESY
+(Germany), INFN (Italy), SURF (The Netherlands), PIC (Spain), GridPP (United
+Kingdom), RRCKI and Yandex LLC (Russia), CSCS (Switzerland), IFIN-HH (Romania),
+CBPF (Brazil), PL-GRID (Poland) and OSC (USA). We are indebted to the communities
+behind the multiple open-source software packages on which we depend. Individual groups
+or members have received support from AvH Foundation (Germany), EPLANET, Marie
+Sklodowska-Curie Actions and ERC (European Union), ANR, Labex P2IO and OCEVU,
+and Région Auvergne-Rhône-Alpes (France), RFBR, RSF and Yandex LLC (Russia),
+GVA, XuntaGal and GENCAT (Spain), Herchel Smith Fund, the Royal Society, the
+English-Speaking Union and the Leverhulme Trust (United Kingdom).
+
+
+
+
+                                             24
+References
+ [1] E. S. Swanson, The new heavy mesons: a status report, Phys. Rept. 429 (2006) 243,
+     arXiv:hep-ph/0601110.
+
+ [2] Belle collaboration, S. K. Choi et al., Observation of a narrow charmonium - like
+     state in exclusive B ± → K ± π + π − J/ψ decays, Phys. Rev. Lett. 91 (2003) 262001,
+     arXiv:hep-ex/0309032.
+
+ [3] BESIII collaboration, M. Ablikim et al., Observation of e+ e− → γX(3872) at BESIII,
+     Phys. Rev. Lett. 112 (2014), no. 9 092001, arXiv:1310.4101.
+
+ [4] CDF collaboration, T. Aaltonen et al., Precision measurement of the X(3872) mass
+     in J/ψ π + π − decays, Phys. Rev. Lett. 103 (2009) 152001, arXiv:0906.5218.
+
+ [5] BaBar collaboration, B. Aubert et al., A study of B → X(3872)K, with
+     X(3872) → J/ψ π + π − , Phys. Rev. D77 (2008) 111101, arXiv:0803.2838.
+
+ [6] D0 collaboration, V. M. Abazov et al., Observation
+                                            √           and properties of the X(3872)
+                     + −
+     decaying to J/ψπ π in pp̄ collisions at s = 1.96 TeV, Phys. Rev. Lett. 93 (2004)
+     162002, arXiv:hep-ex/0405004.
+
+ [7] LHCb
+       √ collaboration, R. Aaij et al., Observation of X(3872) production in pp collisions
+     at s = 7 TeV , Eur. Phys. J. C72 (2012) 1972, arXiv:1112.5310.
+
+ [8] LHCb collaboration, R. Aaij et al., Determination of the X(3872) meson quantum
+     numbers, Phys. Rev. Lett. 110 (2013) 222001, arXiv:1302.6269.
+
+ [9] LHCb collaboration, R. Aaij et al., Quantum numbers of the X(3872) state and
+     orbital angular momentum in its ρ0 J/ψ decays, Phys. Rev. D92 (2015) 011102(R),
+     arXiv:1504.06339.
+
+[10] L. Maiani, F. Piccinini, A. D. Polosa, and V. Riquer, Diquark-antidiquarks with
+     hidden or open charm and the nature of X(3872), Phys. Rev. D71 (2005) 014028,
+     arXiv:hep-ph/0412098.
+
+[11] N. A. Tornqvist, Isospin breaking of the narrow charmonium state of Belle at 3872 MeV
+     as a deuson, Phys. Lett. B590 (2004) 209, arXiv:hep-ph/0402237.
+
+[12] C. Hanhart, Y. S. Kalashnikova, and A. V. Nefediev, Interplay of quark and meson
+     degrees of freedom in a near-threshold resonance: multi-channel case, Eur. Phys. J.
+     A47 (2011) 101, arXiv:1106.1185.
+
+[13] BaBar collaboration, B. Aubert et al., Study of J/ψ π + π − states produced in
+     B 0 → J/ψ π + π − K 0 and B − → J/ψ π + π − K − , Phys. Rev. D73 (2006) 011101,
+     arXiv:hep-ex/0507090.
+
+[14] Belle collaboration, S.-K. Choi et al., Bounds on the width, mass difference and
+     other properties of X(3872) → π + π − J/ψ decays, Phys. Rev. D84 (2011) 052004,
+     arXiv:1107.0163.
+
+
+
+                                           25
+[15] C. Hanhart, Y. S. Kalashnikova, A. E. Kudryavtsev, and A. V. Nefediev, Reconciling
+                                                                ∗0
+     the x(3872) with the near-threshold enhancement in the D0 D final state, Phys. Rev.
+     D76 (2007) 034007.
+
+[16] Yu. S. Kalashnikova and A. V. Nefediev, Nature of X(3872) from data, Phys. Rev.
+     D80 (2009) 074004, arXiv:0907.4901.
+
+[17] LHCb collaboration, A. A. Alves Jr. et al., The LHCb detector at the LHC, JINST 3
+     (2008) S08005.
+
+[18] LHCb collaboration, R. Aaij et al., LHCb detector performance, Int. J. Mod. Phys.
+     A30 (2015) 1530022, arXiv:1412.6352.
+
+[19] R. Aaij et al., Performance of the LHCb Vertex Locator, JINST 9 (2014) P09007,
+     arXiv:1405.7808.
+
+[20] R. Arink et al., Performance of the LHCb Outer Tracker, JINST 9 (2014) P01002,
+     arXiv:1311.3893.
+
+[21] LHCb collaboration, R. Aaij et al., Measurements of the Λ0b , Ξb− , and Ωb− baryon
+     masses, Phys. Rev. Lett. 110 (2013) 182001, arXiv:1302.1072.
+
+[22] LHCb collaboration, R. Aaij et al., Precision measurement of D meson mass differ-
+     ences, JHEP 06 (2013) 065, arXiv:1304.6865.
+
+[23] A. A. Alves Jr. et al., Performance of the LHCb muon system, JINST 8 (2013)
+     P02022, arXiv:1211.1346.
+
+[24] R. Aaij et al., The LHCb trigger and its performance in 2011, JINST 8 (2013) P04022,
+     arXiv:1211.3055.
+
+[25] T. Sjöstrand, S. Mrenna, and P. Skands, PYTHIA 6.4 physics and manual, JHEP
+     05 (2006) 026, arXiv:hep-ph/0603175; T. Sjöstrand, S. Mrenna, and P. Skands,
+     A brief introduction to PYTHIA 8.1, Comput. Phys. Commun. 178 (2008) 852,
+     arXiv:0710.3820.
+
+[26] I. Belyaev et al., Handling of the generation of primary events in Gauss, the LHCb
+     simulation framework, J. Phys. Conf. Ser. 331 (2011) 032047.
+
+[27] D. J. Lange, The EvtGen particle decay simulation package, Nucl. Instrum. Meth.
+     A462 (2001) 152.
+
+[28] P. Golonka and Z. Was, PHOTOS Monte Carlo: A precision tool for QED corrections
+     in Z and W decays, Eur. Phys. J. C45 (2006) 97, arXiv:hep-ph/0506026.
+
+[29] Geant4 collaboration, J. Allison et al., Geant4 developments and applications, IEEE
+     Trans. Nucl. Sci. 53 (2006) 270; Geant4 collaboration, S. Agostinelli et al., Geant4:
+     A simulation toolkit, Nucl. Instrum. Meth. A506 (2003) 250.
+
+[30] M. Clemencic et al., The LHCb simulation application, Gauss: Design, evolution and
+     experience, J. Phys. Conf. Ser. 331 (2011) 032023.
+
+
+                                           26
+[31] Particle Data Group, M. Tanabashi et al., Review of particle physics, Phys. Rev.
+     D98 (2018) 030001, and 2019 update.
+
+[32] W. D. Hulsbergen, Decay chain fitting with a Kalman filter, Nucl. Instrum. Meth.
+     A552 (2005) 566, arXiv:physics/0503191.
+
+[33] W. S. McCulloch and W. Pitts, A logical calculus of the ideas immanent in nervous
+     activity, The bulletin of mathematical biophysics 5 (1943), no. 4 115.
+
+[34] F. Rosenblatt, The perceptron: A probabilistic model for information storage and
+     organization in the brain, Psychological Review 65 (1958) 386.
+
+[35] J.-H. Zhong et al., A program for the Bayesian neural network in the Root framework,
+     Comput. Phys. Commun. 182 (2011) 2655, arXiv:1103.2854.
+
+[36] H. Voss, A. Hoecker, J. Stelzer, and F. Tegenfeldt, TMVA - Toolkit for Multivariate
+     Data Analysis, PoS ACAT (2007) 040; A. Hoecker et al., TMVA 4 — Toolkit for
+     Multivariate Data Analysis. Users Guide., arXiv:physics/0703039.
+
+[37] E. Braaten and M. Lu, Line shapes of the X(3872), Phys. Rev. D76 (2007) 094028,
+     arXiv:0709.2697.
+
+[38] E. Braaten and J. Stapleton, Analysis of J/ψ π + π − and DDπ 0 decays of the X(3872),
+     Phys. Rev. D81 (2010) 014019, arXiv:0907.3167.
+
+[39] T. Skwarnicki, A study of the radiative cascade transitions between the Upsilon-prime
+     and Upsilon resonances, PhD thesis, Institute of Nuclear Physics, Krakow, 1986,
+     DESY-F31-86-02.
+
+[40] P. D. Dauncey et al., Handling uncertainties in background shapes: the discrete
+     profiling method, JINST 10 (2015) P04015, arXiv:1408.6865.
+
+[41] Belle collaboration, T. Aushev et al., Study of the B → X(3872)(D∗0 D0 )K decay,
+     Phys. Rev. D81 (2010) 031103, arXiv:0810.0358.
+
+[42] H.-X. Chen, W. Chen, X. Liu, and S.-L. Zhu, The hidden-charm pentaquark and
+     tetraquark states, Phys. Rept. 639 (2016) 1, arXiv:1601.02092.
+
+[43] V. Baru et al., Flattè-like distributions and the a0 (980)/f0 (980) mesons, Eur. Phys.
+     J. A 23 (2005) 523, arXiv:nucl-th/0410099.
+
+[44] C. Hanhart, Y. S. Kalashnikova, and A. V. Nefediev, Lineshapes for composite particles
+     with unstable constituents, Phys. Rev. D81 (2010) 094028, arXiv:1002.4097.
+
+[45] R. J. Eden, P. V. Landshoff, D. I. Olive, and J. C. Polkinghorne, The analytic
+     S-matrix, Cambridge Univ. Press, Cambridge, 1966.
+
+[46] A. D. Martin and T. D. Spearman, Elementary Particle Theory, North-Holland
+     Publishing Company, 1 ed., 1970.
+
+[47] P. D. B. Collins, An Introduction to Regge Theory & High Energy Physics, Cambridge
+     University Press, 1 ed., 1977.
+
+                                            27
+[48] Resonances in Particle Data Group, M. Tanabashi et al., Review of particle physics,
+     Phys. Rev. D98 (2018) 030001, 2019 update.
+
+[49] P. Kowalczyk, Global complex roots and poles finding algorithm based on phase
+     analysis for propagation and radiation problems, IEEE Transactions on Antennas and
+     Propagation 66 (2018) 7198, arXiv:1806.06522.
+
+[50] C. Hanhart, J. R. Pelaez, and G. Rios, Remarks on pole trajectories for resonances,
+     Phys. Lett. B739 (2014) 375, arXiv:1407.7452.
+
+[51] LHCb collaboration, R. Aaij et al., Study of the ψ2 (3823) and χc1 (3872) states in
+     the B + → (J/ψ π + π − ) K + decays , arXiv:2005.13422, submitted to JHEP.
+
+[52] D. Morgan, Pole counting and resonance classification, Nucl. Phys. A543 (1992) 632.
+
+[53] S. Weinberg, Elementary particle theory of composite particles, Phys. Rev. 130 (1963)
+     776.
+
+[54] V. Baru et al., Evidence that the a0 (980) and f0 (980) are not elementary particles,
+     Phys. Lett. B586 (2004) 53 .
+
+[55] Belle collaboration, I. Adachi et al., Study of X(3872) in B meson decays, in 34th
+     International Conference on High Energy Physics, 9, 2008. arXiv:0809.1224.
+
+
+
+
+                                           28
+                                   LHCb collaboration
+R. Aaij31 , C. Abellán Beteta49 , T. Ackernley59 , B. Adeva45 , M. Adinolfi53 , H. Afsharnia9 ,
+C.A. Aidala82 , S. Aiola25 , Z. Ajaltouni9 , S. Akar64 , J. Albrecht14 , F. Alessio47 , M. Alexander58 ,
+A. Alfonso Albero44 , Z. Aliouche61 , G. Alkhazov37 , P. Alvarez Cartelle47 , A.A. Alves Jr45 ,
+S. Amato2 , Y. Amhis11 , L. An21 , L. Anderlini21 , G. Andreassi48 , A. Andreianov37 ,
+M. Andreotti20 , F. Archilli16 , A. Artamonov43 , M. Artuso67 , K. Arzymatov41 , E. Aslanides10 ,
+M. Atzeni49 , B. Audurier11 , S. Bachmann16 , M. Bachmayer48 , J.J. Back55 , S. Baker60 ,
+P. Baladron Rodriguez45 , V. Balagura11,b , W. Baldini20 , J. Baptista Leite1 , R.J. Barlow61 ,
+S. Barsuk11 , W. Barter60 , M. Bartolini23,47,h , F. Baryshnikov79 , J.M. Basels13 , G. Bassi28 ,
+V. Batozskaya35 , B. Batsukh67 , A. Battig14 , A. Bay48 , M. Becker14 , F. Bedeschi28 , I. Bediaga1 ,
+A. Beiter67 , V. Belavin41 , S. Belin26 , V. Bellee48 , K. Belous43 , I. Belyaev38 , G. Bencivenni22 ,
+E. Ben-Haim12 , S. Benson31 , A. Berezhnoy39 , R. Bernet49 , D. Berninghoff16 , H.C. Bernstein67 ,
+C. Bertella47 , E. Bertholet12 , A. Bertolin27 , C. Betancourt49 , F. Betti19,e , M.O. Bettler54 ,
+Ia. Bezshyiko49 , S. Bhasin53 , J. Bhom33 , L. Bian72 , M.S. Bieker14 , S. Bifani52 , P. Billoir12 ,
+F.C.R. Bishop54 , A. Bizzeti21,t , M. Bjørn62 , M.P. Blago47 , T. Blake55 , F. Blanc48 , S. Blusk67 ,
+D. Bobulska58 , V. Bocci30 , J.A. Boelhauve14 , O. Boente Garcia45 , T. Boettcher63 ,
+A. Boldyrev80 , A. Bondar42,w , N. Bondar37,47 , S. Borghi61 , M. Borisyak41 , M. Borsato16 ,
+J.T. Borsuk33 , S.A. Bouchiba48 , T.J.V. Bowcock59 , A. Boyer47 , C. Bozzi20 , M.J. Bradley60 ,
+S. Braun65 , A. Brea Rodriguez45 , M. Brodski47 , J. Brodzicka33 , A. Brossa Gonzalo55 ,
+D. Brundu26 , E. Buchanan53 , A. Büchler-Germann49 , A. Buonaura49 , C. Burr47 , A. Bursche26 ,
+A. Butkevich40 , J.S. Butter31 , J. Buytaert47 , W. Byczynski47 , S. Cadeddu26 , H. Cai72 ,
+R. Calabrese20,g , L. Calero Diaz22 , S. Cali22 , R. Calladine52 , M. Calvi24,i , M. Calvo Gomez44,l ,
+P. Camargo Magalhaes53 , A. Camboni44 , P. Campana22 , D.H. Campora Perez31 ,
+A.F. Campoverde Quezada5 , S. Capelli24,i , L. Capriotti19,e , A. Carbone19,e , G. Carboni29 ,
+R. Cardinale23,h , A. Cardini26 , I. Carli6 , P. Carniti24,i , K. Carvalho Akiba31 , A. Casais Vidal45 ,
+G. Casse59 , M. Cattaneo47 , G. Cavallero47 , S. Celani48 , R. Cenci28 , J. Cerasoli10 ,
+A.J. Chadwick59 , M.G. Chapman53 , M. Charles12 , Ph. Charpentier47 , G. Chatzikonstantinidis52 ,
+M. Chefdeville8 , C. Chen3 , S. Chen26 , A. Chernov33 , S.-G. Chitic47 , V. Chobanova45 ,
+S. Cholak48 , M. Chrzaszcz33 , A. Chubykin37 , V. Chulikov37 , P. Ciambrone22 , M.F. Cicala55 ,
+X. Cid Vidal45 , G. Ciezarek47 , F. Cindolo19 , P.E.L. Clarke57 , M. Clemencic47 , H.V. Cliff54 ,
+J. Closier47 , J.L. Cobbledick61 , V. Coco47 , J.A.B. Coelho11 , J. Cogan10 , E. Cogneras9 ,
+L. Cojocariu36 , P. Collins47 , T. Colombo47 , A. Contu26 , N. Cooke52 , G. Coombs58 ,
+S. Coquereau44 , G. Corti47 , C.M. Costa Sobral55 , B. Couturier47 , D.C. Craik63 , J. Crkovská66 ,
+M. Cruz Torres1,y , R. Currie57 , C.L. Da Silva66 , E. Dall’Occo14 , J. Dalseno45 , C. D’Ambrosio47 ,
+A. Danilina38 , P. d’Argent47 , A. Davis61 , O. De Aguiar Francisco47 , K. De Bruyn47 ,
+S. De Capua61 , M. De Cian48 , J.M. De Miranda1 , L. De Paula2 , M. De Serio18,d ,
+D. De Simone49 , P. De Simone22 , J.A. de Vries77 , C.T. Dean66 , W. Dean82 , D. Decamp8 ,
+L. Del Buono12 , B. Delaney54 , H.-P. Dembinski14 , A. Dendek34 , V. Denysenko49 , D. Derkach80 ,
+O. Deschamps9 , F. Desse11 , F. Dettori26,f , B. Dey7 , A. Di Canto47 , P. Di Nezza22 , S. Didenko79 ,
+H. Dijkstra47 , V. Dobishuk51 , A.M. Donohoe17 , F. Dordei26 , M. Dorigo28,x , A.C. dos Reis1 ,
+L. Douglas58 , A. Dovbnya50 , A.G. Downes8 , K. Dreimanis59 , M.W. Dudek33 , L. Dufour47 ,
+P. Durante47 , J.M. Durham66 , D. Dutta61 , M. Dziewiecki16 , A. Dziurda33 , A. Dzyuba37 ,
+S. Easo56 , U. Egede69 , V. Egorychev38 , S. Eidelman42,w , S. Eisenhardt57 , S. Ek-In48 ,
+L. Eklund58 , S. Ely67 , A. Ene36 , E. Epple66 , S. Escher13 , J. Eschle49 , S. Esen31 , T. Evans47 ,
+A. Falabella19 , J. Fan3 , Y. Fan5 , B. Fang72 , N. Farley52 , S. Farry59 , D. Fazzini11 , P. Fedin38 ,
+M. Féo47 , P. Fernandez Declara47 , A. Fernandez Prieto45 , F. Ferrari19,e , L. Ferreira Lopes48 ,
+F. Ferreira Rodrigues2 , S. Ferreres Sole31 , M. Ferrillo49 , M. Ferro-Luzzi47 , S. Filippov40 ,
+R.A. Fini18 , M. Fiorini20,g , M. Firlej34 , K.M. Fischer62 , C. Fitzpatrick61 , T. Fiutowski34 ,
+F. Fleuret11,b , M. Fontana47 , F. Fontanelli23,h , R. Forty47 , V. Franco Lima59 ,
+
+
+                                                  29
+M. Franco Sevilla65 , M. Frank47 , E. Franzoso20 , G. Frau16 , C. Frei47 , D.A. Friday58 , J. Fu25,p ,
+Q. Fuehring14 , W. Funk47 , E. Gabriel57 , T. Gaintseva41 , A. Gallas Torreira45 , D. Galli19,e ,
+S. Gallorini27 , S. Gambetta57 , Y. Gan3 , M. Gandelman2 , P. Gandini25 , Y. Gao4 , M. Garau26 ,
+L.M. Garcia Martin46 , P. Garcia Moreno44 , J. Garcı́a Pardiñas49 , B. Garcia Plana45 ,
+F.A. Garcia Rosales11 , L. Garrido44 , D. Gascon44 , C. Gaspar47 , R.E. Geertsema31 , D. Gerick16 ,
+E. Gersabeck61 , M. Gersabeck61 , T. Gershon55 , D. Gerstel10 , Ph. Ghez8 , V. Gibson54 ,
+A. Gioventù45 , P. Gironella Gironell44 , L. Giubega36 , C. Giugliano20,g , K. Gizdov57 ,
+V.V. Gligorov12 , C. Göbel70 , E. Golobardes44,l , D. Golubkov38 , A. Golutvin60,79 , A. Gomes1,a ,
+M. Goncerz33 , P. Gorbounov38 , I.V. Gorelov39 , C. Gotti24,i , E. Govorkova31 , J.P. Grabowski16 ,
+R. Graciani Diaz44 , T. Grammatico12 , L.A. Granado Cardoso47 , E. Graugés44 , E. Graverini48 ,
+G. Graziani21 , A. Grecu36 , L.M. Greeven31 , P. Griffith20,g , L. Grillo61 , L. Gruber47 ,
+B.R. Gruberg Cazon62 , C. Gu3 , M. Guarise20 , P. A. Günther16 , E. Gushchin40 , A. Guth13 ,
+Yu. Guz43,47 , T. Gys47 , T. Hadavizadeh69 , G. Haefeli48 , C. Haen47 , S.C. Haines54 ,
+P.M. Hamilton65 , Q. Han7 , X. Han16 , T.H. Hancock62 , S. Hansmann-Menzemer16 , N. Harnew62 ,
+T. Harrison59 , R. Hart31 , C. Hasse47 , M. Hatch47 , J. He5 , M. Hecker60 , K. Heijhoff31 ,
+K. Heinicke14 , A.M. Hennequin47 , K. Hennessy59 , L. Henry25,46 , J. Heuel13 , A. Hicheur68 ,
+D. Hill62 , M. Hilton61 , S.E. Hollitt14 , P.H. Hopchev48 , J. Hu16 , J. Hu71 , W. Hu7 , W. Huang5 ,
+W. Hulsbergen31 , T. Humair60 , R.J. Hunter55 , M. Hushchyn80 , D. Hutchcroft59 , D. Hynds31 ,
+P. Ibis14 , M. Idzik34 , D. Ilin37 , P. Ilten52 , A. Inglessi37 , K. Ivshin37 , R. Jacobsson47 ,
+S. Jakobsen47 , E. Jans31 , B.K. Jashal46 , A. Jawahery65 , V. Jevtic14 , F. Jiang3 , M. John62 ,
+D. Johnson47 , C.R. Jones54 , T.P. Jones55 , B. Jost47 , N. Jurik62 , S. Kandybei50 , Y. Kang3 ,
+M. Karacson47 , J.M. Kariuki53 , N. Kazeev80 , M. Kecke16 , F. Keizer54,47 , M. Kelsey67 ,
+M. Kenzie55 , T. Ketel32 , B. Khanji47 , A. Kharisova81 , K.E. Kim67 , T. Kirn13 , V.S. Kirsebom48 ,
+O. Kitouni63 , S. Klaver22 , K. Klimaszewski35 , S. Koliiev51 , A. Kondybayeva79 ,
+A. Konoplyannikov38 , P. Kopciewicz34 , R. Kopecna16 , P. Koppenburg31 , M. Korolev39 ,
+I. Kostiuk31,51 , O. Kot51 , S. Kotriakhova37 , P. Kravchenko37 , L. Kravchuk40 , R.D. Krawczyk47 ,
+M. Kreps55 , F. Kress60 , S. Kretzschmar13 , P. Krokovny42,w , W. Krupa34 , W. Krzemien35 ,
+W. Kucewicz33,k , M. Kucharczyk33 , V. Kudryavtsev42,w , H.S. Kuindersma31 , G.J. Kunde66 ,
+T. Kvaratskheliya38 , D. Lacarrere47 , G. Lafferty61 , A. Lai26 , A. Lampis26 , D. Lancierini49 ,
+J.J. Lane61 , R. Lane53 , G. Lanfranchi22 , C. Langenbruch13 , O. Lantwin49,79 , T. Latham55 ,
+F. Lazzari28,u , R. Le Gac10 , S.H. Lee82 , R. Lefèvre9 , A. Leflat39,47 , O. Leroy10 , T. Lesiak33 ,
+B. Leverington16 , H. Li71 , L. Li62 , P. Li16 , X. Li66 , Y. Li6 , Y. Li6 , Z. Li67 , X. Liang67 , T. Lin60 ,
+R. Lindner47 , V. Lisovskyi14 , R. Litvinov26 , G. Liu71 , H. Liu5 , S. Liu6 , X. Liu3 , A. Loi26 ,
+J. Lomba Castro45 , I. Longstaff58 , J.H. Lopes2 , G. Loustau49 , G.H. Lovell54 , Y. Lu6 ,
+D. Lucchesi27,n , S. Luchuk40 , M. Lucio Martinez31 , V. Lukashenko31 , Y. Luo3 , A. Lupato61 ,
+E. Luppi20,g , O. Lupton55 , A. Lusiani28,s , X. Lyu5 , L. Ma6 , S. Maccolini19,e , F. Machefert11 ,
+F. Maciuc36 , V. Macko48 , P. Mackowiak14 , S. Maddrell-Mander53 , L.R. Madhan Mohan53 ,
+O. Maev37 , A. Maevskiy80 , D. Maisuzenko37 , M.W. Majewski34 , S. Malde62 , B. Malecki47 ,
+A. Malinin78 , T. Maltsev42,w , H. Malygina16 , G. Manca26,f , G. Mancinelli10 ,
+R. Manera Escalero44 , D. Manuzzi19,e , D. Marangotto25,p , J. Maratas9,v , J.F. Marchand8 ,
+U. Marconi19 , S. Mariani21,21,47 , C. Marin Benito11 , M. Marinangeli48 , P. Marino48 , J. Marks16 ,
+P.J. Marshall59 , G. Martellotti30 , L. Martinazzoli47 , M. Martinelli24,i , D. Martinez Santos45 ,
+F. Martinez Vidal46 , A. Massafferri1 , M. Materok13 , R. Matev47 , A. Mathad49 , Z. Mathe47 ,
+V. Matiunin38 , C. Matteuzzi24 , K.R. Mattioli82 , A. Mauri49 , E. Maurice11,b , M. Mazurek35 ,
+M. McCann60 , L. Mcconnell17 , T.H. Mcgrath61 , A. McNab61 , R. McNulty17 , J.V. Mead59 ,
+B. Meadows64 , C. Meaux10 , G. Meier14 , N. Meinert75 , D. Melnychuk35 , S. Meloni24,i ,
+M. Merk31 , A. Merli25 , L. Meyer Garcia2 , M. Mikhasenko47 , D.A. Milanes73 , E. Millard55 ,
+M.-N. Minard8 , O. Mineev38 , L. Minzoni20,g , S.E. Mitchell57 , B. Mitreska61 , D.S. Mitzel47 ,
+A. Mödden14 , A. Mogini12 , R.A. Mohammed62 , R.D. Moise60 , T. Mombächer14 , I.A. Monroy73 ,
+S. Monteil9 , M. Morandin27 , G. Morello22 , M.J. Morello28,s , J. Moron34 , A.B. Morris10 ,
+
+
+                                                     30
+A.G. Morris55 , R. Mountain67 , H. Mu3 , F. Muheim57 , M. Mukherjee7 , M. Mulder47 ,
+D. Müller47 , K. Müller49 , C.H. Murphy62 , D. Murray61 , P. Muzzetto26 , P. Naik53 , T. Nakada48 ,
+R. Nandakumar56 , T. Nanut48 , I. Nasteva2 , M. Needham57 , I. Neri20,g , N. Neri25,p ,
+S. Neubert74 , N. Neufeld47 , R. Newcombe60 , T.D. Nguyen48 , C. Nguyen-Mau48,m , E.M. Niel11 ,
+S. Nieswand13 , N. Nikitin39 , N.S. Nolte47 , C. Nunez82 , A. Oblakowska-Mucha34 , V. Obraztsov43 ,
+S. Ogilvy58 , D.P. O’Hanlon53 , R. Oldeman26,f , C.J.G. Onderwater76 , J. D. Osborn82 ,
+A. Ossowska33 , J.M. Otalora Goicochea2 , T. Ovsiannikova38 , P. Owen49 , A. Oyanguren46 ,
+B. Pagare55 , P.R. Pais47 , T. Pajero28,47,28,s , A. Palano18 , M. Palutan22 , Y. Pan61 , G. Panshin81 ,
+A. Papanestis56 , M. Pappagallo57 , L.L. Pappalardo20,g , C. Pappenheimer64 , W. Parker65 ,
+C. Parkes61 , C.J. Parkinson45 , G. Passaleva21,47 , A. Pastore18 , M. Patel60 , C. Patrignani19,e ,
+A. Pearce47 , A. Pellegrino31 , M. Pepe Altarelli47 , S. Perazzini19 , D. Pereima38 , P. Perret9 ,
+K. Petridis53 , A. Petrolini23,h , A. Petrov78 , S. Petrucci57 , M. Petruzzo25,p , A. Philippov41 ,
+L. Pica28 , B. Pietrzyk8 , G. Pietrzyk48 , M. Pili62 , D. Pinci30 , J. Pinzino47 , F. Pisani19 ,
+A. Piucci16 , V. Placinta36 , S. Playfer57 , J. Plews52 , M. Plo Casasus45 , F. Polci12 ,
+M. Poli Lener22 , M. Poliakova67 , A. Poluektov10 , N. Polukhina79,c , I. Polyakov67 , E. Polycarpo2 ,
+G.J. Pomery53 , S. Ponce47 , A. Popov43 , D. Popov52 , S. Popov41 , S. Poslavskii43 , K. Prasanth33 ,
+L. Promberger47 , C. Prouve45 , V. Pugatch51 , A. Puig Navarro49 , H. Pullen62 , G. Punzi28,o ,
+W. Qian5 , J. Qin5 , R. Quagliani12 , B. Quintana8 , N.V. Raab17 , R.I. Rabadan Trejo10 ,
+B. Rachwal34 , J.H. Rademacker53 , M. Rama28 , M. Ramos Pernas45 , M.S. Rangel2 ,
+F. Ratnikov41,80 , G. Raven32 , M. Reboud8 , F. Redi48 , F. Reiss12 , C. Remon Alepuz46 , Z. Ren3 ,
+V. Renaudin62 , R. Ribatti28 , S. Ricciardi56 , D.S. Richards56 , S. Richards53 , K. Rinnert59 ,
+P. Robbe11 , A. Robert12 , G. Robertson57 , A.B. Rodrigues48 , E. Rodrigues59 ,
+J.A. Rodriguez Lopez73 , M. Roehrken47 , A. Rollings62 , V. Romanovskiy43 , M. Romero Lamas45 ,
+A. Romero Vidal45 , J.D. Roth82 , M. Rotondo22 , M.S. Rudolph67 , T. Ruf47 , J. Ruiz Vidal46 ,
+A. Ryzhikov80 , J. Ryzka34 , J.J. Saborido Silva45 , N. Sagidova37 , N. Sahoo55 , B. Saitta26,f ,
+C. Sanchez Gras31 , C. Sanchez Mayordomo46 , R. Santacesaria30 , C. Santamarina Rios45 ,
+M. Santimaria22 , E. Santovetti29,j , G. Sarpis61 , M. Sarpis74 , A. Sarti30 , C. Satriano30,r ,
+A. Satta29 , M. Saur5 , D. Savrina38,39 , H. Sazak9 , L.G. Scantlebury Smead62 , S. Schael13 ,
+M. Schellenberg14 , M. Schiller58 , H. Schindler47 , M. Schmelling15 , T. Schmelzer14 , B. Schmidt47 ,
+O. Schneider48 , A. Schopper47 , H.F. Schreiner64 , M. Schubiger31 , S. Schulte48 , M.H. Schune11 ,
+R. Schwemmer47 , B. Sciascia22 , A. Sciubba22 , S. Sellam68 , A. Semennikov38 , A. Sergi52,47 ,
+N. Serra49 , J. Serrano10 , L. Sestini27 , A. Seuthe14 , P. Seyfert47 , D.M. Shangase82 , M. Shapkin43 ,
+L. Shchutska48 , T. Shears59 , L. Shekhtman42,w , V. Shevchenko78 , E.B. Shields24,i , E. Shmanin79 ,
+J.D. Shupperd67 , B.G. Siddi20 , R. Silva Coutinho49 , L. Silva de Oliveira2 , G. Simi27,n ,
+S. Simone18,d , I. Skiba20,g , N. Skidmore74 , T. Skwarnicki67 , M.W. Slater52 , J.C. Smallwood62 ,
+J.G. Smeaton54 , A. Smetkina38 , E. Smith13 , I.T. Smith57 , M. Smith60 , A. Snoch31 , M. Soares19 ,
+L. Soares Lavra9 , M.D. Sokoloff64 , F.J.P. Soler58 , A. Solovev37 , I. Solovyev37 ,
+F.L. Souza De Almeida2 , B. Souza De Paula2 , B. Spaan14 , E. Spadaro Norella25,p , P. Spradlin58 ,
+F. Stagni47 , M. Stahl64 , S. Stahl47 , P. Stefko48 , O. Steinkamp49,79 , S. Stemmle16 , O. Stenyakin43 ,
+M. Stepanova37 , H. Stevens14 , S. Stone67 , S. Stracka28 , M.E. Stramaglia48 , M. Straticiuc36 ,
+D. Strekalina79 , S. Strokov81 , F. Suljik62 , J. Sun26 , L. Sun72 , Y. Sun65 , P. Svihra61 ,
+P.N. Swallow52 , K. Swientek34 , A. Szabelski35 , T. Szumlak34 , M. Szymanski47 , S. Taneja61 ,
+Z. Tang3 , T. Tekampe14 , F. Teubert47 , E. Thomas47 , K.A. Thomson59 , M.J. Tilley60 ,
+V. Tisserand9 , S. T’Jampens8 , M. Tobin6 , S. Tolk47 , L. Tomassetti20,g , D. Torres Machado1 ,
+D.Y. Tou12 , E. Tournefier8 , M. Traill58 , M.T. Tran48 , E. Trifonova79 , C. Trippl48 ,
+A. Tsaregorodtsev10 , G. Tuci28,o , A. Tully48 , N. Tuning31 , A. Ukleja35 , D.J. Unverzagt16 ,
+A. Usachov31 , A. Ustyuzhanin41,80 , U. Uwer16 , A. Vagner81 , V. Vagnoni19 , A. Valassi47 ,
+G. Valenti19 , M. van Beuzekom31 , H. Van Hecke66 , E. van Herwijnen79 , C.B. Van Hulse17 ,
+M. van Veghel76 , R. Vazquez Gomez45 , P. Vazquez Regueiro45 , C. Vázquez Sierra31 , S. Vecchi20 ,
+J.J. Velthuis53 , M. Veltri21,q , A. Venkateswaran67 , M. Veronesi31 , M. Vesterinen55 ,
+
+
+                                                   31
+J.V. Viana Barbosa47 , D. Vieira64 , M. Vieites Diaz48 , H. Viemann75 , X. Vilasis-Cardona44 ,
+E. Vilella Figueras59 , P. Vincent12 , G. Vitali28 , A. Vitkovskiy31 , A. Vollhardt49 ,
+D. Vom Bruch12 , A. Vorobyev37 , V. Vorobyev42,w , N. Voropaev37 , R. Waldi75 , J. Walsh28 ,
+J. Wang3 , J. Wang72 , J. Wang4 , J. Wang6 , M. Wang3 , R. Wang53 , Y. Wang7 , Z. Wang49 ,
+D.R. Ward54 , H.M. Wark59 , N.K. Watson52 , S.G. Weber12 , D. Websdale60 , A. Weiden49 ,
+C. Weisser63 , B.D.C. Westhenry53 , D.J. White61 , M. Whitehead53 , D. Wiedner14 ,
+G. Wilkinson62 , M. Wilkinson67 , I. Williams54 , M. Williams63,69 , M.R.J. Williams61 ,
+F.F. Wilson56 , W. Wislicki35 , M. Witek33 , L. Witola16 , G. Wormser11 , S.A. Wotton54 , H. Wu67 ,
+K. Wyllie47 , Z. Xiang5 , D. Xiao7 , Y. Xie7 , H. Xing71 , A. Xu4 , J. Xu5 , L. Xu3 , M. Xu7 , Q. Xu5 ,
+Z. Xu4 , D. Yang3 , Y. Yang5 , Z. Yang3 , Z. Yang65 , Y. Yao67 , L.E. Yeomans59 , H. Yin7 , J. Yu7 ,
+X. Yuan67 , O. Yushchenko43 , K.A. Zarebski52 , M. Zavertyaev15,c , M. Zdybal33 , O. Zenaiev47 ,
+M. Zeng3 , D. Zhang7 , L. Zhang3 , S. Zhang4 , Y. Zhang47 , A. Zhelezov16 , Y. Zheng5 , X. Zhou5 ,
+Y. Zhou5 , X. Zhu3 , V. Zhukov13,39 , J.B. Zonneveld57 , S. Zucchelli19,e , D. Zuliani27 , G. Zunica61 .
+1
+  Centro Brasileiro de Pesquisas Fı́sicas (CBPF), Rio de Janeiro, Brazil
+2
+  Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil
+3
+  Center for High Energy Physics, Tsinghua University, Beijing, China
+4
+  School of Physics State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing,
+China
+5
+  University of Chinese Academy of Sciences, Beijing, China
+6
+  Institute Of High Energy Physics (IHEP), Beijing, China
+7
+  Institute of Particle Physics, Central China Normal University, Wuhan, Hubei, China
+8
+  Univ. Grenoble Alpes, Univ. Savoie Mont Blanc, CNRS, IN2P3-LAPP, Annecy, France
+9
+  Université Clermont Auvergne, CNRS/IN2P3, LPC, Clermont-Ferrand, France
+10
+   Aix Marseille Univ, CNRS/IN2P3, CPPM, Marseille, France
+11
+   Université Paris-Saclay, CNRS/IN2P3, IJCLab, Orsay, France
+12
+   LPNHE, Sorbonne Université, Paris Diderot Sorbonne Paris Cité, CNRS/IN2P3, Paris, France
+13
+   I. Physikalisches Institut, RWTH Aachen University, Aachen, Germany
+14
+   Fakultät Physik, Technische Universität Dortmund, Dortmund, Germany
+15
+   Max-Planck-Institut für Kernphysik (MPIK), Heidelberg, Germany
+16
+   Physikalisches Institut, Ruprecht-Karls-Universität Heidelberg, Heidelberg, Germany
+17
+   School of Physics, University College Dublin, Dublin, Ireland
+18
+   INFN Sezione di Bari, Bari, Italy
+19
+   INFN Sezione di Bologna, Bologna, Italy
+20
+   INFN Sezione di Ferrara, Ferrara, Italy
+21
+   INFN Sezione di Firenze, Firenze, Italy
+22
+   INFN Laboratori Nazionali di Frascati, Frascati, Italy
+23
+   INFN Sezione di Genova, Genova, Italy
+24
+   INFN Sezione di Milano-Bicocca, Milano, Italy
+25
+   INFN Sezione di Milano, Milano, Italy
+26
+   INFN Sezione di Cagliari, Monserrato, Italy
+27
+   INFN Sezione di Padova, Padova, Italy
+28
+   INFN Sezione di Pisa, Pisa, Italy
+29
+   INFN Sezione di Roma Tor Vergata, Roma, Italy
+30
+   INFN Sezione di Roma La Sapienza, Roma, Italy
+31
+   Nikhef National Institute for Subatomic Physics, Amsterdam, Netherlands
+32
+   Nikhef National Institute for Subatomic Physics and VU University Amsterdam, Amsterdam,
+Netherlands
+33
+   Henryk Niewodniczanski Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland
+34
+   AGH - University of Science and Technology, Faculty of Physics and Applied Computer Science,
+Kraków, Poland
+35
+   National Center for Nuclear Research (NCBJ), Warsaw, Poland
+36
+   Horia Hulubei National Institute of Physics and Nuclear Engineering, Bucharest-Magurele, Romania
+37
+   Petersburg Nuclear Physics Institute NRC Kurchatov Institute (PNPI NRC KI), Gatchina, Russia
+38
+   Institute of Theoretical and Experimental Physics NRC Kurchatov Institute (ITEP NRC KI), Moscow,
+
+
+                                                  32
+Russia, Moscow, Russia
+39
+   Institute of Nuclear Physics, Moscow State University (SINP MSU), Moscow, Russia
+40
+   Institute for Nuclear Research of the Russian Academy of Sciences (INR RAS), Moscow, Russia
+41
+   Yandex School of Data Analysis, Moscow, Russia
+42
+   Budker Institute of Nuclear Physics (SB RAS), Novosibirsk, Russia
+43
+   Institute for High Energy Physics NRC Kurchatov Institute (IHEP NRC KI), Protvino, Russia,
+Protvino, Russia
+44
+   ICCUB, Universitat de Barcelona, Barcelona, Spain
+45
+   Instituto Galego de Fı́sica de Altas Enerxı́as (IGFAE), Universidade de Santiago de Compostela,
+Santiago de Compostela, Spain
+46
+   Instituto de Fisica Corpuscular, Centro Mixto Universidad de Valencia - CSIC, Valencia, Spain
+47
+   European Organization for Nuclear Research (CERN), Geneva, Switzerland
+48
+   Institute of Physics, Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland
+49
+   Physik-Institut, Universität Zürich, Zürich, Switzerland
+50
+   NSC Kharkiv Institute of Physics and Technology (NSC KIPT), Kharkiv, Ukraine
+51
+   Institute for Nuclear Research of the National Academy of Sciences (KINR), Kyiv, Ukraine
+52
+   University of Birmingham, Birmingham, United Kingdom
+53
+   H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom
+54
+   Cavendish Laboratory, University of Cambridge, Cambridge, United Kingdom
+55
+   Department of Physics, University of Warwick, Coventry, United Kingdom
+56
+   STFC Rutherford Appleton Laboratory, Didcot, United Kingdom
+57
+   School of Physics and Astronomy, University of Edinburgh, Edinburgh, United Kingdom
+58
+   School of Physics and Astronomy, University of Glasgow, Glasgow, United Kingdom
+59
+   Oliver Lodge Laboratory, University of Liverpool, Liverpool, United Kingdom
+60
+   Imperial College London, London, United Kingdom
+61
+   Department of Physics and Astronomy, University of Manchester, Manchester, United Kingdom
+62
+   Department of Physics, University of Oxford, Oxford, United Kingdom
+63
+   Massachusetts Institute of Technology, Cambridge, MA, United States
+64
+   University of Cincinnati, Cincinnati, OH, United States
+65
+   University of Maryland, College Park, MD, United States
+66
+   Los Alamos National Laboratory (LANL), Los Alamos, United States
+67
+   Syracuse University, Syracuse, NY, United States
+68
+   Laboratory of Mathematical and Subatomic Physics , Constantine, Algeria, associated to 2
+69
+   School of Physics and Astronomy, Monash University, Melbourne, Australia, associated to 55
+70
+   Pontifı́cia Universidade Católica do Rio de Janeiro (PUC-Rio), Rio de Janeiro, Brazil, associated to 2
+71
+   Guangdong Provencial Key Laboratory of Nuclear Science, Institute of Quantum Matter, South China
+Normal University, Guangzhou, China, associated to 3
+72
+   School of Physics and Technology, Wuhan University, Wuhan, China, associated to 3
+73
+   Departamento de Fisica , Universidad Nacional de Colombia, Bogota, Colombia, associated to 12
+74
+   Universität Bonn - Helmholtz-Institut für Strahlen und Kernphysik, Bonn, Germany, associated to 16
+75
+   Institut für Physik, Universität Rostock, Rostock, Germany, associated to 16
+76
+   Van Swinderen Institute, University of Groningen, Groningen, Netherlands, associated to 31
+77
+   Universiteit Maastricht, Maastricht, Netherlands, associated to 31
+78
+   National Research Centre Kurchatov Institute, Moscow, Russia, associated to 38
+79
+   National University of Science and Technology “MISIS”, Moscow, Russia, associated to 38
+80
+   National Research University Higher School of Economics, Moscow, Russia, associated to 41
+81
+   National Research Tomsk Polytechnic University, Tomsk, Russia, associated to 38
+82
+   University of Michigan, Ann Arbor, United States, associated to 67
+a
+  Universidade Federal do Triângulo Mineiro (UFTM), Uberaba-MG, Brazil
+b
+  Laboratoire Leprince-Ringuet, Palaiseau, France
+c
+  P.N. Lebedev Physical Institute, Russian Academy of Science (LPI RAS), Moscow, Russia
+d
+  Università di Bari, Bari, Italy
+e
+  Università di Bologna, Bologna, Italy
+f
+  Università di Cagliari, Cagliari, Italy
+g
+  Università di Ferrara, Ferrara, Italy
+h
+  Università di Genova, Genova, Italy
+
+
+                                                   33
+i
+  Università di Milano Bicocca, Milano, Italy
+j
+  Università di Roma Tor Vergata, Roma, Italy
+k
+  AGH - University of Science and Technology, Faculty of Computer Science, Electronics and
+Telecommunications, Kraków, Poland
+l
+  DS4DS, La Salle, Universitat Ramon Llull, Barcelona, Spain
+m
+   Hanoi University of Science, Hanoi, Vietnam
+n
+  Università di Padova, Padova, Italy
+o
+  Università di Pisa, Pisa, Italy
+p
+  Università degli Studi di Milano, Milano, Italy
+q
+  Università di Urbino, Urbino, Italy
+r
+  Università della Basilicata, Potenza, Italy
+s
+  Scuola Normale Superiore, Pisa, Italy
+t
+  Università di Modena e Reggio Emilia, Modena, Italy
+u
+  Università di Siena, Siena, Italy
+v
+  MSU - Iligan Institute of Technology (MSU-IIT), Iligan, Philippines
+w
+  Novosibirsk State University, Novosibirsk, Russia
+x
+  INFN Sezione di Trieste, Trieste, Italy
+y
+  Universidad Nacional Autonoma de Honduras, Tegucigalpa, Honduras
+
+
+
+
+                                                34
+

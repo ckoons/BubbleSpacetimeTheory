@@ -1,0 +1,443 @@
+                                                   Spontaneous Dimensional Reduction
+                                                   in Short-Distance Quantum Gravity?
+                                                                                 Steven Carlip
+                                                                               Physics Department
+
+
+
+
+arXiv:0909.3329v1 [gr-qc] 17 Sep 2009
+                                                                          University of California at Davis
+                                                                              Davis, CA 95616, USA
+
+                                          Abstract. Several lines of evidence suggest that quantum gravity at very short distances may
+                                          behave effectively as a two-dimensional theory. I summarize these hints, and offer an additional
+                                          argument based on the strong-coupling limit of the Wheeler-DeWitt equation. The resulting scenario
+                                          suggests a novel approach to quantum gravity at the Planck scale.
+                                          Keywords: quantum gravity, Planck scale, dimensional reduction
+                                          PACS: 04.60.-m,04.60.Ds,04.60.Kz,04.60.Nc,02.40.Vh
+
+
+                                           At large scales, spacetime behaves as a smooth four-dimensional manifold. At the
+                                        Planck scale, on the other hand, the appropriate description is not so clear: we have
+                                        neither observational evidence nor an established theoretical framework, and it is not
+                                        even obvious that “space” and “time” are proper categories.
+                                           But while a complete quantum theory of gravity remains distant, we have a number of
+                                        fragments that may offer hints. When these fragments fit together—when a fundamental
+                                        feature of spacetime appears robustly across different approaches to quantum gravity—
+                                        we should consider the possibility that our models are telling us something real about
+                                        Nature. The thermodynamic behavior of black holes, for example, occurs so consistently,
+                                        across so many different approaches, that it is reasonable to expect quantum gravity to
+                                        provide a statistical mechanical explanation.
+                                           Over the past few years, evidence has accumulated that spacetime near the Planck
+                                        scale is effectively two-dimensional. No single indication of this behavior is in itself very
+                                        convincing, but taken together, they may point toward a promising direction for further
+                                        investigation. Here, I will summarize these hints, and provide a new piece of evidence
+                                        in the form of a strong-coupling approximation to the Wheeler-DeWitt equation.
+
+
+                                        IS SMALL-SCALE QUANTUM GRAVITY TWO-DIMENSIONAL?
+                                        Evidence for “spontaneous dimensional reduction” at short distances comes from a
+                                        variety of different approaches to quantum gravity. Among these are the following:
+
+                                        Causal Dynamical Triangulations
+                                           The “causal dynamical triangulation” program [1, 2, 3] is a discrete approximation
+                                        to the gravitational path integral, in which the spacetimes contributing to the sum over
+                                        histories are approximated by locally flat simplicial manifolds. The idea of a simplicial
+
+                                        Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?         November 18, 2018         1
+                                                                 Source: R. Kommu, U.C. Davis
+
+         FIGURE 1. A contribution to the path integral in causal dynamical triangulations
+
+
+
+approximation dates back to Regge’s work in the 1960s [4], and the suggestion of using
+Monte Carlo calculations was made as early as 1981 [5]. Until fairly recently, though,
+such efforts failed, yielding only a “crumpled” phase with a very high Hausdorff dimen-
+sion and a two-dimensional “branched polymer” phase [6]. The crucial new ingredient
+introduced by Ambjørn et al. is a definite causal structure, in the form of a fixed time-
+slicing. The resulting path integral appears to lead to four-dimensional spacetimes, with
+contributions of the form shown in figure 1 [7]; moreover, the computed cosmological
+scale factor has the correct semiclassical behavior [3, 8].
+   A key question for any such discrete approach is whether it genuinely reproduces the
+four-dimensional structure we observe at large distances. This is a subtle issue, requiring
+a definition of dimension for a discrete structure that may be very non-manifold-like at
+short distances. One natural choice is the spectral dimension [9], the dimension as seen
+by a diffusion process or a random walker.
+   Diffusion from an initial position x to a final position x′ in time s may be described by
+a heat kernel K(x, x′ , s), satisfying
+
+                ∂
+                         
+                   − ∆x K(x, x′ ; s) = 0,       with K(x, x′ , 0) = δ (x − x′ ).         (1)
+                ∂s
+On a manifold of dimension dS , the heat kernel generically behaves as
+
+                      K(x, x′ ; s) ∼ (4π s)−dS/2 e−σ (x,x )/2s (1 + O(s))
+                                                         ′
+                                                                                                 (2)
+
+for small s, where σ (x, x′ ) is Synge’s “world function” [10], one-half of the geodesic
+distance between x and x′ . In particular, the return probability K(x, x, s) is
+
+                                   K(x, x; s) ∼ (4π s)−dS /2 .                                   (3)
+
+For any space on which a diffusion process can be defined, we can then use equation (3)
+to define an effective dimension dS , the spectral dimension.
+
+Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?         November 18, 2018    2
+   For the causal dynamical triangulation program, the spectral dimension is measured,
+to within numerical accuracy, to be dS = 4 at large distances [3, 9]. This is a promising
+sign, indicating the recovery of four-dimensional behavior. At short distances, though,
+the spectral dimension falls to two. A similar behavior occurs in (2+1)-dimensional
+gravity [7]. This is our first indication of dimensional reduction at short distances.
+   Now, the spectral dimension is not the unique generalization of dimension, and one
+may worry about reading too much significance into this result. Note, though, that the
+propagator for a scalar field may be obtained as a Laplace transform of the heat kernel.
+The behavior of the spectral dimension then leads to a propagator
+                          Z ∞
+                                                 σ
+                                                 −2
+                     ′                  ′                 at large distances
+              G(x, x ) ∼       ds K(x, x ; s) ∼                                        (4)
+                            0                    ln σ     at small distances.
+
+The logarithmic short-distance behavior is characteristic of a two-dimensional field
+theory, and strongly suggests that if one probes short distances with quantum fields, one
+will measure an effective dimension of two.
+
+Renormalization Group Analysis
+   General relativity is, of course, nonrenormalizable. Nevertheless, a renormalization
+group analysis may give us useful information about quantum gravity. In particular,
+Weinberg has suggested that the theory may be “asymptotically safe” [11].
+   Consider the full effective action for metric gravity, containing an infinite number of
+higher-derivative terms with an infinite number of coupling constants. Under the renor-
+malization group flow, some of these constants may blow up, indicating that the effective
+action description has broken down and new physics is needed. It could be, however, that
+the coupling constants remain finite and flow to an ultraviolet fixed point. In that case,
+the theory would continue to make sense down to arbitrarily short distances. If, in addi-
+tion, the critical surface—the space of such UV fixed points—were finite dimensional,
+the coupling constants would be determined by a finite number of parameters: not quite
+renormalizability, but almost as good.
+   We do not yet know whether quantum general relativity exhibits such behavior. But
+renormalization group flows of a variety of truncated actions offer evidence of a UV
+fixed point [12, 13, 14]. For the present investigation, the key feature of these results
+is that operators obtain large anomalous dimensions at the fixed point—precisely the
+dimensions that characterize a two-dimensional field theory [12]. Moreover, a computa-
+tion of the spectral dimension near the putative fixed point again yields dS = 2 [15].
+   There is, in fact, a fairly general argument that if quantum gravity is asymptotically
+safe, it must behave like a two-dimensional theory at the UV fixed point [14]. Consider
+the dimensionless coupling constant gN (µ ) = GN µ d−2 , where GN is Newton’s constant.
+Under renormalization group flow,
+
+                                 ∂ gN
+                             µ        = [d − 2 + ηN (gN , . . .)]gN ,                       (5)
+                                 ∂µ
+where the anomalous dimension ηN depends on both gN and any other dimensionless
+
+
+Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?    November 18, 2018    3
+coupling constants in the theory. For a non-Gaussian fixed point g∗N to occur,1 the right-
+hand side of (5) must vanish, that is, ηN (g∗N , . . .) = 2 − d.
+   But the propagator of a field with anomalous dimension ηN has a momentum de-
+pendence of the form (p2 )−1+ηN /2 . For ηN = 2 − d, this is p−d , and the corresponding
+position space propagator depends logarithmically on distance. Such behavior is, again,
+the characteristic of a two-dimensional field. While the argument I have given applies
+to the graviton propagator, a generalization to arbitrary fields is straightforward [14].
+
+Loop quantum gravity
+   Our next indication of short-distance dimensional reduction comes from the area
+spectrum pof loop quantum gravity [16]. This spectrum is labeled       by half-integers j:
+       2                                                            √
+A j ∼ ℓ p j( j + 1), where ℓ p is the Planck length. Defining ℓ j = jℓ p , we can rewrite
+the spectrum as
+                                             2
+                                              ℓj      for large areas
+                        q
+                   A j ∼ ℓ2j (ℓ2j + ℓ2p ) ∼                                            (6)
+                                             ℓ pℓ j   for small areas.
+
+Like the propagator (4), this spectrum undergoes a change in scaling at small distances.
+Modesto argues that this behavior determines the scaling of an effective metric, and
+uses the this scaling to compute a spectral dimension. The result is again an effective
+dimension that decreases from four at large scales to two at small scales.
+
+High temperature strings
+  Yet another piece of evidence comes from the high temperature behavior of string
+theory. In 1988, Atick and Witten showed that at temperatures far above the Hagedorn
+temperature, string theory has a very peculiar thermodynamic behavior [17]: the free
+energy in a volume V varies with temperature as
+
+                                            F/V T ∼ T.                                     (7)
+
+For a field theory in d dimensions, in contrast, F/V T ∼ T d−1 . Thus, although string
+theory lives in 10 or 26 dimensions, at high temperatures it behaves in some ways as if
+spacetime were two-dimensional.
+
+Anisotropic scaling models
+   As a final indication of spontaneous dimensional reduction, we can consider “Hořava-
+Lifshitz gravity” [18], a set of new models of gravity that exhibit anisotropic scaling,
+that is, invariance under rescalings x → bx, t → b3t. Such a scaling property clearly
+breaks Lorentz invariance (which may, however, be restored at low energies). In fact,
+this symmetry breaking is the key to renormalizability: the field equations may contain
+many spatial derivatives, giving high inverse powers of spatial momentum to tame loop
+integrals, while keeping only second time derivatives, thus avoiding ghosts.
+
+1 “Non-Gaussian” simply means “not free field,” i.e., 0 < g∗ < ∞.
+                                                          N
+
+
+Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?   November 18, 2018    4
+  Hořava has calculated the spectral dimension in such models [19], and finds that
+dS = 2 at high energies. In one sense, this is a cautionary tale: the “two-dimensional”
+behavior arises from the fact that the propagators contain higher inverse powers of
+momentum,     and the logarithmic dependence on distance comes from integrals of the
+form d 4 p/p4 rather than from any intrinsic two-dimensional structure. The lesson, I
+      R
+
+believe, is that “dimension” is not such an obvious quantity in quantum gravity, but may
+have different meanings depending on how one probes the physics. In particular, despite
+the four-dimensional origin of the spectral dimension in these models, the results imply
+that quantum fields will behave “two-dimensionally” at short distances.
+
+
+              THE STRONG-COUPLING APPROXIMATION
+Suppose the hints of the preceding section are really telling us something deep about
+short-distance quantum gravity. A number of obvious questions arise. Most strikingly,
+we may ask, “Which two dimensions?” How can a theory with a four-dimensional
+Lorentz symmetry pick out two “preferred” directions at small scales? To address this
+question, let us consider one more approach to physics at the Planck scale: the strong-
+coupling approximation of the Wheeler-DeWitt equation.
+  As early as 1976, Isham [20] noted that the Wheeler-DeWitt equation [21]
+                   (                                            )
+                                    δ      δ      1     √
+                     16π ℓ2pGi jkl             −          g (3)R Ψ[g] = 0           (8)
+                                   δ gi j δ gkl 16π ℓ2p
+
+has an interesting strong-coupling limit ℓ p → ∞. In this limit, the Wheeler-DeWitt
+equation becomes ultralocal: spatial derivatives appear only in the scalar curvature term,
+and when this term drops out, points effectively decouple. As Pilati first observed [22],
+this limit probes spacetime near or below the Planck scale; Maeda and Sakamoto have
+expounded this argument in more detail [23].
+   The ℓ p = ∞ limit of the Wheeler-DeWitt equation was studied extensively in the
+1980s [24, 25, 26, 27, 28] and a perturbative treatment of the scalar curvature term
+has been discussed by several authors [29, 30, 31]. The key features are already evident
+in the classical version. The strong-coupling approximation can also be viewed as a
+small c approximation; as ℓ p becomes large, light cones contract to timelike lines, and
+neighboring points decouple [32]. The classical solution at each point is a Kasner space,
+
+               ds2 = dt 2 − t 2p1 dx2 − t 2p2 dy2 − t 2p3 dz2                                 (9)
+                     (− 31 < p1 < 0 < p2 < p3 ,    p1 + p2 + p3 = 1 = p21 + p22 + p23 ).
+
+More precisely—see, for example, [33]—the general solution is an arbitrary GL(3)
+transformation of a Kasner metric: in effect, a Kasner space with arbitrary, not necessary
+orthogonal, axes.
+   For large but finite ℓ p , the classical solution exhibits BKL behavior [34, 35]. At
+each point, the metric spends most of its time in a nearly Kasner form. But the scalar
+curvature can grow abruptly, making the curvature term in (8) important and leading
+to a Mixmaster-like “bounce” [36] to a new Kasner solution with different axes and
+
+Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?      November 18, 2018    5
+exponents. Neighboring points are no longer completely decoupled, but the Mixmaster
+bounces are chaotic [37]; the geometries at nearby points quickly become uncorrelated,
+with Kasner exponents occurring randomly with a known probability distribution [38].
+   We can now return to the problem of dimensional reduction. Consider a timelike
+geodesic in Kasner space, starting at t = t0 with a randomly chosen initial velocity. It
+is not hard to show that in the direction of decreasing t, the proper distance along the
+geodesic in the direction of each of the Kasner axes asymptotes to
+
+                                              sx ∼ t p1
+                                              sy ∼ 0                                              (10)
+                                              sz ∼ 0.
+
+The geodesic effectively explores only one spatial dimension. In the direction of increas-
+ing t, a similar, though less dramatic, phenomenon occurs:
+
+                                       sx ∼ t
+                                       sy ∼ t max(p2 ,1+p1 −p2 )                                  (11)
+                                       sz ∼ t p3 .
+
+Since max(p2 , 1 + p1 − p2 ) and p3 are both less than one, a random geodesic again
+preferentially sees one dimension of space.
+   One might expect this behavior to be reflected in the heat kernel and the spectral
+dimension. The exact form of heat kernel for Kasner space is not known, but Futamase
+[39] and Berkin [40] have looked at different approximations. Both find behavior of the
+form
+                                           1 h       a          i
+                            K(x, x; s) ∼        1 +    s + . . .  .                    (12)
+                                         4π s 2     t2
+For a fixed time t, one can always find s small enough that the first term in (12)
+dominates: the heat kernel is a classical object, and the underlying classical spacetime is
+still four-dimensional. For a fixed return time s, on the other hand, one can always find
+a time t small enough that the second term dominates, leading to an effective spectral
+dimension of two.2 The idea that the “effective infrared dimension” might differ from
+four goes back to work by Hu and O’Connor [41], but the relevance to short-distance
+quantum gravity was not fully appreciated at that time.
+   One can also investigate this issue by using the Seeley-DeWitt expansion of the heat
+kernel [42, 43, 44],
+                                        1
+                                              [a0 ] + [a1 ]s + [a2]s2 + . . . .
+                                                                             
+                        K(x, x, s) ∼                                                              (13)
+                                       4π s 2
+
+The “Hamidew coefficient” [a1 ] is proportional to the scalar curvature, and vanishes for
+an exact vacuum solution of the field equations. In the presence of matter, however, the
+
+2 One might worry that at smaller t, even higher powers of s dominate. But these lead to terms in the
+propagator that go as positive powers of the geodesic distance, and are irrelevant for short distance
+singularities, light cone behavior, and the like.
+
+Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?          November 18, 2018      6
+scalar curvature will typically increase as an inverse power of t as t → 0 [34]; this growth
+is slow enough to not disrupt the BKL behavior of the classical solutions near t = 0, but
+it will nevertheless give a diverging contribution to [a1 ].
+   The short-distance BKL behavior suggested by the Wheeler-DeWitt equation may
+thus offer an explanation for the dimensional reduction of quantum gravity at the Planck
+scale. The dynamics picks out an essentially random dominant spatial direction at each
+point, whose existence is reflected in the behavior of the heat kernel and the propagators.
+To probe this picture further, though, we must better understand the underlying physics.
+
+
+                            ASYMPTOTIC SILENCE?
+The BKL picture was originally developed in a very different context from the one I
+am considering here, as a study of the Universe near an initial spacelike singularity. In
+that setting, the key physical ingredient is “asymptotic silence” [35], the strong focusing
+of light by the singularity that collapses light cones and shrinks particle horizons. It is
+this behavior that decouples neighboring points and leads to the ultralocal form of the
+equations of motion.
+   The similar decoupling of neighboring points in the strongly coupled Wheeler-DeWitt
+equation suggests that a similar physical mechanism may be at work. To see whether this
+is the case will require much deeper investigation. As a first hint, though, consider the
+classical Raychaudhuri equation,
+                     dθ    1
+                        = − θ 2 − σα β σβ α + ωαβ ω αβ − Rαβ kα kβ ,                       (14)
+                     dλ    2
+for the expansion of a bundle of light rays. We do not know the quantum version of this
+relation, but if we naively treat (14) as an operator equation in the Heisenberg picture
+and take the expectation value, we see that quantum fluctuations in the expansion and
+shear always focus geodesics:
+
+                                   hθ 2 i = hθ i2 + (∆θ )2 ,                               (15)
+
+with a similar equation for σ .
+   How strong is this focusing? Roughly speaking, the expansion θ is canonically con-
+jugate to the cross-sectional area of the congruence [45]: as the trace of an extrinsic
+curvature, it is conjugate to the corresponding volume element. Keeping track of factors
+of h̄ and G, one finds an uncertainty relation
+
+                                         ∆θ̄ ∆A ∼ ℓ p ,                                    (16)
+
+where θ̄ is the expansion averaged over a Planck distance along the congruence. If, near
+the Planck scale, the area uncertainty is of order ℓ2p —as one might expect from theories
+such as loop quantum gravity in which the area spectrum is quantized—this would imply
+fluctuations of θ of order 1/ℓ p, giving strong focusing.
+   This argument is, of course, only suggestive. In particular, I have ignored the need
+to renormalize products of operators such as θ 2 , and have neglected the effects of the
+
+Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?   November 18, 2018      7
+twist and curvature terms in (14). But while the result is not yet established, it is at least
+plausible that quantum fluctuations at the Planck scale, “spacetime foam,” could lead to
+strong focusing of geodesics, and thus to short-distance asymptotic silence.
+
+
+                                      A NEW PICTURE
+If the proposals of the two preceding sections are correct—if spacetime foam strongly
+focuses geodesics at the Planck scale, leading to the BKL behavior predicted by the
+strongly coupled Wheeler-DeWitt equation—they suggest a novel picture of small-
+scale spacetime. At each point, the dynamics picks out a “preferred” spatial direction,
+leading to approximately (1+1)-dimensional local physics. The preferred directions are
+presumably determined by initial conditions, but because of the chaotic behavior of
+BKL bounces, they are quickly randomized. From point to point, these directions vary
+continuously, but oscillate rapidly [46]. Space at a fixed time is thus threaded by rapidly
+fluctuating lines, and spacetime by two-surfaces, and the leading behavior of the physics
+is described by an approximate “dimensional reduction” to these surfaces.
+   There is a danger here, of course: the process I have described breaks Lorentz invari-
+ance at the Planck scale, and even small violations at such scales can have observable
+effects at larger scales [47]. Note, though, that the symmetry violations in the present
+scenario vary rapidly and essentially stochastically in both space and time. Such “non-
+systematic” Lorentz violations are harder to study, but there is evidence that they lead to
+much weaker observational constraints [48].
+   The scenario I have presented is still very speculative, but I believe it deserves
+further investigation. One avenue might be to use results from the eikonal approximation
+[49, 50, 51]. In this approximation, developed to study very high energy scattering, a
+similar dimensional reduction takes place, with drastically disparate time scales in two
+pairs of dimensions. Although the context is very different, the technology developed
+for this approximation could prove useful for the study of Planck scale gravity.
+
+
+                                 ACKNOWLEDGMENTS
+I would like to thank Beverly Berger, David Garfinkle and Bei-Lok Hu for valuable
+advice at the beginning of this investigation. This work was supported in part by U.S.
+Department of Energy grant DE-FG02-91ER40674.
+
+
+                                        REFERENCES
+1.   J. Ambjørn, J. Jurkiewicz, and R. Loll, Phys. Rev. Lett. 85, 924 (2000). eprint hep-th/0002050.
+2.   J. Ambjørn, J. Jurkiewicz, and R. Loll, Phys. Rev. Lett. 93, 131301 (2004), eprint hep-th/0404156.
+3.   J. Ambjørn, J. Jurkiewicz, and R. Loll, Phys. Rev. D72 064014 (2005), eprint hep-th/0505154.
+4.   T. Regge, Nuovo Cimento A 19, 558 (1961).
+5.   M. Rocek and R. M. Williams, Phys. Lett. B104, 31 (1981).
+6.   R. Loll, Living Rev. Relativity 1, 13 (1998), eprint gr-qc/9805049.
+7.   R. Kommu, in preparation.
+8.   J. Ambjørn, J. Jurkiewicz, and R. Loll, Phys. Lett. B607, 205 (2005), eprint hep-th/0411152.
+
+Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?           November 18, 2018          8
+9. J. Ambjørn, J. Jurkiewicz, and R. Loll, Phys. Rev. Lett. 95, 171301 (2005), eprint hep-th/0505113.
+10. J. L. Synge, Relativity: The General Theory, North-Holland, Amsterdam, 1960.
+11. S. Weinberg, “Ultraviolet divergences in quantum theories of gravitation,” in General Relativity: An
+    Einstein Centenary Survey, edited by S. W. Hawking and W. Israel, Cambridge University Press,
+    Cambridge, 1979, pp. 790–831.
+12. M. Reuter and F. Saueressig, Phys. Rev. D65, 065016 (2002), eprint hep-th/0110054.
+13. D. F. Litim, Phys. Rev. Lett. 92, 201301 (2004), eprint hep-th/0312114.
+14. M. Niedermaier, Class. Quant. Grav. 24, R171 (2007), eprint gr-qc/0610018.
+15. O. Lauscher and M. Reuter, JHEP 0510 050 (2005), eprint hep-th/0508202.
+16. L. Modesto, “ Fractal Structure of Loop Quantum Gravity,” eprint arXiv:0812.2214 [gr-qc].
+17. J. J. Atick and E. Witten, Nucl. Phys. B310, 291 (1988).
+18. P. Hořava, Phys. Rev. D79, 084008 (2009), eprint arXiv:0901.3775 [hep-th].
+19. P. Hořava, Phys. Rev. Lett. 102, 161301 (2009), eprint arXiv:0902.3657 [hep-th].
+20. C. J. Isham, Proc. R. Soc. London A351, 209 (1976).
+21. B. S. DeWitt, Phys. Rev. 160, 1113 (1967).
+22. M. Pilati, “Strong Coupling Quantum Gravity: An Introduction,” in Quantum structure of space and
+    time, edited by M. J. Duff and C. J. Isham, Cambridge University Press, Cambridge, 1982, pp. 53–69.
+23. K. Maeda and M. Sakamoto, Phys. Rev. D54, 1500 (1996), eprint hep-th/9604150.
+24. M. Henneaux, M. Pilati, and C. Teitelboim, Phys. Lett. 110B, 123 (1982).
+25. C. Teitelboim, Phys. Rev. D25, 3159 (1982).
+26. M. Pilati, Phys. Rev. D26, 2645 (1982); Phys. Rev. D28, 729 (1983).
+27. C. Rovelli, Phys. Rev. D35, 2987 (1987).
+28. V. Husain, Class. Quant. Grav. 5, 575 (1988).
+29. G. Francisco and M. Pilati, Phys. Rev. D31, 241 (1985).
+30. D. S. Salopek, Class. Quant. Grav. 15, 1185 (1998), eprint gr-qc/9802025.
+31. A. A. Kirillov, Int. J. Mod. Phys D3, 431 (1994).
+32. M. Henneaux, Bull. Math. Soc. Belg. 31, 47 (1979).
+33. A. Helfer et al., Gen. Rel. Grav. 20, 875 (1988).
+34. V. A. Belinskii, I. M. Khalatnikov, and E. M. Lifshitz, Adv. Phys. 19, 525 (1970); Adv. Phys. 31, 639
+    (1982).
+35. J. M. Heinzle, C. Uggla, and N. Röhr, Adv. Theor. Math. Phys. 13, 293 (2009), eprint gr-qc/0702141.
+36. C. W. Misner, Phys. Rev. Lett. 22, 1071 (1969).
+37. D. F. Chernoff and J. D. Barrow, Phys. Rev. Lett. 50, 134 (1983).
+38. A. A. Kirillov and G. Montani, Phys. Rev. D56, 6225 (1997).
+39. T. Futamase, Phys. Rev. D29, 2783 (1984).
+40. A. L. Berkin, Phys. Rev. D46, 1551 (1992).
+41. B. L. Hu and D. J. O’Connor, Phys. Rev. D34, 2535 (1986).
+42. B. S. DeWitt, “ Dynamical theory of groups and fields,” in Relativity, Groups and Topology, edited
+    by C. DeWitt and B. DeWitt, Gordon and Breach, New York, 1964, pp. 587–820.
+43. G. W. Gibbons, “Quantum field theory in curved spacetime,” in General Relativity: An Einstein
+    Centenary Survey, edited by S. W. Hawking and W. Israel, Cambridge University Press, Cambridge,
+    1979, pp. 639–79.
+44. D. V. Vassilevich, Phys. Rept. 388, 279 (2003), eprint hep-th/0306138.
+45. R. Epp, “The Symplectic Structure of General Relativity in the Double Null (2+2) Formalism,” eprint
+    gr-qc/9511060.
+46. G. Montani, Class. Quant. Grav. 12, 2505 (1990).
+47. D. Mattingly, Living Rev. Relativity 8, 5 (2005), eprint gr-qc/0502097.
+48. S. Basu and D. Mattingly, Class. Quant. Grav. 22, 3029 (2005), eprint astro-ph/0501425.
+49. G. ’t Hooft, Phys. Lett. 198B, 61 (1987).
+50. H. L. Verlinde and E. P. Verlinde, Nucl. Phys. B371, 246 (1992), eprint hep-th/9110017.
+51. D. Kabat and M. Ortiz, Nucl. Phys. B388, 570 (1992), eprint hep-th/9203082.
+
+
+
+
+Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?           November 18, 2018       9
+

@@ -1,0 +1,61 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  Pccs (4338)0                                         I (J P ) = 0( 21 − ) Status:             ∗
+         AAIJ 23Q determines that spin-parity J P = 1/2− is preferred, while
+         spin-parity J P = 1/2+ is excluded at a 90% conﬁdence level and
+         spin J = 3/2 hypotheses are discarded.
+
+                                        Pccs (4338)0 MASS
+
+VALUE (MeV)                  EVTS           DOCUMENT ID                TECN     COMMENT
+4338.2± 0.7 ± 0.4             4.4k          AAIJ                 23Q LHCB B − → J/ψ Λ p
+
+
+                                       Pccs (4338)0 WIDTH
+
+VALUE (MeV)                  EVTS           DOCUMENT ID                TECN     COMMENT
+7.0± 1.2± 1.3                 4.4k          AAIJ                 23Q LHCB B − → J/ψ Λ p
+
+
+                                Pccs (4338)0 DECAY MODES
+
+        Mode                                                    Fraction (Γi /Γ)
+
+Γ1      J/ψ Λ                                                   seen
+Γ2      Λ+
+         c Ds
+             −
+                                                                not seen
+
+
+                            Pccs (4338)0 BRANCHING RATIOS
+       
+Γ J/ψ Λ /Γtotal                                                                                        Γ1 /Γ
+VALUE                        EVTS           DOCUMENT ID                TECN     COMMENT
+seen                          4.4k          AAIJ                 23Q LHCB B − → J/ψ Λ p
+
+Γ Λ+
+   c D −
+       s /Γtotal                                                                                       Γ2 /Γ
+VALUE                                       DOCUMENT ID                TECN     COMMENT
+not seen                        1 AAIJ         25AK LHCB p p at 13 TeV
+  1 An analysis of Λ0 →        +  −
+                              Λ D K K + −   decays, AAIJ 25AK reports B(Λ0 →
+                      b        c s                                       b
+    Pccs (4338)0 K + K − , Pccs → Λ+ D − ) / B(Λ0 → Λ+ D − K + K − ) < 0.12 at
+                                    c s         b      c s
+    95% CL.
+
+
+                                  Pccs (4338)0 REFERENCES
+AAIJ           25AK PR D112 052013             R. Aaij et al.                             (LHCb Collab.)
+AAIJ           23Q PRL 131 031901              R. Aaij et al.                             (LHCb Collab.) JP
+
+
+
+
+https://pdg.lbl.gov                          Page 1                        Created: 6/1/2026 16:24
+

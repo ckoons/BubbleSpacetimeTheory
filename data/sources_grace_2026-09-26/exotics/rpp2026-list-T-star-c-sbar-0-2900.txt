@@ -1,0 +1,107 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ T ∗cs0 (2900)                                        I (J P ) = 1(0+ )
+
+OMITTED FROM SUMMARY TABLE
+        Observed by LHCb in AAIJ 23B using a simultaneous amplitude
+        analysis of B 0 → D 0 D +   − and B + → D − D + π + . The
+                                s π                    s
+        T ∗cs0 (2900)0 → D +    −        ∗
+                            s π and T cs0 (2900)
+                                                   ++ → D + π + decays
+                                                              s
+        are observed with 8.0 and 6.5 σ signiﬁcance, respectively.
+
+                                      T ∗cs0 (2900)0 MASS
+
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+2892± 14 ± 15                            1 AAIJ 23C LHCB B 0 → D 0 D + π −
+                                                                       s
+  1 From an amplitude analysis of B 0 → D 0 D + π − . A simultaneous ﬁt to B 0 →
+                                              s
+    D 0 D + π − and B − → D − D + π + assuming isospin symmetry yields a mass of
+          s                        s
+    2908 ± 11 ± 20 MeV.
+                              T ∗cs0 (2900)++ MASS
+
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+2921± 17 ± 20                            2 AAIJ23C LHCB B − → D − D + π +
+                                                                        s
+  2 From an amplitude analysis of B − → D − D + π + . A simultaneous ﬁt to B 0 →
+                                              s
+    D 0 D + π − and B − → D − D + π + assuming isospin symmetry yields a mass of
+          s                       s
+    2908 ± 11 ± 20 MeV.
+
+
+                                     T ∗cs0 (2900)0 WIDTH
+
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+
+119± 26 ± 13                             3 AAIJ 23C LHCB B 0 → D 0 D + π −
+                                                                       s
+  3 From an amplitude analysis of B 0 → D 0 D + π − . A simultaneous ﬁt to B 0 →
+                                              s
+    D 0 D + π − and B − → D − D + π + assuming isospin symmetry yields a width of
+          s                        s
+    136 ± 23 ± 13 MeV.
+                             T ∗cs0 (2900)++ WIDTH
+
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+
+137± 32 ± 17                             4 AAIJ23C LHCB B − → D − D + π +
+                                                                        s
+  4 From an amplitude analysis of B − → D − D + π + . A simultaneous ﬁt to B 0 →
+                                              s
+    D 0 D + π − and B − → D − D + π + assuming isospin symmetry yields a width of
+          s                       s
+    136 ± 23 ± 13 MeV.
+
+
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                 T ∗cs0 (2900) DECAY MODES
+
+        Mode                                                    Fraction (Γi /Γ)
+
+Γ1      D+
+         s π
+             −                                                  seen
+Γ2      D+
+         s π
+             +                                                  seen
+
+
+                            T ∗cs0 (2900) BRANCHING RATIOS
+
+Γ D+   − /Γ
+        
+   s π      total                                                                                      Γ1 /Γ
+VALUE                                       DOCUMENT ID                TECN     COMMENT
+seen                                        AAIJ                 23C LHCB B 0 → D 0 D + π −
+                                                                                      s
+
+Γ D+   + /Γ
+        
+   s π      total                                                                                      Γ2 /Γ
+VALUE                                       DOCUMENT ID                TECN     COMMENT
+seen                                        AAIJ                 23C LHCB B − → D − D + π +
+                                                                                      s
+
+
+                                  T ∗cs0 (2900) REFERENCES
+AAIJ           23B   PR D108 012017            R. Aaij et al.                             (LHCb Collab.)
+AAIJ           23C   PRL 131 041902            R. Aaij et al.                             (LHCb Collab.)
+
+
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:25
+

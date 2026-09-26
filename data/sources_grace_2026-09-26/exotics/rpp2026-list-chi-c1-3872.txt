@@ -1,0 +1,926 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  χc1 (3872)                                           I G (J PC ) = 0+ (1 + + )
+
+also known as X (3872)
+         This state shows properties diﬀerent from a conventional q q state.
+         A candidate for an exotic structure. See the review on non-q q states.
+
+         First observed by CHOI 03 in B → K π + π − J/ψ(1S) decays as a
+         narrow peak in the invariant mass distribution of the π + π − J/ψ(1S)
+         ﬁnal state. Isovector hypothesis excluded by AUBERT 05B and
+         CHOI 11.
+         AAIJ 13Q perform a full ﬁve-dimensional amplitude analysis of
+         the angular correlations between the decay products in B + →
+         χc1 (3872) K + decays, where χc1 (3872) → J/ψ π + π − and J/ψ →
+         µ+ µ− , which unambiguously gives the J PC = 1 + + assignment
+         under the assumption that the π + π − and J/ψ are in an S-wave.
+         AAIJ 15AO extend this analysis with more data to limit D-wave
+         contributions to < 4% at 95% CL.
+         See the review on “Spectroscopy of Mesons Containing Two Heavy
+         Quarks.”
+
+                                                    √
+         χc1 (3872) T-MATRIX POLE                     s relative to D 0 D ∗+ threshold
+
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+
+(0.01 ± 0.15 −+ 0.07 ± 0.07) − i (0.19 ± 0.08 + 0.14 ) OUR ESTIMATE
+                 0.08                          − 0.19
+               + 0.07
+(0.01 ± 0.15 − 0.08 ± 0.07)        1,2 ABLIKIM         24C BES3 e + e − → γ χc1 (3872)
+   − i (0.19 ± 0.08 − + 0.14 )
+                        0.19
+  1 From simultaneous line shape ﬁts of e + e − → γ χ (3872) → γ [ D 0 D 0 π 0 ] and
+                                                            c1
+    γ [ J/ψ π + π − ]. The most prominent pole is reported at 7.04 ± 0.15 −+ 0.07 MeV above
+                                                                             0.08
+    the D 0 D 0 π 0 threshold of 3864.66 MeV on the ﬁrst sheet with respect to the D ∗0 D 0
+    channel. The uncertainty in the D 0 width is included in the uncertainty of the pole mass.
+  2 The ﬁnal uncertainty on the real part of the pole location comes from the uncertainty in
+    the D − and D ∗0 meson masses.
+                                                                         √
+                              χc1 (3872) T-MATRIX POLE                     s
+                             √
+         Note that Γ = −2 Im( s).
+
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+                + 0.07                   + 0.14
+(3871.70 ± 0.15 − 0.08 ) − i(0.19 ± 0.08 − 0.19 ) OUR ESTIMATE
+                + 0.07 )
+(3871.70 ± 0.15 −                  1 ABLIKIM        24C BES3 e + e − → γ χc1 (3872)
+                   0.08
+                   + 0.14 )
+   − i(0.19 ± 0.08 − 0.19
+
+
+
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 From simultaneous line shape ﬁts of e + e − →                         γ [ D 0 D 0 π 0 ] and
+                                                                   γ χc1 (3872) →
+   γ [ J/ψ π + π − ]. The most prominent pole is reported at 7.04 ± 0.15 −+ 0.07 MeV above
+                                                                            0.08
+   the D 0 D 0 π 0 threshold of 3864.66 MeV on the ﬁrst sheet with respect to the D ∗0 D 0
+   channel. The uncertainty in the D 0 width is included in the uncertainty of the pole mass.
+
+                          χc1 (3872) MASS FROM J/ψ X MODE
+
+VALUE (MeV)                      EVTS           DOCUMENT ID               TECN      COMMENT
+3871.64 ± 0.06 OUR AVERAGE
+3870.2 ± 0.7 ± 0.3    24.6                      ABLIKIM            23W BES3 e+ e− →
+                                                                               J/ψ(1S) π + π − ω
+3871.64 ± 0.06 ± 0.01           19.8k        1 AAIJ                           +
+                                                                   20S LHCB B →
+                                                                               J/ψ π + π − K +
+3871.9    ± 0.7      ± 0.2          20          ABLIKIM                      +
+                                                                   14 BES3 e e − →
+                                                                               J/ψ π + π − γ
+3871.95 ± 0.48 ± 0.12            0.6k          AAIJ                12H LHCB p p → J/ψ π + π − X
+3871.85 ± 0.27 ± 0.19             170        2 CHOI                11 BELL B → K π + π − J/ψ
+3873    + 1.8 ± 1.3                 27       3 DEL-AMO-SA...10B BABR B → ω J/ψ K
+        − 1.6
+3871.61 ± 0.16 ± 0.19              6k      3,4 AALTONEN     09AU CDF2 p p → J/ψ π + π − X
+3871.4 ± 0.6 ± 0.1               93.4          AUBERT       08Y BABR B + →
+                                                                         K + J/ψ π + π −
+3868.7    ± 1.5      ± 0.4         9.4         AUBERT       08Y BABR B 0 →
+                                                                         K 0 J/ψ π + π −
+                                                                           S
+3871.8 ± 3.1 ± 3.0           522           3,5 ABAZOV       04F D0    p p → J/ψ π + π − X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3871.57 ± 0.09               155      6 AAIJ          23AP LHCB B 0 →
+                                                                        s
+                                                                          J/ψ 2(π + π − )
+3871.695± 0.067 ± 0.068 15.6k         7 AAIJ          20AD LHCB p p → J/ψ π + π − X
+3871.59 ± 0.06 ± 0.03       4.2k      8 AAIJ          20S LHCB B + →
+                                                                          J/ψ π + π − K +
+3873.3 ± 1.1 ± 1.0            45      9 ABLIKIM       19V BES          +
+                                                                      e e − → γ ω J/ψ
+3860.0 ± 10.4               13.6 3,10 AGHASYAN        18A COMP γ ∗ N → X π ± N ′
+3868.6 ± 1.2 ± 0.2             8    11  AUBERT        06 BABR B 0 →
+                                                                          K 0 J/ψ π + π −
+                                                                            S
+3871.3 ± 0.6 ± 0.1            61    11 AUBERT         06 BABR B − →
+                                                                          K − J/ψ π + π −
+3873.4 ± 1.4                  25    12  AUBERT        05R BABR B →      +
+                                                                          K + J/ψ π + π −
+3871.3 ± 0.7 ± 0.4           730  3,13  ACOSTA        04 CDF2 p p → J/ψ π + π − X
+3872.0 ± 0.6 ± 0.5            36    14 CHOI           03 BELL B → K π + π − J/ψ
+3836      ± 13                58  3,15  ANTONIAZZI 94 E705 300 π ± Li →
+                                                                          J/ψ π + π − X
+  1 Calculated from m
+                      χc1 (3872) − m ψ(2S) = 185.54 ± 0.06 MeV obtained by combining
+    the data with χc1 (3872) produced in B + decays from AAIJ 20S and inclusive b-hadron
+    decays from AAIJ 20AD and using m ψ(2S) = 3686.097 MeV. Breit-Wigner parametriza-
+    tion.
+  2 The mass diﬀerence for the χ (3872) produced in B + and B 0 decays is (− 0.71 ±
+                                  c1
+    0.96 ± 0.19) MeV.
+  3 Width consistent with detector resolution.
+
+
+
+https://pdg.lbl.gov                           Page 2                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  4 A possible equal mixture of two states with a mass diﬀerence greater than 3.6 MeV/c2
+    is excluded at 95% CL.
+  5 Calculated from the corresponding m
+                                         χc1 (3872) − m J/ψ using m J/ψ =3096.916 MeV.
+  6 From a ﬁt of a relativistic S-wave Breit-Wigner convolved with the detector resolution.
+    The width of χc1 (3872) is constrained to the PDG 22 value. Systematic errors not
+    evaluated.
+  7 Using χ (3872) produced in inclusive b-hadron decays and m
+            c1                                                  ψ(2S) = 3686.097 ± 0.010
+    MeV. Breit-Wigner parametrization. Superseded by the combined value in AAIJ 20S.
+  8 Using Breit-Wigner parametrization. Superseded by the combined value in AAIJ 20S.
+  9 Fit with ﬁxed width and including two resonances, χ (3915) and X (3960).
+                                                        c0
+ 10 Could be a diﬀerent state.
+ 11 Calculated from the corresponding m
+                                         χc1 (3872) − m ψ(2S) using m ψ(2S) = 3686.093
+    MeV. Superseded by AUBERT 08Y.
+ 12 Calculated from the corresponding m
+                                              χc1 (3872) − m ψ(2S) using m ψ(2S) =
+    3685.96MeV. Superseded by AUBERT 06.
+ 13 Superseded by AALTONEN 09AU.
+ 14 Superseded by CHOI 11.
+ 15 A lower mass value can be due to an incorrect momentum scale for soft pions.
+
+                        χc1 (3872) MASS FROM D ∗0 D 0 MODE
+
+VALUE (MeV)                  EVTS          DOCUMENT ID              TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+        + 0.56 ± 0.13
+3873.71 −                                1 HIRATA            23     BELL      B 0 → D 0 D ∗0 K 0 ,
+          0.50
+                                                                                 B + → D 0 D ∗0 K +
+       + 0.6 + 0.4
+3872.9 −                        50    2,3 AUSHEV             10     BELL      B → D ∗0 D 0 K
+         0.4 − 0.5
+       + 0.7 ± 0.5
+3875.1 −                  33 ± 6         3 AUBERT            08B BABR B → D ∗0 D 0 K
+         0.5
+             + 0.9
+3875.2 ± 0.7 −            24 ± 6      3,4 GOKHROO            06     BELL      B → D 0 D 0 π0 K
+               1.8
+  1 From a ﬁt of a Breit-Wigner function with energy dependent width.
+  2 Calculated from the measured m                                   + 0.6 + 0.1
+                                     χc1 (3872) −m D ∗0 −m D 0 = 1.1 − 0.4 − 0.3 MeV.
+  3 Experiments report D ∗0 D 0 invariant mass above D ∗0 D 0 threshold because D ∗0 decay
+    products are kinematically constrained to the D ∗0 mass, even though the D ∗0 may decay
+    oﬀ-shell.
+  4 Superseded by AUSHEV 10.
+
+
+                                       m χ (3872) − m J/ψ
+                                          c1
+
+VALUE (MeV)                 EVTS           DOCUMENT ID               TECN      COMMENT
+774.9± 3.1 ± 3.0             522           ABAZOV             04F D0           p p → J/ψ π + π − X
+
+                                     m χc1 (3872) − m ψ(2S)
+VALUE (MeV)                 EVTS           DOCUMENT ID              TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+185.598± 0.067 ± 0.068 15.6k      1 AAIJ           20AD LHCB p p → J/ψ π + π − X
+185.54 ± 0.06          19.8k      2 AAIJ           20S LHCB p p → J/ψ π + π − X
+187.4 ± 1.4               25      3 AUBERT         05R BABR B + → K + J/ψ π + π −
+
+
+https://pdg.lbl.gov                         Page 3                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Using χ (3872) produced in inclusive b-hadron decays. Breit-Wigner parametrization.
+           c1
+    Superseded by the combined value in AAIJ 20S.
+  2 Combining m
+                χc1 (3872) − m ψ(2S) = 185.49 ± 0.06 ± 0.03 MeV from AAIJ 20S and
+    the measured mass diﬀerence from AAIJ 20AD. Breit-Wigner parametrization.
+  3 Superseded by AUBERT 06.
+
+
+                                        χc1 (3872) WIDTH
+
+VALUE (MeV)             CL% EVTS             DOCUMENT ID             TECN      COMMENT
+  1.19± 0.21 OUR AVERAGE Error includes scale factor of 1.1.
+  1.39± 0.24 ± 0.10      15.6k     1 AAIJ          20AD LHCB p p → J/ψ π + π − X
+       + 0.19 ± 0.21
+  0.96 −                 4.2k      2 AAIJ          20S LHCB B + → J/ψ π + π − K +
+         0.18
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<2.4                 90              ABLIKIM       14 BES3 e + e − → J/ψ π + π − γ
+<1.2                 90              CHOI          11 BELL B → K π + π − J/ψ
+<3.3                 90              AUBERT        08Y BABR B + → K + J/ψ π + π −
+<4.1                 90     69       AUBERT        06 BABR B → K π + π − J/ψ
+<2.3                 90     36     3 CHOI          03 BELL B → K π + π − J/ψ
+  1 Using χ (3872) produced in inclusive b-hadron decays. Breit-Wigner parametrization.
+           c1
+  2 Using Breit-Wigner parametrization.    Partially overlapping dataset with that of
+    AAIJ 20AD.
+  3 Superseded by CHOI 11.
+
+χc1 (3872) WIDTH FROM D ∗0 D 0 MODE
+VALUE (MeV)                  EVTS           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+    + 2.2 ± 0.4
+5.2 −                                     1 HIRATA             23     BELL      B 0 → D 0 D ∗0 K 0 ,
+      1.5
+                                                                                   B + → D 0 D ∗0 K +
+    + 2.8 + 0.2
+3.9 −                           50        2 AUSHEV             10     BELL      B → D ∗0 D 0 K
+      1.4 − 1.1
+    + 1.9 ± 0.9
+3.0 −                     33 ± 6            AUBERT             08B BABR B → D ∗0 D 0 K
+      1.4
+  1 From a ﬁt of a Breit-Wigner function with energy dependent width.
+  2 With a measured value of B(B → χ (3872) K ) × B(χ (3872) → D ∗0 D 0 ) =
+                                           c1                  c1
+    (0.80 ± 0.20 ± 0.10) × 10−4 , assumed to be equal for both charged and neutral modes.
+
+                                  χc1 (3872) DECAY MODES
+
+       Mode                                                   Fraction (Γi /Γ)            Conﬁdence level
+
+Γ1     e+ e−                                                  < 2.7              × 10−7                90%
+Γ2     π+ π− π0                                               < 1.0        %                           90%
+Γ3     π + π − J/ψ(1S)                                         ( 4.3± 1.4) %
+Γ4     π + π − π 0 J/ψ(1S)                                        not seen
+Γ5     ω ηc (1S)                                              < 40               %                     90%
+Γ6     ρ(770)0 J/ψ(1S)                                           ( 3.4± 1.1) %
+Γ7     ω J/ψ(1S)                                                 ( 5.0± 1.9) %
+Γ8     φφ                                                         not seen
+
+https://pdg.lbl.gov                          Page 4                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ9     D 0 D 0 π0                                               (55 ± 28 ) %
+Γ10    D ∗0 D 0                                                 (46 ± 16 ) %
+Γ11    γγ                                                    < 13               %                     90%
+Γ12    D0 D0                                                 < 32               %                     90%
+Γ13    D+ D−                                                 < 22               %                     90%
+Γ14    π 0 χc2                                               < 5                %                     90%
+Γ15    π 0 χc1                                                  ( 3.8 + 1.9
+                                                                      − 1.7 ) %
+Γ16    π 0 χc0                                               < 16               %                     90%
+Γ17    π + π − ηc (1S)                                       < 16               %                     90%
+Γ18    π 0 π 0 χc0                                           < 7                %                     90%
+Γ19    π 0 π 0 χc1                                           < 5                %                     90%
+Γ20    π 0 π 0 χc2                                           < 2.2              %                     90%
+Γ21    π + π − χc0                                           < 2.4              %                     90%
+Γ22    π + π − χc1                                           < 8                × 10−3                90%
+Γ23    pp                                                    < 2.7              × 10−5                95%
+Γ24    π+ π− η                                               < 5                × 10−3                90%
+
+                                         Radiative decays
+Γ25    γ D+ D−                                               < 4                %                     90%
+Γ26    γ D0 D0                                               < 7                %                     90%
+Γ27    γ J/ψ                                                    (10 ± 4 ) × 10−3
+Γ28    γ χc1                                                 < 1.0              %                     90%
+Γ29    γ χc2                                                 < 4                %                     90%
+Γ30    γ ψ(2S)                                                   possibly seen
+Γ31    γ ψ2 (3823)                                           < 3.3              × 10−3                90%
+
+                                        C-violating decays
+Γ32    η J/ψ                                                 < 2.1              %                     90%
+
+
+                              χc1 (3872) PARTIAL WIDTHS
+             
+Γ e+ e−                                                                                               Γ1
+VALUE (eV)          CL%          DOCUMENT ID                TECN      COMMENT
+< 0.32          90        1 ABLIKIM         23O BES3 e + e − → π + π − J/ψ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 4.3           90        2 ABLIKIM         15V BES3 4.0–4.4 e + e − → π + π − J/ψ
+<280            90        3  YUAN           04 RVUE e + e − → π + π − J/ψ
+  1 Fit to cross section using a total width value of 1.19 ± 0.21 MeV and B(χ (3872) →
+                                                                             c1
+    π + π − J/ψ(1S)) = (3.8 ± 1.2)% from PDG 20.
+  2 ABLIKIM 15V reports this limit from the measurement of Γ(χ (3872) →
+                                                                            c1
+    π + π − J/ψ(1S)) × Γ(χc1 (3872) → e + e − )/Γ < 0.13 eV using Γ(χc1 (3872) →
+    π + π − J/ψ(1S))/Γ = 3%.
+  3 Using BAI 98E data on e + e − → π + π − ℓ+ ℓ− . Assuming that Γ(π + π − J/ψ) of
+    χc1 (3872) is the same as that of ψ(2S) (85.4 keV).
+
+
+
+https://pdg.lbl.gov                         Page 5                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                   χc1 (3872) Γ(i)Γ(e + e − )/Γ(total)
+                            
+Γ π + π − J/ψ(1S) × Γ e + e − /Γtotal                                                              Γ3 Γ1 /Γ
+VALUE (eV)         CL%              DOCUMENT ID             TECN      COMMENT
+< 7.5 × 10−3 90             1 ABLIKIM         23O BES3 e + e − → π + π − J/ψ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 0.13            90          ABLIKIM         15V BES3 4.0–4.4 e + e − → π + π − J/ψ
+< 6.2             90      2,3 AUBERT          05D BABR 10.6 e + e − →
+                                                               K + K − π+ π− γ
+< 8.3             90        3 DOBBS           05 CLE3 e e − → π + π − J/ψ
+                                                             +
+<10               90        4 YUAN            04 RVUE e + e − → π + π − J/ψ
+  1 Fit to cross section using a total width value of 1.19 ± 0.21 MeV from PDG 20.
+  2 Using B(χ (3872) → J/ψ π + π − ) · B(J/ψ → µ+ µ− ) · Γ(χ (3872) → e + e − )
+               c1                                                     c1
+    < 0.37 eV from AUBERT 05D and B(J/ψ → µ+ µ− ) = 0.0588 ± 0.0010 from the
+    PDG 04.
+  3 Assuming χ (3872) has J PC = 1 − − .
+                 c1
+  4 Using BAI 98E data on e + e − → π + π − ℓ+ ℓ− . From theoretical calculation of the
+    production cross section and using B(J/ψ → µ+ µ− ) = (5.88 ± 0.10)%.
+
+                     χc1 (3872) Γ(i)Γ(γ γ)/Γ(total)
+                         
+Γ π + π − J/ψ(1S) × Γ γ γ /Γtotal                                                                 Γ3 Γ11 /Γ
+VALUE (eV)           CL%      EVTS        DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+       + 4.1 ± 0.7
+   5.5 −                            3   1 TERAMOTO           21     BELL      e + e − → γ ∗ γ at Υ(nS)
+         3.8
+<12.9             90            2 DOBBS          05 CLE3                      e + e − → π + π − J/ψ γ
+ 1 Measured in single-tag two-photon production assuming Q 2 dependence of a c c meson
+   model. Here, Γ(χc1 (3872) → γ γ) is the reduced two-photon decay width, Γe .
+                                                                             γγ
+ 2 Assuming χ (3872) has positive C parity and spin 0.
+              c1
+                  
+Γ ω J/ψ(1S) × Γ γ γ /Γtotal                                                                       Γ7 Γ11 /Γ
+VALUE (eV)                    CL%         DOCUMENT ID               TECN       COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.7                   90        1 LEES           12AD BABR e + e − → e + e − ω J/ψ
+  1 Assuming χ (3872) has spin 2.
+              c1
+                        
+Γ π + π − ηc (1S) × Γ γ γ /Γtotal                                                               Γ17 Γ11 /Γ
+VALUE (eV)               CL%            DOCUMENT ID               TECN     COMMENT
+<11.1                    90             LEES              12AE BABR e + e − → e + e − π + π − ηc
+
+                               χc1 (3872) BRANCHING RATIOS
+             
+Γ π + π − π 0 /Γtotal                                                                                  Γ2 /Γ
+VALUE (%)                      CL%          DOCUMENT ID               TECN      COMMENT
+<1.0                    90      1,2 YIN             23 BELL B + → χc1 (3872) K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.3                    90      2,3 YIN             23 BELL B 0 → χc1 (3872) K 0
+
+https://pdg.lbl.gov                          Page 6                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 YIN 23 reports [Γ χ                 + − 0                     +                  +
+                        c1 (3872) → π π π /Γtotal ] × [B(B → χc1 (3872) K )] <
+    1.9×10−6 which we divide by our best (shown rounded) value B(B + → χc1 (3872) K + )
+    = 1.9 × 10−4 .
+  2 Assuming the decay products, π + π − π 0 , are uniformly distributed in phase space. The
+    limit is the 90% ”credible” upper limit (i.e. Bayesian).
+  3 YIN 23 reports [Γ χ (3872) → π + π − π 0 /Γ                    0                  0
+                         c1                          total ] × [B(B → χc1 (3872) K )] <
+    1.5× 10−6 which we divide by our best (shown rounded) value B(B 0 → χc1 (3872) K 0 )
+    = 1.1 × 10−4 .
+                 
+Γ π + π − J/ψ(1S) /Γtotal                                                                              Γ3 /Γ
+VALUE                      EVTS           DOCUMENT ID               TECN      COMMENT
+0.043± 0.014 OUR AVERAGE
+0.043± 0.002 ± 0.013                1 AAIJ           20S LHCB B + → J/ψ π + π − K +
+0.047± 0.005 ± 0.015                2 CHOI           11 BELL B + → π + π − J/ψ K +
+0.045± 0.009 ± 0.014       93     3,4 AUBERT         08Y BABR B → χc1 (3872) K
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+seen                      151       5 BALA           15 BELL B → χc1 (3872) K π
+0.069± 0.022 ± 0.022       30       6 AUBERT         05R BABR B + → K + π + π − J/ψ
+0.074± 0.016 ± 0.023       36       7 CHOI           03 BELL B + → K + π + π − J/ψ
+  1 AAIJ 20S reports [Γ χ (3872) →                                 
+                                c1                π + π − J/ψ(1S) /Γtotal ] × [B(B + →
+    χc1 (3872) K + )] = (7.95 ± 0.15 ± 0.33) × 10−6 which we divide by our best (shown
+    rounded) value B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is
+    their experiment’s error and our second error is the systematic error from using our best
+    (shown rounded) value.
+  2 CHOI 11 reports [Γ χ (3872) →                                 
+                                c1                π + π − J/ψ(1S) /Γtotal ] × [B(B + →
+    χc1 (3872) K + )] = (8.63 ± 0.82 ± 0.52) × 10−6 which we divide by our best (shown
+    rounded) value B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is
+    their experiment’s error and our second error is the systematic error from using our best
+    (shown rounded) value.
+  3 AUBERT 08Y reports [Γ χ (3872) → π + π − J/ψ(1S)/Γ                                + →
+                                   c1                                  total ] × [B(B
+                   +
+    χc1 (3872) K )] = (8.4 ± 1.5 ± 0.7) × 10       −6   which we divide by our best (shown
+                          +                   +
+    rounded) value B(B → χc1 (3872) K ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is
+    their experiment’s error and our second error is the systematic error from using our best
+    (shown rounded) value.
+  4 superseded by LEES 20C
+  5 BALA 15 reports B(χ (3872) → π + π − J/ψ) × B(B 0 → χ (3872) K + π − )
+                             c1                                             c1
+    = (7.9 ± 1.3 ± 0.4) × 10−6 and B(χc1 (3872) → π + π − J/ψ) × B(B + →
+    χc1 (3872) K 0 π + ) = (10.6 ± 3.0 ± 0.9) × 10−6 .
+  6 Superseded by AUBERT 08Y. AUBERT 05R reports [Γ χ (3872) → π + π − J/ψ(1S)/
+                                                              c1
+    Γtotal ] × [B(B + → χc1 (3872) K + )] = (1.28 ± 0.41) × 10−5 which we divide by our
+    best (shown rounded) value B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst
+    error is their experiment’s error and our second error is the systematic error from using
+    our best (shown rounded) value.
+  7 CHOI 03 reports [Γ χ (3872) →                                  
+                                c1                π + π − J/ψ(1S) /Γtotal ] × [B(B + →
+    χc1 (3872) K + )] / [B(B + → ψ(2S) K + )] / [B(ψ(2S) → J/ψ(1S) π + π − )] =
+    0.063 ± 0.012 ± 0.007 which we multiply or divide by our best (shown rounded)
+    values B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 , B(B + → ψ(2S) K + ) =
+    (6.25 ± 0.21) × 10−4 , B(ψ(2S) → J/ψ(1S) π + π − ) = (34.78 ± 0.33) × 10−2 . Our
+    ﬁrst error is their experiment’s error and our second error is the systematic error from
+    using our best (shown rounded) values.
+
+https://pdg.lbl.gov                          Page 7                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                     
+Γ π + π − π 0 J/ψ(1S) /Γtotal                                                                           Γ4 /Γ
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+not seen                      1 WANG        11B BELL Υ(2S) → γ X
+not seen                      2 SHEN        10A BELL Υ(1S) → γ X
+  1 WANG 11B reports B(Υ(2S) → γ χ (3872)) × B(χ       + − 0
+                                  c1             c1 → π π π J/ψ) < 2.4 ×
+    10−6 at 95% CL.
+  2 SHEN 10A reports B(Υ(1S) → γ χ (3872)) × B(χ       + − 0
+                                  c1             c1 → π π π J/ψ) < 2.8 ×
+    10−6 at 95% CL.
+           
+Γ ω ηc (1S) /Γtotal                                                                                     Γ5 /Γ
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<0.4                    90                1 VINOKUROVA 15
+                                                      BELL B + → ω ηc K +
+ 1 VINOKUROVA 15 reports [Γ χ (3872) →                      
+                                   c1              ω ηc (1S) /Γtotal ] × [B(B + →
+   χc1 (3872) K + )] < 6.9 × 10−5 which we divide by our best (shown rounded) value
+   B(B + → χc1 (3872) K + ) = 1.9 × 10−4 .
+                                   
+Γ ρ(770)0 J/ψ(1S) /Γ π + π − J/ψ(1S)                                                                   Γ6 /Γ3
+VALUE (%)                                  DOCUMENT ID                TECN      COMMENT
+78.6± 2.3±
+         ± 2.0                           1 AAIJ       23S LHCB B + → K + J/ψ π + π −
+  1 Assuming pure ρ contribution only, i.e. excluding the contribution from ρ-ω interference.
+    Using B( ρ0 → π + π − ) = 100%.
+           
+Γ ω J/ψ(1S) /Γtotal                                                                                     Γ7 /Γ
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.032± 0.012 ± 0.010    21 ± 7       1 DEL-AMO-SA...10B BABR B + → ω J/ψ K +
+  1 DEL-AMO-SANCHEZ 10B reports [Γ χ (3872) → ω J/ψ(1S)/Γ                             +
+                                            c1                           total ] × [B(B →
+                +
+    χc1 (3872) K )] = (6 ± 2 ± 1)×10   −6 which we divide by our best (shown rounded) value
+        +                   +
+    B(B → χc1 (3872) K ) = (1.9 ± 0.6)×10−4 . Our ﬁrst error is their experiment’s error
+    and our second error is the systematic error from using our best (shown rounded) value.
+    DEL-AMO-SANCHEZ 10B also reports B(B 0 → χc1 (3872) K 0 ) × B(χc1 (3872) →
+    J/ψ ω) = (6 ± 3 ± 1) × 10−6 .
+                             
+Γ ω J/ψ(1S) /Γ π + π − J/ψ(1S)                                                                         Γ7 /Γ3
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+1.16± 0.24 OUR AVERAGE Error includes scale factor of 1.2.
+1.24± 0.33 ± 0.10                 1,2 AAIJ              23S LHCB B + → K + J/ψ π + π −
+1.6 −+ 0.4 ± 0.2                    3 ABLIKIM           19V BES       e + e − → γ ω J/ψ
+       0.3
+0.8 ± 0.3                           4 DEL-AMO-SA...10B BABR B → ω J/ψ K
+  1 AAIJ 23S reports [Γ χ (3872) → ω J/ψ(1S)/Γ χ (3872) → π + π − J/ψ(1S)] ×
+                           c1                              c1
+    [B(ω(782) → π + π − )] = (1.9 ± 0.4 ± 0.3) × 10−2 which we divide by our best (shown
+    rounded) value B(ω(782) → π + π − ) = (1.53 ± 0.12) × 10−2 . Our ﬁrst error is their
+    experiment’s error and our second error is the systematic error from using our best (shown
+    rounded) value.
+  2 Excluding ρ-ω interference eﬀects.
+  3 Fit with ﬁxed width and including two resonances, χ (3915) and X (3960).
+                                                           c0
+  4 Statistical and systematic errors added in quadrature. Uses the values of B(B →
+    χc1 (3872) K ) × B(χc1 (3872) → J/ψ π + π − ) reported in AUBERT 08Y, taking into
+    account the common systematics.
+
+https://pdg.lbl.gov                          Page 8                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+    
+Γ φφ /Γtotal                                                                                            Γ8 /Γ
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+not seen                        1 AAIJ          17BB LHCB p p at 7, 8 TeV
+  1 AAIJ 17BB reports B(b → χ (3872) anything) × B(χ (3872) → φφ) < 4.5 × 10−7
+                             c1                      c1
+    at 95% CL.
+             
+Γ D 0 D 0 π 0 /Γtotal                                                                                   Γ9 /Γ
+VALUE                    CL%    EVTS          DOCUMENT ID              TECN      COMMENT
+       + 0.20 ± 0.17
+  0.55 −                             17     1 GOKHROO           06     BELL      B + → D 0 D 0 π0 K +
+         0.23
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.32                 90              2 CHISTOV        04 BELL Sup. by GOKHROO 06
+  1 GOKHROO 06 reports [Γ χ (3872) →                                
+                                     c1                 D 0 D 0 π 0 /Γtotal ] × [B(B + →
+    χc1 (3872) K + )] = (1.02 ± 0.31 −+ 0.21 ) × 10−4 which we divide by our best (shown
+                                        0.29
+    rounded) value B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is
+    their experiment’s error and our second error is the systematic error from using our best
+    (shown rounded) value.
+  2 CHISTOV 04 reports [Γ χ (3872) →                               
+                                    c1                  D 0 D 0 π 0 /Γtotal ] × [B(B + →
+    χc1 (3872) K + )] < 0.6 × 10−4 which we divide by our best (shown rounded) value
+    B(B + → χc1 (3872) K + ) = 1.9 × 10−4 .
+                                
+Γ D 0 D 0 π 0 /Γ π + π − J/ψ(1S)                                                                       Γ9 /Γ3
+VALUE                          CL%          DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.16                   90          ABLIKIM         20W BES3 e + e − → γ χc1 (3872)
+          
+Γ D ∗0 D 0 /Γtotal                                                                                     Γ10 /Γ
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+0.46± 0.16 OUR AVERAGE
+     + 0.13 ± 0.16
+0.52 −                             1,2 HIRATA         23 BELL e + e − → Υ(4S)
+       0.11
+0.42± 0.10 ± 0.13       41 +
+                           −8
+                             9       3 AUSHEV         10 BELL B + → D ∗0 D 0 K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.90± 0.32 ± 0.28      27 ± 6        4 AUBERT         08B BABR B + → D ∗0 D 0 K +
+  1 HIRATA 23 reports [Γ χ (3872) → D ∗0 D 0 /Γ                       +               +
+                            c1                         total ] × [B(B → χc1 (3872) K )]
+             + 0.21
+    = (0.97 − 0.18 ± 0.10) × 10   −4   which we divide by our best (shown rounded) value
+    B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is their experiment’s
+    error and our second error is the systematic error from using our best (shown rounded)
+    value.
+  2 Assumes equal production of B + and B 0 at the Υ(4S).
+  3 AUSHEV 10 reports [Γ χ (3872) → D ∗0 D 0 /Γ                       +               +
+                             c1                         total ] × [B(B → χc1 (3872) K )]
+    = (0.77 ± 0.16 ± 0.10) × 10    −4   which we divide by our best (shown rounded) value
+    B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is their experiment’s
+    error and our second error is the systematic error from using our best (shown rounded)
+    value.
+  4 AUBERT 08B reports [Γ χ (3872) → D ∗0 D 0 /Γ                      +               +
+                               c1                        total ] × [B(B → χc1 (3872) K )]
+    = (1.67 ± 0.36 ± 0.47) × 10−4 which we divide by our best (shown rounded) value
+    B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is their experiment’s
+    error and our second error is the systematic error from using our best (shown rounded)
+    value.
+
+https://pdg.lbl.gov                          Page 9                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                            
+Γ D ∗0 D 0 /Γ π + π − J/ψ(1S)                                                                           Γ10 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+11.77± 3.09                      50          ABLIKIM            20W BES3         e + e − → γ χc1 (3872)
+     
+Γ γ γ /Γtotal                                                                                            Γ11 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<0.13                 90         1 WICHT          08 BELL e + e − → Υ(4S)
+ 1 WICHT 08 reports [Γ χ (3872) → γ γ /Γ                    +                 +
+                         c1                    total ] × [B(B → χc1 (3872) K )] <
+   2.4×10−5 which we divide by our best (shown rounded) value B(B + → χc1 (3872) K + )
+   = 1.9 × 10−4 .
+         
+Γ D 0 D 0 /Γtotal                                                                                        Γ12 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<0.32                   90       1 CHISTOV         04 BELL B → K D 0 D 0
+ 1 CHISTOV 04 reports [Γ χ (3872) → D 0 D 0 /Γ                 +              +
+                           c1                     total ] × [B(B → χc1 (3872) K )] <
+   6 × 10−5 which we divide by our best (shown rounded) value B(B + → χc1 (3872) K + )
+   = 1.9 × 10−4 .
+         
+Γ D + D − /Γtotal                                                                                        Γ13 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<0.22                    90        1 CHISTOV   04 BELL B → K D + D −
+                                             
+ 1 CHISTOV 04 reports [Γ χ (3872) → D + D − /Γ                +              +
+                             c1                 total ] × [B(B → χc1 (3872) K )]
+   <    4 × 10−5 which we divide by our best (shown rounded) value B(B + →
+   χc1 (3872) K + ) = 1.9 × 10−4 .
+                           
+Γ π 0 χc2 /Γ π + π − J/ψ(1S)                                                                            Γ14 /Γ3
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<1.1                           90            ABLIKIM            19U BES3         e + e − → γ χc1 (3872)
+         
+Γ π 0 χc1 /Γtotal                                                                                        Γ15 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.04                   90        1 BHARDWAJ 19 BELL B ± → π 0 χ K ±
+                                                                             c1
+  1 BHARDWAJ 19 reports [Γ χ (3872) →                     0     
+                                    c1                  π χc1 /Γtotal ] × [B(B + →
+                +
+    χc1 (3872) K )] < 8.1 × 10  −6   which we divide by our best (shown rounded) value
+        +                 +
+    B(B → χc1 (3872) K ) = 1.9 × 10−4 .
+                           
+Γ π 0 χc1 /Γ π + π − J/ψ(1S)                                                                            Γ15 /Γ3
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+
+88 + 33
+   − 27 ± 10                   10.8          ABLIKIM            19U BES3         e + e − → γ χc1 (3872)
+                           
+Γ π 0 χc0 /Γ π + π − J/ψ(1S)                                                                            Γ16 /Γ3
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+< 3.6                   90          ABLIKIM         22D BES3 e + e − → γ χc1 (3872)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<19                     90          ABLIKIM         19U BES3 e + e − → γ χc1 (3872)
+
+https://pdg.lbl.gov                          Page 10                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                 
+Γ π + π − ηc (1S) /Γtotal                                                                               Γ17 /Γ
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<0.16                 90      1 VINOKUROVA 15 BELL B + → π + π − η K +
+                                                                             c
+ 1 VINOKUROVA 15 reports [Γ χ (3872) → π + π − η (1S)/Γ              ] × [B(B + →
+                               c1                     c         total
+               +
+   χc1 (3872) K )] < 3.0 × 10−5  which we divide by our best (shown rounded) value
+       +                +
+   B(B → χc1 (3872) K ) = 1.9 × 10−4 .
+                               
+Γ π 0 π 0 χc0 /Γ π + π − J/ψ(1S)                                                                       Γ18 /Γ3
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<1.7                          90            ABLIKIM            22D BES3         e + e − → γ χc1 (3872)
+                               
+Γ π 0 π 0 χc1 /Γ π + π − J/ψ(1S)                                                                       Γ19 /Γ3
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<1.1                          90            ABLIKIM            24BU BES3        e + e − → γ χc1 (3872)
+                               
+Γ π 0 π 0 χc2 /Γ π + π − J/ψ(1S)                                                                       Γ20 /Γ3
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<0.5                          90            ABLIKIM            24BU BES3        e + e − → γ χc1 (3872)
+                                
+Γ π + π − χc0 /Γ π + π − J/ψ(1S)                                                                       Γ21 /Γ3
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<0.56                         90            ABLIKIM            22D BES3         e + e − → γ χc1 (3872)
+             
+Γ π + π − χc1 /Γtotal                                                                                   Γ22 /Γ
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<8 × 10−3             90      1 BHARDWAJ 16 BELL B + → π + π − χ K +
+                                                                            c1
+ 1 BHARDWAJ 16 reports [Γ χ (3872) →           π + π − χ /Γ        ] × [B(B + →
+                               c1                       c1    total
+               +
+   χc1 (3872) K )] < 1.5 × 10−6  which we divide by our best (shown rounded) value
+       +                +
+   B(B → χc1 (3872) K ) = 1.9 × 10−4 .
+     
+Γ p p /Γtotal                                                                                           Γ23 /Γ
+VALUE                          CL%           DOCUMENT ID                TECN      COMMENT
+<2.7 × 10−5                95        1 AAIJ              17AD LHCB B + → p p K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<9 × 10−5                  95        2 AAIJ              13S LHCB B + → p p K +
+  1 AAIJ 17AD reports [Γ χ (3872) → p p /Γ                      +               +
+                            c1                    total ] × [B(B → χc1 (3872) K )] <
+    0.5×10 −8  which we divide by our best (shown rounded) value B(B → χc1 (3872) K + )
+                                                                      +
+    = 1.9 × 10−4 .
+  2 AAIJ 13S reports [Γ χ (3872) → p p /Γ                   +               +
+                         c1                   total ] × [B(B → χc1 (3872) K )] < 1.7 ×
+    10−8  which we divide by our best (shown rounded) value B(B → χc1 (3872) K + ) =
+                                                                   +
+    1.9 × 10−4 .
+                              
+Γ π + π − η /Γ π + π − J/ψ(1S)                                                                         Γ24 /Γ3
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<0.12                         90            ABLIKIM            24K BES3         e + e − → γ χc1 (3872)
+
+
+
+
+https://pdg.lbl.gov                         Page 11                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                             Radiative decays
+                             
+Γ γ D + D − /Γ π + π − J/ψ(1S)                                                                          Γ25 /Γ3
+VALUE                          CL%           DOCUMENT ID                TECN     COMMENT
+<0.99                          90            ABLIKIM            20W BES3         e + e − → γ χc1 (3872)
+                             
+Γ γ D 0 D 0 /Γ π + π − J/ψ(1S)                                                                          Γ26 /Γ3
+VALUE                          CL%           DOCUMENT ID                TECN     COMMENT
+<1.58                          90            ABLIKIM            20W BES3         e + e − → γ χc1 (3872)
+       
+Γ γ J/ψ /Γtotal                                                                                          Γ27 /Γ
+VALUE (units 10−3 )             EVTS           DOCUMENT ID               TECN       COMMENT
+     + 2.7 ± 3.0                             1 BHARDWAJ
+ 9.6 − 2.5                                                         11    BELL       B ± → γ J/ψ K ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+15 ± 4 ± 5                     20     2 AUBERT           09B BABR B + → γ J/ψ K +
+18 ± 6 ± 6                     19     3 AUBERT,BE 06M BABR B + → γ J/ψ K +
+  1 BHARDWAJ 11 reports [Γ χ (3872) → γ J/ψ /Γ                       +                  +
+                                  c1                    total ] × [B(B → χc1 (3872) K )]
+    = (1.78 −+ 0.48 ± 0.12) × 10−6 which we divide by our best (shown rounded) value
+               0.44
+    B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is their experiment’s
+    error and our second error is the systematic error from using our best (shown rounded)
+    value.
+  2 AUBERT 09B reports [Γ χ (3872) → γ J/ψ /Γ                        +                  +
+                                c1                     total ] × [B(B → χc1 (3872) K )]
+    = (2.8 ± 0.8 ± 0.1) × 10−6 which we divide by our best (shown rounded) value B(B + →
+    χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is their experiment’s error and
+    our second error is the systematic error from using our best (shown rounded) value.
+  3 Superseded by AUBERT 09B. AUBERT,BE 06M reports [Γ χ (3872) → γ J/ψ /Γ
+                                                                  c1                   total ]
+             +                  +
+    × [B(B → χc1 (3872) K )] = (3.3 ± 1.0 ± 0.3) × 10          −6 which we divide by our best
+    (shown rounded) value B(B + → χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error
+    is their experiment’s error and our second error is the systematic error from using our
+    best (shown rounded) value.
+                         
+Γ γ J/ψ /Γ π + π − J/ψ(1S)                                                                              Γ27 /Γ3
+VALUE                         EVTS           DOCUMENT ID                TECN     COMMENT
+0.52± 0.19 OUR AVERAGE Error includes scale factor of 1.2.
+0.38± 0.20 ± 0.01   8±4        ABLIKIM         24X BES3                          e + e − → ω χc1 (3872)
+0.79± 0.28                     ABLIKIM         20W BES3                          e + e − → γ χc1 (3872)
+       
+Γ γ χc1 /Γtotal                                                                                          Γ28 /Γ
+VALUE                          CL%           DOCUMENT ID                TECN     COMMENT
+<0.010                   90        1 BHARDWAJ 13 BELL B ± → χ γ K ±
+                                                                  c1
+ 1 BHARDWAJ 13 reports [Γ χ (3872) → γ χ /Γ                 +              +
+                              c1            c1 total ] × [B(B → χc1 (3872) K )]
+   < 1.9 × 10−6 which we divide by our best (shown rounded) value B(B + →
+   χc1 (3872) K + ) = 1.9 × 10−4 .
+                         
+Γ γ χc1 /Γ π + π − J/ψ(1S)                                                                              Γ28 /Γ3
+VALUE                          CL%           DOCUMENT ID                TECN     COMMENT
+<0.89                          90            CHOI               03      BELL     B → K π + π − J/ψ
+
+
+https://pdg.lbl.gov                          Page 12                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+       
+Γ γ χc2 /Γtotal                                                                                         Γ29 /Γ
+VALUE                         CL%           DOCUMENT ID               TECN       COMMENT
+<0.04                    90        1 BHARDWAJ 13 BELL B ± → χ γ K ±
+                                                                    c2
+ 1 BHARDWAJ 13 reports [Γ χ (3872) → γ χ /Γ         ] × [B(B + → χ (3872) K + )]
+                              c1            c2 total               c1
+   < 6.7 × 10−6 which we divide by our best (shown rounded) value B(B + →
+   χc1 (3872) K + ) = 1.9 × 10−4 .
+         
+Γ γ ψ(2S) /Γtotal                                                                                       Γ30 /Γ
+VALUE                           EVTS           DOCUMENT ID                TECN      COMMENT
+possibly seen              36 ± 9      1 AAIJ            14AH LHCB B + → γ ψ(2S) K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+not seen                               2 BHARDWAJ 11 BELL B + → γ ψ(2S) K +
+0.051± 0.015 ± 0.016       25 ± 7      3 AUBERT          09B BABR B + → γ ψ(2S) K +
+  1 From 36.4 ± 9.0 events of χ (3872) → J/ψ γ decays with a statistical signiﬁcance of
+                                 c1
+    4.4σ.
+  2 BHARDWAJ 11 reports B(B + → K + χ (3872)) × B(χ → γ ψ(2S)) < 3.45×10−6
+                                             c1                c1
+    at 90% CL.
+  3 AUBERT 09B reports [Γ χ (3872) → γ ψ(2S)/Γ                       +                 +
+                               c1                       total ] × [B(B → χc1 (3872) K )]
+    = (9.5 ± 2.7 ± 0.6) × 10−6 which we divide by our best (shown rounded) value B(B + →
+    χc1 (3872) K + ) = (1.9 ± 0.6) × 10−4 . Our ﬁrst error is their experiment’s error and
+    our second error is the systematic error from using our best (shown rounded) value.
+                            
+Γ γ ψ(2S) /Γ π + π − J/ψ(1S)                                                                           Γ30 /Γ3
+VALUE                         CL%           DOCUMENT ID               TECN       COMMENT
+<0.42                         90            ABLIKIM            20W BES3          e + e − → γ χc1 (3872)
+                                
+Γ π + π − χc1 /Γ π + π − J/ψ(1S)                                                                       Γ22 /Γ3
+VALUE                         CL%           DOCUMENT ID               TECN       COMMENT
+<0.18                         90            ABLIKIM            24S BES3          e + e − → γ χc1 (3872)
+                  
+Γ γ ψ(2S) /Γ γ J/ψ                                                                                Γ30 /Γ27
+VALUE                   CL%     EVTS          DOCUMENT ID              TECN      COMMENT
+  1.67± 0.21 ± 0.13                         1 AAIJ   24AD LHCB B + → γ ψ(2S) K +
+                                                                       and γ J/ψ K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.59               90                ABLIKIM        20W BES3 e + e − → γ χc1 (3872)
+  2.46± 0.64 ± 0.29      36 ± 9     2 AAIJ           14AH LHCB B + → γ ψ(2S) K +
+<2.1                90                BHARDWAJ 11 BELL B + → γ ψ(2S) K +
+  3.4 ± 1.4                           AUBERT         09B BABR B + → γ c c K ′
+  1 AAIJ 24AD reports this ratio as 1.67 ± 0.21 ± 0.12 ± 0.04 where the last uncertainty is
+    due to the uncertainties of the branching fractions of ψ(2S) and J/ψ mesons. We have
+    added the last two uncertainties in quadrature.
+  2 From 36.4 ± 9.0 events of χ (3872) → J/ψ γ decays with a statistical signiﬁcance of
+                                 c1
+    4.4σ. Superseded by AAIJ 24AD.
+                               
+Γ γ ψ2 (3823) /Γ π + π − J/ψ(1S)                                                                       Γ31 /Γ3
+VALUE                         CL%           DOCUMENT ID               TECN       COMMENT
+<0.075                90                  1 ABLIKIM
+                                       24Z BES3 e + e − → γ ψ2 (3823)
+ 1 Using B(χ (1P) → γ J/ψ(1S)) = 0.343 ± 0.010. We have assumed that
+             c1
+   B(ψ2 (3823) → γ χc1 ) = 1.
+
+https://pdg.lbl.gov                         Page 13                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                         C-violating decays
+       
+Γ η J/ψ /Γtotal                                                                                        Γ32 /Γ
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<0.021                  90       1,2 IWASHITA        14 BELL B → K η J/ψ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.04                   90         3 AUBERT          04Y BABR B → K η J/ψ
+  1 IWASHITA 14 reports [Γ χ (3872) → η J/ψ /Γ                    +             +
+                             c1                     total ] × [B(B → χc1 (3872) K )] <
+    3.8×10 −6 which we divide by our best (shown rounded) value B(B → χc1 (3872) K + )
+                                                                      +
+    = 1.9 × 10−4 .
+  2 IWASHITA 14 also scans the η J/ψ mass range 3.8–4.75 GeV and sets upper limits for
+    B(B ± → χc1 (3872) K ± )×B(χc1 (3872) → η J/ψ) in 5 MeV intervals.
+  3 AUBERT 04Y reports [Γ χ (3872) → η J/ψ /Γ                     +             +
+                             c1                     total ] × [B(B → χc1 (3872) K )] <
+    7.7×10−6 which we divide by our best (shown rounded) value B(B + → χc1 (3872) K + )
+    = 1.9 × 10−4 .
+
+                                    χc1 (3872) REFERENCES
+AAIJ          24AD JHEP 2411 121               R. Aaij et al.                             (LHCb Collab.)
+ABLIKIM       24BU PR D110 072015              M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM       24C PRL 132 151903               M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM       24K PR D109 L011102              M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM       24S PR D109 L071101              M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM       24X PR D110 012006               M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM       24Z PR D110 012012               M. Ablikim et al.                         (BESIII Collab.)
+AAIJ          23AP JHEP 2307 084               R. Aaij et al.                             (LHCb Collab.)
+AAIJ          23S PR D108 L011103              R. Aaij et al.                             (LHCb Collab.)
+ABLIKIM       23O PR D107 032007               M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM       23W PRL 130 151904               M. Ablikim et al.                         (BESIII Collab.)
+HIRATA        23   PR D107 112011              H. Hirata et al.                         (BELLE Collab.)
+YIN           23   PR D107 052004              J.H. Yin et al.                          (BELLE Collab.)
+ABLIKIM       22D PR D105 072009               M. Ablikim et al.                         (BESIII Collab.)
+PDG           22   PTEP 2022 083C01            R.L. Workman et al.                         (PDG Collab.)
+TERAMOTO      21   PRL 126 122001              Y. Teramoto et al.                       (BELLE Collab.)
+AAIJ          20AD PR D102 092005              R. Aaij et al.                             (LHCb Collab.)
+AAIJ          20S JHEP 2008 123                R. Aaij et al.                             (LHCb Collab.)
+ABLIKIM       20W PRL 124 242001               M. Ablikim et al.                         (BESIII Collab.)
+LEES          20C PRL 124 152001               J.P. Lees et al.                        (BABAR Collab.)
+PDG           20   PTEP 2020 083C01            P.A. Zyla et al.                            (PDG Collab.)
+ABLIKIM       19U PRL 122 202001               M. Ablikim et al.                         (BESIII Collab.)
+ABLIKIM       19V PRL 122 232002               M. Ablikim et al.                         (BESIII Collab.)
+BHARDWAJ      19   PR D99 111101               V. Bhardwaj et al.                       (BELLE Collab.)
+AGHASYAN      18A PL B783 334                  M. Aghasyan et al.                    (COMPASS Collab.)
+AAIJ          17AD PL B769 305                 R. Aaij et al.                             (LHCb Collab.)
+AAIJ          17BB EPJ C77 609                 R. Aaij et al.                             (LHCb Collab.)
+BHARDWAJ      16   PR D93 052016               V. Bhardwaj et al.                       (BELLE Collab.)
+AAIJ          15AO PR D92 011102               R. Aaij et al.                             (LHCb Collab.)
+ABLIKIM       15V PL B749 414                  M. Ablikim et al.                         (BESIII Collab.)
+BALA          15   PR D91 051101               A. Bala et al.                           (BELLE Collab.)
+VINOKUROVA    15   JHEP 1506 132               A. Vinokurova et al.                     (BELLE Collab.)
+    Also           JHEP 1702 088 (errat.)      A. Vinokurava et al.                     (BELLE Collab.)
+AAIJ          14AH NP B886 665                 R. Aaij et al.                             (LHCb Collab.)
+ABLIKIM       14   PRL 112 092001              M. Ablikim et al.                         (BESIII Collab.)
+IWASHITA      14   PTEP 2014 043C01            T. Iwashita et al.                       (BELLE Collab.)
+AAIJ          13Q PRL 110 222001               R. Aaij et al.                             (LHCb Collab.) JP
+AAIJ          13S EPJ C73 2462                 R. Aaij et al.                             (LHCb Collab.)
+BHARDWAJ      13   PRL 111 032001              V. Bhardwaj et al.                       (BELLE Collab.)
+AAIJ          12H EPJ C72 1972                 R. Aaij et al.                             (LHCb Collab.)
+LEES          12AD PR D86 072002               J.P. Lees et al.                        (BABAR Collab.)
+LEES          12AE PR D86 092005               J.P. Lees et al.                        (BABAR Collab.)
+BHARDWAJ      11   PRL 107 091803              V. Bhardwaj et al.                       (BELLE Collab.)
+CHOI          11   PR D84 052004               S.-K. Choi et al.                        (BELLE Collab.)
+WANG          11B PR D84 071107                X.L. Wang et al.                         (BELLE Collab.)
+
+https://pdg.lbl.gov                         Page 14                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+AUSHEV        10   PR D81 031103               T. Aushev et al.                          (BELLE Collab.)
+DEL-AMO-SA... 10B PR D82 011101                P. del Amo Sanchez et al.                (BABAR Collab.)
+SHEN          10A PR D82 051504                C.P. Shen et al.                          (BELLE Collab.)
+AALTONEN      09AU PRL 103 152001              T. Aaltonen et al.                          (CDF Collab.)
+AUBERT        09B PRL 102 132001               B. Aubert et al.                         (BABAR Collab.)
+AUBERT        08B PR D77 011102                B. Aubert et al.                         (BABAR Collab.)
+AUBERT        08Y PR D77 111101                B. Aubert et al.                         (BABAR Collab.)
+WICHT         08   PL B662 323                 J. Wicht et al.                           (BELLE Collab.)
+AUBERT        06   PR D73 011101               B. Aubert et al.                         (BABAR Collab.)
+AUBERT,BE     06M PR D74 071101                B. Aubert et al.                         (BABAR Collab.)
+GOKHROO       06   PRL 97 162002               G. Gokhroo et al.                         (BELLE Collab.)
+AUBERT        05B PR D71 031501                B. Aubert et al.                         (BABAR Collab.)
+AUBERT        05D PR D71 052001                B. Aubert et al.                         (BABAR Collab.)
+AUBERT        05R PR D71 071103                B. Aubert et al.                         (BABAR Collab.)
+DOBBS         05   PRL 94 032004               S. Dobbs et al.                            (CLEO Collab.)
+ABAZOV        04F PRL 93 162002                V.M. Abazov et al.                            (D0 Collab.)
+ACOSTA        04   PRL 93 072001               D. Acosta et al.                            (CDF Collab.)
+AUBERT        04Y PRL 93 041801                B. Aubert et al.                         (BABAR Collab.)
+CHISTOV       04   PRL 93 051803               R. Chistov et al.                         (BELLE Collab.)
+PDG           04   PL B592 1                   S. Eidelman et al.                          (PDG Collab.)
+YUAN          04   PL B579 74                  C.Z. Yuan et al.
+CHOI          03   PRL 91 262001               S.-K. Choi et al.                         (BELLE Collab.)
+BAI           98E PR D57 3854                  J.Z. Bai et al.                              (BES Collab.)
+ANTONIAZZI 94      PR D50 4258                 L. Antoniazzi et al.                        (E705 Collab.)
+
+
+
+
+https://pdg.lbl.gov                         Page 15                      Created: 6/1/2026 16:25
+

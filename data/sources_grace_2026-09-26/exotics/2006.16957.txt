@@ -1,0 +1,1725 @@
+                                          EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH (CERN)
+
+
+                                                                                                                      CERN-EP-2020-115
+                                                                                                                   LHCb-PAPER-2020-011
+                                                                                                                       November 10, 2020
+
+
+
+
+arXiv:2006.16957v2 [hep-ex] 10 Nov 2020
+                                                        Observation of structure
+                                                     in the J/ψ-pair mass spectrum
+
+
+                                                                                    LHCb collaboration†
+
+                                                                                         Abstract                 √
+                                                  Using proton-proton collision data at centre-of-mass energies of s = 7, 8 and 13 TeV
+                                                  recorded by the LHCb experiment at the Large Hadron Collider, corresponding to an
+                                                  integrated luminosity of 9 fb−1 , the invariant mass spectrum of J/ψ pairs is studied.
+                                                  A narrow structure around 6.9 GeV/c2 matching the lineshape of a resonance and
+                                                  a broad structure just above twice the J/ψ mass are observed. The deviation of
+                                                  the data from nonresonant J/ψ-pair production is above five standard deviations
+                                                  in the mass region between 6.2 and 7.4 GeV/c2 , covering predicted masses of states
+                                                  composed of four charm quarks. The mass and natural width of the narrow X(6900)
+                                                  structure are measured assuming a Breit–Wigner lineshape.
+
+
+                                             Keywords: QCD; exotics; tetraquark; spectroscopy; quarkonium; particle and resonance
+                                          production
+
+
+
+                                                                 Published in Science Bulletin 2020 65(23)1983-1993
+                                                         © 2020 CERN for the benefit of the LHCb collaboration. CC BY 4.0 licence.
+                                            †
+                                                Authors are listed at the end of this paper.
+ii
+1         Introduction
+The strong interaction is one of the fundamental forces of nature and it governs the
+dynamics of quarks and gluons. According to quantum chromodynamics (QCD), the
+theory describing the strong interaction, quarks are confined into hadrons, in agreement
+with experimental observations. The quark model [1, 2] classifies hadrons into conventional
+mesons (qq) and baryons (qqq or qqq), and also allows for the existence of exotic hadrons
+such as tetraquarks (qqqq) and pentaquarks (qqqqq). Exotic states provide a unique
+environment to study the strong interaction and the confinement mechanism [3]. The first
+experimental evidence for an exotic hadron candidate was the χc1 (3872) state observed
+in 2003 by the Belle collaboration [4]. Since then a series of novel states consistent
+with containing four quarks have been discovered [5]. Recently, the LHCb collaboration
+observed resonances interpreted to be pentaquark states [6–9]. All hadrons observed to
+date, including those of exotic nature, contain at most two heavy charm (c) or bottom (b)
+quarks, whereas many QCD-motivated phenomenological models also predict the existence
+of states consisting of four heavy quarks, i.e. TQ1 Q2 Q3 Q4 , where Qi is a c or a b quark [10–35].
+Theoretically, the interpretation of the internal structure of such states usually assumes the
+formation of a Q1 Q2 diquark and a Q3 Q4 antidiquark attracting each other. Application of
+                                                                                         ++
+this diquark model successfully predicts the mass of the doubly charmed baryon Ξcc           [36,37]
+and helps to explain the relative rates of bottom baryon decays [38].
+    Tetraquark states comprising only bottom quarks, Tbbbb , have been searched for by the
+LHCb and CMS collaborations in the Υ µ+ µ− decay [39, 40], with the Υ state consisting
+of a bb pair. However, the four-charm states, Tcccc , have not yet been studied in detail
+experimentally. A Tcccc state could disintegrate into a pair of charmonium states such as J/ψ
+mesons, with each consisting of a cc pair. Decays to a J/ψ meson plus a heavier charmonium
+state, or two heavier charmonium states, with the heavier states decaying subsequently
+into a J/ψ meson and accompanying particles, are also possible. Predictions for the masses
+of Tcccc states vary from 5.8 to 7.4 GeV/c2 [10–26], which are above the masses of known
+charmonia and charmonium-like exotic states and below those of bottomonium hadrons. 1
+This mass range guarantees a clean experimental environment to identify possible Tcccc
+states in the J/ψ-pair (also referred to as di-J/ψ) invariant mass (Mdi-J/ψ ) spectrum.
+    In proton-proton (pp) collisions, a pair of J/ψ mesons can be produced in two separate
+interactions of gluons or quarks, named double-parton scattering (DPS) [41–43], or in a
+single interaction, named single-parton scattering (SPS) [44–51]. The SPS process includes
+both resonant production via intermediate states, which could be Tcccc tetraquarks, and
+nonresonant production. Within the DPS process, the two J/ψ mesons are usually
+assumed to be produced independently, thus the distribution of any di-J/ψ observable can
+be constructed using the kinematics from single J/ψ production. Evidence of DPS has
+been found in studies at the Large Hadron Collider (LHC) experiments [52–61] and the
+AFS experiment [62] in pp collisions, and at the Tevatron experiments [63–67] and the UA2
+experiment [68] in proton-antiproton collisions. The LHCb experiment √           has measured the
+di-J/ψ production in pp collisions at centre-of-mass energies of s = 7 [69] and 13 TeV [70].
+    1
+        Energy units MeV = 106 eV, GeV = 109 eV and TeV = 1012 eV are used in this paper.
+
+
+                                                    1
+The DPS contribution is found to dominate the high Mdi-J/ψ region, in agreement with
+expectation.
+    In this paper, fully charmed tetraquark states Tcccc are searched for√in the di-J/ψ
+invariant mass spectrum, using pp collision data collected by LHCb at s = 7, 8 and
+13 TeV, corresponding to an integrated luminosity of 9 fb−1 . The two J/ψ candidates in
+a pair are reconstructed through the J/ψ → µ+ µ− decay, and are labelled randomly as
+either J/ψ1 or J/ψ2 .
+
+
+2    Detector and data set
+The LHCb detector is designed to study particles containing b or c quarks at the LHC. It is
+a single-arm forward spectrometer covering the pseudorapidity range 2 < η < 5, described
+in detail in Refs. [71, 72]. The online event selection is performed by a trigger, which
+consists of a hardware stage, based on information from the calorimeter and muon systems,
+followed by a software stage, which applies a full event reconstruction. At the hardware
+stage, events are required to have at least one muon with high momentum transverse to
+the beamline, pT . At the software stage, two oppositely charged muon candidates are
+required to have high pT and to form a common vertex. Events are retained if there is
+at least one J/ψ candidate passing both the hardware and software trigger requirements.
+Imperfections in the description of the magnetic field and misalignment of subdetectors
+lead to a bias in the momentum measurement of charged particles, which is calibrated
+using reconstructed J/ψ and B + mesons [73], with well-known masses.
+    Simulated J/ψ → µ+ µ− decays are used to study the signal properties, including
+the invariant mass resolution and the reconstruction efficiency. In the simulation, pp
+collisions are generated using Pythia [74] with a specific LHCb configuration [75]. Decays
+of unstable particles are described by EvtGen [76], in which final-state radiation is
+generated using Photos [77]. The interaction of the generated particles with the detector
+and its response are implemented using the Geant4 toolkit [78], as described in Ref. [79].
+
+
+3    Candidate selection
+In the offline selection, two pairs of oppositely charged muon candidate tracks are recon-
+structed, with each pair forming a vertex of a J/ψ candidate. Each muon track must have
+pT > 0.65 GeV/c and momentum p > 6 GeV/c. The J/ψ candidates are required to have a
+dimuon invariant mass in the range 3.0 < Mµµ < 3.2 GeV/c2 . A kinematic fit is performed
+for each J/ψ candidate constraining its vertex to coincide with a primary pp collision
+vertex (PV) [80]. The requirement of a good kinematic fit quality strongly suppresses
+the contamination of di-J/ψ candidates stemming from feed-down of b-hadrons, which
+decay at displaced vertices. The four muon tracks in a J/ψ-pair candidate are required to
+originate from the same PV, reducing to a negligible level the number of pile-up candidates
+with the two J/ψ candidates produced in separated pp collisions. Fake di-J/ψ candidates,
+comprising two muon-track candidates reconstructed from the same real particle, are
+
+                                            2
+                                                                                 3000                                  Data
+                                                                                              LHCb
+
+
+
+
+                                                       Candidates / (2 MeV/c2)
+                                                                                                                       Total fit
+                                                                                 2500                                  J / ψ 1+J / ψ 2
+                                                                                                                       bkg1+J / ψ 2
+                                                                                 2000                                  J / ψ 1+bkg2
+                                                                                                                       bkg1+bkg2
+                                                                                 1500
+
+                                                                                 1000
+
+                                                                                  500
+
+                                                                                    0
+
+                                                                                 3200
+                                                                                                                                                250
+
+
+
+
+                                                                                                                                                      Candidates / (5 MeV/c2)2
+                                                                                 3150                                                           200
+
+
+
+
+                                                       M µ µ (MeV/c2)
+                                                                                                                                                150
+                                                                                 3100
+                                                      (1)
+                                                                                                                                                100
+
+                                                                                 3050
+                                                                                                                                                50
+
+
+                                                                                 3000
+                                            500
+                                                  0                                 3000       3050           3100      3150             3200
+         3000   2500   2000   1500   1000
+                                                                                                        (2)
+            Candidates / (2 MeV/ c2)                                                                  M µ µ (MeV/c2)
+
+
+                                                                                        (1)   (2)
+Figure 1: (Bottom right) Two-dimensional (Mµµ , Mµµ ) distribution of di-J/ψ candidates and its
+                              (1)           (2)
+projections on (bottom left) Mµµ and (top) Mµµ . Four components are present as each projection
+consists of signal and background J/ψ candidates. The labels J/ψ 1,2 and bkg1,2 represent the
+                                                                                                        (1),(2)
+signal and background contributions, respectively, in the Mµµ                                                     distribution.
+
+
+rejected by requiring muons of the same charge to have trajectories separated by an angle
+inconsistent with zero. For events with more than one reconstructed di-J/ψ candidate,
+accounting for about 0.8% of the total sample, only one pair is randomly chosen.
+     The di-J/ψ signal yield is extracted by performing an extended unbinned maximum-
+likelihood fit to the two-dimensional distribution of J/ψ1 and J/ψ2 invariant masses,
+    (1)   (2)
+(Mµµ , Mµµ ), as displayed in Fig. 1, where projections of the data and the fit result are
+shown. For both J/ψ candidates, the signal mass shape is modelled by a Gaussian kernel
+with power-law tails [81]. Each component of combinatorial background, consisting of
+random combinations of muon tracks, is described by an exponential function. The
+total di-J/ψ signal yield is measured to be (33.57 ± 0.23) × 103 , where the uncertainty is
+statistical.
+
+                                                                                         3
+                                               di-J/ψ
+     The di-J/ψ transverse momentum (pT ) in SPS production is expected to be, on
+                                                      di-J/ψ
+average, higher than that in DPS [50]. The high-pT           region is thus exploited to select a
+data sample with enhanced SPS production, which could include contributions from Tcccc
+                                                                                                 di-J/ψ
+states. Two different approaches are applied. In the first approach (denoted as pT -
+                                                                                 di-J/ψ
+threshold), J/ψ-pair candidates are selected with the requirement pT √> 5.2 GeV/c,
+which maximises the statistical significance of the SPS signal yield, NSPS / Ntotal . NSPS
+and Ntotal are yields of the SPS component and total di-J/ψ candidates in the Mdi-J/ψ
+range between 6.2 and 7.4 GeV/c2 , respectively. This mass region covers the predicted
+masses of Tcccc states decaying into a J/ψ pair. In the second approach (denoted as
+  di-J/ψ                                                         di-J/ψ
+pT -binned), di-J/ψ candidates are categorised into six pT              intervals with boundaries
+{0, 5, 6, 8, 9.5, 12, 50} GeV/c, defined to obtain equally populated bins of SPS signal events
+in the 6.2 < Mdi-J/ψ < 7.4 GeV/c2 range. For both scenarios, the DPS yield in the Tcccc
+signal region is extrapolated from the high-Mdi-J/ψ region using the wide-range distribution
+constructed from available double-differential J/ψ cross-sections [82–84] as performed
+in [70]. The high-Mdi-J/ψ region is chosen such that the SPS yield is negligible compared
+to DPS. The SPS yield is obtained by subtracting the DPS contribution from the total
+number of J/ψ-pair signals.
+                                                                         di-J/ψ
+     The Mdi-J/ψ distribution for candidates with pT                            > 5.2 GeV/c and
+              (1),(2)              2
+3.065 < Mµµ           < 3.135 GeV/c is shown in Fig. 2. The di-J/ψ mass is calculated
+by constraining the reconstructed mass of each J/ψ candidate to its known value [85].
+The spectrum shows a broad structure just above twice the J/ψ mass threshold ranging
+from 6.2 to 6.8 GeV/c2 (dubbed threshold enhancement in the following) and a narrower
+structure at about 6.9 GeV/c2 , referred to hereafter as X(6900). There is also a hint of
+another structure around 7.2 GeV/c2 , whereas there are no evident structures at higher
+invariant mass. Several cross-checks are performed to investigate the origin of these
+structures and to exclude that they are experimental artifacts. The threshold enhancement
+                                                                         di-J/ψ
+and the X(6900) structure become more pronounced in higher pT                   intervals, and they
+are present in subsamples split according to different beam or detector configurations
+for data collection. The structures are not caused by the experimental efficiency, since
+the efficiency variation across the whole Mdi-J/ψ range is found to be marginal. Residual
+background, in which a muon track is reused or at least one J/ψ candidate is produced
+from a b-hadron decay, is observed to have no structure. The possible contribution of J/ψ
+pairs from Υ decays is estimated to be negligible and distributed uniformly in the Mdi-J/ψ
+                                                                                        (1),(2)
+distribution. In Fig. 2, the Mdi-J/ψ distribution for background pairs with Mµµ                 in the
+                             2                    2
+range 3.00 − 3.05 GeV/c or 3.15 − 3.20 GeV/c is also shown, with the yield normalised by
+interpolating the background into the J/ψ signal region, which accounts for around 15%
+of the total candidates. There is no evidence of structures in the Mdi-J/ψ distribution of
+background candidates.
+
+
+
+
+                                                  4
+                                              220
+
+
+
+
+                   Candidates / (28 MeV/c2)
+                                                                              J/ψ
+                                              200
+                                                       LHCb             p di-
+                                                                          T
+                                                                                  > 5.2 GeV/c
+
+                                              180                    3.065 < M µ µ < 3.135 GeV/ c2
+
+                                              160                    3.00 < M µ µ < 3.05 GeV/ c2 or
+
+                                              140                    3.15 < M µ µ < 3.20 GeV/ c2, normalised
+                                              120
+                                              100
+                                               80
+                                               60
+                                               40
+                                               20
+                                                0
+                                                6200    7000                   8000                            9000
+                                                           M di-J / ψ (MeV/ c2)
+
+                                                                                                                      di-J/ψ
+Figure 2: Invariant mass spectrum of J/ψ-pair candidates passing the pT          > 5.2 GeV/c
+requirement with reconstructed J/ψ masses in the (black) signal and (blue) background regions,
+respectively.
+
+
+4     Investigation of the J/ψ-pair invariant mass spec-
+      trum
+To remove background pairs that have at least one background J/ψ candidate, the sPlot
+weighting method [86] is applied, where the weights are calculated from the fit to the
+                      (1)  (2)
+two-dimensional (Mµµ , Mµµ ) distribution. The background-subtracted di-J/ψ spectra in
+                                                                                       di-J/ψ
+the range 6.2 < Mdi-J/ψ < 9.0 GeV/c2 are shown in Fig. 3 for candidates with pT               >
+                                                   di-J/ψ
+5.2 GeV/c and Fig. 4 for candidates in the six pT         intervals, which are investigated by
+weighted unbinned maximum-likelihood fits [87]. The Mdi-J/ψ distribution of signal events
+is expected to be dominated by the sum of the nonresonant SPS (NRSPS) and DPS
+production, which have smooth shapes (referred to as continuum in the following). The
+DPS continuum is described by a two-body phase-space function multiplied by the product
+of an exponential function and a second order polynomial function, whose parameters
+are fixed according to the Mdi-J/ψ distribution constructed from J/ψ differential cross-
+sections. Its yield is determined by extrapolation from the Mdi-J/ψ > 12 GeV/c2 region,
+which is dominated and well described by the DPS distribution. The continuum NRSPS
+is modelled by a two-body phase-space distribution multiplied by an exponential function
+determined from the data. The combination of continuum NRSPS and DPS does not
+provide a good description of the data, as is illustrated in Fig. 3(a). The Mdi-J/ψ spectrum
+in the data is tested against the hypothesis that only NRSPS and DPS components
+are present in the range 6.2 < Mdi-J/ψ < 7.4 GeV/c2 (null hypothesis) using a χ2 test
+statistic. Pseudoexperiments are generated and fitted according to the null hypothesis,
+and the fraction of these fits with a χ2 value exceeding that in the data is converted
+                                                           di-J/ψ
+into a significance. Considering the sample in the pT             > 5.2 GeV/c region, the null
+
+
+                                                                 5
+hypothesis is inconsistent with the data at 3.4 standard deviations (σ). A test performed
+                                             di-J/ψ
+simultaneously in the aforementioned six pT         regions yields a discrepancy of 6.0 σ with
+the null hypothesis. A higher value is obtained in the latter case attributed to the presence
+                                                                  di-J/ψ
+of the structure at the same Mdi-J/ψ location in different pT            intervals. A cross-check
+                                                           di-J/ψ
+is performed by dividing the data into five or seven pT           regions instead, which results
+in significance values consistent with the nominal 6.0 σ. The significance values are
+summarised in Table 1 (Any structure beyond NRSPS plus DPS).
+    The structures in the Mdi-J/ψ distribution can have various interpretations. There may
+be one or more resonant states Tcccc decaying directly into a pair of J/ψ mesons, or Tcccc
+states decaying into a pair of J/ψ mesons through feed-down of heavier quarkonia, for
+example Tcccc → χc (→ J/ψγ)J/ψ where the photon escapes detection. In the latter case,
+such a state would be expected to peak at a lower Mdi-J/ψ position, close to the di-J/ψ mass
+threshold, and its structure would be broader compared to that from a direct decay. This
+feed-down is unlikely an explanation for the narrow X(6900) structure. Rescattering of
+two charmonium states produced by SPS close to their mass threshold may also generate
+a narrow structure [88–91]. The two thresholds close to the X(6900) structure could be
+formed by χc0 χc0 pairs at 6829.4 MeV/c2 and χc1 χc0 pairs at 6925.4 MeV/c2 , respectively.
+Whereas a resonance is often described by a relativistic Breit–Wigner (BW) function [85],
+the lineshape of a structure with rescattering effects taken into account is more complex. In
+principle, resonant production can interfere with NRSPS of the same spin-parity quantum
+numbers (J PC ), resulting in a coherent sum of the two components and thus a modification
+of the total Mdi-J/ψ distribution.
+    Two different models of the structure lineshape providing a reasonable description of
+the data are investigated. The X(6900) lineshape parameters and yields are derived from
+              di-J/ψ                                     di-J/ψ
+fits to the pT -threshold sample. Simultaneous pT -binned fits are also performed
+as a cross-check and the variation of lineshape parameters is considered as a source of
+systematic uncertainties. Due to its low significance, the structure around 7.2 GeV/c2 has
+been neglected.
+    In model I, the X(6900) structure is considered as a resonance, whereas the threshold
+enhancement is described through a superposition of two resonances. The lineshapes of
+these resonances are described by S-wave relativistic BW functions multiplied by a two-body
+phase-space distribution. The experimental resolution on Mdi-J/ψ is below 5 MeV/c2 over the
+full mass range and negligible compared to the widths of the structures. The projections of
+      di-J/ψ
+the pT -threshold fit using this model are shown in Fig. 3(b). The mass, natural width and
+yield are determined to be m[X(6900)] = 6905 ± 11 MeV/c2 , Γ[X(6900)] = 80 ± 19 MeV
+and Nsig = 252 ± 63, where biases on the statistical uncertainties have been corrected
+using a bootstrap method [92]. The goodness of fit is studied using a χ2 test statistic and
+found to be χ2 /ndof = 112.7/89, corresponding to a probability of 4.6%. The fit is also
+performed assuming the threshold enhancement as due to a single wide resonance (see
+Supplementary Material); the fit quality is found significantly poorer and thus this model
+is not further investigated.
+    A comparison between the best fit result of model I and the data reveals a tension
+
+
+                                               6
+                                                             (a)                                         220
+
+
+
+
+                                                                     Weighted candidates / (28 MeV/c2)
+                                                                                                         200                                                                           Data
+                                                                                                                   LHCb                                                                Total fit
+                                                                                                         180
+                                                                                                                                                                                       DPS
+                                                                                                         160
+                                                                                                                                                                                       NRSPS
+                                                                                                         140
+                                                                                                         120
+                                                                                                         100
+                                                                                                          80
+                                                                                                          60
+                                                                                                          40
+                                                                                                          20
+                                                                                                           0
+                                                                                                           6200                7000                  8000                                                 9000
+                                                                                                                                   M di-J / ψ (MeV/ c2)
+(b)                                       220                                                                                                (c)                                       220
+
+
+
+
+      Weighted candidates / (28 MeV/c2)                                                                                                            Weighted candidates / (28 MeV/c2)
+                                                                                                                   Data                                                                                                            Data
+                                          200                                                                                                                                          200
+                                                   LHCb                                                            Total fit
+                                                                                                                                                                                                   LHCb                            Total fit
+                                          180                                                                      Resonance                                                           180                                         Resonance
+                                                                                                                   Threshold BW1
+                                          160                                                                      Threshold BW2                                                       160                                         Interference
+                                                                                                                                                                                                                                   Interference BW
+                                          140                                                                      DPS                                                                 140                                         DPS
+                                                                                                                   NRSPS
+                                          120                                                                      DPS+NRSPS                                                           120                                         NRSPS
+
+                                          100                                                                                                                                          100
+                                           80                                                                                                                                           80
+                                           60                                                                                                                                           60
+                                           40                                                                                                                                           40
+                                           20                                                                                                                                           20
+                                            0                                                                                                                                            0
+                                            6200          7000                                              8000                      9000                                               6200             7000                  8000                 9000
+                                                             M di-J / ψ (MeV/ c2)                                                                                                                                M di-J / ψ (MeV/ c2)
+
+
+                                                                                                                                                                                                                 di-J/ψ
+Figure 3: Invariant mass spectra of weighted di-J/ψ candidates with pT          > 5.2 GeV/c and
+                             di-J/ψ
+overlaid projections of the pT      -threshold fit using (a) the NRSPS plus DPS model, (b) model
+I, and (c) model II.
+
+
+around 6.75 GeV/c2 , where the data shows a dip. In an attempt to describe the dip, model
+II allows for interference between the NRSPS component and a resonance for the threshold
+enhancement. The coherent sum of the two components is defined as
+                                   q                             2
+                                iφ
+                             Ae     fnr (Mdi-J/ψ ) + BW(Mdi-J/ψ ) ,                   (1)
+
+where A and φ are the magnitude and phase of the nonresonant component, relative to the
+BW lineshape for the resonance, assumed to be independent of Mdi-J/ψ , and fnr (Mdi-J/ψ ) is
+an exponential function. The interference term in Eq. (1) is then added incoherently to
+the BW function describing the X(6900) structure and the DPS description. The fit to the
+ di-J/ψ
+pT -threshold sample with this model has a probability of 15.5% (χ2 /ndf = 104.7/91),
+and its projections are illustrated in Fig. 3(c). In this case, the mass, natural width and
+yield are determined to be m[X(6900)] = 6886 ± 11 MeV/c2 , Γ[X(6900)] = 168 ± 33 MeV
+and Nsig = 784 ± 148. A larger X(6900) width and yield are preferred in comparison
+to model I. Here it is assumed that the whole NRSPS production is involved in the
+interference with the lower-mass resonance despite that there may be several components
+with different quantum numbers in the NRSPS and more than one resonance in the
+threshold enhancement.
+
+                                                                                                                                       7
+(a)                                                                                                                   (b)
+
+
+
+
+       Weighted candidates / (56 MeV/c2)                                                                                         Weighted candidates / (56 MeV/c2)
+                                              900
+                                                                                              Data
+                                              800     LHCb                                                                                                           100                     5.0 < p di- J/ψ
+                                                                                                                                                                                                             < 6.0 GeV/c
+                                                                                              Total fit                                                                                              T
+
+                                              700            J/ψ                              Resonance
+                                                       p di-     < 5.0 GeV/c
+                                                         T                                    Threshold BW1                                                           80
+                                              600                                             Threshold BW2
+                                                                                              DPS
+                                              500                                             NRSPS
+                                                                                                                                                                      60
+                                              400                                             DPS+NRSPS
+
+
+                                              300                                                                                                                     40
+
+                                              200
+                                                                                                                                                                      20
+                                              100
+                                               0                                                                                                                      0
+                                               6200          7000                        8000                  9000                                                   6200      7000                      8000                9000
+                                                                   M di-J / ψ (MeV/ c2)                                                                                               M di-J / ψ (MeV/ c2)
+(c)                                                                                                                   (d)
+
+
+
+
+      Weighted candidates / (56 MeV/c2)                                                                                         Weighted candidates / (56 MeV/c2)
+                                                                                                                                                                     70
+                                              140                                          J/ψ                                                                                                           J/ψ
+                                                                               6.0 < p di-
+                                                                                       T
+                                                                                               < 8.0 GeV/c                                                                                   8.0 < p di-
+                                                                                                                                                                                                     T
+                                                                                                                                                                                                             < 9.5 GeV/c
+                                                                                                                                                                     60
+                                              120
+                                                                                                                                                                     50
+                                              100
+                                               80                                                                                                                    40
+
+                                               60                                                                                                                    30
+
+                                               40                                                                                                                    20
+
+                                               20                                                                                                                    10
+                                               0                                                                                                                      0
+                                               6200          7000                        8000                  9000                                                   6200      7000                      8000                9000
+                                                                   M di-J / ψ (MeV/ c2)                                                                                               M di-J / ψ (MeV/ c2)
+(e)                                                                                                                   (f)
+
+
+
+
+          Weighted candidates / (56 MeV/c2)                                                                                 Weighted candidates / (56 MeV/c2)
+                                                                                           J/ψ
+                                                                                                                                                                     80
+                                               60                              9.5 < p di-     < 12.0 GeV/ c                                                                                 12.0 < p di-J / ψ < 50.0 GeV/c
+                                                                                       T                                                                                                              T
+                                                                                                                                                                     70
+                                               50                                                                                                                    60
+                                               40                                                                                                                    50
+
+                                               30                                                                                                                    40
+                                                                                                                                                                     30
+                                               20
+                                                                                                                                                                     20
+                                               10                                                                                                                    10
+                                               0                                                                                                                      0
+                                               6200           7000                        8000                 9000                                                   6200      7000                      8000                9000
+                                                                   M di-J / ψ (MeV/ c2)                                                                                               M di-J / ψ (MeV/ c2)
+
+
+                                                                                                                                                                                                     di-J/ψ
+Figure 4: Invariant mass spectra of weighted di-J/ψ candidates in bins of pT                                                                                                                                      and overlaid
+                    di-J/ψ
+projections of the pT      -binned fit with model I.
+
+                                                                                                                                                                             di-J/ψ
+    Fits to the Mdi-J/ψ distributions in the six individual pT     bins are shown in Fig. 4
+for model I, while those for model II are given in the Supplementary Material. An
+additional model describing the dip and the X(6900) structure simultaneously by using
+the interference between the NRSPS and a BW resonance around 6.9 GeV/c2 is also
+considered, however the fit quality is clearly poorer, as illustrated in the Supplementary
+Material. Alternative lineshapes, other than the BW, may also be possible to describe
+these structures and will be the subject of future studies.
+    The increase of the likelihood between the fits with or without considering the X(6900)
+and the threshold enhancement structures on top of the continuum NRSPS plus DPS
+model is taken as the test statistic to calculate the combined global significance of the two
+structures [93] in the 6.2 < Mdi-J/ψ < 7.4 GeV/c2 region, where pseudoexperiments are also
+
+                                                                                                                      8
+                                                               Significance
+                       Structure                     di-J/ψ              di-J/ψ
+                                                    pT -threshold       pT -binned
+       Any structure beyond NRSPS plus DPS                3.4 σ               6.0 σ
+        Threshold enhancement plus X(6900)                6.4 σ               6.9 σ
+               Threshold enhancement                      6.0 σ               6.5 σ
+                      X(6900)                             5.1 σ               5.4 σ
+
+
+ Table 1: Global significance evaluated under the various assumptions described in the text.
+
+                                    Without interference         With interference
+             Component              m [ MeV/c2 ] Γ [ MeV]      m [ MeV/c2 ] Γ [ MeV]
+            sPlot weights               0.8        10.3            4.4         36.9
+       Experimental resolution          0.0         1.4            0.0          0.6
+       NRSPS+DPS modelling              0.8        16.1            3.5          9.3
+           X(6900) shape                0.0         0.3            0.4          0.2
+                         di-J/ψ
+        Dependence on pT                4.6        13.5            6.2         56.7
+         b-hadron feed-down             0.0         0.2            0.0          5.3
+       Structure at 7.2 GeV/c2          1.3         9.2            6.7          5.2
+      Threshold structure shape         5.2        20.5             –            –
+            NRSPS phase                  –           –             0.3          1.3
+                Total                    7           33            11           69
+
+
+Table 2: Systematic uncertainties on the mass (m) and natural width (Γ) of the X(6900)
+structure.
+
+
+generated to evaluate the significance. Only model I is studied, where the interference
+between the NRSPS and the threshold enhancement is not included. Similarly, the signifi-
+cance for either the threshold enhancement or the X(6900) structure is evaluated assuming
+the presence of the other along with the NRSPS and DPS continuum. The significance is
+                         di-J/ψ               di-J/ψ
+determined from both pT -threshold and pT -binned fits, and summarised in Table 1.
+The results are above 5 σ for the two structures, with slightly higher significance for the
+ di-J/ψ
+pT -binned case.
+    Systematic uncertainties on the measurements of the mass and natural width of
+the X(6900) structure are reported in Table 2. They include variations of the results
+obtained by: including an explicit component in the Mdi-J/ψ fits for the J/ψ combinatorial
+background rather than subtracting it using the weighting method (sPlot weights in
+Table 2); convolving the Mdi-J/ψ fit functions with a Gaussian function of 5 MeV/c2 width
+to account for the invariant mass resolution (Experimental resolution); using alternative
+functions to describe the NRSPS component and varying the DPS yield (NRSPS plus
+DPS modelling); using an alternative P -wave BW function for the X(6900) structure
+
+
+                                             9
+and varying the hadron radius in the BW function from 2 to 5 GeV−1 [X(6900) shape];
+                                                                                         di-J/ψ
+obtaining results from a simultaneous fit to the Mdi-J/ψ distributions in the six pT
+bins which covers the uncertainty due to variations of the NRSPS, DPS shapes and the
+                                                    di-J/ψ                    di-J/ψ
+NRSPS-resonance interference with respect to pT            (Dependence on pT ); including
+an explicit contribution for J/ψ mesons from b-hadron feed-down (b-hadron feed-down) or
+adding a BW component for the 7.2 GeV/c2 structure (Structure at 7.2 GeV/c2 ); modelling
+the threshold structure using an alternative Gaussian function with asymmetric power-law
+tails, or fitting in a reduced Mdi-J/ψ range excluding the threshold structure (Threshold
+structure shape); allowing the relative phase in the NRSPS component to vary linearly
+with Mdi-J/ψ (NRSPS phase). The total uncertainties are determined to be 7 MeV/c2 and
+33 MeV for the mass and natural width, respectively, without considering any interference,
+and 11 MeV/c2 and 69 MeV when the interference between NRSPS and the threshold
+structure is introduced.
+    For the scenario without interference, the production cross-section of the X(6900)
+structure relative to that of all J/ψ pairs (inclusive), times the   √ branching fraction
+B(X(6900) → J/ψJ/ψ), R, is determined in the pp collision data at s = 13 TeV. The mea-
+surement is obtained for both J/ψ mesons in the fiducial region of transverse momentum
+below 10 GeV/c and rapidity between 2.0 and 4.5. An event-by-event efficiency correction
+is performed to obtain the signal yield at production. The residual contamination from
+b-hadron feed-down is subtracted from inclusive J/ψ-pair production following Ref. [84].
+The systematic uncertainties on the X(6900) yield are estimated in a similar way to that
+for the mass and natural width, while other systematic uncertainties mostly cancel in the
+ratio. The production ratio is measured to be R = [1.1 ± 0.4 (stat) ± 0.3 (syst)]% without
+       di-J/ψ                                                           di-J/ψ
+any pT        requirement and R = [2.6 ± 0.6 (stat) ± 0.8 (syst)]% for pT      > 5.2 GeV/c.
+
+
+5     Summary
+In conclusion, using pp collision data at centre-of-mass energies of 7, 8 and 13 TeV collected
+with the LHCb detector, corresponding to an integrated luminosity of 9 fb−1 , the J/ψ-pair
+invariant mass spectrum is studied. The data in the mass range between 6.2 and 7.4 GeV/c2
+are found to be inconsistent with the hypothesis of NRSPS plus DPS continuum. A narrow
+structure, X(6900), matching the lineshape of a resonance and a broad structure next to
+the di-J/ψ mass threshold are found. The global significance of either the broad or the
+X(6900) structure is determined to be larger than five standard deviations. Describing
+the X(6900) structure with a Breit–Wigner lineshape, its mass and natural width are
+determined to be
+                            m[X(6900)] = 6905 ± 11 ± 7 MeV/c2
+and
+                              Γ[X(6900)] = 80 ± 19 ± 33 MeV,
+assuming no interference with the NRSPS continuum is present, where the first uncertainty
+is statistical and the second systematic. When assuming the NRSPS continuum interferes
+
+
+                                              10
+with the broad structure close to the di-J/ψ mass threshold, they become
+
+                         m[X(6900)] = 6886 ± 11 ± 11 MeV/c2
+
+and
+                           Γ[X(6900)] = 168 ± 33 ± 69 MeV.
+The X(6900) structure could originate from a hadron state consisting of four charm
+quarks, Tcccc , predicted in various tetraquark models. The broad structure close to the
+di-J/ψ mass threshold could be due to a mixture of multiple four-charm quark states or
+have contributions from feed-down decays of four-charm states through heavier quarkonia.
+Other interpretations cannot presently be ruled out, for example the rescattering of
+two charmonium states produced close to their mass threshold. More data along with
+additional measurements, including determination of the spin-parity quantum numbers and
+pT dependence of the production cross-section, are needed to provide further information
+about the nature of the observed structure.
+
+
+Acknowledgements
+We express our gratitude to our colleagues in the CERN accelerator departments for the
+excellent performance of the LHC. We thank the technical and administrative staff at the
+LHCb institutes. We acknowledge support from CERN and from the national agencies:
+CAPES, CNPq, FAPERJ and FINEP (Brazil); MOST and NSFC (China); CNRS/IN2P3
+(France); BMBF, DFG and MPG (Germany); INFN (Italy); NWO (Netherlands); MNiSW
+and NCN (Poland); MEN/IFA (Romania); MSHE (Russia); MinECo (Spain); SNSF and
+SER (Switzerland); NASU (Ukraine); STFC (United Kingdom); DOE NP and NSF (USA).
+We acknowledge the computing resources that are provided by CERN, IN2P3 (France), KIT
+and DESY (Germany), INFN (Italy), SURF (Netherlands), PIC (Spain), GridPP (United
+Kingdom), RRCKI and Yandex LLC (Russia), CSCS (Switzerland), IFIN-HH (Romania),
+CBPF (Brazil), PL-GRID (Poland) and OSC (USA). We are indebted to the communities
+behind the multiple open-source software packages on which we depend. Individual groups
+or members have received support from AvH Foundation (Germany); EPLANET, Marie
+Sklodowska-Curie Actions and ERC (European Union); A*MIDEX, ANR, Labex P2IO
+and OCEVU, and Région Auvergne-Rhône-Alpes (France); Key Research Program of
+Frontier Sciences of CAS, CAS PIFI, and the Thousand Talents Program (China); RFBR,
+RSF and Yandex LLC (Russia); GVA, XuntaGal and GENCAT (Spain); the Royal Society
+and the Leverhulme Trust (United Kingdom).
+
+
+
+
+                                          11
+Supplementary Material
+                                                                                                                                                                                                    di-J/ψ
+In the Supplementary Material, the J/ψ-pair mass distributions in bins of pT are shown
+in Sec. A, the fits using several additional models to the J/ψ-pair mass spectrum are
+presented in Sec. B, and some supplemental information to the fit result of model II is
+given in Sec. C.
+
+                                                                                                                                                                                                 di-J/ψ
+A                                 J/ψ-pair mass distributions in bins of pT
+
+                                                                                                                                                                                    160
+
+
+
+
+ Candidates / (56 MeV/c2)                                                        Candidates / (56 MeV/c2)                                                Candidates / (56 MeV/c2)
+                            900 LHCb   p di-J/ψ
+                                                < 5.0 GeV/c                                                 100      5.0 < p di-J/ψ
+                                                                                                                                    < 6.0 GeV/c                                              6.0 < p di-J/ψ
+                                                                                                                                                                                                            < 8.0 GeV/c
+                                         T                                                                                   T                                                      140              T
+                            800        3.065 < M < 3.135 GeV/c
+                                                      µµ
+                                                                      2
+
+
+                            700        3.00 < M < 3.05 GeV/c or   2                                         80                                                                      120
+                                                     µµ
+
+
+                            600                                   2
+                                       3.15 < M < 3.20 GeV/c , normalised
+                                                     µµ                                                                                                                             100
+                            500                                                                             60
+                                                                                                                                                                                    80
+                            400                                                                                                                                                     60
+                                                                                                            40
+                            300
+                                                                                                                                                                                    40
+                            200                                                                             20
+                            100                                                                                                                                                     20
+                              0                                                                              0                                                                       0
+                              6200 7000           8000                  9000                                 6200   7000           8000           9000                               6200   7000          8000             9000
+                                        M di-J / ψ   (MeV/c2)                                                       M di-J / ψ   (MeV/c2)                                                   M di-J / ψ (MeV/c2)
+
+                             70
+                                                                                                            60
+
+
+
+
+ Candidates / (56 MeV/c2)                                                        Candidates / (56 MeV/c2)                                                Candidates / (56 MeV/c2)
+                                                     J/ψ                                                                       J/ψ                                                                      J/ψ
+                                          8.0 < p di-    < 9.5 GeV/c                                                9.5 < p di-    < 12.0 GeV/c                                     70      12.0 < p di-    < 50.0 GeV/c
+                             60                   T                                                                         T                                                                        T
+                                                                                                            50
+                                                                                                                                                                                    60
+                             50
+                                                                                                            40                                                                      50
+                             40
+                                                                                                            30                                                                      40
+                             30
+                                                                                                                                                                                    30
+                             20                                                                             20
+                                                                                                                                                                                    20
+                             10                                                                             10                                                                      10
+                              0                                                                              0                                                                       0
+                              6200       7000              8000           9000                               6200   7000           8000           9000                               6200   7000          8000             9000
+                                        M di-J / ψ   (MeV/c2)                                                       M di-J / ψ   (MeV/c2)                                                   M di-J / ψ (MeV/c2)
+
+
+
+
+                                                                                                                                                                              di-J/ψ
+Figure S1: Invariant mass spectra of J/ψ-pair candidates in the six pT      regions with boundaries
+{0, 5, 6, 8, 9.5, 12, 50} GeV/c with reconstructed J/ψ masses in the (black) signal and (blue) back-
+ground regions, respectively.
+
+
+
+B                                 Additional fits to the J/ψ-pair mass spectrum
+Figure S2 shows the fits to the J/ψ-pair mass spectrum with (a) the threshold structure
+described by a single Breit–Wigner (BW) lineshape and (b) using a model that contains
+
+                                                                                                                            1
+a single BW resonance interfering with the SPS continuum. The χ2 /ndof of the two fits
+are 125.6/92 and 118.6/91, corresponding to a probability of 1.2% and 2.8%, respectively.
+Figure S3 shows the fit with an additional BW function introduced to describe the
+7.2 GeV/c2 structure, based on the model that contains two BW lineshapes for the threshold
+structure and a BW shape for the X(6900) structure on top of the NRSPS plus DPS
+continuum.
+
+
+(a)                                       220                                                                                               (b)                                        220
+
+
+
+
+      Weighted candidates / (28 MeV/c2)                                                                                                            Weighted candidates / (28 MeV/c2)
+                                                                                                                 Data                                                                                                                Data
+                                          200                                                                                                                                          200
+                                                   LHCb                                                          Total fit
+                                                                                                                                                                                                       LHCb                          Total fit
+                                          180                                                                    Resonance                                                             180
+                                                                                                                 Threshold BW                                                                                                        Interference
+                                          160                                                                    DPS                                                                   160                                           Interference BW
+                                          140                                                                    NRSPS
+                                                                                                                                                                                       140                                           DPS
+                                                                                                                 DPS+NRSPS
+                                          120                                                                                                                                          120                                           NRSPS
+                                          100                                                                                                                                          100
+                                           80                                                                                                                                           80
+                                           60                                                                                                                                           60
+                                           40                                                                                                                                           40
+                                           20                                                                                                                                           20
+                                            0                                                                                                                                            0
+                                            6200          7000                                                8000                   9000                                                6200                   7000              8000                 9000
+                                                             M di-J / ψ (MeV/ c2)                                                                                                                                  M di-J / ψ (MeV/ c2)
+
+
+                                                                                                                                                                                                                       di-J/ψ
+Figure S2: Invariant mass spectra of weighted di-J/ψ candidates with pT           > 5.2 GeV/c and
+                             di-J/ψ
+overlaid projections of the pT      -threshold fit with (a) the threshold structure described as a
+single BW function, and (b) assuming a single BW interfering with the SPS continuum.
+
+
+                                                                                                     220
+
+
+
+
+                                                                 Weighted candidates / (28 MeV/c2)
+                                                                                                                                                                                       Data
+                                                                                                     200
+                                                                                                               LHCb                                                                    Total fit
+
+                                                                                                     180                                                                               Resonance 1
+                                                                                                                                                                                       Threshold BW1
+
+                                                                                                     160                                                                               Threshold BW2
+                                                                                                                                                                                       Resonance 2
+                                                                                                     140                                                                               DPS
+                                                                                                                                                                                       NRSPS
+                                                                                                     120                                                                               DPS+NRSPS
+
+                                                                                                     100
+                                                                                                      80
+                                                                                                      60
+                                                                                                      40
+                                                                                                      20
+                                                                                                       0
+                                                                                                       6200                  7000              8000                                                      9000
+                                                                                                                                M di-J / ψ (MeV/ c2)
+
+
+                                                                                                                                                                                                                       di-J/ψ
+Figure S3: Invariant mass spectra of weighted di-J/ψ candidates with pT         > 5.2 GeV/c and
+                             di-J/ψ
+overlaid projections of the pT      -threshold fit with an additional BW function introduced to
+describe the 7.2 GeV/c2 structure, based on the model that contains two BW lineshapes for the
+threshold structure and a BW shape for the X(6900) structure on top of the NRSPS plus DPS
+continuum.
+
+
+
+
+                                                                                                                                      2
+C     Supplement to fit result of model II
+In model II that contains a BW lineshape for the threshold structure interfering with the
+NRSPS, a BW shape for the X(6900) structure and the DPS continuum, the parameters
+of the lower-mass BW lineshape is determined to M = 6741 ± 6 (stat) MeV/c2 and Γ =
+288 ± 16 (stat) MeV. The systematic uncertainties on the mass and natural width are not
+studied. Due to the complex nature of the threshold structure, and the simple interference
+scenario considered, this study is not considered to claim a state with the parameters
+reported here.
+                                                                              di-J/ψ
+    Projections of the fit to the J/ψ-pair invariant mass spectra in bins of pT      assuming
+the interference between the threshold structure and the SPS continuum are shown in
+Fig. S4.
+
+
+D      Dependence of experimental efficiency on Mdi-J/ψ
+The variation of the experimental efficiency with respect to Mdi-J/ψ is shown in Fig. S5,
+which is marginal across the whole Mdi-J/ψ range. The efficiency is estimated in the same
+way as described in Ref. [70].
+
+
+
+
+                                             3
+(a)                                                                                                                    (b)
+
+
+
+
+       Weighted candidates / (56 MeV/c2)                                                                                          Weighted candidates / (56 MeV/c2)
+                                              900
+                                              800     LHCb                                 Data                                                                       100               5.0 < p di- J/ψ
+                                                                                                                                                                                                        < 6.0 GeV/c
+                                                                                           Total fit                                                                                            T
+
+                                              700            J/ψ
+                                                       p di-     < 5.0 GeV/c               Resonance
+                                                         T
+                                                                                           Interference
+                                                                                                                                                                       80
+                                              600
+                                                                                           Interference BW
+                                              500                                          DPS                                                                         60
+                                              400                                          NRSPS
+
+                                              300                                                                                                                      40
+
+                                              200
+                                                                                                                                                                       20
+                                              100
+                                               0                                                                                                                       0
+                                               6200          7000                         8000                  9000                                                   6200   7000                   8000                9000
+                                                                   M di-J / ψ (MeV/ c2)                                                                                          M di-J / ψ (MeV/ c2)
+(c)                                                                                                                    (d)
+
+
+
+
+      Weighted candidates / (56 MeV/c2)                                                                                          Weighted candidates / (56 MeV/c2)
+                                                                                                                                                                      70
+                                              140                                          J/ψ                                                                                                      J/ψ
+                                                                               6.0 < p di-
+                                                                                       T
+                                                                                               < 8.0 GeV/c                                                                              8.0 < p di-
+                                                                                                                                                                                                T
+                                                                                                                                                                                                        < 9.5 GeV/c
+                                                                                                                                                                      60
+                                              120
+                                                                                                                                                                      50
+                                              100
+                                               80                                                                                                                     40
+
+                                               60                                                                                                                     30
+
+                                               40                                                                                                                     20
+
+                                               20                                                                                                                     10
+                                               0                                                                                                                       0
+                                               6200          7000                         8000                  9000                                                   6200   7000                   8000                9000
+                                                                   M di-J / ψ    (MeV/ c2)                                                                                       M di-J / ψ (MeV/ c2)
+(e)                                                                                                                    (f)
+
+
+
+
+          Weighted candidates / (56 MeV/c2)                                                                                  Weighted candidates / (56 MeV/c2)
+                                                                                                                                                                      80
+                                               60                               9.5 < p di- J/ψ
+                                                                                                < 12.0 GeV/ c                                                                           12.0 < p di-J / ψ < 50.0 GeV/c
+                                                                                        T                                                                                                        T
+                                                                                                                                                                      70
+                                               50
+                                                                                                                                                                      60
+                                               40                                                                                                                     50
+                                               30                                                                                                                     40
+                                                                                                                                                                      30
+                                               20
+                                                                                                                                                                      20
+                                               10                                                                                                                     10
+                                               0                                                                                                                       0
+                                               6200           7000                         8000                 9000                                                   6200   7000                   8000                9000
+                                                                   M di-J / ψ    (MeV/ c2)                                                                                       M di-J / ψ (MeV/ c2)
+
+
+                                                                                                                                                                                                di-J/ψ
+Figure S4: Invariant mass spectra of weighted di-/J/ψ candidates in bins of pT          and overlaid
+                    di-J/ψ
+projections of the pT      -binned fit assuming that the threshold structure interferes with the SPS
+continuum.
+
+
+
+
+                                                                                                                       4
+                            0.2
+                           0.18
+                                     LHCb
+                           0.16
+
+
+
+
+         Mean efficiency
+                           0.14
+                           0.12
+                            0.1
+                           0.08
+                           0.06
+                           0.04
+                           0.02
+                              0
+                              6200          7000               8000         9000
+                                               M di-J /ψ   (MeV/c2)
+
+Figure S5: Dependence of the experimental efficiency on Mdi-J/ψ . The error bars include the
+statistical uncertainties only.
+
+
+
+
+                                                      5
+References
+ [1] M. Gell-Mann, A schematic model of baryons and mesons, Phys. Lett. 8 (1964) 214.
+
+ [2] G. Zweig, An SU3 model for strong interaction symmetry and its breaking; Version 1
+     CERN-TH-401, CERN, Geneva, 1964.
+
+ [3] N. Brambilla, S. Eidelman, P. Foka et al., QCD and strongly coupled gauge theories:
+     challenges and perspectives, Eur. Phys. J. C74 (2014) 2981, arXiv:1404.3723.
+
+ [4] Belle Collaboration, S. K. Choi et al., Observation of a narrow charmonium-like
+     state in exclusive B ± → K ± π + π − J/ψ decays, Phys. Rev. Lett. 91 (2003) 262001,
+     arXiv:hep-ex/0309032.
+
+ [5] S. L. Olsen, T. Skwarnicki, and D. Zieminska, Nonstandard heavy mesons and baryons:
+     Experimental evidence, Rev. Mod. Phys. 90 (2018) 015003, arXiv:1708.04012.
+
+ [6] LHCb Collaboration, R. Aaij et al., Observation of J/ψp resonances consistent with
+     pentaquark states in Λ0b → J/ψpK − decays, Phys. Rev. Lett. 115 (2015) 072001,
+     arXiv:1507.03414.
+
+ [7] LHCb Collaboration, R. Aaij et al., Model-independent evidence for J/ψp contributions
+     to Λ0b → J/ψpK − decays, Phys. Rev. Lett. 117 (2016) 082002, arXiv:1604.05708.
+
+ [8] LHCb Collaboration, R. Aaij et al., Evidence for exotic hadron contributions to
+     Λ0b → J/ψpπ − decays, Phys. Rev. Lett. 117 (2016) 082003, arXiv:1606.06999.
+
+ [9] LHCb Collaboration, R. Aaij et al., Observation of a narrow Pc (4312)+ state,
+     and of two-peak structure of the Pc (4450)+ , Phys. Rev. Lett. 122 (2019) 222001,
+     arXiv:1904.03947.
+
+[10] Y. Iwasaki, Is a state cc̄cc̄ found at 6.0 GeV?, Phys. Rev. Lett. 36 (1976) 1266.
+
+                             cc) (diquark-antidiquark) states in e+ e− annihilation, Z. Phys.
+[11] K.-T. Chao, The (cc) - ( ¯
+     C7 (1981) 317.
+
+[12] J.-P. Ader, J.-M. Richard, and P. Taxil, Do narrow heavy multiquark states exist?,
+     Phys. Rev. D25 (1982) 2370.
+
+[13] B.-A. Li and K.-F. Liu, J/ψ pair production in hadronic collisions, Phys. Rev. D29
+     (1984) 426.
+
+[14] A. M. Badalian, B. L. Ioffe, and A. V. Smilga, Four quark states in heavy quark
+     systems, Nucl. Phys. 281 (1987) B85.
+
+[15] A. V. Berezhnoy, A. V. Luchinsky, and A. A. Novoselov, Heavy tetraquarks production
+     at the LHC, Phys. Rev. D86 (2012) 034004, arXiv:1111.1867.
+
+
+                                             6
+[16] J. Wu, Y.-R. Liu, K. Chen et al., Heavy-flavored tetraquark states with the QQQ̄Q̄
+     configuration, Phys. Rev. D97 (2018) 094015, arXiv:1605.01134.
+
+[17] M. Karliner, S. Nussinov, and J. L. Rosner, QQQ̄Q̄ states: masses, production, and
+     decays, Phys. Rev. D95 (2017) 034011, arXiv:1611.00348.
+
+[18] N. Barnea, J. Vijande, and A. Valcarce, Four-quark spectroscopy within the hyper-
+     spherical formalism, Phys. Rev. D73 (2006) 054004, arXiv:hep-ph/0604010.
+
+[19] V. R. Debastiani and F. S. Navarra, A non-relativistic model for the [cc][c̄c̄] tetraquark,
+     Chin. Phys. C43 (2019) 013105, arXiv:1706.07553.
+
+[20] M.-S. Liu, Q.-F. Lü, X.-H. Zhong et al., All-heavy tetraquarks, Phys. Rev. D100
+     (2019) 016006, arXiv:1901.02564.
+
+[21] W. Chen, H.-X. Chen, X. Liu et al., Hunting for exotic doubly hidden-charm/bottom
+     tetraquark states, Phys. Lett. B773 (2017) 247, arXiv:1605.01647.
+
+[22] G.-J. Wang, L. Meng, and S.-L. Zhu, Spectrum of the fully-heavy tetraquark state
+     QQQ̄0 Q̄0 , Phys. Rev. D100 (2019) 096013, arXiv:1907.05177.
+
+[23] M. A. Bedolla, J. Ferretti, C. D. Roberts et al., Spectrum of fully-heavy tetraquarks
+     from a diquark+antidiquark perspective, arXiv:1911.00960.
+
+[24] R. J. Lloyd and J. P. Vary, All-charm tetraquarks, Phys. Rev. D70 (2004) 014009,
+     arXiv:hep-ph/0311179.
+
+[25] X. Chen, Fully-charm tetraquarks: ccc̄c̄, arXiv:2001.06755.
+
+[26] Z.-G. Wang and Z.-Y. Di, Analysis of the vector and axialvector QQQ̄Q̄ tetraquark
+     states with QCD sum rules, Acta Phys. Polon. B50 (2019) 1335, arXiv:1807.08520.
+
+[27] M. N. Anwar, J. Ferretti, F.-K. Guo et al., Spectroscopy and decays of the fully-heavy
+     tetraquarks, Eur. Phys. J. C78 (2018) 647, arXiv:1710.02540.
+
+[28] Y.-R. Liu, H.-X. Chen, W. Chen et al., Pentaquark and tetraquark states, Prog. Part.
+     Nucl. Phys. 107 (2019) 237, arXiv:1903.11976.
+
+[29] A. Esposito and A. D. Polosa, A bbb̄b̄ di-bottomonium at the LHC?, Eur. Phys. J.
+     C78 (2018) 782, arXiv:1807.06040.
+
+[30] C. Becchi, A. Giachino, L. Maiani et al., Search for bbb̄b̄ tetraquark decays in 4
+     muons, B + B − , B 0 B̄ 0 and Bs0 B̄s0 channels at LHC, Phys. Lett. B806 (2020) 135495,
+     arXiv:2002.11077.
+
+[31] Y. Bai, S. Lu, and J. Osborne, Beauty-full tetraquarks, Phys. Lett. B798 (2019)
+     134930, arXiv:1612.00012.
+
+
+                                               7
+[32] J.-M. Richard, A. Valcarce, and J. Vijande, String dynamics and metastability of
+     all-heavy tetraquarks, Phys. Rev. D95 (2017) 054019, arXiv:1703.00783.
+
+[33] Y. Chen and R.          Vega-Morales,       Golden probe of the di−Υ         threshold,
+     arXiv:1710.02738.
+
+[34] X. Chen, Fully-heavy tetraquarks: bbc̄c̄ and bcb̄c̄, Phys. Rev. D100 (2019) 094009,
+     arXiv:1908.08811.
+
+[35] A. V. Berezhnoy, A. K. Likhoded, and A. A. Novoselov, Υ -meson pair production at
+     LHC, Phys. Rev. D87 (2013) 054023, arXiv:1210.5754.
+
+[36] M. Karliner and J. L. Rosner, Baryons with two heavy quarks: Masses, production,
+     decays, and detection, Phys. Rev. D90 (2014) 094007, arXiv:1408.5877.
+                                                                                   ++
+[37] LHCb Collaboration, R. Aaij et al., Observation of the doubly charmed baryon Ξcc ,
+     Phys. Rev. Lett. 119 (2017) 112001, arXiv:1707.01621.
+
+[38] LHCb Collaboration, R. Aaij et al., Isospin amplitudes in Λ0b → J/ψΛ(Σ 0 ) and
+     Ξb0 → J/ψΞ 0 (Λ) decays, Phys. Rev. Lett. 124 (2020) 111802, arXiv:1912.02110.
+
+[39] LHCb Collaboration, R. Aaij et al., Search for beautiful tetraquarks in the Υ (1S)µ+ µ−
+     invariant-mass spectrum, J. High Energy Phys. 10 (2018) 086, arXiv:1806.09707.
+
+[40] CMS Collaboration, A. M. Sirunyan et al., Measurement of the Υ (1S) pair production
+     cross section√and search for resonances decaying to Υ (1S)µ+ µ− in proton-proton
+     collisions at s = 13 TeV, arXiv:2002.06393.
+
+[41] G. Calucci and D. Treleani, Minijets and the two-body parton correlation, Phys. Rev.
+     D57 (1998) 503, arXiv:hep-ph/9707389.
+
+[42] G. Calucci and D. Treleani, Proton structure in transverse space and the effective
+     cross section, Phys. Rev. D60 (1999) 054023, arXiv:hep-ph/9902479.
+
+[43] A. Del Fabbro and D. Treleani, Scale factor in double parton collisions and parton
+     densities in transverse space, Phys. Rev. D63 (2001) 057901, arXiv:hep-ph/0005273.
+
+[44] L.-P. Sun, H. Han, and K.-T. Chao, Impact of J/ψ pair production at the LHC and
+     predictions in nonrelativistic QCD, Phys. Rev. D94 (2016) 074033, arXiv:1404.4042.
+
+[45] A. K. Likhoded, A. V. Luchinsky, and S. V. Poslavsky, Production of J/ψ + χc
+     and J/ψ + J/ψ with real gluon emission at LHC, Phys. Rev. D94 (2016) 054017,
+     arXiv:1606.06767.
+
+[46] H.-S. Shao, HELAC-Onia: An automatic matrix element generator for heavy quarko-
+     nium physics, Comput. Phys. Commun. 184 (2013) 2562, arXiv:1212.5293.
+
+
+
+                                             8
+[47] H.-S. Shao, HELAC-Onia 2.0: An upgraded matrix-element and event gener-
+     ator for heavy quarkonium physics, Comput. Phys. Commun. 198 (2016) 238,
+     arXiv:1507.03435.
+[48] S. P. Baranov, Pair production of J/ψ mesons in the kt -factorization approach, Phys.
+     Rev. D84 (2011) 054012.
+[49] J.-P. Lansberg and H.-S. Shao, Production of J/ψ+ηc versus J/ψ+J/ψ at the LHC: Im-
+     portance of real α5s corrections, Phys. Rev. Lett. 111 (2013) 122001, arXiv:1308.0474.
+[50] J.-P. Lansberg and H.-S. Shao, J/ψ-pair production at large momenta: indications for
+     double parton scatterings and large α5s contributions, Phys. Lett. B751 (2015) 479,
+     arXiv:1410.8822.
+[51] J.-P. Lansberg and H.-S. Shao, Double-quarkonium production at a fixed-target experi-
+     ment at the LHC (AFTER@LHC), Nucl. Phys. B900 (2015) 273, arXiv:1504.06531.
+[52] CMS Collaboration, S. Chatrchyan et al., Study
+                                                  √ of double parton scattering using W
+     + 2-jet events in proton-proton collisions at s = 7 TeV, J. High Energy Phys. 03
+     (2014) 032, arXiv:1312.5729.
+[53] CMS Collaboration, V. Khachatryan
+                                √      et al., Measurement of prompt J/ψ pair pro-
+     duction in pp collisions at s =7 TeV, J. High Energy Phys. 09 (2014) 094,
+     arXiv:1406.0484.
+[54] CMS Collaboration, V. Khachatryan
+                                √        et al., Observation of Υ (1S) pair production in
+     proton-proton collisions at s = 8 TeV, arXiv:1610.07095.
+[55] ATLAS Collaboration, G. Aad et al., Measurement of√the production of a W boson
+     in association with a charm quark in pp collisions at s = 7 TeV with the ATLAS
+     detector, J. High Energy Phys. 05 (2014) 068, arXiv:1402.6263.
+[56] ATLAS Collaboration, G. Aad et al., Observation and measurements of the pro-
+     duction of prompt
+                  √    and non-prompt J/ψ mesons in association with a Z boson in pp
+     collisions at s = 8 TeV with the ATLAS detector, Eur. Phys. J. C75 (2015) 229,
+     arXiv:1412.6428.
+[57] ATLAS Collaboration, M. Aaboud     √ et al., Study of hard double-parton scattering in
+     four-jet events in pp collisions at s = 7 TeV with the ATLAS experiment, J. High
+     Energy Phys. 11 (2016) 110, arXiv:1608.01857.
+[58] ATLAS Collaboration, M. Aaboud et al.,      √ Measurement of the prompt J/ψ pair
+     production cross-section in pp collisions at s =8 TeV with the ATLAS detector, Eur.
+     Phys. J. C77 (2017) 76, arXiv:1612.02950.
+[59] LHCb Collaboration, R. Aaij et al.,
+                                     √ Observation of double charm production involving
+     open charm in pp collisions at s =7 TeV, J. High Energy Phys. 06 (2012) 141,
+     Addendum ibid. 03 (2014) 108, arXiv:1205.0975.
+
+                                            9
+[60] LHCb Collaboration, R. Aaij et al., Observation of associated production of a Z
+     boson with a D meson in the forward region, J. High Energy Phys. 04 (2014) 091,
+     arXiv:1401.3245.
+
+[61] LHCb Collaboration, R. Aaij√ et al., Production of associated Υ and open charm
+     hadrons in pp collisions at s =7 and 8 TeV via double parton scattering, J. High
+     Energy Phys. 07 (2016) 052, arXiv:1510.05949.
+
+[62] Axial Field Spectrometer
+                        √     Collaboration, T. Akesson et al., Double parton scattering
+     in pp collisions at s = 63 GeV, Z. Phys. C34 (1987) 163.
+
+[63] CDF Collaboration, F. Abe et al., Study√ of four jet events and evidence for double
+     parton interactions in pp collisions at s = 1.8 TeV, Phys. Rev. D47 (1993) 4857.
+
+[64] CDF Collaboration,
+                  √       F. Abe et al., Measurement of double parton scattering in p̄p
+     collisions at s = 1.8 TeV, Phys. Rev. Lett. 79 (1997) 584.
+
+[65] D0 Collaboration, √  V. M. Abazov et al., Double parton interactions in γ+3 jet events
+     in pp̄ collisions at s = 1.96 TeV, Phys. Rev. D81 (2010) 052012, arXiv:0912.5104.
+
+[66] D0 Collaboration, V. M. Abazov et al., Double  √ parton interactions in γ + 3 jet and
+     γ + b/c jet + 2 jet events in pp̄ collisions at s = 1.96 TeV, Phys. Rev. D89 (2014)
+     072006, arXiv:1402.1550.
+
+[67] D0 Collaboration, V. M. Abazov et √al., Study of double parton interactions in diphoton
+     + dijet events in pp̄ collisions at s = 1.96 TeV, Phys. Rev. D93 (2016) 052008,
+     arXiv:1512.05291.
+
+[68] UA2 Collaboration, J. Alitti et al., A study of multi-jet events at the CERN p̄p collider
+     and a search for double parton scattering, Phys. Lett. B268 (1991) 145.
+
+[69] LHCb
+       √ Collaboration, R. Aaij et al., Observation of J/ψ-pair production in pp collisions
+     at s =7 TeV, Phys. Lett. B707 (2012) 52, arXiv:1109.0963.
+
+[70] LHCb Collaboration, R. Aaij√ et al., Measurement of the J/ψ pair production cross-
+     section in pp collisions at s =13 TeV, J. High Energy Phys. 06 (2017) 047, Erratum
+     ibid. 10 (2017) 068, arXiv:1612.07451.
+
+[71] LHCb collaboration, A. A. Alves Jr. et al., The LHCb detector at the LHC, JINST 3
+     (2008) S08005.
+
+[72] LHCb collaboration, R. Aaij et al., LHCb detector performance, Int. J. Mod. Phys.
+     A30 (2015) 1530022, arXiv:1412.6352.
+
+[73] LHCb Collaboration, R. Aaij et al., Measurement of b-hadron masses, Phys. Lett.
+     B708 (2012) 241, arXiv:1112.4896.
+
+
+
+                                             10
+[74] T. Sjöstrand, S. Mrenna, and P. Skands, A brief introduction to PYTHIA 8.1, Comput.
+     Phys. Commun. 178 (2008) 852, arXiv:0710.3820.
+
+[75] I. Belyaev et al., Handling of the generation of primary events in Gauss, the LHCb
+     simulation framework, J. Phys. Conf. Ser. 331 (2011) 032047.
+
+[76] D. J. Lange, The EvtGen particle decay simulation package, Nucl. Instrum. Meth.
+     A462 (2001) 152.
+
+[77] P. Golonka and Z. Was, PHOTOS Monte Carlo: A precision tool for QED corrections
+     in Z and W decays, Eur. Phys. J. C45 (2006) 97, arXiv:hep-ph/0506026.
+
+[78] Geant4 collaboration, J. Allison, K. Amako, J. Apostolakis et al., Geant4 developments
+     and applications, IEEE Trans. Nucl. Sci. 53 (2006) 270.
+
+[79] M. Clemencic et al., The LHCb simulation application, Gauss: Design, evolution and
+     experience, J. Phys. Conf. Ser. 331 (2011) 032023.
+
+[80] W. D. Hulsbergen, Decay chain fitting with a Kalman filter, Nucl. Instrum. Meth.
+     A552 (2005) 566, arXiv:physics/0503191.
+
+[81] T. Skwarnicki, A study of the radiative cascade transitions between the Upsilon-prime
+     and Upsilon resonances, PhD thesis, Institute of Nuclear Physics, Krakow, 1986,
+     DESY-F31-86-02.
+
+[82] LHCb
+       √ Collaboration, R. Aaij et al., Measurement of J/ψ production in pp collisions
+     at s =7 TeV, Eur. Phys. J. C71 (2011) 1645, arXiv:1103.0423.
+
+[83] LHCb
+       √ Collaboration, R. Aaij et al., Production of J/ψ and Υ mesons in pp collisions
+     at s =8 TeV, J. High Energy Phys. 06 (2013) 064, arXiv:1304.6977.
+
+[84] LHCb Collaboration, R. Aaij √ et al., Measurement of forward J/ψ production cross-
+     sections in pp collisions at s =13 TeV, J. High Energy Phys. 10 (2015) 172, Erratum
+     ibid. 05 (2017) 063, arXiv:1509.00771.
+
+[85] Particle Data Group, M. Tanabashi et al., Review of particle physics, Phys. Rev. D98
+     (2018) 030001, and 2019 update.
+
+[86] M. Pivk and F. R. Le Diberder, sPlot: A statistical tool to unfold data distributions,
+     Nucl. Instrum. Meth. A555 (2005) 356, arXiv:physics/0402083.
+
+[87] Y. Xie, sFit: a method for background subtraction in maximum likelihood fit,
+     arXiv:0905.0724.
+
+[88] E. Braaten, L.-P. He, K. Ingles et al., Charm-meson triangle singularity in e+ e−
+     annihilation into D∗0 D̄0 + γ, Phys. Rev. D101 (2020) 096020, arXiv:2004.12841.
+
+
+
+                                            11
+[89] X.-H. Liu, Q. Wang, and Q. Zhao, Understanding the newly observed heavy pentaquark
+     candidates, Phys. Lett. B757 (2016) 231, arXiv:1507.05359.
+
+[90] J.-J. Xie, L.-S. Geng, and E. Oset, f2 (1810) as a triangle singularity, Phys. Rev. D95
+     (2017) 034004, arXiv:1610.09592.
+
+[91] F.-K. Guo, C. Hanhart, Y. S. Kalashnikova et al., Interplay of quark and meson
+     degrees of freedom in near-threshold states: A practical parametrization for line shapes,
+     Phys. Rev. D93 (2016) 074031, arXiv:1602.00940.
+
+[92] C. Langenbruch, Parameter uncertainties in weighted unbinned maximum likelihood
+     fits, arXiv:1911.01303.
+
+[93] G. Cowan, K. Cranmer, E. Gross et al., Asymptotic formulae for likelihood-based
+     tests of new physics, Eur. Phys. J. C71 (2011) 1554, Erratum ibid. C73 (2013) 2501,
+     arXiv:1007.1727.
+
+
+
+
+                                             12
+                                   LHCb collaboration
+R. Aaij31 , C. Abellán Beteta49 , T. Ackernley59 , B. Adeva45 , M. Adinolfi53 , H. Afsharnia9 ,
+C.A. Aidala83 , S. Aiola25 , Z. Ajaltouni9 , S. Akar64 , J. Albrecht14 , F. Alessio47 , M. Alexander58 ,
+A. Alfonso Albero44 , Z. Aliouche61 , G. Alkhazov37 , P. Alvarez Cartelle47 , A.A. Alves Jr45 ,
+S. Amato2 , Y. Amhis11 , L. An21 , L. Anderlini21 , G. Andreassi48 , A. Andreianov37 ,
+M. Andreotti20 , F. Archilli16 , A. Artamonov43 , M. Artuso67 , K. Arzymatov41 , E. Aslanides10 ,
+M. Atzeni49 , B. Audurier11 , S. Bachmann16 , M. Bachmayer48 , J.J. Back55 , S. Baker60 ,
+P. Baladron Rodriguez45 , V. Balagura11,b , W. Baldini20 , J. Baptista Leite1 , R.J. Barlow61 ,
+S. Barsuk11 , W. Barter60 , M. Bartolini23,47,i , F. Baryshnikov80 , J.M. Basels13 , G. Bassi28 ,
+V. Batozskaya35 , B. Batsukh67 , A. Battig14 , A. Bay48 , M. Becker14 , F. Bedeschi28 , I. Bediaga1 ,
+A. Beiter67 , V. Belavin41 , S. Belin26 , V. Bellee48 , K. Belous43 , I. Belov39 , I. Belyaev38 ,
+G. Bencivenni22 , E. Ben-Haim12 , A. Berezhnoy39 , R. Bernet49 , D. Berninghoff16 ,
+H.C. Bernstein67 , C. Bertella47 , E. Bertholet12 , A. Bertolin27 , C. Betancourt49 , F. Betti19,e ,
+M.O. Bettler54 , Ia. Bezshyiko49 , S. Bhasin53 , J. Bhom33 , L. Bian72 , M.S. Bieker14 , S. Bifani52 ,
+P. Billoir12 , M. Birch60 , F.C.R. Bishop54 , A. Bizzeti21,u , M. Bjørn62 , M.P. Blago47 , T. Blake55 ,
+F. Blanc48 , S. Blusk67 , D. Bobulska58 , V. Bocci30 , J.A. Boelhauve14 , O. Boente Garcia45 ,
+T. Boettcher63 , A. Boldyrev81 , A. Bondar42,x , N. Bondar37,47 , S. Borghi61 , M. Borisyak41 ,
+M. Borsato16 , J.T. Borsuk33 , S.A. Bouchiba48 , T.J.V. Bowcock59 , A. Boyer47 , C. Bozzi20 ,
+M.J. Bradley60 , S. Braun65 , A. Brea Rodriguez45 , M. Brodski47 , J. Brodzicka33 ,
+A. Brossa Gonzalo55 , D. Brundu26 , E. Buchanan53 , A. Buonaura49 , C. Burr47 , A. Bursche26 ,
+A. Butkevich40 , J.S. Butter31 , J. Buytaert47 , W. Byczynski47 , S. Cadeddu26 , H. Cai72 ,
+R. Calabrese20,g , L. Calefice14 , L. Calero Diaz22 , S. Cali22 , R. Calladine52 , M. Calvi24,j ,
+M. Calvo Gomez44,m , P. Camargo Magalhaes53 , A. Camboni44 , P. Campana22 ,
+D.H. Campora Perez47 , A.F. Campoverde Quezada5 , S. Capelli24,j , L. Capriotti19,e ,
+A. Carbone19,e , G. Carboni29 , R. Cardinale23,i , A. Cardini26 , I. Carli6 , P. Carniti24,j ,
+K. Carvalho Akiba31 , A. Casais Vidal45 , G. Casse59 , M. Cattaneo47 , G. Cavallero47 , S. Celani48 ,
+R. Cenci28 , J. Cerasoli10 , A.J. Chadwick59 , M.G. Chapman53 , M. Charles12 , Ph. Charpentier47 ,
+G. Chatzikonstantinidis52 , C.A. Chavez Barajas59 , M. Chefdeville8 , C. Chen3 , S. Chen26 ,
+A. Chernov33 , S.-G. Chitic47 , V. Chobanova45 , S. Cholak48 , M. Chrzaszcz33 , A. Chubykin37 ,
+V. Chulikov37 , P. Ciambrone22 , M.F. Cicala55 , X. Cid Vidal45 , G. Ciezarek47 , P.E.L. Clarke57 ,
+M. Clemencic47 , H.V. Cliff54 , J. Closier47 , J.L. Cobbledick61 , V. Coco47 , J.A.B. Coelho11 ,
+J. Cogan10 , E. Cogneras9 , L. Cojocariu36 , P. Collins47 , T. Colombo47 , L. Congedo18 , A. Contu26 ,
+N. Cooke52 , G. Coombs58 , S. Coquereau44 , G. Corti47 , C.M. Costa Sobral55 , B. Couturier47 ,
+D.C. Craik63 , J. Crkovská66 , M. Cruz Torres1,z , R. Currie57 , C.L. Da Silva66 , E. Dall’Occo14 ,
+J. Dalseno45 , C. D’Ambrosio47 , A. Danilina38 , P. d’Argent47 , A. Davis61 ,
+O. De Aguiar Francisco47 , K. De Bruyn47 , S. De Capua61 , M. De Cian48 , J.M. De Miranda1 ,
+L. De Paula2 , M. De Serio18,d , D. De Simone49 , P. De Simone22 , J.A. de Vries78 , C.T. Dean66 ,
+W. Dean83 , D. Decamp8 , L. Del Buono12 , B. Delaney54 , H.-P. Dembinski14 , A. Dendek34 ,
+V. Denysenko49 , D. Derkach81 , O. Deschamps9 , F. Desse11 , F. Dettori26,f , B. Dey7 ,
+A. Di Canto47 , P. Di Nezza22 , S. Didenko80 , L. Dieste Maronas45 , H. Dijkstra47 , V. Dobishuk51 ,
+A.M. Donohoe17 , F. Dordei26 , M. Dorigo28,y , A.C. dos Reis1 , L. Douglas58 , A. Dovbnya50 ,
+A.G. Downes8 , K. Dreimanis59 , M.W. Dudek33 , L. Dufour47 , V. Duk76 , P. Durante47 ,
+J.M. Durham66 , D. Dutta61 , M. Dziewiecki16 , A. Dziurda33 , A. Dzyuba37 , S. Easo56 , U. Egede69 ,
+V. Egorychev38 , S. Eidelman42,x , S. Eisenhardt57 , S. Ek-In48 , L. Eklund58 , S. Ely67 , A. Ene36 ,
+E. Epple66 , S. Escher13 , J. Eschle49 , S. Esen31 , T. Evans47 , A. Falabella19 , J. Fan3 , Y. Fan5 ,
+
+                                                  13
+B. Fang72 , N. Farley52 , S. Farry59 , D. Fazzini11 , P. Fedin38 , M. Féo47 , P. Fernandez Declara47 ,
+A. Fernandez Prieto45 , F. Ferrari19,e , L. Ferreira Lopes48 , F. Ferreira Rodrigues2 ,
+S. Ferreres Sole31 , M. Ferrillo49 , M. Ferro-Luzzi47 , S. Filippov40 , R.A. Fini18 , M. Fiorini20,g ,
+M. Firlej34 , K.M. Fischer62 , C. Fitzpatrick61 , T. Fiutowski34 , F. Fleuret11,b , M. Fontana47 ,
+F. Fontanelli23,i , R. Forty47 , V. Franco Lima59 , M. Franco Sevilla65 , M. Frank47 , E. Franzoso20 ,
+G. Frau16 , C. Frei47 , D.A. Friday58 , J. Fu25,q , Q. Fuehring14 , W. Funk47 , E. Gabriel31 ,
+T. Gaintseva41 , A. Gallas Torreira45 , D. Galli19,e , S. Gallorini27 , S. Gambetta57 , Y. Gan3 ,
+M. Gandelman2 , P. Gandini25 , Y. Gao4 , M. Garau26 , L.M. Garcia Martin46 , P. Garcia Moreno44 ,
+J. Garcı́a Pardiñas49 , B. Garcia Plana45 , F.A. Garcia Rosales11 , L. Garrido44 , D. Gascon44 ,
+C. Gaspar47 , R.E. Geertsema31 , D. Gerick16 , L.L. Gerken14 , E. Gersabeck61 , M. Gersabeck61 ,
+T. Gershon55 , D. Gerstel10 , Ph. Ghez8 , V. Gibson54 , M. Giovannetti22,k , A. Gioventù45 ,
+P. Gironella Gironell44 , L. Giubega36 , C. Giugliano20,g , K. Gizdov57 , E.L. Gkougkousis47 ,
+V.V. Gligorov12 , C. Göbel70 , E. Golobardes44,m , D. Golubkov38 , A. Golutvin60,80 , A. Gomes1,a ,
+S. Gomez Fernandez44 , M. Goncerz33 , G. Gong3 , P. Gorbounov38 , I.V. Gorelov39 , C. Gotti24,j ,
+E. Govorkova31 , J.P. Grabowski16 , R. Graciani Diaz44 , T. Grammatico12 ,
+L.A. Granado Cardoso47 , E. Graugés44 , E. Graverini48 , G. Graziani21 , A. Grecu36 ,
+L.M. Greeven31 , P. Griffith20,g , L. Grillo61 , S. Gromov80 , L. Gruber47 , B.R. Gruberg Cazon62 ,
+C. Gu3 , M. Guarise20 , P. A. Günther16 , E. Gushchin40 , A. Guth13 , Y. Guz43,47 , T. Gys47 ,
+T. Hadavizadeh69 , G. Haefeli48 , C. Haen47 , J. Haimberger47 , S.C. Haines54 ,
+T. Halewood-leagas59 , P.M. Hamilton65 , Q. Han7 , X. Han16 , T.H. Hancock62 ,
+S. Hansmann-Menzemer16 , N. Harnew62 , T. Harrison59 , R. Hart31 , C. Hasse47 , M. Hatch47 ,
+J. He5 , M. Hecker60 , K. Heijhoff31 , K. Heinicke14 , A.M. Hennequin47 , K. Hennessy59 ,
+L. Henry25,46 , J. Heuel13 , A. Hicheur68 , D. Hill62 , M. Hilton61 , S.E. Hollitt14 , P.H. Hopchev48 ,
+J. Hu16 , J. Hu71 , W. Hu7 , W. Huang5 , X. Huang72 , W. Hulsbergen31 , T. Humair60 ,
+R.J. Hunter55 , M. Hushchyn81 , D. Hutchcroft59 , D. Hynds31 , P. Ibis14 , M. Idzik34 , D. Ilin37 ,
+P. Ilten52 , A. Inglessi37 , A. Ishteev80 , K. Ivshin37 , R. Jacobsson47 , S. Jakobsen47 , E. Jans31 ,
+B.K. Jashal46 , A. Jawahery65 , V. Jevtic14 , M. Jezabek33 , F. Jiang3 , M. John62 , D. Johnson47 ,
+C.R. Jones54 , T.P. Jones55 , B. Jost47 , N. Jurik62 , S. Kandybei50 , Y. Kang3 , M. Karacson47 ,
+J.M. Kariuki53 , N. Kazeev81 , M. Kecke16 , F. Keizer54,47 , M. Kelsey67 , M. Kenzie55 , T. Ketel32 ,
+B. Khanji47 , A. Kharisova82 , S. Kholodenko43 , K.E. Kim67 , T. Kirn13 , V.S. Kirsebom48 ,
+O. Kitouni63 , S. Klaver22 , K. Klimaszewski35 , S. Koliiev51 , A. Kondybayeva80 ,
+A. Konoplyannikov38 , P. Kopciewicz34 , R. Kopecna16 , P. Koppenburg31 , M. Korolev39 ,
+I. Kostiuk31,51 , O. Kot51 , S. Kotriakhova37,30 , P. Kravchenko37 , L. Kravchuk40 ,
+R.D. Krawczyk47 , M. Kreps55 , F. Kress60 , S. Kretzschmar13 , P. Krokovny42,x , W. Krupa34 ,
+W. Krzemien35 , W. Kucewicz33,l , M. Kucharczyk33 , V. Kudryavtsev42,x , H.S. Kuindersma31 ,
+G.J. Kunde66 , T. Kvaratskheliya38 , D. Lacarrere47 , G. Lafferty61 , A. Lai26 , A. Lampis26 ,
+D. Lancierini49 , J.J. Lane61 , R. Lane53 , G. Lanfranchi22 , C. Langenbruch13 , J. Langer14 ,
+O. Lantwin49,80 , T. Latham55 , F. Lazzari28,v , R. Le Gac10 , S.H. Lee83 , R. Lefèvre9 ,
+A. Leflat39,47 , S. Legotin80 , O. Leroy10 , T. Lesiak33 , B. Leverington16 , H. Li71 , L. Li62 , P. Li16 ,
+X. Li66 , Y. Li6 , Y. Li6 , Z. Li67 , X. Liang67 , T. Lin60 , R. Lindner47 , V. Lisovskyi14 , R. Litvinov26 ,
+G. Liu71 , H. Liu5 , S. Liu6 , X. Liu3 , A. Loi26 , J. Lomba Castro45 , I. Longstaff58 , J.H. Lopes2 ,
+G. Loustau49 , G.H. Lovell54 , Y. Lu6 , D. Lucchesi27,o , S. Luchuk40 , M. Lucio Martinez31 ,
+V. Lukashenko31 , Y. Luo3 , A. Lupato61 , E. Luppi20,g , O. Lupton55 , A. Lusiani28,t , X. Lyu5 ,
+L. Ma6 , S. Maccolini19,e , F. Machefert11 , F. Maciuc36 , V. Macko48 , P. Mackowiak14 ,
+S. Maddrell-Mander53 , O. Madejczyk34 , L.R. Madhan Mohan53 , O. Maev37 , A. Maevskiy81 ,
+D. Maisuzenko37 , M.W. Majewski34 , S. Malde62 , B. Malecki47 , A. Malinin79 , T. Maltsev42,x ,
+
+                                                    14
+H. Malygina16 , G. Manca26,f , G. Mancinelli10 , R. Manera Escalero44 , D. Manuzzi19,e ,
+D. Marangotto25,q , J. Maratas9,w , J.F. Marchand8 , U. Marconi19 , S. Mariani21,47,h ,
+C. Marin Benito11 , M. Marinangeli48 , P. Marino48 , J. Marks16 , P.J. Marshall59 , G. Martellotti30 ,
+L. Martinazzoli47 , M. Martinelli24,j , D. Martinez Santos45 , F. Martinez Vidal46 , A. Massafferri1 ,
+M. Materok13 , R. Matev47 , A. Mathad49 , Z. Mathe47 , V. Matiunin38 , C. Matteuzzi24 ,
+K.R. Mattioli83 , A. Mauri49 , E. Maurice11,b , J. Mauricio44 , M. Mazurek35 , M. McCann60 ,
+L. Mcconnell17 , T.H. Mcgrath61 , A. McNab61 , R. McNulty17 , J.V. Mead59 , B. Meadows64 ,
+C. Meaux10 , G. Meier14 , N. Meinert75 , D. Melnychuk35 , S. Meloni24,j , M. Merk31,78 , A. Merli25 ,
+L. Meyer Garcia2 , M. Mikhasenko47 , D.A. Milanes73 , E. Millard55 , M.-N. Minard8 ,
+L. Minzoni20,g , S.E. Mitchell57 , B. Mitreska61 , D.S. Mitzel47 , A. Mödden14 , R.A. Mohammed62 ,
+R.D. Moise60 , T. Mombächer14 , I.A. Monroy73 , S. Monteil9 , M. Morandin27 , G. Morello22 ,
+M.J. Morello28,t , J. Moron34 , A.B. Morris74 , A.G. Morris55 , R. Mountain67 , H. Mu3 ,
+F. Muheim57 , M. Mukherjee7 , M. Mulder47 , D. Müller47 , K. Müller49 , C.H. Murphy62 ,
+D. Murray61 , P. Muzzetto26 , P. Naik53 , T. Nakada48 , R. Nandakumar56 , T. Nanut48 ,
+I. Nasteva2 , M. Needham57 , I. Neri20,g , N. Neri25,q , S. Neubert74 , N. Neufeld47 , R. Newcombe60 ,
+T.D. Nguyen48 , C. Nguyen-Mau48,n , E.M. Niel11 , S. Nieswand13 , N. Nikitin39 , N.S. Nolte47 ,
+C. Nunez83 , A. Oblakowska-Mucha34 , V. Obraztsov43 , S. Ogilvy58 , D.P. O’Hanlon53 ,
+R. Oldeman26,f , C.J.G. Onderwater77 , J. D. Osborn83 , A. Ossowska33 , J.M. Otalora Goicochea2 ,
+T. Ovsiannikova38 , P. Owen49 , A. Oyanguren46 , B. Pagare55 , P.R. Pais47 , T. Pajero28,47,t ,
+A. Palano18 , M. Palutan22 , Y. Pan61 , G. Panshin82 , A. Papanestis56 , M. Pappagallo57 ,
+L.L. Pappalardo20,g , C. Pappenheimer64 , W. Parker65 , C. Parkes61 , C.J. Parkinson45 ,
+B. Passalacqua20 , G. Passaleva21,47 , A. Pastore18 , M. Patel60 , C. Patrignani19,e , C.J. Pawley78 ,
+A. Pearce47 , A. Pellegrino31 , M. Pepe Altarelli47 , S. Perazzini19 , D. Pereima38 , P. Perret9 ,
+K. Petridis53 , A. Petrolini23,i , A. Petrov79 , S. Petrucci57 , M. Petruzzo25 , A. Philippov41 ,
+L. Pica28 , M. Piccini76 , B. Pietrzyk8 , G. Pietrzyk48 , M. Pili62 , D. Pinci30 , J. Pinzino47 ,
+F. Pisani47 , A. Piucci16 , Resmi P.K10 , V. Placinta36 , S. Playfer57 , J. Plews52 , M. Plo Casasus45 ,
+F. Polci12 , M. Poli Lener22 , M. Poliakova67 , A. Poluektov10 , N. Polukhina80,c , I. Polyakov67 ,
+E. Polycarpo2 , G.J. Pomery53 , S. Ponce47 , A. Popov43 , D. Popov5,47 , S. Popov41 , S. Poslavskii43 ,
+K. Prasanth33 , L. Promberger47 , C. Prouve45 , V. Pugatch51 , A. Puig Navarro49 , H. Pullen62 ,
+G. Punzi28,p , W. Qian5 , J. Qin5 , R. Quagliani12 , B. Quintana8 , N.V. Raab17 ,
+R.I. Rabadan Trejo10 , B. Rachwal34 , J.H. Rademacker53 , M. Rama28 , M. Ramos Pernas45 ,
+M.S. Rangel2 , F. Ratnikov41,81 , G. Raven32 , M. Reboud8 , F. Redi48 , F. Reiss12 ,
+C. Remon Alepuz46 , Z. Ren3 , V. Renaudin62 , R. Ribatti28 , S. Ricciardi56 , D.S. Richards56 ,
+K. Rinnert59 , P. Robbe11 , A. Robert12 , G. Robertson57 , A.B. Rodrigues48 , E. Rodrigues59 ,
+J.A. Rodriguez Lopez73 , M. Roehrken47 , A. Rollings62 , P. Roloff47 , V. Romanovskiy43 ,
+M. Romero Lamas45 , A. Romero Vidal45 , J.D. Roth83 , M. Rotondo22 , M.S. Rudolph67 , T. Ruf47 ,
+J. Ruiz Vidal46 , A. Ryzhikov81 , J. Ryzka34 , J.J. Saborido Silva45 , N. Sagidova37 , N. Sahoo55 ,
+B. Saitta26,f , D. Sanchez Gonzalo44 , C. Sanchez Gras31 , C. Sanchez Mayordomo46 ,
+R. Santacesaria30 , C. Santamarina Rios45 , M. Santimaria22 , E. Santovetti29,k , D. Saranin80 ,
+G. Sarpis61 , M. Sarpis74 , A. Sarti30 , C. Satriano30,s , A. Satta29 , M. Saur5 , D. Savrina38,39 ,
+H. Sazak9 , L.G. Scantlebury Smead62 , S. Schael13 , M. Schellenberg14 , M. Schiller58 ,
+H. Schindler47 , M. Schmelling15 , T. Schmelzer14 , B. Schmidt47 , O. Schneider48 , A. Schopper47 ,
+H.F. Schreiner64 , M. Schubiger31 , S. Schulte48 , M.H. Schune11 , R. Schwemmer47 , B. Sciascia22 ,
+A. Sciubba30 , S. Sellam68 , A. Semennikov38 , M. Senghi Soares32 , A. Sergi52,47 , N. Serra49 ,
+J. Serrano10 , L. Sestini27 , A. Seuthe14 , P. Seyfert47 , D.M. Shangase83 , M. Shapkin43 ,
+I. Shchemerov80 , L. Shchutska48 , T. Shears59 , L. Shekhtman42,x , Z. Shen4 , V. Shevchenko79 ,
+
+                                                  15
+E.B. Shields24,j , E. Shmanin80 , J.D. Shupperd67 , B.G. Siddi20 , R. Silva Coutinho49 ,
+L. Silva de Oliveira2 , G. Simi27 , S. Simone18,d , I. Skiba20,g , N. Skidmore74 , T. Skwarnicki67 ,
+M.W. Slater52 , J.C. Smallwood62 , J.G. Smeaton54 , A. Smetkina38 , E. Smith13 , M. Smith60 ,
+A. Snoch31 , M. Soares19 , L. Soares Lavra9 , M.D. Sokoloff64 , F.J.P. Soler58 , A. Solovev37 ,
+I. Solovyev37 , F.L. Souza De Almeida2 , B. Souza De Paula2 , B. Spaan14 , E. Spadaro Norella25,q ,
+P. Spradlin58 , F. Stagni47 , M. Stahl64 , S. Stahl47 , P. Stefko48 , O. Steinkamp49,80 , S. Stemmle16 ,
+O. Stenyakin43 , H. Stevens14 , S. Stone67 , M.E. Stramaglia48 , M. Straticiuc36 , D. Strekalina80 ,
+S. Strokov82 , F. Suljik62 , J. Sun26 , L. Sun72 , Y. Sun65 , P. Svihra61 , P.N. Swallow52 ,
+K. Swientek34 , A. Szabelski35 , T. Szumlak34 , M. Szymanski47 , S. Taneja61 , Z. Tang3 ,
+T. Tekampe14 , F. Teubert47 , E. Thomas47 , K.A. Thomson59 , M.J. Tilley60 , V. Tisserand9 ,
+S. T’Jampens8 , M. Tobin6 , S. Tolk47 , L. Tomassetti20,g , D. Torres Machado1 , D.Y. Tou12 ,
+M. Traill58 , M.T. Tran48 , E. Trifonova80 , C. Trippl48 , A. Tsaregorodtsev10 , G. Tuci28,p ,
+A. Tully48 , N. Tuning31 , A. Ukleja35 , D.J. Unverzagt16 , A. Usachov31 , A. Ustyuzhanin41,81 ,
+U. Uwer16 , A. Vagner82 , V. Vagnoni19 , A. Valassi47 , G. Valenti19 , N. Valls Canudas44 ,
+M. van Beuzekom31 , H. Van Hecke66 , E. van Herwijnen80 , C.B. Van Hulse17 , M. van Veghel77 ,
+R. Vazquez Gomez45 , P. Vazquez Regueiro45 , C. Vázquez Sierra31 , S. Vecchi20 , J.J. Velthuis53 ,
+M. Veltri21,r , A. Venkateswaran67 , M. Veronesi31 , M. Vesterinen55 , D. Vieira64 ,
+M. Vieites Diaz48 , H. Viemann75 , X. Vilasis-Cardona44 , E. Vilella Figueras59 , P. Vincent12 ,
+G. Vitali28 , A. Vitkovskiy31 , A. Vollhardt49 , D. Vom Bruch12 , A. Vorobyev37 , V. Vorobyev42,x ,
+N. Voropaev37 , R. Waldi75 , J. Walsh28 , C. Wang16 , J. Wang3 , J. Wang72 , J. Wang4 , J. Wang6 ,
+M. Wang3 , R. Wang53 , Y. Wang7 , Z. Wang49 , D.R. Ward54 , H.M. Wark59 , N.K. Watson52 ,
+S.G. Weber12 , D. Websdale60 , C. Weisser63 , B.D.C. Westhenry53 , D.J. White61 , M. Whitehead53 ,
+D. Wiedner14 , G. Wilkinson62 , M. Wilkinson67 , I. Williams54 , M. Williams63,69 ,
+M.R.J. Williams61 , F.F. Wilson56 , W. Wislicki35 , M. Witek33 , L. Witola16 , G. Wormser11 ,
+S.A. Wotton54 , H. Wu67 , K. Wyllie47 , Z. Xiang5 , D. Xiao7 , Y. Xie7 , H. Xing71 , A. Xu4 , J. Xu5 ,
+L. Xu3 , M. Xu7 , Q. Xu5 , Z. Xu5 , Z. Xu4 , D. Yang3 , Y. Yang5 , Z. Yang3 , Z. Yang65 , Y. Yao67 ,
+L.E. Yeomans59 , H. Yin7 , J. Yu7 , X. Yuan67 , O. Yushchenko43 , K.A. Zarebski52 ,
+M. Zavertyaev15,c , M. Zdybal33 , O. Zenaiev47 , M. Zeng3 , D. Zhang7 , L. Zhang3 , S. Zhang4 ,
+Y. Zhang47 , Y. Zhang62 , A. Zhelezov16 , Y. Zheng5 , X. Zhou5 , Y. Zhou5 , X. Zhu3 ,
+V. Zhukov13,39 , J.B. Zonneveld57 , S. Zucchelli19,e , D. Zuliani27 , G. Zunica61 .
+1
+  Centro Brasileiro de Pesquisas Fı́sicas (CBPF), Rio de Janeiro, Brazil
+2
+  Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil
+3
+  Center for High Energy Physics, Tsinghua University, Beijing, China
+4
+  School of Physics State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing,
+China
+5
+  University of Chinese Academy of Sciences, Beijing, China
+6
+  Institute Of High Energy Physics (IHEP), Beijing, China
+7
+  Institute of Particle Physics, Central China Normal University, Wuhan, Hubei, China
+8
+  Univ. Grenoble Alpes, Univ. Savoie Mont Blanc, CNRS, IN2P3-LAPP, Annecy, France
+9
+  Université Clermont Auvergne, CNRS/IN2P3, LPC, Clermont-Ferrand, France
+10
+   Aix Marseille Univ, CNRS/IN2P3, CPPM, Marseille, France
+11
+   Université Paris-Saclay, CNRS/IN2P3, IJCLab, Orsay, France
+12
+   LPNHE, Sorbonne Université, Paris Diderot Sorbonne Paris Cité, CNRS/IN2P3, Paris, France
+13
+   I. Physikalisches Institut, RWTH Aachen University, Aachen, Germany
+14
+   Fakultät Physik, Technische Universität Dortmund, Dortmund, Germany
+15
+   Max-Planck-Institut für Kernphysik (MPIK), Heidelberg, Germany
+16
+   Physikalisches Institut, Ruprecht-Karls-Universität Heidelberg, Heidelberg, Germany
+
+
+                                                  16
+17
+   School of Physics, University College Dublin, Dublin, Ireland
+18
+   INFN Sezione di Bari, Bari, Italy
+19
+   INFN Sezione di Bologna, Bologna, Italy
+20
+   INFN Sezione di Ferrara, Ferrara, Italy
+21
+   INFN Sezione di Firenze, Firenze, Italy
+22
+   INFN Laboratori Nazionali di Frascati, Frascati, Italy
+23
+   INFN Sezione di Genova, Genova, Italy
+24
+   INFN Sezione di Milano-Bicocca, Milano, Italy
+25
+   INFN Sezione di Milano, Milano, Italy
+26
+   INFN Sezione di Cagliari, Monserrato, Italy
+27
+   Universita degli Studi di Padova, Universita e INFN, Padova, Padova, Italy
+28
+   INFN Sezione di Pisa, Pisa, Italy
+29
+   INFN Sezione di Roma Tor Vergata, Roma, Italy
+30
+   INFN Sezione di Roma La Sapienza, Roma, Italy
+31
+   Nikhef National Institute for Subatomic Physics, Amsterdam, Netherlands
+32
+   Nikhef National Institute for Subatomic Physics and VU University Amsterdam, Amsterdam,
+Netherlands
+33
+   Henryk Niewodniczanski Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland
+34
+   AGH - University of Science and Technology, Faculty of Physics and Applied Computer Science,
+Kraków, Poland
+35
+   National Center for Nuclear Research (NCBJ), Warsaw, Poland
+36
+   Horia Hulubei National Institute of Physics and Nuclear Engineering, Bucharest-Magurele, Romania
+37
+   Petersburg Nuclear Physics Institute NRC Kurchatov Institute (PNPI NRC KI), Gatchina, Russia
+38
+   Institute of Theoretical and Experimental Physics NRC Kurchatov Institute (ITEP NRC KI), Moscow,
+Russia, Moscow, Russia
+39
+   Institute of Nuclear Physics, Moscow State University (SINP MSU), Moscow, Russia
+40
+   Institute for Nuclear Research of the Russian Academy of Sciences (INR RAS), Moscow, Russia
+41
+   Yandex School of Data Analysis, Moscow, Russia
+42
+   Budker Institute of Nuclear Physics (SB RAS), Novosibirsk, Russia
+43
+   Institute for High Energy Physics NRC Kurchatov Institute (IHEP NRC KI), Protvino, Russia,
+Protvino, Russia
+44
+   ICCUB, Universitat de Barcelona, Barcelona, Spain
+45
+   Instituto Galego de Fı́sica de Altas Enerxı́as (IGFAE), Universidade de Santiago de Compostela,
+Santiago de Compostela, Spain
+46
+   Instituto de Fisica Corpuscular, Centro Mixto Universidad de Valencia - CSIC, Valencia, Spain
+47
+   European Organization for Nuclear Research (CERN), Geneva, Switzerland
+48
+   Institute of Physics, Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland
+49
+   Physik-Institut, Universität Zürich, Zürich, Switzerland
+50
+   NSC Kharkiv Institute of Physics and Technology (NSC KIPT), Kharkiv, Ukraine
+51
+   Institute for Nuclear Research of the National Academy of Sciences (KINR), Kyiv, Ukraine
+52
+   University of Birmingham, Birmingham, United Kingdom
+53
+   H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom
+54
+   Cavendish Laboratory, University of Cambridge, Cambridge, United Kingdom
+55
+   Department of Physics, University of Warwick, Coventry, United Kingdom
+56
+   STFC Rutherford Appleton Laboratory, Didcot, United Kingdom
+57
+   School of Physics and Astronomy, University of Edinburgh, Edinburgh, United Kingdom
+58
+   School of Physics and Astronomy, University of Glasgow, Glasgow, United Kingdom
+59
+   Oliver Lodge Laboratory, University of Liverpool, Liverpool, United Kingdom
+60
+   Imperial College London, London, United Kingdom
+61
+   Department of Physics and Astronomy, University of Manchester, Manchester, United Kingdom
+62
+   Department of Physics, University of Oxford, Oxford, United Kingdom
+63
+   Massachusetts Institute of Technology, Cambridge, MA, United States
+
+
+                                                17
+64
+   University of Cincinnati, Cincinnati, OH, United States
+65
+   University of Maryland, College Park, MD, United States
+66
+   Los Alamos National Laboratory (LANL), Los Alamos, United States
+67
+   Syracuse University, Syracuse, NY, United States
+68
+   Laboratory of Mathematical and Subatomic Physics , Constantine, Algeria, associated to 2
+69
+   School of Physics and Astronomy, Monash University, Melbourne, Australia, associated to 55
+70
+   Pontifı́cia Universidade Católica do Rio de Janeiro (PUC-Rio), Rio de Janeiro, Brazil, associated to 2
+71
+   Guangdong Provencial Key Laboratory of Nuclear Science, Institute of Quantum Matter, South China
+Normal University, Guangzhou, China, associated to 3
+72
+   School of Physics and Technology, Wuhan University, Wuhan, China, associated to 3
+73
+   Departamento de Fisica , Universidad Nacional de Colombia, Bogota, Colombia, associated to 12
+74
+   Universität Bonn - Helmholtz-Institut für Strahlen und Kernphysik, Bonn, Germany, associated to 16
+75
+   Institut für Physik, Universität Rostock, Rostock, Germany, associated to 16
+76
+   INFN Sezione di Perugia, Perugia, Italy, associated to 20
+77
+   Van Swinderen Institute, University of Groningen, Groningen, Netherlands, associated to 31
+78
+   Universiteit Maastricht, Maastricht, Netherlands, associated to 31
+79
+   National Research Centre Kurchatov Institute, Moscow, Russia, associated to 38
+80
+   National University of Science and Technology “MISIS”, Moscow, Russia, associated to 38
+81
+   National Research University Higher School of Economics, Moscow, Russia, associated to 41
+82
+   National Research Tomsk Polytechnic University, Tomsk, Russia, associated to 38
+83
+   University of Michigan, Ann Arbor, United States, associated to 67
+
+a
+  Universidade Federal do Triângulo Mineiro (UFTM), Uberaba-MG, Brazil
+b
+  Laboratoire Leprince-Ringuet, Palaiseau, France
+c
+  P.N. Lebedev Physical Institute, Russian Academy of Science (LPI RAS), Moscow, Russia
+d
+  Università di Bari, Bari, Italy
+e
+  Università di Bologna, Bologna, Italy
+f
+  Università di Cagliari, Cagliari, Italy
+g
+  Università di Ferrara, Ferrara, Italy
+h
+  Università di Firenze, Firenze, Italy
+i
+  Università di Genova, Genova, Italy
+j
+  Università di Milano Bicocca, Milano, Italy
+k
+  Università di Roma Tor Vergata, Roma, Italy
+l
+  AGH - University of Science and Technology, Faculty of Computer Science, Electronics and
+Telecommunications, Kraków, Poland
+m
+   DS4DS, La Salle, Universitat Ramon Llull, Barcelona, Spain
+n
+  Hanoi University of Science, Hanoi, Vietnam
+o
+  Università di Padova, Padova, Italy
+p
+  Università di Pisa, Pisa, Italy
+q
+  Università degli Studi di Milano, Milano, Italy
+r
+  Università di Urbino, Urbino, Italy
+s
+  Università della Basilicata, Potenza, Italy
+t
+  Scuola Normale Superiore, Pisa, Italy
+u
+  Università di Modena e Reggio Emilia, Modena, Italy
+v
+  Università di Siena, Siena, Italy
+w
+   MSU - Iligan Institute of Technology (MSU-IIT), Iligan, Philippines
+x
+  Novosibirsk State University, Novosibirsk, Russia
+y
+  INFN Sezione di Trieste, Trieste, Italy
+z
+  Universidad Nacional Autonoma de Honduras, Tegucigalpa, Honduras
+
+
+
+
+                                                   18
+

@@ -1,0 +1,1670 @@
+                                          EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH (CERN)
+
+
+                                                                                                                       CERN-EP-2022-198
+                                                                                                                    LHCb-PAPER-2022-031
+                                                                                                                           June 12, 2024
+
+
+
+
+arXiv:2210.10346v2 [hep-ex] 12 Jun 2024
+                                            Observation of a J/ψΛ resonance
+                                          consistent with a strange pentaquark
+                                            candidate in B − → J/ψΛp decays
+
+
+                                                                                     LHCb Collaboration†
+
+                                                                                             Abstract
+                                                   An amplitude analysis of B − → J/ψΛp decays is performed using 4400 signal candi-
+                                                   dates selected on a data sample of pp collisions recorded at center-of-mass energies
+                                                   of 7, 8 and 13 TeV with the LHCb detector, corresponding to an integrated lu-
+                                                   minosity of 9 fb−1 . A narrow resonance in the J/ψΛ system, consistent with a
+                                                   pentaquark candidate with strangeness, is observed with high significance. The
+                                                   mass and the width of this new state are measured to be 4338.2 ± 0.7 ± 0.4 MeV
+                                                   and 7.0 ± 1.2 ± 1.3 MeV, where the first uncertainty is statistical and the second
+                                                   systematic. The spin is determined to be 1/2 and negative parity is preferred. Due
+                                                   to the small Q-value of the reaction, the most precise single measurement of the
+                                                   B − mass to date, 5279.44 ± 0.05 ± 0.07 MeV, is obtained.
+
+
+
+
+                                                                    Published in Phys. Rev. Lett. 131 (2023) 031901
+                                                          © 2024 CERN for the benefit of the LHCb collaboration. CC BY 4.0 licence.
+
+                                          †
+                                              Authors are listed at the end of this paper.
+ii
+    The discovery of pentaquark candidates in the J/ψp system at LHCb [1, 2] opened a
+new ﬁeld of investigation in baryon spectroscopy. Such resonant structures with valence
+quark content (the exotic hadron naming scheme deﬁned in Ref. [3] is used throughout
+                  +
+this Letter) PψN = ccuud have been observed only in the Λ0b → J/ψpK − decay to date.
+Recently, evidence for a new candidate was found in the Bs0 → J/ψpp decay [4, 5], and
+                    Λ0
+evidence for a Pψs     = ccuds pentaquark candidate with strangeness was found in the
+J/ψΛ system in the Ξb− → J/ψΛK − decay [6] (charge conjugation is implied throughout
+this Letter).
+    Pentaquarks are predicted within the quark model to have a minimal quark content of
+three quarks plus a quark-antiquark pair. Experimentally, the pentaquark candidates are
+                                                                                          0
+found close to threshold for the production of ordinary baryon-meson states, i.e. Σc+ D
+           ∗0                     +                       ∗0          Λ0
+and Σc+ D for the observed PψN states [1, 2], and Ξc0 D for the Pψs      state [6]. Various
+interpretations of these states have been proposed, including tightly bound pentaquark
+states [7, 8], loosely bound baryon-meson molecular states (Refs. [9, 10] and references
+therein), and rescattering eﬀects [11]. Hidden-charm pentaquarks with strangeness were
+predicted in [12, 13] as hadronic molecules, and in Ref. [14] as compact states. However,
+their nature is still largely unknown and further investigation is needed [15].
+    The B − → J/ψΛp decay oﬀers the unique opportunity to simultaneously search for
+ N−          0
+             Λ
+P ψ and Pψs      pentaquark candidates in the J/ψp and J/ψΛ systems, respectively. In par-
+ticular, the phase space available in the decay allows searches for pentaquark candidates
+                                                                          N+
+located close to diﬀerent baryon-meson thresholds, such as Λ+       0               + −
+                                                                c D for Pψ , and Λc Ds ,
+               Λ0                                    0
+Ξc+ D − for Pψs   candidates. Neither the PψsΛ
+                                               (4459) state, found in the Ξb− → J/ψΛK −
+                              +
+decay [6], nor the PψN (4337) state, found in the Bs0 → J/ψpp decays [5], is accessible
+with the present analysis since they are outside of the available phase space.
+    The small Q-value of the decay, approximately (natural units with ℏ = c = 1 are used
+throughout this Letter) 128 MeV, provides excellent mass resolution, allowing searches
+for narrow resonant structures. In addition, eﬃcient reconstruction of low momentum
+tracks can improve sensitivity to resonance structures near threshold. This decay was
+previously studied by the CMS collaboration using a sample of 450 ± 20 signal candidates
+and the invariant mass distributions of the J/ψΛ, J/ψp, Λp systems were found to be
+inconsistent with the pure phase-space hypothesis [16]. In this Letter, an amplitude
+analysis of the B − → J/ψΛp decay is performed using signal candidates selected on a
+data sample of pp collisions at centre-of-mass energies of 7 TeV and 8 TeV (Run 1), and
+13 TeV (Run 2), recorded between 2011 and 2018 by the LHCb detector, corresponding
+                                                                                       Λ0
+to an integrated luminosity of 9 fb−1 . In the following, the ﬁrst observation of a Pψs
+pentaquark candidate with strangeness in the J/ψΛ system is reported, which is diﬀerent
+                     0
+from the PψsΛ
+               (4459) state found in the Ξb− → J/ψΛK − decay [6].
+    The LHCb detector is a single-arm forward spectrometer covering the pseudorapidity
+range 2 < η < 5, described in detail in Refs. [17–20]. The online event selection is
+performed by a trigger [21], comprising a hardware stage based on information from the
+muon system which selects J/ψ → µ+ µ− decays, followed by a software stage that applies
+a full event reconstruction. The software trigger relies on identifying J/ψ decays into
+muon pairs consistent with originating from a B-meson decay vertex detached from the
+primary pp collision point.
+    Samples of simulated events are used to study the properties of
+the signal mode decay B − → J/ψΛ(→ pπ − )p and the control-mode decay
+
+                                            1
+B − → J/ψK ∗ (892)− [→ KS0 (→ π + π − )π − ]. The latter are used to calibrate the dis-
+tributions of simulated B − decays with data.
+    The pp collisions are generated using Pythia [22] with a speciﬁc LHCb conﬁgura-
+tion [23]. Decays of hadronic particles and interactions with the detector material are
+described by EvtGen [24], using Photos [25], and by the Geant4 toolkit [26–28], re-
+spectively. The signal and the control-mode decays are generated from a uniform phase-
+space distribution.
+    Signal B − candidates are formed from combinations of J/ψ, Λ and p candidates orig-
+inating from a common decay vertex. The J/ψ candidates are formed from pairs of
+oppositely charged tracks identiﬁed as muons and originating from a decay vertex signif-
+icantly displaced from the associated pp primary vertex (PV). The associated PV for a
+given particle is the PV with the smallest impact parameter χ2IP , deﬁned as the diﬀerence
+in the vertex-ﬁt χ2 of a given PV reconstructed with and without the particle under con-
+sideration. The Λ → pπ − candidates are formed from pairs of oppositely charged tracks
+and selected in two diﬀerent categories according to the Λ decay position: i) the “long”
+category for early decays that allow the proton and pion candidates to be reconstructed in
+the vertex detector; ii) the “downstream” category for Λ baryons that decay outside the
+vertex detector and are reconstructed in the tracking stations only. The long candidates
+have better mass, momentum and vertex resolution than downstream candidates. The p
+candidate is a charged track identiﬁed as an antiproton.
+    A kinematic ﬁt [29] to the B − candidate is performed with the dimuon and the pπ −
+masses constrained to the known J/ψ and Λ masses, respectively [30]. Simulated events
+are weighted such that the distributions of transverse momentum (pT ) and number of
+tracks per event for B − candidates match the B − → J/ψK ∗ (892)− control-mode distribu-
+tions in data. In simulation, the particle identiﬁcation (PID) variables for each charged
+track are resampled as a function of their p, pT and the number of tracks in the event
+using Λ+         − +
+        c → pK π and D
+                             ∗+
+                                → D 0 (→ K − π + )π + calibration samples from data [31].
+    The ﬁnal stage of the selection uses multivariate techniques trained with simulation
+and data. Separate boosted-decision-tree (BDT, [32]) classiﬁers are employed for the four
+combinations of two data-taking periods (Run 1 and Run 2) and two signal categories,
+using long and downstream reconstructed Λ candidates. Each BDT is trained on simu-
+lated signal decays and data sidebands, with the m(J/ψΛp) invariant mass in the range
+[5320, 5360] MeV. The variables used as input to the BDT are the pT , the decay length
+signiﬁcance, the angle between the momentum and the ﬂight direction and the χ2IP vari-
+able of the B − candidate; the χ2 probability from the kinematic ﬁt of the candidate; the
+sum of the χ2IP of the daughter particles; the angle between the momentum and the ﬂight
+direction, the χ2 of the ﬂight distance (only for long category candidates), the χ2IP vari-
+ables of the Λ candidate, and the hadron PID for the p candidate from the ring-imaging
+Cherenkov detectors.
+    The BDT output selection criterion is chosen as in Ref. [5] by maximising the ﬁgure
+of merit S 2 /(S + B)3/2 to obtain both high signal purity and signiﬁcance, where S and B
+are the signal and background yield in a region of ±5.3 MeV around the known B − mass.
+To avoid a possible bias due to ﬂuctuations of the signal yield, S is determined from a
+ﬁt to the J/ψΛp invariant-mass distribution in data after applying a loose BDT selection,
+multiplied by the eﬃciency of the BDT output requirement obtained from simulation.
+Similarly, B is extracted from a ﬁt to sideband data.
+    For candidates passing all selection criteria, a maximum-likelihood ﬁt is performed to
+
+                                            2
+                         Candidates/(1.6 MeV)
+                                            1600        LHCb               Data
+                                                        9 fb-1             Total fit
+                                            1400                           Signal
+                                                                           Background
+                                            1200
+                                            1000
+                                                800
+                                                600
+                                                400
+                                                200
+                                                  0
+                                                 5200        5250       5300     5350
+                                                                    m(J/ψ Λ p ) [MeV]
+Figure 1: Invariant mass distribution of the J/ψΛp candidates. The data are overlaid with the
+results of the fit.
+
+
+the m(J/ψΛp) distribution shown in Fig. 1, resulting in a signal yield of 4620 ± 70. For
+the amplitude analysis about 4400 signal candidates are retained, with a purity of 93.0%
+in the signal region of ±2.5σ around the mass peak, where σ ≈ 2.1 MeV is the mass
+resolution. The signal distribution is modelled by the sum of a Johnson function [33] and
+two Crystal Ball [34] functions sharing the same mean and width parameters determined
+from the ﬁt. The tail parameters and fractions of each signal component are ﬁxed to
+values obtained from a ﬁt to simulated events. The background contribution is mainly
+due to random combinations of charged particles in the event and is described by a
+third-order Chebyshev polynomial.
+    The Dalitz distribution of the reconstructed B − candidates in the signal region is
+shown in Fig. 2, where a horizontal band in the region around 18.8 GeV2 in the m2 (J/ψΛ)
+distribution is present. Some structure in the high m2 (J/ψp) spectrum is also present.
+This Letter investigates the nature of these enhancements.
+    An amplitude analysis of the B − candidates in the signal region is performed using
+a phenomenological model based on the interference of two-body resonances in the three
+                                   N−                   Λ0
+decay chains, J/ψK ∗− (→ Λp), ΛP ψ (→ J/ψp), and pPψs      (→ J/ψΛ), labelled as the K ∗− ,
+  N−           0
+               Λ
+P ψ and Pψs        chains, respectively. The angular information of the subsequent J/ψ →
+µ µ and Λ → pπ − decays are taken into account in all cases. The decay amplitudes are
+  + −
+
+based on helicity formalism [35] with CP symmetry enforced, and follow the prescriptions
+in Ref. [36] for the spin alignment of the diﬀerent decay chains. Details about the decay
+amplitude deﬁnition are given in the Supplemental material [37].
+    The decay amplitudes are deﬁned as a function of the six-dimensional phase space of
+the B − decay, (mΛp , ~  Ω) described by the combined invariant mass mΛp of the p and Λ
+pairs, and by ﬁve angular variables indicated as ~Ω: the cosine of the helicity angle, cos θK ∗
+                        −
+(cos θJ/ψ ) of the Λ (µ ) in the Λp (J/ψ) rest frame, the azimuthal angle φp (φµ− ) of the p
+(µ− ) in the rest frame of the Λ (J/ψ), and the cosine of the helicity angle cos θΛ , of the p in
+the rest frame of the Λ. The amplitude ﬁt to determine the model parameters ~ω , i.e., the
+couplings, the masses, the widths, and lineshape parameters of diﬀerent contributions, is
+
+                                                                    3
+                        m2(J/ψ Λ) [GeV2]
+                                           18.8                         LHCb
+                                                                        9 fb-1
+                                           18.6
+
+                                           18.4
+
+                                           18.2
+
+                                            18
+
+                                           17.8
+
+                                                  16.4 16.6 16.8   17   17.2
+                                                           m2(J/ψ p ) [GeV2]
+             Figure 2: Dalitz distribution for B − candidates in the signal region.
+
+
+performed by minimising the negative log-likelihood function,
+                                h                                                    i
+                                                      ~ i |~ω ) + βPbkg (mΛp,i , Ω
+                                                                                 ~ i) ,
+                           X
+        −2 log L(~ω ) = −2   log (1 − β)Psig (mΛp,i , Ω                                   (1)
+                                             i
+
+where Psig (Pbkg ) is the probability density function (PDF) for the signal (background)
+component of the ith event, and β = 0.07 ± 0.01 is the fraction of background candidates
+in the signal region. The signal PDF is proportional to the squared decay amplitude
+          ~ ω )|2 , and accounts for the phase-space element Φ(mΛp ) and the reconstruction
+|M(mΛp , Ω|~
+eﬃciency ǫ(mΛp , Ω),~
+
+                                                 ~      2               ~
+                                ~ ω ) = |M(mΛp , Ω|~ω )| Φ(mΛp )ǫ(mΛp , Ω) .
+                    Psig (mΛp , Ω|~                                                       (2)
+                                                       I(~ω )
+
+The denominator I(~ω ) normalizes the probability. The background PDF Pbkg is
+parameterized according to a six-dimensional phase-space function based on Leg-
+endre polynomials, whose coeﬃcients are determined from the m(J/ψΛp) region
+[5200, 5250] ∪ [5340, 5350] MeV. Similarly, the reconstruction eﬃciency is parameterized
+using Legendre polynomials with coeﬃcients determined using simulated phase-space sig-
+nal decays.
+    No well-established resonances are expected to decay into the J/ψΛ and J/ψp ﬁnal
+states. However, excited K − resonances decaying outside of the phase space of the
+B − → J/ψΛp decay can contribute to the Λp channel [16]. A ﬁt including only NR
+contributions and K4∗ (2045)− , K2 (2250)− , and K3 (2320)− resonant amplitudes does not
+reproduce the data distribution. A χ2 /n.d.f. of 123.2/46 is obtained, where the χ2 is
+calculated as the largest value over the six one-dimensional ﬁt projections and the number
+of degrees of freedom (n.d.f.) is extracted from pseudoexperiments by ﬁtting the tail of the
+χ2max distribution. The simplest and most eﬀective amplitude model used to ﬁt the data,
+indicated as the nominal model in the following, comprises a narrow J/ψΛ structure with
+spin-parity J P = 1/2− , whose mass and width are extracted from the amplitude ﬁt, and
+
+                                                            4
+two nonresonant (NR) contributions, one with J P = 1− for the Λp system and a second
+one with J P = 1/2− for the J/ψp, referred to as NR(Λp) and NR(J/ψp), respectively. The
+J/ψΛ resonance is modelled with a relativistic Breit–Wigner function as discussed in the
+Supplemental material [37].
+    The couplings are deﬁned in the LS basis, both for the B − → XR process, and for the
+                                                                                          N−
+R → Y Z process, where X, Y , and Z are the ﬁnal state particles, and R = K ∗− , P ψ ,
+       Λ0
+and Pψs    is the decay chain under consideration. Here, L indicates the decay orbital
+angular momentum, and S is the sum of the spins of the decay products. In the nominal
+model, L = 0 is used for the production and decay of the narrow J/ψΛ resonance, while
+L = 0, 1, 2 and L = 0, 2 are used in the NR(Λp) system for the production and decay,
+respectively, and L = 0 and L = 1 in the NR(J/ψp) system. Because of the small Q-value
+of the decay, higher values of the orbital momentum are suppressed. Fixing the lowest
+orbital momentum couplings for the NR(J/ψp) as the normalization choice reduces the
+number of free parameters to 16: the mass, the width, and the complex coupling of the
+  Λ0
+Pψs   resonant contribution, four complex couplings for the NR(Λp) contribution, and a
+complex coupling and two parameters for the second-order polynominal parameterization
+of the lineshape for the NR(J/ψp) contribution.
+                                                                         Λ0
+    A null-hypothesis model is used to test the signiﬁcance of the Pψs      state, which com-
+prises only two NR contributions. The ﬁt results for the nominal and the null-hypothesis
+model are shown in Fig. 3. The null-hypothesis model does not describe the data, with a
+corresponding χ2max /n.d.f. = 120.8/47. Using the nominal model, a good ﬁt to data was
+obtained with a χ2max /n.d.f. = 55.3/51 and a p-value of 0.51 computed by counting the
+number of pseudoexperiments above the value of χ2max observed in data.
+    A new narrow J/ψΛ structure is observed with high signiﬁcance in the nominal ﬁt
+to data. Using Wilks’s theorem, a statistical signiﬁcance exceeding 15σ is estimated
+from the value of −2∆ log L = 243 of the null-hypothesis model with respect to the
+nominal model. The mass and width of the new pentaquark candidate are measured to be
+MPψsΛ = 4338.2 ± 0.7 MeV and ΓP Λ = 7.0 ± 1.2 MeV, respectively, where the uncertainties
+                                   ψs
+are statistical only. This represents the ﬁrst observation of a strange pentaquark candidate
+with minimal quark content ccuds.
+    Alternative models are considered for systematic studies. To assess the contribution
+        N−
+of a P ψ pentaquark candidate, a relativistic Breit–Wigner function is used for the
+m(J/ψp) lineshape instead of a 2nd order polynomial function. The value of −2∆ log L =
+80 obtained with respect to the nominal ﬁt indicates that the NR(J/ψp) contribution
+                                          N−
+is preferred over the hypothesis of a P ψ candidate, while consistent results for the
+  Λ        0                                                                          Λ0
+Pψs (4338) state parameters are obtained. The contribution of a second narrow Pψs
+resonance is added to the nominal model to parametrize the m(J/ψΛ) distribution close
+to the Λ+    −
+         c Ds threshold at 4255 MeV, and found to not be statistically signiﬁcant. Using
+                                                  Λ       0
+the CLs method [38], an upper limit on the Pψs      (4255) ﬁt fraction is set to 8.7% at
+a 95% conﬁdence level. To determine the J P assignments, all 16 combinations of J P =
+                                          0
+1/2± , 3/2± are studied for the Pψs
+                                 Λ
+                                    (4338) and NR(J/ψp) spin-parity hypotheses, and those
+                                                                                Λ       0
+with −2∆ log L > 9 with respect to the nominal ﬁt are discarded. For the Pψs      (4338)
+state, the J P = 3/2± hypotheses are discarded, the J P = 1/2− assignment is preferred,
+while the J P = 1/2+ is excluded at a 90% conﬁdence level using the CLs method [38].
+    Systematic uncertainties are evaluated on the mass and the width of the new pen-
+
+
+                                             5
+                                                                                  140
+                                                                                                                     L 
+
+
+
+Candidates/(2 MeV)
+                     180    LHCb                  Data
+                                                                             
+                     160    9 fb-1                Nominal fit
+                                                  Null-hyp. fit
+                                                                                  120                                9 -1
+                     140                          NR(J/ψ )  p                 100
+                                                        p                    
+                                                  PΛψs0
+                                                  NR(Λ )
+                     120                                                      80
+                     100                          Background                 
+                     80
+                                                                              60
+                     60                                                      C 40
+                     40
+                                                                                   20
+                     20
+                      0                                                             0
+                      4.2            4.25         4.3             4.35               2.05              2.1         2.15
+                                            m(J/ψ Λ) [GeV]                                                       m(Λ p ) [GeV]
+                                                                            54 250
+              140  !"                                                     23                                      678:
+                120 # $"-1                                                  21 200                                  ; <:-1
+                                                                           /.
+              100                                                          -,
+                                                                           (*
+              80                                                           +* 150
+                                                                           )(
+              60                                                           ' 100
+             
+                     40
+                                                                                   50
+                     20
+                      0                                                             0
+                             4.05           4.1         4.15                        −1          −0.5         0       0.5       1
+                                            m(J/ψ p ) [GeV]                                                               c%&θK*
+Figure 3: Distributions of invariant mass and cos θK ∗ . Fit results to data using the nominal
+model are superimposed. The null-hypothesis model fit results are also shown in grey. The
+Ξc+ D − baryon-meson threshold at 4.337 GeV is indicated with a vertical dashed line in the
+m(J/ψΛ) invariant mass distribution.
+
+
+                                                 Λ                                          0
+taquark candidate, and on the ﬁt fractions of Pψs  (4338) , NR(J/ψp), and NR(J/ψΛ) con-
+tributions. The uncertainties are summarised in Table 1 and are summed in quadrature
+for the total contribution. For each systematic uncertainty, an ensemble of 1000 pseudoex-
+periments, generated according to the nominal model with the same statistics as in data
+is ﬁtted with an alternative conﬁguration that is representative of the systematic eﬀect.
+The uncertainty on each parameter is determined as the mean value of the diﬀerence be-
+tween the ﬁt results of the nominal and the alternative models. The main contributions
+are related to the model for the decay amplitude, the bias of the ﬁtting procedure, and the
+                                                    ~ For the amplitude model, the nom-
+uncertainty on the reconstruction eﬃciency ǫ(mpΛ , Ω).
+inal value of the hadron radius for the Blatt–Weisskopf coeﬃcients [39] is assumed to be
+3 GeV−1 and varied to 1 and 5 GeV−1 , taking the largest eﬀect as a systematic uncertainty.
+
+
+                                                                         6
+                                                                                 0
+                                                                                Λ state (in
+Table 1: Systematic uncertainties on the mass (MP Λ ) and width (ΓP Λ ) of the Pψs
+                                                    ψs               ψs
+MeV), and on the fit fractions fP Λ , fNR(J/ψp) and fNR(Λp) of the pentaquark candidate and
+                                  ψs
+nonresonant contributions (in %).
+
+             Source                  MPψs
+                                        Λ    ΓPψs
+                                                Λ   fPψs
+                                                      Λ    fNR(J/ψp)   fNR(Λp)
+             Hadron radius           0.1      0.4   0.3      0.2         0.2
+             LS values               0.3      0.1   0.8      0.7         0.6
+                              N−
+             Breit–Wigner P ψ         0.1     0.9    0.8     ...         ...
+                   Λ0
+             J P (Pψs ) assignment    0.1     0.9    1.2     0.4         0.9
+             Fitting procedure        0.1     0.2    0.1     1.0         1.1
+             Eﬃciency                 0.02   0.19   0.02     0.3         0.2
+             Λ decay parameters       0.02   0.04   0.01     0.3         0.2
+             Background               0.01   0.05   0.96     0.4         0.7
+             Mass resolution          0.01   0.03   0.01     0.1         0.1
+             Total                    0.4     1.3    1.9     1.4         1.7
+
+
+Additional LS couplings are considered with respect to the nominal model, in particu-
+                                                                                 Λ       0
+lar, the L, S = 1, 1 (L, S = 2, 3/2) coupling for the production (decay) of Pψs    (4338)
+contribution, and the L, S = 1, 1 coupling for the NR(J/ψp) contribution. A relativistic
+Breit–Wigner function is used instead of the 2nd order polynominal for the lineshape
+of the NR(J/ψp) contribution. Moreover, a model with J P = 1/2+ assignment to the
+  Λ       0
+Pψs (4338) state is also considered. Finally, the behaviour of the maximum-likelihood
+estimator is studied using 1000 pseudoexperiments. Biases on the ﬁt parameters are
+present due to the limited sample size and are assigned as systematic uncertainties. For
+the reconstruction eﬃciency, the nominal eﬃciency function based on decays from either
+the long or downstream Λ category and the largest eﬀect is considered as systematic
+uncertainty.
+    Additional systematic uncertainties account for the limited knowledge of the Λ → pπ −
+decay amplitude parameters [30, 40], the background parameterization, and the ef-
+fect of the resolution on the m(J/ψΛ) invariant mass. The nominal background pa-
+rameterization Pbkg is obtained from the distributions of candidates in the m(J/ψΛp)
+range [5200, 5250] ∪ [5340, 5350] MeV, while the parameterization obtained from the re-
+gion [5295, 5315] MeV is used to assess systematic eﬀects. The background fraction
+β = 0.07 ± 0.01 is also varied within uncertainties. The eﬀect of the invariant mass
+resolution, about 1 MeV on average on m(J/ψΛ), is estimated by smearing the invariant
+mass distributions of 1000 pseudoexperiments and ﬁtting them using the nominal model.
+
+    The mass and width of the new pentaquark candidate are measured to be
+MPψsΛ = 4338.2 ± 0.7 ± 0.4 MeV and ΓP Λ
+                                     ψs
+                                         = 7.0 ± 1.2 ± 1.3 MeV; the measured ﬁt
+fractions are fPψs
+                Λ  = 0.125 ± 0.007 ± 0.019, fNR(J/ψp) = 0.840 ± 0.022 ± 0.014, and
+                                                    Λ 0
+fNR(Λp) = 0.113 ± 0.013 ± 0.017 for the resonant Pψs   state, the nonresonant NR(J/ψp),
+and NR(Λp) contributions, respectively. The ﬁrst uncertainty is statistical and the sec-
+                                                                      0
+ond systematic. The J P = 1/2− quantum numbers for the Pψs   Λ
+                                                               (4338) state are preferred;
+J = 1/2 is established and positive parity can be excluded at 90% conﬁdence level.
+   Because of the small Q-value of the decay, the most precise single measurement to date
+
+                                             7
+of the B − mass 5279.44±0.05±0.07 MeV is performed. This measurement is based on 1670
+signal candidates with Λ baryons in the long category, which amounts to 36% of the total.
+Systematic uncertainties on the B − mass include uncertainties on particle interactions
+with the detector material (0.030 MeV), momentum scaling due to imperfections in the
+magnetic-ﬁeld mapping (0.039 MeV) [17], and the choice of the signal and background ﬁt
+model (0.050 MeV). The alternative ﬁt model, with compatible ﬁt quality with respect
+to the nominal model, comprises an exponential function for the background and a sum
+of a Gaussian and two Johnson functions for the signal. Systematic uncertainties from
+knowledge of the J/ψ, Λ, and p masses are negligible.
+    In conclusion, an amplitude analysis of the B − → J/ψΛp decay is performed using
+about 4400 signal candidates selected on data collected by the LHCb experiment between
+2011 and 2018 and corresponding to an integrated luminosity of 9 fb−1 . A new resonant
+structure in the J/ψΛ system is found with high statistical signiﬁcance, representing
+the ﬁrst observation of a pentaquark candidate with strange quark content named the
+  Λ        0
+Pψs (4338) state, with spin J = 1/2 assigned and parity P = −1 preferred. The new
+  Λ        0
+Pψs (4338) state is found at the threshold for Ξc+ D − baryon-meson production, which is
+relevant for the interpretation of its nature. No evidence for additional resonant states,
+         Λ       0     N−
+either Pψs (4255) or P ψ pentaquark candidates or excited K − resonances, is found from
+the ﬁt to data.
+
+
+Acknowledgements
+We express our gratitude to our colleagues in the CERN accelerator departments for
+the excellent performance of the LHC. We thank the technical and administrative staﬀ
+at the LHCb institutes. We acknowledge support from CERN and from the national
+agencies: CAPES, CNPq, FAPERJ and FINEP (Brazil); MOST and NSFC (China);
+CNRS/IN2P3 (France); BMBF, DFG and MPG (Germany); INFN (Italy); NWO (Nether-
+lands); MNiSW and NCN (Poland); MEN/IFA (Romania); MICINN (Spain); SNSF and
+SER (Switzerland); NASU (Ukraine); STFC (United Kingdom); DOE NP and NSF
+(USA). We acknowledge the computing resources that are provided by CERN, IN2P3
+(France), KIT and DESY (Germany), INFN (Italy), SURF (Netherlands), PIC (Spain),
+GridPP (United Kingdom), CSCS (Switzerland), IFIN-HH (Romania), CBPF (Brazil),
+Polish WLCG (Poland) and NERSC (USA). We are indebted to the communities behind
+the multiple open-source software packages on which we depend. Individual groups or
+members have received support from ARC and ARDC (Australia); Minciencias (Colom-
+bia); AvH Foundation (Germany); EPLANET, Marie Sklodowska-Curie Actions and
+ERC (European Union); A*MIDEX, ANR, IPhU and Labex P2IO, and Région Auvergne-
+Rhône-Alpes (France); Key Research Program of Frontier Sciences of CAS, CAS PIFI,
+CAS CCEPP, Fundamental Research Funds for the Central Universities, and Sci. &
+Tech. Program of Guangzhou (China); GVA, XuntaGal, GENCAT and Prog. Atracción
+Talento, CM (Spain); SRC (Sweden); the Leverhulme Trust, the Royal Society and UKRI
+(United Kingdom).
+
+
+
+
+                                            8
+References
+ [1] LHCb collaboration, R. Aaij et al., Observation of J/ψp resonances consistent
+     with pentaquark states in Λ0b → J/ψpK − decays, Phys. Rev. Lett. 115 (2015) 072001,
+     arXiv:1507.03414.
+
+ [2] LHCb collaboration, R. Aaij et al., Observation of a narrow pen-
+     taquark state, Pc (4312)+ , and of two-peak structure of the Pc (4450)+ ,
+     Phys. Rev. Lett. 122 (2019) 222001, arXiv:1904.03947.
+
+ [3] LHCb collaboration, T. Gershon,            Exotic   hadron   naming     convention,
+     CERN-LHCb-PUB-2022-013, 2022.
+                                                           0
+ [4] LHCb collaboration, R. Aaij et al., Observation of B(s) → J/ψpp decays and
+                                    0
+     precision measurements of the B(s) masses, Phys. Rev. Lett. 122 (2019) 191804,
+     arXiv:1902.05588.
+
+ [5] LHCb collaboration, R. Aaij et al., Evidence for a new structure in the J/ψp
+     and J/ψp systems in Bs0 → J/ψpp decays, Phys. Rev. Lett. 128 (2022) 062001,
+     arXiv:2108.04720.
+
+ [6] LHCb collaboration, R. Aaij et al., Evidence of a J/ψΛ structure and observation
+     of excited Ξ − states in the Ξb− → J/ψΛK − decay, Science Bulletin 66 (2021) 1278,
+     arXiv:2012.10380.
+
+ [7] A. Esposito, A. Pilloni, and A. D. Polosa,                Multiquark    resonances,
+     Phys. Rept. 668 (2017) 1, arXiv:1611.07920.
+
+ [8] J.-M.   Richard,      Exotic     hadrons:       review        and      perspectives,
+     Few Body Syst. 57 (2016) 1185, arXiv:1606.08593.
+
+ [9] X.-K. Dong, F.-K. Guo, and B.-S. Zou, A survey of heavy-antiheavy hadronic
+     molecules, Progr. Phys. 41 (2021) 65, arXiv:2101.01021.
+
+[10] F.-K. Guo et al., Hadronic molecules, Rev. Mod. Phys. 90 (2018) 015004,
+     arXiv:1705.00141, [Erratum Rev.Mod.Phys. 94, 029901 (2022)].
+
+[11] F.-K. Guo, X.-H. Liu, and S. Sakai, Threshold cusps and triangle singularities in
+     hadronic reactions, Prog. Part. Nucl. Phys. 112 (2020) 103757, arXiv:1912.07030.
+
+[12] C. W. Xiao, J. Nieves, and E. Oset, Prediction of hidden charm strange molecu-
+     lar baryon states with heavy quark spin symmetry, Phys. Lett. B799 (2019) 135051,
+     arXiv:1906.09010.
+
+[13] B. Wang, L. Meng, and S.-L. Zhu, Spectrum of the strange hidden charm molec-
+     ular pentaquarks in chiral effective field theory, Phys. Rev. D101 (2020) 034018,
+     arXiv:1912.12592.
+
+[14] A. Ali et al., Mass spectrum of the hidden-charm pentaquarks in the compact diquark
+     model, J. High Energy Phys. 10 (2019) 256.
+
+
+
+                                           9
+[15] S. L. Olsen, T. Skwarnicki, and D. Zieminska, Nonstandard heavy mesons
+     and baryons:     Experimental evidence, Rev. Mod. Phys. 90 (2018) 015003,
+     arXiv:1708.04012.
+
+[16] CMS collaboration, A. M.√Sirunyan et al., Study of the B+ → J/ψΛp decay in
+     proton-proton collisions at s = 8 TeV, JHEP 12 (2019) 100, arXiv:1907.05461.
+
+[17] LHCb collaboration,      R. Aaij et al.,        LHCb detector             performance,
+     Int. J. Mod. Phys. A30 (2015) 1530022, arXiv:1412.6352.
+
+[18] R. Aaij et al., Performance of the LHCb vertex locator, JINST 9 (2014) P09007,
+     arXiv:1405.7808.
+
+[19] R. Arink et al., Performance of the LHCb outer tracker, JINST 9 (2014) P01002,
+     arXiv:1311.3893.
+
+[20] A. A. Alves Jr. et al., Performance              of    the     LHCb     muon       system,
+     JINST 8 (2013) P02022, arXiv:1211.1346.
+
+[21] R. Aaij et al., The LHCb trigger              and      its    performance     in    2011,
+     JINST 8 (2013) P04022, arXiv:1211.3055.
+
+[22] T. Sjöstrand, S. Mrenna, and P. Skands, A brief introduction to PYTHIA 8.1,
+     Comput. Phys. Commun. 178 (2008) 852, arXiv:0710.3820.
+
+[23] I. Belyaev et al., Handling of the generation of primary events in Gauss, the LHCb
+     simulation framework, J. Phys. Conf. Ser. 331 (2011) 032047.
+
+[24] D.    J.    Lange,    The   EvtGen    particle        decay      simulation    package,
+     Nucl. Instrum. Meth. A462 (2001) 152.
+
+[25] N. Davidson, T. Przedzinski, and Z. Was, PHOTOS interface in C++: Technical
+     and physics documentation, Comp. Phys. Comm. 199 (2016) 86, arXiv:1011.0937.
+
+[26] Geant4 collaboration, J. Allison et al., Geant4 developments and applications,
+     IEEE Trans. Nucl. Sci. 53 (2006) 270.
+
+[27] Geant4 collaboration, S. Agostinelli et al., Geant4:            A simulation toolkit,
+     Nucl. Instrum. Meth. A506 (2003) 250.
+
+[28] M. Clemencic et al., The LHCb simulation application, Gauss: Design, evolution
+     and experience, J. Phys. Conf. Ser. 331 (2011) 032023.
+
+[29] W. D. Hulsbergen,        Decay chain fitting with a Kalman                          filter,
+     Nucl. Instrum. Meth. A552 (2005) 566, arXiv:physics/0503191.
+
+[30] Particle Data Group, R. L. Workman et al.,                   Review of particle physics,
+     Prog. Theor. Exp. Phys. 2022 (2022) 083C01.
+
+[31] R. Aaij et al., Selection and processing of calibration samples to measure
+     the particle identification performance of the LHCb experiment in Run 2,
+     Eur. Phys. J. Tech. Instr. 6 (2018) 1, arXiv:1803.00824.
+
+                                          10
+[32] L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone, Classification and
+     regression trees, Wadsworth international group, Belmont, California, USA, 1984.
+
+[33] N. L. Johnson, Systems of Frequency Curves Generated by Methods of Translation,
+     Biometrika 36 (1949) 149.
+
+[34] T. Skwarnicki, A study of the radiative cascade transitions between the Upsilon-
+     prime and Upsilon resonances, PhD thesis, Institute of Nuclear Physics, Krakow,
+     1986, DESY-F31-86-02.
+
+[35] S. U. Chung, Spin formalisms, CERN Academic Training Lecture, CERN, Geneva, 1971.
+     CERN, Geneva, 1969 - 1970.
+
+[36] JPAC collaboration, M. Mikhasenko et al., Dalitz-plot decomposition for three-body
+     decays, Phys. Rev. D101 (2020) 034033, arXiv:1910.04566.
+
+[37] See Supplemental material at [link inserted by publisher] for details on the amplitude
+     model, the event-by-event eﬃciency parameterisation, the ﬁt results of the nominal
+     model, the test with angular moments and the eﬃciency corrected and background
+     subtracted distributions.
+
+[38] A. L. Read, Presentation          of    search   results:    The    CL(s)     technique,
+     J. Phys. G 28 (2002) 2693.
+
+[39] J. M. Blatt and V.              F.     Weisskopf,     Theoretical   nuclear     physics,
+      Springer, New York, 1952.
+
+[40] BESIII collaboration, M. Ablikim et al., Polarization and entanglement
+     in baryon-antibaryon pair production in electron-positron annihilation,
+     Nature Phys. 15 (2019) 631, arXiv:1808.08917.
+
+
+
+
+                                            11
+Supplemental Material
+A       Amplitude model
+The amplitude model is constructed using helicity formalism [35] following the prescrip-
+tion for ﬁnal particle spin matching described in Ref. [36]. The amplitude OλX1 ,λ2 ,λ3 de-
+                                                                                         Λ                 N−         0
+scribes the decay amplitude for the B − to the J/ψΛp ﬁnal state via the K ∗− , P ψ , Pψs
+decay chains as follows,
+                                     r
+                                X X 2j K ∗ + 1 B− →K ∗ J/ψ             K∗
+   K∗            2       2
+ OλJ/ψ ,λΛ ,λp (mJ/ψΛ , mΛp ) =               Hλ′          R(m2Λp ) djλ′ ,λ′ −λ′ (θK ∗ )
+                                K∗
+                                        4π       J/ψ                   J/ψ Λ   p
+                                   ′
+                                   j      {λ }
+                                                      1/2            1/2                       J/ψ   ′       p
+                           K ∗ →Λp                                    p
+                                                                         ) × (−1)j −λJ/ψ (−1)j −λp ,
+                                                                                                                 ′
+                                                      Λ
+                     × Hλ′ ,λ′ δλ′J/ψ ,λJ/ψ dλ′ ,λΛ (ζBp ) dλ′ ,λp (−ζBΛ
+                           Λ p                Λ              p
+                                         s
+                                                 N
+ PψN                           X   X        2j Pψ + 1 B− →PψN Λ                    PψN
+                2       2
+OλJ/ψ ,λΛ ,λp (mJ/ψΛ , mΛp ) =                          Hλ′                2
+                                                                      R(mpJ/ψ ) djλ′ ,λ′ −λ′ (θPψN )
+                                N
+                                                4π          Λ                      Λ p     J/ψ
+                                   P  ′   {λ }
+                                   j ψ
+                     P N →pJ/ψ 1           J/ψ            1/2                    Λ         J/ψ ′
+                                                                   p
+                                                                        ) × (−1)j −λΛ (−1)j −λJ/ψ ,
+                                                                                    ′
+               × Hλ′ψ,λ′      dλ′ ,λJ/ψ (−ζBp ) δλ′Λ ,λΛ dλ′ ,λp (ζBJ/ψ
+                      p J/ψ      J/ψ                       p
+                                                  s
+                                                            Λ
+   Λ
+  Pψs                              XX                 2j Pψs + 1 B− →Pψs
+                                                                      Λ p               PψsΛ
+
+OλJ/ψ ,λΛ ,λp (m2J/ψΛ , m2Λp ) =                                Hλ′       R(m2J/ψΛ ) dλJp ,λ′ −λ′Λ (θPψs
+                                                                                                      Λ )
+                                                          4π      p                          J/ψ
+                                   PΛ     {λ′ }
+                                   j ψs
+                           P Λ →J/ψΛ 1          J/ψ   1/2                              p  ′      Λ  ′
+                     × Hλ′ψs ,λ′                                Λ
+                                    dλ′ ,λJ/ψ (ζBΛ ) dλ′ ,λΛ (−ζBJ/ψ ) δλ′p ,λp × (−1)j −λp (−1)j −λΛ ,
+                            J/ψ Λ      J/ψ             Λ
+
+                                                                                                                     (3)
+
+where j X is the total angular momentum of the diﬀerent contributions in the
+               N−           Λ0
+X = K ∗− , P ψ and Pψs         decay chains, respectively, and {λ′ } are the helicities of the
+                                                      i
+ﬁnal particles before spin rotations. The angle, ζBk    , is between the B − and the particle
+k in rest frame i. The coupling, HλA→BC  ′    , is the helicity coupling of a two-body decay
+A → BC, R is the line shape and djλA ,λB −λC is the small Wigner function. The angle, θX ,
+is the helicity angle of particle X, which is calculated using the Λ in the K ∗− rest frame,
+                              N−                                  Λ
+and either the p in the P ψ rest frame, or the J/ψ in the Pψs       rest frame.
+    The total decay amplitude is obtained by including the J/ψ → µ+ µ− and the Λ → pπ −
+decay amplitudes
+                                                            Λ 0
+                                X  ∗−             N−
+                                                                
+       Aλp ,λp ,∆µ (mpΛ , ~
+                          Ω) =        O K + O Pψ + O Pψs                 (m2J/ψΛ , m2Λp )
+                                                                               λJ/ψ ,λΛ ,λp
+                                   λΛ̄ ,λJ/ψ
+                                                                                              1/2∗
+                                                  × Dλ1∗J/ψ ,∆µ (φµ− , θJ/ψ , 0) HλΛ→pπ
+                                                                                    p
+                                                                                        DλΛ ,λp (φp , θΛ , 0),       (4)
+
+where Dλj∗A ,λB −λC (φ, θ, 0) is the Wigner D matrix, equal to eiλA φ djλA ,λB −λC (θ),
+φµ− , θJ/ψ , φp , θΛ are the azimuthal and polar angles of µ− and p in the J/ψ and Λ rest
+
+
+
+
+                                                                12
+frames, respectively. The axes in the B rest frame are deﬁned as follows,
+                   x̂J/ψ = ŷJ/ψ × ẑJ/ψ ,                    x̂Λ = ŷΛ × ẑΛ ,
+                           p~B
+                             p ×p  ~B
+                                    J/ψ                                 p~pB × ~pB
+                   ŷJ/ψ = B             ,                                        Λ
+                          |~pJ/ψ × ~pB                        ŷΛ =                  ,
+                                      p|                               |~pB       B      (5)
+                                                                           Λ ×  p
+                                                                                ~ p|
+                           p~B
+                             J/ψ                                        p~B
+                                                                          Λ
+                   ẑJ/ψ = B ,                                ẑΛ =          ,
+                          |~pJ/ψ |                                     |~pB
+                                                                          Λ|
+
+where the symbol x̂ refers to ~x/|x|. In Eq. 4, ∆µ is the diﬀerence of the muon helicities.
+For the J/ψ → µ+ µ− decay, the coupling can be absorbed into the other couplings of the
+total decay amplitude and therefore is not ﬁt. Indeed, there is only one coupling because
+the process with ∆µ = 0 is highly suppressed. So, ∆µ can only take values 1 and −1,
+and both choices lead to the same helicity coupling due to parity conservation.
+   Enforcing CP conservation, the helicity couplings for B − and B + decays are the same.
+The matrix-element formula is the same for charge-conjugate decays, but all azimuthal
+angles must change sign due to charge-parity transformation, i.e. φp → −φp and φµ− →
+−φµ+ .
+   The Λ → pπ + decay parameters are deﬁned by
+                                               +
+                                           Λ→pπ 2     Λ→pπ 2   +
+                                         |H1/2  | − |H−1/2 |
+                                 α+ =          +
+                                           Λ→pπ 2     Λ→pπ 2   +
+                                                                   ,
+                                         |H1/2  | + |H−1/2 |
+                                              Λ→pπ   +
+                                                    Λ→pπ ∗    +
+                                         2Im(H1/2  H−1/2   )
+                                 β+ =          +               +
+                                                                   ,                     (6)
+                                           Λ→pπ 2     Λ→pπ 2
+                                         |H1/2  | + |H−1/2 |
+                                              Λ→pπ   +
+                                                    Λ→pπ ∗    +
+                                         2Re(H1/2  H−1/2   )
+                                 γ+ =          +
+                                           Λ→pπ 2     Λ→pπ 2   +
+                                                                   ,
+                                         |H1/2  | + |H−1/2 |
+
+which satisfy the relation,
+                                         2
+                                        α+ + β+2 + γ+
+                                                    2
+                                                      = 1.
+   It is convenient to express β+ and γ+ in terms of an angle φ+ deﬁned as
+                                       q
+                                               2
+                                 β+ = 1 − α+     sin φ+ ,
+                                      q                                                  (7)
+                                              2
+                                 γ + = 1 − α+    cos φ+ .
+
+   Enforcing CP conservation, the following relations hold,
+                    Λ→pπ   +                        Λ→pπ       −
+                                                             Λ→pπ                  −
+                   H∓1/2 = ηΛ ηp ηπ (−1)JΛ −Jp −Jπ H±1/2 = −H±1/2 .                      (8)
+
+   This leads to
+
+                                               α+ = −α− ,
+                                               β+ = −β− ,
+                                                 γ+ = γ− ,
+                                        tan φ+ = − tan φ− ,                              (9)
+
+                                                13
+where α− , β− and γ− are obtained following Eq. 6 but using the couplings of the conjugate
+decay.                                                                          q
+                                       Λ→pπ +                          Λ→pπ +
+   If the complex helicity coupling H1/2      is set to (1,0), then H−1/2     = 1−α  + −iφ+
+                                                                                  1+α+
+                                                                                       e    .
+The values of α+ and φ+ are ﬁxed to −0.758 [40] and +6.5o [30] respectively.
+   The helicity couplings for the decay A → BC can be expressed as a combination of
+the LS couplings (BL,S ) using the Clebsch–Gordan (CG) coeﬃcients
+                               r
+                       X X 2L + 1
+              A→BC
+            HλB ,λC =                    BL,S hJB , λB , JC , −λC |S, λB − λC i
+                        L   S
+                                 2JA + 1
+                                                      ×hL, 0, S, λB − λC |JA , λB − λC i,       (10)
+where L is the orbital angular momentum in the decay, and S is the total spin of the
+daughters, S~ = J~B + J~C (|JB − JC | ≤ S ≤ JB + JC ). If the Q value, deﬁned as
+Q = MA − MB − MC , is small (Q/MA ≪ 1), the higher orbital angular momenta are
+suppressed, hence the number of couplings is reduced. CG coeﬃcients automatically
+take into account parity conservation constraints on helicity couplings for a strong or
+electromagnetic decay.
+                                                                  Λ0
+    For B − → XR, R → Y Z cascade decay, e.g. X = p, R = Pψs         , Y = Λ and Z = J/ψ,
+the lineshape of R is
+                  L                     l
+                   p      ′               q
+                        BL (p, p0 , d) ×      Bl′ (q, q0 , d)BW(m|m0 , Γ0 ),         (11)
+                   p0                     q0
+where p is the momentum of resonance R in the B − rest frame, q is the momentum of
+particle Y in the rest frame of resonance R, p0 and q0 are the momentum values calculated
+at the R resonance peak, L is the orbital angular momentum between resonance R and
+particle X in the B − → XR decay, and l is the orbital angular momentum between
+particle Y and particle Z in the R → Y Z decay. The (p/p0 )L and (q/q0 )l contributions are
+the orbital barrier factors, BL′ (p, p0 , d) and Bl′ (q, q0 , d) are the Blatt–Weisskopf functions
+that account for the diﬃculty to create the orbital angular momentum, and depend on
+the production (decay) momentum p (q) and on the size of the decaying particle given
+by the hadron radius d. These coeﬃcients up to order 4 are listed below,
+          B0′ (p, p0 , d) = 1,
+                            s
+                                  1 + (p0 d)2
+          B1′ (p, p0 , d) =                   ,
+                                  1 + (pd)2
+                              s
+                                  9 + 3 (p0 d)2 + (p0 d)4
+          B2′ (p, p0 , d) =                               ,
+                                   9 + 3(pd)2 + (pd)4
+                              s
+                                  225 + 45 (p0 d)2 + 6 (p0 d)4 + (p0 d)6
+          B3′ (p, p0 , d) =                                              ,
+                                    225 + 45(pd)2 + 6(pd)4 + (pd)6
+                              s
+                                  11025 + 1575 (p0 d)2 + 135 (p0 d)4 + 10 (p0 d)6 + (p0 d)8
+          B4′ (p, p0 , d) =                                                                 ,   (12)
+                                    11025 + 1575(pd)2 + 135(pd)4 + 10(pd)6 + (pd)8
+where d is the particle size parameter, set to 3 GeV−1 following the convention of Ref. [1].
+In the nominal amplitude ﬁt of B − → J/ψΛp decays, the constant d is set to dB = dR = 3
+GeV −1 for the B − and intermediate resonant R decays.
+
+                                                      14
+    The relativistic Breit–Wigner amplitude is given by
+                                                                   1
+                             BW(m|m0 , Γ0 ) =                                   ,                     (13)
+                                                      m20 − m2 − im0 Γ(m)
+with                                              2l+1 
+                                              q              m0  ′
+                             Γ(m) = Γ0                           Bl (q, q0 , d)2 ,                    (14)
+                                              q0             m
+where m is the invariant mass of the Y Z system, and m0 (Γ0 ) is the mass (width) of
+the R resonance. In the case that resonance R has a mass peak outside of the accessible
+kinematic region, i.e. mR > mB− − mX , such as for the K2 (2250)− and K3 (2320)− states,
+the eﬀective mass meff0 is introduced to calculate the two-body-decay momentum q0 in
+Eq. 14,
+                                              "                            !#
+                                                                mmin +mmax
+                               1                          m 0 −
+          meff
+            0 (m0 ) = m
+                        min
+                            + (mmax − mmin ) 1 + tanh                2
+                                                                              .    (15)
+                               2                            mmax − mmin
+
+This term is a constant that can be absorbed into the couplings, since it enters only in
+Eq. 14, and the mass m0 and width Γ0 of the K ∗ resonant contributions are ﬁxed to the
+nominal values [30]. In the case of a resonance R with mass peak located outside of the
+phase space at values mR < mY + mZ , such as for the K4 (2045)− state, the width is
+chosen as mass-independent parameter Γ0 . In the nominal model, the non-resonant (NR)
+contribution is modelled by a second-order polynomial,
+
+                                  c0 + c1 (m − m0 ) + c2 (m − m0 )2 ,                                 (16)
+
+where m0 is the average value of the invariant mass distribution, i.e. of the mJ/ψp invariant
+mass distribution. The coeﬃcients, ci , are the polynomial coeﬃcients, where c0 is set to
+a constant value since one of the ci coeﬃcients can be factor out of amplitude matrix
+element, and the other two are extracted from a ﬁt to the data.
+
+
+B      Event-by-event efficiency parameterisation
+Event-by-event acceptance corrections are applied to the data using an eﬃciency pa-
+rameterisation based on the decay kinematics. The 6-body phase space of the topology
+B − → J/ψ(→ µ− µ+ )Λ(→ pπ − )p is fully described by six independent kinematic variables:
+mΛp , cos θK ∗ , cos θJ/ψ , φµ , cos θΛ , and φp . For the signal mode, the overall eﬃciency, in-
+cluding trigger, detector acceptance, and selection procedure, is obtained from simulation
+as a function of the six kinematic variables, ~ω ≡ {cos θK ∗ , cos θJ/ψ , φ′µ , m′Λp , cos θΛ , φp′ }.
+Here, m′Λp and φ′ are transformed such that all four variables in ~ω lie in the range (−1, 1].
+The eﬃciency is parameterised as the product of Legendre polynomials
+                                  X
+                     ǫ(~ω ) =            ci,j,k,l,m,nP (cos θK ∗ , i)P (cos θJ/ψ , j)
+                              i,j,k,l,m,n                                                       (17)
+                                               ′          ′                           ′
+                                         P (φµ , k)P (mΛp , l)P (cos θΛ , m)P (φp , n),
+
+where P (x, l) are Legendre polynomials of order l in x ∈ (−1, 1]. Employing the order of
+the polynomials as {2, 2, 2, 2, 4, 3} for {cos θK ∗ , cos θJ/ψ , φ′µ , m′Λp , cos θΛ , φ′p }, respectively,
+
+                                                      15
+was found to give a good parameterisation. The coeﬃcients ci,j,k,l,m,n are determined from
+a moment analysis of B − → J/ψΛp phase-space simulated samples
+                      Nrec                                                     
+                C X             2i + 1    2j + 1    2k + 1    2l + 1    2m + 1     2n + 1
+ci,j,k,l,m,n = P           ων
+                 ν ων ν=1          2         2        2          2         2         2
+                       ×P (cos θK ∗ , i)P (cos θJ/ψ , j)P (φ′µ, k)P (m′Λp , l)P (cos θΛ , m)P (φp′ , n),
+                                                                                                  (18)
+where ων is the per-event weight taking into account both the generator-level phase-space
+element, dΦ, and the kinematic event weights. Simulation samples are employed where
+B − → J/ψΛp events are generated uniformly in phase space. In order to render the
+simulation ﬂat also in m(Λp), the inverted phase-space factor, 1/dΦ, is considered. The
+factors of (2a + 1)/2 arise from the orthogonality of the Legendre polynomials,
+                           Z +1
+                                                             2
+                                P (x, a)P (x, a′ )dx =            δaa′ .                          (19)
+                             −1                          2a + 1
+The sum in Eq. 18 is over the reconstructed events in the simulation sample after all
+selection criteria. The factor C ensures appropriate normalisation and it is computed
+such that
+                                       Ngen
+                                       X
+                                            ε(~xn ) = Nrec ,                                      (20)
+                                           n=0
+where Nrec is the total number of reconstructed signal events.
+   Up to statistical ﬂuctuations, the parameterisation follows the simulated data in all
+the distributions.
+
+
+C      Fit results of the nominal model
+In Table 2, the ﬁt results of the nominal model are reported including the results of the LS
+couplings. The couplings are split into real and imaginary parts, i.e. Reprod(decay) (R)L,S ,
+Improd(decay) (R)L,S . The subscript prod (decay) refers to the B − → XR (R → Y Z)
+process, where X, Y , Z are the ﬁnal state particles, and R is the decay chain under
+consideration. The subscript L refers to the orbital angular momentum and S to the sum
+of the spins of the decay products.
+
+
+D      Angular moments
+                                                               0
+The normalized angular moments PjU of the Pψs
+                                           Λ
+                                              helicity angle are deﬁned as,
+                                               N
+                                               X rec                 
+                                     PjU   =           ωi Pj cos θPψs
+                                                                   Λ                              (21)
+                                                 i=0
+where Nrec is the number of selected events, Pj are Legendre polynomials and ωi are per-
+event weights accounting for background subtraction (with sPlot technique) and eﬃciency
+correction.
+   The angular moments are shown in Fig. 4, up to order 5, as a function of the m(J/ψΛ)
+invariant mass distribution. They show a good agreement between the data and the
+nominal model.
+
+                                                       16
+Table 2: Parameters determined from the fit to data using the nominal model where uncertain-
+ties are statistical only.
+
+                        Parameters                      Values
+                        MP Λ ( MeV)                   4338.2 ± 0.7
+                           ψs
+                        ΓP Λ ( MeV)                     7.0 ± 1.0
+                           ψs
+                                  Λ 0)
+                        Redecay (Pψs                   0.16 ± 0.04
+                                      L=0,S=1/2
+                                  Λ 0)
+                        Imdecay (Pψs                  −0.04 ± 0.08
+                                       L=0,S=1/2
+                        Redecay (NR(pJ/ψ))L=1,S=3/2    −3.0 ± 0.4
+                        Imdecay (NR(pJ/ψ))L=1,S=3/2     0.1 ± 0.5
+                        Reprod (NR(pΛ))L=1,S=1          1.0 ± 0.5
+                        Improd (NR(pΛ))L=1,S=1         −0.5 ± 0.5
+                        Reprod (NR(pΛ))L=2,S=2         0.01 ± 0.25
+                        Improd (NR(pΛ))L=2,S=2          0.1 ± 0.4
+                        Redecay (NR(pΛ))L=0,S=1        −0.3 ± 0.1
+                        Imdecay (NR(pΛ))L=0,S=1        −0.1 ± 0.1
+                        Redecay (NR(pΛ))L=2,S=1         0.4 ± 0.1
+                        Imdecay (NR(pΛ))L=2,S=1         0.1 ± 0.2
+                        c1                              2.6 ± 0.6
+                        c2                               72 ± 14
+                        fP Λ                          0.125 ± 0.007
+                          ψs
+                        fNR(pJ/ψ)                     0.840 ± 0.002
+                        fNR(pΛ)                       0.113 ± 0.013
+                        − log L                          −807.63
+
+
+E     Efficiency corrected and background subtracted
+      distributions
+The data are assigned weights to account for the eﬃciency and to subtract the background
+using the sPlot technique. The eﬃciency corrected data distributions of m(pΛ), m(J/ψp),
+m(J/ψΛ) and cos θK ∗ are shown in Figure 5. There is a sign diﬀerence between this
+cos θK ∗ deﬁnition and the one from CMS [16].
+
+
+F     Invariant mass fit for the B − mass measurement
+Fig. 6 shows the invariant mass ﬁt used to extract the B − mass measurement. The signal
+yield with Λ baryons in the long category is 1670 ± 40, which amounts to 36% of the total
+candidates.
+
+
+
+
+                                             17
+  QO 160                                                         rq 80                                                       
+  HN 140 XYZ[                        RSTUdataVWU    -1
+                                                                   jo ba z{|}                    tuvwdataxyw -1
+                                                                                                                             25                            data
+                                                                                                                                                                           -1
+
+
+  MKJ 120                                                        nml 60                                                        20
+  IGH 100                                  fit
+                                                                 kij 50                             fit
+                                                                                                                               15
+                                                                                                                                                                    fit
+
+  BFE 80                                                            ehg 40                                                  
+                                                                                                                                  10
+  ED                                                                   gf ^a                                                
+                                                                                                                                   5
+  BA 60                                                          d 20    e                                                       0
+
+                                                                                                                              
+                                                                                                                                   5
+        40                                                            10
+                                                                                                                              
+                                                                                                                                  10
+        20                                                               0
+                                                                   `104.2                                                     
+                                                                                                                                  15
+         0
+         4.2          4.25           =>?            =>?@                        4.25         \]^ \]^_                             20
+                                                                                                                                   4.2
+                                                                                                                                  4.25                       ~               ~
+                                m(J/ ψ Λ) GeV                                             m(J/ ψ Λ) GeV                                                  m(J/ ψ Λ) GeV
+  ¯® ¡                                                    ÌË »¾                                           èç 20
+  ¨­ 25 ¶·¸                         °±²³data´µ³    -1
+                                                           ÅÊ 25 ÓÔ¹Õ                         ÍÎÏÐdataÑÒÐ    áæ 15 ïðÙñ
+                                                                                                             -1
+                                                                                                                                                                 éêëìdataíîì
+                                                                                                                                                                           -1
+
+
+  ¬ª« 2015                                                 ÉÇÈ 2015                                            åãä 10
+  ©¨§ 10                                   fit
+                                                           ÆÅÄ 10                                fit
+                                                                                                                  âáà 5                                             fit
+
+  £¥¦                                                      ÀÂÃ                                                       ÜÞß 0
+  ¥¤     5
+                                                           ÂÁ          5
+                                                                                                                        ÞÝ
+  £¢                                                       À¿                                                              ÜÛ Ú5
+                                                                    ½
+         0                                                             0
+         5
+                                                                   ½
+                                                                       5
+                                                                                                                              Ú10
+        10
+                                                                   ½
+                                                                      10
+                                                                                                                              Ú15
+                                                                   ½                                                          Ú
+        15                                                            15
+        20
+         4.2          4.25                                     20
+                                                                       4.2      4.25         ¹º» ¹º»¼ 204.2                       4.25                       Ö×Ø               Ö×ØÙ
+                                m(J/ ψ Λ) GeV                                             m(J/ ψ Λ) GeV                                                  m(J/ ψ Λ) GeV
+
+            Λ (4338)0 helicity angular moments as a function of m(J/ψΛ) invariant mass. The
+Figure 4: Pψs
+black points represent the data while the blue line is the nominal model.
+
+
+
+
+                ÿþ 60000
+                øý 50000
+                                                                                            
+                                                                    LHCb                         60000                   LHCb
+                                                                       -1                                                   -1
+
+                üûú
+                                                                    9                                                    
+
+
+
+                ù÷ø 40000
+                                                                                                 50000
+
+                óõö 30000
+                                                                                            
+                                                                                                40000
+                                                                                            
+
+
+                õôó
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                                30000
+
+                ò 20000
+                                                                                            
+                                                                                            
+                                                                                            C    20000
+
+                        10000                                                                    10000
+
+                             0                                                                        0
+                              2.05                 2.1                2.15                                        4.05               4.1              4.15
+                                                                        m(p Λ) GeV                                                           m(J/ ψ p ) GeV
+                                                                                           0
+                                                                                                          × 103
+                                                                   LHCb                    /                                                LHCb
+                       60000                                            -1                 -.     100
+                                                                       !"                   -                                                9 fb-1
+                                                                                           ,+
+                       50000                                                               *
+                
+                                                                                           )
+                                                                                            (
+                                                                                                     80
+                                                                                           $
+                
+                
+                        40000                                                               '&
+                                                                                           &        60
+                                                                                           %
+                       30000                                                               $
+                                                                                           #
+                                                                                                    40
+                       20000
+
+                        10000                                                                        20
+
+                             0                                                                        0
+                             4.2                 4.25                4.3        4.35                  −1             −0.5                0       0.5         1
+                                                                 m(J/ ψ Λ) GeV                                                                         cosθK *
+
+Figure 5: Efficiency corrected and background subtracted distributions for m(pΛ), m(J/ψp),
+m(J/ψΛ) and cos θK ∗ .
+
+
+
+                                                                                     18
+                         F
+
+                         E
+                         <
+                                     LHCb                GHIH
+
+                             600     9 fb-1              TJIHK LMI
+                         D
+                                                         SMNOHK
+                         B
+                         A
+                         @
+                             500                         Background
+                         ?
+                         >
+                         =
+                         <   400
+                         ;
+                         6
+                         8
+                         :   300
+                         8
+                         7
+                         6
+                         5
+                             200
+
+                             100
+
+                               0
+                              5200        5250        5300        5350
+                                                 m(J/ψ Λ p )   [1234
+
+
+
+
+Figure 6: Invariant mass distribution of the J/ψΛp candidates reconstructued with Λ baryons
+in the long category only. This dataset in used for the measurement of the B − meson mass.
+The data are overlaid with the results of the fit.
+
+
+
+
+                                                 19
+                             LHCb collaboration
+R. Aaij32 , A.S.W. Abdelmotteleb50 , C. Abellan Beteta44 , F. Abudinén50 ,
+T. Ackernley54 , B. Adeva40 , M. Adinolfi48 , P. Adlarson77 , H. Afsharnia9 ,
+C. Agapopoulou13 , C.A. Aidala78 , Z. Ajaltouni9 , S. Akar59 , K. Akiba32 ,
+J. Albrecht15 , F. Alessio42 , M. Alexander53 , A. Alfonso Albero39 , Z. Aliouche56 ,
+P. Alvarez Cartelle49 , R. Amalric13 , S. Amato2 , J.L. Amey48 , Y. Amhis11,42 ,
+L. An42 , L. Anderlini22 , M. Andersson44 , A. Andreianov38 , M. Andreotti21 ,
+D. Andreou62 , D. Ao6 , F. Archilli17 , A. Artamonov38 , M. Artuso62 ,
+E. Aslanides10 , M. Atzeni44 , B. Audurier12 , S. Bachmann17 , M. Bachmayer43 ,
+J.J. Back50 , A. Bailly-reyre13 , P. Baladron Rodriguez40 , V. Balagura12 ,
+W. Baldini21 , J. Baptista de Souza Leite1 , M. Barbetti22,j , R.J. Barlow56 ,
+S. Barsuk11 , W. Barter55 , M. Bartolini49 , F. Baryshnikov38 , J.M. Basels14 ,
+G. Bassi29,r , B. Batsukh4 , A. Battig15 , A. Bay43 , A. Beck50 , M. Becker15 ,
+F. Bedeschi29 , I.B. Bediaga1 , A. Beiter62 , V. Belavin38 , S. Belin40 , V. Bellee44 ,
+K. Belous38 , I. Belov38 , I. Belyaev38 , G. Benane10 , G. Bencivenni23 ,
+E. Ben-Haim13 , A. Berezhnoy38 , R. Bernet44 , S. Bernet Andres76 , D. Berninghoff17 ,
+H.C. Bernstein62 , C. Bertella56 , A. Bertolin28 , C. Betancourt44 , F. Betti42 ,
+Ia. Bezshyiko44 , S. Bhasin48 , J. Bhom35 , L. Bian68 , M.S. Bieker15 ,
+N.V. Biesuz21 , S. Bifani47 , P. Billoir13 , A. Biolchini32 , M. Birch55 ,
+F.C.R. Bishop49 , A. Bitadze56 , A. Bizzeti , M.P. Blago49 , T. Blake50 ,
+F. Blanc43 , J.E. Blank15 , S. Blusk62 , D. Bobulska53 , J.A. Boelhauve15 ,
+O. Boente Garcia12 , T. Boettcher59 , A. Boldyrev38 , C.S. Bolognani74 ,
+R. Bolzonella21,i , N. Bondar38,42 , F. Borgato28 , S. Borghi56 , M. Borsato17 ,
+J.T. Borsuk35 , S.A. Bouchiba43 , T.J.V. Bowcock54 , A. Boyer42 , C. Bozzi21 ,
+M.J. Bradley55 , S. Braun60 , A. Brea Rodriguez40 , J. Brodzicka35 ,
+A. Brossa Gonzalo40 , J. Brown54 , D. Brundu27 , A. Buonaura44 , L. Buonincontri28 ,
+A.T. Burke56 , C. Burr42 , A. Bursche66 , A. Butkevich38 , J.S. Butter32 ,
+J. Buytaert42 , W. Byczynski42 , S. Cadeddu27 , H. Cai68 , R. Calabrese21,i ,
+L. Calefice15 , S. Cali23 , R. Calladine47 , M. Calvi26,n , M. Calvo Gomez76 ,
+P. Campana23 , D.H. Campora Perez74 , A.F. Campoverde Quezada6 , S. Capelli26,n ,
+L. Capriotti20 , A. Carbone20,g , G. Carboni31 , R. Cardinale24,k , A. Cardini27 ,
+P. Carniti26,n , L. Carus14 , A. Casais Vidal40 , R. Caspary17 , G. Casse54 ,
+M. Cattaneo42 , G. Cavallero42 , V. Cavallini21,i , S. Celani43 , J. Cerasoli10 ,
+D. Cervenkov57 , A.J. Chadwick54 , M.G. Chapman48 , M. Charles13 ,
+Ph. Charpentier42 , C.A. Chavez Barajas54 , M. Chefdeville8 , C. Chen3 , S. Chen4 ,
+A. Chernov35 , S. Chernyshenko46 , V. Chobanova40 , S. Cholak43 , M. Chrzaszcz35 ,
+A. Chubykin38 , V. Chulikov38 , P. Ciambrone23 , M.F. Cicala50 , X. Cid Vidal40 ,
+G. Ciezarek42 , G. Ciulloi,21 , P.E.L. Clarke52 , M. Clemencic42 , H.V. Cliff49 ,
+J. Closier42 , J.L. Cobbledick56 , V. Coco42 , J.A.B. Coelho11 , J. Cogan10 ,
+E. Cogneras9 , L. Cojocariu37 , P. Collins42 , T. Colombo42 , L. Congedo19 ,
+A. Contu27 , N. Cooke47 , I. Corredoira 40 , G. Corti42 , B. Couturier42 ,
+D.C. Craik44 , M. Cruz Torres1,e , R. Currie52 , C.L. Da Silva61 , S. Dadabaev38 ,
+L. Dai65 , X. Dai5 , E. Dall’Occo15 , J. Dalseno40 , C. D’Ambrosio42 , J. Daniel9 ,
+A. Danilina38 , P. d’Argent15 , J.E. Davies56 , A. Davis56 , O. De Aguiar Francisco56 ,
+J. de Boer42 , K. De Bruyn73 , S. De Capua56 , M. De Cian43 ,
+U. De Freitas Carneiro Da Graca1 , E. De Lucia23 , J.M. De Miranda1 , L. De Paula2 ,
+M. De Serio19,f , D. De Simone44 , P. De Simone23 , F. De Vellis15 , J.A. de Vries74 ,
+C.T. Dean61 , F. Debernardis19,f , D. Decamp8 , V. Dedu10 , L. Del Buono13 ,
+B. Delaney58 , H.-P. Dembinski15 , V. Denysenko44 , O. Deschamps9 , F. Dettori27,h ,
+
+
+                                          20
+B. Dey71 , P. Di Nezza23 , I. Diachkov38 , S. Didenko38 , L. Dieste Maronas40 ,
+S. Ding62 , V. Dobishuk46 , A. Dolmatov38 , C. Dong3 , A.M. Donohoe18 ,
+F. Dordei27 , A.C. dos Reis1 , L. Douglas53 , A.G. Downes8 , P. Duda75 ,
+M.W. Dudek35 , L. Dufour42 , V. Duk72 , P. Durante42 , M. M. Duras75 ,
+J.M. Durham61 , D. Dutta56 , A. Dziurda35 , A. Dzyuba38 , S. Easo51 , U. Egede63 ,
+V. Egorychev38 , S. Eidelman38,† , C. Eirea Orro40 , S. Eisenhardt52 , E. Ejopu56 ,
+S. Ek-In43 , L. Eklund77 , S. Ely62 , A. Ene37 , E. Epple59 , S. Escher14 ,
+J. Eschle44 , S. Esen44 , T. Evans56 , F. Fabiano27,h , L.N. Falcao1 , Y. Fan6 ,
+B. Fang11,68 , L. Fantini72,q , M. Faria43 , S. Farry54 , D. Fazzini26,n ,
+L.F Felkowski75 , M. Feo42 , M. Fernandez Gomez40 , A.D. Fernez60 , F. Ferrari20 ,
+L. Ferreira Lopes43 , F. Ferreira Rodrigues2 , S. Ferreres Sole32 , M. Ferrillo44 ,
+M. Ferro-Luzzi42 , S. Filippov38 , R.A. Fini19 , M. Fiorini21,i , M. Firlej34 ,
+K.M. Fischer57 , D.S. Fitzgerald78 , C. Fitzpatrick56 , T. Fiutowski34 , F. Fleuret12 ,
+M. Fontana13 , F. Fontanelli24,k , R. Forty42 , D. Foulds-Holt49 , V. Franco Lima54 ,
+M. Franco Sevilla60 , M. Frank42 , E. Franzoso21,i , G. Frau17 , C. Frei42 ,
+D.A. Friday53 , J. Fu6 , Q. Fuehring15 , T. Fulghesu13 , E. Gabriel32 , G. Galati19,f ,
+M.D. Galati32 , A. Gallas Torreira40 , D. Galli20,g , S. Gambetta52,42 , Y. Gan3 ,
+M. Gandelman2 , P. Gandini25 , Y. Gao7 , Y. Gao5 , M. Garau27,h ,
+L.M. Garcia Martin50 , P. Garcia Moreno39 , J. Garcı́a Pardiñas26,n , B. Garcia Plana40 ,
+F.A. Garcia Rosales12 , L. Garrido39 , C. Gaspar42 , R.E. Geertsema32 , D. Gerick17 ,
+L.L. Gerken15 , E. Gersabeck56 , M. Gersabeck56 , T. Gershon50 , L. Giambastiani28 ,
+V. Gibson49 , H.K. Giemza36 , A.L. Gilman57 , M. Giovannetti23,u , A. Gioventù40 ,
+P. Gironella Gironell39 , C. Giugliano21,i , M.A. Giza35 , K. Gizdov52 ,
+E.L. Gkougkousis42 , V.V. Gligorov13,42 , C. Göbel64 , E. Golobardes76 ,
+D. Golubkov38 , A. Golutvin55,38 , A. Gomes1,a , S. Gomez Fernandez39 ,
+F. Goncalves Abrantes57 , M. Goncerz35 , G. Gong3 , I.V. Gorelov38 , C. Gotti26 ,
+J.P. Grabowski70 , T. Grammatico13 , L.A. Granado Cardoso42 , E. Graugés39 ,
+E. Graverini43 , G. Graziani , A. T. Grecu37 , L.M. Greeven32 , N.A. Grieser4 ,
+L. Grillo53 , S. Gromov38 , B.R. Gruberg Cazon57 , C. Gu3 , M. Guarise21,i ,
+M. Guittiere11 , P. A. Günther17 , E. Gushchin38 , A. Guth14 , Y. Guz38 , T. Gys42 ,
+T. Hadavizadeh63 , C. Hadjivasiliou60 , G. Haefeli43 , C. Haen42 , J. Haimberger42 ,
+S.C. Haines49 , T. Halewood-leagas54 , M.M. Halvorsen42 , P.M. Hamilton60 ,
+J. Hammerich54 , Q. Han7 , X. Han17 , E.B. Hansen56 , S. Hansmann-Menzemer17 ,
+L. Hao6 , N. Harnew57 , T. Harrison54 , C. Hasse42 , M. Hatch42 , J. He6,c ,
+K. Heijhoff32 , C. Henderson59 , R.D.L. Henderson63,50 , A.M. Hennequin58 ,
+K. Hennessy54 , L. Henry42 , J. Herd55 , J. Heuel14 , A. Hicheur2 , D. Hill43 ,
+M. Hilton56 , S.E. Hollitt15 , J. Horswill56 , R. Hou7 , Y. Hou8 , J. Hu17 , J. Hu66 ,
+W. Hu5 , X. Hu3 , W. Huang6 , X. Huang68 , W. Hulsbergen32 , R.J. Hunter50 ,
+M. Hushchyn38 , D. Hutchcroft54 , P. Ibis15 , M. Idzik34 , D. Ilin38 , P. Ilten59 ,
+A. Inglessi38 , A. Iniukhin38 , A. Ishteev38 , K. Ivshin38 , R. Jacobsson42 ,
+H. Jage14 , S.J. Jaimes Elles41 , S. Jakobsen42 , E. Jans32 , B.K. Jashal41 ,
+A. Jawahery60 , V. Jevtic15 , E. Jiang60 , X. Jiang4,6 , Y. Jiang6 , M. John57 ,
+D. Johnson58 , C.R. Jones49 , T.P. Jones50 , B. Jost42 , N. Jurik42 , I. Juszczak35 ,
+S. Kandybei45 , Y. Kang3 , M. Karacson42 , D. Karpenkov38 , M. Karpov38 ,
+J.W. Kautz59 , F. Keizer42 , D.M. Keller62 , M. Kenzie50 , T. Ketel32 , B. Khanji15 ,
+A. Kharisova38 , S. Kholodenko38 , G. Khreich11 , T. Kirn14 , V.S. Kirsebom43 ,
+O. Kitouni58 , S. Klaver33 , N. Kleijne29,r , K. Klimaszewski36 , M.R. Kmiec36 ,
+S. Koliiev46 , A. Kondybayeva38 , A. Konoplyannikov38 , P. Kopciewicz34 ,
+R. Kopecna17 , P. Koppenburg32 , M. Korolev38 , I. Kostiuk32,46 , O. Kot46 ,
+S. Kotriakhova , A. Kozachuk38 , P. Kravchenko38 , L. Kravchuk38 ,
+
+
+                                           21
+R.D. Krawczyk42 , M. Kreps50 , S. Kretzschmar14 , P. Krokovny38 , W. Krupa34 ,
+W. Krzemien36 , J. Kubat17 , S. Kubis75 , W. Kucewicz35,34 , M. Kucharczyk35 ,
+V. Kudryavtsev38 , A. Kupsc77 , D. Lacarrere42 , G. Lafferty56 , A. Lai27 ,
+A. Lampis27,h , D. Lancierini44 , C. Landesa Gomez40 , J.J. Lane56 , R. Lane48 ,
+G. Lanfranchi23 , C. Langenbruch14 , J. Langer15 , O. Lantwin38 , T. Latham50 ,
+F. Lazzari29,v , M. Lazzaroni25,m , R. Le Gac10 , S.H. Lee78 , R. Lefèvre9 ,
+A. Leflat38 , S. Legotin38 , P. Lenisai,21 , O. Leroy10 , T. Lesiak35 ,
+B. Leverington17 , A. Li3 , H. Li66 , K. Li7 , P. Li17 , P.-R. Li67 , S. Li7 , T. Li4 ,
+T. Li66 , Y. Li4 , Z. Li62 , X. Liang62 , C. Lin6 , T. Lin51 , R. Lindner42 ,
+V. Lisovskyi15 , R. Litvinov27,h , G. Liu66 , H. Liu6 , Q. Liu6 , S. Liu4,6 ,
+A. Lobo Salvia39 , A. Loi27 , R. Lollini72 , J. Lomba Castro40 , I. Longstaff53 ,
+J.H. Lopes2 , A. Lopez Huertas39 , S. López Soliño40 , G.H. Lovell49 , Y. Lu4,b ,
+C. Lucarelli22,j , D. Lucchesi28,p , S. Luchuk38 , M. Lucio Martinez74 ,
+V. Lukashenko32,46 , Y. Luo3 , A. Lupato56 , E. Luppi21,i , A. Lusiani29,r ,
+K. Lynch18 , X.-R. Lyu6 , L. Ma4 , R. Ma6 , S. Maccolini20 , F. Machefert11 ,
+F. Maciuc37 , I. Mackay57 , V. Macko43 , P. Mackowiak15 , L.R. Madhan Mohan48 ,
+A. Maevskiy38 , D. Maisuzenko38 , M.W. Majewski34 , J.J. Malczewski35 , S. Malde57 ,
+B. Malecki35,42 , A. Malinin38 , T. Maltsev38 , G. Manca27,h , G. Mancinelli10 ,
+C. Mancuso11,25,m , D. Manuzzi20 , C.A. Manzari44 , D. Marangotto25,m ,
+J.F. Marchand8 , U. Marconi20 , S. Mariani22,j , C. Marin Benito39 , J. Marks17 ,
+A.M. Marshall48 , P.J. Marshall54 , G. Martelli72,q , G. Martellotti30 ,
+L. Martinazzoli42,n , M. Martinelli26,n , D. Martinez Santos40 , F. Martinez Vidal41 ,
+A. Massafferri1 , M. Materok14 , R. Matev42 , A. Mathad44 , V. Matiunin38 ,
+C. Matteuzzi26 , K.R. Mattioli12 , A. Mauri32 , E. Maurice12 , J. Mauricio39 ,
+M. Mazurek42 , M. McCann55 , L. Mcconnell18 , T.H. McGrath56 , N.T. McHugh53 ,
+A. McNab56 , R. McNulty18 , J.V. Mead54 , B. Meadows59 , G. Meier15 ,
+D. Melnychuk36 , S. Meloni26,n , M. Merk32,74 , A. Merli25,m , L. Meyer Garcia2 ,
+D. Miao4,6 , M. Mikhasenko70,d , D.A. Milanes69 , E. Millard50 , M. Milovanovic42 ,
+M.-N. Minard8,† , A. Minotti26,n , T. Miralles9 , S.E. Mitchell52 , B. Mitreska56 ,
+D.S. Mitzel15 , A. Mödden 15 , R.A. Mohammed57 , R.D. Moise14 , S. Mokhnenko38 ,
+T. Mombächer40 , M. Monk50,63 , I.A. Monroy69 , S. Monteil9 , M. Morandin28 ,
+G. Morello23 , M.J. Morello29,r , J. Moron34 , A.B. Morris70 , A.G. Morris50 ,
+R. Mountain62 , H. Mu3 , E. Muhammad50 , F. Muheim52 , M. Mulder73 ,
+K. Müller44 , C.H. Murphy57 , D. Murray56 , R. Murta55 , P. Muzzetto27,h ,
+P. Naik48 , T. Nakada43 , R. Nandakumar51 , T. Nanut42 , I. Nasteva2 ,
+M. Needham52 , N. Neri25,m , S. Neubert70 , N. Neufeld42 , P. Neustroev38 ,
+R. Newcombe55 , J. Nicolini15,11 , E.M. Niel43 , S. Nieswand14 , N. Nikitin38 ,
+N.S. Nolte58 , C. Normand8,h,27 , J. Novoa Fernandez40 , C. Nunez78 ,
+A. Oblakowska-Mucha34 , V. Obraztsov38 , T. Oeser14 , D.P. O’Hanlon48 ,
+S. Okamura21,i , R. Oldeman27,h , F. Oliva52 , C.J.G. Onderwater73 , R.H. O’Neil52 ,
+J.M. Otalora Goicochea2 , T. Ovsiannikova38 , P. Owen44 , A. Oyanguren41 ,
+O. Ozcelik52 , K.O. Padeken70 , B. Pagare50 , P.R. Pais42 , T. Pajero57 ,
+A. Palano19 , M. Palutan23 , Y. Pan56 , G. Panshin38 , L. Paolucci50 ,
+A. Papanestis51 , M. Pappagallo19,f , L.L. Pappalardo21,i , C. Pappenheimer59 ,
+W. Parker60 , C. Parkes56 , B. Passalacqua21,i , G. Passaleva22 , A. Pastore19 ,
+M. Patel55 , C. Patrignani20,g , C.J. Pawley74 , A. Pearce42 , A. Pellegrino32 ,
+M. Pepe Altarelli42 , S. Perazzini20 , D. Pereima38 , A. Pereiro Castro40 , P. Perret9 ,
+M. Petric53 , K. Petridis48 , A. Petrolini24,k , A. Petrov38 , S. Petrucci52 , M. Petruzzo25 ,
+H. Pham62 , A. Philippov38 , R. Piandani6 , L. Pica29,r , M. Piccini72 ,
+B. Pietrzyk8 , G. Pietrzyk11 , M. Pili57 , A. Pilloni62,l , D. Pinci30 , F. Pisani42 ,
+
+
+                                             22
+M. Pizzichemi26,n,42 , V. Placinta37 , J. Plews47 , M. Plo Casasus40 , F. Polci13,42 ,
+M. Poli Lener23 , M. Poliakova62 , A. Poluektov10 , N. Polukhina38 , I. Polyakov42 ,
+E. Polycarpo2 , S. Ponce42 , D. Popov6,42 , S. Popov38 , S. Poslavskii38 ,
+K. Prasanth35 , L. Promberger17 , C. Prouve40 , V. Pugatch46 , V. Puill11 ,
+G. Punzi29,s , H.R. Qi3 , W. Qian6 , N. Qin3 , S. Qu3 , R. Quagliani43 ,
+N.V. Raab18 , R.I. Rabadan Trejo6 , B. Rachwal34 , J.H. Rademacker48 ,
+R. Rajagopalan62 , M. Rama29 , M. Ramos Pernas50 , M.S. Rangel2 , F. Ratnikov38 ,
+G. Raven33,42 , M. Rebollo De Miguel41 , F. Redi42 , J. Reich48 , F. Reiss56 ,
+C. Remon Alepuz41 , Z. Ren3 , P.K. Resmi10 , R. Ribatti29,r , A.M. Ricci27 ,
+S. Ricciardi51 , K. Richardson58 , M. Richardson-Slipper52 , K. Rinnert54 ,
+P. Robbe11 , G. Robertson52 , A.B. Rodrigues43 , E. Rodrigues54 ,
+E. Rodriguez Fernandez40 , J.A. Rodriguez Lopez69 , E. Rodriguez Rodriguez40 ,
+D.L. Rolf42 , A. Rollings57 , P. Roloff42 , V. Romanovskiy38 , M. Romero Lamas40 ,
+A. Romero Vidal40 , J.D. Roth78,† , M. Rotondo23 , M.S. Rudolph62 , T. Ruf42 ,
+R.A. Ruiz Fernandez40 , J. Ruiz Vidal41 , A. Ryzhikov38 , J. Ryzka34 ,
+J.J. Saborido Silva40 , N. Sagidova38 , N. Sahoo47 , B. Saitta27,h , M. Salomoni42 ,
+C. Sanchez Gras32 , I. Sanderswood41 , R. Santacesaria30 , C. Santamarina Rios40 ,
+M. Santimaria23 , E. Santovetti31,u , D. Saranin38 , G. Sarpis14 , M. Sarpis70 ,
+A. Sarti30 , C. Satriano30,t , A. Satta31 , M. Saur15 , D. Savrina38 , H. Sazak9 ,
+L.G. Scantlebury Smead57 , A. Scarabotto13 , S. Schael14 , S. Scherl54 , M. Schiller53 ,
+H. Schindler42 , M. Schmelling16 , B. Schmidt42 , S. Schmitt14 , O. Schneider43 ,
+A. Schopper42 , M. Schubiger32 , S. Schulte43 , M.H. Schune11 , R. Schwemmer42 ,
+B. Sciascia23,42 , A. Sciuccati42 , S. Sellam40 , A. Semennikov38 , M. Senghi Soares33 ,
+A. Sergi24,k , N. Serra44 , L. Sestini28 , A. Seuthe15 , Y. Shang5 , D.M. Shangase78 ,
+M. Shapkin38 , I. Shchemerov38 , L. Shchutska43 , T. Shears54 , L. Shekhtman38 ,
+Z. Shen5 , S. Sheng4,6 , V. Shevchenko38 , B. Shi6 , E.B. Shields26,n , Y. Shimizu11 ,
+E. Shmanin38 , R. Shorkin38 , J.D. Shupperd62 , B.G. Siddi21,i , R. Silva Coutinho62 ,
+G. Simi28 , S. Simone19,f , M. Singla63 , N. Skidmore56 , R. Skuza17 ,
+T. Skwarnicki62 , M.W. Slater47 , J.C. Smallwood57 , J.G. Smeaton49 , E. Smith44 ,
+K. Smith61 , M. Smith55 , A. Snoch32 , L. Soares Lavra9 , M.D. Sokoloff59 ,
+F.J.P. Soler53 , A. Solomin38,48 , A. Solovev38 , I. Solovyev38 , R. Song63 ,
+F.L. Souza De Almeida2 , B. Souza De Paula2 , B. Spaan15,† , E. Spadaro Norella25,m ,
+E. Spedicato20 , E. Spiridenkov38 , P. Spradlin53 , V. Sriskaran42 , F. Stagni42 ,
+M. Stahl42 , S. Stahl42 , S. Stanislaus57 , E.N. Stein42 , O. Steinkamp44 ,
+O. Stenyakin38 , H. Stevens15 , S. Stone62,† , D. Strekalina38 , Y.S Su6 , F. Suljik57 ,
+J. Sun27 , L. Sun68 , Y. Sun60 , P. Svihra56 , P.N. Swallow47 , K. Swientek34 ,
+A. Szabelski36 , T. Szumlak34 , M. Szymanski42 , Y. Tan3 , S. Taneja56 ,
+M.D. Tat57 , A. Terentev38 , F. Teubert42 , E. Thomas42 , D.J.D. Thompson47 ,
+K.A. Thomson54 , H. Tilquin55 , V. Tisserand9 , S. T’Jampens8 , M. Tobin4 ,
+L. Tomassetti21,i , G. Tonani25,m , X. Tong5 , D. Torres Machado1 , D.Y. Tou3 ,
+S.M. Trilov48 , C. Trippl43 , G. Tuci6 , A. Tully43 , N. Tuning32 , A. Ukleja36 ,
+D.J. Unverzagt17 , A. Usachov32 , A. Ustyuzhanin38 , U. Uwer17 , A. Vagner38 ,
+V. Vagnoni20 , A. Valassi42 , G. Valenti20 , N. Valls Canudas76 , M. van Beuzekom32 ,
+M. Van Dijk43 , H. Van Hecke61 , E. van Herwijnen55 , C.B. Van Hulse40,x ,
+M. van Veghel73 , R. Vazquez Gomez39 , P. Vazquez Regueiro40 , C. Vázquez Sierra42 ,
+S. Vecchi21 , J.J. Velthuis48 , M. Veltri22,w , A. Venkateswaran43 , M. Veronesi32 ,
+M. Vesterinen50 , D. Vieira59 , M. Vieites Diaz43 , X. Vilasis-Cardona76 ,
+E. Vilella Figueras54 , A. Villa20 , P. Vincent13 , F.C. Volle11 , D. vom Bruch10 ,
+A. Vorobyev38 , V. Vorobyev38 , N. Voropaev38 , K. Vos74 , C. Vrahas52 , R. Waldi17 ,
+J. Walsh29 , G. Wan5 , C. Wang17 , G. Wang7 , J. Wang5 , J. Wang4 , J. Wang3 ,
+
+
+                                          23
+J. Wang68 , M. Wang5 , R. Wang48 , X. Wang66 , Y. Wang7 , Z. Wang44 ,
+Z. Wang3 , Z. Wang6 , J.A. Ward50,63 , N.K. Watson47 , D. Websdale55 , Y. Wei5 ,
+C. Weisser58 , B.D.C. Westhenry48 , D.J. White56 , M. Whitehead53 ,
+A.R. Wiederhold50 , D. Wiedner15 , G. Wilkinson57 , M.K. Wilkinson59 , I. Williams49 ,
+M. Williams58 , M.R.J. Williams52 , R. Williams49 , F.F. Wilson51 , W. Wislicki36 ,
+M. Witek35 , L. Witola17 , C.P. Wong61 , G. Wormser11 , S.A. Wotton49 , H. Wu62 ,
+J. Wu7 , K. Wyllie42 , Z. Xiang6 , D. Xiao7 , Y. Xie7 , A. Xu5 , J. Xu6 , L. Xu3 ,
+L. Xu3 , M. Xu50 , Q. Xu6 , Z. Xu9 , Z. Xu6 , D. Yang3 , S. Yang6 , X. Yang5 ,
+Y. Yang6 , Z. Yang5 , Z. Yang60 , L.E. Yeomans54 , V. Yeroshenko11 , H. Yeung56 ,
+H. Yin7 , J. Yu65 , X. Yuan62 , E. Zaffaroni43 , M. Zavertyaev16 , M. Zdybal35 ,
+O. Zenaiev42 , M. Zeng3 , C. Zhang5 , D. Zhang7 , L. Zhang3 , S. Zhang65 ,
+S. Zhang5 , Y. Zhang5 , Y. Zhang57 , A. Zharkova38 , A. Zhelezov17 , Y. Zheng6 ,
+T. Zhou5 , X. Zhou6 , Y. Zhou6 , V. Zhovkovska11 , X. Zhu3 , X. Zhu7 , Z. Zhu6 ,
+V. Zhukov14,38 , Q. Zou4,6 , S. Zucchelli20,g , D. Zuliani28 , G. Zunica56 .
+1
+  Centro Brasileiro de Pesquisas Fı́sicas (CBPF), Rio de Janeiro, Brazil
+2
+  Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil
+3
+  Center for High Energy Physics, Tsinghua University, Beijing, China
+4
+  Institute Of High Energy Physics (IHEP), Beijing, China
+5
+  School of Physics State Key Laboratory of Nuclear Physics and Technology, Peking University,
+Beijing, China
+6
+  University of Chinese Academy of Sciences, Beijing, China
+7
+  Institute of Particle Physics, Central China Normal University, Wuhan, Hubei, China
+8
+  Université Savoie Mont Blanc, CNRS, IN2P3-LAPP, Annecy, France
+9
+  Université Clermont Auvergne, CNRS/IN2P3, LPC, Clermont-Ferrand, France
+10
+   Aix Marseille Univ, CNRS/IN2P3, CPPM, Marseille, France
+11
+   Université Paris-Saclay, CNRS/IN2P3, IJCLab, Orsay, France
+12
+   Laboratoire Leprince-Ringuet, CNRS/IN2P3, Ecole Polytechnique, Institut Polytechnique de Paris,
+Palaiseau, France
+13
+   LPNHE, Sorbonne Université, Paris Diderot Sorbonne Paris Cité, CNRS/IN2P3, Paris, France
+14
+   I. Physikalisches Institut, RWTH Aachen University, Aachen, Germany
+15
+   Fakultät Physik, Technische Universität Dortmund, Dortmund, Germany
+16
+   Max-Planck-Institut für Kernphysik (MPIK), Heidelberg, Germany
+17
+   Physikalisches Institut, Ruprecht-Karls-Universität Heidelberg, Heidelberg, Germany
+18
+   School of Physics, University College Dublin, Dublin, Ireland
+19
+   INFN Sezione di Bari, Bari, Italy
+20
+   INFN Sezione di Bologna, Bologna, Italy
+21
+   INFN Sezione di Ferrara, Ferrara, Italy
+22
+   INFN Sezione di Firenze, Firenze, Italy
+23
+   INFN Laboratori Nazionali di Frascati, Frascati, Italy
+24
+   INFN Sezione di Genova, Genova, Italy
+25
+   INFN Sezione di Milano, Milano, Italy
+26
+   INFN Sezione di Milano-Bicocca, Milano, Italy
+27
+   INFN Sezione di Cagliari, Monserrato, Italy
+28
+   Università degli Studi di Padova, Università e INFN, Padova, Padova, Italy
+29
+   INFN Sezione di Pisa, Pisa, Italy
+30
+   INFN Sezione di Roma La Sapienza, Roma, Italy
+31
+   INFN Sezione di Roma Tor Vergata, Roma, Italy
+32
+   Nikhef National Institute for Subatomic Physics, Amsterdam, Netherlands
+33
+   Nikhef National Institute for Subatomic Physics and VU University Amsterdam, Amsterdam,
+Netherlands
+34
+   AGH - University of Science and Technology, Faculty of Physics and Applied Computer Science,
+Kraków, Poland
+35
+   Henryk Niewodniczanski Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland
+36
+   National Center for Nuclear Research (NCBJ), Warsaw, Poland
+
+
+                                                 24
+37
+   Horia Hulubei National Institute of Physics and Nuclear Engineering, Bucharest-Magurele, Romania
+38
+   Affiliated with an institute covered by a cooperation agreement with CERN
+39
+   ICCUB, Universitat de Barcelona, Barcelona, Spain
+40
+   Instituto Galego de Fı́sica de Altas Enerxı́as (IGFAE), Universidade de Santiago de Compostela,
+Santiago de Compostela, Spain
+41
+   Instituto de Fisica Corpuscular, Centro Mixto Universidad de Valencia - CSIC, Valencia, Spain
+42
+   European Organization for Nuclear Research (CERN), Geneva, Switzerland
+43
+   Institute of Physics, Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland
+44
+   Physik-Institut, Universität Zürich, Zürich, Switzerland
+45
+   NSC Kharkiv Institute of Physics and Technology (NSC KIPT), Kharkiv, Ukraine
+46
+   Institute for Nuclear Research of the National Academy of Sciences (KINR), Kyiv, Ukraine
+47
+   University of Birmingham, Birmingham, United Kingdom
+48
+   H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom
+49
+   Cavendish Laboratory, University of Cambridge, Cambridge, United Kingdom
+50
+   Department of Physics, University of Warwick, Coventry, United Kingdom
+51
+   STFC Rutherford Appleton Laboratory, Didcot, United Kingdom
+52
+   School of Physics and Astronomy, University of Edinburgh, Edinburgh, United Kingdom
+53
+   School of Physics and Astronomy, University of Glasgow, Glasgow, United Kingdom
+54
+   Oliver Lodge Laboratory, University of Liverpool, Liverpool, United Kingdom
+55
+   Imperial College London, London, United Kingdom
+56
+   Department of Physics and Astronomy, University of Manchester, Manchester, United Kingdom
+57
+   Department of Physics, University of Oxford, Oxford, United Kingdom
+58
+   Massachusetts Institute of Technology, Cambridge, MA, United States
+59
+   University of Cincinnati, Cincinnati, OH, United States
+60
+   University of Maryland, College Park, MD, United States
+61
+   Los Alamos National Laboratory (LANL), Los Alamos, NM, United States
+62
+   Syracuse University, Syracuse, NY, United States
+63
+   School of Physics and Astronomy, Monash University, Melbourne, Australia, associated to 50
+64
+   Pontifı́cia Universidade Católica do Rio de Janeiro (PUC-Rio), Rio de Janeiro, Brazil, associated to 2
+65
+   Physics and Micro Electronic College, Hunan University, Changsha City, China, associated to 7
+66
+   Guangdong Provincial Key Laboratory of Nuclear Science, Guangdong-Hong Kong Joint Laboratory
+of Quantum Matter, Institute of Quantum Matter, South China Normal University, Guangzhou, China,
+associated to 3
+67
+   Lanzhou University, Lanzhou, China, associated to 4
+68
+   School of Physics and Technology, Wuhan University, Wuhan, China, associated to 3
+69
+   Departamento de Fisica , Universidad Nacional de Colombia, Bogota, Colombia, associated to 13
+70
+   Universität Bonn - Helmholtz-Institut für Strahlen und Kernphysik, Bonn, Germany, associated to 17
+71
+   Eotvos Lorand University, Budapest, Hungary, associated to 42
+72
+   INFN Sezione di Perugia, Perugia, Italy, associated to 21
+73
+   Van Swinderen Institute, University of Groningen, Groningen, Netherlands, associated to 32
+74
+   Universiteit Maastricht, Maastricht, Netherlands, associated to 32
+75
+   Tadeusz Kosciuszko Cracow University of Technology, Cracow, Poland, associated to 35
+76
+   DS4DS, La Salle, Universitat Ramon Llull, Barcelona, Spain, associated to 39
+77
+   Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden, associated to 53
+78
+   University of Michigan, Ann Arbor, MI, United States, associated to 62
+a
+  Universidade de Brası́lia, Brası́lia, Brazil
+b
+  Central South U., Changsha, China
+c
+  Hangzhou Institute for Advanced Study, UCAS, Hangzhou, China
+d
+  Excellence Cluster ORIGINS, Munich, Germany
+e
+  Universidad Nacional Autónoma de Honduras, Tegucigalpa, Honduras
+f
+  Università di Bari, Bari, Italy
+g
+  Università di Bologna, Bologna, Italy
+h
+  Università di Cagliari, Cagliari, Italy
+i
+  Università di Ferrara, Ferrara, Italy
+j
+  Università di Firenze, Firenze, Italy
+k
+  Università di Genova, Genova, Italy
+
+                                                   25
+l
+  Dipartimento MIFT, Universita degli Studi di Messina and INFN Sezione di Catania, Italy, Messina
+and Catania, Italy
+m
+   Università degli Studi di Milano, Milano, Italy
+n
+  Università di Milano Bicocca, Milano, Italy
+o
+  Università di Modena e Reggio Emilia, Modena, Italy
+p
+  Università di Padova, Padova, Italy
+q
+  Università di Perugia, Perugia, Italy
+r
+  Scuola Normale Superiore, Pisa, Italy
+s
+  Università di Pisa, Pisa, Italy
+t
+  Università della Basilicata, Potenza, Italy
+u
+  Università di Roma Tor Vergata, Roma, Italy
+v
+  Università di Siena, Siena, Italy
+w
+  Università di Urbino, Urbino, Italy
+x
+  Universidad de Alcalá, Alcalá de Henares , Spain
+†
+    Deceased
+
+
+
+
+                                                26
+

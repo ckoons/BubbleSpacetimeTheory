@@ -1,0 +1,151 @@
+
+SYMMETRY OF THE HYDROGEN ATOM (Journal Article) | OSTI.GOV
+Skip to main content
+ Sign In
+Create Account
+OSTI.GOV
+U.S. Department of Energy Office of Scientific and Technical Information
+                        U.S. Department of Energy
+Office of Scientific and Technical Information
+Search terms:
+⏷
+ Submit
+ Research Results
+ Search
+ Tools
+Public 
+Access
+ Policy
+ PID
+s
+ Services
+ & Dev Tools
+ About
+ FAQs
+ News
+ Sign In
+Create Account
+OSTI.GOV
+Journal Article: 
+SYMMETRY OF THE HYDROGEN ATOM
+SYMMETRY OF THE HYDROGEN ATOM
+Journal Article
+·
+Wed Sep 01 00:00:00 EDT 1965
+·
+ JETP Lett. (USSR) (Engl. Transl.)  
+OSTI ID:
+4590429
+Malkin, I A
+; 
+Man'ko, V I
+Cite 
+Citation Formats
+MLA
+APA
+Chicago
+BibTeX
+Malkin, I A and Man'ko, V I. "SYMMETRY OF THE HYDROGEN ATOM." 
+JETP Lett. (USSR) (Engl. Transl.) 
+, 
+vol. Vol: 2
+, Sep. 1965.
+🗎 Copy to clipboard
+Malkin, I A, & Man'ko, V I (1965). SYMMETRY OF THE HYDROGEN ATOM. 
+JETP Lett. (USSR) (Engl. Transl.) 
+, 
+Vol: 2
+.
+🗎 Copy to clipboard
+Malkin, I A, and Man'ko, V I, "SYMMETRY OF THE HYDROGEN ATOM," 
+JETP Lett. (USSR) (Engl. Transl.) 
+ Vol: 2 (1965)
+🗎 Copy to clipboard
+@article{osti_4590429,
+  author       = {Malkin, I A and Man'ko, V I},
+  title        = {SYMMETRY OF THE HYDROGEN ATOM},
+  annote       = {},
+  url          = {https://www.osti.gov/biblio/4590429},
+  journal      = {JETP Lett. (USSR) (Engl. Transl.)  },
+  volume       = {Vol: 2},
+  place        = {Country unknown/Code not available},
+  year         = {1965},
+  month        = {09}}
+🗎 Copy to clipboard
+Export 
+Endnote
+RIS
+CSV/Excel
+XML
+JSON
+Share 
+ Facebook
+ Twitter / X
+ LinkedIn
+ Email
+Save 
+You must 
+Sign In
+ or 
+Create an Account
+ in order to save documents to your library.
+Print 
+Details
+Similar
+ Records / Subjects
+Research Organization:
+Moscow Physico-Technical Inst.
+DOE Contract Number:
+NONE; 
+NSA Number:
+NSA-20-009659
+OSTI ID:
+4590429
+Journal Information:
+                        JETP Lett. (USSR) (Engl. Transl.)  , Journal Name: JETP Lett. (USSR) (Engl. Transl.)    Vol. Vol: 2
+Country of Publication:
+Country unknown/Code not available
+Language:
+English
+Similar Records
+SYMMETRY OF THE HYDROGEN ATOM
+                                            Journal Article
+·
+                                            Fri Dec 31 19:00:00 EST 1965
+·
+ Yadern. Fiz.  
+·
+OSTI ID:
+4545686
+LATENT SYMMETRY OF HYDROGEN ATOMS.
+                                            Journal Article
+·
+                                            Wed Oct 30 19:00:00 EST 1968
+·
+ pp 702-27 of Fizika Vysokikh Energii i Teoriya Elementarnykh Chastits.   Shelest, V. P. (ed.).   Kiev, Naukova Dumka, 1967.
+·
+OSTI ID:
+4503043
+LATENT SYMMETRY OF THE HYDROGEN ATOM.
+                                            Journal Article
+·
+                                            Sun Dec 31 19:00:00 EST 1967
+·
+ Zh. Eksp. Teor. Fiz., 54:  1799-1805(June 1968).
+·
+OSTI ID:
+4490813
+Related Subjects
+Atomic Physics
+ATOMS
+HYDROGEN
+LIE GROUPS
+MATRICES
+PHYSICS
+ Website Policies 
+/ Important Links
+ Contact Us
+Vulnerability Disclosure Program
+Facebook
+X / Twitter
+YouTube

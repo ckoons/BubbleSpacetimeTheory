@@ -1,0 +1,2218 @@
+                                           Exotic Tetraquark states with two b̄-quarks and J P = 0+ and 1+ Bs
+                                                  states in a nonperturbatively-tuned Lattice NRQCD setup
+
+                                                                                       R. J. Hudspith∗
+                                                      GSI Helmholtzzentrum für Schwerionenforschung, 64291 Darmstadt, Germany
+
+
+                                                                                          D. Mohler†
+                                                   GSI Helmholtzzentrum für Schwerionenforschung, 64291 Darmstadt, Germany and
+                                                                 Institut für Kernphysik, Technische Universität Darmstadt,
+                                                                    Schlossgartenstrasse 2, 64289 Darmstadt, Germany
+
+
+
+
+arXiv:2303.17295v1 [hep-lat] 30 Mar 2023
+                                                      We use nf = 2 + 1 Wilson-clover gauge-field ensembles from the CLS consortium
+                                                    in a Lattice NRQCD setup to predict the binding energy of a I(J P ) = 0(1+ ) udb̄b̄
+                                                    tetraquark and a 12 (1+ ) `sb̄b̄ tetraquark. We determine the binding energies with
+                                                    respect to the relevant BB ∗ and Bs B ∗ thresholds respectively to be 112.0(13.2) MeV
+                                                    for the udb̄b̄, and 46.4(12.3) MeV for the `sb̄b̄. We also determine the ground-state
+                                                              ∗ and 1+ B mesons to lie 75.4(14.0) and 78.7(13.9) MeV below the BK
+                                                    J P = 0+ Bs0        s1
+
+                                                    and B ∗ K thresholds respectively. Our errors are entirely dominated by systematics
+                                                    due to discretisation effects. To achieve these measurements, we performed a neural
+                                                    network based nonperturbative tuning of the Lattice NRQCD Hamiltonian’s param-
+                                                    eters against the basic bottomonium spectrum. For all lattice spacings considered
+                                                    we can reproduce the continuum splittings of low-lying bottomonia. It is worth re-
+                                                    marking that our nonperturbative tuning parameters deviate from 1 by significant
+                                                    amounts, particularly the term c2 .
+
+
+
+
+                                           ∗
+                                               renwick.james.hudspith@googlemail.com
+                                           †
+                                               d.mohler@gsi.de
+                                                                                                2
+
+                                    I.   INTRODUCTION
+
+
+   The study of doubly-heavy tetraquarks with (anti)bottom quarks is currently an area
+of considerable interest, both on the lattice and in phenomenology. These states are of an
+explicitly exotic nature, and initial studies of doubly-heavy udb̄b̄-tetraquarks, e.g. [1, 2] and
+references therein, suggest rather large binding energies.
+   Early lattice studies found an attractive heavy-light meson-meson potential [3–10] in-
+dicative of the possibility to admit a bound udb̄b̄ tetraquark (Tbb ) in nature. More recently,
+dynamical light-quark simulations with static b-quarks [1, 11–13], and with Lattice non-
+relativistic QCD (NRQCD) b-quarks [2, 14–16] have predicted a strong-interaction-stable
+I(J P ) = 0(1+ ), udb̄b̄ tetraquark. Phenomenologically this state is almost unequivocally
+expected to be deeply bound [17–42] with respect to the lowest-lying non-interacting BB ∗
+threshold.
+   From a diquark perspective, if a udb̄b̄ tetraquark is deeply bound the next logical can-
+didate with a slightly less attractive light good-diquark configuration has flavor `sb̄b̄ and
+quantum numbers I(J P ) = 12 (1+ ). Such a state has been measured on the lattice to lie be-
+low the Bs B ∗ threshold in [2, 14, 43], and is somewhat more shallowly bound than the udb̄b̄.
+Phenomenologically this state is expected to lie quite close to threshold [19, 23, 26, 28, 30, 36–
+39, 41, 42, 44–48], with the majority of relativistic quark models [49] suggesting it is in fact
+unbound [23, 35, 40].
+                                                ∗
+   Further states of interest are the J P = 0+ Bs0 and 1+ Bs1 mesons. Their lighter
+ ∗
+Ds0 (2317)± and Ds1 (2460)± counterparts show properties not expected in quark-model cal-
+culations and were among the first exotic states discovered in the era of the b-factories
+[50, 51]. While a modern Lattice QCD scattering calculation obtains these states signifi-
+cantly below the respective threshold [52] (using a relativistic formalism), other approaches
+obtain results consistent with [53, 54] (using Lattice NRQCD) [55] (using static b-quarks)
+the lowest-lying two-meson thresholds BK and B ∗ K respectively. Similar statements can be
+made about various phenomenological models [56–83]. Typically, relativistic quark model
+calculations predict these states to lie at or above threshold, whereas other approaches usu-
+ally predict they lie below. It has been a motivation of our work to investigate the impact
+of the Lattice NRQCD tuning on these states and provide an approach to determining these
+states differing from previous lattice studies.
+                                                                                            3
+
+   NRQCD measurements have a long and storied history within the field of Lattice QCD.
+They are numerically very cheap to perform and can be statistically precise. NRQCD is
+an effective field theory approach to describing heavy bottom-quark (b-quark) dynamics,
+which however has some difficult-to-quantify systematics. Nevertheless, Lattice NRQCD
+studies have made important contributions to standard model quantities such as αs [84],
+the b-quark mass [85, 86], and b-meson decays and |Vcb | [87], to name but a few. NRQCD
+is but one approach to b-physics. Others include: relativistic heavy quark actions [88–90],
+heavy quark effective theory [91], and various extrapolation approaches [92–94]. Resolving
+the physical b as a valence quark with the same action as the light quarks requires a very
+fine lattice spacing and a large box; with current technology generating such ensembles is
+very expensive.
+   Tuning the Lattice NRQCD action has periodically been of interest [95–97]; particularly
+when it comes to choices of different tadpole improvement factors [98, 99], and to whether the
+action’s parameters should be perturbatively improved [100, 101]. We will show that all coef-
+ficients of a simple truncation of the NRQCD action can be tuned entirely non-perturbatively
+using machine learning to reproduce the simple low-lying spectrum of bottomonia to a level
+compatible with the uncertainty on our lattice spacing (roughly 1%). The results for the
+simple spectrum including excitations from our approach will be compared to those using
+tree-level coefficients.
+   In Section II the lattice methodology for our calculation is described with a particular
+focus on the nonperturbative Lattice NRQCD tuning. The results of this tuning are sum-
+marized in Section III, where we also present the impact of our tuning on the spectrum
+of low-lying bottomonium excitations. In Sections IV A, IV B, and V we present our main
+physics analysis for the doubly heavy tetraquarks and Bs states respectively. We proceed
+with a discussion of systematic uncertainties in Section VI and conclude in Section VII.
+
+
+
+                                   II.   METHODOLOGY
+
+
+                           A.   NRQCD Hamiltonian and evolution
+
+
+   For the implementation of the O(v 4 ) NRQCD Hamiltonian (with higher-order discretisation-
+correction terms c5 and c6 ) we follow [95] and [102]. To obtain our heavy-quark propagator
+                                                                                             4
+
+we apply the symmetric evolution to some prepared source G(x, t) (technical aspects of the
+lattice NRQCD implementation can be found in App. A for the adventurous reader),
+                                  n                  n        
+                         δH      H0               †    H0         δH
+       G(x, t + 1) = 1 −      1−        Ũt (x, t) 1 −         1−      G(x, t),            (1)
+                          2       2n                   2n          2
+with
+                          1
+                H0 = −        ∆2 ,
+                       2aM0
+                                                       
+                               1                  1           2 2
+                                                               
+                HI = −c1             −   c 6                ∆
+                           8(aM0 )3          16n(aM0 )2
+                                                                  4
+                             i                      ˜ + c5 ∆
+                                     ˜ · Ẽ − Ẽ · ∆)                                      (2)
+                     + c2          (∆
+                          8(aM0 )2                          24(aM0 )
+                             1          
+                                          ˜               ˜
+                                                                       1
+                HD = − c3          σ  ·   ∆   × Ẽ − Ẽ × ∆   −  c 4         σ · B̃
+                          8(aM0 )2                                   2(aM0 )
+                 δH =HI + HD .
+Where for readibility we have separated the contributions to δH into the spin-dependent HD
+and spin-independent HI terms. Here aM0 is the bare b-quark mass and n is the stability
+parameter (which we will always set to 4 throughout this work). The tilde indicates a higher-
+order improved version of the derivative, tadpole improvement of the links, or improvement
+of the traceless clover field-strength tensor, of which E and B are the usual components
+[96]. Two typical choices for the tadpole-improvement factor U0 exist in the literature: the
+fourth-root of the plaquette U0P , and the mean Landau link U0L . One of the facets of
+this work will be to investigate the dependence of our tuning on these choices [103]. As
+the Hamiltonian is derived from a Taylor expansion in aM0 , results from measurements at
+aM0 ≈ 1 are not likely to be trustworthy, and this puts a constraint on how fine a lattice
+spacing can be used.
+   We will later propose a strategy to allow all of the coefficients ci to be tuned nonpertur-
+batively, but for now we discuss some expectations for these coefficients from the literature:
+the coefficient c3 is expected to be close to 1 as there is a spin-average combination that is
+approximately proportional to c3 [86] and it turns out to match experiment well when c3 ≈ 1.
+The other spin-dependent term c4 is expected to affect most-strongly the Υ − ηb hyperfine
+splitting [104] and plays a rôle in the spin-orbit splitting, typically it has a value greater
+than 1. The coefficient c2 is commonly set to its tree-level value of 1. The terms c5 and
+c6 are pure discretisation-effect canceling terms for the spatial and temporal applications of
+H0 respectively, and if these effects are small, should be O(1). c1 is suppressed by a further
+power of the mass and is expected to be close to 1 as well.
+                                                                                                       5
+
+    The NRQCD action is known to the next higher order (O(v 6 )) [95, 105] with coefficients
+c7 . . . c11 ,
+
+                                 1                                        1
+                 HIv6 = − c10            Ẽ  · Ẽ + B̃ · B̃   −  c 11                 (∆2 )3
+                             8(aM0 )3                                 192(n)2 (aM0 )3
+                  v6            1    n              o
+                                        ˜ 2 , σ · B̃ − c8         3             
+                                                                         ˜ 2σ · ∆ ˜ × Ẽ − Ẽ × ∆
+                                                                                                ˜
+                                                                                                  
+                 HD  = − c7            ∆                                 ∆                            (3)
+                            8(aM0 )3                         64(aM0 )4
+                                i                               
+                       − c9          σ ·    Ẽ  × Ẽ +  B̃  × B̃     .
+                            8(aM0 )3
+
+Inclusion of these higher-order terms has been argued in the literature to have some small
+effect [96, 106, 107] at typical lattice spacings for bottomonia, similarly for the case of some
+bbb-baryon splittings they do have some significant impact [108]. We intend to see how
+well we can reproduce the bottomonium spectrum with just the terms listed in Eq. 2, as
+this will allow for a more quantitative comparison against previous works which measure
+related quantities. There is nothing inherently stopping us from including higher orders of
+the NRQCD Hamiltonian in our tuning, provided there are enough states that can be used
+as inputs. We address this point later in the paper in Sec. VI, where we consider adding
+only the tree-level spin-dependent higher-order coefficients c7 = c8 = c9 = 1 to our tuning
+to probe their impact, and we will find that their inclusion does improve some of our heavy-
+light spin-splittings. We also consider, conversely, the implications of reducing the number
+of tuneable parameters in App. B and find that it worsens the quality of our tuning.
+    As we see from Eq. 1, Lattice NRQCD incorporates corrections to the static Wilson-line
+propagator, so working at very coarse lattice spacings will likely include strong discretisa-
+tion effects from the gluon field itself, suggesting that there is an appropriate window for
+expecting accurate results. When investigating heavy-light B-meson physics, as we will do
+here, we are further constrained from additional light-quark discretisation effects. As any
+measurement with Lattice NRQCD inherently means we do not have a formal continuum
+limit, serious care is needed in working within an appropriate range of lattice spacings and
+in conservatively estimating discretisation effects.
+
+
+
+                                        B.    Nonperturbative tuning
+
+
+    Lattice NRQCD calculations will often either use tree-level parameters (ci = 1) [2, 54,
+102], or include a few determined at O(αs ) using lattice perturbation theory [100, 109, 110].
+                                                                                                6
+
+
+                        State PDG mass [GeV] [115]               Γ(x)
+
+                        ηb (1S)       9.3987(20)                    γ5
+                        Υ(1S)          9.4603(3)                    γi
+
+                       χb0 (1P )       9.8594(5)                σ·∆
+                       χb1 (1P )       9.8928(4)        σj ∆i − σi ∆j (i 6= j)
+                       χb2 (1P )       9.9122(4)        σj ∆i + σi ∆j (i 6= j)
+                       hb (1P )        9.8993(8)                    ∆i
+
+TABLE I. Table of lattice operators used with their continuum-state analogs. Here σi are the usual
+Pauli matrices and ∆i is the symmetric lattice finite difference.
+
+
+Occasionally, some [86, 104, 108] have individually-tuned c4 and/or c3 by a non-perturbative
+prescription. Instead of any of these approaches we will see how precisely we can determine
+the simple ground-state bottomonium spectrum by allowing all of the parameters to vary
+and tuning them simultaneously via a neural network. It is important to note that we will
+be forcing a truncated series to approximate the continuum spectrum and the parameters
+we determine will therefore be absorbing cut-off effects from many sources.
+   As Lattice NRQCD has an additive mass renormalisation, we cannot directly determine
+the masses of the pseudoscalar (ηb ) or vector (Υ) mesons. Instead, the overall b-quark mass
+aM0 is tuned from the non-relativistic dispersion relation of the ηb and Υ via the expansion
+
+                                                     a2 p 2
+                                   aE(p) = aM1 +            + ··· ,                           (4)
+                                                    2aM2
+
+to match the kinetic mass, aM2 , to the spin-averaged continuum ηb and Υ masses. We will
+use the value 9.445(2) GeV for this spin-average from [104]. In practice this is done by us
+using partially-twisted boundary conditions [111, 112].
+   The operators and their continuum analogs used in our tuning can be found in Tab. I;
+these are all taken from [113] and use the quark-line-connected contractions of the simple
+operators
+                                         O(x) = ψ̄Γ(x)ψ,                                      (5)
+
+with Coulomb gauge-fixed [114] wall-source, sink-smeared propagators.
+   We have chosen the simple ground-state operators of Tab. I for our tuning data as
+there should be little ambiguity in determining their masses precisely from a correlated
+                                                                                               7
+
+
+
+
+FIG. 1. Schematic picture of our setup, lines indicate weights (not all are drawn as each node is
+connected to each within the hidden layer) and the arrows indicate the feed-forward nature of our
+network.
+
+
+single-exponential fit to the resulting correlator. This allows for higher-order excitations
+of bottomonia to become predictions/indications of the quality our tuning as discussed in
+Sec. III A. We chose to tune our parameters against the splittings with regard to the ηb of the
+states listed in Tab. I. For the continuum splittings we will use the most-recent PDG values
+[115], while noting that there is some tension between the experimental determinations of
+the Υ − ηb hyperfine splitting.
+
+   Often studies will focus on splittings within the S- and P-wave states [113] separately,
+because the measured S-wave – P-wave splitting is usually quite far from its continuum
+value due to unknown radiative corrections and higher-order effects not accounted for. An
+example of this can be seen in e.g. [54], where a significant difference between the PACS-
+CS lattice spacing and one derived from the 1P − 1S splitting was seen. The procedure
+of remedying this by re-defining the lattice spacing after tuning aM0 by this splitting is
+somewhat common in practice [116, 117]. For us, it is hard to justify re-determining the
+lattice spacing to match a physical splitting from Lattice NRQCD, and we will show with
+our tuning that it is possible to absorb these differences into the coefficients themselves.
+
+   We will follow our prior work of [118] where we tuned a relativistic charm-quark action
+                                                                                                8
+
+nonperturbatively by using a neural network to infer the dependence of states on the action
+parameters. This time we will focus on the splittings of states, rather than explicit masses.
+A schematic of our approach is shown in Fig. 1, showing the inputs and outputs we use to
+train the network. It should be noted that the parameters are not universal: they will, in
+principle, be specific to our underlying gauge action, fermionic action, our choice of tadpole
+improvement factor, our choice of improvement terms in the NRQCD Hamiltonian, and even
+our renormalisation trajectory set by the observable(s) used to define it.
+   We will use a network with two hidden layers of just 12 nodes. The network uses the
+Adam minimizer [119] with early stopping, mini-batches, and an adjusted learning rate.
+Approximately 20% of our data is used for validation, and we generate 100 different runs of
+randomly-chosen Lattice NRQCD coefficients per ensemble.
+   One may wonder if our setup in Fig. 1 is underdetermined due to having more outputs
+than inputs, but we observe that the coefficients are all empirically well-determined. To
+further investigate this concern, we perform a test on ensemble A653 with fewer parameters
+(we fix c5 = c6 = 1) to check the general features of our tuning in App. B. We observe
+a slightly worse quality in the predicted parameters with this reduced parameter set but
+qualitatively similar results to our full tuning.
+
+
+
+                                 III.   TUNING RESULTS
+
+
+
+                      Ensemble T-boundary a[fm]         U0     NConf × NProp
+
+                        A653      Periodic   0.09929 0.85005     100 × 12
+                       A653∗      Periodic   0.09929 0.82918     100 × 12
+
+                        U103       Open      0.08636 0.85248      500 × 2
+                        B450      Periodic   0.07634 0.85812      400 × 8
+                        H200       Open      0.06426 0.86153      500 × 2
+
+TABLE II. Flavor SU(3)f -symmetric ensembles used in this work for the nonperturbative tuning.
+A653∗ indicates tadpole-improvement with the mean Landau link, all others use the fourth root of
+the plaquette determined from the entire lattice volume. NConf indicates the number of independent
+gauge configurations used and NProp indicates the number of NRQCD propagators used.
+                                                                                                9
+
+
+       Ensemble      aM0         c1        c2         c3        c4        c5        c6
+
+         A653     2.0585(25) 0.611(18) -1.255(44) 1.121(11) 0.996(10) 0.688(17) 0.701(17)
+         A653∗    2.1088(55) 0.790(14) -1.014(73) 1.062(15) 0.931(18) 0.700(13) 0.695(13)
+
+         U103     1.8035(32) 0.787(16) -0.789(61) 1.057(10) 0.960(11) 0.828(13) 0.932(14)
+          B450    1.5542(89) 0.819(16) -0.556(50) 1.077(13) 0.913(15) 0.861(11) 0.903(15)
+         H200     1.3189(19) 0.940(9) -0.519(56) 1.027(3) 0.832(13) 0.866(10) 0.866(9)
+
+TABLE III. Nonperturbative tuning parameters for the various SU(3)f -symmetric ensembles con-
+sidered in this work, bracketed values indicate the variations in the neural-network predicted pa-
+rameters and not true errors. For each ensemble 100 tuning runs were performed.
+
+
+   We will only consider gauge ensembles generated by the Coordinated Lattice Simulations
+(CLS) consortium at the SU(3)f -symmetric point to determine our Lattice NRQCD param-
+eters, as dynamical light pions are not expected to significantly effect the splittings consid-
+ered [120]. These ensembles have a mixture of open- (U103 and H200) and periodic- (A653
+and B450) temporal-boundaries. All of these ensembles are nf = 2 + 1 nonperturbatively-
+improved clover-Wilson, Symanzik gauge configurations and are listed in Tab. II. Further
+details on their generation can be found in [121] and [122], with lattice spacings from [123]
+and an estimate for A653 from [124]. For the open-boundary configurations we sit in the
+middle of the lattice and compute forward and backward Lattice NRQCD b-quark propaga-
+tors away from this time-slice. For the periodic-boundary configurations we only compute
+the forward-propagating state to allow for a larger temporal range to fit to. For the open-
+boundary-condition ensembles we use the plaquette for the whole gauge field in our tadpole
+improvement, and not one measured in the bulk.
+
+   Tab. III and Fig. 2 illustrate a curious result: the neural network strongly prefers a
+negative value of the coefficient c2 with a significant dependence on both the lattice spacing
+and the choice of tadpole factor U0 . It is important to note that positive values of c2 exist
+in all of our training datasets, as do the tree-level parameters, so this result is unlikely to be
+biased by our training data. The parameters c1 , c5 , and c6 are the other spin-independent
+contributions to the NRQCD Hamiltonian and are all smaller than 1 and seem to be inversely
+proportional to c2 . This is further illustrated in our re-tuning with c5 = c6 = 1 in App. B
+where we observe that c2 decreases when c5 and c6 are larger. It is evident that the tuned
+                                                                                                                                       10
+
+
+                                                                                            1
+                          2
+
+                                                                                          0.5
+
+
+
+
+     Coefficient Value                                                Coefficient Value
+                                                          aM0                                                               c3
+                         1.5                              c1                                0
+                                                                                                                            c4
+                                                          c5                                                                c2
+                                                          c6
+                                                                                          -0.5
+                          1
+
+                                                                                            -1
+
+
+
+                         0.5                                                              -1.5
+                            0.06   0.07    0.08    0.09         0.1                           0.06   0.07    0.08    0.09        0.1
+                                          a [fm]                                                            a [fm]
+
+
+
+FIG. 2. Plots of the coefficient determinations (Tab. III) from our neural network vs. the lattice
+spacing. Open symbols indicate the values from tuning with the U0L tadpole prescription.
+
+
+c1 acts similarly as it multiplies the same operator as c6 , albeit with a different power of the
+bare mass and numerical prefactors.
+   A slightly unexpected behaviour is also apparent for the determined coefficient c4 , as it is
+smaller than 1 for all our ensembles, suggestive of interplay between the determinations of c2
+and c4 . From our training runs we have seen that while c2 is sensitive to the S-wave – P-wave
+splitting (with positive c2 reducing this and negative c2 enhancing it), c4 is mostly sensitive
+to the hyperfine Υ − ηb (1S) splitting with a larger value of c4 increasing this splitting. This
+is further supported by our results in Sec. VI where tuning to the B ∗ − B splitting increases
+the 1S-hyperfine and the parameter c4 whilst also making c2 positive.
+   Both c2 and c4 show strong dependence on the choice of tadpole factor, which is unsur-
+prising as they multiply the field strength tensor. Oddly, the network gives the coefficient c1
+some visible tadpole dependence; implying this coefficient is being used to compensate for
+changes in c2 and c4 . In our bare-mass regime (and with our chosen stability parameter) c1
+is likely one of the largest spin-independent contributions and therefore a significant handle
+for the neural network.
+   The determined coefficient c3 is always close to 1 with some tadpole-dependence and mild
+lattice-spacing variation. The parameters c5 and c6 show almost no tadpole-dependence but
+strong lattice-spacing dependence, which is to be expected as their job is to cancel higher-
+order lattice artifacts.
+   The bare-mass tuning appears to not strongly depend on the other coefficients, only on the
+choice of tadpole improvement factor. This can be inferred by comparing the tuned values of
+                                                                                                                                              11
+
+                       480                                                                        500
+
+
+                       470                                                                        490
+
+
+                                                                                                  480
+
+
+
+      χb0-ηb [ MeV ]
+                       460
+
+
+                       450                                                       χb1-ηb [ MeV ]   470
+
+
+                       440                                                                        460
+
+
+                       430                                                                        450
+
+
+                       420                                                                        440
+                             0.06   0.07        0.08              0.09     0.1                          0.06   0.07     0.08     0.09   0.1
+                                           a [ fm ]                                                                   a [ fm ]
+                       520                                                                        510
+
+
+                       510
+                                                                                                  500
+
+                       500
+                                                                                                  490
+
+
+
+      χb2-ηb [ MeV ]                                                              hb-ηb [ MeV ]
+                       490
+                                                                                                  480
+                       480
+
+                                                                                                  470
+                       470
+
+                                                                                                  460
+                       460
+
+
+                       450                                                                        450
+                             0.06   0.07       0.08               0.09     0.1                          0.06   0.07     0.08     0.09   0.1
+                                           a [ fm ]                                                                   a [ fm ]
+                                                           65
+
+
+
+
+                                                           60
+
+
+
+
+                                            Y-ηb [ MeV ]
+                                                           55
+
+
+
+
+                                                           50
+
+
+
+                                                                0.06     0.07         0.08              0.09    0.1
+                                                                                 a [ fm ]
+
+
+
+FIG. 3. Measured splittings from our tuning (circles) vs. those obtained from using tree-level coef-
+ficients (squares). Open symbols illustrate the use of the mean Landau link tadpole improvement
+term, closed symbols from the fourth root of the plaquette. Horizontal lines indicate the PDG
+values for these splittings.
+
+
+
+aM0 for the tree-level tuning (Tab. IV) with our neural network parameters (Tab. III), where
+aM0 is more-or-less consistent within errors. This suggests that one can likely tune aM0
+independently of all the other parameters (with the interesting exception of A653 with the
+U0L tadpole-term). For the nonperturbatively-tuned parameters we see that for U0P or U0L
+                                                                                           12
+
+
+                   Ensemble     A653     A653∗      U103     B450     H200
+
+                     aM0      2.073(16) 2.151(16) 1.812(12) 1.559(6) 1.323(9)
+
+TABLE IV. Tree-level aM0 tunings obtained from the spin-averaged kinetic mass by linear inter-
+polation.
+
+
+the ratio of their aM0 s is consistent with the inverse of their ratios of tadpole improvement
+factors.
+   Fig. 3 illustrates our ability to reproduce the experimental low-lying S- and P-wave split-
+tings for bottomonia in comparison to tree-level NRQCD for different lattice spacings. Apart
+from our tuning being consistent with experiment, we note some interesting features: tree-
+level NRQCD’s approach to the continuum for the 1P-1S splittings appear to be linear with
+the lattice spacing, indicating that on these lattices it will never be accurately reproduced
+within the applicability window of NRQCD. For our neural network tuning χb0 appears
+slightly too heavy, and χb2 too light, with χb1 and hb matching experiment much better.
+This could be a sign of missing higher-order terms in our NRQCD implementation as this
+feature seems independent of the lattice spacing. Finally, we note that for the tree-level pa-
+rameters’ results with the tadpole factor U0L there is better agreement with the experimental
+hyperfine splitting than for those using U0P . The two choices of tadpole-improvement factor
+for tree-level NRQCD are, however, equally-poor for the splittings between the P-wave states
+and the ηb . Whichever tadpole-improvement factor is used is completely irrelevant with the
+neural network tuning as the choice gets absorbed into the nonperturbative coefficients.
+   We investigate our ability to reproduce the continuum spectrum via the simple absolute
+percentage deviation metric
+                                           N
+                                   100 X S̄iLatt. − S̄iCont.
+                                D=                           ,                             (6)
+                                    N i        S̄iCont.
+
+with S̄ Latt. being the average value of one of our splittings and S̄ Cont. being the expected
+central-value of its continuum counterpart. We present results comparing our states from
+our predicted parameters with those from the tree-level tuning in Tab. V; the approach to
+the continuum for each of our splittings can be also be seen in Fig. 3.
+   Tab. V illustrates quite clearly that the tree-level parameters do appear to approach the
+continuum experimental spectrum, albeit very slowly. Our nonperturbative tuning never
+                                                                                             13
+
+
+                           Ensemble A653 A653∗ U103 B450 H200
+
+                           NN-tuned 0.7% 1.0% 1.1% 0.8% 1.0%
+                           Tree-level 10.4% 9.0% 9.0% 6.4% 5.0%
+
+TABLE V. Average absolute percentage deviation “D”, Eq. 6, from our target continuum splittings.
+
+
+deviates in central value by more than 1.1% on average and within the experimental and
+lattice errors the agreement is near absolute. Of course, this is the intention of our tuning
+but it is worth noting that at the simple truncation of the NRQCD Hamiltonian such a
+reproduction of experiment is possible and a tuning with higher-order coefficients against
+this set of states will be unlikely to provide much improvement, and may not be well-
+constrained.
+
+
+
+                           A.    Excited states of bottomonium
+
+
+   As we have already seen in Fig. 3, tree-level Lattice NRQCD’s ability to replicate even
+the basic 1P-1S splittings is poor and it seems unlikely that their excited couterparts’ de-
+termination will be much better. In this section we consider the excited S-wave ηb (3S/2S),
+Υ(3S/2S) and P-wave χb0 (3P/2P ), χb1 (3P/2P ), χb2 (3P/2P ), and hb (3P/2P ) states’ split-
+tings with respect to the ηb (1S), and compare these to their PDG continuum counterparts
+where known.
+
+
+                              Ensemble NConf × NProp 1 2 3 4
+
+                                A653       500 × 48   2.5 5 10 20
+                                U103       500 × 16   2.5 5 10 20
+                                B450       400 × 32    4 8 16 32
+                                H200       500 × 8     4 8 16 32
+
+TABLE VI. Gaussian smearing widths α used at source and sink to create the GEVP of Eq. 7 as
+well as the number of configurations and NRQCD bottom propagators used.
+
+
+
+   For the determination of our excited states we choose to create a symmetric Generalised
+Eigenvalue Problem (GEVP) [125–127] from a matrix of correlation functions constructed
+                                                                                             14
+
+with different Gaussian source (first S) and sink (second S) smearings:
+
+                                                              
+                                     S1 S1 S1 S2 S1 S3 S1 S4
+                                                          
+                                 S S S S S S S S 
+                                  2 1 2 2 2 3 2 4
+                                                          .                               (7)
+                                 S3 S1 S3 S2 S3 S3 S3 S4 
+                                                          
+                                   S4 S1 S4 S2 S4 S3 S4 S4
+
+
+As was the case in the tuning we use Coulomb gauge-fixed wall sources, where for the
+source we simply apply an arbitrary function, and for the sink we apply the convolution
+methodology outlined in the appendices of [118]. Each “S” denotes a different smearing
+radius (squared), which we will call α, as illustrated in Tab. VI. We are primarily interested
+in the lowest 3 states, with the fourth typically lying above the B B̄-threshold, and expected
+to have contamination from higher states. We solve this GEVP and diagonalise the correlator
+matrix for a specific “diagonalisation time” [128] to obtain our principal correlators, which
+we then perform a correlated single-exponential fit to. Here, we needed increased statistics
+in comparison to our tuning runs (Tab. II) to be able to stably resolve the higher levels. For
+the P-wave states the calculation is quite complicated as the source has a derivative and
+must be matched similarly at the sink, and contracted with a propagator with smearing at
+the same source and sink going backwards, hence many Lattice NRQCD propagators are
+needed for these states.
+
+   Fig.4 illustrates the excited S- and P-wave state splittings with respect to the ηb (1S). As
+we have already seen earlier in this section, the tree-level coefficients under-estimate the 1P-
+1S splitting. However, their 2P-1S splitting is closer to experiment and the 3P-1S is again
+lower. This well-behaved 2P-1S splitting of tree-level Lattice NRQCD is likely a coincidence
+as the 2P-1P splitting is significantly over-estimated as the lattice-spacing decreases. In
+comparison, the neural network tuning for the 2P-1S splitting is consistent with experiment
+and the spread of results over our lattice spacings is much more narrow. For the 2S-1S and
+3S-1S splittings the spread of values is again smaller for the neural network, which illustrates
+that some discretisation effect is being treated better in our tuning. The variation in errors
+is indicative of some of the ambiguities in finding a good fit range for these states, and the
+results presented in this section have errors which are statistical-only and intended to be
+indicative rather than quantitative.
+                                                                                              15
+
+
+                          1250
+
+
+
+                          1000
+
+
+
+
+         M - Mη [ MeV ]
+                           750
+
+                    b
+
+                           500
+
+
+                                                                      H200
+                           250                                        B450
+                                                                      U103
+                                                                      A653
+                             0                                        PDG
+                                 ηb   Y      hb       χb0       χb1      χb2
+
+                          1250
+
+
+
+                          1000
+
+
+
+
+         M - Mη [ MeV ]
+                           750
+
+                    b
+
+                           500
+
+
+                                                                      H200
+                           250                                        B450
+                                                                      U103
+                                                                      A653
+                             0                                        PDG
+                                 ηb   Y      hb       χb0       χb1      χb2
+
+
+FIG. 4. S-wave and P-wave splittings of bottomonia with respect to the ηb from the neural network
+tuning (top) and the tree-level coefficients (bottom). Shown are the 1S, 2S, 3S, and 1P, 2P, and
+3P splittings as well as their values from the PDG.
+                                                                                              16
+
+
+                      Ensemble Mass trajectory L3 × LT NConf × NProp
+
+                         U103      Tr[M ] = C     243 × 128   1000 × 23
+                         H101      Tr[M ] = C     323 × 96    500 × 12
+
+                         U102      Tr[M ] = C     243 × 128   732 × 18
+                         H102      Tr[M ] = C     323 × 96    500 × 16
+
+                         U101      Tr[M ] = C     243 × 128   600 × 18
+                         H105      Tr[M ] = C     323 × 96    500 × 16
+                         N101      Tr[M ] = C     483 × 128   537 × 18
+
+                         C101      Tr[M ] = C     483 × 96    400 × 16
+
+                         H107     m    fs Phys.
+                                  fs = m          323 × 96    500 × 16
+                         H106     m    fs Phys.
+                                  fs = m          323 × 96    500 × 16
+
+                         H200      Tr[M ] = C     323 × 96    500 × 28
+
+TABLE VII. Ensemble details and gathered statistics used in our study of doubly-heavy tetraquarks
+and exotic Bs -mesons. NConf indicates the number of independent gauge configurations used and
+NProp indicates the number of propagators (light,strange, and 2×bottom) generated per configu-
+ration.
+
+
+             IV.    EXOTIC DOUBLY-HEAVY TETRAQUARK STATES
+
+
+   Tab. VII gives the ensembles used for the analysis of tetraquarks and Bs mesons, and
+in terms of statistics at least 6000 light, strange, and bottom propagators were used for
+each ensemble. In the following we will primarily consider only the coarse CLS “1” lattice
+spacing and use an ensemble at the finer “2” lattice spacing for comparison of discretisation
+effects. We will consider two mass trajectories: one where the sum of the quark masses
+2
+κl
+   + κ1s is constant as proposed in [129] and one where the renormalised strange quark mass
+fs ≈ m
+m       fs Phys. is kept approximately constant [130]. Both of these quark-mass trajectories
+use the same underlying gauge and quark action and should agree at the physical pion-mass
+point. With regard to the range of pion masses covered; we will use ensembles from the
+quark SU(3)f -symmetric mass point mπ ≈ 420 MeV down to mπ ≈ 220 MeV. More details
+on the generation of these ensembles can be found in [122] and [131].
+   From e.g. [2, 14, 15] it has been observed that the dependence of the binding of the
+                                                                                            17
+
+tetraquark states discussed in the following sections is approximately linear in m2π , so the
+pion mass-range encompassed by our study is suitable to obtain an extrapolated result at
+the physical pion mass. In this work we make use of the dimensionless quantity φ2 = 8t0 m2π
+(with t0 measured on each ensemble) as it has less uncertainty than the dimensionful physical
+pion mass, due to the error on the lattice spacing from [123]. The ensembles used in our
+study span a large range of mπ , mπ L, and mK L which helps us control finite-volume and
+chiral-extrapolation systematics.
+   In the next sections we again use Coulomb gauge-fixed wall sources with Gaussian smeared
+sinks, and primarily focus on results from the “1” lattice spacing ensembles. We will use
+a fixed physical sink-smearing α = 22 for the tetraquark correlators, and a slightly larger
+choice α = 25 for the B and Bs mesons. We use comparable physical choices of α for the
+cross-check at the finest lattice spacing on ensemble H200.
+
+
+              A.    Determining the binding energy for a udb̄b̄ tetraquark
+
+
+   To arrive at precise and accurate results, systematic uncertainties on the predictions of
+the proposed deeply-bound I(J P ) = 0(1+ ), udb̄b̄ tetraquark are of considerable interest.
+Indeed, currently the main goal of the community is to systematically improve calculations
+to the point where consensus can be reached on the mass of this state. In this context, it is
+important to investigate the size of discretisation effects, and the impact of the heavy-quark
+formalism employed.
+   We start by calculating a 4 × 4 matrix of correlators built from quasi-local operators to
+determine the lowest-lying tetraquark ground state, as in [132]:
+
+                               D = (ua T Cγ5 db )(b̄a Cγi b̄Tb ),
+                                E = (ua T Cγt γ5 db )(b̄a Cγi γt b̄Tb ),
+                                                                                           (8)
+                               M = (b̄γ5 u)(b̄γi d) − [u ↔ d],
+
+                               N = (b̄Iu)(b̄γ5 γi d) − [u ↔ d].
+
+We will not use an operator that looks like B ∗ B ∗ , and subsequently this expected state will
+not be seen in our GEVP. From a preliminary study it seems like this state overlaps more
+strongly with extended, derivative-type operators.
+   As we use a non-symmetric operator setup for the GEVP, we cannot guarantee that the
+                                                                                                                                                                     18
+
+          1.05                                                                                  0
+
+                                                                                               -25
+            1
+                                                                                               -50
+
+
+
+
+                                                                                ∆udbb [MeV]
+                                                                                               -75
+          0.95
+
+  ameff                                                                                       -100
+
+           0.9
+                                                                                              -125               Wall-Sm
+                                                                                                                 Wall-Pt
+                                                           Wall-Sm (λ1)                       -150
+          0.85
+                                                           P.O.F
+                                                           Wall-Pt (λ1)                       -175
+
+                                                           BB*
+           0.8                                                                                -200
+                 2   4   6   8   10   12   14    16   18    20   22   24   26                        4   5   6    7   8   9 10 11 12 13 14 15 16 17 18 19 20 21 22
+                                           t/a                                                                                      tmin/a
+
+
+
+FIG. 5. (Left) A comparison on ensemble U103 of the effective masses of the lowest-lying principal
+correlator for gauge-fixed wall source with point (Wall-Pt) or smeared (Wall-Sm) sink or from
+the 2 × 2 pencil-of-functions (P.O.F) of a single Wall-Pt correlator. The data has been shifted for
+clarity. (Right) Dependence of the fit results on the lower fit bound (at fixed large upper fit bound)
+for a single exponential fit for both smeared-sink and point-sink; greyed-out points indicate poor
+fit quality.
+
+
+
+resulting eigenvalues are real (in turns out that they are, well into the region where the
+signal degrades). We choose to approximately diagonalise the correlator matrix using the
+left and right eigenvectors of the GEVP at a specific “diagonalisation time” [14, 132, 133].
+We then determine the principal correlators from the diagonal of this matrix, performing
+a correlated fit to a single exponential Ansatz of the lowest-lying state at sufficiently-large
+separations to determine our tetraquark mass.
+
+     Fig. 5 illustrates the danger in using a single-exponential fit to gauge-fixed wall-source and
+point-sink data for this udb̄b̄ tetraquark. We chose ensemble U103 for this comparison, as
+it has the highest statistics. Clearly, the effective mass for the Wall-Pt data is still trending
+upward as the signal is lost, whereas for the Wall-Sm determination good stability is seen
+over a large range in time. The right “fit-stability” plot illustrates that with noisy data it is
+quite easy to find a good-quality fit (in terms of χ2 /dof and p-value) over a small range and
+end up with a deeper value of the binding, and an unforeseen associated systematic. A two-
+exponential fit to the point-sink data is consistent with the smeared-sink determination, and
+the smeared-sink determination is also consistent with a 2×2 generalized pencil-of-functions
+[134, 135] analysis of the point-sink diquark/anti-diquark correlator from operator D.
+                                                                                                   19
+
+
+                               1.4
+                                                                     λ3
+                                                                     λ2
+                               1.3
+                                                                     λ1
+                                                                     λ0
+                               1.2
+                                                                     BB*
+                                                                     Fit
+                       ameff   1.1
+
+
+                                1
+
+
+                               0.9
+
+
+                               0.8
+                                     2   4   6   8   10   12    14   16   18   20   22   24   26
+                                                               t/a
+
+
+
+FIG. 6. Eigenvalue effective masses for ensemble N101. In addition to the effective masses, the fit
+determination for the mass of the udb̄b̄ tetraquark is shown as the black line and our determination
+of the first non-interacting BB ∗ level is shown as a red line.
+
+
+   Fig. 6 shows an exemplary effective-mass plot of the four eigenvalues obtained from the
+GEVP for the ensemble N101, as well as the fit to determine the udb̄b̄ tetraquark mass
+and a line of the measured lowest-lying non-interacting BB ∗ threshold. In all cases our
+second eigenvalue λ1 is consistent with this threshold. The optimal smearing α for the udb̄b̄
+tetraquark is sub-optimal for the BB ∗ threshold as there is still some visible excited-state
+contamination making this second level approach from below. It is this difference in excited-
+state contamination that makes a determination of the binding through a ratio of the lowest
+eigenvalue and the expected threshold dangerous for this data, therefore we do not perform
+such an analysis.
+   Fig. 7 shows the combined chiral and infinite-volume extrapolation of the mass of the
+ground state from the GEVP (the data of which is tabulated in Tab. VIII), after subtracting
+the BB ∗ mass (which cancels the additive mass renormalisation from NRQCD). We use the
+following Ansatz for a deeply-bound state:
+
+                  ∆udb̄b̄ (∆φ2 , mπ L, a) = ∆udb̄b̄ (0, ∞, a)(1 + A∆φ2 + Be−mπ L ).                (9)
+
+With ∆udb̄b̄ (0, ∞, a), A, and B being shared fit parameters between the two sets of mass-
+trajectories (as we expect minimal sea-strange contributions to this quantity), and ∆φ2 =
+φLat
+ 2   − φPhys
+        2    being the difference between the lattice-measured dimensionless φ2 and its
+                                                                                          20
+
+
+                       Ensemble    φ2    mπ L B ∗ − B [MeV] ∆udb̄b̄ [MeV]
+
+                         U103     0.7496 4.33    36.9(0.6)    -83.5(3.4)
+                         H101     0.7561 5.83    35.3(1.0)    -87.9(2.3)
+
+                         U102     0.5604 3.74    36.1(1.1)    -81.6(3.7)
+                         H102     0.5469 4.93    34.8(1.0)    -95.0(3.2)
+
+                         U101     0.3378 2.88    33.1(0.9)    -88.0(6.5)
+                         H105     0.3451 3.91    36.3(0.8)   -104.9(3.5)
+                         N101     0.3445 5.86    35.7(0.6)   -107.7(2.1)
+
+                         C101     0.2195 4.66    33.9(0.7)   -113.2(2.7)
+
+                         H107     0.5550 5.12    40.8(1.1)    -92.8(2.7)
+                         H106     0.5550 3.88    39.1(1.0)   -107.1(3.5)
+
+                         H200     0.7469 4.32    34.3(0.6)    -71.9(2.6)
+
+TABLE VIII. Measurements necessary for the udb̄b̄ tetraquark candidate. Here, mπ has been
+measured directly within this dataset.
+
+
+physical value. For the iso-symmetric “physical” pion mass we use the value of 134.8 MeV
+recommended in [136] and for the physical t0 we use the value determined by the Flavor
+Lattice Averaging Group (FLAG) [137][138]. We note that finite-volume effects here are
+significant and the deviation from our infinite-volume result in the chiral limit and that of
+mπ L = 4 is still a 5.6% correction.
+   From our extrapolation we obtain the binding energy at the “1” lattice-spacing,
+
+                      ∆udb̄b̄ (0, ∞, a = 0.08636 fm) = −124.4(2.7) MeV .                (10)
+
+The fit that produced this result has χ2 /dof = 1.2. We note that our extrapolation to
+physical pion mass could have higher-order contributions, so we fit Eq. 9 with an extra term
+of (∆φ2 )3/2 or (∆φ2 )2 , both of which can describe our data reasonably well and give values
+for ∆udb̄b̄ (0, ∞, a = 0.08636 fm) of −133.4(6.7) and −131.9(5.5) respectively. For our final
+result we use Eq. 10 as the two higher-order fits do show some signs of over-fitting, and
+add half the difference of the larger result as a systematic, which we denote χ. We do not
+have the precision or number of ensembles to fit a higher-order finite volume correction term
+in combination with the one we already have. Upon removing ensembles from our fit with
+                                                                                                    21
+
+
+                                   -70
+
+
+                                   -80
+
+
+
+
+                  ∆udbb [ MeV ]
+                                   -90
+
+
+                                  -100
+
+
+                                  -110                                           mπL = 3.0
+                                                                                 mπL = 4.0
+                                                                                 mπL = 5.0
+                                  -120
+                                                                                 mπL = 6.0
+                                                                                 mπL = ∞
+                                  -130
+                                         0   0.1   0.2   0.3         0.4   0.5    0.6        0.7
+                                                               ∆φ2
+
+
+FIG. 7. Chiral and infinite-volume extrapolations of the udb̄b̄ tetraquark, black points indicate the
+Tr[M ] = C data, red squares indicate the m    fs Phys. trajectory. Lines of exemplary constant
+                                          fs = m
+mπ L are also plotted. Teal stars indicate the central value of the fit corresponding to the point at
+the same φ2 .
+
+
+mπ L < 4 our result did not change within statistical errors.
+   Due to the reasonably large discrepancy between the results on ensembles H200 and U103
+of 11.6 MeV, we decide to add half of this difference to the central value of Eq. 10 and use
+all of this difference as an uncertainty estimate, such that our error encompasses the coarser
+and finer lattice-spacing result. Later on in Sec. VI we see a reasonably strong, positive,
+linear dependence of ∆udb̄b̄ (0, ∞, a) on the B ∗ − B splitting. As our tuning under-predicts
+this splitting (particularly for the Tr[M ] = C trajectory), we add 6.6 MeV (obtained from
+a linear interpolation of the data in Fig. 11 to the physical B ∗ − B) to our determination
+(incorporating half of this correction as a systematic for our final error) to correct for this,
+giving our final result
+
+                ∆udb̄b̄ (0, ∞, 0) = −112.0(2.7)Stat. (4.5)χ (11.6)a (3.3)B ∗ −B MeV.               (11)
+
+We observe that our data suggests the a → 0 limit corresponds to a shallower binding,
+although the resulting state is still deeply-bound and strong-interaction stable. It is clear
+that our estimate is dominated by systematics relating to discretisation effects, where the
+a → 0 limit is not well-controlled in Lattice NRQCD.
+                                                                                            22
+
+                        B.    On the existence of an `sb̄b̄ tetraquark
+
+
+    We now briefly turn our attention to a possible `sb̄b̄ tetraquark (Tbbs ), predicted from
+Lattice QCD in [2, 14], and [43] to lie around 90 MeV below the lowest-lying non-interacting
+two-meson threshold. This value from the literature seems already quite large as our udb̄b̄
+tetraquark is bound by roughly this magnitude and is expected to be more deeply bound due
+to the good light-diquark ud configuration. In addition to the `sb̄b̄ tetraquark state, there
+are now two very close-by meson-meson states at the Bs B ∗ and Bs∗ B thresholds, and hence
+finite-volume effects may be non-trivial. As discussed earlier, most phenomenological studies
+agree on the existence of a udb̄b̄ tetraquark below threshold, while fewer have considered the
+`sb̄b̄.
+    For this calculation we will investigate results from a 5 × 5 GEVP of the following quasi-
+local meson-meson operators with quantum numbers I(J P ) = 12 (1+ ):
+
+                             M = (b̄γ5 u)(b̄γi s),   N = (b̄Iu)(b̄γ5 γi s)
+                             O = (b̄γ5 s)(b̄γi u),   P = (b̄Is)(b̄γ5 γi u)                (12)
+
+                                       Q = ijk (b̄γj u)(b̄γk s).
+
+Although we include an operator resembling B ∗ Bs∗ we will again have trouble identifying
+this expected level in our GEVP. For all of our ensembles we find (as in nature) that Bs B ∗ is
+the lowest-lying non-interacting two-meson threshold, and we determine the mass difference
+∆`sb̄b̄ with regard to this threshold.
+    Fig. 8 shows the effective masses of the eigenvalues for the m    fs Phys. ensemble H106
+                                                                 fs = m
+as well as the two lowest-lying two-meson non-interacting thresholds Bs B ∗ and BBs∗ , which
+are practically degenerate for this ensemble. As was the case for the udb̄b̄, λ1 is consistent
+with our lowest-lying non-interacting threshold state. We have two close-together levels
+above the ground state which appear to correspond to Bs B ∗ and BBs∗ . Our fourth level, λ3 ,
+is poorly-determined suggesting that our basis needs improvement to capture the expected
+B ∗ Bs∗ level. Either way, these levels are reasonably far from the ground state tetraquark
+candidate.
+    Fig. 9 and Tab. IX show the lattice data with broken SU(3)f , as these are the only
+ensembles we include in our fit. From this data we can see that as the strange quark
+becomes heavier and the light quark lighter the attractiveness of the good light-diquark
+                                                                                                       23
+
+
+                               1.4
+                                                                                λ4
+                              1.35
+                                                                                λ3
+                               1.3                                              λ2
+                              1.25                                              λ1
+                               1.2                                              λ0
+                                                                                B*B
+                      ameff   1.15                                               s
+                                                                                BsB*
+                               1.1                                              Fit
+                              1.05
+
+                                1
+
+                              0.95
+
+                               0.9
+                                     2   4   6   8    10   12   14    16   18   20     22   24   26
+                                                                t/a
+
+
+
+FIG. 8. Eigenvalue effective masses for ensemble H106. The fit determination for the mass of the
+`sb̄b̄ tetraquark is shown as the black line and the determinations of the first two non-interacting
+levels Bs B ∗ and Bs∗ B are shown as (almost identical) red and green lines respectively.
+
+
+                                     Ensemble mK L Bs∗ − Bs ∆`sb̄b̄ [MeV]
+
+                                         U102        4.61 37.6(1.1) -58.5(2.9)
+                                         H102        6.10 35.8(1.8) -67.1(3.1)
+
+                                         U101        4.82 37.1(1.1) -57.8(4.2)
+                                         H105        6.44 35.8(1.8) -61.3(2.6)
+                                         N101        9.69 38.4(0.6) -59.7(1.3)
+
+                                         C101        9.87 36.9(0.8) -60.8(1.5)
+
+                                         H107        7.61 41.6(0.8) -52.9(1.7)
+                                         H106        7.21 38.8(0.8) -55.0(2.4)
+
+           TABLE IX. Results for the binding energy of the `sb̄b̄ tetraquark candidate.
+
+
+diminishes. As the physical (mK L) volume increases the state becomes more deeply-bound,
+as was the case for the udb̄b̄.
+   We fit the data displayed in Fig. 9 and tabulated in Tab. IX to the combined chiral/infinite-
+volume Ansatz
+
+                 ∆`sb̄b̄ (∆φ2 , mK L, a) = ∆`sb̄b̄ (0, ∞, a) 1 + A∆φ2 + Be−mK L ,
+                                                                               
+                                                                                                      (13)
+
+where the mass coefficient A is now different for the two mass-trajectories as sea and valence
+                                                                                                24
+
+
+                                   -45
+
+
+                                   -50
+
+
+                                   -55
+
+
+
+                   ∆lsbb [ MeV ]
+                                   -60
+
+
+                                   -65       mKL = 4.5
+                                             mKL = 5.5
+                                             mKL = 6.5
+                                   -70
+                                             mKL = 7.5
+                                             mKL = ∞
+                                   -75
+                                         0        0.1    0.2         0.3   0.4   0.5
+                                                               ∆φ2
+
+
+FIG. 9. Combined chiral and infinite-volume extrapolations of the `sb̄b̄ tetraquark. Red indicates
+the separate m    fs Phys. mass-trajectory. Lines of exemplary constant mK L are also plotted.
+             fs = m
+Teal stars indicate the central value of the fit corresponding to the point at the same φ2 .
+
+
+strange content is expected to be important. The parameters ∆`sb̄b̄ (0, ∞, a) and B are again
+shared between the two trajectories. This fit has χ2 /dof ≈ 1. An extrapolation in 8∆t0 m2K
+instead has effectively the same χ2 /dof and is entirely consistent with our final extrapolation
+result of −57.8(2.4) . A fit with e−mπ L has a slightly worse χ2 /dof ≈ 1.2 and a larger
+central value (−59.7(2.2)), a fit without a finite volume term has χ2 /dof ≈ 1.1 with again
+a slightly larger central value −59.1(2.1). As neither the fits with e−mK L or e−mπ L have
+good significance for the parameter B, we choose to quote the average between their results
+and add half their difference as a finite-volume systematic. We note that given the quality
+of the data combined with the requirement of having more free fit parameters, it was not
+possible to fit higher-order terms in ∆φ2 . Our final result did not change within errors upon
+enforcing a cut of mK L > 5.
+
+   This fit at fixed “1” lattice-spacing gives the infinite-volume chiral-limit result:
+
+
+                  ∆`sb̄b̄ (0, ∞, a = 0.08636 fm) = −58.8(2.4)Stat. (1.0)FV MeV.                (14)
+
+
+Again, taking the deviation between H200 and U103 as our lattice-spacing systematic [139]
+and considering that our Bs∗ − Bs splitting is similarly as poor as our B ∗ − B we perform
+                                                                                              25
+
+the same two shifts as in the udb̄b̄ case, yielding our final result:
+
+                  ∆udb̄b̄ (0, ∞, 0) = −46.4(2.4)Stat. (1.0)FV (11.6)a (3.3)Bs∗ −Bs MeV,     (15)
+
+which is much less deeply-bound than the previous lattice determinations of [2, 14, 43], but
+was already hinted at in [132] and is consistent with the phenomenological predictions of
+[19, 30], and [36]. A shallow binding such as this poses a significant challenge for experimental
+detection.
+
+
+             V.    THE FATE OF THE SCALAR AND AXIAL Bs -MESONS
+
+
+   During our investigation of the udb̄b̄ tetraquark it came to our attention that on the
+SU(3)f -symmetric ensemble “U103” the positive-parity B-mesons with the simple local op-
+erators,
+                                    ∗
+                                   Bs0 = (b̄Is),    Bs1 = (b̄γi γt s),                      (16)
+
+lie below the expected Bπ and B ∗ π thresholds respectively. This was not necessarily ex-
+pected, as a previous finite-volume calculation of these states with different techniques [52]
+required the inclusion of explicit meson-meson interpolating fields to observe a state below
+threshold. In the following investigation of these excited Bs -mesons we simply use the same
+wall-source/smeared sink mesons that were computed in the previous sections’ udb̄b̄ and `sb̄b̄
+determinations.
+                                                                      ∗
+   Tab. X gives the numerical results for the difference between the Bs0 and BK threshold,
+                                                      ∗
+denoted ∆Bs0
+          ∗ , and the difference between the Bs1 and B K, denoted ∆B . We also give
+                                                                    s1
+
+                                     ∗
+our measured difference between the Bs0 and Bs1 .
+   In Fig. 10 we show the combined chiral/infinite volume extrapolation of the binding
+energy for the scalar and axial Bs -mesons, from the neural network tuned b-quarks. Here
+we used the same simple fit Ansatz from the previous sections for the bound-state system
+of both splittings:
+
+                                                                      −mK L
+                                                                            
+               ∗ /B (∆φ2 , mK L, a) = ∆B ∗ /B (0, ∞, a) 1 + A∆φ2 + Be
+             ∆Bs0                                                             .             (17)
+                   s1                   s0   s1
+
+
+
+                                                     ∗ /B (0, ∞, a) and B between our mass-
+As in the `sb̄b̄ case, we share the fit parameters ∆Bs0  s1
+
+
+trajectories, and allow A to be a free parameter for each of them. We find the coefficient B
+to be very large, suggesting significant finite-volume effects are present in this quantity. The
+                                                                                                26
+
+
+                                                     ∗
+                      Ensemble ∆Bs0        s1 [MeV] Bs0 − Bs1 [MeV]
+                                 ∗ [MeV] ∆B
+
+
+                         U103     -78.5(5.2)   -85.2(5.4)     -30.1(1.5)
+                         H101     -49.8(6.0)   -55.7(6.1)     -29.4(2.5)
+
+                         U102     -91.6(7.3)   -90.9(7.7)     -36.9(3.5)
+                         H102     -61.3(6.0)   -62.1(6.9)     -33.9(2.7)
+
+                         U101     -78.5(5.4)   -84.2(5.1)     -27.4(2.0)
+                         H105     -59.2(5.2)   -70.1(7.6)     -39.8(6.7)
+                         N101     -57.9(4.1)   -63.2(4.5)     -30.4(2.7)
+
+                         C101     -63.7(2.9)   -65.8(3.8)     -34.4(2.0)
+
+                         H107     -101.2(6.5) -110.4(7.1)     -31.7(2.5)
+                         H106     -90.4(5.1)   -96.6(5.1)     -32.9(2.2)
+
+                         H200     -92.2(7.0)   -98.6(6.8)     -27.9(2.2)
+
+          ∗ and B meson mass-splittings with regards to their respective measured, expected,
+TABLE X. Bs0     s1
+
+non-interacting thresholds BK and B ∗ K.
+
+
+plots (15 and 16) of the effective masses (in App. D) show, that even with our significant
+statistical resolution these quantities are noisy and often display large fluctuations in time.
+   The results for the two splittings at physical pion mass in the infinite-volume limit from
+our two different mass-trajectories are (see Tab. XIII of App. C for more details):
+
+                         ∗ (0, ∞, a = 0.08636 fm) = −68.5(3.0) [MeV],
+                       ∆Bs0
+                                                                                              (18)
+                       ∆Bs1 (0, ∞, a = 0.08636 fm) = −72.0(3.7) [MeV].
+
+These fits have χ2 /dof = 0.8 and 0.3 respectively. We considered fits with another free
+parameter multiplying higher-order powers of φ2 , but could not fit such expressions stably.
+We note that upon a cut of mK L > 5 our results do not change within error.
+   We again convince ourselves that our largest systematics come from lattice-spacing ar-
+tifacts. To further quantify our systematics we first consider the difference between the
+extrapolated results using the tree-level NRQCD prescription or various tunings to get the
+physical B ∗ −B splitting right, but we find their effects to be negligible (discussed in Sec. VI).
+We then measure the same quantities using the neural network tuning on ensemble H200 as
+an indication of the light-quark cut-off effects. We observe that half the difference between
+                                                                                                                                                         27
+
+               -40                                                                       -40
+               -50                                                                       -50
+               -60                                                                       -60
+               -70                                                                       -70
+               -80                                                                       -80
+
+
+
+∆B* [ MeV ]                                                                ∆B [ MeV ]
+               -90                                                                       -90
+              -100                                                                      -100
+         s0   -110                                                                 s1   -110
+              -120
+                         mKL = ∞                                                        -120       mKL = ∞
+                         mKL = 7.5                                                                 mKL = 6.5
+              -130                                                                      -130
+                         mKL = 6.5                                                                 mKL = 5.5
+              -140                                                                      -140
+                         mKL = 5.5                                                                 mKL = 4.5
+              -150
+                         mKL = 4.5                                                      -150       mKL = 7.5
+              -160                                                                      -160
+                     0    0.1        0.2   0.3         0.4   0.5   0.6   0.7                   0    0.1        0.2   0.3         0.4   0.5   0.6   0.7
+                                                 ∆φ2                                                                       ∆φ2
+
+
+
+                        ∗ combined chiral and infinite volume extrapolation. (Right) axial-vector
+FIG. 10. (Left) scalar Bs0
+Bs1 combined chiral and infinite volume extrapolation. Illustrative lines of constant mK L are
+displayed and red indicates the results from the m    fs Phys. trajectory. Teal stars indicate the
+                                                 fs = m
+central value of the fit corresponding to the point at the same ∆φ2 .
+
+                                   ∗
+H200 and U103 is 6.85 Mev for the Bs0 and 6.7 MeV for the Bs1 , so we add that to the
+central values of Eq. 18 and quote the full difference as the systematic error. Unlike for the
+previous two tetraquark candidates, we will show in the next section in Fig. 11 that there is
+no dependence of these quantities on the B ∗ − B splitting at the SU(3)f -symmetric point,
+so we assume we do not have this associated systematic. For our final result we quote:
+
+                                                   ∗ (0, ∞, 0) = −75.4(3.0)Stat. (13.7)a [MeV],
+                                                 ∆Bs0
+                                                                                                                                                     (19)
+                                                 ∆Bs1 (0, ∞, 0) = −78.7(3.7)Stat. (13.4)a [MeV].
+                                          ∗
+These determinations equate to masses of Bs0 = 5698(14) and Bs1 = 5741(14) MeV for
+these states, where the iso-symmetric kaon mass mK = 494.2 MeV was used. Again, our
+leading systematic is our conservative estimate emanating from discretisation effects.
+
+
+                                 VI.       CROSS-CHECKS AND NRQCD SYSTEMATICS
+
+
+          At fixed bottomonium tuning, the measured B ∗ − B splitting does not trend toward the
+physical result as the lattice spacing is decreased. As an alternative to our standard tuning,
+we are free in our philosophy to tune the NRQCD coefficients with the physical B ∗ − B
+splitting as a parameter instead or in addition to the bottomonium hyperfine splitting. As
+a further possible choice, we also consider the tuning with the higher-order spin-dependent
+                                                                                                  28
+
+
+    Tuning      aM0          c1         c2         c3         c4      c5        c6     c7 c8 c9
+
+   Bottom 1.8035(32) 0.787(16) -0.789(61) 1.057(10) 0.960(11) 0.828(13) 0.932(14) 0 0 0
+     Full    1.8014(36) 0.791(25) 0.084(204) 1.061(10) 1.183(39) 0.860(19) 0.965(15) 0 0 0
+   B ∗ − B 1.8020(11) 0.838(7) 0.371(38) 1.073(5) 1.384(13) 0.831(9) 0.944(9) 0 0 0
+     Tree    1.8120(120)     1           1          1         1        1         1     0 0 0
+
+   Bottom 1.8643(20) 0.861(14) -0.548(58) 1.134(18) 1.092(16) 0.810(19) 0.980(14) 1 1 1
+     Full    1.8612(24) 0.867(14) -0.373(80) 1.100(16) 1.190(25) 0.821(12) 0.965(12) 1 1 1
+   B ∗ − B 1.8613(14) 0.895(10) -0.167(40) 1.095(12) 1.312(9) 0.794(11) 0.946(9) 1 1 1
+     Tree    1.8825(110)     1           1          1         1        1         1     1 1 1
+
+TABLE XI. Investigation of different tuning-strategies and inclusion of higher-order spin-dependent
+terms of NRQCD for the ensemble U103. “Bottom” refers to our standard tuning while “B ∗ − B”
+refers to the tuning where the B-meson hyperfine splitting is used instead of the bottomonium
+hyperfine splitting, and “Full” refers to using both splittings.
+
+
+terms c7 , c8 , and c9 of Eq. 3 set to their tree-level values. We will only perform this inves-
+tigation on a single ensemble (U103) as this can be used to estimate a systematic for the
+                                       ∗
+udb̄b̄ and `sb̄b̄ tetraquarks, or the Bs0 and Bs1 mesons.
+   In Tab. XI we give the various nonperturbatively-tuned coefficients we obtain with the
+inclusion of O(v 4 ) and partial-O(v 6 ) terms in the NRQCD Hamiltonian. The parameter
+c7 has a somewhat strong impact on the kinetic mass and a complete retuning of the bare
+mass aM0 was needed for the inclusion of the tree-level higher-order terms. Already we can
+see some patterns in the coefficients: for purely tuning the B ∗ − B splitting the parameter
+c4 is the most important and is in strong conflict with the pure-bottomonium tuning. The
+larger the value of c4 the less-negative the coefficient c2 needs to become, suggesting there
+is a strong spin-independent contribution from c4 that c2 wants to counteract. At O(v 4 ) c1
+and c3 are positively-correlated with c4 , an increase in c4 increases both. Upon inclusion of
+tree-level O(v 6 ) spin-dependent terms c1 still grows with c4 but now c3 decreases.
+   The higher-order discretisation-effect correction terms c5 and c6 are quite consistent
+within the range of predictions provided by the network. The variation on the “Full” tun-
+ing’s parameters is always larger, suggesting that adding an extra input that is in tension
+with the others produces worse results. Put another way: the network struggles to optimally
+                                                                                                                                                                                 29
+
+                    -72                                                                                      -70
+
+                    -74
+                                                                                                             -75
+                    -76
+
+
+
+
+    ∆udbb [ MeV ]
+                    -78                                                                                      -80
+
+                    -80
+
+                                                                                                             -85
+                    -82
+
+                    -84
+                                                                                                             -90
+                    -86
+
+                    -88                                                                                      -95
+                          34   36   38                  40         42       44          46     48      50          Bottom   Full   B*-B     Tree   Bottom   Full   B*-B   Tree
+                                                             B*-B [ MeV ]                                                                 Tuning Strategy
+
+
+
+FIG. 11. (Left) udb̄b̄ tetraquark binding-energy dependence on the B ∗ − B hyperfine splitting
+using the extended tunings of Tab. XI. Red indicates that the tree-level spin-dependent O(v 6 )
+terms were used whereas black means O(v 4 ), circles are our standard tuning, squares the ”full”
+tuning, diamonds the B ∗ − B, and triangles the tree-level coefficients. (Right) Bs0
+                                                                                  ∗ (black) and
+
+
+Bs1 (red) binding-energy dependence on the tuning strategy, points on the right of the dashed line
+include spin-dependent O(v 6 ) terms.
+
+                                                             100
+
+
+                                                             90
+                                                                                                                      Y-ηb
+                                                                                                                      B*-B
+                                                             80
+
+
+
+
+                                         Splitting [ MeV ]
+                                                             70
+
+
+                                                             60
+
+
+                                                             50
+
+
+                                                             40
+
+
+                                                             30
+                                                                   Bottom        Full        B*-B     Tree     Bottom       Full   B*-B       Tree
+                                                                                                    Tuning Strategy
+
+
+FIG. 12. Hyperfine splittings for the various tuning strategies and parameters in Tab. XI. The
+points left of the dashed line use the O(v 4 ) NRQCD Hamiltonian, and those on the right include
+tree-level spin-dependent O(v 6 ) terms. Horizontal lines give the PDG values for these splittings.
+
+
+determine the parameters that satisfy all the splittings used as inputs.
+                                                                        ∗
+   Fig. 11 illustrates the dependence of the udb̄b̄ tetraquark and the Bs0 and Bs1 meson
+binding energies on the B ∗ –B hyperfine-splitting. We note that there is a somewhat strong
+                                                                                                  30
+
+dependence on this splitting for the tetraquark and none for the exotic B-mesons. For the
+tetraquarks in the previous section, we therefore shifted our final result and quantified the
+associated systematic uncertainty related to our O(v 4 )-tuning. From Fig. 12 it is clear that
+we cannot simultaneously tune both the Υ − ηb and B ∗ − B splittings to their physical value.
+There however seems to be convergence from tuning the pure bottomonia spectrum with
+tree-level higher-order terms. With the addition of more states to tune against, or with the
+fixing of other terms to 1, it should be possible to also allow c7 to vary to see whether these
+hyperfine splittings can be improved further.
+
+
+
+                                    VII.    CONCLUSIONS
+
+
+   We have shown it is possible to reproduce the experimental splittings of bottomonia with
+a simple Lattice NRQCD prescription that has nonperturbatively tuned parameters from a
+neural network. We have investigated some of the S- and P-wave excited states of bottomonia
+in order to test our tuning and we find good consistency with experiment where available,
+and a more continuum-like behaviour of the bottomonium spectrum at finite lattice spacing.
+We have found that under our tuning the B ∗ − B splitting is fairly far from the continuum
+result, with an indication that inclusion of higher-order spin-dependent terms improves the
+situation.
+   For all the heavy-light quantities we measured there was no discernible difference in
+the result from either using the tree-level NRQCD coefficients or those determined from a
+neural-network using pure-bottomonium ground states. It could be possible that significant
+differences from the NRQCD prescription are largely canceled by the threshold subtractions
+performed for the states we investigated. The B ∗ −B splitting does however have a significant
+impact on the doubly-heavy tetraquark results.
+   Our physics objective was the calculation of the binding energy of the popular I(J P ) =
+0(1+ ) udb̄b̄, and 21 (1+ ) `sb̄b̄ tetraquark candidates. For the udb̄b̄ tetraquark we find a strong-
+interaction-stable bound state 112.0(13.2) Mev below threshold, consistent with previous
+lattice studies . Our determination comes from a combined fit of 10 different lattice ensembles
+with a large variation in pion mass and mπ L. We observe somewhat sizeable finite-volume
+effects, B ∗ − B mis-tuning effects, and most-importantly discretisation effects. The latter
+forms our largest systematic uncertainty. A future calculation of this state with a relativistic
+                                                                                                                                                        31
+
+
+Brown and Orginos (2012)          +                                                                            +
+                              0(1 ) udbb                                        Francis et al. (2017)   1/2(1 ) lsbb
+ Bicudo & Wagner (2013)
+
+      Francis et al. (2017)
+                                                                              Junnarkar et al. (2019)
+      Bicudo et al. (2017)
+
+   Junnarkar et al. (2019)
+                                                                                Meinel et al. (2022)
+    Leskovec et al. (2019)
+
+ Mohanta & Basak (2020)
+                                                                                         This Paper
+               This Paper
+
+                          -225 -200 -175 -150 -125 -100 -75   -50   -25   0                         -225 -200 -175 -150 -125 -100 -75   -50   -25   0
+                                          ∆udbb [ MeV ]                                                             ∆lsbb [ MeV ]
+
+
+
+FIG. 13. Comparison plots of our result and other Lattice QCD determinations for the udb̄b̄ (left)
+and `sb̄b̄ (right) tetraquarks. Black circles indicate calculations performed with Lattice NRQCD
+for the b-quarks and red circles indicate the use of static b-quarks. The years in parentheses are the
+publication dates of the papers. Statistical and systematic errors have been added in quadrature.
+
+
+heavy quark action to properly address this systematic is quite desirable.
+   The related `sb̄b̄ tetraquark candidate has typically been predicted by lattice studies to
+lie ≈ 90 MeV below the lowest-lying non-interacting two-meson threshold (Bs B ∗ ); here we
+measure this state to be only 46.4(12.3) MeV below it. As was the case for the udb̄b̄, our
+result is dominated by our estimate of discretisation systematics. Finite-volume effects are
+small and an e−mK L term is slightly preferred for our range of mK L. A comparison of
+our doubly-heavy tetraquarks with other lattice determinations can be seen in Fig. 13, our
+measurements are at the bottom of the figures as they are all represented chronologically.
+                                 ∗
+   Finally, we investigated the Bs0 and Bs1 scalar and axial-vector Bs -mesons in our setup
+and predict states 75.4(14.0) and 78.7(13.9) MeV below the corresponding BK and B ∗ K
+thresholds respectively. Fig. 14 shows a comparison to various Lattice QCD and selected
+[140] model/effective field theory calculations. Our results are fully consistent with the
+previous pole-determination of [52] and with most of the calculations based on effective
+field theory approaches and models based on chiral and heavy-quark symmetry. Our results
+however show tension with some of the previous heavy-light Lattice NRQCD calculations,
+and we observe pretty significant finite-volume and pion-mass dependencies that must be
+taken into account in determining these states on the lattice. Our study has a very different
+approach to the previous works and different associated systematics. Hopefully further
+                                                                                                       32
+
+
+                     Bardeen et al (2003)
+                         Guo et al. (2006)       +                            +
+                    Badalian et al. (2007)
+                                             0                            1
+                   Colangelo et al. (2012)
+              Altenbuchinger et al. (2013)
+                            Wang (2015)
+                          Du et al. (2018)
+                         Alhakami (2021)
+                      Guo & Lutz (2021)
+                          Fu et al. (2022)
+                         Koponen (2008)
+                     Gregory et al. (2011)
+                       Wurtz et al. (2015)
+                        Lang et al. (2015)
+                               This Paper
+
+                                                     5600   5700   5800           5600   5700   5800
+                                                            Mass [ MeV ]
+
+                                            ∗ (left pane) and B (right pane) ground-state masses
+FIG. 14. Comparison of our results for the Bs0                 s1
+
+to various other results. Circles denote the results of lattice calculations, while squares denote the
+results from model/EFT calculations. The vertical line denotes the respective threshold. To
+translate our result for the binding energy to the result displayed in this plot an iso-symmetric
+kaon mass of 494.2 MeV has been used.
+
+
+Lattice QCD studies of these states will be performed in the future to clarify their masses
+in anticipation of an experimental determination.
+   The use of NRQCD is still relevant in the field of Lattice QCD even as measurements
+with physical, dynamical b-quarks are beginning to be performed. Lattice NRQCD is useful
+as a very cheap and statistically-precise exploratory tool, but as it does not have a formal
+continuum limit one must ensure it is able to describe known states appropriately before
+performing physically-relevant predictions. We argue this can be precisely done with our
+tuning at little extra expense, and comes with the minor loss of not having simple bottomonia
+states as predictions.
+
+
+
+                                                 ACKNOWLEDGMENTS
+
+
+   The authors would like to acknowledge useful discussions with Matthias Lutz and Parik-
+shit Junnarkar. We thank the CLS consortium for providing gauge configurations. D.M.
+                                                                                           33
+
+acknowledges funding by the Heisenberg Programme of the Deutsche Forschungsgemein-
+schaft (DFG, German Research Foundation) – project number 454605793. Calculations for
+this project were partly performed on the HPC cluster “Mogon II” at JGU Mainz. This
+research was supported in part by the cluster computing resource provided by the IT Divi-
+sion at the GSI Helmholtzzentrum für Schwerionenforschung, Darmstadt, Germany (HPC
+cluster Virgo). For the neural network training and predictions we made use of the Keras
+API. For the light- and strange-quark propagator inversions we used the package OpenQCD
+[121].
+
+
+
+
+              Appendix A: Technical aspects of the NRQCD calculation
+
+
+
+   In this appendix we describe some of the details of our NRQCD implementation. Consid-
+ering Eq. 2, it should be clear that the natural operations will be on NC ×NC color-matrices,
+so sink and source color indices will be the fastest-moving in our propagator solution. Outer
+(spin) indices are considered as a matrix of size 2 × 2, i.e. the size of the Pauli matrices.
+We utilise the NRQCD implementation in [132], which is a pure thread-parallel (threaded
+using OpenMP [141] pragmas) application of the evolution equation (Eq. 1) in a time-slice by
+time-slice manner. Aside from simple loop-unrolling and loop-fusion optimisation strategies,
+this implementation applies all contributions (except H0 ) of the Hamiltonian accumulated
+on the time-slice into a buffer for better thread parallelism. As such, an important optimi-
+sation is the pre-computation of the combinations of links: Uµ x + a2 µ̂ Uµ x + 3 a2 µ̂ , and
+                                                                                      
+
+of course the improved field-strength tensors. Such an optimisation is necessary to avoid
+implicit thread-barriers in OpenMP’s parallel for routines, as they cost many CPU-cycles. It
+turns out that these applications of the higher-order contributions from the Hamiltonian
+(δH) are the most costly parts of performing the evolution.
+
+   The majority of the NRQCD evolution algorithm can be boiled-down to performing the
+             αβ
+product Aab Sbc i.e. a color-matrix multiplied by a propagator (ab are inner color indices and
+αβ the outer Dirac) and a specific, unrolled, advanced vector extensions/fused multiply-add
+(AVX/FMA) implementation is called that performs this operation reasonably optimally.
+                                                                                            34
+
+                      Appendix B: Retuning with fixed parameters
+
+
+   Here we detail an investigation into keeping the two higher-order lattice-spacing correction
+terms (c5 and c6 ) in the NRQCD action fixed to 1 and nonperturbatively tuning the others
+as one may be concerned with our setup having more outputs than inputs.
+
+                      aM0        c1         c2        c3        c4     c5 c6
+
+                   2.0583(6) 0.814(19) -1.085(102) 1.145(11) 1.018(13) 1 1
+
+TABLE XII. Our nonperturbative tuning with c5 and c6 set to their tree-level values for the U0P
+tadpole factor using ensemble A653. To be compared with our results in Tab. III.
+
+
+   In Tab. XII we give the tuning parameters when c5 = c6 = 1. It seems that aM0 is
+not greatly affected by this change, c3 appears affected by a few %. We do see c4 grow
+similarly, and c1 tends closer to 1. c2 remains strongly negative as all of the tuning runs
+have illustrated. c1 and c2 vary significantly compared to our full tuning. By not tuning
+c5 and c6 we obtain a worse percentage deviation (Eq. 6) of 1.8% for our predicted values
+compared to the value of 0.7% in Tab. V. This mostly manifests in smaller splittings between
+the P-wave states. It is quite interesting that the range of neural-network predictions for c2
+is so much larger than with the full 7-parameter tuning. This could be that the fit is trying
+to suppress higher-order spin-independent effects and tadpole factors directly with c1 and
+c2 as there is no longer freedom to do so with c5 and c6 .
+
+
+                                                          ∗ and B
+         Appendix C: On the finite-volume effects of the Bs0     s1 mesons
+
+
+
+   Here we investigate further variations of the fits with regard to the finite-volume effects
+                              ∗
+for the threshold-subtracted Bs0 and Bs1 mesons along the Tr[M ] = C mass-trajectory. Our
+preferred form is given by
+                                                                    −mK L
+                                                                          
+                ∗ /B (φ2 , mK L, a) = ∆B ∗ /B (0, ∞, a) 1 + Aφ2 + Ce
+              ∆Bs0                                                          ,             (C1)
+                    s1                  s0   s1
+
+
+but it could be possible that this is sub-leading to a finite-volume term such as
+                                                                        −mπ L
+                                                                              
+              ∆Bs0∗ /B (φ2 , mπ L, a) = ∆B ∗ /B (0, ∞, a) 1 + Aφ2 + Ce          ,         (C2)
+                      s1                   s0  s1
+
+
+or even a combination of the two:
+                                                                 −mK L
+                                                                       + Ce−mπ L . (C3)
+                                                                                
+   ∗ /B (φ2 , mK L, mπ L, a) = ∆B ∗ /B (0, ∞, ∞, a) 1 + Aφ2 + Be
+ ∆Bs0  s1                        s0   s1
+                                                                                             35
+
+
+                                                                 2
+                              Fit          ∆Bs0        s1 [MeV] χ /dof
+                                             ∗ [MeV] ∆B
+
+
+                       Combined mK L        −67.5(3.4) −71.9(3.8)      0.5
+                       Combined mπ L        −54.7(4.1) −58.4(4.6)      2.9
+                   Combined mπ L + mK L −68.8(5.5) −73.4(6.1)          0.5
+
+                       Individual mK L      −68.0(3.3) −71.4(3.9) 0.9, 0.3
+                       Individual mπ L      −55.3(3.9) −57.6(4.8) 4.2, 2.8
+                   Individual mπ L + mK L −70.1(5.4) −72.0(6.2) 1.1, 0.3
+
+                                                                            ∗ and B
+TABLE XIII. Investigation of the combined chiral/finite-volume fits to the Bs0     s1 mass
+
+differences along only the Tr[M ] = C mass trajectory. “Combined” indicates that the results are
+                                 ∗ and B
+from a simultaneous fit to both Bs0     s1 mass-differences, whereas “Individual” indicates fits
+
+individually to the data. “mK L” indicates a fit to the form of Eq. C1, “mπ L” to Eq. C2, and
+“mπ L + mK L” to Eq. C3.
+
+
+We also note that in our individual fits the coefficients A and B are consistent with one-
+                      ∗
+another for both the Bs0 and Bs1 , so we consider a simultaneous fit with these (A, B, and
+C) parameters shared and the ∆s free. We tabulate these results in Tab. XIII.
+   Tab. XIII illustrates that our data cannot be well described by a single e−mπ L finite-volume
+term, whereas any fit (combined or not) with an mK L term describes the data extremely
+well. We can include both mπ L and mK L terms in our combined chiral/finite-volume fit
+but the result remains consistent with just the mK L form. In fact, the coefficient “C” is
+consistent with zero for these fits and typically the statistical error of the determination
+increases with no real improvement in fit quality. This suggests that mπ L finite-volume
+effect terms serve only as nuisance parameters within the precision of our data, and we can
+                                                       ∗
+safely conclude that they are sub-leading in both our Bs0 and Bs1 determinations.
+
+
+                    Appendix D: Effective masses - exotic Bs mesons
+
+                                                         ∗
+   In this appendix we show the effective masses of our Bs0 and Bs1 data for all ensembles
+that enter the analysis.
+                                                                                                                                                                                                                                                                                      36
+
+             0.8                                                                                      0.8                                                                                               0.8
+                                               BK                                                                                              BK                                                                                                               BK
+                                               B*s0                                                                                            B*s0                                                                                                             B*s0
+            0.75                               fit                                                   0.75                                      Fit                                                     0.75                                                     Fit
+
+             0.7                                                                                      0.7                                                                                               0.7
+
+
+    ameff                                                                                    ameff                                                                                             ameff
+            0.65                                                                                     0.65                                                                                              0.65
+
+
+
+             0.6                                                                                      0.6                                                                                               0.6
+
+
+            0.55   U103                                                                              0.55    H101                                                                                      0.55         U102
+                   2   4   6   8   10     12    14            16       18       20                          2      4    6    8    10     12      14           16       18       20                                 2        4     6        8        10     12    14    16   18   20
+                                        t/a                                                                                            t/a                                                                                                               t/a
+
+             0.8                                                                                      0.8                                                                                               0.8
+                                               BK                                                                                              BK                                                                                                               BK
+                                               B*s0                                                                                            B*s0                                                                                                             B*s0
+            0.75                               Fit                                                   0.75                                      Fit                                                     0.75                                                     Fit
+
+             0.7                                                                                      0.7                                                                                               0.7
+
+
+    ameff                                                                                    ameff                                                                                             ameff
+            0.65                                                                                     0.65                                                                                              0.65
+
+
+
+             0.6                                                                                      0.6                                                                                               0.6
+
+
+            0.55   H102                                                                              0.55    U101                                                                                      0.55         H105
+                   2   4   6   8   10     12    14            16       18       20                          2      4    6    8    10     12      14           16       18       20                                 2        4     6        8        10     12    14    16   18   20
+                                        t/a                                                                                            t/a                                                                                                               t/a
+
+             0.8                                                                                      0.8                                                                                               0.8
+                                               BK                                                                                              BK                                                                                                               BK
+                                               B*s0                                                                                            B*s0                                                                                                             B*s0
+            0.75                               Fit                                                   0.75                                      Fit                                                     0.75                                                     Fit
+
+             0.7                                                                                      0.7                                                                                               0.7
+
+
+    ameff                                                                                    ameff                                                                                             ameff
+            0.65                                                                                     0.65                                                                                              0.65
+
+
+
+             0.6                                                                                      0.6                                                                                               0.6
+
+
+            0.55   N101                                                                              0.55    C101                                                                                      0.55         H107
+                   2   4   6   8   10     12    14            16       18       20                          2      4    6    8    10     12      14           16       18       20                                 2        4     6        8        10     12    14    16   18   20
+                                        t/a                                                                                            t/a                                                                                                               t/a
+
+                                                        0.8                                                                                            0.65
+                                                                                                            BK                                                                                                     BK
+                                                                                                            B*s0                                                                                                   B*s0
+                                                       0.75                                                 Fit                                       0.625                                                        Fit
+
+                                                        0.7
+                                                                                                                                                        0.6
+
+                                               ameff                                                                                          ameff
+                                                       0.65
+                                                                                                                                                      0.575
+
+                                                        0.6
+                                                                                                                                                       0.55
+
+                                                       0.55        H106                                                                                            H200
+                                                                                                                                                      0.525
+                                                                   2        4        6   8   10        12    14    16   18   20                                    2        4    6   8   10   12       14     16       18   20   22   24       26
+                                                                                                     t/a                                                                                               t/a
+
+
+
+
+                                      ∗ meson with the measured (BK) threshold plotted. From
+FIG. 15. Effective mass plots of the Bs0
+left to right and top to bottom we show results from: U103, H101, U102, H102, U101, H105, N101,
+C101, H107, H106, H200.
+                                                                                                                                                                                                                                                                                           37
+
+                                                                                                      0.8                                                                                              0.8
+             0.8
+                                               B*K                                                                                            B*K                                                                                                                  B*K
+                                               Bs1                                                                                            Bs1                                                                                                                  Bs1
+                                               Fit                                                   0.75                                     Fit                                                     0.75                                                         Fit
+            0.75
+
+                                                                                                      0.7                                                                                              0.7
+             0.7
+    ameff                                                                                    ameff                                                                                            ameff
+                                                                                                     0.65                                                                                             0.65
+            0.65
+
+
+                                                                                                      0.6                                                                                              0.6
+             0.6
+
+
+            0.55
+                   U103                                                                              0.55   H101                                                                                      0.55        U102
+                   2   4   6   8   10     12    14            16       18       20                          2     4    6    8    10     12      14           16       18       20                                 2        4     6        8        10         12    14    16    18    20
+                                        t/a                                                                                           t/a                                                                                                               t/a
+
+             0.8                                                                                      0.8                                                                                              0.8
+                                               B*K                                                                                            B*K                                                                                                                  B*K
+                                               Bs1                                                                                            Bs1                                                                                                                  Bs1
+            0.75                               Fit                                                   0.75                                     Fit                                                     0.75                                                         Fit
+
+             0.7                                                                                      0.7                                                                                              0.7
+
+
+    ameff                                                                                    ameff                                                                                            ameff
+            0.65                                                                                     0.65                                                                                             0.65
+
+
+
+             0.6                                                                                      0.6                                                                                              0.6
+
+
+            0.55   H102                                                                              0.55   U101                                                                                      0.55        H105
+                   2   4   6   8   10     12    14            16       18       20                          2     4    6    8    10     12      14           16       18       20                                 2        4     6        8        10     12       14    16    18    20
+                                        t/a                                                                                           t/a                                                                                                               t/a
+
+             0.8                                                                                      0.8                                                                                              0.8
+                                               B*K                                                                                            B*K                                                                                                                  B*K
+                                               Bs1                                                                                            Bs1                                                                                                                  Bs1
+            0.75                               Fit                                                   0.75                                     Fit                                                     0.75                                                         Fit
+
+             0.7                                                                                      0.7                                                                                              0.7
+
+
+    ameff                                                                                    ameff                                                                                            ameff
+            0.65                                                                                     0.65                                                                                             0.65
+
+
+
+             0.6                                                                                      0.6                                                                                              0.6
+
+
+            0.55   N101                                                                              0.55   C101                                                                                      0.55        H107
+                   2   4   6   8   10     12    14            16       18       20                          2     4    6    8    10     12      14           16       18       20                                 2        4     6        8        10     12       14    16    18    20
+                                        t/a                                                                                           t/a                                                                                                               t/a
+
+                                                        0.8                                                                                           0.65
+                                                                                                            B*K                                                                                                   B*K
+                                                                                                            Bs1                                                                                                   Bs1
+                                                       0.75                                                 Fit                                      0.625                                                        Fit
+
+                                                        0.7
+                                                                                                                                                       0.6
+
+                                               ameff                                                                                         ameff
+                                                       0.65
+                                                                                                                                                     0.575
+
+                                                        0.6
+                                                                                                                                                      0.55
+
+                                                       0.55        H106                                                                                           H200
+                                                                                                                                                     0.525
+                                                                   2        4        6   8   10        12   14    16   18   20                                    2        4    6   8   10   12       14     16       18   20   22   24       26
+                                                                                                     t/a                                                                                              t/a
+
+
+
+
+FIG. 16. Similarly to Fig. 15 but of the Bs1 meson with the measured expected threshold (B ∗ K)
+plotted.
+
+
+
+
+  [1] P. Bicudo, K. Cichy, A. Peters, B. Wagenbach, and M. Wagner, Evidence for the existence
+             of udb̄b̄ and the non-existence of ssb̄b̄ and ccb̄b̄ tetraquarks from lattice QCD, Phys. Rev. D
+             92, 014507 (2015), arXiv:1505.00613 [hep-lat].
+  [2] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman, Lattice Prediction for Deeply Bound
+             Doubly Heavy Tetraquarks, Phys. Rev. Lett. 118, 142001 (2017), arXiv:1607.05214 [hep-lat].
+  [3] D. G. Richards, D. K. Sinclair, and D. W. Sivers, Lattice QCD simulation of meson exchange
+             forces, Phys. Rev. D 42, 3191 (1990).
+                                                                                            38
+
+ [4] A. Mihaly, H. R. Fiebig, H. Markum, and K. Rabitsch, Interactions between heavy - light
+    mesons in lattice QCD, Phys. Rev. D 55, 3077 (1997).
+ [5] A. M. Green and P. Pennanen, An Interquark potential model for multiquark systems, Phys.
+    Rev. C 57, 3384 (1998), arXiv:hep-lat/9804003.
+ [6] C. Stewart and R. Koniuk, Hadronic molecules in lattice QCD, Phys. Rev. D 57, 5581 (1998),
+    arXiv:hep-lat/9803003.
+ [7] P. Pennanen, C. Michael, and A. M. Green (UKQCD), Interactions of heavy light mesons,
+    Nucl. Phys. B Proc. Suppl. 83, 200 (2000), arXiv:hep-lat/9908032.
+ [8] W. Detmold, K. Orginos, and M. J. Savage, BB Potentials in Quenched Lattice QCD, Phys.
+    Rev. D 76, 114503 (2007), arXiv:hep-lat/0703009.
+ [9] Z. S. Brown and K. Orginos, Tetraquark bound states in the heavy-light heavy-light system,
+    Phys. Rev. D 86, 114506 (2012), arXiv:1210.1953 [hep-lat].
+[10] M. Wagner (ETM), Static-static-light-light tetraquarks in lattice QCD, Acta Phys. Polon.
+    Supp. 4, 747 (2011), arXiv:1103.5147 [hep-lat].
+[11] P. Bicudo and M. Wagner (European Twisted Mass), Lattice QCD signal for a bottom-
+    bottom tetraquark, Phys. Rev. D 87, 114511 (2013), arXiv:1209.6274 [hep-ph].
+[12] P. Bicudo, K. Cichy, A. Peters, and M. Wagner, BB interactions with static bottom quarks
+    from Lattice QCD, Phys. Rev. D 93, 034501 (2016), arXiv:1510.03441 [hep-lat].
+[13] P. Bicudo, J. Scheunert, and M. Wagner, Including heavy spin effects in the predic-
+    tion of a b̄b̄ud tetraquark with lattice QCD potentials, Phys. Rev. D 95, 034502 (2017),
+    arXiv:1612.02758 [hep-lat].
+[14] P. Junnarkar, N. Mathur, and M. Padmanath, Study of doubly heavy tetraquarks in Lattice
+    QCD, Phys. Rev. D 99, 034507 (2019), arXiv:1810.12285 [hep-lat].
+[15] L. Leskovec, S. Meinel, M. Pflaumer, and M. Wagner, Lattice QCD investigation of a doubly-
+    bottom b̄b̄ud tetraquark with quantum numbers I(J P ) = 0(1+ ), Phys. Rev. D 100, 014503
+    (2019), arXiv:1904.04197 [hep-lat].
+[16] P. Mohanta and S. Basak, Construction of bbūd¯ tetraquark states on lattice with NRQCD
+    bottom and HISQ up and down quarks, Phys. Rev. D 102, 094516 (2020), arXiv:2008.11146
+    [hep-lat].
+[17] S. Zouzou, B. Silvestre-Brac, C. Gignoux, and J. M. Richard, FOUR QUARK BOUND
+    STATES, Z. Phys. C 30, 457 (1986).
+                                                                                               39
+
+[18] J. Carlson, L. Heller, and J. A. Tjon, Stability of Dimesons, Phys. Rev. D 37, 744 (1988).
+[19] C. Semay and B. Silvestre-Brac, Diquonia and potential models, Z. Phys. C 61, 271 (1994).
+[20] S. Pepin, F. Stancu, M. Genovese, and J. M. Richard, Tetraquarks with color blind forces in
+    chiral quark models, Phys. Lett. B 393, 119 (1997), arXiv:hep-ph/9609348.
+[21] D. M. Brink and F. Stancu, Tetraquarks with heavy flavors, Phys. Rev. D 57, 6778 (1998).
+[22] J. Vijande, F. Fernandez, A. Valcarce, and B. Silvestre-Brac, Tetraquarks in a chiral con-
+    stituent quark model, Eur. Phys. J. A 19, 383 (2004), arXiv:hep-ph/0310007.
+[23] D. Ebert, R. N. Faustov, V. O. Galkin, and W. Lucha, Masses of tetraquarks with two heavy
+    quarks in the relativistic quark model, Phys. Rev. D 76, 114015 (2007), arXiv:0706.3853
+    [hep-ph].
+[24] J. Vijande, E. Weissman, A. Valcarce, and N. Barnea, Are there compact heavy four-quark
+    bound states?, Phys. Rev. D 76, 094027 (2007), arXiv:0710.2516 [hep-ph].
+[25] M. Zhang, H. X. Zhang, and Z. Y. Zhang, QQ anti-q anti-q four-quark bound states in chiral
+    SU(3) quark model, Commun. Theor. Phys. 50, 437 (2008), arXiv:0711.1029 [nucl-th].
+[26] S. H. Lee and S. Yasui, Stable multiquark states with heavy quarks in a diquark model, Eur.
+    Phys. J. C 64, 283 (2009), arXiv:0901.2977 [hep-ph].
+[27] Y. Yang, C. Deng, J. Ping, and T. Goldman, S-wave Q Q anti-q anti-q state in the constituent
+    quark model, Phys. Rev. D 80, 114023 (2009).
+[28] Z.-G. Wang, Analysis of the axialvector doubly heavy tetraquark states with QCD sum rules,
+    Acta Phys. Polon. B 49, 1781 (2018), arXiv:1708.04545 [hep-ph].
+[29] M. Karliner and J. L. Rosner, Discovery of doubly-charmed Ξcc baryon implies a stable (bbū ¯
+                                                                                                d)
+    tetraquark, Phys. Rev. Lett. 119, 202001 (2017), arXiv:1707.07666 [hep-ph].
+[30] E. J. Eichten and C. Quigg, Heavy-quark symmetry implies stable heavy tetraquark mesons
+    Qi Qj q̄k q̄l , Phys. Rev. Lett. 119, 202002 (2017), arXiv:1707.09575 [hep-ph].
+[31] A. Czarnecki, B. Leng, and M. B. Voloshin, Stability of tetrons, Phys. Lett. B 778, 233
+    (2018), arXiv:1708.04594 [hep-ph].
+[32] T. Mehen, Implications of Heavy Quark-Diquark Symmetry for Excited Doubly Heavy
+    Baryons and Tetraquarks, Phys. Rev. D 96, 094028 (2017), arXiv:1708.05020 [hep-ph].
+[33] L. Maiani, A. D. Polosa, and V. Riquer, Hydrogen bond of QCD in doubly heavy baryons
+    and tetraquarks, Phys. Rev. D 100, 074002 (2019), arXiv:1908.03244 [hep-ph].
+                                                                                               40
+
+[34] E. Hernández, J. Vijande, A. Valcarce, and J.-M. Richard, Spectroscopy, lifetime and decay
+                  −
+    modes of the Tbb tetraquark, Phys. Lett. B 800, 135073 (2020), arXiv:1910.13394 [hep-ph].
+[35] Q.-F. Lü, D.-Y. Chen, and Y.-B. Dong, Masses of doubly heavy tetraquarks TQQ0 in a rela-
+    tivized quark model, Phys. Rev. D 102, 034012 (2020), arXiv:2006.08087 [hep-ph].
+[36] E. Braaten, L.-P. He, and A. Mohapatra, Masses of doubly heavy tetraquarks with error
+    bars, Phys. Rev. D 103, 016001 (2021), arXiv:2006.08650 [hep-ph].
+[37] J.-B. Cheng, S.-Y. Li, Y.-R. Liu, Z.-G. Si, and T. Yao, Double-heavy tetraquark states with
+    heavy diquark-antiquark symmetry, Chin. Phys. C 45, 043102 (2021), arXiv:2008.00737 [hep-
+    ph].
+[38] Q. Meng, E. Hiyama, A. Hosaka, M. Oka, P. Gubler, K. U. Can, T. T. Takahashi, and H. S.
+    Zong, Stable double-heavy tetraquarks: spectrum and structure, Phys. Lett. B 814, 136095
+    (2021), arXiv:2009.14493 [nucl-th].
+[39] X.-Z. Weng, W.-Z. Deng, and S.-L. Zhu, Doubly heavy tetraquarks in an extended chromo-
+    magnetic model *, Chin. Phys. C 46, 013102 (2022), arXiv:2108.07242 [hep-ph].
+[40] R. N. Faustov, V. O. Galkin, and E. M. Savchenko, Heavy tetraquarks in the relativistic
+    quark model, Universe 7, 94 (2021), arXiv:2103.01763 [hep-ph].
+[41] C. Deng and S.-L. Zhu, Tcc+ and its partners, Phys. Rev. D 105, 054015 (2022),
+    arXiv:2112.12472 [hep-ph].
+[42] Y. Kim, M. Oka, and K. Suzuki, Doubly heavy tetraquarks in a chiral-diquark picture, Phys.
+    Rev. D 105, 074021 (2022), arXiv:2202.06520 [hep-ph].
+[43] S. Meinel, M. Pflaumer, and M. Wagner, Search for b¯b¯us and b¯c¯ud tetraquark bound
+    states using lattice QCD, Phys. Rev. D 106, 034507 (2022), arXiv:2205.13982 [hep-lat].
+[44] B. Silvestre-Brac and C. Semay, Systematics of L = 0 q-2 anti-q-2 systems, Z. Phys. C 57,
+    273 (1993).
+[45] M.-L. Du, W. Chen, X.-L. Chen, and S.-L. Zhu, Exotic QQq̄ q̄, QQq̄s̄ and QQs̄s̄ states, Phys.
+    Rev. D 87, 014003 (2013), arXiv:1209.5134 [hep-ph].
+[46] W. Park, S. Noh, and S. H. Lee, Masses of the doubly heavy tetraquarks in a constituent
+    quark model, Nucl. Phys. A 983, 1 (2019), arXiv:1809.05257 [nucl-th].
+[47] C. Deng, H. Chen, and J. Ping, Systematical investigation on the stability of doubly heavy
+    tetraquark states, Eur. Phys. J. A 56, 9 (2020), arXiv:1811.06462 [hep-ph].
+                                                                                                41
+
+[48] L. R. Dai, E. Oset, A. Feijoo, R. Molina, L. Roca, A. M. Torres, and K. P. Khemchandani,
+    Masses and widths of the exotic molecular B(s)(*)B(s)(*) states, Phys. Rev. D 105, 074017
+    (2022), [Erratum: Phys.Rev.D 106, 099904 (2022)], arXiv:2201.04840 [hep-ph].
+[49] S. Godfrey and N. Isgur, Mesons in a Relativized Quark Model with Chromodynamics, Phys.
+    Rev. D 32, 189 (1985).
+[50] B. Aubert et al. (BaBar), Observation of a narrow meson decaying to Ds+ π 0 at a mass of
+    2.32-GeV/c2 , Phys. Rev. Lett. 90, 242001 (2003), arXiv:hep-ex/0304021.
+[51] D. Besson et al. (CLEO), Observation of a narrow resonance of mass 2.46-GeV/c**2 decaying
+    to D*+(s) pi0 and confirmation of the D*(sJ)(2317) state, Phys. Rev. D 68, 032002 (2003),
+    [Erratum: Phys.Rev.D 75, 119908 (2007)], arXiv:hep-ex/0305100.
+[52] C. B. Lang, D. Mohler, S. Prelovsek, and R. M. Woloshyn, Predicting positive parity Bs
+    mesons from lattice QCD, Phys. Lett. B 750, 17 (2015), arXiv:1501.01646 [hep-lat].
+[53] E. B. Gregory et al., Precise B, Bs and Bc meson spectroscopy from full lattice QCD, Phys.
+    Rev. D 83, 014506 (2011), arXiv:1010.3848 [hep-lat].
+[54] M. Wurtz, R. Lewis, and R. M. Woloshyn, Free-form smearing for bottomonium and B meson
+    spectroscopy, Phys. Rev. D 92, 054504 (2015), arXiv:1505.04410 [hep-lat].
+[55] J. Koponen (UKQCD), Energies of Bs meson excited states: A Lattice study, Phys. Rev. D
+    78, 074509 (2008), arXiv:0708.2807 [hep-lat].
+[56] A. H. Orsland and H. Hogaasen, Strong and electromagnetic decays for excited heavy mesons,
+    Eur. Phys. J. C 9, 503 (1999), arXiv:hep-ph/9812347.
+[57] W. A. Bardeen, E. J. Eichten, and C. T. Hill, Chiral multiplets of heavy - light mesons, Phys.
+    Rev. D 68, 054024 (2003), arXiv:hep-ph/0305049.
+[58] E. E. Kolomeitsev and M. F. M. Lutz, On Heavy light meson resonances and chiral symmetry,
+    Phys. Lett. B 582, 39 (2004), arXiv:hep-ph/0307133.
+[59] T. Matsuki, K. Mawatari, T. Morii, and K. Sudoh, 0+ and 1+ states of B and Bs mesons,
+    Phys. Lett. B 606, 329 (2005), arXiv:hep-ph/0411034.
+[60] F.-K. Guo, P.-N. Shen, H.-C. Chiang, R.-G. Ping, and B.-S. Zou, Dynamically generated 0+
+    heavy mesons in a heavy chiral unitary approach, Phys. Lett. B 641, 278 (2006), arXiv:hep-
+    ph/0603072.
+[61] F.-K. Guo, P.-N. Shen, and H.-C. Chiang, Dynamically generated 1+ heavy mesons, Phys.
+    Lett. B 647, 133 (2007), arXiv:hep-ph/0610008.
+                                                                                              42
+
+[62] A. M. Badalian, Y. A. Simonov, and M. A. Trusov, The Chiral transitions in heavy-light
+    mesons, Phys. Rev. D 77, 074017 (2008), arXiv:0712.3943 [hep-ph].
+[63] J. Vijande, A. Valcarce, and F. Fernandez, B meson spectroscopy, Phys. Rev. D 77, 017501
+    (2008), arXiv:0711.2359 [hep-ph].
+[64] M. Cleven, F.-K. Guo, C. Hanhart, and U.-G. Meissner, Light meson mass dependence of
+    the positive parity heavy-strange mesons, Eur. Phys. J. A 47, 19 (2011), arXiv:1009.3804
+    [hep-ph].
+[65] V. Dmitrasinovic, Chiral symmetry of heavy-light scalar mesons with UA (1) symmetry break-
+    ing, Phys. Rev. D 86, 016006 (2012).
+[66] P. Colangelo, F. De Fazio, F. Giannuzzi, and S. Nicotri, New meson spectroscopy with open
+    charm and beauty, Phys. Rev. D 86, 054024 (2012), arXiv:1207.6940 [hep-ph].
+[67] M. Altenbuchinger, L. S. Geng, and W. Weise, Scattering lengths of Nambu-Goldstone bosons
+    off D mesons and dynamically generated heavy-light mesons, Phys. Rev. D 89, 014026 (2014),
+    arXiv:1309.4743 [hep-ph].
+[68] J. M. Torres-Rincon, L. Tolos, and O. Romanets, Open bottom states and the B̄-meson
+    propagation in hadronic matter, Phys. Rev. D 89, 074042 (2014), arXiv:1403.1371 [hep-ph].
+[69] Z.-G. Wang, Analysis of the masses and decay constants of the heavy-light mesons with QCD
+    sum rules, Eur. Phys. J. C 75, 427 (2015), arXiv:1506.01993 [hep-ph].
+[70] P. G. Ortega, J. Segovia, D. R. Entem, and F. Fernández, Threshold effects in P-wave
+    bottom-strange mesons, Phys. Rev. D 95, 034010 (2017), arXiv:1612.04826 [hep-ph].
+[71] M. Albaladejo, P. Fernandez-Soler, J. Nieves, and P. G. Ortega, Lowest-lying even-parity B̄s
+    mesons: heavy-quark spin-flavor symmetry, chiral dynamics, and constituent quark-model
+    bare masses, Eur. Phys. J. C 77, 170 (2017), arXiv:1612.07782 [hep-ph].
+[72] H.-Y. Cheng and F.-S. Yu, Masses of Scalar and Axial-Vector B Mesons Revisited, Eur. Phys.
+    J. C 77, 668 (2017), arXiv:1704.01208 [hep-ph].
+[73] M.-L. Du, M. Albaladejo, P. Fernández-Soler, F.-K. Guo, C. Hanhart, U.-G. Meißner,
+    J. Nieves, and D.-L. Yao, Towards a new paradigm for heavy-light meson spectroscopy,
+    Phys. Rev. D 98, 094018 (2018), arXiv:1712.07957 [hep-ph].
+[74] M. H. Alhakami, Predictions for the beauty meson spectrum, Phys. Rev. D 103, 034009
+    (2021), arXiv:2006.16878 [hep-ph].
+                                                                                               43
+
+[75] H.-L. Fu, H. W. Grießhammer, F.-K. Guo, C. Hanhart, and U.-G. Meißner, Update on strong
+                                 ∗ (2317) and D (2460) and their bottom cousins, Eur. Phys.
+    and radiative decays of the Ds0            s1
+
+    J. A 58, 70 (2022), arXiv:2111.09481 [hep-ph].
+[76] Z. Yang, G.-J. Wang, J.-J. Wu, M. Oka, and S.-L. Zhu, The investigations of the P -wave Bs
+    states combining quark model and lattice QCD in the coupled channel framework, (2022),
+    arXiv:2207.07320 [hep-lat].
+[77] S. Godfrey and R. Kokoski, The Properties of p Wave Mesons with One Heavy Quark, Phys.
+    Rev. D 43, 1679 (1991).
+[78] T. A. Lahde, C. J. Nyfalt, and D. O. Riska, Spectra and M1 decay widths of heavy light
+    mesons, Nucl. Phys. A 674, 141 (2000), arXiv:hep-ph/9908485.
+[79] M. Di Pierro and E. Eichten, Excited Heavy - Light Systems and Hadronic Transitions, Phys.
+    Rev. D 64, 114004 (2001), arXiv:hep-ph/0104208.
+[80] O. Lakhina and E. S. Swanson, A Canonical Ds(2317)?, Phys. Lett. B 650, 159 (2007),
+    arXiv:hep-ph/0608011.
+[81] D. Ebert, R. N. Faustov, and V. O. Galkin, Heavy-light meson spectroscopy and Regge
+    trajectories in the relativistic quark model, Eur. Phys. J. C 66, 197 (2010), arXiv:0910.5612
+    [hep-ph].
+[82] Y. Sun, Q.-T. Song, D.-Y. Chen, X. Liu, and S.-L. Zhu, Higher bottom and bottom-strange
+    mesons, Phys. Rev. D 89, 054026 (2014), arXiv:1401.1595 [hep-ph].
+[83] S. Godfrey, K. Moats, and E. S. Swanson, B and Bs Meson Spectroscopy, Phys. Rev. D 94,
+    054025 (2016), arXiv:1607.02169 [hep-ph].
+[84] C. McNeile, C. T. H. Davies, E. Follana, K. Hornbostel, and G. P. Lepage, High-Precision c
+    and b Masses, and QCD Coupling from Current-Current Correlators in Lattice and Contin-
+    uum QCD, Phys. Rev. D 82, 034512 (2010), arXiv:1004.4285 [hep-lat].
+[85] C. T. H. Davies, K. Hornbostel, A. Langnau, G. P. Lepage, A. Lidsey, C. J. Morningstar,
+    J. Shigemitsu, and J. H. Sloan, A New determination of M(b) using lattice QCD, Phys. Rev.
+    Lett. 73, 2654 (1994), arXiv:hep-lat/9404012.
+[86] A. Gray, I. Allison, C. T. H. Davies, E. Dalgic, G. P. Lepage, J. Shigemitsu, and M. Wingate,
+    The Upsilon spectrum and m(b) from full lattice QCD, Phys. Rev. D 72, 094507 (2005),
+    arXiv:hep-lat/0507013.
+                                                                                               44
+
+[87] H. Na, C. M. Bouchard, G. P. Lepage, C. Monahan, and J. Shigemitsu (HPQCD), B → Dlν
+    form factors at nonzero recoil and extraction of |Vcb |, Phys. Rev. D 92, 054510 (2015),
+    [Erratum: Phys.Rev.D 93, 119906 (2016)], arXiv:1505.03925 [hep-lat].
+[88] A. X. El-Khadra, A. S. Kronfeld, and P. B. Mackenzie, Massive fermions in lattice gauge
+    theory, Phys. Rev. D 55, 3933 (1997), arXiv:hep-lat/9604004.
+[89] N. H. Christ, M. Li, and H.-W. Lin, Relativistic Heavy Quark Effective Action, Phys. Rev.
+    D 76, 074505 (2007), arXiv:hep-lat/0608006.
+[90] M. B. Oktay and A. S. Kronfeld, New lattice action for heavy quarks, Phys. Rev. D 78,
+    014504 (2008), arXiv:0803.0523 [hep-lat].
+[91] J. Heitger and R. Sommer (ALPHA), Nonperturbative heavy quark effective theory, JHEP
+    02, 022, arXiv:hep-lat/0310035.
+[92] B. Blossier et al. (ETM), A Proposal for B-physics on current lattices, JHEP 04, 049,
+    arXiv:0909.3187 [hep-lat].
+[93] W. G. Parrott, C. Bouchard, C. T. H. Davies, and D. Hatton, Toward accurate form
+    factors for B-to-light meson decay from lattice QCD, Phys. Rev. D 103, 094506 (2021),
+    arXiv:2010.07980 [hep-lat].
+[94] B. Colquhoun, S. Hashimoto, T. Kaneko, and J. Koponen (JLQCD), Form factors of B→π`ν
+    and a determination of —Vub— with Möbius domain-wall fermions, Phys. Rev. D 106,
+    054502 (2022), arXiv:2203.04938 [hep-lat].
+[95] G. P. Lepage, L. Magnea, C. Nakhleh, U. Magnea, and K. Hornbostel, Improved nonrela-
+    tivistic QCD for heavy quark physics, Phys. Rev. D 46, 4052 (1992), arXiv:hep-lat/9205007.
+[96] S. Meinel, Bottomonium spectrum at order v 6 from domain-wall lattice QCD: Precise results
+    for hyperfine splittings, Phys. Rev. D 82, 114502 (2010), arXiv:1007.3966 [hep-lat].
+[97] C. T. H. Davies, J. Harrison, C. Hughes, R. R. Horgan, G. M. von Hippel, and M. Wingate,
+    Improving the kinetic couplings in lattice nonrelativistic QCD, Phys. Rev. D 99, 054502
+    (2019), arXiv:1812.11639 [hep-lat].
+[98] G. P. Lepage and P. B. Mackenzie, On the viability of lattice perturbation theory, Phys. Rev.
+    D 48, 2250 (1993), arXiv:hep-lat/9209022.
+[99] P. Lepage, Perturbative improvement for lattice QCD: An Update, Nucl. Phys. B Proc.
+    Suppl. 60, 267 (1998), arXiv:hep-lat/9707026.
+                                                                                               45
+
+[100] C. J. Morningstar, Radiative corrections to the kinetic couplings in nonrelativistic lattice
+     QCD, Phys. Rev. D 50, 5902 (1994), arXiv:hep-lat/9406002.
+[101] C. J. Morningstar, The Heavy quark selfenergy in nonrelativistic lattice QCD, Phys. Rev. D
+     48, 2265 (1993), arXiv:hep-lat/9301005.
+[102] N. Mathur, R. Lewis, and R. M. Woloshyn, Charmed and bottom baryons from lattice
+     NRQCD, Phys. Rev. D 66, 014502 (2002), arXiv:hep-ph/0203253.
+[103] As we will use a mix of periodic and open boundary condition ensembles in time, we will
+     look at a single, coarse, periodic box to do this comparison.
+[104] R. J. Dowdall, C. T. H. Davies, T. C. Hammant, and R. R. Horgan, Precise heavy-light
+     meson masses and hyperfine splittings from lattice QCD including charm quarks in the sea,
+     Phys. Rev. D 86, 094510 (2012), arXiv:1207.5149 [hep-lat].
+[105] A. V. Manohar, The HQET / NRQCD Lagrangian to order alpha / m-3, Phys. Rev. D 56,
+     230 (1997), arXiv:hep-ph/9701294.
+[106] R. Lewis and R. M. Woloshyn, O(1 / M**3) effects for heavy - light mesons in lattice NRQCD,
+     Phys. Rev. D 58, 074506 (1998), arXiv:hep-lat/9803004.
+[107] C. Hughes, R. J. Dowdall, C. T. H. Davies, R. R. Horgan, G. von Hippel, and M. Wingate,
+     Hindered M1 Radiative Decay of Υ(2S) from Lattice NRQCD, Phys. Rev. D 92, 094501
+     (2015), arXiv:1508.01694 [hep-lat].
+[108] S. Meinel, Excited-state spectroscopy of triply-bottom baryons from lattice QCD, Phys. Rev.
+     D 85, 114510 (2012), arXiv:1202.1312 [hep-lat].
+[109] T. C. Hammant, A. G. Hart, G. M. von Hippel, R. R. Horgan, and C. J. Monahan, Radiative
+     improvement of the lattice NRQCD action using the background field method and applica-
+     tion to the hyperfine splitting of quarkonium states, Phys. Rev. Lett. 107, 112002 (2011),
+     [Erratum: Phys.Rev.Lett. 115, 039901 (2015)], arXiv:1105.5309 [hep-lat].
+[110] T. C. Hammant, A. G. Hart, G. M. von Hippel, R. R. Horgan, and C. J. Monahan, Radiative
+     improvement of the lattice nonrelativistic QCD action using the background field method
+     with applications to quarkonium spectroscopy, Phys. Rev. D 88, 014505 (2013), [Erratum:
+     Phys.Rev.D 92, 119904 (2015)], arXiv:1303.3234 [hep-lat].
+[111] P. F. Bedaque, Aharonov-Bohm effect and nucleon nucleon phase shifts on the lattice, Phys.
+     Lett. B 593, 82 (2004), arXiv:nucl-th/0402051.
+                                                                                              46
+
+[112] C. T. Sachrajda and G. Villadoro, Twisted boundary conditions in lattice simulations, Phys.
+     Lett. B 609, 73 (2005), arXiv:hep-lat/0411033.
+[113] C. T. H. Davies, K. Hornbostel, A. Langnau, G. P. Lepage, A. Lidsey, J. Shigemitsu, and
+     J. H. Sloan, Precision Upsilon spectroscopy from nonrelativistic lattice QCD, Phys. Rev. D
+     50, 6963 (1994), arXiv:hep-lat/9406017.
+[114] Fixed to a precision of 10−14 using the FACG algorithm [142].
+[115] P. Zyla et al. (Particle Data Group), Review of Particle Physics, PTEP 2020, 083C01 (2020).
+[116] C. T. H. Davies et al. (HPQCD, UKQCD, MILC, Fermilab Lattice), High precision lattice
+     QCD confronts experiment, Phys. Rev. Lett. 92, 022001 (2004), arXiv:hep-lat/0304004.
+[117] S. Meinel, The Bottomonium spectrum from lattice QCD with 2+1 flavors of domain wall
+     fermions, Phys. Rev. D 79, 094501 (2009), arXiv:0903.3224 [hep-lat].
+[118] R. J. Hudspith and D. Mohler, A fully non-perturbative charm-quark tuning using machine
+     learning, Arxiv (2021), arXiv:2112.01997 [hep-lat].
+[119] D. P. Kingma and J. Ba, Adam: A method for stochastic optimization (2014), cite
+     arxiv:1412.6980, Published as a conference paper at the 3rd International Conference for
+     Learning Representations, San Diego, 2015.
+[120] This was tested on our lightest pion-mass ensemble (C101) to be the case.
+[121] M. Luscher and S. Schaefer, Lattice QCD with open boundary conditions and twisted-mass
+     reweighting, Comput. Phys. Commun. 184, 519 (2013), arXiv:1206.2809 [hep-lat].
+[122] M. Bruno et al., Simulation of QCD with Nf = 2 + 1 flavors of non-perturbatively improved
+     Wilson fermions, JHEP 02, 043, arXiv:1411.3982 [hep-lat].
+[123] M. Bruno, T. Korzec, and S. Schaefer, Setting the scale for the CLS 2 + 1 flavor ensembles,
+     Phys. Rev. D 95, 074504 (2017), arXiv:1608.08900 [hep-lat].
+[124] E.-H. Chao, R. J. Hudspith, A. Gérardin, J. R. Green, H. B. Meyer, and K. Ottnad, Hadronic
+     light-by-light contribution to (g − 2)µ from lattice QCD: a complete calculation, Eur. Phys.
+     J. C 81, 651 (2021), arXiv:2104.02632 [hep-lat].
+[125] C. Michael and I. Teasdale, Extracting Glueball Masses From Lattice QCD, Nucl. Phys. B
+     215, 433 (1983).
+[126] M. Luscher and U. Wolff, How to Calculate the Elastic Scattering Matrix in Two-dimensional
+     Quantum Field Theories by Numerical Simulation, Nucl. Phys. B 339, 222 (1990).
+                                                                                                  47
+
+[127] B. Blossier, M. Della Morte, G. von Hippel, T. Mendes, and R. Sommer, On the generalized
+      eigenvalue method for energies and matrix elements in lattice field theory, JHEP 04, 094,
+      arXiv:0902.1265 [hep-lat].
+[128] C. McNeile and C. Michael (UKQCD), The η and η’ mesons in QCD, Phys. Lett. B 491,
+      123 (2000), [Erratum: Phys.Lett.B 551, 391–391 (2003)], arXiv:hep-lat/0006020.
+[129] W. Bietenholz et al., Tuning the strange quark mass in lattice simulations, Phys. Lett. B
+      690, 436 (2010), arXiv:1003.1114 [hep-lat].
+[130] G. S. Bali, E. E. Scholz, J. Simeth, and W. Söldner (RQCD), Lattice simulations with
+      Nf = 2 + 1 improved Wilson fermions at a fixed strange quark mass, Phys. Rev. D 94,
+      074501 (2016), arXiv:1606.09039 [hep-lat].
+[131] G. S. Bali, S. Collins, P. Georg, D. Jenkins, P. Korcyl, A. Schäfer, E. E. Scholz, J. Simeth,
+      W. Söldner, and S. Weishäupl (RQCD), Scale setting and the light baryon spectrum in
+      Nf = 2 + 1 QCD with Wilson fermions, (2022), arXiv:2211.03744 [hep-lat].
+[132] R. J. Hudspith, B. Colquhoun, A. Francis, R. Lewis, and K. Maltman, A lattice investigation
+      of exotic tetraquark channels, Phys. Rev. D 102, 114506 (2020), arXiv:2006.14294 [hep-lat].
+[133] A. Francis, J. R. Green, P. M. Junnarkar, C. Miao, T. D. Rae, and H. Wittig, Lattice QCD
+      study of the H dibaryon using hexaquark and two-baryon interpolators, Phys. Rev. D 99,
+      074505 (2019), arXiv:1805.03966 [hep-lat].
+[134] C. Aubin and K. Orginos, A new approach for Delta form factors, AIP Conf. Proc. 1374,
+      621 (2011), arXiv:1010.0202 [hep-lat].
+[135] J. R. Green, J. W. Negele, A. V. Pochinsky, S. N. Syritsyn, M. Engelhardt, and S. Krieg,
+      Nucleon electromagnetic form factors from lattice QCD using a nearly physical pion mass,
+      Phys. Rev. D 90, 074507 (2014), arXiv:1404.4029 [hep-lat].
+[136] S. Aoki et al., Review of lattice results concerning low-energy particle physics, Eur. Phys. J.
+      C 77, 112 (2017), arXiv:1607.00299 [hep-lat].
+[137] Y. Aoki et al. (Flavour Lattice Averaging Group (FLAG)), FLAG Review 2021, Eur. Phys.
+      J. C 82, 869 (2022), arXiv:2111.09849 [hep-lat].
+[138] We tested that using the CLS continuum value of t0 instead produces a negligible shift in
+      our final result.
+[139] Neglecting the tiny differences in volume and pion mass between these two ensembles.
+                                                                                                 48
+
+[140] We chose the references that attempt to quantify the uncertainty of the calculation. Reference
+      [71] and [76] use Lattice QCD input and are not fully independent of previous lattice results
+      and so we therefore mention them here instead of in the overview plot. The results from [64]
+      are superseded by the results in [75] and we therefore omit the former from the overview
+      plot.
+[141] L. Dagum and R. Menon, Openmp: an industry standard api for shared-memory program-
+      ming, IEEE Computational Science and Engineering 5, 46 (1998).
+[142] R. J. Hudspith (RBC, UKQCD), Fourier Accelerated Conjugate Gradient Lattice Gauge
+      Fixing, Comput. Phys. Commun. 187, 115 (2015), arXiv:1405.5812 [hep-lat].
+

@@ -1,0 +1,2696 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+                                                       I (J P ) = 0( 21 + ) Status:
+  Λ+c                                                                                           ∗∗∗∗
+         The parity of the Λ+c is deﬁned to be positive (as are the parities of
+         the proton, neutron, and Λ). The quark content is u d c. Results of
+         an analysis of p K − π + decays (JEZABEK 92) are consistent with
+         J = 1/2. ABLIKIM 21N determines the Λ+       c spin to be J = 1/2,
+         from an angular analysis of various 2-body Λ+            + −
+                                                     c decays in e e →
+         Λ+  −
+          c Λc .
+         We have omitted some results that have been superseded by later
+         experiments. The omitted results may be found in earlier editions.
+
+                                              Λ+
+                                               c MASS
+         Our value in 2004, 2284.9 ± 0.6 MeV, was the average of the measurements
+         now ﬁled below as “not used.” The BABAR measurement is so much
+         better that we use it alone. Note that it is about 2.6 (old) standard
+         deviations above the 2004 value.
+
+         The ﬁt also includes Σc –Λ+ and Λ∗+ –Λ+ mass-diﬀerence measurements,
+                                   c       c   c
+         but this doesn’t aﬀect the Λ+ mass. The new (in 2006) Λ+ mass simply
+                                     c                          c
+         pushes all those other masses higher.
+
+VALUE (MeV)               EVTS          DOCUMENT ID                TECN      COMMENT
+2286.46± 0.14 OUR FIT
+2286.46± 0.14       4891              1 AUBERT,B 05S BABR Λ K 0 K + and Σ 0 K 0 K +
+                                                                     S        S
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2284.7 ± 0.6 ± 0.7 1134            AVERY           91 CLEO Six modes
+2281.7 ± 2.7 ± 2.6       29        ALVAREZ         90B NA14 p K − π +
+2285.8 ± 0.6 ± 1.2      101        BARLAG          89 NA32 p K − π +
+2284.7 ± 2.3 ± 0.5        5        AGUILAR-... 88B LEBC p K − π +
+2283.1 ± 1.7 ± 2.0      628        ALBRECHT        88C ARG      p K − π + , p K 0 , Λ 3π
+2286.2 ± 1.7 ± 0.7       97        ANJOS           88B E691 p K − π +
+2281 ± 3                  2        JONES           87 HBC       p K − π+
+2283 ± 3                  3        BOSETTI         82 HBC       p K − π+
+2290 ± 3                  1        CALICCHIO       80 HYBR p K − π +
+  1 AUBERT,B 05S uses low-Q Λ K 0 K + and Σ 0 K 0 K + decays to minimize systematic
+                                      S               S
+    errors. The error above includes systematic as well as statistical errors. Many cross
+    checks and adjustments to properties of the BABAR detector, as well as the large number
+    of clean events, make this by far the best measurement of the Λ+ mass.
+                                                                    c
+
+
+
+
+https://pdg.lbl.gov                          Page 1                       Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                          Λ+
+                                           c MEAN LIFE
+         Measurements with an error ≥ 100 × 10−15 s or with fewer than 20
+         events have been omitted from the Listings.
+
+VALUE (10−15 s)              EVTS           DOCUMENT ID                TECN     COMMENT
+202.6 ± 1.0 OUR AVERAGE
+203.20± 0.89 ± 0.77          107k           ABUDINEN                Λ+ → p K − π + ,
+                                                                 23A BEL2
+                                                                      c
+                                                                        e + e − near Υ(4S)
+202.1 ± 1.7 ± 0.9      304k       1 AAIJ                              +
+                                                    19AG LHCB Λ → p K − π +
+                                                                      c
+204.6 ± 3.4 ± 2.5      8034         LINK            02C FOCS Λ+ → p K − π +
+                                                                      c
+198.1 ± 7.0 ± 5.6      1630         KUSHNIR...      01 SELX Λ+ → p K − π +
+                                                                      c
+179.6 ± 6.9 ± 4.4      4749         MAHMOOD 01 CLE2 e + e − ≈ Υ(4S)
+215 ± 16 ± 8           1340         FRABETTI        93D E687 γ Be, Λ+ → p K − π +
+                                                                             c
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+180 ± 30 ± 30             29        ALVAREZ         90 NA14 γ, Λ+ → p K − π +
+                                                                          c
+200 ± 30 ± 30             90        FRABETTI        90 E687 γ Be, Λ+ → p K − π +
+                                                                             c
+196 +   23
+      − 20               101        BARLAG          89     NA32     p K − π + + c.c.
+
+220 ± 30 ± 20             97        ANJOS           88B E691 p K − π + + c.c.
+  1 AAIJ 19AG reports [Λ+ MEAN LIFE] / [D ± MEAN LIFE] = 0.1956 ± 0.0010 ± 0.0013
+                         c
+    which we multiply by our best (shown rounded) value D ± MEAN LIFE = (1.033 ±
+    0.005) × 10−12 s. Our ﬁrst error is their experiment’s error and our second error is the
+    systematic error from using our best (shown rounded) value.
+
+
+                                       Λ+
+                                        c DECAY MODES
+         Branching fractions marked with a footnote, e.g. [a], have been corrected
+         for decay modes not observed in the experiments. For example, the sub-
+         mode fraction Λ+ → p K ∗ (892)0 seen in Λ+ → p K − π + has been
+                          c                            c
+         multiplied up to include K ∗ (892)0 → K 0 π 0 decays.
+
+                                                                                            Scale factor/
+       Mode                                                     Fraction (Γi /Γ)          Conﬁdence level
+
+                  Hadronic modes with a p or n: S = −1 ﬁnal states
+Γ1     p K 0S                                                     ( 1.63± 0.07) %                      S=1.1
+Γ2     p K 0L                                                     ( 1.67± 0.07) %
+Γ3     p K − π+                                                   ( 6.37± 0.21) %                      S=1.2
+Γ4        p K ∗0 (700)0                                           ( 1.9 ± 0.6 ) × 10−3
+Γ5        p K ∗ (892)0                                    [a]     ( 1.42± 0.06) %
+Γ6        p K ∗0 (1430)                                           ( 9.4 ± 1.8 ) × 10−3
+Γ7        ∆(1232)++ K −                                           ( 1.80± 0.08) %
+Γ8        ∆(1600)++ K −                                           ( 2.9 ± 1.0 ) × 10−3
+Γ9        ∆(1700)++ K −                                           ( 2.5 ± 0.6 ) × 10−3
+Γ10       Λ(1405)0 π +                                            ( 4.9 ± 1.9 ) × 10−3
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ11      Λ(1520)π +                                     [a]    ( 1.19± 0.16) × 10−3
+Γ12      Λ(1600)π +                                            ( 3.3 ± 1.2 ) × 10−3
+Γ13      Λ(1670)π +                                            ( 7.5 ± 2.1 ) × 10−4
+Γ14      Λ(1690)π +                                            ( 7.6 ± 2.3 ) × 10−4
+Γ15      Λ(2000)π +                                            ( 6.1 ± 0.7 ) × 10−3
+Γ16      p K − π + nonresonant                                 ( 3.5 ± 0.4 ) %
+Γ17   p K 0S π 0                                               ( 2.12± 0.09) %                       S=1.3
+Γ18   p K 0L π 0                                               ( 2.02± 0.14) %
+Γ19   n K 0S π +                                               ( 1.86± 0.09) %
+
+Γ20   n K 0S K +                                               ( 3.9 + 1.7
+                                                                     − 1.4 ) × 10
+                                                                                 −4
+
+Γ21   n K 0S π + π 0                                           ( 8.5 ± 1.3 ) × 10−3
+Γ22   n K − π+ π+                                              ( 1.90± 0.12) %
+Γ23   pK0η                                                     ( 9.0 ± 0.6 ) × 10−3                  S=1.1
+Γ24   p K 0S π + π −                                           ( 1.63± 0.10) %                       S=1.1
+Γ25   p K 0L π + π −                                           ( 1.69± 0.11) %
+Γ26   p K − π+ π0                                              ( 4.54± 0.27) %                       S=1.6
+Γ27      p K ∗ (892)− π +                               [a]    ( 1.4 ± 0.5 ) %
+Γ28      p (K − π + )nonresonant π 0                           ( 4.7 ± 0.8 ) %
+Γ29      ∆(1232)K ∗ (892)                                       seen
+Γ30   p K − 2π + π −                                           ( 1.4 ± 1.0 ) × 10−3
+Γ31   p K − π + 2π 0                                           ( 1.0 ± 0.5 ) %
+
+                Hadronic modes with a p or n: S = 0 ﬁnal states
+Γ32   p π0                                                     ( 1.8 ± 0.4 ) × 10−4
+Γ33   n π+                                                     ( 6.6 ± 1.3 ) × 10−4
+Γ34   pη                                                       ( 1.49± 0.08) × 10−3
+Γ35   p η′                                                     ( 4.9 ± 0.9 ) × 10−4
+Γ36   p ω(782)0                                                ( 9.0 ± 1.0 ) × 10−4                  S=1.2
+Γ37   p π+ π−                                                  ( 4.69± 0.22) × 10−3
+Γ38      p f0 (980)                                     [a]    ( 3.5 ± 2.3 ) × 10−3
+Γ39   p ρ(770)0                                                ( 1.5 ± 0.4 ) × 10−3
+Γ40   n π+ π0                                                  ( 6.4 ± 0.9 ) × 10−3
+Γ41   n K + π0                                                < 7.1          × 10−4              CL=90%
+Γ42   n π+ π− π+                                               ( 4.5 ± 0.8 ) × 10−3
+Γ43   p 2π + 2π −                                              ( 2.3 ± 1.5 ) × 10−3
+Γ44   pK+K−                                                    ( 1.08± 0.04) × 10−3
+Γ45      pφ                                             [a]    ( 1.06± 0.13) × 10−3                  S=1.1
+Γ46      p K + K − non-φ                                       ( 5.4 ± 1.2 ) × 10−4
+Γ47   p K 0S K 0S                                              ( 2.41± 0.18) × 10−4
+Γ48   p φπ 0                                                   (10 ± 4 ) × 10−5
+Γ49   p K + K − π 0 nonresonant                               < 6.3          × 10−5              CL=90%
+
+             Hadronic modes with a hyperon: S = −1 ﬁnal states
+Γ50   Λ π+                                                     ( 1.32± 0.05) %                       S=1.1
+
+https://pdg.lbl.gov                        Page 3                      Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ51   Λ(1670)π + , Λ(1670) → η Λ                               ( 3.5 ± 0.5 ) × 10−3
+Γ52   Λ π+ π0                                                  ( 7.16± 0.33) %
+Γ53      Λ ρ+                                                  ( 4.1 ± 0.5 ) %
+Γ54      Σ (1385)+ π 0 , Σ + → Λ π +                           ( 5.1 ± 0.7 ) × 10−3
+Γ55      Σ (1385)0 π + , Σ 0 → Λ π 0                           ( 5.7 ± 0.8 ) × 10−3
+Γ56   Λ π − 2π +                                               ( 3.69± 0.26) %                       S=1.5
+Γ57      Σ (1385)+ π + π − , Σ ∗+ →                            ( 1.0 ± 0.5 ) %
+             Λ π+
+Γ58      Σ (1385)− 2π + , Σ ∗− → Λ π −                         ( 7.8 ± 1.4 ) × 10−3
+Γ59      Λ π + ρ0                                              ( 1.5 ± 0.6 ) %
+Γ60      Σ (1385)+ ρ0 , Σ ∗+ → Λ π +                           ( 5 ± 4 ) × 10−3
+Γ61      Λ π − 2π + nonresonant                               < 1.1          %                   CL=90%
+Γ62   Λ π − π 0 2π + total                                     ( 2.3 ± 0.8 ) %
+Γ63      Λ π+ ω                                         [a]    ( 1.5 ± 0.5 ) %
+Γ64      Λ π − π 0 2π + , no η or ω                           < 8            × 10−3              CL=90%
+Γ65   Λ π+ η                                            [a]    ( 1.92± 0.06) %
+Γ66      Σ (1385)+ η                                    [a]    ( 6.7 ± 0.6 ) × 10−3
+Γ67      Λ a0 (980)+ , a+ 0 → π η
+                                  +                            ( 1.04± 0.17) %
+Γ68                  +
+         Λ(1670)π , Λ(1670) → Λ η                              ( 2.7 ± 0.6 ) × 10−3
+Γ69   ΛK+ K0                                                   ( 5.9 ± 0.5 ) × 10−3                  S=1.2
+Γ70      Ξ (1690)0 K + , Ξ ∗0 → Λ K 0                          ( 1.7 ± 0.4 ) × 10−3
+Γ71   Σ π+
+        0                                                      ( 1.29± 0.05) %                       S=1.1
+Γ72   Σ 0 π+ η                                                 ( 7.6 ± 0.8 ) × 10−3
+Γ73   Σ + π0                                                   ( 1.27± 0.10) %                       S=1.1
+Γ74   Σ+η                                                      ( 3.4 ± 0.4 ) × 10−3
+Γ75   Σ + η′                                                   ( 4.2 ± 0.9 ) × 10−3
+Γ76   Σ + π+ π−                                                ( 4.57± 0.18) %                       S=1.1
+Γ77      Σ + ρ0                                               < 1.7               %              CL=95%
+Γ78   Σ 2π +
+        −                                                      ( 1.87± 0.18) %
+Γ79   Σ 0 π+ π0                                                ( 3.6 ± 0.4 ) %
+Γ80   Σ + π0 π0                                                ( 1.57± 0.14) %
+Γ81   Σ 0 π − 2π +                                             ( 1.13± 0.31) %
+Γ82   Σ+ω                                                      ( 1.72± 0.20) %
+Γ83   Σ − π 0 2π +                                             ( 2.1 ± 0.4 ) %
+Γ84   Σ 0 K 0S K +                                            < 1.28         × 10−3              CL=90%
+Γ85   Σ+K+K−                                                   ( 3.66± 0.35) × 10−3                  S=1.1
+Γ86   Σ + K + K − (non-φ)
+Γ87      Σ+φ                                            [a]    ( 4.0 ± 0.5 ) × 10−3                  S=1.1
+Γ88      Ξ (1690)0 K + , Ξ ∗0 →                                ( 1.03± 0.25) × 10−3
+             Σ+K−
+Γ89      Σ K + K − nonresonant
+           +                                                  < 8            × 10−4              CL=90%
+Γ90   Ξ0 K+                                                    ( 5.5 ± 0.7 ) × 10−3
+Γ91   Ξ − K + π+                                               ( 6.3 ± 0.5 ) × 10−3
+Γ92   Ξ 0 K + π0                                               ( 7.8 ± 1.7 ) × 10−3
+
+
+
+https://pdg.lbl.gov                        Page 4                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ93    Ξ 0 K 0S π +                                             ( 3.7 ± 0.6 ) × 10−3
+Γ94    Ξ (1530)0 K +                                            ( 4.9 ± 0.6 ) × 10−3                  S=1.1
+
+                Hadronic modes with a hyperon: S = 0 ﬁnal states
+Γ95    ΛK+                                                      ( 6.54± 0.30) × 10−4
+Γ96    Λ K + π0                                                 ( 1.50± 0.29) × 10−3
+Γ97    Λ K 0S π +                                               ( 1.73± 0.28) × 10−3
+Γ98      Λ K ∗ (892)K ∗+ → K 0S π +                              seen
+Γ99    Λ K + π+ π−                                              ( 4.2 ± 1.6 ) × 10−4
+Γ100   Σ0K+                                                     ( 3.76± 0.31) × 10−4
+Γ101   Σ + K 0S                                                 ( 4.8 ± 1.4 ) × 10−4
+Γ102   Σ 0 K + π+ π−                                           < 6.5          × 10−4              CL=90%
+Γ103   Σ 0 K + π0                                              < 5.0          × 10−4              CL=90%
+Γ104   Σ + K + π−                                               ( 2.05± 0.26) × 10−3
+Γ105     Σ + K ∗ (892)0                                  [a]    ( 3.6 ± 1.0 ) × 10−3
+Γ106   Σ + K + π− π0                                           < 1.1          × 10−3              CL=90%
+Γ107   Σ − K + π+                                               ( 3.8 ± 1.2 ) × 10−4
+
+                            Doubly Cabibbo-suppressed modes
+Γ108   p K + π−                                                 ( 1.13± 0.17) × 10−4
+
+                                      Semileptonic modes
+Γ109   Λ e + νe                                                 ( 3.56± 0.13) %
+Γ110   Λ π + π − e + νe                                        < 3.9          × 10−4              CL=90%
+Γ111   p K − e + νe                                             ( 8.8 ± 1.8 ) × 10−4
+Γ112   p K 0S π − e + νe                                       < 3.3          × 10−4              CL=90%
+Γ113   Λ(1520)e + νe                                            ( 1.0 ± 0.5 ) × 10−3
+Γ114   Λ(1405)0 e + νe ,       Λ0 → p K −                       ( 4.2 ± 1.9 ) × 10−4
+Γ115   Λ µ+ νµ                                                  ( 3.48± 0.17) %
+
+                                          Inclusive modes
+Γ116 e + anything                                               ( 4.06± 0.13) %
+Γ117 p anything                                                 (50 ± 16 ) %
+Γ118 n anything                                                 (32.6 ± 1.6 ) %
+Γ119 Λ anything                                                 (38.2 + 2.9
+                                                                      − 2.4 ) %
+Γ120 K 0S anything                                              (10.90± 0.22) %
+Γ121 3prongs                                                    (24     ± 8      )%
+
+                 ∆C = 1 weak neutral current (C1 ) modes, or
+             Lepton Family number (LF ), or Lepton number (L), or
+                     Baryon number (B) violating modes
+Γ122   pe e+  −                   C1         < 5.5        × 10−6                                  CL=90%
+Γ123       +  −
+       p µ µ non-resonant         C1         < 2.9        × 10−8                                  CL=90%
+Γ124   p e + µ−                   LF         < 9.9        × 10−6                                  CL=90%
+Γ125   pe µ−  +                   LF         < 1.9        × 10−5                                  CL=90%
+
+
+https://pdg.lbl.gov                         Page 5                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ126   p 2e +                                   L,B           < 2.7                 × 10−6         CL=90%
+Γ127   p 2µ+                                    L,B           < 9.4                 × 10−6         CL=90%
+Γ128   p e + µ+                                 L,B           < 1.6                 × 10−5         CL=90%
+Γ129   Σ − µ+ µ+                                L             < 7.0                 × 10−4         CL=90%
+
+                                          Radiative modes
+Γ130   Σ+γ                                                    < 2.5                 × 10−4         CL=90%
+
+                                            Exotic modes
+Γ131 p γD                                                 [b] < 8.0                 × 10−5         CL=90%
+
+   [a] This branching fraction includes all the decay modes of the ﬁnal-state
+       resonance.
+  [b] Here γD stands for a dark photon.
+
+                                       FIT INFORMATION
+          An overall ﬁt to 56 branching ratios uses 87 measurements to
+          determine 26 parameters. The overall ﬁt has a χ2 = 61.2 for 61
+          degrees of freedom.
+
+The
+D       following oﬀ-diagonal array elements are the correlation coeﬃcients
+          E
+  δxi δxj /(δxi ·δxj ), in percent, from the ﬁt to the branching fractions, xi ≡
+Γi /Γtotal .
+
+
+
+
+https://pdg.lbl.gov                          Page 6                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  x3          32
+ x17          28        67
+ x23          64        21        18
+ x24          26        45        30        17
+ x26          32        37        23        21        47
+ x34          12        37        25         8        17        14
+ x35           5        15        10         3         7         6         6
+ x36           8        24        16         5        11         9         9          4
+ x45           8        26        17         5        12        10        10          4        17
+ x50          37        35        26        24        19        24        13          5         8      9
+ x52          32        32        26        20        18        20        12          5         8      8
+ x56          35        17        10        22        30        51         6          3         4      4
+ x65          12        37        25         8        17        14        14          6         9     10
+ x69           8         8         6         5         4         5         3          1         2      2
+ x71          34        23        17        22        16        24         8          3         5      6
+ x73          26        21        18        17         9        13         8          3         5      5
+ x76          30        75        50        20        41        42        28         11        18     19
+ x78           2         5         4         1         2         2         2          1         1      1
+ x81           7         8         5         4         7        10         3          1         2       2
+ x82           9        19        13         6        13        17         7          3         5       5
+ x85          13        31        21         8        17        17        12          5         7       8
+ x87          10        24        16         6        13        14         9          4         6       6
+ x90           3         9         6         2         4         3         3          1         2       2
+ x91          15        18        13        10         9        10         7          3         4       5
+ x94           1         3         2         1         1         1         1          0         1       1
+              x1        x3       x17       x23       x24       x26       x34       x35       x36      x45
+
+
+
+
+https://pdg.lbl.gov                         Page 7                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ x52          44
+ x56          34        29
+ x65          13        12         6
+ x69          21        10         7         3
+ x71          55        38        34         8        12
+ x73          17        20        11         8         4        14
+ x76          29        28        24        28         6        20        18
+ x78           2         2         1         2         0         1         1          4
+ x81           7         6        16         3         1         6         3          7         0
+ x82           7         8        11         7         2         6         6         18         1        3
+ x85          12        12        10        11         3         8         8         42         2        3
+ x87           9         9         8         9         2         7         6         32         1        2
+ x90           3         3         2         3         1         2         2          7         0        1
+ x91          37        17        13         7         8        21         7         14         1        3
+ x94           1         1         1         1         0         1         1          2         0        0
+            x50       x52        x56       x65       x69       x71       x73       x76       x78       x81
+
+ x85           7
+ x87           6        13
+ x90           2         3          2
+ x91           4         6          5         2
+ x94           1         1          1         0         1
+            x82       x85        x87       x90       x91
+
+
+                                  Λ+
+                                   c BRANCHING RATIOS
+        A few really obsolete results have been omitted.
+
+                   Hadronic modes with a p: S = −1 ﬁnal states
+Γ p K 0S /Γtotal
+        
+                                                                                                      Γ1 /Γ
+VALUE (%)            EVTS           DOCUMENT ID               TECN       COMMENT
+1.63± 0.07 OUR FIT Error includes scale factor of 1.1.
+1.52± 0.08 ± 0.03 1243      ABLIKIM          16 BES3                     e + e − → Λc Λc , 4.599 GeV
+
+Γ p K 0L /Γtotal
+        
+                                                                                                      Γ2 /Γ
+VALUE (%)               EVTS            DOCUMENT ID              TECN      COMMENT
+1.67± 0.06 ± 0.04   1.6k            1 ABLIKIM  24CQ BES3 e + e − at 4.600–4.699 GeV
+  1 Comparing with the PDG 22 value B(Λ+ → p K 0 ) = (1.59 ± 0.07) × 10−2 , AB-
+                                          c          S
+    LIKIM 24CQ notes the K 0 − K 0 splitting to be − 0.025 ± 0.031 in these modes.
+                           S     L
+
+
+
+
+https://pdg.lbl.gov                         Page 8                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ p K 0S /Γ p K − π +
+                     
+                                                                                  Γ1 /Γ3
+                                 0                                              0
+        Measurements given as a K ratio have been divided by 2 to convert to a K ratio.
+                                                                                S
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+0.255± 0.011 OUR FIT Error includes scale factor of 1.3.
+0.234± 0.020 OUR AVERAGE
+0.23 ± 0.01 ± 0.02  1025        ALAM             98 CLE2                        e + e − ≈ Υ(4S)
+0.22 ± 0.04 ± 0.03   133        AVERY            91 CLEO                        e + e − 10.5 GeV
+0.28 ± 0.09 ± 0.07    45        ANJOS            90 E691                        γ Be 70–260 GeV
+0.31 ± 0.08 ± 0.02    73        ALBRECHT         88C ARG                        e + e − 10 GeV
+
+Γ p K − π + /Γtotal
+           
+                                                                                                         Γ3 /Γ
+VALUE (%)              EVTS           DOCUMENT ID              TECN      COMMENT
+6.37± 0.21 OUR FIT Error includes scale factor of 1.2.
+6.3 ± 0.5 OUR AVERAGE Error includes scale factor of 2.0.
+5.84± 0.27 ± 0.23 6.3k         ABLIKIM        16 BES3 e + e − → Λc Λc , 4.599 GeV
+           + 0.21 1.4k
+6.84± 0.24 −                 1 ZUPANC         14 BELL e + e − → D (∗)− p π + recoil
+             0.27
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+5.0 ± 1.3                    2 PDG            02             See footnote
+  1 This ZUPANC 14 value is the FIRST-EVER model-independent measurement of a Λ+
+                                                                                     c
+    branching fraction.
+  2 See the note by P. Burchat, ”Λ+ Branching Fractions,” in any edition of the Review
+                                  c
+    from 2002 through 2014 for how this value was obtained. It is now obsolete.
+
+Γ p K ∗0 (700)0 /Γ p K − π +
+                            
+                                                                                                        Γ4 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+3.02± 0.16 ± 0.18± 0.92            1 AAIJ          23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ p K ∗ (892)0 /Γ p K − π +
+                           
+                                                                                                        Γ5 /Γ3
+        Unseen decay modes of the K ∗ (892)0 are included.
+VALUE (units 10−2 )              EVTS           DOCUMENT ID            TECN      COMMENT
+22.3 ± 0.7 OUR AVERAGE
+22.14± 0.23 ± 0.04± 0.64             1 AAIJ         23Z LHCB 1.7fb−1 , p p at 13 TeV
+29 ± 4 ± 3                           2 AITALA       00 E791 π − N, 500 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+
+35    + 6      ±3                   39          BOZEK           93     NA32      π − Cu 230 GeV
+      − 7
+35    ± 11                                      BARLAG
+                                                   90D NA32 See BOZEK 93
+42    ± 24                          12             81B CNTR p p → Λ+ e − X
+                                                BASILE
+                                                                          c
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+  2 AITALA 00 makes a coherent 5-dimensional amplitude analysis of 946 ± 38 Λ+ →
+                                                                                    c
+    p K − π + decays.
+
+Γ p K ∗0 (1430) /Γ p K − π +
+                            
+                                                                                                        Γ6 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+14.7± 0.6± 0.1± 2.7                        1 AAIJ               23Z LHCB 1.7fb−1 , p p at 13 TeV
+
+https://pdg.lbl.gov                           Page 9                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ ∆(1232)++ K − /Γ p K − π +
+                            
+                                                                                                         Γ7 /Γ3
+VALUE (units 10−2 )              EVTS           DOCUMENT ID            TECN      COMMENT
+28.2 ± 0.8 OUR AVERAGE
+28.60± 0.29 ± 0.16± 0.76            1 AAIJ          23Z LHCB 1.7 fb−1 , p p at 13 TeV
+18 ± 3 ± 3                          2 AITALA        00 E791 π − N, 500 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+
+12    + 4      ±5                   14          BOZEK           π − Cu 230 GeV
+                                                                93     NA32
+      − 5
+40    ± 17                   17         BASILE     81B CNTR p p → Λ+ e − X
+                                                                         c
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+  2 AITALA 00 makes a coherent 5-dimensional amplitude analysis of 946 ± 38 Λ+ →
+                                                                                    c
+    p K − π + decays.
+
+Γ ∆(1600)++ K − /Γ p K − π +
+                            
+                                                                                                         Γ8 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+4.5± 0.3± 0.1± 1.5                 1 AAIJ          23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ ∆(1700)++ K − /Γ p K − π +
+                            
+                                                                                                         Γ9 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+3.90± 0.20 ± 0.07± 0.94                    1 AAIJ  23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ Λ(1405)0 π + /Γ p K − π +
+                           
+                                                                                                        Γ10 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+7.7± 0.2± 0.2± 3.0                 1 AAIJ          23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ Λ(1520)π + /Γ p K − π +
+                         
+                                                                                                        Γ11 /Γ3
+       Unseen decay modes of the Λ(1520) are included.
+VALUE (units 10−2 )              EVTS           DOCUMENT ID            TECN      COMMENT
+ 1.86± 0.09± 0.03± 0.23             1 AAIJ          23Z LHCB 1.7 fb−1 , p p at 13 TeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+34 ± 8 ± 5                          2 AITALA        00 E791 π − N, 500 GeV
+40    + 18     ±9                   12          BOZEK           93     NA32      π − Cu 230 GeV
+      − 13
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+  2 AITALA 00 makes a coherent 5-dimensional amplitude analysis of 946 ± 38 Λ+ →
+                                                                                    c
+    p K − π + decays.
+
+
+
+https://pdg.lbl.gov                          Page 10                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Λ(1600)π + /Γ p K − π +
+                         
+                                                                                                        Γ12 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+5.2± 0.2± 0.1± 1.9                         1 AAIJ  23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ Λ(1670)π + /Γ p K − π +
+                         
+                                                                                                        Γ13 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+1.18± 0.06 ± 0.01± 0.32            1 AAIJ          23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ Λ(1690)π + /Γ p K − π +
+                         
+                                                                                                        Γ14 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+1.19± 0.09 ± 0.01± 0.34                    1 AAIJ  23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ Λ(2000)π + /Γ p K − π +
+                         
+                                                                                                        Γ15 /Γ3
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+9.58± 0.27 ± 0.23± 0.93                    1 AAIJ  23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model.
+
+Γ p K − π + nonresonant /Γ p K − π +
+                                    
+                                                                                                        Γ16 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.55± 0.06 OUR AVERAGE
+0.55± 0.06 ± 0.04              1 AITALA        00 E791 π − N, 500 GeV
+     + 0.07 ± 0.05
+0.56 −                 71        BOZEK         93 NA32 π − Cu 230 GeV
+       0.09
+  1 AITALA 00 makes a coherent 5-dimensional amplitude analysis of 946 ± 38 Λ+ →
+                                                                             c
+    p K − π + decays.
+
+Γ p K 0S π 0 /Γtotal
+            
+                                                                                                         Γ17 /Γ
+VALUE (%)              EVTS           DOCUMENT ID               TECN       COMMENT
+2.12± 0.09 OUR FIT Error includes scale factor of 1.3.
+1.87± 0.13 ± 0.05 558       ABLIKIM          16 BES3                       e + e − → Λc Λc , 4.599 GeV
+
+Γ p K 0L π 0 /Γtotal
+            
+                                                                                                         Γ18 /Γ
+VALUE (%)                 EVTS          DOCUMENT ID                TECN      COMMENT
+2.02± 0.13 ± 0.05    650     1 ABLIKIM         24CQ BES3 e + e − at 4.600–4.699 GeV
+  1 Comparing with the PDG 22 value B(Λ+ → p K 0 π 0 ) = (1.96 ± 0.12) × 10−2 , AB-
+                                        c          S
+    LIKIM 24CQ notes the K 0 − K 0 splitting to be 0.015 ± 0.046 in these modes.
+                           S     L
+
+
+
+
+https://pdg.lbl.gov                          Page 11                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ p K 0S π 0 /Γ p K − π +
+                         
+                                                                                 Γ17 /Γ3
+        Measurements given as a K ratio have been divided by 2 to convert to a K 0 ratio.
+                                 0
+                                                                                 S
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.333± 0.011 OUR FIT Error includes scale factor of 1.3.
+0.339± 0.009 OUR AVERAGE
+0.339± 0.002 ± 0.009 130k        ADACHI           25L BEL2                       e + e − at Υ(nS)
+0.33 ± 0.03 ± 0.04    774        ALAM             98 CLE2                        e + e − ≈ Υ(4S)
+
+Γ n K 0S π + /Γtotal
+            
+                                                                                                         Γ19 /Γ
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      COMMENT
+1.86± 0.08 ± 0.04              556           ABLIKIM                4.5 fb−1 , e + e − at
+                                                                24BA BES3
+                                                                       4.600–4.699 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.82± 0.23 ± 0.11         83      1 ABLIKIM         17H BES3 e + e − at 4.6 GeV
+  1 Superseded by ABLIKIM 24BA.
+
+Γ n K 0S K + /Γtotal
+            
+                                                                                                         Γ20 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      COMMENT
+    + 1.7 ± 0.3
+3.9 −                             9          ABLIKIM            24BA BES3        4.5 fb−1 , e + e − at
+      1.4
+                                                                                    4.600–4.699 GeV
+
+Γ n K 0S π + π 0 /Γtotal
+                
+                                                                                                         Γ21 /Γ
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      COMMENT
+0.85± 0.13 ± 0.03                98          ABLIKIM            24AX BES3        4.5 fb−1 , e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ n K − π + π + /Γtotal
+               
+                                                                                                         Γ22 /Γ
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      COMMENT
+1.90± 0.08 ± 0.09              810           ABLIKIM            23A BES          4.5 fb−1 , e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ p K 0 η /Γtotal
+         
+                                                                                                         Γ23 /Γ
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      COMMENT
+0.90 ± 0.06 OUR FIT   Error includes scale factor of 1.1.
+0.828± 0.168 ± 0.056    42      1 ABLIKIM          21H BES3 e + e − at 4.6 GeV
+  1 ABLIKIM 21H measures B(Λ+ → p K 0 η) = (0.414 ± 0.084 ± 0.028)%.
+                             c         S
+
+Γ p K 0 η /Γ p K 0S
+                   
+                                                                                                        Γ23 /Γ1
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.550± 0.029 OUR FIT
+0.546± 0.012 ± 0.026   12.6k   1 LI          23B BELL e + e − → Υ(nS)
+  1 LI 23B measures B(Λ+ → p K 0 η)/B(Λ+ → p K 0 ) = 0.273 ± 0.006 ± 0.013.
+                       c       S       c       S
+
+Γ p K 0 η /Γ p K − π +
+                      
+                                                                                                        Γ23 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.140± 0.009 OUR FIT           Error includes scale factor of 1.1.
+0.25 ± 0.04 ± 0.04               57        AMMAR            95 CLE2              e + e − ≈ Υ(4S)
+
+
+
+
+https://pdg.lbl.gov                          Page 12                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ p K 0S π + π − /Γtotal
+                
+                                                                                                         Γ24 /Γ
+VALUE (%)              EVTS           DOCUMENT ID               TECN       COMMENT
+1.63± 0.10 OUR FIT Error includes scale factor of 1.1.
+1.53± 0.11 ± 0.09 485       ABLIKIM          16 BES3                       e + e − → Λc Λc , 4.599 GeV
+
+Γ p K 0L π + π − /Γtotal
+                
+                                                                                                         Γ25 /Γ
+VALUE (%)                 EVTS          DOCUMENT ID                TECN      COMMENT
+1.69± 0.10 ± 0.05    650     1 ABLIKIM        24CQ BES3 e + e − at 4.600–4.699 GeV
+  1 Comparing with the PDG 22 value B(Λ+ → p K 0 π + π − ) = (1.60 ± 0.11) × 10−2 ,
+                                       c          S
+    ABLIKIM 24CQ notes the K 0 − K 0 splitting to be − 0.027 ± 0.048 in these modes.
+                             S      L
+
+Γ p K 0S π + π − /Γ p K − π +
+                             
+                                                                                Γ24 /Γ3
+                                 0                                              0
+        Measurements given as a K ratio have been divided by 2 to convert to a K ratio.
+                                                                                S
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+0.256± 0.014 OUR FIT Error includes scale factor of 1.1.
+0.257± 0.031 OUR AVERAGE
+0.26 ± 0.02 ± 0.03   985        ALAM             98 CLE2 e + e − ≈ Υ(4S)
+0.22 ± 0.06 ± 0.02    83        AVERY            91 CLEO e + e − 10.5 GeV
+0.49 ± 0.18 ± 0.04    12        BARLAG           90D NA32 π − 230 GeV
+
+Γ p K − π + π 0 /Γtotal
+               
+                                                                                                         Γ26 /Γ
+VALUE (%)              EVTS           DOCUMENT ID               TECN       COMMENT
+4.54± 0.27 OUR FIT Error includes scale factor of 1.6.
+4.53± 0.23 ± 0.30 1849      ABLIKIM          16 BES3                       e + e − → Λc Λc , 4.599 GeV
+
+Γ p K − π + π 0 /Γ p K − π +
+                            
+                                                                                                        Γ26 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.71 ± 0.04 OUR FIT Error includes scale factor of 2.4.
+0.685± 0.019 OUR AVERAGE
+0.685± 0.007 ± 0.018 242k       PAL              17 BELL                         e + e − ≈ Υ(4S),Υ(5S)
+0.67 ± 0.04 ± 0.11   2.6k       ALAM             98 CLE2                         e + e − ≈ Υ(4S)
+
+Γ p K ∗ (892)− π + /Γ p K 0S π + π −
+                                    
+                                                                                                   Γ27 /Γ24
+        Unseen decay modes of the K ∗ (892)− are included.
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.88± 0.28                       17          ALEEV              94     BIS2      n N 20–70 GeV
+
+Γ p (K − π + )nonresonant π 0 /Γ p K − π +
+                                          
+                                                                                                        Γ28 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.73± 0.12 ± 0.05                67          BOZEK              93     NA32      π − Cu 230 GeV
+
+Γ ∆(1232)K ∗ (892) /Γtotal
+                  
+                                                                                                         Γ29 /Γ
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+seen                             35          AMENDOLIA 87              SPEC      γ Ge -Si
+
+Γ p K − 2π + π − /Γ p K − π +
+                             
+                                                                                                        Γ30 /Γ3
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.022± 0.015                                 BARLAG             90D NA32         π − 230 GeV
+
+
+https://pdg.lbl.gov                          Page 13                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ p K − π + 2π 0 /Γ p K − π +
+                             
+                                                                                                        Γ31 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN       COMMENT
+0.16± 0.07 ± 0.03                15          BOZEK              93     NA32       π − Cu 230 GeV
+
+              Hadronic modes with a p and n: S = 0 ﬁnal states
+Γ p π 0 /Γtotal
+       
+                                                                                                         Γ32 /Γ
+VALUE (units 10−4 )       CL%     EVTS          DOCUMENT ID                TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+       + 0.72 ± 0.20
+  1.56 −                               9      1 ABLIKIM              24BB BES3       Superseded by AB-
+         0.58
+                                                                                        LIKIM 25AS
+<2.7              90                 ABLIKIM        17Q BES3                         e + e − at 4.6 GeV
+ 1 ABLIKIM 24BB result based on 6.0 fb−1 of e + e − collisions at 4.600–4.843 GeV.
+
+Γ p π 0 /Γ p η
+              
+                                                                                                   Γ32 /Γ34
+VALUE                         EVTS           DOCUMENT ID               TECN       COMMENT
+0.120± 0.026 ± 0.007             80          ABLIKIM            25AS BES3         4.5 fb−1 , e + e − at
+                                                                                     4.600–4.699 GeV
+
+Γ p π 0 /Γ p K − π +
+                    
+                                                                                                        Γ32 /Γ3
+VALUE                 CL%     EVTS           DOCUMENT ID               TECN       COMMENT
+<1.273 × 10−3 90      7.7k     1 LI                             21     BELL       e + e − at Υ(nS)
+ 1 Uses B(π 0 → γ γ) = 0.9882 ± 0.0003.
+
+Γ n π + /Γtotal
+       
+                                                                                                         Γ33 /Γ
+VALUE (units 10−4 )       EVTS             DOCUMENT ID             TECN      COMMENT
+6.6± 1.2± 0.4               50             ABLIKIM          22S BES3         e + e − at 4.612–4.699 GeV
+     
+Γ p η /Γtotal                                                                                            Γ34 /Γ
+        Unseen decay modes of the η are included.
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN       COMMENT
+1.49± 0.08 OUR FIT
+1.57± 0.11 ± 0.04                507        1 ABLIKIM               4.5 fb−1 , e + e − at
+                                                                23CB BES3
+                                                                       4.600–4.699 GeV,
+                                                                       η → 2γ, π + π 0 π −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.63± 0.31 ± 0.11         35        ABLIKIM         24BB BES3 6.0 fb−1 , e + e − at
+                                                                       4.600–4.843 GeV,
+                                                                       η → 2γ
+1.24± 0.28 ± 0.10         52        ABLIKIM         17Q BES3 η → 2γ, π + π 0 π −
+  1 ABLIKIM 23CB report a signiﬁcance of 10σ.
+
+Γ p η /Γ p K − π +
+                  
+                                                                                                        Γ34 /Γ3
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN       COMMENT
+2.34 ± 0.12 OUR FIT
+2.258± 0.077 ± 0.122   7.7k    1 LI                             21     BELL       e + e − at Υ(nS)
+  1 Uses B(η → γ γ) = 0.3941 ± 0.0020.
+
+
+
+
+https://pdg.lbl.gov                           Page 14                     Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+           
+Γ p η /Γ p φ                                                                                       Γ34 /Γ45
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+1.41± 0.18 OUR FIT
+1.6 ± 0.7 ± 0.2                     1 AAIJ            24AI LHCB p p at 13 TeV
+  1 AAIJ 24AI reports [Γ Λ+ → p η /Γ Λ+ → p φ] × [B(η → µ+ µ− )] / [B(φ(1020) →
+                           c              c
+    µ+ µ− )] = 0.032 ± 0.013 ± 0.004 which we multiply or divide by our best (shown
+    rounded) values B(η → µ+ µ− ) = (5.8 ± 0.8) × 10−6 , B(φ(1020) → µ+ µ− ) =
+    (2.86 ± 0.22) × 10−4 . Our ﬁrst error is their experiment’s error and our second error is
+    the systematic error from using our best (shown rounded) values.
+
+Γ p η ′ /Γtotal
+       
+                                                                                                         Γ35 /Γ
+VALUE (units 10−4 )       EVTS          DOCUMENT ID                TECN      COMMENT
+4.9 ± 0.9 OUR FIT
+     + 2.46 ± 0.26
+5.62 −                   9      1 ABLIKIM          22AN BES3 e + e − at 4.600–4.699 GeV
+       2.04
+  1 Observed with 3.6 σ statistical signiﬁcance with 4.5 fb−1 of e + e − collisions between
+    4.600 and 4.699 GeV. The η ′ is reconstructed in the two decay modes η ′ → π + π − η
+                                                + 3.2 and 4.3 + 2.6 events, respectively.
+    and η ′ → π + π − γ, with signal yields 4.9 − 2.6         − 2.2
+
+Γ p η ′ /Γ p K − π +
+                    
+                                                                                                        Γ35 /Γ3
+VALUE (units 10−3 )                          DOCUMENT ID               TECN      COMMENT
+7.7 ± 1.4 OUR FIT
+7.54± 1.32 ± 0.73                            LI                 22B BELL         e + e − at Υ(nS)
+
+Γ p ω(782)0 /Γtotal
+           
+                                                                                                         Γ36 /Γ
+VALUE (units 10−4 )         EVTS           DOCUMENT ID               TECN      COMMENT
+ 9.0± 1.0 OUR FIT Error includes scale factor of 1.2.
+11.1± 2.0± 0.7         234      1 ABLIKIM         23CB BES3 ω → π + π − π 0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ 9.4± 3.2 ± 2.2         13        AAIJ            18N LHCB Seen in Λ+ → p µ+ µ−
+                                                                           c
+  1 ABLIKIM 23CB report a signiﬁcance of 5.7σ.
+
+Γ p ω(782)0 /Γ p K − π +
+                        
+                                                                                                        Γ36 /Γ3
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+1.41± 0.15 OUR FIT Error includes scale factor of 1.1.
+1.32± 0.12 ± 0.10         1.8k     1 LI            21E BELL e + e − at Υ(nS)
+  1 LI 21E reconstructs the ω(782) via ω → π + π − π 0 and π 0 → γ γ.
+
+Γ p ω(782)0 /Γ p φ
+                 
+                                                                                                   Γ36 /Γ45
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.85± 0.13 OUR FIT     Error includes scale factor of 1.1.
+0.93± 0.14 ± 0.24                  1 AAIJ              24AI LHCB p p at 13 TeV
+                          +                        +
+  1 AAIJ 24AI reports [Γ Λ → p ω(782)0 /Γ Λ → p φ] × [B(ω(782) → µ+ µ− )] /
+                                             
+                          c                        c
+    [B(φ(1020) → µ+ µ− )] = 0.240 ± 0.030 ± 0.018 which we multiply or divide by our best
+    (shown rounded) values B(ω(782) → µ+ µ− ) = (7.4 ± 1.8) × 10−5 , B(φ(1020) →
+
+
+
+
+https://pdg.lbl.gov                          Page 15                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+    µ+ µ− ) = (2.86 ± 0.22) × 10−4 . Our ﬁrst error is their experiment’s error and our
+    second error is the systematic error from using our best (shown rounded) values.
+
+Γ p π + π − /Γ p K − π +
+                        
+                                                                                                        Γ37 /Γ3
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+7.35± 0.24 OUR AVERAGE Error includes scale factor of 1.3.
+7.44± 0.08 ± 0.18    20k       AAIJ            18V LHCB Λ0 → Λ+ µ− X
+                                                           b      c
+6.70± 0.48 ± 0.25    495       ABLIKIM         16U BES3 e + e − at 4.599 GeV
+6.9 ± 3.6              5       BARLAG          90D NA32 π − 230 GeV
+
+Γ p f0 (980) /Γ p K − π +
+                         
+                                                                                                        Γ38 /Γ3
+        Unseen decay modes of the f0 (980) are included.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.055± 0.036                                 BARLAG             90D NA32         π − 230 GeV
+
+Γ p ρ(770)0 /Γ p φ
+                 
+                                                                                                   Γ39 /Γ45
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+1.44± 0.35 ± 0.14                   1 AAIJ            24AI LHCB p p at 13 TeV
+                            +                      +
+  1 AAIJ 24AI reports [Γ Λ → p ρ(770)0 /Γ Λ → p φ] × [B(ρ(770) → µ+ µ− )] /
+                                             
+                            c                      c
+    [B(φ(1020) → µ+ µ− )] = 0.229 ± 0.051 ± 0.022 which we multiply or divide by our best
+    (shown rounded) values B(ρ(770) → µ+ µ− ) = (4.55 ± 0.28) × 10−5 , B(φ(1020) →
+    µ+ µ− ) = (2.86 ± 0.22) × 10−4 . Our ﬁrst error is their experiment’s error and our
+    second error is the systematic error from using our best (shown rounded) values.
+
+Γ n π + π 0 /Γtotal
+           
+                                                                                                         Γ40 /Γ
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      COMMENT
+0.64± 0.09 ± 0.02              150           ABLIKIM            23A BES          4.5 fb−1 , e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ n K + π 0 /Γtotal
+           
+                                                                                                         Γ41 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<7.1 × 10−4                    90            ABLIKIM            24AW BES3        6.1 fb−1 at e + e − ,
+                                                                                    4.60–4.84 GeV
+
+Γ n π + π − π + /Γtotal
+               
+                                                                                                         Γ42 /Γ
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      COMMENT
+0.45± 0.07 ± 0.03              120           ABLIKIM            23A BES          4.5 fb−1 , e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ p 2π + 2π − /Γ p K − π +
+                          
+                                                                                                        Γ43 /Γ3
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.036± 0.023                                 BARLAG             90D NA32         π − 230 GeV
+
+Γ p K + K − /Γ p K − π +
+                        
+                                                                                                        Γ44 /Γ3
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+1.70± 0.04 OUR AVERAGE
+1.70± 0.03 ± 0.03    3.4k                    AAIJ      18V LHCB Λ0 → Λ+ µ− X
+                                                                  b      c
+1.4 ± 0.2 ± 0.2                676           ABE       02C BELL e + e − ≈ Υ(4S)
+3.9 ± 0.9 ± 0.7                214           ALEXANDER 96C CLE2 e + e − ≈ Υ(4S)
+
+
+https://pdg.lbl.gov                          Page 16                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+9.6 ± 2.9 ± 1.0                  30          FRABETTI           93H E687         γ Be, E γ 220 GeV
+4.8 ± 2.7                                    BARLAG             90D NA32         π − 230 GeV
+
+Γ p φ /Γ p K − π +
+                  
+                                                                                                        Γ45 /Γ3
+        Unseen decay modes of the φ are included.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+1.66± 0.20 OUR FIT
+1.70± 0.21 OUR AVERAGE
+1.81± 0.33 ± 0.13         44        ABLIKIM         16U BES3 e + e − at 4.599 GeV
+1.5 ± 0.2 ± 0.2          345        ABE             02C BELL e + e − ≈ Υ(4S)
+2.4 ± 0.6 ± 0.3           54        ALEXANDER 96C CLE2 e + e − ≈ Υ(4S)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.0 ± 2.7                           BARLAG          90D NA32 π − 230 GeV
+
+Γ p K + K − non-φ /Γ p K − π +
+                              
+                                                                                                        Γ46 /Γ3
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      COMMENT
+8.4 ± 1.8 OUR AVERAGE
+9.36± 2.22 ± 0.71     38                     ABLIKIM            16U BES3         e + e − at 4.599 GeV
+7 ±2 ±2             344                      ABE                02C BELL         e + e − ≈ Υ(4S)
+
+Γ p K 0S K 0S /Γ p K 0S
+                       
+                                                                                                        Γ47 /Γ1
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+1.48± 0.08 ± 0.04              2.4k          LI                 23B BELL         e + e − → Υ(nS)
+
+Γ p φπ 0 /Γ p K − π +
+                     
+                                                                                                        Γ48 /Γ3
+VALUE (units 10−3 )                          DOCUMENT ID               TECN      COMMENT
+             + 0.077
+1.538± 0.641 −                               PAL                17     BELL      e + e − ≈ Υ(4S),Υ(5S)
+               0.100
+
+Γ p K + K − π 0 nonresonant /Γtotal
+                           
+                                                                                                         Γ49 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<6.3 × 10−5                    90            PAL                17     BELL      e + e − ≈ Υ(4S),Υ(5S)
+
+            Hadronic modes with a hyperon: S = −1 ﬁnal states
+Γ Λ π + /Γtotal
+       
+                                                                                                         Γ50 /Γ
+VALUE (%)              EVTS           DOCUMENT ID               TECN       COMMENT
+1.32± 0.05 OUR FIT Error includes scale factor of 1.1.
+1.27± 0.06 OUR AVERAGE
+1.31± 0.08 ± 0.05 376       ABLIKIM          22S BES3                      e + e − at 4.612–4.699 GeV
+1.24± 0.07 ± 0.03 706       ABLIKIM          16 BES3                       e + e − → Λc Λc , 4.599 GeV
+
+Γ Λ π + /Γ p K − π +
+                    
+                                                                                                        Γ50 /Γ3
+VALUE                       EVTS           DOCUMENT ID               TECN      COMMENT
+0.207± 0.008 OUR FIT Error includes scale factor of 1.2.
+0.204± 0.019 OUR AVERAGE
+0.217± 0.013 ± 0.020 750       LINK             05F FOCS                  γ nucleus, E γ ≈ 180 GeV
+0.18 ± 0.03 ± 0.04                         ALBRECHT           92     ARG  e + e − ≈ 10.4 GeV
+0.18 ± 0.03 ± 0.03             87          AVERY              91     CLEO e + e − 10.5 GeV
+
+https://pdg.lbl.gov                          Page 17                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Λ(1670)π + , Λ(1670) → η Λ /Γ p K − π +
+                                         
+                                                                                                        Γ51 /Γ3
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+5.54± 0.29 ± 0.73              9.7k          LEE                21A BELL         e + e − ≈ Υ(nS)
+
+Γ Λ π + π 0 /Γtotal
+           
+                                                                                                         Γ52 /Γ
+VALUE (%)              EVTS           DOCUMENT ID               TECN        COMMENT
+7.16± 0.33 OUR FIT
+7.01± 0.37 ± 0.19 1497                ABLIKIM             16    BES3        e + e − → Λc Λc , 4.599 GeV
+
+Γ Λ π + π 0 /Γ p K − π +
+                        
+                                                                                                        Γ52 /Γ3
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+1.12± 0.05 OUR FIT          Error includes scale factor of 1.1.
+0.73± 0.09 ± 0.16             464        AVERY             94 CLE2              e + e − ≈ Υ(3S),Υ(4S)
+
+Γ Λ ρ+ /Γ p K − π +
+                   
+                                                                                                        Γ53 /Γ3
+VALUE                       CL%           DOCUMENT ID                TECN     COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.95                 95          AVERY          94 CLE2 e + e − ≈ Υ(3S),Υ(4S)
+
+Γ Λ ρ+ /Γ Λ π + π 0
+                   
+                                                                                                   Γ53 /Γ52
+        These results are ﬁt fraction from an amplitude / partial wave analysis.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+57.2± 4.2± 4.9                 8.9k          ABLIKIM            22BA BES3        e + e − at 4.6–4.7 GeV
+
+Γ Σ (1385)+ π 0 , Σ + → Λ π + /Γ Λ π + π 0
+                                          
+                                                                                                   Γ54 /Γ52
+        These results are ﬁt fraction from an amplitude / partial wave analysis.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+7.18± 0.60 ± 0.64              8.9k          ABLIKIM            22BA BES3        e + e − at 4.6–4.7 GeV
+
+Γ Σ (1385)0 π + , Σ 0 → Λ π 0 /Γ Λ π + π 0
+                                          
+                                                                                                   Γ55 /Γ52
+        These results are ﬁt fraction from an amplitude / partial wave analysis.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+7.92± 0.72 ± 0.80              8.9k          ABLIKIM            22BA BES3        e + e − at 4.6–4.7 GeV
+
+Γ Λ π − 2π + /Γtotal
+            
+                                                                                                         Γ56 /Γ
+VALUE (%)              EVTS           DOCUMENT ID               TECN        COMMENT
+3.69± 0.26 OUR FIT Error includes scale factor of 1.5.
+3.81± 0.24 ± 0.18 609       ABLIKIM          16 BES3                        e + e − → Λc Λc , 4.599 GeV
+
+Γ Λ π − 2π + /Γ p K − π +
+                         
+                                                                                                        Γ56 /Γ3
+VALUE                       EVTS           DOCUMENT ID               TECN      COMMENT
+0.58 ± 0.04 OUR FIT Error includes scale factor of 1.7.
+0.522± 0.032 OUR AVERAGE
+0.508± 0.024 ± 0.024 1356     LINK             05F FOCS                        γ nucleus, E γ ≈ 180 GeV
+0.65 ± 0.11 ± 0.12            289          AVERY               91    CLEO      e + e − 10.5 GeV
+0.82 ± 0.29 ± 0.27             44          ANJOS               90    E691      γ Be 70–260 GeV
+0.94 ± 0.41 ± 0.13             10          BARLAG              90D   NA32      π − 230 GeV
+0.61 ± 0.16 ± 0.04            105          ALBRECHT            88C   ARG       e + e − 10 GeV
+
+
+https://pdg.lbl.gov                          Page 18                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Σ (1385)+ π + π − , Σ ∗+ → Λ π + /Γ Λ π − 2π +
+                                                
+                                                                                                   Γ57 /Γ56
+VALUE                                    DOCUMENT ID               TECN       COMMENT
+0.28± 0.10 ± 0.08                        LINK                05F FOCS         γ nucleus, E γ ≈ 180 GeV
+
+Γ Σ (1385)− 2π + , Σ ∗− → Λ π − /Γ Λ π − 2π +
+                                             
+                                                                                                   Γ58 /Γ56
+VALUE                                    DOCUMENT ID               TECN       COMMENT
+0.21± 0.03 ± 0.02                        LINK                05F FOCS         γ nucleus, E γ ≈ 180 GeV
+
+Γ Λ π + ρ0 /Γ Λ π − 2π +
+                        
+                                                                                                   Γ59 /Γ56
+VALUE                                    DOCUMENT ID               TECN       COMMENT
+0.40± 0.12 ± 0.12                        LINK                05F FOCS         γ nucleus, E γ ≈ 180 GeV
+
+Γ Σ (1385)+ ρ0 , Σ ∗+ → Λ π + /Γ Λ π − 2π +
+                                           
+                                                                                                   Γ60 /Γ56
+VALUE                                    DOCUMENT ID               TECN       COMMENT
+0.14± 0.09 ± 0.07                        LINK                05F FOCS         γ nucleus, E γ ≈ 180 GeV
+
+Γ Λ π − 2π + nonresonant /Γ Λ π − 2π +
+                                      
+                                                                                                   Γ61 /Γ56
+VALUE                      CL%           DOCUMENT ID               TECN       COMMENT
+<0.3                       90            LINK                05F FOCS         γ nucleus, E γ ≈ 180 GeV
+
+Γ Λ π − π 0 2π + total /Γ p K − π +
+                                   
+                                                                                                        Γ62 /Γ3
+VALUE                           EVTS         DOCUMENT ID               TECN      COMMENT
+0.36± 0.09 ± 0.09    50     1 CRONIN-HEN...03 CLE3 e + e − ≈ Υ(4S)
+  1 CRONIN-HENNESSY 03 ﬁnds this channel to be dominantly Λ η π + and Λ ω π + ; see
+    below.
+
+Γ Λ π + ω /Γ p K − π +
+                      
+                                                                                                        Γ63 /Γ3
+        Unseen decay modes of the ω are included.
+VALUE                           EVTS         DOCUMENT ID               TECN      COMMENT
+0.24± 0.06 ± 0.06                32          CRONIN-HEN...03           CLE3      e + e − ≈ Υ(4S)
+
+Γ Λ π − π 0 2π + , no η or ω /Γ p K − π +
+                                         
+                                                                                                        Γ64 /Γ3
+VALUE                           CL%          DOCUMENT ID               TECN      COMMENT
+<0.13                           90           CRONIN-HEN...03           CLE3      e + e − ≈ Υ(4S)
+
+Γ Λ π + η /Γtotal
+         
+                                                                                                         Γ65 /Γ
+VALUE (units 10−2 ) EVTS               DOCUMENT ID             TECN       COMMENT
+1.92± 0.06 OUR FIT
+1.94± 0.07 ± 0.01 1.3k        ABLIKIM         25AN BES3 e + e − , 4.600–4.843 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.84± 0.21 ± 0.15       154            ABLIKIM           19Y BES3         Superseded by ABLIKIM 25AN
+
+Γ Λ π + η /Γ p K − π +
+                      
+                                                                                                        Γ65 /Γ3
+        Unseen decay modes of the η are included.
+VALUE                           EVTS         DOCUMENT ID               TECN      COMMENT
+0.301± 0.010 OUR FIT
+0.295± 0.014 OUR AVERAGE
+0.293± 0.003 ± 0.014  51k                    LEE          21A BELL               e + e − ≈ Υ(nS)
+0.41 ± 0.17 ± 0.10     11                    CRONIN-HEN...03 CLE3                e + e − ≈ Υ(4S)
+0.35 ± 0.05 ± 0.06    116                    AMMAR        95 CLE2                e + e − ≈ Υ(4S)
+
+https://pdg.lbl.gov                          Page 19                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Σ (1385)+ η /Γtotal
+             
+                                                                                                         Γ66 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.91± 0.18 ± 0.09                54          ABLIKIM            19Y BES3         Superseded by AB-
+                                                                                   LIKIM 25AN
+
+Γ Σ (1385)+ η /Γ Λ π + η
+                        
+                                                                                                   Γ66 /Γ65
+VALUE                       EVTS           DOCUMENT ID               TECN      COMMENT
+0.349± 0.031 ± 0.006 1.3k        1,2 ABLIKIM         25AN BES3 e + e − , 4.600–4.843 GeV
+  1 ABLIKIM 25AN reports [Γ Λ+ → Σ (1385)+ η /Γ Λ+ → Λ π + η ] × [B(Σ (1385) →
+                                                    
+                                 c                        c
+    Λ π)] = (30.4 ± 2.6 ± 0.7) × 10−2 which we divide by our best (shown rounded) value
+    B(Σ (1385) → Λ π) = (87.0 ± 1.5) × 10−2 . Our ﬁrst error is their experiment’s error
+    and our second error is the systematic error from using our best (shown rounded) value.
+  2 Amplitude analysis of Λ+ → Λ π + η with four components.
+                            c
+
+Γ Σ (1385)+ η /Γ p K − π +
+                          
+                                                                                                        Γ66 /Γ3
+        Unseen decay modes of the Σ (1385)+ and η are included.
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.190± 0.016 OUR AVERAGE
+0.192± 0.006 ± 0.016  29k                    LEE                21A BELL         e + e − ≈ Υ(nS)
+0.17 ± 0.04 ± 0.03     54                    AMMAR              95 CLE2          e + e − ≈ Υ(4S)
+
+Γ Λ a0 (980)+ , a+    +        +
+                                 
+                 0 → π η /Γ Λ π η                                                                  Γ67 /Γ65
+VALUE (units 10−2 )         EVTS           DOCUMENT ID               TECN      COMMENT
+54.0± 8.4± 2.6          1.3k            1 ABLIKIM25AN BES3 e + e − , 4.600–4.843 GeV
+  1 Amplitude analysis of Λ+ → Λ π + η with four components.
+                           c
+
+Γ Λ(1670)π + , Λ(1670) → Λ η /Γ Λ π + η
+                                       
+                                                                                                   Γ68 /Γ65
+VALUE (units 10−2 )         EVTS           DOCUMENT ID               TECN      COMMENT
+14.1± 2.8± 1.2          1.3k            1 ABLIKIM25AN BES3 e + e − , 4.600–4.843 GeV
+  1 Amplitude analysis of Λ+ → Λ π + η with four components.
+                           c
+
+Γ Λ K + K 0 /Γtotal
+           
+                                                                                                         Γ69 /Γ
+VALUE (units 10−3 )     EVTS           DOCUMENT ID                TECN      COMMENT
+5.9 ± 0.5 OUR FIT Error includes scale factor of 1.2.
+6.14± 0.52 ± 0.26              1 ABLIKIM        25BN BES3 e + e − at 4.600–4.699 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+6.08± 0.60 ± 0.32 0.13k        2 ABLIKIM        25AR BES3 e + e − at 4.600–4.699 GeV,
+                                                                  Λ → p π−
+6.24± 0.92 ± 0.30      68      3  ABLIKIM                       +
+                                                25BN BES3 e e − at 4.600–4.699 GeV,
+                                                                  Λ via m2
+                                                                          miss
+  1 ABLIKIM 25BN reports B(Λ+ → Λ K + K 0 ) = (3.07 ± 0.26 ± 0.13) × 10−3 , which we
+                                c            S
+    have multiplied by 2, as a combination of their result with ABLIKIM 25AR, taking into
+    account a small overlap of the two samples.
+  2 ABLIKIM 25AR reports B(Λ+ → Λ K + K 0 ) = (3.04 ± 0.30 ± 0.16) × 10−3 , which we
+                                c            S
+    have multiplied by 2.
+
+https://pdg.lbl.gov                          Page 20                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  3 ABLIKIM 25BN reports B(Λ+ → Λ K + K 0 ) = (3.12 ± 0.46 ± 0.15) × 10−3 , which we
+                            c           S
+    have multiplied by 2.
+
+Γ Λ K + K 0 /Γ p K − π +
+                        
+                                                                                                       Γ69 /Γ3
+VALUE                      EVTS           DOCUMENT ID               TECN      COMMENT
+0.093± 0.007 OUR FIT Error includes scale factor of 1.2.
+0.131± 0.020 OUR AVERAGE
+0.142± 0.018 ± 0.022 251       LINK             05F FOCS                      γ nucleus, E γ ≈ 180 GeV
+0.12 ± 0.02 ± 0.02            59          AMMAR              95     CLE2      e + e − ≈ Υ(4S)
+
+Γ Λ K + K 0 /Γ Λ π +
+                    
+                                                                                                  Γ69 /Γ50
+VALUE                              EVTS           DOCUMENT ID               TECN      COMMENT
+0.45 ± 0.04 OUR FIT Error includes scale factor of 1.2.
+0.395± 0.026 ± 0.036 460 ± 30        AUBERT           07U BABR e + e − ≈ Υ(4S)
+
+Γ Ξ (1690)0 K + , Ξ ∗0 → Λ K 0 /Γ Λ K + K 0
+                                           
+                                                                                                  Γ70 /Γ69
+VALUE                      EVTS           DOCUMENT ID              TECN      COMMENT
+0.28± 0.07 OUR AVERAGE
+0.32± 0.10 ± 0.04 84 ± 24                 LINK               05F FOCS        γ nucleus, E γ ≈ 180 GeV
+0.26± 0.08 ± 0.03             93          ABE                02C BELL        e + e − ≈ Υ(4S)
+
+Γ Σ 0 π + /Γtotal
+         
+                                                                                                        Γ71 /Γ
+VALUE (%)             EVTS           DOCUMENT ID               TECN       COMMENT
+1.29± 0.05 OUR FIT Error includes scale factor of 1.1.
+1.25± 0.07 OUR AVERAGE
+1.22± 0.08 ± 0.07 343       ABLIKIM          22S BES3                     e + e − at 4.612–4.699 GeV
+1.27± 0.08 ± 0.03 522       ABLIKIM          16 BES3                      e + e − → Λc Λc , 4.599 GeV
+
+Γ Σ 0 π + /Γ p K − π +
+                      
+                                                                                                       Γ71 /Γ3
+VALUE                     EVTS          DOCUMENT ID                TECN      COMMENT
+0.203± 0.009 OUR FIT Error includes scale factor of 1.1.
+0.20 ± 0.04 OUR AVERAGE
+0.21 ± 0.02 ± 0.04  196       AVERY            94 CLE2                       e + e − ≈ Υ(3S),Υ(4S)
+0.17 ± 0.06 ± 0.04            ALBRECHT         92 ARG                        e + e − ≈ 10.4 GeV
+
+Γ Σ 0 π + /Γ Λ π +
+                  
+                                                                                                  Γ71 /Γ50
+VALUE                       EVTS        DOCUMENT ID                TECN      COMMENT
+0.98 ± 0.04 OUR FIT
+0.98 ± 0.05 OUR AVERAGE
+0.977± 0.015 ± 0.051 33k                AUBERT              07U BABR e + e − ≈ Υ(4S)
+1.09 ± 0.11 ± 0.19   750                LINK                05F FOCS γ nucleus, E γ ≈ 180 GeV
+
+Γ Σ 0 π + η /Γ p K − π +
+                        
+                                                                                                       Γ72 /Γ3
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+0.120± 0.006 ± 0.010          17k           LEE                21A BELL         e + e − ≈ Υ(nS)
+
+Γ Σ + π 0 /Γtotal
+         
+                                                                                                        Γ73 /Γ
+VALUE (%)             EVTS           DOCUMENT ID               TECN       COMMENT
+1.27± 0.10 OUR FIT Error includes scale factor of 1.1.
+1.18± 0.10 ± 0.03 309       ABLIKIM          16 BES3                      e + e − → Λc Λc , 4.599 GeV
+
+
+https://pdg.lbl.gov                         Page 21                       Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Σ + π 0 /Γ p K − π +
+                      
+                                                                                                        Γ73 /Γ3
+VALUE                         EVTS           DOCUMENT ID                TECN     COMMENT
+0.200± 0.015 OUR FIT           Error includes scale factor of 1.1.
+0.20 ± 0.03 ± 0.03               93        KUBOTA           93 CLE2              e + e − ≈ Υ(4S)
+
+Γ Σ + η /Γ p K − π +
+                    
+                                                                                                        Γ74 /Γ3
+        Unseen decay modes of the η are included.
+VALUE                         EVTS           DOCUMENT ID                TECN     COMMENT
+0.11± 0.03 ± 0.02                 26         AMMAR              95      CLE2     e + e − ≈ Υ(4S)
+
+Γ Σ + η /Γ Σ + π 0
+                  
+                                                                                                   Γ74 /Γ73
+VALUE                      EVTS          DOCUMENT ID               TECN      COMMENT
+0.267± 0.026 OUR AVERAGE
+0.305± 0.046 ± 0.007 122                 ABLIKIM                e + e − at 4.600–4.699 GeV
+                                                            25CO BES3
+0.25 ± 0.03 ± 0.01   700                 LI                     e + e − at/near Υ(nS),
+                                                            23A BELL
+                                                                   n=1,...,5
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.35 ± 0.16 ± 0.02     15       1 ABLIKIM       19X BES3 Superseded by AB-
+                                                                   LIKIM 25CO
+  1 ABLIKIM 19X report evidence for the observation of the decay Λ+ → Σ + η at 2.5σ
+                                                                       c
+    signiﬁcance.
+
+Γ Σ + η ′ /Γ Σ + π 0
+                    
+                                                                                                   Γ75 /Γ73
+VALUE                         EVTS           DOCUMENT ID                TECN     COMMENT
+0.33± 0.06 ± 0.02              300           LI                 23A BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+
+Γ Σ + η ′ /Γ Σ + ω
+                  
+                                                                                                   Γ75 /Γ82
+VALUE                       EVTS         DOCUMENT ID               TECN      COMMENT
+0.336± 0.094 ± 0.037    22        ABLIKIM       25CO BES3 e + e − at 4.600–4.699 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.86 ± 0.34 ± 0.04      13      1 ABLIKIM       19X BES3 Superseded by AB-
+                                                                   LIKIM 25CO
+  1 ABLIKIM 19X report evidence for the observation of the decay Λ+ → Σ + η ′ at 3.2σ
+                                                                       c
+    signiﬁcance.
+
+Γ Σ + π + π − /Γtotal
+             
+                                                                                                         Γ76 /Γ
+VALUE (%)              EVTS            DOCUMENT ID              TECN       COMMENT
+4.57± 0.18 OUR FIT Error includes scale factor of 1.1.
+4.25± 0.24 ± 0.20 1156      ABLIKIM          16 BES3                       e + e − → Λc Λc , 4.599 GeV
+
+Γ Σ + π + π − /Γ p K − π +
+                          
+                                                                                                        Γ76 /Γ3
+VALUE                           EVTS           DOCUMENT ID                TECN      COMMENT
+0.716± 0.019 OUR FIT
+0.720± 0.024 OUR AVERAGE
+0.719± 0.003 ± 0.024     2.7M        BERGER           18 BELL e + e − ≈ Υ(4S)
+0.74 ± 0.07 ± 0.09         487       KUBOTA           93 CLE2 e + e − ≈ Υ(4S)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.72 ± 0.14            47 ± 9        VAZQUEZ-JA...08 SELX Σ − nucleus, 600 GeV
+     + 0.18
+0.54 −                             11          BARLAG              92     NA32      π − Cu 230 GeV
+       0.15
+
+https://pdg.lbl.gov                          Page 22                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Σ + ρ0 /Γ p K − π +
+                     
+                                                                                                        Γ77 /Γ3
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<0.27                          95            KUBOTA             93     CLE2      e + e − ≈ Υ(4S)
+
+Γ Σ − 2π + /Γtotal
+          
+                                                                                                         Γ78 /Γ
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      COMMENT
+1.87± 0.18 OUR FIT
+1.81± 0.17 ± 0.09                161         ABLIKIM            17Y BES3         e + e − at 4.6 GeV
+
+Γ Σ − 2π + /Γ p K − π +
+                       
+                                                                                                        Γ78 /Γ3
+VALUE                            EVTS          DOCUMENT ID                TECN      COMMENT
+0.294± 0.028 OUR FIT
+0.314± 0.067         30 ± 6                    VAZQUEZ-JA...08            SELX      Σ − nucleus, 600 GeV
+
+Γ Σ − 2π + /Γ Σ + π + π −
+                         
+                                                                                                   Γ78 /Γ76
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.41± 0.04 OUR FIT
+0.53± 0.15 ± 0.07                56          FRABETTI           94E E687         γ Be, E γ 220 GeV
+
+Γ Σ 0 π + π 0 /Γ p K − π +
+                          
+                                                                                                        Γ79 /Γ3
+VALUE                       EVTS           DOCUMENT ID               TECN      COMMENT
+0.56 ± 0.05 OUR AVERAGE                 Error includes scale factor of 1.5.
+0.575± 0.005 ± 0.036 2.7M                  BERGER           18 BELL e + e − ≈ Υ(4S)
+0.36 ± 0.09 ± 0.10     117                 AVERY            94 CLE2 e + e − ≈ Υ(3S),Υ(4S)
+
+Γ Σ + π 0 π 0 /Γ p K − π +
+                          
+                                                                                                        Γ80 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.247± 0.006 ± 0.019          925k           BERGER             18     BELL      e + e − ≈ Υ(4S)
+
+Γ Σ 0 π − 2π + /Γ p K − π +
+                           
+                                                                                                        Γ81 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.18± 0.05 OUR FIT
+0.21± 0.05 ± 0.05                90          AVERY              94     CLE2      e+ e− ≈
+                                                                                    Υ(3S),Υ(4S)
+
+Γ Σ 0 π − 2π + /Γ Λ π − 2π +
+                            
+                                                                                                   Γ81 /Γ56
+VALUE                     EVTS          DOCUMENT ID                TECN      COMMENT
+0.31± 0.08 OUR FIT
+0.26± 0.06 ± 0.09  480                  LINK                05F FOCS         γ nucleus, E γ ≈ 180 GeV
+
+Γ Σ + ω /Γtotal
+       
+                                                                                                         Γ82 /Γ
+VALUE (%)              EVTS            DOCUMENT ID              TECN       COMMENT
+1.72± 0.20 OUR FIT
+1.56± 0.20 ± 0.07  157                 ABLIKIM            16    BES3       e + e − → Λc Λc , 4.599 GeV
+
+Γ Σ + ω /Γ p K − π +
+                    
+                                                                                                        Γ82 /Γ3
+        Unseen decay modes of the ω are included.
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.270± 0.030 OUR FIT
+0.54 ± 0.13 ± 0.06               107         KUBOTA             93     CLE2      e + e − ≈ Υ(4S)
+
+
+https://pdg.lbl.gov                          Page 23                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Σ − π 0 2π + /Γtotal
+              
+                                                                                                         Γ83 /Γ
+VALUE (%)                      EVTS          DOCUMENT ID                TECN     COMMENT
+2.11± 0.33 ± 0.14                88          ABLIKIM            17Y BES3         e + e − at 4.6 GeV
+
+Γ Σ 0 K 0S K + /Γtotal
+              
+                                                                                                         Γ84 /Γ
+VALUE                    CL%           DOCUMENT ID               TECN      COMMENT
+<1.28 × 10−3             90            ABLIKIM            25BN BES3        e + e − at 4.600–4.699 GeV,
+                                                                              Σ 0 via m2
+                                                                                        miss
+
+Γ Σ + K + K − /Γ p K − π +
+                          
+                                                                                                        Γ85 /Γ3
+VALUE                          EVTS          DOCUMENT ID                TECN     COMMENT
+0.057± 0.005 OUR FIT
+0.070± 0.011 ± 0.011             59          AVERY              93      CLE2     e + e − ≈ 10.5 GeV
+
+Γ Σ + K + K − /Γ Σ + π + π −
+                            
+                                                                                                   Γ85 /Γ76
+VALUE (units 10−2 )       EVTS          DOCUMENT ID                TECN      COMMENT
+8.0 ± 0.7 OUR FIT
+7.8 ± 0.7 OUR AVERAGE
+8.38± 0.93 ± 0.44 110                   ABLIKIM             23BY BES3        e + e − at 4.600–4.699 GeV
+7.6 ± 0.7 ± 0.9   246                   ABE                 02C BELL         e + e − ≈ Υ(4S)
+7.1 ± 1.1 ± 1.1   103                   LINK                02G FOCS         γ nucleus, ≈ 180 GeV
+
+Γ Σ + K + K − (non-φ) /Γ Σ + π + π −
+                                    
+                                                                                                   Γ86 /Γ76
+VALUE                     EVTS          DOCUMENT ID                TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.38± 0.79 ± 0.21     75       1 ABLIKIM        23BY BES3 e + e − at 4.600–4.699 GeV
+  1 We do not include this measurement in our average because it is highly correlated to
+    the relative branching fractions B(Λc → Σ + K + K − ) / B(Λc → Σ + π + π − ) and
+    B(Λc → Σ + φ) / B(Λc → Σ + π + π − ) measured in the same analysis (which we do
+    use). Although the measurements are done on the same data, ABLIKIM 23BY do not
+    obtain exactly B(Λc → Σ + φ)·B(φ → K + K − ) / B(Λc → Σ + π + π − ) + B(Λ+ →
+                                                                                   c
+    Σ + K + K − (non-φ)) / B(Λc → Σ + π + π − ) = B(Λc → Σ + K + K − ) / B(Λc →
+    Σ + π + π − ).
+
+Γ Σ + φ /Γ p K − π +
+                    
+                                                                                                        Γ87 /Γ3
+        Unseen decay modes of the φ are included.
+VALUE                          EVTS          DOCUMENT ID                TECN     COMMENT
+0.063± 0.007 OUR FIT
+0.069± 0.023 ± 0.016             26          AVERY              93      CLE2     e + e − ≈ 10.5 GeV
+
+Γ Σ + φ /Γ Σ + π + π −
+                      
+                                                                                                   Γ87 /Γ76
+        Unseen decay modes of the φ are included.
+VALUE (units 10−2 )       EVTS          DOCUMENT ID                TECN      COMMENT
+8.8± 1.0 OUR FIT
+8.8± 1.0 OUR AVERAGE
+9.2± 1.8± 0.7     119                   ABLIKIM             23BY BES3        e + e − at 4.600–4.699 GeV
+8.5± 1.2± 1.2     129                   ABE                 02C BELL         e + e − ≈ Υ(4S)
+8.7± 1.6± 0.6      57                   LINK                02G FOCS         γ nucleus, ≈ 180 GeV
+
+
+
+https://pdg.lbl.gov                          Page 24                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Ξ (1690)0 K + , Ξ ∗0 → Σ + K − /Γ Σ + π + π −
+                                               
+                                                                                                   Γ88 /Γ76
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.023± 0.005 OUR AVERAGE
+0.023± 0.005 ± 0.005  75                     ABE                02C BELL         e + e − ≈ Υ(4S)
+0.022± 0.006 ± 0.006  34                     LINK               02G FOCS         γ nucleus, ≈ 180 GeV
+
+Γ Σ + K + K − nonresonant /Γ Σ + π + π −
+                                        
+                                                                                                   Γ89 /Γ76
+VALUE                           CL%          DOCUMENT ID               TECN      COMMENT
+<0.018                  90          ABE             02C BELL e + e − ≈ Υ(4S)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.028                          90           LINK               02G FOCS         γ nucleus, ≈ 180 GeV
+
+Γ Ξ 0 K + /Γtotal
+         
+                                                                                                         Γ90 /Γ
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      COMMENT
+5.5 ± 0.7 OUR FIT
+5.90± 0.86 ± 0.39                68          ABLIKIM            18Y BES3         e + e − at 4.6 GeV
+
+Γ Ξ 0 K + π 0 /Γtotal
+             
+                                                                                                         Γ92 /Γ
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      COMMENT
+7.79± 1.46 ± 0.95                79          ABLIKIM            24AW BES3        6.1 fb−1 at e + e − ,
+                                                                                    4.60–4.84 GeV
+
+Γ Ξ 0 K 0S π + /Γtotal
+              
+                                                                                                         Γ93 /Γ
+VALUE (units 10−3 )     EVTS           DOCUMENT ID                TECN      COMMENT
+3.70± 0.60 ± 0.21          13          ABLIKIM             25BN BES3        e + e − at 4.600–4.699 GeV,
+                                                                               Ξ 0 via m2miss
+
+Γ Ξ 0 K + /Γ p K − π +
+                      
+                                                                                                        Γ90 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.087± 0.011 OUR FIT
+0.078± 0.013 ± 0.013             56          AVERY              93     CLE2      e + e − ≈ 10.5 GeV
+
+Γ Ξ − K + π + /Γtotal
+             
+                                                                                                         Γ91 /Γ
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      COMMENT
+7.74± 0.76 ± 0.54               128          ABLIKIM            24AY BES3        4.5 fb−1 ,e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ Ξ − K + π + /Γ p K − π +
+                          
+                                                                                                        Γ91 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.099± 0.008 OUR FIT
+0.098± 0.021 OUR AVERAGE               Error includes scale factor of 1.3. See the ideogram below.
+0.14 ± 0.03 ± 0.02               34         ALBRECHT         95B ARG       e + e − ≈ 10.4 GeV
+0.079± 0.013 ± 0.014             60         AVERY            93 CLE2 e + e − ≈ 10.5 GeV
+0.15 ± 0.04 ± 0.03               30         AVERY            91 CLEO e + e − 10.5 GeV
+
+
+
+
+https://pdg.lbl.gov                          Page 25                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+           WEIGHTED AVERAGE
+           0.098±0.021 (Error scaled by 1.3)
+
+
+                                                  Values above of weighted average, error,
+                                                  and scale factor are based upon the data in
+                                                  this ideogram only. They are not neces-
+                                                  sarily the same as our ‘best’ values,
+                                                  obtained from a least-squares constrained fit
+                                                  utilizing measurements of other (related)
+                                                  quantities as additional information.
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           ALBRECHT             95B   ARG    1.3
+                                                           AVERY                93    CLE2   1.0
+                                                           AVERY                91    CLEO   1.1
+                                                                                             3.4
+                                                                        (Confidence Level = 0.180)
+
+          0       0.05 0.1  0.15   0.2                0.25      0.3      0.35
+
+           Γ Ξ − K + π + /Γ p K − π +
+                                   
+
+
+Γ Ξ − K + π + /Γ Λ π +
+                      
+                                                                                                   Γ91 /Γ50
+VALUE                               EVTS          DOCUMENT ID                TECN      COMMENT
+0.48 ± 0.04 OUR FIT
+0.480± 0.016 ± 0.039 2665 ± 84                    AUBERT              07U BABR e + e − ≈ Υ(4S)
+
+Γ Ξ (1530)0 K + /Γtotal
+               
+                                                                                                         Γ94 /Γ
+VALUE (units 10−3 )      EVTS          DOCUMENT ID                TECN      COMMENT
+4.9 ± 0.6 OUR FIT Error includes scale factor of 1.1.
+5.4 ± 0.6 OUR AVERAGE
+5.99± 1.04 ± 0.32           ABLIKIM         24AW BES3         e + e − at 4.60–4.84 GeV,
+                                                                  Ξ (1530) → Ξ 0 π 0
+5.03± 0.77 ± 0.20    54        ABLIKIM                          +
+                                               24AY BES3 e e − at 4.600–4.699 GeV,
+                                                                  Ξ (1530) → Ξ − π +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+5.02± 0.99 ± 0.31    60        ABLIKIM         18Y BES3 e + e − at 4.6 GeV
+
+Γ Ξ (1530)0 K + /Γ p K − π +
+                            
+                                                                                                        Γ94 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN       COMMENT
+0.077± 0.009 OUR FIT
+0.053± 0.016 ± 0.010      24        AVERY           93 CLE2 e + e − ≈ 10.5 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.05 ± 0.02 ± 0.01        11        ALBRECHT        95B ARG         e + e − ≈ 10.4 GeV
+
+
+
+
+https://pdg.lbl.gov                          Page 26                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+           Hadronic modes with a hyperon: S = 0 ﬁnal states
+Γ Λ K + /Γ Λ π +
+                
+                                                                                                   Γ95 /Γ50
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      COMMENT
+4.96± 0.14 OUR AVERAGE
+5.05± 0.13 ± 0.09    11k                     LI                     e + e − at/near Υ(nS),
+                                                                23C BELL
+                                                                       n=1,...,5
+4.78± 0.34 ± 0.20                   ABLIKIM         22BC BES3 6.44 fb−1 , e + e − at
+                                                                       4.599–4.950 GeV
+4.4 ± 0.4 ± 0.3         1.1k        AUBERT          07U BABR e + e − ≈ Υ(4S)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+7.4 ± 1.0 ± 1.2          265        ABE             02C BELL e + e − ≈ Υ(4S)
+
+Γ Λ K + π + π − /Γ Λ π +
+                        
+                                                                                                   Γ99 /Γ50
+VALUE                           CL%          DOCUMENT ID               TECN      COMMENT
+<4.1 × 10−2                     90           AUBERT             07U BABR e + e − ≈ Υ(4S)
+
+Γ Λ K + π + π − /Γ Λ π − 2π +
+                             
+                                                                                                   Γ99 /Γ56
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+1.13± 0.41 ± 0.06                            ABLIKIM            24AU BES3        6.4 fb−1 , e + e − at
+                                                                                    4.600–4.950 GeV
+
+Γ Λ K + π 0 /Γ Λ π + π 0
+                        
+                                                                                                   Γ96 /Γ52
+VALUE (units 10−2 )                          DOCUMENT ID               TECN      COMMENT
+2.09± 0.39 ± 0.07                            ABLIKIM            24AU BES3        6.4 fb−1 , e + e − at
+                                                                                    4.600–4.950 GeV
+
+Γ Λ K + π 0 /Γtotal
+           
+                                                                                                        Γ96 /Γ
+VALUE                           CL%          DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<2.0 × 10−3             90          ABLIKIM         24AW BES3 6.1 fb−1 at e + e − ,
+                                                                       4.60–4.84 GeV
+
+Γ Λ K 0S π + /Γtotal
+            
+                                                                                                        Γ97 /Γ
+VALUE (units 10−3 )     EVTS           DOCUMENT ID                TECN      COMMENT
+1.73± 0.26 ± 0.10       0.17k         1 ABLIKIM            25AR BES3        e + e − at 4.600–4.699 GeV,
+                                                                               Λ → p π−
+  1 ABLIKIM 25AR ﬁnds evidence of a Λ+ → Λ K ∗ (892)+ resonant contribution at 4.7σ,
+                                        c
+    and estimates the branching fraction for this intermediate decay under three diﬀerent
+    interference scenarios.
+
+Γ Λ K ∗ (892)K ∗+ → K 0S π + /Γtotal
+                            
+                                                                                                        Γ98 /Γ
+VALUE                   EVTS           DOCUMENT ID                TECN      COMMENT
+seen                       80         1 ABLIKIM                 e + e − at 4.600–4.699 GeV,
+                                                           25AR BES3
+                                                                    Λ → p π−
+  1 ABLIKIM 25AR ﬁnds evidence of a Λ+ → Λ K ∗ (892)+ resonant contribution in Λ+ →
+                                          c                                             c
+    Λ K 0 π + at 4.7σ, and estimates the branching fraction for this intermediate decay under
+        S
+    three diﬀerent interference scenarios.
+
+
+
+https://pdg.lbl.gov                          Page 27                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Σ 0 K + /Γ Σ 0 π +
+                    
+                                                                                                  Γ100 /Γ71
+VALUE (units 10−2 )            EVTS        DOCUMENT ID              TECN       COMMENT
+2.90± 0.21 OUR AVERAGE Error includes scale factor of 1.4. See the ideogram below.
+2.78± 0.15 ± 0.05     2.4k  LI             23C BELL e + e − at/near Υ(nS),
+                                                             n=1,...,5
+3.61± 0.73 ± 0.05       43  ABLIKIM        22AK BES3 e + e − at 4.178–4.226 GeV
+3.8 ± 0.5 ± 0.3   366 ± 52  AUBERT         07U BABR e + e − ≈ Υ(4S)
+5.6 ± 1.4 ± 0.8         75  ABE            02C BELL e + e − ≈ Υ(4S)
+
+           WEIGHTED AVERAGE
+           2.90±0.21 (Error scaled by 1.4)
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           LI                  23C BELL          0.6
+                                                           ABLIKIM             22AK BES3         0.9
+                                                           AUBERT              07U BABR          2.4
+                                                           ABE                 02C BELL
+                                                                                             3.9
+                                                                        (Confidence Level = 0.142)
+
+          2        3        4       5         6                            7
+
+           Γ Σ 0 K + /Γ Σ 0 π + (units 10−2 )
+                            
+
+
+Γ Σ + K 0S /Γ Σ + π + π −
+                         
+                                                                                                  Γ101 /Γ76
+VALUE (units 10−2 )         EVTS        DOCUMENT ID                 TECN       COMMENT
+1.06± 0.31 ± 0.04            44         ABLIKIM             22AK BES3          e + e − at 4.178–4.226 GeV
+
+Γ Σ 0 K + π 0 /Γtotal
+             
+                                                                                                        Γ103 /Γ
+VALUE                 CL%          DOCUMENT ID               TECN      COMMENT
+<5.0 × 10−4    90        1 ABLIKIM          25BL BES3 4.5 fb−1 e + e − , 4.60–4.70 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.8 × 10−3    90        2 ABLIKIM          24AW BES3 6.1 fb−1 e + e − , 4.60–4.84 GeV
+  1 Uses a single-tag method.
+  2 Uses a double-tag method.
+
+Γ Σ 0 K + π + π − /Γtotal
+                 
+                                                                                                        Γ102 /Γ
+VALUE                 CL%          DOCUMENT ID               TECN      COMMENT
+<6.5 × 10−4           90           ABLIKIM            25BL BES3        4.5 fb−1 e + e − , 4.60–4.70 GeV
+
+
+https://pdg.lbl.gov                          Page 28                       Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Σ 0 K + π + π − /Γ Σ 0 π +
+                            
+                                                                                                  Γ102 /Γ71
+VALUE                           CL%           DOCUMENT ID              TECN      COMMENT
+<2.0 × 10−2                     90            AUBERT            07U BABR e + e − ≈ Υ(4S)
+
+Γ Σ + K + π − /Γ Σ + π + π −
+                            
+                                                                                                  Γ104 /Γ76
+VALUE (units 10−2 )       EVTS            DOCUMENT ID              TECN      COMMENT
+4.5 ± 0.5 OUR AVERAGE
+4.44± 0.52 ± 0.25 224                     ABLIKIM           23BY BES3        e + e − at 4.600–4.699 GeV
+4.7 ± 1.1 ± 0.8   105                     ABE               02C BELL         e + e − ≈ Υ(4S)
+
+Γ Σ + K ∗ (892)0 /Γ Σ + π + π −
+                               
+                                                                                                  Γ105 /Γ76
+        Unseen decay modes of the K ∗ (892)0 are included.
+VALUE                           EVTS          DOCUMENT ID              TECN      COMMENT
+0.078± 0.018 ± 0.013              49          LINK              02G FOCS         γ nucleus, ≈ 180 GeV
+
+Γ Σ + K + π − π 0 /Γ Σ + π + π −
+                                
+                                                                                                  Γ106 /Γ76
+VALUE                      CL%             DOCUMENT ID             TECN       COMMENT
+<2.5 × 10−2                90              ABLIKIM           23BY BES3        e + e − at 4.600–4.699 GeV
+
+Γ Σ − K + π + /Γ Σ + K ∗ (892)0
+                               
+                                                                                                Γ107 /Γ105
+VALUE                           CL%           DOCUMENT ID              TECN      COMMENT
+<0.35                           90            LINK              02G FOCS         γ nucleus, ≈ 180 GeV
+
+Γ Σ − K + π + /Γtotal
+             
+                                                                                                        Γ107 /Γ
+VALUE (units 10−4 )             EVTS          DOCUMENT ID              TECN      COMMENT
+3.8± 1.2± 0.2                     12          ABLIKIM           24AY BES3        4.5 fb−1 ,e + e − at
+                                                                                    4.600–4.699 GeV
+                     Doubly Cabibbo-suppressed modes
+Γ p K + π − /Γ p K − π +
+                        
+                                                                                                   Γ108 /Γ3
+VALUE (units 10−3 )             EVTS          DOCUMENT ID              TECN      COMMENT
+1.77± 0.27 OUR AVERAGE                 Error includes scale factor of 1.9.
+1.65± 0.15 ± 0.05                392          AAIJ              18V LHCB Λ0 → Λ+ µ− X
+                                                                          b      c
+2.35± 0.27 ± 0.21               3379          YANG              16 BELL At or near Υs
+
+                                          Semileptonic modes
+Γ Λ e + νe /Γtotal
+          
+                                                                                                        Γ109 /Γ
+VALUE (%)                       EVTS          DOCUMENT ID              TECN      COMMENT
+3.56± 0.11 ± 0.07                           1 ABLIKIM               4.5 fb−1 in e + e − at
+                                                                22AT BES3
+                                                                       4.600–4.699 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.63± 0.38 ± 0.20        104      2 ABLIKIM         15Y BES3 567 pb−1 , 4.599 GeV
+  1 Using Lattice QCD calculations for the form factors yields V
+                                                                cs = 0.936 ± 0.030.
+  2 Superseded by ABLIKIM 22AT.
+
+Γ Λ e + νe /Γ p K − π +
+                       
+                                                                                                   Γ109 /Γ3
+VALUE                                         DOCUMENT ID              TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.43± 0.08                      1,2 BERGFELD        94 CLE2 e + e − ≈ Υ(4S)
+
+https://pdg.lbl.gov                           Page 29                     Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+0.38± 0.14                       2,3 ALBRECHT      91G ARG      e + e − ≈ 10.4 GeV
+  1 BERGFELD 94 measures σ(e + e − → Λ+ X)·B(Λ+ → Λ e + ν ) = (4.87 ± 0.28 ±
+                                             c       c             e
+    0.69) pb.
+  2 To extract Γ(Λ+ → Λ e + ν )/Γ(Λ+ → p K − π + ), we use σ(e + e − → Λ+ X)·B(Λ →
+                  c           e      c                                    c        c
+    p K − π + ) = (11.2 ± 1.3) pb, which is the weighted average of measurements from
+    ARGUS (ALBRECHT 96E) and CLEO (AVERY 91).
+  3 ALBRECHT 91G measures σ(e + e − → Λ+ X)·B(Λ+ → Λ e + ν ) = (4.20 ± 1.28 ±
+                                              c       c            e
+    0.71) pb.
+
+Γ Λ π + π − e + νe /Γtotal
+                  
+                                                                                                        Γ110 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<3.9 × 10−4                    90            ABLIKIM            23AB BES3        4.5 fb−1 , e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ p K − e + νe /Γtotal
+              
+                                                                                                        Γ111 /Γ
+VALUE (units 10−3 )                          DOCUMENT ID               TECN      COMMENT
+0.88± 0.17 ± 0.07                            ABLIKIM            22BB BES         4.5 fb−1 in e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ p K 0S π − e + νe /Γtotal
+                   
+                                                                                                        Γ112 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<3.3 × 10−4                    90            ABLIKIM            23AB BES3        4.5 fb−1 , e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ Λ(1520)e + νe /Γtotal
+               
+                                                                                                        Γ113 /Γ
+VALUE (units 10−3 )           DOCUMENT ID              TECN      COMMENT
+1.02± 0.52 ± 0.11          1 ABLIKIM   22BB BES      4.5 fb−1 e + e − at 4.600–4.699 GeV
+  1 ABLIKIM 22BB reports B(Λ+ → Λ(1520) e + ν ) · B(Λ(1520) → p K − ) = (2.3 ± 1.2 ±
+                                c                e
+    0.2) × 10 , which is divided by the best value for B(Λ(1520) → p K − ) assuming the
+              −4
+    isospin limit 2 · B(Λ(1520) → p K − ) = B(Λ(1520) → N K ) = 0.45 ± 0.01.
+
+Γ Λ(1405)0 e + νe , Λ0 → p K − /Γtotal
+                              
+                                                                                                        Γ114 /Γ
+VALUE (units 10−3 )                          DOCUMENT ID               TECN      COMMENT
+0.42± 0.19 ± 0.04                            ABLIKIM            22BB BES         4.5 fb−1 in e + e − at
+                                                                                    4.600–4.699 GeV
+
+Γ Λ µ+ νµ /Γtotal
+         
+                                                                                                        Γ115 /Γ
+VALUE (%)                 EVTS          DOCUMENT ID                TECN      COMMENT
+3.48± 0.14 ± 0.10    752         ABLIKIM        23AT BES3 e + e − at 4.600–4.699 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.49± 0.46 ± 0.27     79       1 ABLIKIM        17D BES3 e + e − at 4.6 GeV
+  1 Superseded by ABLIKIM 23AT.
+
+Γ Λ µ+ νµ /Γ p K − π +
+                      
+                                                                                                   Γ115 /Γ3
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.40± 0.09                      1,2 BERGFELD        94 CLE2 e + e − ≈ Υ(4S)
+0.35± 0.20                      2,3 ALBRECHT        91G ARG         e + e − ≈ 10.4 GeV
+
+
+https://pdg.lbl.gov                          Page 30                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 BERGFELD 94 measures σ(e + e − → Λ+ X)·B(Λ+ → Λ µ+ ν ) = (4.43 ± 0.51 ±
+                                         c        c              µ
+    0.64) pb.
+  2 To extract Γ(Λ+ → Λ µ+ ν )/Γ(Λ+ → p K − π + ), we use σ(e + e − → Λ+ X)·B(Λ →
+                  c         µ     c                                    c       c
+       −   +
+    p K π ) = (11.2 ± 1.3) pb, which is the weighted average of measurements from
+    ARGUS (ALBRECHT 96E) and CLEO (AVERY 91).
+  3 ALBRECHT 91G measures σ(e + e − → Λ+ X)·B(Λ+ → Λ µ+ ν ) = (3.91 ± 2.02 ±
+                                          c        c             µ
+    0.90) pb.
+
+Γ Λ µ+ νµ /Γ Λ e + νe
+                     
+                                                                                                Γ115 /Γ109
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.96± 0.16 ± 0.04                 1 ABLIKIM         17D BES3 e + e − at 4.6 GeV
+  1 This is the ratio of the ABLIKIM 17D Λ µ+ ν branching fraction and the ABLIKIM 15Y
+                                                 e
+    Λ e + νe branching fraction (see above), and so is not an independent measurement.
+
+                                            Inclusive modes
+Γ e + anything /Γtotal
+              
+                                                                                                        Γ116 /Γ
+VALUE (%)                   EVTS           DOCUMENT ID               TECN      COMMENT
+4.06± 0.10 ± 0.09     4692        ABLIKIM         23AK BES3 e + e − at 4.6–4.698 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.95± 0.34 ± 0.09      214      1 ABLIKIM         18AF BES3 e + e − 4.6 GeV
+  1 Superseded by ABLIKIM 23AK.
+            
+Γ p anything /Γtotal                                                                                    Γ117 /Γ
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.50± 0.08 ± 0.14                    1 CRAWFORD 92 CLEO e + e − 10.5 GeV
+  1 This CRAWFORD 92 value includes protons from Λ decay. The value is model dependent,
+    but account is taken of this in the systematic error.
+            
+Γ n anything /Γtotal                                                                                    Γ118 /Γ
+VALUE (units 10−2 )         EVTS           DOCUMENT ID               TECN      COMMENT
+32.6± 1.6 OUR AVERAGE
+32.4± 0.7 ± 1.5         3105      1 ABLIKIM         23AS BES3 e + e − at 4.6–4.698 GeV
+50 ± 8 ± 14                       2 CRAWFORD 92 CLEO e + e − 10.5 GeV
+  1 ABLIKIM 23AS measures the antiparticle decay Λ− → n X .
+                                                      c
+  2 This CRAWFORD 92 value includes neutrons from Λ decay. The value is model depen-
+    dent, but account is taken of this in the systematic error.
+            
+Γ Λ anything /Γtotal                                                                                    Γ119 /Γ
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      COMMENT
+     + 2.8 ± 0.9
+38.2 − 2.2                       700         ABLIKIM            18E BES3         e + e − at 4.6 GeV
+
+Γ K 0S anything /Γtotal
+               
+                                                                                                        Γ120 /Γ
+VALUE (%)                 EVTS          DOCUMENT ID                TECN      COMMENT
+10.9± 0.2± 0.1      4.9k         ABLIKIM        25BH BES3 e + e − at 4.600–4.699 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ 9.9± 0.6 ± 0.4      478       1 ABLIKIM        20AJ BES3 e + e − at 4.6 GeV
+  1 Superseded by ABLIKIM 25BH.
+
+
+https://pdg.lbl.gov                          Page 31                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+         
+Γ 3prongs /Γtotal                                                                                       Γ121 /Γ
+VALUE                                   DOCUMENT ID               TECN      COMMENT
+0.24± 0.07 ± 0.04                       KAYIS-TOPAK...
+                                                    03            CHRS νµ emulsion, E =27 GeV
+
+                                     Rare or forbidden modes
+Γ p e + e − /Γtotal
+           
+                                                                                   Γ122 /Γ
+        A test for the ∆C=1 weak neutral current. Allowed by higher-order electroweak inter-
+        actions.
+VALUE                 CL%          EVTS          DOCUMENT ID                TECN      COMMENT
+<5.5 × 10−6           90     4.0 ± 7.1           LEES                11G BABR e + e − ≈ Υ(4S)
+
+Γ p µ+ µ− non-resonant /Γtotal
+                      
+                                                                                   Γ123 /Γ
+        A test for the ∆C=1 weak neutral current. Allowed by higher-order electroweak inter-
+        actions.
+VALUE                      CL%            DOCUMENT ID              TECN      COMMENT
+<2.9 × 10−8          90        1 AAIJ            24AI LHCB p p at 13 TeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<7.7 × 10−8          90        2 AAIJ            18N LHCB p p at 7,8 TeV
+<4.4 × 10−5          90          LEES            11G BABR e + e − ≈ Υ(4S)
+<3.4 × 10−4          90          KODAMA          95 E653 π − emulsion 600 GeV
+  1 AAIJ 24AI measures B(Λ+ → p µ+ µ− non-res)/B(Λ+ → p φ, φ → µ+ µ− ) < 0.09
+                           c                            c
+    (0.10) at 90% (95%) CL corresponding to a limit of 2.9 (3.2) 10−8 .
+  2 AAIJ 18N measures ratio to Λ+ → p φ, φ → µ+ µ− .
+                                c
+
+Γ p e + µ− /Γtotal
+          
+                                                                                                        Γ124 /Γ
+        A test of lepton family-number conservation.
+VALUE                 CL%           EVTS           DOCUMENT ID               TECN      COMMENT
+<9.9 × 10−6           90     − 0.7± 3.0            LEES                11G BABR e + e − ≈ Υ(4S)
+
+Γ p e − µ+ /Γtotal
+          
+                                                                                                        Γ125 /Γ
+        A test of lepton family-number conservation.
+VALUE                 CL%          EVTS          DOCUMENT ID                TECN      COMMENT
+<19 × 10−6            90     6.2 ± 4.9           LEES                11G BABR e + e − ≈ Υ(4S)
+
+Γ p 2e + /Γtotal
+        
+                                                                                                        Γ126 /Γ
+        A test of lepton- and baryon-number conservation.
+VALUE                 CL%           EVTS           DOCUMENT ID               TECN      COMMENT
+<2.7 × 10−6           90     − 1.5± 4.5            LEES                11G BABR e + e − ≈ Υ(4S)
+
+Γ p 2µ+ /Γtotal
+       
+                                                                                 Γ127 /Γ
+        A test of lepton- and baryon-number conservation and of lepton family-number con-
+        servation.
+VALUE                 CL%          EVTS          DOCUMENT ID                TECN      COMMENT
+<9.4 × 10−6           90     0.0 ± 2.2           LEES                11G BABR e + e − ≈ Υ(4S)
+
+Γ p e + µ+ /Γtotal
+          
+                                                                                 Γ128 /Γ
+        A test of lepton- and baryon-number conservation and of lepton family-number con-
+        servation.
+VALUE                 CL%           EVTS          DOCUMENT ID                TECN      COMMENT
+<16 × 10−6            90     10.1 ± 6.8           LEES                11G BABR e + e − ≈ Υ(4S)
+
+https://pdg.lbl.gov                          Page 32                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Σ − µ+ µ+ /Γtotal
+           
+                                                                                                        Γ129 /Γ
+        A test of lepton-number conservation.
+VALUE                 CL%       EVTS         DOCUMENT ID               TECN      COMMENT
+<7.0 × 10−4           90             0       KODAMA             95     E653      π − emulsion 600 GeV
+
+Γ Σ + γ /Γtotal
+       
+                                                                                                        Γ130 /Γ
+VALUE                      CL%           DOCUMENT ID               TECN       COMMENT
+<4.4 × 10−4                90            ABLIKIM             23Z BES3         e + e − at 4.600–4.699 GeV
+
+                                           Radiative modes
+Γ Σ + γ /Γ p K − π +
+                    
+                                                                                                   Γ130 /Γ3
+VALUE                           CL%          DOCUMENT ID               TECN      COMMENT
+<4.0 × 10−3                     90           LI                 23     BELL      e + e − → Υ(nS)
+
+                                             Exotic modes
+      
+Γ p γD /Γtotal                                                                                          Γ131 /Γ
+        Here γD stands for a dark photon.
+VALUE                           CL%          DOCUMENT ID               TECN      COMMENT
+<8.0 × 10−5                     90           ABLIKIM            22AR BES         4.5 fb−1 e + e − at
+                                                                                    4.600–4.699 GeV
+
+
+                                     Λ+
+                                      c DECAY PARAMETERS
+          See the review on “Baryon Decay Parameters.”
+
+α FOR Λ+
+       c → Λπ
+              +
+VALUE                           EVTS        DOCUMENT ID              TECN      COMMENT
+− 0.768± 0.015 OUR AVERAGE               Error includes scale factor of 3.4.
+− 0.785± 0.006 ± 0.003  26k              1 AAIJ           24AH LHCB p p at 13 TeV
+− 0.755± 0.005 ± 0.003 264k              2 LI             23C BELL e + e − ≈ Υ(nS), n=1,...,5
+− 0.80 ± 0.11 ± 0.02                       ABLIKIM        19AX BES3 e + e − at 4.6 GeV
+− 0.78 ± 0.16 ± 0.19                       LINK           06A FOCS γ A, E γ ≈ 180 GeV
+− 0.94 ± 0.21 ± 0.12      414            3 BISHAI         95 CLE2 e + e − ≈ Υ(4S)
+− 0.96 ± 0.42                              ALBRECHT 92 ARG               e + e − ≈ 10.4 GeV
+− 1.1 ± 0.4                86              AVERY          90B CLEO e + e − ≈ 10.6 GeV
+  1 AAIJ 24AH also reports the measurements of the decay parameters β and γ, the phase
+    diﬀerence ∆, the CP asymmetry Rβ and the CP average R ′ for Λc → Λ π and its
+                                                                β
+    charge-conjugated decay.
+  2 LI 23C obtained the value by a ﬁt for the product α × αavg , and dividing by the value
+                                                           Λ
+      avg
+    α     = 0.7542 ± 0.0026 reported in ABLIKIM 22AG.
+      Λ
+  3 BISHAI 95 actually gives α=− 0.94 + 0.21 + 0.12 , chopping the errors at the physical
+                                        − 0.06 − 0.06
+    limit − 1.0. However, for α ≈ − 1.0, some experiments should get unphysical values
+    (α < − 1.0), and for averaging with other measurements such values (or errors that
+    extend below − 1.0) should not be chopped.
+
+α FOR Λ+
+       c → Λρ
+              +
+VALUE                           EVTS         DOCUMENT ID               TECN      COMMENT
+− 0.763± 0.053 ± 0.045          8.9k         ABLIKIM            22BA BES3        e + e − at 4.6–4.7 GeV
+
+https://pdg.lbl.gov                          Page 33                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+α FOR Λ+    + 0
+       c → Σ π
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.484± 0.027 OUR AVERAGE
+− 0.48 ± 0.02 ± 0.02   7k                    LI                 23A BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+− 0.57 ± 0.10 ± 0.07                         ABLIKIM            19AX BES3        e + e − at 4.6 GeV
+− 0.45 ± 0.31 ± 0.06             89          BISHAI             95 CLE2          e + e − ≈ Υ(4S)
+
+α FOR Λ+    +
+       c → Σ η
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.99± 0.03 ± 0.05            700           LI                 23A BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+
+α FOR Λ+    + ′
+       c → Σ η
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.46± 0.06 ± 0.03            300           LI                 23A BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+
+α FOR Λ+    0 +
+       c → Σ π
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.466± 0.018 OUR AVERAGE
+− 0.463± 0.016 ± 0.008 105k                1 LI                 23C BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+− 0.73 ± 0.17 ± 0.07                 ABLIKIM         19AX BES3                   e + e − at 4.6 GeV
+  1 LI 23C obtained the value by a ﬁt for the product α × αavg , and dividing by the value
+                                                           Λ
+     avg
+    α     = 0.7542 ± 0.0026 reported in ABLIKIM 22AG.
+     Λ
+
+α FOR Λ+           + 0
+       c → Σ (1385) π
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.917± 0.069 ± 0.056         8.9k          ABLIKIM            22BA BES3        e + e − at 4.6–4.7 GeV
+
+α FOR Λ+           0 +
+       c → Σ (1385) π
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.789± 0.098 ± 0.056         8.9k          ABLIKIM            22BA BES3        e + e − at 4.6–4.7 GeV
+
+α FOR Λ+      +
+       c → Λ ℓ νℓ
+        The experiments don’t cover the complete (or same incomplete) M(Λ ℓ+ ) range, but
+        we average them together anyway.
+VALUE                       EVTS           DOCUMENT ID               TECN       COMMENT
+− 0.875± 0.033 OUR AVERAGE
+− 0.94 ± 0.07 ± 0.03   752       1 ABLIKIM        23AT BES3 e + e − , 4.600–4.699 GeV
+− 0.86 ± 0.03 ± 0.02 3201        2 HINSON         05 CLEO e + e − ≈ Υ(4S)
+− 0.91 ± 0.42 ± 0.25             3 ALBRECHT       94B ARG         e + e − ≈ 10 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+       + 0.09 + 0.06
+− 0.82 −                      700        4 CRAWFORD            95    CLE2       See HINSON 05
+         0.06 − 0.03
+       + 0.17 + 0.09
+− 0.89 −                      350        5 BERGFELD            94    CLE2       See CRAWFORD 95
+         0.11 − 0.05
+  1 ABLIKIM 23AT measures α of Λ+ → Λ µ+ ν decay over eight q 2 bins from zero to
+                                     c            µ
+    the kinematic endpoint. The value provided here is α , averaged over q 2 . The analysis
+    uses form factors extracted from a simultaneous ﬁt to electron and muon mode data.
+
+https://pdg.lbl.gov                          Page 34                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  2 HINSON 05 measures the form-factor ratio R ≡ f /f for Λ+ → Λ e + ν events to be
+                                                     2 1       c            e
+    − 0.31 ± 0.05 ± 0.04 and the pole mass to be 2.21 ± 0.08 ± 0.14 GeV/c2 , and from
+    these calculates α, averaged over q2 , where q2 = 0.67 (GeV/c)2 .
+  3 ALBRECHT 94B uses Λ e + and Λ µ+ events in the mass range 1.85 <M(Λ ℓ+ )< 2.20
+    GeV.
+  4 CRAWFORD 95 measures the form-factor ratio R ≡ f /f for Λ+ → Λ e + ν events to
+                                                        2 1       c            e
+                                                                       2
+    be − 0.25 ± 0.14 ± 0.08 and from this calculates α, averaged over q , to be the above.
+  5 BERGFELD 94 uses Λ e + events.
+
+α FOR Λ+     0
+       c → pKS
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.754± 0.008 ± 0.006   90k        AAIJ            24AH LHCB p p at 13 TeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  0.18 ± 0.43 ± 0.14                ABLIKIM         19AX BES3 e + e − at 4.6 GeV
+
+α FOR Λ+
+       c → ΛK
+              +
+VALUE                         EVTS          DOCUMENT ID              TECN      COMMENT
+− 0.546± 0.035 OUR AVERAGE
+− 0.516± 0.041 ± 0.021     1k     1 AAIJ           24AH LHCB p p at 13 TeV
+− 0.585± 0.049 ± 0.018    11k     2 LI             23C BELL e + e − ≈ Υ(nS), n=1,...,5
+  1 AAIJ 24AH also reports the measurements of the decay parameters β and γ, the phase
+    diﬀerence ∆, the CP asymmetry Rβ and the CP average R ′ for Λc → Λ K and its
+                                                                β
+    charge-conjugated decay.
+  2 LI 23C obtained the value by a ﬁt for the product α × αavg , and dividing by the value
+                                                           Λ
+      avg
+    α     = 0.7542 ± 0.0026 reported in ABLIKIM 22AG.
+      Λ
+
+α FOR Λ+    0 +
+       c → Σ K
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.54± 0.18 ± 0.09            2.4k        1 LI                 23C BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+  1 LI 23C obtained the value by a ﬁt for the product α × αavg , and dividing by the value
+                                                           Λ
+     avg
+    α     = 0.7542 ± 0.0026 reported in ABLIKIM 22AG.
+     Λ
+
+α FOR Λ+
+       c → Λ(1405)π
+                    +
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.58± 0.05 ± 0.01± 0.28            1 AAIJ           23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λ+
+       c → Λ(1520)π
+                    +
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID                TECN      COMMENT
+0.925± 0.025 ± 0.005± 0.084        1 AAIJ           23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+https://pdg.lbl.gov                          Page 35                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+α FOR Λ+
+       c → Λ(1600)π
+                    +
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.20± 0.06 ± 0.03± 0.50            1 AAIJ           23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λ+
+       c → Λ(1670)π
+                    +
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID                TECN      COMMENT
+0.817± 0.042 ± 0.006± 0.073        1 AAIJ           23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λ+
+       c → Λ(1690)π
+                    +
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID                TECN      COMMENT
+0.958± 0.020 ± 0.006± 0.027                1 AAIJ   23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λ+
+       c → Λ(2000)π
+                    +
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+− 0.57± 0.03 ± 0.01± 0.19                  1 AAIJ   23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λ+
+       c → ∆(1232)
+                  ++ K −
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID                TECN      COMMENT
+0.548± 0.014 ± 0.004± 0.036                1 AAIJ   23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λ+
+       c → ∆(1600)
+                  ++ K −
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+− 0.50± 0.05 ± 0.01± 0.17                  1 AAIJ   23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λ+
+       c → ∆(1700)
+                  ++ K −
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID                TECN      COMMENT
+0.216± 0.036 ± 0.011± 0.075                1 AAIJ   23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+https://pdg.lbl.gov                          Page 36                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+α FOR Λ+     ∗      0
+       c → K 0 (700) p
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+− 0.06± 0.66 ± 0.23± 0.24          1 AAIJ           23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λc+ → K ∗0 (1430)0 p
+        The polarization is deﬁned with respect to the daughter baryon momentum in the
+        parent rest frame. See ”Baryon Decay Parameters” review.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.34± 0.03 ± 0.01± 0.14                    1 AAIJ   23Z LHCB 1.7fb−1 , p p at 13 TeV
+  1 AAIJ 23Z uses an amplitude analysis of 400k Λ → p K − π + decays, the last uncertainty
+                                                 c
+    is due to the amplitude model. Sign determined per authors; see also AAIJ 23AJ.
+
+α FOR Λ+    0 +
+       c → Ξ K
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.01± 0.16 ± 0.03              378         1 ABLIKIM            4.4 fb−1 , e + e − at
+                                                                24AP BES3
+                                                                   4.60–4.70 GeV
+  1 ABLIKIM 24AP report the phase shift between P- and S-wave amplitudes has two solu-
+    tions, which are δP - δS = − 1.55 ± 0.25 ± 0.05 rad and 1.59 ± 0.25 ± 0.05 rad.
+
+
+                  Λ+    −
+                   c , Λc CP-VIOLATING DECAY ASYMMETRIES
+
+(α + α)/(α − α) in Λ+      +   −
+                    c → Λ π , Λc → Λ π
+                                       −
+        This is zero if CP is conserved.
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+  0.020± 0.016 OUR AVERAGE
+  0.020± 0.007 ± 0.014 264k                  LI                 23C BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+− 0.07 ± 0.19 ± 0.24                         LINK               06A FOCS         γ A, E γ ≈ 180 GeV
+
+(α + α)/(α − α) in Λ+    0 +   −    0 −
+                    c → Σ π , Λc → Σ π
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.023± 0.034 ± 0.030        105k           LI                 23C BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+
+(α + α)/(α − α) in Λ+      +      −      −
+                    c → Λ e νe , Λc → Λ e ν e
+        This is zero if CP is conserved.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.00± 0.03 ± 0.02                            HINSON             05     CLEO e + e − ≈ Υ(4S)
+
+(α + α)/(α − α) in Λ+      +   −
+                    c → Λ K , Λc → Λ K
+                                       −
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.023± 0.086 ± 0.071         11k           LI                 23C BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+
+(α + α)/(α − α) in Λ+
+                    c
+                      → Σ 0 K + , Λ−
+                                   c
+                                     → Σ0 K−
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.08± 0.35 ± 0.14              2.4k          LI                 23C BELL         e + e − at/near Υ(nS),
+                                                                                    n=1,...,5
+
+https://pdg.lbl.gov                          Page 37                      Created: 6/1/2026 16:25
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ACP (Λ X ) in Λc → Λ X , Λc → ΛX
+VALUE (%)                      EVTS           DOCUMENT ID               TECN      COMMENT
+    + 7.0 ± 1.6
+2.1 −                           700           ABLIKIM              18E BES3       e + e − at 4.6 GeV
+      6.6
+
+ACP (Λ K + ) in Λc → Λ K + , Λc → Λ K −
+VALUE                          EVTS           DOCUMENT ID               TECN      COMMENT
+0.021± 0.026 ± 0.001            11k           LI                   23C BELL       e + e − at/near Υ(nS),
+                                                                                     n=1,...,5
+
+ACP (Σ 0 K + ) in Λc → Σ 0 K + , Λc → Σ 0 K −
+VALUE                          EVTS           DOCUMENT ID               TECN      COMMENT
+0.025± 0.054 ± 0.004            2.4k          LI                   23C BELL       e + e − at/near Υ(nS),
+                                                                                     n=1,...,5
+
+ACP (p µ+ µ− ) in Λ+      + −   −      + −
+                   c → p µ µ , Λc → p µ µ
+VALUE (%)                      EVTS           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 1.1± 4.0± 0.5        0.78k      1 AAIJ            25N LHCB p p at 13 TeV
+  1 AAIJ 25N measures A
+                        CP only in the dimuon mass range close to the φ resonance, mµ µ =
+    979.46–1059.46 MeV. Also reports, in the same mass range, the CP average and the CP
+    asymmetry of the forward-backward asymmetry in the dimuon system, 3.9 ± 4.0 ± 0.6%
+    and 3.1 ± 4.0 ± 0.4%, respectively.
+
+∆ACP = ACP (Λ+      + −          +      + −
+             c → p K K ) − ACP (Λc → p π π )
+VALUE (%)                                     DOCUMENT ID               TECN      COMMENT
+0.30± 0.91 ± 0.61                           1 AAIJ  18R LHCB p p 7, 8 TeV
+  1 AAIJ 18R applies phase-space-dependent weights to the Λ+ → p π + π − sample to align
+                                                           c
+    its kinematics with the Λ+ → p K + K − sample.
+                             c
+
+
+                                          Λ+
+                                           c REFERENCES
+           We have omitted some papers that have been superseded by later exper-
+           iments. The omitted papers may be found in our 1992 edition (Physical
+           Review D45 , 1 June, Part II) or in earlier editions.
+
+AAIJ            25N PR D111 L091102                R. Aaij et al.                          (LHCb Collab.)
+ABLIKIM         25AN PRL 134 021901                M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         25AR PR D111 012014                M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         25AS PR D111 L051101               M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         25BH JHEP 2506 194                 M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         25BL CP C49 073001                 M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         25BN PR D112 032006                M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         25CO JHEP 2511 067                 M. Ablikim et al.                      (BESIII Collab.)
+ADACHI          25L PR D112 012013                 I. Adachi et al.           (BELLE and BELLEII Collab.)
+AAIJ            24AH PRL 133 261804                R. Aaij et al.                          (LHCb Collab.)
+AAIJ            24AI PR D110 052007                R. Aaij et al.                          (LHCb Collab.)
+ABLIKIM         24AP PRL 132 031801                M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         24AU PR D109 032003                M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         24AW PR D109 052001                M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         24AX PR D109 053005                M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         24AY PR D109 L071103               M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         24BA PR D109 072010                M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         24BB PR D109 L091101               M. Ablikim et al.                      (BESIII Collab.)
+ABLIKIM         24CQ JHEP 2409 007                 M. Ablikim et al.                      (BESIII Collab.)
+
+
+https://pdg.lbl.gov                           Page 38                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+AAIJ          23AJ JHEP 2307 228               R. Aaij et al.                              (LHCb Collab.)
+AAIJ          23Z PR D108 012023               R. Aaij et al.                              (LHCb Collab.)
+ABLIKIM       23A CP C47 023001                M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       23AB PL B843 137993              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       23AK PR D107 052005              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       23AS PR D108 L031101             M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       23AT PR D108 L031105             M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       23BY JHEP 2309 125               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       23CB JHEP 2311 137               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       23Z PR D107 052002               M. Ablikim et al.                          (BESIII Collab.)
+ABUDINEN      23A PRL 130 071802               F. Abudinen et al.                      (BELLE II Collab.)
+LI            23   PR D107 032001              Y. Li et al.                              (BELLE Collab.)
+LI            23A PR D107 032003               S.X. Li et al.                            (BELLE Collab.)
+LI            23B PR D107 032004               L.K. Li et al.                            (BELLE Collab.)
+LI            23C SCIB 68 583                  L.K. Li et al.                            (BELLE Collab.)
+ABLIKIM       22AG PRL 129 131801              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       22AK PR D106 052003              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       22AN PR D106 072002              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       22AR PR D106 072008              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       22AT PRL 129 231803              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       22BA JHEP 2212 033               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       22BB PR D106 112010              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       22BC PR D106 L111101             M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       22S PRL 128 142001               M. Ablikim et al.                          (BESIII Collab.)
+LI            22B JHEP 2203 090                S.X. Li et al.                            (BELLE Collab.)
+PDG           22   PTEP 2022 083C01            R.L. Workman et al.                          (PDG Collab.)
+ABLIKIM       21H PL B817 136327               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       21N PR D103 L091101              M. Ablikim et al.                          (BESIII Collab.) J
+LEE           21A PR D103 052005               J.Y. Lee et al.                           (BELLE Collab.)
+LI            21   PR D103 072004              S.X. Li et al.                            (BELLE Collab.)
+LI            21E PR D104 072008               S.X. Li et al.                            (BELLE Collab.)
+ABLIKIM       20AJ EPJ C80 935                 M. Ablikim et al.                          (BESIII Collab.)
+AAIJ          19AG PR D100 032001              R. Aaij et al.                              (LHCb Collab.)
+ABLIKIM       19AX PR D100 072004              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       19X CP C43 083002                M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       19Y PR D99 032010                M. Ablikim et al.                          (BESIII Collab.)
+AAIJ          18N PR D97 091101                R. Aaij et al.                              (LHCb Collab.)
+AAIJ          18R JHEP 1803 182                R. Aaij et al.                              (LHCb Collab.)
+AAIJ          18V JHEP 1803 043                R. Aaij et al.                              (LHCb Collab.)
+ABLIKIM       18AF PRL 121 251801              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       18E PRL 121 062003               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       18Y PL B783 200                  M. Ablikim et al.                          (BESIII Collab.)
+BERGER        18   PR D98 112006               M. Berger et al.                          (BELLE Collab.)
+ABLIKIM       17D PL B767 42                   M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       17H PRL 118 112001               M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       17Q PR D95 111102                M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       17Y PL B772 388                  M. Ablikim et al.                          (BESIII Collab.)
+PAL           17   PR D96 051102               B. Pal et al.                             (BELLE Collab.)
+ABLIKIM       16   PRL 116 052001              M. Ablikim et al.                          (BESIII Collab.)
+ABLIKIM       16U PRL 117 232002               M. Ablikim et al.                          (BESIII Collab.)
+YANG          16   PRL 117 011801              S.B. Yang et al.                          (BELLE Collab.)
+ABLIKIM       15Y PRL 115 221805               M. Ablikim et al.                          (BESIII Collab.)
+ZUPANC        14   PRL 113 042002              A. Zupanc et al.                          (BELLE Collab.)
+LEES          11G PR D84 072006                J.P. Lees et al.                         (BABAR Collab.)
+VAZQUEZ-JA... 08   PL B666 299                 E. Vazquez-Jauregui et al.                (SELEX Collab.)
+AUBERT        07U PR D75 052002                B. Aubert et al.                         (BABAR Collab.)
+LINK          06A PL B634 165                  J.M. Link et al.                   (FNAL FOCUS Collab.)
+AUBERT,B      05S PR D72 052006                B. Aubert et al.                         (BABAR Collab.)
+HINSON        05   PRL 94 191801               J.W. Hinson et al.                          (CLEO Collab.)
+LINK          05F PL B624 22                   J.M. Link et al.                   (FNAL FOCUS Collab.)
+CRONIN-HEN... 03   PR D67 012001               D. Cronin-Hennessy et al.                   (CLEO Collab.)
+KAYIS-TOPAK...03   PL B555 156                 A. Kayis-Topaksu et al.          (CERN CHORUS Collab.)
+ABE           02C PL B524 33                   K. Abe et al.                        (KEK BELLE Collab.)
+LINK          02C PRL 88 161801                J.M. Link et al.                   (FNAL FOCUS Collab.)
+LINK          02G PL B540 25                   J.M. Link et al.                   (FNAL FOCUS Collab.)
+PDG           02   PR D66 010001               K. Hagiwara et al.                           (PDG Collab.)
+KUSHNIR...    01   PRL 86 5243                 A. Kushnirenko et al.               (FNAL SELEX Collab.)
+MAHMOOD       01   PRL 86 2232                 A.H. Mahmood et al.                         (CLEO Collab.)
+AITALA        00   PL B471 449                 E.M. Aitala et al.                    (FNAL E791 Collab.)
+ALAM          98   PR D57 4467                 M.S. Alam et al.                            (CLEO Collab.)
+ALBRECHT      96E PRPL 276 223                 H. Albrecht et al.                       (ARGUS Collab.)
+
+
+https://pdg.lbl.gov                         Page 39                         Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ALEXANDER     96C PR D53 1013              J.P. Alexander et al.                      (CLEO Collab.)
+ALBRECHT      95B PL B342 397              H. Albrecht et al.                        (ARGUS Collab.)
+AMMAR         95  PRL 74 3534              R. Ammar et al.                            (CLEO Collab.)
+BISHAI        95  PL B350 256              M. Bishai et al.                           (CLEO Collab.)
+CRAWFORD      95  PRL 75 624               G. Crawford et al.                         (CLEO Collab.)
+KODAMA        95  PL B345 85               K. Kodama et al.                      (FNAL E653 Collab.)
+ALBRECHT      94B PL B326 320              H. Albrecht et al.                        (ARGUS Collab.)
+ALEEV         94  PAN 57 1370              A.N. Aleev et al.                (Serpukhov BIS-2 Collab.)
+                  Translated from YF 57 1443.
+AVERY         94  PL B325 257              P. Avery et al.                            (CLEO Collab.)
+BERGFELD      94  PL B323 219              T. Bergfeld et al.                         (CLEO Collab.)
+FRABETTI      94E PL B328 193              P.L. Frabetti et al.                  (FNAL E687 Collab.)
+AVERY         93  PRL 71 2391              P. Avery et al.                            (CLEO Collab.)
+BOZEK         93  PL B312 247              A. Bozek et al.                      (CERN NA32 Collab.)
+FRABETTI      93D PRL 70 1755              P.L. Frabetti et al.                  (FNAL E687 Collab.)
+FRABETTI      93H PL B314 477              P.L. Frabetti et al.                  (FNAL E687 Collab.)
+KUBOTA        93  PRL 71 3255              Y. Kubota et al.                           (CLEO Collab.)
+ALBRECHT      92  PL B274 239              H. Albrecht et al.                        (ARGUS Collab.)
+BARLAG        92  PL B283 465              S. Barlag et al.                        (ACCMOR Collab.)
+CRAWFORD      92  PR D45 752               G. Crawford et al.                         (CLEO Collab.)
+JEZABEK       92  PL B286 175              M. Jezabek, K. Rybicki, R. Rylko                  (CRAC)
+ALBRECHT      91G PL B269 234              H. Albrecht et al.                        (ARGUS Collab.)
+AVERY         91  PR D43 3599              P. Avery et al.                            (CLEO Collab.)
+ALVAREZ       90  ZPHY C47 539             M.P. Alvarez et al.                (CERN NA14/2 Collab.)
+ALVAREZ       90B PL B246 256              M.P. Alvarez et al.                (CERN NA14/2 Collab.)
+ANJOS         90  PR D41 801               J.C. Anjos et al.                     (FNAL E691 Collab.)
+AVERY         90B PRL 65 2842              P. Avery et al.                            (CLEO Collab.)
+BARLAG        90D ZPHY C48 29              S. Barlag et al.                        (ACCMOR Collab.)
+FRABETTI      90  PL B251 639              P.L. Frabetti et al.                  (FNAL E687 Collab.)
+BARLAG        89  PL B218 374              S. Barlag et al.                        (ACCMOR Collab.)
+AGUILAR-...   88B ZPHY C40 321             M. Aguilar-Benitez et al.              (LEBC-EHS Collab.)
+   Also           PL B189 254              M. Aguilar-Benitez et al.              (LEBC-EHS Collab.)
+   Also           PL B199 462              M. Aguilar-Benitez et al.              (LEBC-EHS Collab.)
+   Also           SJNP 48 833              M. Begalli et al.                      (LEBC-EHS Collab.)
+                  Translated from YAF 48 1310.
+ALBRECHT      88C PL B207 109              H. Albrecht et al.                        (ARGUS Collab.)
+ANJOS         88B PRL 60 1379              J.C. Anjos et al.                     (FNAL E691 Collab.)
+AMENDOLIA     87  ZPHY C36 513             S.R. Amendolia et al.                 (CERN NA1 Collab.)
+JONES         87  ZPHY C36 593             G.T. Jones et al.                    (CERN WA21 Collab.)
+BOSETTI       82  PL 109B 234              P.C. Bosetti et al.             (AACH3, BONN, CERN+)
+BASILE        81B NC 62A 14                M. Basile et al.             (CERN, BGNA, PGIA, FRAS)
+CALICCHIO     80  PL 93B 521               M. Calicchio et al.                (BARI, BIRM, BRUX+)
+
+                                 OTHER RELATED PAPERS
+MIGLIOZZI     99     PL B462 217               P. Migliozzi et al.
+DUNIETZ       98     PR D58 094010             I. Dunietz
+
+
+
+
+https://pdg.lbl.gov                         Page 40                      Created: 6/1/2026 16:25
+

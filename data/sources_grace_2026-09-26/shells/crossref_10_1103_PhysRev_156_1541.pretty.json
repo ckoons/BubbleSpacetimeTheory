@@ -1,0 +1,298 @@
+{
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+        "indexed": {
+            "date-parts": [
+                [
+                    2026,
+                    6,
+                    4
+                ]
+            ],
+            "date-time": "2026-06-04T02:15:49Z",
+            "timestamp": 1780539349849,
+            "version": "3.54.1"
+        },
+        "reference-count": 12,
+        "publisher": "American Physical Society (APS)",
+        "issue": "5",
+        "license": [
+            {
+                "start": {
+                    "date-parts": [
+                        [
+                            1967,
+                            4,
+                            25
+                        ]
+                    ],
+                    "date-time": "1967-04-25T00:00:00Z",
+                    "timestamp": -84844800000
+                },
+                "content-version": "vor",
+                "delay-in-days": 0,
+                "URL": "http://link.aps.org/licenses/aps-default-license"
+            }
+        ],
+        "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+        },
+        "short-container-title": [
+            "Phys. Rev."
+        ],
+        "DOI": "10.1103/physrev.156.1541",
+        "type": "journal-article",
+        "created": {
+            "date-parts": [
+                [
+                    2002,
+                    7,
+                    27
+                ]
+            ],
+            "date-time": "2002-07-27T04:15:03Z",
+            "timestamp": 1027743303000
+        },
+        "page": "1541-1545",
+        "source": "Crossref",
+        "is-referenced-by-count": 152,
+        "title": [
+            "Transition Probabilities of the Hydrogen Atom from Noncompact Dynamical Groups"
+        ],
+        "prefix": "10.1103",
+        "volume": "156",
+        "author": [
+            {
+                "given": "A. O.",
+                "family": "Barut",
+                "sequence": "first",
+                "affiliation": [],
+                "role": [
+                    {
+                        "vocabulary": "crossref",
+                        "role": "author"
+                    }
+                ]
+            },
+            {
+                "given": "Hagen",
+                "family": "Kleinert",
+                "sequence": "additional",
+                "affiliation": [],
+                "role": [
+                    {
+                        "vocabulary": "crossref",
+                        "role": "author"
+                    }
+                ]
+            }
+        ],
+        "member": "16",
+        "published-online": {
+            "date-parts": [
+                [
+                    1967,
+                    4,
+                    25
+                ]
+            ]
+        },
+        "reference": [
+            {
+                "key": "PhysRev.156.1541Cc1R1",
+                "doi-asserted-by": "crossref",
+                "first-page": "1538",
+                "DOI": "10.1103/PhysRev.156.1538",
+                "volume": "156",
+                "author": "A. O. Barut",
+                "year": "1967",
+                "journal-title": "Phys. Rev."
+            },
+            {
+                "key": "PhysRev.156.1541Cc2R1",
+                "doi-asserted-by": "crossref",
+                "first-page": "B839",
+                "DOI": "10.1103/PhysRev.135.B839",
+                "volume": "135",
+                "author": "A. O. Barut",
+                "year": "1964",
+                "journal-title": "Phys. Rev."
+            },
+            {
+                "key": "PhysRev.156.1541Cc2R2",
+                "doi-asserted-by": "crossref",
+                "first-page": "106",
+                "DOI": "10.1098/rspa.1966.0082",
+                "volume": "A291",
+                "author": "A. O. Barut",
+                "year": "1966",
+                "journal-title": "Proc. Roy. Soc. (London)"
+            },
+            {
+                "key": "PhysRev.156.1541Cc2R3",
+                "doi-asserted-by": "crossref",
+                "first-page": "148",
+                "DOI": "10.1016/0031-9163(65)90279-9",
+                "volume": "17",
+                "author": "Y. Dothan",
+                "year": "1965",
+                "journal-title": "Phys. Letters"
+            },
+            {
+                "key": "PhysRev.156.1541Cc2R4",
+                "doi-asserted-by": "crossref",
+                "first-page": "1276",
+                "DOI": "10.1103/PhysRev.148.1276",
+                "volume": "148",
+                "author": "R. H. Pratt",
+                "year": "1966",
+                "journal-title": "Phys. Rev."
+            },
+            {
+                "key": "PhysRev.156.1541Cc2R5",
+                "doi-asserted-by": "crossref",
+                "first-page": "1274",
+                "DOI": "10.1103/PhysRev.148.1274",
+                "volume": "148",
+                "author": "R. Musto",
+                "year": "1966",
+                "journal-title": "Phys. Rev."
+            },
+            {
+                "key": "PhysRev.156.1541Cc2R6",
+                "doi-asserted-by": "crossref",
+                "first-page": "330",
+                "DOI": "10.1103/RevModPhys.38.330",
+                "volume": "38",
+                "author": "M. Bander",
+                "year": "1966",
+                "journal-title": "Rev. Mod. Phys."
+            },
+            {
+                "key": "PhysRev.156.1541Cc2R7",
+                "doi-asserted-by": "crossref",
+                "first-page": "346",
+                "DOI": "10.1103/RevModPhys.38.346",
+                "volume": "38",
+                "author": "M. Bander",
+                "year": "1966",
+                "journal-title": "Rev. Mod. Phys."
+            },
+            {
+                "key": "PhysRev.156.1541Cc3R1",
+                "first-page": "230",
+                "volume": "2",
+                "author": "I. A. Malkin",
+                "year": "1966",
+                "journal-title": "JETP Pis'ma v Redaktsiyn"
+            },
+            {
+                "key": "PhysRev.156.1541Cc4R1",
+                "doi-asserted-by": "crossref",
+                "DOI": "10.1007/978-3-662-12869-5",
+                "volume-title": "Quantum Mechanics of One- and Two-Electron Atoms",
+                "author": "H. A. Bethe",
+                "year": "1957"
+            },
+            {
+                "key": "PhysRev.156.1541Cc5R1",
+                "volume-title": "Tables of Higher Functions",
+                "author": "E. Jahnke",
+                "year": "1960"
+            },
+            {
+                "key": "PhysRev.156.1541Cc7R1",
+                "doi-asserted-by": "crossref",
+                "first-page": "1031",
+                "DOI": "10.1002/andp.19293940807",
+                "volume": "2",
+                "author": "W. Gordon",
+                "year": "1929",
+                "journal-title": "Ann. Physik"
+            }
+        ],
+        "container-title": [
+            "Physical Review"
+        ],
+        "original-title": [],
+        "language": "en",
+        "link": [
+            {
+                "URL": "http://link.aps.org/article/10.1103/PhysRev.156.1541",
+                "content-type": "unspecified",
+                "content-version": "vor",
+                "intended-application": "syndication"
+            },
+            {
+                "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRev.156.1541/fulltext",
+                "content-type": "unspecified",
+                "content-version": "vor",
+                "intended-application": "similarity-checking"
+            }
+        ],
+        "deposited": {
+            "date-parts": [
+                [
+                    2017,
+                    6,
+                    15
+                ]
+            ],
+            "date-time": "2017-06-15T09:36:41Z",
+            "timestamp": 1497519401000
+        },
+        "score": 1,
+        "resource": {
+            "primary": {
+                "URL": "https://link.aps.org/doi/10.1103/PhysRev.156.1541"
+            }
+        },
+        "subtitle": [],
+        "short-title": [],
+        "issued": {
+            "date-parts": [
+                [
+                    1967,
+                    4,
+                    25
+                ]
+            ]
+        },
+        "references-count": 12,
+        "journal-issue": {
+            "issue": "5",
+            "published-print": {
+                "date-parts": [
+                    [
+                        1967,
+                        4
+                    ]
+                ]
+            }
+        },
+        "URL": "https://doi.org/10.1103/physrev.156.1541",
+        "relation": {},
+        "ISSN": [
+            "0031-899X"
+        ],
+        "issn-type": [
+            {
+                "value": "0031-899X",
+                "type": "print"
+            }
+        ],
+        "subject": [],
+        "published": {
+            "date-parts": [
+                [
+                    1967,
+                    4,
+                    25
+                ]
+            ]
+        }
+    }
+}

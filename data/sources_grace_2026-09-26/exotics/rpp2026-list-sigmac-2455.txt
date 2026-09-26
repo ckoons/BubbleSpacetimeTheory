@@ -1,0 +1,216 @@
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ Σc (2455)                                               I (J P ) = 1( 21 + ) Status:             ∗∗∗∗
+           The angular distribution of B − → Σc (2455)0 p favors J = 1/2 (as
+           the quark model predicts). J = 3/2 is excluded by more than four
+           standard deviations; see AUBERT 08BN.
+
+                                          Σc (2455) MASSES
+           The masses are obtained from the mass-diﬀerence measurements that fol-
+           low.
+
+Σc (2455)++ MASS
+VALUE (MeV)                                   DOCUMENT ID
+2453.97± 0.14 OUR FIT
+
+Σc (2455)+ MASS
+VALUE (MeV)                                   DOCUMENT ID
+        + 0.22 OUR FIT
+2452.65 − 0.16
+
+Σc (2455)0 MASS
+VALUE (MeV)                                   DOCUMENT ID
+2453.75± 0.14 OUR FIT
+
+
+                          Σc (2455) − Λ+
+                                       c MASS DIFFERENCES
+m Σ (2455)++ − m Λ+
+      c                     c
+VALUE (MeV)                     EVTS          DOCUMENT ID               TECN      COMMENT
+167.510± 0.017 OUR FIT
+167.510± 0.022 OUR AVERAGE
+167.51 ± 0.01 ± 0.02 36k                      LEE                14     BELL      e + e − at Υ(4S)
+167.44 ± 0.04 ± 0.12 13.8k                    AALTONEN           11H    CDF       p p at 1.96 TeV
+167.4 ± 0.1 ± 0.2       2k                    ARTUSO             02     CLE2      e + e − ≈ Υ(4S)
+167.35 ± 0.19 ± 0.12 461                      LINK               00C    FOCS      γ A, E γ 180 GeV
+167.76 ± 0.29 ± 0.15            122           AITALA             96B E791         π − N, 500 GeV
+167.6 ± 0.6 ± 0.6                56           FRABETTI           96 E687
+                                                                    γ Be, E γ ≈ 220 GeV
+168.2 ± 0.3 ± 0.2        126        CRAWFORD 93 CLE2 e + e − ≈ Υ(4S)
+167.8 ± 0.4 ± 0.3         54        BOWCOCK         89 CLEO e + e − 10 GeV
+168.2 ± 0.5 ± 1.6         92        ALBRECHT        88D ARG         e + e − 10 GeV
+167.4 ± 0.5 ± 2.0         46        DIESBURG        87 SPEC n A ∼ 600 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+167       ± 1                      2          JONES              87     HBC       ν p in BEBC
+166       ± 1                      1          BOSETTI            82     HBC       See JONES 87
+168       ± 3                      6          BALTAY             79     HLBC      ν Ne-H in 15-ft
+166       ± 15                     1          CAZZOLI            75     HBC       ν p in BNL 7-ft
+
+
+
+
+https://pdg.lbl.gov                            Page 1                      Created: 6/1/2026 16:23
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+m Σ (2455)+ − m Λ+
+    c                   c
+VALUE (MeV)                     EVTS        DOCUMENT ID               TECN      COMMENT
+       + 0.16 OUR FIT
+166.19 − 0.08
+       + 0.15 OUR AVERAGE
+166.19 − 0.08
+             + 0.16
+166.17± 0.05 −                              YELTON             21     BELL      e + e − at Υ(nS)
+               0.07
+166.4 ± 0.2 ± 0.3        661        AMMAR           01 CLE2                     e + e − ≈ Υ(4S)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+168.5 ± 0.4 ± 0.2               111         CRAWFORD           93     CLE2      See AMMAR 01
+168 ± 3                           1         CALICCHIO          80     HBC       ν p in BEBC-TST
+
+m Σ (2455)0 − m Λ+
+    c                   c
+VALUE (MeV)                     EVTS        DOCUMENT ID               TECN      COMMENT
+167.290± 0.017 OUR FIT
+167.290± 0.022 OUR AVERAGE
+167.29 ± 0.01 ± 0.02   32k                  LEE                14     BELL      e + e − at Υ(4S)
+167.28 ± 0.03 ± 0.12 15.9k                  AALTONEN           11H    CDF       p p at 1.96 TeV
+167.2 ± 0.1 ± 0.2       2k                  ARTUSO             02     CLE2      e + e − ≈ Υ(4S)
+167.38 ± 0.21 ± 0.13   362                  LINK               00C    FOCS      γ A, E γ 180 GeV
+167.38 ± 0.29 ± 0.15            143         AITALA             96B E791         π − N, 500 GeV
+167.8 ± 0.6 ± 0.2                           ALEEV              96 SPEC          n nucleus, 50 GeV/c
+166.6 ± 0.5 ± 0.6                69         FRABETTI           96 E687          γ Be, E γ ≈ 220 GeV
+167.1 ± 0.3 ± 0.2        124        CRAWFORD 93 CLE2                            e + e − ≈ Υ(4S)
+168.4 ± 1.0 ± 0.3         14        ANJOS           89D E691 γ Be 90–260 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+167.9 ± 0.5 ± 0.3         48      1 BOWCOCK         89 CLEO e + e − 10 GeV
+167.0 ± 0.5 ± 1.6         70      1 ALBRECHT        88D ARG         e + e − 10 GeV
+178.2 ± 0.4 ± 2.0         85      2 DIESBURG        87 SPEC n A ∼ 600 GeV
+163     ±2                    1       AMMAR          86 EMUL ν A
+  1 This result enters the ﬁt through m       − m 0 given below.
+                                        Σ ++
+                                          c
+                                                  Σc
+  2 See the note on DIESBURG 87 in the m          − m 0 section below.
+                                             Σ ++
+                                               c
+                                                      Σc
+
+
+                                Σc (2455) MASS DIFFERENCES
+m Σ (2455)++ − m Σ (2455)0
+    c                       c
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+  0.220± 0.013 OUR FIT
+  0.221± 0.014 OUR AVERAGE
+  0.22 ± 0.01 ± 0.01                        LEE                14 BELL  e + e − at Υ(4S)
+  0.2 ± 0.1 ± 0.1                           ARTUSO             02 CLE2  e + e − ≈ Υ(4S)
+− 0.03 ± 0.28 ± 0.11                        LINK               00C FOCS γ A, E γ 180 GeV
+  0.38 ± 0.40 ± 0.15                        AITALA             96B E791 π − N, 500 GeV
+  1.1 ± 0.4 ± 0.1                           CRAWFORD           93 CLE2 e + e − ≈ Υ(4S)
+− 0.1 ± 0.6 ± 0.1                           BOWCOCK            89 CLEO e + e − 10 GeV
+  1.2 ± 0.7 ± 0.3                           ALBRECHT           88D ARG  e + e − ∼ 10 GeV
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:23
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 10.8 ± 2.9                      3 DIESBURG        87 SPEC n A ∼ 600 GeV
+  3 DIESBURG 87 is completely incompatible with the other experiments, which is surprising
+    since it agrees with them about m             − m + . We go with the majority here.
+                                      Σc (2455)++     Λc
+m Σ (2455)+ − m Σ (2455)0
+    c                   c
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+       + 0.16 OUR FIT
+− 1.10 − 0.08
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  1.4 ± 0.5 ± 0.3                           CRAWFORD           93     CLE2      See AMMAR 01
+
+                                        Σc (2455) WIDTHS
+Σc (2455)++ WIDTH
+VALUE (MeV)                 EVTS          DOCUMENT ID               TECN      COMMENT
+
+1.89 + 0.09 OUR AVERAGE              Error includes scale factor of 1.1.
+     − 0.18
+           + 0.07
+1.84± 0.04 −                 36k          LEE                14     BELL      e + e − at Υ(4S)
+             0.20
+2.34± 0.13 ± 0.45           13.8k         AALTONEN           11H CDF          p p at 1.96 TeV
+2.3 ± 0.2 ± 0.3                2k         ARTUSO             02 CLE2          e + e − ≈ Υ(4S)
+     + 0.41 ± 0.38
+2.05 −                      1110          LINK               02     FOCS      γ A, E γ ≈ 180 GeV
+       0.38
+
+Σc (2455)+ WIDTH
+VALUE (MeV)          CL%      EVTS          DOCUMENT ID               TECN      COMMENT
+  2.3± 0.3±
+          ± 0.3                     YELTON          21 BELL e + e − at Υ(nS)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<4.6             90      661        AMMAR           01 CLE2 e + e − ≈ Υ(4S)
+
+Σc (2455)0 WIDTH
+VALUE (MeV)                 EVTS          DOCUMENT ID               TECN      COMMENT
+     + 0.11 OUR AVERAGE
+1.83 −                               Error includes scale factor of 1.2.
+       0.19
+           + 0.09
+1.76± 0.04 −                 32k          LEE                14     BELL      e + e − at Υ(4S)
+             0.21
+1.65± 0.11 ± 0.49           15.9k         AALTONEN           11H CDF   p p at 1.96 TeV
+2.6 ± 0.5 ± 0.3                           AUBERT             08BN BABR B − → p Λ+ π −
+                                                                                   c
+2.5 ± 0.2 ± 0.3               2k          ARTUSO             02 CLE2 e + e − ≈ Υ(4S)
+     + 0.41 ± 0.38
+1.55 −                       913          LINK               02     FOCS      γ A, E γ ≈ 180 GeV
+       0.37
+
+                                    Σc (2455) DECAY MODES
+         Λ+ π is the only strong decay allowed to a Σc having this mass.
+          c
+
+       Mode                                                   Fraction (Γi /Γ)
+
+Γ1     Λ+
+        c π                                                   ≈ 100 %
+
+
+https://pdg.lbl.gov                          Page 3                      Created: 6/1/2026 16:23
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                   Σc (2455) REFERENCES
+YELTON       21   PR D104 052003         J. Yelton et al.                             (BELLE Collab.)
+LEE          14   PR D89 091102          S.-H. Lee et al.                             (BELLE Collab.)
+AALTONEN     11H PR D84 012003           T. Aaltonen et al.                             (CDF Collab.)
+AUBERT       08BN PR D78 112003          B. Aubert et al.                            (BABAR Collab.)
+ARTUSO       02   PR D65 071101          M. Artuso et al.                              (CLEO Collab.)
+LINK         02   PL B525 205            J.M. Link et al.                      (FNAL FOCUS Collab.)
+AMMAR        01   PRL 86 1167            R. Ammar et al.                               (CLEO Collab.)
+LINK         00C PL B488 218             J.M. Link et al.                      (FNAL FOCUS Collab.)
+AITALA       96B PL B379 292             E.M. Aitala et al.                       (FNAL E791 Collab.)
+ALEEV        96   JINRRC 3-77 31         A.N. Aleev et al.              (Serpukhov EXCHARM Collab.)
+FRABETTI     96   PL B365 461            P.L. Frabetti et al.                     (FNAL E687 Collab.)
+CRAWFORD     93   PRL 71 3259            G. Crawford et al.                            (CLEO Collab.)
+ANJOS        89D PRL 62 1721             J.C. Anjos et al.                        (FNAL E691 Collab.)
+BOWCOCK      89   PRL 62 1240            T.J.V. Bowcock et al.                         (CLEO Collab.)
+ALBRECHT     88D PL B211 489             H. Albrecht et al.                          (ARGUS Collab.)
+DIESBURG     87   PRL 59 2711            M. Diesburg et al.                       (FNAL E400 Collab.)
+JONES        87   ZPHY C36 593           G.T. Jones et al.                      (CERN WA21 Collab.)
+AMMAR        86   JETPL 43 515           R. Ammar et al.                                      (ITEP)
+                  Translated from ZETFP 43 401.
+BOSETTI      82   PL 109B 234            P.C. Bosetti et al.                 (AACH3, BONN, CERN+)
+CALICCHIO    80   PL 93B 521             M. Calicchio et al.                   (BARI, BIRM, BRUX+)
+BALTAY       79   PRL 42 1721            C. Baltay et al.                               (COLU, BNL) I
+CAZZOLI      75   PRL 34 1125            E.G. Cazzoli et al.                                  (BNL)
+
+
+
+
+https://pdg.lbl.gov                         Page 4                      Created: 6/1/2026 16:23
+

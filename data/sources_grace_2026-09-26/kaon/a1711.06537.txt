@@ -1,0 +1,627 @@
+                                                      First lattice calculation of the QED corrections to leptonic decay rates
+
+                                                                                   D. Giusti, V. Lubicz, and C. Tarantino
+                                                          Dipartimento di Matematica e Fisica, Università Roma Tre and INFN Sezione di Roma Tre,
+                                                                              Via della Vasca Navale 84, I-00146 Rome, Italy
+
+                                                                                                   G. Martinelli
+                                                             Dipartimento di Fisica, Università di Roma La Sapienza and INFN Sezione di Roma,
+                                                                                  Piazzale Aldo Moro 5, 00185 Roma, Italy
+
+                                                                                                  C.T. Sachrajda
+                                                                       Department of Physics and Astronomy, University of Southampton,
+                                                                                        Southampton SO17 1BJ, UK
+
+
+
+
+arXiv:1711.06537v2 [hep-lat] 27 Dec 2017
+                                                                                          F. Sanfilippo and S. Simula
+                                                                           Istituto Nazionale di Fisica Nucleare, Sezione di Roma Tre,
+                                                                                  Via della Vasca Navale 84, I-00146 Rome, Italy
+
+                                                                                                    N. Tantalo
+                                                         Dipartimento di Fisica, Università di Roma “Tor Vergata” and INFN Sezione di Tor Vergata,
+                                                                             Via della Ricerca Scientifica 1, I-00133 Roma, Italy
+
+                                                           The leading-order electromagnetic and strong isospin-breaking corrections to the ratio of Kµ2 and
+                                                        πµ2 decay rates are evaluated for the first time on the lattice, following a method recently proposed.
+                                                        The lattice results are obtained using the gauge ensembles produced by the European Twisted Mass
+                                                        Collaboration with Nf = 2 + 1 + 1 dynamical quarks. Systematics effects are evaluated and the
+                                                        impact of the quenched QED approximation is estimated. Our result for the correction to the tree-
+                                                        level Kµ2 /πµ2 decay ratio is −1.22 (16)% to be compared to the estimate −1.12 (21)% based on
+                                                        Chiral Perturbation Theory and adopted by the Particle Data Group.
+
+                                                        PACS numbers: 11.15.Ha, 12.15.Lk, 12.38.Gc, 13.20.-v
+
+
+                                                           I.   INTRODUCTION                                   slopes can be determined in isosymmetric QCD. In this
+                                                                                                               letter we adopt the RM123 method.
+                                              The determination of a number of hadronic quantities                While the calculation of e.m. effects in the hadron spec-
+                                           relevant for flavour physics phenomenology using lattice            trum does not suffer from infrared (IR) divergences, the
+                                           QCD simulations has reached such an impressive level of             same is not true in the case of hadronic amplitudes, where
+                                           precision [1] that both electromagnetic (e.m.) and strong           e.m. IR divergences are present and cancel for well de-
+                                           isospin-breaking (IB) effects cannot be neglected.                  fined, measurable physical quantities only after including
+                                              In the past few years accurate lattice results including         diagrams containing both real and virtual photons [7].
+                                           e.m. and IB effects have been obtained for the hadron               This is the case, for example, for the leptonic π`2 and K`2
+                                           spectrum, as in the case of the charged/neutral mass                and the semileptonic K`3 decays, which play a crucial role
+                                           splittings of pseudoscalar (P) mesons and baryons (see,             for an accurate determination of the Cabibbo-Kobayashi-
+                                           e.g., Refs. [2, 3]). In this respect the inclusion of QED           Maskawa (CKM) entries |Vus /Vud | and |Vus | [8].
+                                           effects in lattice QCD simulations has been carried out                The presence of IR divergences requires the develop-
+                                           following mainly two methods: in the first one QED is               ment of additional strategies to those used in the compu-
+                                           added directly to the action and QCD+QED simulations                tation of e.m. effects in the hadron spectrum. Such a new
+                                           are performed at few values of the electric charge (see,            strategy was proposed in Ref. [6], where the lattice de-
+                                           e.g., Refs. [3, 4]), while the second one, the RM123 ap-            termination of the decay rate of a charged pseudoscalar
+                                           proach of Refs. [2, 5], consists in an expansion of the             meson into either a final `± ν` pair or `± ν` γ state was
+                                           lattice path-integral in powers of two small parameters:            addressed. Although it is possible in lattice simulations
+                                           the e.m. coupling αem and the light-quark mass difference           to compute the e.m. corrections due to the emission of
+                                           (md − mu )/ΛQCD , which are both at the level of ≈ 1%.              real photons, this is not strictly necessary. Instead, the
+                                           Since it suffices to work at leading order in the pertur-           amplitude for the emission of a real photon can be com-
+                                           bative expansion, the attractive feature of the RM123               puted in perturbation theory by limiting the maximum
+                                           method is that the small values of the two expansion pa-            energy of the emitted photon in the meson rest-frame,
+                                           rameters are factorised out, so that one can get relatively         ∆Eγ , to be small enough so that the internal structure of
+                                           large numerical signals for the slopes of the corrections           the decaying meson is not resolved, but larger than the
+                                           with respect to the expansion parameters. Moreover the              experimental energy resolution [6]. The IR divergences
+                                                                                                                                 2
+
+are independent of the structure of the hadrons (i.e. they          In this letter we focus on the ratio of the inclusive decay
+are universal) and cancel between diagrams containing a           rates of kaons and pions into muons, namely
+virtual photon (computed non-perturbatively) and those
+with the emission of a real photon (calculated perturba-                              (0) 2
+                                                                                                                !2
+                                                                                                     2
+tively). In the intermediate steps of the calculation, how-       Γ(Kµ2 )   Vus fK            Mπ3   MK  − m2µ
+                                                                          =                    3                     (1 + δRKπ ) ,
+ever, it is necessary to introduce an IR regulator. We use        Γ(πµ2 )   Vud fπ(0)         MK    Mπ2 − m2µ
+the lattice volume L3 itself as the IR regulator by working                                                                    (5)
+in the QEDL finite-volume formulation of QED [9].                 where δRKπ ≡ δRK − δRπ . Using the gauge ensembles
+   The inclusive rate Γ(P`2 ) can be expressed as [6]             generated by the European Twisted Mass Collaboration
+      Γ(P`2 ) = Γ0 + Γpt                                          (ETMC) with Nf = 2 + 1 + 1 light, strange and charm
+                       1 (∆Eγ )                            (1)
+                                                                  sea quarks [12, 13], we have calculated δRKπ , which, to-
+              = limL→∞ Γ0 (L) − Γpt
+                                        
+                                    0 (L)                                                                    (0)   (0)
+                                                                  gether with a lattice computation of fK /fπ , allows us
+              + limµγ →0 Γpt          pt
+                                                  
+                           0 (µγ ) + Γ1 (∆Eγ , µγ ) ,             to determine |Vus /Vud | from the ratio in Eq. (5).
+where the subscripts 0, 1 indicate the number of photons             The quantity δRKπ is less sensitive to various uncer-
+in the final state and the superscript pt denotes the point-      tainties than the individual terms δRK and δRπ . Three
+like approximation for the decaying meson. The terms              main features help to reduce the systematic uncertain-
+Γ0 (L) and Γpt                                                    ties in δRKπ : (i) In Γ0 (L) all the terms up to O(1/L)
+               0 (L) are evaluated on the lattice; both have
+the same IR divergences which therefore cancel in the             are “universal”, i.e. independent of the structure of the
+difference. We use L as the intermediate IR regulator             decaying hadron [10]. The residual, structure-dependent
+and Γ0 − Γpt                                                      (SD) finite volume effects (FVEs) start at order O(1/L2 )
+              0 is independent of the regulator as this is
+removed [10]. Since all momentum modes contribute to              and are found to be much milder in the case of δRKπ (see
+it, Γ0 (L) depends on the structure of P and must be              section IV). (ii) The matching of the bare lattice weak op-
+computed non-perturbatively. In the second term on the            erator with the one renormalised using W -regularization
+r.h.s. of Eq. (1) P is a point-like meson and both Γpt  0 (µγ )
+                                                                  generates a mixing of operators of different chiralities
+and Γpt   (∆E    , µ  ) can be  calculated directly in infinite   when discretisations based on Wilson fermions, which
+        1      γ    γ
+volume in perturbation theory, using a small photon mass          break the chiral symmetry (such as twisted mass used
+µγ as the intermediate IR regulator. Each term is IR di-          here) are used. The mixing has been calculated only at
+vergent, but the sum is convergent [7] and independent of         order O(αem αs0 ) [6], but its effects cancel out in the differ-
+the IR regulator. The explicit perturbative calculations          ence δRKπ . (iii) Within SU(3) Chiral Perturbation The-
+of Γpt      pt                 pt                                 ory (ChPT) the effects of the sea-quark electric charges
+     0 + Γ1 (∆Eγ ) and Γ0 (L) have been performed in
+Refs. [6] and [10], respectively.                                 depend on unknown low-energy constants (LECs) start-
+   The inclusive decay rate (1) can be written as                 ing at next-to-leading-order (NLO) for δRK and δRπ , but
+                                                                  only at NNLO for δRKπ [11]. Thus, the uncertainty due
+                                 (tree)                           to the quenched QED (qQED) approximation, adopted
+         Γ(P ± → `± ν` [γ]) = ΓP          · [1 + δRP ] ,   (2)
+                                                                  in this work, is expected to be smaller for δRKπ .
+         (tree)
+where ΓP      is the tree-level decay rate given by                  Since the experimental rates Γ(Kµ2 ) and Γ(πµ2 ) are
+                                      2 h                        inclusive, SD contributions to the real photon emission
+            G2F                   m2`
+                                              i2
+   (tree)
+  ΓP      =              2 2
+                |Vq1 q2 | m` 1 − 2
+                                           (0)
+                                          fP      MP , (3)        should be included. According to the ChPT predictions
+            8π                    MP                              of Ref. [14], however, these contributions are negligible
+                                                                  in the case of both kaon and pion decays into muons,
+where MP is the physical mass of the charged P-meson,
+                                                                  while the same does not hold as well in the case of final
+including both e.m. and strong IB corrections. The su-
+                                                                  electrons (see Ref. [6]). This important finding will be
+perscript (0) on a physical quantity denotes that it has
+                                                                  investigated by an ongoing dedicated lattice study on the
+been calculated in isosymmetric QCD (without QED).
+                               (0)                                real photon emission amplitudes in light and heavy P-
+The P-meson decay constant, fP is defined by:                     meson leptonic decays.
+             (0)                             (0)
+           AP ≡ h0|q̄2 γ0 γ5 q1 |P (0) i ≡ fP MP .
+                                                   (0)
+                                                           (4)       After extrapolating our lattice data to the physical
+                                                                  pion mass and to the continuum and infinite volume lim-
+In Eq. (2) the quantity δRP encodes the leading-order             its, the main result of the present work is
+e.m. and strong IB corrections to the tree-level decay
+rate and its evaluation is described in Ref. [6]. Its value                        phys
+                                                                                 δRKπ   = −0.0122 ± 0.0016 ,                   (6)
+depends on the prescription used for the separation be-
+tween the QED and QCD corrections, while the quantity
+  (0)
+[fP ]2 (1 + δRP ) is prescription free. In this work we           where the uncertainty includes both statistical and sys-
+adopt the prescription in which the renormalized cou-             tematic errors, including an estimate of the uncertainty
+plings and quark masses in the full theory and in isosym-         due to the QED quenching. Our result (6) can be com-
+                                                                                                      phys
+metric QCD coincide in the MS scheme at a scale of                pared with the current estimate δRKπ     = −0.0112 (21)
+2 GeV [2, 5] (see the supplemental material).                     from Refs. [15, 16] adopted by the PDG [17].
+                                                                                                                                                 3
+
+          II.   DETAILS OF THE SIMULATION
+                                                                      s                ℓ+          s                 ℓ+          s          ℓ+
+
+                                                               K+                             K+                            K+
+   The gauge ensembles used in this work were generated                                                                          u          νℓ
+                                                                      u                νℓ          u                 νℓ
+by ETMC with Nf = 2+1+1 dynamical quarks and used
+in Ref. [18] to determine the up, down, strange and charm                 (a)                           (b)                           (c)
+quark masses. The main parameters of the simulations
+                                                                                                                                 ℓ+
+are collected in the supplemental material. We employ                              s               ℓ+            s
+                                                                                                            K+
+the Iwasaki action [19] for gluons and the Wilson Twisted                     K+
+                                                                                                                 u
+                                                                                   u               νℓ                            νℓ
+Mass Action [20–22] for sea quarks. In the valence sector
+we adopt a non-unitary setup [23] in which the strange                                      (d)                           (e)
+quark is regularized as an Osterwalder-Seiler fermion [24],   FIG. 1: Connected diagrams contributing at O(αem ) to the
+while the up and down quarks have the same action as          K + → `+ ν` decay amplitude, in which the photon is attached
+the sea. Working at maximal twist such a setup guaran-        to quark lines: (a) exchange, (b,c) self-energy and (d,e) tadpole
+tees an automatic O(a)-improvement [22, 23]. The two          diagrams.
+valence quarks in the P-meson are regularized with oppo-                                           ℓ+                            ℓ+
+                                                                                   s                             s
+site values of the Wilson r-parameter in order to guaran-                     K+                            K+
+tee that discretization effects on the P-meson mass are of                         u               νℓ            u               νℓ
+order O(a2 µ ΛQCD ). The lepton ` is a free twisted-mass                          (a)                    (b)
+fermion with mass m` = mµ = 105.66 MeV [17]. The              FIG. 2: Connected diagrams contributing at O(αem ) to the
+neutrino is simply considered to be a free fermion field.     K + → `+ ν` decay amplitude corresponding to the insertion of the
+   In this work we make use of the bootstrap samplings        pseudoscalar density related to the e.m. shift of the critical mass,
+                                                              δmcrit
+                                                                 f , determined in Ref. [5].
+generated for the input parameters of the quark mass
+analysis of Ref. [18]. There, eight branches of the analy-                         s               ℓ+            s               ℓ+
+sis were adopted differing in: (i) the continuum extrap-                      K+                            K+
+olation, adopting for the matching of the lattice scale                            u               νℓ            u               νℓ
+
+either the Sommer parameter r0 or the mass of a ficti-                             (a)                  (b)
+tious P-meson made up of two valence strange(charm)-          FIG. 3: Connected diagrams contributing at O(αem ) and O(md −
+like quarks; (ii) the chiral extrapolation performed with     mu ) to the K + → `+ ν` decay amplitude related to the insertion of
+fitting functions chosen to be either a polynomial expan-     the scalar density (see Ref. [5]).
+sion or a ChPT Ansatz in the light-quark mass; and (iii)
+the choice between the methods M1 and M2, which differ                    s            ℓ+               s            ℓ+          s          ℓ+
+
+by O(a2 ) effects, used to determine the mass renormal-        K+
+                                                                          u
+                                                                                              K+
+                                                                                                        u
+                                                                                                                            K+
+                                                                                       νℓ                            νℓ          u          νℓ
+ization constant Zm = 1/ZP in the RI’-MOM scheme.
+                                                                        (a)                     (b)             (c)
+                                                              FIG. 4: Connected diagrams contributing at O(αem ) to the
+                                                              K + → `+ ν` decay amplitude corresponding to photon exchanges
+   III.     EVALUATION OF THE AMPLITUDES                      involving the final-state lepton.
+
+  Following Ref. [6] the quantity δRK − δRπ is given by
+                   δAK       δMK          (pt)                where δAQCD
+                                                                        P     (δMPQCD ) represents the strong IB correc-
+      δRKπ = 2          −2        + δΓK (∆Eγ )
+                    (0)
+                   AK     MK
+                              (0)                             tions corresponding to the diagrams of Fig. 3, while the
+                                                              other terms are QED corrections coming from the inser-
+                     δAπ     δMπ
+                   −2 (0) + 2 (0) − δΓ(pt)
+                                      π (∆Eγ ) ,       (7)    tions of the e.m. current and tadpole operators, of the
+                     Aπ      Mπ                               pseudoscalar and scalar densities (see Refs. [2, 28]).
+            (pt)
+where δΓP (∆Eγ ) represents the O(αem ) correction to            In Eqs. (8-9) the term δAJP (δMPJ ) is generated by the
+the tree-level decay rate for a point-like meson and can      diagrams of Fig. 1(a-c), δATP (δMPT ) by the diagrams of
+be read off from Eq. (51) of Ref. [6], while δAP and δMP      Fig. 1(d-e), δAP        P
+                                                                               P (δMP ) by the diagrams of Fig. 2(a-b)
+                                                                     S       S
+are the e.m. and IB corrections to the weak amplitude         and δAP (δMP ) by the diagrams of Fig. 3(a-b). The term
+and mass of the P-meson, respectively.                        δA`P corresponds to the photon exchange between the
+  Within the qQED approximation the evaluation of             quarks and the final lepton. It arises from diagrams 4(a-
+δAP and δMP requires the evaluation of only the con-          b), while the diagram 4(c) (lepton wave function renor-
+nected diagrams shown in Figs. 1 - 4 for K`2 decays. The      malization) can be safely omitted, since it cancels out
+corrections δAP and δMP can be written as                     exactly in the difference Γ0 (L) − Γpt
+                                                                                                  0 (L).
+                              X                                 The evaluation of δMPQCD and the δMPi is described
+         δAP = δAQCD
+                   P     +           δAiP + δA`P ,    (8)     in Ref. [5], where the quark mass difference (md −
+                             i=J,T,P,S                        mu )(MS, 2 GeV) = 2.38 (18) MeV was determined using
+                                X
+           δMP = δMPQCD +                 δMPi ,       (9)    the experimental charged and neutral kaon masses. The
+                              i=J,T,P,S                       terms δAQCD
+                                                                       P   , δAiP and δA`P are extracted from the cor-
+                                                                                                                                                                                                            4
+
+                                                                        0.015
+relators described in Ref. [6]. Their numerical determi-
+                                                                                                     A40.40                                                                                                                   y = m1 + m2 * M0
+
+nation is illustrated briefly in Refs. [25, 26] and in detail           0.010                                    A40.32
+                                                                                                                                                 A40.24
+                                                                                                                                                                             A40.20                              m1
+                                                                                                                                                                                                                                  Value
+                                                                                                                                                                                                                              0.010591
+                                                                                                                                                                                                                                                   Error
+                                                                                                                                                                                                                                           0.00061469
+
+                                                          (0)
+in Ref. [27]. The quality of the extraction of δA`=µ
+                                                                                                                                                                                                                 m2            -1.8029        0.52146
+
+
+
+                                                  P /δAP
+                                                                                                                                                                                                                Chisq          0.23574              NA
+                                                                        0.005             β = 1.90                                                                 δR                                                 R        0.99028              NA
+                                                                                                                                                                        π
+
+is illustrated in the supplemental material.                      P
+                                                                        0.000
+                                                                                                                                                                                                                              y = m1 + m2 * M0
+                                                                 δR                                                                                                                                                                Value            Error
+
+                                                                                     M ~ 320 MeV                                                               δR                                                m1           0.0015021     0.00043621
+                                                                                      π
+                                                                                                                                                                    K                                            m2             -2.3945          0.35336
+                                                                                                                                                                                                                Chisq            5.5006               NA
+                                                                       -0.005                                                                                                                                      R              0.945               NA
+                                                                                    M ~ 580 MeV
+                                                                                      K
+                                                                                                                                                              δR
+  IV.    FINITE VOLUME EFFECTS AT O(αEM )                              -0.010                                                                                  Kπ
+                                                                                                                                                                                                                               y = m1 + m2 * M0
+                                                                                                                                                                                                                                   Value            Error
+                                                                                                                                                                                                                   m1          -0.00904     0.00073713
+                                                                                                                                                                                                                   m2          -0.62217          0.60454
+                                                                                                                                                                                                                  Chisq          3.4005               NA
+                                                                       -0.015                                                                                                                                             R     0.48734               NA
+
+
+   The subtraction Γ0 (L)−Γpt0 (L) makes the rate IR finite
+                                                                            0.0000              0.0005           0.0010           0.0015
+
+                                                                                                                                      a /L
+                                                                                                                                           2     2
+                                                                                                                                                           0.0020           0.0025                 0.0030
+
+
+
+and cancels the structure-independent FVEs. The point-          FIG. 5: Results for the corrections δRπ , δRK and δRKπ for the
+like decay rate Γpt
+                 0 (L) is given by                              gauge ensembles A40.20, A40.24, A40.32 and A40.40 sharing the
+                                                                same lattice spacing, pion and kaon masses, but different lattice
+                           αem                                  sizes (see the supplemental material). The universal FVEs, i.e. the
+              Γpt
+               0 (L) = 2       YP (L) Γtree
+                                       P    ,           (10)
+                            4π                                  terms up to order O(1/L) in Eq. (12), are subtracted for each
+                                                                quantity. The lines are linear fits in 1/L2 . The maximum photon
+where the factor YP (L) is explicitly given by Eq. (98) of      energy ∆Eγ corresponds to the inclusive case ∆Eγ = ∆Eγmax,P =
+Ref. [10]. Eq. (8) is therefore replaced by                     MP (1 − m2µ /MP2 )/2.
+                   X                 αem         (0)
+ δAP = δAQCDP    +     δAiP +δA`P −      YP (L) AP , (11)               0.000
+
+                     i
+                                      4π                                                  physical point
+                                                                                          β = 1.90, L/a = 20 (FVE corr.)
+                                                                                                                                  β = 1.90, L/a = 40 (FVE corr.)
+                                                                                                                                  β = 1.95, L/a = 24 (FVE corr.)
+                                                                                                                                                                                   continuum limit
+                                                                                                                                                                                   fit at β = 1.90
+                                                                                          β = 1.90, L/a = 24 (FVE corr.)          β = 1.95, L/a = 32 (FVE corr.)                   fit at β = 1.95
+                                                                                          β = 1.90, L/a = 32 (FVE corr.)          β = 2.10, L/a = 48 (FVE corr.)                   fit at β = 2.10
+where YP (L) has the form                                              -0.005
+
+
+                                         b1                       Kπ
+                                                                 δR                                                                                                            m =m
+                                                                                                                                                                                            phys
+
+        YP (L) = bIR log(MP L) + b0 +                                                                                                                                              s    s
+
+                                        MP L                           -0.010
+
+                  b2         b3                                                                                                                      PDG
+              +        2
+                         +         + O(e−MP L )         (12)
+                (MP L)     (MP L)3
+                                                                       -0.015
+                                                                             0.00                     0.01                 0.02                        0.03                 0.04                     0.05
+with the coefficients bj (j = IR, 0, 1, 2, 3) depending                                                                           m
+                                                                                                                                      ud
+                                                                                                                                               (GeV)
+
+on the dimensionless ratio m` /MP [10]. The important           FIG. 6: Results for the correction δRKπ (Eqs. (7) and (11))
+point is that the SD FVEs start only at order O(1/L2 ),         after the subtraction of both the universal FVEs in Eq. (12) and
+i.e. all the terms up to O(1/L) in Eq. (12) are “univer-        the residual FVEs obtained from the fitting function (13). The
+                                                                dashed lines are the (central) results at each β, while the shaded
+sal” [10]. Being independent of the structure they can be       area identifies the continuum limit at 1-sigma level. The cross is
+computed for a point-like charged meson.                        the extrapolated value at mphys
+                                                                                            ud (MS, 2 GeV) = 3.70(17) MeV [18].
+   The FVE subtraction (11) up to order O(1/L) is il-           The blue dotted lines correspond to the value −0.0112(21) from
+lustrated in Fig. 5 for δRK , δRπ and δRKπ in the inclu-        Refs. [15, 16] adopted by the PDG [17]. Errors are statistical only.
+sive case ∆Eγ = ∆Eγmax,P = MP (1 − m2µ /MP2 )/2, which
+corresponds to ∆Eγmax,K ≃ 235 MeV and ∆Eγmax,π ≃
+29 MeV, respectively. It can be seen that after subtrac-        rest frame, and R0,1,2 , D, K2 and K2` are free parameters.
+tion of the universal terms the residual FVEs are almost        In Eq. (13) the chiral coefficient Rχ is known [11] and
+linear in 1/L2 and ≈ 3 times smaller in the case of δRKπ .      given by Rχ = αem (2Z/9 − 3)/4π in qQED, where Z is
+                                                                obtained from the chiral limit of the O(αem ) correction
+                                                                to Mπ2± (i.e. δMπ2± = 4παem Zf02 + O(mud )). In Ref. [5]
+                                                                we found Z = 0.658 (40).
+   V.    RESULTS FOR THE RATIO Γ(K`2 )/Γ(π`2 )                     Using Eq. (13) we have fitted the data for δRKπ us-
+                                                                ing a χ2 -minimization procedure with an uncorrelated
+  The (inclusive) data for δRKπ , obtained using Eqs. (7)       χ2 , obtaining values of χ2 /d.o.f. always around 1.2. The
+and (11-12), are shown in Fig. 6. The “universal” FVEs          uncertainties on the fitting parameters do not depend on
+are subtracted from the data and the combined chiral,           the χ2 -value, because they are obtained using the boot-
+continuum and infinite volume extrapolations are per-           strap samplings of Ref. [18] (see section II). This guaran-
+formed using the following Ansatz:                              tees that all the correlations among the data points and
+                                                                among the fitting parameters are properly taken into ac-
+ δRKπ = R0 + Rχ log(mud ) + R1 mud + R2 m2ud + Da2              count. The quality of our fits is illustrated in Fig. 6.
+                            K2`
+                                                 
+        K2    1      1              1         1
+                                                                   At the physical pion mass in the continuum and
+      + 2      2 − M 2 + L2               −
+                                            (E`π )2
+        L MK          π           (E`K )2                       infinite-volume limits we obtain
+         + δΓpt (∆Eγmax,K ) − δΓpt (∆Eγmax,π ) ,        (13)             phys
+                                                                       δRKπ   = −0.0122 (10)stat (2)input (8)chir (5)F V E
+where mud is the renormalized u/d quark mass, E`P =                                      (4)disc (6)qQED
+MP (1 + m2` /MP2 )/2 is the lepton energy in the P-meson                      = −0.0122 (16) ,                            (14)
+                                                                                                                           5
+
+where ()stat indicates the uncertainty induced by both          second one is related to the uncertainty in our result (14).
+the statistical errors and the fitting procedure it-                                                             (0)   (0)
+                                                                Adopting the Nf = 2 + 1 + 1 FLAG average fK /fπ =
+self; ()input is the error coming from the uncertainties        1.1958 (26) [1] (see the supplemental material), one gets
+of the input parameters of the quark-mass analysis of
+Ref. [18]; ()chir is the difference between including or ex-                  Vus
+cluding the chiral logarithm in the fits (i.e. taking Rχ 6= 0                     = 0.23142 (24)exp (54)th .            (16)
+                                                                              Vud
+or Rχ = 0); ()F V E is the difference between including
+(K2 6= 0 and K2` 6= 0) or excluding (K2 = K2` = 0)              Using the value |Vud | = 0.97417 (21) from super-allowed
+the residual FVE correction in δRKπ [27]; ()disc is the         nuclear beta decays [29], one then has
+uncertainty coming from including (D 6= 0) or exclud-
+ing (D = 0) the discretisation term proportional to a2 ;                           |Vus | = 0.22544 (58) .              (17)
+()qQED is our estimate of the uncertainty of the QED
+quenching. This is obtained using the Ansatz (13) with          Thus, using |Vub | = 0.00413 (49) [17] the first-row CKM
+the coefficient Rχ of the chiral log fixed at the value         unitarity is confirmed to be below the per mille level, viz.
+Rχ = αem (Z −3)/4π, which includes the effects of the up,
+down and strange sea-quark charges [11]. The change in                   |Vud |2 + |Vus |2 + |Vub |2 = 0.99985 (49) .   (18)
+   phys
+δRKπ     is ≃ 0.003, which has been already added in the
+central value of Eq. (14). To be conservative, we use twice
+                                                                               ACKNOWLEDGMENTS
+that value for our estimate of the qQED uncertainty.
+                                                      phys
+   Our result (14) can be compared to the value δRKπ       =
+                                                                  We gratefully acknowledge the CPU time provided
+−0.0112 (21) from Refs. [15, 16] adopted by the PDG [17].
+                                                                by PRACE under the project Pra10-2693 and by
+Using in Eq. (5) the experimental Kµ2 and πµ2 decay
+                                                                CINECA under the initiative INFN-LQCD123 on the
+rates [17], we obtain
+                                                                BG/Q system Fermi. V.L., G.M., S.S., C.T. thank
+                   (0)                                          MIUR (Italy) for partial support under the contract
+           Vus fK                                               PRIN 2015P5SBHT. G.M. also acknowledges partial
+                     = 0.27673 (29)exp (23)th ,         (15)
+           Vud fπ(0)                                            support from ERC Ideas Advanced Grant n. 267985
+                                                                “DaMeSyFla”. C.T.S. was partially supported by STFC
+where the first error comes from experiments and the            (UK) grants ST/L000296/1 and ST/P000711/1.
+
+
+
+
+ [1] S. Aoki et al., Eur. Phys. J. C 77 (2017) no.2, 112        [15] J. L. Rosner et al., Submitted to: Particle Data Book
+     [arXiv:1607.00299 [hep-lat]].                                   [arXiv:1509.02220 [hep-ph]].
+ [2] G.M. de Divitiis et al., Phys. Rev. D 87 (2013) no.11,     [16] V. Cirigliano and H. Neufeld, Phys. Lett. B 700 (2011)
+     114505 [arXiv:1303.4896 [hep-lat]].                             7 [arXiv:1102.0563 [hep-ph]].
+ [3] S. Borsanyi et al., Science 347 (2015) 1452                [17] C. Patrignani et al. [Particle Data Group], Chin. Phys.
+     [arXiv:1406.4088 [hep-lat]].                                    C 40 (2016) no.10, 100001.
+ [4] P. Boyle et al., JHEP 1709 (2017) 153 [arXiv:1706.05293    [18] N. Carrasco et al. [ETM Coll.], Nucl. Phys. B 887 (2014)
+     [hep-lat]].                                                     19 [arXiv:1403.4504 [hep-lat]].
+ [5] D. Giusti et al., Phys. Rev. D 95, no. 11, 114504 (2017)   [19] Y. Iwasaki, Nucl. Phys. B 258 (1985) 141.
+     [arXiv:1704.06561 [hep-lat]].                              [20] R. Frezzotti et al. [Alpha Coll.], JHEP 0108 (2001) 058
+ [6] N. Carrasco et al., Phys. Rev. D 91 (2015) no.7, 074506         [hep-lat/0101001].
+     [arXiv:1502.00257 [hep-lat]].                              [21] R. Frezzotti and G.C. Rossi, Nucl. Phys. Proc. Suppl.
+ [7] F. Bloch and A. Nordsieck, Phys. Rev. 52 (1937) 54.             128 (2004) 193 [hep-lat/0311008].
+ [8] N. Cabibbo, Phys. Rev. Lett. 10 (1963) 531.                [22] R. Frezzotti and G.C. Rossi, JHEP 0408 (2004) 007 [hep-
+     M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49              lat/0306014].
+     (1973) 652.                                                [23] R. Frezzotti and G.C. Rossi, JHEP 0410 (2004) 070 [hep-
+ [9] M. Hayakawa and S. Uno, Prog. Theor. Phys. 120 (2008)           lat/0407002].
+     413 [arXiv:0804.2044 [hep-ph]].                            [24] K. Osterwalder and E. Seiler, Ann. Phys. 110 (1978) 440.
+[10] V. Lubicz et al., Phys. Rev. D 95 (2017) no.3, 034504      [25] V. Lubicz et al., PoS LATTICE 2016 (2016) 290
+     [arXiv:1611.08497 [hep-lat]].                                   [arXiv:1610.09668 [hep-lat]].
+[11] J. Bijnens and N. Danielsson, Phys. Rev. D 75 (2007)       [26] S. Simula, PoS CKM 2016 (2017) 032 [arXiv:1704.00510
+     014505 [hep-lat/0610127].                                       [hep-lat]].
+[12] R. Baron et al. [ETM Coll.], JHEP 1006 (2010) 111          [27] D. Giusti et al., in preparation.
+     [arXiv:1004.5284 [hep-lat]].                               [28] G.M. de Divitiis et al., JHEP 1204 (2012) 124
+[13] R. Baron et al. [ETM Coll.], PoS LATTICE 2010 (2010)            [arXiv:1110.6294 [hep-lat]].
+     123 [arXiv:1101.0518 [hep-lat]].                           [29] J. C. Hardy and I. S. Towner, Phys. Rev. C 91 (2015)
+[14] V. Cirigliano and I. Rosell, JHEP 0710 (2007) 005               no.2, 025501 [arXiv:1411.5987 [nucl-ex]].
+     [arXiv:0707.4464 [hep-ph]].
+                                                                                                                        6
+
+                                           SUPPLEMENTAL MATERIAL
+
+   Details of the calculation described in this work will be presented in Ref. [27]. Here, in subsection A we collect
+the main parameters of the simulations performed in the isosymmetric QCD theory in Ref. [18]. These simulations
+correspond to a prescription for the separation between QED and QCD corrections, which is different from that of
+Ref. [2] adopted in this work for the calculation of δRKπ . We show that the two prescriptions differ only by effects
+which are well within the uncertainties of the input parameters of Ref. [18].
+   In subsection B we sketch some of the key points of the numerical analysis and illustrate the quality of the results
+by showing the time-dependence of the most complicated diagrams, i.e. those in Fig. 4(a) and (b) in which a photon
+is exchanged between the quarks and the final-state charged lepton.
+
+
+                                              A. Simulation parameters
+
+  The main parameters of the simulations performed within isosymmetric QCD in Ref. [18] are collected in Table I.
+
+                  ensemble β       V /a4   aµud    aµσ     aµδ   Ncf    aµs    Mπ (MeV) MK (MeV)
+                   A40.40 1.90 403 · 80 0.0040 0.15        0.19 100 0.02363     317(12)      576(22)
+                   A30.32      323 · 64 0.0030                  150             275(10)      568(22)
+                   A40.32               0.0040                  100             316(12)      578(22)
+                   A50.32               0.0050                  150             350(13)      586(22)
+                                 3
+                   A40.24      24 · 48 0.0040                   150             322(13)      582(23)
+                   A60.24               0.0060                  150             386(15)      599(23)
+                   A80.24               0.0080                  150             442(17)      618(14)
+                   A100.24              0.0100                  150             495(19)      639(24)
+                   A40.20      203 · 48 0.0040                  150             330(13)      586(23)
+                   B25.32 1.95 323 · 64 0.0025 0.135 0.170 150 0.02094          259 (9)      546(19)
+                   B35.32               0.0035             150                  302(10)      555(19)
+                   B55.32               0.0055             150                  375(13)      578(20)
+                   B75.32               0.0075              80                  436(15)      599(21)
+                                 3
+                   B85.24      24 · 48 0.0085              150                  468(16)      613(21)
+                   D15.48 2.10 483 · 96 0.0015 0.1200 0.1385 100 0.01612         223 (6)     529(14)
+                   D20.48               0.0020               100                 256 (7)     535(14)
+                   D30.48               0.0030               100                 312 (8)     550(14)
+
+
+TABLE I: Values of the valence and sea bare quark masses (in lattice units), of the pion and kaon masses for the
+Nf = 2 + 1 + 1 ETMC gauge ensembles used in Ref. [18] and for the gauge ensemble, A40.40 added to improve
+the investigation of FVEs. A separation of 20 trajectories between each of the Ncf analysed configurations. The
+bare twisted masses µσ and µδ describe the strange and charm sea doublet according to Ref. [21]. The values of the
+strange quark bare mass aµs , given for each β, correspond to the physical strange quark mass mphys
+                                                                                                s   (MS, 2 GeV) =
+99.6(4.3) MeV and to the mass renormalization constants determined in Ref. [18]. The central values and errors of
+pion and kaon masses are evaluated using the bootstrap procedure of Ref. [18].
+
+  Three values of the inverse bare lattice coupling β and several lattice volumes have been considered. For the earlier
+investigation of FVEs ETMC had produced three dedicated ensembles, A40.20, A40.24 and A40.32, which share the
+same quark masses and lattice spacing and differ only in the lattice size L. To improve the present investigation we
+have generated a further gauge ensemble, A40.40, at a larger value of L.
+  At each lattice spacing different values of the light sea quark mass have been considered. The light valence and sea
+bare quark masses are always taken to be degenerate (aµsea            val
+                                                            ud = aµud = aµud ).
+  In Ref. [18] the values of the physical u/d and strange quark masses, mphys       ud (MS, 2 GeV) = 3.70(17) MeV and
+mphys
+  s   (MS,  2 GeV) = 99.6(4.3)  MeV,  as well as the values of the lattice spacing, a = 0.0885(36), 0.0815(30), 0.0619(18)
+                                                                                                                           7
+
+fm at β = 1.90, 1.95 and 2.10, have been determined using the following inputs for the isosymmetric QCD theory:
+   (0)                           (0)                     (0)
+Mπ = Mπ0 = 134.98 MeV, MK = 494.2 MeV and fπ = 130.41 MeV. The first two inputs correspond to the values
+                                                             (0)
+suggested in the FLAG reviews [1], while the value of fπ corresponds to the use of the experimental rate Γ(πµ2 ),
+the value of |Vud | from Ref. [29] and the value δRπ = 0.0176 (21) obtained in ChPT [15, 16] and currently adopted
+by the PDG [17].
+  We will refer to the choice of the above three hadronic inputs as the FLAG/PDG prescription, which differs from
+that of Ref. [2] adopted in this work. We now show that the differences between the two prescriptions are well within
+the uncertainties of the input parameters of Ref. [18].
+  In Ref. [5] we have calculated the leading-order QED and QCD corrections to the pion and kaon masses within
+the prescription of Ref. [2]. Consequently, also the isosymmetric pion and kaon masses corresponding to the above
+                                                   (0)                     (0)
+prescription have been evaluated, obtaining Mπ = 134.9 (2) MeV, MK = 494.4 (1) MeV. These values differs only
+very slightly from the corresponding inputs used in the FLAG/PDG prescription.
+  In Ref. [27] we shall provide our result for δRπ , which differs slightly from the one obtained in ChPT [15, 16] and
+                                                   (0)                                                        (0)
+adopted by the PDG [17]. Since the quantity [fπ ]2 (1 + δRπ ) is prescription free, the resulting change of [fπ ]2 turns
+                                              (0)   (0)
+out to be less than 0.5%. Given that [Mπ /fπ ]2 ∝ mphys       ud  + O([mphys   2
+                                                                          ud ] ), the change of the renormalized quark
+         phys
+mass mud is less than 0.02 MeV and, analogously, the change in mphys       s     is less than 0.5 MeV. Such variations of
+the physical u/d and strange quark masses produce changes in δRπ and δRKπ , which are, however, well within the
+statistical uncertainties, as can be easily inferred from Fig. 6 in the case of δRKπ .
+  The above findings indicate that the prescription of Ref. [2] and the FLAG/PDG one differ only by effects which are
+well within the uncertainties of the input parameters of Ref. [18]. This justifies the use of the FLAG average for the
+        (0)   (0)
+ratio fK /fπ to get Eq. (15) as well as the comparison of our result (14) with the ChPT prediction of Refs. [15, 16].
+
+
+                                                                                        (0)
+                                               B. Evaluation of δAµ
+                                                                  P /δAP
+
+
+  The evaluation of the diagrams 4(a) and (b), corresponding to the term δA`P , starts from the correlator δCP` (t)
+defined as
+                                               X
+                                     δC` (t) =    uν` α (pν` )C 1 (t)αβ v`β (p` ) ,                          (19)
+                                                          αβ
+
+
+where C 1 (t)αβ is given by Eq. (35) of Ref. [6], while t is the time distance between the P-meson source and the
+insertion of the weak (V-A) current. At large time distances and for T → ∞ one has
+                                                                (0)
+                                                               ZP δA`P                  (0)
+                                             δC` (t) −−→
+                                                     ta          (0)
+                                                                             XP` e−MP t ,                               (20)
+                                                                2MP
+                                               
+where XP` = T r γ0 (1 − γ5 )``γ0 (1 − γ5 )ν` ν ` is the tree-level leptonic trace evaluated on the lattice [27]. Analogously,
+                                                                                                                       (0)
+in the absence of the photon exchange between the quarks and the final-state lepton, the tree-level correlator C` (t)
+behaves at large time separations as
+                                                                (0)    (0)
+                                              (0)              Z P AP                   (0)
+                                            C` (t) −−→
+                                                   ta            (0)
+                                                                             XP` e−MP t .                               (21)
+                                                                2MP
+
+Thus, the ratio
+
+                                                  `             δC` (t)            δA`P
+                                                δRP (t) ≡        (0)
+                                                                             −−→
+                                                                             ta    (0)
+                                                                                                                        (22)
+                                                                C` (t)             AP
+                                                    (0)                          `=µ
+should exhibit a plateau at the value δA`P /AP . The quality of the signal for δRP   (t) is illustrated in Fig. 7 for
+charged kaon and pion decays into muons in the case of the ensemble D30.48.
+                                                                                                                   8
+
+
+             0.012
+
+
+
+
+             0.009                                                                +
+                                                                              π
+
+
+
+
+    δR (t)
+                                                                     +
+    µ
+        P    0.006                                               K
+
+
+                                                                M ~ 310 MeV
+                                                                  π
+             0.003
+                                    D30.48
+                                                                M ~ 550 MeV
+                                                                  K
+
+
+             0.000
+                      0               10                20               30               40                50
+                                                               t/a
+                                 µ
+FIG. 7: Results for the ratio δRP  (t), given by Eq. (22), in the case of kaon and pion decays to muons for the gauge
+ensemble D30.48. The vertical dashed lines indicate the time region used for the extraction of the amplitude ratio
+       (0)
+δAµP /AP . Errors are statistical only.
+

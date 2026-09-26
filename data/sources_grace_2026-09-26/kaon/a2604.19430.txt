@@ -1,0 +1,613 @@
+                                           An Update on the Isospin-Breaking Effects in the Pion
+                                           Decay Constant with Staggered Quarks
+
+
+
+
+arXiv:2604.19430v1 [hep-lat] 21 Apr 2026
+                                           Alessandro Cotellucci𝑎,∗ and Davide Giusti𝑎,𝑏 on behalf of the
+                                           Budapest-Marseille-Wuppertal collaboration
+                                            𝑎 Jülich Supercomputing Centre, Forschungszentrum Jülich, D-52428 Jülich, Germany
+
+                                            𝑏 Fakultät für Physik, Universität Regensburg, 93040, Regensburg, Germany
+
+                                              E-mail: a.cotellucci@fz-juelich.de
+
+
+
+                                              We present an update on the ongoing computation of the isospin-breaking effects in the Pion Decay
+                                              Constant from the BMW Collaboration. The calculation is carried out with N 𝑓 =2+1+1 staggered
+                                              quarks with a near-physical pion mass and QEDL . We give an update on the isosymmetric value
+                                              and the current determination used to compute the gradient-flow scale 𝑤 0 , then we present some
+                                              preliminary results of the valence-valence contribution to the axial-pseudoscalar correlator for
+                                              different volumes and lattice spacings. We also discuss the next steps and plans.
+
+
+
+
+                                           The 42nd International Symposium on Lattice Field Theory (LATTICE2025)
+                                           2-8 November 2025
+                                           Tata Institute of Fundamental Research, Mumbai, India
+
+                                                ∗ Speaker
+
+
+                                           © Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives
+                                           4.0 International License (CC BY-NC-ND 4.0) All rights for text and data mining, AI training, and similar technologies for
+                                           commercial purposes, are reserved. ISSN 1824-8039 . Published by SISSA Medialab.                                             https://pos.sissa.it/
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks                                    Alessandro Cotellucci
+
+
+1. Motivations
+
+     The unitarity of the first row of the CKM matrix is an open problem in precision flavour physics,
+as shown in Figure 1 from [1]. At a current level of precision, isospin-breaking effects become
+relevant.
+
+
+
+                       0.228
+
+                       0.226
+
+                       0.224
+               |Vus|
+                       0.222
+                                                        lattice results for f + (0), Nf = 2 + 1 + 1
+                       0.220                            lattice results for fK ± /f ± , Nf = 2 + 1 + 1
+                                                        lattice results for f + (0), Nf = 2 + 1
+                                                        lattice results for fK ± /f ± , Nf = 2 + 1
+                                                        lattice results for Nf = 2 + 1 + 1 combined
+                       0.218                            lattice results for Nf = 2 + 1 combined
+                                                        nuclear decay
+                          0.955           0.960       0.965           0.970         0.975           0.980
+                                                              |Vud|
+Figure 1: Status of the determination of the 𝑉𝑢𝑑 and 𝑉𝑢𝑠 elements of the CKM matrix as reported by the
+Flavour Lattice Averaging Group [1].
+
+    In Isosymmetric QCD the pion decay constant 𝑓 𝜋 is defined by the hadronic matrix element:
+                                                               ® = 𝑀𝜋 𝑓𝜋 .
+                                             ⟨0| ¯𝑢𝛾4 𝛾5 𝑑 |𝜋( 0)⟩                                                         (1)
+
+To compute the pion decay constant in QCD+QED 𝐹 𝜋 one needs to consider the leptonic decay
+rate 𝜋 + → 𝑙 + 𝜈𝑙 (𝛾), in the PDG parametrization it is:
+                                                 Γ 𝜋 + →𝑙+ 𝜈𝑙 (𝛾)
+                               𝐹 𝜋2 =                        
+                                                                              2
+                                                                       2 = 𝑓 𝜋 [1 + 𝛿𝑅 𝜋 ]                                (2)
+                                        𝐺F2                       𝑚𝑙2
+                                        8 𝜋 |𝑉𝑢𝑑 | 𝑀 𝜋 𝑚 𝑙 1 − 𝑀 2
+                                                  2       2
+                                                                       𝜋
+
+
+with 𝛿𝑅 𝜋 the isospin-breaking correction to the decay constant. The full computation of 𝛿𝑅 𝜋
+requires the renormalization of the electroweak hamiltonian:
+                                    𝐺F ∗  ¯ 𝜇                            
+                               H𝑊 = √ 𝑉𝑢𝑑 𝑑𝛾 (1 − 𝛾5 ) 𝑢 𝜈¯𝑙 𝛾 𝜇 (1 − 𝛾5 ) 𝑙 .                                             (3)
+                                     2
+There is one lattice computation of the isospin-breaking corrections in the pion and kaon decay
+constants by the RM123-Southampton collaboration [2]. In the ratio 𝑓𝐾 / 𝑓 𝜋 the renormalization
+constant cancel (in a massless scheme) so there are more lattice computations of the correction
+to the latter, from the RM123-Southampton collaboration [3], from RBC-UKQCD [4] and a more
+recent from RBC-UKQCD with QED∞ [5].
+     The pion decay constant 𝐹 𝜋 is used for the scale setting in the BMW/DMZ determination of
+the anomalous magnetic moment of the muon [6].
+
+
+                                                               2
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks                              Alessandro Cotellucci
+
+
+2. Mixed Determination
+
+     The isospin-breaking effects in the pion decay constant are computed by combining the work
+from the RM123-Southampton collaboration [2] and the BMW results for isosymmetric QCD and
+the sea quark IBE.
+     The dependency of the pion decay constant in units of 𝑤 0 on the quark electric charge and bare
+quark masses is parametrized as follows (up to higher order effects):
+                                                                             
+                    𝑤 0 𝐹 𝜋 =𝐴 + 𝐵𝐹 𝜋−2 𝑀 𝜋2 + + 𝐶𝐹 𝜋−2 𝑀𝐾2 ± + 𝑀𝐾2 0 − 𝑀 𝜋2 ± /2
+                                                                                                 (4)
+                             + 𝐸𝑒 2𝑣 + 𝐹𝑒 𝑣 𝑒 𝑠 + 𝐺𝑒 2𝑠
+where 𝑒 𝑣 and 𝑒 𝑠 are, respectively, the valence and sea quark charges. The coefficients 𝐵 and 𝐶 are
+mass derivatives and are computed in QCD. The coefficients 𝐸, 𝐹 and 𝐺 are the valence-valence,
+sea-valence and sea-sea derivatives.
+     Once all the coefficients in Eq. (4) are determined, the parametrization can be split into the
+QCD+seaQED and the valQED part:
+
+                           [𝑤 0 𝐹 𝜋 ] QCD+QED = [𝑤 0 𝐹 𝜋 ] QCD+seaQED + [𝑤 0 𝐹 𝜋 ] valQED ,                                  (5)
+
+both of the terms on the right-hand side are dependent on the scheme used to define QCD. It is
+fundamental to remember that 𝑤 0 has not valence quak isopsin-breaking effects so [𝑤 0 𝐹 𝜋 ] valQED
+includes only the valence quark IBE on 𝐹 𝜋 . The quantity [𝑤 0 𝐹 𝜋 ] QCD+seaQED is determined with
+the BMW data, but the valence contribution is computed from the RM123-Southampton result1 .
+     To combine the two results, the same scheme has to be employed. The work [2] is defined in
+the GRS scheme by the quantities [7]:
+
+                                                  [𝑀 𝜋 ] GRS =135.0(2) MeV
+                                                        GRS
+                                       1
+                                         (𝑀𝐾 ± + 𝑀𝐾 0 )       =494.6(1) MeV
+                                       2                                                                                     (6)
+                                                                GRS
+                                                        [ 𝑓𝜋]         =130.65(12) MeV
+                                                                GRS
+                                                      [𝛿𝑅 𝜋 ]         =0.0153(19) 2 .
+Since they were working in the electroquenched approximation, which neglects the sea quark IBE,
+the QCD result includes the sea quark isospin-breaking effects following:
+                                               phys
+                              [∗] GRS = [∗] QCD+QED − [∗] GRS          GRS
+                                                          valQED = [∗] QCD+seaQED .                                          (7)
+   1 The valence QED contribution to the pion decay rate from Ref. [2] is given in a GRS scheme in which the quark
+
+masses, renormalized at 𝜇 = 2 GeV in MS, remain constant as the electromagnetic coupling is turned on or off and the
+overall lattice scale is fixed using 𝑓 𝜋 . In the electroquenched approximation adopted there valence QED corrections do
+not affect the renormalization of the strong coupling – i.e. the GRS condition [ 𝑔b𝑠 ] QCD (𝜇) = [ 𝑔b𝑠 ] QCD+valQED (𝜇) (∗),
+where b indicates the quantities renormalized in the respective theories, holds trivially – and thus do not change the
+lattice spacing from its pure QCD value at fixed 𝛽. We stress that in the full QCD+QED calculation presented here the
+lattice scale is consistently set using 𝐹 𝜋 and, since the purely gluonic quantity 𝑤 0 is free of valence QED contributions
+– viz. a relation similar to (∗) occurs for 𝑤 0 as well –, it is justified to use the value of 𝛿𝑅 𝜋 from Ref. [2] as input in our
+computation to evaluate the term [𝑤 0 𝐹 𝜋 ] QCD+valQED /[𝑤 0 𝐹 𝜋 ] QCD and Eq. (8) without introducing scheme ambiguities.
+    2 The value used for our determination of 𝑤 𝐹 is 𝛿𝑅 = 0.0150(18), it does not include the original 𝜒PT estimate
+                                                    0 𝜋        𝜋
+of the sea-quark IBE.
+
+
+                                                                 3
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks                                Alessandro Cotellucci
+
+
+Using the parametrization (4), the identity (7) can be used to evaluate [𝑤 0 𝐹 𝜋 ] GRS
+                                                                                   QCD+seaQED which can
+                                                                                        2
+                                                                                           
+then be combined with the RM123S results using the relation, up to negligible 𝑂 𝛼em corrections:
+
+                                                                                   √︃
+                      [𝑤 0 𝐹 𝜋 ] QCD+QED = [𝑤 0 𝐹 𝜋 ] GRS
+                                                      QCD+seaQED                     1 + [𝛿𝑅 𝜋 ] GRS .                 (8)
+
+
+
+3. Isosymmetric QCD value in the FLAG scheme
+
+     The isosymmetric QCD value of 𝑤 0 𝑓 𝜋 is computed using the ensembles of the BMW collab-
+oration shown in Figure 2 with QCD tree-level Symanzik action for the gauge field and N 𝑓 =2+1+1
+Staggered fermions coupled with 4 levels of stout smearing with radius 𝜌 = 0.125. The decay
+constant is computed from the pseudoscalar two-point function through the chiral WTI.
+
+
+                                                  1.08      Physical point
+                                                            β = 3.7000
+                                                  1.06
+
+                           2 −2     2 −2
+                                                            β = 3.7500
+
+
+
+
+                          Mss fπ /[Mss fπ ]phys
+                                                            β = 3.7753
+                                                  1.04      β = 3.8400
+                                                            β = 3.9200
+                                                  1.02      β = 4.0126
+                                                            β = 4.1479
+                                                  1.00
+
+                                                  0.98
+
+                                                     0.90 0.92 0.94 0.96 0.98 1.00 1.02 1.04 1.06
+                                                                   Mll2 fπ−2 /[Mll2 fπ−2 ]phys
+
+
+Figure 2: Landscape of the ensembles used for the isoQCD determination of 𝑤 0 𝑓 𝜋 around the physical
+point from [6].
+
+
+     The analysis follows the strategy presented in [8]. To have a better control over the continuum
+extrapolation we add the determination of 𝑤 0 using the Zeuthen-flow [9] in addition to the Wilson-
+flow [10], Figure 3 shows the continum extrapolation of 𝑤 0 𝑓 𝜋 in the lattice spacing and in the
+taste-breaking term and the relative probability distribution function of both the statistical and
+sistematic effect. The result is presented in the FLAG scheme [11].
+     Table 1 shows the breakdown of the total error on 𝑤 0 𝑓 𝜋 . The uncertainty is dominated by the
+systematic error and, in particular, the biggest contribution is represented by the continuum extrap-
+olation under the entries: Type of gradient flow, Lattice spacing cuts and Order of fit polynomials.
+To improve the determination, we are generating data at a finer value of the lattice spacing. Other
+sources of systematic error listed are: Pseudoscalar fits (effects of the fit range of the effective pion
+decay constant) and Finite volume 𝜒PT order (the difference in the finite volume effects between
+NLO and NNLO 𝜒PT).
+     The isosymmetric part of 𝑤 0 𝑓 𝜋 is determined with a 0.23% precision, thus making it necessary
+to include IBE.
+
+
+                                                                         4
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks                                                                             Alessandro Cotellucci
+
+
+                                0.115
+                                                                                                Wilson flow
+                                0.114                                                           Zeuthen flow          100
+
+
+
+
+                                                                                                                              Normalised weight
+                                0.113                                                                                 10−1
+                       w 0 fπ
+                                0.112                                                                                 10−2
+                                0.111
+                                                                                                                      10−3
+                                0.110
+                                   0.000    0.005      0.010     0.015     0              1             2
+                                                    a2 / fm2                              ∆KS / fπ2
+
+
+                                                                                                            PDF
+                                                                                                            Median
+                                                                                                            68.3%
+                                                                                                            95.4%
+
+
+
+
+                                             0.1138     0.1140    0.1142   0.1144    0.1146    0.1148   0.1150
+                                                                           w 0 fπ
+
+
+
+Figure 3: Continuum limit extrapolation of the iso QCD value of 𝑤 0 𝑓 𝜋 . The upper plot represents the
+continuum extrapolation both in the lattice spacing and in the taste-symmetry breaking terms Δ𝐾 𝑆 (computed
+by comparing the masses of different meson tastes on our ensembles); in the lower plot the probability
+distribution function (PDF) including both statistical and systematic variations is shown in red.
+
+                                        Median                                            0.11438
+                                        Total error                                 0.00026 0.22736 %
+                                        Statistical error                           0.00012 0.10786 %
+                                        Systematic error                            0.00023 0.20015 %
+                                        Type of gradient flow                       0.00013 0.10966 %
+                                        Pseudoscalar fits                           0.00004 0.03144 %
+                                        Finite volume 𝜒PT order                     0.00001 0.01023 %
+                                        Lattice spacing cuts                        0.00006 0.04956 %
+                                        Order of fit polynomials                    0.00019 0.16215 %
+
+Table 1: Error budget of the isoQCD value of 𝑤 0 𝑓 𝜋 . The first row contains the median value, from the
+second on the errors are presented with the value and the percentage relative value. The last five rows present
+a breakdown of the systematic error on 𝑤 0 𝑓 𝜋 .
+
+
+4. Sea Quark Isospin-Breaking Effects
+
+     As mentioned in Section 2, the sea quark isospin-breaking effects to 𝑤 0 𝐹 𝜋 are determined
+using the BMW ensemble. The sea-sea diagrams contributing to the electromagnetic derivative of
+the pion decay constant are:
+
+                                    𝑢                   𝑙+       𝑢                   𝑙+        𝑢                     𝑙+
+                                                                                                                          .                                         (9)
+                                    𝑑                   𝜈𝑙       𝑑                   𝜈𝑙        𝑑                     𝜈𝑙
+
+The renormalized sea quark electromagnetic derivative is computed by cancelling the UV-divergence
+with the one coming from the scheme observables in the parametrization (4) following the conven-
+tion from [12].
+
+
+                                                                               5
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks                                                                                                       Alessandro Cotellucci
+
+
+     The diagrams are estimated using QEDL in Coulomb gauge and the ensembles listed in Table
+2.
+
+          action                                            𝛽          𝑎 [fm]        𝐿/𝑎 × 𝑇/𝑎                                            tag             𝑎𝑚 𝑠            𝑚 𝑠 /𝑚 𝑙      #meas
+          4stout                                     3.7000            0.1315         24 × 48                      volume/24                            0.057291          27.899         716
+                                                                                      48 × 64                      volume/48                            0.057291          27.899         300
+                                                     3.7753            0.1116         28 × 56                        dir00                              0.047615          27.843         887
+                                                     3.8400            0.0952         32 × 64                        dir00                              0.043194          28.500        1110
+                                                                                                                     dir02                              0.043194          30.205        1072
+                                                                                                                     dir04                              0.040750          28.007        1036
+                                                                                                                     dir05                              0.039130          26.893        1035
+           4hex                                      0.7300            0.1120         56 × 84                              phys2/56                     0.06061           33.728        1305
+
+      Table 2: Set of ensembles used for the computation of the sea quark isospin-breaking effects.
+
+
+
+
+                                                    0.004                                                                                0.004
+                                                                                       4stout                                                                             4stout
+                                                                                       4HEX                                                                               4HEX
+                                                    0.003                                                                                0.003
+
+
+
+
+               e2s ∂ 2 [Fπ w0 ]/∂e2s × [fπ w0 ]−1                                                   e2s ∂ 2 [Fπ w0 ]/∂e2s × [fπ w0 ]−1
+                                                    0.002                                                                                0.002
+
+
+                                                    0.001                                                                                0.001
+
+
+                                                    0.000                                                                                0.000
+
+
+                                          −0.001                                                                               −0.001
+                                                            0.00            0.01             0.02                                                0.00    0.05      0.10          0.15
+                                                                          a2 / fm2                                                                        1/L2 / fm−2
+
+
+Figure 4: Renormalized sea quark electromagnetic derivative of 𝑤 0 𝐹 𝜋 divided by its QCD value. The left
+panel shows the continuum, the right panel the infinite volume extrapolation.
+
+
+    Figure 4 shows the effect of the sea derivative relative to the isosymmetric QCD value of 𝑤 0 𝐹 𝜋 .
+As can be seen by the plot, the sea quark IBE in the continuum is about 0.1% of the isosymmetric
+value, and it shows a flat behaviour in the continuum limit and power-law finite volume effects of
+               
+order 𝑂 1/𝐿 2 as the leading order structure-dependent finite volume effects [13].
+     The sea-valence IBE, including the following diagrams:
+
+
+                                                                                 𝑙+      𝑢                                                𝑙+                     𝑙+
+                                                                   𝑢                                                                               𝑢
+                                                                                                                                                                      ,                         (10)
+                                                                   𝑑             𝜈𝑙      𝑑                                                𝜈𝑙       𝑑             𝜈𝑙
+
+are estimated to be of the order of 20% compared to the sea-sea derivative and thus neglected in
+our computation.
+
+
+                                                                                                    6
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks            Alessandro Cotellucci
+
+
+5. Total Error Budget
+
+     Combining the results for the isoQCD and the IBE as mentioned in Section 2 we obtain the
+following preliminary QCD+QED value of 𝑤 0 𝐹 𝜋 :
+
+                      [𝑤 0 𝐹 𝜋 ] QCD+QED = 0.11527(15) (26) [31] (Preliminary),                    (11)
+
+where the first error is the statistical, the second is systematic, and the latter is the combined total
+error. The systematic error consists of the following elements:
+
+                      (26) = (23)QCD (11)QED-Valence (5)QED-Sea (Preliminary).                     (12)
+
+The QCD error dominates the final uncertainty, while the QED error is dominated by the valence
+QED value.
+    Combining 𝑤 0 𝐹 𝜋 with the QCD+QED value of 𝐹 𝜋 = 131.711(45) MeV (obtained using
+𝑉𝑢𝑑 = 0.97367(32) and Γ = 3.8408(7) × 107 s−1 from [14]) we get the following value of 𝑤 0 :
+
+                      [𝑤 0 ] QCD+QED = 0.17270(22) (40) [46] fm (Preliminary).                     (13)
+
+    The systematic error is made by the following contributions:
+
+                   (40) = (34)QCD (17)QED-Valence (8)QED-Sea (7)exp (Preliminary),                 (14)
+
+where the additional systematic error exp accounts for the experimental value of 𝐹 𝜋 . We are
+working on improving the QCD error and improving the valence QED determination by providing
+an independent determination of 𝛿𝑅 𝜋 and by checking the power-law finite volume effects in light
+of the work from [15].
+
+6. Ongoing Work on the Valence Quark Isospin-Breaking Effects
+
+     The valence-quark IBE in the pion decay constant requires the computation of the non-
+factorizable diagrams:
+                               𝑢         𝑙+ 𝑢            𝑙+
+                                                                                      (15)
+                               𝑑         𝜈𝑙   𝑑          𝜈𝑙
+(actively involving the lepton) and the factorizable ones; we present some preliminary results of the
+factorizable diagrams. The factorizable valence contributions to the electromagnetic derivative of
+the pion decay constant are given by the following diagrams:
+
+           𝑢           𝑙+ 𝑢             𝑙+ 𝑢            𝑙+ 𝑢            𝑙+ 𝑢             𝑙+
+                                                                                              .    (16)
+           𝑑           𝜈𝑙   𝑑           𝜈𝑙   𝑑          𝜈𝑙   𝑑          𝜈𝑙   𝑑           𝜈𝑙
+
+The diagrams are computed using sequential propagators and 16 photon sources in Coulomb gauge
+and 3 U(1) random sources. The zeroth mode of the photon is removed following the QEDL
+prescription. We use the ensembles listed in Table 3. We tested the program by comparing it with
+numerical derivatives at a fixed random source and photon source.
+
+
+                                                   7
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks                                                    Alessandro Cotellucci
+
+
+     The correction is obtained by expanding the axial-pseudoscalar (using the conserved axial
+current) and pseudoscalar-pseudoscalar two-point function:
+                     𝑃 𝐴4
+                   𝐺 𝑢𝑑   (𝑥4 ) 2                                                   sinh2 [𝑀 𝜋 (𝑇/2 − 𝑥 4 − 1/2)]
+                                             = 𝑀 𝜋 𝑍 𝐴−2 𝐹 𝜋2 𝑒 − 𝑀 𝜋 𝑇/2                                                                 (17)
+                      𝑃 𝑃 (𝑥 )
+                    𝐺 𝑢𝑑    4                                                          cosh [𝑀 𝜋 (𝑇/2 − 𝑥 4 )]
+
+where 𝑇 is the temporal exension and 𝑍 𝐴 is the renormalization constant which is not considered in
+these results and, thus, it is left for future work.
+          action             𝛽              𝑎 [fm]        𝐿/𝑎 × 𝑇/𝑎                    tag               𝑎𝑚 𝑠         𝑚 𝑠 /𝑚 𝑙   #confs
+         4stout      3.7000                 0.1315         24 × 48                 volume/24          0.057291        27.899      48
+                                                           32 × 64                 volume/32          0.057291        27.899      48
+                                                           48 × 64                 volume/48          0.057291        27.899      48
+                                                           64 × 64                 volume/64          0.057291        27.899      48
+                     3.8400                 0.0952         64 × 96                   dir00            0.043194        28.500      48
+
+   Table 3: Set of ensembles used for the computation of the valence quarks isospin-breaking effects.
+
+     Figure 5 shows the preliminary result for the effective factorizable valence derivative for the
+four different volumes considered.
+                                                                E.M. derivative a = 0.1315 fm
+                                                                   L =3.2 fm        0.02                         L =4.2 fm
+                                     0.0
+                                                                                  0.01
+                       ∂ 2 w0Fπef f /∂e2v                      ry                                             nar
+                                                                                                                 y
+                                 −0.1
+                                                          m ina                     0.00                     i
+                                                       eli                                             e lim
+                                 −0.2
+                                                  Pr                               −0.01            P r
+                                                                                   −0.02
+
+                                  0.02                             L =6.3 fm       0.020                         L =8.4 fm
+
+                                
+                                                                       y                                         ry
+                     ∂ 2 w0Fπef f /∂e2v                      nar
+                                                                                   0.015
+                                  0.01
+                                                            i                                                 ina
+                                  0.00            Pr   elim                        0.010
+                                                                                                    Pre
+                                                                                                        lim
+                                                                                   0.005
+                               −0.01
+                                              1         2          3       4                    1       2        3      4
+                                                        x4/fm                                           x4/fm
+
+
+Figure 5: Factorizable valence electromagnetic derivative of 𝑤 0 𝐹 𝜋 for 𝑎 = 0.1315 fm. The preliminary
+results for the four volumes are shown.
+
+     Figure 6 shows the preliminary result for the effective factorizable valence derivative for the
+finer value of the lattice spacing. The effective derivative presents a clear plateau at large time
+separation, showing little excited states contamination and little oscillating contribution.
+
+7. Conclusions & Outlook
+
+    In this Proceedings, we have presented the results of the current determination of the pion
+decay constant in QCD+QED by the BMW collaboration for the determination of the scale setting
+quantity 𝑤 0 , the preliminary value is:
+
+                          [𝑤 0 ] QCD+QED = 0.17270(22) (40) [46] fm (Preliminary),                                                        (18)
+
+
+                                                                               8
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks                                                  Alessandro Cotellucci
+
+
+                                                         E.M. derivative a = 0.0952 fm, L = 6.1 fm
+
+
+
+
+                                  0.020
+
+
+
+                                   
+                                                                                             a ry
+                                                                                           in
+                                  0.015
+                        ∂ 2 w0Fπef f /∂e2v
+
+
+
+                                                                  e l im
+                                                               Pr
+                                  0.010
+
+
+
+                                  0.005
+
+
+
+                                             0.5   1.0        1.5       2.0          2.5     3.0     3.5   4.0   4.5
+                                                                                  x4/fm
+
+
+
+         Figure 6: Factorizable valence electromagnetic derivative of 𝑤 0 𝐹 𝜋 for 𝑎 = 0.0952 fm.
+
+
+where the precision is dominated by the continuum extrapolation of the isosymmetric part. The
+determination of isospin-breaking effects was done by combining sea quark effects from BMW
+ensembles and the valence-quark effects from the RM123 work.
+     We are working on improving the continuum extrapolation (by adding a finer lattice spacing)
+and on a completely independent determination of the valence effects, which will include the sea-
+valence (that have been estimated to be suppressed). This requires the determination of the non-
+factorizable diagrams involving the leptons and the renormalization of the electroweak Hamiltonian.
+The authors of [4, 15] showed the poor convergence of the series of finite volume effects to the pion
+decay constant in QEDL , for this reason, we plan a detailed study of the finite volume effects using
+different volumes (up to 10.8 fm).
+
+
+
+Acknowledgments
+
+     DG thanks Nazario Tantalo for useful discussions on the GRS scheme. The authors gratefully
+acknowledge the Gauss Centre for Supercomputing (GCS) e.V. (www.gauss-centre.eu),
+GENCI (www.genci.fr, grant 502275), EuroHPC Joint Undertaking (grants EXT-2023E02-063,
+EXT-2024E02-109) and Australian National Computational Merit Allocation Scheme for
+providing computer time on the GCS supercomputers SuperMUC-NG at Leibniz Supercomputing
+Centre in München, HAWK and HUNTER at the High Performance Computing Center in
+Stuttgart and JUWELS, JURECA and JUPITER at Forschungszentrum Jülich, as well as on the
+GENCI supercomputers Joliot-Curie/Irène Rome at TGCC, Jean-Zay V100 at IDRIS, Adastra at
+CINES, on the EuroHPC JU flagship supercomputers Leonardo at CINECA and LUMI at CSC,
+Gadi at NCI and Setonix at PSC. DG is supported by ERC-MUON-101054515.
+
+
+
+References
+
+ [1] (Flavour Lattice Averaging Group (FLAG)), Y. Aoki et al., FLAG Review 2024,
+     2411.04268.
+
+
+                                                                              9
+An Update on the IBE in the Pion Decay Constant with Staggered Quarks          Alessandro Cotellucci
+
+
+ [2] M. Di Carlo, D. Giusti, V. Lubicz, G. Martinelli, C. T. Sachrajda, F. Sanfilippo et al.,
+     Light-meson leptonic decay rates in lattice QCD+QED, Phys. Rev. D 100 (2019) 034514,
+     [1904.08731].
+
+ [3] D. Giusti, V. Lubicz, G. Martinelli, C. T. Sachrajda, F. Sanfilippo, S. Simula et al., First
+     lattice calculation of the QED corrections to leptonic decay rates, Phys. Rev. Lett. 120
+     (2018) 072001, [1711.06537].
+
+ [4] P. Boyle et al., Isospin-breaking corrections to light-meson leptonic decays from lattice
+     simulations at physical quark masses, JHEP 02 (2023) 242, [2211.12865].
+
+ [5] N. H. Christ, X. Feng, T. Izubuchi, L. Jin, C. T. Sachrajda and X.-Y. Tuo, Lattice Calculation
+     of Light Meson Radiative Leptonic Decays, 2510.26993.
+
+ [6] (BMW, DMZ), F. M. Stokes et al., BMW/DMZ calculation of the hadronic vacuum
+     polarisation for the muon magnetic moment, 3, 2026. 2603.03835.
+
+ [7] D. Giusti, V. Lubicz, C. Tarantino, G. Martinelli, F. Sanfilippo, S. Simula et al., Leading
+     isospin-breaking corrections to pion, kaon and charmed-meson masses with Twisted-Mass
+     fermions, Phys. Rev. D 95 (2017) 114504, [1704.06561].
+
+ [8] A. Boccaletti et al., High precision calculation of the hadronic vacuum polarisation
+     contribution to the muon anomaly, 2407.10913.
+
+ [9] A. Ramos and S. Sint, Symanzik improvement of the gradient flow in lattice gauge theories,
+     Eur. Phys. J. C 76 (2016) 15, [1508.05552].
+
+[10] M. Lüscher, Properties and uses of the Wilson flow in lattice QCD, JHEP 08 (2010) 071,
+     [1006.4518]. [Erratum: JHEP 03, 092 (2014)].
+
+[11] (Flavour Lattice Averaging Group (FLAG)), Y. Aoki et al., FLAG Review 2021, Eur.
+     Phys. J. C 82 (2022) 869, [2111.09849].
+
+[12] S. Borsanyi et al., Leading hadronic contribution to the muon magnetic moment from lattice
+     QCD, Nature 593 (2021) 51–55, [2002.12347].
+
+[13] V. Lubicz, G. Martinelli, C. T. Sachrajda, F. Sanfilippo, S. Simula and N. Tantalo,
+     Finite-Volume QED Corrections to Decay Amplitudes in Lattice QCD, Phys. Rev. D 95
+     (2017) 034504, [1611.08497].
+
+[14] (Particle Data Group), R. L. Workman et al., Review of Particle Physics, PTEP 2022
+     (2022) 083C01.
+
+[15] M. Di Carlo, M. T. Hansen, A. Portelli and N. Hermansson-Truedsson, Relativistic,
+     model-independent determination of electromagnetic finite-size effects beyond the pointlike
+     approximation, Phys. Rev. D 105 (2022) 074509, [2109.05002].
+
+
+
+
+                                                 10
+

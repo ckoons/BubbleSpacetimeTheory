@@ -1,0 +1,585 @@
+                                           Quark mass dependence of doubly heavy tetraquark
+                                           binding
+
+
+                                           W. G. Parrott,𝑎,∗ B. Colquhoun,𝑏 A. Francis,𝑐 R. J. Hudspith,𝑑 R. Lewis𝑎 and K.
+                                           Maltman𝑒, 𝑓
+
+
+
+
+arXiv:2409.11477v1 [hep-lat] 17 Sep 2024
+                                            𝑎 Department of Physics and Astronomy,
+
+                                              York University, Toronto, Ontario, M3J 1P3, Canada
+                                            𝑏 SUPA, School of Physics and Astronomy, University of Glasgow,
+
+                                              Glasgow, G12 8QQ, UK
+                                            𝑐 Institute of Physics, National Yang Ming Chiao Tung University,
+
+                                              30010 Hsinchu, Taiwan
+                                            𝑑 GSI Helmholtzzentrum für Schwerionenforschung,
+
+                                              64291 Darmstadt, Germany
+                                            𝑒 Department of Mathematics and Statistics, York University,
+
+                                              Toronto, Ontario M3J 1P3, Canada
+                                            𝑓 CSSM, University of Adelaide,
+
+                                              Adelaide, SA, 5005, Australia
+                                              E-mail: parrott@yorku.ca, brian.colquhoun@glasgow.ac.uk,
+                                              afrancis.heplat@googlemail.com, renwick.james.hudspith@googlemail.com,
+                                              randy.lewis@yorku.ca, kmaltman@yorku.ca
+
+
+                                              The existence of bound doubly heavy tetraquark states was confirmed by the recent LHCb discovery
+                                              of the doubly charmed 𝑇𝑐𝑐 , less than 1 MeV below the meson pair threshold. Others states with
+                                              two heavy (bottom or charm) quarks could also be bound, perhaps more deeply. Here we discuss
+                                              our previous work, and the improvements in our current, updated analysis of various heavy-heavy-
+                                              light-light tetraquark candidates, including the light and heavy quark mass dependence of the
+                                              binding.
+
+
+
+
+                                           The 41st International Symposium on Lattice Field Theory (LATTICE2024)
+                                           28 July - 3 August 2024
+                                           Liverpool, UK
+
+                                               ∗ Speaker
+
+
+
+                                           © Copyright owned by the author(s) under the terms of the Creative Commons
+                                           Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).       https://pos.sissa.it/
+Quark mass dependence of doubly heavy tetraquark binding                                       W. G. Parrott
+
+
+1. Introduction
+
+       The existence of strong-interaction-stable doubly heavy tetraquarks, 𝑞 1 𝑞 2 ℎ¯ ℎ¯ (where ℎ are
+heavy quarks with 𝑚 ℎ ≥ 𝑚 𝑐 and 𝑞 1 , 𝑞 2 are the light quark flavours respectively) in the heavy mass
+limit 𝑚 ℎ → ∞ has long been suspected [1–3]. Phenomenologically, such states have access to a
+binding contribution from the colour Coulomb interaction between heavy antiquarks in a colour 3𝑐
+configuration, which is proportional to the reduced mass of the heavy antiquark pair. Additional
+binding contributions are present for 𝐽 𝑃 = 1+ or 𝐽 𝑃 = 0+ heavy-heavy-light-light tetraquarks, where
+the light quarks are either 𝐼 = 0 (𝑢𝑑) or 𝐼 = 1/2 (𝑙𝑠, with 𝑙 ∈ {𝑢, 𝑑}). In this case, the light degrees
+of freedom are in the flavor anti-symmetric, colour 3̄𝑐 , light-quark spin 𝐽𝑙 = 0 “good light diquark”
+configuration, known to be attractive from the observed splittings in the heavy baryon spectrum,
+and lattice calculations [4].
+       To what extent this binding survives to physical heavy masses 𝑚 𝑏 ≥ 𝑚 ℎ ≥ 𝑚 𝑐 remains an
+active field of study on the lattice [5–23]. In the case of 𝑢𝑑 𝑐¯ ¯𝑐, a 2021 LHCb measurement [24, 25]
+found a bound 𝐽 𝑃 = 1+ state lying less that 1 MeV below the 𝐷𝐷 ∗ threshold. This binding is
+well below the precision of current lattice calculations, but the finding strongly implies binding in
+similar channels with heavier heavy quarks, such as 𝑢𝑑 𝑏¯ ¯𝑏.
+       These proceedings concern our recent work [26], containing an updated analysis of the 𝑢𝑑 ℎ¯ ℎ,  ¯
+𝑙𝑠 ℎ¯ ℎ,      ¯ and 𝑙𝑠 𝑏¯ ℎ¯ 𝐽 𝑃 = 1+ and 𝐽 𝑃 = 0+ tetraquark states, in the context of the previous work
+      ¯ 𝑢𝑑 𝑏¯ ℎ,
+by the collaboration [8, 12, 27]. We shall begin by briefly summarising the previous work, before
+moving onto the changes and updates made in the present analysis, and the results.
+
+
+2. Previous work
+
+     The work in [26] is the culmination of previous studies [8, 12, 27], which investigated both
+the light and heavy mass dependence of the tetraquark binding, as well as a number of different
+tetraquark channels. Both the previous work and the current update employ PACS-CS 𝑁 𝑓 = 2 + 1
+Wilson-Clover ensembles [28], with 𝑎 −1 = 2.194(10)GeV [29], with Ref. [12] and the current
+update adding new ensembles supplementing the PACS-CS set. Non-Relativistic QCD (NRQCD)
+is used to reach heavy masses above 𝑚 𝑐 .
+
+2.1 Light quark mass dependence
+     The collaboration’s first steps towards our present calculation were taken in [8]. This focused
+on the 𝐽 𝑃 = 1+ 𝑢𝑑 𝑏¯ 𝑏¯ and 𝑙𝑠 𝑏¯ 𝑏¯ tetraquarks, with three values for the pion mass in the calculation
+(𝑀 𝜋 =∈ {165, 299, 415} MeV). Two different operators which should overlap with the tetraquark
+state were used; a meson-meson like operator,
+                                              𝛼𝛽 𝛽                𝜅𝜌 𝜌
+                         𝑀 (𝑥) = 𝑏¯ 𝑎𝛼 (𝑥)𝛾5 𝑢 𝑎 (𝑥) 𝑏¯ 𝑏𝜅 (𝑥)𝛾𝑖 𝑢 𝑏 (𝑥) − 𝑢 ↔ 𝑑,                        (1)
+
+and a diquark-antidiquark like operator,
+                                         𝑇          𝛼𝛽 𝛽                     𝜅𝜌 𝜌  𝑇
+                      𝐷 (𝑥) = 𝑢 𝑎𝛼 (𝑥)        𝐶𝛾5       𝑑 𝑏 (𝑥) 𝑏¯ 𝑎𝜅 (𝑥) 𝐶𝛾𝑖     𝑏¯ 𝑏 (𝑥) ,             (2)
+
+where 𝐶 is the charge conjugation operator.
+
+
+                                                         2
+Quark mass dependence of doubly heavy tetraquark binding                                          W. G. Parrott
+
+
+
+
+Figure 1: Taken from [8], Δ𝐸 (for 𝑢𝑑 𝑏¯ 𝑏)¯ extracted from Eq. (4), from different values of 𝑡, for the two
+Eigenvalues 𝜆1 (red) and 𝜆2 (blue). The final value taken for Δ𝐸 (𝜆1 ) is shown as a red band.
+
+
+
+
+Figure 2: Taken from [8], 𝑢𝑑 𝑏¯ 𝑏¯ and 𝑙𝑠 𝑏¯ 𝑏¯ for the three different 𝑀 𝜋 values, with a linear extrapolation in
+𝑀 𝜋2 shown in red. The red and blue points give the extrapolated value at physical pion mass, the blue one
+excluding the leftmost data point, for which 𝑀 𝜋 𝐿 < 4.
+
+
+
+      The two-point correlation function corresponding to each combination of 𝑀 and 𝐷 at source and
+sink, 𝐶 O1 O2 (𝑡), is combined with the two-point correlation functions for the threshold pseudoscalar
+(𝐶 𝑃 𝑃 (𝑡)) and vector (𝐶𝑉𝑉 (𝑡)) meson states to create a matrix for use in a Generalised Eigenvalue
+Problem (GEVP),                                                           !
+                                             1        𝐶𝐷𝐷 (𝑡) 𝐶𝐷 𝑀 (𝑡)
+                             𝐹 (𝑡) =                                        ,                      (3)
+                                     𝐶 𝑃 𝑃 (𝑡)𝐶𝑉𝑉 (𝑡) 𝐶 𝑀 𝐷 (𝑡) 𝐶 𝑀 𝑀 (𝑡)
+which has a lowest Eigenvalue given by 𝜆1 :
+
+                                            𝐹 (𝑡)𝜈 = 𝜆(𝑡)𝐹 (𝑡0 )𝜈
+                                                                                                              (4)
+                                             𝜆1 (𝑡) = 𝐴𝑒 −Δ𝐸 (𝑡 −𝑡0 ) ,
+
+which can be fitted to extract the splitting between the tetraquark and threshold state Δ𝐸.
+     Fig. 1 is taken from [8], and shows the resulting Δ𝐸 values for different 𝑡 choices in red, as well
+as the final value (red band). These results show plateaus which appear to rise at large 𝑡 values.
+Taking the binding results for the three different ensembles used, a linear fit in 𝑀 𝜋2 is extrapolated
+to the physical pion mass. This fit is shown in Fig. 2, taken from [8]. The fits both appear linear,
+
+
+                                                        3
+Quark mass dependence of doubly heavy tetraquark binding                                            W. G. Parrott
+
+
+
+
+                                                ¯ where the notation 𝑏 ′ ≡ ℎ is used) extracted from Eq. (4),
+Figure 3: Taken from [27]. Left: Δ𝐸 (for 𝑢𝑑 ℎ¯ ℎ,
+from different values of 𝑡 and choices of 𝑚 ℎ , for the Eigenvalue 𝜆1 . The final value taken for Δ𝐸 (𝜆1 ) is
+shown as a black point. Right: Δ𝐸 plateaus for 𝑢𝑑 𝑏¯ ¯𝑐, showing 𝜆1 and 𝜆 2 for the 2 × 2 and 3 × 3 GEVP cases.
+
+
+
+with stronger pion mass dependence visible in the 𝑢𝑑 𝑏¯ 𝑏¯ case. Physical pion mass binding energies
+of 189(10) MeV and 98(7) MeV are quoted for the 𝑢𝑑 𝑏¯ 𝑏¯ and 𝑙𝑠 𝑏¯ 𝑏¯ tetraquarks respectively. These
+results suggest that the tetraquarks are deeply bound relative to the thresholds, and whilst no finite
+volume (FV) analysis is carried out in this paper, the depth of this binding is greater than any
+expected shift from FV effects. This is further supported by the presence of an excited state close
+to threshold.
+
+2.2 Heavy quark mass dependence
+       The next steps were taken in [27]. This work used one ensemble from the previous work with
+𝑀 𝜋 = 299 MeV, and again focused on the 𝐽 𝑝 = 1+ tetraquarks. This time, a variable heavy mass
+was employed, with 𝑎𝑚 ℎ ∈ {0.9, 1.0, 1.2, 1.6, 3.0, 4.0, 8.0, 10.0}, giving 0.1 ≤ 𝑚            𝑚ℎ ≤ 1.8, and four
+                                                                                                𝑏
+
+
+tetraquark channels were studied: 𝑢𝑑 𝑏¯ ¯ℎ, 𝑢𝑑 ℎ¯ ¯ℎ, 𝑙𝑠 𝑏¯ ℎ¯ and 𝑙𝑠 ℎ¯ ¯ℎ. The analysis proceeds as in [8]
+above, but in the 𝑞 1 𝑞 2 𝑏¯ ℎ¯ case, a 3 × 3 matrix is permitted for the GEVP by the exchange 𝑏 ↔ ℎ
+in 𝐷 (𝑥). Higher order Eigenvalues give access to excited states. The Δ𝐸 plateaus in [27] shown
+in Fig. 3, particularly for 𝑢𝑑 𝑏¯ ¯𝑐, exhibit similar behaviour to those in [8], with it hard to determine
+whether or not they are still rising when the noise begins to dominate at large 𝑡 values.
+       The heavy mass dependence of the 𝐽 𝑃 = 1+ binding for 𝑢𝑑 𝑏¯ ℎ,       ¯ 𝑢𝑑 ℎ¯ ℎ,
+                                                                                    ¯ 𝑙𝑠 𝑏¯ ℎ¯ and 𝑙𝑠 ℎ¯ ℎ¯ is shown
+in Fig. 4, with 𝑏 ′ ≡ ℎ. The coloured bands show phenomenologically motivated fit functions, based
+on the colour Coulomb and ‘good-light’ diquark interactions discussed above. See [27] for the
+explicit forms and a detailed discussion.
+       We see the binding increasing with increasing reduced mass, heading off to −∞ for the ℎ¯ ℎ¯
+tetraquarks, and reaching a finite value, accessible to our simulation via a static propagator, in the
+𝑏¯ ℎ¯ cases. This is in keeping with our expectations from phenomenology. We also note that as
+𝑟 ≡ 𝑚 𝑏 /𝑚 ℎ ≡ 𝑚 𝑏 /𝑚 𝑏′ increases for 𝑚 ℎ → 𝑚 𝑐 , the binding becomes much shallower in all cases.
+The explicit calculation of 𝑢𝑑 𝑏¯ ¯𝑐1 reflects this, giving a binding of 38(23) MeV.
+   1using a relativistic action for the 𝑐
+
+
+                                                         4
+Quark mass dependence of doubly heavy tetraquark binding                                                                                                                    W. G. Parrott
+
+
+
+
+Figure 4: Taken from [27]. The heavy mass dependence of the tetraquark binding energies, plotted against
+𝑟 = 𝑚 𝑏 /𝑚 ℎ . Note that 𝑏 ′ ≡ ℎ.
+
+
+
+                                                                                                                           1.05
+                   1.05
+                                                                                                                             1
+
+                     1                                                                                                     0.95
+
+                                                                                                                            0.9
+                   0.95
+
+
+
+
+  a ( meff + ∆ )
+                                                                                                                           0.85
+
+
+
+                                                                                                          a ( meff + ∆ )
+                                                                                                                            0.8
+                    0.9
+                                                                                                                                                              BB*
+                                                                                                                           0.75                                2
+                                                                                                                                                              R = 49
+                   0.85                                        2                                                            0.7                                2
+                                                              R = 1728 ( Wall - Wall )                                                                        R = 36
+                                                               2                                                           0.65                                2
+                    0.8                                       R = 49 ( Wall - Box )                                                                           R = 25
+                                                                                                                            0.6                                2
+                                                               2
+                                                              R = 20 ( Wall - Box )                                                                           R = 16
+                                                                                                                           0.55
+                                                                                                                                                               2
+                   0.75                                        2                                                                                              R =0
+                                                              R =0     ( Wall - Local )
+                                                                                                                            0.5
+
+                    0.7                                                                                                    0.45
+                          2   4   6   8   10   12   14   16     18   20   22   24   26   28   30                                  2   4   6   8   10     12     14     16   18   20
+                                                         t/a                                                                                           t/a
+
+
+
+Figure 5: Taken from [12]. The effective masses of the 𝐵𝑐 meson (left) and 𝑢𝑑 𝑏¯ 𝑏¯ tetraquark (right), for a
+variety of 𝑅 2 choices.
+
+
+
+2.3 Introduction of box sinks and exploration of other tetraquarks
+      In the above analyses, propagators were tied together at a single point (a local sink). However,
+this introduces a bias in the structure of the tetraquark state. The change introduced in [12] was the
+construction of so called ‘box sinks’, the final part of the story leading to our present analysis. This
+involves summing the propagators over all 𝑁 spatial points within a chosen radius, 𝑅,
+                                                                                                   1 ∑︁
+                                                                               𝑆 𝐵,𝑅 (𝑡) =               𝑆(𝑥 + 𝑟, 𝑡).                                                                 (5)
+                                                                                                   𝑁 2 2
+                                                                                                     𝑟 ≤𝑅
+
+In the limit 𝑅 2 = 0, this is equivalent to a local sink, as before, whilst for large values of 𝑅 2 , we
+approach a wall sink, where all spatial points on the lattice are summed over.
+     Fig. 5 shows the effect of varying 𝑅 2 on the effective mass, both for a 𝐵𝑐 meson, and a 𝑢𝑑 𝑏¯ 𝑏¯
+tetraquark. It’s clear that changing the radius of the box sink alters the way that the operator overlaps
+with excited states, and an optimal choice can improve convergence to the ground state significantly.
+
+
+                                                                                                      5
+Quark mass dependence of doubly heavy tetraquark binding                                          W. G. Parrott
+
+
+In addition, including in our analysis multiple radii with different sized excited state contributions
+gives us a much better handle on systematics associated with radius choices.
+        Using the box sink method and one pion mass (192 MeV), [12] studied 𝐽 𝑃 = 1+ and 𝐽 𝑃 = 0+
+tetraquarks for a large number of flavour combinations: 𝑢𝑑 𝑏¯ ¯𝑐, 𝑢𝑑 𝑏¯ 𝑠¯, 𝑢𝑑 𝑠¯ ¯𝑐, 𝑢𝑑 𝑏¯ 𝑏,
+                                                                                            ¯ 𝑙𝑠 𝑏¯ 𝑏,
+                                                                                                    ¯ 𝑠𝑐 𝑏¯ 𝑏¯ and
+𝑙𝑠 𝑏¯ 𝑐¯ in much the same manner as has been discussed above (see [12] for full details).
+        The results of this study were a significant reduction in the bindings of the 𝐽 𝑃 = 1+ 𝑢𝑑 𝑏¯ 𝑏¯ and
+𝑙𝑠 𝑏¯ 𝑏¯ to around 110 and 40 MeV, respectively. This was attributed to a much better convergence to
+the plateau than had been achievable in [8, 27] without the box sinks, as well as the use of larger
+volume ensembles. It was also observed that the 𝑢𝑑 𝑏¯ 𝑐¯ was not deeply bound, but shallow binding
+could not be ruled out without a finite volume analysis. No binding was found in other channels.
+
+
+
+3. Current, updated analysis
+
+     Our latest analysis, [26], takes the box sink method developed in [12], and applies it to the light
+quark and heavy quark mass dependence studies of [8, 27]. Taking the findings of [12], we focus
+our study on 𝐽 𝑃 = 1+ and 𝐽 𝑃 = 0+ tetraquarks of the form 𝑢𝑑 ℎ¯ ℎ,
+                                                                 ¯ 𝑢𝑑 𝑏¯ ℎ,
+                                                                         ¯ 𝑙𝑠 ℎ¯ ℎ¯ and 𝑙𝑠 𝑏¯ ℎ.
+                                                                                              ¯
+      We use the same set of PACS-CS ensembles as above [29], but include two additional ensembles,
+at lighter pion mass, which we have generated with a larger spatial volume of 𝐿/𝑎 = 48, and hence
+a larger minimum 𝑀 𝜋 𝐿 = 3.6. Details of these ensembles are given in Tab. 1, and further details
+
+                   Label        𝑉           𝜅𝑙        𝑁conf × 𝑁src        𝑎𝑀 𝜋           𝑀𝜋 𝐿
+                    E1       323 × 64    0.13700       399 × 4         0.32205(18)       10.3
+                    E2       323 × 64    0.13727       400 × 4         0.26193(19)        8.4
+                    E3       323 × 64    0.13754       400 × 4         0.18960(29)        6.1
+                    E5       323 × 64    0.13770       800 × 4         0.13622(27)        4.4
+                    E7       483 × 64    0.13777        94 × 8         0.08719(47)        4.2
+                    E9       483 × 64    0.13779        88 × 4         0.07536(58)        3.6
+
+
+Table 1: The ensembles used. Ensemble labels and volume in lattice units, 𝑉, are given, as well as 𝜅𝑙 values,
+the statistics in terms of configurations and sources per configuration, the pion mass in lattice units (𝑎𝑀 𝜋 )
+and the 𝑎𝑀 𝜋 𝐿, where 𝐿 is the spatial extent in lattice units. 𝑎 −1 = 2.194(10) GeV from the Ω mass at the
+physical point [29].
+
+
+about their generation can be found in [26].
+     As well as the expanded range of six 𝑀 𝜋 values for the light mass dependence part of the
+study, we employ nine 𝑎𝑚 ℎ values for our heavy mass dependence study, on the E5 ensemble. On
+each ensemble, we use four2 different box sink radii, to ensure good resolution of the ground state,
+as discussed in Sec 2.3. As in [12], we use up to 36 different combinations of source and sink
+operators.
+
+   2Two in the case of E7.
+
+
+                                                        6
+Quark mass dependence of doubly heavy tetraquark binding                                                                                                   W. G. Parrott
+
+
+               0 (M    phys 2
+                           )
+                                                                           0                            −40                                                               −40
+                       π
+
+
+
+
+                                                                                      ∆E[MeV](Mπphys)
+                                                                                                        −60                                                               −60
+
+
+  ∆E[MeV]
+            −50                                                            −50
+                                                                                                        −80                                                     udb̄b̄    −80
+                                                                                                                                                                lsb̄b̄
+
+
+            −100                                                           −100                     −100                                                                  −100
+
+                                                                 udb̄b̄                             −120                                                                  −120
+                                                                 lsb̄b̄
+            −150                                                           −150
+                   0.0              0.2          0.4                                                            2         3    4                 5             6
+                                       Mπ2[GeV2]                                                                              Nens
+
+
+Figure 6: New results from [26]. Left: the updated version of Fig. 2. Right: the result at physical 𝑀 𝜋 when
+𝑁ens data points are included in the fit, with the coloured bands giving our final results.
+
+
+              50                                                           50                             0                                                               0
+               0                                                           0
+                                                                                                        −25                                                               −25
+            −50                                                            −50
+
+  ∆E[MeV]                                                                             ∆E[MeV]
+            −100                                                           −100                         −50                                                               −50
+
+            −150                                                           −150                         −75                                                               −75
+            −200                      udh̄h̄            udb̄h̄
+                                                                 mh = mc
+                                                                           −200                                                             +
+                                                                                                                                    udb̄h̄(1 )                     +
+                                                                                                                                                           udb̄h̄(0 )
+                                      lsh̄h̄            lsb̄h̄                                     −100                             lsb̄h̄(1+)             lsb̄h̄(0+)     −100
+            −250                                                           −250
+                   0            1                   2            3                                        0.0       0.5       1.0                    1.5                2.0
+                                               rh                                                                             rh
+
+
+Figure 7: New results from [26]. Left: the updated version of Fig. 4, showing the heavy mass dependence
+of 𝐽 𝑃 = 1+ tetraquark binding. Black stars indicating the physical pion mass results from Fig. 6. Right: a
+comparison of 𝐽 𝑃 = 1+ and 𝐽 𝑃 = 0+ bindings for 𝑏¯ ℎ¯ type tetraquarks.
+
+
+
+      Instead of using a GEVP to extract the binding energies, we use correlated, multi-exponential
+fits to both the tetraquark and threshold meson states of the form,
+
+                                                          𝑗       𝑁
+                                                O𝑖 O
+                                                                 ∑︁
+                                                                                      −𝐸𝑛 𝑡
+                                                                                            ± 𝑒 −𝐸𝑛 (𝑇 −𝑡 ) ),
+                                                                                  snk
+                                           𝐶2 src snk (𝑡) =                𝑎 src   𝑗
+                                                                             𝑛 𝑎 𝑛 (𝑒
+                                                                                𝑖
+                                                                                                                                                                                (6)
+                                                                 𝑛=0
+
+where 𝑇 = 64 is the (periodic) time dimension of the lattice.
+     We obtain correlated values for the ground state energies 𝐸 0 . As discussed, our data contains
+different source and sink combinations, from both the operator choices and box sink radii. These
+translate into different values for the amplitudes 𝑎 src/snk
+                                                     𝑛       , with a common set of energy levels 𝐸 𝑛 .
+     These Bayesian fits are performed using the corrfitter, lsqfit and gvar python packages [30–32],
+and we conduct a rigorous stability analysis to ensure that we are fitting accurately. This is discussed
+in more detail in [26]. These fits offer a different but equivalent approach to the GEVP analysis,
+which may be beneficial in the case where the excited states in the spectrum are closely spaced.
+     The results of our light mass dependence study are shown in Fig. 6, which should be compared
+with the previous analysis Fig. 2. The left panel shows the six pion mass values, with the lightest
+two coming from our new larger 𝑀 𝜋 𝐿 ensembles. As before, it seems 𝑢𝑑 𝑏¯ 𝑏¯ is much more sensitive
+
+
+                                                                                  7
+Quark mass dependence of doubly heavy tetraquark binding                                          W. G. Parrott
+
+
+to the light mass than 𝑙𝑠 𝑏¯ ¯𝑏. We include much larger 𝑀 𝜋 values than in the previous study, and it’s
+not necessarily valid to extend the linear fit form 𝐴 + 𝐵𝑀 𝜋2 to include these large pion masses. For
+this reason, we perform a fit to increasing numbers of data points, from the leftmost two, up to all
+                                  phys
+six, and plot the resulting 𝑀 𝜋 extrapolation in the right hand pane of Fig. 6. We then take as
+our final result the band which covers the spread of these values with their respective error bars.
+Whilst we don’t perform a full finite volume analysis, exponential FV effects are included in this fit
+(see [26]) contributing an increase in binding of about 0.4𝜎 in 𝑢𝑑 𝑏¯ 𝑏,
+                                                                      ¯ with no meaningful effect on
+𝑙𝑠 𝑏¯ ¯𝑏. These final results are given by,
+                                                 phys
+                                    Δ𝐸 𝑢𝑑 𝑏¯ 𝑏¯ (𝑀 𝜋 ) = −115(17) MeV                                         (7)
+                                                 phys
+                                    Δ𝐸 𝑙𝑠 𝑏¯ 𝑏¯ (𝑀 𝜋 ) = −46.7(7.6) MeV,                                      (8)
+
+which represent somewhat shallower binding than in our previous analyses.
+     The variation of the binding with heavy masses dependence is show in Fig. 7, which should
+be compared with Fig. 4. The left hand pane shows the phenomenologically motivated fit to the
+𝐽 𝑃 = 1+ data, again showing a good fit. On the right, we compare 𝐽 𝑃 = 0+ and 𝐽 𝑃 = 1+ data for
+the 𝑢𝑑 𝑏¯ ℎ¯ and 𝑙𝑠 𝑏¯ ℎ¯ cases. We see that the 𝑙𝑠 𝑏¯ ℎ¯ 0+ and 1+ give similar results, whilst the 𝑢𝑑 𝑏¯ ℎ¯ case
+shows a relatively consistent difference of order 20 MeV.
+
+
+4. Conclusions
+
+     The introduction of box sinks, as well as two new, larger lattice volumes, more pion masses and
+multi-exponential fits have allowed us to build on the previous work in [8, 12, 27]. We conducted
+studies of the light and heavy mass dependence of the 𝐽 𝑃 = 1+ 𝑢𝑑 𝑏¯ 𝑏,       ¯ 𝑢𝑑 𝑏¯ ℎ,
+                                                                                      ¯ 𝑙𝑠 𝑏¯ 𝑏¯ and 𝑙𝑠 𝑏¯ ℎ¯
+                                                                +
+tetraquark binding, as well as a comparison with the 𝐽 = 0 𝑢𝑑 𝑏¯ ¯ℎ, and 𝑙𝑠 𝑏¯ ℎ¯ case.
+                                                           𝑃
+
+     We find bindings at physical pion masses which are reduced with respect to our previous studies,
+and fall in line with a general trend towards shallower bindings in recent analyses [9, 10, 19, 20, 22].
+     Whilst our heavy mass dependence analysis does not extend down to the charm mass, we
+can extrapolate by eye to see that, taking into effect the light mass dependence, it is roughly
+compatible with the confirmed existence of the 1+ 𝑇𝑐𝑐 just below threshold [24, 25]. A similar
+extrapolation suggests that the 1+ 𝑢𝑑 𝑏¯ 𝑐¯ could also be bound, with shallow enough binding to permit
+an electromagnetic decay. If the 𝐽 𝑃 = 0+ state is unbound, then the 1+ state should have a near
+100% branching fraction to 𝐵 ¯   𝐷𝛾, producing highly collimated 𝐵- 𝐷¯ pairs in the lab frame. Even if
+the 𝐽 = 0 state is bound, the 1+ state will decay electromagnetically to a soft photon plus the 0+
+      𝑃      +
+
+                       ¯ with a sizeable branching fraction. This 𝐵 𝐷𝛾
+state as well as to 𝐵 𝐷𝛾,                                                ¯ branch will have the same
+                                                                       +
+potentially useful, statistically enhanced signal as it would if the 0 state were unbound.
+
+
+References
+
+ [1] J. Ader, J. Richard and P. Taxil, Do narrow heavy multi - quark states exist?, Phys. Rev. D 25
+     (1982) 2370.
+
+ [2] L. Heller and J. Tjon, On the Existence of Stable Dimesons, Phys. Rev. D 35 (1987) 969.
+
+
+                                                        8
+Quark mass dependence of doubly heavy tetraquark binding                            W. G. Parrott
+
+
+ [3] A.V. Manohar and M.B. Wise, Exotic Q Q anti-q anti-q states in QCD, Nucl. Phys. B 399
+     (1993) 17 [hep-ph/9212236].
+
+ [4] A. Francis, P. de Forcrand, R. Lewis and K. Maltman, Diquark properties from full QCD
+     lattice simulations, JHEP 05 (2022) 062 [2106.09080].
+
+ [5] P. Bicudo, K. Cichy, A. Peters and M. Wagner, BB interactions with static bottom quarks
+     from Lattice QCD, Phys. Rev. D 93 (2016) 034501 [1510.03441].
+
+ [6] P. Bicudo, J. Scheunert and M. Wagner, Including heavy spin effects in the prediction of a
+     𝑏¯ ¯𝑏𝑢𝑑 tetraquark with lattice QCD potentials, Phys. Rev. D 95 (2017) 034502 [1612.02758].
+
+ [7] P. Bicudo, M. Cardoso, A. Peters, M. Pflaumer and M. Wagner, 𝑢𝑑 𝑏¯ 𝑏¯ tetraquark resonances
+     with lattice QCD potentials and the Born-Oppenheimer approximation, Phys. Rev. D 96
+     (2017) 054510 [1704.02383].
+
+ [8] A. Francis, R.J. Hudspith, R. Lewis and K. Maltman, Lattice Prediction for Deeply Bound
+     Doubly Heavy Tetraquarks, Phys. Rev. Lett. 118 (2017) 142001 [1607.05214].
+
+ [9] P. Junnarkar, N. Mathur and M. Padmanath, Study of doubly heavy tetraquarks in Lattice
+     QCD, Phys. Rev. D 99 (2019) 034507 [1810.12285].
+
+[10] L. Leskovec, S. Meinel, M. Pflaumer and M. Wagner, Lattice QCD investigation of a
+                      ¯ tetraquark with quantum numbers 𝐼 (𝐽 𝑃 ) = 0(1+ ), Phys. Rev. D100
+     doubly-bottom 𝑏¯ 𝑏𝑢𝑑
+     (2019) 014503 [1904.04197].
+
+[11] P. Mohanta and S. Basak, Construction of 𝑏𝑏 𝑢¯ 𝑑¯ tetraquark states on lattice with NRQCD
+     bottom and HISQ up and down quarks, Phys. Rev. D 102 (2020) 094516 [2008.11146].
+
+[12] R.J. Hudspith, B. Colquhoun, A. Francis, R. Lewis and K. Maltman, A lattice investigation of
+     exotic tetraquark channels, Phys. Rev. D 102 (2020) 114506 [2006.14294].
+
+[13] M. Pflaumer, L. Leskovec, S. Meinel and M. Wagner, Investigation of Doubly Heavy
+     Tetraquark Systems using Lattice QCD, in Asia-Pacific Symposium for Lattice Field Theory,
+     9, 2020 [2009.10538].
+
+[14] M. Pflaumer, L. Leskovec, S. Meinel and M. Wagner, Existence and Non-Existence of
+     Doubly Heavy Tetraquark Bound States, PoS LATTICE2021 (2022) 392 [2108.10704].
+
+[15] M. Wagner, C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel and M. Pflaumer, Lattice
+     QCD study of antiheavy-antiheavy-light-light tetraquarks based on correlation functions
+     with scattering interpolating operators both at the source and at the sink, PoS
+     LATTICE2022 (2023) 270 [2210.09281].
+
+[16] M. Pflaumer, C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel and M. Wagner,
+     Antiheavy-antiheavy-light-light four-quark bound states, PoS LATTICE2022 (2023) 075
+     [2211.00951].
+
+
+                                                 9
+Quark mass dependence of doubly heavy tetraquark binding                            W. G. Parrott
+
+
+[17] B. Colquhoun, A. Francis, R.J. Hudspith, R. Lewis and K. Maltman, Investigating exotic
+     heavy-light tetraquarks with 2+1 flavour lattice QCD, PoS LATTICE2021 (2022) 144.
+
+[18] B. Colquhoun, A. Francis, R. Hudspith, R. Lewis and K. Maltman, Ruling out some
+     predictions of deeply-bound light-heavy tetraquarks using lattice QCD, Rev. Mex. Fis. Suppl.
+     3 (2022) 0308044.
+
+[19] T. Aoki, S. Aoki and T. Inoue, Lattice study on a tetraquark state Tbb in the HAL QCD
+     method, Phys. Rev. D 108 (2023) 054502 [2306.03565].
+
+[20] R.J. Hudspith and D. Mohler, Exotic tetraquark states with two b¯ quarks and JP=0+ and
+     1+ Bs states in a nonperturbatively tuned lattice NRQCD setup, Phys. Rev. D 107 (2023)
+     114510 [2303.17295].
+
+[21] L. Mueller, P. Bicudo, M. Krstic Marinkovic and M. Wagner, Antistatic-antistatic-light-light
+     potentials from lattice QCD, 12, 2023 [2312.17060].
+
+[22] C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel, M. Pflaumer and M. Wagner, 𝑏¯ 𝑏𝑢𝑑
+                                                                                         ¯
+     and 𝑏¯ 𝑏𝑢𝑠
+            ¯ tetraquarks from lattice QCD using symmetric correlation matrices with both local
+     and scattering interpolating operators, 2404.03588.
+
+[23] S. Meinel, M. Pflaumer and M. Wagner, Search for b¯b¯us and b¯c¯ud tetraquark bound
+     states using lattice QCD, Phys. Rev. D 106 (2022) 034507 [2205.13982].
+
+[24] LHCb collaboration, Observation of an exotic narrow doubly charmed tetraquark, Nature
+     Phys. 18 (2022) 751 [2109.01038].
+                                                                 + , Nature Commun. 13
+[25] LHCb collaboration, Study of the doubly charmed tetraquark 𝑇𝑐𝑐
+     (2022) 3351 [2109.01056].
+
+[26] B. Colquhoun, A. Francis, R.J. Hudspith, R. Lewis, K. Maltman and W.G. Parrott, Improved
+     analysis of strong-interaction-stable doubly-bottom tetraquarks on the lattice, 2407.08816.
+
+[27] A. Francis, R.J. Hudspith, R. Lewis and K. Maltman, Evidence for charm-bottom tetraquarks
+     and the mass dependence of heavy-light tetraquark states from lattice QCD, Phys. Rev. D 99
+     (2019) 054505 [1810.10550].
+
+[28] PACS-CS collaboration, Physical Point Simulation in 2+1 Flavor Lattice QCD, Phys. Rev. D
+     81 (2010) 074503 [0911.2561].
+
+[29] PACS-CS collaboration, Charm quark system at the physical point of 2+1 flavor lattice
+     QCD, Phys. Rev. D 84 (2011) 074505 [1104.4600].
+
+[30] P. Lepage, gplepage/corrfitter: corrfitter version 8.2, Nov., 2021. 10.5281/zenodo.5733391.
+
+[31] P. Lepage and C. Gohlke, gplepage/lsqfit: lsqfit version 13.0.1, May, 2023.
+     10.5281/zenodo.7931361.
+
+[32] P. Lepage, C. Gohlke and D. Hackett, gplepage/gvar: gvar version 11.11.11, June, 2023.
+     10.5281/zenodo.8025535.
+
+
+                                                10
+

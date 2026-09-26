@@ -1,0 +1,63 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  T ∗cs1 (2900)0                                       I (J P ) = ?(1− )
+
+OMITTED FROM SUMMARY TABLE
+was X1 (2900)
+         An exotic state with minimal quark content c d s u. Observed by
+         AAIJ 20AI using full amplitude analysis of B + → D + D − K + de-
+         cays.
+
+                                       T ∗cs1 (2900)0 MASS
+
+VALUE (MeV)                  EVTS           DOCUMENT ID                TECN     COMMENT
+2887 +- 8 + 7            1.6k             1 AAIJ   24AB LHCB B + → D ∗+ D − K +
+2904± 5 ± 1              1.2k             2 AAIJ   20AI LHCB B + → D + D − K +
+  1 From a simultaneous amplitude analysis of B + → D ∗+ D − K + , B + → D ∗− D + K +
+    and their c.c.
+  2 Obtained from the full amplitude analysis. Parameterized with the relativistic Breit-
+    Wigner line shape. Also conﬁrmed by the model-independent analysis of AAIJ 20AF.
+
+
+                                      T ∗cs1 (2900)0 WIDTH
+
+VALUE (MeV)                  EVTS           DOCUMENT ID                TECN     COMMENT
+106± 10 OUR AVERAGE
+ 92± 16 ± 16             1.6k     1 AAIJ           24AB LHCB B + → D ∗+ D − K +
+110± 11 ± 4              1.2k     2 AAIJ           20AI LHCB B + → D + D − K +
+  1 From a simultaneous amplitude analysis of B + → D ∗+ D − K + , B + → D ∗− D + K +
+    and their c.c.
+  2 Obtained from the full amplitude analysis. Parameterized with the relativistic Breit-
+    Wigner line shape. Also conﬁrmed by the model-independent analysis of AAIJ 20AF.
+
+
+                                T ∗cs1 (2900)0 DECAY MODES
+
+        Mode                                                    Fraction (Γi /Γ)
+
+Γ1      D− K +                                                  seen
+
+
+                            T ∗cs1 (2900)0 BRANCHING RATIOS
+
+Γ D − K + /Γtotal
+         
+                                                                                                       Γ1 /Γ
+VALUE                                       DOCUMENT ID                TECN     COMMENT
+seen                                        AAIJ                 20AI LHCB B + → D + D − K +
+
+
+                                 T ∗cs1 (2900)0 REFERENCES
+
+AAIJ           24AB PRL 133 131902             R. Aaij et al.                             (LHCb Collab.)
+AAIJ           20AF PRL 125 242001             R. Aaij et al.                             (LHCb Collab.)
+AAIJ           20AI PR D102 112003             R. Aaij et al.                             (LHCb Collab.)
+
+
+
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:25
+

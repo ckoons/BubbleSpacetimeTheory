@@ -1,0 +1,737 @@
+                                          Vus from π and K decay constants in full lattice QCD with physical u, d, s and c quarks
+
+                                                                         R. J. Dowdall,1, 2 C. T. H. Davies,2, ∗ G. P. Lepage,3 and C. McNeile4
+                                                                                                (HPQCD collaboration), †
+                                                                     1
+                                                                  DAMTP, University of Cambridge, Wilberforce Road, Cambridge CB3 0WA, UK
+                                                            2
+                                                             SUPA, School of Physics and Astronomy, University of Glasgow, Glasgow, G12 8QQ, UK
+                                                          3
+                                                            Laboratory of Elementary-Particle Physics, Cornell University, Ithaca, New York 14853, USA
+                                                                   4
+                                                                     Bergische Universität Wuppertal, Gaussstr. 20, D-42119 Wuppertal, Germany
+                                                                                             (Dated: December 23, 2013)
+                                                           We determine the decay constants of the π and K mesons on gluon field configurations from
+                                                         the MILC collaboration including u, d, s and c quarks. We use three values of the lattice spac-
+                                                         ing and u/d quark masses going down to the physical value. We use the w0 parameter to fix
+                                                         the relative lattice spacing and fπ to fix the overall scale. This allows us to obtain a value
+                                                         for fK + /fπ+ = 1.1916(21). Comparing to the ratio of experimental leptonic decay rates gives
+
+
+
+
+arXiv:1303.1670v2 [hep-lat] 20 Dec 2013
+                                                         |Vus | = 0.22564(28)Br(K + ) (20)EM (40)latt (5)Vud and the test of unitarity of the first row of the
+                                                         Cabibbo-Kobayashi-Maskawa matrix: |Vud |2 + |Vus |2 + |Vub |2 − 1 = 0.00009(51).
+
+
+                                                                I.   INTRODUCTION                             from lattice QCD for fK + /fπ+ then yields |Vus |/|Vud | [4].
+                                                                                                              Since Vud is known accurately from nuclear β decay, this
+                                            The annihilation of a charged π or K meson to leptons             gives Vus . The higher the accuracy on Vus the more strin-
+                                          via a W boson is a ‘gold-plated’ process whose rate can be          gent the test of CKM first row unitarity we can do, since
+                                          determined very accurately from experiment. The decay               Vub is too small to contribute (at present) to this. Any
+                                          width for pseudoscalar P made of valence quarks ab is               deviations are indications of new physics and the more
+                                          given by:                                                           stringent the test, the higher the scale to which the new
+                                                                                                              physics is pushed.
+                                                                                              2
+                                                         G2 |Vab |2 2 2                   m2l
+                                                                                       
+                                                                                                                 State-of-the-art lattice QCD calculations have
+                                              Γ(P → lν) = F        fP ml MP             1− 2           (1)    achieved errors below 1% in fK /fπ [5–9], typically
+                                                            8π                            MP
+                                                                                                              dominated by the systematic errors from extrapolation
+                                          up to known electromagnetic corrections. Here Vab is                of the lattice results to the real-world continuum and
+                                          the appropriate Cabibbo-Kobayashi-Maskawa matrix el-                chiral limits where the lattice spacing is zero and the
+                                          ement for coupling to the W and fP is the pseudoscalar              u/d quark masses take their physical values (equivalent
+                                          decay constant which parameterises the amplitude for the            to the π meson mass taking its physical value). This
+                                          annihilation. fP can only be determined accurately from             means that significant improvements can be expected if
+                                          lattice QCD calculations.                                           we reduce discretisation errors, to make the continuum
+                                             The experimental determination of Γ(K +             →            extrapolation more benign, and if we work with physical
+                                          lν)/Γ(π + → lν) can be converted to a result for the ratio          u/d quark masses that obviate the need for a chiral
+                                          of CKM element × decay constant for K and π. Using ex-              extrapolation. It also means that comparison of different
+                                          perimental averages [1] Γ(π + → lν) = 3.8408(7)×107 s−1             methods for arriving at a physical answer from lattice
+                                          and Γ(K + → lν) = 5.133(13) × 107 s−1 gives:                        QCD are important in testing systematic error estimates.
+                                                                                                                 The MILC collaboration recently gave an analysis
+                                                     |Vus |fK +
+                                                                = 0.27598(35)Br(K + ) (25)EM .         (2)    of fK + /fπ+ [10] from lattice QCD on their ‘second-
+                                                     |Vud |fπ+                                                generation’ gluon field configurations that include u, d, s
+                                                                                                              and c quarks in the sea using the Highly Improved Stag-
+                                          Here we have allowed for an electromagnetic correction
+                                                                                                              gered Quark (HISQ) formalism [11] and a fully O(αs a2 )
+                                          to the ratio of widths given by (1 + δEM ) with δEM =
+                                                                                                              improved gluon action [12]. They have ensembles with
+                                          −0.0070(18)[2, 3]. The error in Eq. (2) from this cor-
+                                                                                                              the average of the u and d quark masses down to the
+                                          rection is sizeable but not as large as that from the K +
+                                                                                                              physical value. Their final error was 0.4% on the decay
+                                          branching fraction to µν which dominates. The total er-
+                                                                                                              constant ratio, dominated by errors from the extrapola-
+                                          ror in determining the ratio of Eq. (2) from experiment
+                                                                                                              tion to zero lattice spacing. Their analysis [10] concen-
+                                          is then 0.16%.
+                                                                                                              trated on the ensembles with physical u/d quark mass
+                                             The electromagnetic correction means that fK and fπ
+                                                                                                              and the aim was to perform a single self-contained anal-
+                                          are defined as quantities in pure QCD without electro-
+                                                                                                              ysis that did not use additional information from, for
+                                          magnetic interactions. An accurate theoretical result
+                                                                                                              example, chiral perturbation theory or determination of
+                                                                                                              the lattice spacing using other quantities.
+                                                                                                                 In this paper we provide a new analysis with the most
+                                          ∗ c.davies@physics.gla.ac.uk                                        accurate result to date. To do this we use the same MILC
+                                          † URL: http://www.physics.gla.ac.uk/HPQCD                           ensembles with a completely independent analysis of me-
+                                                                                                                                        2
+
+
+TABLE I: Details of the MILC gluon field ensembles used in               1.0                                               Set 6
+this paper [14, 15]. β = 10/g 2 is the SU (3) gauge coupling
+and L and T give the length in the space and time directions             0.8
+for each lattice. am`,sea , ams,sea and amc,sea are the light
+(up and down taken to have the same mass), strange and
+                                                                         0.6
+charm sea quark masses in lattice units. The ensembles 1,
+                                                                   C∆T
+2 and 3 will be referred to in the text as “very coarse”, 4,
+                                                                         0.4
+5 and 6 as “coarse” and 7 and 8 as “fine”. The number of
+configurations that we have used in each ensemble is given
+in the final column. We have used 16 time sources on every               0.2
+configuration.
+                                                                         0.0
+Set   β      am`,sea    ams,sea   amc,sea   L/a × T /a   ncfg
+1     5.80   0.013      0.065     0.838     16×48        1020                  0   5       10       15       20       25           30
+2     5.80   0.0064     0.064     0.828     24×48        1000                                       ∆T
+3     5.80   0.00235    0.0647    0.831     32×48        1000
+4     6.00   0.0102     0.0509    0.635     24×64        1052      FIG. 1: The autocorrelation function for the π meson corre-
+5     6.00   0.00507    0.0507    0.628     32×64        1000      lator at lattice time 20 on coarse set 6. ∆T = 1 corresponds
+6     6.00   0.00184    0.0507    0.628     48×64        1000      to adjacent configurations in the ordered list for the set which
+7     6.30   0.0074     0.0370    0.440     32×96        1008      are 5 molecular dynamics time units apart.
+8     6.30   0.0012     0.0363    0.432     64×96        621
+
+
+                                                                   The table includes the values of sea quark masses in lat-
+TABLE II: Values of the lattice spacing for the ensembles of       tice units, where the u and d quarks are taken to have
+Table I in units of parameters w0 [13], t0 [16] and r1 [17]. The   the same mass, m` = mu = md . The accurate deter-
+r1 /a values were calculated by MILC and given in [15].            mination of the lattice spacing will be discussed further
+                                √
+Set          w0 /a                 t0 /a              r1 /a        below. Here we simply note that the ‘very coarse’ lat-
+1            1.1119(10)         1.0249(5)             2.059(23)    tices (sets 1, 2 and 3) have lattice spacing, a ≈ 0.15fm,
+2            1.1272(7)          1.0319(3)             2.073(13)    the coarse lattices (sets 4, 5 and 6) have a ≈ 0.12 fm and
+3            1.1367(5)          1.0357(2)             2.089(8)     the fine lattices (sets 7 and 8) have a ≈0.09 fm. Thus
+4            1.3826(11)         1.2389(5)             2.575(17)    the spatial volumes of the lattices are large: the sets with
+5            1.4029(9)          1.2475(4)             2.626(13)    physical ml (sets 3, 6 and 8) are all larger than 4.8 fm
+6            1.4149(6)          1.2521(3)             2.608(8)     on a side, with sets 6 and 8 being larger than 5.5 fm on
+7            1.8869(39)         1.6515(16)            3.499(24)    a side.
+8            1.9525(20)         1.6769(7)             3.565(13)
+                                                                      On these ensembles we calculate light and s quark
+                                                                   propagators using the same HISQ action as used in the
+                                                                   sea. The valence ` quarks are taken to have the same
+son correlation functions with high statistics. We include         mass as those in the sea, the valence s quarks are re-
+ensembles with heavier-than-physical u/d quark masses              tuned slightly to correspond more closely to the physical
+and use chiral perturbation theory to pin down the point           value [18]. The valence masses used are given in Table III.
+corresponding to physical light and strange quark masses.          We use a unsmeared random wall source on each of 16
+We also include very accurate information on the relative          time sources per configuration for very high statistical
+lattice spacings of the ensembles using the Wilson flow            accuracy [18].
+parameter, w0 [13]. This enables us to reduce the error               The propagators are combined to make meson corre-
+on the decay constant ratio to below 0.2% which is close           lation functions for π, K and ηs mesons. The ηs is a
+to the error coming from experiment in Eq. (2).                    fictitious ss meson that is not allowed to decay here
+   Section II describes the lattice calculation. The results       because we do not include the disconnected pieces of
+and analysis, including a table of all our raw lattice values      the correlation function. Since it does not contain va-
+for meson masses and decay constants, are given in Sec-            lence u/d quarks it is a useful particle to study in lattice
+tion III. This is followed by a discussion and conclusions         QCD [18, 19]. We include it here to provide more infor-
+in Sections IV and V respectively.                                 mation to our fits about the meson mass dependence of
+                                                                   the decay constants.
+                                                                      We average over the 16 time sources to obtain a result
+             II.   LATTICE CALCULATION
+                                                                   for each configuration and then study the configuration-
+                                                                   to-configuration correlations. An autocorrelation analy-
+                   A.   Meson Correlators                          sis was performed in [18] and plots of the autocorrelation
+                                                                   function for π and ηs correlators given for the ensembles
+  Table I gives the parameters for the MILC ensembles              with m` /ms = 0.1 and 0.2. The autocorrelation func-
+of gluon field configurations that we use here [14, 15].           tion for the sets at physical m` /ms show a decrease in
+                                                                                                                                                                    3
+
+correlation between configurations. We give an exam-                                               2
+ple in Fig. 1 for the π meson correlator on coarse set 6.
+The other physical point ensembles show very similar be-                                    1.95
+haviour. We bin over 2 adjacent configurations on sets 1,
+                                                                                                  1.9
+2, 3 and 6 and bin over 4 adjacent configurations on all
+other sets.                                                                                 1.85
+   We then fit all three meson correlators simultaneously
+as a function of time, t, between source and sink accord-                          r1/w0          1.8
+ing to:
+                                                                                            1.75
+                 nexp
+                 X
+                                −Ek t        −Ek (T −t)
+  Gmeson (t) =          ak (e           +e                )                  (3)                  1.7
+                 k=0
+                              nexp                                                          1.65                 ml/ms=0.2
+                        t/a
+                              X
+                                               −Ẽko t        −Ẽko (T −t)                                       ml/ms=0.1
+              − (−1)                 ãko (e             +e                  ).                                 ml/ms=phys
+                              ko=0                                                                1.6
+                                                                                                        0             0.2          0.4                 0.6   0.8    1
+The oscillating piece is absent for π and ηs mesons be-                                                                                  (a/w0)2
+cause the valence quark and antiquark have equal mass.                                                  1
+                                                                                                                  ml/ms=0.2
+We use Bayesian fitting methods [20, 21] so that the full                                                         ml/ms=0.1
+                                                                                                  0.98
+effect of excitations in the spectrum can be included in                                                         ml/ms=phys
+the errors on the ground-state quantities that we are in-                                         0.96
+terested in, i.e. a0 and E0 for each meson. The simulta-                                          0.94
+neous fit to all three mesons allows us to take into account
+the correlations between the fit results for each meson in                                        0.92
+our subsequent analysis. Results are taken from 6 expo-                              (t0)0.5/w0    0.9
+nential fits (with an additional 6 oscillating exponentials
+                                                                                                  0.88
+for the K).
+   The π, K and ηs meson masses are given by the appro-                                           0.86
+priate E0 values from the fit above. The decay constant                                           0.84
+is determined from the corresponding amplitude, a0 , by
+                                                                                                  0.82
+                                    s
+                                       2a0                                                         0.8
+                   fab = (ma + mb )                      (4)                                                0           0.2         0.4                0.6   0.8    1
+                                       E03                                                                                                         2
+                                                                                                                                          (a/w0)
+
+for meson with quark content ab [5]. This formula holds                                                                                          2
+for Goldstone pseudoscalar mesons made of staggered                                FIG. 2: At the top the
+                                                                                                        √ ratio r1 /w0 plotted as a function of a
+quarks and follows from the existence of a partially con-                          and below the ratio t0 /w0 . The grey band gives the results
+                                                                                   of a simple polynomial fit to the a2 and m` dependence as
+served axial current relation in these formalisms. The
+                                                                                   described in the text. The dashed line shows the fit evaluated
+decay constant is then absolutely normalised in lattice                            at the physical value for ml /ms of 0.036 [1].
+QCD.
+  Table III gives the results of our correlator fits for the
+decay constant and meson masses in lattice units on each                           where hEi is the expectation value of the gluon action
+ensemble. The errors are below 0.1% in almost all cases.                           density. The parameter w0 is preferred in [13], where w0
+                                                                                   is defined by:
+         B.    Lattice Spacing Determination                                                                                d 2
+                                                                                                                        t      t hEi|t=w02 = 0.3.                  (6)
+                                                                                                                            dt
+   It has recently been proposed that lattice spacings
+be measured by smoothing the gluon field using a se-                               w0 should be less sensitive to small flow times where dis-
+ries of infinitesmal ‘smearing’ steps [13, 16]. This drives                        cretisation effects may be important. Both w0 and t0 can
+the gluon field towards a smooth renormalised field and                            be determined by direct measurement on the gluon field
+gauge-invariant functions of this field, such as the pure                          and this makes them simpler to evaluate as well as typ-
+gluon action density, become physical quantities. Param-                           ically more precise than parameters based on the heavy
+eters used to determine the lattice spacing can then be                            quark potential [22]. The heavy quark potential must be
+defined from the flow-time, t, dependence of such quan-                            determined by fitting large Wilson loops as a function
+tities. Ref. [16] defines t0 from:                                                 of (lattice) time and then, to extract parameters such as
+                                                                                   r1 [14], a further fit as a function of r must be done to
+                        t2 hEi|t=t0 = 0.3                                    (5)   the potential.
+                                                                                                                           4
+
+   None of w0 , t0 and r1 can be simply related to any di-          the covariance matrix for the χ2 function. This in
+rectly measurable experimental quantity and their phys-             effect triples the statistical errors.
+ical value must be determined by a lattice QCD calcu-
+lation of such a quantity. For example, w0 and t0 are             2. Fit the simulation results for w0 fπ , w0 fK , w0 fηs ,
+determined from the mass of the Ω baryon in [13] and r1              and w02 Mη2s , together with the experimental result
+is determined from a basket of quantities including the Υ            for fπ+ , as functions of the corresponding pion and
+excitation energy and the decay constant of the ηs meson             kaon masses, and w0 . We take the functional de-
+in [18, 19].                                                         pendence from one-loop partially-quenched chiral
+   Here we will use w0 /a to determine the relative lattice          perturbation theory plus terms polynomial in Mπ2 ,
+                                                                        2
+spacing between the ensembles and finally fix its value              MK   , and a2 . The fit gives a new value for w0 , which
+from fπ in our analysis in Section III. We give values for           is largely determined by the experimental value for
+w0 /a on√ each ensemble in Table II and also, for compar-            fπ used in the fit. It also gives the functional de-
+ison, of t0 /a. These were obtained using the methods                pendence of the decay constants and the ηs mass on
+explained in [13]. We bin over 12 adjacent configurations            the quark masses, as specified by Mπ and MK . Sea
+(60 molecular dynamics time units on all sets except for             and valence quark masses are specified separately.
+set 8 where it is 72 time units) to remove the effects of            The same chiral formulas, with the same couplings,
+autocorrelations in the results as assessed by a binning             are used for pions, kaons and ηs s; only the valence
+analysis.                                                            quark masses differ.
+   Fig. 2 compares
+              √      the scales w0 , t0 and r1 by plotting
+                                                                  3. Evaluate the best-fit functions for fK and fπ at val-
+r1 /w0 and t0 /w0 as a function of (a/w0 )2 . We see
+                                                                     ues of the pion and kaon masses appropriate for fπ+
+that discretisation errors largely cancel between r1 and
+                                                                     and fK + . We set the u and d quark masses equal in
+w0 since their ratio is very flat in a2 . There is a small
+                                                                     our simulations. We correct for this approximation
+variation with m` . The errors here are dominated√       by
+                                                                     through appropriate choices for the values of Mπ
+statistical/fitting errors in r1 . In contrast t0 /w0 is
+                                                                     and MK used in our fit formulas to obtain our final
+much more precise but has relatively  √ strong lattice spac-         results. At the same time we correct for (small)
+ing dependence, presumably from t0 [13]. We carried
+                                                                     electromagnetic corrections to the meson masses.
+out a simple polynomial fit in m` /(10ms ) and αs (Λa)2 ,
+                                                                     (The decay constants, by definition, do not need
+(Λa)4 , (Λa)6 with Λ=0.6 GeV for both ratios, taking pri-
+                                                                     electromagnetic corrections; these are included ex-
+ors on the coefficients of
+                         √ 0.0(1.0). This gives the result           plicitly in Eq. (2).)
+r1 /w0 = 1.789(26) and t0 /w0 = 0.835(8) in the contin-
+uum and physical light quark mass limits, represented
+                                                    √ by         In the rest of this section we elaborate on these steps,
+the grey shaded bands in Fig. 2. The result for t0 /w0         and survey our results.
+agrees well with the BMW-c result of 0.835(15)(7) using
+the Wilson clover 2-HEX action in [13].
+                                                                                     A.   Chiral Fit
+
+          III.   ANALYSIS AND RESULTS                            We fit our lattice results for the decay constants using
+                                                               a formula drawn from partially-quenched chiral pertur-
+  Table III gives our raw lattice results for the pseu-        bation theory [24] that has the following form:
+doscalar meson masses and decay constants in lattice
+units. In this section we use these data to compute the                 fNLO (xa , xb , xsea  sea
+                                                                                         ` , xs , L) + δfχ + δflat .     (7)
+dependence of fπ , fK and fηs on the quark masses and
+on the lattice spacing. This allows us to interpolate to       Here fNLO is the result from chiral perturbation theory
+the physical values of the strange-quark and light-quark       through 1-loop order, in a finite volume of size L on a
+masses, and to extrapolate to zero lattice spacing, ob-        side; and δfχ and δflat are corrections for higher-order
+taining new predictions for the decay constants (as well       chiral contributions and nonzero lattice-spacing errors,
+as the ηs mass). The differences between our most chiral       respectively. We specify valence and sea quark masses
+simulation data and our final results are small since our      through the dimensionless parameters xa , xb , etc. where,
+simulation is very close to physical. It is nevertheless im-   for example, a light-quark with mass m` = (mu + md )/2
+portant to model these corrections accurately to optimise      would correspond to
+the precision of our final results.
+                                                                                                2
+  Our analysis involves the following steps:                                                  M0,π
+                                                                                      x` =             .                 (8)
+                                                                                             16π 2 f02
+   1. Remove the lattice spacing by multiplying the
+      masses and decay constants for the π, K, and ηs          Here f0 is fixed to the standard value 131.5 MeV, close
+      by the values (with errors) of w0 /a from Table II.      to the experimental result for fπ . M0,π is the bare pion
+      We also apply an svd cut to the data to guarantee        mass, obtained by subtracting the 1-loop chiral correc-
+      that roundoff errors are not an issue when inverting     tion from masses measured in the simulation (Table III).
+                                                                                                                                     5
+
+
+TABLE III: Values for π, K and ηs masses and decay constants in lattice units calculated for valence masses given in columns
+2 and 3. Some of the results were previously given in [18, 23]. There are slight differences in some values with earlier results
+because different fit results were used.
+Set      am`,val      ams,val    aMπ              afπ             aMK                 afK                     aMηs          afηs
+1        0.013        0.0688     0.23644(15)      0.11184(10)     0.41214(24)         0.12695(15)             0.53350(17)   0.14185(9)
+                      0.0641                                      0.40006(19)         0.12585(10)             0.51511(16)   0.14009(7)
+2        0.0064       0.0679     0.16614(7)       0.10508(6)      0.39077(10)         0.12265(4)              0.52798(9)    0.14027(4)
+                      0.0636                                      0.37948(10)         0.12177(4)              0.51080(9)    0.13840(4)
+3        0.00235      0.0628     0.10172(4)       0.09938(6)      0.36557(8)          0.11837(4)              0.50656(6)    0.13720(2)
+4        0.01044      0.0522     0.19158(9)       0.09077(6)      0.32789(11)         0.10189(5)              0.42358(11)   0.11318(4)
+5        0.00507      0.0505     0.13414(6)       0.08452(5)      0.30756(10)         0.09788(4)              0.41474(8)    0.11119(3)
+6        0.00184      0.0507     0.08154(2)       0.07990(3)      0.29843(5)          0.09532(2)              0.41478(4)    0.11065(2)
+7        0.0074       0.0364     0.14062(10)      0.06618(5)      0.23919(11)         0.07424(4)              0.30871(10)   0.08236(3)
+8        0.0012       0.0360     0.05716(2)       0.05784(3)      0.21855(5)          0.06921(2)              0.30480(4)    0.08053(2)
+
+
+
+Using bare meson masses corrects for (negligible) finite-                       B.     Higher-Order Corrections
+volume errors in the masses. The s-quark parameter is
+given by                                                            We include terms beyond one-loop order in chiral per-
+                                                                  turbation theory by adding a correction of the form
+                             2         2
+                           2M0,K − M0,π                             δfχ ≡ c2a (xa + xb )2 + c2b (xa − xb )2
+                    xs =                                  (9)
+                             16π 2 f02                                  + c2c (xa + xb )(2xsea  sea          sea  sea 2
+                                                                                           ` + xs ) + c2d (2x` + xs )
+                                                                        + c2e (2xsea
+                                                                                 `
+                                                                                     2
+                                                                                       + xsea
+                                                                                          s
+                                                                                              2
+                                                                                                )
+where M0,K is the bare mass coming from the kaon
+                                                                        + c3a (xa + xb )3 + c3b (xa + xb )(xa − xb )2
+masses measured in the simulation. The same formula
+is used for each of the three mesons we study, changing                 + c3c (xa + xb )2 (2xsea  sea
+                                                                                             ` + xs )
+only the valence masses:                                                + c4 (xa + xb )4 + c5 (xa + xb )5 + c6 (xa + xb )6
+                                                                                                                                  (12)
+     fπ ←→ fNLO (x` , x` , xsea  sea
+                            ` , xs , L) + δfχ + δflat
+                                                                  where we take priors of 0 ± 1 for each parameter cj . We
+    fK ←→ fNLO (x` , xs , xsea   sea
+                            ` , xs , L) + δfχ + δflat             only keep higher-order terms that might be significant
+    fηs ←→ fNLO (xs , xs , x` , xsea
+                            sea
+                                 s , L) + δfχ + δflat    (10)     given the precision of our simulation data. In fact, we
+                                                                  obtain an excellent fit and almost identical results (to
+                                                                  within a quarter of a standard deviation) when we keep
+   In our fits, we use very broad priors for the chiral pa-       only the quadratic terms. We include an analogous cor-
+rameters in fNLO — 10–100 times wider than the final              rection, δMχ2 , for the square of the ηs mass.
+errors — so these have no impact on the fit. We also                We also correct for the nonzero lattice-spacing using
+introduce a new parameter that multiplies the finite-                                          4                     2n
+volume correction in fNLO . This allows our fit to correct                                     X              aΛQCD
+                                                                                     δflat ≡         dn                           (13)
+(crudely) for finite-volume corrections from higher orders                                                      π
+                                                                                               n=1
+in chiral perturbation theory. We set its prior to 1±0.33.
+Finite-volume corrections are quite small on almost all of        where dn is allowed to depend upon the quark masses,
+the ensembles, as is evident from Table IV which lists cor-
+rections for the decay constants. (The ηs mass has very                dn = dn,0 + dn,1a (xa + xb ) + dn,1b (2xsea  sea
+                                                                                                               ` + xs )
+small corrections, similar in magnitude to those for fηs ).               + dn,1c (xa + xb )2 ,                                   (14)
+The finite-volume corrections agree at the level of the er-
+rors we have with the range of those calculated in [25],          and again the coefficients have priors 0 ± 1. We get ex-
+as well as with the finite-volume analysis in [10].               cellent fits and almost identical answers without allowing
+                                                                  for mass dependence, but we are conservative and include
+  The square of the ηs mass is fit with an analogous
+                                                                  this possibility, since it could arise from taste-changing ef-
+formula of the form
+                                                                  fects [19, 26], thereby increasing our final errors by about
+                                                                  half a standard deviation.
+       2
+      MNLO (xa , xb , xsea  sea        2     2                       Eq. (13) is an expansion in the QCD scale ΛQCD di-
+                       ` , xs , L) + δMχ + δMlat ,       (11)
+                                                                  vided by the ultraviolet cutoff, π/a, for the lattice. The
+                                                                  QCD scale is of order 500 MeV to 1 GeV. This is con-
+with xa = xb = xs .                                               firmed by the Empirical Bayes criterion [20] which shows
+                                                                                                                               6
+
+
+TABLE IV: Finite-volume corrections, ∆vol f , to simulation results for the meson decay constants. Errors on the finite-volume
+correction come from our fit and are correlated between ensembles and between π and K. Also listed for each ensemble are the
+lattice spacing a (after determination of w0 which gives the error shown, correlated between ensembles), the ratio of valence
+strange to light-quark mass ms /m` , the spatial dimension of the lattice L, and the pion and kaon masses (with their statistical
+errors from Table III).
+     a            ms /m`        L        Mπ L            Mπ                 MK             ∆vol fπ        ∆vol fK       ∆vol fηs
+0.1543(8) fm        5.3       2.5 fm     3.8        302.4(2) MeV       527.1(3) MeV      1.24(23)%       0.50(9)%      0.10(0)%
+0.1522(8) fm       10.6       3.7 fm     4.0        215.5(1) MeV       506.8(1) MeV      0.38(7)%        0.12(2)%      0.00(0)%
+0.1509(8) fm       26.7       4.8 fm     3.3        133.0(1) MeV       477.9(1) MeV      0.43(8)%        0.13(2)%      0.00(0)%
+0.1241(7) fm        5.0       3.0 fm     4.6        304.5(1) MeV       521.2(2) MeV       0.37(7)%       0.14(3)%      0.01(0)%
+0.1223(6) fm       10.0       3.9 fm     4.3        216.5(1) MeV       496.4(2) MeV      0.24(5)%        0.08(1)%      0.00(0)%
+0.1212(6) fm       27.6       5.8 fm     3.9        132.7(0) MeV       485.7(1) MeV      0.15(3)%        0.05(1)%      0.00(0)%
+0.0907(5) fm        4.9       2.9 fm     4.5        306.1(2) MeV       520.6(2) MeV       0.41(8)%       0.16(3)%      0.02(0)%
+0.0879(4) fm       30.0       5.6 fm     3.7        128.4(0) MeV       490.8(1) MeV      0.21(4)%        0.07(1)%      0.00(0)%
+
+
+
+that our data imply a scale of about 600 MeV. In our               take ∆E = 0.65(50) to conservatively encompass these
+analysis we use a conservative value, 1.8 GeV, to en-              results and this gives
+sure that nonzero lattice-spacing errors are not under-
+                                                                                       phys
+estimated.                                                                            MK    = 494.6(3) MeV.                 (17)
+
+                                                                      Tuning the pion mass to Mπphys and the kaon mass to
+                                                                      phys
+    C.    Isospin Violation and Electromagnetism                   MK      in our fits sets the strange-quark mass to its phys-
+                                                                   ical value, and the light-quark mass to the average m` of
+   We need to determine the x` and xs values correspond-           the u and d masses. This light-quark mass is correct, to
+ing to physical pion and kaon masses if we are to use our          within our errors, for the valence quarks in the pion, and
+formulas to extract physical values for the decay con-             for sea quarks in all three mesons.
+stants and the ηs mass. The correct pion and kaon masses              This tuning is not correct, however, for the
+come from experiment, but there are two complications              K + ’s valence light-quark, which is a u quark, with
+that result from simplifications in the simulations. The           mass 0.65(9) m` . This difference produces a small but
+first is that the simulation does not include electromag-          significant downward shift in fK + . To compute the cor-
+netism. The second is that mu = md in the simulation,              rected K + decay constant,pwe evaluate our fit formulas
+while in reality mu = 0.48(10) md [1].                             with a pion mass given by 0.65(9)Mπphys , while adjust-
+                                                                                                        2
+   The most appropriate pion mass for fπ+ is the                   ing the kaon mass so that 2MK          − m2π is unchanged (to
+neutral-pion mass (134.9766(6) MeV [1]). All π mesons              leave the s-quark mass unchanged). These adjustments
+would have this mass in a world without electromag-                are made only for the valence-quark masses in the K + ;
+netism — our simulations, for example — up to very small           the valence-quark masses in the pion and ηs , as speci-
+                                                                                            phys
+(quadratic) corrections from the u−d mass difference.              fied by Mπphys and MK         , are left unchanged, as are the
+These corrections are estimated at 0.32(20) MeV for Mπ+            sea-quark masses in each of the mesons.
+in [27]. For our purposes, it is sufficient to take 0.32 MeV
+as the uncertainty in the pion mass, and ignore the dis-
+tinction between charged and neutral pions:                                             D.    Fit Results
+
+                 Mπphys = 134.98(32) MeV                 (15)        We fit w0 times each of the decay constants and each
+                                                                   ηs mass in Table III to the formulas above, as functions
+   This pion mass corresponds in our simulation to a
+                                                                   of the pion and kaon masses and w0 . We also fit the
+light-quark mass of m` = (mu + md )/2. The corre-
+                                                                   experimental value for fπ+ = 130.4(2) MeV to our for-
+sponding kaon mass is one for an s` meson. This is the
+                                                                   mula evaluated at the physical pion and kaon masses,
+root-mean-square average of the K + and K 0 masses with
+                                                                   Eqs. (15, 17)). These fits are all done simultaneously
+additional small corrections for electromagnetism:
+                                                                   using the same parameters for the fit functions in each
+           phys 2     1 2        2                                case, and including the correlations between π, K and ηs
+         (MK   ) ≡      (MK + + MK  0)
+                                                                   results discussed in Section II.
+                      2
+                      −(1 + ∆E )(Mπ+ − Mπ20 ) .
+                                   2
+                                             
+                                                         (16)        The results for the decay constants, as a function of
+                                                                   the light-quark mass, are shown in Figure 3. For each
+∆E would be zero if electromagnetic effects in the K sys-          decay constant we show fit results and simulation data for
+tem mirrored those of the π. In fact it is closer to 1.            each of our three lattice spacings. The dashed line shows
+Recent lattice calculations [28–30] that include electro-          the continuum extrapolation, while the gray band shows
+magnetic effects give values in the region 0.6-0.7. We             our final results extrapolated to zero lattice spacing and
+                                                                                                                             7
+
+
+             0.1830
+                                                                            1.200                                  w0
+             0.1825
+                                                                            1.195
+
+ fηs (GeV)
+             0.1820
+                                                                  fK / fπ   1.190                                  r1
+             0.1815
+                                                                            1.185                                √
+             0.1810                                                                                               t0
+                                                                            1.180
+             0.1805
+                                                                                0.000 0.005 0.010 0.015 0.020 0.025
+               0.164                                                                         a2 (fm2 )
+               0.162
+
+    fK (GeV)
+                                                                 FIG. 4: Fit results for fK /fπ evaluated at the physical light
+               0.160                                             quark mass limit, with m` = (mu +md )/2, for different lattice
+                                                                 spacings. The data shown are from Table III, with corrections
+               0.158                                             for errors in the quark masses, and for finite-volume errors.
+                                                                 The top curve and data are from our analysis using w0 to set
+               0.156                                             the lattice spacing; the middle results are from our analysis
+                                                                 using r1 instead
+                                                                                √ of w0 ; and the bottom results are from our
+                                                                 analysis using t0 . The gray band shows the final result from
+               0.150                                             the w0 analysis.
+
+               0.145
+
+    fπ (GeV)
+                                                                 Bayesian prior. The final results are:
+               0.140
+                                                                  fπ = 130.39(20) MeV                  fK + /fπ+ = 1.1916(21)
+               0.135                                             fK + = 155.37(34) MeV                  fηs /Mηs = 0.2631(11)
+
+               0.130                                              fηs = 181.14(55) MeV      Mη2s /(2MK
+                                                                                                     2
+                                                                                                       − Mπ2 ) = 1.0063(64)
+                                                                 Mηs = 688.5(2.2) MeV           fηs /(2fK − fπ ) = 0.9997(17)
+                       0.05    0.10      0.15      0.20           w0 = 0.1715(9) fm                                     (18)
+                              m2π /(2m2K − m2π )
+                                                                 Clearly the result for fπ contains no new information be-
+                                                                 yond the input value from experiment that was included
+FIG. 3: Fit results for the π, K, and ηs decay constants         as a fit parameter. The K + results here are adjusted to
+as functions of the light-quark mass for three different lat-    correct the valence light-quark mass, as discussed above.
+tice spacings: 0.15 fm (top/blue), 0.12 fm (middle/green), and
+                                                                 We find that the K + decay constant is 0.27(7)% lower
+0.09 fm (bottom/red). The data shown are from Table III,
+with corrections for errors in the s masses, and for finite-     than the decay constant for a kaon whose valence light-
+volume errors. The lines show our fit with the best-fit values   quark’s mass equals the u−d average mass.
+of the fit parameters. The dashed line is the a = 0 extrap-         Error budgets for several of our results are presented
+olation, and the gray band shows our continuum results at        in Table V. Our fits are unchanged if we include addi-
+the physical light quark mass point with m` = (mu + md )/2.      tional higher-order chiral or a2 corrections, beyond what
+The current experimental result for fπ+ is also shown (black     is discussed above. Omitting results from any one of our
+point). Note that the three plots are against very differ-       configuration sets shifts the mean values by no more than
+ent scales in the vertical direction: the range covered in the   one standard deviation and usually much less. Omit-
+fπ plot is 10 times larger than that covered in the fηs plot.    ting results from the smallest lattice spacing (0.09 fm)
+                                                                 gives the same mean values but with standard deviations
+                                                                 that are 2.5 times larger. Omitting the most chiral re-
+                                                                 sults (ms /ml > 25) shifts the means by about 1/3 of a
+                                                                 standard deviation and increases the standard deviation
+                                                                 by 50%. These last two tests are evidence that our a2 and
+                                                                 chiral extrapolations are stable and robust.
+                                                                    As a check of the ‘statistical+svdcut’ elements of the
+the physical light quark mass limit (with the light-quark        error budget we repeated the analysis using correlator
+mass equal to the u−d average). The fit is excellent with        results binned over many more adjacent configurations.
+a χ2 per degree of freedom of 0.42 (p-value 0.99), fitting       We used a bin size of 16 corresponding to 80 molecular
+39 pieces of data. There are 61 parameters, each with a          dynamics time units (64 or 96 on set 8 depending on
+                                                                                                                           8
+
+                                                                 to the physical mass; indeed, m` is actually slightly below
+TABLE V: Sources of uncertainty in the final results
+                                                                 the physical mass, so we are interpolating. We checked
+(Eq. (18)) for the K + decay constant, the ratio of K + to π +
+decay constants, the ηs mass, and the Wilson flow parame-        our chiral extrapolation in several ways:
+ter w0 .                                                            • We replaced the fixed value of f0 that sets the chi-
+                            fK +    fK + /fπ+   mηs     w0            ral scale in Eqs. (8) and (9) with the floating pa-
+     statistics + svd cut   0.13%   0.13%       0.28%   0.26%         rameter that corresponds to fπ in the chiral limit.
+     chiral extrapolation   0.03    0.03        0.04    0.15          Any changes should be absorbed by the higher-
+   a2 → 0 extrapolation     0.10    0.10        0.15    0.27          order mass-dependent terms in the chiral fit, so this
+finite volume correction    0.01    0.01        0.01    0.02          tests whether we have included enough higher or-
+        w0 /a uncertainty   0.02    0.02        0.02    0.28          der terms. Changing f0 in this way had negligible
+         fπ+ experiment     0.13    0.03        0.07    0.19          effect on our final answers (around σ/20).
+     mu /md uncertainty     0.07    0.07        0.00    0.00
+                    Total   0.22%   0.18%       0.33%   0.54%       • We replaced SU(3) chiral perturbation theory with
+                                                                      SU(2) chiral perturbation theory, where the chiral
+                                                                      parameters for pions, kaons and the ηs are allowed
+stream). This gives the same final result within 0.5σ and             to differ. Unlike in the SU(3) case, it is possible
+the same errors.                                                      to fit our data with the SU(2) theory expanded
+   The a2 variation of our simulation results is quite small          only through next-to-leading order (NLO); results
+(1–2 standard deviations) across our entire range of lat-             are the same as above to within 1σ, with slightly
+tice spacings. This is illustrated in Fig. 4 where we show            smaller errors. We prefer to include analytic terms
+simulation results for fK /fπ in the physical light quark             from next-to-next-to-leading order (NNLO) and
+mass limit for our three lattice spacings (top curve);                above to ensure that we have not underestimated
+the gray band is the a = 0 result. This behavior is in                our errors. This again gives results that agree with
+marked contrast with                                                  those in Eq. (18) (to better than 0.5σ) but now with
+                    √ what we obtain if we set the lat-
+tice spacing using t0 (bottom curve). The two methods                 slightly larger errors (by 0.1σ). See [32] and [31] for
+agree to within 1.3 standard deviations when√extrapo-                 a comparison of SU(2) and SU(3) chiral fits with
+lated to a = 0, but the variation with a2 in the t0 anal-             similar conclusions for results with asqtad u, d and
+ysis is√much larger. This agrees with the findings of [13]            s sea quarks.
+that t0 has larger discretisation errors than w0 when
+                                                                    • We repeated our analysis using staggered chiral
+compared to hadronic quantities. We have also redone
+                                                                      perturbation theory through one-loop [26] supple-
+our analysis using r1 (middle curve). These results are
+                                                                      mented by higher order terms in meson masses and
+similar to those from the w0 analysis, and give an extrap-
+                                                                      discretisation effects, as given earlier in Eqs. (7),
+olated value that agrees with that analysis to within half
+                                                                      (12) and (13). Staggered chiral perturbation theory
+a standard deviation. These two analyses also give:
+                                                                      explicitly incorporates discretisation effects that
+                    √                                                 arise when using staggered quarks because of the
+                      t0 = 0.1420(8) fm
+                                                                      multiple tastes of mesons that can appear in loop
+                     r1 = 0.3112(30) fm                 (19)
+                                                                      terms in the chiral expansion. The standard chiral
+                                     √                                logarithm terms are modified to include multiple
+We use quite broad priors for w0 , t0 , and r1 in our fits:
+0.1755(175), 0.1400(140), and 0.3150(320), respectively.              tastes and in addition there are ‘hairpin’ correction
+They have little effect on the fit results.                           terms that also depend on taste-splittings. The fi-
+   Finally, we give the Gasser-Leutwyler low-energy con-              nal effect from these two terms is very benign, even
+stants from the NLO term in our chiral fit. These are                 at physical quark masses. We find that final re-
+evaluated at scale Mη and given in units of 10−3 .                    sults from our fits differ by less than 0.5σ from the
+                                                                      results given above in Eq. (18).
+           L4 = 0.36(34)              L6 = 0.32(20)
+                                                                 These tests give us confidence that our estimates of the
+           L5 = 2.00(25)              L8 = 0.77(15)              errors due to our chiral fits are reliable.
+     2L6 − L4 = 0.28(17)        2L8 − L5 = −0.46(20)
+                                                          (20)
+                                                                                   IV.   DISCUSSION
+Values agree well with other chiral analyses, for example
+the MILC analysis on configurations including u, d and             Eq. (18) lists a number of outputs from our analysis.
+s asqtad sea quarks [31]. The errors on the low-energy           The key result is that for fK + and in particular the ratio
+constants reflect the fact that we allow for higher order        fK + /fπ+ needed to make use of Eq. (2). This is obtained
+terms beyond NLO chiral perturbation theory in our fits.         with an error of 0.18%.
+  Chiral extrapolation contributes much less to our error          Fig. 5 compares our new result for fK + /fπ+ to earlier
+budget here than in our previous analyses. This is ex-           values on nf = 2 + 1 + 1 (u, d, s and c sea quarks) [10]
+pected because we have lattice results for m` very close         and nf = 2 + 1 (u, d, s sea quarks) configurations [5–9].
+                                                                                                                                9
+
+                                                                   from nf = 2 + 1 [19] as well as from earlier analysis on
+                               fK+/f/+                             these nf = 2 + 1 + 1 configurations [18].
+                               nf=2+1+1     HPQCD this work           We used w0 /a to determine the relative lattice spac-
+                                                                   ing between ensembles. Fixing the lattice spacing fi-
+                                            MILC, 1301.5855        nally from fπ gives a physical value for w0 in Eq. (18)
+                                                                   of 0.1715(9) fm. This agrees at 2σ with the earlier re-
+                                                                   sult from BMW-c [13] of 0.1755(18) fm using the mass
+                               fK/f/                               of the Ω baryon to fix the physical value. The error in
+                               nf=2+1       BMW, 1001.4692         the BMW-c result is dominated by the statistical errors
+                                                                   in the lattice calculation of MΩ , and so we are able to
+                                            HPQCD, 0706.1726       obtain a smaller error using fπ .
+                                                                      In separate fits for comparison, not
+                                                                                                       √ used for our central
+                                            LvW, 1112.4861         values,
+                                                                         √ we also obtained values for t0 and r1 in Eq. (19).
+                                                                   Our t0 agrees with the value in [13]. The value for r1
+                                            MILC, 1012.0868        is not in good agreement with our earlier result, which
+                                                                   it supersedes, on a subset of these ensembles [18], how-
+                                            RBC/UKQCD              ever. The reason for this is largely because the values
+                                            1011.0892              for r1 /a have been updated, resulting in changes outside
+                                                                   the original error bars. This underscores the difficulty of
+ 1.15    1.17   1.19    1.21    1.23      1.25                     determining parameters from the heavy quark potential
+                                                                   accurately [13] and provides further incentive to use w0 .
+FIG. 5: A comparison of lattice QCD results for the ratio
+of K to π decay constants. The top two values (filled blue
+triangles) are for fK + /fπ+ including u, d, s and c sea quarks                      V.    CONCLUSIONS
+- results from this paper and from [10]. The lower values (red
+squares) include u, d and s sea and typically do not distinguish      We give here the most accurate result to date for
+fK + from fK [5–9].                                                fK + /fπ+ from lattice QCD. Our result comes from
+                                                                   ‘second-generation’ gluon field configurations with a
+                                                                   highly improved discretisation of QCD and including u,
+There is good agreement with earlier results within their          d, s, and c quarks in the sea. We fit results from a range of
+larger error bands. Typically the results on nf = 2+1 did          ensembles with u/d quark masses down to the physical
+not distinguish between fK + and fK because the errors             point and including additional accurate information on
+were not small enough to see this difference. The dif-             the relative lattice spacing between the ensembles. We
+ference that we see, 0.27(7)%, is in agreement with that           test the robustness of our continuum extrapolation us-
+expected from chiral perturbation theory (0.21(6)% [3]).           ing two different methods for lattice spacing determina-
+It is also in agreement with a simple-minded argument              tion. These features mean that we are able to improve on
+assuming that the ratio of fηs /fK depends linearly on             the error obtained by the MILC collaboration [10] which
+Mπ2 between 0 and Mη2s .                                           aimed for a self-contained analysis using only physical
+   Our result for fK + /fπ+ is more accurate than MILC’s           u/d quark masses.
+recent analysis [10] based on the physical point ensembles            Our result is
+because we have included additional information: accu-                                  fK +
+                                                                                              = 1.1916(21).                (21)
+rate relative lattice spacing values, fits to decay constants                           fπ+
+at heavier sea and valence quark masses, fits to ηs masses
+                                                                   With this level of accuracy the difference between fK
+and decay constants, and chiral perturbation theory to
+                                                                   with mu = md and fK + , which we determine to be
+relate all of these fits at all of the lattice spacings to each
+                                                                   0.27(7)%, is important. Going forward it will be nec-
+other. The MILC error is dominated by their continuum
+                                                                   essary to make sure that fK and fK + results from lattice
+extrapolation. Our Figs 3 and 4 show very little de-
+                                                                   QCD are averaged separately.
+pendence on lattice spacing (when using w0 ) and benign
+                                                                     Using Eq. (2) we determine
+extrapolations. Our error is nevertheless also dominated
+by the continuum extrapolation uncertainties along with                  |Vus |
+statistical errors.                                                             = 0.23160(29)Br(K + ) (21)EM (41)latt .       (22)
+                                                                         |Vud |
+   Our analysis also gives results for the properties of
+                                                                   It is no longer true that the lattice QCD error is much
+the ηs meson, by fixing its mass and decay constant in
+                                                                   larger than the total of experiment plus corrections to
+the continuum and physical light quark mass limits from
+                                                                   experiment from electromagnetism.
+those of the π and K. Here the surprising result, found
+                                                                      Given a value of Vud from nuclear β decay of
+earlier in [19], is how closely the properties of the ηs
+                                                                   0.97425(22) [33] gives
+match those expected from low order chiral perturbation
+theory. Our results here agree well with earlier results              |Vus | = 0.22564(28)Br(K + ) (20)EM (40)latt (5)Vud .   (23)
+                                                                                                                             10
+
+This agrees well with values from experimental results for         laboration for the use of their gauge configurations and to
+semileptonic K decay rates combined with lattice QCD               R. van de Water for useful discussions. We have used the
+calculations of the appropriate hadronic form factor [2,           MILC code for some of our propagator calculations. The
+34, 35]. The test of unitarity of the first row of the CKM         results described here were obtained using the Darwin
+matrix yields 1 − |Vud |2 − |Vus |2 − |Vub |2 = −0.00009(51).      Supercomputer of the University of Cambridge High Per-
+This agrees well with the Standard Model result of zero            formance Computing Service as part of STFC’s DiRAC
+and pushes the scale of new physics above 10 TeV [36].             facility. We are grateful to the Darwin support staff for
+To improve the limit on this scale significantly now needs         assistance. This work was funded by DFG (SFB-TR
+further improvements to the accuracy of Vud [33].                  55), NSF, the Royal Society, the Wolfson Foundation and
+Acknowledgements We are grateful to the MILC col-                  STFC.
+
+
+
+
+ [1] J. Beringer et al. (Particle Data Group), Phys. Rev. D86,     [19] C. Davies, E. Follana, I. Kendall, G. Lepage, and C. Mc-
+     010001 (2012).                                                     Neile (HPQCD collaboration), Phys.Rev. D81, 034506
+ [2] M. Antonelli, V. Cirigliano, G. Isidori, F. Mescia,                (2010), 0910.1229.
+     M. Moulson, et al., Eur.Phys.J. C69, 399 (2010),              [20] G. P. Lepage et al., Nucl. Phys. Proc. Suppl. 106, 12
+     1005.2323.                                                         (2002), hep-lat/0110175.
+ [3] V. Cirigliano and H. Neufeld, Phys.Lett. B700, 7 (2011),      [21] G. P. Lepage, https://github.com/gplepage.
+     1102.0563.                                                    [22] R. Sommer, Nucl. Phys. B411, 839 (1994), hep-
+ [4] W. J. Marciano, Phys.Rev.Lett. 93, 231803 (2004), hep-             lat/9310022.
+     ph/0402299.                                                   [23] C. McNeile, A. Bazavov, C. Davies, R. Dowdall, K. Horn-
+ [5] E. Follana, C. Davies, G. Lepage, and J. Shigemitsu                bostel, et al., Phys.Rev. D87, 034503 (2013), 1211.6577.
+     (HPQCD Collaboration, UKQCD Collaboration),                   [24] S. R. Sharpe and N. Shoresh, Phys.Rev. D62, 094503
+     Phys.Rev.Lett. 100, 062002 (2008), 0706.1726.                      (2000), hep-lat/0006017.
+ [6] S. Durr, Z. Fodor, C. Hoelbling, S. Katz, S. Krieg, et al.,   [25] G. Colangelo, S. Durr, and C. Haefeli, Nucl.Phys. B721,
+     Phys.Rev. D81, 054507 (2010), 1001.4692.                           136 (2005), hep-lat/0503014.
+ [7] A. Bazavov et al. (MILC Collaboration), PoS LAT-              [26] C. Aubin and C. Bernard, Phys.Rev. D68, 074011
+     TICE2010, 074 (2010), 1012.0868.                                   (2003), hep-lat/0306026.
+ [8] Y. Aoki et al. (RBC Collaboration, UKQCD Collabora-           [27] G. Amoros, J. Bijnens, and P. Talavera, Nucl.Phys.
+     tion), Phys.Rev. D83, 074508 (2011), 1011.0892.                    B602, 87 (2001), hep-ph/0101127.
+ [9] J. Laiho and R. S. Van de Water, PoS LATTICE2011,             [28] S. Basak et al. (MILC Collaboration), PoS LAT-
+     293 (2011), 1112.4861.                                             TICE2012, 137 (2012), 1210.8157.
+[10] A. Bazavov, C. Bernard, C. DeTar, J. Foley, W. Free-          [29] A. Portelli, S. Durr, Z. Fodor, J. Frison, C. Hoelbling,
+     man, et al. (MILC Collaboration), Phys.Rev. Lett. 110,             et al., PoS LATTICE2011, 136 (2011), 1201.2787.
+     172003 (2013), 1301.5855.                                     [30] T. Blum, R. Zhou, T. Doi, M. Hayakawa, T. Izubuchi,
+[11] E. Follana et al. (HPQCD collaboration), Phys.Rev.                 et al., Phys.Rev. D82, 094508 (2010), 1006.1311.
+     D75, 054502 (2007), hep-lat/0610092.                          [31] A. Bazavov et al. (MILC Collaboration), PoS LAT2009,
+[12] A. Hart, G. M. von Hippel, and R. R. Horgan                        079 (2009), 0910.3618.
+     (HPQCD collaboration), Phys. Rev. D79, 074008 (2009),         [32] A. Bazavov et al. (MILC Collaboration), PoS LAT2009,
+     0812.0503.                                                         077 (2009), 0911.0472.
+[13] S. Borsanyi, S. Durr, Z. Fodor, C. Hoelbling, S. D. Katz,     [33] J. Hardy and I. Towner, Phys.Rev. C79, 055502 (2009),
+     et al., JHEP 1209, 010 (2012), 1203.4469.                          0812.1202.
+[14] A. Bazavov et al. (MILC collaboration), Phys.Rev. D82,        [34] A. Bazavov, C. Bernard, C. Bouchard, C. DeTar, D. Du,
+     074501 (2010), 1004.0342.                                          et al. (MILC Collaboration), Phys.Rev. D87, 073012
+[15] A. Bazavov et al. (MILC Collaboration), Phys.Rev. D87,             (2013), 1212.4993.
+     054505 (2013), 1212.4768.                                     [35] P. Boyle et al. (RBC-UKQCD Collaboration),
+[16] M. Luscher, JHEP 1008, 071 (2010), 1006.4518.                      Eur.Phys.J. C69, 159 (2010), 1004.0886.
+[17] A. Bazavov et al., Rev. Mod. Phys. 82, 1349 (2010),           [36] V. Cirigliano, J. Jenkins, and M. Gonzalez-Alonso,
+     0903.3598.                                                         Nucl.Phys. B830, 95 (2010), 0908.1754.
+[18] R. Dowdall et al. (HPQCD Collaboration), Phys.Rev.
+     D85, 054509 (2012), 1110.6887.
+

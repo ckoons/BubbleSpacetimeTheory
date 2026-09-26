@@ -1,0 +1,91 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ Pccs (4459)0                                          I (J P ) = 0(?? )           Status:      ∗
+OMITTED FROM SUMMARY TABLE
+
+                                       Pccs (4459)0 MASS
+
+VALUE (MeV)              EVTS          DOCUMENT ID                TECN      COMMENT
+
+4466 +  6
+      − 5 OUR AVERAGE Error includes scale factor of 1.8.
+4471.7± 4.8 ± 0.6      21      1 ADACHI         25A BELL Υ(1S/2S) → J/ψ Λ incl.
+            + 4.7
+4458.8± 2.9 −        1.8k      2 AAIJ           21AO LHCB Ξ − → J/ψ Λ K −
+              1.1                                               b
+  1 ADACHI 25A sees evidence for the P
+                                       ccs (4459) at 2.8σ global signiﬁcance.
+  2 AAIJ 21AO sees evidence for the P
+                                     ccs (4459) at 3.1σ global signiﬁcance.
+
+
+                                       Pccs (4459)0 WIDTH
+
+VALUE (MeV)              EVTS          DOCUMENT ID                TECN      COMMENT
+
+19 + 8        OUR AVERAGE
+   − 7
+22 ± 13 ± 3            21      1 ADACHI         25A BELL Υ(1S/2S) → J/ψ Λ incl.
+          + 8.0
+17.3± 6.5 − 5.7      1.8k      2 AAIJ           21AO LHCB Ξ − → J/ψ Λ K −
+                                                                b
+  1 ADACHI 25A sees evidence for the P
+                                       ccs (4459) at 2.8σ global signiﬁcance.
+  2 AAIJ 21AO sees evidence for the P
+                                     ccs (4459) at 3.1σ global signiﬁcance
+
+                                Pccs (4459)0 DECAY MODES
+
+        Mode                                                  Fraction (Γi /Γ)
+
+Γ1      J/ψ Λ                                                 seen
+Γ2      Λ+
+         c Ds
+             −
+                                                              not seen
+
+
+                            Pccs (4459)0 BRANCHING RATIOS
+       
+Γ J/ψ Λ /Γtotal                                                                                        Γ1 /Γ
+VALUE                    EVTS          DOCUMENT ID                TECN      COMMENT
+seen                       21        1 ADACHI   25A BELL Υ(1S/2S) → J/ψ Λ incl.
+seen                     1.8k        2 AAIJ     21AO LHCB Ξ − → J/ψ Λ K −
+                                                                b
+  1 ADACHI 25A sees evidence for the P
+                                       ccs (4459) at 2.8σ global signiﬁcance.
+  2 AAIJ 21AO sees evidence for the P
+                                     ccs (4459) at 3.1σ global signiﬁcance.
+
+Γ Λ+   −
+   c D s /Γtotal                                                                                       Γ2 /Γ
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+not seen                                  1 AAIJ               25AK LHCB p p at 13 TeV
+
+
+
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 An analysis of Λ0 →       Λ+ D − K + K − decays, AAIJ 25AK reports B(Λ0 →
+                      b        c s                                        b
+    Pccs (4459)0 K + K − , Pccs → Λ+ D − ) / B(Λ0 → Λ+ D − K + K − ) < 0.20 at
+                                     c s         b      c s
+    95% CL.
+
+
+                                   Pccs (4459)0 REFERENCES
+AAIJ           25AK PR D112 052013              R. Aaij et al.                         (LHCb Collab.)
+ADACHI         25A PRL 135 041901               I. Adachi et al.          (BELLE and BELLE II Collab.)
+AAIJ           21AO SCIB 66 1278                R. Aaij et al.                         (LHCb Collab.)
+
+
+
+
+https://pdg.lbl.gov                           Page 2                      Created: 6/1/2026 16:24
+

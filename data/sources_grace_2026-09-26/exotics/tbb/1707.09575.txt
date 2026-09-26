@@ -1,0 +1,325 @@
+                                                                                                                                                     FERMILAB–PUB–17/289–T
+
+                                                  Heavy-Quark Symmetry Implies Stable Heavy Tetraquark Mesons Qi Qj q̄k q̄l
+
+                                                                                        Estia J. Eichten∗ and Chris Quigg†
+                                                                                       Fermi National Accelerator Laboratory
+                                                                                     P.O. Box 500, Batavia, Illinois 60510 USA
+                                                                                            (Dated: November 29, 2017)
+                                                         For very heavy quarks Q, relations derived from heavy-quark symmetry predict the existence of
+                                                       novel narrow doubly heavy tetraquark states of the form Qi Qj q̄k q̄l (subscripts label flavors), where q
+                                                       designates a light quark. By evaluating finite-mass corrections, we predict that double-beauty states
+                                                       composed of bbūd,    ¯ bbūs̄, and bbds̄
+                                                                                             ¯ will be stable against strong decays, whereas the double-charm
+                                                       states ccq̄k q̄l , mixed beauty+charm states bcq̄k q̄l , and heavier bbq̄k q̄l states will dissociate into pairs
+                                                       of heavy-light mesons. Observation of a new double-beauty state through its weak decays would
+
+
+
+
+arXiv:1707.09575v2 [hep-ph] 28 Nov 2017
+                                                       establish the existence of tetraquarks and illuminate the role of heavy color-antitriplet diquarks as
+                                                       hadron constituents.
+                                                       DOI: 10.1103/PhysRevLett.119.202002
+
+
+                                             Following the discovery of the charmonium-associated                which become increasingly important as the heavy-quark
+                                          state X(3872) by the BELLE collaboration [1], experi-                  masses decrease, the light q̄k q̄l cloud screens the Qi Qj
+                                          ments have led a renaissance in hadron spectroscopy [2].               interaction, so that the Qi Qj q̄k q̄l complex may rear-
+                                             Many of the newly observed states invite identification             range into a pair of heavy-light mesons [4]. For heavy
+                                          with compositions less spare than the traditional quark–               quarks Qi Qj bound in a color 3̄ by an effective po-
+                                          antiquark meson and three-quark baryon schemes [3].                    tential of the “Cornell” Coulomb + linear form at half
+                                          Tetraquark states composed of a heavy quark and an-                    strength for both components [5], the rms core radii
+                                          tiquark plus a light quark and antiquark have attracted                are hr2 i1/2 = 0.28 fm (cc); 0.24 fm (bc); 0.19 fm (bb), all
+                                          much attention. The observed candidates all fit the form               considerably smaller than the size of the associated
+                                          cc̄qk q̄l , where the light quarks q may be u, d, or s. No             tetraquark states. Hence the core-plus-light (anti)quarks
+                                          such states are observed significantly below threshold for             idealization should be a reliable guide to the masses
+                                          strong decays into two heavy-light meson states c̄qk + cq̄l ;          of ground-state tetraquarks containing charms and bot-
+                                          all have strong decays to cc̄ charmonium + light mesons.               toms.
+                                             In this Letter we examine the possibility of tetraquark                The ground state of the attractive 3̄ Qi Qj configura-
+                                          configurations for which all strong decays are kinemati-               tion may have total spin SQi Qj = 1 for identical quarks
+                                          cally forbidden. We show that, in the heavy-quark limit,               (i = j) or for quarks of different flavors (i 6= j) in
+                                          stable—hence exceedingly narrow—QiQj q̄k q̄l mesons                    a symmetric flavor configuration {Qi Qj } or total spin
+                                          must exist. To apply this insight, we take into account                SQi Qj = 0 for quarks of different flavors (i 6= j) in an
+                                          corrections for finite heavy-quark masses to deduce which              antisymmetric flavor configuration [Qi Qj ]. To construct
+                                          tetraquark states containing b or c quarks should be sta-              a color-singlet Qi Qj q̄k q̄l state, the light q̄k q̄l must be in a
+                                          ble. The most promising example is a J P = 1+ isoscalar                color-3. For the tetraquark ground state, both the heavy
+                                                                {bb}−
+                                          double-b meson, T[ūd]  ¯   .                                          Qi Qj and light q̄k q̄l pairs must be in (ℓ = 0) s-waves. To
+                                             In the heavy-quark limit, the lowest-lying tetraquark               satisfy the Pauli principle, the flavor-symmetric {q̄k q̄l }
+                                          configurations resemble the helium atom, a factorized                  state must have total (light-quark) spin jℓ = 1, whereas
+                                          system with separate dynamics for the compact heavy                    the flavor-antisymmetric [q̄k q̄l ] must have jℓ = 0.
+                                          color-3̄ Qi Qj “nucleus” and for the light quarks bound                   Stability in the heavy-quark limit. For very heavy
+                                          to the stationary color charge. (We recall that the one-               quarks, a hadron mass receives negligible contributions
+                                          gluon-exchange interaction is attractive for two quarks                from the motion of the heavy quarks and spin interac-
+                                          forming a color antitriplet, with half the strength of                 tions. Accordingly, the following relations hold among
+                                          the attraction between a quark and antiquark bound                     the masses of heavy-light and doubly-heavy-light mesons
+                                          in a color singlet.)         At large Qi – Qj separations,             and baryons [6]:
+
+
+
+
+                                                                         m({Qi Qj }{q̄k q̄l }) − m({Qi Qj }qy ) = m(Qx {qk ql }) − m(Qx q̄y )
+                                                                          m({Qi Qj }[q̄k q̄l ]) − m({Qi Qj }qy ) = m(Qx [qk ql ]) − m(Qx q̄y )                                  (1)
+                                                                           m([Qi Qj ]{q̄k q̄l }) − m([Qi Qj ]qy ) = m(Qx {qk ql }) − m(Qx q̄y )
+                                                                            m([Qi Qj ][q̄k q̄l ]) − m([Qi Qj ]qy ) = m(Qx [qk ql ]) − m(Qx q̄y ) .
+                                                                                                                                    2
+
+(In the limit, a heavy core is a heavy core.)                       quarks and the coefficients S and K are to be determined
+  It is easy to see that the dissociation of Qi Qj q̄k q̄l into     from experimental data summarized in Table I. The spin
+two heavy-light mesons is kinematically forbidden, for              splittings lead directly to the coefficients S tabulated in
+sufficiently heavy quarks. The Q value for the decay is             the last column. The pattern of the spin coefficients is
+                                                                    entirely consistent with the expectations of heavy-quark
+  Q ≡ m(Qi Qj q̄k q̄l ) − [m(Qi q̄k ) + m(Qj q̄l )] =               symmetry.
+                          2                                  (2)
+    ∆(qk , ql ) − 12 32 αs [1 + O(v 2 )]M + O(1/M ) ,                  The kinetic energy shift due to light quarks will be dif-
+                                                                    ferent in Qq̄ mesons and Qqq baryons. By comparing the
+where ∆(qk , ql ), the contribution due to light dynam-             centroid (or center-of-gravity, c.g.) masses for the charm
+ics, becomes independent of the heavy-quark masses,                 and bottom systems we can extract the difference of the
+M ≡ (1/mQ i + 1/mQ j )−1 is the reduced mass of Qi                  kinetic-energy coefficients K for states that contain one
+and Qj , and αs is the strong coupling. The velocity-               or two light quarks, viz. δK ≡ K(ud) − Kd . For example,
+dependent hyperfine corrections, here negligible, are cal-
+culable in the nonrelativistic QCD formalism [7]. For                                                          ¯
+                                                                                        ¯ − {m[(bud)3̄ ] − m(bd)}
+                                                                      {m[(cud)3̄ ] − m(cd)}
+large enough values of M , the middle term dominates,                                     
+                                                                                             1    1
+                                                                                                     
+                                                                                                                      (6)
+so the tetraquark is stable against decay into two heavy-                            = δK      −         = 5.11 MeV ,
+                                                                                            2mc 2mb
+light mesons.
+   The other possible decay channel is to a doubly heavy            from which we extract δK = 0.0235 GeV2 . The resulting
+baryon and a light antibaryon,                                      mass shifts are
+          (Qi Qj q̄k q̄l ) → (Qi Qj qm ) + (q̄k q̄l q̄m ) .   (3)                               δK
+                                                                       m[{cc}(ū ¯
+                                                                                d)] − m({cc}d) :    = 2.80 MeV       (7)
+                                                                                               4mc
+By Eq. 1, we have                                                                                  δK
+                                                                                ¯ − m({bc}d) :
+                                                                       m[(bc)(ūd)]                        = 1.87 MeV
+                                                                                               2(mc + mb )
+ m(Qi Qj q̄k q̄l ) − m(Qi Qj qm ) = m(Qx qk ql ) − m(Qx q̄m ) .
+                                                           (4)                  ¯ − m({bb}d) : δK = 1.24 MeV
+                                                                       m[{bb}(ūd)]
+In the heavy-quark regime, the flavored-baryon–flavored-                                       4mb
+meson mass difference on the right-hand side of Eq. 4               These values are small—only slightly larger than the
+has the generic form ∆0 + ∆1 /MQ x . Using the ob-                  isospin breaking effects that we neglect as too small to
+served mass differences, m(Λc ) − m(D) = 416.87 MeV                 affect the question of stability [12].
+and m(Λb ) − m(B) = 340.26 MeV, and choosing effec-                    Combining the heavy-quark-symmetry relations of
+tive quark masses mc ≡ m(J/ψ)/2 = 1.55 GeV, mb ≡                    Eq. 1 with the leading-order corrections we obtain the
+m(Υ)/2 = 4.73 GeV, we find ∆1 = 176.6 MeV2 and                      masses of ground-state Qi Qj q̄k q̄l tetraquarks summa-
+∆0 = 303 MeV, hence the mass difference in the heavy-               rized in Table II [13]. As inputs for the doubly heavy
+quark limit is 303 MeV. All of these mass differences               baryons not yet experimentally measured, we use the
+are smaller than the mass of the lightest antibaryon,               model calculations of Karliner and Rosner [14].
+m(p̄) = 938.27 MeV, so we conclude that no decay to a                  Narrow Tetraquark States. As we explained in the dis-
+doubly heavy baryon and a light antibaryon is kinemat-              cussion surrounding Eq. 4, strong decays of Qi Qj q̄k q̄l
+ically allowed. This completes the demonstration that,              tetraquarks to a doubly heavy baryon and a light an-
+in the heavy-quark limit, stable Qi Qj q̄k q̄l mesons must          tibaryon are kinematically forbidden for all the ground
+exist.                                                              states. Strong decay to a pair of heavy-light mesons will
+   Beyond the heavy-quark limit. To ascertain whether               occur if the tetraquark state lies above threshold. For
+stable tetraquark mesons might be observed, we must                 J P = 0+ or 2+ , a Qi Qj q̄k q̄l meson might decay to a pair
+estimate masses of the candidate configurations. Numer-             of heavy-light pseudoscalar mesons while for J P = 1+
+ous model calculations exist in the literature [8], but it          the allowed decay channel would be a pseudoscalar plus a
+is informative to make estimates in the spirit of heavy-            vector meson. According to our mass estimates, the only
+quark symmetry.                                                     tetraquark mesons below threshold are the axial vector
+   The leading-order corrections for finite heavy-quark                     ¯ meson, T {bb}−
+                                                                    {bb}[ūd]             ¯
+                                                                                       [ūd]
+                                                                                             , that is bound by 121 MeV and
+mass correspond to hyperfine spin-dependent terms and
+a kinetic energy shift that depends only on the light de-           the axial vector {bb}[ūs̄] and {bb}[d̄s̄] mesons bound by
+grees of freedom,                                                   48 MeV. We expect all the other Qi Qj q̄k q̄l tetraquarks
+                                                                    to lie at least 78 MeV above the corresponding thresh-
+                              ~ · j~ℓ
+                              S          K                          olds for strong decay [16]. Promising final states include
+                    δm = S            +    ,                  (5)     {bb}−
+                                                                    T[ūd]  → Ξ0bc p̄, B − D+ π − , and B − D+ ℓ− ν̄ (which es-
+                              2M        2M                              ¯
+                                                                                                   {bb}−                    {bb}0
+where M = mQ i or mQ i + mQ j denotes the mass of the               tablishes a weak decay), T[ūs̄]       → Ξ0bc Σ̄− , T[d̄s̄]     →
+heavy-quark core for hadrons containing one or two heavy            Ξ0bc (Λ̄, Σ̄0 ), and so on.
+                                                                                                                                               3
+
+
+  TABLE I. Representative masses [9], in MeV, and derived quantities for ground-state hadrons containing heavy quarks.
+                             Statea        jℓ Mass (jℓ + 21 ) Mass (jℓ − 21 ) Centroid Spin Splitting S [GeV2 ]
+                                     ¯ 1
+                             D(∗) (cd)            2010.26       1869.59        1975.09         140.7        0.436
+                                         2
+                                (∗)
+                             Ds (cs̄) 21           2112.1       1968.28        2076.15         143.8        0.446
+                             Λc (cud)3̄ 0         2286.46          ···           ···                         ···
+                             Σc (cud)6 1          2518.41       2453.97        2496.93         64.44        0.132
+                             Ξc (cus)3̄ 0         2467.87          ···           ···                         ···
+                             Ξ′c (cus)6 1          2645.53       2577.4        2622.82         68.13        0.141
+                             Ωc (css)6 1           2765.9        2695.2        2742.33         70.7         0.146
+                             Ξcc (ccu)3̄ 0        3621.40b         ···                          ···
+                             B (∗) (b ¯
+                                     d)     1
+                                            2
+                                                  5324.65       5279.32        5313.32         45.33        0.427
+                               (∗)          1
+                             Bs (bs̄)       2
+                                                   5415.4       5366.89        5403.3          48.5         0.459
+                             Λb (bud)3̄     0     5619.58          ···                           ···
+                             Σb (bud)6      1      5832.1        5811.3        5825.2           20.8        0.131
+                             Ξb (bds)3̄     0      5794.5          ···                           ···
+                             Ξ′b (bds)6     1     5955.33       5935.02        5948.56         20.31        0.128
+                             Ωb (bss)6      1                    6046.1
+                             Bc (bc̄)       1
+                                            2
+                                                   6329c         6274.9        6315.4c         54c          0.340c
+a Subscripts denote flavor-SU(3) representations for heavy baryons.
+b From the LHCb observation, Ref. [10].
+c Inferred from the lattice QCD calculation of Ref. [11].
+
+
+
+
+TABLE II. Expectations for ground-state tetraquark masses, in MeV.a The column labeled “HQS Relation” is the result of our
+heavy-quark symmetry relations and is explicitly given by the sum of the right-hand-side of Eq. 1 and the kinetic-energy mass
+shifts of Eq. 7. Here q denotes an up or down quark. For stable tetraquark states the Q value is highlighted in a box.
+ State               JP      jℓ m(Qi Qj qm ) (c.g.) HQS relation           m(Qi Qj q̄k q̄l )          Decay Channel                  Q [MeV]
+ {cc}[ūd] ¯         1+
+                             0       3663b         m({cc}u) + 315               3978                   D+ D∗0 3876                      102
+                      +
+ {cc}[q̄k s̄]        1       0       3764c          m({cc}s) + 392              4156                   D+ Ds∗− 3977                     179
+ {cc}{q̄k q̄l } 0+ , 1+ , 2+ 1        3663         m({cc}u) + 526         4146, 4167, 4210       D D , D+ D∗0 3734, 3876
+                                                                                                  + 0
+                                                                                                                                   412, 292, 476
+         ¯
+ [bc][ūd]           0+      0        6914          m([bc]u) + 315              7229               B − D+ /B 0 D0 7146                   83
+ [bc][q̄k s̄]        0+      0       7010d          m([bc]s) + 392              7406                     Bs D 7236                      170
+                      +
+ [bc]{q̄k q̄l }      1       1        6914          m([bc]u) + 526              7439              B D/BD∗ 7190/7290
+                                                                                                    ∗
+                                                                                                                                        249
+ {bc}[ūd] ¯         1+      0        6957         m({bc}u) + 315               7272              B ∗ D/BD∗ 7190/7290                    82
+ {bc}[q̄k s̄]        1+      0       7053d          m({bc}s) + 392              7445                     DBs∗ 7282                      163
+                 +    +    +
+ {bc}{q̄k q̄l } 0 , 1 , 2 1           6957         m({bc}u) + 526         7461, 7472, 7493        BD/B ∗ D 7146/7190               317, 282, 349
+ {bb}[ūd] ¯         1+      0       10 176        m({bb}u) + 306             10 482                   B − B̄ ∗0 10 603               −121
+ {bb}[q̄k s̄]       1+       0          10 252c       m({bb}s) + 391           10 643            B̄ B̄s∗ /B̄s B̄ ∗ 10 695/10 691       −48
+                +   +    +
+ {bb}{q̄k q̄l } 0 , 1 , 2    1          10 176       m({bb}u) + 512 10 674, 10 681, 10 695 B − B 0 , B − B ∗0 10 559, 10 603 115, 78, 136
+a Masses of the unobserved doubly heavy baryons are taken from Ref. [14]; for lattice evaluations of b-baryon masses, see Ref. [15]
+b Based on the mass of the LHCb Ξ++ candidate, 3621.40 MeV, Ref. [10].
+                                    cc
+c Using the s/d mass differences of the corresponding heavy-light mesons.
+                              ¯ + m(bs̄) − m(bd)]
+d Evaluated as 1 [m(cs̄) − m(cd)              ¯ + m(bcd).
+               2
+
+
+
+  As others have noted [8, 17], unstable doubly heavy                      term searches from the large yield of Bc mesons recorded
+tetraquarks might be reconstructed as resonances in the                    in the LHCb experiment [18] and the not inconsiderable
+“wrong-sign” combinations of DD, DB, and BB. The                           rate of Double-Υ production observed in 8-TeV pp colli-
+                 {cc}++
+doubly charged T[d̄s̄]  → D+ Ds+ , etc. would stand out                    sions by the CMS experiment, σ(pp → ΥΥ+ anything) =
+as prima facie evidence for a non-q q̄ level.                              68 ± 15 pb [19]. The ultimate search instrument might
+                                                                           be a future electron–positron Tera-Z factory, for which
+  While the production of Qi Qj q̄k q̄l mesons is undoubt-                 the branching fractions [9] Z → bb̄ = 15.12 ± 0.05% and
+edly a rare event, we draw some encouragement for near-
+                                                                                                                               4
+
+Z → bb̄bb̄ = (3.6 ± 1.3) × 10−4 offer hope of many events              emerging exotic spectroscopy, emphasizing the role of
+containing multiple heavy quarks.                                      color couplings, see R. L. Jaffe, “Exotica,” Proceed-
+                                                                       ings, 6th International Conference on Hyperons, charm
+   Concluding remarks. We have shown that, in the                      and beauty hadrons (BEACH 2004): Chicago, USA,
+heavy-quark limit, stable Qi Qj q̄k q̄l tetraquarks must ex-           June 27-July 3, 2004, Phys. Rept. 409, 1–45 (2005),
+ist. Our estimates of tetraquark masses lead us to expect              arXiv:hep-ph/0409065 [hep-ph].
+that strong decays of the J P = 1+ {bb}[ūd],    ¯ {bb}[ūs̄],     [4] This behavior is exhibited in exploratory lattice
+and {bb}[d̄s̄] states are kinematically forbidden, so that             QCD calculations reported in A. Peters, P. Bicudo,
+these states should be exceedingly narrow, decaying only               K. Cichy, B. Wagenbach,          and M. Wagner, “Ex-
+through the charged-current weak interaction. Observa-                 ploring possibly existing qq b̄b̄ tetraquark states with
+                                                                       qq = ud, ss, cc,” Proceedings, 33rd International
+tion of any of these states would signal the existence of a            Symposium on Lattice Field Theory (Lattice 2015):
+new form of stable matter, in which the doubly heavy                   Kobe, Japan, July 14-18, 2015, PoS LATTICE2015,
+color-3̄ Qi Qj diquark is a basic building block. The                  095 (2016), arXiv:1508.00343 [hep-lat];        A. Peters,
+unstable Qi Qj q̄k q̄l tetraquarks—particularly those with             P. Bicudo, L. Leskovec, S. Meinel, and M. Wag-
+small Q values—may be observable as resonances decay-                  ner, “Lattice QCD study of heavy-heavy-light-light
+ing into pairs of heavy-light mesons, if they are not too              tetraquark candidates,” Proceedings, 34th Interna-
+broad to stand out above backgrounds.                                  tional Symposium on Lattice Field Theory (Lattice
+                                                                       2016): Southampton, UK, July 24-30, 2016, LAT-
+   This manuscript has been authored by Fermi Research                 TICE2016, 104 (2016), arXiv:1609.00181 [hep-lat];
+Alliance, LLC under Contract No. DE-AC02-07CH11359                     It emerged in analytic calculations by Aneesh V.
+with the U.S. Department of Energy, Office of Science,                 Manohar and Mark B. Wise, “Exotic QQq̄q̄
+Office of High Energy Physics. The United States Gov-                  states in QCD,” Nucl. Phys. B399, 17–33 (1993),
+ernment retains and the publisher, by accepting the arti-              arXiv:hep-ph/9212236 [hep-ph], who anticipated that,
+                                                                       for infinitely heavy quarks Q, QQq̄q̄ states would be
+cle for publication, acknowledges that the United States
+                                                                       stable against dissociation into two heavy-light mesons.
+Government retains a non-exclusive, paid-up, irrevoca-             [5] The strength of the Coulomb contribution is fixed
+ble, world-wide license to publish or reproduce the pub-               by the color Casimir. Lattice studies indicate
+lished form of this manuscript, or allow others to do so,              that the string tension for the color 3̄ is half
+for United States Government purposes.                                 that for the singlet configuration:        A. Nakamura
+                                                                       and T. Saito, “QCD color interactions between
+Note added.—We recently learned of interesting calcula-
+                                                                       two      quarks,”     Phys. Lett. B621, 171–175 (2005),
+tions of tetraquark masses that also highlight the likeli-             arXiv:hep-lat/0512043 [hep-lat].
+hood of a stable doubly heavy tetraquark [20].                     [6] The essence of this argument is developed in
+                                                                       E. Eichten, “Heavy Quarks on the Lattice,”
+                                                                       Nucl. Phys. Proc. Suppl. 4, 170 (1988);           G.    P.
+                                                                       Lepage and B. A. Thacker, “Effective La-
+                                                                       grangians for Simulating Heavy Quark Systems,”
+  ∗
+     Email: eichten@fnal.gov; ORCID: 0000-0003-0532-2300               Nucl. Phys. Proc. Suppl. 4, 199 (1988); For a compre-
+  †
+     Email: quigg@fnal.gov; ORCID: 0000-0002-2728-2445                 hensive review, see Aneesh V. Manohar and Mark B.
+ [1] S. K. Choi et al. (Belle), “Observation of a narrow               Wise, Heavy quark physics (Cambridge University Press,
+     charmonium - like state in exclusive B ± → K ± π + π − J/ψ        Cambridge and New York, 2000).
+     decays,”             Phys. Rev. Lett. 91, 262001 (2003),      [7] W. E. Caswell and G. P. Lepage, “Effective Lagrangians
+     arXiv:hep-ex/0309032 [hep-ex].                                    for Bound State Problems in QED, QCD, and Other
+ [2] For recent surveys of new states and candidate                    Field Theories,” Phys. Lett. 167B, 437–442 (1986).
+     interpretations, see S. L. Olsen, “A New Hadron Spec-         [8] A useful compilation appears in Table IX of Si-Qiang
+     troscopy,”    Front. Phys. (Beijing) 10, 121–154 (2015),          Luo, Kan Chen, Xiang Liu, Yan-Rui Liu, and Shi-Lin
+     arXiv:1411.7738 [hep-ex]; R. F. Lebed, R. E. Mitchell,            Zhu, “Exotic tetraquark states with the qq Q̄Q̄ configura-
+     and E. S. Swanson, “Heavy-Quark QCD Exot-                         tion,” (2017), arXiv:1707.01180 [hep-ph].
+     ica,”        Prog. Part. Nucl. Phys. 93, 143–194 (2017),      [9] Except as noted, masses are taken from C. Patrig-
+     arXiv:1610.04528 [hep-ph];              A.     Esposito,          nani et al. (Particle Data Group), “Review of Particle
+     A. Pilloni,        and A. D. Polosa, “Multiquark                  Physics,” Chin. Phys. C40, 100001 (2016) and 2017 up-
+     Resonances,”               Phys. Rept. 668, 1–97 (2016),          date, pdg.lbl.gov.
+     arXiv:1611.07920 [hep-ph];      A. Ali, J. S. Lange,         [10] R. Aaij et al. (LHCb Collaboration), “Observa-
+     and S. Stone, “Exotics:        Heavy Pentaquarks and              tion of the doubly charmed baryon Ξ++      cc ,”   (2017),
+     Tetraquarks,” (2017), arXiv:1706.00610 [hep-ph].                  arXiv:1707.01621 [hep-ex].
+ [3] The possibility of nonminimal configurations was fore-       [11] R. J. Dowdall, C. T. H. Davies, T. C. Hammant, and
+     seen in the foundational papers by G. Zweig, “An                  R. R. Horgan, “Precise heavy-light meson masses and
+     SU(3) model for strong interaction symmetry and                   hyperfine splittings from lattice QCD including charm
+     its breaking,” (1964), CERN-TH-401;          “An SU(3)            quarks in the sea,” Phys. Rev. D86, 094510 (2012),
+     model for strong interaction symmetry and its break-              arXiv:1207.5149 [hep-lat].
+     ing. 2,” (1964), CERN-TH-412; M. Gell-Mann, “A               [12] Compare M. Karliner and J. L. Rosner, “Isospin split-
+     schematic model of baryons and mesons,” Phys. Lett.               tings in baryons with two heavy quarks,” (2017),
+     8, 214–215 (1964);        For an early survey of the              arXiv:1706.06961 [hep-ph].
+                                                                                                                                   5
+
+[13] Communication with decay channels tends to push the                arXiv:1307.2873 [hep-ph].
+     bound-state levels deeper. Open channels would induce         [18] In 8-TeV pp collisions, Roel Aaij et al. (LHCb),
+     mixing between the color-3̄-core–3-light quark configura-          “Measurement of the Bc+ meson lifetime using Bc+ →
+     tion and meson–meson configurations.                               J/ψµ+ νµ X decays,” Eur. Phys. J. C74, 2839 (2014),
+[14] Marek Karliner and Jonathan L. Rosner, “Baryons                    arXiv:1401.6932 [hep-ex] reported 8995 ± 103 Bc
+     with two heavy quarks: Masses, production, de-                     candidates in 2 fb−1 .
+     cays, and detection,” Phys. Rev. D90, 094007 (2014),          [19] Vardan Khachatryan et al. (CMS Collaboration), “Ob-
+     arXiv:1408.5877 [hep-ph].                                          servation of Υ(1S)
+                                                                                        √       pair production in proton-proton
+[15] Zachary S. Brown, William Detmold, Stefan Meinel, and              collisions at      s = 8 TeV,” JHEP 05, 013 (2017),
+     Kostas Orginos, “Charmed bottom baryon spectroscopy                arXiv:1610.07095 [hep-ex].
+     from lattice QCD,” Phys. Rev. D90, 094507 (2014),             [20] Marek Karliner and Jonathan L. Rosner, preceding
+     arXiv:1409.0497 [hep-lat].                                         Letter, “Discovery of doubly-charmed Ξcc baryon
+[16] Note that if we took the SELEX value for the Ξ+          cc        implies a stable (bbū ¯ d) tetraquark,” Phys. Rev. Let-
+     mass, 3519 MeV, rather than the LHCb Ξ++         cc  mass          ters 119, 202001 (2017), arXiv:1707.07666 [hep-ph].
+     of Ref. [10], M. Mattson et al. (SELEX Collabo-                    This paper contains an extensive list of references
+     ration), “First observation of the doubly charmed                  to early work. Meng-Lin Du, Wei Chen, Xiao-Lin
+     baryon     Ξ+cc ,”    Phys. Rev. Lett. 89, 112001 (2002),          Chen,        and Shi-Lin Zhu, “Exotic QQq̄q̄, QQq̄s̄
+     arXiv:hep-ex/0208014 [hep-ex],        we    would     find         and QQs̄s̄ states,” Phys. Rev. D87, 014003 (2013),
+              ¯ = 3876 MeV, coincident with the 3876 MeV
+     m({cc}[ūd])                                                       arXiv:1209.5134 [hep-ph]; Wei Chen, T. G. Steele, and
+     threshold for dissociation into a heavy-light pseudoscalar         Shi-Lin Zhu, “Exotic open-flavor bcq̄ q̄, bcs̄s̄ and qcq̄ b̄,
+     and heavy-light vector. Signatures for weak decay would            scs̄b̄ tetraquark states,” Phys. Rev. D89, 054037 (2014),
+     include D+ K − ℓ+ ν and Ξ+ c n̄.                                   arXiv:1310.8337 [hep-ph]; Anthony Francis, Renwick J.
+[17] A. Esposito, M. Papinutto, A. Pilloni, A. D. Polosa,               Hudspith, Randy Lewis, and Kim Maltman, “Lat-
+     and N. Tantalo, “Doubly charmed tetraquarks in                     tice Prediction for Deeply Bound Doubly Heavy
+     Bc and Ξbc decays,” Phys. Rev. D88, 054029 (2013),                 Tetraquarks,”        Phys. Rev. Lett. 118, 142001 (2017),
+                                                                        arXiv:1607.05214 [hep-lat].
+

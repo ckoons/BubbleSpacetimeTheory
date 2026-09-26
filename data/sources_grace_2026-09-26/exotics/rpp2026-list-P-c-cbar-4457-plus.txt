@@ -1,0 +1,156 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ Pcc (4457)+                                          I (J P ) = 21 (?? )         Status:      ∗
+OMITTED FROM SUMMARY TABLE
+was Pc (4450)
+        A resonance seen in Λ0b → P +       −
+                                        c K , then Pc → J/ψ p, with a
+        signiﬁcance of 12 standard deviations. The J/ψ p quark content
+        is u u d c c, a pentaquark. See also the Pcc (4380)+ . In the best
+        amplitude ﬁt, the two states have opposite parity, one having J =
+        3/2, the other J = 5/2.
+        Extraction of the pentaquark signals requires some understanding of
+        the dominant K − p background. AAIJ 15P used a model-dependent
+        approach. AAIJ 16AG reanalyzed the data making minimal assump-
+        tions about the K − p background, and thus conﬁrmed the strong
+        signiﬁcance of the pentaquark signals.
+
+                                       Pcc (4457)+ MASS
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+            + 4.1
+4457.3± 0.6 − 1.7                   AAIJ            19W LHCB p p at 7, 8, 13 TeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4449.8± 1.7 ± 2.5                 1 AAIJ            15P LHCB Repl. by AAIJ 19W
+  1 Considering P (4440) and P (4457) as a single resonance.
+                 cc           cc
+
+                                      Pcc (4457)+ WIDTH
+
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+
+ 6.4± 2.0 + 5.7
+          − 1.9                            AAIJ               19W LHCB p p at 7, 8, 13 TeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+39 ± 5 ± 19                       1 AAIJ            15P LHCB Repl. by AAIJ 19W
+  1 Considering P (4440) and P (4457) as a single resonance.
+                 cc           cc
+
+                               Pcc (4457)+ DECAY MODES
+
+      Mode                                                   Fraction (Γi /Γ)
+
+Γ1    J/ψ p                                                  seen
+Γ2    Λ+
+       c D
+           0                                                 not seen
+Γ3    Λ+  + −
+       c π D                                                 not seen
+Γ4      Σc (2455)++ D −                                      not seen
+Γ5      Σc (2520)++ D −                                      not seen
+       − + +
+Γ6    Λc π D                                             [a] not seen
+Γ7      Σ c (2455)0 D +                                  [a] not seen
+Γ8      Σ c (2520)0 D +                                  [a] not seen
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ9      Λ+  + ∗−
+         c π D                                                not seen
+Γ10     Λ−  + ∗+
+         c π D                                            [a] not seen
+
+
+   [a] Searched for the charge conjugate mode from P −
+                                                     cc decays.
+
+                            Pcc (4457)+ BRANCHING RATIOS
+       
+Γ J/ψ p /Γtotal                                                                                        Γ1 /Γ
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+seen                               1 POPOV           21 D0        p p at 1.96 TeV
+seen                                 AAIJ            19W LHCB p p at 7, 8, 13 TeV
+seen                                 AAIJ            15P LHCB p p at 7, 8 TeV
+  1 Search for J/ψ inclusive production in association with a charged particle, assumed to
+    be a proton. POPOV 21 observes a resonant signal consistent with a superposition of
+    the Pcc (4440)+ and Pcc (4457)+ , using masses and widths measured by AAIJ 19W, at
+    signiﬁcance of 3σ.
+
+Γ Λ+   0 /Γ
+        
+   c D      total                                                                                      Γ2 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB p p, 5.7 fb−1 at 13 TeV
+
+Γ Λ+   + D − /Γ
+            
+   c π          total                                                                                  Γ3 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB p p, 5.7 fb−1 at 13 TeV
+
+Γ Σc (2455)++ D − /Γtotal
+                 
+                                                                                                       Γ4 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB p p, 5.7 fb−1 at 13 TeV
+
+Γ Σc (2520)++ D − /Γtotal
+                 
+                                                                                                       Γ5 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB p p, 5.7 fb−1 at 13 TeV
+
+Γ Λ−  + + /Γ
+         
+   c π D     total                                                                                     Γ6 /Γ
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+not seen                                    AAIJ               24Z LHCB P − → Λ+ π − D −
+                                                                          cc   c
+
+Γ Σ c (2455)0 D + /Γtotal
+                 
+                                                                                                       Γ7 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB P − → Σc (2455)0 D −
+                                                                          cc
+
+Γ Σ c (2520)0 D + /Γtotal
+                 
+                                                                                                       Γ8 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB P − → Σc (2520)0 D −
+                                                                          cc
+
+Γ Λ+  + ∗− /Γ
+          
+   c π D      total                                                                                    Γ9 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB p p, 5.7 fb−1 at 13 TeV
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:24
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ Λ−  + ∗+ /Γ
+          
+   c π D      total                                                                                    Γ10 /Γ
+VALUE                                      DOCUMENT ID                TECN      COMMENT
+not seen                                   AAIJ                24Z LHCB P − → Λ+ π − D ∗−
+                                                                          cc   c
+
+                                  Pcc (4457)+ REFERENCES
+AAIJ          24Z PR D110 032001               R. Aaij et al.                             (LHCb Collab.)
+POPOV         21   PAN 83 1383                 A.V. Popov et al.                            (D0 Collab.)
+AAIJ          19W PRL 122 222001               R. Aaij et al.                             (LHCb Collab.)
+AAIJ          16AG PRL 117 082002              R. Aaij et al.                             (LHCb Collab.)
+AAIJ          15P PRL 115 072001               R. Aaij et al.                             (LHCb Collab.)
+
+
+
+
+https://pdg.lbl.gov                          Page 3                      Created: 6/1/2026 16:24
+

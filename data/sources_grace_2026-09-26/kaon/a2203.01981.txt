@@ -1,0 +1,2894 @@
+                                                          PSI Ring Cyclotron Proposal R-22-01.1
+                                                          PIONEER: Studies of Rare Pion Decays
+
+                                               W. Altmannshofer,1 H. Binney,2 E. Blucher,3 D. Bryman,4, 5 L. Caminada,6
+                                               S. Chen,7 V. Cirigliano,8 S. Corrodi,9 A. Crivellin,6, 10, 11 S. Cuen-Rochin,12
+                                            A. DiCanto,13 L. Doria,14 A. Gaponenko,15 A. Garcia,2 L. Gibbons,16 C. Glaser,17
+                                            M. Escobar Godoy,1 D. Göldi,18 S. Gori,1 T. Gorringe,19 D. Hertzog,2 Z. Hodge,2
+                                              M. Hoferichter,20 S. Ito,21 T. Iwamoto,22 P. Kammel,2 B. Kiburg,15 K. Labe,16
+                                         J. LaBounty,2 U. Langenegger,6 C. Malbrunot,5 S.M. Mazza,1 S. Mihara,21 R. Mischke,5
+                                             T. Mori,22 J. Mott,15 T. Numao,5 W. Ootani,22 J. Ott,1 K. Pachal,5 C. Polly,15
+                                            D. Počanić,17 X. Qian,13 D. Ries,23 R. Roehnelt,2 B. Schumm,1 P. Schwendimann,2
+
+
+
+
+arXiv:2203.01981v2 [hep-ex] 8 Mar 2022
+                                         A. Seiden,1 A. Sher,5 R. Shrock,24 A. Soter,18 T. Sullivan,25 M. Tarka,1 V. Tischenko,13
+                                           A. Tricoli,13 B. Velghe,5 V. Wong,5 E. Worcester,13 M. Worcester,26 and C. Zhang13
+                                                            1 Santa Cruz Institute for Particle Physics (SCIPP),
+
+                                             University of California Santa Cruz, 1156 High street, Santa Cruz (CA) 95064 USA
+                                                             2 Department of Physics, University of Washington,
+
+                                                                Box 351560, Seattle, Washington 98195 USA
+                                                            3 Enrico Fermi Institute and Department of Physics,
+
+                                                  University of Chicago, 5720 South Ellis Avenue, Chicago, IL 60637 USA
+                                                                   4 Department of Physics & Astronomy,
+
+                                             University of British Columbia 6224 Agricultural Road, Vancouver V6T 1Z1 Canada
+                                                       5 TRIUMF, 4004 Wesbrook Mall, Vancouver V6T 2A3 Canada
+
+                                                           6 Paul Scherrer Institute, 5232 Villigen PSI Switzerland
+
+                                                         7 Department of Engineering Physics, Tsinghua University,
+
+                                                    30 Shuangqing Road, Haidian District, Beijing, 100084 P. R. China
+                                            8 Institute for Nuclear Theory, University of Washington, Seattle WA 98195-1550 USA
+
+                                                        9 Argonne National Laboratory, High Energy Physics Division,
+
+                                                                 9700 S Cass Ave, Lemont, IL 60439 USA
+                                          10 Physik-Institut University of Zurich Winterthurerstrasse 190 CH-8057 Zurich Switzerland
+
+                                                                 11 Division of Theoretical Physics,   CERN,
+                                                              Espl. des Particules 1, 1211 Meyrin Switzerland
+                                                      12 Tecnológico de Monterrey, School of Engineering and Sciences,
+
+                                                           Blvd. Pedro Infante 3773 Pte, Culiacan 80100 Mexico
+                                               13 Physics Department, Brookhaven National Laboratory, Upton, NY, 11973 USA
+
+                                                14 PRISMA+ Cluster of Excellence and Johannes Gutenberg Universität Mainz,
+
+                                                    Institut für Kernphysik, J.-J.-Becher-Weg 45, 55128 Mainz Germany
+                                                             15 Fermi National Accelerator Laboratory (FNAL),
+
+                                                                P.O. Box 500, Batavia IL 60510-5011 USA
+2
+
+                          16 Department of Physics,   Cornell University,
+                         109 Clark Hall, Ithaca, New York 14853 USA
+              17 Department of Physics, University of Virginia, P.O. Box 400714,
+
+                   382 McCormick Road, Charlottesville, VA 22904-4714 USA
+            18 ETH Zurich, Main building, Rämistrasse 101, 8092 Zurich Switzerland
+
+               19 Department of Physics and Astronomy, University of Kentucky,
+
+                     505 Rose Street Lexington, Kentucky 40506-0055 USA
+                       20 Albert Einstein Center for Fundamental Physics,
+
+                      Institute for Theoretical Physics, University of Bern,
+                              Sidlerstrasse 5, 3012 Bern Switzerland
+                    21 KEK, High Energy Accelerator Research Organization,
+
+                         1-1, Oho, Tsukuba-city, Ibaraki 305-0801 Japan
+               22 International Center for Elementary Particle Physics (ICEPP),
+
+           The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033 Japan
+                           23 Department of Chemistry – TRIGA site,
+
+                              Johannes Gutenberg University Mainz,
+                         Fritz-Strassmann-Weg 2, 55128 Mainz Germany
+    24 C. N. Yang Institute for Theoretical Physics and Department of Physics and Astronomy,
+
+                     Stony Brook University, Stony Brook, NY 11794 USA
+                   25 Department of Physics and Astronomy, Elliott Building,
+
+                     University of Victoria, Victoria, BC V8P 5C2 Canada
+      26 Instrumentation Division, Brookhaven National Laboratory, Upton, NY, 11973 USA
+
+                                     (Dated: January 10, 2022)
+
+         ABSTRACT: A next-generation rare pion decay experiment, PIONEER, is
+       strongly motivated by several inconsistencies between Standard Model (SM) predic-
+       tions and data pointing towards the potential violation of lepton flavor universality.
+       It will probe non-SM explanations of these anomalies through sensitivity to quantum
+       effects of new particles even if their masses are at very high scales. Measurement of
+       the charged-pion branching ratio to electrons vs. muons Re/µ is extremely sensitive to
+       a wide variety of new physics effects. At present, the SM prediction for Re/µ is known
+       to 1 part in 104 , which is 15 times more precise than the current experimental result.
+       An experiment reaching the theoretical accuracy will test lepton flavor universality
+       at an unprecedented level, probing mass scales up to the PeV range. Measurement of
+       the rare process of pion beta decay, π + → π 0 e+ ν(γ), with 3 to 10-fold improvement
+       in sensitivity, will determine |Vud | in a theoretically pristine manner and test CKM
+       unitarity, which is very important in light of the recently emerged tensions. In addi-
+       tion, various exotic rare decays involving sterile neutrinos and axions will be searched
+       for with unprecedented sensitivity. The experiment design benefits from experience
+                                                                                       3
+
+with the recent PIENU and PEN experiments at TRIUMF and the Paul Scherrer
+Institut (PSI). Excellent energy and time resolutions, greatly increased calorimeter
+depth, high-speed detector and electronics response, large solid angle coverage, and
+complete event reconstruction are all critical aspects of the approach. The PIONEER
+experiment design includes a 3π sr 25 radiation length calorimeter, a segmented low
+gain avalanche detector stopping target, a positron tracker, and other detectors.
+Using intense pion beams, and state-of-the-art instrumentation and computational
+resources, the experiments can be performed at the PSI ring cyclotron.
+4
+
+                                     CONTENTS
+
+    I. Introduction                                                                6
+
+II. Theory                                                                          6
+    A. Lepton flavor universality tests and Re/µ                                    7
+    B. CKM unitarity and pion beta decay                                            9
+    C. Constraints on New Physics                                                  10
+    D. Heavy Neutrinos and other Dark Sector Physics                               11
+
+III. PIONEER Experiment                                                            12
+     A. Experiment Overview and Strategy                                           12
+        1. Requirements for measuring Re/µ                                         13
+        2. Requirements for measuring pion beta decay                              15
+        3. Simulations Guiding the Design                                          16
+     B. Beam                                                                       16
+        1. Beam requirements and target setup                                      16
+        2. Beam line at πE5                                                        18
+        3. Beam optimization and studies                                           19
+     C. Active target (ATAR)                                                       21
+     D. Cylindrical Tracker                                                        24
+     E. LXe Calorimeter                                                            25
+        1. Overview                                                                25
+        2. Photosensors                                                            27
+        3. Cryogenics and Purification                                             28
+        4. Calorimeter Mechanical Engineering                                      30
+           Requirements                                                            30
+           Conceptual design                                                       30
+        5. Other Calorimeter Options                                               32
+     F. Trigger and Backend electronics                                            32
+        1. Trigger design                                                          34
+        2. Calorimeter backend electronics                                         36
+     G. DAQ                                                                        38
+        1. Data acquisition system                                                 38
+        2. Data Policy                                                             41
+
+IV. Simulations                                                                    41
+    A. ATAR Simulations                                                            42
+       1. Background Suppression for the Measurement of the π → eν tail fraction   42
+    B. Calorimeter Simulations                                                     44
+       1. Pileup                                                                   44
+                                                  5
+
+      2. Additional Calorimeter Studies          44
+
+V. Sensitivity                                   46
+   A. π → eν                                     46
+   B. Exotics                                    47
+      1. Massive neutrino searches π + → `+ νH   47
+      2. Two body muon decay µ+ → e+ XH          47
+      3. Other decays                            49
+   C. Pion Beta Decay                            50
+
+VI. Planning for Realization of PIONEER          50
+    A. Collaboration                             50
+    B. R&D                                       50
+    C. ATAR R&D                                  51
+
+Appendices                                       53
+
+A. PIENU and PEN                                 53
+
+B. PiBeta                                        55
+
+C. Alternative LYSO Calorimeter Considerations   56
+
+D. ATAR technical details                        57
+   1. ATAR R&D plan                              58
+   2. Sensor technology                          59
+   3. High granularity LGAD ongoing R&D          59
+      a. AC-LGADs                                59
+      b. TI-LGADs                                60
+   4. Electronics and readout chain              61
+   5. ATAR0 prototype                            61
+
+   References                                    62
+6
+
+                                   I.   INTRODUCTION
+
+    Precise low-energy measurements of observables that can be very accurately calculated
+in the Standard Model (SM) offer highly sensitive tests of new physics (NP). In light of the
+existing intriguing hints for lepton flavor universality (LFU) violating NP [1–3], the ratio
+Re/µ = Γ(π + → e+ ν(γ))/Γ(π + → µ+ ν(γ)) for pion decays to positrons relative to muons
+is especially promising: it is one of the most precisely known observables involving quarks
+within the SM and NP can even have (chirally) enhanced effects, making it an extremely
+sensitive probe of NP. However, while the uncertainty of the SM calculation for Re/µ is very
+small (with relative precision 1.2×10−4 [4]), the current experimental world average is about
+a factor 15 less precise, limiting the NP reach.
+   A new experiment, PIONEER, is proposed at Paul Scherrer Institute (PSI), where high-
+intensity pion beams can be delivered. In Phase I, it will bridge the gap of a factor 15 between
+theoretical and experimental precision for Re/µ . With measurements at the 0.01% level in
+precision, NP up to the PeV scale [5] may be revealed. Such precision would contribute to
+stringent tests of LFU in a context where several intriguing hints of LFU violation (LFUV)
+have emerged. In addition, it will allow extended searches for exotics such as heavy neutral
+leptons and dark sector processes. In later Phases (II,III), PIONEER will also study pion
+beta decay π + → π 0 e+ ν(γ) ultimately aiming at an order of magnitude improvement in
+precision to determine |Vud | in a theoretically pristine manner and test CKM unitarity, for
+which there is presently a 3σ tension [6]. PIONEER is an ambitious program that will span
+more than a decade of research activity.
+   While we focus on the measurement of the π → eν branching ratio Re/µ , the following
+sections discuss the theoretical motivation for pursuing the full rare pion decay program.
+Discussions of the PIONEER detector concepts, simulations, estimated sensitivities, and
+planning for realization follow. In the final section, we discuss aspects related to training,
+equity, diversity and inclusion. Appendices contain greater detail on some of the topics.
+
+
+
+                                        II.   THEORY
+
+   While no particles or interactions beyond those of the SM have been observed so far,
+intriguing hints for LFUV have been accumulated in recent years [1–3]. In particular, the
+measurements of the ratios of branching ratios (Br) R(D(∗) ) = Br[B → D(∗) τ ντ ]/Br[B →
+D(∗) `ν` ] [7–9] , where ` = µ, e, and R(K (∗) ) = Br[B → K (∗) µ+ µ− ]/Br[B → K (∗) e+ e− ] [10–
+12] deviate from the SM expectation by more than 3σ [13–17] and 4σ [18–21], respectively.
+In addition, anomalous magnetic moments (g − 2)` (` = e, µ, τ ) of charged leptons are
+intrinsically related to LFUV, as they are chirality flipping quantities. Here, the longstanding
+discrepancy in (g − 2)µ , just reaffirmed at the level of 4.2σ [22–24], can be considered as
+another hint of LFUV, since, if compared to (g − 2)e , the NP contribution scales with a
+                                                                                                            7
+
+power of the lepton mass [25, 26]. In addition, there is a hint for LFUV in the difference
+of the forward-backward asymmetries (∆AFB ) in B → D∗ µν vs B → D∗ eν [27, 28]. As
+another possible indication of LFUV, CMS observed an excess in non-resonant di-electron
+pairs with respect to di-muons [29]. Furthermore, the possible deficit in first-row unitarity
+of the Cabibbo-Kobayashi-Maskawa (CKM) matrix, known as the Cabibbo angle anomaly
+(CAA) (see Fig. 1 (left)), can also be viewed as a sign of LFUV [30, 31]. For these reasons,
+there is very strong motivation for an upgraded Re/µ experiment whose precision matches
+that of the SM prediction (see Sec. II A). Moreover, the significance of the CAA depends
+crucially on experimental input quantities used for the extraction of CKM matrix elements
+as well as a number of theory corrections. Here, an improved measurement of pion beta
+decay would allow one to extract |Vud | in a theoretically pristine manner, requiring a gain
+of a factor 3 in experimental precision when combined with K`3 decays [32] and an order
+of magnitude for a stand-alone extraction (see Sec. II B). Finally, an experiment capable of
+addressing these physics goals would at the same time be able to improve sensitivity to a
+host of exotic decays, as described in Sec. II D.
+
+
+                           A.    Lepton flavor universality tests and Re/µ
+
+                               Γ(π + →e+ ν(γ))
+   The branching ratio Re/µ = Γ(π+ →µ+ ν(γ)) for pion decays to electrons over muons provides
+the best test of electron–muon universality in charged-current weak interactions. In the SM,
+Re/µ has been calculated with extraordinary precision at the 10−4 level as [4, 33, 34]
+                                    Re/µ (SM) = 1.23524(15) × 10−4 ,                                      (1)
+perhaps the most precisely calculated weak interaction observable involving quarks.1 Be-
+cause the uncertainty of the SM calculation for Re/µ is very small and the decay π + → e+ ν
+is helicity-suppressed by the V − A structure of charged currents, a measurement of Re/µ
+is extremely sensitive to the presence of pseudoscalar (and scalar) couplings absent from
+the SM; a disagreement with the theoretical expectation would unambiguously imply the
+existence of NP. With measurements of 0.01% experimental precision, NP at the PeV scale
+can be probed [5], even up to several PeV in specific models such as leptoquarks.
+   The uncertainty of the SM prediction (1) for Re/µ arises from low-energy constants in
+chiral perturbation theory, which absorb the divergences in the two-loop calculation of
+Refs. [4, 33], but whose finite parts need to be determined by other means. Fortunately, in
+the case of Re/µ these non-perturbative uncertainties only affect the SM prediction at the
+relative precision of 10−4 , more than an order of magnitude beyond the current experimental
+precision [6, 35–38]
+                                Re/µ (exp) = 1.2327(23) × 10−4 .                         (2)
+1
+    Reference [5] estimates the uncertainty due to the unknown non-leading-logarithmic contributions of
+    O(α2 log(mµ /me ) in a different way compared to Ref. [4]. This leads to a larger total uncertainty, i.e.,
+    Re/µ (SM) = 1.23524(19) × 10−4 .
+8
+
+
+
+
+FIG. 1 – Left: Tensions in the first-row CKM unitarity test (see text) [3]. Right: Con-
+straints (1 σ) on modified W `ν couplings from CKM unitarity (green) and LFUV (red)
+(adapted from Ref. [31]). The light bands show the current status and the dark bands in-
+clude the expected PIONEER sensitivity. The SM values of A` are assumed to be modi-
+fied by 1 + ε`` where ` = e, µ.
+
+
+Re/µ thus provides a unique opportunity for a pristine test of LFU in the quark sector.
+   The comparison between theory and experiment provides a stringent test of the e–µ
+universality of the weak interaction. We express the results in terms of the effective couplings
+A` multiplying the low-energy charged current contact interaction
+
+                                 LCC = A` [ūγ µ PL d][ν̄` γµ PL `],                        (3)
+                                                                                  √
+where PL ≡ (1 − γ5 )/2. In the SM at tree level the couplings are given by A` = −2 2GF Vud
+and thus satisfy LFU, i.e., A` /A`0 = 1. The measurement of Re/µ results in
+                                    
+                                     Aµ
+                                             = 1.0010(9) ,                             (4)
+                                     Ae Re/µ
+
+which is in agreement with the SM expectation and provides the best available test of LFU.
+A deviation from A` /A`0 = 1 can originate from various mechanisms. In the literature it is
+common to interpret deviations from A` /A`0 = 1 in terms of flavor-dependent couplings g` of
+the W -boson to the leptonic current, in which case A` ∝ g` . We note that in the context of
+modified W -boson couplings LFU tested with Re/µ probes the couplings of a longitudinally
+polarized W -boson, whereas tests using purely leptonic reactions such as τ → `ντ ν` (` = e, µ)
+test the couplings of transversely polarized W -boson and are thus complementary.
+   Assuming that LFUV originates from modified W `ν couplings, the determination of CKM
+elements will also be affected. Importantly, beta decays have an enhanced sensitivity to a
+                                                                                                9
+
+modified W µν coupling, due to a CKM enhancement by |Vud /Vus |2 ∼ 20. Such a modifica-
+tion of the W `ν couplings would also affect Re/µ , albeit for a different flavor combination (see
+Fig. 1 (right)). This connection provides further motivation for an improved Re/µ measure-
+ment, especially because the sensitivity to LFUV would be comparable to future improved
+constraints from beta decays. Moreover, recent global fits to electroweak observables and
+tests of LFU show a preference for Re/µ larger than its SM expectation [30, 39]. Further-
+more, R(K ∗ ) can be correlated to Re/µ [40] and a combined explanation of the deficit in the
+first-row CKM unitarity and the CMS excess in di-electrons even predicts that Re/µ should
+be larger than its SM value [41].
+
+
+                         B.   CKM unitarity and pion beta decay
+
+    The detector optimized for a next-generation Re/µ experiment will also be ideally suited
+for a high-precision measurement of pion beta decay. Precision measurements of beta decays
+of neutrons, nuclei, and mesons provide very accurate determinations of the elements |Vud |
+and |Vus | of the CKM quark-mixing matrix [42, 43]. Recent theoretical developments on ra-
+diative corrections and form factors have led to a 3σ tension with CKM unitarity illustrated
+in Fig. 1 (left) [3, 44], and with specific assumptions on theory corrections and processes
+considered, higher significances have been obtained [45, 46]. However, in these determina-
+tions hadronic [47–53] and nuclear [54–57] corrections play an important role, to the extent
+that they dominate the systematic uncertainty of the |Vud | extraction from superallowed
+beta decays [57]. A determination from pion beta decay would be much cleaner, provided
+it could be measured to sufficient precision.
+    The branching ratio for pion beta decay was most accurately measured by the PiBeta
+experiment at PSI [58–62] to be
+       Γ(π + → π 0 e+ ν)
+                         = 1.036 ± 0.004(stat) ± 0.004(syst) ± 0.003(π → eν) × 10−8 ,         (5)
+          Γ(Total)
+where the first uncertainty is statistical, the second systematic, and the third is the π → eν
+branching ratio uncertainty. Pion beta decay, π + → π 0 e+ ν(γ), provides the theoretically
+cleanest determination of the magnitude of the CKM matrix element |Vud |. With current
+input one obtains |Vud | = 0.9739(28)exp (1)th , where the experimental uncertainty comes
+almost entirely from the π + → π 0 e+ ν(γ) branching ratio (BRPB) [60] (the pion lifetime
+contributes δVud = 0.0001), and the theory uncertainty has been reduced from (δVud )th =
+0.0005 [63–65] to (δVud )th = 0.0001 via a lattice QCD calculation of the radiative corrections
+[66]. The current precision of 0.3% on |Vud | makes π + → π 0 e+ ν(γ) not presently relevant
+for the CKM unitarity tests because superallowed nuclear beta decays provide a nominal
+precision of 0.03%.
+   In order to make π + → π 0 e+ ν(γ) important for CKM unitarity tests, two precision
+experimental stages can be identified: (1) As advocated in Ref. [32], a three-fold improvement
+10
+
+in BRPB precision compared to Ref. [67] would allow for a 0.2% determination of |Vus /Vud |,
+via improving the measurement of the ratio
+
+                             Γ (K → πlν(γ))
+                    RV =        +   0 +
+                                            = 1.9884(115)π (93)K × 107 ,                    (6)
+                           Γ (π → π e ν(γ))
+
+where the uncertainties are due to the pion partial width and the KL lifetime and branching
+ratio. Equation (6) is independent of the Fermi constant and SM short-distance correc-
+tions, but subject to structure-dependent long-distance radiative corrections. This would
+match the precision of the current extraction of |Vus /Vud | from the axial channels [68], which
+proceeds via
+                                   Γ (K → µν(γ))
+                            RA =                    = 1.3367(25),                            (7)
+                                   Γ (π → µν(γ))
+(see Fig. 1), thus providing a new competitive constraint on the |Vus |–|Vud | plane and probing
+NP that might affect vector and axial-vector channels in different ways. The theoretical case
+for this approach was recently strengthened by improved analysis of radiative corrections in
+K → πeν decays [69]. (2) In the second phase, an order of magnitude improvement in the
+BRPB precision will be sought. This would provide the theoretically cleanest extraction of
+|Vud | at the 0.02% level, comparable to the current value from superallowed beta decays [57].
+
+
+                             C.   Constraints on New Physics
+
+   There are several ways that (heavy) NP can affect Re/µ and the extraction of |Vud | from
+beta decays, relevant for this proposal. Concerning the former, there are several possibilities:
+a modified W `ν coupling and a contribution to an `νud operator (` = µ, e), while only
+modified W µν couplings and an eνud operator affect the latter. However, |Vud | is also
+sensitive to a direct NP contribution to muon decays via an eµνν operator entering through
+the Fermi constant, necessary to extract |Vud | from beta decays [70].
+   The following NP models (see Ref. [71] for a complete categorization) give potential
+observable tree-level effects in Re/µ and/or in the determination of |Vud | from beta decays
+(direct, or indirect via muon decay):
+
+     • A W 0 bosons can generate tree-level effects in beta decays and in Re/µ as well as
+       modified W `ν couplings via mixing with the SM W .
+
+     • Vector-like leptons (VLL) affect W `ν couplings via their mixing with SM leptons after
+       EW symmetry breaking (see Ref. [39] for a recent analysis).
+
+     • A singly charged SU (2)L singlet scalar can give a necessarily constructive tree-level
+       effect in muon decay such that the CAA can be solved [72, 73].
+
+     • An SU (2)L triplet scalar can give a necessarily destructive effect in muon decay.
+                                                                                            11
+
+   • A neutral vector boson (Z 0 ) can give a constructive effect in muon decay if it has
+     flavor-violating couplings.
+
+
+   • A leptoquark can generate a left-handed vector current and/or a scalar current affect-
+     ing beta decays and Re/µ .
+
+
+   • A charged Higgs gives rise to pseudoscalar operators such that chirally enhanced effects
+     in Re/µ can be generated.
+
+
+Therefore, the PIONEER results will be important for a very wide range of SM extensions
+containing one or more of these particles.
+
+
+
+                  D.   Heavy Neutrinos and other Dark Sector Physics
+
+
+    The PIONEER experiment will also achieve improved sensitivity in probing for effects of
+heavy neutrinos. If a heavy neutrino has a sufficiently low mass that it can be emitted, the
+signature will be a monochromatic peak in the energy of the outgoing charged lepton at an
+anomalously low value. Even if the heavy neutrino has a mass greater than the kinematic
+limit for emission, there will, in general, still be an apparent violation of e–µ universality,
+i.e., a deviation in the measured ratio Re/µ ≡ BR(π + → e+ νe )/BR(π + → µ+ νµ ) from its SM
+value [74–76]. Constraints from early experiments on π`2  +
+                                                            decays were reported in Refs. [77–
+81]. Recent results on π`2 decays include [35, 82, 83]. Constraints from the non-observation
+                          +
+
+of neutrinoless double beta decays imply that the heavy neutrinos of relevance here are Dirac
+fermions. This can be arranged in various NP scenarios. There are also constraints from
+primordial nucleosynthesis. Heavy neutrinos with masses of relevance here are consistent
+with these primordial nucleosynthesis constraints in several NP theories [84]. Recent limits
+include [85, 86].
+   Looking beyond sterile neutrinos, dark sectors that consist of particles that interact very
+feebly with the SM are highly motivated extensions of the SM. There is an ever-growing
+interest in exploring the parameter space of such scenarios. The PIONEER experiment has
+unique capabilities to search for pion decays to various light NP states. One example is the
+three-body decay π + → `+ ν` X, where X could, for example, be an axion-like-particle (ALP)
+that mixes with the neutral pion [87], or a light gauge boson coupling to differences of lepton
+numbers [88]. Another interesting process is the three-body decay π + → `+ XY , where both
+X and Y are light dark sector particles [89]. Existing limits from PIENU [90] already probe
+some of these models. Moreover, PIONEER can also look for lepton-flavor-violating decays
+of the muon into light NP particles µ → eX.
+12
+
+                             III.   PIONEER EXPERIMENT
+
+                        A.    Experiment Overview and Strategy
+
+   The main challenge in developing a next generation experiment for a high precision
+measurement of rare pion decays is accurately assessing the performance of the chosen
+detector technology in suppressing sources of systematic uncertainties and handling increased
+rates. The PIONEER detector design concept, described in the next sections, is based on the
+experience gathered with the PIENU [35] and PEN/PiBeta [67, 91, 92] experiments, which
+are reviewed in the Appendix. Generically, the detector will have the features sketched out
+in Fig. 2. An intense pion beam is brought to rest in an instrumented (active) target (ATAR)
+and an electromagnetic calorimeter (CALO) surrounds the stopping target. A cylindrical
+tracker surrounding the ATAR is used to link the locations of pions stopping in the target
+to showers in the calorimeter. Features of the PIONEER approach will include improved
+time and energy resolutions, greatly increased calorimeter depth, high-speed detector and
+electronic response, large solid angle coverage, and complete event reconstruction. The
+proposed detector will include a 3π sr, 25 radiation length (X0 ) electromagnetic calorimeter,
+an advanced design segmented stopping target, and beam and positron trackers.
+
+
+                                          Calorimeter (CALO)
+
+
+
+
+                                    Tracker                         10°
+                             π+                     Target (ATAR)
+
+
+
+
+FIG. 2 – Layout of the PIONEER rare pion decay experiment. The intense positive
+pion beam enters from the left and is brought to rest in a highly segmented active target
+(ATAR). Decay positron trajectories are measured from the ATAR to an outer electro-
+magnetic calorimeter (CALO) through a tracker. The CALO records the positron energy,
+time and location.
+
+
+   Phase I of PIONEER aims to measure Re/µ with precision of 0.01%, where the uncer-
+tainty budget is equally allocated to statistics and systematics; 2 × 108 π + → e+ ν events
+are required. This Proposal is specifically focused on the Re/µ measurement. However, we
+envision extension of PIONEER in Phase II (III), the details of which will be proposed in
+future. These future phases will focus on a 3-fold (10-fold) improvement in the measurement
+                                                                                            13
+
+of the ultra-rare pion beta decay process, π + → π 0 e+ ν. The π + → π 0 e+ ν branching ratio
+is 104 times smaller than the π → eν channel and will require running with a 100x more
+intense pion flux. The event identification is more straightforward owing to the characteris-
+tic signature of the π 0 → γγ decay in the calorimeter. While the optimization of the beam
+properties, instrumentation, and stopping target details for the pion beta decay experiment
+may require replacements of some systems, our aim is that the core calorimeter, mechanics,
+tracker, and DAQ systems will be designed to meet the needs of both experiments with
+limited modifications. We emphasize that the requirements for measuring Re/µ drive the
+PIONEER design. In subsequent sections we describe the beam, target, positron detec-
+tors, calorimeter, DAQ, and electronics aspects of the experiment. The Appendices include
+additional technical information and priority R&D plans.
+
+
+
+                             1.   Requirements for measuring Re/µ
+
+   At rest, the pion lifetime is 26 ns and the muon lifetime is 2197 ns. The monoenergetic
+positron from π → eν has an energy of 69.3 MeV. Positrons from ordinary muon decay form
+the Michel spectrum from 0 to an endpoint of 52.3 MeV. In principle, the monoenergetic e+
+from π → eν is well isolated above the Michel endpoint and can be easily identified using a
+high-resolution, hermetic calorimeter. To determine Re/µ we measure the ratio of positrons
+emitted from π → eν and π → µ → e decays for which many systematic effects such
+as solid angle acceptance cancel to first order. However, counting all π → e events with a
+precision of one part in 104 requires determining the low-energy tail of the electromagnetic
+shower and radiative decays that hide under the Michel spectrum from the π → µ → e
+chain, which has four orders of magnitude higher rate.
+   Figure 3 illustrates the relationship between the two channels and their respective positron
+energy spectra. Here, we have modeled the spectrum from both channels assuming a high
+resolution, 25 X0 calorimeter. There remains an unavoidable tail fraction below 53 MeV that
+must be determined accurately in order to obtain the branching ratio. That challenge was
+critical to previous generations of experiments and was responsible for the leading systematic
+uncertainty in the PIENU experiment at TRIUMF. PIONEER will minimize the intrinsic
+tail fraction through the use of a 25 X0 LXe calorimeter, the design of which is based on the
+considerable experience of the MEG Collaboration.
+    The π → eν branching ratio Re/µ will be obtained by first separating events into high-
+and low-energy regions at an energy cut value (Ecut ) as discussed in the Appendices for
+the PIENU experiment. The time spectra will be fit in each region with the π + → e+ ν
+and π + → µ+ → e+ timing distribution shapes, along with backgrounds originating from
+different sources including event pile-up effects, pion decays in flight, and effects from old
+muon decays.
+   PIONEER will incorporate improvements to the previous techniques including a deeper
+14
+
+
+                              100
+
+                              10 2
+
+
+             Relative Scale
+                              10 4
+
+                              10 6
+
+                              10 8
+
+                                     0   10   20   30        40      50   60   70   80
+                                                        Energy [MeV]
+
+FIG. 3 – The positron energy spectra from muon decays (blue) and from π → eν de-
+cays (orange) for a calorimeter resolution of 1.5% and a depth of 25 X0 . The simulation
+includes energy losses owing to photonuclear interactions.
+
+
+calorimeter. However, it is also important to be able to create triggers that can isolate
+π → e from π → µ → e chains within the stopping target, identify pion and muon decays in
+flight, as well as identify pileup from long-lived muons remaining in the target from earlier
+pion stops. Figure 4 illustrates several key processes that will occur at different rates in
+the stopping target. The signal event (1) has a pion decay at rest; its Bragg peak energy
+deposition as well as its depth within the target identifies it as a pion stop. The much higher
+background (and normalization) channel (2) is illustrated by that same pion stop followed
+by a decay to a 4.1 MeV muon, which travels through a number of planes and then stops,
+leaving behind an image of its own short trajectory and Bragg peak. If the muon decays in
+the prompt window being observed for the pion decays (typically 3 – 50 ns after the pion
+stop), its Michel positron will be recorded in the CALO. More rare but subtle processes
+may also occur. A pion can also decay in flight within the target to a muon before it stops
+(3). In very rare cases, the emitted 4.1 MeV muon can decay in flight before stopping (4)
+providing a Lorentz boost to the emitted Michel positron, which contaminates the signal
+spectrum above the ordinary stopped muon endpoint.
+   To distinguish event types, we will use an active target that can provide 4D tracking (at
+the level of 150 µm in space and <1 ns in time) and energy measurements from the O(30) keV
+signals for positrons to the 4000 keV Bragg peaks of stopping pions and muons. As discussed
+in Sec. III C, our collaboration is focusing on the new low gain avalanche detector (LGAD)
+sensors as a centerpiece of the experiment. Simulations using optimized LGAD parameters
+provide confidence that triggers can be constructed to isolate and measure all event types.
+   The calorimeter tail fraction for π → eν events will be measured in situ by suppressing
+the π → µ → e decays using information provided by the active target. π → µ → e events
+can be identified and suppressed by the presence of the 4.1 MeV pulse from π → µν decay,
+use of a narrow time window, π − µ particle identification, and tracking information to
+                                                                                               15
+
+identify pion decay-in-flight (πDIF), and muon decay-in-flight (µDIF) following pion decay-
+at-rest (πDAR). As discussed in Sec. IV, we anticipate that µ − e backgrounds in the tail
+region can be suppressed to a level that will allow the uncertainty in the tail fraction to
+contribute < 0.01% to the error in Re/µ .
+   The experiment will require a continuous wave low-momentum pion beam that can be
+focused to a small spot size and stop within the ATAR dimensions. Ideal characteristics
+include a relatively low momentum of 55 MeV/c (±2%) and a flux of 300 kHz. At this low
+momentum, a separator is very effective to reduce background from beamline muons and
+positrons. The πE5 beam can provide the needed flux. We are also investigating use of the
+πE1 line. Because of the high data rate, state-of-the-art triggering, fast digitizing electronics,
+and high bandwidth data acquisition systems are required.
+
+
+                                       ATAR
+        π Decay at Rest                               69.3 MeV
+1) π+
+        π Decay at Rest &
+        μ Decay at Rest
+2) π+
+        π Decay in Flight &
+        μ Decay at Rest                               0 - 53 MeV
+3) π+
+        π Decay at Rest &
+        μ Decay in Flight
+4) π+                                                 0 - (>53) MeV
+
+
+FIG. 4 – Illustration of event types in the π → e and π → µ → e chains. The stars are in-
+dicative of the energy deposited at the Bragg peak for pions (red) or muons (purple) that
+stop in the segmented ATAR. The main channels of interest include 1) the π → e “signal
+channel” decay that emits a monoenergetic 69.3 MeV positron; 2) the dominant π → µ
+decay, where the 4.1 MeV muon travels up to 0.8 mm and also stops in the ATAR before
+emitting a positron. Events 3) and 4) represent situations that can confuse the classifi-
+cation of events into categories 1) or 2). In 3) the pion decays within the ATAR prior to
+stopping; the muon stop can then appear as a pion stop. In 4), the pion stops, and the
+decay muon (very rarely, but importantly) decays in the short time prior to stopping. Be-
+cause it is a decay in flight, the Lorentz boost can push the positron energy beyond the
+52.3 MeV endpoint. The ATAR is being designed to distinguish these event patterns.
+
+
+
+                         2.   Requirements for measuring pion beta decay
+
+   In Phase II (III), pion beta decay π + → π 0 e+ ν will be measured by observing the char-
+acteristic (nearly) back-to-back gammas from π 0 decay normalized to π → eν decay as in
+[58–62]. In PIONEER we also expect to observe the low-energy positron absorbed in the
+16
+
+ATAR in coincidence with the gammas in the calorimeter. The Phase II (III) pion beta
+decay experiment will require 7 × 105 (7 × 106 ) events at an intrinsic branching ratio of 10−8 .
+This will require running at a significantly higher pion flux of ≥ 10 MHz. The beam momen-
+tum and emittance may be higher than for the π → eν measurement to achieve the higher
+flux. The higher rate can be handled because of the gamma ray coincidence identification
+and nearly fixed energy sum. The πE5 beamline appears to have the necessary properties
+for this measurement.
+
+
+                                   3.    Simulations Guiding the Design
+
+   The discussion of the beamline and detector that follows is based on simulations reported
+in Section IV. Briefly, there are three distinct efforts: beamline and upstream detectors,
+simulation of the ATAR and event topologies, and simulation of the calorimeter response. A
+G4beamline [93] model of πE5 is being used to extrapolate from the existing surface muon
+tunes used in the MEG program to the 55 − 70 MeV/c range of interest for positive pions
+required for PIONEER. Descriptions of the ATAR and CALO are included in the GEANT-
+4 [94] models. The models include inactive materials such as walls, cables, and windows and
+a Tracker detector that surrounds the ATAR.
+
+
+                                                 B.    Beam
+
+                              1.        Beam requirements and target setup
+
+   The basic beam requirements for PIONEER are summarized in Table I. The values given
+are initial estimates, and some of the requirements, e.g. in the longitudinal and transverse
+beam extent, might be relaxed pending further studies. In the following we will only discuss
+PIONEER Phase I beam requirements, but the parameters for the full experimental program
+are also considered.
+
+                    Phase          p       ∆p/p ∆Z ∆X x ∆Y ∆X’,∆Y’             Rπ
+                             (MeV/c) (%) (mm)            (mm2 )              (106 /s)
+                      I       55-70          2     1     10x10     ±10◦        0.3
+                    II,III    ≈ 85          ≤5     3     15x15     ±10◦        20
+
+TABLE I – Required beam properties. ∆Z and ∆X × ∆Y are longitudinal (FWHM)
+range width and transverse (FWHM) beam sizes at target location, respectively.
+
+
+  The 0.01% precision goal of the Re/µ measurement places stringent requirements on the
+beam and target as discussed below.
+                                                                                               17
+
+i. Pion stops: The efficiency for detecting the π − µ sequence should be the same as for a π
+   stop; thus all decay muons must be fully contained in ATAR. This drives the requirement
+   for the small longitudinal and lateral size of the stopped π distribution. Upstream detectors
+   (if necessary) will be minimized, as they increase the beam spot by scattering.
+ii. Positron detection: The ATAR should be small to reduce the positron energy deposited
+    in it, though largely this loss can be reconstructed. The constraint on the beam entrance
+    divergence is necessary to keep the opening angle of the beam entrance cone to 10◦
+    relative to its axis. (A larger cone will decrease the solid angle for positron detection and,
+    in particular, increase the surface for shower leakage.) This requirement limits the phase
+    space acceptance to 175 π cm mrad.
+
+
+
+
+FIG. 5 – Beam counters and ATAR. An active degrader disk (not shown) is optional,
+and only required for p>55 MeV/c. The beam detectors systems LGAD1 and LGAD2
+provide an event by event trajectory for entering particles. It is conceivable that they can
+be rotated out of the beam for production running at the lowest operating momenta.
+
+
+    Figure 5 sketches the baseline set-up for the beam-target section of the experiment. For a
+more complete description of the overall ATAR-CALO design we refer to Sec. III E 4. Pions
+selected by an E×B separator pass through a beam window of 70 µm Mylar, two LGAD
+detector planes (two crossed layers of 50 µm thick AC LGADS, each, denoted as BEAM
+in this proposal) to stop in the ATAR. No degrader or upsteam LGAD detectors may be
+necessary if a suitable beam at p=55 MeV/c can be established. As sufficient beam intensity
+is expected, the beam spot may be improved by collimation just upstream of the detector
+entrance. Collimators would also serve to suppress muons and electrons displaced by the
+angular deflection in the separator but their design has to be carefully optimized between the
+competing requirements of collimating close to the target focus while absorbing positrons
+18
+
+
+                         15
+                               pi+                                              pi+
+                               mu+                                     80       mu+
+                         10                                            60
+                R (mm)                                     p (MeV/c)   40
+                          5
+                                                                       20
+
+                          00                                            0
+                                5     10       15     20                    0    5     10       15   20
+                                     T (MeV)                                          T (MeV)
+FIG. 6 – Range-energy (left) and momentum-energy (right) relations for pions and
+muons. Muons from πDAR have 4.12 MeV kinetic energy and travel 0.8 mm in Si.
+
+
+and gammas before they reach the CALO. Some important aspects of the stopping beam
+can be understood from the pion range-energy relations shown in Fig. 6.2 .
+   A momentum of 55 MeV/c has several advantages including that the separator will work
+more efficiently and a range width ∆Z of less than 0.4 mm is expected for a 2% ∆p/p beam
+momentum acceptance. (The stopping range width would increase to 0.8 mm at 70 MeV/c.)
+The range-energy curve also shows how the separation between pions and muons of the same
+energy improves with the energy deposited in ATAR.
+
+
+                                               2.   Beam line at πE5
+
+   The PSI High Intensity Proton Accelerator (HIPA) chain consists of a Cockcroft-Walton
+pre-accelerator, delivering 870 keV protons to a set of two isochronous cyclotrons which fur-
+ther accelerate to the maximum 590 MeV. In the Ring cyclotron, the protons are accelerated
+by four copper resonator cavities operated in continuous wave (CW) mode at a frequency
+of 50.6 MHz, giving the periodic 19.75 ns beam microstructure and their final energy of
+590 MeV. The πE5 channel is a high-intensity low-energy muon and pion beamline, with a
+maximum momentum of 120 MeV/c, that views the second graphite production target, Tar-
+get E, at 165◦ with respect to the proton beam axis. The πE5 channel is used exclusively
+for particle physics experiments, and is currently home to the MEG II and Mu3e experi-
+ments. The channel length from Target E to end of the QSB43 quadrupole magnet and the
+entrance to the experimental area is 13 m, giving approximately 7 m of free space between
+the concrete wall and current MEG II infrastructure. In this area the SEP41 E×B Wien
+Filter for particle separation, QSK quadrupole triplet for focusing the beam on the ATAR
+and the PIONEER installation could be placed.
+
+2
+    These were calculated by SRIM (http://www.srim.org/) to describe the slowing down of particles at low
+    energies.
+                                                                                         19
+
+
+
+
+ FIG. 7 – The G4Beamline model of the πE5 beamline including a stand-in calorimeter.
+
+                Beamline Position       pπ (MeV/c)    π + Rate    µ+ Rate
+                QSB43                        55         6.3        12.3
+                CALO Center                  55         1.0         6.1
+                QSB43                        75         61.5       30.2
+                CALO Center                  75         11.1       15.1
+
+TABLE II – Particle Rates (×106 s−1 ) in πE5 for a 2% momentum-bite calculated in the
+G4Beamline simulation.
+
+                             3.   Beam optimization and studies
+
+   Simulations for both pion production at Target E and transport of particles down the
+πE5 channel were performed using the G4Beamline toolkit [93]. A figure of the πE5 beam-
+line from the G4Beamline simulation, beginning at Target E and ending at the PIONEER
+calorimeter, is shown in Fig. 7. The pion production simulation utilizes the parameterized
+cross sections developed for the High Intensity Muon Beamline (HiMB) project [95]. All
+simulation results are scaled to the nominal 2.2 mA proton beam current at PSI.
+   The G4Beamline simulation was originally tuned for 28 MeV/c muons and has been
+rescaled for the respective pion momenta. Some additional tuning was performed for the last
+two dipoles and quadrupole triplets to optimize transmission through the SEP41 and on to
+the ATAR. The physical volume of the SEP41 is included but its electric and magnetic fields
+are not enabled for these simulations. Rates for pions and muons reaching the entrance to
+the experimental area (QSB43) and 4.8 m downstream at the center of the calorimeter vol-
+ume (CALO center) for beamline central momenta ranging from 55 to 75 MeV/c are shown
+in Fig. 8. The rates for those particles at the lower and upper end of the possible momentum
+ranges are listed in Table II. The pion rates calculated in the simulation at the center of
+the calorimeter for a 2% momentum-bite are sufficient for the Re/µ measurement planned
+in Phase I of PIONEER, even when further losses in the SEP41 or upstream collimation,
+necessary for reducing background events in the ATAR and calorimeter, are included. For
+PIONEER Phase II, III increasing the momentum and the momentum bite will be required.
+
+
+
+A very preliminary study to focus the beam onto the calorimeter center positions by simulat-
+20
+
+
+
+
+           Rate [particles/s]
+
+
+
+                                     7
+                                10
+
+
+
+
+                                                                  π + at QSB43
+
+                                                                  µ+ at QSB43
+
+                                     6                            π + at CALO center
+                                10
+                                                                  µ+ at CALO center
+
+
+                                         55   60   65     70              75
+                                                               Momentum [MeV/c]
+
+
+FIG. 8 – The rates for pions and muons at the entrance to the experimental area
+(QSB43) and reaching the center of the calorimeter, calculated in the πE5 G4Beamline
+simulation.
+
+
+ing 65 MeV/c pions with their decay disabled is displayed in Fig. 9. The horizontal (x − x0 )
+phase space indicates a pronounced non-Gaussian nature, while the vertical (y − y 0 ) phase
+space demonstrates a well defined focus. The complex structure of of the horizontal phase
+space emphasizes that full G4Beamline simulations are required to tune the beam and, in
+particular, experimental verification is indispensable to achieve the desired small beam spot
+on ATAR. At the moment, there is no readily available experimental data that could verify
+our preliminary simulations for π + beams. The above used simulation code was verified so
+far using surface muon beams of 28 MeV/c momentum only. The last experiment using
+pion beams at πE5 was the PiHe experiment that needed high π − rates for pionic helium
+spectroscopy [96].
+   Key experimental parameters, including the design of the beam conduit into the calorime-
+ter and the geometry of the ATAR rely on a detailed understanding of the π + beam proper-
+ties at πE5 at the targeted momentum range (55-75 MeV/c). The most important parameters
+to be determined are the π + /µ+ /e+ rates as a function of beam momentum, the momen-
+tum bite ∆p/p, the final focus and the capability to select a clean π + beam by applying a
+Wien (E×B) filter. Measurements of available π + rates and comparison to simulation will
+be critical in determining achievable pion rates at the ATAR. For this purpose we propose
+to carry out detailed measurement program of the πE5 pion beam at PSI, adapting SiPM-
+based beamline instrumentation that was used to characterize pion and muon rates in the
+                                                                                          21
+
+
+
+
+FIG. 9 – Preliminary pion phase space distributions at the CALO center position for
+65 MeV/c pions with decay disabled from the G4Beamline simulation of πE5. Left: Hori-
+zontal. Right: Vertical. The calculated emitance  for each is included in the plot as text.
+The non-Gaussian structure of these phase spaces present a challenge in correctly model-
+ing the beam transport.
+
+
+past. Because of their urgency in informing the detector design we request a first study in
+2022 (beam request submitted separately).
+
+
+                                C.   Active target (ATAR)
+
+   A highly segmented active target (ATAR) [97] is a key new feature of the proposed
+PIONEER experiment; technical details and alternative designs of the sub-detector can be
+found in Appendix D with a detailed timeline described in Appendix D 1. The ATAR will
+define the fiducial pion stop region, provide high resolution timing information, and will
+furnish selective event triggers. Examples of event displays for π → eν and π → µ → e
+events are shown in Fig. 10.
+   For the measurement of the calorimeter response to π → eν decays, the ATAR will
+suppress the π → µ → e decay at rest (πDAR), and pion and muon decay-in-flight (DIF)
+low energy backgrounds. DAR events are identified by a good pulse pair resolution observing
+the 4.1 MeV π → µ decay, and a tight positron observation window of about one pion lifetime.
+πDIF events are identified by kinks in the trajectories, dE/dx measurements along the track,
+and observed range in the target. Furthermore, the ATAR will suppress accidental muon
+stops that precede the trigger signal; these were a significant source of pile-up background
+in the previous experiments. Confirmation that the observed positron belongs to the pion
+stopping vertex will also be obtained using tracking in the ATAR and in additional tracking
+detectors (discussed in Sec. III D).
+22
+
+
+
+
+FIG. 10 – Simulated example displays of pion decay events in the ATAR. Pions enter
+horizontally from the left; the red dotted lines show the positions of the pion stops. The
+color of the bars indicates the deposited energy. Left column: X-Z (top) and Y-Z (bot-
+tom) strip views of a π → eν event. Right column: Same views of a π → µ → e event.
+The blue dotted line shows the position of the decay muon stop.
+
+
+   To fulfill these goals the ATAR must be able to detect both the exiting e+ , a minimum
+ionizing particle (MIP), and larger (∼100 MIPs) energy deposits from π + and µ+ . The large
+dynamic range O(2000) of the signals is a significant challenge for the readout electronics
+in the amplification and digitization stages. The position of the energy deposits needs
+to be identified with sufficient granularity along the beam direction and in the transverse
+plane. Furthermore, to identify single components of the decay processes a ∼1.5 ns pulse
+pair resolution is needed.
+   The ATAR tentative design dimensions are 2×2 cm2 transverse to the beam. In the beam
+direction individual silicon sensors are tightly stacked with a total thickness of ∼6 mm. A
+strip geometry with the electronic readout connected on the side of the active region via wire
+bonding is foreseen. The strips are oriented at 90° to each other in subsequent staggered
+planes to provide measurement of both coordinates of interest and to allow space for the
+readout and wire bonds. The preliminary sensor geometry has strips with a pitch of 200 µm,
+so that a sensor would have 100 strips mated to a chip with 100 channels and 2 cm width,
+a standard dimension for microchips. A best estimate at present for the sensor thickness is
+around 120 µm to avoid support structures for the sensor, which would introduce dead area.
+                                                                                             23
+
+To reach a total thickness of about 6 mm, ∼50 planes are needed, so in total the ATAR
+would comprise ∼5000 channels. The detectors are paired with the high-voltage facing each
+other in a pair to avoid ground and high voltage in proximity. In the preliminary design,
+shown in Fig. 11, the strips are wire bonded, with a connection alternating on the four
+sides, to a flex that brings the signal to a readout chip positioned a few cm away from the
+active volume. This removes the chip from the path of the exiting positrons, reducing its
+degradation of their energy resolution. The flex will be produced with aluminium traces
+so that the cable material per flex would be ∼0.025 g/cm2 . In the figures in this proposal,
+all cables are shown exiting downstream. A readout from both ends is being investigated
+to reduce the average material traversed by exiting positrons. At present, the maximum
+material in the path of the positrons occurs when 12 flexes are traversed. The readout ASIC
+sits on the first flex that tapers out to accommodate the additional traces. Then the flex
+is connected, via connector, to a PCB connected to a second flex that brings the amplified
+signal to the digitizers in the back end.
+
+
+
+
+FIG. 11 – Left: ATAR position in the beam line. Right: Concept schematic design of the
+ATAR. The flex from the first, third and fifth sensors is directed in and out of the page.
+The modules are attached on the HV side and with a few µm of separation on the strip
+side. 48 sensors are coupled in 24 pairs.
+
+
+   The chosen technology for the ATAR is Low Gain Avalanche Detector (LGAD) [98]
+(detailed description in Appendix D 2), thin silicon detectors with moderate internal gain.
+A 120 µm thick LGAD sensor, coupled to fast electronics, has a time resolution of less than
+100 ps on the rising edge and can separate a single hit from two overlapping hits if they arrive
+more than 1.5 ns apart. Preliminary studies made with X-rays coming from the Stanford
+light source (SSRL) [99] and PSI [100] show that LGADs have an energy resolution of around
+10 %; more detailed results are reported in Appendix D 2. The effect of gain saturation that
+was reported in the community in the past year [101] also needs to be studied. The LGAD
+technology was chosen over standard silicon technology because of the intrinsic gain and
+24
+
+thin bulk. Normal silicon detectors without gain need 300–500 µm of active silicon to have
+enough collected charge for high MIP detection efficiency. This would degrade granularity in
+the beam direction, time resolution and pulse separation discrimination. A brief discussion
+on alternative technologies is presented in Appendix D 2.
+   Current standard LGADs have a limitation in terms of granularity and active area. To
+achieve a ∼100 % active area several technologies still at prototype level are being evaluated
+for PIONEER, such as AC-LGADs [102]. Studies were made on strip AC-LGAD prototypes
+from BNL as shown in Appendix D 3 a. Results on sensor simulation are also reported
+in Appendix D 3 a and additional LGAD technologies are being evaluated as reported in
+Appendix D 3 b.
+   To read out the ATAR sensors two crucial electronic components need to be identified: an
+amplifier chip and a digitization board. Preliminary tests on available solutions are reported
+in Appendix D 4. Since the amplification chip has to be positioned away from active region,
+the effect of placing a short (5 cm) flex cable between the sensor and the amplification stage
+will be studied. To successfully reconstruct the decay chains the ATAR is expected to be
+fully digitized at each triggered event. The fast charge collection time of thin LGADs will
+allow separation of subsequent charge depositions as mentioned before. To achieve this goal
+a high bandwidth digitizer with sufficient sampling rate has to be used. A discussion on
+available amplifier chips and digitizers is reported in Appendix D 4.
+   Relative to previous experiments, the use of a highly segmented active target allows for
+discrimination against backgrounds by looking for deposition patterns internal to the target
+that are associated with the various signals’ decay topologies.
+
+
+                                 D.   Cylindrical Tracker
+
+   A dual layer cylindrical silicon strip tracker is situated between the ATAR and the
+calorimeter to measure the positron position in two dimensions (along the beam direction,
+z, and azimuthal angle, φ), and time, as indicated in Fig. 5. The detector has an inner
+diameter of 5 cm and a length of 25 cm. The readout ASIC will be wire bonded at a location
+outside the calorimeter active solid angle. Overlapping lengths of long strips (about 10 cm)
+are needed to cover the entire region.
+   Two layers of strips with a small stereo angle between them will provide O(mm) z res-
+olution and 300 µm resolution in the direction perpendicular to the strips. An alternative
+under consideration is to connect two or three strip sensors in a line reading out both ends
+to obtain O(mm) position information along the strip position using charge attenuation
+information.
+   The silicon strip sensors may be constructed with either regular silicon or LGADs. Reg-
+ular silicon would have ∼300 µm of thickness for positron detection with a time resolution
+<1 ns, while LGADs can be 50 µm or less with a time resolution of <50 ps. However, LGAD
+                                                                                            25
+
+silicon strips with length of 10 cm present an additional challenge while for the ATLAS de-
+tector standard silicon strips with ∼10 cm of length have been successfully fabricated on
+8-inch wafers [103].
+
+
+
+                                   E.   LXe Calorimeter
+
+
+                                         1.   Overview
+
+    Due to its fast timing properties, high light yield with excellent energy resolution and
+highly uniform response, liquid xenon (LXe) read out by UV sensitive phototubes and state-
+of-the-art VUV SiPMs is considered for the calorimeter. Here, experience is drawn from the
+MEG [104] and MEG-II [105] experiments which use a large scale, high rate LXe detector
+to search for the lepton flavor violating muon decay, µ+ → e+ γ. Experiments searching
+for the elusive dark matter (e.g. XENON, LUX-ZEPLIN) and (neutrinoless) double beta
+decay events (KamLAND-Zen, (n)EXO) also use detectors with similar scale liquid xenon
+cryostats. Unlike those latter experiments, MEG, like PIONEER, only detects scintillation
+light (other experiments rely on both scintillation and charge collection) and is a high rate
+experiment. In MEG, the rate of muon stops in the target was 3 × 107 µ+ /s and the LXe
+calorimeter rate due to photons was O(0.3 MHz). The anticipated PIONEER calorimeter
+rate (due to pion stop rate of 300 kHz in the ATAR for the Re/µ measurement) is of the
+order handled by the MEG LXe calorimeter. The main difference comes from the nature
+of the particles entering the calorimeter (gammas in the case of MEG and positrons for
+PIONEER) and the geometry of the calorimeter leading to different event “signatures”. The
+PIONEER LXe detector is foreseen to be a 25 radiation length, 3π sr sphere surrounding
+the ATAR. A discussion on the capability of a large single volume to handle pileup events
+is given in Sec. IV B.
+   The homogeneity of the LXe detector is an advantage in achieving the high energy reso-
+lution which is important for determining accurately the low energy “tail” fraction of π → eν
+events. MEG currently reports an energy resolution of σ = 1.8% for 50 MeV gammas and
+they continue to study possible improvements. The baseline energy resolution goal for PI-
+ONEER at 70 MeV is 1.5%.
+   The energy resolution is impacted by the efficiency of collection of scintillation light
+which is itself influenced by design parameters (like photo-sensor coverage) and physical or
+technical parameters (like the light attenuation due to impurities in LXe, reflection of VUV
+light on surfaces, photo sensor refraction index, the level of dark current which impact the
+photo-electron threshold for summing the energies of the different photo-sensors, etc). In
+addition to the finite energy resolution of the calorimeter, photo-nuclear interactions, shower
+leakage and geometrical acceptance contribute to the low energy tail. The impact of photo-
+nuclear effects in LXe, for which little literature exists, will be determined by simulation
+26
+
+and bench-marked against available data and new measurements.
+   A GEANT-4 simulation of a bare LXe calorimeter geometry was used to determine the
+residual tail fraction below the Michel end point versus calorimeter depth for π → eν events.
+Figure 12, Left, shows the energy deposited in the spherical calorimeter vs. the angle Theta
+with respect to the beam axis for a 25 X0 calorimeter depth. Figure 12, Right, shows the
+fraction of the energy deposited that is below 58 MeV vs. depth. The volume of LXe
+required scales as the radius cubed and the required photo-sensor coverage scales as the
+radius squared. These practical factors are optimized for smaller depth. The containment
+of the shower slowly improves with increased depth.The depth was chosen to be 25 X0 ,
+which we use throughout this proposal. This choice, along with the spherical shape and
+> 3π sr coverage, limits the effect of secondaries being missed by the calorimeter (e.g. Bhabha
+scattered events) and will significantly reduce the contribution of shower leakage. We will
+continue to carefully model the calorimeter geometrical parameters and assess the expected
+detector sensitivity; see discussion in Sec. IV B.
+   Figure 13 shows the energy spectrum for a 25 X0 calorimeter of varying intrinsic resolu-
+tion; these results indicate that the tail correction is relatively insensitive to resolution. We
+are aiming for resolution σ = 1.5%, based on the performance of the MEG calorimeter.
+                    80                                           105                   10 1
+                    70
+                    60                                           104
+                                                                                       10 2
+
+     Energy [MeV]
+                    50
+
+                                                                       Tail Fraction
+                                                                 103
+                    40
+                    30                                           102
+                                                                                       10 3
+                    20
+                                                                 101
+                    10
+                     0                                           100                   10 4
+                     0.0   0.5   1.0     1.5 2.0     2.5   3.0                            10.0 12.5 15.0 17.5 20.0 22.5 25.0 27.5 30.0
+                                       Theta [rad]                                                      Radiation Length of Calo
+
+FIG. 12 – Left: The energy deposited by monoenergetic 69.3 MeV e+ from π → eν de-
+cays in a 25 X0 calorimeter with an energy resolution of 1.5% vs. the angle Theta with
+respect to the beam axis. The grey bands indicate the boundaries of the fiducial volume
+region (here, 30◦ ). Right: The shower tail fraction below 58 MeV vs. the calorimeter depth
+in radiation lengths for the 69.3 MeV π → eν events.
+
+   The xenon scintillation light absorption length has been measured for MEG to be more
+than 1 m [106]. However, the light absorption length can be significantly reduced through
+absorption by impurities such as H2 O and O2 . A large scale detector requires purification at
+the ppb level which was achieved by MEG. The purification system and the cryostat design
+(needed to maintain the xenon at 165 K [107]) of MEG will be considered for scaling up the
+design for PIONEER (see Sec. III E 3).
+   MEG-II performed extensive R&D in collaboration with Hamamatsu to develop large
+MPPC (Multi-Pixel Photon Counter) detectors (12×12 mm2 ) while maintaining optimal
+                                                                                                                                                                                     27
+
+                                        Energy Resolution                         Energy Resolution                         Energy Resolution                       Energy Resolution
+             10 1
+                                                    0%                                        1%                                    1.5%                                        2%
+             10 3
+
+Arb. Units
+             10 5
+             10 7
+             10 9
+             10 11
+                     0   20    40      60      80        100   0   20    40      60      80        100   0   20    40      60      80      100   0   20    40      60      80        100
+                              Energy [MeV]                              Energy [MeV]                              Energy [MeV]                            Energy [MeV]
+
+
+ FIG. 13 – The effect of energy resolution on a 25 X0 calorimeter. The events indicated
+ with a solid line are monoenergetic 69.3 MeV e+ from π → eν decay. The events indicated
+ with a dashed line are the Michel spectrum from muon decay. The dashed grey line at 53
+ MeV represents the nominal endpoint of the Michel spectrum.
+
+
+ performance characteristics of a small decay constant and good gain uniformity. Efficient
+ detection of VUV light requires careful choice of the silicon layer assembly and coatings. For
+ their chosen sensor, the MEG-II collaboration reported a photon detection efficiency (PDE)
+ of ∼ 20% [105] but observed later degradation of the PDE in LXe [108] which is under
+ investigation. Below we discuss details of photosensor options considered for PIONEER.
+
+
+                                                                                2.       Photosensors
+
+     In order to readout the liquid xenon scintillation light, special photo sensors are necessary
+ due to the short scintillation wavelength of 175 nm and the low operation temperature of
+ 165 K. Two types of photo sensors were developed for this purpose by Hamamatsu K.K.
+ and the MEG/MEG II collaboration: 2-inch photomultipliers (PMT) and multi-pixel photo
+ sensors (MPPC). A round-shaped 2-inch PMT sensitive to VUV light (R9869) has been
+ developed using Bialkali (K-Cs-Sb) photocathode and a synthetic silica window. It achieved
+ a quantum efficiency of 15 %. Aluminum strips were added in the photocathode to prevent
+ an increase of the sheet resistance at low temperature.
+     In order to improve the granularity for the inner surface in the MEG-II experiment, a
+ silicon photomultiplier, called MPPC (S10943-4372) with an active area of 12×12 mm2 , was
+ developed. The main developments consisted in removing the protective layer, matching the
+ optical properties of the silicon surface to that of the LXe, and reducing the thickness of
+ the insensitive layer. Besides achieving higher granularity, there are several advantages to
+ using SiPM with respect to photomultiplier tubes: they are insensitive to magnetic fields,
+ the single photoelectron peak can be used for calibration of the sensor and the required
+ supply voltage is relatively low (less than 100 V).
+     However, as mentioned above, the PDE of the SiPMs were found to drastically decrease
+ under exposure to the muon beam. Investigations are ongoing to understand the causes.
+ It was however shown that the PDE could be recovered through an “annealing” procedure
+ performed during the accelerator shutdown period. The gain of the PMTs was also found
+28
+
+to decrease due to damage to the dynode induced by photoelectrons. The PMT lifetime is
+however sufficiently long and thus should not be of concern for PIONEER.
+    Considering the above, the baseline design for PIONEER is the use of PMTs on the
+outer surface targeting a coverage of 20 % (1000 phototubes) of the surface. The choice of
+the photosensor technology might evolve depending on the developments regarding SiPM
+performance degradation.
+    Simulations will be performed to study the impact on track identification capabilities and
+energy resolution of adding SiPMs on the inner surface regions of the calorimeter. The ATAR
+is small (130 mm) and surrounded by a positron tracker which can measure the positron’s
+incident position right before it enters the LXe calorimeter. In these conditions the addition
+of reflective material coatings on the inner surface may be sufficient for the PIONEER
+needs. However, it is notably difficult to accurately simulate UV optical properties on
+large scales. Agreement between data and photon transport simulations are sometimes
+poor, mainly because of the large number of optical interfaces, i.e., surfaces with a certain
+shape, absorbance and reflectance, that are not well known for the UV light from LXe
+(optical properties are indeed most often measured in vacuum). Apart from differences
+in refraction indices between vacuum and LXe, LXe may also alter the optical properties
+of some materials (e.g. [109–111]). It is thus particularly important to perform in-situ
+measurements in LXe to evaluate both the performance of SiPM in the LXe environment and
+deduce the appropriateness of surfaces for coatings (as well as possibly segmentation for pile-
+up rejection, see discussion in Sec. IV B). For this purpose we have planned measurements
+at facilities where LXe setups are available.
+
+
+                                3.   Cryogenics and Purification
+
+   A system consisting of the following equipment is required in order to stabilize a large
+volume of liquid xenon in the detector:
+
+     1. High-pressure gas tanks for xenon storage,
+
+     2. Gas xenon purification system,
+
+     3. Liquid xenon purification system,
+
+     4. Refrigeration,
+
+     5. Temperature and pressure control system.
+
+   Piping for transporting xenon either in the gas or liquid phase is required as appropriate.
+In addition to these, a cryostat that can temporarily hold xenon in a liquid state during
+emergencies or maintenance ensures efficient operation of the detector.
+                                                                                            29
+
+   1. High-pressure gas tanks for xenon storage: Xenon is stored in high-pressure gas
+tanks at room temperature during detector maintenance periods. A storage tank that can
+withstand a pressure of 5.8 MPa at 17o C (1.1g/cm3 , the critical point of xenon) is required.
+After detector operation, the xenon is recovered in the storage tank by cooling the tank with
+liquid nitrogen. This requires a liquid nitrogen bath to cool the high-pressure gas tank.
+
+   2. Gas xenon purification system: When operating the LXe detector, it is necessary
+to reduce the xenon gas pressure provided from the high-pressure tanks and then to remove
+impurities in the gas before filling in the detector cryostat. Metal-heated getter purifier
+technology has been used in previous experiments and will be employed also in the PIONEER
+experiment.
+
+   3. Liquid Xenon Purification System: Based on the experience of the MEG experi-
+ment [104], it is known that even if the xenon gas is liquefied in the detector after impurity
+removal by the gaseous-phase purification system, impurities remaining on the detector sur-
+face may dissolve into the liquid, causing absorption of scintillation light and degradation
+of detector performance. Among these impurities, water is the one most likely to affect the
+propagation of liquid xenon scintillation as its absorption cross section overlaps with the
+xenon scintillation light spectrum. In order to efficiently remove the water dissolved into
+the liquid, the xenon is circulated in the liquid phase by a low-temperature liquid pump
+through a filter containing molecular sieves with a pore size 13A, which is suitable to re-
+move water molecules. In the MEG experiment, 70L/hour circulation is achieved with this
+system, resulting in preparing sufficiently pure liquid in a reasonable time.
+
+    4. Small refrigerator: As used in the MEG experiment, a small refrigerator installed
+on the top the detector is used to liquefy xenon and re-liquefy the constantly evaporating
+xenon gas. The use of a pulse-tube refrigerator is suitable from the viewpoint of low vibration
+noise, but to obtain a high refrigeration power, a GM-type refrigerator can be installed at
+a distance from the detector with a vacuum insulated pipe to transfer the liquid to the
+detector. Both types of refrigerators have been used in MEG, and there are no technical
+difficulties.
+
+   5. Temperature and pressure control system: The cryostat is always subject to
+heat by conduction through the support structure and cables as well as heat generation from
+electronics circuits and photo sensors placed in the cryostat. After liquefaction completes,
+the liquid xenon evaporates continuously due to the heat generated by these, and the pressure
+rises. In order to control the temperature and pressure of the liquid xenon, xenon is re-
+liquefied by the refrigerator. In order to maintain the liquid state at a temperature and
+pressure suitable for operation, the refrigerator cooling power is controlled by changing the
+heater output on the cold head while the refrigerator continues to operate at maximum
+capacity. This method has already been used in MEG and many other experiments using
+liquid xenon, and there is no problem in maintaining the stability of the liquid.
+30
+
+                            4.   Calorimeter Mechanical Engineering
+
+                                         Requirements
+
+     Mechanical engineering considerations for the LXe calorimeter are discussed below.
+     • The CALO mechanical design has to support a load of about 9 tons of LXe as well as
+       the required cryogenic envelope, consisting of a cold vessel and an insulation vacuum.
+       Ideally, the heat load of the new system should be compatible with existing MEG
+       cooling and purification infrastructure.
+     • The beam region consist of an entrance cone to focus a beam with 10◦ divergence onto
+       a beam spot of about 1 cm2 . The entrance side will support the BEAM detectors.
+       The exit side should be in air, allow the insertion of ATAR and TRACKER and their
+       associated electronics, and provide sufficient heat removal.
+     • The ATAR target region should be surrounded by thin beam pipes. The goal is to
+       minimize material in the CALO acceptance of close to degree=140◦ in polar angle,
+       while covering the full azimuth.
+     • The ATAR and TRACKER region is very space limited, while increasing the inner pipe
+       radii is problematic, both in terms of solid angle and window strengths. A compromise
+       between these conflicting requirements needs to be optimized.
+     • The PIONEER detector is designed for a measurement program extending over a
+       decade. Both routine services as well as major repairs and upgrades must be supported
+       by the design.
+
+
+                                       Conceptual design
+
+   The calorimeter is built of interactive functional blocks incorporating a top load concept
+with the intent to be modular and to allow for ease of maintenance. The functional blocks
+are described below and a drawing is shown in Figure 14.
+   1. Liquid xenon vessel: This vessel has a spherical bottom to follow the contour of the
+detector mounting surface. This both reduces bending stress in the walls and reduces the
+volume of xenon required to cover the detectors. Running through this vessel horizontally
+is a cone-tube pathway. The tube portion, which surrounds the target, is envisioned as
+beryllium. The cone may be of a variety of metals. The connection between the two
+components is designed to be a braze or weld.
+   2. Detector mounting surface: Beyond the basic requirement of being spherical and
+holding detectors, the inner radius is set at 0.9 m to achieve the required number of radiation
+lengths of xenon.
+   3. Thermal insulation: To achieve the best insulation, the calorimeter has been
+                                                                                             31
+
+
+
+
+FIG. 14 – Concept design of the liquid xenon calorimeter. For scale, the lid is 3.05 m
+diameter. The yellow circles are merely representative of the photosensors; they are not
+placed accurately.
+
+
+designed to be a vacuum dewar. The support of the liquid xenon vessel is achieved by
+hanging it on turnbuckles made of material which does not conduct heat well. Stainless
+steel is seen as the most likely option. If additional reduction in heat load is needed the link
+could be changed to titanium, allowing for a reduced cross section. The more complicated
+portion of the thermal insulation is maintaining vacuum around the incoming beam and the
+target space. This is made easier by having a break in this tube. The beam tube loads from
+one side, the target tube from the other. Both terminate in thin vacuum barrier windows
+which allow beam passage. To accommodate both temperature induced dimensional changes
+and deflection from weight loading, there are two bellows present. The tube running through
+the xenon vessel has bellows on the target loading side. There is a large bellows on the top
+of the xenon vessel to allow cabling and piping to pass through the vacuum space.
+   4. Target air space: The tube the target resides in is envisioned as beryllium. This
+tube is mounted on a flange on the vacuum vessel and protrudes past the centerline by
+32
+
+approximately 175 mm. The inside end of the tube is capped with a window that allows
+passage of the beam and also acts as a vacuum barrier. This tube also contains the tracking
+detector and the necessary cabling.
+   5. Beam path to the target: The beam is shown focusing with a center line to
+the beam edge angle of 10 degrees. The inner cone is between the beam (at atmospheric
+pressure) and the vacuum (insulation). The outer cone is the barrier between the vacuum
+and the xenon. Further studies might lead to a modification of the downstream exit pipe to
+mirror the entrance side, and the optimization of the ATAR holder, to allow pass through
+of πDIF muons.
+
+
+
+                                 5.   Other Calorimeter Options
+
+   A LYSO crystal calorimeter is also being investigated as an alternative to LXe; it would
+provide natural segmentation as in the PEN/PiBETA experiments. We discuss this further
+in the Appendix.
+
+
+
+                            F.   Trigger and Backend electronics
+
+   All triggers will start with a PI signal, which is a loose condition for an incident beam
+particle. PI can be defined as a coincidence of the BEAM detectors (LGAD telescope
+layers). The key point is that this trigger must not introduce any bias between π → eν and
+π → µ → e events. For the estimates we assume that a separator is installed, so that the
+rate RP I =300 kHz corresponds to the design beam rate and is dominated by pions.
+   The main time distributions in the vicinity of the PI signal are sketched in Fig. 15.
+After an initial build-up with the pion lifetime, positron rates from π → µ → e reach their
+maximum before decreasing with the muon lifetime. The constant accidental rate from muon
+decays of other pions stopped in ATAR is high.
+     After requiring the PI signal, the following main triggers are formed:
+     1. PI: This is a minimum bias trigger, with the PI signal prescaled by about k=1000.
+     2. CaloH: Selection of high energy (Etot & 58 MeV) events detected by the CALO within
+        a time range TR=[-300,700] ns relative to PI.
+     3. TRACK: All events with TRACKER hit within time range TR relative to PI, prescaled
+        by about k=50. We note that the probability to observe a π → µ → e positron in TR
+        is 0.19, while the probably for detecting an old muon positron is 0.3, thus accidentals
+        are a significant part of this trigger.
+     4. PROMPT: Selected prompt events with a TRACKER hit in time range [2,32] ns
+        relative to PI, potentially prescaling required.
+                                                                                             33
+
+
+
+
+FIG. 15 – Positron rates after PI per second in 1 ns time bins. π → eν positron rates are
+multiplied by a factor 100. π → µ → e rates generated by PI shown in red and positron
+rates from old muons, i.e. from accidental pions, shown in blue.
+
+
+  For all triggers a full event readout will be initiated. The properties and required band-
+width for these trigger classes are summarized in Table III. Additional data flow from the
+TRACKER and BEAM counters is small, and not included.
+
+   triggers prescale range    rate         CALO         ATAR digitizer     ATAR high thres
+                     TR(ns) (kHz) ∆T(ns) chan MB/s ∆T(ns) chan MB/s chan          MB/s
+     PI      1000   -300,700 0.3     200    1000 120     30    66    2.4    20    0.012
+    CaloH      1    -300,700 0.1     200    1000   40    30    66    0.8    20    0.004
+   TRACK       50   -300,700 3.4     200    1000 1360    30    66    27     20    0.014
+  PROMPT       1      2,32     5     200    1000 2000    30    66    40     20     0.2
+
+TABLE III – Main triggers: time range TR and trigger rates. For detector systems read-
+out island length ∆T, average number of channels and required readout bandwidth are
+given.
+
+    The main purpose of CaloH and TRACK is the selection of true π → eν and π → µ → e
+events, respectively. The Etot CALO energy sum will be calculated in the trigger processor
+with a latency of 200 ns. Events above the Michel continuum with Etot > EH ≈ 58 MeV will
+be assigned to CaloH.
+    The full event readout includes the CALO waveforms, the ATAR and the BEAM and
+TRACKER detectors.
+    The CALO data will comprise islands of contiguously digitized ADC samples from the
+SiPMs / PMTs readout of the calorimeter. We assume 2-bytes per sample, 200 samples per
+island, and 1000 islands channels per trigger. Thus a trigger rate of 5 kHz generates 2 GB/s.
+    The zero suppressed ATAR waveforms of typical length of ∆T=30 ns will be stored,
+with the readout window extended if the signal remains above threshold at the end of the
+34
+
+island. The dominant π → µ → e event will fire about 66 strips. Depending on strip cross
+talk, which differs for LGAD technology choices, i.e. AC-LGAD vs. TI-LGADS, this strip
+count could be 3-times higher. With a 1 GSa/s digitization and 4 Bytes required per hit, 66
+channels of 30 ns islands correspond to 30*66*4=8 kB. Thus a trigger rate of 5 kHz generates
+40 MB/s.
+    In addition (see ATAR high thres in Table III) the trigger processor will also receive high
+threshold logic signals from the ATAR low and high threshold discriminators located at the
+frontend of the ATAR digitizers and will time stamp those with coarse resolution (few ns).
+Those hits will always be read out for a time period of 10 µs preceding PI. This data can
+determine whether a previous pion stopped at the stop location of PI, to potentially apply
+a local pile-up for those events.
+    By far the most challenging is the PROMPT trigger which is of critical importance for
+the experiment.
+
+ i. It will trigger on all prompt TRACK events, where the π → µ → e events are suppressed
+    by a factor 6.4×10−3 in [2,32] ns. This should verify that the CaloH trigger does not
+    miss events by its more complicated Etot trigger configuration. If required this part of
+    the trigger can be prescaled.
+ii. PROMPT is critical to measure π → eν events which are lost because the CALO response
+    falls below EH . The uncertainty in those losses were the limiting systematics in the last
+    generation of experiments. We consider additional ATAR requirements at trigger level,
+    like hits in the most upstream layers and no hit in the most down stream layers within
+    the ATAR time resolution of 100 ps. We will design the trigger processor and DAQ
+    bandwidth such that all PROMPT events can be transferred in streaming mode to a front
+    end computer farm. Thus the stored data volume will be reduced in a combination of
+    trigger processor and software decisions, by applying ATAR cuts on track topology and
+    energies to suppress π → µ → e events. Ideally, this should be done in an unbiased way.
+    However, as the main purpose is a measurement of the loss term of π → eν events, small
+    biases can be tolerated and even prescaling can be considered if unavoidable.
+iii. In addition, the PROMPT trigger will select a sample of πDAR-µDIF events. Positrons
+     from immediate µDIF decay are indistinguishable from the π → eν radiative tail events.
+     Measurements of the spectrum of positrons after PI, where the muon deposits only a
+     fraction of its 4 MeV energy, will constrain this background class.
+
+
+
+                                      1.   Trigger design
+
+   Figure 16 shows the planned topology for readout and triggering of PIONEER. The design
+takes advantage of the APOLLO [112] platform designed for the trigger track finder and pixel
+readout in the CMS experiment at the LHC. The Command Module (CM) component of the
+                                                                                                       35
+
+            Synchronous trigger / control
+            PCIe DAQ
+            Internal data path
+
+                                                          Active Target
+       Beam Detectors                 Tracker
+
+
+
+
+                                                                                     Level 3 Trigger
+                                                              ASICs
+
+
+                                                          Active Target
+                                                       Readout/Digitization
+                    Level 1 Trigger
+                      Processor
+                       (Apollo)
+                                                           Calorimeter
+                                                       Readout / Processing
+
+
+                                                          Calorimeter
+                                                           Digitizers
+
+
+
+                                          DAQ System
+
+
+      FIG. 16 – Proposed topology of the trigger and subdetector readout systems.
+
+
+
+APOLLO board provides a highly configurable environment supporting a dense high speed
+IO environment via 25 Gbps Samtec Firefly [113] optical inputs. The platform already
+supports the flexible high speed synchronous command and triggering TCDS2 (Trigger and
+Timing Control and Distribution System) [114] for the CMS phase II upgrade, as well
+as options for direct IO for receiving timing signals or generating trigger signals for devices
+expecting analog triggers. We anticipate using a single FPGA version of the board (utilizing
+the Xilinx VU13P) with an interposer in the second FPGA slot to bring all the serial
+links to the VU13P. While by some measures this board likely provides more power than
+needed for PIONEER, it has already undergone significant prototyping with full production
+anticipated in 2024, and can satisfy several of the needs of the system with a single platform.
+The engineering group that designed the CM will also contribute to calorimetry readout,
+providing additional coherence.
+   PIONEER anticipates use of the 16.1 Gbps Firefly implementation. This protocol seri-
+alizes 64 bit words with a 64b/66b encoding, resulting in an effective transmission of 64 bit
+words at rates up to 244 MHz. Each channel supports both transmit and receive functions,
+which will allow for significant flexibility in the command and control system.
+36
+
+   The Samtec Firefly system already supports PCI Express (PCIe) Gen 3 and Gen 4 in-
+tegration, with commercial PCIe over firefly adapter cards already available for Gen 3. As
+discussed further in Sec. III G, PIONEER proposes use of PCIe as the protocol underlying
+the DAQ system.
+   The main trigger APOLLO processor will receive trigger inputs, either via inputs con-
+nected to the FPGA standard IO pins, or from the firefly inputs and apply the appropriate
+logic algorithms to generate triggers and guide sparsification. The processors encode the
+resulting trigger and configuration information into the TCDS (or equivalent) datastream,
+which gets transmitted to all subdetectors. The processor will also receive status and health
+information from the subdectector, communicating any alarm conditions to the DAQ system
+for appropriate action.
+   The trigger processor will receive trigger inputs from the BEAM counters and from the
+tracker to form the PI, Track and PROMPT triggers, with configurable prescale factors
+applied as noted earlier. The processor will also receive energy sums from subsections
+of the calorimeter (see Sec. III F 2) and complete the total energy sum used to form the
+CaloH trigger in coincidence with the (unprescaled) PI trigger. The processor can flexibly
+accommodate the needs of the beta decay (Phase II) of the experiment, completing, for
+example, opening angle or mass estimates based on energy-weighted position sums from the
+calorimeter electronics.
+   The processor will also interact with the ATAR, level 3 trigger system and DAQ system
+to coordinate additional trigger information from the patterns in the ATAR as described
+above.
+
+
+                              2.   Calorimeter backend electronics
+
+    Figure 17 illustrates the digitization and readout electronics proposed for the calorimeter.
+The 12 channel digitization boards will utilize the Analog Devices AD 9234 dual channel,
+12 bit 1 GSPS ADC chip, chosen for its low latency of 59 ns from presentation of the signal
+at the front end to output of the digitized signal. These chips communicate the digitized
+output via the JESD204 protocol, which will present the data for each ADC channel as 64
+bit words containing four samples at 250 MHz. At these rates, the calorimeter information
+can be summed with a pipelined adder and potentially corrected with a running pedestal
+measurement as the first stage in a total energy measurement. By clocking the ADC at the
+slightly lower rate of 976 MHz, the ADC information can be synchronized to the firefly data
+transfer rate of 244 MHz, simplifying synchronization of the system.
+    The ADCs will sample continuously with samples stored initially in a ring buffer on
+the FPGA. Upon receipt of a trigger, a configurable time window will be stored in DIMM
+memory. By deploying a DIMM with a 128 bit data path, simultaneous reading and writing
+can be accomplished via two 64 bit pathways.
+                                                                                             37
+
+
+     ×
+      2
+        ..
+      . 2    AD9234
+                            Xilinx
+            AD9234
+               AD9234
+          AD9234          Ultrascale
+                       Xilinx
+            AD9234
+                DIMM Xilinx
+
+
+
+
+                                              Firefly
+          AD9234     Ultrascale
+             DIMM Ultrascale
+
+
+                                   Firefly
+           DIMMAD9234
+                            Xilinx
+            AD9234
+               AD9234                                                              Trigger
+          AD9234          Ultrascale
+                       Xilinx                           ...
+
+                                    Firefly
+                                                              APOLLO             Processor
+            AD9234
+                DIMM Xilinx
+                                                                           ...
+          AD9234     Ultrascale
+                                                                                 (APOLLO)
+             DIMM Ultrascale
+           DIMMAD9234
+                            Xilinx
+            AD9234
+               AD9234
+          AD9234          Ultrascale
+                       Xilinx
+            AD9234
+                DIMM Xilinx
+          AD9234     Ultrascale
+             DIMM Ultrascale
+           DIMM
+
+                                                                       × 
+                                                                       4
+
+FIG. 17 – Proposed calorimeter digitization and readout. The 12 channel digitizer boards
+utlize the dual channel AD9234 12 bit, 1 GSPS ADCs, Xilinx Ultrascale FPGAs for con-
+tro, and Samtec FireflyTM high speed communications to a CMS APOLLO board. The
+APOLLO board can receive up to 22 boards in this configuration – instrumenting quad-
+rant of an order 1000 channel calorimeter.
+
+
+
+   A single FPGA will control one pair of ADCs (four calorimeter channels). It can compare
+the energy sum from each channel against a channel activity threshold (or thresholds), as
+well as combine the four running energy sums as the first stage of a total energy sum for
+the high energy trigger. That FPGA will also drive a single firefly channel. The 64 bit word
+for the firefly communication provides much flexibility. After reserving 48 bits for readout
+of the four channels upon receipt of a trigger, 16 bits can provide triggering information at
+the full 244 MHz rate. Possible configurations include a 12 bit sum of the four calorimeter
+channels along with a bit for each channel flagging a sum over threshold. With a coarse
+8 bit sum, 2 bits could be devoted to each individual channel. For the beta decay phase,
+the trigger could pass energy-weighted position information for a mass calculation. Xilinx
+kintex ultrascale FPGAs provide sufficient numbers of high speed serial lines at a reasonable
+cost.
+    The digitizer boards will communicate with intermediate Apollo boards via the 16.1 GHz
+firefly links, which come packaged with a minimum of four individual links. Three of these
+links will provide the TCDS (or equivalent) clock and control signals and send the trigger
+and channel readout information to each of three sets of 4 ADC channels. The fourth firefly
+line will provide PCIe or ethernet communication to allow board configuration and other
+38
+
+slow control functions.
+    After taking into account communication links to the trigger processor and between the
+intermediate Apollo boards, each intermediate Apollo can accommodate 22 12-channel dig-
+itizer boards for a total of 264 channels. Four such boards would instrument a calorimeter
+with up to 1056 channels. With a more complex, run-state dependent scheme for commu-
+nications, 16 channels per board could be accommodated.
+    The intermediate APOLLO boards will collate the waveforms read from all channels for
+each trigger, and send that information directly to the DAQ system. Each APOLLO can
+sustain a full readout rate of about 18.5 kHz for the 264 channels, allowing for significant
+headroom given the anticipated trigger rates (see Tab. III) and use of sparsification for an
+order 1000 channel calorimeter.
+    The total calorimeter energy sum proceeds in several stages. Each quad-channel FPGA
+adds those four signals as noted above. Each intermediate Apollo will combine the those
+sums from the 22 × 3 = 66 quad channels. The trigger process will provide the final
+combination of the four intermediate sums needed for the complete calorimeter sum.
+    The latency in the energy sum has three main contributions: the ADC latency, the
+FPGA summation time, and the serialization/deserialization overhead for the high speed
+links. The Xilinx GTY transceivers have a high degree of configurability, resulting in a total
+serialize/deserialize latency for the readout chain above that ranges from 65 ns to 175 ns at
+the 16.1 GHz serial rate. Recent studies [115] show that even the simpler, lower latency
+settings, can achieve reliable links. With 100 ns as a reasonable estimate, 50 ns as a limit for
+the energy summation at 244 MHz, and the 50 ns ADC latency, we estimate a total latency
+of 200 ns.
+
+
+                                           G.   DAQ
+
+                                  1.   Data acquisition system
+
+   The PIONEER data acquisition system must handle the read out, event assembly and
+data storage for the active target, positron tracker, electromagnetic calorimeter and other
+detector sub-systems of the experimental setup. It must provide a deadtime-free, distortion-
+free record of the datasets identified by the various physics and calibration triggers. It must
+facilitate the monitoring needed to guarantee the overall integrity of data taking and provide
+the metadata needed to document the experimental configuration during data taking. Fi-
+nally, it must enable the configuration of the readout electronics and the associated trigger,
+clock and control system.
+   The acquisition will be implemented as a modular, distributed system on a parallel, lay-
+ered processor array consisting of networked, multi-core, commodity PC’s running a scientific
+Linux operating system. The overall layout is depicted schematically in Fig. 18. It will com-
+                                                                                          39
+
+prise a frontend processor layer responsible for readout and processing of event fragments
+from the FPGA-based fast electronics instrumenting the various detector sub-systems, a
+backend layer responsible for event building and data storage, a slow control layer respon-
+sible for configuration and readback, and a data quality layer responsible for monitoring of
+data integrity.
+    To maximize the bandwidth the frontends will utilize memory-mapped, Gen3 PCI Ex-
+press communication with the Apollo readout boards and the downstream DAQ layers
+will utilize memory-mapped, Gen3 PCI Express host / target adaptors for data transfer
+and sharing system resources (disks, GPUs, etc). PCI-Express 3.0 delivers an effective
+data transfer rate of nearly 1 GB/s per serial lane. Commercial host-to-target optical
+interfaces are now available for the Apollo FPGA to frontend computer communication
+(e.g., www.dolphinics.com/products/PXH842.html). Commercial peer-to-peer communi-
+cation is also now available for direct PCI-Express data transfer between devices (e.g.,
+www.dolphinics.com/products/PXH810.html). The setup will offer the capability of direct
+transfer of data to / from FPGA and CPU / GPU memory for rapid realtime processing.
+    The DAQ software will be based on the MIDAS data acquisition package [116], CUDA
+GPU toolkit [117], ROOT data analysis package [118], and Linux PCI Express system and
+utility libraries. The MIDAS software consists of library functions for data flow between
+different processes on local / remote devices as well as infrastructure for data logging, ex-
+perimental configuration and local /remote run control. It also incorporates an integrated
+alarm system and slow control system. The devices drivers for the configuration and the
+readout of the Apollo board FPGAs will be based on the PCI Express communication pro-
+tocols / libraries.
+    As discussed in Sec. III F 1 and Table III, we anticipate the various physics triggers to
+include a prescaled beam trigger PI, a beam particle - high energy CALO trigger CaloH,
+a prescaled beam particle - low threshold CALO trigger PROMPT, and a beam particle -
+outgoing positron trigger TRACK (as identified by either the ATAR or the tracker). The
+cumulative trigger rate in Table III is estimated at approximately 8.8 kHz.
+    The ATAR data will comprise above-threshold islands of contiguously digitized ADC
+samples from the fired detector strips of the active stopping target. Based on a 1 GSPS
+sampling rate, 4 Bytes per sample, and 66 above-threshold strips per trigger, we anticipate
+an ATAR data rate of about 70 MB/s for the aforementioned trigger types.
+    The CALO data will comprise islands of contiguously digitized ADC samples from the
+SiPM / PMT readout of the calorimeter. Based on a 1 GSPS sampling rate, 2 Bytes per
+sample, 200 samples per island and 1000 islands / channels per trigger, we anticipate a
+CALO data rate of about 3.5 GB/s for the aforementioned trigger types.
+    Other detector systems will include the various beam detectors upstream of the ATAR and
+the positron tracking detector surrounding the ATAR. The data rates from beam detectors
+and tracking detector are expected to be a small fraction of the ATAR / CALO data rate.
+    Separate frontend processors running MIDAS frontends will readout the ATAR, calorime-
+40
+
+
+
+
+FIG. 18 – Schematic of the data acquisition system showing the frontend layer for data
+readout and experiment configuration, the backend layer for event assembly and data stor-
+age, and the analysis layer for data quality monitoring. The number of frontends and the
+topology of the FPGA-to-frontend and frontend-to-backend networks will be based on the
+calorimeter, ATAR and FPGA technology choices.
+
+
+ter, tracker and beam sub-systems via the PCI-express bus using commericial transparent
+host / target PCI Express adapters to the Virtex FPGAs on the Apollo readout boards. The
+memory-mapped readout from the Virtex FPGAs chip will permit both high data transfer
+rates and direct data transition to system CPU and GPU memories. We plan to utilize
+IPBus over PCI Express for the configuration of the readout electronics and the trigger,
+clock and control system.
+   The data acquisition system will process in real-time the data from a roughly 3.5 GB/sec
+raw data rate to a roughly ∼300 MB/sec processed data rate for data storage on PSI’s
+Petabyte archive. One option for the data processing is the lossless compression of the slow
+decay-time calorimeter signals via a combination of delta encoding and Golomb coding. The
+delta encoding will exploit the correlations between sequential ADC samples to shrink the
+word usage distribution while Golomb coding is suited to situations in which the occurrences
+                                                                                                41
+
+of small values are significantly more likely than the occurrences of large values. Other
+possibilities are zero suppression of CALO islands and realtime fitting of CALO pulses.
+These algorithms are well suited to parallel processing using GPUs.
+   We are initiating an R&D effort to demonstrate both the technology for the FPGA-
+to-CPU / GPU communication via optical PCI-express links and the performance of the
+data compression schemes. The R&D setup will allow for code development, testing and
+debugging as well as the evaulation of the rate capabilities and the compression capabilities
+of the system. We plan to use commercial PCI-Express FPGA development boards as data
+simulators for the detector sub-systems in order to prototype and benchmark the DAQ.
+   The PIONEER DAQ group has developed and operated similar architectures of dis-
+tributed data acquisition systems for the MuLan, MuCap and MuSun experiments at the
+Paul Scherrer Institute and the g-2 experiment at Fermi National Accelerator Lab.
+
+
+
+
+                                          2.   Data Policy
+
+
+   The PIONEER collaboration will comply with the data policy for PSI research data [119]
+and will publish the experiment’s data under PSI’s custody after a suitable embargo period.
+We are also committed to publish our software under an open source license at a suitable
+time.
+
+
+
+
+                                    IV.    SIMULATIONS
+
+
+   Each of the design elements discussed above is being actively studied using GEANT4-
+based [94] simulations. The simulation efforts include beamline and upstream detector
+simulations, simulation of the active target, and simulation of the calorimeter.
+   The πE5 beamline at PSI is simulated using G4Beamline [93] discussed in Section III B 3.
+The remainder of the simulation is done primarily using GEARS, an extension of GEANT4,
+which streamlines readout for rapidly iterating systems. The geometries for each of the
+experimental components are generated using a stand-alone Python script and geometry
+library, which takes as its input a json file of various parameters (e.g. diameters, number of
+elements, which detectors to implement, etc.) and exports a GDML file which is then read in
+by the Geant4 simulation. This file contains a full description of the physical geometry of the
+detectors, as well as their material properties (density, reflectivity, scintillation yield, etc.).
+Because of this workflow, it becomes trivial to implement scans over various parameters to
+perform systematic studies.
+   In the following sections, we discuss the initial ATAR and calorimeter simulations.
+42
+
+                                                        30
+                                                        25                                               103
+
+                                                        20
+
+
+                                         Energy [MeV]
+                                                                                                         102
+                                                        15
+                                                        10
+                                                                                                         101
+                                                         5
+                                                         0                                               100
+                                                         0.0   0.5   1.0     1.5       2.0   2.5   3.0
+                                                                           Theta [rad]
+
+FIG. 19 – Left: An image of the simulated ATAR, showing the active planes (white) and
+readout strips (orange). Right: Total energy deposited in the ATAR by the decay positron
+as a function of the angle θ at which it enters the calorimeter.
+
+
+                                  A.   ATAR Simulations
+
+    Simulations of the active target are done with both GEANT4, which allows us to model
+pions and their decay products through the full chain of detectors, and TRIM[120], which
+allows us to track particle energy deposition precisely in a simulated detector readout. Figure
+19 (left) shows the ATAR concept and (right) a simulation of energy deposit by exiting
+positrons as a function of polar angle of emission.
+    The active target is implemented in the simulation as alternating layers of cross-hatched
+silicon strips. The number of strips per layer, their thicknesses, and the number of layers
+is fully configurable. The nominal configuration consists of 48 120 µm thick planes of 100
+strips each for a total size of 20 × 20 × 5.76 mm3 . Optional ‘dead’ zones can be implemented
+in each pixel, to simulate the effect of trenches between pixels within a plane or a dead
+backing layer. Each plane of the ATAR has a fully simulated readout cable, consisting of
+Kapton and Silicon, simulating the ultimate flex cable readout. These readouts introduce an
+asymmetry in the energy reconstructed by the calorimeter, and as such have the potential
+to introduce a systematic bias to our analysis. The design of the readouts will be informed
+by this simulation in order to minimize such an effect.
+
+
+         1.   Background Suppression for the Measurement of the π → eν tail fraction
+
+    With an anticipated tail fraction f = 0.5% of π → eν events, µ − e decays must be
+suppressed to a level that allows measurement of ∆f /f with accuracy 1–2%. This can be
+accomplished by using ATAR information to identify stopped pions (and reject incoming
+muons) by energy loss, and range-energy relations, using a narrow time window (e.g. 3–
+35 ns) following the pion stop, rejecting events with observation of the 4.1 MeV decay muon,
+and suppressing events with pion decay-in-flight (πDIF), and muon decay-in-flight (µDIF)
+following pion decay-at-rest (πDAR) by tracking and energy loss measurements.
+                                                                                           43
+
+   Assuming a 10% energy resolution (comparable to that of the PIENU target) π → µ → e
+background in the tail region from the dominant pion decay at rest will be suppressed to a
+negligible level as found in PIENU. Radiative decays π → µνγ followed by µ → e decays
+which may leave < 4.1 MeV in the target will be suppressed by observation of the gamma
+and detection of the muon pulse and residual energy. In addition, muons that originate from
+πDAR in the ATAR can decay in flight in the 12 ps it takes before stopping (µ DIF), leaving
+a positron with the same time distribution as π + → e+ ν events. µ DIF events, although
+the probability of occurrence is small (6 × 10−6 ), would represent a significant background
+comparable to the low energy tail fraction since it has the same time distribution as π →
+eν events. Thanks to the high granularity of the ATAR, it is possible to observe the energy
+deposition at the pion decay origin and to measure the local energy loss along the positron
+track. Typically, a 4.1 MeV muon travels 0.8 mm in the ATAR and leaves high dE/dx hits in
+4 strips on average. An initial simulation of µ DIF events, indicated a suppression factor of
+20 from local dE/dx measurements and we expect another order of magnitude suppression
+from positron tracking, pulse detection, and total energy measurements. This would put the
+µ DIF at about 10% of the tail fraction f . (We are also studying the possibility of reducing
+the LGAD strip thicknesses in the stopping region to enhance rejection of this background
+and/or using a separate thin layer ATAR setup for studying this effect.) Furthermore, we
+expect that experimental studies of observable µ DIF will enable us to know the background
+component accurately so it can be subtracted.
+
+   As illustrated in Fig. 4, another potentially significant low energy background in the tail
+region comes from π DIF in the ATAR followed by muon decay at rest. This component
+dominated the background suppressed spectrum in PIENU. Simulations indicate that 0.1%
+of pions decay in flight in the ATAR before stopping and initial studies indicate that the
+π DIF events can be suppressed by a factor of 5000 using ATAR tracking information which
+recognizes kinks in the topology and measures dE/dx along the track. Along with suppres-
+sion of muon decays by selecting a narrow time window e.g. 3–35 ns after the pion stop,
+we estimate that the πDIF contribution to the uncertainty in the tail correction f will be
+negligible.
+
+   There is an ongoing effort to apply machine learning tools to boost the sensitivity to
+π → e+ ν events in the tail region and suppress the backgrounds. It has already been
+ +
+
+demonstrated with the in-ATAR π DIF events that gradient boosting decision trees (BDT)
+are able to outperform the manual cut-based methods. Although the BDT model shows
+excellent classification performance, only manually-constructed physics-inspired high-level
+information has been used as input features for the model training. As deep neural networks,
+especially Convolutional Neural Networks (CNN), have shown extraordinary performance in
+various image processing and classification applications, it could be advantageous to make
+use of deep neural networks’ ability to automatically learn high-level features directly from
+the complete pixel-level energy deposit information.
+44
+
+                               B.    Calorimeter Simulations
+
+                                           1.   Pileup
+
+    Simulation studies of the LXe calorimeter response have been performed using the
+GEANT4 package [94] with optical photon tracking. A simple geometry (see Fig. 20a) that
+is representative of the current design was implemented. π → µ → e events were generated
+in the target at the center of the LXe sphere and optical photons originating from LXe scin-
+tillation induced by the showers generated by the positrons were tracked until the outside
+sensitive surface of the LXe sphere. The simulated pulses obtained are similar to the ones
+reported by MEG. A pulse fitting algorithm was employed to evaluate the possibility of
+separating events that overlap in time i.e. pulse pileup. Pulse separation down to 5 ns was
+achieved (see illustration in Fig. 20b) across a wide range of amplitudes. This gives a first
+indication (without digitization) of the performance of the detector and subsequent data
+analysis with respect to dealing with pileup.
+    Further studies are anticipated to introduce and optimize optical qualities of the surfaces,
+optimize photo-sensing detectors’ coverage, and improve the simulation of the originating
+scintillation photons. Much of the input for these simulations will be provided by test
+measurements. Position resolution will also augment pile-up handling capabilities. The
+position resolution capabilities of the detector and its importance for achieving the targeted
+rate will be modeled and studies are envisaged in the apparatus which will also be used to
+test the photo-sensors in LXe. Depending on the outcome of the pileup studies, segmentation
+of the LXe volume may be considered.
+
+
+                              2.    Additional Calorimeter Studies
+
+   At the current design stage and given the targeted level of precision, further simulations
+assessing the performance of the calorimeter will be carried out in conjunction with devel-
+opment of design parameters for the beam, ATAR, and tracking detectors. One important
+aspect of the calorimeter design that is being informed by the simulations is understanding
+how energy from a decay positron is ‘lost’ before it reaches the calorimeter. While energy
+lost in the ATAR is measured, losses occurring in inactive material e.g. the ATAR cabling,
+and calorimeter entrance windows, depend on the angle of emission. Simulations are being
+used to study these effects on the positron energy resolution.
+   Another important study involves modeling of photonuclear interactions. As decay
+positrons interact with atomic nuclei in the simulation, they will occasionally cause a nucleus
+to enter into an excited state with single or multiple neutron emission. When these neutrons
+escape the calorimeter without depositing their energy the observed energy is shifted down
+by multiples of the neutron binding energy (see Fig. 3). Photonuclear processes were studied
+in the PIENU experiment to determine the impact on the NaI(Tl) calorimeter lineshape.
+                                                                                                                                                      45
+
+
+                                                    1000                        1 Pulse Fit
+                                                                                Input (time, amplitude)            Output (time,amplitude)
+                                                                                 (0.000e+00, 1.000e+03)   (-2.073e-02 ± 1.627e-03, 9.991e+02 ± 3.042e-01)
+                                                     800
+
+
+
+                           Amplitude [Arb. Units]
+                                                     600
+                                                     400
+                                                     200
+                                                       0
+
+                                                    1500                        3 Pulse Fit
+                                                                                Input (time, amplitude)            Output (time,amplitude)
+                                                    1250                         (0.000e+00, 1.000e+02)   (-9.351e-02 ± 1.888e-02, 1.025e+02 ± 5.009e-01)
+
+
+
+
+                           Amplitude [Arb. Units]
+                                                                                 (6.000e+00, 1.500e+03)   (6.008e+00 ± 1.147e-03, 1.495e+03 ± 5.194e-01)
+                                                                                 (3.000e+01, 2.000e+02)   (2.998e+01 ± 8.517e-03, 1.955e+02 ± 3.295e-01)
+                                                    1000
+                                                     750
+                                                     500
+                                                     250
+                                                       0
+                                                           20   0   20   40               60                80                 100                 120
+                                                                              Time [ns]
+
+        (a)                                                               (b)
+
+FIG. 20 – (a) Rendering of the simplified geometry used in the first Monte-Carlo simula-
+tion of the PIONEER LXe calorimeter (b) Example of simulated pulse shapes of a single
+π → µ → e event (top) and 3 events happening closely in time (bottom) and recorded in
+the LXe calorimeter. Pulse shape fitting based on a template allows accurate identification
+and energy reconstruction of multiple pulses down to ±5 ns separation.
+
+
+The results were used as input to the calorimeter simulations. Modeling and prototype
+studies will be pursued for evaluating these effects in LXe.
+    In summary, the robustness of the calorimeter performance for the determination of the
+low energy tail, the resolution, and the pileup rejection will be evaluated by studying the
+following aspects:
+
+
+   • impact on resolution and reconstruction of energy loss in inactive materials,
+
+   • optical properties of the inner surfaces of the LXe detector (reflectivity, light absorp-
+     tion, etc),
+
+   • granularity, layout (inner and outer surfaces) and specification of photo-sensors (dark
+     current, PDE, etc.), and
+
+   • characterizations of scintillation light in LXe; e.g., variations in the absorption length.
+
+
+Understanding how these conditions affect the performance of the calorimeter will determine
+the critical parameters required for the next phase of the experimental design.
+46
+
+                                     V.    SENSITIVITY
+
+                                          A.   π → eν
+
+   The first phase of PIONEER (Re/µ ) will employ a beam with pion stopping rate in the
+ATAR of approximately 3 × 105 /s at momentum of 55 − 70 MeV/c with ∆p       p
+                                                                              ≤ 2% in a spot
+size ≤ 2 cm diameter. Muon and positron contaminations will be reduced to < 10% with the
+use of a separator as discussed above. These requirements are compatible with the beams
+available at the πE5 (and πE1) beamline.
+   For the basis of estimating the running time to reach the proposed sensitivity, we assume
+that the beam will be available during 5 months per year. We also assume an overall event
+acceptance efficiency of 30%, which is based on the fiducial volume, the timing window cuts,
+and reconstruction factors. We assume a data-taking (operations) efficiency of 50% based
+on the product of PSI beam delivery and experimental data-collection uptime, along with
+an allocation for non-production systematic uncertainty tests. These factors result in 2×108
+π + → e+ ν events for a 3-year run satisfying the statistics goal.
+
+                                           PIENU 2015 PIONEER Estimate
+                   Error Source                     %                   %
+                   Statistics                     0.19               0.007
+                   Tail Correction                0.12              <0.01
+                   t0 Correction                  0.05              <0.01
+                   Muon DIF                       0.05               0.005
+                   Parameter Fitting              0.05              <0.01
+                   Selection Cuts                 0.04              <0.01
+                   Acceptance Correction          0.03               0.003
+                   Total Uncertainty              0.24             ≤ 0.01
+
+TABLE IV – Br(π → eν) precision for PIENU 2015[35] (left) and estimated precision for
+PIONEER (right).
+
+
+    Systematic uncertainties for PIONEER have been estimated based on the experience of
+PIENU [35] and are shown in Table IV. The main systematic uncertainty for PIENU was
+the uncertainty in the tail correction for π → eν events below 52 MeV. In PIONEER the
+tail will be reduced from 3% to 0.5% due to the increased thickness of the calorimeter
+(25X0 compared to ≤19X0 ) and the more uniform acceptance due to the larger solid angle.
+The ATAR will allow suppression of πDIF and µDIF backgrounds enabling more precise
+measurement of the tail. Uncertainties in the other small corrections, e.g. the pion stop time
+(t0 ) Correction, Selection Cuts, and Acceptance Correction, are estimated to be reduced
+due to the improvements such as in the calorimeter and ATAR timing resolutions. An
+                                                                                            47
+
+additional uncertainty arises from the pion lifetime, presently known to 0.02% precision [6];
+the PIONEER group intends to make additional measurements to reduce this uncertainty
+to < 0.01%.
+
+
+                                           B.   Exotics
+
+                          1.     Massive neutrino searches π + → `+ νH
+
+   Searches for peaks in the positron energy spectum due to π + → `+ νH decays were per-
+formed in the PIENU experiment [82, 83] sensitive to masses 65 < mH < 135 MeV but
+no significant signal above statistical uncertainty was found. The measurement of Re/µ [35]
+provides limits for mH < 65 MeV. To estimate the expected sensitivities for PIONEER
+with 100× the statistics (Phase I), reduced backgrounds, and improved detectors, toy MC
+simulations were performed.
+   For π + → e+ νH decays, the peak search sensitivity was limited by residual π + → µ+ → e+
+background from pion and muon decay-in-flight (πDIF and µDIF). The low energy calorime-
+ter response tail and statistics of the π + → e+ νe decay also limits the sensitivity. Using an
+active target and a larger electromagnetic calorimeter, the background π + → µ+ → e+
+will be significantly suppressed compared to PIENU, and a significantly smaller low energy
+π + → e+ νe tail is anticipated. Figure 21 shows the result of a toy MC study for the expected
+sensitivity (90% C.L. upper limits) in PIONEER, assuming 1 × 108 π + → e+ νe events, 1%
+tail fraction below 52 MeV, no π + → µ+ → e+ events, and negligible acceptance corrections
+due to the larger detector acceptance. Compared with PIENU (red in Fig. 21), the expected
+sensitivity in PIONEER (black) would be improved by one order of magnitude.
+   The sensitivity for π + → µ+ νH decay will also be improved by the larger PIONEER
+statistics . The dominant background is mainly due to the radiative pion decay π + → µ+ νµ γ
+with branching fraction 2×10−4 [121] (for Eγ < 1 MeV). A toy MC simulation was performed
+with 1 × 109 π + → µ+ νµ decays (×100 larger statistics than PIENU) including π + → µ+ νµ γ
+background considering the proper branching fraction, and assuming the same detector
+resolution as in PIENU. Figure 22 shows the results of the simulation and the PIENU
+experiment [83].
+
+
+                            2.    Two body muon decay µ+ → e+ XH
+
+   Massive or massless weakly interacting neutral bosons X such as axions [122–125] and
+Majorons [126–128] have been suggested to extend the SM including models with dark matter
+candidates, baryogenesis, and solutions to the strong CP problem. Wilczek suggested a
+model [129] which may lead to charged lepton flavor violation (CLFV) where the boson X
+can be emitted in flavor changing interactions.
+48
+
+
+
+
+FIG. 21 – Left: simulated π + → e+ νe energy spectrum. Right:Limits on |Uei |2 (90% C.L.)
+from PIENU (red)[35, 82]) and expected from PIONEER (black). The lower region limits
+(mH <65 MeV) come from the branching ratio measurement and the higher (mH >65 MeV)
+region from the peak search.
+
+
+
+
+FIG. 22 – Left: simulated π + → µ+ νµ kinetic energy spectrum. Right: The PIENU result
+(red triangles [83]) and expected sensitivity with PIONEER (black circles) for the mixing
+matrix element |Uµi |2 (90% C.L. limit).
+
+
+   When decay products from a massive boson XH are not detected due to a long lifetime,
+flavor violating two-body muon decays involving a massive boson µ+ → e+ XH can be
+sought by searching for extra peaks in the Michel spectrum. This search was performed
+with PIENU, resulting in the limit to the branching ratio Γ(µ+ → e+ XH )/Γ(µ+ → e+ ν ν̄)
+at the level of 10−5 in mass range 47.8 − 95.1 MeV/c2 [130]. The statistics will improve by
+two orders of magnitude with respect to PIENU.
+   To estimate the expected sensitivity, 2 × 1010 muon decays were simulated. Figure 23
+shows the 90% C.L. upper limits of the branching ratio from different experiments and the
+                                                                                                                               49
+
+expected sensitivity for PIONEER.
+
+                                                                         Decay positron energy (MeV)
+                                                  −3
+                                                            40       35         30         25        20    15      10     5
+                                                10
+                                                                 Bryman and Clifford                          Bilger et al.
+                                                                                                             Derenzo
+
+
+
+
+                  Branching ratio upper limit
+                                                10−4
+
+
+
+
+                                                10−5
+                                                                                                              PIENU
+                                                                                                          Bayes et al.
+
+                                                10−6
+
+                                                                                  PIONEER
+
+                                                10−7
+                                                       50           60           70             80          90           100
+                                                                               Mass mX (MeV/c2)
+                                                                                       H
+
+
+
+
+FIG. 23 – 90% C.L. limit on the µ+ → e+ XH branching ratio anticipated for PIONEER
+(black circles) and other past experiments (see Refs. [131–134] for more details).
+
+
+
+
+                                                                          3.   Other decays
+
+   Three and four body pion decay modes can be analyzed with the same method as for
+the π + → `+ νH searches. However, the signal shapes are in these cases are represented by
+continuous lepton energy spectra. The expected sensitivities will also be improved by one
+order of magnitude. The current limits set by the PIENU experiment are described below.
+   Three body pion decays π + → `+ νX, where X is a massive or massless weakly interacting
+particle, were searched for in the PIENU experiment [90]. The decay π + → e+ νX was
+sought; no signal beyond the statistical uncertainty was observed, and 90% C.L. upper
+limits were set on the branching ratio Γ(π + → e+ νX)/Γ(π + → µ+ ν) with 10−7 − 10−8 level
+in the mass range of 0 < mX < 120 MeV/c2 .
+   The π + → µ+ νX decay was also searched for. A 90% C.L. upper limit was derived on
+the branching ratio Γ(π + → µ+ νX)/Γ(π + → µ+ ν) at the 10−5 − 10−6 level in the mass
+region from 0 to 33.9 MeV/c2 .
+   The rare pion decays π + → `+ ν` ν ν̄ are highly suppressed. Thus, the experimental
+search for these processes could reveal small non-SM effects such as neutrino-neutrino in-
+teractions [135] and six-fermion interactions [136, 137], which might compete with the SM
+processes at first order. The rare pion decays, considering three models (SM, neutrino-
+neutrino interaction, and six-fermion) were also searched for in PIENU [138], and a first
+result for Γ(π + → µ+ νµ ν ν̄)/Γ(π + → µ+ νµ ) < 8.6 × 10−6 and an improved measurement
+Γ(π + → e+ νe ν ν̄)/Γ(π + → µ+ νµ ) < 1.6 × 10−7 were obtained.
+50
+
+                                          C.     Pion Beta Decay
+
+   For the π + → π 0 e+ ν experiment the positive pion stop rate would have to be higher,
+≥ 107 /s, possibly with a larger momentum bite ∆p       p
+                                                            ≈ 3% and likely using higher pion
+momentum. These beam conditions are compatible with the πE5 beam line. This would
+result in 7×105 π + → π 0 e+ ν events collected for 4 years of (5 months/yr) operation assuming
+similar efficiency factors as discussed for the π → eν measurement.3 This would be sufficient
+to achieve the required statistical precision to improve the pion beta decay branching ratio
+measurement precision by a factor of 3 (Phase II). Systematic effects are expected to be
+reduced to the 0.06% level (10× lower than for the previous PiBeta experiment) due to the
+combined improvements to the calorimetry (principally, the time and energy resolutions)
+and the ATAR which may facilitate the observation of the positron in π + → π 0 e+ ν decay
+in coincidence with the π 0 detection.
+   Running at higher rates may be possible leading to a further precision improvement of
+3 (Phase III) and will depend on the ability of the spectrometer to deal with higher rates
+of pile-up of accidental events. In this regard, we are studying the possibility to optically
+segmenting the LXe volume.
+
+
+                    VI.     PLANNING FOR REALIZATION OF PIONEER
+
+                                            A.    Collaboration
+
+   The PIONEER collaboration consists of participants from PIENU, PEN/PiBeta, and
+MEG/MEGII as well as international experts in rare kaon decays, low-energy stopped muon
+experiments, the Muon g − 2 experimental campaign, high energy collider physics, neutrino
+physics, and other areas. The collaboration is still developing and welcomes new members.
+   We intend to draft a collaboration constitution and institute an appropriate organiza-
+tional structure. We have good models, for example, from Muon g-2, that can be tailored
+to our smaller, but equally diverse and international, team. We expect that there will be an
+elected Executive Board with a Chair that guides the key technical decisions as an advisory
+body to the elected Spokesperson(s) and leaders of the various important technical areas
+(Beam, ATAR, Calo, DAQ, etc.).
+
+
+                                                  B.   R&D
+
+   In 2022-23, we anticipate performing detector R&D in several areas including the follow-
+ing:
+3
+    In the Phase I measurement of π → eν PIONEER will collect a sizeable sample of pion beta decay events,
+    which will be helpful to inform the Phase II(III) design.
+                                                                                           51
+
+   • Beam studies. We will carry out beam studies in πE5 (and possibly πE1) to establish
+     the required beam conditions. A beam request for 2022 tests will be submitted.
+
+   • ATAR (see next section).
+
+   • Cylindrical positron tracker. Designs with standard 300µm thick Si strips and with
+     LGADs are being considered. We expect to construct and test prototypes of various
+     geometries.
+
+   • LXe prototype. The objectives of this R&D work include determination of the proper-
+     ties of photo-sensors and optical properties of materials for use in the LXe calorimeter.
+     We also want to benchmark the photon transport simulations. We are considering the
+     development of a medium scale calorimeter prototype that would enable measure-
+     ments of properties like energy resolution and photonuclear effects for validation of
+     simulations.
+
+   • LXe calorimeter optical segmentation. Small prototypes will be used initially and UV
+     compatible materials will be evaluated. Some of these studies may be done using a
+     LXe cryostat at McGill university containing ∼2 l of LXe developed for SiPM tests for
+     nEXO. An assembly hosting SiPMs, reflective material and a retractable radioactive
+     source will be prepared at TRIUMF and brought to McGill for measurements.
+
+   • SiPMs. SiPM degradation at high rates will be studied. We will test available pho-
+     tosensors using small LXe prototypes in association with the McGill setup mentioned
+     above.
+
+   • Crystal alternatives to LXe. Arrays of LYSO crystals with varying levels of doping
+     will be evaluated from various manufacturers. See the Appendix for more details.
+
+   • DAQ. Rate testing of FPGA-to-CPU/GPU and CPU-to-CPU communication via opti-
+     cal PCI-express links will be done along with performance testing of data compression
+     algorithms for CALO data.
+
+   • Trigger prototyping. We will use a prototype APOLLO Command Module that the
+     Cornell CMS group will share with PIONEER, and build a 4-channel prototype of the
+     digitizer board for evaluation and communications development.
+
+
+                                     C.   ATAR R&D
+
+  A brief summary of ATAR R&D follows. A more detailed plan is presented in Ap-
+pendix D 1.
+52
+
+     • After initial sensor characterization and design optimization a PIONEER specific pro-
+       totype production should happen by the end of 2023. The characterization includes
+       studies on LGAD energy resolution and gain suppression mechanism.
+
+     • Building of a first ATAR demonstrator (ATAR0) with a few planes of available sensor
+       prototypes (BNL strip LGADs, 2.5 cm with 500 µm pitch). An electronics board with
+       suitable characteristics needs to be designed and produced. The prototype would be
+       then tested in a pion/muon beamline either at TRIUMF or PSI. This prototype may
+       be produced by the end of 2023.
+
+     • Identification of a suitable chips for the analog amplification and digitization by 2024.
+       The effect of a short flex between sensor and chip will be studied within 2022.
+
+     • The support mechanics and thermal load needs to be studied well with mock-up pro-
+       totypes and silicon heaters. These details needs to be fully understood by 2025.
+
+     • Full production of sensors and readout ASIC, once identified, should take less than a
+       year given the modest area of the ATAR. Therefore final production and subsequent
+       assembly can start in 2025.
+                                                                                             53
+
+Appendices
+
+                              Appendix A: PIENU and PEN
+
+   Measurements of Re/µ and associated exotic searches.
+   The PIENU experiment has provided the most precise measurement of the branching
+ratio Re/µ = (1.2344 ± 0.0023stat ± 0.0019sys ) × 10−4 [35]; a further factor two improvement in
+precision is anticipated. The π → eν branching ratio provides the best test of electron–muon
+universality in charged current weak interactions resulting in the ratio of weak interaction
+strengths ggµe = 1.0010 ± 0.0009[3]. The PEN experiment at PSI is aiming at comparable
+precision to PIENU.
+
+
+
+
+FIG. 24 – The upper panel shows the positron energy spectrum with the red line indicat-
+ing Ecut . The lower panels show the time distributions for events below and above Ecut .
+The black histograms are data, the red curve is the π + → µ+ → e+ signal, and the blue
+line is the π + → e+ ν signal. The other histograms in various colors are the background
+terms related to pile-up, muon DIF, and other effects discussed in Ref. [35].
+
+
+    PIENU obtained the branching ratio by first separating events into high- and low-energy
+regions at an energy cut value (Ecut ) as illustrated in Fig. 24. The time spectra were
+fit in each region with the π + → e+ ν and π + → µ+ → e+ shapes, plus backgrounds
+originating from different sources including pion decays in flight, contamination from old
+muon decays etc. The raw branching ratio Re/µ raw
+                                                  was the ratio of the π + → e+ ν amplitude
+to the π + → µ+ → e+ amplitude. Corrections such as the tail correction for low energy
+54
+
+events below the Michel spectrum, were subsequently applied to obtain the final value.
+   High precision pion decay experiments also provide a plethora of constraints on exotic
+phenomena including heavy neutrinos and dark sector processes. Extensions of the Standard
+Model postulate the existence of additional (sterile) neutrinos [86, 139]. These additional
+states may contribute to the solution of outstanding puzzles like the nature of dark matter,
+early cosmological processes like small scale structure formation [140], and Mesogenesis [141].
+Massive neutrino states νH are sought in the two-body pion decays π + → e+ νH [82] and
+π + → µ+ νH [83]. Exploiting large data sets of pion decays and the resulting decay muons,
+exotic two-body muon decays like µ+ → e+ X can be sought [130], where X is a massive
+neutral boson (e.g. an axion or a Majoron). Similarly, exotic particles have been searched
+for in three body decays like π + → l+ νX (l = e+ , µ+ ) [90]. The PIENU experiment also
+obtained upper limits for the rare decays π + → e+ νe ν ν̄ and π + → µ+ νµ ν ν̄ at the 10−7 −10−6
+level [138].
+    PIONEER with two orders of magnitude more statistics has the potential to improve
+the existing limits by at least an order of magnitude. Since the searches are based on
+fits to the energy spectra of the visible final state particles, an improved experiment can
+bring significant additional advantages in lowering the limits and in reducing the systematic
+errors. For example, the π + → e+ ν low energy tail represents the main background for the
+π → e+ νH , π + → e+ νX, and π + → e+ νe ν ν̄ searches: more precise knowledge of the tail
+and its further reduction will significantly improve the upper limits beyond the statistics.
+The search for rare and exotic decays involving muons, like π + → µ+ νH , π + → µ+ νX, and
+π + → µ+ νµ ν ν̄ will benefit from an improved stopping target and faster electronics, which
+will allow better separation of muons from pions and thus further improve the sensitivity.
+   The PEN/PiBeta and PIENU experiments relied on inorganic scintillator calorimetry.
+PIENU used a high-resolution (σ = 1%) crystal calorimeter consisting of a single crystal
+NaI(Tl) detector surrounded by an array of 97 pure CsI crystals for shower leakage con-
+tainment. The PIENU detector is shown in Fig. 25a and described in [142]. The large
+NaI(Tl) crystal was 19X0 lengths thick and 19X0 in diameter. The high energy resolution
+and long radiation-lengths of the Na(Tl) crystal were essential for reducing the low energy
+tail. However, the slow decay constant of NaI(Tl) limited pile-up detection and rejection.
+The acceptance of the PIENU detector was relatively small < 20 % which resulted in an
+important source of systematic uncertainty. The PEN experiment, on the contrary, adopted
+a high solid angle geometry (see Fig. 25b). Its key components were a highly segmented
+(240 elements) spherical pure CsI crystal calorimeter covering ∼ 3π sr of solid angle around
+the pion stopping target. The key limitations were related to the imperfect separation of
+π → µ → e and π → eν decays. The primary culprit was the 12X0 thickness of the CsI
+calorimeter, which produced a substantial low energy tail for 70 MeV positrons (and photons)
+extending well under the π → µ → e spectrum.
+     The PIONEER approach using a high resolution, uniform response LXe calorimeter with
+                                                                                                                                               55
+
+
+
+
+                                                   CALO: pure CsI 240-element calorimeter                                             PEN detector
+                                                   BC: upstream Beam Counter                                                          (PEN Runs 2-3)
+                                                   AD: Active Degrader detector
+                                                   AT: Active Target detector                                            pure
+                                                   mTPC: mini Time Projection Chamber                                    CsI
+                                                   MWPC1,2: Multi-Wire Proportional Chambers
+                                                   PH: Plastic Hodoscope, 20 staves
+                                                   (MWPCs, PH have cylindical shape)                                                     PH
+
+                                                                                                                                         MWPC1
+                                                                                                  π+           VACUUM
+                                                                                                                        mTPC
+                                                                                                                                PMT
+                                                                                                 beam                   AD AT
+                                                                                            BC                                           MWPC2
+
+                                                                                                  ~3 m
+                                                                                                  flightpath
+                                                                                                        
+                                                                                                          :
+                                                                                              
+                                                                                         
+                                                                                     CALO
+
+
+                                                                                                                                           10 cm
+
+
+                        (a)                                                                              (b)
+
+FIG. 25 – (a) Schematic view of the PIENU detector. Plastic scintillators are shown in
+dark blue, wire chambers in green, silicon strip trackers in orange and the calorimeter in
+light blue and red. (b) Schematic cross section of the PEN detector, with a view of the
+CsI crystal calorimeter.
+
+fast timing and high solid angle combines the assets of both experiments.
+
+
+                                       Appendix B: PiBeta
+
+   Pion beta decay measurements
+   The branching ratio for pion beta decay was most accurately measured by the PiBeta
+                                           + →π 0 e+ ν)
+experiment4 at PSI [59–62, 91] to be Γ(πΓ(Total)        = [1.036 ± 0.004(stat) ± 0.004(syst) ±
+0.003(π → eν)] × 10 , where the first uncertainty is statistical, the second systematic,
+                       −8
+
+and the third is the π → eν branching ratio uncertainty. Pion beta decay potentially pro-
+vides the theoretically cleanest determination of the magnitude of the CKM matrix element
+|Vud |. With current input one obtains |Vud | = 0.9739(28)exp (1)th , where the experimental
+uncertainty comes almost entirely from the π + → π 0 e+ ν(γ) branching ratio (BRPB). The
+theory uncertainty has been reduced from (δVud )th = 0.0005 [63–65] to (δVud )th = 0.0001
+via a lattice QCD calculation of the radiative corrections [66]. The current precision of
+0.3 % on |Vud | makes π + → π 0 e+ ν(γ) not presently relevant for the CKM unitarity tests
+because super-allowed nuclear beta decays provide a nominal precision of 0.03 %. In order
+to make π + → π 0 e+ ν(γ) important for CKM unitarity tests, two precision experimental
+stages can be identified: (1) As advocated in Ref. [50], a three-fold improvement in BRPB
+precision compared to Ref. [60] would allow for a 0.2% determination of |Vus /Vud | improving
+on measurement of the following ratio being currently RV = Γ(πΓ(K→πlν(γ))
+                                                                    + →π 0 e+ ν(γ)) = 1.3367(25) ,
+
+
+4
+    The PiBeta and PEN experiments shared much of the same apparatus.
+56
+
+independent of the Fermi constant, short-distance, and structure-dependent radiative cor-
+rections. This would match the precision of the current extraction of |Vus /Vud | from the axial
+channels [68] RA = Γ(K→µν(γ))
+                        Γ(π→µν(γ))
+                                   = 1.9884(115)(42), providing a new competitive constraint
+on the |Vus |–|Vud | plane and probing new physics that might affect vector and axial-vector
+channels in different ways. The theoretical case for this approach was recently strengthened
+by improved analysis of radiative corrections in K → πeν decays [45]. (2) In the second
+phase, an order of magnitude improvement in the BRPB precision will be sought. This
+would provide the theoretically cleanest extraction of |Vud | at the 0.02 % level.
+
+
+
+              Appendix C: Alternative LYSO Calorimeter Considerations
+
+   A naturally segmented array of tapered LYSO crystals provides an attractive alternative
+to our proposed LXe-based calorimeter. We are exploring a geometry that matches that
+of the PEN pure CsI detector. The PEN crystals were limited to 12X0 depth, which is
+insufficient for an ideal π → eν measurement. However, the segmentation and fast response
+allows for various trigger patterns and it is well-designed for the pion beta decay phase in
+the PiBeta configuration. This detector has an inner radius of 26 cm, and an outer radius
+of 48 cm. CsI has a radiation length of 1.86 cm. With the compact ATAR geometry we
+are proposing, a sufficient volume exists to insert an inner array of crystals between the
+ATAR and the existing PEN CsI array, see Fig. 25b and Fig. 26a. On paper, LYSO crystals
+appear to be the ideal choice for such an array. LYSO is a Cerium doped Lutetium based
+scintillator whose light output is comparable to doped NaI(Tl). It has high density (X0 =
+1.14 cm, RM =2.07 cm) and a light yield comparable to the highly luminous NaI(Tl), but with
+much faster light signals. Its 420 nm typical scintillation light has a 40 ns single exponential
+decay time and the spectrum is well matched to conventional SiPM photosensors. LYSO is
+both radiation hard and non-hygroscopic. To date, the main application for LYSO crystals
+has been in PET medical scanners, where small crystals are needed with high light output to
+resolve the 511 keV gammas from positron annihilation. The attractive properties of these
+crystals suggest that larger arrays could be made for use in particle physics applications
+and, indeed, several groups have explored this possibility with small arrays and somewhat
+limited success.
+   Experts in the field, such as Ren-Yuan Zhu from Caltech, have advised our collaboration
+on the pros and cons and experiences of other groups, see for example [143]. The growth of
+relatively long LYSO crystals is a fairly new and expensive R&D effort, not easily justified
+without a demanding end-use application. The Mu2e Collaboration built a 5 × 5 array of
+3 × 3 × 20 cm3 crystals and subjected the array to test beams at Frascati and Mainz [144].
+At 100 MeV, the resolution was in the range of 3–4%, dominated by a 2.5% constant term
+indicative of non-uniformity in light transmission and possibly crystal to crystal calibrations
+and surface preparation. That performance met the specifications for Mu2e, but they did
+                                                                                           57
+
+not push it further, choosing eventually to use undoped CsI based on an overall cost analysis.
+
+
+
+
+                         a)                        b)                                 c)
+
+
+FIG. 26 – Possible use of an inner array of tapered LYSO crystals within the open vol-
+ume of the existing PEN CsI calorimeter. a) Opened view showing in blue the array of
+LYSO crystals that matches one-to-one to the existing geometry of the PEN crystals
+shaded in gray. b) An example array ideal for testing the concept. c) An individual pen-
+tagonal crystal, 16X0 in depth. Each such crystal would be read out by a thin array of
+SiPMs.
+
+
+    Dr. Zhu has investigated crystals from various companies and published properties that
+will guide us going forward. An example of a study of a 25X0 crystal’s longitudinal transmis-
+sion and how to improve it is found in [145]. It is imperative to improve on the uniformity of
+light production and transmission along the length of the crystal. Experience has shown –
+as it has for CsI – that custom surface preparation on tapered crystals is also important and
+can be realized with careful lab bench work. We aim to investigate the possibilities of using
+LYSO for PIONEER, but would not now claim this to be defensible until proper bench tests
+and manufacturer quotes are in hand. Figures 26b and c indicated prototype geometries
+that are designed to fit inside the PEN calorimeter. We will issue requests to a variety of
+companies for quotes to see if these crystal shapes can be made to meet our specifications.
+If tests are successful — principally achieving the needed energy resolution below 3% – then
+a careful side-by-side comparison of costs and performance against our leading calorimeter
+candidate based on LXe can be made.
+
+
+
+                          Appendix D: ATAR technical details
+
+
+   As introduced in Sec. III C, the highly segmented active target (ATAR) is a key new
+feature of the proposed PIONEER experiment which will define the fiducial pion stop region,
+provide high resolution timing information, and furnish selective event triggers. Further
+technical details will be covered by this Appendix.
+58
+
+                                     1.   ATAR R&D plan
+
+   The ATAR is a small project in terms of production (roughly 0.01 m2 of sensor area)
+but still requires significant R&D for sensors, electronics, digitization and mechanics. An
+envisioned path forward for this project is the following:
+
+     • Sensor characterization and design optimization is the top priority, LGAD prototypes
+       from BNL and FBK are being studied. A PIONEER-specific prototype production
+       is expected to happen within 2 years from now at BNL. Introduction to the LGAD
+       technology is shown in Appendix D 2 and studies on available high granularity LGAD
+       prototypes are shown in Appendix D 3. To steer the design effort, TCAD (Silvaco
+       and Sentaurus) simulations are crucial (see Appendix D 3 a). An important aspect to
+       understand is the energy resolution of LGAD devices as well as the gain suppression
+       mechanism [101]. A test beam at the the ion beam line at the University of Washington
+       (CENPA) will be used to study the response of LGADs to high ionizing particles. This
+       will tentatively happen in 2022 with available sensor prototypes and analog amplifier
+       boards.
+
+     • Having the amplifier chip several cm away from the LGAD sensor is rather unconven-
+       tional and the effect on the response needs to be understood; a first connection flex
+       prototype was produced and will be thoroughly tested within 2023. Likely a second
+       flex production with the lesson learned will happen in the same year.
+
+     • The building of a first ATAR demonstrator (ATAR0) is foreseen within the end of
+       2023 with available sensor prototypes. The project is described in Appendix D 5.
+
+     • Identification of a suitable chip for the analog amplification; the ideal path would be to
+       find an already existing chip (e.g. FAST2) and characterize it with LGAD prototypes.
+       In parallel an effort to produce a new chip can be pursued through external companies
+       (SBIR-like funding). A prototype readout chip needs to be ready by 2024.
+
+     • Identification of a digitizer chip: currently available digitizers are too expensive for
+       the number of channels in the ATAR. Small companies might be available to develop
+       a new chip with the needed performance by modifying existing designs. A suitable
+       digitizer chip needs to be identified/developed by 2024.
+
+     • The support mechanics and thermal transport calculation needs to be studied well for
+       the success of the ATAR. The support needs to introduce as little dead material as
+       possible to avoid degradation of the positron energy. A discussion is ongoing between
+       technicians from UCSC and UW for the design of the mechanic support and mounting
+       procedure. Thermal load tests can be conducted with an ATAR mock-up made with
+       Silicon heaters, thermal calculations are also foreseen. The radiation damage during
+                                                                                           59
+
+      the π → eν phase of the experiments is low enough that the heat dissipation of the
+      sensors is not a concern.
+
+
+                                  2.   Sensor technology
+
+    The chosen technology for the ATAR is based on Low Gain Avalanche Detectors (LGAD)
+[98], thin silicon detectors with moderate internal gain. Due to the internal gain and thin
+bulk, LGADs have fast rise time and short full charge collection time. The best estimate
+at present for the sensor thickness is around 120 µm to avoid support structures for the
+sensor, which would introduce dead areas and inactive material within the beam. Using
+fast electronics is expected to result in a pulse rise time of about 1 ns for an LGAD of this
+thickness. Such a sensor would be able to separate two closely overlapping hits if they arrive
+more than 1.5 ns apart. The time resolution on the rising edge should be less than 100 ps
+for a minimum ionizing signal, down to much better time resolution for large π/µ signals.
+    Current standard LGADs are limited in terms of granularity to the mm scale. To achieve
+a 100% active area, several technologies still at prototype level are being evaluated for
+PIONEER, such as AC-LGADs [102] (studies shown in Appendix D 3 a), TI-LGADs [146]
+(studies shown in Appendix D 3 b) and DJ-LGAD [147] (a prototype run is expected to be
+finished and tested by Q1 2022).
+    Preliminary data taken at the Stanford Light source (SSRL) [99] show that LGADs can
+detect low energy X-rays with a reasonable energy resolution (8% to 15%) thanks to the
+internal gain. The beamline at SSRL had a 2 ns repetition rate and single pulses were
+completely separated with 50 µm thick LGADs.
+    A dynamic range from MIP (positron) to several MeV (pion/muon) of deposited charge is
+expected in the ATAR. Since the event reconstruction relies on temporal pulse separation, the
+response to successive MiP and high charge deposition have to be studied [148]. Furthermore
+the effect of gain suppression for large charge deposition in LGADs has to be taken into
+account [101]. To study these effects a test beam will be organized at the ion beam line of
+the University of Washington (CENPA) in 2022 to study the response of the aforementioned
+sensors to high ionizing events. Furthermore, laboratory tests will be conducted with an
+alpha source.
+
+
+                       3.   High granularity LGAD ongoing R&D
+
+                                       a.   AC-LGADs
+
+   AC-LGADs overcome the granularity limitation of traditional LGADs and have been
+shown to provide spatial resolution of the order of tens of µm [150]. AC-LGAD design also
+allows to have a completely active sensor with no dead regions. Studies were conducted
+60
+
+
+
+
+FIG. 27 – Left: prototype BNL AC-LGAD strip sensor with 80 µm wide strips and pitch
+of (left to right) 100, 150, 200 µm. Right: sensor response (Pmax ) as a function of position
+(perpendicular to the strip) of two strips with 200 µm of pitch [149]. The dashed lines
+highlight the position of the two strips in the plot. Data taken at the FNAL 120 GeV pro-
+ton test beam facility.
+
+
+on strip AC-LGAD prototypes from Brookhaven National Lab (BNL) (Fig. 27, Left). The
+sensors have been tested with a laboratory IR laser TCT station [151] and at a Fermilab
+(FNAL) test beam [149]. The response of two strips of a 200 µm pitch BNL AC-LGAD as a
+function of position can be seen in Fig. 27 (Right). The position resolution of this prototype
+sensor varies between 5-15 µm in the direction perpendicular to the strip. In the next few
+years several prototypes will be tested in laboratories and test beams to identify the right
+parameter configuration, then a PIONEER-specific production will be made at Brookhaven.
+   The envisioned metal size for the 200 µm pitch strips, as well as other parameters of
+interest for the sensor such as the doping profile, needs to be confirmed after a testing R&D
+campaign and TCAD simulations. These parameters have been studied with the TCAD
+Silvaco [152] to have a good representation of the observed sensor performance. Simulations
+with TCAD software are important to compare with existing prototype data and to help
+in optimizing the design, currently the simulated sensor response show a reasonably good
+match with FNAL TB data. Studies made with simulations tools will provide crucial input
+for the future PIONEER sensor production.
+
+
+                                       b.   TI-LGADs
+
+   Trench Isolated (TI) LGADs are a novel silicon sensor technology that utilizes a deep
+narrow trench to electrically isolate neighboring pixels to prevent breakdown, as opposed
+to standard LGADs which use a junction termination extension to prevent breakdown at
+the pixel edges [146]. By utilizing the deep trench isolation technology, the no-gain region
+is reduced to a few micrometers, thus achieving a higher fill factor than regular LGADs.
+Prototypes TI-LGADs sensors from Fondazione Bruno Kessler (FBK) [146] were studied
+                                                                                          61
+
+at UCSC. TI-LGADs show the standard response of a conventional LGAD and exhibits a
+small amount of “cross-talk”. Furthermore the response of the sensor is constant along the
+strip. The maximum values of the pulse shape for the neighbor strips correspond to 3% of
+the maximum value of the red pulse showing there is good isolation between strips. New
+TI-LGADs productions are envisioned at FBK and other vendors, the prototypes will be
+tested in laboratories and test beams to find a suitable alternative sensor technology for
+PIONEER.
+
+
+                            4.   Electronics and readout chain
+
+    To read out the ATAR sensors, two crucial electronic components need to be identi-
+fied: an amplifier chip and a digitizer board. The ASIC needs to be fast enough for the
+sensor in use; for the signal rise time in the 120 µm-thick prototype sensors, a bandwidth
+of 1 GHz should be sufficient. However, the high dynamic range (2000) requirement for
+the ATAR brings major complications to the readout. Current fast readout chips usually
+have a dynamic range of < 1000, since they are targeted at MIPs-only detection in tracker
+sub-systems. One possibility is to develop an amplifier chip with logarithmic response or
+dynamic gain switching as well as a high enough bandwidth, currently no such chip exists
+with the necessary characteristics. Already available integrated chips, such as FAST [153]
+and FAST2, are being evaluated. Some new ASIC technologies that are being developed at
+UCSC in collaboration with external companies can run with 2.5V maximum signal, this
+allows for an increased dynamic range.
+    Since the amplification chip has to be positioned away from the active region, the effect
+of placing a short (5 cm) flex cable between the sensor and the amplification stage has to be
+studied. To study this a prototype flex was produced and the effect on LGAD signals will
+be studied.
+    To successfully reconstruct the decay chains, the ATAR is expected to be fully digitized
+at each event. To achieve this goal, a high bandwidth digitizer with sufficient bandwidth
+and sampling rate have to be identified. The same issue afflicting the amplifier, the high
+dynamic range, is also problematic for the digitization stage. A digitizer that would suit
+PIONEER’s requirements needs to be identified, a ready commercial solution would be the
+best option but the cost per channel might be prohibitive. For this reason the collaboration
+is exploring the possibility to develop a new kind of digitizer specific to this application.
+
+
+                                  5.   ATAR0 prototype
+
+    A first ATAR demonstrator (ATAR0) is foreseen with available sensor prototypes: the
+current BNL AC-LGAD production has 2.5 cm long strips with a pitch of 500 µm, which
+is close to the final 200 µm 2x2 cm2 ATAR design (however the sensor thickness is 50 µm
+62
+
+instead of the final design 120 µm). Since a 50 µm thick sensor is fabricated on a support
+wafer of a few 100s µm, the devices would need to undergo an etching procedure to have full
+active volume, the thinning procedure can be executed at BNL. The BNL sensor group has
+experience with wafer lapping and chemical mechanical planarization (CMP). The sensor
+would be initially lapped to remove most of the thickness of the handling thick substrate,
+followed by CMP for final polish. The etching rate would be determined on dummy wafers
+and the process would be optimized to reach the required final thickness. The prototype
+would have a few layers (5-10) with a reduced number of channels to detect the temporal
+development of a muon or pion decay. As the layers would need to be very close to each
+other, a suitable readout board needs to be developed. The board might be built with
+discrete components or using a chip such as FAST2. The prototype would be then tested
+in a pion/muon beamline either at TRIUMF or a PSI. Hopefully such a prototype can be
+produced by the end of 2023.
+
+
+
+
+  [1] A. Crivellin and M. Hoferichter, Science 374, 1051 (2021), arXiv:2111.12739 [hep-ph].
+  [2] O. Fischer et al., (2021), arXiv:2109.06065 [hep-ph].
+  [3] D. Bryman, V. Cirigliano, A. Crivellin, and G. Inguglia, (2021), arXiv:2111.05338 [hep-ph].
+  [4] V. Cirigliano and I. Rosell, Phys. Rev. Lett. 99, 231801 (2007), arXiv:0707.3439 [hep-ph].
+  [5] D. Bryman, W. J. Marciano, R. Tschirhart, and T. Yamanaka, Ann. Rev. Nucl. Part. Sci.
+     61, 331 (2011).
+  [6] P. A. Zyla et al. (Particle Data Group), PTEP 2020, 083C01 (2020).
+  [7] J. P. Lees et al. (BaBar), Phys. Rev. Lett. 109, 101802 (2012), arXiv:1205.5442 [hep-ex].
+  [8] R. Aaij et al. (LHCb), Phys. Rev. D 97, 072013 (2018), arXiv:1711.02505 [hep-ex].
+  [9] A. Abdesselam et al. (Belle), (2019), arXiv:1904.08794 [hep-ex].
+ [10] R. Aaij et al. (LHCb), JHEP 08, 055 (2017), arXiv:1705.05802 [hep-ex].
+ [11] R. Aaij et al. (LHCb), Phys. Rev. Lett. 122, 191801 (2019), arXiv:1903.09252 [hep-ex].
+ [12] R. Aaij et al. (LHCb), (2021), arXiv:2103.11769 [hep-ex].
+ [13] Y. S. Amhis et al. (HFLAV), Eur. Phys. J. C 81, 226 (2021), arXiv:1909.12524 [hep-ex].
+ [14] C. Murgui, A. Peñuelas, M. Jung, and A. Pich, JHEP 09, 103 (2019), arXiv:1904.09311
+     [hep-ph].
+ [15] R.-X. Shi, L.-S. Geng, B. Grinstein, S. Jäger, and J. Martin Camalich, JHEP 12, 065 (2019),
+     arXiv:1905.08498 [hep-ph].
+ [16] M. Blanke, A. Crivellin, T. Kitahara, M. Moscati, U. Nierste,            and I. Nišandžić,
+     (2019), 10.1103/PhysRevD.100.035035, [Addendum: Phys. Rev. D 100, 035035 (2019)],
+     arXiv:1905.08253 [hep-ph].
+ [17] S. Kumbhakar, A. K. Alok, D. Kumar, and S. U. Sankar, PoS EPS-HEP2019, 272 (2020),
+     arXiv:1909.02840 [hep-ph].
+                                                                                              63
+
+[18] M. Algueró, B. Capdevila, A. Crivellin, S. Descotes-Genon, P. Masjuan, J. Matias,
+    M. Novoa Brunet, and J. Virto, Eur. Phys. J. C 79, 714 (2019), [Addendum: Eur. Phys. J.
+    C 80, 511 (2020)], arXiv:1903.09578 [hep-ph].
+[19] J. Aebischer, W. Altmannshofer, D. Guadagnoli, M. Reboud, P. Stangl, and D. M. Straub,
+    Eur. Phys. J. C 80, 252 (2020), arXiv:1903.10434 [hep-ph].
+[20] M. Ciuchini, A. M. Coutinho, M. Fedele, E. Franco, A. Paul, L. Silvestrini, and M. Valli,
+    Eur. Phys. J. C 79, 719 (2019), arXiv:1903.09632 [hep-ph].
+[21] A. Arbey, T. Hurth, F. Mahmoudi, D. M. Santos, and S. Neshatpour, Phys. Rev. D 100,
+    015045 (2019), arXiv:1904.08399 [hep-ph].
+[22] G. W. Bennett et al. (Muon g − 2), Phys. Rev. D 73, 072003 (2006), arXiv:hep-ex/0602035.
+[23] B. Abi et al. (Muon g − 2), Phys. Rev. Lett. 126, 141801 (2021), arXiv:2104.03281 [hep-ex].
+[24] T. Aoyama et al., Phys. Rept. 887, 1 (2020), arXiv:2006.04822 [hep-ph].
+[25] H. Davoudiasl and W. J. Marciano, Phys. Rev. D 98, 075011 (2018), arXiv:1806.10252 [hep-
+    ph].
+[26] A. Crivellin, M. Hoferichter, and P. Schmidt-Wellenburg, Phys. Rev. D 98, 113002 (2018),
+    arXiv:1807.11484 [hep-ph].
+[27] C. Bobeth, M. Bordone, N. Gubernari, M. Jung, and D. van Dyk, Eur. Phys. J. C 81, 984
+    (2021), arXiv:2104.02094 [hep-ph].
+[28] A. Carvunis, A. Crivellin, D. Guadagnoli, and S. Gangal, (2021), arXiv:2106.09610 [hep-ph].
+[29] A. M. Sirunyan et al. (CMS), JHEP 07, 208 (2021), arXiv:2103.02708 [hep-ex].
+[30] A. M. Coutinho, A. Crivellin, and C. A. Manzari, Phys. Rev. Lett. 125, 071802 (2020),
+    arXiv:1912.08823 [hep-ph].
+[31] A. Crivellin and M. Hoferichter, Phys. Rev. Lett. 125, 111801 (2020), arXiv:2002.07184 [hep-
+    ph].
+[32] A. Czarnecki, W. J. Marciano,         and A. Sirlin, Phys. Rev. D 101, 091301 (2020),
+    arXiv:1911.04685 [hep-ph].
+[33] V. Cirigliano and I. Rosell, JHEP 10, 005 (2007), arXiv:0707.4464 [hep-ph].
+[34] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 71, 3629 (1993).
+[35] A. Aguilar-Arevalo et al. (PIENU), Phys. Rev. Lett. 115, 071801 (2015), arXiv:1506.05845
+    [hep-ex].
+[36] D. A. Bryman, M. S. Dixit, R. Dubois, J. A. Macdonald, T. Numao, B. Olaniyi, A. Olin,
+    and J. M. Poutissou, Phys. Rev. D 33, 1211 (1986).
+[37] D. I. Britton et al., Phys. Rev. D 49, 28 (1994).
+[38] G. Czapek et al., Phys. Rev. Lett. 70, 17 (1993).
+[39] A. Crivellin, F. Kirk, C. A. Manzari, and M. Montull, JHEP 12, 166 (2020), arXiv:2008.01113
+    [hep-ph].
+[40] B. Capdevila, A. Crivellin, C. A. Manzari, and M. Montull, Phys. Rev. D 103, 015032 (2021),
+    arXiv:2005.13542 [hep-ph].
+64
+
+[41] A. Crivellin, C. A. Manzari,          and M. Montull, Phys. Rev. D 104, 115016 (2021),
+     arXiv:2103.12003 [hep-ph].
+[42] N. Cabibbo, Phys. Rev. Lett. 10, 531 (1963).
+[43] M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49, 652 (1973).
+[44] V. Cirigliano, D. Díaz-Calderón, A. Falkowski, M. González-Alonso,        and A. Rodríguez-
+     Sánchez, (2021), arXiv:2112.02087 [hep-ph].
+[45] C.-Y. Seng, D. Galviz, W. J. Marciano, and U.-G. Meißner, (2021), arXiv:2107.14708 [hep-
+     ph].
+[46] Y. Aoki et al., (2021), arXiv:2111.09849 [hep-lat].
+[47] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 96, 032002 (2006), arXiv:hep-ph/0510099.
+[48] C.-Y. Seng, M. Gorchtein, H. H. Patel, and M. J. Ramsey-Musolf, Phys. Rev. Lett. 121,
+     241804 (2018), arXiv:1807.10197 [hep-ph].
+[49] C. Y. Seng, M. Gorchtein, and M. J. Ramsey-Musolf, Phys. Rev. D 100, 013001 (2019),
+     arXiv:1812.03352 [nucl-th].
+[50] A. Czarnecki, W. J. Marciano,           and A. Sirlin, Phys. Rev. D 100, 073008 (2019),
+     arXiv:1907.06737 [hep-ph].
+[51] C.-Y. Seng, X. Feng, M. Gorchtein,        and L.-C. Jin, Phys. Rev. D 101, 111301 (2020),
+     arXiv:2003.11264 [hep-ph].
+[52] L. Hayen, Phys. Rev. D 103, 113001 (2021), arXiv:2010.07262 [hep-ph].
+[53] K. Shiells, P. G. Blunden,     and W. Melnitchouk, Phys. Rev. D 104, 033003 (2021),
+     arXiv:2012.01580 [hep-ph].
+[54] G. A. Miller and A. Schwenk, Phys. Rev. C 78, 035501 (2008), arXiv:0805.0603 [nucl-th].
+[55] G. A. Miller and A. Schwenk, Phys. Rev. C 80, 064319 (2009), arXiv:0910.2790 [nucl-th].
+[56] M. Gorchtein, Phys. Rev. Lett. 123, 042503 (2019), arXiv:1812.04229 [nucl-th].
+[57] J. C. Hardy and I. S. Towner, Phys. Rev. C 102, 045501 (2020).
+[58] D. Počanić et al. (PiBeta), http://pibeta.phys.virginia.edu/ (2009).
+[59] E. Frlež et al., Nucl. Instrum. Meth. A 526, 300 (2004), arXiv:hep-ex/0312017.
+[60] D. Počanić et al., Phys. Rev. Lett. 93, 181803 (2004), arXiv:hep-ex/0312030.
+[61] E. Frlež et al., Phys. Rev. Lett. 93, 181804 (2004), arXiv:hep-ex/0312029.
+[62] M. Bychkov et al., Phys. Rev. Lett. 103, 051802 (2009), arXiv:0804.1815 [hep-ex].
+[63] A. Sirlin, Rev. Mod. Phys. 50, 573 (1978), [Erratum: Rev. Mod. Phys. 50, 905 (1978)].
+[64] V. Cirigliano, M. Knecht, H. Neufeld, and H. Pichl, Eur. Phys. J. C 27, 255 (2003), arXiv:hep-
+     ph/0209226.
+[65] M. Passera, K. Philippides, and A. Sirlin, Phys. Rev. D 84, 094030 (2011), arXiv:1109.1069
+     [hep-ph].
+[66] X. Feng, M. Gorchtein, L.-C. Jin, P.-X. Ma, and C.-Y. Seng, Phys. Rev. Lett. 124, 192002
+     (2020), arXiv:2003.09798 [hep-lat].
+                                                                                             65
+
+[67] D. Počanić, E. Frlež, and A. van der Schaaf, J. Phys. G 41, 114002 (2014), arXiv:1407.2865
+    [hep-ex].
+[68] W. J. Marciano, Phys. Rev. Lett. 93, 231803 (2004), arXiv:hep-ph/0402299.
+[69] C.-Y. Seng, D. Galviz, M. Gorchtein,          and U.-G. Meißner, JHEP 11, 172 (2021),
+    arXiv:2103.04843 [hep-ph].
+[70] A. Crivellin, M. Hoferichter,   and C. A. Manzari, Phys. Rev. Lett. 127, 071801 (2021),
+    arXiv:2102.02825 [hep-ph].
+[71] J. de Blas, J. C. Criado, M. Perez-Victoria,       and J. Santiago, JHEP 03, 109 (2018),
+    arXiv:1711.10391 [hep-ph].
+[72] A. Crivellin, F. Kirk, C. A. Manzari, and L. Panizzi, Phys. Rev. D 103, 073002 (2021),
+    arXiv:2012.09845 [hep-ph].
+[73] D. Marzocca and S. Trifinopoulos, Phys. Rev. Lett. 127, 061803 (2021), arXiv:2104.05730
+    [hep-ph].
+[74] R. E. Shrock, Phys. Lett. B 96, 159 (1980).
+[75] R. E. Shrock, Phys. Rev. D 24, 1232 (1981).
+[76] R. E. Shrock, Phys. Rev. D 24, 1275 (1981).
+[77] R. Abela, M. Daum, G. H. Eaton, R. Frosch, B. Jost, P. R. Kettle, and E. Steiner, Phys.
+    Lett. B 105, 263 (1981), [Erratum: Phys. Lett. B 106, 513 (1981)].
+[78] R. C. Minehart, K. O. H. Ziock, R. Marshall, W. A. Stephens, M. Daum, B. Jost, and P. R.
+    Kettle, Phys. Rev. Lett. 52, 804 (1984).
+[79] D. A. Bryman, R. Dubois, T. Numao, B. Olaniyi, A. Olin, M. S. Dixit, J. M. Poutissou, and
+    J. A. Macdonald, Phys. Rev. Lett. 50, 1546 (1983).
+[80] G. Azuelos et al., Phys. Rev. Lett. 56, 2241 (1986).
+[81] D. I. Britton et al., Phys. Rev. Lett. 68, 3000 (1992).
+[82] A. Aguilar-Arevalo et al. (PIENU), Phys. Rev. D 97, 072012 (2018), arXiv:1712.03275 [hep-
+    ex].
+[83] A. Aguilar-Arevalo et al. (PIENU), Phys. Lett. B 798, 134980 (2019), arXiv:1904.03269 [hep-
+    ex].
+[84] C. A. Argüelles, N. Foppiani, and M. Hostert, (2021), arXiv:2109.03831 [hep-ph].
+[85] D. A. Bryman and R. Shrock, Phys. Rev. D 100, 053006 (2019), arXiv:1904.06787 [hep-ph].
+[86] D. A. Bryman and R. Shrock, Phys. Rev. D 100, 073011 (2019), arXiv:1909.11198 [hep-ph].
+[87] W. Altmannshofer, S. Gori,       and D. J. Robinson, Phys. Rev. D 101, 075002 (2020),
+    arXiv:1909.00005 [hep-ph].
+[88] J. A. Dror, Phys. Rev. D 101, 095013 (2020), arXiv:2004.04750 [hep-ph].
+[89] B. Batell, T. Han, D. McKeen, and B. Shams Es Haghi, Phys. Rev. D 97, 075016 (2018),
+    arXiv:1709.07001 [hep-ph].
+[90] A. Aguilar-Arevalo et al. (PIENU), Phys. Rev. D 103, 052006 (2021), arXiv:2101.07381 [hep-
+    ex].
+66
+
+ [91] D. Počanić et al. (PEN), http://pen.phys.virginia.edu/ (2006).
+ [92] C. J. Glaser et al. (PEN), 13th Conference on the Intersections of Particle and Nuclear
+      Physics, (2018), arXiv:1812.00782 [hep-ex].
+ [93] T. J. Roberts, K. B. Beard, D. Huang, S. Ahmed, D. M. Kaplan, and L. K. Spentzouris,
+      Conf. Proc. C 0806233, WEPP120 (2008).
+ [94] S. Agostinelli et al. (GEANT4), Nucl. Instrum. Meth. A 506, 250 (2003).
+ [95] F. Berg, L. Desorgher, A. Fuchs, W. Hajdas, Z. Hodge, P.-R. Kettle, A. Knecht, R. Lüscher,
+      A. Papa, G. Rutar, and M. Wohlmuther, Phys. Rev. Accel. Beams 19, 024701 (2016).
+ [96] M. Hori, H. Aghai-Khozani, A. Sótér, A. Dax, and D. Barna, Nature 581, 37 (2020).
+ [97] S. M. Mazza (PIONEER), Instruments 5, 40 (2021), arXiv:2111.05375 [physics.ins-det].
+ [98] G. Pellegrini et al., Nucl. Instrum. Meth. A765, 12 (2014).
+ [99] Z. Galloway, C. Gee, S. Mazza, H. Ohldag, R. Rodriguez, H.-W. Sadrozinski, B. Schumm,
+      A. Seiden, W. Wyatt, and Y. Zhao, Nuclear Instruments and Methods in Physics Research
+      Section A: Accelerators, Spectrometers, Detectors and Associated Equipment 923, 5 (2019).
+[100] M. Andrä et al., Journal of Synchrotron Radiation 26, 1226 (2019).
+[101] E. Rivera, “Gain suppression mechanism observed in low gain avalanche detectors,” https:
+      //indico.cern.ch/event/983068/contributions/4223231/ (2021).
+[102] A. Apresyan, W. Chen, G. D’Amen, K. F. Di Petrillo, G. Giacomini, R. Heller, H. Lee, S. Los,
+      C. S. Moon, and A. Tricoli, JINST 15, P09038 (2020), arXiv:2006.01999 [physics.ins-det].
+[103] Technical Design Report for the ATLAS Inner Tracker Strip Detector , Tech. Rep. (CERN,
+      Geneva, 2017).
+[104] A. M. Baldini et al. (MEG), Eur. Phys. J. C 76, 434 (2016), arXiv:1605.05081 [hep-ex].
+[105] A. M. Baldini et al., Eur. Phys. J. C 78, 380 (2018).
+[106] A. Baldini et al., Nucl. Instrum. Meth. A 545, 753 (2005), arXiv:physics/0407033.
+[107] S. Mihara, J. Phys. Conf. Ser. 308, 012009 (2011).
+[108] R. Onda, “Evaluation of Radiation Damage to VUV-MPPC for MEG ll Liquid Xenon Detec-
+      tor,” https://meg.web.psi.ch/docs/talks/JPS/2020s/onda_jps2020s.pdf (2020).
+[109] C. Silva, J. Pinto da Cunha, A. Pereira, V. Chepel, M. I. Lopes, V. Solovov, and F. Neves,
+      J. Appl. Phys. 107, 064902 (2010), arXiv:0910.1056 [physics.ins-det].
+[110] D. S. Akerib et al. (LZ), (2015), arXiv:1509.02910 [physics.ins-det].
+[111] F. Neves, A. Lindote, A. Morozov, V. Solovov, C. Silva, P. Bras, J. P. Rodrigues, and M. I.
+      Lopes, JINST 12, P01017 (2017), arXiv:1612.07965 [physics.ins-det].
+[112] R. Zou, “The Apollo ATCA design for CMS track finder and pixel readout at the HL-LHC,”
+      indico.cern.ch/event/1019078/contributions/4444387/ (2021).
+[113] “FireflyTM micro flyover systemTM ,” www.samtec.com/optics/optical-cable/mid-board/
+      firefly (2021).
+[114] “The Phase-2 Upgrade of the CMS Data Acquisition and High Level Trigger Technical Design
+      Report,” https://cds.cern.ch/record/2759072 (2021).
+                                                                                               67
+
+[115] M. V. S. Oliveira, “Low-latency high-bandwidth circuit and system design for trig-
+      ger systems in high energy physics,” https://cds.cern.ch/record/2743185/files/
+      CERN-THESIS-2020-159.pdf (2020).
+[116] “Midas        documentation,”        www.midas.triumf.ca/MidasWiki/index.php/Midas_
+      documentation (2018).
+[117] “CUDA documentation,” www.developer.nvidia.com/cuda-toolkit (2021).
+[118] “ROOT documentation,” www.root.cern (2021).
+[119] PSI, “Data policy for PSI research data,” https://www.psi.ch/sites/default/files/
+      import/science/PSIDataPolicyEN/PSI_Data_Policy_201805.pdf.
+[120] J. Ziegler, J. Biersack, and U. Littmark, The Stopping and Range of Ions in Solids, Stopping
+      and ranges of ions of matter (Pergamon, 1985).
+[121] G. Bressi et al., Nucl. Phys. B 513, 555 (1998).
+[122] J. Jaeckel and A. Ringwald, Ann. Rev. Nucl. Part. Sci. 60, 405 (2010), arXiv:1002.0329
+      [hep-ph].
+[123] K. S. Jeong, T. H. Jung, and C. S. Shin, Phys. Rev. D 101, 035009 (2020), arXiv:1811.03294
+      [hep-ph].
+[124] P. Agrawal and K. Howe, JHEP 12, 029 (2018), arXiv:1710.04213 [hep-ph].
+[125] D. S. M. Alves and N. Weiner, JHEP 07, 092 (2018), arXiv:1710.03764 [hep-ph].
+[126] G. B. Gelmini and M. Roncadelli, Phys. Lett. B 99, 411 (1981).
+[127] Y. Chikashige, R. N. Mohapatra, and R. D. Peccei, Phys. Lett. B 98, 265 (1981).
+[128] C. S. Aulakh and R. N. Mohapatra, Phys. Lett. B 119, 136 (1982).
+[129] F. Wilczek, Phys. Rev. Lett. 49, 1549 (1982).
+[130] A. Aguilar-Arevalo et al. (PIENU), Phys. Rev. D 101, 052014 (2020), arXiv:2002.09170 [hep-
+      ex].
+[131] S. E. Derenzo, Phys. Rev. 181, 1854 (1969).
+[132] D. A. Bryman and E. T. H. Clifford, Phys. Rev. Lett. 57, 2787 (1986).
+[133] R. Bilger, K. Foehl, H. Clement, M. Croni, A. Erhardt, R. Meier, J. Patzold, and G. J.
+      Wagner, Phys. Lett. B 446, 363 (1999), arXiv:hep-ph/9811333.
+[134] R. Bayes et al. (TWIST), Phys. Rev. D 91, 052020 (2015), arXiv:1409.0638 [hep-ex].
+[135] D. Y. Bardin, S. M. Bilenky, and B. Pontecorvo, Phys. Lett. B 32, 121 (1970).
+[136] T. E. O. Ericson and S. L. Glashow, Phys. Rev. 133, B130 (1964).
+[137] A. Vanzha, A. Isaev, and L. Lapidus, Sov. J. Nucl. Phys. 12, 325 (1971), [Yad. Fiz. 12, 595
+      (1970)].
+[138] A. Aguilar-Arevalo et al. (PIENU), Phys. Rev. D 102, 012001 (2020), arXiv:2006.00389 [hep-
+      ex].
+[139] A. Boyarsky, O. Ruchayskiy, and M. Shaposhnikov, Ann. Rev. Nucl. Part. Sci. 59, 191 (2009),
+      arXiv:0901.0011 [hep-ph].
+68
+
+[140] B. Bertoni, S. Ipek, D. McKeen, and A. E. Nelson, JHEP 04, 170 (2015), arXiv:1412.3113
+      [hep-ph].
+[141] F. Elahi, G. Elor, and R. McGehee, (2021), arXiv:2109.09751 [hep-ph].
+[142] A. A. Aguilar-Arevalo et al. (PIENU), Nucl. Instrum. Meth. A 791, 38 (2015),
+      arXiv:1505.02737 [physics.ins-det].
+[143] R.-Y. Zhu, Proc. SPIE Int. Soc. Opt. Eng. 11838, 42 (2021).
+[144] N. Atanov et al., Nucl. Instrum. Meth. A 824, 684 (2016), arXiv:1605.09419 [physics.ins-det].
+[145] R. Mao, L. Zhang, and R.-Y. Zhu, IEEE Trans. Nucl. Sci. 59, 2224 (2012).
+[146] G. Paternoster, G. Borghi, M. Boscardin, N. Cartiglia, M. Ferrero, F. Ficorella, F. Siviero,
+      A. Gola, and P. Bellutti, IEEE Electron Device Letters 41, 884 (2020).
+[147] S. Ayyoub, C. Gee, R. Islam, S. M. Mazza, B. Schumm, A. Seiden, and Y. Zhao, (2021),
+      arXiv:2101.00511 [physics.ins-det].
+[148] E. Ryan, “Development of AC-LGADs for large-scale high-precision time and position mea-
+      surements,” https://indico.cern.ch/event/981823/contributions/4295547/ (2021).
+[149] H.     Sadrozinski,    https://indico.cern.ch/event/861104/contributions/4503072/
+      attachments/2306673/3924214/H.Sadrozinski.pdf (2021).
+[150] M. Tornago et al., Nucl. Instrum. Meth. A 1003, 165319 (2021), arXiv:2007.09528
+      [physics.ins-det].
+[151] “Particulars-tct,” http://particulars.si/.
+[152] “Tcad-silvaco,” https://silvaco.com/tcad/.
+[153] E. Olave, F. Fausti, N. Cartiglia, R. Arcidiacono, H.-W. Sadrozinski, and A. Seiden, Nu-
+      clear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers,
+      Detectors and Associated Equipment 985, 164615 (2021).
+

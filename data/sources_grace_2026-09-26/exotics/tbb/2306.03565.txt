@@ -1,0 +1,1437 @@
+                                                                                                                                           YITP-22-117
+
+
+                                           Lattice study on a tetra-quark state Tbb in the HAL QCD method
+
+                                                                     Takafumi Aoki,1, ∗ Sinya Aoki,2, 3, † and Takashi Inoue4, ‡
+                                                                            1
+                                                                                Yukawa Institute for Theoretical Physics
+                                                                            Kyoto University, Kyoto 606-8502, Japan
+                                                             2
+                                                                 Center for Gravitational Physics and Quantum Information,
+                                                                            Yukawa Institute for Theoretical Physics,
+                                                                            Kyoto University, Kyoto 606-8502, Japan
+                                                                 3
+                                                                     RIKEN Nishina Center (RNC), Saitama 351-0198, Japan
+
+
+
+
+arXiv:2306.03565v2 [hep-lat] 16 Jun 2023
+                                                  4
+                                                      Nihon University, College of Bioresource Sciences, Kanagawa 252-0880, Japan
+
+                                                                                                   Abstract
+                                                                                                 ¯ with quantum number I(J P ) = 0(1+ ),
+                                               We study a doubly-bottomed tetra-quark state (bbūd)
+                                           denoted by Tbb , in lattice QCD with the Non-Relativistic QCD (NRQCD) quark action for b quarks.
+                                           Employing (2+1)-flavor gauge configurations at a ≈ 0.09 fm on 323 ×64 lattices, we have extracted
+                                           the coupled channel potential between B̄ B̄ ∗ and B̄ ∗ B̄ ∗ in the HAL QCD method, which predicts an
+                                           existence of a bound Tbb below the B̄ B̄ ∗ threshold. By extrapolating results at mπ ≈ 410, 570, 700
+                                           MeV to the physical pion mass mπ ≈ 140 MeV, we obtain a biding energy with its statistical error
+                                                 (single)                            (coupled)
+                                           as Ebinding = 155(17) MeV and Ebinding                = 83(10) MeV, where “coupled” means that effects due to
+                                           virtual B̄ ∗ B̄ ∗ states are included through the coupled channel potential, while only a potential for
+                                           a single B̄ B̄ ∗ channel is used in the analysis for “single”. A comparison shows that the effect from
+                                           virtual B̄ ∗ B̄ ∗ states is quite sizable to the binding energy of Tbb . We estimate systematic errors to
+                                           be ±20 MeV at most, which are mainly caused by the NRQCD approximation for b quarks.
+
+
+
+
+                                           ∗
+                                               takafumi.aoki@yukawa.kyoto-u.ac.jp
+                                           †
+                                               saoki@yukawa.kyoto-u.ac.jp
+                                           ‡
+                                               inoue.takashi@nihon-u.ac.jp
+
+
+                                                                                                      1
+I.    INTRODUCTION
+
+
+     One of typical characteristic features of QCD is the color confinement that only color-
+singlet states can appear in Nature. While almost all observed color-singlets states are
+either mesons (q q̄) or baryons (qqq), other color-singlet states such as tetra-quark state
+(qq q̄q̄), penta-quark states (qqqq q̄) and glueball states are theoretically allowed to exist.
+These states are rarely observed and called exotic hadrons, whose existences have not been
+firmly established yet. Recently experimental observations have been reported for several
+heavy exotic hadrons, which include tetra-quark states X(2900)[1] and Tcc [2] containing one
+or two charm quarks, a penta-quark state Pc [3] containing a charm and anti-charm pair,
+or tetra-quark states Zb [4] containing a bottom and anti-bottom pair. Their properties
+such as particle contents and internal structures, however, are needed to be understood, in
+particular, theoretically in terms of QCD.
+   In this paper, as the first step to understand such heavy exotic hadrons, we investigate a
+                         ¯ in I(J P ) = 0(1+ ) channel, called Tbb , from the first principle using
+tetra-quark hadron (bbūd)
+lattice QCD. While Tbb has not been experimentally observed yet, theoretical predictions by
+the di-quark model[5] and by color magnetic interactions under the static limit[6, 7] suggest
+existences of heavy tetra-quark bound states QQq̄ q̄. Indeed, as mentioned before, Tcc , a
+charm counterpart to Tbb , seems to exist.
+     There exist several lattice QCD studies for Tbb [8–14], all of which conclude that Tbb
+appears as a bound state below the B̄ B̄ ∗ threshold, where the threshold energy is given by
+EB̄threshold
+     B̄ ∗
+             ≃ 10.604 GeV. A predicted binding energy, however, depends on both a treatment
+of heavy b quarks and a number of channels included in lattice calculations, as shown in
+Tab. I. Within a static quark approximation for b quarks, the binding energy is about 30
+MeV larger in a single B channel analysis than in a coupled B and B∗ channel analysis,
+where the B̄ B̄ ∗ channel is denoted by B while the B̄ ∗ B̄ ∗ channel by B∗ , whose threshold
+energy EB̄threshold
+            ∗ B̄ ∗  ≃ 10.649 GeV is about 45 MeV above the B̄ B̄ ∗ threshold. Within a single
+channel analysis, the binding energy increases by about 40 MeV, if b quarks are treated by
+the lattice NRQCD, which allows b quarks to move not only in time but also in space. Then
+one may ask what happens for a combination of NRQCD b quarks and the coupled channel
+analysis.
+     Unlike the static quark approximation where the coupled channel analysis can be applied
+
+                                               2
+to the Shrödinger equation with static quark potentials, the coupled channel analysis can
+not be directly applied to the finite volume method with moving b quarks in the NRQCD,
+where only energies of states can be obtained. Above B̄ ∗ B̄ ∗ threshold, coupled channel
+treatments become possible by the finite volume method[15], which however requires some
+assumptions on the coupled channel S-matrix.
+      In this paper, to calculate the binding energy of Tbb by the coupled channel analysis with
+the NRQCD action for b quarks, we alternatively employ the couple channel extension of the
+HAL QCD method[16], by which we can extract the coupled channel potential directly. We
+review the HAL QCD method in Sec. II and summarize our lattice QCD setup, including
+the NRQCD action for b quarks in Sec. III. In Sec. IV, we present results of potentials and
+the scattering analysis. Finally we give a summary of this study in Sec. V.
+
+                     b quark\channels       B(≡ B̄ B̄ ∗ )     B and B ∗ (≡ B̄ ∗ B̄ ∗ )
+
+                       Static approx      90(+43
+                                             −36 ) MeV[8]       59(+30
+                                                                   −38 ) MeV[9]
+
+                      NRQCD approx 180(10)(3) MeV[10]
+                                         165(33) MeV[11]
+                                        128(24)(10) MeV[12]
+                                         186(22) MeV[13]
+                                         112(13) MeV[14]
+
+ TABLE I. Binding energies extrapolated to the physical pion mass in previous lattice studies.
+
+
+
+
+II.     HAL QCD METHOD
+
+
+      A.   Definition of the Potential
+
+
+      A basic quantity for a definition of potentials in the HAL QCD method is the Euclidean
+time Nambu-Bethe-Salpeter(NBS) wave function, defined by[16–19]
+
+ H1 +H2           H1 +H2                  1     1 X
+ψW      (r, t) ≡ ψW      (r) e−W t ≡ p        p       hΩ| H1 (x + r, t)H2 (x, t) |(H1 + H2 ); W i ,
+                                          Z H1 Z H2 x
+                                                                                                 (1)
+
+where Hi (x, t) is the hadron operator at (x, t), |Ωi is the QCD vacuum state, |(H1 + H2 ); W i
+stands for an eigenstate of the QCD Hamiltonian having quantum numbers of the two-
+
+                                                 3
+hadrons H1 + H2 with a center-of-mass energy W , and ZHi = | hΩ| Hi (0) |Hi i |2 with |Hi i
+being a single hadron state. We focus our attention on an energy region below inelastic
+threshold, where only elastic scattering occurs. In this energy region, the asymptotic be-
+havior of the ℓ-th partial-wave of the NBS wave function reads
+
+                     H1 +H2      r→∞                             
+                    ψW,ℓ    (r) −−−→ jℓ (pW r) − πtℓ (W )h+
+                                                          ℓ (pW r) Pℓ (r̂ · p̂W ),                     (2)
+
+where a magnitude of a relative momentum pW is determined from a relation W = EW 1 +
+        q             q
+EW 2 = pW + mH1 + p2W + m2H2 , Pℓ (z) is the Legendre polynomial, jℓ (z)/nℓ (z) is the
+          2     2
+
+
+spherical Bessel/Neumann function, and h±
+                                        ℓ (z) = nℓ (z) ± ijℓ (z) are spherical Hankel func-
+
+tions. The scattering T -matrix tℓ (W ) in the above is related to the unitary S-matrix as
+sℓ (W ) = 1 − 2πitℓ (W ), and to the scattering amplitude as fℓ (W ) = − pπ tℓ (W ).
+                                                                                           W
+
+   A hadronic 4-point correlation function in lattice QCD can be expressed in terms of NBS
+wave functions as
+                    X
+FJH1 +H2 (r, t) ≡       hΩ| H1 (x + r, t)H2 (x, t)JH† 1 +H2 (t = 0) |Ωi
+                    x
+                    XX
+              =               hΩ| H1 (x + r, t)H2 (x, t) |(H1 + H2 ); Wn i h(H1 + H2 ); Wn | JH† 1 +H2 (0) |Ωi
+                    x    n
+              + (inela)
+                X                                              t→∞
+                           H1 +H2                                               H1 +H2
+              ≃     AJ ,n ψW n
+                                  (r, t ≥ t(inela) )           −−−→      AJ ,0 ψW 0
+                                                                                       (r) e−W0 t ,          (3)
+                    n
+
+where JH† 1 +H2 (0) is a source operator which creates two-hadron states at t = 0 with a target
+quantum number I(J P ) of H1 + H2 , (inela) represents inelastic contributions, which become
+negligible at t ≥ t(inela) , W0 is the lowest eigen-energy of two hadrons, and
+                                p          p
+                     AJ ,n ≡        Z H1       ZH2 h(H1 + H2 ); Wn | JH† 1 +H2 (0) |Ωi .               (4)
+
+   In the HAL QCD method, a non-local but energy-independent potential U(r, r′ ) is for-
+mally defined from the NBS wave function so as to satisfy the Schrödinger equation below
+inelastic threshold as
+                                                        Z
+                              ∇2 p2W
+                                 +             ψW (r) =       d3 r′ U(r, r′ )ψW (r′ ),                 (5)
+                              2µ   2µ
+where µ is the reduced mass of two hadrons. Since QCD interactions are short-ranged,
+U(r, r′ ) vanishes sufficiently fast as |r| increases. The potential U(r, r′ ) may depend on how
+sink hadron operators H1 and H2 are constructed from quarks. Even though a choice of
+
+                                                         4
+hadron operators is fixed, however, the above equation can not determine U(r, r′ ) uniquely
+due to a restriction of the energy below the inelastic threshold[20, 21]. Thus the above
+definition of the potential is rather formal. For concreteness, we define U(r, r′ ) in the
+derivative expansion, which is symbolically written as
+                                                             ∞
+                                                             X
+                               ′
+                   U(r, r ) = V (r, ∇)δ(r − r ) =       ′
+                                                                   V (k) (r)∇k δ(r − r′ ),   (6)
+                                                             k=0
+
+
+and determine coefficient functions V (k) (r) order by order. For example, the leading order
+term can be approximately obtained as
+                                                          2       
+                                   (0)               1    ∇    p2W
+                              V          (r; W ) =           +      ψW (r),                  (7)
+                                                   ψW (r) 2µ   2µ
+
+where V (0) (r; W ), obtained from the NBS wave function ψW (r), is the leading order approx-
+imation of V (0) (r). Given the relationship between the hadron 4-point correlation function
+and the NBS wave function, the LO potential from the ground state is extracted as
+                                                            
+                                                 1   ∇2 p2W0
+                  V   (0)
+                            (r; W0 ) ≃ H1 +H2           +     FJH1 +H2 (r, t),               (8)
+                                      FJ      (r, t) 2µ   2µ
+
+where t should be taken as large as possible to make the lowest energy state dominate in
+the 4-point correlation function.
+
+
+
+   B.   Time-Dependent Method
+
+
+   In order to achieve the ground state saturation in eq. (8), t should satisfy t ≫ 1/(W1 −
+W0 ) ∝ L2 for two hadron systems, where L is a size of the spatial extension. Since the 4-
+point function FJH1 +H2 (r, t) becomes very noisy at such large t, in particular for two baryon
+systems, it is impractical to employ eq. (8) for reliable extractions of potentials. An improved
+method of extracting the potential that does not require the ground state saturation has
+been proposed in Ref. [22], and is employed in this study.
+   In the improved method, the potential can be extracted directly from a normalized 4-point
+function, called a R-correlator, which is a sum of NBS wave functions as
+
+                                           FJH1 +H2 (r, t) X
+                RJH1 +H2 (r, t)          ≡ −mH t −mH t ≃            H1 +H2
+                                                             AJ ,n ψW      (r) e−∆Wnt ,      (9)
+                                           e    1 e      2
+                                                           n
+                                                                      n
+
+
+
+
+                                                       5
+                                         (inela)
+where we take moderately large t > tthreshold in the right-hand side, in order suppress inelastic
+contributions, and ∆Wn ≡ Wn − mH1 − mH2 satisfies
+            p2n         1 + 3δ 2                                                   |mH1 − mH2 |
+                = ∆Wn +          (∆Wn )2 + O((∆Wn )3 ),                      δ≡                 .         (10)
+            2µ            8µ                                                        mH1 + mH2
+                                         (inela)
+Using this relation and taking t > tthreshold , we obtain
+               Z                                 X  ∇2             
+                                H1 +H2 ′                        p2n         H1 +H2
+                   3 ′      ′
+                  d r U(r, r )RJ       (r , t) ≃              +      AJn ψW        (r) e−∆Wn t
+                                                   n
+                                                          2µ    2µ           n
+
+
+               X  ∇2                        2
+                                                         
+                                     1 + 3δ                     H1 +H2
+           ≃             + ∆Wn +                       2
+                                               (∆Wn ) AJn ψW           (r) e−∆Wnt
+                     2µ                8µ                        n
+
+               n 2                        
+                 ∇      ∂     1 + 3δ 2 ∂ 2
+           =         −    +                  RJH1 +H2 (r, t),                                             (11)
+                 2µ ∂t          8µ ∂t2
+which looks like a time-dependent Schrödinger equation for a non-local potential with rel-
+ativistic corrections. It is important to note that potentials can be extracted from a sum
+of NBS wave functions without knowing individual energy ∆Wn and coefficient AJn by this
+method. At the leading order in the derivative expansion, eq. (11) gives
+                                       2                        
+                              1        ∇      ∂    1 + 3δ 2 ∂ 2
+              (0)
+             V (r) = H1 +H2                −    +              2
+                                                                  RJH1 +H2 (r, t),                        (12)
+                        RJ      (r, t) 2µ ∂t         8µ ∂t
+where a t-dependence in the right-hand side is canceled between numerator and denomi-
+                                                                         (inela)
+nator if inelastic contributions become negligible at t > tthreshold . In practice, we use the
+                                                               (inela)
+t-independence of V (0) (r) as an indicator for t > tthreshold to satisfy.
+
+
+   C.    Coupled-Channel HAL QCD Method
+
+
+   Since thresholds of B(B̄ + B̄ ∗ ) and B∗ (B̄ ∗ + B̄ ∗ ) are so close, we can not ignore an influence
+of the B∗ channel to a potential in the B channel. We thus decided to employ the coupled
+channel extension of the HAL QCD method in our study.
+   To explain this extension, we consider an energy region where an inelastic scattering
+A + B → C + D in addition to an elastic-scattering A + B → A + B occurs with mA + mB <
+mC + mD . The NBS wave function of the scattering channel α = 0, 1 is denoted by
+                                                    1          X
+         α
+        ψW              α
+           ;β (r, t) ≡ ψW ;β (r) e
+                                  −W t
+                                       ≡p          α
+                                                     p             hΩ|H1α (x + r, t)H2α (x, t)|W ; βi ,   (13)
+                                               Z1        Z2α   x
+
+where (H10 , H20) = (A, B) or (H11 , H21 ) = (C, D), and W is the center of mass energy. At a
+given energy W , there exists 2 independent states with the same quantum number to A + B,
+
+                                                    6
+labeled by β, which are expanded in terms of asymptotic states as |W ; βi = c0β |A + B; W i+
+c1β |C + D; W i + · · · . Thus, as in the case of the elastic scattering, an asymptotic behavior
+of an ℓ-th partial-wave of the NBS wave function reads[20]
+                        r→∞
+                             X                                 αγ
+                                                                       γβ
+             α                                                                      α
+           ψW  ;β,ℓ (r) −
+                        −−→     δ αγ jℓ (pαW r) + pαW h+   α
+                                                       ℓ (pW r)fℓ (W ) c Pℓ (r̂ · p̂W ),                       (14)
+                                     γ
+
+where the scattering amplitude from a channel γ to a channel α is defined from the T -matrix
+tαγ
+ ℓ as
+                                                   s                 s
+                                                          α    α
+                                                         EW 1 EW 2         1
+                         fℓαγ (W ) ≡ −π                   γ    γ          α γ ℓ
+                                                                               tαγ (W ) .                      (15)
+                                                         EW 1 EW 2       pW pW
+Since eq. (14) is identical to an asymptotic solution to a coupled channel Schrödinger equa-
+tion with the total energy W [23], we define the coupled channel potential as
+                 2                          XZ
+                   ∇     (pαW )2   α                                   γ
+                       +          ψW ;β (r) ≡      d3 r′ U αγ (r, r′ )ψW      ′
+                                                                         ;β (r ),                              (16)
+                  2µα     2µα                 γ
+
+where pαW and µα are a magnitude of the relative momentum and a reduced mass in the
+channel α, respectively.
+   As in eq. (6) for the single channel case, the non-local potential U αβ (r, r′) is defined in
+term of the derivative expansion, whose leading order term is given by
+
+                                U αγ (r, r′ ) = V αγ (r)δ(r − r′ ) + O(∇).                                     (17)
+
+The LO potential can be approximately extracted from two NBS wave functions by a matrix
+inversion as
+                                                                                   −1
+            00       01             0             0               0           0
+          V (r) V (r)             K         (r) KW1 ;β1 (r)     ψ       (r) ψW1 ;β1 (r)
+                            =  W0 ;β0                       W0 ;β0                  ,                    (18)
+          V 10 (r) V 11 (r)       KW1
+                                      0 ;β0
+                                            (r) K 1
+                                                  W1 ;β1 (r)    ψ 1
+                                                                 W0 ;β0 (r) ψ 1
+                                                                             W1 ;β1 (r)
+       α
+where KW ;β (r) is given by the left-hand side of eq.(16). For the matrix inversion to obtain
+
+potentials, we must take two linearly independent NBS wave functions, by choosing W
+and β appropriately. Note that it is not guaranteed that the coupled channel potential is
+Hermitian due to the approximation of the derivative expansion.
+   As in the case of the single channel, the coupled channel 4-point function is expressed in
+terms of NBS wave functions as
+                    X
+       Fξα (r, t) =      hΩ|H1α (x + r, t)H2α (x, t)Jξ† (t = 0)|Ωi
+                           x
+                  t→∞   p            p         X
+                 −−−→          Z1α       Z2α            α
+                                                       ψW i
+                                                            (r)AWi;ξ e−Wi t ,      AWi;ξ ≡ hWi |Jξ† (0)|Ωi ,   (19)
+                                               i=0,1
+
+
+                                                              7
+where W0 and W1 are lowest two energies of this coupled channel system. To extract the
+2 × 2 potential matrix, we need to determine AW0,1 ;ξ for two linearly independent Jξ† , as well
+as W0,1 .
+   The R-correlator in the channel α, defined by
+
+                                               Fξα (r, t)    X                            α
+                         Rξα (r, t) ≡         −m α t −mα t ≃     AαWn ;β,ξ ψW
+                                                                            α
+                                                                              n ;β
+                                                                                   (r) e−∆ Wξ,n t ,                            (20)
+                                             e 1 e 2         n,β
+
+
+                              (inela)
+where we take t > tthreshold in the right-hand side with ∆α Wξ,n ≡ Wξ,n − mα1 − mα2 , satisfies
+                                                          Z
+                ∇2   ∂   1 + 3δ α 2 ∂ 2              X
+                                                       ˜
+                   −   +                  α
+                                         Rξ (r, t) ≃   ∆ (t) d3 r′ U αβ (r, r′ )Rξβ (r′ , t)
+                                                         αβ
+                                                                                                                               (21)
+                2µα ∂t     8µα ∂t2                   β
+
+
+up to O((∆W )2 ) as in the single-channel case, where
+                                                          s
+                                                                              β    β
+
+                                             ˜ αβ (t) =       Z1β Z2β e−(m1 +m2 )t
+                                             ∆                            α   α ,                                              (22)
+                                                              Z1α Z2α e−(m1 +m2 )t
+
+which is needed to correct differences in masses and Z-factors between two channels. De-
+noting the left-hand side of eq.(21) as Kξα (r, t), the LO potential is extracted as
+
+                                                                                                                  −1
+              V 00 (r)         ˜ 01 (t)V 01 (r)
+                               ∆                              K00 (r, t) K10 (r, t)          R00 (r, t) R10 (r, t)
+                                                 =                                                                     . (23)
+           ˜ 10 (t)V 10 (r)
+           ∆                       V (r)11
+                                                              K01 (r, t)   K11 (r, t)        R01 (r, t)   R11 (r, t)
+
+As before, there is no guarantee that the LO potential is Hermitian.
+
+
+
+III.       LATTICE QCD SETUP
+
+
+   A.       Operators
+
+
+   We are interested in the doubly-bottomed tetra-quark state with quantum numbers
+I(J P ) = 0(1+ ), called Tbb hereafter. The lowest scattering channel with these quantum
+numbers is the B (B̄ B̄ ∗ ) channel with threshold near 10600 MeV, while the second one is
+the B∗ ≡ (B̄ ∗ B̄ ∗ ) channel with a threshold at 45 MeV above[24]. Since the threshold of the
+third channel is too far above to contribute low energy states such as Tbb , we only consider
+B and B∗ channels in this paper.
+
+                                                                 8
+   Sink operators for two mesons at a distance r with a total spin S = 1 and a total iso-spin
+I = 0 are taken as
+                           X
+                  Bj ≡                          ¯
+                                (ū(y)γ5 b(y)) (d(x)γ j b(x)) −[u ↔ d],            y ≡ x + r,    (24)
+                                |     {z     }|     {z      }
+                            x
+                                          B̄(y)           B̄ ∗ (x)
+                                X                               
+                  Bj∗ ≡ ǫjkl          (ū(y)γk b(y)) ¯
+                                                     d(x)γl b(x) − [u ↔ d],                      (25)
+                                 x
+
+where j, k, l are spatial vector indices. At the source, interchanges between q ↔ q̄ are made
+for q = u, d, b, together with uses of wall sources for q = u, d.
+   In addition to these two meson operators, we introduce an operator made of two diquarks,
+called D, at the source as
+                                                                                  
+                 Dj† ≡ ǫabc b̄b (s0 )γj C b̄c (s0 )       ǫade dd (s0 )Cγ5 ue (s0 ) − [u ↔ d],   (26)
+
+where a, b, c, . . . denote color indices, C = γ4 γ2 is the charge-conjugation matrix, and the
+argument s0 in the quark field denotes a source point[12].
+   A reason for a use of the diquark at the source is as follow. If we perform a coupled-
+channel analysis with B† and B∗ † source operators, an inverse matrix in eq.(18) or (23)
+becomes singular, probably because B† and B∗ † source operators couple mainly to the same
+state, as seen Fig.5 of Ref.[12]. To overcome this difficulty, we introduce the diquark-type
+source D † , which probably couples to a different state. We then perform the coupled-channel
+analysis for the R-correlators (or the NBS wave functions) with B and B∗ as sink operators,
+and B† and D † as source operators, which leads to more stable results than B∗ † and D †
+sources.
+
+
+   B.      Light Quark Propagators
+
+
+   In this work, we impose exact isospin symmetry on u, d quarks, so that propagators for
+both quarks are identical. In our study, we employ the Wilson-Clover operator for the quark,
+given by
+                                     X
+            D(x|y) = δx,y − κ          (1 − γµ ) Uµ (x)δx+µ̂,y + (1 + γµ ) Uµ† (x − µ̂)δx−µ̂,y
+                                      µ
+                                           1 X [γµ , γν ] [∆µ , ∆ν ]
+                            − κ csw                                  ,                           (27)
+                                           2 µ,ν          2
+
+                                                           9
+where ∆µ in the clover term are symmetric covariant difference operator, defined by
+
+                      ∆µ f (x) = Uµ (x)f (x + µ̂) − Uµ† (x − µ̂)f (x − µ̂),               (28)
+
+and µ̂ is a unit vector in the µ direction with a length a, where a is a lattice spacing. See
+Sec. III D for parameters κ, csw used in this study. As mentioned before, we use wall sources
+for light quarks.
+
+
+   C.   Heavy Quark Propagator
+
+
+   As long as the relativistic lattice fermion is used, amQ ≪ 1 is required to keep lattice
+artifact small, where mQ is a quark mass. This condition, however, is badly violated for the b
+quark in our simulations, since mb ≈ 4.2 GeV and a ≈ 0.09 fm (1/a ≃ 2 GeV). Therefore, we
+cannot treat the b quark relativistically on a lattice. Fortunately, since the typical velocity
+of the b quark inside a hadron is v 2 ∼ 0.1[25], and thus sufficiently non-relativistic, we can
+treat the b quark in the Non-Relativistic QCD (NRQCD) approximation. The NRQCD
+approximation improves the static approximation, by including effects of moving b quarks
+in space, which seem to give a non-negligible contribution to the binding energy of the
+tetra-quark state[8, 12].
+   In the NRQCD, we evaluate a time-evolution of the heavy quark propagator accord-
+ing to non-relativistic dynamics using a Hamiltonian without b quark mass term. The
+NRQCD Hamiltonian at the tree level is obtained from the QCD Hamiltonian by the Foldy-
+Wouthuysen-Tani (FWT) transformation[26, 27] designed to be block-diagonal up to O(v n )
+in spinor space as
+                                                                     
+                                                          Hψ     0
+                      HQCD → RHNRQCD R† ≃ R                           R† ,              (29)
+                                                              0 Hχ†
+
+where R is the FWT transformation matrix. The propagator for the particle field ψ moving
+in the positive direction can be approximated as
+                                                                    
+                                                     Gψ (x|y) 0
+             D −1 (x|y) → Rψ(x)ψ † (y)R† ≃ R                         R† θ(x4 − y4 ),    (30)
+                                                          0      0
+
+and the two-spinor NRQCD propagator Gψ is evolved in time by Hψ ≡ H0 + δH on a lattice
+
+                                               10
+as[28]
+                               n                            n
+                             H0         δH    †         δH      H0
+     G(x, t + 1|s0) = 1 −            1−      U4 (x) 1 −      1−       G(x, t|s0 )
+                             2n          2               2      2n
+                    + s0 (x)δt+1,0 ,                                              (31)
+
+where s0 is a source vector defined previously, and n = 2 is a stabilization parameter for
+numerical calculations. This calculation requires much smaller computational costs than
+solving linear equations for relativistic quark propagators. In this work, we use the block-
+diagonal Hamiltonian up to O(v 4 ) [29], given on a lattice as
+                  X                            1 (2)
+  Hψ = H0 +             ci δH(i) ,   H0 = −      ∆ ,
+                   i
+                                              2M
+           1                     i                                      1
+δH(1) = −    σ · B, δH(2) =          (∆ · E  −  E · ∆),    δH (3)
+                                                                   = −     σ · (∆ × E − E × ∆),
+          2M                    8M 2                                   8M
+           1                         1                            1
+δH(4) = −      (∆(2) 2
+                    )  , δH (5)
+                                =       ∆ (4)
+                                              ,  δH  (6)
+                                                         = −          (∆(2) )2 ,            (32)
+          8M 3                     24M                       16nM 2
+where M is the bare heavy-particle mass, ci = 1 at the tree level in perturbation the-
+ory, ∆, ∆(2) , . . . are discretized symmetric covariant derivatives in space, and the chromo-
+electromagnetic field E, B are given by the standard clover-leaf definitions. The FWT trans-
+formation matrix is also given up to O(v 4 ) [29] as
+                  X
+         R = 1+         R(i) ,
+                    i
+             1                             1                        1                       i
+   R(1) = −    γ · ∆,            R(2) =        ∆(2) ,    R(3) =         · B,    R(4) = −        γ4 γ · E. (33)
+            2M                            8M 2                     8M 2                    4M 2
+   In our study, all link variables are rescaled as Uµ → Uµ /u0 , in order to include perturbative
+corrections by the tadpole improvement[28], where u0 is determined from an average of the
+plaquette UP as
+                                                               1/4
+                                                      1
+                                           u0 =         Tr UP          .                                 (34)
+                                                      3
+   In the lattice NRQCD, the ground state energy obtained from a behavior of the two-
+point function in time represents the interaction energy, not the hadron mass itself, since
+the quark mass term is removed from the NRQCD Hamiltonian. Therefore, a correlation
+function with non-zero momentum behaves at large t as
+             D                        E                                     X
+                           †              t→∞
+                 HX (p, t)HX (p, 0)       −−−→ e−EX (p)t ,       HX (p) ≡       HX (x)e−ipx ,            (35)
+                                                                            x
+
+
+                                                        11
+                   p
+where EX (p) =      p2 + (MXkin )2 − δ with the p independent energy shift δ. Since this energy
+shift δ, equal to the bare quark mass at the tree level, usually suffers from large perturbative
+corrections, we directly estimate a (kinetic) mass of the hadron X without determining δ as
+
+                                              p2 − (EX (p) − EX (0))2
+                                 MXkin =                              .                            (36)
+                                                2(EX (p) − EX (0))
+
+
+   D.    Configurations
+
+
+   We have employed the (2 + 1) flavor full QCD configurations, generated by the PACS-CS
+Collaboration[30] with the Iwasaki gauge action and the Wilson-Clover light quark action
+at a ≈ 0.09 fm. For the wall source, gauge configurations are fixed to the Coulomb gauge.
+We estimate statistical errors by the jackknife method, with a bin size 20, using 400 config-
+urations on each quark mass. Parameters for gauge ensembles and hadron masses measured
+in this work are listed in tables II and III, respectively.
+
+  Configuration Vlat = L3s × Lt       a [fm]       Ls [fm]    κud        κs   csw    Mb      u0
+
+   PACS-CS-A          323 × 64      0.0907(13) 2.902(42) 0.13700 0.13640 1.715 1.919 0.868558(42)
+   PACS-CS-B          323 × 64      0.0907(13) 2.902(42) 0.13727 0.13640 1.715 1.919 0.868793(43)
+   PACS-CS-C          323 × 64      0.0907(13) 2.902(42) 0.13754 0.13640 1.715 1.919 0.869005(44)
+
+TABLE II. Parameters for gauge ensembles.              The bare b quark mass Mb is taken to satisfy
+Mbspinavg
+   b̄
+          ≈ 9450 MeV within errors. The expectation value of the link variable u0 defined in
+eq.(34) is used for the tadpole improvements.
+
+
+
+                 Configuration mπ [MeV] mρ [MeV] MB̄spinavg [MeV] ∆EB̄ B̄ ∗ [MeV]
+
+                  PACS-CS-A        701(1)        1102(1)     5440(174)        49.4(2.6)
+                  PACS-CS-B        571(0)        1011(1)     5382(269)        44.9(1.6)
+                  PACS-CS-C        416(1)        920(3)      5332(220)        42.7(3.9)
+
+TABLE III. Hadron masses measured on each ensemble. The B meson mass MB̄ is determined by
+the kinetic mass, and the spin-averaged is made as 14 MB̄ + 43 MB̄ ∗ . The energy splitting ∆EB̄ B̄ ∗ is
+defined by ∆EB̄ B̄ ∗ ≡ EB̄ ∗ (0) − EB̄ (0).
+
+
+   Comments on measured hadron masses are in order.
+
+                                                     12
+      • While an individual mass of B̄ or B̄ ∗ has a sizable statistical error due to a use of data
+          at non-zero p in eq. (36), we can determine the mass splitting between them from
+          EB̄∗ (0) − EB̄ (0), which does not require noisy data at non-zero p. In the table, we
+          also list the spin average mass MB̄spinavg ≡ 14 MB̄ + 43 MB̄∗ . For calculations of potentials,
+          we need to use MB̄ and MB̄∗ separately.
+
+      • Values of B̄ meson mass in the table are consistent with an experimental value
+          MB̄spinavg = 5313 MeV [24] within large statistical errors at 3 light quark masses,
+          and we expect that this agreement holds even at the physical pion mass. Thanks to
+          smaller statistical errors, on the other hand, we observe a tendency that the mass
+          splitting ∆EB̄ B̄∗ decreases as the pion mass decreases and it becomes smaller than an
+          experimental value ∆EB̄ B̄∗ = 45 MeV[24] at the physical pion mass. Among possible
+          reasons for this, it is most likely that c1 = 1 with the tadpole improvement is not good
+          enough as a coefficient of δH(1) in the NRQCD Hamiltonian, which is the LO term in
+          the NRQCD power counting responsible for the spin splitting. Therefore we expect
+          10-20% systematic errors for the spin splittings at the tree level coefficient even with
+          the tadpole improvement.
+
+     In this work, scattering quantities are calculated on 3 different pion masses, and then
+extrapolated to the physical point defined by mπ ≈ 140 MeV.
+
+
+IV.       NUMERICAL RESULTS
+
+
+     A.     Leading-Order Potential
+
+
+     1.    Single-channel case
+
+
+     In this subsection, assuming that the Tbb couples only to the B channel, we compute the
+S-wave1 LO potential according to eq.(12). Fig 1 (Left) shows the one at mπ ≃ 700 MeV
+(PACS-CS-A) and t = 13. The potential between B̄ and B̄ ∗ mesons is attractive at all
+distances and it becomes zero within errors at distances larger than 1.0 fm, which is smaller
+than Ls /2 ≃ 1.45 fm. Thus the interaction is sufficiently short-ranged to be confined within
+1
+    The NBS wave function is projected to the A+
+                                               1 representation of the cubic group, where we ignore higher
+
+    partial waves such as ℓ = 4, 6, · · · .
+
+
+                                                   13
+the box, so that finite size effect to the potential is expected to be small. To fit data of the
+potential, we use a 3-Gauss function given by
+                                                       2   2                          2    2      2   2
+                                   V3G (r) = V0 e−r /ρ0 + V1 e−r /ρ1 + V2 e−r /ρ2 ,                                           (37)
+
+where Vi and ρi are fit parameters. We show fit results to lattice data at t = 12–14 in
+Fig. 1 (Right), whose time-dependence is negligibly small, indicating that contaminations
+from inelastic states are well under control. Thus we have employed the potential at t = 13
+for our main analysis, whose fit parameters are given in Tab IV.
+
+
+
+                   0                                                                  0
+
+                −100                                                               −100
+
+
+  V (r) [MeV]                                                       V3G(r) [MeV]
+                −200                                                               −200
+
+                −300                                                               −300
+                                                                                                                         t = 12
+                −400                              3-Gauss fit                      −400                                  t = 13
+                                                  t = 13                                                                 t = 14
+                −500                                                               −500
+                       0.0   0.5     1.0      1.5          2.0                            0.0   0.5        1.0     1.5       2.0
+                                    r [fm]                                                                r [fm]
+
+
+
+
+FIG. 1. (Left) A lattice result of the potential at t = 13 (blue circles), together with the 3-Gauss
+fit by a red line. (Right) 3-Gauss fits at t = 12, 13, 14. A gray dashed-line indicates r = L/2.
+
+
+                                              V      Vi [MeV]                       ρi [fm]
+
+                                             i = 0 −482(11) 0.088(0.002)
+                                             i = 1 −185(8) 0.218(0.004)
+                                             i = 2 −236(2) 0.583(0.002)
+
+                                   TABLE IV. 3-Gauss fit parameters at t = 13.
+
+
+
+
+     2.           Coupled-channel case
+
+
+     We now consider a case that the Tbb couples to B and B∗ channels. In this situation, we
+compute the S-wave LO potential using eq.(23). Fig. 2 (Upper) show 2 × 2 coupled-channel
+
+                                                               14
+potentials at mπ ≃ 700 MeV (PACS-CS-A ) and t = 13, which become zero within errors
+at r ' 1.0 fm, together with 3-Gauss fit by red lines. As before, we thus confirm that
+interactions in this channel are sufficiently short-range, so that possible finite size effects are
+expected to be small.
+   A diagonal potential, V BB , is attractive at distances smaller than 0.8 fm, while another
+         ∗   ∗
+one, V B B , has a repulsive core at short distances surrounded by an attractive pocket at
+r ≃ 0.4 fm. On the other hand, magnitudes of off-diagonal interactions between B and B∗
+channels are comparable to those of diagonal interactions, showing that a channel coupling
+between B and B∗ is significant. This observation suggests an importance of a coupled-
+channel analysis or conversely a possibility that a single-channel analysis may contain large
+systematic uncertainties. In addition, we have observed that Hermiticity of the 2×2 potential
+matrix is badly broken: two off-diagonal components are very different. We speculate that
+the leading order approximation for the original non-local coupled-channel potential, which
+should be Hermitian, causes this large violation of Hermiticity, suggesting strong non-locality
+of the coupled-channel potential in this system, which is consistent with our observation that
+off-diagonal interactions are significant.
+   Since the standard scattering analysis requires the unitarity of the S-matrix, which is
+guaranteed by Hermitian potentials, we can not perform the coupled channel analysis for
+scatterings above the B∗ threshold. In this paper, however, we still employ coupled-channel
+potentials for a scattering analysis in the B channel below the B∗ threshold, in order to partly
+incorporate non-locality caused by off-shell B∗ propagations. Details of such an analysis will
+be given in Sec. IV B.
+   Fig. 2 (Lower) presents 3-Gaussian fits to lattice data at t = 12–14. An off-diagonal
+                 ∗
+component V BB show a detectable time-dependence at the short distance, which however is
+found to give tiny effects on scattering quantities. We therefore concluded that contributions
+from inelastic states are well under control, and we employ t = 13 data in our main analysis.
+Tab.V gives fit parameters of the coupled channel potential at t = 13.
+
+
+
+   3.   Pion mass dependence
+
+
+   Fig. 3 compares potentials at three different pion masses, mπ = 701, 571, 416 MeV. As
+the pion mass gets smaller, both diagonal and off-diagonal potentials become stronger and
+
+                                               15
+                                                                                                     500
+                                                                                                                                  3-Gauss fit
+                                         0
+                                                                                                     400                          t = 13
+
+
+
+
+                    V BB (r) [MeV]                                                 V BB (r) [MeV]
+                                      −100
+                                                                                                     300
+                                      −200
+                                                                                   ∗
+                                                                                                     200
+                                      −300
+                                                                                                     100
+                                      −400                          3-Gauss fit
+                                                                    t = 13                             0
+                                      −500
+                                             0.0   0.5    1.0     1.5        2.0                           0.0   0.5    1.0     1.5        2.0
+                                                         r [fm]                                                        r [fm]
+                                                                                                     500
+                                                                                                                                  3-Gauss fit
+                                         0
+                                                                                                     400                          t = 13
+
+
+
+
+                    V B B (r) [MeV]                                                V B B (r) [MeV]
+                                      −100
+                                                                                                     300
+                                      −200
+                                                                                   ∗                 200
+                    ∗                                                              ∗
+                                      −300
+                                                                                                     100
+                                      −400                          3-Gauss fit
+                                                                    t = 13                             0
+                                      −500
+                                             0.0   0.5    1.0     1.5        2.0                           0.0   0.5    1.0     1.5        2.0
+                                                         r [fm]                                                        r [fm]
+
+
+
+
+                                                                                                     500
+                                                                                                                                      t = 12
+                                         0
+                                                                                                     400                              t = 13
+                                                                                                                                      t = 14
+
+                      BB                                                             BB
+                                      −100
+
+
+                         (r) [MeV]                                                      (r) [MeV]
+                                                                                                     300
+
+                    V3G                                                            V3G
+                                      −200
+                                                                                   ∗
+                                                                                                     200
+                                      −300
+                                                                        t = 12                       100
+                                      −400                              t = 13
+                                                                        t = 14                         0
+                                      −500
+                                             0.0   0.5    1.0     1.5        2.0                           0.0   0.5    1.0     1.5        2.0
+                                                         r [fm]                                                        r [fm]
+                                                                                                     500
+                                                                                                                                      t = 12
+                                         0
+                                                                                                     400                              t = 13
+                                                                                                                                      t = 14
+
+                      B B                                                            B B
+                                      −100
+
+
+                          (r) [MeV]                                                      (r) [MeV]
+                                                                                                     300
+
+                    V3G                                                            V3G
+                                      −200
+                                                                                   ∗                 200
+                    ∗                                                              ∗
+                                      −300
+                                                                        t = 12                       100
+                                      −400                              t = 13
+                                                                        t = 14                         0
+                                      −500
+                                             0.0   0.5    1.0     1.5        2.0                           0.0   0.5    1.0     1.5        2.0
+                                                         r [fm]                                                        r [fm]
+
+
+
+
+FIG. 2. (Upper) 2 × 2 coupled-channel potentials (blue circles) at t = 13, together with 3-Gauss
+fits by red lines. (Lower) 3-Gauss fits at t = 12, 13, 14.
+
+
+
+
+more long-ranged. This suggests that a mixing effect between B and B∗ increases toward
+the physical pion mass, so that the coupled channel analysis may be mandatory even below
+the B∗ threshold. In this study, physical observables such as scattering phase shifts and
+a binding energy, not potentials themselves, are extrapolated from results at three heavier
+pion masses to the physical pion mass, mπ = 140 MeV.
+
+                                                                            16
+                                                                       ∗
+                     V BB Vi [MeV]           ρi [fm]            V BB Vi [MeV]         ρi [fm]
+
+                     i = 0 −491(60) 0.092(0.013)                i = 0 302(38) 0.086(0.007)
+                     i = 1 −254(64) 0.255(0.095)                i = 1 138(47) 0.289(0.090)
+                     i = 2 −110(144) 0.476(0.180)               i = 2 170(65) 0.578(0.063)
+                     ∗                                            ∗    ∗
+                  VB B    Vi [MeV]       ρi [fm]                VB B       Vi [MeV]     ρi [fm]
+
+                  i = 0 −109(17) 0.147(0.125)                   i=0        456(26)    0.181(0.005)
+                  i = 1 −61.1(16.2) 0.288(0.051)                i = 1 −76.2(6.1) 0.657(0.043)
+                  i = 2 −9.27(4.95) 0.820(0.188)                i = 2 −1.53(1.45) 1.385(0.099)
+
+                              TABLE V. 3-Gauss fit parameters at t = 13.
+
+
+     B.    Scattering Analysis
+
+
+     1.   Inclusion of virtual B ∗ effects
+
+
+     In the following analysis, we restrict ourself to scatterings only in the B channel below the
+B∗ threshold, where the B∗ channel virtually appear as intermediate states, even though we
+employ the 2 ×2 coupled channel potential matrix in the analysis. This kind of situation has
+been analyzed in [20], which shows that effects of virtual B∗ states appear as non-locality of
+the effective potential in the B channel. Explicitly, the coupled channel Schrödinger equation
+between B and B∗ becomes an effective single channel Schrödinger equation in the B channel
+as
+
+                                              BB
+                                       (H0 + Ueff,E )ΨB = EΨB ,                                      (38)
+
+where
+
+                                     BB                               ∗       ∗   ∗        ∗
+                   BB
+                  Ueff ,E (x, y) = V    (x)δ(x − y) + V BB (x)GBE B (x, y)V B B (y),                 (39)
+
+where Gαα               α
+       E (x, y) = (E − H0 − V
+                              αα −1
+                                ) (x, y) is the full Green function for the energy E
+                                                    BB
+in the α channel, and thus the effective potential Ueff,E (x, y) explicitly depends on the
+energy E. In this expression, it is clear that effects of intermediate B∗ states leads to
+                  BB
+non-locality for Ueff,E (x, y) in the second term. While the original U(x, y) is defined in
+      BB
+QCD, Ueff,E (x, y) contains only a part of non-locality caused by such intermediate B∗ states
+                               ∗   ∗     ∗             ∗
+with local interactions V B B , V BB and V B B for a given energy E. A remaining non-locality
+
+                                                           17
+                                                                                    500
+                                                                                                               mπ = 701 [MeV]
+                       0
+                                                                                    400                        mπ = 571 [MeV]
+
+
+
+
+                                                                  V BB (r) [MeV]
+                                                                                                               mπ = 416 [MeV]
+
+
+  V BB (r) [MeV]
+                    −100
+                                                                                    300
+                    −200
+                                                                  ∗
+                                                                                    200
+                    −300
+                                                mπ = 701 [MeV]                      100
+                    −400                        mπ = 571 [MeV]
+                                                mπ = 416 [MeV]                        0
+                    −500
+                           0.0   0.5    1.0       1.5       2.0                           0.0   0.5    1.0       1.5       2.0
+                                       r [fm]                                                         r [fm]
+                                                                                    500
+                                                                                                               mπ = 701 [MeV]
+                       0
+                                                                                    400                        mπ = 571 [MeV]
+
+
+
+
+  V B B (r) [MeV]                                                 V B B (r) [MeV]
+                    −100                                                                                       mπ = 416 [MeV]
+                                                                                    300
+                    −200
+                                                                  ∗                 200
+  ∗                                                               ∗
+                    −300
+                                                mπ = 701 [MeV]                      100
+                    −400                        mπ = 571 [MeV]
+                                                mπ = 416 [MeV]                        0
+                    −500
+                           0.0   0.5    1.0       1.5       2.0                           0.0   0.5    1.0       1.5       2.0
+                                       r [fm]                                                         r [fm]
+
+
+
+                      αβ
+FIG. 3. Fit results V3G  (r) at mπ = 701 MeV (blue), 571 MeV (orange) and 416 MeV (red) at
+t = 13.
+
+
+
+
+comes not only from non-locality of coupled channel potentials but also from virtual channels
+other than B and B∗ , latter of which have negligible effects on the scattering in the B channel
+below the B∗ threshold, since thresholds of other channels are far above from it.
+
+
+                             BB
+     Note that, even though Ueff,E (x, y) is still non-hermitian, we can extract real scattering
+phase shifts in the B channel and thus an unitary S-matrix, as long as we take real E below
+the B∗ threshold[31], as will be explicitly shown later. For the analysis, we employ the
+coupled channel Lippmann-Schwinger equation to incorporate effects of virtual B∗ to the
+scattering in the B channel, which indeed lead to sizable corrections to results obtained in
+the single channel analysis without virtual B∗ states.
+
+                                                             18
+   2.   Matrix inversion method for the Lippmann-Schwinger equation
+
+
+   The Lippmann-Schwinger(LS) equation for the T -matrix with the potential matrix reads
+
+        T αβ (pαW , pβW ) = V αβ (pαW , pβW )
+                            XZ                                               1
+                          +         d3 k V αγ (pαW , k)           γ                   T          γβ
+                                                                                                      (k, pβW ),     (40)
+                               γ
+                                                            (W − Eth ) − k2 /2µγ + iε
+                p
+where pαW =                   α
+                    2µα (W − Eth ) is the momentum calculated from the total energy W and
+ α
+Eth = M1α + M2α is a threshold energy for a channel α.
+   We have employed the matrix inversion method[32] to solve the LS equation, approxi-
+mating the momentum integral by a finite sum over Gaussian quadrature points. For the
+S-wave component in the partial wave expansion, the LS equation is reduced to
+                                                 N
+                                               X X
+        tαβ    α    β        αβ   α    β
+         ℓ=0 (ki , kj ) = V̂ℓ=0 (ki , kj ) −
+                                                              αγ
+                                                           V̂ℓ=0 (kiα , km ) Ĝγδ            δβ         β
+                                                                               0 (km , kn ) tℓ=0 (kn , kj ),         (41)
+                                               γ,δ m,n=0
+
+where ks with s = 0, · · · , N − 1 represents a momentum at the Gaussian quadrature point,
+while the on-shell momentum pαW is stored in kN    α
+                                                     . A matrix element of the potential for a
+                                               P           2 2
+Gaussian expansion of the potential, V (r) = k Vk e−r /ρk , is defined as
+                          s                                          h
+        αβ α    β      1    µα µβ X                 1 2 α        β 2        2 α β
+                                                                                  i     
+     V̂0 (ki , kj ) ≡ √              V k ρk exp   −   ρ (k  +  k   )   exp ρ k k
+                                                                            k i j   − 1  , (42)
+                        4π kiα kjβ k                4 i i        j
+
+
+while the Green function is given by
+                            
+                                           2km
+                            
+                             w̃m 2                 γ                                (m = 0, . . . , N − 1)
+                            
+                            
+                            
+                                km − 2µγ (W − Eth    )
+                            
+   Ĝγδ              δγ
+     0 (km , kn ) ≡ δ δmn ×                                                                                        , (43)
+                            
+                               N −1              γ
+                            
+                            
+                            
+                                X               2kN
+                             −      w̃ l 2                 + iπ                     (m = N)
+                                         k − 2µγ (W − E γ )
+                            
+                            
+                                       l=0       l                     th
+
+where
+                             hπ          i             π       w
+            kj = pcut tan        (xj + 1) , w̃j = pcut       π j       ,                 xj ∈ [−1, 1]              (44)
+                               4                       4 cos2 4 (xj + 1)
+
+with the weight wj = (1−x2 )[P2 ′ (xj )]2 for the Gauss-Legendre quadrature used in our calcula-
+                               j   N
+
+tions. We have confirmed that physical observables are insensitive to our choice, N = 50
+and pcut = 100 MeV. (Results are unchanged within errors for pcut = 1000 MeV or N = 60.)
+Then, the T -matrix is approximately obtained by a matrix inversion as t0 = (1 − V G0 )−1 V ,
+where tαβ  α    β                                          αβ
+       0 (kN , kN ) corresponds to the on-shell T -matrix t0 (W ).
+
+
+                                                      19
+   3.   T -matrix and bound states
+
+
+   The scattering phase shift can be extracted from the on-shell T -matrix as
+
+                            tBB
+                             0 (W )   −1          1
+                                B
+                                    =                         ,                          (45)
+                              pW      π pW cot δ0 (W ) − ipBW
+                                         B      BB
+
+
+and then p cot δ is parametrized by the Effective Range Expansion(ERE) as
+
+                                             1    reff,0 B 2             
+                     pBW cot δ0BB (W ) = −      +       (pW ) + O (pBW )4 .              (46)
+                                             a0     2
+
+where a0 is the scattering length and reff,0 is the effective range.
+   Since bound states correspond to poles of the T -matrix in a negative (pBW )2 axis, we have
+to solve the LS equation at (pBW )2 < 0 in order to find such poles. Alternatively, using
+(46), we may search an intersection between the ERE p cot δ and a bound state condition
+  p
+− −p2 at (pBW )2 < 0, which gives a pole at p = +ipBS in the upper half complex pBW plane.
+                                                                       p
+In addition, for a pole of a physical bound state, p cot δ must cross − −p2 from below as
+[33]
+
+                          d h               p
+                                                 2)
+                                                    i
+                             p cot δ(p) − (−  −p                   < 0.                  (47)
+                         dp2                          p2 =−p2 BS
+
+
+
+
+   4.   Results
+
+
+   Fig. 4 shows scattering phase shifts as function of the energy from the B threshold (W −
+mB − mB∗ ) at mπ ≃ 701 MeV (upper left), 571 MeV (upper right) and 416 MeV (lower
+left), obtained below the B∗ threshold but by the coupled-channel analysis. Physical phase
+shifts δ are calculated in the scattering region at 0 < W − MB − MB∗ < W − 2MB∗ ≃ 45
+MeV, while bound states are examined at W − MB − MB∗ < 0 using the analyticity of the
+S-matrix. As mentioned before, a bound state appears at the intersection between p cot δ
+                             p
+(pink,orange,red lines) and − −p2 (blue lines). It is observed that the system produces a
+pole of the T -matrix at each pion mass, which satisfies a physical pole condition, eq.(47),
+so that one physical bound state exists at each pion mass. The thick line drawn along
+  p
+− −p2 curve is the binding energy independently obtained from the Schrödinger equation
+by the Gaussian Expansion Method(GEM)[34], which is consistent with the pole from the
+intersection. Here we set a number of bases of the GEM to 50 and the range parameters
+were set to be a geometric sequence with b1 = 100 [1/fm2 ] and b50 = 0.0348 [1/fm2 ].
+
+                                                 20
+                                                                           B        ∗
+FIG. 4. Results of p cot δ(W ) from the LS equations as a function of W < Ethreshold , together
+      p                                                     p
+with − −p2 by the blue solid line. A thick line along the − −p2 curve represents the binding
+energy calculated by the GEM, which agrees well with the intersection corresponding to a pole of
+the T -matrix.
+
+   Fig. 5 compares the binding energy obtained by the GEM in the coupled channel analysis
+(cyan) with the one in the single channel analysis (magenta) as a function of m2π (open
+circles), together with a linear extrapolation in m2π to the physical pion mass mπ = 140
+MeV (solid line), which predicts the binding energy at the physical pion mass as
+
+            (single,phys)                            (coupled,phys)
+          Ebinding          = −154.8 ± 17.2 MeV,   Ebinding           = −83.0 ± 10.2 MeV,   (48)
+
+where errors are statistical only. A comparison of two results shows an about 40-50% reduc-
+tion of the binding energy from the single channel analysis to the coupled channel analysis,
+probably due to large off-diagonal components of potentials. Thus this systematics is at-
+tributed to virtual transitions such that B → B∗ → B, which may easily occurs since the B∗
+threshold is only 45 MeV above the B threshold. Therefore, an inclusion of virtual B∗ effect
+is required to predict physical observables such as the binding energy of the tetra-quark
+
+                                              21
+                                                 50
+                                                             (single)
+                                                            Ebinding (m2π ) → −154.8 ± 17.2 [MeV]
+                                                             (coupled)
+                                                  0         Ebinding (m2π ) → −83.0 ± 10.2 [MeV]
+
+
+
+                                               −50
+                                       [MeV]
+
+                                               −100
+
+
+                                               −150
+
+
+                                                      0.0         0.1      0.2       0.3          0.4            0.5
+                                                                             m2π [GeV]
+
+
+
+FIG. 5.       The binding energy obtained by the GEM as a function of m2π (open circles), together
+with a linear extrapolation in m2π to mπ = 140 MeV (solid line) from the single channel analysis
+(magenta) and the coupled-channel analysis (cyan).
+
+
+
+
+              1.0          (chiral)                                                                (chiral)
+                          a0          → 0.43 ± 0.05 [fm]                              0.6         reff,0      → 0.18±0.06 [fm]
+              0.9         a0(m2π )                                                                reff,0(m2π )
+                                                                                      0.5
+              0.8
+
+              0.7                                                                     0.4
+       [fm]                                                                    [fm]
+              0.6
+                                                                                      0.3
+              0.5
+
+              0.4                                                                     0.2
+
+              0.3                                                                     0.1
+                    0.0                 0.2                 0.4                             0.0                  0.2             0.4
+                                         m2π [GeV]                                                                m2π [GeV]
+
+
+
+
+FIG. 6.         ERE parameters in the coupled-channel analysis as a function of m2π (open circles),
+together with a linear extrapolation in m2π to mπ = 140 MeV (solid line). (Left) The scattering
+length a0 . (Right) The effective range reff,0 . Both are defined in eq.(46).
+
+
+
+state Tbb accurately in lattice QCD.
+
+   Fig. 6 shows the scattering length a0 (Left) and the effective range reff,0 (Right) in the
+coupled channel analysis, obtained from the ERE fit (46), as a function of m2π (open circles),
+together with a linear extrapolation in m2π to the physical pion mass mπ = 140 MeV (solid
+
+                                                                         22
+                                                         !
+                                       −100
+                                                     −       −(pBW )2
+                                       −200          Ebinding = −83.0 ± 10.2 [MeV]
+                                                                                 r
+                                                     pBW cot δ BB (W ) = − a10 + eff,0 B 2
+                                                                                  2 (pW )
+                                       −300
+
+                                       −400
+                               [MeV]
+                                       −500
+
+                                       −600
+
+                                       −700
+
+                                       −800
+                                              −100       −80      −60    −40     −20         0       20
+                                                                  W − MB − MB ∗ [MeV]
+
+
+
+FIG. 7.  The ERE at mπ = 140 MeV obtained with a0 and reff,0 by linear extrapolations in m2π
+                             p
+(green band), together with − −p2 (bleu solid line). An intersection of the two give a pole of the
+T -matrix, whose position is consistent with the binding energy by the GEM at mπ = 140 MeV by
+                                                       p
+a linear extrapolations in m2π (red thick curve along − −p2 ).
+
+
+line), which leads to
+
+                    (coupled,phys)                                            (coupled,phys)
+                  a0                    = 0.43 ± 0.05 fm,                    reff,0              = 0.18 ± 0.06 fm,   (49)
+
+at the physical pion mass, where errors are again statistical only.
+   In Fig. 7, the binding energy at the physical pion mass is alternatively estimated from an
+                        p                                                          (coupled,phys)
+intersection between − −p2 (blue solid line) and p cot δ(p) (green band) with a0
+       (coupled,phys)
+and reff,0              in (49), which not only satisfies the physical pole condition (47) but also
+well agrees with the binding energy by the GEM extrapolated directly to the physical pion
+                               p
+mass (red thick curve along − −p2 ). The agreement in the binding energy between the
+two method provide a strong support for reliability of our analysis.
+
+
+V.     CONCLUSIONS
+
+
+     In this paper, we have extracted scattering quantities through S-wave potentials between
+B̄ and B̄ ∗ mesons with quantum numbers I(J P ) = 0(1+ ), applying the coupled channel HAL
+QCD method to this single channel scattering. We have employed the NRQCD action for
+b quarks to incorporate effects of their propagations in space. This paper presents the first
+analysis from a combination of the NRQCD action with the HAL QCD method. Physical
+observables such as the binding energy, the scattering length and the effective range obtained
+
+                                                                        23
+on (2+1)-flavor full QCD configurations at three pion masses are extrapolated to the physical
+pion mass.
+   Since off-diagonal potentials are asymmetric and comparable in magnitude to diagonal
+ones, as shown in Fig.2, we have employed non-hermitian 2 × 2 potentials in order to include
+the non-locality caused by virtual B∗ states into a single channel potential as Ueff
+                                                                                 BB
+                                                                                     . The
+                              BB
+single channel analysis with Ueff show that the system with B̄ and B̄ ∗ mesons have a bound
+state corresponding to a doubly-bottom tetra-quark Tbb , whose binding energy is smaller by
+40-50 % than the one from the standard single channel analysis without non-locality. This
+explicitly demonstrates an importance of virtual transitions between B and B∗ channels to
+the tetra-quark state Tbb . Thus it may give some hints on the nature of the tetra-quark state
+Tbb such as its internal structure.
+   In addition to statistical errors quoted in eq. (48)-(49), we here estimate systematic errors
+in our result, which are caused by a truncation of the NRQCD expansion, a truncation of
+the perturbative matching between the NRQCD hamiltonian and QCD, the finite lattice
+spacing, the finite volume and the chiral extrapolation in lattice QCD simulations, and so
+on. Since these systematic errors are difficult to evaluate explicitly and precisely, we focus
+our attention on errors associated with the NRQCD action for b quarks and employ previous
+studies[12, 29, 35] for rough estimations. Effects of these systematics on the binding energy
+may be about 20 MeV at most, and other systematic errors such as the finite lattice spacing,
+the finite volume and the chiral extrapolation are probably much smaller than 20 MeV, and
+thus are included in this 20 MeV. We then obtain
+      (single,phys)                                 (coupled,phys)
+    Ebinding          = −154.8 ± 17.2 ± 20 MeV,   Ebinding           = −83.0 ± 10.2 ± 20 MeV.(50)
+
+for the final estimate of the binding energy including systematic errors.
+   We compare these final results with latest lattice studies[8–14] in Fig. 8. From the
+comparison, we draw following conclusions.
+
+   • Within the same combination, the NRQCD b quark and the single-channel analysis,
+      our result (blue cross) roughly agrees with others (orange cross and red cross) within
+      large errors.
+
+   • Within the single-channel analysis, the binding energy is a little larger for our result
+      with the NRQCD b quark (blue cross) than the one with the static b quark (green
+      cross).
+
+                                             24
+   • Our result with the NRQCD b quark in the coupled-channel analysis (blue open circle)
+      is new. The result shows that a reduction of the binding energy from the single-channel
+      analysis (blue cross) to the the coupled-channel analysis (blue open circle), about 70
+      MeV, is much larger than the reduction with the static b quark ( green cross and open
+      circle).
+
+While an existence a tetra-quark bound state Tbb is a robust prediction in lattice QCD,
+reductions of systematic errors will be needed to evaluate its binding energy more precisely
+in future studies.
+
+
+
+
+FIG. 8. A comparison of binding energies for the tetra-quark bound state Tbb among several lattice
+QCD calculations, from the HAL QCD potential with the NRQCD b quark (blue), spectra with
+the NRQCD b quark (orange, red, magenta and brown), and the static quark potential with the
+static b quark (green). Crosses indicate results from the single-channel analysis, while open circles
+from the coupled-channel analysis.
+
+
+
+
+   Acknowledgements
+
+
+   We thank the PACS-CS Collaboration [30] and ILDG/JLDG [36] for providing us their
+gauge configurations. We have used lattice QCD code of Bridge++[37], gauge-fixing code
+of cuLGT[38] and HAL QCD analysis is based on the code written by Dr. T. Miyamoto.
+In particular, we would like to thank Dr. H. Matsufuru, who has ported NRQCD code
+ported into the Bridge++. Our numerical calculation has been performed on Yukawa-21
+at Yukawa Institute for Theoretical Physics (YITP) in Kyoto University. We thank other
+
+                                               25
+members of the HAL Collaboration, especially Dr. Y. Akahoshi, Mr. K. Murakami, and Dr.
+H. Nemura for fruitful discussions. This work is supported in part by the JSPS Grant-in-Aid
+for Scientific Research (Nos. JP16H03978, JP18H05236, JP18K03628).
+
+
+
+
+ [1] R. Aaij et al. (LHCb), Phys. Rev. D 102, 112003 (2020), arXiv:2009.00026 [hep-ex].
+ [2] R. Aaij et al. (LHCb), (2021), 10.1038/s41567-022-01614-y, arXiv:2109.01038 [hep-ex].
+ [3] R. Aaij et al. (LHCb), Phys. Rev. Lett. 115, 072001 (2015), arXiv:1507.03414 [hep-ex].
+ [4] A. Bondar et al. (Belle), Phys. Rev. Lett. 108, 122001 (2012), arXiv:1110.2251 [hep-ex].
+ [5] J.-B. Cheng, S.-Y. Li, Y.-R. Liu, Z.-G. Si, and T. Yao, Chin. Phys. C 45, 043102 (2021),
+    arXiv:2008.00737 [hep-ph].
+ [6] M.     Karliner       and     J.         L.         Rosner,        Phys. Rev. Lett. 119, 202001 (2017),
+    arXiv:1707.07666 [hep-ph].
+ [7] E. J. Eichten and C. Quigg, Phys. Rev. Lett. 119, 202002 (2017), arXiv:1707.09575 [hep-ph].
+ [8] P. Bicudo, K. Cichy, A. Peters,               and M. Wagner, Phys. Rev. D 93, 034501 (2016),
+    arXiv:1510.03441 [hep-lat].
+ [9] P.   Bicudo,    J.    Scheunert,         and        M.     Wagner,     Phys. Rev. D 95, 034502 (2017),
+    arXiv:1612.02758 [hep-lat].
+[10] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman, Phys. Rev. Lett. 118, 142001 (2017),
+    arXiv:1607.05214 [hep-lat].
+[11] P. Junnarkar,       N. Mathur,       and M. Padmanath, Phys. Rev. D 99, 034507 (2019),
+    arXiv:1810.12285 [hep-lat].
+[12] L. Leskovec, S. Meinel, M. Pflaumer, and M. Wagner, Phys. Rev. D 100, 014503 (2019),
+    arXiv:1904.04197 [hep-lat].
+[13] P. Mohanta and S. Basak, Phys. Rev. D 102, 094516 (2020), arXiv:2008.11146 [hep-lat].
+[14] R. J. Hudspith and D. Mohler, (2023), arXiv:2303.17295 [hep-lat].
+[15] M. Luscher, Nucl. Phys. B 354, 531 (1991).
+[16] S. Aoki, N. Ishii, T. Doi, Y. Ikeda,                and T. Inoue, Phys. Rev. D 88, 014036 (2013),
+    arXiv:1303.2210 [hep-lat].
+[17] N.   Ishii,    S.    Aoki,         and        T.        Hatsuda,    Phys. Rev. Lett. 99, 022001 (2007),
+    arXiv:nucl-th/0611096.
+
+                                                        26
+[18] S.      Aoki,       T.     Hatsuda,            and         N.      Ishii,    Prog. Theor. Phys. 123, 89 (2010),
+     arXiv:0909.5585 [hep-lat].
+[19] S. Aoki, T. Doi, T. Hatsuda, Y. Ikeda, T. Inoue, N. Ishii, K. Murano, H. Nemura, and
+     K. Sasaki (HAL QCD), PTEP 2012, 01A105 (2012), arXiv:1206.5088 [hep-lat].
+[20] S. Aoki, N. Ishii, T. Doi, T. Hatsuda, Y. Ikeda, T. Inoue, K. Murano, H. Nemura, and
+     K. Sasaki (HAL QCD), Proc. Japan Acad. B 87, 509 (2011), arXiv:1106.2281 [hep-lat].
+[21] S.   Aoki,        B.     Charron,     T.      Doi,       T.     Hatsuda,         T.   Inoue,         and        N.   Ishii,
+     Phys. Rev. D 87, 034512 (2013), arXiv:1212.4896 [hep-lat].
+[22] N. Ishii, S. Aoki, T. Doi, T. Hatsuda, Y. Ikeda, T. Inoue, K. Murano, H. Nemura, and
+     K. Sasaki (HAL QCD), Phys. Lett. B 712, 437 (2012), arXiv:1203.3642 [hep-lat].
+[23] J. R. Taylor, The Quantum Theory of Nonrelativistic Collisions (Dover books).
+[24] P. A. Zyla et al. (Particle Data Group), PTEP 2020, 083C01 (2020).
+[25] B. A. Thacker and G. P. Lepage, Phys. Rev. D 43, 196 (1991).
+[26] L. L. Foldy and S. A. Wouthuysen, Phys. Rev. 78, 29 (1950).
+[27] S. Tani, Prog. Theor. Phys. 6, 267.
+[28] G.      P.     Lepage,    L.     Magnea,      C.        Nakhleh,      U.    Magnea,        and       K.     Hornbostel,
+     Phys. Rev. D 46, 4052 (1992), arXiv:hep-lat/9205007.
+[29] K.-I.        Ishikawa,   H.      Matsufuru,        T.     Onogi,      N.    Yamada,            and    S.    Hashimoto,
+     Phys. Rev. D 56, 7028 (1997), arXiv:hep-lat/9706008.
+[30] S. Aoki et al. (PACS-CS), Phys. Rev. D 79, 034503 (2009), arXiv:0807.1661 [hep-lat].
+[31] S. Aoki, T. Iritani, and K. Yazaki, PTEP 2020, 023B03 (2020), arXiv:1909.00656 [hep-lat].
+[32] M. I. Haftel and F. Tabakin, Nucl. Phys. A 158, 1 (1970).
+[33] T. Iritani, S. Aoki, T. Doi, T. Hatsuda, Y. Ikeda, T. Inoue, N. Ishii, H. Nemura, and K. Sasaki,
+     Phys. Rev. D 96, 034521 (2017), arXiv:1703.07210 [hep-lat].
+[34] M. Kamimura, Phys. Rev. A 38, 621 (1988).
+[35] S.   Hashimoto,          K.-I.    Ishikawa,     H.        Matsufuru,        T.    Onogi,        and        N.    Yamada,
+     Phys. Rev. D 58, 014502 (1998), arXiv:hep-lat/9711031.
+[36] T. Amagasa et al., J. Phys. Conf. Ser. 664, 042058 (2015).
+[37] S. Ueda, S. Aoki, T. Aoyama, K. Kanaya, H. Matsufuru, S. Motoki, Y. Namekawa, H. Nemura,
+     Y. Taniguchi, and N. Ukita, J. Phys. Conf. Ser. 523, 012046 (2014).
+
+
+
+                                                              27
+[38] H. Vogt and M. Schröck, in GPU Computing in High-Energy Physics (2015) pp. 175–180,
+    arXiv:1412.3655 [hep-lat].
+
+
+
+
+                                          28
+

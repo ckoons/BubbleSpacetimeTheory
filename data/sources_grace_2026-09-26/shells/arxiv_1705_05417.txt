@@ -1,0 +1,1634 @@
+                                                                                                                                         May 2017
+
+
+
+
+                                                                  Dimension and Dimensional Reduction
+                                                                                     in Quantum Gravity
+
+
+
+
+arXiv:1705.05417v2 [gr-qc] 29 May 2017
+                                                                                             S. Carlip∗
+                                                                                        Department of Physics
+                                                                                        University of California
+                                                                                           Davis, CA 95616
+                                                                                                 USA
+
+
+
+
+                                                                                             Abstract
+                                         ,
+                                                                 A number of very different approaches to quantum gravity contain a
+                                                                 common thread, a hint that spacetime at very short distances becomes
+                                                                 effectively two dimensional. I review this evidence, starting with a
+                                                                 discussion of the physical meaning of “dimension” and concluding with
+                                                                 some speculative ideas of what dimensional reduction might mean for
+                                                                 physics.
+
+
+
+
+                                             ∗
+                                                 email: carlip@physics.ucdavis.edu
+1     Why Dimensional Reduction?
+What is the dimension of spacetime? For most of physics, the answer is straightforward and
+uncontroversial: we know from everyday experience that we live in a universe with three dimensions
+of space and one of time. For a condensed matter physicist, say, or an astronomer, this is simply a
+given. There are a few exceptions—surface states in condensed matter that act two-dimensional,
+string theory in ten dimensions—but for the most part dimension is simply a fixed, and known,
+external parameter.
+    Over the past few years, though, hints have emerged from quantum gravity suggesting that
+the dimension of spacetime is dynamical and scale-dependent, and shrinks to d ∼ 2 at very small
+distances or high energies. The purpose of this review is to summarize this evidence and to discuss
+some possible implications for physics.
+
+1.1    Dimensional reduction and quantum gravity
+As early as 1916, Einstein pointed out that it would probably be necessary to combine the newly
+formulated general theory of relativity with the emerging ideas of quantum mechanics [1]. In the
+century since, efforts to quantize gravity have led to many breakthroughs in fundamental physics,
+from gauge-fixing and ghosts to the background field method to Dirac’s analysis of constrained
+Hamiltonian systems. But the fundamental goal of a complete, consistent quantum theory of
+gravity still seems distant. In its place, we have a number of interesting but incomplete research
+programs: most famously string theory and loop quantum gravity, but also group field theory,
+causal set theory, asymptotic safety, lattice approaches such as causal dynamical triangulations,
+research based on noncommutative geometry, and various ideas for “emergent” gravity.
+    In a situation like this, we need to explore many complementary lines of research. One particular
+strategy is to look for fundamental features that are shared by different quantization programs.
+There is no guarantee that such features will persist in the “correct” quantum theory of gravity,
+but such a pattern of recurrence at least makes it more plausible.
+    We currently have one outstanding example of such a commonality, the predictions of black
+hole thermodynamics. We have not directly observed Hawking radiation or black hole entropy, but
+the thermodynamics properties of black holes can be derived in so many different ways, with such
+a variety of assumptions and approximations [2], that a claim that black holes do not radiate would
+by now seem perverse. Dimensional reduction of spacetime near the Planck scale is a candidate
+for second such commonality, albeit one that is much less firmly established.
+
+1.2    Dimension as an observable
+In most of physics the dimension of space, or spacetime, is taken as a fixed external parameter.
+While the notion of dimension is ancient—see [3–5] for discussion of the history and philosophy—
+the mathematical formalism for a space of arbitrary dimension is fairly recent, often attributed to
+Schäfli’s work in the early 1850s [6]. The question of why our universe should have the number
+of dimensions it does was famously discussed in 1917 by Ehrenfest [7], who pointed out that such
+features as the stability of Newtonian orbits and the duality between electric and magnetic fields
+
+
+
+                                                 1
+are unique to three spatial dimensions. But Ehrenfest also warned that “the questions [of what
+determines the number of dimensions] have perhaps no sense.”
+    The idea that spacetime might really have more than four dimensions was introduced into
+physics by Nordström [8], and became more widely known with the work of Kaluza [9] and Klein
+[10]. The extension beyond five dimensions first appeared, I believe, as an exercise in lecture notes
+by DeWitt [11]. Kaluza-Klein theory provides a useful illustration of the notion that dimension
+might be scale-dependent. At small enough distances, the spacetime of Kaluza-Klein theory is
+an n-dimensional manifold with n > 4. At larger scales, though, the compact dimensions can no
+longer be resolved, and the spacetime becomes effectively four-dimensional, with excitations in the
+compact directions appearing as towers of massive four-dimensional modes. The converse process of
+dimensional deconstruction [12], in which appropriate four-dimensional modes effectively “create”
+extra dimensions at large distances, has more recently become popular in high energy theory.
+    Here we are interested in the opposite phenomenon, in which the number of effective dimensions
+decreases at short distances or high energies. The first models I know of that exhibited this behavior
+were introduced by Jourjine [13] , Kaplunovsky and Weinstein [14], Zeilinger and Svozil [15], and
+Crane and Smolin [16], all in 1985. A year later, Hu and O’Connor observed scale dependence
+of the effective dimension in anisotropic cosmologies [17], but the wider significance was not fully
+appreciated. In quantum gravity, the phenomenon of dimensional reduction first appeared in string
+theory, where a dimension characterizing thermodynamic behavior was found to unexpectedly drop
+to d = 2 at high temperatures, leading Atick and Witten to postulate “a lattice theory with a (1+1)-
+dimensional field theory on each lattice site” [18]. But it was only with the computation of the
+flow of spectral dimension in causal dynamical triangulations [19] that the idea really took hold.
+    To proceed further, though, we will have to first address a basic question: how, precisely, do
+we define “dimension” as a physical observable?
+
+
+2    Dimensional estimators
+We experience space to be three-dimensional. We learn as children that an object has a height, a
+width, and a depth (this goes back to Aristotle [3]), and, later, that no more than three mutually
+perpendicular lines can be drawn from a point (this goes back at least to Galileo [20], and perhaps
+to a lost work by Ptolemy [3]). Later, we learn that a spatial position can be specified by three
+coordinates, and an event by four; that is, spacetime is homeomorphic to R4 . This picture carries
+over to classical general relativity, where spacetime is modeled by a four-dimensional manifold,
+that is, a structure locally diffeomorphic to R4 .
+    But we also know this is not enough. In mathematics, Cantor’s discovery of a one-to-one
+correspondence between the points of a line segment and the points of a unit square showed the
+flaw in the intuitive idea that a two-dimensional space has “more points” than a one-dimensional
+space, and Peano’s construction of space-filling curves made it clear that dimension had to be
+more than a simple counting of the number of parameters needed to specify a point [24]. Moreover,
+the physical quantity we call dimension clearly depends on scale. We draw a line on a piece
+of paper and call it one dimensional, but closer up it is three dimensional, and even closer the
+ink consists of elementary particles that appear point-like (or perhaps string-like). Moving to to
+quantum mechanics, the question becomes even more problematic. Even for a single particle, the
+
+
+                                                  2
+path integral is dominated by nowhere-smooth paths with fractal dimensions [21], with smooth
+one-dimensional paths appearing only semiclassically. Quantum gravity adds yet another layer of
+complication: in a spatially compact universe there are no local observables, and it is no longer
+obvious that a “point” has any real meaning [22, 23]. Ultimately, if our smooth spacetime is
+somehow emergent at large distances, as many approaches to quantum gravity suggest, then its
+dimension, too, should be emergent.
+    How, then, do we decide what “dimension” means? We need “dimensional estimators,” physical
+observables with a simple dependence on dimension that can be generalized to situations in which
+the meaning of dimension is ambiguous. A number of rather different possibilities exist, and
+different choices need not always agree. Dimension may depend on exactly what physical question
+we are asking.
+    Broadly speaking, dimensional estimators come in two varieties. Some are primarily mathe-
+matical, determining the dimension of some class of mathematical spaces that we use to model
+physics. Others are more immediately physical, starting with a physical quantity that has a simple
+dimensional dependence and using its value to deduce dimension. The difference is not always
+sharp—spectral dimension, for instance, is a characteristic of both a mathematical random walk
+and a physical diffusion process—but the distinction is helpful for keeping track of alternatives.
+
+2.1    Geometric dimensions
+The mathematical field of “dimension theory” is too large to discuss in detail in a review article
+such as this. Readers may want to look at the books [24] or [25] for more formal definitions and
+derivations, or at [26] for an entertaining mathematical perspective. Here I will restrict myself to
+brief summaries of the more important mathematical approaches to dimension, some of which have
+made an appearance in physics and some of which have not.
+
+   • Topology: inductive dimension and covering dimension
+      Three of the common mathematical definitions of dimension are purely topological, depending
+      only on the structure of points and open sets. The inductive dimensions originate from the
+      observation that a line can be divided by a point, a surface by a curve, a three-dimensional
+      space by a surface, etc. More formally, the large inductive dimension of the empty set is −1;
+      the large inductive dimension of a space X is the smallest integer dI such that any disjoint
+      pair of closed sets F, H ⊂ Xcan be separated∗ by another closed set K of large inductive
+      dimension less than or equal to dI − 1 [25]. The small inductive dimension di is defined
+      similarly, but with the closed set H replaced by a single point x.
+      The covering dimension originates from Lebesgue’s observation that a line can be covered by
+      arbitrarily small intervals in such a way that no point is contained in more than two intervals,
+      a square can be covered by arbitrarily small “bricks” in such a way that no point is contained
+      in more than three bricks, etc. More formally, let H be an open covering of X, and define
+      the order of H to be the smallest number n such that each point in X belongs to at most n
+ ∗
+   The sets F and H are separated by K if F , H, and K are mutually disjoint and X\K consists of two disjoint
+sets, one containing F and the other containing H.
+
+
+
+                                                     3
+ sets in H. The covering dimension or Lebesgue dimension dL is then the minimum value of n
+ such that every open cover of X has a refinement with order less than or equal to n + 1 [25].
+ By construction, the large inductive, small inductive, and covering dimensions are integers.
+ For nice enough spaces—for instance, separable metric spaces—they are all equal [24], but
+ there are exotic cases in which they differ. But while these notions are widely used in
+ mathematics, they have seen very little application to physics, except indirectly as the basis
+ for the statement that Rn is n-dimensional. The problem, I believe, is that they are too
+ primitive and too far removed from observation: how, for instance, do we determine physically
+ whether a set of spacetime events is open?
+
+• Scaling: box-counting and Hausdorff dimensions
+ Once a notion of distance is added, mathematical approaches to dimension become more
+ “physical.” In particular, dimension can be determined by the scaling behavior of geometric
+ objects. Suppose, for instance, that a ball of radius r has volume V (r). If at some character-
+ istic length scale V ∼ r n , then n is a measure of dimension at that scale. This concept can
+ be extended to graphs, giving upper and lower “internal scaling dimensions” dIS and dis [27].
+ Alternatively, suppose a ball of radius r can be filled by N(ǫ) balls of radius ǫ. If N(ǫ) scales
+ as (r/ǫ)n , then n is again a measure of dimension. This idea is made precise by the notions
+ of upper and lower box-counting dimension (or “capacity”) and Hausdorff dimension. Let
+ N(X, ǫ) be the smallest number of balls of radius ǫ that can cover the set X. Then if the
+ limit exists, the box-counting dimension of X is [28]
+                                                     ln N(X, ǫ)
+                                     db (X) = lim                                            (2.1)
+                                                  ǫ→0 ln(1/ǫ)
+
+
+ If the limit does not exist, one can still define upper and lower limits (the supremum and
+ infimum of the limit points), which determine the upper and lower box-counting dimensions
+ dC and dc .
+ The Hausdorff dimension is a further refinement, in which the balls are allowed to have
+ different sizes. For a metric space with a distance function d(x, y), the “diameter” diam(A)
+ of a set A is the largest distance between any two elements of A (technically, the supremum
+ sup{d(x, y) : x, y ∈ A}). Consider coverings of a set X by subsets Ai with diam(Ai ) < ǫ. For
+ p an arbitrary nonnegative number, define
+                                                   X
+                                 m(X, p) = lim inf    [diam(Ai )]p                       (2.2)
+                                            ǫ↓0
+                                                       i
+
+ where the infimum in (2.2) is over all decompositions X = A1 ∪ A2 ∪ . . . . As a function of p,
+ m(X, p) is zero for p large, and jumps to infinity for p small. The Hausdorff dimension dH is
+ the value of p at this threshold; that is
+
+                    dH (X) = sup{p : m(X, p) > 0} = inf{p : m(X, p) < ∞}                     (2.3)
+
+ The Hausdorff dimension is sometimes called the “fractal dimension,” as introduced and
+ popularized by Mandelbrot [29].
+
+                                             4
+ In contrast to the inductive and covering dimensions, box-counting and Hausdorff dimensions
+ need not be integers. Again, though, for “nice” spaces—the differentiable manifolds of general
+ relativity, for example—these scaling dimensions give the expected answer.
+ For a space with a measure, generalizations of Hausdorff dimension are available [28,30]. The
+ “information dimension,” for example, is a variation of the box-counting dimension adjusted
+ to account for the relative probabilities of balls used to cover the set: in analogy to (2.1),
+                                                                    N (ǫ)
+                                   I(X, ǫ)                          X
+                      dI (X) = lim           with I(X, ǫ) = −               Pi ln Pi         (2.4)
+                               ǫ→0 ln(1/ǫ)
+                                                                    i=1
+
+ where Pi is the probability measure for the ith ball. There are, in fact, infinitely many
+ generalizations, associated with correlations of n points [31]. Yet other dimensions can be
+ defined in terms of Lyapunov numbers of a flow [30]. As far as I know, none of these has
+ been used in investigations of quantum gravity, although the Lyapunov dimension could be
+ relevant to the discussion of geodesics that will appear later in this section.
+• Random walks: spectral and walk dimensions
+ If the topological dimensions require too little physical information, the scaling dimensions
+ perhaps require too much. It is not always easy to define a distance function in a model of
+ quantum gravity, so the physical meaning of a geodesic ball or the diameter of a set can be
+ unclear. An intermediate set of dimensions are based instead on the properties of random
+ walks or diffusion processes, which can be defined in more general settings.
+ The basic idea is straightforward. In any space on which a random walk can be defined,
+ the resulting diffusion process gradually explores larger and larger regions. More dimensions
+ mean both slower diffusion—there are more “nearby” points—and a slower return to the
+ starting point. Quantitatively, diffusion from an initial position x to a final position x′ on a
+ manifold M is described by a heat kernel K(x, x′ , s) satisfying
+                          
+                   ∂
+                      − ∆x K(x, x′ ; s) = 0,     with K(x, x′ ; 0) = δ(x − x′ ),             (2.5)
+                   ∂s
+ where ∆x is the Laplacian on M at x, and s is a measure of the diffusion time. Let σ(x, x′ )
+ be Synge’s world function [32], one-half the square of the geodesic distance between x and
+ x′ . Then on a manifold of dimension dS , the heat kernel generically behaves for small s
+ as [11, 33, 34]
+                                                   ′
+                 K(x, x′ ; s) ∼ (4πs)−dS /2 e−σ(x,x )/2s 1 + [a1 ]s + [a2 ]s2 + . . . ,
+                                                                                     
+
+                 K(x, x; s) ∼ (4πs)−dS /2 1 + [a1 ]s + [a2 ]s2 + . . .
+                                                                        
+                                                                                        (2.6)
+ where the “HaMiDeW” coefficients [ai ] are known functions of the curvature.
+ Now consider any space in which a diffusion process or a random walk can be defined. The
+ scale-dependent generalized spectral dimension dS (s) of a region X is obtained from the
+ “return time,”
+                                                d lnhK(x, x; s)iX
+                                  dS (s) = −2                                                (2.7)
+                                                      d ln s
+
+                                             5
+ where the angle brackets h iX denote the average over points x ∈ X. For a smooth manifold,
+ lims→0 dS (s) gives the ordinary geometric dimension, while for many fractals dS (s) exhibits
+ log periodic oscillations as s → 0 [34]. If s is small but nonzero, dS (s) gives a scale-dependent
+ dimension, while for s large, dS (s) can begin to probe the global topology.
+ It is sometimes useful to modify the definition (2.5) of the heat kernel by exchanging the
+ Laplacian ∆M for some other physically relevant operator. For some interesting cases—for
+ example, theories of quantum gravity defined on manifolds but with simple nonconventional
+ dispersion relations—the spectral dimension is the Hausdorff dimension of momentum space
+ [35, 36]. As a cautionary note, though, a modification of the Laplacian can lead to a “return
+ probability” that is not positive definite; in such cases, a modification of the heat equation
+ (2.5) may be desirable [37].
+ Another dimension can also be obtained from a diffusion process. The “walk dimension” dW
+ determines the rate at which a random walker moves away from the origin:
+                                                            −1
+                                        d lnhx2 K(x, 0; s)i
+                                      
+                               dW = 2                                                (2.8)
+                                              d ln s
+ The walk dimension is not independent, though: it can be shown [34, 36] that dW = 2dH /dS ,
+ where dH is the Hausdorff dimension.
+• Lorentzian dimensions:
+ The definitions I have discussed so far have implicitly assumed a Riemannian space, that is, a
+ space with a positive definite metric. The Hausdorff dimension, for instance, treats spacelike
+ and timelike distances equivalently and makes no allowance for null separations. The spectral
+ dimension considers random walks without any limit to causal paths. There are variations,
+ though, that take the Lorentzian nature of spacetime into account.
+ Like the spectral dimension, the causal spectral dimension dcs [38] is based on the behavior
+ of random walks, but now restricted to causal paths. Obviously, we can no longer use return
+ time, since random walkers now move only forward in time. Instead, a dimension can be
+ obtained from the probability that two paths starting from a shared initial point meet again
+ in a diffusion time s. For a manifold, the asymptotic behavior is obtained from the properties
+ of biased random walks; the resulting causal spectral dimension is again defined by (2.7), but
+ with hK(x, x; s)i replaced by the meeting probability Pmeet (s).
+ Two other Lorentzian dimensions, both based on scaling, have their origin in causal set
+ theory [39]. The first, the Myrheim-Meyer dimension [40, 41], is a kind of box-counting
+ dimension in which the “boxes” are Alexandrov neighborhoods, or causal diamonds. We
+ start with d-dimensional Minkowski space, and pick two causally related points p and q with
+ p ≺ q (where ≺ means “is in the past of”). The Alexandrov interval I[p, q] is the intersection
+ of the future of p and the past of q. A point r in I[p, q] (that is, for which p ≺ r ≺ q) forms
+ two new smaller intervals, I[p, r] and I[r, q]. It is not hard to show that these intervals have
+ volumes that obey a scaling relation
+                                  hVol(I[r, q])ir   Γ(d + 1)Γ( d2 )
+                                                  =                                          (2.9)
+                                   Vol(I[p, q])        4Γ( 3d
+                                                            2
+                                                              )
+
+                                              6
+      where the bracket denotes an average over r. The right-hand side of (2.9) is monotonically
+      decreasing with d, so the formula can be inverted to determine a dimension. Generalizing to
+      arbitrary spacetimes in which causal relations are defined—including even discrete spacetimes
+      such as causal sets—we obtain a Lorentzian scaling dimension, the Myrheim-Meyer dimension
+      dM M . Further curvature corrections can be added if the manifold is not flat [42].
+      The second dimensional estimator coming from causal set theory is the midpoint scaling
+      dimension [43]. Again consider an Alexandrov interval I(p, q), and define the “midpoint”
+      to be the point r for which I(p, r) and I(r, q) are most nearly equal, that is, the point that
+      maximizes N ′ = min{Vol(I(p, r)), Vol(I(r, q))}. Then dmid = log2 [Vol(I(p, q))/N ′] gives an
+      estimate of the dimension.
+
+   • Geodesics:
+      A final, more qualitative estimate of dimension can be obtained by examining the behavior
+      of geodesics on a manifold. This idea goes back to Galileo’s observation that in a three-
+      dimensional space, at most three perpendicular lines can be drawn from a point [20]. In a
+      d-dimensional Lorentzian manifold, d − 1 orthogonal timelike geodesics can leave a point.
+      But these geodesics may not behave identically; they may probe very different distances in
+      different directions.
+      For instance, let us choose Gaussian normal coordinates, select two random nearby geodesics
+      at t = 0, and look at their proper distance in each of d − 1 orthogonal directions at a later
+      time t. In regions of certain manifolds—for instance, in Kasner space for both small and
+      large t [44, 45]—a random geodesic will “see” fewer than the full d − 1 dimensions; that is,
+      the proper distance will be large in dgeod − 1 dimensions and much smaller in the rest. If we
+      consider a measurement with a finite resolution, the manifold will thus appear to have dgeod
+      dimensions. This behavior was first observed by Hu and O’Connor in cosmology [17]. They
+      were considering large scale behavior, and called dgeod the “infrared dimension,” but as we
+      shall see later, a similar phenomenon may happen at small scales.
+      Since the heat kernel is determined by random walks, one might expect this phenomenon
+      to also be apparent in the spectral dimension. In a sense, it is. At a given spacetime
+      point, the small s expansion (2.6) is dominated by the first term, which gives the ordinary
+      spectral dimension. But for a fixed s—a fixed “resolution” of the diffusion process—it may
+      happen that higher [ai ] terms dominate in certain regions of spacetime, lowering the spectral
+      dimension (2.7). The Lyapunov dimension of the geodesic flow, mentioned briefly above,
+      might be helpful in understanding this behavior more quantitatively.
+
+2.2    Physical dimensions
+The dimensional estimators of the preceding section were based on characteristics of particular
+mathematical models of spacetime. We now turn to estimators based on the behavior of matter
+in spacetime. The distinction is not sharp, of course—the spectral dimension, for instance, can
+characterize either an abstract random walk or a physical diffusion process—but it can be helpful
+in clarifying the meanings of certain dimensional estimators.
+
+
+                                                 7
+2.2.1     Thermodynamic dimensions
+Many physical dimensional estimators are based on thermodynamic properties. The starting point
+is the simple observation that the density of states, and therefore the partition function, depends
+on the phase space volume, and that this, in turn, depends on dimension. In particular, for a free
+particle at high energy in d spacetime dimensions,
+                                                    Vd−1 d−2
+                                       ρ(E)dE ∼            E dE                                  (2.10)
+                                                   ~2(d−1)
+from which the partition function Z(β) for a collection of noninteracting particles and all of the
+associated thermodynamic quantities can be determined.
+
+   • Free energy:
+        For a free field or an ideal gas in a box of volume Vd−1 in a flat d-dimensional spacetime, the
+        free energy is
+
+                          1                             dd−1 k 1
+                                                    Z
+                                                                          −βω(k)
+                                                                                    ∼ Vd−1 T d
+                                                                                 
+              F (β) = − ln Z(β) = ±const. Vd−1              d−1
+                                                                  ln 1 ∓ e                       (2.11)
+                         β                             (2π)     β                  β→0
+
+
+        where β is the inverse temperature and the top sign is for bosons, the bottom for fermions.
+        The temperature dependence provides a simple thermodynamic dimensional estimator dth1 .
+        It is easy to see that this quantity is sensitive to the physics: if one changes the dispersion
+        relations—that is, the relationship of ω(k) to k—then in general dth1 will change as well [46].
+
+   • Internal energy and equation of state
+        A number of thermodynamic quantities can be derived from the free energy. In particular,
+        the energy density at high temperature is
+                                           T2 ∂
+                                                   
+                                                   F
+                                     ρ=−              ∼ (d − 1)T d                        (2.12)
+                                          Vd−1 ∂T T β→0
+        This is essentially the Stefan-Boltzmann law, and it defines a new estimator dth2 . The pressure
+        at high temperature is
+                                                        
+                                                   ∂     F
+                                           p=T                 ∼ Td                               (2.13)
+                                                ∂Vd−1 T β→0
+        and the ratio of pressure to energy density determines the equation of state parameter
+
+                                               w ∼ 1/(d − 1)                                     (2.14)
+                                                  β→0
+
+        giving another estimator dth3 . For more detailed models of dimensional reduction, one can
+        sometimes carry this approach further and compute the effect of fractional dimensions on the
+        full black body spectrum [47]. Although the thermodynamic dimensional estimators agree for
+        ordinary thermodynamics in flat spacetime, there are known examples in which they different
+        from each other [48, 49].
+
+                                                    8
+   • Equipartition
+        One more thermodynamic dimensional estimate comes from the equipartition theorem, which
+        tells us that a system at thermal equilibrium has an energy of 21 T per degree of freedom. In
+        particular, an ideal monoatomic gas in d spacetime dimensions has d −1 translational degrees
+        of freedom per atom, so
+                                             d−1                  d−1
+                                       E=          NT,      CV =                                 (2.15)
+                                                2                   2
+        where CV is the heat capacity at constant volume. This gives a final thermodynamic dimen-
+        sional estimator, dth4 , whose meaning is perhaps the most transparent: as a direct count of
+        translational degrees of freedom, it is the thermal analogy of Galileo’s counting of perpendic-
+        ular lines from a point.
+
+2.2.2     Other physical dimensions
+While thermodynamic quantities provide convenient estimators of dimension, they are by no means
+the only physical quantities with simple dimensional dependence. At least three others have been
+considered.
+   • Greens functions
+        As Ehrenfest stressed in his seminal paper on the dimension of space [7], the Newtonian grav-
+        itational potential in a d-dimensional spacetime varies as r −(d−3) . A slightly more invariant
+        version of this statement is that the short distance Hadamard Greens function for massless
+        particles has the form
+                                                  σ(x, x′ )−(d−2)/2
+                                               
+                                     (1)   ′                          d>2
+                                   G (x, x ) ∼                                                   (2.16)
+                                                  ln σ(x, x′ )        d=2
+        where the world function σ(x, x′ ) is half the squared geodesic distance between x and x′ [32].
+        The generalization to an arbitrary spacetime provides a new dimensional estimator dG . This
+        quantity is closely related to the spectral dimension, since the Greens function is a Laplace
+        transform of the heat kernel, but there can be subtle differences that depend on exactly which
+        Laplacian is used. In causal set theory, for instance, the causal spectral dimension dcs has a
+        behavior quite differently from that of the dimension dG determined by the Laplacian with
+        the proper classical limit [38, 50, 51].
+        The use of tis estimator forces us to address a puzzling question about dimensional reduction
+        and unitarity. In ordinary quantum field theory, positivity of the spectral function ρ(µ) in the
+        Källen-Lehman representation of the two-point function implies that the propagator in a four-
+        dimensional spacetime cannot vanish faster than 1/p2 at large p [52]. Thus in field theoretic
+        approaches such as asymptotic safety, and in discrete approaches that have something like a
+        Källen-Lehman representation, one must worry that dimensional reduction could indicate the
+        appearance of negative-norm states or a breakdown in quantum field theory [51, 53]. There
+        are several ways to evade this problem, typically involving states that appear in the spectral
+        decomposition but are not present asymptotically, but any theory of quantum gravity that
+        predicts dimensional reduction will eventually have to address this issue.
+
+                                                    9
+     • Unruh dimension
+      As Unruh showed long ago [54], an accelerated detector will detect particles even in the
+      Minkowski vacuum. The detection rate is determined by the two-point function of the particle
+      being detected, and as we have just seen, such a two-point function has a characteristic
+      dependence on dimension. Unruh radiation thus gives a new, slightly different probe of the
+      behavior of Greens functions. Alkofer et al. propose in [55] to use the response function of such
+      a detector—in principle a directly measurably quantity—to define an “Unruh dimension” dU .
+
+     • Scaling dimensions and anomalous dimensions
+      Physical fields have natural scaling dimensions, which describe their changes under constant
+      rescaling of lengths and masses. A scalar field ϕ, for instance, has a term in its action of
+      the form (∂ϕ)2 , integrated over a d-dimensional spacetime. For the action to be invariant
+      under constant changes in scale (in units ~ = 1),† ϕ must scale as L−∆0 with ∆0 = d−2  2
+                                                                                               . The
+      behavior (2.16) of the two-point function of a scalar field can be read off from this scaling.
+      In an interacting quantum field theory, however, the “canonical dimension” (or “engineer-
+      ing dimension”) ∆0 typically receives corrections from renormalization. The full scaling
+      dimension becomes ∆ = ∆0 + γ(g), where {g} are the coupling constants and γ(g) is called
+      the anomalous dimension [56]. The anomalous dimension changes with energy scale under
+      the renormalization group flow, so ∆ naturally defines a scale-dependent dimension. Note,
+      though, that the anomalous dimension of a composite operator O1 O2 is not, in general, just
+      a sum ∆(O1 ) + ∆(O2 ), so different choices of operators may give different dimensional esti-
+      mators. One particularly natural choice is to look at the dimension of a two-point function
+      h0|ϕ(x)ϕ(x′ )|0i of a scalar field; this gives a quantum version dqG of the Greens function
+      dimension dG considered above.
+
+
+3     Evidence for dimensional reduction
+We can now turn to our main topic, the hints of short distance dimensional reduction in quantum
+gravity. This is a bit tricky, since we do not yet have a complete theory of quantum gravity; nor,
+as we have seen, do we have a unique way to define dimension. Still, by looking at a variety of
+approaches to quantum gravity and dimension, let us see how far we can get.
+
+3.1     High temperature string theory
+The first indication of dimensional reduction in quantum gravity came from the study of high
+temperature string theory [18]. As a gas of strings is heated, it undergoes a phase transition,
+the Hagedorn transition. In 1988, Atick and Witten found that above the Hagedorn temperature,
+the number of degrees of freedom abruptly drops: the free energy goes as F/V ∼ T 2 , so the
+thermodynamic temperature dth1 of section 2.2.1 falls to dth1 = 2. Other thermodynamic quantities
+are not directly computed in [18], but it is easy to check that the dimensions dth2 and dth3 also fall
+ †
+  In quantum field theory it is conventional to describe fields in terms of mass dimension rather than length
+dimension, hence the −∆ rather than ∆
+
+
+                                                     10
+to
+√ d = 2. Atick and Witten conclude that “the mysterious system that prevails under distances
+   α′ ” behaves “as if this system were a (1+1)-dimensional field theory.”
+    This dimensional reduction occurs for strings in a flat background. It may differ in other
+settings: for instance, the radial dependence of temperature in an AdS black hole background can
+alter the structure of the transition in a way that changes dth1 [57]. So it is interesting to see
+whether there are other indications of short distance dimensional reduction in string theory. This
+is not so easy. As Gross and Mende stress [58], we cannot consistently introduce external probes
+into string theory to explore short distance behavior. If, on the other hand, we use a string as a
+probe, we find that it sees a region with a size of order (ln E)1/2 at high energies, limiting the scale
+that can be explored [59].
+    It is known that the amplitude for two-string scattering at fixed small angle falls off exponen-
+tially with energy [58, 60], much faster than in any ordinary quantum field theory. This might
+be taken as a hint of dimensional reduction; Gross has speculated that this behavior and related
+high energy symmetries could indicate that the only nontrivial scattering in the high-energy limit
+is (1+1)-dimensional [61]. As I will discuss in section 4.2, this behavior may be connected to the
+phenomenon of “asymptotic silence” that appears in other approaches to dimensional reduction.
+It also seems that at leading order in high energy open string scattering, only polarizations in
+the plane of the scattering are important [62]; as Gross and Mañes put it, this “suggests that the
+strings are trying to effectively reduce the number of spatial dimensions that they live in at high
+energy.” Still, though, for now these are only hints of interesting behavior.
+
+3.2     Causal dynamical triangulations
+The results from string theory were intriguing, but dimensional reduction only became a significant
+focus of research in 2005, with the discovery of short distance reduction of the spectral dimension
+in causal dynamical triangulations [19]. Causal dynamical triangulations is a discrete approach to
+quantum gravity in which curved spacetimes are approximated by piecewise flat simplicial com-
+plexes, whose contributions are combined, typically numerically, to form a path integral. The
+action for a simplicial complex, the Regge action, has been known since 1961 [63], and the idea of
+combining Regge calculus with Monte Carlo methods to evaluate the path integral on a computer
+dates back to 1981 [64]. Until rather recently, though, no well-behaved continuum limit had been
+found; instead, the simulations typically yielded a “crumpled” phase with very high Hausdorff
+dimension and a two-dimensional “branched polymer” phase [65]. The causal dynamical triangu-
+lations program added a new ingredient, a fixed “direction of time,”‡ which controls fluctuations
+of topology and suppresses the unphysical phases. The program has been remarkably successful,
+producing not only a de Sitter ground state with the correct volume profile but also the expected
+spectrum of quantum volume fluctuations [67] and reasonable transition amplitudes [68].
+    The construction of a four-dimensional spacetime in causal dynamical triangulations starts
+with four-dimensional simplices. But this does not necessarily determine the large scale spacetime
+dimension; the path integral may be dominated by configurations that are not manifold-like or that
+have very different macroscopic appearances, and ultimately the dimension has to be measured.
+ ‡
+   The direction of time is usually introduced by fixing a time-slicing and demanding that all simplices connect one
+slice to the next, but there is evidence that such a strong slicing condition is not needed as long as a fixed causal
+structure is maintained [66].
+
+                                                         11
+It is easy to define a random walk on a simplicial complex, so a natural choice for a dimensional
+estimator is the spectral dimension dS of section 2.1. In 2005, Ambjørn, Jurkiewicz, and Loll found,
+quite unexpectedly, that while the expectation value of the spectral dimension is dS = 4 at large
+scales—the model reproduces a four-dimensional universe at large distances—it drops to dS ≈ 2
+at small scales [19]. Similarly, if one starts with a three-dimensional model the spectral dimension
+drops from dS = 3 at large scales to dS ≈ 2 at small scales [69]. These results have been checked
+independently [70,71], and verified analytically in a simplified toy model [72]. Because of numerical
+uncertainty, the lower limit is not known exactly, and may be consistent with dS = 1.5 [71], but
+the occurrence of short distance dimensional reduction in this approach is unambiguous.
+    Very recently, there has also been renewed interest in the “old-fashioned” Euclidean dynamical
+triangulations approach, in which no causality condition is imposed. While this usually yields
+phases that look nothing like our spacetime, there are indications that a physically reasonable
+continuum limit may exist if one fine-tunes the path integral measure [73]. The resulting spacetimes
+have spectral dimensions that falls from dS ≈ 4 at large scales to dS ≈ 1.5 at small scales, although
+the simulations so far are quite coarse, leading to large uncertainties in these numbers.
+
+3.3    Asymptotic safety
+Viewed as an ordinary quantum field theory, general relativity is nonrenormalizable: its effective
+action has an infinite number of terms, containing arbitrarily high powers of curvature, each with
+its own coupling constant. Even if all but a few of the coupling constants are set to zero at
+some scale, they will reappear at other scales under the renormalization group flow. As Weinberg
+first pointed out, though, the theory might still make sense [74]. For the theory to remain valid at
+arbitrarily high energies or short distances, the renormalization group flow must have an ultraviolet
+fixed point. If it does, and if that fixed point has only a finite number of relevant directions, then
+the infinitely many couplings of the low energy theory would be determined by finitely many high
+energy parameters. Such a theory is “asymptotically safe.”
+    Whether general relativity is asymptotically safe is a deep question, and we are far from a
+definitive answer. But several pieces of evidence, coming from truncations of renormalization
+group equations and from exact calculations in dimensionally reduced models, make it plausible
+that it is [75–77]. If gravity can be described by an asymptotically safe theory with a non-Gaussian
+ultraviolet fixed point, the anomalous dimensions introduced in section 2.2.2 will flow to fixed
+values under the renormalization group. For us, the key point is that operators at the fixed point
+will necessarily acquire precisely the anomalous dimensions necessary to make the theory appear
+two-dimensional [78–80]. In particular, the dimension dqG of section 2.2.2 will flow to dqG = 2 at
+the fixed point.
+    Intuitively, this happens because the theory becomes scale invariant at a fixed point, and the
+Einstein-Hilbert action is scale invariant only in two dimensions. The more formal demonstration
+of this behavior is fairly straightforward [76, 80], although there are a few subtleties [79]. Consider
+the renormalization group flow of the dimensionless coupling constant gN (µ) = GN µd−2 , where GN
+is Newton’s constant and µ is the mass scale. Under this flow, we have
+                                      ∂gN
+                                  µ       = [d − 2 + ηN (gN , . . . )]gN ,                        (3.1)
+                                      ∂µ
+
+                                                     12
+where the anomalous dimension ηN depends on both gN and any other (dimensionless) coupling
+constants in the theory. It is evident that a free field, or “Gaussian,” fixed point can occur at
+                                                        ∗
+gN = 0. For an additional non-Gaussian fixed point gN     to be present, though, the right-hand side
+                            ∗
+of (3.1) must vanish: ηN (gN  , . . . ) = 2 − d.
+     But the momentum space propagator for a field with an anomalous dimension ηN goes as
+(p2 )−1+ηN /2 . For ηN = 2 − d, this becomes p−d , and the associated position space propagator
+depends logarithmically on distance. As we saw in section 2.2.2, such a logarithmic dependence
+is indicative of a two-dimensional conformal field, dqG = 2. A variation of this argument shows
+that matter fields interacting with gravity at a non-Gaussian fixed point exhibit two-dimensional
+behavior as well [76].
+     We can also apply renormalization group methods to the spectral dimension dS near a fixed
+point [81, 82]. The renormalization group flow effectively gives a scale dependence to the metric
+in the heat equation, inducing a flow of the return probability K(x, x; s) of eqn. (2.7). Using
+two different truncations of the effective action, it has been confirmed that three scaling regimes
+appear: a classical regime with dS = 4, a quantum regime near the fixed point with dS = 2, and
+an intermediate semiclassical regime with a spectral dimension that depends on the truncation
+and the renormalization group trajectory. Efforts are now underway to evaluate the anomalous
+dimensions of length and volume operators [83], which might eventually lead to results for the
+scaling dimensions of section 2.1 near the fixed point.
+
+3.4    Causal set theory
+Yet another sign of dimensional reduction comes from a completely different approach to quantum
+gravity. Causal set theory [84] starts with perhaps the most primitive picture of a spacetime, a
+collection of discrete points whose only relations are those of causality. Most such sets are not at
+all manifold-like, but the hope is that a suitable dynamical principle will pick out the physically
+relevant class. For those causal sets that do approximate manifolds, the Lorentzian metric structure
+is determined by the causal structure, which fixes the conformal class of the metric [85], and the
+number of points in a region, which determines the conformal factor.
+    Causal sets are intrinsically Lorentzian, and we should use dimensional estimators that respect
+this property. One natural choice is the Myrheim-Meyer dimension dM M introduced in section
+2.1. It has been shown that for very small causal sets—those with four, five, or six elements—the
+average Myrheim-Meyer dimension is dM M ≈ 2 [50]. Work on extending this computation to larger
+sets is currently in progress. Further evidence comes from “generic” causal sets, which have a
+structure known as a Kleitman-Rothschild (KR) order [86]. Such sets are not at all manifold-like,
+and must be dynamically suppressed at large scales, but they might arguably remain important
+at small distances. KR orders have a Myrheim-Meyer dimension of dM M = 2.38. There are also
+indications that causal sets obtained by randomly “sprinkling” points in Minkowski space have
+Myrheim-Meyer dimensions that fall to dM M ≈ 2 for small subspaces [39]; again, work on this
+question is in progress.
+    We can also consider the causal spectral dimension dcs of section 2.1. Here, rather dramatically,
+Eichhorn and Mizera have shown that the dimension of a manifold-like causal set increases at short
+distances [38]. However, the d’Alembertian implicit in the definition of dcs also fails to reproduce
+the standard flat spacetime d’Alembertian on causal sets that approximate Minkowski space. If
+
+                                                 13
+one instead computes the spectral dimension from the “right” d’Alembertian, one obtains a result
+that shows the usual pattern of dimensional reduction to dcs = 2 at short distances [51]. It also
+seems that the Greens function dimension dG of section 2.2.2 falls to dG = 2 at short distances,
+although there are some ambiguities in a choice of regularization [50, 51].
+
+3.5    Loop quantum gravity
+Another place that we might look for evidence for dimensional reduction is loop quantum gravity,
+a popular canonical quantization scheme based on a particular choice of connection variables and
+a consequent nonstandard inner product [87]. At the kinematical level, loop quantum gravity has
+been very successful, with a rigorously defined Hilbert space of spin network states and a collection
+of interesting geometrical operators. The dynamics, as described by the Hamiltonian constraint,
+is much more poorly understood—in particular, the full physical Hilbert space is not known—and
+we shall see that this may be important for our questions.
+    In loop quantum gravity the evidence is mixed, but there are at least some indications of lower-
+dimensional behavior at short distances. This possibility was first noted by Modesto [88], who
+pointed out that the average area in loop quantum gravity could be written in the form
+                                              q
+                                                ℓ2 (ℓ2 + ℓ2p )
+                                     hÂℓ i = q                hÂℓ0 i                          (3.2)
+                                                 2 2       2
+                                                ℓ0 (ℓ0 + ℓp )
+
+where ℓ is a (quantized) length and ℓp is the Planck length. For large ℓ this is just the ordinary
+scaling of area, but for small ℓ it differs, suggesting a change in scaling dimensions of section 2.1. If
+we translate this behavior into a scale-dependent effective metric and, as in the asymptotic safety
+program, use this metric to determine a heat kernel and a spectral dimension, we find a flow from
+dS = 4 at large scales to dS = 2 at small scales. This analysis has been extended to the case of spin
+foams, the “paths” in the loop quantum gravity version of a path integral, and a similar pattern
+of dimensional reduction appears [89].
+    On the other hand, it is also possible to directly define a heat kernel and both Hausdorff and
+spectral dimension on a discrete complex such as a spin network or a spin foam [90]. Here the results
+are more ambiguous. It seems that pure spin network states do not exhibit dimensional flow [91],
+and while superpositions that exhibit dimensional reduction can be constructed, the short-distance
+dimension depends on details of the superposition [92]. The conclusion for physics may thus depend
+on the dynamics—exactly which superpositions are allowed by the Hamiltonian constraint—rather
+than merely on the kinematics. As a possible first step in this direction, dimensional reduction has
+been investigated in loop quantum cosmology, a “minisuperspace” theory in which all but a few of
+the degrees of freedom of loop quantum gravity are frozen out [93, 94]. Here modifications of the
+full constraint algebra lead to modified dispersion relations (see section 3.7). The results are still
+somewhat ambiguous, depending on model-dependent choices for particular quantum corrections,
+but the simple choices yield spectral and a thermodynamic dimensions dS = dth2 = 2.5 [93] or
+dS = 1 [94] at short distances.
+
+
+
+
+                                                   14
+3.6     The short distance Wheeler-DeWitt equation
+Inspired by the Hamiltonian formulation of the theory [95], early attempts to canonically quantize
+general relativity led to the Wheeler-DeWitt equation [96],
+                                                             
+                                 2        δ δ        1 √ (3)
+                             16πℓp Gijkl          −       q R Ψ[q] = 0                       (3.3)
+                                         δqij δqkl 16πℓ2p
+where qij is the spatial metric at a fixed time and Gijkl = 12 q −1/2 (qik qjl + qil qjk − qij qkl ) is the
+DeWitt supermetric. This is almost certainly not quite the right way to quantize gravity—we
+don’t know how to really make sense of the operators or construct a properly gauge-fixed inner
+product—but it is generally believed that the eventual quantum theory will contain something
+close to the Wheeler-DeWitt equation, at least as an approximation. So if quantum gravity leads
+to short distance dimensional reduction, that fact ought to be evident here as well.
+    The wave function Ψ[q] contains information about the metric at all scales. To focus in on small
+scales, we can look at the strong coupling limit ℓp → ∞. As Isham first pointed out [97], this is
+also an ultralocal limit: the only term involving spatial derivatives of the metric drops out.§ This
+limit was studied extensively in the 1980s (see [45] for references). As the Planck length becomes
+large, particle horizons shrink and light cones collapse to timelike lines, leading to the decoupling of
+neighboring points and the consequent ultralocal behavior [98]. In the completely decoupled limit,
+the solution at each point is essentially a Kasner space [99], while for large but finite ℓp solutions
+exhibit BKL behavior [100–102], looking locally Kasner but with chaotic “bounces” that change
+the Kasner axes and exponents.
+    Now, Kasner space is certainly four-dimensional. But as noted in section 2.1, geodesics at early
+times essentially see only one of the spatial dimensions, and the dimensional estimator dgeod shrinks
+to dgeod = 2 [44, 45]. This behavior has also been noticed in a completely different astrophysical
+context [103]. As discussed in [45], it is plausible that the spectral dimension exhibits a similar
+behavior. The heat kernel for Kasner space is of the form [104, 105]
+                                                 1 h       a           i
+                                  K(x, x; s) ∼        1 +    s + . . .   .                            (3.4)
+                                                4πs2      t2
+For a fixed time t, one can always find s small enough that the first term dominates, giving a
+“microscopic” spectral dimension dS = 4. But for a fixed return time s, that is, a fixed scale at
+which one is measuring the dimension, there is always a time t small enough that the second term
+dominates, giving an effective spectral dimension of dS = 2.
+    The key feature in this analysis is “asymptotic silence” [102], the collapse of light cones and
+the corresponding decoupling of neighboring points. I will return to this issue in section 4.2, but
+for now it is worth noting that the same phenomenon appears in a variety of other approaches to
+quantum gravity, from loop quantum cosmology to noncommutative geometry.
+
+3.7     Modified dispersion relations and noncommutative geometry
+The thermodynamic properties of a gas of particles depend on the dispersion relations E = E(p).
+There are many reasons one might try to alter the standard dispersion relations, most of them
+ §
+  Strictly speaking, the theory is not quite ultralocal even in this limit, since the diffeomorphism constraint, which
+does involve spatial derivatives, must still be imposed.
+
+                                                         15
+unrelated to gravity. But some research directions in quantum gravity—the application of non-
+commutative geometry, for instance, or generalizations of the uncertainty principle to allow for a
+minimum length—lead naturally to such modifications.
+    It has been known for many years that modified dispersion relations can alter thermodynamic
+behavior [106]. Inspired by the string theory results of section 3.1, several investigations in the early
+2000s briefly mentioned the possibility that this might lead to dimensional reduction [107–109].
+A concentrated focus on dimensional flow came more recently, though, starting, I believe, with
+an analysis by Husain, Seahra, and Webster of “polymer quantization,” a loop-quantum-gravity-
+inspired modification of the ordinary rules of quantum mechanics [49]. Here, the thermodynamic
+dimension dth2 was shown to drop to dth2 = 5/2 at high temperatures. Not long after, thermo-
+dynamic behavior was investigated for a particular noncommutative spacetime, Snyder space [46],
+where it was shown that at high temperatures, dth2 = dth3 = dth4 = 2. Thermodynamic dimensions
+were analyzed more systematically in [48] for a variety of dispersion relations, and it was demon-
+strated that the various dimensions of section 2.2.1 could all differ from each other, and could differ
+from the spectral dimension as well.
+    Given a set of modified dispersion relations, the spectral dimension is closely related to the
+thermodynamic dimensions, although they are not quite equivalent [48]. Roughly speaking, a
+dispersion relation E 2 − f (p2 ) = 0 translated into a d’Alembertian ∂t 2 − f (∇2 ), which can be
+Wick rotated and inserted into (2.5) to obtain a spectral dimension. Conversely, given any energy
+dependence of a spectral dimension, one can reconstruct a dispersion relation that reproduces that
+dependence [110]. This gives us an uncomfortable amount of freedom—we can choose any scale
+dependence of dimension we like, and build by hand a suitable dispersion relation—and it compels
+us to focus on dispersion relations that have a strong independent rationale.
+    One such rationale is the polymer quantization of [49], in which dimensional flow arises from
+the nonstandard inner product of loop quantum gravity (although not all approaches to polymer
+quantization lead to this effect [111]). Another rationale comes from the possible role of simple
+noncommutative geometries in quantum gravity, as in [46], and their implied dispersion relations.
+For instance, a form of “doubly special relativity”—a deformation of special relativity that preserves
+frame independence while introducing an invariant energy scale—leads to a spectral dimension
+that falls to dS = 2 at high energies, but the result depends on a free parameter [112]. A similar
+reduction of spectral dimension occurs another popular model of noncommutative geometry, κ-
+Minkowski space, but the limiting value again depends on a nonunique choice, now of a generalized
+Laplacian [113, 114]. It has recently been argued that the static potential between two charges
+becomes constant at very small distances in κ-Minkowski space, corresponding roughly to a Greens
+function dimension dG ≤ 3 [115]. Another model with a group-valued momentum space, inspired
+by exact results from three-dimensional gravity, also gives dS = 2 at high energies [116].
+    On the other hand, we can instead start with the more formal approach to noncommutative
+geometry based on the spectral action developed Connes and his collaborators [117]. Here it
+appears that the spectral dimension is dS = 0 [118, 119]. A variation of the spectral action exists,
+though, that leads to a spectral dimension that fall from dS = 4 at large scales to dS = 2 at small
+scales, the “conventional” behavior we have seen elsewhere [120].
+
+
+
+
+                                                   16
+3.8    Minimum length
+A frequent theme in quantum gravity is the possible existence of a minimum length [121, 122].
+Heuristically, if one tries to probe too small a length, one needs so much energy that the region
+being probed collapses into a black hole and becomes unobservable. While a minimum length is
+not a universal feature of quantum gravity, it is a common one, so it is interesting to see whether
+this is enough to imply some sort of short distance dimensional reduction.
+    Modesto and Nicolini [123] have argued that one effect of a minimum length should be to smear
+out the starting point of the diffusion process described by (2.5), replacing the initial condition
+K(x, x′ ; 0) = δ(x − x′ ) with a Gaussian distribution
+                                                          d/2
+                                      ′              1                   ′ 2     2
+                                K(x, x ; 0) =                     e−|x−x | /4ℓ                  (3.5)
+                                                    4πℓ2
+
+where ℓ is the minimum length. The resulting spectral dimension drops from dS = d at large scales
+to dS = d/2 at the minimum length scale. Padmanabhan, Chakraborty, and Kothawala [124]
+have looked at scaling dimensions for a geodesic ball with a “quantum metric” that incorporates a
+minimum length, finding that for any large-scale dimension, the box-counting dimension of section
+2.1 falls to db = 2 at small scales. Starting from the flow of spectral dimension in causal dynamical
+triangulations, Coumbe has suggested a similar scale-dependent rescaling of length as a mechanism
+for dimensional reduction [125, 126]. A minimum length may also be incorporated through a
+“generalized uncertainty principle” [122], which alters the Heisenberg commutation relations. Such
+a change leads to modified dispersion relations, as in section 3.7, so, not surprisingly, dimensional
+reduction appears at short distances [49,112]. Maziashvili has also argued that the finite resolution
+due to a minimum length causes the box-counting dimension db to decrease at small distances [127].
+
+3.9    Modified gravity
+Yet another approach to quantum gravity is to modify the Einstein-Hilbert action to make the
+theory renormalizable. One popular example is “Hořava-Lifshitz gravity” [128], a model that
+sacrifices Lorentz invariance in exchange for (possible) renormalizability. Here, a generalization of
+the spectral dimension flows from dS = 4 at low energies to dS = 2 at high energies [129], as do
+the thermodynamic dimensions dth1 and dth2 of section 2.2.1 [130]. Similarly, in curvature-squared
+models [131], which are renormalizable but very probably nonunitary, both the Green function
+dimension dG [132] and a generalized spectral dimension [133] fall to d = 2. In certain nonlocal
+renormalizable models, the spectral dimension again falls at high energies, now by an amount that
+depends on particular choices of form factors [134].
+    While these results may be taken as further evidence for short distance dimensional reduction,
+they may also serve as cautionary notes. The models I have described are defined on ordinary four-
+dimensional manifolds, and while the reduction of spectral dimension takes place at high energies,
+it is essentially classical. The same might be said for some of the models of modified dispersion
+relations of section 3.7. The moral, perhaps, is once again that one must be very careful about
+exactly what one means by “dimension”—different choices of how to measure dimension can give
+different results, which may not always reflect our intuition of what the dimension “really” is.
+
+
+                                                     17
+3.10     Spacetime foam
+Many years ago, Wheeler suggested that quantum fluctuations of the geometry and perhaps the
+topology of spacetime should lead to a “foamy” structure at the Planck scale [135]. A complete
+understanding of such behavior would certainly require a full quantum theory of gravity, but in
+the spirit of “stochastic gravity” [136] we might try to approximate spacetime foam by stochastic
+classical fluctuations. Several attempts in this direction have hinted at small scale dimensional
+reduction.
+    One of the earliest proposals, due to Crane and Smolin [16, 137], models spacetime foam as
+a collection of virtual black holes. If the distribution of such black holes is scale invariant and
+sufficiently dense, the spacetime outside their horizons becomes fractal, with a Hausdorff dimension
+and a scaling dimension for Greens functions of the form dH = dG = 4 − ε, where ε depends on
+the (unknown) details of the distribution. A few years later, Haba looked at the behavior of scalar
+Greens functions in a spacetime with a stochastically fluctuating metric with a scale-invariant
+spectrum of fluctuations [138, 139]. The result is again a reduction of dG by an amount that
+depends on the details of the distribution. Both proposals were motivated in part by the hope
+that metric fluctuations might tame the infinities of quantum field theory, and both have at least
+a heuristic connection to the asymptotic safety program of section 3.3. The minimum length
+scenario of Padmanabhan et al. [124] is in some sense a variation of the Crane-Smolin model, since
+the “quantum metric” can be viewed as generating a foamy structure of “holes” in spacetime.
+    A rather different stochastic treatment of vacuum fluctuations appears in [140]. As we have
+recently come to understand [141, 142], quantum fluctuations of the vacuum have a highly non-
+Gaussian distribution, with a “fat tail” of large positive energy fluctuations. These positive fluctua-
+tions focus null geodesics, and can be amplified by the nonlinearities of the Raychaudhuri equation.
+The result is a phenomenon known in statistics as “gambler’s ruin”: large positive fluctuations are
+rare, but once a large enough fluctuation occurs, subsequent negative fluctuations are too small
+to reverse its effect. In two spacetime dimensions, it was shown in [140] that these fluctuations
+collapse light cones at scales near the Planck length, arguably leading to a kind of universal short
+distance asymptotic silence of the sort discussed in section 3.6. It seems likely that this result can
+be extended to higher dimensions; see [143] for a first step.
+
+3.11     Multifractional geometry
+Multifractional geometry is not so much a model of quantum gravity that predicts dimensional
+reduction, but rather a broad mathematical framework that can naturally incorporate theories
+with scale-dependent dimensions. The formalism, based on fractional calculus, has been developed
+extensively by Calcagni and collaborators [36, 144, 145], and can provide a setting for writing
+down particular models of dimensional reduction that capture key features of other quantization
+programs. As we shall see in section 5, a class of multifractional models currently offer the strongest
+observational constraints on dimensional reduction. The framework also allows for the construction
+of models in which dimensional flow is related to an inherent uncertainty in length, or “spacetime
+fuzziness,” encoded in stochastic properties of the measure [146].
+
+
+
+
+                                                  18
+4     Common threads?
+We have seen that many approaches to quantum gravity show indications of dimensional reduction
+near the Planck scale. Taken individually, none of these hints is terribly convincing. Perhaps the
+best evidence comes from asymptotic safety, in which the argument for two-dimensional behavior
+at the ultraviolet fixed point is compelling, and causal dynamical triangulations, in which the
+evidence for flow of the spectral dimension is extremely strong. But for this evidence to be truly
+persuasive, we would have to actually know that quantum gravity has an interacting ultraviolet
+fixed point, as required by asymptotic safety, or that causal dynamical triangulations has the right
+continuum limit; that is, we would have to know how to quantize gravity.
+    Taken as a body, though, these hints become quite a bit more compelling. It seems rather
+unlikely that so many different approaches to quantum gravity would converge on the same result
+merely by accident. If this convergence is more than coincidence, though, it ought to be possible
+to to find a common thread, a single origin for dimensional reduction that is shared by all of the
+various approaches.
+    This is not easy. Even for the much more mature subject of black hole thermodynamics, we
+don’t really understand why so many approaches to quantization lead to the same expressions
+for temperature and entropy, although there is some evidence that this behavior can be traced
+back to a common symmetry [147, 148]. Moreover, as we have seen, different hints of dimensional
+flow employ different definitions of dimension, which need not be equivalent. If we are willing to
+be speculative, though, there have been suggestions of two possible common threads that could
+explain the “universality” of dimensional reduction.
+
+4.1     Scale invariance
+The fundamental premise of asymptotic safety is that the renormalization group flow of quantum
+gravity has a non-Gaussian (that is, interacting) ultraviolet fixed point. Such a fixed point is, by
+definition, a point at which the theory becomes scale invariant. This, in turn, implies dimensional
+reduction, essentially because it is only in two dimensions that Newton’s constant is dimensionless.
+    Causal dynamical triangulations arguably exhibits a similar scale invariance. There is growing
+evidence that a continuum limit occurs at a second order phase transition [149, 150], and at such
+a transition any theory becomes scale invariant [151]. This result may connect back to asymptotic
+safety: it has been argued that the continuum limit may only exist if the renormalization group
+flow for causal dynamical triangulations itself has an ultraviolet fixed point [152].
+    Similarly, the two terms in the Wheeler-DeWitt equation (3.3) scale differently under constant
+rescalings of the metric, but in the short distance limit only one of these remains, leading to a global
+scale invariance.¶ The Crane-Smolin “foam” model discussed in section 3.10 can be implemented
+with a scale-invariant distribution of virtual black holes, again giving scale invariance at short
+distances. For causal sets and loop quantum gravity, the situation is less clear, but Dittrich
+has proposed that loop quantum gravity and similar background-independent formulations should
+obey a set of consistency conditions under coarse-graining that are similar to the requirement of
+an interacting ultraviolet fixed point in asymptotic safety [154].
+ ¶
+  This invariance applies only for constant rescalings. In quantum field theory, such scale invariance plus Lorentz
+invariance usually implies full conformal invariance [153], but it is not clear whether this holds for quantum gravity.
+
+                                                          19
+    Amelino-Camelia, Arzano, Gubitosi, and Magueijo have argued forcefully for the fundamen-
+tality of scale invariance [155]. The central feature of the observed fluctuations of the cosmic
+microwave background (CMB) is its nearly scale-invariant spectrum. This is usually taken as evi-
+dence for inflation, but Amelino-Camelia et al. propose that it is instead a sign that at short enough
+distances and high enough energies, the universe really is scale invariant. Such a scale invariance
+may also be useful elsewhere, addressing some mysteries in particle physics; see, for example, [156].
+
+4.2    Asymptotic silence
+                         p
+The Planck length ℓp = ~G/c3 depends on Planck’s constant, Newton’s constant, and the speed
+of light. The ℓp → ∞ limit of section 3.6 is often described as a strong coupling limit, but it can
+equally well be viewed as an “anti-Newtonian” c → 0 limit [98]. In this limit, light cones collapse
+to lines, and nearby points become causally disconnected. This kind of behavior was first noticed
+in cosmology, where it was given the name “asymptotic silence” [157, 158]. In a sense, this is a
+reduction to one dimension, but the process goes by way of two dimensions, since, as described in
+section 3.6, the decoupling of neighboring points leads to BKL behavior with dgeod ∼ 2.
+    What makes this behavior intriguing is that it appears in many different contexts in quantum
+gravity. It has been suggested that short distance asymptotic silence arises directly from quantum
+fluctuations of the vacuum stress-energy tensor [140], as discussed in section 3.10. Eichhorn et
+al. have shown that causal sets that approximate continuum spacetimes exhibit something akin
+to asymptotic silence, with space breaking up at short distances into disconnected “islands” [159].
+Sorkin (cited in [159]) has also observed that in an asymptotically silent spacetime, one might
+expect drastically reduced scattering at high energies, since nearby worldlines do not meet. This
+does, indeed, happen in causal set theory, but also in string theory scattering at fixed small angle
+[58, 60]. The apparent reduction of the spectral dimension to dS = 0 in the Connes spectral
+action, as described in section 3.7, has been conjectured to be related to asymptotic silence, and
+a similar result occurs in a more “Lorentzian” approach to formal noncommutative geometry as
+well [160, 161]. And in loop quantum cosmology, there is evidence that the quantum deformation
+of the constraint algebra leads to asymptotic silence at high curvatures and high energies [162].
+
+
+5     Can dimensional reduction be tested?
+Ideally, we would resolve the question of dimensional flow by simply looking at experimental or
+observational evidence. In practice, this is unfortunately very difficult: in most approaches that
+exhibit dimensional reduction, the phenomenon takes place near the Planck scale, well outside the
+range of any ordinary experiment. On the other hand, we do have some results at the Planck scale
+from searches for other phenomena such as broken Lorentz invariance [163–165], so the possibility
+of observational tests is not completely outrageous.
+    Indeed, broken Lorentz invariance is the first place we might look for the effect of a reduction
+in the number of spacetime dimensions. Unfortunately, though, the strongest existing limits come
+from searches for “systematic” symmetry-breaking [163,165]—that is, patterns coming from a single
+global preferred frame—while the effects of dimensional reduction are typically “nonsystematic,”
+varying rapidly in space and time. In asymptotic silence, for instance, the preferred Kasner axis
+
+
+                                                 20
+that picks out the local two-dimensional spacetime at any given point varies chaotically [166, 167].
+There are some observational limits on nonsystematic violations of Lorentz invariance—see [165] for
+a recent review—but these are much more limited, and have not yet been applied to the question
+of dimensional reduction.
+    But while we do not yet have observational evidence, several lines of investigation are currently
+being pursued.
+
+   • Cosmology:
+     The expansion of the universe—especially if it includes an inflationary epoch—can stretch out
+     signals at the Planck length to sizes that might become observationally accessible. Cosmology
+     is thus a natural place to look for signs of Planck-scale dimensional reduction. In the absence
+     of a clear set of quantum gravitational predictions, we can use various simplified models to
+     describe dimensional reduction; ultimately, we will have to understand the extent to which
+     any predictions depend on the choice of model.
+     As noted in section 3.7, a scale-dependent spectral dimension can be translated into modified
+     dispersion relations [110]. Using this observation, Amelino-Camelia et al. show in [168] that
+     a spectral dimension dS = 2 at short distances naturally leads to a scale-invariant spectrum
+     of fluctuations in the CMB even without inflation. In more restrictive contexts, related ideas
+     appeared earlier in [169, 170], and similar results come from asymptotically safe cosmology
+     [171]. Typical models of this sort give predictions for the running of the spectral index of CMB
+     fluctuations that may be testable [155, 172, 173], and a start has been made on investigating
+     other properties of various models [174, 175]. It is not yet known, however, whether there
+     are features that would uniquely distinguish models with dimensional reduction from more
+     conventional cosmologies.
+     In a different approach to modeling dimensional reduction, two dimensions of spacetime can
+     be initially “frozen” and then joined by mode-matching to a fully dynamical four-dimensional
+     spacetime [176]. Here, observational signatures in the CMB seemed to be washed out by an
+     ensuing period of inflation. On the other hand, certain multifractional models predict log-
+     periodic oscillations, and these are now strongly constrained by CMB measurements [177].
+     In a rather different context, there has been recent interest in the cosmological implications
+     of quantum tunneling from a two-dimensional spacetime to four dimensions. In the language
+     of Lorentz symmetry breaking, this is a “systematic” change, one with a single global choice
+     of preferred dimensions. As such, it is not directly applicable to most of the dimensional flow
+     scenarios discussed here, but the results might still have some relevance. Tunneling events of
+     this sort lead to anisotropic spacetimes, although the anisotropy can be diluted by subsequent
+     inflation. Signatures of such an anisotropy in the CMB have been investigated in [178–181].
+     In addition to primordial quantum fluctuations of the CMB , we can look directly at the
+     CMB spectrum itself. This spectrum probes much larger length scales and lower energies—
+     we are looking at the surface of last scattering rather than the primordial fluctuations—but
+     it tests different dimensional estimators. In one of the earliest application of the notion of
+     thermodynamic dimension, Caruso and Oguri showed in 2009 that the dimension of space at
+     this scale differs from dth = 4 by at most a part in 10−5 [47].
+
+
+                                                 21
+• Particle physics:
+  Short-distance dimensional reduction can have implications throughout particle physics. The
+  problem, as usual, is that the Planck scale is so remote from any scale we can directly access.
+  To have any possibility of obtaining useful results, we must look at high energies, long time
+  spans for effects to accumulate, and precise measurements. Even with these tricks, we have
+  not yet managed to probe Planck scale effects, but in some models we are getting closer:
+
+    – The first applications of particle physics to determine dimension were designed merely to
+      measure the Hausdorff dimension of spacetime at “ordinary” scales. By considering the
+      anomalous magnetic moment of the electron in a spacetime of fractal dimension, Svozil
+      and Zeilinger concluded that our spacetime must have a dimension dH > 4−5×10−7 [15].
+      A similar calculation of the Lamb shift gives dH > 4 − 3.6 × 10−11 [182].
+    – One might hope that processes dominated by loops in Feynman diagram might be more
+      sensitive to dimensional reduction, since they involve virtual particles of arbitrarily high
+      energies. By looking at B-B̄ oscillations in spacetimes with scale-dependent Hausdorff
+      dimensions, Shevchenko has shown that observations are almost completely insensitive
+      to values 2 < dH < 5 at energies of 300-400 GeV [183], corresponding to distances on
+      the order of 10−18 m (still, of course, much larger than the Planck length).
+    – The most extensive studies have looked at certain classes of multifractional models
+      [184, 185]. The strongest bounds come from modifications of the Lamb shift and the
+      anomalous magnetic moment of the electron, both of which are measured with great
+      precision. Such observations constrain the characteristic length scale ℓ∗ for dimensional
+      reduction in these models: for a general class of models, Calcagni et al. find ℓ∗ < 10−17 m,
+      and for a specific choice of parameters, ℓ∗ < 10−27 m. (For a review, see [36].)
+    – Tests of Lorentz invariance achieve remarkable sensitivity by allowing possible violations
+      to accumulate over very long distances, for instance by looking at photons from distant
+      galaxies. The asymptotic silence picture of section 4.2 suggests the same approach: the
+      passage through successive random Kasner-like spaces might have an observable effect
+      on photon propagation. An investigation of this possibility is in progress.
+
+• TeV-scale gravity:
+  The basic reason that observational searches for dimensional flow are so hard, of course, is
+  that the Planck energy so high. One exotic possibility is that in the correct theory of gravity,
+  the true Planck energy might be much lower, perhaps near the TeV scale. Such modifications
+  of general relativity were originally introduced to solve puzzles in high energy physics, and
+  typically require extra dimensions [186, 187], seemingly the opposite of our focus here. But
+  the hints of dimensional reduction in section 3 are largely independent of the number of
+  starting dimensions, so we can begin with more than four dimensions and still ask about
+  dimensional reduction to d = 2. Alternatively, we might simply postulate that dimensional
+  reduction takes place for unknown reasons at energies less than Ep . Several models have been
+  built to exhibit this kind of behavior [13, 14, 188–191], and there are suggestions that such a
+  scenario might also help with some problems in high energy physics [192, 193].
+
+
+                                             22
+     With this assumptions, tests become much easier, and some of the limits described above
+     become significant. In fact, there is even a claim of observational evidence for dimensional
+     reduction, in the form of unexpectedly high planarity in secondary particles from cosmic ray
+     collisions in the atmosphere [194]. Accelerator tests have been proposed [193–196], based on
+     several different models of dimensional reduction, though so far no relevant deviations from
+     standard physics have been found. It has also been suggested that dimensional reduction
+     at TeV scales could affect the outcome of potential observations of primordial gravitational
+     waves [197], though the effects seem to be quite model-dependent [198].
+
+
+6    Implications for physics
+I will close with some speculation about the possible implications of short distance dimensional
+reduction for the future. Let us assume for the moment that the phenomenon is real, and that it
+takes place near the Planck scale. What does this mean for physics?
+    Of course, much of the answer depends on the details. The two possible common threads of
+section 4, scale invariance and asymptotic silence, suggest rather different directions for physics.
+Still, there are a few “universal” characteristics.
+    First of all, dimensional reduction would almost certainly have far-reaching implications for
+cosmology. One can invent exceptions: a contracting universe that “bounces” well before reaching
+the Planck density, for instance, might never reach a scale at which dimensional reduction is
+important. In most cosmological models, though, the very early universe would have a dimension
+smaller than four. This would be reflected not only in the geometry, but in the structure of the
+quantum vacuum, the equations of state for matter, and thermodynamic relations. Whether these
+effects would now be observable would depend on the amount of inflation—enough inflation can
+wash out almost any microscopic signature—but certainly any cosmology that hopes to deal with
+the birth of the universe would have to incorporate the fact that the newborn universe started with
+a different number of dimensions.
+    Second, dimensional reduction would almost certainly affect our understanding of black holes
+[199–201]. In particular, black hole thermodynamics depends strongly on dimension, and the
+dynamics of evaporation would certainly be affected by dimensional reduction near the horizon.
+This could have implications for astronomy, influencing estimates of the densities of primordial
+black holes. It would certainly have implications for fundamental issues like the information loss
+problem, which depend strongly on the dimension-dependent behavior of black holes in their final
+stages of evaporation.
+    Third, it is conceivable that dimensional reduction could profoundly affect our understanding
+of quantum field theory. The infinities of QFT are dimension-dependent, and there have been
+suggestions that dimensional reduction to d = 2 at high energies could eliminate ultraviolet diver-
+gences [138, 139, 192, 202]. Like most work in this area, these ideas have not yet been developed
+very deeply, but they could prove important.
+    Finally, dimensional reduction would surely affect the way we look at quantum gravity. At the
+very least, it would suggest new formulations in which our four (or more) macroscopic dimensions
+are split into two sectors with different characteristic length scales. If, in addition, the dimension
+at the smallest scales is d = 2, as suggested by many of the approaches of section 3, this might
+
+
+                                                 23
+allow us to employ the powerful methods of two-dimensional conformal field theory [203].
+    As noted in [204], a number of authors have looked at the effect of such a splitting of spacetime,
+although in the rather different setting of high energy (eikonal) scattering [205–207]. They begin
+with a metric that can be written locally as
+
+                                  ds2 = ℓ2k gµν dxµ dxν + ℓ2⊥ hij dxi dxj                         (6.1)
+
+with the added condition that “transverse” derivatives ∂i are small. The Einstein-Hilbert action is
+then approximately
+
+                       ℓ2⊥         √ √              1√
+                           Z                                                   
+                              2  2                          µν            ik jl
+                  I∼ 2       d xd y h     −gRg +       −gg ∂µ hij ∂ν hkl ǫ ǫ ,                (6.2)
+                       ℓp                           4
+
+an expression that looks very much like a two-dimensional action for the transverse metric hij .
+The action
+         √ (6.2) is not quite conformally invariant: the trace of its effective stress-energy tensor is
+T ∼  h, while conformal invariance would require T = 0. But the deviation can be small, for
+instance falling to zero at small t in Kasner space. Using a trick introduced by Solodhukin [208],
+we can extract an effective scalar field by setting hij = (1 + ϕ)σij with det σij = 1. To lowest order,
+ϕ then turns out to be a two-dimensional Liouville field with a central charge c ∼ A⊥ /ℓ2p . This is
+still far from the whole story—in the language of section 5, the metric (6.1) exhibits a “systematic”
+breaking of Lorentz invariance, with a global choice of longitudinal and transverse directions—but
+it offers an interesting place to start. A more general “2+2” splitting can be found in [209], though
+the dual length scales have not yet been incorporated. It may also be possible to use the general
+multifractional techniques of Calcagni described in section 3.11.
+     Or perhaps we should be more radical. In [155] it is proposed that we should start with a
+fundamental conformally invariant two-dimensional theory, from which the added dimensions of
+spacetime emerge after conformal symmetry-breaking. This is so far only a dream (though it is
+oddly reminiscent of the Polyakov approach to string theory [210]), but it could be a dream worth
+pursuing.
+
+
+Acknowledgments
+   This work was supported in part by Department of Energy grant DE-FG02-91ER40674.
+
+
+References
+  [1] A. Einstein, Sitzungsber. Preuss. Akad. Wiss. Berlin (1916) 688.
+
+  [2] S. Carlip, Int. J. Mod .Phys. D23 (2014) 1430023, arXiv:1410.1486.
+
+  [3] G. J. Whitrow, Br. J. Philos. Sci . VI (1955) 13.
+
+  [4] J. D. Barrow, Phil. trans. R. Soc. Lond. A 310 (1983) 337.
+
+  [5] C. Callender, Std. Hist. Phil. Mod. Phys. 36 (2005) 113.
+
+                                                    24
+ [6] L. Schläfli and J. H. Graf, Theorie der vielfachen Kontinuität, Zürcher & Furrer, Zürich,
+     1901.
+
+ [7] P. Ehrenfest, KNAW Proc. 20 I (1918) 200.
+
+ [8] G. Nordstrom, Z. Phys. 15 (1914) 504.
+
+ [9] T. Kaluza, Preuss. Akad. Wiss, Berlin, Math. Phys. K 1 (1921) 966
+
+[10] O. Klein Z. Phys. 37 (1926) 895
+
+[11] B. S. DeWitt, “Dynamical theory of groups and fields,” in Relativity, Groups and Topology,
+     edited by C. DeWitt and B. DeWitt, Gordon and Breach, New York, 1964, pp. 587–820.
+
+[12] N. Arkani-Hamed, A. G. Cohen, and H. Georgi, Phys. Rev. Lett. 86 (2001) 4757,
+     arXiv:hep-th/0104005.
+
+[13] A. N. Jourjine, Phys. Rev. D31 (1985) 1443.
+
+[14] V. Kaplunovsky and M. Weinstein, Phys. Rev. D31 (1985) 1879.
+
+[15] A. Zeilinger and K. Svozil, Phys. Rev. Lett.] 54, (1985) 2553.
+
+[16] L. Crane and L. Smolin, Gen. Rel. Grav. 17 (1985) 1209.
+
+[17] B. L. Hu and D. J. O’Connor, Phys. Rev. D34 (1986) 2535.
+
+[18] J. J. Atick and E. Witten, Nucl. Phys. B310 (1988) 291.
+
+[19] J. Ambjørn, J. Jurkiewicz,        and R. Loll,     Phys. Rev. Lett. 95 (2005) 171301,
+     arXiv:hep-th/0505113.
+
+[20] Galileo Galilei, Dialogue Concerning the Two Chief World Systems, translated by S. Drake,
+     Modern Library, New York, 2001, First Dialogue.
+
+[21] P. Cartier and C. DeWitt-Morette, Functional Integration, Cambridge University Press, 2006.
+
+[22] C. G. Torre, Phys. Rev. D48 (1993) 2373, arXiv:gr-qc/9306030.
+
+[23] W. Donnelly and S. B. Giddings, Phys. Rev. D 94 (2016) 104038, arXiv:1607.01025.
+
+[24] W. Hurewicz and H. Wallman, Dimension Theory, Princeton University Press, Princeton,
+     1948.
+
+[25] K. Nagami, Dimension Theory, Academic Press, New York, 1970.
+
+[26] D. Schleicher, Amer. Math. Monthly 114 (2007), 509, arXiv:math/0505099.
+
+[27] M. Requardt, Int. J. Geom. Meth. Mod. Phys. 3 (2006) 285, arXiv:math-ph/0507017.
+
+[28] Ya. B. Pesin, J. Stat. Phys. 71 (1993) 529.
+
+                                               25
+[29] B. Mandelbrot, Science 156 (1967) 636.
+
+[30] J. D. Farmer, E. Ott, and J. A. Yorke, Physica 7D (1983) 153.
+
+[31] H. G. E. Hentschel and I. Procaccia, Physica D8 (1983) 435.
+
+[32] J. L. Synge, Relativity: The General Theory (North-Holland, Amsterdam, 1960).
+
+[33] D. V. Vassilevich, Phys. Rept. 388 (2003) 279, arXiv:hep-th/0306138.
+
+[34] G. V. Dunne, J. Phys. A45 (2012) 374016, arXiv:1205.2723.
+
+[35] G. Amelino-Camelia, M. Arzano, G. Gubitosi, and J. Magueijo, Phys. Rev. D88 (2013)
+     103524, arXiv:1309.3999.
+
+[36] G. Calcagni, JHEP 1703 (2017) 138, arXiv:1612.05632.
+
+[37] G. Calcagni, A. Eichhorn, and F. Saueressig, Phys. Rev. D87 (2013) 124028, arXiv:1304.7247.
+
+[38] A. Eichhorn and S. Mizera, Class. Quant. Grav. 31 (2014) 125007, arXiv:1311.2530.
+
+[39] D. D. Reid, Phys. Rev. D67 (2003) 024034, arXiv:gr-qc/0207103.
+
+[40] J. Myrheim, 1978 CERN preprint TH-2538.
+
+[41] D. A. Meyer, Ph.D. thesis, MIT (1989), http://hdl.handle.net/1721.1/14328.
+
+[42] M. Roy, D. Sinha, and S. Surya, Phys. Rev. D87 (2013) 044046, arXiv:1212.0631.
+
+[43] R. D. Sorkin, arXiv:gr-qc/0309009.
+
+[44] S. Carlip, in Proc. of the 25th Max Born Symposium: The Planck Scale, AIP Conf. Proc.
+     1196 (2009) 72, arXiv:1009.1136.
+
+[45] S. Carlip, in Foundations of Space and Time, edited by J. Murugan, A. Weltman, and G. F. R.
+     Ellis, Cambridge University Press, 2012, arXiv:1009.1136.
+
+[46] K. Nozari, V. Hosseinzadeh, and M. A. Gorji, Phys. Lett. B750 (2015) 218, arXiv:1504.07117.
+
+[47] F. Caruso and V. Oguri, Ap. J. 694 (2009) 151.
+
+[48] G. Amelino-Camelia, F. Brighenti, G. Gubitosi, and G. Santos, Phys. Lett. B767 (2017) 48,
+     arXiv:1602.08020.
+
+[49] V. Husain, S. S. Seahra, and E. J. Webster, Phys. Rev. D88 (2013) 024014, arXiv:1305.2814.
+
+[50] S. Carlip, Class. Quant. Grav. 32 (2015) 232001, arXiv:1506.08775.
+
+[51] A. Belenchia, D. M. T. Benincasa, A. Marciano, and L. Modesto, Phys. Rev. D93 (2016)
+     044017, arXiv:1507.00330.
+
+
+                                              26
+[52] S. Weinberg, The Quantum Theory of Fields, Cambridge University Press, Cambridge, 1995,
+     section 10.7.
+
+[53] D. Becker and M. Reuter, JHEP 1412 (2014) 025, arXiv:1407.5848.
+
+[54] W. G. Unruh, Phys. Rev. D14 (1976) 870.
+
+[55] N. Alkofer, G. D’Odorico, F. Saueressig, and F. Versteegen, Phys. Rev. D94 (2016) 104055,
+     arXiv:1605.08015.
+
+[56] S. Weinberg, op. cit., chapter 18.
+
+[57] O. Andreev, JHEP 0903 (2009) 098, arXiv:0807.1017.
+
+[58] D. J. Gross and P. F. Mende, Nucl. Phys. B303 (1988) 407.
+
+[59] L. Susskind, Phys. Rev. Lett. 71 (1993) 2367, arXiv:hep-th/9307168.
+
+[60] P. F. Mende and H. Ooguri, Nucl. Phys. B339 (1990) 641.
+
+[61] D. J. Gross, Phil. Trans. R. Doc. Lond. A 329 (1989) 401.
+
+[62] D. J. Gross and J. L. Mañes, Nucl. Phys. B326 (1989) 73.
+
+[63] T. Regge, Nuovo Cim. 19 (1961) 558.
+
+[64] M. Rocek and R. M. Williams, Phys. Lett. B104 (1981) 31.
+
+[65] R. Loll, Living Rev. Relativity 1 (1998) 13, arXiv:gr-qc/9805049.
+
+[66] S. Jordan and R. Loll, Phys. Rev. D88 (2013) 044055, arXiv:1307.5469.
+
+[67] J. Ambjørn, A. Görlich, J. Jurkiewicz, R. Loll, J. Gizbert-Studnicki, and T. Trześniewski,
+     Nucl. Phys. B849 (2011) 144, arXiv:1102.3929.
+
+[68] J. H. Cooperman and J. Miller, Class. Quant. Grav. 31 (2014) 035012, arXiv:1305.2932
+
+[69] D. Benedetti and J. Hanson, Phys. Rev. D80 (2009) 124036, arXiv:0911.0401.
+
+[70] R. Kommu, Class. Quant. Grav. 29 (2012) 105003, arXiv:1110.6875.
+
+[71] D. N. Coumbe and J. Jurkiewicz, JHEP 1503 (2015) 151, arXiv:1411.7712.
+
+[72] G. Giasemidis, J. F. Wheater, and S. Zohren, Phys. Rev. D86 (2012) 081503(R) ,
+     arXiv:1202.2710.
+
+[73] J. Laiho, S. Bassler, D. Coumbe, D. Du, and J. T. Neelakanta, arXiv:1604.02745.
+
+[74] S. Weinberg, in General Relativity: an Einstein Centenary Survey, edited by S. W. Hawking
+     and W. Israel, Cambridge University Press, Cambridge,2010.
+
+
+                                              27
+[75] M. Reuter and F. Saueressig, Phys. Rev. D65 (2002) 065016, arXiv:hep-th/0110054.
+
+[76] M. Niedermaier, Class. Quant. Grav. 24 (2007) R171, arXiv:gr-qc/0610018.
+
+[77] K. Falls, D. F. Litim, K. Nikolakopoulos, and C. Rahmede, Phys. Rev. D 93 (2016) 104022,
+     arXiv:1410.4815.
+
+[78] O. Lauscher and M. Reuter, Phys. Rev. D65 (2002) 025013, arXiv:hep-th/0108040.
+
+[79] R. Percacci and D. Perini, Class. Quant. Grav. 21 (2004) 5035, arXiv:hep-th/0401071.
+
+[80] D. F. Litim, AIP Conf. Proc. 841 (2006) 322 (2006), arXiv:hep-th/0606044.
+
+[81] M. Reuter and F. Saueressig, JHEP 1112 (2011) 012, arXiv:1110.5224.
+
+[82] S. Rechenberger and F. Saueressig, Phys. Rev. D86 (2012) 024018, arXiv:1206.0657.
+
+[83] C. Pagani and M. Reuter, Phys. Rev. D95 (2017) 066002, arXiv:1611.06522.
+
+[84] L. Bombelli, J. Lee, D. Meyer, and R. Sorkin, Phys. Rev. Lett. 59 (1987) 521.
+
+[85] D. Malamet, J. Math. Phys. 18 (1977) 1399.
+
+[86] D. Kleitman and B. L. Rothschild, Trans. Am. Math. Soc. 205 (1975) 205.
+
+[87] C. Rovelli, Living Rev. Rel. 11 (2008) 5.
+
+[88] L. Modesto, Class. Quant. Grav. 26 (2009) 242002, arXiv:0812.2214.
+
+[89] E. Magliaro (, C. Perini, and L. Modesto, arXiv:0911.0437.
+
+[90] J. Thürigen, arXiv:1510.08706.
+
+[91] G. Calcagni, D. Oriti, and J. Thürigen, Class. Quant. Grav. 31 (2014) 135014,
+     arXiv:1311.3340.
+
+[92] G. Calcagni, D. Oriti, and J. Thürigen, Phys. Rev. D91 (2015) 084047, arXiv:1412.8390.
+
+[93] M. Ronco, Adv. High Energy Phys. 2016 (2016) 9897051, arXiv:1605.05979.
+
+[94] J. Mielczarek and T. Trześniewski, arXiv:1612.03894.
+
+[95] R. Arnowitt,iS. Deser,iand C. W. Misner, in Gravitation: an introduction to current research,
+     edited by L. Witten, Wiley, New York, 1962, pp. 227–264; reprinted in Gen. Rel. Grav. 40
+     (2008) 1997, arXiv:gr-qc/0405109.
+
+[96] B. S. DeWitt, Phys. Rev. 160 (1967) 1113.
+
+[97] C. J. Isham, Proc. R. Soc. London A351 (1976) 209.
+
+[98] M. Henneaux, Bull. Math. Soc. Belg. 31 (1979) 47.
+
+                                                 28
+ [99] A. Helfer, M. S. Hickman, C. Kozameh, C. Lucey, and E. T. Newman, Gen. Rel. Grav 20
+      (1988) 875.
+
+[100] V. A. Belinskii, I. M. Khalatnikov, and E. M. Lifshitz, Adv. Phys. 19 (1970) 525.
+
+[101] V. A. Belinskii, I. M. Khalatnikov, and E. M. Lifshitz, Adv. Phys. 31 (1982) 639.
+
+[102] J. M. Heinzle, C. Uggla, and N. Röhr, Adv. Theor. Math. Phys. 13 (2009) 293,
+      arXiv:gr-qc/0702141.
+
+[103] C. Chicone, B. Mashhoon, and K. Rosquist, Phys. Lett. A375 (2011) 1427, arXiv:1011.3477.
+
+[104] T. Futamase, Phys. Rev. D29 (1984) 2783.
+
+[105] A. L. Berkin, Phys. Rev. D46 (1992) 1551.
+
+[106] M. Lubo, arXiv:hep-th/0009162.
+
+[107] S. K. Rama, Phys. Lett. B519 (2001) 103, arXiv:hep-th/0107255.
+
+[108] J. Kowalski-Glikman, Phys. Lett. A299 (2002) 454, arXiv:hep-th/0111110.
+
+[109] M. Maggiore, Nucl. Phys. B647 (2002) 69, arXiv:hep-th/0205014.
+
+[110] T. P. Sotiriou, M. Visser, and S. Weinfurtner, Phys. Rev.               D84 (2011) 104018,
+      arXiv:1105.6098.
+
+[111] M. Arzano and M. Letizia, Phys. Rev. D90 (2014) 104036, arXiv:1408.2959.
+
+[112] G. Gubitosi and J. Magueijo, Class. Quant. Grav. 33 (2016) 115021, arXiv:1512.03268.
+
+[113] D. Benedetti, Phys. Rev. Lett. 102 (2009) 111303, arXiv:0811.1396.
+
+[114] M. Arzano and T. Trześniewski, Phys. Rev. D89 (2014) 124024, arXiv:1404.4762.
+
+[115] M. Arzano and J. Kowalski-Glikman, arXiv:1704.02225.
+
+[116] M. Arzano and F. Nettel, Phys. Lett. B767 (2017) 236, arXiv:1611.10343.
+
+[117] A. H. Chamseddine and A. Connes, Phys. Rev. Lett. 77 (1996) 4868, arXiv:hep-th/9606056.
+
+[118] N. Alkofer and F. Saueressig, Phys. Rev. D91 (2015) 025025, arXiv:1410.7999.
+
+[119] M. A. Kurkov, F. Lizzi, and D. Vassilevich, Phys. Lett. B731 (2014) 311, arXiv:1312.2235.
+
+[120] M. A. Kurkov, F. Lizzi, M. Sakellariadou, and A. Watcharangkool, Phys. Rev. D91 (2015)
+      065013, arXiv:1412.4669.
+
+[121] L. J. Garay, Int. J. Mod. Phys. A10, (1995) 145, arXiv:gr-qc/9403008.
+
+[122] S. Hossenfelder, Living Rev. Rel. 16 (2013) 2, arXiv:1203.6191.
+
+                                               29
+[123] L. Modesto and P. Nicolini, Phys. Rev. D81 (2010) 104040, arXiv:0912.0220.
+
+[124] T. Padmanabhan, S. Chakraborty, and D. Kothawala, Gen. Rel. Grav. 48 (2016) 55,
+      arXiv:1507.05669.
+
+[125] D. N. Coumbe, Phys. Rev. D91 (2015) 124040, arXiv:1502.04320.
+
+[126] D. N. Coumbe, Int. J. Mod. Phys. D0 (2017) 1750119, arXiv:1512.02519.
+
+[127] M. Maziashvili, Int. J. Mod. Phys. D18 (2009) 2209, arXiv:0905.3612.
+
+[128] P. Horava, Phys. Rev. D79 (2009) 084008, arXiv:0901.3775.
+
+[129] P. Hořava, Phys. Rev. Lett. 102 (2009) 161301, arXiv:0902.3657.
+
+[130] G. Alencar, V. B. Bezerra, M. S. Cunha, and C. R. Muniz, Phys. Lett. B747 (2015) 536,
+      arXiv:1505.05087.
+
+[131] K. S. Stelle, Phys. Rev. D16 (1977) 953.
+
+[132] J. Gegenberg and S. S. Seahra, arXiv:1705.00507.
+
+[133] G. Calcagni, L. Modesto, and G. Nardelli, Int. J. Mod. Phys. D25 (2016) 1650058,
+      arXiv:1408.0199.
+
+[134] L. Modesto, Astron. Rev. 8.2 (2013) 4, arXiv:1202.3151.
+
+[135] J. A. Wheeler, in Relativity, Groups and Topology, , edited by C. DeWitt and B. DeWitt,
+      Gordon and Breach, New York, 1964, pp. 317–520.
+
+[136] B. L. Hu, arXiv:1702.08145.
+
+[137] L. Crane and L. Smolin, Nucl. Phys. B267 (1986) 714.
+
+[138] Z. Haba, Phys. Lett. B528 (2002) 129, arXiv:gr-qc/0110076.
+
+[139] Z. Haba, J. Phys. A: Math. Gen. 35 (2002) 7425.
+
+[140] S. Carlip, R. A. Mosna, and J. P. M. Pitelli, Phys. Rev. Lett. 107 (2011) 021303,
+      arXiv:1103.5993.
+
+[141] C. J. Fewster, L. H. Ford, and T. A. Roman, Phys. Rev. D81 (2010) 121901, arXiv:1004.0179.
+
+[142] C. J. Fewster and L. H. Ford, Phys. Rev. D92 (2015) 105008, arXiv:1508.02359.
+
+[143] S. Carlip, arXiv:1505.07441.
+
+[144] G. Calcagni, Phys. Rev. Lett. 104 (2010) 251301, arXiv:0912.3142.
+
+[145] G. Calcagni, Phys. Rev. D 95 (2017) 064057, arXiv:1609.02776.
+
+
+                                                 30
+[146] G. Amelino-Camelia, G. Calcagni, and M. Ronco, arXiv:1705.04876.
+
+[147] S. Carlip, Gen. Rel. Grav. 39 (2007) 1519, arXiv:0705.3024.
+
+[148] S. Carlip, arXiv:1702.04439.
+
+[149] J. Ambjørn, J. Gizbert-Studnicki, A. Görlich, J. Jurkiewicz, N. Klitgaard, and R. Loll, Eur.
+      Phys. J. C77 (2017) 152, arXiv:1610.05245.
+
+[150] J. Ambjørn, D. Coumbe,          J. Gizbert-Studnicki,   A. Görlich,        and J. Jurkiewicz,
+      arXiv:1704.04373.
+
+[151] J. Cardy, Scaling and Renormalization in Statistical Physics, Cambridge University Press,
+      Cambridge, 1996.
+
+[152] J. H. Cooperman, Gen. Rel. Grav. 48 (2016) 1, arXiv:1406.4531.
+
+[153] Y. Nakayama, Phys. Rept. 569 (2015) 1, arXiv:1302.0884.
+
+[154] B. Dittrich, in Loop Quantum Gravity—The First 30 Years, edited by A. Ashtekar and J.
+      Pullin, World Scientific, 2017, arXiv:1409.1450.
+
+[155] G. Amelino-Camelia, M. Arzano, G. Gubitosi, and J. Magueijo, Int. J. Mod. Phys. D24
+      (2015) 1543002, arXiv:1505.04649.
+
+[156] A. Gorsky, A. Mironov, A. Morozov, and T. N. Tomaras, J. Exp. Theor .Phys. 120 (2015)
+      344 and Zh. Eksp. Teor. Fiz. 147 (2015) 399, arXiv:1409.0492.
+
+[157] M. Bruni, S. Matarrese,         and    O.    Pantano,   Astrophys.     J.    445   (1995)   958,
+      arXiv:astro-ph/9406068.
+
+[158] L. Andersson, H. van Elst, W, C. Lim, and C. Uggla, Phys. Rev. Lett. 94 (2005) 051101,
+      arXiv:gr-qc/0402051.
+
+[159] A. Eichhorn, S. Mizera, and S. Surya, arXiv:1703.08454.
+
+[160] F. Besnard, arXiv:1508.01917.
+
+[161] N. Bizi and F. Besnard, arXiv:1411.0878.
+
+[162] J. Mielczarek, AIP Conf. Proc. 1514 (2012) 81, arXiv:1212.3527.
+
+[163] D. Mattingly, Living Rev. Rel. 8 (2005) 5, arXiv:gr-qc/0502097.
+
+[164] V. A. Kostelecky and N. Russell , Rev. Mod. Phys. 83 (2011) 11, arXiv:0801.0287.
+
+[165] S. Liberati, Class. Quant. Grav. 30 (2013) 133001, arXiv:1304.5795.
+
+[166] D. F. Chernoff and J. D. Barrow, Phys. Rev. Lett 50 (1983) 134.
+
+[167] A. A. Kirillov and G. Montani, Phys. Rev. D56 (1997) 6225.
+
+                                                  31
+[168] G. Amelino-Camelia, M. Arzano, G. Gubitosi, and J. Magueijo , Phys. Rev. D87 (2013)
+      123532, arXiv:1305.3153.
+
+[169] J. Magueijo, Class. Quant. Grav. 25 (2008) 202002, arXiv:0807.1854.
+
+[170] S. Mukohyama, JCAP 0906 (2009) 001, arXiv:0904.2190.
+
+[171] A. Bonanno and M. Reuter, Phys. Rev. D65 (2002) 043508, arXiv:hep-th/0106133.
+
+[172] J. D. Barrow, M. Lagos, and J. Magueijo, Phys. Rev. D89 (2014) 083525, arXiv:1401.7491.
+
+[173] J. Mielczarek, arXiv:1503.08794
+
+[174] F. Brighenti, G. Gubitosi, and J. Magueijo, Phys. Rev. D95 (2017) 063534, arXiv:1612.06378.
+
+[175] A. Bonanno and F. Saueressig, arXiv:1702.04137.
+
+[176] M. Rinaldi, Class. Quant. Grav. 29 (2012) 085010, arXiv:1011.0668.
+
+[177] G. Calcagni, S. Kuroyanagi , and S. Tsujikawa, JCAP 1608 (2016) 039, arXiv:1606.08449.
+
+[178] J. Adamek, D. Campo, and J. C. Niemeyer, Phys. Rev. D82 (2010) 086006, arXiv:1003.3204.
+
+[179] P. W. Graham, R. Harnik , and S. Rajendran , Phys. Rev. D82 (2010) 063524,
+      arXiv:1003.0236.
+
+[180] J. J. Blanco-Pillado and M. P. Salem, JCAP 1007 (2010) 007, arXiv:1003.0663.
+
+[181] J. H. C. Scargill, JCAP 1508 (2015) 045, arXiv:1506.07100.
+
+[182] A. Schäfer and B. Müller, Phys. Rev. Lett. 56 (1986) 1215.
+
+[183] V. I. Shevchenko, arXiv:0903.0565.
+
+[184] G. Calcagni, G. Nardelli, and D. Rodrı́guez-Fernández, Phys. Rev. D93 (2016) 025005,
+      arXiv:1512.02621.
+
+[185] G. Calcagni, G. Nardelli, and D. Rodrı́guez-Fernández, Phys. Rev. D94 (2016) 045018,
+      arXiv:1512.06858.
+
+[186] N. Arkani-Hamed, S. Dimopoulos, and G. R. Dvali, Phys. Lett. B429 (1998) 263,
+      arXiv:hep-ph/9803315.
+
+[187] L. Randall and R. Sundrum, Phys. Rev. Lett. 83 (1998) 3370 (1999), arXiv:hep-ph/9905221.
+
+[188] A. N. Jourjine, arXiv:0804.4370.
+
+[189] N. Afshordi and D. Stojkovic, Phys. Lett. B739 (2014) 117, arXiv:1405.3297.
+
+[190] P. Hao and D. Stojkovic, Phys. Rev. D90 (2014) 024002, arXiv:1404.7145.
+
+
+                                                32
+[191] D. C. Dai, D. Stojkovic, B. Wang, and C. Y. Zhang, Phys. Rev. D90 (2014) 064031,
+      arXiv:1409.5139.
+
+[192] D. Stojkovic, Mod. Phys. Lett. A28 (2013) 1330034, arXiv:1406.2696.
+
+[193] H.-J. He and Z.-Z. Xianyu, Eur. Phys. J. Plus 128 (2013) 40, arXiv:1112.1028.
+
+[194] L. A. Anchordoqui et al., Phys. Rev. D83 (2011) 114046, arXiv:1012.1870.
+
+[195] D. F. Litim and T. Plehn, Phys. Rev. Lett. 100 (2008) 131301, arXiv:0707.3983.
+
+[196] E. Gerwick and T. Plehn, PoS CLAQG08 (2011) 009, arXiv:0912.2653.
+
+[197] J. R. Mureika and D. Stojkovic, Phys. Rev. Lett. 106 (2011) 101101, arXiv:1102.3434.
+
+[198] T. P. Sotiriou, M. Visser, and S. Weinfurtner, Phys. Rev. Lett. 107 (2011) 169001,
+      arXiv:1104.1223.
+
+[199] S. Carlip and D. Grumiller, Phys. Rev. D84 (2011) 084029, arXiv:1108.4686.
+
+[200] J. R. Mureika, Phys. Lett. B716 (2012) 171, arXiv:1204.3619.
+
+[201] K. Falls, D. F. Litim, and A. Raghuraman, Int. J. Mod. Phys. A27 (2012) 1250019,
+      arXiv:1002.0260.
+
+[202] L. Anchordoqui, D. C. Dai, G. Landsberg, and D. Stojkovic, Mod. Phys. Lett. A27 (2012)
+      1250021, arXiv:1003.5914.
+
+[203] P. Di Francesco, P. Mathieu, and D. Sénéchal, Conformal Field Theory, Springer, New York,
+      1997.
+
+[204] S. Carlip, AIP Conf. Proc. 1483 (2012) 63, arXiv:1207.4503.
+
+[205] G. ’t Hooft, Phys. Lett. 198B (1987) 61.
+
+[206] H. L. Verlinde and E. P. Verlinde, Nucl. Phys. B371 (1992) 246, arXiv:hep-th/9110017.
+
+[207] D. Kabat and M. Ortiz, Nucl. Phys. B388 (1992) 570, arXiv:hep-th/9203082.
+
+[208] S. N. Solodukhin, Phys. Lett. B454 (1999) 213, arXiv:hep-th/9812056.
+
+[209] J. H. Yoon, Phys. Lett. B451 (1999) 296, arXiv:gr-qc/0003059.
+
+[210] A. M. Polyakov, Phys. Lett. 103B (1981) 207.
+
+
+
+
+                                                 33
+

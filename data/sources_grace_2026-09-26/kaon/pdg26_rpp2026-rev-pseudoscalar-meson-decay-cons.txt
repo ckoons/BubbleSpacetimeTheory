@@ -1,0 +1,1173 @@
+1                  71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+         71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+Updated Aug. 2025 by R. A. Briere (Carnegie Mellon U.); written with J. L. Rosner (Chicago U.),
+S. L. Stone (Syracuse U.) and R. Van de Water (FNAL)
+71.1 Introduction
+    This review updates one in Ref. [1]. Lattice QCD updates rely on the Flavor Lattice Averaging
+Group FLAG 24 update [2]; these updates were modest. The most significant updates involve Ds
+experimental results; some changes to the discussions of semileptonic decays in second-generation
+unitarity and inclusive-exclusive Vub tension are also noted.
+    Charged mesons formed from a quark and antiquark can decay to a lepton-neutrino pair when
+these objects annihilate via a virtual W boson. Figure 71.1 illustrates this process for the purely
+leptonic decay of a D+ meson.
+
+
+
+
+    Figure 71.1: The annihilation process for pure D+ leptonic decays in the standard model.
+
+    Similar quark-antiquark annihilations via a virtual W + to the `+ ν final states occur for the π + ,
+K + , Ds+ , and B + mesons. (Whenever pseudoscalar-meson charges are specified in this article, use
+of the charge-conjugate particles and corresponding decays are also implied.) Let P be any of these
+pseudoscalar mesons. To lowest order, the decay width is
+                                                                           !2
+                                             G2                     m2
+                         Γ   (0)
+                                   (P → `ν) = F fP2 m2` MP       1 − `2         |Vq1 q2 |2 .          (71.1)
+                                             8π                     MP
+
+Here MP is the P mass, m` is the ` mass, Vq1 q2 is the Cabibbo-Kobayashi-Maskawa (CKM) matrix
+element between the quarks q1 q̄2 in P , and GF is the Fermi coupling constant. The decay constant
+fP is proportional to the matrix element of the axial current between the one-P -meson state and
+the vacuum:
+                                     h0|q̄1 γµ γ5 q2 |P (p)i = ipµ fP ,                     (71.2)
+
+and can be thought of as proportional to the “wave function overlap” of the quark and antiquark.
+In this article, we use the convention in which fπ ≈ 130 MeV. For brevity, we will often denote the
+purely leptonic decay width in Eq. (71.1) by Γ (0) .
+    The decay of P ± starts with a spin-0 meson, and ends up with a left-handed neutrino or right-
+handed antineutrino. By angular momentum conservation, the `± must then also be left-handed
+or right-handed, respectively. In the m` = 0 limit, the decay is forbidden, and can only occur as
+
+                 F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+                                                1st June, 2026 11:07am
+2                  71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+a result of the finite ` mass. This helicity suppression is the origin of the m2` factor in the decay
+width.
+    Experimentally, it is difficult to isolate events in which there are only a lepton and neutrino
+in the final state from those with a lepton, neutrino, and soft photon. Thus, radiative contri-
+butions must be removed from the experimental measurements a posteriori to obtain Γ (0) . The
+radiative contributions can be broken into three pieces: the short-distance contribution to leptonic
+and semileptonic decays mediated by a W ± boson that accounts for electroweak corrections not
+included in the definition of GF , the long-distance internal bremsstrahlung (IB) contribution, and
+the contribution from photon emission that depends upon the hadron’s structure. The universal
+electroweak correction was calculated at O(α) by Sirlin [3], and increases the purely leptonic decay
+rate by ∼ 1.8–2.2% depending on the decaying meson. The O(α) IB contribution was calculated
+by Kinoshita [4], and again is universal for all leptonic decays at this order. Numerically, this uni-
+versal long-distance contribution lowers the purely leptonic decay rate by ∼ 0.4–2.4%, where the
+correction is smallest for pions and largest for D(s) mesons. The structure-dependent contributions
+have been estimated within various effective theories and from lattice-QCD,QED calculations to
+increase the purely leptonic rate by one to a few percent [5–10].
+    In this review, we treat the radiative corrections differently for the light, charm, and bottom
+meson systems for several reasons. First, the experimental uncertainties on the decay widths vary
+substantially. Thus, while the inclusion of radiative corrections is essential for the pion, kaon,
+and D(s) -meson decay widths, which have been measured to (sub)-percent precision, radiative
+corrections can be neglected (for now) for B → τ ν decay. Second, the photons are treated differently
+on the experimental side for the different decay processes. For pions and kaons, the experimental
+measurements of ΓP `2[γ] are fully inclusive, while for D(s) mesons, the experiments impose cuts
+on the energy of any neutral cluster deposited in the calorimeter, which reduce the soft-photon
+background substantially. Some experiments also remove the QED bremsstrahlung in the leading-
+logarithmic approximation using the PHOTOS Monte-Carlo generator [11]. Third, the theoretical
+knowledge of the structure-dependent corrections varies for each meson system.
+    Once radiative corrections have been accounted for, measurements of purely leptonic decay
+branching fractions and lifetimes allow an experimental determination of the product |Vq1 q2 | fP . If
+the decay constant fP is known to sufficient precision from theory, one can obtain the corresponding
+CKM element within the standard model. If, on the other hand, one takes the value of |Vq1 q2 |
+assuming CKM unitarity, one can infer an “experimental measurement” of the decay constant that
+can then be compared with theory.
+    The importance of measuring Γ (P → `ν) depends on the particle being considered. Leptonic
+decays of charged pseudoscalar mesons occur at tree level within the standard model. Thus one does
+not expect large new-physics contributions to measurements of Γ (P → `ν) for the lighter mesons
+P = π + , K + , and these processes, in principle, provide clean standard-model determinations of |Vud |
+and |Vus |. The situation is different for leptonic decays of charm and bottom mesons. The presence
+of new heavy particles such as charged Higgs bosons or leptoquarks could lead to observable effects
+                             +
+in Γ (P → `ν) for P = D(s)     , B + [12–16]. Thus, the determination of |Vub | from B + → τ ν decay,
+in particular, should be considered a probe of new physics. More generally, the ratio of leptonic
+decays to τ ν over µν final states probes lepton universality [12, 17].
+    The determinations of CKM elements from leptonic decays of charged pseudoscalar mesons
+provide complementary information to those from other decay processes. The decay P → `ν
+proceeds in the standard model via the axial-vector current q¯1 γµ γ5 q2 , whereas semileptonic pseu-
+doscalar meson decays P1 → P2 `ν proceed via the vector current q¯1 γµ q2 . Thus the comparison of
+determinations of |Vq1 q2 | from leptonic and semileptonic decays tests the V − A structure of the
+standard-model electroweak charged-current interaction. More generally, a small right-handed ad-
+
+                                            1st June, 2026
+3                  71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+mixture to the standard-model weak current would lead to discrepancies between |Vq1 q2 | obtained
+from leptonic pseudoscalar-meson decays, exclusive semileptonic pseudoscalar-meson decays, exclu-
+sive semileptonic baryon decays, and inclusive semileptonic decays [18, 19].
+    Both measurements of the decay rates Γ (P → `ν) and theoretical calculations of the decay
+                                  +
+constants fP for P = π + , K + , D(s) from numerical lattice-QCD calculations are now quite precise.
+As a result, the elements of the first row of the CKM matrix |Vud | and |Vus | can be obtained to
+sub-percent precision from π + → `ν and K + → `ν, where the limiting error is from continuum
+theory radiative corrections. The elements of the second row of the CKM matrix |Vcd(s) | can be
+obtained from leptonic decays of charmed pseudoscalar mesons to few-percent precision, where here
+the limiting error is from experiment. These enable stringent tests of the unitarity of the first and
+second rows of the CKM matrix.
+
+    This review is organized as follows. Because the experimental and theoretical issues associated
+with measurements of pions and kaons, charmed mesons, and bottom mesons differ, we discuss
+each one separately. We begin with the pion and kaon system in Sec. 71.2. First, in Sec. 71.2.1,
+we review current measurements of the experimental decay rates. We provide tables of branching-
+ratio measurements and determinations of the product |Vud(s) |fπ+ (K + ) , as well as average values
+for these quantities including correlations and other effects needed to combine results. Then,
+in Sec. 71.2.2, we summarize the status of theoretical calculations of the decay constants. We
+provide tables of recent lattice-QCD results for fπ+ , fK + , and their ratio from calculations including
+dynamical u, d, s, and (in some cases c) quarks, along with averages including correlations and
+strong SU(2)-isospin breaking corrections as needed. We next discuss the charmed meson system
+in Sec. 71.3, again reviewing current experimental rate measurements in Sec. 71.3.1 and theoretical
+decay-constant calculations in Sec. 71.3.2. Last, we discuss the bottom meson system in Sec. 71.4,
+following the same organization as the two previous sections. For almost all of the decay constants
+presented in Secs. 71.2.2, 71.3.2, and 71.4.2, we take as our preferred values the four-flavor averages
+from the FLAG 24 review [2], with isospin-breaking corrections as noted.
+    After having established the status of both experimental measurements and theoretical calcula-
+tions of leptonic charged pseudoscalar-meson decays, we discuss some implications for phenomenol-
+ogy in Sec. 71.5. For each process discussed in Secs. 71.2–71.4, we combine the average B(P → `ν)
+with the decay constant fP to infer the associated CKM matrix element. We then compare these
+results with determinations of the same CKM elements from other processes. We also use the
+CKM elements obtained from leptonic decays to test the unitarity of the first and second rows of
+the CKM matrix. Further, as in previous reviews, we combine the experimental B(P → `ν)s with
+the associated CKM elements obtained from CKM unitarity to infer “experimental” values for the
+decay constants. The comparison of these values with theory provides a test of lattice and other
+QCD approaches, assuming that new-physics contributions to these processes are not significant.
+71.2 Pions and kaons
+71.2.1 Experimental rate measurements
+    Experimental rate measurements of pion and kaon leptonic decays are fully radiation inclusive.
+Following Refs. [20, 21], and references therein, we combine the O(α) radiative corrections to the
+purely leptonic rate as follows:
+
+                                                                   α
+                                                                       
+                             Γ (P → `ν[γ]) = Γ (0) (P → `ν) 1 +      CP ,                         (71.3)
+                                                                   π
+
+where P = π, K. The full expressions for Cπ and CK are given in Eq. (114) of Ref. [7]. In addition
+to the universal short- [3] and long-distance [4] corrections, Cπ and CK include hadronic-structure
+
+                                            1st June, 2026
+4                    71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+dependent contributions [5] through O(αp4 ) in chiral perturbation theory (χPT), where p is the
+pion or kaon momentum. The inclusion of radiative corrections to the purely leptonic rates is
+numerically important given the level of precision achieved on the experimental measurements of
+the π ± → µ± ν and K ± → µ± ν decay widths.
+    We evaluate δP ≡ (α/π)CP using experimentally-measured meson and lepton masses and cou-
+pling constants from the Particle Data Group [22], and taking the low-energy constants (LECs) that
+parametrize the hadronic contributions from Refs. [7, 23, 24]. Because the finite non-logarithmic
+parts of the LECs were estimated within the large-NC approximation assuming that contributions
+from the lowest-lying resonances dominate, we conservatively assign a 100% uncertainty to the
+LECs, which leads to a ±0.9 error in Cπ,K .1 We obtain the following correction factors to the
+individual charged pion and kaon decay widths:
+                                 δπ = 0.0176(21)       and     δK = 0.0107(21) .                              (71.4)
+The error on the ratio of kaon-to-pion leptonic decay widths is under better theoretical control
+because the hadronic contributions from low-energy constants estimated within the large-Nc frame-
+work cancel at lowest order in the chiral expansion. For the ratio, we use the correction factor
+                                              δK/π = −0.0069(17) ,                                            (71.5)
+where we take the estimated error due to higher-order corrections in the chiral expansion from
+Ref. [26].
+    There have been no new measurements of the pion leptonic decay rate since the review of
+Ref. [27]. The sum of branching fractions for π − → µ− ν̄ and π − → µ− ν̄γ is 99.98770(4)% [1].
+Together with the lifetime 26.033(5) ns [1] this implies Γ (π − → µ− ν̄[γ]) = 3.8408(7) × 107 s−1 .
+We then subtract the estimated radiative correction factor δπ in Eq. (71.4) to obtain the purely
+leptonic rate Γ (0) (π − → µ− ν̄). Using this rate and the PDG masses [1] in Eq. (71.1) gives
+                                  fπ+ |Vud | = (127.13 ± 0.01 ± 0.13) MeV ,                                   (71.6)
+where the errors are from the experimental rate measurement and the radiative correction factor,
+respectively.
+    The uncertainty on fπ− |Vud | is dominated by that from theoretical estimate of the hadronic
+structure-dependent radiative corrections. The first direct lattice-QCD calculation of the radiative
+corrections to the pion and kaon leptonic decay rates was performed by the RM123-Soton Collab-
+oration [10]. The results for both δπ = 0.0153(19) and δK = 0.0088(9), which are given in the
+Gasser-Rusetsky-Scimemi scheme for separating strong and electromagnetic effects [28], are com-
+patible with our chiral-perturbation-theory estimates above and have smaller quoted uncertainties,
+especially for δK . Less precise results have also been presented by RBC/UKQCD [29]. While fur-
+ther confirmation of these results is needed, they demonstrate a promising approach for reducing
+the theoretical uncertainties on the pion and kaon leptonic decay rates in the future.
+    The world average for the K → µν decay rate was previously obtained from a global fit of several
+kaon-decay branching ratios and lifetime measurements by the FlaviaNet Working Group on Kaon
+Decays in 2014 [42]; we have now updated to the PDG [1]. The radiation-inclusive branching ratio
+B(K + → µ+ ν[γ]) = 63.56(11)% and lifetime τK ± = 12.380(20) ns are now used; this is a very
+small change. These measurements imply Γ (K + → µ+ ν[γ]) = 5.134(12) × 107 s−1 . As before, we
+    1
+     This uncertainty on Cπ,K is smaller than the error estimated by Marciano and Sirlin in Ref. [25], which predates
+the calculations of the hadronic-structure contributions in Refs. [5, 7, 23, 24]. The hadronic LECs incorporate the
+large short-distance electroweak logarithm discussed in Ref. [25], and their dependence on the chiral renormalization
+scale cancels the scale-dependence induced by chiral loops, thereby removing the dominant scale uncertainty of the
+Marciano–Sirlin analysis [25].
+
+
+                                                  1st June, 2026
+5                      71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+                 Table 71.1: Recent published lattice-QCD results for fπ+ , fK + , and
+                 their ratio. The upper and lower panels show (2 + 1 + 1)-flavor and (2 + 1)-
+                 flavor determinations, respectively. When two errors are shown, they are
+                 statistical and systematic, respectively. Results for fπ and fK in the isospin
+                 symmetric limit mu = md are noted with a ‡; they are corrected for isospin
+                 breaking via Eq. (71.13) before computing the averages. The 2+1+1 FLAG
+                 24 averages are dominated by the Fermilab/MILC values.
+
+    Reference                             Nf          fπ+ (MeV)           fK + (MeV)                fK + /fπ+
+    ETM 21 [30]                          2+1+1             –             155.92(62)(9)           1.1957(44)(7)
+    CalLat 20 [31]                       2+1+1             –                    –               1.1942(32)(31)
+    Fermilab/MILC 17 [32] ∗              2+1+1             –                    –               1.1950(15)(+6−18 )
+    ETM 14 [33] ∗                        2+1+1             –            154.4(1.5)(1.3)          1.184(12)(11)
+    Fermilab/MILC 14 [9] ∗ †             2+1+1             –            155.92(13)(+42
+                                                                                   −34 )      1.1956(10)(+26
+                                                                                                           −18 )
+                                                                                                                 † ‡
+
+    HPQCD 13 [34] ∗                      2+1+1             –            155.37(20)(27)          1.1916(15)(16)
+    FLAG 24 average [2]                  2+1+1             –               155.7(3)                1.1934(19)
+    CLQCD 23 [35]                         2+1       130.7(0.9)(2.1)     155.6(0.8)(2.7)          11907(76)(17)
+    QCDSF/UKQCD 16 [36]                   2+1              –                    –                1.190(10)(13)
+    BMW 16 [37]                           2+1              –                    –                1.178(10)(26)
+    RBC/UKQCD 14 [38]‡                    2+1         130.19(89)          155.51(83)               1.1945(45)
+    MILC 10 [39]                          2+1       129.2(0.4)(1.4)      156.1(4)(+6
+                                                                                  −9 )            1.197(2)(+3
+                                                                                                            −7 )
+    BMW 10 [40]‡                          2+1              –                    –                  1.192(7)(6)
+    HPQCD/UKQCD 07 [41]‡                  2+1           132(2)              157(2)                 1.189(2)(7)
+    FLAG 24 average [2]                   2+1          130.2(8)            155.7(7)                1.1916(34)
+
+    ∗
+        PDG 2014 value of fπ+ = 130.41(21) MeV used to set absolute lattice scale.
+    †
+        Superseded by fK + /fπ+ from Fermilab/MILC 17.
+
+
+
+
+subtract δK in Eq. (71.4) from the radiation-inclusive decay width to obtain Γ (0) (K + → µ+ ν). We
+then use Eq. (71.1) to obtain
+
+                                   fK + |Vus | = (35.083 ± 0.042 ± 0.037) MeV ,                                  (71.7)
+
+where the errors are from the experimental rate measurement and the radiative correction factor,
+respectively.
+    Short-distance radiative corrections cancel in the ratio of pion-to-kaon decay rates [43]:
+                               ΓK`2[γ]          2 |f 2
+                                             |Vus                   2    2 2
+                                                     K − mK (1 − m` /mK )
+                                         =                                    (1 + δK/π ) ,                      (71.8)
+                               Γπ`2[γ]       |Vud |2 fπ2− mπ (1 − m2` /m2π )2
+
+where δK/π is given in Eq. (71.5). The left-hand side of Eq. (71.8) is 1.3367(32), which implies
+
+                                    |Vus |fK +
+                                               = 0.27599 ± 0.00033 ± 0.00024 ,                                   (71.9)
+                                    |Vud |fπ+
+where the first uncertainty is from the branching fractions and the second is from δK/π . Here, the
+estimated error on the hadronic structure-dependent radiative corrections is commensurate with
+the experimental error.
+
+                                                     1st June, 2026
+6                    71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+      In summary, the main experimental results pertaining to charged pion and kaon leptonic decays
+are
+                                 |Vud |fπ+ = (127.13 ± 0.01 ± 0.13) MeV ,                                  (71.10)
+                              |Vus |fK + = (35.083 ± 0.042 ± 0.037) MeV ,                        (71.11)
+                              |Vus |fK +
+                                         = 0.27599 ± 0.00033 ± 0.00024 ,                         (71.12)
+                              |Vud |fπ+
+where the errors are from the experimental uncertainties in the branching fractions and the theo-
+retical uncertainties in the radiative correction factors δP , respectively. These values are unchanged
+since the last reviews [1].
+71.2.2 Theoretical decay-constant calculations
+     Table 71.1 presents recent published results for the charged pion and kaon decay constants
+and their ratio from numerical lattice-QCD calculations with three (Nf = 2 + 1) or four flavors
+(Nf = 2 + 1 + 1) of dynamical quarks. The uncertainties on both the individual decay constants
+and their ratio are at the sub-percent level. The SU(3)-breaking ratio fK + /fπ+ can be obtained
+with especially small errors because statistical errors associated with the Monte Carlo calculations
+are correlated between the numerator and denominator, as are some systematics. The results
+in Table 71.1 were obtained using several independent sets of gauge-field configurations, and a
+variety of lattice fermion actions that are sensitive to different systematic uncertainties.23 Thus,
+the good agreement between them indicates that the lattice-QCD uncertainties are controlled and
+the associated error estimates are reliable.4
+     Table 71.1 also shows the three- and four-flavor averages for the pion and kaon decay constants
+and their ratio from the FLAG 24 review [2] in the lines labeled “FLAG 24 average.” There
+is no four-flavor average for the pion decay constant in Table 71.1 because all of the four-flavor
+calculations use the quantity fπ+ = 130.41(20) MeV [22] as an input to fix the absolute lattice scale
+needed to convert from lattice-spacing units to GeV [9, 33, 34].
+     All of the results in Table 71.1 were obtained using isospin-symmetric gauge-field configurations,
+i.e., the dynamical up and down quarks have the same mass. Fortunately, however, the leading
+effect of strong-isospin breaking is easily included in lattice-QCD calculations as follows. Because
+the up-down mass difference ∆mud ≡ (mu − md ) ∼ −2.5 MeV [49, 51] is much less than typical
+hadronic scales, the strong-isospin breaking corrections to physical observables can be systemati-
+cally expanded in the small parameter δmud ≡ ∆mud /ΛQCD . The leading strong-isospin-breaking
+corrections to pseudoscalar-meson decay constants arise from the light valence quarks in the initial-
+and final-state hadrons. (See, e.g., the discussion in Ref. [52], for a detailed discussion of isospin-
+breaking effects in pion and kaon observables.) Thus, to include the effect of non-degenerate up-
+and down-quark masses, most recent lattice-QCD calculations of fπ+ and fK + evaluate the masses
+of the valence quarks in the pion at the physical mu and md , and the mass of the valence light quark
+in the kaon at the physical mu . This procedure yields a correction to the kaon decay constant below
+0.5%. Consequently, strong-isospin breaking corrections from the light sea-quark masses — which
+are suppressed by an additional power of δmud — can be neglected given present uncertainties.
+     Some earlier lattice-QCD calculations, however, only provide the decay constants and their ratio
+in the SU (2) isospin-symmetric limit [38, 40, 41]. The Flavour Lattice Averaging Group corrects
+these results for strong-isospin breaking using chiral perturbation theory before including them in
+    2
+      See the PDG mini-review on “Lattice Quantum Chromodynamics” [44–46] for a general review of numerical
+lattice-QCD calculations. Details on the different methods used in modern lattice-QCD calculations are provided in
+Appendix A of the FLAG “Review[s] of lattice results concerning low energy particle physics" [47–49].
+    3
+      Note that one must be careful concerning issues of scheme dependence, particularly in the ambiguous separation
+of QED and QCD effects; see, e.g., Sec. 3 of Ref. [2].
+    4
+      See the review by Kronfeld [50] for a summary of the large body of evidence validating the methods employed
+in modern lattice-QCD calculations.
+                                                 1st June, 2026
+7                    71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+the averages. The leading strong-isospin-breaking corrections to the pion and kaon decay constants
+in χPT can be parametrized as [26, 53]
+                                                                   q
+                                    fπ+ = fπ ,        fK + = fK        1 + δSU(2) ,                           (71.13)
+
+where fπ and fK denote the values of the decay constants in the isospin-symmetric limit. The pion
+decay constant does not receive corrections linear in mu − md because of the G-parity symmetry5
+of the pion triplet, so at first order the δmud expansion, strong-isospin breaking corrections are
+characterized by a single parameter, δSU(2) . Next-to-leading order χPT yields numerical values
+for δSU(2) of approximately −0.004. Recent direct lattice-QCD calculations of δSU(2) give larger
+values of around −0.005 to −0.008 [10, 32–34, 52, 54], but further studies are needed. Thus, to be
+conservative, FLAG includes an uncertainty of 100% on the χPT estimate for δSU(2) when correcting
+those decay-constant values that are quoted in the isospin-symmetric limit.
+    The errors on the decay-constant results in Table 71.1 obtained from (2 + 1)-flavor lattice-QCD
+calculations do not include an estimate of the systematic uncertainty from the omission of charm
+sea quarks in the calculation. Consequently, when the uncertainty on the (2 + 1 + 1)-flavor FLAG
+average is comparable to or better than that on the (2 + 1)-flavor FLAG average, we simply use
+the four-flavor average as our preferred value. This is not possible, however, for the pion decay
+constant. To account for this, we first estimate the systematic uncertainty on pseudoscalar-meson
+decay constants associated with the omission of charm sea quarks. We then add this estimate in
+quadrature to the quoted error on the (2 + 1)-flavor FLAG average for fπ+ to obtain our preferred
+value.
+    The error introduced by omitting charm sea quarks can be roughly estimated by expanding
+the charm-quark determinant in powers of 1/mc [55]; the resulting leading contribution is of or-
+der αs (ΛQCD /2mc )2 [56]. Taking the MS values mc (mc ) = 1.275 GeV, ΛQCD ∼ 340 MeV from
+FLAG [47], and αs (mc ) ∼ 0.4, leads to an estimate of about 0.7% for the contribution to the decay
+constants from charm sea quarks. We can compare this power-counting estimate of charm sea-quark
+contributions with the observed differences between the (2+1)- and (2+1+1)-flavor lattice-QCD
+averages for kaon, D(s) -meson, and B(s) -decay constants in Tables 71.1, 71.4, and 71.6. Looking
+at Table 71.1, the three- and four-flavor averages for fK + agree to much better than our simple
+power-counting estimate. Inspection of Tables 71.4 and 71.6 shows, however, that charm sea-quark
+effects of this size are still allowed for both D(s) -meson and B(s) -meson decay constants.
+    Our final preferred theoretical values for the charged pion and kaon decay constants are
+                                                                               fK +
+                    fπ+ = 130.2(1.2) MeV , fK + = 155.7(3) MeV ,                    = 1.193(2) ,              (71.14)
+                                                                               fπ+
+where fK + and fK + /fπ+ are simply the four-flavor FLAG 2024 averages [2], and fπ+ is the three-
+flavor FLAG 2024 average with the error increased by the estimated 0.7% charm sea-quark contri-
+bution.
+71.3 Charmed mesons
+71.3.1 Experimental rate measurements
+   Measurements have been made of the branching fractions for D+ and Ds+ mesons decaying to
+both µ+ ν and τ + ν final states. The CLEO-c and BESIII experiments have made measurements of
+D+ decays using e+ e− collisions at the ψ(3770) resonant energy where D− D+ pairs are copiously
+produced. They fully reconstruct one of the D mesons; for concreteness, we will take this to be the
+D− . Counting the number of these events provides the normalization for the branching fraction
+    5
+      This is a combination of charge conjugation, C, and an eiπI2 rotation in isospin space that maps the triplet onto
+itself.
+
+
+                                                  1st June, 2026
+8                 71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+measurement. The experimental analyses then proceed by identifying a candidate µ+ and forming
+                                                                             2
+the missing-mass squared, MM 2 = (Ecm − ED− )2 − p~cm − p~D− − p~µ+ , where Ecm and pcm are
+the center-of-mass energy (which is known) and momentum (which equals zero in e+ e− collisions).
+A peak at zero MM 2 implies the existence of a missing neutrino, and hence the µ+ ν decay of
+the D+ . CLEO-c does not explicitly identify the muon, so their data consists of a combination
+of µ+ ν and τ + ν, τ + → π + ν events. This permits them to do two fits: in one they fit for the
+individual components, and in the other they fix the ratio of τ + ν/µ+ ν events to be that given by
+the standard-model expectation. Thus, the former measurement should be used for new-physics
+searches, and the latter for standard-model predictions. Our average uses the fixed-ratio value; this
+ratio is implied by Eq. 71.1 which is necessary to extract |Vcd |fD+ .
+
+            Table 71.2: Experimental results for B(D+ → µ+ ν[γ]), B(D+ → τ + ν[γ]),
+            and |Vcd |fD+ . The first two uncertainties are experimental statistics and
+            systematics, respectively. The third uncertainty on the extracted |Vcd |fD+
+            is from external inputs: masses, lifetimes, and radiative corrections. The
+            uncertainty on the latter item dominates this third value. In the second
+            CLEO line the τ + decays to µ+ νµ ν̄τ .
+
+           Experiment       Mode                        B                      |Vcd |fD+ (MeV)
+           CLEO-c [57]       µ+ ν          (3.93 ± 0.35 ± 0.09) × 10−4    46.80 ± 2.08 ± 0.54 ± 0.34
+           CLEO-c [57]   µ ν + τ +ν
+                          +                (3.82 ± 0.32 ± 0.09) × 10−4    46.14 ± 1.93 ± 0.54 ± 0.34
+           BESIII [58]       µ+ ν        (4.034 ± 0.080 ± 0.040) × 10−4   47.42 ± 0.47 ± 0.24 ± 0.35
+           Our average    Lines 2+3      (4.020 ± 0.078 ± 0.038) × 10−4   47.33 ± 0.46 ± 0.25 ± 0.35
+           CLEO-c [57]   τ + ν (π + ν)            < 1.2 × 10−3
+           BESIII [59]   τ + ν (π + ν)     (0.99 ± 0.11 ± 0.05) × 10−3    45.48 ± 2.53 ± 1.15 ± 0.34
+           Our average   µ+ ν + τ + ν                                     47.27 ± 0.45 ± 0.22 ± 0.35
+
+
+
+    Table 71.2 shows the available measurements of D+ → µ+ ν, an upper limit on D+ → τ + ν from
+CLEO-c, and the first measurement of this decay from BESIII. To extract the values of |Vcd |fD+
+via Eq. (71.1), we use [1] the mass mD+ = 1.86966(5) GeV and the lifetime τD+ = 1.033(5) ps, and
+apply radiative corrections as described below. For calculating the average µ+ ν number, we use
+the CLEO-c result from µ+ ν + τ + ν.
+    To obtain the purely leptonic rates Γ (0) (D+ → µ+ (τ + )ν), we subtract the radiative contri-
+butions as in Sec. 71.2.1, but use numerical values for the corrections appropriate for D mesons.
+First, we reduce both the µ+ ν and τ + ν branching fractions in Table 71.2 by 1.8%, which is the
+universal short-distance electroweak contribution of Sirlin [3] evaluated using the D-meson mass
+for the factorization scale. We do not adjust the experimental rates by the universal long-distance
+correction [4]. This is because QED bremsstrahlung contributions have already been subtracted
+at leading-log order from the measurements in Table 71.2 using Monte-Carlo estimates computed
+with PHOTOS [11]. The µ+ ν rates should also be reduced by the 1% estimate of the structure-
+dependent contributions from Dobrescu and Kronfeld [16]. This correction accounts for tree-level
+radiative processes in which the D meson decays into a real photon and an off-shell vector meson,
+which subsequently decays weakly to a charged lepton and neutrino. It is estimated using Eq. (12)
+of Burdman et al. [6] with the CLEO-c cut on the photon energy from Ref. [72], which is typical
+of all the measurements. We do not need to apply the structure-dependent correction to the µ+ ν
+branching fractions in Table 71.2, however, because the experiments have already included it in
+their quoted results. CLEO-c directly subtracts 1%, while BESIII simulates these structure- depen-
+
+                                              1st June, 2026
+9                         71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+                   Table 71.3: Experimental results for B(Ds+ → µ+ ν[γ]), B(Ds+ → τ + ν[γ]),
+                   and |Vcs |fDs+ . The uncertainties have the same meaning as in Table 71.2.
+                   The single-experiment average BFs are taken from the cited papers, for
+                   proper treatment of correlated systematic uncertainties.
+
+                  Experiment        Mode                            B(%)                      |Vcs |fDs+ (MeV)
+                  CLEO-c [60]       µ+ ν                    0.565 ± 0.045 ± 0.017          248.2 ± 9.9 ± 3.7 ± 1.8
+                  BaBar [61]        µ+ ν                    0.596 ± 0.038 ± 0.035          254.9 ± 8.1 ± 7.5 ± 1.9
+                  Belle [62]        µ+ ν                    0.526 ± 0.028 ± 0.021          239.5 ± 6.4 ± 4.8 ± 1.8
+                  BESIII [63]       µ+ ν                    0.517 ± 0.075 ± 0.021         237.4 ± 17.2 ± 4.9 ± 1.7
+                  BESIII [64]       µ+ ν                  0.5294 ± 0.0108 ± 0.0085         240.3 ± 2.5 ± 1.9 ± 1.8
+                  BESIII [65]       µ+ ν                    0.542 ± 0.026 ± 0.017          243.1 ± 5.8 ± 3.8 ± 1.8
+                  BESIII [65]       average               0.5304 ± 0.0099 ± 0.0090∗       240.5 ± 2.2 ± 2.0 ± 1.8
+                  Our average       µ+ ν                    0.534 ± 0.009 ± 0.008          241.6 ± 2.0 ± 1.7 ± 1.8
+                  CLEO-c [60]       τ + ν (π + ν)             6.42 ± 0.81 ± 0.18          268.0 ± 16.9 ± 3.8 ± 2.0
+                  CLEO-c [66]       τ + ν (e+ νν)             5.30 ± 0.47 ± 0.22          243.5 ± 10.8 ± 5.1 ± 1.8
+                  CLEO-c [67]       τ + ν (ρ+ ν)              5.52 ± 0.57 ± 0.21          248.5 ± 12.8 ± 4.7 ± 1.8
+                  CLEO-c [67]       average                   5.58 ± 0.33 ± 0.13          249.9 ± 7.4 ± 2.9 ± 1.8
+                  BaBar [61]        τ + ν (e+ (µ+ )νν)        4.96 ± 0.37 ± 0.57          235.6 ± 8.8 ± 13.5 ± 1.7
+                  Belle [62]        τ + ν (π + ν)              6.04 ± 0.43+0.46
+                                                                          −0.40             260.0 ± 9.3+9.9
+                                                                                                        −8.6 ± 1.9
+                  Belle [62]        τ + ν (e+ νν)              5.37 ± 0.33+0.35
+                                                                          −0.31             245.1 ± 7.5+8.0
+                                                                                                        −7.1 ± 1.8
+                  Belle [62]        τ + ν (µ+ νν)              5.86 ± 0.37+0.34
+                                                                          −0.59            256.1 ± 8.1+7.4
+                                                                                                        −12.9 ± 1.9
+                  Belle [62]        average                    5.70 ± 0.21+0.31
+                                                                          −0.30             252.5 ± 4.7+6.9
+                                                                                                        −6.7 ± 1.9
+                  BESIII [63]       τ + ν (π + ν)             3.28 ± 1.83 ± 0.37            192 ± 53 ± 11 ± 1.4
+                  BESIII [68]       τ + ν (π + π 0 ν)         5.29 ± 0.25 ± 0.20          243.3 ± 5.8 ± 4.6 ± 1.8
+                  BESIII [69]       τ + ν (e+ νν)             5.27 ± 0.10 ± 0.12           242.8 ± 2.3 ± 3.0 ± 1.8
+                  BESIII [70]       τ + ν (π + ν)             5.44 ± 0.17 ± 0.13           246.7 ± 3.9 ± 3.0 ± 1.8
+                  BESIII [71]       τ + ν (µ+ νν)             5.37 ± 0.17 ± 0.15          245.1 ± 3.9 ± 3.4 ± 1.8
+                  BESIII [65]       τ + ν (e, µ, π, ππ)       5.60 ± 0.16 ± 0.20          250.3 ± 3.6 ± 4.5 ± 1.8
+                  BESIII [65]       average                 5.359 ± 0.067 ± 0.075         244.9 ± 1.5 ± 1.7 ± 1.8
+                  Our average       τ +ν                    5.388 ± 0.063 ± 0.068          245.5 ± 1.4 ± 1.6 ± 1.8
+                  Our average       µ+ ν + τ + ν                                          244.0 ± 1.2 ± 1.2 ± 1.8
+
+    ∗
+        An error in Ref. [65] has been corrected here; BESIII Collab., private communication.
+
+
+
+
+dent radiative decays and adds a fit component describing them. Therefore, in summary, we reduce
+both the D+ → µ+ ν and the D+ → τ + ν rates by 1.8% to account for radiative corrections. It is
+worth noting, however, that the universal long-distance electromagnetic contribution estimated for
+point-like charged mesons by Kinoshita [4], which we are not including because IB contributions
+are already subtracted from the measurements via PHOTOS, would increase both rates by about
+2.5%.
+    We now discuss the Ds+ decay process; there are significant updates since our previous review [1]
+due to new results from BESIII as well as our averaging strategy. Measurements of Ds+ leptonic
+decay branching fractions by several groups are listed in Table 71.3. We exclude older values
+obtained by normalizing to Ds+ decay modes that are not well-defined. Many measurements, for
+example, used the φπ + mode. This decay is a subset of the Ds+ → K + K − π + channel which has
+interferences from other modes populating the K + K − mass region near the φ, the most prominent
+of which is the f0 (980). Thus, the extraction of the effective φπ + rate is sensitive to the mass
+
+                                                          1st June, 2026
+10                  71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+resolution of the experiment and the cuts used to define the φ mass region [73].6
+    To find Ds decays in the µ+ ν signal channels, the experiments rely on fully reconstructing all
+of the final state particles except for the neutrino and use a missing-mass technique to infer the
+existence of the neutrino. CLEO and BESIII use e+ e− → Ds Ds∗ collisions at 4170 MeV, while
+BaBar and Belle use e+ e− → DKnπDs∗ collisions at energies near the Υ (4S). CLEO and BESIII
+do a similar analysis as was done for the D+ above. BaBar and Belle do a similar MM 2 calculation
+by using the reconstructed hadrons, the photon from the Ds∗+ decay and a detected µ+ . To get
+the normalization they do a MM 2 fit without the µ+ and use the signal at the Ds+ mass squared
+to determine the total Ds+ yield.
+    When selecting the τ + → π + ν̄ and τ + → ρ+ ν̄ decay modes, CLEO uses both the calculation
+of the missing-mass and the fact that there should be no extra energy in the event beyond that
+deposited by the measured tagged Ds− and the τ + decay products. The τ + → e+ ν ν̄ mode, however,
+uses only extra energy. BaBar and Belle also use the extra energy to discriminate signal from
+background in their τ + ν measurements. BESIII uses τ + → π + ν decays, where they calculate the
+MM 2 and discriminate against µ+ from Ds+ → µ+ ν decays, and more recently τ + → e+ νν and
+τ + → π + π 0 ν decays.
+    When extracting |Vcs |fDs+ via Eq. (71.1), we first apply the −1.8% universal electroweak cor-
+rection [3] to all of the µ+ ν and τ + ν branching fractions in Table 71.3; this is the same as for
+D+ mesons. We also decrease the BaBar, Belle, and third BESIII µ+ ν branching fractions by the
+1% structure-dependent correction [16]. This correction was already included in CLEO and other
+BESIII results for the µ+ ν branching fractions in Table 71.3. We use the masses and lifetimes
+mDs+ = 1.96835(7) GeV, mτ + = 1.77686(12) GeV, and τDs+ = 0.5012(22) ps [1]. The inferred
+values for fDs+ |Vcs | are in good agreement for the µ+ ν andτ + ν decay modes.
+    It is clear from the discussion of radiative corrections in this section that they are less well
+understood theoretically for D+ and Ds+ meson decays than for pions and kaons. We therefore
+assign a 1.4% systematic uncertainty to the purely leptonic decay rates, which is half the size of the
+applied radiative corrections. This translates to a 0.7% error on the products of the decay constant
+times CKM matrix element. Putting everything together, the main experimental results pertaining
+to charmed meson leptonic decays are (see the bottom lines of Tables 71.2 and 71.3):
+                           |Vcd |fD+ = 47.27(45)(22)(35) = 47.27(0.61) MeV ,                             (71.15)
+                           |Vcs |fDs+ = 244.0(1.2)(1.2)(1.8) = 244.0(2.4) MeV ,                          (71.16)
+where the errors are the statistical and systematic uncertainties from the measured branching
+fractions, and the external inputs (including the applied radiative corrections), respectively.
+71.3.2 Theoretical decay-constant calculations
+    Table 71.4 presents recent theoretical calculations of charmed heavy-light meson decay constants
+and their ratio in the isospin-symmetric limit mu = md . (As in Sec. 71.2.2, we denote the physical
+D+ -meson decay constant by fD+ , and use fD for the isospin-symmetric value.) The upper two
+panels show results from lattice-QCD calculations with three (Nf = 2 + 1) or four flavors (Nf =
+2+1+1) of dynamical quarks. Although there are fewer available results than for the pion and kaon
+sector, both fD and fDs have been obtained using multiple sets of gauge-field configurations with
+different lattice fermion actions, providing independent confirmation. For comparison, the bottom
+panel of Table 71.4 shows QCD-model calculations of the D- and Ds -meson decay constants for
+which uncertainty estimates are provided. The lattice and non-lattice results agree, but numerical
+lattice-QCD calculations have now reached significantly greater precision than other approaches.
+    We do not include two BaBar results [74, 75] for B(Ds+ → µ+ ν) and B(Ds+ → τ + ν) that normalize to other DS+
+     6
+
+decay modes.
+
+
+                                                1st June, 2026
+11                       71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+                 Table 71.4: Recent theoretical determinations of fD , fDs , and their ratio
+                 in the isospin-symmetric limit. The upper panels show results from lattice-
+                 QCD calculations with (2 + 1 + 1) and (2 + 1) dynamical quark flavors,
+                 respectively. Statistical and systematic errors are quoted separately. The
+                 bottom panel shows estimates from QCD sum rules (QCD SR). These
+                 are not used to obtain our preferred decay-constant values. The 2+1+1
+                 averages are dominated by the Fermilab/MILC values.
+
+ Reference                           Method                  Nf                fD (MeV)             fDs (MeV)               fDs /fD
+ Fermilab/MILC 17 [32]                LQCD                 2+1+1            212.1(0.3)(0.5)       249.9(0.3)(0.3)      1.1782(06)(15)∗
+ ETM 14 [33]                          LQCD                 2+1+1            207.4(3.7)(0.9)       247.2(3.9)(1.4)       1.192(19)(11)
+ FLAG 24 average [76]                 LQCD                 2+1+1              212.0(0.7)            249.9(0.5)            1.1783(16)
+ ALPHA 23 [77]                    211.3(1.9)(0.6)      247.0(1.9)(0.7)       1.177(15)(5)
+ χQCD 20A [78]                        LQCD                  2+1                  213(5)               249(7)                1.16(3)
+ RBC/UKQCD 18A [79]†                  LQCD                  2+1                    –                    –              1.1740(51)(68)
+                                                                                        +2.1                 +1.3
+ RBC/UKQCD 17 [80]                    LQCD                  2+1             208.7(2.8)(−1.8  )   246.4(1.3)(−1.9  )    1.1667(77)(+57
+                                                                                                                                    −43 )
+ χQCD 14 [81]                         LQCD                  2+1                    –                254(2)(4)                  –
+ HPQCD 12 [82]                        LQCD                  2+1             208.3(1.0)(3.3)             –                1.187(4)(12)
+ Fermilab/MILC 11 [83]                LQCD                  2+1             218.9(9.2)(6.6)      260.1(8.9)(6.1)        1.188(14)(21)
+ HPQCD 10 [84]                        LQCD                  2+1                    –             248.0(1.4)(2.1)               –
+ FLAG 24 average [76]                 LQCD                  2+1               210.4(1.5)           247.7(1.2)              1.174(7)
+ Pullin 21 [85]                      QCD SR                                     190(15)              226(17)                1.19(7)
+ Wang 15 [86]‡                       QCD SR                                     208(10)
+                                                                                                   240(10)
+                                                                                                                          1.15(6)
+                                                                                                                                     
+ Gelhausen 13 [87]                  QCD SR                                     201 +12
+                                                                                     −13            238 +13
+                                                                                                          −23            1.15 +0.04
+                                                                                                                                −0.05
+ Narison 12 [88]                    QCD SR                                       204(6)              246(6)                 1.21(4)
+ Lucha 11 [89]                       QCD SR                                   206.2(8.9)           245.3(16.3)            1.193(26)
+
+    ∗
+      Ref. [32] provides values for fD and fDs in the isopsin-symmetric limit, but not for their ratio. Here we infer the central value from
+those of the individual decay constants, and take the statistical and systematic errors to be the same as for the physical ratio fDs /fD+ .
+    †
+      Slight difference from preliminary value quoted in 2019 FLAG review.
+    ‡
+      Obtained using mMS                     pole
+                          c ; results using mc    are also given in the paper.
+
+
+
+
+    The lattice-QCD decay-constant results in Table 71.4 were all obtained using isospin-symmetric
+gauge-field configurations. As discussed in Sec. 71.2.2, however, the leading strong-isospin breaking
+corrections to heavy-light pseudoscalar-meson decay constants can be accounted for by using the
+physical down (or up) quark in the D (or B) meson. Strong-isospin breaking corrections to heavy-
+strange meson decay constants are roughly an order-of-magnitude smaller because there are no
+light valence quarks involved. Recently, the Fermilab Lattice and MILC Collaborations used this
+approach to calculate directly the leading strong-isospin breaking corrections to both fD and fB ,
+finding [32]
+
+                                              fD+ − fD = +0.58(1)(7)(1) MeV ,
+                                              fB + − fB = −0.53(5)(7)(0) MeV ,                                                    (71.17)
+
+where the uncertainties are from statistics, systematics, and the EM scheme, respectively. These
+results agree with independent estimates of the strong-isospin-breaking corrections to heavy-light
+meson decay constants from QCD sum rules [90]. Combined with the determinations of fD and fB
+from the same work, Eq. (71.17) implies that the corrections to the SU(3)-flavor breaking ratios
+are
+                    fDs   fDs                       fBs     fB
+                                                          = s 1 + 0.0028(5) .
+                                                                            
+                        =      1 − 0.0027(3) ,                                             (71.18)
+                    fD+    fD                       fB +    fB
+
+                                                           1st June, 2026
+12                 71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+These estimated strong-isospin-breaking corrections to fD and fDs /fD above are commensurate
+with the uncertainties on the (2+1+1)-flavor FLAG averages in Table 71.4. Consequently, it is
+important to account for isospin-breaking effects before combining the theoretical decay constants
+with the corresponding experimental decay rates.
+   To obtain the charged D+ -meson decay constant, we apply the correction in Eq. (71.17) to the
+(2+1+1)-flavor FLAG 2024 average for the D-meson decay constant in the isospin-symmetric limit.
+Similarly we use Eq. (71.18) to correct the (2+1+1)-flavor FLAG 2024 average for fDs /fD . We
+take the four-flavor FLAG 2024 average for fDs directly. Our final preferred theoretical values for
+the charmed pseudoscalar-meson decay constants are
+
+                                                                    fDs
+                 fD+ = 212.6(7) MeV ,      fDs = 249.9(5) MeV ,         = 1.175(2) .            (71.19)
+                                                                    fD+
+
+71.4 Bottom mesons
+71.4.1 Experimental rate measurements
+    The Belle and BaBar collaborations have found evidence for B − → τ − ν decay in e+ e− → B − B +
+collisions at the Υ (4S) energy. The analysis relies on reconstructing a hadronic or semi-leptonic
+B decay tag, finding a τ candidate in the remaining track and photon candidates, and examining
+the extra energy in the event which should be close to zero for a real τ − decay to e− ν ν̄ or µ− ν ν̄
+opposite a B + tag. The results are listed in Table 71.5. These are unchanged since the previous
+review [1]. But we note a very recent result from Belle II using hadronic tagging [91] which gives
+B(B + → τ + ντ ) = (1.24 ± 0.41 ± 0.19) × 10−4 ; this is not yet included in our averages pending an
+evaluation of correlated systematic uncertainties.
+
+            Table 71.5: Experimental results for B(B − → τ − ν) and |Vub |fB + . Ex-
+            ternal systematic uncertainties from masses and lifetimes are negligible
+            compared to current experimental uncertainties.
+
+                    Experiment Tag           B (units of 10−4 ) |Vub |fB + (MeV)
+                    Belle [92]  Hadronic      0.72+0.27
+                                                   −0.25 ± 0.11
+                    Belle [93]  Semileptonic 1.25 ± 0.28 ± 0.27
+                    Belle [93]  Average          0.91 ± 0.22       0.72 ± 0.09
+                                                   +0.53
+                    BaBar [94] Hadronic       1.83 −0.49 ± 0.24
+                    BaBar [95] Semileptonic 1.7 ± 0.8 ± 0.2
+                    BaBar [94] Average           1.79 ± 0.48       1.01 ± 0.14
+                    Our average                  1.06 ± 0.20       0.77 ± 0.07
+
+    Because there are large backgrounds under the signals for these measurements, as well as sub-
+stantial systematic errors, the significances of the individual results are still below the 5σ discovery
+threshold. Belle quotes 4.6σ for their combined hadronic and semileptonic tags, while BaBar quotes
+3.3σ and 2.3σ, for hadronic and semileptonic tags. Greater precision is necessary to determine if
+any effects beyond the standard model are present.
+    We do not correct the measured branching ratios in Table 71.5 for radiative corrections because
+the experimental uncertainties are so large. The relative radiative corrections are expected to
+be larger, however, for B → µν leptonic decays because the corrections are no longer helicity
+suppressed [8], and may be a significant fraction of the purely leptonic rate. More theoretical
+work is needed to understand radiative corrections to leptonic B decays in anticipation of future
+measurements with greater precision, and of new decay channels.
+
+                                            1st June, 2026
+13                      71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+71.4.2 Theoretical decay-constant calculations
+    Table 71.6 presents recent theoretical calculations of bottom heavy-light meson decay constants
+and their ratio in the isospin-symmetric limit mu = md . The upper two panels show results from
+lattice-QCD calculations with three (Nf = 2 + 1) or four flavors (Nf = 2 + 1 + 1) of dynamical
+quarks. For all decay constants, calculations using different gauge-field configurations, light-quark
+actions, and b-quark actions provide independent confirmation. For comparison, the bottom panel
+of Table 71.6 shows QCD-model calculations of the B- and Bs -meson decay constants for which
+uncertainty estimates are provided. These are consistent with the lattice values, but with much
+larger uncertainties.
+
+                Table 71.6: Recent theoretical determinations of fB , fBs , and their ra-
+                tio in the isospin-symmetric limit. The upper panels show results from
+                lattice-QCD calculations with (2 + 1 + 1) and (2 + 1) dynamical quark
+                flavors, respectively. When available, statistical and systematic errors are
+                quoted separately. The bottom panel shows estimates from the relativistic
+                potential model (RPM) and QCD sum rules (QCD SR), which are not
+                used to obtain our preferred decay-constant values. The 2+1+1 FLAG 24
+                averages are dominated by the Fermilab/MILC values.
+
+             Reference              Method Nf   fB (MeV)         fBs (MeV)         fBs /fB
+             Frezzotti 24 [96]      LQCD 2+1+1      –            224.5(5.0)           –
+             Fermilab/MILC 17 [32] LQCD 2+1+1   189.9(1.4)       230.7(1.2)      1.2146(49)
+             HPQCD 17 [97]∗         LQCD 2+1+1    190(4)           229(5)         1.206(5)
+             ETM 16 [98]            LQCD 2+1+1    193(6)           229(5)        1.184(25)
+             HPQCD 13 [99]          LQCD 2+1+1    186(4)           224(5)         1.205(7)
+             FLAG 24 average [76]   LQCD 2+1+1  190.0(1.3)       230.3(1.3)       1.209(5)
+             Aoki 14 [100]†         LQCD 2+1 218.8(6.5)(30.8) 263.5(4.8)(36.7) 1.193(20)(44)
+                                  ‡
+             RBC/UKQCD 14 [101] LQCD 2+1 195.6(6.4)(13.3) 235.4(5.2)(11.1) 1.223(14)(70)
+             HPQCD 12 [102]         LQCD 2+1    191(1)(8)       228(3)(10) 1.188(12)(13)
+             HPQCD 12 [102]         LQCD 2+1   189(3)(3)∗             –               –
+             HPQCD 11 [103]         LQCD 2+1        –            225(3)(3)            –
+             Fermilab/MILC 11 [83] LQCD 2+1 196.9(5.5)(7.0) 242.0(5.1)(8.0) 1.229(13)(23)
+             FLAG 24 average [76]   LQCD 2+1    192.0(4.3)       228.4(3.7)      1.201(16)
+             Pullin 21 [85]              QCD SR                  192+20
+                                                                      −19           225+21
+                                                                                         −20         1.17(7)
+             Sun 16 [104]§                RPM                    219(15)            266(19)          1.21(9)
+             Wang 15 [86]§               QCD SR                  194(15)            231(16)         1.19(10)
+             Baker 13 [105]              QCD SR                  186(14)           222 (12)          1.19(4)
+             Lucha 13 [106]              QCD SR                192.0(14.6)
+                                                                                228.0(19.8)
+                                                                                                  1.184(24)
+                                                                                                         
+             Gelhausen 13 [87]           QCD SR                 207 +17
+                                                                      −9           242 +17
+                                                                                         −12        1.17 +3
+                                                                                                         −4
+             Narison 12 [88]             QCD SR                   206(7)             234(5)          1.14(3)
+
+     ∗
+       Average of new HPQCD 17 and previous HPQCD 13 results allowing for correlations between the two sets of results.
+     †
+       Obtained with static b quarks (i.e., mb → ∞).
+     ‡
+       Ref. [101] does not provide results in the isospin-symmetric limit, so we show fB + and fBs /fB + for this work.
+                                              pole
+     §
+       Obtained using mMSb ; results using mb      are also given in the paper.
+
+
+
+
+    The lattice-QCD decay-constant results in Table 71.6 were all obtained using isospin-symmetric
+gauge-field configurations. Some calculations, however, account for the leading effect of strong-
+isospin-breaking by using the correct value for the valence light-quark mass in the B meson (mu for
+
+                                                      1st June, 2026
+14                71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+fB + and md for fB 0 ). Early estimates of the strong-isospin-breaking correction obtained fB + −fB ∼
+−2 MeV [99, 101], which would be significant given the present lattice-QCD uncertainties. It turns
+out, however, that these calculations inadvertently introduced a spurious sea-quark contribution,
+and therefore overestimated the size of the effect. A more recent calculation by the Fermilab/MILC
+Collaboration finds very little evidence for isospin violation (fB + − fB ∼ −0.5 MeV) [32], which
+is more than two times smaller than the total uncertainties on present lattice-QCD calculations.
+For this reason, we quote isospin averages in the current review. Our preferred theoretical values
+for the bottom pseudoscalar-meson decay constants are simply the Nf = 2 + 1 + 1 FLAG 2024
+averages [2], after inclusion of the isospin-breaking corrections from Eq. (71.17) and Eq. (71.18):
+
+                                                                  fBs
+         fB + = 189.5(1.3) MeV ,     fBs = 230.3(1.3) MeV ,            = 1.212(5) .            (71.20)
+                                                                  fB +
+
+Because the uncertainties on the three-flavor results in Table 71.6 are substantially larger than those
+on the four-flavor results, including them in the average leaves the central values almost unchanged,
+and decreases the errors only slightly. Note that Ref. [96] is not included in the fBs average since
+it was published after the FLAG 24 deadline; including it would decrease fBs by about 0.3 MeV
+with little effect on the uncertainty.
+71.5 Phenomenological implications
+71.5.1 |Vud |, |Vus |, and status of first-row unitarity
+    Using the average values for fπ+ |Vud |, fK + |Vus |, and their ratio from Eqs. (71.10)–(71.12) and
+for fπ+ , fK + , and their ratio from Eq. (71.14), we obtain the following determinations of the CKM
+matrix elements |Vud |, |Vus |, and their ratio from leptonic decays within the standard model:
+
+                                                                  |Vus |
+      |Vud | = 0.9763(1)(90)(10) ,   |Vus | = 0.2253(3)(4)(2),           = 0.2313(3)(4)(2) ,   (71.21)
+                                                                  |Vud |
+
+where the errors are from the experimental branching fraction(s), the pseudoscalar decay con-
+stant(s), and radiative corrections, respectively. These results enable a test of the unitarity of the
+first row of the CKM matrix from leptonic decays alone (the contribution from |Vub | is negligible).
+Using the values of |Vud | and |Vus | from Eq. (71.21), we find
+
+                              |Vud |2 + |Vus |2 + |Vub |2 − 1 = 0.004(18) ,                    (71.22)
+
+which is consistent with three-generation unitarity at the few-percent level.
+     The determinations of |Vud | and |Vus | from leptonic decays in Eq. (71.21) can be compared
+to those obtained from other processes. The result above for |Vud | agrees with the determination
+from super-allowed β-decay (a previous value of |Vud | = 0.97420(21) [107] has been updated to
+|Vud | = 0.97373(31) [108]) but has a considerably larger error, primarily due to the uncertainty in
+the theoretical determination of fπ+ .
+     The CKM element |Vus | can be determined from semileptonic K + → π 0 `+ ν decay. Here ex-
+perimental measurements provide a value for the product f+Kπ (0)|Vus |, where f+Kπ (0) is the form
+factor at zero four-momentum transfer between the initial state kaon and the final state pion. We
+quote a recent analysis by Seng et al. [109] which finds |Vus |f+Kπ (0) = 0.21635(39)(3), with the
+first uncertainty from experiment and the second reflecting uncertainty in higher order corrections.
+This average involves detailed considerations of radiative corrections; these are taken from chi-
+ral perturbation theory with lattice-QCD inputs for some needed low-energy constants. Choosing
+the FLAG 2024 2+1+1-flavor average for f+ (0)Kπ = 0.9698(17) [2] based on the calculations of
+
+                                            1st June, 2026
+15                 71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+ETM [110] and Fermilab/MILC [111] gives |Vus | = 0.22309(39)exp (39)LQCD (3)HO from semilep-
+tonic decay. The determinations of |Vus | from leptonic and semileptonic kaon decays are both quite
+precise, with comparable errors, but the central values differ by 2.8σ.
+    Finally, the combination of the ratio |Vus |/|Vud | from leptonic decays [Eq. (71.21)] with |Vud |
+from β decay implies an alternative determination of |Vus | = 0.2252(5) which agrees with the value
+from leptonic kaon decay, but again disagrees with the semileptonic-decay result at the 2.8σ level.
+    Given the roughly 3σ tension between |Vus | from leptonic and semileptonic kaon decays, it
+is important to scrutinize the uncertainties on the theoretical and experimental inputs to |Vus |
+and other elements of the first row of the CKM matrix. Seng et al. have introduced a new
+approach for calculating radiative corrections to neutron and nuclear beta decays using dispersion
+relations [112–115]. These calculations imply a value of |Vud | = 0.97395(23) [113], consistent with
+the updated analysis of Ref. [108]. An independent calculation of the radiative corrections by
+Czarnecki and Marciano using QCD sum rules yields similar results [116]. Using this value of |Vud |
+with the determination of |Vus | from leptonic kaon decays in Eq. (71.21), we obtain |Vud |2 + |Vus |2 +
+|Vub |2 − 1 = −0.0007(5), again consistent with first-row unitarity.
+    Last, we combine the experimental measurement of fπ+ |Vud | in Eq. (71.10) with |Vud | from
+super-allowed β-decay [108] to infer an “experimental” value for the pion decay constant:
+
+                                   fπ“exp”
+                                      −    = 130.56(2)(4)(13) MeV ,                             (71.23)
+
+where the uncertainties are from the errors on Γ , |Vud |, and higher-order corrections, respectively.
+Many recent (2+1+1)-flavor lattice-QCD calculations use this quantity to set the overall physical
+scale in their simulations, e.g., Refs. [9, 32–34]. Conversely, comparing fπ“exp”
+                                                                             −    with the FLAG 2024
+(2+1)-flavor average [2] fπ+ = 130.2(8) MeV, which only includes lattice-QCD results that employ
+other observables to set the scale [36–41], provides a test of lattice-QCD methods. The values are
+in good agreement within present uncertainties. We do not quote an “experimental” value for the
+kaon decay constant because the value of |Vus | is less clear given the approximately 3σ tension
+between the values of |Vus | obtained from leptonic and semileptonic kaon decays.
+71.5.2 |Vcd |, |Vcs |, and status of second-row unitarity
+    Using the average values for |Vcd |fD+ and |Vcs |fDs+ from Eqs. (71.15) and (71.16), and for fD+
+and fDs+ from Eq. (71.19), we obtain the following determinations of the CKM matrix elements
+|Vcd | and |Vcs | from leptonic decays within the standard model:
+
+                    |Vcd | = 0.2223(24)(7)(17)   and    |Vcs | = 0.9764(66)(20)(72) ,           (71.24)
+
+where the errors are from the measured branching fractions, decay constants, and external inputs
+(radiative corrections and masses and lifetimes), respectively. These results enable a test of the
+unitarity of the second row of the CKM matrix. Taking |Vcb | = 41.8(0.8)) × 10−3 [1], we obtain
+
+                              |Vcd |2 + |Vcs |2 + |Vcb |2 − 1 = +0.005(20) ,                    (71.25)
+
+in agreement with three-generation unitarity. Note that correlations among the external uncertain-
+ties in the f |V | values have a negligible effect.
+    The uncertainty on |Vcd | in Eq. (71.24) is limited by the measurement error on the D+ → µ+ ν
+decay rate. For |Vcs |, however, the experimental and radiative-correction errors are commensurate.
+The value of |Vcs | from leptonic Ds decays decreased substantially from the value of 1.007(17) in an
+earlier version of this review [27, 117], and is now below unity as expected in the three-generation
+CKM framework. This change is due to our more consistent treatment of the radiative corrections,
+which lower the purely leptonic decay rates for Ds+ → µ+ ν and Ds+ → τ + ν. We emphasize, however,
+
+                                            1st June, 2026
+16                71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+that we have taken a generous uncertainty on these estimates, and that more theoretical work is
+needed to really pin down the sizes of the radiative corrections to D(s) -meson leptonic decays.
+   The CKM matrix elements |Vcd | and |Vcs | can also be obtained from semileptonic D+ → π 0 `+ ν
+and Ds+ → K 0 `+ ν decays, respectively. Here experimental measurements determine the product of
+the form factor times the CKM element, and theory provides the value for the form factor at zero
+four-momentum transfer between the initial D(s) meson and the final pion or kaon.
+   The latest experimental averages (2023, with data as of 2021) from the Heavy Flavor Averaging
+Group (HFLAV) are f+Dπ (0)|Vcd | = 0.1426(18) and f+DK (0)|Vcs | = 0.7180(33) [118]. The FLAG
+2024 2 + 1 + 1 lattice-QCD averages for the form-factors at q 2 = 0 are f+Dπ (0) = 0.6295(50)
+and f+DK (0) = 0.7430(27). The Dπ number is an average of FNAL/MILC Collaborations [119]
+and ETM Collaboration [120] results, while the DK number includes these two plus the HPQCD
+Collaboration [121]. The older ETM results have lower precision than the others. Combining of the
+HFLAV f (0)|V | products and the FLAG average for f (0) gives results for |Vcd | and |Vcs | consistent
+with the leptonic decays in Eq. (71.24):
+
+                       |Vcd | = 0.2265(29)(18)   and     |Vcs | = 0.9664(44)(35) ,            (71.26)
+
+    However, as with the leptonic case, one must exercise some care with corrections; this is beyond
+the scope of the present review. We do note that Ref. [119] presents a detailed discussion of CKM
+element extractions using their lattice-QCD results, including consideration of QED, electroweak
+and isospin corrections; a comparison of leptonic and semileptonic results and unitarity tests is also
+included.
+    We can combine the experimental measurements of fD+ |Vcd | and fDs+ |Vcs | from Tables 71.2
+and 71.3 with |Vcd | = 0.22487(68) and |Vcs | = 0.97349(16) from the PDG 2024 global unitarity-
+triangle analysis [1] to infer “experimental” values for the decay constants within the standard
+model. We take the CKM elements from the global fit because they are based on many input
+quantities, thereby reducing the sensitivity to any one outlying measurement or calculation. We
+obtain for the decay constants
+
+                                     fD“exp”
+                                        +    = 210.2(2.2)(0.6)(1.6) MeV ,
+                                       “exp”
+                                     fD+ = 250.6(1.7)(0.04)(1.8) MeV ,
+                                        s
+                           (fDs+ /fD+ ) “exp” = 1.191(16)(4)(9) .                             (71.27)
+
+where the uncertainties are from the errors on f |V |, CKM matrix elements, and external inputs
+(radiative corrections and masses and lifetimes), respectively. Here, the 0.7% radiative correction
+uncertainty is taken as the the same size on the ratio as on the first two results (as opposed to
+a quadrature sum), due to presumed partial cancellation. Recent improvements in experimental
+precision make an improved understanding of the degree of cancellation desirable. The “experimen-
+tal” values fD+ (fDs+ /fD+ ) are consistent within 1σ with the (2+1+1)-flavor lattice-QCD averages
+in Eq. (71.19). The CKM matrix element |Vcd | is approximately equal to |Vus |, as first shown by
+Wolfenstein [122, 123]. Thus, resolving the inconsistencies between determinations of |Vus | from
+leptonic and semileptonic decays discussed in Sec. 71.5.1 may benefit from the constraints observed
+here.
+    Last, we can test lepton-flavor universality in charm meson decays by checking the following
+relationship derived from Eq. (71.1):
+                                                           2
+                               +    +     m 2 1 − m2 /M 2
+                           Γ (Ds → τ ν)     τ       τ   Ds
+                               +    +
+                                        =                   2 = 9.75 ,                       (71.28)
+                           Γ (Ds → µ ν)
+                                              
+                                                        2
+                                          m2µ 1 − m2µ /MD s
+
+
+                                            1st June, 2026
+17                 71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+where the uncertainties from the masses are negligible to the number of digits quoted. The measured
+ratio of τ + ν to µ+ ν rates is 10.06 ± 0.28 which, while 1.1σ high, is consistent with the standard-
+model expectation.
+71.5.3 |Vub | and other applications
+   Using the average value for |Vub |fB + from Table 71.5, and for fB + from Eq. (71.20), we obtain
+the following determination of the CKM matrix element |Vub | from leptonic decays within the
+standard model:
+                              |Vub | = (4.06 ± 0.37 ± 0.003) × 10−3 ,                       (71.29)
+where the errors are from experiment and theory, respectively. One should bear in mind when
+interpreting Eq. (71.29) that none of the experimental measurements of the branching fractions
+that enter the average for |Vub |fB + have individually reached the 5σ discovery level (see Sec. 71.4.1).
+Further, decays involving the third generation of quarks and leptons may be particularly sensitive
+to new physics associated with electroweak symmetry breaking due to their larger masses [12,14], so
+Eq. (71.29) is more likely to be influenced by new physics than the determinations of the elements
+of the first and second rows of the CKM matrix in the previous sections.
+    The CKM element |Vub | can also be obtained from semileptonic B-meson decays. A long-
+standing 2-3σ tension between the determinations of |Vub | from exclusive B → π`ν decay and
+from inclusive B → Xu `ν decay has diminished somewhat; here, Xu denotes all hadronic states
+populated by the b → u weak transition [22, 124–128]. The semileptonic review in the last PDG
+                                                                                                   +0.13
+compilation [129] gives |Vub | = (3.70 ± 0.10 ± 0.12) × 10−3 (exclusive) and |Vub | = (4.13 ± 0.12 −0.14 ±
+            −3
+0.18) × 10 (inclusive). These agree now at the 1.4σ level; the difference is still only 1.8σ when
+dropping the third model uncertainty added to the inclusive value by the authors of Ref. [129]. The
+value of |Vub | from leptonic B → τ ν decay in Eq. (71.29) lies between these inclusive and exclusive
+determinations, and is compatible (within large uncertainties) with both.
+    Given the large uncertainties on the experimental measurements of B(B − → τ − ν), and the
+evolving values of |Vub | obtained from inclusive and exclusive semileptonic B decays, we do not
+present an “experimental” value of the decay constant fB + .
+71.6 Concluding remarks
+    The increasing precision of measurements of leptonic decays of charged pseudoscalar mesons
+has begun to require control over radiative corrections at a level superior to that presented here.
+Improvements will be called for both in theory and in experiment (for example, by BESIII and
+Belle II).
+    Unitarity of the CKM matrix is in reasonable shape. However, there is a lingering almost 3σ
+tension between the values of Vus determined by semileptonic and leptonic kaon decays. It will be
+interesting to follow experimental and theoretical developments on this quantity.
+Acknowledgements
+    We thank V. Cirigliano, C. Davies, M. Di Carlo, S. Gottlieb, S. Hashimoto, A. Kronfeld, H.-
+L. Ma, W. Marciano, J. L. Rosner, and S. Stone for useful discussions on this and previous versions
+of the review.
+References
+ [1] S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 3, 030001 (2024).
+  [2] Y. Aoki et al. (Flavour Lattice Averaging Group (FLAG)) (2024), [arXiv:2411.04268].
+  [3] A. Sirlin, Nucl. Phys. B196, 83 (1982).
+  [4] T. Kinoshita, Phys. Rev. Lett. 2, 477 (1959).
+  [5] M. Knecht et al., Eur. Phys. J. C12, 469 (2000), [hep-ph/9909284].
+
+                                             1st June, 2026
+18               71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+  [6] G. Burdman, J. T. Goldman and D. Wyler, Phys. Rev. D51, 111 (1995), [hep-ph/9405425].
+  [7] V. Cirigliano and I. Rosell, JHEP 10, 005 (2007), [arXiv:0707.4464].
+  [8] D. Becirevic, B. Haas and E. Kou, Phys. Lett. B681, 257 (2009), [arXiv:0907.1845].
+  [9] A. Bazavov et al. (Fermilab Lattice and MILC), Phys. Rev. D90, 074509 (2014),
+      [arXiv:1407.3772].
+ [10] M. Di Carlo et al., Phys. Rev. D100, 034514 (2019), [arXiv:1904.08731].
+ [11] E. Barberio and Z. Was, Comput. Phys. Commun. 79, 291 (1994).
+ [12] W.-S. Hou, Phys. Rev. D48, 2342 (1993).
+ [13] A. G. Akeroyd and S. Recksiegel, Phys. Lett. B554, 38 (2003), [hep-ph/0210376].
+ [14] A. G. Akeroyd and S. Recksiegel, J. Phys. G29, 2311 (2003), [hep-ph/0306037].
+ [15] A. G. Akeroyd, Prog. Theor. Phys. 111, 295 (2004), [hep-ph/0308260].
+ [16] B. A. Dobrescu and A. S. Kronfeld, Phys. Rev. Lett. 100, 241802 (2008), [arXiv:0803.0512].
+ [17] J. L. Hewett, in “Heavy flavor physics. Proceedings, LISHEP 95, LAFEX International School
+      on High-Energy Physics, session C, cbt Workshop, Rio de Janeiro, Brazil, February 21-
+      23, 1995,” 171–187 (1995), [hep-ph/9505246], URL https://www.slac.stanford.edu/pubs/
+      slacpubs/6750/slac-pub-6821.pdf.
+ [18] A. Crivellin, Phys. Rev. D81, 031301 (2010), [arXiv:0907.2461].
+ [19] F. U. Bernlochner, Z. Ligeti and S. Turczyk, Phys. Rev. D90, 094003 (2014),
+      [arXiv:1408.2516].
+ [20] W. J. Marciano, Phys. Rev. Lett. 93, 231803 (2004), [hep-ph/0402299].
+ [21] V. Cirigliano et al., Rev. Mod. Phys. 84, 399 (2012), [arXiv:1107.6001].
+ [22] K. A. Olive et al. (Particle Data Group), Chin. Phys. C38, 090001 (2014).
+ [23] B. Ananthanarayan and B. Moussallam, JHEP 06, 047 (2004), [hep-ph/0405206].
+ [24] S. Descotes-Genon and B. Moussallam, Eur. Phys. J. C42, 403 (2005), [hep-ph/0505077].
+ [25] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 71, 3629 (1993).
+ [26] V. Cirigliano and H. Neufeld, Phys. Lett. B700, 7 (2011), [arXiv:1102.0563].
+ [27] J. L. Rosner, S. Stone and R. S. Van de Water (2015), review prepared for PDG 2015 edition,
+      [arXiv:1509.02220].
+ [28] J. Gasser, A. Rusetsky and I. Scimemi, Eur. Phys. J. C32, 97 (2003), [hep-ph/0305260].
+ [29] P. Boyle et al., JHEP 02, 242 (2023), [arXiv:2211.12865].
+ [30] C. Alexandrou et al. (Extended Twisted Mass), Phys. Rev. D 104, 7, 074520 (2021),
+      [arXiv:2104.06747].
+ [31] N. Miller et al., Phys. Rev. D102, 3, 034507 (2020), [arXiv:2005.04795].
+ [32] A. Bazavov et al., Phys. Rev. D98, 7, 074512 (2018), [arXiv:1712.09262].
+ [33] N. Carrasco et al. (ETM), Phys. Rev. D91, 054507 (2015), [arXiv:1411.7908].
+ [34] R. Dowdall et al. (HPQCD), Phys. Rev. D88, 074504 (2013), [arXiv:1303.1670].
+ [35] Z.-C. Hu et al. (CLQCD), Phys. Rev. D 109, 5, 054507 (2024), [arXiv:2310.00814].
+ [36] V. G. Bornyakov et al. (QCDSF-UKQCD), Phys. Lett. B767, 366 (2017), [arXiv:1612.04798].
+ [37] S. Durr et al., Phys. Rev. D95, 5, 054513 (2017), [arXiv:1601.05998].
+ [38] T. Blum et al. (RBC, UKQCD), Phys. Rev. D93, 074505 (2016), [arXiv:1411.7017].
+
+                                          1st June, 2026
+19                71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+ [39] A. Bazavov et al. (MILC), PoS LATTICE2010, 074 (2010), [arXiv:1012.0868].
+ [40] S. Durr et al. (BMW), Phys. Rev. D81, 054507 (2010), [arXiv:1001.4692].
+ [41] E. Follana et al. (HPQCD, UKQCD), Phys. Rev. Lett. 100, 062002 (2008), [arXiv:0706.1726].
+ [42] M. Moulson, in “8th International Workshop on the CKM Unitarity Triangle (CKM2014)
+      Vienna, Austria, September 8-12, 2014,” (2014), [arXiv:1411.5252].
+ [43] M. Antonelli et al. (FlaviaNet Working Group on Kaon Decays), Eur. Phys. J. C69, 399
+      (2010), [arXiv:1005.2323].
+ [44] S. Hashimoto, J. Laiho and S. R. Sharpe, Lattice Quantum Chromodynamics (2017),
+      review prepared for PDG 2018 edition, URL http://pdg.lbl.gov/2019/reviews/
+      rpp2018-rev-lattice-qcd.pdf.
+ [45] S. Hashimoto, J. Laiho and S. R. Sharpe, Lattice Quantum Chromodynamics (2020),
+      review prepared for PDG 2020 edition, URL http://pdg.lbl.gov/2020/reviews/
+      rpp2020-rev-lattice-qcd.pdf.
+ [46] S. Hashimoto, J. Laiho and S. R. Sharpe, Lattice Quantum Chromodynamics (2021),
+      review prepared for PDG 2022 edition, URL http://pdg.lbl.gov/2022/reviews/
+      rpp2022-rev-lattice-qcd.pdf.
+ [47] S. Aoki et al. (Flavour Lattice Averaging Group), Eur. Phys. J. C74, 2890 (2014),
+      [arXiv:1310.8555].
+ [48] S. Aoki et al., Eur. Phys. J. C77, 2, 112 (2017), [arXiv:1607.00299].
+ [49] S. Aoki et al. (Flavour Lattice Averaging Group), Eur. Phys. J. C 80, 2, 113 (2020),
+      [arXiv:1902.08191].
+ [50] A. S. Kronfeld, Ann. Rev. Nucl. Part. Sci. 62, 265 (2012), [arXiv:1203.1204].
+ [51] A. V. Manohar, C. T. Sachrajda and R. M. Barnett, Quark Masses (2018),
+      review prepared for PDG 2018 update, URL http://pdg.lbl.gov/2019/reviews/
+      rpp2018-rev-quark-masses.pdf.
+ [52] G. M. de Divitiis et al., JHEP 04, 124 (2012), [arXiv:1110.6294].
+ [53] J. Gasser and H. Leutwyler, Nucl. Phys. B250, 465 (1985).
+ [54] G. M. de Divitiis et al. (RM123), Phys. Rev. D87, 11, 114505 (2013), [arXiv:1303.4896].
+ [55] M. Nobes (2005), [hep-lat/0501009].
+ [56] A. Bazavov et al. (Fermilab Lattice, MILC), Phys. Rev. D93, 11, 113016 (2016),
+      [arXiv:1602.03560].
+ [57] B. I. Eisenstein et al. (CLEO), Phys. Rev. D78, 052003 (2008), [arXiv:0806.2112].
+ [58] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 135, 061801 (2025), [arXiv:2410.07626].
+ [59] M. Ablikim et al. (BESIII), JHEP 01, 089 (2025), [arXiv:2410.20063].
+ [60] J. P. Alexander et al. (CLEO), Phys. Rev. D79, 052001 (2009), [arXiv:0901.1216].
+ [61] P. del Amo Sanchez et al. (BaBar), Phys. Rev. D82, 091103 (2010), [Erratum: Phys. Rev.
+      D91, 019901 (2015)], [arXiv:1008.4080].
+ [62] A. Zupanc et al. (Belle), JHEP 1309, 139 (2013), [arXiv:1307.6240].
+ [63] M. Ablikim et al. (BESIII), Phys. Rev. D94, 7, 072004 (2016), [arXiv:1608.06732].
+ [64] M. Ablikim et al. (BESIII), Phys. Rev. D 108, 11, 112001 (2023), [arXiv:2307.14585].
+ [65] M. Ablikim et al. (BESIII), Phys. Rev. D 110, 5, 052002 (2024), [arXiv:2407.11727].
+ [66] P. U. E. Onyisi et al. (CLEO), Phys. Rev. D79, 052002 (2009), [arXiv:0901.1147].
+
+                                          1st June, 2026
+20                71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+ [67] P. Naik et al. (CLEO), Phys. Rev. D80, 112004 (2009), [arXiv:0910.3602].
+ [68] M. Ablikim et al. (BESIII), Phys. Rev. D104, 3, 032001 (2021), [arXiv:2105.07178].
+ [69] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 127, 17, 171801 (2021), [arXiv:2106.02218].
+ [70] M. Ablikim et al. (BESIII), Phys. Rev. D 108, 9, 092014 (2023), [arXiv:2303.12600].
+ [71] M. Ablikim et al. (BESIII), JHEP 09, 124 (2023), [arXiv:2303.12468].
+ [72] T. K. Pedlar et al. (CLEO), Phys. Rev. D76, 072002 (2007), [arXiv:0704.0437].
+ [73] J. P. Alexander et al. (CLEO), Phys. Rev. Lett. 100, 161804 (2008), [arXiv:0801.0680].
+ [74] B. Aubert et al. (BaBar), Phys. Rev. Lett. 98, 141801 (2007), [hep-ex/0607094].
+ [75] J. P. Lees et al. (BaBar) (2010), [arXiv:1003.3063].
+ [76] Y. Aoki et al. (Flavour Lattice Averaging Group (FLAG)) 2023 online web update.
+ [77] A. Bussone et al. (Alpha), Eur. Phys. J. C 84, 5, 506 (2024), [arXiv:2309.14154].
+ [78] Y. Chen et al. (χQCD), Chin. Phys. C 45, 2, 023109 (2021), [arXiv:2008.05208].
+ [79] P. A. Boyle et al. (RBC/UKQCD) (2018), [arXiv:1812.08791].
+ [80] P. A. Boyle et al., JHEP 12, 008 (2017), [arXiv:1701.02644].
+ [81] Y.-B. Yang et al. (χQCD), Phys. Rev. D92, 034517 (2015), [arXiv:1410.3343].
+ [82] H. Na et al. (HPQCD), Phys. Rev. D86, 054510 (2012), [arXiv:1206.4936].
+ [83] A. Bazavov et al. (Fermilab Lattice and MILC), Phys. Rev. D85, 114506 (2012),
+      [arXiv:1112.3051].
+ [84] C. T. H. Davies et al. (HPQCD), Phys. Rev. D82, 114504 (2010), [arXiv:1008.4018].
+ [85] B. Pullin and R. Zwicky (2021), [arXiv:2106.13617].
+ [86] Z.-G. Wang, Eur. Phys. J. C75, 427 (2015), [arXiv:1506.01993].
+ [87] P. Gelhausen et al., Phys. Rev. D88, 014015 (2013), [arXiv:1305.5432].
+ [88] S. Narison, Phys. Lett. B718, 1321 (2013), [arXiv:1209.2023].
+ [89] W. Lucha, D. Melikhov and S. Simula, Phys. Lett. B701, 82 (2011), [arXiv:1101.5986].
+ [90] W. Lucha, D. Melikhov and S. Simula, Eur. Phys. J. C78, 2, 168 (2018), [Erratum: Eur.
+      Phys. J. C78, 936 (2018)], [arXiv:1702.07537].
+ [91] I. Adachi et al. (Belle-II), Phys. Rev. D 112, 7, 072002 (2025), [arXiv:2502.04885].
+ [92] I. Adachi et al. (Belle), Phys. Rev. Lett. 110, 131801 (2013), [arXiv:1208.4678].
+ [93] B. Kronenbitter et al. (Belle), Phys. Rev. D92, 051102 (2015), [arXiv:1503.05613].
+ [94] J. P. Lees et al. (BaBar), Phys. Rev. D88, 031102 (2013), [arXiv:1207.0698].
+ [95] B. Aubert et al. (BaBar), Phys. Rev. D81, 051101 (2010), [arXiv:0912.2453].
+ [96] R. Frezzotti et al., Phys. Rev. D 109, 11, 114506 (2024), [arXiv:2402.03262].
+ [97] C. Hughes, C. T. H. Davies and C. J. Monahan, Phys. Rev. D97, 5, 054509 (2018),
+      [arXiv:1711.09981].
+ [98] A. Bussone et al. (ETM), Phys. Rev. D93, 11, 114505 (2016), [arXiv:1603.04306].
+ [99] R. Dowdall et al. (HPQCD), Phys. Rev. Lett. 110, 222003 (2013), [arXiv:1302.2644].
+[100] Y. Aoki et al., Phys. Rev. D91, 114505 (2015), [arXiv:1406.6192].
+[101] N. H. Christ et al. (RBC/UKQCD), Phys. Rev. D91, 054502 (2015), [arXiv:1404.4670].
+[102] H. Na et al. (HPQCD), Phys. Rev. D86, 034506 (2012), [arXiv:1202.4914].
+[103] C. McNeile et al. (HPQCD), Phys. Rev. D85, 031503 (2012), [arXiv:1110.4510].
+
+                                          1st June, 2026
+21                71. Leptonic Decays of Charged Pseudoscalar Mesons
+
+
+[104] H.-K. Sun and M.-Z. Yang, Phys. Rev. D95, 11, 113001 (2017), [arXiv:1609.08958].
+[105] M. J. Baker et al., JHEP 07, 032 (2014), [arXiv:1310.0941].
+[106] W. Lucha, D. Melikhov and S. Simula, Phys. Rev. D88, 056011 (2013), [arXiv:1305.7099].
+[107] J. Hardy and I. S. Towner, PoS CKM2016, 028 (2016).
+[108] J. C. Hardy and I. S. Towner, Phys. Rev. C102, 4, 045501 (2020).
+[109] C.-Y. Seng et al., Phys. Rev. D105, 1, 013005 (2022), [arXiv:2107.14708].
+[110] N. Carrasco et al., Phys. Rev. D93, 11, 114512 (2016), [arXiv:1602.04113].
+[111] A. Bazavov et al. (Fermilab Lattice and MILC), Phys. Rev. Lett. 112, 112001 (2014),
+      [arXiv:1312.1228].
+[112] C.-Y. Seng et al., Phys. Rev. Lett. 121, 241804 (2018), [arXiv:1807.10197].
+[113] C. Y. Seng, M. Gorchtein and M. J. Ramsey-Musolf, Phys. Rev. D100, 013001 (2019),
+      [arXiv:1812.03352].
+[114] M. Gorchtein, Phys. Rev. Lett. 123, 042503 (2019), [arXiv:1812.04229].
+[115] C.-Y. Seng and U.-G. Meissner, Phys. Rev. Lett. 122, 211802 (2019), [arXiv:1903.07969].
+[116] A. Czarnecki, W. J. Marciano and A. Sirlin, Phys. Rev. D 100, 7, 073008 (2019),
+      [arXiv:1907.06737].
+[117] C. Patrignani et al. (Particle Data Group), Chin. Phys. C40, 10, 100001 (2016).
+[118] Y. S. Amhis et al. (Heavy Flavor Averaging Group, HFLAV), Phys. Rev. D 107, 5, 052008
+      (2023), [arXiv:2206.07501].
+[119] A. Bazavov et al. (Fermilab Lattice, MILC), Phys. Rev. D 107, 9, 094516 (2023),
+      [arXiv:2212.12648].
+[120] V. Lubicz et al. (ETM), Phys. Rev. D96, 5, 054514 (2017), [Errata: Phys. Rev. D99, 099902
+      (2019),Phys. Rev. D100, 079901 (2019)], [arXiv:1706.03017].
+[121] B. Chakraborty et al. ((HPQCD Collaboration)), Phys. Rev. D104, 3, 034505 (2021),
+      [arXiv:2104.09883].
+[122] L. Wolfenstein, Phys. Rev. Lett. 51, 1945 (1983).
+[123] J. Charles et al. (CKMfitter Group), Eur. Phys. J. C41, 1 (2005), updated results and plots
+      available at: http://ckmfitter.in2p3.fr, [hep-ph/0406184].
+[124] M. Antonelli et al., Phys. Rept. 494, 197 (2010), [arXiv:0907.5386].
+[125] J. N. Butler et al. (Quark Flavor Physics Working Group), in “Community Summer Study
+      2013: Snowmass on the Mississippi (CSS2013) Minneapolis, MN, USA, July 29-August 6,
+      2013,” (2013), [arXiv:1311.1076], URL http://www.slac.stanford.edu/econf/C1307292/
+      docs/IntensityFrontier/QuarkFl-15.pdf.
+[126] Y. Amhis et al. (Heavy Flavor Averaging Group) (2014), [arXiv:1412.7515].
+[127] A. J. Bevan et al. (Belle, BaBar), Eur. Phys. J. C74, 3026 (2014), [arXiv:1406.6311].
+[128] Y. Amhis et al. (HFLAV), Eur. Phys. J. C77, 12, 895 (2017), [arXiv:1612.07233].
+[129] A. X. El-Khadra and P. Urquiljo, Semileptonic b-Hadron Decays, Determination of Vcb , Vub
+      (2023), review prepared for PDG 2024 update, URL http://pdg.lbl.gov/2024/reviews/
+      rpp2024-rev-vcb-vub.pdf.
+
+
+
+
+                                          1st June, 2026
+

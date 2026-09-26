@@ -1,0 +1,839 @@
+                                                                                                                                                 IMSc/23/05, TIFR/TH/23-14
+
+                                          Bound isoscalar axial-vector bcūd¯ tetraquark Tbc from lattice QCD using two-meson and
+                                                                  diquark-antidiquark variational basis
+
+                                                                  M. Padmanath,1, ∗ Archana Radhakrishnan,2, † and Nilmani Mathur2, ‡
+                                                  1
+                                                      The Institute of Mathematical Sciences, a CI of Homi Bhabha National Institute, Chennai, 600113, India
+                                                                    2
+                                                                      Department of Theoretical Physics, Tata Institute of Fundamental Research,
+                                                                                    Homi Bhabha Road, Mumbai 400005, India
+                                                                                                (Dated: May 2, 2024)
+                                                              We report a lattice QCD study of the heavy-light meson-meson interactions with an explicitly
+                                                                                   ¯ isospin I = 0, and axialvector J P = 1+ quantum numbers in search of pos-
+                                                         exotic flavor content bcūd,
+                                                         sible tetraquark bound states. The calculation is performed at four values of lattice spacing, ranging
+                                                         ∼0.058 to ∼0.12 fm, and at five different values of valence light quark mass mu/d , corresponding to
+                                                         pseudoscalar meson mass Mps of about 0.5, 0.6, 0.7, 1.0, and 3.0 GeV. The energy eigenvalues in the
+                                                         finite-volume are determined through a variational procedure applied to correlation matrices built out
+
+
+
+
+arXiv:2307.14128v2 [hep-lat] 1 May 2024
+                                                         of two-meson interpolating operators as well as diquark-antidiquark operators. The continuum limit
+                                                         estimates for DB̄ ∗ elastic S-wave scattering amplitude are extracted from the lowest finite-volume
+                                                         eigenenergies, corresponding to the ground states, using amplitude parametrizations supplemented
+                                                         by a lattice spacing dependence. Light quark mass mu/d dependence of the DB̄ ∗ scattering length
+                                                         (a0 ) suggests that at the physical pion mass aphys
+                                                                                                          0    = +0.57(+4−5 )(17) fm, which clearly points to an
+                                                                                                       ∗
+                                                         attractive interaction between the D and B̄ mesons that is strong enough to host a real bound state
+                                                                                                                                       ∗
+                                                         Tbc , with a binding energy of −43(+6     +14
+                                                                                              −7 )(−24 ) MeV with respect to the D B̄ threshold. We also find
+                                                         that the strength of the binding decreases with increasing mu/d and the system becomes unbound at
+                                                         a critical light quark mass m∗u/d corresponding to Mps  ∗
+                                                                                                                    = 2.73(21)(19) GeV.
+
+
+                                             The discovery of a doubly charmed tetraquark1 , Tcc ,            heavy tetraquarks is based on a compact heavy diquark-
+                                          marks an important milestone [1] in spectroscopy of                 light antidiquark interpretation [14, 26], whereas the shal-
+                                          hadrons. Phenomenologically, doubly heavy tetraquarks               low binding energy of Tcc could possibly be a reflection
+                                          in the heavy quark limit are long hypothesized to form              of its dominant noncompact molecular nature [8, 27].
+                                          deeply bound states [2–12] with binding energy O(100                Bottom-charm tetraquarks form an intermediate platform,
+                                          MeV) with respect to the elastic strong decay threshold.            where there could be complicated interplay between these
+                                          While doubly bottom tetraquarks are suitable candidates             pictures. A collective and refined knowledge of the low en-
+                                          for such deeply bound states, as predicted by multiple lat-         ergy spectra in all these three doubly heavy systems (Tbb ,
+                                          tice QCD calculations [13–18], Tcc is found to be 360 keV           Tbc and Tcc ) could culminate in a deeper understanding
+                                          below the lowest two-meson threshold (D0 D∗+ ). A hand-             of strong interaction dynamics across a wide quark mass
+                                          ful of recent experimental developments involving multiple          regime spanning from charm to the bottom quarks. The
+                                          heavy quark production such as the recent discoveries of            isoscalar bottom-charm tetraquarks with quantum num-
+                                          Ξcc [19], Tcc [1], reports of tri-J/ψ [20], associated J/ψΥ         bers [I(J P ) = 0(1+ )] have been investigated previously
+                                          [21], and di-Υ [22] productions, and recent proposals of            both using lattice [28–30] and nonlattice methodologies
+                                          inclusive search strategies [23, 24] augment promising              [5, 6, 8, 9, 11, 12, 26, 31–40]. The predictions from nonlat-
+                                          prospects for the doubly heavy hadron sector in the near            tice approaches are quite scattered from being unbound
+                                          future. In light of these advancements, a doubly heavy              to deeply bound, whereas the difference in conclusions
+                                          tetraquark with a bottom and a charm quark with a va-               from the three existing lattice QCD investigations[28–30]
+                                          lence quark configuration Tbc ≡ bcūd¯ is going to be one           call for more detailed efforts in this regard.
+                                          of the most sought-after hadron in this decade [25]. In                In this work, we perform a lattice QCD simulation of
+                                          this work, using lattice QCD calculations, we show a clear          coupled DB̄ ∗ and B̄D∗ two-meson channels2 that are
+                                          evidence of an attractive interaction between the D and             the relevant lowest two strong decay thresholds, in the
+                                          B̄ ∗ mesons that is strong enough to host a real bound              order of increasing energies, EDB̄ ∗ = MB̄ ∗ + MD and
+                                          state Tbc . This finding will further boost the search for          EB̄D∗ = MB̄ + MD∗ , where Mh is the mass of the hadron
+                                          such bottom-charm tetraquarks.                                      h. The extracted finite-volume ground state energies are
+                                             The phenomenological picture on deeply bound doubly              utilized to constrain the continuum extrapolated elastic
+
+
+
+                                          1 We follow the nomenclature that a “tetraquark” refers to any       2 We work in the isosymmetric limit with no QED effects and m =
+                                                                                                                                                                                 u
+                                            bound state or resonance with dominant four-quark Fock compo-        md . Hence we choose to call the degenerate (D+ B − , D0 B̄ 0 )
+                                            nent, whether it is a compact four-quark object or a two-meson       threshold as DB̄, and equivalently for others like DB̄ ∗ , B̄D∗ and
+                                            molecule or a mixture of both.                                      D∗ B̄ ∗ .
+                                                                                                                             2
+
+DB̄ ∗ scattering amplitudes following the Lüscher’s finite-     source operator and overlaps to distinguish them from
+volume prescription [41, 42]. The light quark mass mu/d          that for the sink as we follow a wall-source to point-
+dependence of the extracted amplitudes suggests a binding        sink construction in our Cij evaluations. This is well-
+energy of −43(+6    +14                   ¯
+               −7 )(−24 ) MeV for the bcūd tetraquark pole      established procedure in ground state energy determi-
+with respect to EDB̄ ∗ at the physical point mphys
+                                                 u/d .
+                                                                 nation, despite the non-Hermitian setup in Eq. (1) (see
+                                                                 Refs. [14, 16, 28, 29, 52, 53] for details). We use the
+    Label        Symbol    a [f m]    Ns3 × Nt       sea
+                                                    Mps          following set of linearly independent, yet Fierz related
+    S1                     0.1207(11) 243 × 64       305         [54], operators,
+    S2                     0.0888(8)  323 × 96       312                                   ¯
+                                                                   O1 (x) = [ū(x)γi b(x)][d(x)γ 5 c(x)]
+    S3                     0.0582(4) 483 × 144       319
+    L1                     0.1189(9)  403 × 64       217                    −[ ¯d(x)γi b(x)][ū(x)γ5 c(x)]
+                                                                                           ¯
+                                                                   O2 (x) = [ū(x)γ5 b(x)][d(x)γ i c(x)]
+
+TABLE I. Relevant details of the lattice QCD ensembles used.
+                                                                                ¯
+                                                                            −[d(x)γ5 b(x)][ū(x)γi c(x)]                (2)
+The lattice spacing estimates are measured using the r1 pa-                         T ¯      ¯   T
+                                                                   O3 (x) = (ū(x) Γ5 d(x) − d(x) Γ5 ū(x))(b(x)Γi c(x)).
+rameter [43]. L1 refers to large spatial volume, and S1 , S2 ,
+and S3 refer to small spatial volumes.                           O1 and O2 are two-meson operators of the type DB̄ ∗
+                                                                 and B̄D∗ , respectively. O3 is a diquark-antidiquark type
+   Lattice setup: We use four lattice QCD ensembles (see         operator. Here Γk = Cγk with C = iγy γt being the charge
+Table I for relevant details) with Nf = 2+1+1 dynamical          conjugation matrix and the diquarks (antidiquarks) in the
+Highly Improved Staggered Quark (HISQ) fields gener-             color antitriplet (triplet) representations. Other high lying
+ated by the MILC collaboration [43]. The charm and               two-meson (D∗ B̄ ∗ ) and three-meson (DB̄π) interpolators
+strange quark masses in the sea are tuned to their respec-       are ignored in this analysis as they are sufficiently high in
+tive physical values, whereas the dynamical light quark          energy to have any effects on the extracted ground states.
+masses correspond to sea pion masses as listed in Table          Bilocal two-meson interpolators with nonzero internal
+I. We utilize a partially quenched setup on these configu-       meson momenta are also not considered, which would be
+rations with valence quark fields up to the charm quark          an important step ahead [55]. We also compute two-point
+masses realized using an overlap fermion action as in Refs.      correlation functions for B̄, B̄ ∗ , D, and D∗ mesons, using
+[44, 45]. We employ a nonrelativistic QCD (NRQCD)                standard local quark bilinear interpolators (q̄ Γ Q) with
+Hamiltonian [46] for the bottom quark. Following the             spin structures Γ ∼ γ5 and γi for pseudoscalar and vector
+Fermilab prescription [47], the bare charm [48, 49] and          quantum numbers, respectively.
+bottom [50] quark masses on each ensemble are tuned                 Analysis: The correlation matrices C evaluated for the
+using the kinetic mass of spin averaged 1S quarkonia             basis in Eq. (2) are analyzed following a variational pro-
+     Q̄Q
+{aM kin = 34 aMkin (V ) + 14 aMkin (P S)} determined on          cedure [56] by solving the generalized eigenvalue problem
+the respective ensembles. The bare strange quark mass            (GEVP), C(t)v n (t) = λn (t)C(t0 )v n (t). The eigenvalues
+is set by equating the lattice estimate for the fictitious       in the large time limit represent the time evolution the
+                                                                                                                            n
+pseudoscalar s̄s meson mass to 688.5 MeV [51].                   low lying eigenenergies E n as limt→∞ λn (t) ∼ An e−E t .
+   For the valence mu/d , we investigate five different cases:   The corresponding eigenvectors v n (t) are related to the
+three unphysical quark masses [corresponding to approx-          operator-state-overlaps Zin .
+imate pseudoscalar meson masses Mps ∼0.5, 0.6, and                  Eigenenergy extraction proceeds via fitting the eigen-
+1.0 GeV], the strange quark mass [Mps ∼0.7 GeV] and              value correlators, λn (t), or the ratios Rn (t) =
+the charm quark mass [Mps ∼3.0 GeV]. We evaluate the             λn (t)/Cm1 (t)Cm2 (t), with the expected asymptotic expo-
+finite-volume spectrum for all these five quark masses on        nential behaviour. Here, Cmi is the two-point correlation
+all four ensembles, investigate the scattering of D and          function for the meson mi . Rn (t) is empirically known
+B̄ ∗ mesons in all five cases and then extract the mu/d          to efficiently mitigate correlated noise between the prod-
+(otherwise Mps ) dependence of the scattering parameters.        uct of two single hadron correlators and the interacting
+   Interpolators and measurements: The finite-volume             correlator for the two-hadron system [57]. Note that the
+spectrum is determined from Euclidean two-point corre-           automatic cancellation of the additive quark mass offset,
+lation functions Cij (t), between interpolating operators        inherent to NRQCD formulation, is an added advantage
+Oi,j (x, t) with desired quantum numbers, given by               in using Rn (t) for the fits. The systematics associated
+                                                                 with the chosen time interval for fitting are assessed by
+              XD †               E X
+    Cij (t) =     Oj (0)Oi (x, t) ≈     Zn†    n −E n t          varying the lower boundary of the time interval, tmin ,
+                                           j Zi e       . (1)
+             x                        n
+                                                                 with a fixed upper boundary, tmax , chosen considering
+                                                                 the noise level. In Figure 1, we present a representative
+Here E n is the energy of the nth state and Zin = ⟨0| Oi |n⟩     plot showing this tmin dependence of the energy splittings
+is the operator-state overlap between the sink opera-            (∆E n ) determined from the fits to λn (t) and Rn (t), respec-
+tor Oi and state n. We use O and Z to represent the              tively. The energy differences are evaluated from λn (t)
+                                                                                                                                                                       3
+
+using the relation ∆E n = E n − Mm1 − Mm2 , whereas the                              eigenenergies and ground state negative energyshifts are
+fits to Rn (t) directly yield the respective estimates. We                           also observed in other ensembles, see details in Ref. [58].
+choose the optimal tmin values where the two different                               We expect that for our choice of interpolating operators
+procedures found to agree asymptotically in time. We                                 and the accessible values of t, E 0 will be an accurate
+also perform additional checks considering an alternative                            estimate of E 0 , whereas our setup is unable to accurately
+quark smearing with different smearing widths to affirm                              estimate excited-state energies. This means the excited
+our energy estimates, see Appendix A. Our final results                              eigenenergies presented in Figure 1 may not correspond
+are based on fitting the ratio correlators Rn (t).                                   to the higher lying elastic excitations of the DB̄ ∗ channel.
+                                                                                     The location of lowest two non-interacting finite-volume
+      0.02
+           a       0                              R 0 (t)                            levels related to the DB̄ ∗ channel along with the ground
+      0.01                                         0 (t)
+                                                                                     state eigenenergies are presented in Appendix B. Hence
+      0.00                                                                           we focus only on the ground state energies (E 0 ∼ E 0 ) for
+                                                                                     the rest of the analysis.
+      0.01
+                                                                                              1.002
+      0.02                                                                                            Mps   0.5 GeV   0.6 GeV   0.7 GeV         1.0 GeV      3.0 GeV
+      0.03
+                                                                   tmin /a                    1.000
+             18        21         24      27       30         33         36
+                                                                                     E 0cm /EDB *
+                                                                                              0.998
+FIG. 1. tmin dependence of the ∆E 0 fit estimates determined
+from the fits to λ0 and R0 (t) for the case Mps ∼ 700 MeV in                                  0.996
+the finest ensemble. Here the superscript 0 refers to the lowest
+                                                                                              0.994
+eigenenergy.                                                                                                                                                  L [fm]
+                                                                                                       3 4 5          3 4 5     3 4 5           3 4 5        3 4 5
+  1.75             1.70     0.6    1.75         1.85           2.50
+             0.5                          0.7           1.0              3.0         FIG. 3. The ground state energies in units of EDB̄ ∗ on all
+  1.70                                                         2.45                  ensembles (see Table I for color-symbol conventions) for all
+                   1.65            1.70         1.80                                 Mps values (different vertical panels).
+  1.65                                                                       D *B*
+                                                               2.40
+                                   1.65                                      BD *
+  1.60
+a n                1.60                         1.75
+                                                               2.35                    In Figure 3, we present the ground state energy es-
+  1.55                             1.60                                      DB *    timates, in units of EDB̄ ∗ , at various Mps and for all
+                   1.55                         1.70
+  1.50                                                         2.30                  the ensembles. These estimates are evaluated as E n =
+                                   1.55
+                                                                               L1    ∆E n + MD + M̃B̄ ∗ , where ∆E n is the estimate from fit
+  1.45             1.50                         1.65           2.25
+                                                                                                                                 b̄b             b̄b
+                                                                                     to Rn (t), M̃B̄ ∗ = MB̄ ∗ − 0.5M lat +0.5M phys accounts for
+FIG. 2. The GEVP eigenenergies in finite-volume for isoscalar                                                                             b̄b          b̄b
+axialvector bcūd¯ channel on the L1 ensemble. Five panels show                      the NRQCD additive offset, and M lat (M phys ) refers to
+the results obtained at various pseudoscalar meson masses                            the spin averaged mass of the 1S bottomonium measured
+(Mps ) 0.5, 0.6, 0.7, 1.0, and 3.0, respectively.                                    on the lattice (experiments). The eigenenergies clearly
+                                                                                     show a trend of decreasing energy spitting, hence decreas-
+   Finite-volume eigenenergies: In Figure 1, we present                              ing interaction strength, with increasing Mps . Another
+the finite-volume GEVP eigenenergies, in lattice units, for                          interesting feature to note here is the nonzero lattice spac-
+the isoscalar axialvector bcūd¯ channel. The results shown                          ing (a) dependence of the ground state energies on similar
+are for the L1 ensemble at the five different mu/d values                            volume ensembles (S1 , S2 , S3 ), which we account for
+corresponding to Mps ∼ 0.5, 0.6, 0.7, 1.0, and 3.0 GeV.                              through an a dependence in the parametrized amplitude
+Note that these estimates include the additive offsets re-                           as discussed below.
+lated to the NRQCD-based bottom quark dynamics. The                                     In Figure 3, we also indicate the branch point location
+non-interacting two-meson energy levels corresponding to                             of the left hand cut (lhc) arising out of an off-shell pion
+DB̄ ∗ and B̄D∗ thresholds are indicated as dotted hori-                              exchange process for different Mps by horizontal dashed
+zontal line segments and those related to B̄ ∗ D∗ threshold                          lines. Recent developments point to the importance of
+by dashed lines for each Mps . The lowest eigenenergy or                             lhc effects on virtual subthreshold poles related to the
+the ground state energy is dominated by the Z10 factor                               Tcc tetraquark [60]. Such effects on bound states are
+corresponding to O1 , that is related to the DB̄ ∗ threshold                         the subject of future studies where one could successfully
+and is determined unambiguously by the operator O1 , see                             solve the relevant three particle integral equations. This
+Ref. [58] for details. The most important observation                                is beyond the scope of this work and we ignore such effects
+is a clear trend for negative energy shifts in the ground                            in our analysis.
+state energies, which can be observed in all the cases,                                 DB̄ ∗ scattering amplitude: Assuming these energy split-
+indicating a possible attractive interaction between the                             tings in ground states are purely described by elastic
+D and B̄ ∗ mesons [59]. A similar pattern of low lying                               scattering in the DB̄ ∗ system, we utilize them to con-
+                                                                                                                                                             4
+
+strain the associated S-wave scattering amplitude follow-           points in the intermediate mass regime between the charm
+ing Lüscher’s finite-volume prescription [41, 42]. For the         and the strange quark masses to further constrain the
+low energy scattering of D and B̄ ∗ mesons, where other
+                                                                                  0.04
+multi-particle thresholds are sufficiently high [61], in the
+S-wave leading to the total angular momentum and parity                           0.02
+
+                                                                 ( a0 EDB * ) 1
+J P = 1+ , the scattering phase shifts δl=0 (k) are related to                    0.00
+the finite-volume energy     spectrum through                                     0.02       a0phys
+                       √                     √ kcot[δ0 (k)] =
+2Z00 [1; ( kL ) 2
+                  )]/(L  π). Here,  k(Ecm  =    s) is the mo-                     0.04                                                  Mps*
+           2π                                                                                                      fs [ 2 /dof 4.1/6]
+mentum (energy) in the center of momentum frame such                                                               fq [ 2 /dof 2.4/4]
+                                                                                  0.06                                                                2
+that 4sk 2 = (s − (MD + MB̄ ∗ )2 )(s − (MD − MB̄ ∗ )2 ). We                                                        fl [ 2 /dof 2.3/6]          Mps2 /EDB *
+                                                                                  0.08
+follow the procedure outlined in Appendix B of Ref. [62]                              0.00             0.04     0.08          0.12         0.16          0.20
+to constrain the amplitude. A sub-threshold pole in the
+                                                    −1              FIG. 4. Continuum extrapolated kcotδ0 or A[0] = −1/a0
+S-wave scattering     √ amplitude t = (cotδ0 − i)      occurs
+                           2
+when kcotδ0 = ± −k for scattering in S-wave.                        estimates of the DB̄ ∗ system as a function of Mps2
+                                                                                                                         in units of
+                                                                    EDB̄ ∗ . The dotted vertical line close to the y-axis indicates
+   We parametrize the elastic DB̄ ∗ scattering amplitude
+                                                                    Mps = Mπphys . The two star symbols represent the amplitude
+in terms of the scattering length a0 in an effective range          at Mps = Mπphys and the critical Mps = Mps  ∗
+                                                                                                                   above which the
+expansion near the threshold, supplemented by a lattice             system becomes unbound.
+spacing dependence. This is required to incorporate the
+cut-off effects observed in the ground state energy esti-           dependence. Yet, our fits demonstrate near independence
+mates. We find that a linear functional form given by               in the fit forms as can be observed from the consistency
+kcotδ0 = A[0] + aA[1] , where A[0] = −1/a0 , accommodate            between the error bands from different fit forms.
+the a dependence of the kcotδ0 estimates. We present the              Based on the fit form fs (Mps ) in the chiral regime,
+fit results for A[0] = −1/a0 in Figure 4 (circle symbols)           we find that the scattering length of the DB̄ ∗ system at
+as a function of Mps involved. Alternative fitting choices          the physical light quark mass (mphys
+                                                                                                      u/d ), corresponding to
+with a leading quadratic dependence or using only data                         phys
+from non-charm Mps are consistent with results in Figure            Mps = Mπ , to be
+4, see details in Supplemental material [58].
+                                                                                                       aphys = 0.57(+4
+                                                                                                                    −5 )(17) fm.                         (3)
+   The sign of A[0] = −1/a0 determines the fate of the                                                  0
+
+near-threshold pole, if there exists one. A negative (posi-
+                                                                    The asymmetric errors indicate the statistical uncertain-
+tive) value of A[0] (a0 ) indicates that the interaction po-
+                                                                    ties, whereas the second parenthesis quotes the systematic
+tential is strong enough to form a real bound state[63].
+                                                                    uncertainties with the most dominant contribution arising
+After considering all possible systematics, we find that
+                                                                    from the chiral extrapolation fit forms. The positive value
+for all the non-charm light quark masses, A[0] is negative,
+                                                                    of the scattering length at Mps = Mπphys , at the level
+which indicates an attractive interaction strong enough
+                                                                    of 3σ uncertainty, is an unambiguous evidence for the
+to host a real bound state. On the contrary, at the charm
+                                                                    strength of the DB̄ ∗ interaction potential to host a real
+point, despite the unambiguous negative energy shifts in
+                                                                    bcūd¯ tetraquark bound state Tbc with binding energy
+the ground states, the attraction is weak to host any real
+bound state as suggested by the positive value of kcotδ0                                              δmTbc = −43(+6   +14
+                                                                                                                  −7 )(−24 ) MeV,                        (4)
+in the continuum limit. This observation goes in line with
+the phenomenological expectation for doubly heavy four              with respect to EDB̄ ∗ . The first parenthesis indicates
+quark (QQ′ l1 l2 ) systems with ml1 = ml2 that the binding          the statistical errors and the second one quantifies vari-
+increases with increased relative heaviness of the heavy            ous systematic uncertainties added in quadrature. The
+quarks with respect to its light quark content[14, 26, 64].         pseudoscalar meson mass, corresponding to the criti-
+   Now we investigate the light quark mass (mu/d ) or Mps           cal light quark mass, where a0 diverges, is found to be
+dependence of the fitted parameters. To this end, we                   ∗
+                                                                    Mps   = 2.73(21)(19) GeV. This critical point also signifies
+consider three different parametrizations: a linear depen-          that QCD dynamics within such exotic systems is such
+dence (fl (Mps ) = αc + αl Mps ) to probe the heavy light           that at a heavy light quark mass the system of quarks
+                                  2
+quark mass case, a leading Mps       dependence (fs (Mps ) =        perhaps reaches the unitary gas limit, as indicated by the
+           2                                                                                                          ∗
+βc +βs Mps ) to assess the chiral behaviour, and a quadratic        divergent scattering length [65]. For Mps ≥ Mps     , the Tbc
+                                              2
+dependence (fq (Mps ) = θc + θl Mps + θs Mps     ) to quantify      system remains unbound.
+the associated systematics. In Figure 4, we show the fit               Systematic uncertainties: Our lattice setup together
+results for this Mps dependence in colored bands. The               with the bare bottom and charm quark mass tuning proce-
+two stars represent A[0] at the physical Mps (equivalently          dure has been demonstrated to reproduce the 1S hyperfine
+the physical scattering length aphys
+                                   0   ) and the critical Mps       splittings in quarkonia with uncertainties less than 6 MeV
+at which A[0] changes its sign or above which the sys-              [50, 53]. We observe the effects of such a mistuning of
+tem becomes unbound. It is indeed desired to have more              either of the heavy quark mass on the energy splittings we
+                                                                                                                             5
+
+extract are very small compared to the statistical errors.         matrices at rest as well as in moving frames and those us-
+Additionally, our strategy of evaluating the energy differ-        ing bilocal two-meson interpolators with nonzero relative
+ences and working with mass ratios has also been shown             meson momenta aimed at reliable excited state extraction
+to significantly mitigate the systematic uncertainties re-         would be a few important steps ahead [55, 62, 68, 69]. We
+lated to heavy quark masses [52, 53]. This is observed to          hope that our observations and inferences in this work
+be the case in this study as well, leading to transparent          will motivate more theoretical efforts and experimental
+signals for the ground state energy as shown in Figures            searches for such states.
+1, 1, and 3. Our fitting procedure involves careful and               This work is supported by the Department of Atomic
+conservative determination of statistical errors, and un-          Energy, Government of India, under Project Identification
+certainties related to the excited-state-contamination and         Number RTI 4002. M.P. gratefully acknowledges support
+fit-window errors. Additional checks using alternative             from the Department of Science and Technology, India,
+quark smearing procedures also agree with our energy               SERB Start-up Research Grant No. SRG/2023/001235.
+estimates, see Appendix A. The amplitude determination             We are thankful to the MILC collaboration and in partic-
+and followed extrapolations are performed with results             ular to S. Gottlieb for providing us with the HISQ lattice
+from varying the fit-windows to evaluate the uncertainties         ensembles. We thank Sara Collins for a careful reading
+propagated to our final results. The uncertainties related         of the manuscript. We thank the authors of Ref. [70] for
+to the fit forms used in chiral extrapolations are observed        making the TwoHadronsInBox package utilized in this
+to be the most dominant, as is evident from Figure 4. We           work. We also thank Gunnar Bali, Parikshit Junnarkar,
+assume the partially quenched setup involving ensembles            Alexey Nefediev, Sayantan Sharma, Stephen R. Sharpe,
+with different sea pion masses, we utilize, have negligible        and Tanishk Shrimal for discussions. Computations were
+effects on the energy splittings we extract for the explicitly     carried out on the Cray-XC30 of ILGTI, TIFR. Ampli-
+exotic Tbc tetraquark, similar to what was observed for            tude analyses were performed on Nandadevi computing
+heavy hadrons in Refs. [66, 67]. Uncertainty related to            cluster at IMSc Chennai. N. M. would also like to thank
+scale setting is also found to be negligible in comparison         A. Salve and K. Ghadiali for computational support.
+to the statistical uncertainties in the energy splittings.            Appendix A: Ground state energy plateau.- In this work
+   Summary: We have performed a lattice QCD simulation             we have utilized a wall-source point-sink setup to con-
+of coupled DB̄ ∗ -B̄D∗ scattering with explicitly exotic           struct the necessary two-point correlation functions. The
+flavor bcūd¯ and I(J P ) = 0(1+ ). Following a rigorous           use of such an asymmetric setup implies the effective
+extraction of finite-volume eigenenergies and continuum            energies aEef f = [ln(C(t)/C(t + δt))]/δt could approach
+extrapolated elastic DB̄ ∗ scattering amplitudes for the           their asymptotic values as rising-from-below, due to the
+five light quark masses studied, we determine the light            nonpositive definite nature of the coefficients in a spec-
+quark mass dependence of the elastic DB̄ ∗ scattering              tral decomposition, in contrast to a falling-from-above
+length a0 . We observe unambiguous negative energy                 behaviour in a symmetric setup. In Figure 5, we show
+shifts between the interacting and non-interacting finite-         the effective mass in wall-source point-sink setup with the
+volume energy levels. Our estimate for aphys 0    (Eq. (3)) is     brown-circle (R2 = 0) which rises from below.
+positive, indicating an attractive interaction between the            To avoid any ambiguity in selecting the plateau regions
+D and B̄ ∗ mesons, which is strong enough to host a real           of effective masses of such correlators, we also employ
+bound state with binding energy δmTbc = −43(+6             +14
+                                                      −7 )(−24 )   a wall-source box-sink setup [29], which asymptotically
+MeV. We find that the strength of interaction is such that         approaches the symmetric limit. In the symmetric limit,
+this bcūd¯ tetraquark becomes unbound at Mps     ∗
+                                                    , which is     the effective masses are expected to follow a conventional
+close to the ηc meson mass.                                        falling-from-above feature, modulo the statistical noise.
+   In this work, we make several important steps ahead             To this end, we vary the smearing radius R to investigate
+to arrive at robust inference on the nature of interaction         the time dependence of effective mass plateaus in the
+between the D and B̄ ∗ mesons. Our main strategy has               approach to the symmetric limit. In Figure 5, we present
+been to determine the signature of scattering length in            a comparison of the effective energy (top) and effective en-
+DB̄ ∗ interactions at the physical pion mass aphys  0    . Our     ergy splittings (bottom) determined using different quark
+results indicate that aphys
+                        0    is positive, which suggests   that    sink smearing procedures for the case of Mps ∼ 700 MeV
+attractive DB̄ ∗ interactions are strong enough to host a          on the finest ensemble. Clearly the rising-from-below
+real bound state. Further theoretical investigations are           behaviour is gradually disappearing in the approach to
+desired to reduce the uncertainties in the binding energy          the symmetric limit. It is also evident that the results at
+of Tbc with respect to EDB̄ ∗ . Fully dynamical simulations        the large time limit from point-sink and box-sink are very
+on several more ensembles, with different volumes and              much consistent with each other affirming our assessment
+improvized fermion actions, high statistics studies with           on effective mass plateau in choosing a fit range. Such a
+lighter mu/d , etc. are a few other improvisations that            behavior of effective masses with varying smearing radii
+can further constrain the relevant scattering amplitude.           was also observed in Ref. [29]. In the large time limit,
+Additionally, future works involving Hermitian correlation         where the signal quality is still good, all of sink smearing
+                                                                                                                                             6
+
+cases suggest consistent negative energy shifts. This is            an important step ahead towards constraining the energy
+evident from the large time behaviour of energy splittings          dependence of the amplitude over a long energy range.
+presented in the bottom panel of Figure 5, where the cor-           However, within the wall-smearing setup, all the nonzero
+related statistical noise, not related to the excited state         momentum excitations are significantly suppressed. This
+contamination, is suppressed between the numerator and              suppression is exact in a free theory, and is empirically
+denominator in the ratio correlators Rn (t).                        confirmed from the early plateauing and from the quality
+   The agreement of energy splitting estimates from fits            of signals in the interacting theory. While this suppression
+to Rn (t) with those evaluated from separate fits to the            is advantageous in ground state energy determination (see
+GEVP eigenvalue correlators λn (t) and the single-meson             Refs.[14, 16, 28, 29, 52, 53] for details), the suppressed
+correlators CD/B̄ ∗ at large times (see Figure 1) already           coupling to the nonzero momentum excitations implies
+rules out the usual concern of accidental partial cancel-           that the access to higher two-meson elastic excitations
+lation of excited state contaminations in Rn (t). The               with nonzero relative meson momenta are restricted in the
+consistency at large times between ground state energy              wall-smearing setup. This implies other methodologies
+plateaus from different sink-smearing radii observed in top         that facilitate the use of bilocal two-meson interpolators
+panel of Figure 5 further affirms the reliable isolation of         with separately momentum projected mesons are neces-
+the ground state plateau. Note also that the magnitude of           sary in future studies [55, 71, 72]3 . In this respect, it
+such cancellations and the ground state saturation times            is informative to know the location of the lowest non-
+could be different in different lattice QCD ensembles. All          interacting level with nonzero relative meson momenta
+the ground state estimates for noncharm Mps values in               and whether it is close enough to influence the ground
+our study are determined from the time intervals approxi-           state energies in any substantial way. Considering this,
+mately between 1.5(2) fm [tmin ] to 2.3(2) fm [tmax ]. The          in Figure 6 we present the ground state eigenenergies
+consistent ground state saturation times across different           along with the DB̄ ∗ threshold and the next lowest elastic
+ensembles with different specifications further imply the           DB̄ ∗ excitation with nonzero relative meson momentum
+reliability of our ground state saturation, despite our             determined using the continuum dispersion relation that
+asymmetric setup.                                                   is assumed in the finite-volume quantization condition
+                                                                    [41, 42]. Clearly, the location of this first non-interacting
+         1.10                                                       elastic excitation is sufficiently high to have any nonnegli-
+         1.05                                                       gible effects on the extracted the ground state energies.
+         1.00
+                                                                            1.004
+         0.95
+ aEeff                                                                      1.002
+         0.90                                       R2 = 0                        Mps 0.5 GeV   0.6 GeV    0.7 GeV     1.0 GeV     3.0 GeV
+                                                                            1.000
+                                                                    E0cm /EDB *
+         0.85                                       R 2 = 25
+         0.80                                       R 2 = 49
+                                                                            0.998
+         0.75                                                               0.996
+                                                                            0.994                                                    L [fm]
+         0.04       R2 = 0
+                    R 2 = 25                                                       3 4 5        3 4 5     3 4 5       3 4 5       3 4 5
+         0.02       R 2 = 49
+                                                                    FIG. 6. The ground state energy eigenvalues in the back-
+a Eeff   0.00                                                       ground of lowest two non-interacting DB̄ ∗ finite-volume levels
+                                                                    units of EDB̄ ∗ on all ensembles (see Table I for color-symbol
+         0.02                                                       conventions) for all Mps values (different vertical panels).
+
+         0.04
+                5              10   15   20    25              30
+
+FIG. 5. Comparison of effective energy (top) and effective                  ∗
+energy splitting (bottom) for the ground state as determined                padmanath@imsc.res.in
+                                                                            †
+using three different smearing radii applied on the quark fields            archana.radhakrishnan@tifr.res.in
+                                                                          ‡
+at the sink timeslice. The legend indicates the smearing radius             nilmani@theory.tifr.res.in
+squared in units of the lattice spacing [29]. The blue horizontal       [1] R. Aaij et al. (LHCb), Observation of an exotic narrow
+band indicates the final fit estimate for the energy and energy             doubly charmed tetraquark, Nature Phys. 18, 751 (2022).
+splitting. The results presented are for the case Mps ∼ 700
+MeV on the finest ensemble.
+                                                                      3 While this letter was being reviewed, a preprint, Ref. [73] appeared
+
+  Appendix B: Elastic DB̄ ∗ excitations.- Gaining access                   which utilizes bilocal two-meson interpolators in their analysis,
+to higher lying elastic excitations in the DB̄ ∗ channel is                utilizing the methods in Ref. [72].
+                                                                                                                                             7
+
+ [2] J. P. Ader, J. M. Richard, and P. Taxil, Do narrow heavy               baryons Ξbc , Phys. Rev. D 105, L031902 (2022).
+     multi - quark states exist?, Phys. Rev. D 25, 2370 (1982).        [25] I. Polyakov, Doubly charmed tetraquarks Tcc and new
+ [3] J. l. Ballot and J. M. Richard, Four quark states in addi-             road it opens, in 20th International Conference on Hadron
+     tive potentials, Phys. Lett. B 123, 449 (1983).                        Spectroscopy and Structure (2023).
+ [4] S. Zouzou, B. Silvestre-Brac, C. Gignoux, and J. M.               [26] A. Czarnecki, B. Leng, and M. B. Voloshin, Stability of
+     Richard, Four quark bound states, Z. Phys. C 30, 457                   tetrons, Phys. Lett. B 778, 233 (2018).
+     (1986).                                                           [27] S. S. Agaev, K. Azizi, and H. Sundu, Hadronic molecule
+                                                                                                                               +
+ [5] L. Heller and J. A. Tjon, On the Existence of Stable                   model for the doubly charmed state Tcc               , JHEP 06, 057.
+     Dimesons, Phys. Rev. D 35, 969 (1987).                            [28] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman,
+ [6] J. Carlson, L. Heller, and J. A. Tjon, Stability of Dimesons,          Evidence for charm-bottom tetraquarks and the mass
+     Phys. Rev. D 37, 744 (1988).                                           dependence of heavy-light tetraquark states from lattice
+ [7] A. V. Manohar and M. B. Wise, Exotic Q Q anti-q anti-q                 QCD, Phys. Rev. D 99, 054505 (2019).
+     states in QCD, Nucl. Phys. B 399, 17 (1993).                      [29] R. J. Hudspith, B. Colquhoun, A. Francis, R. Lewis, and
+ [8] D. Janc and M. Rosina, The Tcc = DD∗ molecular state,                  K. Maltman, A lattice investigation of exotic tetraquark
+     Few Body Syst. 35, 175 (2004).                                         channels, Phys. Rev. D 102, 114506 (2020).
+ [9] D. Ebert, R. N. Faustov, V. O. Galkin, and W. Lucha,              [30] S. Meinel, M. Pflaumer, and M. Wagner, Search for
+     Masses of tetraquarks with two heavy quarks in the rela-               b¯b¯us and b¯c¯ud tetraquark bound states using lat-
+     tivistic quark model, Phys. Rev. D76, 114015 (2007).                   tice QCD, Phys. Rev. D 106, 034507 (2022).
+[10] F. S. Navarra, M. Nielsen, and S. H. Lee, QCD sum rules           [31] W. Chen, T. G. Steele, and S.-L. Zhu, Exotic open-flavor
+     study of QQ - anti-u anti-d mesons, Phys. Lett. B 649,                 bcq̄ q̄, bcs̄s̄ and qcq̄ b̄, scs̄b̄ tetraquark states, Phys. Rev. D
+     166 (2007).                                                            89, 054037 (2014).
+[11] E. J. Eichten and C. Quigg, Heavy-quark symmetry im-              [32] S. Sakai, L. Roca, and E. Oset, Charm-beauty meson
+     plies stable heavy tetraquark mesons Qi Qj q̄k q̄l , Phys. Rev.        bound states from B(B ∗ )D(D∗ ) and B(B ∗ )D̄(D̄∗ ) inter-
+     Lett. 119, 202002 (2017).                                              action, Phys. Rev. D 96, 054023 (2017).
+[12] M. Karliner and J. L. Rosner, Discovery of doubly-                [33] T. F. Caramés, J. Vijande, and A. Valcarce, Exotic bcq̄ q̄
+     charmed Ξcc baryon implies a stable (bbū ¯    d) tetraquark,          four-quark states, Phys. Rev. D 99, 014006 (2019).
+     Phys. Rev. Lett. 119, 202001 (2017).                              [34] W. Park, S. Noh, and S. H. Lee, Masses of the doubly
+[13] P. Bicudo, K. Cichy, A. Peters, and M. Wagner, BB                      heavy tetraquarks in a constituent quark model, Nucl.
+     interactions with static bottom quarks from Lattice QCD,               Phys. A 983, 1 (2019).
+     Phys. Rev. D93, 034501 (2016).                                    [35] C. Deng, H. Chen, and J. Ping, Systematical investigation
+[14] A. Francis, R. J. Hudspith, R. Lewis, and K. Malt-                     on the stability of doubly heavy tetraquark states, Eur.
+     man, Lattice Prediction for Deeply Bound Doubly Heavy                  Phys. J. A 56, 9 (2020).
+     Tetraquarks, Phys. Rev. Lett. 118, 142001 (2017).                 [36] G. Yang, J. Ping, and J. Segovia, Doubly-heavy
+[15] P. Bicudo, M. Cardoso, A. Peters, M. Pflaumer, and                     tetraquarks, Phys. Rev. D 101, 014001 (2020).
+     M. Wagner, udb̄b̄ tetraquark resonances with lattice QCD          [37] S. S. Agaev, K. Azizi, and H. Sundu, Double-heavy
+                                                                                                                0
+     potentials and the Born-Oppenheimer approximation,                     axial-vector tetraquark Tbc;ū         d¯, Nucl. Phys. B 951, 114890
+     Phys. Rev. D96, 054510 (2017).                                         (2020).
+[16] P. Junnarkar, N. Mathur, and M. Padmanath, Study of               [38] Q.-F. Lü, D.-Y. Chen, and Y.-B. Dong, Masses of doubly
+     doubly heavy tetraquarks in Lattice QCD, Phys. Rev.                    heavy tetraquarks TQQ′ in a relativized quark model,
+     D99, 034507 (2019).                                                    Phys. Rev. D 102, 034012 (2020).
+[17] L. Leskovec, S. Meinel, M. Pflaumer, and M. Wag-                  [39] Y. Tan, W. Lu, and J. Ping, Systematics of QQq̄ q̄ in a
+     ner, Lattice QCD investigation of a doubly-bottom b̄b̄ud               chiral constituent quark model, Eur. Phys. J. Plus 135,
+     tetraquark with quantum numbers I(J P ) = 0(1+ ), Phys.                716 (2020).
+     Rev. D 100, 014503 (2019).                                        [40] E. Braaten, L.-P. He, and A. Mohapatra, Masses of doubly
+[18] R. J. Hudspith and D. Mohler, Exotic tetraquark states                 heavy tetraquarks with error bars, Phys. Rev. D 103,
+     with two b¯ quarks and JP=0+ and 1+ Bs states in                       016001 (2021).
+     a nonperturbatively tuned lattice NRQCD setup, Phys.              [41] M. Luscher, Two particle states on a torus and their
+     Rev. D 107, 114510 (2023).                                             relation to the scattering matrix, Nucl. Phys. B 354, 531
+[19] R. Aaij et al. (LHCb), Observation of the doubly charmed               (1991).
+     baryon Ξ++ cc , Phys. Rev. Lett. 119, 112001 (2017).              [42] R. A. Briceno, Two-particle multichannel systems in a
+[20] A. Tumasyan et al. (CMS), Observation of triple J/ψ me-                finite volume with arbitrary spin, Phys. Rev. D 89, 074507
+     son production in proton-proton collisions, Nature Phys.               (2014).
+     19, 338 (2023), [Erratum: Nature Phys. 19, (2023)].               [43] A. Bazavov et al. (MILC), Lattice QCD Ensembles with
+[21] R. Aaij et al. (LHCb), Associated production  √ of prompt              Four Flavors of Highly Improved Staggered Quarks, Phys.
+     J/ψ and Υ mesons in pp collisions at s = 13 TeV,                       Rev. D 87, 054505 (2013).
+     (2023).                                                           [44] Y. Chen, S. J. Dong, T. Draper, I. Horvath, F. X. Lee,
+[22] V. Khachatryan et al. (CMS), Observation √      of Υ(1S) pair          K. F. Liu, N. Mathur, and J. B. Zhang, Chiral logarithms
+     production in proton-proton collisions at s = 8 TeV,                   in quenched QCD, Phys. Rev. D70, 034502 (2004).
+     JHEP 05, 013.                                                     [45] A. Li et al. (xQCD), Overlap Valence on 2+1 Flavor
+[23] T. Gershon and A. Poluektov, Displaced B−        c mesons as           Domain Wall Fermion Configurations with Deflation and
+     an inclusive signature of weakly decaying double beauty                Low-mode Substitution, Phys. Rev. D 82, 114501 (2010).
+     hadrons, JHEP 01, 019.                                            [46] G. P. Lepage, L. Magnea, C. Nakhleh, U. Magnea, and
+[24] Q. Qin, Y.-J. Shi, W. Wang, G.-H. Yang, F.-S. Yu, and                  K. Hornbostel, Improved nonrelativistic QCD for heavy
+     R. Zhu, Inclusive approach to hunt for the beauty-charmed
+                                                                                                                                8
+
+     quark physics, Phys. Rev. D46, 4052 (1992).                       from lattice data: Case study for Tcc (3875)+ , (2023).
+[47] A. X. El-Khadra, A. S. Kronfeld, and P. B. Mackenzie,        [61] Z. T. Draper and S. R. Sharpe, Applicability of the two-
+     Massive fermions in lattice gauge theory, Phys. Rev. D            particle quantization condition to partially-quenched the-
+     55, 3933 (1997).                                                  ories, Phys. Rev. D 104, 034510 (2021).
+[48] S. Basak, S. Datta, M. Padmanath, P. Majumdar, and           [62] M. Padmanath and S. Prelovsek, Signature of a Doubly
+     N. Mathur, Charm and strange hadron spectra from over-            Charm Tetraquark Pole in DD* Scattering on the Lattice,
+     lap fermions on HISQ gauge configurations, Proceedings,           Phys. Rev. Lett. 129, 032002 (2022).
+     30th International Symposium on Lattice Field Theory         [63] L. D. Landau and E. M. Lifshitz, Quantum Mechanics:
+     (Lattice 2012): Cairns, Australia, June 24-29, 2012, PoS          Non-Relativistic Theory, Course of Theoretical Physics,
+     LATTICE2012, 141 (2012).                                          Vol. v.3 (Butterworth-Heinemann, Oxford, 1991).
+[49] S. Basak, S. Datta, A. T. Lytle, M. Padmanath, P. Ma-        [64] P. Junnarkar, M. Padmanath, and N. Mathur, Heavy
+     jumdar, and N. Mathur, Hadron spectra from overlap                light tetraquarks from Lattice QCD, Proceedings, 35th
+     fermions on HISQ gauge configurations, Proceedings, 31st          International Symposium on Lattice Field Theory (Lattice
+     International Symposium on Lattice Field Theory (Lattice          2017): Granada, Spain, June 18-24, 2017, EPJ Web Conf.
+     2013): Mainz, Germany, July 29-August 3, 2013, PoS                175, 05014 (2018).
+     LATTICE2013, 243 (2014).                                     [65] R. G. Newton, Scattering Theory of Waves and Particles
+[50] N. Mathur, M. Padmanath, and R. Lewis, Charmed-                   (2013).
+     Bottom Mesons from Lattice QCD, Proceedings, 34th            [66] R. J. Dowdall, C. T. H. Davies, T. C. Hammant, and R. R.
+     International Symposium on Lattice Field Theory (Lat-             Horgan, Precise heavy-light meson masses and hyperfine
+     tice 2016): Southampton, UK, July 24-30, 2016, PoS                splittings from lattice QCD including charm quarks in
+     LATTICE2016, 100 (2016).                                          the sea, Phys. Rev. D86, 094510 (2012).
+[51] B. Chakraborty, C. T. H. Davies, B. Galloway, P. Knecht,     [67] C. McNeile, C. T. H. Davies, E. Follana, K. Hornbostel,
+     J. Koponen, G. C. Donald, R. J. Dowdall, G. P. Lepage,            and G. P. Lepage, Heavy meson masses and decay con-
+     and C. McNeile, High-precision quark masses and QCD               stants from relativistic heavy quarks in full lattice QCD,
+     coupling from nf = 4 lattice QCD, Phys. Rev. D 91,                Phys. Rev. D86, 074503 (2012).
+     054508 (2015).                                               [68] M. Padmanath, S. Collins, D. Mohler, S. Piemonte,
+[52] N. Mathur, M. Padmanath, and S. Mondal, Precise pre-              S. Prelovsek, A. Schäfer, and S. Weishaeupl, Identify-
+     dictions of charmed-bottom hadrons from lattice QCD,              ing spin and parity of charmonia in flight with lattice
+     Phys. Rev. Lett. 121, 202002 (2018).                              QCD, Phys. Rev. D 99, 014513 (2019).
+[53] N. Mathur, M. Padmanath, and D. Chakraborty, Strongly        [69] S. Chen, C. Shi, Y. Chen, M. Gong, Z. Liu, W. Sun, and
+     Bound Dibaryon with Maximal Beauty Flavor from Lat-                             +
+                                                                       R. Zhang, Tcc   (3875) relevant DD* scattering from Nf=2
+     tice QCD, Phys. Rev. Lett. 130, 111901 (2023).                    lattice QCD, Phys. Lett. B 833, 137391 (2022).
+[54] M. Padmanath, C. B. Lang, and S. Prelovsek, X(3872)          [70] C. Morningstar, J. Bulava, B. Singha, R. Brett, J. Fallica,
+     and Y(4140) using diquark-antidiquark operators with              A. Hanlon, and B. Hörz, Estimating the two-particle K-
+     lattice QCD, Phys. Rev. D92, 034501 (2015).                       matrix for multiple partial waves and decay channels from
+[55] M. Wagner, C. Alexandrou, J. Finkenrath, T. Leon-                 finite-volume energies, Nucl. Phys. B 924, 477 (2017).
+     tiou, S. Meinel, and M. Pflaumer, Lattice QCD study of       [71] M. Peardon, J. Bulava, J. Foley, C. Morningstar, J. Dudek,
+     antiheavy-antiheavy-light-light tetraquarks based on cor-         R. G. Edwards, B. Joo, H.-W. Lin, D. G. Richards, and
+     relation functions with scattering interpolating operators        K. J. Juge (Hadron Spectrum), A Novel quark-field cre-
+     both at the source and at the sink, PoS LATTICE2022,              ation operator construction for hadronic physics in lattice
+     270 (2023).                                                       QCD, Phys. Rev. D 80, 054506 (2009).
+[56] C. Michael, Adjoint Sources in Lattice Gauge Theory,         [72] A. Abdel-Rehim,            C. Alexandrou,       J. Berlin,
+     Nucl. Phys. B259, 58 (1985).                                      M. Dalla Brida, J. Finkenrath, and M. Wagner,
+[57] J. R. Green, A. D. Hanlon, P. M. Junnarkar, and                   Investigating efficient methods for computing four-quark
+     H. Wittig, Weakly Bound H Dibaryon from SU(3)-Flavor-             correlation functions, Comput. Phys. Commun. 220, 97
+     Symmetric QCD, Phys. Rev. Lett. 127, 242003 (2021).               (2017).
+[58] Supplemental material: We present various technical de-      [73] C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel,
+     tails of the work: Finite-volume eigeneneergies on all            M. Pflaumer, and M. Wagner, Shallow Bound States and
+     lattice QCD ensembles, amplitude fits, and quark mass             Hints for Broad Resonances with Quark Content b¯c¯ud
+     dependence fits are shown here. Additional publications           in B-D¯ and B*-D¯ Scattering from Lattice QCD, Phys.
+     cited in this material are [54, 74, 75] .                         Rev. Lett. 132, 151902 (2024).
+[59] We also observe statistically significant negative energy    [74] J. J. Dudek, R. G. Edwards, M. J. Peardon, D. G.
+     shifts of similar magnitude for the ground states in DB̄          Richards, and C. E. Thomas, Highly excited and exotic
+     two-meson energy spectrum at different light quark masses         meson spectrum from dynamical lattice QCD, Phys. Rev.
+     with isoscalar scalar [I(J P ) = 0(0+ )] quantum numbers          Lett. 103, 262001 (2009).
+     and explicitly exotic flavor content bcūd.¯ This work is    [75] M. Padmanath, R. G. Edwards, N. Mathur, and M. Pear-
+     reported in Ref. [76] .                                           don, Spectroscopy of triply-charmed baryons from lattice
+[60] M.-L. Du, A. Filin, V. Baru, X.-K. Dong, E. Epelbaum, F.-         QCD, Phys. Rev. D90, 074504 (2014).
+     K. Guo, C. Hanhart, A. Nefediev, J. Nieves, and Q. Wang,     [76] A. Radhakrishnan, M. Padmanath, and N. Mathur, Study
+     Role of left-hand cut contributions on pole extractions           of isoscalar scalar bcūd¯ tetraquark Tbc from lattice QCD,
+                                                                       (2024).
+                                                                                                                                                        9
+
+                                                    Supplemental material
+
+                               I.     LOW LYING EIGENENERGIES ON ALL ENSEMBLES
+
+
+         1.70         1.75          1.80         1.85         2.45                1.75         1.70   0.6   1.75         1.85         2.50
+                0.5          0.6           0.7          1.0          3.0                 0.5                       0.7          1.0          3.0
+         1.66         1.70          1.75         1.80         2.42     D *B*      1.70                                                2.45
+                                                                                               1.65         1.70         1.80
+                                    1.70                               BD *
+                                                                                  1.65                                                         D *B*
+         1.62         1.65                       1.75         2.39                                                                    2.40
+                                                                                                            1.65                               BD *
+      a n                           1.65                                          1.60
+                                                                                a n            1.60                      1.75
+         1.58         1.60                       1.70         2.36                                                                    2.35
+                                    1.60                                          1.55                      1.60                               DB *
+                                                                       DB *
+                                                                                               1.55                      1.70
+         1.54         1.55          1.55         1.65         2.33                1.50                                                2.30
+                                                                                                            1.55
+                                                                           S1                                                                      L1
+         1.50         1.50          1.50         1.60         2.30                1.45         1.50                      1.65         2.25
+         1.40   0.5   1.40   0.6    1.40   0.7   1.45         2.06                1.02   0.5   1.02   0.6   1.05   0.7   1.10   1.0   1.54   3.0
+                                                        1.0          3.0
+         1.36         1.36          1.36         1.41                             1.00         1.00         1.03         1.08
+                                                              2.03                                                                    1.52     D *B*
+                                                                       D *B*
+         1.32         1.32          1.32         1.37                             0.98         0.98         1.01         1.06                  BD *
+      a n                                                     2.00     BD *     a n                                                   1.50
+         1.28         1.28          1.28         1.33                             0.96         0.96         0.99         1.04                  DB *
+                                                              1.97     DB *
+                                                                                                                                      1.48
+         1.24         1.24          1.24         1.29                             0.94         0.94         0.97         1.02
+
+         1.20         1.20          1.20         1.25         1.94
+                                                                           S2     0.92         0.92         0.95         1.00         1.46
+                                                                                                                                                   S3
+
+FIG. 1. Low-lying finite-volume eigenenergies for isoscalar axialvector bcūd¯ channel on the four ensembles studied. The near
+degenerate eigenlevels are slightly shifted horizontally for clarity.
+
+   In this section, we present the finite-volume GEVP eigenenergies of the isoscalar axialvector bcūd¯ channel that we
+extract on all four ensembles listed in Table I of the main article, at the five different mu/d values corresponding to
+Mps ∼ 0.5, 0.6, 0.7, 1.0, and 3.0 GeV. The eigenenergies shown in lattice units include the additive offsets related to
+the NRQCD-based dynamics of heavy bottom quarks. The non-interacting two-meson energy levels corresponding to
+DB̄ ∗ and B̄D∗ thresholds are indicated as dotted horizontal line segments for each lattice and each Mps . The D∗ B̄ ∗
+threshold in each case is also shown in the figure by dashed lines. Note that the use of wall-smearing setup restricts
+any direct access to the elastic two-meson excitations with nonzero relative meson momenta. This means although a
+reliable ground state extraction could be made, the excited eigenenergies may not represent the real elastic excitations.
+
+
+                                                 II.    OPERATOR-STATE OVERLAPS
+
+   In Figure 2, we present the modulus of normalized sink operator-state overlaps |Z̃in |, normalized such that its largest
+value for any given operator Oi across all the eigenenergies {n} is unity [74, 75]. Z̃in quantifies the relative relevance of
+any given operator across all the eigenenergies. The |Z̃in | values are presented for all Mps cases on the L1 ensemble.
+Each square marker corresponds to the |Z̃in | for a given operator Oi on to a given eigenenergy n. Each horizontal panel
+stands for an Mps indicated on the right-hand side, whereas the vertical lines in each horizontal panel part |Z̃in | for
+different operators indicated on the top panel. The x-axis ticks refer to the three finite-volume eigenenergies we have
+extracted. O1 , the two-meson operator related to DB̄ ∗ threshold, can be seen to have the largest overlap with the
+ground state and has significantly small overlaps with the excited eigenenergies. O2 , the two-meson operator related
+to B̄D∗ threshold, has the largest overlap with the first excited eigenenergy and a very small overlap with the ground
+state. O2 also have nonnegligible overlap factors with the second excited eigenenergy indicating B̄D∗ -type two-meson
+Fock component, which decreases with increasing Mps . On the other hand, O3 , the diquark-antidiquark type operator,
+have substantial overlap factors with all eigenenergies at the two lightest Mps values, whereas with an increased Mps
+its largest overlap is with the second excited eigenenergy. Note that O3 is Fierz related to two-meson interpolators
+[54], and the large Z̃3n values of O3 for all n could be related to this underlying connection between two-meson and
+diquark-antidiquark operators.
+   A summary from the above observations on overlap factors is as follows. O1 predominantly determines the ground
+state, whereas it has significantly small coupling with the excited eigenenergies. Similar patterns of overlap factors are
+also observed for other ensembles, all of which indicate that O1 predominantly determines the ground state. The two
+excited eigenenergies have strong two-meson and diquark-antidiquark Fock components in the two lightest Mps values.
+                                                                                                                           10
+
+                                           1.00         1                 2                   3
+                                           0.75
+                                           0.50                                                       0.5
+                                           0.25
+                                           0.00
+                                           1.00
+                                           0.75
+                                           0.50                                                       0.6
+                                           0.25
+                                           0.00
+                                           1.00
+                                           0.75
+                                  |Zni |   0.50                                                       0.7
+                                           0.25
+                                           0.00
+                                           1.00
+                                           0.75
+                                           0.50                                                       1.0
+                                           0.25
+                                           0.00
+                                           1.00
+                                           0.75
+                                           0.50                                                       3.0
+                                           0.25
+                                           0.00                                                        n
+                                                   0        1   2         0    1    2         0   1   2
+
+
+FIG. 2. Modulus of normalized sink operator-state overlaps |Z̃in | for an eigenenergy indicated by n = 0, 1, 2 and an operator
+represented by Oi , where i = 1, 2, 3 on the L1 ensemble. The errors in the normalized overlap factors are smaller than the
+symbols and hence are suppressed.
+
+
+One could also evaluate and investigate the normalized source operator-state overlaps from the left eigenvectors of C in
+Eq. (1) in the main draft, which also leads to the same conclusions.
+
+
+                                      III.         OPERATOR BASIS DEPENDENCE
+
+
+                                    1.71                                                              D *B*
+                                    1.68                                                              BD *
+                                    1.65
+                               a n  1.62
+                                    1.59                                                              DB *
+                                    1.56
+                                    1.53
+                                                  100       010     001       111       011   101     110
+FIG. 3. Operator basis dependence of the low lying eigenenergies of the L1 ensemble and Mps ∼700 MeV for all possible
+operator basis that can be built out of the three operators utilized in this work.
+
+
+   In Figure 3, we show the operator basis dependence as determined for Mps ∼ 700 MeV in the L1 ensemble, for
+various operator basis build out of O1 , O2 , and O3 operators as defined in Eq. (2) of the main draft. The digital
+indexing on the x-axis tick labels refers to various operator basis in the order {O1 , O2 , O3 }, with an overline on the
+third index as a visual aid within the plot to highlight the diquark-antidiqaurk interpolator. 1 (0) indicates an operator
+is included in (excluded from) the basis. The horizontal lines refer to the DB̄ ∗ , B̄D∗ and B̄ ∗ D∗ thresholds. The gray
+horizontal bands refer to the two lowest levels in the full basis indicated by 111. A level below the threshold appears
+only when O1 is present in the basis. The first excited eigenenergy in the full basis 111 is faithfully reproduced in
+those bases where O2 is included. O3 alone does not precisely determine any level among the GEVP eigenenergies
+using full basis. Similar observations are also made on other ensembles. In summary, the ground state in the full basis
+                                                                                                                                                                              11
+
+111 is reliably determined with O1 and is unaffected by the inclusion of O2 and O3 operators.
+
+                            Mps [GeV]         χ2 /d.o.f                   Linear                                    χ2 /d.o.f               Quadratic
+                                                                  [0]
+                                                                 A /EDB̄ ∗     A[1] /EDB̄ ∗                                           A[0] /EDB̄ ∗    A[2] /EDB̄ ∗
+                            0.5               2.1/2              −0.05(1)        0.17(+13
+                                                                                      −11 )                              2.1/2         −0.045(6)          0.9(+7
+                                                                                                                                                               −6 )
+                                                                        +9
+                            0.6               0.5/2              −0.044(−8 )      0.10(+9
+                                                                                       −9 )                              0.5/2                +6
+                                                                                                                                      −0.040(−5 )           0.6(5)
+                            0.7               3.0/2              −0.042(+8
+                                                                        −6 )      0.09(+6
+                                                                                       −7 )                              3.7/2        −0.037(+5
+                                                                                                                                              −4 )        0.5(+3
+                                                                                                                                                               −4 )
+                            1.0               2.9/2              −0.043(4)        0.11(+5
+                                                                                       −5 )                              2.9/2                +3
+                                                                                                                                      −0.038(−3 )           0.8(3)
+                            3.0               3.6/2              0.006(+6
+                                                                       −5 )    −0.20(+4−5 )                              3.6/2        −0.002(+4
+                                                                                                                                              −3 )     −1.2(+2 −3 )
+
+
+
+
+TABLE I. Results from amplitude fits at different light quark mass cases indicated in terms of Mps in the first column. The
+amplitude is approximated to be determined by the scattering length, with a linear or quadratic lattice spacing dependence as
+discussed in the main draft. The optimized parameter values in the table are presented in units of energy of the DB̄ ∗ threshold,
+EDB̄ ∗ . The A[0] parameter in either parametrization is negative of the inverse scattering length in the continuum limit.
+
+
+
+                     0.00                                                                                   0.02
+                                                                                                            0.00
+                     0.02           3.0 GeV                                                                 0.02
+                                                                                                                     3.0 GeV
+                     0.04                                                                                   0.04
+                                                                                                            0.06                                                (k/EDB * )2
+                     0.06
+                                                                                                            0.02
+                     0.00
+                                                                                                            0.00
+                     0.02           1.0 GeV                                                                 0.02
+                                                                                                                     1.0 GeV
+                     0.04                                                                                   0.04
+                                                                                                            0.06
+                     0.06
+                                                                                                            0.02
+
+
+                                                                                         k cot( 0 )/EDB *
+                     0.00
+
+  k cot( 0 )/EDB *
+                                                                                                            0.00
+                                                                                                                     0.7 GeV
+                     0.02           0.7 GeV                                                                 0.02
+                     0.04                                                                                   0.04
+                                                                                                            0.06
+                     0.06
+                                                                                                            0.02
+                     0.00                                                                                   0.00
+                                                                                                                     0.6 GeV
+                     0.02           0.6 GeV                                                                 0.02
+                     0.04                                                                                   0.04
+                                                                                                            0.06
+                     0.06
+                                                                                                            0.02
+                     0.00                                                                                   0.00
+                                                                                                            0.02
+                                                                                                                     0.5 GeV
+                     0.02           0.5 GeV
+                                                                                                            0.04
+                     0.04
+                                                                                                            0.06
+                     0.06
+                                  0.04        0.06        0.08          0.10      0.12                               0
+                                                                                                                    02           5
+                                                                                                                                 01     010       005       000         005
+                                                          a                                                        0.0       0.0      0.0        0.0      0.0         0.0
+
+FIG. 4. Left: kcotδ0 , in units of the elastic threshold EDB̄ ∗ , versus a (lattice spacing) for all Mps values. We follow the
+marker/color coding in Table I of the main draft for the data points referring to the simulated data. The colored/gray bands
+indicate the fit results with linear and quadratic lattice spacing dependence, respectively. Right: kcotδ0 versus k2 for all Mps
+values studied in units of the elastic threshold EDB̄ ∗ . The dashed orange (cyan) curve indicates the constraint for the existence
+of a sub-threshold pole in the scattering amplitude. The horizontal bands are the continuum extrapolated estimates of kcotδ0 for
+the respective Mps . The black dashed vertical lines in the plots on the right indicate the location of the branch point associated
+with the left hand cut arising from the DB̄π channel.
+
+
+
+
+                                                      IV.     RESULTS ON SCATTERING AMPLITUDE
+
+  In Table I, we tabulate the results from different amplitude fits that were performed. In Figure 4, we present the
+quality of these fits by comparing the fit results with the data points (see the figure caption for details). On the left of
+                                                                                                                                                      12
+
+Figure 5, we present the light quark mass dependence in the chiral regime determined from continuum extrapolated
+elastic DB̄ ∗ scattering amplitudes following a linear and quadratic lattice spacing dependence. We present the final
+estimate (black star) from the linear fit form considering the presence of heavy quarks in our system, whereas the
+difference in the fit results are accounted in the systematics quoted in the main draft. On the right of Figure 5, we
+present a comparison of the light quark mass dependence in the chiral regime between the fit involving all Mps datasets
+and the fit involving the lightest four Mps datasets. Either fitting procedures can be seen to be consistent with our
+final estimate in the chiral limit is shown by black star.
+                 0.04                                                                          0.04
+                                    L [ 2 /dof 4.1/6]                                                    fs [ 2 /dof 4.1/6]
+
+( a0 EDB * ) 1
+                 0.02                                                                          0.02
+                                    Q [ 2 /dof 4.6/6]                                                    fs* [ 2 /dof 3.1/4]
+
+                                                                              ( a0 EDB * ) 1
+                 0.00                                                                          0.00
+                 0.02                                                                          0.02
+                 0.04                                                                          0.04
+                 0.06                                                  2                       0.06                                          2
+                                                                Mps2 /EDB *                                                           Mps2 /EDB *
+                 0.08                                                                          0.08
+                    0.000   0.005    0.010      0.015   0.020   0.025     0.030                   0.00     0.01                0.02                 0.03
+
+FIG. 5. Left: Comparison of light quark mass dependence of scattering amplitudes in the chiral regime determined from a linear
+(red band) and quadratic (green band) dependence of kcotδ0 on the lattice spacing. Right: Comparison of light quark mass
+dependence of scattering amplitude kcotδ0 in the chiral regime determined using the results from all five light quark masses (red
+band) and the results from four light light quark masses (black). The results in the physical limit in either cases can be seen to
+be consistent with the main result indicated by the star symbol.
+

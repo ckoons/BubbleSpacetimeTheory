@@ -1,0 +1,1095 @@
+                                         EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH (CERN)
+
+
+                                                                                                                      CERN-EP-2022-239
+                                                                                                                   LHCb-PAPER-2022-026
+                                                                                                                           July 27, 2023
+
+
+
+
+arXiv:2212.02716v3 [hep-ex] 1 Aug 2023
+                                         First observation of a doubly charged
+                                          tetraquark and its neutral partner
+
+
+                                                                                     LHCb collaboration†
+
+                                                                                             Abstract
+                                                   A combined amplitude analysis is performed for the decays B 0 → D0 Ds+ π − and
+                                                   B + → D− Ds+ π + , which are related by isospin symmetry. The analysis is based on
+                                                   data collected by the LHCb detector in proton-proton collisions at center-of-mass
+                                                   energies of 7, 8 and 13 TeV. The full data sample corresponds to an integrated
+                                                   luminosity of 9 fb−1 . Two new resonant states with masses of 2.908 ± 0.011 ±
+                                                   0.020 GeV and widths of 0.136 ± 0.023 ± 0.013 GeV are observed, which decay to
+                                                   Ds+ π + and Ds+ π − respectively. The former state indicates the first observation of
+                                                   a doubly charged open-charm tetraquark state with minimal quark content [cs̄ud],   ¯
+                                                   and the latter state is a neutral tetraquark composed of [cs̄ūd] quarks. Both states
+                                                   are found to have spin-parity 0+ , and their resonant parameters are consistent with
+                                                   each other, which suggests that they belong to an isospin triplet.
+
+
+
+
+                                                                    Published in Phys. Rev. Lett. 131 (2023) 041902
+                                                         © 2023 CERN for the benefit of the LHCb collaboration. CC BY 4.0 licence.
+
+                                         †
+                                             Authors are listed at the end of this letter.
+ii
+    In the quark model, tetraquark hadrons are predicted in addition to the conventional
+mesons and baryons [1]. States composed of four different quark types present unambigu-
+ous evidence for tetraquarks [2] and have attracted great interest in studies of hadron
+                                            ∗
+spectroscopy [3]. The discoveries of the Ds0  (2317)+ [4] and Ds1 (2460)+ [5] states prompted
+speculation that they may have a tetraquark component [6, 7], but no evidence for isospin
+partners was found in explicit searches [8, 9]. The D0 collaboration claimed evidence
+for an X(5568) state with quark configuration of [bs̄ud]    ¯ in decays to B 0 π ± [10, 11]. Its
+                                                                              s
+existence, however, has not been confirmed by other experiments [12–15].
+    In the open charm sector, it is natural to search for Ds+ π ± resonances, which would be
+candidate tetraquark states with minimal quark content of [cs̄ud]   ¯ and [cs̄ūd] as predicted
+in the diquark-antidiquark model [16, 17]. In particular, an attractive potential in the
+Ds+ π + channel facilitates searches for an open-charm tetraquark state according to lattice
+QCD calculation [18].
+    In 2020, two new resonant structures, X0 (2900) and X1 (2900), were observed by the
+LHCb collaboration in the D− K + mass spectrum of the B + → D+ D− K + decay [19, 20],
+motivating theoretical speculation as to their nature [3]. Predictions of a doubly charged
+                ¯ and its isospin partner [cs̄ūd] were made based on those observations [21–
+tetraquark [cs̄ud]
+26].
+    The decays B 0 → D0 Ds+ π − and B + → D− Ds+ π + are ideal channels in which to search
+for possible exotic states decaying to Ds π. The only resonances expected to contribute
+to the two decays are excited D∗ resonances decaying to D0 π − and D− π + final states,
+which have been extensively studied [6, 7, 27–29]. Any resonant structure that cannot
+be described by the known D∗ excited states (D0 π − or D− π + ) implies the existence of
+potential exotic objects decaying into either Ds π or DDs final states.1
+    A combined amplitude analysis of the B 0 → D0 Ds+ π − and B + → D− Ds+ π + decays
+is performed, where the amplitudes in the two decay modes are related through isospin
+symmetry. The analysis is based on proton-proton collision data collected with the LHCb
+detector, corresponding to a total integrated luminosity of 9 fb−1 at center-of-mass energies
+7, 8 and 13 TeV.
+    The LHCb detector is a single-arm forward spectrometer covering the pseudorapidity
+range 2 < η < 5, described in detail in Refs. [30, 31]. It is designed specifically for the
+study of particles containing b or c quarks. Simulation is required to model the effects of
+the detector acceptance and the imposed selection requirements. The simulated samples
+are generated with Pythia [32], EvtGen [33] and the Geant4 toolkits [34] as described
+in Ref. [35].
+    A brief summary of the selections is given here and further details can be found in
+Ref. [36]. Charmed mesons are reconstructed using the D0 → K + π − , D0 → K + π − π − π + ,
+D− → K + π − π − and Ds+ → K + K − π + decays. The invariant mass M of the D0 π − pair is
+required to be larger than 2050 MeV (natural units with ℏ = c = 1 are used throughout)
+to veto the majority of the D∗ (2010)− contribution from the B 0 → D∗− Ds+ decay. A
+multivariate classifier, based on a boosted decision tree (BDT) [37, 38] algorithm in the
+TMVA toolkit [39], is employed to reduce combinatorial backgrounds. In addition, non-
+double-charm backgrounds are reduced by requirements on the D meson mass and by
+requiring a significant flight distance of the reconstructed D candidates from the B decay
+vertex.
+
+1
+    Charge conjugation is implied throughout this Letter.
+
+
+                                                     1
+                                                                 102                                                                                         102
+
+
+
+
+                                                                       Candidates / 0.10 GeV4                                                                      Candidates / 0.10 GeV4
+ M 2(D+s π -) (GeV2)                                                                            M 2(D+s π +) (GeV2)
+                       12                                                                                             12
+                                (a)                                                                                            (b)
+                       10                                                                                             10
+
+                                                                 10                                                                                          10
+                        8                                                                                              8
+
+
+                        6                                                                                              6
+                                                        LHCb                                                                                       LHCb
+                                                        9 fb-1   1                                                                                 9 fb-1    1
+                        4                                                                                              4
+                            4         6   8             10                                                                 4         6    8       10
+                                                                                                                                         M 2(D π +) (GeV2)
+                                                  0 -                                                                                         -
+                                          M (D π ) (GeV )
+                                              2              2
+
+
+
+
+Figure 1: Dalitz plots of (a) B 0 → D0 Ds+ π − and (b) B + → D− Ds+ π + decays after the full
+selection is applied.
+
+
+     After the above selections, 4009 B 0 → D0 Ds+ π − candidates and 3750 B + → D− Ds+ π +
+candidates are retained. Extended maximum likelihood fits are performed to the D0 Ds+ π −
+and D− Ds+ π + invariant-mass distributions separately in order to extract signal yields, all
+in the range [5230, 5630] MeV. The purities of the B 0 → D0 Ds+ π − and B + → D− Ds+ π +
+samples are 90.7% and 95.2%, respectively. Dalitz plots for the two decays, shown in
+Fig. 1, show similar features as a result of the isospin symmetry of the decays, indicating
+the feasibility of a combined treatment. The vertical band at M 2 (Dπ) ≈ 6 GeV2 corre-
+sponds to the J P = 2+ state D2∗ (2460) (D2∗ (2460)− in B 0 → D0 Ds+ π − and D∗2 (2460)0 in
+B + → D− Ds+ π + decays). Furthermore, a faint horizontal band at M 2 (Ds+ π) ≈ 8.5 GeV2
+is visible in both plots.
+     The conventional contributions anticipated in the two decays include tails from
+the D∗ (2010)− and D∗ (2007)0 resonances in B + → D− Ds+ π + and B 0 → D0 Ds+ π − de-
+cays, respectively, in addition to the higher excited D∗2 (2460), D∗1 (2600), D∗3 (2750),
+D∗1 (2760) and D(3000) states [6]. In previous measurements, only the neutral
+D∗1 (2600)0 , D∗1 (2760)0 and D(3000)0 mesons were observed, while their charged part-
+ners were not. For the Dπ S-wave components, a quasi-model-independent (QMI)
+method [29] is applied where 11 spline points are chosen in the M (Dπ) spectrum, at
+(1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.9, 3.4) GeV. As isospin symmetry is imposed, these
+excited D∗ states are added in both channels before testing the exotic states decaying
+either to the Ds+ π or DDs+ final state.
+     The complex amplitude Ai (x; Θi ) for the decay through each intermediate state i is
+constructed using the helicity formalism, where x denotes variables calculated from the
+four-momenta of the final-state particles in each event, and Θ is a set of model parameters.
+A relativistic Breit–Wigner function is used to describe the lineshape of the resonant states,
+where the resonant parameters are fixed to their known values [6]. The total amplitude
+A(x; Θ) is the sum of the complex amplitudes for each contribution. The spin-parity of
+the D(3000)0 state is currently unknown. The 4+ spin-parity assignment is found to be
+the most likely [36] and is used in the default model here. In the QMI component, the
+amplitudes of the first and last spline   P points are fixed to 0.
+     A negative-log-likelihood, − N         j ln P (xj ; Θ), is minimized to determine the fit pa-
+rameters, where N denotes the number of B meson candidates. The probability density
+
+                                                                                                2
+                       300
+
+
+
+
+Candidates / (0.014 GeV)                                                               Candidates / (0.014 GeV)                                                          Candidates / (0.014 GeV)
+                                                              Data                                            100      LHCb                                                                                    LHCb
+                                  LHCb (a)                                                                                                                                                      100
+                       250
+                                  9 fb 1
+                                                              Background
+                                                              Total fit                                                9 fb 1 (b)                                                                              9 fb 1 (c)
+                                                                                                                  80
+                       200                                    D2* (2460) Ds+                                                                                                                        80
+                                                              D1* (2600) Ds+
+                                                              D3* (2750) Ds+                                      60                                                                                60
+                       150
+                                                              D1* (2760) Ds+
+                       100                                    D(3000) Ds+                                         40                                                                                40
+                                                              D * (2010) Ds+
+                                                              D S-wave Ds+                                        20                                                                                20
+                           50
+
+                            0                                                                                      0                                                                                 0
+                                2.0   2.2   2.4   2.6   2.8      3.0    3.2      3.4                                     2.2   2.4   2.6       2.8    3.0    3.2   3.4                                   3.8      4.0   4.2   4.4   4.6     4.8   5.0   5.2
+                                                              M(D0      ) (GeV)                                                                      M(Ds+     ) (GeV)                                                                    M(D0Ds+ ) (GeV)
+
+
+
+
+                                                                                       Candidates / (0.014 GeV)                                                          Candidates / (0.014 GeV)
+                                                                                                                                                                                                100
+
+
+
+
+Candidates / (0.014 GeV)
+                       250        LHCb (d)                     Data                                                    LHCb                                                                                    LHCb
+                                                               Background
+                                  9 fb 1                       Total fit
+                                                                                                              80
+                                                                                                                       9 fb 1 (e)                                                                   80         9 fb 1 (f)
+                       200                                     D2* (2460) Ds+
+                                                               D1* (2600) Ds+                                 60
+                                                                                                                                                                                                    60
+                       150                                     D3* (2750) Ds+
+                                                               D1* (2760) Ds+                                 40
+                       100                                     D(3000) Ds+                                                                                                                          40
+                                                               D * (2007)0 Ds+
+                                                               D S-wave Ds+                                   20                                                                                    20
+                           50
+
+                            0                                                                                     0                                                                                  0
+                                2.0   2.2   2.4   2.6   2.8      3.0    3.2      3.4                                    2.2    2.4   2.6       2.8   3.0     3.2   3.4                                   3.8      4.0   4.2   4.4   4.6     4.8   5.0   5.2
+                                                              M(D      + ) (GeV)                                                                     M(Ds+   + ) (GeV)                                                                M(D Ds+ ) (GeV)
+
+
+
+Figure 2: Distributions of (a) M (D0 π − ); (b) M (Ds+ π − ); (c) M (D0 Ds+ ) for the Dπ components
+of the B 0 → D0 Ds+ π − candidates; and (d) M (D− π + ); (e) M (Ds+ π + ); (f) M (D− Ds+ ) of the
+B + → D− Ds+ π + candidates. The data are overlaid with the results of the fits.
+
+
+function, PDF, is defined as
+                                                                                     norm                  norm
+                                                                  P (x; Θ) = fsig · Psig  (x; Θ) + fbkg · Pbkg  (x),                                                                                                                                    (1)
+
+where the fractions are determined from the fit to the invariant mass distribution of B
+candidates. The normalized PDF for the signal is expressed as
+
+                                                                                        norm                                               ϵ(x)|A (x; Θ) |2
+                                                                                       Psig  (x; Θ) =                                                       .                                                                                           (2)
+                                                                                                                                               Isig (Θ)
+
+The factor Isig (Θ) is the signal PDF normalisation, obtained using a simulated sample
+generated uniformly over the phase space. The efficiency map, ϵ(x), is the signal efficiency
+derived from the simulated samples after applying all the selection criteria, and smoothed
+using a kernel density estimation method [40]. The background PDF is obtained from
+the Dalitz plot distribution of data in the ranges [5400, 5700] MeV for B + decays, and
+[5500, 5700] MeV for B 0 decays to avoid tails from Bs0 → D0 Ds+ π − decays. The extrapola-
+tion into the signal region of |M (B) − m(B)| < 20 MeV is based on a Gaussian process [41].
+Here M (B) and m(B) are the candidate mass and known mass [6] of B 0 or B + mesons.
+    A simultaneous fit is performed to the two decay samples, where all parameters are
+shared except the masses, widths and complex parameters of different excited D∗ (2007)0
+and D∗ (2010)− states. The projections of the fit results are shown in Fig. 2, only taking
+Dπ components into account. The models describe the data well in the different invariant
+mass projections, except for the M (Ds+ π) distributions, where peaking structures near
+2.9 GeV in the data cannot be attributed to any Dπ component. Additional fits are
+attempted where new D∗ states with different spin-parities are added, allowing their
+masses and widths to vary freely, but no satisfactory description of this region is found.
+
+                                                                                                                                           3
+Candidates / (0.014 GeV)                                                    Candidates / (0.014 GeV)
+                       100      LHCb (a)                                                                   LHCb (b)
+                                                                                                   80                                                  Data
+                                9 fb 1                                                                     9 fb 1                                      Background
+                           80
+                                                                                                                                                       Total fit
+                                                                                                   60                                                  D2* (2460) Ds+
+                           60
+                                                                                                                                                       D1* (2600) Ds+
+                                                                                                   40
+                           40                                                                                                                          D3* (2750) Ds+
+                                                                                                                                                       D1* (2760) Ds+
+                                                                                                   20
+                           20                                                                                                                          D(3000) Ds+
+                                                                                                                                                       D * (2010) Ds+
+                            0                                                                          0                                               Tcsa 0(2900) D
+                                2.2   2.4   2.6   2.8    3.0    3.2   3.4                                  2.2   2.4   2.6   2.8   3.0     3.2   3.4
+                                                        M(Ds+    ) (GeV)                                                           M(Ds+   + ) (GeV)
+                                                                                                                                                       D S-wave Ds+
+
+
+Figure 3: Distributions of (a) M (Ds+ π − ) of B 0 → D0 Ds+ π − decays; and (b) M (Ds+ π + ) for the
+B + → D− Ds+ π + sample. The data are overlaid with the fit results with the inclusion of the new
+0+ Ds+ π resonant states.
+
+
+    Two Ds+ π states are introduced and, under isospin symmetry, they share the following
+resonance parameters: the complex amplitude factor, the mass and the width of the
+states. The M (Ds+ π) distributions of the fit results are shown in Fig. 3, while the other
+projections are shown in Fig. S1 of the Supplemental Material [42]. Figure S2 of the
+Supplemental Material [42] shows the fit projection onto M (Ds+ π) with and without
+the additional Ds+ π states in the region of M (Dπ) > 2.7 GeV, where most of the D∗∗
+contributions are suppressed. The peaks in the M (Ds+ π) distribution near 2.9 GeV, as
+well as the dip near 3.0 GeV, are better described.
+    Different spin-parity scenarios are tested. The result with J P = 0+ Ds+ π states
+produces the best likelihood, and is taken as the default fit result. The mass and width
+are determined to be 2.909 ± 0.010 GeV and 0.134 ± 0.019 GeV, respectively. The other
+parameters of the result are given in Table S1 of the Supplemental Material [42]. Following
+                                                          a
+the convention in Ref. [43], the new states are named Tcs̄0 (2900)0 and Tcs̄0a
+                                                                               (2900)++ . The
+                                                                                     a
+M (Ds π) mass resolution is estimated to be approximately 4 MeV near the Tcs̄0         (2900)
+                                                                        a
+measured mass, which is much smaller than the width of the Tcs̄0 (2900) state, and
+                                                                           a
+is therefore neglected. When using separate parameters for the Tcs̄0         (2900)0 state in
+B 0 → D0 Ds+ π − decays and the Tcs̄0
+                                    a
+                                      (2900)++ state in B + → D− Ds+ π + decays, without
+changing the treatment of the other states, the masses and widths are found to be
+                                                     a
+2.894 ± 0.011 GeV and 0.121 ± 0.020 GeV for the Tcs̄0  (2900)0 state, and 2.922 ± 0.012 GeV
+                                  a       ++
+and 0.138 ± 0.029 GeV for the Tcs̄0 (2900) state. The fit parameters are consistent with
+the earlier result, as expected given the isospin symmetry of the decays.
+                                                   a
+    To estimate the significance of the new Tcs̄0    (2900) state, pseudoexperiments are
+                                                                         a
+generated without the state, and fitted both with and without the Tcs̄0     (2900) state. The
+sample size of each pseudoexperiment is Poisson-fluctuated around the number of the
+observed candidates. Events are generated in the six channels separately, modeled by their
+individual background and efficiency maps. The doubled difference of the log-likelihood
+2∆LL of the two fit results should follow a χ2 distribution, where the number of degrees
+of freedom Ndf is a fit parameter. Using 500 pseudoexperiments, Ndf is determined to
+be 6.99 ± 0.17. In the obtained χ2 distribution, the value of 2∆LL from collision data
+corresponds to a significance greater than 9 standard deviations (σ).
+    Among other tested J P hypotheses beyond the default 0+ , only the 1− Ds+ π state
+
+
+                                                                                                            4
+                        Entries / (10.0)
+                                                    Gaussian fit          Pseudo data J P = 0 +
+                                           150      Data 2 LL=59.34       Pseudo data J P = 1
+                                                 LHCb
+                                                 9 fb 1
+                                           100
+
+
+                                           50
+
+
+                                            0
+                                                     100              0           100
+                                                                                         2 LL
+
+
+Figure 4: Spin analysis for the J P = 0+ hypothesis over J P = 1− . The solid blue and black
+dashed histograms are the distributions of the 2∆LL of the pseudoexperiments based on the fit
+results with the 0+ and 1+ hypotheses, respectively. The purple vertical line shows the 2∆LL of
+the data fitted with the new Ds+ π exotic state under the J P = 0+ and J P = 1− hypotheses. The
+red curve shows the result of a fit with the Gaussian function to the black dashed histogram.
+
+
+leads to a large significance of 6.3 σ (Ndf = 6.99), while the other cases are not significant.
+A test of the hypothesis with the simultaneous presence of a 0+ Tcs̄0     a
+                                                                             (2900) state and a
+ −     +
+1 Ds π state yields a significance of 1.3 σ (Ndf = 6.99), suggesting there is no need in
+this analysis to include it. Additional Dπ, Ds+ π and DDs+ resonances with spin-parity
+hypotheses up to 4+ are tested with and without the Tcs̄0      a
+                                                                  (2900) exotic states. In all
+                                                                 a
+cases the additional contributions are disfavored, while the Tcs̄0  (2900) significance remains
+above 5 σ with mass and width parameters consistent with the default results.
+                                                                                 a
+     Pseudoexperiments are performed to confirm the spin-parity of the Tcs̄0       (2900) state.
+A set of 500 pseudoexperiments is generated from the default fit results, another 500
+pseudoexperiments are generated from the fit results with a 1− Ds+ π exotic state included.
+Each pseudoexperiment distribution is fitted both under the J P = 0+ hypothesis and
+J P = 1− hypothesis, and the 2∆LL are evaluated, shown in Fig. 4. The 2∆LL value in
+data corresponds to a significance of about 7.5 σ. This demonstrates that the J P = 0+
+                        a
+hypothesis for the Tcs̄0  (2900) state is favored with a high significance.
+                                         a
+     The Argand diagram [6] of the Tcs̄0    (2900) state, which is expected to have a circular
+form, is shown in Fig. 5. An additional fit, in which the Breit–Wigner lineshape of the
+  a
+Tcs̄0 (2900) state is replaced by seven spline points on M (Ds+ π), is performed. The complex
+factor associated to each point is free to vary. The lineshape of the Ds+ π spline model,
+also shown in Fig. 5, is consistent with the Breit–Wigner lineshape, and further supports
+                                   a
+the resonant character of the Tcs̄0  (2900) state.
+     The sources of systematic uncertainty in the amplitude analysis fall into four categories:
+the B meson signal yields, the background model, the efficiency map, and the fixed
+parameters in the fit. The dominant systematic uncertainties arise from the fixed Blatt-
+Weisskopf radius and D∗ resonant parameters. Systematic uncertainties due to the Blatt-
+Weisskopf radius are estimated by varying the parameter from 3.0 GeV−1 to 1.5 GeV−1 and
+4.5 GeV−1 . Systematic uncertainties associated with the fixed D∗ parameters include those
+related to the masses and widths of the D∗ resonances, which are allowed to vary but are
+
+                                                                 5
+                        Imaginary part of amplitude
+                                                      0.4     LHCb               Breit-Wigner of Tcsa 0(2900)
+                                                                                 Start point (m = 2.708 GeV)
+                                                              9 fb 1             Spline lineshape
+
+                                                                       3.043 2.976
+                                                      0.2         3.11
+                                                                                                2.909
+
+
+                                                      0.0
+                                                                             2.708
+                                                                             2.775
+                                                                                        2.842
+                                                      0.2
+                                                            0.2        0.0           0.2        0.4
+                                                                                 Real part of amplitude
+
+                                     a (2900) exotic state. The green star and black dots show
+Figure 5: Argand diagram for the Tcs̄0
+                                           a (2900) Breit–Wigner function. The red solid line
+the start point and phase variation for a Tcs̄0
+shows the fitted spline function used to model the J P = 0+ Ds+ π component in the Tcs̄0
+                                                                                      a (2900)
+
+mass region, and the blue error bars show the uncertainties on the values of the spline at the
+knots.
+
+
+constrained to their measured values according to their uncertainties. The spline points
+are shifted by ±10 MeV, and the number of spline points is varied by ±1 to explore their
+impact. The J P hypothesis of the D(3000) state is changed to 2+ , the next most probable
+J P hypothesis, in the systematic uncertainty study. The total systematic uncertainty is
+determined by combining all contributions in quadrature. The minimal significance during
+the variation of the sources of systematic uncertainties is taken as the final significance of
+the resonance. Possible biases of fit parameters are studied with pseudoexperiments. A set
+of 500 pseudoexperiments is generated with the default fit results, and fitted with the same
+model. The distribution of each fit parameter is fitted with a Gaussian function. Both the
+residual (µpseudo − µdefault ) and pull distributions (µpseudo − µdefault )/σpseudo are obtained
+from the pseudoexperiments, and used to correct the mean values and uncertainties of
+the fit results.
+    In summary, a combined amplitude analysis of the B 0 → D0 Ds+ π − and B + → D− Ds+ π +
+decays is performed, under the assumption of isospin symmetry, to determine the con-
+tributions of intermediate states in the decays. Considering only resonant contributions
+of D∗ mesons, the M (Dπ) distributions in the two B decay channels are well modelled,
+but in the M (Ds π) projection of each channel, peaking structures near 2.9 GeV are not
+well described. Two new Ds π exotic resonances are included in the fit model. Assuming
+the neutral Ds+ π − resonance and the doubly charged Ds+ π + resonance belong to the same
+isospin triplet, the common mass and width are determined to be
+
+                                                      M = 2.908 ± 0.011 ± 0.020 GeV,
+                                                      Γ = 0.136 ± 0.023 ± 0.013 GeV,
+
+where the first and second uncertainties are statistical and systematic, respectively. The
+
+                                                                             6
+spin-parity is determined to be 0+ with a significance of about 7.5 σ with respect to the
+1− hypothesis. After considering the systematic uncertainties, the significance of the
+  a
+Tcs̄0 (2900) state is estimated to be greater than 9 σ, taking into account the look-elsewhere
+                                                       a
+effect. Meanwhile, amplitude fits with separate Tcs̄0    (2900)0 and Tcs̄0
+                                                                        a
+                                                                           (2900)++ resonance
+parameters are also performed. The masses and widths of the two resonances are
+                           a
+                        Tcs̄0 (2900)0 : M = 2.892 ± 0.014 ± 0.015 GeV,
+                                        Γ = 0.119 ± 0.026 ± 0.013 GeV,
+                       a          ++
+                      Tcs̄0 (2900) : M = 2.921 ± 0.017 ± 0.020 GeV,
+                                        Γ = 0.137 ± 0.032 ± 0.017 GeV,
+
+which are in good agreement. The significance of the two resonances is found to be
+                              a
+8.0 σ (Ndf = 7.29) for the Tcs̄0 (2900)0 state and 6.5 σ (Ndf = 8.53) for the Tcs̄0 a
+                                                                                      (2900)++
+state, including systematic effects. The additional details are described in Ref. [36]. This
+is the first observation of a doubly charged tetraquark candidate, Tcs̄0   a                 ¯
+                                                                              (2900)++ ([cs̄ud]),
+                                        a        0
+and of its neutral isospin partner, Tcs̄0 (2900) ([cs̄ūd]). They belong to a new type of
+                                                                                       a
+open-charm tetraquark states with c and s̄ quarks. The obtained mass of the Tcs̄0        (2900)
+state is consistent with that of another 0 open-charm tetraquark, the X0 (2900) ([csū ¯
+                                            +                                          0
+                                                                                              d])
+                            + −
+state discovered in the D K final state [19, 20], but their widths and flavor contents
+                                         a
+are different. The observation of the Tcs̄0 (2900) states is a significant step in the study of
+exotic hadron spectroscopy.
+    We express our gratitude to our colleagues in the CERN accelerator departments for
+the excellent performance of the LHC. We thank the technical and administrative staff at
+the LHCb institutes. We acknowledge support from CERN and from the national agencies:
+CAPES, CNPq, FAPERJ and FINEP (Brazil); MOST and NSFC (China); CNRS/IN2P3
+(France); BMBF, DFG and MPG (Germany); INFN (Italy); NWO (Netherlands); MNiSW
+and NCN (Poland); MEN/IFA (Romania); MICINN (Spain); SNSF and SER (Switzerland);
+NASU (Ukraine); STFC (United Kingdom); DOE NP and NSF (USA). We acknowledge
+the computing resources that are provided by CERN, IN2P3 (France), KIT and DESY
+(Germany), INFN (Italy), SURF (Netherlands), PIC (Spain), GridPP (United Kingdom),
+CSCS (Switzerland), IFIN-HH (Romania), CBPF (Brazil), Polish WLCG (Poland) and
+NERSC (USA). We are indebted to the communities behind the multiple open-source
+software packages on which we depend. Individual groups or members have received
+support from ARC and ARDC (Australia); Minciencias (Colombia); AvH Foundation
+(Germany); EPLANET, Marie Sklodowska-Curie Actions and ERC (European Union);
+A*MIDEX, ANR, IPhU and Labex P2IO, and Région Auvergne-Rhône-Alpes (France);
+Key Research Program of Frontier Sciences of CAS, CAS PIFI, CAS CCEPP, Fundamental
+Research Funds for the Central Universities, and Sci. & Tech. Program of Guangzhou
+(China); GVA, XuntaGal, GENCAT and Prog. Atracción Talento, CM (Spain); SRC
+(Sweden); the Leverhulme Trust, the Royal Society and UKRI (United Kingdom).
+
+
+References
+ [1] M. Gell-Mann, A schematic model of baryons and mesons, Phys. Lett. 8 (1964) 214.
+
+
+
+
+                                               7
+                                                                     ∗
+ [2] R. Molina, T. Branz, and E. Oset, A new interpretation for the Ds2 (2573) and
+     the prediction of novel exotic charmed mesons, Phys. Rev. D82 (2010) 014010,
+     arXiv:1005.0335.
+
+ [3] H.-X. Chen et al., An updated review of the new hadron states, arXiv:2204.02649.
+
+ [4] BaBar collaboration, B. Aubert et al., Observation of a narrow meson decay-
+     ing to Ds+ π 0 at a mass of 2.32-GeV/c2 , Phys. Rev. Lett. 90 (2003) 242001,
+     arXiv:hep-ex/0304021.
+
+ [5] CLEO collaboration, D. Besson et al., Observation of a narrow resonance of mass
+     2.46-GeV/c**2 decaying to D*+(s) pi0 and confirmation of the D*(sJ)(2317) state,
+     Phys. Rev. D 68 (2003) 032002, arXiv:hep-ex/0305100, [Erratum: Phys.Rev.D 75,
+     119908 (2007)].
+
+ [6] Particle Data Group, R. L. Workman et al., Review of particle physics, Prog. Theor.
+     Exp. Phys. 2022 (2022) 083C01.
+
+ [7] H.-X. Chen et al., A review of the open charm and open bottom systems, Rept. Prog.
+     Phys. 80 (2017) 076201, arXiv:1609.08928.
+
+ [8] BaBar collaboration, B. Aubert et al., A Study of the D*(sJ)(2317) and D(sJ)(2460)
+     Mesons in Inclusive c anti-c Production Near (s)**(1/2) = 10.6-GeV, Phys. Rev. D
+     74 (2006) 032007, arXiv:hep-ex/0604030.
+                                                                     ∗+
+ [9] Belle collaboration, S.-K. Choi et al., Measurements of B → D̄Ds0  (2317) decay rates
+                                                 ∗+
+     and a search for isospin partners of the Ds0 (2317), Phys. Rev. D 91 (2015) 092011,
+     arXiv:1504.02637, [Addendum: Phys.Rev.D 92, 039905 (2015)].
+
+[10] D0 collaboration, V. M. Abazov et al., Evidence for a Bs0 π ± state, Phys. Rev. Lett.
+     117 (2016) 022003, arXiv:1602.07588.
+
+[11] D0 collaboration, V. M. Abazov et al., Study of the X ± (5568) state with semileptonic
+     decays of the Bs0 meson, Phys. Rev. D97 (2018) 092004, arXiv:1712.10176.
+
+[12] LHCb collaboration, R. Aaij et al., Search for structure in the Bs0 π ± invariant mass
+     spectrum, Phys. Rev. Lett. 117 (2016) 152003, arXiv:1608.00435.
+
+[13] CMS collaboration, A. M. Sirunyan √et al., Search for the X(5568) state decaying into
+       0 ±
+     Bs π in proton-proton collisions at s = 8 TeV, Phys. Rev. Lett. 120 (2018) 202005,
+     arXiv:1712.06144.
+
+[14] ATLAS collaboration, M. Aaboud et al., Search for a structure in the Bs0 π ± invariant
+     mass spectrum with the ATLAS experiment, Phys. Rev. Lett. 120 (2018) 202007,
+     arXiv:1802.01840.
+
+[15] CDF collaboration, T. Aaltonen et al., A search for the exotic meson X(5568)
+     with the Collider Detector at Fermilab, Phys. Rev. Lett. 120 (2018) 202006,
+     arXiv:1712.09620.
+
+[16] S. S. Agaev, K. Azizi, and H. Sundu, Charmed partner of the exotic X(5568) state
+     and its properties, Phys. Rev. D93 (2016) 094006, arXiv:1603.01471.
+
+                                            8
+[17] W. Chen et al., Open-flavor charm and bottom sq q̄ Q̄ and qq q̄ Q̄ tetraquark states,
+     Phys. Rev. D95 (2017) 114005, arXiv:1705.10088.
+
+[18] J. Baeza-Ballesteros, P. Hernández, and F. Romero-López, A lattice study of ππ
+     scattering at large Nc , JHEP 06 (2022) 049, arXiv:2202.02291.
+
+[19] LHCb collaboration, R. Aaij et al., Model-independent study of structure in
+     B + → D+ D− K + decays, Phys. Rev. Lett. 125 (2020) 242001, arXiv:2009.00025.
+
+[20] LHCb collaboration, R. Aaij et al., Amplitude analysis of the B + → D+ D− K + decay,
+     Phys. Rev. D102 (2020) 112003, arXiv:2009.00026.
+
+[21] X.-G. He, W. Wang, and R. Zhu, Open-charm tetraquark Xc and open-bottom
+     tetraquark Xb , Eur. Phys. J. C80 (2020) 1026, arXiv:2008.07145.
+
+[22] Q.-F. Lü, D.-Y. Chen, and Y.-B. Dong, Open charm and bottom tetraquarks in an
+     extended relativized quark model, Phys. Rev. C102 (2020) 074021, arXiv:2008.07340.
+
+[23] T. J. Burns and E. S. Swanson, Discriminating among interpretations for the X(2900)
+     states, Phys. Rev. D103 (2021) 014004, arXiv:2009.05352.
+
+[24] S. S. Agaev, K. Azizi, and H. Sundu, Vector resonance X1 (2900) and its structure,
+     Nucl. Phys. A1011 (2021) 122202, arXiv:2103.06151.
+                                                                                         ¯
+[25] S. S. Agaev, K. Azizi, and H. Sundu, Doubly charged vector tetraquark ZV++ = [cu][s̄d],
+     Phys. Lett. B820 (2021) 136530, arXiv:2105.00081.
+
+[26] K. Azizi and U. Özdem, Magnetic dipole moments of the Tcc+ and ZV++ tetraquark
+     states, Phys. Rev. D104 (2021) 114002, arXiv:2109.02390.
+
+[27] LHCb collaboration, R. Aaij et al., Study of DJ meson decays to D+ π − , D0 π + and
+     D∗+ π − final states in pp collisions, JHEP 09 (2013) 145, arXiv:1307.4556.
+
+[28] LHCb collaboration, R. Aaij et al., Dalitz plot analysis of B 0 → D0 π + π − decays,
+     Phys. Rev. D92 (2015) 032002, arXiv:1505.01710.
+
+[29] LHCb collaboration, R. Aaij et al., Amplitude analysis of B − → D+ π − π − decays,
+     Phys. Rev. D94 (2016) 072001, arXiv:1608.01289.
+
+[30] LHCb collaboration, A. A. Alves Jr. et al., The LHCb detector at the LHC, JINST 3
+     (2008) S08005.
+
+[31] LHCb collaboration, R. Aaij et al., LHCb detector performance, Int. J. Mod. Phys.
+     A30 (2015) 1530022, arXiv:1412.6352.
+
+[32] T. Sjöstrand, S. Mrenna, and P. Skands, A brief introduction to PYTHIA
+     8.1, Comput. Phys. Commun. 178 (2008) 852, arXiv:0710.3820; T. Sjöstrand,
+     S. Mrenna, and P. Skands, PYTHIA 6.4 physics and manual, JHEP 05 (2006) 026,
+     arXiv:hep-ph/0603175.
+
+[33] D. J. Lange, The EvtGen particle decay simulation package, Nucl. Instrum. Meth.
+     A462 (2001) 152.
+
+                                             9
+[34] Geant4 collaboration, J. Allison et al., Geant4 developments and applications, IEEE
+     Trans. Nucl. Sci. 53 (2006) 270; Geant4 collaboration, S. Agostinelli et al., Geant4:
+     A simulation toolkit, Nucl. Instrum. Meth. A506 (2003) 250.
+
+[35] M. Clemencic et al., The LHCb simulation application, Gauss: Design, evolution and
+     experience, J. Phys. Conf. Ser. 331 (2011) 032023.
+                                                                                0
+[36] LHCb collaboration, R. Aaij et al., Amplitude analysis of B 0 → D Ds+ π − and
+     B + → D− Ds+ π + decays, simultaneous submission to PRD (2022).
+
+[37] L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone, Classification and
+     regression trees, Wadsworth international group, Belmont, California, USA, 1984.
+
+[38] Y. Freund and R. E. Schapire, A decision-theoretic generalization of on-line learning
+     and an application to boosting, J. Comput. Syst. Sci. 55 (1997) 119.
+
+[39] H. Voss, A. Hoecker, J. Stelzer, and F. Tegenfeldt, TMVA - Toolkit for Multi-
+     variate Data Analysis with ROOT, PoS ACAT (2007) 040; A. Hoecker et al.,
+     TMVA 4 — Toolkit for Multivariate Data Analysis with ROOT. Users Guide.,
+     arXiv:physics/0703039.
+
+[40] A. Poluektov, Kernel density estimation of a multidimensional efficiency profile,
+     JINST 10 (2015) P02011, arXiv:1411.5528.
+
+[41] A. Mathad, D. O’Hanlon, A. Poluektov, and R. Rabadan, Efficient descrip-
+     tion of experimental effects in amplitude analyses, JINST 16 (2021) P06016,
+     arXiv:1902.01452.
+
+[42] See supplemental material at [link inserted by publisher] for the other projections, the
+     slice plots, the fit parameters and fit fractions of fit results, .
+
+[43] LHCb collaboration,        T.   Gershon,     Exotic    hadron    naming     convention,
+     arXiv:2206.15233.
+
+
+
+
+                                             10
+                              LHCb collaboration
+R. Aaij32 , A.S.W. Abdelmotteleb50 , C. Abellan Beteta44 , F. Abudinén50 ,
+T. Ackernley54 , B. Adeva40 , M. Adinolfi48 , P. Adlarson77 , H. Afsharnia9 ,
+C. Agapopoulou13 , C.A. Aidala78 , S. Aiola25 , Z. Ajaltouni9 , S. Akar59 , K. Akiba32 ,
+J. Albrecht15 , F. Alessio42 , M. Alexander53 , A. Alfonso Albero39 , Z. Aliouche56 ,
+P. Alvarez Cartelle49 , R. Amalric13 , S. Amato2 , J.L. Amey48 , Y. Amhis11,42 ,
+L. An42 , L. Anderlini22 , M. Andersson44 , A. Andreianov38 , M. Andreotti21 ,
+D. Andreou62 , D. Ao6 , F. Archilli17 , A. Artamonov38 , M. Artuso62 ,
+E. Aslanides10 , M. Atzeni44 , B. Audurier12 , S. Bachmann17 , M. Bachmayer43 ,
+J.J. Back50 , A. Bailly-reyre13 , P. Baladron Rodriguez40 , V. Balagura12 , W. Baldini21 ,
+J. Baptista de Souza Leite1 , M. Barbetti22,j , R.J. Barlow56 , S. Barsuk11 ,
+W. Barter55 , M. Bartolini49 , F. Baryshnikov38 , J.M. Basels14 , G. Bassi29,q ,
+B. Batsukh4 , A. Battig15 , A. Bay43 , A. Beck50 , M. Becker15 , F. Bedeschi29 ,
+I.B. Bediaga1 , A. Beiter62 , V. Belavin38 , S. Belin40 , V. Bellee44 , K. Belous38 ,
+I. Belov38 , I. Belyaev38 , G. Benane10 , G. Bencivenni23 , E. Ben-Haim13 ,
+A. Berezhnoy38 , R. Bernet44 , S. Bernet Andres76 , D. Berninghoff17 , H.C. Bernstein62 ,
+C. Bertella56 , A. Bertolin28 , C. Betancourt44 , F. Betti42 , Ia. Bezshyiko44 ,
+S. Bhasin48 , J. Bhom35 , L. Bian68 , M.S. Bieker15 , N.V. Biesuz21 , S. Bifani47 ,
+P. Billoir13 , A. Biolchini32 , M. Birch55 , F.C.R. Bishop49 , A. Bitadze56 ,
+A. Bizzeti , M.P. Blago49 , T. Blake50 , F. Blanc43 , J.E. Blank15 , S. Blusk62 ,
+D. Bobulska53 , J.A. Boelhauve15 , O. Boente Garcia12 , T. Boettcher59 ,
+A. Boldyrev38 , C.S. Bolognani74 , R. Bolzonella21,i , N. Bondar38,42 , F. Borgato28 ,
+S. Borghi56 , M. Borsato17 , J.T. Borsuk35 , S.A. Bouchiba43 , T.J.V. Bowcock54 ,
+A. Boyer42 , C. Bozzi21 , M.J. Bradley55 , S. Braun60 , A. Brea Rodriguez40 ,
+J. Brodzicka35 , A. Brossa Gonzalo40 , J. Brown54 , D. Brundu27 , A. Buonaura44 ,
+L. Buonincontri28 , A.T. Burke56 , C. Burr42 , A. Bursche66 , A. Butkevich38 ,
+J.S. Butter32 , J. Buytaert42 , W. Byczynski42 , S. Cadeddu27 , H. Cai68 ,
+R. Calabrese21,i , L. Calefice15 , S. Cali23 , R. Calladine47 , M. Calvi26,m ,
+M. Calvo Gomez76 , P. Campana23 , D.H. Campora Perez74 ,
+A.F. Campoverde Quezada6 , S. Capelli26,m , L. Capriotti20 , A. Carbone20,g ,
+G. Carboni31 , R. Cardinale24,k , A. Cardini27 , P. Carniti26,m , L. Carus14 ,
+A. Casais Vidal40 , R. Caspary17 , G. Casse54 , M. Cattaneo42 , G. Cavallero42 ,
+V. Cavallini21,i , S. Celani43 , J. Cerasoli10 , D. Cervenkov57 , A.J. Chadwick54 ,
+M.G. Chapman48 , M. Charles13 , Ph. Charpentier42 , C.A. Chavez Barajas54 ,
+M. Chefdeville8 , C. Chen3 , S. Chen4 , A. Chernov35 , S. Chernyshenko46 ,
+V. Chobanova40 , S. Cholak43 , M. Chrzaszcz35 , A. Chubykin38 , V. Chulikov38 ,
+P. Ciambrone23 , M.F. Cicala50 , X. Cid Vidal40 , G. Ciezarek42 , G. Ciulloi,21 ,
+P.E.L. Clarke52 , M. Clemencic42 , H.V. Cliff49 , J. Closier42 , J.L. Cobbledick56 ,
+V. Coco42 , J.A.B. Coelho11 , J. Cogan10 , E. Cogneras9 , L. Cojocariu37 ,
+P. Collins42 , T. Colombo42 , L. Congedo19 , A. Contu27 , N. Cooke47 ,
+I. Corredoira 40 , G. Corti42 , B. Couturier42 , D.C. Craik44 , M. Cruz Torres1,e ,
+R. Currie52 , C.L. Da Silva61 , S. Dadabaev38 , L. Dai65 , X. Dai5 , E. Dall’Occo15 ,
+J. Dalseno40 , C. D’Ambrosio42 , J. Daniel9 , A. Danilina38 , P. d’Argent15 ,
+J.E. Davies56 , A. Davis56 , O. De Aguiar Francisco56 , J. de Boer42 , K. De Bruyn73 ,
+S. De Capua56 , M. De Cian43 , U. De Freitas Carneiro Da Graca1 , E. De Lucia23 ,
+J.M. De Miranda1 , L. De Paula2 , M. De Serio19,f , D. De Simone44 , P. De Simone23 ,
+F. De Vellis15 , J.A. de Vries74 , C.T. Dean61 , F. Debernardis19,f , D. Decamp8 ,
+V. Dedu10 , L. Del Buono13 , B. Delaney58 , H.-P. Dembinski15 , V. Denysenko44 ,
+O. Deschamps9 , F. Dettori27,h , B. Dey71 , A. Di Cicco23 , P. Di Nezza23 ,
+
+
+                                           11
+I. Diachkov38 , S. Didenko38 , L. Dieste Maronas40 , S. Ding62 , V. Dobishuk46 ,
+A. Dolmatov38 , C. Dong3 , A.M. Donohoe18 , F. Dordei27 , A.C. dos Reis1 ,
+L. Douglas53 , A.G. Downes8 , P. Duda75 , M.W. Dudek35 , L. Dufour42 , V. Duk72 ,
+P. Durante42 , M. M. Duras75 , J.M. Durham61 , D. Dutta56 , A. Dziurda35 ,
+A. Dzyuba38 , S. Easo51 , U. Egede63 , V. Egorychev38 , S. Eidelman38,† ,
+C. Eirea Orro40 , S. Eisenhardt52 , E. Ejopu56 , S. Ek-In43 , L. Eklund77 , S. Ely62 ,
+A. Ene37 , E. Epple59 , S. Escher14 , J. Eschle44 , S. Esen44 , T. Evans56 ,
+F. Fabiano27,h , L.N. Falcao1 , Y. Fan6 , B. Fang68 , L. Fantini72,p , M. Faria43 ,
+S. Farry54 , D. Fazzini26,m , L.F Felkowski75 , M. Feo42 , M. Fernandez Gomez40 ,
+A.D. Fernez60 , F. Ferrari20 , L. Ferreira Lopes43 , F. Ferreira Rodrigues2 ,
+S. Ferreres Sole32 , M. Ferrillo44 , M. Ferro-Luzzi42 , S. Filippov38 , R.A. Fini19 ,
+M. Fiorini21,i , M. Firlej34 , K.M. Fischer57 , D.S. Fitzgerald78 , C. Fitzpatrick56 ,
+T. Fiutowski34 , F. Fleuret12 , M. Fontana13 , F. Fontanelli24,k , R. Forty42 ,
+D. Foulds-Holt49 , V. Franco Lima54 , M. Franco Sevilla60 , M. Frank42 ,
+E. Franzoso21,i , G. Frau17 , C. Frei42 , D.A. Friday53 , J. Fu6 , Q. Fuehring15 ,
+T. Fulghesu13 , E. Gabriel32 , G. Galati19,f , M.D. Galati32 , A. Gallas Torreira40 ,
+D. Galli20,g , S. Gambetta52,42 , Y. Gan3 , M. Gandelman2 , P. Gandini25 , Y. Gao7 ,
+Y. Gao5 , M. Garau27,h , L.M. Garcia Martin50 , P. Garcia Moreno39 ,
+J. Garcı́a Pardiñas26,m , B. Garcia Plana40 , F.A. Garcia Rosales12 , L. Garrido39 ,
+C. Gaspar42 , R.E. Geertsema32 , D. Gerick17 , L.L. Gerken15 , E. Gersabeck56 ,
+M. Gersabeck56 , T. Gershon50 , L. Giambastiani28 , V. Gibson49 , H.K. Giemza36 ,
+A.L. Gilman57 , M. Giovannetti23,t , A. Gioventù40 , P. Gironella Gironell39 ,
+C. Giugliano21,i , M.A. Giza35 , K. Gizdov52 , E.L. Gkougkousis42 , V.V. Gligorov13,42 ,
+C. Göbel64 , E. Golobardes76 , D. Golubkov38 , A. Golutvin55,38 , A. Gomes1,a ,
+S. Gomez Fernandez39 , F. Goncalves Abrantes57 , M. Goncerz35 , G. Gong3 ,
+I.V. Gorelov38 , C. Gotti26 , J.P. Grabowski70 , T. Grammatico13 ,
+L.A. Granado Cardoso42 , E. Graugés39 , E. Graverini43 , G. Graziani , A. T. Grecu37 ,
+L.M. Greeven32 , N.A. Grieser4 , L. Grillo53 , S. Gromov38 , B.R. Gruberg Cazon57 , C.
+Gu3 , M. Guarise21,i , M. Guittiere11 , P. A. Günther17 , E. Gushchin38 , A. Guth14 ,
+Y. Guz38 , T. Gys42 , T. Hadavizadeh63 , G. Haefeli43 , C. Haen42 , J. Haimberger42 ,
+S.C. Haines49 , T. Halewood-leagas54 , M.M. Halvorsen42 , P.M. Hamilton60 ,
+J. Hammerich54 , Q. Han7 , X. Han17 , E.B. Hansen56 , S. Hansmann-Menzemer17 ,
+L. Hao6 , N. Harnew57 , T. Harrison54 , C. Hasse42 , M. Hatch42 , J. He6,c ,
+K. Heijhoff32 , C. Henderson59 , R.D.L. Henderson63,50 , A.M. Hennequin58 ,
+K. Hennessy54 , L. Henry42 , J. Herd55 , J. Heuel14 , A. Hicheur2 , D. Hill43 ,
+M. Hilton56 , S.E. Hollitt15 , J. Horswill56 , R. Hou7 , Y. Hou8 , J. Hu17 , J. Hu66 ,
+W. Hu5 , X. Hu3 , W. Huang6 , X. Huang68 , W. Hulsbergen32 , R.J. Hunter50 ,
+M. Hushchyn38 , D. Hutchcroft54 , P. Ibis15 , M. Idzik34 , D. Ilin38 , P. Ilten59 ,
+A. Inglessi38 , A. Iniukhin38 , A. Ishteev38 , K. Ivshin38 , R. Jacobsson42 , H. Jage14 ,
+S.J. Jaimes Elles41 , S. Jakobsen42 , E. Jans32 , B.K. Jashal41 , A. Jawahery60 ,
+V. Jevtic15 , E. Jiang60 , X. Jiang4,6 , Y. Jiang6 , M. John57 , D. Johnson58 ,
+C.R. Jones49 , T.P. Jones50 , B. Jost42 , N. Jurik42 , I. Juszczak35 , S. Kandybei45 ,
+Y. Kang3 , M. Karacson42 , D. Karpenkov38 , M. Karpov38 , J.W. Kautz59 ,
+F. Keizer42 , D.M. Keller62 , M. Kenzie50 , T. Ketel32 , B. Khanji15 , A. Kharisova38 ,
+S. Kholodenko38 , G. Khreich11 , T. Kirn14 , V.S. Kirsebom43 , O. Kitouni58 ,
+S. Klaver33 , N. Kleijne29,q , K. Klimaszewski36 , M.R. Kmiec36 , S. Koliiev46 ,
+A. Kondybayeva38 , A. Konoplyannikov38 , P. Kopciewicz34 , R. Kopecna17 ,
+P. Koppenburg32 , M. Korolev38 , I. Kostiuk32,46 , O. Kot46 , S. Kotriakhova ,
+A. Kozachuk38 , P. Kravchenko38 , L. Kravchuk38 , R.D. Krawczyk42 , M. Kreps50 ,
+S. Kretzschmar14 , P. Krokovny38 , W. Krupa34 , W. Krzemien36 , J. Kubat17 ,
+
+
+                                           12
+S. Kubis75 , W. Kucewicz35,34 , M. Kucharczyk35 , V. Kudryavtsev38 , A. Kupsc77 ,
+D. Lacarrere42 , G. Lafferty56 , A. Lai27 , A. Lampis27,h , D. Lancierini44 ,
+C. Landesa Gomez40 , J.J. Lane56 , R. Lane48 , G. Lanfranchi23 , C. Langenbruch14 ,
+J. Langer15 , O. Lantwin38 , T. Latham50 , F. Lazzari29,u , M. Lazzaroni25,l ,
+R. Le Gac10 , S.H. Lee78 , R. Lefèvre9 , A. Leflat38 , S. Legotin38 , P. Lenisai,21 ,
+O. Leroy10 , T. Lesiak35 , B. Leverington17 , A. Li3 , H. Li66 , K. Li7 , P. Li17 ,
+P.-R. Li67 , S. Li7 , T. Li4 , T. Li66 , Y. Li4 , Z. Li62 , X. Liang62 , C. Lin6 ,
+T. Lin51 , R. Lindner42 , V. Lisovskyi15 , R. Litvinov27,h , G. Liu66 , H. Liu6 ,
+Q. Liu6 , S. Liu4,6 , Y. Liu6 , A. Lobo Salvia39 , A. Loi27 , R. Lollini72 ,
+J. Lomba Castro40 , I. Longstaff53 , J.H. Lopes2 , A. Lopez Huertas39 ,
+S. López Soliño40 , G.H. Lovell49 , Y. Lu4,b , C. Lucarelli22,j , D. Lucchesi28,o ,
+S. Luchuk38 , M. Lucio Martinez74 , V. Lukashenko32,46 , Y. Luo3 , A. Lupato56 ,
+E. Luppi21,i , A. Lusiani29,q , K. Lynch18 , X.-R. Lyu6 , L. Ma4 , R. Ma6 ,
+S. Maccolini20 , F. Machefert11 , F. Maciuc37 , I. Mackay57 , V. Macko43 ,
+P. Mackowiak15 , L.R. Madhan Mohan48 , A. Maevskiy38 , D. Maisuzenko38 ,
+M.W. Majewski34 , J.J. Malczewski35 , S. Malde57 , B. Malecki35,42 , A. Malinin38 ,
+T. Maltsev38 , G. Manca27,h , G. Mancinelli10 , C. Mancuso11,25,l , D. Manuzzi20 ,
+C.A. Manzari44 , D. Marangotto25,l , J.F. Marchand8 , U. Marconi20 , S. Mariani22,j ,
+C. Marin Benito39 , J. Marks17 , A.M. Marshall48 , P.J. Marshall54 , G. Martelli72,p ,
+G. Martellotti30 , L. Martinazzoli42,m , M. Martinelli26,m , D. Martinez Santos40 ,
+F. Martinez Vidal41 , A. Massafferri1 , M. Materok14 , R. Matev42 , A. Mathad44 ,
+V. Matiunin38 , C. Matteuzzi26 , K.R. Mattioli12 , A. Mauri32 , E. Maurice12 ,
+J. Mauricio39 , M. Mazurek42 , M. McCann55 , L. Mcconnell18 , T.H. McGrath56 ,
+N.T. McHugh53 , A. McNab56 , R. McNulty18 , J.V. Mead54 , B. Meadows59 ,
+G. Meier15 , D. Melnychuk36 , S. Meloni26,m , M. Merk32,74 , A. Merli25,l ,
+L. Meyer Garcia2 , D. Miao4,6 , M. Mikhasenko70,d , D.A. Milanes69 , E. Millard50 ,
+M. Milovanovic42 , M.-N. Minard8,† , A. Minotti26,m , T. Miralles9 , S.E. Mitchell52 ,
+B. Mitreska56 , D.S. Mitzel15 , A. Mödden 15 , R.A. Mohammed57 , R.D. Moise14 ,
+S. Mokhnenko38 , T. Mombächer40 , M. Monk50,63 , I.A. Monroy69 , S. Monteil9 ,
+M. Morandin28 , G. Morello23 , M.J. Morello29,q , J. Moron34 , A.B. Morris70 ,
+A.G. Morris50 , R. Mountain62 , H. Mu3 , E. Muhammad50 , F. Muheim52 ,
+M. Mulder73 , K. Müller44 , C.H. Murphy57 , D. Murray56 , R. Murta55 ,
+P. Muzzetto27,h , P. Naik48 , T. Nakada43 , R. Nandakumar51 , T. Nanut42 ,
+I. Nasteva2 , M. Needham52 , N. Neri25,l , S. Neubert70 , N. Neufeld42 , P. Neustroev38 ,
+R. Newcombe55 , J. Nicolini15,11 , E.M. Niel43 , S. Nieswand14 , N. Nikitin38 ,
+N.S. Nolte58 , C. Normand8,h,27 , J. Novoa Fernandez40 , C. Nunez78 ,
+A. Oblakowska-Mucha34 , V. Obraztsov38 , T. Oeser14 , D.P. O’Hanlon48 ,
+S. Okamura21,i , R. Oldeman27,h , F. Oliva52 , C.J.G. Onderwater73 , R.H. O’Neil52 ,
+J.M. Otalora Goicochea2 , T. Ovsiannikova38 , P. Owen44 , A. Oyanguren41 ,
+O. Ozcelik52 , K.O. Padeken70 , B. Pagare50 , P.R. Pais42 , T. Pajero57 ,
+A. Palano19 , M. Palutan23 , Y. Pan56 , G. Panshin38 , L. Paolucci50 ,
+A. Papanestis51 , M. Pappagallo19,f , L.L. Pappalardo21,i , C. Pappenheimer59 ,
+W. Parker60 , C. Parkes56 , B. Passalacqua21,i , G. Passaleva22 , A. Pastore19 ,
+M. Patel55 , C. Patrignani20,g , C.J. Pawley74 , A. Pearce42 , A. Pellegrino32 ,
+M. Pepe Altarelli42 , S. Perazzini20 , D. Pereima38 , A. Pereiro Castro40 , P. Perret9 ,
+M. Petric53 , K. Petridis48 , A. Petrolini24,k , A. Petrov38 , S. Petrucci52 , M. Petruzzo25 ,
+H. Pham62 , A. Philippov38 , R. Piandani6 , L. Pica29,q , M. Piccini72 , B. Pietrzyk8 ,
+G. Pietrzyk11 , M. Pili57 , D. Pinci30 , F. Pisani42 , M. Pizzichemi26,m,42 ,
+V. Placinta37 , J. Plews47 , M. Plo Casasus40 , F. Polci13,42 , M. Poli Lener23 ,
+M. Poliakova62 , A. Poluektov10 , N. Polukhina38 , I. Polyakov42 , E. Polycarpo2 ,
+
+
+                                             13
+S. Ponce42 , D. Popov6,42 , S. Popov38 , S. Poslavskii38 , K. Prasanth35 ,
+L. Promberger17 , C. Prouve40 , V. Pugatch46 , V. Puill11 , G. Punzi29,r , H.R. Qi3 ,
+W. Qian6 , N. Qin3 , S. Qu3 , R. Quagliani43 , N.V. Raab18 , R.I. Rabadan Trejo6 ,
+B. Rachwal34 , J.H. Rademacker48 , R. Rajagopalan62 , M. Rama29 , M. Ramos Pernas50 ,
+M.S. Rangel2 , F. Ratnikov38 , G. Raven33,42 , M. Rebollo De Miguel41 , F. Redi42 ,
+J. Reich48 , F. Reiss56 , C. Remon Alepuz41 , Z. Ren3 , P.K. Resmi10 , R. Ribatti29,q ,
+A.M. Ricci27 , S. Ricciardi51 , K. Richardson58 , M. Richardson-Slipper52 ,
+K. Rinnert54 , P. Robbe11 , G. Robertson52 , A.B. Rodrigues43 , E. Rodrigues54 ,
+E. Rodriguez Fernandez40 , J.A. Rodriguez Lopez69 , E. Rodriguez Rodriguez40 ,
+D.L. Rolf42 , A. Rollings57 , P. Roloff42 , V. Romanovskiy38 , M. Romero Lamas40 ,
+A. Romero Vidal40 , J.D. Roth78,† , M. Rotondo23 , M.S. Rudolph62 , T. Ruf42 ,
+R.A. Ruiz Fernandez40 , J. Ruiz Vidal41 , A. Ryzhikov38 , J. Ryzka34 ,
+J.J. Saborido Silva40 , N. Sagidova38 , N. Sahoo47 , B. Saitta27,h , M. Salomoni42 ,
+C. Sanchez Gras32 , I. Sanderswood41 , R. Santacesaria30 , C. Santamarina Rios40 ,
+M. Santimaria23 , E. Santovetti31,t , D. Saranin38 , G. Sarpis14 , M. Sarpis70 ,
+A. Sarti30 , C. Satriano30,s , A. Satta31 , M. Saur15 , D. Savrina38 , H. Sazak9 ,
+L.G. Scantlebury Smead57 , A. Scarabotto13 , S. Schael14 , S. Scherl54 , M. Schiller53 ,
+H. Schindler42 , M. Schmelling16 , B. Schmidt42 , S. Schmitt14 , O. Schneider43 ,
+A. Schopper42 , M. Schubiger32 , S. Schulte43 , M.H. Schune11 , R. Schwemmer42 ,
+B. Sciascia23,42 , A. Sciuccati42 , S. Sellam40 , A. Semennikov38 , M. Senghi Soares33 ,
+A. Sergi24,k , N. Serra44 , L. Sestini28 , A. Seuthe15 , Y. Shang5 , D.M. Shangase78 ,
+M. Shapkin38 , I. Shchemerov38 , L. Shchutska43 , T. Shears54 , L. Shekhtman38 ,
+Z. Shen5 , S. Sheng4,6 , V. Shevchenko38 , B. Shi6 , E.B. Shields26,m , Y. Shimizu11 ,
+E. Shmanin38 , R. Shorkin38 , J.D. Shupperd62 , B.G. Siddi21,i , R. Silva Coutinho62 ,
+G. Simi28 , S. Simone19,f , M. Singla63 , N. Skidmore56 , R. Skuza17 ,
+T. Skwarnicki62 , M.W. Slater47 , J.C. Smallwood57 , J.G. Smeaton49 , E. Smith44 ,
+K. Smith61 , M. Smith55 , A. Snoch32 , L. Soares Lavra9 , M.D. Sokoloff59 ,
+F.J.P. Soler53 , A. Solomin38,48 , A. Solovev38 , I. Solovyev38 , R. Song63 ,
+F.L. Souza De Almeida2 , B. Souza De Paula2 , B. Spaan15,† , E. Spadaro Norella25,l ,
+E. Spedicato20 , E. Spiridenkov38 , P. Spradlin53 , V. Sriskaran42 , F. Stagni42 ,
+M. Stahl42 , S. Stahl42 , S. Stanislaus57 , E.N. Stein42 , O. Steinkamp44 ,
+O. Stenyakin38 , H. Stevens15 , S. Stone62,† , D. Strekalina38 , F. Suljik57 , J. Sun27 ,
+L. Sun68 , Y. Sun60 , P. Svihra56 , P.N. Swallow47 , K. Swientek34 , A. Szabelski36 ,
+T. Szumlak34 , M. Szymanski42 , Y. Tan3 , S. Taneja56 , A.R. Tanner48 , M.D. Tat57 ,
+A. Terentev38 , F. Teubert42 , E. Thomas42 , D.J.D. Thompson47 , K.A. Thomson54 ,
+H. Tilquin55 , V. Tisserand9 , S. T’Jampens8 , M. Tobin4 , L. Tomassetti21,i ,
+G. Tonani25,l , X. Tong5 , D. Torres Machado1 , D.Y. Tou3 , S.M. Trilov48 ,
+C. Trippl43 , G. Tuci6 , A. Tully43 , N. Tuning32 , A. Ukleja36 , D.J. Unverzagt17 ,
+A. Usachov32 , A. Ustyuzhanin38 , U. Uwer17 , A. Vagner38 , V. Vagnoni20 ,
+A. Valassi42 , G. Valenti20 , N. Valls Canudas76 , M. van Beuzekom32 , M. Van Dijk43 ,
+H. Van Hecke61 , E. van Herwijnen55 , C.B. Van Hulse40,w , M. van Veghel73 ,
+R. Vazquez Gomez39 , P. Vazquez Regueiro40 , C. Vázquez Sierra42 , S. Vecchi21 ,
+J.J. Velthuis48 , M. Veltri22,v , A. Venkateswaran43 , M. Veronesi32 , M. Vesterinen50 ,
+D. Vieira59 , M. Vieites Diaz43 , X. Vilasis-Cardona76 , E. Vilella Figueras54 ,
+A. Villa20 , P. Vincent13 , F.C. Volle11 , D. vom Bruch10 , A. Vorobyev38 , V. Vorobyev38 ,
+N. Voropaev38 , K. Vos74 , C. Vrahas52 , R. Waldi17 , J. Walsh29 , G. Wan5 ,
+C. Wang17 , G. Wang7 , J. Wang5 , J. Wang4 , J. Wang3 , J. Wang68 , M. Wang5 ,
+R. Wang48 , X. Wang66 , Y. Wang7 , Z. Wang44 , Z. Wang3 , Z. Wang6 ,
+J.A. Ward50,63 , N.K. Watson47 , D. Websdale55 , Y. Wei5 , C. Weisser58 ,
+B.D.C. Westhenry48 , D.J. White56 , M. Whitehead53 , A.R. Wiederhold50 ,
+
+
+                                            14
+D. Wiedner15 , G. Wilkinson57 , M.K. Wilkinson59 , I. Williams49 , M. Williams58 ,
+M.R.J. Williams52 , R. Williams49 , F.F. Wilson51 , W. Wislicki36 , M. Witek35 ,
+L. Witola17 , C.P. Wong61 , G. Wormser11 , S.A. Wotton49 , H. Wu62 , J. Wu7 ,
+K. Wyllie42 , Z. Xiang6 , D. Xiao7 , Y. Xie7 , A. Xu5 , J. Xu6 , L. Xu3 , L. Xu3 ,
+M. Xu50 , Q. Xu6 , Z. Xu9 , Z. Xu6 , D. Yang3 , S. Yang6 , X. Yang5 , Y. Yang6 ,
+Z. Yang5 , Z. Yang60 , L.E. Yeomans54 , V. Yeroshenko11 , H. Yeung56 , H. Yin7 ,
+J. Yu65 , X. Yuan62 , E. Zaffaroni43 , M. Zavertyaev16 , M. Zdybal35 , O. Zenaiev42 ,
+M. Zeng3 , C. Zhang5 , D. Zhang7 , L. Zhang3 , S. Zhang65 , S. Zhang5 ,
+Y. Zhang5 , Y. Zhang57 , A. Zharkova38 , A. Zhelezov17 , Y. Zheng6 , T. Zhou5 ,
+X. Zhou6 , Y. Zhou6 , V. Zhovkovska11 , X. Zhu3 , X. Zhu7 , Z. Zhu6 ,
+V. Zhukov14,38 , Q. Zou4,6 , S. Zucchelli20,g , D. Zuliani28 , G. Zunica56 .
+1
+  Centro Brasileiro de Pesquisas Fı́sicas (CBPF), Rio de Janeiro, Brazil
+2
+  Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil
+3
+  Center for High Energy Physics, Tsinghua University, Beijing, China
+4
+  Institute Of High Energy Physics (IHEP), Beijing, China
+5
+  School of Physics State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing,
+China
+6
+  University of Chinese Academy of Sciences, Beijing, China
+7
+  Institute of Particle Physics, Central China Normal University, Wuhan, Hubei, China
+8
+  Université Savoie Mont Blanc, CNRS, IN2P3-LAPP, Annecy, France
+9
+  Université Clermont Auvergne, CNRS/IN2P3, LPC, Clermont-Ferrand, France
+10
+   Aix Marseille Univ, CNRS/IN2P3, CPPM, Marseille, France
+11
+   Université Paris-Saclay, CNRS/IN2P3, IJCLab, Orsay, France
+12
+   Laboratoire Leprince-Ringuet, CNRS/IN2P3, Ecole Polytechnique, Institut Polytechnique de Paris,
+Palaiseau, France
+13
+   LPNHE, Sorbonne Université, Paris Diderot Sorbonne Paris Cité, CNRS/IN2P3, Paris, France
+14
+   I. Physikalisches Institut, RWTH Aachen University, Aachen, Germany
+15
+   Fakultät Physik, Technische Universität Dortmund, Dortmund, Germany
+16
+   Max-Planck-Institut für Kernphysik (MPIK), Heidelberg, Germany
+17
+   Physikalisches Institut, Ruprecht-Karls-Universität Heidelberg, Heidelberg, Germany
+18
+   School of Physics, University College Dublin, Dublin, Ireland
+19
+   INFN Sezione di Bari, Bari, Italy
+20
+   INFN Sezione di Bologna, Bologna, Italy
+21
+   INFN Sezione di Ferrara, Ferrara, Italy
+22
+   INFN Sezione di Firenze, Firenze, Italy
+23
+   INFN Laboratori Nazionali di Frascati, Frascati, Italy
+24
+   INFN Sezione di Genova, Genova, Italy
+25
+   INFN Sezione di Milano, Milano, Italy
+26
+   INFN Sezione di Milano-Bicocca, Milano, Italy
+27
+   INFN Sezione di Cagliari, Monserrato, Italy
+28
+   Università degli Studi di Padova, Università e INFN, Padova, Padova, Italy
+29
+   INFN Sezione di Pisa, Pisa, Italy
+30
+   INFN Sezione di Roma La Sapienza, Roma, Italy
+31
+   INFN Sezione di Roma Tor Vergata, Roma, Italy
+32
+   Nikhef National Institute for Subatomic Physics, Amsterdam, Netherlands
+33
+   Nikhef National Institute for Subatomic Physics and VU University Amsterdam, Amsterdam,
+Netherlands
+34
+   AGH - University of Science and Technology, Faculty of Physics and Applied Computer Science,
+Kraków, Poland
+35
+   Henryk Niewodniczanski Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland
+36
+   National Center for Nuclear Research (NCBJ), Warsaw, Poland
+37
+   Horia Hulubei National Institute of Physics and Nuclear Engineering, Bucharest-Magurele, Romania
+38
+   Affiliated with an institute covered by a cooperation agreement with CERN
+39
+   ICCUB, Universitat de Barcelona, Barcelona, Spain
+
+
+                                                  15
+40
+   Instituto Galego de Fı́sica de Altas Enerxı́as (IGFAE), Universidade de Santiago de Compostela,
+Santiago de Compostela, Spain
+41
+   Instituto de Fisica Corpuscular, Centro Mixto Universidad de Valencia - CSIC, Valencia, Spain
+42
+   European Organization for Nuclear Research (CERN), Geneva, Switzerland
+43
+   Institute of Physics, Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland
+44
+   Physik-Institut, Universität Zürich, Zürich, Switzerland
+45
+   NSC Kharkiv Institute of Physics and Technology (NSC KIPT), Kharkiv, Ukraine
+46
+   Institute for Nuclear Research of the National Academy of Sciences (KINR), Kyiv, Ukraine
+47
+   University of Birmingham, Birmingham, United Kingdom
+48
+   H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom
+49
+   Cavendish Laboratory, University of Cambridge, Cambridge, United Kingdom
+50
+   Department of Physics, University of Warwick, Coventry, United Kingdom
+51
+   STFC Rutherford Appleton Laboratory, Didcot, United Kingdom
+52
+   School of Physics and Astronomy, University of Edinburgh, Edinburgh, United Kingdom
+53
+   School of Physics and Astronomy, University of Glasgow, Glasgow, United Kingdom
+54
+   Oliver Lodge Laboratory, University of Liverpool, Liverpool, United Kingdom
+55
+   Imperial College London, London, United Kingdom
+56
+   Department of Physics and Astronomy, University of Manchester, Manchester, United Kingdom
+57
+   Department of Physics, University of Oxford, Oxford, United Kingdom
+58
+   Massachusetts Institute of Technology, Cambridge, MA, United States
+59
+   University of Cincinnati, Cincinnati, OH, United States
+60
+   University of Maryland, College Park, MD, United States
+61
+   Los Alamos National Laboratory (LANL), Los Alamos, NM, United States
+62
+   Syracuse University, Syracuse, NY, United States
+63
+   School of Physics and Astronomy, Monash University, Melbourne, Australia, associated to 50
+64
+   Pontifı́cia Universidade Católica do Rio de Janeiro (PUC-Rio), Rio de Janeiro, Brazil, associated to 2
+65
+   Physics and Micro Electronic College, Hunan University, Changsha City, China, associated to 7
+66
+   Guangdong Provincial Key Laboratory of Nuclear Science, Guangdong-Hong Kong Joint Laboratory of
+Quantum Matter, Institute of Quantum Matter, South China Normal University, Guangzhou, China,
+associated to 3
+67
+   Lanzhou University, Lanzhou, China, associated to 4
+68
+   School of Physics and Technology, Wuhan University, Wuhan, China, associated to 3
+69
+   Departamento de Fisica , Universidad Nacional de Colombia, Bogota, Colombia, associated to 13
+70
+   Universität Bonn - Helmholtz-Institut für Strahlen und Kernphysik, Bonn, Germany, associated to 17
+71
+   Eotvos Lorand University, Budapest, Hungary, associated to 42
+72
+   INFN Sezione di Perugia, Perugia, Italy, associated to 21
+73
+   Van Swinderen Institute, University of Groningen, Groningen, Netherlands, associated to 32
+74
+   Universiteit Maastricht, Maastricht, Netherlands, associated to 32
+75
+   Tadeusz Kosciuszko Cracow University of Technology, Cracow, Poland, associated to 35
+76
+   DS4DS, La Salle, Universitat Ramon Llull, Barcelona, Spain, associated to 39
+77
+   Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden, associated to 53
+78
+   University of Michigan, Ann Arbor, MI, United States, associated to 62
+a
+  Universidade de Brası́lia, Brası́lia, Brazil
+b
+  Central South U., Changsha, China
+c
+  Hangzhou Institute for Advanced Study, UCAS, Hangzhou, China
+d
+  Excellence Cluster ORIGINS, Munich, Germany
+e
+  Universidad Nacional Autónoma de Honduras, Tegucigalpa, Honduras
+f
+  Università di Bari, Bari, Italy
+g
+  Università di Bologna, Bologna, Italy
+h
+  Università di Cagliari, Cagliari, Italy
+i
+  Università di Ferrara, Ferrara, Italy
+j
+  Università di Firenze, Firenze, Italy
+k
+  Università di Genova, Genova, Italy
+l
+  Università degli Studi di Milano, Milano, Italy
+m
+   Università di Milano Bicocca, Milano, Italy
+n
+  Università di Modena e Reggio Emilia, Modena, Italy
+
+
+                                                   16
+o
+  Università di Padova, Padova, Italy
+p
+  Università di Perugia, Perugia, Italy
+q
+  Scuola Normale Superiore, Pisa, Italy
+r
+  Università di Pisa, Pisa, Italy
+s
+  Università della Basilicata, Potenza, Italy
+t
+  Università di Roma Tor Vergata, Roma, Italy
+u
+  Università di Siena, Siena, Italy
+v
+  Università di Urbino, Urbino, Italy
+w
+  Universidad de Alcalá, Alcalá de Henares , Spain
+†
+    Deceased
+
+
+
+
+                                                   17
+

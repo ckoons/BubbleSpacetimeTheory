@@ -1,0 +1,521 @@
+                                        Measurement of the Absolute Branching
+                                        Ratio for the K + → µ+ν(γ) Decay with the
+                                                     KLOE Detector.
+
+
+                                                             The KLOE Collaboration
+
+
+
+
+arXiv:hep-ex/0509045v3 12 Oct 2005
+                                         F. Ambrosino f , A. Antonelli b, M. Antonelli b, C. Bacci ℓ,
+                                         P. Beltrame b, G. Bencivenni b, S. Bertolucci b, C. Bini j,
+                                     C. Bloise b, V. Bocci j , F. Bossi b, D. Bowring b,o, P. Branchini ℓ,
+                                           R. Caloi j, P. Campana b, G. Capon b, T. Capussela f ,
+                                            F. Ceradini ℓ, S. Chi b, G. Chiefari f , P. Ciambrone b,
+                                        S. Conetti o, E. De Lucia b,1, P. De Simone b, G. De Zorzi j,
+                                     S. Dell’Agnello b, A. Denig c, A. Di Domenico j, C. Di Donato f ,
+                                     S. Di Falco h, B. Di Micco ℓ, A. Doria f , M. Dreucci b, G. Felici b,
+                                          A. Ferrari c, M. L. Ferrer b, G. Finocchiaro b, C. Forti b,
+                                           P. Franzini j, C. Gatti b, P. Gauzzi j, S. Giovannella b,
+                                     E. Gorini d, E. Graziani ℓ, M. Incagli h, W. Kluge c, V. Kulikov e,
+                                        F. Lacava j, G. Lanfranchi b, J. Lee-Franzini b,m , D. Leone c,
+                                     M. Martini b, P. Massarotti f , W. Mei b, S. Meola f , S. Miscetti b,
+                                          M. Moulson b, S. Müller c, F. Murtas b, M. Napolitano f ,
+                                         F. Nguyen ℓ, M. Palutan b, E. Pasqualucci j, A. Passeri ℓ,
+                                        V. Patera b,i, F. Perfetto f , L. Pontecorvo j, M. Primavera d,
+                                        P. Santangelo b, E. Santovetti k, G. Saracino f , B. Sciascia b,
+                                      A. Sciubba b,i, F. Scuri h, I. Sfiligoi b, T. Spadaro b, M. Testa j,
+                                          L. Tortora ℓ, P. Valente j, B. Valeriani c, G. Venanzoni b,
+                                            S. Veneziano j, A. Ventura d, R.Versaci c,1, G. Xu b,a
+                                       a Permanent address: Institute of High Energy Physics of Academica Sinica,
+
+                                                                      Beijing, China.
+                                               b Laboratori Nazionali di Frascati dell’INFN, Frascati, Italy.
+
+                                        c Institut für Experimentelle Kernphysik, Universität Karlsruhe, Germany.
+
+                                          d Dipartimento di Fisica dell’Università e Sezione INFN, Lecce, Italy.
+
+                                     e Permanent address: Institute for Theoretical and Experimental Physics, Moscow,
+
+                                                                          Russia.
+                                      f Dipartimento di Scienze Fisiche dell’Università “Federico II” e Sezione INFN,
+
+
+
+
+                                     Preprint submitted to Elsevier Science                          21 November 2018
+                                     Napoli, Italy
+    g Permanent address: Budker Institute of Nuclear Physics, Novosibirsk, Russia.
+
+         h Dipartimento di Fisica dell’Università e Sezione INFN, Pisa, Italy.
+
+       i Dipartimento di Energetica dell’Università “La Sapienza”, Roma, Italy.
+
+    j Dipartimento di Fisica dell’Università “La Sapienza” e Sezione INFN, Roma,
+
+                                         Italy.
+    k Dipartimento di Fisica dell’Università “Tor Vergata” e Sezione INFN, Roma,
+
+                                         Italy.
+ℓ Dipartimento di Fisica dell’Università “Roma Tre” e Sezione INFN, Roma, Italy.
+
+     m Physics Department, State University of New York at Stony Brook, USA.
+
+     n Permanent address: High Energy Physics Institute, Tbilisi State University,
+
+                                   Tbilisi, Georgia.
+                 o Physics Department, University of Virginia, USA.
+
+
+
+
+Abstract
+
+We have measured the fully inclusive K + → µ+ ν(γ) absolute branching ratio
+with the KLOE experiment at DAΦNE, the Frascati φ–factory. From some 865,283
+K + → µ+ ν(γ) decays obtained from a sample of ∼5.2 × 108 φ-meson decays, we
+find BR(K + → µ+ νµ (γ))=0.6366±0.0009stat. ±0.0015syst. , corresponding to an over-
+all fractional error of 0.27%. Using recent lattice results on the decay constants of
+pseudoscalar mesons one can obtain an estimate for the CKM mixing matrix ele-
+ment |Vus |=0.2223±0.0026.
+
+
+
+
+1     Introduction
+
+
+The most recent measurement of the K → µν branching ratio, ref. 1, based
+on 62,000 events, dates back to 1972, more than 30 years ago, and relies on a
+sample of ∼105 kaon decays. The authors of ref. 1 quote an error of ∼0.7%,
+the statistical error due to the event count being 0.4%. This error is reduced
+in the PDG fit [2] to 0.27% and the value changed by 0.3%. While the proce-
+dure is correct in principle, it can lead to incorrect results because of incorrect
+data included in the fit. This has been the case sometimes, leading among
+other things to the suggestion, also in ref. 2, of a value for |Vus | apparently
+inconsistent with unitarity of the CKM mixing matrix [3]. Another problem
+1 Corresponding authors.
+e-mail addresses: erika.delucia@lnf.infn.it (E. De Lucia),
+versaci@iekp.fzk.de (R. Versaci).
+
+
+                                           2
+with measurements performed more than 30 years ago is due to the fact that
+the effect of radiative corrections was not fully appreciated. It is therefore
+impossible to understand what fraction of the radiative decay is included in
+the quoted results. Inclusion of all radiation is however necessary to compare
+to models or to extract fundamental parameters such as a coupling constant.
+With all the above in mind as well as recent developments in numerical or
+lattice QCD calculation, we have begun a program of new precise, fully inclu-
+sive, kaon branching ratio measurement.
+
+We report in the following a measurement of BR(K + → µ+ ν(γ)) performed
+with the KLOE detector at DAΦNE, the Frascati φ–factory. The measure-
+ment is based on an integrated luminosity of ∼175 pb−1 , collected in 2001-02.
+DAΦNE is an e+ e− collider operated at a total energy of W = 1020 MeV, the
+mass of the φ(1020)-meson. Equal energy positron and electron beams collide
+at an angle of (π−)25 mrad and produce φ-mesons with a small transverse
+momentum of ∼12.5 MeV/c. The collision frame moves therefore in the lab-
+oratory with a velocity β∼0.0125. In the center of mass, the φ-meson decays
+into anti-collinear K ± pairs of ∼125 MeV/c momentum. In the laboratory
+this remains approximately true: detection of a K ± tags the presence of a
+K ∓ of given momentum and direction. The decay products of the K ± pair
+define two spatially well separated regions called in the following the tag and
+the signal hemispheres. Identified K ∓ decays tag a K ± beam and provide an
+absolute count. This procedure is a unique feature of a φ-factory and provides
+the means for measurements of absolute branching ratios, i.e. ratios Γi /Γtot
+rather than ratios of BR’s Γi /Γj .
+
+
+
+2   The KLOE detector
+
+
+The KLOE detector consists of a large volume drift chamber and a sampling
+calorimeter. The drift chamber (DC) [4], of 3.3 m length and 2 m radius, has
+a full stereo geometry and operates with a 90% helium-10% isobutane gas
+mixture. Tracking in the DC provides measurements of the vector momentum
+of charged particles with σ(p⊥ )/p⊥ ≤ 0.4% and two track vertices to 3 mm. In
+the following we use a coordinate system with the z-axis defined as the bisec-
+trix of the e+ e− beams, the y-axis vertical and the x-axis toward the center
+of the collider rings.
+
+The calorimeter (EMC) [5] consists of a cylindrical barrel and two endcaps cov-
+ering a solid angle of 98% of 4π. Photons showering in the lead-scintillator-fiber
+EMC structure are detected as local energy deposits by clustering signals from
+read-out elements. The calorimeter information consists of energy, q  position of
+entry point and time of arrival with accuracies of σE /E = 5.7%/ E(GeV),
+
+
+                                       3
+              q                                               q
+σz = 1.2cm/ E(GeV), σφ = 1.2 cm and σt = 54 ps/ E(GeV) 50 ps.
+                                                                         L
+
+Calorimeter clusters not associated with a DC track indicate arrival of neu-
+tral particles and the computed time of flight identifies photons with excellent
+precision. Time of flight also allows good separation of electrons from muons,
+pions and kaons.
+
+A superconducting coil surrounds the entire detector and produces a solenoidal
+field B = 0.52 T. The trigger [6] is based on the detection of isolated energy
+deposits in the calorimeter and on hit multiplicity in the drift chamber. Only
+events triggered by the calorimeter have been used in the present analysis.
+This choice ensures a far more reliable estimate of all necessary efficiencies.
+The trigger system also includes a veto for cosmic-ray muons (cosmic ray veto
+or CRV) based on energy deposits in the outermost layers of the calorimeter
+and followed by a third-level software trigger able to identify most of the φ
+events. A software filter (filfo or FLF), based on the topology and multiplicity
+of calorimeter clusters and drift chamber hits, is applied to filter out machine
+background.
+
+Both CRV and FLF are sources of event rejection. Their effect on the BR
+measurement has been studied on control samples which do not undergo, re-
+spectively, the CRV, and the FLF filter.
+
+
+
+3   The measurement
+
+
+The entire data sample of 175 pb−1 is divided into two subsamples.
+Some 60 pb−1 of data have been used for the BR measurement. The remain-
+ing 115 pb−1 have been used to evaluate efficiencies and the background. The
+branching ratio measurement [7] is based on the use of K − → µ− ν decays for
+event tagging and to search for the K + → µ+ ν(γ) signal among K + decays.
+The tagging selection is based on the presence of a two-tracks vertex in the
+DC which signals the K − decay [7].
+
+Nuclear interactions, NI, of kaons affects the branching ratio measurement
+but not the tagging procedure. Since σ NI (K + )∼σ NI (K − )/102 , the choice above
+minimizes the corrections to be calculated to account for the effect. The cor-
+rections are in fact negligible. The large number of K + decays is sufficient for
+achieving a statistic accuracy at the 0.1% level, comparable with the system-
+atic error.
+
+To avoid any bias due to differences in the trigger efficiency among the K +
+decay modes on the signal “hemisphere”, the particles on the tagging side are
+required to deposit enough energy in the calorimeter to trigger the data acqui-
+
+
+                                        4
+sition. Nevertheless, the tagging criteria exhibit a residual, small dependence
+on the decay mode of the K + on the signal hemisphere, introducing a tag bias
+or TB, that has been studied using Monte Carlo simulation (MC) samples [8]
+and checked on data.
+
+The search for positive kaon moving outwards in the DC, with momentum
+70 < pK < 130 Mev/c, is performed on the sample of tagged events. The
+point of closest approach to the beam line with coordinates {x, y, z} is eval-
+uated extrapolating the kaon track backwards to the beam line, √ taking    into
+account the kaon energy loss. Kaon tracks with |z| < 20 cm and   x 2 + y 2 <10
+                                                         q
+cm, and kaon decay vertices in the fiducial volume, 40 < x2V + yV2 < 150 cm,
+are selected.
+
+The number of K + → µ+ ν(γ) decays is obtained counting the events with
+225≤ p∗ ≤400 MeV/c; p∗ is the charged decay particle momentum computed
+in the kaon rest frame assuming the pion mass. The p∗ distribution is shown
+in fig. 1.
+
+
+                    Ev/MeV
+           105                                             mn
+                                                           mng
+                                                           pp
+           104
+                                                           pln
+
+
+           103
+
+
+
+           102
+
+                                                 p* (MeV/c)
+
+                  160    180    200    220    240    260    280    300
+
+Fig. 1. Monte Carlo spectra of the charged decay particle momentum transformed
+to the kaon rest frame, assuming the pion mass. The two peaks corresponds to pions
+from K + → π + π 0 at 205 MeV/c and K + → µ+ ν at 236 MeV. The black/white line
+represents the signal while the grey line the signal plus background. Contributions
+from K + → µ+ νγ are also shown.
+
+
+The spectrum in fig.1, obtained from MC simulation, shows a 2% contami-
+
+
+                                        5
+nation from various background sources, namely K + → π + π 0 , K + → π 0 l+ ν.
+Since the maximum momentum of the pions from three-pion decays is 125
+MeV/c, these channels do not contribute to the background. All the back-
+ground sources in this analysis have one neutral pion in the final state. The
+neutral pions are identified by detecting the photons from π 0 → γγ decay.
+The photons are identified as isolated energy deposits in EMC not associated
+with tracks and satisfying the constraints on π 0 mass reconstruction and time
+correlation with the kaon decay vertex [7]. This selection allows us to obtain
+directly from data the p∗ distribution of the background.
+
+The p∗ distribution for the signal events has been obtained from a data control
+sample described in the following efficiency evaluation. This distribution has
+been used together with the shape of the background sources to fit the overall
+p∗ spectrum, figure 2 left, and to perform background subtraction. The result,
+after background subtraction, is shown in figure 2 right.
+
+         Ev/MeV/c                                        Ev/MeV/c
+ 105                          . data              105
+
+                                  mn(g)
+                                  pp, pln
+                                                  104
+ 104
+
+
+                                                  103
+ 103
+
+                                                  102
+                            p* (MeV/c)                                     p* (MeV/c)
+ 102
+   180    200   220   240   260    280      300         220    260   300     340   380    .
+
+
+
+
+Fig. 2. Left: Spectrum of the charged-secondary momentum in the kaon rest frame
+for data. The solid line indicates the fit done with a linear combination of signal
+and background distributions obtained from data. Right: The same spectrum af-
+ter background subtraction. The range used for counting K + → µ+ ν(γ) events is
+indicated.
+
+
+The branching ratio is obtained from:
+
+                               NK + →µ+ ν(γ)          1
+       BR(K + → µ+ ν(γ)) =                   ×                                           (1)
+                                  NT ag        ǫ CCRV CFF CTB
+
+
+where NK + →µ+ ν(γ) are the events selected as signal (hereafter signal count),
+NT ag is the number of tagged events and ǫ is the efficiency. CCRV and CFF are
+the corrections for the effects due to the cosmic-ray veto and the filfo proce-
+dure, and CTB accounts for the tag bias effect.
+
+
+                                              6
+The efficiency of the analysis cuts has been determined directly on data using
+a control sample of K → µν(γ) events selected exploiting their typical signa-
+ture in the EMC. The control sample consists of events with K − → µ− ν(γ),
+providing the tag, and signal events K + → µ+ ν(γ) selected using only EMC
+information. This criterion is mostly independent from the selection procedure
+based on DC information that has been used for obtaining the signal count.
+The EMC selection requires only one cluster with E > 80 MeV (High Energy
+Cut), plus any number of clusters with energy below 20 MeV (Low Energy
+Cut) which can be due to photons from K + → µ+ νγ . Further cuts on the
+energy (Ecl ) and on the distance in the tranverse plane from the z-axis (Rxy )
+of the cluster are applied to get rid of machine background and spurious clus-
+ters. Namely we require the cluster either to be on the barrel Rxy >197 cm or
+to satisfy the relation Ecl /(1GeV) + Rxy /5(cm) ≥ 110. A correction of about
+0.1%, due to a tiny difference between the efficiency evaluated on the control
+sample and the selection efficiency on the signal sample, has been estimated
+from MC. The efficiency is ǫ = 0.3153 ± 0.0002.
+
+The corrections to the event rejection described above, CCRV =1.0005 and
+CFF − 1 = O(10−5 ), have been directly measured on control samples which
+do not undergo, respectively, the cosmic-ray veto, and the filfo filter. The cor-
+rection for the tag bias, CTB =1.0164±0.0002, has been evaluated on Monte
+Carlo samples and the distribution of the variables used for the tag selection
+have been checked on data. The following sources of systematic uncertainties
+have been studied varying the selection cuts:
+
+
+- the requirements on the tagging hemisphere;
+- the trigger requirements;
+- the definition of the fiducial volume;
+- the background evaluation procedure;
+- the choice of the [p∗min , p∗max ] range;
+- the energy cuts for the efficiency sample;
+- the effect of high-energy radiative photons (Eγ >20 MeV).
+
+
+Furthermore, the dependence of the measurement on the charged kaon life-
+time, which affects the estimate of the geometrical acceptance, has been stud-
+ied varying the lifetime value used in the MC simulation. The effects due to K +
+nuclear interactions have been evaluated from MC simulation and measure-
+ments available in literature. The stability of the measurement with respect
+to different data taking conditions has been checked. The corresponding sys-
+tematic errors are listed in table 1.
+The statistical error due to the event count is 6 × 10−4 and becomes 9 × 10−4
+including the statistics of MC simulation and data used for the efficiency eval-
+uation.
+
+
+                                       7
+                              Source            Value
+                         Low Energy Cut        5 × 10−4
+                           Eγ >20 MeV          7 × 10−4
+                         High Energy Cut       2 × 10−4
+                         Fiducial Volume       5 × 10−4
+                           Background          3 × 10−4
+                             p∗ range          3 × 10−4
+                          Tag definition       1 × 10−4
+                           MC Lifetime         < 10−6
+                       Nuclear interactions   < 4 × 10−4
+                               Filfo          < 3 × 10−4
+                         Cosmic ray veto       O(10−6 )
+                              Trigger          9 × 10−4
+                            Total syst.       15 × 10−4
+
+
+Table 1
+Summary table of systematic uncertainties.
+4   Conclusions
+
+
+BR Measurement
+
+
+On a sample of tagged events NT ags = 4, 237, 329, we found a number of signal
+events, with 225 ≤ p∗ ≤ 400 MeV/c, of NK + →µ+ ν(γ) = 865, 283.
+Using eq. 1, the absolute branching ratio is:
+
+    BR(K + → µ+ ν(γ)) = 0.6366 ± 0.0009stat. ± 0.0015syst.                 (2)
+
+
+The KLOE measurement of the BR(K + → µ+ ν(γ)), fully inclusive of final-
+state radiation, has a 0.27% accuracy and it is based on an unprecedented
+statistics and carefully controlled systematics.
+
+
+Vus extraction
+
+
+The recent publication [9] of the results of lattice QCD calculations has re-
+newed the interest in improving the accuracy of the BR(K + → µ+ ν(γ)), which
+
+
+                                          8
+represents an experimental alternative to the semileptonic kaon decays in mea-
+suring |Vus | as pointed out by Marciano in ref. 10. The extraction of this CKM
+matrix element is based on the ratio of the decay rates for the inclusive decays
+K + → µ+ ν(γ) and π + → µ+ ν(γ):
+                                           2
+                                    m2
+     Γ(K → µν(γ))        mK 1 − m2µ
+                                 |Vus |2 fK2 1 + απ CK
+                             K
+                  =                                                           (3)
+     Γ(π → µν(γ))          m2 2 |Vud |2  fπ2 1 + απ Cπ
+                              
+                    mπ 1 − m2µ
+                                        π
+
+
+
+
+where fK and fπ are, respectively, the kaon and the pion decay constants;
+Cπ and CK parametrize the radiative-inclusive electroweak corrections, taking
+into account bremsstrahlung emission of real photons and of virtual-photon
+loop contributions as well. Using the branching ratios of K + → µ+ ν(γ) and
+π + → µ+ ν(γ) decays, the |Vud | value from super-allowed nuclear beta decays,
+Cπ and CK from ref. 10 and references therein, and the new lattice calculation
+of fK /fπ [9], it is possible to extract |Vus | with an uncertainty at the percent
+level, whose error is mainly dominated by the accuracy of lattice calculations.
+From the BR measurement, using the determination of fK /fπ = 1.210(4)(13),
+we have obtained the ratio:
+
+      Vus 2
+            = 0.05211 ± 0.00016 ± 0.00019 ± 0.00117                           (4)
+      Vud
+
+
+where the errors correspond, respectively, to the experimental, the structure-
+dependent radiative corrections, and the lattice uncertainties. Taking Vud from
+super-allowed nuclear β decays, Vud = 0.9740 ± 0.0005 [11], one determines
+|Vus |:
+
+    |Vus |K + →µ+ ν(γ) = 0.2223 ± 0.0026.                                     (5)
+
+
+The accuracy is dominated by the knowledge of fK /fπ from lattice calculation.
+Alternatively, the unitarity relationship |Vud |2 = 1 − |Vus |2 can be assumed in
+eq. 4 giving:
+
+    |Vus |unitarity = 0.2225 ± 0.0025                                         (6)
+
+
+independent of the Vud measurement. The result quoted in eq. 5 is in agreement
+with the unitarity of the CKM matrix (eq. 6) and with the determinations
+of Vus from semileptonic decays, whose precision is dominated by the f+ (0)
+calculations [12].
+
+
+                                             9
+Acknowledgements
+
+
+We thank the DAΦNE team for their efforts in maintaining low background
+running conditions and their collaboration during all data-taking. We want to
+thank our technical staff: G. F. Fortugno for his dedicated work to ensure an
+efficient operation of the KLOE Computing Center; M. Anelli for his conti-
+nous support to the gas system and the safety of the detector; A. Balla, M.
+Gatta, G. Corradi and G. Papalino for the maintenance of the electronics; M.
+Santoni, G. Paoluzzi and R. Rosellini for the general support to the detector;
+C. Piscitelli for his help during major maintenance periods. This work was
+supported in part by DOE grant DE-FG-02-97ER41027; by EURODAPHNE,
+contract FMRX-CT98-0169; by the German Federal Ministry of Education
+and Research (BMBF) contract 06-KA-957; by Graduiertenkolleg ‘H.E. Phys.
+and Part. Astrophys.’ of Deutsche Forschungsgemeinschaft, Contract No. GK
+742; by INTAS, contracts 96-624, 99-37; and by TARI, contract HPRI-CT-
+1999-00088.
+
+
+
+References
+
+
+[1] I.H. Chiang et al., Phys. Rev. D 6 (1972) 1254
+
+[2] S. Eidelman et al. [Particle Data Group], Phys. Lett. B 592 (2004) 1.
+
+[3] F.J. Gilman, K. Kleinknecht and B. Renk, review on “The Cabibbo-Kobayashi-
+    Maskawa quark-mixing matrix” in S. Eidelman et al. [Particle Data Group],
+    Phys. Lett. B 592 (2004) 130.
+
+[4] M. Adinolfi et al. [KLOE Collaboration], Nucl. Instrum. Meth. A 488 (2002)
+    1.
+
+[5] M. Adinolfi et al. [KLOE Collaboration], Nucl. Instrum. Meth. A 482 (2002)
+    363.
+
+[6] M. Adinolfi et al. [KLOE Collaboration], Nucl. Instrum. Meth. A 492 (2002)
+    134.
+
+[7] E. De Lucia, R. Versaci,
+    Measurement of the branching ratio of the K + → µ+ ν(γ) decay,
+    KLOE Note 205 (2005), http://www.lnf.infn.it/kloe/pub/note/kn205.ps.gz
+
+[8] F. Ambrosino et al. [KLOE Collaboration], Nucl. Instrum. Meth. A 534 (2004)
+    403.
+
+[9] C. Aubin et al. [MILC Collaboration], Phys. Rev. D 70, 114501 (2004)
+
+[10] W. J. Marciano, Phys. Rev. Lett. 93 (2004) 231803
+
+
+                                       10
+[11] A. Czarnecki, W. J. Marciano and A. Sirlin, Phys. Rev. D, Vol.70 (2004) 093006
+
+[12] H. Leutwyler, M. Roos, Z. Phys. C 25 (1984) 91; D. Becirevic et al., Nucl.Phys.
+     B 705 (2005) 339.
+
+
+
+
+                                        11
+

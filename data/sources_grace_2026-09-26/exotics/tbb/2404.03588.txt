@@ -1,0 +1,1725 @@
+                                             b̄b̄ud and b̄b̄us tetraquarks from lattice QCD using symmetric correlation matrices
+                                                              with both local and scattering interpolating operators
+                                                                           Constantia Alexandrou,1, 2 Jacob Finkenrath,3 Theodoros
+                                                                       Leontiou,4 Stefan Meinel,5 Martin Pflaumer,6 and Marc Wagner6, 7
+                                                                        1
+                                                                          Department of Physics, University of Cyprus, 20537 Nicosia, Cyprus
+                                                                              2
+                                                                                Computation-based Science and Technology Research Center,
+                                                                      The Cyprus Institute, 20 Konstantinou Kavafi Street, 2121 Nicosia, Cyprus
+                                                                   3
+                                                                     Bergische Universität Wuppertal, Gaußstraße 20, D-42119 Wuppertal, Germany
+                                                                 4
+                                                                   Department of Mechanical Engineering, Frederick University, 1036 Nicosia, Cyprus
+                                                                       5
+                                                                         Department of Physics, University of Arizona, Tucson, AZ 85721, USA
+                                                                       6
+                                                                         Goethe-Universität Frankfurt am Main, Institut für Theoretische Physik,
+                                                                             Max-von-Laue-Straße 1, D-60438 Frankfurt am Main, Germany
+                                                                           7
+                                                                             Helmholtz Research Academy Hesse for FAIR, Campus Riedberg,
+                                                                            Max-von-Laue-Straße 12, D-60438 Frankfurt am Main, Germany
+
+
+
+
+arXiv:2404.03588v2 [hep-lat] 18 Sep 2024
+                                                                                                  (Dated: April 4, 2024)
+                                                            We study the b̄b̄ud tetraquark with quantum numbers I(J P ) = 0(1+ ) as well as the b̄b̄us tetraquark
+                                                         with quantum numbers J P = 1+ using lattice QCD. We improve on existing work by including
+                                                         both local and scattering interpolating operators on both sides of the correlation functions and
+                                                         use symmetric correlation matrices. This allows not only a reliable determination of the energies
+                                                         of QCD-stable tetraquark ground states, but also of low-lying excited states, which are meson-
+                                                         meson scattering states. The latter is particularly important for future finite-volume scattering
+                                                         analyses. Here, we perform chiral and continuum extrapolations of just the ground-state energies,
+                                                         for which finite-volume effects are expected to be small. Our resulting tetraquark binding energies,
+                                                         −100 ± 10 +36                                 +11
+                                                                     −51 MeV for b̄b̄ud and −30 ± 3 −31 MeV for b̄b̄us, are consistent with other recent
+                                                         lattice-QCD predictions.
+
+
+                                                                                                  I.   INTRODUCTION
+
+                                               Mesons, which are hadrons with integer spin, are typically composed of one valence quark and one valence antiquark.
+                                           However, they can as well contain two valence quarks and two valence antiquarks. Such exotic states are called
+                                           tetraquarks1 . In this work we use lattice QCD to study two particular antiheavy-antiheavy-light-light four-quark
+                                           systems, the b̄b̄ud tetraquark with quantum numbers I(J P ) = 0(1+ ) and the b̄b̄us tetraquark with quantum numbers
+                                           J P = 1+ . These tetraquarks are expected to be QCD-stable (i.e., have a mass lower than the sum of the masses of the
+                                           lightest possible strong-decay products, a pseudoscalar and a vector heavy-light meson in this case) for sufficiently large
+                                           heavy-quark mass [1–3]. Accurately predicting the binding energies at the physical b-quark mass is quite challenging.
+                                           Approaches using potential models, effective field theories, and QCD sum rules [1–32] gave a wide spread of results
+                                           for the binding energy of the b̄b̄ud system, and did not all predict the b̄b̄us mass to be below threshold (see, e.g., the
+                                           summary plots in Fig. 13 in the conclusions section of this paper). On the other hand, studies using lattice QCD
+                                           consistently find both the b̄b̄ud and b̄b̄us tetraquarks to be QCD-stable. While early investigations based on static
+                                           potentials from lattice QCD and the Born-Oppenheimer approximation slightly underestimated the binding energy
+                                           of the b̄b̄ud tetraquark [33–37], more recent rigorous full lattice-QCD simulations [38–44] obtained binding energies
+                                           of O(100 MeV) for the b̄b̄ud tetraquark with I(J P ) = 0(1+ ) and O(50 MeV) for the b̄b̄us tetraquark with J P = 1+ ,
+                                           with good agreement within statistical and systematic uncertainties among the more advanced calculations.
+                                               There are further antiheavy-antiheavy-light-light systems that are promising with respect to the existence of
+                                           tetraquark bound states or resonances, but for whom the situation is less clear. Two such candidates are the b̄c̄ud
+                                           systems with quantum numbers I(J P ) = 0(0+ ) and I(J P ) = 0(1+ ). Independent groups carrying out full lattice-QCD
+                                           simulations have arrived at different conclusions. The existence of a strong-interaction-stable b̄c̄ud tetraquark with
+                                           I(J P ) = 0(1+ ) was initially reported in Ref. [45] but later revoked in Ref. [46]. In Ref. [42], we did not find evidence
+                                           for QCD-stable b̄c̄ud bound states, but could not rule out shallow bound states. Other authors found an indication
+                                           for a b̄c̄ud bound state with I(J P ) = 0(1+ ) below threshold [47, 48]. The conclusions of these studies were based only
+                                           on the finite-volume ground-state energy. In a recent project carried out in parallel to this work we revisited both
+                                           b̄c̄ud systems taking into account also finite-volume energies of low-lying excitations. We found strong indication for
+                                           very shallow bound states [49].
+
+
+                                           1 In the literature, the term “tetraquark” is somewhat ambiguous. In certain papers it exclusively refers to a diquark-antidiquark structure,
+
+                                             while in other papers it is used more generally for arbitrary bound states and resonances with a strong four-quark component, including,
+                                             e.g., mesonic molecules. Throughout this paper we follow the latter convention.
+                                                                                                                        2
+
+   Another interesting system is b̄b̄ud with quantum numbers I(J P ) = 0(1− ). This system has not yet been investigated
+in full lattice QCD, but has been explored in the Born-Oppenheimer approximation using lattice-QCD static potentials.
+While, at first, a tetraquark resonance was predicted in a crude way (completely neglecting effects of the heavy-quark
+spins) [50], a refined study that is still ongoing suggests that neither a bound state nor a resonance exist in the region
+near the BB threshold [51]. Given that the Born-Oppenheimer approximation with lattice-QCD static potentials
+seems to underestimate the binding energy of QCD-stable antiheavy-antiheavy-light-light systems, the existence of a
+I(J P ) = 0(1− ), b̄b̄ud resonance is not yet excluded and should be investigated in full lattice QCD.
+
+   To rigorously search for tetraquark resonances or shallow bound states in full lattice QCD, determinations of the
+meson-meson scattering amplitudes both below and above the relevant thresholds are mandatory. Such computations
+are typically based on Lüscher’s method [52] and its generalizations (see the review in Ref. [53]), and require a precise
+computation of all relevant low-lying finite-volume energy levels. To be able to resolve all of these energy levels, one
+needs a sufficiently large basis of interpolating operators that must be able to capture the spatial structures of all
+relevant states. This requires the use of both local operators, in which the four quarks are placed at or near the same
+spatial point and jointly projected to the desired total momentum, and scattering operators, which are constructed
+from products of two individually momentum-projected meson operators.
+
+   Previous full lattice-QCD studies of antiheavy-antiheavy-light-light systems containing anti-bottom quarks used
+either exclusively local operators [38–41, 43, 44, 48] or a combination of local and scattering operators with the latter
+employed only at the sink of the correlation functions [40, 42]. In this paper (and in our very recent work [49] on
+the b̄c̄ud system, which we carried out in parallel) we implemented and used, for the first time in the bottom sector,
+local and scattering interpolating operators both at the source and at the sink of correlation functions, leading to
+symmetric correlation matrices containing both types of operators. Here we focus again on the b̄b̄ud system with
+quantum numbers I(J P ) = 0(1+ ) and the b̄b̄us system with quantum numbers J P = 1+ . We demonstrate that we
+are able to extract the energy levels of several meson-meson scattering states in addition to the ground-state energy
+below the lowest meson-meson threshold (however, in contrast to Ref. [49], here we only included scattering operators
+with vanishing relative momenta and were therefore only able to resolve the subset of scattering states of that type).
+
+   We use a lattice setup quite different from our previous lattice-QCD studies [40, 42] of antiheavy-antiheavy-light-
+light systems. The reason is that in our previous work we could reuse existing domain-wall point-to-all propagators
+previously generated for other projects [54–57]. However, the computation of symmetric correlation matrices with
+both local and scattering operators, i.e. with the same set of local and scattering operators used at the source as well
+as at the sink, is not possible with only point-to-all propagators. One additionally needs stochastic timeslice-to-all
+propagators for the correlation matrix elements with scattering operators at the source. Technical details can be
+found, for example, in Ref. [58], which includes a discussion of the one-end-trick that is essential for computing matrix
+elements with stochastic propagators. Since we had to recompute light and strange quark propagators, we decided
+to use a computationally cheaper mixed-action setup previously employed by the PNDME collaboration [59, 60]:
+clover-improved Wilson (with HYP link smearing) valence u, d, and s quarks on the (2 + 1 + 1)-flavor gauge-link
+ensembles generated by the MILC collaboration using the highly improved staggered quark (HISQ) action [61]. As
+before, we use lattice NRQCD for the heavy b̄ quarks.
+
+  While it is certainly interesting to revisit the b̄b̄ud system with quantum numbers I(J P ) = 0(1+ ) and the b̄b̄us
+system with quantum numbers J P = 1+ , now for the first time with a combination of local and scattering operators
+and symmetric correlation matrices, the main motivation of this work is rather to explore and prepare computational
+methods suited to study antiheavy-antiheavy-light-light tetraquark resonances. As discussed above, this requires a
+precise determination of energy levels of low-lying scattering states. We demonstrate that this works well with our
+setup, and also present evidence that it is not feasible without scattering operators.
+
+   This article is organized in the following way. In Section II we briefly summarize our lattice setup. In Section III we
+discuss the interpolating operators for the two systems we investigate and the corresponding correlation functions. In
+Section IV we provide our lattice results for the energies of the pseudoscalar and vector B and Bs mesons and determine
+their kinetic masses from the momentum dependence of these energies. In Section V we present the numerical results
+for the low-lying finite-volume energy levels of the b̄b̄ud and b̄b̄us four-quark systems. We also explore the importance
+of each of our interpolating operators, which provides certain insights concerning the structure of the low-lying states.
+In Section VI we comment on finite-volume effects and the left-hand cut issue. Our extrapolations of the binding
+energies to the physical pion mass and continuum limit are discussed in Section VII. Finally, we summarize the main
+points of our work in Section VIII and give a brief outlook. Note that results obtained at an early stage of this project
+were presented at the Lattice 2022 conference [62].
+                                                                                                                         3
+
+                                                II.     LATTICE SETUP
+
+
+  We use (2 + 1 + 1)-flavor gauge-link ensembles generated by the MILC collaboration using the highly improved
+staggered quark (HISQ) action and a one-loop Symanzik improved gauge action (see Ref. [61] for details). The main
+properties of the seven ensembles, which differ in the lattice spacing, the spatial volume, and the pion mass, are
+collected in Table I. The relative lattice spacings were determined using r1 /a, which is related to the static quark-
+antiquark force F (r) and defined via r12 F (r1 ) = 1; the physical value r1 = 0.3106(8)(14)(4) fm was obtained through
+an analysis of pseudoscalar decay constants [61, 63]. We note that the ensembles a12m220S, a12m220 and a12m220L
+have the same gauge coupling and bare light quark mass and only differ in the number of lattice sites in the spatial
+directions. Thus, they are particularly suited to investigate the volume dependence of energy eigenvalues.
+
+
+                                                               (sea)        (val)
+                              ensemble Ns3 × Nt  a [fm] mπ    [MeV] mπ    [MeV] Nconf
+                              a15m310 163 × 48 0.1510(20) 306.9(5)   320.6(4.3) 11554
+                              a12m310 243 × 64 0.1207(11) 305.3(4)   310.2(2.8)  1053
+                             a12m220S 243 × 64 0.1202(12) 218.1(4)   225.0(2.3)  1020
+                              a12m220 323 × 64 0.1184(10) 216.9(2)   227.9(1.9)  1000
+                             a12m220L 403 × 64 0.1189(09) 217.0(2)   227.6(1.7)  1030
+                                         3
+                              a09m310 32 × 96 0.0888(08)  312.7(6)   313.0(2.8)  1166
+                              a09m220 483 × 96 0.0872(07) 220.3(2)   225.9(1.8)   657
+
+
+
+TABLE I. Gauge-link ensembles used in this work. Here, Ns , Nt are the numbers of lattice sites in spatial and temporal
+                                   (sea)
+directions, a is lattice spacing, mπ     is the HISQ sea-quark pion mass (taste γ5 ), and Nconf is the number of gauge-link
+                                                                               (val)
+configurations [61]. Also shown are the results for the valence pion masses mπ       computed on these ensembles using the
+Wilson-clover action with the parameters in Table II [59, 60].
+
+
+   For the valence u, d, and s quarks, we use the Wilson-clover action with HYP-smeared gauge links to suppress
+exceptional configurations that can appear in a mixed-action setup (see the detailed discussion in Section II.A in
+Ref. [59]). This mixed-action setup was tested and successfully used by the PNDME collaboration in the context of
+computations of isovector and isoscalar tensor charges of the nucleon [59, 60]. We use the values for the bare quark
+masses and the Sheikholeslami-Wohlert coefficient tuned and provided by the PNDME collaboration (see Table II as
+well as Table II of Ref. [59] and Table I and Table II of Ref. [60]). The corresponding valence-quark pion masses are
+listed in Table I and quite similar to their counterparts computed within the unitary setup. A similar statement holds
+for the kaon masses, where the s-quark mass is close to the physical s-quark mass for all seven ensembles.
+
+
+                                                (val)         (val)
+                   ensemble                  aml           ams           csw        amb     u0L      c1 c5 c6
+                   a15m310                  −0.0893       −0.021       1.05945      3.42   0.8195   1.36 1.21 1.36
+                   a12m310                  −0.0695       −0.018718    1.05094      2.66   0.834    1.31 1.16 1.31
+         a12m220S, a12m220, a12m220L        −0.075        −0.02118     1.05091      2.62   0.8349   1.31 1.16 1.31
+                   a09m310                  −0.05138      −0.016075    1.04243      1.91   0.8525   1.21 1.12 1.21
+                   a09m220                  −0.0554       −0.01761     1.04239      1.90   0.8521   1.21 1.12 1.21
+
+                                                                                           (val)     (val)
+TABLE II. Parameters of the Wilson-clover and NRQCD valence-quark actions. Here, aml          and ams   are the bare light
+and strange quark masses and csw is the Sheikholeslami-Wohlert coefficient [59, 60]. In the NRQCD action, amb is the bare
+b-quark mass, u0L is the Landau-gauge mean link used for tadpole improvement, and c1 , c5 , c6 are matching coefficients of
+kinetic terms (see Ref. [64] for details).
+
+
+  The b quarks appear only as valence quarks and are implemented using lattice NRQCD [65]. We use the same
+order-v 4 action as in Ref. [64]. In contrast to the light and strange valence-quark action, the gauge links in the
+NRQCD action are not smeared. The matching coefficients of the kinetic terms, c1 , c5 , and c6 , include one-loop
+radiative corrections, while the other matching coefficients are set to their tree-level values. All parameters were
+taken from Tables II and III in Ref. [64] and are also reproduced here in Table II.
+                                                                                                                          4
+
+                 III.    INTERPOLATING OPERATORS AND CORRELATION FUNCTIONS
+
+
+                                              A.   b̄b̄ud and b̄b̄us four-quark systems
+
+
+                                    1.    Interpolating operators for b̄b̄ud with I(J P ) = 0(1+ )
+
+
+   For the b̄b̄ud case, we use exactly the same interpolating operators as in our previous work [40] (but now compute
+all 5 × 5 correlation matrix elements): three local operators
+
+                                                     1 X
+                              O1 = O[BB ∗ ](0) = √            b̄γj u(x) b̄γ5 d(x) − (u ↔ d),                            (1)
+                                                     Vs x
+                                                          1 X
+                              O2 = O[B ∗ B ∗ ](0) = ϵjkl √           b̄γk u(x) b̄γl d(x) − (u ↔ d),                     (2)
+                                                           Vs x
+                                                   1 X a
+                              O3 = O[Dd](0) = √             b̄ γj C b̄b,T (x) ua,T Cγ5 db (x) − (u ↔ d),                (3)
+                                                    Vs x
+
+
+and two scattering operators
+
+                                                                                       
+                                                  1 X                   1 X
+                        O4 = OB(0)B ∗ (0) =     √       b̄γj u(x)     √        b̄γ5 d(y) − (u ↔ d),                     (4)
+                                                  Vs x                  Vs y
+                                                                                           
+                                                     1 X                    1 X
+                        O5 = OB ∗ (0)B ∗ (0) = ϵjkl √         b̄γk u(x)    √         b̄γl d(y) − (u ↔ d)                (5)
+                                                      Vs x                   Vs y
+
+
+(a, b are color indices, j, k, l are spatial indices, C = γ0 γ2 denotes the charge conjugation matrix, and Vs is the spatial
+volume). Both the local and the scattering operators contain the meson-meson combinations BB ∗ and B ∗ B ∗ . The
+former is an obvious choice, because BB ∗ represents the lowest meson-meson threshold in the b̄b̄ud and I(J P ) = 0(1+ )
+sector. The B ∗ B ∗ structure is also expected to be important. In particular, the local operator O[B ∗ B ∗ ](0) might
+generate a sizable overlap to the b̄b̄ud tetraquark as indicated by the results of Ref. [37], where the same system was
+investigated using lattice-QCD static potentials and the Born-Oppenheimer approximation. In addition to these four
+meson-meson operators, we also use a local operator of diquark-antidiquark type. The latter is motivated, for example,
+by Ref. [66], which suggests that the b̄b̄ud tetraquark is an approximately even mix of a meson-meson component and
+a diquark-antidiquark component. For a more detailed discussion of these operators we refer to Ref. [40].
+
+
+
+
+                                         2.   Interpolating operators for b̄b̄us with J P = 1+
+
+
+  For the b̄b̄us case we also follow our previous work [42] and use seven interpolating operators (which are now
+included in any combination at source and sink): four local operators
+
+                                                           1 X
+                                    O1 = O[BBs∗ ](0) = √            b̄γ5 u(x) b̄γj s(x),                                (6)
+                                                           Vs x
+                                                            1 X
+                                    O2 = O[B ∗ Bs ](0) = √            b̄γj u(x) b̄γ5 s(x),                              (7)
+                                                            Vs x
+                                                                1 X
+                                    O3 = O[B ∗ Bs∗ ](0) = ϵjkl √           b̄γk u(x) b̄γl s(x),                         (8)
+                                                                 Vs x
+                                                         1 X a
+                                    O4 = O[Dd](0) = √             b̄ γj C b̄b,T (x) ua,T Cγ5 sb (x),                    (9)
+                                                          Vs x
+                                                                                                                        5
+
+and three scattering operators
+                                                                                              
+                                                     1 X                    1 X
+                           O5 = OB(0)Bs∗ (0) = √           b̄γ5 u(x)      √         b̄γj s(y) ,                      (10)
+                                                     Vs x                    Vs y
+                                                                                               
+                                                      1 X                    1 X
+                           O6 = OB ∗ (0)Bs (0) = √           b̄γj u(x)      √         b̄γ5 s(y) ,                    (11)
+                                                      Vs x                    Vs y
+                                                                                                  
+                                                         1 X                     1 X
+                           O7 = OB ∗ (0)Bs∗ (0) = ϵjkl √          b̄γk u(x)     √           b̄γl s(y) .              (12)
+                                                         Vs x                     Vs y
+
+The operators (6) to (12) are a generalization of the operators (1) to (5) from the case with mass-degenerate u and d
+quarks to the unequal-mass case of u and s quarks. Specifically, the operators (8), (9) and (12) are the counterparts
+of the operators (2), (3) and (5). The main difference is due to the isospin symmetry of the u and the d quark, where
+for I = 0 only the antisymmetric combination ud − du is allowed. In contrast, for the u and the s quark there is no
+such restriction, leading to two possibilities when combining a pseudoscalar and a vector meson: the operators (6)
+and (7) correspond to operator (1) and the operators (10) and (11) correspond to operator (4). In terms of meson
+pairs, the two BB ∗ operators in the b̄b̄ud case correspond to the two BBs∗ and the two B ∗ Bs operators in the b̄b̄us
+case.
+
+
+                                            3.   Quark field and gauge link smearing
+
+  To enhance the overlaps with the low-lying states of interest, we apply standard smearing techniques in the inter-
+polating operators defined in Section III A 1 and Section III A 2. The u, d, s, and b quark fields are Gaussian smeared
+(see, e.g., Eq. (8) in Ref. [40]) with parameters listed in Table III. Here, σGauss represents the Gaussian width of the
+smeared quark field in units of the lattice spacing. For the light and strange quarks, these values were chosen such
+that the smearing width in physical units, σGauss a, is essentially independent of the lattice spacing (σGauss a ≈ 0.55 fm
+for the u and d quarks, σGauss a ≈ 0.45 fm for the s quark). The gauge links needed for Gaussian smearing are APE
+smeared (see, e.g., Eq. (23) in Ref. [67]) with parameters NAPE = 50 and αAPE = 0.5.
+
+                                 ensemble          u and d quarks                  s quarks            b quarks
+                                                   NGauss σGauss                 NGauss σGauss       NGauss σGauss
+                             a15m310                 22     3.55                  15     2.93         10     1.0
+               a12m310, a12m220S, a12m220, a12m220L 35      4.47                  25     3.78         10     1.0
+                         a09m310, a09m220            70     6.32                  50     5.35         10     1.0
+
+          TABLE III. Gaussian smearing parameters for the quark fields appearing in the interpolating operators.
+
+
+
+
+                                                    4.   Correlation matrices
+
+  As discussed in the introduction, a major technical advance of this work compared to previous lattice QCD in-
+vestigations of b̄b̄ud and b̄b̄us tetraquarks is that we use the two types of operators, local operators and scattering
+operators, both at the source and at the sink of the corresponding correlation functions. Thus, we compute square
+correlation matrices
+                                                           D             E
+                                                  Cjk (t) = Oj (t)Ok† (0)                                          (13)
+
+with operators (1) to (5) for the b̄b̄ud system and (6) to (12) for the b̄b̄us system, i.e., 5 × 5 or 7 × 7 symmetric
+correlation matrices, respectively. This is a major improvement compared to our previous papers [40, 42], where
+scattering operators were only used at the sink, and to similar work from other groups [38, 39, 41, 43], where only
+local operators were employed.
+  We consider the use of scattering operators to be important, even though here we are mainly interested in the
+ground states of the b̄b̄ud and b̄b̄us sectors, which correspond to bound states in the infinite-volume limit. The reason
+why scattering operators might be helpful is that the ground state and the low-lying scattering states in the finite
+                                                                                                                     6
+
+volume are expected to have close-by energies and also similar structures. The latter is also reflected in the operator
+definitions. For example, O[BB ∗ ](0) is contained in OB(0)B ∗ (0) (considering only terms with x = y on the right-hand
+side of Eq. (4) corresponds to the right-hand side of Eq. (1)). When extracting energy levels without using both
+local and scattering operators one might obtain an incorrect estimate of the lowest energy somewhere between the
+true ground state and one of the low-lying scattering states, resulting in underestimated tetraquark binding energies.
+In our previous works [40, 42] we presented numerical evidence that the ground-state energies extracted from multi-
+exponential matrix fits are too high when using only local operators (see, in particular, Fig. 3 in Ref. [42]).
+    More importantly, if one is interested in reliably determining the excited-state finite-volume energy levels, the
+inclusion of scattering operators at both source and sink becomes essential. The excited-state energy levels can be
+used to determine the energy dependence of the meson-meson scattering amplitudes using Lüscher’s method [52, 53]
+and rigorously search for shallow bound states or resonances, as we have done recently for the b̄c̄ud systems with
+I(J P ) = 0(0+ ) and I(J P ) = 0(1+ ) [49]. Another interesting system to which these techniques could be applied is
+b̄b̄ud with I(J P ) = 0(1− ), as discussed in Section I.
+
+
+                           5.   Quark propagators and computation of the correlation matrices
+
+   We computed the correlation matrix elements with local operators at the source using Gaussian smeared point-to-
+all propagators, and the correlation matrix elements with scattering operators at the source using Gaussian smeared
+stochastic timeslice-to-all propagators (see e.g. Ref. [58] for a comprehensive discussion of these techniques in the
+context of four-quark states). For the latter, we use spin and color dilution and employ the one-end-trick to reduce
+the statistical noise. Because the correlation matrix is symmetric, the matrix elements that combine a local and
+a scattering operator can be computed either way, with point-to-all propagators (placing the local operator at the
+source) or stochastic timeslice-to-all propagators (placing the scattering operator at the source). We did both and
+found statistical uncertainties of similar magnitude. To increase the statistical precision we averaged both results on
+each gauge-link configuration.
+   To generate the necessary sources for the point-to-all-propagators, we selected 30 points randomly on each gauge
+link configuration (an exception is ensemble a15m310 with a rather small number of lattice sites, where we selected
+only 10 points). Moreover, for the stochastic timeslice-to-all propagators we use 4 equally separated timeslices with a
+randomly chosen global offset in t direction (an exception is ensemble a15m310, where we use only 1 timeslice). On
+each timeslice we generate 5 independent random Z2 × Z2 sources. When using stochastic timeslice-to-all propagators,
+i.e. two times the one-end-trick, it is essential that the two stochastic sources are independent. Since we have used 5
+sources per timeslice, there are 5 × 4 = 20 possible combinations. We consider and average over all these combinations
+to further reduce the statistical noise.
+   To determine statistical uncertainties, we use the jackknife method throughout this work.
+
+
+                                                B.   B and Bs mesons
+
+  To determine the binding energies of the QCD-stable b̄b̄ud and b̄b̄us tetraquarks, we need to compare the ground-
+state energies of these four-quark systems to the respective lowest meson-meson thresholds. To this end, we also
+computed the energies of the pseudoscalar and vector B and Bs mesons using exactly the same lattice parameters.
+The corresponding interpolating operators are
+                                                    X
+                                           OB(p) =     b̄(x)γ5 u(x)eix·p ,                                     (14)
+                                                         x
+                                                         X
+                                            OB ∗ (p) =       b̄(x)γj u(x)eix·p ,                                  (15)
+                                                         x
+                                                         X
+                                            OBs (p) =        b̄(x)γ5 s(x)eix·p ,                                  (16)
+                                                         x
+                                                         X
+                                            OBs∗ (p) =       b̄(x)γj s(x)eix·p .                                  (17)
+                                                         x
+
+We allow for non-vanishing momenta p = 2πn/L with L = Ns a, n ∈ Z3 , which are necessary to compute the kinetic
+masses of the B and the Bs mesons. These kinetic masses are required for scattering analyses, which we carried out
+to estimate finite-volume effects on binding energies as outlined in Section VI. For the computation of the correlation
+functions we use the same Gaussian smeared point-to-all propagators discussed in Section III A 5.
+                                                                                                                         7
+
+ IV.        ENERGIES AND KINETIC MASSES OF PSEUDOSCALAR AND VECTOR B AND Bs MESONS
+
+   We determined the ground-state energies of pseudoscalar and vector B and Bs mesons via correlated χ2 -minimizing
+single-exponential fits to the correlation functions of the interpolating operators (14) to (17) with p = 0. We consider
+a number of fit ranges tmin ≤ t ≤ tmax by varying 7 ≤ tmin /a ≤ 9 and 17 ≤ tmax /a ≤ 20. The lower bound tmin = 7a
+corresponds to the temporal separation for which the corresponding effective energies start to be consistent with a
+plateau. We generate final results by weighted averaging following a method used by the FLAG Collaboration [68] (a
+brief summary of the method can also be found in Appendix B of Ref. [42]).
+   The results for the B, B ∗ , Bs and Bs∗ meson energy levels for each of our seven ensembles are listed in Table IV. To
+exemplify the quality of our numerical data, we show in Fig. 1 plots of effective energies aEeff (t) = ln(C(t)/C(t + a))
+for ensemble a12m220L together with the corresponding final energies from Table IV.
+   To check and to confirm the stability of our results with respect to tmin , we carried out additional fits with
+tmin /a = 10 and tmin /a = 11 and included them in our weighted averages for aEB (0) and aEB ∗ (0). The corresponding
+results are very similar to those listed in Table IV with differences much smaller than the statistical errors.
+
+                      ensemble   aEB (0)     aEB ∗ (0) EB ∗ − EB [MeV] aEBs (0)     aEBs∗ (0) EBs∗ − EBs [MeV]
+                      a15m310 0.56575(62) 0.59583(72)      39.3(0.3)  0.61547(29) 0.64452(34)      38.0(0.1)
+                      a12m310 0.48902(88) 0.51561(99)      43.5(0.8)  0.53050(43) 0.55641(51)      42.4(0.4)
+                     a12m220S 0.48269(113) 0.50820(126)    41.9(1.0)  0.52653(44) 0.55215(50)      42.1(0.4)
+                      a12m220 0.48197(118) 0.50710(130)    41.9(0.9)  0.52655(61) 0.55203(51)      42.5(0.4)
+                     a12m220L 0.48246(98) 0.50754(103)     41.6(0.9)  0.52657(41) 0.55180(45)      41.9(0.4)
+                      a09m310 0.39766(53) 0.41713(59)      43.3(0.6)  0.42922(29) 0.44894(33)      43.8(0.3)
+                      a09m220 0.38835(77) 0.40690(102)     42.0(0.9)  0.42346(35) 0.44239(42)      42.8(0.5)
+
+                          TABLE IV. Energies of pseudoscalar and vector B and Bs mesons and their differences.
+
+
+
+          0.60                                                               0.60
+                                                ∗
+          0.58                             B                                 0.58                      Bs∗
+                                           B                                                           Bs
+          0.56                                                               0.56
+          0.54                                                               0.54
+
+  aEeff   0.52                                                       aEeff   0.52
+          0.50                                                               0.50
+          0.48                                                               0.48
+          0.46                                                               0.46
+          0.44                                                               0.44
+                 0          5        10             15    20                        0   5        10          15   20
+                                          t/a                                                         t/a
+
+FIG. 1. Effective energies of pseudoscalar and vector B and Bs mesons computed on ensemble a12m220L. Horizontal lines
+represent the corresponding final energies listed in Table IV.
+
+
+  Note that, due to the use of NRQCD, the energies listed in Table IV and elsewhere contain overall negative shifts pro-
+portional to nb , the number of b quarks present in the corresponding states. At tree-level, this shift amounts to −nb mb ,
+where mb is the b-quark mass. When considering energy differences between four-quark states and meson-meson
+thresholds with the same number of b quarks, as done, for example, in Section V, these energy shifts cancel. Further
+quantities that can directly be compared to their experimental counterparts are the energy differences between the
+vector and pseudoscalar B and Bs meson energies. Experimentally, these differences are EB ∗ − EB = 45.21(21) MeV
+and EBs∗ − EBs = 48.5+1.8 −1.5 MeV [69]. Our corresponding lattice results are listed in Table IV and are found to
+be approximately 10% smaller. This discrepancy is likely due to the missing one-loop corrections to the matching
+coefficient c4 of the term −g/(2mb ) ψ † σ · Bψ in the NRQCD action.
+                                                                                                                              8
+
+  We also determined the kinetic meson masses mM, kin for M ∈ {B, B ∗ , Bs , Bs∗ }, in which the energy shifts are
+not present, and which reflect the energy-momentum dispersion relation. The kinetic meson masses are impor-
+tant for scattering analyses, as discussed in Section VI. To determine them, we additionally computed the meson
+energies for several non-vanishing momenta, using the interpolating operators (14) to (17) with p = 2πn/L with
+n ∈ {(1, 0, 0), (1, 1, 0), (1, 1, 1), (2, 0, 0)}. Then we extracted mM, kin by fitting the right-hand side of
+                                                                q
+                                              EM (p) − EM (0) = m2M, kin + p2 − mM, kin                       (18)
+
+for each M ∈ {B, B ∗ , Bs , Bs∗ } and each ensemble to the corresponding lattice results for the four energy differences
+EM (p) − EM (0). An exception are the three ensembles a12m220S, a12m220 and a12m220L, which only differ in
+the volume, and where we determined a common kinetic mass by performing a single fit for each meson to the
+corresponding twelve energy differences. The results for the kinetic masses are collected in Table V. Moreover, in
+Fig. 2 we present an example plot demonstrating that the energy-momentum relation (18) is fully consistent with the
+data.
+
+                                 ensemble           amB,kin amB ∗ ,kin amBs ,kin                                 amBs∗ ,kin
+                                 a15m310           4.015(47) 4.017(55) 4.100(24)                                4.100(30)
+                                 a12m310           3.224(96) 3.238(108) 3.264(49)                               3.266(57)
+                       a12m220S, a12m220, a12m220L 3.121(84) 3.091(89) 3.233(37)                                3.204(40)
+                                 a09m310           2.381(55) 2.382(60) 2.426(31)                                2.427(35)
+                                 a09m220           2.342(161) 2.341(214) 2.397(79)                              2.399(94)
+
+                       TABLE V. Kinetic masses of the pseudoscalar and vector B and Bs mesons.
+
+
+
+                                         0.53   a12m220S
+                                                a12m220
+                                                a12m220L
+                                         0.52
+
+
+                                         0.51
+
+                               aEB (p)
+                                         0.50
+
+
+                                         0.49
+
+                                                                                       amB,kin = 3.121 ± 0.084
+                                         0.48
+                                                                                       aEB (0) = 0.4823 ± 0.0004
+
+                                                0.00       0.05   0.10      0.15          0.20      0.25      0.30
+                                                                         (ap)2
+
+
+FIG. 2. The B-meson energies for ensembles a12m220S, a12m220, and a12m220L as function of (ap)2 , together with the fit
+using Eq. (18).
+
+
+
+
+       V.    ENERGIES OF ANTIHEAVY-ANTIHEAVY-LIGHT-LIGHT FOUR-QUARK SYSTEMS
+
+ To determine the low-lying energy levels for the b̄b̄ud and b̄b̄us four-quark systems from the 5×5 and 7×7 correlation
+matrices Cjk (t) discussed in Section III A 4, we solve the standard generalized eigenvalue problems (GEVPs)
+                                 X                                      X
+                                     Cjk (t)vk,n (t, t0 ) = λn (t, t0 )   Cjk (t0 )vk,n (t, t0 ),                  (19)
+                                          k                                        k
+
+where the indices j and k are operator indices and the indices n enumerate the resulting eigenvalues and eigenvectors
+and are, thus, related to the indices of the low-lying energy eigenstates. The choice of t0 is made individually for
+each system and each ensemble. Our strategy was to choose the largest value of t0 for which statistical uncertainties
+on the resulting eigenvalues and eigenvectors did not significantly increase (see Table VI). The energy levels En are
+                                                                                                                            9
+
+then determined by carrying out a correlated χ2 -minimizing fit of an exponential function to each resulting eigenvalue
+λ
+Pn (t, t0 ). Below,  we also discuss the components vj,n (t, t0 ), where we always normalize the eigenvectors according to
+                   2
+  j |vj,n (t, t0 )| = 1.
+
+
+                                         ensemble               t0 /a for b̄b̄ud t0 /a for b̄b̄us
+                                         a15m310                       2                2
+                           a12m310, a12m220L, a12m220, a12m220S        3                3
+                                     a09m310, a09m220                  4                6
+
+                                       TABLE VI. The t0 values used for the GEVPs.
+
+
+
+
+                                                  A.   b̄b̄ud energy levels
+
+  As done in our determination of B and Bs meson energies in Section IV, we again consider multiple fit ranges
+tmin ≤ t ≤ tmax by varying tmin and tmax . For ensemble a12m220L, the fits are summarized in a graphical way in
+Fig. 3, including the corresponding fit ranges and resulting energy levels. Analogous plots for the other ensembles are
+collected in Fig. 14 in the appendix. As before, the final results are then generated by weighted averaging over all fits
+according to the FLAG method and are shown in Table VII and Fig. 4, where ∆En = En − EB (0) − EB ∗ (0).
+  Again we confirmed the stability of our results with respect to tmin by carrying out additional analyses:
+
+  (i) We carried out further fits with two larger tmin values, tmin /a = 11 and tmin /a = 12, and included them in the
+      weighted average for the ground state energy E0 of the b̄b̄ud system. The shift caused by these larger tmin values
+      is tiny, for ensemble a12m220L ≈ −0.1 MeV.
+
+ (ii) Same as (i), but we removed all fits with tmin /a = 7. The weighted average leads to a slightly lower result for
+      E0 , ≈ −3.0 MeV below the the value represented by the blue line in Fig. 3.
+
+ (iii) Same as (i), but we removed all fits with tmin /a = 7 and tmin /a = 8. The weighted average leads to a slightly
+       lower result for E0 , ≈ −2.4 MeV below the the value represented by the blue line in Fig. 3.
+
+ (iv) We use the same fits as in (i) but use the recently proposed technique of Bayesian model averaging (see Ref. [70])
+      instead of the FLAG method. This technique was partly developed and is particularly suited as an alternative
+      to manual selection of fit ranges. This time we find an upward shift of ≈ +0.2 MeV.
+
+As expected, these four results are fully consistent within statistical errors with the result shown in Fig. 3 and used
+for further analysis later in this work. In units of the statistical error the energy shifts are −0.01, −0.22, −0.12 and
++0.02 for (i), (ii), (iii) and (iv) respectively. We conclude that our analysis method provides very stable and, thus,
+reliable results, which we attribute partly to the χ2 -dependent FLAG weighting, which favors fits with good χ2 , while
+those with a certain tension are suppressed.
+
+                                               ∆E0 [MeV] ∆E1 [MeV] ∆E2 [MeV]
+                                       a15m310 − 75.5(1.8)  2.7(2.2) 45.2(2.5)
+                                       a12m310 − 70.1(4.2) −1.8(3.8) 40.5(4.2)
+                                      a12m220S − 84.7(6.5)  1.9(5.3) 45.1(5.9)
+                                       a12m220 − 83.1(5.2)  2.5(3.7) 45.2(3.9)
+                                      a12m220L −104.0(6.8)  1.4(3.5) 42.1(3.7)
+                                       a09m310 − 83.8(5.9) −6.2(5.0) 44.1(6.2)
+                                       a09m220 − 98.1(9.6) −2.5(5.0) 37.1(5.5)
+
+TABLE VII. Finite-volume energy levels for the b̄b̄ud system with respect to the BB ∗ threshold, ∆En = En − EB (0) − EB ∗ (0).
+
+    The ground-state energy is found to be significantly below the BB ∗ threshold on all ensembles, ∆E0 ≈ (−105 . . . -70)
+MeV. An energy level in that region is expected from and consistent with previous lattice QCD investigations of this
+b̄b̄ud system [38–41, 43, 44]. It signals the existence of a QCD-stable b̄b̄ud tetraquark. The energies of the first and
+second excitations are within statistical uncertainties consistent with the BB ∗ and B ∗ B ∗ thresholds. This indicates
+                                                                                                                                                                                                                                                                              10
+
+
+
+
+                                                                  t/a = 8−15   t/a = 8−16    t/a = 8−17   t/a = 8−18     t/a = 8−19   t/a = 9−15   t/a = 9−16   t/a = 9−17   t/a = 9−18   t/a = 9−19   t/a = 10−15   t/a = 10−16   t/a = 10−17   t/a = 10−18    t/a = 10−19
+
+
+                                                                      ∆E0                                     BB ∗ threshold
+                                                         100          ∆E1                                     B ∗ B ∗ threshold
+
+
+
+
+                    ∆En = En − EB (0) − EB ∗ (0) [MeV]
+                                                                      ∆E2
+
+                                                          50
+
+
+                                                           0
+
+
+                                                         −50
+
+
+                                             −100
+
+
+                                             −150
+                             χ2 /d.o.f. (2) : 0.09 0.09 0.08 2.46 2.22 0.08 0.08 0.07 2.75 2.45 0.10 0.09 0.08 3.14 2.76
+                             χ2 /d.o.f. (1) : 0.14 0.16 0.15 0.48 2.01 0.15 0.18 0.16 0.54 2.23 0.18 0.21 0.18 0.61 2.51
+                             χ2 /d.o.f. (0) : 1.20 1.08 0.96 1.21 1.76 1.24 1.12 0.97 1.22 1.89 1.55 1.35 1.13 1.40 2.13
+
+
+FIG. 3. Fit ranges and fit results for the extraction of energy levels for the b̄b̄ud system for ensemble a12m220L. The BB ∗ and
+B ∗ B ∗ thresholds correspond to the B and B ∗ energies obtained on that ensemble (see Table IV).
+
+
+
+                                                                         ∆E0                                           BB ∗ threshold
+                                                         100             ∆E1                                           B ∗ B ∗ threshold
+
+
+
+
+                    ∆En = En − EB (0) − EB ∗ (0) [MeV]
+                                                                         ∆E2
+
+                                                          50
+
+
+                                                           0
+
+
+                                                         −50
+
+
+                                              −100
+
+
+                                              −150
+                                                               a15m310                      a12m310 a12m220S a12m220 a12m220L a09m310                                                                                                                          a09m220
+
+FIG. 4. The three lowest finite-volume energy levels for the b̄b̄ud system with I(J P ) = 0(1+ ) obtained from our operator basis
+on each ensemble relative to the BB ∗ threshold, ∆En = En − EB (0) − EB ∗ (0). The black horizontal lines correspond to the
+BB ∗ (solid) and B ∗ B ∗ (dashed) thresholds.
+
+
+
+that, with our basis of interpolating operators, we are able to not only resolve the tetraquark state, but also these
+two low-lying scattering states.
+  As expected, with the operator basis used here [Eqs. (1) to (5)], we are not able to resolve scattering states with
+non-vanishing relative momenta. In particular, this is the case for BB ∗ states in which the two mesons have opposite
+minimal non-vanishing momenta pmin = (2π)/L, where L = Ns a is the ensemble-dependent spatial extent of the
+                                                                                                                                       11
+
+lattice. The estimated energy of such states with respect to the BB ∗ threshold is
+                                                     1/2                1/2
+                        ∆EBB ∗ ,p=pmin = m2B + p2min       + m2B ∗ + p2min      − mB − mB ∗ ,                                        (20)
+where mB and mB ∗ are the full meson masses, which can be taken to be the kinetic masses from Table V. For example,
+for ensembles a12m220 and a12m220L, ∆EBB ∗ ,p=pmin ≈ 20 MeV and ∆EBB ∗ ,p=pmin ≈ 13 MeV, respectively. With
+exception of ensemble a15m310, where ∆EBB ∗ ,p=pmin ≈ 50 MeV, we have ∆EBB ∗ ,p=pmin < mB ∗ − mB ≈ 45 MeV.
+Thus, the true second excited state is expected significantly below the B ∗ B ∗ threshold, which is not reflected by the
+numerically obtained energy differences ∆E2 (see Table VII). The overlaps of our operators with this state are likely
+very small. To resolve this state and higher states of this type, we would need to include scattering operators with
+non-vanishing relative momenta.
+  To illustrate the importance of scattering operators, we compare in Fig. 5 effective energies obtained by solving
+GEVPs for a 3 × 3 correlation matrix with only local operators [Eqs. (1) to (3)] (left plot) and the full 5 × 5 correlation
+matrix, which also contains the scattering operators [Eqs. (4) and (5)] (right plot). While the effective masses Eeff,1 (t)
+and Eeff,2 (t), defined as Eeff,n (t) = (1/a) ln(λn (t, t0 )/λn (t + a, t0 )), quickly approach the BB ∗ and B ∗ B ∗ thresholds
+for the full 5 × 5 matrix, this is not the case for the 3 × 3 matrix. Thus, it is practically impossible to extract
+physically meaningful energy levels En for n ≥ 1 from the 3 × 3 matrix. The conclusion is that it is imperative
+to include scattering operators if energy levels of scattering states are needed, e.g., for a finite-volume scattering
+analysis as discussed in Section VI. However, the results for the effective energy Eeff,0 (t) are essentially the same with
+and without scattering operators. Thus, if one is only interested in determining the mass of the QCD-stable b̄b̄ud
+tetraquark in a finite volume, local operators may be sufficient. This finding is surprising, given our experience in
+Refs. [40, 42], where we compared multi-exponential matrix fits with and without scattering operators at the sink and
+found some impact on the fit results for E0 . In Refs. [40, 42], we were unable to use the GEVP for the non-square
+correlation matrices with scattering operators included at the sink only.
+
+          1.8   aEeff,0     BB ∗ threshold                                    1.8   aEeff,0       BB ∗ threshold
+                aEeff,1     B ∗ B ∗ threshold                                       aEeff,1       B ∗ B ∗ threshold
+          1.6   aEeff,2                                                       1.6   aEeff,2
+
+          1.4                                                                 1.4    1.0
+  aEeff                                                               aEeff         0.95
+          1.2                                                                 1.2
+                                                                                     0.9
+                                                                                           6     8       10       12
+          1.0                                                                 1.0
+
+
+          0.8                                                                 0.8
+                     5              10                15                                   5              10               15
+                                    t/a                                                                  t/a
+
+FIG. 5. Effective energies Eeff,n (t), n = 0, 1, 2 for the b̄b̄ud system (ensemble a12m220L). Left: 3 × 3 correlation matrix with
+only local interpolating operators [Eqs. (1) to (3)]. Right: 5 × 5 correlation matrix including also scattering interpolating
+operators [Eqs. (4) and (5)]. The inset in the right plot shows a magnified view on the effective masses indicating that they are
+consistent with plateaus within statistical errors for t ≥ tmin for our chosen tmin /a = 8, 9, 10.
+
+   The eigenvectors vj,n (t, t0 ) obtained by solving GEVPs are fairly independent of t for larger t and provide infor-
+mation about the composition of the low-lying energy eigenstates associated with the extracted energy levels En .
+In Fig. 6 we show the signed squared eigenvector components, sign(ṽj,n )|ṽj,n |2 , for the full 5 × 5 correlation ma-
+trix from ensemble a12m220L, where the quantities ṽj,n are obtained by fitting constants to vj,n (t, t0 ) in the range
+tmin ≤ t ≤ tmax (we use multiple fits with different ranges, 6 ≤ tmin /a ≤ 9 and 12 ≤ tmax /a ≤ 14 in this case, and
+present the FLAG-method averages over these fits). When ignoring the signs, these quantities add up to 1 and can be
+interpreted as the relative importance of each interpolating operator Oj when approximating the energy eigenstate
+|n⟩ as a sum over trial states Oj |n⟩ 2 . The signs are of particular interest in the b̄b̄us case (see Section V B), where
+they expose the approximate light flavor symmetry of u and s quarks.
+
+
+2 Such an interpretation requires a similar normalization of all trial states O |n⟩.   One possibility to implement this is to include ap-
+                                                                               j
+                                                                                                                                         12
+
+                                                    state |0i    state |1i          state |2i        state |3i    state |4i
+                                             1.0
+
+
+                                             0.5
+
+
+                     sign(ṽj,n )|ṽj,n |2   0.0
+
+
+                                     −0.5
+
+
+                                     −1.0
+                                                   1 2 3 4 5    1 2 3 4 5          1 2 3 4 5        1 2 3 4 5    1 2 3 4 5
+
+
+                  FIG. 6. Signed squared eigenvector components, sign(ṽj,n )|ṽj,n |2 , from ensemble a12m220L.
+
+
+   The results support our above conclusions based on the extracted energy levels. The ground state |0⟩, which
+is a QCD-stable tetraquark, is excited almost exclusively by the three local operators [Eqs. (1) to (3)], while the
+scattering operators [Eqs. (4) and (5)] are essentially irrelevant. The relative contributions of the local operators to
+the QCD-stable tetraquark are, moreover, consistent with previous lattice QCD investigations using static potentials
+and the Born-Oppenheimer approximation. In particular, the BB ∗ component is slightly larger than, but of similar
+magnitude as the B ∗ B ∗ component, which is in agreement with Fig. 3 of Ref. [37], and the meson-meson components
+are of similar importance as the diquark-antidiquark component, which is in line with the main result from Ref. [66].
+The first and second excitation |1⟩ and |2⟩, on the other hand, are clearly BB ∗ and B ∗ B ∗ scattering states, as already
+indicated by the consistency of their energy levels with the corresponding thresholds.
+
+
+                                                                    B.       b̄b̄us energy levels
+
+   For the b̄b̄us system we proceed in the same way as for the b̄b̄ud system in Section V A. For ensemble a12m220L,
+the fits are summarized in Fig. 7; the plots for the other ensembles are collected in Fig. 15 in the appendix. The
+final results for ∆En = En − EB (0) − EBs∗ (0) from the FLAG-method weighted averages are shown in Table VIII and
+Fig. 8.
+   As in the b̄b̄ud case, we checked and confirmed the stabilty of these results by carrying out the same analyses (i),
+(ii), (iii) and (iv) discussed in Section V A. We find fully consistent ground state energies E0 only slightly shifted (by
+≈ −0.4 MeV, −3.1 MeV, −3.6 MeV, −2.1 MeV) with respect to the value represented by the blue line in Fig. 7. Again
+these shifts are well within the statistical errors, in units of the corresponding statistical error −0.08, −0.56, −0.55
+and −0.40 for (i), (ii), (iii) and (iv) respectively.
+   The ground-state energy is found to be significantly below the BBs∗ threshold, ∆E0 ≈ (−35 . . .−30)MeV, indicating
+the existence of a QCD-stable b̄b̄us tetraquark, consistent with previous lattice-QCD investigations of this system
+[38, 39, 42, 43]. We obtain precise results also for three additional states with energies consistent with the BBs∗ , Bs B ∗
+and B ∗ Bs∗ thresholds. However, as already noted for the b̄b̄ud case, we are unable to resolve scattering states with non-
+vanishing back-to-back momenta; for example, on ensembles a12m220 and a12m220L one has ∆EBBs∗ ,p=pmin ≈ 20 MeV
+and ∆EBBs∗ ,p=pmin ≈ 13 MeV, respectively. Scattering operators with non-vanishing back-to-back momenta would be
+needed to resolve these states.
+   Again, we illustrate the importance of the scattering operators by comparing in Fig. 9 effective energies obtained
+by solving GEVPs for a 4 × 4 correlation matrix with only local operators [Eqs. (6) to (9)] (left plot) and the full 7 × 7
+correlation matrix, which also contains the scattering operators [Eqs. (10) to (12)] (right plot). The overall picture
+and conclusions are the same as for the b̄b̄ud system. To determine the mass of the QCD-stable b̄b̄us tetraquark, local
+operators appear to be sufficient, but it is imperative to include scattering operators if energy levels of scattering
+
+
+  propriate volume factors, as present in the definitions of our interpolating operators. A common alternative is to replace Cjk (t) by
+  Cjk (t)/ Cjj (t = a)Ckk (t = a), which corresponds to a normalization of the trial states at t = a, i.e. ⟨Ω|Oj (t = a)Ok† (t = 0)|Ω⟩ = 1.
+          p
+
+  Throughout this paper we follow this latter strategy. Note that the eigenvalues λn (t, t0 ) and, consequently, the extracted energy levels
+  En are unaffected by such a normalization.
+                                                                                                                                                                                                                                                                      13
+
+
+
+
+                                                              t/a = 8−15   t/a = 8−16   t/a = 8−17   t/a = 8−18   t/a = 8−19   t/a = 9−15   t/a = 9−16   t/a = 9−17   t/a = 9−18   t/a = 9−19   t/a = 10−15   t/a = 10−16   t/a = 10−17   t/a = 10−18   t/a = 10−19
+
+
+                                                    100           ∆E0                                    BBs∗ threshold
+                                                                  ∆E1                                    B ∗ Bs threshold
+
+
+
+
+                    ∆En = En − EB (0) − EBs∗ (0) [MeV]
+                                                         80       ∆E2                                    B ∗ Bs∗ threshold
+                                                                  ∆E3
+                                                         60
+
+                                                         40
+
+                                                         20
+
+                                                          0
+
+                                              −20
+
+                                              −40
+
+                                              −60
+
+                     χ2 /d.o.f. (3) :                         0.75 0.96 0.97 0.86 0.80 0.64 0.93 0.95 0.83 0.77 0.72 1.08 1.08 0.92 0.85
+                     χ2 /d.o.f. (2) :                         0.82 0.77 0.70 0.63 0.57 0.79 0.74 0.67 0.59 0.53 0.94 0.87 0.76 0.66 0.58
+                     χ2 /d.o.f. (1) :                         0.81 0.76 0.66 0.77 0.69 0.72 0.69 0.59 0.69 0.62 0.84 0.80 0.67 0.76 0.67
+                     χ2 /d.o.f. (0) :                         1.21 1.16 1.07 1.69 1.52 0.53 0.54 0.54 1.27 1.13 0.57 0.56 0.57 1.39 1.22
+
+
+FIG. 7. Fit ranges and fit results for the extraction of energy levels for the b̄b̄us system for ensemble a12m220L. The BBs∗ ,
+Bs B ∗ and B ∗ Bs∗ thresholds correspond to the B(s) and B(s)
+                                                          ∗
+                                                              energies obtained on that ensemble (see Table IV).
+
+
+                                                                       ∆E0 [MeV] ∆E1 [MeV] ∆E2 [MeV] ∆E3 [MeV]
+                                                               a15m310 −34.0(1.2)  2.4(1.4)  6.2(1.5) 41.2(1.7)
+                                                               a12m310 −29.6(2.5) −1.0(2.7)  0.7(2.4) 40.3(2.9)
+                                                              a12m220S −30.4(2.6)  4.2(3.0)  3.8(2.8) 44.5(3.2)
+                                                               a12m220 −37.3(4.3) −4.2(2.8) −3.5(2.9) 36.6(3.2)
+                                                              a12m220L −35.8(3.2)  0.6(2.3) −0.1(2.2) 41.4(2.3)
+                                                               a09m310 −29.1(2.5) −1.1(2.7) −2.4(2.6) 41.2(3.2)
+                                                               a09m220 −30.7(4.0) −1.3(3.0) −2.1(3.3) 40.5(3.3)
+
+TABLE VIII. Finite-volume energy levels for the b̄b̄us system with respect to the BBs∗ threshold, ∆En = En − EB (0) − EBs∗ (0).
+
+
+states are needed. The fact that the results for Eeff,0 (t) are essentially the same with and without scattering operators
+is even more surprising here than for the b̄b̄ud system, given the weaker binding.
+   In Fig. 10 we show the signed squared eigenvector components sign(ṽj,n )|ṽj,n |2 for the full 7 × 7 correlation matrix
+from ensemble a12m220L (here, we use the FLAG-method averages over fits with 5 ≤ tmin /a ≤ 9 and 11 ≤ tmax /a ≤
+14). The eigenvector components support and complement our above conclusions based on the extracted energy
+levels, and exhibit the approximate SU(3) flavor symmetry. The ground state |0⟩, which is a QCD-stable tetraquark,
+is excited mostly by the four local operators. It is us flavor antisymmetric, which shows that the b̄b̄us tetraquark
+has a flavor structure analogous the I = 0 b̄b̄ud tetraquark discussed in the previous section. The first and second
+excitations are mixtures of BBs∗ and Bs B ∗ scattering states, where |1⟩ is mostly us flavor symmetric, i.e. similar to
+I = 1, while |2⟩ is mostly us flavor antisymmetric, i.e. similar to I = 0. The third excitation |3⟩ is clearly a B ∗ Bs∗
+scattering state, as already suggested by its energy.
+                                                                                                                                                             14
+
+
+                                                                         ∆E0          BBs∗ threshold
+                                                          100            ∆E1          B ∗ Bs threshold
+
+
+
+
+                          ∆En = En − EB (0) − EBs∗ (0) [MeV]
+                                                                         ∆E2          B ∗ Bs∗ threshold
+                                                               75        ∆E3
+
+                                                               50
+
+                                                               25
+
+                                                                0
+
+                                                    −25
+
+                                                    −50
+
+                                                                    a15m310    a12m310 a12m220S a12m220 a12m220L a09m310              a09m220
+
+FIG. 8. The four lowest finite-volume energy levels for the b̄b̄us system with J P = 1+ obtained from our operator basis on
+each ensemble relative to the BBs∗ threshold, ∆En = En − EB (0) − EBs∗ (0). The black horizontal lines correspond to the BBs∗
+(solid), B ∗ Bs (dashed) and B ∗ Bs∗ (dashed-dotted) thresholds.
+
+
+
+
+          2.0                                                                                                 2.0
+                aEeff,0                                         BBs∗ threshold                                      aEeff,0    BBs∗ threshold
+                aEeff,1                                         B ∗ Bs threshold                                    aEeff,1    B ∗ Bs threshold
+          1.8                                                   B ∗ Bs∗ threshold                             1.8              B ∗ Bs∗ threshold
+                aEeff,2                                                                                             aEeff,2
+                aEeff,3                                                                                             aEeff,3
+          1.6                                                                                                 1.6
+
+  aEeff   1.4
+                                                                                                      aEeff   1.4
+                                                                                                                    1.06
+                                                                                                                    1.04
+                                                                                                                    1.02
+          1.2                                                                                                 1.2    1.0
+                                                                                                                           6    8           10     12
+
+          1.0                                                                                                 1.0
+
+                     5                                                  10             15                                  5           10               15
+                                                                       t/a                                                            t/a
+
+FIG. 9. Effective energies Eeff,n (t), n = 0, 1, 2, 3 for b̄b̄us (ensemble a12m220L). Left: 4 × 4 correlation matrix with only local
+interpolating operators [Eqs. (6) to (9)]. Right: 7 × 7 correlation matrix with also scattering interpolating operators [Eqs. (10)
+to (12)]. The inset in the right plot shows a magnified view on the effective masses indicating that they are consistent with
+plateaus within statistical errors for t ≥ tmin for our chosen tmin /a = 8, 9, 10.
+                                                                                                                              15
+
+                              state |0i   state |1i     state |2i      state |3i     state |4i     state |5i      state |6i
+                        1.0
+
+
+                        0.5
+
+sign(ṽj,n )|ṽj,n |2   0.0
+
+
+                −0.5
+
+
+                −1.0
+                              1234567     1234567      1234567        1234567       1234567        1234567       1234567
+
+                        FIG. 10. Signed squared eigenvector components, sign(ṽj,n )|ṽj,n |2 , from ensemble a12m220L.
+                                                                                                                        16
+
+                                         VI.   FINITE-VOLUME EFFECTS
+
+   Some of the previous lattice-QCD studies of b̄b̄ud and c̄c̄ud systems [40, 71, 72] have employed Lüscher’s method
+[52, 53, 73–80] to relate the finite-volume energy levels with infinite-volume B-B ∗ and D-D∗ scattering amplitudes.
+The masses of the infinite-volume bound states or virtual bound states were then obtained as the pole locations in
+these amplitudes. Such an analysis has not yet been performed for the b̄b̄us system, which is more challenging due to
+the coupling of the Bs -B ∗ and B-Bs∗ channels with nearly identical thresholds [42]. The improvements made in the
+present work in extracting the finite-volume spectra (compared to Refs. [40, 42]) in principle enable more advanced
+scattering-amplitude analyses, including an analysis of coupled-channel Bs -B ∗ , B-Bs∗ scattering.
+   The studies presented in Refs. [40, 71, 72] used Lüscher’s method both above and below threshold, and used effective-
+range expansions (EREs) to parametrize the energy dependence of the scattering amplitude. It was recently pointed
+out that the D-D∗ scattering amplitude has a left-hand cut starting close to threshold due to pion exchange [81],
+which determines the radius of convergence of the ERE to be smaller than the regions studied in the aforementioned
+references. The same problem is also present in B-B ∗ scattering and, due to kaon exchange, in Bs -B ∗ , B-Bs∗ scattering.
+Moreover, the two-body Lüscher quantization condition itself becomes invalid on the left-hand cut [82–88].
+   For B-B ∗ scattering, the left-hand cut due to single-pion exchange starts at the invariant-mass-squared
+
+                                             scut = sth − m2π + (mB ∗ − mB )2 ,                                       (21)
+                                                                     √        √
+where sth = (mB ∗ + mB )2 . For physical pion mass, one finds scut − sth ≈ −1 MeV, while at mπ = 300 MeV,
+√         √                                       ∗       ∗
+  scut − sth ≈ −4 MeV. Similarly, for Bs -B , B-Bs scattering at physical kaon mass, the cut due to single-kaon
+                       √       √
+exchange starts at scut − sth ≈ −11 MeV. The finite-volume ground-state energies we obtained in this work
+(Section V) and in Refs. [40, 42] for b̄b̄ud and b̄b̄us are well below these values.
+   New approaches to describing the finite-volume energy levels in the region effected by the left-hand cut were recently
+proposed in Refs. [82–88]; these involve modifications to the two-body Lüscher formalism, the use of the three-body
+Lüscher formalism, or chiral effective theory. However, the implementation of these approaches is beyond the scope
+of the present work.
+   In the remainder of this paper, we will focus on the ground-state energies and assume that finite-volume effects are
+negligible compared to our statistical uncertainties. Before we became aware of the left-hand cut problem, we did in
+fact perform extractions of S-wave scattering amplitudes from the energy levels presented here using the standard
+two-body Lüscher method; we can use these results to get at least some idea of the possible size of finite-volume effects.
+For the b̄b̄ud system, we used the lowest two energy levels on each ensemble and fitted a two-parameter model of the
+K matrix [89], similar to the effective-range expansion used in [40]. From these fits, we found that the bound-state
+pole locations differ from the finite-volume ground-state energies by <  ∼ 0.1 MeV, consistent with the expectation from
+Ref. [40]. For b̄b̄us, we attempted coupled-channel fits to the lowest three energy levels with various parametrizations
+of the 2 × 2 K matrix, including fits that combine the data from the a12m220S, a12m220, and a12m220L ensembles
+that differ only in the volume. However, most of these fits did not converge properly, and the only model that
+gave stable results was a diagonal form of the K matrix with two s-independent parameters on the diagonal. For
+those ensembles for which we achieved a reasonable χ2 /d.o.f, this model predicted shifts between the finite-volume
+ground-state energies and the bound-state pole locations of <     ∼ 1 MeV. Another way of estimating the finite-volume
+effects is directly comparing the finite-volume energies of the a12m220S, a12m220, and a12m220L ensembles listed in
+Table VIII, which suggests that the effects for b̄b̄us are not larger than about 5 MeV for the smallest volume. Further
+tests for finite-volume effects are discussed in Sec. VII.
+
+
+         VII.   CHIRAL AND CONTINUUM EXTRAPOLATIONS OF THE BINDING ENERGIES
+
+  To obtain estimates of the tetraquark binding energies at the physical point, we consider two different fits to the
+ground-state energies from the different ensembles: (i) neglecting lattice-spacing dependence but allowing for a linear
+dependence on m2π , as in Refs. [40, 42],
+
+                                     ∆E0 (mπ ) = ∆E0 (mπ,phys ) + c(m2π − m2π,phys ),                                 (22)
+
+and (ii), allowing for linear dependencies on both m2π and a2 ,
+
+                               ∆E0 (mπ , a) = ∆E0 (mπ,phys , 0) + c(m2π − m2π,phys ) + d a2 .                         (23)
+
+Here, we use mπ,phys = 135 MeV for the physical pion mass in the isospin-symmetric limit. These models are expected
+to be approximate only. For the actions used here, gluon and sea-quark discretization errors are expected to start at
+                                                                                                                                                            17
+
+                 0                                                                           0
+                                                                      BB ∗                                                                          BBs∗
+              −20                                                                         −20
+
+              −40                                                                         −40
+
+
+
+  ∆E0 [MeV]                                                                   ∆E0 [MeV]
+              −60                                                                         −60
+
+              −80                                                                         −80
+
+              −100                                                                        −100
+                                                           a ≈ 0.15 fm                                                                   a ≈ 0.15 fm
+              −120                                         a ≈ 0.12 fm                    −120                                           a ≈ 0.12 fm
+                                                           a ≈ 0.09 fm                                                                   a ≈ 0.09 fm
+              −140                                                                        −140
+                0.00   0.02   0.04   0.06    0.08       0.10   0.12    0.14                 0.00   0.02   0.04   0.06      0.08       0.10   0.12    0.14
+                                                    2                                                                             2
+                                     m2π    [GeV ]                                                               m2π      [GeV ]
+
+FIG. 11. Chiral extrapolations of the energy differences ∆E0 for the b̄b̄ud four-quark system with I(J P ) = 0(1+ ) (left) and
+the b̄b̄us four-quark system with J P = 1+ (right), neglecting the lattice-spacing dependence. The lowest meson-meson threshold
+for each channel is indicated by the horizontal dashed lines, while the vertical dashed line represents the physical pion mass.
+
+                                                           Chiral extrapolation only
+                                            ∆E0 (mπ,phys ) [MeV] c [10−4 /MeV]                               χ2 /d.o.f.
+                                     b̄b̄ud       −99(8)              2.9(1.1)                                 2.34
+                                     b̄b̄us       −33(4)              0.0(0.5)                                 1.57
+                                                     Chiral and continuum extrapolation
+                                            ∆E0 (mπ,phys , 0) [MeV] c [10−4 /MeV] d [102 ×MeV3 ] χ2 /d.o.f.
+                                     b̄b̄ud       −100(10)              2.7(1.6)      1.2(6.2)     2.90
+                                     b̄b̄us       −30(3)                0.5(0.5)      3.8(1.8)     0.83
+
+TABLE IX. Fit results for the chiral extrapolations using Eq. (22) [upperp  table] and the combined chiral-continuum extrapo-
+lations using Eq. (23) [lower table]. All uncertainties have been scaled by χ2 /d.o.f..
+
+
+O(αs2 a2 ) and O(αs a2 ), respectively, but the Wilson-clover valence action is only tree-level-O(a) improved and thus
+will have some remaining O(αs a) errors. With the particular level of Symanzik improvement used here, the NRQCD
+action has both O(αs2 a) and O(αs2 a2 ) errors, plus other systematic errors from missing higher-order relativistic and
+radiative corrections that we will estimate separately below.
+    Our fits using Eqs. (22) or (23) are illustrated in Figs. 11 and 12, and the results for the fit parameters are given in
+Table IX. The coefficients d that describe the lattice-spacing dependence turn out to be consistent with zero. For the
+b̄b̄ud system, there is a slight indication that the binding energy increases in magnitude as the pion mass is lowered,
+which becomes more statistically significant when not including the a2 term. On the other hand, the b̄b̄us binding
+energy is essentially independent of the pion mass in the rangepconsidered here. Some of the fits have χ2 /d.o.f. > 1;
+in these cases, we scaled the uncertainties of the fit results by χ2 /d.o.f.. We find that the results for ∆E0 (mπ,phys )
+and ∆E0 (mπ,phys , 0) are compatible within statistical uncertainties. We take the latter as our final estimates of the
+tetraquark binding energies.
+    Given the large values of χ2 /d.o.f. for the b̄b̄ud system, we performed additional fits for this system to test for
+exponential finite-volume effects and higher-order discretization effects:
+       • We excluded the data point with the smallest value of mπ L (corresponding to the a12m220S ensemble) from
+         the fits. We find that the χ2 /d.o.f. values actually increase, because χ2 does not change much while d.o.f. is
+         reduced by 1. The results for ∆E0 change by about −3 MeV, which is negligible compared to the statistical
+         uncertainty.
+       • We included overall factors of (1 + f e−mπ L ) in Eqs. (22) and (23), where f is an additional fit parameter. The
+         results for f are consistent with zero at the 1.1σ level, and χ2 /d.o.f. again increases. The results for ∆E0 again
+         change by about −3 MeV, which is negligible compared to the statistical uncertainty.
+       • For the fit using Eq. (23), we excluded the data point with the coarsest lattice spacing (corresponding to the
+                                                                                                                                                                                 18
+
+
+                 0                                                                                      0
+                                                                                 BB ∗
+                                                                                                                                                                        BBs∗
+              −25                                                                                     −10
+
+              −50                                                                                     −20
+
+
+
+  ∆E0 [MeV]                                                                               ∆E0 [MeV]
+                                                                                                      −30
+              −75
+                                                                                                      −40
+              −100
+                                                                       a ≈ 0.15 fm                    −50
+                                                                                                                                                              a ≈ 0.15 fm
+              −125                                                     a ≈ 0.12 fm                                                                            a ≈ 0.12 fm
+                                                                       a ≈ 0.09 fm                    −60                                                     a ≈ 0.09 fm
+              −150                                                     a = 0.00 fm                                                                            a = 0.00 fm
+                                                                                                      −70
+
+                 0.00        0.02    0.04   0.06        0.08       0.10   0.12     0.14                 0.00        0.02    0.04   0.06        0.08       0.10   0.12     0.14
+                                                               2                                                                                      2
+                                            m2π        [GeV ]                                                                      m2π        [GeV ]
+
+                 0                                                                                      0
+                                                                                  BB ∗                                                                                  BBs∗
+              −25                                                                                     −10
+
+              −50                                                                                     −20
+
+
+
+  ∆E0 [MeV]                                                                               ∆E0 [MeV]
+                                                                                                      −30
+              −75
+                                                                                                      −40
+              −100
+                                                                                                      −50
+              −125                                                 mπ ≈ 310 MeV                                                                           mπ ≈ 310 MeV
+                                                                   mπ ≈ 220 MeV                       −60                                                 mπ ≈ 220 MeV
+              −150                                                 mπ ≈ 135 MeV                                                                           mπ ≈ 135 MeV
+                                                                                                      −70
+
+                     0.000          0.005    0.010             0.015       0.020                            0.000          0.005    0.010             0.015       0.020
+                                                   2       2                                                                              2       2
+                                              a [fm ]                                                                                a [fm ]
+
+FIG. 12. Combined chiral and continuum extrapolations of the energy differences ∆E0 for the b̄b̄ud four-quark system with
+I(J P ) = 0(1+ ) (left) and the b̄b̄us four-quark system with J P = 1+ (right). In the upper row, the mπ dependence is shown for
+fixed lattice spacing a, while the lower row shows the a dependence for fixed pion mass mπ . The lowest meson-meson threshold
+for each channel is indicated by the horizontal dashed lines, while the vertical dashed line represents either the physical pion
+mass or zero lattice spacing a. The black square indicates the final result for the binding energy at the physical point.
+
+
+              a15m310 ensemble). This improves χ2 /d.o.f. from 2.90 to 2.29 and leads to a shift in ∆E0 (mπ,phys , 0) from
+              −100(10) to −128(21) MeV. We take the shift of −28 MeV as a systematic uncertainty due to possible higher-
+              order discretization effects. For consistency, we perform the same steps also for the b̄b̄us system, where excluding
+              the a15m310 data point leads to an increase in χ2 /d.o.f. from 0.83 to 1.01 and a shift of ∆E0 (mπ,phys , 0) by
+              −3.3 MeV.
+  The continuum extrapolations do not remove the systematic errors from missing higher-order relativistic and ra-
+diative corrections in the lattice NRQCD action. To estimate these sources of systematic uncertainty, we follow the
+prescription of Ref. [40] with adjustments for the different choices of NRQCD matching coefficients used here.
+  The values of ∆E0 depend both on the heavy-light meson energies and on the energies of the four-quark systems.
+For the heavy-light mesons, the most significant systematic NRQCD uncertainties are expected to be as follows:
+       • Four-quark operators are missing in the action. They appear only at order αs2 in the QCD matching, but
+         according to Ref. [90] their effect is of order 3 MeV.
+       • One-loop corrections to the matching coefficient c4 of the operator −g/(2mb ) ψ † σ · Bψ are not included here.
+         The associated uncertainties can be estimated as
+                                                                                 αs Λ2QCD /mb ≈ 6 MeV,                                                                         (24)
+              where we use αs ≈ 0.3, ΛQCD ≈ 300 MeV, and mb ≈ 4.5 GeV.
+                                                                                                                         19
+
+   • We also use only tree-level values for the coefficients c2 and c3 of the operators of order (Λ2QCD /m2b ). The
+     uncertainties from missing higher-order contributions to these coefficients are given by
+
+                                                    αs Λ3QCD /m2b ≈ 0.4 MeV.                                           (25)
+
+As the matching coefficients c1 , c5 , and c6 include order-αs corrections, systematic uncertainties arising from the
+related operators are negligible.
+   For the four-quark system, the power counting is more complicated due to the presence of two bottom quarks. A
+reasonable estimate for the systematic uncertainties can be obtained by replacing the QCD scale ΛQCD by the binding
+momentum |kBS | (if larger than ΛQCD ) [40]. Our results for the binding energies correspond to |kBS | ≈ 730 MeV
+for b̄b̄ud and |kBS | ≈ 400 MeV for b̄b̄us, which leads to estimated systematic uncertainties of ≈ 36 MeV for the b̄b̄ud
+energy and ≈ 11 MeV for the b̄b̄us energy. It is reasonable to expect some partial cancellation of systematic errors
+between the tetraquark and heavy-light meson energies, so these numbers could be taken as the total systematic
+uncertainties of ∆E0 [40]. However, note that our previous calculations [40, 42] predicted larger binding momenta of
+|kBS | ≈ 800 MeV for b̄b̄ud and |kBS | ≈ 680 MeV for b̄b̄us, and the smaller values obtained here may, in principle, be
+due to the very systematic errors we are trying to estimate. Therefore, to be conservative, we will report asymmetric
+uncertainties in which we use the larger values of |kBS | from Refs. [40, 42] to obtain the size of the error bars in
+the direction of increased binding. This prescription, combined in quadrature with the shifts seen when excluding
+a15m310, then yields our final results
+
+                                    ∆E0 (mπ,phys , 0)[b̄b̄ud] = −100 ± 10 +36
+                                                                          −51 MeV,                                     (26)
+                                    ∆E0 (mπ,phys , 0)[b̄b̄us] =   −30 ± 3 +11
+                                                                          −31   MeV.                                   (27)
+
+The NRQCD systematic uncertainties are dominated by the uncertainty from the missing radiative corrections to c4 ,
+calculated using Eq. (24) with ΛQCD replaced by the |kBS | values discussed above.
+
+
+                                                VIII.   CONCLUSIONS
+
+    In this work, we have confirmed the existence and computed the binding energies of both the b̄b̄ud tetraquark with
+quantum numbers I(J P ) = 0(1+ ) and the b̄b̄us tetraquark with quantum numbers J P = 1+ using lattice QCD. We
+have improved on existing similar lattice-QCD computations [38–44] by implementing, for the first time, a combination
+of local and scattering interpolating operators both at the source and at the sink of symmetric correlation matrices.
+We have demonstrated that this enables high-precision determinations of the energies of low-lying scattering states,
+and that it is practically impossible to determine these energies without scattering operators. Reliably extracting the
+complete low-lying finite-volume spectra is essential when using the Lüscher method to determine energy-dependent
+scattering amplitudes, as we have done for the b̄c̄ud systems with quantum numbers I(J P ) = 0(0+ ) and I(J P ) = 0(1+ )
+in Ref. [49], based on the methods developed here. On the other hand, we found that the inclusion of scattering
+operators had essentially no impact on the ground-state results obtained from the GEVP for the b̄b̄ud and b̄b̄us
+systems. This finding was somewhat unexpected, given our experience from Refs. [40, 42], in which we compared the
+results of multi-exponential matrix fits with and without scattering operators at the sink and found some impact on
+the fit results for E0 . When using the GEVP, local operators alone appear to be sufficient to determine the binding
+energies of the deeply bound b̄b̄ud and b̄b̄us tetraquarks, but the inclusion of scattering operators provides reassurance
+and may be necessary to reliably extract the ground-state energies of other, less deeply bound systems.
+    Using chiral and continuum extrapolations of the results from several ensembles, we obtained binding energies of
+−100 ± 10 +36                                                                 P          +               +11
+             −51 MeV for the b̄b̄ud tetraquark with quantum numbers I(J ) = 0(1 ) and −30 ± 3 −31 MeV for the
+                                             P      +
+b̄b̄us tetraquark with quantum numbers J = 1 . These values are reasonably consistent with results of other recent
+lattice-QCD studies of these systems [39, 40, 42–44], but are in slight tension with earlier works [38, 41]. We have
+updated the summary plots for both tetraquark systems from Refs. [40, 42] and show them in Fig. 13. For the
+b̄b̄ud system, also calculations [33, 34, 37] based on static potentials from lattice QCD and the Born-Oppenheimer
+approximation are shown; these gave a somewhat smaller binding energy. The predictions from other approaches such
+as potential models, effective field theories, and QCD sum rules were taken from Refs. [1, 3–32].
+    The main systematic uncertainties in our present results are associated with the lattice NRQCD action [64], in
+particular with the use of the tree-level value of the coefficient c4 and the missing four-quark operators. The radiative
+corrections to c2 and c4 , and the coefficients of the four-quark operators with four heavy quarks have in fact been
+computed to one loop in lattice perturbation theory in Refs. [91, 92]. The systematic uncertainties could have been
+reduced by including these corrections, although four-quark operators with both heavy and light quarks would still
+be missing. A computation of the b̄b̄ud and b̄b̄us tetraquark energies using a relativistic action for the b̄ quarks is also
+                                                                                                                     20
+
+a worthwhile future direction to complement and cross-check the results from this work and from Refs. [38–44], which
+all used NRQCD.
+   Finally, we note that the calculations presented here only used scattering interpolating operators with zero relative
+momenta, leading to missing states in the energy range considered, especially for the larger volumes. A natural next
+step is to include also scattering operators with non-vanishing relative momenta. Their implementation is straight-
+forward within our computational setup, and we have already included such operators in our recent investigation of
+the b̄c̄ud systems [49].
+                                                                                                                                                                                                      21
+
+                                      Lattice QCD                                  Static potentials Other approaches
+
+                                  0
+
+
+
+
+    binding energy ∆E0 [MeV]
+                               −100
+
+
+
+                               −200
+
+
+
+                               −300
+
+
+
+                               −400
+
+                                                                 This work                           Liu et al. (2023)          Tan et al. (2020)                   Zhang et al. (2007)
+                                                                 Hudspith and Mohler (2023)          Song et al. (2023)         Braaten et al. (2020)               Ebert et al. (2007)
+                                                                 Aoki and Aoki (2022)                Maiani et al. (2022)       Liu et al. (2019)                   Navarra et al. (2007)
+                                                                 Mohanta and Basak (2020)            Wu et al. (2022)           Wang et al. (2018)                  Vijande et al. (2006)
+                                                                 Leskovec et al. (2019)              Richard et al. (2022)      Park et al. (2018)                  Janc and Rosina (2004)
+                                                                 Junnarkar et al. (2018)             Praszalowicz (2022)        Wang (2017)                         Vijande et al. (2003)
+                                                                 Francis et al. (2016)               Kim et al. (2022)          Eichten and Quigg (2017)            Brink and Stancu (1998)
+                                                                 Bicudo et al. (2016)                Dai et al. (2022)          Karliner and Rosner (2017)          Silvestre-Brac and Semay (1993)
+                                                                 Brown and Orginos (2012)            Guo et al. (2021)          Lee and Yasui (2009)                Carlsen et al. (1988)
+                                                                 Bicudo and Wagner (2012)
+
+
+                                                                         Lattice QCD                    Other approaches
+                                                                    50
+
+
+
+
+                                      binding energy ∆E0 [MeV]
+                                                                     0
+
+
+                                                                  −50
+
+
+                                                                 −100
+
+
+                                                                 −150
+
+
+                                                                 −200
+
+
+                                                                             This work                           Chen et al. (2022)           Deng et al. (2018)
+                                                                             Hudspith and Mohler (2023)          Kim et al. (2022)            Park et al. (2018)
+                                                                             Meinel et al. (2022)                Dai et al. (2022)            Wang (2017)
+                                                                             Junnarkar et al. (2018)             Guo et al. (2021)            Eichten and Quigg (2017)
+                                                                             Francis et al. (2016)               Faustov et al. (2021)        Lee and Yasui (2009)
+                                                                             Song et al. (2023)                  Braaten et al. (2020)        Ebert et al. (2007)
+                                                                             Praszalowicz (2022)                 Lü et al. (2020)            Silvestre-Brac and Semay (1993)
+
+
+FIG. 13. Comparison of results for the binding energy of antiheavy-antiheavy-light-light tetraquarks. (upper plot): b̄b̄ud
+tetraquark with I(J P ) = 0(1+ ) (black: this work; blue: previous full lattice-QCD simulations [38–41, 43, 44]; red: lattice-
+QCD computations of static potentials in combination with the Born-Oppenheimer approximation [33, 34, 37]; green: other
+approaches (quark models, phenomenological considerations, sum rules [1, 3–15, 17–19, 23–25, 27–32]). (lower plot): b̄b̄us
+tetraquark with J P = 1+ (black: this work; blue: previous full lattice-QCD simulations [38, 39, 42, 43]; green: other approaches
+(quark models, phenomenological considerations, sum rules [3, 4, 10, 12, 14–16, 20–27, 31]).
+                                                                                                                    22
+
+                                            ACKNOWLEDGEMENTS
+
+  We thank the MILC collaboration, and in particular Doug Toussaint, for providing the gauge-link ensembles. We
+thank the developers of the QUDA [93–95] library, which was essential for the computations carried out in this project.
+We thank Luka Leskovec for collaboration on earlier related work. We thank Simone Bacchio for helpful discussions
+on the software used for the computations. We also acknowledge useful discussions with Ahmed Ali, Jozef Dudek,
+and Steve Sharpe.
+  C.A. acknowledges partial support by the project 3D-nucleon, ID number EXCELLENCE/0421/0043, co-financed
+by the European Regional Development Fund and the Republic of Cyprus through the Research and Innovation
+Foundation. J.F. received financial support by the German Research Foundation (DFG) research unit FOR5269
+“Future methods for studying confined gluons in QCD,” by the PRACE Sixth Implementation Phase (PRACE-6IP)
+program (grant agreement No. 823767) and by the EuroHPC-JU project EuroCC (grant agreement No. 951740)
+of the European Commission. S.M. is supported by the U.S. Department of Energy, Office of Science, Office of
+High Energy Physics under Award Number DE-SC0009913. M.P. and M.W. acknowledge support by the Deutsche
+Forschungsgemeinschaft (DFG, German Research Foundation) – project number 457742095. M.W. acknowledges
+support by the Heisenberg Programme of the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)
+– project number 399217702.
+  We thank the Cyprus Institute for providing computational resources on Cyclone under the project IDs p054 and
+p147. This research also used resources of the National Energy Research Scientific Computing Center (NERSC),
+a U.S. Department of Energy Office of Science User Facility operated under Contract No. DE-AC02-05CH11231,
+and resources at the Texas Advanced Computing Center that are part of the Extreme Science and Engineering
+Discovery Environment (XSEDE), which is supported by National Science Foundation grant number ACI-1548562.
+Calculations on the GOETHE-NHR and on the FUCHS-CSC high-performance computers of the Frankfurt University
+were conducted for this research. We would like to thank HPC-Hessen, funded by the State Ministry of Higher
+Education, Research and the Arts, for programming advice.
+
+
+                              Appendix A: Additional plots for the other ensembles
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   23
+
+                                                                                                                                                               ensemble a15m310                                                                                                                                                                                                                                                                                                                                                                                                                         ensemble a12m310
+
+
+                                               t/a = 5−11          t/a = 5−12        t/a = 5−13            t/a = 5−14      t/a = 5−15         t/a = 6−11          t/a = 6−12        t/a = 6−13          t/a = 6−14        t/a = 6−15        t/a = 7−11       t/a = 7−12          t/a = 7−13        t/a = 7−14         t/a = 7−15        t/a = 8−11       t/a = 8−12         t/a = 8−13            t/a = 8−14           t/a = 8−15                                                       t/a = 7−15          t/a = 7−16        t/a = 7−17            t/a = 7−18      t/a = 7−19         t/a = 8−15          t/a = 8−16        t/a = 8−17          t/a = 8−18        t/a = 8−19        t/a = 9−15       t/a = 9−16          t/a = 9−17        t/a = 9−18         t/a = 9−19        t/a = 10−15      t/a = 10−16         t/a = 10−17           t/a = 10−18          t/a = 10−19
+
+
+                                                             ∆E0                                                                         BB ∗ threshold                                                                                                                                                                                                                                                                                                                                               ∆E0                                                                         BB ∗ threshold
+                                     100                     ∆E1                                                                         B ∗ B ∗ threshold                                                                                                                                                                                                                                                                                                                    100                     ∆E1                                                                         B ∗ B ∗ threshold
+
+
+
+
+∆En = En − EB (0) − EB ∗ (0) [MeV]                                                                                                                                                                                                                                                                                                                                                                                                       ∆En = En − EB (0) − EB ∗ (0) [MeV]
+                                                             ∆E2                                                                                                                                                                                                                                                                                                                                                                                                                                      ∆E2
+
+                                      50                                                                                                                                                                                                                                                                                                                                                                                                                                       50
+
+
+                                       0                                                                                                                                                                                                                                                                                                                                                                                                                                        0
+
+
+                                     −50                                                                                                                                                                                                                                                                                                                                                                                                                                      −50
+
+
+                         −100                                                                                                                                                                                                                                                                                                                                                                                                                                     −100
+
+
+                         −150                                                                                                                                                                                                                                                                                                                                                                                                                                     −150
+                 χ2 /d.o.f. (2) : 1.92 2.15 1.93 1.82 1.63 0.34 0.93 0.88 0.92 0.81 0.39 1.13 1.03 1.05 0.90 0.33 1.24 1.14 1.14 0.96                                                                                                                                                                                                                                                                                                                     χ2 /d.o.f. (2) : 0.69 0.60 0.55 0.61 0.56 0.65 0.56 0.50 0.57 0.52 0.75 0.62 0.55 0.63 0.56 0.92 0.74 0.62 0.71 0.62
+                 χ2 /d.o.f. (1) : 2.09 1.91 1.64 1.44 1.28 0.81 0.88 0.74 0.64 0.56 1.01 1.05 0.85 0.72 0.61 0.40 0.51 0.38 0.31 0.26                                                                                                                                                                                                                                                                                                                     χ2 /d.o.f. (1) : 0.86 0.84 0.76 0.74 0.68 0.94 0.91 0.80 0.78 0.71 1.04 0.98 0.86 0.82 0.73 1.26 1.15 0.97 0.92 0.81
+                 χ2 /d.o.f. (0) : 1.25 1.14 1.00 1.03 0.92 1.44 1.29 1.10 1.12 0.98 1.44 1.19 0.99 1.02 0.88 1.80 1.41 1.10 1.12 0.93                                                                                                                                                                                                                                                                                                                     χ2 /d.o.f. (0) : 1.22 1.53 1.52 1.37 1.25 1.15 1.55 1.57 1.39 1.25 1.34 1.76 1.75 1.53 1.36 1.16 1.77 1.78 1.53 1.34
+
+
+
+                                                                                                                                                           ensemble a12m220S                                                                                                                                                                                                                                                                                                                                                                                                                            ensemble a12m220
+
+                                                         t/a = 7−15             t/a = 7−16                 t/a = 7−17            t/a = 7−18                t/a = 7−19             t/a = 8−15               t/a = 8−16              t/a = 8−17            t/a = 8−18                t/a = 8−19            t/a = 9−15                t/a = 9−16            t/a = 9−17                 t/a = 9−18              t/a = 9−19                                                                            t/a = 7−15             t/a = 7−16                 t/a = 7−17            t/a = 7−18                t/a = 7−19             t/a = 8−15               t/a = 8−16              t/a = 8−17            t/a = 8−18                t/a = 8−19            t/a = 9−15                t/a = 9−16            t/a = 9−17                  t/a = 9−18              t/a = 9−19
+
+
+                                                             ∆E0                                                                         BB ∗ threshold                                                                                                                                                                                                                                                                                                                                               ∆E0                                                                         BB ∗ threshold
+                                     100                     ∆E1                                                                         B ∗ B ∗ threshold                                                                                                                                                                                                                                                                                                                    100                     ∆E1                                                                         B ∗ B ∗ threshold
+
+
+
+
+∆En = En − EB (0) − EB ∗ (0) [MeV]                                                                                                                                                                                                                                                                                                                                                                                                       ∆En = En − EB (0) − EB ∗ (0) [MeV]
+                                                             ∆E2                                                                                                                                                                                                                                                                                                                                                                                                                                      ∆E2
+
+                                      50                                                                                                                                                                                                                                                                                                                                                                                                                                       50
+
+
+                                       0                                                                                                                                                                                                                                                                                                                                                                                                                                        0
+
+
+                                     −50                                                                                                                                                                                                                                                                                                                                                                                                                                      −50
+
+
+                         −100                                                                                                                                                                                                                                                                                                                                                                                                                                     −100
+
+
+                         −150                                                                                                                                                                                                                                                                                                                                                                                                                                     −150
+         χ2 /d.o.f. (2) : 0.76 0.67 0.60 0.60 0.76 0.50 0.43 0.38 0.39 0.59 0.58 0.48 0.42 0.43 0.64                                                                                                                                                                                                                                                                                                                                              χ2 /d.o.f. (2) : 1.79 1.60 1.46 1.49 1.35 2.08 1.82 1.64 1.65 1.48 1.20 1.04 0.95 1.06 0.94
+         χ2 /d.o.f. (1) : 1.18 1.83 1.63 1.47 1.37 0.55 1.38 1.21 1.08 0.99 0.54 1.50 1.30 1.13 1.03                                                                                                                                                                                                                                                                                                                                              χ2 /d.o.f. (1) : 2.66 2.33 2.16 2.17 2.05 3.07 2.63 2.40 2.38 2.23 2.16 1.80 1.70 1.77 1.64
+         χ2 /d.o.f. (0) : 0.29 0.25 1.02 0.98 0.91 0.32 0.27 1.13 1.08 0.98 0.27 0.23 1.22 1.15 1.04                                                                                                                                                                                                                                                                                                                                              χ2 /d.o.f. (0) : 1.95 1.71 1.61 1.59 1.46 2.22 1.91 1.75 1.71 1.56 2.59 2.16 1.95 1.88 1.69
+
+
+                                                                                                                                                               ensemble a09m310                                                                                                                                                                                                                                                                                                                                                                                                                         ensemble a09m220
+
+
+                                           t/a = 11−19      t/a = 11−20    t/a = 11−21       t/a = 11−22     t/a = 11−23   t/a = 11−24    t/a = 12−19       t/a = 12−20    t/a = 12−21    t/a = 12−22       t/a = 12−23    t/a = 12−24    t/a = 13−19    t/a = 13−20      t/a = 13−21    t/a = 13−22    t/a = 13−23     t/a = 13−24      t/a = 14−19   t/a = 14−20    t/a = 14−21        t/a = 14−22     t/a = 14−23       t/a = 14−24                                              t/a = 11−19      t/a = 11−20    t/a = 11−21       t/a = 11−22     t/a = 11−23   t/a = 11−24    t/a = 12−19       t/a = 12−20    t/a = 12−21    t/a = 12−22       t/a = 12−23    t/a = 12−24    t/a = 13−19    t/a = 13−20      t/a = 13−21    t/a = 13−22    t/a = 13−23     t/a = 13−24      t/a = 14−19   t/a = 14−20     t/a = 14−21        t/a = 14−22     t/a = 14−23       t/a = 14−24
+
+
+                                                             ∆E0                                                                         BB ∗ threshold                                                                                                                                                                                                                                                                                                                                               ∆E0                                                                         BB ∗ threshold
+                                     100                     ∆E1                                                                         B ∗ B ∗ threshold                                                                                                                                                                                                                                                                                                                    100                     ∆E1                                                                         B ∗ B ∗ threshold
+
+
+
+
+∆En = En − EB (0) − EB ∗ (0) [MeV]                                                                                                                                                                                                                                                                                                                                                                                                       ∆En = En − EB (0) − EB ∗ (0) [MeV]
+                                                             ∆E2                                                                                                                                                                                                                                                                                                                                                                                                                                      ∆E2
+
+                                      50                                                                                                                                                                                                                                                                                                                                                                                                                                       50
+
+
+                                       0                                                                                                                                                                                                                                                                                                                                                                                                                                        0
+
+
+                                     −50                                                                                                                                                                                                                                                                                                                                                                                                                                      −50
+
+
+                         −100                                                                                                                                                                                                                                                                                                                                                                                                                                     −100
+
+
+                         −150                                                                                                                                                                                                                                                                                                                                                                                                                                     −150
+                     χ2 /d.o.f. (2) : 1.76 1.55 1.49 1.36 1.49 1.55 2.01 1.74 1.65 1.48 1.62 1.67 2.41 2.02 1.88 1.66 1.80 1.84 2.42 1.94 1.80 1.57 1.74 1.77                                                                                                                                                                                                                                                                                                 χ2 /d.o.f. (2) : 0.94 0.83 0.75 0.67 0.61 0.56 1.10 0.95 0.84 0.75 0.67 0.61 1.20 1.01 0.88 0.77 0.69 0.62 0.98 0.80 0.69 0.59 0.52 0.46
+                     χ2 /d.o.f. (1) : 0.65 0.66 0.70 0.63 0.79 1.15 0.61 0.64 0.68 0.61 0.78 1.18 0.67 0.70 0.74 0.65 0.83 1.28 0.58 0.62 0.69 0.60 0.79 1.27                                                                                                                                                                                                                                                                                                 χ2 /d.o.f. (1) : 0.62 0.59 0.65 0.65 0.61 0.57 0.72 0.67 0.73 0.72 0.67 0.62 0.79 0.73 0.78 0.75 0.70 0.64 0.60 0.54 0.64 0.65 0.60 0.55
+                     χ2 /d.o.f. (0) : 0.87 0.77 0.83 0.80 0.77 0.71 0.93 0.80 0.86 0.84 0.80 0.73 1.06 0.89 0.95 0.89 0.85 0.77 1.04 0.85 0.88 0.81 0.78 0.69                                                                                                                                                                                                                                                                                                 χ2 /d.o.f. (0) : 0.59 0.69 1.44 1.41 1.31 1.62 0.50 0.64 1.45 1.42 1.31 1.68 0.34 0.48 1.46 1.41 1.29 1.68 0.40 0.57 1.68 1.60 1.44 1.86
+
+
+
+
+                                                                           FIG. 14. Fit ranges and fit results for the energy levels for the b̄b̄ud system for the other ensembles.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                24
+
+                                                                                                                                                                  ensemble a15m310                                                                                                                                                                                                                                                                                                                                                                                                                    ensemble a12m310
+
+
+                                                        t/a = 6−11             t/a = 6−12                 t/a = 6−13            t/a = 6−14                t/a = 6−15             t/a = 7−11               t/a = 7−12              t/a = 7−13            t/a = 7−14                t/a = 7−15            t/a = 8−11                t/a = 8−12            t/a = 8−13                  t/a = 8−14              t/a = 8−15                                                                           t/a = 8−15           t/a = 8−16                 t/a = 8−17            t/a = 8−18             t/a = 8−19            t/a = 9−15             t/a = 9−16            t/a = 9−17            t/a = 9−18             t/a = 9−19            t/a = 10−15             t/a = 10−16           t/a = 10−17                 t/a = 10−18           t/a = 10−19
+
+
+                                100                         ∆E0                                                                         BBs∗ threshold                                                                                                                                                                                                                                                                                                                   100                         ∆E0                                                                       BBs∗ threshold
+                                                            ∆E1                                                                         B ∗ Bs threshold                                                                                                                                                                                                                                                                                                                                             ∆E1                                                                       B ∗ Bs threshold
+
+
+
+
+∆En = En − EB (0) − EBs∗ (0) [MeV]                                                                                                                                                                                                                                                                                                                                                                                                       ∆En = En − EB (0) − EBs∗ (0) [MeV]
+                                     80                     ∆E2                                                                         B ∗ Bs∗ threshold                                                                                                                                                                                                                                                                                                                     80                     ∆E2                                                                       B ∗ Bs∗ threshold
+                                                            ∆E3                                                                                                                                                                                                                                                                                                                                                                                                                                      ∆E3
+                                     60                                                                                                                                                                                                                                                                                                                                                                                                                                       60
+
+                                     40                                                                                                                                                                                                                                                                                                                                                                                                                                       40
+
+                                     20                                                                                                                                                                                                                                                                                                                                                                                                                                       20
+
+                                      0                                                                                                                                                                                                                                                                                                                                                                                                                                        0
+
+                          −20                                                                                                                                                                                                                                                                                                                                                                                                                                      −20
+
+                          −40                                                                                                                                                                                                                                                                                                                                                                                                                                      −40
+
+                          −60                                                                                                                                                                                                                                                                                                                                                                                                                                      −60
+
+ χ2 /d.o.f. (3) :                                  0.76 0.79 0.67 0.62 1.05 0.35 0.54 0.45 0.43 0.92 0.49 0.72 0.56 0.51 1.07                                                                                                                                                                                                                                                                                                             χ2 /d.o.f. (3) :                                  0.38 0.40 0.36 0.33 0.43 0.44 0.45 0.39 0.35 0.46 0.52 0.51 0.43 0.39 0.51
+ χ2 /d.o.f. (2) :                                  0.17 0.83 0.80 0.69 0.64 0.18 0.95 0.91 0.76 0.69 0.23 1.17 1.08 0.87 0.76                                                                                                                                                                                                                                                                                                             χ2 /d.o.f. (2) :                                  0.80 0.69 0.74 0.69 0.83 0.95 0.81 0.85 0.78 0.93 0.99 0.80 0.83 0.76 0.95
+ χ2 /d.o.f. (1) :                                  0.93 0.76 0.80 0.80 0.73 0.26 0.26 0.48 0.51 0.47 0.27 0.24 0.47 0.52 0.47                                                                                                                                                                                                                                                                                                             χ2 /d.o.f. (1) :                                  0.57 0.78 0.76 1.23 1.13 0.68 0.89 0.86 1.37 1.25 0.60 0.83 0.83 1.43 1.29
+ χ2 /d.o.f. (0) :                                  2.39 2.18 2.05 1.94 1.71 0.23 0.36 0.49 0.60 0.52 0.35 0.48 0.61 0.71 0.60                                                                                                                                                                                                                                                                                                             χ2 /d.o.f. (0) :                                  1.69 1.87 1.68 1.73 1.66 1.83 2.07 1.81 1.85 1.76 1.40 1.93 1.65 1.70 1.65
+
+
+                                                                                                                                                            ensemble a12m220S                                                                                                                                                                                                                                                                                                                                                                                                                         ensemble a12m220
+
+
+                                              t/a = 7−15          t/a = 7−16        t/a = 7−17            t/a = 7−18      t/a = 7−19         t/a = 8−15          t/a = 8−16        t/a = 8−17          t/a = 8−18        t/a = 8−19        t/a = 9−15       t/a = 9−16          t/a = 9−17        t/a = 9−18         t/a = 9−19        t/a = 10−15      t/a = 10−16         t/a = 10−17           t/a = 10−18          t/a = 10−19                                                               t/a = 9−15           t/a = 9−16                 t/a = 9−17            t/a = 9−18             t/a = 9−19            t/a = 10−15            t/a = 10−16           t/a = 10−17           t/a = 10−18            t/a = 10−19           t/a = 11−15             t/a = 11−16           t/a = 11−17                 t/a = 11−18           t/a = 11−19
+
+
+                                100                         ∆E0                                                                         BBs∗ threshold                                                                                                                                                                                                                                                                                                                   100                         ∆E0                                                                       BBs∗ threshold
+                                                            ∆E1                                                                         B ∗ Bs threshold                                                                                                                                                                                                                                                                                                                                             ∆E1                                                                       B ∗ Bs threshold
+
+
+
+
+∆En = En − EB (0) − EBs∗ (0) [MeV]                                                                                                                                                                                                                                                                                                                                                                                                       ∆En = En − EB (0) − EBs∗ (0) [MeV]
+                                     80                     ∆E2                                                                         B ∗ Bs∗ threshold                                                                                                                                                                                                                                                                                                                     80                     ∆E2                                                                       B ∗ Bs∗ threshold
+                                                            ∆E3                                                                                                                                                                                                                                                                                                                                                                                                                                      ∆E3
+                                     60                                                                                                                                                                                                                                                                                                                                                                                                                                       60
+
+                                     40                                                                                                                                                                                                                                                                                                                                                                                                                                       40
+
+                                     20                                                                                                                                                                                                                                                                                                                                                                                                                                       20
+
+                                      0                                                                                                                                                                                                                                                                                                                                                                                                                                        0
+
+                          −20                                                                                                                                                                                                                                                                                                                                                                                                                                      −20
+
+                          −40                                                                                                                                                                                                                                                                                                                                                                                                                                      −40
+
+                          −60                                                                                                                                                                                                                                                                                                                                                                                                                                      −60
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     2
+                  2
+         χ /d.o.f. (3) : 0.44 0.61 0.69 0.78 0.76 0.14 0.37 0.49 0.58 0.59 0.16 0.43 0.55 0.65 0.65 0.17 0.51 0.64 0.74 0.72                                                                                                                                                                                                                                                                                                              χ /d.o.f. (3) :                                   2.39 2.04 1.79 1.71 1.77 1.05 0.95 0.86 0.83 0.96 1.18 1.01 0.89 0.86 1.02
+         χ2 /d.o.f. (2) : 0.83 1.22 1.34 1.23 1.19 0.57 0.99 1.10 1.00 0.98 0.66 1.13 1.25 1.11 1.08 0.76 1.34 1.45 1.27 1.21                                                                                                                                                                                                                                                                                                             χ2 /d.o.f. (2) :                                  1.90 1.67 1.77 1.58 1.41 0.71 0.76 1.17 1.02 0.90 0.26 0.37 0.94 0.81 0.69
+         χ2 /d.o.f. (1) : 1.01 1.22 1.20 1.22 1.15 0.59 0.83 0.84 0.91 0.86 0.67 0.95 0.93 1.01 0.94 0.76 1.09 1.07 1.14 1.04                                                                                                                                                                                                                                                                                                             χ2 /d.o.f. (1) :                                  1.91 1.60 1.56 1.54 1.63 0.61 0.50 0.70 0.75 0.91 0.59 0.46 0.71 0.78 0.98
+         χ2 /d.o.f. (0) : 0.76 0.68 0.95 0.86 0.79 0.43 0.39 0.70 0.63 0.58 0.46 0.42 0.77 0.67 0.62 0.55 0.48 0.88 0.75 0.68                                                                                                                                                                                                                                                                                                             χ2 /d.o.f. (0) :                                  2.43 2.17 1.86 1.63 1.45 2.77 2.37 1.98 1.69 1.48 3.20 2.53 2.03 1.69 1.45
+
+
+                                                                                                                                                                  ensemble a09m310                                                                                                                                                                                                                                                                                                                                                                                                                    ensemble a09m220
+
+
+                                          t/a = 11−19      t/a = 11−20    t/a = 11−21       t/a = 11−22     t/a = 11−23   t/a = 11−24    t/a = 12−19       t/a = 12−20    t/a = 12−21    t/a = 12−22       t/a = 12−23    t/a = 12−24    t/a = 13−19    t/a = 13−20      t/a = 13−21    t/a = 13−22    t/a = 13−23     t/a = 13−24      t/a = 14−19   t/a = 14−20     t/a = 14−21        t/a = 14−22     t/a = 14−23       t/a = 14−24                                             t/a = 11−19     t/a = 11−20   t/a = 11−21       t/a = 11−22     t/a = 11−23   t/a = 11−24    t/a = 12−19    t/a = 12−20   t/a = 12−21     t/a = 12−22   t/a = 12−23   t/a = 12−24     t/a = 13−19   t/a = 13−20   t/a = 13−21     t/a = 13−22   t/a = 13−23    t/a = 13−24     t/a = 14−19   t/a = 14−20     t/a = 14−21        t/a = 14−22   t/a = 14−23      t/a = 14−24
+
+
+                                100                         ∆E0                                                                         BBs∗ threshold                                                                                                                                                                                                                                                                                                                   100                         ∆E0                                                                       BBs∗ threshold
+                                                            ∆E1                                                                         B ∗ Bs threshold                                                                                                                                                                                                                                                                                                                                             ∆E1                                                                       B ∗ Bs threshold
+
+
+
+
+∆En = En − EB (0) − EBs∗ (0) [MeV]                                                                                                                                                                                                                                                                                                                                                                                                       ∆En = En − EB (0) − EBs∗ (0) [MeV]
+                                     80                     ∆E2                                                                         B ∗ Bs∗ threshold                                                                                                                                                                                                                                                                                                                     80                     ∆E2                                                                       B ∗ Bs∗ threshold
+                                                            ∆E3                                                                                                                                                                                                                                                                                                                                                                                                                                      ∆E3
+                                     60                                                                                                                                                                                                                                                                                                                                                                                                                                       60
+
+                                     40                                                                                                                                                                                                                                                                                                                                                                                                                                       40
+
+                                     20                                                                                                                                                                                                                                                                                                                                                                                                                                       20
+
+                                      0                                                                                                                                                                                                                                                                                                                                                                                                                                        0
+
+                          −20                                                                                                                                                                                                                                                                                                                                                                                                                                      −20
+
+                          −40                                                                                                                                                                                                                                                                                                                                                                                                                                      −40
+
+                          −60                                                                                                                                                                                                                                                                                                                                                                                                                                      −60
+
+                 χ2 /d.o.f. (3) : 1.02 0.90 0.95 0.86 1.28 1.22 1.05 0.92 0.95 0.85 1.33 1.26 1.10 0.94 0.97 0.85 1.41 1.33 0.69 0.56 0.69 0.59 1.22 1.15                                                                                                                                                                                                                                                                                                 χ2 /d.o.f. (3) : 0.84 0.76 0.78 0.71 0.66 0.60 0.98 0.86 0.88 0.78 0.72 0.66 1.06 0.92 0.95 0.84 0.76 0.69 0.80 0.66 0.72 0.62 0.56 0.50
+                 χ2 /d.o.f. (2) : 0.59 0.86 0.78 0.78 0.84 0.81 0.67 0.97 0.86 0.84 0.91 0.86 0.44 0.86 0.75 0.73 0.82 0.77 0.44 0.91 0.78 0.75 0.84 0.78                                                                                                                                                                                                                                                                                                 χ2 /d.o.f. (2) : 1.40 1.28 1.23 1.23 1.23 1.16 1.59 1.42 1.35 1.35 1.34 1.25 1.29 1.16 1.13 1.19 1.20 1.12 1.40 1.21 1.16 1.20 1.21 1.13
+                         2
+                 χ /d.o.f. (1) : 1.26 1.13 1.20 1.28 1.40 1.28 1.27 1.13 1.21 1.27 1.40 1.28 1.33 1.16 1.25 1.31 1.46 1.32 1.25 1.03 1.17 1.26 1.41 1.25                                                                                                                                                                                                                                                                                                  χ2 /d.o.f. (1) : 0.98 0.92 1.17 1.14 1.18 1.09 1.13 1.04 1.31 1.25 1.29 1.18 1.20 1.11 1.41 1.36 1.41 1.27 1.07 0.96 1.30 1.24 1.30 1.16
+                 χ2 /d.o.f. (0) : 1.16 1.07 1.32 1.42 1.36 1.25 1.20 1.11 1.38 1.49 1.42 1.30 1.03 0.96 1.29 1.37 1.32 1.19 1.27 1.14 1.49 1.56 1.48 1.32                                                                                                                                                                                                                                                                                                 χ2 /d.o.f. (0) : 1.05 0.93 1.12 1.05 0.96 1.26 0.51 0.46 0.69 0.67 0.60 1.08 0.51 0.44 0.71 0.67 0.60 1.07 0.59 0.50 0.80 0.75 0.66 1.19
+
+
+
+
+                                                                               FIG. 15. Fit ranges and fit results for the energy levels for the b̄b̄us system for the other ensembles.
+                                                                                                                               25
+
+
+
+
+ [1] J. Carlson, L. Heller, and J. A. Tjon, “Stability of Dimesons,” Phys. Rev. D 37 (1988) 744.
+ [2] A. V. Manohar and M. B. Wise, “Exotic Q Q anti-q anti-q states in QCD,” Nucl. Phys. B 399 (1993) 17–33,
+     arXiv:hep-ph/9212236.
+ [3] E. J. Eichten and C. Quigg, “Heavy-quark symmetry implies stable heavy tetraquark mesons Qi Qj q̄k q̄l ,” Phys. Rev.
+     Lett. 119 no. 20, (2017) 202002, arXiv:1707.09575 [hep-ph].
+ [4] B. Silvestre-Brac and C. Semay, “Systematics of L = 0 q-2 anti-q-2 systems,” Z. Phys. C 57 (1993) 273–282.
+ [5] D. M. Brink and F. Stancu, “Tetraquarks with heavy flavors,” Phys. Rev. D 57 (1998) 6778–6787.
+ [6] J. Vijande, F. Fernandez, A. Valcarce, and B. Silvestre-Brac, “Tetraquarks in a chiral constituent quark model,” Eur.
+     Phys. J. A 19 (2004) 383, arXiv:hep-ph/0310007.
+ [7] D. Janc and M. Rosina, “The Tcc = DD∗ molecular state,” Few Body Syst. 35 (2004) 175–196, arXiv:hep-ph/0405208.
+ [8] J. Vijande, A. Valcarce, and K. Tsushima, “Dynamical study of bf QQ - anti-u anti-d mesons,” Phys. Rev. D 74 (2006)
+     054018, arXiv:hep-ph/0608316.
+ [9] F. S. Navarra, M. Nielsen, and S. H. Lee, “QCD sum rules study of QQ - anti-u anti-d mesons,” Phys. Lett. B 649
+     (2007) 166–172, arXiv:hep-ph/0703071.
+[10] D. Ebert, R. N. Faustov, V. O. Galkin, and W. Lucha, “Masses of tetraquarks with two heavy quarks in the relativistic
+     quark model,” Phys. Rev. D 76 (2007) 114015, arXiv:0706.3853 [hep-ph].
+[11] M. Zhang, H. X. Zhang, and Z. Y. Zhang, “QQ anti-q anti-q four-quark bound states in chiral SU(3) quark model,”
+     Commun. Theor. Phys. 50 (2008) 437–440, arXiv:0711.1029 [nucl-th].
+[12] S. H. Lee and S. Yasui, “Stable multiquark states with heavy quarks in a diquark model,” Eur. Phys. J. C 64 (2009)
+     283–295, arXiv:0901.2977 [hep-ph].
+[13] M. Karliner and J. L. Rosner, “Discovery of doubly-charmed Ξcc baryon implies a stable (bbūd)      ¯ tetraquark,” Phys. Rev.
+     Lett. 119 no. 20, (2017) 202001, arXiv:1707.07666 [hep-ph].
+[14] Z.-G. Wang, “Analysis of the axialvector doubly heavy tetraquark states with QCD sum rules,” Acta Phys. Polon. B 49
+     (2018) 1781, arXiv:1708.04545 [hep-ph].
+[15] W. Park, S. Noh, and S. H. Lee, “Masses of the doubly heavy tetraquarks in a constituent quark model,” Nucl. Phys. A
+     983 (2019) 1–19, arXiv:1809.05257 [nucl-th].
+[16] C. Deng, H. Chen, and J. Ping, “Systematical investigation on the stability of doubly heavy tetraquark states,” Eur.
+     Phys. J. A 56 no. 1, (2020) 9, arXiv:1811.06462 [hep-ph].
+[17] B. Wang, Z.-W. Liu, and X. Liu, “B̄ (∗) B̄ (∗) interactions in chiral effective field theory,” Phys. Rev. D 99 no. 3, (2019)
+     036007, arXiv:1812.04457 [hep-ph].
+[18] M.-Z. Liu, T.-W. Wu, M. Pavon Valderrama, J.-J. Xie, and L.-S. Geng, “Heavy-quark spin and flavor symmetry partners
+     of the X(3872) revisited: What can we learn from the one boson exchange model?,” Phys. Rev. D 99 no. 9, (2019)
+     094018, arXiv:1902.03044 [hep-ph].
+[19] Y. Tan, W. Lu, and J. Ping, “Systematics of QQq̄ q̄ in a chiral constituent quark model,” Eur. Phys. J. Plus 135 no. 9,
+     (2020) 716, arXiv:2004.02106 [hep-ph].
+[20] Q.-F. Lü, D.-Y. Chen, and Y.-B. Dong, “Masses of doubly heavy tetraquarks TQQ′ in a relativized quark model,” Phys.
+     Rev. D 102 no. 3, (2020) 034012, arXiv:2006.08087 [hep-ph].
+[21] E. Braaten, L.-P. He, and A. Mohapatra, “Masses of doubly heavy tetraquarks with error bars,” Phys. Rev. D 103 no. 1,
+     (2021) 016001, arXiv:2006.08650 [hep-ph].
+[22] R. N. Faustov, V. O. Galkin, and E. M. Savchenko, “Heavy tetraquarks in the relativistic quark model,” Universe 7
+     no. 4, (2021) 94, arXiv:2103.01763 [hep-ph].
+[23] T. Guo, J. Li, J. Zhao, and L. He, “Mass spectra of doubly heavy tetraquarks in an improved chromomagnetic
+     interaction model,” Phys. Rev. D 105 no. 1, (2022) 014021, arXiv:2108.10462 [hep-ph].
+[24] L. R. Dai, E. Oset, A. Feijoo, R. Molina, L. Roca, A. M. Torres, and K. P. Khemchandani, “Masses and widths of the
+     exotic molecular B(s)(*)B(s)(*) states,” Phys. Rev. D 105 no. 7, (2022) 074017, arXiv:2201.04840 [hep-ph]. [Erratum:
+     Phys.Rev.D 106, 099904 (2022)].
+[25] Y. Kim, M. Oka, and K. Suzuki, “Doubly heavy tetraquarks in a chiral-diquark picture,” Phys. Rev. D 105 no. 7, (2022)
+     074021, arXiv:2202.06520 [hep-ph].
+[26] X. Chen, F.-L. Wang, Y. Tan, and Y. Yang, “Double-heavy tetraquarks with strangeness in the chiral quark model*,”
+     Chin. Phys. C 47 no. 2, (2023) 023102, arXiv:2206.10917 [hep-ph].
+[27] M. Praszalowicz, “Doubly heavy tetraquarks in the chiral quark soliton model,” Phys. Rev. D 106 no. 11, (2022) 114005,
+     arXiv:2208.08602 [hep-ph].
+[28] J.-M. Richard, A. Valcarce, and J. Vijande, “Doubly-heavy tetraquark bound states and resonances,” Nucl. Part. Phys.
+     Proc. 324-329 (2023) 64–67, arXiv:2209.07372 [hep-ph].
+[29] T.-W. Wu and Y.-L. Ma, “Doubly heavy tetraquark multiplets as heavy antiquark-diquark symmetry partners of heavy
+     baryons,” Phys. Rev. D 107 no. 7, (2023) L071501, arXiv:2211.15094 [hep-ph].
+[30] L. Maiani, A. Pilloni, A. D. Polosa, and V. Riquer, “Doubly heavy tetraquarks in the Born-Oppenheimer
+     approximation,” Phys. Lett. B 836 (2023) 137624, arXiv:2208.02730 [hep-ph].
+[31] Y. Song and D. Jia, “Mass spectra of doubly heavy tetraquarks in diquark−antidiquark picture,” Commun. Theor. Phys.
+     75 no. 5, (2023) 055201, arXiv:2301.00376 [hep-ph].
+[32] X.-Y. Liu, W.-X. Zhang, and D. Jia, “Doubly heavy tetraquarks: Heavy quark bindings and chromomagnetically
+                                                                                                                             26
+
+     mixings,” Phys. Rev. D 108 no. 5, (2023) 054019, arXiv:2303.03923 [hep-ph].
+[33] P. Bicudo and M. Wagner, “Lattice QCD signal for a bottom-bottom tetraquark,” Phys. Rev. D 87 no. 11, (2013)
+     114511, arXiv:1209.6274 [hep-ph].
+[34] Z. S. Brown and K. Orginos, “Tetraquark bound states in the heavy-light heavy-light system,” Phys. Rev. D 86 (2012)
+     114506, arXiv:1210.1953 [hep-lat].
+[35] P. Bicudo, K. Cichy, A. Peters, and M. Wagner, “BB interactions with static bottom quarks from Lattice QCD,” Phys.
+     Rev. D 93 no. 3, (2016) 034501, arXiv:1510.03441 [hep-lat].
+[36] P. Bicudo, K. Cichy, A. Peters, B. Wagenbach, and M. Wagner, “Evidence for the existence of udb̄b̄ and the non-existence
+     of ssb̄b̄ and ccb̄b̄ tetraquarks from lattice QCD,” Phys. Rev. D 92 no. 1, (2015) 014507, arXiv:1505.00613 [hep-lat].
+[37] P. Bicudo, J. Scheunert, and M. Wagner, “Including heavy spin effects in the prediction of a b̄b̄ud tetraquark with lattice
+     QCD potentials,” Phys. Rev. D 95 no. 3, (2017) 034502, arXiv:1612.02758 [hep-lat].
+[38] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman, “Lattice Prediction for Deeply Bound Doubly Heavy
+     Tetraquarks,” Phys. Rev. Lett. 118 no. 14, (2017) 142001, arXiv:1607.05214 [hep-lat].
+[39] P. Junnarkar, N. Mathur, and M. Padmanath, “Study of doubly heavy tetraquarks in Lattice QCD,” Phys. Rev. D 99
+     no. 3, (2019) 034507, arXiv:1810.12285 [hep-lat].
+[40] L. Leskovec, S. Meinel, M. Pflaumer, and M. Wagner, “Lattice QCD investigation of a doubly-bottom b̄b̄ud tetraquark
+     with quantum numbers I(J P ) = 0(1+ ),” Phys. Rev. D 100 no. 1, (2019) 014503, arXiv:1904.04197 [hep-lat].
+[41] P. Mohanta and S. Basak, “Construction of bbūd¯ tetraquark states on lattice with NRQCD bottom and HISQ up and
+     down quarks,” Phys. Rev. D 102 no. 9, (2020) 094516, arXiv:2008.11146 [hep-lat].
+[42] S. Meinel, M. Pflaumer, and M. Wagner, “Search for b̄b̄us and b̄c̄ud tetraquark bound states using lattice QCD,” Phys.
+     Rev. D 106 no. 3, (2022) 034507, arXiv:2205.13982 [hep-lat].
+[43] R. J. Hudspith and D. Mohler, “Exotic tetraquark states with two b¯ quarks and JP=0+ and 1+ Bs states in a
+     nonperturbatively tuned lattice NRQCD setup,” Phys. Rev. D 107 no. 11, (2023) 114510, arXiv:2303.17295 [hep-lat].
+[44] T. Aoki, S. Aoki, and T. Inoue, “Lattice study on a tetra-quark state Tbb in the HAL QCD method,” arXiv:2306.03565
+     [hep-lat].
+[45] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman, “Evidence for charm-bottom tetraquarks and the mass
+     dependence of heavy-light tetraquark states from lattice QCD,” Phys. Rev. D 99 no. 5, (2019) 054505,
+     arXiv:1810.10550 [hep-lat].
+[46] R. J. Hudspith, B. Colquhoun, A. Francis, R. Lewis, and K. Maltman, “A lattice investigation of exotic tetraquark
+     channels,” Phys. Rev. D 102 (2020) 114506, arXiv:2006.14294 [hep-lat].
+[47] N. Mathur and M. Padmanath, “b̄c̄ q1 q2 four-quark states from Lattice QCD,” PoS LATTICE2021 (2022) 443,
+     arXiv:2111.01147 [hep-lat].
+[48] M. Padmanath, A. Radhakrishnan, and N. Mathur, “Bound isoscalar axial-vector bcūd¯ tetraquark Tbc in QCD,”
+     arXiv:2307.14128 [hep-lat].
+[49] C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel, M. Pflaumer, and M. Wagner, “Shallow bound states and hints for
+     broad resonances with quark content b̄c̄ud in B-D̄ and B ∗ -D̄ scattering from lattice QCD,” arXiv:2312.02925
+     [hep-lat].
+[50] P. Bicudo, M. Cardoso, A. Peters, M. Pflaumer, and M. Wagner, “udb̄b̄ tetraquark resonances with lattice QCD potentials
+     and the Born-Oppenheimer approximation,” Phys. Rev. D 96 no. 5, (2017) 054510, arXiv:1704.02383 [hep-lat].
+[51] J. Hoffmann, A. Zimermmane-Santos, and M. Wagner, “Inclusion of heavy spin effects in the udb̄b̄ I(J P )=0(1− )
+     four-quark channel in the Born-Oppenheimer approximation,” PoS LATTICE2022 (2023) 262, arXiv:2211.15765
+     [hep-lat].
+[52] M. Luscher, “Two particle states on a torus and their relation to the scattering matrix,” Nucl. Phys. B 354 (1991)
+     531–578.
+[53] R. A. Briceno, J. J. Dudek, and R. D. Young, “Scattering processes and resonances from lattice QCD,” Rev. Mod. Phys.
+     90 no. 2, (2018) 025001, arXiv:1706.06223 [hep-lat].
+[54] S. Meinel, “Λc → Λl+ νl form factors and decay rates from lattice QCD with physical quark masses,” Phys. Rev. Lett.
+     118 no. 8, (2017) 082001, arXiv:1611.09696 [hep-lat].
+[55] S. Meinel and G. Rendon, “Λb → Λ∗ (1520)ℓ+ ℓ− form factors from lattice QCD,” Phys. Rev. D 103 no. 7, (2021) 074505,
+     arXiv:2009.09313 [hep-lat].
+[56] S. Meinel and G. Rendon, “Λc → Λ∗ (1520) form factors from lattice QCD and improved analysis of the Λb → Λ∗ (1520)
+     and Λb → Λ∗c (2595, 2625) form factors,” Phys. Rev. D 105 no. 5, (2022) 054511, arXiv:2107.13140 [hep-lat].
+[57] S. Meinel and G. Rendon, “Λb → Λ∗c (2595, 2625)ℓ− ν̄ form factors from lattice QCD,” Phys. Rev. D 103 no. 9, (2021)
+     094516, arXiv:2103.08775 [hep-lat].
+[58] A. Abdel-Rehim, C. Alexandrou, J. Berlin, M. Dalla Brida, J. Finkenrath, and M. Wagner, “Investigating efficient
+     methods for computing four-quark correlation functions,” Comput. Phys. Commun. 220 (2017) 97–121,
+     arXiv:1701.07228 [hep-lat].
+[59] PNDME Collaboration, T. Bhattacharya, V. Cirigliano, S. Cohen, R. Gupta, A. Joseph, H.-W. Lin, and B. Yoon,
+     “Iso-vector and Iso-scalar Tensor Charges of the Nucleon from Lattice QCD,” Phys. Rev. D 92 no. 9, (2015) 094511,
+     arXiv:1506.06411 [hep-lat].
+[60] R. Gupta, Y.-C. Jang, B. Yoon, H.-W. Lin, V. Cirigliano, and T. Bhattacharya, “Isovector Charges of the Nucleon from
+     2+1+1-flavor Lattice QCD,” Phys. Rev. D 98 (2018) 034503, arXiv:1806.09006 [hep-lat].
+[61] MILC Collaboration, A. Bazavov et al., “Lattice QCD Ensembles with Four Flavors of Highly Improved Staggered
+     Quarks,” Phys. Rev. D 87 no. 5, (2013) 054505, arXiv:1212.4768 [hep-lat].
+                                                                                                                            27
+
+[62] M. Wagner, C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel, and M. Pflaumer, “Lattice QCD study of
+     antiheavy-antiheavy-light-light tetraquarks based on correlation functions with scattering interpolating operators both at
+     the source and at the sink,” PoS LATTICE2022 (2023) 270, arXiv:2210.09281 [hep-lat].
+[63] MILC Collaboration, A. Bazavov et al., “Results for light pseudoscalar mesons,” PoS LATTICE2010 (2010) 074,
+     arXiv:1012.0868 [hep-lat].
+[64] HPQCD Collaboration, R. J. Dowdall et al., “The Upsilon spectrum and the determination of the lattice spacing from
+     lattice QCD including charm quarks in the sea,” Phys. Rev. D 85 (2012) 054509, arXiv:1110.6887 [hep-lat].
+[65] G. P. Lepage, L. Magnea, C. Nakhleh, U. Magnea, and K. Hornbostel, “Improved nonrelativistic QCD for heavy quark
+     physics,” Phys. Rev. D 46 (1992) 4052–4067, arXiv:hep-lat/9205007.
+[66] P. Bicudo, A. Peters, S. Velten, and M. Wagner, “Importance of meson-meson and of diquark-antidiquark creation
+     operators for a b̄b̄ud tetraquark,” Phys. Rev. D 103 no. 11, (2021) 114506, arXiv:2101.00723 [hep-lat].
+[67] ETM Collaboration, K. Jansen, C. Michael, A. Shindler, and M. Wagner, “The Static-light meson spectrum from
+     twisted mass lattice QCD,” JHEP 12 (2008) 058, arXiv:0810.1843 [hep-lat].
+[68] Flavour Lattice Averaging Group Collaboration, S. Aoki et al., “FLAG Review 2019: Flavour Lattice Averaging
+     Group (FLAG),” Eur. Phys. J. C 80 no. 2, (2020) 113, arXiv:1902.08191 [hep-lat].
+[69] Particle Data Group Collaboration, R. L. Workman et al., “Review of Particle Physics,” PTEP 2022 (2022) 083C01.
+[70] W. I. Jay and E. T. Neil, “Bayesian model averaging for analysis of lattice field theory results,” Phys. Rev. D 103 (2021)
+     114502, arXiv:2008.01069 [stat.ME].
+[71] M. Padmanath and S. Prelovsek, “Evidence for a doubly charm tetraquark pole in DD∗ scattering on the lattice,”
+     arXiv:2202.10110 [hep-lat].
+[72] S. Chen, C. Shi, Y. Chen, M. Gong, Z. Liu, W. Sun, and R. Zhang, “Tcc      +
+                                                                                  (3875) relevant DD∗ scattering from Nf = 2
+     lattice QCD,” Phys. Lett. B 833 (2022) 137391, arXiv:2206.06185 [hep-lat].
+[73] K. Rummukainen and S. A. Gottlieb, “Resonance scattering phase shifts on a nonrest frame lattice,” Nucl. Phys. B 450
+     (1995) 397–436, arXiv:hep-lat/9503028.
+[74] C. h. Kim, C. T. Sachrajda, and S. R. Sharpe, “Finite-volume effects for two-hadron states in moving frames,” Nucl.
+     Phys. B 727 (2005) 218–243, arXiv:hep-lat/0507006.
+[75] N. H. Christ, C. Kim, and T. Yamazaki, “Finite volume corrections to the two-particle decay of states with non-zero
+     momentum,” Phys. Rev. D 72 (2005) 114506, arXiv:hep-lat/0507009.
+[76] M. T. Hansen and S. R. Sharpe, “Multiple-channel generalization of Lellouch-Luscher formula,” Phys. Rev. D 86 (2012)
+     016007, arXiv:1204.0826 [hep-lat].
+[77] L. Leskovec and S. Prelovsek, “Scattering phase shifts for two particles of different mass and non-zero total momentum in
+     lattice QCD,” Phys. Rev. D 85 (2012) 114507, arXiv:1202.2145 [hep-lat].
+[78] M. Gockeler, R. Horsley, M. Lage, U. G. Meissner, P. E. L. Rakow, A. Rusetsky, G. Schierholz, and J. M. Zanotti,
+     “Scattering phases for meson and baryon resonances on general moving-frame lattices,” Phys. Rev. D 86 (2012) 094513,
+     arXiv:1206.4141 [hep-lat].
+[79] R. A. Briceno, “Two-particle multichannel systems in a finite volume with arbitrary spin,” Phys. Rev. D 89 no. 7, (2014)
+     074507, arXiv:1401.3312 [hep-lat].
+[80] R. A. Briceño, M. T. Hansen, and S. R. Sharpe, “Relating the finite-volume spectrum and the two-and-three-particle S
+     matrix for relativistic systems of identical scalar particles,” Phys. Rev. D 95 no. 7, (2017) 074510, arXiv:1701.07465
+     [hep-lat].
+[81] M.-L. Du, A. Filin, V. Baru, X.-K. Dong, E. Epelbaum, F.-K. Guo, C. Hanhart, A. Nefediev, J. Nieves, and Q. Wang,
+     “Role of left-hand cut contributions on pole extractions from lattice data: Case study for Tcc (3875)+ ,”
+     arXiv:2303.09441 [hep-ph].
+[82] A. B. a. Raposo and M. T. Hansen, “The Lüscher scattering formalism on the t-channel cut,” PoS LATTICE2022
+     (2023) 051, arXiv:2301.03981 [hep-lat].
+[83] A. B. a. Raposo and M. T. Hansen, “Finite-volume scattering on the left-hand cut,” arXiv:2311.18793 [hep-lat].
+[84] S. M. Dawid, M. H. E. Islam, and R. A. Briceño, “Analytic continuation of the relativistic three-particle scattering
+     amplitudes,” Phys. Rev. D 108 no. 3, (2023) 034016, arXiv:2303.04394 [nucl-th].
+[85] S. M. Dawid, “Analytic continuation of the finite-volume three-particle amplitudes,” 12, 2023. arXiv:2312.16380
+     [hep-lat].
+[86] L. Meng, V. Baru, E. Epelbaum, A. A. Filin, and A. M. Gasparyan, “Solving the left-hand cut problem in lattice QCD:
+     Tcc (3875)+ from finite volume energy levels,” arXiv:2312.01930 [hep-lat].
+[87] M. T. Hansen, F. Romero-López, and S. R. Sharpe, “Incorporating DDπ effects and left-hand cuts in lattice QCD
+     studies of the Tcc (3875)+ ,” arXiv:2401.06609 [hep-lat].
+[88] R. Bubna, H.-W. Hammer, F. Müller, J.-Y. Pang, A. Rusetsky, and J.-J. Wu, “Lüscher equation with long-range forces,”
+     arXiv:2402.12985 [hep-lat].
+[89] G. F. Chew and S. Mandelstam, “Theory of low-energy pion pion interactions,” Phys. Rev. 119 (1960) 467–477.
+[90] B. Blok, J. G. Korner, D. Pirjol, and J. C. Rojas, “Spectator effects in the heavy quark effective theory,” Nucl. Phys. B
+     496 (1997) 358–374, arXiv:hep-ph/9607233.
+[91] T. C. Hammant, A. G. Hart, G. M. von Hippel, R. R. Horgan, and C. J. Monahan, “Radiative improvement of the lattice
+     nonrelativistic QCD action using the background field method with applications to quarkonium spectroscopy,” Phys.
+     Rev. D 88 no. 1, (2013) 014505, arXiv:1303.3234 [hep-lat]. [Erratum: Phys.Rev.D 92, 119904 (2015)].
+[92] HPQCD Collaboration, R. J. Dowdall, C. T. H. Davies, T. Hammant, R. R. Horgan, and C. Hughes, “Bottomonium
+     hyperfine splittings from lattice nonrelativistic QCD including radiative and relativistic corrections,” Phys. Rev. D 89
+                                                                                                                    28
+
+     no. 3, (2014) 031502, arXiv:1309.5797 [hep-lat]. [Erratum: Phys.Rev.D 92, 039904 (2015)].
+[93] QUDA Collaboration, M. A. Clark, R. Babich, K. Barros, R. C. Brower, and C. Rebbi, “Solving Lattice QCD systems
+     of equations using mixed precision solvers on GPUs,” Comput. Phys. Commun. 181 (2010) 1517–1528, arXiv:0911.3191
+     [hep-lat].
+[94] QUDA Collaboration, R. Babich, M. A. Clark, B. Joo, G. Shi, R. C. Brower, and S. Gottlieb, “Scaling lattice QCD
+     beyond 100 GPUs,” in International Conference for High Performance Computing, Networking, Storage and Analysis. 9,
+     2011. arXiv:1109.2935 [hep-lat].
+[95] M. A. Clark, B. Joó, A. Strelchenko, M. Cheng, A. Gambhir, and R. Brower, “Accelerating Lattice QCD Multigrid on
+     GPUs Using Fine-Grained Parallelization,” arXiv:1612.07873 [hep-lat].
+

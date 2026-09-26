@@ -1,0 +1,1236 @@
+                                                                     A study of doubly heavy tetraquarks in Lattice QCD
+                                                                           Parikshit Junnarkar,1, ∗ Nilmani Mathur,1, † and M Padmanath2
+                                                                                           1
+                                                                                             Department of Theoretical Physics,
+                                                               Tata Institute of Fundamental Research, 1 Homi Bhabha Road, Mumbai 400005. India.
+                                                             2
+                                                               Institüt für Theoretische Physik, Universität Regensburg, D-93040 Regensburg, Germany.
+                                                            We present the results of a lattice calculation of tetraquark states with quark contents
+                                                         q1 q2 Q̄Q̄, q1 , q2 ⊂ u, d, s, c and Q ≡ b, c in both spin zero (J = 0) and spin one (J = 1) sectors.
+                                                         This calculation is performed on three dynamical Nf = 2 + 1 + 1 highly improved staggered quark
+                                                         ensembles at lattice spacings of about 0.12, 0.09 and 0.06 fm. We use the overlap action for light
+                                                         to charm quarks while a non-relativistic action with non-perturbatively improved coefficients with
+                                                         terms up to O(αs v 4 ) is employed for the bottom quark. While considering charm or bottom quarks
+                                                         as heavy, we calculate the energy levels of various four-quark configurations with light quark masses
+                                                         ranging from the physical strange quark mass to that of the corresponding physical pion mass. This
+                                                         enables us to explore the quark mass dependence of the extracted four-quark energy levels over a
+                                                         wide range of quark masses. The results of the spin one states show the presence of ground state
+                                                         energy levels which are below their respective thresholds for all the light flavor combinations. Fur-
+                                                         ther, we identify a trend that the energy splittings, defined as the energy difference between the
+                                                         ground state energy levels and their respective thresholds, increase with decreasing the light quark
+                                                         masses and are maximum at the physical point for all the spin one states. The rate of increase is
+
+
+
+
+arXiv:1810.12285v4 [hep-lat] 4 Feb 2019
+                                                         however dependent on the light quark configuration of the particular spin one state. We also present
+                                                         a study of hadron mass relations involving tetraquarks, baryons and mesons arising in the limit of
+                                                         infinitely heavy quark and find that these relations are more compatible with the heavy quark limit
+                                                         in the bottom sector but deviate substantially in the charm sector. The ground state spectra of the
+                                                         spin zero tetraquark states with various flavor combinations are seen to lie above their respective
+                                                         thresholds.
+
+                                                         PACS numbers: 12.38.Gc, 13.40.Gp, 14.20.Dh
+
+
+                                                             I.   INTRODUCTION                               Jaffe [30] as color neutral states of diquarks and anti-
+                                                                                                             diquarks1 in the context of describing light scalar mesons
+                                             The past decade and a half has seen a remarkable num-           as tetraquarks and later for exotic spectroscopy [31, 32].
+                                          ber of discoveries in heavy hadrons. These new findings            Subsequently the diquark picture of tetraquarks was in-
+                                          not only include regular mesons [1–7] and baryons [8, 9]           vestigated in detail by many authors through various
+                                          but also involve exotic hadrons like tetra-[10–12] and pen-        models [18–20, 27, 28]. Phenomenologically, a four-quark
+                                          taquarks [13] while the structures of many are still puz-          state can also be modelled as molecules [33, 34], hadro-
+                                          zling (like many of the so called X, Y and Z states) [14–          quarkonia [35, 36] and also as threshold cusps [37, 38],
+                                          22]. These hadrons, in particular, the multiquark states           depending on how the four quarks interact mutually.
+                                          are reshaping our understanding of bound states and are               Though these models are effective with varying de-
+                                          providing new insights into the dynamics of strong in-             gree in describing these states, it is essential to have
+                                          teractions at multiple scales. Among the most notable              a first principles description of these strongly interact-
+                                          multiquarks hadrons, Zb (10630) and Zb0 (10650) were dis-          ing hadrons. Lattice QCD, being a first principles non-
+                                          covered first [12], followed by Zc (4430) [10–12] and then         perturbative method, ideally provides such an avenue to
+                                          Pc pentaquarks [13]. Naturally these discoveries have              investigate these states comprehensively. The success of
+                                          kicked off a flurry of activities in heavy hadron physics,         Lattice QCD, however, is still limited for these exotic
+                                          both theoretically and experimentally, and there is a real         states for multiple reasons. First, almost all such states
+                                          prospect of discovering more exotic hadrons, particularly          that are observed, lie very close to their threshold energy
+                                          with one or more bottom quark contents at various lab-             levels. Though substantial progress has been made for
+                                          oratories [23–26]. The current status of these new dis-            resolving close-by states, it is essential to use novel tech-
+                                          coveries, particularly on exotics are provided in various          niques like distillation [39] that allows for the construc-
+                                          recent review articles [18–20, 27–29].                             tion of large set of operators with the desired overlap
+                                             Theoretical studies of exotic hadrons are not new.              onto the ground state which can then be computed using
+                                          Among the exotics, perhaps, tetraquarks are the most
+                                          studied states. Historically, they were introduced by
+                                                                                                            1 A diquark can be interpreted as a compact colored object inside a
+
+                                                                                                             hadron and is made out of two quarks (or antiquarks) in the 3(3)
+                                                                                                             or 6(6) irrep of SU(3) and can have spin zero (scalar) or spin one
+                                          ∗ parikshit@theory.tifr.res.in
+                                                                                                             (vector). With this model one can build rich phenomenology for
+                                          † nilmani@theory.tifr.res.in                                       mesons, baryons, as well as multiquark states.
+                                                                                                                                   2
+
+ the variational principle [40, 41]. Secondly, to identify a             (J = 1). These are computed at three lattice spacings
+ resonance state unambiguously from its non-interacting                  of ∼ 0.12, 0.09 and 0.06 fm, to investigate the discretiza-
+ thresholds one has to perform the rigorous finite vol-                  tion effects on these heavy hadrons. We use the rela-
+ ume analysis [41] of the discrete spectrum on multiple                  tivistic overlap action, for light to charm quarks while a
+ volumes and/or multiple momentum frames. Moreover                       non-relativistic action with non-perturbatively improved
+ these heavy hardons are very much susceptible to dis-                   coefficients with terms up to O(αs v 4 ) is employed for the
+ cretization error and a precise statement cannot be made                bottom quark. Our results for the spin one tetraquarks
+ unless one takes a controlled continuum limit of the re-                indicate the presence of energy levels below the respective
+ sults obtained at finite lattice spacings. All these issues,            thresholds for all light flavor combinations with doubly
+ amount to a very large computationally intensive calcu-                 heavy, in particular, for doubly bottom quarks. The re-
+ lation which presumably will be carried out in future but               sults for spin zero tetraquarks, which are the flavor sym-
+ currently is beyond the scope of any lattice group.                     metric cousin states of the spin one counterparts, how-
+    Current lattice QCD methods with available compu-                    ever indicate the respective energy levels are above their
+ tational resources can however be an useful tool for                    lowest strong decay two-meson thresholds. In addition
+ studying hadrons which are far below their strong de-                   to computing the ground state spectra, we also present
+ cay thresholds. For example, taking advantage of these                  a lattice study of the hadron mass relations between
+ methods and available computational resources one can                   tetraquarks, heavy baryons and mesons arising from the
+ study the deeply bound multiquark states to investigate                 heavy quark symmetry. In future we will incorporate also
+ whether such state exist in Nature. One can employ lat-                 the finite volume study so that more quantitative conclu-
+ tice methodology for a systematic search for these states               sions about the pole structures of these tetraquark states
+ using various spin and flavor combinations of interpolat-               can be made, particularly for the near-threshold states.
+ ing operators and then dialing the quark masses, span-                     The paper is organized as follows: In section II we
+ ning over a wide range, can study the onset of a sta-                   elaborate the lattice set up, actions employed and the
+ ble state with a large binding energy. In fact it has al-               quark mass combinations that we use for this work. Sec-
+ ready been speculated several years ago that there may                  tion III provides details of the tetraquark operators and
+ exist deeply bound tetraquark states in the heavy quark                 the flavor-spin combinations that we employ in this work.
+ limit. Using one pion exchange between the ground state                 In section IV, with the details of analysis method we
+ Qq̄ mesons, Manohar and Wise showed that QCD con-                       present our results, first for the spin one sector followed
+ tains stable (under strong interactions) four-quark QQq̄ q̄             by the spin zero sector. Finite volume effects on our re-
+ hadronic states in the infinite quark mass limit, and for               sults are discussed thereafter. A discussion on the hadron
+ the bottom quark this binding could well be sufficiently                mass relations with the heavy quark symmetry is followed
+ large [42].                                                             afterwards. Finally conclusions from this work are dis-
+    The heavy tetraquarks are also studied recently us-                  cussed in section V.
+ ing heavy quark effective theory [24, 43], quark mod-
+ els [23, 44–50], QCD sum rules [51–53] and large Nc
+ calculations [54–56]2 . The proposed doubly bottom                                      II.   LATTICE SETUP
+ tetraquark state and its isospin cousins are believed to
+ be strong interaction stable states with relatively long
+                                                                            We perform this calculation on three dynamical 2+1+1
+ life times. Recently lattice QCD calculations [25, 57]
+                                                                         flavors lattice ensembles generated by the MILC Col-
+ and a lattice-QCD-potential based study [58–60] also
+                                                                         laboration [61]. These ensembles, with lattice sizes
+ identified a particular exotic flavor-spin combination of
+                                                                         243 × 64, 323 × 96 and 483 × 144, at gauge couplings
+ two bottom quarks, namely udb̄b̄, with a prediction of a
+                                                                         10/g 2 = 6.00, 6.30 and 6.72, respectively, were generated
+ deeply bound state which lies below its non-interacting
+                                                                         with the HISQ action and with the one-loop, tadpole im-
+ two-meson threshold. It is thus quite crucial to inves-
+                                                                         proved Symanzik gauge action with coefficients corrected
+ tigate such and similar states using a detailed lattice
+                                                                         through O(αs a2 , nf αs a2 ) [62]. The masses of strange and
+ QCD study by incorporating various heavy and light fla-
+                                                                         charm quarks on these ensembles are set to their physi-
+ vor combinations along with different spin combinations
+                                                                         cal values while the light sea quark masses are set such
+ and at multiple lattice spacings.
+                                                                         that ms /ml = 5. The lattice spacings as measured us-
+    In this work we carry out such a calculation where we
+                                                                         ing the r1 parameter for the set of ensembles used here
+ use both the charm and bottom as heavy quarks, and
+                                                                         are 0.1207(11), 0.0888(8) and 0.0582(5) fm, respectively
+ then vary the light quark masses from the strange quark
+                                                                         [61]. Further details of these lattice QCD ensembles can
+ mass to the corresponding lower pion masses leading to
+                                                                         be found in Ref. [61].
+ various tetraquark states: q1 q2 Q̄Q̄, q1 , q2 ⊂ u, d, s, c and
+ Q ≡ b, c with both spin zero (J = 0) and spin one                          In the valence sector, for light, strange and charm
+                                                                         quarks, we employ the overlap fermion action [63, 64],
+                                                                         which has exact chiral symmetry at finite lattice spac-
+                                                                         ings [63–65] and is automatically O(ma) improved. The
+2 There are many model calculations on tetraquarks and for a detail
+                                                                         numerical implementation of the overlap fermion is car-
+ reference list readers may want to see review articles [18–20, 27–29]   ried out following the methods in Refs. [66, 67]. A wall
+                                                                                                                               3
+
+          Ns3 × Nt    a(fm)     amq mπ (MeV)                  by,
+            3
+          24 × 64 0.1207(14) 0.0738       689                                (∆(2) )2           i
+                              0.054       589                 ∆H = −c1                 + c2          (∇ · Ẽ − Ẽ · ∇)
+                                                                             8(amb )3       8(amb )3
+                              0.045       539                                   1                                   1
+                              0.038       497                            −c3       2
+                                                                                     σ · (∇ × Ẽ − Ẽ × ∇) − c4        σ · B̃
+                                                                             8(mb )                               2amb
+                              0.030       449
+                                                                                (∆(4)       (∆(2) )2
+                              0.024       400                            +c5          − c6           .                        (1)
+                              0.020       367
+                                                                               24amb       16(amb )2
+                             0.0165       337
+                             0.0125       297                 Here c1 ..c6 are the improvement coefficients, and for the
+                                                              fine lattice we use their tree level values while for coarser
+                             0.0090       257
+                                                              two lattices we employ their non-perturbative values as
+                             0.0075       237
+                                                              estimated by the HPQCD collaboration [74] on the same
+                             0.0060       216                 set of lattices. To tune the bottom quark mass we first
+                             0.0051       202                 calculate the kinetic mass of the spin average 1S bot-
+                             0.0042       186                 tomonia,
+                             0.0028       153
+                                                                                        3            1
+          323 × 96 0.0888(5) 0.049        688                             aMKin =         aMKin (Υ) + aMKin (ηb ),            (2)
+                                                                                        4            4
+                              0.030       537
+                              0.020       441                 from the relativistic energy-momentum dispersion re-
+                              0.016       396                 lation aMKin = ((ap)2 − (a∆E)2 )/(2a∆E), and then
+                                                              equate it with its experimental value. Details on the
+                             0.0135       367
+                                                              bottom quark mass tuning is given in Ref. [75].
+                              0.012       345
+                                                                 With this setup of light, strange, charm and bot-
+          483 × 144 0.0582(5) 0.028       685                 tom quark propagators, we proceed to calculate the
+                              0.025       645                 tetraquark correlators from the interpolating fields with
+                              0.020       576                 various flavor-spin combinations that we discuss in the
+                              0.018       545                 next section.
+
+   TABLE I. Parameters of ensembles used in this work
+                                                                      III.     FOUR-QUARK INTERPOLATING
+                                                                                     OPERATORS
+
+source smearing is utilized to calculate the light to charm      In this section, we describe four-quark interpolating
+quark overlap propagators on Coulomb gauge fixed lat-         fields (operators) that we employ in this work. We con-
+tices. In Table I, we list the quark masses and corre-        struct these operators with two heavy and two light
+sponding pion masses that we use for this calculation.        quarks and with the total spin J = 0 and 1. As in
+The strange quark mass is tuned by equating the lattice       Ref. [25], for both spins we construct two type of op-
+estimate of the s̄s pseudoscalar meson mass to 688.5 MeV      erators, with a goal that one overlaps onto a tetraquark
+[68–70]. We follow the Fermilab prescription of heavy         state of given quantum numbers and the other one over-
+quarks for tuning the charm quark mass [71]. We tune          laps onto the lowest strong decay two-meson states of
+it by equating the spin-averaged kinetic mass of the 1S       the same quantum numbers. The tetraquark-type op-
+charmonia (aM̄kin (1S) = 34 aMkin (J/ψ) + 41 aMkin (ηc ))     erators are constructed using the diquark prescription
+to its experimental value, 3068.6 MeV [22]. The tuned         of Jaffe [31, 32] where a color neutral hadronic oper-
+bare charm quark masses are found to be 0.528, 0.427          ator is constructed as a product of diquarks and anti-
+and 0.290 on coarse to fine lattices respectively, all of     diquarks. These diquarks (anti-diquarks) can be in the
+which satisfy mc a << 1 ensuring reduced discretization       3c (3c ) or 6c (6c ) of the color SU(3) irreducible represen-
+artifacts in this calculation. Details on the charm quark     tation (irreps). Phenomenologically, the one gluon ex-
+mass tuning can be found in Refs. [69, 70].                   change model [31, 32] favors an attractive interaction of
+                                                              two quarks and is in the 3̄ irrep of SU(3). In this work, we
+   For the bottom quarks, we employ a non-relativistic
+                                                              construct tetraquark operators with both irreps of SU(3).
+QCD (NRQCD) formulation [72]. In the NRQCD Hamil-
+                                                                 In the spin J = 1 sector, we use diquarks and anti-
+tonian we include all the terms up to 1/M02 as well as
+                                                              diquarks with the following configuration:
+the leading term of the order of 1/M03 , where M0 = amb
+is the bare mass of the bottom quarks in lattice units              (l1 , l2 ) → (3c , 0, FA ),   (Q̄, Q̄) → (3c , 1, Fs ).   (3)
+[73]. The bottom quark propagators are obtained by
+the usual time evolution of the NRQCD Hamiltonian,            The light quark (l1 , l2 ; l1 6= l2 ) combinations are con-
+H = H0 + ∆H, where the interaction term, ∆H, is given         structed with color, spin and flavor degrees of freedom
+                                                                                                                                        4
+
+as antisymmetric and are restricted within ⊂ (u, d, s, c).             flavors (u, s, c) while both c and b are used for Q. A
+The heavy quark combination (Q̄, Q̄) is constructed with               spin zero tetraquark-type operator of flavor (llQ̄Q̄) con-
+color antisymmetric 3c , forced by (l1 , l2 ) being in the             structed from the product of the aforementioned diquarks
+3̄c , and since flavor is manifestly symmetric the spin                and anti-diquarks is given by:
+is also symmetric. This combination is restricted to
+only heavy flavors ⊂ (c̄, b̄) with further restriction of                T 0 (x) = lα
+                                                                                    a
+                                                                                      (x)(Cγ5 )αβ lβb (x) Q̄bκ (x)(Cγ5 )κρ Q̄aρ (x). (7)
+Q 6= l1 6= l2 . With these diquarks and anti-diquarks,
+a spin one tetraquark-type operator of flavor (l1 l2 Q̄Q̄) is          As previously, we also construct a two-meson-type oper-
+constructed as :                                                       ator with the same quantum number of that of (llQ̄Q̄)
+                                                                       and is given by:
+T 1 (x) = (l1 )aα (x) (Cγ5 )αβ (l2 )bβ (x) Q̄aκ (x)(Cγi )κρ Q̄bρ (x)
+                                                                 (4)       M0 (x) = Q̄aα (x)(γ5 )αβ lβa (x) Q̄bκ (x)(γ5 )κρ lρb (x).   (8)
+The label x is a shorthand notation for (~x, t) where ~x
+is the spatial local site and t is the timeslice. We then              In Table III we tabulate the spin zero tetraquark config-
+construct the two-meson-type operators corresponding to                urations with the possible flavour combinations with the
+each flavor of (l1 l2 Q̄Q̄) tetraquark operator, T 1 (x), with         above flavour-spin configurations.
+the appropriate flavor antisymmetry as:
+          M1 (x) = M1 (x)M2∗ (x) − M2 (x)M1∗ (x)                       TABLE III. The tetraquark-type and two-meson-type opera-
+          M1,2 (x) = (l1,2 )aα (x) (γ5 )αβ Q̄aβ (x)                    tors for various flavors of in the spin zero sector. The range
+           ∗                                                           of pion masses used for uub̄b̄ and uuc̄c̄ states is indicated in
+          M1,2 (x) = (l1,2 )aα (x) (γi )αβ Q̄aβ (x).            (5)    the last column. All other states computed at their physical
+The tetraquark operator T 1 (x) is related to the two-                 quark mass.
+meson product M1 (x)M2∗ (x) via a Fierz transformation
+                                                                                      (l1 l2 Q̄Q̄) (M1 M2 ) I mπ (MeV)
+and the relation is explicitly shown in the appendix of
+Ref. [76] with the appropriate change in flavor labels.
+                                                                                         uub̄b̄         (BB)   1 (337 - 688)
+The various flavor and isospin (I) combinations that we
+explore for these spin one tetraquark-type and two-meson-                                uuc̄c̄         (DD)   1 (297 - 688)
+type operators are tabulated in Table II.
+                                                                                         ssb̄b̄     (Bs Bs ) 0        -
+TABLE II. The tetraquark-type and two-meson-type operators                               ccb̄b̄     (Bc Bc ) 0        -
+that we study in this work with possible flavor combinations
+and allowed isospin (I) in the spin one sector. The last column                          ssc̄c̄     (Ds Ds ) 0        -
+shows the range of pion masses that we use for the light quarks
+on the coarsest lattice spacing.
+                                                                         With the operators so constructed, we proceed to com-
+          (l1 l2 Q̄Q̄) [(M1 M2∗ )(M2 M1∗ )] I mπ (MeV)                 pute the correlation matrices of all the possible combi-
+                                                                       nations of these operators for a given spin and flavor,
+            udb̄b̄     (BB 0∗ )(B 0 B ∗ )   0 (257 - 688)              and then extract the associated energy states from the
+                                                                       generalized eigenvalue solutions. In the next section we
+            usb̄b̄     (BBs∗ )(Bs B ∗ )     1
+                                                (186 - 688)
+                                            2                          discuss this in detailed.
+            ucb̄b̄     (BBc∗ )(Bc B ∗ )     1
+                                            2
+                                                (153 - 688)
+
+            udc̄c̄    (DD0∗ )(D0 D∗ )       0 (257 - 688)                                         IV.    RESULTS
+
+            usc̄c̄     (DDs∗ )(Ds D∗ )      1
+                                                (257 - 688)
+                                            2                            In this section, first we elaborate the analysis proce-
+                                                                       dure that we utilize to extract the energy levels from the
+  For the spin zero sector, we employ following diquark                matrix of correlation functions constructed from the in-
+anti-diquark configuration where both diquarks are with                terpolating fields mentioned above. Results obtained will
+spin zero:                                                             be discussed after that.
+        (l, l) → (6c , 0, FS ),      (Q̄Q̄) → (6c , 0, Fs ).    (6)
+The combination (l, l) being manifestly flavor symmet-                                    A.       Analysis Methods
+ric requires the color degree of freedom to be in the 6c .
+For the combination (Q̄, Q̄), the color degree of freedom                To evaluate the energy levels corresponding to the op-
+is consequently restricted to 6c while the flavor degree               erators discussed in III, we first construct a correlator
+of freedom is manifestly symmetric. In the above ex-                   matrix of these operators and then use the variational
+pression, for the combination (l, l) we incorporate the                method [40, 41]. This matrix of correlation functions
+                                                                                                                                        5
+
+ Cij (t) is given as:
+
+                              h0|Oi (~x, t)Oj† (~0, 0)|0i,
+                          X
+              Cij (t) =                                            (9)                        Energy level 0
+                                                                              0.90
+                          ~
+                          x                                                                   BBs∗
+                                 
+ where the operator Oi (~x, t) ∈ T k (~x, t), Mk (~x, t) is ei-
+                                                                              0.85
+ ther a tetraquark-type operator or a two-meson-type op-
+ erator of a particular spin k. For the spin one tetraquark                aEeff
+ states Oi ’s correspond to Eqs. (4) and (5) whereas for                      0.80
+ the spin zero states these are from Eqs. (7) and (8). We
+ analyze each spin sector separately. After constructing
+ the correlation matrix, C(t), for a given spin and flavor                    0.75
+ combination, we solve a generalized eigenvalue problem
+ (GEVP) to obtain the two energy levels [40, 41]. The
+ standard methods for GEVP [40, 41, 77, 78] are typi-                                           6              12           18   24
+ cally suited for a Hermitian correlator matrix. We note                                                            (t/a)
+ that since we are using a wall source, the correlator ma-
+ trix is non-Hermitian3 . Hence we employ a variation of                  FIG. 1. Effective mass of the ground state energy level (data
+ GEVP method, named as eigenvector method, involv-                        in green) obtained from GEVP solution for the spin 1, usb̄b̄
+ ing eigenvector projection in evaluating the ground state                tetraquark state at mπ = 688 MeV and a = 0.0582 fm. The
+ energies [79]. The method involves using the left and                    data in orange is the effective mass of the threshold correlator
+ right eigenvectors of the correlator matrix to construct                 BBs∗ .
+ the principal correlator as discussed below:
+    1. Compute left and right eigenvectors of the correla-
+       tor matrix C(t) at chosen time-slices (t1 , t0 ) as:               sum of the ground state masses of the two mesons in-
+                                                                          volved. We then compare the lowest energy level ob-
+       C(t1 )vR,n (t1 , t0 ) = λn (t1 , t0 )C(t0 )vR,n (t1 , t0 )         tained from GEVP solution with the non-interacting two-
+                                                                          meson threshold and evaluate the energy splitting be-
+       vL,n (t1 , t0 )C(t1 ) = λn (t1 , t0 )vL,n (t1 , t0 )C(t0 ). (10)
+                                                                          tween them as:
+       The time-slices (t1 , t0 ) are chosen such that t1 /t0 >
+       2 and t1 chosen in the region where the correlator                                           ∆E k = ET k − E2M ,               (12)
+       is expected to be dominated by the ground state.
+                                                                          where ET k is the ground state energy obtained from the
+    2. The eigenvectors vL,R,n (t1 , t0 ) are then used to con-           principal correlator of GEVP while E2M = EM1 + EM2
+       struct the principal correlator as:                                is the energy of the non-interacting two meson (M1 and
+                        †                                                 M2 ) threshold. The above energy splitting (∆E k ) can
+              Λn (t) = vL,n (t, t0 )C(t)vR,n (t1 , t0 ),         (11)
+                                                                          be evaluated directly by fitting the two data sets sepa-
+       and the effective masses are then obtained from                    rately and then computing the difference on each resam-
+       mn,eff = log(Λn (t)/Λn (t + δt)).                                  ple. Alternatively, this can also be evaluated by taking
+                                                                          the Jackknife ratio of the principal correlator (Λ(t)) of
+ For a Hermitian correlator matrix, the left and right                    GEVP to two-meson correlators, M1 (t) × M2 (t)) as:
+ eigenvectors will be identical and hence this method
+ will be the same as standard methods [40, 41, 77, 78].                                            Λ(t)              k
+ For a non-Hermitian correlator, the source and sink op-                           Λ0 (t) =                   → Ae−∆E t + ...         (13)
+                                                                                              M1 (t) × M2 (t)
+ erators are accordingly rotated by the left and right
+ eigenvectors respectively. To check the effects of non-
+ hermiticity we also solve GEVP with the standard meth-                   A fit to the ratio correlator (Λ0 (t)) will then yield directly
+ ods [40, 41, 77, 78]. We find consistent results with our                the energy splitting with respect to the relevant thresh-
+ preferred eigenvector method and the results from the                    old. Such a construction offers the advantage of reducing
+ eigenvector method being more stable.                                    the systematic errors through Jackknifing. However in
+    The principal correlators thus obtained correspond to                 using such an Eeffective      correlator, caution must be ex-
+                                                                                           0 =-87.6324 ± 6.1811 MeV
+
+ two energy levels and the ground state energy is com-                    ercised as this construction can produce spurious effects
+ puted from the lowest one. On the other hand, we cal-                    since the saturation of the ground states of the numerator
+ culate the non-interacting two meson threshold from the                  and the denominator may not happen at the similar time
+                                                                          slices. In this work, in estimating the energy splitting,
+                                                                          we utilize both the direct and ratio methods and find
+                                                                          consistent results. However, as expected we find smaller
+3 The same correlator matrix is found to be hermitian when com-
+                                                                          uncertainties in the ratio method. We now present the
+ puted with unsmeared point sources and sink.                             results obtained through above mentioned analysis.
+                                                                                                                                      6
+
+            B.    Spin one tetraquarks J P = 1+                           mass.
+                                                                             It can be noted that for all the flavor combinations,
+    We begin with presenting data for the spin one doubly                 there is a trend of increment of ∆E 1 with the lowering
+ bottom tetraquark states. As described earlier, we com-                  of pion masses and we will discuss the details shortly.
+ pute a matrix of correlation functions of the tetraquark                 The availability of a large number of data points allows
+ T 1 (x) and two-mesons operators M1 (x). The diagonal                    us to perform the chiral extrapolation much reliably. At
+ correlators of this matrix correspond to the same source-                each lattice spacing, we first perform the chiral extrapola-
+ sink operators while the off-diagonal correlators have a                 tion of ∆E 1 and then perform a continuum extrapolation
+ tetraquark operator at the source and a two-meson oper-                  from the results obtained at three lattice spacings. We
+ ator at the sink and vice-a-versa. The correlator matrix                 use the following simple quadratic ansatz for both chiral
+ is non-hermitian and as mentioned earlier, in obtaining                  and continuum extrapolations:
+ our final results, we employ the eigenvector method of                                       k
+ diagonalization.                                                                           ∆Em π
+                                                                                                  = ck1 + ck2 m2π ,                (14)
+    As a representative plot on analysis, in Figure 1 we                                     ∆Eak = ck,a  k,a 2
+                                                                                                     1 + c2  a .                   (15)
+ show the effective mass of the lowest energy level ob-
+ tained from such a diagonalization along with the effec-                 Here the label k for the spin is kept general since we will
+ tive mass of the non-interacting two meson threshold cor-                also use these ansatz for both spin sectors. We perform
+ relator for the case of usb̄b̄. The data in orange is the                two fittings: one including all data points to show the
+ effective mass of the non-interacting two-meson correla-                 pion mass dependence over a wide range of pion masses
+ tor which in this case is obtained from the product of the               and the other with only the lower few pion masses to per-
+ correlators of the B and Bs∗ mesons4 . The data in green                 form the chiral extrapolation. The fit results are shown
+ is the effective mass of the lowest eigenvalue (the ground               in Table IV, where in the second column we show the rele-
+ state) which is clearly below the effective mass of the                  vant slope parameter labelled as c1,m 2
+                                                                                                                   π
+                                                                                                                     which is indicative
+ threshold correlator. We also find that the effective mass               of the pion mass dependence of the energy splitting ∆E 1 .
+ corresponding to second eigenvalue overlaps with the ef-                 It is instructive to compare c1,m2
+                                                                                                               π
+                                                                                                                  parameters for differ-
+ fective mass of the threshold correlator in its approach                 ent tetraquark states with different flavor combinations
+ to the plateau. However, as expected it is more noiser                   at a given lattice spacing. The fits indicate that the state
+ and need bigger basis of operators to extract it reliably.               udb̄b̄ exhibits the most pronounced trend in the increase
+ As discussed previously, for each flavor combination we                  of ∆E 1 , followed by the state usb̄b̄ while the state ucb̄b̄
+ calculate the energy splitting ∆E 1 directly from Eq. (12)               exhibits a very minute variation. The results at the finest
+ by fitting the individual correlators as well as from the                lattice spacings do not indicate such a clear trend as we
+ ratio of correlators using Eq. (13).                                     do not have data points at much lighter pion masses at
+    Following the above procedure we calculate the energy                 this lattice spacing.
+ splittings (∆E 1 ) for all the doubly bottom tetraquarks                    For the second fit, i.e., for the chiral extrapolation,
+ with various flavor combinations mentioned in Table                      we use the ansatz in Eq. (14) and employ cuts on the
+ II. This is performed on three different lattices (a ∼                   largest pion masses and include data corresponding to as
+ 0.12, 0.09 and 0.06 fm) and on each one we vary the light                low pion masses as can be afforded by meaningful uncer-
+ quark masses over a wide range as listed in Table II. In                 tainties in the extrapolation. The results of the chiral
+ Figure 2, we show these results where in the left panel we               extrapolation are shown in Table IV with the appropri-
+ plot these energies computed at various pion masses. The                 ate slope parameter labelled as c1,chiral
+                                                                                                               2      in column 5, and
+ results for the flavor combinations, uq b̄b̄ with q ∈ (d, s, c)          the relevant maximum pion mass used in the fit being la-
+ are shown by red, green and blue colored data, respec-                   belled as mcutπ is shown in column 4. The chirally extrap-
+ tively. As a representative plot we choose to show results               olated values of ∆E 1 |mphys   are shown in the last column.
+                                                                                                     π
+ at the coarse lattice spacing since here we have the max-                We then use these chirally extrapolated ∆E 1 |mphys      from
+ imum number of pion masses and therefore can show the                                                                         π
+                                                                          three different lattice spacings and perform a continuum
+ pion mass dependence of these energy splittings (∆E 1 )                  extrapolation using the ansatz in Eq. (15). The results
+ more prominently. Result for the udb̄b̄ state exhibits                   of this extrapolation are shown in the right panel of Fig-
+ larger uncertainties at lower pion masses due to the pres-               ure 2 and the fit results are listed in Table V. The slope
+ ence of two light quarks while the state usb̄b̄ allows us                parameter c1,a     in this case will be an indicator of the
+                                                                                         2
+ to extract results at much lower pion masses. For ucb̄b̄                 lattice spacing dependence of the particular state. For
+ we could extract results even at the physical light quark                udb̄b̄ and usb̄b̄, these are consistent with zero indicating
+                                                                          no dependence on lattice spacing. The parameter c1,a        2
+                                                                          for ucb̄b̄ state indicates a mild dependence on the lattice
+4 In the case of the usb̄b̄ state, there exist two relevant threshold     spacing. The state scb̄b̄, which is the SU(3) symmet-
+ states namely BBs∗ and Bs B ∗ . Of these two, we choose BBs∗ which       ric state of ucb̄b̄, requires no chiral extrapolation since
+ has relatively lower energy than that of Bs B ∗ . Similarly for all      all quark masses are at their physical values. The cor-
+ other flavor combinations, such as ucb̄b̄, usc̄c̄ and scb̄b̄, we again   responding lattice spacing dependence parameter, c1,a      2 ,
+ choose the lowest strong decay threshold.                                as shown in Table V, indicates no dependence on lattice
+                                                                                                                                    7
+
+
+                  udb̄b̄                                                                                                0.1207 fm
+                  usb̄b̄                                                                                                0.0888 fm
+               100ucb̄b̄                                                                                                0.0582fm
+
+
+                    0
+
+
+
+
+ ∆E 1 (MeV)
+              −100
+
+
+              −200
+
+
+              −300
+
+                              0.1   0.2       0.3       0.4             0.000          0.004          0.008          0.012
+                                      m2π (GeV)2                                                a2 (fm)2
+
+FIG. 2. Results of udb̄b̄, usb̄b̄ and ucb̄b̄ doubly bottom tetraquark states color coded in red, green and blue respectively in both
+panels. Left panel: Energy splittings at several pion masses at a = 0.1207 fm for each of the states. The fit bands indicate a
+chiral extrapolation fit as per Eq. (14) color coded appropriately for each state. Right panel: Continuum extrapolation results
+as per Eq. (15) from three lattice spacings. The data point at each lattice spacing is the result of the chiral extrapolation to
+the physical pion mass at that lattice spacing.
+
+
+                    udc̄c̄                                                                                              0.1207 fm
+                    usc̄c̄                                                                                              0.0888 fm
+                                                                                                                        0.0582fm
+               20
+
+
+
+
+ ∆E 1 (MeV)
+                0
+
+
+              −20
+
+
+              −40
+
+
+
+                             0.1    0.2       0.3      0.4             0.000          0.004           0.008          0.012
+                                     m2π (GeV)2                                                 a2 (fm)2
+
+FIG. 3. Results of udc̄c̄ and usc̄c̄ doubly charm tetraquark states color coded in red and green in both panels. Left panel:
+Effective splittings at several pion masses at a = 0.1207 fm for each of the states. The fit bands indicate a chiral extrapolation
+fit as per Eq. (14) color coded appropriately for each state. Right panel: Continuum extrapolation results as per Eq. (15) from
+three lattice spacings. The data point at each lattice spacing is the result of the chiral extrapolation to the physical pion mass
+at that lattice spacing.
+
+
+spacing of this state. The continuum extrapolated results           lattice spacing dependence of some of our findings such
+      mphys                                                         as for ucb̄b̄ state. Hence we also report our results with-
+∆E 1 |a=0
+       π
+            are shown in Figure 4.
+                                                                    out including data from the fine lattice. Since we are left
+   It can be noted that at the finest lattice spacing, the          with only two data points, we have not performed any
+lowest pion mass available is mπ = 545 MeV, which may               fit (with 2 degrees of freedom) in this case. Instead we
+not be low enough for a chiral extrapolation. Because of            average the results obtained on other two lattices (with
+this reason, the chirally extrapolated results at this lat-         spacings 0.0888 and 0.1207 fm) and report that with er-
+tice spacing may have a systematic effect arising from the          rorbars added in the quadrature. In column 5 of Table V
+absence of lower pion masses and that may reflect in the
+                                                                                                                                                  8
+
+
+                                                                                  TABLE V. Continuum extrapolation results for the various
+                                                                                  flavors of tetraquark states in the spin one sector. The fourth
+                                                                 0.1207 fm        column is the continuum extrapolation results from three lat-
+                 0                                                                tices. The last column is obtained by averaging results from
+                                                                 0.0888 fm        coarser two lattices.
+                                                                 0.0582fm                                                  mphys
+                                                                                   State      c1,a
+                                                                                               1          c1,a
+                                                                                                           2         ∆E 1 |a=0
+                                                                                                                            π
+                                                                                                                                     ∆E 1 |avg
+
+
+
+∆E 1 (MeV)
+             −10                                                                                                       (MeV)          (MeV)
+
+                                                                                   udb̄b̄   -143(34)   -1239(2915)   -143.3(33.9)   -165.0(32.5)
+
+             −20                                                                   usb̄b̄   -87(32)    -2393(2725)   -86.7(32.4)    -115.0(32.8)
+
+                                                                                   ucb̄b̄    -6(11)    -1918(1239)    -6.4(11.2)    -28.95(16.3)
+
+                                                                                   scb̄b̄    -8(3)      -395(398)    -7.67(3.21)    -11.94(4.7)
+                      0.000         0.005              0.010              0.015
+                                            a2 (fm)2                               udc̄c̄   -23(11)    -637(1001)    -23.3(11.4)     -31.7(8.8)
+
+                FIG. 4. Continuum extrapolation of scb̄b̄ state.                   usc̄c̄    -8(8)      -241(574)     -7.7(7.5)      -10.8(4.5)
+
+
+
+TABLE IV. Pion mass dependence and chiral extrapolation
+results for the spin one tetraquarks with different flavor com-                   The relevant lowest thresholds for the flavor combina-
+binations on three different lattices.                                            tions udc̄c̄ and usc̄c̄ are the non-interacting D-D∗ and
+                                                                      phys        D-Ds∗ mesons, respectively. For both cases, we find an
+             State        a      c1,π
+                                  2      mcut
+                                          π      c1,chiral
+                                                  2            ∆E 1 |mπ           energy level below their relevant strong decay thresholds
+                        (fm)    (MeV)                            (MeV)            while the other energy level appears at the threshold.
+                                                                                  As in the doubly bottom cases, we calculate the energy
+                       0.1207 165(40)    539     152(76)       -158.1(18.0)       splittings (∆E 1 in Eq.(12)) between the lowest energy
+             udb̄b̄    0.0888 246(71)    688     246(71)       -171.9(27.4)       levels and the threshold states by direct fitting as well as
+                                                                                  from the ratio of correlators (as in Eq.(13)). We repre-
+                       0.0582 102(56)    645     102(85)       -134.3(29.6)       sent the fitted results for udc̄c̄ by red data points while
+                       0.1207   80(13)   297     82(376)       -121.2(16.4)       results for usc̄c̄ are shown by green points. The fitted re-
+                                                                                  sults for pion mass dependence and chiral extrapolation
+             usb̄b̄    0.0888   91(55)   537    130(133) -108.8(28.5)             are shown in Table IV, while the results for continuum
+                       0.0582   21(53)   645      3(80)        -93.1(27.8)        extrapolation are shown in Table V. In the case of udc̄c̄,
+                                                                                  similar to udb̄b̄, we observe a trend in the increase of ∆E 1
+                       0.1207   30(9)    257    183(306)       -33.3(10.9)        with the lowering of the light quark constituents. This is
+             ucb̄b̄    0.0888   21(14)   441     71(89)        -24.6(12.1)        evident from the fits for the pion mass dependence and is
+                                                                                  indicated by c1,mπ parameter on the coarsest two lattice
+                       0.0582   6(17)    645      3(25)         -12.0(8.6)
+                                                                                  spacings. The finest lattice spacing results do not clearly
+                       0.1207   54(10)   449     44(28)         -31.4(5.8)        indicate this trend due to the lack of lower pion masses
+                                                                                  at that lattice spacing. The pion mass dependence of the
+             udc̄c̄    0.0888   43(17)   688     43(17)         -31.9(6.6)        energy splitting for usc̄c̄, color coded in green, is much
+                       0.0582   8(18)    688      9(34)        -18.5(11.9)        flatter in comparison to udc̄c̄ and this trend is reflected in
+                                                                                  the c1,m
+                                                                                         2
+                                                                                            π
+                                                                                              coefficient. The continuum extrapolations for
+                       0.1207    4(6)    449      -8(9)         -11.4(2.5)        both udc̄c̄ and usc̄c̄ indicate no discernible dependence
+             usc̄c̄    0.0888   -7(11)   537     -31(30)        -10.2(3.8)        on the lattice spacing.
+                       0.0582   -7(17)   688     -7(17)         -11.0(6.6)           In column 4 of Table V, we show the continuum ex-
+                                                                                  trapolated results for doubly charmed tetraquarks. The
+                                                                                  column 5 shows the average results obtained on coarse
+                                                                                  two lattices. Both columns show the presence of energy
+we show those average results by ∆E 1 |avg .                                      levels below their respective thresholds both for udc̄c̄ and
+  We now discuss the results of the spin one doubly                               usc̄c̄. However, they are very close to their respective
+charm tetraquarks. In Figure 3 we show those results                              strong decay thresholds as was also observed in Ref. [80].
+where the left panel shows the pion mass dependence and                           Because of their close proximity to thresholds, a careful
+the chiral extrapolation on the coarse lattice. The right                         finite volume analysis [41] is needed to make conclusive
+panel represents results for the continuum extrapolation.                         statements about the nature of these states. Though
+                                                                                                                               9
+
+                                                                  these energy splittings is significantly noisier in compar-
+                                                                  ison to the spin one udb̄b̄ state with the same statistics.
+                                                                  This limits us in using much lighter pion masses for uub̄b̄.
+                                                                  Furthermore, this also forces us to use the entire dataset
+    0.88
+                                                                  for exploring both the pion mass dependence as well as
+                                                                  the chiral extrapolation. We perform a chiral extrapola-
+                                                                  tion with the ansatz in Eq. (14) at each lattice spacing
+ aEeff                                                            and the results are listed in Table VI. The fits for the
+    0.80
+                                                                  parameter c0,m2
+                                                                                   π
+                                                                                      indicate a dependence on pion mass for
+                                                                  a = 0.1207 fm and no dependence is seen for the other
+                                                                  two lattice spacings, since c20,mπ is consistent with zero.
+    0.72
+                                                                  It can be noted that this behavior again is in contrast
+                                              Energy level 0      with the pion mass dependence of the udb̄b̄ state where a
+                                              BB                  non-trivial dependence was clearly identified. After the
+                  8           16         24              32       chiral extrapolation, we perform the continuum extrapo-
+                              (t/a)                               lation using the ansatz in Eq. (15) and fits are shown in
+                                                                  Table VII. The slope parameter c0,a 2   for the state uub̄b̄ is
+FIG. 5.       Effective mass of the ground state energy level     consistent with zero indicating no dependence on the lat-
+(green) obtained from the the GEVP solution for the spin          tice spacing. The physical and continuum extrapolated
+0, uub̄b̄ tetraquark state. The data in orange is the effective   result for uub̄b̄ clearly indicates that there is no energy
+mass of the threshold correlator BB. Results computed at
+                                                                  level below its lowest strong decay threshold with any
+a = 0.0583 fm and at mπ = 688 MeV.
+                                                                  statistical significance and is consistent with zero.
+                                                                     The green data points in Figure 6 show the results for
+they could be stable under strong interaction they may            ∆E 0 (on a = 0.1207 fm lattice) for the spin zero doubly
+not appear as bound states because of threshold effects.          charmed tetraquarks uuc̄c̄. In this case the GEVP solu-
+                                                                  tions also display similar qualitative features as the cor-
+                                                                  responding doubly bottom states where the ground state
+           C.   Spin zero tetraquarks J P = 0+                    coincides with the threshold and a well separated second
+                                                                  state lies above that. Here, the threshold is that of the
+   In the spin zero sector, we compute the energy levels          two non-interacting D mesons. As in the previous case,
+of the tetraquark states with various flavor combinations         we use the entire dataset for the pion mass dependence
+that are listed in Table III. These tetraquark states are         as well as chiral extrapolation. The chiral extrapolation
+flavor symmetric cousins of those listed in Table II. As in       fits at each lattice spacing shown in Table VI indicate no
+the case of spin one sector, we compute a matrix of cor-          dependence on the pion mass since the parameter c0,m     2
+                                                                                                                               π
+
+
+relation functions consisting tetraquark-type, T 0 (x), and       is found to be consistent with zero. The continuum ex-
+two-meson-type, M0 (x), interpolating fields and employ           trapolation for this case, color coded in green, is shown
+the eigenvector method of diagonalization in obtaining            in the right panel of Figure 6, which indicates a mild
+our final results.                                                dependence on the lattice spacing. The physical and
+                                                                                                             mphys
+   We shall begin by discussing the spin zero doubly              continuum extrapolated results (∆E 1 |a=0    π
+                                                                                                                   ) are shown
+charmed and doubly bottom tetraquark states with I =              in the fifth column of Table VII and all are found to lie
+1. The effective masses of the principal correlators, ob-         above the respective threshold states. As in the spin one
+tained from GEVP analysis, for the flavor combination             case, we have also calculated the average values of these
+uub̄b̄ are shown in Figure 5. This representative fig-            energy splittings from the results obtained on two coarse
+ure is obtained on the fine lattice and at the pion mass          lattices, and show that in the last column of Table VII.
+mπ = 688 MeV. The relevant strong decay threshold in                 With our available quark propagators we are also able
+this case is the two non-interacting B mesons. The ef-            to study I = 0, J = 0 tetraquark states, ssb̄b̄, ssc̄c̄ and
+fective mass of the product correlator of two B mesons            ccb̄b̄, where the strange, charm and bottom quark masses
+is represented by the orange data. The effective mass of          are tuned to their physical values. Energy levels obtained
+the lowest eigenvalue, shown in green, is seen to coincide        for these states will thus be at the physical points and
+with the threshold correlator. This behavior is in con-           there is no need for any chiral extrapolation. The thresh-
+trast when compared with its flavor anti-symmetric part-          olds for these states are the non-interacting Bs Bs , Ds Ds
+ner udb̄b̄ where there is a clear indication of the ground        and Bc Bc , respectively. These require only a continuum
+state level being below the relevant threshold. The en-           extrapolation which are shown in the two panels of Fig-
+ergy splitting (∆E 0 in Eq. (12)) of the tetraquark state         ure 7, and the fitted results are shown in Table VII. The
+uub̄b̄, is shown at the left panel of Figure 6 by red col-        estimates of the energy splitting ∆E 0 for the state ssb̄b̄
+ored data points where results are obtained at various            (color coded in red) show no lattice spacing dependence
+pion masses (on the coarser lattice) to explore the pion          and the final result is consistent with zero indicating the
+mass dependence. We note that the determination of                absence of any bound state. For the state ssc̄c̄ we also
+                                                                                                                                      10
+
+
+                    uub̄b̄                                                                                                    0.1207 fm
+                    uuc̄c̄                                                                                                    0.0888 fm
+                                                                                                                              0.0582fm
+               20
+
+
+
+
+ ∆E 0 (MeV)
+                0
+
+
+              −20
+
+
+              −40
+
+
+
+                             0.1           0.2              0.3      0.4      0.000         0.004            0.008         0.012
+                                            m2π (GeV)2                                                 a2 (fm)2
+
+FIG. 6. Results of spin zero uub̄b̄ and uuc̄c̄ tetraquark states. Left panel: Energy splittings at several pion masses at a = 0.1207
+fm for both the states. The fit bands indicate a chiral extrapolation fit as per Eq. (14) color coded appropriately for each
+state. Right panel: Continuum extrapolation results as per Eq. (15) from three lattice spacings. The data point at each lattice
+spacing is the result of the chiral extrapolation to the physical pion mass at that lattice spacing.
+
+
+                    ccb̄b̄                                                                                                    0.1207 fm
+                    ssb̄b̄                                                                                                    0.0888 fm
+                    ssc̄c̄                                                                                                    0.0582fm
+
+               15
+
+
+
+
+ ∆E 0 (MeV)
+                0
+
+
+
+              −15
+
+
+
+
+                    0.000          0.004            0.008         0.012      0.000         0.004           0.008      0.012
+                                                 a2 (fm)2                                               a2 (fm)2
+
+
+FIG. 7. Left: Continuum extrapolation of ssb̄b̄ and ssc̄c̄ states from three lattice spacings. Right: Continuum extrapolation
+of the ccb̄b̄.
+
+
+find similar results and the continuum extrapolated result                                D.       Finite volume effects
+lie above its respective threshold which is most likely to
+be a scattering state. Results for the state ccb̄b̄ indicates a
+mild lattice spacing dependence and the continuum result                      For all the spin one tetraquark states with various fla-
+is also most likely be a scattering state. In conclusion,                  vor combinations listed in Table II, we have found the
+our analysis on the I = 0, spin zero, tetraquarks with                     energy levels below their respective strong decay thresh-
+flavor combinations ssb̄b̄, ssc̄c̄ and ccb̄b̄ suggest the ab-              olds. In some cases the energy splittings (∆E 1 ) between
+sence of any bound state and the observed energy levels                    the ground state and the threshold state are very large
+correspond to the scattering states. Recently a potential                  while for others they are close and below their respective
+based lattice QCD study in Ref. [59] for doubly bottom                     thresholds. However, all these energy levels are obtained
+spin zero states also concluded the same.                                  within a single volume of about 3 fm. It is thus necessary
+                                                                           to estimate the finite volume effects on these energy dif-
+                                                                           ferences and obtain their infinite volume estimates which
+                                                                                                                                            11
+
+                                                                                effects are suppressed by the threshold mass (m1 + m2 )
+TABLE VI. Chiral continuum extrapolation results for var-
+                                                                                and that this suppression is significantly enhanced for the
+ious lattice spacings and flavors of tetraquark states in the
+spin zero sector.                                                               cases where the threshold states are heavy mesons, such
+                                                                                as those we are studying here. In addition to that if ∆E
+                                                              phys
+         State            a      c10,mπ    c0,m
+                                            2
+                                                π
+                                                      ∆E 0 |mπ                  is also large, then the finite volume corrections will fur-
+                                                                                ther be suppressed since it also enters in the exponential.
+                         (fm)                            (MeV)
+                                                                                Therefore in the doubly bottom sector, tetraquark states
+                      0.1207 -11(9)        50(25)      -10.1(8.6)               with the flavor combinations, udb̄b̄ and usb̄b̄, for which
+                                                                                the ∆E values are found to be more than 150 and 100
+             uub̄b̄   0.0888      -8(9)    26(26)       -7.2(8.8)               MeV, respectively, will have small finite volume correc-
+                      0.0582 -9(23)        33(57)      -8.8(21.9)               tions. For these cases it is quite natural to expect that
+                                                                                the energy splitting ∆E will be closer to their infinite
+                      0.1207      8(4)     6(10)        8.4(3.4)                volume binding energy. Therefore these states will be
+             uuc̄c̄   0.0888     16(9)     -10(22)      15.9(8.7)               stable under strong interactions. However, for the cases,
+                                                                                particularly for the doubly charmed tetraquarks, which
+                      0.0582 22(10) -12(24)             22.2(10)
+                                                                                are below but closer to their thresholds (i.e., ∆E values
+                                                                                are closer to zero), it will be difficult to get any qualita-
+                                                                                tive estimate for their finite volume corrections. In those
+TABLE VII. Continuum extrapolation results for the various                      cases one needs to perform a detail finite volume study
+flavors of tetraquark states in the spin zero sector. The fourth
+                                                                                [41] to make any conclusive statement about their infinite
+column is the continuum extrapolation results from three lat-
+tices. The last column is obtained by averaging results from                    volume pole structures.
+coarser two lattices.
+                                                    mphys
+    State         c0,a
+                   1             c0,a
+                                  2         ∆E 0 |a=0
+                                                   π
+                                                             ∆E 0 |avg
+                                                                                E.    Heavy quark effective theory and hadron mass
+                                              (MeV)           (MeV)                                   relations
+
+    uub̄b̄      -5(18)        -303(1549)    -5.5(17.7)      -8.7(12.3)             The Heavy quark effective theory (HQET) is a very
+                                                                                useful tool and is often utilized to understand various
+    uuc̄c̄      26(11)        -1202(824)    25.9(10.9)      12.15(9.3)
+                                                                                properties of heavy hadrons including their energy spec-
+    ssb̄b̄        3(9)        328(1108)      2.5(9.2)         6.6(11)           tra. Using heavy quark symmetries one can also obtain
+                                                                                mass relations between heavy flavored hadrons such as
+    ssc̄c̄       14(4)        -319(356)      14.1(3.9)       11.1(4.1)          those mentioned in Ref. [24]. Using such symmetry rela-
+                                                                                tions, Ref. [24] predicted masses and binding energies of
+    ccb̄b̄       16(1)        -285(139)      15.7(1.0)      12.5(1.69)          various tetraquarks states including some of those stud-
+                                                                                ied in this work. Although such relations are valid in the
+                                                                                infinite quark mass limit, they are used at the bottom
+can then be interpreted as the binding energies of the                          and even at the charm quark masses. It will therefore be
+corresponding bound states. However, repeating these                            interesting to investigate these relations by a first princi-
+calculations on multiple lattice volumes is computation-                        ples non-perturbative method, such as lattice QCD, with
+ally very expensive and so is beyond the scope of this                          a goal to validate these relations at a given quark mass
+work.                                                                           and access their deviation, if any, from the heavy quark
+   However, it is possible to identify a few states for                         limit. The availability of data on the ground state masses
+which the finite volume corrections will be suppressed,                         on mesons, baryons and tetraquarks obtained from this
+i.e., could be very small. The estimation of ∆E 1 on sin-                       calculation, both at the charm and the bottom quark
+gle large enough volume for such a case, in fact, would                         masses, provides such an opportunity to systematically
+be close to its binding energy (B∞ ). As demonstrated in                        investigate these relations. Below we elaborate that.
+references [81–83], the finite volume corrections ∆F V to                          The work in Ref. [24] states the following relation
+energy levels corresponding to an infinite volume bound                         amongst the hadrons with heavy quarks:
+state with energy E∞ scale as,
+             ∆F V = EF V − E∞ ∝ O(e−k∞ L )/L,                                         m({Qi Qj }[q̄k q̄l ]) − m({Qi Qj }qy )
+                                p                                                                           = m(Qx [qk ql ]) − m(Qx q̄y ), (17)
+                     with k∞ = (m1 + m2 )B∞ ,                            (16)
+where, EF V is the energy level computed a cubic lattice,                       where Qi , qk denote heavy and light quarks respec-
+k∞ is the binding momentum of the infinite volume state                         tively. Here we use the same notation as in Ref.
+and (m1 , m2 ) are the masses of the two non-interacting                        [24]. The braces {...} and [...] imply the symmetriza-
+particles with the threshold energy m1 +m2 . It should be                       tion and anti-symmetrization, respectively, with respect
+noted from the above expression that the finite volume                          to the flavor degrees of freedom. In this notation,
+                                                                                                                                        12
+
+           Rb                                                                                                                   0.1207 fm
+           Rc                                                                                                                   0.0888 fm
+     1.0                                                                                                                        0.0582fm
+
+
+     0.8
+
+  RQ
+     0.6
+
+
+
+     0.4
+
+
+
+                     0.15         0.30          0.45          0.60        0.000         0.004            0.008           0.012
+                                  m2π (GeV)2                                                      a2 (fm)2
+
+ FIG. 8. Results of the ratios Rb and Rc color coded as red and green respectively. Left: Results of the chiral extrapolation
+ at a = 0.1207 fm. Right: Continuum extrapolation results from three lattice spacings.
+
+
+ ({Qi Qj }[q̄k q̄l ])5 represents a tetraquark operator with            be unity. In computing these ratios (Rc/b ) we first eval-
+ the flavor symmetries indicated by the braces, while                   uate the jackknife ratios of the following correlators:
+ ({Qi Qj }qy ), (Qx [qk ql ]) and (Qx q̄y ) represent a heavy-
+ heavy-light baryon, heavy-light-light baryon and heavy-                          Cudb̄b̄ (t)
+                                                                                              → A0 e−(Mudb̄b̄ −MΞbb )t + ...,
+ light meson respectively. It should be noted that Ref. [24]                      CΞbb (t)
+ provides four such relations depending on the combina-                           CΛQ (t)
+ tion of flavor symmetrization/anti-symmetrization and                                        → B 0 e−(MΛQ −MQq̄ )t + ...,            (19)
+                                                                                  CMQq̄ (t)
+ the one shown here corresponds to our operator construc-
+ tion. The relation in Eq. (17) can then be employed to                 which directly provide the difference of masses as shown
+ predict the masses of the tetraquark states by substitut-              above. Rc/b are then evaluated from the fits to these
+ ing the relevant masses of heavy baryons and mesons. In                ratio correlators. In addition, we also fit the individual
+ Ref. [24] this was calculated by using the spin average                masses of tetraquarks, mesons and baryons and calcu-
+ masses of the charmonia, bottomonia and heavy baryons                  late Rc/b from Eq. (18). We find consistent results with
+ by inserting their experimental or quark model values.                 both methods and the evaluation with Eq. (18) provides
+    Here, we aim to study this relation both at the charm               improved uncertainties. As we have access to a large
+ and the bottom quark masses. We do not consider the                    number of light quark masses, while keeping the heavy
+ spin-average mass, instead use the spin-1/2 states for                 quark mass at the charm and bottom quark, we vary the
+ baryons and pseudoscalar mass for the heavy-light me-                  light quark mass and calculate Rc/b for each case. In
+ son. If there is any deviation from the equality for                   Figure 8, we show these results at several pion masses
+ Eq. (17) that would be maximum in this choice. In doing                for the coarser lattice (a ∼ 0.12 fm) using the entire
+ so, we will be able to estimate an upper bound of the de-              dataset in fitting. This is done for other lattice spacings
+ viation from the heavy quark limit which originates from               as well. The results clearly indicate a wide separation of
+ all (1/mQ )n corrections. In evaluating Eq. (17), we find              ratios between the charm and bottom quarks; while Rb
+ it to be convenient6 to redefine the relation as a ratio               is closer to the heavy quark limit of unity, Rc deviates
+ which for the charm and bottom quarks are given by:                    from it substantially. After repeating this calculation on
+             Mudb̄b̄ − MΞbb              Mudc̄c̄ − MΞcc                 other two lattices we perform a simplistic chiral and con-
+     Rb ≡                   ,     Rc ≡                  .       (18)    tinuum extrapolation according to the ansatz in Eq. (14)
+              MΛb − MB                    MΛc − MD                      and Eq. (15). The fit results are shown in Tables VIII
+ In the limit of infinitely heavy quarks, the ratio RQ will             and IX at three lattice spacings. For both ratios, Rb and
+                                                                        Rc , we do not observe any appreciable dependence on the
+                                                                        pion mass as indicated by the parameter cπ2 in Table VIII.
+5 The tetraquark operator used in this work is a complex conjugate      In addition, the continuum extrapolation fit in Table IX
+ of this operator.                                                      do not indicate any lattice spacing dependence for the
+6 The use of the ratio of masses allows for the cancellation of lat-    bottom and charm quarks. The continuum extrapolated
+ tice artifacts in addition to the cancellation of uncertainties from   results are listed in the last column of Table VIII; we
+ resampling.                                                            find Rb = 0.837(38) and Rc = 0.602(22). These results
+                                                                                                                                       13
+
+                                                                           the strange quark mass. Since all these hadrons involve
+TABLE VIII. Chiral extrapolation of ratios RQ for charm and
+                                                                           heavy quarks, naturally, like any heavy flavored hadrons,
+bottom quarks.
+                                                                           they are susceptible to heavy quark discretization effects
+                                                                    phys
+       Ratio          a             cπ1             cπ2     RQ |mπ         in a lattice calculation. To check the lattice spacing de-
+                                                                           pendence we have obtained results at three lattice spac-
+                    0.1207 0.91(2)             -0.14(5)     0.907(17)      ings, finest one being at 0.0582 fm. At a given lattice
+          Rb
+                                                                           spacing we perform a chiral extrapolation using several
+                    0.088         0.89(3) -0.03(0.1) 0.889(24)
+                                                                           quark masses and then perform a continuum extrapola-
+                    0.058         0.83(4)      0.05(0.1)    0.835(38)      tion to get the final results. For all the states in the spin
+                                                                           one sector, we observe the presence of energy levels below
+                    0.1207 0.50(1)              0.07(3)     0.500(13)
+                                                                           their respective two-meson thresholds, deepest one being
+          Rc        0.088         0.58(1)      -0.05(5)     0.580(14)      for the doubly bottom tetraquark, udb̄b̄. Furthermore,
+                    0.058         0.54(2)       0.03(6)     0.537(22)      for various flavor combinations of the tetraquark states
+                                                                           we find that there is a clear trend of increase in the energy
+                                                                           splitting (∆E) as the light quark masses of such states are
+                                                                           decreased and it becomes maximum at the physical quark
+TABLE IX. Continuum extrapolation of ratios RQ for charm
+                                                                           mass. This energy splitting in the infinite volume limit
+and bottom quarks.
+                                                                           of such a state can be interpreted as its binding energy.
+           Ratio            ca1               ca2
+                                                             mphys
+                                                          RQ |a=0
+                                                               π           This trend was first indicated in the lattice calculation in
+                                                                           Ref. [25] for the states udb̄b̄ and usb̄b̄. Here we confirm
+               Rb      0.84(4)            5.01(3.18)      0.837(38)        that over a wide range of quark masses. Additionally we
+                                                                           find that such a trend holds for all the spin one states
+               Rc      0.60(2)            -6.33(2.01)     0.602(22)        considered here including the doubly charm tetraquark
+                                                                           states. For the doubly charmed tetraquark states, udc̄c̄
+                                                                           and usc̄c̄, we also find that the ground states are below
+clearly indicate that there is a substantial deviation from                their respective thresholds. However, they are quite close
+the heavy quark limit at the charm quark mass imply-                       to their thresholds which was also observed in Ref. [80].
+ing there might be a large contributions from (1/mQ )n                     Though they could be stable under strong interactions
+corrections. However, results at the bottom quark mass                     one needs to carry out finite volume analysis to establish
+are much closer to the heavy quark limit. Our results                      their bound state properties, if there is any. We would
+indicate that as far as the heavy quark symmetry rela-                     also like to point out that most of these states, except
+tions such as that is shown in Eq. (17) are considered, the                ucb̄b̄, show either no discernible dependence or very mild
+charm quark mass is not heavy enough for the equality,                     dependence on lattice spacing. However, this will be clear
+and one certainly needs to incorporate appropriate lead-                   when in future study we include much lower pion masses
+ing order 1/mQ and then higher order corrections terms.                    on the fine lattice. Our final results for doubly heavy spin
+However, one can of course use these relations for bottom                  one tetraquarks states from this calculation are summa-
+quarks with higher order 1/mQ corrections.                                 rized in Table X. Our estimates for the udb̄b̄ and usb̄b̄ are
+
+                                                                               TABLE X. Final results for the spin one tetraquarks
+     V.    DISCUSSION AND CONCLUSIONS
+                                                                                       State ∆E 1 [MeV] State ∆E 1 [MeV]
+    Recently there has been tremendous activities in
+studying multiquark states both theoretically and ex-                                  udb̄b̄   -143(34)   usb̄b̄   -87(32)
+perimentally. In particular, heavy tetraquarks are be-
+                                                                                       ucb̄b̄    -6(11)    scb̄b̄    -8(3)
+ing investigated at various laboratories as well as stud-
+ied theoretically through different models and by lattice                              udc̄c̄   -23(11)    usc̄c̄    -8(8)
+QCD calculations. In this work, using lattice QCD we
+have performed a detailed study on the doubly heavy
+tetraquark states with quark contents q1 q2 Q̄Q̄, q1 , q2 ⊂                in agreement with those of Ref. [25] at a lattice spacing
+u, d, s, c and Q ≡ b, c, in both spin zero (J = 0) and spin                (∼ 0.09 fm) where both of ours data are available.
+one (J = 1) sectors. Not only we study udb̄b̄ and usb̄b̄,                    We also provide a comparison of global results of spin
+as was studied in Refs. [25], but also explore ucb̄b̄, udc̄c̄              one doubly heavy tetraquark states with various flavors
+and usc̄c̄ states and additionally include the spin zero                   and show that in Figure 9. The results from Refs. [23, 24]
+sector of doubly heavy tetraquarks. In doing so, we have                   are based on HQET and potential model, respectively,
+presented a systematic dependence of the ground state                      while the rest are lattice calculations. All results agree
+spectra of such states on their light quark constituents                   with the existence of deeply bound spin one tetraquark
+over a wide range of quark masses starting from the                        states, udb̄b̄ and usb̄b̄, which are stable under strong inter-
+quark mass corresponding to the physical pion mass to                      actions. Our results for the doubly bottom states agree
+                                                                                                                                        14
+
+well with those from the HQET predictions [24] as well                       ssb̄b̄, ssc̄c̄ and ccb̄b̄ at the physical strange, charm and
+as that of the result in Ref [25] at similar lattice spacings                bottom quark masses. For the doubly bottom state uub̄b̄,
+(∼ 0.09 fm). Ref [25] used Nf = 2 + 1 PACS-CS gauge                          we find that the energy splittings (∆E 0 ) are generally
+field configurations and coulomb gauge fixed wall sources                    noisy and do not clearly exhibit a trend of increase in
+with clover action in the valence sector. The results were                   ∆E 0 as the pion mass is lowered. Contrary to the re-
+extracted at a single lattice spacing (a ∼ 0.09 fm) at                       sults of its flavor antisymmetric cousin udb̄b̄, the ground
+three pion masses and a chiral extrapolation with m2π                        state energy of uub̄b̄ coincides with its threshold at lower
+was performed to obtain the final result. The result from                    pion masses with no clear indication of any level below
+Ref. [60] were obtained from the potential based lattice                     the threshold. For the doubly charm state, uuc̄c̄, the
+QCD study where potentials of two B mesons were com-                         extracted energy levels clearly lie above their respective
+puted in the static approximation for various spin-isospin                   thresholds with no discernible dependence on pion mass,
+combinations. These were then fitted to a phenomenolog-                      again contrary to the results of its flavor antisymmetric
+ically motivated ansatz which were further used to solve a                   cousin udc̄c̄. In performing the continuum extrapolation,
+Schrödinger equation to determine a bound state. These                      no lattice spacing dependence is observed for uub̄b̄ state
+calculations were performed at three pion masses rang-                       while the uuc̄c̄ exhibits a mild dependence on the lattice
+ing from mπ ∼ 340 − 650 MeV and the final results was                        spacing. The flavor symmetric states ssb̄b̄, ssc̄c̄ and ccb̄b̄
+obtained after chiral extrapolation. Ref. [80] used an                       exhibit similar qualitative features in that all the energy
+anisotropic Nf = 2 + 1 clover action and results were                        levels are found to be above their respective thresholds
+obtained at a single lattice spacing (at ∼ 0.0035 fm with                    and no significant lattice spacing dependence is observed
+anisotropy 3.5) and at a single pion mass (mπ = 391                          in the continuum extrapolation. Our final results for the
+MeV. For the doubly charm states, our results are in dis-                    spin zero sector are shown in Table XI In conclusion, the
+agreement with those from the HQET results [24]. As
+we have showed earlier, this discrepancy is due to the
+                                                                                TABLE XI. Final results for the spin zero tetraquarks
+deviation of HQET relations at the charm quark mass.
+                                                                                         State ∆E 0 [MeV] State ∆E 0 [MeV]
+
+             300                                                                         uub̄b̄   -5(18)    uuc̄c̄    26(11)
+                   This work                   Rosner,.et.al [23]
+             200
+                   Francis,.et.al [25]         Bicudo,.et.al [60]                        ssb̄b̄    3(9)      ssc̄c̄   14(4)
+                   Eichten,et.al [24]          Cheung,.et.al [80]
+                                                                                         ccb̄b̄   16(1)
+             100
+
+
+
+ ∆E (MeV)
+               0                                                             states in the spin zero sector do not indicate energy levels
+                                                                             below their thresholds suggesting it is very unlikely that
+            −100                                                             there exists any doubly heavy bound tetraquark state
+                                                                             with spin zero.
+            −200                                                                The availability of energy values of spin one tetraquark
+                                                                             states for a large number of light quark masses pro-
+            −300                                                             vide us an opportunity to investigate the mass relations
+                   udb̄b̄         usb̄b̄   ucb̄b̄     udc̄c̄        usc̄c̄   (Eq. (17)) between different heavy flavored hadrons due
+                                                                             to the heavy quark symmetry, as mentioned in Ref. [24].
+FIG. 9. Comparison of global results on the spin one doubly
+                                                                             For this, we redefine the relation as a ratio (R) between
+bottom and charm tetraquark states with various flavor com-                  different hadron masses (Eq. (18)) where a value of unity
+binations. ∆E is the energy difference between the ground                    justifies the validity of such mass relation, and any devi-
+state and the lowest strong decay threshold. Various fla-                    ation from unity indicates the amount of breaking of the
+vor combinations represented on the horizontal axis are color                heavy quark symmetry at a given heavy quark mass. We
+coded as: blue, green, red, magenta and grey for the state                   find that for bottom quarks, Rb = 0.837(38), indicating
+udb̄b̄, usb̄b̄, ucb̄b̄, udc̄c̄ and usc̄c̄, respectively.                     that the bottom quark is very close to the heavy quark
+                                                                             limit. On the contrary, at the charm quark mass we find
+   Inspired by the results in spin one sector, we also ex-                   Rc = 0.602(22), which substantially deviates from the
+plore the spin zero tetraquark states with doubly bottom                     heavy quark limit. This clearly suggests that the charm
+as well as with doubly charm quarks. Here, we have                           quark is not heavy enough to impose heavy quark sym-
+computed flavor symmetric uub̄b̄ and uuc̄c̄ states and                       metry relations among hadron masses such as in Eq. (17),
+also explored the pion mass dependence by dialing the                        i.e., as far those mass relations are concerned one needs to
+light quark mass. To check the lattice spacing depen-                        be careful while treating the charm quark within HQET.
+dence of the observed results we perform the calculation                        The tetraquark states studied in this work are com-
+on three different lattice spacings. In addition, we have                    puted in a single volume. In order to make conclusive
+also computed following flavor symmetric states, namely,                     statements about their scattering amplitudes and com-
+                                                                                                                             15
+
+plex poles, one needs to carry out similar studies on mul-        be unaffected by those. It will therefore be very useful to
+tiple volumes followed by a finite volume analysis [41].          search experimentally spin one doubly heavy tetraquarks
+Such analysis will especially be useful for the states which      particularly with two bottom quarks, such as udb̄b̄. How-
+are close to their thresholds. However, a comprehensive           ever, it is very unlikely that there exists any doubly heavy
+finite volume analysis for a calculation that is reported         bound tetraquark state with spin zero.
+here requires significantly large computational resources.
+Currently that is beyond the scope of this work but we
+intend to pursue such finite volume analysis in the near                         ACKNOWLEDGMENTS
+future. However, it is worth noting that the finite vol-
+ume corrections for many heavy tetraquarks, particularly             We are thankful to the MILC collaboration and in par-
+for which ∆E values are large, will be substantially sup-         ticular to S. Gottlieb for providing us with the HISQ lat-
+pressed. This is because, as has been pointed out before          tices. We like to thank R. V. Gavai for discussions, par-
+[81–83], such corrections to the observed energy splitting        ticularly on HQET relations and M. Hansen for the dis-
+are suppressed not only because of its large value but            cussions on finite volume corrections. We also thank R.
+also for the large masses of the threshold states, which          Lewis and M. Peardon for useful discussions. Computa-
+are two heavy mesons in these cases. It is thus expected          tions are carried out on the Cray-XC30 of ILGTI, TIFR,
+that such tetraquark states will be stable under strong           and on the Gaggle/Pride clusters of the Department of
+interactions. Other errors related to our calculations,           Theoretical Physics, TIFR. P.J. and N. M. like to thank
+namely, unphysical sea quark mass, quark mass tuning,             Ajay Salve, Kapil Ghadiali and P. M. Kulkarni for com-
+scale setting, mixed action effects, excited state contam-        putational supports. M. P. acknowledges support from
+ination together will be much smaller compared to the             EU under grant no. MSCA-IF-EF-ST-744659 (XQCD-
+statistical error [84], and the conclusion reached here will      Baryons) and the Deutsche Forschungsgemeinschaft un-
+                                                                  der Grant No.SFB/TRR 55.
+
+
+
+
+ [1] CLEO Collaboration, S. Dobbs et al., “Precision                   distribution in exclusive B —¿ K pi+- psi-prime
+     Measurement of the Mass of the h(c)(P-1(1)) State of              decays,” Phys. Rev. Lett. 100 (2008) 142001,
+     Charmonium,” Phys. Rev. Lett. 101 (2008) 182003,                  arXiv:0708.1790 [hep-ex].
+     arXiv:0805.4599 [hep-ex].                                    [11] LHCb Collaboration, R. Aaij et al., “Observation of
+ [2] BESIII Collaboration, M. Ablikim et al.,                          the resonant character of the Z(4430)− state,” Phys.
+     “Measurements of hc (1 P1 ) in psi’ Decays,” Phys. Rev.           Rev. Lett. 112 no. 22, (2014) 222002, arXiv:1404.1903
+     Lett. 104 (2010) 132002, arXiv:1002.0501 [hep-ex].                [hep-ex].
+ [3] Belle Collaboration, I. Adachi et al., “First observation    [12] Belle Collaboration, A. Bondar et al., “Observation of
+     of the P -wave spin-singlet bottomonium states hb (1P )           two charged bottomonium-like resonances in Y(5S)
+     and hb (2P ),” Phys. Rev. Lett. 108 (2012) 032001,                decays,” Phys. Rev. Lett. 108 (2012) 122001,
+     arXiv:1103.3419 [hep-ex].                                         arXiv:1110.2251 [hep-ex].
+ [4] BaBar Collaboration, J. P. Lees et al., “Evidence for        [13] LHCb Collaboration, R. Aaij et al., “Observation of
+     the hb (1P ) meson in the decay Υ(3S) → π 0 hb (1P ),”            J/ψp Resonances Consistent with Pentaquark States in
+     Phys. Rev. D84 (2011) 091101, arXiv:1102.4565                     Λ0b → J/ψK − p Decays,” Phys. Rev. Lett. 115 (2015)
+     [hep-ex].                                                         072001, arXiv:1507.03414 [hep-ex].
+ [5] BESIII Collaboration, M. Ablikim et al., “Observation        [14] Belle Collaboration, S. K. Choi et al., “Observation of
+     of the ψ(13 D2 ) state in e+ e− → π + π − γχc1 at BESIII,”        a narrow charmonium - like state in exclusive B+- —¿
+     Phys. Rev. Lett. 115 no. 1, (2015) 011803,                        K+- pi+ pi- J / psi decays,” Phys. Rev. Lett. 91 (2003)
+     arXiv:1503.08203 [hep-ex].                                        262001, arXiv:hep-ex/0309032 [hep-ex].
+ [6] Belle Collaboration, V. Bhardwaj et al., “Evidence of a      [15] BaBar Collaboration, B. Aubert et al., “Observation of
+     new narrow resonance decaying to χc1 γ in                         a broad structure in the π + π − J/ψ mass spectrum
+     B → χc1 γK,” Phys. Rev. Lett. 111 no. 3, (2013)                   around 4.26-GeV/c2 ,” Phys. Rev. Lett. 95 (2005)
+     032001, arXiv:1304.3975 [hep-ex].                                 142001, arXiv:hep-ex/0506081 [hep-ex].
+ [7] CMS Collaboration, A. M. Sirunyan et al.,                    [16] Belle Collaboration, C. Z. Yuan et al., “Measurement
+     “Observation of the χb1 (3P) and χb2 (3P) and                     of e+ e- —¿ pi+ pi- J/psi cross-section via initial state
+     measurement of their masses,” arXiv:1805.11192                    radiation at Belle,” Phys. Rev. Lett. 99 (2007) 182004,
+     [hep-ex].                                                         arXiv:0707.2541 [hep-ex].
+ [8] LHCb Collaboration, R. Aaij et al., “Observation of          [17] M. B. Voloshin, “Charmonium,” Prog. Part. Nucl.
+     the doubly charmed baryon Ξ++   cc ,” Phys. Rev. Lett. 119        Phys. 61 (2008) 455–511, arXiv:0711.4556 [hep-ph].
+     no. 11, (2017) 112001, arXiv:1707.01621 [hep-ex].            [18] H.-X. Chen, W. Chen, X. Liu, and S.-L. Zhu, “The
+ [9] LHCb Collaboration, R. Aaij et al., “Observation of a             hidden-charm pentaquark and tetraquark states,” Phys.
+     new Ξ− b resonance,” arXiv:1805.09418 [hep-ex].                   Rept. 639 (2016) 1–121, arXiv:1601.02092 [hep-ph].
+[10] Belle Collaboration, S. K. Choi et al., “Observation of      [19] A. Hosaka, T. Iijima, K. Miyabayashi, Y. Sakai, and
+     a resonance-like structure in the pi+- psi-prime mass             S. Yasui, “Exotic hadrons with heavy flavors: X, Y, Z,
+                                                                                                                           16
+
+     and related states,” PTEP 2016 no. 6, (2016) 062C01,            arXiv:hep-ph/9504372 [hep-ph].
+     arXiv:1603.09229 [hep-ph].                                 [38] D. V. Bugg, “How Resonances can synchronise with
+[20] A. Ali, J. S. Lange, and S. Stone, “Exotics: Heavy              Thresholds,” J. Phys. G35 (2008) 075005,
+     Pentaquarks and Tetraquarks,” arXiv:1706.00610                  arXiv:0802.0934 [hep-ph].
+     [hep-ph].                                                  [39] Hadron Spectrum Collaboration, M. Peardon,
+[21] LHCb Collaboration, R. Aaij et al., “Determination of           J. Bulava, J. Foley, C. Morningstar, J. Dudek, R. G.
+     the X(3872) meson quantum numbers,” Phys. Rev.                  Edwards, B. Joo, H.-W. Lin, D. G. Richards, and K. J.
+     Lett. 110 (2013) 222001, arXiv:1302.6269 [hep-ex].              Juge, “A Novel quark-field creation operator
+[22] Particle Data Group Collaboration, M. Tanabashi                 construction for hadronic physics in lattice QCD,” Phys.
+     et al., “Review of particle physics,” Phys. Rev. D 98           Rev. D80 (2009) 054506, arXiv:0905.2160 [hep-lat].
+     (Aug, 2018) 030001. https:                                 [40] C. Michael, “Adjoint Sources in Lattice Gauge Theory,”
+     //link.aps.org/doi/10.1103/PhysRevD.98.030001.                  Nucl. Phys. B259 (1985) 58–76.
+[23] M. Karliner and J. L. Rosner, “Discovery of                [41] M. Luscher and U. Wolff, “How to Calculate the Elastic
+     doubly-charmed Ξcc baryon implies a stable (bbūd)  ¯           Scattering Matrix in Two-dimensional Quantum Field
+     tetraquark,” Phys. Rev. Lett. 119 no. 20, (2017)                Theories by Numerical Simulation,” Nucl. Phys. B339
+     202001, arXiv:1707.07666 [hep-ph].                              (1990) 222–252.
+[24] E. J. Eichten and C. Quigg, “Heavy-quark symmetry          [42] A. V. Manohar and M. B. Wise, “Exotic Q Q anti-q
+     implies stable heavy tetraquark mesons Qi Qj q̄k q̄l ,”         anti-q states in QCD,” Nucl. Phys. B399 (1993) 17–33,
+     Phys. Rev. Lett. 119 no. 20, (2017) 202002,                     arXiv:hep-ph/9212236 [hep-ph].
+     arXiv:1707.09575 [hep-ph].                                 [43] T. Mehen, “Implications of Heavy Quark-Diquark
+[25] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman,           Symmetry for Excited Doubly Heavy Baryons and
+     “Lattice Prediction for Deeply Bound Doubly Heavy               Tetraquarks,” Phys. Rev. D96 no. 9, (2017) 094028,
+     Tetraquarks,” Phys. Rev. Lett. 118 no. 14, (2017)               arXiv:1708.05020 [hep-ph].
+     142001, arXiv:1607.05214 [hep-lat].                        [44] L. Maiani, F. Piccinini, A. D. Polosa, and V. Riquer,
+[26] A. Ali, Q. Qin, and W. Wang, “Discovery potential of            “Diquark-antidiquarks with hidden or open charm and
+     stable and near-threshold doubly heavy tetraquarks at           the nature of X(3872),” Phys. Rev. D71 (2005) 014028,
+     the LHC,” Phys. Lett. B785 (2018) 605–609,                      arXiv:hep-ph/0412098 [hep-ph].
+     arXiv:1806.09288 [hep-ph].                                 [45] Y. Cui, X.-L. Chen, W.-Z. Deng, and S.-L. Zhu, “The
+[27] A. Esposito, A. Pilloni, and A. D. Polosa, “Multiquark          Possible Heavy Tetraquarks qQ anti-q anti-Q, qq anti-Q
+     Resonances,” Phys. Rept. 668 (2016) 1–97,                       anti-Q and qQ anti-Q anti-Q,” HEPNP 31 (2007) 7–13,
+     arXiv:1611.07920 [hep-ph].                                      arXiv:hep-ph/0607226 [hep-ph].
+[28] R. F. Lebed, R. E. Mitchell, and E. S. Swanson,            [46] D. Ebert, R. N. Faustov, V. O. Galkin, and W. Lucha,
+     “Heavy-Quark QCD Exotica,” Prog. Part. Nucl. Phys.              “Masses of tetraquarks with two heavy quarks in the
+     93 (2017) 143–194, arXiv:1610.04528 [hep-ph].                   relativistic quark model,” Phys. Rev. D76 (2007)
+[29] S. L. Olsen, T. Skwarnicki, and D. Zieminska,                   114015, arXiv:0706.3853 [hep-ph].
+     “Nonstandard heavy mesons and baryons:                     [47] D. Ebert, R. N. Faustov, and V. O. Galkin, “Excited
+     Experimental evidence,” Rev. Mod. Phys. 90 no. 1,               heavy tetraquarks with hidden charm,” Eur. Phys. J.
+     (2018) 015003, arXiv:1708.04012 [hep-ph].                       C58 (2008) 399–405, arXiv:0808.3912 [hep-ph].
+[30] R. L. Jaffe, “Multi-Quark Hadrons. 1. The                  [48] A. Ali, L. Maiani, A. D. Polosa, and V. Riquer,
+     Phenomenology of (2 Quark 2 anti-Quark) Mesons,”                “Hidden-Beauty Charged Tetraquarks and Heavy
+     Phys. Rev. D15 (1977) 267.                                      Quark Spin Conservation,” Phys. Rev. D91 no. 1,
+[31] R. Jaffe, “Exotica,” Physics Reports 409 no. 1, (2005) 1        (2015) 017502, arXiv:1412.2049 [hep-ph].
+     – 45. http://www.sciencedirect.com/science/                [49] J.-M. Richard, A. Valcarce, and J. Vijande, “Few-body
+     article/pii/S0370157304005320.                                  quark dynamics for doubly heavy baryons and
+[32] R. L. Jaffe and F. Wilczek, “Diquarks and exotic                tetraquarks,” Phys. Rev. C97 no. 3, (2018) 035211,
+     spectroscopy,” Phys. Rev. Lett. 91 (2003) 232003,               arXiv:1803.06155 [hep-ph].
+     arXiv:hep-ph/0307341 [hep-ph].                             [50] W. Wilcox and S. Baral, “Multiquark States in the
+[33] E. Braaten and M. Kusunoki, “Low-energy universality            Thomas-Fermi Quark Model and on the Lattice,”
+     and the new charmonium resonance at 3870-MeV,”                  arXiv:1807.08626 [hep-ph].
+     Phys. Rev. D69 (2004) 074005, arXiv:hep-ph/0311147         [51] Z.-G. Wang, Y.-M. Xu, and H.-J. Wang, “Analysis of
+     [hep-ph].                                                       the scalar doubly heavy tetraquark states with QCD
+[34] F.-K. Guo, C. Hanhart, U.-G. Meisner, Q. Wang,                  sum rules,” Commun. Theor. Phys. 55 (2011)
+     Q. Zhao, and B.-S. Zou, “Hadronic molecules,” Rev.              1049–1058, arXiv:1004.0484 [hep-ph].
+     Mod. Phys. 90 no. 1, (2018) 015004, arXiv:1705.00141       [52] Z.-G. Wang and T. Huang, “Analysis of the X(3872),
+     [hep-ph].                                                       Zc (3900) and Zc (3885) as axial-vector tetraquark states
+[35] S. Dubynskiy and M. B. Voloshin,                                with QCD sum rules,” Phys. Rev. D89 no. 5, (2014)
+     “Hadro-Charmonium,” Phys. Lett. B666 (2008)                     054019, arXiv:1310.2422 [hep-ph].
+     344–346, arXiv:0803.2224 [hep-ph].                         [53] R. T. Kleiv, T. G. Steele, A. Zhang, and I. Blokland,
+[36] E. Braaten, “How the Zc (3900) Reveals the Spectra of           “Heavy-light diquark masses from QCD sum rules and
+     Quarkonium Hybrid and Tetraquark Mesons,” Phys.                 constituent diquark models of tetraquarks,” Phys. Rev.
+     Rev. Lett. 111 (2013) 162003, arXiv:1305.6905                   D87 no. 12, (2013) 125018, arXiv:1304.7816
+     [hep-ph].                                                       [hep-ph].
+[37] N. A. Tornqvist, “Understanding the scalar meson q         [54] S. Weinberg, “Tetraquark Mesons in Large N Quantum
+     anti-q nonet,” Z. Phys. C68 (1995) 647–660,                     Chromodynamics,” Phys. Rev. Lett. 110 (2013) 261601,
+                                                                                                                               17
+
+     arXiv:1303.0342 [hep-ph].                                          LATTICE2013 (2014) 243, arXiv:1312.3050
+[55] M. Knecht and S. Peris, “Narrow Tetraquarks at Large               [hep-lat].
+     N,” Phys. Rev. D88 (2013) 036016, arXiv:1307.1273             [71] A. X. El-Khadra, A. S. Kronfeld, and P. B. Mackenzie,
+     [hep-ph].                                                          “Massive fermions in lattice gauge theory,” Phys. Rev.
+[56] T. D. Cohen and R. F. Lebed, “Are There Tetraquarks                D55 (1997) 3933–3957, arXiv:hep-lat/9604004
+     at Large Nc in QCD(F)?,” Phys. Rev. D90 no. 1,                     [hep-lat].
+     (2014) 016001, arXiv:1403.8090 [hep-ph].                      [72] G. P. Lepage, L. Magnea, C. Nakhleh, U. Magnea, and
+[57] P. Junnarkar, M. Padmanath, and N. Mathur, “Heavy                  K. Hornbostel, “Improved nonrelativistic QCD for
+     light tetraquarks from Lattice QCD,” EPJ Web Conf.                 heavy quark physics,” Phys. Rev. D46 (1992)
+     175 (2018) 05014, arXiv:1712.08400 [hep-lat].                      4052–4067, arXiv:hep-lat/9205007 [hep-lat].
+[58] P. Bicudo, J. Scheunert, and M. Wagner, “Including            [73] R. Lewis and R. M. Woloshyn, “Bottom baryons from a
+     heavy spin effects in the prediction of a b̄b̄ud tetraquark        dynamical lattice QCD simulation,” Phys. Rev. D79
+     with lattice QCD potentials,” Phys. Rev. D95 no. 3,                (2009) 014502, arXiv:0806.4783 [hep-lat].
+     (2017) 034502, arXiv:1612.02758 [hep-lat].                    [74] HPQCD Collaboration, R. J. Dowdall et al., “The
+[59] P. Bicudo, K. Cichy, A. Peters, B. Wagenbach, and                  Upsilon spectrum and the determination of the lattice
+     M. Wagner, “Evidence for the existence of udb̄b̄ and the           spacing from lattice QCD including charm quarks in the
+     non-existence of ssb̄b̄ and ccb̄b̄ tetraquarks from lattice        sea,” Phys. Rev. D85 (2012) 054509, arXiv:1110.6887
+     QCD,” Phys. Rev. D92 no. 1, (2015) 014507,                         [hep-lat].
+     arXiv:1505.00613 [hep-lat].                                   [75] N. Mathur, M. Padmanath, and R. Lewis,
+[60] P. Bicudo, K. Cichy, A. Peters, and M. Wagner, “BB                 “Charmed-Bottom Mesons from Lattice QCD,” PoS
+     interactions with static bottom quarks from Lattice                LATTICE2016 (2016) 100, arXiv:1611.04085
+     QCD,” Phys. Rev. D93 no. 3, (2016) 034501,                         [hep-lat].
+     arXiv:1510.03441 [hep-lat].                                   [76] M. Padmanath, C. B. Lang, and S. Prelovsek, “X(3872)
+[61] MILC Collaboration, A. Bazavov et al., “Lattice QCD                and Y(4140) using diquark-antidiquark operators with
+     ensembles with four flavors of highly improved                     lattice QCD,” Phys. Rev. D92 no. 3, (2015) 034501,
+     staggered quarks,” Phys. Rev. D87 no. 5, (2013)                    arXiv:1503.03257 [hep-lat].
+     054505, arXiv:1212.4768 [hep-lat].                            [77] B. Blossier, M. Della Morte, G. von Hippel, T. Mendes,
+[62] HPQCD, UKQCD Collaboration, E. Follana,                            and R. Sommer, “On the generalized eigenvalue method
+     Q. Mason, C. Davies, K. Hornbostel, G. P. Lepage,                  for energies and matrix elements in lattice field theory,”
+     J. Shigemitsu, H. Trottier, and K. Wong, “Highly                   JHEP 04 (2009) 094, arXiv:0902.1265 [hep-lat].
+     improved staggered quarks on the lattice, with                [78] J. Green, A. Francis, P. Junnarkar, C. Miao, T. Rae,
+     applications to charm physics,” Phys. Rev. D75 (2007)              and H. Wittig, “Search for a bound H-dibaryon using
+     054502, arXiv:hep-lat/0610092 [hep-lat].                           local six-quark interpolating operators,” PoS
+[63] H. Neuberger, “Exactly massless quarks on the lattice,”            LATTICE2014 (2014) 107, arXiv:1411.1643
+     Phys. Lett. B417 (1998) 141–144,                                   [hep-lat].
+     arXiv:hep-lat/9707022 [hep-lat].                              [79] A. Francis, J. R. Green, P. M. Junnarkar, C. Miao,
+[64] H. Neuberger, “More about exactly massless quarks on               T. D. Rae, and H. Wittig, “Lattice QCD study of the H
+     the lattice,” Phys. Lett. B427 (1998) 353–355,                     dibaryon using hexaquark and two-baryon
+     arXiv:hep-lat/9801031 [hep-lat].                                   interpolators,” arXiv:1805.03966 [hep-lat].
+[65] M. Luscher, “Exact chiral symmetry on the lattice and         [80] Hadron Spectrum Collaboration, G. K. C. Cheung,
+     the Ginsparg-Wilson relation,” Phys. Lett. B428 (1998)             C. E. Thomas, J. J. Dudek, and R. G. Edwards,
+     342–345, arXiv:hep-lat/9802011 [hep-lat].                          “Tetraquark operators in lattice QCD and exotic
+[66] Y. Chen, S. J. Dong, T. Draper, I. Horvath, F. X. Lee,             flavour states in the charm sector,” JHEP 11 (2017)
+     K. F. Liu, N. Mathur, and J. B. Zhang, “Chiral                     033, arXiv:1709.01417 [hep-lat].
+     logarithms in quenched QCD,” Phys. Rev. D70 (2004)            [81] S. R. Beane, P. F. Bedaque, A. Parreno, and M. J.
+     034502, arXiv:hep-lat/0304005 [hep-lat].                           Savage, “Two nucleons on a lattice,” Phys. Lett. B585
+[67] xQCD Collaboration, A. Li et al., “Overlap Valence on              (2004) 106–114, arXiv:hep-lat/0312004 [hep-lat].
+     2+1 Flavor Domain Wall Fermion Configurations with            [82] Z. Davoudi and M. J. Savage, “Improving the Volume
+     Deflation and Low-mode Substitution,” Phys. Rev. D82               Dependence of Two-Body Binding Energies Calculated
+     (2010) 114501, arXiv:1005.5424 [hep-lat].                          with Lattice QCD,” Phys. Rev. D84 (2011) 114502,
+[68] B. Chakraborty, C. T. H. Davies, B. Galloway,                      arXiv:1108.5371 [hep-lat].
+     P. Knecht, J. Koponen, G. C. Donald, R. J. Dowdall,           [83] R. A. Briceño, Z. Davoudi, T. Luu, and M. J. Savage,
+     G. P. Lepage, and C. McNeile, “High-precision quark                “Two-nucleon systems in a finite volume. II. 3 S1 −3 D1
+     masses and QCD coupling from nf = 4 lattice QCD,”                  coupled channels and the deuteron,” Phys. Rev. D88
+     Phys. Rev. D91 no. 5, (2015) 054508, arXiv:1408.4169               no. 11, (2013) 114507, arXiv:1309.3556 [hep-lat].
+     [hep-lat].                                                    [84] N. Mathur, M. Padmanath, and S. Mondal, “Precise
+[69] S. Basak, S. Datta, M. Padmanath, P. Majumdar, and                 predictions of charmed-bottom hadrons from lattice
+     N. Mathur, “Charm and strange hadron spectra from                  QCD,” arXiv:1806.04151 [hep-lat].
+     overlap fermions on HISQ gauge configurations,” PoS
+     LATTICE2012 (2012) 141, arXiv:1211.6277
+     [hep-lat].
+[70] S. Basak, S. Datta, A. T. Lytle, M. Padmanath,
+     P. Majumdar, and N. Mathur, “Hadron spectra from
+     overlap fermions on HISQ gauge configurations,” PoS
+                                                                                                              18
+
+                  VI.   APPENDIX                           state energy levels, of tetraquark states with various
+                                                           flavor-spin combinations as studied in this work.
+   We tabulate the energy splittings, ∆E, defined as the
+difference between the threshold energy and the ground
+                                                                                                       19
+
+Ns3 × Nt   mπ (MeV)       udb̄b̄       usb̄b̄      ucb̄b̄      udc̄c̄     usc̄c̄     uub̄b̄   uuc̄c̄
+  3
+24 × 64      689         -83(9)       -83(9)      -15(4)      -11(3)     -11(3)      17(10)   11(2)
+             589        -110(13)      -101(9)     -19(4)      -18(3)     -14(3)       8(6)     9(2)
+             539        -117(16)      -104(9)     -22(4)      -18(3)     -12(2)       6(6)    11(2)
+             497        -120(14)     -100(14)     -18(6)      -22(5)     -13(3)       8(8)     9(3)
+             449        -127(18)     -111(10)     -25(5)      -25(4)     -13(2)      4(10)    10(3)
+             400        -136(24)     -111(12)     -21(5)      -27(5)     -12(3)      0(11)     8(5)
+             367        -145(21)     -116(12)     -29(5)      -28(6)     -12(3)      -3(10)    9(4)
+             337        -146(25)     -109(13)     -20(8)      -26(7)     -11(3)      -2(12)    8(7)
+             297        -164(36)     -119(15)     -30(6)      -28(7)     -11(3)        -       6(7)
+             257        -181(43)     -115(18)     -25(9)      -25(8)      -9(4)        -        -
+             237            -        -112(21)     -29(8)         -          -          -        -
+             216            -        -117(14)     -19(13)        -          -          -        -
+             202            -        -126(18)     -27(11)        -          -          -        -
+             186            -        -121(17)     -31(11)        -          -          -        -
+             153            -            -        -33(13)        -          -          -        -
+323 × 96     688         -62(13)      -62(13)      -9(3)      -13(3)     -13(3)       5(5)    12(3)
+             537         -93(19)      -77(15)     -12(5)      -19(5)     -13(3)      -1(8)     9(7)
+             491        -123(25)      -74(23)     -14(5)      -23(6)     -14(4)      -2(10)   12(9)
+             441        -135(21)      -79(18)     -12(5)      -23(8)     -10(4)      -6(12)   15(12)
+             396        -147(31)      -91(17)     -16(5)     -27(10)     -10(5)      -6(13)   19(8)
+             367            -         -97(19)     -15(6)     -32(13)      -9(5)      0(11)      -
+             345            -            -        -17(6)         -          -        -5(13)     -
+ 3
+48 × 144     685         -88(6)       -88(6)      -10(2)      -15(2)     -15(2)       6(7)    17(2)
+             645         -94(7)       -91(7)      -11(2)      -15(2)     -13(3)       4(7)    17(3)
+             576         -102(9)      -94(8)      -10(2)      -15(3)     -13(2)       3(8)    18(4)
+             545        -106(10)      -90(10)     -12(3)      -17(3)     -13(3)      -1(8)    20(4)
+
+               TABLE XII. Summary of splittings of tetraquark states in this work.
+

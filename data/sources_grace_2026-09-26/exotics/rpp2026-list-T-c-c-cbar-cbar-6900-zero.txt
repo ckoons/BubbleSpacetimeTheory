@@ -1,0 +1,98 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ Tcccc (6900)0                                        I G (J PC ) = 0+ (2 + + )
+
+was X (6900)
+        Assuming that all structures seen in the J/ψ J/ψ ﬁnal state have the
+        same quantum numbers, CMS determined those to J PC = 2 + +
+        (HAYRAPETYAN 25AG). State incompatible with a q q structure.
+        See the review on ”Heavy Non-qq Mesons.”
+
+                                      Tcccc (6900)0 MASS
+
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+6898± 12 OUR AVERAGE Error includes scale factor of 1.2.
+6847 + 44 + 48
+     − 28 − 20
+                                  1 HAYRAPETY...24 CMS p p → J/ψ J/ψ X
+
+6910± 10 ± 10                     2 AAD             23BL ATLS p p → J/ψ J/ψ X
+6886± 11 ± 11                     3 AAIJ            20AY LHCB p p → J/ψ J/ψ X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+6960± 50 ± 30                     4 AAD             23BL ATLS p p → J/ψ ψ(2S) X
+  1 In a model with three resonances described by interfering relativistic Breit-Wigner func-
+    tions above background from non-resonant single and double parton scattering and a
+    threshold enhancement.
+  2 In a model with two resonances, with the T
+                                                  cccc (6600) interfering with single parton
+    scattering, and a non-interfering Tcccc (6900).
+  3 In a model where the broad structure above threshold interferes with non-resonant single
+    parton scattering. Without interference the mass is 6905 ± 11 ± 7 MeV.
+  4 Assuming a single resonance (could be another state). A 3σ signal is observed for an
+    additional resonance with mass 7220 ± 30 +   10                            + 60
+                                               − 40 MeV and width 90 ± 60 − 50 MeV.
+
+
+                                     Tcccc (6900)0 WIDTH
+
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+161± 26 OUR AVERAGE
+191 + 66 + 25
+    − 49 − 17
+                                  1 HAYRAPETY...24 CMS p p → J/ψ J/ψ X
+
+150± 30 ± 10                      2 AAD             23BL ATLS p p → J/ψ J/ψ X
+168± 33 ± 69                      3 AAIJ            20AY LHCB p p → J/ψ J/ψ X
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+
+510± 170 + 110
+         − 100
+                                         4 AAD                23BL ATLS        p p → J/ψ ψ(2S) X
+  1 In a model with three resonances described by interfering relativistic Breit-Wigner func-
+    tions above background from non-resonant single and double parton scattering and a
+    threshold enhancement.
+  2 In a model with two resonances, with the T
+                                                  cccc (6600) interfering with single parton
+    scattering, and a non-interfering Tcccc (6900).
+  3 In a model where the broad structure above threshold interferes with non-resonant single
+    parton scattering. Without interference the width is 80 ± 38 MeV.
+  4 Assuming a single resonance (could be another state). A 3σ signal is observed for an
+    additional resonance with mass 7220 ± 30 +   10                            + 60
+                                               − 40 MeV and width 90 ± 60 − 50 MeV.
+
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                               Tcccc (6900)0 DECAY MODES
+
+        Mode                                                  Fraction (Γi /Γ)
+
+Γ1      J/ψ J/ψ                                               seen
+
+
+                           Tcccc (6900)0 BRANCHING RATIOS
+         
+Γ J/ψ J/ψ /Γtotal                                                                                      Γ1 /Γ
+VALUE                                       DOCUMENT ID                TECN     COMMENT
+seen                                        HAYRAPETY...24 CMS p p → J/ψ J/ψ X
+seen                                        AAD         23BL ATLS p p → J/ψ J/ψ X
+seen                                        AAIJ        20AY LHCB p p → J/ψ J/ψ X
+
+
+                                 Tcccc (6900)0 REFERENCES
+HAYRAPETY... 25AG NAT 648 58                   A. Hayrapetyan et al.                      (CMS Collab.) JPC
+HAYRAPETY... 24   PRL 132 111901               A. Hayrapetyan et al.                      (CMS Collab.)
+AAD          23BL PRL 131 151902               G. Aad et al.                            (ATLAS Collab.)
+AAIJ         20AY SCIB 65 1983                 R. Aaij et al.                            (LHCb Collab.)
+
+
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:25
+

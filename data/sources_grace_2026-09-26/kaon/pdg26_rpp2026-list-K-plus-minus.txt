@@ -1,0 +1,3205 @@
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+                                                     I (J P ) = 21 (0− )
+ K±
+CHARGED KAON MASS
+Revised 1994 by T.G. Trippe (LBNL).
+   The average of the six charged kaon mass measurements
+which we use in the Particle Listings is
+
+               mK ± = 493.677 ± 0.013 MeV (S = 2.4) ,                                                (1)
+
+where the error has been increased by the scale factor S.
+The large scale factor indicates a serious disagreement between
+diﬀerent input data. The average before scaling the error is
+
+       mK ± = 493.677 ± 0.005 MeV ,
+
+                      χ2 = 22.9 for 5 D.F., Prob. = 0.04% ,                                          (2)
+
+where the high χ2 and correspondingly low χ2 probability
+further quantify the disagreement.
+    The main disagreement is between the two most recent and
+precise results,
+
+       mK ± =493.696 ± 0.007 MeV                                               DENISOV 91
+
+       mK ± =493.636 ± 0.011 MeV (S = 1.5) GALL 88
+
+    Average =493.679 ± 0.006 MeV
+
+                          χ2 = 21.2 for 1 D.F., Prob. = 0.0004% , (3)
+
+both of which are measurements of x-ray energies from kaonic
+atoms. Comparing the average in Eq. (3) with the overall
+average in Eq. (2), it is clear that DENISOV 91 [1] and
+GALL 88 [2] dominate the overall average, and that their
+disagreement is responsible for most of the high χ2 .
+https://pdg.lbl.gov                       Page 1                      Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+    The GALL 88 measurement was made using four diﬀerent
+kaonic atom transitions, K − Pb (9 → 8), K − Pb (11 → 10),
+K − W (9 → 8), and K − W (11 → 10). The mK ± values they
+obtain from each of these transitions is shown in the Particle
+Listings and in Fig. 1. Their K − Pb (9 → 8) mK ± is below and
+somewhat inconsistent with their other three transitions. The
+average of their four measurements is
+
+       mK ± = 493.636 ± 0.007 ,
+
+                      χ2 = 7.0 for 3 D.F., Prob. = 7.2% .                                            (4)
+
+This is a low but acceptable χ2 probability so, to be conserva-
+tive, GALL 88 scaled up the error on their average by S=1.5 to
+obtain their published error ±0.011 shown in Eq. (3) above and
+used in the Particle Listings average.
+    The ideogram in Fig. 1 shows that the DENISOV 91 mea-
+surement and the GALL 88 K − Pb (9 → 8) measurement yield
+two well-separated peaks. One might suspect the GALL 88
+K − Pb (9 → 8) measurement since it is responsible both for the
+internal inconsistency in the GALL 88 measurements and the
+disagreement with DENISOV 91.
+    To see if the disagreement could result from a systematic
+problem with the K − Pb (9 → 8) transition, we have separated
+the CHENG 75 [3] data, which also used K − Pb, into its
+separate transitions. Figure 1 shows that the CHENG 75 and
+GALL 88 K − Pb (9 → 8) values are consistent, suggesting the
+possibility of a common eﬀect such as contaminant nuclear
+γ rays near the K − Pb (9 → 8) transition energy, although the
+CHENG 75 errors are too large to make a strong conclusion.
+The average of all 13 measurements has a χ2 of 52.6 as shown in
+Fig. 1 and the ﬁrst line of Table 1, yielding an unacceptable χ2
+probability of 0.00005%. The second line of Table 1 excludes
+https://pdg.lbl.gov                       Page 2                      Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+          WEIGHTED AVERAGE
+          493.664±0.011 (Error scaled by 2.5)
+
+
+                                                 Values above of weighted average, error,
+                                                 and scale factor are based upon the data in
+                                                 this ideogram only. They are not neces-
+                                                 sarily the same as our `best' values,
+                                                 obtained from a least-squares constrained fit
+                                                 utilizing measurements of other (related)
+                                                 quantities as additional information.
+                                                                                                     2
+                                                                                                χ
+                                                           DENISOV 91                     20.5
+                                                           GALL 88    K Pb 9-8            22.6
+                                                           GALL 88    K Pb 11-10           0.2
+                                                           GALL 88    K W 9-8              0.4
+                                                           GALL 88    K W 11-10            2.2
+                                                           LUM 81                          0.2
+                                                           BARKOV 79                       0.0
+                                                           CHENG 75 K Pb 9-8               1.1
+                                                           CHENG 75 K Pb 10-9              0.1
+                                                           CHENG 75 K Pb 11-10             0.5
+                                                           CHENG 75 K Pb 12-11             3.6
+                                                           CHENG 75 K Pb 13-12             0.8
+                                                           BACKENSTO... 73                 0.4
+                                                                                          52.6
+                                                                        (Confidence Level 0.001)
+
+       493.5       493.6        493.7       493.8        493.9         494
+
+    mK ± (MeV)
+
+          Figure 1: Ideogram of mK ± mass measure-
+          ments. GALL 88 and CHENG 75 measure-
+          ments are shown separately for each transition
+          they measured.
+
+both the GALL 88 and CHENG 75 measurements of the
+K − Pb (9 → 8) transition and yields a χ2 probability of 43%.
+The third [fourth] line of Table 1 excludes only the GALL 88
+K − Pb (9 → 8) [DENISOV 91] measurement and yields a
+χ2 probability of 20% [8.6%]. Table 1 shows that removing
+both measurements of the K − Pb (9 → 8) transition produces
+the most consistent set of data, but that excluding only the
+GALL 88 K − Pb (9 → 8) transition or DENISOV 91 also
+produces acceptable probabilities.
+
+https://pdg.lbl.gov                       Page 3                      Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+          Table 1: mK ± averages for some combina-
+          tions of Fig. 1 data.
+
+ mK ± (MeV)                χ2 D.F. Prob. (%) Measurements used
+493.664 ± 0.004 52.6                12 0.00005 all 13 measurements
+493.690 ± 0.006 10.1                10 43      no K − Pb(9→8)
+493.687 ± 0.006 14.6                11 20      no GALL 88 K − Pb(9→8)
+493.642 ± 0.006 17.8                11 8.6     no DENISOV 91
+
+     Yu.M. Ivanov, representing DENISOV 91, has estimated
+corrections needed for the older experiments because of im-
+proved 192 Ir and 198 Au calibration γ-ray energies. He estimates
+that CHENG 75 and BACKENSTOSS 73 [4] mK ± values could
+be raised by about 15 keV and 22 keV, respectively. With
+these estimated corrections, Table 1 becomes Table 2. The last
+line of Table 2 shows that if such corrections are assumed, then
+GALL 88 K − Pb (9 → 8) is inconsistent with the rest of the
+data even when DENISOV 91 is excluded. Yu.M. Ivanov warns
+that these are rough estimates. Accordingly, we do not use
+Table 2 to reject the GALL 88 K − Pb (9 → 8) transition, but
+we note that a future reanalysis of the CHENG 75 data could
+be useful because it might provide supporting evidence for such
+a rejection.
+     The GALL 88 measurement uses a Ge semiconductor spec-
+trometer which has a resolution of about 1 keV, so they run
+the risk of some contaminant nuclear γ rays. Studies of γ rays
+following stopped π − and Σ− absorption in nuclei (unpub-
+lished) do not show any evidence for contaminants according
+to GALL 88 spokesperson, B.L. Roberts. The DENISOV 91
+measurement uses a crystal diﬀraction spectrometer with a
+resolution of 6.3 eV for radiation at 22.1 keV to measure
+the 4f-3d transition in K − 12 C. The high resolution and the
+https://pdg.lbl.gov                       Page 4                      Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+light nucleus reduce the probability for overlap by contaminant
+γ rays, compared with the measurement of GALL 88. The
+DENISOV 91 measurement is supported by their high-precision
+measurement of the 4d-2p transition energy in π − 12 C, which is
+good agreement with the calculated energy.
+
+          Table 2: mK ± averages for some combina-
+          tions of Fig. 1 data after raising CHENG 75 and
+          BACKENSTOSS 73 values by 0.015 and 0.022
+          MeV respectively.
+
+ mK ± (MeV)                χ2 D.F. Prob. (%) Measurements used
+493.666 ± 0.004 53.9                12 0.00003 all 13 measurements
+493.693 ± 0.006 9.0                 10 53      no K − Pb(9→8)
+493.690 ± 0.006 11.5                11 40      no GALL 88 K − Pb(9→8)
+493.645 ± 0.006 23.0                11 1.8     no DENISOV 91
+
+
+    While we suspect that the GALL 88 K − Pb (9 → 8) mea-
+surements could be the problem, we are unable to ﬁnd clear
+grounds for rejecting it. Therefore, we retain their measure-
+ment in the average and accept the large scale factor until
+further information can be obtained from new measurements
+and/or from reanalysis of GALL 88 and CHENG 75 data.
+    We thank B.L. Roberts (Boston Univ.) and Yu.M. Ivanov
+(Petersburg Nuclear Physics Inst.) for their extensive help in
+understanding this problem.
+
+References
+1. A.S. Denisov, et al. [DENISOV 91], Sov. Phys. JETP Lett.
+   54, 558 (1991).
+2. K.P. Gall, et al. [GALL 88], Phys. Rev. Lett. 60, 186
+   (1988).
+
+
+https://pdg.lbl.gov                       Page 5                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+3. S.C. Cheng, et al. [CHENG 75], Nucl. Phys. A254, 381
+   (1975).
+4. G. Backenstoss, et al. [BACKENSTOSS 73], Phys. Lett.
+   43B, 431 (1973).
+
+                                             K ± MASS
+VALUE (MeV)                           DOCUMENT ID                TECN     CHG     COMMENT
+493.677± 0.015 OUR FIT Error includes scale factor of 2.8.
+493.677± 0.013 OUR AVERAGE Error includes scale factor of 2.4. See the ideogram
+below.
+493.696± 0.007                1 DENISOV         91 CNTR −             Kaonic atoms
+493.636± 0.011                2 GALL            88 CNTR −             Kaonic atoms
+493.640± 0.054                  LUM             81 CNTR −             Kaonic atoms
+493.670± 0.029                  BARKOV          79 EMUL ±             e+ e− → K + K −
+493.657± 0.020                2 CHENG           75 CNTR −             Kaonic atoms
+493.691± 0.040                  BACKENSTO...73 CNTR −                 Kaonic atoms
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+493.631± 0.007                  GALL            88 CNTR −             K − Pb (9→ 8)
+493.675± 0.026                  GALL            88 CNTR −             K − Pb (11→ 10)
+493.709± 0.073                  GALL            88 CNTR −             K − W (9→ 8)
+493.806± 0.095                  GALL            88 CNTR −             K − W (11→ 10)
+493.640± 0.022 ± 0.008        3 CHENG           75 CNTR −             K − Pb (9→ 8)
+493.658± 0.019 ± 0.012        3 CHENG           75 CNTR −             K − Pb (10→ 9)
+493.638± 0.035 ± 0.016        3 CHENG           75 CNTR −             K − Pb (11→ 10)
+493.753± 0.042 ± 0.021        3 CHENG           75 CNTR −             K − Pb (12→ 11)
+493.742± 0.081 ± 0.027        3 CHENG           75 CNTR −             K − Pb (13→ 12)
+         WEIGHTED AVERAGE
+         493.677±0.013 (Error scaled by 2.4)
+
+
+                                               Values above of weighted average, error,
+                                               and scale factor are based upon the data in
+                                               this ideogram only. They are not neces-
+                                               sarily the same as our ‘best’ values,
+                                               obtained from a least-squares constrained fit
+                                               utilizing measurements of other (related)
+                                               quantities as additional information.
+
+
+
+                                                                                               2
+                                                                                            χ
+                                                       DENISOV      91           CNTR       7.7
+                                                       GALL         88           CNTR      13.6
+                                                       LUM          81           CNTR
+                                                       BARKOV       79           EMUL   0.1
+                                                       CHENG        75           CNTR   1.0
+                                                       BACKENSTO... 73           CNTR   0.1
+                                                                                       22.4
+                                                                  (Confidence Level = 0.0002)
+
+      493.55    493.6    493.65     493.7     493.75     493.8    493.85
+
+         m K ± (MeV)
+
+https://pdg.lbl.gov                         Page 6                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Error increased from 0.0059 based on the error analysis in IVANOV 92.
+  2 This value is the authors’ combination of all of the separate transitions listed for this
+    paper.
+  3 The CHENG 75 values for separate transitions were calculated from their Table 7 transi-
+    tion energies. The ﬁrst error includes a 20% systematic error in the noncircular contam-
+    inant shift. The second error is due to a ± 5 eV uncertainty in the theoretical transition
+    energies.
+
+                                            mK + − mK −
+         Test of CPT.
+
+VALUE (MeV)                  EVTS           DOCUMENT ID               TECN      CHG
+− 0.032± 0.090               1.5M         1 FORD               72     ASPK ±
+  1 FORD 72 uses m           − m − = + 28 ± 70 keV.
+                        π+      π
+
+
+                                          K ± MEAN LIFE
+
+VALUE (10−8 s)           EVTS          DOCUMENT ID                TECN      CHG     COMMENT
+1.2380± 0.0020 OUR FIT Error includes scale factor of 1.8.
+1.2379± 0.0021 OUR AVERAGE Error includes scale factor of 1.9. See the ideogram
+below.
+1.2347± 0.0030      15M        1 AMBROSINO 08 KLOE ±                   φ → K+ K−
+1.2451± 0.0030      250k         KOPTEV         95 CNTR                K at rest, U target
+1.2368± 0.0041      150k         KOPTEV         95 CNTR                K at rest, Cu target
+1.2380± 0.0016       3M          OTT            71 CNTR +              K at rest
+1.2272± 0.0036                   LOBKOWICZ 69 CNTR +                   K in ﬂight
+1.2443± 0.0038                   FITCH          65B CNTR +             K at rest
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.2415± 0.0024      400k       2 KOPTEV         95 CNTR                K at rest
+1.221 ± 0.011                     FORD            67 CNTR ±
+1.231 ± 0.011                     BOYARSKI        62 CNTR +
+  1 Result obtained by averaging the decay length and decay time analyses taking correlations
+    into account.
+  2 KOPTEV 95 report this weighted average of their U-target and Cu-target results, where
+    they have weighted by 1/σ rather than 1/σ 2 .
+
+
+
+
+https://pdg.lbl.gov                          Page 7                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+            WEIGHTED AVERAGE
+            1.2379±0.0021 (Error scaled by 1.9)
+
+
+                                                Values above of weighted average, error,
+                                                and scale factor are based upon the data in
+                                                this ideogram only. They are not neces-
+                                                sarily the same as our ‘best’ values,
+                                                obtained from a least-squares constrained fit
+                                                utilizing measurements of other (related)
+                                                quantities as additional information.
+
+
+
+                                                                                                   2
+                                                                                               χ
+                                                         AMBROSINO           08     KLOE  1.2
+                                                         KOPTEV              95     CNTR  5.7
+                                                         KOPTEV              95     CNTR  0.1
+                                                         OTT                 71     CNTR  0.0
+                                                         LOBKOWICZ           69     CNTR  8.9
+                                                         FITCH               65B    CNTR  2.8
+                                                                                         18.6
+                                                                    (Confidence Level = 0.0022)
+
+       1.21       1.22      1.23      1.24       1.25      1.26       1.27
+
+            K ± mean life (10−8 s)
+
+                                   (τ K + − τ K − ) / τ average
+         This quantity is a measure of CPT invariance in weak interactions.
+
+VALUE (%)                                  DOCUMENT ID               TECN
+  0.10 ± 0.09 OUR AVERAGE              Error includes scale factor of 1.2.
+− 0.4 ± 0.4                               AMBROSINO 08 KLOE
+  0.090± 0.078                            LOBKOWICZ 69 CNTR
+  0.47 ± 0.30                             FORD            67 CNTR
+
+
+See the related review(s):
+  Rare Kaon Decays
+
+                                     K + DECAY MODES
+         K − modes are charge conjugates of the modes below.
+                                                                                           Scale factor/
+       Mode                                              Fraction (Γi /Γ)                Conﬁdence level
+
+                             Leptonic and semileptonic modes
+Γ1     e + νe                                               (     1.582± 0.007) × 10−5
+Γ2     µ+ νµ                                                ( 63.56 ± 0.11 ) %                         S=1.2
+Γ3     π 0 e + νe                                           (     5.07 ± 0.04 ) %                      S=2.1
+      Called K + e3 .
+
+https://pdg.lbl.gov                          Page 8                     Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ4     π 0 µ+ νµ                                               (   3.352± 0.034) %                    S=1.9
+      Called K +  µ3 .
+Γ5       0   0
+       π π e νe +                                              (   2.55 ± 0.04 ) × 10−5               S=1.1
+Γ6     π 0 π 0 µ+ νµ                                           (   3.45 ± 0.16 ) × 10−6
+Γ7     π + π − e + νe                                          (   4.247± 0.024) × 10−5
+Γ8     π + π − µ+ νµ                                           (   1.4   ± 0.9    ) × 10−5
+Γ9     π 0 π 0 π 0 e + νe                                  <       5.4              × 10−8        CL=90%
+
+                                         Hadronic modes
+Γ10    π+ π0                                                   ( 20.67 ± 0.08 ) %                     S=1.2
+Γ11    π+ π0 π0                                                ( 1.760± 0.023) %                      S=1.1
+Γ12    π+ π+ π−                                                (   5.583± 0.024) %
+
+                   Leptonic and semileptonic modes with photons
+Γ13    µ+ νµ γ                                     [a,b]       (   6.2   ± 0.8 ) × 10−3
+Γ14    µ+ νµ γ (SD+ )                              [c,d]       (   1.33 ± 0.22 ) × 10−5
+Γ15    µ+ νµ γ (SD+ INT)                           [c,d] <         2.7             × 10−5         CL=90%
+Γ16    µ+ νµ γ (SD− + SD− INT)                     [c,d] <         2.6             × 10−4         CL=90%
+Γ17    e + νe γ                                                (   1.03 ± 0.14 ) × 10−5
+Γ18    π 0 e + νe γ                                [a,b]       (   2.698± 0.033) × 10−4
+Γ19    π 0 e + νe γ (SD)                           [c,d] <         5.3           × 10−5           CL=90%
+Γ20    π 0 µ+ νµ γ                                 [a,b]       (   1.25 ± 0.25 ) × 10−5
+Γ21    π 0 π 0 e + νe γ                                    <       5               × 10−6         CL=90%
+
+                       Hadronic modes with photons or ℓ ℓ pairs
+Γ22    π + π 0 γ (INT)                                         (− 4.2    ± 0.9    ) × 10−6
+Γ23    π + π 0 γ (DE)                              [a,e]       (   6.0   ± 0.4    ) × 10−6
+Γ24    π+ π0 e + e −                                           (   4.24 ± 0.14 ) × 10−6
+Γ25    π+ π0 π0 γ                                  [a,b]       (   4.0 ± 1.1 ) × 10−6
+Γ26    π+ π+ π− γ                                  [a,b]       (   7.1 ± 0.5 ) × 10−6
+Γ27    π+ γ γ                                         [a] (        9.65 ± 0.16 ) × 10−7
+Γ28    π + 3γ                                         [a] <        1.0           × 10−4           CL=90%
+Γ29    π+ e + e − γ                                            (   1.19 ± 0.13 ) × 10−8
+
+                                Leptonic modes with ℓ ℓ pairs
+Γ30    e + νe ν ν                                          <       6             × 10−5           CL=90%
+Γ31    µ+ νµ ν ν                                           <       1.0           × 10−6           CL=90%
+Γ32    e + νe e + e −                                          (   2.48 ± 0.20 ) × 10−8
+Γ33    µ+ νµ e + e −                                           (   7.06 ± 0.31 ) × 10−8
+Γ34    e + νe µ+ µ−                                            (   1.7 ± 0.5 ) × 10−8
+Γ35    µ+ νµ µ+ µ−                                         <       4.1             × 10−7         CL=90%
+
+      Lepton family number (LF ), Lepton number (L), ∆S = ∆Q (SQ)
+        violating modes, or ∆S = 1 weak neutral current (S1 ) modes
+Γ36   π π+ e − ν e
+        +                      SQ        <   1.3          × 10−8    CL=90%
+Γ37     +  +
+      π π µ νµ −               SQ        <   3.0          × 10−6    CL=95%
+
+https://pdg.lbl.gov                         Page 9                       Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ38    π+ e + e −                           S1                 (   3.00 ± 0.09 ) × 10−7
+Γ39    π + µ+ µ−                            S1                 (   9.17 ± 0.14 ) × 10−8               S=1.8
+Γ40    π+ e + e − e + e −                   S1            <        1.4           × 10−8           CL=90%
+Γ41    π+ ν ν                               S1                 (   1.33 ± 0.30 ) × 10−10
+Γ42    π+ π0 ν ν                            S1            <        4.3             × 10−5         CL=90%
+Γ43    µ− ν e + e +                         LF            <        8.1             × 10−11        CL=90%
+Γ44    µ+ νe                                LF        [f ] <       4               × 10−3         CL=90%
+Γ45    π + µ+ e −                           LF             <       1.3             × 10−11        CL=90%
+Γ46    π 0 π + µ+ e −                       LF            <        5.0             × 10−10        CL=90%
+Γ47    π + µ− e +                           LF            <        6.6             × 10−11        CL=90%
+Γ48    π 0 π + µ− e +                       LF            <        3.1             × 10−10        CL=90%
+Γ49    π − µ+ e +                           L             <        4.2             × 10−11        CL=90%
+Γ50    π 0 π − µ+ e +                       L             <        2.9             × 10−10        CL=90%
+Γ51    π− e + e +                           L             <        5.3             × 10−11        CL=90%
+Γ52    π − µ+ µ+                            L             <        4.2             × 10−11        CL=90%
+Γ53    π− π0 e + e +                        L              <       8.5             × 10−10        CL=90%
+Γ54    µ+ ν e                               L         [f ] <       3.3             × 10−3         CL=90%
+Γ55    π0 e + ν e                           L             <        3               × 10−3         CL=90%
+Γ56    π+ γ                                          [g ] <        2.3             × 10−9         CL=90%
+
+   [a] See the Particle Listings below for the energy limits used in this mea-
+       surement.
+   [b] Most of this radiative mode, the low-momentum γ part, is also included
+       in the parent mode listed without γ’s.
+   [c] Structure-dependent part.
+   [d] See the review on “Form Factors for Radiative Pion and Kaon Decays”
+       for deﬁnitions and details.
+   [e] Direct-emission branching fraction.
+   [f ] Derived from an analysis of neutrino-oscillation experiments.
+   [g ] Violates angular-momentum conservation.
+
+                         CONSTRAINED FIT INFORMATION
+         An overall ﬁt to the mean life, a decay rate, and 15 branching
+         ratios uses 35 measurements and one constraint to determine 8
+         parameters. The overall ﬁt has a χ2 = 53.4 for 28 degrees of
+         freedom.
+
+The
+D      following off-diagonal array elements are the correlation coeﬃcients
+         E
+  δpi δpj /(δpi ·δpj ), in percent, from the ﬁt to parameters pi , including the branch-
+ing fractions, xi ≡ Γi /Γtotal . The ﬁt constrains the xi whose labels appear in this
+array to sum to one.
+
+
+
+
+https://pdg.lbl.gov                        Page 10                       Created: 6/1/2026 16:25
+           Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+     x3          −66
+     x4          −64        89
+     x5          −12        −5       −5
+ x10             −67         0       −1        −6
+ x11             −13        −6       −5        91        −6
+ x12             −14        −6       −6         2        −7            2
+   Γ               3         1        1         0          2           0    −24
+                  x2        x3       x4        x5        x10       x11      x12
+
+           Mode                                                  Rate (108 s− 1 )                  Scale factor
+
+Γ2         µ+ νµ                                                  0.5134 ± 0.0012                            1.5
+Γ3         π 0 e + νe                                             0.0410 ± 0.0004                            2.1
+          Called K + e3 .
+Γ4           0
+           π µ νµ+                                                0.02707± 0.00028                           1.9
+          Called K + µ3 .
+Γ5           0   0
+           π π e νe +                                            (2.059     ± 0.029      ) × 10−5            1.1
+Γ10        π+ π0                                                  0.1670 ± 0.0007                            1.3
+Γ11        π+ π0 π0                                               0.01421± 0.00018                           1.1
+Γ12        π+ π+ π−                                               0.04510± 0.00019
+
+                                          K ± DECAY RATES
+Γ µ+ νµ
+             
+                                                                                                             Γ2
+VALUE (106 s− 1 )                              DOCUMENT ID                 TECN    CHG
+51.34± 0.12 OUR FIT Error includes scale factor of 1.5.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+51.2 ± 0.8                                     FORD               67       CNTR ±
+
+Γ π+ π+ π−
+           
+                                                                                                            Γ12
+VALUE (106 s− 1 )                EVTS          DOCUMENT ID                 TECN    CHG
+4.510± 0.019 OUR FIT
+4.511± 0.024                      1 FORD            70 ASPK
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.529± 0.032           3.2M       1 FORD            70 ASPK
+4.496± 0.030                      1 FORD            67 CNTR ±
+  1 First FORD 70 value is second FORD 70 combined with FORD 67.
+
+
+                                     K + BRANCHING RATIOS
+                                 Leptonic and semileptonic modes
+Γ e + νe /Γ µ+ νµ
+                 
+                                                                                                          Γ1 /Γ2
+          See the note on “Decay Constants of Charged Pseudoscalar Mesons” in the D +
+                                                                                    s
+          Listings.
+VALUE (units 10−5 )              EVTS          DOCUMENT ID                 TECN    CHG
+2.488± 0.009 OUR AVERAGE
+2.488± 0.007 ± 0.007 150k                    1 LAZZERONI          13       NA62    ±
+
+https://pdg.lbl.gov                            Page 11                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+2.493± 0.025 ± 0.019   13.8k      2 AMBROSINO 09E KLOE ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.487± 0.011 ± 0.007     60k      3 LAZZERONI 11 NA62 +
+2.51 ± 0.15                  404        HEINTZE         76 SPEC +
+2.37 ± 0.17                  534        HEARD           75B SPEC +
+2.42 ± 0.42                  112        CLARK           72 OSPK +
+  1 LAZZERONI 13 uses full data sample collected from 2007 to 2008. This ratio is deﬁned
+    to be fully inclusive, including internal-bremsstrahlung.
+  2 The ratio is deﬁned to include internal-bremsstrahlung, ignoring direct-emission contribu-
+    tions. AMBROSINO 09E determined the ratio from the measurement of Γ(K → e ν (γ),
+    E γ < 10 MeV) / Γ(K → µ ν (γ)). 89.8% of K → e ν (γ) events had E γ <10 MeV.
+  3 This ratio is deﬁned to be fully inclusive, including internal-bremsstrahlung.
+
+Γ µ+ νµ /Γtotal
+       
+                                                                                                         Γ2 /Γ
+        See the note on “Decay Constants of Charged Pseudoscalar Mesons” in the D +
+                                                                                  s
+        Listings.
+VALUE (units 10−2 )       EVTS          DOCUMENT ID                TECN      CHG     COMMENT
+63.56± 0.11 OUR FIT Error includes scale factor of 1.2.
+63.60± 0.16 OUR AVERAGE
+63.66± 0.09 ± 0.15 865k         1 AMBROSINO 06A KLOE +
+63.24± 0.44             62k       CHIANG         72 OSPK +                           1.84 GeV/c K +
+  1 Fully inclusive. Used tagged kaons from φ decays.
+
+Γ π 0 e + νe /Γtotal
+            
+                                                                                                         Γ3 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+5.07 ± 0.04 OUR FIT Error includes scale factor of 2.1.
+4.94 ± 0.05 OUR AVERAGE
+4.965± 0.038 ± 0.037              1 AMBROSINO 08A KLOE ±
+4.86 ± 0.10            3516         CHIANG          72 OSPK +             1.84 GeV/c K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.7 ± 0.3                429       SHAKLEE       64 HLBC +
+5.0 ± 0.5                          ROE           61 HLBC +
+  1 Depends on K + lifetime τ . AMBROSINO 08A uses PDG 06 value of τ = (1.2385 ±
+    0.0024) × 10−8 sec. The correlation between K + and K + branching fraction mea-
+                                                  e3      µ3
+    surements is 62.7%.
+
+Γ π 0 e + νe /Γ µ+ νµ
+                     
+                                                                                                        Γ3 /Γ2
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG
+0.0798± 0.0008 OUR FIT Error includes scale factor of 1.9.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.069 ± 0.006         350        ZELLER       69 ASPK +
+0.0775± 0.0033        960        BOTTERILL 68C ASPK +
+0.069 ± 0.006         561        GARLAND      68 OSPK +
+0.0791± 0.0054        295      1 AUERBACH     67 OSPK +
+  1 AUERBACH 67 changed from 0.0797 ± 0.0054. See comment with ratio Γ π 0 µ+ ν /
+                                                                               µ
+    Γ µ+ νµ . The value 0.0785 ± 0.0025 given in AUERBACH 67 is an average of
+            
+                                                                    h
+    AUERBACH 67 Γ π 0 e + νe /Γ µ+ νµ and CESTER 66 Γ π 0 e + νe / Γ µ+ νµ +
+                                                                             
+              i
+    Γ π+ π0 .
+            
+
+
+https://pdg.lbl.gov                          Page 12                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ π 0 e + νe / Γ µ+ νµ + Γ π + π 0
+                                
+                                                                                            Γ3 /(Γ2 +Γ10 )
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN       CHG
+6.02± 0.06 OUR FIT Error includes scale factor of 2.1.
+6.02± 0.15 OUR AVERAGE
+6.16± 0.22             5110         ESCHSTRUTH 68 OSPK +
+5.89± 0.21             1679         CESTER          66 OSPK +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+5.92± 0.65                        1 WEISSENBE... 76 SPEC +
+  1 Value calculated from WEISSENBERG 76 (π 0 e ν), (µ ν), and (π π 0 ) values to eliminate
+    dependence on our 1974 (π 2π 0 ) and (π π + π − ) fractions.
+
+Γ π 0 e + νe / Γ π 0 µ+ νµ + Γ π + π 0 + Γ π + π 0 π 0
+                                                   
+                                                                                    Γ3 /(Γ4 +Γ10 +Γ11 )
+VALUE                            EVTS           DOCUMENT ID                TECN      CHG
+0.1967± 0.0016 OUR FIT           Error includes scale factor of 2.5.
+0.1962± 0.0008 ± 0.0035           71k        SHER             03 B865                +
+
+Γ π 0 e + νe /Γ π + π 0
+                       
+                                                                                                        Γ3 /Γ10
+VALUE                          EVTS           DOCUMENT ID               TECN      CHG      COMMENT
+0.2454± 0.0023 OUR FIT Error includes scale factor of 2.6.
+0.2467± 0.0011 OUR AVERAGE Error includes scale factor of 1.1.
+0.2423± 0.0015 ± 0.0037 31k          UVAROV          14 ISTR −             ISTRA+
+0.2470± 0.0009 ± 0.0004 87k          BATLEY          07A NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.221 ± 0.012             786      1 LUCAS           73B HBC         −     Dalitz pairs only
+  1 LUCAS 73B gives N(K ) = 786 ± 3.1%, N(2π) = 3564 ± 3.1%. We use these values
+                           e3
+    to obtain quoted result.
+
+Γ π 0 e + νe /Γ π + π + π −
+                           
+                                                                                                        Γ3 /Γ12
+VALUE                         EVTS           DOCUMENT ID               TECN       CHG
+0.908± 0.009 OUR FIT Error includes scale factor of 1.6.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.867± 0.027              2768        BARMIN          87 XEBC +
+0.856± 0.040              2827        BRAUN           75 HLBC +
+0.850± 0.019              4385      1 HAIDT           71 HLBC +
+0.846± 0.021              4385      1 EICHTEN         68 HLBC +
+0.94 ± 0.09                854        BELLOTTI        67B HLBC
+0.90 ± 0.06                230        BORREANI        64 HBC         +
+  1 HAIDT 71 is a reanalysis of EICHTEN 68. Not included in average because of large
+    discrepancy in Γ(π 0 µ+ ν)/Γ(π 0 e + ν) with more precise results.
+
+Γ π 0 µ+ νµ /Γtotal
+           
+                                                                                                          Γ4 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN       CHG    COMMENT
+3.352± 0.034 OUR FIT Error includes scale factor of 1.9.
+3.24 ± 0.04 OUR AVERAGE
+3.233± 0.029 ± 0.026              1 AMBROSINO 08A KLOE ±
+3.33 ± 0.16            2345         CHIANG          72 OSPK +             1.84 GeV/c K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.8 ± 0.4                         2 TAYLOR          59 EMUL +
+
+
+https://pdg.lbl.gov                          Page 13                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+    1 Depends on K + lifetime τ . AMBROSINO 08A uses PDG 06 value of τ = (1.2385 ±
+      0.0024) × 10−8 sec. The correlation between K + and K + branching fraction mea-
+                                                    e3      µ3
+      surements is 62.7%.
+    2 Earlier experiments not averaged.
+
+Γ π 0 µ+ νµ /Γ µ+ νµ
+                    
+                                                                                                        Γ4 /Γ2
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG
+0.0527± 0.0006 OUR FIT Error includes scale factor of 1.8.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.054 ± 0.009              240       ZELLER       69 ASPK +
+0.0480± 0.0037             424     1 GARLAND      68 OSPK +
+0.0486± 0.0040             307     2 AUERBACH     67 OSPK +
+  1 GARLAND 68 changed from 0.055 ± 0.004 in agreement with µ-spectrum calculation
+    of GAILLARD 70 appendix B. L.G.Pondrom, (private communication 73).
+  2 AUERBACH 67 changed from 0.0602 ± 0.0046 by erratum which brings the µ-spectrum
+    calculation into agreement with GAILLARD 70 appendix B.
+
+Γ π 0 µ+ νµ /Γ π 0 e + νe
+                         
+                                                                                                        Γ4 /Γ3
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.6608± 0.0031 OUR FIT Error includes scale factor of 1.2.
+0.6618± 0.0027 OUR AVERAGE
+0.663 ± 0.003 ± 0.001 77k            BATLEY         07A NA48 ±
+0.671 ± 0.007 ± 0.008 24k            HORIE          01 SPEC
+0.670 ± 0.014                      1 HEINTZE        77 SPEC +
+0.667 ± 0.017           5601         BOTTERILL 68B ASPK +
+• • • We use the following data for averages but not for ﬁts. • • •
+0.6511± 0.0064                     2 AMBROSINO 08A KLOE ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.608 ± 0.014          1585       3 BRAUN           75 HLBC +
+0.705 ± 0.063            554      4 LUCAS           73B HBC         −     Dalitz pairs only
+0.698 ± 0.025          3480       5 CHIANG          72 OSPK +             1.84 GeV/c K +
+0.596 ± 0.025                     6 HAIDT           71 HLBC +
+0.604 ± 0.022          1398       6 EICHTEN         68 HLBC
+0.703 ± 0.056            1509         CALLAHAN         66B HLBC
+  1 HEINTZE 77 value from ﬁt to λ . Assumes µ-e universality.
+                                     0
+  2 Not used in the ﬁt. This result enters the ﬁt via correlation of K + and K + branching
+                                                                       e3      µ3
+    fraction measurements of AMBROSINO 08A.
+  3 BRAUN 75 value is from form factor ﬁt. Assumes µ-e universality.
+  4 LUCAS 73B gives N(K ) = 554 ± 7.6%, N(K ) = 786 ± 3.1%. We divide.
+                          µ3                         e3
+  5 CHIANG 72 Γ π 0 µ+ ν /Γ π 0 e + ν  is statistically independent of CHIANG 72
+                            µ              e
+    Γ π 0 µ+ νµ /Γtotal and Γ π 0 e + νe /Γtotal .
+                                        
+  6 HAIDT 71 is a reanalysis of EICHTEN 68. Not included in average because of large
+    discrepancy with more precise results.
+
+ Γ π 0 µ+ νµ + Γ π + π 0 /Γtotal
+                      
+                                                                          (Γ4 +Γ10 )/Γ
+        We combine these two modes for experiments measuring them in xenon bubble cham-
+        ber because of diﬃculties of separating them there.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+24.02± 0.08 OUR FIT Error includes scale factor of 1.2.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+25.4 ± 0.9                     886           SHAKLEE            64     HLBC +
+23.4 ± 1.1                                   ROE                61     HLBC +
+
+https://pdg.lbl.gov                          Page 14                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ π 0 µ+ νµ /Γ π + π 0
+                      
+                                                                                                        Γ4 /Γ10
+VALUE                          EVTS           DOCUMENT ID               TECN      CHG
+0.1637± 0.0006 ± 0.0003           77k         BATLEY              07A NA48        ±
+
+Γ π 0 µ+ νµ /Γ π + π + π −
+                          
+                                                                                                        Γ4 /Γ12
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.600± 0.007 OUR FIT Error includes scale factor of 1.6.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.503± 0.019           1505       1 HAIDT           71 HLBC +
+0.510± 0.017           1505       1 EICHTEN         68 HLBC +
+0.63 ± 0.07            2845       2 BISI            65B BC          +     HBC+HLBC
+  1 HAIDT 71 is a reanalysis of EICHTEN 68. Not included in average because of large
+    discrepancy in Γ(π 0 µ+ ν)/Γ(π 0 e + ν) with more precise results.
+  2 Error enlarged for background problems. See GAILLARD 70.
+
+Γ π 0 π 0 e + νe /Γtotal
+                
+                                                                                                          Γ5 /Γ
+VALUE (units 10−5 )           EVTS           DOCUMENT ID               TECN      CHG
+2.55± 0.04 OUR FIT          Error includes scale factor of 1.1.
+2.54± 0.89                      10        BARMIN            88B HLBC +
+
+Γ π 0 π 0 µ+ νµ /Γtotal
+               
+                                                                                                          Γ6 /Γ
+VALUE (units 10−6 )        EVTS          DOCUMENT ID                 TECN     CHG     COMMENT
+3.45± 0.16            2437              1 BATLEY 24 NA48 ±          model extrapolation
+  1 BATLEY 24 reported the result extrapolated to the full kinematic space, based on the
+    measurement B(K ± → π 0 π 0 µ± ν) = (0.65 ± 0.03) × 10−6 , in the kinematic region
+    where the squared dilepton mass is above 0.03 GeV2 /c4 .
+
+Γ π 0 π 0 e + νe /Γ π + π 0 π 0
+                               
+                                                                                                        Γ5 /Γ11
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      CHG
+1.449± 0.008 OUR FIT
+1.449± 0.006 ± 0.006    65.2k     1 BATLEY           14A NA48 ±
+  1 Data collected in 2003–2004. This leads to the scalar form factor (1+ δ
+                                                                                 EM ) fs =
+    6.079 ± 0.012 ± 0.027 ± 0.046 where the last error is due to the normalizing decay mode
+    uncertainty.
+
+Γ π 0 π 0 e + νe /Γ π 0 e + νe
+                              
+                                                                                                         Γ5 /Γ3
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      CHG
+5.03± 0.09 OUR FIT Error includes scale factor of 1.2.
+4.1 + 1.0 OUR AVERAGE
+    − 0.7
+    + 1.0
+4.2 −                             25         BOLOTOV            86B CALO −
+      0.9
+    + 5.0
+3.8 −                              2         LJUNG              73     HLBC +
+      1.2
+
+Γ π + π − e + νe /Γ π + π + π −
+                               
+                                                                                                        Γ7 /Γ12
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      CHG
+7.606± 0.029 OUR AVERAGE
+7.615± 0.008 ± 0.028 1.1M                  1 BATLEY             12     NA48      ±
+7.35 ± 0.01 ± 0.19   388k                  2 PISLAK             01     B865
+7.21 ± 0.32            30k                   ROSSELET           77     SPEC      +
+
+https://pdg.lbl.gov                          Page 15                        Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+7.36 ± 0.68                 500       BOURQUIN         71 ASPK
+7.0 ± 0.9                   106       SCHWEINB... 71 HLBC +
+5.83 ± 0.63                 269       ELY              69 HLBC +
+  1 BATLEY 12 uses data collected in 2003–2004. The result is inclusive of K ± →
+    π + π − e ± ν γ decays. Using PDG 12 value for Γ(π + π − π + )/Γ = (5.59 ± 0.04)×10−2 .
+    BATLEY 12 obtains B(π + π − e ν) = (4.257 ± 0.004 ± 0.035) × 10−5 where the syst.
+    error is dominated by the error on the normalization mode.
+  2 PISLAK 01 reports Γ(π + π − e + ν )/Γ                                       −5 using the
+                                      e    total = (4.109 ± 0.008 ± 0.110) × 10
+                        +   +   −                               −2
+    PDG 00 value Γ(π π π )/Γtotal = (5.59 ± 0.05) × 10 . We divide by the PDG
+    value and unfold its error from the systematic error. PISLAK 03 and PISLAK 10A give
+    additional details on the branching ratio measurement and give improved errors on the
+    S-wave π-π scattering length: a0 = 0.235 ± 0.013 and a2 = − 0.0410 ± 0.0027.
+                                    0                         0
+
+Γ π + π − µ+ νµ /Γtotal
+               
+                                                                                                          Γ8 /Γ
+VALUE (units 10−5 )           EVTS           DOCUMENT ID               TECN      CHG
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+     + 0.54
+0.77 −                            1          CLINE              65     FBC       +
+       0.50
+
+Γ π + π − µ+ νµ /Γ π + π + π −
+                              
+                                                                                                        Γ8 /Γ12
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      CHG
+  2.57± 1.55                7       BISI            67 DBC          +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+∼ 2.5                             1          GREINER            64     EMUL +
+
+Γ π 0 π 0 π 0 e + νe /Γtotal
+                    
+                                                                                                          Γ9 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      CHG
+<5.4 × 10−8             90          ARTAMONOV 24A OKA +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<9 × 10−6               90          BARMIN          92 XEBC +
+<3.5 × 10−6             90          BOLOTOV         88 SPEC −
+
+                                           Hadronic modes
+Γ π + π 0 /Γtotal
+         
+                                                                                                         Γ10 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+20.67± 0.08 OUR FIT Error includes scale factor of 1.2.
+20.70± 0.16 OUR AVERAGE Error includes scale factor of 1.8.
+20.65± 0.05 ± 0.08     1.4M       1 AMBROSINO 08E KLOE +                  φ → K+ K−
+21.18± 0.28              16k        CHIANG          72 OSPK +             1.84 GeV/c K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+21.0 ± 0.6                               CALLAHAN       65 HLBC               See Γ10 /Γ12
+  1 Fully inclusive of ﬁnal-state radiation. The branching ratio is evaluated using K + lifetime,
+    τ = 12.385 ns.
+
+Γ π + π 0 /Γ µ+ νµ
+                  
+                                                                                                        Γ10 /Γ2
+VALUE                        EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.3252± 0.0016 OUR FIT Error includes scale factor of 1.2.
+0.3325± 0.0032 OUR AVERAGE
+0.3329± 0.0047 ± 0.0010 45k     USHER           92 SPEC                         +       p p at rest
+
+https://pdg.lbl.gov                          Page 16                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+0.3355± 0.0057                   1 WEISSENBE... 76 SPEC +
+0.3277± 0.0065        4517       2 AUERBACH        67 OSPK +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.328 ± 0.005           25k      1 WEISSENBE... 74 STRC +
+0.305 ± 0.018       1600       ZELLER         69 ASPK +
+  1 WEISSENBERG 76 revises WEISSENBERG 74.
+  2 AUERBACH 67 changed from 0.3253 ± 0.0065. See comment with ratio Γ π 0 µ+ ν /
+                                                                               µ
+    Γ µ+ ν µ .
+            
+
+
+Γ π + π 0 /Γ π + π + π −
+                        
+                                                                                                   Γ10 /Γ12
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG
+3.702± 0.022 OUR FIT Error includes scale factor of 1.1.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.96 ± 0.15                   1045           CALLAHAN           66     FBC       +
+
+Γ π + π 0 π 0 /Γtotal
+             
+                                                                                                        Γ11 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+1.760± 0.023 OUR FIT Error includes scale factor of 1.1.
+1.775± 0.028 OUR AVERAGE Error includes scale factor of 1.2.
+1.763± 0.013 ± 0.022                ALOISIO         04A KLOE ±
+1.84 ± 0.06            1307         CHIANG          72 OSPK +             1.84 GeV/c K +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.53 ± 0.11              198      1 PANDOULAS 70 EMUL +
+1.8 ± 0.2                 108         SHAKLEE                   64     HLBC +
+1.7 ± 0.2                             ROE                       61     HLBC +
+1.5 ± 0.2                          2 TAYLOR                     59     EMUL +
+  1 Includes events of TAYLOR 59.
+  2 Earlier experiments not averaged.
+
+Γ π + π 0 π 0 /Γ π + π 0
+                        
+                                                                                                   Γ11 /Γ10
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.0851± 0.0012 OUR FIT Error includes scale factor of 1.1.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.081 ± 0.005            574      1 LUCAS           73B HBC         −     Dalitz pairs only
+  1 LUCAS 73B gives N(π 2π 0 ) = 574 ± 5.9%, N(2π) = 3564 ± 3.1%.                                 We quote
+    0.5N(π 2π 0 ) N(2π) where 0.5 is because only Dalitz pair π 0 ’s were used.
+                 
+
+
+Γ π + π 0 π 0 /Γ π + π + π −
+                            
+                                                                                                   Γ11 /Γ12
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.315± 0.004 OUR FIT Error includes scale factor of 1.1.
+0.303± 0.009           2027         BISI            65 BC           +     HBC+HLBC
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.393± 0.099                     17          YOUNG              65     EMUL +
+
+Γ π + π + π − /Γtotal
+             
+                                                                                                        Γ12 /Γ
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+5.583± 0.024 OUR FIT
+5.565± 0.031 ± 0.025           68k         1 BABUSCI            14B KLOE +
+
+https://pdg.lbl.gov                          Page 17                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+5.56 ± 0.20            2330       2 CHIANG          72 OSPK +             1.84 GeV/c K +
+5.34 ± 0.21              693      3 PANDOULAS 70 EMUL +
+5.71 ± 0.15                            DEMARCO          65 HBC
+6.0 ± 0.4                     44       YOUNG            65 EMUL +
+5.54 ± 0.12                 2332       CALLAHAN         64 HLBC +
+5.1 ± 0.2                    540       SHAKLEE          64 HLBC +
+5.7 ± 0.3                              ROE              61 HLBC +
+  1 Inclusive of ﬁnal-state radiation. Result obtained from averaging two branching ratios:
+    one from a sample with K − → µ ν (γ) tagging and another with K − → π − π 0 (γ)
+    tagging.
+  2 Value is not independent of CHIANG 72 Γ µ+ ν /Γ                            + 0
+                                                                µ    total , Γ π π /Γtotal ,
+    Γ π + π 0 π 0 /Γtotal , Γ π 0 µ+ νµ /Γtotal , and Γ π 0 e + νe /Γtotal .
+                                                                
+  3 Includes events of TAYLOR 59.
+
+              Leptonic and semileptonic modes with photons
+Γ µ+ νµ γ /Γtotal
+         
+                                                                                                        Γ13 /Γ
+VALUE (units 10−3 )       EVTS             DOCUMENT ID             TECN      CHG     COMMENT
+6.2± 0.8 OUR AVERAGE
+6.6± 1.5                     1,2 DEMIDOV        90 XEBC                P(µ) <231.5 MeV/c
+6.0± 0.9                         BARMIN         88 HLBC +              P(µ) <231.5 MeV/c
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.5± 0.8                     2,3 DEMIDOV        90 XEBC                E(γ) > 20 MeV
+3.2± 0.5              57       4 BARMIN         88 HLBC +              E(γ) >20 MeV
+5.4± 0.3                       5 AKIBA          85 SPEC                P(µ) <231.5 MeV/c
+  1 P(µ) cut given in DEMIDOV 90 paper, 235.1 MeV/c, is a misprint according to authors
+    (private communication).
+  2 DEMIDOV 90 quotes only inner bremsstrahlung (IB) part.
+  3 Not independent of above DEMIDOV 90 value. Cuts diﬀer.
+  4 Not independent of above BARMIN 88 value. Cuts diﬀer.
+  5 Assumes µ-e universality and uses constraints from K → e ν γ.
+
+Γ µ+ νµ γ (SD+ ) /Γtotal
+                
+                                                                              Γ14 /Γ
+                                                    +
+       Structure-dependent part with +γ helicity (SD term). See the “Note on π ± →
+       ℓ± ν γ and K ± → ℓ± ν γ Form Factors” in the π ± section of the Particle Data
+       Listings above.
+VALUE (units 10−5 )        CL%      EVTS         DOCUMENT ID                TECN
+  1.33± 0.12 ± 0.18         2588     1 ADLER            00B B787
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<3.0                90               AKIBA           85 SPEC
+ 1 ADLER 00B obtains the branching ratio by extrapolating the measurement in the kine-
+   matic region Eµ > 137 MeV, Eγ > 90 MeV to the full SD+ phase-space. Also reports
+   FV + FA = 0.165 ± 0.007 ± 0.011 and − 0.04 < FV −FA < 0.24 at 90% CL.
+
+Γ µ+ νµ γ (SD+ INT) /Γtotal
+                   
+                                                                                 Γ15 /Γ
+       Interference term between internal Bremsstrahlung and SD+ term. See the “Note on
+       π ± → ℓ± ν γ and K ± → ℓ± ν γ Form Factors” in the π ± section of the Particle
+       Data Listings above.
+VALUE (units 10−5 )            CL%           DOCUMENT ID               TECN
+<2.7                           90            AKIBA              85     SPEC
+
+https://pdg.lbl.gov                           Page 18                     Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ µ+ νµ γ (SD− + SD− INT) /Γtotal
+                         
+                                                                                   Γ16 /Γ
+                                                           −
+       Sum of structure-dependent part with −γ helicity (SD term) and interference term
+       between internal Bremsstrahlung and SD− term. See the “Note on π ± → ℓ± ν γ and
+       K ± → ℓ± ν γ Form Factors” in the π ± section of the Particle Data Listings above.
+VALUE (units 10−4 )            CL%           DOCUMENT ID               TECN
+<2.6                    90        1 AKIBA           85 SPEC
+ 1 Assumes µ-e universality and uses constraints from K → e ν γ.
+
+Γ e + νe γ /Γ µ+ νµ
+                   
+                                                                                                        Γ17 /Γ2
+VALUE (units 10−5 )         EVTS        DOCUMENT ID                TECN      CHG COMMENT
+1.62 ± 0.22 OUR AVERAGE Error includes scale factor of 3.9.
+1.98 ± 0.11         95  1 KOBAYASHI 23 E36                           E γ in 10–250 MeV,
+                                                                         pe > 200 MeV/c
+1.483± 0.066 ± 0.013 1.4k       2 AMBROSINO 09E KLOE ± E in 10–250 MeV,
+                                                                       γ
+                                                                         pe > 200 MeV/c
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.85 ± 0.11 ± 0.07       574 3,4 ITO              22 E36        + E γ in 10–250 MeV,
+                                                                         pe > 200 MeV/c
+                                            +                               +
+  1 KOBAYASHI 23 observed 95 ± 10 K SD          events and derived B(K SD       )/B(Ke2(γ) )
+                                         e2γ(γ)                          e2γ(γ)
+    = 1.25 ± 0.14 ± 0.08. The authors obtained the Rγ value (1.98 ± 0.11) × 10−5 by
+    averaging KOBAYASHI 23 with ITO 22 after updating the ITO 22 result to include
+    internal bremsstrahlung process in the acceptance calculation.
+  2 AMBROSINO 09E measured the diﬀerential width dR /dE = (1/Γ(K → µ ν))
+                                                             γ     γ
+    (dΓ(K → e ν γ)/dE γ ). Result obtained by integrating the diﬀerential width over E γ
+    from 10 to 250 MeV.
+  3 ITO 22 result derived from B(K SD+ )/B(K
+                                    e2γ         e2(γ) ) = 1.12 ± 0.07 ± 0.04.
+  4 superseded by KOBAYASHI 2023
+
+Γ π 0 e + νe γ /Γ π 0 e + νe
+                            
+                                                                                                        Γ18 /Γ3
+VALUE (units 10−3 )       EVTS         DOCUMENT ID              TECN       CHG COMMENT
+ 5.32± 0.05 OUR AVERAGE
+ 5.33± 0.03 ± 0.04 130k 1 CORTINA-GIL 23D NA62                             +    E γ > 10 MeV, 0.6 <
+                                                                                   cos(θe γ ) < 0.9
+ 5.32± 0.10 ± 0.12       7248        2 POLYARUSH 21             OKA        +    E γ > 10 MeV, 0.6 <
+                                                                                   cos(θe γ ) < 0.9
+ 4.7 ± 0.2 ± 0.3         1456        3 AKIMENKO           07    ISTR       −    E γ > 10 MeV, 0.6 <
+                                                                                   cos(θeγ ) < 0.9
+ 4.6 ± 0.8                  82       4 BARMIN             91    XEBC            E γ > 10 MeV, 0.6 <
+                                                                                   cos(θeγ ) < 0.9
+ 5.6 ± 0.4                 192       5 BOLOTOV 86B CALO − E γ > 10 MeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+18.1 ± 0.3 ± 0.7    4476      3 AKIMENKO 07 ISTR − E >10 MeV, θ >10◦
+                                                                     γ           eγ
+ 6.3 ± 0.2 ± 0.3              3 AKIMENKO 07 ISTR − E >30 MeV, θ >20◦
+                                                                     γ           eγ
+15.1 ± 2.5            82      4 BARMIN         91 XEBC             E γ > 10 MeV, cos(θeγ )
+                                                                       < 0.98
+ 4.8 ± 2.0            16      6 LJUNG          73 HLBC + E γ > 30 MeV
+
+
+https://pdg.lbl.gov                          Page 19                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+     + 1.5
+ 2.2 −                                  6 LJUNG           73    HLBC +          E γ > 30 MeV
+       1.0
+ 7.6 ± 2.8                  13          7 ROMANO          71    HLBC            E γ > 10 MeV
+ 5.3 ± 2.2                              7 ROMANO          71    HLBC +          E γ > 30 MeV
+12     ±8                                BELLOTTI         67    HLBC            E γ > 30 MeV
+  1 CORTINA-GIL 23D provides values for three kinematic regions. For averaging, we use
+    value with E γ > 10 MeV and 0.6 < cos(θe γ ) < 0.9.
+  2 POLYARUSH 21 provides values for three kinematic regions. For averaging, we use value
+    with E γ > 10 MeV and 0.6 < cos(θe γ ) < 0.9.
+  3 AKIMENKO 07 provides values for three kinematic regions. For averaging, we use value
+    with E γ > 10 MeV and 0.6 < cos(θeγ ) < 0.9.
+  4 BARMIN 91 quotes branching ratio Γ(K → e π 0 ν γ)/Γ . The measured normalization
+                                                         all
+    is [Γ(K → e π 0 ν) + Γ(K → π + π + π − )]. For comparison with other experiments we
+    used Γ(K → e π 0 ν)/Γall = 0.0482 to calculate the values quoted here.
+  5 cos(θ ) between 0.6 and 0.9.
+          eγ
+  6 First LJUNG 73 value is for cos(θ ) <0.9, second value is for cos(θ ) between 0.6
+                                     eγ                                 eγ
+    and 0.9 for comparison with ROMANO 71.
+  7 Both ROMANO 71 values are for cos(θ ) between 0.6 and 0.9. Second value is for
+                                          eγ
+    comparison with second LJUNG 73 value. We use lowest E γ cut for Summary Table
+    value. See ROMANO 71 for E γ dependence.
+
+Γ π 0 e + νe γ (SD) /Γtotal
+                   
+                                                                                                        Γ19 /Γ
+       Structure-dependent part.
+VALUE (units 10−5 )            CL%           DOCUMENT ID               TECN      CHG
+<5.3                           90            BOLOTOV            86B CALO −
+
+Γ π 0 µ+ νµ γ /Γtotal
+             
+                                                                                                        Γ20 /Γ
+VALUE (units 10−5 )   CL%     EVTS          DOCUMENT ID               TECN     CHG COMMENT
+1.25± 0.25 OUR AVERAGE
+1.10± 0.32 ± 0.05      23                 1 ADLER              10     B787            30 < E γ < 60 MeV
+1.46± 0.22 ± 0.32                153      2 TCHIKILEV          07     ISTR −          30 < E γ < 60 MeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.4 ± 0.5 ± 0.6                  125        SHIMIZU            06     K470 +          E γ > 30 MeV;
+                                                                                         Θµ γ >20◦
+<6.1              90        0     LJUNG           73 HLBC +         E(γ) >30 MeV
+ 1 Value obtained from B(K + → π 0 µ+ ν γ) = (2.51 ± 0.74 ± 0.12) × 10−5 obtained
+                                          µ
+   in the kinematic region E γ > 20 MeV, and then theoretical Kµ3γ spectrum has been
+   used. Also B(K + → π 0 µ+ νµ γ) = (1.58 ± 0.46 ± 0.08) × 10−5 , for E γ > 30 MeV
+   and θµ γ > 20◦ , was determined.
+ 2 Obtained from measuring B(K
+                                µ3γ ) / B(Kµ3 ) and using PDG 02 value B(Kµ3 ) = 3.27%.
+   B(Kµ3γ ) = (8.82 ± 0.94 ± 0.86) × 10−5 is obtained for 5 MeV < E γ < 30 MeV.
+
+Γ π 0 π 0 e + νe γ /Γtotal
+                  
+                                                                                                        Γ21 /Γ
+VALUE (units 10−6 )   CL%     EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+<5                    90            0        BARMIN             92     XEBC +            E γ > 10 MeV
+
+
+
+https://pdg.lbl.gov                          Page 20                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                 Hadronic modes with photons
+Γ π + π 0 γ (INT) /Γtotal
+                 
+                                                                                       Γ22 /Γ
+               +      +   0
+       The K → π π γ diﬀerential decay rate can be described in terms of T + , the
+                                                                                     π
+       charged pion kinetic energy, and W2 = ( PK · Pγ ) ( P + · Pγ ) / (m K m + )2 ;
+                                                                  π                     π
+       then we can write d2 Γ (K + → π + π 0 γ) / (dT + dW2 ) = d2 Γ (K + → π + π 0 γ)IB
+                                                       π
+       / (dT + dW2 ) [1 + 2 cos(±φ + δ 1 − δ 2 ) m 2 m 2 W2 XE + m4 m4 ( X2 +
+              π                             1       0    π K                  π K        E
+       X2 ) W4 ]. The IB diﬀerential and total branching ratios are expressed in terms of
+         M
+       the non-radiative experimental width Γ (K + → π + π 0 ) by Low’s theorem. Using
+       PDG 10 B(K + → π + π 0 ) = 0.2066 ± 0.0008, one obtains respectively B(K + →
+       π + π 0 γ)IB (55 < T + < 90 MeV)= 2.55 × 10−4 and B(K + → π + π 0 γ)IB (0
+                             π
+       < T + < 80 MeV)= 1.80 × 10−4 . Fitting respectively the piece proportional to W2
+           π
+       and the piece proportional to W4 , the interference contribution (INT), proportional to
+       XE , and the direct contribution (DE) proportional to X2 + X2 are extracted.
+                                                                E      M
+VALUE (units 10−6 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+− 4.24± 0.63 ± 0.70           600k         1 BATLEY             10A NA48T + 0–80 MeV
+                                                                                 ±
+                                                                         π
+  1 The cut on the photon energy implies W2 > 0.2. BATLEY 10A obtains the INT and
+    DE fractional branchings with respect to IB from a simultaneous kinematical ﬁt of INT
+    and DE and then we use the PDG 10 value for B(K + → π + π 0 ) = 20.66 ± 0.08 to
+    determine the IB. The INT and DE correlation coeﬃcients − 0.83. Assuming a constant
+    electric amplitude, XE , this INT value implies XE = − 24 ± 6 GeV−4 .
+
+Γ π + π 0 γ (DE) /Γtotal
+                
+                                                                                Γ23 /Γ
+                                       + 0 
+       Direct emission (DE) part of Γ π π γ /Γtotal , assuming that interference (INT)
+       component is zero.
+VALUE (units 10−6 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+ 5.99± 0.27 ± 0.25            600k         1 BATLEY             10A NA48  T + 0–80 MeV
+                                                                                 ±
+                                                                            π
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ 3.8 ± 0.8 ± 0.7               10k           ALIEV              06     K470      +
+                                                                        T + 55–90 MeV
+                                                                         π
+ 3.7 ± 3.9 ± 1.0          930        UVAROV         06 ISTR −           T − 55–90 MeV
+                                                                         π
+ 3.2 ± 1.3 ± 1.0           4k        ALIEV          03 K470 +           T + 55–90 MeV
+                                                                         π
+ 6.1 ± 2.5 ± 1.9           4k        ALIEV          03 K470 +           T + full range
+                                                                         π
+ 4.7 ± 0.8 ± 0.3          20k      2 ADLER          00C B787 +          T + 55–90 MeV
+                                                                         π
+             + 3.9
+20.5 ± 4.6 − 2.3                     BOLOTOV        87 WIRE −           T − 55–90 MeV
+                                                                         π
+15.6 ± 3.5 ± 5.0                     ABRAMS         72 ASPK ±           T ± 55–90 MeV
+                                                                         π
+  1 The cut on the photon energy implies W2 > 0.2. BATLEY 10A obtains the INT and
+    DE fractional branchings with respect to IB from a simultaneous kinematical ﬁt of INT
+    and DE and then we use the PDG 10 value for B(K + → π + π 0 ) = 20.66 ± 0.08 to
+    determine the IB. The INT and DE correlation coeﬃcients − 0.93. Assuming constant
+    electric and magnetic amplitudes, XE and XM , these INTand DE values imply XE =
+    − 24 ± 6 GeV−4 and XM = − 254 ± 9 GeV−4 .
+  2 ADLER 00C measures the INT component to be (− 0.4 ± 1.6)% of the inner bremsstrah-
+    lung (IB) component.
+
+
+
+
+https://pdg.lbl.gov                          Page 21                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ π + π 0 e + e − /Γtotal
+                 
+                                                                                                        Γ24 /Γ
+VALUE (units 10−6 )           EVTS           DOCUMENT ID               TECN
+4.24± 0.14               4.9k              1 BATLEY  19 NA48
+  1 BATLEY 19 result is obtained from an exposure of 1.7 × 1011 charged kaon decays
+    recorded in 2003–2004. The study of the kinematic space shows evidence for a structure
+    dependent contribution consistent with predictions from chiral perturbation theory.
+
+Γ π + π 0 π 0 γ /Γ π + π 0 π 0
+                              
+                                                                                                   Γ25 /Γ11
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+2.3± 0.6 OUR AVERAGE Error includes scale factor of 1.2.
+2.1± 0.5                  60      1 ARTAMONOV 24 OKA +                E(γ) > 10 MeV
+    + 3.2
+4.3 − 1.7                           BOLOTOV       85 SPEC −           E(γ) > 10 MeV
+  1 ARTAMONOV 24 obtains the branching ratio B(K + → π + π 0 π 0 γ) = (3.7 ± 0.9 ±
+    0.3) × 10−6 by normalizing to B(K + → π + π 0 π 0 ) = (1.760 ± 0.023) × 10−2 .
+
+Γ π + π + π − γ /Γtotal
+               
+                                                                                                        Γ26 /Γ
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.071± 0.005 OUR AVERAGE
+0.071± 0.005          450                    SHAPKIN            19     OKA +             E(γ) >30 MeV
+1.10 ± 0.48             7                    BARMIN             89     XEBC              E(γ) > 5 MeV
+1.0 ± 0.4                                    STAMER             65     EMUL +            E(γ) >11 MeV
+
+Γ π + γ γ /Γtotal
+         
+                                                                                                        Γ27 /Γ
+VALUE (units 10−7 ) CL%      EVTS        DOCUMENT ID                 TECN     CHG COMMENT
+ 9.65± 0.16 OUR AVERAGE
+ 9.61± 0.15 ± 0.07       3693     1 CORTINA-GIL 24 NA62 +              ChPT extrapolatioin
+10.03± 0.51 ± 0.24        215     2 LAZZERONI 14 NA62 ±
+11 ± 3 ± 1                  31    3 KITCHING       97 B787 +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ 9.10± 0.72 ± 0.22        149     4 BATLEY         14 NA48 ±
+< 0.083             90            5 ARTAMONOV 05 B949 +                Pπ > 213 MeV/c
+< 10                90       0      ATIYA          90B B787 +          Tπ 117–127 MeV
+< 84                90       0      ASANO          82 CNTR +           Tπ 117–127 MeV
+− 420 ± 520                  0      ABRAMS         77 SPEC +           Tπ < 92 MeV
+< 350               90       0      LJUNG          73 HLBC +           6–102, 114–127 MeV
+< 500               90       0      KLEMS          71 OSPK +           Tπ < 117 MeV
+− 100 ± 600                         CHEN           68 OSPK +           Tπ 60–90 MeV
+  1 CORTINA-GIL 24 uses data collected by NA62 at CERN in 2017 to 2018. This result,
+    for the full kinematic range, is extrapolated using O(p6 ) ChPT theoretical calculation
+    from the model-independent branching fraction, B(K + → π + γ γ)=(9.46 ± 0.19 ±
+    0.07) × 10−7 , obtained for 0.2<(m γ γ /m K )2 < 0.51. The ChPT parameter ĉ =
+    1.144 ± 0.069 ± 0.034 is measured.
+  2 LAZZERONI 14 combines NA62 and NA48/2 results. The result for the full kinematic
+    range is extrapolated from the model-independent branching fraction (9.65 ± 0.61 ±
+    0.14) × 10−7 for (m γ γ /m K )2 > 0.2. The measured ChPT parameter ĉ = 1.86 ± 0.25.
+  3 KITCHING 97 is extrapolated from their model-independent branching fraction (6.0 ±
+    1.5 ± 0.7) × 10−7 for 100 MeV/c<P + < 180 MeV/c using Chiral Perturbation Theory.
+                                         π
+
+
+
+https://pdg.lbl.gov                          Page 22                        Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  4 BATLEY 14 uses data collected in 2003 and 2004. Branching ratio is obtained by
+    determining the parameter ĉ = 1.41 ± 0.38 ± 0.11 and integrating the O(p 6 ) chiral
+    spectrum. A model independent value for the branching ratio is also obtained (8.77 ±
+    0.87 ± 0.17) × 10−7 for kinematic range (m γ γ /m K )2 > 0.2.
+  5 ARTAMONOV 05 limit assumes ChPT with ĉ= 1.8 with unitarity corrections. With ĉ=
+    1.6 and no unitarity corrections they obtain < 2.3 × 10−8 at 90% CL. This partial
+    branching ratio is predicted to be 6.10 × 10−9 and 0.49 × 10−9 for the cases with and
+    without unitarity correction.
+
+Γ π + 3γ /Γtotal
+        
+                                                                                                         Γ28 /Γ
+        Values given here assume a phase space pion energy spectrum.
+VALUE (units 10−4 )            CL%           DOCUMENT ID               TECN       CHG    COMMENT
+<1.0                           90            ASANO              82     CNTR +
+                                                                          T(π) 117–127
+                                                                             MeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<3.0                           90            KLEMS              71     OSPK +            T(π) >117 MeV
+
+Γ π + e + e − γ /Γtotal
+               
+                                                                                                         Γ29 /Γ
+VALUE (units 10−8 )           EVTS           DOCUMENT ID               TECN       COMMENT
+1.19± 0.12 ± 0.04              113         1 BATLEY             08     NA48       m e e γ > 260 MeV
+  1 BATLEY 08 also reports the Chiral Perturbation Theory parameter ĉ = 0.9 ± 0.45
+    obtained using the shape of the e + e − γ invariant mass spectrum. By extrapolating
+    the theoretical amplitude to m e e γ < 260 MeV, it obtains the inclusive B(K + →
+    π + e + e − γ) = (1.29 ± 0.13 ± 0.03) × 10−8 , where the ﬁrst error is the combined
+    statistical and systematic errors and the second error is from the uncertainty in ĉ.
+
+                                   Leptonic modes with ℓ ℓ pairs
+Γ e + νe ν ν /Γ e + νe
+                      
+                                                                                                        Γ30 /Γ1
+VALUE                 CL%     EVTS           DOCUMENT ID               TECN       CHG
+<3.8                  90            0        HEINTZE            79     SPEC       +
+
+Γ µ+ νµ ν ν /Γtotal
+           
+                                                                                                         Γ31 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN       CHG
+<1.0 × 10−6             90        1 CORTINA-GIL 21 NA62 +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<2.4 × 10−6             90        2 ARTAMONOV 16 B949 +
+<6.0 × 10−6             90        3 PANG            73 CNTR +
+  1 CORTINA-GIL 21 assumes Standard Model µ spectrum. The search is performed in the
+    reconstructed missing mass interval mmiss > 316 MeV/c2 .
+  2 ARTAMONOV 16 assumes Standard model µ spectrum. The search is performed in the
+    muon momentum region between 130 and 175 MeV/c.
+  3 PANG 73 assumes µ spectrum from ν-ν interaction of BARDIN 70.
+
+Γ e + νe e + e − /Γtotal
+                
+                                                                                                         Γ32 /Γ
+VALUE (units 10−8 )        EVTS          DOCUMENT ID                 TECN     CHG     COMMENT
+ 2.48± 0.14±
+           ± 0.14     410        POBLAGUEV 02 B865 +                    me e >150 MeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+20     ± 20                    4         DIAMANT-... 76              SPEC     +       m + − >140 MeV
+                                                                                       e e
+https://pdg.lbl.gov                          Page 23                        Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ µ+ νµ e + e − /Γtotal
+               
+                                                                                                         Γ33 /Γ
+VALUE (units 10−8 )         EVTS          DOCUMENT ID                TECN     CHG       COMMENT
+  7.06± 0.16 ± 0.26 2.7k          POBLAGUEV 02 B865 +                   me e >145 MeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+100     ± 30                  14          DIAMANT-... 76             SPEC     +         m + − >140 MeV
+                                                                                         e e
+
+Γ e + νe µ+ µ− /Γtotal
+              
+                                                                                                         Γ34 /Γ
+VALUE (units 10−8 )            CL%           DOCUMENT ID               TECN
+   1.72± 0.45                       MA              06 B865
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<50                            90            ADLER              98     B787
+
+Γ µ+ νµ µ+ µ− /Γtotal
+             
+                                                                                                         Γ35 /Γ
+VALUE (units 10−7 )            CL%           DOCUMENT ID               TECN       CHG
+<4.1                           90            ATIYA              89     B787       +
+
+     Lepton Family number (LF ), Lepton number (L), ∆S = ∆Q (SQ)
+        violating modes, or ∆S = 1 weak neutral current (S1 ) modes
+Γ π + π + e − ν e /Γtotal
+                 
+                                                                    Γ36 /Γ
+       Test of ∆S = ∆Q rule.
+VALUE (units 10−7 )   CL%     EVTS           DOCUMENT ID               TECN       CHG
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 9.0                 95            0        SCHWEINB... 71            HLBC +
+< 6.9                 95            0        ELY         69            HLBC +
+<20.                  95                     BIRGE       65            FBC  +
+
+Γ π + π + e − ν e /Γ π + π − e + νe
+                                   
+                                                                                                        Γ36 /Γ7
+       Test of ∆S = ∆Q rule.
+VALUE (units 10−4 )   CL%     EVTS           DOCUMENT ID               TECN
+< 3              90         3     1 BLOCH           76 SPEC
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<130.          95        0      BOURQUIN      71 ASPK
+ 1 BLOCH 76 quotes 3.6 × 10−4 at CL = 95%, we convert.
+
+Γ π + π + µ− ν µ /Γtotal
+                
+                                                                                                         Γ37 /Γ
+       Test of ∆S = ∆Q rule.
+VALUE (units 10−6 )   CL%     EVTS           DOCUMENT ID               TECN       CHG
+<3.0                  95            0        BIRGE              65     FBC        +
+
+Γ π + e + e − /Γtotal
+             
+                                                                              Γ38 /Γ
+       Test for ∆S = 1 weak neutral current. Allowed by combined ﬁrst-order weak and
+       electromagnetic interactions.
+VALUE (units 10−7 )          EVTS           DOCUMENT ID               TECN      CHG
+3.00± 0.09 OUR AVERAGE
+3.11± 0.04 ± 0.12   7253                 1 BATLEY              09     NA48      ±
+2.94± 0.05 ± 0.14  10300                 2 APPEL               99     SPEC      +
+2.75± 0.23 ± 0.13    500                 3 ALLIEGRO            92     SPEC      +
+2.7 ± 0.5             41                 4 BLOCH               75     SPEC      +
+
+https://pdg.lbl.gov                          Page 24                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Value extrapolated from a measurement in the region z = (m /m )2 >0.08. BAT-
+                                                                    ee K
+    LEY 09 also evaluated the shape of the form factor using four diﬀerent theoretical models.
+  2 APPEL 99 establishes vector nature of this decay and determines form factor f(Z)= f
+                                                                                            0
+    (1 + δZ), Z = M2 /m 2 , δ = 2.14 ± 0.13 ± 0.15. Also reports constraints on scalar
+                      ee    K
+    and tensor interactions: fS < 6.6 × 10−5 , fT < 3.7 × 10−4 at 90% C.L.
+  3 ALLIEGRO 92 assumes a vector interaction with a form factor given by λ = 0.105 ±
+    0.035 ± 0.015 and a correlation coeﬃcient of − 0.82.
+  4 BLOCH 75 assumes a vector interaction.
+
+Γ π + µ+ µ− /Γtotal
+           
+                                                                                   Γ39 /Γ
+        Test for ∆S = 1 weak neutral current. Allowed by higher-order electroweak interac-
+        tions.
+VALUE (units 10−8 )        CL%     EVTS          DOCUMENT ID                TECN      CHG     COMMENT
+   9.17± 0.14 OUR AVERAGE Error includes scale factor of 1.8.
+   9.15± 0.06 ± 0.05         28k     1 CORTINA-GIL 22A NA62                  2017–18 data
+   9.62± 0.21 ± 0.13        3120     2 BATLEY           11A NA48 ±           2003–04 data
+   9.8 ± 1.0 ± 0.5           110     3 PARK             02 HYCP ±
+   9.22± 0.60 ± 0.49         402     4 MA               00 B865 +
+   5.0 ± 0.4 ± 0.9           207     5  ADLER           97C B787 +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  9.7 ± 1.2 ± 0.4              65       PARK             02 HYCP +
+ 10.0 ± 1.9 ± 0.7              35       PARK             02 HYCP −
+<23                   90                ATIYA            89 B787 +
+ 1 CORTINA-GIL 22A also studies the form factor f (z) dependence of the decay, described
+   via single photon exchange: assuming a linear form factor including π-π rescattering,
+   Wπ π , as in DAMBROSIO 98A, ﬁnding f (z) = GF m 2 (a+ + b+ z) + Wπ π (z), a+
+                                                          K
+   = − 0.575 ± 0.013, b+ = − 0.722 ± 0.043.
+ 2 BATLEY 11A also studies the form factor f (z) dependence of the decay, described via
+   single photon exchange: i) assuming a linear form factor, f (z) = f0 (1+ δ z ), z =
+   (Mµ µ /m K )2 , ﬁnding f0 = 0.470 ± 0.040 and δ = 3.11 ± 0.57 and ii) assuming a linear
+   form factor including π-π rescattering , Wπ π , as in DAMBROSIO 98A, ﬁnding f (z) =
+   GF m 2 (a+ + b+ z) + Wπ π (z), a+ = − 0.575 ± 0.039, b+ = − 0.813 ± 0.145.
+          K
+ 3 PARK 02 “±” result comes from combining K + → π + µ+ µ− and K − → π − µ+ µ− ,
+   assuming CP is conserved.
+ 4 MA 00 establishes vector nature of this decay and determines form factor f(z)= f (1
+                                                                                      0
+                                        + 1.30 .
+   + δ z), z = (Mµ µ /m K )2 , δ = 2.45 − 0.95
+ 5 ADLER 97C gives systematic error 0.7 × 10−8 and theoretical uncertainty 0.6 × 10−8 ,
+   which we combine in quadrature to obtain our second error.
+
+Γ π + e + e − e + e − /Γtotal
+                     
+                                                                                                        Γ40 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      CHG
+<1.4 × 10−8              90       1 CORTINA-GIL 23B NA62 +
+ 1 Quoted limit is obtained using data collected from 2017 to 2018. CORTINA-GIL 23B
+   also reports upper limits at 90% C.L. at the level of 10−9 for the branching ratios of
+   two prompt decay chains involving pair-production of hidden-sector mediators: K + →
+   π + a a, a → e + e − and K + → π + S, S → X X , X → e + e − .
+
+Γ π + ν ν /Γtotal
+         
+                                                                                   Γ41 /Γ
+        Test for ∆S = 1 weak neutral current. Allowed by higher-order electroweak interac-
+        tions. Branching ratio values are extrapolated from the momentum or energy regions
+
+https://pdg.lbl.gov                          Page 25                      Created: 6/1/2026 16:25
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+       shown in the comments assuming Standard Model phase space except for those labeled
+       “Scalar” or “Tensor” to indicate the assumed non-Standard-Model interaction.
+
+VALUE (units 10−10 )    CL% EVTS            DOCUMENT ID              TECN     CHG COMMENT
+      1.33± 0.30 OUR AVERAGE
+           + 0.33
+      1.30 −            51   1 CORTINA-GIL 25 NA62 +
+             0.30
+           + 1.15
+      1.73 −             7   2 ARTAMONOV 08 B949 +                   140<Pπ <199 MeV,
+             1.05
+                                                                        211<Pπ <229MeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+           + 0.41
+      1.06 −                     20       3 CORTINA-GIL 21B NA62 +
+             0.35
+           + 0.72
+      0.48 −                              4 CORTINA-GIL 20C NA62 +
+             0.48
+<    11               90     1            5 CORTINA-GIL 19B NA62 +  decay-in-ﬂight
+           + 9.26
+     7.89 − 5.10             3     6 ARTAMONOV 08 B949 + 140<Pπ <199 MeV
+< 22                  90     1     7 ADLER           04 B787 + 211<Pπ <229 MeV
+< 27                  90             ADLER           04 B787 + Scalar
+< 18                  90             ADLER           04 B787 + Tensor
+           + 1.30
+     1.47 − 0.89             3     8 ANISIMOVSK...04 B949 + 211<Pπ <229 MeV
+
+     1.57 −+ 1.75            2       ADLER           02 B787 + Pπ >211 MeV/c
+             0.82
+< 42                  90     1       ADLER           02C B787 + 140<Pπ <195 MeV
+< 47                  90           9 ADLER           02C B787 + Scalar
+< 25                  90           9 ADLER           02C B787 + Tensor
+           + 3.4
+     1.5 − 1.2               1       ADLER           00 B787        In ADLER 02
+
+     4.2 − + 9.7             1       ADLER           97 B787
+             3.5
+< 24                  90             ADLER           96 B787
+< 75                  90             ATIYA           93 B787 + T(π) 115–127 MeV
+< 52                  90          10 ATIYA           93 B787 +
+< 170                 90     0       ATIYA           93B B787 + T(π) 60–100 MeV
+< 340                 90             ATIYA           90 B787 +
+<1400                 90             ASANO           81B CNTR + T(π) 116–127 MeV
+ 1 CORTINA-GIL 25 uses data collected from 2016 to 2022 and observed 51 signal candi-
+   dates with an expected background of 18 +     3                          +
+                                               − 2 events. The measured B(K → π ν ν)
+                                                                                    +
+   has a signal signiﬁcance of more than 5σ. Supersedes CORTINA-GIL 21B.
+ 2 Value obtained combining ANISIMOVSKY 04, ADLER 04, and the present ARTA-
+   MONOV 08 results.
+ 3 CORTINA-GIL 21B analysis of the NA62 data taken in 2016–2018 observed 20 candidate
+   events with an expected background of 7 events. The achieved single event sensitivity is
+   (0.839 ± 0.054) × 10−11 . The quoted branching ratio includes result from CORTINA-
+   GIL 20C which observed two candidate events. This provides evidence for the very
+   rare K + → π + ν ν decay, observed with a signiﬁcance of 3.4 σ. Search for a feebly
+   interacting scalar or pseudo-scalar particle X in the decay K + → π + X was performed
+   and an upper limit from < 3 × 10−11 to < 6 × 10−11 at the 90% C.L. was set for an
+   invisible particle with a mass of 0–110 MeV/c2 and < 1 × 10−11 for mass of 160–260
+   MeV/c2 . Superseded by CORTINA-GIL 25.
+ 4 CORTINA-GIL 20C analysis of the NA62 data taken in 2017 observed two candidate
+   events with an expected background of 1.5 events. The achieved single event sensitivity
+
+
+
+https://pdg.lbl.gov                           Page 26                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+    is (0.389 ± 0.024) × 10−10 . The quoted branching ratio includes result from CORTINA-
+    GIL 19B which observed one candidate event. The corresponding upper limit B(K + →
+    π + ν ν) < 1.78 × 10−10 at 90% C.L. Superseded by CORTINA-GIL 21B.
+  5 Based on a sample of 1.21 × 1011 K + decays collected in 2016. One signal candidate
+    is observed while the expected background is 0.152 events. The single-event-sensitivity
+    is estimated to be 3.15 × 10−10 .
+  6 Observed 3 events with an estimated background of 0.93 ± 0.17 + 0.32 . Signal-to-
+                                                                         − 0.24
+    background ratio for each of these 3 events is 0.20, 0.42, and 0.47.
+  7 Value obtained combining the previous result ADLER 02C with 1 event and the present
+    result with 0 events to obtain an expected background 1.22 ± 0.24 events and 1 event
+    observed.
+  8 Value obtained combining the previous E787 result ADLER 02 with 2 events and the
+    present E949 with 1 event. The additional event has a signal-to-background ratio 0.9.
+    Superseded by ARTAMONOV 08.
+  9 Superseded by ADLER 04.
+ 10 Combining ATIYA 93 and ATIYA 93B results. Superseded by ADLER 96.
+
+Γ π + π 0 ν ν /Γtotal
+             
+                                                                                   Γ42 /Γ
+        Test for ∆S = 1 weak neutral current. Allowed by higher-order electroweak interac-
+        tions.
+VALUE (units 10−5 )            CL%           DOCUMENT ID               TECN
+<4.3                    90      1 ADLER       01 SPEC
+ 1 Search region deﬁned by 90 MeV/c<P   <188 MeV/c and 135 MeV<E 0 <180 MeV.
+                                     π+                         π
+
+Γ µ− ν e + e + /Γtotal
+              
+                                                                                                         Γ43 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN
+<8.1 × 10−11            90       1 CORTINA-GIL 23 NA62
+ 1 Performed using the dataset collected by the NA62 experiment at CERN from 2016 to
+   2018.
+
+Γ µ− ν e + e + /Γ π + π − e + νe
+                                
+                                                                                                        Γ43 /Γ7
+        Test of lepton family number conservation.
+VALUE (units 10−3 )    CL%    EVTS           DOCUMENT ID               TECN      CHG
+<0.5         90      0                     1 DIAMANT-... 76
+                                                    SPEC +
+ 1 DIAMANT-BERGER 76 quotes this result times our 1975 π + π − e ν BR ratio.
+
+Γ µ+ νe /Γtotal
+       
+                                                                                                         Γ44 /Γ
+        Forbidden by lepton family number conservation.
+VALUE                  CL%    EVTS           DOCUMENT ID               TECN      COMMENT
+<0.004                 90           0      1 LYONS         HLBC 200 GeV K + narrow
+                                                                81
+                                                                       band ν beam
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.012           90               1 COOPER          82 HLBC Wideband ν beam
+  1 COOPER 82 and LYONS 81 limits on ν observation are here interpreted as limits on
+                                            e
+    lepton family number violation in the absence of mixing.
+
+Γ π + µ+ e − /Γtotal
+            
+                                                                                                         Γ45 /Γ
+        Test of lepton family number conservation.
+VALUE (units 10−10 )           CL%           DOCUMENT ID               TECN      CHG
+<0.13                          90          1 SHER               05     RVUE +
+
+
+https://pdg.lbl.gov                          Page 27                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.21                  90       SHER         05 B865 +
+<0.39                  90       APPEL        00 B865 +
+<2.1                   90       LEE          90 SPEC +
+ 1 This result combines SHER 05 1998 data, APPEL 00 1996 data, and data from
+   BERGMAN 97 and PISLAK 97 theses, all from BNL-E865, with LEE 90 BNL-E777
+   data.
+
+Γ π 0 π + µ+ e − /Γtotal
+                
+                                                                                                        Γ46 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      CHG
+<5.0 × 10−10          90      1 ASHRAF         24 NA62 +
+ 1 ASHRAF 24 performed the search using a dataset collected by the NA62 experiment
+   from 2016 to 2018.
+
+Γ π + µ− e + /Γtotal
+            
+                                                                                                        Γ47 /Γ
+        Test of lepton family number conservation.
+VALUE                          CL%           DOCUMENT ID               TECN      CHG
+< 6.6 × 10−11           90          ALIBERTI        21 NA62 +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 5.2 × 10−10           90          APPEL           00B B865 +
+<70 × 10−10             90        1 DIAMANT-... 76 SPEC +
+  1 Measurement actually applies to the sum of the π + µ− e + and π − µ+ e + modes.
+
+Γ π 0 π + µ− e + /Γtotal
+                
+                                                                                                        Γ48 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      CHG
+<3.1 × 10−10          90      1 ASHRAF         24 NA62 +
+ 1 ASHRAF 24 performed the search using a dataset collected by the NA62 experiment
+   from 2016 to 2018.
+
+Γ π − µ+ e + /Γtotal
+            
+                                                                                                        Γ49 /Γ
+        Test of total lepton number conservation.
+VALUE                          CL%           DOCUMENT ID               TECN      CHG
+< 4.2 × 10−11           90          ALIBERTI        21 NA62 +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 5.0 × 10−10           90          APPEL           00B B865 +
+<70 × 10−10             90        1 DIAMANT-... 76 SPEC +
+  1 Measurement actually applies to the sum of the π + µ− e + and π − µ+ e + modes.
+
+Γ π 0 π − µ+ e + /Γtotal
+                
+                                                                                                        Γ50 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      CHG
+<2.9 × 10−10          90      1 ASHRAF         24 NA62 +
+ 1 ASHRAF 24 performed the search using a dataset collected by the NA62 experiment
+   from 2016 to 2018.
+
+Γ π − e + e + /Γtotal
+             
+                                                                                                        Γ51 /Γ
+        Test of total lepton number conservation.
+VALUE                          CL%           DOCUMENT ID               TECN      CHG     COMMENT
+<5.3 × 10−11                   90          1 CORTINA-GIL 22            NA62      +       decay-in-ﬂight
+
+
+
+https://pdg.lbl.gov                          Page 28                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<2.2 × 10−10            90        2 CORTINA-GIL 19A NA62 +                decay-in-ﬂight
+<6.4 × 10−10            90          APPEL           00B B865 +
+<9.2 × 10−9             90          DIAMANT-... 76 SPEC +
+<1.5 × 10−5                         CHANG           68 HBC          −
+  1 CORTINA-GIL 22 uses the complete dataset collected by the NA62 experiment at CERN
+    from 2016 to 2018. Supersedes CORTINA-GIL 19A.
+  2 CORTINA-GIL 19A results are obtained with 2017 data. Superseded by CORTINA-GIL 22
+
+Γ π − µ+ µ+ /Γtotal
+           
+                                                                                                        Γ52 /Γ
+        Forbidden by total lepton number conservation.
+VALUE                          CL%           DOCUMENT ID               TECN      CHG     COMMENT
+<4.2 × 10−11            90        1 CORTINA-GIL 19A NA62 +                decay-in-ﬂight
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<8.6 × 10−11            90        2 BATLEY          17 NA48 ±
+<1.1 × 10−9             90          BATLEY          11A NA48 ±
+<3.0 × 10−9             90          APPEL           00B B865 +
+<1.5 × 10−4             90        3 LITTENBERG 92 HBC
+  1 CORTINA-GIL 19A results are obtained with 2017 data.
+  2 BATLEY 17 result is based on data taken in 2003 to 2004. Limits for two-body resonance
+    X in K ± → π µ µ decays are also reported.
+  3 LITTENBERG 92 is from retroactive data analysis of CHANG 68 bubble chamber data.
+
+Γ π − π 0 e + e + /Γtotal
+                 
+                                                                                                        Γ53 /Γ
+        Test of total lepton number conservation.
+VALUE                          CL%           DOCUMENT ID               TECN      CHG     COMMENT
+<8.5 × 10−10          90      1 CORTINA-GIL 22 NA62 +               decay-in-ﬂight
+ 1 CORTINA-GIL 22 uses the complete dataset collected by the NA62 experiment at CERN
+   from 2016 to 2018.
+
+Γ µ+ ν e /Γtotal
+        
+                                                                                                        Γ54 /Γ
+        Forbidden by total lepton number conservation.
+VALUE (units 10−3 )            CL%           DOCUMENT ID               TECN      COMMENT
+<3.3                      90       1 COOPER    82 HLBC Wideband ν beam
+ 1 COOPER 82 limit on ν observation is here interpreted as a limit on lepton number
+                            e
+   violation in the absence of mixing.
+
+Γ π 0 e + ν e /Γtotal
+             
+                                                                                                        Γ55 /Γ
+        Forbidden by total lepton number conservation.
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<0.003                    90       1 COOPER    82 HLBC Wideband ν beam
+ 1 COOPER 82 limit on ν observation is here interpreted as a limit on lepton number
+                            e
+   violation in the absence of mixing.
+
+Γ π + γ /Γtotal
+       
+                                                                                     Γ56 /Γ
+        Violates angular momentum conservation and gauge invariance. Current interest in
+        this decay is as a search for non-commutative space-time eﬀects as discussed in AR-
+        TAMONOV 05 and for exotic physics such as a vacuum expectation value of a new
+        vector ﬁeld, non-local Superstring eﬀects, or departures from Lorentz invariance, as
+        discussed in ADLER 02B.
+VALUE                          CL%           DOCUMENT ID               TECN      CHG
+<       2.3 × 10−9             90            ARTAMONOV 05              B949      +
+
+https://pdg.lbl.gov                          Page 29                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 360 × 10−9            90          ADLER           02B B787 +
+<1400 × 10−9            90          ASANO           82 CNTR +
+<4000 × 10−9            90        1 KLEMS           71 OSPK +
+  1 Test of model of Selleri, Nuovo Cimento 60A 291 (1969).
+
+
+                         CP VIOLATION TESTS IN K ± DECAYS
+           ∆ = (Γ(K + ) − Γ(K − )) / (Γ(K + ) + Γ(K − ))
+
+∆(K ± → µ± νµ ) RATE DIFFERENCE/SUM
+VALUE (%)                                    DOCUMENT ID               TECN
+− 0.27± 0.21                                 FORD               67     CNTR
+
+∆(K ± → π ± π 0 ) RATE DIFFERENCE/SUM
+VALUE (%)                                    DOCUMENT ID               TECN
+0.4± 0.6                                     HERZO              69     OSPK
+
+∆(K ± → π ± e + e − ) RATE DIFFERENCE/SUM
+VALUE (units 10−2 )                          DOCUMENT ID               TECN
+− 2.2± 1.5± 0.6                            1 BATLEY 09 NA48
+  1 This implies an upper limit of 2.1 × 10−2 at 90% CL.
+
+∆(K ± → π ± µ+ µ− ) RATE DIFFERENCE/SUM
+VALUE                                        DOCUMENT ID               TECN
+  0.010± 0.023 OUR AVERAGE
+  0.011± 0.023                   1 BATLEY           11A NA48
+− 0.02 ± 0.11 ± 0.04               PARK             02 HYCP
+  1 This corresponds to the asymmetry upper limit of < 2.9 × 10−2 at 90% CL.
+
+∆(K ± → π ± π 0 γ) RATE DIFFERENCE/SUM
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.0± 1.2 OUR AVERAGE
+0.0± 1.0 ± 0.6             1M      1 BATLEY         10A NA48
+4 ± 29                    2461       SMITH          76 WIRE ±          Eπ 55–90 MeV
+5 ± 20                    4000       ABRAMS         73B ASPK ±         Eπ 51–100 MeV
+  1 This value implies the upper bound for this asymmetry 1.5 × 10−3 at 90% CL.
+
+∆(K ± → π ± π + π − ) RATE DIFFERENCE/SUM
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      CHG
+  0.04± 0.06                      1 FORD            70 ASPK
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.01± 0.08                      2 SMITH           73 ASPK ±
+  0.05± 0.07           3.2M       1 FORD            70 ASPK
+− 0.25± 0.45                        FLETCHER     67 OSPK
+− 0.02± 0.11                      1 FORD         67 CNTR
+  1 First FORD 70 value is second FORD 70 combined with FORD 67.
+  2 SMITH 73 value of K ± → π ± π + π − rate diﬀerence is derived from SMITH 73 value
+    of K ± → π ± 2π 0 rate diﬀerence.
+
+https://pdg.lbl.gov                          Page 30                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+∆(K ± → π ± π 0 π 0 ) RATE DIFFERENCE/SUM
+VALUE (%)                     EVTS           DOCUMENT ID               TECN      CHG
+− 0.02± 0.28 OUR AVERAGE
+  0.04± 0.29                                 SMITH              73     ASPK ±
+− 0.6 ± 0.9          1802                    HERZO              69     OSPK
+
+
+                  T VIOLATION TESTS IN K + AND K − DECAYS
+PT in K + → π 0 µ+ νµ
+        T-violating muon polarization. Sensitive to new sources of CP violation beyond the
+        Standard Model.
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      CHG
+− 1.7± 2.3± 1.1                            1 ABE    04F K246 +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 4.2± 4.9± 0.9           3.9M        ABE            99S K246 +
+  1 Includes three sets of data: 96-97 (ABE 99S), 98, and 99-00 totaling about three times
+    the ABE 99S data sample. Corresponds to PT < 5.0 × 10−3 at 90% CL.
+
+PT in K + → µ+ νµ γ
+        T-violating muon polarization. Sensitive to new sources of CP violation beyond the
+        Standard Model.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+− 0.64± 1.85 ± 0.10    114k       1 ANISIMOVSK...03 K246 +
+  1 Muons stopped and polarization measured from decay to positrons.
+
+Im(ξ) in K + → π 0 µ+ νµ DECAY (from transverse µ pol.)
+        Test of T reversal invariance.
+VALUE                             EVTS         DOCUMENT ID              TECN      CHG     COMMENT
+− 0.006 ± 0.008 OUR AVERAGE
+− 0.0053± 0.0071 ± 0.0036           1 ABE             04F K246 +
+− 0.016 ± 0.025            20M        CAMPBELL        81 CNTR +            Pol.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.013 ± 0.016 ± 0.003 3.9M            ABE            99S CNTR +         pT K + at rest
+  1 Includes three sets of data: 96-97 (ABE 99S), 98, and 99-00 totaling about three times
+    the ABE 99S data sample. Corresponds to Im(ξ) < 0.016 at 90% CL.
+
+
+DALITZ PLOT PARAMETERS FOR
+K → 3π DECAYS
+Revised 1999 by T.G. Trippe (LBNL).
+      The Dalitz plot distribution for K ± → π ± π ± π ∓ , K ± →
+π 0 π 0 π ± , and KL0 → π + π − π 0 can be parameterized by a series
+expansion such as that introduced by Weinberg [1]. We use the
+form
+
+
+https://pdg.lbl.gov                          Page 31                      Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+                                          2
+             2    (s3 − s0 )       s3 − s0
+        M ∝1+g               +h
+                    m2π+            m2π+
+                                     2
+             (s2 − s1 )       s2 − s1
+          +j            +k
+               m2π+            m2π+
+                      (s2 − s1 ) (s3 − s0 )
+              +f                            + ··· ,                                                  (1)
+                        m2π+       m2π+
+
+where m2π+ has been introduced to make the coeﬃcients g, h,
+j, and k dimensionless, and
+
+       si = (PK − Pi )2 = (mK − mi )2 − 2mK Ti , i = 1, 2, 3,
+            1X         1
+       s0 =      si = (m2K + m21 + m22 + m23 ) .
+            3          3
+                     i
+
+Here the Pi are four-vectors, mi and Ti are the mass and kinetic
+energy of the ith pion, and the index 3 is used for the odd pion.
+     The coeﬃcient g is a measure of the slope in the variable s3
+(or T3 ) of the Dalitz plot, while h and k measure the quadratic
+dependence on s3 and (s2 − s1 ), respectively. The coeﬃcient j
+is related to the asymmetry of the plot and must be zero if CP
+invariance holds. Note also that if CP is good, g, h, and k must
+be the same for K + → π + π + π − as for K − → π − π − π + .
+                                                             2
+     Since diﬀerent experiments use diﬀerent forms for M , in
+order to compare the experiments we have converted to g, h,
+j, and k whatever coeﬃcients have been measured. Where such
+conversions have been done, the measured coeﬃcient ay , at , au ,
+or av is given in the comment at the right. For deﬁnitions of
+these coeﬃcients, details of this conversion, and discussion of
+the data, see the April 1982 version of this note [2].
+
+
+https://pdg.lbl.gov                       Page 32                      Created: 6/1/2026 16:25
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+References
+1. S. Weinberg, Phys. Rev. Lett. 4, 87 (1960).
+2. Particle Data Group, Phys. Lett. 111B, 69 (1982).
+
+                    ENERGY DEPENDENCE OF K ± DALITZ PLOT
+           matrix element 2 = 1 + gu + hu2 + kv2
+           where u = (s3 − s0 ) / m 2 and v = (s2 − s1 ) / m 2
+                                    π                        π
+
+LINEAR COEFFICIENT g FOR K ± → π ± π + π −
+        Some experiments use Dalitz variables x and y. In the comments we give ay =
+        coeﬃcient of y term. See note above on “Dalitz Plot Parameters for K → 3π
+        Decays.” For discussion of the conversion of ay to g, see the earlier version of the
+        same note in the Review published in Physics Letters 111B 70 (1982).
+VALUE                          EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+− 0.21134± 0.00017     471M                 1 BATLEY07B NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.2221 ± 0.0065              225k           DEVAUX             77     SPEC      +       ay =.2814 ± .0082
+− 0.199     ± 0.008             81k         2 LUCAS              73     HBC       −       ay =0.252 ± 0.011
+− 0.2157 ± 0.0028              750k           FORD               72     ASPK +            ay =.2734 ± .0035
+− 0.2186 ± 0.0028              750k           FORD      72              ASPK −            ay =.2770 ± .0035
+− 0.200     ± 0.009           39819         3 HOFFMASTER72              HLBC +
+− 0.196     ± 0.012           17898         4 GRAUMAN   70              HLBC +            ay =0.228 ± 0.030
+− 0.193     ± 0.010           50919           MAST               69     HBC       −       ay =0.244 ± 0.013
+− 0.218     ± 0.016            9994         5 BUTLER             68     HBC       +       ay =0.277 ± 0.020
+− 0.190     ± 0.023            5778      5,6 MOSCOSO             68     HBC       −       ay =0.242 ± 0.029
+− 0.22      ± 0.024            5428      5,6 ZINCHENKO    67            HBC       +       ay =0.28 ± 0.03
+− 0.220     ± 0.035            1347         7 FERRO-LUZZI 61            HBC       −       ay =0.28 ± 0.045
+  1 Final state strong interaction and radiative corrections not included in the ﬁt.
+  2 Quadratic dependence is required by K 0 experiments.
+                                            L
+  3 HOFFMASTER 72 includes GRAUMAN 70 data.
+  4 Emulsion data added — all events included by HOFFMASTER 72.
+  5 Experiments with large errors not included in average.
+  6 Also includes DBC events.
+  7 No radiative corrections included.
+
+QUADRATIC COEFFICIENT h FOR K ± → π ± π + π −
+VALUE (units 10−2 )            EVTS           DOCUMENT ID               TECN      CHG
+  1.848± 0.040         471M                 1 BATLEY07B NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.06 ± 1.43              225k       DEVAUX           77 SPEC +
+  1.87 ± 0.62              750k       FORD             72 ASPK +
+  1.25 ± 0.62              750k       FORD             72 ASPK −
+− 0.9 ± 1.4               39819       HOFFMASTER72 HLBC +
+− 0.1 ± 1.2               50919       MAST             69 HBC         −
+  1 Final state strong interaction and radiative corrections not included in the ﬁt.
+
+
+https://pdg.lbl.gov                           Page 33                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+QUADRATIC COEFFICIENT k FOR K ± → π ± π + π −
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN       CHG
+− 4.63± 0.14           471M                1 BATLEY 07B NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 20.5 ± 3.9               225k       DEVAUX           77 SPEC +
+− 7.5 ± 1.9                750k       FORD             72 ASPK +
+− 8.3 ± 1.9                750k       FORD             72 ASPK −
+− 10.5 ± 4.5              39819       HOFFMASTER72 HLBC +
+− 14 ± 12                 50919       MAST             69 HBC         −
+  1 Final state strong interaction and radiative corrections not included in the ﬁt.
+
+(g+ − g− ) / (g+ + g− ) FOR K ± → π ± π + π −
+        This is a CP violating asymmetry between linear coeﬃcients g+ for K + → π + π + π −
+        decay and g− for K − → π − π + π − decay.
+VALUE (units 10−4 )                EVTS          DOCUMENT ID               TECN
+− 1.5± 1.5±± 1.6            3.1G               1 BATLEY 07E NA48
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+   1.7± 2.1± 2.0            1.7G     2 BATLEY           06 NA48
+− 70.0± 53                  3.2M         FORD            70 ASPK
+  1 BATLEY 07E includes data from BATLEY 06. Uses quadratic parametrization and value
+    g+ + g− = 2g from BATLEY 07B. This measurement neglects any possible charge
+    asymmetries in higher order slope parameters h or k.
+  2 This measurement neglects any possible charge asymmetries in higher order slope pa-
+    rameters h or k.
+
+LINEAR COEFFICIENT g FOR K ± → π ± π 0 π 0
+        Unless otherwise stated, all experiments include terms quadratic
+        in (s3 − s0 ) / m 2 + . See note above on “Dalitz Plot Parameters for K → 3π Decays.”
+                          π
+        See BATUSOV 98 for a discussion of the discrepancy between their result and others,
+        especially BOLOTOV 86. At this time we have no way to resolve the discrepancy so
+        we depend on the large scale factor as a warning.
+VALUE                           EVTS           DOCUMENT ID               TECN       CHG    COMMENT
+0.626 ± 0.007 OUR AVERAGE
+0.6259± 0.0043 ± 0.0093 493k          AKOPDZHAN...05B TNF             ±
+0.627 ± 0.004 ± 0.010     252k    1,2 AJINENKO        03B ISTR −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.736 ± 0.014 ± 0.012       33k        BATUSOV       98 SPEC +
+0.582 ± 0.021               43k        BOLOTOV       86 CALO −
+0.670 ± 0.054             3263         BRAUN         76B HLBC +
+0.630 ± 0.038             5635         SHEAFF        75 HLBC +
+0.510 ± 0.060               27k        SMITH         75 WIRE +
+0.67 ± 0.06               1365         AUBERT        72 HLBC +
+0.544 ± 0.048             4048         DAVISON       69 HLBC +          Also emulsion
+  1 Measured using in-ﬂight decays of the 25 GeV negative secondary beam.
+  2 They form new world averages g = (0.617 ± 0.018) and g = (0.684 ± 0.033) which
+                                   −                          +
+    give ∆gτ ′ = 0.051 ± 0.028.
+
+
+
+
+https://pdg.lbl.gov                          Page 34                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+QUADRATIC COEFFICIENT h FOR K ± → π ± π 0 π 0
+VALUE                             EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+  0.052 ± 0.008 OUR AVERAGE
+  0.0551± 0.0044 ± 0.0086 493k         AKOPDZHAN...05B TNF             ±
+  0.046 ± 0.004 ± 0.012 252k         1 AJINENKO        03B ISTR −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  0.128 ± 0.015 ± 0.024      33k        BATUSOV       98 SPEC +
+  0.037 ± 0.024              43k        BOLOTOV       86 CALO −
+  0.152 ± 0.082             3263        BRAUN         76B HLBC +
+  0.041 ± 0.030             5635        SHEAFF        75 HLBC +
+  0.009 ± 0.040              27k        SMITH         75 WIRE +
+− 0.01 ± 0.08               1365        AUBERT        72 HLBC +
+  0.026 ± 0.050             4048        DAVISON       69 HLBC +           Also emulsion
+  1 Measured using in-ﬂight decays of the 25 GeV negative secondary beam.
+
+QUADRATIC COEFFICIENT k FOR K ± → π ± π 0 π 0
+VALUE                              EVTS          DOCUMENT ID                TECN      CHG
+0.0054± 0.0035 OUR AVERAGE Error includes scale factor of 2.5.
+0.0082± 0.0011 ± 0.0014     493k        AKOPDZHAN...05B TNF             ±
+0.001 ± 0.001 ± 0.002       252k     1 AJINENKO         03B ISTR −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.0197± 0.0045 ± 0.0029      33k        BATUSOV        98 SPEC +
+  1 Measured using in-ﬂight decays of the 25 GeV negative secondary beam.
+
+(g+ − g− ) / (g+ + g− ) FOR K ± → π ± π 0 π 0
+        A nonzero value for this quantity indicates CP violation.
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN
+1.8± 1.8 OUR AVERAGE
+1.8± 1.7 ± 0.6         91.3M      1 BATLEY          07E NA48
+2 ± 18 ± 5              619k      2 AKOPDZHAN...05 TNF
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.8± 2.2 ± 1.3          47M       3 BATLEY          06A NA48
+  1 BATLEY 07E includes data from BATLEY 06A. Uses quadratic parametrization and
+    PDG 06 value g = 0.626 ± 0.007 to obtain g+ − g− = (2.2 ± 2.1 ± 0.7) × 10−4 .
+    Neglects any possible charge asymmetries in higher order slope parameters h or k.
+  2 Asymmetry obtained assuming that g +g = 2×0.652 (PDG 02) and that asymmetries
+                                        +     −
+    in h and k are zero.
+  3 Linear and quadratic slopes from PDG 04 are used. Any possible charge asymmetries in
+    higher order slope parameters h or k are neglected.
+
+
+ALTERNATIVE PARAMETRIZATIONS OF K ± → π ± π 0 π 0 DALITZ PLOT
+          The following functional form for the matrix element suggested by π π
+          rescattering in K + → π + “π + π − ”→ π + π 0 π 0 is used for this ﬁt
+          (CABIBBO 04A, CABIBBO 05): Matrix element = M0 + M1 where M0
+          = 1 + (1/2)g 0 u + (1/2) h′ u 2 + (1/2)k0 v 2 with u = (s3 − s0 )/(m + )2 ,
+                                                                              π
+          v = (s2 − s1 )/(m + )2 and where M1 takes into account the non-analytic
+                             π
+          piece due to pi pi rescattering amplitudes a0 and a2 ; The parameters g 0
+          and h′ are related to the parameters g and h of the matrix element squared
+
+
+
+https://pdg.lbl.gov                          Page 35                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+         given in the previous section by the approximations g 0 ∼ g P DG and
+         h′ ∼ hP DG − (g/2)2 and k0 ∼ k P DG .
+
+         In addition, we also consider the eﬀective ﬁeld theory framework of
+         COLANGELO 06A and BISSEGGER 09 to extract g          and h′ .
+                                                         BB        BB
+
+
+LINEAR COEFFICIENT g 0 FOR K ± → π ± π 0 π 0
+VALUE                              EVTS           DOCUMENT ID               TECN      CHG
+0.6525± 0.0009 ± 0.0033      60M      1 BATLEY           09A NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.645 ± 0.004 ± 0.009        23M      2 BATLEY           06B NA48 ±
+  1 This ﬁt is obtained with the CABIBBO 05 matrix element in the 2π 0 invariant mass
+    squared range 0.074094 < m 2 0 < 0.104244 GeV2 . Electromagnetic corrections and
+                                   2π
+    CHPT constraints for π π phase shifts (a0 and a2 ) have been used. Also measured
+    (a0 − a2 ) m + = 0.2646 ± 0.0021 ± 0.0023, where k0 was kept ﬁxed in the ﬁt at
+                   π
+    − 0.0099.
+  2 Superseded by BATLEY 09A. This ﬁt is obtained with the CABIBBO 05 matrix element
+    in the 2π 0 invariant mass squared range 0.074 GeV2 < m 2 0 < 0.097 GeV2 , assuming
+                                                             2π
+    k = 0 (no term proportional to (s2 − s1 )2 ) and excluding the kinematic region around
+    the cusp (m 2 0 = (2m + )2 ± 0.000525 GeV2 ). Also π-π phase shifts a0 and a2 are
+                  2π         π
+    measured: (a0 − a2 )m + = 0.268 ± 0.010 ± 0.004 ± 0.013(external) and a2 m + =
+                            π                                                        π
+    − 0.041 ± 0.022 ± 0.014.
+                                           ′
+QUADRATIC COEFFICIENT h FOR K ± → π ± π 0 π 0
+VALUE                              EVTS           DOCUMENT ID               TECN      CHG
+− 0.0433± 0.0008 ± 0.0026    60M                1 BATLEY 09A NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.047 ± 0.012 ± 0.011      23M      2 BATLEY           06B NA48 ±
+  1 This ﬁt is obtained with the CABIBBO 05 matrix element in the 2π 0 invariant mass
+    squared range 0.074094 < m 2 0 < 0.104244 GeV2 . Electromagnetic corrections and
+                                   2π
+    CHPT constraints for π π phase shifts (a0 and a2 ) have been used. Also measured
+    (a0 − a2 ) m + = 0.2646 ± 0.0021 ± 0.0023, where k0 was kept ﬁxed in the ﬁt at
+                   π
+    − 0.0099.
+  2 Superseded by BATLEY 09A. This ﬁt is obtained with the CABIBBO 05 matrix element
+    in the 2π 0 invariant mass squared range 0.074 GeV2 < m 2 0 < 0.097 GeV2 , assuming
+                                                             2π
+    k = 0 (no term proportional to (s2 − s1 )2 ) and excluding the kinematic region around
+    the cusp (m 2 0 = (2m + )2 ± 0.000525 GeV2 ). Also π-π phase shifts a0 and a2 are
+                  2π         π
+    measured: (a0 − a2 )m + = 0.268 ± 0.010 ± 0.004 ± 0.013(external) and a2 m + =
+                            π                                                        π
+    − 0.041 ± 0.022 ± 0.014.
+
+QUADRATIC COEFFICIENT k0 FOR K ± → π ± π 0 π 0
+VALUE                              EVTS           DOCUMENT ID               TECN      CHG
+0.0095± 0.00017 ± 0.00048 60M      1 BATLEY                          09A NA48         ±
+  1 Assumed a m
+             2 π + = − 0.0044 in the ﬁt.
+
+LINEAR COEFFICIENT gBB FOR K ± → π ± π 0 π 0
+VALUE                              EVTS           DOCUMENT ID               TECN      CHG
+0.6219± 0.0009 ± 0.0033            60M          1 BATLEY             09A NA48         ±
+
+https://pdg.lbl.gov                            Page 36                   Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 This ﬁt is obtained using parametrizations of COLANGELO 06A and BISSEGGER 09 in
+    the 2π 0 invariant mass squared range 0.074094 < m 2 0 < 0.104244 GeV2 . Electro-
+                                                        2π
+    magnetic corrections and CHPT constraints for π π phase shifts (a0 and a2 ) have been
+    used. Also measured (a0 − a2 ) m + = 0.2633 ± 0.0024 ± 0.0024, where k0 was kept
+                                      π
+    ﬁxed in the ﬁt at 0.0085.
+                       ′
+QUADRATIC COEFFICIENT hBB FOR K ± → π ± π 0 π 0
+VALUE                              EVTS           DOCUMENT ID               TECN      CHG
+− 0.0520± 0.0009 ± 0.0026      60M      1 BATLEY        09A NA48 ±
+  1 This ﬁt is obtained using parametrizations of COLANGELO 06A and BISSEGGER 09 in
+    the 2π 0 invariant mass squared range 0.074094 < m 2 0 < 0.104244 GeV2 . Electro-
+                                                        2π
+    magnetic corrections and CHPT constraints for π π phase shifts (a0 and a2 ) have been
+    used. Also measured (a0 − a2 ) m + = 0.2633 ± 0.0024 ± 0.0024, where k0 was kept
+                                      π
+    ﬁxed in the ﬁt at 0.0085.
+
+
+                                     K±
+                                      ℓ3 FORM FACTORS
+         In the form factor comments, the following symbols are used.
+                   f+ and f− are form factors for the vector matrix element.
+                     fS and fT refer to the scalar and tensor term.
+                     f0 = f+ + f− t/(m 2 + − m 2 0 ).
+                                         K         π
+                     t = momentum transfer to the π.
+                     λ+ and λ0 are the linear expansion coeﬃcients of f+ and f0 :
+                     f+ (t) = f+ (0) (1 + λ+ t /m 2 + )
+                                                   π
+                     For quadratic expansion
+                                                          λ′′
+                     f+ (t) = f+ (0) (1 + λ′ + t /m 2 + + 2+ t2 /m4 + )
+                                                    π                π
+                     as used by KTeV. If there is a non-vanishing quadratic term, then λ+
+                     represents an average slope, which is then diﬀerent from λ′ + .
+                     NA48/2 and OKA quadratic expansion coeﬃcients are converted with
+                     λ′ + P DG = λ′ + NA48/2 and λ′′ + P DG = 2 λ′′ + NA48/2
+                                    m +
+                     λ′ + P DG = ( mπ )2 λ′ + OKA and
+                                       π0
+                                       m +
+                       ′′
+                     λ +  P DG   = 2 ( mπ )4 λ′′ + OKA
+                                          0   π
+                     OKA linear expansion coeﬃcients are converted with
+                                  m +                                m +
+                     λ+ P DG = ( mπ )2 λ+ OKA and λ0 P DG = ( mπ )2 λ0 OKA
+                                     0    π                             0             π
+                     The pole parametrization is
+                                           M2
+                        f+ (t) = f+ (0) ( 2 V )
+                                          M V −t
+                                          M2
+                        f0 (t) = f0 (0) ( 2 S )
+                                         M S −t
+                     where MV and MS are the vector and scalar pole masses.
+                     The following abbreviations are used:
+                     DP = Dalitz plot analysis.
+                     PI = π spectrum analysis.
+
+
+https://pdg.lbl.gov                           Page 37                    Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                    MU = µ spectrum analysis.
+                    POL= µ polarization analysis.
+                    BR = K ± /K ± branching ratio analysis.
+                            µ3 e3
+                    E = positron or electron spectrum analysis.
+                    RC = radiative corrections.
+          For previous λ′ + and λ′′ + parametrizations used by NA48 (e.g. LAI 07A)
+          and ISTRA (e.g. YUSHCHENKO 04B) see PDG 18.
+
+λ+ (LINEAR ENERGY DEPENDENCE OF f+ IN K ±
+                                        e3 DECAY)
+       These results are for a linear expansion only. See the next section for ﬁts including a
+       quadratic term. For radiative correction of the K ± Dalitz plot, see GINSBERG 67,
+                                                               e3
+       BECHERRAWY 70, CIRIGLIANO 02, CIRIGLIANO 04, and ANDRE 07. Results la-
+       beled OUR FIT are discussed in the review “K ± and K 0 Form Factors” above. For
+                                                           ℓ3         ℓ3
+       earlier, lower statistics results, see the 2004 edition of this review, Physics Letters B592
+       1 (2004).
+VALUE (units 10−2 )          EVTS              DOCUMENT ID                 TECN      CHG     COMMENT
+2.959± 0.025 OUR FIT Assuming µ-e universality
+2.956± 0.025 OUR AVERAGE
+2.95 ± 0.022 ± 0.018 5.25M            YUSHCHENKO 18 OKA +
+3.044± 0.083 ± 0.074 1.1M             AKOPDZANOV 09 TNF                ±
+2.966± 0.050 ± 0.034  919k          1 YUSHCHENKO 04B ISTR −                  DP
+2.78 ± 0.26 ± 0.30      41k           SHIMIZU          00 SPEC +             DP
+2.84 ± 0.27 ± 0.20      32k         2 AKIMENKO         91 SPEC               PI, no RC
+2.9 ± 0.4               62k         3 BOLOTOV          88 SPEC               PI, no RC
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.06 ± 0.09 ± 0.06    550k        1,4 AJINENKO         03C ISTR −            DP
+2.93 ± 0.15 ± 0.2     130k          4 AJINENKO         02 SPEC               DP
+  1 Rescaled to agree with our conventions as noted above.
+  2 AKIMENKO 91 state that radiative corrections would raise λ by 0.0013.
+                                                              +
+  3 BOLOTOV 88 state radiative corrections of GINSBERG 67 would raise λ by 0.002.
+                                                                        +
+  4 Superseded by YUSHCHENKO 04B.
+
+λ+ (LINEAR ENERGY DEPENDENCE OF f+ IN K ±
+                                        µ3 DECAY)
+       Results labeled OUR FIT are discussed in the review “K ± and K 0 Form Factors”
+                                                                    ℓ3         ℓ3
+       above. For earlier, lower statistics results, see the 2004 edition of this review, Physics
+       Letters B592 1 (2004).
+VALUE (units 10−2 )                 EVTS          DOCUMENT ID                TECN      CHG     COMMENT
+2.959± 0.025 OUR FIT Assuming µ-e universality
+3.09 ± 0.25 OUR FIT Error includes scale factor of 1.5. Not assuming µ-e universality
+2.96 ± 0.14 ± 0.10           540k     1 YUSHCHENKO04 ISTR −                  DP
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.21 ± 0.45                  112k     2 AJINENKO         03 ISTR −           DP
+  1 Rescaled to agree with our conventions as noted above.
+  2 Superseded by YUSHCHENKO 04.
+
+λ0 (LINEAR ENERGY DEPENDENCE OF f0 IN K ±
+                                        µ3 DECAY)
+       Results labeled OUR FIT are discussed in the review “K ± and K 0 Form Factors”
+                                                                    ℓ3         ℓ3
+       above. For earlier, lower statistics results, see the 2004 edition of this review, Physics
+       Letters B592 1 (2004).
+
+
+https://pdg.lbl.gov                          Page 38                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+VALUE (units 10−2 )         dλ0 /dλ+    EVTS           DOCUMENT ID                TECN     CHG     COMMENT
+1.76 ± 0.25 OUR FIT Error includes scale factor of 2.7. Assuming µ-e universality
+1.73 ± 0.27 OUR FIT Error includes scale factor of 2.6. Not assuming µ-e universality
+1.420± 0.114 ± 0.107            2.3M       1 BATLEY          18 NA48 ±
+1.96 ± 0.12 ± 0.06    − 0.348 540k         2 YUSHCHENKO04 ISTR −             DP
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.09 ± 0.45           − 0.46    112k       3 AJINENKO        03 ISTR −       DP
+1.9 ± 0.64                        24k      4 HORIE           01 SPEC +       BR
+1.9 ± 1.0             + 0.03      55k      5 HEINTZE         77 SPEC +       BR
+  1 Data collected in 2004 by NA48/2. Obtained from a ﬁt with a quadratic vector form
+    factor. Correlation coeﬃcient with linear slope is 0.511, with quadratic slope is − 0.513.
+    χ2 /NDF = 409.9/381. BATLEY 18 also performed a combined K ± and K ± ﬁt
+                                                                             e3         µ3
+    assuming µ − e universality and obtained (14.47 ± 0.63 ± 1.17) × 10−3 .
+  2 Rescaled to agree with our conventions as noted above.
+  3 Superseded by YUSHCHENKO 04.
+  4 HORIE 01 assumes µ-e universality in K + decay and uses SHIMIZU 00 value λ=0.0278±
+                                            ℓ3
+    0.0040 from K ± decay.
+                   e3
+  5 HEINTZE 77 uses λ = 0.029 ± 0.003. dλ /dλ estimated by us.
+                         +                       0     +
+              ±
+λ’+ (LINEAR K e3 FORM FACTOR FROM QUADRATIC FIT)
+VALUE (units 10−2 )           EVTS              DOCUMENT ID                TECN      CHG    COMMENT
+2.59 ± 0.04 OUR AVERAGE
+2.426± 0.078 ± 0.130   4.4M          1 BATLEY          18 NA48 ±
+2.611± 0.035 ± 0.028   5.25M           YUSHCHENKO18 OKA +
+2.485± 0.163 ± 0.034    919k       2,3 YUSHCHENKO04B ISTR −                  DP
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.07 ± 0.21             550k       2,4 AJINENKO        03C ISTR −            DP
+  1 Data collected in 2004 by NA48/2. Correlation coeﬃcient with quadratic slope is − 0.929.
+    χ2 /NDF = 569.1/687. BATLEY 18 also performed a combined K ± and K ± ﬁt
+                                                                          e3          µ3
+    assuming µ − e universality and obtained (24.24 ± 0.75 ± 1.3) × 10−3 .
+  2 Rescaled to agree with our conventions as noted above.
+  3 YUSHCHENKO 04B λ′ and λ′′ are strongly correlated with coeﬃcient ρ(λ′ , λ′′ )
+                            +       +                                              +     +
+    = −0.95.
+  4 Superseded by YUSHCHENKO 04B.
+
+λ′′ + (QUADRATIC K ±
+                   e3 FORM FACTOR)
+VALUE (units 10−2 )           EVTS              DOCUMENT ID                TECN      CHG    COMMENT
+  0.186± 0.021 OUR AVERAGE
+  0.164± 0.030 ± 0.039 4.4M          1 BATLEY          18 NA48 ±
+  0.191± 0.019 ± 0.014 5.25M           YUSHCHENKO18 OKA +
+  0.192± 0.062 ± 0.071 919k        2,3 YUSHCHENKO04B ISTR −                  DP
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.5 ± 0.7 ± 1.5       550k       2,4 AJINENKO        03C ISTR −            DP
+  1 Data collected in 2004 by NA48/2. Correlation coeﬃcient with quadratic slope is − 0.929.
+    χ2 /NDF = 569.1/687. BATLEY 18 also performed a combined K ± and K ± ﬁt
+                                                                          e3          µ3
+                                                                       −3
+    assuming µ − e universality and obtained (1.67 ± 0.29 ± 0.41) × 10 .
+  2 Rescaled to agree with our conventions as noted above.
+  3 YUSHCHENKO 04B λ′ and λ′′ are strongly correlated with coeﬃcient ρ(λ′ , λ′′ )
+                            +       +                                              +     +
+    = −0.95.
+  4 Superseded by YUSHCHENKO 04B.
+
+
+https://pdg.lbl.gov                          Page 39                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+λ′ + (LINEAR K ±
+               µ3 FORM FACTOR FROM QUADRATIC FIT)
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      CHG
+24.27± 2.88 ± 2.89       2.3M      1 BATLEY      18 NA48 ±
+  1 Data collected in 2004 by NA48/2. Correlation coeﬃcient with quadratic slope is
+    − 0.974, with scalar slope is 0.511. χ2 /NDF = 409.9/381. BATLEY 18 also per-
+    formed a combined K ± and K ± ﬁt assuming µ − e universality and obtained
+                            e3        µ3
+    (24.24 ± 0.75 ± 1.3) × 10−3 .
+
+λ′′ + (QUADRATIC K ±
+                   µ3 FORM FACTOR)
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      CHG
+1.83± 1.05 ± 1.09         2.3M      1 BATLEY       18 NA48 ±
+  1 Data collected in 2004 by NA48/2. Correlation coeﬃcient with linear slope is − 0.974,
+    with scalar slope is 0.513. χ2 /NDF = 409.9/381. BATLEY 18 also performed a com-
+    bined K ± and K ± ﬁt assuming µ − e universality and obtained (1.67 ± 0.29 ± 0.41) ×
+            e3        µ3
+    10−3 .
+
+MV (VECTOR POLE MASS FOR K ±
+                           e3 DECAY)
+       See the review on K ± and K 0 Form Factors for details.
+                           l3      l3
+VALUE (MeV)                   EVTS           DOCUMENT ID               TECN      CHG
+890.3± 2.8 OUR AVERAGE
+885.2± 3.3 ± 7.2         4.4M      1 BATLEY          18 NA48 ±
+891 ± 3                  5.25M     2 YUSHCHENKO18 OKA +
+  1 Data collected in 2004 by NA48/2. χ2 /NDF = 568.9/688. BATLEY 18 also performed
+    a combined K ± and K ± ﬁt assuming µ − e universality and obtained 884.4 ± 3.1 ± 6.7
+                  e3        µ3
+    MeV.
+  2 Assumed no scalar or tensor contributions to the form factor.
+
+MV (VECTOR POLE MASS FOR K ±
+                           µ3 DECAY)
+VALUE (MeV)                   EVTS           DOCUMENT ID               TECN      CHG
+878.4± 8.8 ± 8.3         2.3M              1 BATLEY
+                                                 18 NA48 ±
+  1 Data collected in 2004 by NA48/2. χ2 /NDF = 409.9/382. BATLEY 18 also performed
+    a combined K ± and K ± ﬁt assuming µ − e universality and obtained 884.4 ± 3.1 ± 6.7
+                  e3       µ3
+    MeV.
+
+MS (SCALAR POLE MASS FOR K ±
+                           µ3 DECAY)
+VALUE (MeV)                   EVTS           DOCUMENT ID               TECN      CHG
+1214.8± 23.5 ± 49.2      2.3M              1 BATLEY
+                                                  18 NA48 ±
+  1 Data collected in 2004 by NA48/2. χ2 /NDF = 409.9/382. BATLEY 18 also performed a
+    combined K ± and K ± ﬁt assuming µ−e universality and obtained 1208.3 ± 21.2 ± 47.5
+                e3       µ3
+    MeV.
+
+Λ+ (DISPERSIVE VECTOR FORM FACTOR IN K ±
+                                       e3 DECAY)
+       See the review on K ± and K 0 Form Factors for details.
+                           l3      l3
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+2.460± 0.017 OUR AVERAGE
+2.494± 0.021 ± 0.064 4.4M                  1 BATLEY    18              NA48      ±
+2.458± 0.018         5.25M                 2 YUSHCHENKO18              OKA       +
+
+https://pdg.lbl.gov                          Page 40                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Data collected in 2004 by NA48/2. χ2 /NDF = 569.0/688. BATLEY 18 also performed
+    a combined K ± and K ± ﬁt assuming µ − e universality and obtained (24.99 ± 0.20 ±
+                  e3       µ3
+    0.62) × 10−3 .
+  2 Assumed no scalar or tensor contributions to the form factor.
+
+Λ+ (DISPERSIVE VECTOR FORM FACTOR IN K ±
+                                       µ3 DECAY)
+VALUE (units 10−3 )            EVTS          DOCUMENT ID               TECN      CHG
+25.36± 0.58 ± 0.72       2.3M              1 BATLEY
+                                                 18 NA48 ±
+  1 Data collected in 2004 by NA48/2. χ2 /NDF = 410.3/382. BATLEY 18 also performed
+    a combined K ± and K ± ﬁt assuming µ − e universality and obtained (24.99 ± 0.20 ±
+                  e3        µ3
+    0.62) × 10−3 .
+
+ln(C ) (DISPERSIVE SCALAR FORM FACTOR in K ±
+                                           µ3 decays )
+VALUE (units 10−3 )            EVTS          DOCUMENT ID               TECN      CHG
+182.17± 6.31 ± 14.45    2.3M     1 BATLEY         18 NA48 ±
+  1 Data collected in 2004 by NA48/2. Combined ﬁt with dispersive vector form factor
+    Λ+ = 25.36 ± 0.58 ± 0.72. Correlation coeﬃcient is 0.104. χ2 /NDF = 410.3/382.
+    BATLEY 18 also performed a combined K ± and K ± ﬁt assuming µ − e universality
+                                            e3      µ3
+    and obtained (183.65 ± 5.92 ± 14.25) × 10−3 .
+
+ fS /f+ FOR K ±
+              e3
+                 DECAY
+       Ratio of scalar to f+ couplings.
+VALUE (units 10−2 )      CL%    EVTS          DOCUMENT ID               TECN      CHG COMMENT
+       + 0.34 OUR AVERAGE
+− 0.08 − 0.40
+       + 0.38
+  0.01 − 0.46            5.25M       YUSHCHENKO18 OKA +                   λ′ + , λ′′ + , f S ﬁt
+       + 0.66 ± 0.41
+− 0.37 −                  919k       YUSHCHENKO04B ISTR −                 λ′ + , λ′′ + , f S ﬁt
+         0.56
+  0.2 ± 2.6 ± 1.4          41k       SHIMIZU         00 SPEC +            λ+ , fS , fT ﬁt
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+      + 2.0 ± 0.3
+  0.2 −                         550k        1 AJINENKO            03C ISTR        −      λ+ , fS , fT ﬁt
+        2.2
+      + 2.5
+− 1.9 −                         130k        1 AJINENKO            02    SPEC             λ+ , fS ﬁt
+        1.6
+  7.0 ± 1.6 ± 1.6                32k          AKIMENKO            91    SPEC             λ+ , fS , fT , φ ﬁt
+0 ± 10                          2827        2 BRAUN               75    HLBC +
+< 13                     90     4017          CHIANG              72    OSPK +
+14 +
+   −4
+     3                          2707        2 STEINER             71    HLBC +           λ+ , fS , fT , φ ﬁt
+< 23                   90      BOTTERILL                          68C ASPK
+< 18                   90      BELLOTTI                           67B HLBC
+< 30                   95      KALMUS                             67 HLBC +
+  1 Superseded by YUSHCHENKO 04B.
+  2 Statistical errors only.
+
+
+
+
+https://pdg.lbl.gov                          Page 41                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ fT /f+ FOR K ±
+              e3 DECAY
+       Ratio of tensor to f+ couplings.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+
+− 1.2 +  1.3
+       − 1.1 OUR AVERAGE
+       + 1.6
+− 1.24 −               5.25M        YUSHCHENKO18 OKA +                    λ′ + ,λ′′ + ,f T ﬁt
+         1.3
+− 1.2 ± 2.1± 1.1        919k        YUSHCHENKO04B ISTR −                  λ′ + ,λ′′ + ,f T ﬁt
+   1 ± 14 ± 9            41k        SHIMIZU         00 SPEC +             λ+ , fS , fT ﬁt
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+   2.1 + 6.4
+       − 7.5 ± 2.6            550k         1 AJINENKO           03C ISTR         −       λ+ , fS , fT ﬁt
+
+− 4.5 + 6.0
+      − 5.7                   130k         1 AJINENKO           02     SPEC              λ+ , fT ﬁt
+
+  53    + 9 ± 10               32k           AKIMENKO           91     SPEC              λ+ , fS , fT , φ ﬁt
+        − 10
+  1 Superseded by YUSHCHENKO 04B.
+
+fS /f+ FOR K ±
+             µ3 DECAY
+       Ratio of scalar to f+ couplings.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.17± 0.14 ± 0.54      540k       1 YUSHCHENKO04 ISTR −                   DP
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.4 ± 0.5 ± 0.5        112k       2 AJINENKO        03 ISTR −             DP
+  1 The second error is the theoretical error from the uncertainty in the chiral perturbation
+    theory prediction for λ0 , ± 0.0053, combined in quadrature with the systematic error
+    ± 0.0009.
+  2 The second error is the theoretical error from the uncertainty in the chiral perturbation
+    theory prediction for λ0 . Superseded by YUSHCHENKO 04.
+                 ±
+fT /f+ FOR K µ3      DECAY
+      Ratio of tensor to f+ couplings.
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+− 0.07± 0.71±
+            ± 0.20     540k         YUSHCHENKO04 ISTR −                   DP
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 2.1 ± 2.8 ± 1.4      112k       1 AJINENKO        03 ISTR −             DP
+  2 ± 12                  1585        BRAUN           75 HLBC
+  1 The second error is the theoretical error from the uncertainty in the chiral perturbation
+    theory prediction for λ0 . Superseded by YUSHCHENKO 04.
+
+
+                                      K±
+                                       ℓ4 FORM FACTORS
+          Based on the parametrizations of AMOROS 99, the K ± form factors can
+                                                                 ℓ4
+          be expressed as
+                    Fs = fs + f ′ q2 + f ′′ q4 + f ′ Se / 4m 2
+                                 s        s        e          π
+                    Fp = fp
+                    Gp = gp + g ′ q2
+                                   p
+                    Hp = h p
+          where q2 = (Sπ / 4m 2 ) − 1, Sπ is the invariant mass squared of the
+                                   π
+          dipion, and Se is the invariant mass squared of the dilepton.
+
+
+https://pdg.lbl.gov                          Page 42                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+fs FOR K ± → π + π − e ± ν DECAY
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG
+5.712± 0.032 OUR AVERAGE
+5.705± 0.003 ± 0.035      1.1M      1 BATLEY         12 NA48 ±
+5.75 ± 0.02 ± 0.08        400k      2 PISLAK         03 B865 +
+  1 BATLEY 12 uses data collected in 2003–2004. The result is obtained from a measure-
+    ment of Γ(π + π − e ν)/Γ(π + π − π + ) and assumed PDG 12 value of Γ(π + π − π + )/Γ =
+    (5.59 ± 0.04) × 10−2 .
+  2 Radiative corrections included. Using Roy equations and not including isospin break-
+    ing, PISLAK 03 obtains the following π π scattering lengths a0 = 0.228 ± 0.012 ±
+                                                                   0
+          + 0.012 (theor.) and a2 = − 0.0365 ± 0.0023 ± 0.0008 + 0.0031 (theor.).
+    0.004 − 0.016               0                              − 0.0026
+
+f ′s /fs FOR K ± → π + π − e ± ν DECAY
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+15.2± 0.7±± 0.5        1.13M      1 BATLEY          10C NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+17.2± 0.9 ± 0.6         670k      2 BATLEY          08A NA48 ±
+  1 Radiative corrections included. Using Roy equations and including isospin breaking,
+    BATLEY 10C obtains the following scattering lengths a0 = 0.2220 ± 0.0128 ± 0.0050 ±
+                                                           0
+    0.0037 (theor.), a2 = − 0.0432 ± 0.0086 ± 0.0034 ± 0.0028 (theor.). The correlation
+                       0
+    with f ′′ /fs = − 0.954 and with f ′ /fs = 0.080. Supersedes BATLEY 08A.
+           s                           e
+  2 Radiative corrections included. Using Roy equations and not including isospin breaking,
+    BATLEY 08A obtains the following π π scattering length a0 = 0.233 ± 0.016 ± 0.007
+                                                                0
+    a2 = − 0.0471 ± 0.011 ± 0.004.
+     0
+
+f ′′s /fs FOR K ± → π + π − e ± ν DECAY
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+− 7.3± 0.7± 0.6        1.13M               1 BATLEY 10C NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 9.0± 0.9± 0.7         670k      2 BATLEY          08A NA48 ±
+  1 Radiative corrections included. Using Roy equations and including isospin breaking,
+    BATLEY 10C obtains the following scattering lengths a0 = 0.2220 ± 0.0128 ± 0.0050 ±
+                                                           0
+    0.0037 (theor.), a2 = − 0.0432 ± 0.0086 ± 0.0034 ± 0.0028 (theor.). The correlation
+                      0
+    with f ′ /fs = − 0.954 and with f ′ /fs = 0.019. Supersedes BATLEY 08A.
+           s                          e
+  2 Radiative corrections included. Using Roy equations and not including isospin breaking,
+    BATLEY 08A obtains the following π π scattering length a0 = 0.233 ± 0.016 ± 0.007
+                                                               0
+    a2 = − 0.0471 ± 0.011 ± 0.004.
+     0
+
+f ′e /fs FOR K ± → π + π − e ± ν DECAY
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+6.8± 0.6± 0.7          1.13M      1 BATLEY          10C NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+8.1± 0.8± 0.9           670k      2 BATLEY          08A NA48 ±
+
+
+
+
+https://pdg.lbl.gov                          Page 43                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Radiative corrections included. Using Roy equations and including isospin breaking,
+    BATLEY 10C obtains the following scattering lengths a0 = 0.2220 ± 0.0128 ± 0.0050 ±
+                                                           0
+    0.0037 (theor.), a2 = − 0.0432 ± 0.0086 ± 0.0034 ± 0.0028 (theor.). The correlation
+                      0
+    with f ′ /fs = 0.080 and with f ′′ /fs = 0.019. Supersedes BATLEY 08A.
+           s                        s
+  2 Radiative corrections included. Using Roy equations and not including isospin breaking,
+    BATLEY 08A obtains the following π π scattering length a0   0 = 0.233 ± 0.016 ± 0.007
+     2
+    a = − 0.0471 ± 0.011 ± 0.004.
+     0
+
+fp /fs FOR K ± → π + π − e ± ν DECAY
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+− 4.8± 0.3± 0.4        1.13M      1 BATLEY          10C NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 4.8± 0.4± 0.4         670k      2 BATLEY          08A NA48 ±
+  1 Radiative corrections included. Using Roy equations and including isospin breaking,
+    BATLEY 10C obtains the following scattering lengths a0 = 0.2220 ± 0.0128 ± 0.0050 ±
+                                                          0
+    0.0037 (theor.), a2 = − 0.0432 ± 0.0086 ± 0.0034 ± 0.0028 (theor.). Supersedes BAT-
+                      0
+    LEY 08A.
+  2 Radiative corrections included. Using Roy equations and not including isospin breaking,
+    BATLEY 08A obtains the following π π scattering length a0 = 0.233 ± 0.016 ± 0.007
+                                                              0
+    a2 = − 0.0471 ± 0.011 ± 0.004.
+     0
+
+gp /fs FOR K ± → π + π − e ± ν DECAY
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+86.8± 1.0±± 1.0        1.13M      1 BATLEY          10C NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+87.3± 1.3 ± 1.2         670k      2 BATLEY          08A NA48 ±
+80.9± 0.9 ± 1.2         400k      3 PISLAK          03 B865 ±
+  1 Radiative corrections included. Using Roy equations and including isospin breaking,
+    BATLEY 10C obtains the following scattering lengths a0 = 0.2220 ± 0.0128 ± 0.0050 ±
+                                                          0
+    0.0037 (theor.), a2 = − 0.0432 ± 0.0086 ± 0.0034 ± 0.0028 (theor.). Supersedes BAT-
+                      0
+    LEY 08A. The correlation with g ′ /fs = − 0.914. Supersedes BATLEY 08A.
+                                     p
+  2 Radiative corrections included. Using Roy equations and not including isospin breaking,
+    BATLEY 08A obtains the following π π scattering length a0 = 0.233 ± 0.016 ± 0.007
+                                                              0
+    a2 = − 0.0471 ± 0.011 ± 0.004.
+     0
+  3 Radiative corrections included. Using Roy equations PISLAK 03 obtains the following
+    scattering lengths a0 = 0.203 ± 0.033 ± 0.004, a2 = − 0.055 ± 0.023 ± 0.003.
+                        0                            0
+
+g ′p /fs FOR K ± → π + π − e ± ν DECAY
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+ 8.9± 1.7±± 1.3        1.13M               1 BATLEY 10C NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ 8.1± 2.2 ± 1.5         670k      2 BATLEY          08A NA48 ±
+12.0± 1.9 ± 0.7         400k      3 PISLAK          03 B865 ±
+  1 Radiative corrections included. Using Roy equations and including isospin breaking,
+    BATLEY 10C obtains the following scattering lengths a0 = 0.2220 ± 0.0128 ± 0.0050 ±
+                                                         0
+
+https://pdg.lbl.gov                          Page 44                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+    0.0037 (theor.), a2 = − 0.0432 ± 0.0086 ± 0.0034 ± 0.0028 (theor.). The correlation
+                      0
+    with gp /fs = − 0.914. Supersedes BATLEY 08A.
+  2 Radiative corrections included. Using Roy equations and not including isospin breaking,
+    BATLEY 08A obtains the following π π scattering length a0 = 0.233 ± 0.016 ± 0.007
+                                                              0
+    a2
+     0 =  −  0.0471 ±  0.011 ± 0.004.
+  3 Radiative corrections included. Using Roy equations PISLAK 03 obtains the following
+    scattering lengths a0 = 0.203 ± 0.033 ± 0.004, a2 = − 0.055 ± 0.023 ± 0.003.
+                         0                           0
+
+hp /fs FOR K ± → π + π − e ± ν DECAY
+VALUE (units 10−2 )           EVTS           DOCUMENT ID               TECN      CHG
+− 39.8± 1.5± 0.8       1.13M               1 BATLEY 10C NA48 ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 41.1± 1.9± 0.8        670k      2 BATLEY          08A NA48 ±
+− 51.3± 3.3± 3.5        400k      3 PISLAK          03 B865 ±
+  1 Radiative corrections included. Using Roy equations and including isospin breaking,
+    BATLEY 10C obtains the following scattering lengths a0 = 0.2220 ± 0.0128 ± 0.0050 ±
+                                                          0
+    0.0037 (theor.), a2 = − 0.0432 ± 0.0086 ± 0.0034 ± 0.0028 (theor.). Supersedes BAT-
+                      0
+    LEY 08A.
+  2 Radiative corrections included. Using Roy equations and not including isospin breaking,
+    BATLEY 08A obtains the following π π scattering length a0 = 0.233 ± 0.016 ± 0.007
+                                                              0
+    a2 = − 0.0471 ± 0.011 ± 0.004.
+     0
+  3 Radiative corrections included. Using Roy equations PISLAK 03 obtains the following
+    scattering lengths a0 = 0.203 ± 0.033 ± 0.004, a2 = − 0.055 ± 0.023 ± 0.003.
+                        0                            0
+
+DECAY FORM FACTOR FOR K ± → π 0 π 0 e ± ν
+        Given in BOLOTOV 86B, BARMIN 88B, and SHIMIZU 04.
+
+
+                               K ± → ℓ± ν γ FORM FACTORS
+          For deﬁnitions of the axial-vector FA and vector FV form factor, see the
+          “Note on π ± → ℓ± ν γ and K ± → ℓ± ν γ Form Factors” in the π ±
+          section. In the kaon literature, often diﬀerent deﬁnitions aK = FA /mK
+          and vK = FV /m K are used.
+
+FA + FV , SUM OF AXIAL-VECTOR AND VECTOR FORM FACTOR FOR
+K → e νe γ
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.133± 0.008 OUR AVERAGE               Error includes scale factor of 1.3. See the ideogram below.
+0.125± 0.007 ± 0.001 1.4k                 1 AMBROSINO 09E KLOE E in 10–250 MeV,
+                                                                             γ
+                                                                               pe > 200 MeV/c
+0.147± 0.011              51              2 HEINTZE          79 SPEC
+      + 0.018
+0.150 − 0.023             56              3 HEARD            75 SPEC
+  1 AMBROSINO 09E measures the absolute value F + F
+                                                   A     V which is parametrized as
+     FA + FV = FV (1 + λ(1−x)) + FA , x = 2E γ /m K . (FA + FV ) and λ are ﬁt
+    parameters. The ﬁtted value of λ = 0.38 ± 0.20 ± 0.02 with a correlation of − 0.93
+    between (FA + FV ) and λ.
+  2 HEINTZE 79 quotes absolute value of F + F
+                                         A    V sinθc . We use sinθc = Vus = 0.2205.
+
+https://pdg.lbl.gov                          Page 45                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  3 HEARD 75 quotes absolute value of F + F
+                                       A   V sinθc . We use sinθc = Vus = 0.2205.
+
+          WEIGHTED AVERAGE
+          0.133±0.008 (Error scaled by 1.3)
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                          AMBROSINO           09E    KLOE   1.2
+                                                          HEINTZE             79     SPEC   1.7
+                                                          HEARD               75     SPEC   0.6
+                                                                                            3.5
+                                                                       (Confidence Level = 0.176)
+
+        0.08     0.1      0.12      0.14    0.16     0.18      0.2     0.22
+
+      FA + FV , SUM OF AXIAL-VECTOR AND VECTOR FORM FACTOR
+FOR K → e νe γ
+FA + FV , SUM OF AXIAL-VECTOR AND VECTOR FORM FACTOR FOR
+K → µ νµ γ
+VALUE                              CL%     EVTS         DOCUMENT ID                 TECN       CHG
+    0.165± 0.007 ± 0.011          2588                1 ADLER   00B B787 +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ − 1.2 to 1.1               90               DEMIDOV                        90      XEBC
+< 0.23                      90             1 AKIBA                          85      SPEC
+ 1 Quotes absolute value. Sign not determined.
+
+FA − FV , DIFFERENCE OF AXIAL-VECTOR AND VECTOR FORM FAC-
+TOR FOR K → e νe γ
+VALUE                         CL%           DOCUMENT ID               TECN
+<0.49                90    1 HEINTZE  79 SPEC
+ 1 HEINTZE 79 quotes F − F     √
+                      A   V < 11 FA + FV .
+FA − FV , DIFFERENCE OF AXIAL-VECTOR AND VECTOR FORM FAC-
+TOR FOR K → µ νµ γ
+VALUE                         CL%     EVTS           DOCUMENT ID                 TECN      CHG
+− 0.153± 0.033 OUR AVERAGE Error includes scale factor of 1.1.
+− 0.134± 0.021 ± 0.027          95k         KRAVTSOV         19 OKA +
+− 0.21 ± 0.06                   22k         DUK              11 ISTR −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.24 to 0.04                90      2588           ADLER              00B B787           +
+
+https://pdg.lbl.gov                          Page 46                     Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+− 2.2   to 0.6                90                     DEMIDOV            90     XEBC
+− 2.5   to 0.3                90                     AKIBA              85     SPEC
+
+
+                                     K ± CHARGE RADIUS
+
+VALUE (fm)                                  DOCUMENT ID               COMMENT
+0.560± 0.031 OUR AVERAGE
+0.580± 0.040                        AMENDOLIA 86B K e → K e
+0.530± 0.050                        DALLY           80 K e → K e
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.620± 0.037                                BLATNIK             79    VMD + dispersion relations
+
+
+             K + LONGITUDINAL POLARIZATION OF EMITTED µ+
+
+VALUE                       CL%           DOCUMENT ID                TECN      CHG    COMMENT
+<− 0.990               90        1 AOKI           94 SPEC +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<− 0.990                90          IMAZATO          92 SPEC +           Repl. by AOKI 94
+ − 0.970± 0.047                   2 YAMANAKA 86 SPEC +
+ − 1.0 ± 0.1                      2 CUTTS            69 SPRK +
+ − 0.96 ± 0.12                    2 COOMBES          57 CNTR +
+ 1 AOKI 94 measures ξP =− 0.9996 ± 0.0030 ± 0.0048. The above limit is obtained by
+                         µ
+   summing the statistical and systematic errors in quadrature, normalizing to the physically
+   signiﬁcant region ( ξPµ < 1) and assuming that ξ=1, its maximum value.
+ 2 Assumes ξ=1.
+
+
+             FORWARD-BACKWARD ASYMMETRY IN K ± DECAYS
+                      Γ(cos(θ      )>0)−Γ(cos(θ          )<0)
+AF B (K ±                Kµ           Kµ
+        π µ µ ) = Γ(cos(θ )>0)+Γ(cos(θ )<0)
+                               Kµ                 Kµ
+VALUE                         CL%           DOCUMENT ID               TECN      COMMENT
+<0.9 × 10−2             90        1 CORTINA-GIL 22A NA62 2017–18 data
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<2.3 × 10−2             90        2 BATLEY          11A NA48
+  1 CORTINA-GIL 22A measured the asymmetry A                               −2
+                                                   F B = (0.0 ± 0.7) × 10 . The quoted
+    90% C.L. was obtained via private communication and also presented at the Moriond
+    2023 conference. The authors will publish this limit in an addendum to the publication.
+  2 BATLEY 11A gives a corresponding value of the asymmetry A                          −2
+                                                                 F B = (− 2.4 ± 1.8)×10 .
+
+
+
+
+https://pdg.lbl.gov                         Page 47                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                       K ± REFERENCES
+CORTINA-GIL 25     JHEP 2502 191           E. Cortina Gil et al.                        (NA62 Collab.)
+ARTAMONOV 24       EPJ C84 345             A.V. Artamonov et al.                         (OKA Collab.)
+ARTAMONOV 24A      JETPL 120 554           A.V. Artamonov et al.                         (OKA Collab.)
+ASHRAF      24     PL B859 139122          M.U. Ashraf et al.                           (NA62 Collab.)
+BATLEY      24     JHEP 2403 137           J.R. Batley et al.                         (NA48/2 Collab.)
+CORTINA-GIL 24     PL B850 138513          E. Cortina Gil et al.                        (NA62 Collab.)
+CORTINA-GIL 23     PL B838 137679          E. Cortina Gil et al.                        (NA62 Collab.)
+CORTINA-GIL 23B    PL B846 138193          E. Cortina-Gil et al.                        (NA62 Collab.)
+CORTINA-GIL 23D    JHEP 2309 040           E. Cortina Gil et al.                        (NA62 Collab.)
+KOBAYASHI   23     PL B843 138020          A. Kobayashi et al.                   (J-PARC E36 Collab.)
+CORTINA-GIL 22     PL B830 137172          E. Cortina Gil et al.                        (NA62 Collab.)
+CORTINA-GIL 22A    JHEP 2211 011           E. Cortina Gil et al.                        (NA62 Collab.)
+ITO         22     PL B826 136913          H. Ito et al.                         (J-PARC E36 Collab.)
+ALIBERTI    21     PRL 127 131802          R. Aliberti et al.                           (NA62 Collab.)
+CORTINA-GIL 21     PL B816 136259          E. Cortina Gil et al.                        (NA62 Collab.)
+CORTINA-GIL 21B    JHEP 2106 093           E. Cortina Gil et al.                        (NA62 Collab.)
+POLYARUSH 21       EPJ C81 161             A.Yu. Polyarush et al.                        (OKA Collab.)
+CORTINA-GIL 20C    JHEP 2011 042           E. Cortina Gil et al.                        (NA62 Collab.)
+BATLEY      19     PL B788 552             J.R. Batley et al.                         (NA48/2 Collab.)
+CORTINA-GIL 19A    PL B797 134794          E. Cortina Gil et al.                        (NA62 Collab.)
+CORTINA-GIL 19B    PL B791 156             E. Cortina Gil et al.                        (NA62 Collab.)
+KRAVTSOV    19     EPJ C79 635             V.I. Kravtsov et al.                          (OKA Collab.)
+SHAPKIN     19     EPJ C79 296             M.M. Shapkin et al.                           (OKA Collab.)
+BATLEY      18     JHEP 1810 150           J.R. Batley et al.                         (NA48/2 Collab.)
+PDG         18     PR D98 030001           M. Tanabashi et al.                           (PDG Collab.)
+YUSHCHENKO 18      JETPL 107 139           O.P. Yushchenko et al.                        (OKA Collab.)
+BATLEY      17     PL B769 67              J.R. Batley et al.                         (NA48/2 Collab.)
+ARTAMONOV 16       PR D94 032012           A.V. Artamonov et al.                   (BNL E949 Collab.)
+BABUSCI     14B    PL B738 128             D. Babusci et al.               (KLOE and KLOE-2 Collab.)
+BATLEY      14     PL B730 141             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+BATLEY      14A    JHEP 1408 159           J.R. Batley et al.                  (CERN NA48/2 Collab.)
+LAZZERONI   14     PL B732 65              C. Lazzeroni et al.                   (CERN NA62 Collab.)
+UVAROV      14     PAN 77 725              V.A. Uvarov et al.                        (ISTRA+ Collab.)
+                   Translated from YAF 77 765.
+LAZZERONI  13      PL B719 326             C. Lazzeroni et al.                   (CERN NA62 Collab.)
+BATLEY     12      PL B715 105             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+PDG        12      PR D86 010001           J. Beringer et al.                            (PDG Collab.)
+BATLEY     11A     PL B697 107             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+DUK        11      PL B695 59              V.A. Duk et al.                           (ISTRA+ Collab.)
+LAZZERONI  11      PL B698 105             C. Lazzeroni et al.                   (CERN NA62 Collab.)
+ADLER      10      PR D81 092001           S. Adler et al.                         (BNL E787 Collab.)
+BATLEY     10A     EPJ C68 75              J.R. Batley et al.                  (CERN NA48/2 Collab.)
+BATLEY     10C     EPJ C70 635             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+PDG        10      JP G37 075021           K. Nakamura et al.                            (PDG Collab.)
+PISLAK     10A     PRL 105 019901E         S. Pislak et al.                        (BNL E865 Collab.)
+AKOPDZANOV 09      PAN 71 2074             G.A. Akopdzanov et al.                             (IHEP)
+                   Translated from YAF 71 2108.
+AMBROSINO    09E   EPJ C64 627             F. Ambrosino et al.                        (KLOE Collab.)
+    Also           EPJ C65 703 (errat.)    F. Ambrosino et al.                        (KLOE Collab.)
+BATLEY       09    PL B677 246             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+BATLEY       09A   EPJ C64 589             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+BISSEGGER    09    NP B806 178             M. Bissegger et al.
+AMBROSINO    08    JHEP 0801 073           F. Ambrosino et al.                         (KLOE Collab.)
+AMBROSINO    08A   JHEP 0802 098           F. Ambrosino et al.                         (KLOE Collab.)
+AMBROSINO    08E   PL B666 305             F. Ambrosino et al.                         (KLOE Collab.)
+ARTAMONOV    08    PRL 101 191802          A.V. Artamonov et al.                  (BNL E949 Collab.)
+    Also           PR D79 092004           A.V. Artamonov et al.                  (BNL E949 Collab.)
+BATLEY       08    PL B659 493             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+BATLEY       08A   EPJ C54 411             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+AKIMENKO     07    PAN 70 702              S.A. Akimenko et al.                     (ISTRA+ Collab.)
+                   Translated from YAF 70 734.
+ANDRE        07    ANP 322 2518            T. Andre                                            (EFI)
+BATLEY       07A   EPJ C50 329             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+    Also           EPJ C52 1021 (errat.) J.R. Batley et al.                    (CERN NA48/2 Collab.)
+BATLEY       07B   PL B649 349             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+BATLEY       07E   EPJ C52 875             J.R. Batley et al.                  (CERN NA48/2 Collab.)
+LAI          07A   PL B647 341             A. Lai et al.                         (CERN NA48 Collab.)
+TCHIKILEV    07    PAN 70 29               O.G. Tchikilev et al.                     (ISTRA+ Collab.)
+ALIEV        06    EPJ C46 61              M.A. Aliev et al.                       (KEK E470 Collab.)
+
+
+https://pdg.lbl.gov                        Page 48                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+AMBROSINO 06A       PL B632 76              F. Ambrosino et al.                         (KLOE Collab.)
+BATLEY       06     PL B634 474             J.R. Batley et al.                (CERN NA48/2 Collab.)
+BATLEY       06A    PL B638 22              J.R. Batley et al.                (CERN NA48/2 Collab.)
+   Also             PL B640 297 (errat.)    J.R. Batley et al.                (CERN NA48/2 Collab.)
+BATLEY       06B    PL B633 173             J.R. Batley et al.                (CERN NA48/2 Collab.)
+COLANGELO 06A       PL B638 187             G. Colangelo et al.
+MA           06     PR D73 037101           H. Ma et al.                          (BNL E865 Collab.)
+PDG          06     JP G33 1                W.-M. Yao et al.                             (PDG Collab.)
+SHIMIZU      06     PL B633 190             S. Shimizu et al.                     (KEK E470 Collab.)
+UVAROV       06     PAN 69 26               V.A. Uvarov et al.                       (ISTRA+ Collab.)
+AKOPDZHAN... 05     EPJ C40 343             G.A. Akopdzhanov et al.                             (IHEP)
+   Also             PAN 68 948              G.A. Akopdzhanov et al.                             (IHEP)
+                    Translated from YAF 68 986.
+AKOPDZHAN... 05B    JETPL 82 675            G.A. Akopdzhanov et al.                             (IHEP)
+                    Translated from ZETFP 82 771.
+ARTAMONOV 05        PL B623 192             A.V. Artamonov et al.                 (BNL E949 Collab.)
+CABIBBO       05    JHEP 0503 021           N. Cabibbo, G. Isidori            (CERN, ROMAI, FRAS)
+SHER          05    PR D72 012005           A. Sher et al.                        (BNL E865 Collab.)
+ABE           04F   PRL 93 131601           M. Abe et al.                         (KEK E246 Collab.)
+    Also            PR D73 072005           M. Abe et al.                         (KEK E246 Collab.)
+ADLER         04    PR D70 037102           S. Adler et al.                       (BNL E787 Collab.)
+ALOISIO       04A   PL B597 139             A. Aloisio et al.                           (KLOE Collab.)
+ANISIMOVSK... 04    PRL 93 031801           V.V. Anisimovsky et al.               (BNL E949 Collab.)
+    Also            PR D77 052003           S. Adler et al.                       (BNL E949 Collab.)
+CABIBBO       04A   PRL 93 121801           N. Cabibbo                                (CERN, ROMAI)
+CIRIGLIANO    04    EPJ C35 53              V. Cirigliano, H. Neufeld, H. Pichl          (CIT, VALE+)
+PDG           04    PL B592 1               S. Eidelman et al.                           (PDG Collab.)
+SHIMIZU       04    PR D70 037101           S. Shimizu et al.                     (KEK E470 Collab.)
+YUSHCHENKO 04       PL B581 31              O.P. Yushchenko et al.                      (INRM, INRM)
+YUSHCHENKO 04B      PL B589 111             O.P. Yushchenko et al.                             (INRM)
+AJINENKO      03    PAN 66 105              I.V. Ajinenko et al.                         (IHEP, INRM)
+                    Translated from YAF 66 107.
+AJINENKO      03B   PL B567 159             I.V. Ajinenko et al.                         (IHEP, INRM)
+AJINENKO      03C   PL B574 14              I.V. Ajinenko et al.                         (IHEP, INRM)
+ALIEV         03    PL B554 7               M.A. Aliev et al.                     (KEK E470 Collab.)
+ANISIMOVSK... 03    PL B562 166             V.V. Anisimovsky et al.
+PISLAK        03    PR D67 072004           S. Pislak et al.                      (BNL E865 Collab.)
+    Also            PR D81 119903E          S. Pislak et al.                      (BNL E865 Collab.)
+SHER          03    PRL 91 261802           A. Sher et al.                        (BNL E865 Collab.)
+ADLER         02    PRL 88 041803           S. Adler et al.                       (BNL E787 Collab.)
+ADLER         02B   PR D65 052009           S. Adler et al.                       (BNL E787 Collab.)
+ADLER         02C   PL B537 211             S. Adler et al.                       (BNL E787 Collab.)
+AJINENKO      02    PAN 65 2064             I.V. Ajinenko et al.                         (IHEP, INRM)
+                    Translated from YAF 65 2125.
+CIRIGLIANO    02    EPJ C23 121             V. Cirigliano et al.                (VIEN, VALE, MARS)
+PARK          02    PRL 88 111801           H.K. Park et al.                 (FNAL HyperCP Collab.)
+PDG           02    PR D66 010001           K. Hagiwara et al.                           (PDG Collab.)
+POBLAGUEV     02    PRL 89 061803           A.A. Poblaguev et al.                   (BNL 865 Collab.)
+ADLER         01    PR D63 032004           S. Adler et al.                       (BNL E787 Collab.)
+HORIE         01    PL B513 311             K. Horie et al.                       (KEK E426 Collab.)
+PISLAK        01    PRL 87 221801           S. Pislak et al.                      (BNL E865 Collab.)
+    Also            PR D67 072004           S. Pislak et al.                      (BNL E865 Collab.)
+    Also            PRL 105 019901E         S. Pislak et al.                      (BNL E865 Collab.)
+ADLER         00    PRL 84 3768             S. Adler et al.                       (BNL E787 Collab.)
+ADLER         00B   PRL 85 2256             S. Adler et al.                       (BNL E787 Collab.)
+ADLER         00C   PRL 85 4856             S. Adler et al.                       (BNL E787 Collab.)
+APPEL         00    PRL 85 2450             R. Appel et al.                         (BNL 865 Collab.)
+    Also            Thesis, Yale Univ.      D.R. Bergman
+    Also            Thesis, Univ. Zurich    S. Pislak
+APPEL         00B   PRL 85 2877             R. Appel et al.                         (BNL 865 Collab.)
+MA            00    PRL 84 2580             H. Ma et al.                            (BNL 865 Collab.)
+PDG           00    EPJ C15 1               D.E. Groom et al.                            (PDG Collab.)
+SHIMIZU       00    PL B495 33              S. Shimizu et al.                     (KEK E246 Collab.)
+ABE           99S   PRL 83 4253             M. Abe et al.                         (KEK E246 Collab.)
+AMOROS        99    JP G25 1607             G. Amoros, J. Bijnens                       (LUND, HELS)
+APPEL         99    PRL 83 4482             R. Appel et al.                         (BNL 865 Collab.)
+ADLER         98    PR D58 012003           S. Adler et al.                       (BNL E787 Collab.)
+BATUSOV       98    NP B516 3               V.Y. Batusov et al.
+DAMBROSIO     98A   JHEP 9808 004           G. D’Ambrosio et al.
+ADLER         97    PRL 79 2204             S. Adler et al.                       (BNL E787 Collab.)
+ADLER         97C   PRL 79 4756             S. Adler et al.                       (BNL E787 Collab.)
+BERGMAN       97    Thesis, Yale Univ.      D.R. Bergman
+
+
+https://pdg.lbl.gov                         Page 49                      Created: 6/1/2026 16:25
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+KITCHING        97    PRL 79 4079             P. Kitching et al.                     (BNL E787 Collab.)
+PISLAK          97    Thesis, Univ. Zurich    S. Pislak
+ADLER           96    PRL 76 1421             S. Adler et al.                        (BNL E787 Collab.)
+KOPTEV          95    JETPL 61 877            V.P. Koptev et al.                                  (PNPI)
+                      Translated from ZETFP 61 865.
+AOKI            94    PR D50 69               M. Aoki et al.                    (INUS, KEK, TOKMS)
+ATIYA           93    PRL 70 2521             M.S. Atiya et al.                      (BNL E787 Collab.)
+   Also               PRL 71 305 (errat.)     M.S. Atiya et al.                      (BNL E787 Collab.)
+ATIYA           93B   PR D48 1                M.S. Atiya et al.                      (BNL E787 Collab.)
+ALLIEGRO        92    PRL 68 278              C. Alliegro et al.                   (BNL, FNAL, PSI+)
+BARMIN          92    SJNP 55 547             V.V. Barmin et al.                                  (ITEP)
+                      Translated from YAF 55 976.
+IMAZATO         92    PRL 69 877              J. Imazato et al.                 (KEK, INUS, TOKY+)
+IVANOV          92    THESIS                  Yu.M. Ivanov                                        (PNPI)
+LITTENBERG      92    PRL 68 443              L.S. Littenberg, R.E. Shrock                 (BNL, STON)
+USHER           92    PR D45 3961             T. Usher et al.                                       (UCI)
+AKIMENKO        91    PL B259 225             S.A. Akimenko et al.               (SERP, JINR, TBIL+)
+BARMIN          91    SJNP 53 606             V.V. Barmin et al.                                  (ITEP)
+                      Translated from YAF 53 981.
+DENISOV         91    JETPL 54 558            A.S. Denisov et al.                                 (PNPI)
+                      Translated from ZETFP 54 557.
+   Also               THESIS                  Yu.M. Ivanov                                        (PNPI)
+ATIYA           90    PRL 64 21               M.S. Atiya et al.                      (BNL E787 Collab.)
+ATIYA           90B   PRL 65 1188             M.S. Atiya et al.                      (BNL E787 Collab.)
+DEMIDOV         90    SJNP 52 1006            V.S. Demidov et al.                                 (ITEP)
+                      Translated from YAF 52 1595.
+LEE             90    PRL 64 165              A.M. Lee et al.            (BNL, FNAL, VILL, WASH+)
+ATIYA           89    PRL 63 2177             M.S. Atiya et al.                      (BNL E787 Collab.)
+BARMIN          89    SJNP 50 421             V.V. Barmin et al.                                  (ITEP)
+                      Translated from YAF 50 679.
+BARMIN          88    SJNP 47 643             V.V. Barmin et al.                                  (ITEP)
+                      Translated from YAF 47 1011.
+BARMIN          88B   SJNP 48 1032            V.V. Barmin et al.                                  (ITEP)
+                      Translated from YAF 48 1719.
+BOLOTOV         88    JETPL 47 7              V.N. Bolotov et al.                                 (ASCI)
+                      Translated from ZETFP 47 8.
+GALL            88    PRL 60 186              K.P. Gall et al.             (BOST, MIT, WILL, CIT+)
+BARMIN          87    SJNP 45 62              V.V. Barmin et al.                                  (ITEP)
+                      Translated from YAF 45 97.
+BOLOTOV         87    SJNP 45 1023            V.N. Bolotov et al.                                (INRM)
+                      Translated from YAF 45 1652.
+AMENDOLIA       86B   PL B178 435             S.R. Amendolia et al.                (CERN NA7 Collab.)
+BOLOTOV         86    SJNP 44 73              V.N. Bolotov et al.                                (INRM)
+                      Translated from YAF 44 117.
+BOLOTOV         86B   SJNP 44 68              V.N. Bolotov et al.                                (INRM)
+                      Translated from YAF 44 108.
+YAMANAKA        86    PR D34 85               T. Yamanaka et al.                          (KEK, TOKY)
+   Also               PRL 52 329              R.S. Hayano et al.                          (TOKY, KEK)
+AKIBA           85    PR D32 2911             Y. Akiba et al.             (TOKY, TINT, TSUK, KEK)
+BOLOTOV         85    JETPL 42 481            V.N. Bolotov et al.                                (INRM)
+                      Translated from ZETFP 42 390.
+ASANO           82    PL 113B 195             Y. Asano et al.             (KEK, TOKY, INUS, OSAK)
+COOPER          82    PL 112B 97              A.M. Cooper et al.                                     (RL)
+PDG             82B   PL 111B 70              M. Roos et al.                        (HELS, CIT, CERN)
+ASANO           81B   PL 107B 159             Y. Asano et al.             (KEK, TOKY, INUS, OSAK)
+CAMPBELL        81    PRL 47 1032             M.K. Campbell et al.                          (YALE, BNL)
+   Also               PR D27 1056             S.R. Blatt et al.                             (YALE, BNL)
+LUM             81    PR D23 2522             G.K. Lum et al.                              (LBL, NBS+)
+LYONS           81    ZPHY C10 215            L. Lyons, C. Albajar, G. Myatt                       (OXF)
+DALLY           80    PRL 45 232              E.B. Dally et al.                                (UCLA+)
+BARKOV          79    NP B148 53              L.M. Barkov et al.                         (NOVO, KIAE)
+BLATNIK         79    LNC 24 39               S. Blatnik, J. Stahov, C.B. Lang           (TUZL, GRAZ)
+HEINTZE         79    NP B149 365             J. Heintze et al.                         (HEIDP, CERN)
+ABRAMS          77    PR D15 22               R.J. Abrams et al.                                   (BNL)
+DEVAUX          77    NP B126 11              B. Devaux et al.                            (SACL, GEVA)
+HEINTZE         77    PL 70B 482              J. Heintze et al.                         (HEIDP, CERN)
+ROSSELET        77    PR D15 574              L. Rosselet et al.                          (GEVA, SACL)
+BLOCH           76    PL 60B 393              P. Bloch et al.                             (GEVA, SACL)
+BRAUN           76B   LNC 17 521              H.M. Braun et al.               (AACH3, BARI, BELG+)
+DIAMANT-...     76    PL 62B 485              A.M. Diamant-Berger et al.                  (SACL, GEVA)
+HEINTZE         76    PL 60B 302              J. Heintze et al.                                 (HEIDP)
+SMITH           76    NP B109 173             K.M. Smith et al.                   (GLAS, LIVP, OXF+)
+WEISSENBE...    76    NP B115 55              A.O. Weissenberg et al.                      (ITEP, LEBD)
+BLOCH           75    PL 56B 201              P. Bloch et al.                             (SACL, GEVA)
+
+https://pdg.lbl.gov                           Page 50                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+BRAUN         75     NP B89 210                H.M. Braun et al.              (AACH3, BARI, BRUX+)
+CHENG         75     NP A254 381               S.C. Cheng et al.                         (COLU, YALE)
+HEARD         75     PL 55B 324                K.S. Heard et al.                       (CERN, HEIDH)
+HEARD         75B    PL 55B 327                K.S. Heard et al.                       (CERN, HEIDH)
+SHEAFF        75     PR D12 2570               M. Sheaﬀ                                           (WISC)
+SMITH         75     NP B91 45                 K.M. Smith et al.                  (GLAS, LIVP, OXF+)
+WEISSENBE... 74      PL 48B 474                A.O. Weissenberg et al.                    (ITEP, LEBD)
+ABRAMS        73B    PRL 30 500                R.J. Abrams et al.                                   (BNL)
+BACKENSTO... 73      PL 43B 431                G. Backenstoss et al.        (CERN, KARLK, KARLE+)
+LJUNG         73     PR D8 1307                D. Ljung, D. Cline                                 (WISC)
+     Also            PRL 28 523                D. Ljung                                           (WISC)
+     Also            PRL 28 1287               D. Cline, D. Ljung                                 (WISC)
+     Also            PRL 23 326                U. Camerini et al.                                 (WISC)
+LUCAS         73     PR D8 719                 P.W. Lucas, H.D. Taft, W.J. Willis                 (YALE)
+LUCAS         73B    PR D8 727                 P.W. Lucas, H.D. Taft, W.J. Willis                 (YALE)
+PANG          73     PR D8 1989                C.Y. Pang et al.                       (EFI, ARIZ, LBL)
+     Also            PL 40B 699                G.D. Cable et al.                              (EFI, LBL)
+SMITH         73     NP B60 411                K.M. Smith et al.                  (GLAS, LIVP, OXF+)
+ABRAMS        72     PRL 29 1118               R.J. Abrams et al.                                   (BNL)
+AUBERT        72     NC 12A 509                B. Aubert et al.                (ORSAY, BRUX, EPOL)
+CHIANG        72     PR D6 1254                I.H. Chiang et al.                       (ROCH, WISC)
+CLARK         72     PRL 29 1274               A.R. Clark et al.                                     (LBL)
+FORD          72     PL 38B 335                W.T. Ford et al.                                    (PRIN)
+HOFFMASTER 72        NP B36 1                  S. Hoﬀmaster et al.                (STEV, SETO, LEHI)
+BOURQUIN      71     PL 36B 615                M.H. Bourquin et al.                      (GEVA, SACL)
+HAIDT         71     PR D3 10                  D. Haidt            (AACH, BARI, CERN, EPOL, NIJM+)
+     Also            PL 29B 691                D. Haidt et al.          (AACH, BARI, CERN, EPOL+)
+KLEMS         71     PR D4 66                  J.H. Klems, R.H. Hildebrand, R. Stiening         (CHIC+)
+     Also            PRL 24 1086               J.H. Klems, R.H. Hildebrand, R. Stiening           (LRL+)
+     Also            PRL 25 473                J.H. Klems, R.H. Hildebrand, R. Stiening           (LRL+)
+OTT           71     PR D3 52                  R.J. Ott, T.W. Pritchard                          (LOQM)
+ROMANO        71     PL 36B 525                F. Romano et al.                 (BARI, CERN, ORSAY)
+SCHWEINB... 71       PL 36B 246                W. Schweinberger         (AACH, BELG, CERN, NIJM+)
+STEINER       71     PL 36B 521                H.J. Steiner      (AACH, BARI, CERN, EPOL, ORSAY+)
+BARDIN        70     PL 32B 121                D.Y. Bardin, S.N. Bilenky, B.M. Pontecorvo          (JINR)
+BECHERRAWY 70        PR D1 1452                T. Becherrawy                                     (ROCH)
+FORD          70     PRL 25 1370               W.T. Ford et al.                                    (PRIN)
+GAILLARD      70     CERN 70-14                J.M. Gaillard, L.M. Chounet             (CERN, ORSAY)
+GRAUMAN       70     PR D1 1277                J. Grauman et al.                  (STEV, SETO, LEHI)
+     Also            PRL 23 737                J.U. Grauman et al.                (STEV, SETO, LEHI)
+PANDOULAS 70         PR D2 1205                D. Pandoulas et al.                      (STEV, SETO)
+CUTTS         69     PR 184 1380               D. Cutts et al.                               (LRL, MIT)
+     Also            PRL 20 955                D. Cutts et al.                               (LRL, MIT)
+DAVISON       69     PR 180 1333               D.C. Davison et al.                                  (UCR)
+ELY           69     PR 180 1319               R.P.J. Ely et al.                   (LOUC, WISC, LRL)
+HERZO         69     PR 186 1403               D. Herzo et al.                                        (ILL)
+LOBKOWICZ 69         PR 185 1676               F. Lobkowicz et al.                        (ROCH, BNL)
+     Also            PRL 17 548                F. Lobkowicz et al.                        (ROCH, BNL)
+MAST          69     PR 183 1200               T.S. Mast et al.                                      (LRL)
+SELLERI       69     NC 60A 291                F. Selleri
+ZELLER        69     PR 182 1420               M.E. Zeller et al.                          (UCLA, LRL)
+BOTTERILL     68B    PRL 21 766                D.R. Botterill et al.                                (OXF)
+BOTTERILL     68C    PR 174 1661               D.R. Botterill et al.                                (OXF)
+BUTLER        68     UCRL 18420                W.D. Butler et al.                                    (LRL)
+CHANG         68     PRL 20 510                C.Y. Chang et al.                         (UMD, RUTG)
+CHEN          68     PRL 20 73                 M. Chen et al.                                (LRL, MIT)
+EICHTEN       68     PL 27B 586                T. Eichten        (AACH, BARI, CERN, EPOL, ORSAY+)
+ESCHSTRUTH 68        PR 165 1487               P.T. Eschstruth et al.                    (PRIN, PENN)
+GARLAND       68     PR 167 1225               R. Garland et al.                 (COLU, RUTG, WISC)
+MOSCOSO       68     Thesis                    L. Moscoso                                       (ORSAY)
+AUERBACH      67     PR 155 1505               L.B. Auerbach et al.                      (PENN, PRIN)
+     Also            PR D9 3216                L.B. Auerbach
+     Erratum.
+BELLOTTI      67     Heidelberg Conf.          E. Bellotti, A. Pullia                              (MILA)
+BELLOTTI      67B    NC 52A 1287               E. Bellotti, E. Fiorini, A. Pullia                  (MILA)
+     Also            PL 20 690                 E. Bellotti et al.                                  (MILA)
+BISI          67     PL 25B 572                V. Bisi et al.                                      (TORI)
+FLETCHER      67     PRL 19 98                 C.R. Fletcher et al.                                  (ILL)
+FORD          67     PRL 18 1214               W.T. Ford et al.                                    (PRIN)
+GINSBERG      67     PR 162 1570               E.S. Ginsberg                                      (MASB)
+KALMUS        67     PR 159 1187               G.E. Kalmus, A. Kernan                               (LRL)
+
+
+https://pdg.lbl.gov                         Page 51                       Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ZINCHENKO 67           Thesis Rutgers           A.I. Zinchenko                                  (RUTG)
+CALLAHAN         66    NC 44A 90                A.C. Callahan                                    (WISC)
+CALLAHAN         66B PR 150 1153                A.C. Callahan et al.                 (WISC, LRL, UCR+)
+CESTER           66    PL 21 343                R. Cester et al.                                  (PPA)
+     See footnote 1 in AUERBACH 67.
+     Also              PR 155 1505              L.B. Auerbach et al.                    (PENN, PRIN)
+BIRGE            65    PR 139 B1600             R.W. Birge et al.                         (LRL, WISC)
+BISI             65    NC 35 768                V. Bisi et al.                                  (TORI)
+BISI             65B PR 139 B1068               V. Bisi et al.                                  (TORI)
+CALLAHAN         65    PRL 15 129               A. Callahan, D. Cline                          (WISC)
+CLINE            65    PL 15 293                D. Cline, W.F. Fry                             (WISC)
+DEMARCO          65    PR 140 B1430             A. de Marco, C. Grosso, G. Rinaudo      (TORI, CERN)
+FITCH            65B PR 140 B1088               V.L. Fitch, C.A. Quarles, H.C. Wilkins        (PRIN+)
+STAMER           65    PR 138 B440              P. Stamer et al.                               (STEV)
+YOUNG            65    Thesis UCRL 16362        P.S. Young                                       (LRL)
+     Also              PR 156 1464              P.S. Young, W.Z. Osborne, W.H. Barkas            (LRL)
+BORREANI         64    PL 12 123                G. Borreani, G. Rinaudo, A.E. Werbrouck         (TORI)
+CALLAHAN         64    PR 136 B1463             A. Callahan, R. March, R. Stark                (WISC)
+GREINER          64    PRL 13 284               D.E. Greiner, W.Z. Osborne, W.H. Barkas          (LRL)
+SHAKLEE          64    PR 136 B1423             F.S. Shaklee et al.                            (MICH)
+BOYARSKI         62    PR 128 2398              A.M. Boyarski et al.                             (MIT)
+FERRO-LUZZI 61         NC 22 1087               M. Ferro-Luzzi et al.                            (LRL)
+ROE              61    PRL 7 346                B.P. Roe et al.                          (MICH, LRL)
+TAYLOR           59    PR 114 359               S. Taylor et al.                               (COLU)
+COOMBES          57    PR 108 1348              C.A. Coombes et al.                              (LBL)
+
+                                  OTHER RELATED PAPERS
+LITTENBERG 93        ARNPS 43 729             L.S. Littenberg, G. Valencia               (BNL, FNAL)
+   Rare and Radiative Kaon Decays
+RITCHIE       93     RMP 65 1149              J.L. Ritchie, S.G. Wojcicki
+   “Rare K Decays”
+BATTISTON     92     PRPL 214 293             R. Battiston et al.             (PGIA, CERN, TRSTT)
+   Status and Perspectives of K Decay Physics
+BRYMAN        89     IJMP A4 79               D.A. Bryman                                      (TRIU)
+   “Rare Kaon Decays”
+CHOUNET       72     PRPL 4C 199              L.M. Chounet, J.M. Gaillard, M.K. Gaillard   (ORSAY+)
+FEARING       70     PR D2 542                H.W. Fearing, E. Fischbach, J. Smith    (STON, BOHR)
+HAIDT         69B PL 29B 696                  D. Haidt et al.           (AACH, BARI, CERN, EPOL+)
+CRONIN        68B Vienna Conf. 241            J.W. Cronin                                      (PRIN)
+   Rapporteur talk.
+WILLIS        67     Heidelberg Conf. 273     W.J. Willis                                      (YALE)
+   Rapporteur talk.
+CABIBBO       66     Berkeley Conf. 33        N. Cabibbo                                      (CERN)
+ADAIR         64     PL 12 67                 R.K. Adair, L.B. Leipuner                  (YALE, BNL)
+CABIBBO       64     PL 9 352                 N. Cabibbo, A. Maksymowicz                      (CERN)
+   Also              PL 11 360                N. Cabibbo, A. Maksymowicz                      (CERN)
+   Also              PL 14 72                 N. Cabibbo, A. Maksymowicz                      (CERN)
+BIRGE         63     PRL 11 35                R.W. Birge et al.                   (LRL, WISC, BARI)
+BLOCK         62B CERN Conf. 371              M.M. Block, L. Lendinara, L. Monari     (NWES, BGNA)
+BRENE         61     NP 22 553                N. Brene, L. Egardt, B. Qvist                  (NORD)
+
+
+
+
+https://pdg.lbl.gov                          Page 52                      Created: 6/1/2026 16:25
+

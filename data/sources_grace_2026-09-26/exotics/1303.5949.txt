@@ -1,0 +1,491 @@
+                                                                                                                                                                    √
+                                          Observation of a charged charmoniumlike structure in e+ e− → π + π − J/ψ at                                                s = 4.26 GeV
+
+                                              M. Ablikim1 , M. N. Achasov6 , X. C. Ai1 , O. Albayrak3, D. J. Ambrose39 , F. F. An1 , Q. An40 , J. Z. Bai1 , R. Baldini
+                                          Ferroli17A , Y. Ban26 , J. Becker2 , J. V. Bennett16 , M. Bertani17A , J. M. Bian38 , E. Boger19,a , O. Bondarenko20, I. Boyko19 ,
+                                             R. A. Briere3 , V. Bytev19 , H. Cai44 , X. Cai1 , O. Cakir34A , A. Calcaterra17A , G. F. Cao1 , S. A. Cetin34B , J. F. Chang1 ,
+                                           G. Chelkov19,a, G. Chen1 , H. S. Chen1 , J. C. Chen1 , M. L. Chen1 , S. J. Chen24 , X. Chen26 , Y. B. Chen1 , H. P. Cheng14 ,
+                                             Y. P. Chu1 , D. Cronin-Hennessy38, H. L. Dai1 , J. P. Dai1 , D. Dedovich19, Z. Y. Deng1 , A. Denig18 , I. Denysenko19,b,
+                                        M. Destefanis43A,43C , W. M. Ding28 , Y. Ding22 , L. Y. Dong1 , M. Y. Dong1 , S. X. Du46 , J. Fang1 , S. S. Fang1 , L. Fava43B,43C ,
+                                            C. Q. Feng40 , P. Friedel2 , C. D. Fu1 , J. L. Fu24 , O. Fuks19,a , Q. Gao1 , Y. Gao33 , C. Geng40 , K. Goetzen7 , W. X. Gong1 ,
+                                             W. Gradl18 , M. Greco43A,43C , M. H. Gu1 , Y. T. Gu9 , Y. H. Guan36 , A. Q. Guo25 , L. B. Guo23 , T. Guo23 , Y. P. Guo25 ,
+                                        Y. L. Han1 , F. A. Harris37 , K. L. He1 , M. He1 , Z. Y. He25 , T. Held2 , Y. K. Heng1 , Z. L. Hou1 , C. Hu23 , H. M. Hu1 , J. F. Hu35 ,
+                                           T. Hu1 , G. M. Huang4 , G. S. Huang40 , J. S. Huang12 , L. Huang1, X. T. Huang28 , Y. Huang24, Y. P. Huang1, T. Hussain42 ,
+
+
+
+
+arXiv:1303.5949v2 [hep-ex] 7 May 2013
+                                        C. S. Ji40 , Q. Ji1 , Q. P. Ji25 , X. B. Ji1 , X. L. Ji1 , L. L. Jiang1 , X. S. Jiang1 , J. B. Jiao28 , Z. Jiao14 , D. P. Jin1 , S. Jin1 , F. F. Jing33 ,
+                                             N. Kalantar-Nayestanaki20, M. Kavatsyuk20 , B. Kopf2 , M. Kornicer37 , W. Kühn35 , W. Lai1 , J. S. Lange35, M. Lara16 ,
+                                            P. Larin11 , M. Leyhe2 , C. H. Li1 , Cheng Li40 , Cui Li40 , D. M. Li46 , F. Li1 , G. Li1 , H. B. Li1 , J. C. Li1 , K. Li10 , Lei Li1 ,
+                                         Q. J. Li1 , S. L. Li1 , W. D. Li1 , W. G. Li1 , X. L. Li28 , X. N. Li1 , X. Q. Li25 , X. R. Li27 , Z. B. Li32 , H. Liang40 , Y. F. Liang30 ,
+                                            Y. T. Liang35 , G. R. Liao33 , X. T. Liao1 , D. Lin11 , B. J. Liu1 , C. L. Liu3 , C. X. Liu1 , F. H. Liu29 , Fang Liu1 , Feng Liu4 ,
+                                         H. Liu1 , H. B. Liu9 , H. H. Liu13 , H. M. Liu1 , H. W. Liu1 , J. P. Liu44 , K. Liu33 , K. Y. Liu22 , Kai Liu36 , P. L. Liu28 , Q. Liu36 ,
+                                        S. B. Liu40 , X. Liu21 , Y. B. Liu25 , Z. A. Liu1 , Zhiqiang Liu1 , Zhiqing Liu1 , H. Loehner20, X. C. Lou1,c , G. R. Lu12 , H. J. Lu14 ,
+                                        J. G. Lu1 , Q. W. Lu29 , X. R. Lu36 , Y. P. Lu1 , C. L. Luo23 , M. X. Luo45 , T. Luo37 , X. L. Luo1 , M. Lv1 , C. L. Ma36 , F. C. Ma22 ,
+                                        H. L. Ma1 , Q. M. Ma1 , S. Ma1 , T. Ma1 , X. Y. Ma1 , F. E. Maas11 , M. Maggiora43A,43C , Q. A. Malik42 , Y. J. Mao26 , Z. P. Mao1 ,
+                                           J. G. Messchendorp20, J. Min1 , T. J. Min1 , R. E. Mitchell16 , X. H. Mo1 , Y. J. Mo10 , H. Moeini20 , C. Morales Morales11 ,
+                                           K. Moriya16 , N. Yu. Muchnoi6, H. Muramatsu39 , Y. Nefedov19, C. Nicholson36 , I. B. Nikolaev6 , Z. Ning1 , S. L. Olsen27 ,
+                                            Q. Ouyang1, S. Pacetti17B , J. W. Park27 , M. Pelizaeus2 , H. P. Peng40 , K. Peters7 , J. L. Ping23 , R. G. Ping1 , R. Poling38 ,
+                                           E. Prencipe18 , M. Qi24 , S. Qian1 , C. F. Qiao36 , L. Q. Qin28 , X. S. Qin1 , Y. Qin26 , Z. H. Qin1 , J. F. Qiu1 , K. H. Rashid42 ,
+                                               G. Rong1 , X. D. Ruan9 , A. Sarantsev19,d, B. D. Schaefer16 , M. Shao40 , C. P. Shen37,e , X. Y. Shen1 , H. Y. Sheng1,
+                                        M. R. Shepherd16, W. M. Song1 , X. Y. Song1 , S. Spataro43A,43C , B. Spruck35 , D. H. Sun1 , G. X. Sun1 , J. F. Sun12 , S. S. Sun1 ,
+                                               Y. J. Sun40 , Y. Z. Sun1 , Z. J. Sun1 , Z. T. Sun40 , C. J. Tang30 , X. Tang1 , I. Tapan34C , E. H. Thorndike39, D. Toth38 ,
+                                          M. Ullrich35 , I. Uman34B , G. S. Varner37, B. Q. Wang26 , D. Wang26 , D. Y. Wang26 , K. Wang1 , L. L. Wang1 , L. S. Wang1 ,
+                                          M. Wang28 , P. Wang1 , P. L. Wang1 , Q. J. Wang1 , S. G. Wang26 , X. F. Wang33 , X. L. Wang40 , Y. D. Wang17A , Y. F. Wang1 ,
+                                           Y. Q. Wang18 , Z. Wang1 , Z. G. Wang1 , Z. Y. Wang1 , D. H. Wei8 , J. B. Wei26 , P. Weidenkaff18 , Q. G. Wen40 , S. P. Wen1 ,
+                                             M. Werner35 , U. Wiedner2, L. H. Wu1 , N. Wu1 , S. X. Wu40 , W. Wu25 , Z. Wu1 , L. G. Xia33 , Y. X Xia15 , Z. J. Xiao23 ,
+                                          Y. G. Xie1 , Q. L. Xiu1 , G. F. Xu1 , G. M. Xu26 , Q. J. Xu10 , Q. N. Xu36 , X. P. Xu31 , Z. R. Xu40 , F. Xue4 , Z. Xue1 , L. Yan40 ,
+                                        W. B. Yan40 , Y. H. Yan15 , H. X. Yang1 , Y. Yang4 , Y. X. Yang8, H. Ye1 , M. Ye1 , M. H. Ye5 , B. X. Yu1 , C. X. Yu25 , H. W. Yu26 ,
+                                                J. S. Yu21 , S. P. Yu28 , C. Z. Yuan1 , Y. Yuan1 , A. A. Zafar42 , A. Zallo17A , S. L. Zang24 , Y. Zeng15 , B. X. Zhang1,
+                                               B. Y. Zhang1 , C. Zhang24 , C. C. Zhang1, D. H. Zhang1, H. H. Zhang32, H. Y. Zhang1, J. Q. Zhang1, J. W. Zhang1,
+                                         J. Y. Zhang1, J. Z. Zhang1 , LiLi Zhang15, R. Zhang36, S. H. Zhang1, X. J. Zhang1, X. Y. Zhang28 , Y. Zhang1, Y. H. Zhang1 ,
+                                         Z. P. Zhang40 , Z. Y. Zhang44 , Zhenghao Zhang4, G. Zhao1 , H. S. Zhao1 , J. W. Zhao1 , K. X. Zhao23 , Lei Zhao40 , Ling Zhao1 ,
+                                               M. G. Zhao25 , Q. Zhao1 , S. J. Zhao46 , T. C. Zhao1 , X. H. Zhao24 , Y. B. Zhao1 , Z. G. Zhao40, A. Zhemchugov19,a,
+                                          B. Zheng41, J. P. Zheng1, Y. H. Zheng36 , B. Zhong23, L. Zhou1 , X. Zhou44 , X. K. Zhou36, X. R. Zhou40, C. Zhu1 , K. Zhu1 ,
+                                           K. J. Zhu1 , S. H. Zhu1 , X. L. Zhu33 , Y. C. Zhu40 , Y. M. Zhu25 , Y. S. Zhu1 , Z. A. Zhu1 , J. Zhuang1, B. S. Zou1 , J. H. Zou1
+                                                                                                      (BESIII Collaboration)
+                                                                   1
+                                                                    Institute of High Energy Physics, Beijing 100049, People’s Republic of China
+                                                                               2
+                                                                                 Bochum Ruhr-University, D-44780 Bochum, Germany
+                                                                        3
+                                                                          Carnegie Mellon University, Pittsburgh, Pennsylvania 15213, USA
+                                                                 4
+                                                                   Central China Normal University, Wuhan 430079, People’s Republic of China
+                                                        5
+                                                          China Center of Advanced Science and Technology, Beijing 100190, People’s Republic of China
+                                                             6
+                                                                G.I. Budker Institute of Nuclear Physics SB RAS (BINP), Novosibirsk 630090, Russia
+                                                              7
+                                                                GSI Helmholtzcentre for Heavy Ion Research GmbH, D-64291 Darmstadt, Germany
+                                                                     8
+                                                                       Guangxi Normal University, Guilin 541004, People’s Republic of China
+                                                                        9
+                                                                          GuangXi University, Nanning 530004, People’s Republic of China
+                                                                                                                           2
+
+                10
+               Hangzhou Normal University, Hangzhou 310036, People’s Republic of China
+       11
+          Helmholtz Institute Mainz, Johann-Joachim-Becher-Weg 45, D-55099 Mainz, Germany
+              12
+                   Henan Normal University, Xinxiang 453007, People’s Republic of China
+     13
+        Henan University of Science and Technology, Luoyang 471003, People’s Republic of China
+                 14
+                     Huangshan College, Huangshan 245000, People’s Republic of China
+                   15
+                       Hunan University, Changsha 410082, People’s Republic of China
+                            16
+                                Indiana University, Bloomington, Indiana 47405, USA
+                      17
+                           (A)INFN Laboratori Nazionali di Frascati, I-00044, Frascati,
+                     Italy; (B)INFN and University of Perugia, I-06100, Perugia, Italy
+18
+   Johannes Gutenberg University of Mainz, Johann-Joachim-Becher-Weg 45, D-55099 Mainz, Germany
+            19
+                Joint Institute for Nuclear Research, 141980 Dubna, Moscow region, Russia
+              20
+                   KVI, University of Groningen, NL-9747 AA Groningen, The Netherlands
+                   21
+                       Lanzhou University, Lanzhou 730000, People’s Republic of China
+                  22
+                      Liaoning University, Shenyang 110036, People’s Republic of China
+              23
+                  Nanjing Normal University, Nanjing 210023, People’s Republic of China
+                    24
+                        Nanjing University, Nanjing 210093, People’s Republic of China
+                     25
+                         Nankai University, Tianjin 300071, People’s Republic of China
+                     26
+                          Peking University, Beijing 100871, People’s Republic of China
+                                27
+                                   Seoul National University, Seoul, 151-747 Korea
+                    28
+                         Shandong University, Jinan 250100, People’s Republic of China
+                     29
+                         Shanxi University, Taiyuan 030006, People’s Republic of China
+                   30
+                       Sichuan University, Chengdu 610064, People’s Republic of China
+                    31
+                        Soochow University, Suzhou 215006, People’s Republic of China
+               32
+                   Sun Yat-Sen University, Guangzhou 510275, People’s Republic of China
+                   33
+                        Tsinghua University, Beijing 100084, People’s Republic of China
+         34
+            (A)Ankara University, Dogol Caddesi, 06100 Tandogan, Ankara, Turkey; (B)Dogus
+            University, 34722 Istanbul, Turkey; (C)Uludag University, 16059 Bursa, Turkey
+                                35
+                                   Universität Giessen, D-35392 Giessen, Germany
+      36
+         University of Chinese Academy of Sciences, Beijing 100049, People’s Republic of China
+                             37
+                                 University of Hawaii, Honolulu, Hawaii 96822, USA
+                      38
+                          University of Minnesota, Minneapolis, Minnesota 55455, USA
+                         39
+                              University of Rochester, Rochester, New York 14627, USA
+     40
+        University of Science and Technology of China, Hefei 230026, People’s Republic of China
+             41
+                 University of South China, Hengyang 421001, People’s Republic of China
+                               42
+                                   University of the Punjab, Lahore-54590, Pakistan
+                43
+                    (A)University of Turin, I-10125, Turin, Italy; (B)University of Eastern
+                  Piedmont, I-15121, Alessandria, Italy; (C)INFN, I-10125, Turin, Italy
+                     44
+                          Wuhan University, Wuhan 430072, People’s Republic of China
+                  45
+                      Zhejiang University, Hangzhou 310027, People’s Republic of China
+                46
+                    Zhengzhou University, Zhengzhou 450001, People’s Republic of China
+            a
+             Also at the Moscow Institute of Physics and Technology, Moscow 141700, Russia
+        b
+            On leave from the Bogolyubov Institute for Theoretical Physics, Kiev 03680, Ukraine
+                 c
+                   Also at University of Texas at Dallas, Richardson, Texas 75083, USA
+                              d
+                                Also at the PNPI, Gatchina 188300, Russia
+                    e
+                       Present address: Nagoya University, Nagoya 464-8601, Japan
+                                             (Dated: November 27, 2024)
+     We study the process e+ e− → π + π − J/ψ at a center-of-mass energy of 4.260 GeV using a 525 pb−1 data
+  sample collected with the BESIII detector operating at the Beijing Electron Positron Collider. The Born cross
+  section is measured to be (62.9 ± 1.9 ± 3.7) pb, consistent with the production of the Y (4260). We observe a
+  structure at around 3.9 GeV/c2 in the π ± J/ψ mass spectrum, which we refer to as the Zc (3900). If interpreted
+  as a new particle, it is unusual in that it carries an electric charge and couples to charmonium. A fit to the π ± J/ψ
+  invariant mass spectrum, neglecting interference, results in a mass of (3899.0 ± 3.6 ± 4.9) MeV/c2 and a width
+                                                                                                                                      3
+                                                                                       + −    ±         ∓    +   −
+              of (46 ± 10 ± 20) MeV. Its production ratio is measured to be R = σ(e e →π            Zc (3900) →π π J/ψ))
+                                                                                                σ(e+ e− →π + π − J/ψ)
+                                                                                                                         =
+              (21.5 ± 3.3 ± 7.5)%. In all measurements the first errors are statistical and the second are systematic.
+
+              PACS numbers: 14.40.Rt, 14.40.Pq, 13.66.Bc
+
+
+   Since its discovery in the initial-state-radiation (ISR) pro-         For e+ e− → π + π − J/ψ events, the J/ψ candidate is re-
+cess e+ e− → γISR π + π − J/ψ [1], and despite its subsequent         constructed with lepton pairs (e+ e− or µ+ µ− ). Since this de-
+observations [2–5], the nature of the Y (4260) state has re-          cay results in a final state with four charged particles, we first
+mained a mystery. Unlike other charmonium states with the             select events with four good charged tracks with net charge
+same quantum numbers and in the same mass region, such                zero. For each charged track, the polar angle in the MDC must
+as the ψ(4040), ψ(4160), and ψ(4415), the Y (4260) state              satisfy | cos θ| < 0.93, and the point of closest approach to the
+does not have a natural place within the quark model of               e+ e− interaction point must be within ±10 cm in the beam di-
+charmonium [6]. Furthermore, while being well above the               rection and within 1 cm in the plane perpendicular to the beam
+DD̄ threshold, the Y (4260) shows strong coupling to the              direction. Since pions and leptons are kinematically well sep-
+π + π − J/ψ final state [7], but relatively small coupling to open    arated in this decay, charged tracks with momenta larger than
+charm decay modes [8–12]. These properties perhaps indicate           1.0 GeV/c in the lab frame are assumed to be leptons, and
+that the Y (4260) state is not a conventional state of charmo-        the others are assumed to be pions. We use the energy de-
+nium [13].                                                            posited in the EMC to separate electrons from muons. For
+   A similar situation has recently become apparent in the bot-       muon candidates, the deposited energy in the EMC should be
+tomonium system above the B B̄ threshold, where there are in-         less than 0.35 GeV; while for electrons, it should be larger
+dications of anomalously large couplings between the Υ(5S)            than 1.1 GeV. The efficiencies of these requirements are de-
+state (or perhaps an unconventional bottomonium state with            termined from MC simulation to be above 99% in the EMC
+similar mass, the Yb (10890)) and the π + π − Υ(1S, 2S, 3S)           sensitive region.
+and π + π − hb (1P, 2P ) final states [14, 15]. More sur-                In order to reject radiative Bhabha and radiative dimuon
+prisingly, substructure in these π + π − Υ(1S, 2S, 3S) and            (γe+ e− /γµ+ µ− ) backgrounds associated with a photon-
+π + π − hb (1P, 2P ) decays indicates the possible existence of       conversion, the cosine of the opening angle of the pion can-
+charged bottomoniumlike states [16], which must have at least         didates, which are true e+ e− pairs in the case of background,
+four constituent quarks to have a non-zero electric charge,           is required to be less than 0.98. In the e+ e− mode, the same
+rather than the two in a conventional meson. By analogy,              requirement is imposed on the π ± e∓ opening angles. This
+this suggests there may exist interesting substructure in the         restriction removes less than 1% of the signal events.
+Y (4260) → π + π − J/ψ process in the charmonium region.                 The lepton pair and the two pions are subjected to a
+   In this Letter, we present a study of the process
+                                               √     e+ e− →          four-constraint (4C) kinematic fit to the total initial four-
+ + −                                                                  momentum of the colliding beams in order to improve the mo-
+π π J/ψ at a center-of-mass (CM) energy of s = (4.260±
+0.001) GeV, which corresponds to the peak of the Y (4260)             mentum resolution and reduce the background. The χ2 of the
+cross section. We observe a charged structure in the π ± J/ψ          kinematic fit is required to be less than 60.
+invariant mass spectrum, which we refer to as the Zc (3900).             After imposing these selection criteria, the invariant mass
+The analysis is performed with a 525 pb−1 data sample col-            distributions of the lepton pairs are shown in Fig. 1. A clear
+lected with the BESIII detector, which is described in de-            J/ψ signal is observed in both the e+ e− and µ+ µ− modes.
+tail in Ref. [17]. In the studies presented here, we rely             There are still remaining e+ e− → π + π − π + π − , and other
+only on charged particle tracking in the main drift cham-             QED backgrounds, but these can be estimated using the events
+ber (MDC) and energy deposition in the electromagnetic                in the J/ψ mass sideband. The final selection efficiency is
+calorimeter (EMC).                                                    53.8 ± 0.3% for µ+ µ− events and 38.4 ± 0.3% for e+ e−
+   The GEANT 4-based Monte Carlo (MC) simulation soft-                events, where the errors are from the statistics of the MC
+ware, which includes the geometric description of the BE-             sample. The main factors affecting the detection efficiencies
+SIII detector and the detector response, is used to optimize          include the detector acceptances for four charged tracks and
+the event selection criteria, determine the detection efficiency,     the requirement on the quality of the kinematic fit adopted.
+and estimate backgrounds. For the signal process, we use a            The lower efficiency for e+ e− events is due to final-state-
+sample of e+ e− → π + π − J/ψ MC events generated assum-              radiation (FSR), bremsstrahlung energy loss of e+ e− pairs
+ing the π + π − J/ψ is produced via Y (4260) decays, and using        and the EMC deposit energy requirement.
+the e+ e− → π + π − J/ψ cross sections measured by Belle [3]             To extract the number of π + π − J/ψ signal events, invariant
+and BaBar [5]. The π + π − J/ψ substructure is modelled ac-           mass distributions of the lepton pairs are fit using the sum of
+cording to the experimentally observed Dalitz plot distribution       two Gaussian functions with a linear background term. The
+presented in this analysis. ISR is simulated with KKMC [18]           fits yield M (J/ψ) = 3098.4 ± 0.2 MeV/c2 with 882 ± 33
+with a maximum energy of 435 MeV for the ISR photon, cor-             signal events in the µ+ µ− mode; and M (J/ψ) = 3097.9 ±
+responding to a π + π − J/ψ mass of 3.8 GeV/c2 .                      0.3 MeV/c2 with 595 ± 28 signal events in the e+ e− mode.
+                                                                                                                                               4
+
+
+
+
+        Events / 0.002 GeV/c2                                             Events / 0.002 GeV/c2
+                                160                                                               120
+                                                           Data                                                                Data
+                                140                        Fit                                                                 Fit
+                                                           Background
+                                                                                                  100                          Background
+                                120
+                                100                                                               80
+                                80                                                                60
+                                60
+                                                                                                  40
+                                40
+                                20                                                                20
+
+                                 0                                                                 0
+                                  3   3.05   3.1       3.15         3.2                             3   3.05   3.1          3.15        3.2
+                                                   M(µ+µ-) (GeV/c2)                                                     +
+                                                                                                                     M(e e-) (GeV/c2)
+
+FIG. 1: The distributions of M (µ+ µ− ) (left panel) and M (e+ e− ) (right panel) after performing a 4C kinematic fit and imposing all selection
+criteria. Dots with error bars are data and the curves are the best fit described in the text.
+
+
+
+Here the errors are statistical only. The mass resolution is                    range.
+3.7 MeV/c2 in the µ+ µ− mode and 4.0 MeV/c2 in the e+ e−                           Uncertainties in the Y (4260) resonance parameters and
+mode.                                                                           possible distortions of the Y (4260) line shape introduce small
+   The Born cross section is determined from the relation                       systematic uncertainties in the radiative correction factor and
+            N fit
+σ B = Lint (1+δ)ǫB  , where N fit is the number of signal events                the efficiency. This is estimated using the different line shapes
+from the fit; Lint is the integrated luminosity; ǫ is the selection             measured by Belle [3] and BaBar [5]. The difference in
+efficiency obtained from a MC simulation; B is the branching                    (1 + δ) · ǫ is 0.6% in both the e+ e− and µ+ µ− modes, and
+fraction of J/ψ → ℓ+ ℓ− ; and (1+δ) is the radiative correction                 this is taken as a systematic error.
+factor, which is 0.818 according to a QED calculation [19].                        We use the observed Dalitz plot to generate Y (4260) →
+The measured Born cross section for e+ e− → π + π − J/ψ is                      π + π − J/ψ events. To cover possible modelling inaccuracies,
+(64.4 ± 2.4) pb in the µ+ µ− mode and (60.7 ± 2.9) pb in                        we conservatively take the difference between the efficiency
+the e+ e− mode. The combined measurement is σ B (e+ e− →                        using this model and the efficiency using a phase space model
+π + π − J/ψ) = (62.9 ± 1.9) pb.                                                 as a systematic error. The error is 3.1% in both the µ+ µ− and
+   Systematic errors in the cross section measurement come                      the e+ e− modes.
+from the luminosity measurement, tracking efficiency, kine-                        The uncertainty in B(J/ψ → ℓ+ ℓ− ) is 1% [21]. The trigger
+matic fit, background estimation, dilepton branching fractions                  simulation, the event start time determination, and the final-
+of the J/ψ, and Y (4260) decay dynamics.                                        state-radiation simulation are well-understood; the total sys-
+   The integrated luminosity of this data sample was measured                   tematic error due to these sources is estimated to be less than
+using large angle Bhabha events, and has an estimated uncer-                    1%.
+tainty of 1.0%. The tracking efficiency uncertainty is esti-                       Assuming all of the sources are independent, the total sys-
+mated to be 1% for each track from a study of the control                       tematic error in the π + π − J/ψ cross section measurement is
+samples J/ψ → π + π − π 0 and ψ(3686) → π + π − J/ψ. Since                      determined to be 5.9% for the µ+ µ− mode and 6.8% for the
+the luminosity is measured using Bhabha events, the tracking                    e+ e− mode. Taking the correlations in errors between the two
+efficiency uncertainty of high momentum lepton pairs partly                     modes into account, the combined systematic error is slightly
+cancels in the calculation of the π + π − J/ψ cross section. To                 less than 5.9%.
+be conservative, we take 4% for both the e+ e− and µ+ µ−                           Intermediate states are studied by examining the Dalitz plot
+modes.                                                                          of the selected π + π − J/ψ candidate events. The J/ψ signal
+   The uncertainty from the kinematic fit comes from the                        is selected using 3.08 < M (ℓ+ ℓ− ) < 3.12 GeV/c2 and the
+inconsistency between the data and MC simulation of the                         sideband using 3.00 < M (ℓ+ ℓ− ) < 3.06 GeV/c2 or 3.14 <
+track helix parameters. Following the procedure described in                    M (ℓ+ ℓ− ) < 3.20 GeV/c2 , which is three times the size of
+Ref. [20], we take the difference between the efficiencies with                 the signal region. In total, a sample of 1595 π + π − J/ψ events
+and without the helix parameter correction as the systematic                    with a purity of 90% is obtained.
+error, which is 2.2% in the µ+ µ− mode and 2.3% in the e+ e−                       Figure 2 shows the Dalitz plot of events in the J/ψ signal
+mode.                                                                           region, where there are structures in the π + π − system and ev-
+   Uncertainties due to the choice of background shape and fit                  idence for an exotic charmoniumlike structure in the π ± J/ψ
+range are estimated by varying the background function from                     system. The inset shows background events from J/ψ mass
+linear to a second-order polynomial and by extending the fit                    sidebands (not normalized), where no obvious structures are
+                                                                                                                                            5
+
+                                                                          5   goodness-of-the-fit is found to be χ2 /ndf = 32.6/37 = 0.9.
+
+
+
+
+  M2(π+π-) (GeV/c2)2
+                                               1.5                   3
+                       1.6
+                       1.4
+                                                 1                   2           The number of Zc (3900) events is determined to be
+                                                                          4
+                                               0.5                   1
+                                                                              N (Zc (3900)± ) = 307±48. The production ratio is calculated
+                       1.2                                                                   + −    ±
+                                                                                                      Zc (3900)∓ →π + π − J/ψ)
+                                                0                    0
+                                                                              to be R = σ(e e →π σ(e+ e− →π + π − J/ψ)         = (21.5±3.3)%,
+                         1                      10   12   14   16         3
+                                                                              where the efficiency correction has been applied. The statisti-
+                       0.8                                                    cal significance is calculated by comparing the fit likelihoods
+                                                                          2
+                       0.6                                                    with and without the signal. Besides the nominal fit, the fit is
+                       0.4                                                    also performed by changing the fit range, the signal shape, or
+                                                                          1   the background shape. In all cases, the significance is found
+                       0.2
+                                                                              to be greater than 8σ.
+                        0                                                 0
+                        10   11 12 13 14 15 16 17 18 19 20                       Fitting the M (π + J/ψ) and M (π − J/ψ) distributions sep-
+                                          M (π J/ψ) (GeV/c )
+                                           2     +                  2 2
+                                                                              arately, one obtains masses, widths, and production rates of
+                                                                              the Zc (3900)+ and Zc (3900)− that agree with each other
+FIG. 2: Dalitz distributions of M 2 (π + π − ) vs. M 2 (π + J/ψ) for          within statistical errors. Dividing the sample into two dif-
+selected e+ e− → π + π − J/ψ events in the J/ψ signal region. The             ferent M (π + π − ) regions (below and above M 2 (π + π − ) =
+inset shows background events from the J/ψ mass sidebands (not                0.7 GeV2 /c4 ) allows us to check the robustness of the
+normalized).
+                                                                              Zc (3900) signal in the presence of two different sets of inter-
+                                                                              fering π + π − J/ψ amplitudes. In both samples, the Zc (3900)
+                                                                              is significant and the observed mass can shift by as much
+observed.                                                                     as 14 ± 5 MeV/c2 from the nominal fit, and the width can
+   Figure 3 shows the projections of the M (π + J/ψ),                         shift by 20 ± 11 MeV. We attribute the systematic shifts
+M (π − J/ψ), and M (π + π − ) distributions for the signal                    in mass and width to interference between the Zc (3900)π
+events, as well as the background events estimated from nor-                  and (π + π − )J/ψ amplitudes. In fitting the π ± J/ψ projec-
+malized J/ψ mass sidebands. In the π ± J/ψ mass spectrum,                     tion of the Dalitz plot, our analysis averages over the en-
+there is a significant peak at around 3.9 GeV/c2 (referred to                 tire π + π − spectrum, and our measurement of the Zc (3900)
+as the Zc (3900) hereafter). The wider peak at low mass is a                  mass, width, and production fraction neglects interference
+reflection of the Zc (3900) as indicated from MC simulation,                  with other π + π − J/ψ amplitudes.
+and shown in Fig. 3. Similar structures are observed in the                      The systematic errors for the resonance parameters of the
+e+ e− and µ+ µ− separated samples.                                            Zc (3900) come from the mass calibration, parametrization
+   The π + π − mass spectrum shows non-trivial structure. To                  of the signal and background shapes, and the mass resolu-
+test the possible effects of dynamics in the π + π − mass spec-               tion. The uncertainty from the mass calibration can be esti-
+trum on the π ± J/ψ projection, we develop a parameterization                 mated using the difference between the measured and known
+for the π + π − mass spectrum that includes a f0 (980), σ(500),               J/ψ masses (reconstructed from e+ e− and µ+ µ− ) and D0
+and a non-resonant amplitude. An MC sample generated with                     masses (reconstructed from K − π + ). The differences are
+this parameterization adequately describes the π + π − spec-                  (1.4 ± 0.2) MeV/c2 and −(0.7 ± 0.2) MeV/c2 , respectively.
+trum, as shown in Fig. 3, but does not generate any peak-                     Since our signal topology has one low momentum pion, as
+ing structure in the π ± J/ψ projection consistent with the                   in D0 decay, and a pair of high momentum tracks from the
+Zc (3900). We have also tested D-wave π + π − amplitudes,                     J/ψ decay, we assume these differences added in quadrature
+which are not apparent in the data, and they, also, do not gen-               is the systematic error of the Zc (3900) mass measurement
+erate peaks in the π ± J/ψ spectrum.                                          due to tracking. Doing a fit by assuming a P-wave between
+   An unbinned maximum likelihood fit is applied to the                       the Zc (3900) and the π, and between the J/ψ and π in the
+distribution of Mmax (π ± J/ψ), the larger one of the two                     Zc (3900) system, yields a mass difference of 2.1 MeV/c2 ,
+mass combinations M (π + J/ψ) and M (π − J/ψ) in each                         a width difference of 3.7 MeV, and production ratio differ-
+event. The signal shape is parameterized as an S-wave Breit-                  ence of 2.6% absolute. Assuming the Zc (3900) couples
+Wigner (BW) function convolved with a Gaussian with a mass                    strongly with DD̄∗ results in an energy dependence of the
+resolution fixed at the MC simulated value (4.2 MeV/c2 ). The                 total width [22], and the fit yields a difference of 2.1 MeV/c2
+phase space factor p·q is considered in the partial width, where              for mass, 15.4 MeV for width, and no change for the pro-
+p is the Zc (3900) momentum in the Y (4260) CM frame and q                    duction ratio. We estimate the uncertainty due to the back-
+is the J/ψ momentum in the Zc (3900) CM frame. The back-                      ground shape by changing to a third-order polynomial or a
+ground shape is parameterized as a/(x−3.6)b +c+dx, where                      phase space shape, varying the fit range, and varying the re-
+a, b, c, and d are free parameters and x = Mmax (π ± J/ψ).                    quirements on the χ2 of the kinematic fit. We find differences
+The efficiency curve is considered in the fit and the possi-                  of 3.5 MeV/c2 for mass, 12.1 MeV for width, and 7.1% abso-
+ble interference between the signal and background is ne-                     lute for the production ratio. Uncertainties due to the mass
+glected. Figure 4 shows the fit results; the fit yields a mass of             resolution are estimated by increasing the resolution deter-
+(3899.0 ± 3.6) MeV/c2 , and a width of (46 ± 10) MeV. The                     mined by MC simulations by 16%, which is the difference
+                                                                                                                                                                                                                        6
+
+                                                               Data                                                                  Data                                 120
+                          100                                                                       100                                                                           data
+
+
+
+
+   Events / 0.02 GeV/c2                                                      Events / 0.02 GeV/c2                                                  Events / 0.02 GeV/c2
+                                                               MC                                                                    MC
+                                                               Zc(3900) MC                                                           Zc(3900) MC                          100     MC
+                             80                                                                     80                                                                            Zc(3900) MC
+                                                               Sideband                                                              Sideband
+                                                                                                                                                                          80      Sideband
+                             60                                                                     60
+                                                                                                                                                                          60
+                             40                                                                     40
+                                                                                                                                                                          40
+                             20                                                                     20                                                                    20
+
+                              0                                                                      0                                                                     0
+                              3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 4   4.1 4.2                            3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 4   4.1 4.2                           0.2   0.4      0.6   0.8   1     1.2   1.4
+                                         M(π J/ψ) (GeV/c )
+                                              +            2
+                                                                                                                M(π J/ψ) (GeV/c )
+                                                                                                                    -            2
+                                                                                                                                                                                         M(π+π-) (GeV/c2)
+
+
+FIG. 3: One dimensional projections of the M (π + J/ψ), M (π − J/ψ), and M (π + π − ) invariant mass distributions in e+ e− → π + π − J/ψ
+for data in the J/ψ signal region (dots with error bars), data in the J/ψ sideband region (shaded histograms), and MC simulation results from
+σ(500), f0 (980) and non-resonant π + π − amplitudes (red dot-dashed histograms). The pink blank histograms show a MC simulation of the
+Zc (3900) signal with arbitrary normalization.
+
+
+
+                                                                                                                         quark. Similar studies were performed in B decays, with un-
+                                                                                          Data
+                             100                                                                                         confirmed structures reported in the π ± ψ(3686) and π ± χc1
+
+
+
+
+      Events / 0.01 GeV/c2
+                                                                                          Total fit
+                                                                                          Background fit
+                                                                                                                         systems [23–26]. It is also noted that model-dependent calcu-
+                                  80                                                      PHSP MC
+                                                                                                                         lations exist that attempt to explain the charged bottomonium-
+                                                                                          Sideband
+                                                                                                                         like structures which may also apply to the charmoniumlike
+                                  60                                                                                     structures, and there were model predictions of charmonium-
+                                                                                                                         like structures near the DD̄∗ and D∗ D̄∗ thresholds [27].
+                                  40
+                                                                                                                            The BESIII collaboration thanks the staff of BEPCII and
+                                  20
+                                                                                                                         the computing center for their hard efforts. This work is sup-
+                                                                                                                         ported in part by the Ministry of Science and Technology of
+                                   0                                                                                     China under Contract No. 2009CB825200; National Nat-
+                                        3.7          3.8          3.9                         4.0                        ural Science Foundation of China (NSFC) under Contracts
+                                                  Mmax(π±J/ψ) (GeV/c2)                                                   Nos. 10625524, 10821063, 10825524, 10835001, 10935007,
+                                                                                                                         11125525, 11235011; Joint Funds of the National Natural Sci-
+FIG. 4: Fit to the Mmax (π ± J/ψ) distribution as described in the                                                       ence Foundation of China under Contracts Nos. 11079008,
+text. Dots with error bars are data; the red solid curve shows the total                                                 11179007; the Chinese Academy of Sciences (CAS) Large-
+fit, and the blue dotted curve the background from the fit; the red dot-                                                 Scale Scientific Facility Program; CAS under Contracts Nos.
+dashed histogram shows the result of a phase space MC simulation;                                                        KJCX2-YW-N29, KJCX2-YW-N45; 100 Talents Program of
+and the green shaded histogram shows the normalized J/ψ sideband                                                         CAS; German Research Foundation DFG under Contract No.
+events.
+                                                                                                                         Collaborative Research Center CRC-1044; Istituto Nazionale
+                                                                                                                         di Fisica Nucleare, Italy; Ministry of Development of Turkey
+                                                                                                                         under Contract No. DPT2006K-120470; U. S. Department
+                                                                                                                         of Energy under Contracts Nos. DE-FG02-04ER41291, DE-
+between the MC and measured mass resolutions of the J/ψ
+                                                                                                                         FG02-05ER41374, DE-FG02-94ER40823; U.S. National Sci-
+and D0 signals. We find the difference is 1.0 MeV in the
+                                                                                                                         ence Foundation; University of Groningen (RuG) and the
+width, and 0.2% absolute in the production ratio, which are
+                                                                                                                         Helmholtzzentrum fuer Schwerionenforschung GmbH (GSI),
+taken as the systematic errors. Assuming all the sources of
+                                                                                                                         Darmstadt; National Research Foundation of Korea Grant No.
+systematic uncertainty are independent, the total systematic
+                                                                                                                         2011-0029457 and WCU Grant No. R32-10155.
+error is 4.9 MeV/c2 for mass, 20 MeV for width and 7.5% for
+the production ratio.
+   In Summary, we have studied e+ e− → π + π − J/ψ at a
+CM energy of 4.26 GeV. The cross section is measured to
+be (62.9 ± 1.9 ± 3.7) pb, which agrees with the existing re-                                                              [1] B. Aubert et al. (BaBar Collaboration), Phys. Rev. Lett. 95,
+sults from the BaBar [5], Belle [3], and CLEO [4] experi-                                                                     142001 (2005).
+                                                                                                                          [2] Q. He et al. (CLEO Collaboration), Phys. Rev. D 74, 091104(R)
+ments. In addition, a structure with a mass of (3899.0 ± 3.6 ±
+                                                                                                                              (2006).
+4.9) MeV/c2 and a width of (46 ± 10 ± 20) MeV is observed                                                                 [3] C. Z. Yuan et al. (Belle Collaboration), Phys. Rev. Lett. 99,
+in the π ± J/ψ mass spectrum. This structure couples to char-                                                                 182004 (2007).
+monium and has an electric charge, which is suggestive of a                                                               [4] T. E. Coan et al. (CLEO Collaboration), Phys. Rev. Lett. 96,
+state containing more quarks than just a charm and anti-charm                                                                 162003 (2006).
+                                                                                                                                            7
+
+ [5] J. P. Lees et al. (BaBar Collaboration), Phys. Rev. D 86,           [18] S. Jadach, B. F. L. Ward, and Z. Was, Comput. Phys. Commun.
+     051102(R) (2012).                                                        130, 260 (2000); Phys. Rev. D 63, 113009 (2001).
+ [6] T. Barnes, S. Godfrey, and E. S. Swanson, Phys. Rev. D 72,          [19] E. A. Kuraev and V. S. Fadin, Sov. J. Nucl. Phys. 41, 466 (1985)
+     054026 (2005).                                                           [Yad. Fiz. 41, 733 (1985)].
+ [7] X. H. Mo et al., Phys. Lett. B 640, 182 (2006).                     [20] M. Ablikim et al. (BESIII Collaboration), Phys. Rev. D 87,
+ [8] D. Cronin-Hennessy et al. (CLEO Collaboration), Phys. Rev. D             012002 (2013).
+     80, 072001 (2009).                                                  [21] J. Beringer et al. (Particle Data Group), Phys. Rev. D 86,
+ [9] G. Pakhlova et al. (Belle Collaboration), Phys. Rev. Lett. 98,           010001 (2012).
+     092001 (2007).                                                      [22] S. Flatté, Phys. Lett. B 63, 224 (1976).
+[10] B. Aubert et al. (BaBar Collaboration), Phys. Rev. D 76,            [23] S. K. Choi et al. (Belle Collaboration), Phys. Rev. Lett. 100,
+     111105 (2007).                                                           142001 (2008).
+[11] B. Aubert et al. (BaBar Collaboration), Phys. Rev. D 79,            [24] B. Aubert et al. (BaBar Collaboration), Phys. Rev. D 79,
+     092001 (2009).                                                           112001 (2009).
+[12] P. del Amo Sanchez et al. (BaBar Collaboration), Phys. Rev. D       [25] R. Mizuk et al. (Belle Collaboration), Phys. Rev. D 78, 072004
+     82, 052004 (2010).                                                       (2008).
+[13] For a recent review, see N. Brambilla et al., Eur. Phys. J. C 71,   [26] J. P. Lees et al. (BaBar Collaboration), Phys. Rev. D 85, 052003
+     1534 (2011).                                                             (2012).
+[14] K.-F Chen et al. (Belle Collaboration), Phys. Rev. Lett. 100,       [27] L. Maiani, F. Piccinini, A. D. Polosa and V. Riquer, Phys. Rev.
+     112001 (2008).                                                           D 71, 014028 (2005); D. -Y. Chen, X. Liu and T. Matsuki,
+[15] I. Adachi et al. (Belle Collaboration), Phys. Rev. Lett. 108,            arXiv:1208.2411 [hep-ph]; D. -Y. Chen and X. Liu, Phys. Rev.
+     032001 (2012).                                                           D 84, 034032 (2011); Z. -F. Sun, J. He, X. Liu, Z. -G. Luo and
+[16] A. Bondar et al. (Belle Collaboration), Phys. Rev. Lett. 108,            S. -L. Zhu, Phys. Rev. D 84, 054002 (2011) and Chin. Phys.
+     122001 (2012).                                                           C 36, 194 (2012); Ahmed Ali, Christian Hambrock and Wei
+[17] M. Ablikim et al. (BESIII Collaboration), Nucl. Instrum. Meth-           Wang, Phys. Rev. D 85, 054011 (2012).
+     ods Phys. Res., Sect. A 614, 345 (2010).
+

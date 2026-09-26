@@ -1,0 +1,1346 @@
+                                          EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH (CERN)
+
+
+                                                                                                                     CERN-EP-2019-058
+                                                                                                                  LHCb-PAPER-2019-014
+                                                                                                                          14 May 2019
+
+
+
+
+arXiv:1904.03947v2 [hep-ex] 14 May 2019
+                                          Observation of a narrow pentaquark
+                                           state, Pc(4312)+, and of two-peak
+                                               structure of the Pc(4450)+
+
+
+                                                                                   LHCb collaboration†
+
+
+                                                                                         Abstract
+                                                 A narrow pentaquark state, Pc (4312)+ , decaying to J/ψ p is discovered with a
+                                                 statistical significance of 7.3σ in a data sample of Λ0b → J/ψ pK − decays which is an
+                                                 order of magnitude larger than that previously analyzed by the LHCb collaboration.
+                                                 The Pc (4450)+ pentaquark structure formerly reported by LHCb is confirmed and
+                                                 observed to consist of two narrow overlapping peaks, Pc (4440)+ and Pc (4457)+ ,
+                                                 where the statistical significance of this two-peak interpretation is 5.4σ. Proximity
+                                                 of the Σc+ D0 and Σc+ D∗0 thresholds to the observed narrow peaks suggests that
+                                                 they play an important role in the dynamics of these states.
+
+
+
+
+                                                                              Accepted by Phys. Rev. Lett.
+                                                        c 2019 CERN for the benefit of the LHCb collaboration. CC-BY-4.0 licence.
+
+                                           †
+                                               Authors are listed at the end of this paper.
+ii
+    A major turning point in exotic baryon spectroscopy was achieved at the Large Hadron
+Collider when, from an analysis of Run 1 data, the LHCb collaboration reported the
+observation of significant J/ψ p pentaquark structures in Λ0b → J/ψ pK − decays (inclusion
+of charge-conjugate processes is implied throughout). A model-dependent six-dimensional
+amplitude analysis of invariant masses and decay angles describing the Λ0b decay revealed
+a Pc (4450)+ structure peaking at 4449.8 ± 1.7 ± 2.5 MeV with a width of 39 ± 5 ± 19 MeV
+and a fit fraction of (4.1 ± 0.5 ± 1.1)% [1]. Even though not apparent from the mJ/ψ p
+distribution alone, the amplitude analysis also required a second broad J/ψ p state to
+obtain a good description of the data, which peaks at 4380 ± 8 ± 29 MeV with a width of
+205 ± 18 ± 86 MeV and a fit fraction of (8.4 ± 0.7 ± 4.2)%. Furthermore, the exotic hadron
+character of the J/ψ p structure near 4450 MeV was demonstrated in a model-independent
+way in Ref. [2], where it was shown to be too narrow to be accounted for by Λ∗ → pK −
+reflections (Λ∗ denotes Λ excitations). Various interpretations of these structures have
+been proposed, including tightly bound duucc̄ pentaquark states [3–9], loosely bound
+molecular baryon-meson pentaquark states [10–15], or peaks due to triangle-diagram
+processes [16–19].
+    In this Letter, an analysis is presented of Λ0b → J/ψ pK − decays based on the combined
+data set collected by the LHCb collaboration in Run 1, with pp collision energies of
+7 and 8 TeV corresponding to a total integrated luminosity of 3 fb−1 , and in Run 2 at
+13 TeV corresponding to 6 fb−1 . The LHCb detector is a single-arm forward spectrometer
+covering the pseudorapidity range 2 < η < 5, described in detail in Refs. [20, 21]. The
+data selection is similar to that used in Ref. [1]. However, in this updated analysis,
+the hadron-identification information is included in the Boosted Decision Tree (BDT)
+discriminant, which increases the Λ0b signal efficiency by almost a factor of two while
+leaving the background level almost unchanged. The resulting sample contains 246k
+Λ0b → J/ψ pK − decays (see the Supplemental Material to this Letter), which is nine times
+more than used in the Run 1 analyses [1, 2].
+    When this combined data set is fit with the same amplitude model used in Ref. [1],
+the Pc (4450)+ and Pc (4380)+ parameters are found to be consistent with the previous
+results. However, this should be considered only as a cross check, since analysis of this
+much larger data sample reveals additional peaking structures in the J/ψ p mass spectrum,
+which are too small to have been significant before (see Fig. 1 left). A narrow peak is
+observed near 4312 MeV with a width comparable to the mass resolution. The structure
+at 4450 MeV is now resolved into two narrow peaks at 4440 and 4457 MeV, which are
+more visible when the dominant Λ∗ → pK − contributions, which peak at low pK − masses
+(mKp ) as shown in Fig. 1 right and Fig. 2, are suppressed by requiring mKp > 1.9 GeV
+(see Fig. 3). This mKp requirement maximizes the expected signal significance for Pc+
+states that decay isotropically.
+    Performing a rigorous amplitude analysis of this new data sample is computationally
+challenging. The mJ/ψ p mass resolution must be taken into account, and the size of
+the data sample to fit has greatly increased. Formulating an amplitude model whose
+systematic uncertainties are comparable to the statistical precision provided by this larger
+data sample is difficult given the large number of Λ∗ excitations [22, 23], coupled-channel
+effects [24], and the possible presence of one or more wide Pc+ contributions, like the
+previously reported Pc (4380)+ state. Fortunately, the newly observed peaks are so narrow
+that it is not necessary to construct an amplitude model to prove that these states are
+not artifacts of interfering Λ∗ resonances [2].
+
+                                             1
+  Candidates/(2 MeV)
+                                                                            Candidates/(2 MeV)
+                 1000                          LHCb
+                                                                                                 3000                LHCb
+                       800
+
+
+                       600                                                                       2000
+
+
+                       400
+                                                                                                 1000
+                       200
+
+
+                        0                                                                          0
+                             4.2   4.4   4.6      4.8          5                                   1.4   1.6   1.8   2      2.2   2.4    2.6
+                                                        mJ / ψp [GeV]                                                             mKp [GeV]
+
+
+
+Figure 1: Distribution of (left) mJ/ψ p and (right) mKp for Λ0b → J/ψ pK − candidates. The
+prominent peak in mKp is due to the Λ(1520) resonance.
+
+
+    Binned χ2 fits are performed to the one-dimensional mJ/ψ p distribution in the range
+4.22 < mJ/ψ p < 4.57 GeV to determine the masses (M ), widths (Γ), and relative production
+rates (R) of the narrow Pc+ states under the assumption that they can be described by
+relativistic Breit–Wigner (BW) amplitudes. These mJ/ψ p fits alone cannot distinguish
+broad Pc+ states from other contributions that vary slowly with mJ/ψ p . Therefore, a
+verification of the Pc (4380)+ state observed in Ref. [1] awaits completion of an amplitude
+analysis of this new larger data set.
+    Many variations of the mJ/ψ p fits are performed to study the robustness of the mea-
+sured Pc+ properties. The mJ/ψ p distribution is fit both with and without requiring
+mKp > 1.9 GeV, which removes over 80% of the Λ∗ contributions. In addition, fits are
+performed on the mJ/ψ p distribution obtained by applying cos θPc -dependent weights to
+each candidate to enhance the Pc+ signal, where θPc is the angle between the K − and J/ψ
+in the Pc+ rest frame (the Pc+ helicity angle [1]). The Λ∗ contributions mostly populate the
+cos θPc > 0 region. The weights are taken to be the inverse of the expected background
+at each cos θP c , which is approximately given by the density of candidates observed in
+data since the signal contributions are small. The weight function is shown in Fig. 4.
+The best sensitivity to Pc+ contributions is obtained from the cos θP c -weighted mJ/ψ p
+distribution, followed by the sample with the mKp > 1.9 GeV requirement. However, since
+the background composition and shape are different in the three samples, the results from
+all three fits are used when assessing the systematic uncertainties.
+    The one-dimensional fit strategy is validated on ensembles of large simulated data sets
+sampled from several six-dimensional amplitude models, similar to those of Ref. [1], with
+or without a broad Pc+ state and considering various Pc+ quantum-number assignments.
+The main conclusion from these studies is that the dominant systematic uncertainty
+is due to possible interference between various Pc+ states. Such interference effects
+cannot be unambiguously disentangled using the mJ/ψ p distribution alone. Therefore, fits
+are performed considering many possible interference configurations, with the observed
+variations in the Pc+ properties assigned as systematic uncertainties.
+    In all fits, the mJ/ψ p distribution is modeled by three narrow BW Pc+ terms and a
+
+                                                                        2
+m2J/ ψ p [GeV2]
+
+
+
+
+                                                                                          Candidates/(0.105×0.045 GeV4)
+                  26
+                                                                                    102
+                                                           LHCb
+                  24
+
+
+                  22
+
+                                                                                    10
+                  20
+
+
+                  18
+
+
+                  16                                                                1
+                    2   2.5   3   3.5   4    4.5      5     5.5 6 6.5
+                                                            m2Kp [GeV2]
+
+Figure 2: Dalitz plot of Λ0b → J/ψ pK − candidates. The data contain 6.4% of non-Λ0b backgrounds,
+which are distributed smoothly over the phase-space. The vertical bands correspond to the
+Λ∗ resonances. The horizontal bands correspond to the Pc (4312)+ , Pc (4440)+ , and Pc (4457)+
+structures at m2J/ψ p = 18.6, 19.7, and 19.9 GeV2 , respectively.
+
+
+smooth parametrization of the background. Here, background refers to Λ∗ reflections, small
+non-Λ0b contributions (which comprise 6.4% of the sample), and possibly additional broad
+Pc+ structures. Many different background parametrizations are considered (discussed
+below), each of which is found to produce negligible bias in the Pc+ parameters in the
+validation fits. Each fit component is multiplied by a phase-space factor, p · q, where p
+(q) is the break-up momentum in the Λ0b → Pc+ K − (Pc+ → J/ψ p) decay. Since the signal
+peaks are narrow, all fit components are convolved with the detector resolution, which is
+2–3 MeV in the fit region (see the Supplemental Material). Finally, the detection efficiency
+has negligible impact on the signal mJ/ψ p distributions, and therefore, is not considered in
+these fits.
+    In the nominal fits, the BW contributions are added incoherently. The results of
+these fits are displayed in Fig. 5 for two parametrizations of the background: one using a
+high-order polynomial; and another using a low-order polynomial, along with an additional
+wide Pc+ BW term whose mass and width are free to vary in the fits. For both background
+parametrizations, a range of polynomial orders is considered. The lowest order used for
+each case is the smallest that adequately describes the data, which is found to correspond
+
+
+                                               3
+   Candidates/(2 MeV)
+                        300                        300
+                                LHCb
+                                                   250
+                        250
+                                                   200
+                        200
+                                                   150
+                        150
+                                                          4.3    4.35      4.4    4.45
+                        100
+                              m Kp >1.9 GeV
+                        50
+
+                         0
+                              4.2       4.4              4.6          4.8        5
+                                                                       mJ / ψp [GeV]
+
+Figure 3: Distribution of mJ/ψ p from Λ0b → J/ψ pK − candidates after suppression of the dominant
+Λ∗ → pK − contributions with the mKp > 1.9 GeV requirement. The inset shows a zoom into
+the region of the narrow Pc+ peaks.
+
+
+to the minimum order required to obtain unbiased Pc+ estimators in the fit-validation
+studies in the absence of interference. The highest orders are chosen such that the
+background model is capable of describing any structures that could be produced by either
+non-Pc+ or broad-Pc+ contributions. Figure 6 shows the fit from which the central values
+of the Pc+ properties are obtained, while the background-model-dependent variations
+observed in these properties are included in the systematic uncertainties. The fits with
+and without the broad Pc+ state both describe the data well. Therefore, these fits can
+neither confirm nor contradict the existence of the Pc (4380)+ state.
+    To determine the significance of the Pc (4312)+ state, the change of the fit χ2 when
+adding this component is used as the test statistic, where the distribution under the
+null hypothesis is obtained from a large ensemble of pseudoexperiments. The p-value,
+expressed in Gaussian standard deviations, corresponds to 7.6σ (8.5σ) for the fits to the
+mKp > 1.9 GeV (cos θP c -weighted) distribution, ignoring the look-elsewhere effect. To
+account for this effect, the mJ/ψ p distribution in each pseudoexperiment is scanned to find
+the most significant narrow and isolated peak (excluding the 4450 MeV peak region). This
+method lowers the Pc (4312)+ significance to 7.3σ (8.2σ).
+
+                                               4
+              w( cosθ P c ) ∝ 1 / ( ∆N/ ∆cosθ P c )
+                                                      1
+
+                                                 0.8
+
+                                                 0.6
+                                                                LHCb
+                                                 0.4
+
+                                                 0.2
+
+                                                      0
+                                                      −1 −0.8 −0.6 −0.4 −0.2   0   0.2   0.4   0.6   0.8    1
+                                                                                                     cosθ P
+                                                                                                           c
+
+Figure 4: Weight function w(cos θP c ) applied to candidates, determined as the inverse of the
+density of Λ0b candidates in the narrow Pc+ peak region. The red line is a spline function used to
+interpolate between bin centers.
+
+
+    To evaluate the significance of the two-peak structure versus the one-peak interpretation
+of the 4450 MeV region, the null hypothesis uses just one BW to encompass both the
+Pc (4440)+ and Pc (4457)+ peaks (the fit also includes the Pc (4312)+ BW), which gives
+Pc (4450)+ mass and width values that are consistent with those obtained from the
+amplitude analysis of Ref. [1]. Pseudoexperiments are again used to determine the ∆χ2
+distribution under the null hypothesis. The significance of the two-peak structure is 5.4σ
+(6.2σ) for the mKp > 1.9 GeV (cos θP c -weighted) samples. This significance is large enough
+to render the single peak interpretation of the 4450 MeV region obsolete. Therefore, the
+results presented here for this structure supersede those previously presented in Ref. [1]
+(see the Supplemental Material for more detailed discussion). To investigate the systematic
+uncertainties on Pc+ properties due to interference, which can only be important for Pc+
+resonances with the same spin and parity, fits to the cos θP c -weighted distribution are
+repeated using various coherent sums of two of the BW amplitudes. Each of these fits
+includes a phase between interfering resonances as an extra free parameter. None of the
+interference effects studied is found to produce a significant ∆χ2 relative to the fits using
+an incoherent sum of BW amplitudes. However, substantial shifts in the Pc+ properties
+are observed, and are included in the systematic uncertainties. For example, in such fit
+the Pc (4312)+ mass increases, while its width is rather stable, leading to a large positive
+systematic uncertainty of 6.8 MeV on its mass.
+    As in Ref. [1], the Λ0b candidates are kinematically constrained to the known J/ψ and
+Λ0b masses [25], which substantially improves the mJ/ψ p resolution and determines the
+absolute mass scale with an accuracy of 0.2 MeV. The mass resolution is known with a
+10% relative uncertainty. Varying this within its uncertainty changes the widths of the
+narrow states in the nominal fit by up to 0.5 MeV, 0.2 MeV, and 0.8 MeV for the Pc (4312)+ ,
+Pc (4440)+ , and Pc (4457)+ states, respectively. The widths of all three narrow Pc+ peaks
+are consistent with the mass resolution within the systematic uncertainties. Therefore,
+upper limits are placed on their natural widths at the 95% confidence level (CL), which
+account for the uncertainty on the detector resolution and in the fit model.
+
+                                                                               5
+      Candidates/(2 MeV)                                                  Candidates/(2 MeV)
+                                    1000                                                                1000
+                                           m Kp all
+
+
+
+
+                                     500                                                                500           data
+                                                                                                                      total fit              +
+                                                                                                                      polynomial + broad P c
+                                                                  +
+                                                        P c (4440) P c (4457)+                                        polynomial
+                                                         +                                                                       +
+                                               P c (4312)                                                         broad P c
+
+                                       0                                          0
+
+
+
+
+      Candidates/(2 MeV)                                                  Candidates/(2 MeV)
+                                      4200    4300    4400            4500       4600
+                                                                                 4200                          4300       4400        4500       4600
+                                         m Kp>1.9 GeV                 m J/ ψp [GeV]                                                   m J/ ψp [GeV]
+                                                                                                                 LHCb
+
+
+                                     200                                                                200
+
+
+
+
+                                       0                                          0
+
+
+
+
+      Weighted candidates/(2 MeV)                                         Weighted candidates/(2 MeV)
+                                      4200   4300      4400           4500       4200
+                                                                                 4600                          4300       4400        4500       4600
+                                         cosθ Pc -weighted            m J/ ψp [GeV]                                                   m J/ ψp [GeV]
+                                    1000                                                                1000
+
+
+
+                                     500                                                                500
+
+
+
+                                       0                                          0
+                                      4200      4300      4400        4500       4600
+                                                                                 4200                          4300       4400        4500       4600
+                                                                      m J/ ψp [GeV]                                                   m J/ ψp [GeV]
+
+Figure 5: Fits to the mJ/ψ p distributions of the (top row) inclusive, (middle row) mKp > 1.9 GeV,
+and (bottom row) cos θP c -weighted samples with three incoherently summed BW amplitudes
+representing the narrow Pc+ signals on top of a (left column) high-order polynomial function
+or (right column) lower-order polynomial plus a broad Pc+ state represented by a fourth BW
+amplitude.
+
+
+    A number of additional fits are performed when evaluating the systematic uncertainties.
+The nominal fits assume S-wave (no angular momentum) production and decay. Including
+P-wave factors in the BW amplitudes has negligible effect on the results. In addition
+to the nominal fits with three narrow peaks in the 4.22 < mJ/ψ p < 4.57 GeV region, fits
+including only the Pc (4312)+ are performed in the narrow 4.22–4.44 GeV range. Fits are
+also performed using a data sample selected with an alternative approach, where no BDT
+is used resulting in about twice as much background.
+    The total systematic uncertainties assigned on the mass and width of each narrow Pc+
+
+
+                                                                                                           6
+Table 1: Summary of Pc+ properties. The central values are based on the fit displayed in Fig. 6.
+
+          State         M [ MeV ]           Γ [ MeV ]       (95% CL)           R [%]
+       Pc (4312)+    4311.9 ± 0.7+6.8
+                                 −0.6      9.8 ± 2.7+ 3.7
+                                                    − 4.5     (< 27)      0.30 ± 0.07+0.34
+                                                                                     −0.09
+       Pc (4440)+    4440.3 ± 1.3+4.1
+                                 −4.7    20.6 ± 4.9+ 8.7
+                                                   −10.1      (< 49)      1.11 ± 0.33+0.22
+                                                                                     −0.10
+       Pc (4457)+    4457.3 ± 0.6+4.1
+                                 −1.7      6.4 ± 2.0+ 5.7
+                                                    − 1.9     (< 20)      0.53 ± 0.16+0.15
+                                                                                     −0.13
+
+
+
+state are taken to be the largest deviations observed among all fits. These include the fits
+to all three versions of the mJ/ψ p distribution, each configuration of the Pc+ interference,
+all variations of the background model, and each of the additional fits just described. The
+masses, widths, and the relative contributions (R values) of the three narrow Pc+ states,
+including all systematic uncertainties, are given in Table 1.
+    To obtain estimates of the relative contributions of the Pc+ states, the Λ0b candidates
+are weighted by the inverse of the reconstruction efficiency, which is parametrized in
+all six dimensions of the Λ0b decay phase-space (Eq. (68) in the Supplemental Material
+to Ref. [26]). The efficiency-weighted mJ/ψ p distribution, without the mKp > 1.9 GeV
+requirement, is fit to determine the Pc+ contributions, which are then divided by the
+efficiency-corrected and background-subtracted Λ0b yields. This method makes the re-
+sults independent of the unknown quantum numbers and helicity structure of the Pc+
+production and decay. Unfortunately, this approach also suffers from large Λ∗ back-
+grounds and from sizable fluctuations in the low-efficiency regions. In these fits, the
+Pc+ terms are added incoherently, absorbing any interference effects, which can be large
+(see, e.g., Fig. S2 in the Supplemental Material), into the BW amplitudes. Therefore,
+the R ≡ B(Λ0b → Pc+ K − )B(Pc+ → J/ψ p)/B(Λ0b → J/ψ pK − ) values reported for each Pc+
+state differ from the fit fractions typically reported in amplitude analyses, since R includes
+both the BW amplitude squared and all of its interference terms. Similar fit variations
+are considered here as above, e.g., different background models and selection criteria are
+all evaluated. The resulting systematic uncertainties on R are large, as shown in Table 1.
+    The narrow widths of the Pc+ peaks make a compelling case for the bound-state
+character of the observed states. However, it has been pointed out by many authors [16–19]
+that peaking structures in this J/ψ p mass range can also be generated by triangle diagrams.
+The Pc (4312)+ and Pc (4440)+ peaks are unlikely to arise from triangle diagrams, due to a
+lack of any appropriate hadron-rescattering thresholds as discussed in more detail in the
+Supplemental Material. The Pc (4457)+ peaks at the Λ+                     0
+                                                             c (2595)D threshold (J = 1/2
+                                                                                         P         +
+                                      −
+in S-wave) [18], and the Ds1 (2860) meson is a suitable candidate to be exchanged in the
+corresponding triangle diagram. However, this triangle-diagram term does not describe
+the data nearly as well as the BW does (Fig. S5 in the Supplemental Material [27]). This
+possibility deserves more scrutiny within the amplitude-analysis approach.
+    Narrow Pc+ states could arise by binding a narrow baryon with a narrow meson, where
+the separation of c and c̄ into distinct confinement volumes provides a natural suppression
+mechanism for the Pc+ widths. The only narrow baryon-meson combinations with mass
+thresholds in the appropriate mass range are pχcJ , Λ+     c D̄
+                                                                (∗)0
+                                                                     , and Σc D̄(∗) (both Σc+ D̄(∗)0
+and Σc++ D̄(∗)− are possible, the threshold for the latter is about 5 MeV higher than the
+former). There is no known S-wave binding mechanism for pχcJ combinations [28] and
+Λ+c D̄
+       (∗)0
+            interactions are expected to be repulsive, leaving only the Σc D̄(∗) pairs expected
+
+
+                                                 7
+                                                + 0
+                                               ΣcD                    Σ +c D * 0
+
+
+
+
+  Weighted candidates/(2 MeV)
+                                1200
+                                        data                                       LHCb
+                                        total fit
+                                1000
+                                        background
+
+                                 800
+
+
+                                 600
+
+
+                                 400                              +                 +
+                                                     +
+                                                         P c (4440)      P c (4457)
+                                            P c (4312)
+                                 200
+
+
+                                   0
+                                  4200 4250 4300 4350 4400 4450 4500 4550 4600
+                                                                   m J / ψp [MeV]
+
+Figure 6: Fit to the cos θP c -weighted mJ/ψ p distribution with three BW amplitudes and a
+sixth-order polynomial background. This fit is used to determine the central values of the masses
+and widths of the Pc+ states. The mass thresholds for the Σc+ D0 and Σc+ D∗0 final states are
+superimposed.
+
+
+to form bound states [29–31]. The masses of the Pc (4312)+ and Pc (4457)+ states are
+approximately 5 MeV and 2 MeV below the Σc+ D0 and Σc+ D∗0 thresholds, respectively, as
+illustrated in Fig. 6, making them excellent candidates for bound states of these systems.
+The Pc (4440)+ could be the second Σc D∗ state, with about 20 MeV of binding energy, since
+two states with J P = 1/2− and 3/2− are possible. In fact, several papers on hidden-charm
+states created dynamically by charmed meson-baryon interactions [32–34] were published
+well before the first observation of the Pc+ structures [1] and some of these predictions
+for Σc+ D0 and Σc+ D∗0 states [29–31] are consistent with the observed narrow Pc+ states.
+Such an interpretation of the Pc (4312)+ state (implies J P = 1/2− ) would point to the
+importance of ρ-meson exchange, since a pion cannot be exchanged in this system [10].
+
+
+                                                         8
+    In summary, the nine-fold increase in the number of Λ0b → J/ψ pK − decays recon-
+structed with the LHCb detector sheds more light onto the J/ψ p structures found in
+this final state. The previously reported Pc (4450)+ peak [1] is confirmed and resolved at
+5.4σ significance into two narrow states: the Pc (4440)+ and Pc (4457)+ exotic baryons. A
+narrow companion state, Pc (4312)+ , is discovered with 7.3σ significance.
+    The minimal quark content of these states is duucc̄. Since all three states are narrow
+and below the Σc+ D0 and Σc+ D∗0 ([duc][uc̄]) thresholds within plausible hadron-hadron
+binding energies, they provide the strongest experimental evidence to date for the existence
+of bound states of a baryon and a meson. The Σc+ D0 (Σc+ D∗0 ) threshold is within
+the extent of the Pc (4312)+ (Pc (4457)+ ) peak, and therefore virtual [35] rather than
+bound states are among the plausible explanations. In simple tightly bound pentaquark
+models, the proximity of these states to baryon-meson thresholds would be coincidental,
+and furthermore, it is difficult to accommodate their narrow widths [36]. A potential
+barrier between diquarks, which could separate the c and c̄ quarks, has been proposed
+to solve similar difficulties for tetraquark candidates [37]. An interplay between tightly
+bound pentaquarks and the Σc D, Σc D∗ thresholds may also be responsible for the Pc+
+peaks [38–41]. Therefore, such alternative explanations cannot be ruled out. Proper
+identification of the internal structure of the observed states will require more experimental
+and theoretical scrutiny.
+
+
+Acknowledgements
+We express our gratitude to our colleagues in the CERN accelerator departments for the
+excellent performance of the LHC. We thank the technical and administrative staff at the
+LHCb institutes. We acknowledge support from CERN and from the national agencies:
+CAPES, CNPq, FAPERJ and FINEP (Brazil); MOST and NSFC (China); CNRS/IN2P3
+(France); BMBF, DFG and MPG (Germany); INFN (Italy); NWO (Netherlands); MNiSW
+and NCN (Poland); MEN/IFA (Romania); MSHE (Russia); MinECo (Spain); SNSF
+and SER (Switzerland); NASU (Ukraine); STFC (United Kingdom); NSF (USA). We
+acknowledge the computing resources that are provided by CERN, IN2P3 (France), KIT
+and DESY (Germany), INFN (Italy), SURF (Netherlands), PIC (Spain), GridPP (United
+Kingdom), RRCKI and Yandex LLC (Russia), CSCS (Switzerland), IFIN-HH (Romania),
+CBPF (Brazil), PL-GRID (Poland) and OSC (USA). We are indebted to the communities
+behind the multiple open-source software packages on which we depend. Individual
+groups or members have received support from AvH Foundation (Germany); EPLANET,
+Marie Sklodowska-Curie Actions and ERC (European Union); ANR, Labex P2IO and
+OCEVU, and Région Auvergne-Rhône-Alpes (France); Key Research Program of Frontier
+Sciences of CAS, CAS PIFI, and the Thousand Talents Program (China); RFBR, RSF
+and Yandex LLC (Russia); GVA, XuntaGal and GENCAT (Spain); the Royal Society and
+the Leverhulme Trust (United Kingdom); Laboratory Directed Research and Development
+program of LANL (USA); CONACYT (Mexico).
+
+
+
+
+                                              9
+       Observation of a narrow pentaquark state, Pc (4312)+ , and of
+                   two-peak structure of the Pc (4450)+
+                           Supplemental Material
+
+
+1                     Λ0b → J/ψ pK − candidates
+The Λ0b → J/ψ pK − sample analyzed in the Letter is selected by requiring that the
+invariant mass of J/ψ pK − candidates is in the 5605–5635 MeV range. To determine the
+Λ0b signal yield within this range, the background density is linearly interpolated from
+the 5480–5580 MeV and 5660–5760 MeV sidebands to the signal region, as illustrated in
+Fig. S1. There are 246k Λ0b decays with 6.4% background contamination in the analyzed
+sample.
+    After selecting candidates in the Λ0b signal region indicated in Fig. S1, the Λ0b mass
+constraint is imposed on all Λ0b candidates, in addition to the J/ψ mass and vertex
+constraints, to improve the mJ/ψ p resolution. To a good approximation, the mass resolution
+
+
+
+
+ Candidates/(1 MeV)
+                      18000
+                      16000
+                      14000          LHCb
+                      12000
+                      10000
+                       8000
+                       6000
+                       4000
+                       2000
+                          0
+                              5500   5550   5600         5650          5700        5750
+                                                                        m J/ ψ pK [MeV]
+
+
+Figure S1: Invariant mass spectrum of J/ψ pK − candidates. The Λ0b signal region is between
+the vertical red lines. A linear interpolation of the background, determined from the sideband
+regions (bounded by the shorter vertical blue lines), to the signal region is shown by the dashed
+blue line.
+
+
+
+
+                                               10
+is Gaussian with a standard deviation (σm ) given by
+
+             σm (mJ/ψ p ) = 2.71 − 6.56 · 10−6 (mJ/ψ p / MeV − 4567)2 MeV.
+                                                                    
+                                                                                              (S1)
+
+
+2                                 Example fit with interference
+Figure S2 shows an example fit with interfering resonances.
+
+
+
+
+    Weighted candidates/(2 MeV)
+                                  1200      cosθ Pc -weighted data                     LHCb
+                                            total fit
+                                                                     +
+                                            polynomial + broad P c
+                                  1000
+                                            polynomial
+
+
+                                   800
+
+
+                                   600
+                                                                             +
+                                                                broad P c                 +
+                                   400                                           P c (4457)
+                                                                         +
+                                                              P c (4440)
+                                   200
+                                                          +
+                                               P c (4312)
+                                     0
+                                    4200 4250 4300 4350 4400 4450 4500 4550 4600
+                                                                     m J / ψp [MeV]
+
+Figure S2: Fit to the cos θP c -weighted mJ/ψ p distribution with four BW amplitudes and a linear
+background. The broad Pc+ state is added coherently to the Pc (4312)+ amplitude. In this fit
+model, the magnitude of the Pc (4312)+ peak in the data is dominated by its interference with
+the broad Pc+ state. Each Pc+ contribution is displayed as the BW amplitude squared (the
+interference contributions are not shown individually).
+
+
+
+
+                                                               11
+3     Study of triangle diagrams
+The narrow widths of the Pc+ peaks make a compelling case for the bound-state character
+of the observed states. However, it has been pointed out by many authors [16–19] that
+peaking structures in this J/ψ p mass range can also be generated by triangle diagrams
+(see Fig. S3). In these processes, the Λ0b baryon (of√mass m1 ) decays into two nearly
+on-mass-shell hadrons, one of which (of mass mh ≡ t) is an excited strange meson or
+baryon (denoted here as h) that subsequently emits a kaon (of mass m2 ) and a non-strange
+                                                                  0
+decay product (of mass m4 ) that√ rescatters with the other Λb child (of mass m3 ) into
+the J/ψ p system (of mJ/ψ p ≡ s). Such triangle-diagram processes are known to peak
+when all three hadrons in the triangle are nearly on their mass shells. Since the overall
+probability across coupled channels must be conserved, a peak in the J/ψ p channel is only
+possible if there is a corresponding depletion in the final state composed of the particles
+that rescatter in Fig. S3 to form the J/ψ p [42].
+    The triangle-diagram contribution often peaks at a threshold, given by the sum of
+the masses of the rescattering hadrons (m3 + m4 ) creating a cusp. For a fine-tuned BW
+resonance mass of the intermediate hadron h (M0 ), the rate can peak above (but never
+below) the corresponding threshold. The amplitude for a triangle-diagram process, which
+incorporates a finite width for the exchanged particle (Γ0 ), is given by
+                               Z ∞
+                        A(s) ∝           dt |BW(t|M0 , Γ0 )|2 F (t, s),               (S2)
+                                 (m2 +m4 )2
+
+where all quantities are defined in Fig. S3. The BW term corresponds to the exchanged
+h hadron. The Feynman triangle-amplitude formula is expressed in terms of a one-
+dimensional integral over a single Feynman parameter x as follows:
+                           Z 1                                   
+                                 dx              2sx             2sx
+              F (t, s) ≡ 2               log 1 −       − log 1 −        ,        (S3)
+                            0 y− − y+            y+              y−
+
+where
+
+    y± ≡y± (s, t, x) ≡ (m21 − m22 + s)x − m21 + m22 + m23 − m24
+        ± i + x2 λ(s, m21 , m22 ) + 2x (m21 + m22 − m23 − m24 + 2t)s
+                                       
+
+                                                                                 1/2
+         −(m21 − m22 )(m21 − m22 − m23 + m24 ) − 4st + (m21 − m22 − m23 + m24 )2
+                                              
+                                                                                     .   (S4)
+
+Here, λ(a, b, c) = a2 + b2 + c2 − 2ab − 2ac − 2bc and  is a small real number.
+    The 4457 MeV structure peaks near the Λ+             0              P       +
+                                              c (2595)D threshold (J = 1/2 ) [18]. The
+best h candidate for the corresponding triangle diagram is the Ds1 (2860)− meson, which
+has a mass of 2859 ± 27 MeV and a width of 159 ± 80 MeV [25]. The Pc (4312)+ is not far
+                ∗0
+from the Λ+ c D    threshold (J P = 1/2− or 3/2− ). Exchanging an excited 1− Ds∗∗ meson
+with M0 = 3288 MeV produces the peak at 4312 MeV in the narrow width approximation
+(Γ0 → 0). The Pc (4440)+ is well above the χc0 p threshold (1/2+ ). Exchanging an excited
+1/2+ Λ∗ with M0 = 2153 MeV produces a peak at the right mass when Γ0 → 0. In fact,
+a good quality fit to all three Pc+ peaks is obtained when Γ0 is small, as illustrated in
+Fig. S4 (top). However, this interpretation is unrealistic for the Pc (4312)+ and Pc (4440)+
+peaks. When more plausible widths for the excited hadrons are used, such as Γ0 = 50 MeV,
+no narrow peaks can be created above the thresholds, as shown in Fig. S4 (bottom).
+
+                                              12
+Figure S3: Triangle diagram for the Λ0b → J/ψ pK − decay. The figure defines the symbols used
+in the formulae in the text.
+
+
+The triangle-diagram hypothesis is more plausible for the Pc (4457)+ state. An example
+fit using two BW terms and one triangle-diagram amplitude is shown in Fig. S5. The
+fit quality is lower than that obtained using three BW amplitudes. However, further
+investigation of this interpretation of the Pc (4457)+ state is warranted within an amplitude
+analysis, which will provide greater discrimination between the triangle-diagram and BW
+amplitudes.
+
+
+4     Comments on the results in Ref. [1]
+The Pc (4450)+ state reported in Ref. [1] should be considered obsolete and replaced by
+the Pc (4440)+ and Pc (4457)+ states. The six-dimensional amplitude analysis reported in
+Ref. [1], which provided evidence for the Pc (4380)+ state, is also obsolete since it used the
+single Pc (4450)+ state and it lacked the Pc (4312)+ state. Therefore, the results presented
+in the Letter weaken the previously reported evidence for the Pc (4380)+ state, but do not
+contradict its existence, since the present one-dimensional analysis is not sensitive to wide
+Pc+ states. Only a future six-dimensional amplitude analysis of Λ0b → J/ψ pK − decays
+that includes the Pc (4440)+ , Pc (4457)+ , and Pc (4312)+ states will be able to determine if
+there is still evidence for the Pc (4380)+ state or any other wide Pc+ states.
+    Reference [1] performed a cross-check of the six-dimensional amplitude model by
+replacing the BW function for the Pc (4450)+ state, under the preferred quantum-number
+assignment, by complex amplitudes in six narrow mJ/ψ p bins near the peak region. The
+complex amplitudes obtained from this cross-check had large statistical uncertainties.
+The systematic uncertainties were not evaluated. This cross-check was repeated for the
+Pc (4380)+ state. The results of both cross-checks were displayed as Argand diagrams,
+which were consistent with the expected phase motion from the BW functions (more so
+for the Pc (4450)+ structure than for the Pc (4380)+ ), but that should now be considered
+
+                                             13
+ Weighted candidates/(2 MeV)
+                                     Γ0 = 1 MeV
+
+                          1000                                                         LHCb
+
+
+
+
+                                                                             0
+                               500                              Λ+c (2595) D D s**
+
+
+                                                   Λ+c D * D s**
+                                                            0         χ c0 p Λ*
+
+
+
+
+                                0
+
+
+
+
+ Weighted candidates/(2 MeV)
+                                4200          4300                    4400           4500             4600
+                                                                                          m J/ ψ p [GeV]
+                                                                                       weighted     data
+                                     Γ0 = 50 MeV                                       total fit
+                          1000
+                                                                                       polynomial
+
+
+
+                                                                             0
+                               500                              Λ+c (2595) D D s**
+                                                                      χ c0 p Λ*
+                                                   Λ   +    0
+                                                       c D * D s**
+
+
+
+
+                                 0
+                                4200          4300                    4400           4500          4600
+                                                                                       m J/ ψ p [GeV]
+Figure S4: Fit of three triangle-diagram amplitudes and a quadratic background to the cos θP c -
+weighted distribution. The widths of the excited particles exchanged in the triangles is (top) an
+unrealistic value of 1 MeV or (bottom) a more plausible value of 50 MeV. Individual triangle
+diagram contributions are also shown. The dashed vertical lines are the Λ+         ∗0
+                                                                                c D , χc0 p and
+ +          0
+Λc (2595)D thresholds.
+
+                                                                     14
+  Weighted candidates/(2 MeV)
+                                             LHCb
+                                1200
+                                          cosθ Pc -weighted data
+                                          total fit
+                                1000
+                                          polynomial
+
+
+                                 800
+                                                                            +
+                                                                   P c (4457)
+                                 600
+
+
+                                 400
+                                                       +                        +
+                                             P c (4312)             P c (4440)
+                                 200
+
+
+                                   0
+                                  4200 4250 4300 4350 4400 4450 4500 4550 4600
+                                                                   m J / ψp [MeV]
+
+Figure S5: Fit of two BW amplitudes, one triangle-diagram amplitude, and a sixth-order
+polynomial background to the cos θP c -weighted distribution. The width of the excited Ds∗ state
+exchanged in the triangle loop is set to Γ(Ds1 (2860)− ) = 159 MeV [25, 43]. The predicted width
+for this Ds∗ state, interpreted as the 13 D1 sc̄ excitation in the quark model, is 197 MeV [44].
+
+
+obsolete. The Pc (4380)+ Argand diagram was obtained using a model in which the
+Pc (4450)+ structure was represented by only one resonance and the Pc (4312)+ state was
+not included. The Pc (4450)+ Argand diagram was obtained using a model in which the
+Pc (4312)+ state was missing, and under the assumption that only a single partial wave
+describes the structure peaking at 4450 MeV. This assumption is difficult to justify given
+the two-peak observation presented in the Letter. Furthermore, since the natural widths of
+the Pc (4440)+ and Pc (4457)+ states are comparable to the mass resolution, the Pc (4450)+
+Argand diagram reported in Ref. [1] would need to have the mass-resolution effects
+unfolded to probe the underlying complex phase motion even if both states happened to
+have the same quantum numbers.
+
+
+                                                            15
+References
+ [1] LHCb collaboration, R. Aaij et al., Observation of J/ψ p resonances consistent with
+     pentaquark states in Λ0b → J/ψ pK − decays, Phys. Rev. Lett. 115 (2015) 072001,
+     arXiv:1507.03414.
+
+ [2] LHCb collaboration, R. Aaij et al., Model-independent evidence for J/ψ p contributions
+     to Λ0b → J/ψ pK − decays, Phys. Rev. Lett. 117 (2016) 082002, arXiv:1604.05708.
+
+ [3] L. Maiani, A. D. Polosa, and V. Riquer, The new pentaquarks in the diquark model,
+     Phys. Lett. B749 (2015) 289, arXiv:1507.04980.
+
+ [4] R. F. Lebed, The pentaquark candidates in the dynamical diquark picture, Phys. Lett.
+     B749 (2015) 454, arXiv:1507.05867.
+
+ [5] V. V. Anisovich et al., Pentaquarks and resonances in the pJ/ψ spectrum,
+     arXiv:1507.07652.
+
+ [6] G.-N. Li, X.-G. He, and M. He, Some predictions of diquark model for hidden charm
+     pentaquark discovered at the LHCb, JHEP 12 (2015) 128, arXiv:1507.08252.
+
+ [7] R. Ghosh, A. Bhattacharya, and B. Chakrabarti, A study on Pc∗ (4380) and
+     Pc∗ (4450) in the quasi particle diquark model, Phys. Part. Nucl. Lett. 14 (2017)
+     550, arXiv:1508.00356.
+
+ [8] Z.-G. Wang, Analysis of Pc (4380) and Pc (4450) as pentaquark states in the diquark
+     model with QCD sum rules, Eur. Phys. J. C76 (2016) 70, arXiv:1508.01468.
+
+ [9] R. Zhu and C.-F. Qiao, Pentaquark states in a diquark-triquark model, Phys. Lett.
+     B756 (2016) 259, arXiv:1510.08693.
+
+[10] M. Karliner and J. L. Rosner, New exotic meson and baryon resonances from doubly-
+     heavy hadronic molecules, Phys. Rev. Lett. 115 (2015) 122001, arXiv:1506.06386.
+
+[11] R. Chen, X. Liu, X.-Q. Li, and S.-L. Zhu, Identifying exotic hidden-charm pentaquarks,
+     Phys. Rev. Lett. 115 (2015) 132002, arXiv:1507.03704.
+
+[12] H.-X. Chen et al., Towards exotic hidden-charm pentaquarks in QCD, Phys. Rev.
+     Lett. 115 (2015) 172001, arXiv:1507.03717.
+
+[13] L. Roca, J. Nieves, and E. Oset, LHCb pentaquark as a D̄∗ Σc − D̄∗ Σc∗ molecular
+     state, Phys. Rev. D92 (2015) 094003, arXiv:1507.04249.
+
+[14] J. He, D̄Σc∗ and D̄∗ Σc interactions and the LHCb hidden-charmed pentaquarks, Phys.
+     Lett. B753 (2016) 547, arXiv:1507.05200.
+
+[15] H. Huang, C. Deng, J. Ping, and F. Wang, Possible pentaquarks with heavy quarks,
+     Eur. Phys. J. C76 (2016) 624, arXiv:1510.04648.
+
+[16] F.-K. Guo, U.-G. Meißner, W. Wang, and Z. Yang, How to reveal the exotic nature
+     of the Pc (4450), Phys. Rev. D92 (2015) 071502, arXiv:1507.04950.
+
+
+                                            16
+[17] U.-G. Meißner and J. A. Oller, Testing the χc1 p composite nature of the Pc (4450),
+     Phys. Lett. B751 (2015) 59, arXiv:1507.07478.
+
+[18] X.-H. Liu, Q. Wang, and Q. Zhao, Understanding the newly observed heavy pentaquark
+     candidates, Phys. Lett. B757 (2016) 231, arXiv:1507.05359.
+
+[19] M. Mikhasenko, A          triangle   singularity   and    the   LHCb      pentaquarks,
+     arXiv:1507.06552.
+
+[20] LHCb collaboration, A. A. Alves Jr. et al., The LHCb detector at the LHC, JINST 3
+     (2008) S08005.
+
+[21] LHCb collaboration, R. Aaij et al., LHCb detector performance, Int. J. Mod. Phys.
+     A30 (2015) 1530022, arXiv:1412.6352.
+
+[22] S. Capstick and N. Isgur, Baryons in a relativized quark model with chromodynamics,
+     Phys. Rev. D34 (1986) 2809.
+
+[23] U. Loring, B. C. Metsch, and H. R. Petry, The light-baryon spectrum in a relativistic
+     quark model with instanton induced quark forces: the strange baryon spectrum, Eur.
+     Phys. J. A10 (2001) 447, arXiv:hep-ph/0103290.
+
+[24] C. Fernandez-Ramirez et al., Coupled-channel model for K̄N scattering in the resonant
+     region, Phys. Rev. D93 (2016) 034029, arXiv:1510.07065.
+
+[25] Particle Data Group, M. Tanabashi et al., Review of particle physics, Phys. Rev.
+     D98 (2018) 030001.
+
+[26] LHCb collaboration, R. Aaij et al., Search for structure in the Bs0 π ± invariant mass
+     spectrum, Phys. Rev. Lett. 117 (2016) 152003, arXiv:1608.00435.
+
+[27] See Supplemental Material to this Letter, which includes Refs. [42–44].
+
+[28] T. J. Burns, Phenomenology of Pc (4380)+ , Pc (4450)+ and related states, Eur. Phys.
+     J. A51 (2015) 152, arXiv:1509.02460.
+
+[29] W. L. Wang, F. Huang, Z. Y. Zhang, and B. S. Zou, Σc D̄ and Λ+
+                                                                  c D̄ states in a chiral
+     quark model, Phys. Rev. C84 (2011) 015203, arXiv:1101.0453.
+
+[30] Z.-C. Yang et al., Possible hidden-charm molecular baryons composed of anti-charmed
+     meson and charmed baryon, Chin. Phys. C36 (2012) 6, arXiv:1105.2901.
+
+[31] J.-J. Wu, T.-S. H. Lee, and B. S. Zou, Nucleon resonances with hidden charm in
+     coupled-channel models, Phys. Rev. C85 (2012) 044002, arXiv:1202.1036.
+
+[32] J.-J. Wu, R. Molina, E. Oset, and B. S. Zou, Prediction of narrow N ∗ and Λ∗
+     resonances with hidden charm above 4 GeV, Phys. Rev. Lett. 105 (2010) 232001,
+     arXiv:1007.0573.
+
+[33] J.-J. Wu, R. Molina, E. Oset, and B. S. Zou, Dynamically generated N ∗ and Λ∗
+     resonances in the hidden charm sector around 4.3 GeV, Phys. Rev. C84 (2011)
+     015202, arXiv:1011.2399.
+
+                                            17
+[34] C. W. Xiao, J. Nieves, and E. Oset, Combining heavy quark spin and local hidden
+     gauge symmetries in the dynamical generation of hidden charm baryons, Phys. Rev.
+     D88 (2013) 056012, arXiv:1304.5368.
+
+[35] W. R. Frazer and A. W. Hendry, S-matrix poles close to threshold, Phys. Rev. 134
+     (1964) B1307.
+
+[36] E. Hiyama, A. Hosaka, M. Oka, and J.-M. Richard, Quark model estimate of hidden-
+     charm pentaquark resonances, Phys. Rev. C98 (2018) 045208, arXiv:1803.11369.
+
+[37] L. Maiani, A. D. Polosa, and V. Riquer, A theory of X and Z multiquark resonances,
+     Phys. Lett. B778 (2018) 247, arXiv:1712.05296.
+
+[38] D. V. Bugg, How resonances can synchronise with thresholds, J. Phys. G35 (2008)
+     075005, arXiv:0802.0934.
+
+[39] F.-K. Guo, C. Hanhart, Q. Wang, and Q. Zhao, Could the near-threshold XY Z states
+     be simply kinematic effects?, Phys. Rev. D91 (2015) 051504, arXiv:1411.5584.
+
+[40] S. H. Blitz and R. F. Lebed, Tetraquark cusp effects from diquark pair production,
+     Phys. Rev. D91 (2015) 094025, arXiv:1503.04802.
+
+[41] F.-K. Guo et al., Interplay of quark and meson degrees of freedom in near-threshold
+     states: A practical parametrization for line shapes, Phys. Rev. D93 (2016) 074031,
+     arXiv:1602.00940.
+
+[42] A. P. Szczepaniak, Dalitz plot distributions in presence of triangle singularities, Phys.
+     Lett. B757 (2016) 61, arXiv:1510.01789.
+
+[43] LHCb collaboration, R. Aaij et al., Observation of overlapping spin-1 and spin-3
+     D0 K − resonances at mass 2.86 GeV/c2 , Phys. Rev. Lett. 113 (2014) 162001,
+     arXiv:1407.7574.
+
+[44] S. Godfrey and K. Moats, Properties of excited charm and charm-strange mesons,
+     Phys. Rev. D93 (2016) 034035, arXiv:1510.08305.
+
+
+
+
+                                             18
+                                    LHCb collaboration
+R. Aaij28 , C. Abellán Beteta46 , B. Adeva43 , M. Adinolfi50 , C.A. Aidala80 , Z. Ajaltouni6 ,
+S. Akar61 , P. Albicocco19 , J. Albrecht11 , F. Alessio44 , M. Alexander55 , A. Alfonso Albero42 ,
+G. Alkhazov41 , P. Alvarez Cartelle57 , A.A. Alves Jr43 , S. Amato2 , Y. Amhis8 , L. An18 ,
+L. Anderlini18 , G. Andreassi45 , M. Andreotti17 , J.E. Andrews62 , F. Archilli19 , P. d’Argent13 ,
+J. Arnau Romeu7 , A. Artamonov40 , M. Artuso63 , K. Arzymatov37 , E. Aslanides7 , M. Atzeni46 ,
+B. Audurier23 , S. Bachmann13 , J.J. Back52 , S. Baker57 , V. Balagura8,b , W. Baldini17,44 ,
+A. Baranov37 , R.J. Barlow58 , S. Barsuk8 , W. Barter57 , M. Bartolini20 , F. Baryshnikov76 ,
+V. Batozskaya32 , B. Batsukh63 , A. Battig11 , V. Battista45 , A. Bay45 , F. Bedeschi25 , I. Bediaga1 ,
+A. Beiter63 , L.J. Bel28 , V. Belavin37 , S. Belin23 , N. Beliy66 , V. Bellee45 , N. Belloli21,i ,
+K. Belous40 , I. Belyaev34 , E. Ben-Haim9 , G. Bencivenni19 , S. Benson28 , S. Beranek10 ,
+A. Berezhnoy35 , R. Bernet46 , D. Berninghoff13 , E. Bertholet9 , A. Bertolin24 , C. Betancourt46 ,
+F. Betti16,e , M.O. Bettler51 , M. van Beuzekom28 , Ia. Bezshyiko46 , S. Bhasin50 , J. Bhom30 ,
+M.S. Bieker11 , S. Bifani49 , P. Billoir9 , A. Birnkraut11 , A. Bizzeti18,u , M. Bjørn59 , M.P. Blago44 ,
+T. Blake52 , F. Blanc45 , S. Blusk63 , D. Bobulska55 , V. Bocci27 , O. Boente Garcia43 ,
+T. Boettcher60 , A. Bondar39,x , N. Bondar41 , S. Borghi58,44 , M. Borisyak37 , M. Borsato13 ,
+M. Boubdir10 , T.J.V. Bowcock56 , C. Bozzi17,44 , S. Braun13 , A. Brea Rodriguez43 , M. Brodski44 ,
+J. Brodzicka30 , A. Brossa Gonzalo52 , D. Brundu23,44 , E. Buchanan50 , A. Buonaura46 , C. Burr58 ,
+A. Bursche23 , J.S. Butter28 , J. Buytaert44 , W. Byczynski44 , S. Cadeddu23 , H. Cai68 ,
+R. Calabrese17,g , S. Cali19 , R. Calladine49 , M. Calvi21,i , M. Calvo Gomez42,m , A. Camboni42,m ,
+P. Campana19 , D.H. Campora Perez44 , L. Capriotti16,e , A. Carbone16,e , G. Carboni26 ,
+R. Cardinale20 , A. Cardini23 , P. Carniti21,i , K. Carvalho Akiba2 , A. Casais Vidal43 , G. Casse56 ,
+M. Cattaneo44 , G. Cavallero20 , R. Cenci25,p , M.G. Chapman50 , M. Charles9,44 ,
+Ph. Charpentier44 , G. Chatzikonstantinidis49 , M. Chefdeville5 , V. Chekalina37 , C. Chen3 ,
+S. Chen23 , S.-G. Chitic44 , V. Chobanova43 , M. Chrzaszcz44 , A. Chubykin41 , P. Ciambrone19 ,
+X. Cid Vidal43 , G. Ciezarek44 , F. Cindolo16 , P.E.L. Clarke54 , M. Clemencic44 , H.V. Cliff51 ,
+J. Closier44 , V. Coco44 , J.A.B. Coelho8 , J. Cogan7 , E. Cogneras6 , L. Cojocariu33 , P. Collins44 ,
+T. Colombo44 , A. Comerma-Montells13 , A. Contu23 , G. Coombs44 , S. Coquereau42 , G. Corti44 ,
+C.M. Costa Sobral52 , B. Couturier44 , G.A. Cowan54 , D.C. Craik60 , A. Crocombe52 ,
+M. Cruz Torres1 , R. Currie54 , C. D’Ambrosio44 , C.L. Da Silva82 , E. Dall’Occo28 , J. Dalseno43,v ,
+A. Danilina34 , A. Davis58 , O. De Aguiar Francisco44 , K. De Bruyn44 , S. De Capua58 ,
+M. De Cian45 , J.M. De Miranda1 , L. De Paula2 , M. De Serio15,d , P. De Simone19 , C.T. Dean55 ,
+W. Dean80 , D. Decamp5 , L. Del Buono9 , B. Delaney51 , H.-P. Dembinski12 , M. Demmer11 ,
+A. Dendek31 , D. Derkach38 , O. Deschamps6 , F. Desse8 , F. Dettori23 , B. Dey69 , A. Di Canto44 ,
+P. Di Nezza19 , S. Didenko76 , H. Dijkstra44 , F. Dordei23 , M. Dorigo25,y , A. Dosil Suárez43 ,
+L. Douglas55 , A. Dovbnya47 , K. Dreimanis56 , L. Dufour44 , G. Dujany9 , P. Durante44 ,
+J.M. Durham82 , D. Dutta58 , R. Dzhelyadin40,† , M. Dziewiecki13 , A. Dziurda30 , A. Dzyuba41 ,
+S. Easo53 , U. Egede57 , V. Egorychev34 , S. Eidelman39,x , S. Eisenhardt54 , U. Eitschberger11 ,
+S. Ek-In45 , R. Ekelhof11 , L. Eklund55 , S. Ely63 , A. Ene33 , S. Escher10 , S. Esen28 , T. Evans61 ,
+A. Falabella16 , N. Farley49 , S. Farry56 , D. Fazzini8 , P. Fernandez Declara44 ,
+A. Fernandez Prieto43 , C. Fernández-Ramı́rez73 , F. Ferrari16,e , L. Ferreira Lopes45 ,
+F. Ferreira Rodrigues2 , S. Ferreres Sole28 , M. Ferro-Luzzi44 , S. Filippov36 , R.A. Fini15 ,
+M. Fiorini17,g , M. Firlej31 , C. Fitzpatrick44 , T. Fiutowski31 , F. Fleuret8,b , M. Fontana44 ,
+F. Fontanelli20,h , R. Forty44 , V. Franco Lima56 , M. Franco Sevilla62 , M. Frank44 , C. Frei44 ,
+J. Fu22,q , W. Funk44 , C. Färber44 , M. Féo44 , E. Gabriel54 , A. Gallas Torreira43 , D. Galli16,e ,
+S. Gallorini24 , S. Gambetta54 , Y. Gan3 , M. Gandelman2 , P. Gandini22 , Y. Gao3 ,
+L.M. Garcia Martin78 , B. Garcia Plana43 , J. Garcı́a Pardiñas46 , J. Garra Tico51 , L. Garrido42 ,
+D. Gascon42 , C. Gaspar44 , G. Gazzoni6 , D. Gerick13 , E. Gersabeck58 , M. Gersabeck58 ,
+T. Gershon52 , D. Gerstel7 , Ph. Ghez5 , V. Gibson51 , O.G. Girard45 , P. Gironella Gironell42 ,
+
+
+                                                   19
+L. Giubega33 , K. Gizdov54 , V.V. Gligorov9 , D. Golubkov34 , A. Golutvin57,76 , A. Gomes1,a ,
+I.V. Gorelov35 , C. Gotti21,i , E. Govorkova28 , J.P. Grabowski13 , R. Graciani Diaz42 ,
+L.A. Granado Cardoso44 , E. Graugés42 , E. Graverini45 , G. Graziani18 , A. Grecu33 , R. Greim28 ,
+P. Griffith23 , L. Grillo58 , L. Gruber44 , B.R. Gruberg Cazon59 , C. Gu3 , X. Guo67 , E. Gushchin36 ,
+A. Guth10 , Yu. Guz40,44 , T. Gys44 , C. Göbel65 , T. Hadavizadeh59 , C. Hadjivasiliou6 ,
+G. Haefeli45 , C. Haen44 , S.C. Haines51 , B. Hamilton62 , Q. Han69 , X. Han13 , T.H. Hancock59 ,
+S. Hansmann-Menzemer13 , N. Harnew59 , T. Harrison56 , C. Hasse44 , M. Hatch44 , J. He66 ,
+M. Hecker57 , K. Heinicke11 , A. Heister11 , K. Hennessy56 , L. Henry78 , E. van Herwijnen44 ,
+J. Heuel10 , M. Heß71 , A. Hicheur64 , R. Hidalgo Charman58 , D. Hill59 , M. Hilton58 ,
+P.H. Hopchev45 , J. Hu13 , W. Hu69 , W. Huang66 , Z.C. Huard61 , W. Hulsbergen28 , T. Humair57 ,
+M. Hushchyn38 , D. Hutchcroft56 , D. Hynds28 , P. Ibis11 , M. Idzik31 , P. Ilten49 , A. Inglessi41 ,
+A. Inyakin40 , K. Ivshin41 , R. Jacobsson44 , S. Jakobsen44 , J. Jalocha59 , E. Jans28 , B.K. Jashal78 ,
+A. Jawahery62 , F. Jiang3 , M. John59 , D. Johnson44 , C.R. Jones51 , C. Joram44 , B. Jost44 ,
+N. Jurik59 , S. Kandybei47 , M. Karacson44 , J.M. Kariuki50 , S. Karodia55 , N. Kazeev38 ,
+M. Kecke13 , F. Keizer51 , M. Kelsey63 , M. Kenzie51 , T. Ketel29 , B. Khanji44 , A. Kharisova77 ,
+C. Khurewathanakul45 , K.E. Kim63 , T. Kirn10 , V.S. Kirsebom45 , S. Klaver19 ,
+K. Klimaszewski32 , S. Koliiev48 , M. Kolpin13 , A. Kondybayeva76 , A. Konoplyannikov34 ,
+R. Kopecna13 , P. Koppenburg28 , I. Kostiuk28,48 , O. Kot48 , S. Kotriakhova41 , M. Kozeiha6 ,
+L. Kravchuk36 , M. Kreps52 , F. Kress57 , S. Kretzschmar10 , P. Krokovny39,x , W. Krupa31 ,
+W. Krzemien32 , W. Kucewicz30,l , M. Kucharczyk30 , V. Kudryavtsev39,x , G.J. Kunde82 ,
+A.K. Kuonen45 , T. Kvaratskheliya34 , D. Lacarrere44 , G. Lafferty58 , A. Lai23 , D. Lancierini46 ,
+G. Lanfranchi19 , C. Langenbruch10 , T. Latham52 , C. Lazzeroni49 , R. Le Gac7 , A. Leflat35 ,
+R. Lefèvre6 , F. Lemaitre44 , O. Leroy7 , T. Lesiak30 , B. Leverington13 , H. Li67 , P.-R. Li66,ab ,
+X. Li82 , Y. Li4 , Z. Li63 , X. Liang63 , T. Likhomanenko75 , R. Lindner44 , P. Ling67 , F. Lionetto46 ,
+V. Lisovskyi8 , G. Liu67 , X. Liu3 , D. Loh52 , A. Loi23 , J. Lomba Castro43 , I. Longstaff55 ,
+J.H. Lopes2 , G. Loustau46 , G.H. Lovell51 , D. Lucchesi24,o , M. Lucio Martinez43 , Y. Luo3 ,
+A. Lupato24 , E. Luppi17,g , O. Lupton52 , A. Lusiani25 , X. Lyu66 , R. Ma67 , F. Machefert8 ,
+F. Maciuc33 , V. Macko45 , P. Mackowiak11 , S. Maddrell-Mander50 , O. Maev41,44 , K. Maguire58 ,
+D. Maisuzenko41 , M.W. Majewski31 , S. Malde59 , B. Malecki44 , A. Malinin75 , T. Maltsev39,x ,
+H. Malygina13 , G. Manca23,f , G. Mancinelli7 , D. Marangotto22,q , J. Maratas6,w ,
+J.F. Marchand5 , U. Marconi16 , C. Marin Benito8 , M. Marinangeli45 , P. Marino45 , J. Marks13 ,
+P.J. Marshall56 , G. Martellotti27 , L. Martinazzoli44 , M. Martinelli44,21 , D. Martinez Santos43 ,
+F. Martinez Vidal78 , A. Massafferri1 , M. Materok10 , R. Matev44 , A. Mathad46 , Z. Mathe44 ,
+V. Matiunin34 , C. Matteuzzi21 , K.R. Mattioli80 , A. Mauri46 , E. Maurice8,b , B. Maurin45 ,
+M. McCann57,44 , A. McNab58 , R. McNulty14 , J.V. Mead56 , B. Meadows61 , C. Meaux7 ,
+N. Meinert71 , D. Melnychuk32 , M. Merk28 , A. Merli22,q , E. Michielin24 , M. Mikhasenko44 ,
+D.A. Milanes70 , E. Millard52 , M.-N. Minard5 , L. Minzoni17,g , D.S. Mitzel13 , A. Mogini9 ,
+R.D. Moise57 , T. Mombächer11 , I.A. Monroy70 , S. Monteil6 , M. Morandin24 , G. Morello19 ,
+M.J. Morello25,t , J. Moron31 , A.B. Morris7 , R. Mountain63 , H. Mu3 , F. Muheim54 ,
+M. Mukherjee69 , M. Mulder28 , C.H. Murphy59 , D. Murray58 , A. Mödden 11 , D. Müller44 ,
+J. Müller11 , K. Müller46 , V. Müller11 , P. Naik50 , T. Nakada45 , R. Nandakumar53 , A. Nandi59 ,
+T. Nanut45 , I. Nasteva2 , M. Needham54 , N. Neri22,q , S. Neubert13 , N. Neufeld44 ,
+R. Newcombe57 , T.D. Nguyen45 , C. Nguyen-Mau45,n , S. Nieswand10 , R. Niet11 , N. Nikitin35 ,
+N.S. Nolte44 , D.P. O’Hanlon16 , A. Oblakowska-Mucha31 , V. Obraztsov40 , S. Ogilvy55 ,
+R. Oldeman23,f , C.J.G. Onderwater74 , J. D. Osborn80 , A. Ossowska30 , J.M. Otalora Goicochea2 ,
+T. Ovsiannikova34 , P. Owen46 , A. Oyanguren78 , P.R. Pais45 , T. Pajero25,t , A. Palano15 ,
+M. Palutan19 , G. Panshin77 , A. Papanestis53 , M. Pappagallo54 , L.L. Pappalardo17,g ,
+W. Parker62 , C. Parkes58,44 , G. Passaleva18,44 , A. Pastore15 , M. Patel57 , C. Patrignani16,e ,
+A. Pearce44 , A. Pellegrino28 , G. Penso27 , M. Pepe Altarelli44 , S. Perazzini16 , D. Pereima34 ,
+P. Perret6 , L. Pescatore45 , K. Petridis50 , A. Petrolini20,h , A. Petrov75 , S. Petrucci54 ,
+
+
+                                                  20
+M. Petruzzo22,q , B. Pietrzyk5 , G. Pietrzyk45 , M. Pikies30 , M. Pili59 , A. Pilloni72,20 , D. Pinci27 ,
+J. Pinzino44 , F. Pisani44 , A. Piucci13 , V. Placinta33 , S. Playfer54 , J. Plews49 , M. Plo Casasus43 ,
+F. Polci9 , M. Poli Lener19 , M. Poliakova63 , A. Poluektov7 , N. Polukhina76,c , I. Polyakov63 ,
+E. Polycarpo2 , G.J. Pomery50 , S. Ponce44 , A. Popov40 , D. Popov49 , S. Poslavskii40 , E. Price50 ,
+C. Prouve43 , V. Pugatch48 , A. Puig Navarro46 , H. Pullen59 , G. Punzi25,p , W. Qian66 , J. Qin66 ,
+R. Quagliani9 , B. Quintana6 , N.V. Raab14 , B. Rachwal31 , J.H. Rademacker50 , M. Rama25 ,
+M. Ramos Pernas43 , M.S. Rangel2 , F. Ratnikov37,38 , G. Raven29 , M. Ravonel Salzgeber44 ,
+M. Reboud5 , F. Redi45 , S. Reichert11 , A.C. dos Reis1 , F. Reiss9 , C. Remon Alepuz78 , Z. Ren3 ,
+V. Renaudin59 , S. Ricciardi53 , S. Richards50 , K. Rinnert56 , P. Robbe8 , A. Robert9 ,
+A.B. Rodrigues45 , E. Rodrigues61 , J.A. Rodriguez Lopez70 , M. Roehrken44 , S. Roiser44 ,
+A. Rollings59 , V. Romanovskiy40 , A. Romero Vidal43 , J.D. Roth80 , M. Rotondo19 ,
+M.S. Rudolph63 , T. Ruf44 , J. Ruiz Vidal78 , J.J. Saborido Silva43 , N. Sagidova41 , B. Saitta23,f ,
+V. Salustino Guimaraes65 , C. Sanchez Gras28 , C. Sanchez Mayordomo78 , B. Sanmartin Sedes43 ,
+R. Santacesaria27 , C. Santamarina Rios43 , M. Santimaria19,44 , E. Santovetti26,j , G. Sarpis58 ,
+A. Sarti19,k , C. Satriano27,s , A. Satta26 , M. Saur66 , D. Savrina34,35 , S. Schael10 ,
+M. Schellenberg11 , M. Schiller55 , H. Schindler44 , M. Schmelling12 , T. Schmelzer11 , B. Schmidt44 ,
+O. Schneider45 , A. Schopper44 , H.F. Schreiner61 , M. Schubiger28 , S. Schulte45 , M.H. Schune8 ,
+R. Schwemmer44 , B. Sciascia19 , A. Sciubba27,k , A. Semennikov34 , E.S. Sepulveda9 , A. Sergi49,44 ,
+N. Serra46 , J. Serrano7 , L. Sestini24 , A. Seuthe11 , P. Seyfert44 , M. Shapkin40 , T. Shears56 ,
+L. Shekhtman39,x , V. Shevchenko75 , E. Shmanin76 , B.G. Siddi17 , R. Silva Coutinho46 ,
+L. Silva de Oliveira2 , G. Simi24,o , S. Simone15,d , I. Skiba17 , N. Skidmore13 , T. Skwarnicki63 ,
+M.W. Slater49 , J.G. Smeaton51 , E. Smith10 , I.T. Smith54 , M. Smith57 , M. Soares16 ,
+l. Soares Lavra1 , M.D. Sokoloff61 , F.J.P. Soler55 , B. Souza De Paula2 , B. Spaan11 ,
+E. Spadaro Norella22,q , P. Spradlin55 , F. Stagni44 , M. Stahl13 , S. Stahl44 , P. Stefko45 ,
+S. Stefkova57 , O. Steinkamp46 , S. Stemmle13 , O. Stenyakin40 , M. Stepanova41 , H. Stevens11 ,
+A. Stocchi8 , S. Stone63 , S. Stracka25 , M.E. Stramaglia45 , M. Straticiuc33 , U. Straumann46 ,
+S. Strokov77 , J. Sun3 , L. Sun68 , Y. Sun62 , K. Swientek31 , A. Szabelski32 , A. Szczepaniak81,ac ,
+T. Szumlak31 , M. Szymanski66 , S. T’Jampens5 , Z. Tang3 , T. Tekampe11 , G. Tellarini17 ,
+F. Teubert44 , E. Thomas44 , J. van Tilburg28 , M.J. Tilley57 , V. Tisserand6 , M. Tobin4 , S. Tolk44 ,
+L. Tomassetti17,g , D. Tonelli25 , D.Y. Tou9 , E. Tournefier5 , M. Traill55 , M.T. Tran45 ,
+A. Trisovic51 , A. Tsaregorodtsev7 , G. Tuci25,44,p , A. Tully51 , N. Tuning28 , A. Ukleja32 ,
+A. Usachov8 , A. Ustyuzhanin37,38 , U. Uwer13 , A. Vagner77 , V. Vagnoni16 , A. Valassi44 ,
+S. Valat44 , G. Valenti16 , H. Van Hecke82 , C.B. Van Hulse14 , A. Vasiliev40 , R. Vazquez Gomez44 ,
+P. Vazquez Regueiro43 , S. Vecchi17 , M. van Veghel28 , J.J. Velthuis50 , M. Veltri18,r ,
+A. Venkateswaran63 , M. Vernet6 , M. Veronesi28 , M. Vesterinen52 , J.V. Viana Barbosa44 ,
+D. Vieira66 , M. Vieites Diaz43 , H. Viemann71 , X. Vilasis-Cardona42,m , A. Vitkovskiy28 ,
+M. Vitti51 , V. Volkov35 , A. Vollhardt46 , D. Vom Bruch9 , B. Voneki44 , A. Vorobyev41 ,
+V. Vorobyev39,x , N. Voropaev41 , J.A. de Vries28 , C. Vázquez Sierra28 , R. Waldi71 , J. Walsh25 ,
+J. Wang4 , J. Wang3 , M. Wang3 , Y. Wang69 , Z. Wang46 , D.R. Ward51 , H.M. Wark56 ,
+N.K. Watson49 , D. Websdale57 , A. Weiden46 , C. Weisser60 , M. Whitehead10 , G. Wilkinson59 ,
+M. Wilkinson63 , I. Williams51 , M.R.J. Williams58 , M. Williams60 , T. Williams49 , F.F. Wilson53 ,
+M. Winn8 , W. Wislicki32 , M. Witek30 , G. Wormser8 , S.A. Wotton51 , K. Wyllie44 , D. Xiao69 ,
+Y. Xie69 , H. Xing67 , A. Xu3 , L. Xu3 , M. Xu69 , Q. Xu66 , Z. Xu3 , Z. Xu5 , Z. Yang3 , Z. Yang62 ,
+Y. Yao63 , L.E. Yeomans56 , H. Yin69 , J. Yu69,aa , X. Yuan63 , O. Yushchenko40 , K.A. Zarebski49 ,
+M. Zavertyaev12,c , M. Zeng3 , D. Zhang69 , L. Zhang3 , S. Zhang3 , W.C. Zhang3,z , Y. Zhang44 ,
+A. Zhelezov13 , Y. Zheng66 , X. Zhu3 , V. Zhukov10,35 , J.B. Zonneveld54 , S. Zucchelli16,e .
+1
+  Centro Brasileiro de Pesquisas Fı́sicas (CBPF), Rio de Janeiro, Brazil
+2
+  Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil
+3
+  Center for High Energy Physics, Tsinghua University, Beijing, China
+4
+  Institute Of High Energy Physics (ihep), Beijing, China
+
+
+                                                   21
+5
+  Univ. Grenoble Alpes, Univ. Savoie Mont Blanc, CNRS, IN2P3-LAPP, Annecy, France
+6
+  Université Clermont Auvergne, CNRS/IN2P3, LPC, Clermont-Ferrand, France
+7
+  Aix Marseille Univ, CNRS/IN2P3, CPPM, Marseille, France
+8
+  LAL, Univ. Paris-Sud, CNRS/IN2P3, Université Paris-Saclay, Orsay, France
+9
+  LPNHE, Sorbonne Université, Paris Diderot Sorbonne Paris Cité, CNRS/IN2P3, Paris, France
+10
+   I. Physikalisches Institut, RWTH Aachen University, Aachen, Germany
+11
+   Fakultät Physik, Technische Universität Dortmund, Dortmund, Germany
+12
+   Max-Planck-Institut für Kernphysik (MPIK), Heidelberg, Germany
+13
+   Physikalisches Institut, Ruprecht-Karls-Universität Heidelberg, Heidelberg, Germany
+14
+   School of Physics, University College Dublin, Dublin, Ireland
+15
+   INFN Sezione di Bari, Bari, Italy
+16
+   INFN Sezione di Bologna, Bologna, Italy
+17
+   INFN Sezione di Ferrara, Ferrara, Italy
+18
+   INFN Sezione di Firenze, Firenze, Italy
+19
+   INFN Laboratori Nazionali di Frascati, Frascati, Italy
+20
+   INFN Sezione di Genova, Genova, Italy
+21
+   INFN Sezione di Milano-Bicocca, Milano, Italy
+22
+   INFN Sezione di Milano, Milano, Italy
+23
+   INFN Sezione di Cagliari, Monserrato, Italy
+24
+   INFN Sezione di Padova, Padova, Italy
+25
+   INFN Sezione di Pisa, Pisa, Italy
+26
+   INFN Sezione di Roma Tor Vergata, Roma, Italy
+27
+   INFN Sezione di Roma La Sapienza, Roma, Italy
+28
+   Nikhef National Institute for Subatomic Physics, Amsterdam, Netherlands
+29
+   Nikhef National Institute for Subatomic Physics and VU University Amsterdam, Amsterdam,
+Netherlands
+30
+   Henryk Niewodniczanski Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland
+31
+   AGH - University of Science and Technology, Faculty of Physics and Applied Computer Science,
+Kraków, Poland
+32
+   National Center for Nuclear Research (NCBJ), Warsaw, Poland
+33
+   Horia Hulubei National Institute of Physics and Nuclear Engineering, Bucharest-Magurele, Romania
+34
+   Institute of Theoretical and Experimental Physics NRC Kurchatov Institute (ITEP NRC KI), Moscow,
+Russia, Moscow, Russia
+35
+   Institute of Nuclear Physics, Moscow State University (SINP MSU), Moscow, Russia
+36
+   Institute for Nuclear Research of the Russian Academy of Sciences (INR RAS), Moscow, Russia
+37
+   Yandex School of Data Analysis, Moscow, Russia
+38
+   National Research University Higher School of Economics, Moscow, Russia
+39
+   Budker Institute of Nuclear Physics (SB RAS), Novosibirsk, Russia
+40
+   Institute for High Energy Physics NRC Kurchatov Institute (IHEP NRC KI), Protvino, Russia,
+Protvino, Russia
+41
+   Petersburg Nuclear Physics Institute NRC Kurchatov Institute (PNPI NRC KI), Gatchina, Russia ,
+St.Petersburg, Russia
+42
+   ICCUB, Universitat de Barcelona, Barcelona, Spain
+43
+   Instituto Galego de Fı́sica de Altas Enerxı́as (IGFAE), Universidade de Santiago de Compostela,
+Santiago de Compostela, Spain
+44
+   European Organization for Nuclear Research (CERN), Geneva, Switzerland
+45
+   Institute of Physics, Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland
+46
+   Physik-Institut, Universität Zürich, Zürich, Switzerland
+47
+   NSC Kharkiv Institute of Physics and Technology (NSC KIPT), Kharkiv, Ukraine
+48
+   Institute for Nuclear Research of the National Academy of Sciences (KINR), Kyiv, Ukraine
+49
+   University of Birmingham, Birmingham, United Kingdom
+50
+   H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom
+51
+   Cavendish Laboratory, University of Cambridge, Cambridge, United Kingdom
+52
+   Department of Physics, University of Warwick, Coventry, United Kingdom
+53
+   STFC Rutherford Appleton Laboratory, Didcot, United Kingdom
+54
+   School of Physics and Astronomy, University of Edinburgh, Edinburgh, United Kingdom
+
+
+
+                                                22
+55
+   School of Physics and Astronomy, University of Glasgow, Glasgow, United Kingdom
+56
+   Oliver Lodge Laboratory, University of Liverpool, Liverpool, United Kingdom
+57
+   Imperial College London, London, United Kingdom
+58
+   School of Physics and Astronomy, University of Manchester, Manchester, United Kingdom
+59
+   Department of Physics, University of Oxford, Oxford, United Kingdom
+60
+   Massachusetts Institute of Technology, Cambridge, MA, United States
+61
+   University of Cincinnati, Cincinnati, OH, United States
+62
+   University of Maryland, College Park, MD, United States
+63
+   Syracuse University, Syracuse, NY, United States
+64
+   Laboratory of Mathematical and Subatomic Physics , Constantine, Algeria, associated to 2
+65
+   Pontifı́cia Universidade Católica do Rio de Janeiro (PUC-Rio), Rio de Janeiro, Brazil, associated to 2
+66
+   University of Chinese Academy of Sciences, Beijing, China, associated to 3
+67
+   South China Normal University, Guangzhou, China, associated to 3
+68
+   School of Physics and Technology, Wuhan University, Wuhan, China, associated to 3
+69
+   Institute of Particle Physics, Central China Normal University, Wuhan, Hubei, China, associated to 3
+70
+   Departamento de Fisica , Universidad Nacional de Colombia, Bogota, Colombia, associated to 9
+71
+   Institut für Physik, Universität Rostock, Rostock, Germany, associated to 13
+72
+   European Centre for Theoretical Studies in Nuclear Physics and Related Areas and Fondazione Bruno
+Kessler, Villazzano, Italy
+73
+   Universidad Nacional Autónoma de México, Ciudad de México
+74
+   Van Swinderen Institute, University of Groningen, Groningen, Netherlands, associated to 28
+75
+   National Research Centre Kurchatov Institute, Moscow, Russia, associated to 34
+76
+   National University of Science and Technology “MISIS”, Moscow, Russia, associated to 34
+77
+   National Research Tomsk Polytechnic University, Tomsk, Russia, associated to 34
+78
+   Instituto de Fisica Corpuscular, Centro Mixto Universidad de Valencia - CSIC, Valencia, Spain,
+associated to 42
+79
+   H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom, Bristol, United
+Kingdom
+80
+   University of Michigan, Ann Arbor, United States, associated to 63
+81
+   Indiana University, Bloomington, United States
+82
+   Los Alamos National Laboratory (LANL), Los Alamos, United States, associated to 63
+a
+  Universidade Federal do Triângulo Mineiro (UFTM), Uberaba-MG, Brazil
+b
+  Laboratoire Leprince-Ringuet, Palaiseau, France
+c
+  P.N. Lebedev Physical Institute, Russian Academy of Science (LPI RAS), Moscow, Russia
+d
+  Università di Bari, Bari, Italy
+e
+  Università di Bologna, Bologna, Italy
+f
+  Università di Cagliari, Cagliari, Italy
+g
+  Università di Ferrara, Ferrara, Italy
+h
+  Università di Genova, Genova, Italy
+i
+  Università di Milano Bicocca, Milano, Italy
+j
+  Università di Roma Tor Vergata, Roma, Italy
+k
+  Università di Roma La Sapienza, Roma, Italy
+l
+  AGH - University of Science and Technology, Faculty of Computer Science, Electronics and
+Telecommunications, Kraków, Poland
+m
+   LIFAELS, La Salle, Universitat Ramon Llull, Barcelona, Spain
+n
+  Hanoi University of Science, Hanoi, Vietnam
+o
+  Università di Padova, Padova, Italy
+p
+  Università di Pisa, Pisa, Italy
+q
+  Università degli Studi di Milano, Milano, Italy
+r
+  Università di Urbino, Urbino, Italy
+s
+  Università della Basilicata, Potenza, Italy
+t
+  Scuola Normale Superiore, Pisa, Italy
+u
+  Università di Modena e Reggio Emilia, Modena, Italy
+v
+  H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom
+w
+   MSU - Iligan Institute of Technology (MSU-IIT), Iligan, Philippines
+x
+  Novosibirsk State University, Novosibirsk, Russia
+
+
+                                                   23
+y
+ Sezione INFN di Trieste, Trieste, Italy
+z
+ School of Physics and Information Technology, Shaanxi Normal University (SNNU), Xi’an, China
+aa
+   Physics and Micro Electronic College, Hunan University, Changsha City, China
+ab
+   Lanzhou University, Lanzhou, China
+ac
+   Thomas Jefferson National Accelerator Facility, Newport News, United States
+†
+    Deceased
+
+
+
+
+                                               24
+

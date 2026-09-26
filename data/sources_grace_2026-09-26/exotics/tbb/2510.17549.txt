@@ -1,0 +1,1676 @@
+                                             Electromagnetic form factors and structure of the Tbb tetraquark from lattice QCD
+
+                                                             Ivan Vujmilovic,1, 2, ∗ Sara Collins,3, † Luka Leskovec,1, 2, ‡ and Sasa Prelovsek1, 2, §
+                                                                              1
+                                                                                Jožef Stefan Institute, Jamova 39, 1000 Ljubljana, Slovenia
+                                                              2
+                                                              Faculty of Mathematics and Physics, University of Ljubljana, 1000 Ljubljana, Slovenia
+                                                              3
+                                                                Institut für Theoretische Physik, Universität Regensburg, 93040 Regensburg, Germany
+                                                            We present the first lattice QCD determination of the electromagnetic form factors of the exotic
+                                                                              ¯ with quantum numbers I(J P ) = 0(1+ ). The extracted form factors encode
+                                                         tetraquark Tbb (bbūd)
+                                                         information about its internal structure, including the charge distribution and the magnetic dipole
+                                                         moments, determined separately for the light and heavy quarks. Our results provide evidence in
+                                                         favor of it being a bound state consisting of a compact heavy diquark [bb] in a color-antitriplet with
+                                                                                              ¯ in a color-triplet with spin zero. The charge radius of Tbb is
+                                                         spin one, and a light antidiquark [ūd]
+                                                         found to be significantly smaller than the combined charge radii of B and B ∗ mesons. These two
+                                                         comprise the lowest-lying threshold BB ∗ in the channel we are considering, and their electric charge
+                                                         form factors are also determined. The computations were performed on a single CLS ensemble with
+
+
+
+
+arXiv:2510.17549v4 [hep-lat] 29 Apr 2026
+                                                         Nf = 2 + 1 dynamical quarks and a lattice spacing of approximately a ≈ 0.064 fm at the pion mass
+                                                         mπ ≈ 290 MeV.
+
+
+                                              Introduction: Quantum Chromodynamics (QCD),                     Currently, almost all theoretically or experimentally
+                                           as an integral part of the Standard Model of particle              studied form factors of QCD states involve the con-
+                                           physics, has achieved enormous success in explaining               ventional states, e.g. pions [41–46], nucleons [47–52],
+                                           the existence of hadrons—mesons and baryons that                   kaons [44, 46, 53] and others (including transition and
+                                           are bound states or resonances. In a simple quark                  multi-particle form factors) [54–61].
+                                           model picture these are built either from a single                    Tetraquarks admit two color configurations that
+                                           quark-antiquark pair (q̄1 q2 ) or three quarks (q1 q2 q3 ),        yield a SU (3) singlet hadron [15, 17, 62]. One is the
+                                           respectively [1, 2]. QCD also allows for the existence             so-called molecular structure where the wave function is
+                                           of more exotic states [3, 4], e.g. tetraquarks (q̄1 q̄2 q3 q4 ),   a product of two quark-antiquark pairs, both in definite
+                                           pentaquarks (q1 q̄2 q3 q4 q5 ), hybrid mesons (q̄1 gq2 ) or        color representations: (q̄1 q3 )1 (q̄2 q4 )1 , (q̄1 q4 )1 (q̄2 q3 )1
+                                           glueball-like mesons, the latter built mainly from gluons;         and (q̄1 q3 )8 (q̄2 q4 )8 .    The first two feature pairs of
+                                           many of these have been discovered experimentally                  color-singlet hadrons interacting via residual color
+                                           [5–14]. Nevertheless the quest to determine how the                interactions. This structure prevails in nuclei composed
+                                           exotic states populate the dense spectrum arising from             of protons and neutrons, and plays a prominent role for
+                                           QCD is one of the most active avenues of research in               many tetraquark residing near meson-meson thresholds.
+                                           hadronic physics [15–18].                                          The second possibility includes the diquark-antidiquark
+                                              The     as-yet-experimentally-undiscovered         doubly-      structure: [q̄1 q̄2 ]3 [q3 q4 ]3̄ or [q̄1 q̄2 ]6̄ [q3 q4 ]6 . The former
+                                           bottom tetraquark Tbb = bbūd,     ¯ I(J P ) = 0(1+ ), has         features a diquark in a color-antitriplet and an antidi-
+                                           been particularly scrutinized as one the most promising            quark in a color-triplet, while the latter is comprised
+                                           candidates for an exotic QCD stable state [19–26].                 of a color-sextet and a color-antisextet. These color
+                                           State-of-the-art lattice studies find its mass to be sig-          wave-functions are not linearly independent and can be
+                                           nificantly below the lowest compatible decay threshold,            related to each other [62, 63].
+                                           BB ∗ , in the I = 0 channel [20, 27–34]. These studies                In this work, we probe the structure of the doubly-
+                                           are especially pertinent given the recent discovery of             bottom tetraquark Tbb by determining its electromag-
+                                           Tcc = ccūd¯ at LHCb [14] and the favourable prospects             netic form factors in lattice QCD. Its stability against
+                                           of observing Tbc = bcūd¯ [35, 36], expected to lie slightly       strong decay guarantees that infinite-volume matrix
+                                           below the DB ∗ threshold [37–39]. Regarding Tbb , its              elements ⟨Tbb |ȷ̂|Tbb ⟩ are directly accessible from the
+                                           production cross section at the LHC was determined                 lattice and are not significantly polluted by finite-volume
+                                           to be a few nb [35]. Detection in exclusive decays                 effects [64, 65]. This feature sets the Tbb apart from all
+                                           seems unlikely [40], while there may be a possibility of           so-far discovered tetraquarks, which decay via strong
+                                           observing Tbb in inclusive decays [40].                            interaction and therefore do not correspond to QCD
+                                              Information about the structure of composite parti-             asymptotic states. The Tbb , by contrast only decays
+                                           cles, i.e. their spin, color and orbital wave functions,           weakly—like the pion, kaon, and other pseudoscalar
+                                           are encoded in their form factors. They appear via                 hadrons. As such, it provides a unique opportunity to
+                                           Lorentz-covariant parametrizations of matrix elements              study the structure of a hadron, whose manifestly exotic
+                                           M = ⟨h2 (p2 , λ2 )|ȷ̂(x = 0)|h1 (p1 , λ1 )⟩, with h1(2) being      character arises from its flavor content (two bottom
+                                           single hadrons possessing momenta and helicities p1(2)             quarks) and its electric charge.
+                                           and λ1(2) , and the current ȷ̂ representing the probe.                   ȷ̂µ
+                                                                                                                   EM
+                                                                                                                h −−−→ h form factor decomposition: The matrix
+                                                                                                                                                  2
+
+element linked to the electromagnetic (EM) composition                   a)                                            b)
+of a hadron h is defined in the continuum as
+  MµEM (p2 , λ2 , p1 , λ1 ) = ⟨h(p2 , λ2 )|ȷ̂µEM,cont |h(p1 , λ1 )⟩,
+                                 X
+                   ȷ̂µEM,cont =       eq q̄γ µ q,                  (1)
+                                     q
+
+where eq is the charge of quark q.
+  The decomposition of matrix element (1) is uniquely
+determined by the particle spin and the current ȷ̂ [66].
+                                                                         FIG. 1. a) Example of a connected Wick contraction di-
+For the same pseudoscalar in the initial and final state
+                                                                         agram generated by the Tbb three-point correlator (6). b)
+this renders a single form factor [67]                                   Pictorial representation of the resulting distributions for light
+                  MµEM = (p1 + p2 )µ FC (Q2 ),                    (2)    and heavy quarks.
+
+              P     ±
+while for J       =1    particles this gives [68]
+                                                                                                                                      V
+                                                                         are non-perturbatively renormalized with factors Zu/d
+       MµEM = − (p1 + p2 )µ (ε∗2 · ε1 )F1 (Q2 )−                  (3)           V
+                                                                         and Zb determined from Tbb matrix elements to recover
+                   − [(ε∗2 · q)εµ1 − (ε1 · q)ε∗µ      2
+                                              2 ]F2 (Q )+                the infinite-volume and continuum normalization of the
+                    (ε∗2 · q)(ε1 · q)                                    Tbb charge form factor, FC (0) = −1. The b−quark ac-
+                   +                  (p1 + p2 )µ F3 (Q2 ),              tion, its tuning and current renormalization are described
+                           2m2
+                                                                         in the Supplemental Material [75].
+with Q2 ≡ −q 2 = −(p2 − p1 )2 > 0 defined as the momen-                        The desired matrix elements (1) for states h =
+                      (∗)
+tum transfer and ε1(2) as the polarization four-vectors.                                                                          (†)
+                                                                         Tbb , B, B ∗ , π (generated by the interpolators Oh as de-
+FC,1,2,3 (Q2 ) are Lorentz-scalars that are functions of Q2 .            tailed in [75]) were computed from three-point correlation
+F1,2,3 (Q2 ) are further related to the charge, magnetic                 functions C3µ (⃗ p2 , q⃗, T ; t), shown for Tbb in Fig. 1:
+dipole and electric quadrupole form factors, labeled by
+FC , FM and FQ , respectively, via a linear transformation                C3µ (⃗                        p2 , T )ȷ̂µEM (⃗q, t)Oh† (x = 0)|Ω⟩ =
+                                                                               p2 , q⃗, T ; t) = ⟨Ω|Oh (⃗
+[68, 69]                                                                           ∞
+                                                                                   X         Znf ∗ Zm
+                                                                                                    i                    f            i
+                                                                              =                             Mµnm e−En (T −t) e−Em t .           (6)
+   FC (Q2 )         1 + 32 η − 23 η 32 η(1 + η)       F1 (Q2 )
+                                                                                     f     i
+                                                                                  n,m=0 (2En )(2Em )
+ FM (Q2 ) =  0               1         0      F2 (Q2 ) ,
+   FQ (Q )2
+                       1       −1      (1 + η)        F3 (Q2 )           Here p⃗2 and q⃗ ≡ p⃗2 − p⃗1 are momenta at the sink and
+                                                               (4)       the current, respectively, while T denotes the source-sink
+              2
+                                                                         temporal separation. The three-point function is decom-
+             Q
+with η = 4m    2 . The normalization of the charge form fac-             posed in terms of initial states (i, m) and final states
+          2
+tor at Q = 0 is fixed to the total charge Z of the state in              (f, n) in Euclidean time. The Za = ⟨a|Oh† |Ω⟩ labels the
+units of the elementary charge e0 , i.e. FC (Q2 = 0) = Z.                overlap with the a-th state and Ea denotes its energy.
+The values of the electric quadrupole and the magnetic                   In addition, operators Oh for h = B ∗ , Tbb with nonzero
+dipole form factors at Q2 = 0 yield the values of the total              spin are projected to the appropriate rows r and irreps
+electric quadrupole moment Q = m12 FQ (0) and the mag-                   Λ of subgroups of the octahedral group. In addition to
+                                 1
+netic dipole moment µ = 2m         FM (0) [70, 71].                      the connected Wick contraction in Fig. 1a, there might
+    Lattice setup: We employ a single ensemble of gauge                  be in principle also a nonvanishing contribution of dis-
+configurations (X253) with a hypervolume NL3 × NT =                      connected diagrams. The latter are typically found to be
+403 × 128 and lattice spacing a = 0.06379(37) fm [72],                   very small for EM currents (e.g. [76] for nucleon) and we
+generated by the Coordinated Lattice Simulations (CLS)                   omit them in the current study.
+effort [73]. This Nf = 2+1 ensemble features s and de-                    To isolate the ground-state matrix element Mµ00 ≡ Mµ ,
+generate u/d quarks described by the non-perturbatively                  we remove the zeroth-order dependence of the three-point
+O(a) improved Wilson action, resulting in a pion mass                                                                             f (i)
+                                                                         correlator (6) on the ground-state overlap factors Z0
+mπ ≈ 290 MeV, listed in Table I. The bottom quark                                       f (i)
+                                                                         and energies E0 , obtained from the corresponding two-
+action is implemented with an anisotropic Clover action
+                                                                                                              p, t)Oh† (0)|Ω⟩. This is
+                                                                                               p, t) = ⟨Ω|Oh (⃗
+                                                                         point correlators C2 (⃗
+[74], tuned to reproduce the physical masses and contin-                                                    µ
+                                                                         done by constructing the ratio R3 (⃗ p, q⃗, T ; t)
+uum energy-momentum dispersions of B and B ∗ mesons
+on the ensemble [5].                                                                              (2E0f )(2E0i ) E0f (T −t) E0i t µ
+    The light and heavy EM currents                                      R3µ (⃗
+                                                                              p2 , q⃗, T ; t) =                 e          e C3 (⃗  p2 , q⃗, T ; t),
+                                                                                                    Z0f ∗ Z0i
+ȷ̂µu/d = Zu/d
+           V                     ¯ µ d , ȷ̂µ = Z V × − 1 b̄γ µ b ,
+               × 23 ūγ µ u − 13 dγ
+                                                               
+                                           b    b      3                                                                                        (7)
+                        ȷ̂µEM = ȷ̂µu/d + ȷ̂µb ,                   (5)    defined in eq. (28) of Supplemental Material of Ref. [61],
+                                                                                                                                                            3
+a)                                                                       b)
+     1.0                                                    Tbb                           3.5                                                         Tbb
+                                                            B                                                                                         B
+
+
+
+
+                                                                              = −4πr2ρ(r) (fm−1)
+                                                                           de
+     0.8                                                    B∗                            3.0                                                         B∗
+
+
+
+
+                                                                         − dr
+                                                            π
+                                                                                          2.5
+−FC (Q2)
+     0.6
+                                                                                          2.0
+     0.4                                                                                  1.5
+                                                                                          1.0
+     0.2
+                                                                                          0.5
+     0.0
+        0.0         0.5       1.0    1.5              2.0                                 0.0
+                                                                                             0.0          0.2        0.4        0.6           0.8     1.0
+                               2   2
+                             Q (GeV )                                                                                      r (fm)
+FIG. 2. a) Charge form factors FC (Q2 ) of hadrons h = Tbb , B(bū), B ∗ (bū), π(dū), shown as a function of Q2 . Discrete markers
+show lattice data, while the bands represent z−expansion fits. Second order expansion (up to and including n = 2 in eq. (9))
+was used to parametrize Tbb , B, B ∗ electric form factors, while a first order expansion sufficed for an adequate parametrization
+of the pion form factor. b) Position-space charge densities ρ(r), represented in the form of − dr   de
+                                                                                                       = −4πr2 ρ, are related to the
+form factors via a Fourier transform. Negative values of charge form factors and distributions are shown, given that considered
+hadrons are negatively charged.
+
+
+that equals the desired matrix element, up to excited-                  latter plot also shows the individual EM form factors of
+state contamination. Two models are used in fits to                     the light and heavy currents, extracted from matrix ele-
+data: a constant fit, assuming no contamination, or a                   ments ⟨Tbb |ȷ̂µu/d |Tbb ⟩ and ⟨Tbb |ȷ̂µb |Tbb ⟩, respectively.
+model that also incorporates first-excited states [75]. To                 Continuous bands in Figs. 2 and 3 follow from
+improve fit quality, we performed a weighted average of                 parametrizing all form factors using the z−expansion
+the ratios (7) over selected equivalent directions of the               [77–79] of the form:
+sink and source momenta that yield the same value of
+Q2 . The averaged data was simultaneously fitted for four                                                        1      X
+                                                                                                   F (Q2 ) =      Q2
+                                                                                                                            an z n (Q2 ; t+ , t0 ).    (9)
+source-sink separations Ta = 12, 15, 18, 22. The averaging                                                     1+ m 2   n
+                                                                                                                    r
+procedure and plots showing representative fits are given
+in the Supplemental Material [75].                                      Here mr is the mass of the closest resonance and z is a
+                                                                        variable that maps Q2 to the unit disk,
+                                                                                                    p          √
+                                                                                                      t+ + Q2 − t+ − t0
+                              p
+                                 2
+              h   mh (GeV)     ⟨rC ⟩ (fm) r    t+                                    2
+                                                                                  z(Q ; t+ , t0 ) = p          √        , (10)
+              Tbb 10.5765(98) 0.499(31)   ω (3mπ )2                                                   t+ + Q2 + t+ − t0
+              B 5.3020(17) 0.692(21)      ρ (2mπ )2
+              B ∗ 5.3387(20) 0.698(23)    ρ (2mπ )2                     where t+ is the squared mass of the nearest multi-particle
+              π 0.28953(97) 0.652(20)     ρ (2mπ )2                     threshold and t0 is a tunable parameter. Table I lists
+                                                                        the closest resonances and thresholds employed in fitting
+                                                                        eq. (9) to all form factors. The thresholds t+ are evalu-
+                                                     p
+                                                          2
+TABLE I. Hadron masses mh and charge radii              ⟨rC ⟩.
+Columns r and t+ show the resonances and multi-particle                 ated at mπ ≈ 290 MeV. As the ρ and ω resonance masses
+thresholds, respectively, that appear in the z−expansions.              are not known on our ensemble, we use the PDG values
+                                                                        and verify that the fits are robust when varying these
+   Results: The extracted masses of Tbb , B and B ∗ ,                   masses within the range mω,ρ ∈ [750 MeV, 900 MeV].
+listed in Table I, render a significant binding energy of               The coefficients an are fit parameters, and we truncate
+the Tbb with respect to the BB ∗ threshold                              all expansions at order n = 2 or less, with their numerical
+                                                                        values, and that of t0 , given in the Supplemental Mate-
+           mTbb − (mB + mB ∗ ) = −64(10) MeV,                     (8)   rial [75].
+                                                                             The electric charge and quadrupole form factors en-
+at mπ ≈ 290 MeV. This is in line with the large binding
+                                                                        code the information about the spatial charge distribu-
+observed in previous studies, e.g. [20, 23, 27–32, 34].
+  The EM form factors of hadrons h = Tbb , B, B ∗ , π                                q and consequently the charge radius rC ≡
+                                                                        tion ρ(⃗r) [71]
+                                                                                       6 · dF
+                                                                        p
+                                                                             2
+                                                                           ⟨rC ⟩ =         dQ2 (0). We find that the quadrupole
+                                                                                              C
+are shown in Figs. 2a and 3 for five values of Q2 . The
+                                                                                                                                                  4
+a)                                           b)                                                 c)
+     1.0                              Tbb                                                Tbb             15                                Tbb
+                                      bb               2.0                               bb                                                bb
+                                      ūd¯                                               ūd¯            10                                ūd¯
+     0.8
+                                                       1.5
+                                                                                                          5
+     0.6
+−FC (Q2)
+                                             FM (Q2)
+                                                       1.0                                      FQ(Q2)    0
+     0.4
+                                                                                                         −5
+                                                       0.5
+
+     0.2
+                                                                                                     −10
+                                                       0.0
+     0.0                                                                                             −15
+        0.0   0.5    1.0     1.5    2.0                  0.0   0.5    1.0     1.5      2.0              0.0       0.5      1.0     1.5   2.0
+                    Q2 (GeV2)                                        Q2 (GeV2)                                            Q2 (GeV2)
+
+FIG. 3. Form factors of the Tbb . Each subfigure shows the total value of the form factors with separate contributions yielded
+by the light current ȷ̂µ                            µ
+                       u/d and the heavy current ȷ̂b . The crosses in a) mark values to which each of the charge form factors
+                            2
+have been normalized at Q = 0, while the shaded vertical bands in b) and c) indicate the values of magnetic dipole moments
+2mTbb · µ and electric quadrupole moments m2Tbb · Q, respectively, also found in Table II. The points on the rightmost plot are
+slightly horizontally displaced for improved visibility.
+
+
+contribution in Tbb is negligible with respect to the                        Motivated by our findings, we assume that the Tbb
+monopole contribution, as shown in Fig. 3 of [75].
+The corresponding monopole of the spatial charge dis-                                                                      ¯
+                                                                                                    Tbb       [bb]      [ūd]
+tribution is obtained via the Fourier transform, ρ(r) =                             p
+R d3 q i⃗q·⃗r                                                                           2
+              FC (|⃗q|2 ), in the non-relativistic limit, which                       ⟨rC ⟩ (fm) 0.499(31) 0.174(59) 0.511(14)
+   (2π)3 e                                                                           2mTbb · µ 1.912(57) 1.887(29) 0.02(18)
+a good approximation for Tbb , B and B ∗ . The resulting                             m2Tbb · Q    1.9(8.7) 0.6(8.8) −0.18(86)
+charge radius of the Tbb , 0.499(31) fm, is smaller than
+that of the B or B ∗ individually (listed in Table I), and               TABLE II. Charge radii, magnetic dipole µ and elec-
+significantly smaller than the sum of both, 1.390(31) fm.                tric quadrupole moments Q of Tbb and the constituent
+This is consistent with the Tbb charge density being con-                (anti)diquarks. The same values are also shown with shaded
+centrated at a smaller radius r than the charge densities                bands at Q2 = 0 in Figs. 3b and 3c.
+of B or B ∗ , see Fig. 2b. The compactness of the Tbb im-
+plies that the notion of a B − B ∗ molecule is not mean-                 state vector in the QCD Hilbert space can be expanded
+ingful and instead favors a compact diquark-antidiquark                  in the diquark-antidiquark basis with compatible quan-
+composition [33, 80–82]. B meson charge radius we ob-                    tum numbers, in line with quark models applied to QCD
+tain is comparable to the values found in Refs. [83, 84]                 exotics. Each diquark-antidiquark state is factorized into
+and has been studied previously on the lattice through                   three components (orbital, spin and color) [22, 62]:
+radial charge distributions in heavy-light mesons [85–87]
+with static heavy quarks.                                                                                                    P    +
+
+   The diquark-antidiquark structure is further supported                               {[bb]c̄lbb ,sbb [ūd]
+                                                                                                           ¯ I=0,lūd̄ ,sūd̄ }J =1
+                                                                                                             c                 l12        (11)
+by investigating the charge distributions of light and
+heavy (anti)diquarks separately in Fig. 3a. We find that                 where lbb and lūd¯ denote the relative orbital angular mo-
+the [bb] diquark component of the total charge form fac-                 menta in the diquark and antidiquark, respectively, and
+tor has significantly weaker Q2 dependence than the an-                  sbb , sūd¯ = 0, 1 are their corresponding spins. l12 is the
+tidiquark [ūd]¯ component, indicating that the diquark                  relative angular momentum between the diquark and the
+is more localized than the antidiquark, see Table II.                    antidiquark, whereas c = 3, 6̄ are color configurations, as
+This suggests that the structure with a very compact                     discussed in the introduction. The values introduced in
+heavy diquark and a relatively spatially extended antidi-                eq. (11) are subject to the constraints imposed by the Tbb
+quark is responsible for the large binding energy of the                 quantum numbers I(J P ) = 0(1+ ) and the Pauli princi-
+tetraquark, compatible with some quark model studies                     ple, ensuring that the total Tbb state is antisymmetric
+[22, 62, 80, 81, 88–90].                                                 with respect to the permutations of the b quarks or the
+                                                                         light antiquarks in the isospin limit. Accounting for this
+                                                                                                                                        5
+
+yields three relations [22, 88]                                                of an exotic tetraquark Tbb . All computations were done
+                                                                               on one CLS ensemble at the pion mass mπ ≈ 290 MeV, at
+   (a) (−1)sbb +lbb +c = 1,           (b) (−1)sūd̄ +lūd̄ +c = −1,            which we observe Tbb to be a strongly stable state with
+                            (a),(b)                                            a binding energy mTbb − (mB + mB ∗ ) = −64(10) MeV.
+  (−1)lbb +lūd̄ +l12 = 1 −→ (−1)sbb +sūd̄ +l12 = −1, (12)                       By probing Tbb with the electromagnetic light and
+                                                                               heavy currents, we extracted three form factors that re-
+where the first row follows from the Pauli principle and
+                                                                               veal three components of its structure: the electric charge
+the second ensures positive parity.
+                                                                               distribution, the magnetic dipole moment, and the elec-
+   Our results for the electric quadrupole form factors
+                                                                               tric quadrupole moment. Flavor decompositions of all
+are consistent with zero, as presented in Fig. 3c and
+                                                                               form factors were determined from the respective matrix
+Table II, given the present level of accuracy. This ap-
+                                                                               elements.
+plies to the total value and separate diquark and an-
+                                                                                  These observables were combined with constraints
+tidiquark contributions. It indicates that the S−wave
+                                                                               from the Pauli principle. We have shown that, within the
+(lbb = lūd¯ = l12 = 0) components dominate in the rela-
+                                                                               precision of our data, the Tbb is a compact bound state
+tive wave functions within the diquark, antidiquark, and
+                                                                               consisting of a heavy diquark [bb] in a color-antitriplet
+the total system [91, 92]. The magnetic dipole moment                                                                       ¯ in a color-
+                                                                               with spin one, and a light antidiquark [ūd]
+of the Tbb
+                                                                               triplet with spin zero. The structure of Tbb is there-
+                  X         eq ˆ                      FM (0)                   fore rather unique, and differs from a molecular structure
+ µTbb = ⟨Tbb |                 (lq + gq ŝq )|Tbb ⟩ =        , (13)            that dominates in many tetraquarks near meson-meson
+                           2mq                        2mTbb
+                 q=u,d,b
+                                                                               thresholds, and prevails in nuclei composed of protons
+is determined from the value of the magnetic dipole form                       and neutrons.
+factor FM at Q2 = 0. It is nonzero and almost completely                          In the future, it would be valuable to investigate the
+saturated by the contribution from the heavy quarks as                         structure of the Λb and Ξbb baryons, which might be re-
+seen in Fig. 3b, implying that the light quarks domi-                          lated to that of Tbb and the B meson, respectively, via
+nantly form a spin singlet state, while the heavy quarks                       the symmetry between the heavy diquark and the heavy
+are in a spin triplet state                                                    antiquark. Similarly, determining the EM form factors
+                                                                               of Tbc and eventually Tcc , would shed light on the heavy
+                        sūd¯ = 0,     sbb = 1.                         (14)   quark mass dependence of the internal configuration of
+                                                                               double heavy tetraquarks.
+Note that Tbb with molecular structure B − B ∗ would                              Data availability: Lattice data shown in this work can
+not render a spin correlation within two light quarks,                         be found at [94].
+or correlation within two heavy quarks, disfavoring the                           Acknowledgements: We thank M. Padmanath and
+molecular structure. Taking into account the orbital and                       R. J. Hudspith for valuable discussions, especially dur-
+spin quantum numbers, eq. (12) restricts the diquark-                          ing the early stages of the project regarding the tun-
+antidiquark to be in an antisymmetric color triplet-                           ing of the b−quark action. We thank our colleagues
+antitriplet configuration, i.e. c = 3. This uniquely deter-                    who are part of CLS for their joint effort in the gen-
+mines the Tbb state in QCD Hilbert space to be                                 eration of gauge configurations that were employed in
+                                                                               lattice simulations for this study. Software packages
+                                       I=0,lūd̄ =0,sūd̄ =0 J P =1+
+    |Tbb ⟩ = {[bb]3̄lbb =0,sbb =1 [ūd]
+                                     ¯
+                                       3                    }l12 =0 ,          QDP-JIT [95] and Chroma [96] were used for com-
+                                                                        (15)   puting the Wick contractions and inverting the heavy
+                                                                               quark Dirac operator, while the QUDA multigrid solver
+which is the simplest and the dominant configuration not                       was employed for the light quark Dirac operator in-
+in tension with our lattice results. Result (15) is graphi-                    versions [97]. The authors gratefully acknowledge the
+cally summarised in Fig. 1b.                                                   HPC RIVR consortium (https://www.hpc-rivr.si) and
+   The identified structure features the “good” light an-                      EuroHPC JU (https://eurohpc-ju.europa.eu) for funding
+tidiquark [3], in which the attraction between two quarks                      this research by providing computing resources of the
+increases with decreasing mu/d [93], therefore the domi-                       HPC system Vega at the Institute of Information Sci-
+nance of this structure is expected to pertain also at the                     ence (https://www.izum.si/en/home), in particular the
+physical light quark masses. We also expect that our                           project QCD on Vega (S24O01-37 and 525002-11). The
+findings, including the assignment of the quantum num-                         authors also acknowledge the scientific support and HPC
+bers in (15), are not significantly affected by finite-volume                  resources provided by the Erlangen National High Perfor-
+or lattice spacing effects. Future lattice QCD studies at                      mance Computing Center (NHR@FAU) of the Friedrich-
+smaller pion masses and lattice spacings, as well as larger                    Alexander-Universität Erlangen-Nürnberg (FAU) under
+volumes are desirable to confirm this.                                         the NHR project b124da. NHR funding is provided by
+   Conclusions: In this work we have presented the first                       federal and Bavarian state authorities. NHR@FAU hard-
+lattice QCD calculation of electromagnetic form factors                        ware is partially funded by the German Research Foun-
+                                                                                                                               6
+
+dation (DFG) – 440719683. The work of I. V., L. L.                     (2023), arXiv:2212.07793 [hep-lat].
+and S. P. is supported by the Slovenian Research Agency           [16] A. Francis, Lattice perspectives on doubly heavy
+(research core Funding No. P1-0035 and J1-3034 and                     tetraquarks, Prog. Part. Nucl. Phys. 140, 104143
+N1-0360).                                                              (2025), arXiv:2502.04701 [hep-lat].
+                                                                  [17] N. Brambilla, S. Eidelman, C. Hanhart, A. Nefediev,
+                                                                       C.-P. Shen, C. E. Thomas, A. Vairo, and C.-Z. Yuan,
+                                                                       The XY Z states: experimental and theoretical sta-
+                                                                       tus and perspectives, Phys. Rept. 873, 1 (2020),
+   ∗
+                                                                       arXiv:1907.07583 [hep-ex].
+      ivan.vujmilovic@ijs.si                                      [18] J. Bulava et al., Hadron Spectroscopy with Lattice
+   †
+      sara.collins@ur.de                                               QCD, in Snowmass 2021 (2022) arXiv:2203.03230 [hep-
+    ‡
+      luka.leskovec@ijs.si                                             lat].
+    §
+      sasa.prelovsek@ijs.si                                       [19] E. J. Eichten and C. Quigg, Heavy-quark symmetry im-
+  [1] M. Gell-Mann, A Schematic Model of Baryons and                   plies stable heavy tetraquark mesons Qi Qj q̄k q̄l , Phys.
+      Mesons, Phys. Lett. 8, 214 (1964).                               Rev. Lett. 119, 202002 (2017), arXiv:1707.09575 [hep-
+  [2] G. Zweig, An SU(3) model for strong interac-                     ph].
+      tion symmetry and its breaking. Version 2, in               [20] P. Bicudo and M. Wagner (European Twisted Mass
+      Developments in the Quark Theory of Hadrons. Vol. 1.,            Collaboration), Lattice qcd signal for a bottom-bottom
+      edited by D. B. Lichtenberg and S. P. Rosen (1964) pp.           tetraquark, Phys. Rev. D 87, 114511 (2013).
+      22–101.                                                     [21] M. Karliner and J. L. Rosner, Discovery of the doubly
+  [3] R. L. Jaffe, Exotica, Phys. Rept. 409, 1 (2005),                 charmed Ξcc baryon implies a stable bbud tetraquark,
+      arXiv:hep-ph/0409065.                                            Phys. Rev. Lett. 119, 202001 (2017).
+  [4] R. F. Lebed, R. E. Mitchell, and E. S. Swanson, Heavy-      [22] J. Vijande, A. Valcarce, and N. Barnea, Exotic meson-
+      Quark QCD Exotica, Prog. Part. Nucl. Phys. 93, 143               meson molecules and compact four-quark states, Phys.
+      (2017), arXiv:1610.04528 [hep-ph].                               Rev. D 79, 074010 (2009).
+  [5] S. Navas et al. (Particle Data Group), Review of particle   [23] N. Brambilla, A. Mohapatra, T. Scirpa, and A. Vairo,
+      physics, Phys. Rev. D 110, 030001 (2024).                        Nature of χc1(3872) and Tcc+(3875), Phys. Rev. Lett.
+  [6] S. K. Choi et al. (Belle), Observation of a narrow               135, 131902 (2025), arXiv:2411.14306 [hep-ph].
+      charmonium-like state in exclusive B ± → K ± π + π − J/ψ    [24] J. Hoffer, G. Eichmann, and C. S. Fischer, Struc-
+      decays, Phys. Rev. Lett. 91, 262001 (2003), arXiv:hep-           ture of open-flavor four-quark states in the charm
+      ex/0309032.                                                      and bottom region, Phys. Rev. D 111, 054028 (2025),
+  [7] S. K. Choi et al. (Belle), Observation of a resonance-           arXiv:2409.05779 [hep-ph].
+      like structure in the π ± ψ ′ mass distribution in exclu-   [25] D. Janc and M. Rosina, The Tcc = DD∗ molecular state,
+      sive B → Kπ ± ψ ′ decays, Phys. Rev. Lett. 100, 142001           Few Body Syst. 35, 175 (2004), arXiv:hep-ph/0405208.
+      (2008), arXiv:0708.1790 [hep-ex].                           [26] L. Maiani, A. Pilloni, A. D. Polosa, and V. Riquer,
+  [8] M. Ablikim et al. (BESIII), Observation of a Charged             Doubly heavy tetraquarks in the Born-Oppenheimer
+      Charmoniumlike
+      √                  Structure in e+ e− → π + π − J/ψ at           approximation, Phys. Lett. B 836, 137624 (2023),
+         s =4.26 GeV, Phys. Rev. Lett. 110, 252001 (2013),             arXiv:2208.02730 [hep-ph].
+      arXiv:1303.5949 [hep-ex].                                   [27] R. J. Hudspith and D. Mohler, Exotic tetraquark states
+  [9] B. Aubert et al. (BaBar), Observation of a broad struc-          with two b quarks and J P = 0+ and 1+ Bs states in a
+      ture in the π + π − J/ψ mass spectrum around 4.26-               nonperturbatively tuned lattice nrqcd setup, Phys. Rev.
+      GeV/c2 , Phys. Rev. Lett. 95, 142001 (2005), arXiv:hep-          D 107, 114510 (2023).
+      ex/0506081.                                                 [28] L. Leskovec, S. Meinel, M. Pflaumer, and M. Wag-
+ [10] R. Aaij et al. (LHCb), Observation of J/ψp Reso-                 ner, Lattice qcd investigation of a doubly-bottom bbud
+      nances Consistent with Pentaquark States in Λ0b →                tetraquark with quantum numbers i(J P ) = 0(1+ ),
+      J/ψK − p Decays, Phys. Rev. Lett. 115, 072001 (2015),            Phys. Rev. D 100, 014503 (2019).
+      arXiv:1507.03414 [hep-ex].                                  [29] B. Colquhoun, A. Francis, R. J. Hudspith, R. Lewis,
+ [11] R. Aaij et al. (LHCb), Observation of a narrow pen-              K. Maltman, and W. G. Parrott, Improved analysis of
+      taquark state, Pc (4312)+ , and of two-peak structure of         strong-interaction-stable doubly bottom tetraquarks on
+      the Pc (4450)+ , Phys. Rev. Lett. 122, 222001 (2019),            the lattice, Phys. Rev. D 110, 094503 (2024).
+      arXiv:1904.03947 [hep-ex].                                  [30] C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel,
+ [12] T. Aaltonen et al. (CDF), Evidence for a Narrow Near-            M. Pflaumer, and M. Wagner, bbud and bbus tetraquarks
+      Threshold Structure in the J/ψϕ Mass Spectrum in                 from lattice qcd using symmetric correlation matrices
+      B + → J/ψϕK + Decays, Phys. Rev. Lett. 102, 242002               with both local and scattering interpolating operators,
+      (2009), arXiv:0903.2229 [hep-ex].                                Phys. Rev. D 110, 054510 (2024).
+ [13] R. Aaij et al. (LHCb), Observation of J/ψϕ structures       [31] T. Aoki, S. Aoki, and T. Inoue, Lattice study on a
+      consistent with exotic states from amplitude analysis of         tetraquark state Tbb in the hal qcd method, Phys. Rev.
+      B + → J/ψϕK + decays, Phys. Rev. Lett. 118, 022003               D 108, 054502 (2023).
+      (2017), arXiv:1606.07895 [hep-ex].                          [32] P. Junnarkar, N. Mathur, and M. Padmanath, Study of
+ [14] R. Aaij et al. (LHCb), Observation of an exotic nar-             doubly heavy tetraquarks in lattice qcd, Phys. Rev. D
+      row doubly charmed tetraquark, Nature Phys. 18, 751              99, 034507 (2019).
+      (2022), arXiv:2109.01038 [hep-ex].                          [33] S. Prelovsek, E. Ortiz-Pacheco, S. Collins, L. Leskovec,
+ [15] P. Bicudo, Tetraquarks and pentaquarks in lattice QCD            M. Padmanath, and I. Vujmilovic, Doubly heavy
+      with light and heavy quarks, Phys. Rept. 1039, 1                 tetraquarks from lattice qcd: Incorporating diquark-
+                                                                                                                              7
+
+     antidiquark operators and the left-hand cut, Phys. Rev.          109, 094510 (2024).
+     D 112, 014507 (2025).                                       [49] S. Park, R. Gupta, B. Yoon, S. Mondal, T. Bhat-
+[34] B. S. Tripathy, N. Mathur, and M. Padmanath,                     tacharya, Y.-C. Jang, B. Joó, and F. Winter (Nucleon
+     bbu¯d¯ and bsu¯d¯ tetraquarks from lattice QCD us-               Matrix Elements (NME) Collaboration), Precision nu-
+     ing two-meson and diquark-antidiquark variational ba-            cleon charges and form factors using (2+1)-flavor lattice
+     sis, Phys. Rev. D 111, 114504 (2025), arXiv:2503.09760           qcd, Phys. Rev. D 105, 054505 (2022).
+     [hep-lat].                                                  [50] C. Chen, C. S. Fischer, C. D. Roberts, and J. Segovia,
+[35] A. Ali, Q. Qin, and W. Wang, Discovery potential of sta-         Nucleon axial-vector and pseudoscalar form factors and
+     ble and near-threshold doubly heavy tetraquarks at the           pcac relations, Phys. Rev. D 105, 094022 (2022).
+     LHC, Phys. Lett. B 785, 605 (2018), arXiv:1806.09288        [51] M. K. Jones et al. (Jefferson Lab Hall A), GEp /GM p
+     [hep-ph].                                                        ratio by polarization transfer in ⃗ep → e⃗ p, Phys. Rev.
+[36] Ivan Polyakov, LHCb mini-workshop: Tbc (2023).                   Lett. 84, 1398 (2000), arXiv:nucl-ex/9910005.
+[37] C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel,       [52] S. N. Santiesteban et al. (Jefferson Lab Hall A), Novel
+     M. Pflaumer, and M. Wagner, Shallow Bound States                 Measurement of the Neutron Magnetic Form Factor
+     and Hints for Broad Resonances with Quark Con-                   from A=3 Mirror Nuclei, Phys. Rev. Lett. 132, 162501
+     tent b¯c¯ud in B-D¯ and B*-D¯ Scattering from                    (2024), arXiv:2304.13770 [nucl-ex].
+     Lattice QCD, Phys. Rev. Lett. 132, 151902 (2024),           [53] M. Carmignotto et al., Separated Kaon Electroproduc-
+     arXiv:2312.02925 [hep-lat].                                      tion Cross Section and the Kaon Form Factor from
+[38] A. Radhakrishnan, M. Padmanath, and N. Mathur,                   6 GeV JLab Data, Phys. Rev. C 97, 025204 (2018),
+     Study of the isoscalar scalar bcu¯d¯ tetraquark Tbc              arXiv:1801.01536 [nucl-ex].
+     with lattice QCD, Phys. Rev. D 110, 034506 (2024),          [54] C. Alexandrou, G. Koutsou, H. Neff, J. W. Negele,
+     arXiv:2404.08109 [hep-lat].                                      W. Schroers, and A. Tsapalis, Nucleon to delta electro-
+[39] M. Padmanath, A. Radhakrishnan, and N. Mathur,                   magnetic transition form factors in lattice qcd, Phys.
+     Bound Isoscalar Axial-Vector bcu¯d¯ Tetraquark Tbc               Rev. D 77, 085012 (2008).
+     from Lattice QCD Using Two-Meson and Diquark-               [55] D. C. Hackett, D. A. Pefkou, and P. E. Shanahan, Grav-
+     Antidiquark Variational Basis, Phys. Rev. Lett. 132,             itational form factors of the proton from lattice qcd,
+     201902 (2024), arXiv:2307.14128 [hep-lat].                       Phys. Rev. Lett. 132, 251904 (2024).
+[40] T. Gershon and A. Poluektov, Displaced B−    c mesons as    [56] J. Delaney, C. E. Thomas, and S. M. Ryan (Hadron
+     an inclusive signature of weakly decaying double beauty          Spectrum), Radiative transitions in charmonium from
+     hadrons, JHEP 01, 019, arXiv:1810.06657 [hep-ph].                lattice QCD, JHEP 05, 230, arXiv:2301.08213 [hep-lat].
+[41] V. Tadevosyan et al. (Jefferson Lab F(pi)), Determi-        [57] J. J. Dudek, R. G. Edwards, and D. G. Richards, Radia-
+     nation of the pion charge form-factor for Q**2 = 0.60-           tive transitions in charmonium from lattice qcd, Phys.
+     GeV**2 - 1.60-GeV**2, Phys. Rev. C 75, 055205 (2007),            Rev. D 73, 074507 (2006).
+     arXiv:nucl-ex/0607007.                                      [58] R. Abbott, D. C. Hackett, D. A. Pefkou, F. Romero-
+[42] G. M. Huber et al. (Jefferson Lab), Charged pion form-           López, and P. E. Shanahan, Lattice evidence that scalar
+     factor between Q**2 = 0.60-GeV**2 and 2.45-GeV**2.               glueballs are small, (2025), arXiv:2508.21821 [hep-lat].
+     II. Determination of, and results for, the pion form-       [59] G. Ramalho, Electromagnetic form factors of the Ω−
+     factor, Phys. Rev. C 78, 045203 (2008), arXiv:0809.3052          baryon in the spacelike and timelike regions, Phys. Rev.
+     [nucl-ex].                                                       D 103, 074018 (2021).
+[43] X. Gao, N. Karthik, S. Mukherjee, P. Petreczky,             [60] A. J. Buchmann, E. Hernández, and A. Faessler, Elec-
+     S. Syritsyn, and Y. Zhao, Pion form factor and charge            tromagnetic properties of the ∆(1232), Phys. Rev. C
+     radius from lattice qcd at the physical point, Phys. Rev.        55, 448 (1997).
+     D 104, 114515 (2021).                                       [61] L. Leskovec, S. Meinel, M. Petschlies, J. Negele, S. Paul,
+[44] C. Alexandrou, S. Bacchio, I. Cloët, M. Constantinou,           and A. Pochinsky, b → ρℓν resonance form factors from
+     J. Delmar, K. Hadjiyiannakou, G. Koutsou, C. Lauer,              b → ππℓν in lattice qcd, Phys. Rev. Lett. 134, 161901
+     and A. Vaquero (ETM Collaboration), Scalar, vector,              (2025).
+     and tensor form factors for the pion and kaon from lat-     [62] Y. Tan, X. Liu, X. Chen, Y. Wu, H. Huang, and J. Ping,
+     tice qcd, Phys. Rev. D 105, 054502 (2022).                       Equivalence among color-singlet, color-octet, and di-
+[45] F. V. Ignatov et al. (CMD-3), Measurement of the Pion            quark structures in a chiral quark model, Phys. Rev.
+     Form Factor with CMD-3 Detector and its Implication              D 109, 076026 (2024).
+     to the Hadronic Contribution to Muon (g-2), Phys. Rev.      [63] M. Padmanath, C. B. Lang, and S. Prelovsek, x(3872)
+     Lett. 132, 231903 (2024), arXiv:2309.12910 [hep-ex].             and y(4140) using diquark-antidiquark operators with
+[46] F. G. Ortega-Gama, J. J. Dudek, and R. G. Edwards                lattice qcd, Phys. Rev. D 92, 034501 (2015).
+     (for the Hadron Spectrum Collaboration), Timelike me-       [64] R. A. Briceño and M. T. Hansen, Relativistic, model-
+     son form factors beyond the elastic region from lattice          independent, multichannel 2 → 2 transition amplitudes
+     qcd, Phys. Rev. D 110, 094505 (2024).                            in a finite volume, Phys. Rev. D 94, 013008 (2016),
+[47] C. Alexandrou, S. Bacchio, M. Constantinou, J. Finken-           arXiv:1509.08507 [hep-lat].
+     rath, K. Hadjiyiannakou, K. Jansen, G. Koutsou, and         [65] A. Baroni, R. A. Briceño, M. T. Hansen, and F. G.
+     A. V. Aviles-Casco, Proton and neutron electromagnetic           Ortega-Gama, Form factors of two-hadron states from
+     form factors from lattice qcd, Phys. Rev. D 100, 014509          a covariant finite-volume formalism, Phys. Rev. D 100,
+     (2019).                                                          034511 (2019), arXiv:1812.10504 [hep-lat].
+[48] D. Djukanovic, G. von Hippel, H. B. Meyer, K. Ottnad,       [66] L. Durand, P. C. DeCelles, and R. B. Marr, Lorentz
+     M. Salg, and H. Wittig, Electromagnetic form factors of          invariance and the kinematic structure of vertex func-
+     the nucleon from Nf = 2 + 1 lattice qcd, Phys. Rev. D            tions, Phys. Rev. 126, 1882 (1962).
+                                                                                                                              8
+
+[67] A. Khodjamirian, Hadron Form Factors (CRC Press,                  structure of the heavy-light mesons, Phys. Rev. D 80,
+     2020).                                                            034504 (2009), arXiv:0905.3352 [hep-lat].
+[68] R. G. Arnold, C. E. Carlson, and F. Gross, Polarization      [86] A. M. Green, J. Koponen, P. Pennanen, and C. Michael
+     transfer in elastic electron scattering from nucleons and         (UKQCD Collaboration), Charge and matter radial dis-
+     deuterons, Phys. Rev. C 23, 363 (1981).                           tributions of heavy-light mesons calculated on a lattice,
+[69] F. Gross, Relativistic calculation of the deuteron elec-          Phys. Rev. D 65, 014512 (2001).
+     tromagnetic form factor. ii, Phys. Rev. 136, B140            [87] J. Koponen, A. M. Green, C. Michael, and P. Pennanen
+     (1964).                                                           (UKQCD), The Radial distributions of a heavy light
+[70] H. Haberzettl, Model-independent form-factor con-                 meson on a lattice, Nucl. Phys. B Proc. Suppl. 119, 638
+     straints for electromagnetic spin-1 currents, Phys. Rev.          (2003), arXiv:hep-lat/0209100.
+     D 100, 036008 (2019).                                        [88] E. Santopinto and G. Galatà, Spectroscopy of
+[71] C. Lorce, Electromagnetic Properties for Arbitrary Spin           tetraquark states, Phys. Rev. C 75, 045206 (2007).
+     Particles. Part 1. Electromagnetic Current and Multi-        [89] S.-Q. Luo, K. Chen, X. Liu, Y.-R. Liu, and S.-L. Zhu,
+     pole Decomposition, (2009), arXiv:0901.4199 [hep-ph].             Exotic tetraquark states with the qq Q̄Q̄ configuration,
+[72] G. S. Bali, S. Collins, P. Georg, D. Jenkins, P. Kor-             Eur. Phys. J. C 77, 709 (2017), arXiv:1707.01180 [hep-
+     cyl, A. Schäfer, E. E. Scholz, J. Simeth, W. Söldner,           ph].
+     and S. Weishäupl (RQCD), Scale setting and the light        [90] G. Yang, J. Ping, and J. Segovia, Double-heavy
+     baryon spectrum in Nf = 2 + 1 QCD with Wilson                     tetraquarks, Phys. Rev. D 101, 014001 (2020).
+     fermions, JHEP 05, 035, arXiv:2211.03744 [hep-lat].          [91] R. D. Amado, The Deuteron D State Revisited, Com-
+[73] M. Bruno et al., Simulation of QCD with Nf = 2 + 1                ments Nucl. Part. Phys. 10, 131 (1981).
+     flavors of non-perturbatively improved Wilson fermions,      [92] M. Bashkanov, D. P. Watts, and A. Pastore, Electro-
+     JHEP 02, 043, arXiv:1411.3982 [hep-lat].                          magnetic properties of the d∗ (2380) hexaquark, Phys.
+[74] P. Chen, Heavy quarks on anisotropic lattices: The                Rev. C 100, 012201 (2019), arXiv:1905.00713 [nucl-th].
+     Charmonium spectrum, Phys. Rev. D 64, 034509                 [93] A. Francis, P. de Forcrand, R. Lewis, and K. Maltman,
+     (2001), arXiv:hep-lat/0006019.                                    Diquark properties from full QCD lattice simulations,
+[75] See Supplemental material: Electromagnetic form fac-              JHEP 05, 062, arXiv:2106.09080 [hep-lat].
+     tors of Tbb tetraquark from lattice QCD for more details     [94] Central values and the covariance matrices of form
+     about the lattice setup and subsequent analysis of the            factors shown in this work can be found at:
+     spectrum and matrix elements.                                     http://www-f1.ijs.si/ sasa/available-lattice-data/form-
+[76] J. Green, S. Meinel, M. Engelhardt, S. Krieg,                     factors-Tbb.txt.
+     J. Laeuchli, J. Negele, K. Orginos, A. Pochinsky, and        [95] F. T. Winter, QDP-JIT/PTX: A QDP++ Implementa-
+     S. Syritsyn, High-precision calculation of the strange            tion for CUDA-Enabled GPUs, PoS LATTICE2013,
+     nucleon electromagnetic form factors, Phys. Rev. D 92,            042 (2014).
+     031501 (2015), arXiv:1505.01803 [hep-lat].                   [96] R. G. Edwards and B. Joo (SciDAC, LHPC, UKQCD),
+[77] C. G. Boyd, B. Grinstein, and R. F. Lebed, Con-                   The Chroma software system for lattice QCD, Nucl.
+     straints on form-factors for exclusive semileptonic heavy         Phys. B Proc. Suppl. 140, 832 (2005), arXiv:hep-
+     to light meson decays, Phys. Rev. Lett. 74, 4603 (1995),          lat/0409003.
+     arXiv:hep-ph/9412324.                                        [97] M. A. Clark, R. Babich, K. Barros, R. C. Brower, and
+[78] C. G. Boyd and M. J. Savage, Analyticity, shapes of               C. Rebbi (QUDA), Solving Lattice QCD systems of
+     semileptonic form-factors, and anti-B —> pi lepton                equations using mixed precision solvers on GPUs, Com-
+     anti-neutrino, Phys. Rev. D 56, 303 (1997), arXiv:hep-            put. Phys. Commun. 181, 1517 (2010), arXiv:0911.3191
+     ph/9702300.                                                       [hep-lat].
+[79] C. Bourrely, I. Caprini, and L. Lellouch, Model-             [98] J. J. Dudek, R. G. Edwards, M. J. Peardon, D. G.
+     independent description of B —> pi l nu decays and a              Richards, and C. E. Thomas, Toward the excited meson
+     determination of —V(ub)—, Phys. Rev. D 79, 013008                 spectrum of dynamical QCD, Phys. Rev. D 82, 034508
+     (2009), [Erratum: Phys.Rev.D 82, 099902 (2010)],                  (2010), arXiv:1004.4930 [hep-ph].
+     arXiv:0807.2722 [hep-ph].                                    [99] V. Bernard, M. Lage, U.-G. Meissner, and A. Ruset-
+[80] K.-K. Zhang, W.-X. Zhang, and D. Jia, Systematics of              sky, Resonance properties from the finite-volume energy
+     doubly heavy strange and nonstrange tetraquarks, Phys.            spectrum, JHEP 08, 024, arXiv:0806.4495 [hep-lat].
+     Rev. D 112, 054008 (2025).                                  [100] M. Albanese et al. (APE), Glueball Masses and String
+[81] J.-B. Cheng, S.-Y. Li, Y.-R. Liu, Z.-G. Si, and T. Yao,           Tension in Lattice QCD, Phys. Lett. B 192, 163 (1987).
+     Double-heavy tetraquark states with heavy diquark-          [101] C. Morningstar and M. Peardon, Analytic smearing of
+     antiquark symmetry, Chin. Phys. C 45, 043102 (2021),              SU(3) link variables in lattice qcd, Phys. Rev. D 69,
+     arXiv:2008.00737 [hep-ph].                                        054501 (2004).
+[82] S. H. Lee and S. Yasui, Stable multiquark states with       [102] A. X. El-Khadra, A. S. Kronfeld, and P. B. Mackenzie,
+     heavy quarks in a diquark model, Eur. Phys. J. C 64,              Massive fermions in lattice gauge theory, Phys. Rev. D
+     283 (2009), arXiv:0901.2977 [hep-ph].                             55, 3933 (1997), arXiv:hep-lat/9604004.
+[83] C.-W. Hwang, Charge radii of light and heavy mesons,
+     Eur. Phys. J. C 23, 585 (2002), arXiv:hep-ph/0112237.
+[84] A. S. Miramontes, J. Papavassiliou, and J. M.
+     Pawlowski, Electromagnetic properties of heavy-
+     light mesons, Eur. Phys. J. C 85, 1390 (2025),
+     arXiv:2508.20631 [hep-ph].
+[85] D. Becirevic, E. Chang, and A. Le Yaouanc, On internal
+                                                                                                                       9
+
+SUPPLEMENTAL MATERIAL: ELECTROMAGNETIC FORM FACTORS AND STRUCTURE OF THE
+                    Tbb TETRAQUARK FROM LATTICE QCD
+
+
+                                          I. ENSEMBLE INFORMATION
+
+
+  The basic information about the employed ensemble is listed in Table S1, where a is the lattice spacing, aNL is the
+spatial extent, aNT is the time extent and Nf is the number of dynamical quark flavors. Nconf (B, B ∗ , Tbb ) shows the
+number of gauge configurations that was used in computations of the two- and three-point correlation functions for
+each of the hadrons. To estimate statistical uncertainties, we used jackknife resampling throughout this work.
+
+                                                X253              β = 3.55
+                                                NL                     40
+                                                NT                    128
+                                                a               0.06379(37) fm
+                                                L                2.552(15) fm
+                                                Nf                    2+1
+                                                mπ              289.53(97) MeV
+                                                Nconf (B, B ∗ )       996
+                                                Nconf (Tbb )          995
+
+         TABLE S1. Summary of basic information about the CLS ensemble X253 that was used in computations.
+
+
+
+
+                               II. TUNING OF THE BOTTOM QUARK ACTION
+
+
+  To simulate the heavy b−quark on the lattice, we employed the Clover-improved Wilson action [74, 102]
+
+                                                                                                 
+                                               3                    3
+      Q     4
+                X                     1       X             1     cE
+                                                                     X             cB
+                                                                                      X
+     SW C =a       Q̄(x) mQ + γt ∇t − ∆t + ν      γ i ∇ i − ∆i −        σit Fit −        σij Fij  Q(x),           (S1)
+                 x
+                                      2       i=1
+                                                            2      2 i=1
+                                                                                    2 i<j
+
+
+
+with ∇µ , ∆µ defined as the covariant first- and second-order discretized derivatives, respectively, as in [74] and
+mQ , ν, cE and cB serving as tunable parameters. Our setup for the b−quark action featured gauge links that were
+stout-smeared [101] in all four spacetime directions with the smearing parameter ρ = 0.125 and N = 2 as the number
+of smearing applications. Here ν = 1 and cE = cB = csw would correspond to the standard Clover action. To
+tune the action (S1) we chose a set of observables consisting of the masses of the B and B ∗ mesons [5], mB (∗) , and
+their continuum energy-momentum dispersion relations. The aim was to find the parameters that best reproduce
+these observables on the employed ensemble. The lattice energies were extracted from B and B ∗ two-point correlator
+functions using single-exponential fits in the plateau region. An example of a fit used to extract the B (∗) ground-state
+masses is shown in Fig. S1.
+   The tuning strategy was executed in several distinct steps, simplified by the fact that there is a clearly ordered and
+naturally expected hierarchy of contributions of each parameter to a given observable. Namely, the B and B ∗ masses
+were by and large determined by the value of the heavy quark mass mQ , while the small hyperfine mass splitting
+mB ∗ − mB could be tuned more accurately by adjusting the Clover coefficients cE and cB without spoiling the meson
+masses. The parameter ν turned out to be primarily responsible for the constant c appearing in the relativistic
+energy-momentum dispersion relations
+
+                                         p                                    2π
+                                  aE =       (am)2 + a2 (c⃗
+                                                          p)2 ,      p⃗ =        ⃗n, ⃗n ∈ Z3                        (S2)
+                                                                             aNL
+
+The resulting B, B ∗ and Tbb energy-momentum dispersion relations based on the tuned parameters are summarized
+by Fig. S2 and Table S2.
+                                                                                                                                10
+
+                    5.450
+                                 mB ∗ = 5.3380(28) GeV
+                    5.425        mB = 5.3012(25) GeV
+                    5.400
+
+                    5.375
+
+          E (GeV)
+                    5.350
+
+                    5.325
+
+                    5.300
+
+                    5.275
+
+                    5.250   10                  15                  20                   25             30
+                                                                         t/a
+
+FIG. S1. Plot showing the effective masses mef f (t) = − ln(C 2 (t+1))
+                                                           ln(C2 (t))
+                                                                       of the B and B ∗ . The mass, extracted from a single-
+exponential fit in the plateau region 14a < t < 33a of the B (∗) two-point correlators, is shown with a line and error bands.
+
+                                                     h     mh (GeV)      c
+                                                     B 5.3020(17) 1.020(12)
+                                                     B ∗ 5.3387(20) 1.021(14)
+                                                     Tbb 10.5765(98) 1.04(11)
+
+TABLE S2. Masses and values of the speed of light for B, B ∗ and Tbb . These were determined from fits of Eq. (S2) to the
+lattice energies shown in Fig. S2.
+
+
+                        III. INTERPOLATORS, CORRELATORS AND RENORMNALIZATION
+
+                                                            Interpolators
+
+  We employed a single local interpolator for each type of hadron h = B, B ∗ , π, Tbb to compute two- and three-point
+correlators:
+                                                          †
+                                                         OB (x) = b̄(x)γ5 u(x),
+                                                      †
+                                                     OB ∗ (x, i) = b̄(x)γi u(x),                                           (S3)
+
+                                                         Oπ† (x) = ¯
+                                                                   d(x)γ5 u(x),
+
+                                    OT† bb (x, i) = ϵabc ϵade [b̄(x)b Cγi b̄(x)c ][u(x)d Cγ5 d(x)e ],
+
+where C labels the charge conjugation matrix. The overlap Z0 = ⟨0|Oh† |Ω⟩ of the operator to the ground state (labeled
+0) was improved by applying the standard gauge-covariant spatial Gaussian smearing to all quark fields in (S3) (see
+Eq. (8) in [28]). For the light quarks the width parameter was set to σq = 4.5 (in units of lattice spacing) with the
+number of smearing hits Nq = 85 using APE spatially-smeared gauge links with parameters αAPE = 2.5 and Ng = 50
+smearing steps [100]. In the case of the heavy quarks we also used Gaussian smearing with width set to σQ = 2.5 and
+NQ = 15 smearing applications using spatially-stout smeared gauge links with parameters ρ = 0.125 and Ng = 5 hits
+[101]. The h = B ∗ , Tbb interpolators were projected to the appropriate rows r and irreducible representations (irreps)
+Λ of the subgroups of the octahedral group to account for the reduced rotational symmetry present in the finite-
+           a)                                                                             b)                                                        11
+
+          5.60                                                                           10.72
+                           B∗                                                                              Tbb
+                           B                                                             10.70
+          5.55
+                                                                                         10.68
+          5.50
+                                                                                         10.66
+
+
+E (GeV)                                                                        E (GeV)
+          5.45                                                                           10.64
+
+                                                                                         10.62
+          5.40
+                                                                                         10.60
+          5.35
+                                                                                         10.58
+
+          5.30                                                                           10.56
+              0.0          0.5          1.0      1.5                2.0                        0.0         0.5           1.0      1.5        2.0
+                                       p2 (GeV2)                                                                        p2 (GeV2)
+
+FIG. S2. Final energy-momentum dispersion relations obtained using the tuned b−quark action (S1). a) Dispersion relations
+of the B and B ∗ mesons. b) Dispersion relation of the Tbb .
+
+
+volume. The projected operators were constructed via linear combinations of interpolators featuring different Dirac
+gamma matrices γi
+                                                       X Λ,r
+                                       Oh (⃗
+                                           p, Λ, r) =       Ci Oh (⃗
+                                                                   p, i),                                      (S4)
+                                                                           i=x,y,z
+
+
+where the subduction coefficients CiΛ,r are calculable using group-theoretic means, e.g. the projection formula (A5)
+given in [98] with irreps defined in Appendix A of [99].
+
+
+                                                               Two-point correlators
+
+   The energies and overlaps were calculated from the two-point correlation functions
+                                                                                           ∞
+                                                                                               |Zn (⃗q)|2 −En (⃗q2 )t
+                                           C2 (⃗q, t) = ⟨Ω|Oh (⃗q, t)Oh† (0)|Ω⟩ =
+                                                                                           X
+                                                                                                          e                                        (S5)
+                                                                                           n=0
+                                                                                               2En (⃗q2 )
+
+for four hadrons h = Tbb , B, B ∗ , π using the interpolators defined in Eq. (S3). The momenta q⃗ listed in Table S3 and
+their permutations were used to extract the ground-state energies E0 (⃗q2 ) and the overlap factors Z0 (⃗q) = ⟨0|Oh† (⃗q)|Ω⟩.
+The fitting was performed in the plateau region of the correlators using a single-exponential model C2 (⃗q, t) = Ae−Et .
+We evaluated the two-point correlators for each hadron at eleven different spatial positions at the source and averaged
+them before fitting in order to decrease the statistical uncertainty.
+
+
+                                                              Three-point correlators
+
+   The three point correlators C3µ , defined as
+                                                                                          ∞
+                                                                                                     Znf ∗ Zm
+                                                                                                            i               f           i
+                                                  p2 , T )ȷ̂µEM (⃗q, t)Oh† (0)|Ω⟩ =
+                                                                                          X
+                    C3µ (⃗
+                         p2 , q⃗, T ; t) = ⟨Ω|Oh (⃗                                               f
+                                                                                                                 Mµnm e−En (T −t) e−Em t ,         (S6)
+                                                                                                        i
+                                                                                         n,m=0 (2En )(2Em )
+                                                                                                                            12
+
+                                                           L
+                                                           2π
+                                                              q⃗ ≡ ⃗n ∈ Z3
+                                                              (0, 0, 0)
+                                                              (0, 0, 1)
+                                                              (1, 1, 0)
+                                                              (1, 1, 1)
+                                                              (0, 0, 2)
+                                                              (0, 0, 3)
+
+TABLE S3. List of momenta q⃗ to which the two- and three-point correlation functions were projected at the sink and the
+current, respectively. The permutations of each vector ⃗n are not displayed here for brevity, but were also used in the lattice
+computations.
+
+
+were computed using the renormalized electromagnetic (EM) current
+                                                   X
+                                          ȷ̂µEM =       ZqV · eq q̄γ µ q.                                                 (S7)
+                                                           q∈{u,d,b}
+
+Here the sum goes over quark fields q and their electric charges eq , while the determination of the renormalization
+constants ZqV is discussed in the next subsection.
+  The connected diagrams were constructed in the standard way from sequential and forward propagators. In this
+approach, the sink momentum p⃗2 and the source-sink separation T are kept fixed. We set p⃗2 = ⃗0 and realized
+the source-sink separations: Ta = 12, 15, 18, 22. The set of momenta q⃗ used in projecting the current to definite
+momentum is listed in Table S3. Consequently, due to momentum conservation, the available three-point correlator
+data enabled us to access ground-state matrix elements with momenta ⟨h(⃗   p2 = ⃗0)|ȷ̂µEM |h(⃗
+                                                                                             p1 = −⃗q)⟩.
+
+
+
+                                   Renormalization of the electromagnetic current
+
+  The continuum and infinite-volume normalization of the elastic charge form factor for any particle is well-known
+                                                      FC (Q2 = 0) = Z,                                                    (S8)
+where Z is charge of the particle in units of the elementary charge e0 . In total, two renormalization factors had to be
+                       V
+determined: ZbV and Zu/d  , corresponding to the renormalization of heavy- and light-quark EM currents, respectively,
+defined as
+                               ȷ̂µu/d = Zu/d
+                                         V                     ¯ µ d , ȷ̂µ = Z V · − 1 b̄γ µ b ,
+                                             · 32 ūγ µ u − 13 dγ
+                                                                                             
+                                                                         b    b      3
+
+
+                                                      ȷ̂µEM ≡ ȷ̂µu/d + ȷ̂µb .                                             (S9)
+
+These factors were calculated by imposing the condition (S8) on the renormalized charge form factors of the b and ū
+quarks within the Tbb
+                                                           2                           2
+                                            FCb,Tbb (0) ≡ − ,          FCū,Tbb (0) ≡ − ,                                (S10)
+                                                           3                           3
+thereby fixing values of both factors
+                                            ZbV = 3.97(11),        V
+                                                                  Zu/d = 0.725(16).                                      (S11)
+The same set of renormalization factors was applied to recover the infinite-volume continuum normalizations of B, B ∗
+and pion form factors
+                                                       ∗
+                         FCB (0) = −1.003(24),     FCB (0) = −1.014(25),             FCπ (0) = −0.957(24).               (S12)
+We remark that as we use an anisotropic action for the heavy quark, we should, in principle, allow for different
+renormalization factors for the temporal and spatial components of the heavy quark vector current b̄γ µ b. However,
+we have verified that the results for the form factor F1 ≈ FC extracted from the temporal and spatial components
+of the corresponding three-point functions agree well within the statistical uncertainties. Considering the systematics
+inherent in the calculation, it is sufficient to set the temporal and spatial renormalisation factors to be equal.
+                                                                                                                                                   13
+
+                                  IV. FITTING THREE-POINT CORRELATOR DATA
+
+  The three-point correlators were further processed by constructing two types of ratio quantities, R3µ and R3,symm
+                                                                                                                  µ
+                                                                                                                       ,
+with the first one defined in an identical manner to eq. (28) of [61] and the other featuring built-in t → T −t symmetry
+
+                                                                 (2E0f )(2E0i ) E0f (T −t) E0i t µ
+                                      R3µ (⃗
+                                           p2 , q⃗, T ; t) =                   e          e C3 (⃗  p2 , q⃗, T ; t),                              (S13)
+                                                                   Z0f ∗ Z0i
+                                                                                  q
+                     µ
+                    R3,symm  p2 , q⃗, T ; t) = sgn (R3µ (⃗
+                            (⃗                           p2 , q⃗, T ; t)) ·                 p2 , q⃗, T ; t) · R3µ (⃗
+                                                                                      |R3µ (⃗                      p2 , q⃗, T ; T − t)|.         (S14)
+
+Using the decomposition in eq. (S6) it can be easily shown that both ratios equal the ground-state matrix element, up
+to excited-state contamination. Note that, in addition to the dependence on the momenta p⃗2 and p⃗1 = p⃗2 − q⃗ (which
+is kept explicit throughout the Letter and this Supplemental Material), the ratios also depend on the rows r2 , r1 of
+the irreps Λ2 , Λ1 to which they are projected at the sink and the source, respectively. To simplify the notation, these
+additional indices are not shown unless needed.
+   Prior to fitting, we applied a weighted averaging procedure to the ratios, in order to decrease noise in the lattice
+data. This was based on the fact that the form factors contained in the matrix elements depend merely on the
+Lorentz-scalar Q2 , carrying no information about the directions of the source and sink three-momenta. As discussed
+previously in Subsection III, the momentum at the sink was always set to zero in our setup, meaning that all matrix
+elements with source momenta lying on the same shell (|⃗   p1 |2 = const.) yield the form factors at a constant value of
+  2                                                                             µ
+Q . This enabled us to define the weighted direction-averages of the ratios R̄3(,symm)
+
+     µ                          1           X               Λ2 ,r2        µ
+   R̄3(,symm) (Q2 , T ; t) =                               wΛ                       p2 = ⃗0, Λ2 , r2 ; Λ1 , r1 , p⃗1 ≡ −⃗q; T ; t) ∝ Fi (Q2 ),
+                                                                    p1 · R3(,symm) (⃗
+                                                             1 ,r1 ,⃗
+                                                                                                                                                 (S15)
+                               Ntot
+                                      Λ1 ,r1 ,⃗
+                                              p1 ,Λ2 ,r2
+                                        p1 |2 =const.
+                                       |⃗
+
+where all irrep and momenta dependence is now kept explicit for clarity. The sum runs over all possible combinations
+that yield a constant Q2 , while the weights w are explicitly provided in Subsection IV. We take the ratios in (S15)
+as the final lattice-derived quantities to which we perform fits.
+
+
+
+                                                                       Fit models
+
+  To extract the matrix elements M from direction-averaged ratios, we employed three basic models: a constant model
+const, assuming no contamination is present in the signal, that is fitted straightforwardly to both unsymmetrized
+and symmetrized ratios
+                                                                     fconst (t) = M,                                                             (S16)
+or a 2exp model, incorporating first-excited states at the source and the sink, applicable only to unsymmetrized R3µ
+
+                                                  f2exp (t) = M + αe−∆E1 t + βe−∆E2 (T −t) ,                                                     (S17)
+where M, α, β, ∆E1 , ∆E2 all represent fit parameters. The first-excited-state model symm2exp used for fitting the
+symmetrized ratio (S14) is
+                                                                            
+                                   fsymm2exp (t) = M + α e−∆Et + e−∆E(T −t) ,                                (S18)
+
+with M, α, ∆E being the fit parameters. All fits were performed with a fully correlated covariance matrix simultane-
+ously to four sets of data with different source-sink separations T . Plots showing some of the typical fits for Tbb , B, B ∗
+can be seen in Section VII.
+
+
+                                                               Form factor extraction
+
+  In the case of pseudoscalar mesons h = B, π the procedure for obtaining the single charge form factor from the
+data was straightforward. It involved dividing out the kinematic prefactor (p1 + p2 )µ from the fitted matrix element
+                                                                                                                       14
+
+that appears in the decomposition
+                                                                     µ=0
+                                  MµEM = (p1 + p2 )µ FC (Q2 ) −−−→ (E1 + E2 )FC (Q2 ).                              (S19)
+The weights needed for direction-averaged ratios (S15) at µ = 0 are trivial, wi = 1.
+  In contrast, the analogous procedure was somewhat more involved for the Tbb and B ∗ . Both hadrons share an
+identical EM form factor decomposition
+                                     MµEM = − (p1 + p2 )µ (ε∗2 · ε1 )F1 (Q2 )−                                      (S20)
+
+                                                 − [(ε∗2 · q)εµ1 − (ε1 · q)ε∗µ      2
+                                                                            2 ]F2 (Q )+
+
+                                                   (ε∗2 · q)(ε1 · q)
+                                                 +                   (p1 + p2 )µ F3 (Q2 ) =
+                                                          2m2
+                                                 ≡ a1 F1 (Q2 ) + a2 F2 (Q2 ) + a3 F (Q2 ),                          (S21)
+so we only discuss Tbb here. The strategy we adopted involved extracting form factors F1 , F2 and F3 in steps. The
+first two form factors were obtained by considering only particular momenta and irrep configurations in which a single
+coefficient a1 or a2 in (S21) is non-vanishing, requiring only to divide out the kinematic prefactor ai from the fitted
+matrix element as in the pseudoscalar case. The third form factor, contrary to others, could not be directly obtained
+in isolation and was calculated using the fits and the already known F1 , F2 .
+   For form factors F1(2) , the weights in (S15) were accordingly chosen to be nonzero only for the ratios that feature a
+single nonvanishing coefficient a1(2) in (S20). For the F3 , we averaged over all momenta and irrep configurations that
+give identical, but nonzero a1 , a2 and a3 . All such configurations are collected in comprehensive tables in Section V.
+   In the final step we converted the original form factor basis F1−3 into the charge, magnetic dipole and electric
+quadrupole form factors FC , FM , FQ using a linear transformation
+                                    FC (Q2 )       1 + 32 η − 23 η 23 η(1 + η)    F1 (Q2 )
+                                                                                      
+
+                                 FM (Q2 ) =  0            1           0      F2 (Q2 ) ,                       (S22)
+                                                                                      
+
+                                  FQ (Q2 )             1        −1      (1 + η)           F3 (Q2 )
+            2
+          Q
+with η = 4m 2.
+
+
+
+
+     V. PARAMETERS AND COVARIANCES OF z−EXPANSION FITS TO THE FORM FACTORS
+
+  The general parametrization of a form factor F (Q2 ) for Q2 ≡ −q 2 ≥ 0 is given by [77–79]
+                                                   1     X
+                                      F (Q2 ) =      Q2
+                                                            an z n (Q2 ; t+ , t0 ),                                 (S23)
+                                                1 + m2 n
+                                                            r
+
+with the z−variable defined as
+                                                            p                 √
+                                             2                  t+ + Q2 −         t+ − t 0
+                                         z(Q ; t+ , t0 ) = p                  √              .                      (S24)
+                                                                t+   + Q2 +       t+ − t 0
+If the form factor has an additional constraint at Q2 = 0, i.e. F (0) = F0 , then the zeroth-order parameter a0 is fixed
+and obeys the relation
+                                                           nX
+                                                            max
+
+                                             a0 = F0 −            an z n (0; t+ , t0 ).                             (S25)
+                                                           n̸=0
+
+The values of the resonance masses mr , multi-particle thresholds t+ and t0 used in z−expansion parametrizations are
+listed in Table S4. Numerical values of the fit parameters an , as well as their correlation matrices, are shown in Tables
+S5-S8. They were used to generate Figs. 2 and 3 in the Letter. The charge form factors of the B, B ∗ and pion serve
+as a reference point for the form factors of the Tbb . The results for the form factors FC , FM and FQ of the Tbb are
+collected in Tables S6, S7 and S8, respectively: these provide the form factors based on the total EM current, as well
+as separate contributions from the heavy and light currents (S9). Note that the zeroth-order parameter a0 is absent
+in the charge form factors FC because it is constrained by eq. (S25) and FC (0) = −1. This condition holds exactly for
+the Tbb as covered in Subsection III due to our choice of calculating the EM current renormalization factors based on
+Tbb matrix elements. For the B, B ∗ and π it constitutes a very good approximation, as can be seen from eq. (S12).
+                                                                                                                                                                          15
+
+
+             h          mr (GeV)              t+ (GeV2 )                                                         h               form factor              t0
+                                                                                                                        ∗
+             Tbb   mω = 0.7877 (3mπ )2 = 0.7521(50)                                                              B, B               FC        −10 · (2mπ )2
+                                                                                                                                         [bb]
+                 ∗
+             B, B mρ = 0.7655 (2mπ )2 = 0.3343(22)                                                               Tbb              FM , F M    −15 · (3mπ )2
+             π        mρ              (2mπ )2                                                                    All others                               0
+
+TABLE S4. Numerical values of resonance masses mr , multi-particle thresholds t+ and parameter t0 used in the z−expansions.
+The same values for mr and t+ were utilized for all form factors of a given hadron h. The value t0 = 0 is used, except in the
+cases indicated in the right table.
+                                                                           ∗
+         FCB          Value      Corr. matrix                        FCB              Value    Corr. matrix
+                                                                                                                                                FCπ    Value
+         a1 −5.72(45) 1.0              0.96                          a1         −5.17(49) 1.0           0.96
+                                                                                                                                                a1 0.11(15)
+         a2 −5.86(59) 0.96              1.0                          a2         −5.42(65) 0.96          1.0
+
+TABLE S5. Parameters of the fit (S23) for the electric charge form factors FC of hadrons h = B, B ∗ , π, which serve as a
+reference. A second-order fit is used for the B and B ∗ form factors, while a first-order expansion is used for the pion.
+
+
+          T                                                      [bb]                                                                   ¯
+                                                                                                                                     [ūd]
+        FC bb         Value      Corr. matrix                   FC              Value         Corr. matrix                       FC           Value      Corr. matrix
+        a1       −1.63(42) 1.0          −0.9                    a1         −2.86(31) 1.0 −0.85                                   a1           1.76(18)  1.0 −0.95
+        a2       −8.6(1.5) −0.9          1.0                    a2         −7.5(1.1) −0.85 1.0                                   a2          −2.52(70) −0.95 1.0
+
+TABLE S6. Parameters of the fit (S23) for the charge form factors FC of Tbb . Left: The charge form factor of the Tbb . Middle:
+heavy diquark charge form factor of the Tbb . Right: the light antidiquark charge form factor of the Tbb . All fits of FC are done
+using the second order in the z−expansion.
+
+
+     T                                                      [bb]                                                                ¯
+                                                                                                                             [ūd]
+   FMbb          Value        Corr. matrix                 FM             Value          Corr. matrix                       FM           Value        Corr. matrix
+   a0         17.56(98) 1.0          0.99     0.98         a0         18.41(70) 1.0              0.99     0.97              a0        0.02(18) 1.0 −0.99 0.99
+   a1         37.6(3.9) 0.99          1.0     0.99         a1         41.1(2.7) 0.99              1.0     0.99              a1         0.1(2.1) −0.99 1.0 −0.99
+   a2         19.1(3.9) 0.98         0.99     1.0          a2         22.5(2.6) 0.97             0.99     1.0               a2        −0.3(4.8) 0.99 −0.99 1.0
+
+TABLE S7. Parameters of the fit (S23) for the magnetic dipole form factors FM related to Tbb . Left: The magnetic dipole
+form factor of the Tbb Middle: heavy diquark magnetic dipole form factor of the Tbb . Right: the light antidiquark magnetic
+dipole form factor of the Tbb . All fits of FM are done to the second order in z− expansion.
+
+
+                                                                                                                                        ¯
+                                                                                                                                     [ūd]
+                  T                                                            [bb]                                              FQ           Value      Corr. matrix
+                 FQbb Value                                               FQ          Value
+                                                                                                                                 a0          −0.18(85) 1.0 −0.95
+                 a0      2(76)                                            a0          1(75)
+                                                                                                                                 a1           3.5(4.1) −0.95 1.0
+
+TABLE S8. Parameters of the z−expansion fit (S23) for the electric quadrupole form factors FQ related to Tbb . Left: Zeroth-
+order fit for the quadrupole form factor of the Tbb . Middle: Zeroth-order fit for the heavy diquark quadrupole form factor of
+the Tbb . Right: First-order fit for the light antidiquark quadrupole form factor of the Tbb .
+
+
+
+                                      VI. CHARGE DENSITY OF THE Tbb IN POSITION-SPACE
+
+  The momentum-space charge density ρ(⃗q) is given by the position-space charge distribution via
+
+                                                                    d3 q i⃗q·⃗r
+                                  Z                              Z
+                           ρ(⃗q) ≡ d3 r e−i⃗q·⃗r ρ(⃗r) → ρ(⃗r) =         e      ρ(⃗q).                                                                                  (S26)
+                                                                   (2π)3
+It can be decomposed into an infinite tower of multipole form factors Glm
+                                                                     ∞ X
+                                                                     X l
+                                                       ρ(⃗q) =                          |⃗q|l Glm (|⃗q|2 )Ylm (Ωq ),                                                    (S27)
+                                                                     l=0 m=−l
+                                                                                                                                                                 16
+         q |2 )Yl0 (Ωq ) + |⃗
+a) |G0 (|⃗                  q |2 G2 (|⃗
+                                      q |2 )Y20 (Ωq )|                    q |2 )Yl0 (Ωq )|
+                                                                 b) |G0 (|⃗                                                   q |2 G2 (|⃗
+                                                                                                                         c) ||⃗         q |2 )Yl0 (Ωq )|
+       2                                                  2                                                         2                                            1
+
+
+                                                                                                                                                                 0.8
+       1                                                  1                                                         1
+
+                                                                                                                                                                 0.6
+aqz    0                                           aqz    0                                                  aqz    0
+                                                                                                                                                                 0.4
+
+      −1                                                 −1                                                        −1
+                                                                                                                                                                 0.2
+
+      −2                                                 −2                                                        −2                                            0
+       −2      −1         0         1         2           −2       −1            0         1          2             −2       −1         0          1       2
+                        aqx                                                    aqx                                                     aqx
+
+FIG. S3. a) Electric charge density ρ(⃗ q ) in momentum space at aqy = 0, based on eq. (S28) with contour lines shown. b) and
+c) Separate contributions of the two multipoles, l = 0 and 2, that are accessible from the form factors Gl0 which are related to
+electric form factor Fl via eq. (S29). Index m = 0 in Glm is omitted for brevity.
+
+
+which further simplifies in the case of cylindrical symmetry along the quantization axis of the system
+                                                                        ∞
+                                                                        X
+                                                              ρ(⃗q) =         |⃗q|l Gl0 (|⃗q|2 )Yl0 (Ωq ).                                                     (S28)
+                                                                        l=0
+
+The form factors Gl ≡ Gl0 can be shown to be directly related to the form factors we extract from the matrix elements
+Fl in the Breit frame1 [71]
+                                                                     r
+                                         2        l (2l − 1)!!     l   2l + 1
+                                 Fl (|⃗q| ) = (−i)             (2m)           Gl0 (|⃗q|2 ),                     (S29)
+                                                        l!               4π
+where, more specifically, Fl=0 ≡ FC and Fl=2 ≡ FQ denote the charge and quadrupole form factors used in the main
+text.
+  The electric charge density ρ(⃗q) is shown decomposed into the lowest two multipole contributions l = 0, 2 in
+Fig. S3. The relative monopole contribution obtained from FC is found to be much larger than the quadropole
+contribution related to FQ . Likewise, the position-space charge density is therefore also dominated by the monopole
+term ρ(r), which is shown in Fig. 2b of the main Letter.
+  Note that, while the form factors are generally functions of the full Lorentz scalar Q2 = −q 2 = −(p2 − p1 )2 , this
+quantity reduces to |⃗q|2 = (⃗
+                             p2 − p⃗1 )2 that only depends on the three-vector q⃗ in the Breit frame. Our computational
+setup leads us to matrix elements ⟨h(⃗    p2 = ⃗0)|ȷ̂µEM |h(⃗
+                                                            p1 )⟩ that are generally not in the Breit frame. However, we
+have checked that at the values of the full momentum transfer Q2 where we have data, the timelike component
+−(E2 − E1 )2 contributes negligibly, making Q2 ≈ |⃗q|2 = (⃗       p2 − p⃗1 )2 a very good approximation for Tbb , B and B ∗ .
+Consequently, eq. (S29) can be used to reconstruct the momentum- and position-space charge distributions using the
+available form factors.
+
+
+
+
+ 1 Note that here we switch form factor labels F  ↔ Gl and use
+                                                l
+  them in precisely the opposite way compared to [71].
+                                                                                                                             17
+
+                             VII. PLOTS FEATURING FITS OF THE MATRIX ELEMENTS
+
+  This section shows plots of some of the fits that were done to extract matrix elements of the Tbb , B and B ∗ . In
+particular, Figs. S4 and S5 show lattice matrix elements with yet-unrenormalized EM currents from which the factors
+ V
+Zu/d  and ZbV were determined. All subsequent figures show fully renormalized matrix elements and fits.
+
+
+
+
+                                                                   2
+                                                             M, nχdof =1.4
+
+          1.4
+
+
+ R̄3(t)   1.2
+  ZbV
+
+
+          1.0
+
+
+                  0     6     12 0     5         10   15 0             6         12   18 0                   11             22
+                       t/a                 t/a                             t/a                              t/a
+
+FIG. S4. Depiction of the Tbb matrix element featuring the bare heavy-quark current Zȷ̂bV that was used to non-perturbatively
+                                                                                         b
+determine the renormalization factor ZbV . The const model (S16) was used to fit the matrix element due to absence of excited-
+state contamination. Discrete markers show the direction-averaged ratio (S15). The value of the fitted matrix element is shown
+with a blue line and errorbands.
+
+                                                                   2
+                                                             M, nχdof =1.5
+
+          7
+
+
+ R̄3(t)   6
+   V
+  Zu/d
+
+
+          5
+
+
+              0        6      12 0    5          10   15 0             6         12   18 0                  11              22
+                      t/a                  t/a                             t/a                             t/a
+
+FIG. S5. Depiction of the Tbb matrix element featuring the bare u−quark current Zȷ̂Vu        that was used to non-perturbatively
+                                                                                      u/d
+                                      V
+determine the renormalization factor Zu/d . Other elements are the same as in Fig. S4.
+                                                                                                                          18
+
+                                                                                         2
+                                              M + αe−∆E1t + βe−∆E2(T −t), nχdof =1.2
+                   6
+
+                   5
+     R̄3(t)
+                   4
+
+                   3
+                       0   6     12 0   5         10   15 0             6         12         18 0    11              22
+                                                                                          2
+                                                  M + α(e   −∆Et
+                                                                   +e   −∆E(T −t)
+                                                                                    ), nχdof =1.3
+                   6
+
+
+
+     R̄3,symm(t)
+                   5
+
+                   4
+
+                   3
+                       0    6    12 0   5         10   15 0             6         12         18 0     11             22
+                           t/a              t/a                             t/a                      t/a
+
+FIG. S6. Tbb matrix element featuring the full renormalized EM current used to extract the first form factor F1 on the
+ L
+   ⃗ = (1, 1, 1) momentum shell. Upper and lower rows of subfigures show the unsymmetrized direction-averaged ratio R̄3µ=0
+   p
+2π 1
+                                          µ=0
+and the t → T − t symmetrized ratio R̄3,symm    , respectively. The 2exp (S17) and symm2exp (S18) models were used to fit
+both matrix elements, as indicated at the top of both subplots. Discrete markers show lattice data, curved bands show the fit
+function and the straight line with errorbands shows the extracted matrix element.
+
+
+
+                                                                                         2
+                                              M + αe−∆E1t + βe−∆E2(T −t), nχdof =1.2
+
+                   4
+
+     R̄3(t)
+                   3
+
+
+                   2
+                       0   6     12 0   5         10   15 0             6         12         18 0    11              22
+                                                                                          2
+                                                  M + α(e   −∆Et
+                                                                   +e   −∆E(T −t)
+                                                                                    ), nχdof =1.3
+
+                   4
+
+
+     R̄3,symm(t)   3
+
+
+                   2
+                       0    6    12 0   5         10   15 0             6         12         18 0     11             22
+                           t/a              t/a                             t/a                      t/a
+
+FIG. S7. Tbb matrix element featuring the full renormalized EM current used to extract the third form factor F3 on the
+L
+  p
+  ⃗ = (1, 1, 1) momentum shell. Other elements are the same as in Fig. S6.
+2π 1
+                                                                                                                    19
+
+                                                                                           2
+                                                M + αe−∆E1t + βe−∆E2(T −t), nχdof =1.1
+
+                   3.0
+
+
+     R̄3(t)
+                   2.5
+
+                   2.0
+
+                   1.5
+                         0   6     12 0   5         10     15 0           6         12         18 0   11       22
+                                                                                            2
+                                                    M + α(e   −∆Et
+                                                                     +e   −∆E(T −t)
+                                                                                      ), nχdof =1.5
+
+                   3.0
+
+
+     R̄3,symm(t)
+                   2.5
+
+                   2.0
+
+                   1.5
+                         0    6    12 0   5         10     15 0           6         12         18 0    11      22
+                             t/a              t/a                             t/a                     t/a
+
+FIG. S8. B meson matrix element featuring the full renormalized EM current used to extract the charge form factor FC on
+    L
+the 2π p
+       ⃗1 = (1, 1, 1) momentum shell. Other elements are the same as in Fig. S6.
+
+
+
+
+                                                                                           2
+                                                M + αe−∆E1t + βe−∆E2(T −t), nχdof =1.3
+                   2.5
+
+
+
+     R̄3(t)
+                   2.0
+
+
+                   1.5
+
+
+                         0   6     12 0   5         10     15 0           6         12         18 0   11       22
+                                                                                  2
+                                                    M + α(e−∆Et + e−∆E(T −t)), nχdof =1.4
+                   2.5
+
+
+
+     R̄3,symm(t)
+                   2.0
+
+
+                   1.5
+
+
+                         0    6    12 0   5         10     15 0           6         12         18 0    11      22
+                             t/a              t/a                             t/a                     t/a
+
+FIG. S9. B ∗ matrix element featuring the full renormalized EM current used to extract the first form factor F1 on the
+L
+  p
+  ⃗ = (1, 1, 1) momentum shell. Other elements are the same as in Fig. S6.
+2π 1
+                                                                                                                              20
+
+       VIII. DIRECTION-AVERAGING OF THREE-POINT CORRELATION FUNCTION RATIOS
+
+  This section features Tables S9-S11, listing explicitly all relevant weights used in the direction-averaging of the
+three-point correlator ratios, as described in Section IV.
+
+                          TABLE S9: List of all combinations of momenta p               ⃗2 , p
+                                                                                             ⃗1 , irreps Λ2 , Λ1 and
+                          rows r2 , r1 at the sink and the source, respectively, that are relevant for
+                          the extraction of the F1 form factor of the Tbb from the ratios R3µ . Before
+                          fitting the data, we averaged all ratios within each momentum shell that
+                          leads to the equivalent values of Q2 . Each shell is shown separated from
+                          others by double horizontal bars. The rightmost column, labeled by
+                          w, lists the weights that were used in averaging. The weights reflect
+                          the differences in polarizations and irrep projections that arise in each
+                          matrix element and correspond precisely to ones defined in eq. (S15).
+                          Note that the relative weights are all normalized respective to the first
+                          entry in each momentum shell. To avoid excessive redundancy, momenta
+                          and irrep labels that are identical for all entries within a shell are listed
+                          only once.
+                                          ⟨Tbb (p2 , Λ2 , r2 ⟩)|ȷ̂µ
+                                                                  EM |Tbb (p1 , Λ1 , r1 ⟩), µ ≡ 0
+                     L                                               L
+                       p
+                       ⃗
+                     2π 2
+                                      Λ2            r2                 p
+                                                                       ⃗
+                                                                     2π 1
+                                                                                          Λ1            r1              w
+                    (0, 0, 0)         T1+           1              (0, 0, 0)              T1+           1               1
+                                                    2                                                   2               1
+                                                    3                                                   3               1
+
+                    (0, 0, 0)         T1+           1              (0, 0, 1)              E             2               1
+                                                    1             (0, 0, −1)                            2               1
+                                                    1              (0, 1, 0)                            2               1
+                                                    1             (0, −1, 0)                            2               1
+                                                    2              (0, 0, 1)                            1               1
+                                                    2             (0, 0, −1)                            1               1
+                                                    2              (1, 0, 0)                            2               1
+                                                    2             (−1, 0, 0)                            2               1
+                                                    3              (0, 1, 0)                            1               1
+                                                    3             (0, −1, 0)                            1               1
+                                                    3              (1, 0, 0)                            1               1
+                                                    3             (−1, 0, 0)                            1               1
+
+                    (0, 0, 0)         T1+           1              (0, 1, 1)              B1            1                1
+                                                    1             (0, 1, −1)              B1            1                1
+                                                    1             (0, −1, 1)              B1            1                1
+                                                    1            (0, −1, −1)              B1            1               √1
+                                                    1              (1, 0, 1)              B2            1               √2
+                                                    1             (1, 0, −1)              B2            1               √2
+                                                    1             (−1, 0, 1)              B2            1               √2
+                                                    1            (−1, 0, −1)              B2            1               √2
+                                                    1              (1, 1, 0)              B2            1               √2
+                                                    1             (1, −1, 0)              B2            1               √2
+                                                    1             (−1, 1, 0)              B2            1               √2
+                                                    1            (−1, −1, 0)              B2            1               √2
+                                                    2              (0, 1, 1)              B2            1               √2
+                                                    2             (0, 1, −1)              B2            1               √2
+                                                    2             (0, −1, 1)              B2            1               √2
+                                                    2            (0, −1, −1)              B2            1                 2
+                                                    2              (1, 0, 1)              B1            1                1
+                                                    2             (1, 0, −1)              B1            1                1
+                                                    2             (−1, 0, 1)              B1            1                1
+                                                    2            (−1, 0, −1)              B1            1                1
+                                                                                                                         √
+                                                    2              (1, 1, 0)              B2            1              −√ 2
+                                                    2             (1, −1, 0)              B2            1               √2
+                                                    2             (−1, 1, 0)              B2            1                √2
+                                                    2            (−1, −1, 0)              B2            1              − 2
+                                                      21
+                                                √
+                  3     (0, 1, 1)    B2   1   −√ 2
+                  3    (0, 1, −1)    B2   1    √2
+                  3    (0, −1, 1)    B2   1     √2
+                  3   (0, −1, −1)    B2   1   − √2
+                  3     (1, 0, 1)    B2   1   −√ 2
+                  3    (1, 0, −1)    B2   1    √2
+                  3    (−1, 0, 1)    B2   1     √2
+                  3   (−1, 0, −1)    B2   1   − 2
+                  3     (1, 1, 0)    B1   1     1
+                  3    (1, −1, 0)    B1   1     1
+                  3    (−1, 1, 0)    B1   1     1
+                  3   (−1, −1, 0)    B1   1     1
+
+(0, 0, 0)   T1+   1      (1, 1, 1)   E    1     1
+                  1     (1, 1, −1)        1     1
+                  1     (1, −1, 1)        1     1
+                  1    (1, −1, −1)        1     1
+                  1     (−1, 1, 1)        1     1
+                  1    (−1, 1, −1)        1     1
+                  1    (−1, −1, 1)        1     1
+                  1   (−1, −1, −1)        1     1
+                  2      (1, 1, 1)        2    √2
+                                                 3
+                  2      (1, 1, 1)        1    −2
+                  2     (1, 1, −1)        2    √2
+                                                 3
+                  2     (1, 1, −1)        1    −2
+                  2     (1, −1, 1)        1    2
+                  2     (1, −1, 1)        2    √2
+                                                 3
+                  2    (1, −1, −1)        1     2
+                  2    (1, −1, −1)        2    √2
+                                                 3
+                  2     (−1, 1, 1)        1     2
+                  2     (−1, 1, 1)        2    √2
+                                                 3
+                  2    (−1, 1, −1)        1     2
+                  2    (−1, 1, −1)        2    √2
+                                                 3
+                  2    (−1, −1, 1)        2    √2
+                                                 3
+                  2    (−1, −1, 1)        1    −2
+                  2   (−1, −1, −1)        2    √2
+                                                 3
+                  2   (−1, −1, −1)        1    −2
+                  3      (1, 1, 1)        2   − √23
+                  3      (1, 1, 1)        1    −2
+                  3     (1, 1, −1)        2    √2
+                                                 3
+                  3     (1, 1, −1)        1    2
+                  3     (1, −1, 1)        1    −2
+                  3     (1, −1, 1)        2    √2
+                                                 3
+                  3    (1, −1, −1)        1     2
+                  3    (1, −1, −1)        2   − √23
+                  3     (−1, 1, 1)        1    2
+                  3     (−1, 1, 1)        2   − √23
+                  3    (−1, 1, −1)        1    −2
+                  3    (−1, 1, −1)        2    √2
+                                                 3
+                  3    (−1, −1, 1)        2    √2
+                                                 3
+                  3    (−1, −1, 1)        1    2
+                  3   (−1, −1, −1)        2   − √23
+                  3   (−1, −1, −1)        1    −2
+
+(0, 0, 0)   T1+   1     (0, 0, 2)    E    2     1
+                  1    (0, 0, −2)         2     1
+                  1     (0, 2, 0)         2     1
+                  1    (0, −2, 0)         2     1
+                  2     (0, 0, 2)         1     1
+                  2    (0, 0, −2)         1     1
+                  2     (2, 0, 0)         2     1
+                                                                                                           22
+
+                                2             (−2, 0, 0)                            2                1
+                                3              (0, 2, 0)                            1                1
+                                3             (0, −2, 0)                            1                1
+                                3              (2, 0, 0)                            1                1
+                                3             (−2, 0, 0)                            1                1
+
+(0, 0, 0)         T1+           1              (0, 0, 3)              E             2                1
+                                1             (0, 0, −3)                            2                1
+                                1              (0, 3, 0)                            2                1
+                                1             (0, −3, 0)                            2                1
+                                2              (0, 0, 3)                            1                1
+                                2             (0, 0, −3)                            1                1
+                                2              (3, 0, 0)                            2                1
+                                2             (−3, 0, 0)                            2                1
+                                3              (0, 3, 0)                            1                1
+                                3             (0, −3, 0)                            1                1
+                                3              (3, 0, 0)                            1                1
+                                3             (−3, 0, 0)                            1                1
+
+
+
+      TABLE S10: List of all combinations of momenta p                  ⃗2 , p
+                                                                             ⃗1 , irreps Λ2 , Λ1
+      and rows r2 , r1 at the sink and the source, respectively, that are relevant
+      for the extraction of the F2 form factor of the Tbb from the ratios R3µ .
+      The elements of the table are organized in the same way as in Table S9.
+                      ⟨Tbb (p2 , Λ2 , r2 ⟩)|ȷ̂µ
+                                              EM |Tbb (p1 , Λ1 , r1 ⟩), µ ≡ 2
+  L                                               L
+    p
+    ⃗
+  2π 2
+                  Λ2            r2                  p
+                                                    ⃗
+                                                  2π 1
+                                                                      Λ1            r1              w
+(0, 0, 0)         T1+           1               (1, 0, 0)             E             2               1
+                                1              (−1, 0, 0)             E             2               −1
+                                2               (0, 0, 1)             A2            1               −1
+                                2              (0, 0, −1)             A2            1               1
+                                2               (1, 0, 0)             A2            1               −1
+                                2              (−1, 0, 0)             A2            1               1
+                                3               (0, 0, 1)             E             1               1
+                                3              (0, 0, −1)             E             1               −1
+
+(0, 0, 0)         T1+           1               (1, 0, 1)             B1            1               1
+                                1              (1, 0, −1)             B1            1               1
+                                1              (−1, 0, 1)             B1            1               −1
+                                1             (−1, 0, −1)             B1            1               −1
+                                2               (1, 0, 1)             A2            1              − √12
+                                2              (1, 0, −1)             A2            1              − √12
+                                2              (−1, 0, 1)             A2            1               √1
+                                                                                                      2
+                                2             (−1, 0, −1)             A2            1               √1
+                                                                                                      2
+                                3               (1, 0, 1)             B1            1               1
+                                3              (1, 0, −1)             B1            1               −1
+                                3              (−1, 0, 1)             B1            1               1
+                                3             (−1, 0, −1)             B1            1               −1
+
+(0, 0, 0)         T1+           1              (1, 1, 1)              E             2                1
+                                1             (1, 1, −1)                            2                1
+                                1             (1, −1, 1)                            2                1
+                                1            (1, −1, −1)                            2               1
+                                1             (−1, 1, 1)                            2               −1
+                                1            (−1, 1, −1)                            2               −1
+                                1            (−1, −1, 1)                            2               −1
+                                1           (−1, −1, −1)                            2               −1
+
+(0, 0, 0)         T1+           1               (2, 0, 0)             E             2               1
+                                1              (−2, 0, 0)             E             2               −1
+                                2               (0, 0, 2)             A2            1               −1
+                                2              (0, 0, −2)             A2            1               1
+                                2               (2, 0, 0)             A2            1               −1
+                                                                                                        23
+
+                                2              (−2, 0, 0)             A2            1              1
+                                3               (0, 0, 2)             E             1              1
+                                3              (0, 0, −2)             E             1              −1
+
+(0, 0, 0)         T1+           1               (3, 0, 0)             E             2              1
+                                1              (−3, 0, 0)             E             2              −1
+                                2               (0, 0, 3)             A2            1              −1
+                                2              (0, 0, −3)             A2            1              1
+                                2               (3, 0, 0)             A2            1              −1
+                                2              (−3, 0, 0)             A2            1              1
+                                3               (0, 0, 3)             E             1              1
+                                3              (0, 0, −3)             E             1              −1
+
+
+
+
+      TABLE S11: List of all combinations of momenta p                  ⃗2 , p
+                                                                             ⃗1 , irreps Λ2 , Λ1
+      and rows r2 , r1 at the sink and the source, respectively, that are relevant
+      for the extraction of the F3 form factor of the Tbb from the ratios R3µ .
+      The elements of the table are organized in the same way as in Table S9.
+                      ⟨Tbb (p2 , Λ2 , r2 ⟩)|ȷ̂µ
+                                              EM |Tbb (p1 , Λ1 , r1 ⟩), µ ≡ 0
+   L                                               L
+     p
+     ⃗
+   2π 2
+                   Λ2            r2                  p
+                                                     ⃗
+                                                   2π 1
+                                                                       Λ1            r1            w
+ (0, 0, 0)         T1+           1               (1, 0, 0)             A2            1             1
+                                 1              (−1, 0, 0)                           1             1
+                                 2               (0, 1, 0)                           1             1
+                                 2              (0, −1, 0)                           1             1
+                                 3               (0, 0, 1)                           1             1
+                                 3              (0, 0, −1)                           1             1
+
+ (0, 0, 0)         T1+           1               (1, 0, 1)             A2            1             1
+                                 1              (1, 0, −1)                           1             1
+                                 1              (−1, 0, 1)                           1             1
+                                 1             (−1, 0, −1)                           1             1
+                                 1               (1, 1, 0)                           1             1
+                                 1              (1, −1, 0)                           1             1
+                                 1              (−1, 1, 0)                           1             1
+                                 1             (−1, −1, 0)                           1             1
+                                 2               (0, 1, 1)                           1             1
+                                 2              (0, 1, −1)                           1             1
+                                 2              (0, −1, 1)                           1             1
+                                 2             (0, −1, −1)                           1             1
+                                 2               (1, 1, 0)                           1             1
+                                 2              (1, −1, 0)                           1             −1
+                                 2              (−1, 1, 0)                           1             −1
+                                 2             (−1, −1, 0)                           1             1
+                                 3               (0, 1, 1)                           1             1
+                                 3              (0, 1, −1)                           1             −1
+                                 3              (0, −1, 1)                           1             −1
+                                 3             (0, −1, −1)                           1             1
+                                 3               (1, 0, 1)                           1             1
+                                 3              (1, 0, −1)                           1             −1
+                                 3              (−1, 0, 1)                           1             −1
+                                 3             (−1, 0, −1)                           1             1
+
+ (0, 0, 0)         T1+           1               (1, 1, 1)             A2            1             1
+                                 1              (1, 1, −1)                           1             1
+                                 1              (1, −1, 1)                           1             1
+                                 1             (1, −1, −1)                           1             1
+                                 1              (−1, 1, 1)                           1             1
+                                 1             (−1, 1, −1)                           1             1
+                                 1             (−1, −1, 1)                           1             1
+                                 1            (−1, −1, −1)                           1             1
+                                 2               (1, 1, 1)                           1             1
+                                 2              (1, 1, −1)                           1             1
+                                                   24
+
+                  2     (1, −1, 1)        1   −1
+                  2    (1, −1, −1)        1   −1
+                  2     (−1, 1, 1)        1   −1
+                  2    (−1, 1, −1)        1   −1
+                  2    (−1, −1, 1)        1    1
+                  2   (−1, −1, −1)        1    1
+                  3      (1, 1, 1)        1    1
+                  3     (1, 1, −1)        1   −1
+                  3     (1, −1, 1)        1   1
+                  3    (1, −1, −1)        1   −1
+                  3     (−1, 1, 1)        1   −1
+                  3    (−1, 1, −1)        1    1
+                  3    (−1, −1, 1)        1   −1
+                  3   (−1, −1, −1)        1    1
+
+(0, 0, 0)   T1+   1     (2, 0, 0)    A2   1   1
+                  1    (−2, 0, 0)         1   1
+                  2     (0, 2, 0)         1   1
+                  2    (0, −2, 0)         1   1
+                  3     (0, 0, 2)         1   1
+                  3    (0, 0, −2)         1   1
+
+(0, 0, 0)   T1+   1     (3, 0, 0)    A2   1   1
+                  1    (−3, 0, 0)         1   1
+                  2     (0, 3, 0)         1   1
+                  2    (0, −3, 0)         1   1
+                  3     (0, 0, 3)         1   1
+                  3    (0, 0, −3)         1   1
+

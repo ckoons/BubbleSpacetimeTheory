@@ -1,0 +1,334 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+                                                       I (J P ) = 21 (0− )
+  K0
+                                              K 0 MASS
+
+VALUE (MeV)                  EVTS           DOCUMENT ID               TECN      COMMENT
+497.611± 0.013 OUR FIT Error includes scale factor of 1.2.
+497.611± 0.013 OUR AVERAGE Error includes scale factor of 1.2.
+497.607± 0.007 ± 0.015 261k       1 TOMARADZE 14                    ψ(2S) → K 0 X
+                                                                              S
+497.583± 0.005 ± 0.020 35k          AMBROSINO 07B KLOE e + e − → K 0              0
+                                                                              L KS
+497.625± 0.001 ± 0.031 655k         LAI             02 NA48 K 0 beam
+                                                                      L
+497.661± 0.033         3713         BARKOV          87B CMD e + e − → K 0 K 0
+                                                                              L S
+497.742± 0.085           780        BARKOV          85B CMD e + e − → K 0 K 0
+                                                                              L S
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+497.44 ± 0.50                      FITCH          67 OSPK
+498.9 ± 0.5             4500       BALTAY         66 HBC       K 0 from p p
+497.44 ± 0.33           2223       KIM            65B HBC      K 0 from p p
+498.1 ± 0.4                        CHRISTENS... 64 OSPK
+  1 Obtained by analyzing CLEO-c data but not authored by the CLEO Collaboration.
+
+
+                                            mK 0 − mK ±
+
+VALUE (MeV)                  EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+3.934± 0.020 OUR FIT Error includes scale factor of 1.6.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.95 ± 0.21              417        HILL            68B DBC         +     K+ d → K0 p p
+3.90 ± 0.25                 9       BURNSTEIN 65 HBC                −
+3.71 ± 0.35                 7       KIM             65B HBC         −     K− p → nK0
+5.4   ± 1.1                                 CRAWFORD           59     HBC       +
+3.9   ± 0.6                                 ROSENFELD          59     HBC       −
+
+
+                         K 0 MEAN SQUARE CHARGE RADIUS
+
+VALUE (fm2 )                 EVTS           DOCUMENT ID               TECN      COMMENT
+− 0.077± 0.010 OUR AVERAGE
+− 0.077± 0.007 ± 0.011 5037                 ABOUZAID       KTEV K 0 → π + π − e + e −
+                                                               06
+                                                                      L
+− 0.090± 0.021                      LAI             03C NA48 K 0 → π + π − e + e −
+                                                                      L
+− 0.054± 0.026                      MOLZON          78              KS regen. by electrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.087± 0.046                              BLATNIK            79               VMD + dispersion rela-
+                                                                                  tions
+− 0.050± 0.130                              FOETH              69B              KS regen. by electrons
+
+
+
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                   T-VIOLATION PARAMETER IN K 0 -K 0 MIXING
+                              Γ(K 0 →K 0 )−Γ(K 0 →K 0 )
+          The asymmetry AT =                            must vanish if
+                              Γ(K 0 →K 0 )+Γ(K 0 →K 0 )
+          T invariance holds.
+
+ASYMMETRY AT IN K 0 -K 0 MIXING
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN
+6.6± 1.3± 1.0              640k            1 ANGELOPO... 98E CPLR
+  1 ANGELOPOULOS 98E measures the asymmetry A = [Γ(K 0                   →e + π − ν t=τ ) −
+                                                          T         t=0
+    Γ(K 0      →e − π + ν t=τ )]/[Γ(K 0     →e + π − ν t=τ ) + Γ(K 0        →e − π + ν t=τ )]
+         t=0                          t=0                             t=0
+    as a function of the neutral-kaon eigentime τ . The initial strangeness of the neutral
+    kaon is tagged by the charge of the accompanying charged kaon in the reactions p p →
+    K − π + K 0 and p p → K + π − K 0 . The strangeness at the time of the decay is tagged by
+    the lepton charge. The reported result is the average value of AT over the interval 1τs <
+    τ < 20τs . From this value of AT ANGELOPOULOS 01B, assuming CPT invariance in
+    the e π ν decay amplitude, determine the T-violating as ∆S=∆S conserving parameter
+    (for its deﬁnition, see Review below) 4Re(ǫ) = (6.2 ± 1.4 ± 1.0) × 10−3 .
+
+
+See the related review(s):
+  CPT Invariance Tests in Neutral Kaon Decay
+
+                               CP-VIOLATION PARAMETERS
+Re(ǫ)
+VALUE (units 10−3 )                          DOCUMENT ID               TECN
+1.596± 0.013                      1 AMBROSINO 06H KLOE
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.664± 0.010                      2 LAI             05A NA48
+  1 AMBROSINO 06H uses Bell-Steinberger relations with the following measurements:
+    B(K 0 → π + π − ) in AMBROSINO 06F, B(K 0 → π 0 π 0 π 0 ) in AMBROSINO 05B, the
+         L                                       S
+    K 0 -semileptonic charge asymmetry in AMBROSINO 06E, and K 0 -semileptonic results
+      S
+    in ANGELOPOULOS 98F.
+  2 LAI 05A values are obtained through unitarity (Bell-Steinberger relations), improving
+    determination of η 000 and combining other data from PDG 04 and APOSTOLAKIS 99B.
+
+
+                              CPT-VIOLATION PARAMETERS
+          In K 0 -K 0 mixing, if CP-violating interactions include a T conserving part
+          then
+                                              q
+               KS = [ K1 +(ǫ + δ) K2 ]/ 1+ ǫ+δ 2
+                                              q
+               KL = [ K2 +(ǫ − δ) K1 ]/ 1+ ǫ−δ 2
+          where
+                                   √
+                K1 = [ K 0 + K 0 ]/ 2
+                                   √
+                K2 = [ K 0 − K 0 ]/ 2
+          and
+                K 0 = CP K 0 .
+
+
+https://pdg.lbl.gov                           Page 2                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+          The parameter δ speciﬁes the CPT-violating part.
+
+          Estimates of δ are given below assuming the validity of the ∆S=∆Q rule.
+          See also THOMSON 95 for a test of CPT-symmetry conservation in K 0
+          decays using the Bell-Steinberger relation.
+
+REAL PART OF δ
+       A nonzero value violates CPT invariance.
+VALUE (units 10−4 )           EVTS           DOCUMENT ID               TECN      COMMENT
+  2.51± 2.25                               1 ABOUZAID
+                                                    11 KTEV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  2.3 ± 2.7                       2 AMBROSINO 06H KLOE
+  2.4 ± 2.8                       3 APOSTOLA... 99B RVUE
+  2.9 ± 2.6 ± 0.6        1.3M     4 ANGELOPO... 98F CPLR
+180 ± 200                 6481    5 DEMIDOV         95              Kℓ3 reanalysis
+  1 ABOUZAID 11 uses Bell-Steinberger relations.
+  2 AMBROSINO 06H uses Bell-Steinberger relations with the following measurements:
+    B(K 0 → π + π − ) in AMBROSINO 06F, B(K 0 → π 0 π 0 π 0 ) in AMBROSINO 05B, the
+         L                                      S
+    K 0 -semileptonic charge asymmetry in AMBROSINO 06E, and K 0 -semileptonic results
+      S
+    in ANGELOPOULOS 98F.
+  3 APOSTOLAKIS 99B assumes only unitarity and combines CPLEAR and other results.
+  4 ANGELOPOULOS 98F use ∆S=∆Q. If ∆S=∆Q is not assumed, they ﬁnd Reδ=(3.0 ±
+    3.3 ± 0.6) × 10−4 .
+  5 DEMIDOV 95 reanalyzes data from HART 73 and NIEBERGALL 74.
+
+IMAGINARY PART OF δ
+       A nonzero value violates CPT invariance.
+VALUE (units 10−5 )                EVTS          DOCUMENT ID                TECN      COMMENT
+−     1.5±     1.6                     1 ABOUZAID       11 KTEV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+      0.4±     2.1                     2 AMBROSINO 06H KLOE
+−     0.2±     2.0                     3 LAI            05A NA48
+      2.4±     5.0                     4 APOSTOLA... 99B RVUE
+− 90 ± 290 ± 100             1.3M      5 ANGELOPO... 98F CPLR
+  2100 ± 3700                6481      6 DEMIDOV        95              Kℓ3 reanalysis
+  1 ABOUZAID 11 uses Bell-Steinberger relations.
+  2 AMBROSINO 06H uses Bell-Steinberger relations with the following measurements:
+    B(K 0 → π + π − ) in AMBROSINO 06F, B(K 0 → π 0 π 0 π 0 ) in AMBROSINO 05B, the
+         L                                       S
+    K 0 -semileptonic charge asymmetry in AMBROSINO 06E, and K 0 -semileptonic results
+       S
+    in ANGELOPOULOS 98F.
+  3 LAI 05A values are obtained through unitarity (Bell-Steinberger relations), improving
+    determination of η 000 and combining other data from PDG 04 and APOSTOLAKIS 99B.
+  4 APOSTOLAKIS 99B assumes only unitarity and combines CPLEAR and other results.
+  5 If ∆S=∆Q is not assumed, ANGELOPOULOS 98F ﬁnds Imδ=(− 15 ± 23 ± 3) × 10−3 .
+  6 DEMIDOV 95 reanalyzes data from HART 73 and NIEBERGALL 74.
+
+
+
+
+https://pdg.lbl.gov                           Page 3                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Re(y)
+        A non-zero value would violate CPT invariance in ∆S = ∆Q amplitude. Re(y) is the
+        following combination of Ke3 decay amplitudes:
+                             A(K 0 →e − π + ν e )∗ −A(K 0 →e + π − νe )
+                                                                       
+                Re(y) = Re
+                             A(K 0 →e − π + ν e )∗ +A(K 0 →e + π − νe )
+
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN
+0.4± 2.5                 13k      1 AMBROSINO 06E KLOE
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.3± 3.1                          2 APOSTOLA... 99B CPLR
+  1 They use the PDG 04 for the K 0 semileptonic charge asymmetry and PDG 04 (CP
+                                      L
+    review, CPT NOT ASSUMED) for Re(ǫ).
+  2 Constrained by Bell-Steinberger (or unitarity) relation.
+
+Re(x− )
+        A non-zero value would violate CPT invariance in decay amplitudes with ∆S 6= ∆Q.
+        x− , used here to deﬁne Re(x− ), and x+ , used below in the ∆S = ∆Q section are
+        the following combinations of Ke3 decay amplitudes:
+                               0     − +             0      + −      ∗ 
+                       1 A(K →π e νe ) ± A(K →π e ν e )
+                        
+                 x± = 2                                                  .
+                           A(K 0 →π − e + νe )   A(K 0 →π + e − ν e )∗
+
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      COMMENT
+− 2.9± 2.0                        1 AMBROSINO 06H KLOE
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.8± 2.5               13k      2 AMBROSINO 06E KLOE
+− 0.5± 3.0                        3 APOSTOLA... 99B CPLR Strangeness tagged
+  2 ± 13 ± 3              650k       ANGELOPO... 98F CPLR Strangeness tagged
+  1 AMBROSINO 06H uses Bell-Steinberger relations with the following measurements:
+    B(K 0 → π + π − ) in AMBROSINO 06F, B(K 0 → π 0 π 0 π 0 ) in AMBROSINO 05B, the
+         L                                        S
+    K 0 -semileptonic charge asymmetry in AMBROSINO 06E, and K 0 -semileptonic results
+      S
+    in ANGELOPOULOS 98F.
+  2 Uses PDG 04 for the K 0 semileptonic charge asymmetry and Re(δ) from CPLEAR,
+                             L
+    ANGELOPOULOS 98F.
+  3 Constrained by Bell-Steinberger (or unitarity) relation.
+
+
+                                      m K 0 − m K 0 / m average
+          A test of CPT invariance. “Our Evaluation” is described in the “Tests of
+          Conservation Laws” section. It assumes CPT invariance in the decay and
+          neglects some contributions from decay channels other than π π.
+
+VALUE                          CL%           DOCUMENT ID               TECN
+ <6 × 10−19             90          PDG             12
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+(− 3 ± 4) × 10−18                 1 ANGELOPO... 99B RVUE
+  1 ANGELOPOULOS 99B assumes only unitarity and combines CPLEAR and other results.
+
+
+
+
+https://pdg.lbl.gov                           Page 4                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                      (Γ K 0 − Γ K 0 )/m average
+          A test of CPT invariance.
+
+VALUE                                        DOCUMENT ID               TECN
+(7.8± 8.4) × 10−18              1 ANGELOPO... 99B RVUE
+  1 ANGELOPOULOS 99B assumes only unitarity and combines CPLEAR with other results.
+    Correlated with (m 0 − m 0 ) / m average with a correlation coeﬃcient of − 0.95.
+                      K     K
+
+                                 TESTS OF ∆S = ∆Q RULE
+Re(x+ )
+        A non-zero value would violate the ∆S = ∆Q rule in CPT conserving transitions. x+
+        is deﬁned above in the Re(x− ) section.
+
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN
+− 0.9± 3.0 OUR AVERAGE
+− 2 ± 10                             1 BATLEY          07D NA48
+− 0.5± 3.6                 13k       2 AMBROSINO 06E KLOE
+− 1.8± 6.1                           3 ANGELOPO... 98D CPLR
+  1 Result obtained from the measurement Γ(K 0 → π e ν) / Γ(K 0 → π e ν) = 0.993 ± 0.34,
+                                                S               L
+    neglecting possible CPT non-invariance and using PDG 06 values of B(K 0 → π e ν) =
+                                                                           L
+    0.4053 ± 0.0015, τ L = (5.114 ± 0.021)×10−8 s and τ S = (0.8958 ± 0.0005)×10−10 s.
+  2 Re(x ) can be shown to be equal to the following combination of rates:
+         +
+                               0                0
+            Re(x+ ) = 2 1 Γ(K S →π e ν)−Γ(K L →π e ν)
+                          Γ(K 0S →π e ν)+Γ(K 0L →π e ν)
+    which is valid up to ﬁrst order in terms violating CPT and/or the ∆S = ∆Q rule.
+  3 Obtained neglecting CPT violating amplitudes.
+
+
+                                         K 0 REFERENCES
+TOMARADZE 14        PR D89 031501               A. Tomaradze et al.                    (NWES, WAYN)
+PDG           12    PR D86 010001               J. Beringer et al.                       (PDG Collab.)
+ABOUZAID      11    PR D83 092001               E. Abouzaid et al.                (FNAL KTeV Collab.)
+AMBROSINO 07B JHEP 0712 073                     F. Ambrosino et al.                     (KLOE Collab.)
+BATLEY        07D PL B653 145                   J.R. Batley et al.               (CERN NA48 Collab.)
+ABOUZAID      06    PRL 96 101801               E. Abouzaid et al.                      (KTeV Collab.)
+AMBROSINO 06E PL B636 173                       F. Ambrosino et al.                     (KLOE Collab.)
+AMBROSINO 06F PL B638 140                       F. Ambrosino et al.                     (KLOE Collab.)
+AMBROSINO 06H JHEP 0612 011                     F. Ambrosino et al.                     (KLOE Collab.)
+PDG           06    JP G33 1                    W.-M. Yao et al.                         (PDG Collab.)
+AMBROSINO 05B PL B619 61                        F. Ambrosino et al.                     (KLOE Collab.)
+LAI           05A PL B610 165                   A. Lai et al.                    (CERN NA48 Collab.)
+PDG           04    PL B592 1                   S. Eidelman et al.                       (PDG Collab.)
+LAI           03C EPJ C30 33                    A. Lai et al.                    (CERN NA48 Collab.)
+LAI           02    PL B533 196                 A. Lai et al.                    (CERN NA48 Collab.)
+ANGELOPO... 01B EPJ C22 55                      A. Angelopoulos et al.               (CPLEAR Collab.)
+ANGELOPO... 99B PL B471 332                     A. Angelopoulos et al.               (CPLEAR Collab.)
+APOSTOLA... 99B PL B456 297                     A. Apostolakis et al.                (CPLEAR Collab.)
+ANGELOPO... 98D PL B444 38                      A. Angelopoulos et al.               (CPLEAR Collab.)
+    Also            EPJ C22 55                  A. Angelopoulos et al.               (CPLEAR Collab.)
+ANGELOPO... 98E PL B444 43                      A. Angelopoulos et al.               (CPLEAR Collab.)
+ANGELOPO... 98F PL B444 52                      A. Angelopoulos et al.               (CPLEAR Collab.)
+    Also            EPJ C22 55                  A. Angelopoulos et al.               (CPLEAR Collab.)
+DEMIDOV       95    PAN 58 968                  V. Demidov, K. Gusev, E. Shabalin              (ITEP)
+    From YAF 58 1041.
+THOMSON       95    PR D51 1412                 G.B. Thomson, Y. Zou                              (RUTG)
+
+
+https://pdg.lbl.gov                           Page 5                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+BARKOV         87B   SJNP 46 630             L.M. Barkov et al.                             (NOVO)
+                     Translated from YAF 46 1088.
+BARKOV         85B   JETPL 42 138            L.M. Barkov et al.                             (NOVO)
+                     Translated from ZETFP 42 113.
+BLATNIK        79    LNC 24 39               S. Blatnik, J. Stahov, C.B. Lang         (TUZL, GRAZ)
+MOLZON         78    PRL 41 1213             W.R. Molzon et al.                               (EFI+)
+NIEBERGALL     74    PL 49B 103              F. Niebergall et al.             (CERN, ORSAY, VIEN)
+HART           73    NP B66 317              J.C. Hart et al.                         (CAVE, RHEL)
+FOETH          69B   PL 30B 276              H. Foeth et al.                   (AACH, CERN, TORI)
+HILL           68B   PR 168 1534             D.G. Hill et al.                           (BNL, CMU)
+FITCH          67    PR 164 1711             V.L. Fitch et al.                                (PRIN)
+BALTAY         66    PR 142 932              C. Baltay et al.                           (YALE, BNL)
+BURNSTEIN      65    PR 138 B895             R.A. Burnstein, H.A. Rubin                       (UMD)
+KIM            65B   PR 140 B1334            J.K. Kim, L. Kirsch, D. Miller                  (COLU)
+CHRISTENS...   64    PRL 13 138              J.H. Christenson et al.                          (PRIN)
+CRAWFORD       59    PRL 2 112               F.S. Crawford et al.                              (LRL)
+ROSENFELD      59    PRL 2 110               A.H. Rosenfeld, F.T. Solmitz, R.D. Tripp          (LRL)
+
+
+
+
+https://pdg.lbl.gov                           Page 6                      Created: 6/1/2026 16:25
+

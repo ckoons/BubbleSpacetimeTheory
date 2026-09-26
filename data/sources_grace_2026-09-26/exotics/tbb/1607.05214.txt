@@ -1,0 +1,374 @@
+                                                          Lattice Prediction for Deeply Bound Doubly Heavy Tetraquarks
+
+                                                                         A. Francisa , R. J. Hudspitha , R. Lewisa and K. Maltmanb,c
+                                                               a
+                                                                 Department of Physics & Astronomy, York University, Toronto, ON M3J 1P3, Canada
+                                                           b
+                                                               Department of Mathematics & Statistics, York University, Toronto, ON M3J 1P3, Canada
+                                                                            c
+                                                                              CSSM, University of Adelaide, Adelaide SA 5005, Australia
+                                                                                                (Dated: May 10, 2017)
+                                                           We investigate the possibility of qq 0 b̄b̄ tetraquark bound states using nf = 2 + 1 lattice QCD
+                                                        ensembles with pion masses ≃ 164, 299, and 415 MeV. Motivated by observations from heavy
+                                                        baryon phenomenology, we consider two lattice interpolating operators both of which are expected
+                                                        to couple efficiently to tetraquark states: one with diquark-antidiquark and one with a meson-
+                                                        meson structure. Using nonrelativistic QCD to simulate the bottom quarks, we study the udb̄b̄,
+                                                        `sb̄b̄ channels with ` = u, d, and find unambiguous signals for strong-interaction-stable J P = 1+
+
+
+
+
+arXiv:1607.05214v2 [hep-lat] 9 May 2017
+                                                        tetraquarks. These states are found to lie 189(10) and 98(7) MeV below the corresponding free
+                                                        two-meson thresholds.
+
+
+                                                                 INTRODUCTION                                Bs B ∗ for the I = 0 and I = 1/2 members of the 3̄F ,
+                                                                                                             respectively. The residual spin-dependent interactions in
+                                             In QCD the attractive nature of the color Coulomb               the J = 0, 1 mesons making up these threshold states are
+                                          potential for two antiquarks in a 3c color configuration           suppressed by the b mass, the physical thresholds lying 23
+                                          ensures the existence of strong-interaction stable qq 0 Q̄Q̄       and 25 MeV below their corresponding spin-averaged ver-
+                                          exotics in the limit mQ → ∞ [1, 2]. However, the phys-             sions. With ∼ 20 MeV of further binding likely from the
+                                          ical charm and bottom masses are insufficiently heavy              color Coulomb interaction in the 3c b̄b̄ pair, one would ex-
+                                          for this mechanism to dominate and ensure the existence            pect an I = 0, J P = 1+ udb̄b̄ tetraquark bound by consid-
+                                          of doubly charmed or bottom tetraquarks. Whether such              erably more than 100 MeV and a related J P = 1+ `sb̄b̄,
+                                          exotics exist is thus a dynamical question involving other,        ` = u, d, isodoublet bound by ∼ 100 MeV, in the limit
+                                          in general non-perturbative, effects in these systems.             that one ignores the non-pointlike nature of the nearly
+                                             The spectrum of bottom baryons suggests that dou-               static b̄b̄ color 3c source.
+                                          bly bottom tetraquarks should exist and be strong-                    Expectations are less clear for the qq 0 c̄c̄ tetraquark
+                                          interaction stable, for the following reasons.                     channels, where spin-dependent light-heavy interactions
+                                             First, the smallness of the observed B ∗ − B, Bs∗ − Bs ,        are less suppressed. Phenomenologically, the Σ∗c − Σc ,
+                                          Σb − Σb and Ξ∗b − Ξ0b splittings suggests that mb is suf-
+                                            ∗                                                                Ξ∗c − Ξ0c , D∗ − D and Ds∗ − Ds splittings are a factor three
+                                          ficiently large that the heavy quark limit, in which the           greater than the corresponding bottom sector splittings,
+                                          heavy quark spin decouples and a heavy anti-diquark be-            and the Σc −Λc and Ξ0c −Ξc splittings, which would reflect
+                                          haves like a single heavy quark, is a reasonable approxi-          purely light-quark spin-dependence in the heavy-quark
+                                          mation for b quarks. The Σb − Λb and Ξ0b − Ξb splittings           limit, are ∼ 30 MeV less than the corresponding bottom
+                                          then give a direct experimental measure of the difference          sector splittings. The larger (∼ 140 MeV) D∗ − D and
+                                          in energies between dressed diquarks with light (u, d, s)          Ds∗ − Ds splittings also drive the DD∗ and Ds D∗ strong-
+                                          quark flavor, spin and color (F, S` , C) = (3̄F , 0, 3̄c ) and     decay thresholds farther down below their spin-averaged
+                                          (6F , 1, 3̄c ) in the field of a heavy, nearly static color        analogues than is the case in the bottom system, further
+                                          3c source. The 3̄c non-strange (I = 0, S` = 0) and                 eating into the potential tetraquark binding generated by
+                                          (I = 1, S` = 1) diquarks lie ∼ 145 MeV below, and ∼ 48             the good light diquark configuration. With significantly
+                                          MeV above, the corresponding spin average, while the 3̄c           reduced net spin-dependent attraction, other residual ef-
+                                          us, ds (F, S` ) = (3̄F , 0) and (6F , 1) diquarks lie ∼ 106        fects will become more important to take into account
+                                          MeV below and ∼ 35 MeV above the corresponding spin                quantitatively in the double-charm sector.
+                                          average. Following Jaffe [3] we refer to the (3̄F , 0, 3̄c ) and      Many studies in the literature argue for the existence
+                                          (6F , 1, 3̄c ) configurations as “good diquark” and “bad di-       of strong interaction stable doubly heavy tetraquarks [1–
+                                          quark”.                                                            11], the majority of these, moreover, identifying the 3̄F ,
+                                             In the doubly heavy qq 0 b̄b̄ sector, with q, q 0 = u, d, s     J P = 1+ channel as optimal for binding. The long dis-
+                                          the good qq 0 diquark configuration is accessible when the         tance J P = 1+ DD∗ and BB ∗ interactions, mediated
+                                          two b̄’s are in a color 3c . With no b̄-b̄ spatial excita-         by pseudoscalar exchange, and hence constrained by chi-
+                                          tion, the b̄b̄ spin will be Jh = 1, producing an associated        ral symmetry, are known to be attractive [2, 5], with a
+                                          tetraquark configuration with J P = 1+ . The relevant              strength capable of producing weak binding in the BB ∗
+                                          two-meson thresholds, below which such a tetraquark                system [2]. Doubly heavy tetraquark channels have also
+                                          would be strong-interaction stable, are then BB ∗ and              been investigated in a number of lattice studies [6–10].
+                                                                                                                                 2
+
+The simulations all have mπ > 330 MeV, and, with the           LATTICE OPERATORS AND CORRELATORS
+exception of Ref. [9], treat the heavy quarks in the static
+limit. All find the strongest attraction in the I = 0,          The general form of a Euclidean time, lattice QCD
+J P = 1+ channel. Evidence of increasing attraction with      correlation function is (see e.g. [12])
+decreasing light quark mass is also found. Refs. [7, 8, 10]                          X
+employ a Born-Oppenheimer approach, fitting static en-               CO1 O2 (p, t) =    eip·x hO1 (x, t)O2 (0, 0)† i ,
+ergies as a function of heavy diquark separation, r, to an                               x
+                                                                                                                                (1)
+                                                                                         X
+assumed functional form, V (r), and then solving for the                             =        h0|O1 |nihn|O2 |0ie−En (p)t ,
+heavy quark motion using the Schrödinger equation with                                  n
+potential V (r). The most recent of the studies employ-
+ing nf = 2 ETMC ensembles, Ref. [10], uses a screened         where the operators (Oi ) have the quantum numbers of
+color Coulomb form for V (r), and, extrapolating linearly     the continuum state of interest. For the I(J P ) = 21 (0− )
+to physical mπ , obtains an estimated binding of 90+43        and 21 (1− ) B(5279) and B ∗ (5325) mesons, for example 1 ,
+                                                       −36
+MeV in the udb̄b̄ channel. Bound doubly bottom states,                             P (x) = b̄α     αβ β
+                                                                                             a (x)γ5 ua (x) ,
+and sometimes bound doubly charmed states, were also                                                                            (2)
+                                                                                                   αβ β
+obtained in calculations employing a range of model-                               V (x) = b̄α
+                                                                                             a (x)γi da (x) .
+dependent effective quark-quark interactions [1, 11]. The
+                                                                We are focused on the 3̄F , J P = 1+ udb̄b̄ and `sb̄b̄
+effective interactions employed in these studies all pro-
+                                                              channels, and aim to construct lattice interpolating op-
+duce a good diquark-bad diquark splitting compatible in
+                                                              erators having good overlap with the expected tetraquark
+sign and magnitude with that required for understanding
+                                                              ground states.
+the features of the meson and baryon spectra.
+                                                                Our first operator has the favorable diquark-
+                                                              antidiquark structure noted above, with b̄b̄ color 3c , spin
+                                                              1 and light quark flavor-spin-color (3̄F , 0, 3̄c ) 2 :
+                                                                                             αβ β
+   In what follows, we investigate more quantitatively the             D(x) = (uα     T
+                                                                                a (x)) (Cγ5 )  qb (x)
+expectation that a 3̄F of doubly heavy strong-interaction-                                                                      (3)
+                                                                                             × b̄κa (x)(Cγi )κρ (b̄ρb (x))T ,
+stable tetraquark states exists via lattice calculations.
+Since the arguments above suggest that binding will be        where q = d or s. Though there can be relative orbital
+greatest in the bottom sector, and will increase as the       momentum, the ground state should have none, yielding
+light quark mass is decreased, we focus on the udb̄b̄ and     a J P = 1+ state. In general, D(x) will also couple to
+`sb̄b̄ channels, and employ publicly available nf = 2 + 1     any pair of conventional mesons with the same quantum
+ensembles with sufficiently low mπ to allow for a con-        numbers (the lowest lying being BB ∗ with L = 0 for
+trolled chiral extrapolation. The ensembles used have         q = d and Bs B ∗ with L = 0 for q = s). Combining a
+near-physical mK and mπ ≃ 164 MeV, 299 MeV and 415            pair of heavy-light mesons on the lattice we are led to
+MeV. We work at fixed lattice spacing, and use NRQCD          consider a meson-meson operator
+for the b quarks. With significant binding expected, a                                αβ β             κρ ρ
+simple, well-adapted 3̄F , J P = 1+ operator choice should            M (x) = b̄α                κ
+                                                                                a (x)γ5 ua (x) b̄b (x)γi db (x)
+                                                                                             αβ β             κρ ρ
+                                                                                                                                (4)
+suffice to extract the ground state tetraquark signal. In                          − b̄α                κ
+                                                                                       a (x)γ5 da (x) b̄b (x)γi ub (x)
+fact, we employ two operators, one having the diquark-
+antidiquark structure suggested by the discussions above,     for the 3̄F , I = 0 channel, and the analogous operator
+and another whose flavor-spin-color correlations are those    with Bs B ∗ structure for the 3̄F isodoublet channel.
+of the two-meson BB ∗ and Bs B ∗ threshold states. In-          To study possible tetraquark binding, we compare the
+cluding the latter allows us to reduce excited state con-     ground state and lowest-lying free two-heavy-light meson
+tamination of the ground state signal at earlier Euclidean    state mass sum in the channel of interest. This can be
+times through a 2 × 2 generalized eigenvalue problem          achieved by using the relevant pseudoscalar (P) and vec-
+(GEVP) analysis. The results of our analysis bear out the     tor (V) meson correlators, CP P (t) and CV V (t) of Eq. 2,
+expectations outlined above, producing strong evidence        to compute the binding correlator,
+for deeply bound udb̄b̄ and `sb̄b̄ states.                                                         CO1 O2 (t)
+                                                                                 GO1 O2 (t) =                     ,             (5)
+                                                                                                 CP P (t)CV V (t)
+
+
+  Key features that distinguish our calculation from pre-     1 Greek indices here denote spin, Latin indices color and u, d, s, b
+vious lattice explorations are the use of NRQCD, thus           quark flavors.
+avoiding the static approximation for the heavy b quarks,     2 We have used the identity 
+                                                                                           eab 
+                                                                                                ecd = δ δ
+                                                                                                       ac bd − δad δbc ; the two
+and the use of ensembles with light quarks close to the         terms on the RHS yield identical contributions to the final cor-
+physical point.                                                 relator.
+                                                                                                                               3
+
+        Label          EH          EM           EL                [14], with a partially-quenched valence strange quark
+       Extent        323 × 64    323 × 64    323 × 64             tuned to obtain the physical K mass at the physical
+    a−1 [GeV][13] 2.194(10) 2.194(10) 2.194(10)                   point. An overview of the ensembles can be found in
+          κl         0.13754     0.13770     0.13781
+                                                                  Tab. I. The basic spectrum of [14] was reproduced in this
+                                                                  work. In the valence sector we used Coulomb gauge-fixed
+          κs         0.13640     0.13640     0.13640
+                                                                  wall sources 3 . Sources on multiple time-source posi-
+         amπ       0.18928(36) 0.13618(46) 0.07459(54)
+                                                                  tions were inverted to compute light, strange and bottom
+        amK        0.27198(28) 0.25157(30) 0.23288(25)
+                                                                  quark propagators 4 .
+        mπ L           6.1         4.4          2.4
+     MΥ [GeV]       9.528(79) 9.488(71) 9.443(76)
+    Configurations     400         800          195                       NRQCD propagators and mass tuning
+    Measurements       800         800         3078
+                                                                    We use the NRQCD lattice action [19] to calculate bot-
+TABLE I. Overview of our ensemble parameters: amπ,K are           tom quark propagators. The Hamiltonian is [20]
+from global cosh/sinh fits to a shared mass and common am-
+plitudes over the CP P , CAt At , and CAt P correlators using              ∆(2)      (∆(2) )2  c2 ig ˜                ˜
+both wall-local and wall-wall data. Fit ranges were chosen so       H =−        − c1      3   + 4      (∆ · Ẽ − Ẽ · ∆)
+                                                                           2M0        8M0      U0 8M02
+χ2 /dof is close to 1. This analysis leads to amπ with uncer-              c3 g
+tainties improved by a factor of ∼ 6 relative to those of [14].           − 4      σ ·(˜
+                                                                                       ∆ × Ẽ − Ẽ × ˜
+                                                                                                     ∆)
+Throughout the strange quark is tuned to its physical value                U0 8M02
+in the valence sector with κval
+                              s   = 0.13666. These configu-                   c4 g               a2 ∆(4)      a(∆(2) )2
+rations use the Iwasaki gauge action [15] with β = 1.9 and                −    4     σ · B̃ + c5         − c6           ,
+                                                                              U0 2M0             24M0          16nM02
+non-perturbative clover coefficient cSW = 1.715.
+                                                                                                                        (9)
+                                                                  with the tadpole-improvement coefficient U0 set via the
+which, for a channel with a tetraquark ground state with          fourth root of the plaquette and tree-level values ci =
+(negative) binding ∆E with respect to its two-meson PV            1. A tilde denotes tree-level improvement and the c5 , c6
+threshold, grows as e−∆E t for large Euclidean t.                 terms remove the remaining O(a) and O(a2 ) errors.
+                                                                    To tune the bottom quark bare mass we calculated
+                                                                  the Υ-meson correlation function using local-local hadron
+                      GEVP analysis                               correlators at finite momentum. The tuning is imple-
+                                                                  mented via the momentum dispersion relation
+  The operators (Eqs. 3 and 4) have the same quantum                                          1 p̂2    X
+numbers and hence overlap with the same ground and                            E(p̂) = M0 +          +      O(p̂[2n] ),    (10)
+                                                                                              2 Mph n>1
+excited states, though with different relative strengths.
+We define the matrix of binding correlation functions,                                                        
+                                                                                                                2πn
+                                                                                                                       
+                                                                  where we use lattice momenta p̂µ = a sin Lµµ . Mph is
+including possible operator mixing, by
+                                                                the physical hadron mass and the values quoted in Tab. I
+             F (t) =
+                       GDD (t) GDM (t)
+                                           .          (6)         are from a linear fit in p̂2 to Eq. 10. This setup is known
+                       GM D (t) GM M (t)                          to account for relativistic effects at the few percent level
+                                                                  while capturing the relevant heavy-light quark physics
+The variational method can then be used to extract the
+                                                                  [20–22] 5 .
+binding by solving the GEVP,
+
+                   F (t)ν = λ(t)F (t0 )ν ,                 (7)
+                                                                        NUMERICAL RESULTS, CHIRAL AND
+with the eigenvectors ν and the binding energy deter-                      VOLUME EXTRAPOLATIONS
+mined directly from the eigenvalues λ(t) via,
+                                                                    Our results for the ground (red) and excited state
+        λ(t) = A e−∆E(t−t0 ) = (1 + δ)e−∆E(t−t0 ) .        (8)    (blue) binding energies are shown in Fig. 1. For pre-
+                                                                  sentational purposes we show these as log-effective bind-
+From a 2 × 2 matrix two eigenvalues can be extracted;
+                                                                  ing energies. For comparison, results obtained from the
+one corresponds to the ground state and the other to a
+mixture of all excited state contaminations.
+                                                                  3 The FACG algorithm of [17] was used to fix to an accuracy of
+
+                 NUMERICAL SETUP                                    Θ < 10−14 .
+                                                                  4 We use a modified deflated SAP-solver [18] for the light and
+
+                                                                    strange quarks.
+                                                                  5 Our own heavy meson and baryon spectrum agrees well with [22]
+   We use nf = 2 + 1 Wilson-Clover [16] fermion gauge
+field ensembles generated by the PACS-CS collaboration              and a publication is in preparation.
+                                                                                                                                  4
+
+
+
+
+                                                                  FIG. 2. Chiral extrapolations of the udb̄b̄ and `sb̄b̄ binding
+                                                                  energies. Red lines and points show the extrapolations using
+                                                                  all three ensembles, the blue points those using EH and EM .
+
+                                                                              Ensemble ∆Eudb̄b̄ [MeV] ∆E`sb̄b̄ [MeV]
+
+                                                                                EH            -139(5)        -81(8)
+                                                                                EM            -163(8)        -94(9)
+                                                                                 EL          -190(12)        -96(7)
+                                                                                Phys       -189(10)(3)     -98(7)(3)
+
+                                                                  TABLE II. Ensemble and extrapolated physical-point (Phys)
+                                                                  udb̄b̄ and `sb̄b̄ binding energies from fitting all ensembles. Er-
+                                                                  rors for the individual ensembles are statistical. For the ex-
+                                                                  trapolated physical point entries, the first error is statistical
+                                                                  and the second the systematic error estimated as described in
+                                                                  the text.
+
+
+                                                                    To estimate the binding energy we perform a single ex-
+                                                                  ponential fit, Eq. 8, to the first eigenvalue λ(t) and accept
+                                                                  those that satisfy χ2 /d.o.f. ∼ 1. In case of an increasing
+                                                                  exponential in time, which would indicate a state below
+                                                                  threshold, the quality of χ2 /d.o.f. diminishes as more
+FIG. 1. udb̄b̄ (top panel) and `sb̄b̄ (bottom panel) tetraquark   noise dominated points are added at long distances. We
+effective binding energies. Red circles (blue squares) repre-     observe this effect and, in order to give conservative esti-
+sent the bindings relative to the BB ∗ (Bs B ∗ ) threshold of     mates, for our final results we choose the longest fit range
+the first and second GEVP eigenvalues, respectively. Red          with χ2 /d.o.f. ≃ 1 in t/a; these are 7 → 19 and 12 → 25
+bands denote the final fit results. Grey dashes and grey          for the udb̄b̄ and `sb̄b̄ channels, respectively.
+crosses indicate the bindings obtained from the correspon-
+ding diquark-diquark and meson-meson single-operator anal-
+                                                                    We use a linear extrapolation in m2π to determine our
+yses. Left panels: EH (mπ L ≃ 6.1, mπ ≃ 415 MeV). Cen-            physical point tetraquark bindings 7 . As the ensemble
+ter: EM (mπ L ≃ 4.4, mπ ≃ 299 MeV). Right: EL (mπ L ≃             EL has a small mπ L, we estimate our finite volume and
+2.4, mπ ≃ 164 MeV).                                               chiral extrapolation systematic by performing two such
+                                                                  extrapolations, one using only EH and EM and the other
+                                                                  using all three ensembles, taking half the difference of the
+single-operator diquark-antidiquark (grey dashes) and             resulting central values as our systematic error. These
+meson-meson (grey crosses) analyses are also included.            extrapolations are shown in Fig. 2, with the filled red
+The results show that both operators couple well to the           symbols giving the physical point results for the three-
+ground state. We also see, as t/a increases, the second           ensemble fits and the open blue symbols the correspon-
+GEVP eigenvalue approach the relevant two-meson PV
+threshold in both channels, strongly supporting an inter-
+pretation of the corresponding ground states as genuine
+tetraquarks 6 .                                                     the finite volume relations of [23] and find it to be at the
+                                                                    ∆E ≈ −10MeV level for both the ground and threshold ener-
+                                                                    gies.
+                                                                  7 This is the leading order chiral behavior when the strange quark
+6 In addition, we estimated the effect of a possible attractive     masses on all ensembles have been tuned to the physical value
+  meson-meson interaction for a hypothetical BB-system using        [24], as was done here.
+                                                                                                                                      5
+
+ding results for the fits employing only EH and EM . The                                  ACKNOWLEDGMENTS
+results of both extrapolations are in good agreement, im-
+plying that finite volume errors are under control. The
+individual-ensemble and extrapolated physical-point re-                      We thank Mark Wurtz for help with the NRQCD
+sults are given in Tab. II. Light quark cut-off effects are                portion of this work. The authors are supported by
+at the O(a2 )-level and hence expected to be small, while                  NSERC of Canada. Propagator inversions and gauge fix-
+the NRQCD Hamiltonian in Eq. 9 is O(a2 ) improved.                         ing were performed on Compute Canada’s GPC machine
+                                                                           at SciNet. Contractions were performed using our open-
+                                                                           source contraction library [25].
+
+
+            DECAY MODES SUITABLE FOR
+            EXPERIMENTAL DETECTION
+                                                                            [1] J. Carlson, L. Heller, and J. A. Tjon, Phys. Rev. D37,
+                                                                                744 (1988).
+  We discuss briefly decay modes likely to be amenable                      [2] A. V. Manohar and M. B. Wise, Nucl. Phys. B399, 17
+to experimental searches for the 3̄F , J P = 1+ qq 0 b̄b̄                       (1993).
+tetraquark candidates identified above.                                     [3] R. L. Jaffe, Phys. Rept. 409, 1 (2005).
+                                                                            [4] J. P. Ader, J. M. Richard, and P. Taxil, Phys. Rev. D25,
+   With a binding of 189 MeV relative to its BB ∗ strong-                       2370 (1982).
+interaction-stability threshold, a udb̄b̄ tetraquark will lie               [5] N. A. Tornqvist, Z. Phys. C61, 525 (1994).
+below BB threshold, and hence also be stable with re-                       [6] D. G. Richards, D. K. Sinclair, and D. W. Sivers,
+spect to electromagnetic decays. The same is true of a                          Phys. Rev. D42, 3191 (1990); A. Mihaly, H. R. Fiebig,
+`sb̄b̄ tetraquark bound by 98 MeV. With both udb̄b̄ and                         H. Markum, and K. Rabitsch, Phys. Rev. D55, 3077
+                                                                                (1997); A. M. Green and P. Pennanen, Phys. Rev. C57,
+`sb̄b̄ tetraquarks decaying only weakly, the resulting dis-
+                                                                                3384 (1998); C. Stewart and R. Koniuk, Phys. Rev.
+placed decay vertices should aid in searching for these                         D57, 5581 (1998); C. Michael and P. Pennanen, Phys.
+states experimentally.                                                          Rev. D60, 054012 (1999); P. Pennanen, C. Michael,
+   Examples of fully reconstructable modes for the weak                         and A. M. Green, Nucl. Phys. Proc. Suppl. 83, 200
+                                                                                (2000); M. S. Cook and H. R. Fiebig, (2002); W. Det-
+decay of the udb̄b̄ tetraquark are B + D̄0 and J/ΨB + K 0 ,
+                                                                                mold, K. Orginos, and M. J. Savage, Phys. Rev. D76,
+with D̄0 and B + fully reconstructable from D̄0 → K + π − ,                     114503 (2007); G. Bali and M. Hetzenegger, PoS LAT-
+B + → D̄0 π + , and K 0 from its π + π − KS decay. Simi-                        TICE2011, 123 (2011); Z. S. Brown and K. Orginos,
+larly, J/ΨBs K + and J/ΨB + φ would serve as fully re-                          Phys. Rev. D86, 114506 (2012).
+constructable modes for the weak decay of the usb̄b̄                        [7] M. Wagner, Acta Phys. Polon. Supp. 4, 747 (2011);
+tetraquark, and B + Ds− , Bs D̄0 , J/ΨB 0 φ and J/ΨBs K 0                       P. Bicudo and M. Wagner, Phys. Rev. D87, 114511
+for the dsb̄b̄ tetraquark.                                                      (2013); P. Bicudo, K. Cichy, A. Peters, B. Wagenbach,
+                                                                                and M. Wagner, Phys. Rev. D92, 014507 (2015).
+                                                                            [8] Y. Ikeda et al., Phys. Lett. B729, 85 (2014).
+                                                                            [9] A. L. Guerrieri, M. Papinutto, A. Pilloni, A. D. Polosa,
+                                                                                and N. Tantalo, PoS LATTICE2014, 106 (2015).
+                                                                           [10] P. Bicudo, K. Cichy, A. Peters, and M. Wagner, Phys.
+                        CONCLUSIONS                                             Rev. D93, 034501 (2016).
+                                                                           [11] S. Zouzou, B. Silvestre-Brac, C. Gignoux, and J. M.
+                                                                                Richard, Z. Phys. C30, 457 (1986); H. J. Lipkin, Phys.
+   We predict the existence of a 3̄F of strong- and
+                                                                                Lett. B172, 242 (1986); B. Silvestre-Brac and C. Semay,
+electromagnetic-interaction stable qq 0 b̄b̄ tetraquarks with                   Z. Phys. C57, 273 (1993); C. Semay and B. Silvestre-
+udb̄b̄ and `sb̄b̄ member masses 10.415(10) and 10.594(8)                        Brac, Z. Phys. C61, 271 (1994); S. Pepin, F. Stancu,
+GeV, respectively. These states should decay only                               M. Genovese, and J. M. Richard, Phys. Lett. B393, 119
+weakly, with ordinary heavy meson decay products emit-                          (1997); D. M. Brink and F. Stancu, Phys. Rev. D57,
+ted from a displaced vertex.                                                    6778 (1998); T. Barnes, N. Black, D. J. Dean, and
+                                                                                E. S. Swanson, Phys. Rev. C60, 045202 (1999); B. A.
+   While the doubly bottom nature of these states may                           Gelman and S. Nussinov, Phys. Lett. B551, 296 (2003);
+make experimental detection challenging, decay modes                            J. Vijande, F. Fernandez, A. Valcarce, and B. Silvestre-
+with favorable experimental tag possibilities do exist,                         Brac, Eur. Phys. J. A19, 383 (2004); D. Janc and
+making searches for these states interesting. Analogous                         M. Rosina, Few Body Syst. 35, 175 (2004); D. Ebert,
+qq 0 c̄c̄, qq 0 c̄b̄, and qq 0 s̄b̄ tetraquarks, if also stable with re-        R. N. Faustov, V. O. Galkin, and W. Lucha, Phys. Rev.
+spect to both strong and electromagnetic decays, would                          D76, 114015 (2007); J. Vijande, E. Weissman, A. Val-
+                                                                                carce, and N. Barnea, Phys. Rev. D76, 094027 (2007);
+be more easily detectable experimentally. Whether or                            M. Zhang, H. X. Zhang, and Z. Y. Zhang, Commun.
+not such lighter tetraquark states exist is not clear at                        Theor. Phys. 50, 437 (2008); S. H. Lee and S. Yasui,
+present, but is the subject of ongoing investigations, the                      Eur. Phys. J. C64, 283 (2009); J. Vijande, A. Val-
+results of which will be reported in a future publication.                      carce, and N. Barnea, Phys. Rev. D79, 074010 (2009);
+                                                                                                                             6
+
+     Y. Yang, C. Deng, J. Ping, and T. Goldman, Phys. Rev.          nea, and K. Hornbostel, Phys. Rev. D46, 4052 (1992);
+     D80, 114023 (2009); A. Valcarce, J. Vijande, and T. F.         A. V. Manohar, Phys. Rev. D56, 230 (1997).
+     Carames, Int. J. Mod. Phys. Conf. Ser. 2, 173 (2011);     [20] C. T. H. Davies, K. Hornbostel, A. Langnau, G. P. Lep-
+     T. F. Carames, A. Valcarce, and J. Vijande, Phys. Lett.        age, A. Lidsey, J. Shigemitsu, and J. H. Sloan, Phys.
+     B699, 291 (2011); S. Ohkoda, Y. Yamaguchi, S. Ya-              Rev. D50, 6963 (1994); R. Lewis and R. M. Woloshyn,
+     sui, K. Sudoh, and A. Hosaka, Phys. Rev. D86, 034019           Phys. Rev. D58, 074506 (1998); Phys. Rev. D79, 014502
+     (2012); T. Hyodo, Y.-R. Liu, M. Oka, K. Sudoh, and             (2009).
+     S. Yasui, Phys. Lett. B721, 56 (2013); R. R. Silbar and   [21] A. Gray, I. Allison, C. T. H. Davies, E. Dalgic, G. P. Lep-
+     T. Goldman, Int. J. Mod. Phys. E23, 1450091 (2014).            age, J. Shigemitsu, and M. Wingate, Phys. Rev. D72,
+[12] C. Gattringer and C. B. Lang, Lect. Notes Phys. 788, 1         094507 (2005).
+     (2010).                                                   [22] Z. S. Brown, W. Detmold, S. Meinel, and K. Orginos,
+[13] Y. Namekawa et al., Phys. Rev. D87, 094512 (2013).             Phys. Rev. D90, 094507 (2014).
+[14] S. Aoki et al., Phys. Rev. D79, 034503 (2009).            [23] M. Luscher, Commun. Math. Phys. 105, 153 (1986).
+[15] Y. Iwasaki, Nucl. Phys. B258, 141 (1985).                 [24] H.-Y. Cheng, C.-Y. Cheung, G.-L. Lin, Y. C. Lin, T.-
+[16] B. Sheikholeslami and R. Wohlert, Nucl. Phys. B259,            M. Yan, and H.-L. Yu, Phys. Rev. D49, 5857 (1994),
+     572 (1985).                                                    [Erratum: Phys. Rev. D55, 5851 (1997)].
+[17] R. J. Hudspith, Comput. Phys. Commun. 187, 115            [25] https://github.com/RJHudspith/Contractual
+     (2015).                                                        Obligations.
+[18] M. Lüscher, Comput.Phys.Commun. 165, 199 (2005),
+     http://luscher.web.cern.ch/luscher/DD-HMC/.
+[19] B. A. Thacker and G. P. Lepage, Phys. Rev. D43, 196
+     (1991); G. P. Lepage, L. Magnea, C. Nakhleh, U. Mag-
+

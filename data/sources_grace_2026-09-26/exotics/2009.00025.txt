@@ -1,0 +1,956 @@
+                                          EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH (CERN)
+
+
+                                                                                                                         CERN-EP-2020-158
+                                                                                                                      LHCb-PAPER-2020-024
+                                                                                                                           December 7, 2020
+
+
+
+
+arXiv:2009.00025v3 [hep-ex] 17 Dec 2020
+                                                        Model-independent study of
+                                                       structure in B + → D +D −K +
+                                                                   decays
+
+
+                                                                                     LHCb collaboration†
+
+
+                                                                                              Abstract
+                                                   The only anticipated resonant contributions to B + → D+ D− K + decays are char-
+                                                   monium states in the D+ D− channel. A model-independent analysis, using LHCb
+                                                                                                                           √
+                                                   proton-proton collision data taken at centre-of-mass energies of s = 7, 8, and
+                                                   13 TeV, corresponding to a total integrated luminosity of 9 fb−1 , is carried out to test
+                                                   this hypothesis. The description of the data assuming that resonances only manifest
+                                                   in decays to the D+ D− pair is shown to be incomplete. This constitutes evidence
+                                                   for a new contribution to the decay, potentially one or more new charm-strange
+                                                   resonances in the D− K + channel with masses around 2.9 GeV/c2 .
+
+
+
+
+                                                                    Published in Phys. Rev. Lett. 125 (2020) 242001
+                                                          © 2020 CERN for the benefit of the LHCb collaboration. CC BY 4.0 licence.
+
+                                          †
+                                              Authors are listed at the end of this Letter.
+ii
+    The B + → D(∗)+ D(∗)− K + family of decays offers unique opportunities to study
+charmonium states. The constrained environment of B meson decays allows the masses,
+widths and quantum numbers of such states to be determined using amplitude analysis
+techniques, with low backgrounds from other processes. In particular, resonances in the
+D(∗)− K + or D(∗)+ K + channels would be manifestly exotic, having minimal quark content
+           ¯ respectively. While many exotic hadrons containing cc̄ or bb̄ quarks have
+c̄dus̄ or cdus̄,
+recently been observed [1–3], there is to date no significant evidence of the existence of
+exotic hadrons with open flavour, i.e. with non-zero strangeness, charm, or beauty quantum
+numbers. Studies of B + → D(∗)+ D(∗)− K + decays are therefore expected to help resolve
+open questions regarding charmonium spectroscopy [4, 5]. In addition, measurements
+of these processes have been proposed as a method to aid characterisation of the cc̄
+contribution in B + → K + µ+ µ− decays [6, 7].
+    The branching fractions of B + → D(∗)+ D(∗)− K + decays have been measured [8, 9],
+but no prior analyses of their resonant structure exist.1 Recent studies have shown that
+extremely pure samples of these decays can be obtained using LHCb data [9], with yields
+much larger than those available at previous experiments.
+    A model-dependent study of the resonant structure in B + → D+ D− K + decays [10],
+carried out in parallel to this work, has revealed structure in the D− K + invariant-mass
+spectrum that cannot be described by reflections of charmonium resonances. This highly
+surprising observation, along with the limited current knowledge of the charmonium
+spectrum in this mass range, particularly among spin-0 and spin-2 states, motivates the
+study of this decay using a model-independent approach as presented in this Letter. This
+method is particularly useful when applied to three-body decays where resonances are
+only expected to form between one pair of the final-state particles, such that the decay
+kinematics are described through one mass and one angular variable. Unexpected, exotic,
+contributions to the decay process manifest as high-order moments in the distribution
+of the angular variable, as has been demonstrated by the use of the method to identify
+exotic resonances contributing to B 0 → ψ(2S)K + π − [11], Λ0b → J/ψpK − [12] and B 0 →
+J/ψK + π − [13] decays.
+    The model-independent analysis of the B + → D+ D− K + decay involves consideration
+of the distribution of the variable h(D+ D− ) defined as the cosine of the D+ D− helicity
+angle, i.e. the angle between the momenta of the K + and D− particles in the D+ D− rest
+frame. A description of the B + → D+ D− K + Dalitz plot is obtained by decomposing
+the h(D+ D− ) distribution in terms of Legendre polynomials. The decomposition is done
+within slices of the D+ D− invariant mass, m(D+ D− ), thereby accounting for the two
+degrees of freedom in the B + → D+ D− K + decay kinematics. The description can be
+projected onto the other invariant-mass distributions in order to identify regions where
+exotic contributions are needed, and the significance of such deviations can be quantified.
+If only D+ D− resonances contribute, the projections will be well described using only
+low-order moments, up to twice the maximum spin of charmonium resonances present. If
+peaking contributions from other channels enter, higher-order moments will be required.
+The narrower the structure, the higher the order that will be needed. Consequently, a
+description employing only low-order moments will be incomplete.
+    This method is applied to a sample of B + → D+ D− K + candidates selected from
+LHCb proton-proton (pp) collision datasets, corresponding to integrated luminosities of
+
+1
+    The inclusion of charge-conjugate processes is implied throughout this Letter.
+
+
+                                                      1
+3 fb−1 recorded during 2011 and 2012 (Run 1) and 6 fb−1 from 2015 to 2018 (Run 2). The
+data sample, selection criteria, background and efficiency modelling are identical to those
+in the amplitude analysis of the same process, described in detail in Ref. [10] and briefly
+summarised here. The LHCb detector [14,15] is a single-arm forward spectrometer covering
+the pseudorapidity range 2 < η < 5, designed for the study of particles containing b or c
+quarks. Simulation, produced with software packages described in Refs. [16–19], is used to
+model the effects of the detector acceptance and the imposed selection requirements. The
+online event selection is performed by a trigger [20], which consists of a hardware stage,
+based on information from the calorimeter and muon systems, followed by a software
+stage, which applies a full event reconstruction and which identifies a two-, three-, or
+four-track secondary vertex by means of a multivariate algorithm. The charm mesons are
+reconstructed via the D+ → K − π + π + decay. Reconstructed B + → D+ D− K + candidates
+that pass the trigger criteria are subjected to further selection requirements, including the
+use of a boosted decision tree (BDT) algorithm [21,22] to reduce combinatorial background.
+Variables characterising the particular topology of the decay (flight distance of the D
+mesons and displacement of the reconstructed intermediate and final-state particles from
+the B production point) and particle identification information are used as inputs to the
+BDT algorithm. Specific requirements are imposed to suppress contributions from B
+decays involving one or no D mesons, but having the same set of final-state pions and
+kaons as the signal decays; inspection of the sidebands of the D-candidates’ invariant-mass
+distributions confirms that any residual background from this source is at a negligible
+level.
+    An extended maximum-likelihood fit is applied to the invariant-mass, m(D+ D− K + ),
+distribution of the selected candidates, shown in Fig. 1(a). There are 1260 candidates
+inside the signal window of m(D+ D− K + ) within 20 MeV/c2 of the known B + mass [23], in
+which the sample purity is greater than 99.5% and the residual background is combinatorial
+in nature. The distribution of these candidates, which are retained for further analysis,
+in the Dalitz plot is shown in Fig. 1(b). The Dalitz-plot coordinates, m2 (D− K + ) and
+m2 (D+ D− ), are determined after refitting the candidate decays, imposing the constraints
+that the reconstructed B + and D± masses should match their known values and that the
+reconstructed B + meson should originate at its associated primary pp interaction vertex.
+Charmonium resonances are clearly visible as horizontal bands in the Dalitz plot, but
+additional structure also appears to be present. A signal efficiency map is determined as
+a function of position in the Dalitz plot with simulation, where the particle identification
+response is calibrated using data control samples [24, 25]. The efficiency is found to vary
+with m(D+ D− ) at the ±10% level, and to depend only weakly on h(D+ D− ).
+    The m(D+ D− ) distribution is divided into slices of width 20 MeV/c2 , which is large
+compared to the resolution but narrower than any expected structure. Within each slice
+the distribution of the cosine of the helicity angle is decomposed according to the basis
+of Legendre polynomials. Including a factor to ensure normalisation over the domain
+−1 to 1, these are given by
+                                r                n                  n+r−1 
+                                   2n + 1                + − r n
+                                                X
+                     + −                      n
+                                                                        2
+             Pn h(D D ) =                 ×2         h(D D )                     .        (1)
+                                      2         r=0
+                                                                    r     n
+
+In bin j of the m(D+ D− ) distribution, the coefficient of the expansion at order k is
+
+
+
+                                             2
+                                                                           m2(D+D−) [GeV2/ c4]
+ Candidates / (4 MeV/c2)
+                           300
+                                                           LHCb                                  22                          LHCb
+                           250
+                                                             (a)                                                               (b)
+                           200                                                                   20
+
+                           150                                                                   18
+
+                           100
+                                                                                                 16
+                            50
+                                                                                                 14
+                             0
+                                 5300   5400          5500          5600                                  6    8        10          12
+                                           m(D+D−K +) [MeV/c2]                                                     m2(D−K +) [GeV2/ c4]
+
+Figure 1: (a) Invariant-mass distribution for B candidates with the results of the fit superimposed,
+where the signal component is indicated in red and background (barely visible) in blue. (b) Dalitz
+plot for candidates with m(D+ D− K + ) values in the signal window.
+
+
+referred to as the k-th unnormalised moment,
+                                                             NjData
+                                                             X
+                                                  hYkj i =            wl Pk hl (D+ D− ) ,
+                                                                                       
+                                                                                                                                         (2)
+                                                              l=1
+
+where the sum is over the NjData candidates in that bin, wl is a weight assigned to each
+candidate to achieve a background subtraction and efficiency correction, and hl (D+ D− )
+is the value of h(D+ D− ) for candidate l. To probe whether charmonium resonances with
+spins up to and including Jmax account for the structures observed in the Dalitz plot, the
+expansion can be truncated at a given order, kmax = 2Jmax .
+    A simulated sample, generated uniformly in the Dalitz plot and weighted using the
+truncated expansion, is used in order to visualise the description of the m(D− K + ) and
+m(D+ K + ) distributions and to compare them to data. The weights applied to the
+simulated sample are
+                                                                kX
+                                                                 max
+                                                       2
+                                                                       hYkj iPk hi (D+ D− ) ,
+                                                                                           
+                                               ηi =    Sim
+                                                           ×                                                                             (3)
+                                                      Nj        k=0
+
+where i indexes the generated candidates and NjSim is the number of candidates in the
+simulation in bin j of the m(D+ D− ) spectrum, centred on mj (D+ D− ).
+    The significance of any deviation between the truncated Legendre polynomial de-
+scription and the data can be assessed using pseudoexperiments. They are generated
+according to a probability density function (PDF) constructed as a function of m(D+ D− )
+and h(D+ D− ), given an hypothesis H regarding kmax ,
+
+    P mj (D+ D− ), h(D+ D− )|H = P mj (D+ D− ) P h(D+ D− )|H, mj (D+ D− ) . (4)
+                                                                              
+
+The binned PDF P (mj (D+ D− )) is given by
+
+                                                                   j                                  N Data
+                                                                   X
+                                                          + −
+                                                              
+                                                   P mj (D D ) = N   wl ,                                                                (5)
+                                                                                                       l=1
+
+
+                                                                           3
+where N is a normalisation factor. The PDF P(h(D+ D− )|H, mj (D+ D− )) is a function of
+the moments and Legendre polynomial functions, reproducing the helicity angle dependence
+in bin j of m(D+ D− ),
+                                              kX
+                                               max
+                                         2
+                 +   −           +     −
+                                                   hYkj iPk h(D+ D− ) .
+                                                                    
+         P h(D D )|H, mj (D D ) = 1 + PN Data                                           (6)
+                                         j
+                                       l=1 wl k=1
+
+Since reflections of exotic contributions to the D− K + or D+ K + channels would produce
+complicated structure in the (m(D+ D− ), h(D+ D− )) plane, the most sensitive model-
+independent test statistic is based on the PDF for m(D− K + ) or m(D+ K + ). The PDF
+P (h(D+ D− )|H, mj (D+ D− )) is projected onto m(D− K + ) or m(D+ K + ) by generating
+candidates uniformly in the (m(D+ D− ), h(D+ D− )) plane and assigning a weight to each
+according to Eq. (4). A representation of P (m(D− K + )|H) or P (m(D+ K + )|H) is then
+obtained by filling a histogram of m(D− K + ) or m(D+ K + ) with these weighted candidates,
+respectively.
+    A test statistic is constructed to discriminate between the hypothesis, H0 , that
+only D+ D− resonances contribute up to order kmax and the hypothesis that allows for
+contributions from higher-order moments to describe higher-spin or exotic contributions,
+H1 . The test statistic, formulated in terms of determining the significance of deviations
+in the D− K + channel, has the form [26]
+                               Data
+                              NX
+                                                   P (ml (D− K + )|H0 ) /IH0
+                                                                              
+                     t = −2           sl log                                       ,    (7)
+                               l=1
+                                                   P (ml (D− K + )|H1 ) /IH1
+
+where P (ml (D− K + )|H) is the value of the PDF in the bin of m(D− K + ) where candidate
+l is found, sl is the signal weight effecting a background subtraction [27], and IH is a
+normalisation factor, computed by Monte Carlo integration,
+                                       N Sim
+                                       X
+                               IH =            P(ml (D− K + )|H)l ,                    (8)
+                                        l=1
+
+where l is the efficiency appropriate for candidate l.
+    The distributions in the D+ D− invariant mass, m(D+ D− ), of the first nine unnor-
+malised moments defined in Eq. (2) are computed for the selected candidates, and are
+shown in Fig. 2. Significant structure is visible at m(D+ D− ) ≈ 3.8 GeV/c2 up to and
+including the second moment, and not at higher orders, as expected for a contribu-
+tion from the spin-1 resonance ψ(3770). In the vicinity of the χc2 (2P ) resonance near
+m(D+ D− ) = 3.9 GeV/c2 , significant structure appears at order two and persists, albeit
+weakly, at order four. This is found, in the model-dependent analysis [10], to be due to the
+presence of both spin-0 and spin-2 charmonia in this region. Structure at low m(D+ D− )
+in the first moment indicates interference between S and P waves and, similarly, that
+around m(D+ D− ) = 3.9 GeV/c2 in the third moment could indicate interference between
+P and D waves. Structure apparent at all orders for m(D+ D− ) > 4.1 GeV/c2 — though
+having large uncertainties at orders above 5 — could indicate reflection from a structure
+in another two-body combination.
+    In order to test how well the B + → D+ D− K + Dalitz plot can be described using
+a truncated sum over m(D+ D− ) moments, a sample of 107 B + → D+ D− K + decays is
+
+                                                      4
+                          80
+                          60
+                                               Y0                       Y1                      Y2
+                          40
+                          20
+                           0
+                          20
+
+
+
+
+Moments / (20.0 MeV/c2)
+                                               Y                        Y                       Y
+                          80 3.8 4.0 4.2 4.4 4.63 4.8 3.8 4.0 4.2 4.4 4.64 4.8 3.8 4.0 4.2 4.4 4.65 4.8
+                          60
+                          40
+                          20
+                           0
+                          20
+
+                                               Y                        Y                       Y
+                             3.8 4.0 4.2 4.4 4.6 4.8 3.8 4.0 4.2 4.4 4.6 4.8 3.8 4.0 4.2 4.4 4.6 4.8
+                          80 LHCb
+                          60
+                                                6                       7                       8
+                          40
+                          20
+                           0
+                          20
+                               3.8 4.0 4.2 4.4 4.6 4.8 3.8 4.0 4.2 4.4 4.6 4.8 3.8 4.0 4.2 4.4 4.6 4.8
+                                                        m(D + D ) [GeV/c2]
+Figure 2: Distributions of the first nine unnormalised moments, hYkj i, defined in Eq. (2), as a
+function of m(D+ D− ) for the selected B + → D+ D− K + candidates, after efficiency correction
+and background subtraction have been applied.
+
+
+generated uniformly in the (m(D+ D− ), h(D+ D− )) plane. Weights are applied according
+to Eq. (3), and the resulting distribution of the weighted sample is compared to that for
+the candidates selected from the LHCb data. In the first instance, kmax is set to a high
+value of 29 in the construction of weights, to allow all but the smallest of fluctuations in
+data to be captured. The comparison between the generated decays and the data sample
+is shown in Fig. 3. The excellent agreement, limited only by statistical fluctuations which
+can generate structure to arbitrarily high moments, in the m(D− K + ) and m(D+ K + )
+invariant-mass distributions is also to be expected, given the high value of kmax .
+    The effect of truncating the sum over moments at a lower value is explored. A value
+of kmax = 4 is chosen under the assumption that only resonances with spin up to 2 appear
+in the D+ D− channel, since production of high-spin resonances in B-meson decays is
+suppressed and no evidence for a contribution with spin-3 or higher is seen in either
+Fig. 2 or the model-dependent analysis [10]. Figure 4 shows the comparison between the
+weighted generated sample and the data. A prominent discrepancy is apparent around
+m(D− K + ) = 2.9 GeV/c2 . No narrow regions of disagreement are evident in the D+ K +
+spectrum.
+    The significance of the discrepancy in the m(D− K + ) distribution between the data
+and the weighted generated sample in Fig. 4(a) is evaluated using the test statistic defined
+
+                                                             5
+                                                                                                   70
+                                                           Simulation                                         Simulation
+
+
+
+
+ Candidates / (20 MeV/c2)                                               Candidates / (20 MeV/c2)
+                            80 LHCb                                                                60
+                                                                                                        LHCb
+                                 (a)                                                               50 (b)
+                            60
+                                                                                                   40
+                            40                                                                     30
+                                                                                                   20
+                            20
+                                                                                                   10
+                             0                                                                      0
+                                 2.4   2.6    2.8   3.0    3.2    3.4                                   2.4     2.6        2.8   3.0   3.2   3.4
+                                        m(D   K + ) [GeV/c2]                                                      m(D + K + ) [GeV/c2]
+Figure 3: Comparison between data (points with error bars) and a weighted generated sample
+(filled histogram) as a function of (a) m(D− K + ) and (b) m(D+ K + ), where the weights account
+for the Legendre polynomial moments of order up to and including 29.
+
+
+                                                                                                   70
+                                                           Simulation                                         Simulation
+
+
+
+
+ Candidates / (20 MeV/c2)                                               Candidates / (20 MeV/c2)
+                            80 LHCb                                                                60
+                                                                                                        LHCb
+                                 (a)                                                               50 (b)
+                            60
+                                                                                                   40
+                            40                                                                     30
+                                                                                                   20
+                            20
+                                                                                                   10
+                             0                                                                      0
+                                 2.4   2.6    2.8   3.0    3.2    3.4                                   2.4     2.6        2.8   3.0   3.2   3.4
+                                        m(D   K + ) [GeV/c2]                                                      m(D + K + ) [GeV/c2]
+Figure 4: Comparison between data (points with error bars) and a weighted generated sample
+(filled histogram) as a function of (a) m(D− K + ) and (b) m(D+ K + ), where the weights account
+for the Legendre polynomial moments of order up to and including four. The uncertainty on the
+weighted shape (dark band) is also shown.
+
+
+in Eq. (7). An ensemble of pseudoexperiments, in which each dataset has the same
+size as the real dataset, is prepared according to the PDF defined in Eq. (6), where
+kmax is taken to be 4. The tiny background contribution is ignored, which introduces
+negligible uncertainty due to the high purity of the selected B + → D+ D− K + sample. For
+each pseudoexperiment, a new efficiency map is generated to incorporate the systematic
+uncertainty arising from the limited size of the simulated sample. This ensemble of
+nearly 260 000 pseudoexperiments allows determination of the distribution of the test
+statistic under the hypothesis, H0 , that only D+ D− resonances up to spin-2 are present,
+as shown in Fig. 5. The value of the test statistic obtained from data, tData , allows the
+H0 hypothesis to be rejected at the 99.994% level, corresponding to a significance of 3.9
+Gaussian standard deviations (σ). Even when moments up to order 6 are considered, the
+significance of the discrepancy remains above 3.7σ.
+    In summary, a model-independent technique has been employed to confirm whether or
+
+                                                                        6
+                                                      14000
+
+
+
+
+                        Number of pseudoexperiments
+                                                      12000 LHCb
+                                                      10000
+                                                       8000                               tData
+                                                       6000
+                                                       4000
+                                                       2000
+                                                          0
+                                                              20   0   20       40   60           80
+                                                                            t
+Figure 5: Comparison of the test statistic evaluated for the data (black dashed line) and for the
+ensemble of pseudoexperiments (blue histogram) generated according to the PDF constructed
+using the first four moments of the h(D+ D− ) distribution in data.
+
+
+not the observed m(D− K + ) distribution in B + → D+ D− K + decays reconstructed in the
+LHCb data sample can be explained in terms of reflections from charmonium resonances
+alone. It is found that the intermediate structure of the decay cannot be described
+using only D+ D− resonances of spin up to 2. The significance of the disagreement in
+the m(D− K + ) distribution is 3.9 σ, and is most apparent in the region m(D− K + ) =
+2.9 GeV/c2 . This discrepancy could be explained by a new, manifestly exotic, charm-strange
+resonance decaying to the D− K + final state. The outcome of this model-independent
+study therefore supports the results of the amplitude analysis of the same data [10], where
+both spin-0 and spin-1 components are included in the D− K + channel, as well as ψ(3770),
+χc0 (3930), χc2 (3930), ψ(4040), ψ(4160), and ψ(4415) resonances decaying to D+ D− , and
+a nonresonant component.
+
+
+Acknowledgements
+We express our gratitude to our colleagues in the CERN accelerator departments for the
+excellent performance of the LHC. We thank the technical and administrative staff at the
+LHCb institutes. We acknowledge support from CERN and from the national agencies:
+CAPES, CNPq, FAPERJ and FINEP (Brazil); MOST and NSFC (China); CNRS/IN2P3
+(France); BMBF, DFG and MPG (Germany); INFN (Italy); NWO (Netherlands); MNiSW
+and NCN (Poland); MEN/IFA (Romania); MSHE (Russia); MICINN (Spain); SNSF
+and SER (Switzerland); NASU (Ukraine); STFC (United Kingdom); DOE NP and NSF
+(USA). We acknowledge the computing resources that are provided by CERN, IN2P3
+(France), KIT and DESY (Germany), INFN (Italy), SURF (Netherlands), PIC (Spain),
+GridPP (United Kingdom), RRCKI and Yandex LLC (Russia), CSCS (Switzerland), IFIN-
+HH (Romania), CBPF (Brazil), PL-GRID (Poland) and OSC (USA). We are indebted
+to the communities behind the multiple open-source software packages on which we
+depend. Individual groups or members have received support from AvH Foundation
+(Germany); EPLANET, Marie Sklodowska-Curie Actions and ERC (European Union);
+A*MIDEX, ANR, Labex P2IO and OCEVU, and Région Auvergne-Rhône-Alpes (France);
+Key Research Program of Frontier Sciences of CAS, CAS PIFI, Thousand Talents Program,
+
+                                                                       7
+and Sci. & Tech. Program of Guangzhou (China); RFBR, RSF and Yandex LLC (Russia);
+GVA, XuntaGal and GENCAT (Spain); the Royal Society and the Leverhulme Trust
+(United Kingdom).
+
+
+References
+ [1] M. Karliner, J. L. Rosner, and T. Skwarnicki, Multiquark states, Ann. Rev. Nucl.
+     Part. Sci. 68 (2018) 17, arXiv:1711.10626.
+
+ [2] S. L. Olsen, T. Skwarnicki, and D. Zieminska, Nonstandard heavy mesons and baryons:
+     Experimental evidence, Rev. Mod. Phys. 90 (2018) 015003, arXiv:1708.04012.
+
+ [3] A. Ali, J. S. Lange, and S. Stone, Exotics: Heavy pentaquarks and tetraquarks, Prog.
+     Part. Nucl. Phys. 97 (2017) 123, arXiv:1706.00610.
+
+ [4] S. L. Olsen, Is the X(3915) the χc0 (2P )?, Phys. Rev. D91 (2015) 057501,
+     arXiv:1410.6534.
+
+ [5] M.-X. Duan, S.-Q. Luo, X. Liu, and T. Matsuki, Possibility of charmoniumlike state
+     X(3915) as χc0 (2P ) state, Phys. Rev. D101 (2020) 054029, arXiv:2002.03311.
+
+ [6] A. Khodjamirian, T. Mannel, A. A. Pivovarov, and Y.-M. Wang, Charm-loop effect
+     in B → K (∗) `+ `− and B → K ∗ γ, JHEP 09 (2010) 089, arXiv:1006.4945.
+
+ [7] J. Lyon and R. Zwicky, Resonances gone topsy turvy - the charm of QCD or new
+     physics in b → s`+ `− ?, arXiv:1406.0566.
+
+ [8] BaBar collaboration, P. del Amo Sanchez et al., Measurement of the B → D(∗) D(∗) K
+     branching fractions, Phys. Rev. D83 (2011) 032004, arXiv:1011.3929.
+
+ [9] LHCb collaboration, R. Aaij et al., Measurement of the branching fractions for B + →
+     D∗+ D− K + , B + → D∗− D+ K + , and B 0 → D∗− D0 K + decays, arXiv:2005.10264,
+     submitted to JHEP.
+
+[10] LHCb collaboration, R. Aaij et al., Amplitude analysis of the B + → D+ D− K + decay,
+     Phys. Rev. D102 (2020) 112003, arXiv:2009.00026.
+
+[11] LHCb collaboration, R. Aaij et al., Model-independent confirmation of the Z(4430)−
+     state, Phys. Rev. D92 (2015) 112009, arXiv:1510.01951.
+
+[12] LHCb collaboration, R. Aaij et al., Model-independent evidence for J/ψp contributions
+     to Λ0b → J/ψpK − decays, Phys. Rev. Lett. 117 (2016) 082002, arXiv:1604.05708.
+
+[13] LHCb collaboration, R. Aaij et al., Model-independent observation of exotic
+     contributions to B 0 → J/ψK + π − decays, Phys. Rev. Lett. 122 (2019) 152002,
+     arXiv:1901.05745.
+
+[14] LHCb collaboration, A. A. Alves Jr. et al., The LHCb detector at the LHC, JINST 3
+     (2008) S08005.
+
+
+
+                                            8
+[15] LHCb collaboration, R. Aaij et al., LHCb detector performance, Int. J. Mod. Phys.
+     A30 (2015) 1530022, arXiv:1412.6352.
+
+[16] T. Sjöstrand, S. Mrenna, and P. Skands, A brief introduction to PYTHIA
+     8.1, Comput. Phys. Commun. 178 (2008) 852, arXiv:0710.3820; T. Sjöstrand,
+     S. Mrenna, and P. Skands, PYTHIA 6.4 physics and manual, JHEP 05 (2006) 026,
+     arXiv:hep-ph/0603175.
+
+[17] D. J. Lange, The EvtGen particle decay simulation package, Nucl. Instrum. Meth.
+     A462 (2001) 152.
+
+[18] Geant4 collaboration, J. Allison et al., Geant4 developments and applications, IEEE
+     Trans. Nucl. Sci. 53 (2006) 270; Geant4 collaboration, S. Agostinelli et al., Geant4:
+     A simulation toolkit, Nucl. Instrum. Meth. A506 (2003) 250.
+
+[19] D. Müller, M. Clemencic, G. Corti, and M. Gersabeck, ReDecay: A novel approach to
+     speed up the simulation at LHCb, Eur. Phys. J. C78 (2018) 1009, arXiv:1810.10362.
+
+[20] R. Aaij et al., The LHCb trigger and its performance in 2011, JINST 8 (2013) P04022,
+     arXiv:1211.3055.
+
+[21] L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone, Classification and
+     regression trees, Wadsworth international group, Belmont, California, USA, 1984.
+
+[22] J. Stevens and M. Williams, uBoost: A boosting method for producing uni-
+     form selection efficiencies from multivariate classifiers, JINST 8 (2013) P12013,
+     arXiv:1305.7248.
+
+[23] Particle Data Group, M. Tanabashi et al., Review of particle physics, Phys. Rev.
+     D98 (2018) 030001, and 2019 update.
+
+[24] R. Aaij et al., Selection and processing of calibration samples to measure the particle
+     identification performance of the LHCb experiment in Run 2, Eur. Phys. J. Tech.
+     Instr. 6 (2018) 1, arXiv:1803.00824.
+
+[25] A. Poluektov, Kernel density estimation of a multidimensional efficiency profile,
+     JINST 10 (2015) P02011, arXiv:1411.5528.
+
+[26] LHCb collaboration, R. Aaij et al., Observation of J/ψp resonances consistent with
+     pentaquark states in Λ0b → J/ψpK − decays, Phys. Rev. Lett. 115 (2015) 072001,
+     arXiv:1507.03414.
+
+[27] M. Pivk and F. R. Le Diberder, sPlot: A statistical tool to unfold data distributions,
+     Nucl. Instrum. Meth. A555 (2005) 356, arXiv:physics/0402083.
+
+
+
+
+                                             9
+                                   LHCb collaboration
+R. Aaij31 , C. Abellán Beteta49 , T. Ackernley59 , B. Adeva45 , M. Adinolfi53 , H. Afsharnia9 ,
+C.A. Aidala84 , S. Aiola25 , Z. Ajaltouni9 , S. Akar64 , J. Albrecht14 , F. Alessio47 , M. Alexander58 ,
+A. Alfonso Albero44 , Z. Aliouche61 , G. Alkhazov37 , P. Alvarez Cartelle47 , S. Amato2 ,
+Y. Amhis11 , L. An21 , L. Anderlini21 , A. Andreianov37 , M. Andreotti20 , F. Archilli16 ,
+A. Artamonov43 , M. Artuso67 , K. Arzymatov41 , E. Aslanides10 , M. Atzeni49 , B. Audurier11 ,
+S. Bachmann16 , M. Bachmayer48 , J.J. Back55 , S. Baker60 , P. Baladron Rodriguez45 ,
+V. Balagura11 , W. Baldini20 , J. Baptista Leite1 , R.J. Barlow61 , S. Barsuk11 , W. Barter60 ,
+M. Bartolini23,i , F. Baryshnikov80 , J.M. Basels13 , G. Bassi28 , B. Batsukh67 , A. Battig14 ,
+A. Bay48 , M. Becker14 , F. Bedeschi28 , I. Bediaga1 , A. Beiter67 , V. Belavin41 , S. Belin26 ,
+V. Bellee48 , K. Belous43 , I. Belov39 , I. Belyaev38 , G. Bencivenni22 , E. Ben-Haim12 ,
+A. Berezhnoy39 , R. Bernet49 , D. Berninghoff16 , H.C. Bernstein67 , C. Bertella47 , E. Bertholet12 ,
+A. Bertolin27 , C. Betancourt49 , F. Betti19,e , M.O. Bettler54 , Ia. Bezshyiko49 , S. Bhasin53 ,
+J. Bhom33 , L. Bian72 , M.S. Bieker14 , S. Bifani52 , P. Billoir12 , M. Birch60 , F.C.R. Bishop54 ,
+A. Bizzeti21,s , M. Bjørn62 , M.P. Blago47 , T. Blake55 , F. Blanc48 , S. Blusk67 , D. Bobulska58 ,
+J.A. Boelhauve14 , O. Boente Garcia45 , T. Boettcher63 , A. Boldyrev81 , A. Bondar42,v ,
+N. Bondar37 , S. Borghi61 , M. Borisyak41 , M. Borsato16 , J.T. Borsuk33 , S.A. Bouchiba48 ,
+T.J.V. Bowcock59 , A. Boyer47 , C. Bozzi20 , M.J. Bradley60 , S. Braun65 , A. Brea Rodriguez45 ,
+M. Brodski47 , J. Brodzicka33 , A. Brossa Gonzalo55 , D. Brundu26 , A. Buonaura49 , C. Burr47 ,
+A. Bursche26 , A. Butkevich40 , J.S. Butter31 , J. Buytaert47 , W. Byczynski47 , S. Cadeddu26 ,
+H. Cai72 , R. Calabrese20,g , L. Calefice14 , L. Calero Diaz22 , S. Cali22 , R. Calladine52 ,
+M. Calvi24,j , M. Calvo Gomez83 , P. Camargo Magalhaes53 , A. Camboni44 , P. Campana22 ,
+D.H. Campora Perez47 , A.F. Campoverde Quezada5 , S. Capelli24,j , L. Capriotti19,e ,
+A. Carbone19,e , G. Carboni29 , R. Cardinale23,i , A. Cardini26 , I. Carli6 , P. Carniti24,j ,
+K. Carvalho Akiba31 , A. Casais Vidal45 , G. Casse59 , M. Cattaneo47 , G. Cavallero47 , S. Celani48 ,
+J. Cerasoli10 , A.J. Chadwick59 , M.G. Chapman53 , M. Charles12 , Ph. Charpentier47 ,
+G. Chatzikonstantinidis52 , C.A. Chavez Barajas59 , M. Chefdeville8 , C. Chen3 , S. Chen26 ,
+A. Chernov33 , S.-G. Chitic47 , V. Chobanova45 , S. Cholak48 , M. Chrzaszcz33 , A. Chubykin37 ,
+V. Chulikov37 , P. Ciambrone22 , M.F. Cicala55 , X. Cid Vidal45 , G. Ciezarek47 , P.E.L. Clarke57 ,
+M. Clemencic47 , H.V. Cliff54 , J. Closier47 , J.L. Cobbledick61 , V. Coco47 , J.A.B. Coelho11 ,
+J. Cogan10 , E. Cogneras9 , L. Cojocariu36 , P. Collins47 , T. Colombo47 , L. Congedo18 , A. Contu26 ,
+N. Cooke52 , G. Coombs58 , G. Corti47 , C.M. Costa Sobral55 , B. Couturier47 , D.C. Craik63 ,
+J. Crkovská66 , M. Cruz Torres1 , R. Currie57 , C.L. Da Silva66 , E. Dall’Occo14 , J. Dalseno45 ,
+C. D’Ambrosio47 , A. Danilina38 , P. d’Argent47 , A. Davis61 , O. De Aguiar Francisco61 ,
+K. De Bruyn77 , S. De Capua61 , M. De Cian48 , J.M. De Miranda1 , L. De Paula2 ,
+M. De Serio18,d , D. De Simone49 , P. De Simone22 , J.A. de Vries78 , C.T. Dean66 , W. Dean84 ,
+D. Decamp8 , L. Del Buono12 , B. Delaney54 , H.-P. Dembinski14 , A. Dendek34 , V. Denysenko49 ,
+D. Derkach81 , O. Deschamps9 , F. Desse11 , F. Dettori26,f , B. Dey72 , P. Di Nezza22 , S. Didenko80 ,
+L. Dieste Maronas45 , H. Dijkstra47 , V. Dobishuk51 , A.M. Donohoe17 , F. Dordei26 ,
+A.C. dos Reis1 , L. Douglas58 , A. Dovbnya50 , A.G. Downes8 , K. Dreimanis59 , M.W. Dudek33 ,
+L. Dufour47 , V. Duk76 , P. Durante47 , J.M. Durham66 , D. Dutta61 , M. Dziewiecki16 ,
+A. Dziurda33 , A. Dzyuba37 , S. Easo56 , U. Egede68 , V. Egorychev38 , S. Eidelman42,v ,
+S. Eisenhardt57 , S. Ek-In48 , L. Eklund58 , S. Ely67 , A. Ene36 , E. Epple66 , S. Escher13 ,
+J. Eschle49 , S. Esen31 , T. Evans47 , A. Falabella19 , J. Fan3 , Y. Fan5 , B. Fang72 , N. Farley52 ,
+S. Farry59 , D. Fazzini24,j , P. Fedin38 , M. Féo47 , P. Fernandez Declara47 , A. Fernandez Prieto45 ,
+J.M. Fernandez-tenllado Arribas44 , F. Ferrari19,e , L. Ferreira Lopes48 , F. Ferreira Rodrigues2 ,
+S. Ferreres Sole31 , M. Ferrillo49 , M. Ferro-Luzzi47 , S. Filippov40 , R.A. Fini18 , M. Fiorini20,g ,
+M. Firlej34 , K.M. Fischer62 , C. Fitzpatrick61 , T. Fiutowski34 , F. Fleuret11,b , M. Fontana47 ,
+F. Fontanelli23,i , R. Forty47 , V. Franco Lima59 , M. Franco Sevilla65 , M. Frank47 , E. Franzoso20 ,
+
+
+                                                  10
+G. Frau16 , C. Frei47 , D.A. Friday58 , J. Fu25 , Q. Fuehring14 , W. Funk47 , E. Gabriel31 ,
+T. Gaintseva41 , A. Gallas Torreira45 , D. Galli19,e , S. Gambetta57 , Y. Gan3 , M. Gandelman2 ,
+P. Gandini25 , Y. Gao4 , M. Garau26 , L.M. Garcia Martin55 , P. Garcia Moreno44 ,
+J. Garcı́a Pardiñas49 , B. Garcia Plana45 , F.A. Garcia Rosales11 , L. Garrido44 , D. Gascon44 ,
+C. Gaspar47 , R.E. Geertsema31 , D. Gerick16 , L.L. Gerken14 , E. Gersabeck61 , M. Gersabeck61 ,
+T. Gershon55 , D. Gerstel10 , Ph. Ghez8 , V. Gibson54 , M. Giovannetti22,k , A. Gioventù45 ,
+P. Gironella Gironell44 , L. Giubega36 , C. Giugliano20,g , K. Gizdov57 , E.L. Gkougkousis47 ,
+V.V. Gligorov12 , C. Göbel69 , E. Golobardes83 , D. Golubkov38 , A. Golutvin60,80 , A. Gomes1,a ,
+S. Gomez Fernandez44 , F. Goncalves Abrantes69 , M. Goncerz33 , G. Gong3 , P. Gorbounov38 ,
+I.V. Gorelov39 , C. Gotti24,j , E. Govorkova31 , J.P. Grabowski16 , R. Graciani Diaz44 ,
+T. Grammatico12 , L.A. Granado Cardoso47 , E. Graugés44 , E. Graverini48 , G. Graziani21 ,
+A. Grecu36 , L.M. Greeven31 , P. Griffith20 , L. Grillo61 , S. Gromov80 , L. Gruber47 ,
+B.R. Gruberg Cazon62 , C. Gu3 , M. Guarise20 , P. A. Günther16 , E. Gushchin40 , A. Guth13 ,
+Y. Guz43,47 , T. Gys47 , T. Hadavizadeh68 , G. Haefeli48 , C. Haen47 , J. Haimberger47 ,
+S.C. Haines54 , T. Halewood-leagas59 , P.M. Hamilton65 , Q. Han7 , X. Han16 , T.H. Hancock62 ,
+S. Hansmann-Menzemer16 , N. Harnew62 , T. Harrison59 , C. Hasse47 , M. Hatch47 , J. He5 ,
+M. Hecker60 , K. Heijhoff31 , K. Heinicke14 , A.M. Hennequin47 , K. Hennessy59 , L. Henry25,46 ,
+J. Heuel13 , A. Hicheur2 , D. Hill62 , M. Hilton61 , S.E. Hollitt14 , P.H. Hopchev48 , J. Hu16 , J. Hu71 ,
+W. Hu7 , W. Huang5 , X. Huang72 , W. Hulsbergen31 , R.J. Hunter55 , M. Hushchyn81 ,
+D. Hutchcroft59 , D. Hynds31 , P. Ibis14 , M. Idzik34 , D. Ilin37 , P. Ilten52 , A. Inglessi37 ,
+A. Ishteev80 , K. Ivshin37 , R. Jacobsson47 , S. Jakobsen47 , E. Jans31 , B.K. Jashal46 ,
+A. Jawahery65 , V. Jevtic14 , M. Jezabek33 , F. Jiang3 , M. John62 , D. Johnson47 , C.R. Jones54 ,
+T.P. Jones55 , B. Jost47 , N. Jurik47 , S. Kandybei50 , Y. Kang3 , M. Karacson47 , J.M. Kariuki53 ,
+N. Kazeev81 , M. Kecke16 , F. Keizer54,47 , M. Kenzie55 , T. Ketel32 , B. Khanji47 , A. Kharisova82 ,
+S. Kholodenko43 , K.E. Kim67 , T. Kirn13 , V.S. Kirsebom48 , O. Kitouni63 , S. Klaver31 ,
+K. Klimaszewski35 , S. Koliiev51 , A. Kondybayeva80 , A. Konoplyannikov38 , P. Kopciewicz34 ,
+R. Kopecna16 , P. Koppenburg31 , M. Korolev39 , I. Kostiuk31,51 , O. Kot51 , S. Kotriakhova37,30 ,
+P. Kravchenko37 , L. Kravchuk40 , R.D. Krawczyk47 , M. Kreps55 , F. Kress60 , S. Kretzschmar13 ,
+P. Krokovny42,v , W. Krupa34 , W. Krzemien35 , W. Kucewicz33,l , M. Kucharczyk33 ,
+V. Kudryavtsev42,v , H.S. Kuindersma31 , G.J. Kunde66 , T. Kvaratskheliya38 , D. Lacarrere47 ,
+G. Lafferty61 , A. Lai26 , A. Lampis26 , D. Lancierini49 , J.J. Lane61 , R. Lane53 , G. Lanfranchi22 ,
+C. Langenbruch13 , J. Langer14 , O. Lantwin49,80 , T. Latham55 , F. Lazzari28,t , R. Le Gac10 ,
+S.H. Lee84 , R. Lefèvre9 , A. Leflat39 , S. Legotin80 , O. Leroy10 , T. Lesiak33 , B. Leverington16 ,
+H. Li71 , L. Li62 , P. Li16 , X. Li66 , Y. Li6 , Y. Li6 , Z. Li67 , X. Liang67 , T. Lin60 , R. Lindner47 ,
+V. Lisovskyi14 , R. Litvinov26 , G. Liu71 , H. Liu5 , S. Liu6 , X. Liu3 , A. Loi26 , J. Lomba Castro45 ,
+I. Longstaff58 , J.H. Lopes2 , G. Loustau49 , G.H. Lovell54 , Y. Lu6 , D. Lucchesi27,m , S. Luchuk40 ,
+M. Lucio Martinez31 , V. Lukashenko31 , Y. Luo3 , A. Lupato61 , E. Luppi20,g , O. Lupton55 ,
+A. Lusiani28,r , X. Lyu5 , L. Ma6 , S. Maccolini19,e , F. Machefert11 , F. Maciuc36 , V. Macko48 ,
+P. Mackowiak14 , S. Maddrell-Mander53 , O. Madejczyk34 , L.R. Madhan Mohan53 , O. Maev37 ,
+A. Maevskiy81 , D. Maisuzenko37 , M.W. Majewski34 , S. Malde62 , B. Malecki47 , A. Malinin79 ,
+T. Maltsev42,v , H. Malygina16 , G. Manca26,f , G. Mancinelli10 , R. Manera Escalero44 ,
+D. Manuzzi19,e , D. Marangotto25,o , J. Maratas9,u , J.F. Marchand8 , U. Marconi19 ,
+S. Mariani21,47,h , C. Marin Benito11 , M. Marinangeli48 , P. Marino48 , J. Marks16 , P.J. Marshall59 ,
+G. Martellotti30 , L. Martinazzoli47 , M. Martinelli24,j , D. Martinez Santos45 , F. Martinez Vidal46 ,
+A. Massafferri1 , M. Materok13 , R. Matev47 , A. Mathad49 , Z. Mathe47 , V. Matiunin38 ,
+C. Matteuzzi24 , K.R. Mattioli84 , A. Mauri31 , E. Maurice11,b , J. Mauricio44 , M. Mazurek35 ,
+M. McCann60 , L. Mcconnell17 , T.H. Mcgrath61 , A. McNab61 , R. McNulty17 , J.V. Mead59 ,
+B. Meadows64 , C. Meaux10 , G. Meier14 , N. Meinert75 , D. Melnychuk35 , S. Meloni24,j ,
+M. Merk31,78 , A. Merli25 , L. Meyer Garcia2 , M. Mikhasenko47 , D.A. Milanes73 , E. Millard55 ,
+M. Milovanovic47 , M.-N. Minard8 , L. Minzoni20,g , S.E. Mitchell57 , B. Mitreska61 , D.S. Mitzel47 ,
+
+
+                                                   11
+A. Mödden14 , R.A. Mohammed62 , R.D. Moise60 , T. Mombächer14 , I.A. Monroy73 , S. Monteil9 ,
+M. Morandin27 , G. Morello22 , M.J. Morello28,r , J. Moron34 , A.B. Morris74 , A.G. Morris55 ,
+R. Mountain67 , H. Mu3 , F. Muheim57 , M. Mukherjee7 , M. Mulder47 , D. Müller47 , K. Müller49 ,
+C.H. Murphy62 , D. Murray61 , P. Muzzetto26 , P. Naik53 , T. Nakada48 , R. Nandakumar56 ,
+T. Nanut48 , I. Nasteva2 , M. Needham57 , I. Neri20,g , N. Neri25,o , S. Neubert74 , N. Neufeld47 ,
+R. Newcombe60 , T.D. Nguyen48 , C. Nguyen-Mau48 , E.M. Niel11 , S. Nieswand13 , N. Nikitin39 ,
+N.S. Nolte47 , C. Nunez84 , A. Oblakowska-Mucha34 , V. Obraztsov43 , D.P. O’Hanlon53 ,
+R. Oldeman26,f , C.J.G. Onderwater77 , A. Ossowska33 , J.M. Otalora Goicochea2 ,
+T. Ovsiannikova38 , P. Owen49 , A. Oyanguren46 , B. Pagare55 , P.R. Pais47 , T. Pajero28,47,r ,
+A. Palano18 , M. Palutan22 , Y. Pan61 , G. Panshin82 , A. Papanestis56 , M. Pappagallo18,d ,
+L.L. Pappalardo20,g , C. Pappenheimer64 , W. Parker65 , C. Parkes61 , C.J. Parkinson45 ,
+B. Passalacqua20 , G. Passaleva21 , A. Pastore18 , M. Patel60 , C. Patrignani19,e , C.J. Pawley78 ,
+A. Pearce47 , A. Pellegrino31 , M. Pepe Altarelli47 , S. Perazzini19 , D. Pereima38 , P. Perret9 ,
+K. Petridis53 , A. Petrolini23,i , A. Petrov79 , S. Petrucci57 , M. Petruzzo25 , A. Philippov41 ,
+L. Pica28 , M. Piccini76 , B. Pietrzyk8 , G. Pietrzyk48 , M. Pili62 , D. Pinci30 , J. Pinzino47 ,
+F. Pisani47 , A. Piucci16 , Resmi P.K10 , V. Placinta36 , S. Playfer57 , J. Plews52 , M. Plo Casasus45 ,
+F. Polci12 , M. Poli Lener22 , M. Poliakova67 , A. Poluektov10 , N. Polukhina80,c , I. Polyakov67 ,
+E. Polycarpo2 , G.J. Pomery53 , S. Ponce47 , A. Popov43 , D. Popov5,47 , S. Popov41 ,
+S. Poslavskii43 , K. Prasanth33 , L. Promberger47 , C. Prouve45 , V. Pugatch51 , A. Puig Navarro49 ,
+H. Pullen62 , G. Punzi28,n , W. Qian5 , J. Qin5 , R. Quagliani12 , B. Quintana8 , N.V. Raab17 ,
+R.I. Rabadan Trejo10 , B. Rachwal34 , J.H. Rademacker53 , M. Rama28 , M. Ramos Pernas55 ,
+M.S. Rangel2 , F. Ratnikov41,81 , G. Raven32 , M. Reboud8 , F. Redi48 , F. Reiss12 ,
+C. Remon Alepuz46 , Z. Ren3 , V. Renaudin62 , R. Ribatti28 , S. Ricciardi56 , D.S. Richards56 ,
+K. Rinnert59 , P. Robbe11 , A. Robert12 , G. Robertson57 , A.B. Rodrigues48 , E. Rodrigues59 ,
+J.A. Rodriguez Lopez73 , A. Rollings62 , P. Roloff47 , V. Romanovskiy43 , M. Romero Lamas45 ,
+A. Romero Vidal45 , J.D. Roth84 , M. Rotondo22 , M.S. Rudolph67 , T. Ruf47 , J. Ruiz Vidal46 ,
+A. Ryzhikov81 , J. Ryzka34 , J.J. Saborido Silva45 , N. Sagidova37 , N. Sahoo55 , B. Saitta26,f ,
+D. Sanchez Gonzalo44 , C. Sanchez Gras31 , C. Sanchez Mayordomo46 , R. Santacesaria30 ,
+C. Santamarina Rios45 , M. Santimaria22 , E. Santovetti29,k , D. Saranin80 , G. Sarpis61 ,
+M. Sarpis74 , A. Sarti30 , C. Satriano30,q , A. Satta29 , M. Saur5 , D. Savrina38,39 , H. Sazak9 ,
+L.G. Scantlebury Smead62 , S. Schael13 , M. Schellenberg14 , M. Schiller58 , H. Schindler47 ,
+M. Schmelling15 , T. Schmelzer14 , B. Schmidt47 , O. Schneider48 , A. Schopper47 , M. Schubiger31 ,
+S. Schulte48 , M.H. Schune11 , R. Schwemmer47 , B. Sciascia22 , A. Sciubba30 , S. Sellam45 ,
+A. Semennikov38 , M. Senghi Soares32 , A. Sergi52,47 , N. Serra49 , J. Serrano10 , L. Sestini27 ,
+A. Seuthe14 , P. Seyfert47 , D.M. Shangase84 , M. Shapkin43 , I. Shchemerov80 , L. Shchutska48 ,
+T. Shears59 , L. Shekhtman42,v , Z. Shen4 , V. Shevchenko79 , E.B. Shields24,j , E. Shmanin80 ,
+J.D. Shupperd67 , B.G. Siddi20 , R. Silva Coutinho49 , G. Simi27 , S. Simone18,d , I. Skiba20,g ,
+N. Skidmore74 , T. Skwarnicki67 , M.W. Slater52 , J.C. Smallwood62 , J.G. Smeaton54 ,
+A. Smetkina38 , E. Smith13 , M. Smith60 , A. Snoch31 , M. Soares19 , L. Soares Lavra9 ,
+M.D. Sokoloff64 , F.J.P. Soler58 , A. Solovev37 , I. Solovyev37 , F.L. Souza De Almeida2 ,
+B. Souza De Paula2 , B. Spaan14 , E. Spadaro Norella25,o , P. Spradlin58 , F. Stagni47 , M. Stahl64 ,
+S. Stahl47 , P. Stefko48 , O. Steinkamp49,80 , S. Stemmle16 , O. Stenyakin43 , H. Stevens14 ,
+S. Stone67 , M.E. Stramaglia48 , M. Straticiuc36 , D. Strekalina80 , S. Strokov82 , F. Suljik62 ,
+J. Sun26 , L. Sun72 , Y. Sun65 , P. Svihra61 , P.N. Swallow52 , K. Swientek34 , A. Szabelski35 ,
+T. Szumlak34 , M. Szymanski47 , S. Taneja61 , Z. Tang3 , T. Tekampe14 , F. Teubert47 ,
+E. Thomas47 , K.A. Thomson59 , M.J. Tilley60 , V. Tisserand9 , S. T’Jampens8 , M. Tobin6 ,
+S. Tolk47 , L. Tomassetti20,g , D. Torres Machado1 , D.Y. Tou12 , M. Traill58 , M.T. Tran48 ,
+E. Trifonova80 , C. Trippl48 , A. Tsaregorodtsev10 , G. Tuci28,n , A. Tully48 , N. Tuning31 ,
+A. Ukleja35 , D.J. Unverzagt16 , A. Usachov31 , A. Ustyuzhanin41,81 , U. Uwer16 , A. Vagner82 ,
+V. Vagnoni19 , A. Valassi47 , G. Valenti19 , N. Valls Canudas44 , M. van Beuzekom31 ,
+
+
+                                                  12
+H. Van Hecke66 , E. van Herwijnen80 , C.B. Van Hulse17 , M. van Veghel77 , R. Vazquez Gomez45 ,
+P. Vazquez Regueiro45 , C. Vázquez Sierra31 , S. Vecchi20 , J.J. Velthuis53 , M. Veltri21,p ,
+A. Venkateswaran67 , M. Veronesi31 , M. Vesterinen55 , D. Vieira64 , M. Vieites Diaz48 ,
+H. Viemann75 , X. Vilasis-Cardona83 , E. Vilella Figueras59 , P. Vincent12 , G. Vitali28 ,
+A. Vollhardt49 , D. Vom Bruch12 , A. Vorobyev37 , V. Vorobyev42,v , N. Voropaev37 , R. Waldi75 ,
+J. Walsh28 , C. Wang16 , J. Wang3 , J. Wang72 , J. Wang4 , J. Wang6 , M. Wang3 , R. Wang53 ,
+Y. Wang7 , Z. Wang49 , D.R. Ward54 , H.M. Wark59 , N.K. Watson52 , S.G. Weber12 ,
+D. Websdale60 , C. Weisser63 , B.D.C. Westhenry53 , D.J. White61 , M. Whitehead53 ,
+D. Wiedner14 , G. Wilkinson62 , M. Wilkinson67 , I. Williams54 , M. Williams63,68 ,
+M.R.J. Williams57 , F.F. Wilson56 , W. Wislicki35 , M. Witek33 , L. Witola16 , G. Wormser11 ,
+S.A. Wotton54 , H. Wu67 , K. Wyllie47 , Z. Xiang5 , D. Xiao7 , Y. Xie7 , H. Xing71 , A. Xu4 , J. Xu5 ,
+L. Xu3 , M. Xu7 , Q. Xu5 , Z. Xu5 , Z. Xu4 , D. Yang3 , Y. Yang5 , Z. Yang3 , Z. Yang65 , Y. Yao67 ,
+L.E. Yeomans59 , H. Yin7 , J. Yu70 , X. Yuan67 , O. Yushchenko43 , K.A. Zarebski52 ,
+M. Zavertyaev15,c , M. Zdybal33 , O. Zenaiev47 , M. Zeng3 , D. Zhang7 , L. Zhang3 , S. Zhang4 ,
+Y. Zhang47 , Y. Zhang62 , A. Zhelezov16 , Y. Zheng5 , X. Zhou5 , Y. Zhou5 , X. Zhu3 ,
+V. Zhukov13,39 , J.B. Zonneveld57 , S. Zucchelli19,e , D. Zuliani27 , G. Zunica61 .
+1
+  Centro Brasileiro de Pesquisas Fı́sicas (CBPF), Rio de Janeiro, Brazil
+2
+  Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil
+3
+  Center for High Energy Physics, Tsinghua University, Beijing, China
+4
+  School of Physics State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing,
+China
+5
+  University of Chinese Academy of Sciences, Beijing, China
+6
+  Institute Of High Energy Physics (IHEP), Beijing, China
+7
+  Institute of Particle Physics, Central China Normal University, Wuhan, Hubei, China
+8
+  Univ. Grenoble Alpes, Univ. Savoie Mont Blanc, CNRS, IN2P3-LAPP, Annecy, France
+9
+  Université Clermont Auvergne, CNRS/IN2P3, LPC, Clermont-Ferrand, France
+10
+   Aix Marseille Univ, CNRS/IN2P3, CPPM, Marseille, France
+11
+   Ijclab, Orsay, France
+12
+   LPNHE, Sorbonne Université, Paris Diderot Sorbonne Paris Cité, CNRS/IN2P3, Paris, France
+13
+   I. Physikalisches Institut, RWTH Aachen University, Aachen, Germany
+14
+   Fakultät Physik, Technische Universität Dortmund, Dortmund, Germany
+15
+   Max-Planck-Institut für Kernphysik (MPIK), Heidelberg, Germany
+16
+   Physikalisches Institut, Ruprecht-Karls-Universität Heidelberg, Heidelberg, Germany
+17
+   School of Physics, University College Dublin, Dublin, Ireland
+18
+   INFN Sezione di Bari, Bari, Italy
+19
+   INFN Sezione di Bologna, Bologna, Italy
+20
+   INFN Sezione di Ferrara, Ferrara, Italy
+21
+   INFN Sezione di Firenze, Firenze, Italy
+22
+   INFN Laboratori Nazionali di Frascati, Frascati, Italy
+23
+   INFN Sezione di Genova, Genova, Italy
+24
+   INFN Sezione di Milano-Bicocca, Milano, Italy
+25
+   INFN Sezione di Milano, Milano, Italy
+26
+   INFN Sezione di Cagliari, Monserrato, Italy
+27
+   Universita degli Studi di Padova, Universita e INFN, Padova, Padova, Italy
+28
+   INFN Sezione di Pisa, Pisa, Italy
+29
+   INFN Sezione di Roma Tor Vergata, Roma, Italy
+30
+   INFN Sezione di Roma La Sapienza, Roma, Italy
+31
+   Nikhef National Institute for Subatomic Physics, Amsterdam, Netherlands
+32
+   Nikhef National Institute for Subatomic Physics and VU University Amsterdam, Amsterdam,
+Netherlands
+33
+   Henryk Niewodniczanski Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland
+34
+   AGH - University of Science and Technology, Faculty of Physics and Applied Computer Science,
+Kraków, Poland
+35
+   National Center for Nuclear Research (NCBJ), Warsaw, Poland
+
+
+                                                  13
+36
+   Horia Hulubei National Institute of Physics and Nuclear Engineering, Bucharest-Magurele, Romania
+37
+   Petersburg Nuclear Physics Institute NRC Kurchatov Institute (PNPI NRC KI), Gatchina, Russia
+38
+   Institute of Theoretical and Experimental Physics NRC Kurchatov Institute (ITEP NRC KI), Moscow,
+Russia
+39
+   Institute of Nuclear Physics, Moscow State University (SINP MSU), Moscow, Russia
+40
+   Institute for Nuclear Research of the Russian Academy of Sciences (INR RAS), Moscow, Russia
+41
+   Yandex School of Data Analysis, Moscow, Russia
+42
+   Budker Institute of Nuclear Physics (SB RAS), Novosibirsk, Russia
+43
+   Institute for High Energy Physics NRC Kurchatov Institute (IHEP NRC KI), Protvino, Russia,
+Protvino, Russia
+44
+   ICCUB, Universitat de Barcelona, Barcelona, Spain
+45
+   Instituto Galego de Fı́sica de Altas Enerxı́as (IGFAE), Universidade de Santiago de Compostela,
+Santiago de Compostela, Spain
+46
+   Instituto de Fisica Corpuscular, Centro Mixto Universidad de Valencia - CSIC, Valencia, Spain
+47
+   European Organization for Nuclear Research (CERN), Geneva, Switzerland
+48
+   Institute of Physics, Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland
+49
+   Physik-Institut, Universität Zürich, Zürich, Switzerland
+50
+   NSC Kharkiv Institute of Physics and Technology (NSC KIPT), Kharkiv, Ukraine
+51
+   Institute for Nuclear Research of the National Academy of Sciences (KINR), Kyiv, Ukraine
+52
+   University of Birmingham, Birmingham, United Kingdom
+53
+   H.H. Wills Physics Laboratory, University of Bristol, Bristol, United Kingdom
+54
+   Cavendish Laboratory, University of Cambridge, Cambridge, United Kingdom
+55
+   Department of Physics, University of Warwick, Coventry, United Kingdom
+56
+   STFC Rutherford Appleton Laboratory, Didcot, United Kingdom
+57
+   School of Physics and Astronomy, University of Edinburgh, Edinburgh, United Kingdom
+58
+   School of Physics and Astronomy, University of Glasgow, Glasgow, United Kingdom
+59
+   Oliver Lodge Laboratory, University of Liverpool, Liverpool, United Kingdom
+60
+   Imperial College London, London, United Kingdom
+61
+   Department of Physics and Astronomy, University of Manchester, Manchester, United Kingdom
+62
+   Department of Physics, University of Oxford, Oxford, United Kingdom
+63
+   Massachusetts Institute of Technology, Cambridge, MA, United States
+64
+   University of Cincinnati, Cincinnati, OH, United States
+65
+   University of Maryland, College Park, MD, United States
+66
+   Los Alamos National Laboratory (LANL), Los Alamos, United States
+67
+   Syracuse University, Syracuse, NY, United States
+68
+   School of Physics and Astronomy, Monash University, Melbourne, Australia, associated to 55
+69
+   Pontifı́cia Universidade Católica do Rio de Janeiro (PUC-Rio), Rio de Janeiro, Brazil, associated to 2
+70
+   Physics and Micro Electronic College, Hunan University, Changsha City, China, associated to 7
+71
+   Guangdong Provencial Key Laboratory of Nuclear Science, Institute of Quantum Matter, South China
+Normal University, Guangzhou, China, associated to 3
+72
+   School of Physics and Technology, Wuhan University, Wuhan, China, associated to 3
+73
+   Departamento de Fisica , Universidad Nacional de Colombia, Bogota, Colombia, associated to 12
+74
+   Universität Bonn - Helmholtz-Institut für Strahlen und Kernphysik, Bonn, Germany, associated to 16
+75
+   Institut für Physik, Universität Rostock, Rostock, Germany, associated to 16
+76
+   INFN Sezione di Perugia, Perugia, Italy, associated to 20
+77
+   Van Swinderen Institute, University of Groningen, Groningen, Netherlands, associated to 31
+78
+   Universiteit Maastricht, Maastricht, Netherlands, associated to 31
+79
+   National Research Centre Kurchatov Institute, Moscow, Russia, associated to 38
+80
+   National University of Science and Technology “MISIS”, Moscow, Russia, associated to 38
+81
+   National Research University Higher School of Economics, Moscow, Russia, associated to 41
+82
+   National Research Tomsk Polytechnic University, Tomsk, Russia, associated to 38
+83
+   DS4DS, La Salle, Universitat Ramon Llull, Barcelona, Spain, associated to 44
+84
+   University of Michigan, Ann Arbor, United States, associated to 67
+a
+  Universidade Federal do Triângulo Mineiro (UFTM), Uberaba-MG, Brazil
+b
+  Laboratoire Leprince-Ringuet, Palaiseau, France
+c
+  P.N. Lebedev Physical Institute, Russian Academy of Science (LPI RAS), Moscow, Russia
+
+
+                                                   14
+d
+  Università di Bari, Bari, Italy
+e
+  Università di Bologna, Bologna, Italy
+f
+  Università di Cagliari, Cagliari, Italy
+g
+  Università di Ferrara, Ferrara, Italy
+h
+  Università di Firenze, Firenze, Italy
+i
+  Università di Genova, Genova, Italy
+j
+  Università di Milano Bicocca, Milano, Italy
+k
+  Università di Roma Tor Vergata, Roma, Italy
+l
+  AGH - University of Science and Technology, Faculty of Computer Science, Electronics and
+Telecommunications, Kraków, Poland
+m
+   Università di Padova, Padova, Italy
+n
+  Università di Pisa, Pisa, Italy
+o
+  Università degli Studi di Milano, Milano, Italy
+p
+  Università di Urbino, Urbino, Italy
+q
+  Università della Basilicata, Potenza, Italy
+r
+  Scuola Normale Superiore, Pisa, Italy
+s
+  Università di Modena e Reggio Emilia, Modena, Italy
+t
+  Università di Siena, Siena, Italy
+u
+  MSU - Iligan Institute of Technology (MSU-IIT), Iligan, Philippines
+v
+  Novosibirsk State University, Novosibirsk, Russia
+
+
+
+
+                                                 15
+

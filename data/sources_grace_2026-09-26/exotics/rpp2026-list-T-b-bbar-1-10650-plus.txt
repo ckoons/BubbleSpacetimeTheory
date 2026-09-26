@@ -1,0 +1,236 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+ Tbb1(10650)                                          I G (J PC ) = 1+ (1 + − )
+                                                      I, G, C need conﬁrmation.
+was Zb (10650), X (10650)±
+        Properties incompatible with a q q structure (exotic state). See the
+        review on non-q q states.
+
+        Observed by BONDAR 12 in Υ(5S) decays to Υ(nS)π + π − (n =
+        1, 2, 3) and hb (mP) π + π − (m = 1, 2). J P = 1+ is favored from
+        angular analyses.
+
+                                     Tbb1 (10650)+ MASS
+VALUE (MeV)                             DOCUMENT ID               TECN      COMMENT
+10652.2± 1.5                    1 BONDAR         12 BELL e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+             + 1.1
+10656.7± 5.0 −                        2 GARMASH             15    BELL      e + e − → Υ(1S) π + π −
+               3.1
+             + 0.5
+10650.7± 1.5 −                        2 GARMASH             15    BELL      e + e − → Υ(2S) π + π −
+               0.2
+             + 0.4
+10651.2± 1.0 −                        2 GARMASH             15    BELL      e+ e− →        Υ(3S) π + π −
+               0.3
+10657 ± 6 ± 3                    3 BONDAR          12 BELL                  e+ e− →        Υ(1S) π + π −
+10651 ± 2 ± 3                    3 BONDAR          12 BELL                  e+ e− →        Υ(2S) π + π −
+10652 ± 1 ± 2                    3 BONDAR          12 BELL                  e+ e− →        Υ(3S) π + π −
+10654 ± 3 − 2+ 1                 3 BONDAR          12 BELL e + e − → hb (1P) π + π −
+
+10651 +   2 +3
+        −3 −2
+                                 3 BONDAR          12 BELL e + e − → hb (2P) π + π −
+  1 Average of the BONDAR 12 measurements in separate channels.
+  2 Correlated with the corresponding result from BONDAR 12.
+  3 Superseded by the average measurement of BONDAR 12.
+
+
+                                    Tbb1 (10650)+ WIDTH
+
+VALUE (MeV)                             DOCUMENT ID               TECN      COMMENT
+11.5± 2.2                       1 BONDAR         12 BELL e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+
+12.1 + 11.3 + 2.7
+     − 4.8 − 0.6
+                                      2 GARMASH             15    BELL      e + e − → Υ(1S) π + π −
+
+14.2± 3.7 + 0.9
+          − 0.4
+                                      2 GARMASH             15    BELL      e + e − → Υ(2S) π + π −
+
+ 9.3± 2.2 + 0.3
+          − 0.5
+                                      2 GARMASH             15    BELL      e + e − → Υ(3S) π + π −
+
+16.3± 9.8 + 6.0
+          − 2.0
+                                      3 BONDAR              12    BELL      e + e − → Υ(1S) π + π −
+
+13.3± 3.3 + 4.0
+          − 3.0
+                                      3 BONDAR              12    BELL      e + e − → Υ(2S) π + π −
+ 8.4± 2.0± 2.0                        3 BONDAR              12    BELL      e + e − → Υ(3S) π + π −
+     + 5.4 + 2.1
+20.9 −                                3 BONDAR              12    BELL      e + e − → hb (1P) π + π −
+       4.7 − 5.7
+19 ± 7 +    11
+           − 7
+                                      3 BONDAR              12    BELL      e + e − → hb (2P) π + π −
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Average of the BONDAR 12 measurements in separate channels.
+  2 Correlated with the corresponding result from BONDAR 12.
+  3 Superseded by the average measurement of BONDAR 12.
+
+
+                                 Tbb1 (10650) DECAY MODES
+
+        Mode                                                   Fraction (Γi /Γ)
+
+Γ1      Υ(1S) π +                                                    + 0.8 ) × 10−3
+                                                               ( 1.7 − 0.6
+Γ2      Υ(2S) π +                                                    + 0.6 ) %
+                                                               ( 1.4 − 0.4
+Γ3      Υ(3S) π +                                                    + 0.7 ) %
+                                                               ( 1.6 − 0.5
+Γ4      hb (1P)π +                                                   + 2.9 ) %
+                                                               ( 8.4 − 2.4
+Γ5      hb (2P)π +                                             (15 ± 4 ) %
+Γ6      B+ B0                                                   not seen
+Γ7      B + B ∗0 + B ∗+ B 0                                     not seen
+Γ8      B ∗+ B ∗0                                              (74 + 4
+                                                                   −6 ) %
+
+
+                             Tbb1 (10650) BRANCHING RATIOS
+
+Γ Υ(1S) π + /Γtotal
+           
+                                                                                                        Γ1 /Γ
+VALUE (units 10−3 )                       DOCUMENT ID               TECN      COMMENT
+    + 0.7 + 0.3                 1 GARMASH
+1.7 − 0.6 − 0.2                                  16 BELL e + e − → π − B ∗+ B ∗0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+seen                              GARMASH        15 BELL e + e − → Υ(1S) π + π −
+seen                              BONDAR         12 BELL e + e − → Υ(1S) π + π −
+  1 Assuming the T        (10650) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                      bb1
+     π + hb (1P, 2P), and B ∗+ B ∗0 , and using the results from BONDAR 12 and MIZUK 16.
+
+Γ Υ(2S) π + /Γtotal
+           
+                                                                                                        Γ2 /Γ
+VALUE (units 10−2 )                       DOCUMENT ID               TECN      COMMENT
+     + 0.48 + 0.34              1 GARMASH
+1.39 − 0.38 − 0.23                               16              e + e − → π − B ∗+ B ∗0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+seen                              GARMASH        15 BELL e + e − → Υ(2S) π + π −
+seen                              BONDAR         12 BELL e + e − → Υ(2S) π + π −
+  1 Assuming the T        (10650) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                      bb1
+     π + hb (1P, 2P), and B ∗+ B ∗0 , and using the results from BONDAR 12 and MIZUK 16.
+
+Γ Υ(3S) π + /Γtotal
+           
+                                                                                                        Γ3 /Γ
+VALUE (units 10−2 )                       DOCUMENT ID               TECN      COMMENT
+     + 0.53 + 0.39                      1 GARMASH
+1.63 − 0.42 − 0.28                                            16    BELL      e + e − → π − B ∗+ B ∗0
+
+
+https://pdg.lbl.gov                           Page 2                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+seen                              GARMASH        15 BELL e + e − → Υ(3S) π + π −
+seen                              BONDAR         12 BELL e + e − → Υ(3S) π + π −
+    1 Assuming the T      (10650) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                      bb1
+     π + hb (1P, 2P), and B ∗+ B ∗0 , and using the results from BONDAR 12 and MIZUK 16.
+
+         π + /Γtotal
+            
+Γ hb (1P)π                                                                                              Γ4 /Γ
+VALUE (units 10−2 )                       DOCUMENT ID                TECN     COMMENT
+     + 2.43 + 1.49                      1 GARMASH
+8.41 − 2.12 − 1.06                                            16     BELL     e + e − → π − B ∗+ B ∗0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+seen                              2 MIZUK            16 BELL e + e − → hb (1P) π + π −
+seen                              3  BONDAR          12 BELL e + e − → hb (1P) π + π −
+  1 Assuming the T       (10650) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                     bb1
+    π + hb (1P, 2P), and B ∗+ B ∗0 , and using the results from BONDAR 12 and MIZUK 16.
+  2 Using e + e − energies near the Υ(11020).
+  3 Using e + e − energies near the Υ(10860).
+
+         π + /Γtotal
+            
+Γ hb (2P)π                                                                                              Γ5 /Γ
+VALUE (units 10−2 )                       DOCUMENT ID                TECN     COMMENT
+     + 3.2 + 2.8                  1 GARMASH
+14.7 − 2.8 − 2.3                                     16 BELL e + e − → π − B ∗+ B ∗0
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+possibly seen                     2 MIZUK            16 BELL e + e − → hb (2P) π + π −
+seen                              3 BONDAR           12 BELL e + e − → hb (2P) π + π −
+  1 Assuming the T       (10650) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                     bb1
+    π + hb (1P, 2P), and B ∗+ B ∗0 , and using the results from BONDAR 12 and MIZUK 16.
+  2 Using e + e − energies near the Υ(11020).
+  3 Using e + e − energies near the Υ(10860).
+
+Γ B + B 0 /Γtotal
+         
+                                                                                                        Γ6 /Γ
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+not seen                                     GARMASH            16     BELL      e + e − → π− B + B 0
+
+ Γ B + B ∗0 + Γ B ∗+ B 0 /Γtotal
+                      
+                                                                                                        Γ7 /Γ
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+not seen                                     GARMASH            16     BELL      e + e − → π − B + B ∗0 ,
+                                                                                    π − B 0 B ∗+
+
+Γ B ∗+ B ∗0 /Γtotal
+           
+                                                                                                        Γ8 /Γ
+VALUE (units 10−2 )         EVTS           DOCUMENT ID               TECN      COMMENT
+     + 3.4 + 2.7                        1 GARMASH
+73.7 − 4.4 − 3.5             161                              16     BELL      e + e − → π − B ∗+ B ∗0
+    1 Assuming the T      (10650) decay width is saturated by the channels π + Υ(1S, 2S, 3S),
+                      bb1
+     π + hb (1P, 2P), and B ∗+ B ∗0 , and using the results from BONDAR 12 and MIZUK 16.
+     Using the mass and width of the T       (10650) from BONDAR 12.
+                                         bb1
+
+https://pdg.lbl.gov                           Page 3                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+            
+Γ B ∗+ B ∗0 / Γ Υ(1S) π + + Γ Υ(2S) π + + Γ Υ(3S) π + +
+                                                    
+
+          π + + Γ hb (2P)π +
+                            
+Γ hb (1P)π                                    Γ8 /(Γ1 +Γ2 +Γ3 +Γ4 +Γ5 )
+VALUE (units 10−2 )         EVTS           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+     + 0.69 + 0.54
+2.80 −                       161        1 GARMASH             16     BELL      e + e − → π − B ∗+ B ∗0
+       0.40 − 0.36
+  1 Combined with the results of BONDAR 12 and MIZUK 16. Not independent from
+    T     (10650) branching fractions to π + Υ(1S, 2S, 3S), π + hb (1P, 2P), and B ∗+ B ∗0 .
+      bb1
+
+                                   Tbb1 (10650) REFERENCES
+
+GARMASH        16     PRL 116 212001            A. Garmash et al.                         (BELLE Collab.)
+MIZUK          16     PRL 117 142001            R. Mizuk et al.                           (BELLE Collab.)
+GARMASH        15     PR D91 072003             A. Garmash et al.                         (BELLE Collab.)
+BONDAR         12     PRL 108 122001            A. Bondar et al.                          (BELLE Collab.)
+
+
+
+
+https://pdg.lbl.gov                           Page 4                      Created: 6/1/2026 16:25
+

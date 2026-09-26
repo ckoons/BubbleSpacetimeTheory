@@ -1,0 +1,490 @@
+                                           A first study of strong isospin breaking effects in lattice
+                                           QCD using truncated polynomials
+
+
+
+
+arXiv:2603.24420v1 [hep-lat] 25 Mar 2026
+                                           David Albandea,𝑎,𝑏,∗ Simon Kuberski𝑑 and Fernando P. Panadero𝑐
+                                            𝑎 Helmholtz-Institut Mainz, Staudingerweg 18, 55128 Mainz, Germany
+
+                                            𝑏 GSI Helmholtz Centre for Heavy Ion Research, 64291 Darmstadt, Germany
+
+                                            𝑐 Instituto de Física Teórica UAM-CSIC, calle Nicolás Cabrera 13-15, 28049 Madrid, Spain
+
+                                            𝑑 Theoretical Physics Department, CERN, 1211 Geneva 23, Switzerland
+
+
+                                              E-mail: albanded@uni-mainz.de
+
+
+                                              Computing derivatives of observables with respect to parameters of the theory is a powerful tool
+                                              in lattice QCD, as it allows the study of physical effects not directly accessible in the original
+                                              Monte Carlo simulation. Prominent examples of this include the impact of the up-down quark
+                                              mass difference and electromagnetic corrections. In this work, we present a new approach based
+                                              on automatic differentiation to evaluate such derivatives to arbitrarily high orders, where particular
+                                              emphasis will be placed on strong isospin-breaking effects and on the propagation of derivatives
+                                              through the conjugate gradient algorithm in the computation of correlation functions.
+
+
+                                                                                                                                                                               MITP-26-015
+                                                                                                                                                                        IFT-UAM/CSIC-26-38
+                                                                                                                                                                          CERN-TH-2026-059
+
+
+
+
+                                           The 42nd International Symposium on Lattice Field Theory (LATTICE2025)
+                                           2-8 November 2025
+                                           Tata Institute of Fundamental Research, Mumbai, India
+
+                                                ∗ Speaker
+
+
+                                           © Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives
+                                           4.0 International License (CC BY-NC-ND 4.0) All rights for text and data mining, AI training, and similar technologies for
+                                           commercial purposes, are reserved. ISSN 1824-8039 . Published by SISSA Medialab.                                                        https://pos.sissa.it/
+A first study of strong IB effects in LQCD using truncated polynomials                       David Albandea
+
+
+1. Introduction
+
+    The computation of derivatives with respect to parameters of the action is a tool that has
+proven to be very useful in lattice QCD simulations. Among others, it allows to compute strong
+and electromagnetic isospin breaking effects—which contribute at the percent level to hadronic
+observables like hadron mass splittings and the HVP contribution to 𝑔 − 2—and also to correct for
+mistunings in the choice of the bare parameters in lattice simulations.
+    For the case of strong isospin breaking, the different methods to introduce its effects in lattice
+QCD simulations can be classified into two main groups:
+
+    • Exact methods, in which the exact isospin breaking contribution is included for both dynamic
+      and valence quarks. This category includes, for example, performing explicit simulations
+      with non-degenerate up and down quark masses or performing exact reweighting in an already
+      existing isospin-symmetric ensemble.
+
+    • Approximate methods, in which isospin breaking is introduced as a Taylor expansion in
+      powers of the up-down quark mass splitting Δ𝑚 truncated to some power. This category
+      includes the RM123 method [1], or performing measurements at different quark masses in
+      order to extract derivatives by, for example, taking finite differences.
+
+     The focus of the present study regards the inclusion of strong isospin breaking effects using
+automatic differentiation through reweighting, which in essence will be a generalization and full
+automation of the RM123 method up to arbitrary orders.
+     This manuscript is organized as follows: in Sec. 2, we review the RM123 method to include
+strong isospin breaking effects, specializing for the case of the kaon correlation function; in Sec. 3,
+we explain how to generalize the RM123 method to arbitrary orders in Δ𝑚 by introducing truncated
+polynomials along with reweighting; in Sec. 4, we explain the lattice setup of our simulation and
+show our results comparing both approaches; finally, we write our conclusions in Sec. 5.
+
+2. Including isospin breaking effects with the RM123 method
+
+     Let us consider that we are interested in evaluating the expectation value
+                                        ∫
+                                          D𝑈D𝜓D 𝜓¯ 𝑂 𝑒 −𝑆0 −𝑆IB (Δ𝑚)
+                             ⟨𝑂⟩Δ𝑚 = ∫                                  ,                                  (1)
+                                           D𝑈D𝜓D 𝜓¯ 𝑒 −𝑆0 −𝑆IB (Δ𝑚)
+
+in a theory with 𝑁 𝑓 = 1 + 1 non-degenerate quarks 𝜓 = [𝑢, 𝑑] with an action that can be split into
+isospin-symmetric and isospin-broken parts,
+                   ∑︁                         ∑︁                                     ∑︁
+      𝑆0 = 𝑆𝐺 +             𝜓¯ 𝑓 𝐷𝜓 𝑓 + 𝑚 𝑙                ¯ (𝑥),
+                                                   [ ¯𝑢𝑢 + 𝑑𝑑]      𝑆IB (Δ𝑚) = −Δ𝑚                ¯ (𝑥),
+                                                                                          [ ¯𝑢𝑢 − 𝑑𝑑]      (2)
+                   𝑓 =𝑢,𝑑                     𝑥                                      𝑥
+
+where 𝑆 𝐺 is the gauge action, 𝐷 is the massless Dirac operator, 𝑚 𝑙 = (𝑚 𝑢 + 𝑚 𝑑 )/2 is the average
+of and Δ𝑚 = (𝑚 𝑑 − 𝑚 𝑢 )/2 the splitting between the masses 𝑚 𝑢 and 𝑚 𝑑 of the quarks 𝑢 and 𝑑.
+     While simulating two degenerate quarks can be done efficiently in QCD with the standard
+Hybrid Monte Carlo algorithm [2], performing a simulation with non-degenerate quarks requires
+
+
+                                                           2
+A first study of strong IB effects in LQCD using truncated polynomials                       David Albandea
+
+
+
+
+Figure 1: Diagrams resulting from evaluating the Wick contractions in Eq. (5) for the kaon correlation
+function in Eq. (7) to leading (top left), first order (top middle and top right), and second order (bottom row)
+in Δ𝑚. Filled black dots denote 𝛾5 insertions, empty squares denote insertions of 𝑆IB , and red and purple
+lines denote up and strange quark propagator, respectively.
+
+
+the use of more complex algorithms—such as the rational Hybrid Monte Carlo algorithm [3, 4]—
+which are computationally more expensive. The authors of Ref. [1] proposed as an alternative to
+approximate ⟨𝑂⟩Δ𝑚 by considering its Taylor expansion in Δ𝑚,
+                                                 𝜕⟨𝑂⟩Δ𝑚
+                             ⟨𝑂⟩Δ𝑚 = ⟨𝑂⟩0 +                Δ𝑚 + O (Δ𝑚 2 ),                                  (3)
+                                                  𝜕Δ𝑚 Δ𝑚=0
+where ⟨𝑂⟩0 is an expectation value computed in the isospin-symmetric theory,
+                                       ∫
+                                          D𝑈D𝜓D 𝜓¯ 𝑂 𝑒 −𝑆0
+                                 ⟨𝑂⟩0 = ∫                     .                                             (4)
+                                           D𝑈D𝜓D 𝜓¯ 𝑒 −𝑆0
+
+If one knows the derivative 𝜕⟨𝑂⟩Δ𝑚 /𝜕Δ𝑚 Δ𝑚=0 and Δ𝑚 is small enough, one can approximate
+⟨𝑂⟩Δ𝑚 by truncating at first order in Δ𝑚. Such derivative can be obtained by Taylor expanding the
+path integral in Eq. (1),
+               ∫
+                  D𝑈D𝜓D 𝜓¯ 𝑂 (1 + Δ𝑚𝑆IB )𝑒 −𝑆0                 ⟨𝑂⟩0 + Δ𝑚⟨𝑂𝑆IB ⟩0
+     ⟨𝑂⟩Δ𝑚 =    ∫                               + O (Δ𝑚 2 ) =                     + O (Δ𝑚 2 )
+                             ¯
+                  D𝑈D𝜓D 𝜓 (1 + Δ𝑚𝑆IB )𝑒     −𝑆0                   1 + Δ𝑚⟨𝑆IB ⟩0
+             =⟨𝑂⟩0 + Δ𝑚⟨𝑂𝑆IB ⟩0 + O (Δ𝑚 2 ),                                                                (5)
+
+where we have used that ⟨𝑆IB ⟩0 = 0 in the isospin-symmetric theory. By comparing with Eq. (3),
+we identify
+                                         𝜕⟨𝑂⟩Δ𝑚
+                                                   = ⟨𝑂𝑆IB ⟩0 ,                                             (6)
+                                          𝜕Δ𝑚 Δ𝑚=0
+which can be evaluated in the cheaper, isospin-symmetric simulation.
+    In practice, this means that we can compute derivatives with respect to action parameters by
+computing additional diagrams. Specializing to the case of the charged kaon correlation function,
+
+                                   𝐶𝐾 + (𝑡) = ⟨𝑠¯ (𝑡)𝛾5 𝑢(𝑡) ¯𝑢(0)𝛾5 𝑠(0)⟩,                                 (7)
+
+
+                                                       3
+A first study of strong IB effects in LQCD using truncated polynomials                           David Albandea
+
+
+the leading order leads to the diagram in the top left of Fig. 1 and the first order to the two diagrams
+in top middle and right.1 The number of diagrams to compute increases combinatorily with the
+truncation order of the Taylor expansion: if we were to truncate the Taylor expansion at second
+order, we would need to compute the four diagrams in the bottom of the figure, which need to
+be individually derived, implemented and tested. In the following, we will propose and test a
+framework, based on automatic differentiation, which fully automates the computation of all these
+diagrams up to arbitrary order.
+
+
+3. Generalizing the RM123 method with truncated polynomials
+
+3.1 Truncated polynomials
+    Truncated polynomials are a particular flavor of forward-mode automatic differentiation [5],
+and they rely on the fact that a differentiable function 𝑓 (𝑥) can be expanded in a Taylor series
+around 𝑥 (0) . Particularly,
+
+                                                                          1 ′′ (0)
+                     𝑓 (𝑥 (0) + Δ𝑚) = 𝑓 (𝑥 (0) ) + 𝑓 ′ (𝑥 (0) )Δ𝑚 +         𝑓 (𝑥 )Δ𝑚 2 + . . .                 (8)
+                                                                          2
+The construction of such Taylor expansion can be automated for any analytic function 𝑓 by using the
+algebra of truncated polynomials: if 𝑥˜ = 𝑥˜ (0) + 𝑥˜ (1) Δ𝑚 + · · · + 𝑥˜ (𝐾 ) Δ𝑚 𝐾 is a truncated polynomial
+of order 𝐾 and we code all elementary mathematical functions acting on these polynomials, and
+we evaluate 𝑓 ( ˜𝑥) with 𝑥˜ = 𝑥˜ (0) + Δ𝑚, the output of the function will be a truncated polynomial
+containing its first 𝐾 derivatives
+
+                                                             1 𝜕 𝑘 𝑓 (𝑥)
+                                       𝑓 (𝑘 ) ( 𝑥˜ (0) ) =                    .                                (9)
+                                                             𝑘 𝜕𝑥 𝑘 𝑥= 𝑥˜ (0)
+This machinery can be used, in principle, for any arbitrarily complex function 𝑓 , such as a computer
+program. Particularly, it has been succesfully applied in lattice QCD for automatic error propagation
+in the analysis of Monte Carlo data [6], as well as in lattice field theory simulations to propagate
+derivatives with respect to action parameters throughout the HMC algorithm or via reweighting
+techniques [7], to tackle the sign problem in the quantum rotor [8], and to tackle the signal to noise
+problem in a 𝜙4 theory [9].
+     In the present study we want to test if automatic differentiation can successfully propagate
+derivatives when solving the Dirac equation, which is key for the computation of matrix elements
+and hadron masses from correlation functions such as the one in Eq. (7). As in the previously
+mentioned applications, we will use the algebra of truncated polynomials as implemented in
+ FormalSeries.jl [10] in the Julia programming language, and focus on the computation of
+observables via reweighting.
+
+3.2 Reweighting with truncated polynomials
+    As mentioned in the introduction, a possible way to introduce isospin breaking effects in an
+observable is by reweighting an ensemble from Δ𝑚 = 0 to a particular Δ𝑚 ≠ 0 [11, 12]. To do so,
+   1 The top right diagram cancels out when summing the contributions coming from the up and down quark [1].
+
+
+
+
+                                                             4
+A first study of strong IB effects in LQCD using truncated polynomials                     David Albandea
+
+
+we write
+                       ∫                                     ∫
+                       D𝑈D𝜓D 𝜓¯ 𝑂 𝑒 −𝑆0 −𝑆IB (Δ𝑚)                D𝑈 𝑂 (Δ𝑚)𝑊IB (Δ𝑚) 𝑒 −𝑆𝐺
+             ⟨𝑂⟩Δ𝑚 = ∫                            =               ∫
+                         D𝑈D𝜓D 𝜓¯ 𝑒 −𝑆0 −𝑆IB (Δ𝑚)                   D𝑈 𝑊IB (Δ𝑚) 𝑒 −𝑆𝐺
+                     ⟨𝑂 (Δ𝑚)𝑊IB (Δ𝑚)⟩0
+                   =                   ,                                                                (10)
+                         ⟨𝑊IB (Δ𝑚)⟩0
+where in the second equality we have performed the integration over fermionic fields and we have
+defined the isospin-breaking reweighting factor
+                                         det 𝐷 (𝑚 𝑙 − Δ𝑚) det 𝐷 (𝑚 𝑙 + Δ𝑚)
+                           𝑊IB (Δ𝑚) ≡                                      ,                            (11)
+                                                     det 𝐷 2 (𝑚 𝑙 )
+and expectation values on the right-hand side are evaluated in the isospin-symmetric theory. If we
+replace Δ𝑚 by the truncated polynomial
+                               𝐾
+                                                          (
+                              ∑︁                            1    for 𝑘 = 1
+                       Δ𝑚˜ =      Δ𝑚˜ (𝑘 ) Δ𝑚, Δ𝑚˜ (𝑘 ) =                  ,                  (12)
+                              𝑘=0                           0    for 𝑘 ≠ 1
+evaluating Eq. (10) will return the full analytical dependence of the polynomial expansion of the
+observable 𝑂 up to order 𝐾 centered around Δ𝑚 = 0,
+                                      (𝑘 )     1     𝜕𝑘
+                                   ⟨𝑂⟩Δ𝑚   =               ⟨𝑂⟩Δ𝑚      .                                 (13)
+                                               𝑘! 𝜕 (Δ𝑚) 𝑘       Δ𝑚=0
+
+     The evaluation of Eq. (10) with truncated polynomials requires, on the one hand, the compu-
+tation of 𝑂 (Δ ˜
+              𝑚), which accounts for the valence contribution of isospin-breaking effects. In our
+study we will focus on the correlation function of the kaon, which, after integrating out fermionic
+degrees of freedom, reads
+
+  𝑂 (Δ𝑚) = tr 𝛾5 𝐷 −1 (𝑚 𝑙 − Δ𝑚)𝛾5 𝐷 −1 (𝑚 𝑠 ) = −                                    Δ𝑚 + O (Δ𝑚 2 ),
+                                             
+                                                                     −                                  (14)
+
+where the dependence of the Dirac operator on the quark masses is displayed for clarity and we
+have explicitly shown the diagramatic expansion of the observable up to first order in Δ𝑚. While
+in the RM123 method one needs to explicitly compute both diagrams by implementing
+
+                                     = tr 𝛾5 𝐷 −1 (𝑚 𝑙 )𝛾5 𝐷 −1 (𝑚 𝑠 ) ,
+                                                                     
+                                                                                                        (15)
+
+                                     = tr 𝛾5 𝐷 −1 (𝑚 𝑙 )𝐷 −1 (𝑚 𝑙 )𝛾5 𝐷 −1 (𝑚 𝑠 ) ,
+                                                                                
+                                                                                                        (16)
+
+the use of truncated polynomials allows to obtain the full polynomial expansion of the observable
+by the evaluation of the left-hand side of Eq. (14) with already existing code.
+     On the other hand, the computation of the reweighting factor 𝑊IB accounts for the sea-quark
+contribution of isospin-breaking effects, and can also be evaluated using the truncated polynomial
+in Eq. (12). Since Δ𝑚˜ (0) = 0, the ratio in Eq. (11) is 1 at leading order and can be easily estimated
+using 𝑁 complex normal stochastic sources 𝜂𝑖 :
+                    ∫                     ∫                                   𝑁
+                                 † −1                 †       †   −1       1 ∑︁ − 𝜂 † ( 𝐴−1 −1) 𝜂𝑖
+     𝑊IB ≡ det 𝐴 =       𝑑𝜂 𝑒 − 𝜂 𝐴 𝜂 =       𝑑𝜂 𝑒 − 𝜂 𝜂 𝑒 − 𝜂 ( 𝐴 −1) 𝜂 ≈       𝑒 𝑖               , (17)
+                                                                           𝑁 𝑖=1
+
+
+                                                     5
+A first study of strong IB effects in LQCD using truncated polynomials                                      David Albandea
+
+
+where 𝐴 ≡ 𝐷 𝑢 𝐷 𝑑 𝐷 𝑙−2 . Note that, once estimated, 𝑊IB can be reused for any other observable
+𝑂 (Δ𝑚).
+     In the following, we will focus on the computation of the valence contribution of the kaon
+correlator in Eq. (14) with truncated polynomials, where we will solve the Dirac equation by means
+of the conjugate gradient algorithm.
+
+3.3 Conjugate gradient with truncated polynomials
+
+     The conjugate gradient algorithm is an iterative algorithm that solves the Dirac equation
+
+                                                       𝐷𝜓 = 𝜂.                                                             (18)
+
+Although truncated polynomials can be used with any computer program as long as all mathematical
+operations acting on them are differentiable, it is not clear that the propagated derivatives will
+converge as rapidly, nor if this is guaranteed, for an iterative algorithm such as the conjugate
+gradient. The main objective of this study is to investigate whether truncated polynomials converge
+to the right derivatives using the conjugate gradient algorithm by comparing results with the RM123
+method.
+     The only step which is non-differenciable in the conjugate gradient algorithm and should be
+adapted to the use of automatic differentiation is the choice of the stopping criterium. In the standard
+conjugate gradient, the usual choice is to enforce that the residue of the solution is smaller than a
+particular tolerance tol , i.e.
+
+                                                                2
+                                            (𝐷𝐷 −1 − 𝐼)𝜂            < tol ∥𝜂∥ 2 .                                          (19)
+
+However, when using truncated polynomials what we will have is a Taylor expansion in Δ𝑚 of our
+fermion fields,
+
+                               𝜂 → 𝜂˜ = 𝜂˜ (0) + 𝜂˜ (1) Δ𝑚 + 𝜂˜ (2) Δ𝑚 2 + O (Δ𝑚 3 ).                                      (20)
+
+In particular, the residue of the solution will also become a truncated polynomial: expanding
+𝐷𝐷 −1 − 𝐼 in Δ𝑚, we have
+
+                   𝐷𝐷 −1 − 𝐼 − Δ𝑚 𝐷𝐷 −2 − 𝐷 −1 + Δ𝑚 2 𝐷𝐷 −3 − 𝐷 −2 + O (𝑚 3 ).
+                                                               
+                                                                                                                           (21)
+
+By analogy with the condition for the leading order in Eq. (19), we decided to enforce that the
+residue is smaller than a certain tolerance tol order by order,2
+
+                                         𝐷𝐷 −𝑛−1 𝜂 − 𝐷 −𝑛 𝜂 < tol ∥𝜂∥ 2 .                                                  (22)
+                                                                                        2 (𝑛)
+                                                                     h                   i
+   2 Note that this stopping criterium is not the same as imposing       (𝐷𝐷 −1 − 𝐼)𝜂           < tol ∥𝜂∥ 2 for every order. Such
+an expansion up to order Δ𝑚 would be
+
+( [𝐷𝐷 −1 − 𝐼]𝜂, [𝐷𝐷 −1 − 𝐼]𝜂) − Δ𝑚 ([𝐷𝐷 −2 − 𝐷 −1 ]𝜂, [𝐷𝐷 −1 − 𝐼]𝜂) + ([𝐷𝐷 −1 − 𝐼]𝜂, [𝐷𝐷 −2 − 𝐷 −1 ]𝜂) + O (Δ𝑚 2 )
+                                  
+
+
+which mixes contributions from different orders of the expansion of 𝐷𝐷 −1 − 𝐼.
+
+
+                                                            6
+A first study of strong IB effects in LQCD using truncated polynomials                               David Albandea
+
+
+          ID          𝛽       BC                𝑉               𝑎            𝑀𝜋              𝑀𝐾       𝑀𝜋 𝐿
+          A654      3.34    periodic         48 × 243       0.097 fm       338 MeV         462 MeV    4.0
+
+
+Table 1: Parameters of the simulation used in this study: the bare coupling 𝛽 = 6/𝑔02 , the boundary condition,
+the volume in lattice units, the lattice spacing 𝑎 in physical units, and the approximate pion and kaon masses.
+
+4. Setup and results
+
+     In the following, we will investigate whether the condition in Eq. (22) leads to a convergence
+of the first order in Δ𝑚 when using truncated polynomials with the conjugate gradient algorithm.
+For this proof-of-concept study we used a single ensemble, generated using openQCD [13] as
+part of the Coodinated Lattice Simulations (CLS) initiative [14]. It has 𝑁 𝑓 = 2 + 1 flavors of
+𝑂 (𝑎)-improved Wilson fermions and a tree-level improved Lüscher–Weisz gauge action, and other
+parameters of its simulation are displayed in Tab. 1.
+     We focused on the computation of the derivative of the kaon mass with respect to the
+up-down mass splitting, 𝜕 𝑀𝐾 + /𝜕Δ𝑚, for which we evaluated Eq. (14) using truncated poly-
+nomials. For this purpose, we used a code designed to perform lattice simulations on GPUs,
+ LatticeGPU.jl [15, 16], written in Julia, which has I/O compatibility with openQCD . Addi-
+tionally, we used the measurement code GPUobs.jl [17], which allows one to obtain observables
+as truncated polynomials in Δ𝑚, and we set the solver tolerance tol in Eq. (22) to 10−28 .
+     By evaluating Eq. (14) with truncated polynomials of order 1, one obtains the power expansion
+                                      𝐶˜𝐾 + (𝑡) = 𝐶𝐾(0)+ + 𝐶𝐾(1)+ Δ𝑚 + O (Δ𝑚 2 ).                              (23)
+To extract the derivative of the kaon mass, we start by writing the large-time behavior of the spectral
+decomposition of the kaon two-point function,
+                             𝐶𝐾 + (𝑡) ∝ 𝐴 𝑒 − 𝑀𝐾 + (𝑡 −𝑇/2) + 𝑒 𝑀𝐾 + (𝑡 −𝑇/2) .
+                                                                            
+                                                                                                  (24)
+By expanding the matrix element and the kaon mass in powers of Δ𝑚,
+                𝐴˜ = 𝐴 (0) + 𝐴 (1) Δ𝑚 + O (Δ𝑚 2 ),           𝑀˜ 𝐾 + = 𝑀𝐾(0)+ + 𝑀𝐾(1)+ Δ𝑚 + O (Δ𝑚 2 )           (25)
+
+one can obtain 𝑀𝐾(1)+ by fitting to the relation
+
+                        𝐶𝐾(1)+ (𝑡)        𝐴 (1)
+                                      =         + 𝑀𝐾(1)+ (𝑡 − 𝑇/2) tanh[𝑀𝐾(0)+ (𝑡 − 𝑇/2)].                     (26)
+                        𝐶𝐾(0)+ (𝑡)        𝐴 (0)
+     In Fig. 2 (left), we show this ratio as a function of time, where the data was obtained from a
+set of 100 configurations of the ensemble A654, and fitting to the previous functional form we find
+                                                  𝑀𝐾(1)+ = −3.86(52).                                          (27)
+As a cross-check of this method, in Fig. 2 (right) we plot the relative difference between the
+derivative 𝐶𝐾(1)+ (𝑡) obtained with automatic differentiation and the one obtained with the RM123,
+
+                                     Δ𝐶 (1) (𝑡)       𝐶𝐾(1)+ ,RM123 (𝑡) − 𝐶𝐾(1)+ ,AD (𝑡)
+                                      (1)
+                                                  ≡                                                            (28)
+                                     𝐶RM123 (𝑡)               𝐶𝐾(1)+ ,RM123 (𝑡)
+
+
+                                                             7
+A first study of strong IB effects in LQCD using truncated polynomials                      David Albandea
+
+
+
+
+Figure 2: (Left) Ratio of first to leading order of correlation function of the kaon as a function of time. The
+blue band denotes the region fitted to the functional form in Eq. (26). (Right) Relative difference between
+the first order of the correlation function of the kaon obtanied with truncated polynomials and RM123, and
+defined in Eq. (28).
+
+
+where 𝐶𝐾(1)+1 ,RM123 is obtained by evaluating Eq. (16). The fact that this relative difference is of
+the order of 10−7 is an indication that derivatives with automatic differentiation can be correctly
+propagated through the conjugate gradient algorithm, and that the RM123 method up to arbitrary
+order can be fully automated with truncated polynomials.
+
+5. Conclusions and outlook
+
+     We have developed a new method to compute derivatives with respect to any action parameter
+up to arbitrary order using truncated polynomials. Using this method, we have studied the valence
+contribution of strong isospin breaking effects of the kaon correlation function at first order in
+Δ𝑚. As a first proof of concept, we have found that the first derivative of the kaon correlation
+function computed with truncated polynomials converges and is compatible with the one obtained
+with the RM123. A more thorough assessment of the solution’s precision and a comparison of the
+computational cost with respect to the RM123 method is currently a work in progress.
+     In the present study, we have restricted ourselves to the valence contribution at first order
+in Δ𝑚. A natural next step is to extend the analysis to higher orders in the mass expansion and
+to incorporate sea-quark contributions by computing the reweighting factor in Eq. (11). Also,
+although we have focused on expansions in Δ𝑚 to describe strong isospin-breaking effects, the
+framework is fully general and can be applied to any action parameter, and could be used, among
+others, for the correction of mistunings in the quark masses and for the inclusion of electromagnetic
+isospin-breaking effects.
+
+Acknowledgements
+
+     We like to thank Alberto Ramos, Dalibor Djukanovic, Harvey B. Meyer, Hartmut Wittig
+and Georg von Hippel for valuable discussions and for their comments on this manuscript. We
+are grateful to our colleagues in the CLS initiative for sharing ensembles. Calculations for this
+project have been performed on the HPC cluster Mogon-NHR at Johannes Gutenberg-Universität
+
+
+                                                      8
+A first study of strong IB effects in LQCD using truncated polynomials             David Albandea
+
+
+(JGU) Mainz. The estimation of statistical uncertainties of gauge averages in this work has been
+performed using the Γ-method implemented in the ADerrors.jl package [6]. The diagrams
+corresponding to the Wick contractions studied in this work were checked with the Mathematica
+package Quark Contraction Tool [18].
+
+
+References
+
+ [1] G.M. de Divitiis et al., Isospin breaking effects due to the up-down mass difference in Lattice
+     QCD, JHEP 04 (2012) 124 [1110.6294].
+
+ [2] S. Duane, A.D. Kennedy, B.J. Pendleton and D. Roweth, Hybrid Monte Carlo, Phys. Lett. B
+     195 (1987) 216.
+
+ [3] A.D. Kennedy, I. Horvath and S. Sint, A New exact method for dynamical fermion
+     computations with nonlocal actions, Nucl. Phys. B Proc. Suppl. 73 (1999) 834
+     [hep-lat/9809092].
+
+ [4] M.A. Clark and A.D. Kennedy, The RHMC algorithm for two flavors of dynamical staggered
+     fermions, Nucl. Phys. B Proc. Suppl. 129 (2004) 850 [hep-lat/0309084].
+
+ [5] A. Haro, Automatic differentiation tools in computational dynamical systems, .
+
+ [6] A. Ramos, Automatic differentiation for error analysis of Monte Carlo data, Comput. Phys.
+     Commun. 238 (2019) 19 [1809.01289].
+
+ [7] G. Catumba, A. Ramos and B. Zaldivar, Stochastic automatic differentiation for Monte Carlo
+     processes, Comput. Phys. Commun. 307 (2025) 109396 [2307.15406].
+
+ [8] D. Albandea, G. Catumba and A. Ramos, Strong CP problem in the quantum rotor, Phys.
+     Rev. D 110 (2024) 094512 [2402.17518].
+
+ [9] G. Catumba and A. Ramos, Stochastic automatic differentiation and the signal to noise
+     problem, Eur. Phys. J. C 85 (2025) 1037 [2502.15570].
+
+[10] A. Ramos, Formalseries.jl, May, 2023. 10.5281/zenodo.7970278.
+
+[11] J. Finkenrath, F. Knechtli and B. Leder, One flavor mass reweighting in lattice QCD, Nucl.
+     Phys. B 877 (2013) 441 [1306.3962].
+
+[12] J. Finkenrath, F. Knechtli and B. Leder, Isospin Effects by Mass Reweighting, PoS
+     LATTICE2014 (2015) 297 [1501.06441].
+
+[13] M. Lüscher, “Charm and strange quark in openQCD simulations.”
+     http://luscher.web.cern.ch/luscher/openQCD/, 2019.
+
+[14] M. Bruno, T. Korzec and S. Schaefer, Setting the scale for the CLS 2 + 1 flavor ensembles,
+     Phys. Rev. D 95 (2017) 074504 [1608.08900].
+
+
+                                                    9
+A first study of strong IB effects in LQCD using truncated polynomials       David Albandea
+
+
+[15] G. Catumba, F. Pérez Panadero, C. Pena and A. Ramos, “latticegpu.jl.”
+     https://igit.ific.uv.es/alramos/latticegpu.jl, 2024.
+
+[16] G. Catumba, F. Pérez Panadero, C. Pena and A. Ramos, A Julia Code for Lattice QCD on
+     GPUs, PoS LATTICE2024 (2025) 281 [2503.16994].
+
+[17] G. Catumba, F. Pérez Panadero, C. Pena and A. Ramos, “gpuobs.jl.”
+     https://igit.ific.uv.es/alramos/gpuobs.jl, 2024.
+
+[18] D. Djukanovic, Quark Contraction Tool — QCT, Comput. Phys. Commun. 247 (2020)
+     106950 [1603.01576].
+
+
+
+
+                                                    10
+

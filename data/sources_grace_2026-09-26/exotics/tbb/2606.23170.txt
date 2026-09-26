@@ -1,0 +1,338 @@
+                                          Recent Hadron Spectroscopy Results from the Belle
+                                          and Belle II experiments
+
+
+
+
+arXiv:2606.23170v1 [hep-ex] 22 Jun 2026
+                                          Elisabetta Prencipe𝑎,∗
+                                           𝑎 Justus-Liebig University of Giessen,
+
+                                             II. Physics Institute,
+                                             Heinrich-Buff-Ring 16, 35392 Gießen, Germany
+                                             E-mail: elisabetta.prencipe@gmail.com
+
+
+                                             The Belle II experiment, the major upgrade of the Belle detector, is currently collecting data at the
+                                             SuperKEKB asymmetric-energy 𝑒 + 𝑒 − collider in Tsukuba, Japan. With an integrated luminosity
+                                             of 575 fb−1 , Belle II has already surpassed the maximum luminosity accumulated by both BaBar
+                                             and Belle. Recent analyses combining Belle and Belle II data sets have delivered results of
+                                             unprecedented precision, demonstrating the strong potential of the unified data sample, which
+                                             now exceeds 1.5 ab−1 .
+                                             In this contribution, recent advances in hadron spectroscopy are presented. Highlights include
+                                             new results in bottomonium and charmonium physics, with particular emphasis on the structure
+                                             of the Υ(10753), searches for hidden-charm and hidden-strangeness pentaquarks, and the latest
+                                             developments in baryon spectroscopy, including studies of the Ω(2012) and excited Λ𝑐 states.
+                                             Prospects for future spectroscopy analyses exploiting the full Belle and Belle II data sets are also
+                                             discussed.
+
+
+
+
+                                          Proceedings of the 53𝑡 ℎ International Symposium of Multiparticle Dynamics at the Corfu Summer Institute
+                                          2025 "School and Workshops on Elementary Particle Physics and Gravity" (CORFU2025)
+                                          27 April - 28 September, 2025
+                                          Corfu, Greece
+
+                                               ∗ Speaker
+
+
+                                          © Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives
+                                          4.0 International License (CC BY-NC-ND 4.0) All rights for text and data mining, AI training, and similar technologies for
+                                          commercial purposes, are reserved. ISSN 1824-8039 . Published by SISSA Medialab.                                             https://pos.sissa.it/
+Recent Hadron Spectroscopy Results from the Belle and Belle II experiments        Elisabetta Prencipe
+
+
+1. Introduction
+
+     Belle II, which is a major upgrade of the Belle experiment, is located in Tsukuba (Japan).
+It collected 575 fb−1 integrated luminosity data, which in combination with the Belle data sets,
+form the biggest data sets ever collected at an antisymmetric electron-positron collider: a total
+data set of 1.5 ab−1 integrated luminosity is available to perform studies of CP violation on B
+decays, measure rare branching fractions, studies in the dark sector, and charm, charmonium and
+bottomonium spectroscopy. Multiquark states search is an area of great interest in the physics
+community. The Belle II experiments offers the possibility to search for multiquark states through
+different production mechanisms:
+    • direct production in 𝑒 + 𝑒 − collisions
+
+    • production through B decays
+
+    • photon-photon scattering
+
+    • double charmonium.
+     The Belle experiment (1999-2010) has already given a remarkable contribution in spectroscopy
+search. Starting with the X(3872) [1], and followed by the obervation at Belle of the Z(4430) [2, 3],
+they represent only two example over tens of four-quark states unluckily explained with the quark
+model, showing the high contribution given by the Belle collaboration in the field of charmonium(-
+like) spectroscopy. The advantage at Belle, as for all 𝑒 + 𝑒 − colliders, is that events are basically
+background clean compared to 𝑝 𝑝¯ detectors, a huge data set is available, and several mechanisms
+are available to perform spectroscopy studies.
+     We observe that the higher the mass, the more rare the process is. Therefore huge data sets are
+needed to engage in specific spectroscopy campaigns. This motivated the need to bind the Belle
+and Belle II data sets, so we have so far more than 1.5 ab−1 data available to perform spectroscopy
+studies.
+
+2. Charm-strange spectroscopy
+
+     Several new analyses have been presented at this conference, combining Belle and Belle II
+data sets. In particular, we presented the results of the observation of 𝑐𝑠-meson pair production in
+Υ(2𝑆), and 𝑐𝑠-spectroscopy in the continuum.
+
+3. Charm-strange from Υ(2𝑆) decays
+
+     The charm–strange sector continues to provide crucial insights into the dynamics of QCD in
+the heavy–light regime. Several new analyses combining Belle and Belle II data sets have been
+presented at this conference. In particular, the observation of 𝑐 𝑠¯ meson pair production in Υ(2𝑆)
+decays at Belle [4] represents an important step forward. The analysis, performed on 24.7 fb−1 of
+data collected at the Υ(2𝑆) resonance, provides new information on the strong interaction dynamics
+governing heavy–quark bound states and tests theoretical predictions in the charm–strange sector.
+     Born cross-section measurements have been shown at this conference, showing that strong
+decays dominate in the Υ(2𝑆) → 𝐷 𝑠(∗)+ 𝐷 𝑠− process.
+
+
+                                                   2
+Recent Hadron Spectroscopy Results from the Belle and Belle II experiments         Elisabetta Prencipe
+
+
+3.1 The 𝐷 ∗𝑠0 (2317) + puzzle
+       The 𝐷 ∗𝑠0 (2317) + remains one of the most intriguing states in the charm–strange spectrum [5–
+13]. Its mass is significantly lower than predicted by quark–model calculations, suggesting a
+possible non-conventional structure, such as a 𝐷𝐾 molecular component or a mixed 𝑐 𝑠¯–molecule
+configuration.
+       A new analysis combining Belle (983 fb−1 ) and Belle II (427.9 fb−1 ) data reconstructs the decay
+𝐷 ∗𝑠0 (2317) + → 𝐷 ∗𝑠 𝛾, with the goal of providing a precise mass measurement and branching fraction
+determination. The combined luminosity of 1.41 ab−1 makes this the most sensitive study to date,
+offering stringent constraints on theoretical models. The relative BR evaluated quotes the ratio R =
+BR( 𝐷 ∗𝑠0 (2317) + → 𝐷 ∗+              ∗        +       + 0
+                           𝑠 𝛾)/BR( 𝐷 𝑠0 (2317) → 𝐷 𝑠 𝜋 ) = (7.14 ± 0.70 ± 0.23)%. In conventional
+quark-model interpretations, the radiative decay is expected to dominate over the isospin-violating
+transition, with predicted branching fractions typically in the 10–50% range, while in the tetraquark
+or in th DK-molecular model is expected to be 1-10%. This measurement represents a direct test of
+the internal structure of the 𝐷 ∗𝑠0 (2317) + .
+
+3.2 From 𝑐 𝑠¯ mesons to tetraquarks: search for 𝑐𝑐 𝑠¯𝑠¯
+     The transition from conventional 𝑐 𝑠¯ spectroscopy to the search for multiquark states is a natural
+extension of the Belle II spectroscopy physics program. Belle has performed the first measurement
+of the processes 𝑒 + 𝑒 − → 𝐷 +𝑠 𝐷 ∗𝑠0 (2317) − 𝑋 and 𝑒 + 𝑒 − → 𝐷 +𝑠 𝐷 𝑠1 (2460) − 𝑋 in the continuum. No
+evidence for resonant structures was found up to 980 fb−1 . These results provide essential input for
+refining models of tetraquark production and constrain the possible existence of 𝑐𝑐 𝑠¯𝑠¯ states.
+     The precise measurement of the mass difference Δ𝑀 = 𝑀 (𝐷 𝑠1 (2460)) − 𝑀 (𝐷 ∗𝑠0 (2317)) also
+offers a sensitive probe of chiral symmetry breaking in heavy–light systems. In this preliminary
+work we summarize our results in Fig. 1, in comparison with literature.
+
+4. Search for pentaquarks
+
+4.1 Search in the 𝑝𝐽/𝜓 final state
+     Belle has performed an inclusive search for pentaquark candidates in the 𝑝𝐽/𝜓 final state using
+Υ(1𝑆) and Υ(2𝑆) data, corresponding to a total integrated luminosity of 30.5 fb−1 , supplemented
+by 89 fb−1 collected 60 MeV below the Υ(4𝑆) peak [14]. The analysis reconstructs 𝑃𝑐 candidates
+inclusively on the recoil of the rest of the event, while suppressing Bhabha background and reflection
+peaks by imposing 𝑀 2 ( 𝑝𝐽/𝜓) > 10 GeV2 /𝑐4 .
+     No significant signal was observed for the 𝑃𝑐 (4312) + , 𝑃𝑐 (4440) + , or 𝑃𝑐 (4457) + states. These
+results provide important constraints on the production of hidden-charm pentaquarks in 𝑒 + 𝑒 −
+collisions (see Fig. 2).
+
+4.2 Search in the Λ𝐽/𝜓 final state
+     A complementary analysis investigates the Λ𝐽/𝜓 final state in Υ(1𝑆) and Υ(2𝑆) decays [15].
+This study reports the first observation of the decays Υ(1𝑆) → Λ𝐽/𝜓 and Υ(2𝑆) → Λ𝐽/𝜓, and
+finds evidence at the 3.8𝜎 level for the 𝑃𝑐𝑠 (4459) 0 state. This constitutes the first indication of a
+strange pentaquark candidate in an 𝑒 + 𝑒 − environment, providing an important cross-check of the
+
+
+                                                   3
+Recent Hadron Spectroscopy Results from the Belle and Belle II experiments              Elisabetta Prencipe
+
+
+
+
+Figure 1: Comparison between the preliminary Δ𝑀 mesurement proposed in this work (red rectangle) and
+what exists in literature (blue rectangles, from other experiments as indicated). The analysis is presented in
+Sec. 3.2.
+
+
+
+
+Figure 2: Fit result including 𝑃𝑐+ (4312), 𝑃𝑐+ (4440), and 𝑃𝑐+ (4457). Υ(1𝑆) and Υ(2𝑆) data are used. This
+anaylsis is introduced in Sec. 4.1.
+
+
+
+
+LHCb observations (see Fig. 3). The fitted parameters in this analysis are: M = (4471.7 ± 4.8 ±
+0.6) MeV/𝑐2 and Γ = (21.9 ± 13.1 ± 2.7) MeV. The excess of events is seen with 3.8𝜎 statistical
+significance. This is the evidence at Belle of the 𝑃𝑐𝑠 (4459) 0 , and it is compatible with the former
+LHCb report on the same resonance.
+
+
+                                                      4
+Recent Hadron Spectroscopy Results from the Belle and Belle II experiments          Elisabetta Prencipe
+
+
+
+
+Figure 3: Study of the 𝐽/𝜓Λ invariant mass presented in Sec. 4.2. First evidence for the 𝑃𝑐𝑠 (4459) 0 is
+shown using Υ(1𝑆) and Υ(2𝑆) data sets at Belle.
+
+5. Baryon spectroscopy
+
+5.1 The Ω(2012)
+     The Ω(2012) baryon was first observed by Belle in two-body decays (Ξ𝐾) [16]. A new analysis
+of three-body decays Ξ− 𝜋 + 𝐾 − [17] strongly suggests a quantum number assignment of 𝐽 𝑃 = 3/2− ,
+having measured the ratio of couplings 𝑔𝑔32 = 22.9+17.9
+                                                  .22.4 ± 2.2. The two-body decay modes have also
+been remeasured, improving the precision on the branching fractions.
+
+5.2 Charmed baryons
+     Belle II has searched for charmed baryons decaying to Λ𝑐 𝜂 using 364 fb−1 of data, finding no
+significant excess, in agreement with expectations [18]. Belle has also studied the substructure of
+Λ+𝑐 → Λ𝜋 + 𝜋 − 𝜋 + using 980 fb−1 , observing a clear enhancement near the 𝑁𝐾 threshold. Further
+data from Belle II will be essential to determine whether this structure corresponds to a cusp or
+a genuine resonance. A combined Belle + Belle II analysis has led to the first observation of
+the decays 𝐵+/0 → Σ𝑐 (2455) ++/0 Ξ̄𝑐−/0 , with branching fractions consistent with diquark-model
+expectations (see Fig. 4).
+
+6. Bottomonium physics
+
+6.1 Energy scan studies
+     Belle II performed its first energy scan in November 2021, collecting 20 fb−1 of data [22].
+The goal was to study the Υ(10753) region and the 𝐵∗ 𝐵∗ threshold. The scan revealed that the
+Υ(10753) and Υ(5𝑆) exhibit different line-shape patterns, suggesting a more complex structure
+than previously assumed. Studies of exclusive processes such as 𝑒 + 𝑒 − → 𝜔 𝜒𝑏𝐽 , and 𝑒 + 𝑒 − → 𝐵𝐵,
+𝐵𝐵∗ , 𝐵∗ 𝐵∗ have been reported in Refs. [23, 24].
+
+6.2 Radiative and hadronic transitions
+     Belle II has searched for radiative transitions 𝑒 + 𝑒 − → 𝛾 𝜒𝑏𝐽 without finding significant signals,
+indicating that the D-wave component of the Υ(10753) may be small. A recent study reports an
+
+
+                                                   5
+Recent Hadron Spectroscopy Results from the Belle and Belle II experiments                Elisabetta Prencipe
+
+
+
+
+  Figure 4: Distributions of 𝑀 (Λ+𝑐 𝜋 ± ) for 𝐵+ → Σ𝑐 (2455) ++ Ξ̄𝑐− (left) and 𝐵0 → Σ𝑐 (2455) 0 Ξ̄0𝑐 (right).
+
+
+observation above 6𝜎 and suggests that the signal cannot originate solely from the Υ(10753) or
+Υ(5𝑆). The data indicate the possible presence of a new state near 10.60 GeV, consistent with earlier
+evidence in the 𝐵∗ 𝐵∗ channel. In this analysis, 4 samples were collected near the Υ(10753). We
+obtained confirmation of the evidence already found in the 𝑒 + 𝑒 − → 𝐵+ 𝐵 . inelastic decay channel
+(see Fig. 5).
+
+
+7. Precision measurements
+
+7.1 Mass difference between 𝐵0 and 𝐵+
+
+    A new measurement of the mass difference Δ𝑀 = 𝑀 (𝐵0 ) − 𝑀 (𝐵+ ) combines 571 fb−1 of
+Belle data with 365 fb−1 from Belle II [26]. The result,
+
+
+                                                       6
+Recent Hadron Spectroscopy Results from the Belle and Belle II experiments         Elisabetta Prencipe
+
+
+
+
+                Figure 5: Measured Born cross sections of the 𝑒 + 𝑒 − → 𝜂Υ(2𝑆) process
+
+
+
+
+                                Δ𝑀 = (0.495 ± 0.024 ± 0.005) MeV,
+
+     provides a precise test of isospin symmetry breaking and contributes to improved modeling
+of 𝐵-meson decays. The analysis also measures the ratio 𝑅 = 𝜎(𝐵0 𝐵¯ 0 )/𝜎(𝐵+ 𝐵 − ), demonstrating
+that the phase-space assumption used by BaBar is excluded at the 10𝜎 level.
+
+7.2 Contribution to (𝑔 − 2) 𝜇
+     Belle has recently measured the cross section of 𝑒 + 𝑒 − → 𝜋 + 𝜋 − 𝜋 0 [27], providing new input to
+the hadronic vacuum polarization (HVP) contribution to the muon anomalous magnetic moment.
+This measurement helps reduce the theoretical uncertainty in the Standard Model prediction of 𝑎 𝜇 .
+Using solely the Belle result, we obtained in this analysis 𝑎 𝐿𝑂,𝐻
+                                                              𝜇
+                                                                   𝑃𝑉 ,3 𝜋
+                                                                           (0.62 − 1.8𝐺𝑒𝑉) = (48.91 ±
+                          −10
+0.25𝑠𝑡 𝑎𝑡 ± 1.07𝑠𝑦𝑠 ) × 10 , which is 6.5% higher than the global fit result, with 2.5𝜎 statistical
+significance. This discrepancy corresponds to 10% of the difference Δ𝑎 𝜇 = 𝑎 𝜇 (𝐸𝑥 𝑝) − 𝑎 𝜇 (𝑆𝑀) =
+2.5 × 10−10 , SM = Standard Model theoretical value.
+
+
+8. Summary
+
+     Although Belle ceased operations in 2010, its data continue to produce high-impact results.
+The combination of Belle and Belle II data sets, now exceeding 1.5 ab−1 , has enabled new precision
+measurements and searches for exotic hadrons. Belle II has already collected 575 fb−1 and will
+resume data taking in late 2025, with a long-term goal of 50 ab−1 . The results presented here
+demonstrate the strong potential of the Belle II program in spectroscopy, from multiquark searches
+to bottomonium physics and precision measurements.
+
+
+References
+
+ [1] Belle Collaboration, Phys. Rev. Lett. 91, 262001 (2003).
+
+ [2] Belle Collaboration, Phys. Rev. Lett. 100, 142001 (2008).
+
+
+                                                   7
+Recent Hadron Spectroscopy Results from the Belle and Belle II experiments      Elisabetta Prencipe
+
+
+ [3] Belle Collaboration, Phys. Rev. D 90, 112009 (2014).
+
+ [4] Belle Collaboration, Phys. Rev. D 108, 112015 (2023).
+
+ [5] BaBar Collaboration, Phys. Rev. Lett. 90, 242001 (2003).
+
+ [6] CLEO Collaboration, Phys. Rev. D 68, 032002 (2003).
+
+ [7] Belle Collaboration, Phys. Rev. Lett. 92, 012002 (2004).
+
+ [8] S. Godfrey and N. Isgur, Phys. Rev. D 32, 189 (1985).
+
+ [9] T. Barnes, F. E. Close and H. J. Lipkin, Phys. Rev. D 68, 054006 (2003).
+
+[10] H. Y. Cheng and W. S. Hou, Phys. Lett. B 566, 193 (2003).
+
+[11] H.-J. Kim and H.-C. Kim, Prog. Theor. Exp. Phys. 2024, 073D01 (2024).
+
+[12] H.-J. Kim and H.-C. Kim, arXiv:2310.13370 (2024).
+
+[13] T.-C. Wu and L.-S. Geng, Phys. Rev. D 108, 014015 (2023).
+
+[14] Belle Collaboration, JHEP 09, 048 (2025).
+
+[15] Belle Collaboration, arXiv:2502.09951 (2025).
+
+[16] Belle Collaboration, Phys. Rev. Lett. 121, 052003 (2018).
+
+[17] Belle Collaboration, Phys. Lett. B 8, 139224 (2025).
+
+[18] Belle II Collaboration, Belle II Conference Proceedings (2025).
+
+[19] Belle Collaboration, Phys. Rev. Lett. 130, 151903 (2023).
+
+[20] Belle and Belle II Collaborations, arXiv:2507.05094 (2025).
+
+[21] Belle II Collaboration, JHEP 03, 061 (2025).
+
+[22] Belle II Collaboration, Phys. Rev. Lett. 130, 091902 (2023).
+
+[23] Belle II Collaboration, JHEP 08, 131 (2023).
+
+[24] Belle II Collaboration, JHEP 10, 114 (2024).
+
+[25] Belle II Collaboration, arXiv:2509.01917 (2025).
+
+[26] Belle and Belle II Collaborations, Phys. Rev. D 78, 011103 (2023).
+
+[27] Belle Collaboration, arXiv:2420.04915 (2024).
+
+
+
+
+                                                   8
+

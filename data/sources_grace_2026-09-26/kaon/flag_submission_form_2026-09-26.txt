@@ -1,0 +1,64 @@
+Submission form - FLAG
+Toggle sidebar
+Toggle navigation
+Comments
+Immutable Page
+Search:
+Menu
+Navigation
+RecentChanges
+FindPage
+Local Site Map
+Help
+HelpContents
+HelpOnMoinWikiSyntax
+Display
+Attachments
+Info
+Raw Text
+Print View
+Edit
+Load
+Save
+Login
+FLAG 2027
+Submission form
+Figures for download
+Quark masses
+$V_{ud}$ and $V_{us}$
+Kaon mixing
+$\small{D}$-meson decay constants and form factors
+$\small{B}$-meson decay constants, mixing parameters, and form factors
+The strong coupling $\alpha_s$
+Nucleon matrix elements
+Scale setting
+Navigation
+RecentChanges
+FindPage
+HelpContents
+Flag
+:
+Submission form
+Last updated at 2026-07-02 13:14:24
+Submission form
+The Flavour Lattice Averaging Group (FLAG) would like to inform you
+that the deadline for publications to be included in the next review
+is 30 April 2027. We expect to make the next FLAG Review public
+in October that year.
+Quantities to be reviewed include the light and heavy quark masses,
+kaon and pion decay constants and form factors, kaon mixing parameters, D-meson decay
+constants and form factors, B-meson decay constants, mixing parameters
+and form factors, the strong coupling alpha_s, quantities related to
+nuclear matrix elements, and quantities related to scale setting. In addition we also plan to resume reviewing low-energy constants.
+As usual, the working groups will do their best to search the literature for relevant work.
+In order to ensure that your work is not missed, you can alert the working groups to your papers by submitting the relevant information via a form.
+The form is accessible
+here
+.
+Flag: Submission form  (last edited 2026-07-02 13:14:24 by
+FlagAdmin
+)
+MoinMoin Powered
+Python Powered
+GPL licensed
+Valid HTML 4.01

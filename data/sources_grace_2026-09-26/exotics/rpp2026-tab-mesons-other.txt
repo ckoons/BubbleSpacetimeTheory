@@ -1,0 +1,141 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+                              OTHER MESONS
+ Tcc1 (3900)                                          I G (J PC ) = 1+ (1 + − )
+
+was Zc (3900), X (3900)
+                 Mass m = 3886.7 ± 2.3 MeV (S = 1.7)
+                 Full width Γ = 29.5 ± 2.4 MeV
+
+Tcc1 (3900) DECAY MODES                            Fraction (Γi /Γ)                              p (MeV/c)
+
+J/ψ π                                              seen                                               699
+hc π ±                                             not seen                                           318
+ηc π + π −                                         not seen                                           758
+ηc (1S)ρ(770)±                                     seen                                                 –
+(D D ∗ )±                                          seen                                                 –
+   D 0 D ∗− + c.c.                                 seen                                               152
+   D − D ∗0 + c.c.                                 seen                                               143
+ω π±                                               not seen                                           1862
+J/ψ η                                              not seen                                           510
+D + D ∗− + c.c                                     seen                                                 –
+D 0 D ∗0 + c.c                                     seen                                                 –
+
+
+ Tcc (4020)                                           I G (J PC ) = 1+ (??− )
+
+was X (4020)
+              Mass m = 4024.1 ± 1.9 MeV
+              Full width Γ = 13 ± 5 MeV (S = 1.7)
+
+Tcc (4020) DECAY MODES                             Fraction (Γi /Γ)                              p (MeV/c)
+
+hc (1P)π                                           seen                                               450
+D∗ D∗                                              seen                                                85
+D D ∗ + c.c.                                       not seen                                           542
+ηc π + π −                                         not seen                                           872
+ηc (1S)ρ(770)±                                     not seen                                             –
+J/ψ(1S)π ±                                         not seen                                           811
+
+
+
+ Tcc1 (4430)+                                         I G (J PC ) = 1+ (1 + − )
+                                                      G, C need conﬁrmation.
+was Zc (4430), X (4430)±
+              Mass m = 4478 +   15
+                              − 17 MeV
+              Full width Γ = 189 ± 29 MeV
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 11:06
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+Tcc1 (4430)+ DECAY MODES                            Fraction (Γi /Γ)                              p (MeV/c)
+
+π + ψ(2S)                                           seen                                               711
+π + J/ψ                                             seen                                               1162
+
+
+
+ Tcccc (6900)0                                         I G (J PC ) = 0+ (2 + + )
+
+was X (6900)
+               Mass m = 6898 ± 12 MeV (S = 1.2)
+               Full width Γ = 161 ± 26 MeV
+
+Tcccc (6900)0 DECAY MODES                           Fraction (Γi /Γ)                              p (MeV/c)
+
+J/ψ J/ψ                                             seen                                                 –
+
+
+ Tbb1 (10610)                                          I G (J PC ) = 1+ (1 + − )
+
+was Zb (10610), X (10610)
+               Mass m = 10607.2 ± 2.0 MeV
+               Mass m = 10609 ± 6 MeV
+               Full width Γ = 18.4 ± 2.4 MeV
+
+Tbb1 (10610) DECAY MODES                            Fraction (Γi /Γ)                              p (MeV/c)
+
+Υ(1S) π +                                                 + 1.9 ) × 10−3
+                                                    ( 5.4 − 1.5                                        1077
+Υ(1S) π 0                                            not seen                                          1077
+Υ(2S) π +                                                 + 1.1 ) %
+                                                    ( 3.6 − 0.8                                        551
+Υ(2S) π 0                                            seen                                              552
+Υ(3S) π +                                                 + 0.8 ) %
+                                                    ( 2.1 − 0.6                                        207
+Υ(3S) π 0                                            seen                                              210
+hb (1P)π +                                                + 1.2 ) %
+                                                    ( 3.5 − 0.9                                        671
+
+hb (2P)π +                                                + 1.7 ) %
+                                                    ( 4.7 − 1.3                                        313
+B+ B0                                                not seen                                          504
+B + B ∗0 +     B ∗+ B 0                                   + 2.1 ) %
+                                                    (85.6 − 2.9                                          –
+
+
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 11:06
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+ Tbb1 (10650)                                         I G (J PC ) = 1+ (1 + − )
+                                                      I, G, C need conﬁrmation.
+was Zb (10650), X (10650)±
+              Mass m = 10652.2 ± 1.5 MeV
+              Full width Γ = 11.5 ± 2.2 MeV
+
+T     (10650) DECAY MODES                          Fraction (Γi /Γ)                              p (MeV/c)
+  bb1
+
+Υ(1S) π +                                                + 0.8 ) × 10−3
+                                                   ( 1.7 − 0.6                                        1117
+
+Υ(2S) π +                                                + 0.6 ) %
+                                                   ( 1.4 − 0.4                                        595
+
+Υ(3S) π +                                                + 0.7 ) %
+                                                   ( 1.6 − 0.5                                        259
+
+hb (1P)π +                                               + 2.9 ) %
+                                                   ( 8.4 − 2.4                                        714
+hb (2P)π +                                         (15 ± 4 ) %                                        360
+B+ B0                                               not seen                                          703
+B + B ∗0 +    B ∗+ B 0                              not seen                                            –
+B ∗+ B ∗0                                          (74 +  4
+                                                        −6 ) %                                        120
+
+
+
+
+https://pdg.lbl.gov                         Page 3                      Created: 6/1/2026 11:06
+

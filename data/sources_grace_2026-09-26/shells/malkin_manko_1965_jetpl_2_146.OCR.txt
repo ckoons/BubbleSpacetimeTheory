@@ -1,0 +1,162 @@
+=== PAGE p-1
+[3] V. Bargmann and E. P. Wigner, Proc. Nat. Ac. Sei. 34, 211 (1948).
+
+[4] M. A. B. Beg and A. Pais, Phys. Rev. Lett. 14, 509 (1965).
+
+[5] Delbourgo, Rashid, and Strathdee, Phys. Lett. 14, 719 (1965); R. Blankenbeckler et al.,
+Phys. Rev. Lett. 14, 518 (1965); R. Oehme, ibid 14, 664 (1965); Nguyen Van Hieu, JINR
+Preprint, 1965.
+
+[6] I. I. de Swart, Revs. Mod. Phys. 35, 916 (1963).
+
+(7] R. G. Goldstein and N. R. Lipshutz, Preprint, 1965.
+
+[8] V. Gupta and V. Singh, Phys. Rev. 135, 1442 (1964).
+
+SYMMETRY OF THE HYDROGEN ATOM
+
+I. A. Malkin and V. I. Man'ko
+Moscow Physico-technical Institute
+Submitted 8 July 1965
+
+In view of the success of the group approach to elementary-particle physics, questions
+connected with the symmetry of wave equations are presently attracting much attention.
+
+Fock [2] and Bargmann (2] have shown that in a Coulomb potential the wave functions be-
+longing to one level realize a finite-dimensional representation of a compact group O4, which
+has been regarded as the symmetry group for this problem.
+
+Barut et al. have shown in a recent paper [3] that the states of the discrete spectrum
+of the hydrogen atom form a basis of an infinite-dimensional representation of the deSitter
+algebra ( 4 +1). As shown by Thomas C4) the basis of the infinite-dimensional representa-
+tion of the deSitter group S is formed by matrix elements of representations of the compact
+group O4 contained in it.
+
+The purpose of the present paper is to show that the "symmetry group" of the hydrogen
+atom is the non-compact group Og, the Lie algebra of which is the algebra Ds, and to present
+a simple construction showing that the functions belonging to the discrete spectrum form a
+single infinite~dimensional irreducible representation of this algebra.
+
+Let p(x, + +x) satisfy the equation
+
+Ap = 0 (1)
+where A is a linear differential operator. We define as the symmetry group of Eq. (1) the ag-
+
+gregate of operators Mm forming an algebra closed against commutation and satisfying the con-
+dition
+
+[AM Jo = 0 (2)
+
+If m is a solution, then Mo is also a solution.
+As shown by Fock! 1] | the eigenfunctions of the discrete spectrum of the hydrogen atom,
+
+in the momentum representation and in the variables Cy (i= 1, ... 4)
+
+146
+=== PAGE p-2
+= 2 2,-l> 2 2\-1
+C= [2p,(po +P), Ca = (G6 - Bo)(p5 + P)
+
+are homogeneous harmonic polynomials of the variables Cs of degree N - 1 (N is the principal
+
+quantum number), i.e., they are solutions of the equation
+oa oa
+apa Ze, Fe, Fe, He. (3)
+ae” XS >%s a
+
+It is easy to check directly that the 15 operators
+
+. ) 3
+Ko US a ae)
+ae oe 2b, Se Bey 7 2s (4)
+
+Ps = <i st) I= be +1
+commute on the solutions of (3) with four-dimensional Laplacian A.
+The construction of the operators (4) was suggested to the authors by the analogy between
+Eq. (3) and the Klein-Gordon equation for a particle with zero mass [5,6] |
+We introduce the following operators
+
+= “Ls (ik = Lyeee 6), Ley = M;y (i,k = 1,-.4),
+
+(5)
+
+1 . _i .
+Lis = a(I, + iP); Leg, =-I, lig = a(P; + il,)
+
+which satisfy the standard commutation relations of the algebra Da
+(La bend = 1(85 Lyon + Sse ~ Osmice ~ Ose bam) (6)
+
+The noncompact group written out above is the symmetry group of the hydrogen atom in the sense
+of (1) and (2). The hydrogen-atom eigenfunctions corresponding to the principal quantum num
+
+ber N= n+ 1 can be realized as irreducible tensor degrees My ie in of the vector Cs (o;
+= 1), with I . a fully symmetrical tensor and 6, , -i7 , . = 0. We present a sum
+igineeein iis lylpeescein
+mary of the matrix elements of the operators (4) in this basis:
+Ty Tye et, 7 Ona i ii (7a)
+Leee"n mti ~2°°° on ntl
+n m1 n-1
+P. Il = s[anys Il. - 20 IL, | (7b)
+1 iy-.edin ii, igeeed shee hy, ys ized, 1 Tart tye 1 Feared,
+k=1 (j9k
+n n n
+M,. IT, . -)(8 I. . . - &, IW . a) (7c)
+n
+
+147
+=== PAGE p-3
+In (7b), (j,k) denotes summation over combinations of the n indices taken two at a time.
+0)
+
+The tensors Ty ipeeedy are normalized by the condition (7a) and ll = 1. ‘The operators
+I; and P transform the level N into N +1 and N - 1, respectively; this means that from any
+state we obtain in succession all the entire aggregate of states. That is to say, we have
+constructed an infinite-dimensional representation of the algebra of the operators (5) in the
+space H = € I”, where H is the direct sum of the spaces of the functions corresponding to
+the given space. This representation is irreducible, for if an invariant subspace were to
+exist, it would contain at least one tensor degree rr, action of which by the operators i,
+and P would yield ail the tensor degrees, i.e., the non-zero invariant subspace would coin-
+cide with all the space H. We present the values of the Casimir operators for this representa-
+
+tion.
+
+Co = Lyylyg =) Co = Cspemmp siMem’pn = 7 C4 = Li glaalntng = ~12
+
+The deSitter algebra S is a subalgebra of Dg, namely S 457 Ly (i,j =1,-..5). It is remark-
+able that the representation constructed above remains irreducible also with respect to a sub-
+
+algebra of S, as can be verified by letting the operators L, operate on 1. In addition, the
+
+2
+
+Casimir operator for the deSitter algebra is
+
+A _ lreepe 2°
+k
+We see therefore that
+“a _f n
+
+The second Casimir operator of the algebra S is equal to zero. This proves completely that the
+representation remains irreducible when we narrow down from Ds to the deSitter algebra. We
+note that the algebra Dg contains a subalgebra with the commutation relations of the algebra
+Ap, and therefore the levels of the hydrogen atom can also be classified with the aid of ir-
+reducible representations of this algebra.
+
+The authors are deeply grateful to A. M. Baldin, V. B. Berestetskii, A. A. Komar, A. M.
+Perelomov, V. S. Popov, and I. S. Shapiro for a discussion of the results of the work, and al-
+so to M. A. Naimark for useful advice and consultations.
+
+[1] V. Fock, Z. Physik 98, 145 (1935).
+
+[2] V. Bargmann, Z. Physik 99, 576 (1936).
+
+(3] Barut, Budini, and Fronsdal, Preprint TRIEST, Ic/65/34.
+
+[4] L. H. Thomas, Ann. of Math. 42, 113 (1960).
+
+[5] P. A. M. Dirac, Ann. of Math. 37, 429 (1936).
+
+[6] V. I. Ogievetskii and I. V. Polubarinov, JETP 37, 470 (1959), Soviet Phys. JETP 10, 335
+(1960).
+
+148

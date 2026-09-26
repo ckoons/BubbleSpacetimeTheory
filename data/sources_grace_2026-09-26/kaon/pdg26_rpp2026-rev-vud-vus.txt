@@ -1,0 +1,392 @@
+1                        67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+
+            67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+Revised August 2025 by E. Blucher (Chicago U.), G. D’Ambrosio (INFN, Napoli) and W.J.
+Marciano (BNL).
+    The Cabibbo-Kobayashi-Maskawa (CKM) [1,2] three-generation quark mixing matrix written in
+terms of the Wolfenstein parameters (λ, A, ρ, η) [3] nicely illustrates the orthonormality constraint
+of unitarity, as well as the central role played by λ.
+                                                                                             
+               Vud Vus Vub         1 − λ2 /2        λ      Aλ3 (ρ − iη)
+                                                                              4
+      VCKM =  Vcd Vcs Vcb  =       −λ         1 − λ2 /2    Aλ2       + O(λ ) .                           (67.1)
+                                                                    
+               Vtd Vts Vtb      Aλ3 (1 − ρ − iη)  −Aλ2          1
+
+That cornerstone parameter is a carryover from the two-generation Cabibbo angle, λ = sin(θCabibbo ) =
+Vus . Its value is an important component in tests of CKM unitarity.
+    Up until 2003, the precise value of λ was controversial, with kaon decays (specifically K → πeν)
+branching fractions suggesting [4] λ ≃ 0.220, while indirect determinations via Vud obtained from
+nuclear β-decays combined with unitarity preferred a somewhat larger λ ≃ 0.225 − 0.230. This
+difference implied a 2 - 2.5 sigma deviation from the first row unitarity requirement
+
+                                              |Vud |2 + |Vus |2 + |Vub |2 = 1,                               (67.2)
+
+a possible hint [5, 6] of new physics effects. Below, we describe the current status of Vud and Vus ,
+and their implication for the unitarity test in Eq. (67.2). (Since |Vub |2 ≃ 1.7 × 10−5 is negligibly
+small, it is ignored in this discussion.) Eq. (67.2) is currently the most stringent test of unitarity in
+the CKM matrix. As we shall see, it is again showing signs of a possible 2 to 3 sigma inconsistency.
+67.1 Vud
+    Precise values of Vud have been obtained from superallowed nuclear, neutron, and pion beta
+decays. Currently, the best determination of Vud comes from analysis of a set of 15 precisely
+measured superallowed nuclear beta-decays [5, 6] (0+ → 0+ transitions). Measuring their half-
+lives, t, and Q values gives the decay rate factors, f , which lead to a precise determination of Vud
+via [7–12]. Based on several decades of dedicated studies, Hardy and Towner recently updated the
+average of the half-life, Ft, [6]
+
+                        K               2912.95 ± 0.54
+    |Vud |2 =                       =                  = 0.94815 ± 0.00060             for ∆VR = 2.454(19)%, (67.3)
+                2G2F (1 + ∆V
+                           R )Ft              Ft
+
+where K/(~c)6 = 2π 3 ~ ln 2/(me c2 )5 = 8120.27648(26) × 10−10 GeV −4 s, ∆VR denotes the so-called
+inner or universal electroweak radiative corrections (RC) to superallowed nuclear beta decays.
+A dispersion relation (DR) calculational approach [13] to quantum loop corrections, specifically
+the gamma-W box diagram, gives ∆VR = 0.02467(22). Actually the authors of Ref. [13–19] have
+combined the different theoretical calculations leading to ∆VR = 0.02467(27) and
+
+                         Vud = 0.97367(11)exp (13)∆V (27)NS (32)total (superallowed) .                       (67.4)
+                                                          R
+
+
+    As a result of its small uncertainty and more rigorous theoretical footing, we use this value
+below. A somewhat different approach [16] found ∆VR = 0.02426(32). These recent values are
+roughly consistent. Both are larger than the 2018 PDG value of 0.02361(38). Implications and
+possible nuclear physics modifications of those studies are still under scrutiny [20–24]. Note that an
+
+                      F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+                                                     1st June, 2026 11:11am
+2                  67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+
+additional uncertainty (54)NS from nuclear structure (NS) [21] has been recently included [6] in that
+master formula. This recent determination of Vud has shifted significantly down compared to the
+2018 PDG value of 0.97420(21). In addition, NS uncertainties are now the dominant contribution to
+the overall uncertainty. Taken at face value, along with current Vus determinations (see subsection
+67.2), the reduced Vud would seem to violate the first row unitarity requirement, and thus suggest
+the presence of deviations from unitarity or unaccounted uncertainties.
+    Measurements of the neutron lifetime, τn , and the ratio of axial-vector/vector couplings, gA ≡
+GA /GV , via neutron decay asymmetries combined with the inner radiative corrections can also be
+used to determine Vud via the precise formula [14, 25]
+
+                                                     5099.33 s
+                                  |Vud |2 =                            ,                      (67.5)
+                                              τn (1 + 3gA 2 )(1 + ∆R )
+
+where ∆R = 0.03983(27) represents radiative corrections [14]. We present the Vud results using
+either the the current published world averages [26] or the best measured values for λ [27] and for
+τn [28]. The average leads to
+
+                            τnave = 879.4(6) s (1.6 PDG scale factor)
+                             ave
+                            gA   = 1.2756(13), (2.6 PDG scale factor),                        (67.6)
+
+                            n,P DG
+                          |Vud     | = 0.97441(28)τn (82)λ (13)∆R (88)TOT ,                   (67.7)
+
+while the best values lead to
+
+                             n,best
+                           |Vud     | = 0.97413(20)τn (35)λ (13)∆R (42)TOT .                  (67.8)
+
+Both central values are similar to the superallowed nuclear beta decay result reported above. Rec-
+onciliation with CKM unitarity suggests a shorter neutron lifetime near 878.5 s or a smaller gA . We
+note that the most precise recent neutron lifetime update reported [28], τn = 877.75(34) s, has an
+uncertainty about half as big as the average given in Eq. 67.6. It corresponds to |Vud | = 0.9746(8),
+a value more in keeping with unitarity expectations; but too large an uncertainty from gA to be
+meaningful. Future neutron studies [29, 30] are expected to resolve any current inconsistencies and
+further reduce the uncertainties in gA and τn making them a potentially better way to determine
+Vud without the nuclear physics uncertainties.
+     The PIBETA experiment at PSI measured the very small (O(10−8 )) branching ratio for π + →
+π o e+ νe with about ±0.6% precision. Its result gives [31]
+
+                                                  "                        #1
+                                                BR(π + → e+ νe (γ))         2
+                            |Vud | = 0.9739(27)                                 ,             (67.9)
+                                                  1.2325 × 10−4
+
+which is normalized using the very precisely measured BR(π + → e+ νe (γ)) = 1.2325(23) × 10−4 [7],
+rather than the theoretical branching ratio of 1.2350(2) × 10−4 , which if used, would increase
+|Vud | to 0.9749(27). Theoretical uncertainties in pion beta decay are very small [32], leaving open
+more than an order of magnitude improvement of its experimental branching ratio before theory
+uncertainties become a problem. Although challenging, improved measurements of pion beta decay
+currently under discussion would allow this decay mode to compete with superallowed beta decays
+and future neutron decay efforts for the most precise direct |Vud | determination.
+
+                                              1st June, 2026
+3                   67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+
+67.2 Vus
+   |Vus | may be directly obtained from kaon decays, hyperon decays, and tau decays. Early
+determinations most often used K`3 decays:
+
+                                   G2F MK
+                                        5
+                       ΓK`3 =                       `
+                                          SEW (1 + δK + δSU 2 )C 2 |Vus |2 f+2 (0)IK
+                                                                                   `
+                                                                                     .          (67.10)
+                                   192π 3
+Here, ` refers to either e or µ, GF is the Fermi constant, MK is the kaon mass, SEW is the short-
+distance radiative correction, δK ` is the mode-dependent long-distance radiative correction, f (0) is
+                                                                                                  +
+the calculated form factor at zero momentum transfer for the `ν system, and IK      ` is the phase-space
+
+integral, which depends on measured semileptonic form factors. For charged kaon decays, δSU 2
+is the deviation from one of the ratio of f+ (0) for the charged to neutral kaon decay; it is zero
+for the neutral kaon. C 2 is 1 (1/2) for neutral (charged) kaon decays. Most early determinations
+of |Vus | were based solely on K → πeν decays; K → πµν decays were not used because of large
+                    µ
+uncertainties in IK   . The experimental measurements are the semileptonic decay widths (based
+on the semileptonic branching fractions and lifetime) and form factors (allowing calculation of the
+phase space integrals). Theory is needed for SEW , δK     ` , δ
+                                                                SU 2 , and f+ (0).
+    Many measurements during the last 20 years have resulted in a shift in |Vus |. Most importantly,
+the K → πeν branching fractions are significantly different than much earlier PDG averages,
+probably as a result of inadequate treatment of radiation in older experiments. This effect was first
+observed by BNL E865 [33] in the charged kaon system and then by KTeV [34,35] in the neutral kaon
+system; subsequent measurements were made by KLOE [36–39], NA48 [40–42], and ISTRA+ [43].
+Current averages (e.g., by the PDG [44] or Flavianet [45]) of the semileptonic branching fractions
+are based only on recent, high-statistics experiments where the treatment of radiation is clear.
+In addition to measurements of branching fractions, new measurements of lifetimes [46] and form
+factors [47–51], have resulted in improved precision for all of the experimental inputs to |Vus |.
+Precise measurements of form factors for Kµ3 decay make it possible to use both semileptonic
+decay modes to extract Vus .
+    Following the analysis of Moulson [25,52] and the Flavianet group [45,53,54], along with recent
+improvements in the QED radiative corrections [55], one finds [56], after including the isospin
+violating effect, δSU 2 , the values of |Vus |f+ (0) in Table 67.1. The average of these measurements,
+including correlation effects [25, 56–58] gives [14]
+
+                              f+ (0)|Vus | = 0.21656(35)         FLAVIANET                      (67.11)
+
+where the errors correspond to kaon experimental parameters and radiative corrections, respec-
+tively, leading, as we shall see, to |Vus | = 0.22330(35)exp (39)LAT (8)RC+IB (53)T OT .
+    Lattice QCD calculations of f+ (0) have been carried out for 2, 2+1, and 2+1+1 quark flavors
+and range from about 0.96 to 0.97. Here, we illustrate recent FLAG (2020) updated averages [59]
+for 2+1 and 2+1+1 flavors:
+
+                                    f+ (0) = 0.9677(27) Nf = 2 + 1
+                                    f+ (0) = 0.9698(17) Nf = 2 + 1 + 1                          (67.12)
+
+Updating the result for Nf = 2 + 1 + 1 we obtain for Vus from Eq. (67.11) and Eq. (67.12),
+
+                  |Vus | = 0.2238(4)exp+RC (6)lattice (Nf = 2 + 1, K`3 decays)
+                        = 0.22330(4)exp+RC (4)lattice (Nf = 2 + 1 + 1, K`3 decays)              (67.13)
+
+based on ref. [25] and ref. [56]
+
+                                                1st June, 2026
+4                 67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+
+                     Table 67.1: |Vus |f+ (0) from K`3, based on ref. [25, 56]
+
+                    Decay Mode                                          |Vus |f+ (0)
+                    K ± e3                                              0.2169(6)
+                    K ± µ3                                              0.2168(10)
+                    KL e3                                               0.2162(5)
+                    KL µ3                                               0.2165(6)
+                    KS e3                                               0.2169(8)
+                    KS µ3                                               0.2125(47)
+                    Average (including correlation effects [25, 56])    0.21656(35)
+
+
+  A value of Vus can also be obtained from a comparison of the radiative inclusive decay rates for
+K → µν(γ) and π → µν(γ) combined with a lattice gauge theory calculation of fK + /fπ+ via
+                                                                        1
+                           |Vus |fK +               Γ (K → µν(γ))
+                                                      
+                                                                         2
+                                      = 0.23871(20)                                        (67.14)
+                           |Vud |fπ+                Γ (π → µν(γ))
+with the small error coming from electroweak radiative corrections [60–62]; these corrections were
+confirmed by direct lattice calculation of the kaon and pion leptonic decay rates [61, 62].
+   A recent fit [14, 25] gives
+                                |Vus |fK +
+                                           = 0.27679(28)BR (20)corr .                      (67.15)
+                                |Vud |fπ+
+Employing the FLAG [59] lattice QCD averages for the isospin broken decay constants
+                               fK +
+                                    = 1.1978(22) Nf = 2 + 1 + 1                            (67.16)
+                               fπ+
+leading to
+                        |Vus |
+                               = 0.23108(51) (Nf = 2 + 1 + 1, Kµ2 decays).                 (67.17)
+                        |Vud |
+Actually we can average the Cabibbo angle determinations from kaons: from K`3 decays in eqs.
+67.11, 67.12 and from Kµ2 in eqs. 67.15, 67.16 with Nf = 2 + 1 + 1. Assuming 20% correlation
+between (|Vus /Vud |fK /fπ ) and (fK /fπ ) we obtain
+                                   Vus = 0.22431(85)       S = 2.5.                        (67.18)
+The result shown in Eq. 67.18 is what we use when we consider the first row test of CKM unitarity.
+The quoted uncertainty includes a scale factor of 2.5 to account for the discrepancies between the
+values of Vus obtained from K`3 and Kµ2 decays.
+    This is the current status of the Cabibbo Angle determination from the kaon sector, and theo-
+retical and experimental progress is expected to clarify the situation soon.
+    It should be mentioned that hyperon decay fits suggest [63]
+                              |Vus | = 0.2250(27) (Hyperon Decays)                         (67.19)
+modulo SU(3) breaking effects that could shift that value up or down. We note that a representative
+effort [64] that incorporates SU(3) breaking found Vus = 0.226(5). Strangeness changing tau decays,
+averaging both inclusive and exclusive measurements, give [65, 66]
+                                |Vus | = 0.2207(14) (Tau Decays) ,                         (67.20)
+
+                                          1st June, 2026
+5                  67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+
+which differs by about 2 sigma from the kaon determination discussed above, and would, if com-
+bined with Vud from super-allowed beta decays, lead to a 4 sigma deviation from unitarity. This
+discrepancy results mainly from the inclusive tau decay results that rely on Finite Energy Sum
+Rule techniques and assumptions, as well as experimental uncertainties. Recent investigation of
+that approach suggests a larger value for Vus , which is more in accord with other determinations [67].
+    Employing the values of Vud and Vus with an error scale factor of 2 from Eq. (67.4) and the
+average obtained after rescaling the errors from mEq. 67.18 leads to the unitarity consistency check
+
+                               |Vud |2 + |Vus |2 + |Vub |2 = 0.9983(6)(4),                       (67.21)
+
+where the first error is the uncertainty from |Vud |2 and the second error is the uncertainty from the
+average |Vus |2 in Eq. 67.18 . One finds about an overall 2 sigma deviation from unitarity. (The
+deviation increases to 3 sigma if nuclear structure uncertainties are ignored.) That deviation could
+be due a problem with |Vud | theory (RC or NS), the lattice determination of f+ (0) or new physics.
+67.3 CKM Unitarity Constraints
+     The current 2 sigma experimental disagreement with unitarity, |Vud |2 +|Vus |2 +|Vub |2 = 0.9983(7),
+still provides strong confirmation of Standard Model radiative corrections (which range between
+3-4% depending on the nucleus used) at a high significance level [68]. In addition, it implies con-
+straints on “New Physics” effects at both the tree and quantum loop levels. Those effects could
+be in the form of contributions to nuclear beta decays, K decays and/or muon decays, with the
+last of these providing normalization via the muon lifetime [69], which is used to obtain the Fermi
+constant, Gµ = 1.1663787(6) × 10−5 GeV−2 .
+     In the following examples, we illustrate the implications of CKM unitarity for (1) exotic muon
+decays [70] (beyond ordinary muon decay µ+ → e+ νe ν̄µ ) and (2) new heavy quark mixing VuD [71].
+Other examples in the literature [72, 73] include Zχ boson quantum loop effects, supersymmetry,
+leptoquarks, compositeness etc.
+References
+ [1] N. Cabibbo, Phys. Rev. Lett. 10, 531 (1963).
+ [2] M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49, 652 (1973).
+ [3] L. Wolfenstein, Phys. Rev. Lett. 51, 1945 (1983).
+ [4] S. Eidelman et al. (Particle Data Group), Phys. Lett. B 592, 1-4, 1 (2004).
+ [5] I. Towner and J. Hardy, Rept. Prog. Phys. 73, 046301 (2010).
+ [6] J. C. Hardy and I. S. Towner, Phys. Rev. C 102, 4, 045501 (2020).
+ [7] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 71, 3629 (1993).
+ [8] A. Czarnecki, W. J. Marciano and A. Sirlin, Phys. Rev. D 70, 093006 (2004), [hep-ph/0406324].
+ [9] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 96, 032002 (2006), [hep-ph/0510099].
+[10] I. Towner and J. Hardy, Phys. Rev. C 77, 025501 (2008), [arXiv:0710.3181].
+[11] J. Hardy and I. Towner, Phys. Rev. C 79, 055502 (2009), [arXiv:0812.1202].
+[12] J. Hardy and I. Towner, Phys. Rev. C 91, 2, 025501 (2015), [arXiv:1411.5987].
+[13] C.-Y. Seng et al., Phys. Rev. Lett. 121, 24, 241804 (2018), [arXiv:1807.10197].
+[14] V. Cirigliano et al., Phys. Lett. B 838, 137748 (2023), [arXiv:2208.11707].
+[15] C.-Y. Seng, M. Gorchtein and M. J. Ramsey-Musolf, Physical Review D 100, 1 (2019), ISSN
+     2470-0029, URL http://dx.doi.org/10.1103/PhysRevD.100.013001.
+[16] A. Czarnecki, W. J. Marciano and A. Sirlin, Phys. Rev. D 100, 7, 073008 (2019),
+     [arXiv:1907.06737].
+
+                                            1st June, 2026
+6                  67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+
+[17] C.-Y. Seng et al., Physical Review D 101, 11 (2020), ISSN 2470-0029, URL http://dx.doi.
+     org/10.1103/PhysRevD.101.111301.
+[18] L. Hayen, Phys. Rev. D 103, 113001 (2021), URL https://link.aps.org/doi/10.1103/
+     PhysRevD.103.113001.
+[19] K. Shiells, P. G. Blunden and W. Melnitchouk, Phys. Rev. D 104, 033003 (2021), URL https:
+     //link.aps.org/doi/10.1103/PhysRevD.104.033003.
+[20] C. Y. Seng, M. Gorchtein and M. J. Ramsey-Musolf, Phys. Rev. D 100, 1, 013001 (2019),
+     [arXiv:1812.03352].
+[21] M. Gorchtein, Phys. Rev. Lett. 123, 4, 042503 (2019), [arXiv:1812.04229].
+[22] M. Gennari et al., Phys. Rev. Lett. 134, 1, 012501 (2025), [arXiv:2405.19281].
+[23] V. Cirigliano et al., Phys. Rev. Lett. 133, 21, 211801 (2024), [arXiv:2405.18469].
+[24] V. Cirigliano et al., Phys. Rev. C 110, 5, 055502 (2024), [arXiv:2405.18464].
+[25] M. Moulson, talk at CKM2023, https://indico.cern.ch/event/1184945/contributions/
+     5540813/attachments/2717802/4721036/CKM202023.pdf.
+[26] R. L. Workman et al. (Particle Data Group), PTEP 2022, 083C01 (2022).
+[27] B. Märkisch et al., Phys. Rev. Lett. 122, 24, 242501 (2019), [arXiv:1812.04666].
+[28] F. M. Gonzalez et al. (UCNτ ) (2021), [arXiv:2106.10375].
+[29] H. Abele, Prog. Part. Nucl. Phys. 60, 1 (2008).
+[30] D. Dubbers and B. Märkisch, Annual Review of Nuclear and Particle Science 71, 1, 139–163
+     (2021), ISSN 1545-4134, URL http://dx.doi.org/10.1146/annurev-nucl-102419-043156.
+[31] D. Pocanic et al., Phys. Rev. Lett. 93, 181803 (2004), [hep-ex/0312030]; A. Czarnecki, W. J.
+     Marciano and A. Sirlin, Phys. Rev. D 101, 9, 091301 (2020), [arXiv:1911.04685].
+[32] X. Feng et al., Phys. Rev. Lett. 124, 19, 192002 (2020), [arXiv:2003.09798].
+[33] A. Sher et al., Phys. Rev. Lett. 91, 261802 (2003), [hep-ex/0305042].
+[34] T. Alexopoulos et al. (KTeV), Phys. Rev. Lett. 93, 181802 (2004), [hep-ex/0406001].
+[35] T. Alexopoulos et al. (KTeV), Phys. Rev. D 70, 092006 (2004), [hep-ex/0406002].
+[36] F. Ambrosino et al. (KLOE), Phys. Lett. B 632, 43 (2006), [hep-ex/0508027].
+[37] F. Ambrosino et al. (KLOE), Phys. Lett. B 638, 140 (2006), [hep-ex/0603041].
+[38] F. Ambrosino et al. (KLOE), Phys. Lett. B 636, 173 (2006), [hep-ex/0601026].
+[39] B. Sciascia (KLOE), PoS HEP2005, 287 (2006), [hep-ex/0510028].
+[40] A. Lai et al. (NA48), Phys. Lett. B 602, 41 (2004), [hep-ex/0410059].
+[41] A. Lai et al. (NA48), Phys. Lett. B 645, 26 (2007), [hep-ex/0611052].
+[42] J. Batley et al. (NA48/2), Eur. Phys. J. C 50, 329 (2007), [Erratum: Eur.Phys.J.C 52, 1021–
+     1023 (2007)], [hep-ex/0702015].
+[43] V. Romanovsky et al. (2007), [arXiv:0704.2052].
+[44] K. Olive et al. (Particle Data Group), Chin. Phys. C 38, 090001 (2014).
+[45] M. Antonelli et al. (FlaviaNet Working Group on Kaon Decays), Eur. Phys. J. C 69, 399
+     (2010), [arXiv:1005.2323]; For a detailed review, see; M. Antonelli et al., Phys. Rept. 494, 197
+     (2010), [arXiv:0907.5386].
+[46] F. Ambrosino et al. (KLOE), Phys. Lett. B 626, 15 (2005), [hep-ex/0507088].
+[47] T. Alexopoulos et al. (KTeV), Phys. Rev. D 70, 092007 (2004), [hep-ex/0406003].
+
+                                           1st June, 2026
+7                  67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+
+[48] E. Abouzaid et al. (KTeV), Phys. Rev. D 74, 097101 (2006), [hep-ex/0608058].
+[49] F. Ambrosino et al. (KLOE), Phys. Lett. B 636, 166 (2006), [hep-ex/0601038].
+[50] A. Lai et al. (NA48), Phys. Lett. B 604, 1 (2004), [hep-ex/0410065].
+[51] O. Yushchenko et al., Phys. Lett. B 589, 111 (2004), [hep-ex/0404030].
+[52] M. Moulson, PoS CKM2016, 033 (2017), [arXiv:1704.04104].
+[53] E. Passemar, talk at CKM2018, https://zenodo.org/record/2565480.
+[54] Y. Aoki et al. (Flavour Lattice Averaging Group (FLAG)), Eur. Phys. J. C 82, 10, 869 (2022),
+     [arXiv:2111.09849].
+[55] C.-Y. Seng et al. (2021), [arXiv:2103.04843].
+[56] C.-Y. Seng et al. (2021), [arXiv:2107.14708].
+[57] C.-Y. Seng et al., JHEP 07, 071 (2022), [arXiv:2203.05217].
+[58] V. Cirigliano, talk at Cabibbo 60 - Convegno, Accademia Nazionale dei Lincei , https://www.
+     lincei.it/it/manifestazioni/cabibbo-60-convegno.
+[59] S. Aoki et al. (Flavour Lattice Averaging Group), Eur. Phys. J. C 80, 2, 113
+     (2020), [arXiv:1902.08191]; A. Bazavov et al., Phys. Rev. Lett. 112, 11, 112001 (2014),
+     [arXiv:1312.1228]; N. Carrasco et al., Phys. Rev. D 93, 11, 114512 (2016), [arXiv:1602.04113];
+     A. Bazavov et al., Phys. Rev. D 87, 073012 (2013), [arXiv:1212.4993]; P. A. Boyle et al.
+     (RBC/UKQCD), JHEP 06, 164 (2015), [arXiv:1504.01692]; A. Bazavov et al., Phys. Rev.
+     D 98, 7, 074512 (2018), [arXiv:1712.09262]; T. Blum et al. (RBC, UKQCD), Phys. Rev. D
+     93, 7, 074505 (2016), [arXiv:1411.7017]; R. Dowdall et al., Phys. Rev. D 88, 074504 (2013),
+     [arXiv:1303.1670]; N. Carrasco et al., Phys. Rev. D 91, 5, 054507 (2015), [arXiv:1411.7908];
+     E. Follana et al. (HPQCD, UKQCD), Phys. Rev. Lett. 100, 062002 (2008), [arXiv:0706.1726];
+     A. Bazavov et al. (MILC), PoS LATTICE2010, 074 (2010), [arXiv:1012.0868]; S. Durr et al.,
+     Phys. Rev. D 81, 054507 (2010), [arXiv:1001.4692]; S. Dürr et al., Phys. Rev. D 95, 5, 054513
+     (2017), [arXiv:1601.05998]; V. Bornyakov et al. (QCDSF), Phys. Lett. B 767, 366 (2017),
+     [arXiv:1612.04798].
+[60] V. Cirigliano and H. Neufeld, Phys. Lett. B 700, 7 (2011), [arXiv:1102.0563]; W. J. Marciano,
+     Phys. Rev. Lett. 93, 231803 (2004), [hep-ph/0402299].
+[61] D. Giusti et al., Phys. Rev. Lett. 120, 7, 072001 (2018), [arXiv:1711.06537].
+[62] M. Di Carlo et al., Phys. Rev. D 100, 3, 034514 (2019), [arXiv:1904.08731].
+[63] N. Cabibbo, E. C. Swallow and R. Winston, Phys. Rev. Lett. 92, 251803 (2004), [hep-
+     ph/0307214].
+[64] V. Mateu and A. Pich, JHEP 10, 041 (2005), [hep-ph/0509045].
+[65] Y. S. Amhis et al. (HFLAV) (2019), [arXiv:1909.12524].
+[66] Y. S. Amhis et al. (HFLAV), Phys. Rev. D 107, 5, 052008 (2023), [arXiv:2206.07501].
+[67] R. J. Hudspith et al., Phys. Lett. B 781, 206 (2018), [arXiv:1702.01767]; P. Boyle et al. (RBC,
+     UKQCD), Phys. Rev. Lett. 121, 20, 202003 (2018), [arXiv:1803.07228].
+[68] A. Sirlin, Rev. Mod. Phys. 50, 573 (1978), [Erratum: Rev.Mod.Phys. 50, 905 (1978)].
+[69] D. Webber et al. (MuLan), Phys. Rev. Lett. 106, 041803 (2011), [arXiv:1010.0991].
+[70] K. Babu and S. Pakvasa (2002), [hep-ph/0204236].
+[71] W. Marciano and A. Sirlin, Phys. Rev. Lett. 56, 22 (1986); P. Langacker and D. London,
+     Phys. Rev. D 38, 886 (1988).
+[72] W. Marciano and A. Sirlin, Phys. Rev. D 35, 1672 (1987).
+
+                                          1st June, 2026
+8                 67. Vud , Vus the Cabibbo Angle, and CKM Unitarity
+
+
+[73] R. Barbieri et al., Phys. Lett. B 156, 348 (1985); K. Hagiwara, S. Matsumoto and Y. Yamada,
+     Phys. Rev. Lett. 75, 3605 (1995), [hep-ph/9507419]; A. Kurylov and M. Ramsey-Musolf, Phys.
+     Rev. Lett. 88, 071804 (2002), [hep-ph/0109222]; S. Bauman, J. Erler and M. Ramsey-Musolf,
+     Phys. Rev. D 87, 3, 035012 (2013), [arXiv:1204.0035].
+
+
+
+
+                                         1st June, 2026
+

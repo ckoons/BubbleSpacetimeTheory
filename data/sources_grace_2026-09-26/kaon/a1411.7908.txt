@@ -1,0 +1,1016 @@
+                                             Leptonic decay constants fK , fD and fDs
+                                          with Nf = 2 + 1 + 1 twisted-mass lattice QCD
+
+                                                  N. Carrasco(a) , P. Dimopoulos(b,c) , R. Frezzotti(c,d) , P. Lami(e,a) ,
+                                                          V. Lubicz(e,a) , F. Nazzaro(c) , E. Picca(e,a) , L. Riggio(e,a) ,
+                                                   G.C. Rossi(b,c,d) , F. Sanfilippo(f ) , S. Simula(a) , C. Tarantino(e,a)
+
+
+
+
+arXiv:1411.7908v2 [hep-lat] 25 Feb 2015
+                                                                                    (a)
+                                                                                  INFN, Sezione di Roma Tre
+                                                                       Via della Vasca Navale 84, I-00146 Rome, Italy
+                                           (b)
+                                                 Centro Fermi - Museo Storico della Fisica e Centro Studi e Ricerche Enrico Fermi
+                                                      Compendio del Viminale, Piazza del Viminale 1 I00184 Rome, Italy
+                                                              (c)
+                                                                    Dipartimento di Fisica, Università di Roma “Tor Vergata”
+                                                                      Via della Ricerca Scientifica 1, I-00133 Rome, Italy
+                                                                              (d)
+                                                                                 INFN, Sezione di “Tor Vergata”
+                                                                      Via della Ricerca Scientifica 1, I-00133 Rome, Italy
+                                                    (e)
+                                                          Dipartimento di Matematica e Fisica, Università degli Studi Roma Tre
+                                                                   Via della Vasca Navale 84, I-00146 Rome, Italy
+                                                           (f )
+                                                                  School of Physics and Astronomy, University of Southampton,
+                                                                          SO17 1BJ Southampton, United Kindgdom
+
+
+
+
+                                                                                               1
+                                    Abstract
+    We present a lattice QCD calculation of the pseudoscalar decay constants
+fK , fD and fDs performed using the gauge configurations produced by the Euro-
+pean Twisted Mass Collaboration with Nf = 2 + 1 + 1 dynamical quarks, which
+include in the sea, besides two light mass degenerate quarks, also the strange
+and charm quarks with masses close to their values in the real world. The sim-
+ulations are based on a unitary setup for the two light mass-degenerate quarks
+and on a mixed action approach for the strange and charm quarks. We use data
+simulated at three different values of the lattice spacing in the range 0.06 ÷ 0.09
+fm and at pion masses in the range 210 ÷ 450 MeV. Our main results are:
+fK + /fπ+ = 1.184(16), fK + = 154.4(2.0) MeV, which incorporate the leading
+strong isospin breaking correction due to the up- and down-quark mass differ-
+ence, and fK = 155.0(1.9) MeV, fD = 207.4(3.8) MeV, fDs = 247.2(4.1) MeV,
+fDs /fD = 1.192(22) and (fDs /fD )/(fK /fπ ) = 1.003(14) obtained in the isospin
+symmetric limit of QCD. Combined with the experimental measurements of
+the leptonic decay rates of kaon, pion, D- and Ds -mesons our results lead to
+the following determination of the CKM matrix elements: |Vus | = 0.2269(29),
+|Vcd | = 0.2221(67) and |Vcs | = 1.014(24). Using the latest value of |Vud | from
+superallowed nuclear β decays the unitarity of the first row of the CKM matrix
+is fulfilled at the permille level.
+
+
+
+
+                                        2
+1       Introduction
+The leptonic decay constants of light and heavy pseudoscalar (PS) mesons are the cru-
+cial hadronic ingredients necessary for obtaining precise information on the Cabibbo-
+Kobayashi-Maskawa (CKM) quark-mixing matrix elements [1] within the Standard
+Model. Together with the experimental data for the ratio of decay rates Γ(K + →
+µ+ ν)/Γ(π + → µ+ ν) and with the average value of the CKM matrix element |Vud |
+from superallowed nuclear beta decays, the ratio fK + /fπ+ allows to determine the
+CKM matrix element |Vus | and to test the unitarity relation of the first-row of the
+CKM matrix (see Ref. [2] and references therein). The combination of the charmed-
+meson decay constants fD and fDs with the experimental measurements of the decay
+rates for D(Ds ) → µν and D(Ds ) → τ ν enables one to determine the CKM matrix
+elements |Vcd | and |Vcs | (see again Ref. [2] and references therein).
+    In this paper we present a lattice QCD calculation of the fK + , fD and fDs decay con-
+stants using the ensembles of gauge configurations produced by the European Twisted
+Mass (ETM) Collaboration with four flavors of dynamical quarks (Nf = 2 + 1 + 1),
+which include in the sea, besides two light mass-degenerate quarks, also the strange
+and the charm quarks with masses close to their values in the real world [3, 4, 5].
+    The gauge ensembles and the simulations used in this work are the same adopted
+in Ref. [6] to determine the up, down, strange and charm quark masses (see Tables 1-3
+of Ref. [6]), using the experimental value of the pion decay constant, fπ+ , to set the
+lattice scale1 . We employed the Iwasaki action [7] for gluons and the Wilson Twisted
+Mass Action [8, 9] for sea quarks. In order to avoid the mixing of strange and charm
+quarks in the valence sector we adopted the non-unitary set up described in Ref. [10],
+in which the valence strange and charm quarks are regularized as Osterwalder-Seiler
+(OS) fermions [11], while the valence up and down quarks have the same action of
+the sea. Working at maximal twist such a setup guarantees an automatic O(a)-
+improvement [9, 10]. We considered three values of the inverse bare lattice coupling
+β, which allow for a controlled extrapolation to the continuum limit, and different
+lattice volumes. For each gauge ensemble we simulated three values of the valence
+strange quark mass and six values of the valence heavy quark mass, which are needed
+for the interpolation in the charm region as well as to extrapolate to the b-quark sec-
+tor for future studies. For the light sector we simulated quark masses in the range
+3 mud . µ` . 12 mud , for the strange sector in 0.7 ms . µs . 1.2 ms , while for the
+charm sector in 0.7 mc . µc . 2.5 mc , where mud , ms and mc are the physical values of
+the average up/down, strange and charm quark masses, respectively, as determined in
+Ref. [6]. The lattice spacings were found to be a = {0.0885(36), 0.0815(30), 0.0619(18)}
+fm at β = {1.90, 1.95, 2.10} respectively, the lattice volume goes from ≃ 2 to ≃ 3 fm,
+and the pion masses, extrapolated to the continuum and infinite volume limits, range
+from ≃ 210 to ≃ 450 MeV (see Ref. [6] for further details).
+    We present our study of the PS meson decay constants using the results of the
+    1
+    With respect to Ref. [6] the number of gauge configurations adopted for the ensemble D15.48 has
+been increased to 90 to improve the statistics.
+
+
+                                                3
+eight branches of the analysis carried out in Ref. [6] for determining the up, down,
+strange and charm quark masses. The various branches are determined by: i) the
+choice of the scaling variable, which was taken to be either the Sommer parameter
+r0 /a [12] or the mass of a fictitious PS meson made of two strange-like quarks (or a
+strange-like and a charm-like quark), aMs0 s0 (or aMc0 s0 ); ii) the fitting procedures,
+which were based either on Chiral Perturbation Theory (ChPT) or on a polynomial
+expansion in the light quark mass (for the motivations see the discussion in Section
+3.1 of Ref. [6]); and iii) the choice between the methods M1 and M2 (which differ
+by O(a2 ) effects [13]) used to determine non-perturbatively the values of the mass
+renormalization constant (RC) Zm = 1/ZP .
+    After correcting for the leading strong isospin-breaking effect due the up- and
+down-quark mass difference, as determined in Ref. [6] at Nf = 2 + 1 + 1, the final
+results obtained for the kaon decay constant and the kaon to pion ratio are
+
+                                     fK + = 154.4 (2.0) MeV ,
+                                fK + /fπ+ = 1.184 (16) ,                                       (1)
+
+where the errors are the sum in quadrature of the statistical and systematic uncer-
+tainties. In the isospin symmetric limit of QCD we get
+
+                                            fK = 155.0 (1.9) MeV ,
+                                        fK /fπ = 1.188 (15) ,
+                                             fD = 207.4 (3.8) MeV ,
+                                            fDs = 247.2 (4.1) MeV ,
+                                       fDs /fD = 1.192 (22) ,
+                          (fDs /fD )/(fK /fπ ) = 1.003 (14) .                                  (2)
+
+
+2       Calculation of the kaon decay constant
+For each ensemble we computed the 2-point PS correlators given by
+                                  1 X
+                         C(t) =    3
+                                        h0| P5 (x)P5† (z) |0i δt,(tx −tz ) ,                   (3)
+                                  L x,z
+
+where P5 (x) = s(x)γ5 u(x)2 . At large time distances one has
+                                             ZK
+                                                e−MK t + e−MK (T −t) ,
+                                                                    
+                       C(t) −−−−−−−−−−−→
+                            ta, (T −t)a
+                                                                                               (4)
+                                            2MK
+    2
+     Notice that the Wilson parameters of the two valence quarks in any PS meson considered in this
+work are always chosen to have opposite values. In this way the squared PS meson mass differs from
+its continuum counterpart only by terms of O(a2 µ) [9, 14].
+
+
+                                                 4
+so that the kaon mass and the matrix element ZK = |hK|uγ5 s|0i|2 can be extracted
+from the exponential fit given in the r.h.s. of Eq. (4). The time intervals [tmin , tmax ]
+adopted for the fit (4) of the kaon correlation functions can be read off from Table 4 of
+Ref. [6]. There they have been determined in a very conservative way by requiring that
+the changes in the meson masses and decay constants due to a decrease in the value
+of tmin by one or two lattice units are well below the statistical uncertainty. As far
+as the charm sector is concerned, we have verified that the contamination of excited
+states turn out to be practically negligible. This conclusion can be inferred from the
+results of Ref. [15], where the decay constants of charmed pseudoscalar mesons have
+been computed, on the same lattice ensembles, by using Gaussian smeared operators.
+    For maximally twisted fermions the value of ZK determines the kaon decay constant
+fK without the need of the knowledge of any renormalization constant [16, 9], namely
+                                                  √
+                                                    a4 ZK
+                           afK = a(µ` + µs )                   ,                      (5)
+                                             aMK sinh(aMK )
+where µ` and µs are the light and strange bare quark masses, respectively.
+    The statistical accuracy of the correlators (3) is significantly improved by using the
+so-called “one-end” stochastic method [17], which includes spatial stochastic sources
+at a single time slice chosen randomly. Statistical errors on the kaon mass and decay
+constant are evaluated using the jackknife procedure.
+    In order to take into account cross-correlations we make use of the eight bootstrap
+samplings corresponding to the eight analyses of Ref. [6] described in Section 1. First,
+we perform a small interpolation of our lattice data to the value of the strange quark
+mass, ms , given in Table 13 of Ref. [6] for each analysis and corresponding to the
+average value ms = 99.6(4.3) MeV3 . Then, we analyze the dependence of the kaon
+decay constant as a function of the (renormalized) light quark mass m` ≡ (aµ` )/(aZP )
+and of the lattice spacing a, using fitting procedures based either on ChPT or on a
+polynomial expansion depending on the corresponding analysis of Ref. [6].
+    The next-to-leading order (NLO) SU(2) ChPT prediction for fK , including dis-
+cretization and finite size effects, reads as
+                                                             
+                                    3
+                    fK = P1 1 − ξ` log ξ` + P2 ξ` + P4 a · KfF SE ,
+                                                            2
+                                                                                       (6)
+                                    4
+where ξ` = 2Bm` /16π 2 f 2 , with B and f being the SU(2) low-energy constants (LECs)
+entering the LO chiral Lagrangian. The term proportional to a2 in Eq. (6) accounts
+for leading discretization effects. The factor KfF SE represents the correction for finite
+size effects (FSE) in the kaon decay constant, as computed in Ref. [18] within ChPT.
+    In the case of the polynomial expansion we adopt the following fit in ξ` :
+
+                       fK = P10 1 + P20 ξ` + P30 ξ`2 + P40 a2 · KfF SE .
+                                                             
+                                                                                       (7)
+
+  3
+    Throughout this work all the renormalized quark masses are given in the MS scheme at a renor-
+malization scale of 2 GeV.
+
+
+                                               5
+                                                                             0,28
+
+        0,45
+                                                                             0,26
+
+
+         0,4                                                                                                          4   3
+                                                                                                             β=1.90 V/a =32 x64
+ fKr0                                            4   3            fK/Ms´s´   0,24
+                                        β=1.90 V/a =32 x64
+                                                                                                                      4   3
+                                                                                                             β=1.90 V/a =24 x48
+                                                 4   3
+                                        β=1.90 V/a =24 x48
+                                                                                                                      4   3
+                                                                                                             β=1.95 V/a =32 x64
+                                                 4   3
+                                        β=1.95 V/a =32 x64
+                                                                                                                      4   3
+        0,35                                                                                                 β=1.95 V/a =24 x48
+                                                 4   3                       0,22
+                                        β=1.95 V/a =24 x48
+                                                                                                                      4   3
+                                                                                                             β=2.10 V/a =48 x96
+                                                 4   3
+                                        β=2.10 V/a =48 x96                                                   Continuum Limit
+                                        Continuum Limit
+         0,3                                                                  0,2
+               10   20             30      40            50                         10   20             30      40            50
+                         ml(MeV)                                                              ml(MeV)
+
+
+
+
+Figure 1: Chiral and continuum extrapolation of fK r0 (left) and fK /Ms0 s0 (right) based
+on the NLO ChPT fit of Eq. (6). Lattice data have been corrected for FSE following
+Ref. [18]. The green diamond represents the continuum limit evaluated at the average
+up/down quark mass mud = 3.70(17) MeV, while the open diamond corresponds to the
+up-quark mass mu = 2.36(24) MeV [6].
+
+                                                                             0,28
+
+        0,45
+                                                                             0,26
+
+
+         0,4                                                                                                          4   3
+                                                                                                             β=1.90 V/a =32 x64
+ fKr0                                            4   3            fK/Ms´s´   0,24
+                                        β=1.90 V/a =32 x64
+                                                                                                                      4   3
+                                                                                                             β=1.90 V/a =24 x48
+                                                 4   3
+                                        β=1.90 V/a =24 x48
+                                                                                                                      4   3
+                                                                                                             β=1.95 V/a =32 x64
+                                                 4   3
+                                        β=1.95 V/a =32 x64
+                                                                                                                      4   3
+        0,35                                                                                                 β=1.95 V/a =24 x48
+                                                 4   3                       0,22
+                                        β=1.95 V/a =24 x48
+                                                                                                                      4   3
+                                                                                                             β=2.10 V/a =48 x96
+                                                 4   3
+                                        β=2.10 V/a =48 x96                                                   Continuum Limit
+                                        Continuum Limit
+         0,3                                                                  0,2
+               10   20             30      40            50                         10   20             30      40            50
+                         ml(MeV)                                                              ml(MeV)
+
+
+
+
+Figure 2: The same as in Fig. 1, but using for the chiral and continuum extrapolation
+the polynomial fit of Eq. (7).
+
+    The (combined) chiral and continuum extrapolation of fK is shown in Figs. 1-2 in
+units of either r0 or the mass Ms0 s0 of the fictitious PS meson made of two strange-
+like valence quarks with mass fixed at r0 ms0 = 0.22. The impact of discretization
+effects using r0 as the scaling variable is at the level of ≃ 3%4 , while the use of Ms0 s0 ,
+which is affected by cutoff effects similar to the ones of the K-meson mass (without
+introducing however any significant dependence on the light quark mass), reduces the
+lattice artefacts down to ≃ −1.5%.
+    Notice in Figs. 1-2 that after taking the continuum limit the kaon decay constant
+has been extrapolated to two different values of the light quark mass, namely the
+        4
+     The impact of discretization effects is quantified by the spread between the data at the finest
+lattice spacing and the continuum limiting curve.
+
+
+
+                                                              6
+isospin symmetric, average up/down quark mass mud = 3.70(17) MeV and the up-
+quark mass mu = 2.36(24) MeV found in [6]. In Section 2.2 we will make use of the
+two extrapolated values of fK to determine the leading QCD isospin breaking effect
+due to the mass difference (md − mu ) and to provide our result for fK + .
+    Since the quality of the chiral/continuum fits is quite similar for the various analy-
+ses, the corresponding results are combined assuming the same weight for each of them,
+namely the central value x and the variance σ 2 for an observable x are estimated as
+(see Ref. [6])
+                                      N
+                                  1 X
+                            x=          xi ,
+                                  N i=1
+                                  N          N
+                               1 X 2      1 X
+                             2
+                           σ =       σi +       (xi − x)2 ,                            (8)
+                               N i=1      N i=1
+
+where xi and σi2 are the central value and the variance of the i-th analysis and N
+is the number of analyses (N = 8 in our case). The second term in the r.h.s. of
+Eq. (8), coming from the spread among the results of the different analyses, corresponds
+to a systematic error which accounts for the uncertainties coming from the chiral
+extrapolation, the cutoff effects and the determination of ZP . Finally we add in
+quadrature to Eq. (8) the systematic uncertainties associated to the calculation of
+the FSE.
+    In order to separate the various sources of systematic uncertainties we split the
+contribution coming from the second term in the r.h.s. of Eq. (8) into those related
+to the differences of the results obtained using r0 or Ms0 s0 (labelled as Disc), chiral or
+polynomial fits (labelled as Chiral) and the two methods M1 and M2 for the RCs ZP
+(labelled as ZP ). As for the FSE we compare the results obtained by applying the
+correction with the ones obtained without correcting for FSE. Finally, the error on
+our determination of the strange quark mass represents another source of uncertainty
+and it has been included in the (stat+fit) error, which includes also the statistical
+uncertainty and the error associated with the fitting procedure (i.e. the amplification
+of the pure statistical error due to the chiral and continuum extrapolation).
+    In the isospin symmetric limit we get for fK the value
+
+            fK = 155.0 (1.4)stat+f it (0.4)Chiral (1.1)Disc (0.1)ZP (0.4)F SE MeV
+                = 155.0 (1.9) MeV ,                                                    (9)
+
+which can be compared with the FLAG averages [2]: fK = 158.1(2.5) MeV at Nf = 2
+from Ref. [19] and fK = 156.3(0.9) MeV at Nf = 2 + 1 from Refs. [20, 21, 22].
+Dividing the result (9) by the experimental value of the pion decay constant, fπ+ =
+130.41(20) MeV [23], which has been used as input to set the lattice scale [6], we get
+
+
+
+                                               7
+for the ratio fK /fπ the value
+              fK /fπ = 1.188 (11)stat+f it (4)Chiral (9)Disc (1)ZP (4)F SE (2)fπ+
+                     = 1.188 (15) .                                                      (10)
+In order to compare with the analysis of Ref. [24] we ignore discretization effects and
+limit ourselves to the gauge ensembles at the two finest lattice spacings corresponding
+to β = 1.95 and 2.10. In this way the value for fK /fπ turns out to be larger by ≃ 2.5%
+with respect to Eq. (10), getting very close to the result fK /fπ = 1.224(13) obtained
+in Ref. [24].
+
+2.1     Mistuning of the strange and charm sea quark masses
+In Ref. [6] the strange and charm sea quark masses corresponding to the input bare
+masses adopted for generating the ETM gauge ensembles at the three values of the
+lattice spacing, have been determined by comparing data obtained using the OS and
+the unitary setups for the valence quarks. For the strange sea quark mass msea
+                                                                             s  we got
+             sea
+the values ms = {99.2 (3.5), 88.3 (3.8), 106.4 (4.6)} MeV at β = {1.90, 1.95, 2.10},
+which differ from the determination of the strange quark mass, ms = 99.6(4.3) MeV,
+by ≈ 10% at most, with the largest difference occurring at β = 1.95.
+    To estimate the effect of the mistuning of the strange sea quark mass on fK we use
+the partially quenched SU(3) ChPT predictions at NLO developed in Refs. [25]-[27]
+for arbitrary values of sea and valence quark masses, namely
+   ∆fK ≡ fK (m` , ms ; msea
+                        s ) − fK (m` , ms ; ms )
+                                                                       sea
+                                                   (χs − χ` )2 (χsea
+                                                                  η − χs )
+            
+          2                           1                                     3
+       =      4Lr4 (µ) (χsea
+                         s   − χs ) −    A(χ sea
+                                             η   )   sea        2  sea
+                                                                           − A(χη )
+         f0                           12           (χη − χs ) (χη − χ` ) 8
+                                          sea                    sea
+            1         (χsea
+                        s − χ` )(χs − χη ) − (χs − χ` )(χs − χs )       1
+         −     A(χs )                           sea 2
+                                                                      + A(χs )
+           12                           (χs − χη )                      4
+                   χ` + χsea                            χs + χsea
+                                                                      
+           1                s           χ` + χs               s
+         +     A                 −A                +A                − A(χs )
+           4            2                   2               2
+            1 ∂A(χs ) (χs − χ` )(χs − χsea
+                                              
+                                          s )
+         −                                       ,                                       (11)
+           12 ∂χs             χs − χsea
+                                    η
+
+where
+                                                                       1
+           χ` ≡ 2B0 m` ,                χs ≡ 2B0 ms ,           χη ≡     (χ` + 2χs ) ,
+                                                                       3
+                                            1
+         χsea
+          s   ≡ 2B0 msea
+                     s   ,             χsea
+                                        η ≡   (χ` + 2χsea
+                                                      s ) ,
+                                            3
+                                     
+                  χ              χ
+        A(χ) ≡ −       log                                                               (12)
+                 16π 2           µ2
+
+                                               8
+and B0 and f0 are the SU(3) LECs at LO, while Lr4 (µ) is a NLO LEC evaluated at the
+renormalization scale µ. Taking the values B0 /f0 = 19 (2) and Lr4 (µ) = 0.04 (14)·10−3
+at µ = Mρ = 0.770 GeV from Ref. [2], the correction (11) is found to be below the
+0.4% level at our simulated light-quark masses and decreases toward the physical point.
+We have checked that by applying the correction (11) to the lattice data the changes
+observed in the predictions for fK at the physical point are smaller than 0.3 MeV.
+    In a similar way the charm sea quark mass msea  c  has been determined in Ref. [6],
+                        sea
+obtaining the values mc = {1.21(5), 1.21(5), 1.38(4)} GeV at β = {1.90, 1.95, 2.10},
+which should be compared with the determination of the charm quark mass mc =
+1.176 (39) GeV. It follows that, while there is a good agreement at β = 1.90 and 1.95,
+a ≈ 18% mistuning is present at β = 2.10. Since scaling distortions are not visible
+in our data, we expect that in the continuum limit the mistuning of the charm sea
+quark mass has a negligible effect compared to the one of the strange sea quark and,
+therefore, it does not affect our determination of decay constants in a significant way.
+
+2.2     Isospin breaking effect on the kaon decay constant
+In this Section we provide an estimate of the isospin breaking (IB) effects on the
+charged kaon decay constant fK + . As is known, IB effects are generated by the up and
+down quark electric charges and by the up and down quark mass difference. While
+in the case of hadron masses both QED and QCD IB effects have been determined
+using a variety of approaches on the lattice, the situation for the decay constant is
+completely different. Indeed it is not even possible to give a physical definition to the
+decay constant in the presence of the QED interaction [28], because of well-known
+infrared divergencies affecting the calculation of, e.g., the K`2 decay rate. Therefore
+QED effects on the decay rate of a charged pseudoscalar meson are till now accounted
+for by relying on ChPT and model-dependent approximations5 .
+    In what follows we limit ourselves to the IB effect on fK + due to the up and down
+quark mass difference in pure QCD, i.e. switching off the QED interaction.
+    Let us consider the decay constant fK + as a function of the sea u- and d-quark
+masses, msea
+           u    and msea                                         val
+                       d , and of the valence u-quark mass, mu and omit for the sake
+of simplicity to indicate the dependence on the strange and charm quark masses. At
+                                                            sea                  val
+leading order in the mass differences (mseau − mud ), (md − mud ) and (mu − mud ),
+where mud is the isospin symmetric, average up/down quark mass, one has
+                                                                    
+                   sea   sea   val                             ∂fK
+     fK + = fK (mu , md ; mu ) = fK (mud , mud ; mud ) +                   (msea
+                                                                             u − mud )
+                                                              ∂msea
+                                                                 u     mud
+                                                
+                ∂fK          sea             ∂fK
+          +                (md − mud ) +                 (mval
+                                                           u − mud ) + ... ,           (13)
+               ∂msea
+                  d    mud                  ∂m val
+                                               u     mud
+
+  5
+    A new, promising approach for a lattice determination of QED corrections to generic hadronic
+processes has recently proposed in Ref. [29]
+
+
+
+                                               9
+where all the derivatives have to be evaluated at the isospin symmetric point mseau =
+          val                                                                     sea
+msea
+ d   =  m u   = m  ud and the  ellipsis represents  terms of higher order. Since mu +
+ sea                       sea                  sea
+md = 2mud and [∂fK /∂mu ]mud = [∂fK /∂md ]mud , it follows
+                                       
+                                  ∂fK
+                     fK + − fK =          (mval − mud ) + ... ,                       (14)
+                                 ∂mu mud u
+                                    val
+
+
+which means that the leading IB correction to fK can be obtained from the partial
+derivative of the decay
+                          constant with respect to the valence light-quark mass.
+                               val
+    The IB slope ∂fK /∂mu m can be determined with high precision using the
+                                     ud
+method of Refs. [30, 31], which is based on the insertion of the isovector scalar density
+in the correlators of the isospin symmetric theory. This calculation is in progress and
+will be reported elsewhere.
+    For the time being we derive an estimate of the partial derivative (14) following two
+methods: i) by adopting the partially quenched SU(3) ChPT developed in Refs. [25]-
+[27], and ii) by studying numerically the dependence of the decay constant fK on the
+light-quark mass.
+    The first method totally relies on the partially quenched SU(3) ChPT, which pre-
+dicts at NLO [25]-[27]
+                                                                     
+                ∂fK           4B0       r         1                   mud
+                            =         2L5 (µ) −         1 + 2log 2B0 2 +
+               ∂mval
+                  u     mud     f0              128π 2                 µ
+                                                                    
+                                        ms + mud            2ms + mud
+                            + log B0                + log                            (15)
+                                            µ2                 3mud
+
+Using the values B0 /f0 = 19 (2) and Lr5 (µ) = 0.84 (38) · 10−3 at µ = Mρ = 0.770 GeV
+from Ref. [2], as well as the values of mud and ms determined in Ref. [6], the partial
+derivative of fK with respect to the valence light-quark mass is estimated to be equal
+to 0.37(7) in the MS(2 GeV) scheme. This leads to
+
+                             fK + − fK = −0.49 (13) MeV ,                             (16)
+
+where the error does not include any estimate of the impact of ChPT orders higher
+than the NLO one.
+    In the second method we want to use our non-perturbative results for fK at
+m` = mu and at m` = mud , which have been presented in Figs. 1-2. In our simula-
+tions, however, the sea and valence light-quark masses are taken to be degenerate and
+therefore the difference between the two results for fK at m` = mu and at m` = mud
+does not provide an estimate for (fK + − fK ). Rather we have
+
+   fK + − fK = fK (mu , mu ; mu ) − fK (mud , mud ; mud ) + ∆fK (mu − mud ) + ... ,   (17)
+
+
+
+
+                                           10
+where the ellipsis stands for higher order terms and the correction ∆fK is given by
+                   ∂fK (msea     sea    val
+                                                                   
+                           ` , m` ; m` )        dfK (m` , m` ; m` )
+        ∆fK =                                −
+                            ∂mval
+                               `                      dm`            mval sea
+                                                                      ` =m` =m` =mud
+
+
+                      ∂fK (msea     sea    val
+                                              
+                             ` , m` ; m` )
+              =−                                                 .                   (18)
+                              ∂msea
+                                  `             mval =msea =mud
+                                                     `   `
+
+We estimate the derivative of the decay constant with respect to the sea light-quark
+mass using the partially quenched SU(3) ChPT at NLO [25]-[27], which yields
+                                                                       
+             4B0        r        1               mud              ms + mud
+     ∆fK =         −8L4 (µ) +         3 + log 2B0 2 + log B0
+              f0               64π 2              µ                   µ2
+                                          
+             1 ms + 2mud        2ms + mud
+          −               log                                                   (19)
+             2 ms − mud            3mud
+Using the values B0 /f0 = 19 (2) and Lr4 (µ) = 0.04 (14) · 10−3 at µ = Mρ = 0.770
+GeV, the derivative ∆fK in the MS(2 GeV) scheme is estimated to be equal to ∆fK =
+−0.38(10), which leads to ∆fK (mu − mud ) = 0.51(17) MeV.
+   From our lattice data (see Figs. 1-2) we find fK (mu , mu ; mu )−fK (mud , mud ; mud ) =
+−1.25(31) MeV. Therefore from Eq. (17) we get the estimate
+                               fK + − fK = −0.74 (35) MeV ,                                    (20)
+which is consistent with the estimate of the direct method (16) within the errors.
+   Therefore we average the two determinations (16) and (20) obtaining our final
+result
+                            fK + − fK = −0.62 (29) MeV .                          (21)
+Using Eq. (9) we get
+                             fK + − fK
+                                        = −0.0040 (19) ,                         (22)
+                                 fK
+which is quite close to the more precise result (fK + − fK )/fK = −0.0040(4) obtained
+with Nf = 2 in Ref. [31] using a dedicated approach.
+   Thus, for fK + we obtain the value
+    fK + = 154.4 (1.5)stat+f it (0.4)Chiral (1.1)Disc (0.1)ZP (0.4)F SE (0.3)(fK + −fK ) MeV
+          = 154.4 (2.0) MeV                                                                    (23)
+and, upon dividing Eq. (23) by the experimental value of the pion decay constant, we
+get
+       fK + /fπ+ = 1.184 (12)stat+f it (3)Chiral (9)Disc (1)ZP (3)F SE (2)fπ+ (3)(fK + −fK )
+                 = 1.184 (16) .                                                                (24)
+Our result (24) can be compared with the FLAG averages [2]: fK + /fπ+ = 1.205(18) at
+Nf = 2 from Refs. [19, 30], fK + /fπ+ = 1.192(5) at Nf = 2+1 from Refs. [20, 21, 22, 32]
+and fK + /fπ+ = 1.194(5) at Nf = 2 + 1 + 1 from Refs. [33, 34].
+
+                                                11
+2.3     Determination of |Vus |
+Precision experimental data available for kaon and pion leptonic decays can determine
+very accurately the ratio |Vus /Vud | fK + /fπ+ , giving |Vus /Vud | fK + /fπ+ = 0.2758(5)
+[35]. At the same time the determination of |Vud | from superallowed nuclear β decays
+has become remarkably precise: |Vud | = 0.97425(22) [36].
+    Therefore, using our result (24) one obtains
+                     |Vus | = 0.2269 (4)exp (29)fK + /fπ+ = 0.2269 (29) ,                    (25)
+where the first error comes from the experimental uncertainties, while the second is
+due to the uncertainty on fK + /fπ+ .
+   Since the CKM matrix is unitary in the Standard Model, the elements of the first
+row should obey the constraint
+                            |Vu |2 = |Vud |2 + |Vus |2 + |Vub |2 = 1 .                       (26)
+The contribution from |Vub | is very tiny, being |Vub | = 4.13(49) · 10−3 [23]. Using our
+result (25) one gets
+                     |Vu |2 = 1.0007 (5)exp (13)fK + /fπ+ = 1.0007 (14) ,                    (27)
+which confirms the first-row CKM unitarity at the permille level.
+
+
+3       Calculation of fD , fDs and fDs /fD
+In this Section we present our determinations of the decay constants fD and fDs , as
+well as of the ratio fDs /fD . Our analysis is based on the study of the quark mass
+dependence of two dimensionless ratios, namely fDs /MDs and (fDs /fD )/(fK /fπ ). Our
+choice is motivated by the following observations: i) the ratio fDs /MDs is affected by
+                                                                               p     3/2
+smaller discretization effects with respect to other choices like fDs r0 or fDs MDs r0
+(see also Ref. [37]);    ii) the double ratio (fDs /fD )/(fK /fπ ) exhibits a very mild
+dependence on the light quark mass [38] at variance with the ratio fDs /fD .
+    For each bootstrap event we perform a small interpolation of the lattice data for
+fDs /MDs and (fDs /fD )/(fK /fπ ) to the strange and charm quark masses determined in
+Ref. [6]. The dependences of fDs /MDs on the light-quark mass m` and on the lattice
+spacing turn out to be well described by the simple polynomial expression6
+                        fDs /MDs = P1 (1 + P2 m` + P3 m2` + P4 a2 ) .                        (28)
+   The chiral and continuum extrapolations of (fDs /MDs )MDexp     s
+                                                                     , obtained according
+                                                  exp
+to Eq. (28) and using the experimental value MDs = 1.969 GeV, are shown in Fig. 3,
+where it can be seen that a simple a2 -scaling behavior fits nicely our data on fDs /MDs .
+    6
+    As is known, the Heavy Meson ChPT (HMChPT) predicts no chiral logarithms at NLO for fDs
+and MDs . Therefore we have adopted for fDS /MDs either a linear (P3 = 0) or a quadratic (P3 6= 0)
+expansion in m` [see Eq. (28)].
+
+
+                                               12
+                 0,27                                                                          0,27
+
+                0,265                                                                         0,265
+
+                 0,26                                                                          0,26
+  (GeV)                                                                         (GeV)
+ exp            0,255                                                          exp            0,255
+           s                                                                             s
+
+
+
+
+  (fD /MD )MD                                                                   (fD /MD )MD
+                                                            4    3                                                                      4    3
+           s
+                 0,25                              β=1.90 V/a =32 x64                    s
+                                                                                               0,25                            β=1.90 V/a =32 x64
+                                                            4    3                                                                      4    3
+           s
+                                                   β=1.90 V/a =24 x48                    s
+                                                                                                                               β=1.90 V/a =24 x48
+                                                            4    3                                                                      4    3
+                0,245                              β=1.95 V/a =32 x64                         0,245                            β=1.95 V/a =32 x64
+                                                            4    3                                                                      4    3
+                                                   β=1.95 V/a =24 x48                                                          β=1.95 V/a =24 x48
+                 0,24                                       4    3                             0,24                                     4    3
+                                                   β=2.10 V/a =48 x96                                                          β=2.10 V/a =48 x96
+                                                   Continuum Limit                                                             Continuum Limit
+                0,235                                                                         0,235
+                        10     20             30         40          50                               10   20             30         40          50
+                                    ml(MeV)                                                                     ml(MeV)
+
+
+
+
+Figure 3: Chiral and continuum extrapolation of (fDs /MDs )MDexp
+                                                              s
+                                                                 based on Eq. (28),
+assuming P3 = 0 (left) and P3 6= 0 (right). The diamond represents the continuum
+limit evaluated at the average up/down quark mass mud = 3.70(17) MeV from Ref. [6].
+
+    The systematic uncertainty associated with the chiral extrapolation has been es-
+timated by comparing the results obtained using a linear (P3 = 0) or a quadratic
+(P3 6= 0) fit in m` , while the one related to discretization effects has been taken from
+the difference of the results corresponding to the continuum limit and to the finest
+lattice spacing. Lattice data corresponding to the same β and light quark mass, but
+different lattice volumes show that FSE are well within the statistical uncertainty.
+Finally, in the (stat+fit) error (quoted below) we have included the errors induced
+by the uncertainties on the strange and charm quark masses as well as on the input
+parameters related to the scale setting and to the chiral extrapolation in the light and
+strange sectors.
+    Our final result for fDs reads
+
+                             fDs = 247.2 (3.9)stat+f it (0.7)Chiral (1.2)Disc (0.3)ZP MeV
+                                    = 247.2 (4.1) MeV                                                                                                 (29)
+
+and it can be compared with the FLAG averages [2]: fDs = 250(7) MeV at Nf = 2 from
+Ref. [39] and fDs = 248.6(2.7) MeV at Nf = 2 + 1 from Refs. [40, 41]. Moreover, our
+result (29) agrees very well with the recent determination fDs = 249.0(0.3)(+1.1
+                                                                            −1.5 ) MeV
+obtained by the FNAL/MILC Collaboration [42] with Nf = 2 + 1 + 1.
+   We fit the double ratio (fDs /fD )/(fK /fπ ) by combining the ChPT predictions for
+fπ and fK with the HMChPT prediction for fDs /fD , obtaining
+                                                                   F SE
+                                                                   Kf π
+                                                    
+                fDs /fD      0      0        9 2 1
+                        = P1 1 + P2 m` +       ĝ −     ξ` log ξ`         ,        (30)
+                fK /fπ                       4      2              KfFKSE
+
+where for the HMChPT coupling constant ĝ we adopt the value ĝ = 0.61(7) [23],
+which, among the presently available determinations of ĝ, maximizes the impact of
+the chiral log in Eq. (30). Notice that discretization effects have not been included in
+
+                                                                          13
+Eq. (30), since within the statistical errors no cutoff dependence is visible in the lattice
+data (see Fig. 4 below). As a further check of the impact of discretization effects we
+perform the fit (30) without including the data at the coarsest lattice spacing (this
+corresponds roughly to keep half of the data), obtaining the same final result for the
+double ratio.
+    In Eq. (30) we have included the FSE corrections for both fπ and fK taken from
+Ref. [45] and Ref. [18], respectively. The former accounts also for the effects of the
+π 0 − π + mass splitting. In this way the FSE observed in the data at the same light
+quark mass and lattice spacing but different lattice volumes is correctly reproduced
+(see Ref. [6]).
+    An alternative fit with no chiral log is performed in order to evaluate the systematic
+error associated to chiral extrapolation, namely
+
+                            fDs /fD                   KfFπSE
+                                    = P 1 1 + P 2 m`          .                        (31)
+                            fK /fπ                     KfFKSE
+
+The chiral extrapolations for the double ratio (fDs /fD )/(fK /fπ ), using either the
+ChPT (30) or the linear (31) fit, are shown in Fig. 4, where it can be seen clearly
+that the two fits provide compatible results for all pion masses within the statistical
+uncertainties.
+    The most relevant source of systematic errors for the double ratio (fDs /fD )/(fK /fπ )
+is the chiral extrapolation, while for fDs /fD also the discretization error coming from
+fK /fπ is important. On the other hand, the errors on the strange and charm quark
+masses, as well as the uncertainty on the RC ZP , contribute negligibly.
+    Our final results for (fDs /fD )/(fK /fπ ) and fDs /fD are
+
+                    fDs /fD
+                            = 1.003 (13)stat+f it (5)Chiral (3)F SE
+                    fK /fπ
+                              = 1.003 (14) ,                                           (32)
+
+                     fDs /fD = 1.192 (19)stat+f it (8)Chiral (8)Disc (1)ZP
+                              = 1.192 (22) .                                           (33)
+
+The latter one can be compared with the FLAG averages [2]: fDs /fD = 1.20(2) at
+Nf = 2 from Ref. [39] and fDs /fD = 1.187(12) at Nf = 2 + 1 from Refs. [41, 43].
+Notice the remarkable precision for the double ratio (32), which means that SU(3)
+breaking effects in the ratio of PS meson decay constants are the same in the light and
+charm sectors within a percent accuracy.
+   Finally we combine our results for fDs and fDs /fD to obtain for fD the value
+
+                 fD = 207.4 (3.7)stat+f it (0.6)Chiral (0.7)Disc (0.1)ZP MeV
+                    = 207.4 (3.8) MeV .                                                (34)
+
+
+                                               14
+                                                                      4   3
+                             1,1                            β=1.90 V/a =32 x64
+                                                                      4   3
+                                                            β=1.90 V/a =24 x48
+                                                                      4   3
+                                                            β=1.95 V/a =32 x64
+                                                                      4   3
+                            1,05                            β=1.95 V/a =24 x48
+                                                                      4   3
+                                                            β=2.10 V/a =48 x96
+
+
+         (fD /fD)/(fK/fπ)
+                                                            Continuum Limit
+
+                              1
+                     s
+
+
+
+
+                            0,95
+
+
+
+                             0,9
+                                   10   20             30        40           50
+                                             ml(MeV)
+
+
+Figure 4: Chiral and continuum extrapolation of the double ratio (fDs /fD )/(fK /fπ )
+using both the ChPT fit (30) (solid line) and the polynomial expansion (31) (dashed
+line) in the light quark mass m` . The full and open diamonds represent the correspond-
+ing continuum limit evaluated at the average up/down quark mass mud , respectively.
+Lattice data have been corrected for FSE using Ref. [18] for fK and Ref. [45] for fπ .
+
+The FLAG averages [2] are: fD = 212(8) MeV at Nf = 2 from Ref. [39] and fD =
+209.2(3.3) MeV at Nf = 2 + 1 from Refs. [41, 43].
+    Our data have been extrapolated to the average up/down quark mass mud and
+therefore our results for fD , fDs , fDs /fD and (fDs /fD )/(fK /fπ ) correspond to the
+isospin symmetric limit of QCD.
+    In the case of the D-meson decay constant an estimate of the leading IB effects
+due to the up- and down-quark mass difference may be obtained in a way similar to
+the one adopted for the kaon decay constant in Section 2.2. Using the results of the
+partially quenched Heavy Meson ChPT (HMChPT) of Refs. [46, 47] to correct for the
+derivative of the D-meson decay constant with respect to the sea light-quark mass, we
+obtain from our lattice data the rough estimate fD+ − fD = −0.4 ± 0.8 MeV, which
+is not inconsistent with the more precise result fD+ − fD = 0.47+25   −06 MeV obtained
+recently in Ref. [42]. However, because of the large error of the above numerical result
+and of the uncertainty related to the use of an effective field theory valid only in the
+static limit, we do not provide in this work any estimate for fD+ , which is left to a
+future work, where the method of Refs. [30, 31] will be applied.
+    For the leptonic decay rates of D- and Ds -mesons we use the latest experimental
+
+
+                                              15
+averages leading to: fD |Vcd | = 46.06(1.11) MeV and fDs |Vcs | = 250.66(4.48) MeV,
+as obtained in Ref. [48] by averaging the electron and the muon channels and by
+including an estimate of structure-dependent Bremsstrahlung effects. Neglecting other
+electroweak corrections (see Ref. [42] for a first estimate), our results for fD and fDs
+provide the following determinations of the second-row CKM matrix elements:
+                     |Vcd | = 0.2221 (53)exp (41)fD = 0.2221 (67) ,
+                     |Vcs | = 1.014 (18)exp (16)fDs = 1.014 (24) .                  (35)
+   Using |Vcb | = 0.0413(49) [23], the sum of the squares of the second-row CKM
+elements turns out to be equal to
+                           |Vcd |2 + |Vcs |2 + |Vcb |2 = 1.08 (5) ,                 (36)
+showing some tension with unitarity.
+
+
+4    Conclusions
+We have presented accurate results for the decay constants fK , fK + , fD and fDs ,
+obtained with Nf = 2 + 1 + 1 twisted-mass Wilson fermions. We have used the gauge
+configurations produced by the ETMC, which include in the sea, besides two light
+mass degenerate quarks, also the strange and the charm quarks with masses close to
+their values in the real world. The simulations were based on a unitary setup for the
+two light mass-degenerate quarks and on a mixed action approach for the strange and
+charm quarks. We used data simulated at three different values of the lattice spacing
+in the range 0.06 ÷ 0.09 fm and for pion masses in the range 210 ÷ 450 MeV.
+    The main results obtained in this paper for the leptonic decay constants of kaon,
+D- and Ds -mesons have been collected in Section 1, see Eqs. (1)-(2).
+    Using the experimental value |Vus /Vud | fK + /fπ+ = 0.2758(5) from Ref. [35] and the
+updated value |Vud | = 0.97425(22) from superallowed nuclear β decays [36], our result
+for fK + /fπ+ leads to the following determination of the CKM matrix element |Vus |:
+                                  |Vus | = 0.2269 (29) ,                            (37)
+which confirms the unitarity of the first row of the CKM matrix at the permille level,
+namely
+                       |Vud |2 + |Vus |2 + |Vub |2 = 1.0007 (14) ,               (38)
+where the contribution from |Vub | is negligible.
+   Our results for fD and fDs combined with the experimental averages of the leptonic
+decay rates of D- and Ds -mesons provide the following determinations of the second-
+row CKM matrix elements
+                                  |Vcd | = 0.2221 (67) ,
+                                  |Vcs | = 1.014 (24) ,                             (39)
+
+                                             16
+which lead to some tension for the unitarity of the second row of the CKM matrix
+
+                           |Vcd |2 + |Vcs |2 + |Vcb |2 = 1.08 (5) ,                   (40)
+
+where the contribution from |Vcb | is negligible.
+
+
+Acknowledgements
+We thank our colleagues of the ETM Collaboration for fruitful discussions and we are
+very grateful to S.R. Sharpe for providing us the explicit expressions for fD and fDs
+in the partially quenched HMChPT with Nf = 2 + 1.
+We acknowledge the CPU time provided by the PRACE Research Infrastructure under
+the project PRA027 “QCD Simulations for Flavor Physics in the Standard Model
+and Beyond” on the JUGENE BG/P system at the Jülich SuperComputing Center
+(Germany), and by the agreement between INFN and CINECA under the specific
+initiative INFN-RM123 on the Fermi system at CINECA (Italy).
+V. L., S. S. and C. T. thank MIUR (Italy) for partial support under Contract No.
+PRIN 2010-2011.
+R. F. and G.C. R. thank MIUR (Italy) for partial support under Contract No. PRIN
+2009-2010.
+
+
+References
+ [1] N. Cabibbo, Phys. Rev. Lett. 10 (1963) 531. M. Kobayashi and T. Maskawa,
+     Prog. Theor. Phys. 49 (1973) 652.
+
+ [2] S. Aoki et al., Eur. Phys. J. C 74 (2014) 9, 2890 [arXiv:1310.8555 [hep-lat]].
+    For the FLAG-1 review see: G. Colangelo et al., Eur. Phys. J. C 71 (2011) 1695
+    [arXiv:1011.4408 [hep-lat]].
+
+ [3] R. Baron et al. [ETM Collaboration], JHEP 1006 (2010) 111 [arXiv:1004.5284
+     [hep-lat]].
+
+ [4] R. Baron et al. [ETM Collaboration], Comput. Phys. Commun. 182 (2011) 299
+     [arXiv:1005.2042 [hep-lat]].
+
+ [5] R. Baron et al. [ETM Collaboration], PoS LATTICE 2010 (2010) 123
+     [arXiv:1101.0518 [hep-lat]].
+
+ [6] N. Carrasco et al. [ETM Collaboration], Nucl. Phys. B 887 (2014) 19
+     [arXiv:1403.4504 [hep-lat]].
+
+ [7] Y. Iwasaki, Nucl. Phys. B 258 (1985) 141.
+
+
+                                             17
+ [8] R. Frezzotti and G.C. Rossi, Nucl. Phys. Proc. Suppl. 128 (2004) 193 [hep-
+     lat/0311008].
+
+ [9] R. Frezzotti and G.C. Rossi, JHEP 0408 (2004) 007 [hep-lat/0306014].
+
+[10] R. Frezzotti and G.C. Rossi, JHEP 0410 (2004) 070 [hep-lat/0407002].
+
+[11] K. Osterwalder and E. Seiler, Annals Phys. 110 (1978) 440.
+
+[12] R. Sommer, Nucl. Phys. B 411 (1994) 839 [hep-lat/9310022].
+
+[13] M. Constantinou et al. [ETM Collaboration], JHEP 1008 (2010) 068
+     [arXiv:1004.1115 [hep-lat]].
+
+[14] R. Frezzotti, G. Martinelli, M. Papinutto and G.C. Rossi, JHEP 0604 (2006) 038
+     [hep-lat/0503034].
+
+[15] A. Bussone et al., arXiv:1411.0484 [hep-lat].
+
+[16] R. Frezzotti et al. [Alpha Collaboration], JHEP 0108 (2001) 058 [hep-
+     lat/0101001].
+
+[17] C. McNeile and C. Michael [UKQCD Collaboration], Phys. Rev. D 73 (2006)
+     074506 [hep-lat/0603007].
+
+[18] G. Colangelo, S. Durr and C. Haefeli, Nucl. Phys. B 721 (2005) 136 [arXiv:hep-
+     lat/0503014].
+
+[19] B. Blossier et al. [ETM Collaboration], JHEP 0907 (2009) 043 [arXiv:0904.0954
+     [hep-lat]].
+
+[20] E. Follana et al. [HPQCD and UKQCD Collaborations], Phys. Rev. Lett. 100
+     (2008) 062002 [arXiv:0706.1726 [hep-lat]].
+
+[21] A. Bazavov et al. [MILC Collaboration], PoS LATTICE 2010 (2010) 074
+     [arXiv:1012.0868 [hep-lat]].
+
+[22] R. Arthur et al. [RBC and UKQCD Collaborations], Phys. Rev. D 87 (2013)
+     094514 [arXiv:1208.4412 [hep-lat]].
+
+[23] K. A. Olive et al. [Particle Data Group Collaboration], Chin. Phys. C 38 (2014)
+     090001.
+
+[24] F. Farchioni, G. Herdoiza, K. Jansen, A. Nube, M. Petschlies and C. Urbach, PoS
+     LATTICE 2010 (2010) 128 [arXiv:1012.0200 [hep-lat]].
+
+[25] C.W. Bernard and M.F.L. Golterman, Phys. Rev. D 46 (1992) 853 [hep-
+     lat/9204007].
+
+
+                                          18
+[26] S.R. Sharpe and N. Shoresh, Phys. Rev. D 62 (2000) 094503 [hep-lat/0006017].
+
+[27] J. Bijnens, N. Danielsson and T.A. Lahde, Phys. Rev. D 73 (2006) 074509 [hep-
+     lat/0602003].
+
+[28] J. Gasser and G.R.S. Zarnauskas, Phys. Lett. B 693 (2010) 122 [arXiv:1008.3479
+     [hep-ph]].
+
+[29] N. Carrasco, V. Lubicz, G. Martinelli, C. T. Sachrajda, N. Tantalo, C. Tarantino
+     and M. Testa, arXiv:1502.00257 [hep-lat].
+
+[30] G. M. de Divitiis et al. [RM123 Collaboration], JHEP 1204 (2012) 124
+     [arXiv:1110.6294 [hep-lat]];
+
+[31] G. M. de Divitiis et al. [RM123 Collaboration], Phys. Rev. D 87 (2013) 11, 114505
+     [arXiv:1303.4896 [hep-lat]].
+
+[32] S. Durr et al., Phys. Rev. D 81 (2010) 054507 [arXiv:1001.4692 [hep-lat]].
+
+[33] A. Bazavov et al. [MILC Collaboration], Phys. Rev. Lett. 110 (2013) 172003
+     [arXiv:1301.5855 [hep-ph]].
+
+[34] R. J. Dowdall, C. T. H. Davies, G. P. Lepage and C. McNeile, Phys. Rev. D 88
+     (2013) 074504 [arXiv:1303.1670 [hep-lat]].
+
+[35] M. Antonelli et al., Eur. Phys. J. C 69 (2010) 399 [arXiv:1005.2323 [hep-ph]].
+
+[36] J. C. Hardy and I. S. Towner, Phys. Rev. C 79 (2009) 055502 [arXiv:0812.1202
+     [nucl-ex]].
+
+[37] P. Dimopoulos et al. [ETM Collaboration], PoS LATTICE 2013 (2013) 314
+     [arXiv:1311.3080 [hep-lat]].
+
+[38] D. Becirevic et al., Phys. Lett. B 563 (2003) 150 [hep-ph/0211271].
+
+[39] N. Carrasco et al. [ETM Collaboration], JHEP 1403 (2014) 016 [arXiv:1308.1851
+     [hep-lat]].
+
+[40] C. T. H. Davies, C. McNeile, E. Follana, G. P. Lepage, H. Na and J. Shigemitsu,
+     Phys. Rev. D 82 (2010) 114504 [arXiv:1008.4018 [hep-lat]].
+
+[41] A. Bazavov et al. [Fermilab Lattice and MILC Collaborations], Phys. Rev. D 85
+     (2012) 114506 [arXiv:1112.3051 [hep-lat]].
+
+[42] A. Bazavov et al. [Fermilab Lattice and MILC Collaborations], Phys. Rev. D 90
+     (2014) 7, 074509 [arXiv:1407.3772 [hep-lat]].
+
+[43] H. Na, C. T. H. Davies, E. Follana, G. P. Lepage and J. Shigemitsu, Phys. Rev.
+     D 86 (2012) 054510 [arXiv:1206.4936 [hep-lat]].
+
+                                         19
+[44] O. Bar, Phys. Rev. D 82 (2010) 094505 [arXiv:1008.0784 [hep-lat]].
+
+[45] G. Colangelo, U. Wenger and J.M.S. Wu, Phys. Rev. D 82 (2010) 034502
+     [arXiv:1003.0847 [hep-lat]].
+
+[46] S. R. Sharpe and Y. Zhang, Phys. Rev. D 53 (1996) 5125 [hep-lat/9510037].
+
+[47] S. R. Sharpe, private communication.
+
+[48] J. L. Rosner and S. Stone, arXiv:1309.1924 [hep-ex]. (See also Ref. [23]).
+
+
+
+
+                                          20
+

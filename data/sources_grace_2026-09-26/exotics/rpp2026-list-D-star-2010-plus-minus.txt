@@ -1,0 +1,272 @@
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  D ∗ (2010)±                                           I (J P ) = 21 (1− )
+
+          J P = 1− established by ABLIKIM 23AZ.
+
+                                           D ∗ (2010)± MASS
+          The ﬁt includes D ± , D 0 , D ± , D ∗± , D ∗0 , D ∗± , D1 (2420)0 , D ∗ (2460)0 ,
+                                        s                   s                   2
+          and Ds1 (2536)± mass and mass diﬀerence measurements.
+
+VALUE (MeV)                                  DOCUMENT ID               TECN       CHG    COMMENT
+2010.27± 0.04 OUR FIT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2008 ± 3                          1 GOLDHABER 77 MRK1 ±                   e+ e−
+2008.6 ± 1.0                      2 PERUZZI         77 LGW ±              e+ e−
+  1 From simultaneous ﬁt to D ∗ (2010)+ , D ∗ (2007)0 , D + , and D 0 ; not independent of
+    FELDMAN 77B mass diﬀerence below.
+  2 PERUZZI 77 mass not independent of FELDMAN 77B mass diﬀerence below and PE-
+    RUZZI 77 D 0 mass value.
+
+                                         m D ∗ (2010)+ − m D +
+
+          The ﬁt includes D ± , D 0 , D ± , D ∗± , D ∗0 , D ∗± , D1 (2420)0 , D ∗ (2460)0 ,
+                                        s                   s                   2
+          and Ds1 (2536)± mass and mass diﬀerence measurements.
+
+VALUE (MeV)                         EVTS          DOCUMENT ID                TECN       COMMENT
+140.603 ± 0.015 OUR FIT
+140.602 ± 0.014 OUR AVERAGE
+140.6010± 0.0068 ± 0.0129 151k                    LEES      17F BABR e + e − → hadrons
+140.64 ± 0.08 ± 0.06       620                    BORTOLETTO92B CLE2 e + e − → hadrons
+
+                                         m D ∗ (2010)+ − m D 0
+
+          The ﬁt includes D ± , D 0 , D ± , D ∗± , D ∗0 , D ∗± , D1 (2420)0 , D ∗ (2460)0 ,
+                                        s                   s                   2
+          and Ds1 (2536)± mass and mass diﬀerence measurements.
+
+VALUE (MeV)                       EVTS           DOCUMENT ID               TECN      COMMENT
+145.4257± 0.0017 OUR FIT
+145.4258± 0.0020 OUR AVERAGE                 Error includes scale factor of 1.2.
+145.4259± 0.0004 ± 0.0017 312.8k                LEES             13X BABR D ∗± → D 0 π ± →
+                                                                                   (K π,K 3π)π ±
+145.412 ± 0.002 ± 0.012                         ANASTASSOV 02 CLE2 D              ∗±  → D 0 π± →
+                                                                                   (K π) π ±
+145.54    ± 0.08                   611        1 ADINOLFI         99 BEAT D        ∗±  → D 0 π±
+145.45    ± 0.02                              1 BREITWEG         99 ZEUS D        ∗±  → D 0 π± →
+                                                                                   (K π) π ±
+145.42    ± 0.05                              1 BREITWEG         99 ZEUS D ∗± → D 0 π ± →
+                                                                                   (K − 3π) π ±
+145.5     ± 0.15                   103        2 ADLOFF           97B H1         D ∗±  → D 0 π±
+
+https://pdg.lbl.gov                           Page 1                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+145.44    ± 0.08                   152        2 BREITWEG            97 D ∗± → D 0 π ± ,
+                                                                           ZEUS
+                                                                          D 0 → K − 3π
+145.42 ± 0.11                 199    2 BREITWEG        97 ZEUS D         ∗±  → D 0 π± ,
+                                                                          D → K − π+
+                                                                            0
+145.4     ± 0.2                48    2 DERRICK         95 ZEUS D ∗± → D 0 π ±
+145.39 ± 0.06 ± 0.03                   BARLAG          92B ACCM π − 230 GeV
+145.5     ± 0.2               115    2 ALEXANDER 91B OPAL D ∗± → D 0 π ±
+145.30 ± 0.06                        2 DECAMP          91J ALEP D ∗± → D 0 π ±
+145.40 ± 0.05 ± 0.10                   ABACHI          88B HRS         D ∗± → D 0 π ±
+145.46 ± 0.07 ± 0.03                   ALBRECHT        85F ARG         D ∗± → D 0 π +
+145.5     ± 0.3                28      BAILEY          83 SPEC D ∗± → D 0 π ±
+145.5     ± 0.3                60      FITCH           81 SPEC π − A
+145.3     ± 0.5                30      FELDMAN         77B MRK1 D ∗+ → D 0 π +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+145.4256± 0.0006 ± 0.0017 138.5k       LEES            13X BABR D ∗± → D 0 π ± →
+                                                                          (K − π + )π ±
+145.4266± 0.0005 ± 0.0019 174.3k       LEES            13X BABR D        ∗±  → D 0 π± →
+                                                                          (K − 2π + π − )π ±
+145.44 ± 0.09                 122    2 BREITWEG        97B ZEUS D ∗± → D 0 π ± ,
+                                                                          D 0 → K − π+
+145.8     ± 1.5                16      AHLEN           83 HRS          D ∗+ → D 0 π +
+145.1     ± 1.8                12      BAILEY          83 SPEC D ∗± → D 0 π ±
+145.1     ± 0.5                14      BAILEY          83 SPEC D ∗± → D 0 π ±
+145.5     ± 0.5                14      YELTON           82 MRK2 29 e + e − →
+                                                                          K − π+
+∼ 145.5                                AVERY           80 SPEC γ A
+145.2     ± 0.6                 2      BLIETSCHAU 79 BEBC ν p
+  1 Statistical errors only.
+  2 Systematic error not evaluated.
+
+                                    m D ∗ (2010)+ − m D ∗ (2007)0
+VALUE (MeV)                                  DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.6± 1.8                          1 PERUZZI         77 LGW e + e −
+  1 Not independent of FELDMAN 77B mass diﬀerence above, PERUZZI 77 D 0 mass, and
+    GOLDHABER 77 D ∗ (2007)0 mass.
+
+
+                                         D ∗ (2010)± WIDTH
+VALUE (keV)              CL%    EVTS           DOCUMENT ID               TECN       COMMENT
+   83.4± 1.8 OUR AVERAGE
+   83.3± 1.2 ± 1.4    312.8k                 1 LEES   13X BABR D ∗± → D 0 π ± →
+                                                                         (K π,K 3π)π ±
+   96 ± 4 ± 22                      1 ANASTASSOV 02 CLE2 D              ∗±  → D 0 π± →
+                                                                         (K π) π ±
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+   83.4± 1.7 ± 1.5       138.5k     1 LEES            13X BABR D ∗± → D 0 π ± →
+                                                                         (K − π + )π ±
+   83.2± 1.5 ± 2.6       174.3k     1 LEES            13X BABR D        ∗±  → D 0 π± →
+                                                                         (K − 2π + π − )π ±
+<131               90      110        BARLAG          92B ACCM π − 230 GeV
+
+https://pdg.lbl.gov                           Page 2                      Created: 6/1/2026 16:24
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Ignoring the electromagnetic contribution from D ∗± → D ± γ.
+
+
+                                   D ∗ (2010)± DECAY MODES
+           D ∗ (2010)− modes are charge conjugates of the modes below.
+
+          Mode                                                  Fraction (Γi /Γ)            Conﬁdence level
+
+Γ1        D 0 π+                                                   (67.7± 0.5) %
+Γ2        D + π0                                                   (30.7± 0.5) %
+Γ3        D+ γ                                                   ( 1.6± 0.4) %
+Γ4        e + νe                                                < 1.1        × 10−5                       90%
+Γ5        µ+ νµ                                                 < 4.3        × 10−6                       90%
+
+
+                            CONSTRAINED FIT INFORMATION
+            An overall ﬁt to 3 branching ratios uses 6 measurements and one
+            constraint to determine 3 parameters. The overall ﬁt has a χ2 =
+            0.3 for 4 degrees of freedom.
+
+The
+D       following
+          E        off-diagonal array elements are the correlation coeﬃcients
+  δxi δxj /(δxi ·δxj ), in percent, from the ﬁt to the branching fractions, xi ≡
+ Γi /Γtotal . The ﬁt constrains the xi whose labels appear in this array to sum to
+one.
+
+     x2       −62
+     x3       −43       −44
+                 x1        x2
+
+                                D ∗ (2010)+ BRANCHING RATIOS
+Γ D 0 π + /Γtotal
+         
+                                                                                                         Γ1 /Γ
+VALUE                                         DOCUMENT ID               TECN      COMMENT
+0.677 ± 0.005 OUR FIT
+0.677 ± 0.006 OUR AVERAGE
+0.6759± 0.0029 ± 0.0064       1,2,3 BARTELT         98 CLE2 e + e −
+0.688 ± 0.024 ± 0.013               ALBRECHT        95F ARG         e + e − → hadrons
+0.681 ± 0.010 ± 0.013             1 BUTLER          92 CLE2 e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.57 ± 0.04 ± 0.04                  ADLER           88D MRK3 e + e −
+0.44 ± 0.10                         COLES           82 MRK2 e + e −
+0.6   ± 0.15                      3 GOLDHABER 77 MRK1 e + e −
+  1 The branching ratios are not independent, they have been constrained by the authors to
+    sum to 100%.
+  2 Systematic error includes theoretical error on the prediction of the ratio of hadronic
+    modes.
+  3 Assuming that isospin is conserved in the decay.
+
+
+
+
+https://pdg.lbl.gov                            Page 3                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ D + π 0 /Γtotal
+         
+                                                                                                        Γ2 /Γ
+VALUE                              EVTS           DOCUMENT ID               TECN      COMMENT
+0.307 ± 0.005 OUR FIT
+0.3073± 0.0013 ± 0.0062           1,2,3 BARTELT         98 CLE2 e + e −
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.312 ± 0.011 ± 0.008       1404        ALBRECHT        95F ARG         e + e − → hadrons
+0.308 ± 0.004 ± 0.008        410      1 BUTLER          92 CLE2 e + e − → hadrons
+0.26 ± 0.02 ± 0.02                      ADLER           88D MRK3 e + e −
+0.34 ± 0.07                             COLES           82 MRK2 e + e −
+  1 The branching ratios are not independent, they have been constrained by the authors to
+    sum to 100%.
+  2 Systematic error includes theoretical error on the prediction of the ratio of hadronic
+    modes.
+  3 Assuming that isospin is conserved in the decay.
+
+Γ D + γ /Γtotal
+       
+                                                                                                        Γ3 /Γ
+VALUE                             CL%     EVTS          DOCUMENT ID                TECN     COMMENT
+  0.016 ± 0.004 OUR FIT
+  0.016 ± 0.005 OUR AVERAGE
+  0.0168± 0.0042 ± 0.0029                           1,2 BARTELT             98     CLE2     e+ e−
+  0.011 ± 0.014 ± 0.016     12                        1 BUTLER              92     CLE2     e+ e− →
+                                                                                              hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.052                            90                    ALBRECHT            95F ARG  e+ e− →
+                                                                                        hadrons
+  0.17 ± 0.05 ± 0.05                           ADLER                        88D MRK3 e + e −
+  0.22 ± 0.12                                3 COLES                        82 MRK2 e + e −
+  1 The branching ratios are not independent, they have been constrained by the authors to
+    sum to 100%.
+  2 Systematic error includes theoretical error on the prediction of the ratio of hadronic
+    modes.
+  3 Not independent of Γ D 0 π + /Γ               + 0
+                                     total and Γ D π /Γtotal measurement.
+
+Γ e + νe /Γtotal
+        
+                                                                                                        Γ4 /Γ
+VALUE                      CL%            DOCUMENT ID              TECN      COMMENT
+<1.1 × 10−5                90             ABLIKIM            24AO BES3       e + e − at 4.178–4.226 GeV
+
+Γ µ+ νµ /Γtotal
+       
+                                                                                                        Γ5 /Γ
+VALUE                      CL%            DOCUMENT ID              TECN      COMMENT
+<4.3 × 10−6                90             ABLIKIM            24AO BES3       e + e − at 4.178–4.226 GeV
+
+
+                                   D ∗ (2010)± REFERENCES
+ABLIKIM        24AO PR D110 012003               M. Ablikim et al.                       (BESIII Collab.)
+ABLIKIM        23AZ PL B846 138245               M. Ablikim et al.                       (BESIII Collab.) JP
+LEES           17F PRL 119 202003                J.P. Lees et al.                       (BABAR Collab.)
+LEES           13X PRL 111 111801                J.P. Lees et al.                       (BABAR Collab.)
+   Also             PR D88 052003                J.P. Lees et al.                       (BABAR Collab.)
+   Also             PR D88 079902 (errat.)       J.P. Lees et al.                       (BABAR Collab.)
+ANASTASSOV     02   PR D65 032003                A. Anastassov et al.                     (CLEO Collab.)
+ADINOLFI       99   NP B547 3                    M. Adinolﬁ et al.                      (Beatrice Collab.)
+BREITWEG       99   EPJ C6 67                    J. Breitweg et al.                       (ZEUS Collab.)
+BARTELT        98   PRL 80 3919                  J. Bartelt et al.                        (CLEO Collab.)
+ADLOFF         97B ZPHY C72 593                  C. Adloﬀ et al.                             (H1 Collab.)
+
+https://pdg.lbl.gov                           Page 4                      Created: 6/1/2026 16:24
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+BREITWEG   97      PL B401 192               J. Breitweg et al.                        (ZEUS Collab.)
+BREITWEG   97B     PL B407 402               J. Breitweg et al.                        (ZEUS Collab.)
+ALBRECHT   95F     ZPHY C66 63               H. Albrecht et al.                      (ARGUS Collab.)
+DERRICK    95      PL B349 225               M. Derrick et al.                         (ZEUS Collab.)
+BARLAG     92B     PL B278 480               S. Barlag et al.                     (ACCMOR Collab.)
+BORTOLETTO 92B     PRL 69 2046               D. Bortoletto et al.                      (CLEO Collab.)
+BUTLER     92      PRL 69 2041               F. Butler et al.                          (CLEO Collab.)
+ALEXANDER 91B      PL B262 341               G. Alexander et al.                       (OPAL Collab.)
+DECAMP     91J     PL B266 218               D. Decamp et al.                        (ALEPH Collab.)
+ABACHI     88B     PL B212 533               S. Abachi et al.            (ANL, IND, MICH, PURD+)
+ADLER      88D     PL B208 152               J. Adler et al.                        (Mark III Collab.)
+ALBRECHT   85F     PL 150B 235               H. Albrecht et al.                      (ARGUS Collab.)
+AHLEN      83      PRL 51 1147               S.P. Ahlen et al.                    (ANL, IND, LBL+)
+BAILEY     83      PL 132B 230               R. Bailey et al.          (AMST, BRIS, CERN, CRAC+)
+COLES      82      PR D26 2190               M.W. Coles et al.                           (LBL, SLAC)
+YELTON     82      PRL 49 430                J.M. Yelton et al.                 (SLAC, LBL, UCB+)
+FITCH      81      PRL 46 761                V.L. Fitch et al.                (PRIN, SACL, TORI+)
+AVERY      80      PRL 44 1309               P. Avery et al.                     (ILL, FNAL, COLU)
+BLIETSCHAU 79      PL 86B 108                J. Blietschau et al.          (AACH3, BONN, CERN+)
+FELDMAN    77B     PRL 38 1313               G.J. Feldman et al.                      (Mark I Collab.)
+GOLDHABER 77       PL 69B 503                G. Goldhaber et al.                      (Mark I Collab.)
+PERUZZI    77      PRL 39 1301               I. Peruzzi et al.                          (LGW Collab.)
+
+
+
+
+https://pdg.lbl.gov                        Page 5                      Created: 6/1/2026 16:24
+

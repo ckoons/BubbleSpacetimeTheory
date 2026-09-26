@@ -1,0 +1,89 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  Tcc (3875)+                                          I (J P ) = ?(?? )
+
+OMITTED FROM SUMMARY TABLE
+         Observed with large signiﬁcance by AAIJ 22E in the doubly-charmed
+         (C = 2) decay mode D 0 D 0 π + using inclusive p p collisions at 7, 8,
+         and 13 TeV.
+
+           Tcc (3875)+ T-Matrix Pole                 s relative to D 0 D ∗+ threshold
+                                                   √
+
+VALUE (keV)                          EVTS           DOCUMENT ID           TECN      COMMENT
+
+(− 360 ± 40 + 4
+            − 0 ) − i(24 ±            117        1 AAIJ              22Z LHCB p p → D 0 D 0 π + X
+   1+ 0
+    − 7)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+(− 356 +  39
+       − 38 ) − i(28 ± 1)
+                                            2 DU           22 RVUE
+  1 The ﬁt uses a coupled channel model accounting for the D 0 D ∗+ threshold. The real
+    part is given relative to the D 0 D ∗+ threshold.
+  2 The study provides ﬁts results of three diﬀerent coupled-channel calculations of increasing
+    levels of sophistication to the LHCb data of AAIJ 22Z. We quote the result of the most
+    advanced calculation with full three-body unitarity. The real part is given relative to the
+    D 0 D ∗+ threshold.
+
+
+                                Tcc (3875)+ T-Matrix Pole
+                                                                       √
+                                                                         s
+
+VALUE (MeV)                                 DOCUMENT ID
+                            + 0.001 ) OUR EVALUATION
+(3874.75 ± 0.10) − i (0.024 − 0.007
+
+
+                                       Tcc (3875)+ WIDTH
+
+VALUE (MeV)                  EVTS           DOCUMENT ID               TECN       COMMENT
+
+0.048± 0.002 + 0.000     117      1 AAIJ            22Z LHCB p p → D 0 D 0 π + X
+             − 0.014
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+             + 0.047
+0.410± 0.165 −                117         2 AAIJ               22E LHCB p p → D 0 D 0 π + X
+               0.057
+  1 Fit uses coupled channel model accounting for D 0 D ∗+ threshold.
+  2 The ﬁt uses a relativistic P-wave Breit-Wigner function without taking into account the
+    D 0 D ∗+ threshold. The ﬁt uses a relativistic P-wave Breit-Wigner function. Parameters
+    are shown to be biased in AAIJ 22Z.
+
+                                Tcc (3875)+ DECAY MODES
+
+       Mode                                                   Fraction (Γi /Γ)
+
+Γ1     D 0 D 0 π+                                             seen
+
+
+
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                            Tcc (3875)+ BRANCHING RATIOS
+
+Γ D 0 D 0 π + /Γtotal
+             
+                                                                                                       Γ1 /Γ
+VALUE                        EVTS           DOCUMENT ID               TECN      COMMENT
+seen                          117           AAIJ                 22E LHCB p p → D 0 D 0 π + X
+
+
+                                  Tcc (3875)+ REFERENCES
+AAIJ          22E    NATP 18 751               R. Aaij et al.                            (LHCb Collab.)
+AAIJ          22Z    NATC 13 3351              R. Aaij et al.                            (LHCb Collab.)
+DU            22     PR D105 014024            M.-L. Du et al.             (VALE, IFIC, BOCH, KIAE+)
+
+
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:25
+

@@ -1,0 +1,196 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  D ∗ (2007)0                                         I (J P ) = 21 (1− )
+
+         J P = 1− established by ABLIKIM 23AZ.
+
+                                        D ∗ (2007)0 MASS
+         The ﬁt includes D ± , D 0 , D ± , D ∗± , D ∗0 , D ∗± , D1 (2420)0 , D ∗ (2460)0 ,
+                                       s                   s                   2
+         and Ds1 (2536)± mass and mass diﬀerence measurements.
+
+VALUE (MeV)                                DOCUMENT ID               TECN      COMMENT
+2006.86± 0.05 OUR FIT Error includes scale factor of 1.1.
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2006 ± 1.5                        1 GOLDHABER 77 MRK1 e + e −
+  1 From simultaneous ﬁt to D ∗ (2010)+ , D ∗ (2007)0 , D + , and D 0 .
+
+
+                                       m D ∗ (2007)0 − m D 0
+
+         The ﬁt includes D ± , D 0 , D ± , D ∗± , D ∗0 , D ∗± , D1 (2420)0 , D ∗ (2460)0 ,
+                                       s                   s                   2
+         and Ds1 (2536)± mass and mass diﬀerence measurements.
+
+VALUE (MeV)                 EVTS           DOCUMENT ID               TECN      COMMENT
+142.014± 0.030 OUR FIT Error includes scale factor of 1.5.
+142.016± 0.030 OUR AVERAGE Error includes scale factor of 1.5.
+142.007± 0.015 ± 0.014 10k        1 TOMARADZE 15 CLEO e + e − → hadrons
+142.2 ± 0.3 ± 0.2        145        ALBRECHT        95F ARG         e + e − → hadrons
+142.12 ± 0.05 ± 0.05 1176           BORTOLETTO92B CLE2 e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+142.2 ± 2.0                         SADROZINSKI 80 CBAL D ∗0 → D 0 π 0
+142.7 ± 1.7                       2 GOLDHABER 77 MRK1 e + e −
+  1 Obtained by analyzing CLEO-c data but not authored by the CLEO Collaboration. This
+    value comes from the average of the results for two decay modes, D 0 → K − π + and
+    D 0 → K − π+ π− π+.
+  2 From simultaneous ﬁt to D ∗ (2010)+ , D ∗ (2007)0 , D + , and D 0 .
+
+
+                                       D ∗ (2007)0 WIDTH
+
+VALUE (MeV)                  CL%           DOCUMENT ID               TECN      COMMENT
+<2.1                         90          1 ABACHI             88B HRS          D ∗0 → D + π −
+ 1 Assuming m           = 2007.2 ± 2.1 MeV/c 2 .
+                 D ∗0
+
+
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:24
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                   D ∗ (2007)0 DECAY MODES
+           D ∗ (2007)0 modes are charge conjugates of modes below.
+
+          Mode                                                  Fraction (Γi /Γ)            Conﬁdence level
+
+Γ1        D 0 π0                                                   (64.7 ± 0.9 ) %
+Γ2        D0 γ                                                     (35.3 ± 0.9 ) %
+Γ3        D0 e+ e−                                               ( 3.91± 0.33) × 10−3
+Γ4        µ+ µ−                                                 < 2.5          × 10−8                     90%
+Γ5        e+ e−                                                 < 1.7          × 10−6                     90%
+
+
+                            CONSTRAINED FIT INFORMATION
+            An overall ﬁt to 2 branching ratios uses 5 measurements and one
+            constraint to determine 2 parameters. The overall ﬁt has a χ2 =
+            2.5 for 4 degrees of freedom.
+
+The
+D       following
+          E        off-diagonal array elements are the correlation coeﬃcients
+  δxi δxj /(δxi ·δxj ), in percent, from the ﬁt to the branching fractions, xi ≡
+ Γi /Γtotal . The ﬁt constrains the xi whose labels appear in this array to sum to
+one.
+
+     x2      −100
+                 x1
+
+                               D ∗ (2007)0 BRANCHING RATIOS
+
+Γ D 0 π 0 /Γtotal
+         
+                                                                                                         Γ1 /Γ
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.647± 0.009 OUR FIT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.655± 0.008 ± 0.005   3.2k      1 ABLIKIM         15B BES3 e + e − → hadrons
+0.635± 0.003 ± 0.017    69k      1 AUBERT,BE 05G BABR 10.6 e + e − → hadrons
+0.596± 0.035 ± 0.028    858      2 ALBRECHT        95F ARG         e + e − → hadrons
+0.636± 0.023 ± 0.033  1097       2 BUTLER          92 CLE2 e + e − → hadrons
+  1 Derived from the ratio Γ(D 0 π 0 ) / Γ(D 0 γ) assuming that the branching fractions of
+    D ∗0 → D 0 π 0 and D ∗0 → D 0 γ decays sum to 100%.
+  2 The BUTLER 92 and ALBRECHT 95F branching ratios are not independent, they have
+    been constrained by the authors to sum to 100%.
+
+Γ D 0 γ /Γtotal
+       
+                                                                                                         Γ2 /Γ
+VALUE                         EVTS           DOCUMENT ID               TECN      COMMENT
+0.353± 0.009 OUR FIT
+0.381± 0.029 OUR AVERAGE
+0.404± 0.035 ± 0.028 456                  1 ALBRECHT            95F ARG  e + e − → hadrons
+0.364± 0.023 ± 0.033 621                  1 BUTLER              92 CLE2 e + e − → hadrons
+0.37 ± 0.08 ± 0.08                           ADLER              88D MRK3 e + e −
+
+
+https://pdg.lbl.gov                            Page 2                      Created: 6/1/2026 16:24
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.345± 0.008 ± 0.005   1.8k      2 ABLIKIM         15B BES3 e + e − → hadrons
+0.365± 0.003 ± 0.017    68k      2 AUBERT,BE 05G BABR 10.6 e + e − → hadrons
+0.47 ± 0.23                        LOW             87 HRS          29 GeV e + e −
+0.53 ± 0.13                        BARTEL          85G JADE e + e − , hadrons
+0.47 ± 0.12                        COLES           82 MRK2 e + e −
+0.45 ± 0.15                        GOLDHABER 77 MRK1 e + e −
+  1 The BUTLER 92 and ALBRECHT 95F branching ratios are not independent, they have
+    been constrained by the authors to sum to 100%.
+  2 Derived from the ratio Γ(D 0 π 0 ) / Γ(D 0 γ) assuming that the branching fractions of
+    D ∗0 → D 0 π 0 and D ∗0 → D 0 γ decays sum to 100%.
+
+Γ D 0 π 0 /Γ D 0 γ
+                  
+                                                                                                        Γ1 /Γ2
+VALUE                     EVTS          DOCUMENT ID                 TECN     COMMENT
+1.83 ± 0.07 OUR FIT
+1.85 ± 0.07 OUR AVERAGE
+1.90 ± 0.07 ± 0.05 4.9k          ABLIKIM        15B BES3 10.6 e + e − → hadrons
+1.74 ± 0.02 ± 0.13               AUBERT,BE 05G BABR 10.6 e + e − → hadrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.789± 0.082                   1 AAIJ           22N LHCB B 0 ,B 0 → D ∗0 (K π, π π)
+                                                                      s
+  1 Statistical error only.
+
+Γ D 0 e + e − /Γ D 0 γ
+                      
+                                                                                                        Γ3 /Γ2
+VALUE (units 10−3 )           EVTS           DOCUMENT ID               TECN      COMMENT
+11.08± 0.76 ± 0.49               421         ABLIKIM            21BD BES3        4.178 GeV e + e −
+
+Γ µ+ µ− /Γtotal
+       
+                                                                                                         Γ4 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<2.5 × 10−8             90        1 AAIJ          23D LHCB B − → π − µ+ µ−
+ 1 AAIJ 23D reports < 2.6 × 10−8 from a measurement of [Γ D ∗ (2007)0 → µ+ µ− /
+   Γtotal ] × [B(B + → D ∗ (2007)0 π + )] assuming B(B + → D ∗ (2007)0 π + ) =
+   (4.90 ± 0.17) × 10−3 , which we rescale to our best (shown rounded) value B(B + →
+   D ∗ (2007)0 π + ) = 5.17 × 10−3 .     The reported value also assumes B(B − →
+   J/ψ(1S) K − ) = (10.20 ± 0.19) × 10−4 and B(J/ψ(1S) → µ+ µ− ) = (59.61 ± 0.33) ×
+   10−3 for the normalization mode B − → J/ψ(1S) K − .
+
+Γ e + e − /Γtotal
+         
+                                                                                                         Γ5 /Γ
+VALUE                        CL%           DOCUMENT ID               TECN       COMMENT
+<1.7 × 10−6                  90            SHEMYAKIN           20    CMD3 e + e − → D 0 π 0 , D 0 γ
+
+
+
+
+https://pdg.lbl.gov                           Page 3                       Created: 6/1/2026 16:24
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                  D ∗ (2007)0 REFERENCES
+AAIJ        23D EPJ C83 666                   R. Aaij et al.                             (LHCb Collab.)
+ABLIKIM     23AZ PL B846 138245               M. Ablikim et al.                         (BESIII Collab.) JP
+AAIJ        22N PR D105 072005                R. Aaij et al.                             (LHCb Collab.)
+ABLIKIM     21BD PR D104 112012               M. Ablikim et al.                         (BESIII Collab.)
+SHEMYAKIN 20     PAN 83 954                   D.N. Shemyakin                           (CMD-3 Collab.)
+ABLIKIM     15B PR D91 031101                 M. Ablikim et al.                         (BESIII Collab.)
+TOMARADZE 15     PR D91 011102                A. Tomaradze et al.                              (NWES)
+AUBERT,BE   05G PR D72 091101                 B. Aubert et al.                        (BABAR Collab.)
+ALBRECHT    95F ZPHY C66 63                   H. Albrecht et al.                      (ARGUS Collab.)
+BORTOLETTO 92B PRL 69 2046                    D. Bortoletto et al.                      (CLEO Collab.)
+BUTLER      92   PRL 69 2041                  F. Butler et al.                          (CLEO Collab.)
+ABACHI      88B PL B212 533                   S. Abachi et al.             (ANL, IND, MICH, PURD+)
+ADLER       88D PL B208 152                   J. Adler et al.                        (Mark III Collab.)
+LOW         87   PL B183 232                  E.H. Low et al.                             (HRS Collab.)
+BARTEL      85G PL 161B 197                   W. Bartel et al.                           (JADE Collab.)
+COLES       82   PR D26 2190                  M.W. Coles et al.                            (LBL, SLAC)
+SADROZINSKI 80   Madison Conf. 681            H.F.W. Sadrozinski et al.                   (PRIN, CIT+)
+GOLDHABER 77     PL 69B 503                   G. Goldhaber et al.                      (Mark I Collab.)
+
+
+
+
+https://pdg.lbl.gov                         Page 4                        Created: 6/1/2026 16:24
+

@@ -1,0 +1,1461 @@
+                                                  Binding energy of the Tbb tetraquark from lattice QCD with relativistic and
+                                                                      nonrelativistic heavy-quark actions
+                                                                                     Jakob Hoffmann1 and Stefan Meinel2
+                                                                    1
+                                                                      Goethe-Universität Frankfurt am Main, Institut für Theoretische Physik,
+                                                                         Max-von-Laue-Straße 1, D-60438 Frankfurt am Main, Germany
+                                                                    2
+                                                                      Department of Physics, University of Arizona, Tucson, AZ 85721, USA
+                                                           We present a new determination of the b̄b̄ud (J P = 1+ , I = 0) tetraquark binding energy using lat-
+                                                        tice QCD with domain-wall light quarks and a nonperturbatively tuned three-parameter anisotropic-
+                                                        clover “relativistic” action for the b quarks. We also perform a direct comparison with a reanalysis of
+                                                        data generated in prior work using a lattice-NRQCD action for the b quarks and otherwise identical
+                                                        parameters. Using the new data with relativistic b quarks from seven different ensembles with mul-
+                                                        tiple lattice spacings and pion masses, we perform combined chiral and continuum extrapolations
+                                                        and obtain (mTbb − mB − mB ∗ )RHQ = (−76 ± 23) MeV. For the NRQCD data from five ensembles,
+
+
+
+
+arXiv:2603.12418v3 [hep-lat] 27 May 2026
+                                                        we perform chiral-only extrapolations and obtain (mTbb −mB −mB ∗ )NRQCD = (−74±17±10) MeV.
+                                                        The lower magnitude of the results obtained here, compared to the original analysis in Phys. Rev. D
+                                                        100, 014503 (2019), is due to the use of the symmetric parts of the correlation matrices with local
+                                                        four-quark operators only.
+
+
+
+                                                                                              I.   INTRODUCTION
+
+                                              The existence of a QCD-stable b̄b̄ud tetraquark meson with quantum numbers I(J P ) = 0(1+ ) (in short, Tbb ) is now
+                                           well-established theoretically, but there remains a considerable uncertainty in the binding energy [1–63]. In lattice-
+                                           QCD calculations of the Tbb binding energy [18, 22, 26, 30, 45, 50, 51, 60–63], two important sources of systematic
+                                           errors are (i) heavy-quark discretization errors and (ii) the difficulty to extract the true ground-state energy from fits
+                                           to correlation functions. In this work, we will compare results from two different heavy-quark actions in a controlled
+                                           manner to study the former, while aiming to avoid issues with the ground-state energy extraction that have become
+                                           evident in recent years.
+                                              With the exception of Refs. [61, 63], all of the published direct lattice studies of the Tbb used some variant of
+                                           lattice NRQCD [64, 65] with tadpole improvement [66, 67] for the b quarks. The various calculations differ in the
+                                           number of operators included in the NRQCD action and in the schemes for setting the matching coefficients. For
+                                           example, Ref. [18] includes the bilinear operators through order v 4 in the heavy-heavy power counting with tree-
+                                           level matching coefficients; Ref. [26] uses the same set of operators, but employs one-loop lattice perturbation theory
+                                           for the coefficient of the σ · B term [68] and tree level for the remaining operators, while Ref. [50] again includes
+                                           the same set of operators but with one-loop matching for the “kinetic” terms [69] and tree-level matching for the
+                                           other operators. Reference [45] instead uses a neural-network-based nonperturbative tuning of the NRQCD matching
+                                           coefficients based on the bottomonium spectrum, which yields values that differ drastically from the perturbative
+                                           expectation and leads to underestimated heavy-light hyperfine splittings. It is difficult to disentangle the effects of
+                                           the various choices on the Tbb binding energy, as the aforementioned calculations differ also in other aspects, such as
+                                           the hadron interpolating operators, the correlation function fit methodologies, and the light-quark and gluon actions.
+                                           More fundamentally, a disadvantage of lattice NRQCD is that computations can only be performed for amb ≳ 1,
+                                           and NRQCD matching/truncation errors remain even if a continuum extrapolation is carried out. An alternative
+                                           approach that allows computations at the physical b-quark mass for arbitrary lattice spacings is to use a Wilson-like
+                                           action with heavy-quark-specific parameter tuning conditions chosen to remove heavy-quark discretization errors from
+                                           physical observables [70–76]. This approach, known as the Fermilab method or relativistic heavy quark (RHQ) action,
+                                           has already been used to study the Tbb in Refs. [61, 63]. However, the calculation of Ref. [61] did not include local
+                                           four-quark interpolating operators and therefore likely failed to resolve the true ground state, while Ref. [63] (which
+                                           focused on the electromagnetic form factors) was limited to a single heavier-than-physical pion mass and a single lattice
+                                           spacing. Here, we present a new lattice calculation of the Tbb binding energy using a nonperturbatively tuned three-
+                                           parameter RHQ action for the b quarks and a domain-wall action for the light quarks (both valence and sea quarks).
+                                           The calculation is performed on seven different ensembles of gauge configurations generated by RBC/UKQCD, with
+                                           lattice spacings in the range from 0.114 to 0.073 fm and pion masses in the range from 431 to 139 MeV, allowing us
+                                           to perform a combined chiral and continuum extrapolation. Moreover, five of the ensembles, as well as the smearing
+                                           parameters in the interpolating fields, are shared with the previous NRQCD calculation of Ref. [26], allowing us to
+                                           perform a controlled comparison between RHQ and NRQCD results. To ensure that the b-quark action is the only
+                                           difference in this comparison, we reanalyze the data of Ref. [26] using the same fit methodology as used in the RHQ
+                                           case.
+                                                                                                                             2
+
+   Due to the exponential signal-to-noise problem, to reliably determine the Tbb binding energy from a lattice calcula-
+tion with limited computational resources, good choices of interpolating operators and fit methodologies are needed.
+An analysis of the available direct lattice calculations [18, 22, 26, 30, 45, 50–52, 60, 61, 63, 77, 78] suggests that cal-
+culations with gauge-fixed “wall” quark-field sources and point-like sinks may suffer from a substantial negative bias
+in the Tbb energy (and hence overestimate the magnitude       of the binding energy) if the fit is performed at insufficient
+                                                                             †
+                                                                                  (0)|Ω⟩e−En t with different operators at
+                                                     P
+time separation. For two-point functions C(t) = n ⟨Ω|Osink (t)|n⟩⟨n|Osource
+source and sink, the product of matrix elements multiplying the exponential function may vary in sign among the
+different states n, which allows the effective energy Eeff (t) = a1 ln(C(t)/C(t + a)) to approach the ground-state energy
+for large t from either direction or in a non-monotonic way, with the possibility of “false plateaus” at intermediate
+times, especially for multi-quark systems with a dense low-lying finite-volume spectrum (similar issues are well known
+from lattice studies of two-nucleon systems; see, e.g., Refs. [79–85]). For the Tbb , it was shown that this problem can
+be reduced by using extended “box” sinks [29, 51]. Alternatively, equal-width Gaussian-smeared quark fields can be
+used in the operators at both source and sink to ensure that Eeff (t) (of diagonal correlation functions or principal
+correlators obtained through the generalized eigenvalue problem (GEVP) [86]) approaches the ground state mono-
+tonically from above. Reference [26] used such Gaussian smearing, but included also B-B ∗ and B ∗ -B ∗ “scattering
+operators,” in which the B and B ∗ operators are individually projected to zero momentum. The scattering operators
+were included at the sink only, so that the entire calculation could be performed with previously generated light-quark
+propagators with Gaussian-smeared point sources. In combination with three different local four-quark operators, this
+led to (5 × 3) correlation matrices, to which multi-exponential matrix fits were performed. It was observed that the
+inclusion of the scattering operators at the sink led to lower extracted ground-state energies, which, at the time, were
+deemed more reliable. More recently, a computation of the full (5 × 5) symmetric correlation matrices with local and
+scattering operators at both source and sink was performed [50], and these correlation matrices were analyzed using
+the GEVP. A comparison of the principal correlators obtained from the full (5 × 5) GEVP with those from a (3 × 3)
+GEVP using only the local operators showed that, while the inclusion of scattering operators is crucial for correctly
+determining the excited (two-meson-like) states of the b̄b̄ud system on the lattice, there is no visible difference in the
+lowest principal correlator used to extract the b̄b̄ud ground-state energy (see Fig. 5 of Ref. [50]). Since we are only
+interested in the ground-state energy here, we therefore compute and analyze only (3 × 3) correlation matrices with
+local operators in this work, and reanalyze the corresponding (3 × 3) sub-matrices of Ref. [26], extracting the lowest
+principal correlator using the GEVP in both cases.
+
+
+                                  II.   LATTICE ACTIONS AND PARAMETERS
+
+   We use gauge configurations generated by the RBC and UKQCD collaborations [87–89] with 2+1 flavors of domain-
+wall fermions [93–96] and the Iwasaki gauge action [97]; the main parameters of the seven ensembles used here are
+listed in Table I. The same domain-wall action as used for the sea quarks is used for the light valence quarks; this
+is a Shamir action [95] for all ensembles except C00078 and F1M, which use a Möbius action [96]. Our calculation
+uses smeared point-to-all propagators for the up and down quarks (the smearing parameters are given in Sec. III),
+which were originally generated for Refs. [92, 98–100]. All-mode-averaging [90, 91] over different source positions is
+used, where on each configuration a small number of samples of “exact” correlation functions is combined with a large
+number of samples of “sloppy” correlation functions in such a way that the expectation value is equal to the exact
+expectation value, but the variance is reduced significantly [90, 91]. Low-mode deflation was used for the light-quark
+conjugate gradient solver, and for the sloppy samples the light-quark-propagator iteration count was fixed to a reduced
+
+                                                                                              (NR)     (NR)   (R)     (R)
+       Ensemble Ns3 × Nt × N5 β DW action amu,d       ams a−1 [GeV] mπ [GeV] Nex                     Nsl   Nex Nsl
+       C00078   483 × 96 × 24 2.13 Möbius  0.00078 0.0362 1.7295(38) 0.13917(35) 80                  2560 158 5056
+       C005LV 323 × 64 × 16 2.13 Shamir      0.005    0.04 1.7848(50) 0.3398(12)  –                     –  186 5022
+       C005     243 × 64 × 16 2.13 Shamir    0.005    0.04 1.7848(50) 0.3398(12) 311                  9952 311 9952
+       C01      243 × 64 × 16 2.13 Shamir     0.01    0.04 1.7848(50) 0.4312(12) 283                  9056 283 9056
+       F004     323 × 64 × 16 2.25 Shamir    0.004    0.03 2.3833(86) 0.3036(14) 251                  8032 251 8032
+       F006     323 × 64 × 16 2.25 Shamir    0.006    0.03 2.3833(86) 0.3607(16) 445                 14240 445 14240
+       F1M      483 × 96 × 12 2.31 Möbius 0.002144 0.02144 2.708(10) 0.2320(10)  –                     –  226 7232
+
+                                                                                                     (NR/R)         (R/NR)
+TABLE I. Parameters of the lattice gauge ensembles [87–89] and light-quark propagators. Here, Nex         and Nsl       denote
+the number of “exact” and “sloppy” samples used for the all-mode-averaging procedure [90, 91] for the data sets with NRQCD
+(NR) and relativistic (R) b quarks. The NRQCD data were taken from Ref. [26] and are available for five of the seven ensembles
+only, and with only half the number of samples in the case of C00078.
+                                                                                                                    3
+
+                                        Ensemble           amQ      ν   cE = cB
+                                        C00078            8.1476 3.3743 5.3944
+                                        C005LV, C005, C01 7.3258 3.1918 4.9625
+                                        F004, F006        3.2823 2.0600 2.7960
+                                        F1M               2.3867 1.8323 2.4262
+
+                           TABLE II. Parameters of the RHQ action used for the b quark [92].
+
+
+value.
+  The RHQ approach used here for the b quark is based on the finding that a Wilson-like lattice action can accurately
+describe on-shell observables for spatial momenta that are small compared to the inverse lattice spacing even at large
+quark masses with mQ a > 1. An analysis using Symanzik and heavy-quark effective theories shows that discretization
+errors that would scale as powers of mQ a can be removed to all orders by giving up the space-time axis-interchange
+symmetry and appropriately tuning a small number of bare parameters as functions of mQ a [70–76]. The action used
+here has the form
+
+                X                        3                          3                    3         
+                4                a (2)   X            a (2)       aX                 a X
+         SQ = a   Q̄ mQ + γ0 ∇0 − ∇0 + ν      γ i ∇i − ∇ i    − cE       σ0i F0i − cB         σij Fij Q.           (1)
+                x
+                                 2       i=1
+                                                      2            2 i=1              4 i, j=1
+
+Following Refs. [74–76], the three parameters amQ , ν, and cE = cB were tuned nonperturbatively for each lattice
+spacing such that the Bs meson rest mass mBs ,rest = EBs (0) agrees with experiment, the Bs meson “speed of
+light” squared c2 = mBs ,rest /mBs ,kin = [EBs (p)2 − EBs (0)2 ]/p2 is consistent with 1, and the hyperfine splitting
+EBs∗ (0) − EBs (0) agrees with experiment. The tuning is described in detail in Ref. [92], and the parameters are
+shown again here in Table II. Note that the rapid fall-off of the RHQ b-quark propagators with distance means that
+the standard four-dimensional residual norm is not a reliable criterion for accuracy at large time separations, and an
+increased solver iteration count must be used.
+   The lattice NRQCD approach [64, 65] is a direct lattice discretization of continuum NRQCD [101], an effective field
+theory in which degrees of freedom near and above the heavy-quark mass have been removed, and which corresponds
+to an expansion in powers of the orbital velocity v of the heavy quarks inside quarkonium or in powers of ΛQCD /mQ
+when applied to a singly heavy hadron. In contrast to lattice HQET [102–105], in lattice NRQCD, higher-dimension
+operators are kept inside the action used for the nonperturbative path integral rather than treated order by order
+in ΛQCD /mQ as insertions in correlation functions. This is essential for applications to heavy-heavy hadrons, but
+restricts lattice-NRQCD computations to lattice spacings that satisfy mQ a > 1.
+   The form and parameters of the lattice NRQCD action used for the data sets of Ref. [26] that we reanalyze here
+can be found in Refs. [26, 106]. This is a tadpole- and Symanzik-improved order-v 4 action with the mass parameter
+tuned nonperturbatively using the spin-averaged bottomonium kinetic mass [107] (see Appendix C), and the matching
+coefficients computed perturbatively at one-loop level for the chromomagnetic dipole operator [68] and at tree level
+for the other operators.
+   The kinetic masses of the B, B ∗ , ηb , and Υ mesons obtained with the NRQCD and RHQ actions on some of the
+ensembles considered here are given in Appendix C.
+
+
+                III.   INTERPOLATING OPERATORS AND CORRELATION FUNCTIONS
+
+  As discussed in Sec. I, here we only use the three local four-quark operators
+                                 X                          
+                        O1 (t) =      b̄(x)γ5 d(x) b̄(x)γj u(x) − (d ↔ u),                                         (2)
+                                   x
+                                        X                          
+                        O2 (t) = ϵjkl        b̄(x)γk d(x) b̄(x)γl u(x) − (d ↔ u),                                  (3)
+                                        x
+                                   X                                                   
+                        O3 (t) =        ϵabc b̄b (x)γj C b̄c,T (x) ϵade dd,T (x)Cγ5 ue (x) − (d ↔ u),              (4)
+                                   x
+
+where x = (t, x), for the Tbb [26], and compute the 3 × 3 correlation matrices
+
+                                              Cjk (t) = ⟨Oj (tsrc + t)Ok† (tsrc )⟩.                                (5)
+                                                                                                                               4
+
+                              Ensemble            Up and down quarks                  Bottom quarks
+                                                NGauss σGauss NAPE αAPE               NGauss σGauss
+                              C00078             100 7.171 25       2.5                 10    2.0
+                              C005LV, C005, C01   30 4.350 25       2.5                 10    2.0
+                              F004, F006          60 5.728 25       2.5                 10    2.0
+                              F1M                130    8.9    25   2.5                 10    2.0
+
+ TABLE III. Parameters for the smearing of the quark fields in the interpolating operators (see Ref. [26] for the definitions).
+
+
+
+To obtain the B and B ∗ energies, we use the operators
+                                                                  X
+                                                      OB (t) =        b̄(x)γ5 u(x),                                          (6)
+                                                                  x
+                                                                  X
+                                                     OB ∗ (t) =       b̄(x)γj u(x),                                          (7)
+                                                                  x
+
+                                                                      †
+and compute the correlation functions CB (∗) (t) = ⟨OB (∗) (tsrc + t)OB (∗) (tsrc )⟩. For both Cjk (t) and CB (∗) (t), one of the
+sums over the spatial position (the one at the source) is removed using translational symmetry. We average CB (∗) (t)
+over forward and backward propagating two-point functions. All quark fields in Eqs. (2-7) are smeared using gauge-
+covariant Gaussian spatial smearing, with spatially APE-smeared gauge links for the light quarks and unsmeared
+gauge links for the heavy quarks, using the parameters given in Table III.
+
+
+
+                             IV.     ANALYSIS OF THE CORRELATION FUNCTIONS
+
+
+   We extract the B, B ∗ and b̄b̄ud ground-state energies on each ensemble from single-exponential fits to CB (∗) (t)
+(Sec. IV A) and to the lowest principal correlator λ0 (t; t0 ) obtained by solving the GEVP for Cjk (t) (Sec. IV B). For a
+robust extraction of these energies, we use the uniform strategy outlined in the following. First, we perform correlated
+χ2 -minimizing fits for multiple temporal fit ranges [tmin /a; tmax /a]. All fits to the correlators were performed using the
+lsqfit package [108]. Statistical uncertainties are determined via the bootstrap resampling procedure by repeating the
+fits for 500 bootstrap samples. For a given fit range [tmin /a; tmax /a], we take the bootstrap mean of this distribution as
+the ground-state energy and the bootstrap standard deviation as the corresponding statistical uncertainty. The result
+of this procedure is a set of energies {E0 } with statistical uncertainties and their associated χ2 values, corresponding
+to the different fit ranges. To combine the results from different fit ranges into a single representative energy, we
+employ the Bayesian model-averaging technique proposed in Ref. [109]. Given a set of models m ∈ {1, ..., M }, their
+associated energies {E0,m }, statistical uncertainties {σE0 ,m } and χ2 values {χ2m }, the model-averaged energy ⟨E0 ⟩
+and its total uncertainty σE0 are computed as [109]
+
+                                            M
+                                            X
+                                ⟨E0 ⟩ =           E0,m pr(m|D),                                                              (8)
+                                            m=1
+                                            M
+                                            X                         M
+                                                                      X
+                                    2              2                         2                  2
+                                   σE 0
+                                        =         σE 0 ,m
+                                                          pr(m|D) +         E0,m pr(m|D) − ⟨E0 ⟩ ,                           (9)
+                                            m=1                       m=1
+
+
+where pr(m|D) are normalized model weights given by
+                                                                             
+                                                        1
+                                       pr(m|D) = C exp − χ2m + 2km + 2Ncut,m .
+                                                                            
+                                                                                                                            (10)
+                                                        2
+
+Here, km denotes the number of fit parameters and Ncut,m denotes the number of data points excluded from the
+specific fit m. The constant C is a normalization factor that ensures that the weights are properly normalized, i.e.,
+PM
+  m=1 pr(m|D) = 1. In the fits considered in this section, different fit ranges [tmin /a; tmax /a] correspond to different
+models m. The last two terms in Eq. (9) account for the systematic uncertainty due to the shifts in E0 when changing
+the fit range.
+                                                                                                                                         5
+
+                                                  A.    B and B ∗ meson energies
+
+   To extract the B and B ∗ meson energies at zero momentum1 , we performed correlated single-exponential fits to
+B and B ∗ meson correlation functions computed with the RHQ action on the ensembles listed in Table I. Moreover,
+we also extracted the NRQCD B and B ∗ meson energies using the correlation functions previously computed in
+Ref. [26]. For the fits, we fixed tmax /a as the largest values at which the signal is not completely destroyed by
+statistical noise. The chosen values of tmax /a, the ranges for tmin /a used in the model averaging, and the resulting
+estimates for the B and B ∗ meson energies in lattice units are given in Table IV. Figure 1 displays the effective
+energies aEeff (t) = ln(C(t)/C(t + a)) for one of the ensembles along with the model-averaged estimates for the B and
+B ∗ meson energies.
+   While not needed to determine the Tbb binding energy, it is also interesting to study the hyperfine splittings
+∆EHFS = EB ∗ − EB and compare the NRQCD and RHQ results for them. Using the model weights for the B and
+B ∗ correlator fits, we computed the model-averaged ∆EHFS from the model-averaged B and B ∗ meson energies on all
+bootstrap samples. The means of ∆EHFS over all bootstrap samples, converted to physical units, are shown in Table
+V. We computed the corresponding uncertainties as the bootstrap standard deviation of the statistical distribution
+of ∆EHFS , and added the uncertainty of the lattice spacing in quadrature.
+   We observe that the hyperfine splittings computed with our NRQCD b-quark action (with one-loop values for
+the coefficient c4 of the chromomagnetic dipole operator) are typically ∼ 10% higher than those computed with
+the RHQ b-quark action (the C00078 ensemble is an exception, but the corresponding result has a large statistical
+uncertainty). The NRQCD results are affected by missing higher-order corrections to c4 , which introduce an error
+of order αs2 Λ2QCD /mb ∼ 2 MeV, and by missing heavy-light four-quark operators, whose effect could have similar
+magnitude [110].
+   A chiral-continuum extrapolation of the RHQ results for the hyperfine splitting using the prediction from SU(2)
+heavy-meson chiral perturbation theory [111] with an added a2 term,
+                                                                     3g 2
+                             ∆EHFS = ∆EHFS,0 − ∆EHFS,0                      m2 ln(m2π /µ2 ) + c m2π + d a2 ,                        (11)
+                                                                   16π 2 f 2 π
+with the pion decay constant f = 130.5 MeV [112] and fit parameters ∆EHFS,0 , g, c, d and Gaussian prior g = 0.5±0.1
+for the axial coupling based on Refs. [113–116] yields the extrapolated value
+                                                     (∆EHFS )RHQ = 45.4(1.9) MeV                                                    (12)
+at mπ = 135 MeV and a = 0, in agreement with the experimental value of 45.18(20) MeV [117]. The fit is shown in
+Fig. 2.
+
+       2.30                                                                         0.44
+                                                         B*                                                                        B*
+                      RHQ                                                                          NRQCD
+                                                         B                                                                         B
+       2.28                                                                         0.42
+
+
+       2.26                                                                         0.40
+𝑎𝐸 eff (𝑡)                                                                   𝑎𝐸 eff (𝑡)
+       2.24                                                                         0.38
+
+
+       2.22                                                                         0.36
+
+
+       2.20                                                                         0.34
+              0   5         10         15       20            25                           0   5       10         15       20           25
+                                 𝑡/𝑎                                                                        𝑡/𝑎
+
+FIG. 1. Effective energies of the B and B ∗ two-point functions from the F006 ensemble for the RHQ action (left) and the
+NRQCD action (right). The blue and green bands show the model-averaged B and B ∗ meson energies.
+
+
+
+
+1 With the RHQ action, these energies are equal to the masses. However, with the NRQCD action, all energies are shifted by approximately
+
+   −nb mb , where nb is the number of b quarks inside the hadron, and this shift cancels in appropriate energy differences such as ETbb −
+   EB − EB ∗ .
+                                                                                                                            6
+
+              Label  (tmin /a)RHQ (tmin /a)NRQCD tmax /a (aEB )RHQ (aEB ∗ )RHQ (aEB )NRQCD (aEB ∗ )NRQCD
+              C00078     4...8         4...10      15 3.0576(34) 3.0842(35) 0.4633(57)       0.4852(77)
+              C005LV    5...10         5...10      18 2.9729(13) 3.0010(15)          –            –
+              C005      5...10         5...10      18 2.9710(13) 2.9986(16) 0.4644(13)       0.4941(14)
+              C01       5...10         5...10      20 2.9805(15) 3.0090(24) 0.4736(16)       0.5059(19)
+              F004      8...15         8...15      22 2.2252(16) 2.2448(24) 0.3760(18)       0.3962(30)
+              F006      8...15         8...15      22 2.2268(10) 2.2465(13) 0.3767(10)       0.3986(13)
+              F1M       6...14         6...14      17 1.9541(14) 1.9725(16)          –            –
+
+TABLE IV. Model-averaged B and B ∗ energies in lattice units for all ensembles for the RHQ and NRQCD actions, along with
+the fit ranges entering in the model averages. Machine-readable files containing the energies are provided in the Supplemental
+Material [118].
+
+
+
+
+                                              Label  (∆EHFS )RHQ [MeV] (∆EHFS )NRQCD [MeV]
+                                              C00078     46.1(2.1)          37.7(4.9)
+                                              C005LV     50.2(1.1)              –
+                                              C005       49.2(1.1)          53.1(1.2)
+                                              C01        50.9(1.1)          57.6(1.3)
+                                              F004       46.7(2.0)          48.1(2.6)
+                                              F006       46.8(1.2)          52.2(1.5)
+                                              F1M        49.8(1.4)              –
+
+TABLE V. Model-averaged B ∗ − B hyperfine splittings for all ensembles for the RHQ and NRQCD actions. Machine-readable
+files containing these values are provided in the Supplemental Material [118].
+
+
+
+
+                                              60
+                                                       RHQ
+                                              55
+
+                                              50
+
+
+
+
+                                ∆EHFS [MeV]
+                                              45
+
+                                              40                                 a = 0.111 fm
+                                                                                 a = 0.083 fm
+                                              35                                 a = 0.073 fm
+                                                                                 a=0
+                                              30                                 coarse
+                                                                                 fine
+                                              25
+                                                                                 F1M
+                                              20
+                                                0.00    0.05    0.10      0.15     0.20         0.25
+                                                                           2
+                                                                m2π    [GeV ]
+
+FIG. 2. Chiral-continuum extrapolation of the B-meson hyperfine splitting computed using the RHQ action. The curves show
+the fit model (11) evaluated for the three different lattice spacings for which we have data, and in the continuum limit. The
+dashed vertical line indicates the physical pion mass.
+                                                                                                                                                     7
+
+                                                         B.          Tbb binding energies
+
+  To extract the b̄b̄ud energy levels from the 3 × 3 correlation matrices Cjk (t) discussed in Sec. III, we solve the
+generalized eigenvalue problem (GEVP)
+                                 X                           X
+                                     Cjk (t) vk,n (t; t0 ) =   λn (t; t0 ) Cjk (t0 ) vk,n (t; t0 )               (13)
+                                        k                                 k
+
+with principal correlators λn (t; t0 ) and eigenvectors vk,n (t; t0 ), where t0 is a fixed diagonalization time. The energy
+levels En can be extracted from the principal correlators λn (t; t0 ) via correlated single-exponential fits of the form
+
+                                                         λn (t; t0 ) = An e−En (t−t0 ) ,                                                      (14)
+where the prefactors An are additional fit parameters ≈ 1. In the NRQCD case, we used the 3 × 3 sub-blocks of the
+full 5 × 3 correlation matrices computed in Ref. [26]; these sub-blocks correspond to the same local for-quark operators
+as used in the RHQ case. The values of t0 /a were chosen individually for each ensemble. Our strategy was to choose
+t0 /a at relatively early times for which the signal is well preserved. We scaled the values of t0 /a between ensembles
+such that t0 in physical units remains approximately constant. In Table VI, we list the values of t0 /a chosen for each
+ensemble. We also varied t0 /a in small ranges but did not observe any significant change in the resulting energy levels.
+
+                                                     Label  (t0 /a)RHQ (t0 /a)NRQCD
+                                                     C00078       3           3
+                                                     C005LV       3           –
+                                                     C005         3           3
+                                                     C01          3           3
+                                                     F004         4           4
+                                                     F006         4           4
+                                                     F1M          4           –
+
+                             TABLE VI. The values of the GEVP parameter t0 /a used for each ensemble.
+
+
+            5.0                                                                               1.4
+                                                 1st excited state                                                               1st excited state
+                            RHQ                  ground state                                                 NRQCD              ground state
+
+            4.8                                                                               1.2
+
+
+
+𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+            4.6
+                                                                                  𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+                                                                                              1.0
+
+
+
+            4.4                                                                               0.8
+
+
+
+            4.2                                                                               0.6
+                    0   5         10        15                 20                                     0   5       10        15                 20
+                                  𝑡/𝑎                                                                                 𝑡/𝑎
+
+FIG. 3. Effective energies of the b̄b̄ud [I(J P ) = 0(1+ )] lowest two principal correlators, from the F006 ensemble computed with
+the RHQ action (left) and the NRQCD action (right). The blue horizontal band represents the model-averaged ground-state
+energy. Corresponding plots from the other ensembles are shown in Figs. 9 and 10.
+
+   Figure 3 shows the b̄b̄ud effective energies aEeff,n (t) = ln(λn (t; t0 )/λn (t + a; t0 )) for n = 0 and n = 1. We performed
+fits only to λ0 (t; t0 ) and did not attempt to extract excited-state energy levels (which are two-meson-like states),
+because the omission of the scattering interpolating operators means that the results for these levels are unreliable
+[50].
+   The model-averaged results for the b̄b̄ud ground-state energies in lattice units, together with the values of tmax /a
+and the ranges of tmin /a used in the model averaging, are listed in Table VII.
+                                                                                                                                                               8
+
+                                      Label  (tmin /a)RHQ (tmin /a)NRQCD tmax /a (aE0 )RHQ (aE0 )NRQCD
+                                      C00078     4...8         4...10      15 6.0596(81) 0.9007(83)
+                                      C005LV    5...10         5...10      18 5.9295(61)         –
+                                      C005      5...10         5...10      18 5.9375(39) 0.9248(34)
+                                      C01       5...10         5...10      20 5.9670(33) 0.9579(31)
+                                      F004      8...15         8...15      22 4.4486(42) 0.7561(30)
+                                      F006      8...15         8...15      22 4.4527(39) 0.7564(29)
+                                      F1M       6...14         6...14      17 3.9004(43)         –
+
+TABLE VII. Model-averaged b̄b̄ud ground-state energies in lattice units for all ensembles for the RHQ and NRQCD actions,
+along with the fit ranges entering in the model averages. Machine-readable files containing the energies are provided in the
+Supplemental Material [118].
+
+
+   Using these results, we computed the binding energies ∆E0 = E0 − EB − EB ∗ relative to the BB ∗ threshold for
+all ensembles. The statistical uncertainties were propagated as follows. We solved the GEVP and performed fits on
+all 500 bootstrap samples for the tmin /a ranges listed in Table VII. For each bootstrap sample, we computed the
+model averages of E0 , EB , and EB ∗ via Eq. (8) using fixed model weights, which were taken from fits to the original
+data. We then computed the difference ∆E0 = E0 − EB − EB ∗ of the model-averaged quantities for each bootstrap
+sample. We quote the mean of the bootstrap distribution as the final result for the binding energy and the bootstrap
+standard deviation as its statistical uncertainty. An illustration of the model averaging is shown in Fig. 4 for one of
+the ensembles. We separately computed the systematic uncertainties in E0 , EB , and EB ∗ due to the variations of
+the fit ranges using the last two terms of Eq. (9). We then added these systematic uncertainties in quadrature to
+obtain a rough estimate of the systematic uncertainty in ∆E0 . This approach neglects any possible correlations in
+the systematic uncertainties, likely leading to an overestimate. As such, the computed systematic uncertainty should
+be regarded as a conservative upper bound rather than a precise value. In Table VIII we list the final results for the
+model-averaged binding energies in physical units, where we combined the statistical and systematic uncertainties
+in quadrature. As expected, we find that the Tbb ground-state energies on all ensembles for both the RHQ and the
+NRQCD actions lie significantly below the BB ∗ threshold, indicating a deeply bound state that is stable under the
+strong interaction.
+
+                   0                                                                               0
+                                                              RHQ                                                                        NRQCD
+                                                              RHQ model average                                                          NRQCD model average
+             −20
+                                                                                             −20
+
+
+Δ𝐸 0 [MeV]                                                                        Δ𝐸 0 [MeV]
+             −40
+                                                                                             −40
+             −60
+
+                                                                                             −60
+             −80
+
+          −100                                                                               −80
+
+                  0.6                                                                             0.6
+
+
+
+
+  model weights                                                                   model weights
+                                                                            Tbb                                                                          Tbb
+                  0.4                                                       B                     0.4                                                    B
+                                                                            B*                                                                           B*
+                  0.2                                                                             0.2
+
+                  0.0                                                                             0.0
+                        8   9   10   11      12     13   14        15                                   8   9   10   11      12     13   14      15
+                                          𝑡 min/𝑎                                                                         𝑡 min/𝑎
+
+FIG. 4. Upper panels: the Tbb binding energies ∆E0 as a function of the value of tmin /a used in the fit of the Tbb lowest
+principal correlator (computed using the model-averaged B and B ∗ energies), along with the binding energy computed using
+the model-averaged Tbb , B, and B ∗ energies. Lower panels: the normalized model weights for the fits to the Tbb lowest principal
+correlator and for the fits to the B and B ∗ two-point functions, as a function of tmin /a. The left and right panels show the
+results from the RHQ and NRQCD actions, respectively. All results shown here are from the F006 ensemble. Corresponding
+plots for the other ensembles are shown in Figs. 11 and 12.
+                                                                                                                        9
+
+                                       Label  ∆E0,RHQ [MeV] ∆E0,NRQCD [MeV]
+                                       C00078   −142(28)        −84(22)
+                                       C005LV   −79(13)            –
+                                       C005      −57(9)         −60(7)
+                                       C01       −40(8)         −39(7)
+                                       F004     −51(13)         −38(11)
+                                       F006     −49(13)         −45(9)
+                                       F1M      −71(15)            –
+
+TABLE VIII. Model-averaged Tbb binding energies on all ensembles for the RHQ and NRQCD actions. Machine-readable files
+containing these values are provided in the Supplemental Material [118].
+
+
+           V.   CHIRAL AND CONTINUUM EXTRAPOLATIONS OF THE BINDING ENERGY
+
+   To extract the Tbb binding energy at physical point, we perform chiral and combined chiral-continuum extrapolations
+of the results presented in Table V. Following Ref. [50], we do not attempt to apply the Lüscher quantization condition
+to remove finite-volume effects here (the ground state is located below the onset of the left-hand cut in the scattering
+amplitude caused by one-pion exchange), but we expect finite-volume effects to be negligible compared to our statistical
+uncertainties, given the deep binding of the Tbb and the large values of mπ L of the ensembles used.
+   We consider chiral-only extrapolations of the forms
+
+                                  “linear”: ∆E0 (mπ ) = ∆E0 (0) + c m2π ,                                            (15)
+                             “linear+3/2”: ∆E0 (mπ ) = ∆E0 (0) + c m2π + ce m3π ,                                    (16)
+                             “linear+log”: ∆E0 (mπ ) = ∆E0 (0) + c m2π + l m2π ln(m2π /µ2 ),                         (17)
+
+as well as chiral-continuum extrapolations of the forms
+
+                             “linear”: ∆E0 (mπ , a) = ∆E0 (0) + c m2π + d a2 ,                                       (18)
+                        “linear+3/2”: ∆E0 (mπ , a) = ∆E0 (0) + c m2π + ce m3π + d a2 ,                               (19)
+                        “linear+log”: ∆E0 (mπ , a) = ∆E0 (0) + c m2π + l m2π ln(m2π /µ2 ) + d a2 .                   (20)
+
+The latter are applied only to the RHQ data. Above, ∆E0 (0), c, ce, l, and d are fit parameters, and µ is an arbitrary
+renormalization scale. The binding energy is independent of µ, because the µ-dependence of the m2π ln(m2π /µ2 ) term
+is canceled by the µ-dependence of the coefficient c. The physical-point binding energies obtained using these fits,
+together with the values of χ2 /d.o.f, are listed in Table IX.
+   The chiral-only “linear“ and “linear+log” fits are shown in Figure 5; the “linear+3/2” fits look very similar to
+the “linear+log” fits and are not shown. The fit results for the coefficients of the m3π or m2π ln(m2π /µ2 ) terms are
+consistent with zero within < 1σ, and the χ2 /d.o.f. values are actually increased when adding these terms due to the
+reduction of d.o.f. by the extra parameter. Nevertheless, such terms are expected from chiral perturbation theory
+to be present, and the resulting fit curves show a possibly more physical behavior with a flattening of the pion-mass
+dependence in the higher-mass region. For the NRQCD data, we perform a model average over the three different
+
+
+                     Action Model                            χ2 /d.o.f.   ∆E0 (mπ,phys , (a = 0)) [MeV]
+                     NRQCD chiral only, linear                 1.60                −71 ± 12
+                     NRQCD chiral only, linear+3/2             2.35                −77 ± 23
+                     NRQCD chiral only, linear+log             2.33                −78 ± 22
+                     RHQ    chiral only, linear                1.61                −90 ± 12
+                     RHQ    chiral only, linear+3/2            1.65               −113 ± 20
+                     RHQ    chiral only, linear+log            1.56               −117 ± 23
+                     RHQ    chiral-continuum, linear           0.98                −64 ± 17
+                     RHQ    chiral-continuum, linear+3/2       0.97                −84 ± 26
+                     RHQ    chiral-continuum, linear+log       0.93                −88 ± 28
+
+TABLE IX. Physical-point Tbb binding energies obtained from chiral and chiral+continuum extrapolations using the different
+models discussed in the main text, together with the corresponding χ2 /d.o.f. values.
+                                                                                                                                        10
+
+                 0                                                                    0
+
+               −25                                                                  −25
+
+               −50                                                                  −50
+
+
+
+
+  ∆E0 [MeV]                                                            ∆E0 [MeV]
+               −75                                                                  −75
+
+              −100                                                                 −100
+
+              −125                               coarse NRQCD                      −125                               coarse NRQCD
+                                                 fine NRQCD                                                           fine NRQCD
+              −150                               coarse RHQ                        −150                               coarse RHQ
+                                                 fine RHQ                                                             fine RHQ
+              −175                                                                 −175
+                                                 F1M RHQ                                                              F1M RHQ
+              −200                                                                 −200
+                  0.00   0.05   0.10      0.15      0.20        0.25                   0.00   0.05   0.10      0.15      0.20        0.25
+                                           2                                                                    2
+                                m2π    [GeV ]                                                        m2π    [GeV ]
+
+FIG. 5. Linear (left) and linear+log (right) chiral-only extrapolations of the NRQCD and RHQ results for the Tbb binding
+energies obtained with the 3 × 3 GEVP. The dashed vertical lines indicate the physical pion mass.
+
+
+chiral extrapolations with weights calculated using Eq. (10) to be approximately 56%, 22%, 22%, respectively, giving
+⟨∆E0 (mπ,phys )⟩ = (−74 ± 17) MeV. We adopt the 10 MeV estimate of discretization and NRQCD systematic errors
+from Ref. [26], yielding our final NRQCD-based prediction of
+
+                                       (mTbb − mB − mB ∗ )NRQCD = (−74 ± 17 ± 10) MeV.                                                (21)
+
+  For the RHQ data, we focus on the chiral-continuum extrapolations, as these fits have better quality than the
+chiral-only extrapolations, and the continuum extrapolation should remove most discretization errors. In this case,
+we perform a model average over the fits in the last three rows of Table IX, whose weights are found to be approximately
+44%, 27%, 29%. This yields our final RHQ-based prediction of
+
+                                          (mTbb − mB − mB ∗ )RHQ = (−76 ± 23) MeV.                                                    (22)
+
+Here, we expect that any higher-order discretization errors that remain after continuum extrapolation are negligible
+compared to the statistical uncertainty.
+  Finally, Fig. 7 shows a comparison of our present NRQCD results for the binding energy, obtained with the 3 × 3
+GEVP using local four-quark operators (demonstrated recently to be sufficient for the Tbb [50]), with those of Ref. [26],
+which were extracted from multi-exponential fits to correlation matrices including one or two scattering operators
+at the sink. A significant discrepancy is seen, which must be due to underestimated excited-state contamination, as
+the lattice parameters are identical. Due to the asymmetric correlation matrices used in Ref. [26], the b̄b̄ud energies
+obtained there may have a negative bias (resulting in an overestimate of the magnitude of the binding energy), while
+any bias due to insufficient tmin in the present re-analysis based on symmetric correlation matrices would be positive
+(resulting in an underestimate of the magnitude of the binding energy).
+                                                                                                                                                                11
+
+                 0                                                                                    0
+                         RHQ                                                                                  RHQ
+               −25                                                                                  −25
+
+               −50                                                                                  −50
+
+
+
+
+  ∆E0 [MeV]                                                                            ∆E0 [MeV]
+               −75                                                                                  −75
+
+              −100                                             a=0                                 −100                                       a=0
+                                                               a = 0.073 fm                                                                   a = 0.073 fm
+              −125                                             a = 0.083 fm                        −125                                       a = 0.083 fm
+                                                               a = 0.111 fm                                                                   a = 0.111 fm
+              −150                                             F1M                                 −150                                       F1M
+                                                               fine                                                                           fine
+              −175                                                                                 −175
+                                                               coarse                                                                         coarse
+              −200                                                                                 −200
+                  0.00    0.05   0.10                0.15        0.20         0.25                     0.00     0.05         0.10      0.15     0.20         0.25
+                                                       2                                                                                2
+                                 m2π      [GeV ]                                                                              m2π   [GeV ]
+
+FIG. 6. Linear (left) and linear+log (right) chiral-continuum extrapolations of the Tbb binding energies obtained with the RHQ
+action using the 3 × 3 GEVP. The curves show the fit models evaluated for the three different lattice spacings for which we
+have data, and in the continuum limit.
+
+
+                                                       0
+                                                                NRQCD
+                                                     −25
+
+                                                     −50
+
+
+
+
+                                        ∆E0 [MeV]
+                                                     −75
+
+                                                    −100
+
+                                                    −125
+                                                                                                   coarse, 3 × 3 GEVP
+                                                    −150                                           fine, 3 × 3 GEVP
+                                                                                                   coarse, non-square-MF
+                                                    −175
+                                                                                                   fine, non-square-MF
+                                                    −200
+                                                        0.00       0.05         0.10                0.15      0.20         0.25
+                                                                                                      2
+                                                                                 m2π     [GeV ]
+
+FIG. 7. Linear chiral-only extrapolations of NRQCD results for the Tbb binding energy: comparison of the results obtained
+here with the GEVP from 3 × 3 correlation matrices with only local four-quark operators with those obtained in Ref. [26] using
+multi-exponential matrix fits (MF) to correlation matrices including one or two scattering operators at the sink.
+
+
+
+                                                                   VI.    CONCLUSIONS
+
+   This work provides (i) the first lattice-QCD determination of the Tbb binding energy at the physical pion mass and
+in the continuum limit using an RHQ b-quark action, (ii) a controlled comparison of results obtained with NRQCD
+and RHQ b quarks, and (iii) a comparison of results obtained with the GEVP from symmetric correlation matrices
+using local four-quark interpolating operators only with results from multi-exponential fits to non-square correlation
+matrices that additionally contain scattering operators at the sink.
+   Regarding (ii), we observe remarkably good agreement between the binding energies ∆E0 computed using the RHQ
+and NRQCD actions on the ensembles where we have data with both actions, especially at the heaviest pion masses
+where the statistical uncertainties are the smallest. Note that this finding is specific to our choices of matching
+coefficients and terms included in the actions. When comparing the chiral-only extrapolations in Fig. 5, we see a
+trend toward a larger |∆E0 | at low pion mass for the RHQ case, but this appears to be mainly due to the addition
+of the C005LV ensemble and the doubled number of samples for C00078 in the RHQ case, and could be a statistical
+fluctuation. The good agreement between the RHQ and NRQCD results means that there is no evidence for large
+heavy-quark discretization errors.
+   Regarding (iii), as can be seen in Fig. 7, our reanalysis of the NRQCD data of Ref. [26] using only the symmetric
+                                                                                                                                 12
+
+3 × 3 parts of the 5 × 3 correlation matrices, and using the GEVP instead of multi-exponential matrix fits, gives
+substantially smaller |∆E0 | (this was already observed in Ref. [26], but the matrix fits with scattering operators at
+the sink were deemed more reliable at the time). As was recently demonstrated in Ref. [50], when including both local
+and scattering operators at both source and sink, a GEVP analysis of the full 5 × 5 symmetric correlation matrices
+yields identical results for the ground-state energy as a GEVP analysis of the 3 × 3 correlation matrices with local
+four-quark operators only2 . We therefore suspect that the results of Ref. [26] suffer from some negative bias in the Tbb
+energies because the off-diagonal correlators with local four-quark operators at the source and scattering operators
+at the sink are susceptible to false plateaus (at intermediate times) below the true ground-state energy, which may
+distort even a multi-exponential fit. On the other hand, the present results using the 3 × 3 GEVP may be affected by
+some positive bias in the Tbb ground-state energy, and hence underestimate |∆E0 |, because the principal correlator
+approaches the ground state from above. The model-averaging procedure employed here [109] is designed to optimize
+the balance between statistical uncertainties and residual excited-state contamination, but it is conceivable that it
+still underestimates the total uncertainties due to the rapid growth of the noise with the Euclidean time separation.
+   Our final results for the Tbb binding energy are shown together with other lattice-QCD results in Fig. 8. We predict
+the smallest magnitude of the binding energy among these calculations. The particularly strong discrepancy with the
+result of Francis et al. (2016) [18] is likely due to significant excited-state contamination with negative amplitudes
+due to the use of wall sources and point sinks, as also discussed and remedied by the authors in their follow-up work
+[29, 51]. Our results are closer to more recent calculations. The excellent agreement between our NRQCD and RHQ
+lattice results further confirms the existence of a QCD-stable Tbb tetraquark, with a smaller magnitude of the binding
+energy than suggested by the earliest lattice calculations.
+
+                                                     0
+
+
+
+
+                            mTbb − mB − mB ∗ [MeV]
+                                                −50
+
+
+                                           −100
+
+
+                                           −150
+
+
+                                           −200
+
+
+
+                                                         This work, RHQ               Hudspith and Mohler (2023)
+                                                         This work, NRQCD             Aoki et al. (2023)
+                                                         Tripathy et al. (2025)       Leskovec et al. (2019)
+                                                         Colquhoun et al. (2024)      Junnarkar et al. (2018)
+                                                         Alexandrou et al. (2024)     Francis et al. (2016)
+
+
+FIG. 8. Comparison of lattice-QCD predictions for the Tbb binding energy. Only results extrapolated to the physical pion mass
+are shown [18, 22, 26, 45, 46, 50, 51, 62], which were all obtained with NRQCD b quarks (except for this work). The result of
+Ref. [61] is omitted because that calculation did not include local-four-quark operators and likely missed the true ground state.
+The inner and outer error bars show the statistical and total uncertainties, where provided separately.
+
+
+
+
+                                                                 ACKNOWLEDGEMENTS
+
+  We thank the RBC and UKQCD Collaborations for providing the lattice gauge configurations. We thank Luka
+Leskovec, Martin Pflaumer, and Marc Wagner for collaboration on Ref. [26], whose data we re-analyzed here, and
+Will Detmold for sharing ηb and Υ correlators computed with the RHQ action on two of the ensembles. We thank the
+developers of the Grid [119] and Grid Python Toolkit [120] libraries, which we used to perform the new computations in
+this work. J.H. acknowledges support by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)
+
+
+2 This finding is specific to the deeply bound T
+                                                             bb and we do not expect it to hold for less deeply bound systems.
+                                                                                                                                  13
+
+through the CRC-TR 211 “Strong-interaction matter under extreme conditions” – project number 315477589-TRR
+211. S.M. is supported by the U.S. Department of Energy, Office of Science, Office of High Energy Physics under
+Award Number DE-SC0009913. This research used resources of the National Energy Research Scientific Computing
+Center (NERSC), a Department of Energy User Facility using NERSC award HEP-ERCAP 31326.
+
+
+                                                        DATA AVAILABILITY
+
+  Machine-readable files containing, for each ensemble, the B, B ∗ , and Tbb energies in lattice units, the B ∗ − B
+hyperfine splitting in MeV, and the Tbb binding energy in MeV, are provided in the Supplemental Material [118]. The
+other data are available from the authors upon reasonable request.
+
+
+                                       Appendix A: Additional effective-energy plots
+
+       Figures 9 and 10 contain the b̄b̄ud effective-energy plots for the ensembles not shown in the main text.
+
+                              C00078                                                              C005
+            1.4                                                                   1.4
+                                                1st excited state                                                 1st excited state
+                                                ground state                                                      ground state
+
+            1.2                                                                   1.2
+
+
+
+𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+            1.0
+                                                                      𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+                                                                                  1.0
+
+
+
+            0.8                                                                   0.8
+
+
+
+            0.6                                                                   0.6
+                    0   5       10         15                 20                          0   5   10        15                  20
+                                𝑡/𝑎                                                               𝑡/𝑎
+
+                                C01                                                               F004
+            1.4                                                                   1.4
+                                                1st excited state                                                 1st excited state
+                                                ground state                                                      ground state
+
+                                                                                  1.2
+            1.2
+
+
+
+𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+            1.0
+                                                                      𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+                                                                                  1.0
+
+
+
+                                                                                  0.8
+            0.8
+
+                                                                                  0.6
+
+            0.6
+                    0   5       10         15                 20                          0   5   10        15                  20
+                                𝑡/𝑎                                                               𝑡/𝑎
+
+                             FIG. 9. Like Fig. 3, but for the NRQCD data from the other ensembles.
+                                                                                                                              14
+
+                            C00078                                                              C005LV
+            6.4                                                                 6.2
+                                             1st excited state                                                1st excited state
+                                             ground state                                                     ground state
+            6.3
+                                                                                6.1
+
+            6.2
+
+𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)                                                   𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+                                                                                6.0
+            6.1
+                                                                                5.9
+            6.0
+
+                                                                                5.8
+            5.9
+
+
+            5.8                                                                 5.7
+                    0   5    10         15                 20                           0   5      10    15                 20
+                             𝑡/𝑎                                                                   𝑡/𝑎
+
+                            C005                                                                   C01
+            6.2                                                                 6.2
+                                             1st excited state                                                1st excited state
+                                             ground state                                                     ground state
+            6.1                                                                 6.1
+
+
+
+
+𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)                                                   𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+            6.0                                                                 6.0
+
+
+            5.9                                                                 5.9
+
+
+            5.8                                                                 5.8
+
+
+            5.7                                                                 5.7
+                    0   5    10         15                 20                           0   5      10    15                 20
+                             𝑡/𝑎                                                                   𝑡/𝑎
+
+                             F004                                                                  F1M
+            5.0                                                                 4.2
+                                             1st excited state                                                1st excited state
+                                             ground state                                                     ground state
+                                                                                4.1
+            4.8
+
+
+
+𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)                                                   𝑎𝐸 eff,𝑛 (𝑡; 𝑡 0)
+                                                                                4.0
+            4.6
+                                                                                3.9
+
+            4.4
+                                                                                3.8
+
+
+            4.2                                                                 3.7
+                    0   5    10         15                 20                           0   5      10    15                 20
+                             𝑡/𝑎                                                                   𝑡/𝑎
+
+                            FIG. 10. Like Fig. 3, but for the RHQ data from the other ensembles.
+                                                                                                                                                                                      15
+
+                                                                 Appendix B: Additional model-averaging plots
+
+  Figures 11 and 12 contain the illustrations of the model averaging for the Tbb binding energy for the ensembles not
+shown in the main text.
+
+                                                   C00078                                                                                        C005LV
+              0                                                                                                         0
+            −20                                                                RHQ                                                                                    RHQ
+                                                                               RHQ model average                    −20                                               RHQ model average
+            −40
+            −60
+
+Δ𝐸 0 [MeV]                                                                                          Δ𝐸 0 [MeV]
+                                                                                                                    −40
+            −80
+           −100                                                                                                     −60
+           −120
+           −140                                                                                                     −80
+           −160                                                                                                −100
+           −180
+           −200                                                                                                −120
+
+                   0.6                                                                                                 0.6
+
+
+
+
+   model weights                                                                                       model weights
+                                                                                              Tbb                                                                                   Tbb
+                   0.4                                                                        B                        0.4                                                          B
+                                                                                              B*                                                                                    B*
+                   0.2                                                                                                 0.2
+
+                   0.0                                                                                                 0.0
+                             4           5         6             7              8                                            5       6       7        8         9         10
+                                                       𝑡 min/𝑎                                                                                    𝑡 min/𝑎
+
+                                                       C005                                                                                       C01
+                    0                                                                                                  0
+                                                                               RHQ                                                                                   RHQ
+                                                                               RHQ model average                                                                     RHQ model average
+                −20
+
+
+                                                                                                    Δ𝐸 0 [MeV]
+                                                                                                               −20
+
+Δ𝐸 0 [MeV]
+                −40
+
+                −60
+                                                                                                               −40
+
+                −80
+
+           −100                                                                                                −60
+
+                   0.6                                                                                              0.6
+
+
+
+
+   model weights                                                                                    model weights
+                                                                                              Tbb                                                                                   Tbb
+                   0.4                                                                        B                     0.4                                                             B
+                                                                                              B*                                                                                    B*
+                   0.2                                                                                              0.2
+
+                   0.0                                                                                              0.0
+                             5       6        7            8          9             10                                       5       6       7        8         9         10
+                                                       𝑡 min/𝑎                                                                                   𝑡 min/𝑎
+
+                                                       F004                                                                                       F1M
+                   0                                                                                                    0
+                                                                               RHQ                                                                                    RHQ
+                                                                               RHQ model average                                                                      RHQ model average
+                                                                                                                    −20
+           −20
+
+
+Δ𝐸 0 [MeV]                                                                                          Δ𝐸 0 [MeV]
+                                                                                                                    −40
+
+           −40                                                                                                      −60
+
+                                                                                                                    −80
+           −60
+                                                                                                               −100
+
+           −80                                                                                                 −120
+
+                0.6                                                                                                    0.6
+
+
+
+
+model weights                                                                                          model weights
+                                                                                              Tbb                                                                                   Tbb
+                0.4                                                                           B                        0.4                                                          B
+                                                                                              B*                                                                                    B*
+                0.2                                                                                                    0.2
+
+                0.0                                                                                                    0.0
+                         8       9       10   11          12     13       14             15                                  6   7       8   9   10        11   12   13        14
+                                                       𝑡 min/𝑎                                                                                    𝑡 min/𝑎
+
+
+                                                   FIG. 11. Like Fig. 4, but for the RHQ data from the other ensembles.
+                                                                                                                                                                             16
+
+                                          C00078                                                                                        C005
+                    0                                                                                    0
+                                                                  NRQCD                                                                                    NRQCD
+                −20                                               NRQCD model average                                                                      NRQCD model average
+                −40                                                                                −20
+
+
+Δ𝐸 0 [MeV]                                                                              Δ𝐸 0 [MeV]
+                −60
+                −80                                                                                −40
+
+           −100
+           −120                                                                                    −60
+           −140
+           −160                                                                                    −80
+
+                   0.6                                                                                  0.6
+
+
+
+
+   model weights                                                                        model weights
+                                                                                  Tbb                                                                                      Tbb
+                   0.4                                                            B                     0.4                                                                B
+                                                                                  B*                                                                                       B*
+                   0.2                                                                                  0.2
+
+                   0.0                                                                                  0.0
+                         4   5   6         7         8        9          10                                   5       6        7            8          9        10
+                                           𝑡 min/𝑎                                                                                      𝑡 min/𝑎
+
+                                           C01                                                                                          F004
+                   0                                                                                     0
+                                                                  NRQCD                                                                                    NRQCD
+                                                                  NRQCD model average                                                                      NRQCD model average
+           −20                                                                                     −20
+
+
+Δ𝐸 0 [MeV] −40                                                                          Δ𝐸 0 [MeV] −40
+
+
+           −60                                                                                     −60
+
+
+           −80                                                                                     −80
+
+                0.6                                                                                     0.6
+
+
+
+
+model weights                                                                           model weights
+                                                                                  Tbb                                                                                      Tbb
+                0.4                                                               B                     0.4                                                                B
+                                                                                  B*                                                                                       B*
+                0.2                                                                                     0.2
+
+                0.0                                                                                     0.0
+                         5   6       7         8          9            10                                     8   9       10       11      12     13       14        15
+                                           𝑡 min/𝑎                                                                                      𝑡 min/𝑎
+
+
+                                         FIG. 12. Like Fig. 4, but for the NRQCD data from the other ensembles.
+
+
+                                     Appendix C: Kinetic masses of heavy-light and heavy-heavy mesons
+
+   In this section, we provide results for the kinetic masses of the B, B ∗ , ηb , and Υ mesons. These results are not
+used in the calculation of the tetraquark binding energies in this paper, and we do not have data for all ensembles,
+but they are of interest because they can be used to assess the accuracy of the b-quark mass tuning and the size of
+heavy-quark discretization errors. The rest and kinetic masses of a given hadron are defined by writing the square of
+its energy computed on the lattice with spatial momentum p as
+                                                              mrest 2
+                                             E(p)2 = m2rest +      p + ...,                                       (C1)
+                                                              mkin
+where the ellipses denote higher-order terms proportional to powers of the lattice spacing and higher-order polynomials
+of the components of p (restricted only by cubic symmetry) due to discretization errors. To extract the kinetic mass
+from numerical results for E(0) = mrest and E(p) at some small nonzero p, two different definitions have been used
+in the literature (see, e.g., Refs. [92, 121]), which become equivalent in the limit p → 0:
+                                                                                  p2 − [E(p) − E(0)]2
+                                                         Definition 1: mkin (p) =                     ,                                                                   (C2)
+                                                                                    2[E(p) − E(0)]
+                                                                                     p2 E(0)
+                                                         Definition 2: mkin (p) =               .                                                                         (C3)
+                                                                                  E(p)2 − E(0)2
+When using the RHQ action, the ratio of rest to kinetic mass is also referred to as the square of the “speed of light,”
+                                                         mrest
+                                                    c2 =       ,                                                  (C4)
+                                                         mkin
+                                                                                                                              17
+
+Label  (amB,kin )NRQCD (amB,kin )RHQ (amB ∗ ,kin )NRQCD (amB ∗ ,kin )RHQ (mkin,spinav )NRQCD [GeV] (mkin,spinav )RHQ [GeV]
+C00078    3.03(14)        3.04(13)       3.10(13)          3.26(14)                5.33(22)                5.54(24)
+C005LV        –          2.903(38)            –           2.976(46)                    –                  5.278(77)
+C005      3.002(40)      2.972(39)      2.993(42)         3.055(47)               5.346(73)               5.416(79)
+C01       3.034(38)          –          3.030(40)              –                  5.409(69)                    –
+F004      2.323(21)      2.244(46)      2.323(25)         2.283(54)               5.536(57)                5.42(12)
+F006      2.311(23)      2.188(44)      2.311(23)         2.245(53)               5.513(54)                5.32(12)
+F1M           –          1.882(49)            –           1.909(52)                    –                   5.15(13)
+
+TABLE X. Kinetic masses of the B and B ∗ mesons in lattice units and their spin averages mkin,spinav = 14 mB,kin + 34 mB ∗ ,kin
+in GeV. The experimental value of the spin-averaged mass is 5.31344(20) GeV [117].
+
+
+ Label  (amηb ,kin )NRQCD (amηb ,kin )RHQ (amΥ,kin )NRQCD (amΥ,kin )RHQ (mkin,spinav )NRQCD [GeV] (mkin,spinav )RHQ [GeV]
+ C00078     5.402(13)            –           5.344(17)           –               9.267(34)                    –
+ C005LV          –               –               –               –                    –                       –
+ C005       5.418(11)       7.1653(44)       5.374(13)      7.2861(71)           9.611(35)              12.950(38)
+ C01        5.408(12)            –           5.371(13)           –               9.587(36)                    –
+ F004      4.0765(95)       4.621(11)        4.055(12)      4.651(14)            9.663(45)              11.067(51)
+ F006      4.0755(72)            –          4.0499(98)           –               9.667(41)                    –
+ F1M             –          3.781(13)            –           3.805(16)                –                 10.286(38)
+
+TABLE XI. Kinetic masses of the ηb and Υ mesons in lattice units and their spin averages mkin,spinav = 14 mηb ,kin + 34 mΥ,kin in
+GeV. The experimental value of the spin-averaged mass is 9.4450(5) GeV [117].
+
+
+and is desired to be close to 1.
+   When using the NRQCD action, mrest does not include the contribution from the b-quark mass, and the above
+definition of c2 is not helpful; instead, an alternative definition that describes the stability of mkin computed with
+different values of p has been considered in the literature (see, e.g., Refs. [107, 121]).
+   In practice, the difference between the two kinetic-mass definitions (C2) and (C3) is usually very small and incon-
+sequential when using the smallest possible momentum allowed by the periodic boundary conditions, |p| = 2π          L . In
+                                                                                                                     ∗
+this section, we use definition (C2) with |p| = 2π L throughout.   Our   results for the kinetic masses of the B, B    , ηb ,
+and Υ, for the NRQCD and RHQ actions, are shown in Tables X and XI; Table XII additionally gives the values of
+c2 for the four different mesons computed with the RHQ action. Quark-disconnected diagrams were neglected in the
+calculation of the bottomonium correlation functions.
+   The mass parameter in the NRQCD action was tuned by demanding that the spin-averaged bottomonium kinetic
+mass agrees with experiment, but using the lattice spacings determined in Ref. [107], which differ slightly from the
+values determined by RBC/UKQCD [88, 89] and used here. Therefore, the spin-averaged bottomonium kinetic masses
+converted to GeV using the lattice spacings determined by RBC/UKQCD are close to, but differ slightly from, the
+experimental value. The spin-averaged heavy-light kinetic masses computed with the NRQCD action are also close
+to the experimental value.
+   For the RHQ action, whose three parameters were tuned using the Bs rest mass, speed of light, and hyperfine
+splitting [92], the B and B ∗ kinetic masses and speed of light are also found to be close to the correct values, as
+expected. On the other hand, the RHQ results for the bottomonium kinetic mass and speed of light show significant
+discretization errors, which are seen to diminish as the lattice spacing is reduced. This is also expected, as the typical
+                                                                                (∗)
+heavy-quark momenta inside the ηb and Υ are much higher than in the Bs , and the RHQ action can match only
+fewer terms in the heavy-quark expansion and does not have the same level of Symanzik improvement as the NRQCD
+
+
+                                     Label   c2B,RHQ c2B ∗ ,RHQ   c2ηb ,RHQ   c2Υ,RHQ
+                                     C00078 1.006(45) 0.948(43)         –         –
+                                     C005LV 1.024(14) 1.009(16)         –         –
+                                     C005   1.000(13) 0.981(15) 0.73057(45) 0.72127(70)
+                                     C01         –         –            –         –
+                                     F004   0.991(21) 0.983(24) 0.8505(21) 0.8485(27)
+                                     F006   1.019(21) 1.002(24)         –         –
+                                     F1M    1.039(27) 1.033(28) 0.9163(32) 0.9146(39)
+
+      TABLE XII. The square of the “speed of light” obtained with the RHQ action for the B, B ∗ , ηb , and Υ mesons.
+                                                                                                                                 18
+
+action.
+
+
+
+
+  [1] J. P. Ader, J. M. Richard, and P. Taxil, “Do narrow heavy multiquark states exist?,” Phys. Rev. D 25 (1982) 2370.
+  [2] J. Carlson, L. Heller, and J. A. Tjon, “Stability of Dimesons,” Phys. Rev. D 37 (1988) 744.
+  [3] A. V. Manohar and M. B. Wise, “Exotic QQq̄ q̄ states in QCD,” Nucl. Phys. B 399 (1993) 17–33,
+      arXiv:hep-ph/9212236.
+  [4] B. Silvestre-Brac and C. Semay, “Systematics of L = 0 q 2 q̄ 2 systems,” Z. Phys. C 57 (1993) 273–282.
+  [5] D. M. Brink and F. Stancu, “Tetraquarks with heavy flavors,” Phys. Rev. D 57 (1998) 6778–6787.
+  [6] J. Vijande, F. Fernandez, A. Valcarce, and B. Silvestre-Brac, “Tetraquarks in a chiral constituent quark model,” Eur.
+      Phys. J. A 19 (2004) 383, arXiv:hep-ph/0310007.
+  [7] D. Janc and M. Rosina, “The Tcc = DD∗ molecular state,” Few Body Syst. 35 (2004) 175–196, arXiv:hep-ph/0405208.
+  [8] J. Vijande, A. Valcarce, and K. Tsushima, “Dynamical study of of QQūd¯ mesons,” Phys. Rev. D 74 (2006) 054018,
+      arXiv:hep-ph/0608316.
+  [9] F. S. Navarra, M. Nielsen, and S. H. Lee, “QCD sum rules study of QQūd¯ mesons,” Phys. Lett. B 649 (2007) 166–172,
+      arXiv:hep-ph/0703071.
+ [10] D. Ebert, R. N. Faustov, V. O. Galkin, and W. Lucha, “Masses of tetraquarks with two heavy quarks in the relativistic
+      quark model,” Phys. Rev. D 76 (2007) 114015, arXiv:0706.3853 [hep-ph].
+ [11] M. Zhang, H. X. Zhang, and Z. Y. Zhang, “QQq̄ q̄ four-quark bound states in chiral SU(3) quark model,” Commun.
+      Theor. Phys. 50 (2008) 437–440, arXiv:0711.1029 [nucl-th].
+ [12] S. H. Lee and S. Yasui, “Stable multiquark states with heavy quarks in a diquark model,” Eur. Phys. J. C 64 (2009)
+      283–295, arXiv:0901.2977 [hep-ph].
+ [13] P. Bicudo and M. Wagner, “Lattice QCD signal for a bottom-bottom tetraquark,” Phys. Rev. D 87 no. 11, (2013)
+      114511, arXiv:1209.6274 [hep-ph].
+ [14] Z. S. Brown and K. Orginos, “Tetraquark bound states in the heavy-light heavy-light system,” Phys. Rev. D 86 (2012)
+      114506, arXiv:1210.1953 [hep-lat].
+ [15] P. Bicudo, K. Cichy, A. Peters, and M. Wagner, “BB interactions with static bottom quarks from Lattice QCD,” Phys.
+      Rev. D 93 no. 3, (2016) 034501, arXiv:1510.03441 [hep-lat].
+ [16] P. Bicudo, K. Cichy, A. Peters, B. Wagenbach, and M. Wagner, “Evidence for the existence of udb̄b̄ and the
+      non-existence of ssb̄b̄ and ccb̄b̄ tetraquarks from lattice QCD,” Phys. Rev. D 92 no. 1, (2015) 014507, arXiv:1505.00613
+      [hep-lat].
+ [17] P. Bicudo, J. Scheunert, and M. Wagner, “Including heavy spin effects in the prediction of a b̄b̄ud tetraquark with
+      lattice QCD potentials,” Phys. Rev. D 95 no. 3, (2017) 034502, arXiv:1612.02758 [hep-lat].
+ [18] A. Francis, R. J. Hudspith, R. Lewis, and K. Maltman, “Lattice Prediction for Deeply Bound Doubly Heavy
+      Tetraquarks,” Phys. Rev. Lett. 118 no. 14, (2017) 142001, arXiv:1607.05214 [hep-lat].
+ [19] M. Karliner and J. L. Rosner, “Discovery of doubly-charmed Ξcc baryon implies a stable (bbū ¯      d) tetraquark,” Phys. Rev.
+      Lett. 119 no. 20, (2017) 202001, arXiv:1707.07666 [hep-ph].
+ [20] E. J. Eichten and C. Quigg, “Heavy-quark symmetry implies stable heavy tetraquark mesons Qi Qj q̄k q̄l ,” Phys. Rev.
+      Lett. 119 no. 20, (2017) 202002, arXiv:1707.09575 [hep-ph].
+ [21] Z.-G. Wang, “Analysis of the axialvector doubly heavy tetraquark states with QCD sum rules,” Acta Phys. Polon. B 49
+      (2018) 1781, arXiv:1708.04545 [hep-ph].
+ [22] P. Junnarkar, N. Mathur, and M. Padmanath, “Study of doubly heavy tetraquarks in Lattice QCD,” Phys. Rev. D 99
+      no. 3, (2019) 034507, arXiv:1810.12285 [hep-lat].
+ [23] W. Park, S. Noh, and S. H. Lee, “Masses of the doubly heavy tetraquarks in a constituent quark model,” Nucl. Phys. A
+      983 (2019) 1–19, arXiv:1809.05257 [nucl-th].
+ [24] C. Deng, H. Chen, and J. Ping, “Systematical investigation on the stability of doubly heavy tetraquark states,” Eur.
+      Phys. J. A 56 no. 1, (2020) 9, arXiv:1811.06462 [hep-ph].
+ [25] B. Wang, Z.-W. Liu, and X. Liu, “B̄ (∗) B̄ (∗) interactions in chiral effective field theory,” Phys. Rev. D 99 no. 3, (2019)
+      036007, arXiv:1812.04457 [hep-ph].
+ [26] L. Leskovec, S. Meinel, M. Pflaumer, and M. Wagner, “Lattice QCD investigation of a doubly-bottom b̄b̄ud tetraquark
+      with quantum numbers I(J P ) = 0(1+ ),” Phys. Rev. D 100 no. 1, (2019) 014503, arXiv:1904.04197 [hep-lat].
+ [27] M.-Z. Liu, T.-W. Wu, M. Pavon Valderrama, J.-J. Xie, and L.-S. Geng, “Heavy-quark spin and flavor symmetry
+      partners of the X(3872) revisited: What can we learn from the one boson exchange model?,” Phys. Rev. D 99 no. 9,
+      (2019) 094018, arXiv:1902.03044 [hep-ph].
+                                                                                                                         −
+ [28] E. Hernández, J. Vijande, A. Valcarce, and J.-M. Richard, “Spectroscopy, lifetime and decay modes of the Tbb
+      tetraquark,” Phys. Lett. B 800 (2020) 135073, arXiv:1910.13394 [hep-ph].
+ [29] R. J. Hudspith, B. Colquhoun, A. Francis, R. Lewis, and K. Maltman, “A lattice investigation of exotic tetraquark
+      channels,” Phys. Rev. D 102 (2020) 114506, arXiv:2006.14294 [hep-lat].
+ [30] P. Mohanta and S. Basak, “Construction of bbūd¯ tetraquark states on lattice with NRQCD bottom and HISQ up and
+      down quarks,” Phys. Rev. D 102 no. 9, (2020) 094516, arXiv:2008.11146 [hep-lat].
+ [31] Y. Tan, W. Lu, and J. Ping, “Systematics of QQq̄ q̄ in a chiral constituent quark model,” Eur. Phys. J. Plus 135 no. 9,
+                                                                                                                         19
+
+     (2020) 716, arXiv:2004.02106 [hep-ph].
+[32] Q.-F. Lü, D.-Y. Chen, and Y.-B. Dong, “Masses of doubly heavy tetraquarks TQQ′ in a relativized quark model,” Phys.
+     Rev. D 102 no. 3, (2020) 034012, arXiv:2006.08087 [hep-ph].
+[33] E. Braaten, L.-P. He, and A. Mohapatra, “Masses of doubly heavy tetraquarks with error bars,” Phys. Rev. D 103
+     no. 1, (2021) 016001, arXiv:2006.08650 [hep-ph].
+[34] R. N. Faustov, V. O. Galkin, and E. M. Savchenko, “Heavy tetraquarks in the relativistic quark model,” Universe 7
+     no. 4, (2021) 94, arXiv:2103.01763 [hep-ph].
+[35] T. Guo, J. Li, J. Zhao, and L. He, “Mass spectra of doubly heavy tetraquarks in an improved chromomagnetic
+     interaction model,” Phys. Rev. D 105 no. 1, (2022) 014021, arXiv:2108.10462 [hep-ph].
+[36] L. R. Dai, E. Oset, A. Feijoo, R. Molina, L. Roca, A. M. Torres, and K. P. Khemchandani, “Masses and widths of the
+     exotic molecular B(s)(*)B(s)(*) states,” Phys. Rev. D 105 no. 7, (2022) 074017, arXiv:2201.04840 [hep-ph].
+     [Erratum: Phys.Rev.D 106, 099904 (2022)].
+[37] Y. Kim, M. Oka, and K. Suzuki, “Doubly heavy tetraquarks in a chiral-diquark picture,” Phys. Rev. D 105 no. 7,
+     (2022) 074021, arXiv:2202.06520 [hep-ph].
+[38] X. Chen, F.-L. Wang, Y. Tan, and Y. Yang, “Double-heavy tetraquarks with strangeness in the chiral quark model*,”
+     Chin. Phys. C 47 no. 2, (2023) 023102, arXiv:2206.10917 [hep-ph].
+[39] M. Praszalowicz, “Doubly heavy tetraquarks in the chiral quark soliton model,” Phys. Rev. D 106 no. 11, (2022)
+     114005, arXiv:2208.08602 [hep-ph].
+[40] J.-M. Richard, A. Valcarce, and J. Vijande, “Doubly-heavy tetraquark bound states and resonances,” Nucl. Part. Phys.
+     Proc. 324-329 (2023) 64–67, arXiv:2209.07372 [hep-ph].
+[41] T.-W. Wu and Y.-L. Ma, “Doubly heavy tetraquark multiplets as heavy antiquark-diquark symmetry partners of heavy
+     baryons,” Phys. Rev. D 107 no. 7, (2023) L071501, arXiv:2211.15094 [hep-ph].
+[42] L. Maiani, A. Pilloni, A. D. Polosa, and V. Riquer, “Doubly heavy tetraquarks in the Born-Oppenheimer
+     approximation,” Phys. Lett. B 836 (2023) 137624, arXiv:2208.02730 [hep-ph].
+[43] Y. Song and D. Jia, “Mass spectra of doubly heavy tetraquarks in diquark−antidiquark picture,” Commun. Theor.
+     Phys. 75 no. 5, (2023) 055201, arXiv:2301.00376 [hep-ph].
+[44] X.-Y. Liu, W.-X. Zhang, and D. Jia, “Doubly heavy tetraquarks: Heavy quark bindings and chromomagnetically
+     mixings,” Phys. Rev. D 108 no. 5, (2023) 054019, arXiv:2303.03923 [hep-ph].
+[45] R. J. Hudspith and D. Mohler, “Exotic tetraquark states with two b̄ quarks and J P = 0+ and 1+ Bs states in a
+     nonperturbatively tuned lattice NRQCD setup,” Phys. Rev. D 107 no. 11, (2023) 114510, arXiv:2303.17295
+     [hep-lat].
+[46] T. Aoki, S. Aoki, and T. Inoue, “Lattice study on a tetraquark state Tbb in the HAL QCD method,” Phys. Rev. D 108
+     no. 5, (2023) 054502, arXiv:2306.03565 [hep-lat].
+[47] L. Meng, Y.-K. Chen, Y. Ma, and S.-L. Zhu, “Tetraquark bound states in constituent quark models: Benchmark test
+     calculations,” Phys. Rev. D 108 no. 11, (2023) 114016, arXiv:2310.13354 [hep-ph].
+[48] A. Feijoo, L. R. Dai, L. M. Abreu, and E. Oset, “Correlation function for the Tbb state: Determination of the binding,
+     scattering lengths, effective ranges, and molecular probabilities,” Phys. Rev. D 109 no. 1, (2024) 016014,
+     arXiv:2309.00444 [hep-ph].
+[49] Y.-S. Ren, G.-J. Wang, Z. Yang, and J.-J. Wu, “Investigation on the bottom analogs Tbb- of Tcc+,” Phys. Rev. D 110
+     no. 7, (2024) 074007, arXiv:2310.09836 [hep-ph].
+[50] C. Alexandrou, J. Finkenrath, T. Leontiou, S. Meinel, M. Pflaumer, and M. Wagner, “b̄b̄ud and b̄b̄us tetraquarks from
+     lattice QCD using symmetric correlation matrices with both local and scattering interpolating operators,” Phys. Rev. D
+     110 no. 5, (2024) 054510, arXiv:2404.03588 [hep-lat].
+[51] B. Colquhoun, A. Francis, R. J. Hudspith, R. Lewis, K. Maltman, and W. G. Parrott, “Improved analysis of
+     strong-interaction-stable doubly bottom tetraquarks on the lattice,” Phys. Rev. D 110 no. 9, (2024) 094503,
+     arXiv:2407.08816 [hep-lat].
+[52] A. Francis, “Lattice perspectives on doubly heavy tetraquarks,” Prog. Part. Nucl. Phys. 140 (2025) 104143,
+     arXiv:2502.04701 [hep-lat].
+[53] S.-Y. Li, Y.-R. Liu, Z.-L. Man, Z.-G. Si, and J. Wu, “Doubly heavy tetraquark states in a mass splitting model,” Phys.
+     Rev. D 110 no. 9, (2024) 094044, arXiv:2401.00115 [hep-ph].
+[54] Q. Meng, G.-J. Wang, and M. Oka, “Mass spectra of full-heavy and double-heavy tetraquark states in the conventional
+     quark model,” Phys. Rev. D 111 no. 1, (2025) 014018, arXiv:2404.01238 [hep-ph].
+[55] M. Berwein, N. Brambilla, A. Mohapatra, and A. Vairo, “Hybrids, tetraquarks, pentaquarks, doubly heavy baryons, and
+     quarkonia in Born-Oppenheimer effective theory,” Phys. Rev. D 110 no. 9, (2024) 094040, arXiv:2408.04719 [hep-ph].
+[56] J. Hoffer, G. Eichmann, and C. S. Fischer, “Structure of open-flavor four-quark states in the charm and bottom region,”
+     Phys. Rev. D 111 no. 5, (2025) 054028, arXiv:2409.05779 [hep-ph].
+[57] L.-J. Jiang, C.-S. An, C.-R. Deng, G. Li, and J.-J. Xie, “Theoretical study on low-lying hidden-bottom and
+     double-bottom tetraquark states,” Eur. Phys. J. C 84 no. 11, (2024) 1214, arXiv:2410.12147 [hep-ph].
+                                                                                        +
+[58] N. Brambilla, A. Mohapatra, T. Scirpa, and A. Vairo, “Nature of χc1 (3872) and Tcc   (3875),” Phys. Rev. Lett. 135
+     no. 13, (2025) 131902, arXiv:2411.14306 [hep-ph].
+[59] K.-K. Zhang, W.-X. Zhang, and D. Jia, “Systematics of doubly heavy strange and nonstrange tetraquarks,” Phys. Rev.
+     D 112 no. 5, (2025) 054008, arXiv:2503.14987 [hep-ph].
+[60] S. Prelovsek, E. Ortiz-Pacheco, S. Collins, L. Leskovec, M. Padmanath, and I. Vujmilovic, “Doubly heavy tetraquarks
+     from lattice QCD: Incorporating diquark-antidiquark operators and the left-hand cut,” Phys. Rev. D 112 no. 1, (2025)
+                                                                                                                             20
+
+     014507, arXiv:2504.03473 [hep-lat].
+[61] M. Nagatsuka and S. Sasaki, “Lattice study of scattering phase shifts for DD∗ and BB ∗ systems using twisted boundary
+     conditions: Search for bound state formation,” Phys. Rev. D 112 no. 11, (2025) 114510, arXiv:2507.20712 [hep-lat].
+[62] B. S. Tripathy, N. Mathur, and M. Padmanath, “bbūd¯ and bsūd¯ tetraquarks from lattice QCD using two-meson and
+     diquark-antidiquark variational basis,” Phys. Rev. D 111 no. 11, (2025) 114504, arXiv:2503.09760 [hep-lat].
+[63] I. Vujmilovic, S. Collins, L. Leskovec, and S. Prelovsek, “Electromagnetic form factors and structure of the Tbb
+     tetraquark from lattice QCD,” arXiv:2510.17549 [hep-lat].
+[64] B. A. Thacker and G. P. Lepage, “Heavy quark bound states in lattice QCD,” Phys. Rev. D 43 (1991) 196–208.
+[65] G. P. Lepage, L. Magnea, C. Nakhleh, U. Magnea, and K. Hornbostel, “Improved nonrelativistic QCD for heavy quark
+     physics,” Phys. Rev. D 46 (1992) 4052–4067, arXiv:hep-lat/9205007.
+[66] G. P. Lepage and P. B. Mackenzie, “On the viability of lattice perturbation theory,” Phys. Rev. D 48 (1993) 2250–2264,
+     arXiv:hep-lat/9209022.
+[67] N. H. Shakespeare and H. D. Trottier, “Tadpole renormalization and relativistic corrections in lattice NRQCD,” Phys.
+     Rev. D 58 (1998) 034502, arXiv:hep-lat/9802038.
+[68] T. C. Hammant, A. G. Hart, G. M. von Hippel, R. R. Horgan, and C. J. Monahan, “Radiative improvement of the
+     lattice NRQCD action using the background field method and application to the hyperfine splitting of quarkonium
+     states,” Phys. Rev. Lett. 107 (2011) 112002, arXiv:1105.5309 [hep-lat]. [Erratum: Phys.Rev.Lett. 115, 039901
+     (2015)].
+[69] HPQCD Collaboration, R. J. Dowdall et al., “The Upsilon spectrum and the determination of the lattice spacing from
+     lattice QCD including charm quarks in the sea,” Phys. Rev. D 85 (2012) 054509, arXiv:1110.6887 [hep-lat].
+[70] A. X. El-Khadra, A. S. Kronfeld, and P. B. Mackenzie, “Massive fermions in lattice gauge theory,” Phys. Rev. D 55
+     (1997) 3933–3957, arXiv:hep-lat/9604004.
+[71] P. Chen, “Heavy quarks on anisotropic lattices: The Charmonium spectrum,” Phys. Rev. D 64 (2001) 034509,
+     arXiv:hep-lat/0006019.
+[72] S. Aoki, Y. Kuramashi, and S.-i. Tominaga, “Relativistic heavy quarks on the lattice,” Prog. Theor. Phys. 109 (2003)
+     383–413, arXiv:hep-lat/0107009.
+[73] S. Aoki, Y. Kayaba, and Y. Kuramashi, “A Perturbative determination of mass dependent O(a) improvement
+     coefficients in a relativistic heavy quark action,” Nucl. Phys. B 697 (2004) 271–301, arXiv:hep-lat/0309161.
+[74] N. H. Christ, M. Li, and H.-W. Lin, “Relativistic Heavy Quark Effective Action,” Phys. Rev. D 76 (2007) 074505,
+     arXiv:hep-lat/0608006.
+[75] H.-W. Lin and N. Christ, “Non-perturbatively Determined Relativistic Heavy Quark Action,” Phys. Rev. D 76 (2007)
+     074506, arXiv:hep-lat/0608005.
+[76] RBC, UKQCD Collaboration, Y. Aoki, N. H. Christ, J. M. Flynn, T. Izubuchi, C. Lehner, M. Li, H. Peng, A. Soni,
+     R. S. Van de Water, and O. Witzel, “Nonperturbative tuning of an improved relativistic heavy-quark action with
+     application to bottom spectroscopy,” Phys. Rev. D 86 (2012) 116003, arXiv:1206.2554 [hep-lat].
+[77] S. Meinel, M. Pflaumer, and M. Wagner, “Search for b̄b̄us and b̄c̄ud tetraquark bound states using lattice QCD,” Phys.
+     Rev. D 106 no. 3, (2022) 034507, arXiv:2205.13982 [hep-lat].
+[78] W. Parrott, B. Colquhoun, A. Francis, R. Hudspith, R. Lewis, and K. Maltman, “Quark mass dependence of doubly
+     heavy tetraquark binding,” PoS LATTICE2024 (2025) 084, arXiv:2409.11477 [hep-lat].
+[79] T. Iritani et al., “Mirage in Temporal Correlation functions for Baryon-Baryon Interactions in Lattice QCD,” JHEP 10
+     (2016) 101, arXiv:1607.06371 [hep-lat].
+[80] PACS Collaboration, T. Yamazaki, K.-i. Ishikawa, and Y. Kuramashi, “Comparison of different source calculations in
+     two-nucleon channel at large quark mass,” EPJ Web Conf. 175 (2018) 05019, arXiv:1710.08066 [hep-lat].
+[81] B. Hörz et al., “Two-nucleon S-wave interactions at the SU (3) flavor-symmetric point with mud ≃ mphys
+                                                                                                           s   : A first lattice
+     QCD calculation with the stochastic Laplacian Heaviside method,” Phys. Rev. C 103 no. 1, (2021) 014003,
+     arXiv:2009.11825 [hep-lat].
+[82] A. Nicholson et al., “Toward a resolution of the NN controversy,” PoS LATTICE2021 (2022) 098, arXiv:2112.04569
+     [hep-lat].
+[83] J. R. Green, “Status of two-baryon scattering in lattice QCD,” PoS CD2024 (2026) 019, arXiv:2502.15546 [hep-lat].
+[84] Baryon Scattering Collaboration, J. Bulava et al., “Di-nucleons do not form bound states at heavy pion mass,” Phys.
+     Rev. C 113 no. 2, (2026) 024002, arXiv:2505.05547 [hep-lat].
+[85] NPLQCD Collaboration, W. Detmold, A. V. Grebe, D. C. Hackett, M. Illa, R. J. Perry, P. E. Shanahan, and M. L.
+     Wagman, “Excited-state uncertainties in lattice-QCD calculations of multi-hadron systems,” arXiv:2601.22272
+     [hep-lat].
+[86] B. Blossier, M. Della Morte, G. von Hippel, T. Mendes, and R. Sommer, “On the generalized eigenvalue method for
+     energies and matrix elements in lattice field theory,” JHEP 04 (2009) 094, arXiv:0902.1265 [hep-lat].
+[87] RBC, UKQCD Collaboration, Y. Aoki et al., “Continuum Limit Physics from 2+1 Flavor Domain Wall QCD,” Phys.
+     Rev. D 83 (2011) 074508, arXiv:1011.0892 [hep-lat].
+[88] RBC, UKQCD Collaboration, T. Blum et al., “Domain wall QCD with physical quark masses,” Phys. Rev. D 93
+     no. 7, (2016) 074505, arXiv:1411.7017 [hep-lat].
+[89] RBC/UKQCD Collaboration, P. A. Boyle, L. Del Debbio, N. Garron, A. Juttner, A. Soni, J. T. Tsang, and
+     O. Witzel, “SU(3)-breaking ratios for D(s) and B(s) mesons,” arXiv:1812.08791 [hep-lat].
+[90] T. Blum, T. Izubuchi, and E. Shintani, “New class of variance-reduction techniques using lattice symmetries,” Phys.
+     Rev. D 88 no. 9, (2013) 094503, arXiv:1208.4349 [hep-lat].
+                                                                                                                                21
+
+ [91] E. Shintani, R. Arthur, T. Blum, T. Izubuchi, C. Jung, and C. Lehner, “Covariant approximation averaging,” Phys.
+      Rev. D 91 no. 11, (2015) 114511, arXiv:1402.0244 [hep-lat].
+ [92] S. Meinel, “Status of next-generation Λb → p, Λ, Λc form-factor calculations,” PoS LATTICE2023 (2024) 275,
+      arXiv:2309.01821 [hep-lat].
+ [93] D. B. Kaplan, “A Method for simulating chiral fermions on the lattice,” Phys. Lett. B 288 (1992) 342–347,
+      arXiv:hep-lat/9206013.
+ [94] V. Furman and Y. Shamir, “Axial symmetries in lattice QCD with Kaplan fermions,” Nucl. Phys. B 439 (1995) 54–78,
+      arXiv:hep-lat/9405004.
+ [95] Y. Shamir, “Chiral fermions from lattice boundaries,” Nucl. Phys. B 406 (1993) 90–106, arXiv:hep-lat/9303005.
+ [96] R. C. Brower, H. Neff, and K. Orginos, “The Möbius domain wall fermion algorithm,” Comput. Phys. Commun. 220
+      (2017) 1–19, arXiv:1206.5214 [hep-lat].
+ [97] Y. Iwasaki and T. Yoshie, “Renormalization Group Improved Action for SU(3) Lattice Gauge Theory and the String
+      Tension,” Phys. Lett. B 143 (1984) 449–452.
+ [98] S. Meinel and G. Rendon, “Λb → Λ∗ (1520)ℓ+ ℓ− form factors from lattice QCD,” Phys. Rev. D 103 no. 7, (2021)
+      074505, arXiv:2009.09313 [hep-lat].
+ [99] S. Meinel and G. Rendon, “Λb → Λ∗c (2595, 2625)ℓ− ν̄ form factors from lattice QCD,” Phys. Rev. D 103 no. 9, (2021)
+      094516, arXiv:2103.08775 [hep-lat].
+[100] S. Meinel and G. Rendon, “Λc → Λ∗ (1520) form factors from lattice QCD and improved analysis of the Λb → Λ∗ (1520)
+      and Λb → Λ∗c (2595, 2625) form factors,” Phys. Rev. D 105 no. 5, (2022) 054511, arXiv:2107.13140 [hep-lat].
+[101] W. E. Caswell and G. P. Lepage, “Effective Lagrangians for Bound State Problems in QED, QCD, and Other Field
+      Theories,” Phys. Lett. B 167 (1986) 437–442.
+[102] E. Eichten and B. R. Hill, “An Effective Field Theory for the Calculation of Matrix Elements Involving Heavy Quarks,”
+      Phys. Lett. B 234 (1990) 511–516.
+[103] E. Eichten and B. R. Hill, “Renormalization of Heavy - Light Bilinears and fB for Wilson Fermions,” Phys. Lett. B 240
+      (1990) 193–199.
+[104] ALPHA Collaboration, J. Heitger and R. Sommer, “Nonperturbative heavy quark effective theory,” JHEP 02 (2004)
+      022, arXiv:hep-lat/0310035.
+[105] R. Sommer, “Introduction to Non-perturbative Heavy Quark Effective Theory,” in Les Houches Summer School:
+      Session 93: Modern perspectives in lattice QCD: Quantum field theory and high performance computing, pp. 517–590. 8,
+      2010. arXiv:1008.0710 [hep-lat].
+[106] Z. S. Brown, W. Detmold, S. Meinel, and K. Orginos, “Charmed bottom baryon spectroscopy from lattice QCD,” Phys.
+      Rev. D 90 no. 9, (2014) 094507, arXiv:1409.0497 [hep-lat].
+[107] S. Meinel, “Bottomonium spectrum at order v 6 from domain-wall lattice QCD: Precise results for hyperfine splittings,”
+      Phys. Rev. D 82 (2010) 114502, arXiv:1007.3966 [hep-lat].
+[108] G. P. Lepage, “lsqfit: Least-squares data fitting for python,” 2023. https://github.com/gplepage/lsqfit.
+[109] W. I. Jay and E. T. Neil, “Bayesian model averaging for analysis of lattice field theory results,” Phys. Rev. D 103
+      (2021) 114502, arXiv:2008.01069 [stat.ME].
+[110] B. Blok, J. G. Korner, D. Pirjol, and J. C. Rojas, “Spectator effects in the heavy quark effective theory,” Nucl. Phys. B
+      496 (1997) 358–374, arXiv:hep-ph/9607233.
+[111] E. E. Jenkins, “Heavy meson masses in chiral perturbation theory with heavy quark symmetry,” Nucl. Phys. B 412
+      (1994) 181–200, arXiv:hep-ph/9212295.
+[112] Flavour Lattice Averaging Group (FLAG) Collaboration, Y. Aoki et al., “FLAG review 2024,” Phys. Rev. D 113
+      no. 1, (2026) 014508, arXiv:2411.04268 [hep-lat].
+[113] W. Detmold, C. J. D. Lin, and S. Meinel, “Axial couplings and strong decay widths of heavy hadrons,” Phys. Rev. Lett.
+      108 (2012) 172003, arXiv:1109.2480 [hep-lat].
+[114] ALPHA Collaboration, F. Bernardoni, J. Bulava, M. Donnellan, and R. Sommer, “Precision lattice QCD computation
+      of the B ∗ Bπ coupling,” Phys. Lett. B 740 (2015) 278–284, arXiv:1404.6951 [hep-lat].
+[115] RBC, UKQCD Collaboration, J. M. Flynn, P. Fritzsch, T. Kawanai, C. Lehner, B. Samways, C. T. Sachrajda, R. S.
+      Van de Water, and O. Witzel, “The B ∗ Bπ Coupling Using Relativistic Heavy Quarks,” Phys. Rev. D 93 no. 1, (2016)
+      014510, arXiv:1506.06413 [hep-lat].
+[116] ALPHA Collaboration, A. Gérardin, J. Heitger, S. Kuberski, H. Simma, and R. Sommer, “Precision B ∗ Bπ coupling
+      from three-flavor lattice QCD,” PoS LATTICE2021 (2022) 540, arXiv:2111.04693 [hep-lat].
+[117] Particle Data Group Collaboration, S. Navas et al., “Review of particle physics,” Phys. Rev. D 110 no. 3, (2024)
+      030001.
+[118] Please see the Supplemental Material for files containing, for each ensemble, the B, B ∗ , and Tbb energies in lattice units,
+      the B ∗ − B hyperfine splitting in MeV, and the Tbb binding energy in MeV.
+[119] P. Boyle, G. Cossu, A. Yamaguchi, and A. Portelli, “Grid: A next generation data parallel C++ QCD library,” PoS
+      LATTICE2015 (2016) 023, arXiv:1512.03487 [hep-lat].
+[120] C. Lehner, M. Bruno, D. Richtmann, M. Schlemmer, R. Lehner, D. Knüttel, T. Wurm, L. Jin, S. Bürger, A. Hackl, and
+      A. Klein, “Grid Python Toolkit (GPT), 2024-10,” 10, 2024. https://doi.org/10.5281/zenodo.14017415.
+[121] A. Gray, I. Allison, C. T. H. Davies, E. Dalgic, G. P. Lepage, J. Shigemitsu, and M. Wingate, “The Upsilon spectrum
+      and m(b) from full lattice QCD,” Phys. Rev. D 72 (2005) 094507, arXiv:hep-lat/0507013.
+

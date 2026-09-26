@@ -1,0 +1,23 @@
+A2 isospin-limit F_K/F_pi = 1.2065(15)
+A2 charged    f_K+/f_pi+ = 1.2030(18)
+
+CHARGED (isospin-broken QCD) vs A2 charged:
+  FLAG 2+1+1 avg                     1.1934(19)  +3.69 sigma   old mixed: +5.41   flag.txt:4119
+  ETM 21                             1.1957(45)  +1.52 sigma   old mixed: +2.30   flag.txt:3886
+  CalLat 20                          1.1942(45)  +1.84 sigma   old mixed: +2.62   flag.txt:3887
+  FNAL/MILC 17                       1.1950(23)  +2.72 sigma   old mixed: +4.13   flag.txt:3888
+  HPQCD 13A                          1.1916(22)  +4.04 sigma   old mixed: +5.61   flag.txt:3895
+  Hudspith 2026                      1.1962(34)  +1.78 sigma   old mixed: +2.77   a2605.06560.txt:161
+  Conigli 2025 (2+1)                 1.1848(105)  +1.70 sigma   old mixed: +2.04   a2512.19294.txt:800
+ISOSPIN LIMIT vs A2 iso:
+  Cirigliano 2022 avg (=PDG 1.1978)  1.1978(22)  +3.27 sigma   a2208.11707.txt:135
+  Hudspith 2026 iso                  1.1984(34)  +2.18 sigma   a2605.06560.txt:147
+  Conigli 2025 iso                   1.1872(103)  +1.85 sigma   a2512.19294.txt:915
+
+[PASS] P1 charged FLAG tension in (3,5): 3.69
+[PASS] P2 iso Cirigliano tension in (3,5): 3.27
+[PASS] P3 newest single results within 3 sigma: [1.78, 1.7, 2.18, 1.85]
+[PASS] C1 1.1978*sqrt(1-0.0073) = 1.1934 vs 1.1934
+[PASS] C2 0.27679/1.1978 = 0.23108 vs 0.23108
+
+SCORE 5/5
