@@ -1,0 +1,13 @@
+[PASS] all generators in so(5,2)
+[PASS] P0 nilpotent (parabolic)
+[PASS] K0 nilpotent (parabolic)
+   eig D  = [-1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+[PASS] D hyperbolic (real nonzero eigenvalues)
+   eig L0 = [-1j, 0j, 0j, 0j, 0j, 0j, 1j]
+[PASS] L0 elliptic (purely imaginary eigenvalues)
+[PASS] sl(2,R): [D,P0]=-1P0, [D,K0]=+1K0, [P0,K0]=-2D
+[PASS] J=M(0,6) is compact and commutes with so(5)xso(2)'s so(5) on x1..x5
+[PASS] L0 and J have the same spectrum (conjugate elliptic elements)
+[PASS] control: the other sign (P0+K0)/2 is HYPERBOLIC (a boost), not elliptic
+[PASS] control: P0 spectrum differs from J's
+VERDICT: ALL PASS

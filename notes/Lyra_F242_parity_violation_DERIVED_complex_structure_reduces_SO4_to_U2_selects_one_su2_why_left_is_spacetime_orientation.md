@@ -5,6 +5,8 @@ date: "2026-06-20 Saturday 10:30 EDT"
 status: "v0.1 — SOLID: embedding SO(5,2)⊃SO(4,2), SO(4)⊂SO(5)=Lorentz, SO(2) shared=J=energy/time; chirality=SO(4) split, J-sign=energy (corrects F241/Elie); complex structure reduces SO(4)→U(2) selecting one su(2) (verified computation + standard Kähler/holonomy). STRONG-LEAD (the embedding identification): the physical weak gauge group = the J-selected SO(4) survivor ⟹ parity violation chiral-by-complex-structure. SOLID-given-mechanism: why-left = spacetime orientation, one ℤ/2. Count HOLDS 4. With Elie. For Casey, Elie, Grace, Cal, Keeper."
 ---
 
+> **RETIRED IN PART — dated head, Keeper 2026-09-26 (Lyra R5 item 2; Elie toy 5797 13/13; Cal Section 990 accepted).** Net-table **rows 3–5 are RETIRED**: "J reduces SO(4)→U(2), selecting one su(2)", "weak force = J-selected su(2)", and "why-left = self-duality class of J". F242 computed with J₁₂+J₃₄ ∈ so(4), an element of SO(5)'s algebra, not K's J. **K's J is central in K = SO(5)×SO(2), so it commutes with BOTH su(2) factors of SO(4) and selects no hand.** Rows 1–2 stand (the embedding; J-sign = energy, not chirality). What survives as a lead: a hand requires identifying QM's i with ±⋆ on the bivectors of ℝ^{3,1}. That is **one route**, not "iff" (Cal Section 990: axial background, CP-odd term, spin-structure choice are others). Retired, not deleted (Cal Section 977).
+
 # F242 — Parity violation, derived: the complex structure selects the chiral su(2)
 
 Casey: *"find the proper derivation. Work with Elie."* The F241 brake was right that we hadn't reconciled the two gradings — and the reconciliation is exactly what completes the derivation. The fix: stop guessing which grading is chirality; **embed the 4d conformal group and let it tell us.**

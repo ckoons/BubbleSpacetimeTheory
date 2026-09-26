@@ -81,6 +81,7 @@ The restriction H²|SO(4,2) = ⊕_{k≥0} H_{5/2+k}(D_IV⁴) (holomorphic-type p
 
 **Kill line (written first):** if a record of several written directions is an ordered list, or a multiset, and not a subspace, exclusion does not follow.
 - **Statement:** if a record of k written directions is the oriented subspace they span (its Plücker image v₁∧…∧v_k), then a direction cannot be recorded twice (v∧v = 0, toy P7) and the record is antisymmetric. A *complete* record of all three directions is Λ³ℂ³ = ε, which is one-dimensional. That is exactly the colour singlet ε_{abc} of a baryon. **SU(3), not U(3), is the group preserving h and ε** (P7: the centre's phase moves ε). So "special" in SU(3) means "a complete record keeps its orientation", and the ℤ₃ centre acts trivially on it, which is baryon number mod 3 (K1700b).
+  - **~~Clause citing K1700b~~ STRUCK (Keeper 2026-09-26 on Cal Section 990 (7)):** K1700b retracts "the centre is B mod 3". Triality t = 3B mod 3 ≡ 0 on every colour singlet; the centre acts trivially on ε because ε is a singlet (t = 0). The rest of the item stands at IDENTIFIED.
 - **Walls:** (i) *why* a record is a subspace rather than a list is a reading of "record", not derived. (ii) This is exclusion for records; Pauli for particles needs the row Cal Section 954 flagged as missing ("no row relates record space to particle space"). (iii) Spin-½ is unchanged. **Tier: IDENTIFIED.**
 
 ## 8. Exotics: the two kill lines (Casey, K1925 addenda 3–4)

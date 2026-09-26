@@ -46,3 +46,11 @@ The instrument checks this as an identity of K-types to weight λ + 40. The nega
 - **Elie:** the instrument is Keeper's. The toy with a control from round 5 stays Elie's and is independent.
 
 **Confidence.** Containment NO: high for scalar modules. The argument is a weight inequality on invariants, not a fit. Recapitulation (a) and (b): exact counts, with the instrument retained.
+
+---
+
+## ADDENDUM 2026-09-26 11:24 EDT — four routes concur; two calibrations taken
+- **Concurrence:** Lyra R5 item 3 (toy 5800), Elie toy 5798 (8/8), and Cal Section 990 (counts checked independently to m = 29) reach the same verdict as K1927: containment NO, recapitulation YES.
+- **Calibration 1 (Cal; Elie):** the n² restriction is Fock's S³ ⊂ S⁴. It is present in any SO(5)-invariant scalar theory, and Elie finds it for D_IV⁴ through D_IV⁸ alike. **BST's own content is the offset: 5/2 = n_C/2 (Hardy) against hydrogen's 1.** Section 4's "only the placement" already said this; now it says it by name.
+- **Calibration 2 (Cal):** "n is the clock reading" (this note, Section 3, implicitly) is a COORDINATE. Hydrogen's dynamical SO(4,2), which acts on Fock's momentum sphere with compact generator n and energy −1/2n², is not the spacetime SO(4,2) ⊂ SO(5,2), whose compact generator is the conformal Hamiltonian. They are isomorphic groups acting on different spaces. The placement (Wallach point of D_IV⁴) stays a POSITION.
+- **Pin landed:** Jakobsen & Vergne, "Restrictions and expansions of holomorphic representations", J. Funct. Anal. 34 (1979) 29–53, which includes a detailed study of O(4,2) (ScienceDirect record; Vergne's publication page). The explicit maps H_λ(D_IV^n) → H_{λ+k}(D_IV^{n−1}) (symmetry-breaking and holographic operators) are Kobayashi–Pevzner's programme. They are given for SO(2,n) → SO(2,n−p) in Labriet, arXiv:2203.00009 (2022).
