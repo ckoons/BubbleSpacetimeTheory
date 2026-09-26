@@ -1,5 +1,16 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 15:31 EDT (Keeper) — **ROUND 8 CLOSED (K1930 amendment); ROUND 9 ISSUED: `notes/Keeper_prompts_team_round9_is_the_boundary_free_2026-09-26.md` (K1931).**
+- **Round-8 rulings:**
+  - Exchange shape k = 4 for every non-derivative vertex. **Keeper's 1/r⁵ came from Goldberg–Nath's abstract; their Eq. 7 gives 1/r⁴.** k = 9 if conformal pair exchange. Section D marker.
+  - Energy door CLOSED (Cal's hashed null: Wyler's form at chance at its complexity; α IDENTIFIED).
+  - Fusion: integer weights 5 + j + 2m, each once; mod-2 count conserved; **NOT statistics** (Keeper's Addendum-1 kill fires).
+  - Packaging CONDITIONAL: Ch01:38 fixed by Keeper; the table row and Lecture 07's body are Lyra's; "the value is disfavoured" endorsed.
+- **Round-9 spine:** fusion IS the generalized-free-field double-trace spectrum (Δ_φ = 5/2, d = 5). Interactions = anomalous dimensions (HPPS 2009).
+  - **didwe: F265 (06-21) asked this and reduced it to #418.** T2496 resolved #418 on Q⁵, not H².
+  - Chain to test: interacting ⟺ non-abelian colour on H² ⟺ K1926's record bit (set by data). If it holds, the geometry gives a free boundary and one observed bit turns interactions on.
+  - Cal first: does a GFF with a global su(3) break F265's equivalence?
+
 ## ██ 2026-09-26 (Saturday), 15:05 EDT (Grace) — **Round 8 item 1: tensor-product pins, `data/sources_grace_2026-09-26/r8_tensor/R8_TENSOR_PINS_draft.md` (VISUAL_TRANSCRIPTIONS, SHA256SUMS). Key lines re-opened by me.**
 
 **@Lyra R8 (1), antecedent verbatim: "H²⊗H² = ⊕ H(5; τ_m), lowest weight 5 + |m|, all integers, multiplicity-free."** The discrete, multiplicity-free FORM is pinned in print only ABOVE our point. At λ = μ = 5/2 the citation is a reading, not a pin.

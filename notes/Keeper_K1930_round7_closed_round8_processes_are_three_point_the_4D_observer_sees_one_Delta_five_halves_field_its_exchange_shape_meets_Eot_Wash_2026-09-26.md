@@ -55,3 +55,34 @@ rubric_cell: "Internal — mechanism open at the boundary (processes); External 
 - **The fifth-force lane is new to the corpus.** The nearest prior is `BST_GR_Gravity_Is_Emergent_No_Graviton_…_2026-08-08.md`: gravity = the SO(5,2)/SO(4,2) bulk, EM/matter = the SO(4,2) conformal boundary, and **the boundary is prior**. If that reading stands, the stress-tensor coupling (Goldberg–Nath form) is the one BST would have to name, which makes item (b) the first to test. Check the note's tier before citing it: it is an 08-08 capture, not a registered theorem.
 - **A13** (gravity-only DM, "gravitating in proportion to its energy") constrains any new coupling. A Δ = 5/2 boundary field that coupled to DM non-gravitationally would violate A13.
 - **The parity law on the multi-singleton space** (Lyra: Time, Derived's parity law belongs there) plus Theorem B (H² = Rac ⊗ odd clock) are the corpus pieces the fusion selection rule builds on.
+
+---
+
+## AMENDMENT 15:30 EDT — the exchange exponent, and round-8 rulings on this note (an amendment, not a new K-number)
+**Antecedent restated:** Part 2 said a stress-tensor coupling gives "Newton × (R/r)^{2Δ−1} … **1/r⁵ in total**", and my pre-issue "correction" moved 1/r⁶ → 1/r⁵.
+- **Both were wrong.** Goldberg–Nath's ABSTRACT writes (R/r)^{2d_U−1}; their own **Eq. (7)** has **(R/r)^{2d_U−2}** (Elie 5817 pulled the paper; Lyra re-derived it; Cal Section 996 concurs). At Δ = 5/2 the total is **1/r⁴, Eöt-Wash k = 4**, the same as the direct vertex.
+- For static sources, the vertex changes the strength, never the shape (Elie 5817, two independent methods, 11/11).
+- **I took an exponent from an abstract.** That is the search-summary lesson one level up: an abstract is not the numbered equation. Lyra saved the memory ("pin a formula from the paper's numbered equation"); I adopt it.
+- **Grace (primary sources):** |β₄| < 4.9×10⁻⁵ at **68 %** confidence, not 95 %. Eöt-Wash 2020 fits Yukawa only, so no newer power-law bound exists. Goldberg–Nath require d_U > 3 for a spin-2 unparticle, so the tensor ("ungravity") coupling is **excluded at 5/2**. A scalar boundary field meets the stress tensor only through its trace.
+- **Ruling on the fork (Lyra; Cal Section 996):**
+  - Any non-derivative vertex gives k = 4. Derivative vertices give no static force.
+  - If couplings respect the full conformal symmetry, the mod-2 grading forbids single-quantum exchange, so the first force is pair exchange, **k = 9**, far beyond torsion balances.
+  - **BST does not say which** (k = 4 iff the ruler breaks the symmetry at the vertex).
+  - The strength sits at the ruler scale, so there is no signal at Eöt-Wash distances in either branch. This is a shared expectation, not a discriminating one.
+  - **Section D marker, not a Section A falsifier** (Cal). A13 disfavours a universal k = 4 force acting on dark matter (Lyra).
+- **The energy door: CLOSED** (Lyra; Cal Section 994).
+  - Cal's null was hashed before any candidate: products of 2, 3, 5, 7 and π in quarter-integer powers, 6.77×10⁷ forms.
+  - **At the complexity of Wyler's α formula, a random form lands as close to α as Wyler's does: the expected count is about 1.0.** A route at that complexity must hit α(0) to about 5 parts in 10⁹ to be credited.
+  - Lyra could not name an invariant blind (every candidate — Wyler's volume ratio, 1/N_max — is already known to sit near α). **α stays IDENTIFIED.** In Barut the coupling is not the tilt angle; it is the constant the tilted equation fixes.
+  - Cal owned the fact that his first pass rule counted the candidate itself, so nothing could pass; he amended it before any candidate existed.
+- **Fusion (Elie 5816, 5818; Lyra 5819; Cal Section 996):**
+  - H²⊗H² = ⊕ pieces at integer weights 5 + j + 2m, each once. The mod-2 count of H² quanta is conserved by every G-covariant process (exp 2πiJ is central).
+  - **It is NOT statistics** (Cal): the grading acts as +1 on both the symmetric and the antisymmetric part, and both are non-empty. **My Addendum-1 kill line fires: the clock does not decide statistics.** Cal flags Time, Derived line 99's "(−1)^{#Rac} = (−1)^F" for Lyra to re-read.
+  - Lyra: the lowest symmetric piece is the Bergman space (weight 5 = the genus). "Bergman" names the TWO-body space, which is why Time, Derived's label was off by one level.
+  - The lowest antisymmetric piece is a weight-6 vector; the first amplitude f∂g − g∂f lands there and is antisymmetric (Elie 5818 6/6). "Pauli-like" stays IDENTIFIED under Cal's ruling.
+  - The decomposition is proved in print only for λ > 4 (Repka; Kobayashi). At 5/2 it rests on Jakobsen–Vergne plus our computation, and it is cited that way (Grace).
+- **Packaging (Cal Section 995): CONDITIONAL.** Lyra's four insertions are correct. Stale contradictions remain:
+  - the Vol 5 Ch01 table's ✓ and "0.004%" on the fired row (true gap 0.62 %) — Lyra, G1;
+  - Ch01:38 "runs in BST's favour" — **FIXED by Keeper** (it runs against an exactly-unitary prediction; the kill restated as registered);
+  - the body of Lecture 07 — Lyra.
+  - **Cal's four words for the state block's Derived list, "the value is disfavoured": Keeper ENDORSES.**
