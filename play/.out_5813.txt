@@ -1,0 +1,27 @@
+  Tcc(3875)          3874.7    D0+D*+  thr  3875.11  μ =   967.4  δ =    -0.4
+  Tccbar1(3900)      3886.7    D++D*+  thr  3879.93  μ =   968.7  δ =    +6.8
+  Tccbars1(4000)     3995.0   Ds*+D+   thr  3981.86  μ =   991.8  δ =   +13.1
+  Tccbar(4020)       4024.1   D*++D*+  thr  4020.54  μ =  1005.1  δ =    +3.6
+  Tccbar(4050)       4051.0    Ds+Ds*  thr  4080.55  μ =  1018.9  δ =   -29.5
+  Tccbar(4055)       4054.0    Ds+Ds*  thr  4080.55  μ =  1018.9  δ =   -26.5
+  Tccbar(4100)       4096.0    Ds+Ds*  thr  4080.55  μ =  1018.9  δ =   +15.5
+  Tccbars1(4220)     4216.0   Ds*+D*+  thr  4122.47  μ =  1030.0  δ =   +93.5
+  Tccbar0(4240)      4239.0   Ds*+Ds*  thr  4224.40  μ =  1056.1  δ =   +14.6
+  Tccbar1(4200)      4242.0   Ds*+Ds*  thr  4224.40  μ =  1056.1  δ =   +17.6
+  Tccbar(4250)       4248.0   Ds*+Ds*  thr  4224.40  μ =  1056.1  δ =   +23.6
+  Tccbar1(4430)      4478.0   Ds*+Ds*  thr  4224.40  μ =  1056.1  δ =  +253.6
+  Tcccc(6600)        6646.0  no V_OPEN threshold -> excluded by definition
+  Tcccc(6900)        6898.0  no V_OPEN threshold -> excluded by definition
+  Tcccc(7100)        7134.0  no V_OPEN threshold -> excluded by definition
+  Tbbbar1(10610)    10607.2    B0+B*   thr 10604.47  μ =  2651.1  δ =    +2.7
+  Tbbbar1(10650)    10652.2    B*+B*   thr 10649.50  μ =  2662.4  δ =    +2.7
+
+5813: N = 14; Spearman ρ_s(|δ|, μ) = +0.182; permutation p(ρ ≥ obs) = 0.266, two-sided p = 0.529
+[PASS] 5813 KILL (ρ_s > 0 at p < 0.05: |δ| tracks μ like OPE) NOT fired  
+[PASS] 5813 DIRECTION: no significant correlation either sign (two-sided p > 0.05)  
+   power: an |δ| ∝ μ law with the observed scatter gives mean ρ_s = +0.135; detected at p<0.05 in 11% of draws
+
+5813b: below-threshold subset N = 3: ['Tcc(3875)', 'Tccbar(4050)', 'Tccbar(4055)']
+[FAIL] 5813b: at least 4 below-threshold states (else 'no test')  
+
+SCORE: 2/3
