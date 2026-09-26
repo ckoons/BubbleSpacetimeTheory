@@ -372,6 +372,26 @@ else:
     if _recent_bad:
         findings.append(("DRIFT", "register", f"{len(_recent_bad)} register row(s) dated within 3 days are BLANK (model_error), e.g. {', '.join(map(str, _recent_bad[:4]))} -- the nightly's model is failing; check `ollama list` against APPROACHES_MODEL", "Keeper"))
 
+# ---------- K1930 (2026-09-26): a DERIVED claim whose falsifier FIRED must say so where it is presented ----------
+# A2 (lambda = 1/sqrt20 with |V_ud| = sqrt(19/20)) FIRED on K_mu2 (K1928, certified). Every presentation line that shows
+# 1/√20 must also carry the fired status on that line. Positive control: before Lyra's edit this rule fires.
+_fired_sites = ["notes/BST_PRESENTATION_STATE_BLOCK.md", "Curriculum/Spine_DIV5_QM_GR_SM/Lecture_07_Mixing.md",
+                "Curriculum/Spine_DIV5_QM_GR_SM/Lecture_10_The_Method_and_How_to_Kill_It.md", "Guide/Vol5_Predictions/Ch01_Predictions_Program.md"]
+_unmarked = []
+for _p in _fired_sites:
+    if not os.path.exists(_p): continue
+    for _n, _l in enumerate(open(_p, encoding="utf-8"), 1):
+        if _l.lstrip().startswith("sources:"): continue  # a citation list names T2530; it presents no claim (exemption stated 09-26)
+        if ("1/√20" in _l or "1/sqrt(20)" in _l) and not re.search(r"A2[^|]{0,200}fired|fired[^|]{0,200}A2", _l, re.I):
+            _unmarked.append(f"{os.path.basename(_p)}:{_n}")
+        # widened 09-26: a falsifier LIST names the row as **A2** without the number (Lecture 10:90 slipped the 1/√20 key)
+        for _m in re.finditer(r"\*\*A2\*\*([^*]{0,400})", _l):
+            if not re.search(r"fired", _m.group(1), re.I): _unmarked.append(f"{os.path.basename(_p)}:{_n} (**A2** row)")
+if _unmarked:
+    findings.append(("DRIFT", "fired", f"{len(_unmarked)} presentation line(s) present A2 (λ = 1/√20 or the **A2** row) without its fired status (K1928/K1930 Section 3(a)): {', '.join(_unmarked[:6])}", "Lyra (applies), Cal (gates)"))
+else:
+    findings.append(("OK", "fired", "every presentation line showing λ = 1/√20 carries A2's fired status", None))
+
 # ---------- REPORT ----------
 order = {"ERROR":0,"DRIFT":1,"STALE":2,"WARN":3,"REVIEW":4,"NOTE":5,"OK":6}
 findings.sort(key=lambda f: order.get(f[0], 9))
