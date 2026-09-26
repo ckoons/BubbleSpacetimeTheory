@@ -35816,6 +35816,20 @@
    "date": "2026-09-11",
    "plain": "Ten rules make ordinary quantum mechanics, and this program recovers all ten on its one space — but not all at the same strength. Seven are derived; one is proved with a caveat about a word; one rests on a step the program admits it assumes (going from five dimensions to four); one passes through an assumption about the rank. Four assumptions are named in the chains. So the honest sentence is \"ten of ten recovered, at the tiers listed\" — never \"ten of ten derived with nothing assumed\".",
    "generator_note_2026_09_13": "items 2–3: generator is J (linear conformal Hamiltonian), H_B superseded on this clause; collision recorded; Cal §954, Grace G3, sha256 e063281be3165166"
+  },
+  {
+   "tid": 2632,
+   "name": "CAYLEY TRANSFORM — POINTER ROW (no new claim): a change of REALIZATION, not a conjugation; the clock J stays elliptic",
+   "domain": "spacetime",
+   "status": "POINTER (no new claim)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "Cal Section 992 (F) / Grace R165",
+   "toys": [
+    5806
+   ],
+   "date": "2026-09-26",
+   "plain": "The same geometry can be drawn two ways: as a round ball or as ordinary spacetime with a direction of time. The Cayley transform switches between the drawings. It does not turn the ball's clock into spacetime's energy — those are different kinds of motion, and no change of drawing can swap them. Segal once read their difference as the redshift of galaxies; observations ruled that out."
   }
  ],
  "edges": [
@@ -87345,6 +87359,11 @@
    "to": 2631,
    "source": "derived",
    "label": "input to the ten-item row (item 8)"
+  },
+  {
+   "from": 2625,
+   "to": 2632,
+   "source": "pointer: tube picture (Grace R165, Cal 992 F)"
   }
  ],
  "chains": {},
@@ -134099,6 +134118,20 @@
    "date": "2026-09-11",
    "plain": "Ten rules make ordinary quantum mechanics, and this program recovers all ten on its one space — but not all at the same strength. Seven are derived; one is proved with a caveat about a word; one rests on a step the program admits it assumes (going from five dimensions to four); one passes through an assumption about the rank. Four assumptions are named in the chains. So the honest sentence is \"ten of ten recovered, at the tiers listed\" — never \"ten of ten derived with nothing assumed\".",
    "generator_note_2026_09_13": "items 2–3: generator is J (linear conformal Hamiltonian), H_B superseded on this clause; collision recorded; Cal §954, Grace G3, sha256 e063281be3165166"
+  },
+  {
+   "tid": 2632,
+   "name": "CAYLEY TRANSFORM — POINTER ROW (no new claim): a change of REALIZATION, not a conjugation; the clock J stays elliptic",
+   "domain": "spacetime",
+   "status": "POINTER (no new claim)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "Cal Section 992 (F) / Grace R165",
+   "toys": [
+    5806
+   ],
+   "date": "2026-09-26",
+   "plain": "The same geometry can be drawn two ways: as a round ball or as ordinary spacetime with a direction of time. The Cayley transform switches between the drawings. It does not turn the ball's clock into spacetime's energy — those are different kinds of motion, and no change of drawing can swap them. Segal once read their difference as the redshift of galaxies; observations ruled that out."
   }
  ],
  "metadata": {

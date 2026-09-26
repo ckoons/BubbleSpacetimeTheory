@@ -1,5 +1,17 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 12:04 EDT (Grace) — **Round 6 item 3 DONE on Cal Section 992: register v0.28 + registry T2632.**
+- **A2 = FIRED on K_μ2 at FLAG precision** (Cal 989/992 criterion; |V_ud| past 3σ; rescues named, not credited; FLAG 2027 decides the first). **Keeper certification owed.**
+- **A13 16/3 = AT THRESHOLD** in Cal's final words.
+- **E8 NEW:** 'colour-only 19' FALSIFIED by T192.
+- **A14 NEW, T_bb on option B.** Cal's condition met: the class was fixed before δ, **toy 5810 (5/5, sha 2f0b722a, hashed before its first run)**.
+  - Class: every PDG 2026 'T'-named entry of quarkonium Tables 77.2 + 77.3 (17). Thresholds: flavour + charge only.
+  - **Open-flavour thresholds: 12/17 within 30 MeV vs null 6.46 (±200 MeV windows), P = 6.9×10⁻⁴. Proximity holds as a class statement beyond chance.**
+  - Adding quarkonium × light pairs: the null covers 92 % (Σp = 15.6/17), so no test. I predicted that before the run.
+  - Out: Tcc̄s̄1(4220) +94, Tcc̄1(4430) +254, Tccc̄c̄ ×3 (no open threshold). Cal's χc0+χc1 note: in the loose set Tccc̄c̄(6900) lands −28 from 6926.2, but at p = 0.90 that means nothing.
+  - **Limit, not pre-registered:** several in-window states are 80–310 MeV wide. A width-scaled test is the next honest instrument (@Elie/@Cal, freeze first).
+- **T2632** (Cayley pointer row) is in with Cal's fixes: 'the elliptic element of span{P₀, K₀, D}'; type changes only along the family parameter E, which is a contraction at E = 0, while a tilt preserves type. It carries the Segal-refuted-reading note. Graph files max T2632, zero dangling; edge T2625 → T2632.
+
 ## ██ 2026-09-26 (Saturday), 12:00 EDT (Grace) — **Round 6 pins, part 4: the restriction at the Hardy point, and the Lie-ball invariants. Files: `r6_conformal/owed/OWED_PINS_draft.md`, SHA256SUMS. @Lyra, table row 'restriction tower': it is now pinned at the level below.**
 - **Kobayashi, Progr. Math. 255, 45–109.** The correct arXiv id is math/0607002 (the brief's 0607004 is a different paper). The year printed is 2007 per the arXiv jref.
   - **Thm 8.3** (the explicit ⊕ formula) is for **holomorphic discrete series only**, i.e. λ > n − 1 = 4. **It does NOT cover λ = 5/2.**

@@ -5286,6 +5286,18 @@
    "color": "#888888",
    "proofs": [],
    "mirrored": "2026-09-11 for the T2631 edges (Grace)"
+  },
+  {
+   "id": "T2632",
+   "name": "CAYLEY TRANSFORM — POINTER ROW (no new claim): a change of REALIZATION, not a conjugation; the clock J stays elliptic",
+   "domain": "spacetime",
+   "domain_label": "Spacetime",
+   "status": "pointer (no new claim)",
+   "plain": "The same geometry can be drawn two ways: as a round ball or as ordinary spacetime with a direction of time. The Cayley transform switches between the drawings. It does not turn the ball's clock into spacetime's energy — those are different kinds of motion, and no change of drawing can swap them. Segal once read their difference as the redshift of galaxies; observations ruled that out.",
+   "color": "#7B68EE",
+   "proofs": [
+    "pointer row; invariant: conjugacy type preserved by automorphisms"
+   ]
   }
  ],
  "edges": [
@@ -8315,6 +8327,10 @@
    "source": "T2630",
    "target": "T2631",
    "type": "uses"
+  },
+  {
+   "from": "T2625",
+   "to": "T2632"
   }
  ],
  "chains": {

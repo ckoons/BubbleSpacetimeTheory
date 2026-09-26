@@ -1,0 +1,48 @@
+
+=== V_OPEN ===
+  Tcc(3875)             3874.7  thr   3875.11  δ=    -0.4  IN   p0=0.51  77.3 line 687
+  Tccbar1(3900)         3886.7  thr   3879.93  δ=    +6.8  IN   p0=0.74  77.3 line 689
+  Tccbars1(4000)        3995.0  thr   3981.86  δ=   +13.1  IN   p0=0.49  77.3 line 694 (range 3980-4010, midpoint)
+  Tccbar(4020)          4024.1  thr   4020.54  δ=    +3.6  IN   p0=0.70  77.3 line 697
+  Tccbar(4050)          4051.0  thr   4080.55  δ=   -29.5  IN   p0=0.75  77.2 line 461
+  Tccbar(4055)          4054.0  thr   4080.55  δ=   -26.5  IN   p0=0.75  77.2 line 465
+  Tccbar(4100)          4096.0  thr   4080.55  δ=   +15.5  IN   p0=0.64  77.2 line 467
+  Tccbars1(4220)        4216.0  thr   4122.47  δ=   +93.5  out  p0=0.16  77.3 line 701
+  Tccbar0(4240)         4239.0  thr   4224.40  δ=   +14.6  IN   p0=0.33  77.2 line 481
+  Tccbar1(4200)         4242.0  thr   4224.40  δ=   +17.6  IN   p0=0.32  77.2 line 476
+  Tccbar(4250)          4248.0  thr   4224.40  δ=   +23.6  IN   p0=0.31  77.2 line 485
+  Tccbar1(4430)         4478.0  thr   4224.40  δ=  +253.6  out  p0=0.00  77.2 line 496
+  Tcccc(6600)           6646.0  no threshold in this variant            p0=0.00  77.2 line 513
+  Tcccc(6900)           6898.0  no threshold in this variant            p0=0.00  77.2 line 515
+  Tcccc(7100)           7134.0  no threshold in this variant            p0=0.00  77.2 line 516
+  Tbbbar1(10610)       10607.2  thr  10604.47  δ=    +2.7  IN   p0=0.38  77.3 line 706
+  Tbbbar1(10650)       10652.2  thr  10649.50  δ=    +2.7  IN   p0=0.38  77.3 line 711
+  k/N = 12/17;  null expectation Σp = 6.46;  P(k ≥ 12 | null) = 0.000688;  mean p = 0.38
+
+=== V_ALL ===
+  Tcc(3875)             3874.7  thr   3875.11  δ=    -0.4  IN   p0=0.51  77.3 line 687
+  Tccbar1(3900)         3886.7  thr   3879.93  δ=    +6.8  IN   p0=1.00  77.3 line 689
+  Tccbars1(4000)        3995.0  thr   3992.46  δ=    +2.5  IN   p0=0.96  77.3 line 694 (range 3980-4010, midpoint)
+  Tccbar(4020)          4024.1  thr   4020.54  δ=    +3.6  IN   p0=0.98  77.3 line 697
+  Tccbar(4050)          4051.0  thr   4054.68  δ=    -3.7  IN   p0=0.98  77.2 line 461
+  Tccbar(4055)          4054.0  thr   4054.68  δ=    -0.7  IN   p0=0.98  77.2 line 465
+  Tccbar(4100)          4096.0  thr   4104.03  δ=    -8.0  IN   p0=0.98  77.2 line 467
+  Tccbars1(4220)        4216.0  thr   4183.71  δ=   +32.3  out  p0=0.75  77.3 line 701
+  Tccbar0(4240)         4239.0  thr   4233.96  δ=    +5.0  IN   p0=0.98  77.2 line 481
+  Tccbar1(4200)         4242.0  thr   4233.96  δ=    +8.0  IN   p0=0.98  77.2 line 476
+  Tccbar(4250)          4248.0  thr   4233.96  δ=   +14.0  IN   p0=0.98  77.2 line 485
+  Tccbar1(4430)         4478.0  thr   4483.15  δ=    -5.1  IN   p0=1.00  77.2 line 496
+  Tcccc(6600)           6646.0  thr   6653.07  δ=    -7.1  IN   p0=0.92  77.2 line 513
+  Tcccc(6900)           6898.0  thr   6926.17  δ=   -28.2  IN   p0=0.90  77.2 line 515
+  Tcccc(7100)           7134.0  thr   7148.47  δ=   -14.5  IN   p0=1.00  77.2 line 516
+  Tbbbar1(10610)       10607.2  thr  10604.47  δ=    +2.7  IN   p0=0.88  77.3 line 706
+  Tbbbar1(10650)       10652.2  thr  10649.50  δ=    +2.7  IN   p0=0.88  77.3 line 711
+  k/N = 16/17;  null expectation Σp = 15.64;  P(k ≥ 16 | null) = 0.596;  mean p = 0.92
+
+[PASS] P1 V_OPEN k/N = 12/17 >= 0.5
+[PASS] P2 V_OPEN P(k>=12|null) = 0.000688 < 0.01
+[PASS] P3 V_ALL mean p = 0.92 > 0.5 (loose set cannot discriminate)
+[PASS] C1 X(3872) not in class
+[PASS] C2 on-threshold counts, far does not
+
+SCORE 5/5
