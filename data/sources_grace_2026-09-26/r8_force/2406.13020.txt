@@ -1,0 +1,550 @@
+                                                       Microscale torsion resonators for short-range gravity experiments
+
+                                                  J. Manley,1 C. A. Condos,1 S. Schlamminger,2 J. R. Pratt,2 D. J. Wilson,1 and W. A. Terrano3
+                                                           1
+                                                               Wyant College of Optical Sciences, University of Arizona, Tucson, AZ 85721, USA
+                                                               2
+                                                                 National Institute of Standards and Technology, Gaithersburg, MD 20899, USA
+                                                                  3
+                                                                    Department of Physics, Arizona State University, Tempe, AZ 85281, USA
+                                                        Measuring gravitational interactions on sub-100-µm length scales offers a window into physics
+                                                     beyond the Standard Model. However, short-range gravity experiments are limited by the abil-
+                                                     ity to position sufficiently massive objects to within small separation distances. Here we propose
+                                                     mass-loaded silicon nitride ribbons as a platform for testing the gravitational inverse square law at
+                                                     separations currently inaccessible with traditional torsion balances. These microscale torsion res-
+                                                     onators benefit from low thermal noise due to strain-induced dissipation dilution while maintaining
+                                                     compact size (< 100 µg) to allow close approach. Considering an experiment combining a 40 µg
+                                                     torsion resonator with a source mass of comparable size (130 µg) at separations down to 25 µm, and
+
+
+
+
+arXiv:2406.13020v3 [gr-qc] 21 Aug 2024
+                                                     including limits from thermomechanical noise and systematic uncertainty, we predict these devices
+                                                     can set novel constraints on Yukawa interactions within the 1-100 µm range.
+
+
+                                            Measurements of the gravitational inverse square law         balance experiments [15, 24], making it difficult to probe
+                                         (ISL) at short distances can test physics beyond the            shorter interaction lengths.
+                                         Standard Model [1, 2]. Dark energy generically suggests            Here we propose microscale torsion resonators as a
+                                         a scale for new physics around 100 µm [3], and sev-             platform for measuring gravity on sub-100-µm length
+                                         eral specific theories have been proposed in this regime.       scales. Introduced in Ref. [26], these devices are based on
+                                         For example, “fat gravitons” with size in the 20-95 µm          strained Si3 N4 nanoribbons that have been mass-loaded
+                                         range may solve the cosmological constant problem [4, 5],       with a silicon pad to form sub-milligram, chip-scale tor-
+                                         chameleon fields can have interaction lengths as low as         sion resonators. The compactness and optically flat pla-
+                                         ∼ 25 µm in a laboratory setting [6], and modifications
+                                         to gravity from a “dark dimension” are predicted to
+                                         arise between 1-10 µm [7, 8]. Experimental tests of the
+                                         ISL are also sensitive to short-range Yukawa interactions                              y                              z
+                                         mediated by massive particles such as dilatons [9], ra-                                    x                               y
+                                         dions [10], or gauge bosons [11, 12]. In this context, one
+                                                                                                                                                wx = 350                   x
+                                         can parametrize a violation of the ISL with a Yukawa                                                                 μm
+                                         potential that augments the Newtonian gravitational po-
+                                         tential as                                                                                                                      pad
+                                                                                                                                                                        twist
+                                                                  GM               
+                                                                                                                                        ρpad
+                                                        V (r) = −        1 + αe−r/λ             (1)
+                                                                    r                                         wz = 50 μm                           wy = 1 mm
+                                         at a distance r from a point-mass source M . Here α
+                                                                                                                                    s
+                                         is the interaction strength relative to Newtonian gravity
+                                                                                                                                                       ρlow
+                                         and λ = ℏ/(mb c) is the interaction length, where mb is
+                                                                                                                                               ρhigh               50 μm
+                                         the mass of the exchange boson.
+                                                                                                         source
+                                            A variety of devices have been used to search for            rotation
+                                         Yukawa interactions in the sub-100-µm range, includ-                                           1 mm
+                                         ing torsion balances [3, 13–15], optomechanical can-
+                                         tilevers [16], microelectromechanical torsion oscilla-          FIG. 1. Sketch of the proposed experiment. A 40 µg
+                                         tors [17], levitated particles [18], and Casimir experi-        silicon pad is suspended from a Si3 N4 nanoribbon, forming a
+                                         ments [19, 20]. Of these, only cm-scale torsion bal-            torsion resonator. The heterogeneous source mass consists of
+                                         ances with test masses exceeding 100 mg have achieved           an alternating density pattern, exerting a gravitational torque
+                                         sensitivity to gravitational-strength (|α| = 1) interac-        (along the x-axis) on the pad. The high-density ρhigh re-
+                                         tions [3, 15, 21–24]. The upper bound for the interaction       gion could for example consist of micromachined tungsten or
+                                                                                                         gold (ρAu ≈ ρW = 1.9 × 104 kg/m3 ) that is electroplated
+                                         length of gravitational-strength Yukawa interactions has
+                                                                                                         on a silicon wafer, such that each wedge would be 130 µg.
+                                         been progressively constrained by the Eöt-Wash group           While the low-density ρlow region could be empty space, it is
+                                         from 197 µm in 2001 [13, 14] to 56 µm in 2007 [3],              common to use another material of minimal density such as
+                                         to 42 µm in 2013 [22], and most recently to 39 µm in            silicon [16] or epoxy [25] to maintain a planar surface. An
+                                         2020 [15]. Device planarity and the onset of electrostatic      electrostatic shield (not shown) separates the pad and attrac-
+                                         noise set the lower limit on the minimum surface sep-           tor. Inset: Top view showing the attractor orientation that
+                                         aration between the source and test masses in torsion           produces maximal torque.
+                                                                                                                                                  2
+
+    (a)                                                                (b)
+                    10-21
+                                            Newtonia                                                108
+
+
+
+
+                                                                         interaction strength |α|
+                            λ=1                     n gravity
+                               00 µm
+                                                                                                    106                        300 K
+
+
+     torque (N m)
+                    10-22
+                                                                                                                               300 K (tungsten)
+                             λ=             300 K
+                                  30                                                                104                        4K
+                                       µm
+                                                       4K                                                                      100 mK
+                    10-23                                                                           102
+                              λ = 10 µm                                                                     |α| = 1
+                                                            100 mK                                  100
+                    10-24
+                              40         80      120     160     200                                 10-6             10-5             10-4
+                                       separation s (μm)                                                         interaction length λ (m)
+
+FIG. 2.    Projections for an ISL experiment. (a) Expected Newtonian and Yukawa (for α = 1) torques, calculated
+numerically for the orientation depicted in the inset of Fig. 1 assuming ρlow = 0 and ρhigh = ρAu . The dashed lines indicate
+the expected thermal noise-equivalent torque δN for a single measurement over an averaging time tmeas = 1 day at various
+device temperatures. (b) Dashed curves indicate the projected 2σ minimum detectable coupling strength αmin , assuming a
+measurement campaign that consists of 30 torque measurements, lasting a day each, made at various separations in the range
+[25, 75] µm. Each projection accounts for limitations from thermal noise and systematic uncertainties. The yellow shaded
+region corresponds to existing constraints from Refs. [15, 17, 24]. All calculations assume the pad to be composed of silicon,
+ρpad = 2330 kg/m3 , except for an additional projection in (b) accounting for a case where the pad is fabricated from a denser
+material (tungsten), ρpad = ρW .
+
+
+nar geometry of the microresonators make them well                       separation-independent effects, such as wobble in the
+suited for close approach to a planar source mass, with                  rotary system that produces vibrations at rotation fre-
+most of their mass able to participate in the short-range                quency harmonics. To reduce electrostatic coupling be-
+interaction due to the thinness of the pad. Furthermore,                 tween the source and test masses, an electrostatic shield
+the optical lever readout of their motion does not require               is inserted between the two (omitted from Fig. 1), such
+additional, non-participating mass, as the laser beam re-                as a metallized Si3 N4 membrane [16]. However, coupling
+flects directly off of the pad surface [26]. With mechan-                between the resonator and the shield can still have effects
+ical quality factors exceeding one million due to dissipa-               such as altering the resonator stiffness or presenting a
+tion dilution in the strained Si3 N4 suspension, the de-                 noise source at close separations [15, 27, 28], potentially
+vices reported in [26] possess room
+                                  √ temperature thermal                  requiring the pad be metallized and grounded through
+torque noise below 10−19 N m/ Hz, with the potential                     partial metallization of the ribbon suspension [29]. Re-
+for further noise reduction through cryogenic cooling [16].              maining contact potentials can be compensated by ap-
+The devices may also be less susceptible to noise aris-                  plying a bias voltage to the shield [24].
+ing from electrostatic effects at narrow separations, as
+                                                                           The experiment’s sensitivity is fundamentally limited
+strain-induced stiffness minimizes the overall resonator
+                                                                         by thermal motion of the torsion resonator with a torque-
+motion [27]. Finally, lithographically defined geometry
+                                                                         equivalent power spectral density Sτth = 8πkB T f0 I0 /Q0 .
+ensures precise dimensional control, improving fabrica-
+                                                                         While the moment of inertia I0 = 3 × 10−15 kg m2 only
+tion tolerances while also enabling rapid production of
+                                                                         depends on the pad dimensions, the resonance frequency
+multiple units to gather statistics on fabrication errors.
+                                                                         f0 and quality factor Q0 depend also on the ribbon sus-
+                                                                         pension geometry (see Appendix B). The ribbon is as-
+   An example of the proposed experiment is depicted in
+                                                                         sumed to have a 150 µm width, 40 nm thickness, and 1.5
+Fig. 1, where the gravitational coupling between a tor-
+                                                                         cm total length. Following Ref. [26], these parameters
+sion microresonator and a heterogeneous source mass of
+                                                                         are expected to yield f0√= 137 Hz, Q0 = 6 × 107 , and
+comparable size is measured as a function of separation                  p
+                                                                           Sτth = 3 × 10−20 N m/ Hz at T = 300 K. Each torque
+s. The source mass is continually rotated such that the
+                                                                         measurement is ppolluted by thermal noise with standard
+gravitational torque on the pad oscillates at three times
+                                                                         deviation δN = Sτth /tmeas , depicted by dashed lines in
+the rotation frequency (neglecting higher-order harmon-
+                                                                         Fig. 2a.
+ics). Torque measurements at various separations can be
+used to distinguish a potential Yukawa interaction from                    A nonzero Yukawa interaction would manifest as a de-
+a purely Newtonian gravitational signal, which would                     viation from the expected gravitational torque, so the
+have a different s-dependence, as depicted in Fig. 2a.                   minimum detectable interaction strength αmin is limited
+This procedure also helps discern contributions from                     by uncertainty in both the total torque estimate and the
+                                                                                                                                         3
+
+Newtonian torque model. In particular, errors in cali-            The minimum separation distance in the experiment
+bration, fabrication, or alignment may lead to imperfect       may be limited by electrostatic coupling between the res-
+subtraction of the expected Newtonian contribution. To         onator and the electrostatic shield. Metallization and
+account for these effects, consider a model for the torque     voltage compensation can reduce this effect [24], how-
+on the paddle with contributions from Newtonian gravity        ever, nonuniform potentials on the conducting surfaces
+τG and a Yukawa interaction τY ,                               will remain and present a statistical, separation-distance-
+                                                               dependent noise source in the form of seismic patch field
+           τ (s) = A (τG (s, β) + τY (s, β)) + B,       (2)
+                                                               coupling [27, 30]. Polycrystallinity, surface contamina-
+where β is a vector whose components represent experi-         tion, or variation in chemical composition produce a
+mental parameters (including α) that determine the grav-       nonuniform surface potential, commonly referred to as
+itational signal and A and B are parameters encoding           “patch potentials” [31]. Random translational or rota-
+systematic error in the torque calibration. Multiple mea-      tional motion of the oscillator along any axis causes it to
+surements at different locations s distinguish the Yukawa      sample the spatially random and anharmonic potential
+torque from the Newtonian torque, inferring a best fit         established by the patch fields, resulting in random forces
+value for α. However, each torque measurement will con-        and torques. Due to the short range of the patch fields
+tain uncorrelated error due to thermal torque noise with       whose length scale is assumed to be smaller than the
+standard deviation δN , such that a nonzero estimate of        separation distance s, this effect is more pronounced at
+α may be inferred even in the absence of a Yukawa force.       shorter distances and is expected to scale as s−4 [32, 33].
+The expected variance of this estimate is used to define       The effect of this seismic patch field coupling can be re-
+the minimum detectable interaction strength αmin to pro-
+duce a statistically significant signal (see Appendix A).
+   Generally, the Newtonian τG and Yukawa τY signals           (a)
+depend on experimental parameters β, such as those                                                                        C
+                                                                                   101
+                                                                                                                              B
+
+                                                                αmin(λ=30 μm)
+parametrizing the shape, size, or alignment of the source
+and test masses. In practice, the value of each param-                                                                A
+eter may not be known exactly and these uncertain-                                        300 K                                   4K
+ties affect αmin (see Appendix A for more details). In                             100
+Fig. 2b we account for uncertainty in the paddle widths
+δwx = δwy = 10 µm and uncertainty in the smallest                                         300 K (tungsten)                    100 mK
+separation δs0 = 5 µm. However, the limits presented
+are dominated by uncertainty in the torque signal cali-                            10-1
+bration, where we have assumed an overall scale factor         (b)
+uncertainty of δA = 25% and no prior knowledge of the
+offset B. Perfect knowledge of these parameters would
+                                                                                    50                                    C
+
+
+                                                                λmin(|α|=1) (μm)
+                                                                                                                  )
+                                                                                                               ten
+reduce αmin (λ = 30 µm) for the 300 K, 300 K (tungsten),
+                                                                                           300 K                              B
+4 K, and 100 mK curves in Fig. 2b by factors of 2.1, 3.1,                                                   g s
+                                                                                                           n
+3.8, and 4.5, respectively.                                                                             (tu               A
+                                                                                    30          0   K
+   Figure 2b depicts the projected minimum detectable
+                                                                                             30                4K
+coupling strength αmin of a torsion resonator within the
+1-300 µm interaction range, including limitations from
+                                                                                    10                                    100 mK
+thermomechanical noise and systematic uncertainties.
+We find that a room temperature experiment consisting                                 0              25       50         75            100
+of 30, one-day-long measurements at separations in the                                              minimum separation s0 (μm)
+range s ∈ [25, 75] µm is capable of probing new parame-
+ter space over the interval 3 µm ≲ λ ≲ 36 µm (dashed red       FIG. 3.      Projected performance versus minimum
+curve). To improve upon this result, additional measures       achievable surface separation. Expected 2σ constraints
+can be taken such as cryogenic cooling to reduce thermal       are calculated as a function of the smallest separation dis-
+noise or fabricating the resonator from a denser material      tance s0 achieved in the experiment. Measurements are as-
+to amplify the Yukawa signal. These scenarios are also in-     sumed to be made on the interval s ∈ [s0 , s0 + 50 µm] with
+                                                               all other parameters the same as in Figs. 1 and 2. (a) The
+cluded in Fig. 2, where the thermal noise variance is sim-     minimum detectable interaction strength αmin at λ = 30 µm
+ply rescaled by the temperature δN 2 ∝ T for cryogenic         and (b) the minimum accessible interaction length λmin for a
+cooling (4 K and 100 mK) and an additional room tem-           gravitational-strength Yukawa force (|α| = 1) are plotted as
+perature projection is included assuming a tungsten test       a function of s0 . The gray shaded region indicates the range
+mass where all other device parameters are held constant,      of values for αmin (λ = 30 µm) and λmin (|α| = 1) that have
+such that the tungsten-based device would have param-          been excluded by other experiments, marked A [15], B [22],
+eters (I0 , f0 , Q0 ) = (3 × 10−14 kg m2 , 48 Hz, 6 × 107 ).   and C [3].
+                                                                                                                                        4
+
+  (a)                                                  300 μm    (c)
+
+                                                                                                                background
+                                                                                   10   -15                     vibrations
+                                        200 μm
+                                                          1 mm
+
+
+                                                                   √Sτ (N m/√Hz)
+                                 1 cm                                                         device
+  (b)
+                          100                        Q0 ≈ 107
+
+
+
+
+    Energy (arb. units)
+                                                                                   10-17
+
+                                                                                                                 measurement
+                                                                                                                 noise
+                          10-1                                                                thermal noise
+                                                                                   10-19
+                                   5           10          15                                   50     60     70     80      90   100
+                                         time (hr)                                                      frequency (Hz)
+
+FIG. 4. Prototype device. (a) Photograph and diagram of a prototype device. A Si3 N4 ribbon with a width of 100 µm and
+thickness of 80 nm spans the 7 mm gap of a window etched into a silicon chip. The ribbon is mass-loaded with a nominally
+300 µm × 1000 µm × 200 µm silicon pad. (b) Ringdown measurement of the torsion mode quality factor. (c) Measurement of
+the device’s torque noise spectrum (black) reveals extraneous noise due to vibrations in the laboratory exceeding the expected
+thermal noise (red) by two orders of magnitude. The  √ measurement contains additional readout noise with an approximately
+white angular displacement spectrum of ∼ 18 nrad/ Hz, modeled by the magenta curve.   √     A concurrent√measurement using a
+commercial seismometer is included (blue), converted to an inferred torque noise via Sτ = (m0 wz /2) Sa .
+
+
+duced by decreasing the oscillator’s motion through a                      possibly due to overestimation of the thin-film stress, for
+combination of vibration isolation and simultaneous feed-                  example. The apparent torque spectrum (Fig. 4c) can
+                                                                                                    −2
+back cooling [34] of the torsional and flexural modes.                     be inferred as Sτ = |χ| Sθ , where the inverse mechani-
+                                                                                                           2
+                                                                           cal susceptibility is χ−1 ≡ (2π) I0 f0 2 − f 2 − if f0 /Q0 .
+                                                                                                                                     
+   The exact limitations on our experiment posed by elec-                                                  √                    √
+trostatic effects are unknown but will likely manifest as a                As shown in Fig. 4c, we infer Sτ ≈ 10−17 N m/ Hz.
+lower limit on the surface separation. Unsure of this limit                   The torque noise of our prototype device (Fig. 4c)
+in the proposed system, in Fig. 3 we explore the effect                    is two orders of magnitude above the predicted thermal
+of varying the smallest separation distance s0 on αmin                     torque noise and points to a key challenge: mitigating ac-
+and the minimum interaction length λmin for which the                      celeration noise that couples to the torsion mode due to
+experiment is sensitive to gravitational-strength Yukawa                   asymmetric mass loading. Specifically, the excess noise
+couplings (|α| = 1). For a room temperature silicon de-                    corresponds   to a horizontal acceleration background of
+                                                                                   √
+vice (red), Fig. 3a shows that for λ = 30 µm a minimum                     70 ng/ Hz near 71.5 Hz, which was confirmed with an
+separation s0 ≲ 45 µm is needed to surpass prior con-                      independent accelerometer measurement (blue trace in
+straints and s0 ≲ 10 µm is needed to achieve αmin ≤ 1.                     Fig. 4c). We note that the current device is particularly
+Figure 3b shows that new constraints on λmin would re-                     susceptible to horizontal accelerations
+                                                                                                                 √given its relatively
+                                                                                                                             √
+quire s0 ≲ 18 µm, while a cryogenic experiment at 100                      large (wz = 200 µm) thickness, since Sτ ∝ wz 2 Sa . By
+mK (purple) could potentially achieve λmin ≈ 10 µm with                    reducing the device thickness to 50 µm, per the proposed
+s0 ≈ 25 µm.                                                                design, this vibration-induced torque noise would be re-
+  As a first step toward experiment, we have fabricated                    duced by a factor of 16. To completely remove the cou-
+and characterized a prototype microresonator with di-                      pling of horizontal accelerations into the torsion mode,
+mensions comparable to the proposed devices. For the                       the device may be fabricated with the center of mass
+design dimensions in Fig. 4a, the predicted frequency,                     aligned with the torsion axis, which can be achieved by
+quality factor, and thermal√ torque noise are 80 Hz,                       depositing additional material on the topside of the pad,
+1.3 × 107 , and 10−19 N m/ Hz, respectively (see Ap-                       for example.
+pendix B). Calibrated readout of the resonator’s angular                      In summary, we have proposed microscale torsion res-
+displacement was performed using an optical lever [26]                     onators [26] as a new platform for short-range gravity ex-
+with a 1550 nm laser beam, and Fig. 4b shows a ring-                       periments and modeled the expected performance given
+down measurement that confirms the design quality fac-                     limitations from thermomechanical noise and systematic
+tor Q0 ≈ 107 . The displacement spectrum Sθ reveals a                      uncertainties. We find that a room temperature device
+lower resonance frequency f0 = 71.5 Hz than predicted,                     has sufficient sensitivity to detect new Yukawa interac-
+                                                                                                                                       5
+
+tions below ∼ 36 µm, assuming surface separations down             as si = s0 +∆si , such that the increments ∆si are treated
+to 25 µm and a 30-day-long measurement campaign. As a              as the independent variables and the smallest separation
+first step, we have fabricated a prototype device exhibit-         s0 is included as a component in β.
+ing a large mechanical quality
+                            √     factor of 107 and ther-            Experimentally, τgrav,i is not measured directly, but
+                  −19
+mal torque of 10       N m/ Hz. The key next steps are             rather it is inferred from some experimentally accessible
+addressing acceleration noise and potential electrostatic          quantity, such as the photocurrent output from a pho-
+interactions such that measurements can be performed               todetector. With this in mind, we define the function
+near the device thermal limit. In addition to new tests
+of Yukawa interactions, this would enable the first mea-                              vi (η) = a τgrav,i (β) + b,                   (A2)
+surements of the Newtonian gravitational coupling be-
+                                                                   to model the raw data (ignoring stochastic noise in the
+tween sub-milligram objects [35]. Looking forward, we
+                                                                   measurement), which is related to the signal τgrav,i by
+note that microscale torsion resonators are a promising
+                                                                   a calibration factor a. Another parameter b accounts
+platform for exploring new physics beyond ISL devia-
+                                                                   for an overall offset in the measurement. A more gen-
+tions, such as spin-dependent interactions [36] or quan-
+                                                                   eral parameter vector η ≡ (β0 , β1 , ..., a, b) includes these
+tum gravity [37].
+                                                                   components (a, b) in addition to the parameters in β.
+   We thank Patrick Egan and Charles Clark for feedback
+                                                                     The actual measured data
+on the manuscript. This work is supported by the Na-
+tional Science Foundation Grants No. 2239735 and No.                               vmeas,i (η, v̄N,i ) = vi (η) + v̄N,i             (A3)
+2134830 and Arizona State University.
+                                                                   contain stochastic noise terms v̄N,i , which we treat as
+                                                                   independent, mean-zero random variables2 with standard
+   Appendix A: Analysis for minimum detectable                     deviation δvN,i .
+                coupling strength                                     In an experiment, the parameters η may not be pre-
+                                                                   cisely known and must be inferred by fitting a model
+  The proposed experiment will use the gravitational               vi (η̂) with fit parameters η̂ to the experimental data
+torque exerted on the torsion paddle by the source mass            vmeas,i (η, v̄N,i ). The fit parameters can be additionally
+to infer a value α̂ of the Yukawa coupling strength α.             constrained by independent measurement or estimated
+The inferred coupling strength α̂ contains error from both         from the design specification. Given measurement error
+stochastic noise and systematic uncertainties. The non-            or finite fabrication tolerance, the measured values η̄ν
+zero variance δ α̂ of this estimate affects the minimum            are treated as random variables, each with mean ην and
+detectable coupling strength αmin .                                estimated standard deviation δην .
+  In this section, we provide a treatment for calculating             Following the treatment in Ref. [15], the data from an
+αmin based on estimated limitations from thermal noise             experiment with multiple measurements can be fitted to
+and systematic error due to uncertainty in experimental            estimate the value of η by minimizing the quantity
+parameters. We also provide a brief explanation of the
+numerical simulations used to model the expected New-                       X (vmeas,i (η, v̄N,i ) − vi (η̂))2       X (η̄ν − η̂ν )2
+                                                                     χ2 =                                        +
+tonian and Yukawa torque signals.                                            i
+                                                                                            δvN,i 2                   ν
+                                                                                                                            δην 2
+                                                                                                                               (A4)
+                                                                   with respect to η̂. Here, Latin indices refer to torque
+    1.   Measurement and parameter uncertainty                     measurements and Greek indices refer to individual pa-
+                                                                   rameters and their independent measurements or esti-
+  At a given surface separation distance si , the source           mates.
+mass exerts a torque on the paddle containing both New-               Our analysis in the main text accounts for uncer-
+tonian τG and Yukawa τY contributions                              tainty in several experimental parameters: the Yukawa
+                                                                   interaction strength (α), the torsion resonator widths
+          τgrav,i (β) = τG (β, ∆si ) + τY (β, ∆si ).      (A1)     (wx ,wy ), and the smallest source-test mass separation
+where β is a vector whose components represent the ex-
+                                                                   distance
+                                                                                        that β̂ = (α̂, ŵx , ŵy , ŝ0 ) and η̂ =
+                                                                              (s0 ), such
+perimental parameters that determine this torque sig-                α̂, ŵx , ŵy , ŝ0 , â, b̂ . While the vector β will more gen-
+nal.1 The separation distances have been parametrized              erally contain additional parameters, such as the mate-
+                                                                   rial densities or geometric parameters of the source mass,
+
+
+1 While the interaction strength α is included as a component of
+
+  β, the interaction length λ is not. The value of λ is assumed,   2 Here, independent random variables are given overbars (e.g.     x̄)
+  and the calculations for αmin presented here must be repeated      while fit parameters that will be inferred from the data are given
+  separately for each value of λ within the range of interest.       hats (e.g. x̂).
+                                                                                                                                  6
+
+for simplicity we assume they are known with certainty.                                 3.     Torque simulations
+Note that this choice of parameters means that we in-
+clude uncertainty in s0 , but we treat the increments ∆si                  We performed numerical simulations to estimate the
+as independent variables with negligible error.                         amplitudes of the torques τG (η, ∆s) and τY (η, ∆s) ex-
+                                                                        erted on the test mass by the source mass. For various
+                                                                        interaction lengths in the range λ ∈ [1 µm, 1 cm], the
+                 2.   Linearized solution
+                                                                        Newtonian and Yukawa potentials were calculated over
+                                                                        a rectangular grid in the region x ∈ [-550,550] µm, y ∈
+   For a prospective experiment, the variance δ η̂ν 2 of the            [-550,550] µm, z ∈ [25,250] µm, using stratified Monte
+fit parameters can be estimated in terms of the expected                Carlo sampling of the source mass distribution. A nu-
+noise level δvN,i and parameter uncertainties δην . For                 merical gradient operation was then performed to extract
+convenience, we start by substituting the parameters                    the vector Newtonian and Yukawa field components.
+                      A = 1,          B = b/a,                             The torque on the torsion resonator was computed
+                                                                        for a given pad geometry as a weighted (accounting for
+                  Â = â/a,          B̂ = b̂/a,                (A5)    the local lever arm) numerical integration over the New-
+                  Ā = ā/a,          B̄ = b̄/a,                        tonian and Yukawa fields. These torque calculations
+                                                                        were repeated at various surface separations to infer the
+and redefining the parameter vector accordingly: η →                    torque’s dependence on separation distance s. Parame-
+(β0 , β1 , ..., A, B). By defining a new function                       ters (wx , wy ) were also independently swept at each sep-
+                 τi (η) = A τgrav,i (β) + B,                    (A6)    aration distance in order to calculate Ψiν . In order to
+                                                                        estimate αmin for any arbitrary set of chosen separation
+Eq. A4 transforms to                                                    distances si , polynomial fits were performed to approxi-
+                                                                        mate the sampled Ψiν as smooth functions of separation
+        X τi (η) + N̄i − τi (η̂) 2           X (η̄ν − η̂ν )2
+                                
+   2                                                                    distance.
+ χ =                        2            +                     , (A7)
+         i
+                      δNi                     ν
+                                                    δην 2
+
+where N̄i = v̄N,i /a is the torque-equivalent noise. In the              Appendix B: Models for the resonator mechanical
+main text we assume this noise is due to thermal torque                                   properties
+noise in the resonator with variance δNi 2 = Sτth /tmeas .
+  An analytical solution for the fit parameters η̂ν that                   The thermal torque noise generally depends on the res-
+minimize χ2 can be obtained by linearizing τi (η̂) with                 onator’s frequency f0 , moment of inertia I0 , and quality
+respect to its parameters                                               factor Q0 . Here we present the models used for each of
+                                X                                       these parameters. The frequency can be modeled as
+             τi (η̂) ≈ τi (η) +   (η̂ν − ην ) Ψiν                                                  r
+                                  ν                                                              1    kE + kσ + kg
+                                                                (A8)                      f0 =                                 (B1)
+                                                                                                2π          I0
+                                         !
+                           ∂τi (η̂)
+              Ψiν ≡                                                                                                      
+                            ∂ η̂ν η̂=η                                  where I0 = ρpad wx wy wz wy 2 /12 + wz 2 /3 and kE
+                                                                        (kσ , kg ) is the elastic (tensile, gravitational) torsional
+Under this approximation, it can be shown that the so-                  stiffness [26]. The pad’s density is ρpad . We model the
+lution for each component of η̂ will have an expected                   elastic and tensile stiffness as [38]
+variance
+                                                                                                  2Erib hrib 3 wrib
+                      δ η̂ν 2 = δην 2 Dνν                       (A9)                         kE =
+                                                                                                        3Lrib
+                                                                                                                               (B2)
+where                                                                                             σrib hrib wrib 3
+                                                                                             kσ =                  .
+         ←
+         → ← →                                                                                         3Lrib
+         D ≡ C −1
+                      X                                        (A10)    where wrib , Lrib , and hrib are respectively the ribbon’s
+        Cµν ≡δµν +          δNi −2 δηµ δην Ψiµ Ψiν                      width, length, and thickness. Following Ref. [26], we
+                       i
+                                                                        assume the ribbon’s stress to be σrib = 0.85 GPa and
+We define the minimum detectable coupling strength                      elastic modulus to be Erib = 250 GPa. The gravitational
+αmin in terms of the expected variance of the estima-                   stiffness comes from the restoring torque exerted on the
+tor α̂ under the assumption that α = 0 and that α̂ is not               torsion pad by Earth’s gravity g. When the device is
+constrained by prior measurement (δα = ∞). If the 0th                   oriented such that the pad hangs below the ribbon, the
+parameter is α, i.e. η0 = α, then for 2σ confidence                     gravitational stiffness is
+                                p                                                                1
+             αmin ≡ 2 δ α̂ = 2δα D00                (A11)                                 kg =     gρpad wx wy wz 2 .          (B3)
+                                                  δα=∞                                           2
+                                                                                                                                7
+
+Mechanical dissipation in the resonator inherently de-            [14] C. D. Hoyle, D. Kapner, B. R. Heckel, E. Adelberger,
+pends on the material’s intrinsic quality factor, which                J. Gundlach, U. Schmidt, and H. Swanson, Submillime-
+for Si3 N4 can be modeled as [39]                                      ter tests of the gravitational inverse-square law, Physical
+                                                                       Review D 70, 042004 (2004).
+                           
+                               hrib
+                                                                 [15] J. Lee, E. Adelberger, T. Cook, S. Fleischer, and
+                   Qi = 60                         (B4)                B. Heckel, New test of the gravitational 1/r2 law at sep-
+                              1 nm                                     arations down to 52 µm, Physical Review Letters 124,
+                                                                       101101 (2020).
+where surface loss plays a larger role in thinner films.          [16] A. A. Geraci, S. J. Smullin, D. M. Weld, J. Chi-
+However, due to dissipation dilution, the quality factor               averini, and A. Kapitulnik, Improved constraints on non-
+of the resonator Q0 is enhanced as [26]                                newtonian forces at 10 microns, Physical Review D 78,
+                                                                     022002 (2008).
+                              kσ + kg                             [17] Y.-J. Chen, W. K. Tham, D. Krause, D. López, E. Fis-
+                Q0 = Qi 1 +             .          (B5)                chbach, and R. S. Decca, Stronger limits on hypothetical
+                                kE
+                                                                       yukawa interactions in the 30–8000 nm range, Physical
+                                                                       Review Letters 116, 221102 (2016).
+                                                                  [18] C. P. Blakemore, A. Fieguth, A. Kawasaki, N. Priel,
+                                                                       D. Martin, A. D. Rider, Q. Wang, and G. Gratta, Search
+                                                                       for non-newtonian interactions at micrometer scale with
+ [1] E. Adelberger, B. Heckel, and A. Nelson, Tests of the             a levitated test mass, Physical Review D 104, L061101
+     gravitational inverse-square law, Annual Review of Nu-            (2021).
+     clear and Particle Science 53, 77 (2003).                    [19] E. Fischbach, D. Krause, V. Mostepanenko, and M. Nov-
+ [2] E. G. Adelberger, J. Gundlach, B. Heckel, S. Hoedl, and           ello, New constraints on ultrashort-ranged Yukawa inter-
+     S. Schlamminger, Torsion balance experiments: A low-              actions from atomic force microscopy, Physical Review D
+     energy frontier of particle physics, Progress in Particle         64, 075010 (2001).
+     and Nuclear Physics 62, 102 (2009).                          [20] V. Mostepanenko and M. Novello, Constraints on non-
+ [3] D. J. Kapner, T. S. Cook, E. G. Adelberger, J. H. Gund-           Newtonian gravity from the Casimir force measurements
+     lach, B. R. Heckel, C. D. Hoyle, and H. E. Swanson,               between two crossed cylinders, Physical Review D 63,
+     Tests of the gravitational inverse-square law below the           115003 (2001).
+     dark-energy length scale, Phys. Rev. Lett. 98, 021101        [21] L.-C. Tu, S.-G. Guan, J. Luo, C.-G. Shao, and L.-X.
+     (2007).                                                           Liu, Null test of newtonian inverse-square law at submil-
+ [4] R. Sundrum, Fat gravitons, the cosmological constant              limeter range with a dual-modulation torsion pendulum,
+     and submillimeter tests, Physical Review D 69, 044014             Physical review letters 98, 201101 (2007).
+     (2004).                                                      [22] T. Cook, A test of the gravitational inverse-square law
+ [5] E. G. Adelberger, B. R. Heckel, S. Hoedl, C. D. Hoyle,            at short distance, Ph.D. thesis, University of Washington
+     D. J. Kapner, and A. Upadhye, Particle-physics implica-           (2013).
+     tions of a recent test of the gravitational inverse-square   [23] W.-H. Tan, S.-Q. Yang, C.-G. Shao, J. Li, A.-B. Du, B.-
+     law, Phys. Rev. Lett. 98, 131104 (2007).                          F. Zhan, Q.-L. Wang, P.-S. Luo, L.-C. Tu, and J. Luo,
+ [6] A. Upadhye, W. Hu, and J. Khoury, Quantum stability               New test of the gravitational inverse-square law at the
+     of chameleon field theories, Phys. Rev. Lett. 109, 041301         submillimeter range with dual modulation and compen-
+     (2012).                                                           sation, Physical Review Letters 116, 131101 (2016).
+ [7] M. Montero, C. Vafa, and I. Valenzuela, The dark dimen-      [24] W.-H. Tan, A.-B. Du, W.-C. Dong, S.-Q. Yang, C.-G.
+     sion and the swampland, Journal of High Energy Physics            Shao, S.-G. Guan, Q.-L. Wang, B.-F. Zhan, P.-S. Luo, L.-
+     2023, 1 (2023).                                                   C. Tu, et al., Improvement for testing the gravitational
+ [8] C. Vafa, Swamplandish unification of the dark sector              inverse-square law at the submillimeter range, Physical
+     (2024), arXiv:2402.00981 [hep-ph].                                Review Letters 124, 051301 (2020).
+ [9] D. B. Kaplan and M. B. Wise, Couplings of a light dilaton    [25] D. M. Weld, J. Xia, B. Cabrera, and A. Kapitulnik, New
+     and violations of the equivalence principle, Journal of           apparatus for detecting micron-scale deviations from
+     High Energy Physics 2000, 037 (2000).                             newtonian gravity, Physical Review D 77, 062006 (2008).
+[10] I. Antoniadis, K. Benakli, A. Laugier, and T. Maillard,      [26] J. R. Pratt, A. R. Agrawal, C. A. Condos, C. M. Pluchar,
+     Brane to bulk supersymmetry breaking and radion force             S. Schlamminger, and D. J. Wilson, Nanoscale torsional
+     at micron distances, Nuclear Physics B 662, 40 (2003).            dissipation dilution for quantum experiments and preci-
+[11] N. Arkani-Hamed, S. Dimopoulos, and G. Dvali, Phe-                sion measurement, Physical Review X 13, 011018 (2023).
+     nomenology, astrophysics, and cosmology of theories with     [27] W.-C. Dong, W.-H. Tan, Z.-J. An, H. Huang, L. Zhu,
+     submillimeter dimensions and tev scale quantum gravity,           Y.-J. Tan, T.-Y. Long, C.-G. Shao, and S.-Q. Yang, Cou-
+     Physical Review D 59, 086004 (1999).                              pling effect of vibrations and residual electrostatic force
+[12] S. Dimopoulos and A. A. Geraci, Probing submi-                    in short-range gravitational experiments, Physical Re-
+     cron forces by interferometry of bose-einstein condensed          view Applied 20, 054046 (2023).
+     atoms, Physical Review D 68, 124021 (2003).                  [28] J. Ke, W.-C. Dong, S.-H. Huang, Y.-J. Tan, W.-H. Tan,
+[13] C. D. Hoyle, U. Schmidt, B. R. Heckel, E. G. Adelberger,          S.-Q. Yang, C.-G. Shao, and J. Luo, Electrostatic effect
+     J. H. Gundlach, D. J. Kapner, and H. E. Swanson, Sub-             due to patch potentials between closely spaced surfaces,
+     millimeter test of the gravitational inverse-square law: A        Physical Review D 107, 065009 (2023).
+     search for “large” extra dimensions, Phys. Rev. Lett. 86,    [29] P.-L. Yu, T. Purdy, and C. Regal, Control of material
+     1418 (2001).                                                      damping in high-q membrane microresonators, Physical
+                                                                                                                             8
+
+     review letters 108, 083603 (2012).                          [35] T. Westphal, H. Hepach, J. Pfaff, and M. As-
+[30] J. G. Lee, A Fourier-Bessel test of the gravitational            pelmeyer, Measurement of gravitational coupling be-
+     inverse-square law, Ph.D. thesis, University of Washing-         tween millimetre-sized masses, Nature 591, 225 (2021).
+     ton (2020).                                                 [36] W. Terrano, E. Adelberger, J. Lee, and B. Heckel, Short-
+[31] C. Speake and C. Trenkel, Forces between conducting              range, spin-dependent interactions of electrons: A probe
+     surfaces due to spatial variations of surface potential,         for exotic pseudo-goldstone bosons, Physical review let-
+     Physical Review Letters 90, 160403 (2003).                       ters 115, 201801 (2015).
+[32] R. Behunin, F. Intravaia, D. Dalvit, P. M. Neto,            [37] D. Carney, H. Müller, and J. M. Taylor, Using an atom
+     and S. Reynaud, Modeling electrostatic patch effects             interferometer to infer gravitational entanglement gener-
+     in casimir force measurements, Physical Review A 85,             ation, PRX Quantum 2, 030330 (2021).
+     012504 (2012).                                              [38] J. R. Pratt, S. Schlamminger, A. R. Agrawal, C. A.
+[33] Q. A. Turchette, B. King, D. Leibfried, D. Meekhof,              Condos, C. M. Pluchar, and D. J. Wilson, The inter-
+     C. Myatt, M. Rowe, C. Sackett, C. Wood, W. Itano,                section of noise, amplitude, and nonlinearity in a high-
+     C. Monroe, et al., Heating of trapped ions from the quan-        q micromechanical torsion pendulum, in International
+     tum ground state, Physical Review A 61, 063418 (2000).           Conference on Nonlinear Dynamics and Applications
+[34] M. Poggio, C. L. Degen, H. J. Mamin, and D. Rugar,               (Springer, 2023) pp. 3–14.
+     Feedback cooling of a cantilever’s fundamental mode be-     [39] L. G. Villanueva and S. Schmid, Evidence of surface loss
+     low 5 mk, Phys. Rev. Lett. 99, 017201 (2007).                    as ubiquitous limiting damping mechanism in sin micro-
+                                                                      and nanomechanical resonators, Physical Review Letters
+                                                                      113, 227201 (2014).
+

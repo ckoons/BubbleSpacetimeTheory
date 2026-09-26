@@ -1,0 +1,295 @@
+                                                             Astrophysical constraints on unparticle-inspired models of gravity
+                                                                                       O. Bertolami§ ,∗ J. Páramos§,† and P. Santos§‡
+                                                                                       Instituto Superior Técnico, Departamento de Fı́sica,
+                                                                                       Avenida Rovisco Pais 1, 1049-001 Lisboa, Portugal
+                                                                                                      (Dated: April 30, 2021)
+                                                              We use stellar dynamics arguments to constrain the relevant parameters of ungravity inspired
+                                                            models. We show that resulting bounds do constrain the parameters of the theory of unparticles,
+                                                            as far as its energy scale satisfies the condition ΛU ≥ 1 T eV and dU is close to unity.
+
+                                                            PACS numbers: 04.20.Fy, 04.80.Cc, 04.25.Nx                  Preprint DF/IST-5.2009
+
+
+
+
+arXiv:0905.1602v2 [astro-ph.SR] 10 Jul 2009
+                                                                                                                                                                      1/(2dU −2)
+                                                                I.   INTRODUCTION                                                   2(2 − α) Γ(dU + 21 )Γ(dU − 21 )
+                                                                                                                                
+                                                                                                                                                                                    ,
+                                                                                                                                        π          Γ(2dU )
+                                                 It has been remarked that the Standard Model (SM)
+                                              is likely to be incomplete due to the apparent lack of               and ΛU ≥ 1 T eV is the energy scale of the unparticle
+                                              scale invariant objects, unparticles [1], besides its well-          interaction (the lower bound reflects the lack of detection
+                                              known shortcomings. Implementing scale invariance re-                of these interactions within the available energy range),
+                                              quires considering an additional set of fields with a non-           MP l is the Planck mass and α is a constant dependent on
+                                              trivial IR fixed point, the Banks- Zacks (BZ) fields. The            the type of propagator (unity in the case of a graviton).
+                                              interaction between SM and BZ fields occurs through the                 The Newtonian potential is recovered for dU = 1,
+                                              exchange of particles with a large mass scale, M∗ , written          RG = 0 (if dU > 1) or RG → ∞ (if dU < 1), so that
+                                              as
+                                                                                                                                                        G
+                                                                      1                                                                 GU =            2dU −2 ,                  (5)
+                                                                LBZ = k OSM OBZ ,                           (1)                                1+       RG
+                                                                     M∗                                                                                 R0
+
+                                              where OSM is an operator with mass dimension dSM                     where R0 is the distance where the gravitational potential
+                                              built out of SM fields and OBZ is an operator with mass              matches the Newtonian one, V (R0 ) = Φ(R0 ). Unfortu-
+                                              dimension dBZ built out of BZ fields.                                nately, the value of R0 is unknown; this may be circum-
+                                                At an energy scale ΛU the BZ operators match onto                  vented by considering only values of dU near unity [2], so
+                                              unparticles operators (OU ) and Eq. (1) matches onto                 that Eq. (3) is approximately given by
+                                                                         dBZ −dU
+                                                                                                                                             "         2du −2 #
+                                                                     CU ΛU
+                                                                                                                                                 
+                                                             LU =                OSM OU ,                   (2)                         GM         RG
+                                                                         M∗k                                                 V (r) = −        1+                  .       (6)
+                                                                                                                                         2r         r
+                                              where dU is the scaling dimension of OU , which can be
+                                                                                                                   Notice that corrections of this type also arise in the con-
+                                              fractional, and CU is a coefficient function.
+                                                                                                                   text of a gravity model with vector- induced spontaneous
+                                                 Considering tensor-type unparticle interactions with
+                                                                                                                   Lorentz symmetry breaking [3].
+                                              the stress-energy tensor of SM states leads to a modifica-
+                                              tion to the Newtonian potential Φ(r), usually referred to
+                                              as ungravity — a gravitational potential with a power-                      II.       POLYTROPIC STELLAR MODEL
+                                              law addition [2],
+                                                                        "          2du −2 #                         In what follows we examine the bounds on parameters
+                                                                  GU M          RG
+                                                        V (r) = −         1+                  ,      (3)           RG and dU in Eq. (6) arising from astrophysical consid-
+                                                                    r            r                                 erations about stellar equilibrium. In order to do so, we
+                                                                                                                   shall extend considerably the range of ungravity correc-
+                                              where RG is the characteristic length scale of ungravity,            tions. Before discussing these bounds in detail we point
+                                                                         1/(dU −1)                               out that astrophysical and cosmological constraints on
+                                                          1        MP l                                            unparticles have been discussed in Refs. [4–9], and the
+                                                RG =                                   ×                    (4)
+                                                         πΛU       M∗                                              ones arising from nucleosynthesis have been studied in
+                                                                                                                   Ref. [10]. We also mention that the technique to be
+                                                                                                                   employed has been developed to constrain Yukawa type
+                                                                                                                   corrections to the Newtonian potential [11] as well as
+                                              § Also at Instituto de Plasmas e Fusão Nuclear, Avenida Rovisco
+                                                                                                                   to examine alternative gravity models with nonminimal
+                                              Pais 1, 1049-001 Lisboa, Portugal.
+                                              ∗ Electronic address: orfeu@cosmos.ist.utl.pt                        coupling between curvature and matter [12].
+                                              † Electronic address: paramos@ist.edu                                   The simplest model available for stellar structure in-
+                                              ‡ Electronic address: paulo_santos@nfist.ist.utl.pt                  volves the polytropic gas model, which assumes the state
+                                                                                                                         2
+
+equation P = Kρ(n+1)/n , where P is the pressure, ρ is the      Performing the substitutions r = βξ and ρ = ρc θn , we
+density, n is the so-called polytropic index and K is the       obtain the perturbed Lane-Emden equation
+polytropic constant. The above equation of state allows                                     "                2dU −2 #
+                                                                                         θn
+                                                                                  
+one to write the relevant thermodynamical quantities as            1 d        2 dθ                           ξG
+                                                                            ξ        =−       1 + (2dU − 1)             +
+                                                                   ξ 2 dξ       dξ        2                   ξ
+   ρ = ρc θn (ξ) , T = Tc θ(ξ) , P = Pc θn+1 (ξ) ,       (7)                                        2dU +1
+                                                                      M (ξ)                          ξG
+                                                                          3  3  (2dU − 1)(dU − 1)               ,     (13)
+where ρc , Tc and Pc correspond to the values of density,          4πρc β ξG                          ξ
+temperature and pressure at the core of the star, respec-       where ξG = RG /β has been defined, for convenience.
+tively. The dimensionless function θ(ξ) depends on the          Using relation dM (r)/dr = 4πρ(r)r2 , together with def-
+dimensionless variable ξ, related to the radial coordinate      initions Eqs. (7) and (8), we obtain
+through r = βξ, where
+                                                                                           3/2
+                                                                                   (n + 1)K                   dθ
+                                                                    M (ξ) = −4π                  ρ(3−n)/2n ξ2    , (14)
+                   r
+                      (n + 1)K (1−n)/n                                               2πG          c
+                                                                                                              dξ
+               β=               ρc         .           (8)
+                        2πG
+                                                                which can be used to simplify the second term on the
+Using Eqs. (7), the hydrostatic equilibrium condition           r.h.s. of Eq. (13), which now reads
+                                                                                            "               2dU −2 #
+                                                                                          n
+                                                                                  
+                      2                                             1 d        dθ      θ                     ξG
+                                                                             ξ2
+                            
+                d     r dP         dM (r)                                            =−      1 + (2dU − 1)
+                              = −G                       (9)         ξ 2 dξ     dξ       2                     ξ
+                dr     ρ dr         dr
+                                                                                               2dU −2
+                                                                                         1 dθ ξG
+may be rewritten as                                                 −(2dU − 1)(dU − 1)                      .      (15)
+                                                                                         ξ dξ   ξ
+                                
+                 1 d          dθ                                It is interesting to point out that this modified Lane-
+                           ξ2      = −θn ,              (10)
+                 ξ 2 dξ       dξ                                Emden equation, unlike Eq. (10), has no homology sym-
+                                                                metry, due to the presence of ξG in Eq. (15) — and hence
+the Lane-Emden equation [13]. This differential equation        the stability of the star will depend on its radius. The
+is subjected to the initial conditions θ(0) = 1 and θ′ (0) =    unperturbed central temperature Tc of a star is obtained
+0. A solution to the Lane-Emden equation allows for             from the solution θ0 (ξ) of Eq. (10) [13],
+the determination of the thermodynamical quantities of                              "              #−1
+a star in terms of their values at its center. The profile of                              dθ0
+                                                                              Tc0 ∝ ξ10                    ,         (16)
+θ(ξ) depends only on the choice of the polytropic index                                    dξ ξ=ξ10
+n, not on the size of the star, manifesting the homology
+symmetry of this equation.                                      where ξ10 signals the surface of the star, defined as
+                                                                θ0 (ξ10 ) = 0. Considering n = 3, which describes fairly
+                                                                well the overall features of the Sun, one finds ξ10 ≈ 6.90
+   III.   MODIFIED LANE-EMDEN EQUATION                          [13]. In the presence of the ungravity perturbation into
+                                                                the gravitational potential Eq. (6), the central temper-
+                                                                ature Tc will be shifted from Tc0 , the value obtained by
+   In this section, we develop a method similar to that
+                                                                using the solution θ0 to the unperturbed Lane-Emden
+presented in Ref. [11], in order to extract the relevant
+                                                                equation, Eq. (10), yielding the ratio
+bounds on dU and RG . We consider the modified poten-
+tial Eq. (6) and assume the validity of the Newtonian                                              dθ0
+                                                                                         Tc    ξ10 dξ
+regime (low density and small velocities) to obtain the                           Tr ≡       =           .            (17)
+                                                                                         Tc0   ξ1 dθ
+                                                                                                   dξ
+modified hydrostatic equilibrium equation:
+                         "                     2dU −2 #        We now seek a numerical solution of Eq. (15) that allows
+  r2 dP (r)
+                                          
+                 GM (r)                     RG                  us to estimate the ratio Eq. (17) to obtain a contour plot
+            =−             1 + (2dU − 1)                  .
+  ρ dr              2                        r                  of the relative shift Tr − 1 for different values of dU and
+                                                        (11)    RG (for n = 3).
+After some algebraic manipulation, this can be cast as             We consider two ranges of values for dU and RG : dU >  ∼
+                                                                1 for RG < RS and dU <   ∼ 1 for RG > RS , RS ≈ 7×10 m
+                                                                                                                        8
+
+          1 d r2 dP (r)
+                                                              being the Sun’s radius. For dU >      ∼ 1, we also assume
+                              =                         (12)    that the length scale RG is larger than the Schwarzschild
+         r2 dr ρ dr
+                  "                    2dU −2 #               radius of the Sun, RM = 2GM⊙ /c2 ≈ 1.5 km, so that
+                                    RG                          no relativistic corrections of the form RM /r have to be
+         −2πρG 1 + (2dU − 1)                      +             considered. In what concerns the modified Lane-Emden
+                                     r
+                                           2dU +1             equation, Eq. (15), the following ranges are considered:
+         GM (r)                          RG                     1.0 < dU < 1.06 for 0 < ξG < 1 and 0.94 < dU < 1 for
+                  (2dU − 1)(2d U −  2)               .
+           2RG3                           r                     10 < ξG < 104 .
+                                                                                                                            3
+
+                        IV.   RESULTS
+
+
+
+
+                                                                FIG. 3: Lower bound of log(M∗ /MP l ) for α = 0 (black curve),
+                                                                α = 2/3 (dark grey curve), α = 1 (light grey curve), α = 1.9
+ FIG. 1: Contour plot of Tr − 1 in function of RG and dU .      (black, lower curve), and ΛU = 1 T eV (solid curve), ΛU =
+                                                                103 T eV (dashed curve).
+
+
+                                                                  Similarly, one obtains from Fig. 2 the upper bound
+                                                                RG (dU ) < R+ (dU ), where the latter denotes the line cor-
+                                                                responding to the 6% change in the Sun’s central tem-
+                                                                perature. Resorting again to Eq. (4), this again yields
+                                                                          M∗
+                                                                               > [πΛU R+ (dU )]1−dU f (dU , α) .         (20)
+                                                                          MP l
+
+
+
+
+FIG. 2: Contour plot of Tr − 1 in function of log RG and dU .
+
+
+   Numerical solutions of Eq. (15) allow for obtaining
+contour plots for Tr − 1 as a function of dU and ξG . The
+results are depicted in Figs. 1 and 2 for |Tr − 1| ≤ 0.06,
+the uncertainty in the Sun’s central temperature [13].
+   Designating the line in Fig. 1 that indicates a 6%
+change of the Sun’s central temperature as R− (dU ), one
+sees that RG (dU ) > R− (dU ) for dU <∼ 1. Thus, Eq. (4)
+leads to                                                        FIG. 4: Lower bound of log(M∗ /MP l ) for α = 0 (black curve),
+          M∗                   1−d
+                                                                α = 2/3 (dark grey curve), α = 1 (light grey curve), α = 1.9
+               > [πΛU R− (dU )] U f (dU , α) ,          (18)    (black, lower curve), and ΛU = 1 T eV (solid curve), ΛU =
+          MP l
+                                                                103 T eV (dashed curve).
+where
+                  s                                               The obtained lower bound is depicted in Fig. 4 (as
+                      2(2 − α) Γ(dU + 12 )Γ(dU − 21 )           before, the lines converge to the point dU = 1, M∗ ≥ 0).
+   f (dU , α) =                                         (19)
+                          π          Γ(2dU )
+
+is defined, for convenience. One might plot the lower                                 A.   Discussion
+bound obtained above as a function of dU , fixing the
+model parameters α and ΛU . This is depicted in Fig. 3,            As stated in Ref. [2], corrections to the Newtonian
+for α = 0, 2/3, 1, 1.9 and suitable values for ΛU ; all         potential ΦN (r) with dU < 1 might appear unfeasible,
+lines converge to the trivial point dU = 1, M∗ ≥ 0.             since these will overcome the 1/r dependence of ΦN (r)
+                                                                                                                           4
+
+for r > Rg and lead to long-range deviations. This might       static equilibrium conditions within a star. This leads to
+be alleviated by letting RG be so large that this crossover    a perturbed Lane-Emden problem that is then examined
+occurs well beyond the relevant astrophysical range, and       for the polytropic index n = 3. From the resulting change
+one can no longer assume a static, spherically symmetric       in the star’s central temperature, we obtain constraints
+Ansatz for the metric.                                         on the ungravity parameters RG and dU . Given that
+   Alternatively, one may consider values so close to unity,   the overall properties of the Sun are well described by
+dU < ∼ 1, that the perturbation to the Newtonian po-           the n = 3 case, we allow for the ungravity correction to
+tential, Eq. (6) may be expanded as (r/RG )2−2dU ≈             affect this up to the upper bound on the Sun’s central
+1 + 2(dU − 1) log(r/Rg ), and the logarithmic dependence       temperature, ∆Tc /Tc ≈ 0.06.
+is attenuated by the small dU − 1 term: for instance,
+for r = 100 AU , the typical dimension of the Solar              We find that, for dU >  ∼ 1 and ΛU ≥ 1 T eV , lower
+System and RG ∼ 10 AU , the maximum value consid-              bounds on M∗ are in the range (10−2 − 10−1 )MP l . For
+ered here, this yields (r/RG )2−2dU ≈ 1 + 4(dU − 1);           dU <∼ 1 and ΛU ≥ 1 T eV , M∗ must lie in the range
+assuming the same value for RG and instead, if r ∼             above (10−1 − 102 )MP l . Of course, our bounds are com-
+100 kpc ∼ 1010 AU the size of a galaxy, one still gets         plementary to the ones obtained from torsion balance
+(r/RG )2−2dU ≈ 1 + 20(dU − 1).                                 experiments which test a much smaller range of RG [14],
+   With these considerations in mind, the method de-           actually about 80 µm.
+veloped here shows that one can successfully constrain
+the range of MU for dU <     ∼ 1: in particular, assuming         The reported results for dU >
+ΛU ≥ 1 T eV one achieves lower bounds ranging from                                                ∼ 1 are either more strin-
+                                                               gent [4, 5, 7–9] or similar [6] to those previously available.
+M∗ >       −1        2
+     ∼ (10 − 10 )MP l (even lower bounds can be ob-            The lower bound derived for dU <
+tained for values of dU closer to unity).                                                             ∼ 1 is more relevant,
+                                                               since it has been not obtained so far. In our opinion,
+   For the case dU >   ∼ 1, one obtains a lower bound ex-      this arises from misconception that a negative exponent
+hibiting a peak around dU = 1.01, with typical values          in Eq. (6) is disallowed by long-range experiments [14]:
+M∗ >       −2       −1
+     ∼ (10 − 10 )MP l . Ref. [2] presents lower bounds         while this is true for large values of 1 − dU , a range closer
+for M∗ as a function of ΛU , for dU = 2, 3, 4 — values         to unity, dU <
+which are beyond the reach of this study. In a subsequent                      ∼ 1 yields an approximately logarithmic
+                                                               correction, with large deviations from the Newtonian po-
+study, the cases dU = 1.1, 1.5, 2 were considered, with        tential suppressed by the smallness of the dU − 1 term.
+the first case closer to the range considered here [9].
+   By solving Eq. (15) for dU = 1.1 and finding the value
+of RG that yields Tr −1 = 0.06, one obtains a lower bound
+of about M∗ > (10−4 − 10−2 )MP l ≈ (1012 − 1014 ) T eV ,
+depending on ΛU and M∗ (this may be checked by ex-
+trapolating the plot of Fig. 2). This limit is much
+greater than the one found in Ref. [9], where a result
+M∗ >       2      6                                6
+     ∼ (10 − 10 ) T eV is reported (for ΛU = 10 T eV ).
+This indicates that the developed method hints at a much
+more stringent bound for M∗ , for dU >  ∼ 1.
+                                                                                   Acknowledgments
+
+
+
+                 V.    CONCLUSIONS                               The work of J.P. is sponsored by the FCT under the
+                                                               grant BPD SFRH/BPD/23287/2005. The work of P.S.
+  In this work we have set up a formalism to constrain         was partly supported by the Universidade Técnica de Lis-
+ungravity-inspired deviations from the Newtonian hydro-        boa.
+
+
+
+
+ [1] H. Georgi, Phys. Rev. Lett. 98, 221601 (2007).             [8] J. R. Mureika, Phys. Lett. B 660, 561 (2008); Phys. Rev.
+ [2] H. Goldberg and P. Nath, Phys. Rev. Lett. 100, 031803          D 79, 056003 (2009).
+     (2008).                                                    [9] J. McDonald, JCAP 0903, 019 (2009).
+ [3] O. Bertolami and J. Páramos, Phys. Rev. D 72, 044001     [10] O. Bertolami and N. M. C. Santos, Phys. Rev. D 79,
+     (2005).                                                        127702 (2009).
+ [4] H. Davoudiasl, Phys. Rev. Lett. 99, 141301 (2007).        [11] O. Bertolami and J. Páramos, Phys. Rev. D 71, 023521
+ [5] A. Freitas and D. Wyler, JHEP 0712, 033 (2007).                (2005).
+ [6] S. Das, S. Mohanty and K. Rao, Phys. Rev. D 77, 076001    [12] O. Bertolami and J. Páramos, Phys. Rev. D 77, 084018
+     (2008).                                                        (2008).
+ [7] N. G. Deshpande, S. D. H. Hsu and J. Jiang, Phys. Lett.   [13] Textbook of Astronomy and Astrophysics with Elements
+     B 659, 888 (2008).                                             of Cosmology, V. Bhatia (Narosa Publishing House, New
+                                                                                  5
+
+     Delhi, 2001).                                               131104 (2007).
+[14] E. G. Adelberger, B. R. Heckel, S. A. Hoedl, C. D. Hoyle,
+     D. J. Kapner and A. Upadhye, Phys. Rev. Lett. 98,
+

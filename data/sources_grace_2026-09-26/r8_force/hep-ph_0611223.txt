@@ -1,0 +1,287 @@
+                                    Particle Physics Implications of a Recent Test of the Gravitational Inverse-Square Law
+
+                                                         E.G. Adelberger, B.R. Heckel, S. Hoedl, C.D. Hoyle,∗ and D.J. Kapner†
+                                                                  Center for Experimental Nuclear Physics and Astrophysics,
+                                                                Box 354290, University of Washington, Seattle, WA 98195-4290
+
+                                                                                           A. Upadhye
+                                                               Department of Physics, Princeton University, Princeton, NJ 08544
+                                                                                 (Dated: September 7, 2018)
+                                                   We use data from our recent search for violations of the gravitational inverse-square law to con-
+                                                strain dilaton, radion and chameleon exchange forces as well as arbitrary vector or scalar Yukawa
+                                                interactions. We test the interpretation of the PVLAS effect and a conjectured “fat graviton” sce-
+                                                nario and constrain the γ5 couplings of pseuodscalar bosons and arbitrary power-law interactions.
+
+
+
+
+arXiv:hep-ph/0611223v3 7 Feb 2007
+                                                PACS numbers: 04.80.-y,95.36.+x,04.80.Cc,12.38.Qk
+
+
+                                       In a recent Letter[1], we reported a sensitive torsion-
+                                    balance search search for Yukawa violations of the grav-
+                                    itational inverse-square law (ISL) of the form
+                                                                Ma Mb
+                                               Vab (r) = −αG           exp(−r/λ) .      (1)
+                                                                  r
+                                    However, space limitations prevented us from discussing
+                                    some implications of that result and constraining other
+                                    forms of possible breakdowns of the ISL. In this Letter
+                                    we use the data from Ref. [1] to obtain upper bounds on
+                                    several interesting exotic interactions.
+
+
+                                      YUKAWA INTERACTIONS FROM GENERIC
+                                      SCALAR OR VECTOR BOSON EXCHANGE
+
+                                      Exchange of scalar or vector bosons, φ, with mass m
+                                    between two non-relativisitic fermions generically pro-
+                                    duces a potential                                               FIG. 1: (color online) 95% confidence constraints on scalar or
+                                                                                                    vector Yukawa interactions. Left vertical scale: vector inter-
+                                                             a    b                                 actions coupled to B − L (i.e. ψ̃ = π/2); right vertical scale:
+                                                            gS,V gS,V
+                                                Vab (r) = ∓           exp(−r/λ) ,         (2)       scalar φγγ couplings inferred as discussed below.
+                                                               4πr
+                                    where the − and + signs refer to scalar and vector inter-
+                                    actions respectively, and λ = h̄/mc. For arbitrary vector
+                                    interactions between electrically neutral atoms with pro-
+                                    ton and neutron numbers Z and N , we have                       where µ = M/u with M and u being the atomic mass
+                                                                                                    and atomic mass unit respectively, and
+                                                 gV = gV0 (Z cos ψ̃ + N sin ψ̃) ,           (3)
+                                    where                                                                                      
+                                                                     q̃ n                                         q̃   Z           N
+                                                      ψ̃ ≡ arctan p V e                     (4)                      =   cos ψ̃ +     sin ψ̃ .                 (6)
+                                                                 q̃V + q̃V                                        µ    µ           µ
+
+                                    ψ is an angle that, in principle, could have any value be-
+                                    tween −π/2 and π/2, and the q̃V ’s are vector “charges”.
+                                                                                                    The molybdenum pendulum and attractor used in
+                                    Eqs. 3 and 4 can also be applied to scalar interactions,
+                                                                                                    Ref. [1] have [Z/µ] = 0.4378134 and [N/µ] = 0.5631686.
+                                    even though they are not exact because scalar charges are
+                                                                                                    Figure 1 illustrates the upper limits implied by the results
+                                    not conserved and binding energy can carry a charge.
+                                                                                                    of Ref. [1] on vector interactions coupled to B − L where
+                                      Expressing Eq. 2 in terms of Eq. 1, we have
+                                                                                                    B and L are baryon and lepton numbers, respectively.
+                                                                    −1                                                                     2
+                                                ga0 gb0       2   q̃     q̃                         Figure 2 shows how the upper limits on gS,V      depend on
+                                                        = αGu                     ,        (5)
+                                                 4π               µ a µ b                           the parameter ψ̃ that specifies the charge q̃.
+                                                                                                                            2
+
+                                                                 of Ref. [1] then sets a 95% confidence lower bound on the
+                                                                 dilaton mass of
+                                                                                      mc2 ≥ 3.5 meV .                     (11)
+
+
+                                                                 IS THE PVLAS EFFECT EVIDENCE FOR NEW
+                                                                                PHYSICS?
+
+                                                                   Recently, the PVLAS collaboration[5] studied the
+                                                                 propagation of optical photons through a vacuum con-
+                                                                 taining a strong transverse B field. They reported an
+                                                                 optical rotation at least 104 times larger than the QED
+                                                                 prediction, and speculated that this was evidence for a
+                                                                 new spin-zero particle that, through a second-order pro-
+                                                                 cess, mixes with the photon in a magnetic field as shown
+                                                                 in Fig. 3. The apparent sign of the observed rotation
+FIG. 2: (color online) 95% confidence constraints on couplings   requires the new particle to be a scalar (as opposed to
+of a boson of mass mc2 = 1 meV as a function of the charge       pseudoscalar) boson[6], and the magnitude requires
+parameter ψ̃. Constraints for other values of m can be found
+by using Fig. 1 to scale the couplings as a function of m.                     1.0 meV ≤ mφ c2 ≤ 1.5 meV
+                                                                     1.7 × 10−6 GeV−1 ≤ gφγγ ≤ 5 × 10−6 GeV−1 .(12)
+   YUKAWA INTERACTIONS FROM RADION                                 This φγγ vertex generates, by the second-order process
+        AND DILATON EXCHANGE.                                    shown in Fig. 3, an effective scalar interaction between
+                                                                 two protons, which to leading order is estimated to be[7]
+   In string theories, the geometry of spacetime is ex-                            gp           α 
+pected to be dynamical with the radii of new dimen-                             √ S ∼ gφγγ          mp .              (13)
+                                                                                  4πh̄c           π
+sions fluctuating independently at each point in our 4-
+dimensional spacetime. In an effective low-energy theory,        Assuming that q̃Sp is large compared to q̃Se and q̃Sn (i.e.
+the volume of the extra dimensions must be stabilized            ψ̃ ≈ 0), our scalar constraints (Fig. 2 with ψ̃ = 0) place
+by radions, low-mass spin-0 fields with gravitational-           the upper limit shown in Fig. 1; in particular
+strength couplings that determine the radius of the n
+                                                                               gφγγ <
+                                                                                    ∼ 1.6 × 10
+                                                                                               −17
+                                                                                                   GeV−1 ,                (14)
+“large” extra dimensions. Radion exchange will produce
+a Yukawa force with a strength and range[2]                      which is inconsistent with Eq. 12 by a factor of ∼ 1011 .
+                               n                                   For mφ c2 ≤ 20 meV, the bound in Eq. 13 and Fig. 1
+                         α=                               (7)    improves on the astrophysical constraint[8] by a factor up
+                              n+2
+                                                                 to 108 . (Both of these bounds would be relaxed in models
+                                                                 where the φγγ interaction has an additional low-energy
+                                                                 form factor.)
+               s                        2
+                     h̄3
+                               
+                                 1 TeV
+          λ∼             ≈ 2.4             mm ,           (8)
+                   cGM∗4         M ∗ c2
+                                                                         YUKAWA INTERACTIONS FROM
+where M∗ is the unification mass. In many cases the                        CHAMELEON EXCHANGE
+radion-mediated force is the longest-range effect of new
+dimensions[3] because it does not diminish as the number           Chameleons are scalar fields that couple to themselves
+of new dimensions increases. For n = 1 and n = 6 (α =            and to matter with gravitational strength[9]. Chameleon
+1/3 and α = 3/4), the data of Ref. [1] give
+
+                M∗ (n = 1) ≥ 5.7 Tev/c2                   (9)
+                M∗ (n = 6) ≥ 6.4 Tev/c2 .                (10)
+
+String theories predict a scalar partner of the graviton,                                            p                p
+
+the dilaton, whose mass is initially zero. Equivalence
+Principle experiments have ruled out a massless dilaton.         FIG. 3: Left: diagram of the process proposed to explain the
+Kaplan and Wise[4] evaluated the coupling of a low-mass          PVLAS result[5]. Right: diagram of a related process that
+dilaton to strongly interacting matter and shown that its        would give a signal in gravitational experiments. Wiggly and
+coupling to matter should satisfy 1 ≤ α ≤ 1000. Figure 6         dashed lines are photons and scalar bosons, respectively.
+                                                                                                                               3
+
+                                                                          THE “FAT GRAVITON” CONJECTURE
+
+                                                                      Sundrum[13] suggested a solution to the cosmological
+                                                                   constant problem, namely that the observed “dark en-
+                                                                   ergy” density is much smaller than the vacuum energy
+                                                                   density predicted by the usual rules of quantum mechan-
+                                                                   ics. He conjectured that this could be explained if the
+                                                                   graviton is a “fat” object whose size ℓg prevents it from
+                                                                   “seeing” the short-distance physics that dominates the
+                                                                   vacuum energy. In his conjecture, the gravitational force
+                                                                   vanishes at sufficiently small separations compared to ℓg .
+                                                                   We test this scenario by assuming that the gravitational
+                                                                   force is
+                                                                                        M1 M2 
+                                                                         fat
+                                                                                               1 − exp(−.914r/ℓg )3 ,
+                                                                                                                   
+                                                                        F12  (r) = −G                                       (17)
+                                                                                         r2
+                                                                   which has a shape similar to the force shown pictorially
+                                                                   in Fig. 8 of Ref. [13]; it vanishes at r = 0 and has a
+FIG. 4: (color online) 2σ constraints on the chameleon pa-         maximum at r = ℓg . Sundrum argues that naturalness
+rameter β as a function of γ from the data of Ref. [1]. The
+                                                                   requires ℓg ≥ 20 µm. Our results require ℓg ≤ 98 µm at
+shaded area is ruled out at 95% confidence. The chameleon
+signal is strongest when the chamelon length scale is compa-       95% confidence. Our upper limit on ℓg is larger than our
+rable to the 1 mm hole thickness. For much larger length           44 µm limit on the size of an extra dimension because our
+scales, the field varies little over the pendulum and attractor,   data probe the large-distance tail of the new potentials,
+giving a weak signal. For length scales much smaller than the      and the “fat-graviton” force falls off much more rapidly
+thickness of the BeCu foil, the signal is“screened” by the foil.   with increasing separation than does a Yukawa force.
+
+
+exchange leads to an effective potential density[12]                       POWER-LAW POTENTIALS AND
+                                                                         MULTI-PARTICLE EXCHANGE FORCES
+                       1 2 2 γ      β
+      Veff (φ, ~x) =    m φ + φ4 −     ρ(~x)φ ,            (15)
+                       2 φ   4!    MPl                                 We constrained power-law interactions of the form
+where γ characterizes the strength of the self interaction,                                Ma Mb
+                                                                                                      
+                                                                                                          1 mm
+                                                                                                                 k−1
+                                                                                k
+β characterizes the coupling of the scalar field to matter,                   Vab (r) = −G       βk                         (18)
+                                                                                                r           r
+and MPl is the reduced Planck mass. The “natural” val-
+ues of β and γ are ≈ 1. In the presence of matter with             by fitting the combined data of Ref. [1] with a function
+density ρ, a massless chameleon field acquires an effective        that contained the Newtonian term and a single power-
+mass[12],                                                          law term with k = 2, 3, 4, or 5. The results are listed
+                            1/6            1/3                 in Table I together with constraints from previous ISL
+                      h̄    9       1/6   βρ                       tests.
+           meff (ρ) =             γ                ,       (16)
+                      c     2             MPl                         Power-law interactions arise from higher-order ex-
+                                                                   change processes with simultaneous exchange of multi-
+that dramatically weakens experimental constraints be-             ple massless bosons. Second-order processes are par-
+cause only a small amount of material near the surface             ticularly interesting when the exchanged particles are
+with thickness O(h̄/(meff c)) contributes to a long-range          unnatural-parity bosons (for which the 1st-order force
+force[9, 10, 11, 12]. For ρ = 10 g/cm2 and β = γ = 1,              vanishes when averaged over unpolarized test bodies) or
+this skin thickness is about 60 µm.
+  Using the method outlined in Ref. [12], we calculated
+the 21ω chameleon torque, N21 (β, γ, s), as a function of          TABLE I: 68% confidence laboratory constraints on power-
+pendulum/attractor separation s for the apparatus of               law potentials from this work and previous[14, 15] results.
+Ref. [1]. The combined Ref. [1] data were fitted with
+                                                                   k             |βk |(this work)           |βk |(previous work)
+the Newtonian torque plus N21 (β, γ, s) to generate the
+                                                                   2               4.5 × 10−4                  1.3 × 10−3 [15]
+95% confidence level constraints on γ as a function of β
+                                                                   3               1.3 × 10−4                  2.8 × 10−3 [14]
+shown in Fig. 4. A substantial region of parameter space           4               4.9 × 10−5                  2.9 × 10−3 [14]
+around the natural values β ≈ 1 and γ ≈ 1 is strongly              5               1.5 × 10−5                  2.3 × 10−3 [14]
+excluded.
+                                                                                                                              4
+
+                                                                   Eq. 19,
+
+                                                                                        h̄ (gPa gPb )2 K1 (2r/λ)
+                                                                             Vab (r) = − 3                       ,         (21)
+                                                                                        c 32π 3 Ma Mb     λr2
+
+                                                                   where K1 is a modified Bessel function and λ = h̄/(mc).
+                                                                   Our bounds on gPn are shown in Fig. 5. The ob-
+                                                                   served SN1987a neutrino pulse excludes 8 × 10−14 <
+                                                                   (gPn )2 /(4πh̄c) < 8 × 10−8 [8]. Stronger couplings are
+                                                                   allowed because the pseudoscalars would have been
+                                                                   trapped in the star; we exclude this possibility for γ5 -
+                                                                   coupled pseudoscalars with mc2 ≤ 0.6 meV. Helioseis-
+                                                                   mology constraints on exotic energy loss processes pro-
+                                                                   vide a limit (gPp )2 /(4πh̄c) < 3 × 10−9 [21].
+                                                                      We thank D.B. Kaplan, E. Massó, A. Nelson and G.
+                                                                   Raffelt for informative conversations. This work was sup-
+FIG. 5: (color online) 68%-confidence constraints on the γ5        ported by NSF Grant PHY0355012 and by the DOE Of-
+couplings of massive pseudoscalars to neutrons plotted against     fice of Science.
+pseudoscalar mass m. The solid and dashed curves are from
+the ISL tests of Refs. [1] and [14] respectively. The horizontal
+dotted line shows the SN1987a constraint[8].
+
+                                                                     ∗
+                                                                        Present address: Department of Physics and Astronomy,
+fermions (for which the 1st-order process is forbidden).                Humboldt State University, Arcata CA, 95521-8299
+                                                                      †
+Potentials with k = 2 are generated by the simultaneous                 Present address:      Kavli Institute for Cosmological
+exchange of two massless scalar[16] bosons. Simultaneous                Physics, University of Chicago, Chicago IL, 60637
+                                                                    [1] D.J. Kapner et al., hep-ph/0611184.
+exchange of massless pseudoscalar[17] particles between
+                                                                    [2] E.G. Adelberger, B.R. Heckel and A.E. Nelson, Ann.
+fermions a and b with γ5 -couplings to ga and gb , gives a              Rev. Nucl. Part. Sci. 53, 77 (2003).
+k = 3 potential                                                     [3] I. Antoniadis, S. Dimopoulis and G.R. Dvali, Nucl. Phys.
+                                                                        B 516, 70 (1998).
+                         h̄ 1 (gPa gPb )2 1                         [4] D.B. Kaplan and M.B. Wise, JHEP 08 (2000).
+              Vab (r) = − 3                 .              (19)
+                         c 64π 3 Ma Mb r3                           [5] E. Zavattini et al. (PVLAS Collaboration), Phys. Rev.
+                                                                        Lett. 96 110406 (2006).
+  Potentials with k = 5 are produced by the simultane-              [6] E. Zavattini et al. INFN-LNL-213 (2006).
+ous exchange of two massless pseudoscalars with γ5 γµ ∂ µ           [7] E. Massó and C. Rizzo, hep-ph/0610286.
+couplings such as axions or Goldstone bosons[17], but in            [8] G.G. Raffelt, Stars as Laboratories for Fundamental
+this case our constraints are not competitive with astro-               Physics, Univ. of Chicago Press, 1996.
+                                                                    [9] J. Khoury and A. Weltman, Phys. Rev. Lett. 93, 171104
+physical bounds on the first-order process[8].
+                                                                        (2004).
+                                                                   [10] B. Feldman and A.E. Nelson, hep-ph/060307.
+                                                                   [11] D.F. Mota and D.J. Shaw, Phys. Rev. Lett. 97, 151102
+       Constraints on γ5 -coupled pseudoscalars                         (2006).
+                                                                   [12] A. Upadhye, S.S. Gubser and J. Khoury, hep-ph/0608186
+   Our limits on β3 in Table I, together with Eq. 19, con-              (2006).
+strain the γ5 couplings of massless pseudoscalars to neu-          [13] R. Sundrum, Phys. Rev. D 69, 044014 (2004).
+                                                                   [14] C.D. Hoyle et al., Phys. Rev. D 70 042004 (2004).
+trons and protons.
+                                                                   [15] R. Spero et al., Phys. Rev. Lett. 44,1645 (1980); J.K.
+     2 p 4  2 n 4               p 2 n 2                         Hoskins et al., Phys. Rev. D 32, 3084 (1985).
+     Z (gP )        N (gP )       Z   N (gP ) (gP )                [16] J. Sucher and G. Feinberg, in Long-Range Casimir
+Γ ≡          2
+                +          2
+                             +2
+     µ (h̄c)        µ (h̄c)       µ    µ      h̄c h̄c                   Forces, eds. F.S. Levin and D.A. Micha (Plenum, New
+      cG                                                                York, 1993) pp. 273-348.
+  = β3 3 64π 3 u4 (1 mm)2 = 2.56 × 10−10 β3 .     (20)             [17] F. Ferrer and J.A. Grifols, Phys. Rev. D 58, 096006
+      h̄                                                                (1998).
+Couplings to electrons can be ignored because of the very          [18] E. Fischbach and D.E. Krause, Phys. Rev. Lett. 83, 3593
+                                                                        (1999).
+small upper limit on such couplings deduced from an
+                                                                   [19] F. Ferrer and M. Nowakowski, Phys. Rev. D 59, 075009
+electron-spin-dependence experiment (see Ref. [18]). We                 (1999).
+constrained the γ5 couplings of pseudoscalars of mass m            [20] E.G. Adelberger, E. Fischbach, D.E. Krause and R.D.
+by fitting the Ref. [1] data in terms of the Newtonian                  Newman, Phys. Rev. D 68, 062002(2003).
+potential plus the appropriate generalization[19, 20] of           [21] G. Raffelt, hep-ph/0611118.
+

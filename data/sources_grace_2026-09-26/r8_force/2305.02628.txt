@@ -1,0 +1,698 @@
+                                         Exotic spin-dependent interactions through unparticle exchange
+
+                                                      L. Y. Wu,1, 2 K. Y. Zhang,1, 2, ∗ and H. Yan1, 2, †
+                                                       1
+                                                           Institute of Nuclear Physics and Chemistry,
+                                                           CAEP, Mianyang, Sichuan 621900, China
+                                                             2
+                                                                 Key Laboratory of Neutron Physics,
+                                                        Institute of Nuclear Physics and Chemistry,
+                                                           CAEP, Mianyang 621900, Sichuan, China
+
+
+
+
+arXiv:2305.02628v2 [hep-ph] 9 Jun 2023
+                                                                       (Dated: June 12, 2023)
+
+
+
+
+                                                                                1
+                                              Abstract
+     The potential discovery of unparticles could have far-reaching implications for particle physics
+and cosmology. For over a decade, high-energy physicists have extensively studied the effects
+of unparticles. In this study, we derive six types of nonrelativistic potentials between fermions
+induced by unparticle exchange in coordinate space. We consider all possible combinations of
+scalar, pseudo-scalar, vector, and axial-vector couplings to explore the full range of possibilities.
+Previous studies have only examined scalar-scalar (SS), pseudoscalar-pseudoscalar (PP), vector-
+vector (VV), and axial-axial-vector (AA) type interactions, which are all parity even. We propose
+SP and VA interactions to extend our understanding of unparticle physics, noting that parity
+conservation is not always guaranteed in modern physics. We explore the possibilities of detecting
+unparticles through the long-range interactions they may mediate with ordinary matter. Dedicated
+experiments using precision measurement methods can be employed to search for such interactions.
+We discuss the properties of these potentials and estimate constraints on several coupling constants
+based on existing experimental data. Our findings indicate that the coupling between vector
+unparticles and fermions is constrained by up to 9 orders of magnitude more tightly than the
+previous limits.
+
+
+
+
+I.     INTRODUCTION
+
+
+     The concept of symmetry has a profound impact on the development of modern physics.
+In 2007, Georgi [1] proposed the existence of a hidden conformal symmetry sector beyond
+the Standard Model (SM) of particle physics, termed unparticle. Since then, the effects of
+unparticles have been explored in many subjects, including collider physics [2–6], neutrino
+physics [7, 8], cosmology and astrophysics [9, 10], quantum electrodynamics [11, 12], dark
+energy [13–16], etc. The recent nonrelativistic extension of unparticle physics has led to a
+new concept of unnucleus [17] and provided an interpretation of neutral charm mesons near
+threshold [18].
+     One of the most intriguing phenomenologies of unparticle physics is the possibility of ex-
+otic long-range interactions mediated by unparticles [19]. To date, only electromagnetic and
+∗
+     zhangky@caep.cn
+†
+     h.y yan@qq.com
+
+
+                                                 2
+gravitational interactions have been observed as long-range interactions. However, consider-
+able efforts [20–26] have been devoted to searching for extra long-range interactions, which
+could be mediated by axions [27, 28], paraphotons [29, 30], Z ′ bosons [31], and gravipho-
+tons [32]. The discovery of new long-range interactions would have a tremendous impact on
+our understanding of nature, such as the strong CP problem [33] and dark matter [34].
+
+
+
+   Liao and Liu [19] first proposed the idea of unparticle-mediated long-range interactions,
+using experimental data on the long-range spin-dependent interaction of electrons to con-
+strain the couplings of unparticles to electrons. It was also noted that unparticles could
+mediate spin-independent long-range interactions, which might modify the inverse square
+law of gravity [35–37], contribute to the ground-state energy of the hydrogen atom [38],
+and influence the measurement of spacetime curvature near Earth [39]. The possibility of
+a long-range interaction between neutrinos from unparticle exchange was also explored in
+solar neutrino experiments [40]. Only long-range interactions originating from the same type
+of vertex, such as scalar-scalar (SS), pseudoscalar-pseudoscalar (PP), vector-vector (VV),
+and axial-axial-vector (AA), were considered in these works. Different types of couplings
+between unparticles and SM particles, such as scalar-pseudoscalar (SP) and vector-axial-
+vector (VA) interactions, could also exist. The interactions of SS, PP, VV, and AA types
+conserve all of the discrete symmetries, including charge conjugation (C), parity (P ), and
+time-reversal (T ). In contrast, the SP-type interaction violates both P and T , while the
+VA-type interaction violates P and C. It is important to note that the conservation of
+discrete symmetries such as P and CP cannot be assumed in modern physics. Taking such
+interactions into account when exploring extra long-range interactions or constraining them
+with existing experimental data could deepen our understanding of unparticle physics and
+provide new insights into new physics searches.
+
+
+
+   In this paper, we derive the interactions between fermions from unparticle exchange,
+considering all possible combinations of scalar, vector, pseudoscalar, and pseudovector cou-
+plings. We present six types of potentials explicitly in coordinate space under the nonrela-
+tivistic limit. We discuss the properties of the derived potentials and estimate the constraint
+on some couplings based on existing experimental data.
+
+                                             3
+II.     LONG RANGE SPIN-DEPENDENT INTERACTIONS VIA UNPARTICLE
+EXCHANGE
+
+
+      Following the scenario described in Ref. [1], at some high energy scale, the SM fields
+can interact with the BZ (Banks-Zaks [41]) field having a nontrivial infrared fixed point
+through the exchange of messenger particles with a large mass scale MU . Below this mass
+scale, nonrenormalizable couplings are suppressed by inverse powers of MU and take the
+generic form of M1k OSM OBZ , where OSM and OBZ denote operators built out of SM and BZ
+                       U
+
+fields, respectively. The renormalizable couplings of the BZ fields then induce dimensional
+transmutation, and the scale-invariant unparticle fields emerge at another energy scale ΛU .
+Below the scale ΛU , BZ operators match onto unparticle operators OU , and the unparticle
+interaction with SM particles at low energy has the form
+
+
+                                                         1
+                                           Lint ∝                  OSM OU ,                              (1)
+                                                    ΛdUU +dSM −4
+
+
+where dU and dSM are the scaling dimensions of the unparticle operator and the SM particle
+operator, respectively.
+
+      Now we consider the interactions between unparticles with fermions, specifically, electrons
+and nucleons. At low energies, nucleons can be described by a heavy fermion field, and thus
+the leading interactions in the effective field theory [19] can be generalized as
+
+                           X
+              Lint =           (CS ψ̄i ψi + CP ψ̄i iγ5 ψi )ΦU + (CV ψ̄i γµ ψi + CA ψ̄i γµ γ5 ψi )XUµ ,   (2)
+                       i=e,N
+
+
+
+Here ψe (ψN ) is the electron (nucleon) field, and ΦU and XUµ stand for the fields of scalar and
+vector unparticles, respectively, with CS,P,V,A being the corresponding coupling constants.
+They can be parameterized by Ci = ci Λ1−d
+                                      i
+                                          U
+                                            , where ci and Λi are unknown dimensionless
+numbers and energy scales, respectively. A simple choice is to put Λi = 1 TeV and constrain
+ci , because they can be easily converted into each other [19].
+
+      The scattering procedure in the nonrelativistic limit can be described by a tree level
+Feynman diagram, shown in Fig. 1. From the Lagrangian (2), six types of interaction, i.e.
+SS, SP, PP, VV, VA, and AA, can be constructed at tree level. In the laboratory frame, we
+
+                                                         4
+FIG. 1. Feynman diagram of scattering between fermions from unparticle exchange. For scalar,
+pseudoscalar, vector, and pseudovector interaction vertex, 1, iγ5 , γµ , and γµ γ5 should be attached,
+respectively. q represents the transferred four-momentum. In the nonrelativistic limit, q is replaced
+by the three-momentum q⃗.
+
+
+consider the elastic scattering with q0 = 0 and use notations
+
+                                      q⃗ = p⃗1f − p⃗1i = p⃗2i − p⃗2f ,
+                                          p⃗1f + p⃗1i
+                                    p⃗1 =             ,                                           (3)
+                                               2
+                                          p⃗2f + p⃗2i
+                                    p⃗2 =             ,
+                                               2
+where q⃗, p⃗1 , p⃗2 are three-momentum components of the corresponding four-momentum. The
+scalar unparticle propagator takes the form [1, 42]
+
+                                            AdU    1
+                              D(q 2 ) = i                (−q 2 − iϵ)dU −2 ,                       (4)
+                                             2 sin(dU π)
+
+             16π   5/2 Γ(dU +1/2)
+where AdU = (2π) 2dU Γ(d −1)Γ(2d ) is the normalization factor. The vector unparticle propa-
+                        U        U
+
+gator Dµν can be obtained by further attaching the spin structure −g µν + (1 − ξ)q µ q ν /q 2 .
+The six types of amplitude are given by
+
+                     MSS = iCS2 ū(p2f )u(p2i )D(q 2 )ū(p1f )u(p1i ),
+                     MSP = iCS (iCP )ū(p2f )u(p2i )D(q 2 )ū(p1f )γ5 u(p1i ),
+                    MP P = i(iCP )2 ū(p2f )γ5 u(p2i )D(q 2 )ū(p1f )γ5 u(p1i ),
+                                                                                                  (5)
+                    MV V = iCV2 ū(p2f )γµ u(p2i )Dµν (q 2 )ū(p1f )γν u(p1i ),
+                    MV A = iCV CA ū(p2f )γµ u(p2i )Dµν (q 2 )ū(p1f )γν γ5 u(p1i ),
+                    MAA = iCA2 ū(p2f )γµ γ5 u(p2i )Dµν (q 2 )ū(p1f )γν γ5 u(p1i ),
+
+where u(p) is the Dirac spinor. The amplitude in the nonrelativistic limit reads
+                                            Y        1 Y 1
+                                   A=            √         p    M,                                (6)
+                                             i
+                                                     2Ei f  2Ef
+
+                                                      5
+where i (f ) denotes the index of initial (final) particles, and the coefficients come from the
+normalization condition. The potential in coordinate space can be calculated through the
+Fourier transformation,
+                                                        d⃗q3
+                                                   Z
+                                      V (⃗r) = −             A(⃗q, p⃗)ei⃗q·⃗r .                                (7)
+                                                       (2π)3
+The six types of coordinate-space potential keeping terms up to O(m−3 ) are as follows.
+
+                 AdU 1−2dU                 p⃗21     p⃗22      Γ(2dU ) ⃗σ1 · (r̂ × p⃗1 ) ⃗σ2 · (r̂ × p⃗2 )
+VSS (r) = −CS2        r    [Γ(2d U −2)(1−       2
+                                                  −      2
+                                                           )+         (                −                  )],
+                 4π 2                     2m1 2m2 (2dU − 2)                 4m21 r           4m22 r
+                                                                                                        (8)
+                                            Ad             Γ(2dU )
+                         VSP (r) = −CS CP U2                          ⃗σ1 · r̂,                         (9)
+                                             4π 2(2dU − 2)m1 r2dU
+                                     AdU          (1 + 2dU )(⃗σ1 · r̂)(⃗σ2 · r̂) − ⃗σ1 · ⃗σ2
+                    VP P (r) = CP2      2
+                                          Γ(2dU )                                            ,                (10)
+                                     4π                4(2dU − 2)m1 m2 r2dU +1
+                        AdU 1−2dU           p⃗1 · p⃗2                             1         1
+         VV V (r) =CV2       r       [(1 −            )Γ(2dU − 2) + Γ(2dU )( 2 2 +                )
+                        4π 2                m1 m2                             8m1 r       8m22 r2
+                        Γ(2dU )                   p⃗2         p⃗1
+                      +          ⃗σ1 · r̂ × (            −        )
+                        2dU − 2               2m1 m2 r 4m21 r
+                                                                                                              (11)
+                        Γ(2dU )                p⃗2          p⃗1
+                      +          ⃗σ2 · r̂ × ( 2 −                 )
+                        2dU − 2               4m2 r 2m1 m2 r
+                                (2dU + 1)(⃗σ1 · r̂)(⃗σ2 · r̂) + (1 − 2dU )(⃗σ1 · ⃗σ2 )
+                      − Γ(2dU )                                                        ],
+                                                 4(2dU − 2)m1 m2 r2
+                        AdU 1−2dU              ⃗σ1 · p⃗1 ⃗σ1 · p⃗2    Γ(2dU ) (⃗σ2 × r̂) · ⃗σ1
+   VV A (r) = CV CA        2
+                             r    [Γ(2dU − 2)(          −          )−                          ],             (12)
+                        4π                       m1        m2         2dU − 2      2m2 r
+                   AdU 1−2dU                       p⃗21       p⃗22
+    VAA (r) =CA2        r     {Γ(2d   U  −   2)(         +         − 1)⃗σ1 · ⃗σ2
+                   4π 2                          2m21 2m22
+                               (⃗σ1 · p⃗1 )(⃗σ2 · p⃗2 ) (⃗σ1 · p⃗1 )(⃗σ2 · p⃗1 ) (⃗σ1 · p⃗2 )(⃗σ2 · p⃗2 )
+                 + Γ(2dU − 2)[                           −                       −                        ]
+                                       m1 m2                        2m21                  2m22
+                                                                                                              (13)
+                             1         1 (1 + 2dU )(⃗σ1 · r̂)(⃗σ2 · r̂) − ⃗σ1 · ⃗σ2
+                 − Γ(2dU )( 2 +            )
+                           8m1 8m22                         (2dU − 2)r2
+                   Γ(2dU ) ⃗σ2 · (⃗p1 × r̂) ⃗σ1 · (⃗p2 × r̂)
+                 +         [                  −                    ]},
+                   2dU − 2      4m21 r                  4m22 r
+where the gauge of ξ = 1 is adopted [19, 43]. The main derivation of these potentials, with
+details for the SS type (8), is given in Appendix A. ⃗σi , mi , and p⃗i are the spin, mass, and
+momentum of the fermion i, respectively. r̂ is a unit vector pointing from particle 1 to
+particle 2, and r is the distance between them. Potentials (8), (10), (11), and (13) generated
+from two same vertexes are invariant under the permutation of particle index. When dealing
+with identical particles, potentials (9) and (12) should have terms that exchange particle
+
+                                                       6
+index 1 and 2 added to them. This leads to the following expressions:
+                                          AdU      Γ(2dU )
+                      VSP (r) = −CS CP                         (⃗σ1 − ⃗σ2 ) · r̂,                 (14)
+                                          4π 2 2(2dU − 2)mr2dU
+                 AdU 1−2dU              1                             Γ(2dU ) (⃗σ2 × r̂) · ⃗σ1
+ VV A (r) = CV CA   2
+                      r     [Γ(2dU − 2) (⃗σ1 − ⃗σ2 ) · (⃗p1 − p⃗2 ) −                          ]. (15)
+                 4π                     m                             2dU − 2      mr
+These expressions are such that they do not vanish when the wave function is antisymmetric.
+   The potentials we derived contain terms up to O(m−3 ) because higher-order effects are
+largely suppressed by the mass and are therefore irrelevant for observations in low-energy
+experiments. ⃗r and p⃗ should be treated as vectors/operators for macroscopic/microscopic
+systems, e.g., the term ⃗σ1 · (r̂ × p⃗1 ) should be replaced by (⃗σ1 × r̂) · p⃗1 + p⃗1 · (⃗σ1 × r̂) for
+the interaction of SS type at the atomic scale [44]. One can put p⃗1 = −⃗p2 to obtain the
+potentials in the center-of-mass frame. It is important to note that these potentials exhibit
+a strong dependence on the continuous scaling dimension dU . This is due to the exponential
+factor of r, which dominates the behavior of the potentials at small distances r. The signif-
+icant dependence on dU has been highlighted by studying the unparticle contribution to the
+ground-state energy of the hydrogen atom [38]. In the following discussion, for convenience,
+we take a range of dU ∈ (1, 2) [2, 19]. This range could be suitably modified or adjusted in
+certain cases, as discussed in Ref. [45].
+
+
+III.   CONSTRAINTS FROM EXISTING EXPERIMENTS
+
+
+   Potentials mediated by unparticles are particularly special as they follow a non-Yukawa
+1/rα relationship, where α is a positive real number greater than 1 and not necessarily an
+integer, which is a unique characteristic of these potentials. Some other types of non-Yukawa
+spin-dependent interactions were recently studied in Ref. [22]. This could be viewed as a
+possible origin of the deviation from the gravitational inverse square law (ISL). Previously,
+such kind of deviation was modeled by including a Yukawa type or 1/rN (N = 2, 3, · · · ) type
+potential, mediated by a finite mass particle or N massless particles, into the Newtonian
+potential [46]. If the violation of ISL is considered due to unparticle effects, constraints on
+unparticle could be obtained. For instance, treating the nucleon as baryon number current,
+Ref. [36] estimated the limits on the long range interactions induced by vector unparticle
+exchange. Similarly, the bounds on such interactions have been obtained from geodetic and
+frame-dragging measurements by considering the vector unparticle coupling to the electronic
+
+                                                 7
+(leptonic) and the nucleonic (baryonic) currents [39]. Here, describing the nucleon as a
+fermion field, we use the data in Ref. [46] to constrain cV , with ΛU = 1 TeV, dU = 1.5 and
+2.0. The details to derive the constraint are given in Appendix B. The results are tabulated
+in Table I, alongside the constraint in Ref. [47]. The obtained new constraint for dU = 1.5
+improves the previous limit by as much as 9 orders of magnitude.
+
+
+
+TABLE I. Constraints on the coupling constant cV of VV type interaction between nucleons (11)
+at the leading term for dU = 1.5 and 2.0 at the 68% confidence level. The energy scale ΛU is fixed
+as 1 TeV.
+                                    dU        1.5          2.0
+
+                                    cV    1.7 × 10−10 1.8 × 10−2
+                                  cV [47] 3.7 × 10−1        −
+
+
+
+
+   It is worth noting that the potentials of SP and VA types, originating from couplings of
+different types of vertex, violate P , T and C, P symmetries, respectively. The amount of
+CP violation permitted by the SM has been recognized to be inadequate for explaining the
+observed asymmetry between matter and antimatter in the Universe. Therefore, the search
+for novel sources of CP and T violations has become a crucial frontier in modern physics
+research [48]. A particularly relevant example of the P , T violation effect is the electric dipole
+moments (EDMs), which could be induced by VSP in atoms due to the mixture of opposite-
+parity eigenstates. Based on the precise measurement of the EDM of 199 Hg atom [49, 50],
+the constraint on coupling constants of VSP for dU = 1.0 is evaluated as
+
+
+                                                          −17
+                                      |ceS cN
+                                            P | = 7.0 × 10    ,                               (16)
+
+
+at the 95% confidence level. The details to obtain this constraint can be also found in Ap-
+pendix B. Previously, the effects of CP violation from unparticle physics were only explored
+in collider physics [51, 52]. Here, the exchange of unparticles through VSP and VV A can
+offer an additional approach to probe the effects of discrete symmetry violation in precision
+measurement experiments.
+
+                                                8
+IV.     CONCLUSION AND DISCUSSION
+
+
+   In summary, six types of coordinate-space potential between fermions from unparticle
+exchange are derived under the nonrelativistic limit, which could be probed in precision
+measurement experiments. Previous studies have focused on parity-even interactions, such
+as SS, PP, VV, and AA. We propose new interactions of the SP and VA type, which will not
+conserve parity. It is important to note that parity conservation is not always a fundamental
+principle in modern physics. Properties of these potentials are discussed. Based on existing
+experimental data, constraints on some coupling constants are estimated. By examining the
+unparticle effects in the violation of the gravitational inverse square law, our limit on the
+vector unparticle coupling with fermions, cV = 1.7 × 10−10 , improves the previous constraint
+by as much as 9 orders of magnitude. By using the upper limit for the electric dipole
+moment of the 199 Hg atom, we also constrain the coupling constants of SP type interaction
+from unparticle exchange.
+
+  Finally, we point out that more constraints could be obtained considering the spin de-
+                                                                             ⃗ pseudo , where
+pendence of most potentials. The spin-dependent terms can be written as ⃗σ · B
+⃗ pseudo can be viewed as a kind of pseudo-magnetic field. Such pseudo-magnetic field can be
+B
+sensed by spin-polarized quantum sensor, e.g. the atom magnetometer. The state-of-the-art
+magnetometer working in Spin Exchange Relaxation Free region has reached the sensitivity
+        √                                             √
+of ∼ fT/ Hz, i.e. the energy resolution of ∼ 10−23 eV/ Hz [53]. This kind of techniques
+has been widely used in the table-top new physics research, and many progresses have been
+recently reported [24, 54–58]. These findings can aid in constraining spin-dependent in-
+teractions that are mediated by unparticles, and ongoing work is being conducted in this
+area.
+
+
+
+
+   ACKNOWLEDGMENTS
+
+
+   We acknowledge supports from the National Natural Science Foundation of China under
+grants U2230207 and U2030209 and the National Key Program for Research and Develop-
+ment of China under grants 2020YFA0406001 and 2020YFA0406002. We thank Dr. Liao
+for the helpful discussions and for providing valuable notes on the relevant subjects.
+
+                                            9
+   Appendix A: Derivation of potentials in coordinate space
+
+
+   First some useful identities are listed as follows.
+
+                    ⃗ σ · B)
+              (⃗σ · A)(⃗  ⃗ =A
+                             ⃗·B
+                               ⃗ + i⃗σ · (A
+                                          ⃗ × B)
+                                              ⃗
+                     ⃗ · (⃗σ2 × B)
+              (⃗σ1 × A)         ⃗ = (A
+                                     ⃗ · B)(⃗
+                                         ⃗ σ1 · ⃗σ2 ) − (⃗σ2 · A)(⃗
+                                                               ⃗ σ1 · B)
+                                                                      ⃗                         (A1)
+                    ⃗ i (⃗σ · B)
+              (⃗σ · A)σ       ⃗ = (⃗σ · A)
+                                        ⃗ B⃗ i + i(B
+                                                   ⃗ × A)
+                                                       ⃗ i − (A
+                                                              ⃗ · B)⃗
+                                                                  ⃗ σi + (⃗σ · B)
+                                                                               ⃗ A⃗i
+
+                ∂i ∂j r1−2d = (1 − 2d)(−1 − 2d)r−3−2d xi xj + (1 − 2d)r−1−2d δij                (A2)
+
+                                    ∇r1−2d = (1 − 2d)r−2d r̂                                    (A3)
+                             d⃗q3 1 i⃗q·⃗r
+                        Z
+                                            1
+                                 3  2 k
+                                        e = 2 r2k−3 sin(kπ)Γ(2 − 2k)                            (A4)
+                            (2π) (⃗q )     2π
+                         d⃗q3 q⃗ i⃗q·⃗r
+                    Z
+                                              1
+                             3  2 k
+                                    e = (−i∇) 2 r2k−3 sin(kπ)Γ(2 − 2k)                          (A5)
+                        (2π) (⃗q )           2π
+In the following, the natural units ℏ = c = 1, metric signature (+ , − , − , −), and γµ
+matrices in the Dirac representation are adopted. The Dirac spinor in Eq. (5) reads
+                                                     
+                                                 χs
+                                  u(p) = N           ,                                        (A6)
+                                               σ ·⃗
+                                               ⃗  p
+                                              E+m s
+                                                    χ
+                                                               √
+where χs is the spin wave function with s = 0 or 1, N =            E + m is the normalization factor,
+and E, p⃗, and m is the energy, three-momentum, and rest mass of the particle, respectively.
+Taking the scalar type spinor product as an example, we have
+                                                     
+                                                 1 0
+                    ū(p1f )u(p1i ) = u(p1f )†        u(p1i )
+                                                 0 −1
+                                             (⃗σ1 · p⃗1f )(⃗σ1 · p⃗1i )
+                                  = N12 (1 −                            )
+                                                 (E1 + m1 )2
+                                             p⃗1f · p⃗1i + i⃗σ1 · (⃗p1f × p⃗1i )                (A7)
+                                  = N12 (1 −                                     )
+                                                        (E1 + m1 )2
+                                             p⃗2 + p⃗1i · q⃗ + i⃗σ1 · (⃗q × p⃗1i )
+                                  = N12 (1 − 1i                                    )
+                                                         (E1 + m1 )2
+                                             p⃗2 − q⃗2 /4 + i⃗σ1 · (⃗q × p⃗1 )
+                                  = N12 (1 − 1                                  ),
+                                                       (E1 + m1 )2
+
+where p⃗1i (⃗p1f ) refers to the three-momentum of the initial (final) state of particle 1. In an
+elastic scattering process, E1i = E1f = E1 . As defined in Eq. (3), p⃗1 = (⃗p1i + p⃗1f )/2 and
+
+                                               10
+q⃗ = p⃗1f − p⃗1i are the average and transferred three-momenta, respectively. Other spinor
+products, listed below, can be calculated in a similar way.
+
+                                                       ⃗σ1 · (⃗p1i − p⃗1f )         ⃗σ1 · q⃗
+                         ū(p1f )γ5 u(p1i ) = N12                           = −N12                                     (A8)
+                                                           E1 + m1                 E1 + m1
+
+                                                              p⃗21 − q⃗2 /4 + i⃗σ1 · (⃗q × p⃗1 )
+                          ū(p1f )γ0 u(p1i ) = N12 (1 +                                          )                     (A9)
+                                                                        (E1 + m1 )2
+                                                               2(⃗p1 )i   i(⃗σ1 × q⃗)i
+                               ū(p1f )γi u(p1i ) = N12 (               +              )                              (A10)
+                                                              E1 + m1      E1 + m1
+                                                                        2⃗σ1 · p⃗1
+                                         ū(p1f )γ0 γ5 u(p1i ) = N12                                                  (A11)
+                                                                        E1 + m1
+                                         2(⃗σ1 · p⃗1 )(⃗p1 )i − (⃗σ1 · q⃗)(⃗q1 )i /2 + i(⃗p1 × q⃗)i − (⃗p21 − q⃗2 /4)(⃗σ1 )i
+ū(p1f )γi γ5 u(p1i ) = N12 ((⃗σ1 )i +                                                                                       )
+                                                                             (E1 + m1 )2
+                                                                                                                     (A12)
+   The nonrelativistic scattering amplitude for the interaction of SS type reads
+
+         1
+ASS =         MSS
+       4E1 E2
+       N 2N 2        AdU            i             p⃗21 − q⃗2 /4 + i⃗σ1 · (⃗q × p⃗1 )       p⃗22 − q⃗2 /4 − i⃗σ2 · (⃗q × p⃗2 )
+      = 1 2 iCS2                             (1 −                                    )(1 −                                    ).
+       4E1 E2    2 sin(πdU ) (−q 2 − iϵ)2−dU                (E1 + m1 )2                              (E2 + m2 )2
+                                                                                                                      (A13)
+
+                                                              ⃗2
+                                              p               p
+By expanding the energy as E =                 m2 + p⃗2 = m + 2m + O(m−2 ), one has
+
+                    AdU          1       2⃗p2 + i⃗σ1 · (⃗q × p⃗1 ) 2⃗p22 − i⃗σ2 · (⃗q × p⃗2 )
+    ASS = −                CS2 2 2−d (1 − 1                       −                           ).                      (A14)
+                2 sin(πdU ) (⃗q ) U               4m21                       4m22
+
+The nonrelativistic amplitudes for other interactions are listed as follows.
+
+                                                   AdU               1  ⃗σ1 · q⃗
+                                 ASP = i                   CS CP 2 2−d           ,                                    (A15)
+                                               2 sin(πdU )      (⃗q ) U 2m1
+
+                                                AdU          1    (⃗σ1 · q⃗)(⃗σ2 · q⃗)
+                             AP P = −                  CP2 2 2−d                       ,                              (A16)
+                                            2 sin(πdU ) (⃗q )   U     4m1 m2
+
+                AdU                1           −⃗q2 /2 + i⃗σ1 · (⃗q × p⃗1 ) −⃗q2 /2 − i⃗σ2 · (⃗q × p⃗2 )
+   AV V =                  CV2 2 2−d (1 +                                  +
+            2 sin(πdU )       (⃗q ) U                    4m21                             4m22
+                                                                                                                      (A17)
+                4⃗p1 · p⃗2 + (⃗σ1 × q⃗)(⃗σ2 × q⃗) + i(2⃗p2 · (⃗σ1 × q⃗) − 2⃗p1 · (⃗σ2 × q⃗))
+            −                                                                                ),
+                                                  4m1 m2
+                              AdU               1   ⃗σ1 · p⃗1 ⃗σ1 · p⃗2 i(⃗σ2 × q⃗) · ⃗σ1
+               AV A =                 CV CA 2 2−d (          −         +                  ),                          (A18)
+                          2 sin(πdU )      (⃗q ) U m1           m2            2m2
+
+                                                           11
+                    AdU                  1                        (⃗σ1 · p⃗1 )(⃗σ2 · p⃗2 )
+       AAA =                  CV2 2 2−d {−⃗σ1 · ⃗σ2 +
+               2 sin(πdU )         (⃗q ) U                                m1 m2
+                   2(⃗σ1 · p⃗1 )(⃗σ2 · p⃗1 ) − (⃗σ1 · q⃗)(⃗σ2 · q⃗)/2 + i⃗σ2 · (⃗p1 × q⃗) − 2⃗p21⃗σ1 · ⃗σ2
+                −                                                                                                     (A19)
+                                                               4m21
+                   2(⃗σ1 · p⃗2 )(⃗σ2 · p⃗2 ) − (⃗σ2 · q⃗)(⃗σ1 · q⃗)/2 − i⃗σ1 · (⃗p2 × q⃗) − 2⃗p22⃗σ1 · ⃗σ2
+                −                                                                                              }.
+                                                               4m22
+Applying the Fourier transformation (7) to the amplitude (A14), one finally reaches
+                    d3 q⃗
+              Z
+VSS (⃗r) = −                ASS (⃗q, p⃗)ei⃗q·⃗r
+                   (2π)3
+                                                                 p⃗21        p⃗22 i⃗q·⃗r 3
+                                        Z
+                   AdU              2             1
+         =                       C    {                 (1  −          −          )e d q⃗
+           2 sin(πdU )(2π)3 S               (⃗q2 )2−dU          2m21 2m22
+               i⃗σ1 · (⃗q × p⃗1 ) i⃗q·⃗r 3       i⃗σ2 · (⃗q × p⃗2 ) i⃗q·⃗r 3
+           −              2
+                                 e d q⃗ +                            e d q⃗}
+                     4m1                               4m22
+               Ad                                            p⃗2         p⃗2       ⃗σ1 · (∇ × p⃗1 ) ⃗σ2 · (∇ × p⃗2 )
+         = − U2 CS2 Γ(2dU − 2)r1−2dU {(1 − 1 2 − 2 2 ) −                                             +                  }
+               4π                                           2m1 2m2                        4m21                4m22
+               Ad                                            p⃗2         p⃗2                     ⃗σ1 · (r̂ × p⃗1 ) ⃗σ2 · (r̂ × p⃗2 )
+         = − U2 CS2 Γ(2dU − 2)r1−2dU {(1 − 1 2 − 2 2 ) − (1 − 2dU )(                                              −                  )}
+               4π                                           2m1 2m2                                   4m21 r            4m22 r
+               Ad                                            p⃗2         p⃗2          Γ(2dU ) ⃗σ1 · (r̂ × p⃗1 ) ⃗σ2 · (r̂ × p⃗2 )
+         = − U2 CS2 r1−2dU {Γ(2dU − 2)(1 − 1 2 − 2 2 ) +                                        (                 −                  )},
+               4π                                           2m1 2m2                (2dU − 2)           4m21 r            4m22 r
+                                                                                                                      (A20)
+with the use of Eqs. (A3)-(A5). This is exactly the potential (8) with an explicit inclusion
+of the common factor and the coupling strength. Following a similar procedure, one can
+obtain the coordinate-space potentials (9)-(13).
+
+
+    Appendix B: Constraint on VV and SP type interactions
+
+
+    In the torsion-balance experiment, the power-law potential,
+                                                        M1 M2      1 mm k−1
+                                         Vabk (r) = G         βk (     ) ,                                             (B1)
+                                                         r           r
+was considered as a form of possible breakdown of the ISL, and some constraints on it was
+obtained [46]. The total power-law interaction between the molybdenum pendulum and the
+tantalum attractors is                               Z Z
+                                         k
+                                        Uab (r) =            ρ1 ρ2 Vabk (r)dV1 dV2 ,                                   (B2)
+
+where ρ1 = 0.01028 g/mm3 and ρ2 = 0.01669 g/mm3 are the corresponding mass densities.
+If VV type interaction is also thought of possible form, the corresponding interaction reads
+                                       Z Z
+                           UV V0 (r) =     ρN 1 ρN 2 VV V0 (r)dV1 dV2 ,                 (B3)
+
+
+                                                           12
+where ρN1 = 6.45×1019 mm−3 and ρN2 = 5.55×1019 mm−3 are the nucleon number densities
+of molybdenum and tantalum, respectively. Here, VV V0 (r) is the first term of Eq. (11), which
+can be expressed as
+
+                            16π 5/2 Γ(dU + 1/2)Γ(2dU − 2)                          1 mm 2dU −1
+ VV V0 (r) = c2V Λ2−2dU       2d   2
+                                                          (ℏc)2dU −1 (1 mm)1−2dU (     )       ,
+                          (2π) 4π
+                                U      Γ(dU − 1)Γ(2dU )                              r
+                                                                                           (B4)
+in the international system (SI) of units. By comparing Eqs. (B2) and (B3), one obtains the
+constraint
+      s
+                                 16π 5/2 Γ(dU + 1/2)Γ(2dU − 2)
+ cV =    Gρ1 ρ2 βk /(Λ2−2dU                                    (ℏc)2dU −1 (1 mm)2−2dU ρN1 ρN2 ),
+                               (2π)2dU 4π 2 Γ(dU − 1)Γ(2dU )
+                                                                                           (B5)
+when k = 2dU − 1.
+   The most stringent constraint on the EDM of 199 Hg atom [49, 50] is applyed to constrain
+the axion mediated P, T violating interaction [59],
+                                                   p
+                                              ges gN         e−ma r 0
+                                 V (r) = −           σN · ∇(       )γ .                    (B6)
+                                             8πmN              r
+
+By considering the limit of a small axion mass, the interaction (B6) reduces to
+                                                      p
+                                                 ges gN         1
+                                    lim V (r) =         σN · r̂ 2 γ 0 ,                    (B7)
+                                   ma →0        8πmN           r
+
+where mN and σN are respectively the mass and spin vector of the nucleon, and the Dirac
+matrix γ 0 corresponds to the electron. The SP potential (9) at dU → 1 reads
+
+                                                     ceS cN
+                                                          P         1
+                                 lim VSP (r) = −            σN · r̂ 2 γ 0 ,                (B8)
+                                 dU →1              8πmN           r
+
+which takes a similar form of the potential (B7), and has an appended γ 0 for the relativistic
+electron. By comparing Eqs. (B7) and (B8), one obtains the constraint on |ceS cN
+                                                                               P |.
+
+
+
+
+ [1] H. Georgi, Phys. Rev. Lett. 98, 221601 (2007).
+ [2] H. Georgi, Phys. Lett. B 650, 275 (2007).
+ [3] K. Cheung, W.-Y. Keung, and T.-C. Yuan, Phys. Rev. Lett. 99, 051803 (2007).
+ [4] C. Collaboration, Eur. Phys. J. C 75, 235 (2015).
+ [5] T. M. Aliev, S. Bilmiş, M. Solmaz, and I. Turan, Phys. Rev. D 95, 095005 (2017).
+
+                                                  13
+ [6] D. Van Soa and B. T. H. Giang, Nucl. Phys. B 936, 1 (2018).
+ [7] D. Montanino, M. Picariello, and J. a. Pulido, Phys. Rev. D 77, 093011 (2008).
+ [8] M. Pandey, J. High Energy Phys. 2019 (1), 66.
+ [9] H. Davoudiasl, Phys. Rev. Lett. 99, 141301 (2007).
+[10] S. Das, S. Mohanty, and K. Rao, Phys. Rev. D 77, 076001 (2008).
+[11] Y. Liao, Phys. Rev. D 76, 056006 (2007).
+[12] A. M. Frassino, P. Nicolini, and O. Panella, Phys. Lett. B 772, 675 (2017).
+[13] D.-C. Dai, S. Dutta, and D. Stojkovic, Phys. Rev. D 80, 063522 (2009).
+[14] M. Artymowski, I. Ben-Dayan, and U. Kumar, Phys. Rev. D 103, L121303 (2021).
+[15] M. A. Abchouyeh and M. H. P. M. van Putten, Phys. Rev. D 104, 083511 (2021).
+[16] M. Artymowski, I. Ben-Dayan, and U. Kumar, Phys. Rev. D 106, 083502 (2022).
+[17] H.-W. Hammer and D. T. Son, Proc. Nat. Acad. Sci. 118, e2108716118 (2021).
+[18] E. Braaten and H.-W. Hammer, Phys. Rev. Lett. 128, 032002 (2022).
+[19] Y. Liao and J.-Y. Liu, Phys. Rev. Lett. 99, 191804 (2007).
+[20] J. E. Moody and F. Wilczek, Phys. Rev. D 30, 130 (1984).
+[21] B. A. Dobrescu and I. Mocioiu, J. High Energy Phys. 2006 (11), 005.
+[22] A. Costantino, S. Fichet, and P. Tanedo, J. High Energy Phys. 2020 (3), 148.
+[23] J. Ding, J. Wang, X. Zhou, Y. Liu, K. Sun, A. O. Adeyeye, H. Fu, X. Ren, S. Li, P. Luo,
+    Z. Lan, S. Yang, and J. Luo, Phys. Rev. Lett. 124, 161801 (2020).
+[24] K. Y. Wu, S. Y. Chen, G. A. Sun, S. M. Peng, M. Peng, and H. Yan, Phys. Rev. Lett. 129,
+    051802 (2022).
+[25] H. Liang, M. Jiao, Y. Huang, P. Yu, X. Ye, Y. Wang, Y. Xie, Y.-F. Cai, X. Rong, and J. Du,
+    Natl. Sci. Rev. 10.1093/nsr/nwac262 (2022).
+[26] K. Wei, T. Zhao, X. Fang, Z. Xu, C. Liu, Q. Cao, A. Wickenbrock, Y. Hu, W. Ji, J. Fang,
+    and D. Budker, Phys. Rev. Lett. 130, 063201 (2023).
+[27] F. Wilczek, Phys. Rev. Lett. 40, 279 (1978).
+[28] S. Weinberg, Phys. Rev. Lett. 40, 223 (1978).
+[29] B. Holdom, Phys. Lett. B 166, 196 (1986).
+[30] B. A. Dobrescu, Phys. Rev. Lett. 94, 151802 (2005).
+[31] P. D. Group, Prog. Theo. Exp. Phys. 2020 (2020).
+[32] D. Atwood, C. P. Burgess, E. Filotas, F. Leblond, D. London, and I. Maksymyk, Phys. Rev.
+
+
+                                                14
+    D 63, 025007 (2000).
+[33] J. E. Kim and G. Carosi, Rev. Mod. Phys. 82, 557 (2010).
+[34] E. Braaten and H. Zhang, Rev. Mod. Phys. 91, 041002 (2019).
+[35] H. Goldberg and P. Nath, Phys. Rev. Lett. 100, 031803 (2008).
+[36] N. Deshpande, S. D. Hsu, and J. Jiang, Phys. Lett. B 659, 888 (2008).
+[37] O. Bertolami, J. Páramos, and P. Santos, Phys. Rev. D 80, 022001 (2009).
+[38] M. F. Wondrak, P. Nicolini, and M. Bleicher, Phys. Lett. B 759, 589 (2016).
+[39] T. K. Poddar, Eur. Phys. J. C 82, 982 (2022).
+[40] M. C. Gonzalez-Garcia, P. C. de Holanda, and R. Z. Funchal, J. Cosmol. Astropart. Phys.
+    2008 (06), 019.
+[41] T. Banks and A. Zaks, Nucl. Phys. B 196, 189 (1982).
+[42] K. Cheung, W.-Y. Keung, and T.-C. Yuan, Phys. Rev. D 76, 055003 (2007).
+[43] M. Luo and G. Zhu, Phys. Lett. B 659, 341 (2008).
+[44] P. Fadeev, Y. V. Stadnik, F. Ficek, M. G. Kozlov, V. V. Flambaum, and D. Budker, Phys.
+    Rev. A 99, 022113 (2019).
+[45] B. Grinstein, K. Intriligator, and I. Z. Rothstein, Phys. Lett. B 662, 367 (2008).
+[46] E. G. Adelberger, B. R. Heckel, S. Hoedl, C. D. Hoyle, D. J. Kapner, and A. Upadhye, Phys.
+    Rev. Lett. 98, 131104 (2007).
+[47] C.-F. Chang, K. Cheung, and T.-C. Yuan, Eur. Phys. J. C 71, 1611 (2011).
+[48] M. Dine and A. Kusenko, Rev. Mod. Phys. 76, 1 (2003).
+[49] B. Graner, Y. Chen, E. G. Lindahl, and B. R. Heckel, Phys. Rev. Lett. 116, 161601 (2016).
+[50] B. Graner, Y. Chen, E. G. Lindahl, and B. R. Heckel, Phys. Rev. Lett. 119, 119901 (2017).
+[51] C.-H. Chen and C.-Q. Geng, Phys. Rev. D 76, 115003 (2007).
+[52] M. Ettefaghi, R. Moazzemi, and M. Rousta, Phys. Rev. D 95, 095027 (2017).
+[53] D. Budker and M. Romalis, Nat. Phys. 3, 227 (2007).
+[54] Y. J. Kim, P.-H. Chu, and I. Savukov, Phys. Rev. Lett. 121, 091802 (2018).
+[55] W. A. Terrano and M. V. Romalis, Quantum Sci. Technol. 7, 014001 (2021).
+[56] H. Su, Y. Wang, M. Jiang, W. Ji, P. Fadeev, D. Hu, X. Peng, and D. Budker, Sci. Adv. 7,
+    eabi9535 (2021).
+[57] K. Wei, W. Ji, C. Fu, A. Wickenbrock, V. V. Flambaum, J. Fang, and D. Budker, Nat.
+    Commun. 13, 7387 (2022).
+
+
+                                               15
+[58] W. Xiao, M. Liu, T. Wu, X. Peng, and H. Guo, Phys. Rev. Lett. 130, 143201 (2023).
+[59] V. A. Dzuba, V. V. Flambaum, I. B. Samsonov, and Y. V. Stadnik, Phys. Rev. D 98, 035048
+    (2018).
+
+
+
+
+                                            16
+

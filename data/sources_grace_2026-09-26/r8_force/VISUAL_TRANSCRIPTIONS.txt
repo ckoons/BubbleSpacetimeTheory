@@ -1,0 +1,56 @@
+VISUAL TRANSCRIPTIONS -- r8_force (Grace lane, 2026-09-26)
+Rendered with pdftoppm -r 150 from the arXiv PDFs saved in this directory; read by eye.
+LaTeX-ish transcription; "[visual]" = read from the PNG, not the text layer.
+
+1. hep-ph_0611223_p3-3.png  (Adelberger et al. 2007, arXiv v3, PDF page 3)
+   Section "POWER-LAW POTENTIALS AND MULTI-PARTICLE EXCHANGE FORCES":
+   "We constrained power-law interactions of the form
+      V^k_{ab}(r) = -G (M_a M_b / r) beta_k (1 mm / r)^{k-1}      (18)
+    by fitting the combined data of Ref. [1] with a function that contained the
+    Newtonian term and a single power-law term with k = 2, 3, 4, or 5."
+   NOTE: Eq. (18) is the power-law TERM ALONE (no "1 +"); r0 = 1 mm fixed; total r-exponent of the term = k.
+   TABLE I: "68% confidence laboratory constraints on power-law potentials from this work and previous[14, 15] results."
+      k | |beta_k| (this work) | |beta_k| (previous work)
+      2 | 4.5e-4 | 1.3e-3 [15]
+      3 | 1.3e-4 | 2.8e-3 [14]
+      4 | 4.9e-5 | 2.9e-3 [14]
+      5 | 1.5e-5 | 2.3e-3 [14]
+
+2. 0706.3898_p3-03.png  (Goldberg & Nath, arXiv v3, PDF page 3)
+   Eq. (6): V(r) = -m1 m2 G ( 1/r + [xi^2 / Lambda_U^{2dU-2}] [(2-alpha)/(2pi)^{2(dU-1)}] [2/sqrt(pi)]
+                               Gamma(2-dU) Gamma(dU+1/2) / Gamma(2dU) f_{dU}(r) )
+   with f_{dU}(r) = 4pi \int d^3q/(2pi)^3 e^{-i q.r} / (q^2)^{2-dU};  xi = kappa_*/kappa, kappa = M_Pl^{-1}.
+   Text: "for d_U different from unity the ungravity effects produce an r dependence of the form 1/r^{2d_u-1}"
+   Eq. (7): V(r) = -(m1 m2 G / r) [ 1 + (R_G/r)^{2dU-2} ],
+            R_G = (1/(pi Lambda_U)) (M_Pl/M_*)^{1/(dU-1)} . ( [2(2-alpha)/pi] x Gamma(dU+1/2)Gamma(dU-1/2)/Gamma(2dU) )^{1/(2dU-2)}
+   alpha = 2/3 for the (traceless rank-2) unparticle projector; alpha = 1 reproduces graviton.
+
+3. 0706.3898_p5-05.png  (Goldberg & Nath, PDF page 5, Fig. 1 left)
+   Curve R_G(max) [mm] vs d_U in [2,4]: approx 0.013 at d_U=2, ~0.038 at d_U=2.5 [visual, +-0.003], ~0.063 at d_U=3, ~0.108 at d_U=4.
+   Caption: "Left side: allowed region (below curve) for R_G (Eq. (7)) for a region of d_U."
+
+4. 0708.2735_p-2.png / 0708.2735_p-3.png  (Deshpande, Hsu, Jiang, arXiv v2, PDF pages 2-3)
+   Eq. (2): L = lambda_B Lambda_U^{1-dU} B_mu O_U^mu
+   Eq. (3): V_U = lambda_B^2 Lambda_U^{2-2dU} (1/(4pi^2)) (1/r^{2dU-1}) A_{dU} Gamma(2dU-2) B1 B2
+   Eq. (4): A_{dU} = [16 pi^{5/2}/(2pi)^{2dU}] Gamma(dU+1/2)/[Gamma(dU-1)Gamma(2dU)]
+   Eq. (5): V_U = [1/(2 pi^{2dU})] lambda_B^2 Lambda_U^{2-2dU} [Gamma(dU+1/2)Gamma(dU-1/2)/Gamma(2dU)] (1/r^{2dU-1}) B1 B2
+   Eq. (9): V = -G m1m2/r + G (m1m2/r)(1/u^2)(lambda_B^2/G) f_{dU} (1/r)^{2dU-2}
+   Eq. (10): V^k_{12}(r) = -G (m1m2/r) beta_k (1 mm / r)^{k-1}
+
+5. 0706.1284_p2-2.png  (Liao & Liu, arXiv v2, PDF page 2)
+   Eq. (1): L_int = C_S psibar psi U_S + C_P psibar i gamma5 psi U_P + C_V psibar gamma_mu psi U_V^mu + C_A psibar gamma_mu gamma5 psi U_A^mu
+   Eq. (5) (common factor A_d r^{1-2d}/(4pi^2) extracted):
+     U_non^{--}(r) = (C_V^2 - C_S^2) Gamma(2(d-1)) + [Gamma(2d)/(4 m^2 r^2)] [(2-d) C_V^2 - (3-d) C_S^2]
+     U_spin^{--}(r) = -C_A^2 Sigma_s Gamma(2(d-1)) + [Gamma(2d)/(4m^2r^2)][ ... ]
+
+6. 0708.4339_p-03.png  (Freitas & Wyler, arXiv v3, PDF page 3 = printed p.2)
+   Eq. (8): V_U = C alpha_U B_i B_j / r^{2dU-1}
+   Eq. (9): alpha_U = (c_V^2/4pi) M_Z^{2-2dU} (A_dU/pi) Gamma(2dU-2) = [pi^{1/2}/(2pi)^{2dU}] c_V^2 M_Z^{2-2dU} Gamma(dU-1/2)/Gamma(dU)
+   Eq. (11) (scalar c_S1, coupling (c_S1/M_Z^{dU}) fbar Dslash f O_U):
+            alpha_U = [pi^{1/2}/(2pi)^{2dU}] c_S1^2 (m_i m_j / M_Z^{2dU}) Gamma(dU-1/2)/Gamma(dU)
+
+7. 0905.1602_p-1.png  (Bertolami, Paramos, Santos, arXiv v2, PDF page 1)
+   Eq. (3): V(r) = -(G_U M / r) [ 1 + (R_G/r)^{2d_u-2} ]
+   Eq. (4): R_G = (1/(pi Lambda_U)) (M_Pl/M_*)^{1/(dU-1)} x [ (2(2-alpha)/pi) Gamma(dU+1/2)Gamma(dU-1/2)/Gamma(2dU) ]^{1/(2dU-2)}
+   Eq. (5): G_U = G / (1 + (R_G/R_0)^{2dU-2})
+   Eq. (6): V(r) = -(G M / 2r) [ 1 + (R_G/r)^{2d_u-2} ]      <-- factor "2r" as printed (likely typo; not ours to fix)

@@ -1,0 +1,974 @@
+                                                                                                                        ZU-TH 20/07
+
+
+
+
+                                                              Astro Unparticle Physics
+
+
+
+
+arXiv:0708.4339v3 [hep-ph] 10 Dec 2007
+                                                                A. Freitas and D. Wyler
+
+                                                       Institut für Theoretische Physik, Universität Zürich,
+                                                      Winterthurerstrasse 190, CH-8057 Zürich, Switzerland
+
+
+
+
+                                                                               Abstract
+                                             We investigate the effects of all flavor blind CP-conserving unparticle operators on
+                                         5th force experiments, stellar cooling, supernova explosions and compare the limits
+                                         with each other and with those obtainable from collider experiments. In general,
+                                         astrophysical bounds are considerably stronger, however they depend strongly on the
+                                         dimension dU of the unparticle operator. While for dU = 1, 5th force experiments yield
+                                         exceedingly strong bounds, the bounds from stellar and supernova cooling are more
+                                         comparable for dU = 2, with stellar cooling being most restrictive. Bounds on vectorial
+                                         unparticle couplings are generally stronger than those on scalar ones.
+1   Introduction
+Recently the possible existence of a non-trivial scale-invariant sector with a non-trivial fixed
+point was proposed by Georgi [1]. These new fields, which couple weakly to Standard Model
+(SM) particles, are quite different from other extensions of the SM as they are not described
+in terms of particles but rather by ”unparticles”. A different, but in effect similar deviation
+from the standard model has been proposed by Van der Bij [2]. The picture is valid up to
+a certain scale, above which the picture changes. At low energies the unparticle sector is
+characterized by a scaling dimension dU , which is in general non-integer.
+    In this paper we want to assess possible effects of this extension of the standard model
+in astrophysics. There are by now several studies in this direction [3, 4]; in this paper we
+combine the different manifestations and give also a more detailed and complete treatment
+of the various unparticle operators. If the conformal invariance is not broken in the infrared,
+as it is assumed throughout this paper, astrophysical constraints can highly restrict the
+interactions between unparticle and SM fields.
+    We consider only couplings between SM singlet unparticles and Standard Model fields
+through CP-conserving and flavor blind interactions. In Ref. [5] a list of operators composed
+of SM fields with dimensions 4 or less has been given. For our purpose we only need the
+couplings to fermions and gauge bosons. With fermions we have:
+             CV                  CA                   CS1              CS2
+  LU f f = dU −1 f¯γµ f OUµ + dU −1 f¯γµ γ5 f OUµ + dU f¯D   / f OU + dU f¯γµ f ∂ µ OU           (1)
+           ΛU                   ΛU                   ΛU                ΛU
+                                                      CP1                CP2
+                                                  + dU f¯D   / γ5 f OU + dU f¯γµ γ5 f ∂ µ OU
+                                                     ΛU                  ΛU
+             cV ¯                  c A                  c S1               cS2
+         ≡    dU −1
+                    f γµ f OUµ + dU −1 f¯γµ γ5 f OUµ + dU f¯D   / f OU + dU f¯γµ f ∂ µ OU        (2)
+           MZ                    MZ                    MZ                 MZ
+                                                        cP1                  cP2
+                                                     + dU f¯D   / γ5f OU + dU f¯γµ γ5 f ∂ µ OU .
+                                                       MZ                   MZ
+Here the coefficients in eq. (2) have been scaled to a common mass, chosen as the Z-boson
+mass MZ , so that the only unknown quantities are the dimensionless coupling constants
+cX . In the above equations, D is the covariant derivative, which introduces four-particle
+couplings involving the photon through Dµ = ∂µ + ieQAµ + . . . The term with cS2 does not
+contribute to physical processes due to current conservation.
+    For photons we have
+                                 Cγγ                 Cγ̃ γ̃
+                     LU γγ = − dU Fµν F µν OU − dU ǫµνρσ Fµν Fρσ OU                          (3)
+                                4ΛU                 4ΛU
+                                 cγγ                   cγ̃ γ̃ µνρσ
+                           ≡−       dU
+                                       Fµν F µν OU −          ǫ    Fµν Fρσ OU                (4)
+                                4MZ                  4MZdU
+The term with cγ̃ γ̃ has the same structure as the effective coupling of axions. Possible
+couplings to gluons are not considered.
+    In the following sections, we will consider the various standard tests of new particles and
+forces and reach our conclusions. Since unparticle phase space integration is more involved
+than for usual particles, we have added an appendix with some useful results.
+
+                                                 1
+2   Constraints from 5th force experiments
+New massless or light degrees of freedom can mediate new forces between SM particles that
+lead to an effective modification of the Newtonian law of gravity [6, 7]. The most stringent
+constraints come from composition-dependent experiments, which were originally pioneered
+by Eötvös, Pekár and Fekete [8]. They make use of the fact that a new (fifth) force would
+in general act differently on different bodies of equal mass, depending on their chemical
+composition [9]. Limits for such an interaction have been derived on different length scales
+ranging from sub-meter to astronomical scales of order AU.
+   For the experimental analyses, the fifth force is typically parametrized by the potential
+
+                                                              e−r/λ
+                            V5 (r) = ±ξ G m2 (1 H 1 ) Bi Bj         ,                     (5)
+                                                                r
+where the coupling constant ξ has been normalized to the gravitational interaction between
+two hydrogen 1 H 1 atoms, with G Newton’s constant of gravity. Bi,j are the baryon numbers
+of the two test objects.
+    The potential for interaction due to vector unparticle exchange can be derived from its
+propagator [10, 11]
+
+                                                         AdU     −g µν + pµ pν /p2
+                    Z
+               µν
+             ∆F ≡ d4 x eipx h0|T OUµ (x)OUν (0)i = i                               ,   (6)
+                                                     2 sin(πdU ) (−p2 − iǫ)2−dU
+                     16π 5/2   Γ(dU + 1/2)
+             AdU =       2d
+                                             .                                         (7)
+                    (2π) U Γ(dU − 1)Γ(2dU )
+By taking the Fourier transform of this propagator in the low-energy limit one obtains
+                                        Bi Bj
+                           VU = CαU             ,                                         (8)
+                                       r 2dU −1
+                                c2             Ad
+                           αU = V MZ2−2dU U Γ(2dU − 2)                                    (9)
+                                4π               π
+                                    1/2
+                                  π                    Γ(dU − 1/2)
+                              =       2d
+                                           c2V MZ2−2dU             ,
+                                (2π)    U                 Γ(dU )
+
+where C = O(1) accounts for the quark and electron density inside the nucleons and atoms
+of the test objects. For a conservative limit, we take C ≥ 1.
+    Also cA contributes in the same way as cV , up to a prefactor, and yields
+
+                                  (3π)1/2 2 2−2dU Γ(dU − 1/2)
+                           αU =          c M                  .                          (10)
+                                  (2π)2dU A Z        Γ(dU )
+The scalar and pseudo-scalar interactions ∝ cS2 , cP1 , cP2 do not contribute to long-range
+non-relativistic forces. However, the contribution from cS1 gives
+
+                                    π 1/2 2 mi mj Γ(dU − 1/2)
+                           αU =           c                   ,                          (11)
+                                  (2π)2dU S1 MZ2dU   Γ(dU )
+
+                                              2
+PSfrag replacements
+
+
+
+
+                                3
+                            10
+                                0
+                            10
+
+                           10
+                                -3             dU = 2
+                                -6
+                           10
+                                -9
+                                               dU = 5/3
+                           10
+                      cV    -12
+                           10
+                                               dU = 4/3
+                            -15
+                           10
+                            -18
+                           10                  dU = 1
+                            -21
+                           10
+                            -24
+                           10
+                                     -6    -4        -2     0       2       4      6         8    10    12
+                                 10       10       10      10     10      10      10        10   10    10
+                                                                    λ [m]
+       Figure 1: Limits on vector unparticle interactions from Eötvös-type fifth-force experiments
+       at different length scales λ, for various scaling dimensions dU . The dashed lines indicate the
+       overall limit derived from the whole λ range.
+
+       where mi,j are the masses of the electrons and nucleons between which the interaction is
+       exchanged. The major contribution here comes from the nucleons with mi,j ≈ m(1 H 1 ) ≈
+        1
+       90
+          MZ .
+           The experimental limits on an interaction of type eq. (5) can be applied to the unparticle
+       force eq. (8) by observing that the constraints on eq. (5) come mainly from measurements
+       at a length scale r ≈ λ. For r ≫ λ, V5 is exponentially suppressed, while for r ≪ λ the
+       experiments are less sensitive [7]. Therefore the exclusion limit at length scale λ is
+
+                                               αU ,lim ≈ e−1 ξlim G m2 (1 H 1 ) λ2dU −2 .                    (12)
+
+       This result agrees well with the power-law analysis in Ref. [12] for dU = 2.
+           Taking the experimental values (see Ref. [7,13] and references therein), results are shown
+       for different scaling dimensions in Fig. 1. They can be readily translated to the axial-vector
+       and scalar cases.
+
+       3   Constraints from stellar cooling
+       Constraints from stellar cooling on fermion couplings. In the hot and dense envi-
+       ronment of stars, light weakly interacting particles can be produced efficiently and would
+       contribute to the cooling of the star. Constraints on such particles can be derived from white
+       dwarfs [14–16], the ignition condition for type I supernovae [17], horizontal-branch stars with
+       a helium-burning core [18–20], and red giants near helium ignition flash [16, 21–23]. These
+       processes have been studied extensively for axion emission, with the strongest bounds coming
+       from helium-burning stars and red giants. In the following, we will focus on the evaluation
+
+
+                                                                   3
+              (a)                               (b)                                (c)
+    γ                    U                                  U            γ                    U
+                                       e                    e
+                                                     γ                                γ
+    e                    e           e,N                    e,N          e                    e
+
+    γ                    U                                  U             γ
+                                       e                    e
+                                                                                              U
+                                                     γ
+    e                    e           e,N                    e,N           γ
+
+    γ                    U                                  U
+                                       e                    e
+                                                     γ
+    e                    e           e,N                    e,N
+Figure 2: Feynman diagrams for unparticle emission in (a) Compton-like processes, (b)
+bremsstrahlung-like processes and (c) processes with unparticle-photon couplings.
+
+of unparticle emission from helium-burning stars, which would lead to a reduction of the
+lifetime of the horizontal-branch stars.
+     Mainly two processes contribute to energy loss from horizontal-branch stars, the Compton
+process γ + e → e + X and bremsstrahlung involving Hydrogen and Helium nuclei as well
+as electrons, e + H+ → e + H+ + X, e + He2+ → e + He2+ + X, e + e → e + e + X. Here
+X is the axion or unparticle. The corresponding Feynman diagrams are shown in Fig. 2 (a)
+and (b).
+   The total cross-section for axion emission through the Compton process is
+                                             2
+                                                  2
+                                      c   αgaee   ω
+                                     σa =      2
+                                                                                                  (13)
+                                           3me me
+in the limit ω ≪ me , where ω is the incoming photon energy. gaee is the axion-electron
+coupling.
+    For unparticle emission, the calculations are somewhat more complicated. Due to the
+phase space factor AdU θ(p0U )θ(p2U )(p2U )dU −2 [1], the final state integration requires some care.
+The important integrals are collected in the appendix. In the limit ω ≪ me one finds for
+the Compton process production of unparticles
+                                                               2dU −2
+                          αc2V
+                                                       
+                    c                    2dU               ω
+                  σU ,V = 2                                            ,                         (14)
+                          me (1 + 2dU )Γ(2dU ) 2πMZ
+                                                               2dU −2
+                          αc2A
+                                                       
+                    c                2(2 + dU )            ω
+                  σU ,A = 2                                            ,                         (15)
+                          me (1 + 2dU )Γ(2dU ) 2πMZ
+                                                                2dU −2
+                          αc2S1
+                                                       
+                   c                       1                ω
+                 σU ,S1 =                                               ,                        (16)
+                          MZ2 (1 + 2dU )Γ(2dU ) 2πMZ
+
+                                                 4
+                                                                         2dU
+                            4π 2 αc2P1      (2 + 2dU + dU 2 )
+                                                                   
+                    c                                                 ω
+                   σU ,P1 =                                                   ,                   (17)
+                               m2e     (1 + 2dU )(3 + 2dU )Γ(2dU ) 2πMZ
+                                                                          2dU
+                            16π 2αc2P2       (2 + 2dU + dU 2 )
+                                                                    
+                    c                                                  ω
+                   σU ,P2 =                                                     ,                 (18)
+                                m2e     (1 + 2dU )(3 + 2dU )Γ(2dU ) 2πMZ
+In the hot environment of a star photons are generated thermically, with a distribution
+                                                          π −2 ω 2
+                                         nγ (T, ω) =               .                              (19)
+                                                         eω/T − 1
+The thermally averaged unparticle energy emission rate is then
+                                       Z ∞
+                           Q(T )c,U =      dω ω ne nγ σUc (ω),                                    (20)
+                                                 0
+
+with the electron density
+                                                1 + XH ρ
+                                         ne ≈              ,                                      (21)
+                                                   2  m(H)
+where ρ is the total density and XH the mass fraction of hydrogen. The averaging gives
+                                                                  ζ(4 + r) Γ(4 + r) 4+r
+               σUc (ω) = C ω r       ⇒          QcU (T ) = C ne                    T .            (22)
+                                                                         π2
+
+The emission rate for axion bremsstrahlung from electron-nucleus collisions is, in the limit
+for small incident electron velocities βi ≪ me [21, 24]
+                                                 2
+                                 QeZ
+                                  a (βi ) =          Z 2 α2 gaee
+                                                             2
+                                                                 ne nz βi5 ,                      (23)
+                                              135πme
+where ne,z are the electron and nucleus densities and Z is the proton number of the nucleus.
+For unparticle emission through bremsstrahlung in the non-relativistic limit one finds
+                                                                                             2d −2
+           Z 2 α2 c2V βi                                                               me βi2 U
+                                                                                     
+    eZ                                          −8(2 + 3dU ) csc(2πdU )
+  QU ,V =                 ne nz                                                                      ,
+               me                (2dU − 1)(1 + 2dU )(3 + 2dU )Γ(2 − 2dU )Γ(4dU − 1) πMZ
+                                                                                                   (24)
+                                                                                               2d −2
+           Z 2 α2 c2A βi                                                               me βi2 U
+                                                                                            
+                                                 24(1 − dU ) csc(2πdU )
+  QeZ
+    U ,A =                n  n
+                           e z                                                                       ,
+               me                (2dU − 1)(1 + 2dU )(3 + 2dU )Γ(2 − 2dU )Γ(4dU − 1) πMZ
+                                                                                                   (25)
+                                                                                          2d −2
+           Z 2 α2 c2S1 me βi                            5π −1/2                   me βi2 U
+                                                                                       
+ QeZ
+   U ,S1 =                    n e nz                                                            , (26)
+                 MZ2                 (2dU − 1)2 (1 + 2dU )(3 + 2dU )Γ(2dU − 1/2) πMZ
+                                                                                           2d
+           Z 2 α2 c2P1 βi                −π 2 (15 + 14dU + 6dU 2 ) csc(2πdU )        me βi2 U
+                                                                                   
+   eZ
+ QU ,P1 =                  ne nz                                                                 , (27)
+                me                4(1 + 2dU )(1 + 4dU )Γ(−2dU )Γ(4dU )Γ(dU + 7/2) πMZ
+                                                                                         2d
+           Z 2 α2 c2P2 βi               −π 2 (15 + 14dU + 6dU 2 ) csc(2πdU )       me βi2 U
+                                                                                 
+   eZ
+ QU ,P2 =                 ne nz                                                                . (28)
+                me                (1 + 2dU )(1 + 4dU )Γ(−2dU )Γ(4dU )Γ(dU + 7/2) πMZ
+
+                                                     5
+One can see that the rate for the axial vector vanishes for dU → 1; below we will find this
+behaviour also for other processes. This results holds however only for the leading power
+in the velocity βi in the non-relativistic limit, as one may see when expanding the correct
+expression in powers of β. The suppression can be understood from the fact that electron-
+nucleon scattering is independent of the chirality of the particles and therefore the L − R
+coupling is suppressed. Because however unparticles for dU > 1 carry a third polarization
+degree of freedom, the suppression is not total.
+    The bremsstrahlung emission rates have to be averaged over a Maxwellian distribution1
+                                               m 3/2                 mβ 2 
+                                                                           i
+                              ne (T, βi ) =               4πβi2 exp    −                                 (29)
+                                               2πT                       2T
+so that                                                      Z ∞
+               QeZ           r
+                U (βi ) = C βi         ⇒         QeZ
+                                                  U (T ) =         dβi ne (T, βi ) QeZ
+                                                                                    U (βi )              (30)
+                                                               0
+                                                           = C 2π −1/2 Γ( 3+r
+                                                                           2
+                                                                              ) (2T /me )r/2 .
+Furthermore, summing over the relevant nuclei,
+                                                                                  2
+                              X
+                                   2                       1 + XH              ρ
+                         ne       Z nz ≈ ne (nH + 4nHe ) ≈                              .                (31)
+                              z
+                                                              2               mH
+
+Bremsstrahlung in electron-electron collisions leads to very similar results as bremsstrahlung
+in
+√ electron-nucleus    collisions, except for the replacement Z 2 ne nz → 4n2e in Q(βi ) or Z 2 ne nz →
+   2 n2e in Q(T ), respectively [21]. Bremsstrahlung in nucleus-nucleus collisions is negligible
+since the radiation of unparticles from nuclei with mass mz is suppressed by powers of
+βi,z /βi,e ∼ (me /mz )1/2 .
+     The impact of weakly interacting particle emission on star cooling can be evaluated with
+a numerical code for stellar evolution [22, 23]. For simplicity, we give here the comparison
+of the unparticle emission rate to the axion emission constraints which have been analyzed
+earlier [18–20]. The relation between the two is summarized in Table 1.
+     One needs to observe that both bremsstrahlung and Compton processes play a role in
+red giant environments. At typical horizontal-branch star densities ρ ≈ 0.6 × 104 g/cm3 and
+temperatures T ≈ 108 K = 8.6 keV, the bremsstrahlung process contributes roughly 10% of
+the total axion emission rate, while the Compton process accounts for 90% of the rate [23].
+Then the bound gaee ∼    < 2 × 10−13 [19, 20] translates into the limits in Table 2.
+
+Constraints from stellar cooling on photon couplings. If unparticles only couple to
+photons, they would mainly contribute to star cooling through the process γ + e → e + U
+via t-channel photon exchange (usually called the Primakoff process), see Fig. 2 (c). In the
+   1
+     Since the density of horizontal-branch stars is relatively low, screening and degeneracy (Pauli blocking)
+effects are negligible [14, 23].
+
+
+
+
+                                                      6
+ dU                    1                             4/3                          5/3                          2
+ QcU ,V
+                                              −2                       −4/3                       −2/3
+                               c2         T                c   2
+                                                                     T                  c2        T                     c2
+  Qca
+           × 1012      3.34 g2V           MZ
+                                                     1.69 g2V        MZ
+                                                                                  0.76 g2V        MZ
+                                                                                                               0.32 g2V
+                                aee                        aee                          aee                             aee
+ QcU ,A
+                                              −2                       −4/3                       −2/3
+                  12         c2           T                c2        T                  c2        T                  c2
+  Qca
+           × 10        10.0 g2A           MZ
+                                                     4.22 g2A        MZ
+                                                                                  1.67 g2A        MZ
+                                                                                                               0.64 g2A
+                             aee                           aee                          aee                          aee
+ QcU ,S1
+                                              −2                       −4/3                       −2/3
+                               c2         T                c2        T                  c2        T                     c2
+  Qca
+           × 1023      5.25 g2S1          MZ
+                                                     1.99 g2S1       MZ
+                                                                                  0.72 g2S1       MZ
+                                                                                                               0.25 g2S1
+                                aee                        aee                          aee                             aee
+ QcU ,P1
+                                                                         2/3                        4/3                           2
+                  12        c2                            c2         T                 c2         T                 c2            T
+  Qca
+           × 10        31.4 g2P1                     18.4 g2P1       MZ
+                                                                                  9.66 g2P1       MZ
+                                                                                                               4.71 g2P1          MZ
+                             aee                           aee                          aee                          aee
+ QeZ
+                                                                         2/3                        4/3                           2
+                              c2                           c2        T                  c2        T                     c2        T
+   U ,P2
+  QeZ
+           × 1012      126 g2P2                      73.5 g2P2       MZ
+                                                                                  38.6 g2P2       MZ
+                                                                                                               18.8 g2P2          MZ
+    a                          aee                         aee                          aee                             aee
+ QeZ
+                                              −2                       −4/3                       −2/3
+   U ,V           12        c2            T                c2        T                  c2        T                  c2
+ QeZ
+           × 10        118 g2V            MZ
+                                                     13.3 g2V        MZ
+                                                                                  2.04 g2V        MZ
+                                                                                                               0.36 g2V
+    a                       aee                            aee                          aee                          aee
+ QeZ
+                                                                         −4/3                       −2/3
+   U ,A           12                                       c2        T                  c2        T                     c2
+ QeZ
+           × 10        0                             2.21 g2A        MZ
+                                                                                  0.58 g2A        MZ
+                                                                                                               0.14 g2A
+    a                                                      aee                          aee                             aee
+ QeZ
+                                              −2                       −4/3                       −2/3
+                           c2             T               c2         T                 c2         T                 c2
+   U ,S1
+  QeZ
+           × 1023      185 g2S1           MZ
+                                                     17.4 g2S1       MZ
+                                                                                  2.29 g2S1       MZ
+                                                                                                               0.36 g2S1
+    a                       aee                            aee                          aee                          aee
+ QeZ
+                                                                         2/3                        4/3                           2
+   U ,P1          12        c2                            c2         T                 c2         T                 c2            T
+  QeZ
+           × 10        31.4 g2P1                     9.22 g2P1       MZ
+                                                                                  2.68 g2P1       MZ
+                                                                                                               0.77 g2P1          MZ
+    a                        aee                           aee                          aee                          aee
+ QeZ
+                                                                         2/3                        4/3                           2
+                              c2                           c2        T                  c2        T                     c2        T
+   U ,P2
+  QeZ
+           × 1012      126 g2P2                      36.9 g2P2       MZ
+                                                                                  10.7 g2P2       MZ
+                                                                                                               3.09 g2P2          MZ
+    a                          aee                         aee                          aee                             aee
+
+
+
+
+Table 1: Comparison of unparticle emission rates to axion emission rates in a stellar plasma
+of temperature T . Separately shown are the rates from the Compton process (Qc ) and the
+bremsstrahlung process (QeZ ), as well as different values of the scaling dimension dU .
+
+limit ω ≪ me the cross-sections for this kind of process are
+ p
+σγγ = c2γγ /c2γ̃γ̃ σγ̃pγ̃                                                                                                          (32)
+      2π 2 α c2γγ 3 F2 (1, 1+d   , 1 + d2U ; 21 + dU , 1 + dU ; 4ω 2/κ2 )
+                              U
+                             2
+    =
+           κ2                             Γ(2dU )
+                                                                                                                                  2dU
+                             dU 4 F3 (1, 1+d   , 1 + d2U , 1 + dU ; dU , 21 + dU , 2 + dU ; 4ω 2 /κ2 )
+                                                                                                                   
+                                           2
+                                             U
+                                                                                                                          ω
+                           −                                                                                                             ,
+                                                        (1 + dU )Γ(2dU )                                                2πMZ
+                                                                                                                                   (33)
+where κ is the inverse Debye-Hückel radius, which accounts for the screening of the Coulomb
+potential of the electron in a free stellar plasma [21, 25, 26]. p Fq are generalized hypergeo-
+metric functions.
+   In previous studies, limits have been derived for the coupling of axions to photons. By
+comparing the unparticle production cross-section to the cross-section for γ + e → e + a,
+                                 2
+                             α gaγγ              κ2              4ω 2
+                                                                  
+                         p
+                        σa =          1 − 1 + 2 log 1 + 2                ,                 (34)
+                                8               4ω                κ
+these limits can be translated to corresponding limits for the unparticle couplings. Using
+T ≈ 108 K = 8.6 keV, κ2 = 7.5 × 10−8 GeV2 and gaγγ me < 5.5 × 10−14 [21], we find the
+
+                                                                     7
+limits in Table 3. Note that the dependence of the results on κ is very mild; changing κ2
+by an order of magnitude changes the limits in Table 3 only by up to 20%. Therefore these
+results should be reliable even without a detailed numerical code for stellar evolution.
+
+4   Constraints from SN 1987A
+Unparticle emission would also influence supernova cooling. This has been analyzed for
+vector unparticles in Ref. [3, 4]. Here the analysis in Ref. [4] is extended to derive limits for
+other types in unparticle couplings, as in eq. (2).
+    The observation of the length of the neutrino burst of the supernova SN 1987A puts a
+strong constraint on the allowed energy loss rate due to unknown very weakly interacting
+(un)particles [18],
+                                     < 3 × 1033 erg cm−3 s−1 .
+                                  QX ∼                                                      (35)
+Several processes can contribute to unparticle emission from the supernova core. The dom-
+inant effect comes from neutron bremsstrahlung, n + n → n + n + U, while proton brems-
+strahlung is less important since the proton density in supernova cores is smaller than the
+neutron density. In principle bremsstrahlung processes with electrons, e + n → e + n + U and
+e + e → e + e + U, can be important due to collinear enhancement. However, the collinear
+phase space region is suppressed due to strong Coulomb screening effects in the dense core
+plasma, see e.g. Ref. [21].
+    Since the supernova core temperature T ≈ 30 MeV is much smaller than the neutron
+mass, the neutron bremsstrahlung process factorizes into a ”hard” nn collision process and
+”soft” unparticle radiation from one of the external neutrons. Here one can distinguish
+between the case when the bremsstrahlung coupling is insensitive to the nucleon spin (vector
+and scalar couplings of the unparticles to the quarks) [27] and when the bremsstrahlung
+emission couples to the nucleon spin (axial-vector and pseudo-scalar couplings) [28].
+    For vector and scalar unparticle-quark interactions, one finds in the non-relativistic limit
+                                                                                       2d −2
+        C c2V mn βi7 2 nn            39 + 1073dU + 228dU 2 + 60dU 3              mn βi2 U
+                                                                               
+Qnn
+ U ,V =       3/2
+                    nn σ0                                                                     ,
+           32π             (2dU − 1)(1 + 2dU )(3 + 2dU )(5 + 2dU )Γ(2dU + 5/2) 2πMZ
+                                                                                          (36)
+                                                                                         2d
+         C c2S1 mn βi3 2 nn        2(21 − 8dU + 55dU 2 + 31dU 3 + 6dU 4 )        mn βi2 U
+                                                                                      
+Qnn
+ U ,S1 =              n σ
+                       n 0                                                                  ,
+             π 3/2          (2dU − 1)(1 + 2dU )(3 + 2dU )(5 + 2dU )Γ(2dU + 5/2) 2πMZ
+                                                                                          (37)
+
+where βi is the incident neutron velocity and σ0nn ∼ 25×10−27 cm2 is the typical nn scattering
+cross section at the given energy [27]. nn ≈ 3 × 1014 gcm−3 denotes the neutron density.
+   Convolution with the Maxwellian thermal distribution gives
+                                                                                          2dU −2
+                 C c2V T 7/2           (39 + 1073dU + 228dU 2 + 60dU 3 )Γ(3 + 2dU )
+                                                                                    
+                                                                                      T
+Qnn
+ U ,V (T ) =     √             2 nn
+                              n σ
+                           5/2 n 0 (2d − 1)(1 + 2d )(3 + 2d )(5 + 2d )Γ(2d + 5/2) 2πM
+                                                                                                  ,
+               32 2π 2 mn             U            U        U          U      U         Z
+                                                                                       (38)
+
+
+                                               8
+                                                                                        2dU
+              C c2S1 T 3/2 2 nn 2(21 − 8dU + 55dU 2 + 31dU 3 + 6dU 4 )Γ(3 + 2dU )
+                                                                                  
+ nn                                                                                 T
+QU ,S1 (T ) = √           n σ
+                       1/2 n 0 (2d − 1)(1 + 2d )(3 + 2d )(5 + 2d )Γ(2d + 5/2) 2πM
+                                                                                             ,
+                2π 2 mn           U           U         U        U        U           Z
+                                                                                                           (39)
+
+Our result for Qnn U ,V (T ) has the same dimensional dependence as in Ref. [4], but we are able to
+identify an additional numerical prefactor between 0.004 and 0.0014, depending on dU . Thus
+we arrive at somewhat weaker bounds for the unparticle interactions. In addition we obtain
+bounds for scalar interaction between unparticles and Standard Model fermions. Assuming
+C ≥ 1, the bounds in Table 2 are obtained.
+    For the emission of axial-vector and pseduo-scalar unparticles, the matrix elements fac-
+torize in a similar way into the on-shell nn collision process and soft radiation from one of
+the external legs. Since the axial-vector and pseduo-scalar unparticle emission couples to the
+spins of the nucleons, one needs to take into account the spin dependence of the nn transi-
+tion, which is given by the dynamical spin structure function [28,29]. Following Ref. [28,30],
+we obtain
+                                               2dU −2 Z ∞
+                       C c2A T 2 nn
+                                      
+          nn                              T                                  Γσ /T
+       QU ,A (T ) = 2                                      dx x2dU e−x 2                 ,      (40)
+                       4π Γ(2dU ) 2πMZ                  0               x + (Γσ /2T )2
+                                                      2dU Z ∞
+                          3 C c2P1 T 2 nn
+                                             
+         nn                                      T                                  Γσ /T
+       QU ,P1 (T ) =                                            dx x2dU +2 e−x 2              , (41)
+                       4(1 + 2dU )Γ(2dU ) 2πMZ               0                x + (Γσ /2T )2
+                                                     2dU Z ∞
+                         3 C c2P2 T 2 nn
+                                            
+                                                T                                  Γσ /T
+         nn
+       QU ,P2 (T ) =                                           dx x2dU +2 e−x 2             ,   (42)
+                       (1 + 2dU )Γ(2dU ) 2πMZ              0                 x + (Γσ /2T )2
+
+where Γσ is the spin fluctuation rate. Using a one-pion exchange model for the nucleon
+scattering kernel, one obtains the estimte Γσ ≈ 450 MeV for the typical temperature and
+density inside the supernova core [29]. A more robust evaluation based on experimental
+nucleon scattering data [28] finds a smaller value for the spin structure function, which can
+be parametrized by using Γσ ≈ 100 MeV. Taking this value and C ≥ 1 as before, the bounds
+in Table 2 are derived.
+
+5   Comparison to reach of collider experiments and conclusions
+In Tables 2 and 3 we summarize our limits on unparticle couplings derived from astrophysical
+constraints. The bounds correspond to the 90% CL experimental error of the astrophysical
+observations2 , for the case that only one of the unparticle couplings cX is non-zero at a time.
+For comparison we also show earlier results for limits from current (LEP, Tevatron) and
+future colliders (LHC, ILC). To get an estimate of the possible reach of a future international
+linear collider (ILC), we have assumed that it can perform the same kind of measurements
+as LEP, but with a 1000 times higher luminosity. Of course, only a proper analysis can go
+beyond this order-of-magnitude assessment of the sensitivity of ILC. The blanks in the table
+   2
+     In the derivation of the stellar energy loss constraints, large systematic uncertainties could arise in the
+calculation of nuclear interactions and stellar evolution. Since these errors are difficult to quantify they have
+not been taken into account here.
+
+
+                                                       9
+indicate that no results are available from the literature for the given interaction. Some of
+the processes are not sensitive to a certain coupling, as denoted by a bar in the table.
+    It can be seen that the constraints for astrophysics are generally considerably stronger
+than those from colliders. The strongest bounds are for vector/axial couplings. For small dU
+limits on a 5th force are by far the dominant constraints; however for dU tending towards two
+all constraints become similarly important; here star cooling provides the strongest bound.
+For scalar and pseudoscalar couplings the bounds are generally weaker, which is mainly due
+to the higher dimensionality of the interaction operators. For dU = 1, the unparticle scaling
+behavior corresponds to a regular massless particle, so that our limits also apply to any
+model which includes a new massless scalar or vector particle (see also Ref. [31]).
+    For the unparticle-photon couplings, our bounds from star cooling are much stronger
+than the limits from supernova cooling, taken from Ref. [32]. These couplings could also be
+constrained by the process e+ e− → γ + U at LEP and ILC, but this has not been analyzed
+so far.
+    This analysis is restricted to the leading CP-conserving and flavor-diagonal unparticle
+interactions. The astrophysical constraints are not sensitive to operators that involve flavor
+changing neutral currents, which can be tested in precision experiments at low energies,
+such as heavy-flavor mixing and decays [39–45], as well as to operators that only couple to
+third-generation fermions [46, 47], heavy gauge bosons [48] or the Higgs boson [37, 49, 50].
+Furthermore, direct CP-violation in the unparticle operators [51] can lead to new effects,
+which cannot be tested in astrophysics.
+
+
+
+
+                                             10
+      Coupling                                         cV                                                          cA
+      dU                             1           4/3             5/3            2             1           4/3               5/3            2
+      5th force (”Eötvös”)    7 · 10−24    1.4 · 10−15     1.8 · 10−10    2 · 10−5     4 · 10−24     8 · 10−16         1 · 10−10    1.1 · 10−5
+      Energy loss from stars    5 · 10−15    2.5 · 10−12      1 · 10−9     3.5 · 10−7   6.3 · 10−15    2 · 10−12        7.3 · 10−10    3 · 10−7
+      SN 1987A                  1 · 10−9     3.5 · 10−8       1 · 10−6      3 · 10−5     2 · 10−11    5.5 · 10−10       1.5 · 10−8    4.1 · 10−7
+      LEP                         0.005         0.045           0.04          0.01           0.1         0.045              0.04        0.008      [33, 34]
+      Tevatron                                   0.4            0.05                                                                               [35]
+      ILC                       1.6 · 10−4   1.4 · 10−3      1.3 · 10−3    3.2 · 10−4   3.2 · 10−3    1.4 · 10−3        1.3 · 10−3    2.5 · 10−4
+      LHC                                       0.25            0.02                                                                               [35]
+      Electroweak precision         1            0.2            0.025                       1            0.15              0.01                    [36]
+      Quarkonia                                 0.01             0.1         0.45                                                                  [37]
+      Positronium                               0.25                                                  2 · 10−13          2 · 10−8       0.03       [38]
+11
+
+      Coupling                                         cS1                                                   cP1 , 2cP2
+      dU                             1           4/3            5/3             2            1           4/3            5/3               2
+      5th force (”Eötvös”)   6.5 · 10−22   1.2 · 10−13     1.6 · 10−8    1.7 · 10−3       —             —              —               —
+      Energy loss from stars   1.3 · 10−9     7 · 10−7        3 · 10−4        0.13       4 · 10−8     1.1 · 10 −5
+                                                                                                                     3.3 · 10−3           1
+      SN 1987A                  8 · 10−8     2.4 · 10−6      6.6 · 10−5     2 · 10−3    5.5 · 10−8    1.3 · 10−6 3.5 · 10−5           9 · 10−4
+      LEP                          >1            >1             >1            >1           >1            >1             >1              >1         [34]
+      ILC                          >1            >1             >1            >1           >1            >1             >1              >1
+
+
+     Table 2: Comparison of limits for unparticle-fermion couplings from astrophysical constraints and from present and future
+     collider experiments. The astrophysical bounds have been derived in this work, while the collider bounds have been taken
+     from the literature, as indicated by the references in the right column. Blank spaces are left where no results are available
+     from the literature, while the bars denote that no bound on the coupling can be determined.
+         Coupling                                               cγγ , cγ̃ γ̃
+         dU                                   1            4/3              5/3            2
+         Energy loss from stars         5.5 · 10−14    1.7 · 10−11       5.3 · 10−9   1.7 · 10−6
+         SN 1987A                        9 · 10−7       4 · 10−6          4 · 10−5     8 · 10−4    [32]
+
+
+Table 3: Comparison of limits for unparticle-photon couplings from astrophysical con-
+straints. The bounds from star cooling have been derived in this work, while the supernova
+bounds have been taken from the literature, as indicated by the reference in the right column.
+
+Note added
+Shortly before finishing this manuscript, we became aware of related work on 5th force
+experiments [52] where similar, though weaker limits were obtained, since these authors
+included only results from Newtonian-law experiments at short but not at astronomical
+distances.
+
+Acknowledgments
+This work was supported by the Schweizerischer Nationalfonds. We thank Pedro Schwaller
+for discussions. We are grateful to the journal referee for careful reading and interesting and
+helpful comments.
+
+Appendix: Phase-space integrals
+In the following the relevant phase-space integrals for the unparticle emission processes in
+this article are summarized.
+    For the Compton process e(p) + γ(k) → e(p′ ) + U(k ′ ) in the non-relativistic limit, with
+the initial photon energy k0 = ω ≪ me it is useful to choose a reference frame where the
+electron in the initial state is at rest. The phase space integration then yields
+            AdU      d3 p′ 1           d4 k ′
+                  Z              Z
+     c
+    σU =                                      θ(k0′ )θ(k ′2 ) (k ′2 )dU −2 (2π)4 δ (4) (k ′ + p′ − k − p) |M|2
+           4me ω    (2π)3 2me         (2π)4
+                     Z 1             Z 2ω cos θp′
+              AdU
+       =       2  2
+                          d cos θp ′              dp′ p′2 (2ωp′ cos θp′ − p′2 )dU −2 |M|2 ,                  (43)
+           32π me ω 0                 0
+
+where |M|2 is the squared and spin-averaged matrix element, and θp′ is the angle between
+the incident photon and the outgoing electron. The following integrals appear:
+    Z 2ω cos θp′
+                                                       Γ(dU + 1)Γ(dU + n + 1)
+                 dp′ p′dU +n (2ω cos θp′ − p′ )dU −2 =                        (2ω cos θp′ )2dU +n−1 ,
+     0                                                       Γ(2d U + n)
+                                                                                                   (44)
+    Z 1
+                                            1
+        d cos θp′ (cos θp′ )2dU +n =                                                               (45)
+     0                                2dU + n + 1
+
+
+                                                       12
+with n = 1, 2, 3, . . .
+   For bremsstrahlung e(p) + Z(q) → e(p′ ) + Z(q ′ ) + U(k ′ ) one finds in the non-relativistic
+limit
+               AdU          d3 p′ 1        d3 q ′ 1         d4 k ′
+                        Z              Z               Z
+       eZ
+      σU =                       3               3                4
+                                                                     θ(k0′ )θ(k ′2 ) (k ′2 )dU −2
+            4me mz βi      (2π) 2me       (2π) 2mz         (2π)
+                                                     × (2π)4 δ (4) (k ′ + p′ + q ′ − p − q) |M|2
+                                                                   2   2
+                                                   dΩk′ me (βi −βf )/2 ~ ′ ~ ′ 2
+                         Z βi
+              AdU me                     dΩp′
+                                     Z         Z         Z
+                                   2
+          =                   dβf βf                                        d|k | |k |
+            64π 4 m2z βi 0                4π        4π 0
+                                                     × ( 1 m2 (β 2 − β 2 )2 − |~k ′ |2 )dU −2 |M|2,
+                                                             4       e   i       f                  (46)
+
+where βi,f are the velocity of the incoming and outgoing electron, respectively, βi = |~p|/p0,
+βf = |~p′ |/p′0 , and mz is the mass of the nucleus. After including the matrix element, the
+typical integrals are
+   Z me (βi2 −β 2 )
+      2         f
+                    d|~k ′ | |~k ′|n ( 14 m2e (βi2 − βf2 )2 − |~k ′ |2 )dU −2
+     0
+                                 Γ(dU − 1)Γ( 1+n ) me 2
+                             =                2
+                                                  ( (β − βf2 ))2dU +n−4 ,              n = 1, 2, 3, . . . ,   (47)
+                                  2 Γ(dU + 2 ) 2 i
+                                           n−1
+
+      dΩk′ ~ ′
+   Z
+           [k · (~p − ~p′ )]2 = 31 |~k ′ |2 (~p − p~′ )2 ,                                                    (48)
+        4π
+      dΩp′      1              1               βi + βf
+   Z
+                      2
+                        = 2             log                ,                                                  (49)
+        4π (~p − p~ )
+                   ′        me βi βf           βi − βf
+      dΩp′      1                  2
+   Z
+                        = 4 2                    ,                                                            (50)
+        4π (~p − p~ )
+                   ′  4     me (βi − βf2 )2
+                                              π Γ( 1+n
+   Z βi
+              n    2      2 2dU                       2
+                                                          ) csc(2πdU )     4dU +n+1
+        dβf βf (βi − βf )        =−                                n+3 βi           , n = 1, 2, 3, . . . ,    (51)
+    0                                     2 Γ(−2dU )Γ(2dU + 2 )
+   Z βi
+                                        βi + βf                    π 3/2 csc(2πdU )
+        dβf βf (βi2 − βf2 )2dU log                  =                                     βi4dU +2 .          (52)
+    0                                  βi − βf            2(2dU + 1) Γ(−2dU )Γ(2dU + 3/2)
+Most of the above integrals are valid only for dU ≥ 1.
+    For bremsstrahlung off a neutron pair, n(p) + n(q) → n(p′ ) + n(q ′ ) + U(k ′ ), the situation
+is very similar to electron-nucleus-bremsstrahlung, albeit there are some differences due to
+fact that this process can only be evaluated by factorizing the strongly interacting nn → nn
+scattering. In the center-of-mass frame
+
+          AdU d3 p′ d3 q ′ d4 k ′ θ(k0′ )θ(k ′2 ) (k ′2 )dU −2 δ (4) (k ′ + p′ + q ′ − p − q) |M|2
+                R    R      R
+   σUnn
+        =
+   σ0nn
+                         R       R
+                           d3 p′ d3 q ′ (2π)4 δ (4) (p′ + q ′ − p − q) |M0|2
+                                                            2     2
+          AdU mn βi               dΩp′     dΩk′ mn (βi −βf ) ~ ′ ~ ′ 2
+                   Z           Z        Z          Z
+                             2
+        =              dβf βf                                        d|k | |k |
+           4π 3 βi 0               4π       4π 0
+                                                  × (m2 (β 2 − β 2 )2 − |~k ′ |2 )dU −2 |M|2/|M0 |2 , (53)
+                                                            n    i           f
+
+
+
+                                                       13
+where M0 is the spin-averaged squared matrix element for nn scattering, which in the non-
+relativistic limit does not depend on the kinematic variables of the external particles, so
+that the integration in the denominator is trivial. As before, βi,f are the velocities of the
+incoming and outgoing neutrons, respectively.
+    Besides the integrals eqs. (47) [with me /2 → mn ] and (51) one needs the integrals
+
+       dΩk′ ~ ′
+    Z
+            (k · p~)2n = 2n+1    1
+                                     |~k ′ |2n |~p′ |2n ,    n = 1, 2, 3, . . . ,                                      (54)
+        4π
+       dΩk′ ~ ′                                                                1    dΩk′ ~ ′
+    Z                                                                             Z
+            (k · p~)2 (~k ′ · ~p′ )2 = 60   1
+                                              [(~p − p~′ )4 + (~p + ~p′ )4 ] −          [(k · ~p)4 + (~k ′ · ~p′ )4 ]. (55)
+        4π                                                                     6     4π
+To arrive at the cross-section formulae in sections 3 and 4, relations between Γ-functions
+have been used extensively in some cases.
+
+References
+ [1] H. Georgi, Phys. Rev. Lett. 98, 221601 (2007) [arXiv:hep-ph/0703260].
+
+ [2] J. J. van der Bij, Phys. Lett. B 636, 56 (2006) [arXiv:hep-ph/0603082].
+
+ [3] H. Davoudiasl, arXiv:0705.3636 [hep-ph].
+
+ [4] S. Hannestad, G. Raffelt and Y. Y. Y. Wong, arXiv:0708.1404 [hep-ph].
+
+ [5] S. L. Chen and X. G. He, arXiv:0705.3946 [hep-ph].
+
+ [6] L. B. Okun, Yad. Fiz. 10, 358 (1969) [Sov. J. Nucl. Phys. 10, 206 (1969].
+
+ [7] E. Fischbach and C. Talmadge, Nature 356, 207 (1992).
+
+ [8] R. V. Eötvös, D. Pekár and E. Fekete, Annalen Phys. 68, 11 (1922).
+
+ [9] T. D. Lee and C. N. Yang, Phys. Rev. 98, 1501 (1955).
+
+[10] H. Georgi, arXiv:0704.2457 [hep-ph].
+
+[11] K. Cheung, W. Y. Keung and T. C. Yuan, arXiv:0704.2588 [hep-ph].
+
+[12] E. G. Adelberger, B. R. Heckel, S. Hoedl, C. D. Hoyle, D. J. Kapner and A. Upadhye,
+     Phys. Rev. Lett. 98, 131104 (2007) [arXiv:hep-ph/0611223].
+
+[13] D. J. Kapner, T. S. Cook, E. G. Adelberger, J. H. Gundlach, B. R. Heckel, C. D. Hoyle
+     and H. E. Swanson, Phys. Rev. Lett. 98, 021101 (2007) [arXiv:hep-ph/0611184].
+
+[14] G. G. Raffelt, Phys. Lett. B 166, 402 (1986).
+
+[15] J. Isern, M. Hernanz and E. Garcı́a-Berro, Astrophys. J. 392, L23 (1992).
+
+
+
+                                                           14
+[16] T. Altherr, E. Petitgirard and T. del Rio Gaztelurrutia, Astropart. Phys. 2, 175 (1994)
+     [arXiv:hep-ph/9310304].
+
+[17] J. Wang, Phys. Lett. B 291, 97 (1992).
+
+[18] G. G. Raffelt, Phys. Rept. 198, 1 (1990); and references therein.
+
+[19] G. G. Raffelt, Ann. Rev. Nucl. Part. Sci. 49, 163 (1999) [arXiv:hep-ph/9903472].
+
+[20] G. G. Raffelt, Stars as Laboratories for Fundamental Physics, University of Chicago
+     Press (1996).
+
+[21] G. G. Raffelt, Phys. Rev. D 33, 897 (1986).
+
+[22] D. S. P. Dearborn, D. N. Schramm and G. Steigman, Phys. Rev. Lett. 56, 26 (1986).
+
+[23] G. Raffelt and A. Weiss, Phys. Rev. D 51, 1495 (1995) [arXiv:hep-ph/9410205].
+
+[24] L. M. Krauss, J. E. Moody and F. Wilczek, Phys. Lett. B 144, 391 (1984).
+
+[25] P. Debye and E. Hückel, Phys. Z. 24, 185 (1923).
+
+[26] E. E. Salpeter, Austral. J. Phys. 7, 373 (1954).
+
+[27] C. Hanhart, D. R. Phillips, S. Reddy and M. J. Savage, Nucl. Phys. B 595, 335 (2001)
+     [arXiv:nucl-th/0007016].
+
+[28] C. Hanhart, D. R. Phillips and S. Reddy, Phys. Lett. B 499, 9 (2001)
+     [arXiv:astro-ph/0003445].
+
+[29] G. Raffelt and D. Seckel, Phys. Rev. D 52, 1780 (1995) [arXiv:astro-ph/9312019].
+
+[30] G. G. Raffelt, arXiv:hep-ph/0611350.
+
+[31] B. A. Dobrescu, Phys. Rev. Lett. 94, 151802 (2005) [arXiv:hep-ph/0411004].
+
+[32] P. K. Das, arXiv:0708.2812 [hep-ph].
+
+[33] K. Cheung, W. Y. Keung and T. C. Yuan, arXiv:0706.3155 [hep-ph].
+
+[34] M. Bander, J. L. Feng, A. Rajaraman and Y. Shirman, arXiv:0706.2677 [hep-ph].
+
+[35] T. G. Rizzo, arXiv:0706.3025 [hep-ph].
+
+[36] Y. Liao, arXiv:0705.0837 [hep-ph].
+
+[37] S. L. Chen, X. G. He and H. C. Tsai, arXiv:0707.0187 [hep-ph].
+
+[38] Y. Liao and J. Y. Liu, arXiv:0706.1284 [hep-ph].
+
+[39] M. Luo and G. Zhu, arXiv:0704.3532 [hep-ph].
+
+                                              15
+[40] C. H. Chen and C. Q. Geng, arXiv:0705.0689 [hep-ph].
+
+[41] X. Q. Li and Z. T. Wei, arXiv:0705.1821 [hep-ph].
+
+[42] C. H. Chen and C. Q. Geng, arXiv:0706.0850 [hep-ph].
+
+[43] T. M. Aliev, A. S. Cornell and N. Gaur, JHEP 0707, 072 (2007) [arXiv:0705.4542
+     [hep-ph]].
+
+[44] R. Mohanta and A. K. Giri, arXiv:0707.1234 [hep-ph].
+
+[45] A. Lenz, arXiv:0707.1535 [hep-ph].
+
+[46] D. Choudhury and D. K. Ghosh, arXiv:0707.2074 [hep-ph].
+
+[47] A. T. Alan and N. K. Pak, arXiv:0708.3802 [hep-ph].
+
+[48] N. Greiner, arXiv:0705.3518 [hep-ph].
+
+[49] T. Kikuchi and N. Okada, arXiv:0707.0893 [hep-ph].
+
+[50] A. Delgado, J. R. Espinosa and M. Quiros, arXiv:0707.4309 [hep-ph].
+
+[51] R. Zwicky, arXiv:0707.0677 [hep-ph].
+
+[52] N. G. Deshpande, S. D. H. Hsu and J. Jiang, arXiv:0708.2735 [hep-ph].
+
+
+
+
+                                             16
+

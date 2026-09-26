@@ -1,0 +1,315 @@
+                                                 Long range forces and limits on unparticle interactions
+
+                                                             N.G. Deshpande, Stephen D.H. Hsu, and Jing Jiang
+                                                  Institute of Theoretical Science, University of Oregon, Eugene, OR 97403
+                                                                             (Dated: October 23, 2018)
+
+                                                                                     Abstract
+
+
+
+
+arXiv:0708.2735v2 [hep-ph] 24 Aug 2007
+                                           Couplings between standard model particles and unparticles from a nontrivial scale invariant
+                                         sector can lead to long range forces. If the forces couple to quantities such as baryon or lepton
+                                         (electron) number, stringent limits result from tests of the gravitational inverse square law. These
+                                         limits are much stronger than from collider phenomenology and astrophysics.
+
+
+
+
+                                                                                         1
+I.     INTRODUCTION
+
+
+      Georgi [1, 2] has proposed that unparticles – a nontrivial scale invariant sector [3] – might
+couple to standard model particles, leading to novel phenomenological signatures. This idea
+has been further developed by a number of authors [4]-[49]. In this note, we discuss the
+possibility of long range forces resulting from such interactions. We assume strict conformal
+invariance down to low energies, so that the unparticle propagator necessarily has a zero
+momentum pole.
+      Our analysis is quite similar to that of Goldberg and Nath [28], who considered the
+possibility that (exactly scale invariant) unparticles might couple to the ordinary energy-
+momentum tensor Tµν . Here, we consider couplings between unparticles and currents such
+as Jµ = ēγµ e or q̄γµ q. Interestingly, the electron number current appears in Georgi’s e+ e− →
+µ+ µ− example in [2]. We find extremely strong limits on such couplings, much stronger than
+can be obtained by collider experiments and even astrophysics.
+
+
+II.     LONG RANGE FORCE DUE TO VECTOR UNPARTICLE
+
+
+      We consider first baryon current Bµ in terms of quarks
+                                       1          ¯ µ d + · · ·) .
+                                   Bµ = (ūγµ u + dγ                                           (1)
+                                       3
+The coupling between a vector unparticle state with quark currents can be rewritten as
+
+                                         L = λB Λ1−d
+                                                 U
+                                                    U
+                                                      Bµ OUµ ,                                 (2)
+
+Where ΛU is the scale below which operator OU has dimension dU and λB is a dimensionless
+coupling constant. In the static limit this interaction generates the potential
+                                             1     1
+                          VU = λ2B Λ2−2d
+                                    U
+                                        U
+                                                     Ad Γ(2dU − 2)B1 B2 ,                      (3)
+                                            4π r U −1 U
+                                               2 2d
+
+where                                           5
+                                       16π 2     Γ(dU + 12 )
+                               AdU =                                                     (4)
+                                      (2π)2dU Γ(dU − 1)Γ(2dU )
+is the coefficient associated with the transverse four-vector unparticle propagator [2] and
+B1,2 are the baryon numbers of the two interacting masses. Using a relationship involving
+Gamma functions, VU can be simplified into
+                                                     1         1
+                               1      2 2−2dU Γ(dU + 2 )Γ(dU − 2 )     1
+                      VU =          λ B Λ U                                 B1 B2 .            (5)
+                             2π 2dU                 Γ(2dU )        r 2dU −1
+
+                                                    2
+Note that for dU = 1, this will produce a 1/r repulsive potential
+
+                                             1 21
+                                     VU =     λ B1 B2 .                                    (6)
+                                            4π B r
+
+   Similarly, the unparticle operator can couple to lepton currents with coupling strength
+λL and the above can be directly applied as well. For numerical results, we exhibit three
+examples: λB = λ 6= 0 and λL = 0; λB = 0 and λL = λ 6= 0; and λB = −λL = λ. In these
+cases, the unparticle operator couples to B, L and B − L currents, respectively.
+
+
+III.   NUMERICAL RESULTS
+
+
+   In the limit of unbroken scale invariance, the force between B1 and B2 is a long range force
+similar to gravity, but it may have different 1/r power dependence. To obtain numerical
+results, we make the approximation B1,2 ≈ m1,2 /u, where m1,2 are the masses of the two
+interacting bodies and u is the atomic mass unit. Combined with the gravitational potential,
+the potential between two objects of mass m1 and m2 is
+
+                                     m1 m2           1 m1 m2
+                            V = −G         + λ2B fdU 2 2d −1 ,                             (7)
+                                      r             u r U
+
+where Newton’s constant G = 6.7 × 10−39 GeV−2 and
+                                                 1         1
+                                 1  2−2dU Γ(dU + 2 )Γ(dU − 2 )
+                          fdU = 2d ΛU                                                      (8)
+                               2π U             Γ(2dU )
+
+captures the dU dependent part of the coefficient. V can then be written as
+                                                                  2dU −2
+                             m1 m2     m1 m2 1 λ2B                1
+                      V = −G       + G             fd                        .             (9)
+                              r         r u2 G U                  r
+We compare the second term on the right hand side to the power-law potential in Ref. [50],
+                                                                k−1
+                                          m1 m2          1 mm
+                                                     
+                            V12k (r) = −G       βk                     ,                  (10)
+                                            r              r
+and derive limits on the coupling λ, for k = 2 and k = 3. Ref. [50] also discussed constraints
+on Yukawa potentials generated by exchange a scalar or a vector boson. For small enough
+boson masses m, the experimental distance r is much less than the Compton wavelength
+h̄/mc. In this limit, the Yukawa potential is approximately 1/r, and we obtain a limit on
+the case k ≈ 1. For non-integer value of k, we simply interpolate the limit linearly (the
+precise bound will be of the same order of magnitude). The range of dU we are interested
+
+                                             3
+in is 1 ≤ dU ≤ 2 and it is related to k through equation 2dU − 2 = k − 1. The limits on the
+scalar or vector coupling can be converted into limits on an effective coefficient β1 for the
+case of a 1/r potential. Note that when we consider the B, L and B − L cases, the effective
+couplings will be multiplied by factors of (Z + N)/A ≈ 1, Z/A and N/A respectively, where
+Z is the number of protons, A the atomic number, and N is the number of neutrons. For
+the molybdenum pendulum considered in Ref. [50], Z/A = 0.438 and N/A = 0.563. If λB
+and λL happen to satisfy
+                                            λB      Z
+                                                  =− ,                                    (11)
+                                          λB + λL   N
+the effective charge becomes zero and the torsion-balance experiment becomes insensitive
+to λ, so no limit is obtained. However, the experiment [51] was performed with an alu-
+minum pendulum and copper attractor and arrived at similar bounds, covering as well the
+exceptional parameter space (11).
+   We should also note that forces coupling to almost any linear combination of B and
+L which extend over truly macroscopic (e.g., solar system scale) distances are even more
+tightly constrained if they deviate from 1/r, since they would affect Newtonian orbits.
+   Table I shows the 68% confidence level (CL) constraints on |βk | (first column) and the
+derived constraints on λ for the case of B current (second column). The results for L currents
+are only different for dU = 1, |λ| < 2.5 × 10−20 and for dU = 1.25, |λ| < 5.0 × 10−17 . The
+results for the B − L current are almost identical to that for the L current by accident.
+These limits are proportional to Λ2−2d
+                                  U
+                                      U
+                                        . The values in the table are for ΛU = 1 TeV and
+limits for other values of ΛU can be easily calculated by simple scaling.
+   For comparison purposes, Table I also displays results from supernova constraints (last
+column, taking ΛU = 1 TeV). Unparticles can induce too-rapid cooling of supernovae [16, 48].
+A constraint on λ can be deduced, yielding
+                                                 1−dU
+                                          ΛU
+                                    
+                                λ                        < 3 × 10−11 .                    (12)
+                                        30 MeV
+
+Note that for our limits to apply scale invariance must hold to length scales as long as
+a fraction of a millimeter. If scale invariance is broken at a scale intermediate between a
+millimeter and the thermal wavelength of a supernova (roughly, inverse MeV), the supernova
+constraints will still apply, while ours will not.
+
+
+
+
+                                                  4
+                             dU      |βk |          |λ|      SN
+
+                              1   1.8 × 10−2 3.9 × 10−20 3.0 × 10−11
+                            1.25 9.1 × 10−3 7.5 × 10−17 4.1 × 10−10
+                             1.5 4.5 × 10−4 4.3 × 10−14 5.5 × 10−9
+                            1.75 2.9 × 10−4 8.8 × 10−11 7.4 × 10−8
+                             2.0 1.3 × 10−4 1.5 × 10−7 1.0 × 10−6
+
+
+TABLE I: The 68% CL constraints on the coupling λ for the B current. SN refers to supernova
+constraint on B current.
+
+IV.   CONCLUSIONS
+
+
+   A sector of particle physics which exhibits nontrivial scale invariance would be an exciting
+discovery. If, however, the scale invariance is exact, long range forces may result which are
+already strongly constrained by measurements of the gravitational inverse square law. Given
+the limits derived here, perhaps the most likely unparticle scenario is one in which the scale
+invariance is only approximate – i.e., it is broken below some energy scale, thereby screening
+the long range forces. However, in this case the new particle sector, while exhibiting novel
+dynamics, is not really an unparticle sector!
+
+
+
+Acknowledgments The authors thank Dave Soper for discussions, and Eric Adelberger
+for comments and for clarification regarding the experiments in [50, 51]. This work was
+supported by Grant No. DE-FG02-96ER40949 of the U.S. Department of Energy.
+
+
+
+
+ [1] H. Georgi, Phys. Rev. Lett. 98, 221601 (2007) [arXiv:hep-ph/0703260].
+
+ [2] H. Georgi, arXiv:0704.2457 [hep-ph].
+
+ [3] T. Banks and A. Zaks, Nucl. Phys. B 206, 23 (1982).
+
+ [4] K. Cheung, W. Y. Keung and T. C. Yuan, arXiv:0704.2588 [hep-ph].
+
+ [5] M. Luo and G. Zhu, arXiv:0704.3532 [hep-ph].
+
+ [6] C. H. Chen and C. Q. Geng, arXiv:0705.0689 [hep-ph].
+
+
+                                                5
+ [7] G. J. Ding and M. L. Yan, arXiv:0705.0794 [hep-ph].
+
+ [8] Y. Liao, arXiv:0705.0837 [hep-ph].
+
+ [9] B. P. Kosyakov, arXiv:0705.1228 [hep-th].
+
+[10] T. M. Aliev, A. S. Cornell and N. Gaur, arXiv:0705.1326 [hep-ph].
+
+[11] X. Q. Li and Z. T. Wei, arXiv:0705.1821 [hep-ph].
+
+[12] C. D. Lu, W. Wang and Y. M. Wang, arXiv:0705.2909 [hep-ph].
+
+[13] M. A. Stephanov, arXiv:0705.3049 [hep-ph].
+
+[14] P. J. Fox, A. Rajaraman and Y. Shirman, arXiv:0705.3092 [hep-ph].
+
+[15] N. Greiner, arXiv:0705.3518 [hep-ph].
+
+[16] H. Davoudiasl, arXiv:0705.3636 [hep-ph].
+
+[17] D. Choudhury, D. K. Ghosh and Mamta, arXiv:0705.3637 [hep-ph].
+
+[18] S. L. Chen and X. G. He, arXiv:0705.3946 [hep-ph].
+
+[19] T. M. Aliev, A. S. Cornell and N. Gaur, arXiv:0705.4542 [hep-ph].
+
+[20] P. Mathews and V. Ravindran, arXiv:0705.4599 [hep-ph].
+
+[21] S. Zhou, arXiv:0706.0302 [hep-ph].
+
+[22] G. J. Ding and M. L. Yan, arXiv:0706.0325 [hep-ph].
+
+[23] C. H. Chen and C. Q. Geng, arXiv:0706.0850 [hep-ph].
+
+[24] Y. Liao and J. Y. Liu, arXiv:0706.1284 [hep-ph].
+
+[25] M. Bander, J. L. Feng, A. Rajaraman and Y. Shirman, arXiv:0706.2677 [hep-ph].
+
+[26] T. G. Rizzo, arXiv:0706.3025 [hep-ph].
+
+[27] K. Cheung, W. Y. Keung and T. C. Yuan, arXiv:0706.3155 [hep-ph].
+
+[28] H. Goldberg and P. Nath, arXiv:0706.3898 [hep-ph].
+
+[29] S. L. Chen, X. G. He and H. C. Tsai, arXiv:0707.0187 [hep-ph].
+
+[30] R. Zwicky, arXiv:0707.0677 [hep-ph].
+
+[31] T. Kikuchi and N. Okada, arXiv:0707.0893 [hep-ph].
+
+[32] R. Mohanta and A. K. Giri, arXiv:0707.1234 [hep-ph].
+
+[33] C. S. Huang and X. H. Wu, arXiv:0707.1268 [hep-ph].
+
+[34] N. V. Krasnikov, arXiv:0707.1419 [hep-ph].
+
+[35] A. Lenz, arXiv:0707.1535 [hep-ph].
+
+
+                                                 6
+[36] D. Choudhury and D. K. Ghosh, arXiv:0707.2074 [hep-ph].
+
+[37] H. Zhang, C. S. Li and Z. Li, arXiv:0707.2132 [hep-ph];
+
+[38] X. Q. Li, Y. Liu and Z. T. Wei, arXiv:0707.2285 [hep-ph].
+
+[39] Y. Nakayama, arXiv:0707.2451 [hep-ph].
+
+[40] N. G. Deshpande, X. G. He and J. Jiang, arXiv:0707.2959 [hep-ph].
+
+[41] T. A. Ryttov and F. Sannino, arXiv:0707.3166 [hep-th].
+
+[42] R. Mohanta and A. K. Giri, arXiv:0707.3308 [hep-ph].
+
+[43] A. Delgado, J. R. Espinosa and M. Quiros, arXiv:0707.4309 [hep-ph].
+
+[44] G. Cacciapaglia, G. Marandella and J. Terning, arXiv:0708.0005 [hep-ph].
+
+[45] M. Neubert, arXiv:0708.0036 [hep-ph].
+
+[46] M. x. Luo, W. Wu and G. h. Zhu, arXiv:0708.0671 [hep-ph].
+
+[47] A. R. White, arXiv:0708.1306 [hep-ph].
+
+[48] S. Hannestad, G. Raffelt and Y. Y. Y. Wong, arXiv:0708.1404 [hep-ph].
+
+[49] K. j. Hamada, A. Minamizaki and A. Sugamoto, arXiv:0708.2127 [hep-ph].
+
+[50] E. G. Adelberger, B. R. Heckel, S. Hoedl, C. D. Hoyle, D. J. Kapner and A. Upadhye, in-
+    teractions from a recent test of the gravitational law,” Phys. Rev. Lett. 98, 131104 (2007)
+    [arXiv:hep-ph/0611223];
+
+[51] C. D. Hoyle, D. J. Kapner, B. R. Heckel, E. G. Adelberger, J. H. Gundlach, U. Schmidt and
+    H. E. Swanson, Phys. Rev. D 70, 042004 (2004) [arXiv:hep-ph/0405262].
+
+
+
+
+                                              7
+
