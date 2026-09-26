@@ -32,7 +32,7 @@
 
 **What survives (toy P4):** the only ℝ⁴ on which J acts as a complex structure *and* the geometry distinguishes it is ℝ⁴ = (e-plane) ⊗ ℝ². There, J is self-dual and the e-plane rotation is anti-self-dual. But K realizes only the Cartan u(1) × u(1) there; neither SU(2) is in K. Both orientations involved (e vs ē, and J's sign) are the arrow, so this ℝ⁴'s orientation is arrow × arrow, which is fixed and gives no parity content.
 
-**The wall, stated sharply (open):** in Lorentzian signature a hand is an identification of QM's i with ±⋆, the Hodge star on Λ²ℝ^{3,1} (⋆² = −1 there, so ⋆ is a complex structure on bivectors; (½,0) vs (0,½) is which sign i takes). **BST picks a hand iff the descent identifies J with ⋆ (or −⋆) on the bivectors of its ℝ^{3,1}.** That needs the descent's frame (T2565: the frame needs a matter/observer input), so the hand is at most as forced as the frame. `didwe` has no hit on this form. It is the next place to look.
+**The wall, stated sharply (open):** in Lorentzian signature a hand is an identification of QM's i with ±⋆, the Hodge star on Λ²ℝ^{3,1} (⋆² = −1 there, so ⋆ is a complex structure on bivectors; (½,0) vs (0,½) is which sign i takes). **[Calibrated 11:38 on Cal Section 990: 'iff' → 'one route'. A hand can also come from an axial background, a CP-odd term, or a spin-structure choice.] One route by which BST picks a hand: the descent identifies J with ⋆ (or −⋆) on the bivectors of its ℝ^{3,1}.** That needs the descent's frame (T2565: the frame needs a matter/observer input), so the hand is at most as forced as the frame. `didwe` has no hit on this form. It is the next place to look.
 
 ## 3. One circle: 16 is not a count on one S¹, and one circle predicts Δ ≠ 0
 
@@ -46,7 +46,7 @@
 
 **Kill line (written first):** if the SO(2)-weights of H²(D_IV⁵) and of the SO(4,2) ladder representation do not overlap, then Hom(ladder, H²|SO(4,2)) = 0.
 
-**(a) Every SO(4)-type in H² is a hydrogen shell (toy P5, exact for j < 40).** Take SO(4) = the stabilizer of a real vector in SO(5). This is Fock's SO(4), and the corpus's SO(5,2) ⊃ SO(4,2) ⊃ SO(4). Degree-j harmonics on ℂ⁵ (the SO(5)-type (j,0)) restrict to SO(4) as ⊕_{i=0..j} (i/2, i/2), with dimensions (i+1)² = n²:
+**(a) Every SO(4)-type in H² is a hydrogen shell (toy P5, exact for j < 40).** **[Calibrated 11:38 on Cal Section 990: (a) holds for harmonic polynomials in five variables, so ANY SO(5)-invariant scalar theory shows it (Fock's S³ ⊂ S⁴). It is not specific to D_IV⁵. BST's own content is the 5/2 offset (Hardy weight n_C/2) against hydrogen's 1. Also: 'n = the clock reading' is a COORDINATE, because hydrogen's dynamical SO(4,2) and the spacetime SO(4,2) ⊂ SO(5,2) are isomorphic groups acting on different spaces.]** Take SO(4) = the stabilizer of a real vector in SO(5). This is Fock's SO(4), and the corpus's SO(5,2) ⊃ SO(4,2) ⊃ SO(4). Degree-j harmonics on ℂ⁵ (the SO(5)-type (j,0)) restrict to SO(4) as ⊕_{i=0..j} (i/2, i/2), with dimensions (i+1)² = n²:
 **dim (j,0)_{SO(5)} = Σ_{n=1}^{j+1} n²** (for example, 30 = 1 + 4 + 9 + 16).
 **No SO(4)-type (a,b) with a ≠ b ever occurs.** Seen by SO(4), the polynomial content of BST's Hilbert space consists entirely of hydrogen's shells: n² states for each n, with no other SO(4)-types. This is Casey's "recapitulating", made exact.
 
