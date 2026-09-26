@@ -357,6 +357,20 @@ else:
         findings.append(("DRIFT", "register", f"{len(_missing)} ruling file(s) have NO Approaches Register row (e.g. {', '.join(os.path.basename(f)[:40] for f in _missing[:3])}) -- DIRECTIVE: run play/keeper_register_nightly.sh (cache makes it cost only these)", "Keeper"))
     else:
         findings.append(("OK", "register", f"Approaches Register covers all {len(_ruling_files)} ruling files ({_untrusted} rows model_error/untrusted)", None))
+    # K1929 (2026-09-26): a row that EXISTS can still be blank. The nightly's model vanished from Ollama (HTTP 404) and every
+    # new row since 09-25 came out with no outcome, while the coverage rule above said ALL CURRENT. Count recent model_error rows.
+    import datetime as _dt
+    _cut = (_dt.date.today() - _dt.timedelta(days=3)).isoformat()
+    _recent_bad = []
+    with open(_reg, encoding="utf-8") as fh:
+        for line in fh:
+            try:
+                r = json.loads(line)
+                if str(r.get("date", "")) >= _cut and any(str(v).startswith("model_error") for v in r.get("verify", [])):
+                    _recent_bad.append(r.get("id", "?"))
+            except Exception: pass
+    if _recent_bad:
+        findings.append(("DRIFT", "register", f"{len(_recent_bad)} register row(s) dated within 3 days are BLANK (model_error), e.g. {', '.join(map(str, _recent_bad[:4]))} -- the nightly's model is failing; check `ollama list` against APPROACHES_MODEL", "Keeper"))
 
 # ---------- REPORT ----------
 order = {"ERROR":0,"DRIFT":1,"STALE":2,"WARN":3,"REVIEW":4,"NOTE":5,"OK":6}
