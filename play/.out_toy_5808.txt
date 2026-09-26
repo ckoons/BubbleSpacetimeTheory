@@ -1,0 +1,7 @@
+R1 -det J -1.0  -det P0 -0.0 -> True
+R2 cJc^-1 = [[-1j, (-0+0j)], [(-0+0j), 1j]] = i*H, -det H = 1.0 -> True
+R3 -det (P0+K0)/2 = -0.25  -det (P0-K0)/2 = 0.25 -> True
+R4 H2 = sum D+_{5/2+i+2m} x (i/2,i/2) -> True
+R5 D_IV^4 summands k=0..3 -> True
+R6 min lambda = 5/2 > 0 -> True
+SCORE 6/6
