@@ -112,3 +112,18 @@ Take so(5,2) on ℝ^{2,5} with coordinates (x₀ = Minkowski time, x₁…x₄ =
 - **Kill line:** if |δ| (or the binding momentum √(2μ|δ|)) tracks the reduced mass as one-pion exchange predicts, the window adds nothing beyond QCD.
 - **Menu risk named:** the unit for "how far the winding made it" is chosen BEFORE the table is read again: δ/M_thr, δ/m_π, or the binding momentum/Λ_QCD. Elie freezes the choice and Cal hashes it.
 - Casey's three candidate causes (a commit glitch, a projection glitch at the Šilov boundary, an energy cutoff) are recorded as readings, not claims. The one that makes a mass-independent prediction is the testable one.
+
+---
+
+## AMENDMENT 12:41 EDT — A2 certified FIRED on K_μ2; four of my own statements corrected (an amendment, not a new K-number)
+**A2. The antecedent first, verbatim** (Cal Section 989 kill line, hashed before any number; carried unchanged into Section 992): *"a route FIRES iff it is > 3σ from A2 and not itself > 3σ from another route measuring the same ratio."*
+- Convention-matched (Section 992; Grace R164): on the K_μ2 route A2 sits at **−3.25σ** (isospin limit, 0.27679/1.1978 = 0.23108(51) vs 1/√19 = 0.22942) and at **+3.69σ** (charged, in f_K/f_π space).
+- The split between the two SM routes is 2.31σ and 2.66σ. **Both clauses are met, so the line FIRES.**
+- Independent arithmetic check: (0.23108 − 0.22942)/0.00051 = 3.3σ; split 0.00174/√(0.00051² + 0.00055²) = 2.3σ.
+- **CERTIFIED:** "A2: FIRED on K_μ2 at FLAG precision (Cal Sections 989/992 criterion); |V_ud| face past 3σ; rescues (lattice F_K/F_π +0.8 %; nuclear binding of |V_ud|) named, not credited; FLAG 2027 decides the first." This is the register word (Grace v0.28 carries it).
+
+**My corrections:**
+1. Part 1 item 5 said Cal's conclusion "stands on the smaller number". **Wrong in direction.** A smaller SM split is exactly what satisfies the second clause of his line. I endorsed a conclusion without restating the antecedent it was tested against. That is the K1810 lesson, now in the endorsing direction.
+2. Part 3 said the Cayley transform carries "clock J ↔ energy P₀". **Wrong.** An elliptic element is never conjugate to a parabolic one (Lyra R6; Grace). Cayley is a change of realization: in the tube picture J = ½(P₀ + K₀) in the compact-sign convention, a combination and not a conjugate. The tube's P₀ and the ball's J are different elements of one sl(2,ℝ).
+3. The round-6 prompt said Segal "made a different choice". **Inverted** (Cal Section 992; Grace R165): Segal's global (Einstein) time IS the elliptic clock. His redshift z = tan²(ρ/2) was ruled out by observation (Soneira 1979; Wright 1987). **BST owes, and now states: it does not read the elliptic–parabolic difference as a redshift.**
+4. The spine said "the tilt makes the generator elliptic for E < 0". **Imprecise** (Cal): a tilt is a conjugation and preserves type. E changes the generator, and the tilt diagonalizes it.

@@ -1,5 +1,19 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 12:43 EDT (Keeper) — **ROUND 6 CLOSED (K1929 Part 1); A2 CERTIFIED FIRED on K_μ2 (K1928 amendment; Cal's antecedent restated verbatim); ROUND 7 ISSUED: `notes/Keeper_prompts_team_round7_compact_and_flat_boundary_processes_2026-09-26.md`.**
+- **Keeper owns four corrections** to K1928 and its prompt:
+  - "stands on the smaller number" was wrong in direction;
+  - "Cayley carries J to P₀" was wrong (a change of realization, not a conjugation);
+  - Segal's choice was inverted (his global time IS our clock; his redshift is dead, and BST does not read it that way);
+  - "the tilt makes elliptic" was imprecise.
+- **Round 7 spine — one boundary, two realizations:**
+  - compact (S⁴ × S¹)/ℤ₂, J discrete: Fock's stereographic mechanism one dimension up (Casey's Fock question answered: bound = compact realization, continuum = flat ℝ^(1, 4), no exterior);
+  - the frame sl(2,ℝ) has centralizer so(4) (instrument ALL PASS): SO(5,2) ⊃ SL(2,ℝ) × SO(4), hydrogen's radial × angular structure with four space dimensions;
+  - the minimal representation (λ = 3/2) ≈ hydrogen in d = 4 (ν = 3/2 + m; 1, 5, 14, 30), Elie verifies;
+  - discrete → continuum = Stephanov deconstruction as R → ∞.
+- **X(6900):** χ_c0χ_c1 threshold pinned from PDG 2026 (3415.50 + 3510.67 = 6926.17, δ ≈ −28 MeV). Named after reading, so it stays out of A14.
+- **Waiting on Casey:** Time, Derived fixes (recommend GO); the register model trial.
+
 ## ██ 2026-09-26 (Saturday), 12:04 EDT (Grace) — **Round 6 item 3 DONE on Cal Section 992: register v0.28 + registry T2632.**
 - **A2 = FIRED on K_μ2 at FLAG precision** (Cal 989/992 criterion; |V_ud| past 3σ; rescues named, not credited; FLAG 2027 decides the first). **Keeper certification owed.**
 - **A13 16/3 = AT THRESHOLD** in Cal's final words.

@@ -37,3 +37,11 @@ chk("L0 and J have the same spectrum (conjugate elliptic elements)", np.allclose
 chk("control: the other sign (P0+K0)/2 is HYPERBOLIC (a boost), not elliptic", np.allclose(ev(B).imag,0) and np.abs(ev(B)).max()>0)
 chk("control: P0 spectrum differs from J's", not np.allclose(sorted(ev(P0).imag),sorted(ev(J).imag)))
 print("VERDICT:", "ALL PASS" if ok else "FAILURE")
+
+# --- K1929 addition: the frame's stabilizer. Centralizer of the chosen sl(2,R)=span{P0,K0,D} in so(5,2).
+basis=[M(a,b) for a,b in itertools.combinations(range(n),2)]
+A=np.array([np.concatenate([br(X,Y).ravel() for Y in (P0,K0,D)]) for X in basis]).T
+null=A.shape[1]-np.linalg.matrix_rank(A)
+chk(f"centralizer of the frame sl(2,R) has dim {null} = dim so(4) = 6 (rotations of x1..x4)", null==6 and all(np.allclose(br(M(a,b),Y),0) for a,b in itertools.combinations(range(1,5),2) for Y in (P0,K0,D)))
+print("   frame space G/(SL2 x SO4)-type count: dim so(5,2) - dim sl2 - dim so4 =",21-3-6)
+print("VERDICT (with K1929 addition):", "ALL PASS" if ok else "FAILURE")
