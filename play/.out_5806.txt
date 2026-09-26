@@ -1,0 +1,21 @@
+   J=T3: Killing norm +1 -> elliptic
+   P=T3+T1: Killing norm +0 -> parabolic
+   T1: Killing norm -1 -> hyperbolic
+λ=2.5 N=  50  J: gap 1.000000 low 2.500 | P: low 0.13719 gap 0.15464 | T1: |min| 0.39824 range [-45.7,45.7] local gap@0 0.80599
+λ=2.5 N= 100  J: gap 1.000000 low 2.500 | P: low 0.07024 gap 0.07911 | T1: |min| 0.34035 range [-93.9,93.9] local gap@0 0.68582
+λ=2.5 N= 200  J: gap 1.000000 low 2.500 | P: low 0.03555 gap 0.04003 | T1: |min| 0.29653 range [-191.7,191.7] local gap@0 0.59604
+λ=2.5 N= 400  J: gap 1.000000 low 2.500 | P: low 0.01788 gap 0.02014 | T1: |min| 0.26246 range [-388.9,388.9] local gap@0 0.52675
+λ=3.5 N=  50  J: gap 1.000000 low 3.500 | P: low 0.23095 gap 0.20132 | T1: |min| 0.44056 range [-46.6,46.6] local gap@0 0.88781
+λ=3.5 N= 100  J: gap 1.000000 low 3.500 | P: low 0.11927 gap 0.10387 | T1: |min| 0.37162 range [-94.9,94.9] local gap@0 0.74665
+λ=3.5 N= 200  J: gap 1.000000 low 3.500 | P: low 0.06065 gap 0.05280 | T1: |min| 0.32032 range [-192.7,192.7] local gap@0 0.64254
+λ=3.5 N= 400  J: gap 1.000000 low 3.500 | P: low 0.03059 gap 0.02663 | T1: |min| 0.28106 range [-389.9,389.9] local gap@0 0.56326
+[PASS] λ=2.5: ELLIPTIC J spacing exactly 1 at every N, lowest = λ (discrete, N-independent)  
+[PASS] λ=2.5: PARABOLIC P lowest eigenvalue -> 0+ and low-end gap shrinks monotonically with N  
+[PASS] λ=2.5: HYPERBOLIC T1 eigenvalues of both signs; smallest |eigenvalue| shrinks with N  
+[PASS] λ=3.5: ELLIPTIC J spacing exactly 1 at every N, lowest = λ (discrete, N-independent)  
+[PASS] λ=3.5: PARABOLIC P lowest eigenvalue -> 0+ and low-end gap shrinks monotonically with N  
+[PASS] λ=3.5: HYPERBOLIC T1 eigenvalues of both signs; smallest |eigenvalue| shrinks with N  
+   parabolic lowest eigenvalue ~ N^-0.98 (λ=5/2)
+   hyperbolic local gap at 0 vs 1/log N: ratio gap*log(N) = [3.153 3.158 3.158 3.156] (slow, log-type shrink)
+
+SCORE: 6/6
