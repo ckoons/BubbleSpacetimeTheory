@@ -59,6 +59,11 @@ The external rubric is a generic "recover known physics" checklist — necessary
     - Casey's Fock question: bound = the compact realization of the Šilov boundary, continuum = the flat one (K1929, round 7 testing).
     - SO(4) handedness DEAD (F242 rows 3–5 retired).
     - Colour on records: PU(3) iff 3 ≇ 3̄ (one bit, fixed by data).
+  - **Rounds 8–10 (added 16:32, K1930–K1932): THE THIRD WALL.** D_IV⁵ forces the kinematics (spectra, channels, multiplicities, selection rules) and none of the dynamics. H² ⊗ H² is the generalized-free-field spectrum, and the channel list is zero-knob (Section D row, register v0.32).
+    - The energy door is closed under Cal's hashed null (α IDENTIFIED).
+    - The exchange shape is k = 4 (Section D marker).
+    - Gauge currents live on the Rac (5D).
+    - **In 4D, D_IV⁴'s λ = 1 is missing from the descent (no 4D conserved current or stress tensor); round 11 tests the routes.**
   - **Segal's lesson recorded:** BST does not read the elliptic–parabolic difference as a redshift.
 
 - **★ 2026-09-15 → 09-25, FOLDED LATE (written 2026-09-26 15:50 by Keeper; closes the gap the 09-26 entry owned). Sources: K1910–K1926, register v0.12 → v0.26, the sundowns.**

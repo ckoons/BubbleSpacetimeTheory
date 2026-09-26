@@ -1,5 +1,18 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 16:32 EDT (Keeper) — **EOD (Casey: "We will call it a day … you can do EOD when finished"). ROUND 10 CLOSED (K1932 amendment). ROUND 11 = tomorrow's first prompt, in `notes/BST_TOMORROW_2026-09-27_PRIORITIES_AND_ANTI_STALE_PROTOCOL.md`.**
+- **Round 10:**
+  - "spare s = 1, 2" is generic for any interacting CFT, so the question collapses to the third wall (Cal Sections 999–1000; Lyra);
+  - Maldacena–Zhiboedov / Alba–Diab are unproved at d = 5 (Grace), so "consistent, conditionally";
+  - the Rac currents at 3 + s are verified (Elie 5822); the corpus photon = the 5D spin-1 current;
+  - **in 4D, neither module carries a conserved current or a stress tensor. D_IV⁴'s λ = 1 is missing, and it is also Gauss's law and hydrogen (Lyra);**
+  - commit = point evaluation is a posit; point commits touch only (0,0); a fixed-point commit is K1878's lane.
+- **Round 11 spine: where is 4D's λ = 1?** Routes enumerated: (a) KK zero mode on a compact normal direction (F64, K1714, T2565); (b) boundary-value restriction; (c) a non-unitary 5D weight (likely a ghost); (d) compact-dual recapitulation; (e) records.
+  - **Kill:** none supplies it without importing ⇒ a fourth wall (no massless 4D particle from the descent).
+- **Waiting on Casey:** Time, Derived GO (three fixes + Cal's parenthesis; pre-gated PASS); the register model; Zenodo.
+- **Keeper's day:** K1927–K1932.
+  - Five of my own formulas were caught (a sign, 1/r⁶, 1/r⁵ from an abstract, a+b+2k, the MZ d = 5 over-claim), plus an endorsement on the wrong number and one chain that died both ways. All owned in amendments; memory saved.
+
 ## ██ 2026-09-26 (Saturday), 16:31 EDT (Cal) — **EOD on Casey's word.** Today: Sections 989–1000, log #232–#237; four preregistrations hashed before colleagues wrote (991 ground weight, 994 energy-door null, 997 F265 chain, 999 spare-s≤2). A2 FIRED on K_μ2 on my own line once conventions matched (my §989 split owned); 16/3 at threshold (final); packaging closed. Open at my desk: score round 10 (Lyra; Elie 5822–5824) against §999; gate-read Time, Derived's three lines on Casey's GO (with the K1653 premise parenthesis). Nothing of mine uncommitted. Sundown + katra follow.
 
 ## ██ 2026-09-26 (Saturday), 16:30 EDT (Grace) — **EOD on Casey's word.**

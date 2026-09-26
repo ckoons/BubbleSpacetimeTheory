@@ -46,3 +46,21 @@ rubric_cell: "Internal — mechanism open (dynamics); the third wall recorded as
 - **K443 (06-20):** Coleman–Mandula was deployed on F(4) (it licenses a superconformal structure, not a chiral weak force). Maldacena–Zhiboedov is its CFT form. Cite both.
 - **K3 (06-03):** SO(5) → SO(4) → SO(3,1) Weyl branching for spin content: the spin labels of the currents after the descent.
 - **The 08-08 "gravity emergent, no graviton" capture:** Flato–Fronsdal puts a spin-2 current, the stress tensor, in Rac ⊗ Rac. "No graviton" and "a composite stress tensor" are compatible, but that must be said explicitly, not assumed.
+
+---
+
+## AMENDMENT 16:30 EDT — round 10 closed (an amendment, not a new K-number)
+**Antecedents restated:** Part 2 said Maldacena–Zhiboedov / Alba–Diab "restate the wall from the other side", and asked "what in BST breaks every s > 2 and spares s = 1 and s = 2?"
+1. **The theorem is not proved at BST's boundary dimension** (Grace, from the statements). MZ assume d = 3 and a unique stress tensor. Alba–Diab at d = 5 say the tower "may" not exist, and "we do not prove" it. **Restated:** *consistent with the wall, conditionally.* My "Coleman–Mandula for CFTs restates our wall" over-claimed. Grace's open question for Lyra: three colour copies of the Rac would give several stress tensors, which bears on the uniqueness hypothesis.
+2. **The question was ill-posed as a BST mechanism** (Cal Sections 999–1000, hashed 16:18:39; Lyra R10, which discloses that she read the commit subject). Sparing exactly s = 1, 2 is what EVERY interacting local CFT with a stress tensor and a global symmetry does: the stress tensor is exact by locality, and spin 1 by any global symmetry (O(N) Wilson–Fisher keeps its current). **So the question collapses to round 9's: does anything interact? The third wall again.**
+3. **Currents live on the Rac, verified** (Elie 5822, 6/6): one conserved current per spin at 3 + s (the scalar at 3), with the so(3,2) control passing. H² has nothing there, because its extra tower lifts it by 2. **The corpus photon (K1650: the vector = Rac⊗Rac at Δ = 4) is exactly the s = 1 current here, in 5D.**
+4. **NEW, the round's real finding (Lyra): in 4D, after the descent, NEITHER BST module carries a conserved current or a stress tensor.** The Rac's two-body pieces land 1 above 4D conservation, and H²'s land 3 above. 4D conservation needs D_IV⁴'s λ = 1, **the same module whose absence is Gauss's law (R7).** *Gauss's law in 4D and a 4D stress tensor are one missing piece.*
+   - As a slice, the descent carries no 4D stress tensor.
+   - As a KK reduction, it carries one but keeps every higher-spin current (free).
+   - The third wall holds in 4D either way.
+5. **The commit** (Lyra; Elie 5823 4/4; Cal):
+   - K1925's W = D(x, e) is an element of the algebra, i.e. kinematics, never an interaction.
+   - Point evaluation is a different object. The geometry supplies it canonically, but "commit = point evaluation" is Casey's ontology, a POSIT, not a theorem.
+   - **Structural result:** every two-body channel except the lowest vanishes where the two quanta coincide (holomorphy). So any point commit touches only the Bergman (0,0) channel and leaves every current conserved at first order.
+   - A write at EVERY point shifts only the scalar (Elie 5823; the kill fired as registered). A write at ONE fixed point breaks the stress tensor (Cal) and depends on the frame, which puts it in **K1878's lane: re-read that STOP before opening.**
+6. **Time, Derived:** Cal pre-gated all three fixes as PASS, plus one parenthesis on line 99: "(Section 7's premise; open per K1653)". Cal owned flagging line 99 without reading line 62. **Casey's GO is still owed; carried to 09-27.**
