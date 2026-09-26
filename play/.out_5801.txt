@@ -1,0 +1,25 @@
+burn 0.3 p-actbase_lcdm_camb        N=528713 sumw=  707939  100ωb=2.2497±0.0111  100ωc=11.933±0.121  ρ=-0.403  R=5.305±0.069  pull=(R-16/3)/sd=-0.42σ  frac(R≤16/3)=6.64e-01
+burn 0.3 p-actbase-l-b_lcdm_camb    N=530846 sumw=  739416  100ωb=2.2548±0.0102  100ωc=11.798±0.084  ρ=-0.163  R=5.233±0.047  pull=(R-16/3)/sd=-2.13σ  frac(R≤16/3)=9.82e-01
+burn 0.0 p-actbase_lcdm_camb        N=755302 sumw= 1011680  100ωb=2.2497±0.0114  100ωc=11.934±0.121  ρ=-0.413  R=5.305±0.070  pull=(R-16/3)/sd=-0.41σ  frac(R≤16/3)=6.64e-01
+burn 0.0 p-actbase-l-b_lcdm_camb    N=758350 sumw= 1089301  100ωb=2.2624±0.0291  100ωc=11.764±0.141  ρ=-0.762  R=5.201±0.117  pull=(R-16/3)/sd=-1.13σ  frac(R≤16/3)=9.86e-01
+[PASS] CONTROL: P-ACT chain reproduces ACT T5 P-ACT row (11.93±0.12, 2.250±0.011) within 0.2 sd  (11.93 vs 11.933; 2.250 vs 2.2497)
+[PASS] CONTROL: P-ACT-LB (DR1) chain reproduces ACT T5 P-ACT-LB row (11.79±0.09, 2.256±0.011) within 0.2 sd  (11.79 vs 11.798; 2.256 vs 2.2548)
+[FAIL] DIRECTION: chain ρ(ω_b,ω_c) negative and in [-0.60, -0.20]  ρ = -0.163
+   P-ACT-LB2 (ACT T5 numbers): ρ=0 -3.81σ; ρ=DESI A2 -0.606 -3.01σ; ρ=chain(DR1, BORROWED) -0.163 -> -3.54σ
+[PASS] DIRECTION: LB2 pull at the borrowed chain ρ lies in [3.0, 3.6]σ  -3.54σ
+[PASS] KILL of 'past 3σ' NOT fired: chain ρ > -0.61 (pull > 3.0σ)  
+   P-ACT-LB (DR1) from its own samples: (R̄-16/3)/sd_R = -2.13σ; Gaussian with chain ρ on T5 row: -2.11σ
+   burn-in sensitivity: ρ(0.3) = -0.163, ρ(0.0) = -0.762
+   stability: ρ(burn 0.5) = -0.264; per-chain ρ (burn 0.3) = -0.214, -0.243, -0.045, -0.143
+[FAIL] STABILITY: ρ(burn 0.5) within 0.05 of ρ(burn 0.3), and per-chain spread < 0.1 (burn 0 is unconverged: fails the T5 control)  
+
+SCORE: 4/6
+rho -0.045: LB2 -3.73  LB(DR1) -2.22
+rho -0.143: LB2 -3.57  LB(DR1) -2.13
+rho -0.163: LB2 -3.54  LB(DR1) -2.12
+rho -0.214: LB2 -3.46  LB(DR1) -2.07
+rho -0.243: LB2 -3.42  LB(DR1) -2.05
+rho -0.264: LB2 -3.39  LB(DR1) -2.04
+rho -0.300: LB2 -3.35  LB(DR1) -2.01
+rho -0.450: LB2 -3.17  LB(DR1) -1.91
+rho -0.606: LB2 -3.01  LB(DR1) -1.82
