@@ -1,0 +1,1462 @@
+                                            Multidimensional hydrogenic states: Position and
+                                            momentum expectation values
+
+
+
+
+arXiv:2011.12242v2 [quant-ph] 17 Jun 2021
+                                                    J.S. Dehesa1,2 , D. Puertas-Centeno3
+                                                    1
+                                                      Departamento de Fı́sica Atómica, Molecular y Nuclear, Universidad de Granada,
+                                                    18071-Granada, Spain
+                                                    2
+                                                      Instituto Carlos I de Fı́sica Teórica y Computacional, Universidad de Granada,
+                                                    18071-Granada, Spain
+                                                    3
+                                                      Departamento de Matemática Aplicada, Universidad Rey Juan Carlos, 28933
+                                                    Madrid, Spain
+                                                    E-mail: dehesa@ugr.es
+
+                                                    Abstract. The position and momentum probability densities of a multidimensional
+                                                    quantum system are fully characterized by means of the radial expectation values hrα i
+                                                    and hpα i, respectively. These quantities, which describe and/or are closely related to
+                                                    various fundamental properties of realistic systems, have not been calculated in an
+                                                    analytical and effective manner up until now except for a number of three-dimensional
+                                                    hydrogenic states. In this work we explicitly show these expectation values for all
+                                                    discrete stationary D-dimensional hydrogenic states in terms of the dimensionality D,
+                                                    the strength of the Coulomb potential (i.e., the nuclear charge) and the D state’s
+                                                    hyperquantum numbers. Emphasis is placed on the momentum expectation values
+                                                    (mostly unknown, specially the ones with odd order) which are obtained in a closed
+                                                    compact form. Applications are made to circular, S-wave, high-energy (Rydberg) and
+                                                    high-dimensional (pseudo-classical) states of three- and multidimensional hydrogenic
+                                                    atoms. This has been possible because of the analytical algebraic and asymptotical
+                                                    properties of the special functions (orthogonal polynomials, hyperspherical harmonics)
+                                                    which control the states’ wavefunctions. Finally, some Heisenberg-like uncertainty
+                                                    inequalities satisfied by these dispersion quantities are also given and discussed.
+Multidimensional hydrogenic states: Position and momentum expectation values              2
+
+1. Introduction
+
+Space dimensionality D is a fundamental variable of quantum single and many body
+systems which substantially modifies the physical solutions of their wave equations [1–4],
+and consequently all their chemical and physical properties. The theoretical analysis
+of these properties in D-dimensional quantum physics leans heavily on accurate knowl-
+edge of the radial expectation values of the position and momentum probability den-
+                                                                               R
+sities ρ(~r) and γ(~p), respectively. These quantities are given by hr α i = RD r α ρ(~r)d~r
+              R
+and hpα i = RD pα γ(~p) d~p, respectively, where r = |~r| and p = |~p|. They are physically
+meaningful for specific values of the order α and, when D = 3, they are experimentally
+accessible since the seventies by positron annihilation, binary (e, 2e) or electron momen-
+tum spectroscopy and inelastic (Compton) scattering of X-rays, γ rays, and high-energy
+electrons [5–15, 18]. Moreover they describe, save for a proportionality factor, relevant
+quantities [6,11,12,15–17,19] such as e.g., the electron-nucleus attraction energy (hr −1i),
+the diamagnetic susceptibility (hr 2 i), the Dirac-Slater exchange energy (hpi), the elec-
+tron kinetic energy (hp2 i), the interelectronic repulsion energy (hp3 i), the Breit-Pauli
+relativistic correction to the kinetic energy (hp4 i), the height of the peak of the Comp-
+ton profile within the impulse approximation and the energy level change induced by
+the Born reciprocity effect on all hydrogenic bound state levels relevant at atomic and
+galactic scales (hp−1 i).
+
+     Nowadays much attention is being centered around the main prototype of multi-
+dimensional many-body systems, the D-dimensional hydrogenic system, because of its
+enormous interest in quantum chemistry and atomic and molecular physics [3, 20–30],
+classical and quantum information [2,21,22,31–34], high energy physics [35–38] and elec-
+tronic complexity [21, 39–41], among many other chemical and physical fields. This sys-
+tem is the main prototype to model numerous properties and phenomena of multidimen-
+sional quantum many-body systems with standard (D = 3) and non-standard (D 6= 3)
+dimensionalities [26, 35, 42, 43]. It includes a large variety of three-dimensional physi-
+cal systems (e.g., hydrogenic atoms and ions, exotic atoms, antimatter atoms, Rydberg
+atoms) and a number of nanotechnological objects which have been shown to be very
+useful in semiconductor nanostructures (e.g., quantum wells, wires and dots) [25, 44].
+
+    Although tremendous advances have been witnessed in understanding the position
+properties of the multidimensional quantum systems, the momentum properties are not
+so well known in spite of the efforts of many authors (see e.g. [11, 12, 16, 19–23, 45]).
+This is because the required computational work is much bigger and the necessary ex-
+periments are less accessible. So, the analytical determination of these properties are
+very welcome; however, this is only possible in a reduced number of multidimensional
+quantum systems such as those of harmonic and hydrogenic character.
+
+    The aim of this work is to cover this lack by means of the analytical determination
+Multidimensional hydrogenic states: Position and momentum expectation values             3
+
+of the momentum expectation values of any order for the D-dimensional hydrogenic
+systems. Indeed, we will determine in a closed and simple form the momentum expec-
+tation values of arbitrary order for all the discrete stationary states of D-dimensional
+quantum systems of hydrogenic character in terms of the strength of the Coulomb poten-
+tial (i.e., the nuclear charge Z), the dimensionality and the D hyperquantum numbers
+(η, µ1, µ2 , . . . , µD−1 ) which characterize the quantum state.
+
+     The structure of the paper is the following. In Section 2 we briefly describe
+the position and momentum wavefunctions and the associated probability densities
+for all discrete stationary multidimensional hydrogenic states. In Section 3 we
+give the analytical expressions for the radial expectation values in terms of the
+potential parameters and the state’s hyperquantum numbers by means of generalized
+hypergeometric functions of p Fq (1) type. These expressions, however, work efficiently
+for the position expectation values of any order and for the momentum expectation
+values of even order only. The expectation values of the extreme high-energy and
+high-dimensional states are also considered; they require a very different approach,
+based on the asymptotics of the Laguerre and Gegenbauer orthogonal polynomials.
+Section 4 is monographically devoted to the momentum expectation values of real
+order for the multidimensional hydrogenic system, with emphasis on those of odd
+order, which are applied for illustration to two mostly unknown and interesting
+cases: the mean momentum and the average inverse momentum. Applications to
+three-dimensional hydrogenic atoms and to relevant multidimensional circular and
+(nS)-wave states are also done. In Section 5 we give various formalizations of the
+position-momentum Heisenberg principle of multidimensional quantum physics based
+on uncertainty inequalities which connect the momentum expectation values with the
+position expectation values or with the position entropic moments of multidimensional
+hydrogenic systems [46–49] . Finally, some conclusions and three appendices are given.
+
+2. The multidimensional hydrogenic probability densities
+
+In this section we briefly describe the wavefunctions and the associated probability
+densities for the discrete stationary states of the D-dimensional hydrogenic system
+in both position and momentum spaces. This system is composed by a negatively-
+charged particle moving around a positively charged core under the Coulomb potential
+VD (r) = − Zr , where r = |~r| and Z is the charge of the nuclear core, assumed to be
+pointwise and located at the origin. Later on, we give the associated probability densities
+for the quantum states of the system. Atomic units (i.e., ~ = me = e = 1) are used
+throughout the paper.
+The momentum wavefunctions can be obtained by means of the Fourier transform of
+the position wavefunctions of the system, which are the known physical solutions of the
+Multidimensional hydrogenic states: Position and momentum expectation values                        4
+
+corresponding Schrödinger equation
+                           
+                 1~2     Z
+               − ∇D −         Ψ (~r) = EΨ (~r) ,                                                  (1)
+                 2        r
+ where ∇ ~ D denotes the D-dimensional gradient operator, and the position vector
+~r = (x1 , . . . , xD )qin hyperspherical units is given as (r, θ1 , θ2 , . . . , θD−1 ) ≡ (r, ΩD−1 ),
+                         PD 2                          Q             
+                                                          i−1
+ where r ≡ |~r| =          i=1 xi ∈ [0, +∞) and xi = r    k=1 sin θk cos θi for 1 ≤ i ≤ D and
+ with θi ∈ [0, π), i < D − 1, θD−1 ≡ φ ∈ [0, 2π).
+
+2.1. The wavefunctions
+The position wavefunctions are characterized [2, 22] by the energetic eigenvalues known
+as
+                      Z2             D−3
+              E = − 2; η = n +             , n = 1, 2, 3, . . . ,                    (2)
+                     2η                2
+where η is the principal hyperquantum number associated to the radial variable r, and
+the associated eigenfunctions expressed as
+                Ψn,l,{µ} (~r) = Rn,l (r) × Yl,{µ} (ΩD−1 ),                                        (3)
+where (l, {µ}) ≡ (l ≡ µ1 , µ2 , . . . , µD−1) denote the hyperquantum numbers associated to
+the angular variables ΩD−1 ≡ (θ1 , θ2 , . . . , θD−1 ), which have the values l = 0, 1, 2, . . . , n−
+1 and l ≥ µ2 ≥ . . . ≥ µD−1 ≡ |m| ≥ 0. The angular part of the eigenfunctions are the
+hyperspherical harmonics, Yl,{µ} (ΩD−1 ), defined [2, 4, 20, 23] as
+                                        D−2
+                                  1 imφ Y (αj +µj+1 )
+                Yl,{µ} (ΩD−1 ) = √    e     C̃µj −µj+1 (cos θj )(sin θj )µj+1 ,                   (4)
+                                   2π   j=1
+                               (α)
+                                em (t) denotes the orthonormal Gegenbauer or ultraspherical
+where 2αj = D − j − 1, C
+polynomial [50] of degree m and parameter α, and with the values 0 ≤ θj ≤ π
+(j = 1, 2, . . . , D − 2) and 0 ≤ φ ≤ 2π. Moreover, these hyperfunctions satisfy the
+orthonomalization condition
+                  Z
+                       Yl∗′ ,{µ′ } (ΩD−1 )Yl,{µ} (ΩD−1 ) dΩD−1 = δl,l′ δ{µ},{µ′ }       (5)
+                  SD−1
+
+Moreover, the radial part of the eigenfunctions Rn,l (r) are known to have the form [2]
+                                    l                           
+                               2Z         −Z  r (2l+D−2)     2Z
+             Rn,l (r) = Kn,l        r e     η  Ln−l−1            r
+                                η                             η
+                             hω          i1
+                                2L+1(r̃) 2     (2L+1)
+                      = Kn,l                 Lη−L−1 (r̃)
+                                r̃ D−2
+                          D2  1/2 h
+                          2Z           1         ω2L+1(r̃) i1/2 (2L+1)
+                      =                                         L̃η−L−1 (r̃)        (6)
+                           η         2η            r̃ D−2
+Multidimensional hydrogenic states: Position and momentum expectation values                               5
+                                                                                                   (α)
+where L = l + D−3
+               2
+                  (so that 2L + 1 = 2l + D − 2), and re = 2Z
+                                                           η
+                                                             r. The symbols Lk (x) y
+ (α)
+L̃k (x) denote the orthogonal and orthonormal Laguerre polynomials [50] with respect
+to the weight ωα (x) = xα e−x on the interval [0, ∞), respectively, which are related by
+                                           21
+                    (λ)            k!            (λ)
+                  L̃k (x) =                     Lk (x),                                (7)
+                              Γ(k + λ + 1)
+and the normalization constant Kn,l is given by
+                            D2                  1
+                           2Z        (η − L − 1)! 2
+                  Kn,l =
+                            η         2η(η + L)!
+                                      !D                                1
+                               2Z                   (n − l − 1)!        2
+                        =                                                   ,          (8)
+                           n + D−32
+                                           2(n + D−3 2
+                                                       )(n + l + D − 3)! 
+                        R             2
+which guaranties RD Ψη,l,{µ} (~r) d~r = 1. Remark that the position wavefunction
+Ψn,l,{µ} (~r) is indeed normalized to unity since the hyperspherical harmonics given by
+R
+ ΩD
+     |Yl,{µ} (ΩD )|2 dΩD = 1.
+
+     Then, the eigenfunctions for a generic stationary state (n, l, {µ}) of the D-
+dimensional hydrogenic system in momentum space is obtained by means of the
+corresponding Fourier transform of the position eigenfunctions (3),
+                             Z
+             e
+             Ψn,l,{µ} (~p) =   e−i~p·~r Ψn,l,{µ} (~r) dD~r,                     (9)
+                                  RD
+obtaining
+                 e
+                 Ψn,l,{µ} (~p) = Mn,l (p) × Yl,{µ} (ΩD−1 ),                                              (10)
+where ~p = (p, θ1 , . . . , θD−1 ), and the radial momentum wavefunction is
+                                                                             
+                                   ′     (η p̃)l          (L+1)   1 − η 2 p̃2
+               Mn,l (p) = Kn,l                          C
+                                     (1 + η 2 p̃2 )L+2 η−L−1 1 + η 2 p̃2
+                                                                D−2
+                                 η D/2                   1+y 4 q ∗
+                             =            (1 + y)   3/2
+                                                                           ωL+1 (y) Ceη−L−1
+                                                                                      L+1
+                                                                                            (y),         (11)
+                                   Z                       1−y
+               2 2
+with y = 1−η  p̃
+         1−η2 p̃2
+                  , p̃ = Zp and the normalization constant
+                                              1/2
+                   ′       2L+3   (η − L − 1)!                 D+1
+               Kn,l = 2                             Γ(L + 1)η 2
+                                   2π(η + L)!
+                                                     1/2
+                           2l+D       (n − l − 1)!               D − 1 D+1
+                       =2                                  Γ(l +      )η 2                               (12)
+                                  2π(n + l + D − 3)!               2
+                                                                         (α)         (α)
+Note that η − L − 1 = n − l − 1 and L + 1 = l + D−1     2
+                                                          . The symbols Cm (y) and Cem (y)
+denote the orthogonal and orthonormal Gegenbauer polynomials [50] with respect to
+                                            1
+the weight function ωα∗ (y) = (1 − y 2)α− 2 on the interval [−1, +1], respectively, which
+are mutually related by
+                                       2
+                                              1/2
+                (λ)         k!(k +  λ)Γ   (λ)       (λ)
+              Cek (x) =       1−2λ
+                                                   Ck (x).                             (13)
+                           π2      Γ(2λ + k)
+Multidimensional hydrogenic states: Position and momentum expectation values                    6
+
+so that                         D−1                                D−1
+                             (l+    )                1  (l+    )
+                           Cen−l−12 (x) = A(n, l; D) 2 Cn−l−12 (x)
+with the constant
+                           (n − l − 1)!(n + D−3
+                                             2
+                                                )[Γ(l + D−1
+                                                         2
+                                                            )]2
+              A(n, l; D) =                                      .                            (14)
+                               22−2l−D πΓ(n + l + D − 2)
+Let us point out that the position and momentum D-dimensional wavefunctions (3)
+and (10), respectively, reduce to the corresponding three-dimensional wavefunctions
+obtained by numerous authors (see e.g. [51–53]).
+
+2.2. The probability densities
+Finally, the corresponding position and momentum probability densities of a D-
+dimensional hydrogenic system are given in terms of the hyperquantum numbers,
+(n, l, {µ}), by
+                                             2
+              ρn,{µ} (~r) = Ψn,l,{µ} (~r)        = R2nl (r) × |Yl,{µ} (ΩD−1 )|2
+                            2 2l −r̃         (2l+D−2)
+                         = Kn,l r̃ e [Ln−l−1 (r̃)]2 × |Yl,{µ}(ΩD−1 )|2
+                            D
+                            2Z        1 ω2L+1 (r̃) b(2L+1)
+                         =                        [Lη−L−1 (r̃)]2 × |Yl,{µ} (ΩD−1 )|2 .       (15)
+                             η       2η r̃ D−2
+in position space, and
+                                       2                                   2
+                      e n,l,{µ} (~p)
+              γ(~p) = Ψ                = M2n,l (p) × Yl,{µ} (Ω̂D−1 )
+                                                                  2
+                        ′2     (η p̃)2l         (L+1)   1 − η 2 p̃2
+                    = Kn,l       2   2  2L+4
+                                              Cη−L−1          2   2
+                                                                        × |Yl,{µ} (ΩD−1 )|2
+                           (1 + η p̃ )                  1 + η p̃
+                       η D                      D−2
+                                           1+y 2 ∗                   (L+1)
+                    =         (1 + y)3                  ωL+1 (y) [C˜η−L−1 (y)]2 × |Yl,{µ} (ΩD−1 )|2
+                       Z                   1−y
+                                                                                             (16)
+                             1−η p̃        2 2                                 1
+                                            ∗             2 α− 2
+in momentum space, where y = 1−η 2 p̃2 and ωα (y) = (1 − y )     .
+
+3. The position and momentum expectation values
+
+In this section we briefly review the determination of the radial expectation values of
+the D-dimensional hydrogenic system in both position and momentum spaces, hr α i and
+hpα i, respectively. We show that the position expectation values hr α i are well controlled
+for all α’s, but the approach to find the momentum expectation values hpα i, although
+valid for any real α, is shown to work efficiently for even α’s only. Moreover, we point
+out the position and momentum expectation values for the high-energy (i.e., Rydberg)
+and the high-dimensional (i.e., pseudo-classical) states, which have been obtained by
+very different means.
+Multidimensional hydrogenic states: Position and momentum expectation values                 7
+
+     The spreading of these physical probability densities ρ(~r), which control all the
+macroscopic physical and chemical properties of the hydrogenic system, is conventionally
+measured by means of the power moments or radial expectation values
+                        Z                     Z ∞
+                  α             α
+               hr i =         r ρ(~r)d~r =           r α+D−1 Rn,l
+                                                               2
+                                                                  (r)dr
+                          RD                    0
+                                      Z
+                         1  η α ∞                           (2l+D−2)
+                      =                      ω2l+D−2 (t) [L̃n−l−1 (t)]2 tα+1 d t           (17)
+                        2η 2Z           0
+(which holds for α > −D − 2l) in position space, and
+                         Z                   Z ∞
+                  α           α
+               hp i =        p γ(~p)d~p =           pα+D−1 M2n,l (p)dp
+                                               0
+                          α           Z +1 h           i2
+                           Z                       (ν)                   α−1         α−1
+                      =            Kn,l          Ck (t) (1 − t)ν+ 2 (1 + t)ν− 2 dt         (18)
+                            η             −1
+                          α Z +1               h         i2
+                           Z                         (ν)               α          α
+                      =                  ων∗ (t) C˜k (t) (1 − t) 2 (1 + t)1− 2 dt,         (19)
+                            η       −1
+(which holds for −2l −D ≤ α ≤ 2l + D + 2) in momentum space, respectively. Note that
+                                                                                      1     D−2
+k = η − L − 1 = n − l − 1, ν = L + 1 = l + (D − 1)/2, ων∗ (t) = (1 − t2 )ν− 2 = (1 − t2 )l+ 2
+                                                                      (ν)
+is the weight function of the Gegenbauer polynomials C˜k (t), and the constant
+                               ′2                                                  
+                            Kn,l            2(L+1)                 2   (η − L − 1)!
+               Kn,l = 2l+D+1 D = 2                  η [Γ(L + 1)]                           (20)
+                        2         η                                      2π(η + L)!
+Moreover, it is important to realize that both position and momentum expectation
+values depend on (η, L, Z) only; that is, on the principal and orbital hyperquantum
+numbers (n, l), the dimensionality D and the nuclear charge Z only.
+From these two expressions one obtains
+                                   α
+                  α        D−1          Γ(D + α)
+               hr i =                                 ; α > −D                             (21)
+                             4Z            Γ(D)
+                                   α
+                  α          2Z         2 Γ( D−α2
+                                                     + 1)Γ( D+α   )
+               hp i =                                    D
+                                                            2 ; −D < α < D + 2            (22)
+                           D−1                   D Γ2 2
+for the position and momentum expectation values of the ground state (n = 1, l = 0) of
+the D-dimensional hydrogenic state, respectively.
+Moreover, taking into account Eqs. (17) and (19) and the integral representation of the
+generalized hypergeometric functions p+1 Fp (1) [50, 54, 55], it is possible to find
+                          η α−1 Γ(2L + α + 3)
+               hr α i = α+1 α
+                        2 Z          Γ(2L + 2)
+                                                                     !
+                           −η + L + 1, −α − 1, α + 2
+               × 3 F2                                               1 ,                    (23)
+                                              2L + 2, 1
+for the position expectation values [22, 56–58], and
+                                √
+                 α    21−2ν Z α π (k + ν)Γ(k + 2ν)Γ(ν + α+1     2
+                                                                  )Γ(ν + 3−α
+                                                                          2
+                                                                             )
+               hp i =         α               2       1               3
+                          k!η                Γ (ν + 2 )Γ(ν + 1)Γ(ν + z )
+                                                                !
+                                                          3−α
+                       −k, k + 2ν, ν, ν + α+1    2
+                                                    , ν +  2
+               × 5 F4                                          1 ,                        (24)
+                               2ν, ν + 12 , ν + 1, ν + 32
+Multidimensional hydrogenic states: Position and momentum expectation values             8
+
+for the momentum expectation values [59] of a generic D-dimensional hydrogenic
+state (n, l). The latter expression is valid for α ∈ (−D − 2l, D + 2l + 2), where
+ν ≡ L + 1 = l + D−12
+                      and k = n − l − 1. The function q Fp (z) indicates the generalized
+hypergemetric series given by
+                                         !   ∞
+                         a1 , ..., ap+1     X   (a1 )j · · · (ap+1 )j z j
+              p+1 Fp                    z =                               ,         (25)
+                         b1 , ..., bp       j=0
+                                                 (b1 )j · · · (bp )j j!
+which is terminating when the first one or more of the top parameters is a nonnegative
+integer, so that it reduces to a polynomial in z. Then, note that the previous
+functions 3 F2 (1) and 5 F4 (1) given by Eqs. (23) and (24), respectively, are terminating
+hypergeometric functions (so, polynomials) evaluated at z = 1. Moreover, from Eq.
+(23) one obtains hr 0 i = 1 and
+                       1                                    η2
+              hri   =     [3η 2 − L(L + 1)], hr 2 i =          [5η 2 + 1 − 3L(L + 1)]
+                      2Z                                  2Z 2
+                       Z                Z2 1                    Z3          1
+              hr −1i = 2 , hr −2 i = 3          1 ,   hr −3
+                                                            i =   3        1
+                      η                  η L+ 2                  η L(L + 2 )(L + 1)
+                       Z4             3η 2 − L(L + 1)
+              hr −4i = 5
+                      2η (L − 21 )L(L + 12 )(L + 1)(L + 23 )
+                       Z 6 35η 2 (η 2 − 1) − 30η 2 (L + 2)(L − 1) + 3(L + 2)(L + 1)L(L − 1)
+              hr −6i = 7
+                      8η (L − 32 )(L − 1)(L − 21 )L(L + 21 )(L + 1)(L + 32 )(L + 2)(L + 25 )
+                                                                                       (26)
+for the first few position expectation values by means of the well-controlled properties of
+the function 3 F2 (1) [50]. For Kramers-Pasternack two-term and three-term recurrence
+relations, see e.g. [60] and Eq. (10.24) of [1] for D-dimensional systems and the recent
+review [61] for three-dimensional systems. For D = 3 these multidimensional expres-
+sions reduce to the known three-dimensional ones [22, 56–58, 62].
+
+      To calculate the corresponding quantities in momentum space from Eq. (24) is a
+formidable task, basically because 5 F4 (1) is a much more complicated hypergeometric
+function although it has a Saalschutzian or balanced character [55,63]; that is, the sum of
+its lower parameters equals the sum of its upper parameters plus unity. For the particular
+cases α = 0 and 2 the corresponding function 5 F4 (1) reduces to a 3 F2 (1)-function which
+can be evaluated by means of the Pfaff-Saalschutz theorem, obtaining [55, 59]
+                                 Z2
+              hp0 i = 1,   hp2 i =   .                                             (27)
+                                  η2
+For values of α other than 0 and 2 we cannot use this approach because of the lack of
+appropriate reduction formula for the function 5 F4 (1). On the other hand, from Eq.
+(19) one obtains in a straightforward manner the reflection or inversion formula [22]
+               η 2−α            η α
+                          2−α
+                        p      =        hpα i , α = 0, 1, 2, ...                   (28)
+                Z                  Z
+Multidimensional hydrogenic states: Position and momentum expectation values               9
+
+which is not trivial for α 6= 1. In particular, it gives Eq. (27) and
+                         η 4                  η 6                   η 8
+               hp−1 i =        hp3 i, hp−2 i =         hp4 i, hp−3 i =        hp5 i (29)
+                          Z                      Z                      Z
+for a few values of α.
+      Then, a procedure based on some computer-algebra algorithms of Zeilberger type
+[64, 65] (see also [66] for the three-dimensional case) can also be used to obtain in a
+cumbersome way the momentum expectation values of even order higher than 2. Then,
+this procedure together with the reflection formula lead to the following expressions
+                      Z −2 8η − 3(2L + 1)        4     Z 4 8η − 3(2L + 1)
+               hp−2 i =                   ,   hp   i =                    ,
+                      η −2     2L + 1                  η4      2L + 1
+                      Z 6 (4k + 2ν + 1)(16k 2 + 40νk − 4k + 4ν 2 + 16ν + 15)
+               hp6 i = 6                                                     .          (30)
+                      η               (2L + 3)(2L + 1)(2L − 1)
+Let us highlight, however, that the problem to calculate explicitly the momentum ex-
+pectation values of odd integer order remain open for the D-dimensional hydrogenic
+system, except hp−1 i for the three-dimensional hydrogen atom (i.e., D = 3, Z = 1) [19]
+(see also [45] for a semiclassical estimation). They will be investigated later in Section 4.
+
+     The approach described in this section does not work efficiently in the following
+two extreme cases: the highly-excited or Rydberg (i.e. n ≫ 1) states and the high-
+dimensional or pseudo-classical systems. The determination of the expectation values
+in these two extreme cases require a deeper knowledge of approximation theory and
+orthogonal polynomials [67, 68]. Here below we collect the main results, recently found.
+
+3.1. The high-energy (i.e. Rydberg) limit
+This is the quasi-classical limit in quantum physics since the wavelengths of the particles
+are small in comparison with the characteristic dimensions of the system and the
+wavefunctions of the quasi-classical state. To determine the position and momentum
+expectation values of arbitrary order which quantify the spreading of the Rydberg D-
+dimensional hydrogenic states (i.e., states where the electron has a high or very high
+principal quantum number n) is a formidable task. Indeed, in this case the highly
+oscillatory nature of the corresponding integrands (see Eqs. (17) and (19)) renders
+Gaussian quadrature ineffective as the number of quadrature points grows linearly with
+n and evaluation of the involved high-degree polynomials are subject to round-off errors.
+The use of the weak-* asymptotics of Laguerre and Gegenbauer polynomials [67] has
+allowed Aptekarev et al [68] to obtain the expressions
+                        2 α α+1
+                 α       η       2    Γ(α + 23 )
+               hr i =             √              (1 + o(1)) , n → ∞                   (31)
+                         Z          π Γ(α + 2)
+(with uniformly bounded α, l and D, and α > −3/2)
+                           Z α Γ(2L − α + 3) 23α−5 Γ(α − 3/2)
+               hr −α i ≃                       √              ,   n→∞                   (32)
+                           η 3 Γ(2L + α)         πΓ(α − 1)
+Multidimensional hydrogenic states: Position and momentum expectation values                   10
+
+(valid for 3/2 < α < 2L + 3) for the position expectation values, and
+                       α
+                 α     Z          α−1
+               hp i ≃                       
+                       n     sin π2 (α − 1)
+                       α                       
+                       Z     2     α+1         3−α
+                    =          Γ            Γ         ; −1 < α < 3,              α 6= 1,     (33)
+                       n     π        2         2
+                      2Z
+               hpi ≃      , n→∞                                                               (34)
+                      πn
+for the momentum expectation values of the Rydberg hydrogenic states with n ≫ 1 and
+l uniformly bounded. Note that Eqs. (31) and (33) provides, in particular, the exact
+values for the normalization (hr 0 i = hp0 i = 1), the inverse radii (hr −1 i, hr −2i, hr −3i) and
+the kinetic energy (hp2 i = Z 2 /n2 ) of the system, previously given; moreover, they give
+for instance that
+                                          3Z 4
+               hr −4i ≃ 3                                      ,                              (35)
+                        2η (L − 12 )L(L + 21 )(L + 1)(L + 23 )
+                                         2
+                      3η 2     2      5 η2
+               hri ≃       , hr i ≃            ,                                              (36)
+                      2Z              2 Z
+which are in agreement with the corresponding asymptotics of the general Eqs. (26).
+However, the problem to find the (n → ∞)-limit of the momentum expectation values
+hpα i with α ∈/ (−1, 3) remains open for the D-dimensional hydrogenic system, except
+  −1
+hp i which has been analyzed monographically for the three-dimensional hydrogen
+atom [19]. This problem will be discussed in section 4 for any multidimensional
+hydrogenic system.
+      Let us finally comment that the Rydberg position expectation values mentioned
+above include, extend to arbitrary space dimensions and rigorously prove the
+corresponding semiclassical and quantum values obtained for three-dimensional systems
+[70, 71].
+
+3.2. The high-dimensional (i.e., pseudo-classical) limit
+The pseudo-classical or high dimensional (D → ∞) limit plays a relevant role in various
+scientific fields such as e.g. in physics of fluids [72] and in quantum chemistry where
+it is the starting point of a very useful strategy, the D-dimensional scaling method of
+Herschbach et al [26–29], to study the atomic and molecular systems. This method
+requires to solve a finite many-electron problem in the (D → ∞)-limit and then,
+perturbation theory in 1/D is used to have an approximate result for the standard
+dimension (D = 3), obtaining at times a quantitative accuracy comparable to the self-
+consistent Hartree-Fock calculations.
+Here, we show the position and momentum expectation values for an arbitrary (but
+fixed) state (n, l, {µ}) of D-dimensional hydrogenic systems when D → ∞. We start
+from the general expressions (23) and (24), respectively. Then, the asymptotics of the
+Multidimensional hydrogenic states: Position and momentum expectation values           11
+
+3 F2 (1) and 5 F4 (1) functions and various functions involving the gamma function has
+allowed Toranzo et al [32] to claim
+                      2 α                                                          
+               α       D            (α + 1)(α + 4l − 2)       (α + 1)(α + 2)(n − l − 1)
+             hr i =             1+                         1+
+                       4Z                   2D                       D + 2l − 1
+                                
+             ×     1 + O D −2                                                        (37)
+(valid for α > −D − 2l) for the position expectation values, and
+                      α                                          
+                α     2Z           α(α − 2)(2n − 2l − 1)         −2
+              hp i =           1+                         + O(D )                    (38)
+                       D                    2D
+(valid for α > −D − 2l) for the momentum expectation values of the D-dimensional
+hydrogenic system as D → ∞, respectively. Note that in this limit one has that
+                                                     2               2
+hr α i → rchar
+           α
+                and hpα i → pαchar , where rchar = D4Z
+                                                       and pchar = D4Z
+                                                                       . Then, rchar and pchar
+appear to be as the characteristic length and momentum for this Coulomb problem. So,
+the high-dimensional hydrogenic system seems to behave like an electron moving with
+velocity pchar in a circular orbit of angular momentum D2 and radius rchar .
+       Finally, for the circular states (l = n − 1) the general expressions (37)-(38) provide
+the following position and momentum expectation values
+                                           2 α                            
+                                            D           (α + 1)(4n + α − 6)                
+                    α
+                 hr i(D, n, l = n−1) =              1+                         1 + O D −2 (39)
+                                            4Z                   2D
+                                            α                              
+                    α                        2Z          α(α − 2)          −2
+                 hp i(D, n, l = n − 1) =              1+           + O(D ) ,             (40)
+                                             D              2D
+respectively. Moreover, from these expressions we can easily obtain the position and
+momentum expectation values for the ground state (n = 1) of the D-dimensional
+hydrogenic system at the D → ∞ limit.
+
+4. The momentum expectation values: general expressions and applications
+
+In the previous section we have shown how the momentum expectation values hpα i
+with an even integer α can be obtained in a closed form in terms of the hyperquantum
+numbers (n, l), the dimensionality D and the nuclear charge Z, by means of Eq. (24)
+and the reflection formula (28)
+                        η 2β+2
+                 −β
+              hp i =             hpβ+2 i, β = 0, 1, 2, ...                         (41)
+                         Z
+which holds for −2l − D − 2 ≤ β ≤ 2l + D.
+     Here we will find all the momentum expectation values hpα i, α ∈ R, for any
+D-dimensional hydrogenic state (n, l), making emphasis on the mostly unknown but
+interesting ones; namely, those with odd integer α. Then, the resulting expressions are
+applied to the circular states. Later on, they are used to obtain the mean momentum
+hpi and the average inverse momentum hp−1 i for general and some particularly relevant
+D-dimensional hydrogenic states.
+Multidimensional hydrogenic states: Position and momentum expectation values               12
+
+     We can do it either by using the general expressions given by Eqs. (18)-(19) or,
+alternatively and equivalently, by the expressions (24) given in integral or finite-sum
+ways, respectively. We start using Eq. (24) which by means of the definition (25) for
+the hypergeometric function 5 F4 (1) and the duplication formula of the gamma function
+(see e.g., [50, 63]), can be rewriten as
+                          α
+                   α       Z      2 (k + ν)Γ(k + 2ν) Γ(ν + α+1     2
+                                                                        )Γ(ν + 3−α 2
+                                                                                     )
+                 hp i =                                              1           3
+                            η    k!      Γ(2ν + 1)           Γ(ν + 2 )Γ(ν + 2 )
+                         Xk            
+                                     k (k + 2ν)j (ν)j (ν + α+1   2 j
+                                                                    ) (ν + 3−α 2 j
+                                                                                   )
+                      ×       (−1)j                               1          3         (42)
+                         j=0
+                                      j     (2ν) j (ν + 1) j (ν + 2
+                                                                    ) j (ν + 2
+                                                                               ) j
+
+(valid for any real α ∈ (−D−2l, D+2l+2)) for the momentum expectation values [59] of
+a generic D-dimensional hydrogenic state (n, l). Keep in mind that ν ≡ L + 1 = l + D−1
+                                                                                     2
+                                                                                       ,
+k = n−l −1 and the Pochhammer symbol (a)j = Γ(a+j)/Γ(a). This general expression
+includes, improves and generalizes to arbitrary dimensions the three-dimensional results
+previously obtained (see e.g., Eq. (13) of [53]), which require a double summation. See
+also Appendix A where it is shown a D-dimensional expression alternative and equiva-
+lent to (42), but suffering of a double summation.
+
+     To better manipulate the expression (42) it is convenient to take into account the
+following identities
+               (2ν + k)j   (2ν + j)k     (ν)j         ν
+                         =           ,          =                                  (43)
+                 (2ν)j       (2ν)k     (ν + 1)j     ν+j
+in Eq. (42), so that we can rewrite it as follows
+                       α
+                 α      Z
+               hp i =        Fk (ν, α) fk (ν)                                            (44)
+                        η
+with
+                             2 (k + ν)Γ(k + 2ν) Γ(ν + α+1
+                                                       2
+                                                           )Γ(ν + 3−α
+                                                                    2
+                                                                      )
+               Fk (ν, α) =                               1        3                      (45)
+                             k!    Γ(2ν + 1)      Γ(ν + 2 )Γ(ν + 2 )
+and
+                               k         
+                          1 X          j k
+               fk (ν) =           (−1)      (2ν + j)k dj ,                               (46)
+                        (2ν)k j=0        j
+where
+                                 ν (ν + α+1
+                                         2 j
+                                            ) (ν + 3−α2 j
+                                                         )
+               dj ≡ dj (ν) =              1         3      .                             (47)
+                               ν + j (ν + 2 )j (ν + 2 )j
+Now, to illustrate the utility of this expression, let us calculate the momentum
+expectation values hpα i with any real α for the class of D-dimensional hydrogenic circular
+states (n, l = n − 1). Here we have ν = η = n + D−3   2
+                                                         and k = 0, so that d0 = 1, f0 (ν) = 1
+and
+                                       Γ(η + α+1
+                                               2
+                                                   ) Γ(η + 3−α
+                                                             2
+                                                               )
+               F0 (ν, α) = F0 (η, α) =           1         3     .                        (48)
+                                         Γ(η + 2 ) Γ(η + 2 )
+Multidimensional hydrogenic states: Position and momentum expectation values           13
+
+Then, finally Eqs. (44)-(45) and (48) give
+                                       α
+                α                       Z  Γ(η + α+1
+                                                  2
+                                                      ) Γ(η + 3−α2
+                                                                   )
+              hp i(D, n, l = n − 1) =                                                (49)
+                                        η    Γ(η + 12 ) Γ(η + 23 )
+for α ∈ (−D − 2n + 2, D + 2n). From this expression we can obtain, for example, the
+momentum expectation values hpα i(D, n = 1, l = 0) of the ground state for any real α
+                                           α
+              α                        2Z      2 Γ( D+α
+                                                      2
+                                                        ) Γ( D−α+2
+                                                               2
+                                                                   )
+            hp i(D, n = 1, l = 0) =                        D 2
+                                                                                  (50)
+                                      D−1           D [Γ( 2 )]
+for α ∈ (−D, D + 2). Moreover, we find the expressions
+                                          α
+               α                          Z     Γ(n + α+1
+                                                       2
+                                                           ) Γ(n + 3−α
+                                                                     2
+                                                                       )
+             hp i(D = 3, n, l = n − 1) =                 1         3                 (51)
+                                           n      Γ(n + 2 ) Γ(n + 2 )
+(with α ∈ (−1 − 2n, −3 + 2n) for the momentum expectation values hpα i of the three-
+dimensional hydrogenic circular states, and
+                                                             
+               α                          8Z α     3+α     5−α
+             hp i (D = 3, n = 1, l = 0) =      Γ        Γ         ; α ∈ (−3, 5).
+                                           3π       2       2
+                                                                                (52)
+for the corresponding quantities of the ground state of the three-dimensional hydrogenic
+atom. The last three-dimensional expression has been previously found by various
+authors (see e.g., pag. 325 of [11]). Finally, from Eq. (51) and the following asymptotics
+of the ratio of Gamma functions (see Eqs. 5.11.13 and 5.11.15 of [50])
+                                                           
+                Γ(x + a)     a−b        1
+                         ∼x       1 + (a − b)(a + b − 1) ; x → ∞,                    (53)
+                Γ(x + b)               2x
+we obtain the expectation values
+                                         α                  
+                   α                     Z        α(α − 2)     1
+              hp i(D = 3, n, l = n−1) ≃        1+          +O      ; n → ∞(54)
+                                         n           4n        n2
+for the Rydberg circular states of the three-dimensional hydrogenic states.
+
+4.1. The mean momentum hpi
+Let us now apply this procedure based on Eq. (42) or Eq. (44) to evaluate the mean
+momentum hpi for a generic D-dimensional hydrogenic state (n, l), which is closely
+related to the Dirac exchange energy [73]. For α = 1 these general expressions give
+                            Z 2 (k + ν)Γ(k + 2ν) Γ(ν + 1)Γ(ν + 1)
+              hpi(D, n, l) =
+                            η k!    Γ(2ν + 1)     Γ(ν + 21 )Γ(ν + 32 )
+                            Xk         
+                                     j k (k + 2ν)j (ν)j (ν + 1)j
+                          ×     (−1)                                 ,               (55)
+                            j=0
+                                       j (2ν)j (ν + 21 )j (ν + 32 )j
+or equivalently,
+                               Z 2 (k + ν)Γ(k + 2ν) Γ(ν + 1)Γ(ν + 1)
+              hpi(D, n, l) =                                             fk (ν)      (56)
+                               η k!    Γ(2ν + 1)    Γ(ν + 21 )Γ(ν + 32 )
+Multidimensional hydrogenic states: Position and momentum expectation values        14
+
+where ν ≡ L + 1 = l + D−1
+                       2
+                          , k = n − l − 1, η = n + D−3
+                                                    2
+                                                       and fk (ν) is given by Eq. (46).
+
+    Operating as before we can calculate from these expressions the mean momentum
+value for specific D-dimensional hydrogenic states. Then, we find
+                                        Z Γ(η + 1) Γ(η + 1)
+              hpi (D, n, l = n − 1) =                                             (57)
+                                        η Γ(η + 21 ) Γ(η + 32 )
+                                            4Z           [Γ( 2n+D−1
+                                                                2
+                                                                    )]2
+                                   =                                              (58)
+                                        2n + D − 3 (2n + D − 2) [Γ( 2n+D−2
+                                                                        2
+                                                                           )]2
+for the circular states, and
+                                              "        #2
+                                        4Z      Γ D+1
+                                                   2
+              hpi (D, n = 1, l = 0) =                      ,                      (59)
+                                      D(D − 1) Γ D2
+for the ground state. Then, for the three-dimensional hydrogenic atom it follows that
+                                             Z Γ(n + 1)Γ(n + 1)
+              hpi(D = 3, n, l = n − 1) =                                          (60)
+                                             n Γ(n + 21 )Γ(n + 32 )
+                                             Z 24n−1 n [(n − 1)!]4
+                                         =
+                                             π (2n + 1) [(2n − 1)!]2
+for the circular states, and
+                                         8Z
+              hpi (D = 3, n = 1, l = 0) =                                        (61)
+                                         3π
+for the ground state of the three-dimensional hydrogenic atom. Finally, from Eq. (54)
+with α = 1 or from Eq. (60) and the asymptotics
+              Γ(az + b) ≃ (2π)1/2 e−az (az)az+b−1/2 ;      a > 0,     z→∞         (62)
+we find
+                                        Z
+              hpi (D = 3, n, l = n − 1) ≃ , n→∞                                 (63)
+                                        n
+for the highly-excited (Rydberg) circular states of the three-dimensional hydrogenic
+states.
+
+    Alternatively, we can use Eq. (18) to obtain all the previous expressions and other
+ones as illustrated in Appendix B. For instance, we obtain in addition the expression
+                                       2Z 4n2
+              hpi (D = 3, n, l = 0) =                                              (64)
+                                       πn 4n2 − 1
+It is most interesting to remark that for the ground state (n = 1) one has the known
+exact value given by Eq. (61), 8Z 3π
+                                     , and for the highly-excited (Rydberg) (nS)-wave
+states, which have n ≫ 1 and l = 0, one has the expression (34), 2Z   πn
+                                                                         , obtained by
+Aptekarev et al [68] by very different means, what is also a further checking of our
+results.
+Multidimensional hydrogenic states: Position and momentum expectation values             15
+
+4.2. The average inverse momentum hp−1 i
+This quantity determines both the peak height of the Compton profile within the impulse
+approximation [69] and the energy level change induced by the Born reciprocity effect on
+all hydrogenic bound state levels which is important at atomic and galactic scales [19].
+Here we apply the abovementioned procedure based on the general expressions (42) or
+Eq. (44) to evaluate the average inverse momentum hp−1 i for a generic D-dimensional
+hydrogenic state (n, l) and the expectation value hp3 i, which describes the interelectronic
+repulsion energy as mentioned above. For α = −1 these expressions give
+                                 η 2 (k + ν)Γ(k + 2ν) Γ(ν)Γ(ν + 2)
+              hp−1 i(D, n, l) =
+                                 Z k!    Γ(2ν + 1)     Γ(ν + 21 )Γ(ν + 32 )
+                                 Xk         
+                                          j k   (k + 2ν)j (ν)j (ν)j (ν + 2)j
+                               ×     (−1)                                              (65)
+                                 j=0
+                                            j (2ν)j (ν + 1)j (ν + 21 )j (ν + 32 )j
+or equivalently,
+                                  η 2 (k + ν)Γ(k + 2ν) Γ(ν)Γ(ν + 2)
+              hp−1 i(D, n.l) =                                             fk (ν)      (66)
+                                  Z k!    Γ(2ν + 1)   Γ(ν + 12 )Γ(ν + 23 )
+where ν ≡ L + 1 = l + D−1
+                       2
+                          , k = n − l − 1, η = n + D−3
+                                                    2
+                                                       and fk (ν) is given by Eq. (46).
+From these expressions and operating as before, we can calculate the average inverse
+momentum value for specific D-dimensional hydrogenic states. Then, we find the
+expressions
+                                            η Γ(η) Γ(η + 2)
+              hp−1 i(D, n, l = n − 1) =                                                (67)
+                                            Z Γ(η + 12 ) Γ(η + 23 )
+                                            2n + D − 3 Γ( 2n+D−3
+                                                             2
+                                                                 ) Γ( 2n+D+1
+                                                                         2
+                                                                             )
+                                        =                              2n+D−2 2
+                                                                                       (68)
+                                                Z     (2n + D − 2) [Γ( 2 )]
+for the circular states, and
+                                            D − 1 Γ( D−1 ) Γ( D+3 )
+              hp−1 i(D, n = 1, l = 0) =               2
+                                                           D 2
+                                                                2
+                                                                                       (69)
+                                             Z       D [Γ( 2 )]
+for the ground state. From the last two results we have the expressions
+                                               n Γ(n) Γ(n + 2)
+              hp−1 i(D = 3, n, l = n − 1) =                                            (70)
+                                               Z Γ(n + 12 ) Γ(n + 23 )
+                                                    2 Γ(n + 1) Γ(n + 2)
+                                             = Z −1                        ,           (71)
+                                                    (2n + 1) [Γ( 2n+1
+                                                                   2
+                                                                       )]2
+                                            16
+              hp−1 i(D = 3, n = 1, l = 0) =     ,                                 (72)
+                                           3πZ
+for the average inverse momentum of the circular states and the ground state of the
+hydrogenic atom, respectively. For the hydrogen atom (i.e., Z=1, D=3) the last two
+expressions are equal to the corresponding quantities obtained previously by Delbourgo
+and Elliott [19] by other means, what is a partial checking of our results.
+Multidimensional hydrogenic states: Position and momentum expectation values          16
+
+     On the other hand, from Eq. (66) or better from Eq. (18) with α = −1 (see
+Appendix C), we have also found the expression
+                                                                              
+                 −1                     4n         1       2n2
+              hp i(D = 3, n, l = 0) =        ψ(n + ) − 2          + γ + 2 ln 2   (73)
+                                        Zπ         2     4n − 1
+for the average inverse momentum of the the three-dimensional hydrogenic (nS)-states,
+where ψ(x) ≡ Γ′ (x)/Γ(x) is the digamma function and γ = 0.5772... denotes the Euler-
+Mascheroni constant [50]. Note that Eq. (73) reduces to Eq. (72) when n = 1.
+Moreover, taking into account Eq. (53) and the asymptotic behavior of the digamma
+ψ(x) function [50]
+                               1      1
+              ψ(x) ∼ log x −      −      ;         for x → ∞,                    (74)
+                              2x 12x2
+we obtain from Eqs. (67) and (73) the following expectation values
+                                                                 
+                 −1                         n        3        −2
+              hp i(D = 3, n, l = n − 1) ≃       1+     + O(n ) ; n → ∞           (75)
+                                            Z       4n
+and
+                                                              
+     −1                    4n                  1    1      1
+   hp i(D = 3, n, l = 0) ≃       log(4n) + γ − −       −         + O(n−3 ); n → ∞,
+                            π                  2 2n 12n2
+for the Rydberg circular and nS states of the hydrogen atom, respectively. See [19] for
+further news about this expectation value.
+Alternatively, we can use Eq. (18) to obtain all the previous expressions and other ones
+as illustrated in Appendix C. Finally, let us highlight that by combining the previous
+expressions and the reflection formula (29) or (41) one can obtain
+                       4
+                        Z
+                 3
+               hp i =        hp−1 i                                                 (76)
+                        η
+for the corresponding multidimensional hydrogenic states in a straightforward manner.
+Working in this way, we can determine hp−3 i and hp5 i, and the rest of momentum
+expectation values hpα i with odd order α.
+
+5. Position-momentum uncertainty properties
+
+In this section we show various mathematical formalizations of the position-momentum
+Heisenberg’s uncertainty principle given by means of different inequality-based relations
+which connect the momentum radial expectation values with the position radial
+expectation values and the position entropic moments Wα [ρ] of the multidimensional
+quantum systems. These expectation values and entropic moments play a fundamental
+role in the analysis of the structure and dynamics of natural systems and phenomena,
+from atomic and molecular systems to systems with non-standard dimensionalities
+[1, 26, 39].
+      The entropic moments of the position probability density are defined as
+                        Z
+               Wα [ρ] =     [ρ(~r)]α dD ~r, α ≥ 1                                    (77)
+                        RD
+Multidimensional hydrogenic states: Position and momentum expectation values         17
+
+These αth-quantities describe, save for a proportionality factor, numerous fundamental
+and experimentally accessible quantities [11, 13, 46–48], such as e.g. the Dirac-Slater
+exchange energy (α = 34 ), Thomas-Fermi kinetic energy (α = 53 ), the Patterson function
+of x-ray crystallography (α = 3), and others in the framework of the density functional
+theory [74].
+
+     The position-momentum uncertainty relations are mathematical formulations of
+the quantum-mechanical uncertainty principle which describes a characteristic feature
+of quantum mechanics and states the limitations to perform measurements on a system
+without disturbing it. Indeed, the D-dimensional position-momentum uncertainty
+relation is the Heisenberg-like inequality [22, 75, 76]
+                                      2    2
+                                                 D
+                                                   !        2   2
+                                                                       D
+                                                                         !
+                      2       2   e D a ΓD   1 +        e D  b ΓD  1 +
+               hr a i a hpb i b ≥      2   2
+                                                 2
+                                                 D
+                                                            2   2
+                                                                       2
+                                                                       D
+                                                                          ,     (78)
+                                  (ae) a Γ D 1 + a
+                                                        (be) b Γ D 1 + b
+
+valid for all (a, b) ∈ R+             2
+                         2 = (0, +∞) . This relation, obtained by using information-
+theoretic methods, was later improved by Zozor et al [77]. See also [78] and [79] for
+similar inequalities involving modified expectation values and expectation values with
+negative orders, respectively. For a = b = 2, this expression boils down to the familiar
+D-dimensional form of the inequality
+                           D2
+               r2   p2 ≥      ,                                                    (79)
+                            4
+firstly found by Heisenberg and Kennard for one-dimensional systems [80,81]. Later on,
+this expression has been improved for the spherically-symmetric potentials [82] as
+                                 2
+                  2   2         D
+                r    p ≥ l+          ,                                             (80)
+                                2
+where l denotes the orbital hyperangular quantum number given in Section 2.
+
+    For completeness let us quote here that Eq. (78) for D = 3 can be cast in the form
+                                              !1/3   1   1
+                         1/b         πab            3 a 3 b 1− 1 − 1
+            hr a i1/a pb     ≥                                e a b ; a > 0, b > 0
+                                16Γ a3 Γ 3b         a      b
+which for the specially interesting case a = b > 0 takes the form
+                                         ! 13           a
+                                 27π                2
+                                                 ae 1− a
+              hr a i hpa i ≥          3
+                                                           ,       a > 0.         (81)
+                              16aΓ a            3       
+
+Note that for a = 2 this inequality reduces to Eq. (79) with D = 3.
+     In addition, from the Pitt-Beckner inequality it is possible to find [83, 84] the
+following relation between the expectation values hpα i and hr −α i of D-dimensional
+systems:
+                        "
+                                  α
+                                     #2
+                       α Γ D+ 4
+                 α
+              hp i ≥ 2            α
+                                        r −α ;    0≤α<D                          (82)
+                          Γ D− 4
+Multidimensional hydrogenic states: Position and momentum expectation values                      18
+
+which for α = 2 allows us to obtain another bound for the kinetic energy; namely,
+                    (D − 2)2 −2
+              T ≥              r    ;      D > 2.                                   (83)
+                         8
+It is straightforward, although at times a bit cumbersome, to show that the position and
+momentum expectation values previously obtained for the D-dimensional hydrogenic
+system fulfill the Heisenberg-like uncertainty relations here derived.
+      Recently, it has been argued that the momentum expectation values and the
+position entropic moments for D-dimensional systems of N fermions with spin s fulfill
+the following semiclassical spin-dependent uncertainty-like relations of Daubechies-
+Thakkar type [11, 13, 73] (see also [85]):
+                                  k
+              hpk i ≥ KD (k)q − d W1+ k [ρ],                                                    (84)
+                                        D
+
+where k > 0, q = 2s + 1 is the number of spin states, and
+                                              
+                                            D k/D
+                           D        k Γ 1+ 2
+              KD (k) =         (2π)                 .                               (85)
+                         k+D             π k/2
+One can realize that for k < 0, the sign of inequality (84) is inverted. Note that these
+expressions simplify for three-dimensional systems as
+              hpk i ≤ ck W1+ k [ρ] for k = −2, −1                                               (86)
+                             3
+
+and
+              hpk i ≥ ck W1+ k [ρ] for k = 1, 2, 3, 4                                           (87)
+                             3
+                                                            k
+with ck = 3(3π 2 )k/3 (k + 3)−1 (since Kd (k) = 2 3 ck for D = 3 and s = 1/2),
+which were previously found by means of numerous semiclassical and Hartree-Fock-
+like ground-state calculations in atoms and diatomic molecules [11, 13, 14, 69, 86, 87].
+Moreover, the case k = 2 in Eq. (84) was previously conjectured by Lieb (see
+e.g. [88]), and weaker versions of it have been rigorously proved as discussed else-
+                                                      ′
+where [13]. In fact, Eq. (84) with constant KD          (k) = KD (k) × B(D, k) with
+              n            h   D  R ∞                   −1 io− Dk
+B(D, k) =       Γ Dk inf a>0 a− k a du e−u (u − a)u−1               has been rigorously
+proved by Daubechies [73]. Let us also mention that a number of authors have published
+some rigorous D-dimensional bounds of the same type [89, 90] with much less accuracy.
+
+     Furthermore, the use of the lower bound (84) for the expected value of hpk i
+together with the variational bounds to the involved entropic moments [91–93] has
+led to find [85, 94] spin-dependent Heisenberg-like uncertainty relations for N-fermion
+systems of the following type
+               hr α i α hpk i ≥ F (D, α, k) q − D N 1+k( α + D ) ,
+                      k                         k        1   1
+                                                                                   (88)
+with F (D, α, k) = KD (k)F (D, α, k) and
+                                                                                         1
+                                        1+ Dk 1+ 2k                                     α
+                                 1 + Dk       α D                       k   k
+              F (d, α, k) = 
+                                       D       D
+                                                  Dk ×        k
+                                                                               (1+ Dk )α+k  , (89)
+                                ΩD B   α
+                                         ,2+ k                  1+ D α+k
+Multidimensional hydrogenic states: Position and momentum expectation values          19
+                D/2
+               2π
+where ΩD = Γ(D/2)   is the volume of the unit hypersphere. This uncertainty relation,
+which holds for all systems of N fermions with spatial dimensionality d and spin
+dimensionality q = 2s + 1, was previously found for k = 2 by means of the Lieb-Thirring
+inequality [94]. Moreover, for D = 3 and q = 2 it gives
+                   k                         k   k   k+3
+              hr α i α hpk i ≥ F (3, α, k) 2− 3 N α + 3 ,                           (90)
+which holds for all N-electron systems. From this electronic Heisenberg’s uncertainty
+relation many instances can be found, such as e.g. for α = k = 2 one has hr 2 ihp2 i ≥
+             2   8            8
+1.85733×q − 3 N 3 = 1.17005N 3 . Moreover, uncertainty relations similar to Eq. (88) have
+been recently found [95] by means of the extremization of various information-theoretic
+measures.
+     Finally, for completeness, let us also point out that similar uncertainty relations
+based on position and momentum entropic moments have been also found [96, 97] by
+means of the Rényi-entropy-based uncertainty inequalities [98, 99].
+
+6. Conclusions
+
+The theoretical analysis of numerous fundamental and experimentally accessible quan-
+tities of multidimensional quantum systems leans heavily on accurate knowledge of the
+position and momentum radial expectation values. In this work we have analytically
+studied and partially reviewed the radial expectation values of the multidimensional
+hydrogenic system in the two conjugated position and momentum spaces. These quan-
+tities have been expressed for all discrete stationary D-dimensional hydrogenic states in
+a closed and compact manner by means of the dimensionality, the nuclear charge and
+the states’ hyperquantum numbers.
+
+      Emphasis has been placed on the most unknown but interesting ones: the
+momentum radial expectation values. The usefulness of the resulting general expressions
+is illustrated by their application to some classes of multidimensional hydrogenic states
+of circular and (nS)-wave character, as well as to the high-energy (Rydberg) and
+high-dimensional (pseudoclassical) states which are relevant per se and because they
+play an important role in numerous phenomena of the multidimensional quantum
+physics. Finally, we have given various not-so-well-known mathematical formalizations
+of the position-momentum Heisenberg’s uncertainty principle of the multidimensional
+quantum physics which are expressed in terms of the position an momentum expectation
+values and the entropic moments of the state’s probability density. They are fulfilled
+by the radial expectation values of the multidimensional hydrogenic system considered
+in this work.
+
+Acknowledgments
+
+This work has been partially supported by the Grant FIS2017-89349P of the Agencia
+Estatal de Investigación (Spain) and the European Regional Development Fund
+Multidimensional hydrogenic states: Position and momentum expectation values                              20
+
+(FEDER).
+
+Appendix A. Alternative D-dimensional expression for the momentum
+expectation values
+
+Here we derive an alternative expression for the general momentum expectation values
+hpα i of the D-dimensional hydrogenic states. This expression is equivalent to (42), but
+it is suffering of a double summation. We begin with Eqs. (18) and (20), obtaining
+                                                                                 !2
+                           ′2  α+D               3
+                         K n,l   Z          Γ(L +    )  Γ(n  +  l +  D   −    2)
+                hpα i = 2L+4                       2
+                        2        η         Γ(2L + 2) Γ(n + D2 − 1)
+                        Z 1                                h                      i2
+                                      α+D              D−α     (L+ 12 ,L+ 21 )
+                      ×      (1 − y)l+ 2 −1 (1 + y)l+ 2 Pn−l−1                 (y) dy, (A.1)
+                           −1
+
+where we have taken into account the following relation of the Gegenbauer and Jacobi
+polynomials [50]
+                              (2λ)n       (λ− 12 ,λ− 12 )
+               Cn(λ) (x) =              Pn                (x) .                                     (A.2)
+                             (λ + 21 )n
+Now we use the known formula for the Jacobi polynomials [100, 101]
+  Z 1                                      ∞
+                                           X
+      (1 − y)a (1 + y)b[Pn(γ,γ) (y)]2 dy =   c̃i (0, 2, n, γ, γ, a, b) ×
+    −1                                                i=0
+                                                      Z 1
+                                                                                 (a,b)
+                                              ×             (1 − y)a (1 + y)b Pi         (y) dy
+                                                       −1
+                                                                                2a+b+1 Γ(a + 1)Γ(b + 1)
+                                                 = c̃0 (0, 2, n, γ, γ, a, b)
+                                                                               a + b + 1 Γ(a + b + 1)
+with a, b > −1, and
+                                  2 X n
+                                n+a          (−n)j1 (n + 2a)j1 (−n)j2 (n + 2a)j2 (γ + 1)j1+j2
+   c̃0 (0, 2, n, a, a, γ, δ) =
+                                 n   j ,j =0
+                                                  (a + 1)j1 (a + 1)j2 j1 !j2 !  (γ + δ + 2)j1 +j2
+                                             1    2
+
+Then, the expression reduces as follows
+             α                              n−l−1
+                                               X                                
+    α         Z          Γ(l + D−α
+                                 2
+                                     + 1)                                D+α
+  hp i = 4η                                         Πi,j (n, l, D) Γ l +     +i+j ,
+              η     Γ(n + l + D − 2) Γ(n − l) i,j=0                       2
+where
+                      (−n − l + 1)i (−n − l + 1)j Γ(n + l + D − 2 + i)Γ(n + l + D − 2 + j)
+   Πi,j (n, l, D) =
+                              Γ(l + D2 + i)Γ(l + D2 + j)Γ(2l + D + 1 + i + j) i! j!
+which holds for α ∈ (−D − 2l, D + 2l + 2).
+Multidimensional hydrogenic states: Position and momentum expectation values            21
+
+Appendix B. Mean momentum of multidimensional hydrogenic states
+
+Alternatively, to calculate hpi for a generic D-dimensional hydrogenic state we can use
+the general expressions given by Eq. (18)-(19). We first put α = 1 in the previous
+expressions, obtaining
+                                     Z +1 h           i2
+                                ′            (ν)               ν
+               hpi (D, n, l) = K n,l       Cη−L−1 (t) 1 − t2 dt                   (B.1)
+                                      −1
+                                  Z
+                               Z +1 ∗ h ˜(ν)             i2       1
+                             =         ων (t) Cη−L−1 (t) 1 − t2 2 dt              (B.2)
+                               η −1
+                                  Z
+                               Z +1 h ˜(ν)         i2       ν
+                             =           Cη−L−1 (t) 1 − t2 dt                     (B.3)
+                               η −1
+with ν = L + 1 = l + D−1
+                       2
+                          , η = n + D−3
+                                     2
+                                         , k = η − L − 1 = n − l − 1, and
+                                      ′2                                             
+               ′     Z            ZKn,l            2(L+1)            2   (η − L − 1)!
+             K n,l = Kn,l = 2l+D+1 D+1 = Z 2              [Γ(L + 1)]
+                     η         2       η                                  2π(η + L)!
+                                              2                        
+                         2l+D−1           D−1              (n − l − 1)!
+                   =Z2           Γ l+                                                 (B.4)
+                                            2         2π(n + l + D − 3)!
+Then, from Eq. (B.1) one has that the mean momentum of an arbitrary state (n, l) of
+the D-dimensional hydrogenic system is given by
+              hpi (D, n, l) = K′ n,l In,l                                            (B.5)
+with the integral
+                     Z +1 h          i2
+                            (ν)             ν
+              In,l =       Cn−l−1 (t) 1 − t2 dt                                      (B.6)
+                  −1
+                 D−1
+with ν = L+1 = l+ 2 . This integral can be expressed as a double-sum expression with
+the procedure described in the previous appendix, or better by means of the single-sum
+expression (56) mentioned above. Here below, for illustration, we show the value of the
+mean momentum in these two cases for the three-dimensional (i.e., D = 3) hydrogenic
+atom.
+
+Appendix B.1. (nS) states
+In this case D = 3 and l = 0 so that ν = 1. Then, the involved integral In,l has the
+value
+                                Z +1  n               
+                           1          d             1 2
+                                                  2 −2          4n2
+               In,0 = 2n                    1 −  t       dt =         ,            (B.7)
+                        2 (n!)2 −1 dtn                        4n2 − 1
+we have, from Eqs. (B.4)-(B.7), that
+                                                     2Z 4n2
+               hpi (D = 3, n, l = 0) = K′ n,0 In,0 =                               (B.8)
+                                                      πn 4n2 − 1
+It is most interesting to remark that for the ground state (n = 1) one has the known
+exact value [22] 8Z3π
+                      , and for the highly-excited (Rydberg) S-wave states, which have
+n ≫ 1, one has the expression (34), 2Z     πn
+                                              , obtained by Aptekarev et al [68] by very
+different means, what is also a further checking of our results.
+Multidimensional hydrogenic states: Position and momentum expectation values             22
+
+Appendix B.2. Circular states
+In this case l = n − 1 so that k = 0 and ν = l + 1 = n. Then, the integral In,n−1 is
+                        Z +1
+                                    
+                                   2 n        (2n)!!      2n+1   (n!)2
+               In,n−1 =       1 − t dt = 2             =2                          (B.9)
+                         −1                 (2n + 1)!!         (2n + 1)!
+since the involved Gegenbauer polynomial collapse to unity. Here, the symbols (2n)!! =
+2 × 4 × .... × 2n and (2n − 1)!! = 1 × 3 × ..... × (2n − 1), and the constant
+                                    (n − 1)!2
+              K′ n,n−1 = Z 22n−1              .                                   (B.10)
+                                   π(2n − 1)!
+Finally, from Eqs. (B.4)-(B.5) we have
+              hpi (D = 3, n, l = n − 1) = K′ n,n−1 In,n−1                         (B.11)
+                                                       n [(n − 1)!]4
+                                        = Z 24n−1                        ,        (B.12)
+                                                   π(2n + 1)[(2n − 1)!]2
+which equals to the previous Eq. (60).
+
+Appendix C. Average inverse momentum of multidimensional hydrogenic
+states
+
+Alternatively, we can also calculate hp−1 i for a generic D-dimensional hydrogenic state
+by means of the general expressions given by Eq. (18)-(19). We first put α = −1 in the
+previous expressions, obtaining
+                                          Z +1 h       i2
+                                                  (ν)
+                p −1              ′′
+                     (D, n, l) = Kn,l (D)        Ck (t) (1 − t)ν−1 (1 + t)ν+1 dt   (C.1)
+                                           −1
+                                    Z
+                                 η +1 ∗ h ˜(ν) i2               1         3
+                               =         ων (t) Ck (t) (1 − t)− 2 (1 + t) 2 dt.    (C.2)
+                                 Z −1
+                                                                                     1
+Note that k = η − L − 1 = n − l − 1, ν = L + 1 = l + (D − 1)/2, ων∗ (t) = (1 − t2 )ν− 2 =
+           D−2                                                             (ν ′ )
+(1 − t2 )l+ 2 is the weight function of the Gegenbauer polynomials C˜k (t), and the
+constant
+                                                               
+    ′′            η       η 2 2(L+1)           2   (η − L − 1)!
+   Kn,l (D)    = Kn,l =      2       [Γ(L + 1)]
+                  Z       Z                         2π(η + L)!
+                               2
+                                                      2
+                  (2n + D − 3) 2l+D−3            D−1             (n − l − 1)!
+               =                 2       Γ l+                                     . (C.3)
+                        Z                           2       2π(n + l + D − 3)!
+Then, the average inverse momentum of an arbitrary state (n, l) of the D-dimensional
+hydrogenic system is given by
+               p−1 (D, n, l) = Kn,l
+                                ′′
+                                    (D) Jn,l(D)                                    (C.4)
+with the integral
+                         Z +1 h          i2
+                                (ν)              ν−1
+              Jn,l (D) =       Cn−l−1 (t) 1 − t2      (1 + t)2 dt                  (C.5)
+                          −1
+Multidimensional hydrogenic states: Position and momentum expectation values                        23
+
+with ν = L + 1 = l + D−1  2
+                            . The explicit solution of this value was given above by
+means of Eq. (42). This integral can be expressed as a double-sum expression with the
+procedure described in the Appendix A, or better by means of the single-sum expression
+(66) mentioned above.
+     For the three-dimensional hydrogenic atom the last two expressions lead to
+                 p−1 (D = 3, n, l) = Kn,l
+                                      ′′
+                                           (D = 3) Jn,l(D = 3)
+                                                                 Z +1 h          i2
+                                     2n  2
+                                                  2 (n − l − 1)!        (l+1)           l
+                                   =         l
+                                           (2 l!)                      Cn−l−1 (t) 1 − t2 (1 + t)2 dt
+                                     Zπ               (n + l)!    −1
+                                                                                              (C.6)
+which was previously found [19], what is a further checking of our results. For
+illustration, the application of this expression to the (nS) states allows us to obtain
+                                              Z
+                                          2n +1 h (1)       i2
+                 p −1
+                      (D = 3, n, l = 0) =           Cn−1 (t) (1 + t)2 dt
+                                          Zπ −1
+                                                                                
+                                          4n          1        2n2
+                                        =      ψ(n + ) − 2          + γ + 2 ln 2     (C.7)
+                                          Zπ          2     4n − 1
+as mentioned above, since l = 0 so that ν = 1 in this case. See [19] for further details
+about the average inverse momentum of the hydrogen atom.
+
+References
+
+ [1] S. H. Dong, Wave Equations in Higher Dimensions, Springer, Berlin, 2011.
+ [2] R. J. Yáñez, W. Van Assche, J. S. Dehesa, Phys. Rev. A 50 (1994) 3065.
+ [3] V. Aquilanti, S. Cavalli, C. Coletti, Chem. Phys. 214 (1997) 1.
+ [4] J. Avery, J. Avery, Generalized Sturmians and Atomic Spectra, World Sci. Publ., New York, 2006.
+ [5] R. A. Bonham, M. Fink, High Energy Electron Scattering, Van Nostrand Reinhold: New York,
+        1974.
+ [6] B. G. Williams (Ed), Compton Scattering: The Investigation of Electron Momentum Distributions,
+        McGraw-Hill: New York, 1977.
+ [7] A. J. Thakkar, A. M. Simas, V. H. Smith Jr., Extraction of momentum expectation values from
+        Compton profiles, Mol. Phys. 41 (1980) 1153.
+ [8] J. P. Glusker, B. K. Patterson, M. Rossi (Eds), Patterson and Pattersons, Oxford University Press:
+        New York, 1986.
+ [9] P. Coppens, X-ray Charge Densities and Chemical Bonding, Oxford University Press: New York,
+        1997.
+[10] E. Weigold, I. E. McCarthy, Electron Momentum Spectroscopy, Kluwer Academic: New York,
+        1999.
+[11] A. J. Thakkar, Adv. Chem. Phys. 128 (2004) 303.
+[12] A. J. Thakkar, Electronic structure: the momentum perspective. in: C.E. Dykstra, G. Frenking,
+        K. S. Kim, G.E. Scuseria (Eds), Theory and Applications of Computational Chemistry: The
+        First 40 Years, Amsterdam, North Holland, 2005, chapter 19, , p. 483.
+[13] A. J. Thakkar, W.A. Pedersen, Int. J. Quant. Chem.: Quant. Chem. Symp. 24, 327 (1990).
+[14] J. R, Hart, A.J. Thakkar, Int. J. Quantum Chem. 102 (2005) 673.
+[15] S. A. Blair, A.J. Thakkar, J. Chem. Phys. 141 (2014) 074306.
+[16] S. R. Gadre, R. K. Pathak, Adv. Quantum Chem., 22 (1991) 211.
+[17] N. H. March, B.M. Deb. The Single-Particle Density in Physics and Chemistry, Academic Press,
+        New York, 1987.
+Multidimensional hydrogenic states: Position and momentum expectation values                          24
+
+[18] S. Lehtola, Computational Modelling of the Electron Momentum Density, University of Helsinki:
+        Ph. D. Thesis, 2013.
+[19] R. Delbourgo, D. Elliott, J. Math. Phys. 50 (2009) 062107.
+[20] V. Aquilanti, S. Cavalli, C. Coletti, D. D. Domenico, G. Grossi, Int. Rev. Phys. Chem. 20 (2001)
+        673.
+[21] J. S. Dehesa, S. López-Rosa, D. Manzano, Entropy and complexity analysis of D-dimensional
+        quantum systems, in: K.D. Sen (Ed), Statistical Complexities: Application to Electronic
+        Structure, Springer, Berlin, 2012. Chapter 5.
+[22] J.S. Dehesa, S. López-Rosa, A. Martı́nez-Finkelshtein, R. J. Yáñez, Int. J. Quant. Chem. 110
+        (2010) 1529.
+[23] C. Coletti, D. Calderini, V. Aquilanti, Adv. Quantum Chem. 67 (2013) 73.
+[24] O. Dulieu, J. Colgan, E. Grant, E. Krishnakumar, A. Osterwalder, H. Sadeghpour, M. Vrakking,
+        J. Wu (Eds), Jubilee Issue of Hydrogen: A Fundamental System in All States, Special issue of
+        J. Phys. B 2018.
+[25] P. Harrison, Quantum Wells, Wires and Dots: Theoretical and Computational Physics of
+        Semiconductors Nanostructure, Wiley-Interscience, New York, 2005.
+[26] D. R. Herschbach, J. Avery, O. Goscinski (Eds), Dimensional Scaling in Chemical Physics, Kluwer
+        Acad. Publ., London, 1993.
+[27] C.T. Tsipis, V.S. Popov, D. R. Herschbach and J. S. Avery (Eds) New Methods in Quantum
+        Theory, Kluwer Academic Publishers, Dordrecht, 1996.
+[28] D. R. Herschbach, Int. J. Quantum Chem., 57 (1996) 295 .
+[29] K.J.B. Ghosh, S. Kais, D. R. Herschbach, Unorthodox dimensional interpolations for He, Li, Be
+        atoms and hydrogen molecule, arXiv:2004.11489v1 [quant-ph] 23 Apr. 2020
+[30] M. M. Nieto, Am. J. Phys., 47 (1979) 1067.
+[31] E. Witten, La Rivista del Nuovo Cimento 43 (2020) 187.
+[32] I. V. Toranzo, A. Martı́nez-Finkelshtein, J. S. Dehesa, J. Math. Phys., 57 (2016) 08219.
+[33] D. Puertas-Centeno, N. Temme, I.V. Toranzo, J. S. Dehesa, J. Math. Phys., 58 (2017) 103302.
+[34] I. V. Toranzo, D. Puertas-Centeno, J. S. Dehesa, J. Stat. Mech.: Theory Exp. 2018 (2018) 073203.
+[35] E. Witten, Phys. Today 33, 38 (1980).
+[36] G ’t Hooft, The quantum black hole as a hydrogen atom: Microstates Without Strings Attached.
+        arXiv:1605.05119 [gr-qc] (2016)
+[37] C. Corda, F. Feleppa, The Quantum Black Hole as a Gravitational Hydrogen Atom. Preprints
+        2018, 2018100413 (doi: 10.20944/preprints201810.0413.v3).
+[38] M. Bures, Quantum Physics With Extra Dimensions, PhD thesis, Masaryk University, 2015.
+[39] K.D. Sen (Ed), Statistical Complexity: Applications in Electronic Structure, Springer, Berlin, 2012.
+[40] S. López-Rosa, I.V. Toranzo, P. Sanchez-Moreno, J. S. Dehesa, J. Math. Physics 54 (2013) 052109.
+[41] N. Sobrino-Coll, D. Puertas-Centeno, I. V. Toranzo, J. S. Dehesa, J. Stat. Mech.: Theory and
+        Exp. 8 (2017) 083102.
+[42] F. Burgbacher, C. Lammerzahl, A. Macı́as, J. Math. Phys. 40 625 (1999).
+[43] K. Andrew, J. Supplee, Am. J. Phys. 58 (1990) 1177.
+[44] S. S. Li, J. B. Xia, Phys. Lett. A 366 (2007) 120.
+[45] R. K. Pathak, S. R. Gadre, J. Chem. Phys. 74 (1981) 5925.
+[46] A. Nagy, S. Liu, R.G. Parr, Phys. Rev. A 59 (1999) 3349.
+[47] S. Liu, R.G. Parr, Phys. Rev. A 53 (1996) 2211.
+[48] S. Liu, R.G. Parr, Phys. Rev. A 55 (1997) 1792.
+[49] J.C. Angulo, E. Romera, J.S. Dehesa, J. Math. Phys. 41 (2000) 7906.
+[50] F. W. J. Olver, D. W. Lozier, R. F. Boisvert, C. W. Clark (Eds), NIST Handbook of Mathematical
+        Functions, Cambridge University Press, New York, 2010.
+[51] V.A. Fock, Z. Physik 98 (1935) 145.
+[52] B. Podolsky and L. Pauling, Phys. Rev. 34 (1929) 109.
+[53] J.D. Hey, Am. J. Phys. 61 (1993) 28.
+Multidimensional hydrogenic states: Position and momentum expectation values                          25
+
+[54] Y. L. Luke, The Special Functions and their Approximations, Vol. 2, Academic Press, New York,
+        1969.
+[55] L.J. Slater, Generalized Hypergeometric Functions, Cambridge Univ. Press, Cambridge, 1966.
+[56] G.W.F. Drake, R.A. Swainson, Phys. Rev. A 42 (1990) 1123.
+[57] D. Andrae, J. Phys. B: At. Mol. Opt. Phys. 30 (1997) 4435.
+[58] V.F. Tarasov, Int. J. Mod. Phys. B 18 (2004) 3177.
+[59] W. Van Assche, R. J. Yáñez, R. González-Férez, J. S. Dehesa, J.Math. Phys. 41 (2000) 6600.
+[60] A. Ray, K. Mahata, P. P. Ray, Am. J. Phys. 56, (1988) 462.
+[61] T. Szymanski, J. K. Freericks, Algebraic derivation of Kramers-Pasternack relations based on the
+        Schrödinger factorization method, arXiv:2007.11158v1 [quant-ph] 22 July 2020.
+[62] J.D. Hey, Amer. J. Phys. 61 (1993) 741.
+[63] S. Lewanowicz, Math Comput. 45 (1985) 521.
+[64] W. Koepf, Hypergeometric Summation. An Algorithmic Approach to Summation and Special
+        Functions Identities. 2nd. edition, Springer, London, 2014.
+[65] W. Koepf, Computer Algebra, Power Series and Summation. In Orthogonal Polynomials, in: M.
+        Foupouagnigni, W. Koepf(Eds), AIMSVSW 2018. Tutorials, Schools, and Workshops in the
+        Mathematical Sciences. Birkhauser, Cham., 2020.
+[66] G.S. Adkins, M.F. Alam, C. Larison, R. Sun, Phys. Rev. A 101 (2020) 042511.
+[67] V.S. Buyarov, J.S. Dehesa, A. Martinez-Finklshtein, E. B. Saff, J. Approx. Theory 99 (1999) 153.
+[68] A. I. Aptekarev, J.S. Dehesa, A. Martinez-Finkelshtein, R.J. Yáñez, J. Phys. A: Math. Theor. 43
+        (2010) 145204.
+[69] R.K. Pathak, B.S. Sharma and A.J.Thakkar, J. Chem. Phys. 85 (1986) 958.
+[70] T.A. Heim, J. Phys. B: At. Mol. Opt. Phys. 27 (1994).
+[71] R. C. Shiell, Rydberg states, in: S. Wilson(Ed), Handbook of Molecular Physics and Quantum
+        Chemistry, John Wiley and Sons, New York, 2003. Part IV, pag. 423.
+[72] T. Maimbourg, J. C. Dyre, L. Costigliola, Density scaling of generalized Lennard-Jones fluids in
+        different dimensions, arXiv:1912.08176v1 [cond-mat.soft] 17 Dec 2019.
+[73] I. Daubechies, Comm. Math. Phys. 90 (1983) 511.
+[74] R. G. Parr and W. Yang, Density-Functional Theory of Atoms and Molecules, Oxford University
+        Press, Oxford, 1989.
+[75] J. C. Angulo, J. Phys. A 26 (1993) 6493.
+[76] J. C. Angulo, Phys. Rev. A 50 (1994) 311.
+[77] S. Zozor, M. Portesi, P. Sánchez-Moreno, J.S. Dehesa, Phys. Rev. A 83 (2011) 052107
+[78] G. B. Folland, A. Sitaram, J. Fourier Anal. Appl. 3 (1997) 207.
+[79] J. C. Angulo, Phys. Rev. A 83 (2011) 062102.
+[80] W. Heisenberg Z. Phys. 43 (1927) 172. Also in: J.A. Wheeler and W.H. Zurek(Eds), Quantum
+        Theory and Measurement, Princeton Univ. Press, Princeton, NJ, 1983, p. 62-84.
+[81] E. H. Kennard, Z. Phys. 44 (1927) 326.
+[82] P. Sánchez-Moreno, R. González-Férez, J. S. Dehesa, New J. Phys. 8 (2006) 330.
+[83] W. Beckner, Proc. Am. Math. Soc. 123 (1995) 1897.
+[84] J.S. Dehesa, R. González-Férez, P. Sánchez-Moreno, R. J. Yáñez, New Journal of Physics 9 (2007)
+        131.
+[85] I.V. Toranzo, S. López-Rosa, R.O. Esquivel, J.S. Dehesa, Phys. Rev. A 91 (2015) 062122.
+[86] I. Porras, F.J. Gálvez, Phys. Rev. A 41 (1990) 4052.
+[87] I. Porras, F.J. Gálvez, Int. J. Quant. Chem. 56 (1995) 763.
+[88] E. H. Lieb, Int. J. Quant. Chem. 24 (1983) 243.
+[89] D. Hundertmark, Some bound states problems in Quantum Mechanics, in: F. Gesztesy, P. Deift,
+        C. Galvez, P. Perry, W. Schlag (Eds), Spectral Theory and Mathematical Physics: A Festschrift
+        in Honor of Barry Simon 60th Birthday , Proc. Sympos. Pure Math. 76 (2007) 463.
+[90] E. H. Lieb, R. Seiringer, The Stability of Matter in Quantum Mechanics, Cambridge University
+        Press, Cambridge, 2010.
+Multidimensional hydrogenic states: Position and momentum expectation values                    26
+
+[91] J.S. Dehesa, F.J. Gálvez, I. Porras, Phys. Rev. A 40 (1989) 35.
+[92] F.J. Gálvez, J.S. Dehesa, Phys. Rev. A 35, (1987) 2384.
+[93] J. S. Dehesa, F.J. Gálvez, Phys. Rev. A 37 (1988) 3634.
+[94] I.V. Toranzo, P. Sánchez-Moreno, R.O. Esquivel, J.S. Dehesa, Chem. Phys. Lett. 614 (2014) 1.
+[95] I.V. Toranzo, S. López-Rosa, R. O. Esquivel, J. S. Dehesa, J. Phys. A: Math. Theor. 49 (2016)
+        025301.
+[96] J.C. Angulo, P. A. Bouvrie, J. Antolı́n, J. Math. Phys. 53 (2012) 043512.
+[97] A. Guerrero, P. Sánchez-Moreno, J. S. Dehesa, Phys. Rev. A 84 (2011) 042105.
+[98] I. Bialynicki-Birula, Phys. Rev. A 74, (2006) 052101.
+[99] S. Zozor, M. Portesi, C. Vignat, Physica A 387 (2008) 4800.
+[100] P. Sánchez-Moreno, A. Zarzo, J. S. Dehesa, A. Guerrero, Appl. Math. Comput. 223 (2013) 25.
+[101] H. M. Srivastava, Astrophys. Space Sci., 150 (1988) 251.
+

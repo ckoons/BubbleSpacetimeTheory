@@ -1,0 +1,1201 @@
+Submitted to Chinese Physics C
+
+Enhanced evidence of X(7200) and improved measurements of
+X(6900) parameters from a combined LHCb-ATLAS-CMS
+analysis
+Yuan Wang,1, 2, 3 Ran Li,1, 2, 3 Bin Zhong,4, 5, ∗ and Ya-Qian Wang1, 2, 3, †
+1 Department of Physics, Hebei University, Baoding 071002, China
+
+arXiv:2604.18061v2 [hep-ex] 28 May 2026
+
+2 Hebei Key Laboratory of High-precision Computation and
+
+Application of Quantum Field Theory, Baoding 071002, China
+3 Hebei Research Center of the Basic Discipline for
+
+Computational Physics, Baoding 071002, China
+4 Department of Physics and Institute of Theoretical Physics,
+
+Nanjing Normal University, Nanjing 210023, China
+5 Nanjing Key Laboratory of Particle Physics and Astrophysics, Nanjing 210023, China
+
+(Dated: May 29, 2026)
+We report stronger evidence for the X(7200) state and markedly improved measurements of the X(6900) resonance parameters based on a combined analysis of
+the di-J/ψ mass spectrum using published data from LHCb, ATLAS, and CMS.
+Through simultaneous fits to the datasets from all three experiments, we observe
+the X(6900) with overwhelming significance (> 12σ) and determine its mass and
+width with improved precision. For the X(7200), we find consistent signals across
+multiple interference models, with significances ranging from 3.7σ to 6.6σ; in the
+best-fit model (the CMS three-resonance scheme), the significance reaches 6.6σ, providing substantially stronger evidence for this state. Our results underscore the
+essential role of interference effects in fully charmed tetraquark spectroscopy and
+offer new constraints on their production mechanisms at the LHC.
+PACS numbers: 14.40.Rt, 13.25.Gv, 13.85.Hd, 12.39.Mk
+
+∗
+
+zhongb@njnu.edu.cn (Corresponding Author)
+
+†
+
+whyaqm@hbu.edu.cn (Corresponding Author)
+
+2
+I.
+
+INTRODUCTION
+
+The constituent quark model [1, 2], since its proposal by Gell-Mann and Zweig, has
+been remarkably successful in classifying hadrons and describing their spectroscopic
+properties. In the conventional picture, hadrons are categorized as mesons (q q̄) and
+baryons (qqq or q̄ q̄ q̄). However, Quantum Chromodynamics (QCD), the fundamental
+theory of strong interactions, does not forbid the existence of more complex colorsinglet structures. These states—collectively termed exotic hadrons—include glueballs,
+hybrids, and multiquark configurations (tetraquarks and pentaquarks) and have been
+the subject of intense theoretical and experimental interest for decades. The renaissance
+of hadron spectroscopy in the 21st century, driven by B-factories and the Large Hadron
+Collider (LHC), has provided compelling evidence for the existence of exotic hadrons.
+The observation of the X(3872) by the Belle Collaboration [3] marked the beginning
+of the XY Z era. Since then, numerous charmonium-like and bottomonium-like states,
+as well as multiquark states, have been reported [4–6]. Among these candidates, fully
+heavy tetraquark states, composed of four heavy quarks (QQ̄QQ̄, where Q = c, b),
+are of particular importance. Unlike XY Z states that contain light quarks, the fully
+heavy system is free from light-meson exchange and chiral dynamics, offering a pristine
+environment to probe heavy-quark interactions in the nonperturbative regime of QCD.
+The search for fully charmed tetraquarks (ccc̄c̄) has primarily focused on the di-J/ψ
+invariant mass spectrum. In 2020, the LHCb Collaboration reported a breakthrough
+observation with 9 fb−1 of proton-proton collision data collected at center-of-mass en√
+ergies s =7, 8, and 13 TeV [6]. A distinct, narrow structure, named X(6900), was
+observed around 6.9 GeV/c2 with a significance greater than 5σ. Following this discovery, the ATLAS and CMS collaborations confirmed the existence of X(6900) with data
+√
+taken at s =13 TeV, and also reported a hint of, or evidence for, another structure
+near 7.2 GeV/c2 [7, 8]. The ATLAS paper [7] reports that the X(6400) (denoted as X1
+in our model) and the X(6600) (denoted as X2 ) appear as broad enhancements near
+the di-J/ψ threshold, where nonresonant dynamics—such as coupled-channel effects [9],
+triangle singularities [10], or Pomeron exchange [11]—may contribute significantly. Consequently, these structures are not conclusively established as genuine resonances, and
+their interpretation as compact tetraquark states is less favored than that of the nar-
+
+3
+rower X(6900).
+While the existence of resonant structures in the di-J/ψ mass spectrum is now
+well established, the interpretation of these states remains controversial [12–19]. The
+measured masses and widths of X(6900) vary among experiments, owing to differences
+in background modeling and possible interference effects [6–8]. Furthermore, the nature
+of the structures in the higher-mass region, specifically around 7.2 GeV/c2 (hereafter
+referred to as X(7200)), remains less well understood. Considerations of such states date
+back to 1976 [20, 21] and have recently attracted renewed interest [22–33]. However,
+non-tetraquark interpretations of this structure have also been proposed [11, 34, 35].
+A recent CMS angular analysis [36] favors J P C = 2++ , challenging molecular models
+(which typically expect 0++ ) while supporting compact tetraquark scenarios.
+
+II.
+
+DATA SETS
+
+The LHCb Collaboration analyzed the di-J/ψ invariant-mass spectrum by describing
+the X(6900) with an independent Breit-Wigner (BW) resonance and modeling the
+background using two distinct approaches [6]:
+• A coherent fit modeling an interfering BW resonance with the non-resonant continuum yields M = 6886 ± 11 ± 11 MeV/c2 and Γ = 168 ± 33 ± 69 MeV.
+• An incoherent fit, treating wide peaks as isolated BW resonances superimposed
+on the background, yields M = 6905 ± 11 ± 7 MeV/c2 and Γ = 80 ± 19 ± 33
+MeV.
+
+This dual strategy enabled systematic studies of the resonance parameters and of their
+model dependencies.
+The ATLAS Collaboration analyzed 140 fb−1 of 13 TeV pp collision data to study
+di-J/ψ production using two models [7]:
+• Signal Interference: The coherent sum of the BW amplitudes for X(6400),
+X(6600), and X(6900): M = 6910 ± 10 ± 10 MeV/c2 , Γ = 150 ± 30 ± 10 MeV.
+
+4
+• Background Interference: The single parton scattering (SPS) background interferes with lower-mass resonances, whereas X(6900) remains isolated: M =
++20
+2
+6860 ± 30+10
+−20 MeV/c , Γ = 110 ± 50−10 MeV.
+
+The observed ∼ 50 MeV/c2 mass shift and ∼ 40 MeV width difference underscore the
+critical impact of interference modeling on resonance-parameter extraction.
+The CMS Collaboration analyzed 135 fb−1 of pp collision data and studied the di-J/ψ
+spectrum using two distinct approaches [8]:
+• Noninterfering model : Three isolated BW resonances (X(6600), X(6900), and
+X(7200)) plus a background term B(m)
+• Interference Model : A coherent sum of the three resonances with relative phases.
+The key findings demonstrate strong interference effects:
++48
+• The X(6900) mass shifts from 6927±9±4 MeV/c2 (no interference) to 6847+44
+−28 −20
+
+MeV/c2 (with interference).
++66 +25
+• The width increases from 122+24
+−21 ± 18 MeV to 191−49 −17 MeV.
+
+• The X(7200) parameters exhibit a similar model dependence.
+The ∼ 80 MeV/c2 mass shift and the factor-of-1.6 change in width highlight the
+necessity of interference modeling in all-charm spectroscopy.
+
+III.
+
+SIMULTANEOUS FITS
+
+We perform a simultaneous fit to the di-J/ψ mass spectra from LHCb, ATLAS,
+and CMS. To probe the nature of the observed resonances—particularly the X(6900)
+and X(7200) states—we implement four distinct fit hypotheses. These models incorporate different treatments of the coherent sum of BW amplitudes, reflecting different
+assumptions about inter-resonance interference. The statistical significance of each
+state (X(6900) or X(7200)) is determined by computing ∆χ2 and ∆NDF, where ∆χ2
+is the difference in χ2 and ∆NDF is the change in degrees of freedom when including
+
+5
+or excluding the resonance component in the fit. The fit function for each experiment
+combines signal components—modeled by S-wave relativistic BW amplitudes—with a
+nonresonant background. The background comprises two contributions: single-parton
+scattering (SPS) and double-parton scattering (DPS). The SPS component is modeled by an exponential function, denoted fSPS , while the DPS component, fDPS , is
+taken directly from the published results [6–8]. Consequently, fDPS already includes
+the phase-space factor and is fixed in our fit.
+The mass resolution is below 5 MeV/c2 across the full mass range for LHCb [6],
+while it ranges from 18 MeV/c2 to 29 MeV/c2 (with an average of 23 MeV/c2 ) for
+ATLAS [7], and from approximately 10 MeV/c2 at 6500 MeV/c2 to 18 MeV/c2 at
+7300 MeV/c2 for CMS [8]. Consequently, the mass-resolution effect is negligible for
+LHCb but significant for both ATLAS and CMS. The CMS resolution [37] is modeled by
+a double-Gaussian function, while the ATLAS resolution is derived from a second-order
+polynomial fit to the three available data points, as shown in Fig. 1. Mass-resolution
+effects are incorporated by convolving a Gaussian function, G(0; σ(m)), with the signal
+component of the probability density function (PDF).
+
+50
+45
+
+50
+45
+
+X
+
+40
+
+double Gaussian
+
+σ (MeV/c2)
+
+σ (MeV/c2)
+
+2nd Poly. fit
+35
+30
+25
+20
+15
+
+35
+30
+25
+20
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+6000
+
+X
+
+40
+
+6500
+
+7000
+
+7500
+
+8000
+
+2
+
+8500
+
+9000
+
+0
+
+6500
+
+7000
+
+7500
+
+8000
+
+Mdi-J/ψ (MeV/c )
+
+Mdi-J/ψ (MeV/c2)
+
+(a) ATLAS.
+
+(b) CMS.
+
+Figure 1. Mass resolutions for ATLAS and CMS.
+
+8500
+
+9000
+
+B Model II
+
+6
+A.
+
+Model I
+
+This model serves as the noninterfering baseline. The total line shape is given by:
+
+"
+fI (m) =
+
+s
+
+#
+X
+
+2
+
+cj |BWj (m; Mj , Γj )|
+
+1−
+
+×
+
+2
+4MJ/ψ
+
+j
+
+⊗ G(0; σ(m)) + B(m),
+
+m2
+
+(1)
+
+where the index j runs over X1 , X2 , X(6900), andqX(7200); cj are free parameters that
+normalize each signal represented by a BW; and
+
+1−
+
+2
+4MJ/ψ
+
+m2
+
+is the phase-space factor.
+
+The background
+B(m) accounts for contributions from SPS and DPS and is defined as
+q
+B(m) =
+
+1−
+
+2
+4MJ/ψ
+
+m2
+
+· fSPS (m) + fDPS (m). The fit result obtained under this hypothesis
+
+is shown in Fig. 2. The extracted resonance parameters of the X(6900) and X(7200)
+are summarized in Table I.
+
+200
+
+200
+
+160
+140
+
+total
+X(7200)
+X1
+
+120
+100
+80
+60
+40
+
+data
+X(6900)
+X2
+background
+
+160
+140
+
+total
+X(7200)
+X1
+
+120
+100
+80
+60
+40
+20
+
+20
+0
+
+180
+
+Events / ( 25 MeV/c2 )
+
+data
+X(6900)
+X2
+background
+
+180
+
+Events / ( 40 MeV/c2 )
+
+Events / ( 28 MeV/c2 )
+
+200
+
+6500
+
+7000
+
+7500
+
+8000
+
+8500
+
+9000
+
+0
+
+180
+160
+140
+
+data
+X(6900)
+X2
+background
+
+total
+X(7200)
+X1
+
+7500
+
+8500
+
+120
+100
+80
+60
+40
+20
+
+6500
+
+Mdi-J/ψ (MeV/c2)
+
+7000
+
+7500
+
+8000
+
+Mdi-J/ψ (MeV/c2)
+
+8500
+
+9000
+
+0
+
+6500
+
+7000
+
+8000
+
+9000
+
+Mdi-J/ψ (MeV/c2)
+
+Figure 2. Fit results (Model I) for the di-J/ψ invariant-mass distributions from LHCb (left),
+ATLAS (middle), and CMS (right). The blue solid curves show the best fits; the individual
+contributions from the resonant components (solid) and the background (dotted) are also
+displayed.
+
+B.
+
+Model II
+
+Following the LHCb Collaboration’s treatment of interference, Model II couples the
+broad structure (described by an interfering BW) to the SPS background. By contrast,
+
+C Model III
+
+7
+
+higher-mass states are modeled as isolated, noninterfering resonances:
+"
+fII (m) =
+
+p
+2
+fSPS (m) + c · eiϕ BW(m; M, Γ)
+#
+2
+
++ BWX(6900) (m) + BWX(7200) (m)
+s
+×
+
+1−
+
+2
+4MJ/ψ
+
+m2
+
+2
+
+(2)
+
+⊗ G(0; σ(m)) + fDPS (m)
+
+This configuration tests the hypothesis that the X(6900) and X(7200) are distinct,
+well-separated resonant states whose production phases are independent of the threshold enhancement. Figure 3 shows the fit results under this assumption, and Table I
+summarizes the extracted resonance parameters for both structures.
+
+200
+
+200
+
+data
+
+total
+
+160
+
+X(6900)
+
+X(7200)
+
+interference
+
+140
+
+DPS
+
+120
+100
+80
+60
+40
+
+160
+140
+
+data
+
+total
+
+X(6900)
+
+X(7200)
+
+interference
+
+DPS
+
+120
+100
+80
+60
+40
+20
+
+20
+0
+
+180
+
+Events / ( 25 MeV/c2 )
+
+180
+
+Events / ( 40 MeV/c2 )
+
+Events / ( 28 MeV/c2 )
+
+200
+
+6500
+
+7000
+
+7500
+
+8000
+
+8500
+
+9000
+
+0
+
+180
+160
+140
+
+data
+
+total
+
+X(6900)
+
+X(7200)
+
+interference
+
+DPS
+
+7500
+
+8500
+
+120
+100
+80
+60
+40
+20
+
+6500
+
+Mdi-J/ψ (MeV/c2)
+
+7000
+
+7500
+
+8000
+
+Mdi-J/ψ (MeV/c2)
+
+8500
+
+9000
+
+0
+
+6500
+
+7000
+
+8000
+
+9000
+
+Mdi-J/ψ (MeV/c2)
+
+Figure 3. Fit results (Model II) for the di-J/ψ invariant-mass distributions measured by
+LHCb (left), ATLAS (middle), and CMS (right). The solid blue curves represent the best
+fit, and the individual contributions of the resonant components and the background are also
+shown.
+
+C.
+
+Model III
+
+Model III investigates the scenario in which the three lower-mass structures (X1 ,
+X2 , and X(6900)) share a common production mechanism (e.g., as J P C = 0++ states).
+In this interpretation, spectral dips arise from destructive interference among these
+coherently coupled resonances, whereas X(7200) is treated as an incoherent component
+because its mass lies well above the threshold region, where nonresonant or multichannel
+
+D Model IV
+
+8
+
+effects are expected to dominate.
+
+
+2
+X
+2
+cj eiϕj BWj (m; Mj , Γj ) + BWX(7200) 
+fIII (m) = 
+j
+
+(3)
+
+s
+×
+
+1−
+
+2
+4MJ/ψ
+
+m2
+
+⊗ G(0; σ(m)) + B(m),
+
+where the index j runs over X1 , X2 , and X(6900). The fit result obtained under this
+hypothesis is shown in Fig. 4. The extracted resonance parameters for X(6900) and
+X(7200) are summarized in Table I.
+200
+
+200
+
+data
+
+total
+
+160
+
+interference
+
+X(6900)
+
+140
+
+X(7200)
+
+background
+
+120
+100
+80
+60
+40
+
+160
+140
+
+data
+
+total
+
+interference
+
+X(6900)
+
+X(7200)
+
+background
+
+120
+100
+80
+60
+40
+20
+
+20
+0
+
+180
+
+Events / ( 25 MeV/c2 )
+
+180
+
+Events / ( 40 MeV/c2 )
+
+Events / ( 28 MeV/c2 )
+
+200
+
+6500
+
+7000
+
+7500
+
+8000
+
+8500
+
+0
+
+9000
+
+180
+160
+140
+
+data
+
+total
+
+interference
+
+X(6900)
+
+X(7200)
+
+background
+
+120
+100
+80
+60
+40
+20
+
+6500
+
+Mdi-J/ψ (MeV/c2)
+
+7000
+
+7500
+
+8000
+
+8500
+
+9000
+
+0
+
+6500
+
+Mdi-J/ψ (MeV/c2)
+
+7000
+
+7500
+
+8000
+
+8500
+
+9000
+
+Mdi-J/ψ (MeV/c2)
+
+Figure 4. Fit results (Model III) for the di-J/ψ invariant-mass distributions from LHCb (left),
+CMS (middle), and ATLAS (right). The blue solid curves denote the best fit; individual
+contributions from the resonant components and the background are also shown.
+
+D.
+
+Model IV
+
+Model IV is motivated by the three-resonance interference model employed by
+CMS [8]. In this scenario, X1 is interpreted not as a genuine resonance, but as a
+threshold enhancement arising from nonresonant dynamics—such as coupled-channel
+effects, triangle singularities, or Pomeron exchange—which are difficult to model precisely because of large theoretical uncertainties in this energy region. Consequently, X1
+is treated as an incoherent background component, while X2 , X(6900), and X(7200)
+are allowed to interfere coherently as overlapping resonant states. This model tests
+whether X(7200) is dynamically coupled to the X(6900) structure.
+
+
+2
+X
+fIV (m) = |BWX1 |2 +
+cj · eiϕj BWj (m; Mj , Γj ) 
+j
+
+s
+×
+
+2
+4MJ/ψ
+1−
+⊗ G(0; σ(m)) + B(m),
+m2
+
+(4)
+
+D Model IV
+
+9
+
+where j ranges over X2 , X(6900), and X(7200). The fit result obtained under this
+hypothesis is shown in Fig. 5. The extracted resonance parameters for the X(6900)
+and X(7200) structures are summarized in Table I.
+200
+
+200
+
+total
+X(7200)
+X1
+
+150
+
+100
+
+50
+
+400
+
+180
+
+data
+X(6900)
+interference
+background
+
+160
+140
+
+total
+X(7200)
+X1
+
+Events / ( 25 MeV/c2 )
+
+data
+X(6900)
+interference
+background
+
+250
+
+Events / ( 40 MeV/c2 )
+
+Events / ( 28 MeV/c2 )
+
+300
+
+120
+100
+80
+60
+40
+20
+
+0
+
+6500
+
+7000
+
+7500
+
+8000
+
+8500
+
+9000
+
+0
+
+Mdi-J/ψ (MeV/c2)
+
+6500
+
+7000
+
+7500
+
+8000
+
+8500
+
+9000
+
+350
+300
+250
+
+data
+X(6900)
+interference
+background
+
+total
+X(7200)
+X1
+
+7500
+
+8500
+
+200
+150
+100
+50
+0
+
+6500
+
+Mdi-J/ψ (MeV/c2)
+
+7000
+
+8000
+
+9000
+
+Mdi-J/ψ (MeV/c2)
+
+Figure 5. Fit results (Model IV) for the di-J/ψ invariant-mass distributions measured by
+LHCb (left), ATLAS (middle), and CMS (right). The solid blue curves represent the best
+fit, and the individual contributions of the resonant components and the background are also
+shown.
+
+Table I. Fitted resonance parameters for the X(6900) and X(7200) structures are presented
+for four fit models. For each model, the mass (M ), width (Γ), and statistical significance are
+reported. The χ2 /NDF values quantify the goodness of fit for each model.
+Model
+
+I
+
+MX6900 (MeV/c2 ) 6919.27 ± 2.90+3.5
+−3.6
+ΓX6900 (MeV)
+
+70.25 ± 8.48+19.8
+−18.4
+
+Significance
+
+12.5σ
+
+II
+
+III
+
+IV
+
+6903.10 ± 4.00+9.6
+−8.9
+
+6911.61 ± 7.60+7.3
+−7.0
+
+6833.05 ± 13.98+7.3
+−7.0
+
++41.4
+165.22 ± 14.00−36.8
+112.74 ± 14.36+28.6
+−26.5
+
+161.31 ± 19.43+28.6
+−26.5
+
+13.1σ
+
+14.1σ
+
++41.8
+MX7200 (MeV/c2 ) 7269.97 ± 9.97 ± 5.0 7263.69 ± 8.59−15.3
+ΓX7200 (MeV)
+76.94 ± 25.50 ± 15.4 73.04 ± 22.85+21.8
+−19.6
+
++41.8
+7267.89 ± 10.35−15.3
+69.43 ± 21.87+20.8
+−18.6
+
++41.0
+7140.79 ± 23.94−15.0
+
+4.1σ
+
+6.5σ
+
+3.7σ
+
+6.6σ
+
+321.00/259 = 1.24
+
+299.13/261 = 1.15
+
+285.21/257 = 1.11
+
+268.87/257 = 1.05
+
+Significance
+χ2 /NDF
+
+15.6σ
+
+181.63 ± 46.95+54.3
+−48.7
+
+Table I summarizes the fitted resonance parameters of the X(6900) and X(7200)
+structures obtained under the four fit hypotheses. We observe clear variations in the
+extracted parameters across the different models, indicating a strong sensitivity of the
+fit results to the treatment of interference effects. Additionally, we account for the
+systematic uncertainties reported by all three collaborations [6–8] using a weighted
+combination approach. We treat these uncertainties as mutually independent and combine them using inverse-variance weighting, with weights determined by the reported
+statistical uncertainties.
+
+10
+
+σcomb =
+
+s
+X
+
+(wi σsys,i )2 ,
+
+i
+
+2
+1/σstat,i
+wi = P
+,
+2
+j 1/σstat,j
+
+(5)
+
+where σsys,i and σstat,i denote the systematic and statistical uncertainties for the ith
+experiment, respectively.
+
+IV.
+
+DISCUSSION AND CONCLUSION
+
+For the X(6900) state, the extracted mass ranges from 6833 to 6919 MeV/c2 across
+the four models, with Model IV yielding the lowest mass and a correspondingly larger
+width. This systematic shift indicates substantial interference effects in the X(6900) line
+shape. The signal significance exceeds 12σ in all model configurations, demonstrating
+the structure’s robustness against varying theoretical assumptions.
+The X(7200) structure displays greater model sensitivity, with both mass and width
+showing significant variations across different fit scenarios. Model IV produces the
+most pronounced deviations—a substantial downward mass shift accompanied by enlarged uncertainties. The signal significance varies from 3.7σ to 6.6σ, reflecting strong
+dependence on interference modeling. These observations necessitate a cautious interpretation of the physical origin of the X(7200).
+All four models provide an acceptable description of the data, with χ2 /NDF values
+close to unity. Among them, Model IV—which adopts the same three-resonance coherent interference scheme used by CMS [8]—yields the best fit (with a significance of
+6.6σ) and is considered the most physically representative. Moreover, the fitted relative
+phase between X(7200) and X(6900) in Model IV is ϕ = −0.79 ± 0.24 rad. This central
+value differs markedly from 0 or π, which would be expected if one of the structures
+were purely nonresonant or if the contributions were incoherent. Instead, the nontrivial phase is consistent with coherent interference between two overlapping resonant
+amplitudes, providing further support for interpreting both X(6900) and X(7200) as
+genuine resonant states. Crucially, the background level in Model IV is significantly
+reduced compared with Model III—by approximately 14% (LHCb), 19% (ATLAS),
+and 21% (CMS)—which directly enhances the signal-to-background ratio and thus the
+statistical significance.
+
+11
+The best combined fit (Model IV) yields a mass of 6833±16 MeV/c2 for the X(6900)
+and 7141±48 MeV/c2 for the X(7200). These values are in good agreement with a range
+of theoretical approaches—including lattice QCD [38], QCD sum rules [31], and quarkmodel calculations [17, 19, 39]—which predict compact cc̄cc̄ states in the 6.8–7.3 GeV/c2
+mass region. In particular, the mass of the X(6900) is consistent with expectations for
+a 1P -wave fully charmed tetraquark, while the X(7200) may correspond to a radially
+excited (2S) state, as suggested in Ref. [17]. Furthermore, our results support the
+quark-delocalization color-screening mechanism proposed in Ref. [15], which naturally
+accommodates multiple narrow tetraquark states in this energy region.
+In summary, while the fully incoherent model serves as a phenomenological baseline
+for the di-J/ψ spectrum, our analysis establishes that coherent interference effects are
+essential for a physically accurate description. These effects induce significant shifts
+in resonance parameters—particularly for the X(6900)—and enable robust characterization of the X(7200). The results highlight the critical role of interference modeling
+in resolving overlapping all-charm resonances, offering new insights into tetraquark dynamics at LHC energies.
+Acknowledgments This work was supported by the National Natural Science
+Foundation of China (NSFC) under Grant No. 12475077.
+
+[1] M. Gell-Mann, A Schematic Model of Baryons and Mesons, Phys. Lett. 8, 214 (1964).
+[2] G. Zweig, An SU(3) model for strong interaction symmetry and its breaking. Version
+2, in DEVELOPMENTS IN THE QUARK THEORY OF HADRONS. VOL. 1. 1964 1978 , edited by D. B. Lichtenberg and S. P. Rosen (1964) pp. 22–101.
+[3] S. K. Choi et al. (Belle), Observation of a narrow charmonium-like state in exclusive
+B ± → K ± π + π − J/ψ decays, Phys. Rev. Lett. 91, 262001 (2003), arXiv:hep-ex/0309032.
+[4] R. Aaij et al. (LHCb), Observation of J/ψp Resonances Consistent with Pentaquark
+States in Λ0b → J/ψK − p Decays, Phys. Rev. Lett. 115, 072001 (2015), arXiv:1507.03414
+[hep-ex].
+[5] R. Aaij et al. (LHCb), Observation of a narrow pentaquark state, Pc (4312)+ , and of twopeak structure of the Pc (4450)+ , Phys. Rev. Lett. 122, 222001 (2019), arXiv:1904.03947
+
+12
+[hep-ex].
+[6] R. Aaij et al. (LHCb), Observation of structure in the J/ψ -pair mass spectrum, Sci.
+Bull. 65, 1983 (2020), arXiv:2006.16957 [hep-ex].
+[7] G. Aad et al. (ATLAS), Observation of an Excess of Dicharmonium Events in the FourMuon Final State with the ATLAS Detector, Phys. Rev. Lett. 131, 151902 (2023),
+arXiv:2304.08962 [hep-ex].
+[8] A. Hayrapetyan et al. (CMS), New Structures in the J/ψJ/ψ Mass Spectrum in ProtonProton Collisions at s=13 TeV, Phys. Rev. Lett. 132, 111901 (2024), arXiv:2306.07164
+[hep-ex].
+[9] X.-K. Dong, V. Baru, F.-K. Guo, C. Hanhart, and A. Nefediev, Coupled-Channel Interpretation of the LHCb Double- J/ψ Spectrum and Hints of a New State Near
+the J/ψJ/ψ Threshold, Phys. Rev. Lett. 126, 132001 (2021), [Erratum: Phys.Rev.Lett.
+127, 119901 (2021)], arXiv:2009.07795 [hep-ph].
+[10] F.-K. Guo, X.-H. Liu, and S. Sakai, Threshold cusps and triangle singularities in hadronic
+reactions, Prog. Part. Nucl. Phys. 112, 103757 (2020), arXiv:1912.07030 [hep-ph].
+[11] C. Gong, M.-C. Du, Q. Zhao, X.-H. Zhong, and B. Zhou, Nature of X(6900) and its
+production mechanism at LHCb, Phys. Lett. B 824, 136794 (2022), arXiv:2011.11374
+[hep-ph].
+[12] J.-Z. Wang, D.-Y. Chen, X. Liu, and T. Matsuki, Producing fully charm structures in the
+J/ψ -pair invariant mass spectrum, Phys. Rev. D 103, 071503 (2021), arXiv:2008.07430
+[hep-ph].
+[13] H.-X. Chen, W. Chen, X. Liu, and S.-L. Zhu, Strong decays of fully-charm tetraquarks
+into di-charmonia, Sci. Bull. 65, 1994 (2020), arXiv:2006.16027 [hep-ph].
+[14] M. A. Bedolla, J. Ferretti, C. D. Roberts, and E. Santopinto, Spectrum of fully-heavy
+tetraquarks from a diquark+antidiquark perspective, Eur. Phys. J. C 80, 1004 (2020),
+arXiv:1911.00960 [hep-ph].
+[15] X. Jin, Y. Xue, H. Huang, and J. Ping, Full-heavy tetraquarks in constituent quark
+models, Eur. Phys. J. C 80, 1083 (2020), arXiv:2006.13745 [hep-ph].
+[16] M.-S. liu, F.-X. Liu, X.-H. Zhong, and Q. Zhao, Fully heavy tetraquark states and their
+evidences in LHC observations, Phys. Rev. D 109, 076017 (2024), arXiv:2006.11952 [hepph].
+
+13
+[17] F.-X. Liu, M.-S. Liu, X.-H. Zhong, and Q. Zhao, Higher mass spectra of the fully-charmed
+and fully-bottom tetraquarks, Phys. Rev. D 104, 116029 (2021), arXiv:2110.09052 [hepph].
+[18] R. Zhu, Fully-heavy tetraquark spectra and production at hadron colliders, Nucl. Phys.
+B 966, 115393 (2021), arXiv:2010.09082 [hep-ph].
+[19] J. F. Giron and R. F. Lebed, Simple spectrum of cc̄cc̄ states in the dynamical diquark
+model, Phys. Rev. D 102, 074003 (2020), arXiv:2008.01631 [hep-ph].
+[20] Y. Iwasaki, Is a State c anti-c c anti-c Found at 6.0-GeV?, Phys. Rev. Lett. 36, 1266
+(1976).
+[21] K.-T. Chao, The (cc) - ( ¯
+cc) (Diquark - Anti-Diquark) States in e+ e− Annihilation, Z.
+Phys. C 7, 317 (1981).
+[22] A. V. Berezhnoy, A. V. Luchinsky, and A. A. Novoselov, Tetraquarks Composed of 4
+Heavy Quarks, Phys. Rev. D 86, 034004 (2012), arXiv:1111.1867 [hep-ph].
+[23] J. Wu, Y.-R. Liu, K. Chen, X. Liu, and S.-L. Zhu, Heavy-flavored tetraquark states with
+the QQQ̄Q̄ configuration, Phys. Rev. D 97, 094015 (2018), arXiv:1605.01134 [hep-ph].
+[24] Y. Bai, S. Lu, and J. Osborne, Beauty-full Tetraquarks, Phys. Lett. B 798, 134930 (2019),
+arXiv:1612.00012 [hep-ph].
+[25] Z.-G. Wang, Analysis of the QQQ̄Q̄ tetraquark states with QCD sum rules, Eur. Phys.
+J. C 77, 432 (2017), arXiv:1701.04285 [hep-ph].
+[26] M. N. Anwar, J. Ferretti, F.-K. Guo, E. Santopinto, and B.-S. Zou, Spectroscopy and
+decays of the fully-heavy tetraquarks, Eur. Phys. J. C 78, 647 (2018), arXiv:1710.02540
+[hep-ph].
+[27] J.-M. Richard, A. Valcarce, and J. Vijande, String dynamics and metastability of allheavy tetraquarks, Phys. Rev. D 95, 054019 (2017), arXiv:1703.00783 [hep-ph].
+[28] A. Esposito and A. D. Polosa, A bbb̄b̄ di-bottomonium at the LHC?, Eur. Phys. J. C 78,
+782 (2018), arXiv:1807.06040 [hep-ph].
+[29] M. Karliner, S. Nussinov, and J. L. Rosner, QQQ̄Q̄ states: masses, production, and
+decays, Phys. Rev. D 95, 034011 (2017), arXiv:1611.00348 [hep-ph].
+[30] M.-S. Liu, Q.-F. Lü, X.-H. Zhong, and Q. Zhao, All-heavy tetraquarks, Phys. Rev. D
+100, 016006 (2019), arXiv:1901.02564 [hep-ph].
+[31] W. Chen, H.-X. Chen, X. Liu, T. G. Steele, and S.-L. Zhu, Hunting for exotic doubly
+
+14
+hidden-charm/bottom tetraquark states, Phys. Lett. B 773, 247 (2017), arXiv:1605.01647
+[hep-ph].
+[32] G.-J. Wang, L. Meng, and S.-L. Zhu, Spectrum of the fully-heavy tetraquark state
+QQQ̄′ Q̄′ , Phys. Rev. D 100, 096013 (2019), arXiv:1907.05177 [hep-ph].
+[33] Y. Wang and R. Zhu, Fully charm tetraquark production at hadronic collisions with
+gluon radiation effects, (2025), arXiv:2510.02085 [hep-ph].
+[34] B.-D. Wan and C.-F. Qiao, Gluonic tetracharm configuration of X(6900), Phys. Lett. B
+817, 136339 (2021), arXiv:2012.00454 [hep-ph].
+[35] J.-Z. Wang, X. Liu, and T. Matsuki, Fully-heavy structures in the invariant mass spectrum of J/ψψ(3686), J/ψψ(3770), ψ(3686)ψ(3686), and J/ψΥ(1S) at hadron colliders,
+Phys. Lett. B 816, 136209 (2021), arXiv:2012.03281 [hep-ph].
+[36] A. Hayrapetyan et al. (CMS), Determination of the spin and parity of all-charm
+tetraquarks, Nature 648, 58 (2025), arXiv:2506.07944 [hep-ex].
+[37] H. Wen, Study of Near-Threshold Structures in the J/ψJ/ψ Mass Spectrum at CMS,
+Ph.D. thesis, Nanjing Normal University, Nanjing, China (2022).
+[38] G. Yang, J. Ping, and J. Segovia, Exotic resonances of fully-heavy tetraquarks in a
+lattice-QCD insipired quark model, Phys. Rev. D 104, 014006 (2021), arXiv:2104.08814
+[hep-ph].
+[39] R. Tiwari, D. P. Rathaud, and A. K. Rai, Spectroscopy of all charm tetraquark states,
+Indian J. Phys. 97, 943 (2023), arXiv:2108.04017 [hep-ph].
+
+

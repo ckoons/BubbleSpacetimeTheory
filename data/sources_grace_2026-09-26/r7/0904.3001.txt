@@ -1,0 +1,835 @@
+                                            Complexity of D-dimensional hydrogenic systems in position and momentum spaces
+
+                                                                                  S. López-Rosa,∗ D. Manzano,† and J. S. Dehesa‡
+                                                                  Departamento de Fı́sica Atómica, Molecular y Nuclear and Instituto Carlos I de
+                                                                  Fı́sica Teórica y Computacional, Universidad de Granada, 18071-Granada, Spain
+
+
+                                                            The internal disorder of a D-dimensional hydrogenic system, which is strongly associated to the
+                                                         non-uniformity of the quantum-mechanical density of its physical states, is investigated by means
+                                                         of the shape complexity in the two reciprocal spaces. This quantity, which is the product of the
+
+
+
+
+arXiv:0904.3001v2 [quant-ph] 16 Sep 2009
+                                                         disequilibrium or averaging density and the Shannon entropic power, is mathematically expressed
+                                                         for both ground and excited stationary states in terms of certain entropic functionals of Laguerre
+                                                         and Gegenbauer (or ultraspherical) polynomials. We emphasize the ground and circular states,
+                                                         where the complexity is explicitly calculated and discussed by means of the quantum numbers and
+                                                         dimensionality. Finally, the position and momentum shape complexities are numerically discussed
+                                                         for various physical states and dimensionalities, and the dimensional and Rydberg energy limits as
+                                                         well as their associated uncertainty products are explicitly given. As a byproduct, it is shown that
+                                                         the shape complexity of the system in a stationary state does not depend on the strength of the
+                                                         Coulomb potential involved.
+
+
+                                                         Accepted in physica A
+
+
+
+
+                                           ∗ Electronic address: slopez@ugr.es
+                                           † Electronic address: manzano@ugr.es
+                                           ‡ Electronic address: dehesa@ugr.es
+                                                                                                                        2
+
+                                                I.   INTRODUCTION
+
+
+  The hydrogenic system (i.e., a negatively-charged particle moving around a positively-charged core which electro-
+magnetically binds it in its orbit) with dimensionality D ≥ 1, plays a central role in D-dimensional quantum physics
+and chemistry [1, 2]. It includes not only a large variety of three-dimensional physical systems (e.g., hydrogenic
+atoms and ions, exotic atoms, antimatter atoms, Rydberg atoms,) but also a number of nanoobjects so much useful
+in semiconductor nanostructures (e.g., quantum wells, wires and dots) [3, 4] and quantum computation (e.g., qubits)
+[5, 6]. Moreover it has a particular relevance for the dimensional scaling approach in atomic and molecular physics [1]
+as well as in quantum cosmology [7] and quantum field theory [8, 9]. Let us also say that the existence of hydrogenic
+systems with non standard dimensionalities has been shown for D < 3 [4] and suggested for D > 3 [10]. We should
+also highlight the use of D-dimensional hydrogenic wavefunctions as complete orthonormal sets for many-body prob-
+lems [11, 12] in both position and momentum spaces, explicitly for three-body Coulomb systems (e.g. the hydrogen
+molecular ion and the helium atom); generalizations are indeed possible in momentum-space orbitals as well as in
+their role as Sturmians in configuration spaces.
+  The internal disorder of this system, which is manifest in the non-uniformity quantum-mechanical density and in
+the so distinctive hierarchy of its physical states, is being increasingly investigated beyond the root-mean-square or
+standard deviation (also called Heisenberg measure) by various information-theoretic elements; first, by means of the
+Shannon entropy [13, 14, 15] and then, by other individual information and/or spreading measures as the Fisher
+information and the power and logarithmic moments [16], as it is described in Ref. [17] where the information theory
+of D-dimensional hydrogenic systems is reviewed in detail. Just recently, further complementary insights have been
+shown to be obtained in the three-dimensional hydrogen atom by means of composite information-theoretic measures,
+such as the Fisher-Shannon and the shape complexity [18, 19]. In particular, Sañudo and Lopez-Ruiz [18] have found
+some numerical evidence that, contrary to the energy, both the Fisher-Shannon measure and the shape complexity
+in the position space do not present any accidental degeneracy (i.e. they do depend on the orbital quantum number
+l); moreover, they take on their minimal values at the circular states (i.e., those with the highest l). In fact, the
+position Shannon entropy by itself has also these two characteristics as it has been numerically pointed out long ago
+[13], where the dependence on the magnetic quantum number is additionally studied for various physical states.
+  The shape complexity [20] occupies a very special position not only among the composite information-theoretic
+measures in general, but also within the class of measures of complexity. This is because of the following properties: (i)
+invariance under replication, translation and rescaling transformations, (ii) minimal value for the simplest probability
+densities (namely, e.g. uniform and Dirac’s delta in one-dimensional case), and (iii) simple mathematical structure:
+it is given as the product of the disequilibrium or averaging density and the Shannon entropy power of the system.
+  In this work we provide the analytical methodology to calculate the shape complexity of the stationary states
+of the D-dimensional hydrogenic system in the two reciprocal position and momentum spaces and later we apply
+it to a special class of physical states which includes the ground state and the circular states (i.e. states with the
+                                                                                                                            3
+
+highest hyperangular momenta allowed within a given electronic manifold). First, in Section 2, we briefly describe
+the known expressions of the quantum-mechanical density of the system in both spaces. In Section 3 we show that
+the computation of the two shape complexities for arbitrary D-dimensional hydrogenic stationary states boils down
+to the evaluation of some entropic functionals of Laguerre and Gegenbauer polynomials. To have the final expressions
+of these complexity measures in terms of the dimensionality D and the quantum numbers characterizing the physical
+state under consideration, we need to compute the values of these polynomial entropic functionals what is, in general,
+a formidable open task. However, in Section 4, we succeed to do it for the important cases of ground and circular
+states. It seems that for the latter ones the shape complexity has the minimal values, at least in the three-dimensional
+case as indicated above. It is also shown that our results always fulfil the uncertainty relation satisfied by the position
+and momentum shape complexities [19]. In Section V, the shape complexities are numerically studied and their
+dimensionality dependence is discussed. Finally, some conclusions are given.
+
+
+
+           II.   THE D-DIMENSIONAL HYDROGENIC QUANTUM-MECHANICAL DENSITIES
+
+
+  Let us consider an electron moving in the D-dimensional Coulomb (D ⩾ 2) potential V (~r) = − Zr , where ~r =
+(r, θ1 , θ2 , ..., θD−1 ) denotes the electronic vector position in polar coodinates. The stationary states of this hydrogenic
+system are described by the wavefunctions
+
+                                         Ψn,l,{µ} (~r, t) = ψn,l,{µ} (~r) exp (−iEn t) ,
+                   
+where En , Ψn,l,{µ} denote the physical solutions of the Schrödinger equation of the system [1, 2, 17]. Atomic units
+(ℏ = e = me = 1) are used throughout the paper. The energies are given by
+
+                                       Z2                                  D−3
+                                E=−         ,       with           η =n+       ;          n = 1, 2, 3, ...,               (1)
+                                       2η 2                                 2
+
+and the eigenfunctions can be expressed as
+
+                                            Ψn,l,{µ} (~r) = Rn,l (r)Yl,{µ} (ΩD−1 ),                                       (2)
+
+where (l, {µ}) ≡ (l ≡ µ1 , µ2 , ..., µD−1 ) ≡ (l, {µ}) denote the hyperquantum numbers associated to the angular variables
+ΩD−1 ≡ (θ1 , θ2 , ..., θD−1 ≡ ϕ), which may have all values consistent with the inequalities l ≡ µ1 ≥ µ2 ≥ ... ≥ |µD−1 | ≡
+|m| ≥ 0. The radial function is given by
+                                                 −D 1/2             1/2
+                                                 λ          ω2L+1 (r̂)
+                                     Rn,l (r) =                             L̃2L+1
+                                                                              η−L−1 (r̂),                                 (3)
+                                                  2η          r̂D−2
+
+where L̃α
+        k (x) denotes the Laguerre polynomials of degree k and parameter α, orthonormal with respect to the weight
+
+function ωα (x) = xα e−x , and the grand orbital angular momentum hyperquantum number L and the adimensional
+parameter r̂ are
+
+                                 D−3                                                r                          η
+                        L=l+         ,          l = 0, 1, 2, ...     and     r̂ =     ,       with       λ=      .        (4)
+                                  2                                                 λ                         2Z
+                                                                                                                       4
+
+  The angular part Yl,{µ} (ΩD−1 ) is given by the hyperspherical harmonics [2, 21]
+                                                     D−2
+                                               1     Y α +µ
+                             Yl,{µ} (ΩD−1 ) = √ eimϕ     C̃µjj−µj+1
+                                                                j+1
+                                                                    (cos θj ) (sin θj )µj+1 ,                        (5)
+                                               2π    j=1
+
+
+with αj = 21 (D − j − 1) and C̃kλ (x) denotes the orthonormal Gegenbauer polynomials of degree k and parameter λ.
+  Then, the quantum-mechanical probability density of the system in position space is
+
+                                                                2      2                     2
+                                ρn,l,{µ} (~r) = Ψn,l,{µ} (~r)       = Rn,l (r) Yl,{µ} (ΩD−1 ) ,                      (6)
+
+  In momentum space the eigenfunction of the system is [2, 17, 22, 23]
+
+                                            Ψ̃nl{µ} (~
+                                                     p) = Mn,l (p)Yl{µ} (ΩD−1 ),                                     (7)
+
+where the radial part is
+
+                                                           (η p̃)l                 1 − η 2 p̃2
+                                                η D/2                                       
+                                         L+2                             L+1
+                           Mn.l (p) = 2                               C̃                                             (8)
+                                            Z        (1 + η 2 p̃2 )L+2 η−L−1 1 + η 2 p̃2
+                                       η D/2                      D−2
+                                                              1+y      4
+                                                                               1/2      L+1
+                                    =          (1 + y) 3/2
+                                                                           ω ∗ L+1 (y)C̃η−L−1    (y),
+                                        Z                     1−y
+                2 2
+with y = 1−η   p̃           p
+         1+η 2 p̃2 and p̃ = Z (here the electron momentum p is assumed to be expressed in units of pµ , where
+                                                                                                  2
+      µr
+pµr = m e
+          p0 = µr m.a.u, since me = 1 and the momentum atomic unit is p0 = a~0 = me~e ; µr is the reduced mass of
+                          α
+the system). The symbol C̃m (x) denotes the Gegenbauer polynomial of order k and parameter α orthonormal with
+                                                  1
+respect to the weight funciont ωα∗ = (1 − x2 )α− 2 on the interval [−1, +1]. The angular part is again an hyperspherical
+harmonic as in the position case, but with the angular variables of the vector p~. Then, one has the following expression
+                                                           2                            2
+                                                               = M2n,l (p) Yl{µ} (ΩD−1 )
+                                                                          
+                                    γ(~
+                                      p) = Ψ̃n,l,{µ} (~
+                                                      p)                                                             (9)
+
+for the quantum-mechanical probability density of the system in momentum space.
+
+
+
+         III.   THE SHAPE COMPLEXITY OF THE D-DIMENSIONAL HYDROGENIC SYSTEM
+
+
+  Here we describe the methodology to compute the position and momentum shape complexity of our system in an
+arbitrary physical state characterized by the hyperquantum numbers (η, µ1 , ..., µD−1 ). We show that the calculation
+of the position and momentum hydrogenic shape complexities ultimately reduce to the evaluation of some entropic
+functionals of Laguerre and Gegenbauer polynomials.
+
+
+
+                                                       Position space
+
+
+  The shape complexity C [ρ] of the position probability density ρ (~r) is defined [20] as
+
+                                                   C [ρ] = hρi exp (S [ρ]) ,                                        (10)
+                                                                                                                  5
+
+where
+                                                                        Z
+                                                            hρi =            ρ2 (~r) d~r                       (11)
+
+and
+                                                                    Z
+                                                   S [ρ] = −             ρ (~r) ln ρ (~r) d~r                  (12)
+
+denote the first-order frequency moment (also called averaging density or disequilibrium, among other names) and the
+Shannon entropy of ρ (~r), respectively. Then, this composite information-theoretic quantity measures the complexity
+of the system by means of a combined balance of the average height (as given by hρi) and the total bulk extent (as
+given by S [ρ]) of the corresponding quantum-mechanical probability density ρ (~r).
+  Let us first calculate hρi. From (2) and (11) one obtains that
+
+                                                   2D−2 D
+                                           hρi =         Z K1 (D, η, L) K2 (l, {µ}) ,                          (13)
+                                                   η D+2
+
+where
+                                                   Z ∞                           h           i2 2
+                                                            −D−5                     2L+1
+                                K1 (D, η, L) =              x            ω2L+1 (x) L̃η−L−1 (x)      dx         (14)
+                                                    0
+
+and
+                                                                Z
+                                                                                           4
+                                           K2 (l, {µ}) =                Yl{µ} (ΩD−1 ) dΩD−1                    (15)
+                                                                  Ω
+
+  The Shannon entropy of ρ (~r) has been recently shown [24] to have the following expression
+
+                                                                            
+                                                   S [ρ] = S [Rnl ] + S Yl{µ} ,                                (16)
+
+with the radial part
+                                                        Z ∞
+                                    S [Rn,l ] = −               rD−1 Rn,l
+                                                                      2            2
+                                                                          (r) log Rn,l dr
+                                                        0
+                                                                             1   h       i
+                                                 = A(n, l, D) +                E1 L̃2L+1
+                                                                                    η−L−1 − D ln Z             (17)
+                                                                            2η
+
+and the angular part
+                                             Z                                   ′   2
+                                                                    2
+                          S Yl,{µ} = −                  Yl,{µ} (ΩD−1 ) ln Yl,{µ} ΩD−1    dΩD−1
+                                              SD−1
+                                                                    D−2       h           i
+                                                                                 α +µj+1
+                                                                    X
+                                         = B(l, {µ} , D) +                  E2 C̃µjj−µj+1   ,                  (18)
+                                                                    j=1
+
+where A(n, l, D) and B(l, {µ} , D) have the following values
+
+                                                                     3η 2 − L(L + 1)
+                                                                                          D−1 
+                                        2η − 2L − 1                                         2
+                 A(n, l, D) = −2l                   + ψ(η + L + 1) +                 + − ln D+1 ,
+                                            2η                              η               η
+                                                                                                                     6
+
+and
+                                                 D−2
+                                                 X
+                     B(l, {µ} , D) = ln 2π − 2         µj+1
+                                                 j=1
+                                                                                                         
+                                                                                                   1
+                                     × ψ(2αj + µj + µj+1 ) − ψ(αj + µj ) − ln 2 −                           ,
+                                                                                              2(αj + µj )
+                ′
+with ψ(x) = ΓΓ(x)
+               (x)
+                   is the digamma function. The entropic functionals Ei [ỹn ], i = 1 and 2, of the polynomials {ỹn },
+orthonormal with respect to the weight function ω(x), are defined [14, 25] by
+                                                        Z ∞
+                                        E1 [ỹn ] = −          xω(x)ỹn2 (x) ln ỹn2 (x)dx,                       (19)
+                                                          0
+
+and
+                                                        Z +1
+                                        E2 [ỹn ] = −           ω(x)ỹn2 (x) ln ỹn2 (x)dx,                       (20)
+                                                          −1
+
+respectively.
+  Finally, from Eqs. (10), (13) and (16)-(18), we obtain the following value for the position shape complexity of our
+system:
+
+                                   2D−2
+                              C [ρ] =    K1 (D, η, L) K2 (L, {µ})                                          (21)
+                                   η D+2
+                                                                                     
+                                                         1    h       i
+                                  × exp A(n, l, D) + E1 L̃2L+1
+                                                                                    
+                                                                η−L−1   + S   Yl,{µ}    ,
+                                                        2η
+                                                            
+where the entropy of the hyperspherical harmonics S Yl,{µ} , given by Eq. (18), is controlled by the entropy of
+                          h i
+Gegenbauer polynomials E2 C̃kα defined by Eq. (20). It is important to remark that the position complexity C [ρ]
+does not depend on the strength of the Coulomb potential, that is, on the nuclear charge Z.
+
+
+
+                                                      Momentum space
+
+
+  The shape complexity C [γ] of the momentum probability density γ (~p) is given by
+
+                                                  C [γ] = hγi exp (S [γ]) ,                                       (22)
+
+where the momentum averaging density hγi can be obtained from Eq. (9) as follows:
+
+
+
+                                                          24L+8 η D
+                                        Z
+                                hγi =       γ 2 (~
+                                                 p) d~
+                                                     p=             K3 (D, η, L) K2 (l, {µ}) ,                    (23)
+                                                            ZD
+
+with K2 is given by Eq. (15), and K3 can be expressed as
+                                                 Z ∞                                       4
+                                                          y 4l+D−1                 1 − y2
+                                                                       
+                                                                            L+1
+                               K3 (D, η, L) =                            C̃η−L−1 (        )   dy                  (24)
+                                                  0     (1 + y 2 )4L+8             1 + y2
+                                                                                                                     7
+
+  On the other hand, the momentum Shannon entropy S [γ] can be calculated in a similar way as in the position
+case. We have obtained that
+                                          Z
+                                                                                     
+                              S [γ] = −       γ (~
+                                                 p) ln γ (~
+                                                          p) d~
+                                                              p = S [Mnl ] + S Yl,{µ}
+                                                      h        i
+                                                         L+1
+                                                                                   
+                                    = F (n, l, D) + E2 C̃η−L−1   + D ln Z + S Yl,{µ} ,                             (25)
+
+where F (n, l, D) has been found to have the value
+                                                      ηD
+                              F (n, l, D) = − ln       − (2L + 4) [ψ(η + L + 1) − ψ(η)]
+                                                 22L+4                        
+                                                L+2                 2η(2L + 1)
+                                              +     − (D + 1) 1 −                                                  (26)
+                                                 η                    4η 2 − 1
+  Then, from Eqs. (22), (23) and (25) we finally have the following value for the momentum shape complexity
+
+                               C [γ] = 24L+8 η D K3 (D, η, L) K2 (L, {µ})                                          (27)
+                                             n                 h
+                                                                  L+1
+                                                                         i           o
+                                       × exp F (n, l, D) + E2 C̃η−L−1      + S Yl,{µ}
+
+  Notice that, here again, this momentum quantity does not not depend on the nuclear charge Z. Moreover the
+                                                                                                      h i
+momentum complexity C [ρ] is essentially controlled by the entropy of the Gegenbauer polynomials E2 C̃kα , since
+                                               
+the entropy of hyperspherical harmonics S Yl,{µ} reduces to that of these polynomials according to Eq. (18).
+
+
+
+                  IV.   SHAPE COMPLEXITIES OF GROUND AND CIRCULAR STATES
+
+
+  Here we apply the general expressions (21) and (27) found for the position and momentum shapes complex-
+ities of an arbitrary physical state of the D-dimensional hydrogenic system, respectively, to the ground state
+(n = 1, µi = 0, ∀i = 1...D − 1) and to the circular states. A circular state is a single-electron state with the high-
+est hyperangular momenta allowed within a given electronic manifold, i.e. a state with hyperangular momentum
+quantum numbers µi = n − 1 for all i = 1, ..., D − 1.
+
+
+
+                                                           Ground state
+
+
+  In this case η − L − 1 = 0, so that the Laguerre polynomial involved in the radial wavefunction is a constant. Then,
+the probability density of the ground state in position space given by Eqs. (3), (5) and (6) reduces as follows:
+                                                       D
+                                                    2Z            1        − 4Z r
+                                    ρg.s. (~r) =             D−1         e D−1 ,                                  (28)
+                                                   D−1     π 2 Γ 2  D+1
+
+
+which has been also found by various authors (see e.g. [1, 2]).
+  The expressions (13)-(15), which provide the averaging density of arbitrary quantum-mechanical state, reduce to
+the value
+                                                             ZD         1
+                                              hρg.s. i =          D D−1                                            (29)
+                                                           (D − 1) π 2 Γ D+1
+                                                                             
+                                                                            2
+                                                                                                                   8
+
+for the ground-state averaging density. Moreover, the angular part of the entropy is
+
+                                                                2π D/2
+                                                    S Y0,{0} = ln       ,                                      (30)
+                                                                  Γ D 2
+
+so that it is equal to ln 2π and ln 4π for D = 2 and 3, respectively. Then, the formulas (16)-(20) of the Shannon
+entropy of arbitrary physical state of our system simplify as
+
+                                                (D − 1)D D−1
+                                                                  
+                                                                D+1
+                              S [ρg.s. ] = ln           π 2 Γ          + D − D ln Z                             (31)
+                                                   2D            2
+
+for the ground-state Shannon entropy. Finally, from Eq. (21) or from its own definition together with (29)-(31) we
+obtain that the position shape complexity of D-dimensional hydrogenic ground state has the value
+                                                                        e D
+                                                       C [ρg.s. ] =                                             (32)
+                                                                           2
+
+  In momentum space we can operate in a similar manner. First we have seen that the ground-state probability
+density is
+                                                                 D+1
+                                                 (D − 1)D Γ
+                                                                       
+                                                                  2                     1
+                                   γg.s. (~
+                                          p) =             D+1                                   D+1 ,         (33)
+                                                     ZDπ
+                                                                                        2
+                                                            2
+                                                                               1 + (D−1)
+                                                                                     4     p̃2
+
+which has been also given by Aquilanti et al [23], among others. Then, we have found the values
+                                                     D
+                                                          1 Γ2 D+1      Γ 2 + 3D
+                                                                               
+                                             2D − 2                2           2
+                                hγg.s. i =                D+2                                                   (34)
+                                                Z       π 2       Γ (2D + 2)
+
+for the momentum averaging density, and
+                                          D+1                                      
+                                         π 2                                    D
+                    S [γg.s. ] = ln              D+1
+                                                      + (D + 1) ψ(D + 1) − ψ     + 1 + D ln Z                  (35)
+                                    (D − 1)D Γ    2
+                                                                                2
+
+for the momentum Shannon entropy, directly from Eq. (29) or from Eqs. (23)-(24) and (25)-(26), respectively. Finally.
+from Eq. (27) or by means of Eqs. (34)-(35) we have the following value
+
+                                 2D Γ D+1      Γ 2 + 3D
+                                                                                     
+                                          2           2                               D+2
+                    C [γg.s. ] =                          exp (D + 1) ψ (D + 1) − ψ                             (36)
+                                     π 1/2 Γ (2D + 2)                                  2
+
+for the ground-state D-dimensional hydrogenic shape complexity in momentum space. In particular, this quantity
+has the values
+
+                                                                 2e3/2
+                                                 C2 (γg.s. ) =         = 1.7926
+                                                                   5
+
+                                                                  66
+                                                 C3 (γg.s. ) =         = 2.3545
+                                                                 e10/3
+
+                                                                 e35/12
+                                                 C4 (γg.s. ) =          = 3.0799
+                                                                   6
+
+for the hydrogenic system with dimensionalities D = 2, 3 and 4, respectively. Let us here mention that the three-
+dimensional value agrees with that calculated in [20].
+                                                                                                                                9
+
+                                                                Circular states
+
+
+  Following a parallel process with circular states, we have obtained
+
+                                                    2D+2−2n Z D                        r
+                                                                                            r 2n−2 D−2
+                                                                                                                   2n−2
+                                                                                                     Y
+                    ρc.s. (~r) =       D−1                                       e− λ                     (sin θj )
+                                   π    2    (2n + D − 3)D Γ(n)Γ n +        D−1             λ       j=1
+                                                                                2
+
+for the position probability density, and
+                                                                                                    D−2
+                                   22n−2 (2n + D − 3)D Γ n + D−1
+                                                                            
+                                                              2                     (ηp/Z)2n−2      Y                  2n−2
+                    γc.s. (~
+                           p) =                       D+1                             2 2                  (sin θj )
+                                                ZDπ    2    Γ(n)                (1 + ηZp2 )2n+D−1 j=1
+
+for the momentum probability density of a D-dimensional hydrogenic circular state with the principal quantum number
+n. Moreover, we have found the values
+
+                                                             Z D Γ n − 21 Γ 2n + D−3
+                                                                                    
+                                                                                  2
+                                       hρc.s. i =           D                                                                 (37)
+                                                    22n−2 π 2 (2n + D − 3)D Γ (n) Γ2 n + D−1
+                                                                                                      
+                                                                                          2
+
+and
+
+                                        24n+D−4 (2n + D − 3)D Γ2 n + D−1   Γ (2n − 1) Γ 2n + 3D
+                                                                                               
+                                                                      2                       2
+                         hγc.s. i =                              D+2                                                          (38)
+                                                         Z Dπ     2    Γ2 (n) Γ (4n + 2D − 2)
+for the position and momentum averaging densities of our system. On the other hand, we have also been able to
+express the position and momentum entropies as
+                                                                           
+                                                                        D−1
+                         S [ρc.s. ] = 2n + D − 2 − (n − 1) ψ(n) + ψ n +         − D ln 2                                      (39)
+                                                                         2
+                                                                            
+                                                            D−1          D−1
+                                        + ln (2n + D − 3)D π 2 Γ(n)Γ n +          − D ln Z
+                                                                           2
+
+and
+                                                                   "        D+1
+                                                                                       #
+                                                                  2D+1 Z D π 2 Γ(n)
+                                    S [γc.s. ] = A(n, D) + ln                          ,                                     (40)
+                                                              (2n + D − 3)D Γ n + D−1
+                                                                                    2
+
+where the constant A(n, D) is given by
+
+                                       2n + D − 1    D+1
+                     A(n, D) =                    −          − (n − 1)ψ(n)
+                                       2n + D − 3 2n + D − 2
+                                                                                
+                                             D+1         D−2             D−1       D−3
+                                         −          ψ n+          + n+        ψ n+                                            (41)
+                                               2            2              2        2
+
+  Finally, from Eqs. (37)-(40) or from Eqs. (21) and (27) we have the values
+
+                                     Γ n − 21 Γ 2n + D−3
+                                                         
+                                                       2
+                        C [ρc.s. ] = 2n+D−2 1/2
+                                            π Γ n + D−1
+                                                           
+                                    2                   2
+                                                                              
+                                                                             D−1
+                                    × exp 2n + D − 2 − (n − 1) ψ(n) + ψ n +                                                   (42)
+                                                                              2
+
+and
+
+                                      24n+2D−3 Γ n + D−1     Γ(2n − 1)Γ 2n + 3D
+                                                                               
+                                                        2                     2
+                         C [γc.s. ] =                                             exp [A(n, D)]                               (43)
+                                               π 1/2 Γ(n)Γ(4n + 2D − 2)
+                                                                                                                         10
+
+                                    40
+                             C(ρ)   35
+                                    30
+                                    25                                           n=1
+                                    20
+                                                                                        n=2
+                                    15
+                                    10
+                                                                                        n=3
+                                      5
+                                      0
+                                          2        4          6          8         10         12
+                                                                   D
+
+
+FIG. 1: Variation of the shape complexity in position space with the dimension D for three circular states. Atomic units are
+used.
+
+
+for the position and momentum shape complexity of a D-dimensional hydrogenic system in an arbitrary circular state.
+It is worthwhile remarking for checking purposes that Eqs. (42) and (43) reduce to Eqs. (32) and (36) in case that
+n = 1, respectively, as expected; in this sense we have to use the two following properties of the digamma function:
+ψ (2z) = 21 ψ (z) + ψ z + 21 + ln 2 and ψ (z + 1) = ψ (z) + 1z .
+                           
+
+
+
+                           V.   NUMERICAL STUDY AND PHYSICAL DISCUSSION
+
+
+  Here we discuss the general complexity expressions obtained in the previous Section in terms of (a) the dimension-
+ality for a given circular state (i.e., for fixed n), and (b) the principal quantum number n for a given dimensionality.
+  Let us begin with the dimensional analysis of the position and momentum complexities, CD [ρc.s. ] and CD [γc.s. ],
+given by Eqs. (42) and (43), respectively. The resulting position complexity as a function of the dimensionality is
+drawn at Figure 1 for the ground state (n=1) and the circular states with n = 2 and 3. It shows a parabolic growth
+                                                                                                      2
+for all states when D is increasing, being always greater than unity; the minimum value of C [ρ] is 2e = 1.847, what
+occurs for D = 2.
+                                                                             3
+  The shape of the momentum complexity (whose minimum value 52 e 2 = 1.793 corresponds to the case n = 1 and
+D = 2) appears to have a strong ressemblance with the position one, mainly because the two ingredients of each
+complexity have opposite behaviours when D varies. This is shown in Figure 2, where the Shannon entropies S [ρ]
+and S [γ] as well as the logarithmic values of the position and momentum values of the disequilibrium are plotted
+for the ground state in terms of D. Keep in mind that C [ρ] = exp (S [ρ] + ln hρi) in position space and a similar
+form in momentum space. We observe that the Shannon entropies and the disequilibrium logarithmic measures have
+opposite behaviours in the two reciprocal spaces, so that the combined exponential effect which gives rise to the
+corresponding complexities is very similar qualitatively and almost quantitatively. Moreover, it happens that, for
+a given dimensionality, the relative contribution of the disequilibrium (entropic power) is smaller than that of the
+                                                                                                                                                        11
+
+
+                                                60
+
+                                                40                                  S[ρ]
+
+                                                20
+                                                                                                        ln <γ>
+                                                 0
+                                                                                                        S[γ]
+                                                -20
+                                                                                    ln <ρ>
+                                                -40
+
+                                                -60
+                                                      2        4         6         8              10         12       14           16
+                                                                                           D
+
+
+FIG. 2: Ground state Shannon entropy (S(ρ), S(γ)) and disequilibrium (hρi, hγi) in position and momentum spaces as a
+function of the dimension D. Atomic units are used.
+
+
+                 5
+                                                                                  r ρ(r)
+          C(ρ)                                                                              0.2        n=1                     Case D=2
+                 4
+                                                                                           0,15
+
+                 3
+                                     D=15
+                                                                                            0.1
+
+                 2
+                                   D=5                                                     0.05                n=2
+                         D=2                                                                                                            n=3
+                 1
+                     0         2    4       6     8       10   12   14       16                   0      2        4   6        8        10    12   14
+                                                  n                                                                        r
+
+FIG. 3: Variation of the position shape complexity of circular states with the principal quantum number n for various dimen-
+sionalities. (Right) Radial probability density in position space for various two-dimensional circular states.
+
+
+entropic power (disequilibrium) in position (momentum) space. This indicates that the relative contribution of the
+bulk extent of the position (momentum) probability density is more (less) powerful than its average height.
+  In addition, from Figure 1, we observe that the inequalities
+
+                                                 CD [ρc.s. ; n = 3] < CD [ρc.s. ; n = 2] < CD [ρg.s. ]
+
+are fulfilled in position space, and similarly in momentum space. This decreasing phenomenon of the complexity
+for the circular states when the quantum number n is increasing, can be more clearly observed in the left graph of
+Figure 3 where the values of position complexity for the states with n = 1-15 are given at the dimensionalities D = 2,
+5 and 15. Therein we remark that when the quantum number n is increasing, the radial density behaves so that
+its maximum height decreases and its spreading increases at different rates in such a way that it overall occurs the
+phenomenon pointed out by this chain of inequalities; namely, the larger n is, the smaller is the shape complexity of
+the corresponding circular state.
+  These dimensional and energetic (quantum number n) behaviours of the position complexity turn out to be a
+                                                                                                                      12
+
+delicate overall balance of the average height and the bulk spreading of the system given by its two information-
+theoretic ingredients: the disequilibrium hρi and the Shannon entropic power, respectively.
+  Now we would like to find the dimensional (i.e., when D → ∞) limit, and the high energy or Rydberg (n → ∞) limit
+of the position and momentum complexities of our system. The former one plays a relevant role in the dimensional
+scaling methods in atomic and molecular physics [1], and the latter one for the Rydberg states which lie down at
+the region where the transition classical-quantum takes place. The large D limit is closed to (but not the same) the
+conventional classical limit obtained by ~ → 0 for a fixed dimension [1].
+                                                             2
+                                                           Z
+  For the ground state, whose energy is Eg.s. = −2 D−1           , the position complexity is, according to Eq. (32),
+                 D
+CD [ρg.s. ] = 2e . So that at the pseudoclassical limit, in which the electron is located at a fixed radial distance, the
+                
+
+energy vanishes while the position complexity diverges. In momentum space, the shape complexity given by Eq. (36)
+has the following behaviour
+                                                             3
+                                                           3 2 (D−1)
+                                           C [γg.s. ] ∼          3√ ,            D→∞                                (44)
+                                                          22D− 2 e
+
+for the pseudoclassical limit.
+  A similar asymptotic analysis of Eq. (42) has allowed us to find the following values for the position shape complexity
+of a general circular state (characterized by the quantum number n)
+                                                                       1
+                                                                         
+                                                       (1−n)ψ(n) Γ n − 2
+                                          e D+2n−2
+                            C [ρc.s. ] ∼             e             √       ,            D→∞                         (45)
+                                           2                         π
+
+at the dimensional limit, and the value
+                                                             e  D−1
+                                                                   2
+                                             C [ρc.s. ] ∼               ,        n≫1                                (46)
+                                                             2
+
+for the circular Rydberg states of a D-dimensional hydrogenic system.
+  Operating with Eq. (43) in a parallel way, we have obtained the values
+                                        3/2 D 2n− 1
+                                        3      3    2 Γ(2n − 1)             1
+                        C [γc.s. ] ∼                   5        e(1−n)ψ(n)− 2 ,          D→∞                        (47)
+                                          4      2 4n− 2 Γ(n)
+
+
+
+for the momentum shape complexity of a circular state with quantum number n at the pseudoclassical limit, and the
+value
+                                                             e  D−1
+                                                                   2
+                                             C [γc.s. ] ∼               ,        n≫1                                (48)
+                                                             2
+
+for the momentum shape complexity of a circular Rydberg state.
+  Let us also make some comments about the uncertainty products of the position and momentum shape complexities
+C [ρ] C [γ] for the ground and circular states. The general expressions are readily obtained from Eqs. (32) and (42)
+in position space, and from Eqs. (36) and (43) in momentum space. Moreover, this uncertainty product behaves as
+                                                                   e D−1
+                                        C [ρc.s. ] C [γc.s. ] ∼              ,    n≫1
+                                                                   2
+                                                                                                                       13
+
+at the Rydberg limit, and as
+                                          3/2 D 2n− 1 2
+                                                          n − 12 2n− 5 −2(n−1)ψ(n)
+                                                                
+                                          3 e    3    2 Γ
+                 C [ρc.s. ] C [γc.s. ] ∼                          e  2             ,             D→∞
+                                           23         5
+                                                 24n− 2    π
+
+at the dimensional limit for circular states, where Eqs. (46) and (48), and (45) and(47) have been taken into account.
+The last expression yields
+                                                        3/2 D         32
+                                                        3 e         3
+                             C [ρg.s. ] C [γg.s. ] ∼                         ,         D→∞
+                                                         23       2e1/3
+
+for the ground state uncertainty product. Finally, for completeness, let us remark that the complexity uncertainty
+product is always not less than 2e = 1.359.
+
+
+
+                                                       VI.   CONCLUSIONS
+
+
+  The shape complexity of the hydrogenic system in D-dimensional position and momentum spaces is investigated.
+This quantity has two information-theoretic ingredients: the disequilibrium and the Shannon entropic power. We
+have seen that the explicit computation of this complexity is a formidable open task, mainly because the analytical
+                                                                                       h i          h i
+                                                                                                       α
+evaluation of the entropic functionals of the Laguerre and Gegenbauer polynomials, E1 L̃αk and E2 C̃k , involved
+
+in the calculation of the Shannon entropy, has not yet been accomplished.
+  The general methodology presented here is used to find explicit expressions for the position and momentum com-
+plexities of the ground and circular states in terms of the dimensionality and the principal quantum number. Then,
+these information-theoretic quantities are numerically discussed for various states and dimensionalities as well as in the
+dimensional and high-lying energy (Rydberg) limits. Briefly, we find that both position and momentum complexities
+increase (decrease) when the dimensionality (the quantum number of the state) is increasing. This phenomenon is the
+result of a delicate combined balance of the average height and the bulk spreading of the system given by their two
+information-theoretic ingredients, the disequilibrium and the entropic power, respectively. Finally, the uncertainty
+product of the position and momentum shape complexities is examined.
+
+
+
+                                                         Acknowledgments
+
+
+  The authors gratefully acknowledge the Spanish MICINN grant FIS2008-02380 and the grants FQM-481, 1735 and
+2445 of the Junta de Andalucı́a. They belong to the Andalusian research group FQM-207. S.L.R. and D.M ackn-
+woledge the corresponding FPU and FPI scholarships of the Spanish Ministerio de Ciencia e Innovación, respectively.
+
+
+
+
+ [1] D. R. Herschbach, J. Avery and O. Goscinski, Dimensional Scaling in Chemical Physics (Kluwer, Dordrecht, 1993). See
+    Chapter 5.
+                                                                                                                                14
+
+ [2] J. Avery, Hyperspherical Harmonics and Generalized Sturmians (Kluwer, Dordrecht,2000)
+ [3] P. Harrison, Quantum Wells, Wires and Dots: Theoretical and Computational Physics of Semiconductor Nanostructures
+    (Wiley-Interscience, New York, 2005). Second edition
+ [4] S.S. Li and J.B. Xia,Phys. Lett. A366 (1-2) (2007) 120. See references herein.
+ [5] M.M. Nieto, Amer. J. Phys. 47 (1979) 1067
+ [6] M.I. Dykman, P.M. Platzman and P. Seddigard,Phys. Rev. B 67 (2003) 155402
+ [7] G. Amelino-Camelia and J. Kowalski-Glikman (ed.), Planck Scale Effects in Astrophysics and Cosmology (Springer, Berlin,
+    2005)
+ [8] E. Witten, Phys. Today 33 (7) (1980) 38
+ [9] C. Itzykson and J.B. Zuber, Quantum Field Theory (Dover, 2006)
+[10] F. Burgbacher, C. Lämmerzahl and A. Macias, J. Math. Phys. 40 (1999) 625
+[11] V. Aquilanti and J. Avery, Adv. Quantum Chem. 39 (2001) 71
+[12] V. Aquilanti, S. Cavalli, C. Coletti, D. di Domenico and G. Grossi, Int. Rev. Phys. Chem. 20 (2001) 673
+[13] R.J. Yáñez, W. Van Assche and J.S. Dehesa,Phys. Rev. A 50 (1994), 3065
+[14] J.S. Dehesa, R.J. Yáñez, A.I. Aptekarev and V. Buyarov, J. Math. Phys. 39 (6) (1998) 3050
+[15] J.S. Dehesa, A. Martı́nez-Finkelshtein and J. Sánchez-Ruiz, J. Comp. Appl. Math. 133 (2001) 23
+[16] W. van Assche, R.J. Yáñez, R. González-Férez and J.S. Dehesa, J. Math. Phys. 41 (2000) 6600
+[17] J.S. Dehesa, S. López-Rosa, A. Martı́nez-Finkelshtein and R.J. Yáñez, Int. J. Quant. Chem. 109 (11) (2009). In press.
+[18] J. Sañudo and R. López-Ruiz, Physics Letters A 372 (2008) 5283
+[19] S. López-Rosa, J.C. Angulo and J. Antolin, Physica A 388 (2009) 2081
+[20] R.G. Catalan, J. Garay and R. López-Ruiz, Phys. Rev. E 66 (2002) 011102
+[21] J. Avery, J. Phys. Chem. 97 (1993) 2406.
+[22] J.S. Dehesa, S. López-Rosa, B. Olmos and R.J. Yáñez, J. Math. Phys. 47 (2006) 052104
+[23] V. Aquilanti, S. Cavalli and C. Coletti, Chem. Phys. 214 (1997) 1
+[24] J.S. Dehesa, S. López-Rosa, A. Martı́nez-Finkelshtein and R.J Yáñez, Asymptotics of orthogonal-polynomial functionals
+    and Shannon information entropy of Rydberg atoms, Proc. ECMI 2008 (London, 30 June-4 July 2008), to appear in Lecture
+    Notes in Math.
+[25] A.I. Aptekarev, J.S. Dehesa and R.J. Yáñez, J. Math. Phys. 35 (1994) 4423
+

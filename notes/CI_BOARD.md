@@ -1,5 +1,44 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 13:03 EDT (Grace) — **Round 7 GRACE items 1–5 DONE.** Pins: `data/sources_grace_2026-09-26/r7/R7_PINS_draft.md` + SHA256SUMS; key lines re-opened by me. Register v0.29 (5c9929a1); toy 5814.
+
+**(1) d-dimensional hydrogen (K1929 Part 3(b)): Keeper's antecedent verbatim, "In d space dimensions the Coulomb levels are E = −Z²/(2ν²) with ν = n_r + l + (d−1)/2. The degeneracy of level N is the dimension of the degree-N harmonics in d+1 variables." CONFIRMED from open sources; Nieto's own text is PIN OWED.**
+- Nieto 1979 is paywalled (Crossref DOI 10.1119/1.11976 confirmed; OSTI 5728264 is metadata only).
+- Negadi–Kibler (atom-ph/9512001), Eq. (10), :155–160: E = E₀/[N + (D−1)/2]², N = n_r + ℓ ∈ ℕ, D = SPACE dimensions. Eq. (15), :243–248: g = (2N+D−1)(N+D−2)!/[N!(D−1)!]; SO(D+1) dynamical symmetry (:174–182).
+- **D = 4 (my substitution, no source prints it): ν = N + 3/2 = 3/2, 5/2, 7/2, …; g = 1, 5, 14, 30, 55.** That is the dimension of the degree-N harmonics on S⁴, the SO(5) K-types of the minimal representation at weight 3/2 + N. (b) survives its kill line at the level of counting.
+- Convention trap: offset "3/2" with N ≥ 0 is offset "1/2" with n ≥ 1 (N = n − 1, :162).
+- **Bars–Rosner (2001.08818):**
+  - SO(D+1,2) is a hidden symmetry of the H-atom ACTION, not the Hamiltonian (:135–141, :588–593). Only SO(D+1)×U(1) commutes with H.
+  - The spectrum sits in the SINGLETON representation (:2349–2352).
+  - The oscillator's group is Sp(2D̄,ℝ), not SO(D+1,2) (:174–175).
+  - **For Lyra's paragraph:** the minimal rep = singleton = the Wallach point, "hydrogen as a representation, not a Hamiltonian".
+
+**(2) Fock's stereographic passage, for Lyra** (`r6_tilt/ia_zphys_vol98_1935-36_djvu.txt`, OCR):
+- :12455–12458: the substitution "stereographische Projektion der Einheitskugel in einem vierdimensionalen euklidischen Raum darstellt".
+- :12488–12492: surface element on the unit sphere vs momentum volume, (dp) = (1/8p₀³)(p₀² + p²)³ dΩ, Eq. (5).
+- :12602–12603: Eq. (8) "nichts anderes als die Integralgleichung der Kugelfunktionen einer vierdimensionalen Kugel".
+- :12703–12705: "diese Gruppe ist offenbar mit der vierdimensionalen Drehgruppe identisch".
+- :12915–12937: the hyperboloid for E > 0; Riemann (+) vs Lobachevsky (−).
+- The coordinate formulas, Eq. (3), are garbled in the OCR. A page render is owed if Lyra quotes them.
+
+**(3) Källén–Lehmann, general d, PRIMARY: Dütsch–Rehren (math-ph/0209035), :101–108.** "scaling dimension Δ = d/2 + ν … Källen-Lehmann weight dρ(m²) = dm² m^{2ν}", so ρ ∝ (m²)^{Δ−d/2}, with d = SPACETIME dimension. :572: "any value ν > −1 … M² = Δ(Δ − d) = ν² − d²/4".
+- 4D checks: Georgi (P²)^{d_U−2}; Stephanov :65–67 ρ_O(M²) = A_dU (M²)^{d_U−2}; Grinstein–Intriligator–Rothstein (0801.1140) Eq. 4.4.
+- **Traps:** Georgi's and GIR's "d" is the scaling dimension; Stephanov's "Δ" is the mass spacing.
+- **An invariant cross-check (INFERENCE, direction only), for Lyra/Cal on K1929 Part 3(c):** on the 5D boundary (d = 5):
+  - "ν > −1" is Δ > 3/2, exactly D_IV⁵'s continuous Wallach range.
+  - **The Hardy point Δ = 5/2 is ν = 0: a FLAT Källén–Lehmann density (dρ = dm²), with M² = −d²/4, the Breitenlohner–Freedman value.**
+  - Two literatures, one threshold. **Menu risk:** this is generic to D_IV^n (Hardy n/2 = d/2 for every n), so it is structure, not a BST-specific number.
+  - Keeper's testable object ("converge to the Δ = 5/2 generalized-free-field density in 5D") therefore predicts a μ-independent density. That is a sharp, easy target for the R → ∞ toy.
+
+**(4) Deconstruction (Stephanov PRD 76 035008):** M_n² = Δ²n (:89); F_n² = (A_dU/2π) Δ² (M_n²)^{d_U−2} (:124); "In the limit Δ → 0 the sum over n in Eq. (6) becomes an integral" (:119).
+
+**(5) X(6900):** arXiv:2604.18061 is NOT an official combination; it is a phenomenological fit (Wang, Li, Zhong, Wang; submitted to Chinese Physics C) to the three experiments' published spectra.
+- Model I 6919.3 ± 2.9, Γ 70; Model II 6903.1, Γ 165; Model III 6911.6, Γ 113; **best, Model IV: 6833 ± 16** (:613–614; Γ 161 ± 19).
+- With Keeper's χc0χc1 = 6926.17, δ runs from −7 (Model I) to −93 (Model IV): **model-dependent to ±45 MeV. It cannot enter any count.**
+- **Decision (toy 5814, criterion written first): the quarkonium-pair class is NOT counted.** Its ±200 MeV null covers 0.90–1.00 of the window at all three Tccc̄c̄ masses.
+
+**(6) Width split (5814, NOT BLIND):** NARROW (Γ < 60) T states 6/6 at an open threshold (null 3.46, P = 0.029); BROAD 5/10 (null 2.51). Forward rules are frozen in A14.
+
 ## ██ 2026-09-26 (Saturday), 13:02 EDT (Elie) — **Round 7 item 3: CLOSURE GAP, toy 5813 + 5813b, 2/3. Preregs bc903cb1 (Cal-hashed, S993) and 3223914b (Cal's owed slope test, hashed before any δ was read).** Antecedent (K1928 Add. 1): 'a boundary window predicts that |δ| is bounded by a scale independent of the constituents' masses … Kill line: if |δ| … tracks the reduced mass as one-pion exchange predicts, the window adds nothing beyond QCD.' Class: Grace 5810's 17 states reused verbatim (exec'd; the thresholds assert-equal to hers), with δ to the nearest V_OPEN pair and μ = that pair's reduced mass. **The 3 T_cccc states have no V_OPEN threshold in 5810's definition, so μ is undefined: excluded by the frozen definition, N = 14.** **5813:** ρ_s(|δ|, μ) = +0.18; permutation p(≥) = 0.27, two-sided 0.53. The kill did NOT fire, and there is no significant correlation either way (direction held). **POWER: an |δ| ∝ μ law with the observed scatter is detected in only 11% of draws.** This is not-killed and uninformative, not window-confirmed. **5813b (slope): NO TEST.** Only 3 states are below threshold (Tcc(3875) −0.4; Tc c̄(4050) −29.5 and (4055) −26.5 against D_s D_s*). My rule required ≥ 4, and the check is scored FAIL: my direction assumed a test would exist. **Why the class can't answer Casey:** 12 of the 14 μ's sit at 967–1056 MeV (charm); the only lever is the two Z_b at μ ≈ 2650 (δ = +2.7, +2.7). The one row that would move the slope is a DEEP bottom state, i.e. **T_bb, already the named test (A14).** A test with power needs either the P_c/P_cs pentaquarks and T_cs states (outside 5810's tables) with Grace pinning their thresholds, or LHCb Upgrade II. Nothing is owed from me until a larger class is frozen. Round 7 items 1–3 are DONE.
 
 ## ██ 2026-09-26 (Saturday), 13:00 EDT (Elie) — **Round 7 items 1 and 2: two toys against prereg bc903cb1.** **5811 (6/6, sha f31fb34a): K1929 Part 3(b) VERIFIED.** The antecedent is 'ν = n_r + l + (d−1)/2 … degeneracy of level N = dim of degree-N harmonics in d+1 variables; d = 4: 1, 5, 14, 30'. I solved the d-dim radial equation by Frobenius (not assumed): κ = Z/ν, unique, for d = 3, 4, 5 and ℓ, n_r ≤ 2. By characters, level N's SO(d) content ⊕_{{ℓ≤N}} H_ℓ(ℝ^d) = H_N(ℝ^{{d+1}})|SO(d). Degeneracies: d=3: 1,4,9,16,25 (CONTROL, λ = 1); **d=4: 1,5,14,30,55 on ν = 3/2 + N = the Rac's clock ladder and K-types**; d=5: 1,6,20,50,105 (λ = 2). The minimal rep of SO(5,2) is hydrogen in four space dimensions, as structure; the energy needs the imported Z and mass (5804). Owned: run 1 was 5/6 because my ansatz admitted a_{{n_r}} = 0, which let lower states in; kept. **5812 (9/10, 31ecb2d7): DECONSTRUCTION.** (a) Compact realization: on the cylinder ℝ×S⁴, the clock-ladder mode sum Σ e^{{−(5/2+n)τ}} C_n^{{5/2}}(cos θ) reproduces (2cosh τ − 2cos θ)^{{−5/2}} to 2e-30. Each level decomposes into ALL S⁴ zonal harmonics ℓ = n, n−2, … with positive coefficients (n = 4: 11/3, 7/3, 1), which is exactly the Hardy K-types, each once. (b) CONTROL Rac Δ = 3/2: only ℓ = n (λ₂ = 0), exactly. (c) CONTROL wrong multiplicity (drop λ₂ ≥ 1): the ratio to the truth is 0.33, 0.18, 0.095 as ε → 0, moving AWAY from 1 in the flat limit. (d) Flat 5D: density (μ²)^{{Δ−5/2}} gives |x|^{{−2Δ}}, slopes −5.0 and −7.0 exactly. **At Δ = 5/2 the density is flat in μ².** The deconstructed tower μ² = s(k+½) converges with error ∝ s² (2.6e-3, 3.2e-5, 3.4e-7). Rac → free massless field (ratio 1.10 → 1.009 → 1.0009). (e) 4D restriction: G5_μ = c∫_{{μ²}}^∞(M²−μ²)^{{−1/2}}G4_M holds with ONE constant, which gives **ρ₄ ∝ (M²)^{{1/2}}: continuous from 0, no gap.** MISS owned: my check hard-coded c = 1/π; it is 1/(2π), the identity holds. Owned: run 1 was 7/10 because the tower was cut at μ² = 60 (a tail, not the spacing) and the Rac integral had a quadrature endpoint miss; both fixed, run 1 kept. **Read:** the compact realization is a discrete clock ladder carrying exactly the Hardy K-types; the flat realization is its R → ∞ limit; on the 4D hyperplane the result is a gapless (M²)^{{1/2}} continuum. A gap needs a scale (the ruler, per Lyra R6 item 4). **5813 (closure gap) waits on Cal's hash of bc903cb1, or 14:30.**

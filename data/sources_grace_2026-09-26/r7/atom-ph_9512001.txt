@@ -1,0 +1,710 @@
+                                                       The Periodic Table in Flatland
+
+
+
+
+arXiv:atom-ph/9512001v1 2 Dec 1995
+                                                                           T. NEGADI
+                                                                Laboratoire de Physique Théorique,
+                                                                       Institut de Physique,
+                                                                         Université d’Oran,
+                                                                  Es-Sénia, 31100 Oran, Algeria
+
+                                                                          M. KIBLER
+                                                             Institut de Physique Nucléaire de Lyon,
+                                                           IN2P3-CNRS et Université Claude Bernard,
+                                                               43 Boulevard du 11 Novembre 1918,
+                                                               F-69622 Villeurbanne Cedex, France
+
+
+
+
+                                                                             Abstract
+
+
+                                         The D-dimensional Coulomb system serves as a starting point for generating gener-
+                                     alized atomic shells. These shells are ordered according to a generalized Madelung rule
+                                     in D dimensions. This rule together with an Aufbau Prinzip is applied to produce a D-
+                                     dimensional periodic table. A model is developed to rationalize the ordering of the shells
+                                     predicted by the generalized Madelung rule. This model is based on the introduction of
+                                     an Hamiltonian, invariant under the q-deformed algebra Uq (so(D)), that breaks down the
+                                     SO(D + 1) dynamical symmetry of the hydrogen atom in D dimensions. The D = 2 case
+                                     (Flatland) is investigated with some details. It is shown that the neutral atoms and the
+                                     (moderately) positive ions correspond to the values q = 0.8 and q = 1, respectively, of the
+                                     deformation parameter q.
+
+
+
+
+                                        Key words: D-dimensional hydrogen atom, Madelung rules, periodic tables, Flat-
+                                     land, Aufbau Prinzip.
+
+
+
+                                                                                 1
+                                1     Introduction
+
+   There exits a huge number of articles and books devoted to the classification of the
+chemical elements in the ordinary space (with D = 3 spatial dimensions). A nonexhaustive
+list of works presenting quantitative achievements is provided by Refs. [1-26]. In recent
+years, the classification of molecules in D = 3 dimensions was also the subject of numerous
+studies (see Refs. [27-30] and references cited therein).
+   Group theoretical and Lie algebraic methods play an important role in the classification
+of atoms and molecules. Along this vein, the authors recently used the notion of q-
+deformed Lie algebra for the classification of neutral atoms and positive ions in D = 3
+dimensions [26]. From the mathematical point of view, the approach in Ref. [26] may be
+extended in the case where D is arbitrary.
+   The aim of this paper is two-fold: (i) to attack the problem of the classification of
+chemical elements in a space-time with D spatial dimensions and (ii) to examine the
+special case where D = 2. Indeed, the idea of chemical elements in D dimensions is
+already present in the consideration of a D-dimensional hydrogen atom. During the
+last four decades, hydrogen-like systems in D dimensions were the subject of numerous
+investigations (see for example Refs. [31-39]). As a next step, the study of many-electron
+systems in D dimensions is appealing. In this connection, the formulation of the quantum-
+mechanical many-body problem in terms of hyperspherical coordinates is of considerable
+interest [40-45]. The special case D = 2 is of great importance because of the specificities
+that arise in this case. This explains why several works have been devoted to Flatland
+[46] as far as dynamical systems and chemical elements are concerned [47-50].
+   The paper is organized as follows. In Section 2, we derive in a compact way those
+aspects (energy and degeneracy) of the D-dimensional nonrelativistic Coulomb system
+that are essential for Sections 3 and 4. Sections 3 deals with an extension of the Madelung
+rule and an Aufbau Prinzip in D dimensions. A model for the generalized D-dimensional
+Madelung rule is given in Section 4. The case of Flatland (D = 2) is discussed in Sections
+3, 4, and 5.
+
+
+
+                                             2
+         2       The Hydrogen Atom in D Dimensions
+
+   2.1. The discrete spectrum
+   The Schrödinger equation for a D-dimensional hydrogen-like atom of nuclear charge
+Ze (Ze > 0) and reduced mass µ reads
+
+                                     h̄2
+                                   −     ∆Ψ + V Ψ = EΨ,                                      (1)
+                                     2µ
+
+where ∆ is the Laplace operator and V the potential energy in D dimensions (D ≥ 2).
+We assume that
+                                               Ze2
+                                         V = −     ,                                         (2)
+                                                r
+where r is the hyperradius. Note that for D = 2 and D ≥ 3, the potential V should be
+taken in the form V ∼ Ze2 ln r and V ∼ −Ze2 r 2−D , respectively, if one imposes that V
+satisfies the Poisson equation (cf. Ref. [37]). Note also that the potential energy V could
+be chosen in the form (2) where Z exhibits a dependence on the hyperspherical angular
+coordinates Ω ≡ (θ1 , θ2 , · · · , θD−2 , ϕ) (see Refs. [41,42]); the latter choice is especially
+appropriate to take into account correlation effects in many-particle systems. In the
+present paper, we take V as given by (2) where Z is a constant for the sake of simplicity
+and in order to have an expression that generalizes in a simple manner the usual potential
+energy in D = 3 dimensions. In view of the applications to the construction of periodic
+tables, we are interested in the discrete eigenvalues of the energy E (E < 0) in Eq. (1).
+These eigenvalues can be found as follows.
+   Let us look for a solution of Eqs. (1-2) in the form
+
+                                   Ψ(r, Ω) = R(r)Y[ℓ] (Ω),                                   (3)
+
+where Y[ℓ] denotes an hyperspherical harmonic in D dimensions. This leads, after separa-
+tion of variables, to the radial equation
+
+                 h̄2 d2 R D − 1 dR   ℓ(ℓ + D − 2)     Ze2
+                                                            
+             −           +         −              R −     R = ER,                            (4)
+                 2µ dr 2    r   dr        r2           r
+
+where ℓ(ℓ + D − 2), with ℓ ∈ N , is an eigenvalue of the square of the angular momentum in
+D dimensions (see also the book by Avery [45]). (In the D = 2 case, the orbital angular
+
+                                               3
+momentum ℓ is simply |mℓ |.) By putting
+                             √
+                               −2µE                        µZe2                       1
+      ρ = 2 α r,      α =            ,                 k =       ,           ν = ℓ+     (D − 2)    (5)
+                                h̄                          αh̄2                      2
+
+and by making the change of function
+
+                                   R(r) = ρ−(D−1)/2 W (ρ),                                         (6)
+
+Eq. (4) can be transformed into the Whittaker differential equation [51]:
+                                                   1
+                                              1 k    − ν2
+                                                                 
+                             W ′′ +       −    + + 4 2    W = 0.                                   (7)
+                                              4 ρ    ρ
+
+By retaining only the solutions regular at the origin of Eq. (7), we obtain the total wave
+function
+
+                                                     1
+                                                                                
+                                  ℓ −αr
+             Ψ(r, Ω) = (2 α r) e          1 F1         − k + ν , 2ν + 1 ; 2 α r Y[ℓ] (Ω),         (8a)
+                                                     2
+
+where 1 F1 is the confluent hypergeometric function.
+   The discrete eigenvalues for the energy E are obtained by requiring that the total
+wave function Ψ belongs to L2 (RD ). This yields the quantization condition
+
+                                1
+                                  − k + ν = −nr ,                 nr ∈ N ,                         (9)
+                                2
+
+where nr is referred to as the radial quantum number. By combining Eqs. (5) and (9),
+we obtain that the discrete energy spectrum is given by (cf. Refs. [31,32,36,38])
+
+                  E0                                 µ(Ze2 )2
+    E =                     ,       E0 = −                    ,       N = nr + ℓ,       N ∈ N.    (10)
+           [N + 2 (D − 1)]2
+                1                                      2h̄2
+
+The possible values of ℓ are ℓ = 0, 1, . . . , N. (Observe that for D = 3, we have N = n − 1,
+where n is the usual principal quantum number. Note also that Eq. (10) can be applied
+to D = 1 under the condition to omit the state for which N = 0.) Equation (10) can be
+transformed to yield
+
+                           E0
+               E =                   ,        Λ2 = λ(λ + D − 1),              λ = nr + ℓ,         (11)
+                       Λ2 + ( D−1
+                               2
+                                  )2
+
+an expression which constitutes a starting point for the developments in Section 4. The
+quantity Λ2 in Eq. (11) turns out to be an eigenvalue of the second-order Casimir operator
+
+                                                       4
+of the special orthogonal group SO(D + 1) in D + 1 dimensions. In other words, Λ2 ≡
+λ(λ + D + 1 − 2), with λ ∈ N , is an eigenvalue of the square of the angular momentum
+in D + 1 dimensions. Equation (11) is the transcription in terms of eigenvalues of the
+connection between the hydrogen-like atom in D dimensions and the symmetrical spherical
+rotor in D + 1 dimensions. Moreover, the energy formula (11) reflects the SO(D + 1)
+dynamical symmetry of the Coulomb system in D dimensions. This is reminiscent of the
+application of the Fock stereographic projection to the hydrogen atom in D dimensions
+(projection of RD onto the unit sphere of RD+1 ). As a point of fact, by applying the Fock
+transformation [52] to the D-dimensional Schrödinger equation (in momentum space) for
+the hydrogen-like atom, we get [31,32,45]
+
+                            1    µZe2      1
+                       √              = λ + (D − 1),              λ ∈ N,                   (12)
+                           −2 µ E h̄       2
+
+which leads to Eq. (11).
+   Finally, by using Eq. (9) the wave function (8a) becomes
+                                                                       
+             Ψ(r, Ω) = NN,ℓ (2 α r)ℓ e−αr 1 F1 − nr , 2ν + 1 ; 2 α r Y[ℓ] (Ω),             (8b)
+
+where the normalization constant NN,ℓ is
+
+                                   1       (2α)D (N + ℓ + D − 2)! 1/2
+                                                                      
+                   NN,ℓ =                                             ,                    (13)
+                             (2ℓ + D − 2)! (2N + D − 1) (N − ℓ)!
+
+up to an arbitrary phase factor. Equations (8b) and (13) are in agreement with the results
+in Ref. [42]. Following the usual terminology used in the D = 3 case, we shall refer the
+wave function (8b) as an atomic orbital. The various atomic orbitals corresponding to
+given values of N + 1 and ℓ define a shell denoted as (N + 1, ℓ). As for the D = 3 case, we
+shall use the notation ℓ = s, p, d, . . . instead of ℓ = 0, 1, 2, · · · for the angular momentum
+in (N + 1, ℓ).
+   2.2. Degeneracies of the spectrum
+   The dimension of the subspace spanned by the angular wave functions Y[ℓ] (Ω) corre-
+sponding to a given value of ℓ is
+
+                                 (2ℓ + D − 2) (ℓ + D − 3)!
+                     g(ℓ, D) =                             ,       D≥3                    (14a)
+                                        ℓ! (D − 2)!
+
+                                                5
+that is nothing but the dimension of the irreducible representation [ℓ, 0, 0, · · · , 0] (with
+D − 2 entries) of the geometrical symmetry group SO(D) of the hydrogen-like atom in
+D dimensions. Indeed, g(ℓ, D) corresponds to the essential (i.e., geometrical or orbital)
+degeneracy of the energy level E given by Eq. (10). The dimension formula (14a) can
+be simply obtained [34] (see also [33,45]) as the difference between the dimension of the
+space of the homogeneous polynomials with degree ℓ in RD and the dimension of the space
+of the homogeneous polynomials with degree ℓ − 2 in RD (arising from the action of the
+generalized Laplace operator on the homogeneous polynomials with degree ℓ in RD ). As
+an example, Eq. (14a) with D = 3 gives back the well-known result g(ℓ, 3) = 2ℓ + 1. For
+D = 2, note that Eq. (14a) gives g(ℓ, 2) = 2 for ℓ 6= 0 and is not valid for ℓ = 0. (In
+fact, we have g(0, 2) = 1 that follows from g(0, D) = 1.) Returning to the case where D
+is arbitrary, we note that
+
+                             g(ℓ, D) = g(ℓ, D − 1) + g(ℓ − 1, D)                        (14b)
+
+so that g(ℓ, D) can be obtained in an iterative fashion from g(0, D) = 1 and g(ℓ, 2) =
+2 − δ(ℓ, 0).
+   We are now in a position to simply obtain the degree of degeneracy of the energy
+level E given by Eqs. (10-11). It is mentioned above that Eq. (11) for E shows that the
+hydrogen-like atom in D dimensions is connected to the symmetrical spherical rotor in
+D + 1 dimensions. Consequently, the degree of degeneracy of E is equal to the degree of
+degeneracy of the eigenvalue λ(λ + D + 1 − 2) of the second-order invariant of SO(D + 1).
+The latter degree of degeneracy is given by Eq. (14a) with ℓ 7→ N and D 7→ D + 1 since
+the relevant special orthogonal group is SO(D + 1) and λ = N = nr + ℓ. As a conclusion,
+the total degree of degeneracy g (covering essential and accidental degeneracies) of the
+energy level E given by Eq. (10) is
+
+                                    (2N + D − 1) (N + D − 2)!
+               g ≡ g(N, D + 1) =                              ,         N ∈ N.           (15)
+                                           N! (D − 1)!
+
+The expression in the second right-hand side of Eq. (15) is a well-known result. (See
+for instance Ref. [45] where this expression is derived from the theory of hyperspherical
+harmonics.) The significance of Eq. (15) is clear: for N + 1 fixed, the g orbitals (8b) with
+
+                                              6
+ℓ = 0, 1, · · · , N have the energy (10). By way of illustration, we have g = 2N + 1 for
+D = 2 and g = (N + 1)2 = (nr + ℓ + 1)2 = n2 for D = 3. We thus recover the Stoner
+number g = n2 for the ordinary hydrogen atom.
+
+
+            3     Madelung Rule and Aufbau Prinzip
+
+   We now examine the problem of the distribution of the Z electrons of a neutral atom
+on the generalized atomic orbitals. Such a distribution does not make sense if the energy
+of the shell (N + 1, ℓ) is given by Eqs. (10-11) since the energy formula (10) does not take
+into account the interelectronic repulsion between the Z electrons of a complex atom.
+We shall introduce in Section 4 a symmetry breaking mechanism in order to generate
+monoelectronic energy levels depending on N + 1 and ℓ. We thus continue with the filling
+of the Z electrons on atomic shells (N + 1, ℓ) that do not present anymore accidental
+degeneracies.
+   In the ordinary case (D = 3), it is a well-known fact that the filling of the shells
+(N + 1, ℓ), with N + 1 = n, according to the rule − n increasing and, for n fixed, to ℓ
+increasing − does not correspond to a realistic situation for Z ≥ 19 (see Ref. [1]). In the
+D = 2 case, it has been shown [50], on the basis of Hartree-Fock calculations, that this
+rule (N + 1 increasing and, for N + 1 fixed, ℓ = |mℓ | increasing) stops working for Z ≥ 15:
+for Z = 15, the energy of the shell (4,s) is lower than the one of the shell (3,d). In both
+cases, an alternative rule for the filling of the shells has to be found. When D = 3, such a
+rule is known as the Madelung (or Madelung-Klechkovskii, or Madelung-Goudsmit-Bose)
+rule [2-5]. (In the D = 3 case, this rule was implicit in the 1922 Bohr Aufbau Prinzip [1]
+and was set out in 1926 by Madelung [4].) We shall formulate this rule in the case where
+D is arbitrary (D ≥ 2) and we shall apply it to the particular cases D = 2 and 3.
+   The generalized Madelung rule can be expressed in the following way. The electronic
+shells (N + 1, ℓ) are filled according to: (i) N + 1 + ℓ increasing and (ii) N + 1 increasing
+for N + 1 + ℓ fixed. The obtained filling can be described by the following sequence of
+shells
+
+         (1, s) < (2, s) < (2, p) < (3, s) < (3, p) < (4, s) < (3, d) < (4, p) < (5, s) <
+
+                                                7
+  (4, d) < (5, p) < (6, s) < (4, f) < (5, d) < (6, p) < (7, s) < (5, f) < (6, d) < (7, p) < · · ·
+                                                                                                    (16)
+The ordering (16) is identical to the one predicted by the usual Madelung rule correspond-
+ing to D = 3.
+   We are now prepared for describing an Aufbau Prinzip in D dimensions. Each (N +1, ℓ)
+shell in (16) can be filled with 2g(ℓ, D) electrons, where g(ℓ, D) is given by (14a), the factor
+2 coming from the fact that each orbital gives rise to two spin-orbitals. [As for D = 3, we
+admit that the spectral group that labels the spin is SU(2) and that the Pauli principle
+works.] The generalized Madelung rule can be depicted by the diagram
+
+                                   [1, 1]
+                                   [2, 2] [3, 2]
+                                   [3, 3] [4, 3] [5, 3]
+                                   [4, 4] [5, 4] [6, 4] [7, 4]
+                                   [5, 5] [6, 5] [7, 5] [8, 5] [9, 5] · · ·
+                                   ···
+
+                                                                                                    (17)
+
+In (17) the rows are labelled with N + 1 = 1, 2, 3, · · · and the columns with ℓ = 0, 1, 2, · · ·
+and the entry at the intersection of the (N + 1)th row and ℓth column is denoted as
+[N + 1 + ℓ, N + 1] (with, for fixed N + 1, ℓ = 0, 1, · · · , N). This diagram provides us with
+the skeleton of a periodic table where the places for the various “chemical elements” are
+obtained by replacing each entry [N + 1 + ℓ, N + 1] of the diagram by a block {· · ·}. Each
+block corresponds to given values of N + 1 and ℓ. The block {· · ·} associated to the entry
+[N + 1 + ℓ, N + 1] of the diagram contains 2g(ℓ, D) elements.
+   In the D = 3 case, this Aufbau Prinzip leads to the periodic table [23]
+
+        {001, 002}
+        {003, 004} {005, 006, · · · , 010}
+        {011, 012} {013, 014, · · · , 018} {021, 022, · · · , 030}
+        {019, 020} {031, 032, · · · , 036} {039, 040, · · · , 048} {057, 058, · · · , 070}
+        {037, 038} {049, 050, · · · , 054} {071, 072, · · · , 080} {089, 090, · · · , 102} {· · ·
+        {055, 056} {081, 082, · · · , 086} {103, 104, · · · , 112} {· · ·
+        {087, 088} {113, 114, · · · , 118} {· · ·
+        {119, 120} {· · ·
+        {· · ·
+
+                                                                                                    (18)
+
+                                                      8
+Each neutral atom in (18) is characterized by its atomic number Z (001 ≡ 1, 002 ≡ 2,
+003 ≡ 3, · · ·). In the table (18), the various periods of the Mendeleev table are identified
+by reading the table in the dictionary order, as in the diagram (17), and by stopping at
+the end of a (N + 1,p) shell (except for the first period). It is to be reminded that the
+table (18) can be rationalized through the use of the group SO(4, 2)⊗SU(2). (For more
+details, see Refs. [10,12,16,23].)
+   In the D = 2 case, the generalized Madelung rule gives also the ordering described
+by the sequence (16) with (N + 1, ℓ) ≡ (N + 1, |mℓ |). The filling, with two [2g(0, 2) = 2]
+electrons in each (N + 1, s) shell and four [2g(ℓ 6= 0, 2) = 4] electrons in each (N + 1, ℓ 6= s)
+shell, of the sequence (16) corresponds to the following periods with their degeneracies
+(the degeneracy of a period is the number of elements in the period)
+
+                                     (1, s) : 2
+                                     (2, s) (2, p) : 6
+                                     (3, s) (3, p) : 6
+                                     (4, s) (3, d) (4, p) : 10
+                                     (5, s) (4, d) (5, p) : 10
+                                     (6, s) (4, f) (5, d) (6, p) : 14
+                                     (7, s) (5, f) (6, d) (7, p) : 14
+                                     ···
+
+                                                                                            (19)
+
+The set of periods (19) reflects (like in the D = 3 case) a period doubling, except for the
+first period. The diagram (17) then leads to the following periodic table
+
+       {001, 002}
+       {003, 004} {005, 006, 007, 008}
+       {009, 010} {011, 012, 013, 014} {017, 018, 019, 020}
+       {015, 016} {021, 022, 023, 024} {027, 028, 029, 030} {037, 038, 039, 040}
+       {025, 026} {031, 032, 033, 034} {041, 042, 043, 044} {051, 052, 053, 054} {· · ·
+       {035, 036} {045, 046, 047, 048} {055, 056, 057, 058} {· · ·
+       {049, 050} {059, 060, 061, 062} {· · ·
+       {063, 064} {· · ·
+       {· · ·
+
+                                                                                            (20)
+
+Here again, the “chemical elements” in the blocks of (20) are characterized by their atomic
+number Z. Furthermore, the elements in a given block (corresponding to [N +1+ℓ, N +1])
+
+                                                    9
+can be distinguished by two heuristic quantum numbers, namely, mℓ = ∓ℓ and σ = ∓1/2.
+Then, the address Z of an element in the block attached to [N + 1, ℓ] is given by
+
+                                1                                    1
+                                                                              
+ Z(N +1, ℓ, mℓ , σ) = (N +1+ℓ) − 1+(−1)N +1+ℓ −2 2ℓ+δ(ℓ+mℓ , 0)−1 +σ+ , (21)
+                                 2
+                                2                                    2
+
+with N + 1 = 1, 2, 3, · · ·; ℓ = 0, 1, · · · , N; mℓ = ∓ℓ; and σ = ∓1/2. For instance, Z = 11
+corresponds to N + 1 = 3, ℓ = 1, mℓ = −1, and σ = −1/2 while Z = 40 corresponds to
+N +1 = 4, ℓ = 3, mℓ = +3, and σ = +1/2. In the block corresponding to [N +1+ℓ, N +1],
+the number Z increases with mℓ (mℓ passing from −ℓ to +ℓ) and, for mℓ fixed, with σ (σ
+passing from −1/2 to +1/2).
+   As for the D = 3 case [17,20], it is possible to define a key function for D = 2. The
+key function Zℓ is the atomic number Z for which (at least) one electron with angular
+momentum ℓ appears for the first time. (Note that this definition works for D arbitrary
+too.) By adapting to the D = 2 case the derivation by Essén [20], the key function reads
+                     ℓ−1
+                    X                          ℓ−1
+                                                X                
+          Zℓ = 2            2g(N, 3) + 1 = 2              2(2N + 1) + 1,   for ℓ ≥ 1,   (22)
+                     N =0                          N =0
+
+where the first factor 2 refers to the “double shell” structure (that manifests itself in
+a diagram connecting the hydrogen-like and Madelung orderings, see Ref. [20]) and the
+second to the spin. (Note that Z0 = 1.) A simple calculation gives
+
+                                         Zℓ = 4ℓ2 + 1.                                  (23)
+
+For example, we have Zℓ = 1, 5, 17, and 37 for the first appearence of the s, p, d, and f
+electrons, respectively, as can be checked from (20).
+
+
+    4     A Model for the Madelung Rule in Flatland
+   As already mentioned at the beginning of Section 3, the derivation of a model for
+justifying the Madelung rule in D dimensions cannot be carried out with the help of the
+energy formula (11). Following Novaro et al. [9,11,13,14] and Négadi and Kibler [26], a
+possible way to find an energy formula that reproduces the generalized Madelung rule is
+to introduce, in the context of q-deformations, an anisotropic term in the denominator of
+Eq. (11). This can be done by replacing in (11) the eigenvalue Λ2 ≡ Λ2D+1 of the Casimir
+
+                                              10
+of the group SO(D + 1) by Λ2D+1 + α(q)Λ2D (q), where Λ2D (q) stands for an invariant
+operator of the q-deformed algebra Uq (so(D)) and α(q) denotes a constant depending on
+the deformation parameter q. (See Refs. [53-55] for an introduction to q-deformed − or
+quantum − algebras.) To be more precise, the formula (11) is replaced by
+                             E0                                E0
+            E =                                    =                          .            (24)
+                  ΛD+1 + α(q)Λ2D (q) + ( D−1
+                   2
+                                          2
+                                             )2            D−1 2
+                                                       (N + 2 ) + α(q)Λ2D (q)
+In terms of symmetries, the dynamical symmetry SO(D + 1) is replaced by the symmetry
+SO(D + 1) > Uq (so(D)), where the quantum algebra Uq (so(D)) describes a symmetry
+breaking mechanism.
+   In the D = 3 case, the formula (24) was applied in Ref. [26] with
+                                                                                    5
+          Λ24 = (N + 1)2 − 1 = n2 − 1,     Λ23 (q) = [ℓ]q [ℓ + 1]q ,   α(q) = 3 −     q,   (25)
+                                                                                    3
+where the (q-deformed) quantities of type [x]q are defined by
+                                              q x − q −x
+                                    [x]q =               .                                 (26)
+                                               q − q −1
+The situation where q = 1 gives back the Novaro [14] model for neutral atoms [corre-
+sponding to the ordering (16)]. Furthermore, it was shown [26] that Eq. (24) with D = 3
+furnishes a model that describes neutral atoms for q = 0.9 [with the ordering (16)] and
+positive ions for 1.15 ≤ q ≤ 1.30 [with an ordering different from (16)].
+   We now focus our attention on the D = 2 case. In this case, the dynamical symmetry
+SO(3) has to be replaced by the symmetry SO(3) ⊃ SO(2) since the one-parameter
+Lie algebra so(2) cannot be deformed. We can however consider a q-deformation of the
+eigenvalue ℓ = |mℓ | in order to mimick the approach followed in Ref. [26] for the D = 3
+case. Therefore we particularize, to the D = 2 case, Eq. (24) in the form
+                                            E0
+                            E =                                ,                           (27)
+                                  N(N + 1) + α(q)([ℓ]q )2 + 41
+where the anisotropy parameter α(q) is taken to be
+                                                5
+                                      α(q) = 3 − q,                                        (28)
+                                                3
+as for the D = 3 case [26]. Then, Eq. (27) becomes
+                                              E0
+                            E =                                  ,                         (29)
+                                   (N + 2 ) + (3 − 35 q)([ℓ]q )2
+                                        1 2
+
+
+
+                                             11
+where the q-deformed number [ℓ]q can be developed as
+
+                        [ℓ]q = q ℓ−1 + q ℓ−3 + · · · + q −ℓ+1   for ℓ 6= 0,                  (30)
+
+an expression which may be prolonged by [0]q = 0. In order to find the ordering of
+the shells (N + 1, ℓ) afforded by the energy formula (29), it is sufficient to consider the
+dimensionless quantity
+                   s          2
+                          1               5
+   ǫ(N + 1, ℓ) =       N+           + (3 − q)([ℓ]q )2   with N ∈ N and ℓ = 0, 1, · · · , N   (31)
+                          2               3
+
+that gives the energy position of the shell (N + 1, ℓ).
+   We have done an optimization of Eq. (31). As a result, for q = 0.8 we find, with a
+reasonable precision, that the energies given by Eq. (29) reproduce the ordering (16). The
+model inherent to Eq. (29) is thus in agreement with the two-dimensional Madelung rule
+especially for the lower shells. For instance, we have (for q = 0.8) the sequence
+
+            ǫ(1, s) = 0.5 < ǫ(2, s) = 1.5 < ǫ(2, p) = 2.0 < ǫ(3, s) = 2.5 <
+
+             ǫ(3, p) = 2.8 < ǫ(4, s) = 3.5 < ǫ(3, d) = 3.6 < ǫ(4, p) = 3.7                   (32)
+
+corresponding to Z varying from 1 to 24. The ordering (32) is the same as the one
+found by Pyykkö and Zhao [50] from Hartree-Fock calculations using a Gaussian basis
+and assuming 1/r Coulomb interactions. We note that the fitting value q = 0.8 is of the
+same magnitude as the value q = 0.9 obtained in the D = 3 case [26].
+   In the situation where q = 1, Eq. (29) leads to the following ordering
+
+        (1, s) < (2, s) < (2, p) < (3, s) < (3, p) < (3, d) < (4, s) < (4, p) < (4, d) <
+
+    (5, s) < (5, p) < (4, f) < (5, d) < (6, s) < (6, p) < (5, f) < (6, d) < (7, s) < · · ·   (33)
+
+which is identical to the ordering for the positive ions in the D = 3 case [18,19,26].
+Unfortunately, there does not exist data (of Hartree-Fock type for example) for the positive
+ions in the D = 2 case. Therefore, the sequence (33) should be considered as a prediction
+for positive ions in two dimensions. To be more precise, the passage from q = 0.8 to q = 1
+for D = 2 corresponds to the passage from neutral atoms to moderately ionized atoms,
+
+                                                12
+a situation that parallels the one for D = 3 where q goes from 0.9 (neutral atoms) to
+1.15 (positive ions) [26]. In the D = 2 case, we can expect that the highly ionized atoms
+correspond to increasing values of q since the limiting case of a hydrogen-like atom (for
+which the energy E increases with N + 1) is reached for q = 1.8 [see Eq. (29)].
+
+
+                            5     Closing Remarks
+
+   In the present paper, we concentrated on three points: (i) the extension of the
+Madelung rule in D dimensions, (ii) an algorithm (Aufbau Prinzip) for constructing a
+periodic table in D dimensions, and (iii) a model for reproducing the ordering of the
+atomic shells in D dimensions. For each point, a special emphasis was put on the D = 2
+case.
+   The periodic table for D = 2, obtained by means of the Madelung rule, resembles
+the one worked out in Ref. [23] except that the blocks contain two or four elements. We
+gave an address formula [Eq. (21)] for locating the element with atomic number Z in the
+periodic table. In addition, the key function for the first appearence of an electron of type
+ℓ in the periodic table was found to be Zℓ = 4ℓ2 + 1. This key function compares with
+Zℓ = 2ℓ2 + 1 that can be deduced from the work by Asturias and Aragón [47], where the
+Coulomb potential is taken in a logarithmic form. (Note that the “double shell” structure
+mentioned in Section 3 does not appear when the potential is logarithmic.)
+   The model developed in Section 4 on the basis of Eq. (24) relies on the connection
+between the hydrogen atom in D dimensions and the spherical rotor in D + 1 dimensions.
+Two important ingredients were used in conjunction with the latter connection, viz, the
+introduction of an anisotropic term as in the Novaro [14] model for D = 3 and the
+introduction of a q-deformation as in the Négadi-Kibler [26] model for D = 3. The model
+set up for D arbitrary was applied to D = 2 and it was shown that the deformation
+parameter q can discriminate between neutral atoms (q = 0.8) and positive ions (q = 1).
+   If we take the same notations for the chemical elements in two dimensions as the ones
+
+
+
+
+                                             13
+employed in Ref. [50], the periodic table (20) takes the form
+
+        {H1    He2 }
+
+        {Li3   Be4 }     {B5     N6     F7    Ne8 }
+
+        {Na9 Mg10 }      {Al11   P12    Cl13 Ar14 }     {Sc17 Mg18 Cu19 Zn20 }
+
+        {K15 Ca16 }      {Ga21 As22 Br23 Kr24 }
+
+                                                                                       (34)
+
+if we restrict ourselves to 1 ≤ Z ≤ 24. (The address Z for each element is indicated as a
+right upper subscript.) The table (34) is similar to the table in Ref. [50]: the two tables
+exhibit the same blocks in different arrangements. The main difference between the two
+tables is the position of the transition metals (Sc, Mn, Cu, Zn). The atomic configurations
+arising from the latter table are in accordance with those derived by Pyykkö and Zhao
+[50] from self-consistent field calculations, except for the “Scandium” (Z = 17). Indeed,
+according to our periodic table, the element Sc has the configuration [Ar]4s2 3d, a fact to
+be contrasted with the configuration [Ar]4s3d2 obtained in Ref. [50].
+   To close this paper, we would like to mention that the developments in the present work
+could be considered as a first step towards a classification of molecules in two dimensions.
+We hope to return on this subject in the future.
+
+                                  Acknowledgements
+
+   One of the authors (T. N.) wishes to thank the Institut de Physique de l’Université
+d’Oran and the Institut de Physique Nucléaire de l’Université Lyon 1 for having made
+possible his stay in Lyon-Villeurbanne in December 1994.
+
+
+
+
+                                             14
+References
+
+ [1] N. Bohr, Z. Physik 9, 1 (1922).
+
+ [2] E. Madelung, Die mathematischen Hilfsmittel des Physikers (Springer-Verlag, Berlin,
+    1936).
+
+ [3] V.M. Klechkovskii, Zh. Eksp. Teor. Fiz. 41, 465 (1961). See also: Dokl. Akad. Nauk
+    SSSR 92, 923 (1955).
+
+ [4] S.A. Goudsmit and P.I. Richards, Proc. Nat. Acad. Sci. US 51, 664 (1964).
+
+ [5] P.-O. Löwdin, Int. J. Quantum Chem.: Quant. Chem. Symp. 3, 331 (1969).
+
+ [6] H.H. Dash, Int. J. Quantum Chem.: Quant. Chem. Symp. 3, 335 (1969).
+
+ [7] D. Neubert, Z. Naturforsch. 25a, 210 (1970).
+
+ [8] Yu.N. Demkov and V.N. Ostrovsky, Zh. Eksp. Teor. Fiz. 60, 2011 (1971); 62, 125
+    (1972); 63, 2376 (1972). [English translation: Soviet Phys.-JETP 13, 1083 (1971);
+    35, 66 (1972).]
+
+ [9] O.A. Novaro and K.B. Wolf, Rev. Mex. Fı́s. 20, 265 (1971).
+
+[10] Yu.B. Rumer and A.I. Fet, Teor. Mat. Fiz. 9, 203 (1971); 9, 1081 (1972).
+
+[11] O. Novaro and M. Berrondo, J. Phys. B: At. Mol. Phys. 5, 1104 (1972).
+
+[12] A.O. Barut, in The Structure of Matter, B.G. Wybourne, Ed. (University of Canter-
+    bury, Christchurch, New Zealand, 1972).
+
+[13] M. Berrondo and O.A. Novaro, J. Phys. B: At. Mol. Phys. 6, 761 (1973).
+
+[14] O. Novaro, Int. J. Quantum Chem.: Quantum Chem. Symp. 7, 53 (1973).
+
+[15] H. Odabasi, Int. J. Quantum Chem.: Quant. Chem. Symp. 7, 23 (1973).
+
+[16] V.M. Byakov, V.I. Kulakov, Y.B. Rumer, and A.I. Fet, Preprint ITEP-26 (1976);
+    Preprint ITEP-90 (1976); Preprint ITEP-07 (1977).
+
+                                          15
+[17] L.D. Landau and E.M. Lifshitz, Quantum Mechanics: Non-relativistic Theory (Perg-
+    amon Press, Oxford, 1977).
+
+[18] C.K. Jørgensen, J. Chim. Phys. 76, 630 (1979).
+
+[19] J. Katriel and C.K. Jørgensen, Chem. Phys. Lett. 87, 315 (1982).
+
+[20] H. Essén, Int. J. Quantum Chem. 21, 717 (1982).
+
+[21] Y. Kitagawara and A.O. Barut, J. Phys. B: At. Mol. Phys. 16, 3305 (1983); 17, 4251
+    (1984).
+
+[22] D. Purdela, Int. J. Quantum Chem. 34, 107 (1988).
+
+[23] M. Kibler, J. Mol. Struct. 187, 83 (1989).
+
+[24] O. Novaro, J. Mol. Struct. 199, 103 (1989).
+
+[25] D. Purdela, J. Mol. Struct. 245, 119 (1991).
+
+[26] T. Négadi and M. Kibler, J. Phys. A: Math. Gen. 25, L157 (1992).
+
+[27] R. Hefferlin and H. Kuhlman, J. Quant. Spectrosc. Radiat. Transfer 24, 379 (1980).
+
+[28] F. Kong, J. Mol. Struct. 90, 17 (1982).
+
+[29] R.A. Hefferlin, G.V. Zhuvikin, K.E. Caviness, and P.J. Duerksen, J. Quant. Spec-
+    trosc. Radiat. Transfer 32, 257 (1984).
+
+[30] G.V. Zhuvikin and R. Hefferlin, Symmetry Principles for Periodic Systems of
+    Molecules, Report JR-PHYS-SC/SPBU 1 (1994).
+
+[31] S.P. Alliluev, Zh. Eksp. Teor. Fiz. 33, 200 (1957). [English translation: Soviet Phys.-
+    JETP 6, 156 (1958).]
+
+[32] M. Bander and C. Itzykson, Rev. Mod. Phys. 38, 330 (1966); 38, 346 (1966).
+
+[33] J.-P. Antoine, Ann. Soc. Sci. Bruxelles 80, 169 (1966); 81, 49 (1966).
+
+
+
+                                            16
+[34] H. Bacry and J.L. Richard, J. Math. Phys. 8, 2230 (1967).
+
+[35] D.R. Herrick, O. Sinanoğlu, and K.K. Bölümü, Rev. Mex. Fı́s. 22, 1 (1973).
+
+[36] J. Čı́žek and J. Paldus, Int. J. Quantum Chem. 12, 875 (1977).
+
+[37] G.F. Kventsel and J. Katriel, Phys. Rev. A 24, 2299 (1981).
+
+[38] I. Mladenov and V. Tsanov, J. Geom. Phys. 2, 17 (1985).
+
+[39] K. Andrew and J. Supplee, Am. J. Phys. 58, 1177 (1990).
+
+[40] J. Avery and Zhen-Yi Wen, Int. J. Quantum Chem.: Quant. Chem. Symp. 17, 201
+    (1983).
+
+[41] J. Avery, Int. J. Quantum Chem.: Quant. Chem. Symp. 20, 57 (1986).
+
+[42] J. Avery, P. Sommer-Larsen, and S. Hengyi, Int. J. Quantum Chem. 29, 129 (1986).
+
+[43] J. Avery and P. Sommer-Larsen, Int. J. Quantum Chem.: Quant. Chem. Symp. 22,
+    437 (1988).
+
+[44] J. Avery and F. Antonsen, Int. J. Quantum Chem.: Quant. Chem. Symp. 23, 159
+    (1989).
+
+[45] J. Avery, in Dimensional Scaling in Chemical Physics, D.R. Herschbach, J. Avery,
+    and O. Goscinski, Eds. (Kluwer Academic, Dordrecht, The Netherlands, 1992).
+
+[46] E. Abott, Flatland (Dover Reprint, New York, 1952).
+
+[47] F.J. Asturias and S.R. Aragón, Am. J. Phys. 53, 893 (1985).
+
+[48] R.K. Bhaduri, S. Das Gupta, and S.J. Lee, Am. J. Phys. 58, 983 (1990).
+
+[49] X.L. Yang, M. Lieber, and F.T. Chan, Am. J. Phys. 59, 231 (1991).
+
+[50] P. Pyykkö and Y. Zhao, Int. J. Quantum Chem. 40, 527 (1991); see also: P. Pyykkö
+    and Y. Zhao, in Dimensional Scaling in Chemical Physics, D.R. Herschbach, J. Avery,
+    and O. Goscinski, Eds. (Kluwer Academic, Dordrecht, The Netherlands, 1992).
+
+                                            17
+[51] A. Nikiforov and V. Ouvarov, Eléments de la Théorie des Fonctions Spéciales (Mir,
+    Moscow, 1976).
+
+[52] V. Fock, Z. Phys. 98, 145 (1935).
+
+[53] M. Kibler and T. Négadi, J. Math. Chem. 11, 13 (1992).
+
+[54] M.R. Kibler, in Symmetry and Structural Properties of Condensed Matter, W. Florek,
+    D. Lipiński, and T. Lulek, Eds. (World Scientific, Singapore, 1993).
+
+[55] M. Kibler, in Generalized Symmetries in Physics, H.-D. Doebner, V.K. Dobrev, and
+    A.G. Ushveridze, Eds. (World Scientific, Singapore, 1994).
+
+
+
+
+                                           18
+

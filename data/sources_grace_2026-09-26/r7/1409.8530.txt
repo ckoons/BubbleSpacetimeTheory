@@ -1,0 +1,678 @@
+                                            HYDROGEN ATOM IN SPACE WITH A COMPACTIFIED EXTRA DIMENSION AND
+                                                           POTENTIAL DEFINED BY GAUSS’ LAW
+
+                                                                                         MARTIN BUREŠ AND PETR SIEGL
+
+
+
+
+                                                    Abstract. We investigate the consequences of one extra spatial dimension for the stability and energy spectrum
+                                                    of the non-relativistic hydrogen atom with a potential defined by Gauss’ law, i.e. proportional to 1/|x|2 . The
+                                                    additional spatial dimension is considered to be either infinite or curled-up in a circle of radius R. In both cases,
+                                                    the energy spectrum is bounded from below for charges smaller than the same critical value and unbounded
+                                                    from below otherwise. As a consequence of compactification, negative energy eigenstates appear: if R is smaller
+                                                    than a quarter of the Bohr radius, the corresponding Hamiltonian possesses an infinite number of bound states
+                                                    with minimal energy extending at least to the ground state of the hydrogen atom.
+
+
+
+
+arXiv:1409.8530v1 [quant-ph] 30 Sep 2014
+                                                                                                   1. Introduction
+                                              String theory, predicting the existence of extra dimensions, has stimulated the study of higher-dimensional
+                                           models, which often provide a deeper insight into 3-dimensional physics. Surprisingly, in spite of many years
+                                           of research, a question of what happens to ordinary atoms when more than the usual three dimensions are
+                                           considered seems not fully answered.
+                                              Many existing works deal with a general case of d-dimensional hydrogen atoms with the potential proportional
+                                           to 1/|x|, irrespective of the number of spatial dimensions. A system defined in this way is indeed stable and
+                                           one can derive wave functions and their respective eigenenergies, see e.g. [1, 2, 3, 4, 5, 6].
+                                              However, as it has been pointed out e.g. in [7, 8, 9, 10, 11, 12] or recently in [13], a more physically relevant
+                                           potential is the solution of Maxwell’s equations for a point charge in the d-dimensional space. In details,
+                                           Vd (|x|) ∼ |x|2−d and the corresponding Schrödinger equation reads
+                                                                                         ~2          e2d
+                                                                                                        
+                                                                                       −    ∆ − d−2        ψ = Eψ,                                           (1)
+                                                                                         2m       |x|
+                                           where ed is a d-dimensional charge. Questions on stability and the influence of extra dimensions on energy
+                                           spectra for this potential seem still open. Intuitively, an instability, or the unboundedness of the energy spectrum
+                                           from below, could be viewed as a fall of the electron on the nucleus, cf. [14, p. 116] or [15]. In this regard it
+                                           has only been formally shown that there is no stable hydrogen atom in spaces where the additional dimensions
+                                           are of infinite extent [8, 10, 9]. Nonetheless, it is natural to ask what happens if the extra dimensions are
+                                           compactified. This work fills the gap by delivering rigorous results for the cases of both a compactified and a
+                                           non-compactified extra dimension.
+                                              We focus on spaces with one extra spatial dimension, which, among higher dimensional spaces, require a
+                                           special treatment since the potential can be merged with the centrifugal term arising from the radial reduction
+                                           of the central potential. In other words, because of the absence of a characteristic length, a procedure leading
+                                           to dimensionless quantities, which works in the treatment of the radial equation for d 6= 4, cannot be used here
+                                           [9, 10].
+                                              First, we consider the extra dimension to be non-compactified, i.e. we treat it equally with the other three
+                                           dimensions. Recalling standard tools of functional analysis, it is showed that for Z ∈ [0, 1), where Z := 2me24 /~2 ,
+                                           the Hamiltonian is non-negative without any bound state solutions, cf. Thm. 1. However, it does not make sense
+                                           to speak about a stable atom since this system is always ionized. For Z > 1, the spectrum is unbounded from
+                                           below, cf. Thm. 2. Hence, there is no stable hydrogen atom if the additional dimension is non-compactified.
+                                           These results prove the formally derived conclusions in earlier works, see e.g. [9, 10, 13, 16].
+                                              The main goal of this work is to investigate the consequences of circular compactification of the extra dimen-
+                                           sion for the energy spectrum. More precisely, the underlying configuration space is R3 × S 1 , where S 1 is a circle
+                                           of radius R. For any potential with the singularity 1/|x|2 , cf. (23), the stability result remains the same as in
+
+                                              Date: 30th September 2014.
+                                              Key words and phrases. Extra Dimensions; Hydrogen Atom; Quantum Stability.
+                                              We would like to thank Rikard von Unge, Klaus Bering, Jean-Marie Barbaroux and David Krejčiřı́k for very useful discussions
+                                           and suggestions. The first author was supported by the Czech government grant agency under contract no. GAČR 202/08/H072.
+                                                                                                             1
+2                                         MARTIN BUREŠ AND PETR SIEGL
+
+
+R4 , i.e. the critical value Z = 1, cf. Thms. 3 and 4. Results on essential spectrum and existence of an infinite
+number of negative eigenvalues are presented in Thms. 5 and 6.
+   The method of images, cf. Section 4.1, provides a potential Vcirc , cf. (40), with the desired behaviour:
+Vcirc ∼ 1/|x|2 close to the charge, i.e. it corresponds to the potential in R4 , and the usual 3-dimensional
+behaviour 1/r is restored far from the charge. The resulting relation e24 = 2Re23 between the three- and four-
+dimensional charges and the stability results, cf. Section 4, imply the existence of a critical compactification
+radius (of the order of the Bohr radius a0 )
+                                                 a0    ~2
+                                      Rcrit :=      =       ≈ 1.32 × 10−11 m,                                    (2)
+                                                 4    4me23
+above which the system becomes instable. As a corollary of Thm. 6, for R < Rcrit , the corresponding Hamil-
+tonian possesses an infinite number of bound states. Furthermore, the minimal energy extends at least to the
+ground state energy of the hydrogen atom, cf. Cor. 8.
+    Because Rcrit was found to be of the order of the Bohr radius, we did not obtain a stronger constraint on
+models involving one extra dimension, as the latest calculations based on the LHC data, cf. [17] and also [18, 19,
+20], give the value of about 10−18 m as the upper bound. In more detail, the lower bound on the compactification
+scale R−1 obtained at 3σ and coming from the LEP collider precision electroweak tests is about R−1 > 260GeV.
+The CMS data give a bound R−1 > 720GeV at 95% confidence level. Recently, calculations based on the LHC
+data on the Higgs boson decay gave an even better constraint of R−1 > 1.3TeV at 95% C.L. This corresponds
+to the radius of 9.5 × 10−19 m which is much more restrictive than (2).
+    Stronger theoretical constraints may be obtained by calculating corrections to the spectrum and comparing
+it to the hydrogen atom. An attempt of this type of calculations can be found in [21], however, only a different,
+simplified form of the potential than that corresponding to an extra compactified dimension, is treated eventually.
+Perturbative calculations of the shifts of bound state energies due to the presence of an extra compactified
+dimension will be subject to a separate article [22].
+    From the mathematical point of view, the essential tools for addressing the stability issue are the Hardy
+inequality, cf. [23], [24, Sec. I.4.1] or (6), and the KLMN theorem cf. [25, Thm. X.17], [24, Sec. I.2.4] or Thm. A.3
+in Appendix; both are classical and frequently used in quantum problems, particularly for the stability of matter,
+see e.g. [26, 27]. The former can be viewed as a control of the potential energy by the kinetic energy. The
+latter (an analog of the Kato-Rellich theorem [25, Thm. X.12] for forms) allows to add small (in a certain sense)
+perturbations to a self-adjoint operator while preserving self-adjointness and semi-boundedness. For Z ∈ [0, 1),
+the combination of these results yields the self-adjoint and non-negative Hamiltonian; as explained in Section
+3.1, the compactified case can be treated analogously, cf. Thm. 3. The definition of a self-adjoint Hamiltonian
+for Z > 1 is more complicated since KLMN theorem is no longer applicable (the perturbation is not small).
+Nonetheless, we construct suitable trial functions and show that any corresponding self-adjoint Hamiltonian
+has the spectrum unbounded below, cf. Thms. 2 and 4. In the compactified and stable case, the existence
+of the infinite number of boundstates is obtained by a straightforward adaptation of the standard result [28,
+Thm. XIII.64] based on min-max principle, cf. [28, Sec. XIII.1] or [24, Sec. I.2.4].
+    The following notation is used: Ω = R3 × (−πR, πR) is the compactified configuration space after the
+parametrization (of S 1 ), Bρ (x0 ) := {x ∈ R4 : |x0 − x| < ρ} is the ball around x0 ∈ R4 with radius ρ, W k,p (Ω)
+are Sobolev spaces and k · kW k,p the corresponding norms, e.g. kψk2W 1,2 = k∇ψk2 + kψk2 , and the Euclidean
+norm in Cn is denoted by | · |.
+
+                                 2. Extra dimension of an infinite extent
+    First, we review the case of an extra dimension which is infinitely extended. The Hamiltonian for a closed
+system of two non-relativistic point masses interacting via a central force is −~2 ∆/2m + e24 V (|x|), where e4 is
+the four-dimensional charge (whose unit is energy1/2 × length) and the potential V is the general solution of
+Poisson’s equation for a point charge in 4 dimensions, i.e. V (x) = −1/|x|2 .
+    To simplify all formulas in the sequel, we define a dimensionless parameter Z := 2me24 /~2 , where m is the
+reduced electron mass. Writing k 2 = 2mE 2 /~2 , the Schrödinger equation (1) takes the form (−∆ − Z/|x|2 )ψ =
+k 2 ψ.
+
+2.1. Stability for weak charges: application of the Hardy inequality. We recall how to introduce the
+Hamiltonian in a mathematically correct way in the Hilbert space L2 (R4 ). Although this approach might seem
+to be quite meticulous, the usage of the correct framework provides an immediate answer to the question of
+semi-boundedness of the spectrum of H. Moreover, it enables us to analyze the more complicated case with a
+compactified extra dimension.
+                      HYDROGEN ATOM IN SPACE WITH A COMPACTIFIED EXTRA DIMENSION                                 3
+
+
+  We start from the free (self-adjoint and non-negative) Hamiltonian
+                                       H0 := −∆,         Dom(H0 ) := W 2,2 (R4 ).                             (3)
+We consider V as a perturbation of H0 in a suitable sense, namely as a relatively form-bounded perturbation.
+In more detail, H0 is associated (in the sense of the representation theorem [29, Thm. VI.2.1], cf. Thm. A.1 in
+Appendix) with the quadratic form
+                                     h0 [ψ] := k∇ψk2 ,     Dom(h0 ) := W 1,2 (R4 ),                           (4)
+while V (x) = −|x|−2 is associated with
+                              Z
+                                  V |ψ|2 ,      Dom(v) := ψ ∈ L2 (R4 ) : V |ψ|2 ∈ L1 (R4 ) .
+                                                         
+                      v[ψ] :=                                                                                 (5)
+                                R4
+The classical Hardy inequality [23] reads (for d ≥ 3)
+                                                                (d − 2)2     |ψ(x)|2
+                                              Z                          Z
+                        ∀ψ ∈ W 1,2 (Rd ),         |∇ψ(x)|2 dx ≥                      dx.                      (6)
+                                               Rd                  4      Rd   |x|2
+Using the notation for quadratic forms, we get in our case, i.e. d = 4, that
+                                         ∀ψ ∈ Dom(h0 ),        |v[ψ]| ≤ h0 [ψ].                               (7)
+This inequality means that the form v is relatively bounded w.r.t. h0 with the bound 1 and it is the cornerstone
+of the definition of the Hamiltonian for Z ∈ [0, 1). For Zv is then relatively bounded w.r.t. h0 with bound
+Z < 1, thus the KLMN theorem is applicable, cf. [25, Thm. X.17] or Thm. A.3. It yields that the quadratic
+form
+                         h := h0 + Zv,      Dom(h) := Dom(h0 ) = W 1,2 (R4 ), Z ∈ [0, 1),                    (8)
+is symmetric, closed, and bounded from below, hence associated with unique self-adjoint, bounded from below
+operator H that represents our Hamiltonian. In fact, having inequality (7), we conclude that spectrum of H is
+non-negative.
+   Since the potential decays at infinity, using a standard argument based on construction of suitable singular
+sequences (regularized plane waves), it follows that σ(H) = σess (H) = [0, +∞); for more details see e.g. the
+proof of Thm. 5, dealing with an analogous problem. In other words, the spectrum of H is the same as that of
+H0 , i.e. consisting of a branch of the continuous one without any negative eigenvalues.
+   Formally, we can sum up the facts above into the following statement:
+Theorem 1. Let V (x) = −|x|−2 and let Z ∈ [0, 1). Then H := −∆ + ZV , defined as a sum of forms, is
+self-adjoint and non-negative. Moreover, σ(H) = σess (H) = [0, +∞).
+   In the border case Z = 1, we can start with a symmetric Hamiltonian Hmin , cf. (9), that is non-negative due
+to Hardy inequality. Hence the Friedrichs extension, cf. [25, Thm. X.23] or [30, Thm. 4.6.11] for instance, is
+non-negative and thus represent a suitable Hamiltonian. The case Z < 0 (repulsive interaction) is even simpler,
+the spectral result is the same as in Thm.1.
+2.2. Instability for strong charges. The instability of the Hamiltonian for Z > 1 can be explained with the
+help of facts related to the Hardy inequality. Before giving the details, we remark that there is a complication
+already in the definition of a self-adjoint Hamiltonian since, unlike in the Z < 1 case, the forms approach and
+KLMN theorem are not applicable. It is well-known, cf. [25, Sec. X.2], [31], that we have an infinite number of
+self-adjoint operators that extend a natural minimal (only symmetric) operator
+                              Hmin := −∆ + ZV,           Dom(Hmin ) := C0∞ (R4 \ {0}).                        (9)
+Therefore, in order to establish the instability, we have to show that any of these possible Hamiltonians has
+spectrum unbounded from below. We provide a more abstract argument first and then we briefly recall the
+explanation due to Krall, cf. [31], suitable for extensions allowing separation of variables (in spherical coordi-
+nates).
+Theorem 2. Let Z > 1 and let Hsa be any self-adjoint extension of operator Hmin defined in (9). Then the
+spectrum of Hsa is unbounded from below (and from above).
+Proof. We use the fact that there exists an optimizing sequence of functions {ψn } ⊂ W 1,2 (R4 ) for the Hardy
+inequality (6). Let 0 < δ < 1/2, and let η ∈ C∞     0 (R) be such that 0 ≤ η ≤ 1, η ≡ 1 for (−δ, δ) and
+supp η ⊂ (−3δ/2, 3δ/2). We define a sequence of functions
+                                              ψn (x) := |x|−1+1/n η(|x|),                                    (10)
+4                                           MARTIN BUREŠ AND PETR SIEGL
+
+
+belonging to W 1,2 (R4 ). Since C0∞ (R4 \ {0}) is dense in W 1,2 (R4 ) (in W 1,2 norm), cf. [32, Cor. VIII.6.4], we can
+construct, using a standard diagonal scheme argument, a sequence of functions {ϕn } ⊂ C0∞ (B2δ (0) \ {0}) such
+that
+                                                                     1
+                                                 kψn − ϕn k2W 1,2 < .                                              (11)
+                                                                    n
+Moreover, from the Hardy inequality (6), we get:
+                               |ψn − ϕn |2                                                  1
+                          Z                  Z
+                                      2
+                                           ≤      |∇(ψn − ϕn )|2 dx ≤ kψn − ϕn k2W 1,2 < .                         (12)
+                           R 4    |x|         R 4                                           n
+  The concluding part of the proof consists of a couple of inequalities. All constants Ci are positive real
+numbers. Firstly, it is easy to verify that the normalization of ψn is bounded as follows:
+                                             0 < C1 ≤ kψn k2 ≤ C2 < +∞.                                            (13)
+Further, for all n ∈ N we have
+                                               Z ∞                                       Z ∞
+                                |ψn |2                                     2                             2
+            Z              Z                              
+                 |∇ψn |2 −          2
+                                        = C Θ        ∂ ρ    ρ −1+1/n
+                                                                      η(ρ)      ρ 3
+                                                                                    dρ −      ρ−1+1/n η(ρ) ρdρ
+             R4              R4 |x|              0                                        0
+                                                                                     2(1 − n) ∞ 2/n
+                           Z ∞                        Z ∞
+                   1 − 2n
+                                                                                             Z
+                                   −1+2/n 2                    1+2/n ′     2
+           = CΘ                  ρ        η (ρ)dρ  +         ρ       η (ρ)   dρ +                ρ η(ρ)η ′ (ρ)dρ   (14)
+                     n2      0                          0                               n     0
+                                                                              !
+                    2 2δ −1+2/n
+                       Z                       Z 2δ               Z 2δ
+           ≤ CΘ            ρ          dρ + C̃1      ρ1 dρ + C̃2         ρ0 dρ ≤ C3 < +∞,
+                    n 0                         0                  0
+
+where CΘ comes from integrating over angular coordinates.
+  Finally, taking, as a lower bound, the integral over (0, δ) in the radial part, we easily obtain
+                                                   |ψn |2
+                                                Z
+                                                          ≥ nC4 .                                                  (15)
+                                                    |x|2
+   We are now ready to analyze the infimum of the spectrum of Hsa . Since ϕn ∈ Dom(Hmin ) ⊂ Dom(Hsa ), the
+integration by parts yields
+                                      hϕn , Hsa ϕn i   k∇ϕn k2 + Zhϕn , V ϕn i
+                                               2
+                                                     =                             .                              (16)
+                                        kϕn k                      kϕn k2
+In the next steps, we approximate ϕn by ψn . At first, using |a − b| ≥ |a| − |b|, Young inequality (with setting
+ε = 1/2 eventually), (11) and (13), we obtain
+                                                                 
+                                                                1                    1
+            2                    2
+      kϕn k = kϕn − ψn + ψn k ≥ (1 − ε)kψn k + 1 − 2
+                                                                    kϕn − ψn k2 ≥ kψn k2 − kϕn − ψn k2W 1,2
+                                                                ε                    2
+                                                                                                                  (17)
+                 C1    1
+              ≥     − .
+                 2     n
+Next, using again triangle, Young inequalities, |a − b| ≥ |a| − |b|, (11), (12) and (14), we get
+                                                                 |ϕn − ψn + ψn |2
+                                                            Z
+           hϕn , Hsa ϕn i = k∇ϕn − ∇ψn + ∇ψn k2 − Z
+                                                             R4        |x|2
+                            n+1                                                n−1          |ψn |2 − n|ϕn − ψn |2
+                                                                                     Z
+                          ≤       k∇ψn k2 + (n + 1)k∇ϕn − ∇ψn k2 − Z
+                              n                                                  n     R4            |x|2
+                                                     |ψn |2                                  |ψn |2
+                                                                                 
+                            n+1                                               Z +1
+                                                Z                                      Z
+                          ≤         k∇ψn k2 −           2
+                                                               − Z −1−                           2
+                                                                                                                  (18)
+                              n                  R4 |x|                         n        R4 |x|
+                                                                           |ϕn − ψn |2
+                                                                     Z
+                            + (n + 1)kψn − ϕn k2W 1,2 + Z(n − 1)
+                                                                        4     |x|2
+                                                                  R
+                            n+1                           Z +1        n+1          n−1
+                          ≤       C3 − n C4 Z − 1 −                 +         +Z          .
+                              n                              n            n          n
+In the last step, we combine (17) and (18) and we obtain
+                                          hϕn , Hsa ϕn i
+                                                         → −∞ as         n → ∞.                                    (19)
+                                             kϕn k2
+Hence, the spectrum of any self-adjoint extension Hsa of Hmin is unbounded from below.                               
+                      HYDROGEN ATOM IN SPACE WITH A COMPACTIFIED EXTRA DIMENSION                                        5
+
+
+2.2.1. Spectrum of spherically symmetric extensions. The symmetric operator Hmin can be rewritten in spherical
+coordinates (ρ, φ1 , φ2 , φ3 ) as
+
+                                                ∂2     3 ∂      L2 (3)   Z
+                                        Hmin = −   2
+                                                     −       +      2
+                                                                       − 2,                                    (20)
+                                                ∂ρ     ρ ∂ρ       ρ     ρ
+where L2 (3) is the square of the angular momentum operator on a 3-sphere, see e.g. [16] for details. Due to spher-
+ical symmetry of the potential, we can separate variables by making the Ansatz ψ(x) = R(ρ)Y (3) (φ1 , φ2 , φ3 ),
+and thus obtain the radial operator acting in L2 ((0, ∞), ρ3 dρ):
+                                                d2    3 d    l(l + 2) − Z
+                                            −       −      +              .                                          (21)
+                                                dρ2   ρ dρ        ρ2
+The usual transformation R(ρ) 7→ ρ−3/2 R̃(ρ) yields the final radial operator in L2 ((0, ∞), dρ):
+                                                  rad        d2    γ
+                                                 Hmin := −       − 2,                                                (22)
+                                                             dρ2  ρ
+where γ = Z − 3/4 − l(l + 2), which is exactly the form of Hamiltonian studied in [33] and particularly in [31]
+for γ > 1/4, i.e. Z > 1 if l = 0. A one parameter family of self-adjoint operators Hα (possible Hamiltonians)
+                              rad
+having the same action as Hmin    when restricted to C0∞ (R+ ) functions is found there; the parameter α enters
+the generalized boundary conditions at 0 that describe the domain of Hα . The spectrum of any Hα contains
+continuous branch [0, +∞) and negative eigenvalues having accumulation points at 0 and at −∞, moreover, the
+algebraic eigenvalue equation, where α enters as a parameter, is known, cf. [31].
+
+                                        3. Compactified extra dimension
+    We consider a configuration space with the ordinary three extended spatial dimensions (x1 , x2 , x3 ) ∈ R3 and
+one extra compactified dimension x4 with the topology of a circle with radius R, i.e. R3 × S 1 . Parameterizing
+S 1 , we obtain the configuration space Ω = R3 × (−πR, πR) and the Hamiltonian H = −∆ + ZV in L2 (Ω)
+with periodic boundary conditions at (x1 , x2 , x3 , ±πR) in the domain. We address the question of stability for
+Hamiltonians with the potential:
+                                           1
+                                V (x) = − 2 + W (x), with W ∈ L∞ (Ω).                                          (23)
+                                          |x|
+The motivation for this choice of configuration space will become clear in Section 4 where the particular form
+of W will be derived.
+
+3.1. Stability and instability. As in Section 2.1, we will treat the problem by introducing quadratic forms
+corresponding to our operators. The kinetic part H0 := −∆ is associated with the form
+            h0 [ψ] := k∇ψk2 ,      Dom(h0 ) := {ψ ∈ W 1,2 (Ω) : ψ(x1 , x2 , x3 , −πR) = ψ(x1 , x2 , x3 , πR)}        (24)
+while V having the form (23) is associated with
+                              Z
+                                  V |ψ|2 ,   Dom(v) := ψ ∈ L2 (Ω) : V |ψ|2 ∈ L1 (Ω) .
+                                                      
+                      v[ψ] :=                                                                                        (25)
+                                   Ω
+
+Theorem 3. Let V be given by (23). Then, for all ψ ∈ W 1,2 (Ω) and all ε > 0,
+                               Z                     Z
+                                  |V ||ψ|2 ≤ (1 + ε)   |∇ψ|2 + C(ε)kψk2 ,                                            (26)
+                                       Ω                     Ω
+where C(ε) > 0 is independent of ψ. Hence, if Z ∈ [0, 1), then H := −∆ + ZV , defined as a sum of forms, is
+self-adjoint and bounded from below.
+Proof. Let ξ ∈ C0∞ (Ω), where 0 ≤ ξ ≤ 1 and ξ ≡ 1 for x ∈ BR−δ (0), where δ > 0, i.e. in a ball with radius
+R − δ around the singularity. Then
+                    |ξψ|2        (1 − ξ 2 )|ψ|2                        |ξψ|2
+  Z              Z            Z                   Z               Z                         Z
+                                                              2
+      |V ||ψ|2 ≤         2
+                            +            2
+                                                +     |W ||ψ|   ≤           2
+                                                                              + C1 kψk 2
+                                                                                         ≤      |∇(ξψ)|2 + C1 kψk2
+                     |x|       Ω     |x|            Ω               Ω   |x|
+   Ω              Ω
+                                                                                           ZΩ
+                                                                                         1
+                 Z                                              Z
+                                      2            2                   2      2
+               =    |(∇ξ)ψ + ξ(∇ψ)| + C1 kψk ≤ (1 + ε)              |ξ| |∇ψ| + 1 +               |∇ξ|2 |ψ|2 + C1 kψk2 (27)
+                  Ω                                               Ω                      ε    Ω
+                          Z
+                                 2              2
+               ≤ (1 + ε)     |∇ψ| + C(ε)kψk ,
+                          Ω
+6                                            MARTIN BUREŠ AND PETR SIEGL
+
+
+with arbitrary positive ε. The last inequality on the first line is due to the Hardy inequality (6) and the fact
+that ξψ ∈ W 1,2 (R4 ). The inequality on the second line is due to the triangle and the Young inequality. Now,
+multiplying both sides of (26) by Z, we get using the notation for quadratic forms:
+                             ∀ψ ∈ Dom(h0 ),            |v[ψ]| ≤ Z(1 + ε)h0 [ψ] + ZC(ε)kψk2 .                   (28)
+If Z ∈ [0, 1), then Zv is relatively bounded w.r.t. h0 with bound Z ∈ [0, 1), because ε is an arbitrary positive
+number. Hence, we can apply the KLMN theorem yielding the claim.                                              
+   Let us note that the conclusion on the stability is valid also for a finite number of singularities of the type
+             PN
+1/|x|2 , i.e. k=0 = 1/|x − ck |2 , where ck ∈ Ω. The function W may not be bounded, for instance, a relative
+form-boudedness with respect to h0 with bound 0 is sufficient. Also, the stability result remains unchanged if
+we replace the periodic boundary conditions by Dirichlet, Neumann or Robin ones. Moreover, the proof can be
+extended to any sufficiently regular domain Ω in a standard way.
+   For Z > 1, the system is not stable, as in the uncompactified case, cf. Thm. 2. Again, we start with a
+symmetric minimal operator
+                          Hmin := −∆ + ZV,                 Dom(Hmin ) := {ψ ∈ C0∞ (Ω \ {0})},                  (29)
+and deal with its self-adjoint extensions.
+Theorem 4. Let Z > 1 and let Hsa be any self-adjoint extension of a symmetric operator Hmin defined in (29).
+Then the spectrum of Hsa is unbounded from below (and from above).
+Proof. The sequence ϕn of trial functions from the proof of Thm. 2 was intentionally constructed in such a way
+that supp ϕn ⊂ (B2δ {0}) with arbitrary δ > 0, hence we can use it also in Ω. So it follows that, for Z > 1, the
+spectrum of Hsa is unbounded from below.                                                                      
+3.2. Essential spectrum. For Z ∈ [0, 1) and V decaying at infinity, the essential spectrum of H remains
+[0, +∞), as in the case of an extra dimension of infinite extent, cf. Thm. 1.
+Theorem 5. Let Z ∈ [0, 1), V be given by (23) with W (x) → 0 as |x| → +∞ and let H = −∆ + ZV be defined
+as a sum of forms. Then σess (H) = [0, +∞).
+Proof. Since the potential V decays at infinity, the interval [0, +∞) belongs to σess (H) as it can be seen from
+Weyl criterion, cf. [34, Thm. VII.12] or Thm. A.2 in Appendix, and a usual construction of singular sequences,
+cf. for instance [24, Sec. I.3.2, II.2.2], [35] or [36, Sec. 8.3]. In more detail, define functions
+                               ψn (x1 , x2 , x3 , x4 ) := ϕn (x1 , x2 , x3 ) ei(k,k,k). (x1 ,x2 ,x3 ) ,        (30)
+where
+                                                                 x2
+                                                                  x
+                                                                      1  x3    
+                               ϕn (x1 , x2 , x3 ) := n−3/2 ϕ        − n,  − n,
+                                                                            −n                         (31)
+                                                          n      n       n
+with some ϕ ∈ C0 (R+ ) and kϕk = 1. Functions ϕn and ψn satisfy supp ϕn ⊂ Ωn , where Ωn := (n, +∞)3 ×
+                   ∞    3
+
+(−πR, πR), and
+                                 k∇ϕk                 k∆ϕk
+                       k∇ϕn k =        ,     k∆ϕn k =       ,    kϕn k = 1,    kψn k = 1.              (32)
+                                   n                    n2
+Moreover, using the first representation theorem [29, Thm. VI.2.1] part iii), cf. Thm. A.1 in Appendix, we
+show that ψn ∈ Dom(H). Clearly, ψn ∈ Dom(h) = Dom(h0 ), cf. (24). Taking an arbitrary ϕ ∈ Dom(h) and
+integrating by parts, we obtain h(ϕ, ψn ) = h∇ϕ, ∇ψn i+Zv(ϕ, ψn ) = hϕ, −∆ψn +ZV ψn i. Since −∆ψn −ZV ψn ∈
+L2 (Ω), we get (by the first representation theorem) that ψn ∈ Dom(H) .
+   Finally, a direct computation gives
+                        | − ∆ψn − k 2 ψn | = |∆ϕn |2 + 4|k · ∇ϕn |2 ≤ |∆ϕn |2 + 4k 2 |∇ϕn |2 ,                 (33)
+which implies, using (32),
+                               k − ∆ψn − k 2 ψn k ≤ k∆ϕn k2 + 4k 2 k∇ϕn k2 −−−→ 0.
+                                                                                            n→∞
+                                                                                                               (34)
+Hence
+    k − ∆ψn + ZV ψn − k 2 ψn k ≤ k − ∆ψn − k 2 ψn k + kZV ψn k ≤ k − ∆ψn − k 2 ψn k + |Z|kV kL∞ (Ωn )
+                                 p                                            n→∞
+                                                                                                               (35)
+                               ≤ k − ∆ϕn k2 + 4k 2 k∇ϕn k2 + |Z|kV kL∞ (Ωn ) −−−→ 0,
+so [0, ∞) ⊂ σ(H) by Weyl’s criterion, cf. Thm. A.2. Since the interval [0, ∞) has clearly no isolated points, it
+must be in σess (H).
+   On the other hand, σess (H) ⊂ [0, +∞) since inf σess (H) ≥ 0. The latter can be justified by the so-called
+min-max principle, cf. [28, Sec. XIII.1] or [24, Sec. I.2.4], and Neumann bracketing, cf. [28, Sec. XIII.15] or [24,
+                       HYDROGEN ATOM IN SPACE WITH A COMPACTIFIED EXTRA DIMENSION                                          7
+
+
+Sec. II.2.1, II.2.2]. The latter consists of dividing Ω = Ωn ∪ Ω̃n ∪ Σn , where Ω̃n := (−n, n)3 × (−πR, πR) and Σn
+                                                                   N      N
+represents a new boundary, and considering two operators Hint        , Hext acting in L2 (Ω̃n ), L2 (Ωn ), respectively,
+being “restrictions” of H with additional Neumann boundary conditions on Σn . More precisely, these operators
+are defined via quadratic forms
+    hN              2
+     int [ψ] := k∇ψk + Zv[ψ],        Dom(hN
+                                          int ) := {ψ ∈ W
+                                                          1,2
+                                                              (Ω̃n ) : ψ(x1 , x2 , x3 , −πR) = ψ(x1 , x2 , x3 , πR)},
+                                                                                                                        (36)
+   hN              2
+    ext [ψ] := k∇ψk + Zv[ψ],         Dom(hN
+                                          ext ) := {ψ ∈ W
+                                                          1,2
+                                                              (Ωn ) : ψ(x1 , x2 , x3 , −πR) = ψ(x1 , x2 , x3 , πR)}.
+Since W 1,2 (Ω̃n ) is compactly embedded in L2 (Ω̃n ), cf. [37, Thm. 6.3], the resolvent of Hint
+                                                                                             N
+                                                                                                 is compact, cf. [28,
+                                  N
+Thm. XIII.64], therefore σess (Hint ) = ∅. Finally, the min-max principle yields
+                                                 N              N
+                       inf σess (H) ≥ inf σess (Hext ) ≥ inf σ(Hext ) ≥ −|Z|kV kL∞ (Ωn ) → 0,                           (37)
+where the last inequality follows from the estimate hext [ψ] ≥ Z Ωn V |ψ|2 ≥ −|Z|kV kL∞ (Ωn ) kψk2 .
+                                                         N
+                                                                     R
+                                                                                                                          
+3.3. Negative eigenvalues. Unlike the case of the infinitely extended extra dimension, cf. Thm. 1, H may
+posses an infinite number of bound states.
+Theorem 6. Let Z ∈ (0, 1), V be given by (23) and satisfying
+                                                  a
+                               V (x) ≤ − 2                    ,           if |x| ≥ ρ0 ,                                 (38)
+                                         (x1 + x22 + x23 )1−ε
+for some a, ε, ρ0 > 0. Then the negative spectrum of H = −∆ + ZV , defined as a sum of forms, consists of an
+infinite number of eigenvalues.
+Proof. The claim follows from a simple and straightforward adaptation of the proof of [28, Thm. XIII.6]. Take
+a non-negative function φ ∈ C0∞ (R3 ) with supp φ ⊂ {x ∈ R3 : 1 < r < 2}, where r2 := x21 + x22 + x23 , and
+kφkL2 (R3 ) = 1. For ρ > 0, define ψρ (x1 , x2 , x3 , x4 ) := (2πR)−1/2 ρ−3/2 φ(x1 ρ−1 , x2 ρ−1 , x3 ρ−1 ). Hence, kψρ k = 1,
+supp ψρ ⊂ {x ∈ Ω : ρ < r < 2ρ}. Clearly ψρ ∈ Dom(h) and, similarly as in the proof of Thm. 5, it can be
+verified that ψρ ∈ Dom(H). Moreover, for ρ > ρ0 ,
+                 h[ψρ ] = hψρ , −∆ψρ i + Zhψρ , V ψρ i ≤ ρ−2 hψ1 , −∆ψ1 i − Zaρ−2+2ε hψ1 , r−2+2ε ψ1 i,                 (39)
+where the last expression is negative for large ρ. Taking a sequence {ρn }n such that ψρn have disjoint supports,
+we obtain an orthonormal sequence of trial functions for which hψρn , Hψρn i < 0 and hψρn , Hψρm i = 0 if n 6= m.
+The proof is concluded by the Rayleigh-Ritz principle, cf. [28, Thm. XIII.3] and the proof of [28, Thm. XIII.6]
+for further details.                                                                                           
+
+                                 4. Hamiltonian of circular compactification
+  We derive a particular potential Vcirc corresponding to two charged particles in a space with circularly
+compactified extra dimension and apply previous stability and spectral results; the latter yields a critical
+compactification radius Rcrit . Finally, we obtain an upper bound for the ground state energy of the corresponding
+Hamiltonian Hcirc .
+4.1. Method of images and stability. The potential Vcirc is obtained from the so-called method of images,
+cf. [16] for further details. The method consists in expanding, or ”unrolling”, the compactified dimension to get
+an infinite periodic space which repeats itself with the period of 2πR, where R is the radius of the compactified
+dimension. In this way we get an infinite ”chain” of systems periodically spaced along the extra dimension. If
+we again denote (x1 , x2 , x3 ) := ~r coordinates in the extended 3-dimensional space and x4 the coordinate along
+the compactified dimension (now unrolled), we have, instead of the potential of a single charge, the potential
+of a ”chain” of charges placed at points (~0, 0), (~0, 2πR), (~0, 4πR), etc. Hence, we calculate the overall potential
+simply by summing up the four-dimensional potentials −1/|x|2 , cf. (1):
+                                 ∞
+                                 X               1                  1        sinh(r/R)
+               Vcirc (x) := −        2 + x2 + x2 + (x − 2πnR)2 = − 2Rr cosh(r/R) − cos(x /R) ,                          (40)
+                                    x
+                                n=−∞ 1    2    3     4                                  4
+
+where the equality can be showed with the help of the residue theorem, cf. [16, appendix C].
+   For r ≪ R and x4 ≪ R, Vcirc ∼ −1/(r2 + x24 ), so, close to the charge, Vcirc behaves as in the uncompactified
+case. On the other hand, for r large, Vcirc ∼ −1/(2rR), i.e. the usual three-dimensional behaviour is restored.
+By comparing potential energies, i.e. −e23 /r and −e24 /(2rR), in the latter region, we establish the relation
+between both charges:
+                                                  e24 = 2Re23 .                                            (41)
+8                                         MARTIN BUREŠ AND PETR SIEGL
+
+
+Hence, the parameter Z is expressed by means of the Bohr radius a0 = ~2 /me23 :
+                                                 2me24   4Rme23   4R
+                                           Z=          =        =    .                                           (42)
+                                                  ~2       ~2     a0
+  Combining the latter and Thms. 3, 4, we determine the critial radius Rcrit = a0 /4 above which the system
+becomes instable:
+Corollary 7. The potential Vcirc , defined in (40), satisfies (23) with W (x) → 0 as |x| → +∞. Hence, for
+R ∈ (0, Rcrit ), the corresponding Hamiltonian
+                                                                4R
+                                              Hcirc = −∆ +         Vcirc ,
+                                                                a0
+defined as a sum of forms, is bounded from below and σess (Hcirc ) = [0, +∞). For R > Rcrit , any self-adjoint
+extension of a symmetric minimal operator Hmin , defined in (29) with V = Vcirc , has spectrum unbounded from
+below (and above).
+Proof. We need to verify the assumptions of Thms. 3, 4 and 5, where (42) is used. Clearly, Vcirc (x) = −|x|−2 +
+W (x), where
+                                                 ∞
+                                                X              1
+                                    W (x) := −                         .
+                                                     r 2 + (x − 2πnR)2
+                                                             4                                             (43)
+                                               n=−∞
+                                                     n6=0
+Simple estimates show that W is bounded:
+                          ∞                        ∞                   ∞
+                          X           1           X         1         X         1
+             |W (x)| =         2             2
+                                               ≤                 2
+                                                                   ≤
+                         n=−∞
+                              r + (x4 − 2πRn)    n=−∞
+                                                      (x4 − 2πRn)    n=−∞
+                                                                          (πR − 2πR|n|)2
+                          n6=0                         n6=0                    n6=0
+                                 ∞                          ∞                      ∞                             (44)
+                        1        X  1         2         1   X    2         1      X 1
+                     = 2 2                 = 2 2              = 2 2              =     ,
+                      π R n=−∞ (2|n| − 1)2  π R n=1 (2n − 1)2  π R n=0 (2n + 1)2   4R2
+                                 n6=0
+          P∞      1              2
+because    n=0 (2n+1)2 = λ(2) = π /8, see e.g. [38, p. 368]. Moreover, W (x) → 0 as |x| → +∞.                       
+
+4.2. Bound states for R < Rcrit . The potential Vcirc satisfies the assumptions of Thm. 6, cf. the right hand
+side of (40), hence Hcirc has an infinite number of negative eigenvalues. Moreover, Vcirc has a special property
+                                              Z πR
+                                                                  π
+                                                 Vcirc (x)dx4 = − ,                                              (45)
+                                             −πR                  r
+which can be seen from (cf. the integral formula [39, 2.553,3])
+                                                                                           πR
+         sinh(r/R) πR
+                                                            
+                                    dx4                       (cosh(r/R) − 1) tan(x4 /2R)
+                    Z
+                                                   = arctan                                    = π.
+             2R      −πR cosh(r/R) − cos(x4 /R)                       sinh(r/R)
+                                                                                                 −πR
+
+The property (45) indicates that the eigenfunctions of the usual three dimensional hydrogen,
+                                                                        
+                                                    − r              2r
+                        φN lm (r, θ, ϕ) = CN lm rl e N a0 L2l+1
+                                                           N −l−1          Plm (cos θ)eimϕ ,                     (46)
+                                                                    N a0
+where N ∈ N, l ∈ {0, 1, . . . N − 1}, m ∈ {−l . . . l} and CN lm are normalization constants, become suitable trial
+functions for negative spectrum of Hcirc . For instance, they can be used to obtain an alternative proof of the
+existence of the infinite number of negative eigenvalues of Hcirc . For our purposes, we use φ100 to find an upper
+bound for the ground state energy of Hcirc .
+Corollary 8. Let R ∈ (0, Rcrit ) and let Hcirc be as in Cor. 7. Then the negative spectrum of Hcirc consists of
+                                              ~2
+an infinite number of eigenvalues and min σ( 2m  Hcirc ) ≤ −me43 /(2~2 ).
+Proof. The existence of the infinite number of negative eigenvalues follows from (40) and Thm. 6. To show the
+                      ~2
+upper bound of min σ( 2m Hcirc ), define ψ := (2πR)−1/2 φ100 , cf. (46). It is not difficult to verify that ψ ∈ Dom(h)
+and kψk = 1. Moreover,
+                                        4R                              2      |φ100 |2       1
+                                                                           Z
+                      h[ψ] = h0 [ψ] −      v[ψ] = k∇3 φ100 k2L2 (R3 ) −                 = − 2,                    (47)
+                                        a0                              a 0 R3    r          a0
+                        HYDROGEN ATOM IN SPACE WITH A COMPACTIFIED EXTRA DIMENSION                                             9
+
+
+where the last step follows from the fact that φ100 is the ground state of 3-dimensional hydrogen. Using
+a0 = ~2 /me23 , we finally obtain
+                                    ~2                 ~2          ~2 1       me43
+                                       min σ(Hcirc ) ≤    h[ψ] = −        = −      .                                        (48)
+                                    2m                 2m          2m a20     2~2
+                                                                                                                              
+
+                                                       Appendix A.
+Theorem A.1 (The first representation theorem, [29, Thm.VI.2.1]). Let h : Dom(h) × Dom(h) → C be a
+densely defined, symmetric, bounded from below and closed sesquilinear form in H. Then there exists a self-
+adjoint operator H such that
+  i) Dom(H) ⊂ Dom(h) and h(φ, ψ) = hφ, Hψi for every φ ∈ Dom(h) and ψ ∈ Dom(H);
+ ii) Dom(H) is a core of h;
+iii) if ψ ∈ Dom(h), η ∈ H, and h(φ, ψ) = hφ, ηi holds for every φ belonging to a core of h, then ψ ∈ Dom(H)
+     and Hψ = η. The self-adjoint operator H is uniquely determined by the condition i).
+Theorem A.2 (Weyl’s criterion, [34, Thm. VII.12]). Let H be a self-adjoint operator on H. A point λ belongs
+to σ(H) if, and only if, there exists a sequence {ψn }n∈N ⊂ Dom(H) such that kψn k = 1 for all n ∈ N and
+limn→∞ k(H − λ)ψn k → 0. Moreover, λ belongs to σess (H) if, and only if, in addition to the above properties
+the {ψn } converges weakly to zero in H.
+Theorem A.3 (KLMN, [25, Thm. X.17]). Let h0 : Dom(h0 ) × Dom(h0 ) → C be a densely defined, symmetric,
+non-negative and closed sesquilinear form in H. Let v be a symmetric sesquilinear form satisfying
+                                     1.   Dom(h0 ) ⊂ Dom(v),
+                                                                                                                            (49)
+                                     2.   ∀ψ ∈ Dom(h0 ),       |v[ψ]| ≤ a h0 [ψ] + b kψk2,
+where a, b are non-negative and a < 1. Then there exists a unique self-adjoint and bounded from below operator
+H, associated with the closed symmetric sesquilinear form
+                                          h := h0 + v,        Dom(h) := Dom(h0 ).                                           (50)
+
+                                                         References
+ [1] S. P. Alliluyev Zh. Eksperim. Teor. Fiz., 33, 20, 1957, [English translation: 1958, Sov. Phys. JETP, 6, 156].
+ [2] F. Burgbacher, C. Lämmerzahl, and A. Macias, “Is there a stable hydrogen atom in higher dimensions?,” J. Math. Phys.,
+     vol. 40, pp. 625–634, 1999.
+ [3] M. M. Nieto, “Hydrogen atom and relativistic pi-mesic atom in N-space dimensions,” Am. J. Phys., vol. 47, pp. 1067–1072,
+     1979.
+ [4] S. Al-Jaber, “Hydrogen Atom in N Dimensions,” Int. J. Theor. Phys., vol. 37, pp. 1289–1298, 1998.
+ [5] T. Negadi and M. Kibler, “The Periodic Table in Flatland,” Atom, p. 12001, 1995.
+ [6] R. Nepstad and L. Sælen, The N-dimensional Coulomb Problem and its Application to Few-particle Quantum Theory. Thesis,
+     2006.
+ [7] D. A. Morales, “Analytical formulas for the eigenvalues and eigenfunctions of a d-dimensional hydrogen atom with a potential
+     defined by Gauss’ law,” Int. J. Quantum Chem., vol. 57, pp. 7–15, 1996.
+ [8] K. Andrew and J. Supplee, “A hydrogenic atom in d-dimensions,” Am. J. Phys., vol. 58, p. 1177, 1990.
+ [9] N. R. Braga and R. D’Andrea, “Bound states for one-electron atoms in higher dimensions.” arXiv:quant-ph/0511078, November
+     2005.
+[10] L. Gurevich and V. Mostepanenko, “On the existence of atoms in n-dimensional space,” Phys. Lett. A, vol. 35, pp. 201–202,
+     1971.
+[11] K. Eveker, D. Grow, B. Jost, C. E. Monfort, K. W. Nelson, C. Stroh, and R. C. Witt, “The two-dimensional hydrogen atom
+     with a logarithmic potential energy function,” Am. J. Phys., vol. 58, pp. 1183–1192, 1990.
+[12] F. J. Asturias and S. R. Aragón, “The hydrogenic atom and the periodic table of the elements in two spatial dimensions,”
+     Am. J. Phys., vol. 53, pp. 893–899, 1985.
+[13] F. Caruso, J. Martins, and V. Oguri, “Note on the Existence of Hydrogen Atoms in Higher Dimensional Euclidean Spaces.”
+     arXiv:1205.3740, May 2012.
+[14] L. D. Landau and E. M. Lifshitz, Quantum Mechanics - Non-relativistic Theory. Pergamon Press Ltd., 1991.
+[15] A. M. Perelomov and V. S. Popov, “”Fall to the center” in quantum mechanics,” Teoret. Mat. Fiz., vol. 4, pp. 48–65, 1970.
+[16] M. Bureš,      Atoms In Compactified Universes. Master’s Thesis,                Masaryk University Brno,      May 2007.
+     http://is.muni.cz/th/52540/prif_m/diplomka.pdf .
+[17] A. Datta, A. Patra, and S. Raychaudhuri, “Higgs boson decay constraints on a model with a universal extra dimension,” Phys.
+     Rev. D, vol. 89, p. 093008, 2014.
+[18] G. Belanger, A. Belyaev, M. Brown, M. Kakizaki, and A. Pukhov, “Testing Minimal Universal Extra Dimensions Using Higgs
+     Boson Searches at the LHC,” Phys. Rev. D, vol. 87, p. 016008, 2013.
+10                                              MARTIN BUREŠ AND PETR SIEGL
+
+
+[19] T. Kakuda, K. Nishiwaki, K.-y. Oda, and R. Watanabe, “Universal extra dimensions after Higgs discovery,” Phys. Rev. D,
+     vol. 88, p. 035007, 2013.
+[20] J. C. Long, H. W. Chan, A. B. Churnside, E. A. Gulbis, M. C. M. Varney, and J. C. Price, “Upper limits to submillimetre-range
+     forces from extra space-time dimensions,” Nature, vol. 421, pp. 922–925, 2003.
+[21] E. Floratos, G. Leontaris, and N. Vlachos, “Gravitational atom in compactified extra dimensions,” Phys. Lett. B, vol. 694,
+     pp. 410–416, 2011.
+[22] M. Bureš In preparation.
+[23] G. H. Hardy, “Note on a theorem of Hilbert,” Math. Z., vol. 6, pp. 314–317, 1920.
+[24] D. Krejčiřı́k, Schrödinger operators and their spectra. Lecture notes for BCAM Course on Applied and Computational Math-
+     ematics, 2010. http://gemma.ujf.cas.cz/~ david/other/BCAM_course.pdf.
+[25] M. Reed and B. Simon, Methods of Modern Mathematical Physics, Vol. 2: Fourier Analysis, Self-Adjointness. Academic
+     Press, 1975.
+[26] E. Lieb and R. Seiringer, The stability of matter in quantum mechanics. Cambridge University Press, 2010.
+[27] G. Teschl, Mathematical methods in quantum mechanics, vol. 99 of Graduate Studies in Mathematics. Providence, RI: American
+     Mathematical Society, 2009.
+[28] M. Reed and B. Simon, Methods of Modern Mathematical Physics, Vol. 4: Analysis of Operators. Academic Press, 1978.
+[29] T. Kato, Perturbation theory for linear operators. Springer-Verlag, 1966.
+[30] J. Blank, P. Exner, and M. Havlı́ček, Hilbert Space Operators in Quantum Physics. Theoretical and Mathematical Physics,
+     Springer, 2008.
+[31] A. M. Krall, “Boundary values for an eigenvalue problem with a singular potential,” J. Differential Equations, vol. 45, pp. 128–
+     138, 1982.
+[32] D. E. Edmunds and W. D. Evans, Spectral Theory and Differential Operators. Oxford University Press, USA, 1987.
+[33] K. M. Case, “Singular potentials,” Phys. Rev., vol. 80, pp. 797–806, 1950.
+[34] M. Reed and B. Simon, Methods of Modern Mathematical Physics, Vol. 1: Functional Analysis. Academic Press, 1980.
+[35] D. Krejčiřı́k and J. Křı́ž, “On the spectrum of curved quantum waveguides,” Publ. Res. Inst. Math. Sci., vol. 41, pp. 757–791,
+     2005.
+[36] E. B. Davies, Spectral theory and differential operators. Cambridge University Press, 1995.
+[37] R. A. Adams, Sobolev spaces. Academic Press, New York, 1975.
+[38] G. Arfken and H. Weber, Mathematical Methods For Physicists. Elsevier, 2005.
+[39] I. S. Gradshteyn and I. M. Ryzhik, Table of Integrals, Series, and Products. Elsevier/Academic Press, Amsterdam, seventh ed.,
+     2007.
+
+  (Martin Bureš) Institute for Theoretical Physics and Astrophysics, Masaryk University, Kotlářská 2, 61137 Brno,
+Czech Republic
+  E-mail address: bures@physics.muni.cz
+
+  (Petr Siegl) Mathematical Institute, University of Bern, Sidlerstrasse 5, 3012 Bern, Switzerland & On leave from
+Nuclear Physics Institute ASCR, 25068 Řež, Czech Republic
+  E-mail address: petr.siegl@math.unibe.ch
+

@@ -1,0 +1,1170 @@
+                                                        Generalized free fields
+                                                  and the AdS-CFT correspondence
+
+
+
+
+arXiv:math-ph/0209035v1 19 Sep 2002
+                                                    Michael Dütsch∗ and Karl-Henning Rehren†
+                                                  Institut für Theoretische Physik, Universität Göttingen,
+                                                                  37073 Göttingen, Germany
+
+
+
+                                                                               Abstract
+                                                    Motivated by structural issues in the AdS-CFT correspondence,
+                                                the theory of generalized free fields is reconsidered. A stress-energy
+                                                tensor for the generalized free field is constructed as a limit of Wight-
+                                                man fields. Although this limit is singular, it fulfils the requirements
+                                                of a conserved local density for the Poincaré generators. An explicit
+                                                “holographic” formula relating the Klein-Gordon field on AdS to gen-
+                                                eralized free fields on Minkowski space-time is provided, and contrasted
+                                                with the “algebraic” notion of holography. A simple relation between
+                                                the singular stress-energy tensor and the canonical AdS stress-energy
+                                                tensor is exhibited.
+
+                                              PACS 2001: 11.10.-z, 04.62.+v
+                                              MSC 2000: 81T05, 81T10, 81T20
+
+
+                                      1        Introduction
+                                      According to Maldacena’s conjecture [31], type IIB string theory on 5-
+                                      dimensional asymptotically Anti-deSitter (AdS) backgrounds with five com-
+                                      pactified dimensions is equivalent to a maximally supersymmetric Yang-
+                                      Mills theory in physical Minkowski space-time. In the limit of large number
+                                      of colors N → ∞ and large ’t Hooft coupling θ = N g2 → ∞, it is con-
+                                      jectured that the string may be replaced by classical supergravity on AdS.
+                                      Roughly speaking, 1/N corrections correspond to quantum corrections, and
+                                      the strong coupling expansion in 1/θ corresponds to the perturbative incor-
+                                      poration of string corrections measured by the string tension α′ .
+                                          ∗
+                                              Electronic address: duetsch@theorie.physik.uni-goe.de
+                                          †
+                                              Electronic address: rehren@theorie.physik.uni-goe.de
+
+
+                                                                                   1
+Generalized free fields and AdS-CFT                                                    2
+
+
+    The “dual” correspondence between fields on AdS and conformal fields
+on Minkowski space-time was made concrete by a proposal in [22, 36]. As
+a scalar model, the conformal field dual to the free Klein-Gordon field on
+AdS has been considered as an exercise in [36]. It is a generalized free field
+[20, 27, 29]. It follows that the perturbative treatment of the AdS-CFT
+correspondence amounts to an expansion around a generalized free field.
+    For this reason, we believe it worth while to reconsider the properties
+of generalized free fields. Generalized free fields have been introduced by
+Greenberg [20] as a new class models for local quantum fields, and have been
+further studied by Licht [29] as candidates for more general asymptotic fields
+as required by the LSZ asymptotic condition. They can be characterized in
+several equivalent ways: the commutator is a numerical distribution; the
+truncated (connected) n-point functions vanish for n 6= 2; the correlation
+functions factorize into 2-point functions; the generating functional for the
+correlation functions is a Gaussian. But in distinction from a canonical free
+field, a generalized free field is not the solution to an equation of motion,
+and its 2-point function is not supported on a mass shell. It rather has the
+form of a superposition
+                                      Z
+                               ′
+                 hΩ, ϕ(x)ϕ(x )Ωi =         dρ(m2 ) Wm (x − x′ )          (1.1)
+                                            R+
+
+where Wm are the 2-point functions of the Klein-Gordon fields of mass m
+in d-dimensional Minkowski space-time. The (positive and polynomially
+bounded) weight dρ(m2 ) occurring in the superposition is known as the
+Källen-Lehmann weight [28].
+    In fact, this is the most general form of the 2-point function of any scalar
+quantum field [28], and a general theorem [21] states that a field whose 2-
+point function is supported within a finite interval of masses, is necessarily
+a (generalized) free field.
+    There are several ways by which generalized free fields arise. E.g., from
+every Wightman field φ, one can obtain Wightman fields φ(N ) , N ∈ N, as
+the normalized sum of replicas of φ on H⊗N . This suppresses the truncated
+n-point functions with a factor N (2−n)/2 . In the “central” limit N → ∞,
+one obtains a generalized free field which has the same 2-point function as
+the original (interacting) field. Similarly, in the large N limit of O(N ) or
+U (N ) symmetric theories, all truncated functions of gauge invariant (com-
+posite) fields exhibit a leading factor of N , so that if the 2-point function
+is normalized, the higher truncated functions are also suppressed by inverse
+powers of N , and the limit is again a generalized free field [26].1
+  1
+      On the other hand, the limit W of 1/N times the connected functional for finite N ,
+Generalized free fields and AdS-CFT                                                      3
+
+
+     Another obvious way to obtain a generalized free field is to restrict a free
+Klein-Gordon field of mass M in 1 + 4 dimensions to the 1 + 3-dimensional
+hypersurface
+       √        x4 = 0. The resulting Källen-Lehmann weight is dρ(m2 ) =
+dm2 / m2 − M 2 , supported at m2 ≥ M 2 .
+     Finally, the AdS-CFT correspondence associates with the free Klein-
+Gordon field on d+1-dimensional Anti-deSitter space-time yields a Gaussian
+conformal field in d-dimensional Minkowski space-time whose scaling dimen-
+sion ∆ = d2 +ν depends on the Klein-Gordon mass M through the parameter
+       √
+ν = 12 d2 + 4M 2 . Its 2-point function proportional to (−(x − x′ )2 )−∆ is a
+superposition of all masses with Källen-Lehmann weight dρ(m2 ) = dm2 m2ν
+(cf. Sect. 4).
+     As a consequence of the continuous superposition of masses, there is no
+Lagrangean and no canonical stress-energy tensor associated with a gener-
+alized free field. The first purpose of this article (entirely unrelated to AdS)
+is the construction of a non-canonical stress-energy tensor (Sect. 3). This
+stress-energy tensor turns out to be more singular than a Wightman field,
+but it fulfills the requirements as a density for the generators of (global)
+space-time symmetries. If smeared with a test function, it has finite expec-
+tation values but infinite fluctuations in almost every state of the Hilbert
+space (including the vacuum). Technically speaking, it is a quadratic form
+on the Wightman domain, rather than an unbounded operator. Its commu-
+tator with field operators, however, is well defined as an operator.
+     Our construction of the stress-energy tensor relies on the fact that on the
+vacuum Hilbert space of a generalized free field ϕ there exists a large class
+of mutually local2 Wightman fields (including ϕ itself, hence relatively local
+w.r.t. ϕ) which is much larger [11, 20] than the class of Wick polynomials
+of ϕ. They form what is known as the Borchers class [5, 27] of ϕ. These
+fields can be expressed in terms of ϕ (and its Wick polynomials) by the
+use of highly non-local (pseudo) differential operators or convolutions, while
+still satisfying local commutativity with ϕ (i.e., the commutator vanishes
+at spacelike separation). This fact illustrates the distinction between the
+algebraic notion of local commutativity (Einstein locality) underlying the
+concept of the Borchers class, and a notion of “expressibility in terms of
+local operations”. E.g., in perturbation theory the Lagrangean interaction
+density should be local in the former sense in order to ensure locality of the
+interacting field.
+     The second prominent issue of this article is the “holographic” identi-
+WN = log ZN , is finite and non-Gaussian. But W does not define a quantum field theory
+of its own because it violates positivity (unitarity). The significance of this quantity is
+that N · W gives the asymptotic behavior of the large N expansion of WN .
+    2
+      commuting with each other at spacelike distance
+Generalized free fields and AdS-CFT                                            4
+
+
+fication of a quantum field on AdS (the free Klein-Gordon field φ) in the
+Borchers class of the boundary generalized free field ϕ (Sect. 4). More
+precisely, AdS is regarded conveniently as a warped product of Minkowski
+space-time with R+ (whose coordinate we call z > 0). Then for every fixed
+value z, φ(z, ·) is a Wightman field ϕz (·) on Minkowski space-time in the
+Borchers class of ϕ, obtained from ϕ by a non-local (pseudo) differential
+operator involving a z-dependent Bessel function.
+    Local commutativity of the Klein-Gordon field φ on AdS implies that the
+fields ϕz and ϕz ′ in Minkowski space-time satisfy a certain “bonus locality”
+(local commutativity at finite timelike distance). We shall explicitly derive
+this property as a consequence of the specific non-local operations relating
+the AdS field to the boundary field, invoking a nontrivial identity for Bessel
+functions.
+    The canonical stress-energy tensor of the Klein-Gordon field on AdS is
+identified as a z-dependent generalized Wick product of the boundary field.
+Integrating this field over z, yields the singular stress-energy tensor of the
+generalized free field mentioned above. This complies with the fact that
+the canonical AdS stress-energy tensor is a density in AdS, while the stress-
+energy tensor for the generalized free field on the boundary is a density in
+Minkowski space.
+    With these findings, we want to point out that generalized free fields
+are rather well-behaved Wightman fields, which moreover are “closer” to
+interacting quantum fields than free Klein-Gordon fields. It might be ad-
+vantageous to perform a perturbation around a generalized free field, which
+has already the correct 2-point function of the interacting field, while the
+perturbation only affects the higher truncated correlations.
+    As was noticed implicitly, e.g., in [4], and systematically analysed in [15],
+the perturbative approach to the AdS-CFT correspondence may be under-
+stood as a perturbation around a canonical field on AdS with subsequent
+restriction to the boundary. The interaction part of the action is an inte-
+gral over AdS of some Wick polynomial in the AdS field. Expressing the
+latter in terms of the limiting generalized free field on the boundary, and
+performing the (regularized) z-integral, one obtains (at least formally) a La-
+grangean density on the boundary which is a generalized Wick polynomial
+of the boundary generalized free field.
+    In view of this observation, the present work is also considered as a
+starting point for a perturbation theory of the generalized free field with
+generalized Wick polynomials as interactions, which includes the perturba-
+tive AdS-CFT correspondence as a special case.
+    In the last, somewhat tentative section, we point out the relation between
+the existence of relatively local fields beyond the Wick polynomials, and
+Generalized free fields and AdS-CFT                                                       5
+
+
+the violation of the time-slice property (primitive causality [24]) and “Haag
+duality” for generalized free fields in Minkowski space-time. These issues
+are discussed in terms of the von Neumann algebras of localized observables
+associated with a quantum field [23]. Although logically unrelated to AdS-
+CFT, they may be nicely understood in terms of geometric properties of
+AdS and its boundary, using the above holographic interpretation. The
+discussion also exhibits a slight but important difference between the present
+holographic picture and the “algebraic” notion of holography [33].
+
+
+2     Generalized free fields
+Let Md = (Rd , ηµν ) denote d ≥ 2-dimensional Minkowski space-time, and
+V+ the open forward light-cone (in momentum space).
+    We consider a hermitean scalar generalized free field [27, Chap. 2.6] on
+M with Källen-Lehmann weight dρ(m2 ) = dm2 on R+ . It has the form
+  d
+
+                         Z
+                  ϕ(x) =     dd k [a(k)e−ikx + a+ (k)eikx ]            (2.1)
+                                 V+
+
+in terms of creation and annihilation operators
+
+     [a(k), a+ (k′ )] = (2π)−(d−1) δd (k − k′ ),        [a, a] = 0 = [a+ , a+ ].      (2.2)
+
+It is defined on the Fock space H over the 1-particle space H1 = L2 (V+ , dd k),
+identifying
+                                        Z
+                                    d−1
+          2      d
+        L (V+ , d k) ∋ f ≡ (2π)      2      dd k f (k)a+ (k)Ω ∈ H1 .      (2.3)
+                                               V+
+
+H1 , and hence H, is equipped with the obvious unitary positive-energy rep-
+resentation of the Poincaré group with generators3
+                           Z
+                       d−1
+             Pµ = (2π)          dd k a+ (k) kµ a(k),                  (2.4)
+                             V+
+                           Z
+                                                 ∂      ∂
+           Mµν = (2π)d−1        dd k a+ (k) i(kν µ − kµ ν ) a(k),     (2.5)
+                             V+                 ∂k     ∂k
+    3
+      The reader might be worried about the meaning of derivatives of a(k). The expressions
+(2.4), (2.5) as well as (2.17), (2.22)
+                                   R below are understood in the distributional sense, i.e.,
+after application of an integral dd ka+ (k)Xa(k) to a 1-particle vector of the form (2.3)
+the differential operator X is found acting on the smearing function f ∈ L2 (V+ , dd k),
+and likewise for n-particle vectors. Thus, (2.4), (2.5), (2.17), (2.22) are the “second
+quantizations” of the corresponding differential operators on L2 (V+ , dd k). We shall not
+discuss here the precise domains on which these hermitean generators are (essentially)
+self-adjoint.
+Generalized free fields and AdS-CFT                                                6
+
+
+such that
+
+                        i[Pµ , ϕ(x)] = ∂µ ϕ(x),                                (2.6)
+                       i[Mµν , ϕ(x)] = (xµ ∂ν − xν ∂µ )ϕ(x).                   (2.7)
+
+The generalized free field ϕ is a local field because its commutator reads
+                               Z
+                                                ′            ′ 
+   [ϕ(x), ϕ(x′ )] = (2π)−(d−1)      dd k eik(x−x ) − e−ik(x−x ) =
+                                 V+
+     Z                     Z
+                                                        ′           ′ 
+  =       dm2 (2π)−(d−1)       dd k δ(k2 − m2 ) eik(x−x ) − e−ik(x−x )
+       R+                   V+                     Z
+                                                =      dm2 ∆m (x − x′ ) (2.8)
+                                                       R+
+
+where ∆m is the commutator function of the free Klein-Gordon field of mass
+m.4
+
+2.1    Relatively local generalized free fields and generalized
+       Wick products
+Our first observation is that on the same Hilbert space, we can define
+                        Z
+               ϕh (x) =     dd k h(k2 ) [a(k)e−ikx + a+ (k)eikx ]      (2.9)
+                           V+
+
+with h any smooth polynomially bounded real function on R+ (called “weight
+function”). These are again hermitean scalar fields on H, satisfying (2.6)
+and (2.7). Moreover, all ϕh are local and mutually local fields, because their
+commutators
+                              Z
+                        ′
+        [ϕh1 (x), ϕh2 (x )] =   dm2 h1 (m2 )h2 (m2 ) ∆m (x − x′ )       (2.10)
+                                R+
+
+vanish at spacelike distance irrespective of the functions hi . By inspection
+of the 2-point functions
+                              Z
+     hΩ, ϕh1 (x)ϕh2 (x′ )Ωi =    dm2 h1 (m2 )h2 (m2 ) Wm (x − x′ ),    (2.11)
+                                 R+
+
+one sees that each ϕh is a generalized free field with Källen-Lehmann weight
+dm2 h(m2 )2 . In fact, the weight function h need not be smooth as long as
+dm2 h(m2 )2 is a polynomially bounded measure.
+  4
+    The Klein-Gordon fields themselves are not present in the theory, though, because
+square integrable functions in H1 cannot have sharp mass.
+Generalized free fields and AdS-CFT                                               7
+
+
+   If the weight function h is a polynomial, then
+
+                                    ϕh = h(−)ϕ                              (2.12)
+
+is just a derivative of ϕ, and ϕh (f ) = ϕ(h(−)f ) where the support of
+h(−)f equals (a subset of) the support of f . Hence h(−) is a local
+operation. But if h is not a polynomial, then h(−) may be tentatively
+defined on f by multiplication of the Fourier transform fˆ(k) with any func-
+tion of k2 which coincides with h on R+ (all giving the same field operator
+ϕ(h(−)f )). This is a highly non-local operation which does not preserve
+supports. Likewise, one may formally read (2.9) as a convolution in x-space
+[20]                           Z
+                         ϕh (x) =         dd x Ȟ(x − y)ϕ(y)                 (2.13)
+                                     Md
+with the distributional inverse Fourier transform of any function H(k) which
+equals h(k2 ) on V+ . E.g., if h is analytic, h(−) and H(k) may be defined
+                                                     √
+as power series; but as the example of h(z) = cos z exemplifies, the inverse
+Fourier transform of h(k2 )fˆ(k) or H(k) may not exist due to the rapid
+growth of h(k2 ) at negative k2 . Therefore, expressions like (2.12) or (2.13)
+in the general case should not be taken literally. These are suggestive ways
+of rewriting the definition (2.9), indicating a non-local operation on ϕ which
+yet gives rise to a local field.
+    The above construction of fields satisfying local commutativity with ϕ
+and among themselves can be extended to Wick products [11, 20]. The
+expressions
+                    Z         Z
+    (: ϕ2 :)h (x) =     dd k1    dd k2 h(k12 , k22 )
+                    V+        V+
+                             : [a(k1 )e−ik1 x + h.c.][a(k2 )e−ik2 x + h.c.] : (2.14)
+
+define Wightman fields, relatively local with respect to ϕ and ϕh′ and mutu-
+ally local among each other, for every (smooth) polynomially bounded real
+symmetric function h on R+ × R+ . Formally, they may be represented as
+point-split limits of the form
+                                                                     
+    (: ϕ2 :)h (x) = lim
+                     ′
+                        h(−,  − ′
+                                    ) ϕ(x)ϕ(x ′
+                                                ) − hΩ, ϕ(x)ϕ(x ′
+                                                                  )Ωi  . (2.15)
+                  x →x
+
+    The smoothness of the functions h may be considerably relaxed. While
+we refer to [11] for details, we point out that for (: ϕ2 :)h to be a Wightman
+field, h2 ought to be at least a measurable function on R+ × R+ : otherwise
+(: ϕ2 :)h (f ) fails to be an operator with the vacuum vector in its domain.
+Generalized free fields and AdS-CFT                                             8
+
+
+This can be seen easily from the 2-point function
+
+       hΩ, (: ϕ2 :)h (x)(: ϕ2 :)h (x′ )Ωi =
+              Z
+         =2        dm21 dm22 h(m21 , m22 )2 Wm1 (x − x′ )Wm2 (x − x′ ).    (2.16)
+               R+
+
+    It is clear how this construction generalizes to higher Wick polynomials,
+and also to multi-local fields such as (: ϕ(x1 )ϕ(x2 ) :)h . All these fields sat-
+isfy local commutativity among each other with respect to their arguments
+inspite of the non-local operations involved. It is crucial that the weight
+functions h depend only on the squares of the four-momenta, since general
+functions of the components kµ would spoil local commutativity. It is also
+clear that the construction can be as well applied to Wick polynomials of
+derivatives ∂µ . . . ∂ν ϕ of the generalized free field.
+    Generalized Wick polynomials belong to the Borchers class of the gen-
+eralized free field consisting of the relatively local Wightman fields defined
+on the same Hilbert space. We believe that they exhaust the Borchers
+class [16]. They are natural candidates for perturbative interactions, e.g., in
+causal perturbation theory [17, 9, 14].
+
+2.2    Conformal symmetry
+The 1-particle Hilbert space H1 , and hence the Fock space H, carry also a
+natural representation of the group of dilations with generator
+                     Z
+                                                            
+        D = (2π)d−1      dd k a+ (k) 2i (k · ∂k ) + (∂k · k) a(k).  (2.17)
+                          V+
+
+Under this representation, the generalized free fields ϕh transform according
+to
+                        U (λ)ϕh (x)U (λ)∗ = ϕhλ (λx)                   (2.18)
+                    d
+where hλ (m2 ) = λ 2 h(λ2 m2 ). In particular, the generalized free fields with
+homogeneous weight functions mν ,
+
+                    ϕ(∆) = (−)ν/2 ϕ        with    ν ≡ ∆ − d2             (2.19)
+
+transform like scale-invariant fields of scaling dimensions ∆ = d2 + ν:
+
+                        U (λ)ϕ(∆) (x)U (λ)∗ = λ∆ ϕ(∆) (λx),                (2.20)
+
+or in infinitesimal form
+
+                        i[D, ϕ(∆) (x)] = (xµ ∂µ + ∆)ϕ(∆) (x).              (2.21)
+Generalized free fields and AdS-CFT                                           9
+
+
+U (λ) scales the momenta (2.4) and commutes with the Lorentz transforma-
+tions (2.5). Hence it extends the representation of the Poincaré group to a
+representation of the Poincaré-dilation group, also denoted by U .
+    It is well known, that the scale-invariant 2-point functions of these fields
+are in fact conformally covariant, extending the fields to a suitable covering
+of Minkowski space-time CMd [30]. This means in particular that the uni-
+tary representation U of the Poincaré-dilation group extends to a unitary
+representation U (∆) of the conformal covering group. Under U (∆) , the field
+ϕ(∆) transforms as a conformally covariant scalar field of scaling dimension
+∆. Unlike those of the Poincaré-dilation group, the generators of the special
+conformal transformations depend on the parameter ∆ = d2 + ν and are
+explicitly given on H1 by
+                         Z
+          (∆)        d−1
+        Kµ = (2π)             dd k
+                           V+
+                                                              
+      +         ∂      ∂               ∂    ∂             2 kµ
+     a (k)         kµ      − (k · ∂k ) µ − µ (∂k · k) + ν 2 a(k), (2.22)
+               ∂k α ∂kα               ∂k   ∂k               k
+
+such that
+                                                       
+       i[Kµ(∆) , ϕ(∆) (x)] = 2xµ (x · ∂) − x2 ∂µ + 2∆xµ ϕ(∆) (x).        (2.23)
+
+    We emphasize that although the fields ϕ(∆) are for all values of ∆ de-
+fined on the same Hilbert space (the common Fock space H for all generalized
+free fields ϕh ), they are conformally covariant with respect to different rep-
+resentations U (∆) of the conformal group on the same Hilbert space. These
+representations coincide only on the Poincaré-dilation subgroup. U (∆) does
+                                                            ′
+not implement a geometrical point transformation of ϕ(∆ ) , ∆′ 6= ∆, nor of
+ϕh in general.
+
+
+3    The stress-energy tensor
+The purpose of this section is to find a stress-energy tensor Θµν (x) for the
+generalized free field (2.1) which has the properties of a local and covariant
+conserved tensor density for the generators of the Poincaré group. It should
+Generalized free fields and AdS-CFT                                                10
+
+
+thus satisfy
+                                       ∂ µ Θµν = 0,                              (3.1)
+                               Z
+                                   dd−1 ~x Θ0ν = Pν ,                            (3.2)
+               Z
+                   dd−1 ~x (xµ Θ0ν − xν Θ0µ ) = Mµν ,                            (3.3)
+
+                                      Θµν (x) = Θνµ (x),                         (3.4)
+                                            ′                    ′ 2
+                            [Θµν (x), ϕh (x )] = 0       ((x − x ) < 0).         (3.5)
+   With an ansatz of the form (2.14), including derivatives of ϕ, we find
+the solution
+                                                          
+             Θµν = : ∂µ ϕ∂ν ϕ − 12 ηµν (∂α ϕ∂ α ϕ + ϕϕ) : δ .      (3.6)
+The generalized Wick product (: · · · :)δ is understood as (: · · · :)h with the
+choice of the weight “function”
+                   h(m21 , m22 ) = δ(m21 , m22 ) ≡ δ(m21 − m22 )θ(m21 ).         (3.7)
+    This singular choice cannot be avoided due to the requirement (3.2),
+since the spatial integral over a generalized Wick square such as (2.14) can
+only enforce equality of the spatial components of the momenta of the cre-
+ation and annihilation operators, ~k1 = ~k2 , while the representation (2.4)
+of the total momentum operator requires k1µ = k2µ . But with this singular
+weight function h, the 2-point function (2.16) involving h2 becomes highly
+divergent, hence the stress-energy tensor has infinite fluctuations in the vac-
+uum state. Smearing Θµν with a test function does not give an operator
+whose domain contains the vacuum vector. Thus the stress-energy tensor is
+not a Wightman field.
+    But Θµν (f ) is a quadratic form on the Wightman domain of ϕh , i.e., its
+matrix elements with vectors from that domain are finite (more precisely:
+are continuous functionals of the test function f ). To prove this, only the
+finiteness of
+                         hΩ, Θµν (f )ϕh1 (f1 )ϕh2 (f2 )Ωi,
+                         hΩ, ϕh1 (f1 )Θµν (f )ϕh2 (f2 )Ωi,                       (3.8)
+                          hΩ, ϕh1 (f1 )ϕh2 (f2 )Θµν (f )Ωi
+needs to be checked since every matrix element of Θµν (f ) on this domain
+is a sum of terms of either of these forms with finite coefficients. Explicit
+evaluation of the above matrix elements, which are all of the form
+      Z                          Z
+           d    ˆ            2
+          d k1 f1 (±k1 )h1 (k1 )   dd k2 fˆ2 (±k2 )h2 (k22 ) δ(k12 − k22 )
+       V+                            V+
+                                                  ×P (k1 , k2 )fˆ( ± k1 ± k2 )   (3.9)
+Generalized free fields and AdS-CFT                                                      11
+
+
+with P some polynomial, exhibits their finiteness and continuity with respect
+to f , for arbitrary test functions fi and arbitrary weight functions hi . Θµν (f )
+being a quadratic form on the Wightman domain of ϕh , its commutator with
+ϕh (g) is a priori well defined as a quadratic form. It turns out to be in fact
+an operator on the Wightman domain. It vanishes if the supports of f and
+g are spacelike separated.
+    The formula (3.6) for Θµν is uniquely determined by the requirements
+(3.1–5), up to addition of a multiple of (∂µ ∂ν − ηµν )(: ϕ2 :)δ . We note that
+Θµν is not traceless, nor can it be made traceless by such an addition. Thus
+it does not provide a density for the generator of the dilations (2.17), nor
+for the conformal transformations (2.22).
+
+
+4       Application to AdS-CFT
+The conformal group SO(2, d) of d-dimensional Minkowski space-time coin-
+cides with the group of isometries of d + 1-dimensional anti-deSitter space-
+time ADSd+1 . In fact, ADSd+1 has a conformal boundary which is a twofold
+covering5 of the Dirac compactification CMd of Minkowski space-time, such
+that the AdS group restricted to the boundary acts like the conformal group
+on CMd . One-parameter subgroups with future-directed timelike tangent
+vectors in AdS (“time evolutions”) have future-directed timelike tangent
+vectors in CMd . Hence, the respective (AdS and conformal) notions of
+“positive energy” for the unitary representations of SO(2, d) coincide.
+    It was shown in [19] that the scalar Klein-Gordon field on ADSd+1 can be
+canonically quantized on a 1-particle space which carries a positive-energy
+representation of the AdS group.
+    Our aim is to find the explicit relation between these scalar Klein-Gordon
+fields φ on ADSd+1 (parametrized by a parameter ν > −1 such that the
+                                            2
+Klein-Gordon mass equals M 2 = ν 2 − d4 ) and the generalized free field on
+Minkowski space-time Md (characterized by its scaling dimension ∆ = d2 +ν).
+Both fields are defined on the same Fock space H over the 1-particle space
+H1 (2.3), carrying the same unitary positive-energy representation U (∆) of
+SO(2, d) under which both fields transform covariantly in the respective
+(AdS or conformal) sense.
+    We shall work in the convenient chart of AdS given by Poincaré coordi-
+    5
+     We denote by ADSd+1 the quadric ξ · ξ = 1 in R2,d (signature (+, +, −, . . . , −)), and
+by PADSd+1 its quotient by the antipodal identification ξ ↔ −ξ. The conformal boundary
+of this quotient is the Dirac compactification CMd of Minkowski space-time whose points
+are the lightlike rays ζ = R · n, n · n = 0, in R2,d . The field theories discussed below in
+general are defined on covering spaces of the respective manifolds.
+Generalized free fields and AdS-CFT                                                12
+
+
+nates xM ≡ (z ∈ R+ , xµ ∈ Md ), in which the metric takes the form
+
+               ds2 = gM N dxM dxN = z −2 · (ηµν dxµ dxν − dz 2 ),               (4.1)
+
+i.e., it is a “warped product” of d-dimensional Minkowski space-time Md by
+R+ , or in the terminology of [7], AdS has a foliation by Md . The chart is
+given as follows. We fix a pair e± of lightlike vectors in R2,d , e+ · e− = 12 ,
+and a basis eµ of the subspace orthogonal to e± , with eµ · eν = ηµν . Then
+
+                     ξ = z −1 · (xµ eµ + e− + (z 2 − xµ xµ )e+ )                (4.2)
+
+fulfills ξ · ξ = 1. This chart covers PADSd+1 except for the hypersurface
+ξ · e+ = 0 which formally corresponds to z = ∞.
+     The corresponding chart (xµ ∈ Md ) of CMd , parametrizing the lightlike
+rays in R2,d by
+                       ζ = R · (xµ eµ + e− − xµ xµ e+ ),               (4.3)
+is Minkowski space-time Md ⊂ CMd . This chart misses out the hypersurface
+of compactification points “at infinity” of Md , consisting of the lightlike rays
+orthogonal to e+ , namely the rays R·(λe+ +xµ eµ ), xµ xµ = 0. In CMd , these
+are the points at lightlike distance from ω ≡ R · e+ (the compactification
+point “at spacelike infinity” of Md ).
+    ζ(xµ ) is the boundary point approached by ξ(z, xµ ) as z → 0. Thus the
+Poincaré chart meets the boundary exactly in Minkowski space-time.
+    From this discussion, we conclude that the chart (z, xµ ) is mapped onto
+itself only by the stabilizer subgroup in SO(2, d) of the ray R+ · e+ in R2,d .
+This subgroup has the form
+
+                            (SO(1, d − 1) × R+ ) ⋉ Rd .                         (4.4)
+
+Here, SO(1, d − 1) ⋉ Rd is the stabilizer group of the vector e+ . SO(1, d − 1)
+preserves also e− and transforms the basis eµ like the Lorentz group, while
+Rd takes e− 7→ e− + aµ eµ − aµ aµ e+ , eµ 7→ eµ − 2aµ e+ . Hence the stabilizer
+subgroup of e+ preserves the coordinate z = (2ξ · e+ )−1 and acts on xµ like
+the Poincaré group. The remaining factor R+ in (4.4) scales e± 7→ λ±1 e±
+and preserves eµ , hence it takes (z, xµ ) to (λz, λxµ ) and acts on the boundary
+z = 0 like the dilations. We shall refer to these subgroups of SO(2, d) as
+Poincaré and dilation subgroups also in the AdS context. Thus, the Poincaré
+chart of AdS is preserved by the Poincaré-dilation group of Minkowski space-
+time. The remaining elements of SO(2, d) induce rational transformations of
+the coordinates (z, xµ ), such as (z, xµ ) 7→ (z, xµ − bµ (x2 − z 2 ))/(1 − 2(b · x) +
+b2 (x2 − z 2 )), b ∈ Md , restricting to the special conformal transformations of
+the boundary z = 0.
+Generalized free fields and AdS-CFT                                                    13
+
+
+4.1    The Klein-Gordon field on AdS
+                                                                                       2
+We fix any value ν > −1 and set ∆ = d2 + ν and M 2 = ∆(∆ − d) = ν 2 − d4 .
+   The Klein-Gordon field on AdS
+              (g + M 2 )φ = (−z 1+d ∂z z 1−d ∂z + z 2 η + M 2 )φ = 0              (4.5)
+has been quantized with an AdS-invariant vacuum state, e.g., in [3, 19]. Its
+2-point function can be displayed in the form [7]
+                                       Z
+                                  ′ d2
+               ′ ′          1
+ hΩ, φ(z, x)φ(z , x )Ωi = 2 (zz )          dm2 Jν (zm)Jν (z ′ m) Wm (x − x′ )
+                                        R+
+                                    Z               √            √
+                  −(d−1) 1     ′ d2       d                                     ′
+                                                        2 )J (z ′ k 2 ) e−ik(x−x ) . (4.6)
+           = (2π)        2 (zz  )        d  k Jν (z   k     ν
+                                         V+
+
+Here, Jν is the Bessel function solving Bessel’s differential equation
+                            ((u∂u )2 + u2 )Jν (u) = ν 2 Jν (u),                     (4.7)
+       d     √
+and z 2 Jν (z k2 )e±ikx (k ∈ V+ ) are the plane-wave solutions of the Klein-
+Gordon equation (4.5).
+     We note that, depending on the integrality of the parameter ∆ = d2 + ν,
+the quantum field φ is in general defined on a covering space of ADSd+1 [7,
+19]. This complicates the analysis, but the complications precisely match the
+complications arising in the corresponding conformal QFT which is defined
+on a covering space of CMd . We shall limit ourselves to the Klein-Gordon
+field on the Poincaré chart (z, xµ ), and correspondingly to boundary fields
+in Minkowski space-time.
+     We also note that for |ν| < 1, the two possible signs of ν give rise
+to inequivalent covariant quantizations [8] (in fact, an interpolating one-
+parameter family [7]) of the Klein-Gordon field of the same mass. The
+commutator functions derived from (4.6) are the same for both signs of ν
+[7], hence both quantum field theories have the same local structure.
+     φ satisfies the canonical equal-time commutation relation between the
+field and its canonical momentum π = z 1−d ∂0 φ
+                [φ(z, x), π(z ′ , x′ )]|x0 =x′0 = iδd−1 (~x − ~x′ )δ(z − z ′ ),     (4.8)
+as can be verified from (4.6), using the fact that Wm (x−x′ ) satisfies canonical
+commutation relations on Md , and using Hankel’s identity
+                     Z ∞
+                         t dt Jν (tu)Jν (tu′ ) = u−1 δ(u − u′ ),            (4.9)
+                        0
+
+which expresses the completeness of the plane-wave solutions involved in the
+integral (4.6).
+Generalized free fields and AdS-CFT                                             14
+
+
+4.2    Expression in terms of generalized free fields
+By comparison of (4.6) with (2.11), we conlude that φ(z, x) can be identified
+with
+                       Z            √
+                     d
+     φ(z, x) = √12 z 2    dd k Jν (z k2 )[a(k)e−ikx + a+ (k)eikx ].   (4.10)
+                         V+
+
+This is of the form
+                                  φ(z, x) = ϕhz (x)                         (4.11)
+with
+                                              d
+                              hz (m2 ) = √12 z 2 Jν (zm)                    (4.12)
+
+i.e., for each value of z, φ(z, ·) is one of the generalized free fields considered
+in Sect. 2.1.
+                                                     2−ν
+     From the power law behaviour of Jν (u) ≈ Γ(ν+1)       uν (1 + O(u2 )) at small
+arguments, one obtains
+                                             −ν− 1
+                                          2
+                       lim z −∆ φ(z, x) = Γ(ν+1)
+                                              2
+                                                 ϕ(∆) (x),                  (4.13)
+                       z→0
+
+i.e., the generalized free field ϕ(∆) is the boundary limit of the Klein-Gordon
+field on AdS. This agrees with the results discussed in [7] and [15].
+
+4.3    Identification of the representations of SO(2, d)
+The 2-point function (4.6) is AdS-invariant, i.e., it depends only on the AdS-
+invariant “chordal distance” (the distance within R2,d ) (−(x − x′ )2 + (z −
+z ′ )2 )/2zz ′ . It follows that the representation of the AdS group defined by
+
+             U (KG) (g) φ(z, x)Ω := φ(g(z, x))Ω        (g ∈ SO(2, d))       (4.14)
+
+is unitary on the 1-particle space H1 , and hence on H. It implements the
+covariant transformation law
+
+                    U (KG) (g)φ(z, x)U (KG) (g)∗ = φ(g(z, x)).              (4.15)
+
+   We want to show that this representation of SO(2, d) coincides with
+the representation U (∆) of the conformal group, constructed on the same
+Hilbert space by the extension of the scale-invariant field ϕ(∆) on Md to the
+conformally invariant field on CMd (c.f. Sect. 2.2).
+   Eq. (4.15), restricted to the boundary z = 0 where g acts like the con-
+formal group on x, shows that U (KG) (g) implements the same conformal
+point transformation of the limiting field ϕ(∆) as U (∆) (g). More specifically,
+Generalized free fields and AdS-CFT                                                     15
+
+
+consider the infinitesimal form of the AdS transformation law (4.15) for the
+relevant subgroups,
+
+      i[Pµ(KG) , φ(z, x)] = ∂µ φ(z, x),
+         (KG)
+      i[Mµν   , φ(z, x)] = (xµ ∂ν − xν ∂µ )φ(z, x),
+      i[D (KG) , φ(z, x)] = (z∂z + xµ ∂µ )φ(z, x),
+                                                               
+      i[Kµ(KG) , φ(z, x)] = 2xµ (z∂z + (x · ∂)) + (z 2 − x2 )∂µ φ(z, x).           (4.16)
+
+In the limit z → 0 according to (4.13), the right-hand sides of (4.16) turn into
+(2.6), (2.7), (2.21), (2.23), respectively. Thus, the infinitesimal generators of
+the respective subgroups coincide. We conclude that the two representations
+U (KG) and U (∆) of SO(2, d) coincide, cf. [12].
+    With the help of the representation U (KG) = U (∆) , the AdS field φ and
+the boundary field ϕ(∆) extend to the respective covering spaces of PADSd+1
+and CMd . We emphasize once more that this does not apply for the other
+boundary fields ϕh .
+
+4.4     “Holographic” interpretation
+Combining (4.11) and (2.19), we find
+
+                        φ(z, x) = √12 z ∆ jν (−z 2 ) ϕ(∆) (x),                    (4.17)
+
+where
+                                  jν (u2 ) = u−ν Jν (u)                            (4.18)
+is a (polynomially bounded) convergent power series in u2 . This is an ex-
+plicit expression for the Klein-Gordon field on AdS in terms of its limiting
+generalized free field on the boundary. This “holographic” relation6 is pos-
+sible with the help of non-local (pseudo) differential operators of the kind
+discussed in Sect. 2.
+    Obviously, the fact that ϕh = h(−)ϕ are mutually local fields for arbi-
+trary functions h, ensures that φ(z, x) and φ(z ′ , x′ ) written in the form (4.11)
+or (4.17) commute if (x − x′ )2 < 0. But this is less than locality on AdS,
+which requires that the commutator must vanish even if (x−x′ )2 < (z −z ′ )2 .
+Of course we know that φ is a local field on AdS, so the stronger local com-
+mutativity of generalized free fields ϕhz (x) and ϕhz′ (x′ ) at finite timelike
+Minkowski distance must be true.
+    6
+      Our use of the term “holography” does not quite match the one originally suggested by
+’t Hooft [25], namely the reduction in the bulk of degrees of freedom of a QFT, ascribed to
+gravitational effects in the presence of a horizon. We rather allude to the enhancement on
+the boundary of degrees of freedom necessary and sufficient to “encode” a non-gravitational
+QFT in the bulk.
+Generalized free fields and AdS-CFT                                          16
+
+
+    One can understand the origin of this “bonus locality” for the generalized
+free fields involved. Evaluating the commutator function according to (2.10),
+gives an integral over three Bessel functions (because ∆m at timelike distance
+                                                           d−2
+(x − x′ )2 = τ 2 is also given by a Bessel function (m/τ ) 2 J 2−d (mτ )) of the
+                                                                 2
+form                           Z ∞
+                  I(a, b, c) =     u1−µ du Jµ (au)Jν (bu)Jν (cu)          (4.19)
+                                   0
+
+with a2 = (x − x′ )2 , b = z, c = z ′ and µ = 2−d
+                                               2 . This integral can be found,
+e.g., in [35, Sect. 13·46(1)], where it is shown to vanish if a2 < (b − c)2 .
+Thus we precisely find local commutativity on AdS. It is the specific form
+of the Bessel functions in (4.17), (4.18) which is able to ensure locality in a
+higher-dimensional space-time.
+    This remark should make it clear that defining φ(z, x) = ϕhz (x) with
+any suitable family of functions hz (m2 ), depending on a parameter z and
+solving a suitable differential equation with respect to z, may well produce
+a quantum field on a higher dimensional space-time solving some equation
+of motion, but this field will in general not satisfy local commutativity.7
+
+4.5      The stress-energy tensor
+The Klein-Gordon field on AdS has a canonical covariantly conserved stress-
+energy tensor given by
+                                           AB
+      ΘKG                        1
+       M N (z, x) = : DM φDN φ − 2 gM N (g    DA φDB φ − M 2 φ2 ) : .    (4.20)
+
+Because of the special form of the AdS metric, the covariant tensor conti-
+nuity equation gives rise to ordinary continuity equations for the Minkowski
+components ΘKGM ν , ν 6= z,
+
+                                gM N ∂N (z 1−d ΘKG
+                                                M ν ) = 0.               (4.21)
+
+Thus z 1−d ΘKG
+             0ν are densities of conserved quantitites, which are the genera-
+tors of the Poincaré subgroup of SO(2, d),
+            Z ∞         Z
+                    1−d
+      Pµ =      dzz       dd−1 ~x ΘKG
+                                   0µ (z, 0, ~
+                                             x),                         (4.22)
+             0
+            Z ∞         Z
+    Mµν =       dzz 1−d dd−1 ~x (xµ ΘKG          x) − xν ΘKG
+                                       0ν (z, 0, ~        0µ (z, 0, ~
+                                                                    x)). (4.23)
+                0
+
+    In these integrals, we may express φ in terms of the generalized free
+field ϕ by means of (4.11), thus introducing two z-dependent (Bessel) weight
+  7
+      Such constructions were proposed in [32].
+Generalized free fields and AdS-CFT                                          17
+
+
+functions, and perform the z-integration. Because of the term gM N ∂M φ∂N φ
+involving z-derivatives, a partial integration becomes necessary after which
+Bessel’s differential equation can be used to eliminate all derivatives of the
+Bessel functions.
+    After performing these steps on the Minkowski components of ΘKG    µν , one
+ends up with a generalized Wick product of (derivatives of) ϕ, whose weight
+function is the result of the z-integration over the Bessel functions:
+  Z ∞
+                                                                    
+       dz z 1−d ΘKG                        1          α
+                 µν (z, x) = : ∂µ ϕ∂ν ϕ − 2 ηµν (∂α ϕ∂ ϕ + ϕϕ) : h (4.24)
+    0
+
+where                                  Z ∞
+                  h(m21 , m22 ) = 12            z dz Jν (zm)Jν (zm′ ).   (4.25)
+                                           0
+Once more using Hankel’s identity (4.9) which in this case plays the role of an
+orthonormality relation, the integral can be performed, giving h(m21 , m22 ) =
+δ(m21 − m22 ).
+    We have thus exactly reproduced the singular stress-energy tensor found
+in Sect. 2.2,                   Z          ∞
+                      Θµν (x) =                dz z 1−d ΘKG
+                                                         µν (z, x).      (4.26)
+                                       0
+But the origin of its singular weight function appears in an entirely new light:
+it is the result of the “holographic” projection of AdS onto its boundary.
+Some cutoff in the z-integral would smoothen the resulting weight function
+(4.25). The smoothened stress-energy tensor would still act as a density
+for generators which generate the correct transformation laws on those AdS
+fields which are causally disconnected from the AdS region where the cutoff
+is effective. In terms of the corresponding generalized free fields on the
+boundary, these are generalized free fields within a restricted region and
+with a restricted set of weight functions hz .
+
+
+5       Local algebras
+At first sight, our “holographic” result of Sect. 4.4 does not quite agree with
+the algebraic analysis of AdS-CFT in [33]. Let us sketch the situation.
+    According to (4.11), the AdS fields at the point (z, x) are expressed
+in terms of Minkowski space-time fields at the point x. Hence boundary
+observables (smeared fields) localized in a region K ⊂ Md encode all AdS
+observables localized in the region V (K) = π −1 (K) ⊂ ADSd+1 where π
+denotes the projection (z, x) → x. We may call this feature “projective
+holography”.
+Generalized free fields and AdS-CFT                                           18
+
+
+   On the other hand, the analysis called “algebraic holography” in [33] is
+based on the identification
+                  ACFT (K) = AAdS (W )         (W = W (K))                 (5.1)
+of the local algebras ACFT (K) of boundary observables localized in “double-
+cones” K ⊂ g  CMd (the conformal transforms of K0 = {(xµ ) : |~x| < 1−|x0 |} in
+the covering space of the Dirac compactification of Minkowski space-time),
+with local algebras AKG (W ) of AdS observables localized in the “wedge”
+regions W = W (K) ⊂ A      gDSd+1 (the AdS transforms of W0 = {(z, xµ ) :
+√                    0
+  z 2 + ~x2 < 1 − |x |} in the covering space of AdS). The wedge W (K) is
+the causal completion of the boundary region K. The map W = W (K)
+is a bijection which preserves inclusions, takes causal complements in g   CMd
+into causal complements in A  gDSd+1 , and is compatible with the respective
+actions of the covering group of SO(2, d).
+     For K ⊂ Md , the wedge region W (K) extends only to finite “depth”
+z into AdS and is strictly smaller than V (K), which extends to z = ∞
+and contains points causally disconnected from W (K). Hence AAdS (V (K))
+is strictly larger than AAdS (W (K)), and the two notions of “holography”
+cannot be equivalent.
+     We shall show how this apparent conflict is resolved, although the dis-
+cussion should by no means be considered as rigorous. We shall deliber-
+ately ignore most of the technical subtleties involved in the passage between
+the Wightman axiomatic formulation of QFT (in terms of fields, which are
+unbounded-operator valued distributions) and the Haag-Kastler [23] alge-
+braic formulation (in terms of localized observables, which are bounded op-
+erators). But we are confident that our argument captures correctly the
+essential features concerning the “size” of von Neumann algebras of local
+observables associated with generalized free fields and with free fields on
+AdS.
+     The general idea for the passage from fields to local algebras is to define
+for any open space-time region O the von Neumann algebra
+                        A(O) := {φ(f ) : supp f ⊂ O}′′                     (5.2)
+where X ′ stands for the algebra of bounded operators on the given Hilbert
+space which commute with (the closures of) all elements of X. By von Neu-
+mann’s density theorem, the double commutant A(O) is the weak closure of
+the bounded functions of the unbounded smeared field operators (such as
+exp iφ(f ) if φ(f ) is self-adjoint). Obviously, the algebras increase as the re-
+gions increase (“isotony”). Although the underlying fields are local, it is less
+trivial [13] that local algebras of the form (5.2) associated with spacelike sep-
+arated regions mutually commute (“locality”). A covariant transformation
+Generalized free fields and AdS-CFT                                           19
+
+
+law of the fields such as (4.15) involves the corresponding transformation
+of the support of test functions, hence the local algebras (5.2) transform in
+the obvious sense under conjugation with the unitary representatives of the
+group (“covariance”). One may imagine that the fields can be recovered
+from the algebras by taking suitably regularized limits of elements of alge-
+bras associated with regions shrinking to a point, see e.g., [18]. Together
+with the group of covariance which involves the time evolution, the algebraic
+data determine the quantum field theory.
+
+5.1   “Algebraic” vs. “projective holography”
+Applying the prescription (5.2) to the free Klein-Gordon field of mass M on
+AdS, we obtain local algebras
+
+                         AKG (O),            g
+                                        (O ⊂ A DSd+1 ).                    (5.3)
+
+Applying the same prescription to the single generalized free field ϕ(∆) on
+the conformal completion of Minkowski space-time, we obtain local algebras
+
+                          A∆ (K),            g d ).
+                                        (K ⊂ CM                            (5.4)
+Applying it to the the entire family of generalized free fields ϕh with arbi-
+trary weight functions h on Minkowski space-time, we obtain local algebras
+
+                            Atot (K),     (K ⊂ Md ).                       (5.5)
+   We have the rather obvious inclusions for K ⊂ Md
+
+             A∆ (K) ⊂ AKG (W (K)) ⊂ AKG (V (K)) ⊂ Atot (K),                (5.6)
+
+of which the first reflects the limit (4.13), the second is isotony, and the last
+reflects (4.11). We shall show that in fact
+
+                            A∆ (K) = AKG (W (K))                           (5.7)
+
+are proper subalgebras of
+
+                     AKG (V (K)) = Atot (K) = Adual
+                                               ∆ (K).                      (5.8)
+
+In this formula, the “dual completion” [34] is defined as
+
+                             Adual          c ′
+                              ∆ (K) := A∆ (K )                             (5.9)
+
+where K c is the causal complement of K within Md . Fields which are rela-
+tively local to the given field, are among the generators of the dual comple-
+tion. Roughly speaking, the dual completion is the algebraic counterpart of
+Generalized free fields and AdS-CFT                                                 20
+
+
+the Borchers class in Wightman quantum field theory. By a general theorem
+[10], conformal invariance ensures “conformal duality”
+
+                                A∆ (K) = A∆ (K ′ )′                             (5.10)
+
+where K ′ is the causal complement of K within CM           g d ; but if K is a double-
+cone within M , then K is strictly smaller than K ′ , and hence Adual
+                 d          c
+                                                                              ∆ (K) is
+expected to be strictly larger than A∆ (K) (violation of Haag duality).
+      (5.7) is the holographic identification of AKG (W ) with A∆ (K) in the
+sense of (5.1). It is defined globally, and covariant with respect to SO(2, d).
+On the other hand, (5.8) shows that the projective notion of holography
+pertains to Atot (K) = Adual  ∆ (K) instead. Projective holography is defined
+only with respect to the chosen chart (z, xµ ), and is covariant only under
+the Poincaré-dilation subgroup.
+      Before we prove (5.7) and (5.8), we note that Atot (K) does not depend
+on the parameter ν specifying the scaling dimension of the field ϕ(∆) and
+the mass of the corresponding Klein-Gordon field φ. Hence, (5.7) can only
+be true, if AKG (V (K)) does not change if the generating Klein-Gordon field
+φ of mass M 2 is replaced by φ′ of mass M ′2 . Indeed, for different values ν,
+ν ′ , we have by (4.10) and Hankel’s formula (4.9)
+                                Z ∞
+                      φ(z, x) =     z ′ dz ′ Kνν ′ (z, z ′ )φ′ (z ′ , x)         (5.11)
+                                  0
+
+                                           d R∞
+with the kernel Kνν ′ (z, z ′ ) = (z/z ′ ) 2 0 m dm Jν (zm)Jν ′ (z ′ m). Since this
+kernel acts on the z coordinate only, it takes test functions supported in
+V (K) onto test functions supported in V (K), and hence AKG (V (K)) =
+A′KG (V (K)).
+    Let us now turn to (5.7). We invoke a general theorem [1, 6] of Wightman
+QFT. Let O be a double-cone and T a timelike hypersurface passing through
+the apices of O. Then, in order to generate A(O) as in (5.2), rather than
+smear the field in O it suffices to smear the field and all its normal derivatives
+along O ∩ T . In the present case, O is an AdS wedge W , T is the boundary,
+and O ∩ T is the corresponding boundary double-cone K. The normal
+derivatives of φ(z, x) are of the form limz→0 ∂zN z −∆ φ(z, x). By (4.17), and
+because jν is a power series in −z 2 , these derivatives vanish if N is odd
+and are proportional to n ϕ(∆) (x) if N = 2n. With (ϕ)(f ) = ϕ(f ) we
+conclude that AKG (W ) is in fact generated by ϕ(∆) (f ), supp f ⊂ K. This
+justifies our claim (5.7).
+    Now we turn to (5.8). Because the fields generating Atot (K) are rela-
+tively local with respect to ϕ(∆) , we know that AKG (V (K)) ⊂ Atot (K) ⊂
+A∆ (K c )′ ≡ Adual
+               ∆ (K). The claim is that equality holds.
+Generalized free fields and AdS-CFT                                             21
+
+
+    A∆ (K c ) is generated by all A∆ (J) where J are double-cones in Md space-
+like separated from K. Hence its commutant is the intersection, running over
+the same set of J, of algebras A∆ (J)′ = A∆ (J ′ ) (by (5.10)) = AKG (W (J ′ ))
+(by (5.7)). Now, J is spacelike separated from K and belongs to Md iff J ′
+contains K and the point ω = R · e+ of CMd (spacelike infinity of Md , cf.
+Sect. 4), and iff the wedge W (J ′ ) contains W (K) and has ω as a boundary
+point (ω ∈ ∂W ). Thus,
+                                         \
+                         A∆ (K c )′ =         AKG (W ).                 (5.12)
+                                      W ⊃W (K)
+                                       ∂W ∋ω
+
+We may choose K = K0 . The x0 = 0 Cauchy surface of V (K0 ) is C0 =
+{(z, 0, ~x ) : z > 0, ~x2 < 1}. Let W~e be the wedges with Cauchy surface
+C~e = {(z, 0, ~x ) : z > 0, (~e · ~x) > −1}, ~e ∈ Rd−1 , ~e2 = 1. Each W~e contains
+W (K0 ) and has ω as a boundary point, and every wedge which contains
+W (K0 ) and has ω as a boundary point, contains some W~e . Thus, by isotony,
+the intersection of algebras in (5.12) may be taken over W~e ,
+                                            \
+                               A∆ (K c )′ =     AKG (W~e ).                  (5.13)
+                                         ~e
+
+Now, because of the Klein-Gordon equation, the field φ(z, x) is expressible
+in terms of its Cauchy data at x0 = 0, hence AKG (W~e ) = AKG (C~e ) and
+AKG (V (K0 )) = AKG (C0 ) (time-slice property [24], see Sect. 5.2 below). The
+latter algebras are generated by the canonical x0 = 0 Klein-Gordon fields
+φ and π (cf. Sect. 4.1) smeared over the respective regions of the Cauchy
+surface. Thus (5.8) is reduced to the claim
+                          \
+                             AKG (C~e ) = AKG (C0 ).                     (5.14)
+                              ~
+                              e
+
+The independence of Cauchy data associated with disjoint regions entails [2]
+                          \                      \      
+                              AKG (C~e ) = AKG       C~e .                  (5.15)
+                          ~
+                          e                      ~
+                                                 e
+                                                   T
+Thus (5.8) is a consequence of the geometric fact ~e C~e = C0 for K = K0 ,
+and by Poincaré and dilation covariance for all K ⊂ Md .
+
+5.2    Time-slice property
+Finally, we consider the validity of the “time-slice property” (also called
+“primitive causality” [24], or “weak additivity” in [33])
+
+                                  A(O) = A(C)                               (5.16)
+Generalized free fields and AdS-CFT                                           22
+
+
+if O is the causal completion of its Cauchy surface C. A(C) is generated by
+the fields and their time derivatives smeared over C. This property holds
+for canonical free fields [24], and we have just used it in the case of the
+Klein-Gordon field on AdS.
+    The time-slice property does not hold for generalized free fields (with h
+fixed) [24]. E.g., for the above double-cone K0 the Cauchy surface is the
+ball B0 = {(x0 = 0, ~x) : ~x2 < 1}. Smearing the generalized free field ϕ(∆)
+together with its time derivatives over this surface, tests only the boundary
+limits of the corresponding canonical x0 = 0 Klein-Gordon fields φ and π and
+their z-derivatives at {(z = 0, x0 = 0, ~x) : ~x2 < 1}. Since this set does not
+constitute a Cauchy surface for the wedge W (K0 ), the generalized free field
+smeared over the Cauchy surface of K0 generates only a proper subalgebra
+of A∆ (K0 ) = AKG (W (K0 )). This violation of the time-slice property is a
+necessary feature of algebraic holography [33].
+    We want to show that the time-slice property is restored for the dual
+completion Adual
+               ∆ (K) = Atot (K):
+
+                             Atot (K) = Atot (C).                         (5.17)
+
+     Again we may choose K = K0 . The algebra Atot (K0 ) equals AKG (V (K0 ))
+by (5.8) and hence is generated by the canonical x0 = 0 Klein-Gordon fields
+φ and π smeared over the Cauchy surface C0 of V (K0 ). By (4.11), such
+smearings are smearings of x0 = 0 generalized free fields ϕh (0, ~x) and their
+time derivatives over the Cauchy surface B0 of K0 . Hence the latter generate
+Atot (K0 ). This justifies (5.17).
+     It is natural to consider this restoration of the time-slice property as be-
+ing related to the existence of the singular stress-energy tensor (3.6) which
+is in some weak technical sense associated with the algebras Atot (K) but not
+with A∆ (K), and whose integral over a Cauchy surface generates the causal
+time evolution. Even though the stress-energy tensor is not itself a Wight-
+man field, it is not too singular to have this desirable dynamical consequence
+for the structure of the local algebras associated with the Wightman fields
+of the theory.
+
+
+6    Conclusion
+We have studied generalized free fields from a general perspective and es-
+tablished, inspite of the non-canonical nature of these fields, the existence
+of a stress-energy tensor which serves as a density for the generators of the
+Poincaré group as in the canonical framework. We have pointed out that
+this stress-energy tensor is a mathematical object which is more singular
+Generalized free fields and AdS-CFT                                                23
+
+
+than a Wightman field, but can be obtained as a certain limit of generalized
+Wick products.
+    We have then studied the free field AdS-CFT–correspondence in the light
+of the previous results on generalized free fields. In particular, we have given
+an explicit “holographic” formula expressing the Klein-Gordon field on AdS
+in terms of generalized free fields on the boundary. We have identified the
+above stress-energy tensor for generalized free fields as an integral “along
+the z-axis of AdS” over the canonical Klein-Gordon stress-energy tensor
+ΘKG
+  µν (z, ·) on AdS.
+    These results should be useful as a starting point for a perturbation
+theory of the AdS-CFT–correspondence. If the AdS field is perturbed by a
+local interaction Lagrangean density LI (φ) on AdS, it is expected that the
+effect on the conformal field (generalized free field) on the boundary is that
+of a Lagrangean perturbation by the integral “along the z-axis of AdS” of
+LI (φ(z, ·)). This integral, akin to (4.24), is again of the form of a (regular
+or singular) generalized Wick product of the boundary field.
+    Further analysis of this issue will be pursued elsewhere.
+
+Acknowledgments. This work was supported in part by the Deutsche
+Forschungsgemeinschaft and by the Erwin Schrödinger International Insti-
+tute (ESI), Vienna. The authors gratefully acknowledge interesting discus-
+sions with E. Brüning, C.J. Fewster, K. Fredenhagen, and S. Hollands.
+
+
+References
+ [1] H. Araki, A generalization of Borchers’ theorem, Helv. Phys. Acta 36 (1963)
+     132–139.
+ [2] H. Araki, A lattice of von Neumann algebras associated with the quantum
+     theory of a free Bose field, J. Math. Phys. 4 (1963) 1343–1362.
+ [3] S. J. Avis, C. J. Isham, D. Storey, Quantum field theory in anti-de Sitter
+     space-time, Phys. Rev. D 18 (1978) 3565–3576.
+ [4] T. Banks, M. R. Douglas, G. T. Horowitz and E. J. Martinec, AdS dynamics
+     from conformal field theory, arXiv:hep-th/9808016.
+ [5] H.-J. Borchers, Über die Mannigfaltigkeit der interpolierenden Felder zu einer
+     kausalen S-Matrix, Nuovo Cim. 15 (1960) 784–794.
+ [6] H.-J. Borchers, Über die Vollständigkeit lorentzinvarianter Felder in einer
+     zeitartigen Röhre, Nuovo Cim. 19 (1961) 787–793.
+ [7] M. Bertola, J. Bros, U. Moschella, R. Schaeffer, A general construction of
+     conformal field theories from scalar anti-de Sitter quantum field theories, Nucl.
+     Phys. B 587 (2000) 619–644 [=hep-th/9908140];
+     M. Bertola, J. Bros, V. Gorini, U. Moschella and R. Schaeffer, Decomposing
+     quantum fields on branes, Nucl. Phys. B 581 (2000) 575–603.
+Generalized free fields and AdS-CFT                                               24
+
+
+ [8] P. Breitenlohner, D. Z. Freedman, Stability in gauged extended supergravity,
+     Ann. Physics 144 (1982) 249–281.
+ [9] R. Brunetti, K. Fredenhagen, Microlocal analysis and interacting quantum field
+     theories: renormalization on physical backgrounds, Commun. Math. Phys. 208
+     (2000) 623–661.
+[10] R. Brunetti, D. Guido and R. Longo, Modular structure and duality in confor-
+     mal quantum field theory, Commun. Math. Phys. 156 (1993) 201–220.
+[11] E. Brüning, A new class of Wick powers of generalized free fields, J. Math.
+     Phys. 25 (1984) 3064–3075.
+[12] V. K. Dobrev, Intertwining operator realization of the AdS/CFT correspon-
+     dence, Nucl. Phys. B 553 (1999) 559–582.
+[13] W. Driessler and J. Fröhlich, The reconstruction of local observable algebras
+     from the Euclidean Green’s functions of a relativistic quantum field theory,
+     Ann. Poincaré Phys. Theor. 27 (1977) 221–236.
+[14] M. Dütsch and K. Fredenhagen, Algebraic quantum field theory, perturbation
+     theory, and the loop expansion, Commun. Math. Phys. 219 (2001) 5–30.
+[15] M. Dütsch, K.-H. Rehren, A comment on the dual field in the AdS-CFT cor-
+     respondence, arXiv:hep-th/0204123 (v2), to appear in Lett. Math. Phys.
+[16] H. Epstein, On the Borchers class of a free field, Nuovo Cim. 27 (1963) 886–
+     893.
+[17] H. Epstein, V. Glaser, The role of locality in perturbation theory, Ann. Inst.
+     H. Poincaré A 19 (1973) 211–295.
+[18] K. Fredenhagen, V. Hertel, Local algebras of observables and pointlike localized
+     fields, Commun. Math. Phys. 80 (1981) 555–561.
+[19] C. Fronsdal, Elementary particles in a curved space. II, Phys. Rev. D 10 (1974)
+     589–598.
+[20] O. W. Greenberg, Generalized free fields and models of local field theory, Ann.
+     Physics 16 (1961) 158–176.
+[21] O. W. Greenberg, Heisenberg fields which vanish on domains of momentum
+     space, J. Math. Phys. 3 (1962) 859–856.
+[22] S. S. Gubser, I. R. Klebanov, A. M. Polyakov, Gauge theory correlators from
+     non-critical string theory, Phys. Lett. B 428 (1998) 105–114.
+[23] R. Haag, D. Kastler, An algebraic approach to quantum field theory, J. Math.
+     Phys. 5 (1964) 848–861.
+[24] R. Haag, B. Schroer, Postulates of quantum field theory, J. Math. Phys. 3
+     (1962) 248–256.
+[25] G. ’t Hooft, Dimensional reduction in quantum gravity, in: Salam-Festschrift,
+     A. Ali et al. (eds.), World Scientific 1993, pp. 284–296, arXiv:gr-qc/9310026.
+[26] G. ’t Hooft, Large N , arXiv:hep-th/0204069.
+[27] R. Jost, The General Theory of Quantized Fields, AMS, Providence, RI, 1965.
+[28] G. Källen, On the definition of the renormalization constants, Helv. Phys. Acta
+     25 (1952) 417–434,
+     H. Lehmann, Über Eigenschaften von Ausbreitungsfunktionen und Renormie-
+     rungskonstanten quantisierter Felder, Nuovo Cim. [9] 11 (1954) 342.
+Generalized free fields and AdS-CFT                                             25
+
+
+[29] A. L. Licht, A generalized asymptotic condition, Ann. Physics 34 (1965) 161–
+     186.
+[30] M. Lüscher, G. Mack, Global conformal invariance in quantum field theory,
+     Commun. Math. Phys. 41 (1975) 203–234.
+[31] J. M. Maldacena, The large N limit of superconformal field theories and su-
+     pergravity, Adv. Theor. Math. Phys. 2 (1998) 231–252.
+[32] M. Mintchev, Local fields on the brane induced by nonlocal fields in the bulk,
+     Class. Quant. Grav. 18 (2001) 4801–4812.
+[33] K.-H. Rehren, Algebraic holography, Ann. Henri Poincaré 1 (2000) 607–623;
+     K.-H. Rehren, Local quantum observables in the AdS-CFT correspondence,
+     Phys. Lett. B 493 (2000) 383–388.
+[34] J. E. Roberts, Net cohomology and its application to field theory, in: Quantum
+     Fields - Algebras, Processes, L. Streit (ed.), Springer 1980, pp. 239–268.
+[35] G. N. Watson: A Treatise on the Theory of Bessel Functions, Cambridge Univ.
+     Press 1958 (2nd edition).
+[36] E. Witten, Anti-de Sitter space and holography, Adv. Theor. Math. Phys. 2
+     (1998) 253–291.
+
