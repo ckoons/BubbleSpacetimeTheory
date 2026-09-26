@@ -50,3 +50,20 @@ rubric_cell: "Internal — mechanism open at the boundary (processes: free vs in
 - **So the chain closes into one sentence, to be tested this round:** *BST's boundary is interacting ⟺ non-abelian colour on H² (F265) ⟺ the record forgets the real structure (K1926) — a bit the hadron spectrum sets, not the geometry.* If that holds, **the geometry gives a free boundary, and the one observed bit turns interactions on.** That is a strong and checkable statement. Kill line: if non-abelian colour on H² does NOT shift any double-trace dimension (a γ from the A∧A vertex), F265's equivalence fails, and it has to be said which direction fails.
 - **Fresh-spin sentence (what differs from F265's OPEN):** in June there was no explicit fusion rule and no GFF identification. Today there are both (5816, 5818, this note), plus K1926's bit. The question is now a computation, **γ_{n,l} from an su(3) vertex on H²**, not a reduction.
 - Other prior walls at this location: K1714 (the KK gap), Lyra R6 (the mass gap = the ruler), the resolution-limit marker (09-15; the N_max candidate). AdS/CFT appears in the corpus only as loose-tier 05-17 rows (T2110/T2112). HPPS is new.
+
+---
+
+## AMENDMENT 15:58 EDT — the chain died in both directions (round 9; an amendment, not a new K-number)
+**Antecedent restated (Part 4, verbatim):** *"BST's boundary is interacting ⟺ non-abelian colour on H² (F265) ⟺ the record forgets the real structure (K1926) … the geometry gives a free boundary, and the one observed bit turns interactions on."*
+- **FALSE in both directions** (Cal Section 997, hashed 15:49:52 before Lyra wrote; Lyra R9, which disclosed that she had read the one-line board summary; Elie 5821).
+  - A free field can carry a global su(3). #418's octet and K1926's PU(3) act globally on H², so even success leaves the boundary free.
+  - An abelian gauge field with charged matter interacts (QED), and so does a plain contact term.
+  - **F265's warrant ("Maxwell is free, YM interacts") holds only for pure gauge theories.** The colour bit picks the GROUP (selection rules: qq singlets), not WHETHER anything interacts.
+- **Stronger (Lyra):** H² has **no conserved currents at any spin and no stress tensor.** A spin-j channel sits at weight 5 + j, and conservation needs d − 2 + j = 3 + j. **An su(3) gauge vertex cannot even be written on H². Gauge couplings live at the singleton (Rac) level.**
+- **Elie 5821:** because each channel appears once, the geometry constrains γ_{n,l} not at all: any pattern comes from some symmetric vertex. The natural point-evaluation vertex of BST's interior shifts **only (n,l) = (0,0)** (an exact map onto the weight-5 piece, killing all others). The AdS contact shifts all l = 0. They are different interiors, and BST does not force the vertex.
+- **The third wall, stated (Lyra; Cal concurs):** *D_IV⁵ forces the kinematics (spectra, channels, multiplicities, selection rules) and none of the dynamics.* Masses = the ruler × a number; couplings identified; processes free at the geometric level. **F275 (June) reached the same wall.** The channel list itself is forced and zero-knob; any interaction must live inside it.
+- **My prompt errors, owned:**
+  - I wrote that HPPS count bulk interactions "by derivatives". **They count by maximum spin** (Grace), and the result is proved only in d = 2 and 4.
+  - I wrote "Sym² ↔ even l" as a GFF fact; the even-spin rule is pinned from HPPS, not Fitzpatrick–Kaplan (Grace).
+  - The chain itself was a "therefore" across three links, each of which needed its own warrant: [[feedback_enumerate_alternatives_before_therefore_false_dichotomy]].
+- **Ørsted–Zhang, restated against the source (Grace):** their Section 5 (general bounded symmetric domain; Theorem 5.1, ν > 2, which includes 5/2) supports "a state times its conjugate is purely continuous". The authors call the section "less complete", and "≅ L²(D)" is not their wording. It stands as direction: records are the continuum.

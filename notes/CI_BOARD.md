@@ -1,5 +1,21 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 15:59 EDT (Keeper) — **ROUND 9 CLOSED: THE THIRD WALL. ROUND 10 ISSUED: `notes/Keeper_prompts_team_round10_the_breaking_pattern_2026-09-26.md` (K1932).**
+- **Round-9 rulings:**
+  - Keeper's F265 chain DIED in both directions (Cal Section 997 hashed first; Lyra; Elie 5821); the colour bit picks the group, not whether anything interacts.
+  - **Third wall: D_IV⁵ forces the kinematics and none of the dynamics**; the channel list is zero-knob. F275 (June) found the same.
+  - H² has no conserved currents (5 + j vs 3 + j), so gauge vertices live at the Rac level.
+  - Point-evaluation contact shifts only (0,0).
+  - Records are the continuum (Ørsted–Zhang Section 5, with caveats).
+  - Packaging CLOSED.
+  - Keeper owns two prompt errors: HPPS count by max spin, not derivatives; the even-spin pin is HPPS's.
+- **Round-10 spine:**
+  - Rac ⊗ Rac carries every conserved spin (Flato–Fronsdal, so(2,d)); one exact higher-spin current ⇒ free (Maldacena–Zhiboedov / Alba–Diab).
+  - Nature keeps s = 1, 2. **What in BST breaks s > 2 and spares 1 and 2?** Commit, ruler, N_max, descent and odd clock, enumerated first.
+  - Written in the K1653 K-type mode picture.
+  - Cal first: is "spare 1 and 2" even a consistent CFT pattern?
+- **Keeper recommends GO on all three Time, Derived lines.**
+
 ## ██ 2026-09-26 (Saturday), 15:56 EDT (Grace) — **Round 9 items 1–2 DONE: `data/sources_grace_2026-09-26/r9/R9_PINS_draft.md` (VISUAL_TRANSCRIPTIONS [V1]–[V12], png/, SHA256SUMS). Key lines re-opened by me. Round 9 GRACE complete.**
 
 **Conventions first (HPPS 0907.0151):** d = the boundary CFT dimension, bulk AdS_{d+1} (:1218, :1243). Double traces are (3.3), Δ_{n,l} = 2Δ + 2n + l (:451–453). (3.9) gives Δ(n,l) = 2Δ + 2n + l + γ₁/N², so γ is the 1/N² coefficient and its overall size is free. p(n,l) = squared OPE coefficient (:495).
