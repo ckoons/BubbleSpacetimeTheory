@@ -1,0 +1,2464 @@
+                                                         Unitarity and the Holographic S-Matrix
+
+                                                                      A. Liam Fitzpatrick1 , Jared Kaplan2
+
+                                             1
+                                              Stanford Institute for Theoretical Physics, Stanford University, Stanford, CA 94305
+                                         2
+                                             SLAC National Accelerator Laboratory, 2575 Sand Hill, Menlo Park, CA 94025, USA.
+
+
+
+
+                                                                                       Abstract
+
+
+
+
+arXiv:1112.4845v2 [hep-th] 12 Jul 2012
+                                                     The bulk S-Matrix can be given a non-perturbative definition in terms of the flat
+                                                 space limit of AdS/CFT. We show that the unitarity of the S-Matrix, ie the optical
+                                                 theorem, can be derived by studying the behavior of the OPE and the conformal block
+                                                 decomposition in the flat space limit. When applied to perturbation theory in AdS, this
+                                                 gives a holographic derivation of the cutting rules for Feynman diagrams.
+                                                     To demonstrate these facts we introduce some new techniques for the analysis of
+                                                 conformal field theories. Chief among these is a method for conglomerating local primary
+                                                 operators O1 and O2 to extract the contribution of an individual primary O∆,` in their
+                                                 OPE. This provides a method for isolating the contribution of specific conformal blocks
+                                                 which we use to prove an important relation between certain conformal block coefficients
+                                                 and anomalous dimensions. These techniques make essential use of the simplifications
+                                                 that occur when CFT correlators are expressed in terms of a Mellin amplitude.
+1       Introduction
+Exact theories of quantum gravity should be formulated in terms of gauge invariant observables
+associated to the boundary of spacetime. In flat spacetime, the only such observable is the S-
+Matrix, so a theory of quantum gravity in flat space will be a theory that computes scattering
+amplitudes holographically. Since AdS/CFT [1, 2, 3] provides a non-perturbative description
+of AdS theories via a dual CFT, one can obtain the bulk S-Matrix from a flat space limit of
+AdS. This defines a holographic theory for flat space using a sequence of CFTs with increasing
+central charge. The introduction of the Mellin amplitude [4, 5] for CFT correlation functions
+has led to progress [6, 7, 8, 9, 10] along these lines, and in particular, we recently argued [9]
+that bulk locality can be understood by showing how the meromorphy of the Mellin amplitude1
+leads to an analytic S-Matrix. The purpose of the present work is to demonstrate how the
+unitarity of the S-Matrix can be derived directly from the unitarity of the CFT. Specifically,
+we will derive the usual optical theorem
+
+                                          − i(T − T † ) = T † T                                      (1)
+
+and cutting rules for the 2-to-2 scattering amplitude of massless scalars at a non-perturbative
+level from the conformal block decomposition and the operator product expansion of the CFT.
+    Before we outline the derivation, let us first comment on how the standard, manifestly
+unitary definition of the S-Matrix can be applied in AdS/CFT. The S-Matrix is usually defined
+as the overlap between in and out states
+
+                                           Sαβ = hαin |βout i                                        (2)
+
+where α and β are multi-particle states composed of asymptotically well-separated, exactly
+stable particles. From this point of view, unitarity arises as a consequence of the completeness
+of the in and out bases, and all of the structure of scattering is encoded in the fact that these
+bases are different. In the interaction picture we write the S-Matrix as
+                                                              n R∞             o
+                                                                 i −∞ HI (t)dt
+                      Sαβ = hαfree |S| βfree i where S = T e                                  (3)
+
+and T is the time ordering symbol. The unitarity of the S-Matrix follows automatically from
+the unitarity of the S operator.
+    All of these statements have simple analogs when we take the flat space limit of AdS/CFT.
+The key is to realize that global AdS behaves likes a cavity or finite sized ‘box’ [11], so to
+obtain the S-Matrix we need only setup the correct experiment and then take the size of the
+box to infinity. As originally discussed in [12, 13] and recently revisited in [14, 15, 9], one
+can setup initial states corresponding to incoming particles by acting with CFT operators,
+and then measure the outgoing particles with final state operators after exactly one scattering
+event has occurred. Since we want to scatter finite energy particles in the vanishing curvature
+limit of AdS, we need to study bulk states with energy E so that ER → ∞ as the AdS length
+scale R → ∞. An elementary feature of the AdS/CFT correspondence is that AdS global time
+    1
+    We reviewed aspects of CFT physics and the Mellin amplitude in our recent companion paper [9], and we
+discussed them in detail in [7], so we urge interested readers to consult these references for a review.
+
+
+                                                   1
+              AdS                                                      CFT
+                                                              tion
+                                                          at a
+                                                       dil time
+
+                 ψout
+
+                                         πR
+  time                                                                        ψin
+                                                                             πR
+                                                                             ψout
+                  ψin
+
+Figure 1: This figure shows how the AdSd+1 cylinder in global coordinates corresponds to the
+CFTd in radial quantization. The time translation operator in the bulk of AdS is the dilatation
+operator in the CFT, so energies in AdS correspond to dimensions in the CFT. A scattering
+process in the bulk can be set up by acting with smeared CFT operators at an initial and
+final time that are separated by πR. In the large N limit, a product of n single-trace CFT
+operators creates an n-particle scattering state in the bulk.
+
+
+corresponds to radial quantization ‘time’ in the CFT, as pictured in figure 1. This means that
+time translations in the bulk of AdS are generated by the dilatation operator D in the CFT,
+so bulk scattering amplitudes involve CFT states of dimension very large compared to 1, but
+very small compared to the central charge.
+    In other words, to compute scattering amplitudes using AdS/CFT we setup an in-state
+by smearing with CFT operators at an initial “dilatation time”, we evolve the state with
+the dilatation operator D for a time πR, and then we measure the result at a final time.
+Now it is easy to imitate the usual interaction picture. When studying CFT operators and
+states with dimension small compared to the central charge N 2 , we can separate the dilatation
+operator into D = D0 + N1 DI . Bulk perturbation theory and bulk scattering amplitudes can
+be computed using equation (3) with
+                                                         (      " Z πR          #)
+                                                                       2
+            Sαβ = lim hαfree |SR | βfree i   where SR = T   exp i           DI (t)dt        (4)
+                   R→∞                                               − πR
+                                                                        2
+
+
+where now the states α and β are created by products of single trace operators, as discussed in
+
+                                                 2
+[14, 15, 9]. From this point of view, the unitarity of the S-Matrix is a direct consequence of the
+unitarity of the CFT. This description of scattering also immediately explains the S-Matrix
+results of [16], namely that to first order in perturbation theory, the bulk S-Matrix is just the
+matrix of anomalous dimensions hα|DI |βi.
+    While this procedure looks familiar from the point of view of the bulk, the setup of equation
+(4) does not appear very natural in the CFT, nor is it convenient to use for computations. For-
+tunately, in [9] we proved a conjecture of Penedones [6] that gives an extremely simple formula
+for the S-Matrix written directly in terms of the Mellin amplitude for CFT correlators. This
+formula also leads to a nearly trivial relationship between the conformal block decomposition
+of a CFT correlator and the S-Matrix in the flat space limit. Let us now briefly review the
+conformal block decomposition, which can be viewed as a consequence of unitarity in the CFT.
+    In any theory whatsoever, one can insert the operator 1 as a sum over states |αihα|, giving
+                                   X
+                        A4 (xi ) =    hO1 (x1 )O2 (x2 )|αihα|O3 (x3 )O4 (x4 )i                 (5)
+                                    α
+
+in the case of a 4-pt correlation function. In theories with symmetry one can make further
+progress by organizing the states |αi into irreducible representations of the symmetry group.
+In flat spacetime, this means that one can use Poincaré invariance to break the sum into states
+of definite energy, invariant mass, and angular momentum and then integrate over the overall
+momentum of the state. In a CFT, we can organize the states |αi of definite dimension and
+angular momentum into primaries and descendants, where the descendant states can all be
+represented via actions of the translation operator P µ on a primary state. If we organize the
+sum in equation (5) so that all descendants are grouped together with their defining primary,
+we have the conformal block decomposition [17, 18, 19, 20]
+                                               X
+                                                       `
+                                    A4 (xi ) =   P∆,` B∆ (xi )                               (6)
+                                                  ∆,`
+
+of the CFT correlator, where the P∆,` are fixed numerical coefficients encoding dynamical
+                                                             `
+information about the theory. The conformal blocks B∆          (xi ) are the universal functions that
+represent the contribution of a given primary and its descendants to the 4-pt correlator; these
+functions also depend on the dimensions ∆i of the external operators Oi , and were recently
+given in Mellin space in [4, 5, 9] for CFTs of arbitrary spacetime dimension.
+    The conformal block decomposition can also be viewed as a consequence of the operator
+product expansion, and this is where its power lies. The OPE says that we can write the
+product of two operators as a sum
+                                            X
+                         O1 (x1 )O2 (x2 ) =   c12   12
+                                               ∆,` b∆,` (x1 , x2 , x)O∆,` (x)                     (7)
+                                            ∆,`
+
+where the universal 3-pt function b12  ∆,` is fixed by conformal symmetry. If we use the OPE
+twice inside a 4-pt correlator, then we can express that correlator as a sum over CFT 2-pt
+functions with coefficients c12   34
+                             ∆,` c∆,` . But since local CFT operators are isomorphic to CFT
+states, this can also be viewed as a sum over all the states in the theory, as in the conformal
+block decomposition. In other words, the OPE implies that
+                                          P∆,` = c12   34
+                                                  ∆,` c∆,`                                       (8)
+
+                                                   3
+     O1                         Oa                      O1
+                                                                         [Oa Ob ]n,�
+
+     O2                         Ob                      O2
+
+
+
+      � O1
+
+       n,� O2   (                [Oa Ob ]n,�
+                                               )(   [Oa Ob ]n,�
+                                                                    O1
+
+
+                                                                    O2
+                                                                           )   Bn,�
+Figure 2: This figure shows how one can conglomerate k − 2 CFT operators in an k-pt corre-
+lation function to obtain a 3-pt function, and then use these 3-pt functions to determine some
+contributions to the conformal block decomposition of a 4-point correlator. This procedure
+makes it possible to use one order in perturbation theory to say something about the next;
+it is precisely analogous to the way that the optical theorem permits the calculation of the
+imaginary part of the S-Matrix using a phase space integral over the product of lower point
+scattering amplitudes.
+
+
+We have derived the well-known fact that the 3-pt correlators in a CFT in principle determine
+all the n-pt correlation functions in the theory.
+    The rest of this paper will be concerned with making these ideas computationally useful
+and relating them to the S-Matrix. The key to putting the OPE to work is pictured in figure
+2; we will refer to the process depicted in the bubble at the top of this figure as conglomerating
+operators Oa and Ob into a double trace operator [Oa Ob ]n,` . This makes it possible to use k-pt
+correlation functions to determine lower point correlators involving multi-trace operators. In
+particular, we can use information about the correlators at one order in perturbation theory
+to compute terms in the conformal block decomposition at the next order, as pictured in the
+second step of figure 2.
+    So how do we implement this conglomeration procedure? Naively, one might proceed
+by defining the double trace primary operator as a linear combination of terms of the very
+
+                                                4
+  �
+                                                      �
+             1                       1                                1
+                                                                                      2
+     α
+             2
+                        Oα
+                                    2
+                                                           dαout     |2
+                                                                                    α out
+                                                                                            |
+Figure 3: This figure indicates how the sum over k-trace operators with dimension ∆ turns
+into a phase space integral over k-particle states with center of mass energy ∆/R in the flat
+spacetime limit of AdS/CFT.
+
+
+schematic form ∂ x O1 ∂ y O2 . Then, by imposing that the special conformal generator annihilates
+the sum, one finds relations for the coefficients. By itself, this is a rather involved combina-
+torially exercise; some partial results were obtained in [21, 6], and for completeness we give
+a recursion relation for the coefficients in the case of a general double trace primary operator
+in appendix C. However, it turns out that determining these coefficients is actually the easy
+part, because to use these coefficients to compute correlators involving a double trace primary
+[O1 O2 ]n,` we also need to differentiate a CFT correlator involving O1 and O2 a total of 2n + `
+times. This procedure is very cumbersome, especially at large n and `.
+    Fortunately there is a better method that exploits the simple properties of the Mellin
+representation for CFT correlators. Instead of differentiating single trace operators, we can
+integrate them against simple ‘wavefunctions’ that conglomerate the single-trace operators into
+the desired double-trace state. To form an operator of dimension ∆ and spin ` from two single
+trace operators inside a correlator, we write
+                                      Z
+                   hO∆,` (x) . . . i = dd x1 dd x2 f∆,` (x, x1 , x2 )hO1 (x1 )O2 (x2 ) . . . i (9)
+
+where ‘. . . ’ indicate any other local operators that may appear in the correlator. The wave-
+function f∆,` , which we will determine in section 2, has only power law dependence on the
+differences between the coordinates. Because of the simplicity of f∆,` , when we represent CFT
+correlators as Mellin amplitudes, the integrals in equation (9) can be done immediately using
+the Symanzik star formula, which one can view as the Mellin-space analog of the formula for
+the Fourier transform of eip·x . We will also see how to use these methods to extract the coeffi-
+cient of an individual conformal block from the Mellin amplitude. In section 2 we will derive
+these techniques and use them to obtain some new results about CFTs, and then in section 3
+we will also make essential use of this technology in our derivation of unitarity. It seems likely
+that these techniques can be usefully applied far afield from our discussion of the flat space
+limit of AdS/CFT.
+    The process of conglomerating operators at one order in perturbation theory and then
+combining the results to give information about the next order should remind the reader of
+the way that the optical theorem
+
+                                        − i(T − T † ) = T † T                                   (10)
+
+                                                 5
+computes the imaginary part of the S-Matrix. In section 3 we will show that in fact, the
+conformal block decomposition as computed along the lines of figure 2 reduces to the imaginary
+part of the S-Matrix in the flat space limit of the bulk AdS theory dual to the CFT.
+    To derive the optical theorem, we need to show that the sum over k-trace operators in
+the conformal block decomposition reduces to a phase space integral over k-particle states,
+as pictured in figure 3 for k = 2. We explain this essentially kinematical fact in section 3.3.
+One might also wonder whether all operators that can be exchanged in the conformal block
+decomposition are really k-trace operators, and what role is played by the operators dual
+to unstable particles. The S-Matrix connects in and out states composed of exactly stable
+particles, and so scattering amplitudes between unstable particles are not well-defined and do
+not appear in the unitarity relation. The qualitative difference between stable and unstable
+particles emerges only in the flat space limit, when the original primary operators dual to
+unstable particles get lost on the sea of multi-trace operators with which they mixes. We saw
+an explicit example of this phenomenon in [9], where we obtained a Breit-Wigner resonance
+from the flat space limit of AdS/CFT.
+    This also means that the small black holes that can occur as intermediate configurations
+in scattering processes are not literally states in the theory, since they too are unstable. Thus
+there are no ‘small black hole operators’ being exchanged in the conformal block decomposition,
+and we are not missing any contributions when we formulate unitarity purely in terms of stable
+multi-particle states.
+    The conformal block decomposition provides an expression for the exact 4-point correlator,
+but the left hand side of the optical theorem only involves the imaginary part of the S-Matrix.
+Another way of saying this is that in general, the optical theorem does not provide sufficient
+information to fully determine the next order in perturbation theory, because the real part of
+the S-Matrix cannot be uniquely computed. But this means that when we use the OPE as
+pictured in figure 2, we must be missing terms that correspond to the real part of the S-Matrix!
+The missing terms can be most easily understood by looking at the one-loop example in figure
+4. In the conformal block decomposition of the 4-point correlator computed by this loop
+diagram, when double-trace operators are exchanged there are terms that correspond to ‘cuts
+at the edge of the diagram’. These combine the 3-point functions of mean field theory (ie the
+CFT correlators that follow from a free theory in AdS) with interacting 3-point functions, as
+pictured on the left and right sides of figure 4. We will prove that in the flat space limit, these
+terms in the conformal block decomposition only contribute to the real part of the S-Matrix,
+and so they drop out of the optical theorem. These edge cuts identically represent the part of
+the S-Matrix that is non-trivial to reproduce using dispersion relations.
+    Interestingly, the proof that these edge cuts only contribute to the real part of the S-Matrix
+requires an identity first conjectured in [22], which amounts to the statement that the edge
+cut terms are total derivatives. Alternatively, the conjecture says that the OPE coefficients
+cn,` = c̄n,` + δcn,` for these edge cuts satisfy
+
+                                                  1 ∂ 2             
+                                  c̄n,` δcn,` =        c̄n,` γ(n, `) ,                        (11)
+                                                  4 ∂n
+where γ(n, `) is the anomalous dimension of the double trace operator [O1 O2 ]n,` of dimension
+∆1 + ∆2 + 2n + ` + γ(n, `), and c̄n,` and δcn,` are respectively the infinite N value and finite
+
+                                                     6
+                         φ                       χ
+                                                                                                      ψ
+                         φ            λ                                           g
+                                                 χ                                                    ψ
+
+
+
+
+  ( )( ) ( )( ) ( )( )
+   Oφ                               Oψ      Oφ                             Oψ         Oφ                              Oψ
+          [Oφ Oφ ]                               [Oχ Oχ ]                                  [Oψ Oψ ]
+
+                         [Oφ Oφ ]                               [Oχ Oχ ]                                   [Oψ Oψ ]
+   Oφ                               Oψ λg   Oφ                             Oψ g       Oφ                              Oψ
+                     1                                      λ                                         λg                   1
+Figure 4: This figure provides a schematic depiction of how a 1-loop Witten diagram in AdS
+decomposes via the conformal block decomposition in the dual CFT. For illustrative purposes,
+the bulk theory has both a λ4 φ2 χ2 and a g4 χ2 ψ 2 interaction. The dashed lines indicate ‘cuts’; the
+central cut, highlighted in purple, provides the familiar imaginary contribution to the optical
+theorem in the flat space limit. The conformal block decomposition also includes the ‘edge
+cuts’ on the left and right, which have no analog in discussions of the cutting rules. These edge
+cuts are very important in order to obtain the full correlator, but in the flat space limit they
+only contribute to the real part of the S-Matrix, and so they drop out of the optical theorem.
+
+
+N corrections to cn,` . We will precisely state and prove this statement and a relevant gen-
+eralization at a non-perturbative level in section 2.3 by using the conglomeration techniques
+discussed above.
+    The outline of the paper is as follows. In section 2 we derive our technique for conglomer-
+ating operators and apply it to some useful examples, obtaining a few new results along the
+way, including the infinite N conformal block coefficients in arbitrary spacetime dimensions
+and the generalized derivative relation indicated in equation (11). In section 3 we show how
+the unitarity of the S-Matrix follows from the conformal block decomposition, as we briefly
+outlined above, and we give a full one-loop example. Finally in section 4 we conclude with a
+discussion of the implications and opportunities for further work.
+
+
+
+
+                                                            7
+2     Conglomerating Operators
+The goal of this section will be to understand how to ‘conglomerate operators’ in order to
+combine a pair of local primary operators into a third composite operator that appears in the
+OPE of the first two. We will also be able to use these techniques to extract specific terms
+from the conformal block expansion.
+
+2.1    Basics
+Before we see how the conglomeration process works, let us first review a few basic facts
+about CFT operators. We have written out the full conformal algebra in equation (133) in the
+appendix, but for our present purposes it will suffice to consider the commutation relations of
+the dilatation operator D, the momentum generator P µ , and the special conformal generator
+K µ . These take the form
+
+              [D, Pµ ] = Pµ ,   [D, Kµ ] = −Kµ ,       [Pµ , Kν ] = −2(ηµν D + iMµν )       (12)
+
+The crucial feature to notice is that P µ and K µ act as raising and lowering operators with
+respect to the dimension, which is the eigenvalue of D. Unitary CFTs have lower bounds on
+the allowed dimensions of operators, so this means that after some number of applications of
+K µ any state of definite dimension will be annihilated. A state that is annihilated by K µ is
+called a primary state, and the operator that creates this state is referred to as a primary
+operator. All states of definite dimension and angular momentum can be classified as either
+primaries or descendants of a primary. Since the momentum P µ = i∂µ , descendants are just
+derivatives of primaries.
+    Let us begin with some very concrete examples in mean field theory (ie the dual of a
+free theory in AdS), where all correlators are determined by the 2-pt functions of single-trace
+primaries, which are the operators dual to the fields in AdS. Given two single-trace primary
+scalar operators O1 and O2 , one can form double-trace primaries [O1 O2 ]n,` which will have
+dimension ∆1 + ∆2 + 2n + ` and spin `. The most trivial example is O1 O2 , which is primary
+and has n = ` = 0. But we can also form the operator
+
+                                   ∆2 (∂µ O1 )O2 − ∆1 O1 (∂µ O2 )                           (13)
+
+One can check using the conformal algebra that this operator is primary. A slightly more
+complicated example is the operator given by the linear combination
+                     ∆1                                       ∆2
+                             (∂ 2 O1 )O2 − ∂µ O1 ∂ µ O2 +             O1 (∂ 2 O2 )          (14)
+                 2∆1 + 2 − d                              2∆2 + 2 − d
+which is also primary, and has n = 1, ` = 0. In appendix C we present a recursion relation that
+completely determines the appropriate coefficients for any double-trace primary with arbitrary
+n and `. At large n, the double trace primary operators approach a one-to-one correspondence
+with the space of 2-particle states in d + 1 dimensions, a fact that will be important later on.
+   A very natural question follows: given an n-pt CFT correlator involving O1 (x1 ) and O2 (x2 ),
+how do we extract an (n − 1)-pt correlator with the double trace primary [O1 O2 ]n,` (x0 )? We
+
+                                                   8
+could proceed by using derivatives as above, but this quickly becomes extremely cumbersome.
+Furthermore, when we move beyond the mean field theory limit, all operators will pick up
+anomalous dimensions, and when these become large it is difficult to define precisely which
+operator we intend when we write [O1 O2 ]n,` (x0 ). So instead of using derivatives, let us try to
+use an integral over a wavefunction f∆,` , and define
+                                  Z
+               [O1 O2 ]n,` (x0 ) = dd y1 dd y2 f∆1 +∆2 +2n+`,` (x0 , y1 , y2 )O1 (y1 )O2 (y2 ) (15)
+
+This applies to the mean field theory case, but for general CFTs we can use dimensions ∆
+other than ∆1 + ∆2 + 2n + `. Now we need to determine the wavefunction f∆,` . Fortunately,
+this can be easily accomplished with the introduction of so-called shadow operators. For any
+primary scalar operator O of dimension ∆, we wish to find a shadow operator Õ of dimension
+d − ∆ so that
+                                  hO(x)Õ(y)i = δ d (x − y)                             (16)
+If we simply define                            Z
+                                                       O(y)
+                                   Õ(x) ≡         dd y                                    (17)
+                                                  (x − y)d−2∆
+then one can check that the desired identity is satisfied. Now we can use these shadow operatos
+to compute the wavefunction f∆,` . As a warm-up, assume that ` = 0. If we compute the
+correlator of both sides of equation (15) with Õ1 (x1 )Õ2 (x2 ) then we find that
+                                                       (x12 )∆1 +∆2 −2d+∆
+                        f∆,`=0 (x0 , x1 , x2 ) ∝                                              (18)
+                                                 (x01 )∆−∆1 +∆2 (x02 )∆−∆2 +∆1
+where xij = xi − xj . We did not even need to do any integrals to compute this wavefunction,
+because the 3-pt correlator of scalar primaries is determined uniquely up to an overall constant.
+    Before we make use of this result, let us first generalize it to the case where ` > 0. For this
+purpose, it will be simpler and more elegant to use the embedding formalism [23, 24], where
+we can use the machinery that was developed and nicely explained in [25]. The basic idea of
+this formalism is extremely simple – since the conformal group in d dimensions is SO(d, 2),
+it is most natural to use coordinates that transform in the fundamental representation of
+this group. Thus we will represent each coordinate xi with a d + 2 dimensional vector Pi ,
+constrained so that Pi2 = 0 and identified projectively so that Pi ∼ λPi for real λ > 0. These
+coordinates correspond to the null cone that is the asymptotic limit and boundary of AdS
+when it is regarded as a hyperbola in a d + 2 dimensional embedding space. If we use light
+cone coordinates for the Pi and choose the specific normalization Pi+ = 1, we find
+                                    (Pi+ , Pi− , Piµ ) = (1, x2i , xµi )                      (19)
+This means that the inner product of the Pi is
+                        2Pi · Pj = Pi+ Pj− + Pi− Pj+ − Piµ Pjµ = (xi − xj )2                  (20)
+Conformal transformations of the xi simply act as fundamental SO(d, 2) transformations on
+the Pi . We will normalize the 2-pt functions of single-trace scalar primary operators so that
+                                                               C∆
+                                       hO(P1 )O(P2 )i =         ∆
+                                                                                              (21)
+                                                               P12
+
+                                                     9
+where P12 = 2P1 · P2 and the normalization
+                                                      Γ(∆)
+                                        C∆ ≡                                                              (22)
+                                               2π h Γ(∆ − h + 1)
+with 2h = d, the spacetime dimension of the CFT. As shown in [25], the correlators of operators
+with spin can be described in the embedding formalism as polynomials in auxiliary d + 2
+dimensional vectors Zi which soak up the tensor indices of the spinning operators. We will
+only make use of the simplest examples from [25], such as the 3-pt function of two scalar
+primaries and a spin ` primary
+                  D                              E       ∆,`
+                                   A1 ...A`
+       ZA1 ...ZA` O1 (P1 )O2 (P2 )O∆,`      (P3 ) = c12
+                                                     ∆,` T∆1 ,∆2 (Z, P3 ; P1 , P2 )        (23)
+                                                                  ((Z · P1 )P23 − (Z · P2 )P13 )`
+                   where T∆∆,`
+                            1 ,∆2
+                                  (Z, P3 ; P1 , P2 ) ≡        ∆1 +∆2 −∆+`    ∆2 +∆−∆1 +`    ∆+∆1 −∆2 +`   (24)
+                                                            P12    2
+                                                                            P23   2
+                                                                                           P31  2
+
+
+
+Note that the universal function T∆∆,`
+                                     1 ,∆2
+                                           is fixed by symmetry, while the 3-pt function coefficient
+c12
+ ∆,` provides  dynamical   information  about    the theory. The auxiliary coordinates Zi are taken
+to have the property that Zi · Pi = 0, and correlators must have a ‘gauge invariance’ under
+Zi → Zi + αPi for any α. One can see immediately that the scalar-scalar-spin-` correlator
+satisfies this gauge condition.
+    We can use these results to determine the general wavefunction f∆,` . The operator O∆,` is
+defined by
+                                Z             h                                   i
+                  A1 ...A`                                A1 ...A`
+      ZA1 ...ZA` O∆,` (P0 ) = dd P1 dd P2 ZA1 ...ZA` f∆,`          (P0 , P1 , P2 ) O1 (P1 )O2 (P2 ) (25)
+
+If we again take the correlator of both sides with the product of shadow fields Õ1 (P1 )Õ2 (P2 )
+then we find the result
+                               A1 ,...,A`                   1   ∆,`
+                ZA1 . . . ZA` f∆,`        (P0 , P1 , P2 ) = f Td−∆  1 ,d−∆2
+                                                                            (Z, P0 ; P1 , P2 ) (26)
+                                                           N∆,`
+                                                                         f
+defined in terms of the universal function from equation (23), where N∆,`   is a normalization
+factor that we will determine later. Note that this wavefunction also depends on the spacetime
+dimension d and the dimensions ∆1 and ∆2 , although we have suppressed this dependence in
+the notation. One could continue on and use the results of [25] to obtain wavefunctions
+involving several operators with spin, but for our purposes equation (26) will be sufficient.
+Now let us see how to use this result to compute interesting 3-pt functions and to extract the
+coefficients in the conformal block decomposition.
+
+2.2    Using Conglomeration
+The intuition we used above to introduce conglomeration was perturbative. In general, our
+conglomeration procedure can be understood in terms of the operator product expansion.
+Isolating a single term in the OPE, we can write
+                        O1 (P1 )O2 (P2 ) = c12       12
+                                            ∆,`;OPE b∆,` (P1 , P2 )O∆,` (P1 ) + . . .                     (27)
+
+                                                     10
+where the ‘. . .’ contain all the other operators in the OPE, including the descendants of O∆,` .
+If we compute the correlator of both sides with O∆,` (P0 ) all of the terms in the ellipsis vanish,
+and we relate the three-point correlator to the OPE coefficient multiplied by the normalization
+of the OPE and the operator O∆,` . For example, in the notationally simple case ` = 0, we
+                 −∆ + ∆
+                  b
+define b12
+        ∆,0 = P12
+                      2
+                          and so we find that
+
+                                                               −∆ + ∆
+                 hO∆,0 (P0 )O1 (P1 )O2 (P2 )i = c12
+                                                 ∆,`;OPE P12
+                                                             b      2
+                                                                        hO∆,0 (P0 )O∆,0 (P1 )i.       (28)
+                                                      −∆
+When O∆,0 is normalized to give a two-point function P01 , then we have
+
+                                              c12     12
+                                               ∆,` = c∆,`;OPE                                         (29)
+
+using the definition of the 3-point correlator in equation (23). Conglomeration makes it possible
+to extract both 3-point correlators and OPE coefficients.
+    Before proceeding to calculate we need to set the normalization. We will use a convention
+such that the general 2-point correlator of O∆,` with itself is [25]
+
+                                                   ((Z1 · Z2 )(P1 · P2 ) − (Z2 · P1 )(Z1 · P2 ))`
+              hO∆,` (Z1 , P1 )O∆,` (Z2 , P2 )i =                    ∆1 +∆2 +2n+2`
+                                                                                                  ,   (30)
+                                                                 P12
+
+where we have effectively defined the operator O∆,` by conglomeration in equation (25). Now
+                                                                       f
+we can determine the normalization of the wavefunctions N∆,`               in equation (26) by demanding
+                  Z
+    hO∆,` O∆,` i = dd Pi f∆,` (Pa ; P1 , P2 )f∆,` (Pb ; P3 , P4 ) hO1 (P1 )O2 (P2 )O1 (P3 )O2 (P4 )i , (31)
+
+where we have suppressed the dependence of f∆,` on the auxiliary variables Zi for notational
+simplicity. One could also set the normalizations in terms of the conformal block decomposi-
+tion. This follows because
+                     Z
+                       dd P1 dd P2 f∆,` (P0 ; P1 , P2 )B∆0 ,`0 (Pi ) ∝ δ(∆ − ∆0 )δ`,`0 . (32)
+
+If the result is non-vanishing it can be used to fix the normalization of the wavefunctions; this
+also means that we can use conglomeration to uniquely identify terms in the conformal block
+decomposition.
+    Finally, let us consider what happens if there is more than one operator with the dimension,
+angular momentum, and global charges of O∆,` . If there are many such operators, they can
+certainly mix with each other, so they can only be differentiated based on their correlation
+functions. By applying conglomeration to different correlators, such as
+
+                             hO1 O2 O1 O2 i , hO1 O2 O3 O4 i , hO3 O4 O3 O4 i                         (33)
+
+we can extract all the information we need to separate the operator O∆,` that couples to O1
+                             0
+and O2 from the operator O∆,`    which has a 3-pt function with O3 and O4 . This may be
+relevant for more complicated CFTs.
+
+                                                       11
+   Now that our wavefunctions are normalized, we can compute 3-point correlators via
+  Z
+    dd P1 dd P2 f∆,` (P0 ; P1 , P2 ) hO1 (P1 )O2 (P2 )O3 (P3 )O4 (P4 )i = hO∆,` (P0 )O3 (P3 )O4 (P4 )i . (34)
+
+If there is no operator or operators O∆,` in the OPE of O1 and O2 then the result will be zero.
+This procedure is most tractable when the correlators are expressed in terms of the Mellin
+amplitude M (δij ) [4, 5, 6, 7, 9], so that
+                                                         Z i∞                  Y
+                                                                               4
+                                                                                              −δ
+                 hO1 (P1 )O2 (P2 )O3 (P3 )O4 (P4 )i =           [dδ]M (δij )         Γ(δij )Pij ij .    (35)
+                                                          −i∞                  i<j
+
+The reason is that the only dependence on the Pij is in the form of a power-law, and the
+projective integrals over the Pi that we find when we conglomerate can be easily accomplished
+using the Symanzik star formula, which states that
+                     Z      Yn                         Z      Y
+                                                              n
+                         d                      −li  h                   −δ
+                       d P     Γ(li )(−2Pi · P ) = π     [dδ]   Γ(δij )Pij ij            (36)
+                              i=1                                       i<j
+                                                       P
+where the δij integration variables are constrained by ni6=j δij = li . Note that when n = 3 this
+means that the Mellin space integration variables δij on the right hand side are completely
+fixed, so there are no integrals to do. One can think of this very useful formula as the analog
+of the Fourier transform of eip·x in momentum space.
+    We will first make use of this technology to determine the conformal block decomposition
+of mean field theory in any number of dimensions. This simple result has been obtained for
+d = 2 and d = 4 in [22], but we are not aware of it appearing anywhere in the literature for
+the case of general d. The relevant correlator is simply
+                                                                       C ∆1 C ∆2
+                              hO1 (P1 )O2 (P2 )O1 (P3 )O2 (P4 )i =       ∆1 ∆2
+                                                                                                        (37)
+                                                                       P13  P24
+To extract the conformal block decomposition for ` = 0 and ∆ = ∆1 + ∆2 + 2n, we simply
+need to integrate
+                  Z
+                                                1                 C∆ C∆
+                     dd P3 dd P4 2d−∆1 −∆2 −∆ ∆1 +∆−∆2 ∆+∆2 −∆1 × ∆11 ∆22 .        (38)
+                                P34    2
+                                             P04 2    P03 2      P13 P24
+
+We can apply the Symanzik star formula of equation (36) to the integrals over P1 and P2 . In
+both cases the constraints completely determine the integrals over the δij , and we find
+                                                                            n
+                                                                                   
+       2h Γ(−n)Γ (h − ∆1 ) Γ (h − ∆2 ) Γ (−h + n + ∆1 + ∆2 )               P12
+     π                                                         C∆1 C∆2 ∆1 +n ∆2 +n ,     (39)
+             Γ(∆1 )Γ(∆2 )Γ (h + n) Γ(2h − n − ∆1 − ∆2 )               P01 P02
+                                                                         f
+where as usual 2h = d. The coefficient outside the parentheses is c̄12
+                                                                    ∆,0 N∆,0 .
+   In the limit that n approaches a non-negative integer, the above expression is singular.
+Ultimately, we are interested in extracting double-trace operators whose dimensions are exactly
+
+                                                    12
+given by integer n, and thus one might be concerned about whether we are really able to
+regulate this singularity. For the reader who is interested in such subtleties, we will show
+in Appendix A the details of how we choose our regulator. For the more casual reader,
+however, the idea of the following derivation is relatively simple: once we look at the physically
+normalized operator, the singularity in the three-point function cancels against a singularity
+in the normalization factor, so that the physical three-point function is finite. In practice in
+the following, this cancellation of singularities will take the form Γ(−n)/Γ(0), which we will
+                 n
+take to be (−1)
+              n!
+                   .2 To fix the normalization factor, we can conglomerate again to compute the
+2-pt function of [O1 O2 ]n,0 .
+    In fact, it is worthwhile to pause and note that beginning with any 3-pt function we can
+conglomerate O1 and O2 to obtain a 2-pt function. This relates the coefficient c12   ∆,0 that sets
+                                                       ∆,`
+the size of the 3-point correlation to a coefficient c2 in a 2-point correlator. To compute the
+relation, we multiply the 3-pt function by f∆,` and integrating over P1 and P2 to obtain the
+2-pt function
+                                             ∆+∆1 −∆2
+                                                                                
+                   ∆,0    c12   2h
+                           ∆,0 π Γ(0)Γ h −       2 
+                                                         Γ(∆ − h)Γ h − ∆+∆22 −∆1
+                 c2 = f                                                           .          (40)
+                         N∆,`       Γ(h)Γ ∆+∆21 −∆2 Γ ∆+∆22 −∆1 Γ(d − ∆)
+We see that there is again a singularity of the form “Γ(0)”. If the correlator that we are
+computing is of the form in equation (31), then we must have c∆,`
+                                                               2  = 1, in which case we find
+the very useful fact
+                                                                           
+                  f
+                           2h
+                       12 π Γ(0)Γ h −
+                                         ∆+∆1 −∆2
+                                             2 
+                                                    Γ(∆ − h)Γ h − ∆+∆22 −∆1
+               N∆,0 = c∆,0                                                   .         (41)
+                               Γ(h)Γ ∆+∆21 −∆2 Γ ∆+∆22 −∆1 Γ(d − ∆)
+Note that this is a non-perturbative result, and is not restricted to mean field theory.
+                                                  f
+   Now we can incorporate the normalization N∆,0     and compute the desired conformal block
+coefficient for mean field theory. As we discussed near equation (8), the coefficient is simply
+                          2                        (∆1 )n (∆2 )n (1 + ∆1 − h)n (1 + ∆2 − h)n
+                  c̄12
+                    n,0        = C ∆1 C ∆2                                                      ,       (42)
+                                             n! (h)n (∆1 + ∆2 − 2h + 1 + n)n (∆1 + ∆2 − h + n)n
+where we recall that the Pochhammer symbol (a)b = Γ(a + b)/Γ(a), and the spacetime dimen-
+sion in the CFT is 2h. In appendix B, we generalize this method to arbitrary spin conformal
+blocks in the scalar four-point function. The integrals can also be performed in this case,
+with just a bit more book-keeping to track the various terms that appear when we expand the
+degree ` polynomial in f∆,` . This gives the resulting compact form for the conformal block
+coefficients in mean field theory (ie a free scalar theory in AdS, or a CFT at infinite N ):
+         2                       C∆1 C∆2 (−1)` (∆1 − h + 1)n (∆2 − h + 1)n (∆1 )`+n (∆2 )`+n
+ c̄12
+   n,`        =                                                                                        .
+                   `!n!(` + h)n (∆1 + ∆2 + n − 2h + 1)n (∆1 + ∆2 + 2n + ` − 1)l (∆1 + ∆2 + n + ` − h)n
+                                                                                                   (43)
+This result matches that of [22] in the cases they considered, namely that of 2-dimensional
+and 4-dimensional CFTs with ∆1 = ∆2 normalized without the factor of C∆1 C∆2 .
+   2
+    Briefly, one can precisely regulate the Γ(0) and Γ(−n) singularities by taking the dimensions ∆,∆0 of the
+conglomerated operators [O1 O2 ]∆,0 and [O3 O4 ]∆0 ,0 to differ until physical quantities are calculated.
+
+
+                                                            13
+2.3     Further Applications
+While extracting the OPE coefficients of double-trace operators in the infinite N theory is a
+useful example of conglomeration, its full power comes from the fact that it is an essentially
+non-perturbative technique, and one can use it to extract the coefficient of an arbitrary operator
+in the OPE. Thus, if we know all the four-point functions of a set of operators, O1 , O2 , O3 , O4 ,
+then we can conglomerate O1 O2 to make an operator [O1 O2 ]∆,` of arbitrary dimension ∆ and
+spin `, with ∆ a free parameter. We do not need to know ∆ a priori. Rather, the result of
+conglomerating will give vanishing OPE coefficients except at the values of ∆ for which there
+actually is a corresponding operator in the O1 O2 OPE. We will now turn to examples where
+we look at the connected four-point functions of the theory and use conglomerating methods
+to extract information about specific conformal blocks. Mellin space is an essential tool in this
+study, since by construction it organizes the connected correlators into contributions of definite
+powers of the Pij ’s. Correlators can then be integrated against the wavefunctions simply by
+repeated application of Symanzik’s star formula.
+    In this subsection, we will first discuss general results on the application of the wavefunc-
+tions to connected four-point functions, in particular how to extract both OPE coefficients
+and anomalous dimensions. We will then turn to the application of these results to specific
+AdS models. A direct consequence of our methods will be the proof of an important derivative
+relation, discovered empirically in [22], between OPE coefficients and anomalous dimensions
+of double-trace conformal blocks:
+                                               1 ∂  12 2       
+                                c̄12 δc 12
+                                  n,` n,`  =          c̄ n,` γ(n)  ,                           (44)
+                                               4 ∂n
+where c̄12                                                                              12
+         n,` are the infinite N OPE coefficients of double-trace conformal blocks and δcn,` are the
+differences between the exact OPE coefficients and the infinite N OPE coefficients. In general,
+this formula is true only to leading order in perturbation theory, but as we will explain in
+detail, for a certain class of contributions it actually holds exactly.
+
+2.3.1   OPE Coefficients from Connected Diagrams
+Consider the Mellin amplitude for a four-point function hO1 O2 O3 O4 i, and let ∆a = ∆1 = ∆2
+while ∆b = ∆3 = ∆4 . The four-point function has only two independent Mellin variables,
+which we can choose to be δ ≡ 2(∆a − δ12 ), γ ≡ 2(δ14 + δ12 − ∆a )
+                   A4 (Pi ) = hO1 (P1 )O2 (P2 )O3 (P3 )O4 (P4 )i → M1234 (δ, γ).               (45)
+One can think of δ in analogy with the mandelstam invariant s, and so when we look in the
+s-channel, the angular momentum information will be carried by the γ variable. Conglom-
+erating O1 O2 to produce [O1 O2 ]∆,` involves integrating the correlation function against our
+wavefunction f∆,` . Mellin space is ideally suited for this integration, since its form is already
+a decomposition of the correlator into powers of Pij ’s, for which the wavefunction integrations
+just involve a repeated use of Symanzik’s star formula. Thus, one obtains a general formula for
+the three-point function of [O1 O2 ]∆,` with O3 , O4 , of the form in equation (23) with coefficient
+                                       Z
+                             34            dδdγ
+                            c∆,` =               M1234 (δ, γ)H∆,` (δ, γ),                       (46)
+                                          (2πi)2
+
+                                                14
+[O1 O2 ]∆,` defined this way still has to be normalized, for which one must calculate its two-point
+function as we discussed in the ` = 0 case near equation (41). In general this is singular, and
+must be regulated by instead calculating the two-point function h[O1 O2 ]∆,` [O1 O2 ]∆0 ,` i with
+∆ 6= ∆0 . One then takes ∆ → ∆0 at the end of the calculation, and then only in physically
+normalized three-point function coefficients. In order for the result to be non-zero, we must
+have an ∞/∞ behavior as ∆ approaches its physical value. We will see shortly that this occurs
+only at values of ∆ for which there is a pole in the Mellin integrand, as we should expect on
+the general grounds discussed in [7, 9].
+    To avoid unwieldy formulae, we will focus on the special case where the connected four-
+point function in question contains only conformal blocks of spin-0, for instance corresponding
+to s-channel scalar exchange in AdS, and leave the general case to appendix B.2. Then, the
+Mellin amplitude does not depend on γ, and the four-point amplitude takes the form
+                          Z
+                               dδdγ (−1) M (δ)Γ(∆a − 2δ )Γ(∆b − 2δ )Γ2 (− γ2 )Γ2 ( δ+γ
+                                                                                    2
+                                                                                       )
+             A4 (Pi ) =                           δ      δ                               .    (47)
+                              (2πi)2 4     P
+                                             ∆a − 2 ∆b − 2
+                                                    P            − γ2
+                                                           (P P ) (P P )
+                                                                                δ+γ
+                                                                                  2
+                                               12        34    13   24     14   23
+
+We can obtain from this the h[O1 O2 ]∆,0 O3 O4 i three-point function by conglomerating O1 and
+O2 together:
+                                             Z
+                                       1            dP1 dP2
+                       A3 (Pi ) =                                ∆ A4 (Pi ).               (48)
+                                        f 12
+                                     N∆,0         d−∆a − ∆   ∆
+                                               P12       2
+                                                           P01 P02
+                                                             2   2
+
+
+
+This may be evaluated by applying Symanzik’s integral twice, which introduces two new Mellin
+variables (two from the P1 integration, and none from the P2 integration). However, three of
+these integrations are purely kinematic, in that M does not depend on them, and so can be
+done independently of M (δ). Fortunately, performing first the dγ integration, all three of them
+take the form of Barnes’ Lemmas, and can be computed in closed form. We arrive at
+
+                   (−1)π 2h Γ2 (h − ∆2 )Γ2 ( ∆2 )           1
+      A3 (Pi ) =                                    ∆    ∆
+                     f 12 Γ(h)Γ(2h − ∆)Γ(∆)
+                  4N∆,0                                       − ∆ +∆
+                                                  P032 P042 P34 2 b
+                   Z                                                      
+                       dδ     δ ∆                  δ          δ      ∆         δ
+                 ×        Γ     −       Γ ∆a −          Γ       −h+     Γ ∆b −     M (δ). (49)
+                      2πi     2    2               2          2      2         2
+
+So we have obtained a simple formula for the OPE coefficients in this special case where ` = 0
+and the Mellin amplitude is independent of γ
+
+                  −π 2h    Γ2 (h − ∆2 )Γ2 ( ∆2 )
+       c34
+        ∆,0 =       f 12 Γ(h)Γ(2h − ∆)Γ(∆)
+                                                                                              (50)
+                 4N∆,0
+                   Z                                                  
+                        dδ     δ ∆               δ     ∆         δ         δ
+                 ×         Γ     −        Γ        −h+    Γ ∆a −    Γ ∆b −     M (δ).
+                       2πi     2     2           2     2         2         2
+                                     f 12
+One can obtain the normalization N∆,0     from equation (41), which can be computed term-by-
+term in perturbation theory if such a series is available. We give the general formula for these
+OPE coefficients with arbitrary ` and a γ-dependent Mellin amplitude in appendix B.2.
+
+                                                    15
+2.3.2    Conformal Block Coefficients
+Let us discuss an application of this formalism to the extraction of conformal block coefficients
+and anomalous dimensions of double-trace operators at leading order in perturbation theory
+for a simple AdS theory. Such examples were studied in [22, 16, 26], where different methods
+were used. While [16, 26] found a fairly simple method for extracting anomalous dimensions,
+the calculation of conformal block coefficients remained cumbersome, to say the least. We will
+begin with the decomposition of the four-point function into double-trace conformal blocks
+at leading order in 1/N , although we will see later that this decomposition also has a non-
+perturbative interpretation:
+                              X                  1           ∂
+                     A4 =       P1 (n)B∆n (xi ) + P0 (n)γ(n) B∆n (xi ),                         (51)
+                              n
+                                                 2          ∂n
+
+where P0 (n) = c̄12     34                12    34
+                  n,0 c̄n,0 and P1 (n) = cn,0 δcn,0 are, respectively, the infinite N and correction
+terms to the double-trace conformal block coefficients. The partial derivative with respect to n
+brings down logarithms, since B∆n in position space contains terms with xi ’s to the n-th power.
+When we conglomerate the four-point function with ∆ = ∆n , we pick up the contribution from
+a specific double-trace operator. We will see later that this form is appropriate for the study
+not just of the leading order in perturbation theory, but furthermore for non-perturbative
+corrections to a large, important class of conformal block contributions that we will refer to
+as “cuts through the edge of a diagram”. Thus, the reader should keep in mind that although
+the specific examples we will compute in this section are perturbative, the general formulae
+we obtain will be applicable for gaining non-perturbative information about the CFT.
+    The extraction of OPE coefficients in the presence of anomalous dimensions is a bit subtle.
+Let us therefore begin with a conceptually simpler case, where ∆a ≡ ∆1 +∆       2
+                                                                                   2
+                                                                                     and ∆b ≡ ∆3 +∆
+                                                                                                 2
+                                                                                                    4
+
+
+are unrelated to each other. Then, O1 O2 and O3 O4 do not have any of the same double-trace
+operators in their leading order OPE, so no anomalous dimensions will appear in the four-point
+function at this order. From equations (50) and (40), we find the following expression for P1 :
+                                      G(∆a +n)
+                          z            }|             {
+                  −1             Γ4 (∆a + n)
+        P1 (n) =                                                                                (52)
+                 4Γ(0) Γ(2(∆a + n))Γ(2∆a + 2n − h)
+                      Z              δ
+                                                        δ
+                                                                   δ
+                                                                                    
+                        dδ       Γ      − ∆a − n  csc  π   − ∆a    Γ   + ∆ a + n − h
+                 ×π 2       M (δ) 2 δ                   2         2             .
+                        2πi          Γ 2 − ∆a + 1 Γ 2δ − ∆b + 1 sin π 2δ − ∆b
+
+Because of the singular Γ(0)−1 prefactor, when we perform the δ integral by contour integration,
+we can discard any residues that are non-singular when n is an integer. This is a great
+simplification, because the only such contributions are those poles at
+                                δ
+                                  = ∆a + m,       m = 0, . . . , n,                             (53)
+                                2
+where there is a pole from both the csc term and the first Γ function in the integrand. These
+residues are in one-to-one correspondence with the residues of the following equivalent, but
+
+                                                 16
+simpler, integral, where the Γ−1 (0) has been cancelled:
+                                              Z                                            
+                 −1     G(∆a + n)                 dδ        Γ 2δ − ∆a − n Γ 2δ + ∆a + n − h
+        P1 (n) =                       π              M (δ)                                         (54)
+                  4 sin (π (∆a − ∆b ))            2πi         Γ 2δ − ∆a + 1 Γ 2δ − ∆b + 1
+
+For any specific Mellin amplitude of the form M (δ), this formula for the OPE coefficients is
+relatively simple to use, since now for any n it is just a finite sum of non-singular residues.
+
+2.3.3       Anomalous Dimensions and the Derivative Relation
+We will now generalize the results in the previous section to include cases with anomalous
+dimensions. This will requires addressing the subtlety mentioned above. To see the issue
+explicitly, recall that the perturbative three-point function for two single-trace operators O1 , O2
+of dimension ∆a with a double-trace operator of dimensions ∆ + γ(∆) takes the form
+
+                             c̄12      12
+                               n,0 + δcn,0   ∆+γ(∆)
+                   A3 =            u 2
+                                  ∆a
+                                                                                                      (55)
+                                 P12
+                                                                          
+                           1     ∆
+                                     12      12      12 1
+                        =  ∆a
+                               u 2 c̄n,0 + δcn,0 + c̄n,0 γ(∆) log u + . . .    ,
+                          P12                           2
+             P12
+where u ≡ P01  P02
+                   . The problem is that the position-dependence of a three-point function from
+a Mellin amplitude is completely fixed, and cannot contain any logarithms. This is because
+at any finite order in perturbation theory, the anomalous dimensions naively appear to break
+the conformal invariance, and it is only the resummation of all order of the logarithms that
+reproduces a conformally invariant correlation function with the new, shifted dimensions of
+operators.
+    However, we are actually in a position to get around this difficulty very easily with the use
+of the results we have just obtained above. While there were no anomalous dimensions for
+∆a and ∆b unrelated, in the limit of ∆b → ∆a we should be able to see logarithms reappear.
+The important physical point to note however is that now there is no difference between the
+double-trace operator with dimension 2∆a + 2n and the one with dimension 2∆b + 2n, so the
+physical three-point function will be the sum of both of these P1 (n)’s. As one can see from
+the csc(π(∆a − ∆b )) prefactor in eq. (54), each of these P1 (n)’s is singular in this limit. But,
+this singularity exactly cancels in their sum, and the subleading (finite) term in the three-
+point function contains a logarithm! Evaluating this explicitly, we find the sum of the two
+three-point functions as ∆b → ∆a is
+        1                                   
+     ∆a ∆ →∆
+             lim   p1 (n)u∆a +n + (∆b ↔ ∆a )
+    P12  b   a
+                                                              Z                  δ
+                                                                                                             !
+         1                    ∂   ∂                                           Γ      − ∆a − n Γ 2δ + ∆a + n − h
+    = − ∆a lim                  −            u∆a +n G(∆a + n)       dδM (δ)        2                         
+       4P12 ∆b →∆a           ∂∆a ∂∆b                                              Γ 2δ − ∆a + 1 Γ 2δ − ∆b + 1
+                                         Z                  δ
+                                                                                            !
+         1 ∂                                           Γ      − ∆a − n Γ 2δ + ∆a + n − h
+    = − ∆a           u∆a +n G(∆a + n)        dδM (δ)        2                                   .           (56)
+       4P12 ∂n                                             Γ 2δ − ∆a + 1 Γ 2δ − ∆b + 1
+
+
+                                                      17
+Comparing this to the expected form of the three-point function in eq. (56), we see that we
+have derived a simple formula for the anomalous dimensions γ(n) and OPE coefficients p1 (n)
+when ∆a = ∆b :
+                                          Z                                           
+                            1                        Γ 2δ − ∆a − n Γ 2δ + ∆a + n − h
+         P0 (n)γ(n) = − G(∆a + n) dδM (δ)                                            ,
+                            2                           Γ 2δ − ∆a + 1 Γ 2δ − ∆b + 1
+                          1 ∂
+              P1 (n) =         P0 (n)γ(n).                                                   (57)
+                          2 ∂n
+    This proves the relation between OPE coefficients and anomalous dimensions that was
+found empirically in [22]. While we have focused in this section on cases with only spin-0
+conformal blocks, the proof in fact generalizes straightforwardly to any spin. The reason is
+that this result depended only on two properties of our expression for the OPE coefficients:
+first, that only the singular residues in eq. (53) survive the Γ−1 (0) prefactor, and second,
+that these residues
+                     depend only
+                                on ∆a through the combination ∆a + n, except for the factor
+    δ               δ
+Γ 2 − ∆a + 1 Γ 2 − ∆b + 1 that is symmetric in (∆a ↔ ∆b ). This allowed us to exchange a
+                                     ∂
+derivative ∆a for one in n, since ∂∆   a
+                                         derivatives acting on this symmetric factor are cancelled
+         ∂
+by the ∂∆b derivative.
+
+2.3.4   Example Computations
+Let us now apply this formula to some concrete examples. The simplest possible AdS inter-
+action that affects only scalar conformal blocks is a λφ4 interaction, which corresponds to a
+Mellin amplitude that is just a constant. Let us now apply this formula to some concrete
+examples. The simplest possible AdS interaction that affects only scalar conformal blocks is
+a λφ4 interaction, which corresponds to a Mellin amplitude that is just a constant. Then, the
+anomalous dimension is simply
+                                              X
+                                              n
+                                                    (−1)m+n
+                  γ(n) ∝ G(∆a + n)                             Γ(2∆a + n + m − h)
+                                             m=0
+                                                 (n − m)!(m!)2
+                                 1        (h)n (2∆a + n − 2h + 1)n (2∆ + 2n)−h
+                         ∝           2                                        ,                  (58)
+                               c̄12
+                                 n,0
+                                                (∆a + n)21−h (2∆a + n − h)n
+
+where we have used the expression for the infinite N OPE coefficients from eq. (42) and
+dropped an overall n-independent prefactor. This quantity was computed using alternate
+methods in [16], whose results can be seen to agree with that above.
+    Next, let us turn to λ4 φ2 χ2 , which has different fields on the left and right and is one
+of the contact interactions in figure 4. We will compute the OPE coefficients δcφφ         2∆χ +2n,0 at
+first order in λ; these will be useful ingredients when we study an example of the optical
+theorem in section 3.4. In this case, we apply equation (50) to the trivial Mellin amplitude
+                 h           Q     C∆ i
+M = λ4 ≡ λ π2 Γ(∆Σ −h) 4i=1 Γ(∆       i)
+                                         . We can normalize the wavefunction f∆,0φφ
+                                                                                    by using equation
+                                      χχ
+(41) with the mean field theory c̄2∆χ +2n,0 . For the normalization of the wavefunction we find
+              2h
+                               
+                             ∆ 2
+     f χχ   π    Γ(0)Γ h −   2
+                                 Γ(∆ − h)                   C∆χ (∆χ )n (1 + ∆χ − h)n
+   N∆,`   =               2                 ×p                                                    (59)
+                Γ(h)Γ ∆2 Γ(2h − ∆)                n! (h)n (2∆χ − 2h + 1 + n)n (2∆χ − h + n)n
+
+                                                     18
+where ∆ = 2∆χ + 2n corresponds to the dimension of [Oχ Oχ ]n,0 to first order in perturbation
+theory. To apply equation (50) we need only integrate using Barnes’ Lemma, giving
+
+                (−1)n+1 Γ(−n + ∆φ − ∆χ )Γ4 (∆χ + n)Γ(∆χ + ∆φ + n − h)Γ(2∆χ + n − h)
+    δcφφ
+      ∆,0 = λ 4
+                 2n!C∆χ Γ(2∆χ + 2n)Γ(∆φ + ∆χ − h)Γ(2∆χ + 2n − h)(∆χ )n (∆χ − h + 1)n
+               q
+            × n!(h)n (2∆χ + n − 2h + 1)n (2∆χ + n − h)n                              (60)
+
+We can use this coefficient and the equivalent one with φ → ψ, to compute one-loop conformal
+block coefficients, as pictured in figure 4. This will be useful for verifying the unitarity relation
+in the flat space limit when we come to section 3.4.
+
+
+3       S-Matrix Unitarity from CFT Unitarity
+In this section we will derive the optical theorem
+                                                  
+                                       − i T − T † = T †T                                                   (61)
+
+for 2-to-2 scattering of massless scalars by analyzing the conformal block decomposition in the
+flat spacetime limit of the dual AdS theory. The derivation will occur in several steps. First,
+in section 3.1 we review our recent result from [9], where we showed that in the flat space limit
+of AdS/CFT, conformal blocks correspond to delta functions in the center of mass energy with
+a definite angular momentum `. This means that
+                         X                   R→∞              (h−1)
+                                    `
+                             P∆,` B∆  (δij ) −→ S ∝ P√s,` C`        (cos θ)                  (62)
+                             ∆,`
+
+
+We will carefully compute the phase in the normalization of the blocks in order to precisely
+identify their imaginary parts. Then in section 3.2 we will compute the left-hand side of
+equation (61) in terms of the conformal block decomposition. Terms in the conformal block
+decomposition that we call ‘edge cuts’ only contribute to the real part of the S-Matrix3 ; these
+edge cuts are pictured in figure 5 and also shown in a perturbative example in figure 4. The
+conformal block coefficients are simply products of OPE coefficients, so that schematically
+                                                                      
+                            P√s,` = c̄L√s,` + δcL√s,` c̄R
+                                                        √
+                                                          s,` + δc R
+                                                                   √
+                                                                     s,`                    (63)
+
+In this expression, the edge cuts are simply the terms that involve the mean field theory OPE
+coefficients c̄√s,` . To prove that the edge cuts drop out of the optical theorem we will make
+essential use of the relations we derived in section 2.3 for the double-trace conformal block
+coefficients and their anomalous dimensions.
+    The central cuts pictured in figure 5 do contribute to the imaginary part of the S-Matrix,
+so it remains to show that these are equal to the right hand side of the optical theorem. The
+    3
+     We will refer to the left-hand side of equation (61) as the imaginary part of the S-Matrix, although in fact
+it can be complex if the in and out states are distinct.
+
+
+                                                       19
+central cuts are exactly the conformal block coefficients given by the product of interacting
+OPE coefficients, so we have that
+                                                 X
+                              −i T − T † √s,` =        δc12     34
+                                                          ∆,` δc∆,`                      (64)
+                                                       O∆,`
+                                                          √
+                                                      ∆≈R s
+
+But the right hand side is already in a form that can be interpreted as the right hand side
+of optical theorem, T † T . It only remains to argue that the OPE coefficients are proportional
+to scattering amplitudes, and that the sum over exchanged operators corresponds to a phase
+space integral over multi-particle states. The OPE coefficients δc∆,` can be computed by
+conglomerating k + 2-point correlators into 3-point correlators involving k-trace operators,
+and these k-trace operators provide a basis for scattering states in the flat space limit [15]. We
+will show in section 3.3 that the sum over k-trace operators becomes a phase space integral
+over k-particle states in the flat space limit of AdS [15], as depicted in figure 3, so that
+
+       X                          ∞ Z Y
+                                  X   k
+                            R→∞               dd qi
+              δc12    34
+                ∆,` δc∆,`   −→                  d
+                                                     δ d+1 (p1 + p2 − Σi qi ) M12→k M∗34→k   (65)
+       O∆,`                       k=1   i=1
+                                            (2π) 2Ei
+          √
+      ∆≈R s
+
+This will complete the derivation of the optical theorem. Finally, in section 3.4 we show how
+this logic applies in a complete one-loop example.
+
+3.1    Conformal Blocks in the Flat Space Limit of AdS/CFT
+The conformal block decomposition will be crucial to our proof of the unitarity of the holo-
+graphic S-matrix. As we discussed in the introduction, a conformal block corresponds to the
+exchange of a particular state in the CFT, and in perturbation theory conformal blocks sum up
+to give the various different cuts of Feynman diagrams. So, we will first review the flat-space
+limit of conformal blocks from [9], paying close attention to the phase in the normalization
+of the result. It was shown there that the flat-space limit of a block is proportional to a δ
+function in the center of mass energy. We explicitly performed the transformation between the
+Mellin amplitude and the S-Matrix [6, 9]
+                              Z i∞                               
+                           1             α h−∆Σ            R2 sij
+         T (sij ) = lim            dα e α        M δij = −          ,
+                     R→∞ N −i∞                              4α
+                          n(1−d)
+                     π h R 2 +d+1 Y C∆i                               Y
+                                      n                                4
+                                                  n=4  −5 −3h 3−2h              1
+             N =                                  −→ 2 π R                               , (66)
+                            2        i=1
+                                          Γ(∆i )                      i=1
+                                                                          Γ(∆i +  1 − h)
+               P
+where ∆Σ ≡ 12 i ∆i for half the sum of the external dimensions. Alternately, one can argue
+based on general principles as follows. Conformal blocks are just the contribution to the four-
+point function (or n-point functions, more generally) from complete irreducible representations
+of the conformal group. Consider a conformal block whose primary has dimension ∆. The
+primaries are the lowest weight states of the representation, i.e. those annihilated by the
+generators K i of special conformal transformations. There is a one-to-one mapping of AdS
+
+                                                 20
+states to CFT states, as well as of generators of the conformal algebra to generators of AdS
+isometries, which in the flat space limit is just the Poincaré algebra. Furthermore, special
+conformal generators in the flat-space limit become the momentum operators [16, 15]. Thus,
+all states in the conformal block map onto  √ a complete irreducible representation of the Poincaré
+group that has center-of-mass energy s = ∆/R. Consequently, in the flat-space limit, the
+conformal block can contribute only at this value of s. Its angular dependence is further
+constrained by symmetry to be the appropriate polynomials in cos θ, which are Legendre
+                                                          (h−1)
+polynomials in d = 3 and Gegenbauer polynomials C`              (cos θ) more generally.
+    To read off the normalization, it is simplest to use the inverse of eq. (66), because integrating
+over delta functions is very easy. So we compute
+                                        Z ∞                                  
+                               δij 1         dβ −β ∆Σ −h                 δij
+                       M (δij ) = N              e β       T sij = −4β 2                         (67)
+                                          0   β                           R
+and input the form for T (sij ) required by symmetry:
+                                                                           (h−1)
+                                T (sij ) = A∆,` δ(s − ∆2 /R2 )C`                   (cos θ).        (68)
+The integration over β is then trivial to perform:
+                                "       2 ∆Σ −h−1 2 #
+                        δ ij 1         ∆          R                   ∆2
+                                                                            (h−1)
+          N −1 M (δij ) =         A∆,`                  (−δ12 )h−∆Σ e 4δ12 C`     (cos θ)          (69)
+                                         4          4
+
+This result should be compared to the large δij limit of the conformal blocks themselves. They
+are fixed up to an overall normalization by conformal invariance, and we will normalize them
+in accordance with our definitions from previous sections, so that
+                                                                                
+    `         eπi(h−τ +1) eiπ(δ+τ −2h) − 1 Γ(∆)Γ(∆ − h + 1) Γ τ −δ
+                                                                2
+                                                                     Γ 2h−τ −2`−δ
+                                                                            2
+  Bτ (δij ) =                                                                     P`,τ (δij ), (70)
+                           2πi                 Γ4 ∆2       Γ ∆a − 2δ Γ ∆b − 2δ
+where we define ∆1 = ∆2 = ∆a and ∆3 = ∆4 = ∆b . Here, τ = ∆ − ` is the twist of the
+conformal block and P`,τ (δij ) is a Mack polynomial [4, 9]. For ` = 0, it is just P0,∆ = 1. We
+will need only the large δij limit of the block, with δij ∝ sij :
+                                               δij 1                  (h−1)
+                                 P`,τ (δij )    =       g`,τ (−δ12 )` C`       (cos θ),            (71)
+where the proportionality constant g`,τ is real and g0,∆ = 1. Expanding Bτ` (δij ) at large δij
+and ∆, we obtain the approximation
+                      δij 1            g`,τ ∆2−h (−1)`                               ∆2
+                                                                                           (h−1)
+    N −1 Bτ` (δij )    =       π 3h−1 Q4                   23+2∆ R2h−3 (−δ12 )h−∆Σ e 4δ12 C`     (cos θ)
+                                       i=1  Γ(∆ i + 1 − h)
+                                          π                   
+                               × i − cot       (2δ12 − 2∆a + τ ) sin(πδ12 ) sin(π(δ12 − ∆a + ∆b )).(72)
+                                             2
+Because of the sin and cot factors, this does not strictly speaking have a well-defined large δ12
+limit. However, if we smooth over an O(1) region of δ12 , the last line averages out to
+                                −i cos(π(∆a − ∆b )) + sin(π(∆a + ∆b − τ ))
+                                                                           .                       (73)
+                                                    2
+                                                           21
+       Re + Im                                                             Real
+  1                                   3                     1                             3
+
+
+
+
+  2                                   4                      2                            4
+                Oexch                                             [O1 O2 ]n,�
+Figure 5: This figure depicts how the ‘edge cuts’, which correspond to the terms in the
+conformal block decomposition involving free propagation, only contribute to the real part
+of the bulk S-Matrix, while other operator exchanges contribute to both the real and the
+imaginary pieces of the S-Matrix in the flat space limit of AdS/CFT.
+
+
+
+As an aside that will be relevant shortly, note that for the double-trace operators τ = 2∆a +
+2n + ` and τ = 2∆b + 2n + `, this simplifies further to
+                               `+1 iπ(∆                            `
+                                          a −∆b )
+                        − ie(−1)                    and   − ie(−1) iπ(∆a −∆b ) ,          (74)
+
+respectively. Thus we have obtained the overall normalization coefficient for the flat space
+limit of the conformal blocks
+          "       2 ∆Σ −h−1 #
+                  ∆               π 3h−1 25+2∆ R2h−5 ∆2−h
+            A∆,`                = Q4                                                    (75)
+                   4                  i=1 Γ(∆ i + 1 − h)
+                                                                                 
+                                       −i cos(π(∆a − ∆b )) + sin(π(∆a + ∆b − τ ))
+                                  ×
+                                                           2
+
+Note that both terms inside the parentheses appear to be even functions when we switch
+∆a ↔ ∆b . However, in the special case where the conformal block is a double-trace operator,
+it is important to note that when we make this switch we must take τ from 2∆a + 2n to
+2∆b +2n, as was already made manifest in equation (74). Thus we observe the crucial fact that
+the imaginary part of the coefficient for double-trace operators remains even under ∆a ↔ ∆b ,
+while the real part is odd.
+
+3.2    The Imaginary Part of the S-Matrix
+Let us use the tools we have developed to derive the optical theorem. As we saw in the previous
+section, when we take the flat space limit of the conformal block decomposition of the 4-pt
+
+
+                                                    22
+correlator we find
+                                            X         h                  (h−1)        i
+                                                                   2  2
+                      T12→34 (sij ) =             P∆,` A∆,` δ s − ∆ /R C`       (cos θ)                             (76)
+                                            ∆,`
+
+
+The normalization factor A∆,` was obtained in equation (76), and P∆,` is the full conformal
+block coefficient.
+    In general, all operators O∆,` with the charge of O1 O2 can contribute to this sum, and so
+for each dimension ∆ we can write
+                                                      34 ∗
+                                         P∆,` = c12
+                                                 ∆,` c∆,`                                 (77)
+We have expressed the conformal block coefficients in terms of CFT 3-pt functions by using
+the OPE, as discussed in section 2.2. Now we would like to isolate the double-trace operators
+[O1 O2 ]n,` and [O3 O4 ]n,` . These operators play a special role because they are present even
+when the bulk theory is free, and so they are responsible for the ‘1’ when we write S = 1 + iT .
+In the special case of these operators, we can write
+
+                                                  c12      12      12
+                                                   n,` = c̄n,` + δcn,`                                              (78)
+
+where c̄12                                                                                    12
+        n,` is the 3-pt function coefficient corresponding to a free bulk theory and δcn,` is the
+change in this coefficient due to interactions. We will use a similar notation for c34  n,` , although
+note that [O1 O2 ]n,` and [O3 O4 ]n,` will, in general, have different dimensions and so give distinct
+conributions. Now we can write the conformal block coefficients for these operators as
+                                                                       
+                         Pn,` = c̄12    34      12    34      12 34         12    34
+                                  n,` c̄n,` + c̄n,` δcn,` + δcn,` c̄n,` + δcn,` δcn,`              (79)
+
+If the operators O1 and O2 are the same as O3 and O4 , then the first term corresponds exactly
+to the ‘1’ part of the S-Matrix, and otherwise it is absent. The final term comes purely
+from interactions, and actually combines two different pieces, one involving the exchange of
+[O1 O2 ]n,` and the other involving the exchange of [O3 O4 ]n,` . However, the terms in parentheses
+are precisely the edge cuts pictured in figure 5. They combine free propagation on one side
+with interactions on the other, and are associated with poles in the Γ functions from the Mellin
+integrand rather than poles in the Mellin amplitude itself.4
+   4
+     This definition of “edge cuts” as any term with a c̄ factor should be intuitively reasonable, but we can also
+more rigorously connect it to bulk diagrammatics. For any diagram, we can formally label all internal field
+          (I)                                                  (E)
+lines by φi ’s, which are distinct from the external fields φi . This is just a relabeling and does not change
+the Mellin amplitude itself. However, it is now manifest that “cuts through the middle of the diagram” are any
+                                                         (I)
+conformal blocks for operators made of internal fields φi , and “cuts through the edge of the diagram” are any
+                                                          (E)         (E)
+conformal blocks for operators made of external fields φi . Since φi ’s never appear as internal lines, such a
+diagram is not sensitive to any lower order corrections to their conformal blocks, and must take the form of a
+leading correction, i.e.
+
+                                   A    ⊃ c̄12    34               12 34
+                                            n,` δcn,` B2∆a +2n + δcn,` c̄n,` B2∆b +2n ,                              (80)
+                                 ∂
+plus a possible 12 (c̄12 )2 γ12 ∂n B2∆a +2n term if [O1 O2 ]n,` = [O3 O4 ]n0 ,` . This is a long-winded way of saying that
+in this labeling, it is manifest that “edge cuts” are exactly equivalent to terms that contain c̄12 or c̄34 . However,
+c̄’s are exactly identified as the parts of the OPE coefficients that are zero-th order in any bulk couplings, and
+
+
+                                                           23
+    Let us show that these edge cuts drop out of the imaginary part of the S-Matrix. Assume
+for simplicity that we are dealing with real scalar fields, so all bulk couplings are real; the
+generalization to complex couplings is straightforward. Now the OPE coefficients are real, and
+i(T † − T ) = 2Im(T ). Furthermore, in any physical process in the flat-space limit, there will
+be a finite resolution much greater than the AdS curvature scale, which we can incorporate
+through a resolution function f (s, s0 ) narrowly peaked on s = s0 . Taking the flat-space limit
+of the conformal block decomposition and integrating against this resolution, the edge cuts
+contribute as
+           X
+                                               34 −iπ(−1)` ∆ab (h−1)
+ T ∝ −i      f ((2∆a +2n)2 /R2 , s0 )c̄12
+                                         n,` δcn,` e          C`     (cos θ)+(1, 2, ∆a ↔ 3, 4, ∆b ) (81)
+            n,`
+
+where T indicates the finite resolution and we have used our computation of the normalization
+factors A∆,` , defining ∆ab ≡ (∆a −∆b ) for convenience. Only the phase of A∆,` is relevant here,
+so we have discarded a real overall coefficient. We are primarily interested in the imaginary
+piece of T for unitarity, but it will be enlightening to keep track of both its real and imaginary
+pieces. We will now use our formula from equation (54) for the OPE coefficients. This is specific
+to ` = 0, but the generalization of the following step to non-zero spins is straightforward:
+           "                                                          Z                                                  
+             X                               −ie−iπ∆ab G(∆a + n)                Γ 2δ − ∆a − n Γ 2δ + ∆a + n − h
+  `=0                            2    2
+T     ∝          f ((2∆a + 2n) /R , s0 )                              dδM (δ)      δ
+                                                                                                        δ
+                                                                                                                        
+               n
+                                                   sin(π∆   ab )                  Γ  2
+                                                                                        −  ∆ a +  1   Γ  2
+                                                                                                            −  ∆ b +  1
+                                                                    Z                                                #
+           X                                −ieiπ∆ab
+                                                     G(∆  b  +   n)          Γ  δ
+                                                                                  − ∆ b −  n   Γ   δ
+                                                                                                      + ∆ b +  n  −  h
+       +         f ((2∆b + 2n)2 /R2 , s0 )                           dδM (δ) 2 δ                2 δ               
+             n
+                                                sin(−π∆  ab  )                 Γ  2
+                                                                                    −  ∆ a +  1   Γ   2
+                                                                                                        −  ∆ b +  1
+                                                 q                 q        
+                 r          !Z                         2
+                                        Γ 2δ − s04R Γ 2δ + s04R − h
+                                                                          2
+
+                     s0 R 2
+       ∝ G                     dδM (δ)                                       .                                        (82)
+                       4                    Γ 2δ − ∆a + 1 Γ 2δ − ∆b + 1
+The two conformal blocks have combined to give the integral in brackets times a real coefficient!
+    The case where ∆a = ∆b can be considered as a limiting case of ∆a 6= ∆b , and so is included
+in our proof above. However, one can still ask how the imaginary piece cancels technically
+in this case, since there are no longer two different conformal blocks from the left and right
+side of the diagram to cancel against each other. The resolution of this issue is that this is
+exactly the situation where the derivative relation equation (44) is satisfied. Therefore, each
+conformal block contributes exactly as a total derivative:
+                                  X ∂            
+                                                                         
+                                              12 2 1
+                          A4 =              c̄n,`     γ(n, `)B∆n ,` (xi ) .                  (83)
+                                   n,`
+                                       ∂n           2
+
+The imaginary piece of the conformal block coefficient eq. (73) is smooth as an analytic function
+in n, and so when we take the flat-space limit the sum becomes an integral over a total
+derivative, and therefore it vanishes.
+this characterization of them is completely unaffected by our formal relabeling of the fields. This proves the
+                             (E)
+claim. Furthermore, since φi ’s never appear as internal lines, there will be no poles corresponding to them
+in the Mellin amplitude itself – all their poles appear solely in the Γ functions in the definition of the Mellin
+integrand. This indicates that the appropriate non-perturbative definition of edge cuts is contributions to
+correlators from the poles in these Γ functions.
+
+
+                                                       24
+    Next we need to explain why the only contributions to equation (77) are from k-trace op-
+erators dual to states composed of stable bulk particles. As we mentioned in the introduction,
+although unstable particles can be included in the perturbative cutting rules, the S-Matrix is
+only a well-defined unitary transformation between states made up of exactly stable particles.
+Thus the operator Oχ dual to an unstable particle χ in AdS will not appear in the optical
+theorem, and it must make a vanishing contribution to the conformal block coefficients in the
+flat space limit of AdS. This follows because Oχ will mix very quickly with the multi-trace
+operators into which it can decay; roughly speaking, if χ has a lifetime τ , then it will only
+exist for a time of order τ /R, so its contribution in the flat space limit will go to zero. We
+saw this effect in the concrete example of a bulk µφ2 χ theory in [9], where we derived the
+Breit-Wigner resonance behavior from a re-summed Mellin amplitude. In that case, for any
+finite AdS scale R the single χ mode gave a finite contribution, but Oχ itself became negligible
+as R → ∞, as it was replaced by the continuum of 2φ states. Another familiar manifestation
+of this fact is that the delta function resonance from a stable particle is infinitely sharper,
+and therefore infinitely taller, than the smooth resonance from an unstable particle. So while
+dropping the single mode corresponding to a stable particle would completely erase its delta
+function resonance, dropping an unstable particle mode has a negligible effect on the S-Matrix.
+In summary: only operators dual to stable particles make an appearance in equation (77).
+    Finally, we will complete the argument by showing that the sum over k-trace operators in
+equations (76) and (77) becomes a d + 1 dimensional k-particle phase space integral.
+
+3.3    Sums Over Operators as Integrals Over Phase Space
+To complete our derivation of the optical theorem and of Cutkosky’s ‘cutting rules’, we need to
+show that the sum over the exchange of all k-trace operators turns into a phase space integral
+over k-particle states in the flat space limit of AdS/CFT, as pictured in figure 3.
+    We can understand this by noting that in the large N limit, the space of states created by
+single-trace CFT operators is isomorphic to the Fock space of free particle states in AdS. This
+follows from the fact that in AdS/CFT, the Hilbert spaces of the two theories are identical.
+For example, if we quantize a free scalar field in AdS [27, 28, 29, 15], we find
+                                     X
+                        φ(t, ρ, Ω) =     φnl (t, Ω, ρ)anlJ + φ∗nlJ (t, Ω, ρ)a†nlJ          (84)
+                                     n,l,J
+
+while the dual CFT operator can be quantized in terms of the same creation and annihilation
+operators, a†nlJ and anlJ , as
+                              X      1  iEn,l t                  −iEn,l t ∗        †
+                                                                                        
+                  O(t, Ω) =          O
+                                         e       Y lJ (Ω)a nlJ + e        Y lJ (Ω)a nlJ     (85)
+                              n,l,J
+                                    NnlJ
+
+We gave the explicit wavefunctions and normalizations in [15], but the crucial point is physical
+and independent of the details. As is well known, particles in AdS behave as though they are in
+an IR-regulating cavity with a size set by the AdS length R. Thus for finite R, the spectrum
+of k-trace states behaves like the discrete spectrum of k-particle states in a box of size R.
+When we take the flat space limit R → ∞, the discrete modes approach a continuum, and we
+
+                                                   25
+recover the usual k-particle Lorentz invariant phase space when we sum over these modes. An
+explicit analysis of the wave functions φn,` confirms this intuition [15], and the standard AdS
+quantization above reduces to the flat space quantization of a free field in spherical coordinates.
+Since from AdS/CFT we know that the hilbert spaces of AdS particles and CFT states are
+identical, we can conclude that by summing over a complete set of particle states we are also
+summing over all possible CFT operators.
+   As a concrete example, in [16] one of us considered this process in detail for the case of
+double trace operators and 2-particle states. There it was shown that the state created by a
+double-trace operator [O1 O2 ]n,`,J can be expressed as
+                                 d−2    Z                 Z
+                            |2p| 2
+              |n, `, Ji =      √            dp̂Y`J (p̂)       dd qf (q)|q + pi|q − pi (n  1)         (86)
+                          (2π)d 2RE
+where the state |ki is a one-particle state with momentum k, and the labels J denote various
+angular momentum quantum numbers. The important point is that         p for primary double-trace
+operators, the function f (q) is fixed to be a Gaussian with width E/R. This means that in
+the flat space limit where n = ER we obtain precisely the `th partial wave corresponding to
+a 2-particle state with center of mass energy E.
+    As we have discussed above, the coefficient of the conformal blocks B∆,` at a dimension ∆
+can be computed by summing over the squares of appropriately normalized 3-pt functions
+                       X        2                      n,`,J
+      hO1 O2 O1 O2 i =     c12
+                            n`J    Bn,` where c12  n`J T∆1 ,∆2 = hO1 (P1 )O2 (P2 )| n, `, Ji (87)
+                         `,J
+
+If we write the double-trace states |n, `, Ji using equation (86), then in the flat space limit
+we can sum over the angular momentum quantum numbers `, J while fixing the dimension
+n ≈ ER at the center of mass energy of the scattering process, as measured in AdS units. This
+returns us from the spherical to the plane wave basis, giving
+                                       !2 Z
+    X                      |2p|
+                                  d−2
+                                   2                  X
+                  2                                                                        12 ∗
+         c12
+          ER,`,J    →           √             dp̂dp̂0     Y`J (p̂)Y`J∗ (p̂0 )c12                 0  0
+                                                                              ER (p, −p) cER (p , −p )
+                              d
+                         (2π) 2RE
+     `,J                                              `,J
+                       Z       d~         d~
+                             d ka        d kb                                                  2
+                    =                             δ d+1 (PCoM − ka − kb ) c12    ER (ka , kb )         (88)
+                          (2π) 2|ka | (2π) 2|kb |
+                                d          d
+
+
+where the new 3-pt function coefficient c12
+                                         ER (ka , kb ) in the plane wave basis can be re-interpreted
+as the square of the flat space scattering amplitude for 12 → ab, and PCoM is the d + 1
+dimensional center of mass momentum. To complete this re-interpretation, the external states
+must also be plane wave scattering states. Plane waves with energy ω and velocity v̂ are
+created by acting with [14, 9]
+                                                  d−3         Z τ
+                                      2∆ Γ(∆)R 2
+                         |ω, v̂i =                                  dteiωt O(t, −v̂)|0i               (89)
+                                   (2π)h+1 C∆ (Rω)∆−1          −τ
+
+Thus c12
+      ER (ka , kb ) can only be interpreted as a scattering amplitude when the operators O1 and
+O2 are normalized and integrated in this way.
+
+                                                     26
+      φ        χ                            ∞
+                                            �                         φ
+
+      φ    λ
+               χ
+                       g
+                            ψ
+                             ψ
+                                    =       n=0
+                                                    N∆χ (n)           φ   λ
+                                                                              2∆χ + 2n
+                                                                                         g
+                                                                                             ψ
+
+                                                                                             ψ
+
+
+
+
+Figure 6: This figure shows how the one-loop example studied in section 3.4 can be computed
+by using the Kallen-Lehmann representation in the bulk of AdS, as discussed in [9]. In this
+way one can write the product of propagators in the loop as a sum over tree-level exchanges
+with different bulk masses, or CFT dimensions. The conformal block decomposition of this
+Witten diagram was indicated in figure 4.
+
+
+   We should emphasize that the emergence of a d + 1 dimensional phase space integral from
+the sum over operators is essentially kinematic. It follows as a consequence of the structure of
+the conformal algebra as it reduces to the Poincaré algebra in the flat space limit of AdS/CFT,
+as we discussed in [15]. In particular, this means that if we instead study superconformal field
+theories, then we will instead be taking the flat space limit of the superconformal algebra. Since
+the spacetime geometry follows from the algebra, in the future one should be able to obtain
+higher dimensional phase space integrals corresponding to decompactifying bulk dimensions
+from the flat space limit of superconformal theories.
+
+3.4       A Complete One-Loop Example
+Now let us put the pieces together and understand how the optical theorem applies to the
+one-loop amplitude for 2φ → 2ψ in a theory with couplings λ4 φ2 χ2 and g4 χ2 ψ 2 , as pictured in
+figure 6. We could just as easily treat φ4 theory, but we have introduced three fields in order
+to separate out the various different contributions to the one-loop amplitude.
+    We computed the relevant one-loop Mellin amplitude in [9] and verified that it has the
+correct flat space limit. We also explained how branch cuts arise from the coalescence of poles
+in the flat space limit, and verified that the discontinuity across the branch cut is correctly
+reproduced. Let us now summarize the method and results. To compute a certain class of
+loop amplitudes, one can use the fact that in position space in the bulk of AdS
+                                    X
+        G∆1 (X, Y )G∆2 (X, Y ) =        a∆1 ,∆2 (n)G∆1 +∆2 +2n (X, Y ), where                (90)
+                                     n
+                                     (h)n (∆1 + ∆2 + 2n)1−h (∆1 + ∆2 + n − 2h + 1)n
+                    a∆1 ,∆2 (n) =                                                      .
+                                    2π h n! (∆1 + n)1−h (∆2 + n)1−h (∆1 + ∆2 + n − h)n
+This allows a Kallen-Lehmann type representation [30] for the loop amplitude as a sum over tree
+level exchanges with dimensions 2∆χ +2n, as indicated in figure 6. Taking N∆χ (n) = a∆χ ,∆χ (n)
+
+                                               27
+and using the diagrammatic rules from [9] we find the Mellin amplitude for this diagram is
+                                            X
+                       M 1−loop (δij ) = λg    N∆χ (n)M2∆χ +2n (δij )                   (91)
+                                               n
+
+where M∆ (δij ) is the Mellin amplitude for a tree level exchange of a bulk field dual to an
+operator of dimension ∆. It is
+                                              X       Rm
+                                M∆ (δij ) =                   ,                              (92)
+                                               m
+                                                 δ − (∆ + 2m)
+
+where δ = 2∆φ − 2δ12 and ∆ = 2∆χ + 2n in our case. The residue Rm is [6, 7, 9]
+                                                                              
+              1 Γ(∆φ − h + ∆2 )Γ(∆ψ − h + ∆2 )      1 − ∆φ + ∆2 m 1 − ∆ψ + ∆2 m
+   Rm = −                                         ×                                          (93)
+           (4π h )3 Γ(∆φ − h + 1)2 Γ(∆ψ − h + 1)2       m!Γ(∆ − h + 1 + m)
+
+and it can be easily computed using the diagrammatic rules from [7, 8, 9, 10].
+    The particular decomposition in equation (91) is very useful for several reasons. First of
+all, to compute the flat space limit of the loop amplitude we need only know the flat space
+limit of M∆ (δij ). But this is simply the flat space scattering amplitude corresponding to the
+tree-level exchange of a particle of mass (2∆χ + 2n)/R. In this limit, the sum over n becomes
+an integral and we can take the large n limit of N∆χ (n) to find the loop amplitude
+                         Z ∞
+                                    N∆χ (n)                                 2
+      M  1−loop
+                (s) = λg     dn                    where N∆χ (n) ≈                 n2(h−1) (94)
+                          0     s − (2∆χ +  2n) 2                      (4π) h Γ(h)
+
+Another useful feature of equation (91) is that it can be immediately related to the conformal
+block decomposition. As we discussed in [9], conformal blocks and tree-level AdS exchanges
+have identical poles and residues in the Mellin amplitude; they differ only in their asymptotic
+behavior at large δij . This means that we can immediately read off the coefficients in the
+conformal block decomposition of the correlator corresponding to this 1-loop Mellin amplitude
+in the [Oχ Oχ ]n,0 channel, it is
+                                        X
+                            M4 (δij ) ⊃     P2∆χ +2n × B2∆χ +2n,0 (δij )                   (95)
+                                          n
+
+where
+                                1              
+                                   −3h −∆χ −n−2
+        P2∆χ +2n   = λgN∆χ (n) π 2    4                                                      (96)
+                            3                                                
+                       Γ ∆2 Γ ∆ψ − ∆2 Γ ∆φ − ∆2 Γ ∆ψ + ∆2 − h Γ ∆φ + ∆2 − h
+                     ×                                           
+                           Γ (∆ψ + 1 − h)2 Γ (∆φ + 1 − h)2 Γ ∆+1
+                                                              2
+                                                                   Γ (∆ + 1 − h)
+
+with ∆ ≡ 2∆χ +2n, and we have taken ` = 0 because the coefficient of all the blocks with ` > 0
+vanish. The normalization here follows from the relative definition of the Mellin amplitude for
+a bulk exchange and the normalization of the conformal blocks, which is most easily determined
+by relating the residues at their poles. Finally, one can also see [9] from equation (94) that the
+
+                                               28
+discontinuity across the branch cut in the flat space amplitude is just given by the residue of
+the pole in this equation, which is
+                                                         √ 
+                                                           s
+                                     1−loop       N ∆χ  2
+                                disc M         = λg     √     .                            (97)
+                                                       4 s
+This formula appears on the left-hand side of the optical theorem, as the imaginary part of
+the scattering amplitude. It remains to see how this is reproduced by the right hand side of
+the optical theorem.
+    To compute the right-hand side of the optical theorem and check equality, we need to
+apply our conglomeration procedure to compute the OPE coefficients that determine N∆χ (n).
+Fortunately, we did this calculation in section 2.3.4 and found the OPE coefficient δcφφ2∆χ +2n
+for the operator [Oχ Oχ ]n,0 in the product Oφ × Oφ . One can verify using equation (60) that
+                                                  
+                                    ψψ        φφ
+                                  δc2∆χ +2n δc2∆χ +2n = P2∆χ +2n                          (98)
+
+using the expression we computed in equation (96). This provides a very non-trivial test of
+the conglomeration technique. We can also interpret the product of OPE coefficients in terms
+of a 2-particle phase space integral in the flat space limit. By definition, we have that
+
+                         cφφ   n,`,J
+                          n`J T∆φ ,∆φ = hOφ (P1 )Oφ (P2 )| 2∆χ + 2n, `, Ji                 (99)
+
+If we apply equation (89) to the Oφ operators, then we see that at large n, the constant cφφ
+                                                                                          n`J
+can be interpreted as a flat space scattering amplitude between two φ particles in plane wave
+states and a 2χ particle state in the spherical wave state of equation (86). So each OPE
+coefficient can be interpreted as a tree-level scattering amplitude for 2φ → 2χ and 2ψ → 2χ,
+respectively, and in the flat space limit equation (98) becomes the optical theorem.
+
+
+4    Discussion
+Although it has been clear for some time that the S-Matrix is the only exact observable in flat
+space quantum gravity, it has remained somewhat mysterious what sort of holographic theory
+[31, 32, 33] might compute it. A true theory should do more than just output scattering
+amplitudes, it must also provide an understanding of how fundamental principles such as
+bulk locality and quantum mechanics emerge. This would appear to be an especially difficult
+problem if one tries to obtain a holographic theory that ‘lives’ directly on the null boundaries
+of flat spacetime, where notions such as time and distance can only have a limited meaning.
+    We have argued that the flat spacetime limit of AdS/CFT may provide the theory that we
+have been looking for. In [9] we derived a formula conjectured by Penedones [6] that relates
+the Mellin amplitude [4, 5] for n-pt CFT correlators to the flat space S-Matrix. This formula
+expresses the S-Matrix as a simple integral transform of the Mellin amplitude, which itself must
+be a meromorphic function restricted to have only simple poles on the real axis. The clearest
+way to understand flat spacetime locality from a holographic perspective is via the analyticity
+properties of the S-Matrix. This strongly suggests that the most natural way to understand
+
+                                                29
+locality may be in terms of the very restricted analytic structure of the Mellin amplitude
+combined with some set of assumptions about the spectrum of the CFT, as described in [22].
+    In the present work we have shown that the operator product expansion and conformal
+block decomposition of CFTs encodes unitarity in a form that appears very similar to the
+usual optical theorem for the S-Matrix, as pictured in figure 2. By taking the flat space
+limit of the AdS/CFT duality we showed that one can derive the optical theorem directly
+from these unitarity relations for the case of 2-to-2 scattering of massless scalar particles. In
+the perturbative case this reduces to the usual cutting rules for Feynman diagrams. We also
+saw something subtle and interesting occur with the spectrum – in the flat space limit, CFT
+operators dual to unstable particles must decouple from the unitarity relation. It would be
+interesting to understand this phenomenon better, and to explain it without having to appeal
+to bulk reasoning. To give a vaguer and more ambitious-sounding summary, one might say
+that we have shown how to derive bulk quantum mechanics from the quantum mechanics of
+the holographic dual.
+    To make these derivations possible we developed technology to conglomerate many local
+operators together into a single composite operator. To enact this conglomeration we used
+smearing functions f∆,` that we labeled ‘wavefunctions’ because, via the operator-state corre-
+sopndence, these functions also extract definite states from the CFT. The relative simplicity
+of our formalism was made possible through use of the Mellin amplitude for CFT correlators.
+Since the Mellin representation depends on position space kinematics through specific power-
+laws, it accords naturally with the structure of the conglomerating wavefunctions, which have
+the power-law behavior of CFT 3-pt correlators. Perhaps in the future the logic will be re-
+versed; one might attempt to derive the Mellin amplitude as the representation where these
+wavefunctions behave most naturally.
+    We also gave a schematic argument that the usual Dyson series for the S-Matrix can be
+constructed in AdS using the dilatation operator, and that at first order it gives rise to the
+prescription for the S-Matrix in terms of the anomalous dimension matrix that was given in [16].
+In [9] we derived Penedones formula for the S-Matrix using essentially the same wavepacket
+setup that was originally described in [12, 13] and further examined in [14, 15]. Thus we have
+given at least a rough explanation why all three of these holographic formalisms for computing
+the bulk S-Matrix agree, although we view the formula in terms of the Mellin amplitude as by
+far the most elegant and physical.
+    The impediment to formulating a general proof of the optical theorem for any n-pt scatter-
+ing amplitude with particles of arbitrary spin seems to be mostly technical. The requisite CFT
+technology to describe higher-spin particles [25, 20] and higher-point conformal blocks has not
+been fully developed, so we lack the necessary CFT ingredients. Note that the fact that sums
+over k-trace operators reduce to k-particle phase space integrals is essentially kinematic, fol-
+lowing from the structure of the conformal algebra when applied to large dimension operators.
+Thus in the future one should be able to show how superconformal theories give rise to higher
+dimensional phase space integrals corresponding to extra dimensions that decompactify in the
+flat space limit.
+    Perhaps it would be appropriate to mention here that some of the standard lore concerning
+n-pt correlators seems a bit misleading, and that this becomes very apparent when it is re-
+stated in terms of the bulk S-Matrix. CFTs are often viewed as extremely constrained theories,
+
+                                               30
+and the statement is often made that all CFT correlators are completely determined by the
+3-pt correlators. In 2-dimensions where there is an infinite dimensional symmetry algebra this
+may be a very powerful point, but in higher dimensions it is rather trivial. In particular, the
+flat space limit of this statement is the trivial claim that once we know the 2-to-k scattering
+amplitudes for all k, we know the entire S-Matrix.
+    We have mentioned this point in order to emphasize that higher correlation functions in
+CFTs are very non-trivial and are worthy of investigation. Higher-point conformal blocks have
+rarely been discussed, but we would require such objects in order to formulate S-Matrix uni-
+tarity beyond four particles. It would be interesting to develop techniques for handling them.
+Another reason to study higher-point correlators is to understand Hawking radiation, which
+produces large multiplicity final states that can be understood in terms of the properties of
+correlators involving a large number of single-trace operators. The flat space limit of AdS/CFT
+turns the bootstrap program for CFTs into the S-Matrix program, so focusing solely on the
+4-pt correlators of single-trace operators would be like restricting the study of scattering am-
+plitudes to 2-to-2 processes. We hope that our portrait of the holographic S-Matrix suggests
+new directions for future investigation.
+    The AdS/CFT correspondence [1, 2, 3] has proved to be an extremely important and
+fruitful discovery. One perspective on this correspondence views it as a very large compendium
+of exact dualities between various CFTs and other models of quantum gravity, often in the
+form of Superstring Theories or M-Theory. A complementary perspective involves placing an
+arbitrary effective field theory in Anti-deSitter space and computing the correlation functions of
+bulk fields as they approach the boundary [16, 34]. The correlators of this ‘effective conformal
+theory’ will approximate those of a CFT to very good accuracy [22], with errors suppressed
+by powers of operator dimensions divided by the cutoff in AdS units [16]. The search for a
+non-perturbative completion to a gravitational EFT in AdS space translates into the question
+of whether there exists an exactly defined CFT that approximately reproduces the boundary
+correlators of the AdS effective theory. Similarly, we can UV complete a gravitational EFT in
+flat spacetime if we can find a sequence of CFTs of increasing central charge whose spectrum
+and correlators approximate those of the EFT in the flat space limit of AdS.
+    In other words, although it may be extremely challenging to actually find a non-perturbative
+completion for a given gravitational effective field theory, anyone can use AdS/CFT to correctly
+formulate the question. This means that one can obtain robust results about quantum gravity
+by modeling the correlators of low-dimension operators using bulk effective field theory, and
+then using the bootstrap approach [17, 19, 35, 36, 25, 20, 37, 38, 39, 26] to constrain correlators
+that involve operators of larger dimension. Since dimensions in the CFT correspond to bulk
+energies, one can obtain information about processes at trans-Planckian energies in AdS. In
+[9] we used Hawking evaporation to make a prediction for the conformal block decomposition
+of 4-pt correlators. If one can derive this generic behavior from CFT dynamics by using the
+bootstrap, then quantum gravity may be accessible to mortals.
+    Should we view a holographic description as the final word on quantum gravity in a par-
+ticular class of spacetimes? The legalistic answer may be yes, but it seems that holographic
+descriptions such as AdS/CFT do not readily yield information about the physics behind hori-
+zons, and we might hope that such questions are not entirely ill-defined. It seems reasonable
+to assume that if we could do experiments on black holes in a large enough laboratory, we
+
+                                                31
+would see unitary evaporation, with intrinsic errors that decrease as we increase the size of
+our detector. This suggests that it may be worth looking [40] for an approximation scheme
+beyond effective field theory that encodes both locality and its demise.
+
+
+Acknowledgments
+We would like to thank Nima Arkani-Hamed, Tom Banks, Raphael Bousso, Daniel Harlow, Ami
+Katz, Dhritiman Nandan, Miguel Paulos, João Penedones, Steve Shenker, David Simmons-
+Duffin, and Alessandro Vichi for discussions. ALF was partially supported by ERC grant
+BSMOXFORD no. 228169. JK acknowledges support from the US DOE under contract
+no. DE-AC02-76SF00515.
+
+
+A       Conglomerating Operators: Regularization Details
+Here, we will describe in more detail our regularization procedure for conglomerating operators.
+Let us return to eq. (39), but keeping ∆ arbitrary:
+
+                                          ∆1 +∆2 −∆
+                                                                                                                   
+                    f       2h Γ(                   )Γ (h − ∆1 ) Γ (h − ∆2 ) Γ −h + ∆+∆21 +∆2
+             c̄12
+               ∆,0 N∆,0 = π
+                                              2                                                                               (100)
+                                          Γ(∆1 )Γ(∆2 )Γ h + ∆−∆21 −∆2 Γ(2h − ∆+∆21 +∆2 )
+    To fix the normalization, we want to conglomerate operators again to obtain a two-point
+function. As we will see in a moment, it is necessary to regulate by both taking the dimension
+∆0 of the second operator in the two-point function to be arbitrary and also to define it as a
+function of two positions P5 and P50 that we will take to be equal in physical quantities. That
+is, we will calculate the two-point function
+                                                    hO∆,0 (P0 )O∆0 ,0 (P5 , P50 )i                                             (101)
+where
+                                      Z
+                              1                                                   1
+    O∆0 ,0 (P5 , P50 ) =                  d d P1 d d P 2    2d−∆1 −∆2 −∆0    ∆2 +∆0 −∆1        ∆1 +∆0 −∆2
+                                                                                                            O1 (P1 )O2 (P2 )   (102)
+                           N∆f 0 ,0                        P12    2
+                                                                            P15  2
+                                                                                          P        2
+                                                                                              250
+
+Then, combining (39) and (102), a straightforward application of Symanzik’s star formula
+demonstrates that
+                                                        ∆0 +∆1 +∆2 −2d
+                                                                                                 
+                                  Z                                                    ∆−∆1 −∆2
+                                                      P        2
+                                                                           C∆1 C∆2 P12     2
+
+ hO∆,0 (P0 )O∆0 ,0 (P5 , P50 )i =   dd P1 dd P2 ∆1 +∆120 −∆2 ∆2 +∆0 −∆1  ∆+∆    1 −∆2   ∆+∆2 −∆1
+                                                                                                  
+                                                P15     2
+                                                              P250   2
+                                                                          P01    2
+                                                                                       P02   2
+
+
+                                             C ∆1 C ∆2
+                                =   ∆+∆1 −∆2    ∆+∆2 −∆1     ∆0 −∆
+                                                                   ,
+                                  P050   2
+                                             P05     2
+                                                           P550 2
+
+                                                  ∆0 −∆
+                                    c̄∆,0 π Γ( 2 )Γ(h − ∆+∆22 −∆1 )Γ(h − ∆+∆21 −∆2 )Γ(∆ − h)
+                                      12    2h
+                                  × f                                                               .
+                                    N∆0 ,0          Γ(h)Γ( ∆+∆21 −∆2 )Γ( ∆+∆22 −∆1 )Γ(2h − ∆)
+                                                                                                                               (103)
+
+                                                                   32
+where we have taken the limit ∆0 → ∆ in places where it does not produce singularities. Now,
+let us calculate the inner product of the states corresponding to O∆,0 (P0 ) and O∆0 ,0 (P5 , P50 )
+in the usual way in radial quantization by taking x0 → 0 and x5 , x05 → ∞ and rescaling by
+the appropriate powers. As we take ∆0 → ∆, this inner product has the interpretation of a
+                              f                                             0
+normalization, so this fixes N∆,0 as in eq. (41), but with “0” replaced by ∆ 2−∆ :
+                                       0                                            
+               f          π   2h
+                                   Γ( ∆ 2−∆ )Γ h − ∆+∆21 −∆2 Γ(∆ − h)Γ h − ∆+∆22 −∆1
+              N∆,0 = c12
+                      ∆,0                                                            .           (104)
+                                        Γ(h)Γ ∆+∆21 −∆2 Γ ∆+∆22 −∆1 Γ(d − ∆)
+
+Finally, putting together eq. (100) and (104) to obtain the physical quantity c12
+                                                                               ∆,0 , we may take
+∆0 = ∆1 + ∆2 + 2n and ∆ = ∆1 + ∆2 + 2n +  and safely take the limit  → 0, for which we
+obtain the finite result of eq. (42).
+
+
+B      Conglomerating Operators: Spinning Conformal Blocks
+We will extend the calculation in section 2 to general spin. The general form of three- and
+two-point functions of primaries is
+
+                                                        ((Z1 · Z2 )(P1 · P2 ) − (Z2 · P1 )(Z1 · P2 ))`
+  h[O1 O2 ]2n+` (P1 )[O1 O2 ]2n+` (P2 )i = C22n+` (−2)`                  ∆1 +∆2 +2n+2`
+                                                                                                       ,
+                                                                      P12
+                                                  ((Z3 · P1 )P23 − (Z3 · P2 )P13 )`
+    hO1 (P1 )O2 (P2 )[O3 O4 ]2n+` (P3 )i = C32n+`       −n ∆2 +n+` ∆1 +n+`
+                                                                                    .               (105)
+                                                      P12  P23      P31
+
+The general spin smearing functions are again just three-point functions with shadow fields:
+                             Z
+                                        ((Z0 · P1 )P20 − (Z0 · P2 )P10 )`
+        [O1 O2 ]n,` (P0 ) = A dP1 dP2 d−∆1 −∆2 −n ∆1 +n+` ∆2 +n+` O1 (P1 )O2 (P2 ).     (106)
+                                        P12          P02       P01
+
+    We will be interested in conglomerating O1 and O2 in order to obtain spinning operators in
+their OPE. While this procedure works for extracting a general operator, it will be interesting
+to apply this to special cases as well. In particular, our first application will be to the theory
+at infinite N , where the only operators that arise in the OPE are the double-trace operators.
+
+B.1      Conglomerating Operators: Disconnected Four-point Function
+Since the only operators to consider in this case are the double-trace operators, we will label
+them by their indices n, `, where ∆ = ∆1 + ∆2 + 2n + `; i.e. we will use the notation [O1 O2 ]n,`
+rather than [O1 O2 ]∆,` . It will also be convenient to define ∆a = ∆1 +∆  2
+                                                                              2
+                                                                                . To extract the N = ∞
+three-point function of [O1 O2 ]n,` with O1 , O2 , we integrate the smearing function against the
+disconnected diagram:
+                                                Z
+                                            1               ((Z0 · P1 )P20 − (Z0 · P2 )P10 )` C∆1 C∆2
+   h[O1 O2 ]n,` (P0 )O1 (P3 )O2 (P4 )i =     f
+                                                  dP 1 dP 2    d−2∆a −n ∆1 +n+` ∆2 +n+`        ∆1 ∆2
+                                                                                                      .
+                                           Nn,`              P12        P02       P01         P13 P24
+                                                                                                   (107)
+
+                                                    33
+To do this integral directly is more complicated than the ones we have encountered, because
+the contraction vector Z0 for the indices of the spinning field acts like an additional point. To
+perform this integral more simply we can use the fact [25, 20] that the three-point function of
+scalars with a spin-` field has to be made out of powers of the tensor
+
+                                                C0AB = Z0A P0B − Z0B P0A ,                                               (108)
+                                                            `
+                                       3 ·C0 ·P4 )
+and the correlator can be written P (P
+                                     a03 a04 a34 . In particular, the correlation functions have the
+                                     03 P04 P34
+gauge symmetry F (Pi , Zi + αi Pi ) = F (Pi , Zi ). Thus, one way to make this constraint manifest
+and simplify the calculation is just to pick a gauge.5 Of course, we have to decide what gauge
+to choose. Seemingly natural choices like Zi · Pi and Zi · Zi are not helpful, since they are
+already satisfied in any gauge. The next best thing seems to be Zi · Pj for one of the other j’s.
+    How much does this simplify the computation of the OPE coefficient? Let us take the
+gauge where Z0 · P4 vanishes. Now, any time we get contributions from a positive power of
+Z0 · P4 , we can drop them. So far, this does not use any knowledge of the final form of the
+correlation function other than the fact that it is gauge-invariant; for any Z0 , we can always
+re-obtain the full gauge-invariant result by calculating in this gauge and then restoring gauge
+                                                     ·P4
+invariance by taking Z0 → Z0 + αP0 , α = − ZP00·P      4
+                                                         , which is simply the gauge transformation
+that took Z0 · P4 = 0, and which clearly reintroduces the gauge-invariant P3 · C0 · P4 .
+   5
+     In order to gauge-fix the Zi ’s, we should first decide what these abstract objects look like. They are clearly
+not regular points like Pi ’s in the boundary theory, because they satisfy Zi · Pi = 0, but Zi 6= Pi (otherwise
+the CiAB ’s would vanish). Let us imagine for a moment however what they would look like if they were, so Zi
+projects down to the point zi . Then, Zi · Pi = 0 implies
+
+                                                       (zi − xi )2    =      0.                                           (109)
+
+Obviously, in Euclidean space this requires zi = xi , which we do not want. Without loss of generality, let’s
+take xi = 0. Then, we need
+
+                                                                 zi2 = 0.                                                 (110)
+
+Now we see that zi should simply be a point on the boundary with complexified coordinates. So, in general,
+we need
+
+                                                zi = xi + qi ,        qi2 = 0.                                            (111)
+
+This also makes it very explicit why taking Zi to be one of the Pj ’s in order to simplify the integrals is not
+allowed. We can work out how the gauge transformation Z → Z + αP acts on q:
+                                                            Z→Z+αP
+       Z = (1, z 2 , z µ ) = (1, x · (x + 2q), xµ + q µ )       −→          (1 + α, x · ((1 + α)x + 2q), (1 + α)xµ + q µ )
+                                                                 ∼                          q            q 0µ
+                                                                 =          (1, x · (x + 2      ), xµ +       ).           (112)
+                                                                                           1+α          1+α
+In the last line, we have used the fact that P ’s project down to boundary points by rescaling P + → 1. Thus,
+the effect of the gauge transformation on Z is written in terms of q very simply:
+                                                                                   q
+                                           Z → Z + αP           ⇔ q → q0 =            .                                   (113)
+                                                                                  1+α
+
+
+
+
+                                                                 34
+   Having fixed a gauge, we can continue with the computation. The smearing integral to
+perform is
+         ` X                Z                       k   `−k
+            1        `      `−k                        P1z P2z
+          −             (−1)      dP1 dP2 d−2∆a −n ∆2 +n+k   ∆1 +n+`−k ∆1 ∆2
+                                                                              ,  (114)
+            2   k
+                     k                   P12      P01      P02        P13 P24
+
+where Piz = −2Pi · Z0 . Focusing on individual terms, we compute
+               Z                            k   `−k
+                                          P1z P2z
+       B`k ≡       dP1 dP2 d−2∆a −n ∆2 +n+k      ∆1 +n+`−k ∆1 ∆2
+                            P12      P01       P02         P13 P24
+               Z             k   Z                                            δ0z δ1z δ4z
+                        dP1 P1z                      Γ(−δ0z )Γ(−δ1z )Γ(−δ4z )P0z P1z P4z
+            =         ∆1 ∆2 +n+k
+                                   [dδ0z dδ1z dδ4z ]
+                   P13 P01                                      Γ(−(` − k))
+               (∆1 + n + ` − k)δ0z (d − 2∆a − n)δ1z (∆2 )δ4z
+               I(∆1 + n + ` − k + δ0z , d − 2∆a − n + δ1z , ∆2 + δ4z ),                                    (115)
+
+where we have introduced the notation
+                   Z                                                                            12
+                                 1                                                     Pij
+     I(a, b, c) ≡      dd P2 a b c = χ(a, b, c)E14,0a    b
+                                                        E04,1  c
+                                                              E01,4 ,   Eij,k ≡                        ,
+                            P02 P12 P24                                               Pik Pjk
+                                                  
+                   π h Γ a+b−c
+                            2
+                                  Γ b+c−a
+                                        2
+                                            Γ c+a−b
+                                                2
+     χ(a, b, c) ≡                                     .                                                    (116)
+                              Γ(a)Γ(b)Γ(c)
+The δiz ’s satisfy the constraint δ0z + δ1z + δ4z = ` − k, and the arguments of the I function get
+shifted since we have eliminated 3 δ̃ij variables by using the constraints, δ̃04 + δ̃14 = ∆2 + δ2z ,
+etc. Now, the only poles that survive our gauge choice are δ0z = δ4z = 0, so δ1z = ` − k, and
+we have
+             Z        `
+                 dP1 P1z χ(∆1 + n + ` − k, d − 2∆a − n + ` − k, ∆2 )(d − 2∆a − n)`−k
+   B`k =                              ∆1 h+n+` ∆1 +∆2 +n−h h−∆1 −n
+                                   P13  P01     P04         P14
+             χ(∆1 + n + ` − k, d − 2∆a − n + ` − k, ∆2 )χ(h + n + `, h − ∆1 − n, ∆1 + `) `
+         =                                    ∆2 +n ∆1 +n+` −n
+                                                                                             P3z
+                                            P04     P03     P34
+             ×(d − 2∆a − n)`−k (∆1 )`
+                                                                                             (117)
+
+Somewhat remarkably, performing the sum over k obtains a relatively simple result for the
+three-point function:
+                                                  (P3 · Z0 )`
+hO1 (P3 )O2 (P4 )[O1 O2 ]2n+` (P0 )i = c̄12
+                                         n,`  ∆2 +n ∆1 +n+` −n
+                                                                  ,
+                                           P04     P03        P34
+                                        C∆1 C∆2 π 2h Γ(−n)Γ(h − ∆1 )Γ(h − ∆2 )Γ(−h + 2∆a + n + `)
+                                c̄12
+                                  n,` =     f
+                                                                                                  .
+                                         Nn,`          Γ(h + n + `)Γ(∆1 )Γ(∆2 )Γ(2h − 2∆a − n)
+                                                                                                             (118)
+
+This indeed is the correct form of the three-point function in Z0 · P4 = 0 gauge.
+
+                                                 35
+    Having obtained the three-point function, we next need to conglomerate again in order
+to determine the two-point function and thus the normalization of [O1 O2 ]2n+` . The smearing
+integral we have to compute is
+                                                       Z
+                                                 c̄12
+                                                   n,`              (Z5 · P3 P450 − Z5 · P4 P35 )`
+      h[O1 O2 ]2n+` (P0 )[O1 O2 ]2n0 +` (P5 )i =    f
+                                                         dP 3 dP 4   d−2∆a −n0 ∆2 +n0 +` ∆1 +n0 +`
+                                                 Nn,`              P34        P35       P450
+                                                   (Z0 · P3 P04 − Z0 · P4 P03 )`
+                                               ×       ∆2 +n+` ∆1 +n+` −n
+                                                                                 ,             (119)
+                                                     P04       P03      P34
+
+where we have done the usual n 6= n0 , 5 6= 50 regularizations. We will take the gauge P0 · Z5 =
+0, P5 · Z0 = P50 · Z0 = 0 (the second two are the same because P5 = P50 everywhere except
+when they may give rise to P550 ). Binomially expanding, we have
+                                            2` 12 X̀ X̀                    
+                                               1     c̄n,`            k+k0      `      `
+h[O1 O2 ]2n+` (P0 )[O1 O2 ]2n0 +` (P5 )i =   −          f
+                                                                 (−1)                      B`kk0 ,
+                                               2    Nn,` k k0                   k     k0
+                                           Z                               k0     `−k0 k   `−k
+                                                                        P3z   0 P4z 0 P3z P4z
+                                  B`kk0 =     dP3 dP4 d−2∆a −n0 −n ∆2 +n0 +k0 ∆1 +n0 +`−k0 ∆2 +n+`−k ∆1 +n+k .
+                                                      P34         P35           P450          P04   P03
+                                                                                                        (120)
+
+We first perform the P4 integration, which results in the introduction of five new δ integration
+variables after imposing constraints. Four of them are forced to vanish by our gauge choice,
+leaving a single variable that can be converted by the residue theorem into a sum:
+           X                     Z         `−m `−m m
+                       1                 P3z 0 P3z   Pzz0      m+1       (` − k)!(` − k 0 )!
+B`kk0 =          −h+2∆a +n+n0 +m
+                                   dP 3 ∆2 +n0 +k0 ∆1 +n+k (−1)
+            m
+               P05 0                   P35        P03              m!(` − k − m)!(` − k 0 − m)!
+            χ(d − 2∆a − n0 − n + 2` − k − k 0 − 2m, ∆1 + n0 + ` − k 0 , ∆2 + n + ` − k)
+           ×                     h−∆1 −n0 +`−k−m h−∆2 −n+`−k0 −m
+                               P03              P350
+                        0
+           ×(d − 2∆a − n − n)2`−k−k0 −2m .                                                     (121)
+
+We can simplify this by taking P50 → P5 in places where it will not lead to singularities, which
+in particular is any place that does not have a n or n0 exponent. So, we can exchange the
+                                                    h+n0 +`−m −n
+powers of P35 and P350 in the denominator for P35            P350 . But, then there are no powers
+of k, k 0 remaining in the Pij ’s, so we can complete the sum over them outside the integral. We
+can furthermore take n → n0 in the prefactor, since this is needed as a regulator only in the
+powers of Pij ’s. We thus obtain
+
+    h[O1 O2 ]2n+` (P0 )[O1 O2 ]2n0 +` (P5 )i =
+                 X ∞
+        c̄12
+          n,`                     π h (−1)m+1 (`!)2 Γ(h − n − ∆1 )Γ(h − n − ∆2 )Γ2 (` + 2n + 2∆a − h)
+            f       m!Γ2 (1 + ` − m)Γ(∆1 + ` + n)Γ(∆2 + ` + n)Γ(2h − 2n − 2∆a )Γ(m + 2n + 2∆a − h)
+    (−2)2` Nn,` m=0
+         Z
+                                P `−m P `−m  m
+                                          0 P 0
+       × dP3 h+n−n0 +`−m −n3z h+n3z0 +`−mzz −h+2∆a +n+n0 +m .                                (122)
+                 P03          P350 P35       P050
+
+
+                                                 36
+This last line is exactly of the form of Symanzik’s star formula:
+             Z                         `−m `−m m
+                                    P3z   P 0 P 0
+                 dP3 h+n−n0 +`−m −n h+n3z0 +`−mzz −h+2∆a +n+n0 +m
+                     P03          P350 P35       P050
+                     (−1)       Pzz0 (` − m)!χ(h + n0 + ` − m, h + n − n0 + ` − m, −n)
+                          `+m+1 `
+                   =                            2∆a +2n0 +` n0 −n
+                                                                                       ,      (123)
+                                              P05          P550
+where we have taken P50 → P5 except inside P550 as well as n → n0 in some places that do not
+lead to singularities. Putting everything together, we thus have
+                                                   2`        `
+                                              n,`    1      Pzz  0
+    h[O1 O2 ]2n+` (P0 )[O1 O2 ]2n+` (P5 )i = c2    −     2∆    +2n+`
+                                                                     ,
+                                                     2  P05  a
+
+
+
+     n,`   c̄12    2h           l
+             n,` π Γ(0)(−1) l!Γ(h − n − ∆1 )Γ(h − n − ∆2 )Γ(2l + 2n + 2∆a − 1)Γ(−h + l + 2n + 2∆a )
+    c2 = f                                                                                          .
+           Nn,`          Γ(h + l)Γ(l + n + ∆1 )Γ(l + n + ∆2 )Γ(2h − 2n − 2∆a )Γ(l + 2n + 2∆a − 1)
+                                                                                                           (124)
+                                                                        f
+From equations (118) and (124), we can choose the normalization factor Nn,` to set a canon-
+                                                   n,`
+ically normalized two-point function coefficient, c2 = 1. Then, we can read off the OPE
+coefficient, which after some simplification is
+                             (−1)` C∆1 C∆2 (∆1 − h + 1)n (∆2 − h + 1)n (∆1 )`+n (∆2 )`+n
+(c̄12
+   n,` )
+        2
+          =                                                                                       .
+              `!n!(` + h)n (∆1 + ∆2 + n − 2h + 1)n (∆1 + ∆2 + 2n + ` − 1)l (∆1 + ∆2 + n + ` − h)n
+                                                                                             (125)
+
+B.2     Conglomerating Operators: Connected Four-point Function
+Next, let us apply the conglomerating methods to connected four-point functions. Here, it is
+more convenient to work with the Mellin representation of the four-point function, since all
+position space integrations can be performed using Symanzik’s start formula. We will use as
+our Mellin coordinates the variables
+                                           δ                     γ+δ
+                             x = ∆a − δ12 = ,        y = δ14 =       ,                        (126)
+                                           2                      2
+since our expressions will typically be more compact in terms of these variables than in terms
+of δij ’s or δ, γ. The four-point function can then be written as
+                                     M̃ (x,y)
+         Z         z                  }|                    {                    1
+A4 =          dxdy M (x, y)Γ(∆a − x)Γ(∆b − x)Γ2 (x − y)Γ2 (y)     ∆a −x ∆b −x
+                                                                                                       ,
+                                                                 P12   P34 (P13 P24 )x−y (P14 P23 )y
+                                                                                               (127)
+where M̃ (x, y) is the reduced Mellin amplitude. We obtain the OPE coefficient by smearing
+to produce a three-point function:
+                               Z
+                                        ((Z0 · P1 )P20 − (Z0 · P2 )P10 )`
+                       A3 =      dP1 dP2 d−2∆a −n ∆a +n+` ∆a +n+` A4                 (128)
+                                         P12        P02      P01
+
+                                                37
+We will again work in a gauge where Z0 · P4 = 0 in order to simplify the calculation. In order
+to use Symanzik’s formula, we will binomially expand to obtain
+                            ` X  
+                         1         `
+       A3 =            −              (−1)`−k B`k
+                         2      k
+                                   k
+                  Z                                                    k   `−k
+                                                             M̃ (x, y)P1z P2z
+       B`k =           dxdydP1 dP2         ∆a +n+k ∆a +n+`−k d−∆a −n−x ∆b −x
+                                                                                                     (129)
+                                          P01     P02       P12        P34 (P13 P24 )x−y (P14 P23 )y
+
+Performing the P1 integration first, using Symanzik’s formula, we obtain
+                                    k 
+                                    X     
+                                        k
+                       B`k =                    B`mk
+                                    m=0
+                                            m
+                                    Z
+                   B`mk =               [dδ]dxdydP2 M̃ (x, y)
+                                                             `−m m
+                                                            P2z P3z
+                                    ×   δ02 +∆a +n+`−k δ03 δ04 δ23 +y δ24 +x−y δ34 +∆b −x
+                                     P02               P03 P04 P23 P24            P34
+                                               Γ(δ02 )Γ(δ03 )Γ(δ04 )Γ(δ23 )Γ(δ24 )Γ(δ34 )
+                                    ×π h                                                  .         (130)
+                                         Γ(∆a + n + k)Γ(d − ∆a − n − x)Γ(x − y)Γ(y)
+
+The P2 integration also follows from the application of Symanzik’s formula. The essential
+structure of the result of conglomerating is therefore that it introduces a projection function
+H(∆, `; x, y):
+                          `            Z
+                        P3z
+   A3 =        ∆a +n+` ∆a +n ∆b −∆a −n
+                                         dxdyM (x, y)Γ(∆a − x)Γ(∆b − x)H(∆a + n, `; x, y),
+            P03       P04 P34
+                                                                                          (131)
+
+where an important point is that H(∆, `; x, y) does not depend on ∆a or ∆b :
+                                   ` X̀ kX            
+                             2h      1            `−k  `  k
+   H(∆, `; x, y) = π               −          (−1)           Γ(y)Γ(x − y)
+                                     2 k=0 m=0         k  m
+       Z
+                Γ(δ04 )Γ(δ34 )Γ(∆ − δ04 )Γ(y − δ04 − δ34 )Γ(x − ∆ − δ34 )Γ(h + k − m − x + δ34 )
+   ×       dδ04 dδ34
+              Γ(k + ∆)Γ(x − δ04 − δ34 )Γ(d − ∆ − x)Γ(h − ∆ + δ04 )Γ(h + l − m + ∆ − x + δ34 )
+   ×Γ(h − ∆ − y + δ04 )Γ(h + l − m − x + δ04 + δ34 )Γ(−h + m + ∆ + x − δ04 − δ34 ).         (132)
+
+We do not haveR a nice closed-form expression for H(∆, `; x, y) in general like we do for the
+special case of dyΓ(y)Γ(x − y)H(∆, 0; x, y) that appeared in section 2. It is possible that
+such an expression exists and could be obtained with more effort, and could be useful for
+extracting OPE coefficients for specific theories. In addition, one may perform the δ04 and δ34
+integrations above using the residue theorem in order to obtain H(∆, `; x, y) as a sum, which
+could perhaps be useful in some situations for numeric computations.
+
+
+
+                                                         38
+C       Double Trace Operators
+The purpose of this appendix is to obtain a completely general recursion relation that expresses
+double trace primary operators in terms of linear combinations of derivatives acting on O1 O2 .
+The full conformal algebra is
+                   [Mµν , Pρ ] = i(ηµρ Pν − ηνρ Pµ ),          [Mµν , Kρ ] = i(ηµρ Kν − ηνρ Kµ ),
+                                     [Mµν , D] = 0,            [Pµ , Kν ] = −2(ηµν D + iMµν ),
+                                     [D, Pµ ] = Pµ ,           [D, Kµ ] = −Kµ .                                        (133)
+Primary operators are those annihilated by the special conformal generator Kµ , so that
+[Kµ , O] = 0. We will work with operators that are eigenstates of D and the angular mo-
+mentum generators, so our double trace operators can be written as [O1 O2 ]n,` . In what follows
+we will generalize the computations of [21, 6].
+
+C.1       Action of Kµ on T (k, l − k, u1 , u2 , m)
+By contracting with traceless symmetric polarizations V , we can write the action of Kµ on
+the double-trace operators in a particular basis. Let us follow the notation of [6] and write a
+general operator of the desired form as
+T (k, l − k, u1 , u2 , m) = V α1 ...αl Pα1 . . . Pαk Pµ1 . . . Pµm (P 2 )u1 O1 Pαk+1 . . . Pαl Pµ1 . . . Pµm (P 2 )u2 O2 .
+                                                                                                                   (134)
+Then, the action of Kµ on this operator is as follows:
+                                     
+   Kµ T (k, l − k, u1 , u2 , m) = V · 2u1 (d − 2u1 − 2∆1 )Pµ Pα1 . . . Pαk Pµ1 . . . Pµm (P 2 )u1 −1 O1 (. . . )O2
+                                                               (s)
+                                                              Pk−1
+                                     X           z            }|            { z P}|    m
+                                                                                              {
+      −2(∆1 + m + k + 2u1 − 1)           η µα s P α 1 . . . P̂ αs . . . P α k
+                                                                                P µ1
+                                                                                     . . . P µm
+
+                                              αs
+
+                                                   (s)
+                                                               
+                                              Pm−1
+                         P
+                  X z }|k { z                 }|            {
+                +   Pα1 . . . Pαk P µ1 . . . P̂ µs . . . P µm    2 u1
+                                                               (P ) O1 (. . . )O2
+                    µs
+
+                                                                                                 !
+                   X             (s,r)
+                                            X              (s)  (r)
+                                                                        X                (s,r)
+         +2Pµ            ηαs αr Pk−2 Pm +          ηαs µr Pk−1 Pm−1 +         ηµs µr Pk Pm−2         (P 2 )u1 O1 (. . . )O2
+                   s>r                       s,r                        s>r
+         +(1 ↔ 2, k ↔ l − k)] .                                                                                               (135)
+                              (i)   (i,j)
+Here, we have defined Pk , Pk as indicated, and (. . . )O2 indicates the O2 half of the double-
+trace operator before the Kµ action. Performing the contractions with V and symmetrizing,
+we can write the results in terms of
+Tµ (k, l − k, u1 , u2 , m) = Vµα2 ...αl Pα2 . . . Pαk Pµ1 . . . Pµm (P 2 )u1 O1 Pαk+1 . . . Pαl Pµ1 . . . Pµm (P 2 )u2 O2 ,
+                                                                                                                    (136)
+
+                                                          39
+where Vµ is also symmetric and traceless. Grouping like terms, we find
+
+     Kµ T (k, l − k, u1 , u2 , m) = 2u1 (d − 2u1 − 2∆1 )    ×
+                                                         Tµ (k + 1, l − k, u1 − 1, u2 , m)
+                                    2u2 (d − 2u2 − 2∆2 )    ×
+                                                         Tµ (k, l − k + 1, u1 , u2 − 1, m)
+                           −2k(∆1 + m + k + 2u1 − 1)        ×
+                                                         Tµ (k − 1, l − k, u1 , u2 , m)
+               −2(l − k)(∆2 + m + l − k + 2u2 − 1)          ×
+                                                         Tµ (k, l − k − 1, u1 , u2 , m)
+                               −2m(∆1 + m + 2u1 − 1)        ×
+                                                         Tµ (k, l − k + 1, u1 , u2 , m − 1)
+                               −2m(∆2 + m + 2u2 − 1)        ×
+                                                         Tµ (k + 1, l − k, u1 , u2 , m − 1)
+                                            +m(m − 1)       ×
+                                                         T (k + 1, l − k, u1 , u2 + 1, m − 2)
+                                            +m(m − 1)       ×
+                                                         T (k, l − k + 1, u1 + 1, u2 , m − 2).
+                                                                                                    (137)
+                                                          P
+   Since we are demanding that the operator [O1 O2 ]n,` =    a(k1 , k2 , u1 , u2 , m)T (k1 , k2 , u1 , u2 , m),
+be primary, we obtain an equation for the coefficients:
+
+                 0 = 2(u1 + 1)(d − 2u1 − 2 − 2∆1 )a(k1 − 1, k2 , u1 + 1, u2 , m)
+                     +2(u2 + 1)(d − 2u2 − 2 − 2∆2 )a(k1 , k2 − 1, u1 , u2 + 1, m)
+                     −2(k1 + 1)(∆1 + m + k1 + 2u1 )a(k1 + 1, k2 , u1 , u2 , m)
+                     −2(k2 + 1)(∆2 + m + k2 + 2u2 )a(k1 , k2 + 1, u1 , u2 , m)
+                     −2(m + 1)(∆1 + m + 2u1 )a(k1 , k2 − 1, u1 , u2 , m + 1)
+                     −2(m + 1)(∆2 + m + 2u2 )a(k1 − 1, k2 , u1 , u2 , m + 1)
+                     +(m + 1)(m + 2)a(k1 − 1, k2 , u1 , u2 − 1, m + 2)
+                     +(m + 1)(m + 2)a(k1 , k2 − 1, u1 − 1, u2 , m + 2)                               (138)
+
+Note that there are two terms here where the total spin has been incremented to ` + 1, while in
+the remaining terms it has been decremented to ` − 1. These two types of terms must cancel
+amongst themselves. The two incremented terms imply the equation
+
+                  0 = −2(k1 + 1)(∆1 + m + k1 + 2u1 )a(k1 + 1, k2 , u1 , u2 , m)
+                      −2(k2 + 1)(∆2 + m + k2 + 2u2 )a(k1 , k2 + 1, u1 , u2 , m).                     (139)
+
+This is very constraining, since it completely fixes the k-dependence of a. Making an ansatz
+
+                         a(k, l − k, u1 , u2 , n − u1 − u2 ) = sn,l (k)b(u1 , u2 )                   (140)
+
+we can solve for sn,l (k) uniquely:
+
+                                                   (−1)k
+          sn,l (k) =                                                                 .               (141)
+                        k!(l − k)!Γ(∆1 + n + u1 − u2 + k)Γ(∆2 + n + u2 − u1 + l − k)
+
+Note that this agrees with the results of [6] for the n = 0 case he computed. Substituting this
+back into our constraint on a for the spin ` − 1 terms, we obtain an equation for b(u1 , u2 ).
+
+
+                                                    40
+After some simplification, this can be written
+       (n − u1 − u2 )(1 + n − u1 − u2 )b(u1 − 1, u2 ) (n − u1 − u2 )(1 + n − u1 − u2 )b(u1 , u2 − 1)
+0 =                                                  +
+            k(l − k + n − 1 − u1 + u2 + ∆2 )                (k − l)(k + n − 1 + u1 − u2 + ∆1 )
+         2(n − u1 − u2 )(n − 1 + u1 − u2 + ∆1 )b(u1 , u2 ) 2(n − u1 − u2 )(n − 1 − u1 + u2 + ∆2 )b(u1 , u2 )
+       −                                                  +
+                  k(k + n − 1 + u1 − u2 + ∆1 )                  (l − k)(l − k + n − 1 − u1 + u2 + ∆2 )
+         2(u2 + 1)(−d + 2(1 + u2 + ∆2 ))b(u1 , u2 + 1) 2(u1 + 1)(d − 2(1 + u1 + ∆1 ))b(u1 + 1, u2 )
+       −                                                +
+               k(l − k + n − 1 − u1 + u2 + ∆2 )               (k − l)(k + n − 1 + u1 − u2 + ∆1 )
+                                                                                                     (142)
+
+Because of the k-dependence of s(k), this has many terms that depend explicitly on k. But,
+we have just proven that b(u1 , u2 ) cannot have any k-dependence! Thus, we can multiply
+through by all the terms in the denominators and collect coefficients by powers of k. This
+gives us exactly three equations for b(u1 , u2 ), one for each of 1, k, k 2 . It is straightforward to
+check that one linear combination of these three equations vanishes, so in fact we obtain only
+two equations. We can take linear combinations of the remaining two equations to obtain two
+recursion relations, one that increments u1 and another that increments u2 :
+                         m ((1 + m)b(u1 , u2 − 1) − 2(l + m − 1 + 2u1 + ∆1 )b(u1 , u2 ))
+        b(u1 + 1, u2 ) =
+                                      2(u1 + 1)(−d + 2(1 + u1 + ∆1 ))
+                         m ((1 + m)b(u1 − 1, u2 ) − 2(l + m − 1 + 2u2 + ∆2 )b(u1 , u2 ))
+        b(u1 , u2 + 1) =                                                                         (143)
+                                      2(u2 + 1)(−d + 2(1 + u2 + ∆2 ))
+where we define m ≡ n − u1 − u2 for concision. This allows us to obtain the full solution for
+a(k, l − k, u1 , u2 , m) for any n, l, up to a single overall normalization factor by beginning with
+b(0, 0) and then recursively increasing the parameters u1 and u2 .
+
+C.2     Solving in the Boundary Case
+Unlike in the case of sn,` (k), we are unaware of a full closed form solution for b(u1 , u2 ). However,
+the equations for b(u1 , u2 ) simplify when u2 = 0 or u1 = 0, giving
+
+                                        −(m)(l + m − 1 + 2u1 + ∆1 )b(u1 , 0)
+                       b(u1 + 1, 0) =                                                            (144)
+                                          2(u1 + 1)(−h + (1 + u1 ) + ∆1 )
+and similarly with 1 → 2. This has the simple solution
+                                              (∆1 + n + ` − 1)u1 n!
+                       b(u1 , 0) = (−1)u1 u1                                                     (145)
+                                         2 Γ(u1 )Γ(n + 1 − u1 )(∆1 − h)u1
+
+when normalized so that b(0, 0) = 1.
+
+C.3     Large u, n behavior of the coefficients
+The solutions to the above recursion relations are seem to be very complicated in general.
+However, we will look for simplifications at large n. Our first step will be to obtain an recursion
+
+                                                  41
+relation for just the diagonal elements, u1 = u2 ≡ u. This may be done by moving along the
+diagonal and near-diagonal u1 = u2 −1, solving only for these elements and no others. Formally,
+we can take b(u, u) = bd (u), b(u−1, u) = bo (u); then, eliminating bo (u) will give us our recursion
+relation for the diagonal elements bd (u). This may be easily done by shifting the argument
+where necessary, and we find
+                                                 1
+0 = +u2 bd (u)(−(2(∆1 + u) − d))(2(∆2 + u) − d) − bd (u − 2)(n − 2u + 1)4
+                                                4                                              
+                  1                                                                           2
+  +  d(1 − 2u) + (2∆1 + 2l + 2n + 2u − 4)(2∆2 + 2l + 2n + 2u − 4) − 2(2u − 1)(l + n − 1) + 2u
+                  2
+      1
+    × bd (u − 1)(n − 2u + 1)2 .                                                            (146)
+      2
+    Now, we want to take the large u, n limit of this. At leading order in this limit, the shifts
+in u make no difference and we simply find
+
+                                     0 ≈ n3 (3n − 8u)bd (u),                                   (147)
+
+which implies that bd (u) is peaked around u = 3n 8
+                                                    . To go to higher orders, we can expand the
+                                                3n
+shifts in u as derivatives. We further take u = 8 + δ, with δ of O(1). The subleading behavior
+of the recursion relation is
+
+                0 ≈ n3 (4(23 + 3d + 2l − 2(∆1 + ∆2 ) − 32δ)bd (δ) − 5nb0d (δ)) .               (148)
+
+This is a first-order ordinary differential equation, and is easily solved. It has a simple approx-
+imate solution in terms of a Gaussian:
+                                                   
+                                         (δ − δ0 )2
+                      bd (δ) ∝ exp −                  ,
+                                            2σ 2
+                                 5n                 23 + 3d + 2l − 2(∆1 + ∆2 )
+                          σ2 =       ,       δ0 =                              .              (149)
+                                128                             32
+Thus we see that these coefficients are sharply peaked around u1 = u2 = 3n
+                                                                         8
+                                                                           for large n.
+
+
+References
+ [1] J. M. Maldacena, “The large N limit of superconformal field theories and supergravity,”
+     Adv. Theor. Math. Phys. 2 (1998) 231–252, arXiv:hep-th/9711200.
+ [2] E. Witten, “Anti-de Sitter space and holography,” Adv. Theor. Math. Phys. 2 (1998)
+     253–291, arXiv:hep-th/9802150.
+ [3] S. S. Gubser, I. R. Klebanov, and A. M. Polyakov, “Gauge theory correlators from
+     non-critical string theory,” Phys. Lett. B428 (1998) 105–114, arXiv:hep-th/9802109.
+ [4] G. Mack, “D-independent representation of Conformal Field Theories in D dimensions
+     via transformation to auxiliary Dual Resonance Models. Scalar amplitudes,”
+     arXiv:0907.2407 [hep-th].
+
+                                                 42
+ [5] G. Mack, “D-dimensional Conformal Field Theories with anomalous dimensions as Dual
+     Resonance Models,” arXiv:0909.1024 [hep-th].
+
+ [6] J. Penedones, “Writing CFT correlation functions as AdS scattering amplitudes,” JHEP
+     03 (2011) 025, arXiv:1011.1485 [hep-th].
+
+ [7] A. Fitzpatrick, J. Kaplan, J. Penedones, S. Raju, and B. C. van Rees, “A Natural
+     Language for AdS/CFT Correlators,” arXiv:1107.1499 [hep-th].
+
+ [8] M. F. Paulos, “Towards Feynman rules for Mellin amplitudes,” arXiv:1107.1504
+     [hep-th].
+
+ [9] A. Fitzpatrick and J. Kaplan, “Analyticity and the Holographic S-Matrix,”
+     arXiv:1111.6972 [hep-th]. * Temporary entry *.
+
+[10] D. Nandan, A. Volovich, and C. Wen, “On Feynman rules for Mellin amplitudes in
+     AdS/CFT,” arXiv:1112.0305 [hep-th]. * Temporary entry *.
+
+[11] J. Callan, Curtis G. and F. Wilczek, “INFRARED BEHAVIOR AT NEGATIVE
+     CURVATURE,” Nucl.Phys. B340 (1990) 366–386.
+
+[12] J. Polchinski, “S-matrices from AdS spacetime,” arXiv:hep-th/9901076.
+
+[13] L. Susskind, “Holography in the flat space limit,” arXiv:hep-th/9901079.
+
+[14] M. Gary, S. B. Giddings, and J. Penedones, “Local bulk S-matrix elements and CFT
+     singularities,” Phys. Rev. D80 (2009) 085005, arXiv:0903.4437 [hep-th].
+
+[15] A. Fitzpatrick and J. Kaplan, “Scattering States in AdS/CFT,” arXiv:1104.2597
+     [hep-th].
+
+[16] A. L. Fitzpatrick, E. Katz, D. Poland, and D. Simmons-Duffin, “Effective Conformal
+     Theory and the Flat-Space Limit of AdS,” arXiv:1007.2412 [hep-th].
+
+[17] A. Belavin, A. M. Polyakov, and A. Zamolodchikov, “Infinite Conformal Symmetry in
+     Two-Dimensional Quantum Field Theory,” Nucl.Phys. B241 (1984) 333–380.
+
+[18] F. A. Dolan and H. Osborn, “Conformal four point functions and the operator product
+     expansion,” Nucl. Phys. B599 (2001) 459–496, arXiv:hep-th/0011040.
+
+[19] F. A. Dolan and H. Osborn, “Conformal partial waves and the operator product
+     expansion,” Nucl. Phys. B678 (2004) 491–507, arXiv:hep-th/0309180.
+
+[20] M. S. Costa, J. Penedones, D. Poland, and S. Rychkov, “Spinning Conformal Blocks,”
+     arXiv:1109.6321 [hep-th].
+
+[21] A. Mikhailov, “Notes on higher spin symmetries,” arXiv:hep-th/0201019 [hep-th].
+
+[22] I. Heemskerk, J. Penedones, J. Polchinski, and J. Sully, “Holography from Conformal
+     Field Theory,” JHEP 10 (2009) 079, arXiv:0907.0151 [hep-th].
+
+                                            43
+[23] P. A. Dirac, “Wave equations in conformal space,” Annals Math. 37 (1936) 429–442.
+[24] S. Weinberg, “Six-dimensional Methods for Four-dimensional Conformal Field
+     Theories,” Phys.Rev. D82 (2010) 045031, arXiv:1006.3480 [hep-th].
+[25] M. S. Costa, J. Penedones, D. Poland, and S. Rychkov, “Spinning Conformal
+     Correlators,” arXiv:1107.3554 [hep-th].
+[26] A. L. Fitzpatrick and D. Shih, “Anomalous Dimensions of Non-Chiral Operators from
+     AdS/CFT,” JHEP 10 (2011) 113, arXiv:1104.5013 [hep-th].
+[27] T. Banks, M. R. Douglas, G. T. Horowitz, and E. J. Martinec, “AdS dynamics from
+     conformal field theory,” arXiv:hep-th/9808016 [hep-th].
+[28] V. Balasubramanian, P. Kraus, A. E. Lawrence, and S. P. Trivedi, “Holographic probes
+     of anti-de Sitter space-times,” Phys.Rev. D59 (1999) 104021, arXiv:hep-th/9808017
+     [hep-th].
+[29] I. Bena, “On the construction of local fields in the bulk of AdS(5) and other spaces,”
+     Phys.Rev. D62 (2000) 066007, arXiv:hep-th/9905186 [hep-th].
+[30] D. W. Dusedau and D. Z. Freedman, “LEHMANN SPECTRAL REPRESENTATION
+     FOR ANTI-DE SITTER QUANTUM FIELD THEORY,” Phys.Rev. D33 (1986) 389.
+[31] L. Susskind, “The World as a hologram,” J.Math.Phys. 36 (1995) 6377–6396,
+     arXiv:hep-th/9409089 [hep-th].
+[32] N. Arkani-Hamed, F. Cachazo, and J. Kaplan, “What is the Simplest Quantum Field
+     Theory?,” JHEP 1009 (2010) 016, arXiv:0808.1446 [hep-th].
+[33] N. Arkani-Hamed, F. Cachazo, C. Cheung, and J. Kaplan, “A Duality For The S
+     Matrix,” JHEP 1003 (2010) 020, arXiv:0907.5418 [hep-th].
+[34] D. Harlow and D. Stanford, “Operator Dictionaries and Wave Functions in AdS/CFT
+     and dS/CFT,” arXiv:1104.2621 [hep-th].
+[35] R. Rattazzi, V. S. Rychkov, E. Tonni, and A. Vichi, “Bounding scalar operator
+     dimensions in 4D CFT,” JHEP 12 (2008) 031, arXiv:0807.0004 [hep-th].
+[36] D. Poland and D. Simmons-Duffin, “Bounds on 4D Conformal and Superconformal Field
+     Theories,” JHEP 1105 (2011) 017, arXiv:1009.2087 [hep-th].
+[37] S. Hellerman, “A Universal Inequality for CFT and Quantum Gravity,” JHEP 1108
+     (2011) 130, arXiv:0902.2790 [hep-th].
+[38] D. Poland, D. Simmons-Duffin, and A. Vichi, “Carving Out the Space of 4D CFTs,”
+     arXiv:1109.5176 [hep-th].
+[39] S. Rychkov, “Conformal Bootstrap in Three Dimensions?,” arXiv:1111.2115
+     [hep-th]. * Temporary entry *.
+
+                                              44
+[40] T. Banks, “Holographic Space-Time: The Takeaway,” arXiv:1109.2435 [hep-th].
+
+
+
+
+                                        45
+

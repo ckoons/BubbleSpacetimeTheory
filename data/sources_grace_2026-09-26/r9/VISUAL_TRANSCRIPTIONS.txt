@@ -1,0 +1,84 @@
+VISUAL TRANSCRIPTIONS -- r9 (Grace, 2026-09-26 15:53 EDT)
+Text layer (pdftotext -layout) garbles the formulas below; each was read off the rendered PNG
+(pdftoppm, 130 dpi unless noted) saved in png/. Printed page number given alongside PDF page.
+
+--------------------------------------------------------------------------------
+HPPS = Heemskerk, Penedones, Polchinski, Sully, arXiv:0907.0151 (file 0907.0151.pdf)
+--------------------------------------------------------------------------------
+[V1] png/HPPS_p12-12.png  (PDF p12 = printed p11), Sec. 3.3
+  (3.4)  <O(0)O(z,zbar)O(1)O(inf)> == A(z,zbar) = 1/(z zbar)^Delta
+                 + sum_{n=0}^inf sum_{l=0}^inf p(n,l) g_{Delta(n,l),l}(z,zbar)/(z zbar)^Delta
+  (3.5)  d=2: g_{E,l}(z,zbar) = [k(E+l,z)k(E-l,zbar) + k(E+l,zbar)k(E-l,z)] / (1+delta_{l,0})
+  (3.6)  k(beta,z) = z^{beta/2} F_{beta/2}(z),  F_{beta/2}(z) = F(beta/2, beta/2, beta, z)
+  (3.7)  d=4: g_{E,l}(z,zbar) = z zbar/(z - zbar) [k(E+l,z)k(E-l-2,zbar) - k(E+l,zbar)k(E-l-2,z)]
+
+[V2] png/HPPS_p15-15.png  (PDF p15 = printed p14), Sec. 4.2
+  (4.1)  A_0(z,zbar) = 1/(z zbar)^Delta + 1/[(1-z)(1-zbar)]^Delta + 1
+  (4.2)  p_0(n,l) = [1 + (-1)^l] C_n C_{n+l},
+         C_n = Gamma^2(Delta+n) Gamma(2Delta+n-1) / ( n! Gamma^2(Delta) Gamma(2Delta+2n-1) )
+         (text layer drops the square brackets: reads "1 + (-1)^l Cn Cn+l" -- WRONG; PNG shows [1+(-1)^l])
+  (4.3)  A_1 = sum_{n=0}^inf sum_{l=0, l even}^inf [ c(n,l) h_{n,l} + gamma(n,l) d/(2 dn) h_{n,l} ]
+
+[V3] png/HPPS_p18-18.png  (PDF p18 = printed p17), Sec. 4.2
+  (4.12) gamma(p,0) J(p,q) = gamma(q,0) J(q,p)
+  (4.13) gamma(p,0) = gamma(0,0) J(0,p)/J(p,0) = gamma(0,0) (2Delta - 1)/(2Delta + 2p - 1)
+  (4.14) J(p,q)/J(q,p) = (2Delta+2p-1)/(2Delta+2q-1)
+
+[V4] png/HPPS_p22-22.png  (PDF p22 = printed p21), Sec. 4.3.3
+  (4.26) gamma(p,0) = C/(2Delta+2p-1),  c(p,0) = -C/(2Delta+2p-1)^2
+
+[V5] png/HPPS_p23-23.png  (PDF p23 = printed p22), Sec. 4.4
+  (4.29) p_0(n,l) = [1 + (-1)^l] * 2(l+1)(2Delta+2n+l-2)/(Delta-1)^2 * C_n^{(Delta-1)} C_{n+l+1}^{(Delta-1)}
+         "where C_n^{(Delta-1)} is the coefficient from the two-dimensional case with Delta replaced by Delta-1."
+  (4.31) gamma'(n,l) = 2(l+1)(2Delta+2n+l-2)/(Delta-1)^2 * gamma(n,l)
+
+[V6] png/HPPS_p24-24.png  (PDF p24 = printed p23), Sec. 4.5
+  (4.34) gamma(p,0) = (2Delta+p-3)(p+1)(Delta+p-1)(2Delta-1) / [ (Delta-1)(2Delta+2p-3)(2Delta+2p-1) ] * gamma(0,0)
+  footnote 17: "As in d = 2, the case Delta = 1 in d = 4 is special because O^4 can generate a marginal deformation of the CFT."
+
+[V7] png/HPPS_p32-32.png  (PDF p32 = printed p31), Sec. 5.2
+  (5.38) f_L(nu) = pi^{d-1} 2^{2L-2}/Gamma^4(Delta) * Gamma^2((2Delta+L+i nu-d/2)/2) Gamma^2((2Delta+L-i nu-d/2)/2)
+  (5.40) nu(n) = -i (2Delta + 2n + L - d/2)
+  (5.43) p_1(n,L) = d/(2 dn) ( p_0(n,L) gamma(n,L) )
+  (5.44) p_0(n,L) gamma(n,L) = pi^{d/2} 2^{2L} Gamma(2Delta+2n+L-1) / [ Gamma^4(Delta) Gamma^2(1+n) Gamma(2Delta+2n+L-d/2) ]
+                               * Gamma^2(2Delta+n+L-d/2) Gamma^4(Delta+n+L) / [ Gamma(2Delta+2n+2L) Gamma(2Delta+2n+2L-1) ]
+         (text layer renders the prefactor pi^{d/2} as a stray "4" with "d" above it -- garbled)
+
+[V8] png/HPPS_p33-33.png  (PDF p33 = printed p32), Sec. 5.2
+  (5.45) d=2: gamma(n,L) = pi Gamma(n+L+1) Gamma(2Delta+n+L-1) Gamma(Delta+n-1/2) Gamma(Delta+n+L)
+                           / [ 4 Gamma(1+n) Gamma(Delta+n) Gamma(Delta+n+L+1/2) Gamma(2Delta+n-1) ]
+  (5.46) d=4: gamma(n,L) = pi^2 Gamma(n+L+2) Gamma(Delta+n-3/2) Gamma(Delta+n+L) Gamma(2Delta+n+L-2)
+                           / [ 16 (1+L) (Delta-1)^2 Gamma(n+1) Gamma(Delta+n-1) Gamma(Delta+n+L+1/2) Gamma(n+2Delta-3) ]
+  (6.3)  2 beta = 4 Delta + 2k - 3
+
+--------------------------------------------------------------------------------
+FK = Fitzpatrick & Kaplan, "Unitarity and the Holographic S-Matrix", arXiv:1112.4845 (file 1112.4845.pdf)
+--------------------------------------------------------------------------------
+[V9] png/FK_unitarity_p14-14.png  (PDF p14 = printed p13), Sec. 2.2
+  (42) (cbar^{12}_{n,0})^2 = calC_{Delta1} calC_{Delta2} (Delta1)_n (Delta2)_n (1+Delta1-h)_n (1+Delta2-h)_n
+                              / [ n! (h)_n (Delta1+Delta2-2h+1+n)_n (Delta1+Delta2-h+n)_n ]
+       "where we recall that the Pochhammer symbol (a)_b = Gamma(a+b)/Gamma(a), and the spacetime
+        dimension in the CFT is 2h."
+  (43) (cbar^{12}_{n,l})^2 = calC_{Delta1} calC_{Delta2} (-1)^l (Delta1-h+1)_n (Delta2-h+1)_n (Delta1)_{l+n} (Delta2)_{l+n}
+                              / [ l! n! (l+h)_n (Delta1+Delta2+n-2h+1)_n (Delta1+Delta2+2n+l-1)_l (Delta1+Delta2+n+l-h)_n ]
+  (Also rendered for context: png/FK_unitarity_p7-07.png = PDF p7, eq (11) and the sentence "[O1 O2]_{n,l} of dimension Delta1+Delta2+2n+l+gamma(n,l)"; png/FK_unitarity_p9-09.png = PDF p9, eqs (13)-(14) and "[O1 O2]_{n,l} which will have dimension Delta1+Delta2+2n+l and spin l". Both sentences are text-layer clean.)
+
+--------------------------------------------------------------------------------
+Labriet, arXiv:2004.14012 (file 2004.14012.pdf)
+--------------------------------------------------------------------------------
+[V10] png/Labriet-02.png (PDF p2 = printed p2)
+  Theorem 1.1. Suppose lambda', lambda'', lambda''' > 1 such that l = (1/2)(lambda''' - lambda' - lambda'') in N.
+    Let w1, w2 in Pi, and g in H^2_{lambda'''}(Pi). Then we have:
+  (1.1) (RC^{lambda'''}_{lambda',lambda''})^* g(w1,w2) = C(lambda',lambda'') int_Pi g(z) K^{lambda'''}_{lambda',lambda''}(z,w1,w2) dmu(z),
+    where K^{lambda'''}_{lambda',lambda''}(z,w1,w2) = (w2-w1)^l ((w1 - zbar)/(2i))^{-(lambda'+l)} ((w2 - zbar)/(2i))^{-(lambda''+l)},
+    dmu(x+iy) = y^{lambda'''-2} dx dy, and C(lambda',lambda'') = (lambda'-1)_{l+1} (lambda''-1)_{l+1} / (2^{2l+4} pi^2 l!).
+  (text layer renders the Pochhammer subscripts as "(λ'−1)2l+1 (λ''−1)l+1 / 2l+4 π2 l!" -- garbled; PNG read.)
+  (C1) lambda', lambda'', lambda''' > 1 such that l := (1/2)(lambda''' - lambda' - lambda'') in N.
+[V11] png/Labriet-03.png (PDF p3): (2.1) K_lambda(z,w) = (lambda-1)/(4 pi) ((z - wbar)/(2i))^{-lambda}; text layer adequate otherwise.
+
+--------------------------------------------------------------------------------
+PRV = Poland, Rychkov, Vichi, arXiv:1805.04405 (file 1805.04405.pdf), rendered at 110 dpi
+--------------------------------------------------------------------------------
+[V12] png/PRV-25.png (PDF p25 = printed p25): two-column layout; text layer interleaves columns.
+  Footnote 81 (unnumbered equation): "The OPE phi x phi contains only operators of the schematic form
+  phi(d^2)^n d^l phi, which have spin l and dimension 2Delta_phi + 2n + l."

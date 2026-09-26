@@ -1,0 +1,922 @@
+                                               Holographic transform for tensor product of holomorphic
+                                                                    discrete series
+                                                                                      Quentin Labriet∗
+
+
+
+
+arXiv:2004.14012v2 [math.CA] 25 Aug 2020
+                                                                                           Abstract
+                                                    We study holographic operators associated with Rankin-Cohen brackets which are symmetry
+                                                 breaking operators for the restriction of tensor products of holomorphic discrete series of the
+                                                 universal covering of SL2 (R). Furthermore, we investigate a geometrical interpretation of these
+                                                 operators and their relations to classical Jacobi polynomials.
+
+
+                                           1     Introduction
+                                           Let G be a real reductive Lie group, G′ a Lie subgroup of G and π an irreducible unitary represen-
+                                           tation of G on a vector space V . The decomposition into irreducible representations (ρ, W ) of G′ of
+                                           the restriction π|G′ of π to G′ is called the branching rule. Symmetry breaking operators are defined
+                                           as elements of the space of linear continuous maps V → W that intertwine π|G′ and ρ, denoted by
+                                           HomG′ (π|G′ , ρ), for any given irreducible representation (ρ, W ) of G′ . Analogously, elements of the
+                                           space HomG′ (ρ, π|G′ ) are called holographic operators (see for example (2.9)).
+                                               In the article [KP20], the authors investigate holographic operators in two different geometric
+                                                                   ·
+                                           settings : (G, G′ ) = (SL           · ·                                                           ′
+                                                                      2 (R) × SL2 (R), SL2 (R)) referred to as the diagonal case, and (G, G ) =
+                                           (SO0 (2, n), SO0 (2, n − 1)) referred to as the conformal case. In both situations, they consider
+                                           the restriction of holomorphic discrete series representations of G to G′ and develop two explicit
+                                           approaches to study corresponding holographic operators:
+                                               • The first method is based on the Laplace transform for tube domains, and leads to a new
+                                                 transform involving integration along a line segment in the complex upper half-plane Π (see
+                                                 2.6) for the diagonal case.
+
+                                               • The second one uses the reproducing kernel technics for weighted Bergman spaces, and leads
+                                                 to the construction of a relative reproducing kernel in the conformal case (see Thm 3.10 in
+                                                 [KP20]).
+                                           It is known (see [DP07] for instance) that the symmetry breaking operators for the decomposition
+                                           of the tensor products of holomorphic discrete series of SL2 (R) (what we call the diagonal case) are
+                                                                                        ′′′
+                                           proportional to Rankin-Cohen brackets RCλλ′ ,λ′′ (see (2.4)).
+                                               In this work, we extend the method of the relative reproducing kernel to the diagonal case and
+                                                                                         ′′′
+                                           describe the corresponding holographic (RCλλ′ ,λ′′ )∗ operator as follows.
+                                             ∗ Laboratoire de Mathmatiques de Reims (LMR-UMR 9008 du CNRS), Universit de Reims Champagne-Ardenne
+
+                                           Moulin de la Housse - BP 1039 51687 REIMS cedex 2, France. Email address: quentin.labriet@univ-reims.fr
+
+
+
+
+                                                                                                1
+Theorem 1.1. Suppose λ′ , λ′′ , λ′′′ > 1 such that l = 12 (λ′′′ − λ′ − λ′′ ) ∈ N. Let w1 , w2 ∈ Π, and
+g ∈ Hλ2′′′ (Π). Then we have:
+                                                             Z
+                        ′′′                                           ′′′
+                   (RCλλ′ ,λ′′ )∗ g(w1 , w2 ) = C(λ′ , λ′′ )   g(z)Kλλ′ ,λ′′ (z, w1 , w2 ) dµ(z), (1.1)
+                                                                  Π
+
+           ′′′                                          ′
+                                                 w1 −z̄ −(λ +l)
+                                                                             ′′
+                                                                      w2 −z̄ −(λ +l)                   ′′′
+where Kλλ′ ,λ′′ (z, w1 , w2 ) = (w2 − w1 )l        2i                  2i            , dµ(x + iy) = y λ −2 dxdy, and
+                 ′         ′′
+C(λ′ , λ′′ ) = (λ −1)2l+1 (λ −1)l+1
+                      2l+4 π 2 l!   .
+   Notice that this kind of operators has already been considered by H. Rosengren in [Ros99]. We
+give two different proofs of this theorem, the first one is inspired by the proof of Theorem 3.10 in
+[KP20], and the second one, based on the Laplace transform, is new and can also be used in the
+conformal case.
+
+    Our second point (see Fact.4.3) explores a conceptual interpretation of the link between orthogo-
+nal polynomials and branching rules for restriction of discrete series representations. More precisely,
+Rankin-Cohen brackets can be expressed in terms of Jacobi polynomials as showed in [KP16b] (see
+Thm.8.1). This is due to the fact that the equivariance condition for symmetry breaking operators
+can be reduced, using the F-method (see [KP16a]), to the Jacobi ordinary differential equation for
+the symbols of such operators. In [KP20] p.15, the authors give yet another interpretation of the
+link between Rankin-Cohen brackets and Jacobi polynomials based on the fact that holographic
+transform can be expressed using the inversion of the usual Jacobi transform. In this work, we
+interpret this statement emphasising the fact that Jacobi polynomials form an orthogonal basis for
+the Hilbert space L2 ((−1, 1), (1 − v)α (1 + v)β dv) (see [KP20], section 5.1). For this, we use another
+realization of the holomorphic discrete series in which symmetry breaking operators are expressed
+in terms of the classical Jacobi transform.
+
+Notation: We use the Pochammer symbol, defined for λ ∈ C and n ∈ N by :
+
+                                                                              Γ(λ + n)
+                                    (λ)n = λ(λ + 1) · · · (λ + n − 1) =                .
+                                                                                Γ(λ)
+
+    and set the condition
+                                                                      1 ′′′
+                                λ′ , λ′′ , λ′′′ > 1 such that l :=      (λ − λ′ − λ′′ ) ∈ N.                   (C1)
+                                                                      2
+
+2     Setting
+In this section, we describe two different models for the holomorphic discrete series representations
+                                                                  ·
+of the universal covering group of the Lie group SL2 (R), denoted SL 2 (R), and their tensor products.
+
+
+2.1     Holomorphic model
+We denote by Π the Poincar upper half-plane endowed with the hyperbolic metric, and by Hλ2 (Π)
+the weighted Bergman space defined by:
+
+                            Hλ2 (Π) = O (Π) ∩ L2 Π, y λ−2 dxdy .
+                                                              
+
+
+
+
+                                                             2
+It is known that Hλ2 (Π) = {0} for λ ≤ 1, so we suppose that λ > 1. In this case Hλ2 (Π) admits a
+reproducing kernel, also called the Bergman kernel, given by (see, for instance, [FK94], Prop.XIII.1.2,
+p.261):
+
+                                               λ − 1  z − w̄ −λ
+                                            Kλ (z, w) =            .                           (2.1)
+                                                  4π     2i
+We set, for λ′ , λ′′ > 1, Hλ2′ ,λ′′ (Π × Π) ≃ Hλ2′ (Π) ˆ                ˆ denotes the Hilbert space
+                                                      ⊗Hλ2′′ (Π), where ⊗
+completion of the tensor product. This space also admits a reproducing kernel:
+
+                                                                                                 ′                  ′′
+                                                             (λ′ − 1)(λ′′ − 1)  z1 − w¯1 −λ  z2 − w¯2 −λ
+  Kλ′ ,λ′′ (z, w) = Kλ′ (z1 , w1 ) · Kλ′′ (z2 , w2 ) =                                                       . (2.2)
+                                                                  (4π)2             2i             2i
+
+    For λ ∈ N\{0; 1}, the holomorphic discrete series representations πλ of SL2 (R) can be realized
+on Hλ2 (Π) by the following formula:
+                                                            Å         ã
+                                                         −λ   az + b
+                                (πλ (g)f ) (z) = (cz + d) f             ,                        (2.3)
+                                                              cz + d
+                Å     ã
+                 a b
+where g −1 =             ∈ SL2 (R), and f ∈ Hλ2 (Π). This representation lifts to a unitary and
+                  c d
+                                                            ·
+irreducible representation of the universal covering group SL  2 (R) for λ > 1, through an appropriate
+choice of the determination of the power function.
+   The outer product representation πλ′ ⊠ πλ′′ of the direct product group SL    ·           ·
+                                                                                   2 (R) × SL2 (R) acts
+on the space Hλ2′ ,λ′′ (Π × Π). This representation is also irreducible and unitary for λ′ , λ′′ > 1.
+
+2.2    Rankin-Cohen operators
+                                                                                  ′′′
+Let λ′ , λ′′ , λ′′′ verify (C1), and define a differential operator Rλλ′ ,λ′′ from O(Π × Π) to O(Π × Π) by
+
+                                            l
+                   ′′′                      X (−1)j (λ′ + l − j)j (λ′′ + j)l−j             ∂lf
+               Rλλ′ ,λ′′ (f )(w1 , w2 ) =                                                             (w1 , w2 ).              (2.4)
+                                            j=0
+                                                               j!(l − j)!               ∂z1l−j ∂z2j
+
+   The Rankin-Cohen operator is a map from O(Π × Π) to O(Π) defined by :
+                                                      ′′′                   ′′′
+                                               RCλλ′ ,λ′′ = Rest ◦ Rλλ′ ,λ′′ ,                                                 (2.5)
+                                                                                                                         ′′′
+where Rest is the restriction to the diagonal of Π × Π. The Rankin-Cohen operator RCλλ′ ,λ′′ is a
+symmetry breaking operator for the outer product representation πλ′ ⊠ πλ′′ , more precisely it gen-
+erates the space Hom‡ (πλ′ ⊠ πλ′′ |‡ , πλ′′′ ), for λ′ , λ′′ , λ′′′ satisfiying (C1) (see [KP16b] Cor.
+                         S L2 (R)                 S L2 (R)
+9.3 for the precise statement).
+
+   The goal of this paper is to study the holographic operators associated to the Rankin-Cohen
+                                                                    ′′′
+operators. In order to do so, we compute the adjoint operators (RCλλ′ ,λ′′ )∗ : Hλ2′′′ (Π) → Hλ2′ ,λ′′ (Π×Π)
+which give, in the unitary case, the holographic operators.
+
+
+
+
+                                                                3
+2.3       Holographic operators for the diagonal case
+                                                                                  ′′′
+Let λ , λ′′ , λ′′′ verify (C1), and define the operators Ψλλ′ ,λ′′ : Hλ2′′′ (Π) → Hλ2′ ,λ′′ (Π × Π) by
+      ′
+
+                                                                    Z 1
+                ′′′                            (w1 − w2 )l                                  ′           ′′
+             Ψλλ′ ,λ′′ (g)(w1 , w2 ) =         λ′ +λ′′ +2l−1
+                                                                          g(w(v))(1 − v)λ +l−1 (1 + v)λ +l−1 dv,    (2.6)
+                                           2                   l!    −1
+
+where w(v) = 12 ((w2 − w1 )v + (w2 + w1 )).
+In [KP20], the authors prove that this is a holographic operator from Hλ2′′′ (Π) to Hλ2′ ,λ′′ (Π×Π). They
+also establish a Parseval-Plancherel type theorem for the corresponding Rankin-Cohen transorm and
+its associated holographic transform (see [KP20] Thm. 2.7). Finally, they show (Prop 2.23) that :
+                                                             ′′′                  ′′′
+                                                    (RCλλ′ ,λ′′ )∗ = CΨλλ′ ,λ′′ .                                   (2.7)
+                       ′     ′′
+              Γ(λ +λ +2l−1)
+where C = 22l+2 πΓ(λ′ −1)Γ(λ′′ −1)
+                                   .
+    However, they also used another method to get a different expression for this map (see Lemma
+3.1 below). This approach leads to a different type of integral transformations based on the relative
+                       ′′′
+reproducing kernel Kλλ′ ,λ′′ , defined for w2 , w1 , z ∈ Π by:
+                                                                      w − z̄ −(λ′ +l)  w − z̄ −(λ′′ +l)
+                         ′′′                                              1                     2
+                      Kλλ′ ,λ′′ (z, w1 , w2 ) = (w2 − w1 )l                                                   .     (2.8)
+                                                                           2i                   2i
+   This relative reproducing kernel gives an explicit expression for the adjoint of the Rankin-Cohen
+operator as follows
+Theorem 2.1. Set λ′ , λ′′ , λ′′′ verify (C1). Let w1 , w2 ∈ Π, and g ∈ Hλ2′′′ (Π). Then we have:
+                                                      Z
+                                                               ′′′
+                     λ′′′    ∗                 ′  ′′
+              (RCλ′ ,λ′′ ) g(w1 , w2 ) = C(λ , λ )      g(z)Kλλ′ ,λ′′ (z, w1 , w2 )dµ(z),        (2.9)
+                                                                              Π
+                             ′        ′′
+                           (λ −1)l+1 (λ −1)l+1
+where C(λ′ , λ′′ ) =            22l+4 π 2 l!   .
+    We prove this theorem in the following sections (3.1 and 3.2) and make explicit the link with the
+             ′′′
+operator Ψλλ′ ,λ′′ introduced in (2.6). For this we need another model for the holomorphic discrete
+                           ·
+series representations of SL  2 (R).
+
+
+2.4       L2 -model of holomorphic discrete series
+For λ > 1, the Laplace transform defined by:
+                                                                    Z ∞
+                                                    F g(z) =               g(t)eizt dt,                            (2.10)
+                                                                     0
+
+is a one-to-one isometry (up to a constant) from L2λ (R+ ) := L2 (R+ , t1−λ dt) to Hλ2 (Π) (see for
+instance [FK94], Thm. XII.1.1). More precisely:
+
+                                                 kF gk2H 2 (Π) = b(λ)kgk2L2 (R+ ) ,
+                                                         λ                              λ
+
+
+for every g ∈ L2λ (R+ ), where b(λ) = 22−λ πΓ(λ − 1).
+
+
+                                                                      4
+   Using this transform, we consider another realization for the holomorphic discrete series repre-
+                 ·
+sentations πλ of SL           2   +                    2
+                    2 (R) on Lλ (R ), and call it the L -model for πλ .
+         ′  ′′
+   For λ , λ > 1, we define
+                                                                                          ′   ′′
+              L2λ′ ,λ′′ (R+ × R+ ) := L2λ′ (R+ ) ˆ
+                                                ⊗L2λ′′ (R+ ) ≃ L2 (R+ × R+ , x1−λ y 1−λ dxdy).
+We denote F2 = F ⊗ F the Laplace transform from L2λ′ ,λ′′ (R+ × R+ ) to Hλ2′ ,λ′′ (Π × Π).
+
+
+2.5    Holographic operators in the L2 -model
+Set λ′ , λ′′ , λ′′′ satisfiying (C1). Using the Laplace transform (2.10), we define the analogue of the
+Rankin-Cohen operators in the L2 -model by:
+                                      ÿ
+                                      RC λ′′′        −1       ′′′
+                                                        ◦ RCλλ′ ,λ′′ ◦ F2 .
+                                        λ′ ,λ′′ := F                                               (2.11)
+
+                                           ·
+It is a symmetry breaking operator for the SL                        2
+                                               2 (R)-action in the L -model.
+                                       ÿ
+    In [KP20], the authors prove that RC  λ′′′
+                                                  is given by the following integral formula for F ∈
+                                                  λ′ ,λ′′
+L2λ′ ,λ′′ (R+ × R+ ) (see [KP20], Prop. 2.13):
+                                                               Å                     ã
+                    ÿ                 tl+1 1 λ′ −1,λ′′ −1        t          t
+                                           Z
+                        λ′′′
+                    RCλ′ ,λ′′ F (t) =        P            (v)F     (1 − v),   (1 + v)  dv,         (2.12)
+                                       2il −1 l                  2          2
+          ′    ′′
+where Plλ −1,λ −1 denotes the Jacobi polynomials (see [KP20], section 5.1).
+   We define the following operator which associates to a function g(t) defined on R+ a function of
+                 ′′′
+two variables Φλλ′ ,λ′′ g on R+ × R+ :
+                                             ′      ′′                 Å      ã
+                        ′′′                xλ −1 y λ −1    λ′ −1,λ′′ −1 y − x
+                   Φλλ′ ,λ′′ g(x, y) :=                  P                      · g(x + y).  (2.13)
+                                        (x + y)λ +λ +l−1 l
+                                                ′     ′′
+                                                                         x+y
+                                                     ′′′
+Once again, it is shown in [KP20], that Φλλ′ ,λ′′ is a holographic operator between L2λ′′′ (R+ ) and
+L2λ′ ,λ′′ (R+ × R+ ). We summarize the framework in the two following commutative diagrams
+
+                                                            ◊ λ
+                                                            RCλ
+                                                                  ′′′
+                                                                ′ ,λ′′
+                            L2λ′ ,λ′′ (R+ × R+ )                         / L2 ′′′ (R+ )
+                                                                            λ
+
+                                   F2                                                 F
+                                                                                 
+                              Hλ2′ ,λ′′ (Π × Π)                   ′′′
+                                                                         / H 2′′′ (Π)
+                                                                              λ
+                                                              λ
+                                                            RCλ ′ ,λ′′
+
+
+
+                    Symmetry breaking operators in the holomorphic and L2 -models
+                                                                 ′′′
+                                                             Φλ
+                                                              λ′ ,λ′′
+                            L2λ′ ,λ′′ (R+ × R+ ) o                       L2λ′′′ (R+ )
+
+                                   F2                                                 F
+                                                                                 
+                              Hλ2′ ,λ′′ (Π × Π) o                ′′′
+                                                                          Hλ2′′′ (Π)
+                                                            Ψλ
+                                                             λ′ ,λ′′
+
+
+                       Holographic operators in the holomorphic and L2 -models
+
+                                                             5
+2.6      Inverse Laplace transform of the reproducing kernel
+The following lemma gives the inverse Laplace transform for the Bergman kernels Kλ (·, w).
+Lemma 2.2. Suppose λ, λ′ , λ′′ > 1. The inverse Laplace transform of the reproducing kernel Kλ
+is given by the following fomula:
+
+                                                               2λ−1
+                                     F −1 Kλ (·, z)(t) =                tλ−1 e−itz̄ .                           (2.14)
+                                                             2πΓ(λ − 1)
+
+Consequently:
+                                                         ′     ′′
+                                                      2λ +λ −2        ′      ′′
+        F2−1 Kλ′ ,λ′′ (·, (w1 , w2 ))(x, y) =     2   ′        ′′
+                                                                    xλ −1 y λ −1 e−i(x,y).(w1 ,w2 ) .           (2.15)
+                                                4π Γ(λ − 1)Γ(λ − 1)
+                                                  λ−1
+                                      2
+Proof. Consider the function g(t) = 2πΓ(λ−1) tλ−1 e−itz̄ . Then, the usual Laplace transform gives:
+                                          Z ∞                                  Å            ãλ
+                              2λ−1                                     λ−1          2i
+                F g(z) =                         tλ−1 eit(w−z̄) dt =                             = Kλ (w, z),
+                            2πΓ(λ − 1)     0                            4π         w − z̄
+
+which proves the first point. The second is obvious from the definitions.
+
+
+3      Computation of the relative reproducing kernel
+The goal of this section is to give two different proofs of Theorem 1.1. For this, we use Lemma 3.13
+from [KP20]:
+Lemma 3.1. Let Dj (j = 1, 2) be some complex manifolds, and Hj some Hilbert spaces of holomor-
+phic functions on Dj with reproducing kernels K (j) (·, ·). If R : H1 → H2 is a continous linear
+map, then :
+
+    1. RK (1) (·, ζ)(τ ′ ) = (R∗ K (2) (·, τ ′ ))(ζ) pour ζ ∈ D1 , τ ′ ∈ D2 .
+    2. (R∗ g)(ζ) = (g, RK (1) (·, ζ))H2 for g ∈ H2 , ζ ∈ D1 .
+                                                                         ′′′
+   Thanks to this lemma, we only need to compute RCλλ′ ,λ′′ (Kλ′ ,λ′′ (·, (w1 , w2 ))) in order to find
+an explicit formula for the holographic operator. We give two different ways for this computation.
+First, we compute it directly and in a second time we use the Laplace transform to get our result.
+
+3.1      First proof of Theorem 1.1
+Our first proof of Theorem 1.1 reduces to a direct computation.
+Lemma 3.2. For l ∈ N and λ > 1, we have:
+
+                                ∂l                (−1)l (λ − 1)l+1  z − w̄ −(λ+l)
+                                     K λ (z, w) =                                   .                            (3.1)
+                                ∂z l                  4π(2i)l          2i
+
+    This statement can be proved by induction on l. Then we are ready to prove Theorem 1.1.
+
+
+
+
+                                                              6
+Proof of Theorem 1.1.
+          ′′′
+      Rλλ′ ,λ′′ Kλ′ ,λ′′ (·, (w1 , w2 ))(z1 , z2 )
+          l
+          X (−1)j (λ′ + l − j)j (λ′′ + j)l−j                  ∂l
+      =                                                  Kλ′ ,λ′′ (·, (w1 , w2 ))(z1 , z2 )
+          j=0
+                         j!(l − j)!          ∂z1l−j ∂z2j
+                       Å          ã ′ Å              ã ′′
+            (−1)l        z1 − w1 −(λ +l) z2 − w2 −(λ +l)
+      =
+         (4π)2 l!(2i)l      2i                  2i
+          l                                                                 Ç åÅ            ã Å        ã
+        X
+                  j  ′              ′′        ′               ′′              l     z2 − w2 l−j z1 − w1 j
+      ×     (−1) (λ + l − j)j (λ + j)l−j (λ − 1)l−j+1 (λ − 1)j+1
+        j=0
+                                                                             j          2i         2i
+                                          Å        ã ′ Å                    ã ′′
+         (−1)l (λ′ − 1)l+1 (λ′′ − 1)l+1 z1 − w1 −(λ +l) z2 − w2 −(λ +l)
+      =
+                  (4π)2 l!(2i)2l             2i                      2i
+          l Ç å
+        X l
+      ×            (w1 − z1 )j (z2 − w2 )l−j
+        j=0
+              j
+                                            Å             ã−(λ′ +l) Å             ã−(λ′′ +l)
+          (λ′ − 1)l+1 (λ′′ − 1)l+1              z1 − w1                 z2 − w2
+      =                                                                                        (z1 − z2 + w2 − w1 )l .
+                 (4π)2 l!22l                       2i                      2i
+Finally, we get by restriction to the diagonal z1 = z2 = z:
+
+                     RCλλ′ ,λ′′ Kλ′ ,λ′′ (·, (w1 , w2 ))(z) = Rest|z1 =z2 =z ◦ Rλλ′ ,λ′′ (Kλ′ ,λ′′ (·, (w1 , w2 ))) (z)
+                              ′′′                                                    ′′′
+
+
+                                                        Å       ã ′ Å                 ã ′′
+                       (λ′ − 1)l+1 (λ′′ − 1)l+1 w1 − z −(λ +l) w2 − z −(λ +l)
+                     =                                                                             (w2 − w1 )l .
+                                 (4π)2 l!22l                2i                 2i
+Thus Lemma 3.1 implies the statement.
+
+3.2       Second proof of Theorem 1.1
+Here we give a second proof of Theorem 1.1 using the Laplace transform (2.10).
+Proposition 3.3. Set λ′ , λ′′ , λ′′′ satisfying (C1).
+
+                RCλλ′ ,λ′′ Kλ′ ,λ′′ (·, (w1 , w2 ))(z) =
+                        ′′′
+                                                                                                                          (3.2)
+                                 Z ∞
+                C ′ (w2 − w1 )l          F −1 Kλ′′′ (·, z)(t) 1 F1 (λ′ + l, λ′ + λ′′ + 2l; −i(w2 − w1 )t)eitw2 dt,
+                                    0
+                ′
+                  +λ′′ +2l−1)B(λ′ +l,λ′′ +l)
+where C ′ = Γ(λ22l+2 πl!Γ(λ′ −1)Γ(λ′′ −1)
+                                             and 1 F1 is the Kummer function (see Appendix 5).
+
+
+Proof. Lemmas 2.2 and 5.1, and formula (2.12) imply:
+      ÿ  λ′′′       −1
+      RCλ′ ,λ′′ ◦ F2 (Kλ′ ,λ′′ (·, (w1 , w2 ))) (t)
+                    ′   ′′              Z 1
+                  tλ +λ +l−1                     ′   ′′         w1 +w2 w2 −w1
+                                             Plλ −1,λ −1 (v)e−it 2 +v 2 (1 − v)λ −1 (1 + v)λ −1 dv
+                                                                                ′           ′′
+      = 3l 2          ′        ′′
+        2 i π Γ(λ − 1)Γ(λ − 1) −1
+                 ′     ′′
+         2λ +λ −4 B(λ′ + l, λ′′ + l)               ′′′
+       =    2   ′        ′′
+                                     (w2 − w1 )l tλ −1 1 F1 (λ′ + l, λ′ + λ′′ + 2l; i(w2 − w1 )t) e−itw2 .
+          π Γ(λ − 1)Γ(λ − 1)l!
+
+
+                                                                     7
+       ′′′
+                    ÿ
+As RCλλ′ ,λ′′ = F ◦ RC λ′′′      −1
+                      λ′ ,λ′′ ◦ F2  (see (2.10)), it gives:
+
+      RCλλ′ ,λ′′ Kλ′ ,λ′′ (·, (w1 , w2 ))(z)
+           ′′′
+
+
+                                         ′′′
+                                      2λ −1
+                             Z
+                                                     ′′′
+           ′
+      = C (w2 − w1 )       l
+                                          ′′′ − 1)
+                                                   tλ −1 eitz 1 F1 (λ′ + l, λ′ + λ′′ + 2l; i(w1 − w2 )t) e−itw2 dt.
+                               R + 2πΓ(λ
+                            λ′′′ −1       ′′′
+                  2                             −1 −itz̄
+Lemma 2.2 gives 2πΓ(λ′′′ −1) t
+                               λ
+                                                  e         = F −1 Kλ′′′ (·, z)(t), which ends our proof.
+
+    An alternative proof of Theorem 1.1 is based on the properties of Kummer special functions as
+follows.
+Second proof of Theorem 1.1. First, remark that, for every n ∈ N, we have:
+                        Å        ãn                                                           ′′′
+                             ∂                              (−1)n (λ′′′ − 1)(λ′′′ )n (2i)λ           ′′′
+                                      Kλ′′′ (w, z) =                                       (w − z̄)−λ −n .
+                            ∂w                                           4π
+
+Then, we use the power series expansion for Kummer functions (5.1) to get:
+           Z ∞
+                F −1 (Kλ′′′ (·, z)) (t)eitw2 1 F1 (λ′ + l, λ′ + λ′′ + 2l; −i(w2 − w1 )t) dt
+                  0
+                      ∞                               Z ∞
+                      X    (λ′ + l)n
+                 =                                          F −1 (Kλ′′′ (·, z)(t)) eitw2 (−i(w2 − w1 )t)n eitw2 dt
+                   n=0
+                       (λ′ + λ′′ + 2l)n               0
+                      ∞                                              Å        ãn
+                      X       (λ′ + l)n                                   ∂
+                 =          ′ + λ′′ + 2l)
+                                           (w2 − w1 )n                             Kλ′′′ (w, z)
+                      n=0
+                          (λ             n                               ∂w                       w=w2
+                                 ∞
+                   λ′′′ − 1      X                     ′′′           ′′′
+                 =             (λ′ + l)n (−1)n (2i)λ (w2 − z̄)−λ −n (w2 − w1 )n
+                      4π n=0
+                                          ′′′ ∞                    Å         ãn
+                   λ′′′ − 1  w2 − z̄ −λ X ′                    n w2 − w1
+                 =                                (λ + l)n (−1)
+                      4π        2i            n=0
+                                                                     w2 − z̄
+                                          ′′′ Å              ã     ′
+                   λ′′′ − 1  w2 − z̄ −λ           w2 − w1 −λ −l
+                 =                              1−
+                      4π        2i                   w2 − z̄
+                                          ′′                 ′
+                    ′′′                −λ    −l
+                   λ − 1 w2 − z̄
+                                               w1 − z̄ −λ −l
+                 =                                               .
+                      4π        2i                  2i
+
+Notice that the result is valid for ww22−w
+                                         −z̄
+                                            1
+                                              < 1, and use the analytic continuation to extend it for
+arbitrary w1 , w2 , z ∈ Π. Proposition 3.3, implies the result. Finally, for the constant C(λ′ , λ′′ ), we
+have:
+                                                 (λ′′′ − 1)   (λ′′′ − 1)Γ(λ′′′ − 1)Γ(λ′ + l)Γ(λ′′ + l)
+                       C(λ′ , λ′′ ) = C ′                   =                                          .
+                                                   4πl!        22l+4 π 2 l!Γ(λ′ − 1)Γ(λ′′ − 1)Γ(λ′′′ )
+
+
+
+                                                               ′′′
+3.3      Link with the operator Ψλλ′ ,λ′′
+                                                                               ′′′
+We give another characterization of the operators Ψλλ′ ,λ′′ (see (2.6)) as follows
+
+                                                                         8
+Proposition 3.4. Suppose λ′ , λ′′ , λ′′′ verify (C1). Then we have the following identity:
+
+                     ′′′                               (−1)l (λ′′′ − 1)B(λ′ + l, λ′′ + l) λ′′′
+               Ψλλ′ ,λ′′ (Kλ′′′ (·, z))(w1 , w2 ) =                                      Kλ′ ,λ′′ (z, w1 , w2 ).         (3.3)
+                                                                      4πl!
+                                                                                   ′′′
+where B(x, y) denotes the usual Euler beta function, and Kλλ′ ,λ′′ is the relative reproducing kernel
+(2.8) given by
+                                                                    w − z̄ −(λ′ +l)  w − z̄ −(λ′′ +l)
+                              ′′′                                       1                2
+                           Kλλ′ ,λ′′ (z, w1 , w2 ) = (w2 − w1 )l                                            .
+                                                                        2i                2i
+Proof. Similar argument as in the proof of Proposition 3.3 gives:
+               ′′′
+         Ψλλ′ ,λ′′ (Kλ′′′ (·, z))(w1 , w2 )
+                              Z ÅZ ∞                                       ã
+             (w1 − w2 )l 1                  −1                                       ′             ′′
+         =        λ ′′′ −1                F    K λ′′′ (·, z)(t)e itw(v)
+                                                                        dt   (1 − v)λ +l−1 (1 + v)λ +l−1 dv
+                2          l! −1 0
+                22l+2 π(−1)l Γ(λ′ − 1)Γ(λ′′ − 1)
+                                                 RCλλ′ ,λ′′ Kλ′ ,λ′′ (·, (w1 , w2 ))(z).
+                                                     ′′′
+          =
+                          Γ(λ′′′ − 1)
+
+
+                                                                                                 ′′′               ′′′
+   Remark: This proposition gives another proof of the link between Ψλλ′ ,λ′′ and (RCλλ′ ,λ′′ )∗ (see
+formula (2.7)). Indeed, for every g ∈ Hλ′′′ (Π):
+         ′′′
+      Ψλλ′ ,λ′′ (g)(w1 , w2 )
+                              Z 1
+             (w1 − w2 )l                                ′               ′′
+      = λ′ +λ′′ +2l−1              g(w(v))(1 − v)λ +l−1 (1 + v)λ +l−1 dv
+          2                l! −1
+                              Z 1Z
+             (w1 − w2 )l                                         ′′′            ′               ′′
+      = λ′ +λ′′ +2l−1                   g(z)Kλ′′′ (z, w(v))y λ −2 (1 − v)λ +l−1 (1 + v)λ +l−1 dxdydv
+          2                l! −1 Π
+                    ÇZ 1                                                                              å
+                               (w1 − w2 )l
+         Z
+                                                                         λ′ +l−1         λ′′ +l−1          ′′′
+      =        g(z)                            K
+                               λ′ +λ′′ +2l−1 l! λ
+                                                  ′′′ (w(v),  z)(1   − v)         (1 + v)          dv   y λ −2 dxdy
+            Π            −1  2
+         Z
+                       ′′′                                ′′′
+      =        g(z)Ψλλ′ ,λ′′ (Kλ′′′ (·, z))(w1 , w2 ) y λ −2 dxdy.
+           Π
+
+
+
+
+4     Geometrical interpretation
+In this section, we give a geometrical interpretation of the diffeomorphism ι between R+ × (−1; 1)
+and R+ × R+ introduced in [KP20] (equation (2.21), p.17), and describe yet another model for the
+tensor product πλ′ ⊗ πλ′′ .
+
+4.1    Cone stratification
+Let σ be an involutive automorphism of a connected semi-simple Lie group G, which commutes with
+the Cartan involution θ of G. We use the same letters σ and θ to denote their differentials. Define
+a θ-stable subgroup of G by
+                                   Gσ = {g ∈ G | σ(g) = g}.                                   (4.1)
+
+                                                                    9
+Consider K a maximal compact subgroup of G and g = k + p a Cartan decomposition of g = Lie(G).
+The space p is σ-stable, so we have the following diffeomorphism for the symmetric space G/K:
+
+                                          G/K ≃ p = pσ ⊕ p−σ ,                                        (4.2)
+
+where p±σ = {X ∈ p | σ(X) = ±X}. This diffeomorphism is explicit using the exponential map
+(see [Hel01], Thm.1.1, p.252):
+
+                             X + Y ∈ pσ ⊕ p−σ 7→ exp(X + Y )K ∈ G/K.                                  (4.3)
+
+The automorphism σθ is also involutive, so one checks that:
+
+                                  pσ ≃ Gσ /K σ and p−σ ≃ Gσθ /K σθ .                                  (4.4)
+
+Finally, (4.2) and (4.4) gives the following diffeomorphism for G/K:
+
+                                      G/K ≃ Gσ /K σ × Gσθ /K σθ ,                                     (4.5)
+
+where the diffeomorphism for the right-hand side is explicitly given by
+
+               X + Y ∈ pσ ⊕ p−σ 7→ (exp(X)K σ , exp(Y )K σθ ) ∈ Gσ /K σ × Gσθ /K σθ .                  (4.6)
+                                               ßÅ        ã           ™ ßÅ             ã           ™
+                                                  a    0           ∗          b     0           ∗
+Example 4.1. Consider the case where G =                   ; a ∈ R     ×                ; b ∈ R     (which
+                                                  0 a−1                       0 b−1
+is the structure group of the Jordan algebra R × R ), and σ(g1 , g2 ) = (g2 , g1 ) with g = (g1 , g2 ) ∈ G.
+Then, Gσ /K σ ≃ R+ is diagonaly embeded in G/K ≃ R+ × R+ , and Gσθ /K σθ ≃ (−1; 1).
+    The following diffeomorphism ι from R+ × (−1; 1) to R+ × R+ :
+                                                         t        t
+                                ι : (t, v) 7→ ι(t, v) ≡ ( (1 − v), (1 + v))                           (4.7)
+                                                         2        2
+is then an explicit realization of the decomposition (4.5).
+   This diffeomorphism corresponds to the diagonal embedding of R+ into R+ × R+ , and describes
+the stratification of the cone R+ × R+ by the segments orthogonal to this diagonal. In his recent
+preprint [Cle20], J-L. Clerc gives a generalization of this construction for the diagonal embedding of
+a symmetric cone Ω into the direct product Ω × Ω (see [Cle20]) for an arbitrary Euclidean Jordan
+algebra.
+
+    Let α, β > 1, and dµα,β (v) := (1 − v)α−1 (1 + v)β−1 dv be a measure on the segment (−1, 1). We
+define the Hilbert spaces
+
+                     L2α,β (R+ × (−1; 1)) := L2 (R+ × (−1; 1), tα+β−1 dtdµα,β (v)).
+
+   For a function f defined on R+ × R+ , we define a function Tι (f ) on R+ × (−1, 1) by
+                                     Å ã2−λ′ −λ′′
+                                      t                     ′          ′′
+                     Tι (f )(t, v) =              (1 − v)1−λ (1 + v)1−λ · f ◦ ι(t, v).                (4.8)
+                                      2
+                                                                             ′   ′′
+One checks that it is a one-to-one isometry from L2 (R+ × R+ , x1−λ y 1−λ dxdy) to L2λ′ ,λ′′ (R+ ×
+(−1; 1)). The inverse map is given by the following formula:
+                                                   ′        ′′
+                               Tι−1 (h)(x, y) = xλ −1 y λ −1 · h ◦ ι−1 (x, y).                        (4.9)
+
+                                                       10
+We use this operator in order to define the stratified L2 -model by transfering the restriction of the
+outer product of holomorphic discrete series representations of SL·                        2       +
+                                                                     2 (R) on the space Lλ′ ,λ′′ (R ×
+                    ·
+(−1; 1)). The group SL                2       +
+                       2 (R) acts on L ′ ′′ (R × (−1; 1)) by the operators:
+                                            λ ,λ
+
+
+                                              Tθ ◦ πÿ              −1
+                                                    λ′ ,λ′′ (g) ◦ Tθ ,                                    (4.10)
+
+           ·
+where g ∈ SL           ÿ               −1      ˆ λ′′ (g, g) ◦ F2 .
+             2 (R) and πλ′ ,λ′′ (g) = F2 ◦ πλ′ ⊗π
+   Finaly, we introduce the map Θ for any function defined on R+ :
+                                                                λ′ −1,λ′′ −1
+                                              −(λ′ +λ′′ +l−1) Pl             (v)
+                               Θ(h)(t, v) = t                     λ′ −1,λ′′ −1
+                                                                                 h(t).                    (4.11)
+                                                              kPl              k
+
+This is a one-to-one isometry from L2λ′′′ (R+ ) to the Hilbert space
+                           ′  ′′    Ä                   ä          ′    ′′
+                                                          ⊗ C · Plλ −1,λ −1 (v),
+                                              ′   ′′
+                        Vlλ ,λ := L2 R+ , tλ +λ −1 dt ˆ                                                   (4.12)
+
+whose inverse is given by:
+                                       ′     ′′                   ′   ′′
+                         Θ−1 (f × Plλ −1,λ −1 )(t) = kPlλ −1,λ −1 ktλ +λ +l−1 f (t),
+                                                                             ′   ′′
+                                                                                                          (4.13)
+
+            ′    ′′
+                           α+β+1                         12
+                            2      Γ(l+α+1)Γ(l+β+1)
+where kPlλ −1,λ −1 k =      l!(2l+α+β+1)Γ(l+α+β+1)              is the norm of Jacobi polynomials in the Hilbert
+        2
+space L ((−1; 1), dµλ′ ,λ′′ (v)).
+    Analogously to (4.10), we use this map to transfer the holomorphic discrete series representation
+   ·
+of SL                                 ·
+      2 (R) and define, for every g ∈ SL2 (R), the following operator on V
+                                                                           λ′ ,λ′′
+                                                                                   :     l
+
+                                                    ◊
+                                                  Θ◦πλ′′′ (g) ◦ Θ
+                                                                  −1
+                                                                     .                                    (4.14)
+
+      ◊
+where πλ′′′ (g) = F
+                    −1
+                       ◦ πλ′′′ (g) ◦ F .
+
+4.2     Symmetry breaking and holographic operator
+According to the orthogonality of Jacobi polynomials, we have the following isomorphisms of Hilbert
+spaces:
+
+                             L2λ′ ,λ′′ (R+ × (−1; 1))
+                                 Ä        ′  ′′
+                                                    ä
+                           ≃ L2 R+ , tλ +λ −1 dt ⊗L    ˆ 2 ((−1; 1), dµλ′ ,λ′′ (v))
+                             X⊕          Ä                 ä          ′     ′′
+                                                             ˆ C · Plλ −1,λ −1 (v)
+                                                 ′  ′′
+                           ≃           L2 R+ , tλ +λ −1 dt ⊗                                              (4.15)
+                                 l≥0
+                                X⊕       Ä       ′  ′′
+                                                          ä      ′  ′′
+                           ≃           L2 R+ , tλ +λ −1 dt ⊗ˆ Vlλ ,λ .
+                                 l≥0
+
+       P⊕
+where      stands for an orthogonal Hilbert sum. The last isomorphism is due to the fact that the
+Jacobi polynomials form a Hilbert basis for L2 ((−1; 1), dµλ′ ,λ′′ (v)) if λ′ , λ′′ > 1.
+
+
+
+
+                                                           11
+                                                                             ′   ′′
+   This allows us to consider the orthogonal projection Jlλ ,λ from L2λ′ ,λ′′ (R+ × (−1; 1)) on the
+                                 ′   ′′
+Hilbert subspace Vlλ ,λ which corresponds to the usual Jacobi transform:
+                                            ′     ′′
+                                         Plλ −1,λ −1 (v) 1
+                                                           Z
+                     λ′ ,λ′′                                           ′    ′′
+                   Jl        (h)(t, v) =    λ′ −1,λ′′ −1 2
+                                                             h(t, u)Plλ −1,λ −1 (u) dµλ′ ,λ′′ (u).               (4.16)
+                                         kPl            k −1
+
+   We summarize the situation in the following Proposition.
+Proposition 4.2. Let λ′ , λ′′ , λ′′′ verify (C1). The following diagram is commutative
+
+                                             ◊ λ
+                                          c1 RCλ
+                                                   ′′′
+                                                 ′ ,λ′′                               c2 Φλ
+                                                                                            ′′′
+                                                                                          λ′ ,λ′′
+           L2λ′ ,λ′′ (R+ × R+ )                           / L2 ′′′ (R+ )
+                                                                 λ
+                                                                                          / L2 ′ ′′ (R+ × R+ )
+                                                                                             λ ,λ
+                                                                                              5
+                                                                                        ❦❦ ❦❦❦
+                        Tι                                              Θ            ❦❦❦
+                                                                                   ❦❦
+                                                                       (  ❦❦❦❦❦❦ Tι−1
+                                                                      ′  ′′
+                                                                     λ ,λ
+         L2λ′ ,λ′′ (R+ × (−1; 1))              ′     ′′
+                                                               /V
+                                                                     l
+                                            Jlλ ,λ
+
+                   ′        ′′
+              2λ +λ −3 il                1
+where c1 =       ′    ′′    and c2 = λ′ −1,λ ′′ −1 .
+             kPlλ −1,λ −1 k         kPl           k
+
+Proof. Let f ∈ L2λ′ ,λ′′ (R+ × R+ ). On one hand side we have:
+
+              ′′′
+                       ÿ
+           Φλλ′ ,λ′′ ◦ RC λ′′′
+                         λ′ ,λ′′ f (x, y)
+                    ′     ′′                    Å      ãZ 1
+                 xλ −1 y λ −1       λ′ −1,λ′′ −1 y − x         ′    ′′
+             = l                  P                         Plλ −1,λ −1 (u)F (ι(x + y), u) du.
+              2i (x + y)λ′ +λ′′ −2 l              x+y    −1
+
+On the other hand side we have:
+               ′       ′′
+    Tι−1 ◦ Jlλ ,λ ◦ Tι (f )(x, y)
+            Ç             Å ã2−λ′ −λ′′                    Z 1                                   å
+         −1                t             λ′ −1,λ′′ −1                       λ′ −1,λ′′ −1
+    = Tι        (t, v) 7→              Pl             (v)      f (ι(t, u))Pl             (u) du
+                           2                                −1
+              ′   ′′         ′      ′′                    Å        ãZ 1
+           2λ +λ −2        xλ −1 y λ −1      λ′ −1,λ′′ −1 y − x              ′     ′′
+    =      λ −1,λ −1 2 (x + y)λ′ +λ′′ −2 l
+            ′      ′′                     P                               Plλ −1,λ −1 (u)F (ι(x + y), u) du.
+       kPl              k                                   x+y        −1
+
+                                                           ′′′
+A direct computation shows that Tι−1 ◦ Θ = c2 Φλλ′ ,λ′′ .
+
+                  ÿ
+    The fact that RC  λ′′′         λ′′′
+                      λ′ ,λ′′ and Φλ′ ,λ′′ are intertwinning operators (see [KP20], Thm.2.11), and Propo-
+sition 4.2 lead to the following:
+                                               ′  ′′
+                                                                                           ·
+Proposition 4.3. The orthogonal projection Jlλ ,λ is a symmetry breaking operator for the SL 2 (R)
+                                 2
+action (4.10) in the stratified L -model and the canonical injection corresponds to the associated
+holographic operator.
+   In [KP20], the authors explore the link between the symmetry breaking operator and Jacobi
+transform in this geometric setting (see Rmk.2.15). Proposition 4.3 directly relates the L2 -space
+associated with Jacobi polynomials to the construction of symmetry breaking operators for the
+
+
+                                                          12
+                                               ·
+holomorphic discrete series representations of SL 2 (R) and explains the structure of the corresponding
+branching rules.
+   Remark: We should mention that we have similar result in the conformal case (G, G′ ) =
+(SO0 (2, n), SO0 (2, n − 1)) (see [KP20] for more detatils). For this we use the stratification of the
+time-like cone Ω(n) given by the diffeomorphism
+                                 ι : Ω(n − 1) × (−1, 1) →               Ω(n)
+                                                               Ä                    1
+                                                                                      ä           (4.17)
+                                         (y ′ , v)         7→ y ′ , −vQ1,n−2 (y ′ ) 2 .
+
+
+5    Appendix: a lemma about Kummer function
+The Kummer function, denoted 1 F1 , is a special case of generalized hypergeometric functions defined
+for complex parameter a, b where b is not a negative integer by
+                                                              ∞
+                                                              X (a)n xn
+                                           1 F1 (a, b; x) =                   .                    (5.1)
+                                                              n=0
+                                                                    (b)n n!
+
+For more results about Kummer function, we refer to [BW10], for example. The Kummer function
+admits the following integral representation in terms of Jacobi polynomials:
+Lemma 5.1. Let α, β > 1, l ∈ N and x ∈ R+ . Then:
+                                                Z 1
+   Cα,β xl eix 1 F1 (α + l, α + β + 2l; −2ix) =     Plα−1,β−1 (v)eivx (1 − v)α−1 (1 + v)β−1 dv,    (5.2)
+                                                      −1
+                α+β+l−1 l
+where Cα,β = 2     l!
+                        i
+                            B(α + l, β + l), and B(x, y) is the usual Euler beta function.
+Proof. The following integral representation for the Kummer function, for Re(c) > Re(a) > 0 is
+classical (see [BW10] p.190):
+                                              Z 1
+                                       1
+                 1 F1 (a, c; x) =                  sa−1 (1 − s)c−a−1 esx ds
+                                  B(a, c − a) 0
+                                          x         Z 1
+                                         e2                xv
+                                =              c−1
+                                                        e− 2 (1 − v)a−1 (1 + v)c−a−1 dv, (5.3)
+                                  B(a, c − a)2       −1
+
+where we put v = 1 − 2s.
+   Then, the Rodrigues formula for Jacobi polynomials (see [KP20], section 5.1) and integration by
+part give:
+                     Z 1
+                         Plα−1,β−1 (v)eivx (1 − v)α−1 (1 + v)β−1 dv
+                            −1
+                                         Å ã
+                         (−1)l 1 ixv d l
+                                 Z
+                                                 (1 − v)α+l−1 (1 + v)β+l−1 dv
+                                                                          
+                        =    l
+                                     e
+                           2 l! −1        dv
+                               Z 1 Å ãl
+                           1         d
+                        = l              eixv (1 − v)α+l−1 (1 + v)β+l−1 dv
+                         2 l! −1 dv
+                         il xl 1 ixv
+                               Z
+                        = l        e   (1 − v)α+l−1 (1 + v)β+l−1 dv.
+                          2 l! −1
+The result follows from the integral representation (5.3) for the Kummer function with c = α + β +
+2l > α + 2l > 0.
+
+                                                         13
+References
+[BW10] R. Beals and R. Wong. Special functions, volume 126 of Cambridge Studies in Advanced
+       Mathematics. Cambridge University Press, Cambridge, 2010. A graduate text.
+[Cle20]   J-L. Clerc. Rankin-Cohen brackets on tube-type domains. 2020. arXiv:2003.06133.
+[DP07]    G. van Dijk and M. Pevzner. Ring structures for holomorphic discrete series and Rankin-
+          Cohen brackets. J. Lie Theory, 17(2):283–305, 2007.
+[FK94]    J. Faraut and A. Korányi. Analysis on symmetric cones. Oxford Mathematical Mono-
+          graphs. The Clarendon Press, Oxford University Press, New York, 1994. Oxford Science
+          Publications.
+[Hel01]   Sigurdur Helgason. Differential geometry, Lie groups, and symmetric spaces, volume 34 of
+          Graduate Studies in Mathematics. American Mathematical Society, Providence, RI, 2001.
+          Corrected reprint of the 1978 original.
+[KP16a] T. Kobayashi and M. Pevzner. Differential symmetry breaking operators: I. General theory
+        and F-method. Selecta Math. (N.S.), 22(2):801–845, 2016.
+[KP16b] T. Kobayashi and M. Pevzner. Differential symmetry breaking operators: II. Rankin-Cohen
+        operators for symmetric pairs. Selecta Math. (N.S.), 22(2):847–911, 2016.
+[KP20]    T. Kobayashi and M. Pevzner. Inversion of Rankin-Cohen operators via holographic trans-
+          form. To appear in Annales de l’Institut Fourier, 2020.
+[Ros99] H. Rosengren. Multivariable orthogonal polynomials and coupling coefficients for discrete
+        series representations. SIAM J. Math. Anal., 30(2):232–272, 1999.
+
+
+
+
+                                                14
+

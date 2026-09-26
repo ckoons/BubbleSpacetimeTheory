@@ -1,0 +1,2454 @@
+                                                                                                                 NSF-KITP-09-110
+
+
+
+
+                                             Holography from Conformal Field Theory
+
+                                        Idse Heemskerk1 , Joao Penedones2 , Joseph Polchinski2 , James Sully1
+
+
+
+
+arXiv:0907.0151v3 [hep-th] 5 Oct 2009
+                                                        1
+                                                            Department of Physics, University of California,
+                                                                Santa Barbara, California 93106, USA
+                                                               2
+                                                                   Kavli Institute for Theoretical Physics
+                                                             Santa Barbara, California 93106-4030, USA
+
+
+
+
+                                                                                Abstract
+
+                                            The locality of bulk physics at distances below the AdS length scale is one of the
+                                        remarkable aspects of AdS/CFT duality, and one of the least tested. It requires that the
+                                        AdS radius be large compared to the Planck length and the string length. In the CFT
+                                        this implies a large-N expansion and a gap in the spectum of anomalous dimensions.
+                                        We conjecture that the implication also runs in the other direction, so that any CFT
+                                        with a large-N expansion and a large gap has a local bulk dual. For an abstract CFT
+                                        we formulate the consistency conditions, most notably crossing symmetry, and show
+                                        that the conjecture is true in a broad range of CFT’s, to first nontrivial order in 1/N 2 :
+                                        in any CFT with a gap and a large-N expansion, the four-point correlator is generated
+                                        via the AdS/CFT dictionary from a local bulk interaction. We establish this result
+                                        by a counting argument on each side, and also investigate various properties of some
+                                        explicit solutions.
+1     Introduction
+
+AdS/CFT duality maps a higher dimensional bulk into a lower dimensional boundary[1, 2, 3].
+This means that excitations that are coincident in the boundary CFT may be far apart in
+the bulk. From the point of view of the CFT they should be able to interact directly, but
+the bulk picture makes it clear that they cannot. The purpose of this paper is to develop a
+better understanding of this bulk locality from the boundary CFT point of view.
+
+    In Sec. 2 we discuss general issues. We first review the distinction between locality at
+the AdS-radius scale and at sub-AdS distances. The former is reasonably apparent in the
+CFT, while the latter, which is implied by AdS/CFT duality, is remarkable and mysterious.
+We then review the use of scattering experiments to probe the locality of bulk physics, and
+to relate it to the form of the CFT four-point function. We examine the extent to which
+current tests of AdS/CFT duality probe sub-AdS locality. Finally, we make a conjecture,
+to the effect that bulk locality follows from the existence of a large gap in the spectrum of
+operator dimensions.
+
+   In Sec. 3 we develop the general constraints acting on CFT’s, most notably the operator
+product expansion (OPE) and crossing, with the goal of either showing that they imply
+the conjecture, or finding a counterexample. We then specialize to a theory having only
+one low-dimension single-trace operator, a scalar, with a Z2 symmetry. This is not a full-
+fledged quantum field theory, in that it does not have an energy-momentum tensor, but
+after a thorough study of this system it will be straightforward to extend the results to
+scalar correlators in a complete CFT.
+
+    In Sec. 4 we set out to solve the constraints to first order in 1/N 2 . An infinite set of solu-
+tions is generated via the AdS/CFT dictionary, starting from a local four-scalar interaction
+in the bulk. In this context, the locality conjecture asserts that all solutions are obtained in
+this way. For solutions whose intermediate spins are bounded above we show by a counting
+argument that our conjecture holds. We obtain some explicit solutions in d = 2 and d = 4.
+
+   In Sec. 5 we switch to the bulk point of view. We calculate four-point amplitudes arising
+from various local bulk interactions, resolve them into partial waves, and show that the
+results agree with those found from the abstract CFT conditions. In Sec. 6 we identify the
+Lorentizian CFT singularity associated with bulk locality, and show that it arises from the
+sum over partial waves.
+
+    In Sec. 7 we discuss issues of convergence of the sum over solutions. We show that
+all solutions are obtained as limits of the bounded-spin solutions found earlier, and so the
+
+
+                                                 1
+conjecture is true in this model. In Sec. 8 we extend the model by dropping the Z2 symmetry,
+and by the addition of the energy-momentum tensor to the system. With this, the conjecture
+is shown to hold in a rather general set of CFT’s. We also discuss issues with higher dimension
+single-trace operators.
+
+   In Sec. 8 we discuss future directions and implications. Our work closes off a potential
+loophole in the AdS/CFT correspondence, relating a mysterious property of the four-point
+function to an intuitive property of the spectrum of operator dimensions. It provides a
+derivation of the low energy sector of AdS/CFT duality, from the assumptions of a large-N
+expansion and gap in the spectrum of dimensions, but without an explicit string construction.
+Thus it may be of use in applications such as condensed matter systems and cosmological
+spacetimes.
+
+    Various technical results are collected in the appendices.
+
+
+2     General considerations
+
+2.1    Coarse and sharp locality
+
+When the separation l of the excitations in the bulk is larger than the AdS radius R, it is
+not so hard to understand why they do not interact in the CFT. Focusing on the AdS factor,
+it is the radial direction r that is emergent. There is an approximate identification of gauge
+theory energy with radius,
+                                           E ∼ r/R2 .                                        (2.1)
+
+This arises from the warping of the space: the same bulk excitation, at different r, will have
+different energies as seen in the gauge theory. Locality in r then follows from locality in CFT
+energy, as exhibited for example by the renormalization group.
+
+    This effect is actually a bit of a red herring, as we will soon explain, but it is interesting
+to explore it further. Does locality in energy mean, for example, that a high-energy particle
+will pass through one’s body? Remarkably, yes, if it is prepared correctly. (We thank Lenny
+Susskind for asking this, and for volunteering to test the effect.) A proton from a high energy
+beam or a cosmic source would scatter inelastically and shower, and increasing its energy
+would just lead to a bigger shower. However, if the proton is created by a local operator not
+too far away from Lenny, and with sufficiently large boost, then its constituents will spread
+very little before reaching him. From the point of view of low energy fields, it is then nearly
+invisible: since it is a color singlet, its leading nuclear interaction is its parametrically small
+
+
+                                                2
+dipole moment, and so for large enough boost it will pass through him without interaction.
+This is known as color transparency [4]. We should also worry about the electromagnetic
+interaction, but we can suppress this in the same way by considering a charge zero state, for
+example an atom, again producing all constituents at a point. In term of AdS/CFT duality,
+what is happening is that the particle is produced at the r = ∞ boundary, and passes by
+Lenny before falling into the IR where he lives.1 Notice that what plays the role of E in
+Eq. (2.1) is really the inverse size of the system, its internal state, and not its center of mass
+energy.
+
+       We can expect this locality in energy only to hold approximately, to δE/E = O(1), and
+so locality in r holds only to a resolution δr/r = O(1). Given the radial part of the AdS
+metric, ds2 = R2 dr 2 /r 2 , this implies a spatial resolution down to l ∼ R. However, AdS/CFT
+implies much more. We expect local field theory in the bulk to hold at least down to the
+string scale ls , while the AdS scale R = λ1/4 ls is parametrically larger in the regime where
+there is a bulk spacetime of small curvature.
+
+  In discussing scalings we are focusing on the AdS5 × S 5 case, but the principle is general.
+We should note that the existence of the bulk spacetime requires both large g 2 N = λ and
+large g −2 N = N 2 /λ (by S-duality), so N must also be large. In other words, the string
+scale can never be larger than the Planck scale. It can be equal, or absent as in M theory
+duals, in which case the Planck scale lP governs both the large-N expansion and the gap in
+dimensions. In particular, the AdS radius is lP times a power of N.
+
+    Thus, energy-radius holography nicely explains part of the emergence of the bulk space-
+time, but also misses a critical aspect. The existence of locality down to a fixed physical
+scale that can be parametrically smaller than the AdS length remains a mystery in the CFT.
+Thus, we refer to coarse holography and sharp holography, and it is the latter that we seek
+to explain.2
+
+   It has been argued that sharp holography emerges from the matrix structure of the gauge
+theory, e.g. [5, 6]. The Eguchi-Kawai model [7] may be a useful parallel, in that spacetime
+emerges from the color structure on a single site. In the present work, however, this color
+structure will not play a direct role. We will be focusing on the large anomalous dimensions
+at strong coupling, and will not inquire into their origin in the gauge theory dynamics. It
+would be valuable to have a clearer understanding of their dynamical origin, and this may
+   1
+     The connection between color transparency and holography was pointed out by Matt Strassler (private
+communication).
+   2
+     In an earlier version we referred to these as ‘horizon’ and ‘sub-horizon’ locality. We thank John McGreevy
+for pointing out that this is poor terminology.
+
+
+
+                                                      3
+well involve the color structure.
+
+
+2.2      Scattering and the four-point function
+
+The locality properties can be translated into a quantitative statement about gauge theory
+amplitudes via a scattering thought experiment [8, 5, 9, 10, 11].3 Consider the CFT four-
+point function                      * 4              +
+                                      Y
+                                         O(ti , ebi ) ,                             (2.2)
+                                               i=1
+
+where the CFT lives on [Lorentzian time × S 3 ]. From the bulk point of view, the CFT
+operators create and destroy excitations at the boundary. Taking t1,2 to the past of t3,4 ,
+we can think of this as corresponding to a 2-to-2 scattering process. In order to probe the
+locality structure, we must convolve with sources fi so as to focus the excitations into narrow
+beams,                              * 4 Z                                             +
+                                     Y
+                              A=              dti d3 ebi fi (ti , ebi )O(ti , ebi )       .            (2.3)
+                                       i=1
+
+For large R the packets can have both small δti and δei and also an energy-momentum
+spread that is small compared to the mean value in the packet. They then focus in a region
+small compared to the AdS length.
+
+   Now, if the beams intersect, as in Fig. 1, the amplitude A will be large. However, if we
+change slightly the location or momentum of a source, then the beams will miss, and the
+amplitude will drop off rapidly. From the point of view of the bulk theory this is clear, but
+again in the boundary it is mysterious: it appears that a small change in the form of A leads
+to a large change in its value.4
+
+    This property can be nicely recast as the statement that the CFT four-point function has
+a certain singularity when the operators are aligned so as to allow a classical bulk scattering
+process to occur [10]. For example, if the initial particles start diametrically opposite and
+with equal energies at time t1,2 = −π/2, they will meet in the center of global AdS at t = 0,
+scatter into new (but still opposite) directions, and reach diametrically opposite points on
+the boundary at time t3,4 = +π/2. The four-point function is therefore singular when
+   3
+     For other approaches to this question see Refs. [12, 13].
+   4
+     Refs. [9, 11] identify ‘backgrounds’ to the thought experiment, and refine the conditions that must be
+satisfied by the wavepackets, but they do not contradict the assertion that one can probe physics below the
+AdS scale. In particular, the backgrounds discussed in Ref. [11] drop out in the flat spacetime limit defined
+in Ref. [8, 5].
+
+
+
+
+                                                        4
+      Figure 1: Four-point correlator with wavepackets aligned to intersect in the bulk.
+
+                                      e), (+π/2, eb′ ), (+π/2, −b
+the arguments are (−π/2, eb), (−π/2, −b                         e′ ), and in all conformally
+equivalent configurations.
+
+  This singularity is not present in general CFT’s, for example not in the weakly coupled
+N = 4 theory (there is a weaker singularity at the same point). Rather, it emerges in the
+strong-coupling limit. In Sec. 6 we will describe the singularity in more detail, and compare
+it with what we find in the CFT. For now, the main lesson is that to study the bulk locality
+properties we should look at the CFT four-point function. Note that the forms of the two-
+and three-point functions are fully determined by conformal symmetry, but that of the four-
+point function is not. In fact, in all dimensions it is determined by symmetry up to a function
+of two real cross ratios. This function carries dynamical information, in particular regarding
+the locality of the bulk theory.
+
+
+2.3     Current understanding
+
+AdS/CFT duality has been subjected to many tests. Indeed, every time we apply it in a
+new way we have the possibility that it will lead to implausible or incorrect results, signaling
+a failure of the duality. The tests are of many types, for example
+
+                                               5
+   • BPS states and amplitudes
+
+   • Behavior under symmetry breaking and RG flow
+
+   • Calculations using integrability
+
+   • Numerical tests, both by light-cone methods and by Monte Carlo
+
+   • Comparison with experiment, in heavy ion physics
+
+This list is not exhaustive, and in each category there are many separate tests. So we can ask,
+do any of these test sharp holography? Studies of BPS states and amplitudes, integrability
+calculations, and numerical tests are thus far limited to the spectrum of operator dimensions,
+and the two- and three-point functions, and do not probe the four-point function where
+locality becomes visible. Renormalization group behavior depends only on the energy-radius
+relation associated with AdS scale holography, and applications to real QCD would seem to
+be too coarse to distinguish sub-AdS scales.
+
+      Thus, a possible way in which AdS/CFT duality might break down is through the failure
+of sub-AdS holography [9].5 Perhaps the symmetries of theory, together with energy-radius
+holography, imply only that the gauge theory reconstructs some version of the bulk string
+theory that is smeared over the AdS radius. Thus, by investigating the constraints imposed
+by the axioms of conformal field theory, we expect either to identify what such a smeared
+theory might be, or to exclude this possibility.
+
+   We should note some other possible tests of sub-AdS locality that have been suggested
+to us. The recent application of AdS/CFT duality to the N = 4 S-matrix [14] involves
+detailed properties of higher-point functions.6 However, the only amplitudes for which there
+is a fairly strong all-orders understanding are the on-shell four and five point functions [15],
+which are highly constrained by symmetry [16], whereas we need at least the off-shell four-
+point function. The scattering of brane probes, rather than supergravity excitations, might
+make locality more manifest.7 For example, in the BFSS matrix model such scattering is used
+even in the weakly coupled limit to study the gravitational force law. However, we note that
+even in this model nontrivial strong coupling effects are needed to ensure the duality, and so
+we suspect that there must be some issue analogous to what we study. Finally, if the famous
+factor of 3/4 in the partition function [17] were confirmed by gauge theory reasoning, it would
+  5
+    We thank M. Douglas and S. Giddings for discussions of this possibility.
+  6
+    We thank S. Dubovsky and D. Gross for this observation.
+  7
+    We thank E. Silverstein for raising this point.
+
+
+
+                                                    6
+imply that the bulk theory is sensitive to the precise form of the Schwarzschild metric, even
+below the AdS scale.8
+
+
+2.4     A conjecture
+
+The AdS/CFT dictionary [1, 2, 3] relates the dimension of any CFT operator to the mass
+of the corresponding bulk state,
+
+                                          ∆(∆ − 4) = m2 R2 .                                          (2.4)
+
+Kaluza-Klein excitations have masses of order 1/R, and so their dimensions are of order one.
+String excitations have masses of order 1/ls = λ1/4 /R, and so their dimensions are of order
+λ1/4 . To have local physics below the AdS scale, we must have a hierarchy between the AdS
+and string scales, or λ ≫ 1. In this case, the great majority of operators, all of those dual
+to string excitations, have parametrically large dimensions.
+
+    This gap in dimensions is a striking and unusual property of the CFT. We see that it
+is implied by sharp holography, and it is natural to conjecture that the implication runs in
+the other direction as well. That is, in any CFT in which most operators get parametrically
+large anomalous dimensions, there will be a bulk dual with sub-AdS locality. A plausible
+precise statement is this: Conjecture: any CFT that has a large-N expansion, and in which
+all single-trace operators of spin greater than two have parametrically large dimensions, has
+a local bulk dual.
+
+   The discussion in Sec. 2.1 in the d = 4, N = 4 context shows that sub-AdS locality is
+possible only when N is parametrically large. More generally, bulk locality implies that the
+AdS radius must be large compared to the Planck length, and so there must be some expan-
+sion parameter in the CFT that corresponds to the gravitational loop expansion in the bulk.
+We will refer to this as a large-N expansion, even in the absence of an explicit Lagrangian
+description of the CFT. In particular, the bulk loop expansion allows us to distinguish
+single-particle states from multi-particle states, and so we designate the corresponding op-
+erators as single-trace and multi-trace by analogy with the known examples.9 The essential
+property of the expansion is that the connected expectation values of single-trace operators
+are suppressed compared to the disconnected expectation values.10
+   8
+     We thank L. Susskind for this observation.
+   9
+     A large-N expansion usually implies that the Hamiltonian is itself a single-trace operator, and we make
+this assumption explicit in order to exclude known exceptions in which a CFT is coupled to itself or to an
+otherwise-decoupled CFT through multi-trace interactions [18]. This assumption will make an interesting
+appearance in Sec. 4.3.3. We thank E. Silverstein and O. Aharony for emphasizing these exceptions.
+  10
+     Note that this is true for large-N vector models as well as matrix models, but that vector models do
+
+                                                     7
+   The single-trace condition picks out operators that are dual to single-particle states. It
+would seem to be necessary that all single-trace operators of spin greater than two have large
+dimension, because we know of no low-energy effective theory that would be a candidate to
+describe their bulk physics.11 So we are conjecturing that the strongest necessary condition
+that we can identify is actually the sufficient condition. If this is true, then the condition for
+sub-AdS locality is reduced from a rather mysterious property of the four-point function to
+a much more intuitive property of the operator dimensions, which can be determined from
+the two-point function.
+
+
+3     CFT constraints
+
+3.1     Generalities
+
+Conformal field theories are constrained by the operator product expansion (OPE), conformal
+invariance, crossing, unitarity, and modular invariance.12 The general form of the OPE is
+                                                 X
+                                Oi (x)Oj (0) =         x∆k −∆i −∆j ckij Ok (0)                         (3.1)
+                                                   k
+
+(Lorentz indices suppressed). This has a finite radius of convergence in any correlator, given
+by the distance to the nearest other operator. The OPE coefficients ckij and the operator
+dimensions ∆i can thus be regarded as the data defining the CFT, subject to the other
+constraints.
+
+   We are interested in CFT with a parameter λ, such that some operator dimensions
+become parametrically large while the remainder have a finite limit. Interior to the radius
+of convergence xc , the total contribution of the high-dimension operators is parametrically
+suppressed as (x/xc )∆large . We will thus study the limiting theory, in which the low-dimension
+operators have a closed operator algebra among themselves.
+
+    Using the OPE twice reduces the four-point function to the two-point function:
+                                           X                  X
+                                 Aijkl =        cmij cmkl =       cmik cmjl .                          (3.2)
+                                            m                 m
+
+not have large gaps in their dimension. Thus the latter are expected to have duals in which quantum
+gravitational effects are small but string effects are of order one [19].
+  11
+     In AdS there are consistent interacting theories of higher spin fields (see [20] for a recent review).
+However, these theories are non-local because they contain an infinite tower of fields with increasing spin
+and interactions with unbounded number of derivatives.
+  12
+     For classic work on this subject see Refs. [21]. For applications to AdS/CFT correlators see Refs. [22].
+
+
+                                                       8
+Indices are lowered with the two-point function, which can be given a conventional nor-
+malization; we have suppressed the coordinate dependence for simplicity. The OPE can
+be applied in two ways with overlapping radii of convergence, as indicated. The crossing
+condition is the equality of these two sums, and it is a strong constraint on the cijk .
+
+    Unitarity would give positivity conditions on the terms in the sums (3.2). However, this
+will not be of use to us, because we will be working in the 1/N 2 expansion. The leading
+terms will be manifestly positive, but the first correction, where the issue of bulk locality
+arises, can have either sign.
+
+   Modular invariance will also not be useful to us, for two reasons. First, it relates low-
+dimension operators to high-dimension operators, as in the Cardy relations, while we are
+interested in the present work only in relations among the low-dimension operators. Second,
+the set of local operators in a 4d CFT is isomorphic to the gauge theory quantized on S 3 . The
+partition function would then be given by the amplitude on S 3 × S 1 . Here there is no large
+diffeomorphism interchanging the spatial and time directions, to give a modular invariance
+relation. We could consider instead the CFT on T 3 × S 1 , for example, where there would
+be constraints from large diffeomorphisms, but then there is no direct connection to the
+spectrum of operators.
+
+   In summary, we will be solving the constraints arising from the OPE, conformal invari-
+ance, and crossing on the algebra of low dimension operators.
+
+
+3.2    A scalar model
+
+The OPE governs the behavior of the four-point correlator when any two operators become
+coincident. Our assumption about operator dimensions translates directly into information
+about these limits. Bulk locality, on the other hand, is related to a singularity in this
+correlator at Lorentzian points corresponding to classical scattering. These points are not
+conformally equivalent to those governed by the OPE, as we will review in Sec. 6, so there is
+not an immediate link between our assumption and the result that we hope to derive from
+it. Rather, we must use the other constraints in combination with our assumption in order
+to derive general restrictions on the correlator. As we will explain, this will in effect require
+that we find the general solution to the crossing condition.
+
+   The idea of finding all CFT’s subject to general consistency conditions is an old one. It
+has been realized most fully in the case of rational conformal field theory, where there is the
+additional assumption of an extended conformal symmetry such that the spectrum contains
+
+
+                                               9
+only a finite number of irreducible representations. In our case, the additional assumption
+is a restricted set of low-dimension operators.
+
+  In the simplest CFT, the only low dimension single-trace operator would be the energy-
+momentum tensor, so that the corresponding bulk dual would involve only gravity.13 How-
+ever, we will take an even simpler model, in which the only low dimension single-trace
+operator is a scalar O of dimension ∆. After a thorough study of the crossing constraint in
+this system, it will be quite simple to include also the energy-momentum tensor in the OPE,
+and so constrain the scalar correlator in a full-fledged CFT.
+
+       As an aside, a CFT without an energy-momentum tensor would seem to be an oxymoron.
+What it is missing is an operator that could evolve the CFT state from one time to the next;
+it is a set of correlators without a notion of causality. We must measure the boundary state
+at every time in order to reconstruct the bulk state at a single time, and so there is no
+holography, as should be expected for a theory without gravity in the bulk. This does not
+affect its use as warmup for us, as the form of the crossing condition is very similar to that
+in a full CFT. This model could actually arise as a sector of an AdS compactification in
+which there is a light scalar with self-interaction much stronger than gravity, working in the
+approximation that gravity decouples.
+
+       We will further assume a Z2 symmetry O → −O, so that the operator O does not itself
+appear in the OO OPE. The lowest dimension operator in the OPE, aside from the unit
+operator, is then the double trace O2 , with dimension 2∆ + O(1/N 2). All other double-trace
+operators are obtained by differentiating one or the other of the O in O2 . Total derivatives
+generate conformal descendant operators, whose contribution is determined by symmetry in
+terms of those of the primary operators. To list all primary operators we need consider only
+                ↔    →   ←
+the difference ∂ = ∂ − ∂ acting between the two O’s. A complete set of primary double-trace
+operators is
+                                        ↔       ↔    ↔ ↔
+                              On,l ≡ O∂µ1 . . . ∂µl (∂ν ∂ ν )n O − traces ,                        (3.3)
+
+such as to be traceless on the µ’s. This has spin l and dimension ∆n,l = 2∆+2n+l+O(1/N 2).
+
+   The contribution of higher-trace operators in the OPE is absent at the order in 1/N 2 in
+which we work. We normalize O to be 1/N times a trace of adjoint variables, so that the
+two-point function and disconnected four-point function are of order N 0 . The connected four-
+  13
+    Note that our focus is orthogonal to that in Ref. [23]. That paper is largely concerned with high-
+dimension black hole states, which we have decoupled, while the 2+1 dimensional bulk has no light propa-
+gating fields. Correspondingly all correlators of the energy-momentum tensor in that work are immediately
+determined by holomorphy. However, there may be an interesting story that includes both directions.
+
+
+
+
+                                                    10
+point function is of order 1/N 2 .14 The double-trace O2 appears in the OO OPE at order
+N 0 , and the square of this term gives the disconnected four-point function. The leading
+connected contribution comes from the order 1/N 2 correction to this OPE coefficient, times
+the N 0 coefficient. It also gets a contribution from the order 1/N 2 shift of the dimensions
+of the double-trace operators. Triple-trace terms do not enter due to the Z2 symmetry, and
+quadruple-trace terms enter first at order 1/N 4 .
+
+
+3.3       Constraints in the scalar model
+
+We consider the Euclidean four-point function. Using conformal invariance, we can bring
+the operators to lie in a single plane, with complex coordinate z, and then to the standard
+positions 0, 1, ∞, z. This is familiar from the string world-sheet, but in any dimension there
+are two independent cross-ratios, which can be combined into z.
+
+       The remaining information from conformal invariance determines the contributions of
+the descendants in terms of the primaries, and so the four-point function is represented in
+terms of a sum over primaries:
+                                                       X∞ X ∞
+                                                1                      g∆(n,l),l (z, z)
+            hO(0)O(z, z)O(1)O(∞)i ≡ A(z, z) =      ∆
+                                                     +         p(n, l)                  .              (3.4)
+                                              (zz)     n=0 l=0
+                                                                          (zz)∆
+
+(In taking z4 → ∞, a factor of (z4 z 4 )∆ is implicitly introduced to give a smooth limit.)
+The first term corresponds to the unit operator (vacuum), and the sum runs over the pri-
+mary double trace operators (3.3). Here p(n, l) is the square of the OPE coefficient, and
+g∆(n,l),l (z, z) are the conformal blocks, representing the total contribution of the conformal
+family over the given primary.
+
+       For d = 2 [24],
+                                    k(E + l, z) k(E − l, z) + k(E + l, z) k(E − l, z)
+                    gE,l (z, z) =                                                                      (3.5)
+                                                         1 + δl,0
+with
+                                                                                  
+                                       β                               β β
+                           k(β, z) = z Fβ/2 (z) ,
+                                       2            Fβ/2 (z) = F        , , β, z       ,               (3.6)
+                                                                       2 2
+where F (a, b, c, z) denotes the standard hypergeometric function 2 F1 . For d = 4 [24],
+                            zz
+           gE,l (z, z) =       [k(E + l, z) k(E − l − 2, z) − k(E + l, z) k(E − l − 2, z)] .           (3.7)
+                           z−z
+  14
+    The operator O can get an anomalous dimension at order 1/N 2 . This will give a correction to the discon-
+nected four-point function that is of the same order as the leading connected contribution. However, crossing
+does not mix these two 1/N 2 contributions to the four-point function and so we ignore the disconnected
+correction.
+
+                                                     11
+Note that in the d = 2 case only the SO(2, 2) symmetry is being used and not the full Virasoro
+algebra, which would be much more constraining. Consequently, the crossing condition is
+very similar in d = 2 and d = 4, and we will study the d = 2 case first because it is slightly
+simpler.
+
+   The crossing condition implies that l must be even (from interchanging the vertex oper-
+ators at z and 0 or at 1 and ∞ via a conformal transformation), and also that
+
+                                         A(z, z) = A(1 − z, 1 − z) .                                        (3.8)
+
+This is the only remaining condition to be satisfied.
+
+       As we have discussed, we will necessarily be solving in the 1/N expansion,
+                                                      1
+                            A(z, z) = A0 (z, z) +       A1 (z, z) + . . . ,
+                                                     N2
+                                                     1
+                               p(n, l) = p0 (n, l) + 2 p1 (n, l) + . . . ,
+                                                    N
+                                                           1
+                               ∆(n, l) = 2∆ + 2n + l + 2 γ1 (n, l) + . . . .                                (3.9)
+                                                         N
+Then                                               ∞ X
+                                                     ∞
+                                                   X
+                            ∆
+                       (zz) A0 (z, z) = 1 +                    p0 (n, l) g2∆+2n+l,l (z, z) ,               (3.10)
+                                                   n=0 l=0
+                                                        even
+
+and
+                     ∞ X
+                     X ∞
+        ∆                                                                          1 ∂
+ (zz) A1 (z, z) =               p1 (n, l) g2∆+2n+l,l (z, z) + p0 (n, l)γ1 (n, l)        g2∆+2n+l,l (z, z) . (3.11)
+                     n=0 l=0
+                                                                                   2 ∂n
+                         even
+
+
+
+
+4        Solving the constraints
+
+4.1         General considerations
+
+How constraining is crossing?15 The unknowns p(n, l) and ∆(n, l) are indexed by two integers.
+Equation (3.8) is a function of one complex or two real variables. Equivalently, by analytic
+continuation in the real and imaginary parts of z we can regard z and z as independent, and
+the crossing equation is a holomorphic function of two variables. By expanding in suitable
+complete sets of functions of z and of z we get equations indexed by two integers. Thus
+  15
+    We should note the recent papers [25, 26], which derive useful constraints on operator dimensions from
+general CFT properties. These papers use the constraint from unitarity, so we will not be able to apply the
+same approach, but they provide a nice example of the power of the crossing condition.
+
+
+                                                        12
+there seems to be a rough equality between the number of equations and the number of
+unknowns, but whether the number of solutions is zero, finite, or infinite depends on the
+detailed structure.
+
+     In the 1/N expansion, in fact, we can readily identify an infinite number of solutions.
+If we have a scalar field theory in the bulk of AdS space, it defines boundary correlators
+via the AdS/CFT dictionary [1, 2, 3]. These are conformally invariant and Bose symmetric,
+and by inserting a complete set of intermediate states in the bulk we can derive the OPE.
+Therefore these correlators at tree level will satisfy all of our conditions to order 1/N 2 . A
+λφ4 bulk interaction, or any quartic interaction with additional derivatives, will provide a
+solution (a trilinear interaction is forbidden by the Z2 symmetry). Going to higher orders in
+1/N 2 we will encounter nonrenormalizable divergences in the bulk, since we have decoupled
+the stringy physics, but at each order we can define a renormalized solution at the cost of
+new parameters, representing the unknown contribution of the high-dimension operators.
+
+   Any such solution will be local by construction. In Sec. 6 we will verify that these satisfy
+the formal locality condition of [10]. Further, it is expected that any local theory can be
+derived from a local Lagrangian, at least if it has a weak coupling expansion as is necessarily
+the case here. It follows that one form of our locality conjecture is simply that the solutions
+constructed from local bulk Lagrangians make up all solutions of the crossing condition. In
+the current setting our goal is to show this, or to find a counterexample.
+
+     We would like to be able to just count solutions. For example, we could restrict to bulk
+interactions with a maximum number of derivatives, and make the corresponding restriction
+on the CFT, and then see if the solutions are equal in number. The independent interactions
+with up to six derivatives are φ4 , φ2 φ;µν φ;µν , and φ2 φ;µνσ φ;µνσ , using integration by parts and
+the equations of motion. The AdS curvature tensor is expressed in terms of the metric, so
+we need not include interactions involving the background curvature. As we will show in
+Sec. 5, an interaction with 2k derivatives in the bulk corresponds to perturbations p1 (n, l),
+γ1 (n, l) growing as n2k+const. in the CFT. Thus we could count the number of solutions whose
+large-n behavior is bounded by a given power, and compare with the number of interactions
+with the corresponding number of derivatives.
+
+    In fact it will be simpler to look at the spins of the intermediate states. The interaction
+ 4
+φ destroys and creates only two-particle states of spin 0, and so the corresponding p1 (n, l),
+γ1 (n, l) are nonzero only for l = 0. The interaction φ2 φ;µν φ;µν creates and destroys two-
+particle states of spin 0 or 2, as does φ2 φ;µνσ φ;µνσ (note that the spin must be even, by Bose
+symmetry). Thus, we will count bulk interactions according to the maximum spin that they
+
+
+                                                 13
+can couple to, and similarly will count CFT solutions by the maximum value of l for which
+the perturbation is nonzero. In Sec. 7 we will discuss the completeness of the solutions found
+in this way.
+
+   Let us now count the bulk interactions with four scalars plus derivatives. Counting
+such operators up to total derivatives and equations of motion is equivalent to counting
+flat space S-matrices. We can count these by starting with monomials in the Mandelstam
+variables, sa tb uc with a ≥ b ≥ c, and Bose-symmetrizing. However, operators proportional
+to s + t + u = 4m2 (where m2 is an arbitrary scalar mass) are not independent. Given any
+operator with highest monomial sa tb uc , we can obtain a dependent operator containing the
+monomial sa+1 tb uc by multiplying by s + t + u. The only operators that cannot be obtained
+in this way are those whose highest monomial has a = b. Thus, a complete set is obtained
+from the a + 1 monomials sa ta uc such that a ≥ c ≥ 0. Further, the total spin is maximized in
+the u-channel, where each s or t can give rise to a factor of cos θ. Thus the operator couples
+to maximum spin 2a. In all, there are a + 1 interactions of maximum spin 2a. These have
+2k derivatives, for k = 2a, 2a + 1, . . . , 3a. The total number of interactions with spin at most
+          P
+L is then L/2a=0 (a + 1) = (L + 2)(L + 4)/8.
+
+   These facts are summarized in Fig. 2. The interactions discussed above are built from
+the monomials 1, st, and stu and correspond to the 3 gray squares closer to the bottom left
+corner of Fig. 2.
+
+
+4.2    Counting solutions in d = 2
+
+The N 0 correlator is
+                                             1              1
+                          A0 (z, z) =           ∆
+                                                  +                   +1 .                         (4.1)
+                                           (zz)     [(1 − z)(1 − z)]∆
+
+By Taylor expanding the conformal partial wave expansion (3.4) around z, z = 0 one finds
+that
+                                                            Γ2 (∆ + n)Γ(2∆ + n − 1)
+               p0 (n, l) = 1 + (−1)l Cn Cn+l ,        Cn =                            .            (4.2)
+                                                              n!Γ2 (∆)Γ(2∆ + 2n − 1)
+
+   It is convenient to rewrite the O(1/N 2) condition (3.11) as
+                                  ∞ 
+                                ∞ X
+                                X                                                          
+                                                                          ∂
+                  A1 (z, z) =              c(n, l) hn,l (z, z) + γ(n, l)     hn,l (z, z)       ,   (4.3)
+                                n=0 l=0
+                                                                         2∂n
+                                    even
+
+
+
+
+                                                     14
+              l
+
+
+
+             12
+             11
+             10
+             9
+             8
+             7
+             6
+             5
+             4
+             3
+             2
+             1
+             0
+                  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18                   k
+
+Figure 2: Quartic interactions of spin l = 2a and with 2k derivatives. There are 1 + a
+interactions of even spin l = 2a, with the number of derivatives given by k = 2a, 2a+1, . . . , 3a.
+The total number of interactions with spin at most L is (L + 2)(L + 4)/8.
+
+where
+                       p0 (n, l)                                                      
+          hn,l (z, z) =          (zz)n z l F∆+n+l (z)F∆+n (z) + z l F∆+n (z)F∆+n+l (z) ,
+                       1 + δl,0
+                       2p1 (n, l) − γ1 (n, l)∂n p0 (n, l)
+             c(n, l) =                                    , γ(n, l) = γ1 (n, l) .            (4.4)
+                                   2p0 (n, l)
+
+   There is a branch cut ln(zz) at the point z, z = 0 from ∂n acting on (zz)n . At z, z = 1
+(which get mapped to the origin on the other side of the crossing relation), there are also
+logarithms, from the hypergeometric functions. One way to organize the conditions is to
+look near z = 0 and z = 1 (remember, we can analytically continue independently in both
+variables), and at each point separate things into one term which is a log times a holomorphic
+function, and a second which is holomorphic. The crossing relation A(z, z) = A(1 − z, 1 − z)
+thus becomes four holomorphic equations, which appear multiplying ln z ln(1 − z), ln z,
+ln(1 − z), and 1.
+
+   We must be careful because the radius of convergence of the sums is 1 in z, z, from the
+coincidence of operators, and so additional singularities could arise there from the sums. By
+taking z to be small, we regulate both the sums over n and l for the first term in hn,l , but
+only the sum over z in the second term. To proceed at this point we introduce at this point
+
+                                                15
+the restriction explained in the previous subsection, that l is bounded above by some given
+L, in order to exclude additional ln(1 − z) behavior. In Sec. 7 we will see that this is not
+actually necessary.
+
+   It will be sufficient to ignore terms holomorphic in 1 − z, keeping only the holomorphic
+terms that multiply ln(1 − z) in the crossing relation:
+  X∞ X L 
+                              ∂
+                                 
+                                    p0 (n, l) h n+l n                                    i
+           c(n, l) + γ(n, l)                   z z F∆+n+l (z)Fe∆+n (1 − z) + (n ↔ n + l)
+  n=0 l=0
+                             2∂n    1 +  δl,0
+      even
+                                                                 ∞    L
+                                                             1 XX
+                                                           =           γ(n, l)hn,l (1 − z, 1 − z) .      (4.5)
+                                                             2 n=0 l=0
+                                                                     even
+
+On the left-hand side we have used
+
+                       Fβ/2 (z) = ln(1 − z)Feβ/2 (1 − z) + holomorphic at z = 1 ,
+                                      Γ(β)
+                       Feβ/2 (z) = − 2       F (β/2, β/2, 1, z) .                                        (4.6)
+                                    Γ (β/2)
+Similarly, the holomorphic terms that multiplies ln z in Eq. (4.5) give
+                              p0 (n, l) h n+l n                                    i
+         L
+       ∞ X
+       X
+                    γ(n, l)              z z F∆+n+l (z)Fe∆+n (1 − z) + (n ↔ n + l)                       (4.7)
+       n=0 l=0
+                              1 + δl,0
+             even
+
+
+                      p0 (n, l) h                                                    i
+         L
+       ∞ X
+       X
+                                        n+l     ne
+    =         γ(n, l)            (1 − z) (1 − z) F∆+n+l (z)F∆+n (1 − z) + (n ↔ n + l) .
+      n=0 l=0
+                      1 + δl,0
+             even
+
+
+
+   To simplify further we can project onto a complete set z ∆+n F∆+n (z). These are eigen-
+functions,
+
+      D z ∆+n F∆+n (z) = (∆ + n)(∆ + n − 1)z ∆+n F∆+n (z) ,                    D = z 2 ∂z (1 − z)∂z .    (4.8)
+
+It follows that                 I
+                            dz m−m′ −1
+                              z        F∆+m (z)F1−∆−m′ (z) = δm,m′ ,                 (4.9)
+                        C 2πi
+where the contour C circles 0 counterclockwise, and the normalization is readily obtained
+by a Laurent expansion of the integrand. We define
+                                           I
+           ′   Cm         ′             ′      dz (1 − z)m e
+    J(m, m ) = ′ I(m, m ) , I(m, m ) =               m′ +1
+                                                           F∆+m (z)F1−∆−m′ (z) .   (4.10)
+               Cm                            C 2πi z
+
+Projecting thus onto m′ = p around z = 0 and onto m′ = q around z = 1, the crossing
+condition (4.7) becomes
+                      L
+                      X                             L
+                                                    X
+                             γ(p, l)J(p + l, q) +          γ(p − l, l)J(p − l, q) = (p ↔ q) .           (4.11)
+                      l=0                           l=2
+                      even                          even
+
+
+
+                                                            16
+Notice that this only involves the anomalous dimension γ(n, l) and not the coefficient c(n, l).
+This condition is symmetric in p, q and trivial for p = q.
+
+    As discussed in Sec. 4.1, we want to count solutions where the sum over l is limited to
+a finite range ≤ L. As a warmup, consider the case of L = 0, where the relations (4.11)
+become
+                                γ(p, 0)J(p, q) = γ(q, 0)J(q, p) .                        (4.12)
+Letting q = 0, we immediately obtain the solution
+                                           J(0, p)             2∆ − 1
+                       γ(p, 0) = γ(0, 0)           = γ(0, 0)             ,               (4.13)
+                                           J(p, 0)           2∆ + 2p − 1
+where J(p, 0) and J(0, p) are obtained in appendix A. Thus there is at most one solution
+for γ(n, 0) when L = 0, determined up to the overall normalization γ(0, 0). Indeed, it seems
+remarkable that there are any solutions at all, since we must satisfy Eq. (4.12) for all q. The
+consistency of the solution requires that
+                                    J(p, q)   2∆ + 2p − 1
+                                            =                                            (4.14)
+                                    J(q, p)   2∆ + 2q − 1
+for all p and q. This relation is not at all obvious from the definition. Nevertheless, we
+know that there must be at least one solution, corresponding to the bulk interaction φ4 ,
+and indeed the consistency condition (4.14) holds in the cases we have checked. Having
+determined γ(n, 0), we can immediately determine c(n, 0), because this appears only on the
+left-hand side of Eq. (4.5), and the c(n, 0) for different n multiply independent functions.
+Thus there is exactly one solution with L = 0.
+
+   This example illustrates the strategy we will use for general L. The crossing relation (4.11)
+appears to overdetermine γ(n, l), and gives an upper bound on the number of solutions; for
+each solution of (4.11), c(n, l) is uniquely determined by equation (4.5). The counting of
+bulk interactions gives a lower bound, and we will show that these bounds are equal, thus
+determining the actual number of solutions.
+
+   We can use the (p, q) = (1, 0) condition to solve for γ(1, 0) in terms of all the other
+γ(0, l), γ(1, l). We can then use (p, q) = (2, 0), (2, 1) to solve for γ(2, 0), γ(2, 2) in terms
+of all the other γ with p ≤ 2. Proceeding in this way, at fixed p we use the conditions at
+0 ≤ q ≤ min(p−1, L/2) to solve for γ(p, 0), . . . , γ(p, min(2p−2, L)) in terms of the remaining
+γ(p′ , q) at p′ ≤ p. In order for the solution at each step to exist and be unique, we need that
+M(p)qr = J(p + 2r, q) for r, q = 0, 1, . . . , k − 1 be a nondegenerate k × k matrix. This is
+shown in Appendix B. In the end we have solved for all γ(n, l) with l < 2n, so the solution
+is determined by specifying the γ(n, l) for 2n ≤ l ≤ L, as depicted in Fig. 3. The total
+
+                                                 17
+                     l/2
+
+
+
+
+                                                                            L/2
+
+                                                                ···
+
+
+                                                                        n
+
+Figure 3: Open circles are γ(n, l) not determined by the equations while filled circles
+correspond to γ(n, l) determined by the equations (4.11) with p = 0, 1, . . . , n and q =
+0, 1, . . . , min(p − 1, L/2). We see that up to spin L we have (L/2 + 1)(L/2 + 2)/2 unde-
+termined γ(n, l).
+
+                                 P
+number of free parameters is L/2          1
+                                    p=0 ( 2 L + 1 − p) = (L + 2)(L + 4)/8. For each solution,
+the c(n, l) for different n, l multiply independent functions of z, z in Eq. (4.5), and so are
+uniquely determined. Thus there are at most (L + 2)(L + 4)/8 solutions to the crossing
+condition with maximum spin L.
+
+   This is the same as our count of interactions in Sec. 4.1: our upper and lower bounds
+agree. We can conclude that the total number of solutions of the crossing relations is exactly
+equal to the number of bulk interactions, and our conjecture is true for interactions restricted
+to bounded L. In Sec. 7 we will argue that all solutions can be obtained as convergent sums of
+such bounded solutions. We can readily extend the analysis of crossing to include the energy-
+momentum tensor in the OPE. However, in this case the solutions necessarily involve all l,
+and so we defer this until Sec. 8.
+
+
+4.3     More on the d = 2 solutions
+
+4.3.1   Large-q equations
+
+The CFT axioms allow us not only to count the solutions, but to construct them, as we have
+done above for L = 0. Here we will extract a few results from the crossing equation (4.11)
+in the limit q ≫ p, ∆, L. Using Eqs. (A.7, A.8), the leading terms on the two sides of the
+crossing equation give
+                                                                              
+                                                 X L            XL
+       (2∆ + 2p + 2L − 1)Bp+L
+                               γ(p, L) ≈ q 1−2L      γ(q, l) +     γ(q − l, l) ,  (4.15)
+                  Bp                              l=0           l=2
+                                                    even         even
+
+
+
+
+                                              18
+where Bp is defined in Eq. (A.7). We have divided through by −Bp q 2∆+2p+2L−1 , with the
+result that the LHS depends only on p and the RHS only on q. On each side the corrections
+are of relative order 1/q and generically depend on p, l, L. If γ(p, L) is nonzero, it follows
+that at least for some l ≤ L, γ(q, l) must grow at large q as q 2L−1 or faster. If the leading
+terms do not cancel, so the RHS has a nonzero large-q limit K, then γ(q, l) actually saturates
+this lower bound on its asymptotic behavior and we obtain an explicit solution
+                                                        Bp
+                                γ(p, L) = K                          .                   (4.16)
+                                              (2∆ + 2p + 2L − 1)Bp+L
+
+It is easy to check that (4.16) indeed behaves as p2L−1 for large p. Furthermore, setting
+L = 0 we recover the unique solution (4.13). Eq. (4.16) only gives the anomalous dimensions
+for the maximal spin. The γ(p, l) for l < L can be obtained from the subleading terms in
+the large q expansion of (4.11), though this is cumbersome.
+
+   As we shall see in section 6, a bulk interaction with 2k derivatives gives rise to anomalous
+dimensions γ(p, l) going like p2k−1 at large p. Therefore, the result (4.16) corresponds to bulk
+interactions of spin L and with 2L derivatives, i.e. the leftmost box in each row in Fig. 2.
+The other boxes in each row require cancelations among the leading terms of the large q
+expansion of the RHS of (4.11). Consider the second box in each row, i.e. an interaction
+with spin L and 2L + 2 derivatives. Then, the leading behavior of LHS of (4.11) is (4.15), as
+before, but the RHS naively grows as q 2∆+2p+2L . Vanishing of the terms of order q 2∆+2p+2L
+and q 2∆+2p+2L−1 requires
+                                           L
+                                           X     γ(q, l)
+                                     lim                  2L+1
+                                                               =0,                       (4.17)
+                                     q→∞
+                                         l=0
+                                             (1 + δl,0 )q
+                                           even
+
+and
+                        L
+                        X                                   ∞
+                                                            X
+                               γ(q, l) l          2               γ(q, l)
+                    lim                  2L+1
+                                              =         lim                    .         (4.18)
+                   q→∞
+                        l=0
+                            (1 + δl,0 )q        2L + 1 q→∞ l=0 (1 + δl,0 )q 2L
+                         even                                    even
+
+                       2∆+2p+2L−2
+The terms of order q                 then provide an explicit solution for the anomalous dimen-
+sions
+                                [L(2L + 1) + (2∆ + 2p − 1)(2∆ + 2p + 2L − 1)] Bp
+             γ(p, L) = K ′                                                       ,       (4.19)
+                                            (2∆ + 2p + 2L − 1)Bp+L
+where
+                                                  L
+                                                  X
+                                     ′                 γ(q, l) l2
+                                   K = 2 lim                          .                  (4.20)
+                                            q→∞
+                                                l=0
+                                                    (1 + δl,0 )q 2L+1
+                                                  even
+
+Notice that this solution only exists for L ≥ 2 in agreement with Fig. 2. Indeed, conditions
+(4.17) and (4.18) for L = 0 imply that γ(q, 0) behaves as q −1 for large q and therefore the
+bulk interaction can not contain any derivatives.
+
+                                                     19
+4.3.2        The coefficients c(n, l)
+
+We shall now consider the computation of the coefficients c(n, l). These are uniquely fixed
+by equation (4.5) given the anomalous dimensions γ(n, l). Let us illustrate this statement
+with the L = 0 example. In this case, it is enough to keep the terms of order (1 − z)0 in
+(4.5),
+             ∞ 
+             X                           
+                                      ∂       Γ(2∆ + 2n) n
+         −         2c(n, 0) + γ(n, 0)      Cn2 2        z F∆+n (z) = γ(0, 0)F∆ (1 − z) .              (4.21)
+             n=0
+                                      ∂n      Γ (∆ + n)
+
+It is convenient to rewrite this equation in the following form
+                                ∞
+                                X                    Γ(2∆ + 2n) n
+                           −2         c′ (n, 0)Cn2              z F∆+n (z) = H(z) ,                   (4.22)
+                                n=0
+                                                     Γ2 (∆ + n)
+
+where16
+                                                            1
+                                       c′ (n, 0) = c(n, 0) − ∂n γ(n, 0) ,                             (4.23)
+                                                            2
+and
+                                    X∞                                    
+                                         ∂          2 Γ(2∆ + 2n) n
+         H(z) = γ(0, 0)F∆ (1 − z) +         γ(n, 0)Cn 2          z F∆+n (z) ,                         (4.24)
+                                    n=0
+                                        ∂n            Γ  (∆ + n)
+
+which is entirely determined given the anomalous dimensions γ(n, 0). Applying the projector
+(4.9) to equation (4.22) one determines the coefficients c′ (n, 0). Surprisingly, these coefficients
+are all zero. In fact, using the explicit solution (4.13) for the anomalous dimensions one finds
+that the function H(z) vanishes identically (see appendix C). Thus, we conclude that
+
+                                                         1 ∂
+                                            c(n, l) =         γ(n, l) .                               (4.25)
+                                                         2 ∂n
+Notably, this statement holds true in all the examples we have considered, though we have
+not been able to find a general derivation and had to rely on ”empirical” data. It has been
+previously observed [28] that the unitarity bound on the leading term of the OPE in the
+crossed channel implies (4.25) for large n, l. However, it was also shown in Ref. [28] that
+the conformal partial wave expansion of a scalar exchange in AdS only respected (4.25)
+asymptotically. We suspect that (4.25) only holds for amplitudes corresponding to bulk
+contact interactions.
+  16
+    The solutions γ(n, l) are always rational functions of n, and this defines the extension to non-integer n
+as required to take the n-derivative.
+
+
+
+
+                                                          20
+4.3.3   Multi-trace interactions
+
+At special values of ∆, multi-trace interactions become marginal. We have excluded these
+in our conjecture, but they should still appear as solutions to the crossing relation. The first
+                                                                              ↔ ↔
+examples in d = 2 are O2 at ∆ = 1, O3 at ∆ = 2/3, O4 at ∆ = 1/2, and O∂ν ∂ ν O at ∆ = 0.
+                                      ↔ ↔
+The bilinear interactions O2 and O∂ν ∂ ν O just shift ∆ in the disconnected amplitude, which
+trivially respects crossing. The interaction O3 is forbidden by Z2 , so the first interesting case
+is O4 at ∆ = 1/2.
+
+   This operator couples only to spin 0, for which we have the solution (4.13),
+
+                                    C                               C
+                    γ(p, 0) =               ,   c(p, 0) = −                  .             (4.26)
+                                2∆ + 2p − 1                   (2∆ + 2p − 1)2
+
+As ∆ → 1/2 at fixed C, γ(0, 0) and c(0, 0) diverge. The double poles cancel in the expression
+for the correlator, but a single pole remains. There are two ways that we might think to
+obtain a finite limit. We could let C scale as 2∆ − 1, so that the only nonzero term is
+n = l = 0; we will call this the first solution. To obtain the second solution, we could hold
+C finite but subtract off the pole, which is proportional to the first solution. However, this
+second solution is not conformal: the limiting process introduces logs of the separations, just
+as in the usual dimensional regularization.
+
+    This has a simple interpretation. When a multi-trace interaction becomes marginal, the
+single-trace interaction sources the multi-trace interaction under RG flow [27]. We identify
+this flow as the second solution, while the first solution corresponds to keeping only the
+quadruple-trace interaction and tuning the single-trace interaction to zero. We can confirm
+this by calculating directly the effect of the marginal perturbation O4 in the CFT:
+               Z                           h                                      i
+                         d2 w
+        A1 ∝                         = π 2 F 1 (z)F 1 (1 − z) + F 1 (1 − z)F 1 (z) .  (4.27)
+                  |w||1 − w||z − w|          2      2             2          2
+
+
+
+This suggests that the conformal partial wave decomposition of the connected four-point
+function only contains the l = n = 0 term. Indeed, when ∆ = 1/2, we see that expression
+(4.13) gives γ(n, 0) = 0 for all n > 0 and the four point function (4.27) can be written using
+a single partial wave,
+                         Z
+                                    d2 w          π ∂
+                                               =−      hn,0 (z, z)      .                  (4.28)
+                             |w||1 − w||z − w|    2 ∂n             n=0
+                                                                      1
+                                                                    ∆→ 2
+
+
+
+The marginal behavior of O4 is lifted both by 1/N 2 effects and by second order effects in
+the O4 interaction, giving a coupled RG flow for the two interactions [27].
+
+
+                                                21
+4.4          Counting Solutions in d = 4
+
+In d = 4 the different form of the conformal blocks (3.7) leads to slightly more complicated
+results, but the procedure for finding solutions is analogous. As in d = 2, we can find the N 0
+coefficients in the partial wave expansion from matching to the N 0 correlator (4.1). They
+are
+                                              2(l + 1)(2∆ + 2n + l − 2) (∆−1) (∆−1)
+                        p0 (n, l) = 1 + (−1)l                            Cn    Cn+l+1 ,              (4.29)
+                                                         (∆ − 1)2
+              (∆−1)
+where Cn                is the coefficient from the two-dimensional case with ∆ replaced by ∆ − 1.
+Keeping only the terms multiplying log z log(1−z) in the equation A1 (z, z) = A1 (1−z, 1−z),
+where A1 (z, z) is written as in (4.3), we find
+                                 z h n+l n−1                                       i
+        L
+      ∞ X
+      X
+              γ(n, l) p0 (n, l)                   e
+                                    z z F∆+n+l (z)F∆+n−1 (1 − z) − (n − 1 ↔ n + l)                       (4.30)
+      n=0 l=0
+                                1−z
+             even
+
+
+                                        z−1h                                                                  i
+        L
+      ∞ X
+      X
+=                   γ(n, l) p0 (n, l)       (1 − z)n+l (1 − z)n−1 Fe∆+n+l (z)F∆+n−1 (1 − z) − (n − 1 ↔ n + l)
+      n=0 l=0
+                                         z
+             even
+
+Again we project twice using (4.9): onto m′ = p − 1 around z = 0 and onto m′ = q − 1 near
+z = 1. We define J (∆−1) (p, q) as J(p, q) with the shift ∆ → ∆ − 1. We also define
+                                                   2(l + 1)(2∆ + 2n + l − 2)
+                                    γ ′ (n, l) =                             γ(n, l) .               (4.31)
+                                                            (∆ − 1)2
+In terms of these functions, the crossing condition becomes
+    XL h                                                                           i
+        γ ′ (p − l − 1, l)J (∆−1) (p − l − 1, q) − γ ′ (p, l)J (∆−1) (p + l + 1, q) = (p ↔ q) .      (4.32)
+      l=0
+      even
+
+
+    Exactly analogously to the two-dimensional case, we consider the crossing relation at
+fixed p for a series of q such that 0 ≤ q ≤ min(p − 1, L/2). We use these relations to solve
+for γ(p, 0), ... , γ(p, min(2p − 2, L)) in terms of all of the remaining γ(p′ , l) for p′ < p. In the
+four-dimensional case, the existence and uniqueness of solutions requires that M (∆−1) (p)qr =
+J (∆−1) (p + 2r + 1, q) for r, q = 0, 1, ... , k − 1 is a non-degenerate k × k matrix. This is shown
+in appendix B. As the counting is the same as in two-dimensions, we again have that there
+are at most (L + 2)(L + 4)/8 solutions to the crossing relation with maximum spin L.
+
+
+4.5          More on d = 4 Solutions
+
+Two differences complicate the four-dimensional crossing relation as compared to the two-
+dimensional case. First, the two terms on either side have different arguments even when
+
+                                                             22
+l = 0. Consequently, it is not possible to obtain a solution for γ(p, 0) in a simple way, even
+though J (∆−1) (p, q) has the symmetry (4.14). Second, the relative minus sign between the
+two terms on either side of the equation causes the highest powers in p to cancel. We are
+then forced to look at subleading terms to find a solution for l = L.
+
+       The first complication can be overcome by brute force. The L = 0 crossing condition is
+
+                 γ ′ (p − 1, 0)J (∆−1) (p − 1, q) − γ ′ (p, 0)J (∆−1) (p + 1, q) = (p ↔ q)       (4.33)
+
+Setting q = 0 the overlap integrals can actually be computed (see appendix A) and lead to
+a recursion relation for the γ(p, 0). The relation is solved by17
+                                (2∆ + p − 3)(p + 1)(∆ + p − 1)(2∆ − 1)
+                    γ(p, 0) =                                          γ(0, 0) .                 (4.34)
+                                  (∆ − 1)(2∆ + 2p − 3)(2∆ + 2p − 1)
+
+       That leaves the second complication. For two dimensions a solution for l = L was found
+by equating the coefficients of the highest power of p (or q) on both sides of the crossing
+condition. As in two-dimensions, using (A.7) we can find the large p limit of the overlap
+integral:
+                     J (∆−1) (p, q) = −2Bq(∆−1) p2∆+2q−1 + O((1/p)−2∆−2q+2) ..                   (4.35)
+However, the sign difference between the two terms in the crossing condition makes the
+leading p terms on the left hand side of (4.32) cancel and we have to look at subleading
+terms. There are subleading terms of two types; denoting the relative order in 1/p by a
+parenthesised superscript,
+                                                 (0)  (∆−1)        (1)
+                  J (∆−1) (p, q) = J (∆−1) (p, q)     + J      (p, q)      + ... , (4.36)
+
+these are
+                  (∆−1)            (0)  (∆−1)        (0)
+                  J      (p + x, q)      = J     (p, q)       ,                                  (4.37)
+                  (∆−1)            (1)      (∆−1)        (0)                   (1)
+                  J      (p + x, q)      = ∂p J      (p, q)      x + J (∆−1) (p, q)      .       (4.38)
+
+Only the subleading terms that come as derivatives of the leading terms are relevant. The
+other subleading terms cancel out of the crossing equation and thus we will not need to
+expand J to higher order in 1/p to find them.
+
+       We can now use (A.7) on the LHS and (A.8) on the RHS to determine the leading p term
+of (4.32). On the RHS we get
+                                     (∆−1)
+                          γ ′ (q, L)Bq+L+1 (2∆ + 2q + 2L − 1)p2q+2L+2∆−2                         (4.39)
+  17
+   As in d = 2, the case ∆ = 1 in d = 4 is special because O4 can generate a marginal deformation of the
+CFT.
+
+                                                    23
+while on the LHS
+                              L
+                              X                                                       
+          2Bq(∆−1) p2∆+2q−4     (l + 1) 2γ ′(0) (p, l)(2∆ + 2q − 3) + p∂p γ ′(0) (p, l) .   (4.40)
+                              l=0
+                              even
+
+
+We see that the lower bound on large p growth of γ(p, l) is now p2L+1 (γ ′ (p, l) is now p2L+2 ),
+in accordance with what we find in section 6. Assuming the absence of cancelations among
+                                                          ′
+the leading terms so that the bound is saturated we have γ (0) (q, l) = α(l)q 2L+2 so
+                                     L
+                                     X                               (∆−1)
+4Bq(∆−1) p2∆+2q−4 (2∆+2q+L−2)               (l+1)α(l) = γ ′ (q, L)Bq+L+1(2∆+2q+2L−1)p2q+2L+2∆−2
+                                     l=0
+                                     even
+                                                                                            (4.41)
+from which we find the solution for maximal spin
+                                                (∆−1)                L
+                         K         Bm                           2 X
+        γ(m, L) =                   (∆−1)
+                                          ,                K=           (l + 1)α(l) .       (4.42)
+                  2∆ + 2m + 2L − 1 Bm+L+1                     L + 1 l=0
+                                                                         even
+
+
+
+
+    Again as in two dimensions, we find an equation analagous to (4.24) that determines
+c(n, l) in terms of a finite subset of γ(m, l). Using a computer algebra program, we are able
+to calculate a finite number of c(n, 0) and find in all cases that
+
+                                                    1 ∂
+                                        c(n, l) =        γ(n, l) .                          (4.43)
+                                                    2 ∂n
+
+
+5     Bulk calculations
+
+5.1    Small-L examples
+
+We have seen that the number of solutions to the CFT constraints precisely matches the
+counting of quartic local bulk interactions. We now wish to illustrate this equivalence more
+explicitly. We shall start by computing some simple Witten diagrams, as in Fig. 4, de-
+scribing four-point functions of the dual CFT. Four point functions obtained in this way
+will automatically satisfy all the CFT constraints. The goal of this section is to relate these
+correlators with the solutions found in the previous section.
+
+    Let us consider Euclidean AdSd+1 defined by the hyperboloid
+
+                   X 2 = −R2 = −1 ,                 X0 > 0 ,             X ∈ Md+2 ,          (5.1)
+
+
+
+                                                    24
+                                            P3                         P4
+
+
+
+
+                                                              X
+
+
+
+
+                                            P1                         P2
+
+
+Figure 4: Witten diagram for the CFT four-point function associated to a quartic contact
+interaction in AdS. The boundary points Pi are connected to the bulk interaction point X
+by bulk to boundary propagators. In general, the quartic vertex at X includes derivatives
+acting on the bulk to boundary propagators.
+
+embedded in (d + 2)-dimensional Minkowski spacetime. We shall set R = 1 in this and the
+following section. It is convenient to think of the conformal boundary of AdS as the space
+of null rays 18
+
+                        P2 = 0 ,             P ∼ λP (λ ∈ R) ,                  P ∈ Md+2 .   (5.2)
+
+Then, the correlations functions of the dual CFT are encoded into SO(1, d+1) invariant func-
+tions of the external points Pi , transforming homogeneously with weights ∆i . In particular,
+the general form of a four-point function of dimension ∆ scalar operators is
+                                                                   A(z, z)
+                                         A(P1 , P2 , P3 , P4 ) =    ∆ ∆
+                                                                           ,                (5.3)
+                                                                   P12 P34
+where Pij = −2Pi · Pj is positive for future directed P ’s and A only depends on the cross
+ratios,
+                               P12 P34    1                   P14 P23   (1 − z)(1 − z)
+                         u=            =    ,         v=              =                .    (5.4)
+                               P13 P24   zz                   P13 P24         zz
+   The basic ingredient required to compute Witten diagrams is the bulk to boundary
+propagator which in this notation is simply given by
+
+                                                 (−2P · X)−∆ ,                              (5.5)
+
+up to a normalization constant that will not be important for us. We are now ready to
+compute the four point function associated with a quartic φ4 interaction in AdS,
+                                             Z      4
+                                                    Y
+                        ∆             ∆ ∆
+                    (zz) A1 (z, z) ∝ P13 P24    dX    (−2Pi · X)−∆ .             (5.6)
+                                                          AdS       i=1
+  18
+       See [29] for a brief review of this formalism first proposed by Dirac [30].
+
+                                                         25
+This is precisely the definition of the reduced D-function.19 We can then write
+
+                                           (zz)∆ A1 (z, z) ∝ D ∆∆∆∆ (u, v) .                            (5.7)
+
+The conformal partial wave expansion of this correlator can be found using a series repre-
+sentation of the D-function [24, 32]. In both d = 2 and d = 4 we recover the unique solution
+with L = 0 found in the previous section, Eqs. (4.13) and (4.34) respectively.
+
+       A quartic interaction with only 2 derivatives does not generate a new four-point function.
+The vertex φ2 (∇φ)2 can be reduced to φ4 by integrating by parts and using the equations of
+motion. The first new contribution comes from an interaction vertex with 4 derivatives,
+
+                                                         (∇φ)2 (∇φ)2 .                                  (5.8)
+
+To compute the contribution of this vertex to the four-point function it is useful to introduce
+embedding space derivatives
+
+                                                  ∇N = ∂N + XN X · ∂ .                                  (5.9)
+
+This combination removes the radial derivative in the embedding space. More precisely,
+
+                                     ∇N f (X 2 ) = 2XN (1 + X 2 )f ′ (X 2 ) = 0 ,                      (5.10)
+
+as it should for a constant function in AdS. The four-point function is then given by
+       X Z
+                  dX ∇N (−2P1 · X)−∆ ∇N (−2P2 · X)−∆ ∇M (−2P3 · X)−∆ ∇M (−2P4 · X)−∆
+        perm Pi    AdS
+        Z              4
+                       Y                        X                                             
+                                          −∆                     P1 · P2 P3 · P4
+   ∝              dX         (−2Pi · X)                                                + ...       ,   (5.11)
+            AdS        i=1                     perm Pi
+                                                          P 1 · X P2 · X P3 · X P4 · X
+
+where the dots give rise to the same four-point function as a φ4 interaction. The new
+contribution to the reduced amplitude is
+
+                               (zz)∆ A1 (z, z) ∝ (1 + u + v)D∆+1 ∆+1 ∆+1 ∆+1 (u, v) .                  (5.12)
+
+The explicit conformal partial wave expansion (4.3) of this correlator in d = 2 is given in
+appendix D. The expansion only contains partial waves with spin 0 and 2. The property
+(4.25) is obeyed and the maximal spin L = 2 anomalous dimensions are given by expression
+(4.16). In d = 4 the property (4.25) is also verified and the anomalous dimensions of the
+maximal spin L = 2 are given by (4.42).
+  19
+    See [31, 24] for D-function properties and definitions. D-functions in the embedding space notation are
+reviewed in appendix B of [10].
+
+                                                               26
+    The next new interaction comes from an interaction vertex with 6 derivatives,
+
+                                           (∇φ)2 (∇µ ∇ν φ)2 .                                (5.13)
+
+The four-point function is then given by
+    X Z
+              dX ∇N (−2P1 · X)−∆ ∇N (−2P2 · X)−∆ ∇M ∇K (−2P3 · X)−∆ ∇M ∇K (−2P4 · X)−∆
+    perm Pi   AdS
+    Z          4
+               Y               X                  P1 · P2 (P3 · P4 )2
+                                                                                     
+                            −∆
+∝           dX   (−2P1 · X)                                                  + ...       .      (5.14)
+      AdS      i=1               perm Pi
+                                            P1 · X P2 · X(P3 · X)2 (P4 · X)2
+
+The dots correspond to terms that give the same as φ4 or (∇φ)2 (∇φ)2 interactions. The first
+term gives something new. Its contribution to the reduced amplitude is
+
+              (zz)∆ A1 (z, z) ∝ D ∆+2 ∆+1 ∆+2 ∆+1 (u, v) + D ∆+1 ∆+2 ∆+1 ∆+2 (u, v)
+                             + u2 D ∆+2 ∆+2 ∆+1 ∆+1 (u, v) + uD∆+1 ∆+1 ∆+2 ∆+2 (u, v)        (5.15)
+                             + v 2 D ∆+1 ∆+2 ∆+2 ∆+1 (u, v) + vD ∆+2 ∆+1 ∆+1 ∆+2 (u, v) .
+
+We give the conformal partial wave expansion of this correlator in d = 2 in appendix D.
+Again, the expansion only contains partial waves with spin 0 and 2 and (4.25) holds. The
+spin 2 anomalous dimensions in d = 2 are now given by a linear combination of (4.19) and
+(4.16) with L = 2.
+
+    With this examples we have explored the left bottom corner of Fig. 2, which summarizes
+the possible bulk interactions. We have found that solutions to the CFT constraints are
+in one-to-one correspondence to local bulk interactions, in agreement with our conjecture.
+However, the complexity of the explicit computations increases very rapidly as the spin and
+the number of derivatives of the interaction grow. In the next subsection we shall consider
+an approximation scheme that allows us to determine part of the conformal partial wave
+expansion for a family of bulk interactions.
+
+
+5.2     Regge limit
+
+The papers [33, 28, 34, 35, 36] explored the regime of high energy scattering in AdS and its
+consequences for the CFT four-point function. They show that this kinematical regime is
+sufficient to determine the highest spin part of the conformal partial wave decomposition of
+the CFT four-point function. This limit is the AdS/CFT analogue of the well known Regge
+limit in flat space scattering. It will allow us to find some solutions for general L.
+
+
+                                                   27
+                                     P4
+                                                            P3
+
+                                                             P2
+                                     P1
+
+
+
+Figure 5: External points Pi in the boundary of conformally compactified AdS. The Regge
+limit corresponds to P3 → −P1 or P2 → −P4 . In this limit the dominant contribution to the
+four-point function comes from the AdS region around the future lightcone of P1 and past
+lightcone of P4 , in particular, from their intersection at the (d − 1)-dimensional hyperboloid
+shown in blue.
+
+   As in flat space, the Regge limit is intrinsically Lorentzian and we must consider physical
+AdSd+1 ⊂ R2,d = M2 × Md . A particularly convenient way of taking the Regge limit is to
+choose the following external points
+
+                           P1 = (1, 0, 0) ,              P2 = (x2 , 1, x) ,             (5.16)
+                         P3 = (−1, −x2 , x) ,            P4 = (0, −1, 0) ,              (5.17)
+
+where P = (P + , P − , P a ) ∈ M2 ×Md with metric dP 2 = −dP + dP − +dP adPa . The conformal
+invariant cross ratios are then given by
+
+                            zz = x2 x2 ,          z + z = −2x · x ,                     (5.18)
+
+and the Regge limit corresponds to z, z → 0 with fixed ratio z/z. As depicted in Fig. 5,
+this corresponds to the limit of small scattering angle in the bulk. This configuration of the
+cross ratios can be obtained as an analytic continuation of the Euclidean amplitude [34].
+The Regge regime can be reached starting from the Euclidean four-point function, rotating
+z anti-clockwise around the branch points at 0 and 1, keeping z fixed, and then considering
+the limit z, z → 0.
+
+   We wish to determine the Regge limit of the four-point function associated to the bulk
+interaction
+
+                         φ2 (∇2 )k φ2 = 2k φ2 (∇µ1 . . . ∇µk φ)2 + . . . ,              (5.19)
+
+                                                 28
+where the . . . stand for terms with fewer derivatives after using the equations of motion. We
+shall restrict to the case of even k corresponding to the left most box in each row in Fig. 2.
+The exact computation of the four-point function could be performed using the techniques
+of the previous section to reduce the Witten diagrams,
+                X Z
+              k
+            2              dX (−2P2 · X)−∆ (−2P3 · X)−∆                           (5.20)
+              perm Pi   AdS
+
+                              ∇M1 . . . ∇Mk (−2P1 · X)−∆ ∇M1 . . . ∇Mk (−2P4 · X)−∆ ,
+
+to a sum of D-functions. However, one can determine the Regge limit of the four-point
+function directly. The basic idea is that, in this limit, the integral over the interaction point
+in AdS is dominated by the points null related to the external points P1 and P4 . Notice that
+these points are also almost null related to P3 and P2 because P3 ∼ −P1 and P2 ∼ −P4 .
+More precisely, we can introduce coordinates in AdS via
+                                                                        
+                                 uv                       uv
+             X = u, v 1 −                 , cosh r 1 −             , e sinh r , (5.21)
+                              4 cosh2 r                2 cosh2 r
+
+with e ∈ S d−2 . In the region of interest we have uv ≪ cosh2 r and we can simply write
+
+                                          X ≈ (u, v, w)                                   (5.22)
+
+with w ∈ Hd−1 . The u = v = 0 hypersurface is the intersection of the lightcones of P1 and
+P4 , as shown in Fig. 5. We can now determine the Regge limit of a given Witten diagram
+using the following simple rules
+                            Z               Z       Z
+                                              du dv
+                                 dX . . . ≈               dw . . . ,              (5.23)
+                             AdS                2    Hd−1
+                              −2X · P1 ≈ v ,                                      (5.24)
+                                −2X · P2 ≈ u − 2x · w ,                                   (5.25)
+                                −2X · P3 ≈ −v − 2x · w ,                                  (5.26)
+                                −2X · P4 ≈ −u .                                           (5.27)
+
+The Regge limit of (5.20) is then given by
+ Z        Z
+    du dv                         4i(g uv )k 2k                   1               1
+                dw                   ∆                  ∆
+                                                          ∂uk           ∆
+                                                                          ∂vk           , (5.28)
+      2    Hd−1    (u − 2x · w + iǫ) (−v − 2x · w + iǫ)       (−u + iǫ)       (v + iǫ)∆
+
+where we have used the fact that the dominant behavior is obtained by taking the maximum
+number of u and v derivatives. The factor of 4 comes from the 4 possible permutations of
+
+
+
+                                                29
+the external Pi that give the same dominant behavior and the factor of i comes from the
+Wick rotation. The integrals over u and v can be done to give
+                 2             Z
+         2 2k+1 Γ (2∆ + k − 1)                               1
+      iπ 2           4
+                                      dw                2∆+k−1
+                                                                                    . (5.29)
+                    Γ (∆)        Hd−1    (−2x · w + iǫ)        (−2x · w + iǫ)2∆+k−1
+
+As explained in [35], this convolution integral over Hd−1 can be evaluated using harmonic
+analysis on hyperbolic space. This leads to the final expression
+                                                                        
+                                 Z   π d Γ2 2∆+k+iν−d/2    Γ 2 2∆+k−iν−d/2
+                                                 2                  2
+         (zz)∆ A1 (z, z) ≈ iσ 1−k dν                 1−2k  4
+                                                                             Ωiν (ρ) , (5.30)
+                                                   2      Γ (∆)
+
+where z = σeρ , z = σe−ρ and Ωiν are harmonic functions on Hd−1 . In d = 2, the harmonic
+functions are simply cosines,
+                                                    1
+                                       Ωiν (ρ) =      cos(νρ) ,                          (5.31)
+                                                   2π
+and in d = 4, they are given by
+                                                      sin(νρ)
+                                       Ωiν (ρ) =                 .                       (5.32)
+                                                     4π 2 sinh ρ
+
+   Now that we have determined the Regge limit of the four-point function we can study
+its conformal partial wave decomposition. We shall follow closely the methods of [35]. In
+particular, our starting point will be the representation
+                                               L Z
+                                               X
+                               ∆
+                         (zz) A1 (z, z) =                 dν fl (ν)Giν,l (z, z) ,        (5.33)
+                                               l=0
+
+where fl (ν) = fl (−ν) and
+
+                   Giν,l (z, z) = t(ν, l)g d +iν,l (z, z) + t(−ν, l)g d −iν,l (z, z) ,   (5.34)
+                                           2                             2
+
+
+with
+                                                               
+                                     Γ iν + d2 − 1 Γ4 l+iν
+                                                        2
+                                                           + d4
+                  t(ν, l) = − d                                        .               (5.35)
+                             4π 2 Γ(iν)Γ l + iν + d2 Γ l + iν + d2 − 1
+
+As we shall see, the standard conformal partial wave decomposition can be obtained from
+this representation by reducing the ν integral to a sum of the residues of the poles along the
+ν imaginary axis. This representation is particularly convenient because in the Regge limit
+we have
+
+                                   Giν,l (z, z) ≈ 2πi σ 1−l Ωiν (ρ) .                    (5.36)
+
+                                                     30
+Therefore, the Regge limit of the full amplitude is determined by the highest spin function
+fL (ν),
+                                                  Z
+                           ∆                  1−L
+                       (zz) A1 (z, z) ≈ 2πi σ       dνfL (ν)Ωiν (ρ) .                (5.37)
+
+Comparing with (5.30) we conclude that k = L and
+                                                                    
+                π d−1 22L−2 2 2∆ + L + iν − d/2    2 2∆ + L − iν − d/2
+       fL (ν) =            Γ                     Γ                       .                              (5.38)
+                   Γ4 (∆)              2                    2
+In order to recover the standard conformal partial wave expansion we use the parity of fl (ν)
+to write
+                                           L Z
+                                           X
+                           ∆
+                      (zz) A1 (z, z) = 2                dνfl (ν)t(ν, l)g d +iν,l (z, z) .               (5.39)
+                                                                          2
+                                              l=0
+
+We can now deform the ν integration contour into the lower half plane and pick up the poles
+of the integrand. The function t(ν, l) does not have poles in the lower half plane and the
+poles of g d +iν,l give rise to partial waves with spin smaller than l. The function fL (ν) has
+           2
+double poles at d2 + iν = 2∆ + 2n + L for n = 0, 1, 2, . . . . It is convenient to define
+                                                              
+                                                             d
+                                 ν(n) = −i 2∆ + 2n + L −           ,                      (5.40)
+                                                             2
+and write
+                                      π d+1 22L−2 Γ2 (2∆ + L + n − d/2)
+                       fL (ν(n)) =                                       .                              (5.41)
+                                         Γ4 (∆)     Γ2 (1 + n) sin2 (πn)
+Then,
+                     ∞
+                     X                                                                                
+    ∆                  ∂ π d 22L+1 Γ2 (2∆ + L + n − d/2) t (ν(n), L)
+(zz) A1 (z, z) = −                                                                     g2∆+2n+L,L(z, z) +. . . ,
+                     n=0
+                           ∂n                   Γ4 (∆)Γ2 (1 + n)
+                                                                                                        (5.42)
+where the . . . denote partial waves with spin smaller than L. Comparing with (3.11) we
+conclude that
+                                               ∂
+                                p1 (n, L) =       (p0 (n, L)γ(n, L)) ,                                  (5.43)
+                                              2∂n
+in agreement with (4.25) and
+                                                    d
+                                         π 2 22L Γ (2∆ + 2n + L − 1)
+                p0 (n, L)γ(n, L) = 4                                                                    (5.44)
+                                   Γ (∆)Γ2 (1 + n) Γ (2∆ + 2n + L − d/2)
+                                    Γ2 (2∆ + n + L − d/2) Γ4 (∆ + n + L)
+                                 ×                                       .
+                                   Γ (2∆ + 2n + 2L) Γ (2∆ + 2n + 2L − 1)
+
+                                                        31
+Using the explicit expression (4.2) for p0 (n, l) in d = 2, we find
+                                                                 
+                    πΓ(n + L + 1)Γ (2∆ + n + L − 1) Γ ∆ + n − 21 Γ (∆ + n + L)
+          γ(n, L) =                                                           .        (5.45)
+                       4Γ (1 + n) Γ (∆ + n) Γ ∆ + n + L + 21 Γ (2∆ + n − 1)
+
+This is precisely the solution (4.16) found in the previous section. In d = 4 we find, using
+(4.29),
+
+                π 2 Γ(n + L + 2)Γ(∆ + n − 32 )Γ(∆ + n + L)Γ(2∆ + n + L − 2)
+ γ(n, L) =                                                                       (5.46)
+           16(1 + L)(∆ − 1)2 Γ(n + 1)Γ(∆ + n − 1)Γ(∆ + n + L + 21 )Γ(n + 2∆ − 3)
+
+in agreement with (4.42).
+
+
+6     Locality and the CFT singularity
+
+As reviewed in section 2.2 the existence of a local bulk theory implies a peculiar behavior
+of the CFT correlators. In [10] the scattering thought experiment described in section 2.2
+was used to predict a particular singularity of the CFT four-point function. In the present
+notation this prediction reads
+                                                   F (σ)
+                            (zz)∆ A1 (z, z) ≈            ,     (ρ → 0) ,                  (6.1)
+                                                    ρ2β
+where we recall the relations z = σeρ and z = σe−ρ . It is crucial that the limit ρ → 0
+is taken after analytically continuing the Euclidean correlator to the Lorentzian regime of
+the scattering process. More precisely, this analytic continuation corresponds to the Wick
+rotation of AdS global time τ → −iτ eiα where α = 0 is the Euclidean regime and α = π2 is
+the Lorentzian one. For ρ = 0, this gives the following continuation of the cross ratios [10]
+
+                                 θ − iπeiα                             θ + iπeiα
+                   z(α) = cos2             ,             z(α) = cos2             ,        (6.2)
+                                     2                                     2
+shown in Fig. 6. The strength of the singularity is controlled by
+
+                                        2β = 4∆ + 2k − 3 ,                                (6.3)
+
+where 2k is the number of derivatives in the quartic vertex of our scalar model. More gener-
+ally, the strength of the singularity is fixed by the scaling dimension of the bulk interaction
+vertices involved in the computation of the correlator. Finally, the residue of the singularity
+is directly related to the S-matrix of the bulk theory,
+                                                         F (σ)
+                                 T (s, t) ∝ sk                       ,                    (6.4)
+                                                 σ 1−k (1 − σ)2∆+k−2
+
+                                                    32
+                                z                          z
+
+                                           0      1
+
+
+
+
+Figure 6: Complex paths of z and z from the Euclidean regime to the Lorentzian regime.
+The path of z is equivalent to going around the branch points at 0 and 1 anticlockwise and
+then following the complex conjugate of the z-path. The final Lorentzian values are given
+by z, z = e±ρ sin2 2θ ∓ iǫ.
+
+where σ is related to the Mandelstam invariants s and t and the scattering angle θ via
+                                                    t      θ
+                                               σ = − = sin2 .                                             (6.5)
+                                                    s      2
+Notice that after the flat space limit, R → ∞, the external particles have zero mass, m2 =
+∆(∆ − d)/R2 → 0. Therefore, the three Mandelstam invariants obey s + t + u = 0.
+
+   We now wish to understand the origin of this singularity from the point of view of
+the conformal partial wave expansion. In order to recover the usual s-channel partial wave
+expansion in flat space we consider the conformal partial wave expansion in the same channel.
+The first step is to study the Lorentzian ρ → 0 limit of a single conformal partial wave
+gE,l (1/z, 1/z). It is clear from the explicit expressions (3.5) and (3.7) that, in d = 2, the
+partial waves are not singular in this limit and that, in d = 4, they have a 1/ρ singularity.
+We see that, in general, the conformal partial waves have a weaker singularity than the
+full four-point function.20 Therefore, the singularity must emerge from the infinite sum
+over conformal dimensions E, and so it is sufficient to consider the large E behavior of
+the analytically continued partial waves. This can be easily obtained by a saddle point
+  20
+    The unitarity bound in d = 4 requires ∆ ≥ 1 and therefore the four-point function is always more
+singular than a single partial wave. In d = 2 we restrict ourselves in the present discussion to the case β > 0.
+
+                                                      33
+approximation.
+
+   First, we consider the large α behavior of the basic function
+                                                      Z                    α
+                          −α                    Γ(2α) 1 dt         t(1 − t)
+           k(2α, 1/z) = z F (α, α, 2α, 1/z) = 2                                .                (6.6)
+                                                Γ (α) 0 t(1 − t)     z−t
+There are two saddle points in the complex t-plane,
+                                                       √
+                                       t± = z ±            z2 − z ,                             (6.7)
+
+and the saddle point approximation gives
+
+                                             22α−1
+                               k(2α, 1/z) ≈ p         (2t − 1)α .                               (6.8)
+                                             t(1 − t)
+
+For z < 1 and real the two saddle points t± are the complex conjugate of each other, and
+the integrand has a branch point at z between 0 and 1. To define the integral we need an iǫ
+prescription to move the branch point away from the integration contour. This prescription
+is given by the analytic continuation shown in Fig. 6,
+                                                            θ
+                                      z, z = e±ρ sin2         ∓ iǫ .                            (6.9)
+                                                            2
+Therefore, for z we pick up the contribution from the saddle point t ≡ t+ (z) with positive
+imaginary part and for z we pick up the contribution from the saddle point t ≡ t− (z) with
+negative imaginary part. Expanding at small ρ we obtain
+                                       θ          θ  i         θ
+                          t, t = ±ie∓i 2 sin        + ρe∓iθ tan + O(ρ2 ) .                     (6.10)
+                                                  2 2          2
+Knowing the asymptotic behavior of the basic function k(2α, z) we are ready to determine
+the large E and small ρ behavior of the Lorentzian partial waves.
+
+   We start by the d = 2 case. Using (6.8) it is easy to obtain
+
+                                                 e−iπE 22E−3 −iEρ tan θ (2)
+                         gE,l (1/z, 1/z) ≈                  e         2P
+                                                                         l (θ) ,               (6.11)
+                                                    sin θ
+where
+                                           (2)         8 cos(lθ)
+                                       Pl (θ) =                  .                             (6.12)
+                                                        1 + δl,0
+                   (d)
+We denote with Pl (θ) the harmonic functions on S d−1 with laplacian eigenvalue −l(l+d−2).
+A convenient normalization is
+                     d−1                                                                
+          (d)    2d π 2 (d + 2l − 2)Γ(d + l − 2)                            d−1      2 θ
+        Pl (θ) =                                F           −l, d + l − 2,     , sin      ,   (6.13)
+                         Γ d−1
+                             2
+                                 Γ(l + 1)                                    2         2
+
+                                                      34
+                      3−d P∞     (d)
+such that T (s, t) = s 2   l=0 Pl (θ) corresponds to free propagation [29]. The s-channel
+conformal partial wave decomposition of the four-point function is
+                                    ∞
+                                    XXL
+                                             ∂                                      
+                (zz)∆ A1 (z, z) =               γ(n, l)p0 (n, l)g2∆+2n+l,l (1/z, 1/z) .                           (6.14)
+                                    n=0 l=0
+                                            2∂n
+                                        even
+
+
+Using the large n approximation
+
+                                                     π      n4∆−3
+                                    p0 (n, l) ≈                      ,                                            (6.15)
+                                                  Γ4 (∆) 24∆+4n+2l−5
+
+we conclude that in order to recover the right singularity (6.1) we need
+
+                                           γ(n, l) ≈ µl n2k−1 ,                                                   (6.16)
+
+at large n. Then,
+                                         4∆ L              ∞
+                            4iπ 2 sin θ2    X         (2)
+                                                           X                       θ
+             ∆
+         (zz) A1 (z, z) ≈ − 4                    µl Pl (θ)     n4∆+2k−4 e−2inρ tan 2 .                            (6.17)
+                           Γ (∆) sin θ       l=0           n=0
+                                                         even
+
+
+The small ρ behavior of the sum over n can be determined by approximating the sum by an
+integral. This gives the predicted singularity,
+                                                                 2−2k              4∆+2k−4   L
+                        π 2 Γ(4∆ + 2k − 3) sin θ2                          cos 2θ              X         (2)
+            ∆
+        (zz) A1 (z, z) ≈ 4                                                                            µl Pl (θ)   (6.18)
+                        4Γ (∆)(2i)4∆+2k−6                           ρ4∆+2k−3                   l=0
+                                                                                               even
+
+
+and the standard partial wave expansion of the flat space S-matrix,
+                                                         L
+                                                         X
+                                                     k               (2)
+                                      T (s, t) ∝ s               µl Pl (θ) .                                      (6.19)
+                                                          l=0
+                                                          even
+
+
+Notice that the condition k ≥ L guarantees that T is always a polynomial of s and t. In
+the simplest example of a pure quartic interaction with k = L = 0 we obtain an S-matrix
+independent on the Mandelstam invariants, as expected. In case L = 2 we obtain the simple
+expression
+                                    T (s, t) ∝ sk (µ0 + 2µ2 cos(2θ)) .                                            (6.20)
+
+In appendix D we present the exact conformal partial wave decomposition of two L =
+2 examples, one with k = 2 and one with k = 3. The first example is the interaction
+(∇φ)2 (∇φ)2 which has k = 2 and µ2 /µ0 = 7/2. This gives T (s, t) ∝ s2 +ts+t2 ∝ s2 +t2 +u2 ,
+as expected. The second example is the interaction (∇φ)2 (∇µ ∇ν φ)2 which has k = 3 and
+µ2 /µ0 = −1/2. This yields again the expected result, T (s, t) ∝ st(s + t) ∝ s3 + t3 + u3 .
+
+                                                         35
+    Similarly, in d = 4 we find that
+
+                                             e−iπE 22E−9 −iEρ tan θ (4)
+                    gE,l (1/z, 1/z) ≈ −i                     e    2P
+                                                                     l (θ) ,                                  (6.21)
+                                           π(1 + l)ρ sin2 2θ
+
+where
+                                 (4)              sin(l + 1)θ
+                               Pl (θ) = 64π(1 + l)                                                            (6.22)
+                                                     sin θ
+                           3
+are harmonic functions on S . Using the large n limit of (4.29),
+
+                                             π(l + 1)        n4∆−6
+                           p0 (n, l) ≈                                                                        (6.23)
+                                         Γ2 (∆)Γ2 (∆ − 1) 24∆+4n+2l−7
+
+and requiring the singularity (6.1), we obtain the large n behavior of the anomalous dimen-
+sions,
+                                         γ(n, l) ≈ µl n2k+1 .                                                 (6.24)
+
+This gives
+                                                                2−2k             4∆+2k−4   L
+                     π(∆ − 1)2 Γ(4∆ + 2k − 4) sin θ2                     cos θ2              X          (4)
+          ∆
+    (zz) A1 (z, z) ≈                                                                                µl Pl (θ) (6.25)
+                       16Γ4 (∆)(2i)4∆+2k−6                            ρ4∆+2k−3               l=0
+                                                                                             even
+
+
+and we recover the partial wave decomposition of the flat space S-matrix,
+                                                     L
+                                                     X
+                                                 k              (4)
+                                  T (s, t) ∝ s              µl Pl (θ) .                                       (6.26)
+                                                     l=0
+                                                     even
+
+
+
+
+7        Convergence in l
+
+The story thus far fits together nicely, but there is a significant loose end. We introduced
+the maximum spin L as a device to allow counting of solutions, but we needed to use this
+rather early in the process of solving the constraints, beginning in Eq. (4.5). Thus there is a
+concern that we might be missing some nonlocal solutions involving unbounded l. Here we
+analyze this issue, and largely exclude it.
+
+    First we need to understand how crossing constrains the large-l behavior of γ(n, l). Write
+
+                              A1 (z, z) = α(z, z) ln zz + β(z, z) ,                                            (7.1)
+
+where α(z, z) and β(z, z), regarded as independent functions of z and z, are holomorphic
+around z = 0. From the OPE expansion it follows that their only singularities in z or z are
+
+
+                                                     36
+branch cuts from 1 to ∞. The amplitude grows as ln(1 − z) as z → 1, and we assume that
+this is true of the individual functions α(z, z), β(z, z).21
+
+       Then for l > n,
+                            I                 I
+                               dz                      dz
+                 γ(n, l) =        n+1
+                                                              F
+                                                         n+l+1 1−∆−n
+                                                                     (z)F1−∆−n−l (z)α(z, z) ,              (7.2)
+                           C 2πiz                 C 2πiz
+
+where both contours circle the origin. For large l we can estimate this by expanding the z
+contour, the factor of z −(n+l+1) pushing the contour outward until it wraps the branch cut
+at 1, and the dominant contribution comes from the neighborhood of this point. We then
+use the singular behavior ln(1 − z) known from crossing to conclude that the integral is no
+larger than O(l−1 ln l); the precise bound does not matter because we can readily improve
+it. Note as in Eq. (4.8) that
+
+       DF1−∆−n−l (z) = λ∆+n+l F1−∆−n−l (z) ,              λ∆+n+l = (∆ + n + l)(∆ + n + l − 1) .            (7.3)
+
+We can multiply F1−∆−n−l (z) in the contour integral by 1 = D/λ∆+n+l and then integrate
+by parts to have D act on α(z, z). Now, D has the convenient property that when acting on
+α(z, z), the singularity at z = 1 is still ln(1 − z); to see this consider its action on a general
+monomial (1 − z)m ln(1 − z). Thus we improve the bound by a factor of λ−1                     −2
+                                                                                  ∆+n+l = O(l ).
+By iterating we can conclude that at fixed n, γ(n, l) must fall faster than any power of l,
+
+                                  lm γ(n, l) → 0 as l → ∞ , all m, n .                                     (7.4)
+
+       We can now extend the upper limits on the l sums (4.5, 4.7, 4.11) to infinity. The sum over
+l converges sufficiently rapidly that it cannot generate additional singularities of the form
+of (1 − z)m ln(1 − z) so these come only from the explicit logarithms in the hypergeometric
+functions. In particular, the bound on γ(n, l) together with the asymptotic behavior of the
+J(p, q) implies that the sums (4.11) converge when extended to infinity. Thus, for example,
+we can immediately use this relation at (p, q) = (1, 0) to obtain
+                                     ∞                                ∞
+                              1 X                              1 X
+                γ(1, 0) = −             γ(1, l)J(1 + l, 0) +             γ(0, l)J(l, 1) .                  (7.5)
+                            J(1, 0) l=2                      J(1, 0) l=0
+                                       even                                 even
+
+
+Similarly, at each p we can use the equations with q < p and the invertibility of M(p)qr to
+solve for γ(p, 0), . . . , γ(p, 2p − 2). In all, the γ(n, l) with l ≥ 2n are free parameters, and we
+solve for γ(n, l) with l ≤ 2n − 2, just as in the earlier discussion where we had the additional
+condition that l ≤ L.22
+  21
+      It would seem impossible for more singular terms to cancel in Eq. (7.1), because one term has a discon-
+tinuity and the other not, but we do not have a derivation.
+   22
+      The redundancy of the constraints noted earlier shows up here as the result, following from the known
+bulk solutions, that if the free parameters γ(n, l ≥ 2n) vanish for l > L, then so do the γ(n, l < 2n) for l > L.
+
+                                                          37
+    Eq. (7.5), and together with the higher-p equations, give all γ(n, l) as convergent sums of
+fixed-L solutions, one for each free parameter. Thus the solutions found earlier are complete.
+
+    There would seem to be a trivial counterexample to our conjecture. Since we have an
+infinite number of higher-derivative solutions in the bulk, it would seem that we can make
+a nonlocal solution by taking an infinite sum. Of course we expect such nonlocality on the
+scale ls , from integrating out the string-scale and higher states. General arguments from
+effective field theory restrict the coefficients of higher-derivative operators to be set by the
+cutoff scale, in order that that net positive powers of the cutoff not appear in loops. In
+effective field theory one works to a given order in the inverse cutoff scale, and then only a
+finite number of higher-derivative terms can appear. We would expect this argument to have
+a parallel in the CFT: going to higher orders in 1/N 2 we will encounter divergences in the
+sum over intermediate states in the low-dimension sector that we are studying. These will
+be cut off in the full theory, and existence of the ∆large → ∞ limit should require that their
+coefficients scale as inverse powers of ∆large , such that there will be only a finite number of
+solutions to any given order.
+
+   It is worth exploring a bit further the possibility of constructing a non-local bulk inter-
+action of the form
+                                      ∞
+                                      X
+                                            dk φ2 (a2 ∇2 )k φ2 ,                             (7.6)
+                                      k=0
+
+where dk are dimensionless coefficients and a is a characteristic length scale of the interaction.
+The partial wave expansion is
+                                                ∞
+                                                X
+                                   γ(n, l) =          dk γ (k) (n, l) ,                      (7.7)
+                                                k=0
+
+where the γ (k) (n, l) corresponding to these operators were partly obtained in Sec. 5.2. Based
+on the coefficients obtained in Sec. 5.2,
+
+                                     γ (k) (n, k) ∼ (k!)2 k 2n .                             (7.8)
+
+We do not have an explicit solution for partial waves l 6= k, but can estimate γ(n, l) by
+keeping only k = l on the right,
+
+                                       γ(n, l) ∼ dl (l!)2 l2n .                              (7.9)
+
+
+    Consider the example dk = (a/R)2k , which is just what would be obtained from integrat-
+ing out a particle of mass a−1 . The estimate (7.9) is inconsistent with the falloff (7.4), so this
+
+                                                  38
+does not solve the crossing relation. The reason is clear: the particle that we have integrated
+out corresponds to a new single-trace operator with ∆(∆ − d) = R2 /a2 , and this must be
+included explicitly in the OPE. Even a gaussian nonlocality, dk ∼ (a/R)2k /k!, fails to satisfy
+crossing. We need the much stronger condition that (k!)2 dk falls faster than any power of k.
+This condition is reminiscent of the generalized notion of locality in Ref. [37], and suggests
+that even with an infinite series of local operators the crossing condition imposes some form
+of locality.23
+
+
+8       Inclusion of Tµν
+
+Let us first consider the effect of dropping the Z2 symmetry. The operator O will generically
+appear in the product OO, leading to an extra term
+
+                                                           g∆,0 (z, z)
+                                                  c2OOO                                       (8.1)
+                                                            (zz)∆
+
+in the partial wave expansion (3.4). At fixed cOOO we can think of this as an inhomogeneous
+term in the crossing relation (3.8, 4.11, 4.32). Any two solutions will differ by a solution to
+the homogenous equation, as already studied, so the effect is to introduce at most one new
+parameter c2OOO into the solution. As before, the bulk picture provides an existence proof
+for these solutions, generated by the exchange graph with two φ3 couplings, so the counting
+in the bulk and the CFT again matches. We will explore the detailed form of these solutions
+in future work. We note that they will necessarily involve all values of l.
+
+   Similarly we can add additional scalar operators of various dimensions into the OPE.
+Further we can spin-2 operators of various dimensions, where ∆ = d would be the energy
+momentum tensor. Each additional operator introduces one additional parameter into the
+crossing solution, and correspondingly one bulk coupling. Thus we can immediately embed
+our result into a full-fledged CFT. In fact, at leading order in the planar expansion our
+result would apply to the correlator of four identical scalar operators in any CFT. Thus we
+can conclude that our conjecture holds, to this order, quite generally.
+
+    The same logic would allow us to introduce operators of spin greater than two, apparently
+giving a result even more general than we conjectured. From the bulk point of view, we are
+adding a traceless symmetric field φµ1 ...µl . The flat-space propagator for mass M 2 would be
+                                                             1
+                               hφµ1 ...µl φν1 ...νl i =              SPµ1 ν1 . . . Pµl νl ,   (8.2)
+                                                          k2 + M 2
+ 23
+      We thank D. Gross for informing us of Ref. [37], and for discussions.
+
+                                                            39
+where
+                                                kµ kν
+                                            Pµν = ηµν +                               (8.3)
+                                                 M2
+and S projects onto the symmetric traceless part. In AdS spacetime this is readily made
+covariant. The operator Pµν removes ghosts from the timelike components, as is clear in the
+rest frame. The inverse power of M 2 implies that loops will contain positive powers of the
+cutoff scale; these would be absent only if φµ1 ...µl coupled to a higher-spin conserved current,
+which is not available in an interacting theory. Thus such fields cannot be present in the low
+energy effective theory.24 As in the previous section, we would expect such bulk arguments
+to be reflected in a breakdown of the 1/N 2 expansion in the CFT.
+
+
+9       Conclusions
+
+We have confirmed our locality conjecture in the case of the correlator of four low-dimension
+operators to leading nontrivial order in 1/N 2 . This excludes the possibility that the bulk the-
+ory is somehow smeared over the AdS scale, and so closes a potential loophole in AdS/CFT
+duality. In particular, a mysterious property of the four-point function is shown to follow
+from a simple property of the operator spectrum.
+
+      Our analysis was limited to CFTs in d = 2 and in d = 4. The extension to d = 6 should be
+relatively straightforward using the known explicit expressions for conformal partial waves
+[24]. On the other hand, the extension to the d = 3 case, relevant for condensed matter
+applications, can not be done using the techniques of this paper because the simplest known
+form of the conformal partial waves in odd dimension are the integral representations of [21].
+We are presently trying to generalize our methods so that they do not rely so heavily on
+the knowledge of explicit expressions of the conformal partial waves and can thus be valid
+in any dimension.
+
+   One could consider the extension to higher orders in 1/N 2 ; we have noted some potential
+obstructions, from effective field theory reasoning. Also of interest is the coupling of stringy
+states to the low dimension sector that we have studied. More far-reaching directions would
+include scattering of gravitons (that is, correlators of Tµν ) and their relation to black hole
+physics.25 Further, there are many examples of gauge/gravity duality without conformal
+invariance. Although conformal invariance has played a major role in our work, there should
+be a nonconformal extension though it will have many more equations and unknowns.
+ 24
+      Such arguments have recently been explored in Ref. [38].
+ 25
+      J. de Boer and collaborators have been considering these subjects independently.
+
+
+
+                                                     40
+   The general direction of our work is to give a derivation of the low energy sector of
+gauge/gravity duality from the assumptions of a large-N expansion and a gap in the di-
+mensions, without an explicit string construction. If we assume a certain spectrum of low-
+dimension operators, the bulk dual necessarily follows. This provides a context for extending
+the range of AdS/CFT duality, and is likely to be useful in applications to condensed matter
+physics and in the study of cosmological spacetimes.26 Of course, there is no guarantee that
+a given low-dimension spectrum can be embedded in a full CFT, and all known examples
+arise from string backgrounds.
+
+
+Acknowledgments
+
+We have benefited from discussions with many colleagues, including O. Aharony, T. Banks, J,
+de Boer, D. Berenstein, L. Cornalba, M. Costa, M. Douglas, M. Gary, S. Giddings, D. Gross,
+S. Hartnoll, G. Horowitz, J. McGreevy, T. Okuda, S. Shenker, E. Silverstein, E. Sokatchev,
+M. Strassler, L. Susskind, S. Todadri, and P. Vieira, and with many participants at the KITP
+Program on Fundamental Aspects of String Theory. JP1 is funded by the FCT fellowship
+SFRH/BPD/34052/2006 and partially funded by the grant CERN/FP/83508/2008. This
+work was supported in part by NSF grants PHY05-51164 and PHY07-57035.
+
+
+A      Some properties of J(p, q)
+
+The integral J(p, q) defined in equation (4.10) can be explicitly performed in terms of a sum
+over hypergeometric functions 4 F3 at z = 1,
+                             p  
+              Cp Γ(2∆ + 2p) X p (−1)l (∆ + p)2q−l
+  J(p, q) = −
+              Cq Γ2 (∆ + p) l=0 l      Γ2 (q + 1 − l)
+          × 4 F3 (−q + l, −q + l, 1 − ∆ − q, 1 − ∆ − q;                                            (A.1)
+                                         l − ∆ − q − p + 1, l − ∆ − q − p + 1, 2 − 2∆ − 2q; 1) .
+
+where (a)b = Γ(a+ b)/Γ(a) = a(a+ 1) . . . (a+ b−1). For a few cases this expression simplifies
+significantly. When q = 0, the residue in the integral (4.10) is Fe∆+p (0) = 1, and so
+                               Cp Γ(2∆ + 2p)    (2∆ + 2p − 1)Γ(2∆ + p − 1)
+                 J(p, 0) = −        2
+                                             =−                            .                       (A.2)
+                               C0 Γ (∆ + p)              p!Γ2 (∆)
+  26
+    As a curious application, suppose that we have a CFT whose only low-dimension operators are the
+energy-momentum and a conserved current. Then at finite charge density, such a system necessarily violates
+the third law of thermodynamics. The point is that — assuming that our result for the four-point function
+applies to the partition function as well — then the latter is given by the Reissner-Nordstrom black hole
+entropy, whose horizon area is finite even at zero temperature.
+
+                                                   41
+When p = 0 the sum (A.1) reduces to a single term, which simplifies because some of the
+arguments of 4 F3 are equal:
+                C0 Γ(2∆)Γ2 (∆ + q)                                (2∆ − 1)Γ(2∆ + q − 1)
+  J(0, q) = −             2 4
+                                   F (−q, −q, 2 − 2∆ − 2q, 1) = −                       .
+                   Cq (q!) Γ (∆)                                         q!Γ2 (∆)
+                                                                                      (A.3)
+
+   It may be worth mentioning that J(p, q) can actually be expressed in terms of a single
+hypergeometric 4 F3
+                              Cp Γ(2∆ + 2p) (−1)q (1 − q − ∆)2q
+             J(p, q) =
+                              Cq Γ(∆ + p)2 (2 − 2q − 2∆)q Γ(q + 1)
+                                    × 4 F3 (−q, 1 − p − ∆, p + ∆, 2∆ − 1 + q; 1, ∆, ∆; 1) .            (A.4)
+
+However, this expression does not yield the special cases above in an obvious way.
+
+   It is also useful to determine the asymptotic expansion of J(p, q) for p ≫ q, ∆. The
+integral J(p, q) picks the term of order z q in
+
+               (1 − z)p F (∆ + p, ∆ + p, 1, z)F (1 − ∆ − q, 1 − ∆ − q, 2 − 2∆ − 2q, z)
+                  X∞
+                            k1 +k2 +k3 (−p)k1 (∆ + p)k2
+                                                       2
+                                                            (1 − ∆ − q)2k3
+             =            z                                                 .                          (A.5)
+               k ,k ,k =0
+                                         k1 !   (k2 !)2 k3 !(2 − 2∆ − 2q)k3
+                1   2   3
+
+This gives
+                                   ∞
+                 Cp Γ(2∆ + 2p) X (−p)k1 (∆ + p)2k2 (1 − ∆ − q)2k3
+     J(p, q) = −                                                          δk1 +k2 +k3 ,q ,             (A.6)
+                 Cq Γ2 (∆ + p) k ,k ,k =0 k1 !(k2 !)2 k3 !(2 − 2∆ − 2q)k3
+                                         1   2   3
+
+
+where each term in the sum grows like pk1 +2k2 at large p. Therefore, the leading behavior of
+J(p, q) comes from the term with k1 = k3 = 0 and k2 = q. We obtain
+                                                                      Γ(2∆ + 2q − 1)
+     J(p, q) = −2Bq p2∆+2q−1 + O(p2∆+2q−2 ) ,             Bq =                                     .   (A.7)
+                                                                 q!Γ2 (∆ + q)Γ(2∆ + q − 1)
+The regime q ≫ p, ∆ can easily be obtained using the relation (4.14),
+
+                            J(p, q) = −(2∆ + 2p − 1)Bp q 2∆+2p−2 + O(q 2∆+2p−3 ) .                     (A.8)
+
+ We now give an outline of how to obtain the L = 0 solution for the crossing equation in
+four dimensions. Setting q = 0 in (4.33) we find
+
+      γ ′ (p, 0)J (∆−1) (p + 1, 0) − γ ′ (p − 1, 0)J (∆−1) (p − 1, 0) = γ ′ (0, 0)J (∆−1) (1, p)       (A.9)
+
+J (∆−1) (p ± 1, 0) is obtained from (A.2), furthermore, using (4.14)
+                                                                                  Γ(2∆ + p − 3)
+  J (∆−1) (1, p) = (∆ − 1)(2∆ − 1)(3 − 5∆ + 2((p − 3)p + 2p∆ + ∆2 ))                             (A.10)
+                                                                                  Γ(p + 1)Γ2 (∆)
+We can then use a computer algebra program to iteratively solve (A.9) for γ(p, 0) in terms
+of γ(0, 0). We conclude that the the general form of γ(p, 0) is given by (4.34).
+
+                                                     42
+B      Nondegeneracy of M (p)qr and M (∆−1)(p)qr
+
+In Sec. 4.2 and Sec. 7 we need to invert the k × k matrix
+
+                         M(p)qr = J(p + 2r, q) ,        q, r = 0, . . . , k − 1              (B.1)
+                                                       Pk−1
+at fixed p. Suppose that for some constants vr ,        r=0 M(p)qr vr = 0 for all 0 ≤ q ≤ k − 1. In
+other words,
+                        I
+                           dz σ(z) F1−∆−q (z)
+                                 q+1 (1 − z)∆
+                                                 = 0 , 0 ≤q ≤k−1 ,
+                         C 2πi z
+                               k−1
+                               X
+                        σ(z) =      vr C∆+p+2r (1 − z)∆+p+2r Fe∆+p+2r (z) .                  (B.2)
+                                r=0
+
+An iterative argument starting from q = 0 shows that the contour integral vanishes iff the
+first k terms in the Taylor series for σ(z) at the origin vanish.
+          e = (1 − z)2 ∂z z∂z , which is related to D from Eq. (4.8) by z → 1 − z. It follows
+   Define D
+from the hypergeometric equation that
+
+ D(1 − z)∆+p+2r Fe∆+p+2r (z) = (∆ + p + 2r)(∆ + p + 2r − 1)(1 − z)∆+p+2r Fe∆+p+2r (z) , (B.3)
+ e
+
+and so                                                     !
+                      k−1
+                      Y
+                          e − (∆ + p + 2r)(∆ + p + 2r − 1)] σ(z) = 0 .
+                         [D                                                                  (B.4)
+                      r=0
+
+Now, the differential operator in this equation contains a term (∂z z∂z )k , for which
+
+                                                  Γ(m + 1)2
+                             (∂z z∂z )k z m =                 z m−k .                        (B.5)
+                                                Γ(m − k + 1)2
+
+(Note that this vanishes for m a nonnegative integer less than k.) All other terms in the
+differential operator would give higher powers of z. If σ(z) has leading term z m with m ≥ k,
+then it follows that there is a nonzero term of order z m−k on the left side of Eq. (B.4), which
+is a contradiction. Since we have already seen that there are no terms in σ(z) with m < k,
+it follows that σ(z) vanishes identically, and so do the vr . Thus, M(p)qr vr = 0 implies that
+vr = 0, QED.
+
+    In d = 4 we need to invert a similarly defined matrix
+
+                 M (∆−1) (p)qr = J (∆−1) (p + 2r + 1, q) ,      q, r = 0, . . . , k − 1      (B.6)
+
+
+
+                                                  43
+                                                                        Pk−1 (∆−1)
+at fixed p. Suppose again that there exist constants vr such that r=0        M     (p)qr vr = 0
+for all 0 ≤ q ≤ k − 1. Then
+                        I
+                            dz σ(z) F2−∆−q (z)
+                                  q+1 (1 − z)∆
+                                                  = 0 , 0 ≤q ≤k−1 ,
+                          C 2πi z
+                                k−1
+                                X
+                        σ(z) =       vr C∆+p+2r (1 − z)∆+p+2r Fe∆+p+2r (z) .              (B.7)
+                                r=0
+
+This differs from d = 2 only by the arguments in the second term of the integrand. This
+does not alter the previous line of reasoning and the proof holds as above; M (∆−1) (p)qr vr = 0
+implies that vr = 0.
+
+
+C     Vanishing of H(z)
+
+After using the solution (4.13), the expression (4.24) for H(z) which appeared in the calcu-
+lation of the c(n, l) becomes
+                   "              ∞                                                #
+                                 X    ∂         (2∆ − 1)Γ(2∆   + 2n)
+   H(z) = γ(0, 0) F∆ (1 − z) +            Cn2                2 (∆ + n)
+                                                                       z n F∆+n (z)    . (C.1)
+                                 n=0
+                                     ∂n       (2∆ + 2n −  1)Γ
+The infinite sum can be written as a countour integral
+               Z                                                     
+                       dn     ∂    2 (2∆ − 1)Γ(2∆ + 2n)      n
+                                 Cn                         z F∆+n (z) ,                  (C.2)
+                  2i tan(πn) ∂n     (2∆ + 2n − 1)Γ2 (∆ + n)
+using the Sommerfeld-Watson transform. Integrating by parts and changing variable, n =
+(1 − 2∆ + iµ)/2, we can rewrite the expression as an integral over real values of µ (assuming
+∆ > 1/2). This gives
+                    Z
+          (2∆ − 1)         2      1 − iµ 2        1 + iµ Γ2 ( iµ+1
+                                                                2
+                                                                   ) iµ+1 −∆
+        −     4
+                      dµ Γ   (∆ −       )Γ  (∆ −        )           z 2      F iµ+1 (z) . (C.3)
+           4πΓ (∆)                   2              2      Γ(iµ)                 2
+
+
+We have checked numerically that this integral is precisely equal to −F∆ (1 −z) and therefore
+H(z) vanishes.
+
+
+D      Explicit Conformal Partial Wave Expansions in 2d
+
+The conformal partial wave expansion (4.3) of the correlator (5.12) in d = 2 can be found
+using a series expansion of the D-function. It reads
+                                         P6 (n)
+             γ(n, 0) =                                                                    (D.1)
+                       (2n + 2∆ − 3)(2n + 2∆ − 1)(2n + 2∆ + 1)
+                       (n + 1)(n + 2)(n + ∆)(n + ∆ + 1)(n + 2∆ − 1)(n + 2∆)
+             γ(n, 2) =                                                                    (D.2)
+                             2(2n + 2∆ − 1)(2n + 2∆ + 1)(2n + 2∆ + 3)
+
+                                              44
+where
+                                                 
+    P6 (n) = 7n6 + 21(2∆ − 1)n5 + 99∆2 − 93∆ + 16 n4                                     (D.3)
+             +(2∆(∆(58∆ − 75) + 20) + 3)n3 + (∆(∆(38∆(2∆ − 3) + 31) + 11) − 5)n2
+             +2∆3 (2∆(8∆ − 13) + 9)n + 2∆4 (4(∆ − 2)∆ + 3)
+
+and γ(n, l) = 0 for l > 2. The c(n, l) are given by equation (4.25).
+
+   For the correlator (5.15) the conformal partial wave expansion in d = 2 is given by
+
+                                        P8 (n)
+            γ(n, 0) =                                                                    (D.4)
+                      (2n + 2∆ − 3)(2n + 2∆ − 1)(2n + 2∆ + 1)
+                      (n + 1)(n + 2)(n + ∆)(n + ∆ + 1)(n + 2∆ − 1)(n + 2∆)
+            γ(n, 2) =                                                                    (D.5)
+                            2(2n + 2∆ − 1)(2n + 2∆ + 1)(2n + 2∆ + 3)
+                         2
+                                                       
+                    × 3n + (6∆ + 3)n + ∆(6∆ + 7) + 2
+
+where
+
+   P8 (n) = −3n8 + 12(1 − 2∆)n7 + ((100 − 57∆)∆ − 10)n6                                  (D.6)
+            −3(∆(∆(2∆ − 89) + 36) + 4)n5 + (∆(3∆(∆(58∆ + 93) − 99) − 14) + 17)n4
+            +∆(∆(4(∆ − 1)∆(72∆ + 89) + 13) + 56)n3
+            +(∆(∆(∆(2∆(4∆(26∆ − 7) − 115) + 25) + 58) − 10) − 4)n2
+            +2∆3 (2∆(∆(4∆(5∆ − 2) − 23) + 2) + 9)n
+                                           
+            +2∆4 8∆4 − 4∆3 − 14∆2 + ∆ + 3
+
+and γ(n, l) = 0 for l > 2. The c(n, l) are again given by equation (4.25).
+
+
+References
+
+ [1] J. M. Maldacena, “The large N limit of superconformal field theories and supergrav-
+     ity,” Adv. Theor. Math. Phys. 2, 231 (1998) [Int. J. Theor. Phys. 38, 1113 (1999)]
+    [arXiv:hep-th/9711200].
+
+ [2] S. S. Gubser, I. R. Klebanov and A. M. Polyakov, “Gauge theory correlators from
+    non-critical string theory,” Phys. Lett. B 428, 105 (1998) [arXiv:hep-th/9802109].
+
+ [3] E. Witten, “Anti-de Sitter space and holography,” Adv. Theor. Math. Phys. 2, 253
+    (1998) [arXiv:hep-th/9802150].
+
+
+                                             45
+ [4] G. Bertsch, S. J. Brodsky, A. S. Goldhaber and J. F. Gunion, “Diffractive Excitation
+     In QCD,” Phys. Rev. Lett. 47, 297 (1981);
+    A. H. Mueller, “Color Transparency and Nuclear Shadowing,” CU-TP-412.
+
+ [5] L. Susskind, “Holography in the flat space limit,” arXiv:hep-th/9901079.
+
+ [6] D. E. Berenstein, M. Hanada and S. A. Hartnoll, “Multi-matrix models and emergent
+     geometry,” JHEP 0902, 010 (2009) [arXiv:0805.4658 [hep-th]];
+     “Small AdS black holes from SYM,” Phys. Lett. B 673, 264 (2009) [arXiv:0809.0712
+    [hep-th]].
+
+ [7] T. Eguchi and H. Kawai, “Reduction Of Dynamical Degrees Of Freedom In The Large
+    N Gauge Theory,” Phys. Rev. Lett. 48, 1063 (1982);
+    G. Bhanot, U. M. Heller and H. Neuberger, “The Quenched Eguchi-Kawai Model,”
+    Phys. Lett. B 113, 47 (1982).
+
+ [8] J. Polchinski, “S-matrices from AdS spacetime,” arXiv:hep-th/9901076.
+
+ [9] S. B. Giddings, “Flat-space scattering and bulk locality in the AdS/CFT correspon-
+     dence,” Phys. Rev. D 61, 106008 (2000) [arXiv:hep-th/9907129].
+
+[10] M. Gary, S. B. Giddings and J. Penedones, “Local bulk S-matrix elements and CFT
+     singularities,” arXiv:0903.4437 [hep-th].
+
+[11] M. Gary and S. B. Giddings, “The flat space S-matrix from the AdS/CFT correspon-
+    dence?,” arXiv:0904.3544 [hep-th].
+
+[12] T. Banks, M. R. Douglas, G. T. Horowitz and E. J. Martinec, “AdS dynamics from
+    conformal field theory,” arXiv:hep-th/9808016;
+    V. Balasubramanian, P. Kraus, A. E. Lawrence and S. P. Trivedi, “Holographic probes
+    of anti-de Sitter space-times,” Phys. Rev. D 59, 104021 (1999) [arXiv:hep-th/9808017];
+    I. Bena, “On the construction of local fields in the bulk of AdS(5) and other spaces,”
+    Phys. Rev. D 62, 066007 (2000) [arXiv:hep-th/9905186];
+    A. Hamilton, D. N. Kabat, G. Lifschytz and D. A. Lowe, “Holographic representation
+    of local bulk operators,” Phys. Rev. D 74, 066009 (2006) [arXiv:hep-th/0606141].
+
+[13] G. T. Horowitz and V. E. Hubeny, “CFT description of small objects in AdS,” JHEP
+     0010, 027 (2000) [arXiv:hep-th/0009051];
+    V. Hubeny, L. Susskind and N. Toumbas, “Comments concerning the CFT description
+    of small objects in AdS,” arXiv:hep-th/0011164.
+
+
+                                            46
+[14] L. F. Alday and J. M. Maldacena, “Gluon scattering amplitudes at strong coupling,”
+     JHEP 0706, 064 (2007) [arXiv:0705.0303 [hep-th]].
+
+[15] Z. Bern, L. J. Dixon and V. A. Smirnov, “Iteration of planar amplitudes in maximally
+     supersymmetric Yang-Mills theory at three loops and beyond,” Phys. Rev. D 72 (2005)
+    085001 [arXiv:hep-th/0505205].
+
+[16] J. M. Drummond, J. Henn, G. P. Korchemsky and E. Sokatchev, “On planar gluon
+     amplitudes/Wilson loops duality,” Nucl. Phys. B 795 (2008) 52 [arXiv:0709.2368 [hep-
+    th]].
+
+[17] A. Strominger, unpublished;
+    S. S. Gubser, I. R. Klebanov and A. W. Peet, “Entropy and Temperature of Black
+    3-Branes,” Phys. Rev. D 54, 3915 (1996) [arXiv:hep-th/9602135].
+
+[18] O. Aharony, M. Berkooz and E. Silverstein, “Multiple-trace operators and non-local
+     string theories,” JHEP 0108, 006 (2001) [arXiv:hep-th/0105309].
+
+[19] I. R. Klebanov and A.          M.   Polyakov,    Phys.   Lett.   B 550,     213 (2002)
+     [arXiv:hep-th/0210114].
+
+[20] X. Bekaert, S. Cnockaert, C. Iazeolla and M. A. Vasiliev, “Nonlinear higher spin theories
+     in various dimensions,” arXiv:hep-th/0503128.
+
+[21] S. Ferrara, A. F. Grillo, G. Parisi and R. Gatto, “Covariant Expansion Of The Conformal
+    Four-Point Function,” Nucl. Phys. B 49, 77 (1972);
+    S. Ferrara, A. F. Grillo, R. Gatto and G. Parisi, “Analyticity properties and asymptotic
+    expansions of conformal covariant green’s functions,” Nuovo Cim. A 19, 667 (1974);
+    A. M. Polyakov, Non-Hamiltonian approach to conformal quantum field theory, JETP
+    39 (1974) 10;
+    V. K. Dobrev, V. B. Petkova, S. G. Petrova and I. T. Todorov, “Dynamical Derivation Of
+    Vacuum Operator Product Expansion In Euclidean Conformal Quantum Field Theory,”
+    Phys. Rev. D 13, 887 (1976).
+
+[22] H. Liu and A. A. Tseytlin, “On four-point functions in the CFT/AdS correspondence,”
+    Phys. Rev. D 59, 086002 (1999) [arXiv:hep-th/9807097];
+    D. Z. Freedman, S. D. Mathur, A. Matusis and L. Rastelli, “Comments on 4-
+    point functions in the CFT/AdS correspondence,” Phys. Lett. B 452, 61 (1999)
+    [arXiv:hep-th/9808006];
+    H. Liu, “Scattering in anti-de Sitter space and operator product expansion,” Phys. Rev.
+
+                                             47
+    D 60, 106005 (1999) [arXiv:hep-th/9811152];
+    E. D’Hoker and D. Z. Freedman, “General scalar exchange in AdS(d+1),” Nucl. Phys.
+    B 550, 261 (1999) [arXiv:hep-th/9811257];
+    L. Hoffmann, A. C. Petkou and W. Ruhl, “A note on the analyticity of AdS
+    scalar exchange graphs in the crossed channel,” Phys. Lett. B 478 (2000) 320
+    [arXiv:hep-th/0002025];
+    L. Hoffmann, A. C. Petkou and W. Ruhl, “Aspects of the conformal operator prod-
+    uct expansion in AdS/CFT correspondence,” Adv. Theor. Math. Phys. 4 (2002) 571
+    [arXiv:hep-th/0002154].
+
+[23] E. Witten, “Three-Dimensional Gravity Revisited,” arXiv:0706.3359 [hep-th].
+
+[24] F. A. Dolan and H. Osborn, “Conformal four point functions and the operator product
+    expansion,” Nucl. Phys. B 599 (2001) 459 [arXiv:hep-th/0011040];
+    F. A. Dolan and H. Osborn, “Conformal partial waves and the operator product expan-
+    sion,” Nucl. Phys. B 678 (2004) 491 [arXiv:hep-th/0309180].
+
+[25] R. Rattazzi, V. S. Rychkov, E. Tonni and A. Vichi, “Bounding scalar operator dimen-
+     sions in 4D CFT,” JHEP 0812 (2008) 031 [arXiv:0807.0004 [hep-th]].
+
+[26] V. S. Rychkov and A. Vichi, “Universal Constraints on Conformal Operator Dimen-
+     sions,” arXiv:0905.2211 [hep-th].
+
+[27] A. A. Tseytlin and K. Zarembo, “Effective potential in non-supersymmetric SU(N) x
+     SU(N) gauge theory and interactions of type 0 D3-branes,” Phys. Lett. B 457, 77 (1999)
+    [arXiv:hep-th/9902095];
+    C. Csaki, W. Skiba and J. Terning, “Beta functions of orbifold theories and the hierarchy
+    problem,” Phys. Rev. D 61, 025019 (2000) [arXiv:hep-th/9906057];
+    A. Adams and E. Silverstein, “Closed string tachyons, AdS/CFT, and large N QCD,”
+    Phys. Rev. D 64, 086001 (2001) [arXiv:hep-th/0103220].
+
+[28] L. Cornalba, M. S. Costa, J. Penedones and R. Schiappa, “Eikonal approximation in
+     AdS/CFT: Conformal partial waves and finite N four-point functions,” Nucl. Phys. B
+    767 (2007) 327 [arXiv:hep-th/0611123].
+
+[29] J. Penedones,    “High Energy Scattering in the AdS/CFT Correspondence,”
+    arXiv:0712.0802 [hep-th].
+
+[30] P. A. M. Dirac, Annals Math. 37 (1936) 429.
+
+
+
+                                             48
+[31] E. D’Hoker, D. Z. Freedman, S. D. Mathur, A. Matusis and L. Rastelli, “Graviton
+     exchange and complete 4-point functions in the AdS/CFT correspondence,” Nucl. Phys.
+    B 562 (1999) 353 [arXiv:hep-th/9903196].
+
+[32] F. A. Dolan and H. Osborn, “Implications of N = 1 superconformal symmetry for chiral
+    fields,” Nucl. Phys. B 593 (2001) 599 [arXiv:hep-th/0006098].
+
+[33] L. Cornalba, M. S. Costa, J. Penedones and R. Schiappa, “Eikonal approximation
+     in AdS/CFT: From shock waves to four-point functions,” JHEP 0708 (2007) 019
+    [arXiv:hep-th/0611122].
+
+[34] L. Cornalba, M. S. Costa and J. Penedones, “Eikonal Approximation in AdS/CFT: Re-
+    summing the Gravitational Loop Expansion,” JHEP 0709 (2007) 037 arXiv:0707.0120
+    [hep-th].
+
+[35] L. Cornalba, “Eikonal Methods in AdS/CFT: Regge Theory and Multi-Reggeon Ex-
+     change,” arXiv:0710.5480 [hep-th].
+
+[36] L. Cornalba, M. S. Costa and J. Penedones, “Eikonal Methods in AdS/CFT: BFKL
+     Pomeron at Weak Coupling,” JHEP 0806 (2008) 048 [arXiv:0801.3002 [hep-th]].
+
+[37] A. M. Jaffe, “High-Energy Behavior In Quantum Field Theory. I. Strictly Localizable
+     Fields,” Phys. Rev. 158 (1967) 1454.
+
+[38] M. Porrati and R. Rahman, “A Model Independent Ultraviolet Cutoff for Theories with
+    Charged Massive Higher Spin Fields,” Nucl. Phys. B 814, 370 (2009) [arXiv:0812.4254
+    [hep-th]].
+
+
+
+
+                                           49
+

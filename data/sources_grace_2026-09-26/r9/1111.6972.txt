@@ -1,0 +1,2298 @@
+                                                       Analyticity and the Holographic S-Matrix
+
+                                                                       A. Liam Fitzpatrick1 , Jared Kaplan2
+
+                                             1
+                                              Stanford Institute for Theoretical Physics, Stanford University, Stanford, CA 94305
+                                         2
+                                             SLAC National Accelerator Laboratory, 2575 Sand Hill, Menlo Park, CA 94025, USA.
+
+
+
+
+                                                                                        Abstract
+
+
+
+
+arXiv:1111.6972v3 [hep-th] 11 Jul 2012
+                                                     We derive a simple relation between the Mellin amplitude for AdS/CFT correlation
+                                                 functions and the bulk S-Matrix in the flat spacetime limit, proving a conjecture of
+                                                 Penedones. As a consequence of the Operator Product Expansion, the Mellin amplitude
+                                                 for any unitary CFT must be a meromorphic function with simple poles on the real
+                                                 axis. This provides a powerful and suggestive handle on the locality vis-a-vis analyticity
+                                                 properties of the S-Matrix. We begin to explore analyticity by showing how the familiar
+                                                 poles and branch cuts of scattering amplitudes arise from the holographic description.
+                                                 For this purpose we compute examples of Mellin amplitudes corresponding to 1-loop and
+                                                 2-loop Witten diagrams in AdS. We also examine the flat spacetime limit of conformal
+                                                 blocks, implicitly relating the S-Matrix program to the Bootstrap program for CFTs.
+                                                 We use this connection to show how the existence of small black holes in AdS leads to a
+                                                 universal prediction for the conformal block decomposition of the dual CFT.
+1     Introduction and Review
+The only exact observables in quantum gravity are associated with the boundary of spacetime,
+so a holographic theory of asymptotically flat spacetime will be a theory of the S-Matrix.
+Recently, evidence [1, 2, 3] has accumulated supporting a conjecture of Penedones [1] that
+the Mellin representation [4, 5, 1] of Conformal Field Theory (CFT) correlation functions
+defines a dual bulk S-Matrix via the vanishing-curvature limit of the AdS/CFT correspondence
+[6, 7, 8]. Our goal is to investigate the Mellin amplitude as a way of organizing AdS/CFT
+into a holographic theory of flat spacetime where the principles of locality and unitarity are
+evident. The purpose of this work is to prove Penedones’ conjecture [1, 2] and to explore how
+the locality vis-a-vis analyticity of the S-Matrix emerges from the Mellin amplitude of the
+CFT; we will discuss unitarity as a consequence of the OPE in a separate work [9].
+    The Mellin amplitude for a CFT correlator represents the correlator in terms of a set of
+variables that make CFT physics more manifest, much as momentum space naturally represents
+scattering amplitudes. In the case of scalar operators, the Mellin representation [4, 5, 1] takes
+the form                                     Z                Y
+                                                              n
+                      hO1 (x1 )...On (xn )i = [dδij ]M (δij )   Γ(δij )(xij )−2δij            (1)
+                                                           i<j
+
+where the Mellin Amplitude is the conformally invariant function M (δij ). The ‘Mellin
+                                                                                   P      space’ is
+the space of variables δij , which are symmetric and subject to the n constraints j6=i δij = ∆i ,
+where ∆i are the dimensions of the operators Oi . One can always think of the δij in analogy
+with the Mandelstam invariants sij = 2pi · pj of a scattering amplitude; the constraints on the
+δij are analogous to the constraints on the sij that follow from momentum conservation and
+the on-shell conditions.
+    The most significant principle behind the simplicity of the Mellin amplitude is unitarity,
+in the guise of the Operator Product Expansion. Using the convergent OPE, it is possible to
+express correlation functions involving many operators as a sum over products of correlators
+involving fewer operators. The Mellin amplitude displays these OPE decompositions of cor-
+relation functions as a sum over poles, with residues given by lower-point Mellin amplitudes.
+These poles are analogous to the multi-particle factorization channels of scattering amplitudes,
+but in fact they are even more constrained: in unitary CFTs the Mellin amplitude can only
+have simple poles in a certain region of the real axis. The existence of these factorization chan-
+nels makes it possible to determine the Mellin amplitude recursively, and we [2] and Paulos [3]
+gave algebraic diagrammatic rules for its evaluation in the case of scalar theories at tree-level.
+We will review these and other properties of Mellin amplitudes more thoroughly in section 1.1.
+    The similarity between the Mellin amplitude and the S-Matrix is no coincidence. Penedones
+has conjectured [1] a very simple and natural relationship between the Mellin amplitude of
+a large N CFT and the S-Matrix of its bulk dual in the flat spacetime limit of AdS. His
+conjecture takes the form
+                                        !Z                                              
+                       1 d+1     X         i∞
+                                                                      R2 sij
+                                                   α h−∆Σ
+        T (sij ) = lim    δ          pi       dα e α      M δij = −          , ∆a = Rma        (2)
+                  R→∞ N                   −i∞                           4α
+                                   i
+
+where R is the AdS length scale, N is a normalization factor, and T (sij ) is the connected,
+
+                                                1
+           AdS                                                        CFT
+
+
+                                    ∆t
+
+                                                                      �    �
+                                                                      ∆t
+                                                                  exp
+                                                                      R
+
+                   ρ
+
+Figure 1: This figure shows how the AdS cylinder in global coordinates corresponds to the
+CFT in radial quantization. The time translation operator in the bulk of AdS is the Dilatation
+operator in the CFT, so energies in AdS correspond to dimensions in the CFT.
+
+
+reduced S-Matrix of massless scalar particles as a function of the Mandelstam invariants.
+Penedones checked this conjecture for general scalar theories at tree-level and for φ4 theory at
+one-loop. Recently we [2] verified the conjecture for n-pt amplitudes in general scalar theories
+at tree-level by showing that our diagrammatic rules for the Mellin amplitude reduce to the
+usual Feynman rules in the flat space limit. By setting up the appropriate scattering experi-
+ment [10, 11, 12, 13] in AdS and making gratuitous use of the stationary phase approximation,
+we will derive Penedones’ conjecture in section 2.
+    Why is the Mellin amplitude related to the flat-space S-matrix? A key point is that the
+Dilatation operator in the CFT generates global time translations in AdS, as pictured in figure
+1. In other words, the energy of particles in AdS is given by the dimension of a CFT operator
+(or equivalently a CFT state through the operator-state correspondence). So aside from their
+manifest similarity in a large class of examples, one can understand the relationship between
+Mellin and scattering amplitudes by thinking about which states in the CFT correspond to
+scattering processes in AdS. The CFT states dual to AdS particles with energies parametrically
+larger than the AdS curvature scale correspond to operators with very large scaling dimension.
+The δij ’s in the Mellin amplitude correspond to relative scaling dimensions, so scattering states
+localize the Mellin amplitude on large δij ’s related to the energy and momentum of the physical
+scattering process. We will show how to make this argument precise by directly extracting
+scattering states from the correlation functions of n single-trace operators, written in the Mellin
+
+
+                                                2
+representation. For scattering momenta pi large compared to the AdS curvature scale, the δij
+integration variables in equation (1) are almost completely supported in the region where they
+line up with the Mandelstam invariants, so that we have δij ∝ pi · pj . Thus, assuming only
+that single-particle states exist in the flat-space limit of the bulk theory, this gives a direct,
+non-perturbative proof of Penedones’ conjecture, as stated in equation (2).
+    With Penedones’ conjecture proven, we turn to an investigation of locality. From the point
+of view of the S-Matrix, one must view locality1 as the statement that the scattering amplitudes
+are exponentially bounded analytic functions of the kinematic invariants, except near the real
+axis, where the amplitudes can have poles and branch cuts corresponding to resonances and
+multi-particle states. Analyticity of the bulk S-matrix is a particularly important property
+because, in contrast to most other criteria for locality, it is a sharp statement phrased directly
+in terms of holographic observables. The fact that the Mellin amplitude must be a meromorphic
+function with simple poles on the real axis [4, 5] seems to us very striking: since the S-Matrix
+is just a simple transform of the Mellin amplitude, perhaps bulk locality can be understood as
+a natural consequence of a few simple conditions on CFTs.
+    We will begin to explore these issues by demonstrating how various familiar physical an-
+alyticity properties such as branch cuts and resonances emerge from properties of the Mellin
+amplitude at loop-level in AdS. The emergence of simple poles is a straightforward application
+of equation (2) to the Mellin amplitude for a single tree-level exchange in AdS. Indeed, the
+Mellin amplitude in this case already has an infinite series of poles, corresponding to the pri-
+mary CFT operator and its descendants, and all that is necessary is for them to coalesce into a
+single pole at the physical bulk mass. However, how branch cuts and resonances emerge is less
+obvious, since the only singular behavior of the Mellin amplitude is the presence of poles on
+the real axis. The key element in this case is the presence of a tower of poles from multi-trace
+operators, each of which contributes a pole to the holographic S-matrix. In the flat-space limit,
+these poles appear to be arbitrarily narrowly spaced, and we will see that from a line of such
+poles a branch cut emerges. Once branch cuts arise, resonances are virtually guaranteed: the
+resummation of one-particle irreducible (1PI) Witten diagrams brings the loop contribution
+into the denominator of the propagator. We will show in more detail that the mechanism
+for turning real poles in the Mellin amplitude into poles with large imaginary components is
+inherently connected to the coalescence of poles from multi-trace operators contributing to 1PI
+diagrams. All of these issues are studied in section 3, where we also comment on the significant
+recent progress [16, 17, 18, 19] that we have seen in understanding locality in AdS/CFT.
+    In section 4 we study the relationship between the conformal block decomposition of the
+CFT and the flat space S-Matrix. Conformal blocks are the most elementary possible contri-
+butions to CFT 4-pt functions consistent with conformal symmetry; they correspond to the
+exchange of a single primary operator in the CFT and are nicely reviewed in [20]. Since a
+conformal block has definite dimension and angular momentum, in the flat space limit we find
+that it is simply a delta function in the center-of-mass energy times the appropriate angular-
+dependence for a spin ` state:
+                                     `                   (d)
+                                    B∆ (δij )           P` (cos θ)δ(s − M 2 ).                (3)
+Recently, progress [21, 20, 22, 23, 24, 25, 26] has been made understanding general properties
+  1
+      See [14, 15] for nice and relevant discussions.
+
+
+                                                           3
+of CFTs using only the conformal block decomposition, unitarity, and crossing symmetry. Via
+the flat spacetime limit, this means that there is a natural relationship between this version of
+the Bootstrap program [27] and the S-Matrix program.
+    Finally, we discuss what the presence of flat-space black holes in bulk scattering amplitudes
+can tell us about CFT correlation functions. The behavior of high-energy scattering amplitudes
+directly tells us about the size of contributions from conformal blocks of large dimension. In
+theories with gravity, high-energy scattering at trans-Planckian energies results in black hole
+formation, which suggests very rapid shutdown of the scattering amplitude for 2-to-2 scattering
+                                                           
+                                                    1
+                                    S(s) ∼ exp − SBH (s)                                      (4)
+                                                    2
+
+due to the large entropy of the black hole. This shutdown of the amplitude corresponds to
+a rapid shutdown of the conformal block decomposition at large dimensions: we expect that
+the conformal block decomposition of CFTs will truncate at some large dimension to more
+than exponentially good accuracy, as we discuss in section 4.2. Deriving this property directly
+from the CFT would involve understanding the microphysics of Hawking evaporation, and
+thus seems to be an extremely important goal for future work.
+    Since our primary object of interest will be the flat space S-Matrix, the vast majority of
+our discussions of CFTs will be in the context of large N CFTs with an AdS dual that is
+well-described by effective field theory. We will always discuss the correspondence in terms of
+AdSd+1 /CFTd , and ignore any compactification manifolds, although we expect that they will
+be straightforward to include in the future. In the following subsections, we will discuss and
+review some basics of CFTs and the Mellin amplitude, and provide a new, simplified derivation
+of the vertices for the diagrammatic rules discovered in [2, 3].
+
+1.1     Review
+1.1.1   Space of States at Large N
+The Mellin representation of CFT correlation functions is best understood by thinking of
+CFT correlators in analogy with flat space scattering amplitudes. The basis of this analogy
+is the Hilbert space of states at large N . In flat space, one typically quantizes the theory on
+flat, space-like surfaces, and chooses the Hamiltonian to be the generator of Poincaré time
+translations. One then takes the spectrum of this Hamiltonian to be the basis of the space of
+states, which in the limit of weak interactions are the single- and multi-particle states and form
+a Fock space. This space has the essential physical property that the energy of a multi-particle
+state is simply the sum of the energies of the individual particles. This description remains
+valid even in cases where the underlying Lagrangian of the theory is strongly coupled, as long
+as the physical particles of the theory are weakly interacting.
+    CFTs at large N have a nearly identical structure when one studies the theory in radial
+quantization, rather than the quantization in Poincaré time. That is, one takes the “Hamilto-
+nian” of the theory to be the dilatation operator D = ixa ∂x∂ a , which generates radial evolution
+by rescaling. Rather than having a definite frequency, eigenstates of the “Hamiltonian” now
+have a definite scaling dimension. Such eigenstates no longer correspond to particles per se,
+
+                                                4
+which anyway do not exist due to the scale-invariance of the theory, but rather to operators,
+through the state-operator correspondence of radial quantization. Simply put, the state |Oi
+corresponding to an operator O is just that operator acting at the origin on the vacuum:
+|Oi = O(0)|vaci. The assumption of large N can be stated purely in terms of the gauge-
+invariant operators of the theory as a dynamical property of their correlation functions: at
+N → ∞, there is a subsector of operators of the theory whose two-point functions completely
+determine all correlation functions. For instance, the four-point function of such operators is
+just the sum of disconnected pieces:
+                                    N →∞
+ hO1 (x1 )O2 (x2 )O3 (x3 )O4 (x4 )i = hO1 (x1 )O2 (x2 )ihO3 (x3 )O4 (x4 )i + (2 ↔ 3) + (2 ↔ 4). (5)
+
+These operators are called the “single-trace” operators, and they create CFT states that are the
+analogs of single-particle states in Poincaré QFT, because in the large N limit, the multi-trace
+states are just a direct product of single-trace states. It is useful and conventional to group all
+operators into irreducible representations of the conformal group, the lowest-dimension states
+of which are the “primary” operators. Primary operators are physically similar to flat-space
+particle states with zero total momentum, and knowledge of their correlation functions is
+sufficient to determine all correlation functions of the theory. The spatial dependence of their
+two-point functions is completely constrained by conformal symmetry, and we will work with
+the following normalization for single-trace scalar primaries:
+
+                                             C∆                            Γ(∆)
+                         hO(x)O(0)i =            ,         C∆ =                                                (6)
+                                             x2∆                  2π h Γ(∆ + 1 − h)
+
+where h = d2 . Dimensions of multi-trace states are given by the sum of the individual single-
+traces. In other words, given two operators O1 and O2 with dimensions ∆1 and ∆2 , then
+at infinite N there exists an operator “O1 O2 ” with dimension ∆1 + ∆2 , and furthermore all
+operators can be written as a product of the single-traces. The full space of states is again just
+a Fock space, the single-trace operators giving rise to the individual creation and annihilation
+operators of the theory. We will next review how it is that Mellin space makes this structure
+manifest in the correlation functions.
+
+1.1.2    Factorization on Poles in the Mellin Amplitude
+Specific operators appear in the Mellin amplitude in a particularly transparent way: as poles in
+the Mellin variables δij . The reason is that operators are “exchanged” in correlation functions
+whenever they appear in the operator product expansion (OPE) of the external operators, e.g.
+for scalars
+                                   O −∆1 −∆2                                          O −∆3 −∆4
+        O1 (x1 )O2 (x2 ) ⊃ c12O x∆
+                                 12          O(x2 ),       O3 (x3 )O4 (x4 ) ⊃ c34O x∆
+                                                                                    34          O(x4 ),        (7)
+
+and this indicates that correlation functions contain a contribution with a particular scaling:
+                                                              ∆1 −∆2          ∆3 −∆4       ∆O
+                                                         x24               x14                u 2 f (v)
+    hO1 (x1 )O2 (x2 )O3 (x3 )O4 (x4 )i ⊃ c12O c34O                                                         ,   (8)
+                                                         x14               x13             x∆
+                                                                                            12
+                                                                                              1 +∆2 ∆3 +∆4
+                                                                                                   x34
+
+                                                       5
+                                    2 2                   2 2 
+                                    x12 x34                 x14 x23
+                                u=            ,         v=            ,                                  (9)
+                                    x224 x213               x224 x213
+                                                                                       F (u,v)
+where we have used the fact that the scalar four-point function must take the form ∆1 +∆ 2 x∆3 +∆4
+                                                                                   x12
+    ∆1 −∆2  ∆3 −∆4                                                                      34
+
+     x24          x14
+× x14             x13
+                             by conformal invariance. Meanwhile, the contour integration over
+δij variables in the Mellin integral causes them to become localized on the poles, which in this
+case reproduces the correct power of u when there is a pole in the Mellin amplitude at
+                                   δLR ≡ ∆1 + ∆2 − 2δ12 = ∆O .                                          (10)
+It is often convenient to introduce associated with each external operator Oi (xi ) a fictitious
+                                                                                               2
+“momentum”
+     P                                     P and “momentum-conservation” condtions pi = ∆i
+                pi subject to the “on-shell”
+and i pi = 0. Then, the constraints j6=i δij = ∆i are automatically satisfied formally by
+the inner products δij ≡ −pi · pj . Furthermore, the poles associated with a given OPE are
+in exactly the linear combination of δij ’s corresponding to the fictitious momentum-squared
+flowing through the corresponding channel. For instance, note that the δLR variable above is
+simply δLR = −(p1 + p2 )2 = −(p3 + p4 )2 . This fact, combined with the Fock space nature of
+the states at infinite N , is the reason for the Γ functions in the Mellin integrand in eq. (1).
+The point is that these Γ functions contain poles when the δij are negative integers, which
+encodes the presence of multi-trace operators in the theory. For instance, the pole in Γ(δ12 ) at
+δ12 = −m is a pole in δLR at δLR = ∆1 + ∆2 + 2m, which corresponds to double-trace operators
+of the form ∂ r O1 ∂ m−r O2 . In a perturbative description in 1/N , it is natural to factor out these
+poles in the integrand from what one calls the “Mellin amplitude” M (δij ), as this separates
+out universal purely “kinematic” information.
+    One of the most important features of the Mellin amplitude is that it factors on these poles
+into the Mellin amplitudes corresponding to lower-point correlation functions. In [2] it was
+shown that this factorization takes the following form for the exchange of a scalar field in AdS
+dual to an operator of dimension ∆O :
+                                                  X Γ(∆ − h + 1)m!
+            Res[Mn (δij )]δLR =∆O +2m = −4π h                            Lm (δij )Rm (δij ),
+                                                   m
+                                                        (∆ − h + 1)m
+                                               X                            Y
+                                                                            k
+                                                                              (δij )nij
+                                                         L
+                             Lm (δij ) =                Mk+1 (δij + nij )                    ,
+                                           P
+                                                                            i<j
+                                                                                    nij !
+                                               nij =m
+                                               X                                  Y
+                                                                                  n
+                                                                                    (δij )nij
+                                                         R
+                             Rm (δij ) =                Mn−k+1 (δij + nij )                         ,   (11)
+                                           P
+                                                                              k<i<j
+                                                                                            nij !
+                                               nij =m
+
+where k and n − k are the number of operators to the left and right, respectively of the scalar
+                   L      R
+propagator, and Mk+1  , Mn−k+1  are the Mellin amplitudes for the corresponding (k + 1)- and
+(n − k + 1)-point correlation functions obtained by cutting that propagator.
+
+1.1.3   Finite Difference Equation
+Many properties of the Mellin amplitudes for Witten diagrams in AdS can be understood
+most easily by using a finite difference equation that encodes bulk propagation and conformal
+
+                                                   6
+blocks. Its existence follows from the fact that propagators are solutions of the bulk Klein-
+Gordon equation with a δ-function source, e.g.
+
+                            [∇2AdS − ∆(∆ − d)]G∆ (X, Y ) = −δ(X, Y ),                               (12)
+
+for scalars, where δ(X, Y ) is the δ-function corresponding to the covariant measure in AdS.
+Furthermore, one can act with the conformal Casimir on all the external operators inserted to
+the left side of the propagator in P
+                                   the Witten diagram, and this is equivalent to the Laplacian
+acting on the bulk propagator : 2 ( i∈L Ji )2 ∼
+                                 1
+                                              = −∇2AdS . One then obtains a differential equation
+in position space for the correlation function,
+                                       !2              
+                                   X
+                            1        Ji − ∆(d − ∆) A = A0 ,                                (13)
+                              2 i∈L
+
+where A is the correlation function itself, and A0 is the correlation function for the same Witten
+diagram but with the propagator replaced by a contact interaction. One major advantage of
+Mellin space is that the differential equation in position space becomes a finite difference
+equation in Mellin space, in much the same way that the Klein-Gordon equation becomes
+algebraic in momentum space. For any number of external legs, this takes the form
+                                               X                           aj,bi            ab,ij
+                                                                                                   
+     M0 = (δLR − ∆)(d − ∆ − δLR )M +                   δai δbj M − δaj δbi Mai,bj + δab δij Mai,bj , (14)
+                                                ab≤k<ij
+
+                 P        2 P            P            ab,ij
+where δLR = −      i∈L pi   = i∈L ∆i − 2 i<j∈L δij , Mai,bj  = M (δab + 1, δij + 1, δai − 1, δbj − 1),
+and M0 is the Mellin amplitude for A0 . The reason for the finite differences is that conformal
+invariance determines the contribution from any descendant of a primary operator Op in terms
+of the contribution of the primary itself, and the dimensions of the descendants differ from
+those of their primaries by integers. Since the conformal blocks are just eigenfunctions of the
+conformal Casimir, they satisfy this same equation with A0 = M0 = 0, as we discuss in section
+4 and derive in appendix D.
+
+1.1.4    A Simplified Derivation of Vertices in the Diagrammatic Rules
+It was recently discovered [2, 3] that there are simple diagrammatic rules that rapidly determine
+the amplitude for any tree-level Witten diagram in Mellin space. In [3] very simple and
+general formulas for these rules were discovered empirically and conjectured to hold more
+generally, whereas in [2] equivalent but more cumbersome results were proven. Here, we will
+streamline the derivation of the form of the vertex factors in the diagrammatic rules through
+a use of the finite difference equation that we reviewed in the previous subsection. Let us
+consider the diagram that connects n 3-pt vertices to an off-shell n-pt vertex in the middle, as
+depicted in figure 2. We will assume that the diagram therefore only depends on the variables
+2δi = ∆ia +∆ib −2δ2i−1 2i −∆i = 2∆ia ib ,i −2δ2i−1 2i and see that this is a consistent assumption.
+As reviewed in the previous subsection, by acting with the conformal Casimir on the external
+operators at i1 and i2 , one can collapse the internal bulk propagator δ1 to obtain a finite
+
+
+                                                   7
+Figure 2: Internal vertex described in the text. Internal vertices with off-shell δij ’s flowing
+through them can be obtained by adding on external three-point vertices.
+
+
+difference equation, which in this case reads
+                                                                             X
+                    0 = (δLR − ∆1 )(d − ∆1 − δLR )M + 2δ12                          δij M 12,ij .   (15)
+                                                                             ij>2
+
+
+ Since M depends only on the δi combinations, we can group together δij ’s into the δi linear
+combinations in the above equation:
+                                                         X
+          0 = 2δ1 (d − 2∆1 − 2δ1 )M + 4(∆ia ib ,i − δ1 )  (∆ia ib ,i − δi )M 12;2i−1 2i
+                                                                       i≥2
+                                                                                !
+                                               X
+                                               n             X
+                                                             n
+                  +2(∆1a 1b ,1 − δ1 ) ∆1 +           2δi −         4∆ja jb ,j        M 12 .         (16)
+                                               i=1           j=2
+
+
+Now, starting with the assumption that there exists a set of diagrammatic rules for the Mellin
+amplitude in figure 2, we will derive the explicit form that the vertex factors of those rules
+have to take. So we take the following ansatz for the Mellin amplitude:
+                           X Xm ...m           X                 Y
+                                                                 n
+                                                                   S(mj )V j (mj )
+                                   1   n                                             3
+                     M=                    =         Vm1 ...mn                                ,     (17)
+                            mi
+                                 δi − mi       mi                  j
+                                                                             δi − mi
+
+where Vm1 ...mn is an off-shell n-pt vertex, and we have suppressed dependence on the various
+dimensions. The function
+                                          −2π h Γ2 (∆i − h + 1)mi !
+                                 S(mi ) =                                                (18)
+                                             Γ(∆i + mi − h + 1)
+
+
+                                                     8
+has been associated with Mellin space propagators by convention [2, 3], although it could also
+be absorbed into the definition of the vertices. The reduced vertices V3j (mj ) are vertex factors
+associated with two external lines and a single internal line, and take the form
+                                                               λia ib j
+                                        V3j (mj ) =                           ,                               (19)
+                                                          mj !(∆ia ib ,j )−mj
+where the coefficient λia ib j is just the Mellin amplitude for the corresponding three-point func-
+tion.2 The object X is just the total numerator, defined to simplify notation. Plugging this in
+and evaluating on the poles we find
+          "
+       X                                                         X
+0 =         −4m1 (∆1 + m1 − h)Xm1 ...mn + 4(∆1a ,1b ,1 − m1 )        (∆ia ib ,i − mi )Xm1 −1,...mi−1 ,mi −1,mi+1 ...,mn
+         mi                                                                  i≥2
+                                                                        !          #
+                                                   X
+                                                   n
+        + 2(∆1a 1b ,1 − m1 ) −∆1 − 2m1 +                 [2mi + ∆i ] Xm1 −1,... .                                      (20)
+                                                   i=2
+
+Now if we divide by the 3-pt vertices and propagators, the dependence on the external dimen-
+sions goes away! This follows because
+                                  S(mj − 1)V3j (mj − 1)   ∆j + mj − h
+                                             j          =                .                                    (21)
+                                     S(mj )V3 (mj )       ∆ja jb ,j − mj
+Thus after dividing through, we find a simpler recursion relation for V
+                                                                        n          !
+               X                                                   ∆1 X          ∆i
+m1 Vm1 ...mn =     [(∆i − h + mi )Vm1 −1,...,mi −1,...,mn ] + m1 +   −      mi +       Vm1 −1,m2 ,...,mn ,
+               i≥2
+                                                                   2   i=2
+                                                                                 2
+
+where we assume that m1 > 0. Of course we also get similar equations from each of the n
+legs, for a total of n recursion relations. This formula thus provides a constructive derivation
+of V , since starting from V0,...,0 , one may recursively increase any of the mi ’s using the formula
+above; any V with a negative index is to be understood to vanish. One can check that this
+recursion relation is satisfied by the compact expression for the vertex factors conjectured by
+Paulos [3], which are
+                                                       !
+                                 Yn
+                                       (1 − h + ∆i )mi
+           Vm1 ,...,mn = λn                                                                         (22)
+                                 i=1
+                                             mi !
+                                                                                              
+                              (n)                       −m1 , . . . , −mn
+                          ×FA         ∆Σ − h,                                      ; 1, . . . , 1 .
+                                                  1 + ∆1 − h, . . . , 1 + ∆n − h
+The normalization of the vertex factors is chosen here to coincide with [2], and differs slightly
+                                                         P             (n)
+from [3]. In the above expression, ∆Σ ≡ 12 ni=1 ∆i , and FA is a Lauricella function:
+                                                               ∞
+                                                                                                  !
+               (n)     a 1 , . . . , a n
+                                                                  X            Yn
+                                                                                   (a   )
+                                                                                      i ni ix ni
+             FA     g,                     ; x1 , . . . , x n   =      (g)P ni                      . (23)
+                       b1 , . . . , b n                           n =0         i=1
+                                                                                   (b i )ni
+                                                                                            n i !
+                                                                    i
+                                                           Q
+   2                                     h  ∆ia +∆ib +∆j
+     For example, this is λia ib j = g π2 Γ      2       − h   i=ia ,ib ,j C∆i for a gφia φib φj interaction, in our
+normalization.
+
+
+                                                          9
+    δ12                                                      δ13
+                                  Γ(2 − δ12 − δ13 )
+                                                                                         Γ(2 − δ12 − δ13 )
+
+                 1
+                                                                         1
+           1 − δ12 − δ13
+                                                                   1 − δ12 − δ13
+
+
+                               1                                                      1
+           Γ(δ12 )                                                  Γ(δ13 )
+                            δ12 − 1                                                δ13 − 1
+
+
+
+
+Figure 3: This figure shows the pole prescription for the contour integrals defining the Mellin
+representation, as a function of δ12 and δ13 , for the very simple 4-pt example in equation (26).
+One can see that the contour of integration lies between the poles of the Γ functions (black)
+and the poles of the Mellin amplitude (red) in each variable, including δ14 = ∆φ − δ12 − δ13 .
+
+
+The coefficient λn is independent of mi , and should be chosen so that V0...0 is the on-shell
+n-point Mellin amplitude corresponding to the n-point vertex in figure 2. For gφn ,
+                                          πh         Yn
+                                 λn    = g Γ(∆Σ − h)     C∆i .                                         (24)
+                                          2          i=1
+
+   In summary: to compute any tree-level Witten diagram in a theory of scalars interacting
+via contact interactions, one draws all appropriate diagrams, just as in flat space-time. To
+each vertex one associates a factor of the coupling times Vm1 ,...,mn , setting mi to zero for the
+external lines. To each propagator one associates a factor of
+                                                 S∆i (mi )
+                                                                                                       (25)
+                                                 δi − mi
+where δi is the linear combination of δij appropriate to a given propagator. The combination δi
+can be most easily computed by associating fictitious momenta pi to each operator, computing
+2δI = (Σi pi )2 − ∆I , and setting p2i = ∆i and pi · pj = −δij . Finally, one sums over all mi
+associated with internal lines.
+
+1.1.5     A Simple Example - µφ3 Theory at Tree Level
+Let us now give the simplest possible example of a non-trivial Mellin amplitude. If we take
+d = ∆φ = 2 and compute the Mellin amplitude corresponding to 61 µφ3 theory in AdS3 , we find
+                                                                   
+                                  R 3 µ2   1         1         1
+                      M (δij ) =               +          +                             (26)
+                                 2(4π)3 δ12 − 1 δ13 − 1 δ14 − 1
+
+                                                      10
+The result is extremely simple because the (often infinite) sums in the definitions of the di-
+agrammatic rules terminate for certain special values of the dimensions, as can be seen by
+inspection of equation (22). Besides displaying for the reader how simple and natural Mellin
+amplitudes can be, this example affords an opportunity to see in figure 3 the precise pole
+prescription for the contour integrals defining the CFT correlator in the Mellin representation.
+
+
+2    The Flat Space Limit
+Penedones has conjectured [1] that the connected part of the S-Matrix of the bulk theory dual
+to a large N CFT can be obtained from a simple integral transform of the Mellin amplitude
+                                      !Z                                            
+                      1 d+1 X            i∞
+                                                α h−∆Σ             R2 sij
+      T (sij ) = lim    δ          pi       dα e α      M δij = −         , ∆a = Rma
+                 R→∞ N                  −i∞                          4α
+                                i
+                        n(1−d)
+                  πhR      2
+                               +d+1   Yn
+                                           C ∆i
+         N =                                     ,                                         (27)
+                          2           i=1
+                                          Γ(∆i )
+                                                            P
+where we have introduced the short-hand symbol ∆Σ = 12 i ∆i for half the sum of the external
+dimensions, and ∆a are the dimensions of internal fields to which we wish to assign a non-zero
+mass in the flat space limit. The integration contour in the α plane runs to the right of all
+poles of the Mellin amplitude, and the branch cut from αh−∆Σ . Penedones provided many
+pieces of evidence for equation (27), showing that it works for tree-level and one-loop 4-pt
+amplitudes, and that it accords with earlier observations [12] about a certain singularity in
+CFT correlators connected with flat space scattering amplitudes. This evidence was further
+bolstered when it was shown in [2, 3] that Mellin amplitudes can be constructed directly from
+diagrammatic rules that reduce to the standard Feynman rules in the flat space limit. In effect,
+this proved that equation (27) is correct for all tree amplitudes in scalar field theories.
+    In what follows we will prove equation (27) exactly for massless external scalar particles
+(internal ‘virtual’ particles can be massive or massless) using the constructions of [10, 11,
+12, 13]. The flat space S-Matrix can be extracted from AdS/CFT correlation functions in a
+straightforward manner; here we will only give a brief summary and refer the readers to [13]
+for a thorough discussion. A similar direct quantization of AdS fields was given by [28, 29, 30]
+in the early days of AdS/CFT, and has been revisited in detail recently by [31].
+    Individual particles are created by single-trace CFT Operators in the large N limit. We
+would like to prepare and then measure scattering states that correspond to many particles
+with definite energy and momentum in the center of AdS. To create a massless particle in a
+plane wave state with energy ω and velocity v̂ that passes through the center of AdS at time
+t = 0, we act with the single-trace operator O(t, x̂) on the vacuum as
+                                            d−3   Z − πR +τ
+                                  2∆ Γ(∆)R 2            2
+                     |ω, v̂i =                              dteiωt O(t, −v̂)|0i             (28)
+                               (2π)h+1 C∆ (Rω)∆−1 − πR2
+                                                         −τ
+
+where τ  R so that the in and out operators have non-overlapping support [32], and ∆ is
+the dimension of O. The prefactor in front of the integral normalizes these states so that
+                                       hω, v̂|ω 0 , v̂ 0 i = 2ωδτd (~p + p~ 0 )            (29)
+
+                                                         11
+          AdS                                                        CFT
+
+                                                                           2τ
+                              2τ
+
+             ψout                                                         2τ
+
+                                    πR
+                                                                          ψin
+
+                              2τ                                         πR
+                                                                          ψout
+             ψin
+
+Figure 4: This figure shows how bulk scattering processes are setup in AdS/CFT. Creating
+the initial state involves smearing CFT operators over an annulus, which is just S d−1 × [−τ, τ ]
+on the cylinder bounding AdS. The integration over space and (dilatation) time in the CFT
+is necessary to select the direction and magnitude of the bulk momenta, respectively. The
+regulator τ can be taken to infinity in the flat spacetime limit. The final state is measured
+after a time πR, so that the particles have the opportunity to scatter exactly once.
+
+
+where the delta function is regulated by the length scale τ (we have included the derivation
+in appendix B.1). Next we send R → ∞ followed by τ → ∞ to take the flat space limit,
+keeping the physical energy ω fixed. To prepare a multi-particle in-state one simply acts on
+the vacuum with several different single-trace operators. One measures the out-states in an
+identical way, except replacing − πR
+                                   2
+                                     → πR2
+                                           , v̂ → −v̂, and taking the Hermitian conjugate. The
+overlap between the in-states and the out-states extracts the S-Matrix for plane waves from a
+CFT correlation function.
+    Now we will apply this procedure to the Mellin representation of the CFT correlator and
+derive equation (27). AdS in global coordinates translates into a Lorentzian radial quantization
+of the CFT, so the operator corresponding to the ith particle will be located at xi = eiti p̂i
+in the d-dimensional spacetime where the CFT lives. This means that up to a normalization
+
+
+
+
+                                               12
+factor coming from the single-particle states, the S-Matrix is given by the integral and limit
+                     Z          Z τ ± πR                               Y                                            −δij
+                                      2
+                                                   iωi ti                                ti − tj
+ T (sij ) ∝ lim          [dδ]              dti e            M (δij )           cos                     − p̂i · p̂j + i      Γ(δij ) (30)
+           R
+           τ
+             ,τ →∞               −τ ± πR
+                                       2                               i<j
+                                                                                            R
+
+ where the particles have energies ωi , and the measure of integration [dδ] is given in appendix
+ A.1. Our task is to simplify and evaluate these integrals. This will be possible because in the
+ flat spacetime limit, it will turn out that the ti dependence is approximately Gaussian and
+ that typically δij ∼ R2 , so that the Γ functions can be expanded in the Stirling approximation.
+ Then the δij integrations can be performed in the stationary phase approximation, which will
+ imply that δij ∝ sij and give a momentum conserving delta function.
+     Now let us begin to evaluate the integrals. First note that either |ti − tj |  R, if both
+ particles i and j are initial or final, or else |ti − tj − πR|  R, if the ith particle is in the
+ final state and the jth is in the initial state. This means that we can approximate the cosine
+ by its Taylor expansion. But now the only difference between initial and final states is the
+ sign of their momenta, so we can drop the distinction between initial and final states in the
+ time integrals. This just reproduces the familiar fact that we can assign all of the particles
+ in a scattering amplitude to the in-state via analytic continuation. Furthermore, we must
+ anticipate that the flat-space S-matrix will contain a momentum-conserving δ-function. As
+ discussed in [13], this is an immediate consequence of the spacetime symmetries – since the
+ conformal algebra reduces to the Poincaré algebra in the flat space limit, translations will be a
+ good symmetry in that limit, and momentum will be conserved. We will not a priori demand
+ that the
+        P total momentum vanish; for convenience, then, let the center of mass momentum be
+q~ ≡ n1 i p~i , and introduce shifted momenta p~0 i ≡ p~i − q~ that do conserve momentum. Since
+q~ will eventually be constrained to vanish in the flat-space limit, we will consider it to be
+ parametrically smaller than the pi ’s, which grow ∝ R.
+     Expanding the (ti − tj ) dependent factors around the initial and final times ± πR2
+                                                                                         simplifies
+ the integrand, giving
+                          Z          Z τ                               Y                                 −δij
+                                               iωi ti                                       sij   t2ij
+                              [dδ]         dti e        M (δij )             Γ(δij )             − 2              ,                 (31)
+                                      −τ                               i<j
+                                                                                           ωi ωj  R
+                                                                    P
+where we have defined tij = ti − tj . Note that the overall time i ti only appears in the
+exponent, so one could immediately integrate over this direction to give an energy conserving
+delta function, removing a single time integration variable. Now we will re-parameterize the
+δij variables in a way that accords with the structure of the kinematics and the integral. The
+momenta pi do not necessarily obey momentum conservation, so we can define
+
+                                                    2n                       2n2
+                           s0ij = sij −                q · (pi + pj ) +                q2,                                          (32)
+                                                   n−2                  (n − 1)(n − 2)
+        P
+so that j6=i s0ij = 0. Now the s0ij are appropriate for on-shell states with momentum conser-
+vation. Let us take
+                                          R2 0         
+                                  δij = −     sij + ij + ∆ij ,                          (33)
+                                          4α
+                                                                       13
+where we constrain                      X                       X
+                                ∀ i,           ij = 0 and             ∆ij = ∆i ,                        (34)
+                                        j6=i                    j6=i
+
+so that the δij satisfy the usual constraints and the α parameter deforms the δij in a direction
+orthogonal to the ij . This means that between α and the ij , there are n(n−3)/2 free variables,
+as expected for the δij . There is of course a Jacobian factor from this change of integration
+                                                 n(n−3)
+variables which includes a factor of α− 2 −1 , and also a single factor of s0ij due to the α
+direction. We will perform the ij integrations by saddle point, and we will see shortly that
+the saddle point is at ij = 0 in the large R limit, so that only the α parameter remains as an
+integration variable.
+    Next, let us expand the Γ functions and sij exponent at large δij :
+        Y                          −δij
+                       sij     t2ij
+            Γ(δij )         − 2
+        i<j
+                      ωi ωj    R
+                                n(n−1)    2  ∆Σ " Y  0                      #"                     #
+                     (4π)(4α)        4       R                 (sij + ij )ωi ωj ∆ij Y 0           − 21
+               ≈                                                                         sij + ij
+                         R2                  4α         i<j
+                                                                        sij          i<j
+                                                                      
+                            X R2                           0
+                                                           sij + ij
+               × exp −                s0ij + ij log             t2ij
+                                                                                                        (35)
+                            i<j
+                                  4α                       sij
+                                                                −
+                                                        ωi ωj     R2
+
+In what follows we will assume that these factors dominate the integrand in the flat space limit.
+This assumption could be violated if the Mellin amplitude grows exponentially or faster at large
+δij . Such growth would also call into question the convergence of the Mellin representation for
+the CFT correlator itself, but we cannot definitely rule it out. Including the Jacobian from
+the change of δij variables, the prefactor becomes
+         n(n−3)                                       "         #"          #          !
+     1 R2      2           n(n−1)    n(n−1)    n(n−1)     Y         Y 0− 1        X
+                  (R2 )∆Σ − 4 (4π) 4 (4α) 4 −∆Σ               ∆
+                                                             ωi i        sij 2 δτ     ωi     (36)
+     α 4α                                                  i         i<j           i
+
+We see that the α−∆Σ factor has appeared as needed to reproduce the identical factor in
+equation (27), while the other factors must cancel against the normalizations of the single
+particle states in equation (28) and the terms from the integrals below. The argument of the
+exponential can be expanded and greatly simplified to give
+                              "                                     !#
+                                      t2ω   R2            X u2ij
+                          exp itω +       −     −(nq)2 +                                (37)
+                                     4α 4α                i<j
+                                                              2s0ij
+                                 P
+where we have defined tω =           i ti ωi and
+
+                                              2n                  t2ij ωi ωj
+                              uij    = ij −     q · (pi + pj ) +            .                           (38)
+                                             n−2                      R2
+  We can now see equation (27) beginning to take shape. Since nq is just the sum of the
+momenta, at large R the Gaussian factor becomes a momentum conserving delta function
+
+                                                      14
+multiplied by αh . Furthermore, performing the Gaussian integral over tω would provide the
+crucial eα factor present in equation (27). Finally, to complete the derivation we must in-
+tegrate over uij subject to the constraints on ij from equation (34). If we were to ignore
+the constraints, this computation would be trivial, but introducing Lagrange multipliers to
+incorporate the constraints and fix the range of integration over the time variables ti requires
+several more straightforward but lengthy computations, which we have relegated to appendix
+B.2. Schematically, starting from (37), the constrained uij integrations cancel −1/2+n(n−3)/4
+factors of α and R2 from the prefactor. The subsequent integration over all time coordinates
+                                                                                   n 3
+produces the energy-momentum conserving delta function and an additional αh− 2 + 2 , canceling
+the remaining factors of sij and ωi . This gives the final result
+                                             !Z                                   
+                             1 d+1 X            i∞
+                                                        α h−∆Σ              R2 sij
+              T (sij ) = lim   δ          pi       dα e α       M δij = −                   (39)
+                        R→∞ N                  −i∞                           4α
+                                       i
+
+for the connected part of the S-Matrix, as desired.
+
+
+3     From Meromorphy to Analyticity
+Our goal in this section will be to understand how the familiar analyticity properties of the
+S-Matrix follow from the flat space limit of the Mellin amplitude. Specifically, we want to
+investigate branch cuts corresponding to the emission of multi-particle states and poles cor-
+responding to finite-lifetime resonances. On very general grounds, the Mellin amplitude is
+expected [4, 5, 2] to have only simple poles on the real axis, so the more intricate analytic
+structure of the S-Matrix must emerge from the coalescence and resummation of the poles of
+the Mellin amplitude.
+
+3.1    AdS Exchanges
+Let us begin by computing the flat space limit of the Mellin amplitude corresponding to the
+exchange of a massive field in the bulk of AdS. This result will be very useful because in the
+next section we will express loop amplitudes as sums over bulk exchanges, via a procedure
+reminiscent of the Källen-Lehmann representation [33].
+   To begin with, we can write the Mellin amplitude for an exchange as a sum
+                                            X       Rm
+                               M (δij ) =                    ,                             (40)
+                                             m
+                                               δ − (∆5 + 2m)
+
+where for a 2-to-2 s-channel exchange, δ = ∆1 + ∆2 − 2δ12 and ∆5 is the dimension of the
+operator dual to the bulk field being exchanged. The residue was first computed in [1] and
+can be easily obtained from the diagrammatic rules [2, 3], it is
+
+                            Γ(∆125, − h)Γ(∆345, − h)    (1 − ∆12,5 )m (1 − ∆34,5 )m
+            Rm = −R5−2h            Q 4                ×                             ,      (41)
+                           (4π h )3 i=1 Γ(∆i − h + 1)     m!Γ(∆5 − h + 1 + m)
+
+
+                                               15
+where we will often use the notation 2∆a1 ...ak ,b1 ...bl = Σki ∆ai − Σlj ∆bj . In the flat space limit,
+the bulk energies dual to CFT dimensions must be taken to be very large compared to the
+curvature scale 1/R in AdS, so that in particular as R → ∞ we must have ∆5 ∝ R and
+δ ∝ sR2 for a massive exchange. This means that Rm is dominated by large values of m so
+that m ∼ ∆25 ∝ R2 , and we find that
+                                                                  
+                                                                ∆2
+                                                                 5
+                                                  h−∆1234, − 4m
+                               Rm = C m                     e        ,                              (42)
+
+where the proportionality constant C is
+                                                         ∆1234 −h−1
+                                     R2             ∆25
+                                 C=−                                    N.                         (43)
+                                     2              4
+and N is the normalization factor from equation (27). Now, when we take the flat space limit
+of the Mellin amplitude, we can replace the sum over m with an integral, giving
+                                Z i∞                           Z ∞                    ∆2
+                                                                                       5
+                            C         dα h−∆1234 α                       mh−∆1234 e− 4m
+                    T (s) =               α     e                    dm R2 s              ,        (44)
+                            N     −i∞ 2πi                      0        2α
+                                                                             − (∆ 5 + 2m)
+where the integration contour in α runs to the right of all the poles and the branch cut (which
+arises due to the irrational power in the definition of the flat space limit), and 2∆1234 =
+∆1 + ∆2 + ∆3 + ∆4 . To compute these integrals, we can deform the α contour to pick up a
+contribution from the poles and a contribution from the discontinuity across the branch cut.
+Changing integration variables from m to x = 1/m for convenience, the pole contribution is
+              Z                    1+h−∆1234                       1+h−∆1234
+            1          s−∆2
+                     −x 4 5    sR2                    2          sR2
+                dx e         −                 =               −                           (45)
+            2                    4                sR2 − ∆25        4
+We see that the result has a pole in the correct place, but there is an unusual-looking overall
+s-dependent factor. The contribution from the branch cut is
+                                     Z ∞        Z ∞              α 1+h−∆1234             x∆2
+                                                                                             5
+            sin(π(1 + h − ∆1234 ))                                                 2e− 4
+                                           dα         dxe−α                                  .     (46)
+                      π                0        0                  x             −R2 sx + 4α
+It is easy to evaluate these integrals by changing integration variables from x to y = x/α,
+which makes the dα integration and subsequent dy integration straightforward, giving
+                                        1+h−∆1234  2 1+h−∆1234 !
+                       2             sR2                ∆5
+                           2
+                               −   −               +                                   (47)
+                   sR2 + ∆5            4                4
+
+Thus, the branch cut piece combines with the pole piece to cancel off the strange s-dependence,
+and incorporating the overall coefficient leaves us with the expected flat space propagator
+                                                              1
+                                            T (s) =                                                (48)
+                                                           s − m25
+where m5 ≡ ∆5 /R.
+
+                                                          16
+3.2    Computing Loop Diagrams a la Källen-Lehmann
+In flat spacetime, the two point functions of local operators can always be decomposed in the
+Källen-Lehmann representation [34] as
+                                                Z ∞
+                                                          ρ(µ2 )
+                            hΦ(k)Φ(−k)iflat =        dµ 2                                (49)
+                                                 0     k + µ2 + i
+
+where the function ρ(µ) is positive and real. This decomposition follows from unitarity and
+Lorentz invariance [34], and it expresses the two point function of general operators as a
+sum over the two point functions of free fields with different masses. Now we will compute
+some simple loop amplitudes by using the AdS analog of this representation, which was first
+discussed in [33] long before the discovery of AdS/CFT.
+    Consider computing the standard 1-loop bubble diagram from λφ4 theory in AdS, which
+is pictured in figure 5. In position space, this would require us to calculate
+             Z
+                dd+1 Xdd+1 Y G∆1 (P1 , X)G∆2 (P2 , X)G∆ (X, Y )2 G∆3 (Y, P3 )G∆4 (Y, P4 ) (50)
+
+The only difference between this calculation and the computation of a tree level exchange
+in φ2 χ is the replacement of the single propagator G∆χ (X, Y ) with the propagator squared
+G∆ (X, Y )2 . But the square of the bulk-to-bulk propagator is just the two point function of
+the local bulk field φ2 , so that
+
+                                 G∆ (X, Y )2 = φ2 (X)φ2 (Y )                               (51)
+
+Let us compute this two-point function with a Mellin space Källen-Lehmann representation.
+This means that we will write
+                                        X
+                          G∆ (X, Y )2 =    N2,∆ (n)G2∆+2n (X, Y )                     (52)
+                                           n
+
+Using the diagrammatic rules [2, 3] from section 1.1.4 it becomes trivial to compute the loop
+diagram once we know N2,∆ . One can compute the function N2,∆ (n) in Mellin-space, but a
+direct derivation via an inner product, as was used in [17], is probably the simplest method.
+In appendix C we show that for any two scalar propagators
+                                   X
+        G∆1 (X, Y )G∆2 (X, Y ) =       a∆1 ,∆2 (n)G∆1 +∆2 +2n (X, Y ), where             (53)
+                                     n
+                                   (h)n (∆1 + ∆2 + 2n)1−h (∆1 + ∆2 + n − 2h + 1)n
+                    a∆1 ,∆2 (n) =                                                    .
+                                  2π h n! (∆1 + n)1−h (∆2 + n)1−h (∆1 + ∆2 + n − h)n
+
+and recall that the Pochhammer symbol (x)y = Γ(x + y)/Γ(x), and 2h = d, the spacetime
+dimension of the CFT. It is useful to note that for ∆  n, as required for the flat space limit,
+we have
+                                                      2
+                           N2,∆ (n) = a∆,∆ (n) ≈      h
+                                                            n2(h−1) .                       (54)
+                                                  (4π) Γ(h)
+
+                                               17
+                   λφ4                            µφ2 χ                             gφ5
+Figure 5: This figure shows the 1-loop and 2-loop diagrams that we have computed using
+the Mellin space version of the Källen-Lehmann representation. Further generalizations are
+straightforward.
+
+
+This means that in this limit N2,∆ (n) has a simple power law dependence on the parameter n
+which determines the energy of the bulk states being exchanged.
+   There is no need to stop at 1-loop3 . For example, in gφ5 theory at 2-loops there is a 4-
+pt bubble diagram involving three propagators, as pictured in figure 5, which we can easily
+compute. We see that                     X
+                           G∆ (X, Y )3 =     N3,∆ (n)G3∆+2n (X, Y ),                    (55)
+                                                  n
+
+where we have that
+                                            X
+                                            n
+                               N3,∆ (n) =         a∆,∆ (m)a∆,2∆+2m (n − m).                  (56)
+                                            m=0
+
+It is a non-trivial task to perform the sum explicitly. However, it is easy to take the flat space
+limit of the sum:
+                                Z n
+                                       4(n2 − m2 )2(h−1)           n4h−3
+                  N3,∆ (n) ≈        dm                   =                         .          (57)
+                                 0       (4π)2h Γ2 (h)     2(2π)2h (h − 12 )h Γ(h)
+
+This has precisely the correct scaling in n for the Källen-Lehmann representation of the 2-loop
+bubble diagram of figure 5 in 2h + 1 dimensions.
+
+3.3       Branch Cuts and Resonances
+Now let us see how two familiar non-analytic features of scattering amplitudes, namely branch
+cuts from multi-particle intermediate states and finite-width resonances from unstable parti-
+cles, arise from the Mellin amplitude.
+    These phenomena are both connected with the flat spacetime limit, where the AdS length
+R → ∞. However, they do not depend on the intricacies of AdS/CFT, but are instead generic
+  3
+      We apologize to readers uninterested in juvenile computational showmanship.
+
+
+                                                      18
+                                            E                                     E
+
+
+
+
+Figure 6: This figure shows how poles in the integrand of a contour integral lead to branch
+cuts in the result, due to the necessity of deforming the contour as the pole moves.
+
+
+consequences of defining a theory inside a finite ‘box’ and then taking the size of the box to
+infinity. AdS acts as an IR-regulating cavity, and in the flat spacetime limit the cavity’s volume
+becomes infinite, so that the discrete spectrum of modes approaches a continuum. Branch cuts
+can arise in this limit when a line of poles coalesces, because the separation between poles and
+the residues of each pole are both proportional to 1/R. The sum over the discrete spectrum
+becomes indistinguishable from an integral, and as shown in figure 6 such integrals develop
+branch cuts due to the poles of their integrands. Re-summing propagators with branch cuts,
+as is necessary for the central diagram of figure 5 for µφ2 χ theory, leads to finite-width χ
+particles. Thus the Mellin amplitude, whose poles all lie on the real axis, can produce poles
+off the real axis in the S-Matrix.
+                                                          λ 4
+    Let us first see how branch cuts arise at 1-loop in 24  φ theory, for the first diagram in figure
+5. For this purpose we need to take the flat space limit of equation (52). We saw in section
+                                           1
+3.1 that an AdS propagator G∆ → s−(∆)         2 in the flat space limit, so we can directly use the
+                                                                                         λ 4
+function we derived in equation (53) to find the 1-loop scattering amplitude in 24        φ theory.
+In the flat spacetime limit the sum over n becomes an integral, and so we can use the large n
+approximation in equation (54), giving
+                                                     Z ∞
+                            1−loop           2λ2                 n2(h−1)
+                         M         (s) =                  dn                                     (58)
+                                         (4π)h Γ(h) 0        s − (2∆ + 2n)2
+Note that this is precisely of the form expected from the Källen-Lehmann representation of
+                                                                           λ 4
+the bulk theory in flat spacetime, and it agrees with the usual result for 24 φ theory in 2h + 1
+                                                5
+dimensions. Similarly, the 2-loop result in gφ theory is
+                                             Z ∞
+                                2−loop                    n4h−3
+                             M         (s) ∝      dn                                        (59)
+                                              0      s − (3∆ + 2n)2
+in the flat space limit, again in the Källen-Lehmann representation. This has the correct
+scaling for this theory in 2h + 1 bulk dimensions.
+
+                                                 19
+                                                                 ( )
+             +                    +                    + ··· =
+                                                               (1− )
+Figure 7: This figure shows the standard picture of how 1-PI diagrams are resummed to shift
+propagator poles. This familiar momentum-space process also works in Mellin space.
+
+
+    From equations (58) and (59) we can immediately see why the loop amplitudes have branch
+cuts. As pictured in figure 6, when a pole of the integrand moves across the contour of
+integration, the contour must be deformed around the pole. If the poles makes a complete
+circle about an endpoint of the contour, then the contour can return to its original location,
+but it must also include a tiny circle about the pole. Thus the residue of the integrand’s pole
+becomes the discontinuity across the branch cut of the integral.
+    Now let us discuss how we obtain resonances in the flat space limit, beginning with the
+Mellin space version of the resummation of 1-PI diagrams, which is pictured in figure 7. If we
+compute the resummed diagram corresponding to the one-loop 1-PI diagram in µφ2 χ theory,
+we find
+                        X V12,∆χ (m1 )S∆χ (m1 )                       
+           sum       2                                     1
+         M      = µ                              ×                             × V∆χ ,34 (m2 ) (60)
+                       m ,m
+                              δ −  (∆ χ + 2m 1 )     1 − Π mi ,m j
+                                                                   (δ)  m1 ,m2
+                          1   2
+
+
+where we have the infinite dimensional matrix in mi space
+                                 "
+                             X X                   V∆χ ,2∆φ +2n (m1 , m3 )S2∆φ +2n (m3 )
+                                                                                          
+                           2
+          Πm1 ,m2 (δ) = µ                 N2,∆φ (n)
+                              m3    n
+                                                          δ − (2∆φ + 2n + 2m3 )
+                                                              
+                             V2∆φ +2n,∆χ (m3 , m2 )S∆χ (m2 )
+                          ×                                                                   (61)
+                                   δ − (∆χ + 2m2 )
+We have written this result so that the first term is simply the answer for χ-exchange at tree
+level. The first line of the expression for Π gives the Källen-Lehmann-type representation for
+the 1-loop bubble diagram, and the second line provides the final χ-propagator, with the last
+term replacing the final vertex in the tree-level χ-exchange. Since in position space in AdS we
+are connecting pairs of propagators, we must use 2-pt vertex functions which follow from the
+vertex rule in equation (22).
+    We would like to see that Π develops an imaginary piece from the loop in the flat space
+                                                 2
+limit, where we take ∆χ = mχ R and δ = − R4αs as usual, but we leave ∆φ finite so that the
+φ particles become effectively massless. In this limit, the Mellin amplitude is dominated by
+terms in the sums with mi ∝ (R∆)2 . Rather than performing the sums in eq. (60,61) directly,
+we will again take advantage of the fact that the bubble in the diagram can be written as
+a sum over single propagators corresponding to the double-trace operators, as in eq. (53).
+Written this way, the bubble diagrams are identical in form to the mixing of χ with an infinite
+
+                                                  20
+tower of states of dimensions 2∆φ + 2n for n ≥ 0. The contribution from these states can be
+determined by diagonalizing the mass matrix
+                                                                                   
+                             ∆2χ     R2 λeff (0) R2 λeff (1)    R2 λeff (2) · · ·
+                        R2 λeff (0) (2∆φ )2         0              0         ··· 
+                                                                                   
+                2       R2 λeff (1)     0       (2∆    + 2) 2
+                                                                    0         · · · 
+              meff =                               φ                               , (62)
+                        R2 λeff (2)     0           0         (2∆     + 4) 2
+                                                                              · · · 
+                                                                  φ                
+                              ..         ..           ..             ..       ...
+                               .          .            .              .
+
+where                                             r
+                                                   N2∆φ (n)
+                                     λeff (n) ≡ λ                                           (63)
+                                                     R2h−1
+is the effective off-diagonal mass-mixing term, and we have approximated mass as dimension
+since we are interested in the flat-space limit. The factor of N2∆φ (n) accounts for the phase
+space of the 2-particle φ states, so that their contribution to the two point function can be
+understood via mixing. One finds that with this coupling, the mixing amplitude also correctly
+computes the decay rate of χ → 2φ particles. Note that there is nothing particularly ‘holo-
+graphic’ about this method; one would use identical techniques to understand how resonances
+arise when one restricts a quantum field theory to a finite sized box with a discrete spectrum.
+    We expect that the sum of all 1-PI diagrams must be given by the Mellin amplitude that
+would arise from adding a mass mixing term as in eq. (62) above, but let us see how we could
+obtain this result directly by using the functional equation. First, note that when we act with
+the functional equation on the Mellin amplitude M for the resummation of 1PI diagrams, we
+just obtain M back again, plus a constant for the reduction of the single propagator:
+
+   m2ef f M (δLR ) = (−δLR (δLR − d) − ∆(d − ∆)) M (δLR ) − (δLR − 2∆)2 M (δLR − 2) − 1       (64)
+
+We have extended M (δLR ) to a matrix whose first row and column correspond to χ propagation,
+so that only the M11 element actually appears in the φ four-point amplitude, while the rest
+of the matrix involves mixing with two particle φ states. Now, this clearly takes the form of a
+mass-mixing, and the matrix operation on M (δLR ) can be diagonalized. Let the ath eigenvalue
+of the mass matrix be ∆a , then we may write the corresponding Mellin amplitude as
+                                          X
+                                                             T
+                               M (δij ) =      S1a Da (δLR )Sa1 ,
+                                              a
+                                             X      Rm (∆a )
+                              Da (δLR ) =                                                     (65)
+                                              m
+                                                δLR − (∆a + 2m)
+
+where Rm is the formula for the residues from eq. (41) with dimension ∆a , and Sij is the
+matrix of eigenvectors of eq. (62). We already established in section 3.1 that the flat space
+limit of Da is simply a propagator with mass ∆a , so we can use these equations to compute
+the flat space limit of the sum of 1-PI propagators pictured in figure 7.
+    To see how the imaginary piece of the pole in the holographic S-matrix emerges, we need
+only study the eigen-decomposition of m2ef f in the flat-space limit with s very near the real part
+of the pole, so that s = ∆2χ + δs. In this limit the mixing terms are dominated by double-trace
+
+                                                  21
+operators with dimension near ∆χ , where ‘nearness’ is determined by the magnitude of λef f .
+Replacing the sum on dimensions ∆a with an integral over a parameter η in the flat space
+limit, we see that for small δs we can approximate
+
+                                   2           λef f R   1
+                                  S1a (η) ∼                        .                            (66)
+                                                mχ η 2 + R2 λ2ef f
+                                                              m2χ
+
+
+where we are evaluating λef f at n = Rmχ . This simply means that the number of modes that
+mix significantly with χ is proportional to Rλef f /mχ . Considering the entries of mef f near
+2∆φ + 2n = ∆χ , one finds that in the continuum limit the eigenvalues can be approximated by
+δs+λef f η, so using the results of section 3.1 on the flat space limit of the propagator Dn∗ (δLR ),
+we find that the sum of 1-PI diagrams can be approximated by
+                                                
+               Z ∞
+                          λef f R      1                 1                   iπ
+                    dη                  2 λ2
+                                                                     ≈                          (67)
+                 −∞        mχ η 2 +    R    ef f   δs + λef f η + i   δs + iλ2 m2h−3
+                                                                                  χ
+                                        m2χ
+
+
+which shows the usual Breit-Wigner structure, with a resonance pole that has moved off of the
+real axis. One can obtain a more precise result by diagonalizing the m2ef f matrix numerically.
+
+3.4    A Comment about Meromorphy and Locality
+An extremely interesting example of how bulk locality can be rigorously derived from conditions
+on a CFT was provided by the analysis of [16, 19]. In that case, it was assumed that the
+spectrum of low-dimension operators in the CFT included only a finite number of single-trace
+scalar primaries and that N1 corrections affected conformal blocks only up to a maximum spin
+L. By imposing crossing symmetry on the CFT correlation functions and then counting the
+dimension of the space of possible solutions, the authors of [16] were able to show that all such
+CFTs have local AdS dual descriptions. It is interesting to see how this result is reproduced
+in terms of analyticity of the holographic S-matrix.
+    The point is that, as was explained in [1], such solutions must have Mellin amplitudes that
+are polynomials in δij ’s. This is easy to see by noting that the presence of a pole in the Mellin
+amplitude will immediately require the inclusion of conformal blocks of arbitrarily large spin.
+For example, a pole in δ12 in the Mellin amplitudes for a CFT 4-point correlator implies an
+equivalent pole in δ13 , due to crossing symmetry. But the decomposition of the δ13 pole in
+the 12-34 channel (the ‘s channel’) will contain arbitrarily high powers of δ13 , implying the
+presence of arbitrarily large spins. Thus a Mellin amplitude with only conformal blocks of
+bounded spin cannot have any poles, and similarly it cannot included exponential dependence
+on the δij , so it must be a polynomial. However, we know that polynomial Mellin amplitudes
+turn into S-Matrices that are polynomials in the Mandelstam invariants sij , and that are
+therefore obviously analytic and exponentially bounded.
+
+
+
+
+                                                 22
+4     Conformal Blocks and Black Holes
+The simple unitarity relation that follows from inserting 1 as a sum over states
+                                  X
+                       A4 (xi ) =   hO1 (x1 )O2 (x2 )|αihα|O3 (x3 )O4 (x4 )i                  (68)
+                                   α
+
+provides an interesting method for representing CFT 4-pt functions, via the operator-state
+correspondence. This follows because we can express any primary state in the sum as |αp i =
+Oα |0i for some local primary operator Oα , and then the properties of all of the descendent
+states will be fixed by conformal invariance. The functional form contributed to a 4-pt function
+by the exchange of a primary state/operator of dimension ∆ and angular momentum ` along
+with all of its descendants is called a conformal block [27, 35, 21, 23]. We can write any CFT
+4-pt function or 4-pt Mellin amplitude as a sum over conformal blocks
+                                            X
+                                M4 (δij ) =    C(∆α , `)B∆α ,` (δij )                       (69)
+                                            α
+
+where the coefficients C(∆α , `) are determined by the magnitude of the 3-pt functions of
+primary operators. For a very readable discussion of conformal blocks and their applications
+in constraining the properties of CFTs, see [20].
+    We will make more extensive and essential use of conformal blocks in our forthcoming work
+on the unitarity of the S-Matrix [9], but for now we provide these objects as an example of
+interesting functions on Mellin space that are not strictly analytic in the flat space limit. Since
+conformal blocks correspond to the exchange of an operator with definite angular momentum
+and definite dimension, in the flat space limit they must also have definite angular momentum
+and definite energy. This suggests that the flat space limit of a conformal block should be
+
+                                 B∆,` (δij ) → P` (cos θ)δ(s − ∆2 )                           (70)
+
+where P` is just the appropriate Legendre or Gegenbauer polynomial. We will derive this fact
+in the next section, but note that it gives a direct connection between the Bootstrap program
+for solving CFTs and the S-Matrix program for determining scattering amplitudes. It suggests
+that the Bootstrap program, even for special theories such as N = 4 SYM, should be at least
+as challenging as using analyticity and unitarity to directly construct the full non-perturbative
+S-Matrix of superstring theory.
+    In the flat space limit, the conformal block decomposition turns into a trivial integral over
+CFT dimensions, and we find that the partial wave decomposition of the 2-to-2 scattering
+amplitude must simply be                            √
+                                        S` (s) = C( s, `)                                    (71)
+where we have used the symbol S to emphasize that this is the full scattering amplitude,
+including the ‘1’ piece. This means that we can use known properties of bulk scattering
+amplitudes to constrain the conformal block decomposition of dual CFTs. In section 4.2
+we will use the expected form of the trans-Planckian scattering amplitudes corresponding to
+Hawking evaporation to make a general comment about the conformal block decomposition in
+CFTs with AdS duals that are well-described by effective field theory.
+
+                                                23
+4.1     Flat Space Limit of a Conformal Block
+Now we will directly compute the flat space limit of the conformal blocks, which we review
+in Mellin space in appendix D. As Mack [4] showed, in Mellin space the conformal blocks of
+angular momentum ` and dimension ∆ in the s-channel have only a polynomial dependence on
+the δ13 and δ14 variables analogous to the mandelstam invariants t and u. Although these Mack
+polynomials appear somewhat complicated, they simply encode the fact that the conformal
+blocks have a fixed angular momentum, and in the flat space limit they reduce to Legendre
+or Gegenbauer polynomials in cos θ. We show these straightforward but technical facts in
+appendix D.
+   The Mack polynomials multiply a universal function that encodes a more interesting depen-
+dence on δ12 , analgous to the mandelstam invariant s, and ∆, the dimension of the conformal
+block. This function takes the form4
+                                                                            
+                    `       πi(h−∆)    iπ(δ+∆+`−2h)
+                                                       Γ ∆−`−δ
+                                                            2
+                                                                  Γ 2h−∆−`−δ
+                                                                        2
+                  B∆ (δ) = e         e              −1                                  (73)
+                                                        Γ ∆a − 2δ Γ ∆b − 2δ
+
+The factor in parentheses cancels the ‘shadow’ poles associated with the second Γ function
+in the numerator, so that we are left with only physical poles associated to a single primary
+operator. The normalization factor has been chosen to ensure that the residues of the physical
+poles are real. The variables 2∆a ≡ ∆1 + ∆2 and 2∆b ≡ ∆3 + ∆4 are defined for convenience.
+    When we take the limit R → ∞, we must take ∆ = M R while fixing the angular momentum
+` to be a finite integer, so that the conformal block will have a non-zero bulk energy M in the
+flat space limit. Note that in this limit there is no difference between the dimension and twist
+                            `
+of the block. Plugging B∆     (δ) this into our formula for the flat space limit gives
+                                                           2                2             
+            Z i∞                                      Γ   R s
+                                                                −  ∆        Γ   R s
+                                                                                    − ˜ 12,5
+                                                                                      ∆
+                   dα α h−∆1234 πi(h−∆) πi R s   2           2α       12,5      2α
+        lim           e α          e         e 2α − 1           R 2s      R 2s               (74)
+       R→∞ −i∞ 2πi                                           Γ 2α Γ 2α − ∆12,34
+
+where 2∆12,5 = ∆1 + ∆2 − ∆ − ` and 2 ˜ ∆12,5 = ∆1 + ∆2 − 2h − ` + ∆. Since we are taking the
+AdS scale to infinity, we can expand the Γ functions using Stirling’s approximation, giving
+       Z i∞
+            dα α h−∆1234 πi(h−∆)  πi R2 s   R2 s ∆1234 −h−`    α∆
+                                                                        −∆12,5 
+                                                                                   α∆
+                                                                                       −∆˜ 34,5
+ lim            e α     e         e 2α − 1                        1+ 2           1− 2            (75)
+R→∞     −i∞ 2πi                                2α                   R s            R s
+   4
+     We thank J. Penedones, S. Raju, and B. van Rees for discussions and collaboration on conformal blocks in
+the Mellin representation, and in particular for collaboration leading to the discovery of the factor in parentheses
+in this equation.
+   It should also be noted that we are using a different normalization convention from most of the recent
+literature on conformal blocks. For instance, to convert to the normalization used in [16], with ∆1 = ∆2 and
+∆3 = ∆4 , one should take eq. (73) and multiply by
+                                                     
+                    `    iπ2−l−1 csc2 12 π(∆ + 2h) Γ(−h + ∆ + 1)Γ(l + ∆)(−2h + ∆ + 2)−l
+                  N∆ =                             2                        2                ,              (72)
+                                        Γ 2l + ∆ 2    Γ 12 ∆ − 2 h + 2l − 1
+         `  `
+and use N∆ B∆ (δ).
+
+
+                                                        24
+In the flat space limit, ∆5 ∝ R, so the last two terms can be approximated by exponentials of
+small quantities. Note that for ` = 0, the powers of α clearly cancel. When ` > 0, we must
+also include the Mack polynomials, which are homogeneous in the flat space limit, providing
+an overall factor of α−` so that again, the power-law dependence on α in the integrand cancels.
+We find
+                      2 ∆1234 −h−` Z i∞
+                       R s                  dα πi(h−∆)  πi R2 s     ∆2 
+                                                                     α 1+ 2
+                lim                             e       e   2α   −1 e    R s              (76)
+               R→∞      2               −i∞ 2πi
+
+But this is just an ordinary fourier transform in iα. The first term in parentheses gives a
+vanishing contribution for R → ∞, but the second term gives
+                                     ∆1234 −h−`                        
+                                 M2                     πi(h−∆)        M2
+                                                    e             δ 1−                     (77)
+                                 2                                     s
+
+where ∆ = RM . As expected, we see that the flat space limit of a 4-pt scalar conformal block
+is simply a delta function that sets the center of mass energy equal to the mass (dimension)
+of the conformal block.
+    As we show in the appendix, in the case of general spin `, a conformal block is simply a
+                                             `
+Mack polynomial P`,∆ (δij ) multiplied by B∆   (δ12 ). The purpose of the Mack polynomial is to
+encode the angular momentum information, so it is no surprise that in the flat space limit it
+simply becomes
+                                             d           `
+                                          MR           R2 s     (d)
+                          P`,∆ (δij ) →             −          P` (cos θ)                  (78)
+                                           2           4α
+        (d)
+where P` (cos θ) are the Legendre or Gegenbauer polynomials appropriate to d-dimensional
+spherical harmonics. The dependence on α simply compensates for the α` dependence of B∆`
+                                                                                         ,
+as noted above. So we find that the flat space limit of a general conformal block is
+                       "     ∆             #                      
+                          M 2 1234 πi(h−∆)       (d)              M2
+                                     e         P` (cos θ)δ 1 −                       (79)
+                            2                                      s
+
+as anticipated, up to a convention-dependent normalization factor.
+
+4.2    Implications of Hawking Evaporation for CFTs
+Black Hole thermodynamics leads to certain expectations for scattering amplitudes at very
+high energy and small impact parameter [15, 36, 37]. In the case of 2-to-2 scattering at trans-
+Planckian energies, the enormous entropy of macroscopic black holes combined with the tiny
+entropy of a 2-particle state suggests that the scattering amplitude will be
+                                                                        
+                                    1                    1      D−2
+                                                                      D−3
+                                                                        1
+
+                     S(s) ∼ exp − SBH (s) = exp − GD s 2                                   (80)
+                                    2                    8
+
+for a D dimensional bulk, so that the cross section is exponentially suppressed by the black
+hole entropy. We have included the factor of 21 in the exponent because it is the cross section,
+
+                                                    25
+not the amplitude, which should be suppressed by the black hole entropy; one should also use
+the more general Kerr entropy at large impact parameter. Of course the same result obtains
+from the thermal spectrum of Hawking radiation. In principle, the amplitude could be larger
+than this.5 However, if two massless particles collide with an impact parameter smaller than
+the Schwartzchild radius associated with their center of mass energy, then causality suggests
+that the two particles will be inside a trapped surface before they can interact, and so black
+hole formation seems unavoidable [37].
+    This semiclassical expectation for the high-energy 2-to-2 scattering amplitude leads to a
+very general prediction for the behavior of the conformal block decomposition in equation (69)
+at large dimensions. In particular, the conformal block coefficients should take the form
+                   "            1 #                D−2  D−3
+                                                              1
+                      1 ∆D−2 D−3                      ∆
+    C(∆, `) ∼ exp −           2
+                                          for `         2
+                                                                   when ∆D−2  N 2        (81)
+                      2     N                          N
+
+where D is the full spacetime dimension of the decompactifying bulk (if there are no compact-
+ification manifolds whose size grow with the AdS scale R, then D = d + 1). We are defining
+a rough version of the central charge via N 2 ≈ 1/GD . This is a prediction for the conformal
+block decomposition in any CFT with a bulk dual that can be described by a low-energy
+effective field theory with classical gravity.
+    Unfortunately, this whole discussion has been the reverse of what we really desire – namely
+a derivation of these results directly from the CFT. Obtaining such a derivation, which must
+be a robust consequence in any CFT with a weakly coupled gravity dual, may be the most
+important problem in quantum gravity.
+
+
+5       Discussion
+Locality is one of the most important ideas in physics, and understanding it [16, 17, 18,
+19, 38] has only become more urgent since the discovery that a local spacetime can emerge
+holographically from a lower dimensional theory, as in the AdS/CFT correspondence [6, 7, 8].
+    However, in the absence of an explicit Lagrangian (and even in its presence [39]) the
+definition of locality is often rather murky. Fortunately, one can make the notion precise in
+flat spacetime: local theories can be defined as those that give rise to S-Matrices that are
+analytic and exponentially bounded functions of the kinematic invariants. In this work we
+have argued that one can understand the analyticity properties of the S-Matrix in theories of
+quantum gravity by taking the flat spacetime limit of AdS/CFT correlation functions in the
+Mellin representation. We have taken some steps in this direction by showing how the familiar
+analyticity properties of the S-Matrix in bulk perturbation theory emerge from the meromorphy
+of the Mellin amplitude, but there is much more work that could be done analyzing the Mellin
+amplitudes from more interesting CFTs.
+    When it comes to AdS/CFT, one can discuss bulk locality on scales both larger and smaller
+than the AdS scale R. On distance scales larger than R, bulk locality can be analyzed using
+    5
+    But it cannot be any smaller, because the probability that the two particles tunnel through each other is
+of this order.
+
+
+                                                     26
+the holographic RG [18, 40], but from this point of view sub-AdS scale locality remains very
+mysterious. In regions much smaller than R the AdS curvature should be irrelevant, and so the
+holographic RG approach must break down, since we do not expect there to be an RG picture
+when we ‘integrate out’ an approximately flat dimension. Instead, it is much more natural
+to analyze sub-AdS scale holography using flat space methods, and chief among these is the
+analyticity of the S-Matrix. The Mellin amplitude makes this analysis possible for AdS/CFT.
+    Another motivation for investigating locality is to understand to what extent (if any) black
+hole evaporation should be viewed as a local process governed by a local theory. It has been
+anticipated that new tools are needed to attack this question; in fact, one of the goals of
+research into new on-shell methods for describing scattering amplitudes [41, 42] has been to
+give a less manifestly local description of the S-Matrix, in the hopes that such a description
+would be easier to adapt to the scattering amplitudes of quantum gravity. We believe that
+the Mellin amplitude is the appropriate tool for these questions. Gravitational physics in AdS
+with D > 3 and a parametric separation between R and `P l generically involves black holes
+that are much smaller than the AdS radius. Thus we expect that the dual CFTs and their
+Mellin amplitudes will provide an ideal laboratory for investigating Hawking evaporation in
+a setting where bulk locality is not manifest. Scattering processes involving black holes will
+violate the exponential boundedness requirements associated with locality [14, 15, 36, 37], but
+it will be very interesting to investigate exactly how locality breaks down, and to give a precise
+criterion for the situations and questions for which effective field theory fails.
+    We took the first step towards an analysis of black holes by identifying a robust consequence
+of Hawking evaporation for the conformal block decomposition. One expects that 2-to-2 scat-
+tering will be exponentially suppressed at energies larger than the Planck scale due to the large
+black hole entropy, and this implies a corresponding exponential shutdown in the coefficients
+for the conformal block expansion at large dimensions in the dual CFT. This is a sharp and
+generic prediction that could be understood through the direct study of CFTs; such a result
+would be the first step towards a microscopic derivation of Hawking evaporation.
+    We have given a non-perturbative, holographic definition of the S-Matrix using the flat
+spacetime limit of AdS/CFT, so it is natural to ask whether all consistent S-Matrices in
+quantum gravity can be obtained from the large central charge limit of a CFT. In other words,
+is AdS/CFT the path to quantizing gravity in flat spacetime? We simply do not know, but it
+would be fascinating if there exists a generic alternative description. The remarkably simple
+properties of the scattering amplitudes themselves [43, 44, 45, 46, 47, 48, 41, 42] and the
+existence of matrix models [49] might be viewed as evidence for this sort of conjecture. In any
+case, our work suggests that there is an intimate connection between the Bootstrap Program
+for large N CFTs [27, 21, 20, 22, 23, 24, 25, 26, 50] and the S-Matrix Program, and that solving
+general CFTs via the Bootstrap will be at least as difficult as finding consistent S-Matrices
+using the constraints of crossing symmetry, analyticity, and unitarity.
+    The investigation of Mellin amplitudes is only its infancy. In a companion paper [9] we
+will show how the usual unitarity relations for the S-Matrix arise from the OPE of the CFT.
+However, there are many other elementary questions that still need to be addressed, including
+the development of diagrammatic rules for loops and for fields with spin. Here we have only
+obtained the flat space S-Matrix for external states composed of massless scalar particles, so
+some further technical developments [22, 23] will be necessary to treat arbitrary species of
+
+                                               27
+particles. Techniques from the analysis of scattering amplitudes, such as the BCFW recursion
+relations [43, 44, 47], can likely also be applied in Mellin space. It will interesting to see if the
+Mellin space approach can also offer insight into theories without the full conformal group of
+symmetries.
+
+
+Acknowledgments
+We would like to thank Nima Arkani-Hamed, Daniel Harlow, Ami Katz, Dhritiman Nan-
+dan, Miguel Paulos, Matt Reece, Steve Shenker, David Simmons-Duffin, and especially João
+Penedones for discussions, and Suvrat Raju, Balt van Rees, and João Penedones for early col-
+laboration. We would also like to thank Edward Witten for inquiries that motivated aspects
+of appendix A. ALF was partially supported by ERC grant BSMOXFORD no. 228169. JK
+acknowledges support from the US DOE under contract no. DE-AC02-76SF00515.
+
+
+A      Basic Definitions
+A.1     Measure of Integration
+Before considering the definition and uniqueness properties of the Mellin amplitude, let us give
+a precise definition of the measure of integration, as given by [4, 5, 1] . Given a particular
+solution ∆ij to the constraint equations, we can define
+                                                     n(n−3)
+                                                      X 2
+
+                                      δij = ∆ij +              cij,k sk                         (82)
+                                                         k=1
+
+where the coefficients cij,k are symmetric in i, j vanish when i = j, and satisfy
+                                          X
+                                               cij,k = 0                                        (83)
+                                              j
+
+so that δij continue to satisfy the constraint equation for arbitrary sk . Now we can view cij,k
+as an square matrix of size n(n−3)
+                                 2
+                                     if we let the ij take on all of their non-zero values. If we
+demand that
+                                          | det cij,k | = 1                                  (84)
+then the measure of integration will simply be
+
+                                      Z            Z i∞ n(n−3)
+                                                         Y 2
+
+                                          [dδ] =                  dsk                           (85)
+                                                    −i∞    k=1
+
+Note that there are poles from the Γ(δij ) for all non-positive integer values of the δij , and also
+poles (generically, semi-infinite sequences of poles) at positive δij from the Mellin amplitude.
+The contour of integration is chosen so that it passes entirely to one side of these semi-
+infinite lines of poles. For large values of the dimensions ∆i this sort of contour is obtained
+
+                                                    28
+automatically by giving the δij a small real part, but otherwise integrating along a line from
+−i∞ to i∞ as indicated. For example, at 4-pt we can write all of the δij directly in terms of
+δ12 and δ13 , and if all the external dimensions are equal then we find
+                Z +i∞                                                         Y
+                         dδ12 dδ13 M (δij )Γ(δ12 )2 Γ(δ13 )2 Γ(∆ − δ12 − δ13 )2 (xij )−2δij (86)
+                  −i∞                                                        i<j
+
+One can immediately see that the factors of Γ(δ12 )2 Γ(δ13 )2 give poles at non-positive integer
+values of δ12 and δ13 , while the final Γ(∆−δ12 −δ13 )2 factor and the Mellin amplitude itself only
+have poles at positive values of δ12 + δ13 . The contour of integration naturally runs between
+these lines of poles, as pictured in figure 3. The fact that some are double poles signals the
+presence of anomalous dimensions in perturbation theory (the exact Mellin amplitude will only
+have single poles).
+
+A.2      Mellin Amplitude: Definition and Non-Uniqueness
+Our goal here is to give a precise definition of the Mellin amplitude, so let’s begin with an
+n-pt CFT correlator An (uijkl ) that has been stripped of some overall dependence on the xi
+coordinates, so that it only depends on cross ratios
+                                                            rij rkl
+                                    u(xi , xj , xk , xl ) =                              (87)
+                                                            rik rjl
+where rab = (xa − xb )2 . For now we will imagine a putative CFT in infinite d, so that we can
+ignore d-dependent relations among the cross ratios.
+    Now let us use conformal invariance to set x1 = 1, x2 = 0, x3 = ∞ for convenience, and we
+will freely refer to these as though they are labeled x1 , x0 , x∞ . In this frame we find that
+                                         r1i = u(0, ∞, 1, xi )                                         (88)
+                                                      1
+                                         r0i =                                                         (89)
+                                               u(1, 0, ∞, xi )
+                                               u(0, ∞, xi , xj )
+                                         rij =                                                         (90)
+                                                u(1, 0, ∞, xi )
+where in all cases i, j > 3. Since we have that r∞i = ∞ and r01 = 1, this means that we
+can express all the non-trivial Poincaré invariants rij in terms of u(0, ∞, i, j), u(0, ∞, 1, i),
+and u(1, 0, ∞, i) and it is easy to count and find that there are n(n − 3)/2 of them. So the
+cross ratios appearing above provide a complete basis of conformal invariants on which An can
+depend.
+   This accords with a certain basis     Pfor the δab of the Mellin amplitude that we wish to define.
+Namely, if we use the constraints j δij = ∆i to eliminate the δ∞a and δ10 then we are left
+with exactly n(n − 3)/2 variables (recall that δij = δji and δii = 0). Thus we can define the
+Mellin amplitude via the inverse Mellin transform in each variable,
+                       Z ∞            Y
+                                      n                                                 Y
+                                                                                        n
+                                               −∆i −δ0i −1                δ1i −1
+N (δ1i , δ0i , δij ) =     An (uijkl ) (u0∞1i )            du0∞1i (u10∞i )       du10∞i   (u0∞ij )δij −1 du0∞ij
+                    0              i=3                                               3<i<j
+                                                                                                       (91)
+
+                                                    29
+We also could have just defined this directly in terms of r0i , r1i , and rij for i, j > 3. What we
+call the Mellin amplitude (as opposed to the integrand N above) can now be defined as
+
+                                                 N (δ1i , δ0i , δij )
+                                       M (δab ) = Q                                                 (92)
+                                                    a<b Γ(δab )
+
+so that                                     Z i∞                   Y             −δab
+                            An (uijkl ) =          [dδ]Mn (δab )         Γ(δab )rab                 (93)
+                                             −i∞                   a<b
+
+as desired.
+    Now let us consider the situation when n > d + 2. The Mellin amplitude will no longer
+be uniquely defined, so there will be many Mellin-space functions that give rise to vanishing
+position-space correlators (these Mellin amplitudes are “pure gauge”). However, it is simple
+to generate these “pure gauge” Mellin amplitudes, and to see that they vanish when we take
+the flat space limit.
+    Let us universalize the notation by taking the indices a, b to run from 1 to d + 2, while
+the indices i, j run from d + 3 to n, and finally the indices α, β can take any value from 1
+to n. It will be useful to represent the kinematics in d + 2 dimensional embedding space
+coordinates PαA [51]. These variables are constrained by Pα2 = 0 and identified projectively
+as PαA ∼ λPαA for positive real λ. We can choose an explicit PαA corresponding to xµα by
+taking (Pα− , Pα+ , Pαµ ) = (1, x2α , xµα ), so that (xα − xβ )2 = Pα · Pβ and we will use the shorthand
+Pα · Pβ = Pαβ .
+    Now let us define the d + 3 by d + 3 matrix
+                                                                    
+                                              αβ           Pab PaJ
+                                            A (I, J) =                                               (94)
+                                                           PIb PIJ
+
+where the indices I and J are fixed, whereas the a and b indices range from 1 to d + 2 (so Pab
+forms a d + 2-by-d + 2 sub-matrix in the upper left corner, etc).
+    The point is that det[A(I, J)] = 0 for all I and J between d + 3 and n. This follows
+immediately from the fact that the entries of M (I, J) are formed from the matrix product
+PαA PAβ , and when we regard the object PαA as a d + 2 by n matrix it has rank at most d + 2.
+This means that generically there is an explicit formula relating
+
+                                       PIJ = fIJ (Pab , PaI , PaJ )                                 (95)
+
+by using this determinant condition. This reduces the full space of Pαβ to a
+
+                        (d + 2)(d − 1)                  d(2n − d − 3)
+                                       + d(n − d − 2) =               −1                            (96)
+                              2                               2
+dimensional space (when n ≥ d + 2, otherwise the result is just n(n − 3)/2), because the
+unconstrained first d + 2 points give (d + 2)(d − 1)/2 degrees of freedom and then each extra
+point beyond d + 2 gives d extra degrees of freedom.
+    It is tempting to try to use this reduced set of variables to define the Mellin amplitude, or at
+least to show that it exists, by taking the Mellin transform in only this reduced set of variables.
+
+                                                      30
+However, this would break the permutation symmetry among the external operators in an ad
+hoc way, and it is unclear how it would be related to our known results for Mellin amplitudes
+corresponding to tree-level Witten diagrams, which do not require a choice of preferred basis
+or “gauge fixing”.
+    However, another way of looking at the situation is that while the fact that det[A(I, J)] = 0
+is fairly clear in position space, it becomes a non-trivial statement in Mellin space, where the
+spacetime dimension makes no explicit appearance. Thus if we take a conformally covariant
+function, express it as an integral over Mellin space, multiply by det[A(I, J)], and interpret the
+result as a single Mellin space amplitude then we obtain an equality that identifies functions
+on Mellin space that integrate to zero. In other words, we have a way of finding functions
+in Mellin space that are “pure gauge”. Applying this procedure shows that for any Mellin
+integrand function N (δαβ ), meaning any function where the integral
+                                                Z                  Y
+                                                                   n
+                              A(Pα ) =              [dδ]N (δαβ )         (Pαβ )−δαβ           (97)
+                                                                   α<β
+
+
+gives a well-defined result, we have (in d dimensions)
+                                                                                         
+        Z      Y n               X                                                     
+    0 = [dδ]       (Pαβ )−δαβ         sign(σ)N δ1sσ(1) + 1, δ2sσ(2) + 1..., δmsσ(m) + 1     (98)
+               α<β             σ(a1 ,...,an )
+
+
+where we are summing over all permutations σ on m = d + 3 or more indices, and the si are
+m arbitrary distinct integer labels ranging from 1 to n. The δαβ that have not been explicitly
+written are unchanged. This formula is simply implementing the determinant – the shifts in
+the Mellin variables occur because we have soaked up each monomial in the determinant by
+a shift of the δαβ variables. There will also be even more general objects that do not use the
+labels 1, 2, ..., m but any set of distinct integers, but we have written the above as a simpler
+representative example.
+   The object in square brackets is “pure gauge” as a Mellin integrand. This object will also
+vanish when we take the flat space limit to compute the S-Matrix. The reason is that when
+we perform this procedure, the Mellin amplitude (as opposed to the integrand N above) will
+inherit an overall factor of                             
+                                                 δab δaJ
+                                           det                                              (99)
+                                                 δIb δIJ
+due to the shifts δisσ(i) → δisσ(i) + 1 applied to the Γ(δisσ(i) ) functions. But in the flat space
+limit this is just                                            
+                                             p a · pb p a · pJ
+                                       det                                                    (100)
+                                             pb · pI pI · pJ
+which vanishes in d + 1 dimensional momentum space for the same reason that det[M (I, J)]
+vanished in position space in the CFT. Thus the flat space limit of “pure gauge” Mellin
+amplitudes will be zero.
+
+
+
+                                                         31
+B       Derivation of the Flat Space Limit Formula
+B.1       Single Particle Normalizations
+In the normalization conventions from [2], the two-point function of O is
+                                                                  X eiωn,` (t1 −t2 )
+                       hO(t1 , x̂t )O(t2 , x̂2 )i = C∆                     2
+                                                                                       Y`J (x̂1 )Y`J∗ (x̂2 ),                        (101)
+                                                                  n,`
+                                                                          Nn`J
+
+So, taking the smearing of the operators, we have
+                   Z τ                                 X eiωn,` (t1 −t2 )
+         0 0
+ hω, v̂|ω , v̂ i =        dt1 dt2 ei(ω1 t1 −ω2 t2 ) C∆            2
+                                                                          Y` (x̂1 )Y` (x̂2 )
+                     −τ                                 n,`
+                                                                Nn,`,J
+
+                   X                                                              2           2∆−2h
+                                                                            2π h           Rωn,`
+                 =             2
+                         (2π) δτ (ω1 − ωn,` )δτ (ω2 − ωn,` ) C∆                                         Y` (x̂1 )Y`∗ (x̂2 )
+                    n,`
+                                                                           Γ(∆)                2
+                                                           2        2∆−2h
+                       2                              2π h        Rω1
+                 = 2π Rδτ (ω1 − ω2 ) C∆                                           δ(v̂1 , v̂2 )
+                                                     Γ(∆)           2
+                                                       "                            #
+                                                              2                    h 2
+                                                            π              C  ∆ 2π
+                 = R2∆−2h+1 [2ωδ(~p1 − p~2 )] 2∆−2h ω ∆−1                                    ,                      (102)
+                                                          2                 Γ(∆)
+                                                                                                                               2
+                            (d)        0            1         0             0              1          2∆−2h              2π h
+where we have used δ (~p − p~ ) ∼ pd−1 δ(p̂, p̂ )δ(|p| − |p |) and N 2                            ∼n            C∆       Γ(∆)
+                                                                                                                                     . This
+                                                                                          n,`,J
+provides the normalizations in equation (28).
+
+B.2       Completing the Derivation
+Our starting point is the simple formula we left off from at the end of section 2, allowing a
+non-zero energy violation component q0 :
+                      "               P                                   !#
+                             t2ω   nq0 i t2i ωi R2              X u2ij
+                  exp itω +      −             −       −(nq)2 +        0
+                                                                                        (103)
+                             4α       4α         4α             i<j
+                                                                    2s ij
+                                     P
+where we have defined tω =                 i ti ωi and
+
+                                                          2n                  t2ij ωi ωj
+                                  uij = ij −                q · (pi + pj ) +            .                                           (104)
+                                                         n−2                      R2
+Now we need to integrate over the constrained uij and ti variables and multiply by the single-
+particle normalizations to obtain our desired result, equation (27). We will implement the
+n + 1 constraints on the uij variables
+                                            X                2n                  t2ij ωi ωj
+                                  0 =               uij +       q · (pi + pj ) −                                                     (105)
+                                             j6=i
+                                                            n−2                      R2
+                                             2n                  t212 ω1 ω2
+                                  0 = u12 +     q · (p1 + p2 ) −                                                                     (106)
+                                            n−2                      R2
+
+                                                                  32
+via Lagrange multipliers. We have made an arbitrary choice to isolate u12 , which is necessary
+so that ij do not include the α direction of integration; this means that there will be a factor of
+s12 from the change of variables from δij to {α, uij }. Thus we have the exponential integrand
+        "                                  P                                       !
+                      (Σi ti ωi )2 nq0 i t2i ωi R2                      X u2ij
+    exp iΣi ti ωi +               −                 −          −(nq)2 +                                          (107)
+                          4α               4α          4α                i<j
+                                                                             2s0ij
+                                                                 !                                                 #
+        X       X               2n                    t2ij ωi ωj                   2n                    t212 ω1 ω2
+     +i     λi        uij +          q · (pi + pj ) −              + iλ u12 +           q · (p1 + p2 ) −
+         i       j6=i
+                              n  − 2                      R 2                   n  −  2                      R2
+
+with Lagrange multipliers λi and λ. Now we can integrate over the uij without any constraints.
+This will give an overall factor of
+                                                     n(n−1) n q
+                                                              Y
+                                                4α        4
+                                                                 s0ij                                      (108)
+                                                R2            i<j
+
+nicely canceling many terms from the prefactorPin equation (36). In the exponent we have
+(after simplifying and using the constraint that j6=i s0ij = 0):
+                                                               P
+                           (Σi ti ωi )2 R2         2      nq0 i t2i ωi 2α
+         exp iΣi ti ωi +                +     (nq) −                   + 2 Sab λa λb                      (109)
+                              4α           4α                   4α        R
+                                                                !                                       #
+            X        X 2n                            t2ij ωi ωj           2n                  t212 ω1 ω2
+         +i     λi                 q · (pi + pj ) −               + iλ       q · (p1 + p2 ) −
+             i        j6=i
+                           n−2                           R2              n−2                      R2
+
+where a runs from 0 to n, with λ0 ≡ λ, and Sab is
+                                                                               
+                                     s012 s012 s012 0  0                   ...
+                                   s0           0
+                                   12 0 s12 s13 s14
+                                                    0  0
+                                                                           ... 
+                                   s0 s0
+                                   12 12 0 s23 s24
+                                                    0  0
+                                                                           ... 
+                            Sab =  0 s0 s0
+                                           13   23 0 s034                 ... 
+                                                                                  ,                        (110)
+                                   0 s0 s0 s0         0                   ... 
+                                           14   24 34
+                                       ..   ..   .. ..  ..                 ..
+                                        .    .    .  .   .                    .
+
+so now we can integrate over the Lagrange multipliers. This produces a prefactor that is
+parametrically of the form
+                                   2  n+1
+                                    R    2
+                                               1
+                                            p                                      (111)
+                                    2α        det[S]
+and returns an exponential
+                "                                           P 2                                 #
+                                                                           2 X
+                              (Σi ti ωi )2 R2          nq 0     t  ω i   R
+              exp iΣi ti ωi +             +    (nq)2 −        i  i
+                                                                       +        Ua Ub [S −1 ]ab
+                                 4α         4α              4α           8α a,b
+                        t2 ω1 ω2                     X     t2ij ωi ωj
+              U0 = v12 − 12 2 ,            Ui =      vij −            ,                                    (112)
+                           R                    j6=i
+                                                               R2
+
+                                                         33
+                                                                           2n
+where for notational convenience we have defined the quantity vij = n−2       q · (pi + pj ), and it will
+                                P                        2n2
+                                                               2
+also be useful to define va = j6=i vaj = 2nq · pa + n−2 q ≈ 2nq · pa . Note that here we have
+assumed that we have generic momenta with det[S] 6= 0 and d + 3 > n. One can check that in
+the case n > d + 2 the same final result obtains.
+    Finally, we must integrate over the times ti , ignoring the negligible quartic piece which
+is suppressed by additional powers of the AdS length R. We must also include a regulator
+associated with the temporal boundaries at ti =h ±τ ; to simplify the integrals we will replace
+                                                       P t2
+this hard boundary with Gaussian factors exp − i 2τi2 (it is important to maintain non-
+overlapping support between the in and out states, as emphasized in [32], but this will not an
+issue at this point in the derivation, where we need only evaluate some Gaussian integrals in
+the simplest way available). Now we are left with time integrals over the integrand
+              "
+                R2          R2                   X                  R2 X 2
+       ≡ exp       (nq)2 +      v12 (v12 + 4nq ·   pi (S −1 )0i ) +       n (q · pi )(q · pj )(S −1 )ij
+                4α          8α                   i
+                                                                    2α ij
+                                           #
+                           1X
+              +iΣi ti ωi −       ti tj Aij                                                           (113)
+                           2 ij
+where Aij takes the form
+                                                1    ωi ωj
+                                     Aij = −δij    +       + Qij                                    (114)
+                                              2τ 2    4α
+where Qij is O(q) and higher, so its inverse is
+                   A−1
+                     ij    ≈ Y (1 − QY + (QY )2 )ij + O(q 3 )
+                                                                   
+                                  2                2τ 2      4α       1
+                    Yij = −2τ δij + ωi ωj P 2 + P 2 2 + O( )                                        (115)
+                                                    k ωk   ( k ωk )   τ
+                           
+Note that Yij ωj = P4αω2 ωi , so 14 ωi A−1
+                                        ij ωj simplifies to
+                        k k
+                                                 2
+                  1      −1                 2α
+                    ωi Aij ωj = α − P 2 ωi (Q − QY Q)ij ωj + O(q 3 )                                (116)
+                  4                          k ωk
+The matrix Q has four pieces, from the exponential above:
+                   Q = Q(1) + Q(2) + Q(3) + Q(4)
+                                                                                          
+                                                              1 −1
+                           ω1 ω2                  X          −1 1                         
+                                       −1               −1                                
+                 Q(1)    =       (v12 S00 + 2nq ·   pi S0i )      0                       
+                            2α                    i
+                                                                                          
+                                                                                  ..
+                                                                                       .
+                                       −1      −1
+                                                                        
+                   (2)     v12 ωi ωj (S0i
+                                     P     + S0j    )           i 6= j
+                 Qij     =                        −1       −1
+                            α     − k6=i ωi ωk (S0i + S0k ) i = j
+                                                                               
+                   (3)     1 X −2nωi ωj q · pk (Sik     −1     −1
+                                                           + Sjk  )      i 6= j
+                 Qij     =             P                    −1      −1
+                           α k       2n `6=i ωi ω` q · pk (Sik + S`k   ) i=j
+                   (4)          nq0 ωi
+                 Qij     = −δij                                                                     (117)
+                                 4α
+                                                   34
+Finally, we want to read off the coefficient of the momentum-conserving δ-function. Several
+components of q get large, ∼ τ 2 q 2 contributions in the exponent, from the Q2 term in (116).
+We can see already that there will generally be exactly n−1 such q µ components (one time and
+n−2 spatial), for the simple reason that q~ always enters in Q dotted into pi directions. Naively,
+this lifts n components of q~; however, not all the pi are linearly independent. At leading order,
+the pi ’s conserve momentum, which imposes one constraint. Furthermore, the symmetries
+of AdS in the flat-space limit become the symmetries of flat space, and boosts remove an
+additional independent component of the pi ’s. This is especially obvious in practice, where
+one often chooses the particles in the “in” state to be in their rest frame, so there is already
+one linear relation among just the incoming momenta. Thus, at most n − 2 q~ components can
+get lifted by τ 2 , and for generic external momentum, exactly this many get lifted.
+    Focusing on terms ∼ τ 2 q 2 in (116), we see that they have the form
+                         2                                  2
+                     2α                                    2                j      0
+                    P 2 ωi (QY Q)ij ωj = −2τ         2
+                                                         P 2 Qiω Πij     ω Qω + O(τ )
+                        ω
+                      k k                                    ω
+                                                           k k
+                              1 X                              ωi ωj
+                     Qiω ≡ −         Qij ωj ,    Πij
+                                                  ω ≡ δij − P        2
+                                                                       .                     (118)
+                             2α j                               k ωk
+
+
+   Now,
+
+          Qiω = Q(1)i (2)i (3)i (4)i
+                 ω + Qω + Qω + Qω ,
+                                                                              !
+                                n                       X
+                                              −1                −1
+       Q(1)i
+        ω      = q · −2ω1 ω2 (     (p1 + p2 )S00  + 2n      pi S0i )(ω1 − ω2 ) (δi1 − δi2 )
+                               n−2                      i
+                                      X
+                        4n                                    −1      −1
+       Q(2)i
+        ω      = q· −       (p1 + p2 )     ωi ωj (ωj − ωi )(S0i   + S0j  ),
+                      n−2               j
+                                                                  !
+                        X
+                                                     −1      −1
+       Q(3)i
+        ω      = q · −2    (−2n)ωi ωj (ωj − ωi )pk (Sik + Sjk   )
+                             j,k
+
+                   nq0 ωi2
+       Q(4)i
+        ω    =                                                                                (119)
+                     8
+Without loss of generality, we can consider our amplitude to be 2 to n − 2 and we can take
+particles 1 and 2 in their rest frame, so that Q(1) = 0 and (p1 + p2 )µ = 2ω1 δ µ0 . Since
+the transition amplitude is proportional to an energy-momentum-conserving δ function in
+pµtot = nq µ , we want to extract the usual scattering amplitude by integrating over dd+1 ptot .
+The time integrations produce a factor of
+                                                           1/2
+                                  √            n−1     α
+                                ∼ det 0 Y ∝ τ        P 2         .                      (120)
+                                                       k ωk
+
+Here, det0 indicates that all vanishing eigenvalues are discarded. The ptot integrations produce
+a factor of         P 2 n−1                                    − 12 h i d+1−(n−1)
+                        k ωk        1      0 ∂   ∂                       α      2
+                 ∼                   2
+                                       det     µ   ν
+                                                     Qω · Πω · Qω          2
+                                                                                           (121)
+                        τ          n        ∂q ∂q                        R
+
+                                                35
+where the first two terms in brackets come from the O(τ 2 q 2 ) pieces in (116). The last term
+in brackets comes from the fact that after n − 1 q µ directions get lifted by τ 2 , there are still
+                                                                2
+d + 1 − (n − 1) q µ directions that are lifted only by the − R2α (nq)2 term in eq. (113). Notice
+that this exactly cancels the factors of τ from the time integrations. Putting together eqs.
+(28), (36),(108),(111),(120), and (121), as well as an additional factor of s12 that should be
+included in the change of variables from δij to α, ij due to our choice of gauge 12 = 0, the
+total prefactor for the flat-space formula integrand is then (neglecting constants)
+                                                                               !n− 32 
+                                                          − 21 Y n     X
+                                       ∂ ∂
+      N −1 αh−∆Σ s12 (det S)(det 0 µ ν Qω · Πω · Qω )                ωi    ωk2            (122)
+                                      ∂q ∂q                       i=1     k
+
+
+Note that the term in brackets is dimensionless, and so can have dependence only on the
+scattering angles. Although it is not manifest from the above expression, we have checked for
+n = 4 that the dependence on angles cancels. We can easily prove that such a cancellation
+must occur in all cases, as follows. The dependence on the angles is independent of the specific
+theory, and is simply a prefactor that depends only on the momenta of the external particles.
+Thus, this prefactor is completely fixed by a single example. Since the Mellin amplitude is
+just a constant for gφn theory, and the flat-space S-matrix is as well, this shows that the term
+in brackets is independent of angles in all cases, thus finishing the derivation of the flat-space
+S-matrix formula (2).
+
+
+C     Källen-Lehmann in AdS
+The key to being able to compute a large class of loops is the fact that
+                            Y                 X
+                               G∆i (X, Y ) =      Nα G∆α (X, Y )                             (123)
+                                i                 α
+
+for bulk-to-bulk propagators. One can easily compute Nα for any number of propagators using
+this simple relation between products and sums of propagators
+                                  X
+        G∆1 (X, Y )G∆2 (X, Y ) =      a∆1 ,∆2 (n)G∆1 +∆2 +2n (X, Y ),
+                                      n
+                                      (h)n (∆1 + ∆2 + 2n)1−h (∆1 + ∆2 + n − 2h + 1)n
+                     a∆1 ,∆2 (n) =                                                      .    (124)
+                                     2π h n! (∆1 + n)1−h (∆2 + n)1−h (∆1 + ∆2 + n − h)n
+
+which was equation (53) in the text. The bulk-to-bulk propagators have a simple expression
+in terms of the geodesic distance σ between X and Y :
+
+                         G∆ (X, Y ) = C∆ z ∆/2 2 F1 (∆, h, ∆ + 1 − h, z),                    (125)
+
+
+
+
+                                                36
+where z = e−2σ .6 This formula in the case ∆1 = ∆2 was derived in section 3.2 of [17] using an
+inner product on the space of propagators
+                                  I
+                                    dz (1 − z)2h
+                  hG2h−α , Gβ i =                G2h−α (z)Gβ (z) = Cα C2h−α δαβ          (128)
+                                    2πi z 1+h
+
+where as usual d = 2h is the dimension of the CFT, δαβ is a kronecker delta, and z = e−2σ(X,Y )
+where σ(X, Y ) is the geodesic distance between X and Y in the bulk of AdS. The generalization
+that we have used can be derived by computing the inner product
+
+                                    hG∆1 +∆2 +2n , G∆1 G∆2 i = a∆1 ,∆2 (n)                                (129)
+
+which vanishes unless n is a non-negative integer.
+
+
+D       Conformal Blocks in Mellin Space
+Up to one very simple but important detail, the conformal blocks corresponding to the exchange
+of operators of arbitrary spin between external scalars were constructed by Mack [4].
+    First the results. Let us define the scalar block function
+                                                                           
+                     `        πi(h−∆)   iπ(δ+∆−2h)
+                                                      Γ ∆−`−δ
+                                                             2
+                                                                 Γ 2h−∆−`−δ
+                                                                       2
+                   B∆ (δ) = e         e            −1                                  (130)
+                                                       Γ ∆a − 2δ Γ ∆b − 2δ
+
+where as in the text we have defined the variables δ = ∆1 + ∆2 − 2δ12 , 2∆a = ∆1 + ∆2 while
+2∆b = ∆3 + ∆4 are defined for convenience. In the scalar case (` = 0) this function is the
+                                        `
+conformal block. The only factor in B∆    (δ) that Mack [4] did not include is the pre-factor in
+parentheses, which cancels the ‘shadow’ poles from the second Γ function in the numerator, so
+       `
+that B∆  (δ) only has physical poles corresponding to a primary operator and its descendants.
+                                                  `
+   In the case of non-zero ` we must multiply B∆    (δ) with τ = ∆ − ` by a Mack polynomial [4]
+                                       [`/2]
+                                       X                                 
+                                                           0    `      0  `
+                       P`,τ (δij ) =           ad` (k)    δ12 −       δ −     Q`−2k (δij )                (131)
+                                       k=0
+                                                                2 k 34 2 k
+
+where the primed δij ’s are shifted:
+
+                   0             −∆1 − ∆2 + d − ∆                   0            −∆3 − ∆4 + ∆
+                  δ12 = δ12 +                     ,                δ34 = δ34 +                ,           (132)
+                                        2                                             2
+   6
+    This normalization of the bulk-to-bulk propagator is chosen to agree with the two-point functions in [1, 2],
+and differs from that in [17] by a factor of C∆ . Other useful representations of the bulk-to-bulk propagator are
+
+                                                     y ∆/2        ∆ ∆ 1
+                           G∆ (X, Y )     = C∆             2 F1 (  , + , ∆ + 1 − h, y)                     (126)
+                                                      2∆          2 2   2
+                                                  C∆                  1                4
+                                          =          2 F1 (∆, ∆ − h + , 2∆ − 2h + 1, − ),                  (127)
+                                                  u∆                  2                u
+                             1
+where u = (X − Y )2 and y − 2 = cosh R
+                                     σ        u
+                                       = 1 + 2R 2.
+
+
+
+
+                                                              37
+                                                                                                     (d)
+and the ad` (k) are the coefficients of the familiar Legendre polynomials P` (cos θ), which in
+                                                    (h−1)
+general dimension are Gegenbauer polynomials C`           (cos θ), as polynomials in cos θ:
+
+               `!     (h−1)
+                                  X                                            (−1)k `!(h + ` − 1)k 2`−2k
+                     C`     (t) =   ad`,k t`−2k ,                  adk,` =                                .   (133)
+            (h − 1)`              k
+                                                                                      k!(` − 2k)!
+
+Mack defines (in our notation)
+
+                           X                         0
+                                                     Y
+                −m                        k14 +k23     (δij )kij
+Qm (δij ) = 2        m!          (−1)                                               (134)
+                          P0              kij !
+                     kij =m
+                                                                    −1
+                   ∆ + ∆12 − m                  ∆ − ∆12 − m
+              × Γ               + k13 + k14 Γ               + k23 + k24
+                          2                          2
+                                                                               −1
+                   2h − ∆ + ∆34 − m                 2h − ∆ − ∆34 − m
+              × Γ                    + k13 + k23 Γ                     + k14 + k24      ,
+                            2                               2
+
+where ∆ij = ∆i − ∆j . The notation needs some explanation. The variables k onlyQconnect
+1, 2 to 3, 4, so in other words we only have k13 , k14 , k23 , and k24 , and kij = kji . So the 0 terms
+are products over the non-vanishing kij .
+                                                                `
+    In the text we discussed the flat space limit of B∆           (δ). The Mack polynomials simply
+reduce to Legendre polynomials in the flat space limit, as should be expected, because their
+only purpose is to encode the angular momentum information in the conformal blocks. Let us
+see why this follows at a technical level. First, the Γ functions in equation (134) cancel when
+∆ → ∞ to give an overall factor of (∆/2)d . Now we can perform the sum over the kij . In the
+flat space limit, δ13 , δ24 ∝ t and δ14 , δ23 ∝ u. This means that we can combine terms to find
+that
+                                             −d X    m
+                                      −m      ∆                      m!
+                       Qm (δij ) → 2                      (−1)k              tk um−k
+                                              2       k=0
+                                                                 k!(m −  k)!
+                                      −d
+                                        ∆
+                                 =              (δ12 cos θ)m                                      (135)
+                                         2
+
+as desired, where we used the fact that (t − u)/s = cos θ in the center of mass frame. Plugging
+this result back into (131) we find that the Mack polynomials reduce
+                                                    −d             ` X
+                                                                         [`/2]
+                                               MR              R2 s
+                          P`,τ (δij ) →                      −                   ad` (k) cos`−2k θ            (136)
+                                                2              4α        k=0
+
+                                    R2 s
+where we have taken δij → − 4αij as is appropriate for the flat spacetime limit, and we have
+assumed that ∆ = M R so that this is a conformal block corresponding to a non-zero energy
+in the flat space limit.
+                     `
+    The function B∆    (δ) can be most easily understood as a simple solution to the functional
+equation we found (14). Recall that this equation is simply the eigen-equation of the conformal
+
+                                                             38
+casimir, so its solutions will be, by definition, the conformal partial waves. The conformal
+blocks are simply the conformal partial waves with the correct boundary conditions. Anyway,
+in this case the functional equation takes the very simple form
+
+                      (δ − ∆ + `)(2h − ∆ − ` − δ) `
+                                                 B∆ (δ) = B∆ (δ − 2).                   (137)
+                           (∆a − δ)(∆b − δ)
+
+and it is obvious that the two factors in the numerator and denominator are exactly reproduced
+by each of the four Γ functions in equation (130). Note that since this is a finite difference
+equation, we are free to multiply by any periodic function with period 2. The function in
+parentheses is the choice which eliminates the unphysical shadow poles and gives the correct
+boundary conditions for the conformal block in position space.
+
+
+References
+ [1] J. Penedones, “Writing CFT correlation functions as AdS scattering amplitudes,” JHEP
+     03 (2011) 025, arXiv:1011.1485 [hep-th].
+
+ [2] A. Fitzpatrick, J. Kaplan, J. Penedones, S. Raju, and B. C. van Rees, “A Natural
+     Language for AdS/CFT Correlators,” arXiv:1107.1499 [hep-th].
+
+ [3] M. F. Paulos, “Towards Feynman rules for Mellin amplitudes,” arXiv:1107.1504
+     [hep-th].
+
+ [4] G. Mack, “D-independent representation of Conformal Field Theories in D dimensions
+     via transformation to auxiliary Dual Resonance Models. Scalar amplitudes,”
+     arXiv:0907.2407 [hep-th].
+
+ [5] G. Mack, “D-dimensional Conformal Field Theories with anomalous dimensions as Dual
+     Resonance Models,” arXiv:0909.1024 [hep-th].
+
+ [6] J. M. Maldacena, “The large N limit of superconformal field theories and supergravity,”
+     Adv. Theor. Math. Phys. 2 (1998) 231–252, arXiv:hep-th/9711200.
+
+ [7] E. Witten, “Anti-de Sitter space and holography,” Adv. Theor. Math. Phys. 2 (1998)
+     253–291, arXiv:hep-th/9802150.
+
+ [8] S. S. Gubser, I. R. Klebanov, and A. M. Polyakov, “Gauge theory correlators from
+     non-critical string theory,” Phys. Lett. B428 (1998) 105–114, arXiv:hep-th/9802109.
+
+ [9] A. Fitzpatrick and J. Kaplan, “Unitarity and the Holographic S-Matrix,”
+     arXiv:1112.XXXX [hep-th].
+
+[10] J. Polchinski, “S-matrices from AdS spacetime,” arXiv:hep-th/9901076.
+
+[11] L. Susskind, “Holography in the flat space limit,” arXiv:hep-th/9901079.
+
+
+
+                                             39
+[12] M. Gary, S. B. Giddings, and J. Penedones, “Local bulk S-matrix elements and CFT
+     singularities,” Phys. Rev. D80 (2009) 085005, arXiv:0903.4437 [hep-th].
+
+[13] A. Fitzpatrick and J. Kaplan, “Scattering States in AdS/CFT,” arXiv:1104.2597
+     [hep-th].
+
+[14] N. Arkani-Hamed, S. Dubovsky, A. Nicolis, E. Trincherini, and G. Villadoro, “A
+     Measure of de Sitter entropy and eternal inflation,” JHEP 0705 (2007) 055,
+     arXiv:0704.1814 [hep-th].
+
+[15] S. B. Giddings and R. A. Porto, “The gravitational S-matrix,” Phys. Rev. D81 (2010)
+     025002, arXiv:0908.0004 [hep-th].
+
+[16] I. Heemskerk, J. Penedones, J. Polchinski, and J. Sully, “Holography from Conformal
+     Field Theory,” JHEP 10 (2009) 079, arXiv:0907.0151 [hep-th].
+
+[17] A. L. Fitzpatrick, E. Katz, D. Poland, and D. Simmons-Duffin, “Effective Conformal
+     Theory and the Flat-Space Limit of AdS,” arXiv:1007.2412 [hep-th].
+
+[18] I. Heemskerk and J. Polchinski, “Holographic and Wilsonian Renormalization Groups,”
+     JHEP 1106 (2011) 031, arXiv:1010.1264 [hep-th].
+
+[19] I. Heemskerk and J. Sully, “More Holography from Conformal Field Theory,” JHEP
+     1009 (2010) 099, arXiv:1006.0976 [hep-th].
+
+[20] R. Rattazzi, V. S. Rychkov, E. Tonni, and A. Vichi, “Bounding scalar operator
+     dimensions in 4D CFT,” JHEP 12 (2008) 031, arXiv:0807.0004 [hep-th].
+
+[21] F. A. Dolan and H. Osborn, “Conformal partial waves and the operator product
+     expansion,” Nucl. Phys. B678 (2004) 491–507, arXiv:hep-th/0309180.
+
+[22] M. S. Costa, J. Penedones, D. Poland, and S. Rychkov, “Spinning Conformal
+     Correlators,” arXiv:1107.3554 [hep-th].
+
+[23] M. S. Costa, J. Penedones, D. Poland, and S. Rychkov, “Spinning Conformal Blocks,”
+     arXiv:1109.6321 [hep-th].
+
+[24] S. Hellerman, “A Universal Inequality for CFT and Quantum Gravity,” JHEP 1108
+     (2011) 130, arXiv:0902.2790 [hep-th].
+
+[25] D. Poland, D. Simmons-Duffin, and A. Vichi, “Carving Out the Space of 4D CFTs,”
+     arXiv:1109.5176 [hep-th].
+
+[26] S. Rychkov, “Conformal Bootstrap in Three Dimensions?,” arXiv:1111.2115
+     [hep-th]. * Temporary entry *.
+
+[27] A. Belavin, A. M. Polyakov, and A. Zamolodchikov, “Infinite Conformal Symmetry in
+     Two-Dimensional Quantum Field Theory,” Nucl.Phys. B241 (1984) 333–380.
+
+
+                                            40
+[28] T. Banks, M. R. Douglas, G. T. Horowitz, and E. J. Martinec, “AdS dynamics from
+     conformal field theory,” arXiv:hep-th/9808016 [hep-th].
+
+[29] V. Balasubramanian, P. Kraus, A. E. Lawrence, and S. P. Trivedi, “Holographic probes
+     of anti-de Sitter space-times,” Phys.Rev. D59 (1999) 104021, arXiv:hep-th/9808017
+     [hep-th].
+
+[30] I. Bena, “On the construction of local fields in the bulk of AdS(5) and other spaces,”
+     Phys.Rev. D62 (2000) 066007, arXiv:hep-th/9905186 [hep-th].
+
+[31] D. Harlow and D. Stanford, “Operator Dictionaries and Wave Functions in AdS/CFT
+     and dS/CFT,” arXiv:1104.2621 [hep-th].
+
+[32] M. Gary and S. B. Giddings, “The Flat space S-matrix from the AdS/CFT
+     correspondence?,” Phys.Rev. D80 (2009) 046008, arXiv:0904.3544 [hep-th].
+
+[33] D. W. Dusedau and D. Z. Freedman, “LEHMANN SPECTRAL REPRESENTATION
+     FOR ANTI-DE SITTER QUANTUM FIELD THEORY,” Phys.Rev. D33 (1986) 389.
+
+[34] S. Weinberg, “The Quantum theory of fields. Vol. 1: Foundations,”.
+
+[35] F. A. Dolan and H. Osborn, “Conformal four point functions and the operator product
+     expansion,” Nucl. Phys. B599 (2001) 459–496, arXiv:hep-th/0011040.
+
+[36] D. Amati, M. Ciafaloni, and G. Veneziano, “Superstring Collisions at Planckian
+     Energies,” Phys.Lett. B197 (1987) 81.
+
+[37] S. B. Giddings, “The gravitational S-matrix: Erice lectures,” arXiv:1105.2036
+     [hep-th]. * Temporary entry *.
+
+[38] R. Sundrum, “From Fixed Points to the Fifth Dimension,” arXiv:1106.4501
+     [hep-th]. * Temporary entry *.
+
+[39] A. Adams, N. Arkani-Hamed, S. Dubovsky, A. Nicolis, and R. Rattazzi, “Causality,
+     analyticity and an IR obstruction to UV completion,” JHEP 0610 (2006) 014,
+     arXiv:hep-th/0602178 [hep-th].
+
+[40] K. Skenderis, “Lecture notes on holographic renormalization,” Class.Quant.Grav. 19
+     (2002) 5849–5876, arXiv:hep-th/0209067 [hep-th].
+
+[41] N. Arkani-Hamed, F. Cachazo, and J. Kaplan, “What is the Simplest Quantum Field
+     Theory?,” JHEP 1009 (2010) 016, arXiv:0808.1446 [hep-th].
+
+[42] N. Arkani-Hamed, F. Cachazo, C. Cheung, and J. Kaplan, “A Duality For The S
+     Matrix,” JHEP 1003 (2010) 020, arXiv:0907.5418 [hep-th].
+
+[43] R. Britto, F. Cachazo, and B. Feng, “New recursion relations for tree amplitudes of
+     gluons,” Nucl.Phys. B715 (2005) 499–522, arXiv:hep-th/0412308 [hep-th].
+
+
+                                              41
+[44] R. Britto, F. Cachazo, B. Feng, and E. Witten, “Direct proof of tree-level recursion
+     relation in Yang-Mills theory,” Phys.Rev.Lett. 94 (2005) 181602,
+     arXiv:hep-th/0501052 [hep-th].
+
+[45] Z. Bern, L. J. Dixon, and R. Roiban, “Is N = 8 supergravity ultraviolet finite?,”
+     Phys.Lett. B644 (2007) 265–271, arXiv:hep-th/0611086 [hep-th].
+
+[46] Z. Bern, J. Carrasco, L. J. Dixon, H. Johansson, and R. Roiban, “The Ultraviolet
+     Behavior of N=8 Supergravity at Four Loops,” Phys.Rev.Lett. 103 (2009) 081301,
+     arXiv:0905.2326 [hep-th].
+
+[47] N. Arkani-Hamed and J. Kaplan, “On Tree Amplitudes in Gauge Theory and Gravity,”
+     JHEP 0804 (2008) 076, arXiv:0801.2385 [hep-th].
+
+[48] J. Drummond, J. Henn, G. Korchemsky, and E. Sokatchev, “Dual superconformal
+     symmetry of scattering amplitudes in N=4 super-Yang-Mills theory,” Nucl.Phys. B828
+     (2010) 317–374, arXiv:0807.1095 [hep-th].
+
+[49] T. Banks, W. Fischler, S. Shenker, and L. Susskind, “M theory as a matrix model: A
+     Conjecture,” Phys.Rev. D55 (1997) 5112–5128, arXiv:hep-th/9610043 [hep-th].
+
+[50] A. L. Fitzpatrick and D. Shih, “Anomalous Dimensions of Non-Chiral Operators from
+     AdS/CFT,” JHEP 10 (2011) 113, arXiv:1104.5013 [hep-th].
+
+[51] S. Weinberg, “Six-dimensional Methods for Four-dimensional Conformal Field
+     Theories,” Phys.Rev. D82 (2010) 045031, arXiv:1006.3480 [hep-th].
+
+
+
+
+                                             42
+
