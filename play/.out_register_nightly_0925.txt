@@ -1,0 +1,5 @@
+== Fri Sep 25 15:30:29 EDT 2026  model=qwen3:30b-a3b api=ollama
+== Fri Sep 25 15:30:32 EDT 2026 exit=2
+notes/.running/approaches_register_nightly_2026-09-25_1530.log:rows=3318 model_calls=3 verify_fail=905 secs=3
+notes/.running/approaches_register_nightly_2026-09-25_1530.log:CONTROLS: 9/11 match
+notes/BST_Approaches_Register.md:Unstable rows: 967 / 3318

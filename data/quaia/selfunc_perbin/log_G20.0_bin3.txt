@@ -1,0 +1,28 @@
+/private/tmp/claude-501/-Users-cskoons-projects-github/41c633ce-9fcf-48f5-8416-46d039b40f88/scratchpad/qvenv/lib/python3.12/site-packages/dustmaps/config.py:74: ConfigWarning: Configuration file not found:
+
+    /Users/cskoons/.dustmapsrc
+
+To create a new configuration file in the default location, run the following python code:
+
+    from dustmaps.config import config
+    config.reset()
+
+Note that this will delete your configuration! For example, if you have specified a data directory, then dustmaps will forget about its location.
+  warn(('Configuration file not found:\n\n'
+Loading data
+Making QSO map
+Dustmap already exists, loading from ../data/maps/map_dust_NSIDE64.npy
+Star map already exists, loading from ../data/maps/map_stars_NSIDE64.npy
+M10 map already exists, loading from ../data/maps/map_m10_NSIDE64.npy
+MCs map already exists, loading from ../data/maps/map_mcs_NSIDE64.npy
+unWISE map already exists, loading from ../data/maps/map_unwise_NSIDE64.npy
+unWISE scan map already exists, loading from ../data/maps/map_unwisescan_NSIDE64.npy
+MCs map already exists, loading from ../data/maps/map_mcsunwise_NSIDE64.npy
+Constructing X
+(7, 49152)
+(7, 49152)
+Getting indices to fit
+err min max: 0.0 4.795831523312719
+Training fitter
+X_train: (24638, 7) y_train: (24638,)
+y_train min: 1.0 y_train: 23.0
