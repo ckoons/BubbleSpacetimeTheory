@@ -1,0 +1,2747 @@
+                                                          Holographic operators for the tensor products
+                                                             of the spaces of holomorphic functions
+                                                          on Hermitian symmetric spaces of tube type
+                                                                              Ryosuke Nakahama∗†
+                                                                  NTT Institute for Fundamental Mathematics,
+                                                                 Communication Science Laboratories, NTT, Inc.
+                                                            3-9-11 Midori-cho, Musashino-shi, Tokyo 180-8585, Japan
+
+
+
+
+arXiv:2603.21472v2 [math.RT] 5 Jun 2026
+                                                                                        June 8, 2026
+
+
+                                                                                          Abstract
+                                                        We consider a tensor product of two spaces of holomorphic functions on a Hermitian
+                                                    symmetric space of tube type. Then generically this is decomposed into a direct sum
+                                                    of irreducible subrepresentations. In this manuscript, we construct the intertwining
+                                                    operator (holographic operator) from each irreducible summand to the tensor product
+                                                    as an integral operator. This gives a generalization of the result by Kobayashi–Pevzner
+                                                    [22]. We also discuss the expression of holographic operators in terms of infinite-order
+                                                    differential operators.
+
+                                                    Keywords: Hermitian symmetric spaces of tube type; holomorphic discrete series
+                                                    representations; holographic operators; branching laws.
+                                                    2020 Mathematics Subject Classification: 22E46; 43A85; 17C30.
+
+
+                                          1        Introduction
+                                          The purpose of this manuscript is to construct intertwining operators (holographic opera-
+                                          tors) for tensor products of two spaces of holomorphic functions on a Hermitian symmetric
+                                          space of tube type.
+                                              First, we consider the upper half plane Π := {x ∈ C | Im x > 0}. We fix λ ∈ C. Then
+                                          the universal covering group SL(2,
+                                                                          f    R) of SL(2, R) acts on the space O(Π) = Oλ (Π) of
+                                          holomorphic functions on Π by
+                                                                        −1                              
+                                                                      a b                               ax + b
+                                                                τλ              f (x) := (cx + d)−λ f            .
+                                                                       c d                              cx + d
+
+                                                                                               / −Z≥0 . We note that (cx + d)−λ is
+                                          The representation (τλ , Oλ (Π)) is irreducible if λ ∈
+                                          not well-defined on SL(2, R) if λ ∈ / Z, but this is well-defined on the universal covering
+                                          group. Next, for λ, µ ∈ C, we consider the tensor product representation Oλ (Π) ⊗ ˆ Oµ (Π).
+                                          If λ, µ > 0, then this is decomposed into the direct sum of subrepresentations as
+                                                                                         X⊕
+                                                                      Oλ (Π) ˆ
+                                                                             ⊗ Oµ (Π) ≃        Oλ+µ+2l (Π).
+                                                                                                l∈Z≥0
+
+                                              ∗
+                                                  This work was supported by JSPS KAKENHI Grant Number JP25K07057, Japan.
+                                              †
+                                                  Email: ryosuke.nakahama@ntt.com
+
+
+                                                                                               1
+According to this decomposition, the intertwining operator onto each subrepresentation
+(symmetry breaking operator, in the terminology of [20, 21]) is given by the following
+Rankin–Cohen bracket, which was originally introduced in the context of modular forms.
+
+Theorem 1.1 (Rankin–Cohen [3, 40]). Let λ, µ ∈ C, l ∈ Z≥0 . Then the map
+                           λ,µ
+                          Fl↓  : Oλ (Π) ˆ
+                                        ⊗ Oµ (Π) −→ Oλ+µ+2l (Π),
+                              l
+              λ,µ
+                              X             (λ + l − j)j (µ + j)l−j   ∂lf
+            (Fl↓  f )(z) :=         (−1)j                                      (x, y)
+                                                   j!(l − j)!       ∂xl−j ∂y j        x=y=z
+                              j=0
+
+
+intertwines the f
+                SL(2, R)-action.
+
+    Here, (λ)j := λ(λ + 1)(λ + 2) · · · (λ + j − 1). On the other hand, the intertwining
+operator of opposite direction (holographic operator) has recently been constructed as an
+integral operator by Kobayashi–Pevzner.
+
+Theorem 1.2 (Kobayashi–Pevzner [22]). Let λ, µ ∈ C, l ∈ Z≥0 , Re λ, Re µ > −l. Then
+the map
+                            λ,µ
+                          Fl↑   : Oλ+µ+2l (Π) −→ Oλ (Π) ˆ ⊗ Oµ (Π),
+                                    1
+                       (x − y)l
+                                                            
+                                          (y − x)z + (x + y)
+                                  Z
+     λ,µ
+   (Fl↑  f )(x, y) := λ+µ+2l−1        f                        (1 − z)λ+l−1 (1 + z)µ+l−1 dz
+                     2          l! −1              2
+
+intertwines the SL(2,
+                f     R)-action.
+
+   By putting 12 ((y − x)z + (x + y)) =: w, this map is rewritten as
+                                          Z
+         λ,µ            1        −λ−µ−l+1
+      (Fl↑ f )(x, y) = (x − y)                    f (w)(w − y)λ+l−1 (x − w)µ+l−1 dw.
+                        l!                  [y,x]
+
+In this manuscript, we consider a generalization of the result by Kobayashi–Pevzner
+for general simple Hermitian symmetric spaces of tube type, namely for D ≃ G/K =
+Sp(r, R)/U (r), SU (r, r)/S(U (r) × U (r)), SO∗ (4r)/U (2r), SO0 (2, n)/SO(2) × SO(n) and
+E7(−25) /U (1) × E6 , realized as bounded symmetric domains in complex simple Jordan al-
+gebras p+ = Sym(r, C), M (r, C), Alt(2r, C), Cn , and Herm(3, O)C respectively. Our proof
+is based on a method different from Kobayashi–Pevzner’s one, and gives a new insight
+applicable to symmetric spaces of higher rank.
+    Differential symmetry breaking operators are regarded as generalizations of Rankin–
+Cohen brackets [3, 40] for modular forms and Juhl’s operators [15] for conformal geometry.
+The construction of differential symmetry breaking operators for the symmetric pairs
+(G × G, diag(G)) is studied by, e.g, [1, 2, 35, 36, 37, 42] and the author [31, Section 5.2],
+[33, Section 8], and that for more general symmetric pairs (G, G′ ) is studied by, e.g., [6,
+14, 17, 19, 20, 21, 26, 38, 39] and the author [31, 32, 34]. Especially, by [20, 21], symmetry
+breaking operators for symmetric pairs (G, G′ ) of holomorphic type and for holomorphic
+discrete series representations of G (or more generally, representations on the spaces of
+holomorphic functions on Hermitian symmetric spaces) are always given by differential
+operators (localness theorem), and their symbols are characterized as solutions of certain
+differential equations (F-method). The author [33] also computes the operator norms
+of symmetry breaking operators and determines the Parseval–Plancherel type formulas
+for holomorphic discrete series representations of scalar type. Intertwining operators for
+
+                                                     2
+certain non-symmetric pairs are studied by, e.g., [10, 27], and non-differential intertwining
+operators for certain symmetric pairs are also studied by, e.g., [4, 5, 11, 12, 13, 18, 23, 24,
+30].
+    On the other hand, the study on holographic operators for holomorphic discrete series
+representations is initiated by Kobayashi–Pevzner [22]. In [22], they construct a holo-
+graphic operator for (SL(2, R) × SL(2, R), SL(2, R)) as an integral operator on a real line
+segment (Theorem 1.2), and that for (SO0 (2, n), SO0 (2, n − 1)) as an integral operator on
+the complex tube domain. The author [31, Section 3.2] also constructs holographic oper-
+ators for general symmetric pairs of holomorphic type and general holomorphic discrete
+series representations, as integral operators on complex bounded symmetric domains (see
+Theorem 2.3 of this article for tensor product cases). In addition, once a holographic op-
+erator is constructed, then we can also express it as an infinite-order differential operator
+(see [31, Section 3.3] and Theorem 2.4).
+    However, this integral operator (Theorem 2.3) does not contain Theorem 1.2 as a
+special case, since the operator in Theorem 1.2 is given as an integral on a totally real
+submanifold. In this article, we construct holographic operators for the tensor products of
+holomorphic discrete series representations as integral operators on totally real submani-
+folds, when G is of tube type, and the subrepresentation satisfies a suitable assumption.
+Especially, if we consider the tensor product of two holomorphic discrete series repre-
+sentations of scalar type, then all subrepresentations satisfy this assumption, and these
+operators completely work. This enables us to analyze the representations via the theory
+of contour integrals. Moreover, we can explicitly compute the differential expression of the
+holographic operators if three representations (two tensored representations and a subrep-
+resentation) are of scalar type. We expect that the combination of several expressions
+of symmetry breaking and holographic operators (differentials, integrals over complex do-
+mains, integrals over totally real submanifolds) provides new insights into other areas, e.g.,
+automorphic forms and conformal geometries. We note that the proof of Theorem 1.2 by
+[22] is performed by transforming the Rankin–Cohen bracket into the L2 (R>0 )-picture,
+and applying the theory of Jacobi polynomials. On the other hand, in this paper, our
+proof is based on a different approach, and does not treat the relation with differential
+symmetry breaking operators, L2 -pictures, and multivariate orthogonal polynomials. Fur-
+ther research is required to find another proof of our theorem parallel to [22], which will
+make the theory more fruitful.
+    This manuscript is organized as follows. In Section 2, we review Jordan algebras and
+Hermitian symmetric spaces. In Section 3, we give a definition of certain totally real sub-
+manifolds in the Hermitian symmetric spaces, and in Section 4, we construct holographic
+operators as integral operators on the above totally real submanifolds. In Section 5, we
+consider the tensor products of the spaces of scalar-valued holomorphic functions, and for
+each irreducible subrepresentation, we compute the image of the minimal K-type under
+holographic operators. This corresponds to the determination of the normalization of
+holographic operators. Finally, in Section 6, when the subrepresentation is also of scalar
+type, we prove that the holographic operator is expressed as an infinite-order differential
+operator, with the symbol given by a multivariate confluent hypergeometric function.
+
+
+2    Preliminaries
+In this section, we review Jordan algebras and Hermitian symmetric spaces. For details,
+see, e.g., [7, Parts III, V], [9], [25], [28], [29], [41].
+
+
+
+                                              3
+2.1     Jordan algebras and Kantor–Koecher–Tits construction
+Let n+ be a simple Euclidean Jordan algebra, with the multiplication ◦, the unit element e,
+and the complexification p+ = n+C := n+ ⊗C. Let tr and det be the trace and determinant
+polynomials on p+ , and let (x|y) := tr(x ◦ y) be the associated bilinear form. Also, let
+· : p+ → p+ be the complex conjugate with respect to the real form n+ ⊂ p+ , so that (·|·)
+is positive definite on p+ . We also write n+ = n− , p+ = p− , and regard n− , p− as the
+dual spaces of n+ , p+ via (·|·). For x, y ∈ p+ , let L(x), P (x), D(x, y), B(x, y) ∈ EndC (p+ )
+be the maps given by
+
+                          L(x)z := x ◦ z,
+                          P (x)z := 2x ◦ (x ◦ z) − (x ◦ x) ◦ z,
+                       D(x, y)z := 2(x ◦ (y ◦ z) + z ◦ (y ◦ x) − (x ◦ z) ◦ y),
+                       B(x, y)z := z − D(x, y)z + P (x)P (y)z,
+
+and let h(x, y), |x|∞ be the generic norm and the spectral norm on p+ . Throughout the
+paper, let rank p+ = r, dim p+ = n = r + d2 r(r − 1). Then (·|·), det, h and | · |∞ satisfy
+                                           r                 r
+                      (x|y) = tr(x ◦ y) =    Tr(L(x ◦ y)) =    Tr(D(x, y)),
+                                           n                2n
+            2n                             2n                              1
+      det(x) r = Det(P (x)),        h(x, y) r = Det(B(x, y)),     |x|2∞ = D(x, x)       ,
+                                                                           2      op,p+
+
+where Tr, Det and | · |op,p+ are the usual trace, determinant and the operator norm on
+EndC (p+ ). In addition, let Ω ⊂ n+ , TΩ ⊂ p+ , and D ⊂ p+ be the symmetric cone, the
+tube domain, and the bounded symmetric domain given by
+
+        Ω := (connected component of {x ∈ n+ | det(x) > 0} which contains e) ⊂ n+ ,
+                  √
+       TΩ := n+ + −1Ω ⊂ p+ ,
+        D := (connected component of {x ∈ p+ | h(x, x) > 0} which contains 0)
+           = {x ∈ p+ | |x|∞ < 1} ⊂ p+ .
+
+Then TΩ is biholomorphically diffeomorphic to D via the Cayley transform
+                           ∼                  √         √
+                 gc . : D −→ TΩ ,   x 7−→ (x + −1e) ◦ ( −1x + e)−1 .
+
+   Next, for l ∈ EndC (p+ ), let l, tl ∈ EndC (p+ ) be the elements satisfying (lx|y) = (x|tly),
+lx = lx for x, y ∈ p+ , and let l∗ := tl. Let
+
+             kC := {l ∈ EndC (p+ ) | D(lx, y) − D(x, tly) = lD(x, y) − D(x, y)l},
+
+               l , kl ⊂ k be the Lie subalgebras given by
+and let k, l, kC         C
+
+
+                  k := {l ∈ kC | l∗ = −l},              l := {l ∈ kC | l = l},
+                             C t
+                 kC
+                  l := {l ∈ k | l = −l},                kl := k ∩ l = k ∩ kC        C
+                                                                           l = l ∩ kl .
+
+We construct a Lie algebra gC via the Kantor–Koecher–Tits construction by
+
+                                        gC := p+ ⊕ kC ⊕ p−
+
+equipped with the Lie bracket
+
+            [(x, k, y), (z, l, w)] := (kz − lx, [k, l] + D(x, w) − D(z, w), −tkw + tly),
+
+                                                  4
+and extend the bilinear form (·|·) : p+ × p− → C to the invariant bilinear form (·|·) : gC ×
+gC → C. We fix a connected complex Lie group GC corresponding to gC . Next, let
+g, c g, c k ⊂ gC be the Lie subalgebras, and p, c p ⊂ gC be the subspaces given by
+
+                              g := {(x, k, x) | x ∈ p+ , k ∈ k}     ⊂ gC ,
+                              p := {(x, 0, x) | x ∈ p+ }            ⊂ g,
+                          c
+                              g := n+ ⊕ l ⊕ n−                      ⊂ gC ,
+                           c
+                               k := {(x, k, −x) | x ∈ n+ , k ∈ kl } ⊂ c g,
+                          c
+                              p := {(x, L(y), x) | x, y ∈ n+ }      ⊂ c g,
+
+so that g = k ⊕ p, c g = c k ⊕ c p holds, and g, c g are isomorphic via the Cayley transform
+                                            √                 
+                                             π −1                       ∼
+                       Ad(gc ) := Ad exp              (e, 0, e)    : g −→ c g.
+                                                 4
+
+Let G, cG, K, cK, P ± , N ± ⊂ GC be the connected closed subgroups corresponding         √ to
+g, c g, k, c k, p± , n± respectively. Also, let L := K C ∩ cG, KL := K ∩L, KLC := KL exp( −1kl )
+⊂ K C . Then L acts on Ω, KLC acts on p+ as Jordan algebra automorphisms, and we have
+
+          AdGC (K C )|p+ ∩ GLR (n+ ) = AdGC (L)|p+ ∪ − AdGC (L)|p+ ⊂ GLC (p+ ),
+
+where an element of − AdGC (L)|p+ maps Ω to −Ω (see [9, Proposition VIII.2.8]). We
+abbreviate Ad(l)x =: lx, Ad(l−1 )y =: tly for l ∈ K C , x ∈ p+ , y ∈ p− if there is no
+confusion. Also, let
+                           p+× := {x ∈ p+ | det(x) ̸= 0},
+             e+× be the universal covering spaces of K C , p+× respectively. We extend the
+        e C, p
+and let K
+maps
+
+  P : p+× −→ AdGC (K C )|p+ ⊂ GLC (p+ ),               B : D × D −→ AdGC (K C )|p+ ⊂ GLC (p+ )
+
+to the maps between the universal covering spaces
+
+                            p+× −→ K
+                          P:e      e C,                             e C,
+                                                       B : D × D −→ K
+
+denoted by the same symbols.
+
+2.2   Jordan frames and restricted root systems
+We fix a Jordan frame {e1 , . . . , er } ⊂ n+ , namely, a maximal set of primitive idempotents
+satisfying D(ei , ej ) = 0 for i ̸= j, and let hj := D(ej , ej ) ∈ l ⊂ kC . We set
+
+                         al := {a1 h1 + · · · + ar hr | aj ∈ R} ⊂ l ⊂ kC ,
+                        aC                                        C
+                         l := {a1 h1 + · · · + ar hr | aj ∈ C} ⊂ k ,
+
+and we take a Cartan subalgebra tC ⊂ kC which contains aC      l . We define the elements
+γj ∈ (al ) of the dual space by γi (hj ) = 2δij , and extend to γj ∈ (tC )∨ , denoted by the
+       C  ∨
+
+same symbols. Then
+                                    1
+                             dχ := (γ1 + · · · + γr ) ∈ (tC )∨
+                                    2
+
+
+
+                                                   5
+becomes a character of kC . Let χ be the character of K C corresponding to dχ. Then for
+x ∈ p+ , we have
+
+           dχ(D(x, y)) = (x|y),          χ(P (x)) = det(x),           χ(B(x, y)) = h(x, y).
+                                                                         C ∨
+                                                    l ) ⊂ Σ(g , al ) ⊂ (al ) as
+We take a positive restricted root system Σ+ (gC , aC          C C
+
+                                                                                
+           C C          1                                1
+      Σ+ (g , al ) :=     (γi − γj ) 1 ≤ i < j ≤ r ∪       (γi + γj ) 1 ≤ i ≤ j ≤ r ,
+                        2                                2
+
+and we take a positive root system ∆+ (gC , tC ) ⊂ ∆(gC , tC ) ⊂ (tC )∨ compatible with
+Σ+ (gC , aC
+          l ).
+   Next, we consider the restricted root subspaces of l,
+                                                             
+                                       δik − δjk
+               lij := l ∈ l [hk , l] =           l, 1 ≤ k ≤ r      (1 ≤ i, j ≤ r),
+                                           2
+                                     M                      M
+                           nl :=           lij ,    n−
+                                                     l :=       lij .
+                                    1≤i<j≤r                     1≤j<i≤r
+
+
+Let AL , NL , NL− ⊂ L be the connected closed subgroups corresponding to al , nl , n−
+                                                                                    l respec-
+tively, and let ML := ZKL (al ) be the centralizer of al in KL . Then ML AL NL , ML AL NL− ⊂
+L are minimal parabolic subgroups.
+
+2.3    Representations on the spaces of holomorphic functions
+We consider the action of GC on GC /K C P − . Since P + K C P − /K C P − ⊂ GC /K C P − is
+open dense, for g ∈ GC , x ∈ p+ , if g exp(x) ∈ P + K C P − , then we write
+
+                         g exp(x) = exp(π + (g, x))κ(g, x) exp(π − (g, x))
+
+with π ± (g, x) ∈ p± , κ(g, x) ∈ K C . Then π + gives the birational action of GC on p+ . In
+the following, we abbreviate π + (g, x) =: g.x. Also, κ satisfies the cocycle condition
+
+                  κ(g1 g2 , x) = κ(g1 , g2 .x)κ(g2 , x)      (g1 , g2 ∈ GC , x ∈ p+ ).
+
+Especially, if g = exp((u, 0, 0)) with u ∈ p+ , we have
+
+                     exp((u, 0, 0)).x = x + u,            κ(exp((u, 0, 0)), x) = I,
+
+if g = k ∈ K C , we have
+                                    k.x = kx,          κ(k, x) = k,
+and if g = exp((0, 0, v)) with v ∈ p− , we have
+
+      exp((0, 0, v)).x = x−v ,       Ad(κ(exp((0, 0, v)), x))|p+ = B(x, −v)−1 ∈ GLC (p+ ),
+
+where the quasi-inverse xv is defined as
+
+                       xv := B(x, v)−1 (x − P (x)v) = (x−1 − v)−1 .                           (2.1)
+
+Also, if we put J := exp π2 (−e, 0, e) ∈ GC , then we have
+                                      
+
+
+                   J.x = −x−1 ,         Ad(κ(J, x))|p+ = P (x)−1 ∈ GLC (p+ ),
+
+                                                   6
+                   √
+and for gc := exp π 4−1 (e, 0, e) , we have
+                                 
+
+               √         √                                              √        −1
+   gc .x = (x + −1e) ◦ ( −1x + e)−1 ,       Ad(κ(gc , x))|p+ = P 2−1/2 ( −1x + e) ,
+               √            √                                            √         −1
+ gc−1 .x = (x − −1e) ◦ (− −1x + e)−1 , Ad(κ(gc−1 , x))|p+ = P 2−1/2 (− −1x + e) .
+Moreover, the restriction of π + gives the actions of G, cG on D, TΩ respectively, and
+                                      D ≃ G/K ≃ cG/cK ≃ TΩ
+becomes a Hermitian symmetric space of tube type. Let e     G, c e
+                                                                G, K e C denote the universal
+covering groups of G, G, K respectively. We extend κ : G × D → K C , κ : cG × TΩ → K C
+                        c    C
+
+to the maps between universal covering spaces κ : G  e×D →K    e C , κ : cG
+                                                                          e × TΩ → K  e C.
+    Next, let (τ, Vτ ) be an irreducible finite-dimensional representation of K e C , with the
+                            1 Pr                 ∨                                    e cG
+restricted lowest weight − 2 j=1 λj γj ∈ (al ) , where λj − λj+1 ∈ Z≥0 . Then G,
+                                               C                                           e act
+on the spaces of Vτ -valued holomorphic functions O(D, Vτ ), O(TΩ , Vτ ) respectively by
+                               (τ̂ (g)f )(x) := τ (κ(g −1 , x))−1 f (g −1 .x).
+O(D, Vτ ), O(TΩ , Vτ ) are isomorphic by
+        τ̂ (gc ) : O(D, Vτ ) −→ O(TΩ , Vτ ),        (τ̂ (gc )f )(x) := τ (κ(gc−1 , x))−1 f (gc−1 .x).
+When (τ, Vτ ) is a unitary representation of K         e with the invariant inner product (·, ·)τ , τ̂
+preserves the inner products
+                      Z
+                                                                 2n
+  ⟨f1 , f2 ⟩τ̂ := Cτ̂    (τ (B(x, x))−1 f1 (x), f2 (x))τ h(x, x)− r dx      (f1 , f2 ∈ O(D, Vτ )),
+                      ZD
+                                                                      2n
+  ⟨f1 , f2 ⟩τ̂ := Cτ̂     (τ (P (Im x))−1 f1 (x), f2 (x))τ det(Im x)− r dx (f1 , f2 ∈ O(TΩ , Vτ )),
+                    TΩ
+
+where we determine the normalizing constant Cτ̂ such that ∥v∥τ̂ = |v|τ P       holds for all
+constant functions v ∈ Vτ ⊂ O(D, Vτ ). If the restricted lowest weight − 2 rj=1 λj γj of
+                                                                            1
+
+(τ, Vτ ) satisfies λr > 2n
+                         r − 1, then the corresponding Hilbert spaces H(D, Vτ ) ⊂ O(D, Vτ ),
+H(TΩ , Vτ ) ⊂ O(TΩ , Vτ ) are non-zero, and these are called holomorphic discrete series
+representations. For such cases, the e    K-finite part of the bounded symmetric domain
+picture coincides with the space of Vτ -valued polynomials.
+                            O(D, Vτ )Ke = H(D, Vτ )Ke = P(p+ ) ⊗ Vτ .
+On the other hand, this does not hold for general unitary subrepresentations of O(D, Vτ )
+if it is not a holomorphic discrete series representation. For µ ∈ C, we also write
+             O(D, Vτ ⊗ χ−µ ) =: Oµ (D, Vτ ),                       O(D, χ−µ ) =: Oµ (D),
+             O(TΩ , Vτ ⊗ χ−µ ) =: Oµ (TΩ , Vτ ),                  O(TΩ , χ−µ ) =: Oµ (TΩ ).
+Especially, for µ > 2nr −1, the holomorphic discrete series representations Hµ (D) ⊂ Oµ (D),
+Hµ (TΩ ) ⊂ Oµ (TΩ ) are given by the inner products
+                        Z
+                                                2n
+      ⟨f1 , f2 ⟩µ := Cµ    f1 (x)f2 (x)h(x, x)µ− r dx            (f1 , f2 ∈ Oµ (D)),   (2.2)
+                        ZD
+                                                      2n
+      ⟨f1 , f2 ⟩µ := Cµ     f1 (x)f2 (x) det(Im(x))µ− r dx       (f1 , f2 ∈ Oµ (TΩ )),
+                          TΩ
+
+where
+                                        r
+                                      1 Y Γ µ − d2 (j − 1)
+                                                             
+                                Cµ := n                        .
+                                     π    Γ µ − nr − d2 (j − 1)
+                                             j=1
+
+
+                                                     7
+2.4   Tensor product of the spaces of holomorphic functions
+Let (σ, Vσ ), (τ, Vτ ) be irreducible finite-dimensional representations of K.
+                                                                             e We consider
+the tensor product representation (σ̂ ˆ   ⊗ τ̂ , O(D × D, Vσ ⊗ Vτ )). For a while, we assume
+that O(D, Vσ ), O(D, Vτ ) contain the holomorphic discrete series representations H(D, Vσ ),
+H(D, Vτ ), and consider the Hilbert tensor product H(D, Vσ ) ˆ      ⊗ H(D, Vτ ). Then this is
+completely reducible, and each subrepresentation contains a p -null vector. Since p+ acts
+                                                                  +
+
+on (H(D, Vσ ) ˆ ⊗ H(D, Vτ ))Ke as a directional derivative along {(x, x) | x ∈ p+ }, the space
+    +
+of p -null vectors is given by
+                             +
+              ⊗ H(D, Vτ ))pe = {f (x − y) | f ∈ P(p+ )} ⊗ Vσ ⊗ Vτ ≃ P(p+ ) ⊗ Vσ ⊗ Vτ .
+   (H(D, Vσ ) ˆ
+                            K
+
+Then according to the decomposition of this space under K,
+                                                        e the following holds.
+
+Theorem 2.1 (Kobayashi, [16, Lemma 8.9]). Suppose H(D, Vσ ), H(D, Vτ ) are holomor-
+                                        e If P(p+ ) ⊗ Vσ ⊗ Vτ is decomposed under K
+phic discrete series representations of G.                                        e
+as                                      M
+                    P(p+ ) ⊗ Vσ ⊗ Vτ ≃     Vρ⊕m(ρ)   (m(ρ) ∈ Z≥0 ),
+                                              ρ
+
+               ˆ H(D, Vτ ) is decomposed under G
+then H(D, Vσ ) ⊗                               e as
+                                              X⊕
+                    H(D, Vσ ) ˆ ⊗ H(D, Vτ ) ≃     H(D, Vρ )⊕m(ρ) .
+                                                      ρ
+
+   Especially, suppose Vσ = χ−λ , Vτ = χ−µ . Let
+
+                    Zr++ := {k = (k1 , . . . , kr ) ∈ Zr | k1 ≥ · · · ≥ kr ≥ 0},
+                     Zr+ := {k = (k1 , . . . , kr ) ∈ Zr | k1 ≥ · · · ≥ kr },
+
+and for k ∈ Zr+ , let Vkγ  ∨ be the irreducible representation of K C with the lowest weight
+
+−(k1 γ1 + · · · + kr γr ) ∈ (tC )∨ , so that
+                                      M                           M
+                        P(p+ ) ≃             ∨
+                                           Vkγ , P(p+ )[det−1 ] ≃      ∨
+                                                                     Vkγ               (2.3)
+                                 k∈Zr++                               k∈Zr+
+
+hold (see [9, Theorem XI.2.4]). Then by the former decomposition, we have the following.
+Theorem 2.2 (Kobayashi, [16, Theorem 8.4]). Suppose λ, µ > 2n                   ˆ
+                                                             r − 1. Then Hλ (D) ⊗
+Hµ (D) is decomposed under G
+                           e as
+                                         X⊕
+                                                        ∨
+                       Hλ (D) ˆ
+                              ⊗ Hµ (D) ≃     Hλ+µ (D, Vkγ ).
+                                                  k∈Zr++
+
+                                      e C appearing in the decomposition of P(p+ )⊗Vσ ⊗Vτ .
+  Let (ρ, Vρ ) be a representation of K
+We want to find e G-intertwining operators
+                          σ,τ                          ˆ O(D, Vτ ),
+                         Fρ↑  : O(D, Vρ ) −→ O(D, Vσ ) ⊗
+                          σ,τ             ˆ O(D, Vτ ) −→ O(D, Vρ ).
+                         Fρ↓  : O(D, Vσ ) ⊗
+        σ,τ                                          σ,τ
+Such Fρ↑    are called holographic operators, and Fρ↓    are called symmetry breaking op-
+erators, in the terminology of [20, 21, 22]. By [31], we have integral expressions of these
+intertwining operators.
+
+                                                  8
+Theorem 2.3 ([31, Corollary 3.5]). Suppose H(D, Vσ ), H(D, Vτ ) are holomorphic discrete
+series representations of e
+                          G. Let (ρ, Vρ ) be an irreducible representation of K
+                                                                              e such that a
+non-zero operator-valued polynomial
+                                                                     Ke
+                          K(x) ∈ P(p+ ) ⊗ HomC (Vρ , Vσ ⊗ Vτ )
+
+exists, and define an operator-valued function K̂(x, y; w) by
+
+                   K̂(x, y; w) := σ(B(x, w)) ⊗ τ (B(y, w)) K(xw − y w )
+                                                           
+
+                                   ∈ O(D × D × D, HomC (Vρ , Vσ ⊗ Vτ )),
+
+where xw is the quasi-inverse defined as in (2.1). Then the linear maps
+                             σ,τ                                ˆ H(D, Vτ ),
+                           F̃ρ,K↑ : H(D, Vρ ) −→ H(D, Vσ ) ⊗
+                                                  Z
+     σ,τ                                                                                 2n
+  (F̃ρ,K↑ f )(x, y) := ⟨f, K̂(x, y; ·)∗ ⟩ρ̂ = Cρ̂   K̂(x, y; w)ρ(B(w, w))−1 f (w)h(w, w)− r dw,
+                                              D
+                           σ,τ              ˆ
+                         F̃ρ,K↓ : H(D, Vσ ) ⊗ H(D, Vτ ) −→ H(D, Vρ ),
+    σ,τ
+ (F̃ρ,K↓ f )(w) := ⟨f, K̂(·, ·; w)⟩σ̂⊗τ̂
+            Z
+                                                       −1              2n         2n
+  = Cσ̂ Cτ̂       K̂(x, y; w)∗ σ(B(x, x)) ⊗ τ (B(y, y)) f (x, y)h(x, x)− r h(y, y)− r dxdy
+            D×D
+
+intertwine the G-actions.
+               e
+                             σ,τ
+   A holographic operator Fρ↑    is also realized as an infinite-order differential operator,
+                                      σ,τ
+and a symmetry breaking operator Fρ↓      is also realized as a finite-order differential oper-
+ator. Let 2D := {2x | x ∈ D}.
+Theorem 2.4.       (1) Suppose that the map
+                         σ,τ    σ,τ
+                        Fρ↑  = Fρ↑,w : O(D, Vρ ) −→ O(D, Vσ ) ˆ
+                                                              ⊗ O(D, Vτ )
+                                                         σ,τ           σ,τ           σ,τ
+      intertwines the G-action.
+                      e         We define the functions Fρ↑,C (x; ζ), Fρ↑,L (x; ζ), Fρ↑,R (x; ζ)
+                 −
+      ∈ O(D × p , HomC (Vρ , Vσ ⊗ Vτ )) by
+                                σ,τ              σ,τ (w|ζ)
+                               Fρ↑,C (x; ζ) := (Fρ↑ e      Iρ )w (x, −x),
+                                σ,τ              σ,τ (w|ζ)
+                               Fρ↑,L (x; ζ) := (Fρ↑ e      Iρ )w (x, 0),
+                                σ,τ              σ,τ (w|ζ)
+                               Fρ↑,R (x; ζ) := (Fρ↑ e      Iρ )w (0, x).
+              σ,τ             σ,τ
+      Then Fρ↑,L   (x; ζ), Fρ↑,R  (x; ζ) are holomorphically continued to 2D × p− , and for
+      f (w) ∈ O(D, Vρ )Ke = P(p+ ) ⊗ Vρ , we have
+                                                      
+                     σ,τ               σ,τ   x−y ∂
+                  (Fρ↑   f )(x, y) = Fρ↑,C        ;     f (w)
+                                               2    ∂w        w=(x+y)/2
+                                                                     
+                        σ,τ            ∂                 σ,τ         ∂
+                   = Fρ↑,L x − y;          f (w)     = Fρ↑,R y − x;       f (w)     .
+                                      ∂w         w=y                ∂w          w=x
+
+
+ (2) Suppose that the map
+                        σ,τ    σ,τ
+                       Fρ↓  = Fρ↓,(x,y) : O(D, Vσ ) ˆ
+                                                    ⊗ O(D, Vτ ) −→ O(D, Vρ )
+
+                                                9
+                                                             σ,τ
+       intertwines the e G-action. We define the polynomial Fρ↓  (ξ, η) ∈ P(p− ⊕ p− , HomC
+       (Vσ ⊗ Vτ , Vρ )) by
+                                   σ,τ            σ,τ (x|ξ)+(y|η)     
+                                  Fρ↓  (ξ, η) := Fρ↓ e            Iσ⊗τ (x,y) (0).
+
+       Then for f (x, y) ∈ O(D, Vσ ) ˆ⊗ O(D, Vτ ), we have
+                                                       
+                              σ,τ           σ,τ   ∂ ∂
+                            (Fρ↓  f )(w) = Fρ↓      ,     f (x, y)       .
+                                                  ∂x ∂y            x=y=w
+
+Proof. Since the 1st equality of (1) and (2) are proved in [31, Theorem 3.10], we focus on
+                                           σ,τ
+the 2nd and 3rd equalities of (1). Since Fρ↑   intertwines the p+ -action, for u ∈ p+ , t ∈ R,
+if x, y, x + tu, y + tu ∈ D, then we have
+
+   d σ,τ (w|ζ)                                d         σ,τ (w|ζ)
+      (Fρ↑ e      Iρ )w (x + tu, y + tu) =           (Fρ↑  e      Iρ )w (x + (t + s)u, y + (t + s)u)
+   dt                                         ds s=0
+                                σ,τ (w|ζ)
+   = −d(σ̂ ˆ⊗ τ̂ )((u, 0, 0))(Fρ↑  e      Iρ )w (x + tu, y + tu)
+        σ,τ
+   = −(Fρ↑  dρ̂((u, 0, 0))e(w|ζ) Iρ )w (x + tu, y + tu)
+       d
+   =         (F σ,τ e(w+su|ζ) Iρ )w (x + tu, y + tu) = (u|ζ)(Fρ↑
+                                                              σ,τ (w|ζ)
+                                                                 e      Iρ )w (x + tu, y + tu).
+       ds s=0 ρ↑
+
+Hence we have
+                   σ,τ (w|ζ)                                    σ,τ (w|ζ)
+                 (Fρ↑ e      Iρ )w (x + tu, y + tu) = et(u|ζ) (Fρ↑ e      Iρ )w (x, y).
+
+Since the right hand side is well-defined for (x, y, t, u) ∈ D × D × R × p+ , the left hand side
+is also holomorphically continued to this region. Especially, by putting tu = −(x + y)/2,
+−y or −x, we have
+              σ,τ (w|ζ)
+            (Fρ↑ e      Iρ )w (x, y)
+                                                                                                 
+                ( x+y |ζ)     σ,τ (w|ζ)             x−y y−x        ( x+y |ζ)    σ,τ        x−y
+            =e     2        (Fρ↑ e      Iρ )w          ,          =e  2        Fρ↑,C           ;ζ
+                                                     2   2                                  2
+                       σ,τ (w|ζ)                            σ,τ
+            = e(y|ζ) (Fρ↑ e      Iρ )w (x − y, 0) = e(y|ζ) Fρ↑,L (x − y; ζ)
+                       σ,τ (w|ζ)                            σ,τ
+            = e(x|ζ) (Fρ↑ e      Iρ )w (0, y − x) = e(x|ζ) Fρ↑,R (y − x; ζ).
+
+                                                              ∂
+Then for f (w) ∈ O(D, Vρ )Ke = P(p+ ) ⊗ Vρ , since exp w ∂z
+                                                                
+                                                                  f (z) = f (w + z) holds, we
+have
+                                                 
+                σ,τ               σ,τ          ∂
+             (Fρ↑ f )(x, y) = Fρ↑ exp w             Iρ (x, y)f (z)
+                                               ∂z       w           z=0
+                                            
+                         ∂    σ,τ            ∂
+              = exp y        Fρ↑,L   x − y;      f (z)
+                         ∂z                 ∂z         z=0
+                                                                   
+                   σ,τ         ∂                       σ,τ          ∂
+              = Fρ↑,L x − y;        f (z + y)     = Fρ↑,L x − y;        f (z)     .
+                              ∂z              z=0                  ∂z         z=y
+
+This proves the 2nd equality of (1). The 1st and 3rd equalities are also proved similarly.
+
+   We note that these theorems hold without the assumption that G is of tube type. The
+symbols of differential symmetry breaking operators are also characterized as solutions of
+
+                                                       10
+certain differential equations (F-method, see [20, 21]). If σ, τ are one-dimensional, then
+                          σ,τ
+the operator norms of F̃ρ,K↓   are determined in [33, Corollary 8.7]. When p+ = C, G =
+                                                           σ,τ
+SL(2, R), the differential symmetry breaking operator F̃ρ,K↓    coincides with the Rankin–
+Cohen bidifferential operator up to a constant multiple.
+     In Theorem 2.3, the intertwining operators are given as integral operators on the com-
+plex domain D. On the other hand, in [22], the holographic operator for G = SL(2, R) is
+given as an integral operator on some real line segment. In this paper, we seek realizations
+of holographic operators as integral operators on some totally real submanifolds in D or
+TΩ .
+
+
+3      Definition of contour of integration
+In this section, for suitable (x, y) ∈ D × D or TΩ × TΩ , we define a totally real submanifold
+C(x, y) ⊂ D or TΩ used in the integral operator given later, and check some properties of
+C(x, y). To do this, first let
+
+                               p+× := {x ∈ p+ | det(x) ̸= 0},
+                                D× := {x ∈ D | det(x) ̸= 0},
+                                                                                                   (3.1)
+                        (D × D)× := {(x, y) ∈ D × D | det(x − y) ̸= 0},
+                      (TΩ × TΩ )× := {(x, y) ∈ TΩ × TΩ | det(x − y) ̸= 0}.
+
+Lemma 3.1.         (1) For x, y ∈ TΩ , g ∈ cG, we have
+
+                  P (g.x − g.y) = κ(g, x)P (x − y)tκ(g, y) = κ(g, y)P (x − y)tκ(g, x),
+          P (gc−1 .x − gc−1 .y) = κ(gc−1 , x)P (x − y)tκ(gc−1 , y) = κ(gc−1 , y)P (x − y)tκ(gc−1 , x).
+
+ (2) For x, y ∈ D, g ∈ G, we have
+
+                  P (g.x − g.y) = κ(g, x)P (x − y)tκ(g, y) = κ(g, y)P (x − y)tκ(g, x),
+               P (gc .x − gc .y) = κ(gc , x)P (x − y)tκ(gc , y) = κ(gc , y)P (x − y)tκ(gc , x).
+
+ (3) (D × D)× , (TΩ × TΩ )× are stable under the diagonal actions of G, cG respectively.
+Proof. (1) For the former equalities, since cG is generatedby N + ∪ L ∪ {J}, it is enough to
+prove when g ∈ N + , L, and when g = J = exp π2 (−e, 0, e) . When g = exp((u, 0, 0)) ∈ N +
+with u ∈ n+ , we have g.x = x + u, κ(g, x) = I, and
+
+                        P (g.x − g.y) = P ((x + u) − (y + u)) = P (x − y).
+
+When g = l ∈ L, we have κ(l, x) = l, and
+
+                            P (l.x − l.y) = P (l.(x − y)) = lP (x − y)tl.
+
+When g = J, we have J.x = −x−1 , κ(J, x) = P (x)−1 , and by [9, Lemma X.4.4 (i)],
+
+    P (J.x − J.y) = P (−x−1 + y −1 ) = P (x)−1 P (x − y)P (y)−1 = P (x)−1 P (x − y)tP (y)−1
+                                        = P (y)−1 P (x − y)P (x)−1 = P (y)−1 P (x − y)tP (x)−1 .
+
+Hence we get the desired formulas. For the latter formulas, since
+             √
+                                        √              √           √
+                                
+   −1           π −1
+  gc = exp −           (e, 0, e) = exp(( −1e, 0, 0))P ( −2e)J exp(( −1e, 0, 0)),                   (3.2)
+                  4
+
+                                                   11
+and since                          √                     √
+                            J exp(( −1e, 0, 0)).x = −(x + −1e)−1
+is well-defined for all x ∈ TΩ , this is proved similarly to the former formulas.
+    (2) This follows from (1) and cG = Int(gc )G, κ(gc , x) = κ(gc−1 , gc .x)−1 .
+    (3) Since det(x) = χ(P (x)), this is clear from (1), (2).
+   For later use, we also prove the following.
+Lemma 3.2.         (1) For x, y, w ∈ p+ , if
+                               det(x − y), det(w − y), det(x − w) ̸= 0,                       (3.3)
+      then we have
+                                   det((w − y)−1 + (x − w)−1 ) ̸= 0.
+ (2) If x, y, w ∈ TΩ satisfy (3.3), then for g ∈ cG, we have
+              ((g.w − g.y)−1 + (g.x − g.w)−1 )−1 = κ(g, w).((w − y)−1 + (x − w)−1 )−1 ,
+      ((gc−1 .w − gc−1 .y)−1 + (gc−1 .x − gc−1 .w)−1 )−1 = κ(gc−1 , w).((w − y)−1 + (x − w)−1 )−1 .
+
+ (3) If x, y, w ∈ D satisfy (3.3), then for g ∈ G, we have
+              ((g.w − g.y)−1 + (g.x − g.w)−1 )−1 = κ(g, w).((w − y)−1 + (x − w)−1 )−1 ,
+            ((gc .w − gc .y)−1 + (gc .x − gc .w)−1 )−1 = κ(gc , w).((w − y)−1 + (x − w)−1 )−1 .
+Proof. (1) By [9, Lemma X.4.4 (i)], we have
+        P ((w − y)−1 + (x − w)−1 ) = P (w − y)−1 P ((w − y) + (x − w))P (x − w)−1
+                                       = P (w − y)−1 P (x − y)P (x − w)−1 ,
+and hence we get the desired formula.
+   (2) For the former formulas, again it is enough to prove when g ∈ N + , L, and when
+g = J. When g = exp((u, 0, 0)) ∈ N + with u ∈ n+ , we have g.x = x + u, κ(g, x) = I, and
+((g.w − g.y)−1 + (g.x − g.w)−1 )−1 = (((w + u) − (y + u))−1 + ((x + u) − (w + u))−1 )−1
+                                        = ((w − y)−1 + (x − w)−1 )−1 .
+When g = l ∈ L, we have κ(l, x) = l, and
+            ((l.w − l.y)−1 + (l.x − l.w)−1 )−1 = (tl−1 .(w − y)−1 + tl−1 .(x − w)−1 )−1
+                                               = l.((w − y)−1 + (x − w)−1 )−1 .
+When g = J, we have J.x = −x−1 , κ(J, x) = P (x)−1 . By putting P (w−1/2 )x =: x′ ,
+P (w−1/2 )y =: y ′ , we have
+     ((J.w − J.y)−1 + (J.x − J.w)−1 )−1 = ((−w−1 + y −1 )−1 + (−x−1 + w−1 ))−1
+                                                                −1
+      = (P (w−1/2 )(−e + y ′−1 ))−1 + (P (w−1/2 )(−x′−1 + e))−1
+                                                     −1
+      = P (w−1/2 ) (−e + y ′−1 )−1 + (−x′−1 + e)−1
+                                                     −1
+      = P (w−1/2 ) (e − y ′ )−1 − e + (x′ − e)−1 + e
+                                                                  −1
+      = P (w−1/2 ) (P (w−1/2 )(w − y))−1 + (P (w−1/2 )(x − w))−1
+                                              −1                                 −1
+      = P (w−1/2 )2 (w − y)−1 + (x − w)−1         = P (w)−1 (w − y)−1 + (x − w)−1     .
+The latter formulas follow from (3.2) and an argument similar to the above.
+   (3) Clear from (2) and cG = Int(gc )G.
+
+                                                 12
+   Next, for (x, y) ∈ (D × D)× , we take g ∈ G such that g −1 .y = 0, g −1 .x ∈ Ω, and define
+the totally real submanifold C(x, y) ⊂ D by
+
+                       C(x, y) = C(x, y; g) := g.(Ω ∩ (g −1 .x − Ω)).                    (3.4a)
+
+Similarly, for (x, y) ∈ (TΩ × TΩ )× , we define C(x, y) ⊂ TΩ by
+
+                               C(x, y) := gc .C(gc−1 .x, gc−1 .y).                       (3.4b)
+
+When p+ = C, these coincide with the geodesic intervals connecting x and y with respect
+to the Poincaré metrics on D and TΩ .
+
+Proposition 3.3. For (x, y) ∈ (D × D)× , C(x, y; g) does not depend on the choice of
+g ∈ G satisfying g −1 .y = 0, g −1 .x ∈ Ω.
+
+   To prove this, we need the following lemma.
+
+Lemma 3.4. Let k ∈ K, x ∈ Ω. If k.x ∈ Ω, then k ∈ KL .
+
+Proof. Let y := k.x ∈ Ω. Then we have
+
+                   kP (x) = kP (x)tkk = P (k.x)k = P (y)k ∈ EndC (p+ )
+
+(under the identification of k ∈ K and Ad(k)|p+ ∈ GLC (p+ )). Since P (x), P (y) ∈
+EndR (n+ ) ⊂ EndC (p+ ) are positive definite, these are diagonalizable with positive real
+eigenvalues. If v, w ∈ n+ are eigenvectors of P (x), P (y) with the eigenvalues ξ, η > 0
+respectively, then we have
+
+             ξ(kv|w) = (kP (x)v|w) = (P (y)kv|w) = (kv|P (y)w) = η(kv|w).
+
+Hence ξ = η implies (kv|w) = (kv|w). Similarly, since |(kv|w)| = |(kv|w)| holds, ξ ̸= η
+also implies (kv|w) = (kv|w) = 0. Since this holds for all eigenvectors in the real form
+n+ ⊂ p+ , we get k = k ∈ K C ∩ EndR (n+ ) = L ∪ (−L) by [9, Proposition VIII.2.8], where
+an element of −L sends Ω to −Ω. Since y = k.x ∈ Ω, we have k ∈ L ∩ K = KL .
+
+Proof of Proposition 3.3. Let (x, y) ∈ (D × D)× . Suppose g1 , g2 ∈ G, u1 , u2 ∈ Ω satisfy
+
+                   g1−1 .y = g2−1 .y = 0,    g1−1 .x = u1 ,      g2−1 .x = u2 .
+
+Let k := g2−1 g1 . Then since k.0 = 0, we have k ∈ StabG (0) = K, and since k.u1 = u2 , by
+Lemma 3.4, we have k ∈ KL . Since k stabilizes Ω, we have
+
+           C(x, y; g1 ) = g1 .(Ω ∩ (u1 − Ω)) = g2 k.(Ω ∩ (u1 − Ω))
+                       = g2 .(Ω ∩ (k.u1 − Ω)) = g2 .(Ω ∩ (u2 − Ω)) = C(x, y; g2 ).
+
+   By the definition of C(x, y), for g ∈ G, (x, y) ∈ (D × D)× , we have
+
+                                   C(g.x, g.y) = g.C(x, y).
+
+   Next, for x, y ∈ D, let dist(x, y) be the distance with respect to the G-invariant
+Hermitian metric
+
+     gx (u, v) := Du Dv log h(x, x)−1 = (B(x, x)−1 u|v)        (x ∈ D, u, v ∈ Tx D = p+ ),
+
+
+                                               13
+                                         √           √
+where Du f (x) := 12 dt
+                     d
+                            (f (x + tu) − −1f (x + t −1u)) and Dv f (x) := 12 dt
+                                                                               d
+                                                                                      (f (x +
+     √           √      t=0                                                       t=0
+tv)+ −1f (x+t −1v)) are the holomorphic and anti-holomorphic directional derivatives.
+Especially, for u ∈ Ω, the curve t 7→ exp(t(u, 0, u)).0 = tanh(tu) is a geodesic connecting
+0 and tanh(u), and we have
+
+                                   dist(tanh(u), 0)2 = (u|u) = tr(u2 ).
+
+Also, for x ∈ D, r ≥ 0, let Bx (r) := {y ∈ D | dist(x, y) ≤ r} ⊂ D be the closed ball with
+the center x, radius r. Then C(x, y) is bounded as follows.
+
+Lemma 3.5. For (x, y) ∈ (D × D)× , we have C(x, y) ⊂ By (dist(x, y)).
+
+Proof. By the G-invariance of dist, it is enough to show, for u ∈ Ω ∩ D,
+
+                              C(u, 0) = Ω ∩ (u − Ω) ⊂ B0 (dist(u, 0)).
+
+Indeed, for z ∈ Ω ∩ D, we have
+                                          ∞              ∞
+                                            z 2j+1 2         tr(z 2j+2k+2 )
+                                        X            X
+                 2                      2
+      dist(z, 0) = tr((artanh(z)) ) = tr               =                    .
+                                            2j + 1         (2j + 1)(2k + 1)
+                                                    j=0                   j,k=0
+
+Suppose z ∈ C(u, 0) = Ω ∩ (u − Ω). Then since (u|x) > (z|x) holds for any x ∈ Ω, by
+putting x = uj ◦ z k , we have
+
+       (uj+1 |z k ) = (u ◦ uj |z k ) = (u|uj ◦ z k ) > (z|uj ◦ z k ) = (uj |z ◦ z k ) = (uj |z k+1 ),
+
+and inductively, we have
+
+                     tr(uj ) > (uj−1 |z) > (uj−2 |z 2 ) > · · · > (u|z j−1 ) > tr(z j ).
+
+Hence we get
+                           ∞                               ∞
+                      2
+                           X        tr(u2j+2k+2 )    X tr(z 2j+2k+2 )
+        dist(u, 0) =                               >                   = dist(z, 0)2 ,
+                                  (2j + 1)(2k + 1)    (2j + 1)(2k + 1)
+                          j,k=0                           j,k=0
+
+and get the desired inclusion.
+
+   We end this section by proving the following.
+
+Lemma 3.6.           (1) If x, y ∈ D ∩ n+ and x − y ∈ Ω, then we have
+
+                                         C(x, y) = (y + Ω) ∩ (x − Ω).
+
+ (2) For x, y ∈ (D × D)× , we have
+
+                                               C(x, y) = C(y, x),
+
+     with the same orientation if n = dim p+ is even, and with the reversed orientation
+     if n = dim p+ is odd.
+
+
+
+
+                                                     14
+Proof. (1) For y ∈ D ∩ n+ , t ∈ [0, 1], let v := artanh(y) ∈ n+ , gt := exp(t(v, 0, v)) ∈ G, so
+that g1 .0 = tanh(v) = y. Then gt preserves D ∩ n+ . By Lemma 3.1,
+                det(gt−1 .x − gt−1 .y) = χ(κ(gt−1 , x))χ(κ(gt−1 , y)) det(x − y) > 0,
+and hence x − y and gt−1 .x − gt−1 .y belong to the same connected component of {z ∈ n+ |
+det(z) ̸= 0} for all t ∈ [0, 1]. Since x − y ∈ Ω by assumption, we have gt−1 .x − gt−1 .y ∈ Ω,
+and especially, u := g1−1 .x ∈ Ω. Therefore, by the definition of C(x, y), we have
+                           C(x, y) = C(g1 .u, g1 .0) = g1 .(Ω ∩ (u − Ω)).
+Now since Ω ∩ (u − Ω) coincides with the unique bounded connected component of
+                                 {z ∈ n+ | det(z) det(u − z) ̸= 0},
+C(gt .u, gt .0) = gt .(Ω ∩ (u − Ω)) coincides with the unique bounded connected component
+of
+                            {w ∈ n+ | det(w − gt .0) det(gt .u − w) ̸= 0},
+which is equal to (gt .0 + Ω) ∩ (gt .u − Ω). By putting t = 1, we get the desired formula.
+   (2) It is enough to show C(u, 0) = C(0, u) for u ∈ D ∩ Ω with the desired orientation.
+Indeed, by (1), we have
+            C(0, u) = −C(0, −u) = −((−u + Ω) ∩ (−Ω)) = Ω ∩ (u − Ω) = C(u, 0).
+                                                                                      √
+Let v := artanh(u) ∈ n+ , g1 := exp((v, 0, v)) ∈ G so that g1 .0 = u, and let i := P ( −1e) ∈
+K so that i.z = −z for all z ∈ p+ . Then since g1−1 .0 = −u holds, z 7→ ig1−1 .z = −(g1−1 .z)
+maps C(u, 0) to C(0, u), and the holomorphic top form dz = dz1 ∧ · · · ∧ dzn is transformed
+as
+                                   2n           2n             2n                           2n
+    d(−(g1−1 .z)) = χ(κ(ig1−1 , z)) r dz = χ(i) r χ(κ(g1−1 , z)) r dz = (−1)n χ(κ(g1−1 , z)) r dz.
+Since χ(κ(g, z)) > 0 for all g ∈ G ∩ cG, z ∈ n+ , we get the desired orientation.
+
+
+4      Construction of integral holographic operators
+4.1     Main theorems
+We give the main theorems of this paper. Let (D × D)× , (TΩ × TΩ )× be as in (3.1), and
+for (x, y) ∈ (D × D)× or (TΩ × TΩ )× , let C(x, y) be as in (3.4).
+Theorem 4.1. Let    (σ, Vσ ), (τ, Vτ )Pbe irreducible representations of Ke with the restricted
+                 1 Pr              1    r               ∨
+lowest weights − 2 j=1 λj γj , − 2 j=1 µj γj ∈ (al ) respectively. We choose m ∈ Z such
+                                                      C
+
+that Re λr +m > nr −1, Re µr +m > nr −1 hold. Let (ρ, Vρ ) be an irreducible representation
+of K
+   e such that a non-zero operator-valued polynomial
+                                                                      Ke
+                    K(x) ∈ P(p+ ) det(x)m ⊗ HomC (Vρ , Vσ ⊗ Vτ )
+exists. Then the maps
+                             (
+        σ,τ                    O(D × D, Vσ ⊗ Vτ )      (if 2m ≥ λ1 + µ1 − λr − µr ),
+       Fρ,K↑ : O(D, Vρ ) −→              ×
+                               O((D × D) , Vσ ⊗ Vτ ) (if 2m < λ1 + µ1 − λr − µr ),
+                              (
+        σ,τ                    O(TΩ × TΩ , Vσ ⊗ Vτ )      (if 2m ≥ λ1 + µ1 − λr − µr ),
+       Fρ,K↑ : O(TΩ , Vρ ) −→               ×
+                               O((TΩ × TΩ ) , Vσ ⊗ Vτ ) (if 2m < λ1 + µ1 − λr − µr ),
+
+
+                                                 15
+given by the same formula
+                                                            Z
+    σ,τ                          n                                                  n                  n
+  (Fρ,K↑ f )(x, y) := det(x − y) r (σ ⊗ τ )(P (x − y))                  det(w − y)− r det(x − w)− r
+                                                               C(x,y)
+                       −1                     −1
+                                                   ) K ((w − y)−1 + (x − w)−1 )−1 f (w) dw (4.1)
+                                                                                
+       × σ(P (w − y)        ) ⊗ τ (P (x − w)
+
+intertwines the e
+                G-action.
+   The result for TΩ follows from that for D and
+                             σ,τ                           σ,τ
+                            Fρ,K↑,T Ω
+                                            ˆ τ̂ )(gc ) ◦ Fρ,K↑,D
+                                      = (σ̂ ⊗                     ◦ ρ̂(gc−1 ),
+which is proved as in the proof of Lemma 4.9 below. In the following, we give the results
+and proofs only for D.
+   We note that C(x, y) ⊂ D is defined only for (x, y) ∈ (D×D)× , namely, for det(x−y) ̸=
+                       σ,τ
+0 case, and hence Fρ,K↑    f is originally defined as a function on (D × D)× . If 2m ≥
+λ1 + µ1 − λr − µr , then this is holomorphically continued to the function on D × D. On
+the other hand, without this assumption, the holomorphy at {det(x − y) = 0} does not
+hold in general, even if m ∈ Z≥0 . However, if (ρ, Vρ ) satisfies some additional assumption,
+then the image becomes holomorphic on D × D.
+Theorem 4.2. Let (σ, Vσ ), (τ, Vτ ), (ρ, Vρ ) and m ∈ Z be as in Theorem 4.1. We assume
+m ∈ Z≥0 , (ρ̂, O(D, Vρ )) is irreducible, and additionally assume
+                                                    Ke                                      Ke
+         P(p+ )[det−1 ] ⊗ HomC (Vρ , Vσ ⊗ Vτ )            = P(p+ ) ⊗ HomC (Vρ , Vσ ⊗ Vτ )          .
+Then the map
+                             σ,τ
+                            Fρ,K↑ : O(D, Vρ ) −→ O(D × D, Vσ ⊗ Vτ )
+defined by (4.1) intertwines the G-action.
+                                 e
+
+   Especially, if σ = χ−λ , τ = χ−µ with λ, µ ∈ C, then λ1 = λr = λ, µ1 = µr = µ hold,
+and by (2.3), ρ satisfies the assumption if and only if ρ = χ−λ−µ ⊗ Vkγ ∨ for some k ∈ Zr
+                                                                                        ++
+with kr ≥ m, where Vkγ      ∨ is the irreducible representation of K with the lowest weight
+
+−(k1 γ1 + · · · + kγr ) ∈ (tC )∨ . Therefore, the following holds.
+Corollary 4.3. Let λ, µ ∈ C, k ∈ Zr++ , Re λ, Re µ > −kr + nr − 1. We fix a non-zero
+polynomial
+                                                   ∨
+                                                         K
+                        Kk (x) ∈ P(p+ ) ⊗ HomC (Vkγ  , C) ,
+which is unique up to a constant multiple. Then the map
+                            λ,µ             ∨              ˆ Oµ (D),
+                          Fk↑   : Oλ+µ (D, Vkγ ) −→ Oλ (D) ⊗
+                                                Z
+           λ,µ                                n                   n              n
+         (Fk↑  f )(x, y) := det(x − y)−λ−µ+ r        det(w − y)λ− r det(x − w)µ− r
+                                                      C(x,y)
+                                             × Kk ((w − y)−1 + (x − w)−1 )−1 f (w) dw
+                                                                            
+
+intertwines the G-action.
+                e
+                                             ∨) ≃ O
+   When k = (l, . . . , l), we have Oλ (D, Vkγ       λ+2l (D), and may assume Kk (x) =
+      l
+det(x) . In this case, by [9, Lemma X.4.4 (i)] we have
+        det ((w − y)−1 + (x − w)−1 )−1 = det(w − y) det(x − y)−1 det(x − w),
+                                      
+                                                                                  (4.2)
+and the above corollary is simplified as follows.
+
+                                                    16
+Corollary 4.4. Let λ, µ ∈ C, l ∈ Z≥0 , Re λ, Re µ > −l + nr − 1. Then the map
+                            λ,µ                          ˆ Oµ (D),
+                          Fl↑   : Oλ+µ+2l (D) −→ Oλ (D) ⊗
+                                         Z
+   λ,µ                                 n                            n                n
+ (Fl↑  f )(x, y) := det(x − y)−λ−µ−l+ r        f (w) det(w − y)λ+l− r det(x − w)µ+l− r dw
+                                                      C(x,y)
+
+intertwines the G-action.
+                e
+
+Example 4.5. Let p+ = Sym(r, C), G = Sp(r, R). Let t ⊂ k be a Cartan subalgebra, and
+we identify (tC )∨ ≃ Cr with the standard basis {e1 , . . . , er } ∈ Cr , such that γj = 2ej holds.
+    Let Vσ := χ−λ ⊗ (Cr )∨ , Vτ := χ−µ ⊗ (Cr )∨ . These have the lowest weights −((λ +
+1)e1 + λ(e2 + · · · + er )) and −((µ + 1)e1 + µ(e2 + · · · + er )) respectively, and hence
+(λ1 + µ1 − λr − µr )/2 = 1. Then we have
+                                     M
+     P(p+ ) ⊗ Vσ ⊗ Vτ ≃ χ−λ−µ ⊗            ∨
+                                         V2k ⊗ Ve∨1 ⊗ Ve∨1
+                                             k∈Zr++
+                      M              M
+                                                    ∨
+      ≃ χ−λ−µ ⊗                                   V2k+e i +ej
+                     k∈Zr++      1≤i,j≤r
+                              2k+ei +ej ∈Zr++
+                      M                M                                   M                                
+                                                                                     ∨ ⊕♯{1≤j≤r|kj >kj+1 }
+      ≃χ  −λ−µ
+                 ⊗                                     ∨
+                                                    (V2k+e i +ej
+                                                                 )⊕2 ⊕            (V2k )                      ,
+                         k∈Zr++      1≤i<j≤r                             k∈Zr++
+                                  2k+ei +ej ∈Zr++                         k1 ≥1
+
+where kr+1 := 0, and hence, for λ, µ > 2n
+                                        r − 1 = r, we have
+
+  Hλ (D, (Cr )∨ ) ˆ
+                  ⊗ Hµ (D, (Cr )∨ )
+      M           M                                M
+                                    ∨         ⊕2                ∨ ⊕♯{1≤j≤r|kj >kj+1 }
+  ≃                      Hλ+µ (D, V2k+ei +ej
+                                             )   ⊕   Hλ+µ (D, V2k )                   ,
+     k∈Zr++      1≤i<j≤r                                           k∈Zr++
+              2k+ei +ej ∈Zr++                                       k1 ≥1
+
+where kr+1 := 0. Similarly, we have
+                                                          M
+       P(p+ )[det−1 ] ⊗ Vσ ⊗ Vτ ≃ χ−λ−µ ⊗                          ∨
+                                                                 V2k ⊗ Ve∨1 ⊗ Ve∨1
+                                                         k∈Zr+
+                         M           M
+        ≃ χ−λ−µ ⊗                                   ∨
+                                                  V2k+e i +ej
+                         k∈Zr+     1≤i,j≤r
+                                 2k+ei +ej ∈Zr+
+                         M             M                                M                                  
+              −λ−µ                                     ∨
+        ≃χ           ⊗                              (V2k+e i +ej
+                                                                 )⊕2 ⊕              ∨ ⊕♯{1≤j≤r|kj >kj+1 }
+                                                                                 (V2k )                      ,
+                           k∈Zr+     1≤i<j≤r                             k∈Zr+
+                                   2k+ei +ej ∈Zr+
+
+where kr+1 := −∞.
+ (1) Suppose Vρ = χ−λ−µ ⊗ V2k+e
+                            ∨
+                                i +ej
+                                      with k ∈ Zr++ , 1 ≤ i < j ≤ r, 2k + ei + ej ∈ Zr++ .
+     Then we have
+
+                HomKe (Vρ , P(p+ ) ⊗ Vσ ⊗ Vτ ) = HomKe (Vρ , P(p+ )[det−1 ] ⊗ Vσ ⊗ Vτ ).
+
+      Hence, if one of the conditions
+
+                           kr ≥ 1, Re λ + kr > r−1             r−1
+                                                2 , Re µ + kr > 2 ,
+                         or kr = 0, Re λ > r−1        r−1
+                                            2 , Re µ > 2 , O(D, Vρ ) : irreducible,
+
+
+                                                          17
+     is satisfied, then
+                               σ,τ
+                              Fρ,K↑ : O(D, Vρ ) −→ O(D × D, Vσ ⊗ Vτ )
+
+     defined by (4.1) intertwines the G-action.
+                                      e
+
+ (2) Suppose Vρ = χ−λ−µ ⊗ V2k
+                            ∨ with k ∈ Zr , k ≥ 1. Then we have
+                                        ++   r
+
+              HomKe (Vρ , P(p+ ) ⊗ Vσ ⊗ Vτ ) = HomKe (Vρ , P(p+ )[det−1 ] ⊗ Vσ ⊗ Vτ ).
+
+     Hence, if one of the conditions
+                 (                                                     Ke
+                  kr ≥ 1, K(x) ∈ P(p+ ) det(x)kr ⊗ HomC (Vρ , Vσ ⊗ Vτ ) ,
+                  Re λ + kr > r−1                r−1
+                                 2 , Re µ + kr > 2 ,
+                 (                                                        Ke
+                  kr ≥ 2, K(x) ∈ P(p+ ) det(x)kr −1 ⊗ HomC (Vρ , Vσ ⊗ Vτ ) ,
+                  Re λ + kr − 1 > r−1                     r−1
+                                     2 , Re µ + kr − 1 > 2 ,
+                 (                                              Ke
+                  kr = 1, K(x) ∈ P(p+ ) ⊗ HomC (Vρ , Vσ ⊗ Vτ ) ,
+             or
+                  Re λ > r−1            r−1
+                            2 , Re µ > 2 , O(D, Vρ ) : irreducible
+
+     is satisfied, then
+                               σ,τ
+                              Fρ,K↑ : O(D, Vρ ) −→ O(D × D, Vσ ⊗ Vτ )
+
+     defined by (4.1) intertwines the e
+                                      G-action.
+
+ (3) Suppose Vρ = χ−λ−µ ⊗ V2k
+                            ∨ with k ∈ Zr , k ≥ 1, k = 0. Then we have
+                                        ++   1      r
+
+              HomKe (Vρ , P(p+ ) ⊗ Vσ ⊗ Vτ ) ⊊ HomKe (Vρ , P(p+ )[det−1 ] ⊗ Vσ ⊗ Vτ ).
+
+     Hence, if Re λ > r−1          r−1
+                       2 and Re µ > 2 hold, then
+                             σ,τ
+                            Fρ,K↑ : O(D, Vρ ) −→ O((D × D)× , Vσ ⊗ Vτ )
+
+     defined by (4.1) intertwines the G-action,
+                                      e         but the image is not contained in O(D ×
+     D, Vσ ⊗ Vτ ) in general.
+                                             σ,τ                       σ,τ
+Remark 4.6. The holographic operators Fρ,K↑      in Theorem 4.1 and F̃ρ,K↑ in Theorem 2.3
+are in general not proportional even if these are constructed from a common K(x), unless
+the multiplicities of O(D, Vρ ) in O(D × D, Vσ ⊗ Vτ ) and O((D × D)× , Vσ ⊗ Vτ ) are both
+one.
+
+   In Sections 4.2–4.5, we give a proof of Theorem 4.1. We extend σ̂ to a representation
+on L∞
+    loc (D, Vσ ) by the same formula. It is enough to verify
+                       σ,τ
+ (1) The integrand of Fρ,K↑ is single-valued,
+       σ,τ
+ (2) Fρ,K↑ : L∞               ∞
+              loc (D, Vρ ) → Lloc (D × D, Vσ ⊗ Vτ ) det(x − y)
+                                                               m−⌈(λ1 +µ1 −λr −µr )/2⌉ is contin-
+
+     uous,
+                      σ,τ     σ,τ
+         ˆ τ̂ )(g) ◦ Fρ,K↑
+ (3) (σ̂ ⊗                 = Fρ,K↑ ◦ ρ̂(g) on L∞
+                                               loc ,
+
+      σ,τ
+ (4) Fρ,K↑ (O(D, Vρ )) ⊂ O(D × D, Vσ ⊗ Vτ ) det(x − y)m−⌈(λ1 +µ1 −λr −µr )/2⌉ .
+
+After that, we give a proof of Theorem 4.2 in Section 4.6.
+
+                                                18
+4.2   Proof of single-valuedness of the integrand
+                                                    σ,τ
+In this subsection, we prove that the integrand of Fρ,K↑ is single-valued.
+
+Lemma 4.7. Let (σ, Vσ ), (τ, Vτ ) be irreducible representations of K,
+                                                                    e and let
+
+               X := {(x, w, y) ∈ D × D × D | det(x − y) ̸= 0, w ∈ C(x, y)}.
+
+Then the functions
+
+      X −→ GLC (Vσ ),              (x, w, y) 7−→ σ(P (x − y)P (w − y)−1 ),
+      X −→ GLC (Vτ ),              (x, w, y) 7−→ τ (P (x − y)P (x − w)−1 ),
+                                                                 n            n                n
+      X −→ C× ,                    (x, w, y) 7−→ det(x − y) r det(w − y)− r det(x − w)− r
+
+are single-valued.
+Proof. First, let
+
+                     X1 := {(x, w) ∈ D × D | det(x) ̸= 0, w ∈ C(x, 0)}
+                         = {(k.u, k.z) ∈ D × D | k ∈ K, u, z, u − z ∈ Ω},
+                     X2 := X1 ∩ (Ω × Ω) = {(u, z) ∈ Ω × Ω | u − z ∈ Ω}.
+
+Then since exp(p) ≃ G/K ≃ D, we have the diffeomorphism
+
+                     exp(p) × X1 −→ X,              (p, x, w) 7−→ (p.x, p.w, p.0).
+
+Hence it suffices to show that the functions
+
+ exp(p) × X1 −→ GLC (Vσ ),             (p, x, w) 7−→ σ(P (p.x − p.0)P (p.w − p.0)−1 ),
+ exp(p) × X1 −→ GLC (Vτ ),             (p, x, w) 7−→ τ (P (p.x − p.y)P (p.x − p.w)−1 ),            (4.3)
+                                                             n
+                                                                              −n                        n
+ exp(p) × X1 −→ C× ,           (p, x, w) 7−→ det(p.x − p.0) det(p.w − p.0)
+                                                             r                 r     det(p.x − p.w)− r
+
+are single-valued. Indeed, for p ∈ exp(p) and for (x, w) ∈ X   e1 in the universal covering
+space of X1 , by Lemma 3.1, we have
+
+ σ(P (p.x − p.0)P (p.w − p.0)−1 ) = σ κ(p, x)P (x − 0)tκ(p, 0)(κ(p, w)P (w − 0)tκ(p, 0))−1
+                                                                                           
+
+                                      = σ(κ(p, x))σ(P (x)P (w)−1 )σ(κ(p, w)−1 ),
+ τ (P (p.x − p.0)P (p.x − p.w)−1 ) = τ κ(p, 0)P (x − 0)tκ(p, x)(κ(p, w)P (x − w)tκ(p, x))−1
+                                                                                                        
+
+                                      = τ (κ(p, 0))τ (P (x)P (x − w)−1 )τ (κ(p, w)−1 ),
+                           n                    n                    n
+          det(p.x − p.0) r det(p.w − p.0)− r det(p.x − p.w)− r
+                                                                            n
+                                χ(κ(p, x))χ(κ(p, 0)) det(x − 0)               r
+          =
+              χ(κ(p, w))χ(κ(p, 0)) det(w − 0)χ(κ(p, x))χ(κ(p, w)) det(x − w)
+                                               n
+                       − 2n        det(x)         r
+          = χ(κ(p, w)) r                            .                                              (4.4)
+                              det(w) det(x − w)
+Then since exp(p) × D × D is simply-connected,
+
+  exp(p) × D × D ∋ (p, x, w)
+                                                                                                   2n
+                     7−→ σ(κ(p, x)), σ(κ(p, w)−1 ), τ (κ(p, 0)), τ (κ(p, w)−1 ), χ(κ(p, w))− r
+
+
+                                                    19
+are single-valued. Hence it suffices to show that the functions
+                                                                                                 n
+                                      −1                        −1                 det(x)          r
+   X1 ∋ (x, w) 7−→ σ(P (x)P (w)            ), τ (P (x)P (x − w)      ),                                   (4.5)
+                                                                              det(w) det(x − w)
+
+are single-valued. To do this, it suffices to verify that the functions
+
+  AdG (K) × X2 ∋ (k, u, z)
+                                                                                                         n
+                                −1                                −1                   det(k.u)            r
+         7−→ σ(P (k.u)P (k.z)        ), τ (P (k.u)P (k.(u − z))        ),
+                                                                                det(k.z) det(k.(u − z))
+
+are single-valued and factor the surjective map
+
+                      AdG (K) × X2 −→ X1 ,                (k, u, z) 7−→ (k.u, k.z).
+
+Indeed, σ, τ are of the form σ = χ−λ ⊗ σ0 , τ = χ−µ ⊗ τ0 for some λ, µ ∈ C and for some
+representations σ0 , τ0 of K. Then for (u, z) ∈ X2 and for k ∈ K
+                                                               e in the universal covering
+group of K, we have
+
+                 σ(P (k.u)P (k.z)−1 ) = σ(kP (u)P (z)−1 k −1 )
+                                           = det(u)−λ det(z)λ σ0 (kP (u)P (z)−1 k −1 ),
+          τ (P (k.u)P (k.(u − z))−1 ) = τ (kP (u)P (u − z)−1 k −1 )
+                                   = det(u)−µ det(u − z)µ τ0 (kP (u)P (u − z)−1 k −1 ),
+                                       n                        n
+                                              χ(k)2 det(u)
+                                   
+                det(k.u)               r                          r
+                                   =        4
+         det(k.z) det(k.(u − z))       χ(k) det(z) det(u − z)
+                                                                  n
+                                          − 2n        det(u)        r
+                                   = χ(k)    r                        .
+                                                 det(z) det(u − z)
+
+Since X2 is simply-connected and 2n          r ∈ Z>0 , these are single-valued on K × X2 , and since
+the elements of the kernel of the covering map K → AdG (K) commute with P (u)P (z)−1
+and P (u)P (u − z)−1 , these factor AdG (K) × X2 . Also, for (x, w) ∈ X1 , if (x, w) =
+(k1 .u1 , k1 .z1 ) = (k2 .u2 , k2 .z2 ) with (uj , zj ) ∈ X2 , kj ∈ K, then since k2−1 k1 ∈ KL holds by
+Lemma 3.4, we have χ(k1 ) = χ(k2 ), det(u1 ) = det(u2 ), det(z1 ) = det(z2 ) and det(u1 −
+z1 ) = det(u2 − z2 ), and thus the above functions factor X1 . Hence the functions in (4.5)
+are single-valued on X1 , and so are (4.3).
+
+4.3    Proof of continuity in L∞
+                               loc
+
+In this subsection, we prove the following lemma.
+
+Lemma 4.8. Under the setting of Theorem 4.1, the map
+         σ,τ
+        Fρ,K↑ : L∞                ∞
+                 loc (D, Vρ ) −→ Lloc (D × D, Vσ ⊗ Vτ ) det(x − y)
+                                                                  m−⌈(λ1 +µ1 −λr −µr )/2⌉
+
+
+is continuous.
+
+Proof. Let m − ⌈(λ1 + µ1 − λr − µr )/2⌉ =: m′ , let det(z)−m K(z) =: K′ (z), and let
+
+                                     CK′ := sup |K′ (z)|op,ρ→σ⊗τ .
+                                               z∈D
+
+
+
+                                                     20
+For y ∈ D, let py ∈ exp(p) ⊂ G be the unique element satisfying py .0 = y. Then y 7→ py
+is continuous. We take an arbitrary relatively compact open set Y ⊂ D × D, and let
+  σ,τ      ρ
+CY,m  ′ , CY > 0 be the constants given by
+
+
+    σ,τ                                                            ′
+   CY,m ′ := sup |χ(κ(py , p−1
+                            y .x))χ(κ(py , 0))|
+                                               −m
+                                                  σ(κ(py , p−1
+                                                            y .x)) ⊗ τ (κ(py , 0)) op,σ⊗τ ,
+               (x,y)∈Y
+
+     CYρ :=     sup           sup          ρ(κ(py , w)−1 ) op,ρ .
+               (x,y)∈Y |w|∞ ≤|p−1
+                               y .x|∞
+
+
+Also, we set                                        [
+                                    Y ′ :=                         C(x, y) ⊂ D.
+                                             (x,y)∈Y ∩(D×D)×
+
+Then Y ′ is bounded with respect to the G-invariant metric. Indeed, Y ⊂ D×D is bounded,
+namely, Y ⊂ Bx0 (r) × Bx0 (r) holds for some x0 ∈ D and r > 0, and by Lemma 3.5, we
+have
+               [                      [                        [
+   Y′ =                C(x, y) ⊂            By (dist(x, y)) ⊂        By (2r) ⊂ Bx0 (3r).
+         (x,y)∈Y ∩(D×D)×                     x,y∈Bx0 (r)                          y∈Bx0 (r)
+
+
+Hence Y ′ is relatively compact in D. For f ∈ O(D, Vρ ), we set
+
+                                           ∥f ∥Y ′ ,ρ := sup |f (w)|ρ .
+                                                           w∈Y ′
+
+Then for (x, y) ∈ Y ∩ (D × D)× , by putting u := p−1
+                                                  y .x ∈ D, we have
+
+                      ′
+                     σ,τ
+   | det(x − y)−m (Fρ,K↑   f )(x, y)|σ⊗τ
+                            Z
+                                                   n                n
+                   −m′ + n
+    ≤ | det(x − y)|      r          | det(w − y)|− r | det(x − w)|− r
+                                  C(x,y)
+      × (σ ⊗ τ )(P (x − y)) σ(P (w − y)−1 ) ⊗ τ (P (x − w)−1 )
+                                                                     
+
+      × K ((w − y)−1 + (x − w)−1 )−1 op,ρ→σ⊗τ |f (w)|ρ |dw|
+                                               
+                                              Z
+                                      −m′ + n                           n                        n
+    ≤ ∥f ∥Y ′ ,ρ | det(py .u − py .0)|      r    | det(py .z − py .0)|− r | det(py .u − py .z)|− r
+                                            C(u,0)
+            σ(P (py .u − py .0)P (py .z − py .0)−1 ) ⊗ τ (P (py .u − py .0)P (py .u − py .z)−1 )
+                                                                                                
+       ×
+                                                                                                2n
+       × K ((py .z − py .0)−1 + (py .u − py .z)−1 )−1
+                                                                   
+                                                                       op,ρ→σ⊗τ
+                                                                                  |χ(κ(py , z))| r |dz|.
+
+Then by Lemmas 3.1, 3.2, as in (4.4), we have
+
+               P (py .u − py .0)P (py .z − py .0)−1 = κ(py , u)P (u)P (z)−1 κ(py , z)−1 ,
+            P (py .u − py .0)P (py .u − py .z)−1 = κ(py , 0)P (u)P (z − u)−1 κ(py , z)−1 ,
+                          det(py .u − py .0)−1 det(py .z − py .0) det(py .u − py .z)
+                      = det(u)−1 det(z) det(u − z)χ(κ(py , z))2 ,
+           σ(κ(py , z)−1 ) ⊗ τ (κ(py , z)−1 ) K ((py .z − py .0)−1 + (py .u − py .z)−1 )−1
+                                                                                          
+
+           = σ(κ(py , z)−1 ) ⊗ τ (κ(py , z)−1 ) K κ(py , z).((z − 0)−1 + (u − z)−1 )−1
+                                                                                         
+
+           = K (z −1 + (u − z)−1 )−1 ρ(κ(py , z)−1 ).
+                                        
+
+
+
+
+                                                           21
+Hence we have
+                   σ,τ ′
+  | det(x − y)−m (Fρ,K↑ f )(x, y)|σ⊗τ
+                                                                                    Z
+                                                    −m′                   −m′ + n                      n                     n
+   ≤ ∥f ∥Y ′ ,ρ |χ(κ(py , u))χ(κ(py , 0))|                   | det(u)|          r         | det(z)|− r | det(u − z)|− r
+                                                                                    C(u,0)
+                                              −1                                        −1
+                                                                                           
+        ×    σ(κ(py , u)P (u)P (z)) ⊗ τ (κ(py , 0)P (u)P (u − z) )
+     × K (z + (u − z) ) ρ(κ(py , z)−1 ) op,ρ→σ⊗τ |dz|
+                −1                  −1 −1
+                                 
+                                        Z
+                                                          n
+      σ,τ   ρ                   −m′ + n                                    n
+   ≤ CY,m′ CY ∥f ∥Y ,ρ | det(u)|
+                   ′                  r        | det(z)|− r | det(u − z)|− r
+                                                       C(u,0)
+                             −1
+                             ) ⊗ τ (P (u)P (u − z)−1 ) K (z −1 + (u − z)−1 )−1 op,ρ→σ⊗τ |dz|
+                                                                               
+        ×    σ(P (u)P (z)
+                                              Z
+                                                                n                 n
+      σ,τ   ρ                      −m−m′ + n
+   = CY,m′ CY ∥f ∥Y ′ ,ρ | det(u)|          r       | det(z)|m− r | det(u − z)|m− r
+                                                                 C(u,0)
+                             −1                                      −1
+                                                                          ) K′ (z −1 + (u − z)−1 )−1
+                                                                                                          
+        ×    σ(P (u)P (z)          ) ⊗ τ (P (u)P (u − z)                                                       op,ρ→σ⊗τ
+                                                                                                                          |dz|,
+
+where at the last equality, we have used the special case of (4.2),
+
+                 det (z −1 + (u − z)−1 )−1 = det(z) det(u)−1 det(u − z).
+                                          
+                                                                                                                            (4.6)
+
+Next, for a fixed Jordan frame {e1 , . . . , er } ⊂ n+ , let
+
+               a+                               +
+                ++ := {a1 e1 + · · · + ar er ∈ n | aj ∈ R, a1 ≥ · · · ≥ ar > 0} ⊂ Ω,
+
+and we take k ∈ K such that u′ := k −1 .u ∈ a+          ++ ⊂ Ω holds. Then for z ∈ C(u, 0), we have
+z ′ := k −1 .z ∈ C(u′ , 0) = Ω ∩ (u′ − Ω). Since
+
+             z ′ − (z ′−1 + (u′ − z ′ )−1 )−1 = P (z ′1/2 ) e − (e + (P (z ′−1/2 )u − e)−1 )−1
+                                                                                               
+
+                                                     = P (z ′1/2 )(P (z ′−1/2 )u′ )−1 = P (z ′ )u′−1 ∈ Ω
+
+holds, we have
+
+            (z −1 + (u − z)−1 )−1 = k.(z ′−1 + (u′ − z ′ )−1 )−1 ∈ k.(Ω ∩ (z ′ − Ω)) ⊂ D,
+
+so that
+                K′ (z −1 + (u − z)−1 )−1                                   ≤ sup |K′ (w)|op,ρ→σ⊗τ = CK′
+                                                     
+                                                         op,ρ→σ⊗τ
+                                                                             w∈D
+
+holds. Therefore, for (x, y) ∈ Y ∩ (D × D)× , we get
+                   ′
+                 σ,τ
+| det(x − y)−m (Fρ,K↑ f )(x, y)|σ⊗τ
+                                                                   Z
+                                                                                                   n                              n
+   σ,τ    ρ                         ′ −m−m′ + n
+≤ CY,m ′ CY CK′ ∥f ∥Y ′ ,ρ | det(k.u )|       r                                 | det(k.z ′ )|m− r | det(k.u′ − k.z ′ )|m− r
+                                                                        Ω∩(u′ −Ω)
+                   ′       ′ −1 −1
+    × σ(kP (u )P (z )         ) ⊗ τ (kP (u )P (u − z ) k ) op,σ⊗τ dz ′
+                              k                          ′          ′       ′ −1 −1
+                                            Z
+   σ,τ    ρ                     ′ −m−m′ + n                       n                  n
+= CY,m  C
+       ′ Y  C K′ ∥f ∥ ′
+                     Y ,ρ det(u  )        r           det(z ′ )m− r det(u′ − z ′ )m− r
+                                                  Ω∩(u′ −Ω)
+    ×   σ(P (u′ )P (z ′ )−1 ) ⊗ τ (P (u′ )P (u′ − z ′ )−1 ) op,σ⊗τ dz ′
+                                                             Z
+   σ,τ    ρ                     ′ −m−m′ + n                                                    n                                  n
+= CY,m ′ CY CK′ ∥f ∥Y ′ ,ρ det(u )        r                              det(P (u′1/2 )z)m− r det(P (u′1/2 )(e − z))m− r
+                                                                 Ω∩(e−Ω)
+                                                                                                                  n
+               ′            ′1/2         −1
+    × σ(P (u )P (P (u              )z)        ) ⊗ τ (P (u )P (P (u′1/2 )(e − z))−1 ) op,σ⊗τ det(u′ ) r dz
+                                                             ′
+
+
+
+                                                                    22
+                                                      Z
+   σ,τ    ρ                                       ′                               n                         n
+                                ′ m−m
+= CY,m ′ CY CK′ ∥f ∥Y ′ ,ρ det(u )                                   det(z)m− r det(e − z)m− r
+                                                      Ω∩(e−Ω)
+                ′1/2         −1          ′−1/2
+    × σ(P (u           )P (z)     P (u           )) ⊗ τ (P (u′1/2 )P (e − z)−1 P (u′−1/2 )) op,σ⊗τ dz
+   σ,τ    ρ                              ′1/2                                                                                  ′
+≤ CY,m ′ CY CK′ ∥f ∥Y ′ ,ρ (σ ⊗ τ )(P (u      )) op,σ⊗τ (σ ⊗ τ )(P (u′−1/2 )) op,σ⊗τ det(u′ )m−m
+    Z
+                            n                  n
+  ×           det(z)m− r det(e − z)m− r σ(P (z)−1 ) ⊗ τ (P (e − z)−1 ) op,σ⊗τ dz.
+        Ω∩(e−Ω)
+                                                  Pr                   +
+Now, if z = k.a with k ∈ KL , a =                         j=1 aj ej ∈ a++ ∩ (e − Ω), then we have
+
+                                                                            r
+                                                                                      Re λj
+                                                                            Y
+                σ(P (z)−1 ) ⊗ τ (P (e − z)−1 ) op,σ⊗τ =                           aj          (1 − ar−j+1 )Re µj ,
+                                                                           j=1
+
+and by [9, Theorem VI.2.3], if Re λr + m > nr − 1, Re µr + m > nr − 1, then there exists a
+constant C > 0 such that
+           Z
+                              n              n
+ Bσ,τ,m :=         det(z)m− r det(e − z)m− r σ(P (z)−1 ) ⊗ τ (P (e − z)−1 ) op,σ⊗τ dz
+                Ω∩(e−Ω)
+                 Z                r
+                                  Y       Re λj +m− n                                             n     Y
+           =C                            aj         r
+                                                             (1 − ar−j+1 )Re µj +m− r                           (ai − aj )d da < ∞
+                     a+
+                      ++ ∩(e−Ω) j=1                                                                   1≤i<j≤r
+                                   Pr              +
+holds. Similarly, for u′ =            j=1 uj ej ∈ a++ ∩ (e − Ω), we have
+
+                                                                                                                ′
+           (σ ⊗ τ )(P (u′1/2 )) op,σ⊗τ (σ ⊗ τ )(P (u′−1/2 )) op,σ⊗τ det(u′ )m−m
+               r                                          r                      r
+                       − Re(λr−j+1 +µr−j+1 )/2                   Re(λj +µj )/2          ⌈Re(λ1 +µ1 −λr −µr )/2⌉
+               Y                                          Y                      Y
+           =         uj                                         uj                     uj                             ≤ 1,
+               j=1                                        j=1                    j=1
+
+since Re λ1 ≥ · · · ≥ Re λr , Re µ1 ≥ · · · ≥ Re µr and uj ≤ 1. Therefore, for (x, y) ∈
+Y ∩ (D × D)× , we get
+                                 σ,τ ′                 σ,τ    ρ
+                | det(x − y)−m (Fρ,K↑ f )(x, y)|σ⊗τ ≤ CY,m ′ CY CK′ Bσ,τ,m ∥f ∥Y ′ ,ρ ,
+
+
+     σ,τ                                                                                      ′
+and Fρ,K↑ : L∞               ∞
+             loc (D, Vρ ) → Lloc (D × D, Vσ ⊗ Vτ ) det(x − y)
+                                                             m is continuous.
+
+
+
+4.4    Proof of intertwining property on L∞
+                                          loc
+                                   σ,τ
+In this subsection, we prove that Fρ,K↑                 G-action on L∞
+                                        intertwines the e            loc -spaces.
+
+                                              σ,τ     σ,τ
+Lemma 4.9. For g ∈ G,            ˆ τ̂ )(g) ◦ Fρ,K↑
+                   e we have (σ̂ ⊗                 = Fρ,K↑ ◦ ρ̂(g) on L∞
+                                                                       loc .
+
+Proof. By Lemmas 3.1, 3.2, we get
+                       σ,τ
+      ⊗ τ̂ )(g −1 ) ◦ Fρ,K↑
+(((σ̂ ˆ                     )f )(x, y)
+                                              n
+= σ(κ(g, x))−1 ⊗ τ (κ(g, y))−1 det(g.x − g.y) r σ(P (g.x − g.y)) ⊗ τ (P (g.x − g.y))
+                                                                                    
+    Z
+                             n              n
+             det(w − g.y)− r det(g.x − w)− r σ(P (w − g.y)−1 ) ⊗ τ (P (g.x − w)−1 )
+                                                                                       
+  ×
+        C(g.x,g.y)
+    × K ((w − g.y)−1 + (g.x − w)−1 )−1 f (w) dw
+                                      
+
+
+
+                                                                     23
+             n            n            n
+= χ(κ(g, x)) r χ(κ(g, y)) r det(x − y) r σ(P (x − y)tκ(g, y)) ⊗ τ (P (x − y)tκ(g, x))
+                                                                                      
+    Z
+                              n                n
+            det(g.z − g.y)− r det(g.x − g.z)− r σ(P (g.z − g.y)−1 ) ⊗ τ (P (g.x − g.z)−1 )
+                                                                                          
+  ×
+       C(x,y)
+                                                           2n
+  × K ((g.z − g.y)−1 + (g.x − g.z)−1 )−1 f (g.z)χ(κ(g, z)) r dz
+                                          
+             n                              
+= det(x − y) r σ(P (x − y)) ⊗ τ (P (x − y))
+     Z
+                       n              n
+           det(z − y)− r det(x − z)− r σ(P (z − y)−1 ) ⊗ τ (P (x − z)−1 )
+                                                                          
+  ×
+       C(x,y)
+  × σ(κ(g, z)−1 ) ⊗ τ (κ(g, z)−1 ) K κ(g, z).((z − y)−1 + (x − z)−1 )−1 f (g.z) dz
+                                                                      
+                                   Z
+             n                                      n             n
+= det(x − y) r (σ ⊗ τ )(P (x − y))     det(z − y)− r det(x − z)− r
+                                             C(x,y)
+                     −1                      −1
+                                                ) K ((z − y)−1 + (x − z)−1 )−1 ρ(κ(g, z)−1 )f (g.z)dz
+                                                                             
+   × σ(P (z − y)          ) ⊗ τ (P (x − z)
+     σ,τ
+= ((Fρ,K↑ ◦ ρ̂(g −1 ))f )(x, y).
+
+4.5   Proof of holomorphy
+                                                σ,τ
+In this subsection, we prove that the image of Fρ,K↑ becomes a holomorphic function.
+
+Lemma 4.10. Under the setting of Theorem 4.1, we have
+            σ,τ
+           Fρ,K↑ (O(D, Vρ )) ⊂ O(D × D, Vσ ⊗ Vτ ) det(x − y)m−⌈(λ1 +µ1 −λr −µr )/2⌉ .
+                           σ,τ
+   First, we verify that (Fρ,K↑ f )(x, y) is symmetric with respect to x and y, so that it is
+enough to verify the holomorphy for one variable.
+
+Lemma 4.11. Under the setting of Theorem 4.1, for f ∈ O(D, Vρ ), (x, y) ∈ (D × D)× ,
+we have
+                       σ,τ                         τ,σ
+                    (Fρ,K↑ f )(x, y) = (−1)deg K (Fρ,K↑ f )(y, x)
+under the identification Vσ ⊗ Vτ ≃ Vτ ⊗ Vσ , where deg K is the degree of the polynomial K.
+
+Proof. First, we note that K is a homogeneous polynomial since K is invariant under the
+action of the center of K.
+                        e By Lemma 3.6 (2), we have
+
+    σ,τ
+  (Fρ,K↑ f )(x, y)
+                     Z
+                 n                             n                 n
+  = det(x − y)   r              det(w − y)− r det(x − w)− r σ(P (x − y)P (w − y)−1 )
+                     C(x,y)
+    ⊗ τ (P (x − y)P (x − w)−1 ) K ((w − y)−1 + (x − w)−1 )−1 f (w) dw
+                                                            
+                           Z
+            n           n                    n             n
+  = det(−e) det(y − x)
+            r            r       det(y − w)− r det(w − x)− r σ(P (y − x)P (y − w)−1 )
+                                    C(x,y)
+                                    −1
+                               ) K −((y − w)−1 + (w − x)−1 )−1 f (w) dw
+                                                             
+      ⊗ τ (P (y − x)P (w − x)
+                                                 Z
+                           n                                     n            n
+  = (−1)n+deg K
+                det(y − x) r (σ ⊗ τ )(P (y − x))    det(y − w)− r det(w − x)− r
+                                                               C(y,x)
+                          −1                       −1
+                                                        ) K ((y − w)−1 + (w − x)−1 )−1 f (w)(−1)n dw
+                                                                                     
+      × σ(P (y − w)            ) ⊗ τ (P (w − x)
+                τ,σ
+  = (−1)deg K (Fρ,K↑ f )(y, x).
+
+   Next, we verify the following.
+
+
+
+                                                          24
+Lemma 4.12. We have a diffeomorphism
+                            √
+  e : ((K × L)/ diag(KL )) × −1kl −→ K C ,
+  m                                                               ((k, l) diag(KL ), b) 7−→ kl−1 exp(b).
+
+Proof. First, we prove the surjectivity of e     m. Let g ∈ K C , and consider g.e ∈ p+ . Then
+we can take k ∈ K such that k .(g.e) ∈ Ω, and l′ ∈ L such that l′ .(k
+                                       −1
+                                                                                 √
+                                                                                   −1 .(g.e)) = e. Let
+
+a := l′ k −1 g ∈ K C . Then    √ since a.e = e, we have a ∈ KL = KL exp( −1kl ), −1
+                                                                 C                           and we can
+take ka ∈ KL and b ∈ −1kl such that a = ka exp(b). Then by putting l := ka l′ ∈ L, we
+get g = kl−1 exp(b).                                                                               √
+      Next, we prove the injectivity of e     m. Suppose that kj ∈ K, lj ∈ L, bj ∈ −1kl
+(j = 1, 2) satisfy k1 l1−1 exp(b1 ) = k2 l2−1 exp(b2 ). Then since exp(bj ).e = e holds, we have
+l1−1 .e = k1−1 k2 l2−1 .e, and since k1−1 k2 ∈ K, lj−1 .e ∈ Ω, we have k1−1 k2 ∈ KL ⊂ L by
+Lemma 3.4, and hence k0 := l1 k1−1 k2 l2−1 = exp(b1 ) exp(b          −1
+                                                                √2 ) ∈ L ∩ K
+                                                                                   C
+                                                                                   L = KL . Then by
+exp(b1 ) = k0 exp(b2 ) and the injectivity of KL × exp( −1kl ) → KL , we have k0 = I,
+                                                                                 C
+
+b1 = b2 , and get k1 l1−1 = k2 l2−1 . Then since k1−1 k2 = l1−1 l2 ∈ K ∩ L = KL holds, we have
+(k1 , l1 ) diag(KL ) = (k2 , l2 ) diag(KL ).
+      Finally, we prove the surjectivity of the differential of
+                                     √
+                         m : K × L × −1kl −→ K C ,      (k, l, b) 7−→ kl−1 exp(b).
+                                                            √
+at each point. We take any k0 ∈ K, l0 ∈ L and b0 ∈ −1kl . We consider the translations
+                                 √                   √
+      L(k0 , l0 , b0 ) : K × L × −1kl −→ K × L × −1kl ,             (k, l, b) 7−→ (k0 k, l0 l, b0 + b),
+               L(l0 k0−1 )R(exp(−b0 )) : K C −→ K C ,               g 7−→ l0 k0−1 g exp(−b0 ),
+
+and let
+                         m(k0 ,l0 ,b0 ) := L(l0 k0−1 )R(exp(−b0 )) ◦ m ◦ L(k0 , l0 , b0 ).
+Then the surjectivity of the differential of m at (k0 , l0 , b0 ),
+                                                         √
+              (dm)(k0 ,l0 ,b0 ) : T(k0 ,l0 ,b0 ) (K × L × −1kl ) −→ Tk0 l−1 exp(b0 ) K C
+                                                                                   0
+
+
+is equivalent to the surjectivity of the differential of m(k0 ,l0 ,b0 ) at (I, I, 0),
+                                                       √                      √
+       (dm(k0 ,l0 ,b0 ) )(I,I,0) : T(I,I,0) (K × L ×       −1kl ) = k ⊕ l ⊕       −1kl −→ TI K C = kC ,
+                     d
+             (k, l, b) 7−→ l0 k −1 k0 exp(tk) exp(−tl)l0−1 exp(b0 + tb) exp(−b0 )
+                     dt t=0 0
+                                           d
+                     = Ad(l0 )(k − l) +           exp(b0 + tb) exp(−b0 ).
+                                           dt t=0
+                    √
+Now, since KL × exp( −1kl ) → KLC is a diffeomorphism,
+
+                     √                                          d
+              kl ⊕       −1kl −→ kC
+                                  l ,        (k, b) 7−→ k +            exp(b0 + tb) exp(−b0 )
+                                                                dt t=0
+
+is bijective, and since Ad(l0 )(l) = l ⊃ kl , we have
+                                           √                        √
+         (dm(k0 ,l0 ,b0 ) )(I,I,0) (k ⊕ l ⊕ −1kl ) = Ad(l0 )k + l + −1kl
+                                                                  √                    √
+                                                   = Ad(l0 )(kl + −1pl ) + (kl + pl ) + −1kl
+                                                               √
+                                                   = kl + pl + −1(kl + Ad(l0 )pl ),
+
+
+                                                        25
+where l = kl + pl is the Cartan decomposition of l. In addition, we have kl ∩ Ad(l0 )pl = {0},
+since the Killing form of l is positive semidefinite on Ad(l0 )pl and negative definite on kl .
+Combining this with the injectivity of Ad(l0 )|pl : pl → kl + pl , we get kl + Ad(l0 )pl = kl + pl ,
+and
+                                                √                  √
+              (dm(k0 ,l0 ,b0 ) )(I,I,0) (k ⊕ l ⊕ −1kl ) = kl + pl + −1(kl + pl ) = kC .
+
+Hence the differential of m is surjective everywhere, and m
+                                                          e is a diffeomorphism.
+                                                                       σ,τ
+Proof of Lemma 4.10. First, since det(x − y)−m+⌈(λ1 +µ1 −λr −µr )/2⌉ (Fρ,K↑ f )(x, y) is locally
+                                                       σ,τ
+bounded on D×D by Lemma 4.8, it suffices to verify (Fρ,K↑ f )(x, y) ∈ O((D×D)× , Vσ ⊗Vτ ),
+                                                                               σ,τ
+and by Lemma 4.11 and Hartogs’ theorem, it is enough to verify that (Fρ,K↑          f )(x, y0 ) ∈
+O({x ∈ D | det(x − y0 ) ̸= 0}, Vσ ⊗ Vτ ) holds for each fixed y0 ∈ D. Moreover, for each
+y0 = g −1 .0 ∈ D with g ∈ G,
+                          e by Lemma 4.9, we have
+
+                   σ,τ                                       σ,τ
+                                            ˆ τ̂ )(g −1 ) ◦ Fρ,K↑
+                 (Fρ,K↑ f )(x, y0 ) = (((σ̂ ⊗                     ◦ ρ̂(g))f )(x, y0 )
+                                                              σ,τ
+                  = σ(κ(g, x))−1 ⊗ τ (κ(g, y0 ))−1 ((Fρ,K↑
+                                                         
+                                                                  ◦ ρ̂(g))f )(g.x, 0),
+
+and hence it suffices to consider the case y0 = 0.
+                                   σ,τ
+   In the following, we prove (Fρ,K↑   f )(x, 0) ∈ O(D× , Vσ ⊗ Vτ ), where D× is as in (3.1).
+We set
+                        L− := {a ∈ L | a.e ∈ D ∩ Ω = Ω ∩ (e − Ω)},
+so that
+                                                           ∼
+                           K C /KLC ⊃ KL− KLC /KLC −→ D× ⊂ p+×
+hold by aKLC 7→ a.e. Then by Lemma 4.12, the multiplication map
+                                √
+                     KL− × exp( −1kl ) −→ K C ,      (a, b) 7−→ ab
+
+is a diffeomorphism onto its image. Let U ⊂ K C be an open subset satisfying
+
+   • KL− ⊂ U ⊂ {a ∈ K C | a.(Ω ∩ (e − Ω)) ⊂ D} ⊂ K C ,
+                                       √
+   • For all a ∈ KL− , Ua := U ∩ a exp( −1kl ) ⊂ U is path-connected, and
+
+   • U = a∈KL− Ua ,
+          F
+
+so that UKLC /KLC ≃ D× holds, where Ω is the closure of Ω. For f ∈ O(D, Vρ ), we define
+the function F : U → Vσ ⊗ Vτ by
+                                           Z
+                       n                                 n               n
+      F (a) = det(a.e) r (σ ⊗ τ )(P (a.e))       det(w)− r det(a.e − w)− r
+                                             a.(Ω∩(e−Ω))
+                           −1                    −1
+                                                       ) K (w−1 + (a.e − w)−1 )−1 f (w) dw.
+                                                                                
+               × σ(P (w)        ) ⊗ τ (P (a.e − w)
+           σ,τ
+To prove (Fρ,K↑ f )(x, 0) ∈ O(D× , Vσ ⊗ Vτ ), it suffices to show F ∈ O(U , Vσ ⊗ Vτ ) and
+
+
+
+
+                                                  26
+          σ,τ
+F (a) = (Fρ,K↑ f )(a.e, 0). First, F ∈ O(U, Vσ ⊗ Vτ ) follows from
+                                     Z
+                  n                                     n                n
+F (a) = det(a.e) r (σ ⊗ τ )(P (a.e))         det(a.z)− r det(a.e − a.z)− r
+                                             Ω∩(e−Ω)
+                                                                                      n
+   × σ(P (a.z) ) ⊗ τ (P (a.e − a.z) ) K ((a.z)−1 + (a.e − a.z)−1 )−1 f (a.z) det(a.e) r dz
+                   −1                         −1
+                                                                   
+                Z
+                               n            n
+= (σ ⊗ τ )(ata)       det(z)− r det(e − z)− r
+                    Ω∩(e−Ω)
+          t −1       −1 −1
+                                ) ⊗ τ (ta−1 P (e − z)−1 a−1 ) K a.(z −1 + (e − z)−1 )−1 f (a.z) dz
+                                                                                      
+    × σ( a       P (z)     a
+                 Z
+                                         n                n
+= (σ ⊗ τ )(a)                  det(z)− r det(e − z)− r
+                  Ω∩(e−Ω)
+                 −1
+                    ) ⊗ τ (P (e − z)−1 ) K (z −1 + (e − z)−1 )−1 ρ(a−1 )f (a.z) dz.
+                                                               
+    × σ(P (z)
+Next, for a = kl ∈ KL− ⊂ U with k ∈ K, l ∈ L− , since
+             a.(Ω ∩ (e − Ω)) = kl.(Ω ∩ (e − Ω)) = k.(Ω ∩ (l.e − Ω)) = k.C(l.e, 0)
+                                     = C(k.(l.e), 0) = C(a.e, 0)
+                              σ,τ
+holds, we have F (a) = (Fρ,K↑     f )(a.e, 0) by definition. Finally, for an arbitrary a′ ∈ U,
+                                                       √
+we can take a ∈ KL− such that a′ ∈ Ua ⊂ a exp( −1kl ). Then we have a.e = a′ .e. Let
+            → Ua be an injective, smooth, non-singular curve such that a0 = a, a1 = a′ , and
+as : [0, 1] F
+let V := 0≤s≤1 as .(Ω ∩ (e − Ω)). Then its boundary is given by
+                                                            G
+              ∂V = a.(Ω ∩ (e − Ω)) ⊔ a′ .(Ω ∩ (e − Ω)) ⊔       ∂(as .(Ω ∩ (e − Ω))).
+                                                                      0≤s≤1
+
+Since σ, τ are of the form σ = χ−λ ⊗ σ0 , τ = χ−µ ⊗ τ0 with continuous parameters λ, µ,
+          n
+det(w)− r σ(P (w)−1 ) vanishes on ∂(as .Ω) if Re λ is sufficiently large. Similarly, det(a.e −
+    n
+w)− r τ (P (a.e − w)−1 ) vanishes on ∂(as .(e − Ω)) if Re µ is sufficiently large. Then we have
+                                       Z
+                    n                              n                  n
+      0 = det(a.e) r (σ ⊗ τ )(P (a.e))     det(w)− r det(a.e − w)− r
+                                        ∂V
+                × σ(P (w)−1 ) ⊗ τ (P (a.e − w)−1 ) K (w−1 + (a.e − w)−1 )−1 f (w) dw
+                                                                               
+                                        Z
+                     n                                        n                 n
+                 ′                 ′
+         = det(a .e) (σ ⊗ τ )(P (a .e))
+                     r                               det(w)− r det(a′ .e − w)− r
+                                                   a′ .(Ω∩(e−Ω))
+                                −1             ′            −1
+                                                               ) K (w−1 + (a′ .e − w)−1 )−1 f (w) dw
+                                                                                          
+                 × σ(P (w)
+                         ) ⊗ τ (P (a .e − w)
+                                       Z
+                    n                                                      n               n
+          − det(a.e) (σ ⊗ τ )(P (a.e))
+                    r                                              det(w)− r det(a.e − w)− r
+                                                    a.(Ω∩(e−Ω))
+                                −1                       −1
+                                                               ) K (w−1 + (a.e − w)−1 )−1 f (w) dw
+                                                                                        
+                 × σ(P (w)           ) ⊗ τ (P (a.e − w)
+       = F (a′ ) − F (a),
+and hence we get
+                                             σ,τ                  σ,τ
+                         F (a′ ) = F (a) = (Fρ,K↑ f )(a.e, 0) = (Fρ,K↑ f )(a′ .e, 0).
+By considering the analytic continuation with respect to the continuous parameters of σ, τ ,
+                                                       n               n
+this holds if the integral converges, even if det(w)− r det(a.e − w)− r σ(P (w)−1 )τ (P (a.e −
+                                                                   σ,τ
+w)−1 ) does not vanish on ∂(as .(Ω ∩ (e − Ω))). Thus we have (Fρ,K↑    f )(x, 0) ∈ O(D× , Vσ ⊗
+                                              σ,τ
+Vτ ) ≃ O(U KLC /KLC , Vσ ⊗ Vτ ), and hence (Fρ,K↑ f )(x, y) ∈ O((D × D)× , Vσ ⊗ Vτ ).
+
+   By the above lemmas, we get Theorem 4.1.
+
+                                                          27
+4.6   Proof of Theorem 4.2
+                                                                             σ,τ
+In this subsection, we prove Theorem 4.2. To do this, it suffices to verify Fρ,K↑ (O(D, Vρ )) ⊂
+O(D × D, Vσ ⊗ Vτ ). First, we prove that the images of constant functions are holomorphic
+on D × D.
+
+Lemma 4.13. Under the setting of Theorem 4.1, we regard Vρ ⊂ O(D, Vρ ) as the set of
+constant functions.
+                                  σ,τ
+ (1) For v ∈ Vρ , the function (Fρ,K↑ v)(x, 0) defined for x ∈ D× is holomorphically con-
+     tinued to x ∈ p+× , and for (x, y) ∈ (D × D)× , we have
+                                      σ,τ               σ,τ
+                                    (Fρ,K↑ v)(x, y) = (Fρ,K↑ v)(x − y, 0).
+
+ (2) If (ρ, Vρ ) satisfies the assumption of Theorem 4.2, then we have
+                     σ,τ
+                    Fρ,K↑ (Vρ ) ⊂ P(p+ ⊕ p+ , Vσ ⊗ Vτ ) ⊂ O(D × D, Vσ ⊗ Vτ ).
+
+Proof. (1) By Lemmas 4.9 and 4.10, we have
+ σ,τ
+      (·, 0)|Vρ ∈ HomKe Vρ , O(D, Vσ ⊗ Vτ ) det(x)m−⌈(λ1 +µ1 −λr −µr )/2⌉
+                                                                          
+Fρ,K↑
+                ⊂ HomKe Vρ , O(D, Vσ ⊗ Vτ )[det−1 ]Ke = HomKe Vρ , P(p+ , Vσ ⊗ Vτ )[det−1 ] ,
+                                                                                          
+
+              σ,τ
+and hence (Fρ,K↑  v)(x, 0) is holomorphically continued to x ∈ p+× . Next, suppose x, y ∈
+D ∩ n+ , x − y ∈ Ω. Then by Lemma 3.6 (1), we have
+         σ,τ
+       (Fρ,K↑ v)(x, y)
+                                               Z
+                     n                                                       n             n
+       = det(x − y) (σ ⊗ τ )(P (x − y))
+                     r                                         det(w − y)− r det(x − w)− r
+                                                (y+Ω)∩(x−Ω)
+                               −1                 −1
+                                                      ) K ((w − y)−1 + (x − w)−1 )−1 v dw
+                                                                                   
+           × σ(P (w − y)  ) ⊗ τ (P (x − w)
+                                        Z
+                   n                                                 n                 n
+       = det(x − y) (σ ⊗ τ )(P (x − y))
+                   r                                        det(w)− r det(x − y − w)− r
+                                                Ω∩(x−y−Ω)
+                         −1                      −1       −1
+                                                                 + (x − y − w)−1 )−1 v dw
+                                                                                   
+           × σ(P (w)          ) ⊗ τ (P (x − y − w)    ) K (w
+           σ,τ
+       = (Fρ,K↑ v)(x − y, 0),
+
+and since both sides are holomorphic on (D × D)× , this equality holds on (D × D)× .
+   (2) By the assumption of Theorem 4.2, we have
+      σ,τ
+          (·, 0)|Vρ ∈ HomKe Vρ , P(p+ , Vσ ⊗ Vτ )[det−1 ] = HomKe Vρ , P(p+ , Vσ ⊗ Vτ ) ,
+                                                                                      
+    Fρ,K↑
+                    σ,τ                                     σ,τ               σ,τ
+and hence we get (Fρ,K↑  v)(x, 0) ∈ P(p+ , Vσ ⊗ Vτ ), and (Fρ,K↑ v)(x, y) = (Fρ,K↑ v)(x − y, 0)
+∈ P(p+ ⊕ p+ , Vσ ⊗ Vτ ) holds.
+               σ,τ
+   To prove Fρ,K↑  (O(D, Vρ )) ⊂ O(D × D, Vσ ⊗ Vτ ), we use the following lemma, which
+holds for general complex manifolds.
+
+Lemma 4.14. Let X be a complex manifold, and let Y ⊂ X be a closed complex subman-
+ifold such that dim Y < dim X holds. Then O(X) ⊂ O(X \ Y ) is a closed subspace, and
+the topology on O(X) coincides with the relative topology induced from O(X \ Y ).
+
+
+
+                                                     28
+Proof. Suppose dim X = n, dim Y = m. For any point p ∈ Y , we can take a relatively
+                                                                               ∼
+compact open neighborhood U ⊂ X of p and a holomorphic coordinate φ : U → U1 × U2 ⊂
+Cm × Cn−m such that Y ∩ U = φ−1 (U1 × {0}) holds. For ε > 0, let B0 (ε) ⊂ Cn−m be the
+closed ball with radius ε centered at the origin. We take a sufficiently small ε > 0 such
+that B0 (ε) ⊂ U2 holds, and let U (ε) := φ−1 (U1 × (U2 \ B0 (ε))), so that U (ε) ⊂ X \ Y is
+relatively compact. Then for f ∈ O(X), by the maximum modulus principle, we have
+                   sup |f (x)| =         sup           |f (φ−1 (x1 , x2 ))| = sup |f (x)|.
+                   x∈U             (x1 ,x2 )∈U1 ×∂U2                       x∈U (ε)
+
+Next, we take any relatively compact open set K ⊂ X. Then since K is covered by a finite
+number of coordinate neighborhoods around Y and a relatively compact set in X \ Y , we
+can find a relatively compact set K ′ ⊂ X \ Y such that supx∈K |f (x)| ≤ supx∈K ′ |f (x)|
+holds for any f ∈ O(X). Hence the topology on O(X) coincides with the relative topology
+induced from O(X \ Y ).
+    Next, suppose f ∈ O(X \ Y ) lies in the closure of O(X), and we take a sequence
+{fj } ⊂ O(X) converging to f in the topology of O(X \ Y ). Then {fj } is a Cauchy
+sequence in O(X \ Y ), and by the previous discussion, this is also a Cauchy sequence in
+the topology on O(X), and thus converges to some f∞ ∈ O(X). Then we have f = f∞
+on X \ Y , and hence we get f ∈ O(X). Therefore O(X) ⊂ O(X \ Y ) is closed.
+
+    For j ∈ {0, . . . , r}, let
+                         (D × D)j := {(x, y) ∈ D × D | rank(x − y) ≥ j},
+so that (D × D)j \ (D × D)j+1 ⊂ (D × D)j is a closed complex submanifold. Then by
+applying the above lemma to
+              O(D × D) ⊂ O((D × D)1 ) ⊂ · · · ⊂ O((D × D)r ) = O((D × D)× ),
+O(D × D) ⊂ O((D × D)× ) is a closed subspace, and the topology on O(D × D) coincides
+with the relative topology induced from O((D × D)× ).
+
+Proof of Theorem 4.2. By the assumption on the irreducibility of (ρ̂, O(D, Vρ )), we have
+                                      O(D, Vρ )Ke = dρ̂(U(gC ))Vρ ,
+where U(gC ) is the universal enveloping algebra of gC , and by Lemmas 4.10 and 4.13, we
+have
+     σ,τ                    σ,τ                               σ,τ
+    Fρ,K↑ (O(D, Vρ )Ke ) = Fρ,K↑ (dρ̂(U(g))Vρ ) = d(σ̂ ⊗ τ̂ )Fρ,K↑ (Vρ ) ⊂ O(D × D, Vσ ⊗ Vτ ).
+                                              σ,τ
+Then since O(D, Vρ )Ke ⊂ O(D, Vρ ) is dense, Fρ,K↑ : O(D, Vρ ) → O((D × D)× , Vσ ⊗
+Vτ ) is continuous and O(D × D, Vσ ⊗ Vτ ) ⊂ O((D × D)× , Vσ ⊗ Vτ ) is closed, we get
+  σ,τ
+Fρ,K↑ (O(D, Vρ )) ⊂ O(D × D, Vσ ⊗ Vτ ).
+
+
+5     Computation of images of minimal K-types
+                                       e       when σ, τ are
+      one-dimensional
+In this section, we consider the case σ = χ−λ , τ = χ−µ are one-dimensional. As before, let
+rank p+ =: r, dim p+ =: n = r + d2 r(r − 1). We recall from Corollary 4.3 that, for λ, µ ∈ C,
+k ∈ Zr++ with Re λ, Re µ > −kr + nr − 1 and for a fixed polynomial
+                                                         ∨
+                                                               K
+                            Kk (x) ∈ P(p+ ) ⊗ HomC (Vkγ    , C) ,
+
+                                                        29
+where (ρ∨         ∨
+            kγ , Vkγ ) is the irreducible representation of K with the lowest weight −(k1 γ1 +
+· · · + kγr ) ∈ (tC )∨ , the map
+                             λ,µ              ∨             ˆ Oµ (D),
+                            Fk↑  : Oλ+µ (D, Vkγ ) −→ Oλ (D) ⊗
+                                              Z
+          λ,µ                               n                     n              n
+        (Fk↑  f )(x, y) := det(x − y)−λ−µ+ r         det(w − y)λ− r det(x − w)µ− r
+                                                C(x,y)                                             (5.1)
+                                                          −1            −1 −1
+                                                                                
+                                         × Kk ((w − y)         + (x − w)   )        f (w) dw
+
+becomes a holographic operator, which is unique up to a constant multiple. Hence the
+normalization of holographic operators is determined by the images of minimal K-types,
+                                                                                     e
+                                                                  λ,µ
+i.e., constant functions. The goal of this section is to compute Fk↑ v for constant functions
+v ∈ Vkγ ∨.
+
+
+Theorem 5.1. Let λ, µ ∈ C, k ∈ Zr++ , Re λ, Re µ > −kr + nr − 1. For constant functions
+     ∨ , we have
+v ∈ Vkγ
+                              λ,µ
+                            (Fk↑  v)(x, y) = Br (λ, µ, k)Kk (x − y)v,
+where
+
+ Br (λ, µ, k) := (2π)dr(r−1)/4
+                                                                     d
+                                                  Q                               
+    r
+       Γ λ + kj − d2 (j − 1) Γ µ + kj − d2 (j − 1)   1≤i<j≤r λ + µ − 2 (i + j − 1) ki +kj
+                            
+   Y
+ ×                             d
+                                                  Q                 d
+                                                                                         .
+   j=1
+                   Γ λ  + µ −  2 (j − 1)             1≤i≤j≤r λ + µ − 2 (i + j − 2)   k +k      i   j
+
+                                                                                                   (5.2)
+
+   Here, (λ)k := λ(λ + 1) · · · (λ + k − 1). We recall another holographic operator from
+Theorem 2.3,
+                            λ,µ             ∨              ˆ Hµ (D),
+                          F̃k↑  : Hλ+µ (D, Vkγ ) −→ Hλ (D) ⊗
+                            λ,µ
+                         (F̃k↑  f )(x, y) := ⟨f, K̂λ,µ        ∗
+                                                   k (x, y; ·) ⟩Hλ+µ (D,Vkγ
+                                                                         ∨ ),                      (5.3)
+
+where
+
+   K̂λ,µ
+     k (x, y; w) := h(x, w)
+                           −λ
+                              h(y, w)−µ Kk (xw − y w ) ∈ O(D × D × D, HomC (Vkγ
+                                                                             ∨
+                                                                                , C)).
+                ∨ ⊂ H
+If f (w) = v ∈ Vkγ             ∨
+                      λ+µ (D, Vkγ ) is a constant function, then since v is orthogonal to
+homogeneous terms of degree ≥ 1, by the normalization of the inner product, we have
+                λ,µ
+             (F̃k↑  v)(x, y) = ⟨v, K̂λ,µ        ∗
+                                     k (x, y; ·) ⟩Hλ+µ (D,Vkγ
+                                                           ∨ ) = (v, K̂
+                                                                       λ,µ        ∗
+                                                                       k (x, y; 0) )Vkγ
+                                                                                     ∨
+
+
+                            = (v, Kk (x − y)∗ )Vkγ
+                                                ∨ = Kk (x − y)v.
+
+
+
+Hence by Theorem 5.1, we immediately get the following.
+Corollary 5.2. Let λ, µ ∈ R, k ∈ Zr++ , λ, µ > 2n
+                                                r − 1. The two holographic operators
+
+                        λ,µ     λ,µ             ∨              ˆ Hµ (D)
+                       Fk↑  , F̃k↑  : Hλ+µ (D, Vkγ ) −→ Hλ (D) ⊗
+
+in (5.1), (5.3) are related as
+                                      λ,µ                 λ,µ
+                                     Fk↑  = Br (λ, µ, k)F̃k↑  ,
+
+where Br (λ, µ, k) is as in (5.2).
+
+                                                 30
+   In the rest of this section, we give a proof of Theorem 5.1. First, we prepare some
+notations. For k ∈ Zr++ , let Pk (p+ ) ⊂ P(p+ ) be the irreducible subrepresentation of K C
+                ∨ , so that
+isomorphic to Vkγ
+                                       M               M
+                                                              ∨
+                            P(p+ ) =       Pk (p+ ) ≃       Vkγ ,
+                                         k∈Zr++              k∈Zr++
+
+                ˇ k (z) ∈ Pk (p+ ) be the lowest and highest weight vectors respectively such
+and let ∆k (z), ∆
+that ∆k (e) = ∆ ˇ k (e) = 1 holds. Let ML AL NL , ML AL N − ⊂ L be the minimal parabolic
+                                                           L
+subgroups as in Section 2.2. Then AL NL , AL NL− acts simply transitively on Ω, and we
+have
+                ∆k (b.z) = ∆k (b.e)∆k (z)                     (z ∈ p+ , b ∈ AL NL− ),
+                ˇ k (b.z) = ˇ
+                ∆                   ˇ k (z)
+                            ∆k (b.e)∆                         (z ∈ p+ , b ∈ AL NL ).
+                                                       r
+                                            z }| {
+Also, for k0 ∈ Z≥0 , k ∈ Zr++ , let k0 := (k0 , . . . , k0 ), k∨ := (kr , kr−1 , . . . , k1 ). Then for
+k0 ≥ k1 , we have
+                             det(z)k0 ∆k (z −1 ) = ˇ  ∆k0 −k∨ (z).                                (5.4)
+For λ ∈ C, k ∈ Cr , m ∈ (Z≥0 )r , let
+                                              r                   
+                                             Y
+                                      dr(r−1)/4             d
+                 Γr (λ + k) := (2π)              Γ λ + kj − (j − 1) ,                            (5.5)
+                                                            2
+                                             j=1
+                                                   r                 
+                               Γr (λ + k + m) Y               d
+                 (λ + k)m :=                    =     λ + kj − (j − 1)     ,                     (5.6)
+                                  Γr (λ + k)                   2        mj
+                                                       j=1
+
+and let Γr (λ) := Γr (λ + (0, . . . , 0)), (λ)m := (λ + (0, . . . , 0))m , so that we have
+                                                                          
+                                                       n
+                       (λ + k)m = (−1)|m| −λ + − k∨ − m∨                        .
+                                                       r                    m∨
+If Re λ > −kr + nr − 1, k ∈ Zr++ , f (x) ∈ Pk (p+ ), then by [9, Theorem VII.1.1, Lemma
+XI.2.3], we have
+                     Z
+                                                n
+                        e− tr(x) f (x) det(x)λ− r dx = Γr (λ + k)f (e).             (5.7)
+                          Ω
+Using Γr (λ + k), (5.2) is rewritten as
+                                                               d
+                                             Q                               
+                         Γr (λ + k)Γr (µ + k) 1≤i<j≤r λ + µ − 2 (i + j − 1) ki +kj
+          Br (λ, µ, k) =                                       d
+                                                                                  .
+                               Γr (λ + µ)
+                                             Q
+                                               1≤i≤j≤r λ + µ − 2 (i + j − 2)           ki +kj
+
+Especially, if k = (l, . . . , l), then we have
+                                                                           d
+                                                         Q                              
+                                     Γr (λ + l)Γr (µ + l) 1≤i<j≤r λ + µ − 2 (i + j − 1) 2l
+         Br (λ, µ, (l, . . . , l)) =                                       d
+                                                                                        
+                                          Γr (λ + µ)
+                                                         Q
+                                                           1≤i≤j≤r λ + µ − 2 (i + j − 2) 2l
+                                                                           d
+                                                         Q                              
+                                     Γr (λ + l)Γr (µ + l) 1≤i<j≤r λ + µ − 2 (i + j − 1) 2l
+                                   =                                       d
+                                                                                        
+                                          Γr (λ + µ)
+                                                         Q
+                                                           0≤i<j≤r λ + µ − 2 (i + j − 1) 2l
+                                  Γr (λ + l)Γr (µ + l)            1
+                              =                        Qr           d
+                                                                             
+                                       Γr (λ + µ)       j=1 λ + µ − 2 (j − 1)     2l
+                                Γr (λ + l)Γr (µ + l)   Γr (λ + l)Γr (µ + l)
+                              =                      =                      ,
+                                Γr (λ + µ)(λ + µ)2l      Γr (λ + µ + 2l)
+
+
+                                                  31
+which coincides with the beta function in [9, Theorem VII.1.7].
+   Next, for α > 2n
+                  r − 1, let ⟨f1 , f2 ⟩α = ⟨f1 (z), f2 (z)⟩α,z be the G-invariant inner product
+                                                                      e
+on Hα (D) ⊂ Oα (D) given in (2.2) with respect to the variable z. Then the following
+formulas hold.
+Lemma 5.3 (Faraut–Korányi [8], [9, Corollary XIII.2.3]). For α > 2n           r
+                                                                   r − 1, m ∈ Z++ and
+f (z) ∈ Pm (p+ ), we have
+                                                  1
+                            f (z), e(z|x) α,z =      f (x).
+                                                (α)m
+Lemma 5.4 ([33, Theorem 8.4]). For α, β > 2n                 r                 +
+                                                 r − 1, l ∈ Z++ , f (z) ∈ Pl (p ), we have
+
+                                                       α + β − 1 − d2 (i + j − 2) l +l
+                                             Q                                   
+                                      1        1≤i≤j≤r
+ f (w + z), e(w+z|x) (α,w)⊗(β,z) =                                    d
+                                                                                   i j f (x),
+                                   (α)l (β)l 1≤i<j≤r+1 α + β − 1 − 2 (i + j − 3)
+                                            Q
+                                                                                     l +l
+                                                                                     i   j
+
+
+where lr+1 := 0.
+   Especially, for f (z) ∈ Pl (p+ ), we consider the orthogonal decomposition of f (w + z) ∈
+P(p+ ⊕ p+ ) as
+                               X                      M
+               f (w + z) =            fm,n (w, z) ∈        Pm (p+ ) ⊗ Pn (p+ ).
+                             m,n∈Zr++                  m,n∈Zr++
+
+Then we have
+                                                       X 1
+                   f (w + z), e(w+z|x) (α,w)⊗(β,z) =           fm,n (x, x)
+                                               m,n
+                                                   (α)  m (β)n
+                                                   d
+                             Q                                  
+                      1        1≤i≤j≤r α + β − 1 − 2 (i + j − 2) li +lj
+                 =                                                       f (x).              (5.8)
+                   (α)l (β)l 1≤i<j≤r+1 α + β − 1 − d2 (i + j − 3)
+                            Q                                     
+                                                                    l +l i   j
+
+                                       λ,µ
+Proof of Theorem 5.1. By Lemma 4.13, (Fk↑  v)(x, 0) is holomorphically continued to x ∈
+ +                          ×
+p , and for (x, y) ∈ (D × D) , we have
+                                 λ,µ              λ,µ
+                               (Fk↑  v)(x, y) = (Fk↑  v)(x − y, 0).
+
+Since this is holomorphic, it is enough to consider the case x ∈ Ω and y = 0. Next,
+                                      ∨ , C) K , let v ∈ V ∨ be the lowest weight vector
+for fixed Kk (x) ∈ Pk (p+ ) ⊗ HomC (Vkγ
+                                            
+                                                      0   kγ
+satisfying
+                                   Kk (x)v0 = ∆k (x).
+            λ,µ
+Then since Fk↑  |Vkγ                e C -action, we may assume v = v0 , so that
+                  ∨ intertwines the K
+
+
+     λ,µ
+   (Fk↑  v0 )(x, 0)
+                        Z
+             −λ−µ+ n                        n              n
+                                   det(w)λ− r det(x − w)µ− r ∆k (w−1 + (x − w)−1 )−1 dw.
+                                                                                    
+    = det(x)       r
+                         Ω∩(x−Ω)
+
+Let x ∈ Ω. Since AL NL− acts simply transitively on Ω, we can take b ∈ AL NL− such that
+                           λ,µ                                    −
+b.e = x holds. Then since Fk↑  |Vkγ
+                                 ∨ intertwines the action of AL N
+                                                                 L ⊂ L, we have
+
+       λ,µ                λ,µ                           λ,µ
+     (Fk↑  v0 )(x, 0) = (Fk↑  v0 )(b.e, 0) = χ(b)−λ−µ (Fk↑  ◦ (χ−λ−µ ⊗ ρ∨     −1
+                                                                        kγ )(b )v0 )(e, 0)
+                          λ,µ                        λ,µ
+                      = (Fk↑  v0 )(e, 0)∆k (b.e) = (Fk↑  v0 )(e, 0)∆k (x).                   (5.9)
+
+
+                                                32
+Hence it is enough to compute
+                     Z
+      λ,µ                            n              n
+                            det(w)λ− r det(e − w)µ− r ∆k (w−1 + (e − w)−1 )−1 dw.
+                                                                             
+   (Fk↑ v0 )(e, 0) =
+                              Ω∩(e−Ω)
+
+We fix an arbitrary k0 ∈ Z≥0 such that k0 ≥ k1 . Then by (5.7), (5.9), we have
+                           λ,µ
+  Γr (λ + µ + k0 + k)(Fk↑      v0 )(e, 0)
+      Z
+                                             n     λ,µ
+  =        e− tr(x) ∆k (x) det(x)λ+µ+k0 − r (Fk↑       v0 )(e, 0) dx
+       x∈Ω
+      Z
+                                      n   λ,µ
+  =        e− tr(x) det(x)λ+µ+k0 − r (Fk↑     v0 )(x, 0) dx
+      Zx∈Ω                    Z
+                                                          n          n
+  =        e− tr(x) det(x)k0                det(w)λ− r det(x − w)µ− r
+          x∈Ω                       w∈Ω∩(x−Ω)
+                                                              × ∆k (w−1 + (x − w)−1 )−1 dwdx
+                                                                                          
+      ZZ
+                                                           n          n
+                          e− tr(w+z) det(w + z)k0 det(w)λ− r det(z)µ− r ∆k (w−1 + z −1 )−1 dwdz
+                                                                                          
+  =
+           (w,z)∈Ω×Ω
+      ZZ
+  =                       e− tr(w+z) det(w−1 + z −1 )k0
+           (w,z)∈Ω×Ω
+                                                n              n
+                                 × det(w)λ+k0 − r det(z)µ+k0 − r ∆k (w−1 + z −1 )−1 dwdz
+                                                                                   
+      ZZ
+                                                  n              n
+  =                                                                ˇ k −k∨ (w−1 + z −1 ) dwdz,
+                          e− tr(w+z) det(w)λ+k0 − r det(z)µ+k0 − r ∆  0
+           (w,z)∈Ω×Ω
+
+where we have put x = w + z at the 4th equality, used (4.6) at the 5th equality, and used
+(5.4) at the 6th equality. For m, n ∈ Zr++ , let fm,n (w, z) be the orthogonal projection of
+ˇ k −k∨ (w + z) onto Pm (p+ ) ⊗ Pn (p+ ), namely,
+∆  0
+
+                                          X                          M
+                ˇ k −k∨ (w + z) =
+                ∆                                  fm,n (w, z) ∈              Pm (p+ ) ⊗ Pn (p+ ).
+                   0
+                                        m,n∈Zr++                   m,n∈Zr++
+
+
+Then fm,n ̸= 0 holds only if |m| + |n| = |k0 − k∨ |, and by (5.7), we have
+                         λ,µ
+    Γr (λ + µ + k0 + k)(Fk↑  v0 )(e, 0)
+           Z Z
+        X                                             n              n
+    =                  e− tr(w) e− tr(z) det(w)λ+k0 − r det(z)µ+k0 − r fm,n (w−1 , z −1 ) dwdz
+          m,n     (w,z)∈Ω×Ω
+          X
+      =         Γr (λ + k0 − m∨ )Γr (µ + k0 − n∨ )fm,n (e, e)
+          m,n
+          X         Γr (λ + k0 )Γr (µ + k0 )
+      =                                         fm,n (e, e)
+          m,n
+              (λ + k0 − m∨ )m∨ (µ + k0 − n∨ )n∨
+                      ∨
+                                                    X               fm,n (e, e)
+      = (−1)|k0 −k | Γr (λ + k0 )Γr (µ + k0 )                                          .
+                                                           −λ − k0 + nr m −µ − k0 + nr n
+                                                                       
+                                                    m,n
+
+Then applying (5.8) for l = k0 − k∨ , α = −λ − k0 + nr , β = −µ − k0 + nr , we get
+        λ,µ
+      (Fk↑  v0 )(e, 0)
+
+
+
+                                                          33
+                 Γr (λ + k0 )Γr (µ + k0 )
+                  ∨                                  ∆ˇ k −k∨ (e)
+     = (−1)|k0 −k |
+                                                         0
+
+                  Γr (λ + µ + k0 + k) −λ − k0 + nr k −k∨ −µ − k0 + nr k −k∨
+                                                                        
+                                                      0                     0
+                                                  d
+          Q                                                     
+            1≤i≤j≤r −λ − µ − 2k0 + d(r − 1) + 1 − 2 (i + j − 2) 2k0 −kr−i+1 −kr−j+1
+        ×Q                                          d
+                                                                  
+           1≤i<j≤r+1 −λ − µ − 2k0 + d(r − 1) + 1 − 2 (i + j − 3) 2k0 −k      −k        r−i+1   r−j+1
+
+       Γr (λ + k0 )Γr (µ + k0 )                1
+     =
+        Γr (λ + µ + k0 + k) (λ + k)k0 −k (µ + k)k0 −k
+                                             d
+          Q                                                
+             1≤i≤j≤r λ + µ + ki + kj − 2 (i + j − 2) 2k0 −ki −kj
+       ×Q                                    d
+                                                           
+             0≤i<j≤r λ + µ + ki + kj − 2 (i + j − 1) 2k0 −ki −kj
+
+                                           λ + µ − d2 (i + j − 2) 2k0
+                                                                 
+       Γr (λ + k)Γr (µ + k) Y
+     =
+                                          λ + µ − d2 (i + j − 2) k +k
+                                                                
+       Γr (λ + µ + k0 + k)
+                             1≤i≤j≤r                              i     j
+                              d
+                                              
+            Y       λ  + µ −  2 (i +  j  − 1)   k +k
+       ×                        d
+                                               i j
+          0≤i<j≤r
+                     λ  + µ −   2 (i +  j − 1)   2k0
+                                                         d
+                                   Q                                  
+        Γr (λ + k)Γr (µ + k)         1≤i≤j≤r λ + µ − 2 (i + j − 2) 2k0
+     =
+       Γr (λ + µ)(λ + µ)k0 +k 1≤i≤j≤r λ + µ − d2 (i + j − 2)
+                                 Q                                   
+                                                                       ki +kj
+          Qr               d
+                                              Q                   d
+                                                                                 
+             j=1 λ + µ − 2 (j − 1) k0 +kj         1≤i<j≤r λ + µ − 2 (i + j − 1) ki +kj
+       ×                    Q                        d
+                                                                
+                               1≤i≤j≤r λ + µ − 2 (i + j − 2) 2k0
+                                                       d
+                             Q                                    
+       Γr (λ + k)Γr (µ + k) 1≤i<j≤r λ + µ − 2 (i + j − 1) ki +kj
+     =                                                 d
+                                                                           = Br (λ, µ, k),
+             Γr (λ + µ)
+                             Q
+                                  1≤i≤j≤r λ + µ − 2 (i + j − 2) k +k    i   j
+
+
+and this completes the proof of Theorem 5.1.
+
+
+6    Differential expression of holographic operators when σ, τ,
+     ρ are one-dimensional
+In this section, we assume that σ = χ−λ , τ = χ−µ , ρ = χ−(λ+µ+2l) are one-dimensional.
+Then the holographic operator is given by
+                              λ,µ                         ˆ Hµ (D),
+                            F̃l↑  : Hλ+µ+2l (D) −→ Hλ (D) ⊗
+           λ,µ
+        (F̃l↑  f )(x, y) := f, K̂λ,µ   l (x, y; ·) λ+µ+2l
+                                       n Z
+            det(x − y)−λ−µ−l+ r                                 n                n
+         =                                       det(w − y)λ+l− r det(x − w)µ+l− r f (w) dw
+              Br (λ, µ, (l, . . . , l)) C(x,y)
+where
+                      K̂λ,µ
+                        l (x, y; w) := h(x, w)
+                                                      −λ
+                                                         h(y, w)−µ det(xw − y w )l ,
+                                                         Γr (λ + l)Γr (µ + l)
+                            Br (λ, µ, (l, . . . , l)) :=                      ,
+                                                           Γr (λ + µ + 2l)
+with Γr (λ) given in (5.5). We note that the 1st expression is valid without the tube type
+assumption, but the 2nd expression is valid only for tube type cases. In this section,
+we find another expression of the holographic operator as an infinite-order differential
+operator.
+
+                                                   34
+   To describe the differential expression, for m ∈ Zr++ , let Φ̃m (x, y) ∈ Pm (p+ ) ⊗ Pm (p− )
+be the orthogonal projection of e(x|y) onto Pm (p+ ) ⊗ Pm (p− ), so that
+                                            X
+                                  e(x|y) =       Φ̃m (x, y).
+                                               m∈Zr++
+
+
+This is defined without the tube type assumption. Especially, if p+ is of tube type, then
+we have
+                         dim Pm (p+ )           1/2       dim Pm (p+ )
+          Φ̃m (x, y) =       n
+                                     Φ m (P (y     )x) =     n
+                                                                      Φm (P (x1/2 )y),
+                              r m                                   r m
+
+where Φm (x) ∈ Pm (p+ ) is the unique KL -invariant polynomial in Pm (p+ ) satisfying
+Φm (e) = 1, and (α)m is as in (5.6) (see [9, Proposition XII.1.3 (i)]). Using this, for
+α, β ∈ C, let                        
+                             α            X (α)m
+                       1 F1     ; x, y :=          Φ̃m (x, y).
+                              β             r
+                                              (β)m
+                                                    m∈Z++
+
+       λ,µ
+Then F̃l↑  is expressed as an infinite-order differential operator as follows.
+
+Theorem 6.1. For f (w) ∈ Oλ+µ+2l (D)Ke = P(p+ ), we have
+                                                                      
+               λ,µ                                λ+l                ∂
+            (F̃l↑  f )(x, y) = det(x − y)l 1 F1            ; x − y,      f (w)
+                                                λ + µ + 2l          ∂w         w=y
+                                                                      
+                                                  µ+l                ∂
+                            = det(x − y)l 1 F1             ; y − x,      f (w)     .
+                                                λ + µ + 2l          ∂w         w=x
+
+   Indeed, by Theorem 2.4, for x, y ∈ D ⊂ p+ , ζ ∈ p− , by putting
+            λ,µ              λ,µ (w|ζ)                     λ,µ              λ,µ (w|ζ)
+          Fl↑,L (x; ζ) := (F̃l↑ e      )w (x, 0),        Fl↑,R (y; ζ) := (F̃l↑ e      )w (0, y),
+
+we have
+                                                                      
+          λ,µ               λ,µ          ∂                λ,µ          ∂
+       (F̃l↑  f )(x, y) = Fl↑,L  x − y;     f (w)     = Fl↑,R  y − x;     f (w)     .
+                                        ∂w        w=y                 ∂w        w=x
+
+                               λ,µ           λ,µ
+Hence it suffices to compute Fl↑,L (x; ζ), Fl↑,R (y; ζ).
+   In the following, we give two different proofs of Theorem 6.1. One proof is based on
+the integral expression on D, which is valid without the tube type assumption. By [7,
+Part V, (J6.1)], we have
+
+      λ,µ
+    Fl↑,L (x; ζ) = e(w|ζ) , K̂λ,µ
+                              l (x, 0; w) λ+µ+2l,w = e
+                                                       (w|ζ)
+                                                             , h(x, w)−λ det(xw )l λ+µ+2l,w
+               = e(w|ζ) , h(x, w)−λ−l det(x)l λ+µ+2l,w
+               = det(x)l e(w|ζ) , h(x, w)−λ−l λ+µ+2l,w ,
+     λ,µ
+   Fl↑,R (y; ζ) = e(w|ζ) , K̂λ,µ
+                             l (0, y; w) λ+µ+2l,w = e
+                                                      (w|ζ)
+                                                            , h(y, w)−µ det(−y w )l λ+µ+2l,w
+               = e(w|ζ) , h(y, w)−µ−l det(−y)l λ+µ+2l,w
+               = det(−y)l e(w|ζ) , h(y, w)−µ−l λ+µ+2l,w .
+
+
+                                                    35
+Then by combining                                           X
+                                         h(x, w)−λ =                 (λ)m Φ̃m (x, w)
+                                                          m∈Zr++
+
+(see [8], [9, Proposition XII.1.3 (ii), Theorem XIII.2.4]) with Lemma 5.3, we get
+       λ,µ
+     Fl↑,L (x; ζ) = det(x)l e(w|ζ) , h(x, w)−λ−l λ+µ+2l,w
+                             X
+                  = det(x)l         (λ + l)m e(w|ζ) , Φ̃m (x, w) λ+µ+2l,w
+                                     m∈Zr++
+                                                                                                       
+                                 l
+                                      X           (λ + l)m                      l        λ+l
+                   = det(x)                                  Φ̃m (x, ζ) = det(x) 1 F1             ; x, ζ .
+                                               (λ + µ + 2l)m                           λ + µ + 2l
+                                     m∈Zr++
+
+                     λ,µ                         µ+l
+                         (y; ζ) = det(−y)l 1 F1 λ+µ+2l
+                                                             
+Similarly, we have Fl↑,R                               ; y, ζ .
+   Another proof of Theorem 6.1 is based on the integral expression on the totally real
+submanifold C(x, y), which is valid only for tube type cases. We have
+                                       n Z
+   λ,µ          det(x)−λ−µ−l+ r                             n                n
+ Fl↑,L (x; ζ) =                                  det(w)λ+l− r det(x − w)µ+l− r e(w|ζ) dw,
+                Br (λ, µ, (l, . . . , l)) C(x,0)
+                                               n
+                    det(−y)−λ−µ−l+ r
+                                                   Z
+   λ,µ                                                                          n                n
+ Fl↑,R (y; ζ) =                                          det(w − y)λ+l− r det(−w)µ+l− r e(w|ζ) dw
+                    Br (λ, µ, (l, . . . , l))       C(0,y)
+                                 l− n              −λ−µ−l+ n Z
+                    det(−e)      det(y)
+                                    r                      r                              n                      n
+                =                                                          det(y − w)λ+l− r det(w)µ+l− r e(w|ζ) dw
+                         Br (λ, µ, (l, . . . , l))                C(0,y)
+                                         n Z
+                    (−1)lr det(y)−λ−µ−l+ r                                           n                 n
+                =                                                 det(y − w)λ+l− r det(w)µ+l− r e(w|ζ) dw,
+                        Br (λ, µ, (l, . . . , l))        C(y,0)
+
+                                                               λ,µ
+where we have used Lemma 3.6 (2) at the last equality. Since Fl↑,L (x; ζ) is holomorphic,
+we may assume x ∈ Ω ∩ D. Then as in the proof of [9, Proposition XV.1.4], we have
+                                      n Z
+  λ,µ          det(x)−λ−µ−l+ r                              n                n
+Fl↑,L (x; ζ) =                                   det(w)λ+l− r det(x − w)µ+l− r e(w|ζ) dw
+               Br (λ, µ, (l, . . . , l)) Ω∩(x−Ω)
+                           n
+     det(x)−λ−µ−l+ r
+                                 Z
+                                                                           n                                 n       1/2 w|ζ)
+ =                                             det(P (x1/2 )w)λ+l− r det(P (x1/2 )(e − w))µ+l− r e(P (x)
+     Br (λ, µ, (l, . . . , l))       Ω∩(e−Ω)
+                                                                                                                      n
+                                                                                                            × det(x) r dw
+           det(x)l
+                                 Z
+                                                            n                       n         1/2 ζ)
+ =                                             det(w)λ+l− r det(e − w)µ+l− r e(w|P (x)                 dw
+     Br (λ, µ, (l, . . . , l))       Ω∩(e−Ω)
+           det(x)l             X Z                   n                n
+ =                                        det(w)λ+l− r det(e − w)µ+l− r Φ̃m (w, P (x)1/2 ζ) dw
+     Br (λ, µ, (l, . . . , l))  r Ω∩(e−Ω)
+                                 m∈Z++
+
+     Γr (λ + µ + 2l) det(x)l  X Γr (λ + l + m)Γr (µ + l)
+ =                                                            Φ̃m (e, P (x)1/2 ζ)
+      Γr (λ + l)Γr (µ + l)            Γ r (λ + µ + 2l +  m)
+                             m∈Zr++
+                                                                               
+                 X     (λ + l)m                                 λ+l
+ = det(x)l                                             l
+                                   Φ̃m (x, ζ) = det(x) 1 F1               ; x, ζ ,
+                  r
+                    (λ + µ + 2l)m                            λ + µ + 2l
+               m∈Z++
+
+                                                                        λ,µ
+where the 5th equality follows from [9, Theorem VII.1.7]. Similar for Fl↑,R (y; ζ).
+
+
+                                                                36
+References
+ [1] S. Ben Saı̈d, J.L. Clerc and K. Koufany, Conformally covariant bi-differential op-
+     erators on a simple real Jordan algebra. Int. Math. Res. Not. IMRN 2020, no. 8,
+     2287–2351.
+
+ [2] J.L. Clerc, Symmetry breaking differential operators, the source operator and Ro-
+     drigues formulae. Pacific J. Math. 307 (2020), no. 1, 79–107.
+
+ [3] H. Cohen, Sums involving the values at negative integers of L-functions of quadratic
+     characters. Math. Ann. 217 (1975), no. 3, 271–285.
+
+ [4] J. Ditlevsen and J. Frahm, Construction and analysis of symmetry breaking operators
+     for the pair (GL(n + 1, R), GL(n, R)). Preprint, arXiv:2403.14267.
+
+ [5] J. Ditlevsen and J. Frahm, Branching laws for Stein’s complementary series and Speh
+     representations of GL(2n, R). Preprint, arXiv:2508.05442.
+
+ [6] J. Ditlevsen and Q. Labriet, Differential symmetry breaking operators for the pair
+     (GLn+1 (R), GLn (R)). J. Funct. Anal. 290 (2026), no. 7, Paper No. 111335, 39 pp.
+
+ [7] J. Faraut, S. Kaneyuki, A. Korányi, Q.k. Lu and G. Roos, Analysis and geometry on
+     complex homogeneous domains. Progress in Mathematics, 185. Birkhäuser Boston,
+     Inc., Boston, MA, 2000.
+
+ [8] J. Faraut and A. Korányi, Function spaces and reproducing kernels on bounded sym-
+     metric domains. J. Funct. Anal. 88 (1990), no. 1, 64–89.
+
+ [9] J. Faraut and A. Korányi, Analysis on symmetric cones. Oxford Mathematical Mono-
+     graphs. Oxford Science Publications. The Clarendon Press, Oxford University Press,
+     New York, 1994.
+
+[10] J. Frahm and Q. Labriet, Restricting holomorphic discrete series representations to
+     a compact dual pair. Symmetry in geometry and analysis. Vol. 2. Festschrift in honor
+     of Toshiyuki Kobayashi, 95–113. Progr. Math., 358, Birkhäuser/Springer, Singapore,
+     2025.
+
+[11] J. Frahm an B. Ørsted, Knapp-Stein type intertwining operators for symmetric pairs
+     II. —The translation principle and intertwining operators for spinors. SIGMA Sym-
+     metry Integrability Geom. Methods Appl. 15 (2019), Paper No. 084, 50 pp.
+
+[12] J. Frahm and C. Weiske, Symmetry breaking operators for line bundles over real
+     projective spaces. J. Lie Theory 29 (2019), no. 2, 511–558.
+
+[13] J. Frahm and C. Weiske, Symmetry breaking operators for real reductive groups of
+     rank one. J. Funct. Anal. 279 (2020), no. 5, 108568, 70 pp.
+
+[14] T. Ibukiyama, T. Kuzumaki and H. Ochiai, Holonomic systems of Gegenbauer type
+     polynomials of matrix arguments related with Siegel modular forms. J. Math. Soc.
+     Japan 64 (2012), no. 1, 273–316.
+
+[15] A. Juhl, Families of conformally covariant differential operators, Q-curvature and
+     holography. Progress in Mathematics, 275. Birkhäuser Verlag, Basel, 2009.
+
+
+
+                                           37
+[16] T. Kobayashi, Multiplicity-free theorems of the restrictions of unitary highest weight
+     modules with respect to reductive symmetric pairs. Representation theory and auto-
+     morphic forms, 45–109, Progr. Math., 255, Birkhäuser Boston, Boston, MA, 2008.
+
+[17] T. Kobayashi, T. Kubo and M. Pevzner, Conformal symmetry breaking operators for
+     differential forms on spheres. Lecture Notes in Math. 2170, Springer, Singapore, 2016,
+     ix+192 pp.
+
+[18] T. Kobayashi and A. Leontiev, Image of conformally covariant, symmetry breaking
+     operators for Rp,q . Quantum theory and symmetries with Lie theory and its applica-
+     tions in physics. Vol. 1, 3–35. Springer Proc. Math. Stat., 263, Springer, Singapore,
+     2018.
+
+[19] T. Kobayashi, B, Ørsted, P. Somberg and V. Souček, Branching laws for Verma
+     modules and applications in parabolic geometry. I. Adv. Math. 285 (2015), 1796–
+     1852.
+
+[20] T. Kobayashi and M. Pevzner, Differential symmetry breaking operators: I. General
+     theory and F-method. Selecta Math. (N.S.) 22 (2016), no. 2, 801–845.
+
+[21] T. Kobayashi and M. Pevzner, Differential symmetry breaking operators: II. Rankin–
+     Cohen Operators for Symmetric Pairs. Selecta Math. (N.S.) 22 (2016), no. 2, 847–911.
+
+[22] T. Kobayashi and M. Pevzner, Inversion of Rankin–Cohen operators via Holographic
+     Transform. Ann. Inst. Fourier (Grenoble) 70 (2020), no. 5, 2131–2190.
+
+[23] T. Kobayashi and B. Speh, Symmetry breaking for representations of rank one or-
+     thogonal groups. Mem. Amer. Math. Soc. 238 (2015), no. 1126.
+
+[24] T. Kobayashi and B. Speh, Symmetry breaking for representations of rank one or-
+     thogonal groups II. Lecture Notes in Mathematics, 2234. Springer, Singapore, 2018.
+     xv+342 pp.
+
+[25] A. Korányi, A simplified approach to the holomorphic discrete series. Indag. Math.
+     (N.S.) 36 (2025), no. 1, 29–41.
+
+[26] T. Kubo, Differential Symmetry Breaking Operators from a Line Bundle to a Vector
+     Bundle over Real Projective Spaces. Geometric and harmonic analysis on homoge-
+     neous spaces and applications, 138–200, Springer Proc. Math. Stat., 3, Springer,
+     Cham, 2026.
+
+[27] Q, Labriet, A geometrical point of view for branching problems for holomorphic dis-
+     crete series of conformal Lie groups. Internat. J. Math. 33 (2022), no. 10–11, Paper
+     No. 2250069, 70 pp.
+
+[28] O. Loos, Jordan pairs. Lecture Notes in Math., Vol. 460, Springer-Verlag, Berlin-New
+     York, 1975. xvi+218 pp.
+
+[29] O. Loos, Bounded symmetric domains and Jordan pairs. Math. Lectures, Univ. of
+     California, Irvine, 1977.
+
+[30] J. Möllers and Y. Oshima, Restriction of most degenerate representations of O(1, N )
+     with respect to symmetric pairs. J. Math. Sci. Univ. Tokyo 22 (2015), no. 1, 279–338.
+
+
+
+                                            38
+[31] R. Nakahama, Construction of intertwining operators between holomorphic discrete
+     series representations. SIGMA Symmetry Integrability Geom. Methods Appl. 15
+     (2019), Paper No. 036, 101 pp.
+
+[32] R. Nakahama, Computation of weighted Bergman inner products on bounded sym-
+     metric domains and restriction to subgroups. SIGMA Symmetry Integrability Geom.
+     Methods Appl. 18 (2022), Paper No. 033, 105 pp.
+
+[33] R. Nakahama, Computation of weighted Bergman inner products on bounded symmet-
+     ric domains and Parseval–Plancherel-type formulas under subgroups. SIGMA Sym-
+     metry Integrability Geom. Methods Appl. 19 (2023), Paper No. 049, 74 pp.
+
+[34] R. Nakahama, Computation of weighted Bergman inner products on bounded sym-
+     metric domains and restriction to subgroups II. J. Funct. Anal. 289 (2025), no. 11,
+     Paper No. 111131, 96 pp.
+
+[35] V. Ovsienko and P. Redou, Generalized transvectants-Rankin–Cohen brackets. Lett.
+     Math. Phys. 63 (2003), no. 1, 19–28.
+
+[36] J. Peetre, Hankel forms of arbitrary weight over a symmetric domain via the transvec-
+     tant. Rocky Mountain J. Math. 24 (1994), no. 3, 1065–1085.
+
+[37] L. Peng and G. Zhang, Tensor products of holomorphic representations and bilinear
+     differential operators. J. Funct. Anal. 210 (2004), no. 1, 171–192.
+
+[38] V. Pérez-Valdés, Conformally covariant differential symmetry breaking operators for
+     a vector bundle of rank 3 on S 3 . Internat. J. Math. 34 (2023), no. 12, Paper No.
+     2350072, 58 pp.
+
+[39] V. Pérez-Valdés, On sporadic symmetry breaking operators for principal series rep-
+     resentations of the de Sitter and Lorentz groups. J. Funct. Anal. 291 (2026), no. 6,
+     Paper No. 111539.
+
+[40] R.A. Rankin, The construction of automorphic forms from the derivatives of a given
+     form. J. Indian Math. Soc. (N.S.) 20 (1956), 103–116.
+
+[41] I. Satake, Algebraic structures of symmetric domains. Kanô Memorial Lectures, 4.
+     Iwanami Shoten, Tokyo; Princeton University Press, Princeton, N.J., 1980.
+
+[42] G. van Dijk and M. Pevzner, Ring structures for holomorphic discrete series and
+     Rankin-Cohen brackets. J. Lie Theory 17 (2007), no. 2, 283–305.
+
+
+
+
+                                           39
+

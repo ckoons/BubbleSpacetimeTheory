@@ -1,0 +1,2101 @@
+=== PAGE 01.png (tesseract OCR) ===
+=== PAGE 02.png (tesseract OCR) ===
+All unitary ray representations of the conformal group SU(2,2) with
+
+positive energy
+
+G. Mack
+
+Il. Institut fiir Theoretische Physik der Universitét
+
+Hamburg
+
+Abstract: We find all those unitary irreducible representations of the
+* - sheeted covering group G of the conformal group SU(2,2)/2,
+
+which have positive energy P°> 0. They are all finite component field
+
+representations and are labelled by dimension cand a finite
+
+dimensional irreducible representation (fret of the Lorentz group
+
+SL(2€). They all decompose into a finite number of unitary irreducible
+
+representations of the Poincaré subgroup with dilations.
+=== PAGE 03.png (tesseract OCR) ===
+1. Summary and introduction.
+
+The conformal group of 4-dimensional space is locally iso-
+morphic to G = SU(2,2) ; its universal covering group @ is an
+infinite sheeted covering of G. Both G and G contain the quantum
+mechanical Poincaré group ISL(2€). It is of physical interest to
+have a complete list of all unitary irreducible representations
+(UIR‘’s) of G with positive energy P°7 0. They are at the same
+time unitary ray representations of G. In the present paper we
+shall give such a complete list. We show that all the UIR of G
+with positive energy are finite component field representations
+in the termeinology of [1]. They are labelled by a real number d,
+called the dimension, and a finite dimensional irreducible represen-
+tation (j,,j,) of the quantum mechanical (qem.) Lorentz group
+SL(2€), Thus, 2j,, 2j, are nonnegative integers. There are 5 classes
+of representations. They differ in their Poincaré content Lm, 5],
+
+m= mass, s = spin resp. helicity as follows:
+
+(1) trivial l-dimensional representation ds=Jj,=j,=0.
+
+(2) j, #0, 3,7 % d>j,+5,+2 contains m70, 6 IJ,-J,) ooe5, +3, -
+(integer steps)
+(3) J, 5, =O 475, +5, +2 contains m>0, s=2j,+j, -
+
+(4) §,40, J, #0, d=J,+5,+2 contains m>0, s=Jj,+i, -
+
+(5) 3,3
+
+.* 0, d= j,+j,+1 contains m=0O, helicity j,-d,-
+
+The proof of these results proceeds in several steps.
+
+We start from the observation |[2,3] that positive energy pes oO
+implies that also H70, where H=i(P°+K°) is the "conformal
+Ramiltonian", K° a generator of special conformal transformations.
+Next we point out that any UIR of G with positive energy is very
+much like a finite dimensional representation in that it possesses
+a lowest weight vector and is determined up to unitary equivalence
+by its lowest weight X= (d,-j,,-j,)- In particular there is an al~
+
+gorithm for computing the scalar product of any two’ K-finite” vectors.
+=== PAGE 04.png (tesseract OCR) ===
+We then derive (necessary) inequalities for the dimension d
+from the condition that the unique candidate for the scalar product
+is indeed positive semidefinite. They come out as d7J,+j,+2 if
+j, J, #0, and ad7j,+J, +1 if J,4j, = 0, except for the trivial
+
+1-dimensional representation which has de» j, = J, =O.
+
+In the last step we construct a unitary irreducible represen-
+tation of G for every weight \ satisfying these constraints. Practically
+all of them have been investigated in more or less detail before,
+14,5,6]. In particular, a careful study of the representations with
+d>j,+J,+3 has been carried out in Ruhls work [5]. The @assless)
+representations with d\=j,+j,+1 have been investigated by Todorov
+and the author [6]. For the remaining representations there remained
+some open questions concerning either positivity or global
+realization. In particular , for practical applications one
+needs a clean construction as an induced representation on Minkowski
+
+space. This requires particular attention to the center © of Ge
+
+Our representation spaces consist of vector valued functions
+p(x) on Minkowski space nt with values in a finite dimensional
+irreducible representation space of the q.m. Lorentzgroup SL(2C).
+They transform under g in @ like an induced representation
+
+(Tg dg)(A) = Sly RY (gtx) for ge @ , xem" (1.2)
+
+The multiplier § is a matrix with the property that S(n,0) = 1
+(unit matrix) for special conformal transformations n . Thus the
+representations are of type Ia in the terminology of | 1]. The scalar
+
+product is constructed with the help of an intertwining operator
+("2-point function"), 2-point functions have also been studied in [18,23],
+
+The result of this paper will be used elsewhere in the nonpertur-
+bative analysis of the axioms of quantum field theory with conformal
+invariance { 7,8]. In particular it is crucial in the demonstration
+that in such theories operator product expansions applied to the
+
+vacuum are convergent.
+=== PAGE 05.png (tesseract OCR) ===
+2 A The Lie algebra
+
+The group GSU (2,2) consists of all complex 4x4 matrices g
+
+which satisfy the two conditions
+
+det g=1, g B= Bg" for & = (5 5) (2.1)
+
+th is the unit 2x2 matrix. Let % the real Lie algebra of G.
+For a neighborhood of the identity in G we may «rite g = eX ’ X EQ.
+The Lie algebra % consists therefore of all complex 4x4 matrices X
+
+satisfying the two conditions
+X20 , =XB = Bx* (2.2)
+
+The maximal compact subgroup of Gis K~»¥ S(U(2)xU(2)). It
+
+consists of matrices of the form
+
+ks [ «| ; k. € uz) det kk, = 4
+Lek
+(2.3)
+
+Vi(2) is the group of all unitary 2x2 matrices. The Lie algebra
+
+f of K consists of matrices such that Xs -x* whence XB = ax™, (204)
+
+Following Cartan,the Lie algebra may be split into a compact
+
+and a noncompact part as
+gi t+p (2.5)
+
+where X€p if X®= -BX , and Xe if XB= +BX. Explicitly ,p
+
+consists of matrices of the form
++ (° Zz ;
+Xe - aff X= with a complex 2x2 matrix 2 (2.6)
+
+We denote the complexification of os k, p by Yor Ros Pe
+respectively. tf, consists of complex linear combinations of
+elements of wy ete.
+
+We choose a Cartan subalgebra ‘K of oy which consists of all
+
+diagonal matrices in a It is simultaneously a Cartan subalgebra
+=== PAGE 06.png (tesseract OCR) ===
+of y and of f » We may then decompose
+
+y pwtenr ols F -
+yo = a a - Ri+ WIN Po + TOP, (2.7)
+
+where wt (rt) consists of upper (lower) trianguler 4x4 matrices
+in he » In particular
+
+c “) with a complex 2x2 matrix 2 (2.7')
+
++ + +L ‘
+X"e rtp, ofp X (5 i
+For such X* the adjoint action of keK of the form (2.3) is given
+
+by
+
+- + tirt 0 k zky!
+ad(k)-X* = kXx"k™ (? ; } (2.8)
+
+transforms under an irreducible represen-
+uiR (44) of su(2) x su(2).
+
+which is diagonal under the
+
+We see that pen et
+tation of K which restricts to the
+
+We may select a basis of Ye
+adjoint action of Ly this gives us the commutation relations of
+
+in Cartan normal form.
+
+oO -k
+
+Let us choose a basis of A ze ik consisting of
+He = 2 ( ) H " 2X\e 0 a: eo
+
+o> dis the third Pauli-matrix, o*>= diag (4+1,-1).
+The possible eigenvalues of Hy > are + ~ for eigenvectors
+b
+. We will use them to label the basis Xie 5 fiket >
+
+in win yp,
+
+an
+
+Thus
+
+de De XE 5 TH kad = [Xe Ca Xp XD
+
+[He Xyk] = Xi » LHS Md = J Ag 9 ba yk dk (2.10)
+for the upper sign +. A basis for Kn /A f;, can be chosen as
+
+- + < .
+
+Xe ~ (Xa) , this gives CR. (2. 1¢) for the lower signs = .
+=== PAGE 07.png (tesseract OCR) ===
+ay
+
+The compact subalgebra R transforms of course according to
+the adjoint representation (0,1) + (1,0) of SU(2) x suU(2).
+Therefore we may choose X sk € (why reo ja b. with (yk) =(o, 8), CE 0)
+such that
+
+ay © c vie Cy ie
+(2.11)
+(yk) = (o,#t) oF (t1,¢) >
+¢
+Explicitly the matrices X 4k may be chosen as follows: Let us label
+
+the rows and columns of a 22 matrix by 4+,°7% from top to
+bottom and from left to right. Let C 4k the 2x2 matrix with 1 in
+
+the jk-position, and O otherwise. Thus
+
+k
+
+. . . . . 3
+We also introduce Pauli matrices & » in particular J =e
+
+The multiplication law of these auxiliary 2a2 matrices is:
+
+Co € < oa e Tt -@.e © .¢@ e-g's Eye -§ ,e 1.
+ty “ke ios a i i oa see Lae S ry gi ek fg 8a
+(2.13)
+with or the Kronecker- © . Define
+Xiy 7 4) , X71, Oe) . (¢ “)
+* c Cc # i* J Ry?
+Xx: (Sew c ) a (. 0 ) (2.14)
+uk,¢ C c €4k C Spy
+é
+and Ho, H,, H, as in (2.9). The matrices H,, , Xj, given
+
+thereby form a complete basis for 2, . Their CR.may be worked
+
+out by explicit computation using multiplication law (2.13). 6ne
+verifies in this way the CR. (2.10), (2.11); in addition one finds
+
+. & Xu 5? hy = Hor ak Hy rae Hy
+=== PAGE 08.png (tesseract OCR) ===
+- Lé ¢
+¢ CE Jf 2 + _
+
+Xeon: 4 7 ¢ oy Kk > Xoo Xs | 7 S aar7,
+
+[X.., Xo! = aH, [xX Xie aK, Xue Xen | 0 (2.15)
+
+Eqs. (2.10), (2.11), (2.15) are the CRof y. in Cartan normal
+form relative to the compact Cartan subalgebra 4 of fe The
+
+generators ~iHy»~ tH,» and-tH, of & commute of course.
+
+The real Lie algebra is spanned by the generators
+x" +X E(x Xo, sth jkety
+# “tH, Cm = O42) 5 Kye By » EK, TX re)? Set OU sf of aa) ,
+
+Besides the compact Cartan subgroup expiv, generated by HoH, Ho»
+
+the group G also possesses two noncompact ones. The most noncompact
+
+Cartan subgroup can be exhibited as follows. We make a basis
+transformation,
+“ fz 7d . - ff
+45 Ugu with bose ( Bok ) (2.17)
+VN kk
+
+The group G may be identified with the set of all complex 4x4 matrices
+satisfying the constraints
+
+4
+
+clef g =f, 4 (2 “py” wt fh, pe unu : (° )
+
+he. (2.18)
+
+The set of all diagonal matrices satisfying these constraints forms
+a noncompact Cartan subgroup of G. Furthermore we may now exhibit in
+a convenient form several important subgroups of G. To every
+4nvector (x") we associate hermitean 2x2 matrices x and X as
+
+follows ( o® are Pauli matrices).
+
+. c Lk ~ _¢ Rk kk
+X= Xt + Dx*ok 5 x se xh -~ DK oe
+~
+
+(2.19)
+=== PAGE 09.png (tesseract OCR) ===
+To every Aé SL(2C) there is associated a Lorentztransformation
+
+such that
+
+<x
+
+v
+
+An. R-Tow +t . '
+
+With this notation, we introduce subgroups of G as follows (They are
+
+all at the same time subgroups of Gg ; S. below). We omit the «
+
+henceforth,
+f oO \ .
+M: Lorentztransformations m= | oo, Aé Si)
+,c AN
+fy ‘ ;
+A: dilations ar (tai ia Y \ , iajee
+Ni I “ations n = ( i e \ ; rn” real (2.21)
+am de
+{ x
+X: ' xX = ( * ‘Ss \ ; x* real
+VC fe
+
+The generators of M, A, N, X are denoted by M”” , D, KY ana PP
+respectively (after dividing by voi as is costumary in physics ).
+The reader may work out for himself the connection with the generators
+
+introduced before. One has in particular
+=== PAGE 10.png (tesseract OCR) ===
+2.B. The Lie groups.
+
+Let us now turn to the universal covering group G of G. It is
+an infinite sheeted covering and is given by a standard construction
+(cp. text books, e.g. [9]): G consists of equivalence classes of
+directed paths on G starting at the identity. Two paths are equiva-
+lent if they have the same end point and can be continuously deformed
+one into the other. By the group action in G a path may be transported
+such that it starts at any given point. Using this, group multipli-
+
+cation in G may be defined by juxtaposition of paths.
+
+The structure of G is best understood in terms of its Iwasawa
+decomposition (cp. text books, e.g. [10|). Let M~UA,N,, the Iwasawa
+decomposition of the q.m. Lorentz group M. U=SU(2) is the maximal
+compact subgroup of M, A,, consists of Lorentz boosts in the 2-direction
+and Nis the two-dimensional abelian group which is contained in
+Wigners little group |11] of a lightlike vector p pointing in
+z-direction. The Iwasawa decomposition of G is then [12]
+
+A, Nas in (2,21). The subgroup ALN, is simply connected, therefore
+any two paths on ALN, with the same end points can be continuously
+deformed into each other, Thus
+
+G - KA_N , K = universal covering of K
+
+PoP
+Explicitly K = Rx (su(2)* su(2)) . Here IR is the additive group
+of real numbers, x denotes the direct product. The center r of G
+is contained in K . It suffices then to consider K and its coverings.
+This gives the chain of isomorphisms
+
+( cont. group of )
+
+Minkowski space S0(4,2)/, * SU(2 ,2)/8, ~ G/Z, * u.
+
+The conformal group of Minkowski space has trivial center. The center
+r of G@ is thus isomorphic to Z,* Z% and has two generating elements
+
+. x
+ith ; =
+y, and yaw th y, @ ¢
+7 = | ny Ry Of i = j
+ie nr Oi Gs ie ie i re Tk
+
+y, is the rotation by 2n contained in SL(2,€). An explicit formula
+=== PAGE 11.png (tesseract OCR) ===
+q
+
+for y, will be given in the next section.
+
+~e EN f
+Finally, @ is also a covering of G, viz G 7 G/r er dis
+
+given by f= | lyr)", nC tt... The image r/c’ of 7 in G@ is the
+center of G, it consists of the elements i™r, M=Ooee3, Ta 4x4 unit
+
+matrix, i= ¥-1l.
+=== PAGE 12.png (tesseract OCR) ===
+3. Representations with positive energy
+
+Let ~~ a unitary irreducible representation of G by operators
+T(g) on a Hilbert space #. Suppose that it has positive energy,
+T(P°) 2 0. There exists an element ® of G such that Rpt = K°,
+Explicitly R sexp 2nid.- Ie acts on compactified Minkowski space
+like a reciprocal radius transformation followed by a space re-
+flection. It has been pointed out by Kastrup long ago that this is
+an element of the identity component of the conformal group J
+Positivity of energy T(P°) y O means that (% T(P°)%) 7 ¢
+
+for arbitrary states in the G-invariant domain of T(P°). Consider
+
+u
+
+(4% 7 (H,)¥ ) b (pw, TIP) + (¥ TK DY)
+
+i
+
+(Y TIP) ¥) + £ (ELTON) 70
+
+im
+
+with & = T(R')Y . Therefore we have the
+Lemma 1: T(PS) z 0 implies T(H,) ? © for the
+conformal Hamiltonian Ho = 4 (Pe Ko)
+
+This result was known before 12,3], the proof given here is a
+
+modification due to Luscher of Segal's argument.
+
+Consider next the action of the center [" of G. It consists
+
+of elements of the form
+
+Por oye yy * 5 ye Reape , yond.
+Since the UIR fT is irreducible
+
+Tlydye = wlyd¥ for all %& um k (3.1)
+with W(X) = Exp Qrind for y > y" = €xo aren Hy
+
+d is some real number which is determined up to an integer.
+=== PAGE 13.png (tesseract OCR) ===
+It follows then from the spectral theorem for the selfadjoint
+generator TCH) that all its spectral values are of the form din,
+m some integer. Since TCH )2 O by lemma 1, the spectral values
+d+m20, We may therefore fix the integer part of d such that the
+lowest spectral value is d. This gives
+Lemma 2: In a UIR T of G with positive energy, the generator T(H,)
+has a discrete spectrum. It contains a lowest eigenvalue d, and all
+
+the other eigenvalues are of the form dtm, m positive integer.
+=== PAGE 14.png (tesseract OCR) ===
+4. Lowest weights
+
+By a vector space V weshall mean a linear space with a finite
+or countable basis such that the elements of V can all be written
+as finite linear sums of basis vectors.
+
+Consider an irreducible representation of the Lie algebra
+% (resp. & .) by linear operators T(X) on a complex, possibly
+o) =jdimensional vector space V. Irreducibility means that there
+
+exists no invariant subspace of V. We say that the representation
+
+T possesses a lowest weight vector (L¢ VY with weight if
+T(x)Q = Cc for all Xen (resp.Xen nr. ), and
+. (4.1)
+T(H)OQ = ACH)M for all He h,
+The weight \ is a linear form on te. , viz Ac he d is
+
+specified by the three numbers
+
+A. = ACHY? We write A= (\.,\..4,)
+
+A classic result says that every finite dimensional representation
+
+of Ye resp.R has a lowest weight. In particular, finite dimen-
+
+sional representations of Ro have a lowest weight of the form
+
+» = Oe5 -dierda with 2j,, 2j, nonnegative integers. (4.2)
+
+Infinite dimensional representations of Fe need not possess a
+lowest weight. We will however prove below that representations
+Tofg, which are obtained from a UIR of G with positive energy
+possess a lowest weight.
+
+Consider a unitary irreducible representation T of G@ on a
+Hilbertspace#. It restricts to a (reducible) representation of K.
+K is a direct product of an abelian factor isomorphic to TR which is
+
+generated by Hos and a compact Lie group Ky
+=== PAGE 15.png (tesseract OCR) ===
+13
+
+kK = RxK, , Ki, Suldx Su) , R= fexp tak, x real} (43)
+
+Since T(H,) has a discrete spectrum, # decomposes into a Hilbert
+
+sub
+
+Yo= @®V" (Hilbert sum) (4.4)
+pe
+
+where V"* 4s a Hilbert space that decomposes into copies of one and
+the same UIR of K with lowest weight ». By lemma 2, all the weights
+p appearing in (4.4) are of the form
+
+pos (d4N, =dys -Jy) » N, 20), 20, nonnegative
+integers. (4.5)
+
+Let us introduce the algebraic sum V of the subspaces y®
+
+Vea Xv (algebraic sum)
+Fas
+
+it consists of finite linear combinations of elements of the yi .
+
+It is a standard result in the general representation theory
+of semi-simple Lie groups with a finite center that all the v"
+are finite dimensional when we decompose with respect to the maxi-
+mal compact subgroup [13] . Consequently, V is a vector space,
+Furthermore V is a common dense domain (of essential selfadjoint-
+ness) for all the generators X of Oe Thus there is associated
+with the UIR T of the group an irreducible representation of its
+Lie algebra by linear operators T(X) on the vector space V.
+Conversely, any representation of gy by skew ~hermitean operators
+on V can be integrated to a UIR of the group, and so infinitesi-
+mal equivalence implies unitary equivalence ( [1.3), theorem 4.5,5.3)
+
+We will take it for granted that all this remains true for the
+representations of our group @ which we wish to study here, even
+though G does not have finite center ™ , and the covering K of
+the maximal compact subgroup K/i" of G/r is no longer compact.
+he vector space V will be called the "space of K-finite vectors",
+We say that the UIR T of G possesses a lowest weight if the
+associated representation of its complexified Lie algebra qe
+on V possesses a lowest weight.
+
+Let d the lowest eigenvalue of T(H,)- Then there must
+occur among the weights »p in (4.4) at least one weight » of the
+
+*’% Note added in manuscript: A proof is given by
+M. Luscher in [22].
+=== PAGE 16.png (tesseract OCR) ===
+I+
+
+with some integers esq) 235 « There exists then in y> a common
+eigenvector (2 of T(H;), i= 0,1,2 , to eigenvalues d, ~j,» jos
+
+vize
+
+THI = AN , TCH, = “2 (k=4,2) (4.7)
+
+We claim that this is a lowest weight vector.
+
+We have to verify that T(X)Q = 0 for all Xér™ .
+Now 7 is spanned by Xe (k,@= £4), Xe x a
+Consider then the vector 7 (x7) OL . We have
+
+T (HIT OK OD = TULA x, IQ T(x TOO
+
+= (4-1) T(x)
+
+by C.R. (2.10). Since d is the lowest eigenvalue of T(H,) by
+hypothesis, it follows that P(X 22 = 0.
+
+Consider next W(X) 9) 2 » We find from the C.R. (2.10) as
+above that this is an eigenvector of T(H, ) to eigenvalue -j,-1.
+Since xP 3,0 eR , the vector (Ky 9) 2 will lie inv’ ,
+
+But since y> consists of copies of one and the same UIR of K
+with lowest weight A , the only possible eigenvalues of TCH, )
+are “dys “jit, eos Jy . Therefore “3 - 1 is not a possible
+eigenvalue, hence (XE) QO = 0. One shows in the same way
+
+fe)
+that TX) 22 = 0.
+
+We have proven part of the following
+
+Proposition. Let w a unitary irreducible representation of G
+
+with positive energy. Then T possesses a unique lowest weignt.
+Any two such representations with the same lowest weight are
+
+unitarily equivalent.
+
+Proof: Let Ths T., two representations of the Lie algebra Y
+on vector spaces Vi» Vos We call them (linearly) equivalent if
+
+there exists a bijective map between V) ana V> which commutes
+=== PAGE 17.png (tesseract OCR) ===
+with the action of g.°
+
+We know already that any UIR T of G with positive energy
+possesses a lowest weight. Consider the associated representation
+of the complex Lie algebra Y_ on the vector space V. A standard
+theorem ( [14] 4.4.5 Theorem) asserts the following: |The lowest
+weight of an irreducible representation of y, on V is unique if
+
+it exists. Let the lowest weight vector and {X, } iel...6 2% basis
+for ret, Then V is spanned by vectors of the form
+
+hs _ . MG
+
+T(x,) woe r(X,) OY » on, nonnegative integers. Finally, any two
+irreducible representations of Ye with the same lowest weight
+are linearly equivalent.
+
+[It follows from this also that the eigenspace y>
+
+of T(H,)
+to the lowest eigenvalue d carries an irreducible representation
+of 2.) |
+
+Uniqueness of the lowest weight is thereby proven. As for
+unitary equivalence it suffices to show that a g-invariant
+scalar product on V is unique if it exists, cp. the discussion
+after (4.5). By a g-invariant scalar product we mean a scalar
+product such that T(x) is skew-hermitean for X in the real
+Lie algebra x of G.
+
+Skew hermiticity of operators T(X) for Xeqy implies that
+
+since every element Z of Yc is of the form Z+2X+t¥; X,Yu oy: ‘
+
+Let 1x, $ the basis of rn‘ c gq, introduced before, and
+
+consider vectors in V of the form
+| - TX) TK ED
+Wimp OF AM aan (469).
+
+They span V. It may happen that Yj,) = O « The scalar
+product of two such vectors must then be of the form
+(4,10)
+=== PAGE 18.png (tesseract OCR) ===
+x. 7 _ ke .
+If X,¢ xt then 3X, fi ‘en: hence / (3% 3") = 0
+We may therefore use the C.R. of the Lie algebra (Sec.2) and
+hermiticity condition (3.8) to rewrite the left hand side of
+
+(3.10) as a sum of terms of the form
+Me My my my oy Wty ‘
+(Q, HoH THO) = ob TOG yp (82)
+
+To this end one need only switch all the operators T (8x"p')
+to the right and operators 7(X;) to the left until they ani-
+hilate © .
+
+In conclusion, there exists an algorithm for computing the
+scalar product of arbitrary vectors in V (= finite linear span
+of vectors of the form (4.9))if it exists. Therefore the scalar
+product is unique up to normalization and proposition 3 is proven.
+Moreover, a scalar product can only exist if the bilinear form
+computed by the above algorithm gives a positive semidefinite
+norm squared jit ii’ = (¥,¥) to all the vectors %
+of the form (4.10).
+
+5. Necessary conditions for unitarity
+
+Having established uniqueness, we now turn to the question
+of existence: What are the conditions on A= (dy-y, fi)
+that \ is lowest weight of some UIR of G. We know already that
+DY ~(d5 fief.) with Ag Af, nonnegative integers, 470 .
+(5.1)
+The last condition comes from the requirement (lemma 1) that
+T(H.)z 0 , which implies that the lowest eigenvalue d of (Hy)
+is nonnegative.
+We shall derive sharper inequalities on d. They come from the
+requirement stated at the end of the last section: The bilinear
+
+form computed by the algorithm of Sec. 4 must assign positive
+=== PAGE 19.png (tesseract OCR) ===
+V7
+
+semidefinite norm to vectors ¥ of the form (4.9).
+
+Let us introduce the vectors (in v> ) defined by
+(5-2)
+
+: (440) 1 a7
+
+2! (er, ) t 24,! (jem)!
+
+¢ (x,
+
+4
+
+| , ; “t Ht . tt
+
+mm,
+
+One knows from the theory of angular momentum that they are norma-
+
+lized if (Q,9)=1 as we assume. Moreover the generators of K
+
+act on them as follows:
+T (i IX mat, = dQ a, 5 T (Hy, Qe, = My Qin, (k= 4,2)
+
+i
+
+Lem jy tm) "ODhin ee, my (5.3)
+
+>,
+Co
+—
+~
+i
+
+ e. . ",
+T (Xe) Vinny * MGrELAIOR m+) | OD im, et
+
+We shall distinguish 3 types of lowest weights \ = (ts 4, fa)
+
+‘case 4, #C Ja #C : Consider the vectors
+j “bq aL
+di A4*4Gr dh ‘
+w = do C (beet 5M mm, )C ( Jar efit 5 My ~™, m, )
+MM, 1M mt
+
+—fyt 3
+2 .
+; (Xin ) Mem, fom
+
+Herein C are vector coupling coefficients in the notation of Rose lis].
+We remark that this vector transforms according to the represen-
+
+tation of K with the lowest weight (d+1 “fat y-fatk)
+
+Since TOK, JQ =e ,; the norm of this vector is
+
+4,7 dar pod gad
+(y botag ay" ards *y2e-2 x (Ca- coefficient)
+
+,
+MM, MoM Wy Hy ry
+
+‘ 4 robt (X min)
+(Qin! Mem (x, 7 Km Ovemytem)
+=== PAGE 20.png (tesseract OCR) ===
+We insert commutation relations (2.15) and evaluate the resulting
+matrix elements with (5.3). With the vector coupling coeflicients
+(B.1) of Appendix B we obtain the final result
+ped ped {. -4
+hz t eke dd . os
+(+ »¥, ) * d= 4,-4.7 2
+MM, MM,
+
+This must not be negative; we obtain therefore the condition
+
+dx y+ 4a%% if 4,70, J,#° (54a)
+nd ' ‘ .
+: : 2 . a h
+2 case f,#° > 1,29 We consider the vectors
+Wie
+
+' , +
+¥ = i C Gtried Mom, me) T (Xo) Oh 0°
+
+M,M, ,
+
+The norm squared ot these vectors is computed in the same way as
+
+above to be
+
+This must not be negatives we obtain therefore the condition
+
+dy 4,41 if f° 7H, = 9 , (5 .4b)
+
+3,79 case! j, = ° 14,#0 . This case is just like the 2. case,
+
+one finds the condition
+
+d % 4,4! “f 4,20 » Inf O° (She)
+
+= O « We consider the vector
+
++
+mm ) T (X em,» e co
+
+Pua 4°.
+
+We remark that it transforms according to the representation of K
+=== PAGE 21.png (tesseract OCR) ===
+with lowest weight (d+2$ 0, 0). The norm squared is computed in
+
+the same way as before. One finds
+(¥,v) = 8d (d-1)
+This must not be negative, we obtain therefore the condition
+d=0 ov dy if J, 71,79 (5.44)
+
+By uniqueness, the special case d=4,2 4,7 O corresponds to
+
+the trivial l-dimensional representation which is indeed unitary.
+Conditions (4.4) are necessary for the existence of a UIR of G
+
+with lowest weight d= (d, -tis-f, » We shall see below
+
+that they are also sufficient.
+=== PAGE 22.png (tesseract OCR) ===
+[y
+&
+
+6. Induced representations on Minkowski space .
+
+Let @ the universal covering group of G * SU(2,2). As we
+
+know, the center [ of G is reff with ms Z, eZ.
+
+It is well known that Minkowski space at = {y*} can be
+compactified in such a way that it becomes a homogeneous space for
+G, and therefore also for G. The conformal group of (compactified)
+Minkowski space is isomorphic to $0, (4,2)/2, = G/Zy, = G/r. It
+is compounded from the following subgroups
+
+M/f Lorentz transformations yl ny” » A€ SO, (3,1)
+A — dilatations yo —laty® , taty 0 (6.1)
+N special conformal transformations y" — oly y~t cyt ~ nly*),
+with n real, o(y)=s1l-2ny+ n°y*
+Xx translations yl) —» y" + x" ’ x" real
+
+The need for considering a compactified Minkowski space Me arises
+from the fact that special conformal transformations can take points
+to infinity.
+
+The little group in G/r of the point x0 consists of
+Lorentztransformations, dilations and special conformal trans-
+
+. \ ny
+formations. Thus M, *% (G /r.n,)/ (MAW/4, ) , or
+
+MY» G/MMAN . (6.2)
+This is meaningful since M A N is simply connected and therefore
+
+contained both in G and in G. Here and in the following we denote
+
+by M the quantum mechanical Lorentzgroup, it contains the factor
+
+[ of the center of G@. On the other hand M»Z has a
+
+generating element y, as we know ( Secs. 28,3)
+
+nm» { yi” (N= 0,44, f , Y= RexpixH, ; x exp 2th, . (6.3)
+
+We leave it to the reader to verify that the parametrization (2.21)
+~ 6.1)
+of G* G/f’ induces the transformation law,on cosets.
+=== PAGE 23.png (tesseract OCR) ===
+a
+
+Let us now turn to induced representations on Mt . To every
+d= (dj -4q57° 42) we associate a finitedimensional representation
+
+of nM AN by
+
+r imNe_ ia)
+D (yman) = laive D*"*(m) with ¢ s=d-2 , for ye ye . (6.4)
+
+Here D'* is the familiar spinor representation (4494,) of
+
+MxsL (2€), viz vd*(m)s p24 (a) for m of the form (2.21).
+
+It acts ona (24, + 1) (24, + 1 )-dimensional vector space B,
+
+We equip B with the natural scalar product ¢<,> which is such that
+
+p44 (m* ) = piel (m)" for méM as in (2.21) (6.4')
+
+Consider the space fy of all infinitely differentiable functions
+
+~e
+@ on G with values in ae which have the covariance property
+
+Y (qyman ) = jal D* (yman)' (9) (6.5)
+
+We make Ey into a representation space for é by imposing the trans-
+
+formation law
+(T(qd@)(q’) = & (g%q") (6.6)
+
+Since translations act transitively on the dense subspace
+
+Mt ¢ ut = G /iM AN, almost every element g of G may be
+
+decomposed uniquely in the form
+
+g = Xyman ; xeX , yman e 1, MAN (6.7)
+
+Therefore functions ~ in €&) are completely determined by
+their values on X.
+let x' and yman determined by x , g through the unique decom-
+position
+
+gx * x yman 9£ 4 5 x,x 6X5 yman ce MAN,
+
+(6.8)
+=== PAGE 24.png (tesseract OCR) ===
+lied
+nm
+
+The transformation law (66 ) becomes then by virtue of the covariance
+
+property (6-5)
+
+(F (gg) (x) = lal? D(yman)! G(x’) . (6.9)
+
+Note: translations x€X are in one to one correspondence with
+cosets x =X mM AN. Both may be parametrized by Minkowskian
+coordinates x", w = O...3.Functions may thus be considered as
+functions on Minkowski space {x} with values in the finite
+dimensional irreducible representation space oe of the q.m.
+Lorentz group M. We call them "finite component wave functions
+
+(or fields)". Eq. (6.9) is the typical transformation law for
+
+an induced representation on Minkowski space, induced by a finite
+dimensional nonunitary representation of the ( nonminimal parabolic)
+subgroup of stability ML, MAN. Eq. (6.8) says that x" is
+
+determined by xh by the usual action on cosets , x'=exeg°x ,
+
+which is explicitly given by (6.1).
+=== PAGE 25.png (tesseract OCR) ===
+A. intertwining operator
+
+As a prerequisite for writing down an invariant scalar product on Ey
+
+we shall first define a map (or operator)
+A Ey > F,
++ ~ ~> »
+
+where Fy is a space of generalized functions d on G with
+
+values in on having covariance property
+
+$ (gy man ) z 1ai* D* (ymany” $ (q) for ge » yman eG MAN (6.10)
+
+It is made into a representation space for G by imposing the
+
+transformation law
+(Thad) (9/9 = $(g"q’) (6.11)
+
+» . .
+The map Ay will be required to commute with the action of the
+
+group, viz.
+
+A Tig)p = Tig My fon in Ey (6.12)
+
+Because of this property, A is called an intertwining operator.
+The construction of Ay parallels to a large extent the construction
+of the intertwining operator for the Euclidian conformal group as
+described by Koller [17,see also 18].
+
+Consider the special element Ye of G introduced in Sec. 2.
+
+It has the following properties:
+R= ¢ ; RNR: &X , me's im eM for meM ,
+
+Rak" FY a1 for ae A . (6.13)
+
+Working with the parametrization (2.21) of M one has m = (m*.)7?,
+=== PAGE 26.png (tesseract OCR) ===
+24+
+
+therefore
+
+* (6.14)
+
+x
+We define the map A, by a géneralized Kunze Stein formula {19]
+
+$ (4) = AY (4) = n,(d) Vax Y (gx ) (6.15)
+- xX
+
+n is a normalization constant. Integration is over the subgroup
+of translations, with Haar measure dx = dx°.., ax’. One may ask
+under what conditions the integral makes sense (it may need regu-
+larization) . This is a difficult question which we postpone. For
+
+the moment we proceed formally.
+Let us verify that e has covariance property (6.10).
+
+@ (qyman ) = ny Jax’ @ (gymanrex’) = ny lax’ y (gRymalxx’)
+x
+
+with x=Rn Rr €X. We introduce new variables of integration
+
+~1 1 $ ax = tay? a x!
+
+x"siha xx' ai
+
+This gives
+
+P (gyman ) n, lar? Vex" (qirex"yima)
+en, laltiai* D (ymat) | (dx" @ (qRx”)
+= ny lal* D*(yman)* $19)
+
+Qe Ge d.
+
+In the second line we used covariance property (6.5) and in the
+third line we used (6.14) and the definition (6.4) of - py.
+=== PAGE 27.png (tesseract OCR) ===
+X
+Let us next express the map Ay in terms of the restriction of
+
+functions to X. We have
+
+h(x) = nO) { cl’ ep (x¥ex’)
+x
+
+tr
+Using the decomposition (6.7) we may define x , Yman as functions
+t
+
+of x by
+Rx! - x st ; S=zyYman ¢ 0, MAN (6.16)
+The jacobian of the transformation x -> x will be found below
+with the result (cp(20 b))
+"4
+a x’ = tal’ ax
+Thus
+(6.17)
+BN
+d(x) «2, Or) [ax op (xx (ymanyt) = nO) folx"a1*D (yan) @ (xx”)
+
+x
+
+t
+Let us reinterpret (16) as an equation which determines x , S = yMan
+it
+in terms of x , viz
+
+Rx = x" y man (6.180)
+Define the intertwining kernel Ay (x) by
+(6.186)
+AL(x"*) * lal” D* (yman) ynan depending on x through
+
+the unique decomposition (6,18a)
+Writing multiplication in X additively , viz. x - y in place
+
+of x yt , Eq.(6.17) becomes
+
+»
+d(x) = 7,09) Jy A, (x-y) Gly) (6.19)
+X
+=== PAGE 28.png (tesseract OCR) ===
+Since X may be parametrized by Minkowskian coordinates {x"} ,
+»
+the intertwining kernel A’. (x) May be considered as a matrix-
+
+valued function on Minkowski space vt,
+
+Our next object will be to derive an explicit expression for the
+
+kernel (6.18).
+
+To this end we must evaluate yman. Write y = yes ¥, the
+
+generating element of [ introduced before, viz. ¥, = Rexp ints -
+Let us first consider Eq. (18 a) modulo Pr’) ise. as an
+
+equation between elements in Gs G /r’. We write x in place
+
+u
+of x . Using parametrization (2.21) we have
+
+“4 ¢3 ™ +} -
+; NM pA-@ x An te x A\
+xX yman =t _ as _ ees Wy,
+
+tp lAn p A where AalA) ,¢7 lal
+
+and
+
+)
+1, =xyman (moa tt’) is found
+
+The solution of the equation 2
+by comparing both expressions. From comparison of the second column
+
+we have
+
+: wt Me
+
+~
+
+We take the determinand of the first
+
+equation and use det Azi{. This gives oe 2 N! otet xX -C But
+
+he
+
+Kx «det x = x x, x°, Inserting in the second equation gives the
+
+final result he -x iti? and
+
+Ww
+
+(-) = ~ Ayn x? (6.202)
+
+mx
+
+5
+
+- <I + =I apr
+p> = tale Ix*l* 3 A = L 1x" I
+
+Ix? fdx = tattadx (6.206)
+
+x 2 -X v3 KM a x, 1x" , ax
+
+It remains to determine y= ¥N « This is done by applying both
+sides of Eq. (6.18a) to the identity coset in H=G/MAN.
+
+The necessary computations will be done in Appendix C. The result is
+
+N . N (x) = O(x*) Aryn x° (@.2ba)
+=== PAGE 29.png (tesseract OCR) ===
+27
+
+Inserting this into formula (6.18 b) for the kernel we obtain
+
+-2- imc N” +4 :
+AY (-x) = ay Oy bey Maybe oem ish yt
+
+We extend the definition of the representation pitts of SL (2¢) + GL (2c) by
+
+2ya+24,
+
+Using Xx = X*X we obtain the final result (= 2+<)
+
+wd-4-
+A, (x) = Wy (A) (-x74iex? ) Woda ay dads (cx ) (6.22)
+
+The matrix elements of pha Xx) are monomials in the coordinates x,
+
+B. Scalar product
+
+For functions © in ey we introduce a sesquilinear form by
+d » ) (6,23)
+(GG) = Jokela, 6B (KY, ALO? A OG)?
+
+Herein <,> is the scalar product on the vector space oe intro~
+'
+duced with (6.4 ). We note that the sesquilinear form (6.23) is
+
+formally G ~ invariant:
+
+Let $, = A, Om . Because of the intertwining property (6.12) of a»
+
+(T (gg, ; T(4)@ ) = Jax, < (Tigry )ix,) , (Tg Vx,)>
+
+Let g xX, =xyman , whence dx, =a “fk dx. Then this is
+
+t
+
+(lolx £D*(ymany'Y (x), Diy man)" gh, x)» = (ode <g (xy, B07
+
+yt
+
+(9,58) qeeed.
+=== PAGE 30.png (tesseract OCR) ===
+23
+
+It remains to investigate the question under what conditions on By
+the candidate (6.23) for a scalar product is well-defined and positive
+
+semi-definite (for suitable choice of n,)) -
+
+Ideally, the scalar product (6.23) should be well defined and
+positive on all of the representation space éy » We shall be less
+ambitious for the start. Functions Yin &, are infinitely diffe-
+rentiable functions on G . It is therefore clear that their
+restriction y(x)to X defines functions on Minkowski space {x"}
+that are ™ differentiable in the coordinates x, That is not all,
+however. In addition (x) must admit certain asymptotic expansions
+when some or all x? -» 00 36, We will not write them down explicitly,
+but we note their existence. They come from the requirement that (3)
+are o differentiable also at those points g which map x" = 0
+
+into points of ut at infinity of Minkowski space M.
+
+Consider now the subspace ty of vector-valued Schwartz
+test-functions on X (or Mt) with values in E>. They can be extended
+by covariance equation (6.5) to « differentiable functions on ef
+which vanish with all their derivatives at points g in @ that
+map x" = 0 into points at infinity. Thus %, ¢ €, is a proper
+subspace of ¢) which is not G - invariant. Indeed it is
+clear that & is the smallest G - invariant space containing J, .
+
+%, is however invariant under the Poincar subgroup with dilations,
+and it is also invariant under the Lie algebra of of G@ which acts
+by differentiation with respect to g on functions (4) on G.
+
+Elements of ¥%, possess a Fourier transform (F.T.)
+
+Pip» = Sok e PX —m (6-24)
+with px = px”
+We see from (6.22) that the intertwining kernel is a distribution
+
+: / :
+in A, and possesses therefore also a Fourier transform.
+
+We are now going to determine it.
+=== PAGE 31.png (tesseract OCR) ===
+249
+
+>
+
+Let ? = (E, 0) and Users U (2) the qm. rotation group
+uc M, it leaves invariant . The generators of U in the (4,55,)
+J 2 (373973)
+
+into irreducible subspaces
+
+representation of M will be denoted by
+We may decompose the vector space E>
+
+with respect to U
+
+(6.28)
+JoF 12 A A
+sed
+— = Tr*¢* so that 3 Tr°e> = s(sei)TE
+* Yar 4a!
+rs . F . : :
+T are projection operators that project on the irreducible
+subspace of 5 which transforms according to the 28+¢i1- di-
+
+mensional representation of JU.
+
+TT e 7" qrirt « S,1r° (6.26)
+
+,
+
+For pin V, , the open forward light cone, define TT '(p) by (G27)
+2
+
+TS (Atm sp) : D'(m=4)* Ts pt (an!) for meM p= (E,0),
+
+For reasons of dilational and conentz-invariance , the Fourier
+
+transform of the intertwining kernel, will be of the form [y= (ol;- -Jy-da)
+
+as usual |
+
+gist te
+
+~"> , > .
+A’ tp) = fdxe PP AL) = P(d-gartee!) ans aa (ITT py (p?y, **
+eer
+-24+d -
+where py = O(p*) O( po) (p*) are for dyj+),+!
+(6.2%)
+(pry lith T° @) are polynomials in Pu ; Bp) is there~
+
+fore an integrable function for the indicated range of d. We will
+
+fix the normalization factor n,(\) in the intertwining kernel
+by imposing the
+
+normalization convention oF +i.” 7] (6.29a )
+4 2
+=== PAGE 32.png (tesseract OCR) ===
+30
+
+fhe c- number coefficienta , (\) will be determined in Appendix D,
+
+the result is
+
+(d= 44-42.°2) 0. (des -1)
+of (A) = ft $= . nae 14-44
+‘ (d+ jy4 jar2)- (dt s-1) Or SE WA the ty oh
+
+N= (db 5 4,075.) (6.296)
+
+The sesquilinear form (6.23) becomes now
+
+Mt fa tad
+Vv.
+
+$= Ny f,!
+
++ (6-30)
+The boosted projection operators Tl (p) are positive and the
+integral exists for d>j,+j,+! . Eq.(6.30) will therefore define
+
+a positive semi-definite scalar product for d in this range if all
+X&, (AY %O ', From the explicit expression (6..9) we see that
+
+this will be so in the following cases
+
+(%, P)z0 forall ges, if
+. (6.31)
+either j11# 0 14, #0 , Ay 4,+4,+2
+or f1= 0 and/or j,20 , A> j,4 jit!
+
+In the second case there is only one term in the sum over 8 in (6.30).
+
+It remains to investigate the limiting cases 12.20, of = 4a!
+
+and 44270, 2 G,4t-
+
+Suppose 1, =0 . Then Th! = 4 and
+ass Vs Ol, pw 44 2
+(poy 7 (p) = D' (pd) — Lee (p) as pwo (6.32)
+4
+through Vy
+Here TT is the covariantly normalized projection operator on the
+
+s
+
+—_
+unique eigenstate ( l-dim.subspace) in E° of the helicity Ip /Po
+
+to eigenvalue 4, . It is normalized according to
+=== PAGE 33.png (tesseract OCR) ===
+J
+THd (TY, (P) © 2p. Th. (P)
+
+To verify the first of Eqs.(6.32) take m of the form (2.21)
+
+~ \
+
+with Ac (B/¥e and use the fundamental formula (2.20) of spinor
+W“l~ = ee”
+
+calculus, viz. AY 1S 1. A(A)p » The second assertion of (6.32)
+
+is well known from the theory of massless particles [11].
+
+The second case Jz = O is analogous. To take the limit in
+(6.25) we use a standard formula for the $ ~function |16] and insert
+(6.32). The result is
+
+r js71 .
+Al (p) = (py TT *(pyS(p*) for d= (dy-Sq endo) (6.33a)
+de jy tdoeii Jj, 20 or jp 20
+The scalar product becomes then
+
+(¢ %,) “Sap 8 ¢p*) LG (p>), 17 nO (Pp) Blp»> 7 ° (6.33b)
+
+for d= jj,t+Jjo+l ’ J, =° or j,=0 °
+
+It is positive semidefinite since also TT) 6p) is a positive
+operator.
+=== PAGE 34.png (tesseract OCR) ===
+32
+
+C. Poincaré - content and irreducibility:
+
+Using the positive semidefinite scalar product (Y,, &, )
+int#oduced in the last subsection we can complete Nn to a Hilbert-=
+space Hy after dividing out zero norm vectors. The elements of XK,
+will be equivalence classes of functions, the equivalence relation
+will be denoted by ~ and will be explicitly given below.
+
+fo exhibit the Poincaré content of #, let us define to
+every P in the forward lightcone V, a boost Lip)e SL(2€)
+which takes ? z (Yp, 0) ; to p . Explicitly we may take
+
+Lip) = (p ip)? since then. Lip) p Lip)* = P (5.34)
+
+by the fundamental formula of spinor calculus (2.20) .
+fo every @Qé A we associate a Wigner wave function Y(p)
+
+with values in E* defined for peV, by
+
+ia) V6
+wip) = D*T(Lipr) Pip? (6.35)
+Let us introduce a basis ¢@,,, in E* which consists of ortho-
+-y
+normal simultaneous eigenvectors of J* ana 33 (7 » generators
+of the rotation group) to eigenvalues s(s+!) and m respectively.
+
+We may then expand
+
+dat te gm
+S={frial (6.35 )
+with complex functions Y sm » They transform under homogeneous
+
+Lorentz-transformations in the Wigner way,
+sin’ 5 . . an
+(T(my%) (py) = 2B Deargn (UE pyAL(AP)) 4°" (AP)
+. m
+
+*
+for m = (“ ° Jem AN 8 A(m)h, = 4 ty oMAo%A > pey . (6.36)
+o AT
+=== PAGE 35.png (tesseract OCR) ===
+33
+
+D° is the (2s+1)-dimensional representation of the q.m. rotation
+group SU(2). We leave it to the reader as an exercise to rederive
+
+(6.36) from the transformation law (6.9) with 7
+
+=meMmM
+fhe label 6 has the physical significance of Lorentz-invariant spin.
+We can reexpress the scalar product (6.30) in terms of the
+
+Wigner wave functions ‘Y (p) « Since rt Csm = 254 € sin we
+obtain for the norm
+
+Tha Ps
+(0,9) 2 (dejar te-t EQ) (ap py Z Ly cprl?
+
+Seljvh! Vy, (6.37)
+
+Gonsider first the case when d7j,+],+2 or J,J,79° ; ol> j,+4, 4)
+
+Then all o,(4) > 9 . Thus (¥,9) 20 if and only if
+all We" (p)0 for pev, . Translated back to wave
+functions 9” , this means that the Hilbert space HX, consists
+of equivalence classes of functions with equivalence relation ~
+
+as follows:
+Hy: ~~ 0 iff @ (p) = 0 for al€ peVv,
+
+provided d= (lp 4,7 te) wil, A> jyty,t 2 “ J1fa7 0,47 44h 4!
+
+If fiq,#O and d= 4,47, +2 then Xe L but &,=0 fo se jay
+are
+Thus (%,¢)=0 att WW * *lp) = 0 . Translated back
+
+this means that Hy consists of equivalence classes of functions
+
+as follows
+
+Hy. gro itt TT? !*(py pipy= 0 for all pe Vy
+
+in the case hd Oo, fr¥#0 ; de 4atgit!
+=== PAGE 36.png (tesseract OCR) ===
+3H
+
+Lastly consider the case d= Qttitt, fatge O - We see
+from (6.33) that #, consists of equivalence classes of functions
+
+. 44°1 ww
+Ho: Ero iff TW “(p) G(p) #0 for p'=0 , P,.0
+
+in the case 414.7 ° » d= 4,44, 4 |
+
+From Eq. (6.37) resp. (6.33) we can also read off the Poincaré
+content of the representation space Hy . The result is as
+
+indicated in Sec. l.
+
+Let us next turn to the question of irreducibility. If either
+jjJn 2 O OF d= jytint1 irreducibility of #) is obvious since
+the representation restricts to an irreducible representation of
+the Poincaré group with dilations. It remains to investigate the
+case A774, + 4,42 » Fir # O .
+
+We start from the infinitesimal form of the transformation
+law(6.9). We denote the conformal generators obtained from T(g)
+by xn, phy MY” , D as usual; while the generators in the finite
+dimensional representation pie) of the Lorentzgroup will be
+
+denoted by 54” - they act in the vector space E>,
+
+The infinitesimal form of the transformation law(6.9)
+
+reads then as follows ( %. «= Olax” )
+
+PH (xy = dM 5 MAY (xr sb (x4O"- xPdK- TL”) G(x)
+DG (x) = i (4-d + x,d" ) @ (x) (6.37')
+K* ¢ (x) © i ( [8-2 ]xM 4 2xK KO - XDA - dix, ZL" ) (x)
+
+In view of the general result of ('] it suffices to check validity
+at x" = 0 (identity in X), everything else follows then from
+
+covariance. We have from (6.9) and (6.4)
+
+(T(m)@) (0) . Diem) ~(o) tor mem (6.38)
+
+(Tarp) toy = bal *glor for acd jg (TIny)lo) = lo) for nen,
+=== PAGE 37.png (tesseract OCR) ===
+for Lorentztransformations m, dilatations a and special conformal
+transformations, respectively. The infinitesimal form of this
+is (6.37) with x = 0,
+
+‘Let us introduce matrices it, J”, u?) = cf : a, Nn, N’) = N
+
+ok
+
+t yk . '
+yf ¥ Fiyk x! , vk -Z (Aum ove" reporortec! Anos cor ) €i23 = ! y
+
+We wish to derive from (6.37') the action of infinitesimal special
+conformal transformations KF on Wigner wave functions Vv (p)
+
+It is defined in terms of the action (6.37) of K" by
+KA pl (Lepr) ¥(p) = DI (utp) KM % (Pp)
+
+we have
+(p = ex pp “10 , N = 1<- L P (sN)~ nee
+
+where P* (Pos P) » me Vp* , anh @ = [pit /m
+
+A straightforward computation leads from the Fouriertransform of
+
+(6.37) to
+
+A>
+
+Py (20) = [- 2 9°- 2p"d,0°+ pO + LM * hy (Pad) (6.39)
+
+4
+wv (prods {[- ad 3 - 2p, OS -2i (Fx d+ [ila-s)N - Ixw J] y(B-0).
+
+xy
+
+It suffices to have the transformation law at p= fe) since
+
+x" transforms as a 4 -vector, viz.
+
+A “4 a
+Tim) kK’ T(m) = Atm)" K” gor Lorentztransformations ™€M (6,40)
+
+And we know from Eq. (6.36) that Lorentztransformations do not
+
+make transitions between spin states. Neither do dilatations nor
+
+translations.
+=== PAGE 38.png (tesseract OCR) ===
+Ze
+
+t
+we insert the expansion in basis vectors (6.35 ) and make use
+~~
+of the explicitly known action of the generators J,N on
+mn
+basis vectors Cs of E (cp. Appendix A).
+
+As a result we obtain
+
+Koy (B20) = K'E Com VY (Bre) (6.41)
+
+$m 4
+. ¢ 1
+
+' rr. Ss -
+~ (aadasy(semat)*(semety® Coy © serym Fee PHO" (P29)
+
+where the dots stand for terms proportional to sm » and
+Cy = cot are the constants given by Eq. (4.1) of
+Appendix A.
+
+Zz
+We see that K? makes transitions between states with different
+
+s. The coefficients of  € 3-1, m1 and € sai. m do not
+vanish (identically in m) for d>j,+],+2 unless
+$e suns Myr fit resp. 3 = Smax * Jat dn
+
+Therefore there exists no invariant subspace and the representation
+
+is irreducible.
+=== PAGE 39.png (tesseract OCR) ===
+37
+
+D. Integrability _
+
+So far we have demonstrated existence and positivity of the
+scalar product (&,,4) only for Schwartz test functions ( an A:
+But unfortunately 4 is invariant only under the action of the
+Lie algebra gy of G but not under the group G itself
+(cp.Sec.6B). Therefore we are faced with the question whether our
+representation of the Lie algebra is integrable to a unitary
+representation of the group 6 . [xt follows then a posteriori
+that the scalar product is defined and positive for functions
+
+Y in &, , since &, is the smallest G-invariant space
+containing ¥). This problem is solved by the
+
+Lemma 3. Suppose the scalar product
+- = ~>d ~
+(9,g,) = (ary Jd*p <P (py, Ay (PY, (pr>
+
+exists and is positive for functions ( such that
+
+> =<?
+~ 3 —PoS + LP ® “> 2
+Y (p) = fds \a% € x (s,* ) for p % 9 Po? (6 2)
+sro
+x an infinitely differentiable function with values in 5
+and compact support contained in the half plane s>0 .
+Then the representation of of is integrable to a unitary
+
+~
+representation of G.
+
+This lemma is a corrolary of the theorem of Luscher and the author
+on analytic continuation of contractive Lie semigroup represen~
+tations (generalized Hille Yosida theorem) [3]. A proof of the
+
+lemma is implicit in Sec. 4 of ref. 7.
+
+Remark: In purely group theoretical language what is involved here
+is this: Functions of the form (6.42) with supp X in a given
+compact subset of the upper halfplane $>0 forma dense set of
+equi-analytic vectors for the hermitean generators of G.
+Integrability follows then from a classic result of Nelson's {13, 21).
+=== PAGE 40.png (tesseract OCR) ===
+3%
+
+It is evident from the explicit form (6.28), (6.53a) of the
+oe
+intertwining kernel A, that the hypothesis of the lemma is
+fullfilled. We have thus constructed unitary representations of the
+
+universal covering group G of su(2,2).
+
+E. Another realization:
+
+Let Fy the space of (generalized) functions of the form
+$x) = July Ar «x £
+yA Oy Ply) » YE LS
+
+éy is the function space introduced at the beginning of this
+
+section. 3 is a representation space for G. Since the F.T. A> tp)
+
+has support concentrated in V, , the closed forward lightcone,
+} (x) are boundary values of holomorphic functions in the
+
+field theoretic tube domain. In the limiting cases {,1,40,
+
+od ~ Jat, t+ and 441,°° » = j,+4,41 they satisfy
+
+in addition certain differentisl equations. For instance
+
+[TF + (4,-4,99° 1 (xy = 0 Jat 0 AF fat ht!
+
+Since > fixes uniquely the equivalence class of & in XH, ,
+the scalar product (6.23) makes KH into a Hilbertspace which
+carries the same unitary representation of G constructed before.
+In practical applications it : can bo useful to deal with
+the space rn of generalized functions instead of the spaces
+
+of equivalence classes of functions in ey . Ruhl 6 work deals
+
+with functions in ¥ °
+=== PAGE 41.png (tesseract OCR) ===
+39
+
+As our last task we should show that the VIR s of G in
+the Hilbertspaces Hy constructed so far have lowest weights » -
+If so, it follows by the uniqueness theorem of Sec. 4. that we
+have constructed all the inequivalent UIR| s of G with positive
+energy. We shall instead refer to Ruhl 8 work [5]. It follows
+from his results (and the remarks above) that all our represen-
+tations constructed so far are (linearly) equivalent to analytic
+representations that have explicitly known lowest weight vectors
+(viz.constant functions) with the right weight » -.
+
+We mention one last result without detailed proof.
+A UIR of a semi-simple Lie group G is said to belong to the
+discrete series if (and only if) its matrix elements are square
+integrable on the group. It is known that the discrete series
+is nonempty iff G has finite center and possesses a compact
+Cartan subgroup [13]. Quotient groups Gir” with rc r of
+our group G possess these properties if their center rie” is
+
+finite. This motivates the
+
+Definition: 4 unitary irreducible representation T of the
+semi-simple Lie group G with denumerable center F is said to
+
+belong to the interpolated discrete series iff
+
+\ dq [(w, Tir dot" < 09
+G/P
+
+for some nonzero vectors ab, in the representation space. (dg is
+Haar measure on the group Gir).
+
+We note that the definition is meaningful since the integrand
+is invariant under 9 ~ gy for g€ G ,yer (cp. Sece3)-
+It can therefore be considered as a function on Gir .
+
+The representations of @ constructed in this paper belong to
+the interpolated discrete series if and only if
+
+ol > j,44,+3 (enw)
+=== PAGE 42.png (tesseract OCR) ===
+tO
+
+Sketch of proof: There is a canonical way of reconstructing unitary
+
+irreducible representations as(irreducible parts of) induced
+
+wom
+representations on G/K. [ Here we may consider the space of
+
+functions fr (q) = (2, »T (9) ) , Malm? 5 Pe Sec.5].
+
+Representations with lowest weight give rise to analytic represen-
+tations in this way. Square integrability furnishes a scalar
+product on this function space. Rual has constructed the analytic
+representations on G/K and has found the condition (6.44) for the
+scalar product in question to converge [5]. Alternatively, result
+(6.44) may also be derived from Harish Chandra 's classification
+
+of all discrete series representations [e.g.13].
+
+Acknowledgement: The author is indebted to M, Iuischer for discussions.
+=== PAGE 43.png (tesseract OCR) ===
+ie
+
+Appendix A: Finitedimensional representations of SL(2C).
+
+> ay
+Let J and N the generators of rotations and Lorentz
+
+boosts respectively. They satisfy the usual commutation relations
+
+4 : . 2 ‘ 3
+[aot ]eig? fut ntje-id? [9', No} = iN and cyclic
+
+Write Je Hi | Ny = Nis in*
+
+_
+
+Finite dimensional representations of SL(2C) are labelled
+by (4sot2) § 2h Ate nonnegative integers. A basis in the
+
+representation space may be labelled by 5,m, with s(s+1) the
+
+>
+eigenvalue of ie ,» and m the eigenvalue of D3: Seiqgeqal'
+
+fatd, 9 ME ~Sive § in integer steps.
+According to Naimark[20| the action of the generators on the
+
+basis vectors ¢3,, is
+é
+
+",
+= . 3
+Uy sm = [L (szm)(stmer)) Ce nes 3; 9 Com = Mes
+
+and for the boosts
+
+"
+Neesm = +f (sem )(szm-1)] Cees, mart
+~[(sgmr(stmen) ] 7 Ase, mar
+
+1
+£ [ (stmerystmerd] * Csar &sar, mes
+
+vi
+Noes = [(s-my (stm) ]) * Coes y in
+
+vi;
+~maAcfsm 7 [ (stm) (s-mat)] ; Coes Ss41,
+
+ke
+
+s(sei) 2 OS
+
+(se ky(sticty \" (A.1)
+
+et
+s ust-4
+
+C= fstf,tt » Ke 4,-q, 9 $8 Ik}... c-4 in integer steps.
+=== PAGE 44.png (tesseract OCR) ===
+4a
+
+The sign of the square root in C. is a matter of phase conventions.
+
+It is costumary to have the generators v* , and therefore also
+
+C. , change sign when one interchanges C4454.) — (4.545) .
+> > ‘
+examples: (4,,4,) © (4,0): 3 z4e ,Na-45
+. ~~ — — * >
+(44912) = (0,4): Jets ) N=to
+=== PAGE 45.png (tesseract OCR) ===
+*3
+
+Appendix B: Clebsch Gordan coefficients for SU(2).
+
+The vector coupling coefficients C (i,,40 40-4 5 m-m,,m,) in
+the notation (and phase convention) of Rose are given by {15}
+
+1 emed |"
+=== PAGE 46.png (tesseract OCR) ===
+44
+
+Appendix C2
+
+The homogeneous space M = G/MAN
+Let MAN the nonmuumal
+
+parabolic subgroup of G
+consisting of Lorentztransformations meM ~ $L(2C)
+
+» dilations
+aca and special conformal transformations neéeWN
+
+MAN is simply connected and therefore also contained in G.
+Consider the Iwasawa decompositions
+
+Ge K Ay Nip and Ms uA, N.. with Aa AAs Nos NN (see Sec.2)
+It follows that the homogeneous space
+Ms G/MAN e K/u-= Rx 93
+
+“ar
+
+s? the unit sphere in R' « Thus M may be parametrized as
+Mx [(t,e) ,-m<t< 0 , gx (etre? a)
+Elements of K = RK,
+
+a unit 4-vector }
+and rotations of @é
+
+act on M
+
+as translations of t
+« In particular
+te Hy
+€& tT tT+e , EE
+ed : TT Emre
+The center Fen
+
+of G acts therefore on M as follows: P
+trivially, while f, consists of elements of the form y,”
+
+acts
+¥, = R ett Ho takes
+
+Ty U+te » Bat
+aad ~
+
+A domain F contained in M
+
+is called a fundamental domain
+(with respect to the discrete subgroup
+
+m ) ir
+
+Poa Fos
+ven? y cf
+
+for y#eur,
+=== PAGE 47.png (tesseract OCR) ===
+A fundamental domain F may be chosen as follows:
+
+re {(t,£)€M ~W<v< , eye ent }
+
+’
+It may be identified with Minkowski space nt through the repara=
+metrization
+
+° pun T i et
+
+x =o x =
+cor +es ) Cost + EF
+
+(i =123)
+
+translations x €X map F into itself. They translate coordinates x”,
+
+For further details see eq. Sec. 7 of ref. 3 o
+
+Consider now the equation encountered in Sec. 6A6.
+Poe | } ,. N nN
+Yoox = Xyman 5 x, m X , mane MAN , yxy et,
+
+We wish to determine N as a function of%,
+Apply both sides of the equation to the identity coset @ = (0,é)
+£ = (000,1) . Evidently, by what has been said above
+
+x yman é € yr
+
+Since we know that the integer N is a Lorentz-invariant, it suffices
+
+to consider 3 cases for the right hand side
+
+KMx <0 : take x° O then x€#(0,£) with £5<1
+therefore Rx ex (0,-é&) with ~er yet ze -t0.
+Thus ® xe €F whence N-*= 0
+
+KEx > 0 5 x25 0: take Xe, x°>0. Then xe s (TE) wth Ocrsr,
+therefore W-'xé = (t,~E) mh OCT KT <2n, Fe -(-é5)=4
+thu, Ro Rs €y,F utence Nod
+
+x“x SO x8 <0: Ia He Aame Way one finols =~ |
+
+}* )
+=== PAGE 48.png (tesseract OCR) ===
+%6
+
+Appendix D: Fouriertransform of the intertwining kernel.
+
+~
+Our task is to determine the intértwining kernel A, (p) in
+
+momentum space. We know already that it will be of the form (6.28).
+Consider
+
+a>
+
+} t ng 2st
+A, ap (Lapr)* BD (py D°™* (Lepr)
+
+(P) (p.1)
+
+-) “. $ ay2trd
+e P(deye jet) BAYT (py
+Instead of working out the Fourier transform of (6,22) it is easier
+to work out the coefficients o&, from the requirements of
+
+infinitesimal conformal invariance. In particular, we must have
+
+“374s ~ \ a
+KP AL (py ¥(p) = Ay lp) kK? ¥(p) (D2)
+sm
+for arbitrary Wigner wave functions ¥(p)* Ze, ,,¥ .
+
+A
+
+kK, is given by eq. (6.39) or (6.41), and K3’ is obtained
+
+from it by substituting d—- 4-ol and reversing the sign
+—_
+
+of boost-generators N . This is in accordance with the trans-
+
+formation law (6.10) of p © AP y € F which differs
+
+from (6.9) for peé,.
+
+The projection operators
+at
+T esm = 8 5 esim
+
+From Eq. (6.41) we find
+
+a
+
+A® (py Kw (Peo) =
+
+y
+went pty E x fog, (ads) [Cem se Cy eset ye
+T s,m
+~ X54) (3-des) Ks em eiy(semar TEC, © set, ms
+
+Foe byem j
+=== PAGE 49.png (tesseract OCR) ===
+uy?
+
+. “374% ~
+while k” A, (p) & (p= o)
+i
+sv (pty = 2M {- (ol-a-s )[(s-m)(stm)] 2 Cy eset mn
++ (d-1+s)[ (semasy(s-m39d] Co ees iy
+
+toe } ap om
+
+The dots stand in each case for terms proportional Cgm .
+C. are the constants { for the (Jo4q) representation | given in
+Appendix A. By comparison we find two identical conditions on &, ,
+viz.
+d-2-s
+Xs, = ——— Os
+d-2+5
+
+for $s V4sc 4,141 ae a
+
+This is a recursion relation whose solution is
+
+(o-2-4i- fader’ (d-s-1)
+(d-Re gt yer (d4s-t)
+
+xs * ay, 0 SEN eh the ww. 3)
+=== PAGE 50.png (tesseract OCR) ===
+1.
+
+Je
+
+6.
+
+Pe
+
+9.
+
+10.
+
+ll.
+
+12,
+
+8
+
+References
+
+Mack, G., Abdus Salam : Ann. Phys. (N.Y.) 53 , 174 (1969)
+Segal, I.: MIT preprint .
+
+Luscher, M., ack, G.: Commun. Math. Phys. 41 , 203 (1975)
+Gracy, liebe: Dokl. Acad. Nauk SSR 98, 517 (1954).
+
+Castell, L.: Nucl. Phys. B4 , 343 (1967).
+
+Yao, T.: Je Math. Phys. 8, 1931 (1967), 9, 1615 (1968).
+Sternheimer, D.: J. Math. Pure Appl. 47, 289 (1969)
+
+and references cited in 1.
+
+Ruhl, W.: Commun. Math Phys. 30 287341491973); The canonical dimension
+of fields as the limit of noncanonical dimensions, preprint
+Kaiserslautern (march 1973).
+
+Mack, G., Todorov, I.T.: J. Math. Phys, 10, 2078 (1969).
+
+Mack, G: in Lecture Notes in physics, vol. 37, p.66, H. Rollnik
+and K. Dietz (Ed.). Springer Verlag Heidelberg 1975.
+
+-: Convergence of operator product expansions on t i
+e : ; he vacuum in
+conformal invariant QFT (in preparation) and DESY-report 75/44,
+
+Dieudonné, I: Treatise on analysis, vol. III. Academic Press,
+
+New York 1972.
+
+Hermann, R., Lie groups for physicists. W.A. Benjamin,
+New York 1966, chap. 6,7.
+
+E. Wigner, Ann. Math. 40, 149 (1939);
+H. Joos, Fortschr. Physik 10 , 65 (1962);
+S. Weinberg, Phys. Rev. 133 , B 1318 (1964), 134, B 882 (1964).
+
+Kihlberg,A, Muller ,V.F., Halbwachs,F,.: Commun. Math. Phys. 3,
+194 (1966)
+=== PAGE 51.png (tesseract OCR) ===
+13.
+
+14,
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+el.
+
+ee.
+
+4
+
+Warner, G: Harmonic analysis on semi-simple Lie groups,
+
+vols,I,II. Springer Verlag Heidelberg 1972.
+
+Wallach, N.R.: Harmonic analysis on homogeneous spaces.
+
+Marcel Dekker, New York 1973.
+
+Rose, M.E.: Elementary theory of angular momentum. John Wiley,
+New York 1957, Appendix I.
+
+Gelfand, I.M., Shilov, G.E.: Generalized functions, vol.I.
+
+Academic press, New York.
+K. Koller, Commun. Math.Phys. 40, 15 (1975)
+
+Dobrev, V.K., Mack,G., Petkova,V.B., Petrova,S.G., Todorov,I.T.:
+Elementary representations and Intertwining operators for the
+
+generalized Lorentz group. IAS preprint, Princeton May 1975.
+
+Kunze,R., Stein,E.: Amer. J. Math. 82 , 1 (1960), 83; 723 (1961);
+
+89 , 385 (1967).
+Knapp, A., Stein, E.: Ann. of Math. 93, 489 (1971).
+Schiffmann, G.: Bull. Soc. Math. France 99, 3 (1971).
+
+Neumark, M.A. Lineare Darstellungen der Lorentzgruppe.
+VEB dt. Verlag der Wissenschaften, Berlin 1963. § 8, Satz 2, p.110.
+
+Nelson, E.: Analytic vectors, Ann. Math 70 , 572 (1959).
+
+M. Luscher, Analytic representations of simple Lie groups and
+
+' their continuation to contractive representations of holomorphic
+
+23.
+
+Lie semi-groups (DESY - preprint in press).
+
+S. Ferrara, Re Gatto, A, Grillo, Phys. Rev. D9, 3564 (1975);
+R.P, Zaikov, Bulg. J. Phys. II (1975) 2,

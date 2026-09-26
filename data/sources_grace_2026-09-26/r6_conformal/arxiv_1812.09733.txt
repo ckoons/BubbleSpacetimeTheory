@@ -1,0 +1,2727 @@
+                                                   INVERSION OF RANKIN–COHEN OPERATORS VIA
+                                                           HOLOGRAPHIC TRANSFORM
+
+                                                                TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+
+
+
+arXiv:1812.09733v2 [math.RT] 26 Dec 2019
+                                                 Abstract. The analysis of branching problems for restriction of representations
+                                                 brings the concept of symmetry breaking transform and holographic transform.
+                                                 Symmetry breaking operators decrease the number of variables in geometric mod-
+                                                 els, whereas holographic operators increase it. Various expansions in classical anal-
+                                                 ysis can be interpreted as particular occurrences of these transforms. From this
+                                                 perspective we investigate two remarkable families of differential operators: the
+                                                 Rankin–Cohen operators and the holomorphic Juhl conformally covariant opera-
+                                                 tors. Then we establish for the corresponding symmetry breaking transforms the
+                                                 Parseval–Plancherel type theorems and find explicit inversion formulæ with integral
+                                                 expression of holographic operators.
+                                                    The proof uses the F-method which provides a duality between symmetry break-
+                                                 ing operators in the holomorphic model and holographic operators in the L2 -model,
+                                                 leading us to deep links between special orthogonal polynomials and branching laws
+                                                 for infinite-dimensional representations of real reductive Lie groups.
+                                                 Keywords and phrases: Symmetry breaking, holographic transform, Rankin–Cohen
+                                                 operators, Juhl operators, orthogonal polynomials, branching rules, F-method.
+
+
+
+
+                                                                                    Contents
+                                             1. Introduction                                                                              1
+                                             2. Rankin–Cohen transform and its holographic transform                                      6
+                                             3. Holomorphic Juhl transform and its holographic transform                                 30
+                                             4. Perspectives of symmetry breaking and holographic transforms                             46
+                                             5. Appendix: Jacobi polynomials and Gegenbauer polynomials                                  51
+                                             References                                                                                  52
+
+
+
+                                                                                1. Introduction
+                                             Let π be an irreducible representation of a group G on a vector space V , and G′
+                                           a subgroup. The G-module (π, V ) may be seen as a G′ -module by restriction, for
+                                             2010 MSC . Primary 22E45; Secondary 22E46, 32M15, 33C45, 33C80, 43A85.
+                                                                                          1
+2                     TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+which we write π|G′ . For an irreducible representation (ρ, W ) of the subgroup G′ , a
+symmetry breaking operator is a (continuous) linear map V → W which intertwines
+π|G′ and ρ. In recent years individual symmetry breaking operators have been studied
+intensively in different settings ranging from automorphic form theory to conformal
+geometry, see [2, 3, 6, 9, 16, 19, 20, 25] and references therein.
+   In this article, we investigate a collection of symmetry breaking operators,
+
+                                    Rℓ : V −→ Wℓ , ℓ ∈ Λ,
+
+referred to as a symmetry breaking transform, for a family of irreducible representa-
+tions ρℓ of the subgroup G′ on vector spaces Wℓ with parameter ℓ ∈ Λ.
+   Various expansions in classical analysis can be interpreted through this paradigm:
+
+Example 1.1 (GLn ↓ GLn−1 ). Arranging homogeneous polynomials of x = (x1 , · · · , xn )
+in descending order with respect to the power of xn is an example of symmetry break-
+ing transform for (G, G′ ) = (GLn , GLn−1 ). In fact, taking the ℓ-th component in the
+expansion
+                             k
+                             X
+                   f (x) =         fℓ (x′ )xnk−ℓ ,   for x′ = (x1 , · · · , xn−1 )
+                             ℓ=0
+
+defines a G′ -homomorphism from V := Polk [x] to Wℓ := Polℓ [x′ ] on which G and G′ ,
+respectively, act irreducibly.
+
+   Traditional representation-theoretic viewpoint tells that the Fourier series expan-
+sion or Fourier transform is the irreducible decomposition of the regular representa-
+tion of the abelian group G′ = S 1 or R, whereas we make use of a hidden symmetry
+of the noncommutative group G = SL(2, R) in the sense that G contains G′ as a
+subgroup and that G acts on the space of functions on S 1 or R. The latter viewpoint
+brings us a new interpretation of the (classical) Fourier series or Fourier transform
+in the framework of “symmetry breaking” as follows.
+
+Example 1.2. A spherical principal series representation πλ of G = SL(2, R) is
+realized on the vector space of homogeneous functions
+             
+       Vλ := f ∈ C ∞ (R2 \ {(0, 0)}) : f (ax, ay) = |a|λ f (x, y) for all a ∈ R× .
+
+This representation is irreducible for all λ ∈ C \ Z.
+• (Fourier series) The representation πλ of SL(2, R) can be realized in C ∞ (S 1 ) via
+                      ∼
+the identification Vλ → C ∞ (S 1 ), f (x, y) 7→ h(θ) := f (cos θ, sin θ), because any ho-
+mogeneous function is determined by its restriction to the unit circle S 1 . Since S 1 is
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                    3
+
+preserved by the subgroup G′ := SO(2), the collection of the Fourier coefficients
+                           ∼
+                       Vλ −→ C ∞ (S 1 ) −→ Map(Z, C),
+                                           Z 2π
+                                         1
+                   f 7→ h 7→ b h(ℓ) :=          h(θ)e−iℓθ dθ, ℓ ∈ Z
+                                        2π 0
+gives a symmetry breaking transform from the infinite-dimensional representation
+(πλ , Vλ) of G = SL(2, R) to the collection of one-dimensional representations χℓ of
+the abelian subgroup G′ = SO(2) ≃ S 1 indexed by ℓ ∈ Z.
+• (Fourier transform) Similarly, any function f (x, y) ∈ Vλ is determined by its
+restriction
+         to  the real line
+                          y = 1, which is preserved by the unipotent subgroup
+            1 ξ
+G′′ :=            : ξ ∈ R (≃ R). Thus the Fourier transform
+            0 1
+                                                     Z
+                   1
+                 L (R) −→ C(R), F 7→ (F F )(ξ) :=         F (x)e−ixξ dx,
+                                                          R
+induces another symmetry breaking transform for the pair (G, G′′ ) = (SL(2, R), R).
+
+Example 1.3 (spherical harmonics). Expansion of functions on S n by eigenfunctions
+of the Laplacian ∆S n corresponds to a symmetry breaking transform from a spherical
+principal series representation π of G = SO(n + 1, 1) to a collection of irreducible
+finite-dimensional representations of the compact subgroup G′ = O(n + 1).
+   Reversing the arrows in the definition of a symmetry breaking operator Rℓ : V →
+Wℓ , we consider a G′ -homomorphism Ψℓ : Wℓ → V , going from smaller to larger
+representation space, and thus referred to as a holographic operator. As in the case
+of symmetry breaking, the collection of holographic operators {Ψℓ } is said to be a
+holographic transform.
+                                         Rℓ
+                               Gy V o         /
+                                                  Wℓ x G′ .
+                                         Ψℓ
+
+To illustrate a holographic transform by an example with both V and Wℓ being
+infinite-dimensional, we recall that the classical Poisson integral (see e.g. [10, Sec.
+0])
+             Pν : Cc (R) −→ C ∞ (Π)
+                                                  Z ∞
+                                                             yν
+                   h(t)   7→   (Pν h)(x, y) =                 2   2 ν
+                                                                      h(t)dt
+                                                   −∞ ((x − t) + y )
+                                                                                2          
+                                                                                ∂      ∂2
+constructs eigenfunctions of the Laplace–Beltrami differential operator ∆ = y 2 ∂x 2 + ∂y 2
+
+for the eigenvalue ν(ν − 2) on the upper-half plane Π endowed with Poincaré met-
+ric. The group SL(2, R) acts isometrically on Π and conformally on its boundary.
+4                      TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+Traditionally, the Poisson integral was treated in the context of representations of
+SL(2, R), however, we highlight the fact that the totality of functions on Π admits a
+larger symmetry because the group SL(2, C) acts on the conformal compactification
+of Π. Thus the Poisson integral can be interpreted as a particular occurrence of a
+holographic operator for the pair (G, G′ ) = (SL(2, C), SL(2, R)) as below.
+Example 1.4 (Poisson integral). A generic symmetry breaking operator Aλ,ν from
+the spherical principal series representation πλ of G = SL(2, C) on C ∞ (S 2 ) to the
+one ̟ν of the subgroup G′ = SL(2, R) on C ∞ (S 1 ) takes the following form (see [20,
+(7.2)]):
+            Aλ,ν : Cc∞ (R2 ) −→ C ∞ (R),
+                                                      Z
+                   f (x, y)    7→    (Aλ,ν f )(x) =        f (t, y)Kλ,ν (x − t, y)dtdy
+                                                      R2
+in the flat coordinates where Kλ,ν is a distributional kernel given by
+(1.1)                         Kλ,ν (x, y) = (x2 + y 2)−ν |y|λ+ν−2.
+Then the dual map of Aλ,ν yields a holographic operator Ψλ,ν with the formula
+                                            Z
+                 g(t) 7→ (Ψλ,ν g) (x, y) :=   g(t)Kλ,ν (x − t, y)dt.
+                                                  R
+Thus the (classical) Poisson integral Pν can be viewed as the restriction of the holo-
+graphic operator Ψλ,ν with λ = 2, namely, defn Pν = RestΠ ◦ Ψ2,ν .
+  With these interpretations of classical examples in mind, we raise the following
+two general problems for a symmetry breaking transform R(v) = {Rℓ (v)}ℓ∈Λ , where
+Rℓ : V −→ Wℓ (ℓ ∈ Λ), are symmetry breaking operators:
+Problem A. Can we recover an element v of V from its symmetry breaking trans-
+form R(v) = {Rℓ (v)}ℓ∈Λ ?
+  Problem A includes the following subproblems:
+ A.0. Tell a priori if Λ is sufficiently large for R to be injective.
+ A.1. Construct a “holographic transform”.
+ A.2. Find an explicit inversion of the symmetry breaking transform R.
+  When V is a Hilbert space on which G acts unitarily, we also ask for a Parseval–
+Plancherel type theorem for the symmetry breaking transform:
+Problem B. Find a closed formula for the norm of an element v in V in terms of
+its symmetry breaking transform {Rℓ (v)}ℓ∈Λ .
+    In this article, we investigate Problems A and B in the following two cases:
+       • Rankin–Cohen transform (Section 2);
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                    5
+
+      • Holomorphic Juhl transform (Section 3).
+In both cases, the transform is a collection of holomorphic differential operators
+between complex manifolds: the first case is associated with the family of the Rankin–
+Cohen operators that appeared in the theory of holomorphic modular forms [3],
+whereas the second case originated from Juhl’s conformally covariant operators [9].
+  These transforms can be analyzed in the framework of infinite dimensional rep-
+resentations of Lie groups, namely, the decomposition of the tensor product of two
+holomorphic discrete series representations of SL(2, R) in the first case, and the
+branching laws of holomorphic discrete series representations of the conformal Lie
+group G = SOo(2, n) when restricted to a subgroup G′ = SOo (2, n−1), in the second
+case.
+  The main goal here is to give a solution to Problems A and B for the above two
+transforms. We provide two types of integral expressions as a solution to Problem
+A1, see Theorems 2.2 and 3.10. The main results are summarized as below.
+
+                G ⊃ G′           SL2 × SL2 ⊃ SL2 SOo (2, n) ⊃ SOo (2, n − 1)
+
+              Problem A1
+             construction of       Theorem 2.2            Theorem 3.10
+         holographic transform
+              Problem A2
+         inversion of symmetry     Theorem 2.5            Theorem 3.2
+           breaking transform
+               Problem B
+              L2 -theory for       Theorem 2.7            Theorem 3.2
+
+
+
+   The key idea of our approach is to introduce “special orthogonal polynomials”
+{Pℓ } associated to symmetry breaking operators. This can be done via the F-
+method, which we developed in [18, 19], that analyzes the representations through
+the Fourier transform of their geometric realizations. In this article, we show for the
+Rankin–Cohen bidifferential operators {Rℓ } that the polynomials {Pℓ } are the Jacobi
+polynomials and that the holographic operators are given by the Jacobi transforms
+along the transversal direction to a codimension-one foliation of the symmetric cone
+(Section 2); for the holomorphic Juhl operators {Rℓ }, the holographic operators are
+associated to the Gegenbauer polynomials {Pℓ } (Section 3). Thus Problems A and B
+for symmetry breaking transforms can be studied as questions on special orthogonal
+polynomials via the F-method.
+   The table below shows some new links which the F-method provides between
+representations and special functions in this setting.
+6                     TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+       Symmetry breaking operators {Rℓ }    Special orthogonal polynomials {Pℓ }
+
+
+            G′ -intertwining property       hypergeometric differential equations
+
+
+              operator norm of Rℓ                      L2 -norm of Pℓ
+
+
+               branching law π|G′                 L2 -completeness of {Pℓ }
+
+
+        holographic transform (L2 -model)   integral transform associated to {Pℓ }
+
+
+   Analogously to the classical Poisson transform (Example 1.4), the holographic
+transform provides an integral expression of eigenfunctions of certain holomorphic
+differential operator. We illustrate this idea with the example of the Rankin–Cohen
+operators, see Theorem 2.30 which is proved as a byproduct of the main results.
+   In Section 4 we discuss the background of Problems A and B from a viewpoint of
+the representation theory of real reductive Lie groups.
+                                        √
+   Notation: N = {0, 1, 2, · · · }, i = −1 (imaginary unit), (x)k = x(x + 1)(x +
+2) · · · (x + k − 1) for k ∈ N (Pochhammer symbol), and [x] is the largest integer that
+does not exceed x ∈ R.
+
+   Acknowledgments. The first author was partially supported by the JSPS under
+the Grant-in-Aid for Scientific Research (A) (JP18H03669). Both authors were par-
+tially supported by the CNRS grant PICS-7270 and they are grateful to Institut
+des Hautes Études Scientifiques (Bures-sur-Yvette, France), Institut Henri Poincaré
+(Paris, France) and Centre International de Rencontres Mathématiques (Luminy,
+France) where an important part of this work was done.
+      2. Rankin–Cohen transform and its holographic transform
+  The Rankin–Cohen bidifferential operators map functions of two variables to those
+of one variable, respecting twisted actions of SL(2, R). In this section, we solve
+Problems A and B stated in Section 1 for the Rankin–Cohen transform (Definition
+2.4), a collection of such operators.
+2.1. Rankin–Cohen bidifferential operators. We begin with a quick review of
+the Rankin–Cohen bidifferential operators.
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                      7
+
+2.1.1. Holomorphic discrete series representations of SL(2, R)e. Let Π = {z = x +
+iy ∈ C : x ∈ R, y > 0} be the upper half-plane, and O(Π) the space of holomorphic
+functions on Π. For λ ∈ Z we define a representation πλ of SL(2, R) on O(Π) by
+                                                                   
+                                 −λ   az + b            −1       a b
+           πλ (g)f (z) = (cz + d) f                for g =              .
+                                      cz + d                     c d
+
+Viewed as a representation of the universal covering group SL(2, R)e, the represen-
+tation πλ is well-defined for all λ ∈ C. There is a canonical perfect pairing between
+(πλ , O(Π)) and the Verma module
+
+                               M−λ := U(gC ) ⊗U (b) C−λ ,
+
+where U(gC ) denotes the universal enveloping algebra of gC = sl(2, C) and b is a
+Borel subalgebra containing kC = so(2, C). Therefore, (πλ , O(Π)) is irreducible if
+and only if λ ∈ C \ (−N) because the g-module Mν is reducible if and only if ν ∈ N.
+  Let p : SL(2, R)e→ SL(2, R) be the covering homomorphism, and set SO(2)e=
+ −1
+p (SO(2)). For every λ ∈ C, we can form a homogeneous holomorphic line bundle
+Lλ over Π ≃ SL(2, R)e/SO(2)e associated to a character Cλ of SO(2)e, and the
+multiplier representation (πλ , O(Π)) is equivalent to the natural action of SL(2, R)e
+on the space O(Π, Lλ ) of holomorphic sections of Lλ .
+
+2.1.2. Holomorphic model H2 (Π)λ . For λ > 1 the weighted Bergman space H2 (Π)λ :=
+(O ∩ L2 )(Π, y λ−2 dxdy) is nonzero, and the Hilbert space H2 (Π)λ admits a repro-
+                                         
+                                     z−w̄ −λ
+ducing kernel Kλ (z, w) = λ−1    4π   2i
+                                             , see [5, Prop. XIII.1.2]. The representa-
+tion (πλ , O(Π)) yields an irreducible unitary representation of SL(2, R)e on H2 (Π)λ ,
+which descends to SL(2, R) when λ ∈ Z. The set of equivalence classes of irreducible
+unitary representations (unitary dual ) of SL(2, R) contains a family of those with
+continuous parameter (e.g. principal series representations, complementary series
+representations), whereas πλ (λ = 2, 3, · · · ) form a countable family of irreducible
+unitary representations realized in the kernel of the Cauchy–Riemann operator. Thus
+πλ (λ = 2, 3, · · · ) is referred to as a holomorphic discrete series representations of
+SL(2, R), and πλ (λ > 1) as a relative holomorphic discrete series representation of
+the covering group SL(2, R)e. We call the realization on H2 (Π)λ holomorphic model
+of the representation πλ . Similarly, the direct product group SL(2, R)e× SL(2, R)e
+acts on H2 (Π×Π)(λ′ ,λ′′ ) ≃ H2 (Π)λ′ b⊗H2 (Π)λ′′ as an irreducible unitary representation
+if λ′ , λ′′ > 1, where b⊗ stands for the completion of the algebraic tensor product.
+   We shall deal with another realization (L2 -model) of the same representation πλ
+in Section 2.6.2.
+8                          TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+2.1.3. Rankin–Cohen bidifferential operators.
+  Consider λ′ , λ′′ , λ′′′ ∈ C such that ℓ := 12 (λ′′′ − λ′ − λ′′ ) ∈ N and define a differential
+            ′′′
+operator Rλλ′ ,λ′′ : O(Π × Π) −→ O(Π × Π) by
+                                        Xℓ
+              ′′′                                  (λ′ + ℓ − j)j (λ′′ + j)ℓ−j ∂ ℓ f
+(2.1)      Rλλ′ ,λ′′ (f )(ζ1 , ζ2) :=       (−1) j
+                                                                                         (ζ1 , ζ2 ).
+                                        j=0
+                                                           j!(ℓ − j)!        ∂ζ1ℓ−j ∂ζ2j
+    The Rankin–Cohen bidifferential operator is a linear map
+                                          ′′′
+                                  RC λλ′ ,λ′′ : O(Π × Π) −→ O(Π),
+                   ′′′                            ′′′
+defined by RC λλ′ ,λ′′ := Rest ◦ Rλλ′ ,λ′′ , where Rest stands for the restriction map
+f (ζ1 , ζ2) 7→ f (ζ, ζ) to the diagonal.
+                                                      ′′′
+   The Rankin–Cohen bidifferential operator RC λλ′ ,λ′′ is a symmetry breaking operator
+from the tensor product representation πλ′ b    ⊗πλ′′ to πλ′′′ with respect to the diago-
+nal embedding SL(2, R)e֒→ SL(2, R)e× SL(2, R)e, and such a symmetry breaking
+operator is unique up to scalar multiplication for generic parameters (see [19, Cor.
+                                                  ′′′
+9.3] for the precise condition). Moreover, RC λλ′ ,λ′′ induces a continuous map from the
+weighted Bergman space H2 (Π × Π)(λ′ ,λ′′ ) to H2 (Π)λ′′′ if λ′ , λ′′ > 1 ([18, Thm. 5.13],
+see also Proposition 2.27 below for an explicit formula of its operator norm).
+
+2.2. Notations and two constants cℓ (λ′ , λ′′ ) and rℓ (λ′ , λ′′ ). The parameter set
+in Section 2 is (λ′ , λ′′ , λ′′′ ) ∈ C3 with λ′′′ − λ′ − λ′′ ∈ 2N. Throughout this section,
+we use the following notation:
+(2.2)                    α = λ′ − 1,            β = λ′′ − 1,   2ℓ = λ′′′ − λ′ − λ′′ .
+The main results involve the following two constants
+                                           Z 1
+                                    1
+                    ′    ′′
+           c ≡ cℓ (λ , λ ) := α+β+1            |Pℓα,β (v)|2(1 − v)α (1 + v)β dv
+                                 2          −1
+                                              Γ(λ′ + ℓ)Γ(λ′′ + ℓ)
+(2.3)                          =                                             ,
+                                 (λ′ + λ′′ + 2ℓ − 1)Γ(λ′ + λ′′ + ℓ − 1)ℓ!
+                                   b(λ′′′ )
+           r ≡ rℓ (λ′ , λ′′ ) :=
+                                 b(λ′ )b(λ′′ )
+                                    Γ(λ′ + λ′′ + 2ℓ − 1)
+(2.4)                          =                               ,
+                                 22ℓ+2 πΓ(λ′ − 1)Γ(λ′′ − 1)
+where Pℓα,β (v) is the Jacobi polynomial (see (5.4) in Appendix), and b(λ) = 22−λ πΓ(λ−
+1) is a Plancherel density (see Fact 2.9 below). We note that cℓ (λ′ , λ′′ ) 6= 0 if
+Re λ′ , Re λ′′ > 0 and ℓ ∈ N.
+        INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                       9
+
+2.3. Integral formula for holographic operators.
+                                                       ′′′
+  In this section, we introduce integral transforms Ψλλ′ ,λ′′ (holographic operator) that
+realize irreducible summands in the tensor product representations πλ′ b    ⊗πλ′′ .
+2.3.1. Construction of holographic operators for the tensor product.
+Definition 2.1 (holographic operators). For λ′ , λ′′ , λ′′′ ∈ C we set ℓ := 21 (λ′′′ − λ′ −
+λ′′ ). Assume that
+(2.5)              Re(λ′ + ℓ) > 0,     Re(λ′′ + ℓ) > 0,     and ℓ ∈ N.
+For a holomorphic function g on the upper half plane Π, we define a holomorphic
+function on Π × Π by the line integral:
+             ′′′                         (ζ1 − ζ2 )ℓ
+(2.6)        Ψλλ′ ,λ′′ g (ζ1 , ζ2 ) := λ′ +λ′′ +2ℓ−1 ×
+                                         2           ℓ!
+            Z 1 
+                       (ζ2 − ζ1 )v + (ζ1 + ζ2 )               ′             ′′
+                g                                     (1 − v)λ +ℓ−1 (1 + v)λ +ℓ−1 dv.
+             −1                     2
+                           n                                    o
+                             (ζ2 −ζ1 )v+(ζ1 +ζ2 )
+  We note that the set                 2
+                                                  : −1 ≤ v ≤ 1 is the line segment connecting
+the two points ζ1 and ζ2 in Π.
+                                ′′′                                 ′′′
+2.3.2. Basic properties of Ψλλ′ ,λ′′ . The integral transform Ψλλ′ ,λ′′ in (2.6) provides a
+holographic operator in the following sense:
+Theorem 2.2 (holographic operator in the upper half plane). Suppose λ′ , λ′′ , λ′′′ ∈ C
+satisfy (2.5).
+                       ′′′
+    (1) The map Ψλλ′ ,λ′′ : O(Π) −→ O(Π × Π) intertwines the action of SL(2, R)e
+        from πλ′′′ to the tensor product representation πλ′ b
+                                                           ⊗πλ′′ .
+                               ′      ′′
+    (2) Moreover, if both λ and λ are real and greater than 1, then the linear
+               ′′′
+        map Ψλλ′ ,λ′′ induces an isometric embedding (up to rescaling) of the weighted
+        Bergman space:
+                             H2 (Π)λ′′′ −→ H2 (Π × Π)(λ′ ,λ′′ ) .
+                                                    ′′′
+   The image of the holographic operator Ψλλ′ ,λ′′ is characterized by a differential
+equation of second order on Π × Π associated to the Casimir element under the diag-
+                                                                 ′′′
+onal action, see Theorem 2.30. For λ′ , λ′′ > 1, the operator Ψλλ′ ,λ′′ is a scalar multiple
+                    ′′′
+                          ∗                                                        ′′′
+of the adjoint RC λλ′ ,λ′′ of the Rankin–Cohen bidifferential operator RC λλ′ ,λ′′ (see
+Proposition 2.22), and its operator norm is given in Theorem 2.7 (2).
+   Theorem 2.2 will be proved in Section 2.7.6.
+Remark 2.3. In Section 3, we introduce relative reproducing kernels to construct irre-
+ducible summands in the holomorphic model. The integral formula given there (see
+10                      TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+Theorem 3.10) is different from the one introduced in Definition 2.1. The advantage
+                                                            ′′′
+of the definition (2.6) is that the holographic operator Ψλλ′ ,λ′′ is defined also for the
+nonunitary case, see Theorem 2.2 (1).
+2.4. The Rankin–Cohen transform and its inversion. In this section we intro-
+duce the Rankin–Cohen transform RC λ′ ,λ′′ as the collection of individual operators
+     ′′′
+RC λλ′ ,λ′′ for fixed λ′ and λ′′ . Its inversion formula is proved in Theorem 2.5 by using
+the holographic operators, giving a solution to Problem A in Section 1.
+Definition 2.4 (Rankin–Cohen transform). For λ′ , λ′′ ∈ C, the Rankin–Cohen trans-
+form RC λ′ ,λ′′ is a linear map
+(2.7)       RC λ′ ,λ′′ : O(Π × Π) −→ Map(N, O(Π)),             f 7→ (ℓ 7→ RC λ′ ,λ′′ (f )ℓ )
+                                      λ′ +λ′′ +2ℓ
+defined by (RC λ′ ,λ′′ (f ))ℓ := RC   λ′ ,λ′′       f   for ℓ ∈ N.
+   The Rankin–Cohen transform RC λ′ ,λ′′ intertwines (πλ′ ⊗π b λ′′ , O(Π × Π)) with the
+                      L
+formal direct sum c ℓ∈N (πλ′ +λ′′ +2ℓ , O(Π)), and can be inverted by using the integral
+             ′′′
+operators Ψλλ′ ,λ′′ as follows.
+Theorem 2.5 (inversion of the Rankin–Cohen transform). Suppose λ′ , λ′′ > 1. Then
+                     b 2 (Π)λ′′ one has
+for any f ∈ H2 (Π)λ′ ⊗H
+                          X∞
+                                   1         ′     ′′ +2ℓ
+                     f=            ′   ′′
+                                          Ψλλ′ +λ
+                                               ,λ′′       (RC λ′ ,λ′′ (f ))ℓ .
+                          ℓ=0
+                              cℓ (λ , λ )
+     Theorem 2.5 will be proved in Section 2.8.6.
+2.5. Parseval–Plancherel type theorem for the Rankin–Cohen transform
+and its holographic transform. In this section we develop an L2 -theory for the
+Rankin–Cohen transform (Definition 2.4) and for the holographic transform (Theo-
+rem 2.7 (2)), thus providing an answer to Problem B for these two transforms.
+2.5.1. Weighted Hilbert sums. In order to formulate the Parseval–Plancherel type
+theorem, we fix some notations for the Hilbert direct sum.
+Definition 2.6 (weighted Hilbert sum). Let{Vℓ }ℓ∈N be a family of Hilbert spaces
+                                                                  X⊕
+and {aℓ }ℓ∈N a sequence of positive numbers. The Hilbert sum            Vℓ associated
+                                                                   ℓ∈N         M
+to the weights {aℓ }ℓ∈N is the Hilbert completion of the algebraic direct sum      Vℓ
+                                                                                               ℓ∈N
+equipped with the pre-Hilbert structure given by
+                       ∞
+                       X
+                 ′
+            (v, v ) :=   aℓ (vℓ , vℓ′ )Vℓ for v = (vℓ )ℓ∈N and v ′ = (vℓ′ )ℓ∈N .
+                         ℓ=0
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                                                11
+
+2.5.2. Parseval–Plancherel type theorem. For λ′ , λ′′ > 1 the bidifferential operators
+     ′′′
+RC λλ′ ,λ′′ extend to a continuous map between Hilbert spaces. Now, we formulate a
+Parseval–Plancherel type theorem for the Rankin–Cohen transform as well as the
+“holographic transform”, hence answer Problem B for these transforms.
+Theorem 2.7 (Parseval–Plancherel theorem). Suppose λ′ , λ′′ > 1.
+  (1) The Rankin–Cohen transform RC λ′ ,λ′′ (Definition 2.4) induces an SL(2, R)e-
+      equivariant unitary operator
+                                        ∼
+                                          X⊕
+                            b 2 (Π)λ′′ −→
+                   H2 (Π)λ′ ⊗H                H2 (Π)λ′ +λ′′ +2ℓ
+                                                                ℓ∈N
+                                                                      n                                  o
+                                                                                        1
+       to the Hilbert sum associated to weights                             rℓ (λ′ ,λ′′ )cℓ (λ′ ,λ′′ )
+                                                                                                                   . Thus, for every
+                                                                                                             ℓ∈N
+                    b 2 (Π)λ′′ ,
+       f ∈ H2 (Π)λ′ ⊗H
+                     kf k2H2 (Π) ′ b⊗H2 (Π) ′′
+                                   λ           λ
+                     ∞
+                     X                   1
+                =                                          k (RC λ′ ,λ′′ (f ))ℓ k2H2 (Π)λ′ +λ′′ +2ℓ .
+                            rℓ (λ′ , λ′′ )cℓ (λ′ , λ′′ )
+                     ℓ=0
+                                                                      ′′′
+   (2) Collecting the holographic operators Ψλλ′ ,λ′′ , we define the holographic trans-
+       form
+                             M
+                  Ψλ′ ,λ′′ :                                b 2 (Π)λ′′
+                               H2 (Π)λ′ +λ′′ +2ℓ −→H2 (Π)λ′ ⊗H
+                                 ℓ∈N
+       by
+                                                     ∞
+                                                     M            ′ +λ +2ℓ  ′′
+                                       Ψλ′ ,λ′′ :=             Ψλλ′ ,λ′′   .
+                                                      ℓ=0
+       Then Ψλ′ ,λ′′ induces an SL(2, R)e-equivariant unitary operator
+                      ∞
+                      X                                    ∼
+                             ⊕
+                                 H2 (Π)λ′ +λ′′ +2ℓ −→ H2 (Π)λ′ b
+                                                              ⊗H2 (Π)λ′′
+                       ℓ=0
+                                                                                      n                   o
+                                                                                          cℓ (λ′ ,λ′′ )
+       from the Hilbert sum associated to the weights                                     rℓ (λ′ ,λ′′ )
+                                                                                                                   . Thus,
+                                                                                                             ℓ∈N
+                                                       ∞
+                                                       X cℓ (λ′ , λ′′ )
+              kΨλ′ ,λ′′ gk2H2 (Π) ′ b⊗H2 (Π) ′′ =                                    kgℓ k2H2 (Π)λ′ +λ′′ +2ℓ
+                                 λ          λ
+                                                       ℓ=0
+                                                           rℓ (λ′ , λ′′ )
+       for g = (gℓ )ℓ∈N .
+  Theorem 2.7 will be proved in Section 2.8.5. It gives quantitative information on
+the classical branching law (fusion rule) of the tensor product of two holomorphic
+12                       TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+discrete series representations πλ′ and πλ′′ that decomposes into a multiplicity-free
+direct Hilbert sum of irreducible unitary representations when λ′ , λ′′ > 1 [22, 23]:
+                                         X⊕
+(2.8)                         πλ′ b
+                                 ⊗πλ′′ ≃       πλ′ +λ′′ +2ℓ .
+                                                ℓ∈N
+
+  The projection to each irreducible summand in the decomposition (2.8) is given as
+the composition of the corresponding Rankin–Cohen operator and the holographic
+operator in the holomorphic model. Thus Theorem 2.5 (and Proposition 2.22 below)
+shows the following corollary.
+Corollary 2.8 (projection operator). Suppose λ′ , λ′′ , λ′′′ > 1 and ℓ := 12 (λ′′′ − λ′ −
+λ′′ ) ∈ N. Then
+                1         ′′′           ′′′                  1                ′′′              ′′′
+
+                ′   ′′
+                       Ψλλ′ ,λ′′ ◦ RC λλ′ ,λ′′ =      ′   ′′     ′   ′′
+                                                                        (RC λλ′ ,λ′′ )∗ ◦ RC λλ′ ,λ′′
+           cℓ (λ , λ )                           rℓ (λ , λ )cℓ (λ , λ )
+                                                         b 2 (Π)λ′′ onto the irreducible
+is the projection operator of the Hilbert space H2 (Π)λ′ ⊗H
+                                      2
+summand which is isomorphic to H (Π)λ′′′ , see (2.8).
+2.6. Holographic transform in the L2 -model. By the Fourier–Laplace trans-
+form, the weighted Bergman space H2 (Π)λ realized in the space of holomorphic
+functions on the upper half plane Π is mapped into the space of functions supported
+on the positive axis R+ , more precisely, onto the Hilbert space L2 (R+ , x1−λ dx), giv-
+ing thus rise to an L2 -model of the same representation of SL(2, R)e(Fact 2.9). We
+shall find closed formulæ for the symmetry breaking transform and the holographic
+transform also in this model and give an answer to Problems A and B, see Theo-
+rems 2.11, 2.14 and 2.16. The results in the L2 -model give a new interpretation of
+the classical theory of the Jacobi transform, and also play a key role in proving the
+theorems for the holomorphic model, see Section 2.7.
+2.6.1. L2 -model of holomorphic discrete series. For λ > 1 we consider the Hilbert
+space L2 (R+ )λ := L2 (R+ , x1−λ dx).
+Fact 2.9. Suppose λ > 1. The Fourier–Laplace transform
+                                          Z ∞
+                      F : F 7→ F F (ζ) :=     F (z)eiζz dz,
+                                                      0
+
+is an isometry from L (R+ )λ onto the weighted Bergman space H2 (Π)λ up to scalar
+                          2
+
+multiplication. To be precise, we have
+                                kF F k2H2(Π)λ = b(λ)kF k2L2 (R+ )λ
+for all F ∈ L2 (R+ )λ (see e.g. [5, Thm. XIII.1.1]), where
+                                    b(λ) := 22−λ πΓ(λ − 1).
+        INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                                                      13
+
+                                                                                                                      ∼
+   For λ > 1, via the unitary (up to scaling) map F : L2 (R+ )λ −→ H2 (Π)λ , we define
+an irreducible unitary representation of SL(2, R)eon L2 (R+ )λ , which is referred to
+as the L2 -model of the holomorphic discrete series representation πλ .
+   We shall write
+                              F1 ≡ F and F2 := F ⊗ F
+in order to distinguish the framework of functions of one or two variables, respectively,
+and we write, by abuse of notations,
+                                                                           ′         ′′
+(2.9)      L2 (R2+ )λ′ ,λ′′ := L2 (R+ × R+ , x1−λ y 1−λ dx dy) ≃ L2 (R+ )λ′ b
+                                                                           ⊗L2 (R+ )λ′′ .
+
+2.6.2. Construction of discrete summands in the L2 -model. Via the Fourier–Laplace
+transform, we can define the counterpart for the L2 -model of the Rankin–Cohen
+                             ′′′                                             ′′′
+bidifferential operator RC λλ′ ,λ′′ and the holographic integral operator Ψλλ′ ,λ′′ (2.6) by
+                                                      ′′′
+                                    c λ′ ′′ := F −1 ◦ RC λ′′′
+(2.10)                              RC λ ,λ     1        λ′ ,λ′′ ◦ F2 .
+
+
+(2.11)                                b λ′′′
+                                      Ψ             −1   λ′′′
+                                        λ′ ,λ′′ := F2 ◦ Ψλ′ ,λ′′ ◦ F1 .
+                                     ′′′
+We know from [18] that RC λλ′ ,λ′′ is continuous between the weighted Bergman spaces,
+             ′′′
+          c λ′ ′′ . In turn, Ψ
+and so is RC                 b λ′′′
+                                ′ ′′ is continuous between the Hilbert spaces by (2.12)
+               λ ,λ              λ ,λ
+                    λ′′′                                          ′′′
+below, hence so is Ψλ′ ,λ′′ . Alternatively, the continuity of Ψλλ′ ,λ′′ is also given by that
+                                        ′′′
+of another holographic operator Φλλ′ ,λ′′ introduced in Definition 2.10 (Proposition
+2.25). The following commutative diagrams summarize these definitions:
+                                              ′                   ′′       F2
+                         L2 (R2+ , x1−λ y 1−λ dxdy)                                           b 2 ′′ (Π)
+                                                                                    / H2 ′ (Π)⊗H
+                                                                                          λ                λ
+                                                                                                            ′′′
+                                                                                                        Rλ
+                                                                                                          λ′ ,λ′′
+                                                                                              
+                 ′′′                          ′                   ′′       F2                                                        ′′′
+            cλ
+            RC λ′ ,λ′′
+                         L2 (R2+ , x1−λ y 1−λ dxdy)                                           b 2 ′′ (Π)
+                                                                                    / H2 ′ (Π)⊗H
+                                                                                          λ                λ
+                                                                                                                             RC λ
+                                                                                                                                λ′ ,λ′′
+
+
+                                                                                                        Rest
+                                '                                                                               w
+                                                            ′′′
+                            L2 (R+ , z 1−λ dz)                                                / H2 ′′′ (Π)
+                                                                                                 λ
+                                                                           F1
+
+                                                          b πλ′′ ։ πλ′′′
+             Diagram 2.1. Symmetry breaking operators πλ′ ⊗
+                                               2
+                          for holomorphic and L -models.
+
+                                                  ′               ′′           F2
+                         L2 (R2+ , x1−λ y 1−λ dxdy)                                 / H2 ′ (Π) b
+                                                                                              ⊗Hλ2 ′′ (Π)
+                                              O                                        λ        O
+                                                                                                            ′′′                ′′′
+                   b λ′′′ =(c′ Φλ′′′ )
+                   Ψ                                                                                    Ψλ       (=c′′ (RC λ       )∗ )
+                     λ′ ,λ′′    λ′ ,λ′′                                                                   λ′ ,λ′′           λ′ ,λ′′
+
+                                                            ′′′                F1
+                             L2 (R+ , z 1−λ dz)                                               / H2 ′′′ (Π)
+                                                                                                 λ
+14                        TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+                                                                    b λ′′
+                    Diagram 2.2. Holographic operators πλ′′′ ֒→ πλ′ ⊗π
+                                                   2
+                             for holomorphic and L -models.
+
+ We shall give an explicit integral formula of the symmetry breaking operator
+   ′′′
+c λ′ ′′ in the L2 -model in Proposition 2.13. On the other hand, we observe the
+RC   λ ,λ
+holographic operator in the L2 -model has the following three important characteris-
+tics:
+                              b λ′′′
+    (1) the Fourier transform Ψ                                    λ′′′
+                                 ′ ′′ of the holographic operator Ψ ′ ′′ , see (2.11);
+                                           λ ,λ                                λ ,λ
+                               ′′′
+                         c λ′ ′′ (Proposition 2.19);
+      (2) the adjoint of RC λ ,λ
+                                         ′′′
+      (3) the multiplication operator Φλλ′ ,λ′′ , see (2.13) below for definition.
+  These three approaches may be summarized as the following identities:
+                                            ∗
+                                      λ′′′
+(2.12)                   b λ′′′     c                 ′′′
+                        Ψλ′ ,λ′′ = RC λ′ ,λ′′ = iℓ Φλλ′ ,λ′′ ,
+
+see Propositions 2.19 and 2.20. The third characteristic is remarkable as it does
+not involve any integration or differentiation. For this reason, we adopt it as our
+definition of holographic transform in the L2 -model, see Definition 2.10 below.
+   For α, β ∈ C and ℓ ∈ N, let Pℓα,β (x) be the Jacobi polynomial of degree ℓ, see (5.3)
+in Appendix.
+
+Definition 2.10. Retain the setting that λ′ , λ′′ , λ′′′ ∈ C with ℓ := 12 (λ′′′ −λ′ −λ′′ ) ∈ N.
+For a function h(z) of one variable z (z > 0), we define a function of two variables
+x, y (x, y > 0) by
+              ′′′                      ′      ′′                         
+                λ                      xλ −1 y λ −1      λ′ −1,λ′′ −1   y−x
+(2.13)         Φλ′ ,λ′′ h (x, y) :=                    P                      · h(x + y).
+                                    (x + y)λ′ +λ′′ +ℓ−1 ℓ               x+y
+
+Theorem 2.11 (holographic operator in the L2 -model). Suppose λ′ , λ′′ , λ′′′ > 1
+                                                   ′′′
+such that ℓ := 12 (λ′′′ − λ′ − λ′′ ) ∈ N. Then, Φλλ′ ,λ′′ induces an SL(2, R)e-equivariant
+continuous homomorphism between the Hilbert spaces:
+              ′′′                    ′′′                      ′                       ′′
+            Φλλ′ ,λ′′ : L2 (R+ , z 1−λ dz) −→ L2 (R+ , x1−λ dx) b
+                                                               ⊗L2 (R+ , y 1−λ dy).
+
+     Theorem 2.11 will be proved in Section 2.7.5.
+
+Remark 2.12. Using the notation (2.18) below, we may also write:
+                                           λ′ −1 λ′′ −1
+                                        ℓ x     y           ′    ′′
+                λ′′′
+              (Φλ′ ,λ′′ h)(x, y) = (−1)                  Peλ −1,λ −1 (x, y) · h(x + y).
+                                                  λ′′′ −1 ℓ
+                                              (x + y)
+       INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                          15
+
+2.6.3. Symmetry breaking transform in the L2 -model and its inversion. In this sub-
+                                                                             ′′′
+                                                                         c λ′ ′′ in
+section, we give an inversion formula of the symmetry breaking operator RC                             λ ,λ
+                                                                         ′′′
+the L2 -model by using the holographic operators Φλλ′ ,λ′′ (Definition 2.10). The sym-
+                              ′′′
+metry breaking operator RCc λλ′ ,λ′′ was defined originally as the Fourier transform of
+                                                             ′′′
+the Rankin–Cohen bidifferential operator RC λλ′ ,λ′′ (see (2.10)) but we give a simpler
+expression as an integral operator (Jacobi transform).
+Proposition 2.13. Suppose λ′ , λ′′ > 1 and ℓ ∈ N. Then for any F ∈ Cc (R+ × R+ ),
+the following identity holds:
+                                  Z                    z                 
+         c  λ′ +λ′′ +2ℓ        z ℓ+1 1 λ′ −1,λ′′ −1                 z
+         RC λ′ ,λ′′     F (z) = ℓ     Pℓ            (v)F    (1 − v), (1 + v) dv.
+                                2i −1                     2         2
+  See Section 2.7.3 for a proof.
+                                   ′′′
+  Collecting the operators RC  c λ′ ′′ , we define a symmetry breaking transform
+                                  λ ,λ
+                                                      X
+(2.14)         c λ′ ,λ′′ : L2 (R+ )λ′ b
+               RC                     ⊗L2 (R+ )λ′′ −→   ⊕ 2
+                                                         L (R+ )λ′ +λ′′ +2ℓ
+                                                                   ℓ∈N
+                             λ′ +λ′′ +2ℓ
+   c λ′ ,λ′′ (F )
+by RC                      c ′ ′′
+                        := RC                (F ) for ℓ ∈ N. Then it can be inverted by using
+                              λ ,λ
+                    ℓ
+                                   λ′′′
+the holographic operators Φ        λ′ ,λ′′   (Definition 2.10) as follows.
+Theorem 2.14. Suppose λ′ , λ′′ > 1. Then for any element F ∈ L2 (R+ )λ′ ⊗L   b 2 (R+ )λ′′ ,
+one has
+                     X∞
+                                 iℓ                                    
+                 F =                      Φλ′ +λ′′ +2ℓ
+                                            ′ ′′
+                                                         c
+                                                         RC  ′
+                                                            λ ,λ′′ (F )    ,
+                            cℓ (λ′ , λ′′ ) λ ,λ                          ℓ
+                               ℓ=0
+and
+                                          ∞
+                                          X        1                        2
+         kF k2L2 (R+ ) ′ ⊗L
+                         b 2 (R+ )λ′′ =
+                                                               c
+                                                               RC λ ,λ (F )
+                                                                   ′  ′′                           .
+                      λ
+                                          ℓ=0
+                                              cℓ (λ′ , λ′′ )                 ℓ L2 (R+ )λ′ +λ′′ +2ℓ
+
+  Theorem 2.14 will be proved in Section 2.8.7. It gives an answer to Problem A.2
+and Problem B in the L2 -model.
+Remark 2.15. The Jacobi transform (see e.g. [4, Chap. 15]) defined by
+                                 Z 1
+                            
+                     α,β
+           H(v) 7→ J (H) ℓ :=        H(v)Pℓα,β (v)(1 − v)α (1 + v)β dv
+                                                 −1
+is inverted by the following formula:
+                                ∞
+                                X                     
+(2.15)                  H(v) =     dℓ (α, β) J α,β (H) ℓ Pℓα,β (v),
+                                       ℓ=0
+16                       TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+where we set
+                                           ℓ!(α + β + 2ℓ + 1)Γ(α + β + ℓ + 1)
+                    dℓ (α, β) :=
+                                             2α+β+1 Γ(α + ℓ + 1)Γ(β + ℓ + 1)
+                                                        1
+                                    =        α+β+1
+                                                                     .
+                                           2       cℓ (α + 1, β + 1)
+By change of variables, we can see that Theorem 2.14 is equivalent to (2.15) applied
+to
+                                             z          z       
+                H(v) = (1 − v)−α (1 + v)−β F    (1 − v), (1 + v)
+                                              2          2
+with α = λ′ − 1 and β = λ′′ − 1.
+
+2.6.4. Parseval–Plancherel type theorem for the holographic transform in the L2 -
+                                                    ′′′
+model. Collecting the holographic operators Φλλ′ ,λ′′ , we define the holographic trans-
+form
+                           M
+(2.16)          Φλ′ ,λ′′ :                                     b 2 (R+ )λ′′
+                             L2 (R+ )λ′ +λ′′ +2ℓ −→ L2 (R+ )λ′ ⊗L
+                             ℓ∈N
+
+by
+                                                        ∞
+                                                        M        ′    ′′
+                                          Φλ′ ,λ′′ :=         Φλλ′ +λ
+                                                                   ,λ′′
+                                                                        +2ℓ
+                                                                            .
+                                                        ℓ=0
+
+  This transform is the counterpart in the L2 -model of the holographic transform
+Ψλ′ ,λ′′ (Theorem 2.7 (2)) defined in the holomorphic model.
+
+Theorem 2.16. Suppose λ′ , λ′′ > 1 and ℓ ∈ N. Then, the holographic transform
+Φλ′ ,λ′′ induces an SL(2, R)e-equivariant unitary operator
+                      ∞
+                      X                               ∼
+                             ⊕                                     b 2 (R+ )λ′′
+                                 L2 (R+ )λ′ +λ′′ +2ℓ −→ L2 (R+ )λ′ ⊗L
+                       ℓ=0
+
+subject to the following Parseval–Plancherel type formula:
+
+                                                   ∞
+                                                   X
+                  kΦλ′ ,λ′′ hk2L2 (R2 )λ′ ,λ′′ =         cℓ (λ′ , λ′′ )khℓ k2L2 (R+ )λ′ +λ′′ +2ℓ ,
+                                      +
+                                                   ℓ=0
+
+for h = (hℓ )ℓ∈N with hℓ ∈ L2 (R+ )λ′ +λ′′ +2ℓ .
+
+     Theorem 2.16 will be proved in Section 2.8.2.
+      INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                             17
+
+2.6.5. Representation theoretic interpretation of the Plancherel density. The weights
+cℓ (λ′ , λ′′ ) in the Plancherel formula (Theorem 2.16) are obviously positive when
+λ′ , λ′′ > 1. We discuss the zeros of the meromorphic continuation of cℓ (λ′ , λ′′ ) when
+we allow λ′ and λ′′ to wander outside the region λ′ , λ′′ > 1, so that πλ′ and πλ′′ may
+not be (relative) holomorphic discrete series representations.
+    Assume furthermore that λ′ , λ′′ , λ′′′ ∈ Z such that ℓ := 21 (λ′′′ − λ′ − λ′′ ) ∈ N. Then
+the following four conditions on (λ′ , λ′′ , λ′′′ ) are equivalent (see [19, Thm. 9.1]):
+     (i) cℓ (λ′ , λ′′ ) = 0;
+    (ii) 2 ≥ λ′ + λ′′ + λ′′′ and λ′′′ ≥ |λ′ − λ′′ | + 2;
+                                                         ′′′
+   (iii) the Rankin–Cohen bilinear operator RC λλ′ ,λ′′ vanishes;
+   (iv) dim HomSL(2,R)e(O(Π × Π, Lλ′ ⊠ Lλ′′ ), O(Π, Lλ′′′ )) = 2.
+
+2.7. Proof of Theorems 2.2 and 2.11. In this section, we derive from the Rankin–
+                                    ′′′
+Cohen bidifferential operators RC λλ′ ,λ′′ the integral intertwining operators that embed
+irreducible representations of SL(2, R)einto the tensor product representations, and
+give a proof of Theorems 2.2 and 2.11.
+                                                                ′′′
+   The key idea is to use symmetry breaking operators RC    c λ′ ′′ in the L2 -model, which
+                                                               λ ,λ
+fits well into the F-method connecting the Rankin–Cohen operators with the Jacobi
+polynomials. The scheme of the proof is summarized in the following diagram:
+                                 ′′′ Proposition 2.22             ′′′
+(2.17)                      RC λλ′ ,λ′′ o o/ o/ o/ o/ o/ o/ o/ Ψλλ′ ,λ′′        (Theorem 2.2)
+                                  O                               O
+                                       O                              O
+               Proposition 2.13 O                                 O Proposition 2.20
+                                                                     O
+                                            
+                                                ′′′
+                            c λλ′ ,λ′′ /o /o /o /o /o /o /o / Φλ′′′
+                            RC                                                 (Theorem 2.11)
+                                                               λ′ ,λ′′
+                                     Proposition 2.19
+
+
+2.7.1. Jacobi polynomials and Rankin–Cohen bidifferential operators. We retain the
+notation and assumption that ℓ := 21 (λ′′′ − λ′ − λ′′ ) ∈ N. lem
+                                                                      ′′′
+  The nature of the bidifferential symmetry breaking operator RC λλ′ ,λ′′ is explained
+in [19, Thm. 8.1] by the F-method, which we recall now. We inflate the Jacobi
+polynomial Pℓα,β (t) (see (5.3)) into a homogeneous polynomial of degree ℓ by
+                                                   
+       e α,β                 ℓ        ℓ α,β    y−x
+       Pℓ (x, y) := (−1) (x + y) Pℓ
+                                               x+y
+                          ℓ
+                        X (−1)ℓ−j (α + β + ℓ + 1)j (α + j + 1)ℓ−j
+(2.18)              =                                             (x + y)ℓ−j xj .
+                        j=0
+                                            (ℓ − j)!j!
+
+Then we have the following
+18                       TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+Proposition 2.17. Suppose ℓ := 21 (λ′′′ − λ′ − λ′′ ) ∈ N. Then the Rankin–Cohen
+                             ′′′                                    ′′′             ′′′
+bidifferential operator RC λλ′ ,λ′′ (see (2.1)) is given by RC λλ′ ,λ′′ = Rest ◦ Rλλ′ ,λ′′ with
+                                                                 
+                                λ′′′     e λ′ −1,λ′′ −1    ∂   ∂
+(2.19)                      Rλ′ ,λ′′ = Pℓ                    ,      .
+                                                          ∂ζ1 ∂ζ2
+Remark 2.18. In [19, (9.9)], we gave a similar formula
+                                                            
+                            λ′′′      λ′ −1,1−λ′′′    ∂   ∂
+(2.20)                    Rλ′ ,λ′′ = Pℓ                 ,
+                                                     ∂ζ1 ∂ζ2
+                                                                       
+by using another two-variable function Pℓα,β (x, y) := y ℓ Pℓα,β 1 + 2x
+                                                                      y
+                                                                         . Our expression
+(2.19) is symmetric with respect to the first and second variables.
+Proof of Proposition 2.17. According to the first Kummer’s relation for the hyper-
+geometric function we get (see for instance [7, 8.962]):
+                                     ℓ                     
+                     α,β        1+x        α,−α−β−2ℓ−1    3−x
+                    Pℓ (x) =             Pℓ                     ,
+                                  2                       1+x
+and therefore
+                                                                          
+                       ′      ′′′                     ′    ′′          1+s
+                    Pℓλ −1,1−λ (1 − 2s) = (1 − s)ℓ Pℓλ −1,λ −1               .
+                                                                       1−s
+Hence the right-hand sides of (2.19) and (2.20) are equal to each other.                    
+2.7.2. Coordinate change in the L2 -model. For the study of symmetry breaking in
+the L2 -model, we introduce the following coordinates:
+                                                          z         z       
+                              ∼
+(2.21)      ι : R+ × (−1, 1) −→ R2+ , (z, v) 7→ (x, y) :=    (1 − v), (1 + v) .
+                                                           2         2
+                                               z
+  Then, ι is a diffeomorphism with dxdy = 2 dzdv. With the convention (2.2) in
+Section 2.2, we set
+(2.22)          M(z, v) ≡ Mλ′ ,λ′′ ,λ′′′ (z, v) := 2α+β z ℓ+1 (1 − v)−α (1 + v)−β .
+If (x, y) = ι(z, v), then we have
+                                          ′′′
+                                    z 1−λ
+(2.23)                                          M(z, v) = z −ℓ ,
+                                  x1−λ′ y 1−λ′′
+                    ′     ′′                            ′′′
+(2.24)        x1−λ y 1−λ dxdy = M(z, v)2 z −α−β−λ (1 − v)α (1 + v)β dzdv,
+                                           ′′′
+whereas the holographic operator Φλλ′ ,λ′′ (see (2.13)) takes the form
+                    ′′′ 
+(2.25)               Φλλ′ ,λ′′ h ◦ ι(z, v) = M(z, v)−1 Pℓα,β (v)h(z).
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                    19
+
+2.7.3. Fourier transform of the Rankin–Cohen bidifferential operators. We are ready
+to prove Proposition 2.13 for an integral expression of the symmetry breaking oper-
+         ′′′
+      c λ′ ′′ (see (2.10)).
+ator RC  λ ,λ
+
+Proof of Proposition 2.13. For a function F ∈ L2 (R2+ )λ′ ,λ′′ we set
+                                             ′        ′′
+                          G(x, y) := Peℓλ −1,λ −1 (x, y)F (x, y).
+By Proposition 2.17 the F-method shows that the Rankin–Cohen bidifferential oper-
+                                                              ′    ′′
+ator is induced from the multiplication by the polynomial Peℓλ −1,λ −1 (x, y), namely,
+                              ′′′
+(2.26)                 (RC λλ′ ,λ′′ F2 F )(ζ) = iℓ (Rest ◦ F2 G)(ζ).
+                                                       
+                                                 λ′′′
+The left-hand side of (2.26) equals F1 RC     c ′ ′′ F (ζ) by the definition (2.10). We
+                                                 λ ,λ
+
+compute the right-hand side of (2.26). Via the diffeomorphism (2.21), we have
+Peℓα,β ◦ ι(z, v) = (−1)ℓ z ℓ Pℓα,β (v). Thus we get
+                                             Z ∞Z ∞
+                   (Rest ◦ F2 ) G(ζ) =                 G(x, y)ei(x+y)ζ dxdy
+                                               0    0
+                                                Z ∞Z 1
+                                             1
+                                         =               G ◦ ι(z, v)eizζ zdzdv
+                                             2 0      −1
+                                             1
+                                         =     F1 (J F )(ζ),
+                                             2
+where
+                                     Z 1
+                   J F (z) := z          G ◦ ι(z, v)dv
+                                    −1
+                                             Z 1
+                                                           ′   ′′
+                          = (−1) z   ℓ ℓ+1
+                                                      Pℓλ −1,λ −1 (v)F ◦ ι(z, v)dv.
+                                                 −1
+
+Hence Proposition 2.13 is proved.                                                     
+
+2.7.4. Three characteristics of holographic operators in the L2 -model. In Section
+2.6.2, we discussed the three characteristics (1), (2), and (3) of holographic oper-
+ators in the L2 -model. These three characteristics play a key role in the proof of
+main theorems. In this subsection we explicate the relationship between
+         (2) and (3) in Proposition 2.19, and
+         (1) and (3) in Proposition 2.20,
+and prove the formula (2.12).
+20                        TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+                                                                                    ′′′
+Proposition 2.19. The adjoint of the holographic operator Φλλ′ ,λ′′ (Definition 2.10)
+                                                                             ′′′
+is proportional to the Fourier transform of the Rankin–Cohen operator RC λλ′ ,λ′′ :
+                                 ′′′ ∗             ′′′
+                                                 c λ′ ′′ .
+                                  Φλλ′ ,λ′′ = iℓ RC λ ,λ
+
+                                                                             λ′′′
+Proof. We have already seen in Section 2.6.2 that RC           c ′ ′′ is a continuous map
+                                                                  λ ,λ
+between the Hilbert spaces. Hence we shall work with dense subspaces Cc (R+ )
+and Cc (R2+ ) in L2 (R+ )λ′′′ and L2 (R2+ )λ′ ,λ′′ , respectively. Take h ∈ Cc (R+ ) and
+                                                         ′′′
+F ∈ Cc (R2+ ). By the integral expression of RC       c λ′ ′′ given in Proposition 2.13, we
+                                                        λ ,λ
+have
+                              λ′′′
+                        c ′ ′′ F ) 2
+                   (h, RC λ ,λ    L (R+ ,z 1−λ′′′ dz)
+                      Z                Z 1
+                   iℓ ∞                         ′     ′′                     ′′′
+                 =        h(z)z  ℓ+1        Pℓλ −1,λ −1 (v)F ◦ ι(z, v)dvz 1−λ dz
+                    2 0                  −1
+                      Z ∞Z ∞
+                                   ′′′                        ′     ′′
+                 = iℓ          (Φλλ′ ,λ′′ h)(x, y)F (x, y)x1−λ y 1−λ dxdy
+                          0     0
+                      ℓ  λ′′′
+                 =   i (Φλ′ ,λ′′ h, F )L2 (R2+ ,x1−λ′ y1−λ′′ dxdy) .
+Here, in the second equality we have used (2.24) and (2.25). Thus Proposition 2.19
+is proved.                                                                      
+Proposition 2.20. With the notation (2.11), we have
+                                           b λ′′′
+                                           Ψ            ℓ λ′′′
+                                             λ′ ,λ′′ = i Φλ′ ,λ′′ .
+
+     Before giving a proof of Proposition 2.20, we need the following.
+Lemma 2.21. For any g ∈ H2 (Π)λ , we have
+                   ℓ Z ∞
+                    d
+                             z −ℓ (F1−1 g)(z)eizt dz = iℓ g(t).
+                    dt   0
+
+Proof. The statement follows from the (classical) Fourier inversion formula and the
+Paley–Wiener theorem for g.                                                      
+Proof of Proposition 2.20. It suffices to show
+                                           ′′′                         ′′′
+                                F2 ◦ Φλλ′ ,λ′′ ◦ F1−1 = (−i)ℓ Ψλλ′ ,λ′′ .
+     We set
+                                  1
+                               t(v) :=
+                                    ((ζ2 − ζ1 )v + (ζ1 + ζ2 )) .
+                                  2
+                                                    ′′′
+By the definitions (2.22) and (2.25) of M and Φλλ′ ,λ′′ , we have,
+      INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                        21
+
+
+
+                                ′′′
+            2α+β+1 (F2 ◦ Φλλ′ ,λ′′ h)(ζ1 , ζ2 )
+            Z ∞Z 1
+          =         z −ℓ (1 − v)α (1 + v)β Pℓα,β (v)h(z)eizt(v) dvdz
+                0     −1
+                     ℓ Z ∞Z 1
+                                              ℓ
+            (−1)              −ℓ      izt(v)   d              α+ℓ         β+ℓ
+                                                                              
+          =                 z    h(z)e                (1 − v)     (1 + v)       dvdz
+             2ℓ ℓ! 0     −1                   dv
+                 Z 1                                ℓ
+             iℓ             α+ℓ         β+ℓ    dt(v)
+          = ℓ        (1 − v) (1 + v)                    (F1 h) (t(v))dv,
+            2 ℓ! −1                             dv
+where the second equality follows from the Rodrigues formula (5.2) for the Jacobi
+polynomials, and the third one from integration by parts and Lemma 2.21. Putting
+g = F1 h, we obtain
+                                 ′′′
+                      (F2 ◦ Φλλ′ ,λ′′ ◦ F1−1 g)(ζ1, ζ2 )
+                                         Z
+                      (ζ1 − ζ2 )ℓ (−i)ℓ 1
+                    =                         g(t(v))(1 − v)α+ℓ (1 + v)β+ℓ dv
+                        2α+β+2ℓ+1 ℓ!
+                             ′′′  −1
+                    = (−i) Ψλλ′ ,λ′′ g (ζ1 , ζ2 ).
+                          ℓ
+
+
+  Hence Proposition 2.20 is proved.                                                        
+2.7.5. Proof of Theorem 2.11. In this subsection we give a proof of Theorem 2.11.
+                                                                                   ′′′
+Proof of Theorem 2.11. As the Rankin–Cohen bidifferential operator RC λλ′ ,λ′′ inter-
+                                                                                          ′′′
+                               b λ′′ and πλ′′′ , so does its Fourier transform RC
+twines the tensor product πλ′ ⊗π                                                      c λ′ ′′
+                                                            ∗                          λ ,λ
+                                                     λ′′′
+(see (2.10)), and in turn its adjoint operator RC  c λ′ ,λ′′    because πλ′ , πλ′′ , and πλ′′′
+are unitary representations. Hence Theorem 2.11 follows from Proposition 2.19. 
+2.7.6. Proof of Theorem 2.2. Theorem 2.11 together with an argument of holomor-
+phic continuation on parameters completes the proof of Theorem 2.2 as follows.
+Proof of Theorem 2.2. The second assertion follows from Proposition 2.20 because
+   ′′′
+Φλλ′ ,λ′′ is an intertwining operator as it was shown in Theorem 2.11.
+   Let ℓ ∈ N and λ′′′ = λ′ + λ′′ + 2ℓ. If (λ′ , λ′′ ) ∈ C2 satisfies (2.5) then the integral
+                                             ′′′
+(2.6) converges for all g ∈ O(Π), and Ψλλ′ ,λ′′ is continuous viewed as a map from the
+Montel space O(Π) to the one O(Π × Π).
+                                                                                      ′′′
+   On the other hand, if furthermore λ′ , λ′′ are real and λ′ , λ′′ > 1, then Ψλλ′ ,λ′′ is
+a G-homomorphism on H2 (Π)λ′′′ by the second statement. Since H2 (Π)λ′′′ is dense
+in the Montel space O(Π) as its subspace of K-finite functions is already dense in
+22                     TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+                                   ′′′
+O(Π), the continuous map Ψλλ′ ,λ′′ : O(Π) −→ O(Π × Π) intertwines πλ′′′ and the
+tensor product representation πλ′ ⊗π    b λ′′ if λ′ , λ′′ > 1. Since Ψλλ′′′
+                                                                        ′ ,λ′′ g ∈ O(Π × Π)
+                                      ′ ′′       2
+depends holomorphically on (λ , λ ) ∈ C subject to (2.5) and since the actions
+πλ′ , πλ′′ and πλ′ +λ′′ +2ℓ of SL(2, R)ealso depend holomorphically on (λ′ , λ′′ ) ∈ C2 , the
+first statement is shown.                                                                  
+
+2.7.7. Adjoint of the Rankin–Cohen operator. As the last part of the diagram (2.17),
+                    ′′′                                                 ′′′
+we show that Ψλλ′ ,λ′′ is the adjoint of the Rankin–Cohen operator RC λλ′ ,λ′′ up to scalar
+multiplication.
+  Suppose λ′ , λ′′ , λ′′′ > 1 and λ′′′ − λ′ − λ′′ ∈ 2N. We regard the Rankin–Cohen
+              ′′′
+operator RC λλ′ ,λ′′ as a continuous map between Hilbert spaces
+                            ′′′
+                                              b 2 (Π)λ′′ −→ H2 (Π)λ′′′ .
+                       RC λλ′ ,λ′′ : H2 (Π)λ′ ⊗H
+By (2.12) and Lemma 2.24 below, we obtain
+                                                                             ′′′
+Proposition 2.22. Let ℓ := 12 (λ′′′ − λ′ − λ′′ ) ∈ N. The adjoint of RC λλ′ ,λ′′ is given by
+                                ′′′
+                                      ∗                  ′′′
+                           RC λλ′ ,λ′′ = rℓ (λ′ , λ′′ )Ψλλ′ ,λ′′ .
+
+2.8. Proof of the Parseval–Plancherel type theorem for the symmetry
+breaking transform and the holographic transform. In this section we com-
+plete the proof of Theorems 2.5 and 2.7 in the holomorphic model and Theorems 2.14
+and 2.16 in the L2 -model for the Parseval–Plancherel type results for the symme-
+try breaking and holographic transforms. Our strategy consists in applying the F -
+method, andnthen in  o reducing the proof of these theorems to the fact that the Jacobi
+                 α,β
+polynomials Pℓ            form an orthogonal basis of the Hilbert space L2 ([−1, 1], (1 −
+                      ℓ∈N
+v)α (1 + v)β dv).
+
+2.8.1. Some properties of operators on Hilbert spaces. We review a general fact on
+operators on Hilbert spaces. Suppose a Hilbert space  PV is decomposed into a Hilbert
+direct sum of closed subspaces {Vℓ }ℓ∈N , that is, V ≃ ⊕
+                                                       ℓ∈N Vℓ , where the inner product
+on Vℓ is induced from that of V . Let prV →Vℓ : V −→ Vℓ be the projection operator.
+Let {Wℓ }ℓ∈N be another family of Hilbert spaces. Suppose that we are given a
+continuous map Rℓ : V −→ Wℓ such that the restriction Rℓ |Vℓ : Vℓ −→ Wℓ is a
+unitary operator up to scalar multiplication and Rℓ |Vℓ⊥ ≡ 0 for every ℓ ∈ N. Then
+the adjoint operator Rℓ∗ : Wℓ −→ V is an isometry (up to scalar) onto Vℓ . We write
+kRℓ kop for the operator norm of Rℓ and set
+                                         Cℓ := kRℓ k2op .
+The following two lemmas are elementary.
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                            23
+                                                  M                M
+Lemma 2.23.          (1) The linear map R :=            Rℓ : V →         Wℓ satisfies
+                                                  ℓ∈N              ℓ∈N
+
+(2.27)                Rℓ∗ Rℓ = Cℓ prV →Vℓ ,
+                               X 1
+(2.28)                kF k2V =        kRℓ F k2Wℓ        for all F ∈ V.
+                                   Cℓ
+                                  ℓ∈N
+
+       In particular, we have the following inversion formula and the unitarity of
+       the map R: P
+(inversion)     F = ℓ∈N C1ℓ Rℓ∗ (Rℓ F ),
+                                                     ∼
+                                                         X⊕             X⊕
+(unitarity)     R extends to a unitary operator V −→         Wℓ , where     Wℓ is
+                                                                   ℓ∈N              ℓ∈N
+           the Hilbert sum associated
+                             L        to the weights {Cℓ−1 }ℓ∈N (see Definition 2.6).
+                                      L
+   (2) The linear map R∗ :=     Rℓ∗ :    Wℓ → V satisfies
+                                 ℓ∈N     ℓ∈N
+
+(2.29)                    Rℓ Rℓ∗ = Cℓ idWℓ ,
+                      kRℓ∗ wℓ k2V = Cℓ kwℓ k2Wℓ  for all wℓ ∈ Wℓ .
+                                                        X⊕       ∼
+                                                                            X⊕
+         In particular R∗ extends to a unitary operator     Wℓ −→ V , where    Wℓ
+                                                            ℓ∈N                         ℓ∈N
+         is the Hilbert sum associated to the weights {Cℓ }ℓ∈N .
+Lemma 2.24. Suppose that Hj and Lj (j = 1, 2) are Hilbert spaces and that
+Fj : Lj −→ Hj are unitary operators up to scalar multiple. Let bj be positive numbers
+such that
+                   kFj (F )k2Hj = bj kF k2Lj   for all F ∈ Lj .
+Let Ψ : H1 −→ H2 and D : H2 −→ H1 be continuous linear maps, and we define
+b                b : L2 −→ L1 by
+Ψ : L1 −→ L2 and D
+                      b
+                      Ψ := F2−1 ◦ Ψ ◦ F1 ,        b := F1−1 ◦ D ◦ F2 .
+                                                  D
+We set r := bb12 . Then,
+   (1) the operator norms of these operators satisfy
+
+                            b 2 = 1 kDk2 ,
+                           kDk                     b 2 = rkΨk2 ;
+                                                  kΨk
+                               op      op             op     op
+                                  r
+   (2) the adjoint operators of D and Db are related as
+                                           ∗
+                                  Dc∗ = r Db .
+24                          TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+                                                                       ′′′
+2.8.2. Parseval–Plancherel type theorem for Φλλ′ ,λ′′ . In this subsection, we prove The-
+orem 2.16. By the (abstract) branching law (2.8), Theorem 2.16 is deduced from the
+following proposition.
+Proposition 2.25. Suppose λ′ , λ′′ , λ′′′ > 1 satisfy ℓ := 21 (λ′′′ − λ′ − λ′′ ) ∈ N. Then,
+                                 ′′′
+                           kΦλλ′ ,λ′′ hk2L2 (R2 )λ′ ,λ′′ = cℓ (λ′ , λ′′ )khk2L2 (R+ )λ′′′ ,
+                                                     +
+
+for all h ∈ L (R+ )λ′′′ . Here we recall (2.3) for the definition of cℓ (λ′ , λ′′ ).
+               2
+
+
+  We reduce Proposition 2.25 to the fact that the Jacobi polynomials are orthogonal
+polynomials, see (5.4) in Appendix.
+Proof of Proposition 2.25. Via the diffeomorphism (2.21), we get from the formulæ
+                                                                  ′′′
+(2.24) for the measure and (2.25) for the holographic operator Φλλ′ ,λ′′ :
+                  ′′′                             1
+              kΦλλ′ ,λ′′ hk2L2 (R2 )λ′ ,λ′′ = λ′ +λ′′ −1 ×
+                                 +           2
+              Z ∞Z 1                                    2
+                                           ′  ′′           ′′′  ′           ′′
+                          |h(z)|2 Pℓλ −1,λ −1 (v) z 1−λ (1 − v)λ −1 (1 + v)λ −1 dvdz.
+               0      −1
+          2
+By the L -norm (5.4) of the Jacobi polynomials, we conclude the proposition.                                     
+                                                                               ′′′
+2.8.3. Operator norm of the holographic operator Ψλλ′ ,λ′′ in the holomorphic model.
+Proposition 2.26. Suppose λ′ , λ′′ , λ′′′ > 1 and ℓ := 12 (λ′′′ − λ′ − λ′′ ) ∈ N. Then
+              ′′′                                        cℓ (λ′ , λ′′ )
+         kΨλλ′ ,λ′′ gk2H2 (Π) ′ b⊗H2 (Π) ′′ =                           kgk2H2(Π)λ′′′ for all g ∈ H2 (Π)λ′′′ .
+                             λ             λ             rℓ (λ′ , λ′′ )
+Proof. By Proposition 2.20 and Fact 2.9, we have
+                    ′′′                                                        ′′′
+              kΨλλ′ ,λ′′ gk2H2 (Π) ′ b⊗H2 (Π) ′′ = b(λ′ )b(λ′′ )kΦλλ′ ,λ′′ F1−1 gk2L2(R2 )λ′ ,λ′′ .
+                                       λ             λ                                          +
+
+  By Proposition 2.25 and Fact 2.9 again, the right-hand side of the above equality
+amounts to
+                          b(λ′ )b(λ′′ )
+                                        cℓ (λ′ , λ′′ )kgk2H2(Π)λ′′′ .
+                            b(λ′′′ )
+Now the proposition follows from the definition (2.4) of rℓ (λ′ , λ′′ ).         
+2.8.4. Norm of the Rankin–Cohen bidifferential operators. We find the operator norm
+        ′′′
+of RC λλ′ ,λ′′ as below.
+Proposition 2.27. Suppose that λ′ , λ′′ > 1 and λ′′′ = λ′ + λ′′ + 2ℓ (ℓ ∈ N). Then
+                                                                   ′′′
+the operator norm of the Rankin–Cohen bidifferential operator RC λλ′ ,λ′′ seen as a map
+                                         b 2 (Π)λ′′ to H2 (Π)λ′′′ is given by
+from the weighted Bergman space H2 (Π)λ′ ⊗H
+                                               ′′′
+                                   kRC λλ′ ,λ′′ k2op = rℓ (λ′ , λ′′ )cℓ (λ′ , λ′′ ).
+      INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                             25
+
+Proof. By Lemma 2.24 (1), we have
+                                                                  ′′′
+                                  ′′′
+                                                               c λ′ ′′ k2 ,
+                            kRC λλ′ ,λ′′ k2op = rℓ (λ′ , λ′′ )kRC λ ,λ op
+
+which equals rℓ (λ′ , λ′′ )cℓ (λ′ , λ′′ ) by Propositions 2.19 and 2.25.                        
+
+2.8.5. Proof of Theorem 2.7. Let us complete the proof of the Parseval–Plancherel
+type theorem for the Rankin–Cohen transform RC λ′ ,λ′′ and the holographic transform
+Ψλ′ ,λ′′ .
+                                                                              ′       ′′
+Proof of Theorem 2.7. (1) We apply Lemma 2.23 with Rℓ = RC λλ′ +λ   ,λ′′
+                                                                         +2ℓ
+                                                                             . By Propo-
+sition 2.27, we have
+                           kRℓ k2op = rℓ (λ′ , λ′′ )cℓ (λ′ , λ′′ ),
+hence the first statement follows from Lemma 2.23 (1).
+                                                           ′     ′′ +2ℓ
+  (2) We apply Lemma 2.23 with Rℓ = rℓ (λ1′ ,λ′′ ) RC λλ′ +λ ,λ′′       . By Proposition 2.27, we
+have
+                                      2    cℓ (λ′ , λ′′ )
+                                 kRℓ kop =                .
+                                           rℓ (λ′ , λ′′ )
+         ′   ′′
+Since Ψλλ′ +λ
+           ,λ′′
+                +2ℓ
+                    = Rℓ∗ (see Proposition 2.22), we get the second statement by Lemma
+2.23 (2).                                                                            
+
+2.8.6. Proof of Theorem 2.5. We are ready to complete the proof of Theorem 2.5.
+                                                                                  ′        ′′
+Proof of Theorem 2.5. By Lemma 2.23 (1) applied to Rℓ = RC λλ′ +λ
+                                                               ,λ′′
+                                                                    +2ℓ
+                                                                        , the above
+proof of Theorem 2.7 (1) implies
+                                   ∞
+                                   X                1
+                             f=              ′   ′′     ′   ′′
+                                                               Rℓ∗ Rℓ f
+                                    ℓ=0
+                                        rℓ (λ , λ )cℓ (λ , λ )
+
+for any f ∈ H2 (Π)λ′ ⊗H      b 2 (Π)λ′′ . Now Theorem 2.5 follows from the equation Rℓ∗ =
+               λ′ +λ′′ +2ℓ
+rℓ (λ′ , λ′′ )Ψλ′ ,λ′′     (see Proposition 2.22).                                      
+
+2.8.7. Proof of Theorem 2.14. Finally, we show Theorem 2.14.
+                                                                              ′       ′′
+Proof of Theorem 2.14. We apply Lemma 2.23 (1) with Rℓ = RC          c λ′ +λ′′ +2ℓ . By Lemma
+                                                                         λ ,λ
+2.24 and Proposition 2.27, we obtain
+                                  1         λ′ +λ′′ +2ℓ
+                                                        2
+                  kRℓ k2op =      ′   ′′
+                                         RC λ′ ,λ′′        = cℓ (λ′ , λ′′ ).
+                             rℓ (λ , λ )                op
+                   ′   ′′
+Since Rℓ∗ = iℓ Φλλ′ +λ
+                    ,λ′′
+                         +2ℓ
+                             by Proposition 2.19, Theorem 2.14 follows from Lemma 2.23
+(1).                                                                                
+26                         TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+2.9. Some applications of symmetry breaking and holographic transforms.
+We point out two applications of the symmetry breaking and holographic transforms
+introduced in the previous section. First, we provide explicit description of the
+minimal K-types of the SL(2, R)e-module (πλ , O(Π)) in both holomorphic model
+    b λ′′ and L2 -model L2 (R2+ )λ′ ,λ′′ (see Propositions 2.28 and 2.29). Second, we find
+πλ′ ⊗π
+in Theorem 2.30 an integral expression of any eigenfunction for a specific second-
+order holomorphic partial differential operator arising from the diagonal action of
+the Casimir in the enveloping algebra.
+2.9.1. Minimal K-types. The minimal K-type of the SL(2, R)e-module (πλ , O(Π)) is
+given by C(ζ + i)−λ , see (2.32) for the whole set of K-types. As an application of
+the integral formula (2.6) we find an explicit expression for the minimal K-types of
+submodules in the tensor product πλ′ ⊗πb λ′′ as follows.
+Proposition 2.28. Suppose Re λ′ , Re λ′′ > 0 and λ′′′ = λ′ + λ′′ + 2ℓ (ℓ ∈ N). Then
+the holomorphic function
+                                                              ′               ′′
+                         (ζ1 , ζ2) 7→ (ζ1 − ζ2 )ℓ (ζ1 + i)−λ −ℓ (ζ2 + i)−λ −ℓ
+                                        ′′′
+                                                             b λ′′ .
+is a minimal K-type in the submodule Ψλλ′ ,λ′′ (O(Π)) in πλ′ ⊗π
+                                          ′′′
+Proof. We set g(ζ) := (ζ + i)−λ . By the change of variables t = 12 (1 + v), the
+definition (2.6) shows
+      ′′′                                             Z 1
+                             1                    −λ′′′
+         λ                              ℓ
+       Ψλ′ ,λ′′ g (ζ1 , ζ2) = (ζ1 − ζ2 ) (ζ1 + i)           ta−1 (1 − t)c−a−1 (1 − tz)−b dt,
+                             ℓ!                          0
+
+where a = λ′′ + ℓ, b = c = λ′′′ , and z = ζζ11−ζ
+                                               +i
+                                                 2
+                                                   .
+  By the Euler integral representation of the hypergeometric function 2 F1 , and by
+the fact that 2 F1 (a, b; b; z) = (1 − z)−a , we obtain
+          ′′′                   1                                        ′             ′′
+(2.30)    Ψλλ′ ,λ′′ g (ζ1 , ζ2 ) = B(λ′ + ℓ, λ′′ + ℓ)(ζ1 − ζ2 )ℓ (ζ1 + i)−λ −ℓ (ζ2 + i)−λ −ℓ ,
+                                  ℓ!
+where B(·, ·) stands for the Euler beta function.                                              
+Proposition 2.29. Suppose λ′ , λ′′ > 1 and ℓ ∈ N. Then the function
+                                                                      
+                       λ′ −1 −x   λ′′ −1 −y       ℓ λ′ −1,λ′′ −1   y−x
+           (x, y) 7→ (x     e )(y       e )(x + y) Pℓ
+                                                                   x+y
+belongs to L2 (R2+ )λ′ ,λ′′ , and gives a minimal K-type in the image of the holographic
+            ′     ′′ +2ℓ
+operator Φλλ′ +λ
+              ,λ′′       .
+                   ′′′
+Proof. Since z λ −1 e−z belongs to the minimal K-type in the irreducible representation
+                          ′′′        ′′′                                            ′′′
+L2 (R+ )λ′′′ , so does Φλλ′ ,λ′′ (z λ −1 e−z ) in the irreducible representation Φλλ′ ,λ′′ (L2 (R2+ )λ′ ,λ′′ ).
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                  27
+                                                                              ′′′
+Then the formula (2.13) of the holographic operator Φλλ′ ,λ′′ with λ′′′ = λ′ + λ′′ + 2ℓ
+shows Proposition 2.29.                                                              
+2.9.2. An application of the integral formula. Fix λ′ , λ′′ ∈ C and consider eigenfunc-
+tions of the following holomorphic differential operator on Π × Π:
+                                     ∂2                              ∂                           ∂
+(2.31) P   λ′ ,λ′′   := (ζ1 − ζ2 )    2
+                                           + (λ′′ ζ2 + λ′ − λ′′ )ζ1     + (λ′ ζ1 − λ′ + λ′′ )ζ2     ,
+                                   ∂ζ1 ∂ζ2                          ∂ζ1                         ∂ζ2
+and define for µ ∈ C
+                     Soℓ(Π × Π, Mλ′ ,λ′′ , µ ) := {f ∈ O(Π × Π) : Pλ′ ,λ′′ f = µf } .
+The integral transform (2.6) constructs all eigenfunctions of Pλ′ ,λ′′ as follows.
+Theorem 2.30. Suppose λ′ , λ′′ ∈ C. Then, the following hold.
+  (1) Soℓ(Π × Π, Mλ′ ,λ′′ , µ ) 6= {0} if and only if µ is of the form
+                              µ = −ℓ(λ′ + λ′′ + ℓ − 1) for some ℓ ∈ N.
+   (2) For any λ′ , λ′′ ∈ C and ℓ ∈ N,
+                                           ′                ′′
+         (ζ1 − ζ2 )ℓ (ζ1 + i)−λ −ℓ (ζ2 + i)−λ −ℓ ∈ Soℓ(Π × Π, Mλ′ ,λ′′ ,−ℓ(λ′ +λ′′ +ℓ−1) ).
+   (3) If Re λ′ , Re λ′′ > 0 and ℓ ∈ N, then the integral transform (2.6) gives a
+       bijection
+                         ′   ′′
+                           +λ +2ℓ                 ∼
+                      Ψλλ′ ,λ′′   : O(Π) −→ Soℓ(Π × Π, Mλ′ ,λ′′ ,−ℓ(λ′ +λ′′ +ℓ−1) ).
+         The inverse map is proportional to the Rankin–Cohen bidifferential operator,
+         namely,
+                                  ′   ′′
+                                 +λ +2ℓ            ′   ′′
+                          RC λλ′ ,λ′′   ◦ Ψλλ′ +λ
+                                               ,λ′′
+                                                    +2ℓ
+                                                        = cℓ (λ′ , λ′′ )id    on O(Π),
+         where cℓ (λ′ , λ′′ ) is defined as in (2.3).
+2.9.3. Quick review of representations of the universal covering group SL(2, R)e. In
+order to prove Theorem 2.30 we recall some properties of representations of SL(2, R)e.
+The universal covering group SO(2)eof the maximal compact subgroup K = SO(2)
+is isomorphic to R. We parametrize its characters χλ by λ ∈ C as an extension of
+the following group homomorphisms originally defined for λ ∈ Z:
+                                                                 
+                                        ×           cos θ − sin θ
+           R ≃ SO(2)e−→ SO(2) −→ C , θ 7→                           7→ eiλθ .
+                                                    sin θ cos θ
+The representation πλ on O(Π) given in Section 2.1.1 is a highest weight module
+with highest weight −λ because it has the following K-types:
+(2.32)                                         − λ, −λ − 2, −λ − 4, . . . .
+28                    TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+Choose the standard basis of the Lie algebra sl(2, R):
+                                                         
+                       1 0                 0 1            0 0
+               H :=             , X :=            , Y :=        .
+                       0 −1                0 0            1 0
+Then the Casimir element C is expressed as C = 18 (H 2 + 2XY + 2Y X).
+  The infinitesimal action dπλ is given by holomorphic differential operators:
+                                                                               2
+                                 d                d                        2 d
+(2.33)        dπλ (H) = −λ − 2z    , dπ λ (X) = −    ,  dπ λ (Y ) = λz + z       ,
+                                dz                dz                        dz 2
+and the Casimir element C acts on (dπλ , O(Π)) as dπλ (C) = 81 λ(λ − 2)id. In general,
+if π is a highest weight module of SL(2, R)e with highest weight ν (ν ∈ C), then the
+Casimir element is given via dπ as the scalar multiplication 18 ν(ν + 2)id.
+
+2.9.4. Proof of Theorem 2.30.
+Lemma 2.31. The Casimir element C of sl(2, R) acts on O(Π × Π) via dπλ′ ⊗ dπλ′′
+by
+                                        1           1
+           (dπλ′ ⊗ dπλ′′ ) (diag(C)) = − Pλ′ ,λ′′ + (λ′ + λ′′ )(λ′ + λ′′ − 2),
+                                        2           8
+where the holomorphic differential operator Pλ′ ,λ′′ is defined in (2.31).
+Proof. By (2.33) and the Leibniz rule, we have
+                                                                       
+                                            ′    ′′       ∂         ∂
+           (dπλ′ ⊗ dπλ′′ ) (diag(H)) = −λ − λ − 2 ζ1          + ζ2        ,
+                                                         ∂ζ1       ∂ζ2
+                                           ∂      ∂
+           (dπλ′ ⊗ dπλ′′ ) (diag(X)) = −     −      ,
+                                          ∂ζ1 ∂ζ2
+                                                           2          2
+                                                                         
+                                        ′      ′′       2 ∂        2 ∂
+           (dπλ′ ⊗ dπλ′′ ) (diag(Y)) = λ ζ1 + λ ζ2 + ζ1 2 + ζ2 2 .
+                                                         ∂ζ1        ∂ζ2
+Now the lemma follows by a direct computation.                                       
+   The tensor product representation πλ′ b⊗πλ′′ does not always split into a direct sum
+of irreducible representations in the nonunitary case when λ′ , λ′′ ∈ C, see [19] for
+instance. We determine the set of possible infinitesimal characters of subrepresenta-
+                                b λ′′ in this case.
+tions of the tensor product πλ′ ⊗π
+Lemma 2.32. Let λ′ , λ′′ ∈ C. Suppose π is a subrepresentation of πλ′ b
+                                                                     ⊗πλ′′ such that
+the Casimir element C acts as scalar multiplication via dπ. Then this scalar must
+be of the form
+                1 ′
+                  (λ + λ′′ + 2ℓ)(λ′ + λ′′ + 2ℓ − 2) for some ℓ ∈ N.
+                8
+      INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                         29
+
+Proof. We use the general theory of discretely decomposable restrictions of (nonuni-
+tary) representations [11]. First we observe from (2.32) that the K-types of the
+                                  b λ′′ are of the form
+tensor product representation πλ′ ⊗π
+                    −λ′ − λ′′ − 2(ℓ′ + ℓ′′ ) for some ℓ′ , ℓ′′ ∈ N.
+Thus the tensor product representation πλ′ b ⊗πλ′′ on O(Π × Π) contains the direct
+sum of K-isotypic spaces
+                               M
+(2.34)                             (ℓ + 1)χ−λ′ −λ′′ −2ℓ
+                                      ℓ∈N
+
+as a dense subset, where (ℓ + 1) stands for the multiplicity.
+   In particular, each K-type occurs in πλ′ b  ⊗πλ′′ with at most finite multiplicities.
+Hence, any subrepresentation π is admissible, and of highest weight −λ′ − λ′′ − 2ℓ
+for some ℓ ∈ N. Therefore, if the Casimir element acts as a scalar via dπ, then this
+scalar must coincide with 81 (λ′ + λ′′ + 2ℓ)(λ′ + λ′′ + 2ℓ − 2).                      
+Proof of Theorem 2.30. (1) By Lemma 2.31, Soℓ(Π × Π, Mλ′ ,λ′′ ,µ ) is characterized as
+the eigenspace of the Casimir operator C as follows:
+(2.35) Soℓ(Π × Π, Mλ′ ,λ′′ ,µ )
+                        = {f ∈ O(Π × Π) : (dπλ′ ⊗ dπλ′′ ) (diag(C)) = e(λ′ , λ′′ , µ)f },
+where we set e(λ′ , λ′′ , µ) = − 12 µ + 81 (λ′ + λ′′ )(λ′ + λ′′ − 2).
+   On the other hand, Lemma 2.32 tells that e(λ′ , λ′′ , µ) = 81 (λ′ + λ′′ + 2ℓ)(λ′ + λ′′ +
+2ℓ − 2) for some ℓ ∈ N. This gives the desired formula for µ, showing the “if ” part
+of the first statement. The “only if ” part follows from the second statement.
+  (2) By the assumption Re λ′ , Re λ′′ > 0, the integral (2.6) converges for any
+ℓ ∈ N. Since the Casimir element C acts on O(Π) as the scalar 81 λ′′′ (λ′′′ − 2) via
+                           ′′′
+dπλ′′′ , and since Ψλλ′ ,λ′′ is an intertwining operator, the Casimir element C acts on
+                       ′′′                                         ′ +λ′′ +2ℓ
+the image of Ψλλ′ ,λ′′ by the same scalar. Therefore Ψλλ′ ,λ           ′′     (O(Π)) ⊂ Soℓ(Π ×
+Π, Mλ′ ,λ′′ ,−ℓ(λ′ +λ′′ +ℓ−1) ) by (2.35). In turn, Proposition 2.28 and Lemma 2.31 imply
+that
+                                                                                       
+                           ′     ′′                  ℓ        −λ′ −ℓ            −λ′′ −ℓ
+          (Pλ′ ,λ′′ + ℓ(λ + λ + ℓ − 1)) (ζ1 − ζ2 ) (ζ1 + i)           (ζ2 + i)            =0
+as far as Re λ′ , Re λ′′ > 0. By the analytic continuation, the equation holds for all
+λ′ , λ′′ ∈ C.
+    (3) We begin with the case where λ′ and λ′′ are real and λ′ , λ′′ > 1. Then it follows
+from Proposition 2.27, Lemma 2.23 (2) and Proposition 2.22 that
+                           ′′′        ′′′
+                      RC λλ′ ,λ′′ ◦ Ψλλ′ ,λ′′ = cℓ (λ′ , λ′′ )id on H2 (Π)λ′′′ .
+Since H2 (Π)λ′′′ is dense in O(Π), the equality holds on the whole O(Π) by continuity.
+30                         TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+                                                    ′′′      ′′′
+  Moreover, since the operators RC λλ′ ,λ′′ and Ψλλ′ ,λ′′ depend holomorphically on (λ′ , λ′′ ) ∈
+C2 satisfying (2.5), we conclude that
+                                    ′′′       ′′′
+(2.36)                         RC λλ′ ,λ′′ ◦ Ψλλ′ ,λ′′ = cℓ (λ′ , λ′′ )id on O(Π)
+                                                                                          ′′′
+for any (λ′ , λ′′ , λ′′′ ) subject to (2.5) by analytic continuation. In particular, Ψλλ′ ,λ′′ is
+                         ′′′
+injective and RC λλ′ ,λ′′ is surjective because cℓ (λ′ , λ′′ ) 6= 0 in this case.
+                                ′′′
+   Let us prove that Ψλλ′ ,λ′′ : O(Π) −→ Soℓ(Π × Π, Mλ′ ,λ′′ ,−ℓ(λ′ +λ′′ +ℓ−1) ) is surjective.
+We let SL(2, R)e act on O(Π × Π) via πλ′ b            ⊗πλ′′ . Since the map N −→ C, ℓ 7→
+     ′    ′′                                  ′     ′′
+−ℓ(λ + λ + ℓ − 1) is injective if Re λ , Re λ > 0, we have the following inclusion of
+SL(2, R)e-submodules of O(Π × Π):
+              M ′ ′′                         M
+                           +λ +2ℓ
+                    Ψλλ′ ,λ  ′′     (O(Π)) ⊂    Soℓ(Π × Π, Mλ′ ,λ′′ ,−ℓ(λ′ +λ′′ +ℓ−1) ).
+             ℓ∈N                                    ℓ∈N
+
+  We observe that K-multiplicities coincide by (2.34) because the holographic oper-
+        ′ +λ′′ +2ℓ
+ator Ψλλ′ ,λ′′     is injective for any ℓ ∈ N. Therefore,
+                      ′   ′′
+                   Ψλλ′ +λ
+                        ,λ′′
+                             +2ℓ
+                                 : O(Π) −→ Soℓ(Π × Π, Mλ′ ,λ′′ ,−ℓ(λ′ +λ′′ +ℓ−1) )
+is surjective on the level of (g, K)-modules.
+                                                                       ′′′
+   Since cℓ (λ′ , λ′′ ) 6= 0, the symmetry breaking operator RC λλ′ ,λ′′ is injective on
+                                                                                                   
+   ′ +λ′′ +2ℓ                                                                                λ′′′
+Ψλλ′ ,λ′′     (O(Π))   by (2.36), and therefore the underlying (g, K)-module   of  Ker    RC λ′ ,λ′′ ∩
+Soℓ(Π × Π, Mλ′ ,λ′′ ,−ℓ(λ′ +λ′′ +ℓ−1) ) must be zero for any λ′′′ = λ′ + λ′′ + 2ℓ (ℓ ∈ N).
+               ′′′
+Hence RC λλ′ ,λ′′ is injective when restricted to Soℓ(Π × Π, Mλ′ ,λ′′ ,−ℓ(λ′ +λ′′ +ℓ−1) ). Now
+                          ′′′
+we conclude that Ψλλ′ ,λ′′ is surjective. Thus the theorem is proved.                        
+
+     3. Holomorphic Juhl transform and its holographic transform
+   Another remarkable family of differential operators is provided by conformally
+covariant differential operators for the pair S n ⊃ S n−1 of Riemannian manifolds,
+introduced by Juhl [9]. These operators are symmetry breaking operators from
+spherical principal series representations of the Lorentz group O(1, n + 1) to those
+of the subgroup O(1, n). This setting is intimately related to the holographic or
+AdS/CFT correspondence in string theory (see e.g. [21, 24]).
+   The holomorphic Juhl operators are the holomorphic continuation of Juhl’s opera-
+tors, which map holomorphic functions on the n-dimensional Lie ball to those on the
+(n − 1)-dimensional Lie ball, intertwining (relative) discrete series representations of
+G = SOo (2, n) with those of the subgroup G′ = SOo (2, n − 1), see [19].
+   In this section we solve Problems A and B stated in Section 1 for the symmetry
+breaking transform associated with the holomorphic Juhl operators. We assume
+        INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                31
+
+n ≥ 3 throughout this section. The case n = 2 can be recovered from the previous
+section with an appropriate change of parameters.
+
+3.1. Holomorphic Juhl operators.
+
+3.1.1. Holomorphic discrete series of SOo (2, n). Let Qp,q be the standard quadratic
+form of signature (p, q) on Rp+q . The indefinite orthogonal group
+                    
+         O(p, q) := g ∈ GL(p + q, R) : Qp,q (gx) = Qp,q (x) for all x ∈ Rp+q
+has four connected components when p, q > 0. Let G = SOo(2, n) be the identity
+component of O(2, n) and K a maximal compact subgroup of G. We write c(k) for
+the first factor of the Lie algebra k ≃ R ⊕ so(n), and fix a characteristic element
+H0 ∈ c(k) such that ad(H0 ) gives the eigenspace decomposition of gC = Lie(G) ⊗R C
+as
+(3.1)                            gC = kC + n+ + n−
+for eigenvalues 0, −i and i, respectively. The complex structure
+                                                                of the homogeneous
+                                                         π
+space G/K is given by the G-translation of exp ad 2 H0 ∈ GLR (To (G/K)), or
+equivalently, it is induced from the Borel embedding G/K ⊂ GC /KC exp n+ .
+   Let Ge be the universal covering of G = SOo (2, n), p : G     e −→ G the covering
+homomorphism, and set K    e := p−1 (K). For λ ∈ C, we define a character of c(k) by
+tH0 7→ λt, which lifts to a character Cλ of K.e
+                           e
+   Then one can define a G-equivariant    holomorphic line bundle Lλ = G  e × e Cλ over
+                                                                              K
+X := G/e Ke ≃ G/K for all λ ∈ C, and obtain representations π of G(n)    e on the space
+                                                                  λ
+                                                           (n)
+O(X, Lλ ) of holomorphic sections. The representation πλ descends to G if λ ∈ Z.
+                                                        e
+   If λ ∈ R, then the line bundle Lλ −→ X carries a G-invariant       Hermitian metric,
+                                                     2
+and therefore we can define a Hilbert space (O ∩ L ) (X, Lλ ). This Hilbert space is
+nonzero if and only if λ > n − 1, and the resulting unitary representation of G,e to be
+                                 (n)
+denoted by the same symbol πλ , is called a (relative) holomorphic discrete series
+representation of e G. For actual computations we use its realization in the weighted
+Bergman space as below.
+   We define the tube domain
+                              TΩ ≡ TΩ(n) := Rn + iΩ(n)
+by taking Ω(n) to be the time-like cone in the Minkowski space R1,n−1 , namely,
+                    Ω(n) := {η ∈ Rn : Q1,n−1 (η) > 0, η1 > 0} .
+  Then the tube domain TΩ is biholomorphic to the bounded symmetric domain of
+type IVn , sometimes referred to as the Lie ball. From a group-theoretic viewpoint,
+32                     TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+TΩ is isomorphic to the Hermitian symmetric space X = G/K, which is realized as
+an open subset of n− (≃ Cn ) via the following maps
+(3.2)                      n− ֒→ GC /KC exp(n+ ) ⊃ G/K.
+                               open                   open
+
+  The homogeneous holomorphic line bundle Lλ −→ X is trivialized via the Bruhat
+decomposition, and the Hilbert space (O ∩ L2 )(X, Lλ ) is then identified with the
+weighted Bergman space
+                H2 (TΩ(n) )λ := O(TΩ(n) ) ∩ L2 (TΩ(n) , Q1,n−1 (η)λ−n dξdη),
+on which G acts as a multiplier representation by
+                                f (ζ) 7→ bλ (g, ζ)f (g −1.ζ)
+for g ∈ G and f (ζ) ∈ O(TΩ(n) ). Here the multiplier
+                                  bλ : G × TΩ(n) −→ C×
+is a 1-cocycle defined by bλ (g, ζ) := χ−λ (k(g, ζ)), where χλ : KC −→ C× is the
+holomorphic extension of the character Cλ of K and k(g, ζ) is an element of KC
+determined by
+                        g −1 exp(ζ) ∈ exp(g −1.ζ)k(g, ζ) exp(n+ ),
+see (3.2).
+  For λ > n − 1 this Hilbert space admits a reproducing kernel Kλ (ζ, τ ) given by:
+
+(3.3)                       Kλ (ζ, τ ) = kλ,n Q1,n−1 (ζ − τ )−λ ,
+where Q1,n−1 (ζ) stands for the holomorphic extension of Q1,n−1 , and we set
+                                                  
+                                     (2i)2λ λ − n2 Γ(λ)
+                             kλ,n :=                    ,
+                                     (4π)n Γ(λ − n + 1)
+see [5, Prop. XIII.1.2]. We note that kλ,n 6= 0 if λ > n − 1.
+   We realize O(2, n − 1) as the subgroup of O(2, n) which fixes the (n + 2)-th coor-
+dinate, and set G′ = SOo(2, n − 1) as its identity component. By abuse of notation,
+we write Ge ′ for the connected subgroup of G   e = SOo (2, n)e corresponding to G′ ⊂ G.
+The subgroup G    e′ is simply connected if n 6= 4. Similarly, a (relative) holomorphic
+discrete series representation πν
+                                   (n−1)    e′ is defined for ν > n − 2, as an irreducible
+                                         of G
+unitary representation on the weighted Bergman space H2 (TΩ(n−1) )ν . By abuse of no-
+                             (n−1)
+tation, the same symbol πν          will be used to denote a (nonunitary) representation
+on O(TΩ(n−1) , Lν ) for ν ∈ C.
+        INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                    33
+
+                                                  ∂      ∂            2   ∂2   2
+3.1.2. Holomorphic Juhl operators. Let ∆C1,n−2 := ∂ζ 2 − ∂ζ 2 − · · · − ∂ζ 2         be the
+                                                                      1    2   n−1
+holomorphic Laplacian on Cn−1 associated to the complexified quadratic form Q1,n−2 .
+For α ∈ C and ℓ, k ∈ N with ℓ ≥ 2k, we define a polynomial of α of degree ℓ − k by
+
+                                          (−1)k 2ℓ−2k · Γ (α + ℓ − k)
+(3.4)                  ak (ℓ, α) :=                                   .
+                                              Γ (α) k!(ℓ − 2k)!
+
+The coefficients ak (ℓ, α) appear in the definition (5.5) of the Gegenbauer polynomials
+Cℓα (x), see Appendix. We define a holomorphic differential operator Dℓα on Cn by
+
+                                [ 2ℓ ]
+                                X                       ℓ−2k
+                                                    ∂
+(3.5)                  Dℓα :=            ak (ℓ, α)                ∆kC1,n−2 .
+                                                   ∂ζn
+                                k=0
+
+
+ For λ, ν ∈ C with ℓ := ν−λ ∈ N, the holomorphic Juhl operator Dλ→ν : O(TΩ(n) ) −→
+O(TΩ(n−1) ) is defined as the composition
+
+                                                         λ− n−1
+(3.6)                     Dλ→ν := Restζn =0 ◦ Dℓ             2
+                                                                  .
+
+   The operator Dλ→ν may be viewed as the holomorphic extension of the original
+Juhl operator [9], which is a conformally covariant differential operator C ∞ (S n ) →
+C ∞ (S n−1 ). In our setting, the hyperbolic space H n is realized as a totally real
+submanifold of the tube domain TΩ(n) , and likewise, H n−1 is that of TΩ(n−1) . The
+restriction of the holomorphic Juhl operator to these real manifolds also yields a
+conformally covariant operator C ∞ (H n ) −→ C ∞ (H n−1), see [16, Thm. E].
+   The holomorphic Juhl operator Dλ→ν gives yet another symmetry breaking oper-
+                                                                               (n)
+ator, intertwining the (relative) holomorphic discrete series representation πλ of G  e
+and the one πν
+               (n−1)
+                     of the subgroup Ge′ [19, Thm. 6.3]. Moreover, the differential op-
+erator Dλ→ν induces a continuous map between the Bergman spaces by the general
+                                                     ∗
+theory [18, Thm. 5.13]. Its adjoint is denoted by Dλ→ν   . We determine the operator
+norm of Dλ→ν in Proposition 3.6.
+
+
+3.2. Two constants cℓ (λ) and rℓ (λ). Throughout Section 3 the parameter set is
+(λ, ν) ∈ C2 with ν − λ ∈ N and n ≥ 3. We use the following notation:
+
+                                           n−1
+(3.7)                      α=λ−                ,         ℓ = ν − λ.
+                                            2
+34                      TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+  As in Section 2.2 devoted to the tensor product case, the main results in this
+section involve the following two constants:
+                                 Z 1
+                                                             1
+                  c ≡ cℓ (λ) :=      |Cℓα (v)|2 (1 − v 2 )α− 2 dv
+                                         −1
+                                  π2n−2λ Γ(2λ + ℓ − n + 1)
+(3.8)                            =                            ,
+                                                          n−1 2
+                                ℓ! λ + ℓ − n−12
+                                                   Γ  λ −   2
+                                bn−1 (ν)
+                  r ≡ rℓ (λ) :=
+                                 bn (λ)
+                                                 
+                                Γ λ + ℓ − n−1  2
+                                                   Γ (λ + ℓ − n + 2)
+(3.9)                        =       3                              ,
+                                (2π) 2 22ℓ+1 Γ λ − n2 Γ (λ − n + 1)
+where bn (λ) is a Plancherel density (see (3.13) below).
+
+3.3. Holomorphic Juhl transforms.
+Definition 3.1 (holomorphic Juhl transform). For λ ∈ C, the holomorphic Juhl
+transform Dλ is a collection of the holomorphic Juhl operators
+             Dλ : O(TΩ(n) ) −→ Map(N, O(TΩ(n−1) )),                 f 7→ {(Dλ f )ℓ }ℓ∈N ,
+where (Dλ f )ℓ := Dλ→λ+ℓ f .
+                                                                    (n)
+   The holomorphic Juhl transform Dλ intertwines (πλ , O(TΩ(n) )) with the formal
+           L
+direct sum c ℓ∈N (πλ+ℓ , O(TΩ(n−1) )); its inversion formula and the corresponding
+                   (n−1)
+
+Parseval–Plancherel type theorems are given as follows.
+Theorem 3.2. Suppose λ > n − 1.
+  (1) (inversion formula). Any f ∈ H2 (TΩ(n) )λ is recovered from Dλ f by
+                                  ∞
+                                  X         1         ∗
+                            f=                       Dλ→λ+ℓ (Dλ f )ℓ .
+                                  ℓ=0
+                                      r ℓ (λ)c ℓ (λ)
+
+     (2) (Parseval–Plancherel type theorem). For every f ∈ H2 (TΩ(n) )λ , we have
+                                       ∞
+                                       X         1
+(3.10)            kf k2H2 (TΩ(n) ) =                      k (Dλ f )ℓ k2H2 (TΩ(n−1) ) .
+                        λ
+                                       ℓ=0
+                                           r ℓ (λ)c ℓ (λ)               λ+ℓ
+
+
+
+  Theorem 3.2 is proved in Section 3.5.4. It gives an answer to Problems A.2 and B
+raised in Section 1 for the holomorphic Juhl transform Dλ . An answer to Problem
+A.1 (explicit integral formula for holographic transform) will be given in Theorem
+3.10.
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                    35
+
+  From a representation-theoretic viewpoint, Theorem 3.2 gives quantitative infor-
+mation on the corresponding branching law for the restriction of the (relative) holo-
+                                            (n)
+morphic discrete series representation πλ of G    e to the subgroup G e′ , which decom-
+                       (n)
+poses the restriction πλ Ge′ into a multiplicity-free direct Hilbert sum of irreducible
+representations of the subgroup G e′ , see [13, Thm. 8.3]:
+                                  (n)
+                                             X⊕ (n−1)
+(3.11)                           πλ |Ge′ ≃       πλ+ℓ .
+                                                      ℓ∈N
+
+Corollary 3.3 (projection operator). Suppose λ > n − 1 and ℓ := ν − λ ∈ N. Then
+                                  1
+                                         D ∗ Dλ→ν
+                             rℓ (λ)cℓ (λ) λ→ν
+is the projection operator from the Hilbert space H2 (TΩ(n) )λ onto the summand which
+                                                               (n−1)
+is unitarily equivalent to the irreducible representation (πν        , H2 (TΩ(n−1) )ν ), see
+(3.11).
+
+
+
+3.4. Key operators in the proof of Theorem 3.2.
+
+   Analogously to the case of the tensor product representations (Section 2), we
+introduce the following continuous operators for the proof of Theorem 3.2:
+           ∗
+         Dλ→ν  : H2 (TΩ(n−1) )ν −→H2 (TΩ(n) )λ                          adjoint of Dλ→ν ,
+         b λ→ν : L2 (Ω(n))λ
+         D                      −→L2 (Ω(n − 1))ν                        Fourier transform of Dλ→ν ,
+           Φνλ : L2 (Ω(n − 1))ν −→L2 (Ω(n))λ                            holographic operator.
+                                                   b λ→ν and Φν , respectively.
+See (3.23) and (3.17) below for the definitions of D          λ
+
+  The link between these operators may be summarized in the following diagram:
+
+                                        Theorem 3.10             ∗
+(3.12)                              Dλ→ν /o /o /o /o /o /o /o / Dλ→ν
+                                        O                                O
+                                                                            O
+                       Proposition 3.7 O
+                                             O                         O Proposition 3.8
+                                                                  O
+                                    b λ→ν /o /o /o /o /o /o /o /o / Φν
+                                    D                                λ
+                                         Proposition 3.5
+
+
+   Among them, the holographic operator Φνλ in the L2 -model will play a crucial role
+in the proof of Theorem 3.2.
+36                       TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+3.5. Holographic transform in the L2 -model on the time-like cone Ω(n).
+
+3.5.1. L2 -model of holomorphic discrete series. For λ > n−1, we denote by L2 (Ω)λ ≡
+L2 (Ω, mλ (y)dy) the Hilbert space of square integrable functions on the time-like
+cone Ω ≡ Ω(n) with respect to the measure mλ (y)dy, where mλ is a positive-valued
+function on Ω given by
+                                                                    n
+                                        mλ (y) := Q1,n−1 (y) 2 −λ .
+               Pn
+Let hy, ζi =      j=1 yj ζj .       Since the cone Ω is self-dual in Rn , the Fourier–Laplace
+transform
+                                                      Z
+                                     (Fn F ) (ζ) :=           F (y)eihy,ζi dy
+                                                          Ω
+
+is a holomorphic function of ζ ∈ TΩ if F ∈ Cc (Ω).
+Fact 3.4 (Faraut–Koranyi [5, Thm. XIII.1.1]). For λ > n − 1, we set
+                               3n
+                                  −1 −2λ+n
+                                               n
+(3.13)          bn (λ) := (2π)  2   2      Γ λ−    Γ(λ − n + 1).
+                                                2
+Then the Fourier–Laplace transform Fn : Cc (Ω) −→ O(TΩ ) extends to a linear bijec-
+tion:
+                                                   ∼
+(3.14)                                Fn : L2 (Ω)λ →Hλ2 (TΩ(n) ).
+
+with
+               kFn F k2H2 (TΩ(n) ) = bn (λ)kF k2L2 (Ω(n))λ           for all F ∈ L2 (Ω)λ .
+                         λ
+
+
+  Via the isomorphism (3.14), an irreducible unitary representation of G  e is defined on
+L2 (Ω)λ for λ > n − 1, to which we refer as the L2 -model of the (relative) holomorphic
+                                (n)
+discrete series representation πλ .
+  Similarly, we define a positive-valued function
+                                                                    n−1
+                                       m′ν (y ′) := Q1,n−2 (y ′) 2 −ν
+
+on the time-like cone Ω′ ≡ Ω(n−1) in R1,n−2 , and we set L2 (Ω′ )ν := L2 (Ω′ , m′ν (y ′)dy ′)
+on which the L2 -model of the (relative) holomorphic discrete series representation
+ (n−1)
+πν        e ′ is defined via the unitary map
+       of G
+                                           ∼
+                     Fn−1 : L2 (Ω′ )ν →Hν2 (TΩ(n−1) )                   for ν > n − 2
+                                1
+up to rescaling bn−1 (ν)− 2 .
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                     37
+
+3.5.2. Gegenbauer polynomial and Juhl’s conformally covariant operator. Let ak (ℓ, α)
+be as in (3.4). We define a polynomial of two variables by
+
+                                                  X]
+                                                  [2
+                                                   ℓ
+
+
+(3.15)                      (Iℓ Cℓα )(u, v) :=          ak (ℓ, α)uk v ℓ−2k .
+                                                  k=0
+
+For instance, we have (I0 C0α )(u, v) = 1, (I1 C1α )(u, v) = 2αv, and (I2 C2α )(u, v) =
+α(2(α + 1)v 2 − u). By definition, (Iℓ Cℓα )(w 2 , v) is a homogeneous polynomial of
+degree ℓ, and (Iℓ Cℓα )(1, v) coincides with the Gegenbauer polynomial Cℓα (v), see (5.5)
+in Appendix. (This is the reason why we adopted the notation Iℓ Cℓα .)
+   The F-method [19, Thm. 6.3] shows that the differential operator Dℓα (see (3.5))
+is expressed as
+
+                                                                   
+                                                                 ∂
+(3.16)                      Dℓα = i−ℓ (Iℓ Cℓα )    −∆C1,n−2 , i       .
+                                                                ∂ζn
+
+3.5.3. Construction of discrete summands in the L2 -model. Following the idea of the
+F-method [15], we introduce the holographic operator Φνλ as a multiplication operator
+like in the tensor product case (cf. Definition 2.10). By the simplicity of its formula,
+the holographic operator Φνλ in the L2 -model plays a crucial role in the proof of
+Theorem 3.2.
+   Retain the basic setting (3.7) where ℓ = ν −λ ∈ N and α = λ− n−1  2
+                                                                       . For a function
+h(y ′ ) on Ω(n − 1), we define (Φνλ h) (y) on Ω(n) by
+
+          (Φνλ h) (y) := Q1,n−2 (y ′)−(ℓ+ 2 ) (1 − yn2 )λ− 2 (Iℓ Cℓα ) (Q1,n−2 (y ′ ), −yn )h(y ′ ).
+                                            1                  n
+(3.17)
+  Then Φνλ gives rise to a holographic operator in the L2 -model in the following
+sense:
+Proposition 3.5. Suppose that λ > n − 1 and ν = λ + ℓ for some ℓ ∈ N.
+   (1) The linear map Φνλ : L2 (Ω(n−1))ν −→ L2 (Ω(n))λ is an isometry up to scalar:
+         kΦνλ (h)k2L2 (Ω(n))λ = cℓ (λ)khk2L2 (Ω(n−1))ν        for all h ∈ L2 (Ω(n − 1))ν ,
+
+       where we recall that the constant cℓ (λ) is given in (3.8).
+                                                                 (n−1)
+   (2) Φνλ intertwines the irreducible unitary representation πν       of the subgroup
+       e with the restriction π
+       G ′                      (n)
+                                    e′ .
+                                λ G
+
+  We also discuss some further basic properties of the holographic operators Φνλ in
+Proposition 3.8.
+38                      TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+3.5.4. Proof of Theorem 3.2. Postponing the proof of Proposition 3.5 until Section
+3.5.7 and Proposition 3.8 below until Section 3.5.8 we complete the proof of Theorem
+3.2.
+Proposition 3.6. Suppose λ > n − 1 and ν = λ + ℓ with ℓ ∈ N. Then the dif-
+ferential operator Dλ→ν extends to a continuous linear map Dλ→ν : H2 (TΩ(n) )λ −→
+H2 (TΩ(n−1) )ν with the following operator norm:
+
+                                    kDλ→ν k2op = rℓ (λ)cℓ (λ).
+
+Proof. It follows from Lemma 2.24 (1) and Propositions 3.5 and 3.8 that
+                                    b λ→ν k2 = rℓ (λ)kΦν k2 = rℓ (λ)cℓ (λ).
+                kDλ→ν k2op = rℓ (λ)kD      op          λ op
+
+                                                                                     
+
+Proof of Theorem 3.2. By Lemma 2.23 and by the (abstract) branching law (3.11)
+                    e↓G
+for the restriction G    e′ , the theorem follows from the expression of the operator
+norm of the differential operator Dλ→ν given in Proposition 3.6.                   
+
+
+     The rest of this section is devoted to the proof of Proposition 3.5.
+
+3.5.5. Coordinate change in the L2 -model. As in Section 2.7.2 for the tensor product
+case, we introduce the following coordinates of the time-like cone Ω(n) in R1,n−1 :
+                                                                q
+                                     ∼
+(3.18)       ι : Ω(n − 1) × (−1, 1) −→ Ω(n), (y ′, v) 7→ (y ′, − Q1,n−2 (y ′ )v),
+
+which is a bijection because (y ′, yn ) ∈ Ω(n) if and only if y ′ ∈ Ω(n − 1) and yn2 <
+Q1,n−2 (y ′ ).
+  We define a function on Ω(n − 1) × (−1, 1) by
+                                                               ℓ+1          n
+(3.19)             M(y ′ , v) ≡ Mλ,ν (y ′ , v) := Q1,n−2 (y ′) 2 (1 − v 2 ) 2 −λ .
+
+  Via the isomorphism ι, the ratio of the densities mλ (y) and mν (y ′), and the holo-
+graphic operator Φνλ are expressed as follows:
+                          m′ν (y ′)                              ℓ
+(3.20)                              = M(y ′ , v)−1 Q1,n−2 (y ′)− 2 ,
+                          mλ (y)
+                                                                                n
+(3.21)                   mλ (y)dy = M(y ′ , v)2 m′ν (y ′ )dy ′(1 − v 2 )λ− 2 dv,
+(3.22)           (Φνλ h) ◦ ι(y ′ , v) = M(y ′ , v)−1 Cℓα (v)h(y ′).
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                    39
+
+3.5.6. Fourier transform of the holomorphic Juhl operators. For λ > n − 1 and ν =
+λ+ℓ (ℓ ∈ N), the holomorphic Juhl operator Dλ→ν gives rise to a continuous operator
+H2 (TΩ(n) )λ −→ H2 (TΩ(n−1) )ν between the weighted Bergman spaces [18, Thm. 5.13].
+  We define a linear map D  b λ→ν : L2 (Ω)λ −→ L2 (Ω′ )ν by
+
+(3.23)                       b λ→ν := F −1 ◦ Dλ→ν ◦ Fn .
+                             D         n−1
+
+                                                                           b λ→ν
+   Then the idea of the F-method [18] implies that the “Fourier transform” D
+of the holomorphic Juhl operator Dλ→ν is given by a Gegenbauer transform (cf. [4,
+Chap. 15]) along the trajectory in (3.18) where the parameter v moves:
+
+Proposition 3.7. The operator D b λ→ν is given by the following integral transform:
+                                      Z 1
+                                    ℓ+1
+       b λ→ν F (y ) = i Q1,n−2 (y ) 2
+       D         ′     −ℓ         ′
+                                            F ◦ ι(y ′ , v)Cℓα (v)dv for y ′ ∈ Ω′ ,
+                                           −1
+
+where we set α = λ − n−1
+                      2
+                         .
+Proof. Let α = λ − n−12
+                        . Then it follows from (3.5) and (3.16) that
+                                                                             
+             ℓ
+                                                    α                    ∂
+            i Dλ→ν ◦ Fn F = Restζn =0 ◦ (Iℓ Cℓ ) −∆C1,n−2 , i                    Fn F
+                                                                        ∂ζn
+(3.24)                         = Restζn =0 ◦ Fn (Iℓ Cℓα (Q1,n−2 (y ′ ), −yn )F ) ,
+                                                         
+for F ∈ L2 (Ω(n))λ . Since (Iℓ Cℓα )(u2, w) = uℓ Cℓα wu , the right-hand side amounts to
+                    Z      Z 1
+                                                         ℓ+1           ′ ′
+                                F ◦ ι(y ′, v)Q1,n−2 (y ′) 2 Cℓα (v)eihy ,ζ i dy ′dv
+                    Ω(n−1)   −1
+                                    Z 1                      
+                               ′ ℓ+1            ′     α
+               = Fn−1 Q1,n−1 (y ) 2      F ◦ ι(y , v)Cℓ (v)dv
+                                          −1
+
+via the diffeomorphism (3.18). Since the left-hand side of (3.24) is equal to iℓ Fn−1 ◦
+b λ→ν F by the definition (3.23) of D
+D                                   b λ→ν , we proved Proposition 3.7.               
+
+3.5.7. Proof of Proposition 3.5.
+Proof of Proposition 3.5. Let α = λ − n−1 2
+                                              as before. By (3.21) and (3.22) we have
+                                                 Z 1
+                                                                             1
+              ν    2              2
+            kΦλ hkL2 (Ω(n))λ = khkL2 (Ω(n−1))λ+ℓ     |Cℓα (v)|2 (1 − v 2 )α− 2 dv.
+                                                −1
+
+Thus the first assertion holds by the definition (3.8) of cℓ (λ).
+  The second assertion follows readily from Proposition 3.8 below.                    
+40                       TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+3.5.8. Holographic operators and the adjoint of symmetry breaking operators. We
+have constructed operators Φνλ in the L2 -model and Φ  b ν in the holomorphic model
+                                                         λ
+using the F-method. On the other hand, the adjoint of symmetry breaking operators
+between unitary representations yield holographic operators in general (cf. Theorem
+4.4 (1) below). In our setting, these operators are proportional to each other be-
+cause the branching law (3.11) is multiplicity-free. We determine the proportionality
+constants:
+Proposition 3.8. Suppose λ > n − 1 and ℓ = ν − λ ∈ N. Then we have
+                                 ∗
+                             b λ→ν = iℓ Φν ,
+                             D            λ
+
+                                        ∗
+                                       Dλ→ν            cν .
+                                            = iℓ rℓ (λ)Φλ
+
+Proof. Take any h ∈ L2 (Ω(n − 1))ν and F ∈ L2 (Ω(n))λ with ν − λ = ℓ ∈ N. Since
+α = λ − n−12
+                is real, Cℓα (v) is real-valued for −1 < v < 1, hence we have from
+Proposition 3.7
+                           
+               h, Db λ→ν F
+                             L2 (Ω(n−1))ν
+                Z               Z 1                                       
+                              ′                 ′ ℓ+1
+         = i  ℓ
+                         h(y )         Q1,n−2 (y ) 2 F ◦ ι(y , v)Cℓ (v)dv m′ν (y ′ )dy ′
+                                                               ′      α
+                  Ω(n−1)            −1
+                Z
+         = iℓ          h(y ′)F (y)(Iℓ Cℓα )(Q1,n−2 (y ′), −yn )m′ν (y ′)dy
+                  Ω(n)
+                Z
+         = iℓ          (Φνλ h) (y)F (y)mλ (y)dy
+                  Ω(n)
+
+         = i (Φνλ h, F )L2 (Ω(n))λ .
+              ℓ
+
+
+Here we have used (3.20) and (3.22) in the third identity. Hence the first equality is
+shown. By Lemma 2.24, the second equality follows from the first one.               
+
+3.6. Explicit integral formula for the holographic operator. In this section,
+                                                           ∗
+we give an integral formula for the holographic operator Dλ→ν  in the holomorphic
+model, giving thus an answer to Problem A.1 in Section 1, see Theorem 3.10 below.
+
+3.6.1. Construction of discrete summands in the holomorphic model. In contrast to
+                             ′′′
+the holographic operators Ψλλ′ ,λ′′ (Definition 2.1) in the tensor product case in Section
+2, we do not have a simple integral expression for a holographic operator like (2.6)
+in the present setting. Instead, we adopt an alternative approach to construct a
+holographic operator by introducing a relative reproducing kernel Kλ,ν (ζ, τ ′) as below.
+      INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                       41
+
+  For λ, ν ∈ C with ℓ := ν − λ ∈ N, we set
+                                                                                                 −ν
+                                ((ζ1 − τ 1 )2 − (ζ2 − τ 2 )2 − · · · − (ζn−1 − τ n−1 )2 − ζn2)
+(3.25)      Kλ,ν (ζ, τ ′ ) :=                                                                         ,
+                                                              ζnλ−ν
+where ζ = (ζ1 , · · · , ζn ) ∈ TΩ(n) and τ ′ = (τ1 , · · · , τn−1 ) ∈ TΩ(n−1) .
+Remark 3.9. Kλ,ν (ζ, τ ′) may be viewed as the holomorphic counterpart of the distri-
+bution kernel of a conformally covariant integral symmetry breaking operator for the
+pair of Riemannian manifolds (S n , S n−1), see [20]. See also (1.1) for the case n = 2.
+  Let dµν be a measure on TΩ(n−1) given by
+                               n−1
+                        ′      i
+                  dµν (τ ) :=        Q1,n−2 (Im τ ′ )ν−n+1 dτ ′ dτ ′ .
+                               2
+Theorem 3.10 (holographic operator). Let n ≥ 3. Suppose λ > n − 1 and ν = λ + ℓ
+with ℓ ∈ N. Then the integral
+                          Z
+                               Kλ,ν (ζ, τ ′)g(τ ′ )dµν (τ ′ )
+                                     TΩ(n−1)
+
+converges for all g ∈ H2 (TΩ(n−1) )ν and ζ ∈ TΩ(n) . Moreover, it gives the adjoint
+           ∗
+operator Dλ→ν  up to scalar multiplication:
+                                 Z
+                   ∗
+                (Dλ→ν g) (ζ) = C          Kλ,ν (ζ, τ ′ )g(τ ′)dµν (τ ′ ),
+                                               TΩ(n−1)
+
+where the constant C is given by
+                            22λ−2n+ℓ−1 (λ − n + 1)n+ℓ−1 (2λ − n)ℓ+1
+(3.26)                  C=                                            .
+                                           i2λ+2ℓ π n ℓ!
+In particular, it yields an injective continuous G e′ -intertwining operator between weighted
+                      2                 2
+Bergman spaces, H (TΩ(n−1) )ν ֒→ H (TΩ(n) )λ .
+  We first show that Theorem 3.10 is derived from the following Bernstein–Sato type
+identity for the holomorphic Juhl operator.
+Theorem 3.11. Let Dℓα be the differential operator as in (3.16). We set
+                                                2ℓ
+(3.27)                         q(n, ℓ; λ) :=       (2λ − n + 1)ℓ (λ)ℓ .
+                                                ℓ!
+Then,
+                            λ− n−1
+                     ζn−ℓ Dℓ    2
+                                     Q1,n−1 (ζ)−λ = q(n, ℓ; λ) Q1,n−1(ζ)−λ−ℓ .
+42                       TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+Remark 3.12. Theorem 3.11 shows that the complex power of the quadratic form
+Q1,n−1 satisfies the Bernstein–Sato type identity not only for the power of the Lapla-
+cian (see (3.32) below) but also for another operator closely related to the holomor-
+phic Juhl operator.
+  Postponing the proof of Theorem 3.11, we complete the proof of Theorem 3.10.
+For this, we also use the following lemma.
+Lemma 3.13. Let Dj (j = 1, 2) be complex manifolds, and Hj Hilbert spaces con-
+tained in O(Dj ) with reproducing kernels K (j) (·, ·). Suppose that R : H1 → H2 is a
+continuous linear map, and R∗ : H2 → H1 is its adjoint operator. Then,
+                                                 
+    (1) RK (1) ( ·, ζ)(τ ′) = R∗ K (2) (·, τ ′ ) (ζ) for ζ ∈ D1 , τ ′ ∈ D2 ;
+    (2) (R∗ g) (ζ) = g, RK (1) ( ·, ζ) H2 for g ∈ H2 and ζ ∈ D1 .
+
+Proof. (1) The first assertion results from the reproducing property of K (j) (·, ·) ap-
+plied to the following identity:
+              (R∗ K (2) ( ·, τ ′ ), K (1) ( ·, ζ))H1 = (K (2) ( ·, τ ′ ), RK (1) ( ·, ζ))H2 .
+(2) The statement is immediate from the following:
+                                              
+              (R∗ g) (ζ) = R∗ g, K (1) ( ·, ζ) H1 = (g, RK (1) ( ·, ζ))H2 .
+                                                                                                
+Proof of Theorem 3.10. Applying Lemma 3.13 to the triple
+                    (R, H1 , H2 ) = (Dλ→ν , H2 (TΩ(n) )λ , H2 (TΩ(n−1) )ν ),
+                                                                              ∗
+we obtain the following integral expression of the adjoint operator Dλ→ν        :
+                               Z
+(3.28)             ∗
+                (Dλ→ν g) (ζ) =         g(τ ′ )Dλ→ν Kλ ( ·, ζ)(τ ′)dµν (τ ′ ).
+                                        TΩ(n−1)
+
+Here, we have viewed the reproducing kernel Kλ (τ, ζ) = kλ,n Q1,n−1 (τ −ζ)−λ defined in
+(3.3) as a function of τ ∈ TΩ(n) with parameter ζ ∈ TΩ(n) and applied the holomorphic
+Juhl operator Dλ→ν . Writing τ as τ = (τ ′ , τn ), we get from Theorem 3.11:
+                      Dλ→ν Kλ (τ, ζ)
+                 = kλ,n q(n, ℓ; λ) Restτn =0 ◦ (τn − ζ n )ℓ Q1,n−1 (τ − ζ)−λ−ℓ
+                 = (−1)ℓ kλ,n q(n, ℓ; λ)Kλ,ν (ζ, τ ′ )
+for τ ′ ∈ TΩ(n−1) , by the definition (3.25) of the relative reproducing kernel Kλ,ν (ζ, τ ′ ).
+Since q(n, ℓ; λ) ∈ R when λ ∈ R, the integral formula of Theorem 3.10 is shown
+with the constant C = (−1)ℓ kλ,n q(n, ℓ; λ). A short computation shows the formula
+(3.26).                                                                                     
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                                   43
+
+  The rest of this section is devoted to the proof of Theorem 3.11.
+3.6.2. Proof of Theorem 3.11.
+Lemma 3.14. Suppose ℓ ∈ N. Then there exist qj ≡ qj (n, ℓ; λ) (0 ≤ 2j ≤ ℓ) such
+that
+                                  [ 2ℓ ]
+                                  X
+               Dℓα Q1,n−1 (ζ)−λ =        qj ζnℓ−2j Q1,n−1 (ζ)−λ−ℓ+j .
+                                                    j=0
+                                                                                                  ℓ
+                                                                                              ∂
+Proof. It is easy to see that an analogous statement holds for                               ∂ζn
+                                                                                                        instead of Dℓα ,
+namely, there exist qj′ ≡ qj′ (n, ℓ; λ) (0 ≤ 2j ≤ ℓ) such that
+                           ℓ                         [ 2ℓ ]
+                                                       X
+                       ∂
+(3.29)                           Q1,n−1 (ζ)−λ =                 qj′ ζnℓ−2j Q1,n−1 (ζ)−λ−ℓ+j .
+                      ∂ζn                                 j=0
+                                              ∂      ∂              ∂    2    ∂    2                    2
+  We rewrite Dℓα as a polynomial of ∆C1,n−1 = ∂ζ 2 − ∂ζ 2 − · · · − ∂ζ 2 and ∂ζ
+                                                                               n
+                                                                                 by
+                                                                          1        2                    n
+                                 ∂          2
+substituting ∆C1,n−2 = ∆C1,n−1 + ∂ζ 2 into (3.5):
+                                             n
+
+                                  [ ]
+                                  X
+                                   ℓ
+                                   2                             ℓ−2k
+                                                    ∂
+(3.30)                 Dℓα =          pk (n, ℓ; α)                           (∆C1,n−1 )k ,
+                                  k=0
+                                                   ∂ζn
+where the first coefficient is given by
+                                           [ 2ℓ ]
+                                           X                                      (2α)ℓ
+(3.31)                 p0 (n, ℓ; α) =               ak (ℓ, α) = Cℓα (1) =               .
+                                           k=0
+                                                                                    ℓ!
+  An iterated use of the formula
+                 ∆C1,n−1 Q1,n−1 (ζ)−λ = 2λ(2λ − n + 2)Q1,n−1 (ζ)−λ−1 ,
+leads us to
+(3.32)             (∆C1,n−1 )k Q1,n−1 (ζ)−λ = sk (n, λ)Q1,n−1 (ζ)−λ−k ,
+for some polynomials sk (n, λ) of λ of degree 2k. We note that s0 (n, λ) = 1. Now the
+lemma follows from (3.29).                                                         
+  Clearly the coefficients qj = qj (n, ℓ; λ) in Lemma 3.14 are unique. The proof of
+Theorem 3.11 is reduced to the following proposition on these coefficients qj (n, ℓ; λ).
+Proposition 3.15.
+  (1) (the first term). Recall that q(n, ℓ; λ) is defined in (3.27). Then,
+                                        q0 (n, ℓ; λ) = q(n, ℓ; λ).
+44                          TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+      (2) (vanishing of higher terms).
+                                   qj (n, ℓ; λ) = 0     for all j ≥ 1.
+Proof of Proposition 3.15 (1). In the expression
+            ℓ−2k                                        ℓ−2k
+          ∂                  k          −λ              ∂
+                   (∆C1,n−1 ) Q1,n−1 (ζ) = sk (n, λ)             Q1,n−1 (ζ)−λ−k ,
+         ∂ζn                                           ∂ζn
+the term ζnℓ Q1,n−1 (ζ)−λ−ℓ occurs only when k = 0, and its coefficient is given by
+s0 (n, λ)2ℓ (λ)ℓ = 2ℓ (λ)ℓ . By (3.30), we get
+                                  q0 (n, ℓ; λ) = p0 (n, ℓ; α) · 2ℓ (λ)ℓ .
+Now the first assertion of Proposition 3.15 follows from (3.31).                                             
+   In order to prove the second assertion of Proposition 3.15, we discuss the kernel
+of the holomorphic Juhl operator Dλ→ν : O(TΩ(n) ) −→ O(TΩ(n−1) ).
+Proposition 3.16. Suppose λ − n−1
+                               2
+                                  6∈ {0, −1, −2, · · · }. Then for any N ∈ N we
+have
+     N
+     \
+           Ker (Dλ→λ+j )
+     j=0
+                           (                                         j                             )
+                                                                 ∂
+                      =      f ∈ O(TΩ(n) ) : Restζn =0 ◦                   f = 0 for all 0 ≤ j ≤ N       .
+                                                                ∂ζn
+
+Proof. By the definition (3.6) of Dλ→ν , the right-hand side is clearly contained in the
+left-hand side. To see the opposite inclusion, we recall from the definition (3.6) that
+the symmetry breaking operator Dλ→λ+j is of the form
+                                                                             
+                                          j X  [ 2j ]       j−2k
+                                       ∂                  ∂                  
+          Dλ→λ+j = Restζn =0 ◦ a0            +        ak            ∆kC1,n−2  ,
+                                      ∂ζn        k=1
+                                                          ∂ζ n
+
+
+where the first coefficient a0 ≡ a0 (j, α) is given by
+                             2j                        n−1
+                                 (α)ℓ
+                           a0 (j, α) =   with α = λ −          .
+                              j!                         2
+  We now prove the proposition by induction on N. The statement is clear for N = 0
+and 1 because Dλ→λ = Restζn =0 and Dλ→λ+1 = Restζn =0 ◦ ∂ζ∂n .
+  Suppose that f ∈ O(TΩ(n) ) satisfies Dλ→λ+j f = 0 for 0 ≤ j ≤ N + 1. By
+                                              j
+the inductive assumption, we get Restζn =0 ◦ ∂ζ∂n f = 0 (0 ≤ j ≤ N). Since
+      INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                              45
+
+a0 ≡ a0 (j, α) is nonzero for any j by the assumption on λ, Dλ→λ+N +1 f = 0 implies
+             N +1
+Restζn =0 ◦ ∂ζ∂n      f = 0. Thus the proposition is proved by induction.        
+
+Proof of Proposition 3.15 (2). Let ν = λ + ℓ. By (3.28) and Lemma 3.14, we obtain
+                ∗
+(3.33)        (Dλ→ν g) (ζ)
+                        [ 2ℓ ]
+                        X               Z
+                  ℓ
+            = (−1) kλ,n            ℓ−2j
+                               qj ζn                  g(τ ′ )Q1,n−1 (ζ − τ )−λ−ℓ+j dµν (τ ′ ),
+                            j=0             TΩ(n−1)
+
+where we write τ = (τ ′ , 0) = (τ1′ , · · · , τn−1
+                                               ′
+                                                   , 0) by abuse of notations.
+  On the other hand, the composition map
+                           ∗
+                 Dλ→λ+j ◦ Dλ→λ+ℓ : H2 (TΩ(n−1) )λ+ℓ −→ H2 (TΩ(n−1) )λ+j
+is a G′ -intertwining operator for any j. Since the G′ -modules H2 (TΩ(n−1) )λ+j (j ∈ N)
+are irreducible and mutually inequivalent if λ > n − 1, such an intertwining operator
+must be zero unless j = ℓ. Therefore
+                                                      ℓ−1
+                                                      \
+                                      ∗
+                                              
+                           Image     Dλ→λ+ℓ       ⊂         Ker (Dλ→λ+j ) .
+                                                      j=0
+                                                                   
+We now prove that qj ≡ qj (n, ℓ; λ) vanishes for all 1 ≤ j ≤ 2ℓ by downward
+induction on j. For simplicity, we treat the case where ℓ is even, say ℓ = 2m. The
+case where ℓ is odd can be dealt with similarly.
+  By Proposition 3.16, we have
+                                ∗
+                   Restζn =0 ◦ Dλ→ν g = 0 for all g ∈ H2 (TΩ(n−1) )ν .
+Then it follows from (3.33) that
+                           Z
+                   ℓ
+              (−1) kλ,n qm       g(τ ′ )Q1,n−2 (ζ ′ − τ )−λ−m dµν (τ ′ ) = 0.
+                                  TΩ(n−1)
+
+Thus we conclude that qm = 0 because kλ,n 6= 0.
+  Suppose that we have shown qj = 0 for j = m, m − 1, · · · , m + 1 − s for some
+s ≥ 1. If s ≤ m − 1, then 2s ≤ ℓ − 1(= 2m − 1) and we can proceed by applying
+Proposition 3.16 with N = ℓ − 1, hence
+                                         2s
+                                       ∂         ∗
+                        Restζn =0 ◦           ◦ Dλ→ν g = 0.
+                                      ∂ζn
+By the inductive assumption, we obtain
+                          Z
+                ℓ
+           (−1) kλ,n qm−s        g(τ ′ )Q1,n−2 (ζ ′ − τ )−λ−m−s dµν (τ ′ ) = 0
+                                  TΩ(n−1)
+46                      TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+for all g ∈ H2 (TΩ(n−1) )ν . Thus we conclude that qm−s = 0 as far as s ≤ m − 1. Hence
+we have shown qj = 0 for all j ≥ 1.                                                 
+     Thus the proof of Theorem 3.11 (hence, also the one of Theorem 3.10) is completed.
+
+ 4. Perspectives of symmetry breaking and holographic transforms
+   We end this article with discussion on a representation-theoretic background of
+Problems A and B in a broader framework.
+   In Section 4.1, we consider these problems from the viewpoint of the branching laws
+of unitary representations of locally compact groups. In Section 4.2, we investigate
+Problems A and B for triples (G, G′, π) such that
+        • (G, G′) is a reductive symmetric pair of holomorphic type;
+        • π is a unitary highest weight module of G of scalar type,
+generalizing the settings for the main results in Sections 2 and 3. The role of special
+orthogonal polynomials in these cases is clarified in Section 4.3.
+
+4.1. Branching laws, symmetry breaking transform and holographic trans-
+form. Let G ⊃ G′ be a pair of groups, π an irreducible G-module, and ρ an irre-
+ducible G′ -module. We recall from Section 1 that an element in HomG′ (π|G′ , ρ) (resp.
+in HomG′ (ρ, π|G′ )) is said to be a symmetry breaking operator (resp. a holographic
+operator). We also recall that a symmetry breaking transform (resp. a holographic
+transform) is a collection of symmetry breaking operators (resp. holographic oper-
+ators) where (ρ, W ) runs over a certain set Λ of irreducible representations of the
+subgroup G′ .
+   If π is a unitary representation of a locally compact group G on a Hilbert space V ,
+then Mautner’s theorem guarantees that the restriction (π|G′ , V ) is unitarily equiv-
+alent to the direct integral of irreducible unitary representations of the subgroup
+G′ :
+                                        Z ⊕
+(4.1)                           π|G′ ≃      mπ (ρ)ρ dµ(ρ),
+                                        c′
+                                        G
+
+where c G′ is the set of equivalence classes of irreducible unitary representations of
+  ′
+G (unitary dual ), µ is a Borel measure on G  c′ endowed with the Fell topology, and
+mπ : Gc′ −→ N ∪ {∞} is a measurable function (multiplicity). The irreducible decom-
+position (4.1) is called branching law of the restriction π|G′ , which is unique up to
+isomorphism if G′ is a type I group, in particular, if G′ is a real reductive group by
+a theorem of Harish-Chandra [8].
+    The (abstract) branching law (4.1) would be enriched through Problems A and
+B by geometric realizations of irreducible representations and explicit intertwining
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                    47
+
+operators:
+                 from (LHS) to (RHS)        symmetry breaking transf orm;
+                 from (RHS) to (LHS)        holographic transform.
+   In the unitary case, it is natural to take Λ to be the support of the measure µ in
+(4.1). If Λ is a countable set, then the branching law (4.1) is discretely decomposable
+without continuous spectrum. A criterion for the triple (G, G′, π) to admit a dis-
+cretely decomposable restriction π|G′ was studied in [11, 12] when G ⊃ G′ is a pair
+of real reductive groups.
+   On the other hand, the multiplicity mπ (ρ) in (4.1) is not always finite when π and
+ρ are infinite-dimensional. A geometric criterion for the pair (G, G′ ) to assure that
+HomG′ (π ∞ |G′ , ρ∞ ) is finite-dimensional for all smooth irreducible G-modules π ∞ and
+G′ -modules ρ∞ was established in [17].
+
+  If the branching law (4.1) is discretely decomposable and multiplicity free, then
+we could expect a simple and detailed study of symmetry breaking transform and
+holographic transform. In this case, since the vector space HomG′ (π|G′ , ρ) is one-
+dimensional, symmetry breaking operator is unique up to scaling for every ρ, and
+the symmetry breaking transform is defined as the collection of countably many such
+operators.
+
+4.2. Symmetric pairs of holomorphic type. In this section, we provide a geo-
+metric condition (see Setting 4.1 below) that assures the branching law π|G′ to be
+discretely decomposable and multiplicity free. In this case, we see that every symme-
+try breaking operator is a differential operator (e.g. the Rankin–Cohen transforms
+studied in Section 2 and the holomorphic Juhl transforms in Section 3), and that our
+symmetry breaking transform D is injective, hence giving an affirmative answer to
+Problem A.0 in Section 1. The main results in Sections 2 and 3 are built on special
+cases of this general setting.
+   Let us fix some notations. Let G be a connected reductive Lie group, θ a Cartan
+involution, K = {g ∈ G : θg = g}, g = k+p the corresponding Cartan decomposition,
+and gC = kC + pC its complexification. Assume that there exists a central element Z
+of kC such that
+                                  gC = kC + n+ + n−
+is the eigenspace decomposition of ad(Z) with eigenvalues 0, 1, and −1, respectively.
+This assumption is satisfied if and only if G is locally isomorphic to a direct product
+of compact Lie groups (with Z = 0) and noncompact Lie groups of Hermitian type.
+Then the associated Riemannian symmetric space X = G/K becomes a Hermitian
+symmetric space with complex structure induced from the Borel embedding G/K ⊂
+48                   TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+GC /KC exp(n+ ). Take a Cartan subalgebra t of k, and write ρ(n+ ) for half the sum
+of roots in ∆(n+ , tC ).
+Setting 4.1. Let (G, G′ ) be a reductive symmetric pair of holomorphic type, that is,
+X = G/K and Y = G′ /K ′ are both Hermitian symmetric spaces and the natural
+embedding ι : Y ֒→ X is holomorphic. Let L = G ×K Cλ be a G-equivariant holo-
+morphic line bundle over X associated to a unitary character Cλ of K, and we set
+H2 (X, L) := (O ∩ L2 ) (X, L). Assume λ satisfies the following condition:
+                      (
+                        hλ, αi = 0             ∀α ∈ ∆(kC , tC ),
+(4.2)
+                        hλ − ρ(n+ ), αi > 0    ∀α ∈ ∆(n+ , tC ).
+   The Hilbert space H2 (X, L) is naturally identified with a weighted Bergman space,
+which is nonzero if λ satisfies the condition (4.2). We denote by π the representation
+of G on the Hilbert space H2 (X, L), which is irreducible and unitary, and is called
+a holomorphic discrete series representation of G. The list of irreducible symmetric
+pairs (G, G′ ) of holomorphic type may be found in [13, Table 3.4.1].
+Fact 4.2 (see [13, Thm. B]). In Setting 4.1, the restriction π|G′ is discretely decom-
+posable and multiplicity free.
+   Any irreducible G′ -module that occurs in the branching law (4.1) for the uni-
+tary representation (π, H2 (X, L)) is of the form H2 (Y, W) for some G′ -equivariant
+holomorphic vector bundle W over Y associated to an irreducible finite-dimensional
+unitary representation W of K ′ , and such bundles W are classified. Thus Λ is
+parametrized by a subset of K c′ , or by a subset of dominant integral weights which
+can be described in terms of the root data (see [13, Thm. 8.3]). We write ρℓ for the
+irreducible unitary representation of G′ corresponding to ℓ ∈ Λ, and identify Λ as
+            c′ by ℓ 7→ ρℓ . Here is a summary on general results about symmetry
+a subset of G
+breaking operators in this setting:
+Fact 4.3. In Setting 4.1, let W be the G′ -equivariant holomorphic vector bundle
+corresponding to ℓ ∈ Λ.
+   (1) Any continuous G′ -homomorphism O(X, L) −→ O(Y, W) is given as a holo-
+       morphic differential operator, and induces a continuous G′ -homomorphism
+       between the Hilbert spaces H2 (X, L) −→ H2 (Y, W).
+   (2) Any continuous G′ -homomorphism H2 (X, L) −→ H2 (Y, W) extends to a con-
+       tinuous G′ -homomorphism O(X, L) −→ O(Y, W).
+Proof. (1) The first statement is proved in [18, Thm. 5.3] (localness theorem), and
+the second one is in [18, Thm. 5.13].
+(2) By (1) there is a natural injective map
+(4.3)       HomG′ (O(X, L) G′ , O(Y, W)) ֒→ HomG′ (H2 (X, L) G′ , H2 (Y, W)).
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                     49
+
+To prove that (4.3) is surjective, we observe that the left-hand side of (4.3) is under-
+stood by the branching law for the generalized Verma module [14, Thm. 5.2] via the
+duality theorem [18, Thm. A], whereas the right-hand side of (4.3) is given by the
+branching law of the unitary representation H2 (X, L)|G′ ([13, Thm. 8.3]), and that
+they coincide under the condition (4.2). Hence (4.3) is bijective.                    
+  In order to clarify the dependence of the parameter ℓ, we write Wℓ for the G′ -
+equivariant vector bundle corresponding to ℓ ∈ Λ from now. Then Fact 4.3 tells that
+the one-dimensional vector space
+                                                                        
+         HomG′ O(X, L) G′ , O(Y, Wℓ ) ≃ HomG′ H2 (X, L) G′ , H2 (Y, Wℓ )
+is spanned by a differential symmetry breaking operator. We fix such a generator
+Dℓ for every ℓ ∈ Λ.
+   Since Dℓ : H2 (X, L) → H2 (Y, Wℓ ) is a continuous operator between the Hilbert
+spaces, its operator norm kDℓ kop is finite and its adjoint Dℓ∗ is a continuous linear
+operator. Set
+                                                    1 ∗
+                            Cℓ := kDℓ k2op , Ψℓ :=    D .
+                                                    Cℓ ℓ
+Let D = (Dℓ )ℓ∈Λ be the symmetry breaking transform. Then we have the following:
+Theorem 4.4. Suppose we are in Setting 4.1.
+  (1) Ψℓ : H2 (Y, Wℓ ) −→ H2 (X, L) is a holographic operator. Moreover, it is an
+      isometry up to renormalization.
+  (2) The symmetry breaking transform D is injective on H2 (X, L).
+  (3) Any f ∈ H2 (X, L) is recovered from its symmetry breaking transform Df by
+                                   X
+                               f=       Ψℓ (Df )ℓ .
+                                       ℓ∈Λ
+
+   (4) The norm kf kH2 (X,L) is recovered from the sequence of norms k (Df )ℓ kH2 (Y,Wℓ )
+       by
+                                      X 1
+                      kf k2H2 (X,L) =         k (Df )ℓ k2H2 (Y,Wℓ ) .
+                                           Cℓ
+                                      ℓ∈Λ
+
+Proof. The unitary representation of G on the Hilbert space H2 (X, L) is decomposed
+discretely and multiplicity freely into the Hilbert direct sum:
+                                            X
+                                               ⊕ 2
+(4.4)                       H2 (X, L)|G′ ≃       H (Y, Wℓ )
+                                             ℓ∈Λ
+
+as unitary representations of the subgroup G′ by Fact 4.3.
+(1) The adjoint operator Dℓ∗ is a G′ -homomorphism because H2 (X, L) and both
+H2 (Y, Wℓ ) are unitary representations. The second assertion follows from Schur’s
+lemma because HomG′ (H2 (Y, Wℓ ), H2 (X, L) G′ ) is one-dimensional.
+50                   TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+                                       P
+(2) Expand f ∈ H2 (X, L) as f =          ℓ∈Λ fℓ according to the decomposition (4.4).
+Then (Df )ℓ is a nonzero multiple of fℓ by Schur’s lemma since the decomposition
+(4.4) is multiplicity free. Hence, if Df = 0, then fℓ = 0 for all ℓ ∈ Λ, and therefore
+f = 0.
+Statements (3) and (4) are direct consequences of Lemma 2.23.                       
+
+
+
+
+4.3. Role of orthogonal polynomials. In this section we investigate Problems
+A and B in Setting 4.1, and clarify the role of the F-method and special orthog-
+onal polynomials for the L2 -theory of symmetry breaking transforms consisting of
+holomorphic differential operators.
+   Suppose we are in Setting 4.1. As we have seen in Section 4.2, Theorem 4.4
+(2) solves Problem A.0, whereas Theorem 4.4 (1), (3), and (4) give a framework
+for Problems A.1, A.2, and B, respectively, for the symmetry breaking transform
+D = (Dℓ )ℓ∈Λ . Thus the solution to Problems A and B is reduced to the following
+four questions of finding explicit description and closed formulæ of
+
+     • the support of Λ;
+     • holomorphic differential operators Dℓ ;
+     • the operator norm kDℓ kop ;
+     • the adjoint operator Dℓ∗ .
+
+   Let us summarize briefly what was known, what has been proved in this article,
+and what looks promising.
+   As we mentioned in Section 4.2, the explicit description of Λ, equivalently, the
+branching law (4.4) for the restriction π|G′ in Section 4.1 was proved in [13, Thm.
+8.3], which gives a generalization of the Hua–Kostant–Schmid formula in the case
+when G′ = K. Denote by rankR G/G′ the split rank of the reductive symmetric space
+G/G′ . Then it turns out that Λ is a free abelian semigroup generated by rankR G/G′
+elements, see [13].
+   It is more involved to construct symmetry breaking operators Dℓ explicitly than
+determining Λ, namely, the branching law of the restriction π|G′ . As of now, an
+explicit construction of Dℓ for all ℓ ∈ Λ with exhaustion theorem is known when
+rankR G/G′ = 1, see [19]. There are six families of such symmetric pairs (G, G′ ), and
+the resulting symmetry breaking operators include the Rankin–Cohen operators and
+the holomorphic Juhl operators.
+   In order to obtain the operator norm kDℓ kop of such holomorphic differential op-
+erators Dℓ , we have developed the idea of the F-method to connect kDℓ kop with the
+L2 -norm of special polynomials Pℓ in the following two cases in this article.
+     INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                       51
+
+                                 Dℓ                         Pℓ
+
+                   Rankin–Cohen operators        Jacobi polynomials
+
+
+                         Juhl operators        Gegenbauer polynomials
+The relationship between Dℓ and Pℓ follows from the fact that the G′ -equivariance
+condition on the operator Dℓ is transformed into a certain differential equation (e.g.
+Jacobi differential equation (5.1)) for the polynomial Pℓ . It is plausible that this idea
+would work in the full generality of Setting 4.1.
+   Concerning the adjoint operator Dℓ∗ , this article has provided two kinds of integral
+formulæ, that is, by the line integral (Definition 2.1), see Proposition 2.22, and by
+the integral over the tube domain (Theorem 3.10). The former has an advantage that
+the formula is simple and does not require the unitarity of representations, whilst the
+latter uses a natural idea of the “relative reproducing kernel” Kλ,ν (ζ, τ ′ ), see (3.25).
+
+     5. Appendix: Jacobi polynomials and Gegenbauer polynomials
+5.1. The Jacobi polynomials. Suppose α, β ∈ C and ℓ ∈ N. The Jacobi polyno-
+mial Pℓα,β (t) is a polynomial solution to the Jacobi differential equation
+                        2
+                                                                          
+                     2 d                           d
+(5.1)         (1 − t ) 2 + (β − α − (α + β + 2)t) + ℓ(ℓ + α + β + 1) y = 0,
+                       dt                          dt
+which is normalized by Pℓα,β (1) = Γ(α+ℓ+1)
+                                   Γ(α+1)ℓ!
+                                            = (α+1)
+                                                ℓ!
+                                                   ℓ
+                                                     . Then it satisfies the Rodrigues
+formula
+                                             ℓ
+                          β α,β       (−1)ℓ d                             
+(5.2)             α
+           (1 − t) (1 + t) Pℓ (t) = ℓ                (1 − t)ℓ+α (1 + t)ℓ+β .
+                                       2 ℓ!  dt
+  The Jacobi polynomial Pℓα,β (t) is nonzero and is a polynomial of degree ℓ for
+generic parameters (see [19, Thm. 11.2] for the precise condition). Explicitly, one
+has
+                                                                     
+             α,β         (α + 1)ℓ                                1−t
+            Pℓ (t) =              2 F1 −ℓ, α + β + ℓ + 1; α + 1;
+                             ℓ!                                    2
+                         Xℓ                                        j
+                              (α + β + ℓ + 1)j (α + j + 1)ℓ−j t − 1
+(5.3)                =                                                 .
+                         j=0
+                                        (ℓ − j)!j!               2
+  The first Jacobi polynomials are
+    • P0α,β (t) = 1,
+    • P1α,β (t) = 21 (α − β + (2 + α + β)t).
+52                       TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+                                                                      n            o
+For real α, β with α, β > −1, the Jacobi polynomials                       Pℓα,β
+                                                                   form an orthogonal
+                                                              ℓ∈N
+basis in the Hilbert space L2 (−1, 1), (1 − x)α (1 + x)β dx with the following norm
+(see [1, page 301] for example):
+          Z 1          2                         2α+β+1 Γ(ℓ + α + 1)Γ(ℓ + β + 1)
+(5.4)         Pℓα,β (x) (1 − x)α (1 + x)β dx =                                    .
+           −1                                  (2ℓ + α + β + 1)Γ(ℓ + α + β + 1)ℓ!
+  When α = β these polynomials yield Gegenbauer polynomials (see (5.6) below),
+and they further reduce to Legendre polynomials in the case when α = β = 0.
+5.2. The Gegenbauer polynomials. For α ∈ C and ℓ ∈ N, the Gegenbauer poly-
+nomial (or ultraspherical polynomial) Cℓα (t) is defined by
+                                               [ 2ℓ ]
+                                               X
+(5.5)                              Cℓα (t) =            ak (ℓ, α)tℓ−2k ,
+                                               k=0
+
+where ak (ℓ, α) is given in (3.4). The Gegenbauer polynomials are special cases of the
+Jacobi polynomials by
+                              (2α + 1)ℓ α,α         α+ 1
+(5.6)                                   Pℓ (x) = Cℓ 2 (x),
+                               (α + 1)ℓ
+and have the generating function:
+                                                  X
+                             (1 − 2tr + r 2 )−α =   Cℓα (t)r ℓ .
+                                                             ℓ∈N
+
+We note that Cℓα (1) = (2α)
+                         ℓ!
+                            ℓ
+                              . If α > − 12 , then the Gegenbauer
+                                                                 polynomials {C α
+                                                                                ℓ (v)}ℓ∈N
+                                                                            1
+                                                        2              2 α− 2
+form an orthonormal basis in the Hilbert space L                    (−1, 1), (1 − v )   dv with the
+following L2 -norm (see [7, 7.313]):
+                  Z 1
+                                               1      π21−2α Γ(ℓ + 2α)
+(5.7)                  |Cℓα (v)|2 (1 − v 2 )α− 2 dv =                  .
+                    −1                                 ℓ!(ℓ + α)Γ (α)2
+                                          References
+ [1] G. E. Andrews, R. Askey, R. Roy, Special functions. Encyclopedia of Mathematics and its
+     Applications, 71. Cambridge University Press, Cambridge, 1999. xvi+664 pp.
+ [2] J.-L. Clerc, Another approach to Juhl’s conformally covariant differential operators from S n
+     to S n−1 , SIGMA Symmetry Integrability Geom. Methods Appl. 13 (2017), Paper No. 26, 18
+     pp.
+ [3] H. Cohen, Sums involving the values at negative integers of L-functions of quadratic characters,
+     Math. Ann. 217 (1975), pp. 271–285.
+ [4] L. Debnath, D. Bhatta, Integral transforms and their applications. Third edition. Chapman
+     and Hall/CRC, Boca Raton, FL, 2015. xxvi+792 pp.
+      INVERSION OF RANKIN–COHEN OPERATORS VIA HOLOGRAPHIC TRANSFORM                                53
+
+ [5] J. Faraut, A. Korányi, Analysis on Symmetric Cones. Oxford Science Publications, 1994.
+ [6] C. Fefferman, C. R. Graham, Juhl’s formulae for GJMS operators and Q-curvatures.
+     J. Amer. Math. Soc. 26 (2013), 1191–1207.
+ [7] I. S. Gradshteyn, I. M. Ryzhik. Table of integrals, series, and products.Translated from the Rus-
+     sian. Translation edited and with a preface by Daniel Zwillinger and Victor Moll. Eighth edition.
+     Revised from the seventh edition. Elsevier/Academic Press, Amsterdam, 2015. xlvi+1133 pp.
+ [8] Harish-Chandra, Representations of semisimple Lie groups on a Banach space. Proc. Nat. Acad.
+     Sci. U. S. A. 37 (1951), 170–173.
+ [9] A. Juhl, Families of conformally covariant differential operators, Q-curvature and holography.
+     Progr. Math., 275. Birkhäuser, Basel, 2009.
+[10] M. Kashiwara, A. Kowata, K. Minemura, K. Okamoto, T. Oshima, M. Tanaka, Eigenfunctions
+     of invariant differential operators on a symmetric space, Ann. of Math. 107 (1978), pp. 1-39.
+[11] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with respect to reductive
+     subgroups II–micro-local analysis and asymptotic K-support, Ann. of Math. (2) 147 (1998).
+[12] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with respect to reductive
+     subgroups III–restriction of Harish-Chandra modules and associated varieties, Invent. Math.
+     131 (1998), pp. 229–256.
+[13] T. Kobayashi, Multiplicity-free theorems of the restrictions of unitary highest weight modules
+     with respect to reductive symmetric pairs. Representation theory and automorphic forms,
+     Progr. Math., 255, Birkhäuser, Boston, (2008), pp. 45–109.
+[14] T. Kobayashi, Restrictions of generalized Verma modules to symmetric pairs, Transform.
+     Groups 17 (2012), pp. 523–546.
+[15] T. Kobayashi, F-method for symmetry breaking operators, Diff. Geometry and its Appl. 33
+     (2014), pp. 272–289.
+[16] T. Kobayashi, T. Kubo, M. Pevzner, Conformal symmetry breaking operators for anti-
+     de Sitter spaces. In: Geometric methods in physics XXXV, pp. 69–85, Trends Math.,
+     Birkhäuser/Springer, Cham, 2018.
+[17] T. Kobayashi, T. Oshima, Finite multiplicity theorems for induction and restriction, Adv.
+     Math., 248 (2013), 921–944.
+[18] T. Kobayashi, M. Pevzner, Differential symmetry breaking operators. I. General theory and
+     F-method. Selecta Math. (N.S.) 22 (2016), 801–845.
+[19] T. Kobayashi, M. Pevzner, Differential symmetry breaking operators. II. Rankin–Cohen oper-
+     ators for symmetric pairs. Selecta Math. (N.S.) 22 (2016), 847–911.
+[20] T. Kobayashi, B. Speh, Symmetry Breaking for Representations of Rank One Orthogonal
+     Groups, Mem. Amer. Math. Soc., 238, Amer. Math. Soc., Providence, RI, 2015, v+112 pp.,
+     ISBN: 978-1-4704-1922-6.
+[21] J. M. Maldacena, The large N limit of superconformal field theories and supergravity. Adv.
+     Theor. Math. Phys. 2 (1998), no. 2, pp. 231–252.
+[22] V.F. Molchanov, Tensor products of unitary representations of the three-dimensional Lorentz
+     group. Math. USSR, Izv. 15 (1980), pp. 113–143.
+[23] J. Repka, Tensor products of holomorphic discrete series representations. Can. J. Math. 31
+     (1979), pp. 836–844.
+[24] example E. Witten, Anti-de-Sitter space and holography, Adv. Theor. Math. Phys. 2 (1998),
+     pp. 253–291.
+[25] D. Zagier, Modular forms and differential operators. Proc. Indian Acad. Sci. (Math. Sci.) 104,
+     57–75 (1994).
+54                     TOSHIYUKI KOBAYASHI, MICHAEL PEVZNER
+
+Addresses: T. Kobayashi. Graduate School of Mathematical Sciences and Kavli IPMU (WPI), The
+University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8914 Japan; toshi@ms.u-tokyo.ac.jp.
+M. Pevzner. Laboratoire de Mathématiques de Reims, Université de Reims-Champagne-Ardenne,
+FRE 2011 CNRS, F-51687, Reims, France; pevzner@univ-reims.fr.
+

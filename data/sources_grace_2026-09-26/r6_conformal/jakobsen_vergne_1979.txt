@@ -1,0 +1,1173 @@
+JOURNAL   OF FUNCTIONAL       ANALYSIS    34, 29-53 (1979)
+
+
+
+
+   Restrictions       and Expansions of Holomorphic                         Representations
+
+                                     HANS PLESNER JAKOBSEN *
+
+                          Brandeis   University,   Waltham, Massachusetts
+
+                                                   AND
+
+                                          MICHELE     VERGNE+
+
+          Massachusetts Institute        of Technology, Cambridge, Massachusetts 02139
+                                     Communicated by the Editors
+
+                                         Received May 1, 1978
+
+
+        We compute tensor products of representations of the holomorphic      discrete
+     series of a Lie group G, or restrictions to some subgroup G’. iz detailed study
+     is done for the case of the conformal group 0(4, 2).
+
+
+
+
+     Let D, be a homogeneous bounded domain in Cl’ containing the origin 0.
+ Let G, be the group of holomorphic transformations of D, and let us consider
+ a representation T, of G inside a Hilbert space H, of holomorphic functions
+ on D, .
+    As a simple example, suppose that D,-, = {D, n z, = 0} is a homogeneous
+ bounded domain in P-l for a subgroup G,_, of G, . We consider the restriction
+ of the representation     T, to G,_, . Clearly, as the Hilbert space H, consists of
+ holomorphic      functions,    the restriction   map R,:f(z,     , z2 ,..., .z,~-~, z,) -+
+f(q , 22 ,..., X,-l 90) intertwines the representation      T, with a representation
+ T n-1 of G,,-l inside a space of holomorphic functions on D,-, . The kernel of R,
+is the subspace of holomorphic functions in H,, which vanish where z, = 0.
+Similarly, the maps lip = ((a/ik,)p .f) (2,zo are well defined, therefore it is
+natural, in order to calculate T,, jCnel , to expand the functions f in H, in
+Taylor series with respect to the variable z, .
+    Let D = G/K be a Hermitian symmetric space. We will consider a representa-
+tion T of G of the holomorphic discrete series. The preceding simple idea of
+taking normal derivatives gives us the decomposition of the restriction of T to any
+
+  * Supported   in part by NSF Grant MCS76-11312.
+  + Supported   in part by NSF Grant MCS7602762.
+                                                    29
+                                                                  0022-1236/79/100029-25$02.00/o
+                                                                Copyright 0 1979by Academic Press,Inc.
+                                                          All rights of reproduction in any form reserved.
+30                            JAKOBSEN   AND   VBRGNE
+
+
+subgroup G’ of G for which G/K’ is a complex submanifold of G/K (Propo-
+sition 2.5).
+    The tensor product of two representations of the holomorphic discrete
+series is included in this study, as it corresponds to the diagonal submanifold
+D' = (z, a) C D x D (Corollary 2.6). The idea of considering filtrations
+according to the order of vanishing along submanifolds is due to Martens [14],
+who used it to compute the characters of the holomorphic discrete series. We
+will refer to it as the Martens method.
+    Sections 3 and 4 deal with matters relevant to theoretical physics. The problems
+arose in connection with the extension to microphysics of the macrophysical
+theory of Segal [ll]. We have benefited from discussions with B. Orsted,
+B. Speh, and I. Segal concerning these problems. The physical significance of
+the restriction question for representations of 0(4, 2) to 0(3,2) is indicated in
+part in our joint note, (Jacobsen et al. [6]) and in part by Segal [1 11. The scalar
+case has been treated by another method in particularly explicit form by Orsted
+[9], who also considered the analogous question for the action of 0( p, 4) on
+SP-l x S*-l. We believe that Martens method shed some light on these matters,
+for the particular case of the group 0(2, n).
+    In Section 3, we study the modules of K-finite functions on the Minkowski-
+space lR1tn obtained by taking boundary values of holomorphic functions on the
+associated homogeneous tube domain R1fn + iC+, where C+ is the solid light
+cone. These modules are the “positive-energy”            subspaces of some of the
+classical representation of the group O(2,n + 1) acting by conformal transforma-
+tions on the Minkowski space. We give the decomposition of the positive
+energy subspace under the Lie algebra of 0(2, n). In particular, it is multi-
+plicity free. We also obtain information about the Fourier transforms of the
+modules.
+    In Section 4, we study the decomposition of tensor products of unitary repre-
+sentations of SU(2,2) in reproducing kernel Hilbert spaces of holomorphic
+functions. Our main interest is in the case in which at least one factor in the
+tensor product lives in a solution space to a “Mass-zero” equation. Some of
+the results apply equally well to SU(n, n) and Mp(n, R); however, to complete
+the analysis some concrete computations are needed, and we only do these for
+SU(2, 2). We finish this paragraph by observing that certain differential equa-
+tions appear naturally in the decomposition of such tensor products.
+    We wish to thank M. Kashiwara, E. Gutkin, B. Orsted, I. E. Segal, and B. Speh
+for helpful discussions.
+
+
+                        1. THE GENERAL CASE; MODULES
+
+   Let G be a Lie group with Lie algebrag. Let G, and G, be connected subgroups
+of G with Lie algebras g, and ga . Let 7i be a representation of gi in a finite-
+                        HOLOMORPHIC     REPRESENTATIONS                         31
+
+dimensional vector space V,, , let e!(g) be the enveloping algebra of g and let
+
+
+
+
+be the induced module.
+  We consider M as a g2-module and let 9YO(g) C **aC @J g) C *mebe the
+canonical filtration of@(g). Then the modules
+
+
+
+clearly form an increasing sequence of g,-modules.
+   For a vector space Y we denote by S(Y) = 0” S”(V) the symmetric algebra
+of V with its canonical gradation. We consider the natural action of gr n gz
+on g/g1 + ga; with this Sfl( g/f1 + ga) is a gi n gz moduIe.
+   It is easy to check that the %( us) module M,/M,-I is isomorphic to
+
+
+
+
+  We assume that we are given a representation T; of G, in the dual space I’:,
+of VT1? whose differential, also denoted by T; , equals the contragredient repre-
+sentation of 7, . The space 6Y(G, Gt , I/:,) of analytic functions 9: G -P I!:, for
+which, for all (g, g,) E G x Gi ,
+
+                              d&h)    = ~;kJ1d‘d                              (1.3)
+can be identified with the space of analytic sections of the bundle
+
+                              G x G1V;, -+ G/G, .                             U-4)
+
+G acts on OZ(G,Gi , V.:,) by left translation.
+   For .Y~g we denote by P(X) the differential operator which acts on P-func-
+tions v from G to Vi, by
+
+                                                                              (1.5)
+
+and extend I to @(g”). Clearly, if v E LZ(G, Gi , V;,) and if x ~gr ,
+
+                            W)v)(d = -‘X4 v(g)*                                U-6)
+
+   For uE%(gc),    VE VTl, and v E OZ(G,Gi , Vii) we now define
+
+
+
+ 5W34lr-3
+32                              JAKOBSEN    AND    VERGNE
+
+
+and observe that this only depends upon u and v through the image .$ of u @ v
+in Wg,gl,    V,l). Th e corresponding function is denoted by (5, q)(g), and we
+define
+                                    (E, 99 = (E, d(e).                               U-8)
+
+If G is connected and if, for some p in @(G, Gr , Vi:,>, (5, v) = 0 for all 5 in
+IM( g, gr , VTl), then v is zero, since it is assumed to be analytic.
+   The group G, acts on G/G, , and since
+
+                                G 2 . _ez   G/G,   n G, ,                            (1.9)
+
+at the point _e,the tangent space to the submanifold G, * _eof G/G, is gr + &, ,
+and hence the complexified normal space is ( g/g1 + g,)” = gc/g,c + gsc.
+   The restriction map R,: 6Y(G, Gr , V:l> --f 6Y(G,, Gr n G, , Vii) defined by
+
+                                    &+?4(&)= d&>                                    (1.10)
+
+clearly commutes with the action of G, . Moreover,          if G, is connected, it is easy
+to see that
+
+                Rev = 0 *    V5 E M,, = %(gz)(l      @ VT’,,) : (5, v) = 0.        (1.11)
+
+     Let O&, be the kernel of R,:
+
+                        &, = {vE@(G,
+                                  G, V:,,IRap,
+                                            = 01.                                  (1.12)
+
+We can then define a map R, from ICY,,
+                                    to GY(Gs, Gr n G, , ( VT1 @ (f/gl”          + gzc))‘)
+bY
+
+
+
+Here, v E Vi , f E ( g/g1 + g,)c, and x E g” is chosen to be such that the
+equivalence class of x modulo glc + gzc is ff.
+   That R, is a well-defined       map with values in Q?(G, , G, n G, , (VT, @
+(gc/glc + gzC))‘) follows by noting that if R,p, is zero, then so is %I( y)p, for
+any y in glc + gzc. Also, if g, E G, n G, , then Ad_h(g,,) leaves gl + gz invariant.
+   R, can be interpreted as the map which associates to each function v which
+vanishes on G a * _ethe derivatives of 9 along the “normal directions” to G, * _e.
+   This procedure can of course be continued. We let
+
+
+
+and define
+                        HOLOMORPHIC       REPRESENTATIONS                      33
+
+
+
+
+where b E %Pn(gc) is such that its image under the map %!‘I,(gc) - Sn( 9”) +
+P( g”/g,” + gzc) is 6.
+  We will apply this line of thought to the study of certain modules of holo-
+morphic functions on Hermitian symmetric spaces.
+
+
+
+                 2. THE CASE OF A HERMITIAN SYMMETRIC SPACE
+
+   Let 3 be a semisimple Lie algebra and let g = & @ p be a Cartan decomposition
+of &We assume that b has a nontrivial center and choose a Cartan subalgebra hc
+contained in kc, and a system of positive roots A+ of (gc, _hc)such that
+
+
+
+
+wherep+C LA+ g”,p- C ILEd+ $, the spacespf andp- are abelian subalgebras
+of gc, and
+
+                      W,p+l cp+;           [KC,p-l c p-.                     (2.2)
+
+We also define
+
+
+and                                                                          (2.3)
+                            A,+ = (a E df 1g” -cp+}.
+
+  The center 5 of k is one dimensional.    We choose z E 5 such that
+
+                               vx Ep+:[z, x] = ix.                           (2.4)
+
+   Let Gc be the simply connected Lie group with Lie algebra gc, and let Kc,
+G, and K be the connected subgroups corresponding to kc, g, and &. The space
+D = G/K then has the structure of a Hermitian symmetric space, and the space
+of holomorphic functions on D can be identified with the set of analytic functions
+g, on G/K for which r(x)p, = 0 for all x inp-. We finally recall that any element
+g E G uniquely can be written as
+
+                        g = expX+(g)- W *expX-k)                             (2.5)
+
+where X+(g) EP+, X-(g) Ep-, and k(g) E Kc, and that the map g - X+(g)
+is an isomorphism of D onto a bounded domain D( p+) contained in p+ [3,4].
+34                           JAKOBSEN   AND    VERGNE
+
+
+We shall use this version of D, and observe that the action of k E K on D( p+)
+is given by Ad(k). In particular, the group exp tz acts by
+
+                  (exp tz)e = eif * 5    for     5 E D = D( p+).               (2.6)
+
+ Let 7 be a finite-dimensional    irreducible unitary representation of K in V.
+We let
+
+O(G, K, I’,) = {Analytic functions v: G + VT 1Vk E K: q(gk) = T(R)-‘v(g),
+                                                   and Vx up-: r(x)p) = 0).    (2.7)
+
+The group G acts on O(G, K, V,) by left translation. We let kc act on I’; by the
+extension of the contragredient representation of k, and let p- act trivially. As
+before we can then form the module
+
+                   Wg”,k”op-, K) = @!(gC>
+                                        ci? v:                                 (2.8)
+                                      4(kC
+                                         8p3
+and we can define, for any q~E O(G, K, V,) and any 5‘E M( gc, & @p-, V,), the
+function (5, v)(g).
+   If ‘p E O’(G, K, V,), the function (&)(g) = $k(g)) p(g) is invariant under
+right translation by K and hence the map q~+ Pa, is an isomorphism between
+O(G, K, ?‘,) and O(D, V,), the space of holomorphic functions from D to V, .
+The action of K on O(D, V,) becomes
+                           (k - t4(5> = dk) * W’E)                             (2.9)
+
+and it is then clear from (2.6) that any finite-dimensional subspace of O(D, V,),
+that transforms according to an irreducible representation of K, consists of
+restrictions of polynomials on p+ of a certain homogeneity to D. In other words:
+If Of(G, K, V,) denotes the subspace of O(G, K, V,) spanned by the K-finite
+vectors, and if we identify the polynomials on p+ with S( p-) via the Killing
+form, then we have that as K-modules s( p-) via the Killing form, then we have
+that as K-modules, O’(G, K, V,) = S( p-) @ V, .
+   Similar to (1 S) we define Z(X)for x E g, by
+
+                       (W~)k)= $ dexp- txg)LO,                                (2.10)
+
+and extend 1 to %!(gc).
+   If we identify O’f(G, K, V,) with the space of polynomials on pf with values
+in V, , and if, for any P-function f onp+,
+
+                                                                              (2.11)
+                             HOLOMORPHIC       REPRESENTATIONS                  35
+
+for v0 and a inp +, the action of Z(X) for x E gc is given as follows:
+  If x Ep+: (&x) P)(V) = -(W p)(v),
+   if x E Kc: (Z(X)p)(v) = IT p(v) - (a([~, v]) p)(v), and
+  if x Ep-: (44 p>(v)= d~([x,4) P(v)- @TX,4,4> P)(v).                        (2.12)
+
+  For any v in V, the function
+
+                                 (A*)(g) = ~WY             .v                (2.13)
+
+belongs to @(G, K, I’,) and satisfies I( p+) I&* = 0. (I/~~ is defined on the set
+expp+Kc expp-.) In particular, P&V is the constant function 5 --f v on D.
+  We now define a module map 17: %Y(gc) &(*c@r+) VT + 0f(G, K, rT7) by
+
+                                  wu 0 4 = w *?w,                            (2.14)
+
+and let IV(T) denote the image of ‘SP(gc) @ecScBp+, VT under II. It is easy to see
+that every g-submodule of Of(G, K, VT;,)contains W(T). In particular, IV(T) is
+irreducible (and hence is the irreducible quotient of @( gc) @Q(IscB,p+,VT) Since
+@(G, K, V,) has the same decomposition under K as @( gc) @Q~kcOp+~T~~~        , the
+preceding remark also shows that Of(G, K, V,) is isomorphic to
+@(g”) OQ(&lPi-) 77, if and only if the latter is irreducible.
+    Consider the following subsets of K:
+
+                  I =       7 E K / @(gc)     @        VT is irreducible ,
+                        I                   w&J+)                        I
+and                                                                          (2.15)
+                 P = (T E K 1 w(T)         is unitarisable).
+
+We shall need the following result:
+
+  PROPOSITION2.1 [3]. Let T E P. Then there exists a reproducing kernel
+Hilbert spaceH(T) such that W(T) C H(T) C O(G, K, VT’,)and H(T) is the completion
+of W(T). Moreover, if H is a Hilbert space contained in O(G, K, T-) on which G
+acts unitarily, and if the evaluation map 4 -+ 4(e) is a continuous map from H to C
+then H = H(T). To be precise: As sets, H and H(T) are equal, and the Hilbert
+spacestructures are proportional.
+
+  If 7 E P we let T, denote the corresponding unitary representation of G in
+H(T). Finally we observe that the set P is not known apart from some special
+cases [8, 10, 131.
+  Let g, be a semisimple subalgebra of g such that gl = g1 n b @ g1 np is a
+Cartan decomposition of gr . Assume that p,” = plc np+ @plc np-. We let
+36                                JAKOBSEN AND VERGNE
+
+G1 and Kl be the connected subgroups of G corresponding to g1 and h, =
+g n /z, respectively. By the above assumptions D, = Cl/K1 is a Hermitian
+symmetric space, and in the Harish-Chandra realization D, C D Cp+, and
+D, = D “pi+. As before we identify @(G, K, V,) with the space of all poly-
+nomials on p--.
+   Since p,+ _Cpf we have thatp+ = p,+ @p’+ where p’+ is the complement of
+p,+ inp+. Corresponding to this we let (x, y) = (xi ,..., x, , yi ,..., yQ) be a set of
+coordinates onp+, with x ~pr+, and y E p’+.
+   Intuitively speaking we shall decompose G-modules of holomorphic functions
+on D under G, by expressing the corresponding functions ~(x, y) by Taylor
+series;
+                             dx, 4’) = 94% 0) + c Y”%W.
+                                                 a
+
+In this spirit we define subspaces 8, of 0f(G, K, V,) for r = 0, 1,2,..., by
+
+          fl, = span(PJxi ,..., x,) yy .a. y: ) P, is a polynomial
+                 onp+ with values in VT , and / a ( == (Ye+ 1.. + 01~> Y}.         (2.16)
+
+These subspaces 0, are in fact %(gr)- modules as can be seen from (3.12):
+If x opt+ then S(x) only differentiates the polynomials through the s-variables,
+and if .r E bit &(x) is a linear operator that leaves both pi+ and p’+ invariant
+whereas S[s, zg]splits into two terms, one of which is as above, and one which is
+a differential operator with first order polynomials in the y-variables as coeffi-
+cients. Finally, if x ~pi-, one can similarly see that Z(X) leaves 0, invariant.
+   We have g,c = k,c @pi+ @p,- with &c = kc n g,c:, p,+ = pi- n g,c, and
+pi- = p- nmglc. Hence, with bc = kc @p-,
+
+          glc t bC ~= KC op1+      op-,        and      glc n _b” = k,” @ p,-.     (2.17)
+
+Thus, gc/gic + _bcZJJQ,’      as representation spaces for &c @pi- where p,-
+acts trivially, and &c by the natural representation. p+/p,+ can be viewed as the
+space of holomorphic vector fields normal to the domain D, C D at the point _e.
+  The preceding analysis then leads to
+
+     PROPOSITION 2.2. Of(G, K, V,) has a Jiltration             by @(g,)-submodules 0,
+(Y   = 0, 1, 2 ,... ). The quotientsO,/@,.+, are canonically   isomorphic to Of(G, , Kl ,
+7 0 (ST p+/p1+))‘).
+
+   COROLLARY 2.3. Suppose that the representations p of Kl occurring in the
+decomposition of 7 @ (S’( pf,$,+))‘, f OY ezreyy Y, all are in the set I, for Kl (cf.
+(2.15)). Then the @(&nodule      @(G, K, VT) splits into a direct sum.
+                            HOLOMORPHIC      REPRESENTATIONS                       37
+
+   Proof. The functions w = ~9 *.. JQ * w (U E V,) all satisfy: Z(pr+)w = 0.
+Hence we can send %( g,c) @9(klcoP1+J (V, @ (S’(p+lp,+))‘)         into 0,. If the
+hypothesis of the corollary is satisfied this map is an isomorphism into a com-
+plement of Or, .
+   We now turn to the case in which G acts unitarily in a Hilbert space H(T) C
+O(G, K, I’,) in which the point-evaluation    maps are continuous, and consider
+the decomposition of H(T) under G, . We proceed as in Section 1 and let
+
+                              H = H(T),
+and                                                                            (2.18)
+                             %=b=H(+~lc~=W
+
+HO is the kernel of the map R,,: H -+ B(G, K, I;,) defined by (ROv)(gl) = v(g,).
+(We shall continue to use the notation R, for the maps corresponding to (1.15)
+even though the maps here in general are defined on different spaces.) Since HO
+clearly is a closed Gr-invariant subspace of H, H/H,, , and hence R,,(H), has a
+canonical Hilbert space structure. It is easy to see that R,,(H) = H(G, , Kl , VT)
+is a space of functions on Gr in which the point-evaluation    maps are continuous.
+    Let 7 Ix, = @ioJpi be the decomposition       of T jR, into irreducible   pieces.
+Then canonically c(G, , Kl , VT) = 0j.J B(G, , Kl , pj). Since z,&“(e) = v for
+z.1E IV7 , we see that R,(H) intersects each d(G, , Kl , pj) nontrivially,    and it
+then follows that
+
+                %W = H(G, , Kl, T,‘,)= @ ff(G, , k; , L,).                     (2.19)
+                                                  jEJ
+
+
+  The next step is to consider the map R, (cf. (1.13)) from HO to Q(G, , Kl ,
+VT 0 (p+lp,+)‘). In th e P resent setting, the kernel of R, is seen to be
+
+
+                        4    = {v E H,, j x q+    R,r(+p   = o}.               (2.20)
+
+    We recall: If a sequence of holomorphic functions {fn} converges to a function
+f in some region Q, uniformly on compact sets, then f is holomorphic in .Q, and
+ {fJ converges to f’, uniformly on compact sets (Weierstrass). From this it is
+ easy to see that HI is a closed subspace of H,, , that the point-evaluation maps are
+ continuous on R,(H,,), equipped with the Hilbert space structure from H,,/H, ,
+ and that similar facts are true for all the following steps.
+    It is then clear that H,JH,+l can be identified with a subspace of H(G, , Kl,
+ ?= @ (P+l(p+/p,+))‘).      This subspace will in general be proper (see Sections 3
+ and 4). However, we do have
+
+  PROPOSITION    2.5.   Let 7 E I n P. Then H(T) under the action of G, breaks into
+38                                   JAKOBSBN       AND      VERGNE
+
+
+Furthermore, the modules on the right-hand side are all finite sums of H(pi)‘S where
+piEIlnPICRl.
+
+     Proof.H, = {v E H(S) 1R,,p, = 0 and Ror(x”)p, = 0 for all r(~“) = T(x~) a**
+Y(x,)   withxi Egc, i = l,..., o(, 01< n}. We must prove that the map R,+l:
+4 + H(G 7JG > v, 0 P’+YP+/$J,+>)‘) is surjective. For this, it is sufficient
+to prove that the map from H,, to V, @ (Sn+l( p+/&+))‘,
+
+                      v - (R,+de)          - VT 0 (Sn+Yp+/pl+V,
+
+is surjective. That is: for any z, E VT and any set {.rr ,..., x,+r} Cp+ there must
+exist a v E H, such that
+
+                                (W       *a. r(xn+dd(4                  = w.
+
+In the given case we know that the space of K-finite vectors in H(T) equals the
+space of polynomials   on D. Hence functions of the form v(g) = r(k(g))-l
+P(X+(g)), where P is any polynomial on D, are all in H(T), and we have
+
+
+
+                 = - d . .. - d        dexp w             . . . exp      s,+lx,+l)       I s1=. . .=.qn+l=0
+                    4        dsn+1
+
+
+                 = _d . . . __d P(SlXl          +     ...     +       ~,+1&z+1)      151=...=sn+l’ll          .
+                   4        dsn+l
+
+This completes the proof since evidently                    P can be chosen such that the last
+expression equals z1.
+
+
+     COROLLARY   2.6. Let G be as before, and let 7i E I n P for i = 1, 2. Then
+
+                    H(T,) 8 W,) = 6 ff(~, 0 720 Sn(p-)).
+
+    Proof. Imbed G in G x G by the diagonal map and apply Proposition 2.5
+with G = G x G and Gl = G. (Comment: Tl @ 72 E I n P C &,,                  .)
+    We shall now leave the general theory and turn to some special cases particu-
+larly important to physics. For these we shall also consider elements T of J? that
+do not belong to P. Typically, in this cas H( T ) Will consist of sOhtiOns t0 certain
+
+differential equations, and the restriction to G, will then correspond to fixing
+Cauchy data on D, . It is then clear that some of the spaces H,, may be rather
+small, if not zero, and that H(T) in some cases will equal the direct sum of only
+finitely many irreducible representations of G, .
+                           HOLOMORPHIC REPRESENTATIONS                                  39
+
+            3. EXAMPLE: THE MASS ZERO EQUATIONS AND O(2,n                  + 1)
+
+  Consider R2+(n+1) with basis (e-r , es , e, ,..., e,+J and let 4(x, X) denote the
+quadratic form which, in the given basis, is given by
+                                                      lEt1
+                            q(r, x) = x2, + .r; -     z x:.                          (3.1)
+
+
+    Let 0(2, n + 1) be the group of linear transformations            of !R2+tnf1) leaving
+4 invariant, G,.+r its connected component containing the identity, and let g,,+r
+denote the Lie algebra of G,+r . The maximal compact subgroup K,,                 of G,+r
+is isomorphic to SO(2) x SO(n + l), and any irreducible representation 7 of
+K n+1 is then of the form 7 = (01,CL),where the integer Q denotes the representa-
+          ‘OS’ case
+tion 4-sine    sine) = eiue, and p is an irreducible representation of SO(n + 1)
+in V, = VU . We let z denote the element of g,+r which is the generator of the
+subgroup (-‘y8 ns sine
+                    cose), and consider, as above, the representation       T, = T,., of
+G n+1 in o(G+l     , K,+,   , TT7). Let us denote this module by O(o1,CL,n + I).
+    The group G,, is imbedded in G,,+r by extending its action on IIF+~ to RZ+(n+l)
+in the obvious way. The preceding analysis then shows that the space of K-
+finite vectors @(a, CL,n + 1) as a 4Y( g,)-module       has a filtration for which the
+set of composition factors is in a one-to-one onto correspondence by isomor-
+phisms to the set
+
+             {@(a + i, I*~, n) / i = 0, 1, 2 ,... and Y = 1, 2 ,..., E},
+
+where pFL1  @ .** @ pFLIis the decomposition     of p’s restriction to SO(n) into
+irreducible representations. As is well known this decomposition is multiplicity
+free, and it follows that no pair of composition factors are isomorphic as g,-
+modules.
+    We obtain in particular the following as a corollary.
+
+
+   COROLLARY 3.1. Let 7 E P. The restriction of the representation T, of Gnfl
+in H(T) to G, is a direct sum of representations, and is multiplicity free.
+
+   We shall analyze the restriction of T, to G, further for particular       representa-
+tions.
+   Let M = lWl+* denote Minkowski space for n + l-dimensional               space-time.
+Let (e, , e, ,..., e,) be a basis and let
+
+                           x . x = xd’ - .‘c12-    ... - &f*
+                                                                                    (3.2)
+
+The group G,+r acts on M by (locally defined) conformal transformations.  We
+recall that a space of solutions to the wave equation can be equipped with a
+40                                            JAKOBSEN             AND      VERGNE
+
+
+Hilbert space structure in which G,,, acts unitarily [7, lo]. Let us recall the
+precise construction involved in the above statement.
+   Consider the quadratic form 4’ on R2+tnf1) given by
+
+                                 q’(t)    =   to” -        t,’ -    ‘.a -     f,2 + t-ltn+l     .                 (3.3)
+
+This form has signature (2, n + 1) and the linear group that leaves 4’ invariant
+is then 0(2, n + 1). We extend q’ to @2+(n+1) by linearity and consider in the
+complex projective space the open submanifold
+
+              D R+l = {C * z, 1w E C2+(nf1), q’(zI, w) = 0, and q’(w, V) > O}.                                    (3.4)
+
+     If w = x-,e..., + zae,, + *-* + Z,+ie,,+r then @ - w is in Dnfl                                    if and only if
+
+
+                                                    %%+1       +x*x           =o,                                (3Sa)
+
+               +(x-&+1            + %-lZn+l) + 1x0 I2 -                     j Xl I2 -   ... -   1x, I2 > 0       (3.5b)
+
+where    z   . x    =   2:   -     z1@-       ...    -     2,2 =      22.
+
+  These equations imply that z-i (as well as z,+i) is different from zero, and we
+can then normalize w such that x-i = 1. If w is normalized we let
+
+                                         T(@ - w) = T(w) :                  (x0, x1 ,..., x,)                     (3.6)
+
+and can then parametrize D by the subset Q,,,                                       = T(D,+l)       C P+l.   Expressed
+on Qnfl Eq. (3Sb) becomes
+
+                                   (Im xo)2 > (Im zi)? + ... + (Im z,)‘?.                                         (3.7)
+
+L?n+1 is a domain with two connected components Qi,, and Q;,, (corresponding
+to Im z. 5 0). We consider the domain Szz,, . Its Shilov boundary is the set
+{(z, , Z, ,.,., z,) E Cn+l 1Im xi = 0, i = 0, l,..., n} = Rnfl = M. Finally, if
+(x0, Xl ,..., x,) is in Qnfl , we let
+
+                             x,) = e-, + x,e, + ..- + x,e, - (x . x) enfl .
+                   +o , Xl>...,                                                                                   (3.8)
+
+     The group G,+i acts on a=P+(n+l) by w + g . 21.If v -                                      6 denotes the natural
+map from IP+(~+~) onto the projective space P2+trr+l) then g . d = g?? defines
+an action of G,+i on this space which clearly preserves Dn+l , and which in fact,
+since Gnfl is connected, leaves both connected components, D:L+~ and DL+~, of
+D n+l invariant.
+                             HOLOMORPHIC              REPRFSENTATIONS                               41
+
+  We now define a function j on C2+(“+l) by, if v = xle-,                      + a** + z,+,e, ,
+
+                                           j(v) = z-1 .                                           (3.9)
+
+The function
+
+                                   j(g, a) = i(g . v)i(V                                       (3.10)
+
+is then well defined on G,+l        x Dnfl and there satisfies
+
+                             &x2     v 3    =   ikl      , g2~).itg2   J $1.                   (3.11)
+
+  This   means that we can define a family                      of representations    T, of Gnfl on
+Wn+d     (or WX+d       ‘v
+
+                             V&)f)(~) = itP7 VY(g-‘~)
+for ci EZ..
+   As in Section 2, we denote by @(LX; 12+ 1) the space of K-finite vectors of the
+representation T, of the group G,+r acting on O(Dz+,), and by W(CX;71+ 1) the
+minimal submodule of fY(ol; 71+ 1). We shall below realize these last modules as
+modules of functions on Qz+, , the unbounded realization of G/K.
+   We consider the function R on Qn,+, x a,,+r ,
+
+                      R(z, z’) = q’(v(z), v(i))                = -+(.z - z’)“,                 (3.13)
+
+and define
+
+                                     it&    4 = ik9 a.                                         (3.14)
+
+Since by definition    g%)         = v$$              g . V(Z) = j(g * V(X)) v(ga).    Hence
+
+                       R(gx, gz’) = j(g, z)-lR(z, x’)j(g, 2’)~‘.                               (3.15)
+
+   The stabilizer K of i = (i, 0, O,..., 0) E Q+ in G,+r is isomorphic to SO(2) x
+SO(n + 1). Hence under T=‘s restriction to K the function z + K(.z, i)-a on
+%+1 transforms by a character of K, and we obtain the irreducible module
+IV(‘(cr,n -f 1) by letting @(gn+r) act on it.
+   If(Y),(n-l)/2,itisknownthatolEPandifor>(n-l)/2,a:EInP.We
+denote in this case the representation of G,+r in the space H(or; 1z + 1) of holo-
+morphic functions on Qz,, by T(cJ; n + 1).
+   We are interested in a study of the value q, = (n - 1)/2; in this case we have
+the following inclusion: W(ors; n + 1) $0”f( CL,,;n + 1). We will study the decom-
+position under g, of both of these modules.
+42                                 JAKOBSEN AND VBRGNE
+
+     Let us consider the wave operator
+
+                           q=&--g-...-- a2
+                              0 l2 a2,2                                            (3.16)
+
+
+on %+, . Since (with z2 as in (3.5))
+                         0(22)-a   = -24n        -   1 - 2+Z2)-4;                  (3.17)
+
+(z”)-~, for LY= (n - 1)/2, is a solution to the wave equation. Moreover, the
+module spanned by the function k(z, i)-((n-1)/2) = (--_h(z + i)r)-((“-1) P) under the
+action of @( g,+i) consists of all the K-finite functions v on 8(52:+,) that are solu-
+tions to q v = 0. We let H(v)           d enote the corresponding Hilbert space of
+holomorphic functions on Qz+;,, , and let Utn-i),2 denote the representation of
+G ?I+1 in H(v).
+
+   PROPOSITION 3.2.       The retriction    of Utn--1)/2 to G, is the direct sum of the
+representations T(x;L,     n) and T(sL       , n).
+
+   Proof.    Consider the filtration   of H(v)        by the closed subspaces
+
+
+
+
+These spaces are invariant under G, , and clearly, for r 2 I, H(y),.            is zero
+since if ‘p, as well as +J/~Z~ , is zero on the subset Z, = 0 and if q p, =- 0, then p
+is zero everywhere. It thus only remains to be seen that there exists a K-finite
+function in H(v)        which vanishes on the set x, = 0, but this follows since the
+operator a/&~, on holomorphic         functions equals a/ax, where Z, = x, + iy,, ,
+and the latter comes from the subgroup of translations on Minkowski space. Thus
+(P/&,J((x + i)z)-((n-l)!r)    belongs to H(v)         and is clearly proportional    to
+Z,((Z   + q2)-un+lv2)~
+   The space of restrictions to Minkowski space of the span of all K-finite vectors
+of the representations T, , 01> 9,     is a space of analytic functions. We denote
+the restriction map by R&I. The subspace RM(Bf(z$            ; n + 1) is the positive
+energy subspace consider in [6] for n = 3.
+   The preceding analysis leads to
+
+   PROPOSITION 3.3. Uf(v           , n + 1) on Qz,, splits under 4?( g,) into a direct sum
+of the modules W(zg’ + A, n), h = 0, 1, 2 ,... . Each of these submodules is unit-
+arizable as a g,-module. The highest weight vector in W(>g              + A, n) under the
+action of g, is the function .z,“((z + i)2)--(A+(n-1)/2).
+
+   Proof. We have seen that Of(v)      n + 1) on Szz,, has a composition series
+given by the modules Of(“g + A, n) with respect to g, . But if 01=mzf?l + X with
+                           HOLOMORPHIC REPRESENTATIONS                                                    43
+
+X > 0, then clearly OL> v,       where v      is the parameter for the wave
+equation for G, . Hence U(v     + h, n) = W(y    + h, n), and the conclusion
+now follows from Corollary 2.4.
+
+   COROLLARY 3.4. Let v E RM(Of(~        , n + 1)). ,Then, considered as a distribu-
+tion, the Fourier transform v is supported by the cone C+ = {k E W+l; ko2 3
+4” + .a- + kn’; k > 0).
+   Proof. The decomposition of U(y)         n + 1) under g, is On W(y     + X, n).
+We have I%‘(? + X, n) = %!(g,) * (x~“((x + i)2)-A+(n-1)/2. Compute the Fourier
+transform of the function x,^((x + i)2)--h+(n--1)/2. If x E sZi+;,,, (9) # 0 and
+(z’)- s+(n-l):i = m(s)Jc+ e"'k,z,(k2)s-l& u ,h enever s > 0. The function m(s) has
+a simple zero for s = 0.
+   Let us consider b(C+) = {k; ko2 = k12 + ... + k,“; k, >, 0}, the boundary
+of the cone C, equipped with the surface measure dm(k). If we consider the
+distribution f 8 defined by the function (k2)+l) restricted to Cf, for s > 0, this
+distribution has a meromorphic continuation in s and s(v, f “) tends to
+JbcC+)v(k) dk(k) when s -+ 0. From
+
+
+         ’ (P)+1    =   (-~)P(s   -   1)   . . . (s -   p)   k’J@)“-1-p   +   C     pi(   , )(/+‘)s-1-i
+                                                                              i<P
+
+
+where &(s, k,) is a polynomial in s and k, of degree i, we see that for p < s,
+the Fourier transform of x~((x + i)2)--(s+(+-1)/2)is supported in the interior of
+the cone C+. Letting s - p we see that the Fourier transform of our function is
+a sum of a function supported by b(C+) and a function supported in the interior
+of 0.
+   Now consider the subgroup Pk,, of 0(2, n + 1) of affine transformations of
+the domain Qz+,, , and denote by ph,, its Lie algebra. We have g, = pi + k
+by the Iwasawa decomposition, hence since the function x,A((x + ~)a)-A+(n-l~~
+transforms by a character of k, E SO(2) x SO(n), we have W(X + v           , n) =
+S( p:) * (xnA(x + i)z)-n+(n-1)12.
+  As the action of 9Y(ph) is given by differential operators with polynomial
+coefficients, the corollary follows.
+
+
+    4. EXAMPLE: TENSOR PRODUCTS OF ANALYTIC CONTINUATIONS OF THE
+                   HOLOMORPHIC DISCRETE SERIES FOR SU(2,2)
+
+  In this example we analyze tensor products of highly singular type for SU(2,2).
+Some of the material applies equally well to SU(n, n) and SP(n, W), and indicates
+a direction of attack which may work for other singular restriction problems.
+In the end, however, it turns out that to get even some of the simplest cases,
+44                                 JAKOBSEN   AND   VERGNE
+
+
+a detailed knowledge of the representations of holomorphic type of SU(2,2)
+and some concrete computations are needed.
+   For this case it is easiest to work with the unbounded realization of the
+associated Hermitian symmetric space. Specifically, we take the domain to be
+D x D, where D = (Z ~842, C) 1(z - z*)/2i > 0}, and we restrict to the
+diagonal in D x D, which we identify with D. We recall from [5] that if (zr , xs) E
+D x D, g = (: :) E SU(2,2),       and if y = (zr - 4/2,      then for g . x =
+(UZ + b)(cz + d)-1
+
+
+                   ( Pl   -
+                          2
+                              F2
+                                    )
+                                        = (z2c* + d*)-ly(“l   + d)-l.                (4-l)
+
+From now on we let G = SU(2,2), and let K be the maximal compact subgroup.
+   To begin with, we need some observations:
+   If 7 is a finite-dimensional unitary representation of K in I; , we identify
+U(G, K, V,) with the space O(D, V,) of holomorphic functions from D to V, and
+let, as before, T, denote the corresponding action of G on O(D, V,).
+   Let us be explicit in this case: We have K = {(E -z) 1((a + ib), (a - ib)) E
+ U(2) x U(2) and det(a + ~%)(a- ib) = l}. Let ur = a + ib, and us = a - ib.
+Then 7 is of the form
+
+
+                                                                                     (4.3)
+
+where 02 denotes the tiith fold symmetrized tensor product. Then with
+
+
+     J&, 4 = f$ (Wcz           + 4”‘ (@ (cz + 4) 0 (@ (xc* + d*)-l)),                (4.4)
+
+for g = (: f;) E G, the representation T, on O(D, V,) is given by
+
+                          (TM fK4 = Lkl, +lf(g-W.                                    (4.5)
+
+    LEMMA     4.1. Let 71 and 72 be given finite-dimensional   unitary representations
+of K, and let 71 @ 72 = gjEJ ~~ be the decomposition of 71 @ 72 , as a representa-
+tion of K, into irreducible subrepresentations. Suppose that there exists a reproducing
+kernel Hilbert space H of holomorphic functions from D to V7, @ V,, such that
+ T 710rl is unitary in H, and let H = &+ Hi be the decomposition of H corresponding
+to Tr1~,72 = ejEJ TTj . Then the Hilbert space structures on the Hj’s can be scaled
+in such a way that the reproducing kernel K: D x D -+ Aut(VT1 @ VT*) is the
+restriction of a function K,:      D x D x D -+ Aut( VT1 @ VT,), holomorphic in
+the two$rst variables, untiholomorphic in the last, in the sense that
+
+            vv E VT, 0 VT, ,            VWE D: K(x, w)v = (R,,K,(.,     ., w)z)(z)   (4.6)
+                         HOLOMORPHIC     REPRESENTATIONS                          45
+
+and such that nwreovu
+
+
+
+
+  Proof. Let K be a reproducing kernel on H. Then we have [5], for g E G,
+and all z, w in D
+
+                 K(gz,gw)= JT1@&
+                               4 w? 4 J71@:72kJ
+                                          w)**                                  (4.8)
+In particular, for all K in K
+
+
+
+K(i, i) is a positive (self-adjoint) operator, and we see from (4.9) that each
+eigenspace of K(i, i) is invariant under -rl @ -r2. Hence K(i, i) commutes with
+the extension of 7r @ rs to GL(2, C) x GL(2, C) (cf. (4.3)). K(z, W) is completely
+determined by k(z, z), and it follows from (4.8), (4.4), and the above that
+
+
+
+where g * i = z. It is now clear that k(i, i) can be chosen to be the identity
+operator on V,l @ VT* . Thus we shall assume that
+
+                         4~ 4 = J7,0& 4 J7,&, i)*,                             (4.11)
+
+where g * i = z. Since J,,07,(g, z) = JT1(g, z) 0 J7,(g, z) we can now define
+a function K&(z, , z2 , wr , ws) on D x D x D x D; holomorphic in z, , zs ,
+and antiholomorphic in wr , ws by its value on the diagonal
+
+
+
+ whereg, . i = zr andg, . i = za . This is clearly well defined and K3(,z1, za , W) =
+ K&(z, , zs , w, w) is then the desired function.
+   Finally, the following will be useful:
+
+    LEMMA 4.2. Let T denote a representation of G in the space of holomorphic
+functions from D x D to some finite-dimensional vector space V and assume that
+ there are reproducing kernel Hilbert spaces Xc, and S, , both contained in a,,-,
+ (1.14), to which the restriction of T is unitary and irreducible. Assume moreover
+ that there exists an irreducible unitary representation T, of G in a reproducing
+46                                     JAKOBSEN AND VERGNE
+
+kernel Hilbert spaceSn of holomorphic functions from D to V such that R,(.%J =
+R,(X,) = Z, (cf. 1.15), and
+
+                            R,(T       I.sJ     =   UT        Ix,)     =     TAG           e
+
+Then Z, = X, .
+   Remark. This means that they coincide as sets and that the Hilbert space
+structures are proportional.
+  Proof. If Xi n X, # (0) it is obvious by irreducibility, so we assume that
+X, n ,X2 = (0). Then the map S from Xi @ Xe to the space of holomorphic
+functions on D x D with values in V given by
+
+                                              S(f7g)     =f     fg
+
+is injective. The range S(Xr @ XJ can therefore be equipped with a Hilbert
+space structure. We let Z denote this space. It is easy to see that point evaluation
+is continuous and hence that Z is a reproducing kernel Hilbert space which
+accordingly can be decomposed by differentiation and restriction. We know that
+we must pick up T,, @ T, by this procedure, but in the step where we use R,
+(which is the first nontrivial step) we clearly only get T, . This means that the
+other T,, must be picked up in a later step, which, however, is impossible,
+since the K-types change under differentiation.
+   The following is then obvious:
+
+  COROLLARY 4.3. In Lemma 4.2 the group G can be replaced by K provided
+one assumesthat dim Xi = dim X, < co. (And maintain the other hypotheses.)
+   Remark. This does not imply that there are no multiplicities in the K-types.
+   We are now ready to turn to the topic of this section: Let T7, and T7, be two
+irreducible unitary representations of G in reproducing kernel Hilbert spaces
+H(7,) and H(T,) consisting of holomorphic functions from D to V, and VT2,
+respectively, and consider T7, @ T7, acting unitarily in the reproduiing kernel
+Hilbert space H(7,) @ H(T*) of ho1omorphic functions from D x D to V,l @ V7* .
+   As in [S] we introduce variables z and y on D x D where, for (zi , z2) E
+DxD
+                    z   -     3    +       +4          and           Y=--.
+                                                                             %     -       z2
+                                                                                                (4.13)
+                                       2                                               2
+We let
+                             HOLOMORPHIC       REPRESENTATIONS                          47
+
+ and define maps Ii, analogous to the preceding cases. If is also convenient
+ to introduce the notation Q,.+r for the orthogonal complement of H,.,, in H, .
+ Finally, let B(D x D, VT1 @ VTg) denote the module of all holomorphic func-
+ tions from D x D to VT, @ V,s, let O’,+l(D x D, VT1@ ‘V-J be the analog
+ of H, , and let Of(D x D, VT1 @ VTp) d enote the space of K-finite vectors in
+ O(D x D, Kl 0 K/72).
+    Let N(r) denote the dimension of the space of homogeneous polynomials
+ in four variables of degree r (N(r) = (‘i3)). We identify this spacewith @:gZ(2, C)
+ and let T~(T, , ~a) denote the action of G on the space of functions from D x D
+ to 0: g42, a=> 0 “6, 0 K2 > which on functions of the form j$ @ h, where
+fM(zl , zz) = M(z, , z.J @ ... @ M(z, , z2) is a function from D x D to
+ 0: gE(2, C) and h .IS a function from D x D to l’TT,@ T7, , is given by
+
+               (VT,       v4g)f~      0 h)h        , xz)
+
+                      = @ ((czl + d)-W(g-lz,               ) g-?&Jz,c*   + d*)-1)
+
+                           i Vq      0 ~&N(~~              74                        (4.15)
+for g-l = (z “,) E G.
+   Let us assume that there is a linear subspace Sor of O(D x D, 0: ,#(2, C) @
+I’T, @ I/,,) such that:
+
+                           Iffe    S,,Tand R,f = 0 then f = 0.                      (4.16a)
+
+                S,,r is invariant under P(T, , Ta)(g) for all g in G.               (4.16b)
+
+As a basis of 0: gZ(2, C) we choose
+
+
+                                        2                                i4
+where ill, ,..., M, is a basis of gl(;, C) , i, + iz + i3 + i, = r, and P, denotes
+the symmetrization map (projection).
+  Any function F in O(D x D, 0: gZ(2, C) @ (VT, (21 VTp)) can uniquely be
+written as
+                                            N(r)
+
+
+
+
+where fi is a holomorphic function for i = I, 2,..., N(r). Hence we can define
+a map P’(T~ , -rJ from S,,r to O,(D x D, VT1 @ V,,) by
+
+
+                   N(r)
+                                                                                     (4.19)
+48                                         JAKOBSEN AND VBRGNE
+
+
+   LEMMA 4.4.        (a)      P’(,r       , ra) T’(T, , ~a) = T7, 0 T,*P’(T~ , TJ
+      (b)   Pr(T1   , 72) iS injective.
+
+   Proof.   (a) is essentially contained in (4.1).
+   To prove (b) assume that P’(T~ , T2)F = 0. Then clearly Rp(Tl                       , T2)F     = 0
+and since this equals R,,F, F is zero by assumption.
+   One application of this lemma is the following: Consider T7(Tl                     , T2) and let
+71r and TV+ be the representations    of K given by
+
+
+                                                       7
+and                                                                                             (4.20)
+
+
+
+Then Tr(T r , 72) is in a natural way contained in Trll @ T, r. Of course, 71’ and
+T2* are not irreducible representations, but writing them as &rite sums of elements
+of K, we see that T’(Tl      , T2) is contained in a direct sum of representations
+TU1, 0 T,,,, where pr7, as well as par, is contained in K.
+
+   COROLLARY 4.5. Let TUIr and T,,, be as above. If there are reproducing kernel
+Hilbert spacesH(pIr) and H&r) of holomorphic functions in which TU1,and T,,, ,
+respectively, are unitary, and if T,,, @ T,,, is contained in TT(7, , TV), then
+T7, @ T7, is unitary in a reproducing kernel Hilbert spaceof holomorphic functions.
+Restricted to this space,it is unitarily equivalent to TU1~o,,V.
+   Proof. The orthogonal complement in H(pl*) @ H&r) of the space of
+functions that vanish on the diagonal is a reproducing kernel Hilbert space.
+If we apply Pr(T r , T2) the resulting space is one in which point-evaluation      is
+continuous.
+   If we only demand that the space S,r (4.16) should be invariant under K then
+p’(Tl , T2) can be used, by means of Lemma 4.1 and Corollary 4.3, to compare
+minimal K-types. This is used in an example below.
+   We shall say that a representation T(T) in O(D, V,) is supported by the forward
+light cone Cf = (k E H(2) 1det k > 0, tr k > 0} if it is unitary in a space
+H(T) C 0(D, V,) and if the elements of H(T) are Fourier-Laplace      transforms of
+functions from C+ to V, .
+   If the above space H(T) is a reproducing kernel Hilbert space, it is easy to see
+that there exists a continuous function F,: C+ --+ Aut(V,) such that the kernel
+K, is given by
+
+                              K(z,        w) = sc+ F,(k) eitr‘(z-u?*)kdk.                       (4.21)
+
+  If, for all k E C+, F,(k) is nonsingular             we say that T(T) is strongly    supported
+                           HOLOMORPHIC REPRESENTATIONS                                  49
+
+by C+. By restricting to the point i E D the K-types in H(T) of a representation
+T(T) which is strongly supported by C+ can be found by arguments analogous to
+those in the proof of theorem 3.2 in [5].
+
+   PROPOSITION 4.6. If 7 E K and if T(T) is strongly supported by C+, then
+@(D, I’,) C H(T).
+   We shall now turn to some concrete example of the above. We recall from
+[l, 2, 71 that if 7 denotes the defining representation of GL(2, @); T(g) = g,
+if 7, denotes the nth fold symmetrized tensor product of T, and if TV = 1, then
+one can define two series T1(n, a) and Tz(m, fi) of representations of G by
+
+           ( T1(n, a)(g) f)(z) = T,(cz    + d)-1 det(cz + d)-(a+2)f (g-?z),          (4.22)
+and
+       ( Tz(m, p)(g) f)(z) = T&X*         + d*) det(zc* + d*)-(e+“+z’f(g-lz),
+
+for (Y,p E Z, and n, m > 0. For 01> - 1 and p > -1 the representations
+T1(n, LX)and T2(m, /3) are unitary, irreducible, and strongly supported by Cf
+in reproducing kernel Hilbert spaces H1(n, a) and Hz(m, p), respectively.
+T1(n, -1) and T,(m, -1) are unitary and irreducible in reproducing kernel
+Hilbert spaces H,(n, -1) and Hz(m, -l), respectively, where H,(n, -I), as
+well as Hs(m, - l), consists of holomorphic solutions to certain wave equations.
+   Finally, we define
+
+           (T&,    m, r)(g)f )(x)
+                  = T&z + d)-’ @ T&X*             $- d*) det(cz + d)Yf(g-lx).        (4.23)
+
+   PROPOSITION 4.7 [2]. For y >, m + 2, TS(n, m, y) is unitary and irreducible
+in a reproducing kernel Hilbert space H3(n, m, y).
+  Proof. For such y the representation T,(n, m, y) can be obtained as the
+restriction to the diagonal of T1(n, CL)@ Ts(m, fi) 01,/3 >, - 1, since det(zc* + d*)
+= det(cz + d).
+
+  LEMMA 4.8 [2].      For y > m + 2, T3(n, m, y) is supported by C+.
+  Proof.   The reproducing kernel is given by
+
+             7,’ - w*)-I@
+                      2i
+                                     7,   (L<F)          &t   (   ’   yiw   *   )y   (4.24)
+
+Let E = y - m - 2. Then the kernel is given by il&Jz$)       det(~s~~)-r-~++n
+               * .
+where M,,$~)      IS a matrix whose entries are polynomials of degree n + m in
+50                                         JAKOBSEN AND VERGNE
+
+the entries of (“+    *). We know [7] that there are constants c, such that for p 3 0
+                              z _ w*            7-Z
+                   det           2i         )         = cOs       eitr(*w*)k det Pdk             (4.25)
+                          (                                 c’
+and the proof is completed                  by observing that the kernel can be obtained             by
+differentiation of det($)-2-E                  modulo some correction terms obtainable               by
+differentiation   of functions         of the form det(2s)-2-c-r            for i > 1.
+
+  Remark. It is proved in [2] that for y > m + 2, Ts(n, m, y) is strongly
+supported by C+, whereas for y = m + 2 it is not.
+   Let TT, and TT, be two limit points of the series (4.22). It then remains to be
+seen how H(T,) @ H(7,) decomposes. We give a typical example of how the
+above approach leads to the answer:
+
+   EXAMPLE 4.1.      Tl(n, -1) @ T,(m, - 1). The                        reproducing    kernel   KL   for
+Tl( p, - 1) is given by [7, p. 751
+
+                          GcJ,        4     = Sltc+) T,(k) eitr(z-w*)k dm(k).                    (4.26)
+
+Consider      T’(T~ , TV) and letT,,‘(T, , 72) be the representation     defined by
+R,Tr(q > 4 = Tort71    , T&, . It is  straightforward to see that the corresponding
+kernel K&(z, , z, , w) (Lemma 4.1) is the operator which maps (0: M) @
+or @ 21~into
+
+
+6 (( ““’ Tizu* )-I M ( + ,“‘)j’)                          @ K&x,,      w) vl @ K,‘&, , w) v2 (4.27)
+ s
+for ME gf(2, C), zlr E @“, C2, and vg E a’,” @“. The map Pr can be chosen in
+such a way that the expression in (4.27) is mapped into
+
+    TZ1-Z21 ,zl-w*                         -1
+ tr                                                   z2 - w*
+( ( 2 )(         2i                   j,        M (       2i
+                                                                                                 (4.28)
+
+and the question becomes: For which linear combinations          of elements of
+0: gZ(2, C) @ (0: C2) @ (0: C2) do the corresponding linear combinations
+of the functions (4.28) belong to Hr(n, -1) @ Hr(nr, -l)*       This may seem,
+especially for large rz and m’s, to be a hopeless case. However, there are some
+obvious combinations      that do work: We write (zr - .a”) = (zr - w*) -
+(z2 - w”) and obtain:
+
+                         tr((2, - .z2)(z1 -            w*)-w(z2      - w*>-1)
+                               = tr m(z, - w*)                    tr X3(2, - w*)
+                                                                                                 (4.29)
+                                   det(z, - w*) -                  det(.z, - w*) ’
+                                    HOLOMORPHIC         REPRESENTATIONS                                      51
+
+where,    for M          ( E: 2),      A? = (-2        -2).        We parametrize        the elements k in
+H(2) by
+
+                                                                                                          (4.30)
+                                                                               ’
+
+and we let
+
+
+
+                                                                                                          (4.31)
+
+
+
+Then the operator (tr A?f(a/ak)) applied to k gives 2A?; applied to det k it gives
+2 tr Mk, and applied to tr Mk it gives 2 tr iVlh?l = 4 det M.
+   Let us now look at (4.28). According to (4.29) this breaks down into a sums
+of terms of the form
+
+
+   Or    J@5   -   w*W      Ki(zl      , w)   wl   o   Or    MC+      -   w*))~-S~~(~,     , w)   2,3 .
+                                                                                                          (4.22)
+        det(z, -   w*)~                                     det(z, - w*)I+
+
+
+In this expression,       for s 3 1, and up to a constant,
+
+                  1
+                        - I‘qz,          , w) 211=             T,(k) det ks-leitr(zl-r*)k dko, ,          (4.23)
+          det(.a, - ZU*)~                               i Cf
+
+
+and tr @ai - w*) eitr(zl-~O*)~ is proportional to (tr J?(a/ak)) eitr(zl-w*)k.
+    From this and the preceding remarks it follows that if e, = (A) E @“, if M =
+(i)(O 1) = (t i), if z1r = e, @ 0.. @ e, , and if a, = e, @ ... @ e, , then the
+corresponding function (4.28) does indeed belong to Hl(n, - 1) 18 Hl(m, - 1).
+Thus, for r > 1, the representation       T,(n + m + Y, Y, Y + 2) is contained in
+the tensor product. To complete the analysis one could now either examine
+functions of the form (4.28) corresponding to the other highest weight vectors,
+or compare the K-types. We mention that the K-types for the mass-zero repre-
+sentations can be found by combining [7, pp. IOO-1041 with [12]. These possi-
+bilities are mentioned because the tensor product of a mass-zero representation
+with a representation supported by C+ can be treated among these lines. How-
+ever, for the given case, the intuitively    clear result that besides what we pick
+up for Y = 0, the above representations          are the only representations  that
+appear, follows readily from the remarks following Proposition 4.9 below. We
+mention that the case Tr(n, - 1) @ T2(m, - 1) and Tz(n, - 1) @ Tz(m, - 1) are
+similar, and that the results also can be obtained from [8].
+ 52                             JAKOBSEN AND VERGNE
+
+   PROPOSITION 4.9.
+
+ Tl(% -1) 0 Tl(W --I)
+          m1nh.m)
+      =      @
+             R=O
+                    Tl(n + m - 2q,4) 0    6 T& + m + y,r,y+2);
+                                          I+1
+
+ T&b -1) 0 Ta(m,--I)
+          mlnhm)
+      =      @
+             S=O
+                    T,(n + m - 2q, 4) 0   6 T,(y, n + m + y, n + m + y + 2);
+                                          74
+
+ Tl(n, - 1) 0 T&m,- 1)
+
+      = @ T(n + r,m + y,m + y + 2).
+          t-=1
+
+
+
+   We conclude this article by observing that several interesting phenomena
+occur at the decomposition of the tensor product of a mass-zero representation
+with a mass-zero representation. One such is that most of the representations that
+appear in the decomposition themselves live in solution spaces to differential
+equations.   The simples example of this is the tensor product of U_, =
+T,(O, -1) = Ts(0, -1) with itself. Since U_, is unitary in a space of solutions
+to •~ = 0, the Hilbert space in which U_, @ U_, acts consists of functions
+that are solutions to !7J,,f = a,,f = 0. Under the change of variables (4.13)
+these equations can be combined into
+
+                                 (a, + q,>f = 0,
+and                                                                          (4.34)
+             _-_------
+              a   a          a a           a a
+            ( a20 ap        a.9 af        a22 ap
+where we have used the Pauli matrices as a basis of gZ(2, C).
+   Let us assume for simplicity that f is of the form y&s + yrfr + y.J.s + ysfa .
+Then f under our method of decomposing tensor products is mapped into a
+function h = (h, , h, , h, , h,) with hi(z) = f&, z) for i = 0, 1,2, 3, and hence,
+by 4.34), h satisfies the equation
+
+
+                    y&ho--&hl-+h,-&                        h, = 0.
+                       0         1             a       3
+
+
+If f is of the form Ci p,‘( y) fi where the ptr’s are homogeneous polynomials of
+degree, Y, the resulting equation of course is more complicated.
+   The Eq. (4.35) is in nature a “gauge-condition.”   However, it may also indicate
+a “conserved current.”
+                             HOLOMORPHIC        REPRESENTATIONS                                 53
+
+   A similar phenomenon takes place for the tensor product of any two limits
+of the series (4.22) and this leids to the conclusion that with the possible excep-
+tion of what is picked up for Y = 0, the representations occurring in the decom-
+position cannot be strongly supported by C+.
+
+
+                                          REFERENCES
+
+ 1. K. I. GROSS AND R. A. KUNZE, Bessel functions and representation             theory II. Holo-
+ . morphic discrete series and metaplectic representations,           J. Functional Analysis 25
+    (1977), l-49.
+ 2. K. I. GROSS, W. J. HOLMAN III, AND R. A. KUNZE, The generalized gamma function,
+    new Hardy spaces, and representations of holomorphic type for the conformal group,
+    Bull. Amer. Math. Sot. 83 (1977), 412415.
+ 3. HARISH-CHANDRA, Representations of semisimple Lie groups IV, V, Amer. J. Mat/z.
+    77 (1955), 743-777; 78 (1956), I-41.
+ 4. S. HELGASON, “Differential      Geometry and Symmetric Spaces,” Academic Press,
+    New York, 1962.
+ 5. H. P. JAKOBSEN, Tensor products, reproducing kernels and power series, J. Functional
+    Analysis, to appear.
+ 6. H. P. JAKOBSEN, B. ORSTED, I. E. SEGAL, B. SPEH, AND M. VERGNE, Symmetry and
+    causality properties of physical fields, Proc. Natl. Acad. Sci. USA 75 (1978), 1609-
+     1611.
+ 7. H. P. JAKOB~EN AND M. VERGNE, Wave and Dirac operators and representations of
+    the conformal group, J. Functional Analysis 24 (1977), 52-106.
+ 8. M. KASHIWARA AND M. VERGNE, On the Segal-Shale-Weil                     representations    and
+    harmonic polynomials, Inwent. Math. 44 (1978).
+ 9. B. ~RSTED, Conformally      invariant differential    equations and projective geometry,
+    J. Functional Analysis, to appear.
+10. H. Rossr AND M. VERGNE, Analytic continuation of the holomorphic               discrete series,
+    Acta Math. 136 (1976), l-59.
+11. I. E. SEGAL, “Mathematical      Cosmology and Extragalactic         Astronomy,”      Academic
+    Press, New York, 1976.
+12. S. STERNBERGAND J. A. WOLF, Hermitian Lie algebras and metaplectic representations,
+    to appear.
+13. N. WALLACH, On the unitarizability     of representations with highest weights, in “Non-
+    commutative Harmonic Analysis,” Lecture Notes in Mathematics, No. 466, Springer,
+     Berlin/Heidelberg/New    York.
+14. S. MARTENS, The characters of the holomorphic            discrete series, Proc. Nat. Acad.
+     Sci. USA 72 (1975), 3275-3276.
+

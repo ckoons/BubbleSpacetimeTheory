@@ -1,0 +1,1516 @@
+Commun. math. Phys. 41, 203—234 (1975)
+© by Springer-Verlag 1975
+
+
+
+
+ Global Conformal Invariance in Quantum Field Theory
+                                    M. Luscher and G. Mack
+                Institut fur Theoretische Physik der Universitat Bern, Bern, Switzerland
+
+                                       Received October 17, 1974
+
+
+     Abstract. Suppose that there is given a Wightman quantum field theory (QFT) whose Euclidean
+Green functions are invariant under the Euclidean conformal group (5~SO e (5, 1). We show that its
+Hubert space of physical states carries then a unitary representation of the universal (oo-sheeted)
+covering group (5* of the Minkowskian conformal group SOe(4, 2)/Z2. The Wightman functions can
+be analytically continued to a domain of holomorphy which has as a real boundary an oo-sheeted
+covering M of Minkowski-space M4. It is known that 05* can act on this space M and that M admits a
+globally @*-invariant causal ordering; M is thus the natural space on which a globally (5*- invariant
+local QFT could live. We discuss some of the properties of such a theory, in particular the spectrum of
+the conformal Hamiltonian H = i(P° + K°).
+    As a tool we use a generalized Hille-Yosida theorem for Lie semigroups. Such a theorem is stated
+and proven in Appendix C. It enables us to analytically continue contractive representations of a
+certain maximal subsemigroup 6 of (5 to unitary representations of (5*.
+
+
+                                            1. Introduction
+    Conformal invariant quantum field theory (QFT) is of interest from the point
+of view of constructive quantum field theory because such theories can be analyzed
+to a remarkable extent by nonperturbative methods, i.e. without recourse to
+iterative techniques [1, 2]. One adopts the usual postulates of local QFT (Wight-
+man axioms [3]): Spectrum condition, positivity, and locality. In addition one
+demands that the Euclidean Green functions are invariant under the Euclidean
+conformal group 1 SOe(5,1). [The Euclidean Green functions are obtained by
+analytically continuing the vacuum expectation values of fields. (Wightman
+functions) to imaginary times.] This is the hypothesis of "weak conformal in-
+variance" [4]. It implies that the Wightman functions are invariant under in-
+finitesimal conformal transformations in Minkowski space.
+    The hypothesis of weak conformal invariance was invented because of the
+familiar difficulties with global conformal transformations in Minkowski space
+M4. Such a transformation can take points to infinity, and it does not help either
+to compactify Minkowski space, i.e. add points at infinity, because the resulting
+manifold Mc4 contains closed timelike curves and so does not admit a global
+causal ordering [5].
+    In the present paper we consider Wightman field theories with a unique
+vacuum, with Wightman functions that are (tempered) distributions, and whose
+Euclidean Green functions are conformal invariant as explained above. We show
+that the Hubert space of physical states of any such theory carries a unitary
+representation of the oo-sheeted universal covering group ©* of the Minkowskian
+    1
+        The subscript e identifies the identity component of the group.
+204                                   M. Lϋscher and G. Mack
+
+conformal group SOe(4,2)/Z2 This group will be called the "quantum mechanical
+conformal group".
+    A special role is played by its generator H = J()0 = ^(P()=K0\ where K° is
+one of the generators of special conformal transformations [6]. It is found to
+have positive semi-definite spectrum H ^ 0. This operator is the most convenient
+choice for Hamiltonian in a conformal invariant theory. It generates a non-
+compact 1-parameter subgroup of ©*.
+    We will also show that the Wightman functions can be analytically continued
+into a complex domain which has as a real boundary an infinitesheeted covering
+M of Minkowski space. This manifold is thus the natural space on which a globally
+conformal invariant QFT could live. The quantum mechanical (q.m.) conformal
+group can act on it and it is known to admit a global conformal invariant causal
+ordering [7-9]. We will show that fields living on it will have conformal invariant
+locality properties, if they exist at all as operator valued distributions 2 . They
+transform covariantly under (5*. In contrast with Euclidean fields (where they
+exist) they do not transform irreducibly though, because elements Z e TL C center
+of (5* act on them in a nontrivial way in general. As Schroer and Swieca have
+pointed out recently [10], this implies that the unitary representation of the q.m.
+conformal group is not in general a ray representation of 80^(4,2)/Έ 2 > nor is
+there a superselection rule which would rectify this. This is just another aspect
+of the fact that conformal symmetry is really not a symmetry of Minkowski
+space M4, but of the larger "superworld" M.
+    The Minkowski space M4 may be identified with a paracompact part of the
+superworld M. In picturesque language, M consists of Minkowski space M4,
+infinitely many "spheres of heaven" Z"M4 stacked above it and infinitely many
+"circles of hell" Z~"M 4 below it ( n = l , 2 , ...)• It carries the same conformal
+structure as the Einstein cosmos of general relativity [11].
+    In an exactly conformal invariant world there would be nothing to fix a
+Born radius, hence no atoms, no molecules and no physicists who could make
+observations. However we may resort to Gedanken experiments. The world
+line of a light signal, if there is such a thing in a conformal invariant world, could
+continue beyond our native Minkowski space to the distant past and future of
+superworld. Also, by an active conformal transformation an observer could be
+taken out of Minkowski space and put somewhere else on the superworld M.
+    Summing up our results briefly, we have shown that every Wightman field
+theory satisfying the hypothesis of weak conformal invariance is also globally
+invariant under the universal covering group (5* of SOe(4.2)/Z2
+    The central role in the proof of our results is played by a certain maximal
+noncommutative semigroup ® contained in the Euclidean conformal group
+SOe(5,1). Using positive definiteness of Euclidean Green functions a la Glaser [12]
+(a sharper version of Osterwalder Schrader axiom (E.2) which follows by using
+also locality [13]) and a newly derived conformal cluster property, it follows that
+S acts as a semigroup of contractions on physical state space. We then make use
+of a generalized Hille-Yosida theorem for Lie-semigroups of contractions. Such
+     2
+       This depends on whether the boundary values of the analytically continued Wightman functions
+are distributions on M - a difficult technical question which we have not investigated except for the
+two (and three-) point functions.
+                                        Conformal Invariance                                       205
+
+a theorem is stated and proven in Appendix C. It should also be of considerable
+help in the general representation theory of noncompact groups. It asserts in
+particular that our contractive representation of the maximal semigroup ®
+C SOe(5, 1) can be analytically continued to a unitary representation of the simply
+connected covering group (5* of SOe(4, 2).
+
+                                  2. Euclidean Green Functions
+    Let us consider a local quantum field theory which satisfies the usual postulates
+(Wightman axioms): Temperedness, locality, spectrum condition, positivity,
+Lorentz invariance and uniqueness of the vacuum. Asymptotic completeness
+will however not be assumed since one knows that a nontrivial conformal in-
+variant QFT is not a particle theory.
+    For simplicity we will consider a theory of one hermitean scalar field Φ(x).
+Generalization to fields of arbitrary spin will be discussed in Section 9.
+    Consider then the vector
+Ψ(xί...xn) = Φ(xί)...Φ(xn)Ω,           Ω = vacuum.                                             (2.1)
+This is a vector in the Hubert space 34? of physical states after smearing with a
+test function. Because of the spectrum condition
+Ψ(xί...xn) = μ4pd4q1...d4qn_1Ψ(p,q1...qn_i)expi{pxi+Σqj(xj+1-xj)}                               (2.2)
+                                                                              3
+with a Ψ that vanishes unless p° ^ 0 and all q® ^ 0(i = 1... n — I) . As a consequence,
+Ψ can be analytically continued to a vector valued analytic function4 Ψ e JΊf, viz.
+             Ψ(zί...zn)      of    zk = xk+ iyk       defined and holomorphicfor                (2.3)
+                                                      yie K+ a n d y j - y i e V + iϊj>ί
+                                                      (V+ is the open forward light-
+                                                      cone) .
+Glaser has pointed out (12) that locality and the edge of the wedge theorem can
+be used to further extend the domain of definition and analyticity:
+           Ψ ( z l . . . zn) is defined as a vector in 3? and analytic in the zk in a
+           connected domain which includes the Euclidean points with zk = (ίyk, xk)
+           such that y% > 0 for all k and z? φ z? for i φ j.                          (2.4)
+   Let us very briefly review the argument. Let π any permutation of (l...n) and
+consider the vector
+                          Ψπ(Zί...Zn)=Ψ(zπl...zπn),            zk = xk+iy.                      (2.5)
+By the previous discussion this is defined and holomorphic in a domain containing
+the Euclidean points with 0 < y£ι < ... < y°n. Moreover, because of locality
+             Ψπ(xί ...xn)=Ψ(xί...xn)           for real xk such that (xt-x/ <0
+                                                                                                 (2.6)
+                                            for all ι'Φ7,
+    3
+       Our metric in Minkowski space is (H           ).
+    4
+       We refer here to the notion of an analytic function with values in a normed space, cp. Dieudonne
+[14], Chapter IX.
+206                                  M. Luscher and G. Mack
+
+i.e. for all the Ψπ agree on a real neighborhood. By the edge of the wedge theorem
+[3] they are therefore analytic continuations of one and the same analytic function.
+Its domain of analyticity must therefore contain the union (over all permutations π)
+of the previously established domains of analyticity of the individual Ψπ, whence
+assertion (2.4).
+     To simplify the notation we will introduce Euclidean coordinates x = (x4, jc)
+which are real at Euclidean points, and we define
+                     Ψ*(t1...xJ=Ψ(zί...zJ for z = (ixt,xk)
+                          x*>0,xfφx^ forall fc,iΦ;.
+The Wightman functions are defined by
+                           Wa(xί...xJ = (Ω,Ψ(x1...xJ),                              (2.8a)
+and the Schwinger functions, also called Euclidean Green functions
+                          Ga(x1...xn) = ( Ω , Ψ E ( x 1 . . . x n ) ) .             (2.8b)
+They are obtained from the Wightman functions by analytic continuation as
+is evident from our discussion. Because of translational and Lorentz invariance
+they are actually well defined and analytic for all mk such that 3£ f + KJ for i=j=j
+[3,13].
+    It has been shown in [13] that the Euclidean Green functions are distributions
+sucht that
+                    G n ( f ) = Sd**i...d**nf(*i...*n)Gn(*l...*n)            (2.9)
+is defined for all Schwartz test functions /e £f which vanish with all their deri-
+vatives at coinciding arguments.
+    We introduce the Euclidean time reversal operator θ,
+                  Θx = (-x4,x)
+so that                                                                             (2.10)
+                   z = (ϊ'x4, x)    implies        z = (— ix 4 , x) = (iθx2, θx).
+      One finds from Eqs. (2.1) and (2.8) by uniqueness of analytic continuation that
+                                                                               (111)
+           (^(ϊ l 5 ...3αyVι> ->^
+    Let us next introduce the space of test functions £f+ which consists of Schwartz
+testfunctions /(£I...S M ) which vanish with all their derivatives when *,-= *7 for
+an i Φ j or some xf ^ 0. For /„, hn e ^+ we define
+           (θ//x^J(3e 1 ,...,3C n ,x;...3e;^/Jθ3e Π ,...,θ3e^U^
+Let now f = (fk) denote a finite sequence /o,/i(*i), Λ(^ι *2\•••/N(*I •••%) SUCΓ1
+that all fk e £f+ and in addition fk vanishes with all its derivatives for coinciding
+times xf = x* Because of assertions (2.4), (2.9) and (2.11),
+                 Ψ(f}^^ld^,...d^Jk(^...^k)ΨE(^...^k)                                (2.12)
+                           k
+will be well defined elements of Hubert space for such /, with scalar products
+                          (Ψ(f),Ψ(h))=ΣGk+l(θfk*xhl).                               (2.13)
+                                                Conformal Invariance                                         207
+
+Hence in particular their norm is positive, viz.
+                                          ΣG*+/(0Λ*x/,)^0.                                                (2.14)
+                                          k,l
+
+We will lastly argue that Euclidean positivity (2.14) will in fact hold for all finite
+sequences / = (/k), fk e <ζf+. Indeed, it follows from the lemma stated in Appendix D
+that the domain of real analyticity of Ψ E ( x l . . . x n ) can be extended to all n-tuples
+of noncoinciding arguments with all xf ^ 0, and so Ψ(f) is a vector in Hubert
+space for any finite sequence / = (fk\ fk e <9"+.
+   Summary. There are vectors Ψ E ( x ί . . . x n ) defined and real analytic for x4 ^0
+and X j φ x / (zφj). They are symmetric in their arguments ^...a^. The scalar
+product of two such vectors is given by Eq. (2.11), viz.
+            (ΨE(*l9...,*ώΨE(*\,...,x'n)) = Gm+n^                                                      (2.11)
+As a consequence, positivity (2.14) holds for all finite sequences of testfunctions
+f = (fM0ε<C,fke<?ϊ(k=l92,...).
+    We remark that Ψ E ( x l ...x n ) is also a (regular) vector valued distribution
+on ^(IR4") and for arbitrary sequence Un9 ft = 1 , 2 , . . . of open sets UnC\R4+
+ = {(*!,..., xn)\xf > 0} finite linear combinations of vectors of the form
+              Γ β^ £     (j^~ £    f (£            £ \ \p^ (*£          £ \     f ξ y        SUΌΌ f C U
+
+
+and the vacuum Ω form a dense subspace of the Hubert space of physical states.
+
+
+                                  3. Weak Conformal Invariance
+    Consider points x in Euclidean space CR4. We will supplement them by one
+point of infinity x = oo, the resulting space will be denoted by IR4. It becomes a
+compact topological space if we specify that the sets of points x with ] x | >ε"~ 1
+form neighborhoods of x = oo.
+   To bring out its structure as a differentiable manifold it is convenient to carry
+out a stereographic projection. We do this in two steps.
+    First let us introduce [15] projective coordinates ξA9 A=i...6. They form
+positive light like 6-vectors ξeC^^IR), viz. £ 6 >0, ξ ξ = gABξAξB = 0, gAB
+= diag (           , —h). They are related to Euclidean coordinates x = (xα) by
+                              x« = ξ«/,e(α=1...4),                 κ = ξ6 + ξ5.                       (3.1)
+                                                     A
+The point x = oo corresponds to ξ = λ(Q, —11), and in general 6-vectors λξ
+correspond to the same point x for all λ > 0.
+    In particular there corresponds then to every x one 6-vector ξ of the form
+ξ = ( ξ , i ) where ξeS4 is a unit 5-vector [16], i.e. belongs to the sphere S4. Ex-
+plicitly
+             pA
+             (.,
+                 — V A / z6
+                 — L, / L,
+                              ί A — 41 . . . Jj^
+                              ^/T —
+                                             c\      rp<n
+                                                     ItojJ.
+                                                                 F^ — irv a 9ιr~ ^ —
+                                                                 C, — I V Λ , Z , f V
+                                                                                        14- I r P .
+                                                                                      — l l | A |
+                                                                                                          C%   9Ί
+                                                                                                          \,J .£*)
+
+
+Thus ξ and x are related by a stereographic projection (s. Fig. 1) and the neighbor-
+hoods of x = oo correspond to neighborhoods of ξ^ = (0, — 1). Thus ίR4 and S4
+are homeomorphic, and S4 is of course a differentiable manifold. Most important
+is the fact that they are compact.
+208                                M. Luscher and G. Mack
+
+
+
+
+      Fig. 1. Stereographic Projection of ξ e S4 onto x 61R4. Drawing for 2 space dimensions
+
+
+
+    Conformal transformations /teSO e (5,1) are 6 x 6 matrices ΛAB satisfying
+the conditions AKMgKLALM = gMN, detΛ = l and Λ\ ^ 1. In a neighborhood of
+the identity we may expand
+                                                     Aβ
+                                                   ω    =-ωBA          real.
+
+The generators JAB are 6 x 6-matrices satisfying commutation relations [6]
+
+              [Λ:L? Λί N] — Ϊ(QKN JLM + QLM JKN ~ QKM JLN ~ QLN JKM)                             (3-3)
+
+JAB generates an infinitesimal pseudorotation in the ^IE-plane.
+   Conformal transformations A act as pseudo-rotations on 6-vectors ξ,
+                                             vz.                                               (3.4a)
+The Euclidean time reversal θ will also be used. It acts as
+
+                                                                                           (3.4b)
+
+Since A commutes with similarity transformations ξ—>λξ,λ>0, this also induces
+a transformation of points x of Euclidean space 1R4. The explicit expressions for
+these can be found in [6] (4-vectors should be read as Euclidean ones), we will
+simply write it as at-+x' = An. Similarly, (3.4) induces a transformation on the unit
+5-vectors ξ defined by (3.2); they are diffeomorphisms of S4 [16].
+    One also defines a measure on the cone C^ l by
+
+                                 = 2d*ξθ(ξ«)δ(ξ.ξ)δ(ξ           η-ϊ)                            (3.5)
+
+where η is an arbitrary positive timelike or lightlike 6-vector.
+    In the following discussion, d will denote the dimension of the field
+it can be read off from the two-point function as explained e.g. in [15].
+                                        Conformal Invariance                             209
+
+    The state vectors ΨE and Euclidean Green functions will be defined as functions
+of the projective coordinates by
+  ΨE(ξl...ξn) = κ;d...κ;dΨE(*ί...*n)        Gn(ξi...ξn) = κ;d...κ;d G^...^
+                                                resp.
+                                                                         (3.6)
+they are homogeneous of degree — d in each variable separately.
+   Similarly we write for test functions /
+                                   ..ξn) = κdί-4...κdn-4f(*1...xn),                  (3.7)
+Gn(f) as defined by Eq. (2.9) may then also be written as [15]
+                  Gn(f) = Sdμ(ξ1)...dμ(ξn)f(ξ1...ξn)Gn(ξ1,..ξll).                    (3.8)
+                  A
+This is evident iϊη — (0, 1 1) is chosen in the measure (3.5), and holds then generally
+because the integral is independent of η by the basic covariance lemma (s. Ap-
+pendix A). Note that by chosing η = (0, 01) the integration can be made to run
+over the sphere S4 of variables ξ = (ξ, 1). We will for this purpose abbreviate
+                             /«!...{„)=/(«!, !)...«„,!)).                            (3.9)
+   Finally we define an action of conformal transformations on test functions /by
+                                                        1
+                                                         ξί...Λ-lξJ.                 (3.10)
+This induces a transformation on test functions f(κί...κn\ the explicit formulae
+for them can be found e.g. in [1].
+    The hypothesis of weak conformal invariance says that the Euclidean Green
+functions should be invariant under conformal transformations A e 80^(5, 1).
+That is
+                     Gn(Λf)=Gn(f)    for all ΛeSO β (5,l)                   (3.11)
+and test functions / such that the right hand side (r.h.s.) exists; hence in particular
+for/e^°.
+   In the forthcoming sections we will make extensive use of the test function
+space £f+. Recall its definition:
+                 = {/ e £f I f(κl . . .atπ) vanishes with all its derivatives        π   ?,
+                   if sf = KJ (some i φ j) or xf ^ 0 (some /)}
+£f is the space of Schwartz test functions [3]. The topology on ^(IR") is given by
+a countable family of norms, viz.
+               I/LEE max sup (l+|x| 2 Γ / 2 |/ ( α H*)l;              m = 0,l,2...   (3.13)
+                      |α| ^ m x e R "
+                                                               ff \       g*n        n
+αsία^-.α,,) is a multiindex and f(α\x)= -r-^- ...-^r/(x) M Ξ ^ α f ;
+
+
+   The only topology on ^ used will be that inherited from £f, i.e. it is defined
+by the norms (3.13). The vectors ΨE(x1 ...acj are then vector valued distributions
+on £f+, which means that
+                                                                                     (3.14)
+210                                    M. Lϋscher and G. Mack
+
+    Formulae (3.7) and (3.9) tell us finally that the elements of £f+ may be viewed
+                                       4           4
+as functions f(ξ1 ...ξn) defined on S x ••• x S . They are infinitely differentiable
+and vanish with all their derivatives for coinciding arguments and if some ξf ^ 0.
+Furthermore /->() (in 5^°) iff f(ξγ ...£„)->() together with all its derivatives
+uniformly on some neighborhood of every point of the compact manifold
+               4
+s4*.. *s .
+                                         4. A Semigroup
+     Let © the Euclidean conformal group which acts on Euclidean coordinates
+ae as explained in Section 3.
+                                                                             4
+     Let S the set of elements of © which leaves invariant the halfspace x > 0,
+                                               4                      4
+x φ o o . In other words, for every v i e ® , x >0, acΦoo implies (Ax) >0 and A
+                                                            (
+does not take any such point to infinity. Evidently A1A2E Z if /t 1 ? A2 e 8, thus
+® is a semigroup.
+                                                                      5
+     To determine ® explicitly, we introduce hyperbolic coordinates . Let ξ the
+                                                   a      6   5
+projective coordinates of Section 3, viz. ξ* = κx , K = ξ + ξ . Put
+                                 , ζ4 = rshσ, £* = re* (fc=123,5),           r>0         (4.1)
+           k                                      4                                4
+with (e ) a unit 4- vector. We see that x > 0, x φ oo if and only if ξ > 0 and this
+is true if and only if σ > 0. Here and everywhere, > means strictly larger than",
+otherwise we write ^ .
+    We introduce the subgroup U~ SOe(4, 1) which consist of pseudo-rotations
+that leave invariant the 4-th coordinate ξ4. It is generated by JAB with A, BΦ4.
+Let further
+                             H=-iJ64 and bτ = e~Hτ                           (4.2)
+bτ is of course an element of ©. Explicitly, if ξ is given by (4.1) then
+                                              ξ' = bτξ                                   (4.3)
+has components
+                   ξ'6 = rch(σ + τ\   ξ'4 = rsh(σ + τ);       ξ'k = rek   (k=123,5).
+Consider now the set S° of group elements A of the form:
+          6°: A = ule~Hτ U2 = u1bτu2        with      τ>0      and M f e U    (ΐ=l,2).   (4.4)
+Evidently <3° is contained in ®. Indeed U C S since M e U does not affect ξ4 and
+therefore leaves invariant the halfspace ξ4 > 0. Also bτ e ® for τ > 0 since it trans-
+lates the variable σ->σ + τ by a positive amount.
+    Toller and collaborators have shown 6 [17] that the closure of ®° is a maximal
+semigroup contained in ©, i.e. there is no semigroup containing it properly
+except ©. It follows that every element in the interior of ® can be parametrized
+in the form (4.4). In fact ®° is just the interior of ® and is itself a semigroup [17].
+    It is interesting to observe that under time reversal
+_                           Λ = ΘΛ-1θe&           for Λ e S~ΞΞ S°uU .                    (4.4a)
+      5                                       6       4   k
+       They are singular at the two points ξ = ±ξ , ξ = 0 (k= 123,5) .These correspond to the
+points σ = ± o o , r = 0, e irrelevant.
+    6
+      Their discussion is for SOe(3, 1) but carries over immediately.
+                                              Conformal In variance                                              211
+
+This is evident from the definition of S. In particular
+                             ΘHΘ=-H              and so       θb~1θ = bτ = blίτ .                            (4.4b)
+     We will later on need some other special transformations contained in S.
+It is easiest to specify their action in ae-space:
+                    dilatations:                              dρ: *->ρ*,        ρ>0.
+                    time translations by a > 0 :              ta\    x -+ x + α, α = (0, a) .
+Dilatations are generated by J56 and are therefore in U, while ta turns out to be
+in S but not in its interior S°.
+   The action of elements A of β on test functions / is defined by Eq. (3.10),
+which applies for all A e (5. We will now proceed to state three lemmas about
+elements of the semigroup S and their action on test functions f ( x l . . . κ n ) :
+      a) 6 /eαi es invariant the test function space ίf+,i.e. if f E £f+ then                            Λfε£f+
+         for all A ε S.
+      b) Define Λτ by
+                                                      bτ = d-h\t.hτΛτ.                                      (4.6)
+                Λτ tends to a limit, /l τ -^/L 0 0 e(5 as τ->oo, αrcd /L^ takes the point
+         £ = ( — 1,0) to xf = Λ^x = oo.
+      c) /// 6
+     Proof, a) It is most convenient to use the characterization of ^ as a space of
+functions f(ξi...ξn), see Section 3. Since / l e S leaves invariant the halfspace
+£4 > 0 and of course also the sets of coinciding points ξ( = ξp the support properties
+etc. of functions / e <9"+ are left invariant. Moreover, A are analytic mappings of
+the sphere S4 (a homogeneous space of (δ) [18], therefore they map infinitely
+differentiable functions into infinitely differentiable functions.
+     b) This has to be verified by explicit computation with 6 x 6 metrices, the
+computation will be done in Appendix B.
+     c) Functions / e ^ vanish by definition if xf ^ 0 for some i. Hence
+                       supp Λτf = Λτsupp f c Λ τ {(*!... £π); x f ^ O                     for all i} .
+As can be seen from the explicit form of the matrices Λτ (see Appendix B),
+                                                                                      2
+Λ τ { ( x ί . . . x n ) ; x f ^O(Vz')} is contained in { ( x 1 . . . x n ) ' 9 \ x i \ ^ 2 ( V i ) } whenever τ ^ 2 .
+This proves our assertion.
+
+
+                                    5. Conformal Cluster Property
+   We will now state and prove a cluster property of Euclidean Green functions
+which holds in every weakly conformal invariant Wightman QFT with a unique
+vacuum. It reads as follows:
+                      Gm+n(θf*xbτg)^Gm(θf*)Gn(g)                         for     τ-+ + σo
+and                                                                                                         (5.1)
+212                              M. Luscher and G. Mack
+
+bτ is the translation of the hyperbolic coordinate σ defined in the last section;
+for other notation see Section 2.
+    To prove cluster property (5.1) we start from the conventional' cluster property
+of Euclidean Green functions in the time-direction, viz.
+                  Gm+n(θf*xtag)^Gm(θf*)Gn(g)              for   α-» + oo
+and                                           n
+                                                                        (5.2)
+                                     /.fife***.
+Assertion (5.2) is proven by the following argument. By the spectrum condition,
+energy operator P° ^ 0 and the vacuum Ω is by assumption its only eigenvector
+with eigenvalues 0. Therefore
+                T(ta)= exp(-P°α)->£β         (weakly)      as     α-» + oo        (5.3)
+with EΩ the projection operator on the vacuum. From the work of Osterwalder
+and Schrader [13] we obtain the action of ta on vectors Ψ(f) defined in Section 2 as
+                          (Ψ(f\ T(ta) Ψ(g)) = (Ψ(f\ Ψ(tag))                       (5.4)
+with tag defined by Eqs. (4.5), (3.10).
+   Inserting Eqs. (2.13) and (2.8b) we obtain then from (5.3)
+                  Gm+n(θf* x tag)
+asα-» + oo. q.e.d.
+   Consider now the left hand side of (5.1). Writing 2τ in place of τ we have
+                        Gm +n(θf* x b2τg) = Gm+n(θbτf* x bτg)
+by (4.4b) and weak conformal in variance (3.1 1). This is
+       = Gm+n(ed-h\tahrf*xd-h\t^gJ          with fτ=ΛJ,         gτ = Aτg,    (τ^oo)
+Aτ as defined in (4.6b). Since θd~h\tshτ = d^h\t.shτθ by (4.5) it follows by using
+conformal invariance again that this is
+                                = Gm+   n(θf*xt2shτgτ).
+      Because of the conventional cluster property (5.2)
+               Gm +n(θf* x t2shτgJ-+Gm(θf*)Gn(gao)        = Gm(θf*)G{g).
+We are therefore left with the problem of showing that
+          Λ=Gm+π(θ/*xί2shτffJ-GM(θ/τ*xί2shτflft)^0                 as τ^ + cx).
+Again we shift an operator ί shτ to the left, obtaining
+                R = Gm+n(θtshτ /* x ί^^^) - Gm+π(θί8hτ f* x tshτgτ) .
+By (4.6), ί s h τ/ooΛhτ0ooΛht/τ and tshτgτ are elements of ^ for sufficiently large
+τ, say τ^ρ. For such τ we may form the vectors ^(ί s hτ/oo)? etc and obtain from
+(2.13)
+                             τ/oo), ^sh^oo)) - (Ψ(tshτ fτ\      Ψ(tsbτgτ))
+                                             Conformal In variance                              213
+
+Now, Ψ ( t a f ) = T ( t a ) Ψ ( f l    and since P° ^0, T(ta) is contractive, viz. || T(ta)\\ ^ 1.
+Therefore
+
+
+                                                                             as   τ->oo
+
+because Ψ( )isa vector valued distribution, and ίshρ fτ -+ f s h ρ f^ , ί shρ # τ -»ί shί? #o
+in the topology of 5^+ (τ -> oo). Π
+
+
+      6. Unitary Representation of the Quantum Mechanical Conformal Group
+    Consider Euclidean conformal transformations A in the semigroup ®. We
+define their action on state vectors Ψ(f) by
+                                       T(Λ)Ψ(f)=Ψ(Λf),           Aε&.                      (6.1)
+
+For/ = (/fc) a finite sequence of testfunctions/ fc e ^+ , A f = (Λ fk). By Lemma (4.6a),
+Λ f k will be in <¥+ again for every A e 8, and the r.h.s. of Eq. (6.1) is thus well
+defined. Now it may happen that Ψ(f) = 0 for some /φ 0. To show that Defini-
+tion (6.1) is meaningful nevertheless it must be demonstrated that ψ(f) = Q
+implies Ψ(Af) = Q for all A e S, i.e. the kernel of the homomorphism /-> Ψ(f)
+is in variant _under the semigroup. We will come to this in a moment.
+     Define Λ = ΘA~lθ as in (4.4a). It follows then from (6.1) that
+
+                                (Ψ(g\ T(A) Ψ(f)) = (T(A) ψ(g\ Ψ(f)) .                      (6.2)
+
+Indeed, by (6.1) and expression (2.13) for the scalar product, the left hand side
+(l.h.s.) is
+        ΣGk+l(θgΐ x Λf^ΣG^Λ^Θgϊ                          x fί) = ΣGk+l(ΘΛgϊ x /,)= r.h.s.
+
+We used weak conformal invariance (3.11) in the first equality.
+     The same consideration also shows that ψ(f) = Q implies Ψ(Λf) = 0 as is
+required for consistency. Indeed, Ψ(f) = Q if and only if (Ψ (g),Ψ (f)) = Q for all
+finite sequences g = (gk\ gkε^°. But then (Ψ(g\ ψ(Λf)) = (Ψ(Λg), Ψ(f)) = 0 for
+all 0, hence Ψ(Λf) = Q.
+     Let us now restrict our attention to elements in &~= 6°u U, S° the interior
+of S. S~ is also a semigroup. Every such element can be factorized as A — uίbτu2,
+τ ^ 0, HI E U, see Section 4. Consider the individual factors. Every u e U commutes
+with θ because it does not affect the 4-th coordinate of 6-vectors ξ, therefore
+         l
+ΰ = u~ . Equation (6.2) reads then
+                               (Ψ(g\ T(u) Ψ(f)) = (T(u~ i) Ψ(g\ Ψ f)) .                    (6.3)
+
+The vectors Ψ(f) are dense in the Hubert space 3? or physical states. This follows
+from the result of Osterwalder and Schrader that the same is still true of the
+seemingly smaller subspace of vectors Ψ(f\ f C^°< in the notation of [13].
+Therefore (6.3) extends by continuity to the whole Hubert space and we have a
+unitary representation of the subgroup U of ® on ffl .
+214                              M. Luscher and G. Mack
+
+   Consider next the boosts bτ = exp(-Hτ) in the 4-6 plane, with τ^O. By
+Eq. (4.4) we have bτ = bτ and therefore
+                       (Ψ(g\ T(bτ) Ψ(f)) = (T(bτ) Ψ(g\ Ψ(f)) ,                            (6.4)
+
+i.e. T(bτ) is hermitean. By its definition bτbσ = bτ+σ and therefore by (6.1) also
+T(bτ)T(bσ) = T(bτbσ)(σ,τ^O), i.e. they form a representation of a 1 -parameter
+semigroup.
+     Next we will show that
+             (Ψ(f)9T(bτ)Ψ(f))^(Ψ(f)9Ψ(f))=\\Ψ(f)\\2              for    τ^O.              (6.5)
+
+   Proof. This inequality follows from the conformal cluster property (5.1).
+Written in terms of state vectors it reads
+               (Ψ(g),T(bτ)Ψ(f))^(Ψ(g),Ω)(Ω,Ψ(f))           for     τ-++π
+                                                                                           (O.o)
+
+
+   Without loss of generality we may assume || Ψ(f) || = 1 . By the Cauchy Schwarz
+inequality we have then
+                                                                                    112
+      (Ψ(f\ T(bτ) Ψ(f)) ^ (T(bτ) Ψ(f\ T(bτ] <F(/))1/2 = (ψ(f\ T(b2τ)        Ψ(f))
+
+The last equality follows from hermiticity (6.4). Repeating the argument n times
+we get
+                                                   ~n^c^i as w -,oo.
+
+In the last step we used cluster property (6.8), noting that |(Ω, Ψ(f))\ ^ || Ψ(f)\\2.
+This proves inequality (6.5) for all finite sequences / = (fk\ fk e &*+. Π
+    Inequality (6.5) can be extended by continuity to all of Hubert space 2f .
+It means that || T(bτ) || ^ 1 for all τ ^ 0. Now every element A of S~ may be written
+in the form Λ = u1bτu2l u{e U, τ ^ O. Therefore by the representation property
+T(A)=T(u1) T(bτ) T(u2). Since T(u^ are unitary, it follows that
+                       \\T(Λ)\\^i    for all   Λe&~=&uU.                                  (6.9)
+That is, we can extend the representation of 6~ defined by (6.1) to all of Hubert
+space 3? by continuity, and we obtain in this way a representation of S~ by
+contraction operators on ffl . By (6.2) it satisfies
+                                                             1
+       (f, T(Λ)Φ) = (T(Λ)Ψ,Φ)       for   Λe<ST,      A = QA~ Q\       Ψ9Φe.?ί?.          (6.10)
+    Lastly we will examine the continuity properties of this representation. The
+identity 1 of © evidently belongs to S~ Let then A -> 1 through values in <3~ It
+follows from definition (6.1) that
+                         (Ψ, T(A}Φ)-+(Ψ,Φ)         for   Λ->1,                            (6.11)
+and state vectors of the form ψ=ψ(f\ Φ=ψ(g). Since \\T(Λ)\\ g 1, it follows
+that (6.10) holds for all Ψ, Φ in tf. But then also
+                           \\T(Λ)Ψ-Ψ\\^0        as Λ^i.                                   (6.12)
+                                    Conformal Invariance                             215
+
+For we have
+                     2
+         \\T(Λ)Ψ-Ψ\\ = (T(Λ)Ψ9 T(Λ)Ψ)-(T(Λ)Ψ, Ψ)-(Ψ, T(Λ)Ψ) + (Ψ, Ψ)
+                     = ([T(AA)—T(A)—T(A) + \^Ψ,Ψ)-+ΰ if A-+1
+by (6.11), since Λ-+ 1 implies Λ-> 1.
+    Summing up we have a representation of S~ by contraction operators T(A)
+on Hubert space ffl which satisfies relation (6.10) and is strongly continuous
+at the identity in the sense that (6.12) holds.
+    We will now apply the generalized Hille Yosida theorem which is stated and
+proven in Appendix C. To show that its hypothesis are satisfied it only remains
+to be shown that the semigroup & considered so far coincides with that defined
+in (C.I). Let g + , g_ defined as in Appendix C and define the cone V to consist of
+those X in g_ which can be written in the form X = — τuHu~l for a τ > 0, u e U.
+Then all A of the form (4.4) may also be written in the form
+                                          x
+                            &: A = u'e ,       w'eU,       XeV.
+Since we know that this is a semigroup, it coincides with that defined by (C.I).
+   The assertion of the theorem gives us our
+    Proposition 1. In any weakly conformal invariant Wightman quantum field
+theory with a unique vacuum, the Hilbert space of physical states carries a unitary
+representation of the universal covering group (5* of SOe(4, 2)/Z2 The vacuum Ω
+is invariant and the conformal Hamiltonian" H = J60 = ^(P° + K°) is positive
+and self-adjoint, H^O. The vacuum Ω is the only eigenvector of H to eigenvalue 0.
+   The self-adjoint generators JAB of (5* act on the state vectors Ψ E ( ξ ΐ . . . ξ n )
+as differential operators which differ from the generators of the semigroup 8
+only by factors of i, viz.
+
+   JAB =iΣj(ξjAdjB-ξjBdjA);       4,5 = 0...3,56;djA=-jj- d Γ
+                                                              ,   £JO Ξ Ϊ '£J etc
+                                                           $j
+    We recall: weak conformal invariance means that the Euclidean Green
+functions are invariant under 80^(5, 1). The assertion made about the vacuum
+are straightforward consequences of Definition (6.1), viz. invariance of Ω under ST.
+and the conformal cluster property (5.1). The unitary representation operators
+will henceforth be denoted by U(A\ A e (5*.
+
+
+                                   7. The Manifold M
+       In Section 4 we have introduced hyperbolic coordinates on the cone C^ 1 (IR),
+viz.
+                    ξβ = rchσ,    £4 = rshσ,    ξk = rek    (fe=123,5).
+where e = (ek) is a unit 4-vector. The Euclidean coordinates x = (x4, x) become
+in this parametrization
+
+                              4
+                                    shσ                 e
+                                  chσ+ e5            chσ-he 5
+216                                   M. Luscher and G. Mack
+
+The Euclidean Green functions Gn(ξ1...ξn) may be considered as functions of
+these coordinates
+                             Gn(ξί...ξJ = Gn(r1elσ1...rnenσJ.                            (7.2)
+
+They depend on variables ri only through overall factors r f ~ d .
+    In the next section we will show that they can be analytically continued in
+variables σ7 to pure imaginary values
+
+                                  σ
+                                   . = iτp        — oo < ij < + oo .                      (7.3)
+
+Of course, the Euclidean Green functions depend on σ only through ch σ. This
+must not mislead the reader into believing that the result of the analytic continua-
+tion depends on τ only through cos τ, for in general the analytic continuation of
+a holomorphic function is defined on a Riemann surface with several sheets. We
+will find however that there is a schlichte (single-sheeted) domain of analyticity
+Re σί > Re σ2 ->...-> Re σn and the formal limit as Reσ^O through this domain
+is a one-valued "function" of "time variables" τ ί . . . τ n i f i t exists. The unit 4- vectors
+βι play the role of "space variables" in which no analytic continuation is to be
+done.
+     We are thus led to consider the manifold M consisting of points (e, τ) viz.
+
+                 M = {(e, τ); — oo < τ < + oo, £ = real unit 4-vector} .                 (7.4)
+
+    In the following we will review some results of Todorov, Meyer and Go [8, 9]
+to the extent that they will be needed later on.
+     Minkowski space M4 may be imbedded into M by identifying it with a re-
+stricted set of points
+                     M 4 ={(e,τ)eM; - π < τ < π , e 5 > -cosτ}.                          (7.5)
+
+The relation with the usual Minkowskian coordinates xα is given by
+
+                                                                                          (7.6)
+
+by analytic continuation of (7.1). We see that there is a bijective correspondence
+             4                                            α                5
+between M defined by (7.5) and Minkowski space {x }. If we write e = cos$,
+e = sin 03 then the line element becomes
+                                                   2     2      2          2
+                 dx« dxa = (cos τ + cos θ) ~ { d τ - dθ - sin θ dε dε}
+                        2
+with ε - dε = 0 since β = 1. We see that the surfaces τ = const are space-like within
+   4
+M in the ordinary sense, viz.
+                              a                                        4
+                            dx dxa<0         if   dτ = Q,    (e,τ)eM .                  (7.7)
+
+    It is known that the space M can be considered as a homogenous space of
+the q.m. conformal group ©*, that is ®* acts transitively as a group of trans-
+formations of M. To describe their action let us introduce projective coordinates
+                              ή = (r,e,τ)'9       r>0, (e,τ)εM.                          (7.8)
+                                       Conformal Invariance                                      217
+
+We define an action of (5* on ή which commutes with scaling r-> λr. In particular
+the conformal Hamiltonian" H = J60 generates translations of τ while Jij(ij= 123,5)
+generate rotations of e. For other 1-parameter subgroups it is best to consider the
+space {ή} as an oo-sheeted covering of the cone C 2j4 (lR) which consists of real
+6-vectors η = (ηA), A = 0...3, 56. To get it one cuts the cone along the line κ = η6
++ η5 =0 and glues 2 consecutive sheets together along this line.
+   The space {ή} is mapped onto the cone by the projection π:ή^>η, viz. π = (πA),
+                                                               ηk = rek    (/c-123,5).
+The action of (5* on the space M is such that [8]
+                                                    AABηB                                     (7.9)
+          A
+where A B acts as a pseudorotation on the cone C2 4 (IR) in the usual way [viz.
+(ΛAB) e ©*/Γ ~ S0e(4, 2) where Γ C center of ©*].
+     Translations (generated by Pμ = J6μ — J5μ\ Lorentz-transformations (generated
+by J μ v ; μ, v = 0.. .3) and dilatations (generated by J56) leave invariant the individual
+sheets of the manifold {ή} over the cone. Keeping this in mind, their action is
+completely specified by the corresponding pseudorotation of the cone.
+     Arbitrary conformal transformations A e (S* may be compounded from the
+special types of transformations considered so far.
+     It is also known from the work of Segal [7] that the mainfold M admits a
+©^-invariant global causal ordering >. It has been described e.g. by Todorov [9],
+viz.
+                         (eί,τί)>(e2,τ2)    iff τ 2 -τl > Arccos eί e2                (7.10)
+
+
+
+
+Fig. 2. Manifold M. Shaded part is M4. p2 is the unique point at spatial infinity of M4. Drawing for
+                                    2 space time dimensions
+218                              M. Luscher and G. Mack
+
+where Arccos x is the principal value of arccos x which lies between O...π. (elίτ1)
+and (e 2 ? τ 2) are relatively spacelike" if |τ 2 — τ j < Arccos e1 - e2 or, equivalently,
+if there exists a conformal frame where τ1 = τ 2 . When restricted to Minkowski-
+space M4, this causal ordering agrees with the usual one. It is important to note
+that the q.m. conformal group acts transitively on the set of pairs (Pι,p 2 ) °f re"
+latively spacelike points Pι=(e1,τ1) and P2 = (e2^τ2)- This is seen as follows:
+By a suitable rotation of e and translation of τ we may take p2 to Pi = ((0, — 1), 0)
+i.e. the unique point at spatial infinity of M4. Then the little group § of p2 consists
+of dilatations, Lorentz transformations and translations, and the set of points p1
+which are relatively spacelike to p2 coincides with Minkowski space M4 as defined
+in (7.5). But § acts transitively on M4 and therefore the asserted transitivity
+property follows.
+
+               8. Analytic Continuation of Euclidean Green Functions
+   Consider the state vectors ΨE and Euclidean Green functions Gn as functions
+of the hyperbolic coordinates, viz. ΨE(ξ1 ...ξm)= ΨE(r1 eίσί.. .rmemσm) and
+Gn = Gn(r1e1σ1...rnenσn) as defined in Eq. (7.2). Points ξ where the hyperbolic
+coordinates are singular will be left out of consideration henceforth, i.e. we
+consider only finite values of σί and ri > 0.
+   Let us smear with testfunctions g(eί...em) resp. h(el...en). We define (dΩ
+= usual measure on 4-dim. unit sphere e e = 1),
+           ΨE(σί...σJg)=ίdΩ1...dΩmg(e1...em)ΨE(r1e1σ1...rmemσm)                     (a)
+and                                                                              (8.1)
+                                     -σi\glΨE(σm+1...σm^
+                                      ί...em+n)Gm+n(rίe1σ1...rm +nem^^
+Because of analyticity of Green functions the r.h.s. is well defined for σλ < σ2 < . . .
+<σm<0<σm+1 < ... <σm+n. Therefore also the vector ΨE(σ1...σm\g) is a well
+defined vector in ffl with finite norm whenever 0< σί < ... < σn i.e. there comes
+no trouble from- singularities of ΨE at x4 = x4 (Actually there are none, cp. end
+of Section 2).
+    Because of translational invariance in variables σt the Green functions defined
+by Eq. (8.1b) depend in fact only on difference variables σk+ί — σk (The /^-de-
+pendence is explicitly known and of no concern here). Moreover,
+             (ΨE(-σm...-σ1\g\e-HsΨE(σn+1...σm+n\h))
+                = Gm+n(σί...σm,σm+1 + s...σm +n + s \ g h )   for s^Q
+                                 E
+since H acts on state vectors Ψ as a translation operator in σ. The analysis from
+here on is an exact replication of the analysis of Glaser [12] or of that part of [13]
+which does not use axiom (£.0'). It uses the classical Hille-Yosida theorem and the
+concept of envelope of holomorphy. The result is the following.
+    Proposition 2. In a weakly conformal invariant Wight man QFT (with a unique vacu-
+um) the Euclidean Green functions Gn(r1e1σl...rnenσn) can be analytically continued
+to complex variables σk = sk+iτk. They are holomorphic for 0<sl<...<sn,
+τk arbitrary real.
+                                         Conformal In variance                                  219
+
+    We see that the space M appears as a real boundary of the domain of analytic! ty
+of the Green functions, viz. s fe -»0 for all k through values such that sk+ 1 > sk > 0.
+    Example. Let us consider the 2-point function G2(ξ1ξ2) of a scalar field of
+dimension d. This is specified uniquely up to a normalization factor n by weak
+conformal invariance. In the Euclidean domain
+                                         d              d
+                G2(ξ1ξ2) = n(ξ1ξ2Γ           = n(r1r2Γ {ch(σ2-σί)-e,             e2}.         (8.3)
+It is readily seen by inspection that this defines a holomorphic function of complex
+variables σ1 =sί+ zτ 2 ,σ 2 = 5 2+ zτ 2 in the domain 0 <s1 < s 2 , τ l 5 τ 2 = — QO... + oo,
+because the expression in { } cannot vanish for such arguments. The limit as S;-»0
+through values s 2 > s 1 > 0 defines a tempered distribution W2(rίeίτl,r2e2τ2).
+Formally
+                                                     -τl -iO)-e1 ' e2}~d .             (8.4)
+    Finally we may say something about the spectrum of H. Let z = Qxp(σί — σ2).
+Then \z\ < 1 in the domain of holomorphy and expression (8.3) is proportional
+to the generating function for Gegenbauer-polynomials [9]. Therefore
+
+                 G2(r1σ1el9r2σ2e2) = nβr1r2Γd £ e'^^-^C^e, e2)
+                                                            k =0
+with                                                                                          (8.5)
+                                   ωk = d + k .
+Recalling that
+                             G2(r<?0, rσe) = (Ψ(reO), e~Hσ Ψ(reO))
+we see that the Hilbertspace Jtif contains eigenvectors of H to eigenvalues ωk = d + k,
+k = 0, 1 , 2, . . . determined by the dimension d of the scalar field.
+    This result can be generalized by considering the Euclidean Green functions
+obtained by analytically continuing the 2-point Wightman function (in Min-
+kowski space) of a traceless symmetric tensor field Φ αι ... α2 (x). The Euclidean
+2-point Green functions are again uniquely determined up to normalization by
+weak conformal invariance. They can be similarly expanded; the necessary
+computations will be done in Section 9. The result is as follows.
+    Suppose there exists in the original Wightman theory a local symmetric
+tensor field Φμί...μs(x) with dimension ds and positive definite 2-point function
+— e.g. a current or stess tensor etc. Then the Hubert space Jti? contains eigenvalues
+of the conformal Hamiltonian H to eigenvalues
+                                  ω
+                                   k — ds + k, k = 0, 1 , 2, . . . .
+Lastly recall that the vacuum also is an eigenstate of//, with eigenvalue 0 (ground-
+state since H ^ 0).
+                             9. Generalization to Arbitrary Spin7
+    We now wish to discuss how the results obtained so far can be generalized
+to fields of arbitrary spin. There is just one point here which is not obvious. That
+is the choice of basis in index space.
+       This section is included for completeness and should be skipped for a first reading.
+220                                   M. Luscher and G. Mack
+
+    In a Wightman field theory in Minkowski space the fields are always assumed
+to obey the communication relations
+                                     ίVμΦΛ(x) = [.ΦΛ(x),Pμl                               (9.1)
+                                                           μ
+with the generators of space time translations P . That is, these generators do not
+act on the indices. This amounts to fixing the choice of basis in index space at
+different points x relative to each other. Of course for a theory with Poincare
+invariance as its only space time symmetry this is the evident and natural con-
+vention. However, for our purposes of analytically continuing from Minkowski
+space to the whole superworld M it is an inappropriate choice and would lead to
+kinematical singularities. The reason for this will soon become clear. Instead, one
+can choose bases such that the new "conformal Hamiltonian" H does not act on
+the indices. Formally
+
+                                 i-j^ΦΛ(reτ) = ίΦΛ(reτ),IΓ\                                (9.2)
+
+where (reτ) = η are projective coordinates on M.
+    To be more explicit let us first recall [3] that all finite dimensional representa-
+tions of the q.m. Lorentz group SL(2, <C) can be constructed as tensor products
+of the two fundamental spinor representations. These representations can be
+analytically continued to representations of the complex Lorentz group and
+therefore in particular to (unitary) representations of the spin-covering of SO (4).
+All the Lorentz covariant fields may therefore be considered as multispinor fields
+to start with, viz.
+
+
+if the field transforms according to the representation (£/, ^k). Different fields
+will be numbered by an index n. We label by n* the hermitean conjugate field, viz.
+                          Φ£(x) = Φ2(x)*, α*^...!^...^.).                                 (9.4)
+Note that it transforms according to (i/c, ^j). The Euclidean Green functions
+Gαί.'.'!α™(*ι ' *m) are obtained by analytically continuing the Wightman functions
+for such fields to the Euclidean domain.
+    The smeared Green functions
+                Gm(f^Sd**,..Λ**mGl\-^                                                      (9.6)
+Summation over all repeated indices is understood.
+   The Euclidean time reversal operator θ acts on test functions according to
+
+                        (0/*)«i:::£(*ι ^                                               (9.5)
+     With these conventions, the Euclidean Green functions obey positivity
+(2. 14), viz.
+                                                                                                2 14
+                                                                                              ( )
+                                                                1    c
+for arbitrary finite sequences of test functions fk= t /^ 1 > ;;;ΐ (ΐ 1 ...ί fc )e5^+,/c = 05 1,... .
+So far everything is standard and valid for any Wightman QFT [3, 13].
+                                        Conformal In variance                        221
+
+    Let us now turn to the formulation of the hypothesis of weak conformal
+in variance. The transformation law (3.10) of test functions is replaced by [1]
+
+                  :£(*I...^                                                       (9.8)
+in x-space language. The notation is as follows: If χ= [/, £] then — χ = [/*, 4 — 5],
+/* the complex conjugate representation to /; ht are elements of the subgroup of
+stability § of the point κ = 0 under the Euclidean conformal group © = spin
+covering of SOe(5, 1).
+    The subgroup § = 9Jl9I9t where $R consists of Euclidean Lorentz trans-
+formations [spin covering of SO (4)], $1 of dilatation, and 91 of special conformal
+transformations. The little group elements ht are determined by κt and A through
+                                h = t~lAtx,       with     κf = A~^                (9.9)
+and tx is the translation which takes 0 to *.
+     The matrices D/l are specified by χf = [/ί? <5J viz. spin" and dimension of the
+field Φ\ Explicitly, for h = man (m e 501 etc.)
+
+                       D*β(man) = DlΛβ(m)σ(a)            with     σ(a)=\a\~δ      (9.10)
+
+if a is a dilatation by \a\. Dl is the multi-spinor representation of the Euclidean
+Lorentz group discussed above.
+    For the scalar case, Dl = 1 and the factors σ(a) are eaten up upon going over
+to the (J-space formulation.
+    The transformation law (9.8) is derived with the theory of induced representa-
+tion; this has been explained in detail before [1,6, 20].
+    The hypothesis of weak conformal invariance asserts invariance of Euclidean
+Green functions as before, viz.
+                              Gm(Λf) = Gm(f)           for all A in (5.           (3.11)
+Also the conformal cluster property (5.1) remains true in general, by the same
+arguments as in Section 5.
+    We have thus assembled all the ingredients which are necessary to guarantee
+the existence of a unitary representation of the q.m. conformal group ©*; pro-
+position 1 holds thus in general.
+    We are not yet ready to carry out the analytic continuation of the Euclidean
+Green functions to M. The main problem is with the definition of the little group
+element h. Minkowskian space time translations tx leave invariant Minkowski
+space M4 and can therefore not act transitively on the larger superworld M. They
+can therefore not be used to define little group elements for M.
+    We propose to remedy this by a (unitary) change of basis in index space. At
+the same time we go over to projective coordinates ξ on Euclidean space.
+    Let ξ = ^(0, 1 1) a standard 6- vector, viz. x = 0, k = 1. To every ξ we may 8 then
+select once and for all some standard boost bξ of the form
+                               bξ = bσua      such that       bξξ = ξ ,           (9.12)
+
+     We ignore subtleties associated with the points ξ = (0, + r, 0, r), r > 0.
+ 222                                  M. Lϋscher and G. Mack
+
+ with u 6 U and α a dilatation. Explicitly, if
+                     ? = $el        (ί=123,5),       £4 = ishσ,   £6 = |chσ           (9.13)
+
+ then a is unity, bσ the σ-translation defined in Section 4, and w may be chosen in
+ the form
+
+                                                       4 V
+                                                                                      (9 14)
+
+
+e = (eί e2 e3), *£ its transpose (a column vector) and i the 3 x 3 unit matrix. Rows
+and columns are numbered 1235 from left to right and top to bottom.
+   Of course, if xα = ξa/κ, then also
+                                            t,a'ξ = ξ                                 (9.15)
+                                                       1
+for a suitable dilatation a\ since a'ξ=\a'\~ ξ.
+    Therefore bξ 1 txaf leaves in variance ξ and so belongs to its stability subgroup
+9W9ί, viz.
+                                                                                      (9.16)
+Of course m, n depend on ξ. To find them one does not actually need to determine α,
+α', moreover m depends on ξ only through x.
+    Let us now introduce new test functions which depend on projective coordinates
+e'by
+
+/.^..•Λξi. .ω^i1"^                                                                (9-17α)
+with mfc determined by ^ through Eq. (9.16). Similarly
+.GαV...^ι...ω = ^Γ d ^..^ dt < /ϊl (m 1 )..-^ /)k K)G Λ :.. /ik (3E 1 ...ϊ k ).   (9.17b)
+                                                                    l
+They are homogeneous functions of the ξt. Instead of D (m) one may also write
+Dx(b^tx a') since Dχ(mn) = D\m). With this notation, Gk(f) as defined by Eq. (9.6)
+may also be written as
+
+
+The transformation law of the new testfunctions follows from (9.8) as
+
+         ::ϊ«ι ..ί^                                                               (
+                                l       l        l
+           fc^Mb^, ξ'k = Λ- ξk, D (h) = D (m) for /2 = mπeSm
+   This is the correct transformation law for an induced representation on the
+cone Cj f l ^ ©/9JΪ91 with 6^ as standard boost.
+   Moreover
+
+
+since Dl**β*(m) = Dlcxβ(θmθ).
+    With the notation (9.18), positivity (2.14), weak conformal invariance (3.11)
+and conformal cluster property (5.1) remain valid as they stand. In addition, the
+new Green functions depend on the hyperbolic variables σ f [cp. Definition (4.1)]
+                                 Conformal Invariance                              223
+
+only through their differences σi+1 — σi as was true in the scalar case and was used
+in carrying out the analytic continuation of Euclidean Green functions in Sec-
+tion 8.
+    To verify this assertion, let us inspect the transformation law (9.19a) for the
+special case of a σ-translation: Λ = bff. It is readily verified that the little group
+elements
+                          f                                  l
+                         h =b^bσbξ, = ί            (ξ' = b - ζ ) .
+Checking this is simplified by noting that we know a priori that h' e 9K91 therefore
+h' e 21 implies h' = 1.
+    Thus, σ-translations do not act on the indices anymore. It follows then from
+weak conformal invariance that the Green functions may depend on variables σ f
+only through their differences.
+    With this, all the ingredients are ready which are necessary for the analytic
+continuation of the Euclidean Green functions in the variables σ{ to M. Proposi-
+tion 2 follows as before and holds therefore in general.
+    Example, Let ΦΛ(x) a traceless symmetric tensor field of rank / with dimension <5,
+where α = (α 1 ...α ί ). Its Euclidean two point function in the old basis is obtained
+from (Ώ, Φ*(xi)Φβ(x2)Ω) by analytic continuation to imaginary time and will be
+temporarily denoted by A^β(x1 κ2\ χ = [/, <5]
+    It is determined by weak conformal invariance up to normalization; an
+explicit expression was given in [1].
+    There is an alternative and equivalent expression for Δχ which is due to
+Koller [20]. The central role in it is played by a special element &t of (5, known
+as a representative of the nontrivial element of the Weyl group.
+                        9t = rotation by π in the 45-plane .                    (9.20)
+It follows that &m&~ ί = θmθ'1 for m e 9JΪ. We can extend the tensor represen-
+tation Dl of SDΪ to a representation of the group 9JΓ ~ 0(4) which is obtained by
+adjoining θ (or (X) to 9Jί. Kollers formula reads
+                                           t;^t^}D\β(θ)                        (9.21)
+n is a normalization factor.
+    From this we obtain the propagator in the ξ-space language (new basis).
+Let ξ = |(0, 1 1) as before and suppose for a moment that ξ is such that ξ" = xα,
+κ = 1. Then a' = i in (9.15) and therefore by Definition (9.17b)
+
+
+                                           l
+                                b^^t^)D γβ(θ)                                  (9.22)
+                                 l
+                        = nσ(a)D ocβ(mθ)       for b^ 3$t@x= man .
+In fact this formula is valid for general ξ since both sides can be shown to have
+the same homogeneity properties in ξ. Of course x* = ξ*/κ then.
+    It only remains to determine m, a as functions of ξ. This is done by explicit
+computation with matrices. Koller has explained in great detail how such com-
+putations are done [20]. Let ξ given by (9.13) viz.
+                                               4
+                  ^ = ^ (i=1235), £
+224                               M. Luscher and G. Mack
+
+Then a is a dilatation by \a\
+                                         ~, ,* *    1 + chτ
+                                         2\a\*-texe 4 , ,
+|<ι| = *(chσ-e j ), m' = mV = ϊ\aΓ^                                              . (9.23)
+                                         ^shτ                      1 — £ D chτ
+Hence finally
+                 A * β ( ξ , ξ ) = n\chσ-e5ΓδS{m'^βί...m'aιβl}- traces)            (9.24)
+where S acts as a symmetrizer in all arguments α t , j8f separately, and ri = 2δn
+is a normalization factor.
+
+
+                                      10. Epilogue
+   Having established the analyticity of Green functions in variables σk we can
+formally define the Wightman functions on the superworld M by
+  Wn(ήί...ήn)=       lim       Gn(rίeίsί + iτl9...,rnensn+iτn)   for #y f = (η, eh τt) .
+                    Si^O
+                 0<S1<...<SM                                                       (1Q1    )
+                                                           d
+They depend on ri only through an overall factor r^ by homogeneity of Gn, and
+they will be invariant under the q.m. conformal group ©*, viz.
+                               Wn(Λή1...Λήn)=Wn(ήί...ήJ                             (10.2)
+The action of A on points ή was described in Section 7.
+    One would like to show that the Wightman functions formally defined by
+Eq. (10.1) are tempered distributions or at least generalized functions admitting
+of a test function space whose intersection with @(Mn) (oo differentiable test
+functions with compact support) is dense therein. This is a difficult technical
+problem which we have not investigated.
+    However, in the study of models one has usually more information at hand.
+Let us therefore assume for further discussion that Wn(ή ^...ή^ are indeed generalized
+functions in the sense just explained. The Gelfand-Naimark-Segal reconstruction
+theorem [3] then supplies us with fields φ(ή). They become operators with a
+common dense domain of definition after smearing with test functions; and
+                                                       d
+φ(r,e,τ) depends on r only through a factor of r~ . The fields are co variant in
+the sense that
+                               U(Λ)φ(ή)U(ΛΓ1=Φ(Λή).                                (10.3)
+In particular
+
+
+
+where H ^ 0 is the conformal Hamiltonian constructed in Section 6.
+    This equation of motion has two outstanding features. First, the dependence
+on r of φ is trivial and the spatial variables e form a compact space - they are
+unit 4-vectors. The usefulness of this observation is limited though by the fact
+that the fields are not operators yet after smearing only in the space variables.
+                                   Conformal Invariance                                 225
+
+    Second, the Hamiltonian H has many discrete eigenvalues which are fixed
+by the dimensions of the local fields in the (Wightman) theory. This has been
+explained in Section 8. There is some indications (but no complete proof yet) that
+in theories which admit operator product expansions, H has a purely discrete
+spectrum specified completely by the dimensions of the local fields in the theory.
+    Lastly, let us turn to the locality properties of the fields. We claim that
+           \_φ(ήι), φ(ή2J] - = 0   whenever ήί,ή2 are relatively spacelike          (10.4)
+in the sense explained in Section 7. Clearly this is true when ή, and ή2 are projective
+coordinates of 2 relatively spacelike points in Minkowski space. This is one of
+the Wightman axioms which we assumed. But then also
+                 U(A}[_φ(ηl\
+for arbitrary A e (5*. Since (5* acts transitively on pairs of relatively spacelike
+points (^ι,τ 1 )φ(e 2 ? τ 2 ) of M, Eq. (10.4) follows.
+    Lastly we would like to refer to a recent result by Schroer and Swieca. It
+concerns the field transformation law under the center of ©*.
+    It follows from the work of [8] that the center of (5* is a discrete abelian
+group isomorphic toΈxΈ2. The factor TL2 leaves invariant the points of M and
+serves to distinguish between bosons and fermions. The remaining factor
+                  Z = {Z Λ ;n = 0, +1, ±2,...        with   Z = eiπHΠ}             (10.4a)
+                             Π = 4-rotation of e into — e .
+             2
+Therefore Π = 1 and
+                                      Έ2n = e2ίπnH                                (10.4t>)
+
+
+Schroer and Swieca have pointed out [10] that in general
+                                                                                    (10.5)
+for any phase factor #, and the same is still true if we consider positive and negative
+frequency part of φ separately. This means [cp. (10.3)] that fields with arguments
+over the same point x of Minkowski-space do not just differ by a phase, and they
+transform under the center of (S* in an essentially nontrivial way.
+    This conclusion was reached in [10] by study of a soluble 2-dimensional
+         9
+model. However it is valid more generally as we will now argue.
+    Starting point is the fact that we have some information about the dimensions
+of the composite fields in the theory: they are in general anomalous and dynamically
+determined.
+    Consider for instance 0 3 -theory in D dimensions. [This theory is sick, but
+never mind....] Let d=^D — i + A the dimension of the fundamental field.
+There ought to be symmetric tensor fields Oαι ,..Λs(x) of arbitrary even rank
+s = 2, 4, . . . with dimension ds = D — 2 + s 4- σs. By positivity [1, 21, 22] σs must be
+a (convex) function of s satisfying σ s +2 ^ σs ^ 0 and σ2 = 0 (stress tensor), σs-> 2 A
+as s-^ oo. The last relation was first discovered by one of the present authors [21]
+    9
+       Note added in manuscript: For the Thirring model the computation was done by Kupsch,
+Rίihl and Yunn [33].
+226                              M. Luscher and G. Mack
+
+and was later proven by Callan and Gross in the more general frame work of
+summed up perturbation theory [23]. In conclusion, σs have a nontrίvial de-
+pendence on s.
+    Consider now the 3-point functions (Ω,φ(xί)φ(x2)Oaί^^s(x3>)Ω);      they are
+not expected to vanish. The corresponding Euclidean Green functions are uniquely
+determined (up to normalization) by weak conformal in variance [15,24] and
+                                                                              2
+can be analytically continued to M as described in Section 9. Let U = U(Z ).
+By (10.4b) and (9.2),
+
+   (Ω9uφ(ήi)u-^uφ(ή2)U'loΛί^(ή^
+By inspection of the explicit expression for these 3-point functions one finds that
+this is
+
+
+The phase factor herein depends on s in a nontrivial way, and therefore equality
+in (10.5) cannot be true for any one %,.
+    Conversely it is clear from Eq. (10.4b) and the discussion in Section 8 of
+eigenvalues of H that the unitary representation of the center of (5* in the physical
+Hilbertspace contains a great deal of dynamical information already, in particular
+about the noninteger part of the dimensions of all local fields in the theory.
+
+
+
+                          Appendix A. Covariance Lemma
+   Retain the notation of Section 3, in particular let the measure dμ(ξ)
+= 2d6ξδ(ξ-ξ)δ(ξ η~l\ η positive timelike or ~ lightlike.
+    Lemma. Let h(ξ) a locally integrable homogeneous function of ξ, h(ρξ) = ρ~4h(ξ)
+for ρ>0 and such that 1= J d μ ( ξ ) h ( ξ ) exists (for some η). Then the integral I is
+independent of the vector η appearing in the definition of the measure dμ, for η
+positive lightlike or positive timelike.
+    Proof. Introduce hyperbolic coordinates ξ = (r, e, σ) as in (4.1) and let ξ = r~1 ξ
+ = ( i , e , σ ) . Working out the Jacobian we get
+
+                           dμ(ξ) = 2r3drdσdΩδ(rξ       η-i)
+
+with dΩ the usual measure on the 4-dimensional unit sphere e e=i. Integrating
+a homogeneous function h(ξ) = r~4h(ξ) we get
+
+                    Sdμ(ξ)h(ξ)=SdrdσdΩ2r-l.δ(rξη-i)h(ξ)
+                                = 2$dσdΩh(ξ]
+
+which is independent of η. It is essential that η is positive timelike or ~ lightlike
+in order that r-integration can be trivially performed, for only then ξη > 0 except
+possibly for a set of measure zero. Π
+    The lemma has been used before in the literature on conformal QFT in [9, 15,
+18,21]. For the group SO(3,1) it appears in the text book [25].
+                                      Conformal Invariance                             227
+
+                       Appendix B. Some Matrix Computations
+
+    In this Appendix, the 6 x 6-matrix Λτ defined in (4.6) is calculated explicitly.
+Let us recall that to any euclidean conformal transformation there corresponds
+a 6 x 6-matrix ΛE SOe(5, 1) (see Section 3). They are easily constructed for the
+following three cases
+   1) bτ is defined by: bτξ = ξ' where ξ f 4 = chτξ4+ shτξ 6 ; ξfβ = shτξ4 + chτξ 6 ;
+ξ' = ξk (fc=l,2,3,5).
+ k
+
+
+   Hence:
+                         1    0       0        0
+                         0    chτ     0       shτ
+                  *>«= 0      0       1        0
+                                                            ί ΞΞ 3 x 3 unit matrix .
+
+                         0 shτ        0       chτ
+
+    2) The translations ί_ s h τ in the 4-direction (viz. t_shτx = (x4— shτ, jc)) cor-
+respond to:
+                          i       0            0              0
+                          0       1           — shτ         — shτ
+                          0    shτ            i-δ            -δ
+                          0   — shτ            δ            \ +δ
+
+     3) Dilatations dchτ (viz. (d,,hτx)μ = chτx μ ; μ = 1,...,4) take on the form:
+
+                                  i                 0                0
+                                  0       1         0                0
+                                               l-hch τ  2
+                                                                   l-ch2τ
+                                  0
+                                                2chτ                2chτ
+                                               l-ch τ
+                                                        2
+                                                                   l+ch2τ
+                                  0
+                                                2chτ                2chτ
+
+Λτ is defined to be the product of the enumerated three matrices, namely:
+
+
+Performing the calculation yields :
+                                      1        0               0     0
+
+                                      n
+                                               1             shτ     π
+                                              chτ            chτ
+
+                                      π       shτ             1      ΓV
+                                              chτ            chτ
+                                      0       0               0      1
+228                                  M. Luscher and G. Mack
+
+This converges for τ -> GO to
+
+                                            1 0          0 0
+                                            0 0          J   0
+                                            0   1        0 0
+                                            0 0          0   1
+                             4   4                       4
+The half space {κε]R \x >Q} = {ξεC^1\ξ >0} = {ξε C^,\η ξ<Q} where
+               6                                     +                        +
+f/ = (0,1,0)61R is mapped by Λτ onto the'set {ξε C5 }1 \(Λτη) ς<θj[ = [ξ ε C5 a |
+                          4   2         4
+<f + shτcf > 0} - {* e IR 1 * - 1 - 2x /shτ < 0} which is equal to the interior Of
+the ball with center (1/shτ, 0) and radius chτ/shτ.
+
+
+Appendix C. Analytic Continuation of Contractive Lie Semigroup Representations
+     Given a one parameter semigroup of self-adjoint contraction operators Tt
+(t Ξ> 0) on a Hilbertspace ^ the Hille-Yosida theorem asserts the following [26]:
+Assume that \\TtΨ—Ψ\\-+Q as f->0 for every Ψε^, i.e. strong continuity at
+the identity. Then there exists a positive self-adjoint generator H such that Tt
+ = exp(— Ht). This implies among other things that the semigroup can be analy-
+tically continued to a 1-parameter group of unitary operators exp(— iHs}.
+     We will generalize this theorem to a class of Lie-semigroups. The generalization
+is not entirely trivial because a representation of a Lie algebra by self-adjoint
+operators is not always integrable to a unitary representation of a corresponding
+Lie group.
+     We are interested in the following situation. Let © a Lie group with real
+Lie algebra g. Then every element A in a neighborhood of the identity of © can be
+written as A = ex for an X in g. Let θ an automorphism of g with θ2 = 1. This
+induces an automorphism of © which 1 0 will also be denoted by θ. Let us split
+g = g + + g _ , where g + consists of all X in g such that Θ(X) = X, and Θ(Y) = — Y
+for Y i n g. Then g+ is a subalgebra of g, and [ g + , g - ] C g _ , [ g - , g - ] C g + . It
+follows that g* = g+ + / g _ is also a real Lie algebra. g+ is called a symmetric
+subalgebra of g and g*.
+     Let U the connected subgroup of © which is generated by g+ , and suppose
+that there exists an open convex cone F c g _ such that
+      i) V is invariant under U, i.e. for every u ε U, X ε V implies uXu~l ε V.
+     ii) V and g + span the Lie algebra g.
+     We define
+  & = {Λε&ι          f o r a fc^ 1 3^ ...Xke V, uεU              such that   Λ = eXί...eXku}.
+                                                                                          (C.I)
+   Clearly S° is a connected semigroup contained in ©, since V is invariant
+under U. It will follow from Lemma 1 below that 6° has the same dimension as
+a manifold as ©. The subgroup U C © is not in ®° but it consists of limit points
+of ®°. We may therefore define another semigroup S~=S°ulϊ. It shares with
+       In the main text we wrote ΘΛΘ in place of Θ(A).
+                                   Conformal Invariance                               229
+
+6° the following stability property: If A e S~ then also A = θ(A~ί) e S~. We are
+now set to state our
+     Theorem. Let S~C© a semigroup as described above, and T a representation
+of <3~ by contraction operators on a Hilbert space 2F, viz. \\ T(Λ) \\ ^ 1 for all A e S~.
+Suppose that
+      i) // Λ->1 through values in 6~ then also \\ T(A)Ψ- Ψ\\^0 for all Ψ in 3tf
+(strong continuity at the identity).
+     ii) (Ψ, T(A)Φ) = (T(Λ)Ψ, Φ) with A = Θ(A~ *) for all Ψ, Φ in tf.
+ Then T can be analytically continued to a unitary representation of the simply
+connected Lie group ©* whose Lie algebra is g* = cj+ + z g _ . It has the property
+that the selfadjoint generators T(X) are positive for — XeV.
+     Remarks. 1. The theorem might be of some help in the general representation
+theory of noncompact groups, for it yields analytic representations" of ©* which
+are often difficult to obtain otherwise. In the present paper we use it to analytically
+continue a contractive representation of a maximal open semigroup S° C ©
+ ~SO(5,1) to a unitary representation of the universal covering group ©* of
+SO(4, 2). Contractive representations of S~ can be obtained in a heuristic manner
+from unitary representations of (5 by splitting the representation space as in [17],
+and then analytically continuing in the continuous Casimir invariant. This idea
+will be further developed elsewhere [2].
+    2. By an analytic continuation of the representation T( ) of ®~ we mean the
+following: according to the classical Hille-Yosida-theorem, we may analytically
+continue the one parameter semigroup T(expίJf), £^ 0, X e V to some unitary
+one parameter groups T(expίτJf), τ eR Our theorem asserts that those unitary
+operators together with the unitary representation T(u\ u e U, of lϊ generate by
+finite multiplication a unitary representation of ©*. This also means that the
+infinitesimal generators of the new representation coincide with those given by
+T(Λ\ A E ®~, apart from some factors of z.
+     Before starting with the proof of the theorem, let us note that its hypotheses
+say in particular that the representation T of SΓ restricts to a unitary representation
+T(u) of U C S~. Moreover, it follows from continuity condition i) that also || T(Λ)Ψ
+— T(u)Ψ\\-»0 whenever A-^ueU through values in S~. [To see this define
+Λ' = u-lΛ€<& and note that \\T(Λ)Ψ - T(u)Ψ\\ = \\ T(Λ')Ψ- Ψ\\ by unitarity
+ofT(4]
+   Proof of Theorem. We will first assemble three more or less well known
+lemmas:
+   Lemma 1. Let X^... ,Xnε§ a basis of the Lie algebra g and ©c the local
+complexificatίon of ©, see [27]. Then there is an open, complex neighborhood
+θ C C" such that the mapping
+
+
+
+ equips ©c with an analytic parametrization of an open neighborhood of the identity
+1 in ©c.
+    This lemma is an easy consequence of the fact that the indicated mapping
+is holomorphic in all variables [32] and has non-vanishing Jacobian at zero.
+By applying the implicit function theorem we get our result [14, Theorem 10.2.5].
+230                                   M. Lϋscher and G. Mack
+
+    Lemma 2 [28, 29]. Let U any Lie group and T( ) a continuous representation
+of U by unitary operators in a Hilbert space Jf. Then there is a dense, linear subspace
+^u °f equianalytic vectors in J>f, i.e. we have an open neighborhood ./K of 1 in Uc,
+the local complexification of U, such that T(x)Φ, x e U, Φ e 3) may be analytically
+continued to all points of .Ar.
+    A point to be stressed here is the fact that ./K is independent of the vector
+Φ e Stu, (see also [31] in this context).
+     Lemma 3 [30]. Let j/C<C" be an open set and Ψ(zί...zn)eJ^ a vectorυalued
+function on it. Suppose furthermore, that (Φ, Ψ(zί...zn)) is holomorphic in $ί for
+ any Φ e Jf. Then Ψ(zi...zn) is itself holomorphic in $4.
+     Now we are well enough equipped with lemmas to start with the proof of
+ the theorem.
+     First, we choose a basis X ^,..., Xn of 9 such that X i,..., Xt belong to V and
+ Xl+ί9... ,Xne§+. Then Lemma 1 yields an open neighborhood $C<C" of zero
+with the property that the mapping (z^, ...,zn)e@-+expziXi...QXpznXn
+ = exp'(z 1 ? ..., zn) is an analytic parametrization of some open neighborhood
+ of 1 in ©c, the local complexification of (5.
+     Since T(u\ M e U, is a continuous, unitary representation of U, Lemma 2 gives
+us a dense set ^u of equianalytic vectors in Jf. Of course we may find an open
+neighborhood Ov of zero in C"~ί such that Θ1C(9 and exp'β^Ξ {xell;
+ x = expzl+1Xί" expznXn;(zl+l                       zn)e&ί}is contained in N, the open neighbor-
+hood of 1 in Uc mentioned in Lemma 2. Given a vector Φ e ®u, the vectors T(u)Φ,
+M e U may be analytically continued to all points of Θ1.
+     The one parameter semigroups T(QxptXk), £^0, k=i...l of selfadjoint
+contractions may be analytically continued to the half-plane C + = {z e (C; Rez > 0}.
+This follows from the classical Hille-Yosida Theorem [26]. Thus, for any ze(C + ,
+there is a bounded operator T(QxpzXk) which coincides for real z with T(exptXk)
+and has matrix elements (Ψ, T(expzXk)Φ) which are holomorphic functions
+ofz.
+    Let now Φ G &u and Ψ e Jf arbitrary. Then we may form the vectors T(QxpzlXl)
+                                                                                       /
+...T(QxpzlXl)T(u)Φ = ΦZί . Zn where z f e C + , i =!.../ and M-exp (0...0,z / + 1 ...zj
+                For real z l 9 . . . , z n , Φ z l ... Z n reduces to T(exp'(z l 9 ... ,zn))Φ= T(A)Φ,
+                     0
+                       . Moreover F(z1 zπ) = (ϊ/, Φ(z1 zπ)) is analytic in each variable
+separately and therefore, using Hartog's theorem [33], is a holomorphic function
+in the open set H^ = (C+)' x 0^. Since Ψ was arbitrary we conclude from Lemma 3
+that Φ Z 1 ... Z 1 is itself holomorphic in ^, and because ^FnlR" is a real, nonempty
+neighborhood we are allowed to call Φ Z1 Zn the analytic continuation of T(A)ΦA
+e(exp'ir)nS°toallofir.
+    In the next step, we move Hf by redefinition of ^u in order to get as a domain
+of analyticity for T(A}Φ an open neighborhood zeC" of zero.
+    Let XE V sufficiently close to zero, so that expJfeexp'^. Then we define:
+
+                   Of = {Ψ e Jf Ψ = Γ(exp X)Φ            for some Φ e ^u}.
+
+    Clearly ^ is a linear subspace of Jf. It is also dense in Jf, for if (χ, f) = 0
+for all Ψε&, then (χ, T(expZ)Φ) = 0, V φ e ^ u and hence (T(expX)χ, Φ) = 0,
+           Since ®u is dense in J f we have Γ(expX)χ = 0 and consequently
+                                        Conformal Invariance                                   231
+
+
+
+
+                       Fig. 3. Aera surrounded by dots: log'[exp' 2£    QxpX~]
+
+
+
+Γ(expίJΓ)χ:=0, ί^ 1. By analyticity in t and continuity for ί J O it follows that
+χ = 0; hence 2 is dense.
+     Because of continuity of the group operations in ©c there exists an open,
+connected neighborhood &C@ of zero such that exp'^Γ expXc exp'^ (see
+Fig. 3).
+     2 is defined in such a way that T(Λ)Ψ9 Ψ e 3), A e exp'J^ n 6° (this is open
+and nonempty in S°) may be analytically continued to all of JΓ. Indeed, the vector
+ Ψ has the form T(expX)Φ, Φe^ u , that is T(Λ)Ψ =T(ΛexpX)Φ. By (zί9...,zn)
+ -» exp' (zx , . . . , zn) exp X where (z A . . . zπ) e JΓ there is given an analytic parametriza-
+tion of a complex neighborhood of expX which is contained in exp'^F. Hence
+ Γ(ΛexpX)Φ has an analytic continuation to all points of exp' 3? exp X, which
+just means that T(ΛexpX)Φ defines a holomorphic function on JΓ. This function
+is of course the analytic continuation of T(Λ)Ψ to all of 3£. By uniqueness of
+analytic continuation 11 , and because T(Λ\ A e 6° is linear, we are able to define
+linear operators T(ΛC\ Λc e expJ^ C ©c, with domain of definition ^ by:
+
+             TX/tJ'F ΞΞ analytic continuation of T(Λ)Ψ9 A e exp'^n 6°
+
+     Now let 2P C <Cn be another complex neighborhood of zero with the following
+properties.
+       i) 2P is open and connected. The mapping (z 1 ? ... ,z Λ )e^-»exp(z 1 X 1 + •••
++ Z j J f j Ξ exp(z 1 ? ... ,zj is an analytic parametrization of a neighborhood
+of 1 in ©c.
+                                 r
+      ii) exp^ exp^C exp ^ which implies in particular that T(AC)Ψ, Λc e exp^,
+Ψ e 2 is defined, and analytic in /tc.
+     in) 0>= -&>9 0> = Θ0> where Θ(z 1 ...z f l ) = (-z 1 ...-z / ,z / + 1 ...z l l ) (z denotes the
+                                      2
+complex conjugate of z). Clearly θ = 1.                                                    _
+     Such ^ always exists, and we may define a conjugation A e Qxp£?~+_A e
+by: yl = exp(z 1 ,...,z I I )_=>J=exp[-θ(z 1 ,...,z n )]. Whenever A e S°, Z-
+i.e. the definition of ΛL coincides with the original one. Obviously the mapping
+Λ-*Λ is an antianalytic mapping of exp^ onto exp^.
+     Using once more uniqueness of analytic continuation we get the following
+two statements as consequences of the hypotheses of our theorem:
+     1) Let A eexp^ and Φ,Ψe9t. Then
+
+
+       Recall that JΓ is connected and log' [(exp'^Γ) nS°] Φ 0 is open in IR".
+232                                        M. Luscher and G. Mack
+
+      2) Let Λί,Λ2e exp^ and Φ,Ψe&. Then
+
+
+    Now we restrict ourselves to (z1? ... , z n )e^ with Rez^O for i = ! . . . / and
+     ^O for i = / + l...n. These points correspond to an open neighborhood
+                                                    l
+of 1 in ©*, viz. (5* n exp^. Furthermore Λ = Λ~ for such /I, and with 1), 2) and
+Γ(l) = l we conclude, that T(A) is a unitary operator which may be continuously
+extended to all of #C. We use the symbol U (A) for these unitary operators. Because
+U (A) is uniformly bounded and a strongly continuous function of A e exp^n ©*
+on 3), we conclude that U(A) is strongly continuous on ^f. Moreover we see from
+2) that U(Λ) builds up a unitary representation of the local group exp^n©*
+which, folio wing standard arguments [28], may be extended uniquely to a unitary
+representation of the whole, simply connected group (5*. Π
+
+
+                                  Appendix D : A Technical Lemma
+   Lemma. Let Θ an open set in 1R" and <& a real or complex domain^2 containing (9.
+Let furthermore Φ(xί...xn), (^...xje 0, a function on θ with values in some
+Hilbert space Jf and assume that
+
+
+has an analytic continuation F(z'ΐ...zfn,zί...zn) to all of & x $ (& denotes the
+complex conjugate of &). Then there is a vectorvalued, analytic function Φ(z1 . . .zj,
+(z^.z^e^, such that Φ(zί...zn) = Φ(xί...xn) whenever (zί...zn) = (xl...xn)e&.
+Obviously, we have
+
+
+    The lemma applies without further arguments to the function ΨE(x1...xn)
+(see Section 2): we just replace Q by the set of all Euclidean points of the forward
+tube and ^ by the real domain {(x 1 ...x n )eIR 4 M |xf ^0 (all i\ x^Xj (all zφj)}.
+The function F is then replaced by the Schwinger function G2n(θx'n . . .θx\ , x1 . . .xj,
+which is known to admit an analytic continuation to the extended, permuted
+tube, i.e. there is a domain of holomorphy for G2n containing ^ x ^.
+    Proof of the Lemma. Because of infinite differentiability of F(x\...x'n, x1...xn)
+for arbitrary pairs of points (^...x^), (x^.xjed? we conclude that Φ(xl...xn)
+is an infinitely differentiable vector valued function, i.e. there are vectors
+
+
+
+
+with the property that
+                (D'ωφ(*;..χ),D< v ) Φfr^^
+The Cauchyformula for F(z\ ...zn) then yields an estimate for these derivatives:
+                           HD^Oq...*,,)!! ^ M v ! ρ Σ V l ;   v! = v^ ...vj
+      12
+           I.e. an open, connected subset of ER" or <C".
+                                         Conformal Invariance                                        233
+
+[M, ρelR are constants depending on (xit..xn) but not on v]. Hence, the power
+series
+
+                        (v) = 0
+
+has positive radius of convergence and defines an analytic continuation oϊΦ(x1...xn)
+to a complex neighborhood of (9.
+    We now make use of the principle of analytic continuation by overlapping
+polydiscs. Let z e ^ and x 0 6 Θ. Then there are a sequence α l 5 . . . , α m of points
+of 0, α 1 = x, αm = z, and (open) polydiscs P(ak) such that
+    1) P(αk) x P(ak) C domain of holomorphy of F (k = 1, . . . , m),
+    2) α k + ι e P ( α f c ) ( f c = l , . . . , m - l ) .
+By repeating the above arguments it is easily seen that there exists an analytic
+                                                                              m
+continuation of Φ(x l 9 ... ,x w ), (x^-.xje (^nP(α1), to all of (j P(ak) and that the
+                                                                            k= 1
+value of this continuation at z does not depend on the particular choice of the
+sequence α 1 ? . . . , am. Π
+
+                                             References
+ 1. Mack,G.: J. Phys. 34, Colloque C-l (Suppl. au No 10) 99 (1973); In: Renormalization and
+     Invariance in quantum field theory, E. R. Caianello (Ed.), New York: Plenum Press (1974)
+ 2. Mack, G.: Lectures presented at the 1974 Bonn summer school. Proceedings: Lecture notes in
+     physics. Berlin-Heidelberg-New York: Springer (in preparation)
+ 3. Streater,R.F., Wightman,A.S.: PCT, Spin and Statistics, and all that. New York: W. A. Ben-
+    jamin 1964
+ 4. Hortacsu,M., Seller, R., Schroer,B.: Phys. Rev. D5, 2518 (1972)
+ 5. Kastrup,H.A., Mayer, D.H., Go,T.H., to be publ. in Rep. on Math. Phys. (1974)
+ 6. Mack,G., Abdus Salam: Ann. Phys. (N.Y.) 53, 174 (1969)
+ 7. Segal,!.: Bull. Am. Math. Soc. 77, 958 (1971)
+ 8. Mayer, D. H. : Conformal invariant causal structures on pseudo-Riemannian manifolds. Preprint :
+    Aachen, Apr. 1974
+    Go,T.H.: Some remarks on conformal invariant theories formulated on some four-Lorentz
+    manifolds. Preprint: Aachen, June 1974
+ 9. Todorov,I.T. : CERN TH 1697 (1973), Appendix
+10. Schroer, B., Swieca, J.A.: Conformal transformations for quantized fields. Preprint: P. Univ.
+    Catolica do Rio de Janeiro, Apr. 1974. See also: Swieca, J. A., Volkel,A.H. : Commun. math.
+    Phys. 29, 319(1973);
+    Rύhl,W.: Preprint, Universitat Trier-Kaiserslautern 1973;
+    Commun. math. Phys. 30, 287 (1973)
+11. Misner,C.W., Thorne,K.S., Wheeler, J. A.: Gravitation. S. Francisco: Freeman 1973
+12. Glaser, V. : CERN preprint TH 1706 (1973), to appear in Commun. Math. Phys.
+13. Osterwalder, K., Schrader,R.: Commun. math. Phys. 31, 83 (1973) and in preparation;
+    Osterwalder,K.: In: Constructive Quantum Field Theory, G. Velo and A. S. Wightman (Eds.),
+    Lecture Notes in Physics 25, Verlag Berlin-Heidelberg-New York: Springer 1973
+14. Dieudonne,J.: Foundations of modern analysis. New York: Academic Press 1969
+15. Mack,G., Todorov,I.T.: Phys. Rev. D8, 1764 (1973)
+16. Adler,S.L.: Phys. Rev. D6, 3445 (1972)
+17. Ferrara,S., Mattioli,G., Rossi, G., Toller, M. : Nucl. Phys. B53, 366 (1973)
+18. Kobayashi,S., Nomizu, K.: Foundations of differential geometry, Vol. 1, ch. I, propositions 4.2.
+    New York: Interscience Publ. 1963
+19. Gradshteyn, I. S., Ryzhik, I. M. : Table of integrals, series and products, formula 8.930. New York :
+    Academic Press 1965
+20. Roller, K.: DESY 74/8 and submitted to Commun. math. Phys.
+234                                  M. Lϋscher and G. Mack
+
+21. Mack, G.: In: Lecture Notes in Physics 17, p. 300, W. Rϋhl and A. Vancura (Eds.), Berlin- Heidel-
+    berg-New York: Springer 1973 (Sec. 8A)
+22. Nachtmann,O.: Nucl. Phys. B63, 237 (1973)
+23. Callan,C.G., Gross,D.: Phys. Rev. D8, 4383 (1973)
+24. Ferrara,S., Gatto,R., Grillo,A.: Springer Tracts in Modern Physics, Vol. 67. Berlin-Heidelberg-
+    New York: Springer 1973
+25. Gelfand, I. M., Graev, M. I., Vilenkin, N. Ya., Generalized functions, Vol. 5, New York: Academic
+    Press 1966
+26. Hille,E., Phillips, R.S.: Functional Analysis and Semigroups, Amer. Math. Soc. Colloq. pub. 31,
+    1957
+    Reed,M.C.: In: Lecture Notes in Physics, Vol. 25, G. Velo and A. S. Wightman (Eds.). Berlin-
+    Heidelberg-New York: Springer 1973
+27. Pontrjagin,L.: Topological groups. Princeton University Press 1946
+28. Nelson,E.: Analytic vectors, Ann. Math. 70, 572 (1959)
+29. Warner,G.: Harmonic analysis on semi-simple Lie groups, Vol. 1. Berlin-Heidelberg-New York:
+    Springer 1972
+30. Ref. 29, Lemma 4.4.5.1 and following remarks
+31. Flato,M., Simon, J., Snellman,H., Sternheimer,D.: Simple facts about analytic vectors and
+    analyticity, Ann. Sci. E.N.S. Paris 5 (3) 1972
+    Simon,J.: Commun. math. Phys. 23, 39 (1972)
+32. Helgason,S.: Differential geometry and Symmetric Spaces, New York: Academic Press 1962
+32. Bochner,S., Martin, W.T.: Several complex variables. Princeton Univ. Press 1948
+33. Kupsch,J., Ruhl,W., Yunn,B.C.: Conformal invariance of quantum fields in two-dimensional
+    space-time, Universitat Trier-Kaiserslautern, Preprint 1974
+
+Communicated by R. Haag                             M. Luscher
+                                                    Institut fur
+                                                    Theoretische Physik der Universitat Bern
+                                                    CH-3012 Bern, Switzerland
+
+                                                    G. Mack
+                                                    Institute for Advanced Study
+                                                    Princeton, New Jersey 08540, USA
+

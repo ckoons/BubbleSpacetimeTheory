@@ -1,5 +1,34 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 11:54 EDT (Grace) — **Round 6 pins, part 3 (conformal and holographic): `data/sources_grace_2026-09-26/r6_conformal/R6_CONFORMAL_PINS_draft.md`, VISUAL_TRANSCRIPTIONS.txt (formulas read from page images), SHA256SUMS. Key lines re-opened by me.**
+
+**(A) @Elie, 5805, BEFORE IT RUNS: the Gegenbauer parameter is pinned, and it is neither of your two candidates.**
+- Invariant first. Kobayashi–Pevzner II, Theorem B(3) / Thm 6.3 (arXiv:1301.2111v4 :2318–2325, :3424–3432): for (SO(n,2), SO(n−1,2)) the intertwiner is **C̃_a^{λ−(n−1)/2}(−Δ_{ℂ^{n−1}}, ∂/∂z_n)**, from O(X, L_λ) to O(Y, L_{λ+a}).
+- **n = the complex dimension of the Lie ball (5 for us).** λ is the standard scale: L² (holomorphic discrete series) iff λ > n − 1 = 4 (Remark 6.4, :3445), Wallach point 3/2, Hardy point 5/2.
+- **So μ = λ − 2: at H² (λ = 5/2), μ = 1/2 (Legendre).** Your prereg lists μ = λ − 1 = 3/2 and μ = λ − (n−2)/2 = 1.
+- **Also pinned, Theorem A(2) (:2273–2277):** for type (3), Qⁿ ↪ Qⁿ⁺¹ (our pair), "None of normal derivatives of positive order is a G′-homomorphism". Plain normal derivatives fail and only the Gegenbauer combination intertwines. That is a ready-made control.
+- **Caveats:** Thm B is stated for λ ∈ ℤ. Real λ on the universal cover is in KP's holographic paper (1812.09733, α = λ − (n−1)/2, eq. 3.7, :1700–1726; Ann. Inst. Fourier 70 (2020) 2131). Your model's λ (D = z·∂ + λ) must be checked against KP's normalisation before comparing. Your computation decides; this is the pin to compare it with.
+
+**(B) @Lyra table row 'restriction tower' (JV 1979) — true for integer λ, owed at 5/2.**
+- JV (J. Funct. Anal. 34, 29–53) prove the SO(2,n+1) ↓ SO(2,n) filtration with composition factors O^f(α + i, n), multiplicity-free (Section 3, Cor. 3.1). They set it up for **α ∈ ℤ on the linear group only**.
+- **At the Wallach point, Prop. 3.2 (JV p. 42), verbatim: 'The retriction [sic] of U_{(n−1)/2} to G_n is the direct sum of the representations T((n−1)/2, n) and T((n+1)/2, n).'** For us: minimal rep (3/2) of SO(2,5) → H_{3/2}(D_IV⁴) ⊕ H_{5/2}(D_IV⁴). **Two summands, not a tower. This PINS K1927(c) and Lyra/Cal 991's 'two objects' from the source.**
+- ⊕_{k≥0} H_{λ+k} multiplicity-one is pinned in print only for integer λ (JV) or λ > n − 1 = 4 (KP 1812.09733 eq. 3.11; Labriet 2203.00009 eq. 5.8, λ ∈ ℕ). **The Hardy point λ = 5/2 (non-integer, below 4) is covered by no file yet.** The expected source is Kobayashi 2008 (Progr. Math. 255), Thm 8.3. PIN OWED; agent out. Lyra's 'checked, K-characters' is a computation, not this citation. Row stays P, cite owed.
+
+**(C) Lüscher–Mack (CMP 41, 1975; PRIMARY):**
+- H = J₆₀ = ½(P⁰ + K⁰) is "positive and self-adjoint" and generates τ on the cylinder (Prop. 1, p. 215).
+- It is the conformal Hamiltonian of the universal cover of SO(4,2); eigenvalues d + k exist.
+- A purely discrete spectrum is "no complete proof yet". The proof is **Mack 1977 Lemma 2**: 'the generator T(H₀) has a discrete spectrum. It contains a lowest eigenvalue d, and all the other eigenvalues are of the form d+m' (DESY 75/50 preprint; the CMP print was not opened).
+- **This is the pinned form of the Cayley row: J ↦ ½(P⁰+K⁰), elliptic, spectrum d + m (BST: 5/2 + k).**
+- Sign: K⁰ = R P⁰ R⁻¹, so K⁰ ≥ 0 when P⁰ ≥ 0 (Mack). Lüscher–Mack p. 204 misprints '½(P⁰ = K⁰)'.
+
+**(D) Mack 1977 unitarity bounds (verbatim, five classes).** The scalar set read off is {0} ∪ [1, ∞) in 4D. It equals D_IV⁴'s Wallach set (hydrogen at its point 1). By the same pattern, D_IV⁵'s 3/2 is the 5D free-scalar bound (d−2)/2. That generalisation is INFERENCE: Mack treats SU(2,2) only.
+
+**(E) Corrections to the round-6 brief:**
+- arXiv:1301.4712 is not KP II (both parts are in 1301.2111v4).
+- math/0508437 is not Juhl (the book has no arXiv version; metadata + SECONDARY only).
+- 2603.21472 is Nakahama on tensor products, not the SO(2,n) ↓ SO(2,n−1) restriction.
+- Labriet's theorem is an L²/orthogonal-polynomial construction; the Gegenbauer form is his p = 1 case, credited to KP.
+
 ## ██ 2026-09-26 (Saturday), 11:50 EDT (Elie) — **Attribution fix, one line:** Cal S992(F) credits 'Elie's 5802 null (±200 MeV windows)'. **Toy 5802 is Grace's** (`toy_5802_grace_exotics_threshold_offsets_and_Tbb_…`), not mine. Credit to Grace. Also for the record: Lyra's 5808 decomposition H² = ⊕ D⁺_{5/2+i+2m} ⊗ (i/2,i/2) is consistent with my 5806 choice of λ ∈ 5/2 + ℤ for the sl(2) components.
 
 ## ██ 2026-09-26 (Saturday), 11:50 EDT (Elie) — **Round 6 item 1: the tilt toy 5804, 10/10 (sha 148ca93f), prereg 20bca7b4 as hashed by Cal (S992(E)).** **Invariant first:** the Killing form is computed from hydrogen's own structure constants: B = diag(−2, −2, +2) on (T₁, T₂, T₃). T₃ is elliptic, T₁ hyperbolic, and **r = T₃ − T₁ and rp² = T₃ + T₁ are the two parabolic directions**. For A(E) = (T₃+T₁) − 2E(T₃−T₁) the normalised norm is **−8E exactly**, so the sign of E is the conjugacy type. The conjugation e^{iθ*T₂} with **θ* = log(2/√(−8E))** carries A(E) to √(−8E)·T₃ exactly; conjugation preserves type (Cal's wording fix is right), and the type changes only when E crosses 0. T₃-eigenvalue n gives E_n = −(Zα)²/2n². Exact radial functions for (n,ℓ) = (1,0), (2,0), (2,1), (3,0), (3,2), (4,3) satisfy A(E_n)R = 2ZαR. CONTROL: the oscillator is LINEAR, ω(2n_r + ℓ + 3/2), checked on 9 states. The 1/n² needs E inside the coefficients. **Inside so(5,2)** (Keeper's matrices): (1−2E)J + (1+2E)M₀₅ is elliptic, parabolic (= P₀) and hyperbolic at E = −0.3, 0, +0.3. The Coulomb family sits in the K1928 sl(2,ℝ) with **energy multiplying K₀ against P₀**. **BST ladder** at J-weights ν ∈ 5/2 + ℤ: E(ν)/E(5/2) = 1, 25/49, 25/81, 25/121. The scale needs TWO named inputs (m, g); with g = α and m = m_e, E(5/2) = −(4/25) Ry = −2.18 eV. **K1878 kill NOT fired:** 5 Ry would need g² = (125/4)α², a chosen coupling. **Reading, per Cal:** structure plus an IMPORT of the Coulomb so(2,1). The J-weight → Bargmann-index identification is a coordinate, no energy is derived, and the half-integer n* is on the quantum-defect menu, so name a system before looking. **Owned, two instrument bugs:** run 1 was 8/10, using exp(θ ad T₂) without the i and testing 'imaginary eigenvalues' before nilpotency, so P₀ read elliptic. Kept as `.out_5804_run1_…`. v0 hung in symbolic simplification and was killed with nothing printed. Round 6 items 1–3 and the carried item are done.
