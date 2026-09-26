@@ -1,0 +1,20 @@
+   Δ=5/2 level n=4: c_{4ℓ} = {4: 11/3, 2: 7/3, 0: 1}
+[PASS] (a) Δ=5/2: every level n decomposes into ALL S^4 zonal harmonics ℓ = n, n−2, … with POSITIVE coefficients (each Hardy K-type once), n ≤ 12  
+[PASS] (b) CONTROL Rac Δ=3/2: only ℓ = n survives (λ2 = 0: the Wallach K-types), coefficients of ℓ < n vanish exactly  
+[PASS] (a) finite-R mode sum over the clock ladder 5/2 + n reproduces (2cosh τ − 2cos θ)^{−5/2} (τ=0.3, θ=0.7, N=400)  rel err 1.68e-30
+   wrong multiplicity / true at separation ε = 0.2, 0.1, 0.05: ['0.32968', '0.181269', '0.0951626']
+[PASS] (c) CONTROL: dropping the λ2 ≥ 1 K-types at Δ = 5/2 does NOT reproduce the correlator, and the ratio does not → 1 as R→∞ (ε→0)  
+[PASS] (b') at Δ = 3/2 the top-only sum IS the full correlator (the Rac has only λ2 = 0)  
+[PASS] (d) flat 5D: density (μ²)^{Δ−5/2} gives |x|^{−2Δ}: log-slopes −5 (Δ=5/2, FLAT density) and −7 (Δ=7/2)  ['-5.0', '-7.0']
+   deconstruction rel. error at spacing s = 1, 0.1, 0.01: ['0.002588260634170614', '3.183939004702818e-05', '3.38073355310442e-07']
+[PASS] (d) the discrete tower (spacing s) converges to the continuum as s → 0 (errors decrease, last < 1e-3)  
+   Rac: ε(μ²)^{−1+ε} density / massless propagator: ['1.1018', '1.00862', '1.00085']
+[PASS] (b'') CONTROL Rac in flat 5D: the density concentrates at μ² = 0 and the correlator → the free massless field (ratio → 1)  
+[FAIL] (e) restriction identity: G5_μ = c·∫_{μ²}^∞ (M²−μ²)^{−1/2} G4_M with ONE constant c (= 1/π) at three (μ, r)  c = ['0.159154943091895', '0.159154943091895', '0.159154943091895']
+[PASS] (e) 4D density ρ4 ∝ (M²)^{Δ−2} = (M²)^{1/2} at Δ = 5/2: continuous from 0, NO gap (the restricted tower is an unparticle-type continuum)  exponent 0.5
+
+READING: the compact (cylinder) realization is a discrete clock ladder 5/2 + n whose levels carry EXACTLY the Hardy K-types;
+the flat realization is its R → ∞ (short-distance) limit, a continuous 5D density (flat in μ² at Δ = 5/2), and on the 4D
+hyperplane a (M²)^{1/2} continuum with no gap. The Rac is the massless free field. A gap needs a scale (5804, Lyra R6 item 4).
+
+SCORE: 9/10

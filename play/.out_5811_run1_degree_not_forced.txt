@@ -1,0 +1,13 @@
+[FAIL] Frobenius termination SOLVED: κ = Z/ν with ν = n_r + ℓ + (d−1)/2, unique, for d=3,4,5, ℓ,n_r ≤ 2 (E = −Z²/2ν²)  [(3, 0, 1, [{a1: 0, kappa: Z}, {a1: -Z/2, kappa: Z/2}]), (3, 0, 2, [{a1: 0, a2: 0, kappa: Z}, {a1: -2*Z/3, a2: 2*Z**2/27, kappa: Z/3}, {a1: -Z/2, a2: 0, kappa: Z/2}])]
+[PASS] level N's SO(d)-content ⊕_{ℓ≤N} H_ℓ(R^d) = H_N(R^{d+1})|SO(d), by characters, d=3,4,5, N ≤ 5  
+   level degeneracies (no spin): {3: [1, 4, 9, 16, 25], 4: [1, 5, 14, 30, 55], 5: [1, 6, 20, 50, 105]}
+[PASS] CONTROL d=3: degeneracies n² = 1,4,9,16,25 and Wallach λ = (3−1)/2 = 1 = hydrogen's ground ν  
+[PASS] d=4 (the K1929 claim): 1, 5, 14, 30, 55 with ν = 3/2 + N = Wallach λ = 3/2 of D_IV^5 (minimal rep of SO(5,2))  
+[PASS] d=5: 1, 6, 20, 50, 105 with ν = 2 + N = Wallach λ = 2 of D_IV^6  
+[PASS] level map: Coulomb ν = (d−1)/2 + N ↔ minimal-rep clock weight λ + m with m = N, K-type H_N(R^{d+1}) — same ladder, same K-types  
+
+READING: K1929 3(b) verified: the minimal rep of SO(5,2) (the Rac, λ = 3/2) has exactly the level/degeneracy structure of
+hydrogen in FOUR space dimensions (ν = 3/2 + N, degeneracies 1,5,14,30,55); d = 3 control reproduces λ = 1, n². Structure only:
+the energy E = −Z²/2ν² needs Z and the mass (imported, 5804).
+
+SCORE: 5/6
