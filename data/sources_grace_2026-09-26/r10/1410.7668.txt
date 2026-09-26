@@ -1,0 +1,977 @@
+                                                                 Flato – Fronsdal theorem
+                                                               for higher-order singletons
+
+                                                         Thomas Basilea,b,1 , Xavier Bekaerta,2 and Nicolas Boulangerb,3
+
+
+
+
+arXiv:1410.7668v1 [hep-th] 28 Oct 2014
+                                                                  a
+                                                                      Laboratoire de Mathématiques et Physique Théorique
+                                                                           Unité Mixte de Recherche 7350 du CNRS
+                                                                         Fédération de Recherche 2964 Denis Poisson
+                                                                       Université François Rabelais, Parc de Grandmont
+                                                                                       37200 Tours, France
+                                                                            b
+                                                                                Service de Mécanique et Gravitation
+                                                                                  Université de Mons – UMONS
+                                                                                        20 Place du Parc
+                                                                                      7000 Mons, Belgique
+
+
+
+
+                                                                                           Abstract
+
+                                                We prove a generalized Flato–Fronsdal theorem for higher-order, scalar and spinor, sin-
+                                             gletons. In the resulting infinite tower of bulk higher-spin fields, we point out the occurrence
+                                             of partially-massless fields of all depths. This leads us to conjecture a holographic duality
+                                             between a higher-spin gravity theory around AdSd+1 with the aforementioned spectrum of
+                                             fields, and a free CF Td of fundamental (higher-order) scalar and spinor singletons. As a first
+                                             check of this conjecture, we find that the total Casimir energy vanishes at one loop.
+
+
+
+
+                                                                       À la mémoire de Francis A. Dolan
+
+
+
+
+                                         1
+                                           E-mail address: thomas.basile@student.umons.ac.be
+                                         2
+                                           E-mail address: xavier.bekaert@lmpt.univ-tours.fr
+                                         3
+                                           Research Associate of the Fund for Scientific Research-FNRS (Belgium); nicolas.boulanger@umons.ac.be
+
+                                                                                                1
+1         Introduction
+
+
+The celebrated Flato–Fronsdal theorem [1] is at the very core of the kinematics underlying
+Vasiliev’s four-dimensional nonlinear field equations for higher-spin gravity [2].1 This theorem
+is also crucial for the higher-spin holographic conjectures [5, 6, 7] involving the free and critical
+3-dimensional vector models of scalar and spinor fields living at the conformal infinity of AdS4 .
+
+
+        From the purely group-theoretical point of view, the Flato–Fronsdal theorem can be stated as
+the decomposition of the tensor product of two Dirac singletons [8] (either bosonic or fermionic)
+into an infinite direct sum of irreducible representations (irreps) of so(2, 3) . The latter repre-
+sentations can either be viewed as on-shell Fronsdal fields propagating in the bulk of AdS4 or as
+conserved currents of the CF T3 . Correspondingly, the Dirac singletons (scalar and spinor) can
+be viewed as AdS4 fields whose physical degrees of freedom live at its conformal infinity or as
+free conformal fields propagating in 3-dimensional Minkowski space. The infinite sum of so(2, 3) -
+irreps corresponds, from the bulk point of view, to an infinite tower of higher-spin gauge fields
+building up the spectrum of Vasiliev’s theory. From the boundary point of view, the infinite sum
+corresponds to the single-trace sector of the corresponding vector models.
+
+
+        The Flato–Fronsdal theorem has been extended to higher-dimensional conformal algebras
+so(2, d) in [9, 10, 11]. In the work [10], the corresponding generalisations suggest the existence
+of extended (supersymmetric) nonlinear higher-spin theories in AdSd+1 , where mixed-symmetry
+fields, on top of the totally-symmetric ones, are propagating, together with some massive p-forms.
+In the latter work [11], the whole analysis is based on characters of so(2, d) and incorporates
+singletons of spin s ⩾ 1 (for d even). Yet another class of generalisations features the so-called
+higher-order scalar singletons2 , that are non-unitary, ultra-short irreducible representations of the
+conformal algebra. The spectrum of AdSd+1 fields appearing upon tensoring out higher-order
+scalar singletons comprises partially massless gauge fields of odd depths [13]. Totally-symmetric
+partially-massless fields were introduced in [14, 15] (the frame-like formulation was given in [16])
+and their holographic duals are partially-conserved currents [17]. Gauge fields always turned out
+    1
+        For a non-technical review explaining the key mechanisms at work in Vasiliev’s 4D equations, see [3]. For a
+recent technical review, see e.g. [4].
+   2
+     Also called here multi-linetons in accordance with the terminology of [12] to which we refer for more details.
+
+
+                                                          2
+to be of crucial importance, thereby it can be suspected that partially-massless field could be
+relevant in a unified framework for fundamental interactions, e.g. in a cosmological scenario [18]
+around dSd+1 where they are unitary.
+
+
+      In [13], a version of higher-spin holography was proposed where a vector model at an isotropic
+Lifshitz fixed point is conjectured to be dual to a higher-spin gravity with spectrum given by a
+tower of massless and partially massless fields of unbounded integer spins – see also [19] for a
+review of the conjecture. As we will explain below, we are lead to extend this conjecture to spinor
+CFT’s.
+
+
+      In the present note, we give a proof of the fusion rules presented in [13] using character formulae
+and generalise them to include higher-order spinor singletons. We actually compute the general
+case of the tensor product of two (scalar and spinor) singletons of different orders. A novelty in
+the case of the tensor product of two higher-order spinor singletons is that the resulting spectra
+contain even-depth partially-massless fields. The spectra also contain mixed-symmetry fields that
+are massless, partially-massless or massive. Somewhat less expected, we find extra degeneracies in
+the spectrum of massless and partially-massless (both symmetric and mixed-symmetric) fields.3
+Along the lines of the holographic conjectures proposed in [7] and [13], we expect that the isotropic
+Liftshitz point of the Gross–Neveu model should be dual to a bulk theory containing the spectrum
+of fields found in the present paper.
+
+
+      If unbroken higher-spin gravity theories are indeed dual to free CFTs, they should therefore
+receive no quantum corrections. This is manifest in the non-standard off-shell proposal given in
+[22, 23]. Several one-loop checks of this expectation were performed in [24, 25, 26] where the total
+vacuum energy was shown to cancel. As a first test of the validity of the holographic proposal
+we have made above with the isotropic Lifshitz fixed points, we find the cancellation of the total
+Casimir energy for all the spectra considered in the present note.
+
+
+      The paper is organised as follows: After we explain, in Section 2, our methodology and notation,
+in Section 3 we compute the so(2, d) characters of higher-order scalar and spinor singletons, as
+well as the characters of symmetric and mixed-symmetric fields, either (partially) massless or
+  3
+      Mixed-symmetry, partially-massless fields seem to have been first considered in [20, 21].
+
+
+                                                          3
+massive. The main tools employed in this section is a combination of the analyses presented in
+[11] and [27]. In Section 4, we take the product of the characters of ℓth-order scalar and spinor
+singletons found in the previous section and decompose the result into a sum of characters of
+indecomposable so(2, d)-representations. The central result of our paper is given in a theorem
+that generalises the Flato–Fronsdal theorem in the way explained above. A corollary of our
+theorem is the computation, presented in Section 5, of the total Casimir energy corresponding to
+the resulting spectra. We conclude in Section 6 with some perspectives of future works. Finally, for
+the sake of completeness, in the Appendix we give a more general result compared to our theorem
+presented in Section 4, in the sense that it concerns products of singletons (scalar and spinor)
+of distinct orders. The structure of the fusion rule is similar to the case presented in Section 4,
+but the depths of partially-massless fields run over different values and is more cumbersome to
+enunciate, which is the reason why we relegate that general result to the Appendix. This general
+case can fit with a Vasiliev-like higher-spin gravity construction by considering the tensor product
+of a direct sum of distinct multi-linetons with itself.4
+
+
+2         Notation and methodology
+
+In this section, we spell out the approach that we followed in order to compute characters of so(2, d)
+and their fusion rules. We also present our notation. The computation of the characters of the
+highest-weight representations we are interested in proceeds following a three-step procedure:
+
+  (1) We use the method explained in [11] to compute the character of a Verma module. We
+          then apply on it the so(d) Weyl group symmetrizer in order to obtain the character of the
+          corresponding generalised Verma module;5
+
+  (2) The structure of possible (sub)singular modules of the resulting generalised Verma module
+          is obtained upon inspection of the sequences given in the subsection 4.4. of [27]. It turns
+          out that, for all the highest-weights we consider in detail, there is only one submodule which
+          happens to be a generalised Verma module. The character of the latter is computed following
+          the step 1;
+    4
+        Note that higher tensor products of singletons were considered in [28, 29] and in the Appendix E of [21] where
+the non-compositeness of a generic Metsaev [30] mixed-symmetry gauge field was shown.
+   5
+     For more details on the notions of Verma modules and generalised Verma modules relevant to our discussion,
+see e.g. [12, 27].
+
+
+
+                                                            4
+  (3) We finally subtract the characters obtained in the previous two steps in order to get the
+       character of the corresponding irreducible module.
+
+
+Notation. The rank of the orthogonal subalgebra so(d) ⊂ so(2, d) is denoted by r , i.e. Dr ∼    =
+soC (2r) and Br ∼
+                = soC (2r + 1). In the present note, we will be only interested in so(2, d) repre-
+sentations with highest-weight Λ = (−∆, ~s ) , where ∆ is, in AdSd+1 /CF Td language, the scaling
+dimension of the corresponding primary operator or the minimal energy of the corresponding bulk
+field, and ~s = (s1 , . . . , sr ) is a dominant-integral weight of so(d) in the orthonormal basis. More
+precisely,
+
+                                      s1 ⩾ . . . ⩾ sr ⩾ 0 for d = 2r + 1 ,
+                                      s1 ⩾ . . . ⩾ sr−1 ⩾ |sr | for d = 2r ,                                                (2.1)
+
+where the si ’s are either all integers or all half-integers. In the case where d = 2r , the Dirac spinor
+can be decomposed into left and right irreducible Weyl spinors ( 12 , . . . , 21 , 21 ) and ( 21 , . . . , 21 , − 12 ) ,
+and it will be denoted 21 .
+
+
+    We denote by V(∆, ~s ) (resp. D(∆, ~s )) the generalised indecomposable (resp. irreducible)
+Verma module associated with the highest-weight Λ = (−∆, ~s ) . The character of V(∆, ~s ) is
+                  (2,d)                                                                                   (2,d)
+denoted by A[∆,~s ] (q, x1 , . . . , xr ) while the character of D(∆, ~s ) is denoted by χ[∆,~s ] (q, x1 , . . . , xr ) ,
+                                                             P
+where we used xi := eµi with a generic weight ~µ = ri=1 µi ~ei in the orthonormal basis for so(d) .
+Similarly, q := e−e0 (µ) =: e−µ0 where µ = µ0 e0 is a weight of so(2) ⊂ so(2, d) . The character of an
+                                                                                                                  (d)
+irreducible representation of so(d) with dominant-integral weight ~s is denoted by χ~s (x1 , . . . , xr ) .
+We use the following shortening notation for the following specific cases:
+• (s1 , . . . , sj , s) is used to denote the following so(d) -weight (s1 , . . . , sj , s, . . . , s) for which
+sj+1 = sj+2 = . . . = sr = s ;
+• In the previous rule, when several last components of a weight are all null, we will sometimes omit
+the symbol 0 . For example (s1 , . . . , sj , 0, . . . , 0) will sometimes be denoted (s1 , . . . , sj ) instead of
+(s1 , . . . , sj , 0) , for the sake of brevity;
+• The weights (s1 , . . . , sj , 1, . . . , 1, sj+m+1 , . . . , sr ) will be denoted (s1 , . . . , sj , 1m , sj+m+1, . . . , sr ) .
+                                 | {z }
+                                      m
+
+
+
+
+                                                                5
+3     Characters of partially-massless fields and higher-order singletons
+
+In this section we first review some results of [11, 27] and use them to compute the characters of
+partially-massless fields and higher-order singletons.
+
+
+3.1    Review of general results
+We recall the following two results spelled out in [27]:
+
+ (1) For (µ1 , . . . , µr ) a so(d) dominant-integral weight, and for
+
+         – d = 2r +1:
+            If ∆ is given by either ∆ = r − 12 − n (for n ∈ N ) when µ1 , . . . , µr are all integers, or
+            by ∆ = r − n (for n ∈ N ) when µ1 , . . . , µr are all half-integers, then the irreducible
+            module D(∆, µ1, . . . , µr ) is given by the following quotient:
+
+                                                                          V(∆, µ1 , . . . , µr )
+                                            D(∆, µ1 , . . . , µr ) ∼
+                                                                   =                                ,             (3.2)
+                                                                         D(d − ∆, µ1 , . . . , µr )
+
+         – d = 2r:
+            If ∆ is given by ∆ = n − µn for a given n ∈ {1, 2, . . . , r} , and obeys the conditions
+            ∆ 6= r and −∆ ± µr + r ∈ N , then the irreducible module D(∆, µ1 , . . . , µr ) is given by
+            the same quotient as in (3.2).
+
+      In these two cases, D(d − ∆, µ1 , . . . , µr ) ∼
+                                                     = V(d − ∆, µ1 , . . . , µr ) , meaning that there is no
+      singular sub-module in V(d − ∆, µ1 , . . . , µr ) .
+
+ (2) For (λ0 , λ1 , . . . , λr ) an so(d + 2) dominant-integral weight, the irreducible module of highest-
+      weight (−λ1 − d + 1, λ0 + 1, λ2 , . . . , λr ) is given by:
+
+                                                              V(λ1 + d − 1, λ0 + 1, λ2, . . . , λr )
+                     D(λ1 + d − 1, λ0 + 1, λ2, . . . , λr ) ∼
+                                                            =                                                     (3.3)
+                                                                 D(λ0 + d, λ1 , λ2 , . . . , λr )
+      with D(λ0 + d, λ1 , λ2 , . . . , λr ) ∼
+                                            = V(λ0 + d, λ1, λ2 , . . . , λr ) .
+
+
+3.2    Character of a generalised Verma module
+The character of an so(2, d) Verma module is given by [11]
+
+                          (d,2)                                                           (d)
+                        C[∆,~s ] (q, x1 , . . . , xr ) = q ∆ P (d) (q, x1 , . . . , xr ) C~s (x1 , . . . , xr )   (3.4)
+
+                                                                  6
+where                                           
+                                                    1
+                                                         Q            1
+                                                
+                                                 (1−q)       (1−qxi )(1−qx−1
+                                                                                             when d = 2r + 1 ,
+                                                        1⩽i⩽r              i )
+                  P (d) (q, x1 , . . . , xr ) =         Q                                                              (3.5)
+                                                                   1
+                                                
+                                                           (1−qx )(1−qx−1 )
+                                                                                              when d = 2r ,
+                                                                           i       i
+                                                            1⩽i⩽r
+
+and
+                          Q
+                                  s +r+1/2−i 1/2   −1/2
+                         
+                                xi i       (xi − xi )∆−1 (x1 + x−1                      −1
+                                                                       1 , . . . , xr + xr ) when d = 2r + 1 ,
+  (d)                      1⩽i⩽r
+C~s (x1 , . . . , xr ) =              Q si +r−i −1
+                         
+                                       xi     ∆ (x1 + x−1                 −1
+                                                        1 , . . . , xr + xr )            when d = 2r ,
+                                         1⩽i⩽r
+                                                                                                                       (3.6)
+                                Q
+for ∆(x1 , . . . , xr ) =             (xj − xi ) the Vandermonde determinant. It turns out that the rational
+                            1⩽i<j⩽r
+function P (d) (q, x1 , . . . , xr ) is invariant under the action of the Weyl group of so(d) .6
+
+
+       In order to obtain the character of the corresponding generalised Verma module, since the
+so(d) part of the initial weight is always taken to be dominant integral, it suffices to apply the
+                                                        (d,2)
+Weyl-group symmetrizer of so(d) on C[∆,~s ] (q, x1 , . . . , xr ) , resulting in the following formula for the
+character of the corresponding generalised Verma module:
+
+                              (d,2)                                                          (d)
+                            A[∆,~s ] (q, x1 , . . . , xr ) = q ∆ P (d) (q, x1 , . . . , xr )χ~s (x1 , . . . , xr ) ,   (3.7)
+
+where, introducing
+                                                        ki := si + r + 21 − i ,                                        (3.8)
+
+the irreducible characters of so(d) are
+                                                                                    Q 1/2
+                                    k       −k                                                         −1/2
+                           
+                           
+                              det(xi j − xi j )∆−1 (x1 + x−1                  −1
+                                                             1 , . . . , xr + xr )        (xi − xi )
+                           
+                                                                                   1⩽i⩽r
+                           
+                           
+                           
+                           
+                                                    when d = 2r + 1 , and
+    (d)
+  χ~s (x1 , . . . , xr ) =                                                                                             (3.9)
+                           
+                                                                        
+                                      kj    −kj          kj      −kj
+                           
+                           
+                           
+                           
+                             1
+                             2
+                                det(x  i  − xi   ) + det(xi  +  x i     )   ∆−1 (x1 + x−1                   −1
+                                                                                        1 , . . . , xr + xr )
+                           
+                           
+                                                            when d = 2r .
+
+
+
+   6
+       The action of the Weyl group is reviewed e.g. in the Appendix B of [11]. The Weyl group acts on the variables
+xi by permutations and changes of signs.
+
+
+
+
+                                                                       7
+3.3    Characters of various specific highest-weight modules
+Multi-linetons Di and Rac. Analogously to the terminology of Flato and Fronsdal, we call
+Di (resp. Rac) ℓ-lineton the irreducible so(2, d) module given by ℓ semi-infinite lines in compact
+weight space based on the lowest-energy states | d+1
+                                                  2
+                                                     − ℓ, 21 i (resp. the state | d2 − ℓ, 0i ). Indeed,
+for ℓ = 1 and d = 3 they correspond to the Di (resp. Rac) singleton of Dirac [1].
+
+
+   Using the results summarised in the subsection 3.1, item (1), one finds that the irreducible
+modules corresponding to the Rac and Di ℓ-linetons are given in terms of the following quotients:
+                                            
+                                     d         ∼  V( d2 − ℓ, 0)
+                                D      − ℓ, 0 =                                           (3.10)
+                                     2           D( d2 + ℓ, 0)
+
+and                                                             
+                                                d+1      1           ∼ V( d+1
+                                                                           2
+                                                                              − ℓ, 12 )
+                                        D           − ℓ,             =                                                         (3.11)
+                                                 2       2             D( d−1
+                                                                           2
+                                                                              + ℓ, 12 )
+with D(ℓ + d2 , 0) ∼
+                   = V(ℓ + d2 , 0) and D(ℓ + d−1
+                                              2
+                                                 , 21 ) ∼
+                                                        = V(ℓ + d−1
+                                                                 2
+                                                                    , 21 ) . The characters of the corre-
+sponding modules are
+
+             (d,2)                                d
+           χ[ d −ℓ,0] (q, x1 , . . . , xr ) = q 2 (q −ℓ − q ℓ )P (d) (q, x1 , . . . , xr ) ,                                   (3.12)
+                2
+
+
+
+
+          (d,2)                                   d          1          1    (d)
+        χ[ d+1 −ℓ, 1 ] (q, x1 , . . . , xr ) = q 2 (q −(ℓ− 2 ) − q ℓ− 2 )χ 1 (x1 , . . . , xr )P (d) (q, x1 , . . . , xr ) .   (3.13)
+            2        2                                                       2
+
+
+
+
+   In the case d = 2r , there is a restriction on ℓ for the modules to be irreducible. It turns out
+that, for the scalar case, irreducibility implies ℓ < r and, for the spinor case, ℓ ⩽ r . This being
+said, when ℓ does not satisfy these inequalities, the corresponding highest-weights are dominant
+integral. In order to make the latter modules irreducible, one has to further quotient them and
+the resulting irreducible modules happen to be finite-dimensional. They correspond to so(2, d)
+spherical harmonics, e.g. of spin (or degree) ℓ − r ⩾ 0 for the scalar case D (r − ℓ, 0). These
+irreducible subspaces of solutions of the higher-order D’Alembertian equations will not be of
+interest to us since they are finite-dimensional. We will slightly abuse the notation and still
+                                               
+use the symbols D d2 − ℓ, 0 and D d+1  2
+                                         − ℓ, 1
+                                              2
+                                                  for the corresponding reducible quotient modules
+(3.10) and (3.11).
+
+
+
+
+                                                                 8
+Bulk scalar fields. The structure of the module corresponding to a generic scalar field is
+D(∆, 0) ∼
+        = V(∆, 0) . The character for a scalar field propagating in the bulk of AdSd+1 therefore
+is
+                                        (d,2)
+                                     A[∆,0](q, x1 , . . . , xr ) = q ∆ P (d) (q, x1 , . . . , xr ) .                    (3.14)
+
+The unitarity condition is ∆ ⩾ d−2
+                                2
+                                   . The fields are reducible when ∆ = d−2ℓ
+                                                                        2
+                                                                            , for ℓ ∈ N0 , and for
+these values of the conformal weight, one is back to the cases of the higher-order scalar singletons
+described above.
+
+
+   With a slight abuse of language inherited from the philosophy in higher-spin gravity, the irreps
+D(d − 1 − t, 0) ∼
+                = V(d − 1 − t, 0) will be called massless for t = 1 and partially massless for t > 1 .
+This is justified by the fact that their scaling dimension ∆ coincides with the scaling dimension
+of the corresponding spin-s irreps when s = 0. However, as so(2, d) irreducible modules, they
+have a different structure compared to the (partially) massless modules in the sense that they do
+not arise from a quotient of generalized Verma modules. Actually, this is not totally correct in
+even dimensions d = 2r , where there exist values of t for which V(d − 1 − t, 0) admits singular
+sub-modules, so that the isomorphism D(d − 1 − t, 0) ∼ = V(d − 1 − t, 0) is not true. This arises
+when 2r − 1 − t = r − ℓ ⇔ t = r − 1 + ℓ for ℓ ⩾ 1 .
+
+
+
+Totally-symmetric fields/operators. Using the results summarised in the subsection 3.1,
+item (2), the structure of the modules corresponding to (partially-)massless, totally-symmetric
+fields/operators is
+
+                                                V(s + d − t − 1, s)
+                          D(s + d − t − 1, s) ∼
+                                              =                     ,                    for 1 ⩽ t ⩽ s ,                (3.15)
+                                                D(s + d − 1, s − t)
+
+where D(s + d − 1, s − t) ∼
+                          = V(s + d − 1, s − t), whence the character:
+
+       (d,2)                                            (d)
+     A[s+d−t−1,s] (q, x1 , . . . , xr ) = q s+d−t−1 χ(s) (x1 , . . . , xr )P (d) (q, x1 , . . . , xr )    when t > s    (3.16)
+                                                                          
+      (d,2)                                               (d)        (d)
+     χ[s+d−t−1,s] (q, x1 , . . . , xr ) = q s+d−1 q −t χ(s) − χ(s−t) P (d) (q, x1 , . . . , xr )         when t ⩽ s .   (3.17)
+
+Totally-symmetric, spin-s, massless fields/conserved currents correspond to t = 1 . Totally-
+symmetric, depth-t, partially-massless fields/partially-conserved currents correspond to 2 ⩽ t ⩽ s .
+Totally-symmetric, massive fields/operators correspond to t > s .
+
+
+                                                                   9
+   The same situation occurs for the modules V(s + d − t − 1, s, 21 ), s half-integer, t ∈ N0 , that
+possess one sub-module D(s + d − 1, s − t, 1 ) ∼
+                                               = V(s + d − 1, s − t, 1 ) for s ⩾ t + 1/2 . We thus
+                                                                   2                               2
+
+have:
+                                                                                  1
+                                                        1 ∼ V(s + d − t − 1, s, 2 )
+                                    D(s + d − t − 1, s, 2 ) =                                                           (3.18)
+                                                              D(s + d − 1, s − t, 12 )
+and the corresponding characters
+
+  (d,2)                                                 (d)
+A[s+d−t−1,s, 1 ] (q, x1 , . . . , xr ) = q s+d−t−1 χ(s, 1 ) (x1 , . . . , xr )P (d) (q, x1 , . . . , xr )    when t > s − 1/2
+                2                                             2
+
+                                                                                                                        (3.19)
+                                                                                        
+  (d,2)                                                           (d)        (d)
+ χ[s+d−t−1,s, 1 ] (q, x1 , . . . , xr ) = q s+d−1 q −t χ(s, 1 ) − χ(s−t, 1 ) P (d) (q, x1 , . . . , xr ) when t ⩽ s − 1/2 .
+                2                                                   2               2
+
+                                                                                                                        (3.20)
+
+Mixed-symmetry fields/operators. Similarly, the modules with highest-weights (t + 1 − s −
+d, s, 1m ) with s, t ∈ N0 , possess one sub-module with highest-weight (1 − s − d, s − t, 1m ) for s > t .
+We thus have:
+                                                                                                       m
+                                                     V(s + d − t − 1, s, 1 )
+                         D(s + d − t − 1, s, 1m ) ∼
+                                                  =                                                                     (3.21)
+                                                     D(s + d − 1, s − t, 1m )
+with D(s + d − 1, s − t, 1m ) ∼
+                              = V(s + d − 1, s − t, 1m ). The characters are
+   (d,2)                                                (d)
+ A[s+d−t,s+1,1m ] (q, x1 , . . . , xr ) = q s+d−t χ(s+1,1m ) (x1 , . . . , xr )P (d) (q, x1 , . . . , xr )        when t ⩾ s
+                                                                                                                        (3.22)
+                                                                                            
+   (d,2)                                                      (d)                  (d)
+ χ[s+d−t,s+1,1m ] (q, x1 , . . . , xr ) = q s+d q −t χ(s+1,1m ) − χ(s−t+1,1m ) P (d) (q, x1 , . . . , xr ) when t < s .
+                                                                                                                        (3.23)
+
+Hook-shaped, spin-s, massless fields/conserved currents correspond to t = 1 .7 Hook-shaped,
+depth-t, partially-massless fields or partially-conserved currents correspond to 2 ⩽ t ⩽ s − 1 .
+Hook-shaped, massive fields/operator correspond to t ⩾ s .
+
+
+      In the previous three cases, namely the totally-symmetric fields (bosonic and fermionic) and the
+mixed-symmetric ones, the massive modules can, in some sporadic cases, become reducible so that
+we abuse the notation when using the symbols A and D . For example, in the totally-symmetric,
+massive spin-s cases, when t > s and for d = 2r , there are sporadic cases when the modules are
+reducible, in which cases we will abuse the notation when we will write D(s + d − 1, s − t) instead
+of V(s + d − 1, s − t) .
+  7
+      The mixed-symmetry gauge fields corresponding to t = 1 were first discussed by Metsaev in [30].
+
+                                                                        10
+Unitarity. The modules D(s + d − t − 1, s), D(s + d − t − 1, s, 12 ) and D(s + d − t, s, 1m ) are
+unitary only in the case t = 1, as are the scalar and spinor ℓ-linetons D( d2 −ℓ , 0) and D( d+1
+                                                                                              2
+                                                                                                 −ℓ , 12 )
+only in the case ℓ = 1 .
+
+
+
+
+4     Fusion rules for higher-order singletons
+
+We now give the main result of the present note.
+
+
+    Theorem. The tensor product of two ℓ-linetons, scalar and spinor, decomposes as:
+                                                                ℓ M
+                                                                M ∞
+                           D( d2 − ℓ, 0) ⊗ D( d2 − ℓ, 0) ∼
+                                                         =                     D(s + d − 2k, s, 0) ,                 (4.24)
+                                                                k=1 s=0
+
+                                                             2ℓ−1
+                                                             M        ∞
+                                                                      M
+                       D( d+1
+                           2
+                              − ℓ, 21 ) ⊗ D( d2 − ℓ, 0) ∼
+                                                        =                         D(s + d − t − 1, s, 12 ) .         (4.25)
+                                                              t=1 s= 1 , 3 ,...
+                                                                       2 2
+
+    In the cases d = 2r + 1 , we have
+
+           D( d+1
+               2
+                  − ℓ, 12 ) ⊗ D( d+1
+                                  2
+                                     − ℓ, 12 )                                                                       (4.26)
+                                               2ℓ−2
+                                               M                                   ∞ M
+                                                                                   M r−1
+                                                                           
+                                         ∼
+                                         =             D d − 1 − t, 0 ⊕                      D (s + d − 2ℓ, s, 1m)
+                                              t=2−2ℓ                               s=1 m=0
+                                                           2ℓ−2
+                                                           MM   ∞ M
+                                                                  r−1
+                                                       ⊕                     2D (s + d − t − 1, s, 1m ) ,
+                                                           t=1 s=1 m=0
+
+    while in the cases d = 2r ,
+                                             2ℓ−2
+                                             M                      
+ D( d+1
+     2
+        − ℓ, 21 ) ⊗ D( d+1
+                        2
+                           − ℓ, 12 ) ∼
+                                     =              2 D d − 1 − t, 0 ⊕
+                                          t=2−2ℓ
+        ∞ M
+        M r−2                                       ∞
+                                                    M
+                                          m
+                                                                                                                       
+    ⊕             2 D (s + d − 2ℓ, s, 1 ) ⊕               D(s + d − 2ℓ, s, 1r−2, 1) ⊕ D(s + d − 2ℓ, s, 1r−2 , −1)
+        s=1 m=0                                     s=1
+        2ℓ−2
+        MM   ∞ Mr−2
+    ⊕                   4D (s + d − t − 1, s, 1m )
+         t=1 s=1 m=0
+        2ℓ−2
+        MM    ∞
+                                                                                 
+    ⊕                 2D s + d − t − 1, s, 1r−2, 1 ⊕ 2D s + d − t − 1, s, 1r−2 , −1 .                                (4.27)
+        t=1 s=1
+
+
+
+
+                                                              11
+We interpret these 3 decompositions as follows.
+
+   • In the decomposition (4.24), the tensor product of two Rac ℓ-lineton gives [13] a sum over
+     all integer-spin, partially massless, totally-symmetric fields of odd depths t going from t = 1
+     to t = 2ℓ − 1 , where strictly speaking the cases t = 1 correspond to the massless fields and
+     the cases t > s correspond to massive fields;
+
+   • In the decomposition (4.25), the tensor product of a Di ℓ-lineton with a Rac ℓ-lineton gives
+     a sum over all half-integer-spin, partially massless, totally-symmetric fields of all depths t
+     going from t = 1 to t = 2ℓ − 1 ;
+
+   • In the decomposition (4.26), three types of fields appear:
+
+        – a finite multiplet of scalar fields, among which we find 2ℓ−1 massive fields D(d−1−t, 0)
+          for 2 − 2ℓ ⩽ t ⩽ 0 and 2ℓ − 2 partially massless for 0 < t ⩽ 2ℓ − 2;
+        – a finite collection {D (s + d − 2ℓ, s, 0)}s=1,2,...,2ℓ−2 of massive spin-s fields;
+        – an infinite collection {D (s + d − 2ℓ, s, 0)}s=2ℓ−1,... of partially-massless spin-s fields of
+          depth t = 2ℓ − 1;
+        – a finite collection {D (s + d − 2ℓ, s, 1m)}s=1,2,...,2ℓ−1; m=1,...,r−1 of mixed-symmetry (hook)
+          massive fields;
+        – an infinite collection {D (s + d − 2ℓ, s, 1m )}s=2ℓ,...; m=1,...,r−1 of partially-massless mixed-
+          symmetry (hook) fields of depth t = 2ℓ − 1; and
+        – a multiplicity-two tower of fields containing massive, partially-massless and massless
+          fields, either totally symmetric (m = 0) or hook-shaped (m > 0) of various depths
+          below 2ℓ − 2 .
+
+   • In the even-dimensional case the product of two Di ℓ-linetons (4.27) differs from the odd-
+     dimensional case (4.26) by the overall multiplicity of two, apart from the hook-like mixed-
+     symmetry fields for which the first column has maximal height r . We can track back the
+     origin of this multiplicity by remembering that we actually consider the tensor product of
+     two Dirac, not Weyl, ℓ-linetons. The product of two left (resp. right) ℓ-linetons will produce
+     hook fields with a number of boxes in the first column with the parity of r, the tallest hook
+     field having chirality left (resp. right). The product of a left (resp. right) Di ℓ-lineton with
+     a right (resp. left) Di ℓ-lineton gives the hook fields with a number of boxes in the first
+     column with the parity of r + 1 .
+
+                                                   12
+Remark. The proof of the above theorem amounts to decomposing a product of characters,
+namely rational functions of variables q, x1 , . . . , xr , into a sum of characters. The method of char-
+acters does not allow one to identify, in the aforementioned decomposition, whether the resulting
+characters are associated with decomposable or indecomposable modules. Since some of the rep-
+resentations considered here are non-unitary, they can be reducible but indecomposable, i.e. not
+fully reducible. Therefore, the symbols ⊕ appearing in the theorem should be understood in the
+weak sense, i.e. either direct or semi-direct sums. Only an explicit realisation of the modules can
+allow the precise distinction, for example in a holographic context where the various modules are
+realised as fields with prescribed boundary behaviours.
+
+
+
+
+5     Casimir energy
+
+Let us briefly recall the standard relations between characters of so(2, d), canonical partition
+functions of CF Td and the Casimir energy on R × S d−1 (see e.g. [26, 31] for more explanations).
+
+
+    The canonical partition function Z(β) for a free boundary conformal field theory on R × S d−1
+(or for a free field in the anti-holographic bulk dual) in a thermal bath of temperature T = 1/β
+is equal to the corresponding so(2, d)-character evaluated at q = exp(−β) and x1 = . . . = xr = 1 .
+The Hamiltonian zeta-function can be defined in terms of the Mellin transform of the canonical
+partition function                                 Z ∞
+                                             1
+                                  ζE (z) :=              dβ β z−1Z(β) ,                           (5.28)
+                                            Γ(z)    0
+
+whose value at z = −1 is twice the Casimir energy EC = 21 ζE (−1).
+
+
+    As pointed out in [26], the vanishing of the Casimir energy can sometimes be shown without
+computing explicitly the Hamitonian zeta-function due to the following property: When the canon-
+ical partition function is an even function of the temperature, Z(−β) = Z(β) ⇔ Z(1/q) = Z(q),
+the Casimir energy automatically vanishes, EC = 0 . Let us shortly review the heuristic reasoning
+                                                               1
+behind this fact. As Γ(z) has a pole at z = −1 , the function Γ(z) has a zero at z = −1 , so for
+ζE (−1) to be non-zero, the integral has to have a pole at z = −1 . The expansion in Laurent
+series around β = 0 of an even function Z(β) of course only contains even powers of β . Thus, the
+integral in (5.28) can only have poles at even integer values of z . So the pole at z = −1 of the
+
+
+                                                   13
+Gamma function at the denominator in (5.28) cannot be compensated by a pole from the integral.
+Consequently, the Hamiltonian zeta-function vanishes at z = −1: EC = 21 ζE (−1) = 0 .
+
+
+   As we will show below, the canonical partition functions for any product of two (scalar or
+spinor) higher-order singletons happen to be even in β , thereby implying the vanishing of the
+total Casimir energy for the infinite tower of fields displayed in our theorem. More rigorously, we
+have checked this in two ways: On the one hand, we have computed the Hamitonian zeta function
+for the square of the ℓ-lineton partition function; on the other hand, we computed the infinite sum
+of the individual Casimir energies. Both ways give zero.
+
+
+   Using P (d) (q, 1 . . . , 1) = (1 − q)−d , we have the following expression for the partition function
+of a single Rac ℓ-lineton:
+                                                                      d
+                                       (d,2)                        q 2 (q −ℓ − q ℓ )
+                               Z(q) = χ[ d −ℓ,0](q, 1, . . . , 1) =                   .           (5.29)
+                                         2                              (1 − q)d
+This partition function Z(β) is an even/odd function of β when d is odd/even:
+                                                 d
+                                             q− 2
+                             Z(q −1 ) =         −1 d
+                                                     (q ℓ − q −ℓ ) = (−1)d+1 Z(q) .               (5.30)
+                                          (1 − q )
+The same parity property holds for the partition function of a single Di ℓ-lineton. Therefore
+the partition functions for the tensor product of any two scalar or spinor higher-order singletons
+(possibly of distinct orders) are even functions of β , implying the vanishing of the corresponding
+Casimir energies. One can check that this is indeed the case by a direct calculation. Here we show
+it for two Rac ℓ-lineton, the calculation being similar for the other cases.
+
+                         P+∞              
+   Using (1 − x)−α =         n=0
+                                   n+α−1
+                                    α−1
+                                         xn , one finds that the Hamiltonian zeta-function of the square
+of Z(β) given in (5.29) is equal to
+                           Z +∞
+                       1                 e−βd (e2ℓβ + e−2ℓβ − 2)
+            ζE (z) =             dββ z−1
+                     Γ(z) 0                    (1 − e−β )2d
+                           +∞               Z +∞                                                (5.31)
+                       1 X n + 2d − 1                                                
+                   =                                 dββ z−1e−β(d+n) e2ℓβ + e−2ℓβ − 2 .
+                     Γ(z) n=0      2d − 1       0
+
+            R +∞
+Now using   0
+                   dββ z−1e−aβ = a−z Γ(z), we have :
+                   +∞
+                   X              
+                         n + 2d − 1                                              
+        ζE (z) =                      (d + n − 2ℓ)−z + (d + n + 2ℓ)−z − 2(d + n)−z .              (5.32)
+                   n=0
+                           2d − 1
+
+                                                         14
+For z = −1 , the sum of the three terms in square brackets vanishes for any fixed value of n . As
+a result, EC = 0 .
+
+
+    Notice that, contrarily to the odd-dimensional case, the partition function of individual multi-
+linetons in even dimension d are odd functions of β and their Casimir energy are nonvanishing.
+Nevertheless, the Casimir energy vanishes for the tensor product of two of them.
+
+
+
+
+6     Conclusions and perspectives
+
+In this note, we generalised the Flato–Fronsdal theorem to the cases of higher-order singletons,
+scalar and spinor, in arbitrary dimensions d ⩾ 3 . We found novelties in the case of the tensor
+product of two spinor ℓ-linetons, such as degeneracies and partially-massless mixed-symmetry
+fields of any depth. The tensor product of two scalar or spinor multi-linetons of any two different
+orders has been decomposed as well. This result is presented in the Appendix.
+
+
+    Our theorem in Section 4 suggests the existence of a higher-spin, unbroken Vasiliev-like theory
+that should be the bulk dual of a Gross–Neveu model at an isotropic Lifshitz fixed point. The
+spectrum of this conjectured higher-spin gravity theory is encoded in the decomposition of two
+Di ℓ-linetons given in our theorem. A first check of this holographic conjecture and the one in
+[13] is the vanishing of the total Casimir energy at 1 loop for both spectra. These conjectures
+and their corresponding one-loop checks admit a straightforward generalisation for a direct sum
+of free scalar and spinor singletons of various orders.
+
+
+    An interesting generalisation of our results is to look at tensor products of higher-order spin-s
+singletons for s ⩾ 1 (in even dimensions d ). It would also be interesting to understand how
+the results obtained by the method of so(2, d) characters can be “continued” to the signature
+so(1, d + 1) . This is motivated by the unitarity of partially-massless fields in de Sitter geometries.
+For the same reason that the bosonic Vasiliev theory is unitary in de Sitter spacetime, the higher-
+spin gravity theories whose spectra we found in the present note should also be unitary in de
+Sitter background.
+
+
+
+
+                                                  15
+Acknowledgments
+
+We are grateful to Ph. Spindel for various discussions. The research of X.B. was supported by
+the Russian Science Foundation grant 14-42-00047 in association with Lebedev Physical Institute.
+X.B. wants to thank the F.R.S.-FNRS (Belgium) and the Service de Mécanique et Gravitation
+for financial support and hospitality during the completion of this work. The work of N.B. was
+partially supported by a contract “Actions de Recherche concertées – Communauté française de
+Belgique” AUWB-2010-10/15-UMONS-1.
+
+
+
+
+A      General Theorem
+
+
+The tensor product of two higher-order singletons, scalar and spinor, decomposes as:
+                                                                ℓ+ℓ′
+                                                                2
+                                                                M              ∞
+                                                                               M
+                     D( d2 − ℓ, 0) ⊗ D( d2 − ℓ′ , 0) ∼
+                                                     =                                   D(s + d − 2k, s, 0) ,                 (A.33)
+                                                                |ℓ−ℓ′ |        s=0
+                                                          k=              +1
+                                                                  2
+
+                                                     ℓ+ℓ ′ −1             ∞
+                                                      M                   M
+          D( d+1
+              2
+                 − ℓ, 21 ) ⊗ D( d2 − ℓ′ , 0) ∼
+                                             =                                           D(s + d − t − 1, s, 12 ) .            (A.34)
+                                                             1   1     s= 21 , 23 ,...
+                                                 t= ℓ−ℓ′ −     +
+                                                             2   2
+
+In the cases d = 2r + 1 , we have, for ℓ 6= ℓ′ :
+
+D( d+1 − ℓ, 12 ) ⊕ D( d+1             ∼
+                          − ℓ′ , 21 ) =
+    2                  2
+                ℓ+ℓ ′ −2                                       ∞ M
+                                                                 r−1 h                             ℓ+ℓ ′ −2
+                 M                                         M                                    M
+                             D d − 1 + t, 0 ⊕ D d − 1 − t, 0 ⊕                                                  2D (s + d − t − 1, s, 1m )
+                t=|ℓ−ℓ′ |                                                           s=1 m=0       t=|ℓ−ℓ′ |+1
+                                                                                       i
+                       ⊕ D (s + d − |ℓ − ℓ′ | − 1, s, 1m) ⊕ D (s + d − ℓ − ℓ′ , s, 1m ) ,                                      (A.35)
+
+
+
+
+                                                             16
+while in the cases d = 2r and for ℓ 6= ℓ′ :
+
+    D( d+1
+        2
+           − ℓ, 21 ) ⊗ D( d+1
+                           2
+                              − ℓ, 21 ) ∼
+                                        =
+     ℓ+ℓ ′ −2                                                                         ′ −2
+      M                                                            M r−2
+                                                                       ∞ Mh       ℓ+ℓ
+                                                                                   M
+                    2D d − 1 + t, 0 ⊕ 2D d − 1 − t, 0              ⊕                           4D (s + d − t − 1, s, 1m )
+    t=|ℓ−ℓ′ |                                                          s=1 m=0   t=|ℓ−ℓ′ |+1
+                                                                                               i
+           ⊕ 2D (s + d − |ℓ − ℓ′ | − 1, s, 1m ) ⊕ 2D (s + d − ℓ − ℓ′ , s, 1m )
+        ∞ h          ℓ+ℓ ′ −2
+        M             M           
+                                                         r−2
+                                                                                     r−2
+                                                                                            
+    ⊕                              2D s + d − t − 1, s, 1 , 1 ⊕ 2D s + d − t − 1, s, 1 , −1
+        s=1         t=|ℓ−ℓ′ |+1
+
+                                           ′      r−2
+                                                                                   ′        r−2
+                                                                                                          i
+           ⊕ D s + d − |ℓ − ℓ | − 1, s, 1               , 1 ⊕ D s + d − ℓ − ℓ , s, 1               , −1        .      (A.36)
+
+
+
+References
+ [1] M. Flato and C. Fronsdal, “One Massless Particle Equals Two Dirac Singletons:
+    Elementary Particles in a Curved Space. 6,” Lett. Math. Phys. 2 (1978) 421–426.
+
+ [2] M. A. Vasiliev, “Equations of motion of interacting massless fields of all spins as a free
+    differential algebra,” Phys. Lett. B209 (1988) 491–497; “Consistent equation for interacting
+    gauge fields of all spins in (3+1)-dimensions,” Phys. Lett. B243 (1990) 378–382.
+
+ [3] X. Bekaert, N. Boulanger, and P. A. Sundell,
+    “How higher-spin gravity surpasses the spin-two barrier,”Rev. Mod. Phys. 84 (Jul, 2012) 987–1009,
+    arXiv:1007.0435 [hep-th].
+
+ [4] V. Didenko and E. Skvortsov, “Elements of Vasiliev theory,” arXiv:1401.2975 [hep-th].
+
+ [5] E. Sezgin and P. Sundell, “Massless higher spins and holography,”
+    Nucl. Phys. B644 (2002) 303–370, arXiv:hep-th/0205131.
+
+ [6] I. R. Klebanov and A. M. Polyakov, “AdS dual of the critical O(N) vector model,”
+    Phys. Lett. B550 (2002) 213–219, arXiv:hep-th/0210114.
+
+ [7] E. Sezgin and P. Sundell, “Holography in 4D (super) higher spin theories and a test via
+    cubic scalar couplings,” JHEP 0507 (2005) 044, arXiv:hep-th/0305040 [hep-th].
+
+ [8] P. A. Dirac, “A Remarkable representation of the 3 + 2 de Sitter group,”
+    J.Math.Phys. 4 (1963) 901–909.
+
+                                                               17
+ [9] W. Heidenreich, “Tensor products of positive energy representations of so(3,2) and so(4,2),”
+    J. Math. Phys. 22 (1981) 1566.
+
+[10] M. A. Vasiliev, “Higher spin superalgebras in any dimension and their representations,”
+    JHEP 12 (2004) 046, arXiv:hep-th/0404124.
+
+[11] F. A. Dolan, “Character formulae and partition functions in higher dimensional conformal
+    field theory,” J. Math. Phys. 47 (2006) 062303, arXiv:hep-th/0508031.
+
+[12] C. Iazeolla and P. Sundell, “A Fiber Approach to Harmonic Analysis of Unfolded Higher-
+    Spin Field Equations,” JHEP 10 (2008) 022, arXiv:0806.1942 [hep-th].
+
+[13] X. Bekaert and M. Grigoriev, “Higher order singletons, partially massless fields and their
+    boundary values in the ambient approach,” Nucl.Phys. B876 (2013) 667–714,
+    arXiv:1305.0162 [hep-th].
+
+[14] S. Deser and R. I. Nepomechie, “Anomalous Propagation of Gauge Fields in Conformally
+    Flat Spaces,” Phys.Lett. B132 (1983) 321; “Gauge invariance versus masslessness in de
+    Sitter space,” Ann. Phys. 154 (1984) 396.
+
+[15] S. Deser and A. Waldron, “Partial masslessness of higher spins in (A)dS,”
+    Nucl. Phys. B607 (2001) 577–604, arXiv:hep-th/0103198.
+
+[16] E. D. Skvortsov and M. A. Vasiliev, “Geometric formulation for partially massless fields,”
+    Nucl. Phys. B756 (2006) 117–147, arXiv:hep-th/0601095.
+
+[17] L. Dolan, C. R. Nappi, and E. Witten, “Conformal operators for partially massless states,”
+    JHEP 0110 (2001) 016, arXiv:hep-th/0109096 [hep-th].
+
+[18] S. Deser and A. Waldron, “Null propagation of partially massless higher spins in (A)dS and
+    cosmological constant speculations,” Phys.Lett. B513 (2001) 137–141,
+    arXiv:hep-th/0105181 [hep-th].
+
+[19] X. Bekaert and M. Grigoriev, “Higher-order singletons and partially massless fields,” Bulg.
+    J. Phys. 41 (2014) 172–179, hal-01077511.
+
+[20] N. Boulanger, C. Iazeolla, and P. Sundell, “Unfolding Mixed-Symmetry Fields in AdS and
+    the BMV Conjecture: I. General Formalism,” JHEP 07 (2009) 013,
+    arXiv:0812.3615 [hep-th].
+
+                                                18
+[21] N. Boulanger, C. Iazeolla, and P. Sundell, “Unfolding Mixed-Symmetry Fields in AdS and
+    the BMV Conjecture: II. Oscillator Realization,” JHEP 07 (2009) 014,
+    arXiv:0812.4438 [hep-th].
+
+[22] N. Boulanger and P. Sundell, “An action principle for Vasiliev’s four-dimensional
+    higher-spin gravity,” J.Phys. A44 (2011) 495402, arXiv:1102.2219 [hep-th].
+
+[23] N. Boulanger, N. Colombo, and P. Sundell, “A minimal BV action for Vasiliev’s
+    four-dimensional higher spin gravity,” JHEP 1210 (2012) 043,
+    arXiv:1205.3339 [hep-th].
+
+[24] S. Giombi and I. R. Klebanov, “One Loop Tests of Higher Spin AdS/CFT,” JHEP 1312
+    (2013) 068, arXiv:1308.2337 [hep-th].
+
+[25] S. Giombi, I. R. Klebanov, and B. R. Safdi, “Higher Spin AdSd+1 /CFTd at One Loop,”
+    Phys.Rev. D89 (2014) 084004, arXiv:1401.0825 [hep-th].
+
+[26] S. Giombi, I. R. Klebanov, and A. A. Tseytlin, “Partition Functions and Casimir Energies in
+    Higher Spin AdSd+1 /CF Td ,” Phys.Rev. D90 (2014) 024048, arXiv:1402.5396 [hep-th].
+
+[27] O. V. Shaynkman, I. Y. Tipunin, and M. A. Vasiliev, “Unfolded form of conformal
+    equations in M dimensions and o(M+2)-modules,” Rev. Math. Phys. 18 (2006) 823–886,
+    arXiv:hep-th/0401086.
+
+[28] J. Engquist and P. Sundell, “Brane partons and singleton strings,”
+    Nucl. Phys. B752 (2006) 206–279, arXiv:hep-th/0508124.
+
+[29] J. Engquist, P. Sundell, and L. Tamassia, “On singleton composites in non-compact WZW
+    models,” JHEP 02 (2007) 097, arXiv:hep-th/0701051.
+
+[30] R. R. Metsaev, “Massless mixed symmetry bosonic free fields in d-dimensional anti-de
+    Sitter space-time,” Phys. Lett. B354 (1995) 78–84.
+
+[31] G. Gibbons, M. Perry, and C. Pope, “Partition functions, the Bekenstein bound and
+    temperature inversion in anti-de Sitter space and its conformal boundary,”
+    Phys.Rev. D74 (2006) 084009, arXiv:hep-th/0606186 [hep-th].
+
+
+
+
+                                               19
+

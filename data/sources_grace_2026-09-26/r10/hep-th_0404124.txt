@@ -1,0 +1,2671 @@
+                                    Preprint typeset in JHEP style - HYPER VERSION
+
+
+
+
+                                    Higher Spin Superalgebras in any Dimension
+                                    and their Representations
+
+
+
+
+arXiv:hep-th/0404124v4 8 Feb 2005
+                                    M.A. Vasiliev
+                                       I.E.Tamm Department of Theoretical Physics, Lebedev Physical Institute,
+                                       Leninsky prospect 53, 119991, Moscow, Russia
+
+
+                                    Abstract: Fock module realization for the unitary singleton representations of the
+                                    d − 1 dimensional conformal algebra o(d − 1, 2), which correspond to the spaces of
+                                    single-particle states of massless scalar and spinor in d − 1 dimensions, is given. The
+                                    pattern of the tensor product of a pair of singletons is analyzed in any dimension. It
+                                    is shown that for d > 3 the tensor product of two boson singletons decomposes into a
+                                    sum of all integer spin totally symmetric massless representations in AdSd , the tensor
+                                    product of boson and fermion singletons gives a sum of all half-integer spin symmetric
+                                    massless representations in AdSd , and the tensor product of two fermion singletons in
+                                    d > 4 gives rise to massless fields of mixed symmetry types in AdSd depicted by Young
+                                    tableaux with one row and one column together with certain totally antisymmetric
+                                    massive fields. In the special case of o(2, 2), tensor products of 2d massless scalar
+                                    and/or spinor modules contain infinite sets of 2d massless conformal fields of different
+                                    spins. The obtained results extend the 4d result of Flato and Fronsdal [1] to any
+                                    dimension and provide a nontrivial consistency check for the recently proposed higher
+                                    spin model in AdSd [2]. We define a class of higher spin superalgebras which act on
+                                    the supersingleton and higher spin states in any dimension. For the cases of AdS3 ,
+                                    AdS4 , and AdS5 the isomorphisms with the higher spin superalgebras defined earlier
+                                    in terms of spinor generating elements are established.
+Contents
+1. Introduction                                                                    1
+   1.1 Anti-de Sitter algebra                                                      4
+   1.2 General conditions on higher spin algebras                                  7
+
+2. Simplest bosonic higher spin algebras                                          14
+
+3. Factorization by projection                                                    20
+
+4. Higher spin superalgebras                                                      25
+
+5. Spinorial realizations in lower dimensions                                     29
+
+6. Scalar conformal module                                                        33
+
+7.   Spinor conformal module                                                      39
+
+8. Generalized Flato-Fronsdal theorem                                             42
+
+9. Unfolded equations for conformal fields                                        46
+
+10. Conclusion                                                                    48
+
+
+
+
+1. Introduction
+In the paper [2] nonlinear equations of motion for interacting totally symmetric
+massless bosonic fields of all spins in any dimension have been formulated. The
+primary goal of this paper is to show that the global higher spin (HS) symmetry
+algebras of [2] admit massless unitary representations which correspond to the sets
+of massless fields of the models of [2]. This provides a nontrivial consistency check
+of the results of [2] analogous to that carried out in [3, 4] for the 4d HS models.
+    One of the key results of this paper consists of the extension to any dimension
+of the theorem of Flato and Fronsdal [1] which states that the tensor products of
+pairs of AdS4 singletons give rise to sums of all AdS4 massless representations of
+
+
+
+                                       –1–
+o(3, 2) ∼ sp(4). The generalization of the Flato-Fronsdal theorem for the AdS5
+case, which is of most interest from the superstring theory side, was obtained in
+[5] in terms of doubletons (see also [6]). Analogous analysis of the case of AdS7
+was performed in [7]. The key element for these constructions was the oscillator
+realization of the space-time symmetry algebras and their superextensions based
+on the low-dimensional isomorphisms like o(2, 2) ∼ sp(2) ⊕ sp(2), o(3, 2) ∼ sp(4)
+and o(4, 2) ∼ su(2, 2) which allow realizations of space-time superalgebras in terms
+of bilinears of oscillators carrying spinor representations of space-time symmetry
+(super)algebras. The singleton and doubleton representations in lower dimensions
+admit a simple realization of Fock modules associated with the these spinor oscillators
+(see [8] and references therein). In these terms the Flato-Fronsdal theorem can be
+proved directly by decomposing the tensor product of two such Fock modules into
+irreducible submodules of the same symmetry algebra (see for example [4] for the
+AdS4 case). However, the realization in terms of spinors does not work beyond some
+lower dimensions because the afore mentioned isomorphisms do not take place for
+general d. Nevertheless, as we show, the analysis can be performed in any dimension
+within the realization of the orthogonal algebra o(M, 2) in terms of bosonic oscillators
+carrying o(M, 2) vector indices. In this case the corresponding Fock module also
+plays the key role. The difference between the two constructions is that this Fock
+module forms a reducible o(M, 2)–module and, to single out the unitary singleton
+submodules, some additional restrictions on the carrier space have to be imposed.
+A somewhat unusual feature is that the corresponding submodules do not contain
+the Fock vacuum. Otherwise, the extension of the Flato-Fronsdal theorem to any
+dimension is quite uniform.
+     The Flato-Fronsdal theorem and its higher dimensional extensions provide a
+group-theoretical basis for the AdS/CF T correspondence conjecture [9, 10, 11] and
+are especially important for the analysis of the correspondence between d dimensional
+boundary conformal models and HS gauge models in the bulk AdSd+1 . The latter
+issue was addressed in a number of papers in different contexts [12]-[27]. (A closely
+related issue is the analysis of the tensionless limit of string in AdS; see, for example,
+[28]-[31].) Our group-theoretical analysis agrees with the results of [23, 26], where
+the sector of a boundary conformal scalar field in any dimension was discussed, and
+suggests the extension of these results to the models with boundary and bulk fermions
+in any dimension.
+    The bosonic HS algebra of [2] is the conformal HS algebra of a massless boundary
+scalar [32] in d − 1 dimensions, i.e. it is the infinite dimensional symmetry algebra
+of the massless Klein-Gordon equation. Another class of HS algebras is associated
+
+
+
+                                          –2–
+with the massless boundary spinors. In the case of d = 4 these two algebras were
+isomorphic. As we show this is not true beyond d = 4. The AdSd bulk gauge fields
+corresponding to bilinears of massless boundary scalar form the set of all totally
+symmetric massless bosonic fields. The AdSd bulk gauge fields of the conformal HS
+algebras corresponding to bilinears of a boundary spinor are bosons having mixed
+symmetry described by Young tableaux with one row and one column of various
+lengths and heights, respectively. For odd d (i.e., even-dimensional boundary theory)
+there are generically three sorts of HS algebras: nonchiral type A algebras and two
+type B chiral algebras which correspond to chiral boundary spinors. In the type B
+cases antisymmetric HS bulk tensors satisfy certain (anti)selfduality conditions.
+
+     Not surprisingly, the scalar×scalar and spinor×spinor HS algebras are two bosonic
+subalgebras of some HS superalgebra in AdSd with any d. The fermionic sector of the
+corresponding bulk AdSd gauge fields consists of all totally symmetric half-integer
+spin fields in AdSd . We will argue that all constructed (super)algebras underly some
+consistent HS gauge theories in AdSd . It is important to note that the infinite
+dimensional HS superalgebras constructed in this paper contain finite dimensional
+SUSY subalgebras only for some lower dimensions that admit equivalent description
+in terms of spinor twistor variables.
+
+     The content of this paper is as follows. In the rest of the Introduction we summa-
+rize some relevant facts on the unitary representations of the AdSd algebra o(d −1, 2)
+(subsection 1.1) and discuss some general properties of the HS algebras (subsection
+1.2) focusing main attention on the admissibility condition which gives a criterion
+that allows one to single out those algebras which can be symmetries of a consistent
+field-theoretical model. In section 2 we define simplest bosonic HS algebras. The
+projection technics useful for the analysis of quotient algebras is introduced in sec-
+tion 3. The HS superalgebras are defined in section 4. In section 5 it is shown that
+for the particular case of AdS4 the HS superalgebra admits equivalent realization of
+[53, 54] in terms of spinors, and analogous construction is discussed for the AdS3
+and AdS5 HS algebras. Oscillator (Fock) realization for the unitary representation
+of single-particle states of the boundary conformal scalar and spinor are constructed
+in sections 6 and 7, respectively. In section 8, the pattern of the tensor products of
+these modules is found and it is shown that HS superalgebras discussed in this paper
+satisfy the admissibility condition. Unfolded formulation of the free field equations
+for boundary conformal fields is briefly discussed in section 9. Section 10 contains
+conclusions. In Appendix we collect some useful facts on the description of Young
+tableaux in terms of oscillators.
+
+
+
+                                        –3–
+1.1 Anti-de Sitter algebra
+HS algebras are specific infinite dimensional extensions of one or another d dimen-
+sional space-time symmetry (super)algebra g. In this paper we will be mainly inter-
+ested in the AdSd case of g = o(d − 1, 2). The generators T AB of o(M, 2) satisfy the
+commutation relations
+
+             [T AB , T CD ] = η BC T AD − η AC T BD − η BD T AC + η AD T BD ,     (1.1)
+
+where η AB is the invariant symmetric form of o(M, 2) (A, B = 0, . . . , M + 1). We
+will use the mostly minus convention with η 00 = η M +1M +1 = 1 and η ab = −δ ab for
+the space-like values of A = a = 1 . . . M. The AdSM +1 energy operator is
+
+                                        E = iT M +1 0 .                           (1.2)
+
+The noncompact generators of o(M, 2) are
+
+                                 T ±a = iT 0a ∓ T M +1 a ,                        (1.3)
+
+                 [E, T ±a ] = ±T ±a ,       [T −a , T +b] = 2(δ ab E + T ab ) .   (1.4)
+The compact generators T ab of o(M) commute with E. The generators T AB are
+anti-Hermitian, (T AB )† = −T AB , and, therefore,
+
+                  E† = E ,       (T ±a )† = T ∓a ,        (T ab )† = −T ab .      (1.5)
+
+    An irreducible bounded energy unitary representation H(E0 , h) of o(M, 2) is
+characterized by some eigenvalue E0 of E and weight h of o(M) which refer to the
+lowest energy (vacuum) states |E0 , hi of H(E0 , h) that satisfy T −a |E0 , hi = 0 and
+form a finite dimensional module of o(M) ⊕ o(2) ⊂ o(M, 2). A value of the quadratic
+Casimir operator C2 = − 21 T AB TAB on H(E0 , h) is
+
+                              C2 = E0 (E0 − M) + γ(h) ,                           (1.6)
+
+where γ(h) is the value of the Casimir operator γ2 = − 21 T ab Tab of o(M) on the
+vacuum |E0 , hi.
+    As shown by Metsaev [33], a bosonic massless field in AdSM +1 , which carries
+“spin” corresponding to the representation of o(M) with the weights h, has the
+vacuum energy
+                          E0bos (h) = hmax − p − 1 + M                       (1.7)
+where hmax is the length of the first row of the o(M) Young tableau associated with
+the vacuum space |E0 , hi while p is the number of rows of length hmax at the condition
+
+
+
+                                            –4–
+that the total number of rows (i.e., o(M) weights) does not exceed 21 M (that can
+always be achieved by dualization with the help of the epsilon symbol). In other
+words hmax and p are, respectively, the length and height of the upper rectangular
+block of the o(M) Young tableau associated with the vacuum weight h (relevant
+definitions and facts on Young tableaux are collected in the Appendix),
+                                             hmax
+                                                         p
+
+
+
+
+                               ♣ ♣ ♣ ♣ ♣ ♣
+                                                                                            (1.8)
+                               ♣ ♣ ♣ ♣ ♣
+                               ♣ ♣ ♣ ♣
+
+    The expression for lowest energies of fermionic massless representations is anal-
+ogous [34]
+                          E0f er (h) = hmax − p − 3/2 + M                       (1.9)
+where, again, hmax and p are, respectively, the length and height of the upper rectan-
+gular block of the o(M) Young tableau associated with the γ-transverse tensor-spinor
+realization of the vacuum space (i.e., |E0 , hi is realized as a space of o(M) tensors
+carrying an additional o(M) spinor index, with the o(M) invariant tracelessness,
+γ-transversality and Young antisymmetry conditions imposed). A total number of
+rows of the corresponding Young tableau does not exceed 21 M.
+     More generally, let D(E0 , h) be a generalized Verma module induced from some
+irreducible o(M) ⊕ o(2) vacuum module |E0 , hi. It is spanned by the states
+
+                                      T +a1 . . . T +an |E0 , hi                           (1.10)
+
+with various levels n. For the unitary case D(E0 , h) = H(E0 , h) it is isomorphic to the
+Hilbert space of single-particle states of one or another field-theoretical system, i.e, a
+space of normalizable positive-energy solutions of some (irreducible) o(M, 2) invariant
+field equations in M +1 dimensional space-time1 . Unitarity implies existence of some
+invariant positive-definite norm with respect to which the Hermiticity conditions (1.5)
+are satisfied. This requires the vacuum energy E0 to be high enough
+
+                                             E0 ≥ E0 (h) ,                                 (1.11)
+   1
+    There are as many independent states (1.10) as on-mass-shell independent derivatives of any
+order of the dynamical fields under consideration at some point of a M dimensional Cauchy surface.
+
+
+
+
+                                                –5–
+where E0 (h) is some weight dependent minimal value of E0 compatible with unitarity.
+Note that from the second relation in (1.4) it follows that E0 (h) ≥ 0 in a unitary
+module.
+     Starting from inside of the unitarity region and decreasing E0 for a fixed h one
+approaches the boundary of the unitarity region, E0 = E0 (h). Some zero-norm
+vectors then appear in D(E0 (h), h) for E0 = E0 (h). These necessarily should have
+vanishing scalar product with any other state (otherwise there will be a negative norm
+state in contradiction with the assumption that E0 is at the boundary of the unitarity
+region). Therefore, the zero-norm states form an invariant subspace called singular
+submodule S. By factoring out this subspace one is left with some unitary module
+H(E0 (h), h) = D(E0 (h), h)/S. Note that the submodule S is induced from some
+singular vectors |E0′ , h′ i ∈ D(E0 (h), h) among the states (1.10) which themselves
+satisfy the vacuum condition T −a |E0′ , h′ i = 0.
+     It is well known that the appearance of the null subspace S manifests gauge
+symmetries in the underlying field-theoretical model. More precisely, S represents
+leftover on-mass-shell symmetries with the gauge parameters analogous to the left-
+over gauge symmetries of the Maxwell theory δAn = ∂n φ in the Lorentz gauge
+∂n An = 0 → φ = 0. This is because the space (1.10) has some fixed values of
+all Casimir operators determined by the weights of the vacuum state |E0 , hi. As a
+result, the submodule S must have the same values of the Casimir operators. This
+means in particular that the states of S satisfy an appropriate Klein-Gordon equa-
+tion associated with the quadratic Casimir of o(M, 2). As pointed out by Flato and
+Fronsdal [36], gauge symmetries related with the singular modules can be of two
+different types.
+     Type I is the case of usual gauge symmetry allowing to gauge away some part of
+the AdSM +1 bulk degrees of freedom of a field associated with the module D(E0 (h), h)
+so that the quotient module H(E0 (h), h) = D(E0 (h), h)/S describes a field with local
+degrees of freedom in AdSM +1 . The corresponding fields are gauge fields in AdSM +1 .
+We will call them massless fields as they have minimal lowest energies compatible
+with unitarity. Note that the relations (1.7), (1.9) for lowest energies of massless
+fields were derived by Metsaev [33, 34] just from the requirements of on-mass-shell
+gauge invariance of the corresponding massless equations along with the unitarity
+condition2 . (For more details on the structure of unitary representations of non-
+compact algebras we refer the reader to [37] and references therein). The massless
+   2
+    Let us note that partially massless fields in AdSd considered in [35] correspond to nonunitary
+o(M, 2)-modules resulting from factorization of submodules of pure gauge states in the appropriate
+generalized Verma modules.
+
+
+
+
+                                              –6–
+representations of o(M, 2) of this class are those with p < M2 , i.e. the corresponding
+vacuum spaces are described by any o(M)–module except for those described by the
+rectangular Young tableaux of the maximal height 21 M and an arbitrary length. Note
+that the latter representations exist only for even M except for the degenerate cases
+of tableaux of zero length which correspond to the lowest energy scalar and spinor
+o(M)–modules for any M.
+     Type II is the case of boundary conformal fields which we will call singletons
+when discussing the corresponding unitary representations. This is the case where all
+bulk degrees of freedom are factored out so that the module H(E0 (h), h) describes a
+dynamical system at the boundary of AdSM +1 . In this case, o(M, 2) acts as conformal
+group in M dimensions. In accordance with the results of [38, 39] (see also [40]), the
+type II representations are those with p = M2 , M even, and minimal energy scalar
+and spinor o(M) modules, i.e. the corresponding Young tableau is some rectangular
+of the maximal height M2 and an arbitrary length (including zero). Indeed, it is easy
+to see that these fields form massless representations of o(M − 1, 2): dualization of a
+height 21 M tableau with respect to o(M −1) gives a rectangular block of height 12 M −1
+that just compensates the effect of replacing M by M − 1 in (1.7) and (1.9). Also
+the appearance of gauge degrees of freedom in the scalar or spinor modules indicates
+decoupling of bulk degrees of freedom [36]. Note that field-theoretical realization of
+this phenomenon was originally discovered by Dirac [43] for the case of o(3, 2).
+     Finally, let us make the following remark. Every lowest weight unitary o(M, 2)-
+module spanned by the vectors (1.10) forms a unitary module of o(M − 1, 2) ⊂
+o(M, 2). To find out its o(M − 1, 2) pattern one has to decompose a o(M, 2)–module
+D(E0 , h) into a direct sum of o(M − 1, 2)–modules. This can be achieved by looking
+                                                       ′
+for vacuum states among (1.10) as those satisfying T −a |E0′ , h′ i =0 with a′ = 1 . . . M −
+1. In the o(M − 1) covariant basis the states (1.10) are equivalent to
+                           ′         ′
+                      T +a1 . . . T +an (t+ )m |E0 , hi ,   t+ = T +M .              (1.12)
+
+Clearly, the dependence on t+ results in the infinite reducibility of D(E0 , h) treated
+as o(M − 1, 2)–module. This is expected because infinite towers of Kaluza-Klein
+modes should appear. On the other hand, this tower may be treated as an infinite
+dimensional module of the M dimensional conformal algebra o(M, 2) which mixes
+fields of different nonzero masses in AdSM .
+
+1.2 General conditions on higher spin algebras
+HS algebras are specific infinite dimensional extensions of one or another d dimen-
+sional space-time symmetry (super)algebra g which in the AdSd case is o(d − 1, 2).
+
+
+
+                                              –7–
+Not every extension h of g gives a HS algebra, however. Here we summarize some
+general conditions to be satisfied by HS algebras which may help to rule out some
+candidates.
+     Generally speaking, a HS algebra is any unbroken global symmetry algebra h
+of a vacuum solution of some consistent interacting theory which contains massless
+higher spins in the symmetric vacuum under consideration. To make it possible to
+interpret the model in terms of relativistic fields carrying some masses and spins,
+the vacuum solution is demanded to be invariant under the conventional space-time
+symmetry g ⊂ h (e.g, g = o(M, 2)). As a global symmetry of a consistent model, h
+must possess a unitary representation which contains all massless states in the model.
+The same time, any symmetry parameter of h should me associated with some gauge
+field of a particular spin, which, upon quantization, gives rise to the Hilbert space of
+massless states of a given type. This leads to the nontrivial matching condition on
+h called in [3] admissibility condition.
+     As an illustration let us recall the standard argument used to classify pure su-
+pergravity models. The first step is to say that supergravity results from gauging the
+supersymmetry algebra with the generators of (Minkowski or AdS) translations P a ,
+Lorentz transformations Lab = −Lba , supertransformations Qiµ (i = 1 . . . N , index
+µ is spinorial) and global symmetries T ij = −T ji . One concludes that any SUGRA
+model has to describe a set of gauge fields which contains spin 2 massless field (gravi-
+ton) described by the frame 1-form ha and Lorentz connection 1-form ω ab = −ω ba
+identified with the gauge fields corresponding to P a and Lab , spin 3/2 massless fields
+(gravitino) described by 1-form spinors ψµi which are gauge fields for Qiµ , and spin 1
+massless gauge fields Aij which correspond to T ij .
+    The second step is to check whether the supersymmetry algebra admits a unitary
+representation with exactly these sets of massless states plus, may be, some lower
+spin states which are not described by gauge fields. The answer is well known (see
+e.g. [44]). For 4d SUGRA, for example, the result is that for N ≤ 8 there is a
+massless supermultiplet with the highest spin 2 and the required pattern of spins 3/2
+and 1. (In fact, with the exception of N = 7 when the corresponding supermultiplet
+turns out to be a N = 8 supermultiplet). For N > 8 (i.e., with more than total 32
+supercharges) one finds that there is always a state of spin s > 2 in every massless
+supermultiplet. Since any such a field is a gauge field, this does not match the list
+of gauge fields of the usual SUSY algebra.
+     As long as it was not known that nontrivial theories which contain massless HS
+fields require a curved background with nonzero cosmological constant in a most
+symmetric vacuum [45], consistent theories of HS massless fields were not believed
+
+
+
+                                         –8–
+to exist and the appearance of HS fields in SUSY supermultiplets used to “rule out”
+supergravities with N > 8. A more constructive alternative was to study if there
+exist some extensions of the usual SUSY algebras such that a set of corresponding
+gauge fields would match some of their massless unitary representations. The analysis
+along these lines opens a way towards infinite dimensional HS algebras and nontrivial
+HS gauge theories. It was originally applied in [3] to the d = 4 case. In [4] a full list
+of admissible 4d HS algebras was obtained. The corresponding nonlinear HS theories
+were constructed at the level of classical field equations in [46]. The aim of this paper
+is to extend this analysis to any d.
+     Let us now discuss the general case. Let an action S(q) depend on some variables
+  Ω
+q (x) and be invariant under gauge transformations
+
+                               δq Ω = r Ω (q; ε) ,    δS = 0 ,                         (1.13)
+
+where εi (x) are infinitesimal gauge parameters. The gauge transformation r Ω (q; ε)
+contains the variables q Ω (x) and parameters εi (x) along with their derivatives.
+    Let q0Ω be some solution of the field equations
+                                        δS
+                                                  = 0.                                 (1.14)
+                                        δq Ω q=q0
+
+Perturbative analysis assumes that q Ω fluctuates near q0Ω , i.e.
+
+                                      q Ω = q0Ω + ηq1Ω ,                               (1.15)
+
+where η is some small expansion parameter. A vacuum solution q0Ω is not invariant
+under the gauge transformation (1.13). One can however address the question if
+there are some nonzero symmetry parameters εigl (x) which leave the vacuum solution
+invariant. Usually, if such a leftover symmetry exists at all, the x-dependence of εigl (x)
+turns out to be fixed in terms of values of εigl (x0 ) at any given point x0 . This is why
+the leftover symmetries are global symmetries. The vacuum is called symmetric if a
+number of its global symmetries is not smaller than the number of local symmetries
+in the model, i.e. εigl (x0 ) for some fixed x0 are modules of a global symmetry of the
+vacuum.
+    By definition of the global symmetry transformation, δgl q0Ω = r Ω (q0 , ε0 ) = 0. As
+a result
+                                                        δr Ω (q, ε0 , . . .)
+               δ gl q1Ω = δ0gl q1Ω + o(η) ,  δ0gl q1Ω =                           q1Λ , (1.16)
+                                                              δq Λ           q=q0
+
+where o(η) denotes terms of higher orders in q1 . The η-independent part of the
+transformation (1.16) acts linearly on the fluctuations q1Ω in a way independent of
+
+
+
+                                             –9–
+a particular form of the nonlinear part of the transformations (which is important
+for the analysis of interactions, however). Starting with some closed set of nonlinear
+gauge transformations3 , the global symmetry forms some (may be open) algebra as
+well. Expanding the full action as
+
+                            S = S0 (q0 ) + η 2 S2 (q0 , q1 ) + o(η 2 )                 (1.17)
+
+(as usual, the term linear in η is absent because q0 solves the field equations (1.14))
+one observes that the global symmetry δ0gl q1Ω is a symmetry of the free action S2
+bilinear in the fields q1 . Once the full theory is consistent, single-particle quantum
+states of the theory span a Hilbert space, which forms a bounded energy unitary
+h-module. It should decompose into a sum of unitary g-modules of the space-time
+symmetry g ⊂ h. The decomposition into UIRREPs of g gives a list of particles
+described by the free action S2 as well as their quantum numbers like spins and
+masses.
+     A particularly useful way to describe models with local symmetries is by using
+p-form gauge fields
+                          ω i (x) = dxn1 ∧ . . . ∧ dxnp ωni 1 ...np (x) .              (1.18)
+
+In the recent paper [41] it was shown how this approach can be used to describe any
+AdSd massless representation associated with a gauge field. The rule is very simple.
+A massless module H(E0 (h), h) with the o(d − 1) weight h corresponding to a finite
+dimensional o(d − 1)-module formed by o(d − 1) traceless tensors with the symmetry
+properties of a Young tableau
+
+
+                                              s
+
+                                                              p
+
+
+                                                       p̃2
+
+                              ♣ ♣ ♣ ♣ s̃♣ 2♣ ♣ ♣ ♣
+                              ♣ ♣ ♣ ♣ ♣ ♣
+                              ♣ ♣ ♣ ♣                                                  (1.19)
+
+can be described in terms of a p-form gauge field that takes values in the finite
+  3
+    These algebras may form so called open algebras with the commutators containing additional
+“trivial” transformations proportional to the left hand sides of the field equations.
+
+
+
+
+                                                     – 10 –
+dimensional o(d − 1, 2)-module depicted by the o(d − 1, 2) traceless Young tableau
+
+                                          s−1
+
+
+                                                             p+1
+
+
+                                                      p̃2
+
+                             ♣ ♣ ♣ ♣ s̃♣ 2♣ ♣ ♣ ♣
+                             ♣ ♣ ♣ ♣ ♣ ♣
+                             ♣ ♣ ♣ ♣                                                (1.20)
+
+which is obtained from (1.19) by cutting the right (i.e., shortest) column and adding
+the longest row. For example, to describe the spin two massless gauge field which
+corresponds to the o(d−1) Young tableau , one introduces 1-form gauge field taking
+values in the representation of o(d−1, 2) to be interpreted as the gauge connection
+of o(d−1, 2). Its decomposition into representations of the Lorentz algebra o(d−1, 1)
+gives rise to the frame 1-form and Lorentz connection.
+     The sector of 1-forms is particularly important because the 1-form gauge fields
+                                                                    i
+take values in some (super)algebra h with structure coefficients fjk  . The field strength
+is
+                                                                    ∂
+                  Ri = dω i (x) + fjk
+                                   i
+                                      ω j (x) ∧ ω k (x) , d = dxn n .                (1.21)
+                                                                   ∂x
+As just mentioned, gravitation is described in such a formalism by the components of
+the connection 1-form ω0 of the AdSd algebra o(d − 1, 2). For background geometry
+with nondegenerate metric, ω0 (x) must be nonzero because it contains a nondegener-
+ate frame field as the component of the gauge field ω i (x) associated with the generator
+of space-time translations in g (note that there exists invariant way to impose this
+condition with the help of the so called compensator formalism [47, 48, 49]). Gauge
+invariant Lagrangians for gauge fields of any symmetry type can be built in terms
+of the field strengths of ω analogously to the MacDowell-Mansouri formulation for
+gravity [42].
+     Such a formalism has several nice properties. In particular, it allows a natural
+zero-curvature vacuum solution ω0 of the dynamical field equations such that
+
+                                             Ri (ω0 ) = 0 .                         (1.22)
+
+For the case of gravity with the connection ω0 taking values in o(d − 1, 2), this is just
+the equation for the AdSd space-time.
+
+
+
+                                                    – 11 –
+    Any vacuum solution (1.22) has h as a global symmetry (we disregard here
+possible global topological obstructions in less symmetric locally isomorphic spaces,
+extending, if necessary, the problem to the universal covering space-time). Indeed,
+the equation (1.22) is invariant under the gauge transformations
+
+                     δω0i (x) = D0 εi (x) ≡ dεi (x) + fjk
+                                                       i
+                                                          ω0j (x) ∧ εk (x) .             (1.23)
+
+To have a fixed vacuum solution ω0i (x) invariant one requires
+
+                   δω0 = D0 (εi (x)) ≡ dεi (x) + fjk
+                                                  i
+                                                     ω0j (x) ∧ εk (x) = 0 .              (1.24)
+
+The equation (1.24) is formally consistent because D02 = 0. As a result it determines
+all derivatives of the 0-form εi (x) in terms of its values εi (x0 ) at any given point x0
+of space-time. The corresponding parameters εi0 (x), which solve (1.24), are fixed in
+terms of εi0 (x0 ) ∈ h. They describe global symmetry h of the vacuum (1.22). Let
+us note that the same argument is true for any gauge transformations which differ
+from (1.23) by terms proportional to the field strengths and/or matter (non-gauge)
+fields which are all assumed to have zero VEVs. Also, let us note that p-gauge forms
+have (p − 1)-form gauge parameters. However, as a consequence of the Poincare
+lemma only 1-form gauge fields give rise to nontrivial global symmetries with 0-form
+parameters.
+     Given Lie superalgebra h we can check using the results of [41] whether or not
+it is appropriate to describe some set of HS gauge fields and, if yes, to find out
+the spectrum of spins of this set. Note that the condition that the gauge fields
+of h correspond to some set of massless fields is itself nontrivial, imposing rigid
+restrictions on h. In particular, according to [41], a result of the decomposition of
+h into irreducible submodules of the space-time symmetry o(d − 1, 2) has to contain
+only finite dimensional4 representations of o(d − 1, 2) of special types, namely those
+depicted by traceless Young tableaux of o(d − 1, 2) that have two first rows of equal
+length.
+     Suppose now that there is a consistent nonlinear theory of massless gauge fields
+formulated in terms of connections of some algebra h plus, may be, some number of
+fields described by 0-forms as well as by higher forms. Consistent interactions may
+deform a form of the transformation law (1.23) by some terms proportional to the
+curvatures R and/or matter fields. In the vacuum with zero curvature and matter
+fields the deformation terms do not contribute to the global symmetry transformation
+   4
+     This guarantees that the gauge fields corresponding to every g-submodule in h have a finite
+number of components. Note that usually HS models describe infinite set of fields, each having a
+finite number of components to describe one or another particle.
+
+
+
+
+                                            – 12 –
+law. As a result, if a consistent nonlinear theory exists, h is the global symmetry
+algebra of such its vacuum solution. This automatically implies that the space-time
+symmetry g ⊂ h is also the global symmetry of the model. It is one of the advantages
+of the formulation in terms of gauge connections that it makes global symmetries
+of the model manifest including the usual space-time symmetries. Note that this
+is achieved in a coordinate independent way because it is not necessary to know a
+particular form of the vacuum gauge connection ω0 . Instead, it is enough to impose
+(1.22) along with the condition that the frame field is nondegenerate (see [49] for
+more details for the example of gravity).
+
+     Once h is the global symmetry algebra of a hypothetical consistent HS theory it
+has to obey the admissibility condition [3] that there should be a unitary h–module
+which describes a list of quantum single-particle states corresponding to all HS gauge
+fields described in terms of the connections of h. If no such a module exists, there
+is no chance to find a nontrivial consistent (in particular, free of ghosts) theory that
+admits h as a symmetry of its most symmetric vacuum. On the other hand, once
+some (super)algebra h satisfying the admissibility condition is found, the pattern of
+the appropriate unitary module also contains the information on the matter fields
+and higher form HS gauge fields analogous to the matter and higher form fields in
+extended supergravity supermultiplets. As a result, one obtains a list of (p = 0)
+matter and (p > 1)-form fields to be introduced to make it possible to build a
+consistent theory.
+
+     We see that a priori not every extension h of g is a HS algebra. In particular, it
+is interesting to check whether the algebras considered in [50] satisfy the formulated
+criteria. The admissibility condition is the necessary condition for h to underly
+some consistent HS theory. In practice, all examples of algebras h known so far,
+which satisfy the admissibility condition, turned out to be vacuum symmetries of
+some consistent HS theories. Let us note that the admissibility condition applies to
+the symmetry algebras of on-mass-shell single-particle states. It therefore does not
+provide any criterion on the structure of possible further extensions of the HS algebras
+with the additional fields being pure gauge or auxiliary, i.e., carrying no degrees of
+freedom. Such algebras may have physical relevance as off-mass-shell algebras giving
+rise to some auxiliary field variables which are zero by virtue of dynamical field
+equations.
+
+
+
+
+                                        – 13 –
+2. Simplest bosonic higher spin algebras
+The HS algebra used in [2] is defined as follows. Consider bosonic oscillators YiA
+with i = 1, 2
+                                (YiA )† = YiA                                (2.1)
+satisfying the commutation relations
+
+                                   [YkA , YjB ] = 2iCkj η AB ,                             (2.2)
+
+where Cij = −Cji , C ij Cik = δkj . The bilinear forms η AB and C ij are used to raise
+and lower indices in the usual manner: AA = η AB AB , ai = C ij aj , ai = aj Cji .
+    The generators of o(M, 2) are
+                                                   1
+                             T AB = −T BA =           {Y jA , YjB } .                      (2.3)
+                                                   4i
+Also we introduce the generators of sp(2)
+                                          1
+                                  tkl =      ηAB {YkA , YlB } .                            (2.4)
+                                          4i
+The generators T AB and tij commute to the oscillators YjA as follows
+
+          [T AB , YjC ] = η BC YjA − η AC YjB ,       [tjk , YnA ] = Ckn YjA + Cjn YkA ,   (2.5)
+
+i.e., T AB generate o(M, 2) rotations of indices A, B, . . ., while tij generate sp(2)
+transformations of indices i, j, . . . Because indices in (2.3) and (2.4) are contracted
+with the sp(2) and o(M, 2) invariant forms, respectively, one finds that
+
+                                        [T AB , tij ] = 0 ,                                (2.6)
+
+i.e., o(M, 2) and sp(2) are Howe dual [51]. Note that the following identity is true as
+a consequence of (2.3) and (2.4)
+                            1            1           1
+                      C2 ≡ − T AB TAB = − (M 2 − 4) − tij tij .                            (2.7)
+                            2            4           2
+    Consider the associative Weyl algebra AM +2 spanned by the elements
+                                   X
+                                                   A1
+                          f (Y ) =   fAi11...i               Am
+                                           ...Am Yi1 . . . Yim ,
+                                               m
+                                                                                           (2.8)
+                                        m
+
+i.e. AM +2 is the enveloping algebra of the commutation relations (2.2). Consider the
+subalgebra S ⊂ AM +2 spanned by the sp(2) singlets
+
+                             f (Y ) ∈ S :         [tij , f (Y )] = 0 .                     (2.9)
+
+
+
+                                             – 14 –
+These conditions admit a nontrivial solution with f (Y ) being an arbitrary function
+of the o(M, 2) generators (2.3). Let hc(1|2:[M, 2]) be the Lie algebra resulting from
+S with the commutator [a, b] as the Lie product. (In this notation, 2 : [M, 2] refers
+to the dual pair sp(2) ⊕ o(M, 2), h abbreviates “higher”, c abbreviates “centralizer”,
+and 1 refers to a number of Chan-Paton indices as explained in section 4.)
+    The algebras S and hc(1|2:[M, 2]) contain two-sided ideals I spanned by the
+elements of the form
+                                g = tij g ij ,  g∈S                             (2.10)
+where g ij (Y ) behaves as a symmetric tensor of sp(2), i.e.,
+
+                          [tij , g kl] = δjk gi l + δik gj l + δjl gi k + δil gj k                     (2.11)
+
+(note that tij g ji = g jitij ). Actually, from (2.9) it follows that f g, gf ∈ I ∀f ∈ S,
+g ∈ I. From the definition (2.4) of tij one concludes that the ideal I takes away
+all traces of the o(M, 2) tensors so that the algebra S/I has only traceless o(M, 2)
+tensors in the expansion (2.8).
+     The sp(2) invariance condition (2.9) is equivalent to
+                                    ∂        ∂ 
+                                Y Ai A + Y Aj A f (Y ) = 0 .                                           (2.12)
+                                    Yj       Yi
+                                                                                                 m        n
+                                                                       z }| { z }| {
+For the expansion (2.8), this condition implies that the coefficients f . . . 1 2 . . . 2
+                                                                       1
+                                                                                              A1 ...Am C1 ...Cn
+are nonzero only if n = m and that symmetrization over any m + 1 indices among
+                                                                                   m        m
+                                                                               z }| { z }| {
+A1 , . . . Am , C1 , . . . Cm gives zero. This implies that the coefficients fA11....A
+                                                                                    . .12 . . .2
+                                                                                       m C1 ...Cm
+
+                                                                                                      m
+have the symmetry properties of the two-row rectangular Young tableau
+(for more details see Appendix). Thus, the algebras S and hc(1|2:[M, 2]) decompose
+into direct sums of o(M, 2)–modules described by various two-row rectangular Young
+tableaux. The algebra S/I is spanned by the elements with traceless o(M, 2) tensor
+coefficients which have symmetry properties of two-row Young tableaux. The Lie
+algebra hc(1|2:[M, 2])/I was identified by Eastwood with the conformal HS algebra
+in M dimensions in [32] where its realization in terms of the enveloping algebra of
+o(M, 2) was used. In [2] the algebra hc(1|2:[M, 2])/I was called hu(1/sp(2)[M, 2]).
+To simplify notations we call this algebra hu(1|2:[M, 2]) in this paper. More precisely,
+hu(1|2:[M, 2]) is the real Lie algebra singled out by the reality condition
+
+   f (Y ) ∈ hu(1|2:[M, 2]) :         f (Y ) ∈ hc(1|2:[M, 2])/I ,              f † (Y ) = −f (Y ) ,     (2.13)
+
+
+
+                                                 – 15 –
+where † is the involution (2.1) extended to a generic element by the standard prop-
+erties (f g)† = g † f † , (λg)† = λ̄f † for f, g ∈ hc(1|2:[M, 2])/I, λ ∈ C. Note that
+hu(1|2:[M, 2]) contains the o(M, 2) generators T AB (2.3).
+     Let us now consider another Lie algebra hu(1|(1, 2):[M, 2]) resulting from the
+analogous construction with the additional Clifford elements φA satisfying the anti-
+commutation relations
+                                   {φA , φB } = −2η AB .                       (2.14)
+Now the generators of o(M, 2) are realized as
+                                                  1                  1
+                         T AB = −T BA =              {Y jA , Yj B } − [φA , φB ] .                          (2.15)
+                                                  4i                 4
+They commute to the (super)generators of osp(1, 2)
+                      1                                                1
+                  tj = YjA φA ,             tnm = i{tn , tm } =           ηAB {YnA , YmB } .                (2.16)
+                      2                                                4i
+    The associative Weyl-Clifford algebra AM +2,M +2 is spanned by the elements
+               X
+    f (Y, φ) =     fA1 ...Am ,B1 ...Bn ;C1 ...Ck Y1A1 . . . Y1Am Y2B1 . . . Y2Bn φC1 . . . φCk , (2.17)
+                 m,n,k
+
+
+where the coefficients fA1 ...Am ,B1 ...Bn ;C1 ...Ck are totally symmetric (separately) in the
+indices A1 . . . Am and B1 . . . Bn and totally antisymmetric in the indices C1 . . . Ck .
+Its subalgebra S is spanned by the elements which have zero graded commutator
+with the (super)generators of osp(1, 2), i.e.
+
+                                f ∈S :         f (Y, φ)tj = tj f (Y, −φ) .                                  (2.18)
+
+From (2.16) it follows that any f ∈ S is sp(2) invariant. As a result, n = m and
+fA1 ...Am ,B1 ...Bm ;C1 ...Ck has the symmetry properties of a two-row rectangular Young
+tableau with respect to the indices A1 . . . Am and B1 . . . Bm , i.e. symmetrization
+over any m + 1 indices Ai and Bj gives zero. The condition (2.18) implies
+
+     (k + 1)fA1 ...Am ,B1 ...Bm ;Am+1 C1 ...Ck = i(m + 1)fA1 ...Am+1 ,B1 ...Bm C1 ;C2 ...Ck ,               (2.19)
+
+where total (anti)symmetrization over the indices (C)A is understood. Its general
+solution is
+
+         fA1 ...Am ,B1 ...Bm ;C1 ...Ck = gA1 ...Am ,B1 ...Bm |C1 ...Ck
+                                                     (m + 1)2
+                                       + iθ(k − 2)                  gA1 ...Am C1 ,B1 ...Bm C2 |C3 ...Ck ,   (2.20)
+                                                        m+k
+
+
+
+                                                    – 16 –
+where gA1 ...Am ,B1 ...Bm |C1 ...Ck is an arbitrary tensor that has symmetry properties of
+the Young tableau
+                                                 m
+
+                                     k+2
+
+                                                         .                                    (2.21)
+
+In other words gA1 ...Am ,B1 ...Bm |C1 ...Ck is totally symmetric in the indices A1 . . . Am and
+B1 . . . Bm , totally antisymmetric in the indices C1 . . . Ck and such that symmetriza-
+tion over any m + 1 indices gives zero.
+     Let hc(1|(1, 2):[M, 2]) be the Lie algebra isomorphic to S as a linear space, with
+the commutator (not graded commutator!) in S as the Lie bracket. The factorization
+over the ideal I spanned by the elements of hc(1|(1, 2):[M, 2]) which are themselves
+proportional to the generators of osp(1, 2) implies that the tableaux (2.21) are trace-
+less. The resulting algebra hu(1|(1, 2):[M, 2]) decomposes as a linear space into the
+direct sum of traceless representations of o(M, 2) which have the symmetry proper-
+ties of the Young tableaux (2.21). More precisely, hu(1|(1, 2):[M, 2]) is the real Lie
+algebra spanned by the elements satisfying
+
+                                     (f (Y, φ))† = −f (Y, φ)                                  (2.22)
+
+at the condition that (2.1) is true along with
+
+                                           (φA )† = −φA .                                     (2.23)
+
+(Let us note that the involution † can be realized in the usual manner as (a)† =
+φ0 φM +1 a+ φM +1 φ0 , where a+ is some Hermitian conjugation with respect to a positive-
+definite form. Note that a sign on the right hand side of (2.23) is chosen so that the
+space-like components of φA could be realized by hermitean matrices).
+    From the formula
+                                           X
+               ǫn1 ...nM +2 ǫm1 ...mM +2 =  (−1)π(p) ηn1 mp(1) . . . ηnM +2 mp(M +2) , (2.24)
+                                            p
+
+where summation is over all permutations p of indices mi and π(p) = 0 or 1 is the
+oddness of the permutation p, it follows that any traceless tensor with the symmetry
+properties of a Young tableau, which contains two columns with more that M + 2
+cells, is identically zero5 . From here it follows that only Young tableaux with up to
+   5
+    By virtue of (2.24) one proves that a tensor twice dual to the original one in the two groups of
+antisymmetrized indices must vanish because at least one of the metric tensors on the right hand
+side of (2.24) will be contracted with a pair of indices of the dualized tensor. By double dualization
+one gets back the original tensor which is therefore also zero.
+
+
+
+
+                                                – 17 –
+M cells in the first column appear among the o(M, 2) representations contained in
+hu(1|(1, 2):[M, 2]), having at least two nonzero columns. It turns out however that
+elements described by the one-column Young tableaux of height 1 and M + 1 belong
+to the ideal I and, therefore, do not appear among the elements of hu(1|(1, 2):[M, 2]).
+This fact is the content of Lemma 3.1 of section 3. Let us mention that the feature
+that factoring out elements proportional to ti may imply some factorization beyond
+only taking away traces is because Clifford algebra is finite dimensional. In other
+words, when fermions are present, the factorization over the ideal I may take away
+traces along with some traceless elements.
+      To summarize, as o(M, 2)-module hu(1|(1, 2):[M, 2]) decomposes into the sum of
+all finite dimensional o(M, 2)-modules described by various traceless Young tableaux
+(2.21) except for those with the first column of heights 1 or M + 1. (The trivial
+tableau with no cells and its dual described by the one-column tableau with M + 2
+cells are included). Each allowed irreducible o(M, 2)-module appears in one copy.
+      The element
+                                   1
+                           Γ = (i) 2 (M −2)(M −3) φ0 φ1 . . . φM +1             (2.25)
+satisfies
+                              ΓφA = (−1)M +1 φA Γ ,        Γ2 = Id                  (2.26)
+and
+                                             Γ† = Γ .                               (2.27)
+As a result, the projectors
+                                             1
+                                         Π± = (1 ± Γ)                               (2.28)
+                                             2
+are Hermitian
+                                          (Π± )† = Π± .                             (2.29)
+According to (2.26), the elements Γ and Π± are central for odd M. As a result,
+analogously to the case of usual Clifford algebra, hu(1|(1, 2):[M, 2]) decomposes for
+odd M into direct sum of two subalgebras singled out by the projectors Π±
+
+            hu(1|(1, 2):[M, 2]) = huE (1|(1, 2):[M, 2]) ⊕ huE (1|(1, 2):[M, 2]) .   (2.30)
+
+Here huE (1|(1, 2):[M, 2]) is the subalgebra of hu(1|(1, 2):[M, 2]) spanned by the el-
+ements even in φ, f (Y, −φ) = f (Y, φ), described by various Young tableaux (2.21)
+with even numbers of cells. Note that for the particular case of M = 3, which cor-
+responds to AdS4 , the algebra huE (1|(1, 2):[3, 2]) as a o(M, 2)-module contains only
+rectangular two-row Young tableaux. As will be shown in section 5, in agreement
+
+
+
+                                              – 18 –
+with the 4d results of [4], this is the manifestation of the isomorphism huE (1|(1, 2):
+[3, 2]) ∼ hu(1|2:[3, 2]).
+     By definition of huE (1|(1, 2):[M, 2]), its elements commute with Γ and Π± . For
+even M one can therefore define two algebras huE       ± (1|(1, 2):[M, 2]) spanned by the
+elements of the form
+
+       b ∈ huE
+             ± (1|(1, 2):[M, 2]) :     b = Π± a ,       a ∈ huE (1|(1, 2):[M, 2]) .       (2.31)
+
+Note that huE                                               E
+               ± (1|(1, 2):[M, 2]) are not subalgebras of hu (1|(1, 2):[M, 2]) because their
+elements do not satisfy (2.18) in the sector of the osp(1, 2) supercharges tj . Elements
+of huE± (1|(1, 2):[M, 2]) are even rank o(M, 2) tensors such that the tensors, described
+by the Young tableaux with the heights p and M + 2 − p of the first column, are dual
+to each other. In particular, the o(M, 2) generators in huE    ± (1|(1, 2):[M, 2]) are Π± TAB
+where TAB are the generators (2.3). For M + 2 = 4q, the rank 2q o(M, 2) tensors are
+(anti)selfdual (for M = 4q, rank 2q + 1 tensors do not belong to huE (1|(1, 2):[M, 2])).
+     We will call the algebras huE (1|(1, 2):[M, 2]) and huE  ± (1|(1, 2):[M, 2]) (M is even)
+- type A and type B HS algebras, respectively. To summarize, let us list the gauge
+fields associated with the HS algebras defined in this section.
+     The gauge fields of hu(1|2:[M, 2]) are 1-forms ωnA1 ...An ,B1 ...Bn carrying representa-
+tions of o(M, 2) described by various two-row traceless rectangular Young tableaux of
+lengths n = 0, 1, 2 . . .. As shown in [49, 2], these describe totally symmetric massless
+fields in AdSM +1 , i.e., the lowest energy subspace of the corresponding UIRREP of
+o(M, 2) is described by the rank n + 1 totally symmetric traceless tensors of o(M).
+     The gauge fields of hu(1|(1, 2):[M, 2]) are 1-forms ωnA1 ...An ,B1 ...Bn ,C1 ...Cm carrying
+representations of o(M, 2) described by various traceless Young tableaux having two
+rows of equal length and one column of any height m ≤ M. There are two degenerate
+cases of 1-forms carrying totally antisymmetric representations of zero or maximal
+ranks ωnD1 ...Dn with n = 0 or M + 2 (while the cases with n = 1 or n = M + 1 are
+excluded). According to the results of [41], the gauge fields ωnA1 ...An ,B1 ...Bn ,C1 ...Cm with
+n ≥ 1 describe massless fields in AdSM +1 corresponding to the UIRREPs of o(M, 2)
+with the lowest energy states which form representations of o(M) described by the
+traceless Young tableaux having one row of length n + 1 and one column of height
+min(m + 1, M − m − 1)
+
+                                             n+1
+
+                    min(m + 1, M − m − 1)
+
+                                                    .                                     (2.32)
+
+
+
+                                            – 19 –
+The degenerate cases of o(M, 2) singlet 1-forms ωnA1 ...An ,B1 ...Bn ,C1 ...Cm with n = m = 0
+and n = 1, m = M correspond to two spin 1 fields. The fields with n = 1, m = 0
+and n = 1, m = M − 2 describe two graviton-like spin 2 fields.
+     The gauge fields of huE (1|(1, 2):[M, 2]) are 1-forms ωnA1 ...An ,B1 ...Bn ,C1 ...Cm with even
+m. The corresponding lowest energy representations of o(M) ⊂ o(M, 2) are described
+by the hook Young tableaux (2.32) with an odd number of cells in the first column.
+     The type B chiral algebras huE          ± (1|(1, 2):[M, 2]) (M is even) give rise to gauge
+        A1 ...An ,B1 ...Bn ,C1 ...Cm
+fields ωn                            with m = l and m = M−l−2 related by the (anti)selfduality
+conditions. In particular, the fields with m = 2q for M = 4q + 2 are (anti)selfdual,
+i.e. the corresponding lowest energy representations of o(4q + 2) are described by
+(anti)selfdual Young tableaux with the first column of height 2q + 1. Note that type
+B systems can be realized in odd-dimensional space-times AdSM +1 which include
+the cases of AdS5 and AdS11 being of special interest from the superstring theory
+perspective.
+
+
+3. Factorization by projection
+To simplify the construction of HS algebras it is convenient to use the projection
+formalism analogous to that used in [49, 52] for the analysis of 5d HS models. The
+idea is that it is easy to factor out terms proportional to one or another set of
+operators ai if there is some element ∆ such that ai ∆ = ∆ai = 0. Let C be the
+centralizer of ai , i.e., f ∈ C : [ai , f ] = 0. Suppose that ∆ also commutes with all
+elements of C, which is usually automatically true because ∆ is in a certain sense
+built of ai . Then elements f ∆ = ∆f , f ∈ C span C/I where I consists of such g ∈ C
+that g = g l ai or g = ai g r for some i.
+     A little complication is that in many cases ∆ does not belong to the original
+algebra because ∆2 does not exist (diverges). As a result, the space of elements f ∆ =
+∆f forms a module of the original algebra rather than an algebra with respect to
+the original product law. However, one can redefine the product law of the elements
+of g = f ∆ appropriately provided that there is an element G such that
+
+                                          ∆G∆ = ∆.                                          (3.1)
+
+One simply defines
+                                       g1 ◦ g2 = g1 Gg2 .                                   (3.2)
+The new product is associative and reproduces the product law in C/I so that
+
+                              g1 ◦ g2 = f1 f2 ∆ ,      gi = fi ∆ .                          (3.3)
+
+
+
+                                             – 20 –
+Note that G is not uniquely defined because, with no effect on the final result, one
+can add to G any terms ai p and qai with p and q annihilating ∆w. In fact, the role
+of G is auxiliary because one can simply use (3.3) as a definition of the product law
+in C/I.
+    This situation can be illustrated by the example of the algebra of differential
+operators. Consider differential operators with polynomial coefficients of one variable
+                                     P
+x. Its generic element is a(x, x′ ) = ∞           n m       ′
+                                      n,m=0 an,m x δ (x − x ) with a finite number of
+nonzero coefficients an,m and
+
+                                                 ∂m
+                             δ m (x − x′ ) =         δ(x − x′ ) .                     (3.4)
+                                               (∂x)m
+
+We consider simultaneously the case of usual commuting variable x and the Grass-
+mann case with x2 = 0. (Recall that in the latter case δ(x) = x.) The product law
+                                       R
+is defined as usual by (ab)(x1 , x2 ) = dx3 a(x1 , x3 )b(x3 , x2 ). Consider the subalgebra
+C spanned by the elements which commute with x (i.e. xδ(x − x′ )). It is spanned
+                                         P
+by polynomials of x, i.e. a ∈ C : a = ∞             n          ′
+                                            n=0 an x δ(x − x ). Obviously, the ideal I is
+spanned by the elements proportional to x which are various elements a with zero
+constant term. The quotient algebra C/I is spanned by constants a0 δ(x − x′ ).
+     Let us now do the same with the aid of projector. ∆ is obviously the delta
+function
+                                  ∆(x, x′ ) = δ(x)δ(x′ ) .                             (3.5)
+
+It satisfies x∆ = ∆x = 0. But ∆2 = ∆δ(0) with δ(0) = 0 in the Grassmann case
+and δ(0) = ∞ in the commuting case. Note that this is not occasional but is a
+consequence of the original algebra properties. Actually, suppose that ∆2 is well-
+defined. Then ∆2 would satisfy the same properties x∆2 = ∆2 x = 0 and one could
+expect that ∆2 = α∆ with some coefficient α. If α 6= 0 or ∞, upon appropriate
+rescaling, ∆ could be defined as a projector. However, this cannot be true because,
+                     ∂
+formally, ∆2 = ∆[ ∂x   , x]∆ = 0. Therefore, either α = 0 (Grassmann case) or ∆2
+makes no sense (commuting case of α = ∞). To redefine the product law according
+to (3.1), (3.2) one can set
+                                     G(x, x′ ) = 1 .                               (3.6)
+                                                                      P
+There is an ambiguity in the choice of G. Any G′ (x, x′ ) = G(x, x′ )+ n,m≥0 an,m xn x′m
+with a0,0 = 0 is equally good. Note that neither ∆ nor G belong to the original
+algebra of differential operators.
+     In the case of hc(1|2:[M, 2]) the operators ai identify with the generators tij of
+sp(2). Let us define the algebra of oscillators YiA as the star product algebra with
+
+
+
+                                          – 21 –
+the product law
+                                    Z
+ f (Y ) ∗ g(Y ) = (2π)   −2(M +2)
+                                        d2(M +2) Sd2(M +2) T f (Y + S)g(Y + T ) exp iSjA TAj , (3.7)
+
+which is the integral formula for the associative Weyl product (sometimes called
+Moyal product) of totally symmetrized products of oscillators. Here YiA , SjA and TjA
+are usual commuting variables while the non-commutativity of the oscillator algebra
+results from the non-commutativity of the star product. From (3.7) the following
+relations follow
+                                ∂                                              ∂
+     YjA ∗ g(Y ) = (YjA + i         )g(Y ) ,         g(Y ) ∗ YjA = (YjA − i        )g(Y ) .    (3.8)
+                               ∂YAj                                           ∂YAj
+    To apply the projection method we need an element ∆ that satisfies
+
+                                        tij ∗ ∆ = ∆ ∗ tij = 0 .                                (3.9)
+
+An appropriate ansatz is
+                                                     1
+                             ∆ = Φ(z) ,           z = YiA YAj Y Bi YBj ,                      (3.10)
+                                                     4
+where z is both sp(2) and o(M, 2) invariant and, therefore,
+
+                               [∆, tij ]∗ = 0 ,       [∆, TAB ]∗ = 0 ,                        (3.11)
+
+where we use notations [a, b]∗ = a ∗ b − b ∗ a, {a, b}∗ = a ∗ b + b ∗ a. From (3.7) one
+finds that the condition {tij , ∆}∗ = 0 gives
+                                                   
+                                  A         ∂2
+                                Yi YAj −              Φ = 0.                     (3.12)
+                                         ∂Y Ai ∂YAj
+It is elementary to check that it amounts to the differential equation
+
+                                    2zΦ′′ + (M + 1)Φ′ − Φ = 0 ,                               (3.13)
+               ∂
+where Φ′ (z) = ∂z Φ(z). For M > 0 this equation admits the unique solution analytic
+in z which can be written in the form
+                               Z 1
+                                               1             √
+                        Φ(z) =     ds(1 − s2 ) 2 (M −2) exp s z .            (3.14)
+                                         −1
+
+The analyticity in z is because the integration region is compact and the measure is
+                                                    √
+even under s → −s so that only even powers of z contribute. It is elementary to
+check that it satisfies (3.13) by partial integration over s.
+
+
+
+                                                  – 22 –
+    Let f ∈ hc(1|2:[M, 2]), i.e. [f, tij ]∗ = 0. According to the general scheme,
+hu(1|2:[M, 2]) is spanned by the elements
+
+                                        f ∗∆ =∆∗f .                                         (3.15)
+
+Note that [∆, f ]∗ = 0 because ∆ is some function of z (3.10) which itself is a function
+of tij 6 . It does not belong to the algebra since ∆ ∗ ∆ diverges. The product law in
+hu(1|2:[M, 2]) is defined by the general formula (3.3).
+     The case of the algebra hu(1|(1, 2):[M, 2]) with Clifford generating elements φA
+can be considered analogously. First one replaces the Weyl star product (3.7) with
+the Weyl-Clifford one
+                                   Z
+f (Y, φ) ∗ g(Y, φ) = (2π)  −2(M +2)
+                                     d2(M +2) Sd2(M +2) T dM +2χdM +2 ψ exp(iSjA TAj − χA ψA )
+                                     × f (Y + S, φ + χ)g(Y + T, φ + ψ)                       (3.16)
+
+such that the relations
+                                                                  ←
+                                                                  −
+                             ∂                            
+                                                            A A   ∂ 
+                φ ∗ X = φA −
+                  A
+                                  X,                 X ∗φ =X φ −                            (3.17)
+                             ∂φA                                 ∂φA
+
+are true in addition to (3.8). Then one observes that the operator ∆1
+
+                                         1                  i
+                 ∆1 = Φ(z1 ) ,       z1 = YiA YAj Y Bi YBj + YiA φA Y Bj φB                 (3.18)
+                                         4                  2
+possesses the desired properties
+
+                                  ti ∗ ∆1 = ∆1 ∗ ti = 0 ,                                   (3.19)
+
+                                   tij ∗ ∆1 = ∆1 ∗ tij = 0 .                                (3.20)
+
+The form of ∆1 can be guessed as follows. Since ∆1 is a Casimir operator of osp(1, 2)
+it is natural to expect that it is some function of its quadratic Casimir operator
+z1 (note that the star commutators with ti and tij have a form of some first-order
+differential operators so that their annulators form a ring). On the other hand, since
+tij is φ-independent, the φ-independent part of the condition (3.20) implies that the
+functional dependence of ∆1 on z1 must be the same as that of ∆(z) on z.
+   6
+    It is useful to observe that any order p polynomial of z can be represented as some other order
+p star polynomial of tij ∗ tij . As a result, any polynomial of z has zero star commutator with any
+f ∈ hc(1|2:[M, 2]).
+
+
+
+
+                                             – 23 –
+     According to the general scheme, elements of hu(1|2:[M, 2]) can be represented
+as
+                                    ∆1 ∗ a = a ∗ ∆1                                 (3.21)
+with various a such that [a, ti ]∗ = 0 (and, therefore, [a, ∆1 ]∗ = 0). Now the factor-
+ization of elements a = bi ∗ ti or a = ti ∗ bi is automatic.
+     In applications it is convenient to use a slightly different realization of ∆1 . Let
+us introduce the operator
+                        1         i                   i
+                   L = − (M − 2) − φA φB YAj YBj = 1 − tj ∗ tj .                    (3.22)
+                        4         8                   2
+It is easy to check that it has the following properties
+                              1                            1
+                      L ∗ ti = tij ∗ tj ,        ti ∗ L = − tj ∗ tij ,              (3.23)
+                              2                            2
+                                               1
+                                  L2 = L − tij ∗ tij ,                              (3.24)
+                                               8
+                                     [tij , L]∗ = 0 .                               (3.25)
+    From (3.24) it follows that L is a projector modulo terms proportional to tij . In
+particular,
+                        L2 ∗ ∆ = L ∗ ∆       ∆ ∗ L2 = ∆ ∗ L .                 (3.26)
+From (3.25) it follows that
+                                         [L, ∆]∗ = 0 .                              (3.27)
+One observes that L ∗ ∆ has the same properties as ∆1 . Indeed, using that ∆ is
+annihilated by tij from the left and from the right, one finds that L ∗ ∆ satisfies
+
+     ti ∗ (L ∗ ∆) = (∆ ∗ L) ∗ ti = 0 ,        tij ∗ (L ∗ ∆) = (L ∗ ∆) ∗ tij = 0 .   (3.28)
+
+One therefore can represent ∆1 as L ∗ ∆. The precise relationship is
+                                               4
+                                 ∆1 = −           L∗∆                               (3.29)
+                                             M −2
+as one can conclude from the first line in (3.22) by comparing the φ independent
+parts in L ∗ ∆ and ∆1 . Let us note that the formula (3.29) does not work for M = 2.
+This means that the operators ∆1 and L ∗ ∆ are essentially different for this case.
+Presumably this is related to the fact that the algebra o(2, 2) is not simple, having
+two independent quadratic Casimir operators.
+    Since L is a well-defined polynomial operator in the star product algebra, this
+allows us to give a useful alternative definition of the algebra hu(1|(1, 2):[M, 2]) as
+
+
+
+                                            – 24 –
+follows. Let a(Y, φ) be an arbitrary sp(2) invariant element of the star product
+algebra
+                                  [a, tij ]∗ = 0 .                         (3.30)
+Then hu(1|(1, 2):[M, 2]) is spanned by the elements
+
+                                   x = L ∗∆ ∗ a ∗ L.                            (3.31)
+
+First note that because of (3.30) the same element x can be equivalently written in
+any of the following forms
+
+                 x = L ∗ a ∗ ∆ ∗ L = L ∗a ∗ L ∗ ∆ = ∆ ∗ L ∗ a ∗ L.              (3.32)
+
+Using the identities (3.28) one proves that ti ∗ x = x ∗ ti = 0. Clearly, any two a are
+equivalent if they differ by terms ti ∗ bi or bi ∗ ti with some bi .
+    Let us now prove that the rank 1 and rank M + 1 antisymmetric representations
+factor out of hu(1|(1, 2):[M, 2])
+
+Lemma 3.1
+
+               ∆ ∗ L ∗ φA ∗ L = 0 ,       ∆ ∗ L ∗ φA1 . . . φAM +1 ∗ L = 0 .    (3.33)
+
+The proof is elementary. One writes
+                                             i
+                ∆ ∗ L ∗ φA ∗ L = ∆ ∗ L ∗ φA − ∆ ∗ L ∗ φA ∗ tj ∗ tj              (3.34)
+                                             2
+and then observes that
+
+i∆∗L∗φA ∗tj ∗tj = i∆∗L∗{φA , tj }∗ ∗tj = −i∆∗L∗YjA ∗tj = −i∆∗L∗[YjA , tj ]∗ = 2∆∗L∗φA .
+                                                                               (3.35)
+The second identity in (3.33) follows from the first one along with Γ ∗ L = L ∗ Γ.
+   Now we are in a position to define simplest HS superalgebras in any dimension.
+
+
+4. Higher spin superalgebras
+To define a superalgebra which unifies hu(1|2:[M, 2]) and hu(1|(1, 2):[M, 2]) we add
+two sets of elements χµ and χ̄µ which form conjugated spinor representations of the
+o(M, 2) Clifford algebra (µ, ν . . . are spinor indices),
+
+                     χµ ∗ φA = γ A µ ν χν ,    φA ∗ χ̄µ = χ̄ν γ A ν µ ,           (4.1)
+
+
+
+                                          – 25 –
+where o(M, 2) gamma matrices γ A ν µ satisfy
+
+                            γ A ν ρ γ B ρ µ + γ B ν ρ γ A ρ µ = −2δνµ η AB ,                       (4.2)
+
+and commute with YiA
+
+                      χµ ∗ YiA = YiA ∗ χµ ,            χ̄µ ∗ YiA = YiA ∗ χ̄µ .                     (4.3)
+
+Introduce two projectors Π1 and Π2
+
+ Π1 ∗ Π1 = Π1 ,        Π2 ∗ Π2 = Π2 ,          Π1 ∗ Π2 = Π2 ∗ Π1 = 0 ,                Π1 + Π2 = I (4.4)
+
+and require
+
+                  Π1 ∗ χµ = χµ ∗ Π2 = χµ ,             Π2 ∗ χ̄µ = χ̄µ ∗ Π1 = χ̄µ ,                 (4.5)
+
+ Π1 ∗ φA = φA ∗ Π1 = 0 ,          Π2 ∗ φA = φA ∗ Π2 = φA ,                     {φA , φB }∗ = −2η AB Π2 .
+                                                                                                    (4.6)
+As a result we have
+                               χ̄µ ∗ χ̄ν = 0 ,        χν ∗ χµ = 0 .                                (4.7)
+      In addition we require
+                                      χν ∗ χ̄µ = −iδν µ Π1 ,                                       (4.8)
+and
+
+         χ̄µ ∗ χν = −iσ −1 (M)(exp−φA γ A )ν µ ∗ Π2                                                (4.9)
+                                 p=M +2
+                                  X          p(p+1) 1
+                    ≡ −iσ −1 (M)       (−1) 2          φA1 . . . φAp ∗ Π2 γA1 ...Ap ν µ ,
+                                   p=0
+                                                    p!
+
+where σ(M) = 2[M/2]+1 is the dimension of the spinor representation, i.e. µ, ν =
+1 . . . σ(M) and
+                     γA1 ...Ap = γ[A1 . . . γAp ] ≡ γ[[A1 . . . γAp ]]    (4.10)
+form a basis of the Clifford algebra. exp−φA γ A is defined as usual exponential with
+φA and γ A would be anticommuting to each other, i.e.,
+                                   p=M +2
+                                    X             p(p−1)   1 A1
+                    expφA γ A =            (−1)      2        φ . . . φAp γA1 ...Ap ,             (4.11)
+                                     p=0
+                                                           p!
+
+so that, taking into account (3.17), one gets in accordance with (4.1)
+
+   φB ∗ exp−φA γ A = exp−φA γ A γ B ,              exp−φA γ A ∗ φB = γ B exp−φA γ A .             (4.12)
+
+
+
+                                               – 26 –
+The relative coefficients in (4.8) and (4.9) are fixed by the associativity of the spinor
+generating elements. (In practice it is enough to check that the two possible ways of
+computing χ̄µ ∗ χν ∗ χ̄ν ∗ χµ give the same result.)
+    A general element of the HS superalgebra we call hu(1, 1|(0, 1, 2):[M, 2]) (the
+meaning of this notation is explained in the end of this section) is now represented
+in the form
+                                                                              
+ a = ∆ ∗ T ∗ a11 (Y ) ∗ Π1 + a22 (Y, φ) ∗ Π2 + aµ12 (Y ) ∗ χµ + χ̄µ ∗ a21µ (Y ) ∗ T , (4.13)
+
+where
+                                           T = Π1 + Π2 ∗ L ,                                  (4.14)
+a11 (Y ), aµ12 (Y ) and a21µ (Y ) are some polynomials of YiA , and a22 (Y, φ) is a polynomial
+of YiA and φA , such that they all commute to the sp(2) generators tij .
+     In fact, the projectors Π1 and Π2 are introduced to parametrize four blocks of a
+matrix which contains elements of the bosonic algebras hu(1|2:[M, 2]) and hu(1|(1, 2):[M, 2])
+in the diagonal blocks associated with the projectors Π1 and Π2 , respectively, while
+odd elements of the HS superalgera are contained in the off-diagonal blocks. The co-
+efficients a11 and a22 are assumed to be Grassmann even (commuting) while a21µ and
+aµ12 are Grassmann odd (anticommuting). This convention induces the superalge-
+bra structure through the standard definition of field strengths with Grassmann odd
+spinor gauge fields. Note that the introduced projector structure can conveniently
+be described by the auxiliary Clifford variables θ ∗ θ = θ̄ ∗ θ̄ = 0 , {θ, θ̄}∗ = 1 , which
+have zero star commutators with all other generating elements. Then Π1 = θ ∗ θ̄,
+Π2 = θ̄ ∗ θ, χν contains one power of θ and χ̄µ contains one power of θ̄.
+     By construction, the elements aµ12 (Y ) of the form ãν12 (Y ) ∗ YiA γAν µ do not con-
+tribute to (4.13) as well as elements a21µ of the form γAν µ YiA ∗ ã21µ (Y ). As a result,
+representatives of the fermionic sectors of the superalgebra can be chosen in the form
+                                 ∞
+                                 X
+                   a21µ (Y ) =          aµA1 ...An ,B1 ...Bn YA1 . . . YAn YB1 . . . YBn ,    (4.15)
+                                  n=0
+
+                                 ∞
+                                 X
+                   aµ12 (Y ) =         āµ A1 ...An ,B1 ...Bn YA1 . . . YAn YB1 . . . YBn ,   (4.16)
+                                 n=0
+
+where the spinor-tensors aµA1 ...An ,B1 ...Bn and āµ A1 ...An ,B1 ...Bn have symmetry properties
+of the two-row rectangular Young tableau with respect to the indices A and B (i.e.
+symmetrization over any n + 1 indices gives zero) and satisfy the γ-transversality
+conditions
+              γA1 ν µ aµA1 ...An ,B1 ...Bn = 0 , āµ A1 ...An ,B1 ...Bn γA1 µ ν = 0 . (4.17)
+
+
+
+                                                   – 27 –
+    As a result, the gauge fields associated with the superalgebra hu(1, 1|(0, 1, 2):[M, 2])
+consist of bosonic and fermionic 1-forms. Bosonic gauge fields corresponding to the
+subalgebras hu(1|2:[M, 2]) and hu(1|(1, 2):[M, 2]) are listed in the end of section 2.
+Fermionic fields dxn ωn µA1 ...An ,B1 ...Bn (x) and dxn ω̄n µ A1 ...An ,B1 ...Bn (x) belong to the two-
+row rectangular γ-transverse spinor-tensor representations of o(d − 1, 2). These cor-
+respond to totally symmetric half-integer spin massless representations of o(d − 1, 2).
+    The chiral superalgebras hu± (1, 1|(0, 1, 2):[M, 2]) are obtained from
+hu(1, 1|(0, 1, 2):[M, 2]) with the aid of the projectors Π± (2.28)
+
+   f ∈ hu± (1, 1|(0, 1, 2):[M, 2]) :     f = Π± ∗ g ∗ Π± , g ∈ hu(1, 1|(0, 1, 2):[M, 2]) .
+                                                                                     (4.18)
+For even M the projection (4.18) implies chiral projection for spinor generating el-
+ements and projects out bosonic elements which are odd in φ. For odd M this
+condition just implies irreducibility of the spinor representation of the Clifford alge-
+bra.
+     Now let us define a family of HS superalgebras hu(n, m|(0, 1, 2):[M, 2]) with non-
+Abelian spin 1 subalgebras (i.e., Chan-Paton indices). To this end we consider the
+algebra of operator-valued (n + m) × (n + m) matrices of the form (4.13) such that
+                                                                                           ′
+the elements a11 → a11 u v are n × n matrices (u, v = 1, . . . n), elements a22 → a22 u v′
+are m × m matrices (u′ , v ′ = 1, . . . m), elements a12 → a12 u v′ are n × m matrices, and
+                     ′
+elements a21 → a21 u v are m × n matrices.
+     The reality conditions which single out the appropriate real HS superalgebra
+hu(n, m|(0, 1, 2):[M, 2]) are
+                                                                  ′                ′
+               (a11 (Y ))†u v = −a11 (Y )u v ,        (a22 (Y ))†u v′ = −a22 (Y )u v′ ,      (4.19)
+
+and
+                        (aµ12 (Y ))†u v = a21µ u v (Y ) ,
+                                    ′             ′
+                                                               (χµ )† = iχ̄µ ,               (4.20)
+where † denotes usual matrix Hermitian conjugation along with the conjugation of
+the generating elements YiA and φA according to (2.2) and (2.23). It is easy to see that
+such conditions indeed single out a real form of the complex Lie superalgebra resulting
+from the original associative algebra with elements (4.13) by (anti)commutators as
+a product law. Note that hu(n, m|(0, 1, 2):[M, 2]) contains u(n) ⊕ u(m) as a finite
+dimensional subalgebra. The labels 0 and 1 in this notation indicate how many
+Clifford elements taking values in the vector representation of o(M, 2) appear in the
+respective diagonal blocks.
+     Analogously to the case of 4d HS algebras [4], the algebras hu(n, m|(0, 1, 2):[M, 2])
+admit truncations by an antiautomorphism ρ of the original associative algebra to
+
+
+
+                                                 – 28 –
+the algebras ho(n, m|(0, 1, 2):[M, 2]) and husp(n, m|(0, 1, 2):[M, 2]) with o(n) ⊕ o(m)
+and usp(n) ⊕ usp(m) (here n and m are even) as finite-dimensional Yang-Mills (spin
+1) subalgebras. The truncation condition is
+                                        ρ(a) = −iπ(a) a ,                                    (4.21)
+where π(a) = 0(1) for (even) odd elements of the superalgerba. The action of ρ on
+the matrix indices is defined as usual
+                                                         ′          ′ ′       ′
+                   ρ(au v ) = −ρvp ap q ρqu ,     ρ(a′u′ v ) = −ρv p a′p′ q ρq′ u′ ,         (4.22)
+where the bilinear forms ρuv and ρu′ v′ are non-degenerate and either both symmetric
+(the case of ho(n, m|(0, 1, 2):[M, 2])) or antisymmetric (the case of husp(n, m|(0, 1, 2):[M, 2])).
+The action of ρ on the generating elements is defined by the relations
+                                                                          ′
+       ρ(YjA ) = iYjA       ρ(φA ) = −φA ,           ρ(χν u u′ ) = χ̄µv v ρuv ρv′ u′ Cµν ,   (4.23)
+where Cµν is the charge conjugation matrix which represents the Clifford algebra
+antiautomorphism ρ(φA ) in the chosen representation of γ matrices, i.e.
+                        γ A ν µ = −C µσ γ A σ η Cην ,        C µσ Cνσ = δνµ .                (4.24)
+      The chiral HS algebras hu± (n, m|(0, 1, 2):[M, 2]) , ho± (n, m|(0, 1, 2):[M, 2]) and
+husp± (n, m, |(0, 1, 2):[M, 2]) are obtained from hu(n, m|(0, 1, 2):[M, 2]),
+ho(n, m|(0, 1, 2):[M, 2]) and husp± (n, m, |(0, 1, 2):[M, 2]) by the projection (4.18), tak-
+ing into account that ρ(Γ) = Γ and, therefore, ρ(Π± ) = Π± .
+      Finally let us note that the algebras hu(n, m|(u, v, 2):[M, 2]) with u and v copies
+of fermions in the upper and lower blocks are likely to be relevant to the analysis
+of HS gauge theories with mixed symmetry HS gauge fields. A number of copies
+of bosonic oscillators, which are assumed to be the same in the upper and lower
+blocks, can also be enlarged to the case of hu(n, m, |(u, v, p):[M, 2]). In this notation
+hu(1|2:[M, 2]) ∼ hu(1, 0|(0, 0, 2) : [M, 2]) and hu(1|(1, 2):[M, 2]) ∼ hu(1, 0|(1, 0, 2) :
+[M, 2]). More generally, (super)algebras with u fermions and p bosons in the upper
+block and v fermions and q bosons in the lower block (with all bosons and fermions
+taking values in the vector representation of o(s, t)) are denoted hu(n, m, |(u, p; v, q):
+[s, t]) (and similarly for the orthogonal (ho) and symplectic (husp) series). Note that
+these algebras are Lie superalgebras when u + v is odd.
+
+5. Spinorial realizations in lower dimensions
+It is instructive to compare the HS superalgebras introduced in this paper with
+the HS superalgebras in lower space-time dimensions, defined earlier in terms of
+
+
+
+                                                – 29 –
+spinor oscillator algebras. For example, the simplest AdS4 superalgebra hu(1, 1|4)
+(in notations of [4]) was realized [53, 54] as the algebra of functions f (y, K) of the
+spinor oscillators yµ and Klein operator K satisfying relations
+
+                 [yµ , yν ]∗ = 2iCµν ,    K ∗ yµ = −yµ ∗ K ,           K2 = 1 ,    (5.1)
+
+where Cµν = −Cνµ is the 4d antisymmetric charge conjugation matrix. The spinorial
+generating elements yµ are not subject to any further restrictions.
+    One can try to identify the generating elements χµ and χ̄µ with such independent
+spinorial generating elements. This does not work however for the general case
+because of the projectors T in (4.13) which induce a nontrivial dependence on the
+bosonic and fermionic oscillators φA and YiA into χµ and χ̄µ -dependent terms. To
+see what happens let us start with the case of general M.
+    First one observes that the operator
+
+                               K = Π1 − Π2 ,         K ∗K =1                       (5.2)
+
+behaves just as the Klein operator. From (4.5) it follows that it anticommutes with
+fermions. Let Cµν be the charge conjugation matrix which is either symmetric or
+antisymmetric depending on M,
+
+                                     Cµν = (−1)γ(M ) Cνµ .                         (5.3)
+
+    Let us set                                       
+                                yµ = 2T ∗ χµ + χ̄ν Cνµ ∗ T .                       (5.4)
+(To simplify formulae, in this section we discard the operator ∆ which is an overall
+factor in all expressions.) From (5.2) it follows that
+                                                      
+                           K ∗ yµ = 2T ∗ χµ − χ̄ν Cνµ ∗ T .                    (5.5)
+
+As a result the set of elements yµ and K ∗ yµ is as good as the original set of elements
+χµ ∗ L and L ∗ χ̄ν in the decomposition (4.13). From the defining relations (4.8) and
+(4.9) we obtain
+                           Π1 ∗ yµ ∗ y ν = 4Π1 ∗ χµ ∗ L ∗ χ̄ν ,                     (5.6)
+                            Π2 ∗ y ν ∗ yµ = 4Π2 ∗ L ∗ χ̄ν ∗ χµ ∗ L .               (5.7)
+These relations can be treated as defining relationships on spinor generating elements
+of the algebra. By means of (3.22), (4.1), (4.8), (4.9) they get an equivalent form
+                                       1              i               
+                Π1 ∗ yµ ∗ y ν = 4iΠ1 ∗    (M − 2)δµν + γ AB µ ν YAj YBj ,         (5.8)
+                                        4              8
+
+
+
+                                            – 30 –
+                                     p=M +2
+                                       X            p(p+1)   1 A1
+       ν             −1
+ Π2 ∗ y ∗ yµ = −4iσ (M)Π2 ∗ L ∗              (−1)      2        φ . . . φAp ∗ LγA1 ...Ap ν µ . (5.9)
+                                       p=0
+                                                             p!
+
+The resulting expressions depend nontrivially on φA and YiA that means in particular
+that, generically, the anticommutator of the spinorial element yµ gives rise to HS
+generators. Since yµ and Kyµ are the only candidates for usual supercharges, the
+expressions (5.8) and (5.9) indicate that the HS superalgebras under consideration
+possess no finite dimensional conventional SUSY subsuperalgebras for general M.
+    Let us now turn to the case of M = 3 which corresponds to AdS4 . According to
+(2.30), the irreducibility in the case of odd M implies that one has to work with the
+algebras hu± (1, 1|(0, 1, 2):[M, 2]) (4.18) which implies that independent elements on
+the right hand side of (5.6) are even in the Clifford elements φA . For M = 3 the terms
+of zeroth, second and fourth order can appear. The key point is that, according to
+Lemma 3.1 the fourth order terms in φ do not contribute (factor out). As a result,
+only the terms containing δν µ and γAB ν µ survive. With lowered index µ these have
+opposite symmetry types. As a result, one obtains that the spinor variables yµ do
+indeed satisfy the Heisenberg commutation relations (5.1). Clearly, this is not true
+for generic M because fourth order and higher order terms in φ will contribute to
+the right hand side of the commutator of the spinor generating elements.
+    The anticommutator has the form
+
+                      {yµ , yν }∗ = (αΠ1 + βΠ2 ∗ L) ∗ TAB γ AB µν ,                         (5.10)
+
+with some nonzero α and β, where TAB is the o(M, 2) generator (2.15). Now one
+observes that the terms on the right hand side of (5.10) parametrize all osp(1, 2)
+invariant bilinear combinations of oscillators YAi and φA (in fact, this is the manifes-
+tation of the isomorphism sp(4) ∼ o(3, 2)). Taking into account that sp(2) invariant
+polynomials of YAi and osp(1, 2) invariant polynomials in YAi and φA are star polyno-
+mials of the invariant bilinears T AB , one concludes that yν and K form an equivalent
+set of generating elements for the M = 3 HS superalgebra, i.e. one can forget about
+the generating elements YAi and φA in the case of M = 3, thus arriving at the
+purely spinorial realization of the 4d HS algebras originally introduced in [53, 54]
+and denoted hu(1, 1|4) in [4].
+    The analysis of AdS3 [55, 56] HS algebras is analogous to that of the 4d case:
+because the terms of fourth order in φA do not appear, the spinor generating elements
+yµ along with the Klein operator can be chosen as independent generating elements
+thus establishing isomorphism with the original spinor realization. Since the AdS3
+algebra is semisimple o(2, 2) ∼ o(2, 1) ⊕ o(2, 1), the corresponding HS extensions are
+also direct sums of the M = 1 algebras. This fact manifests itself in the isomorphism
+
+
+
+                                         – 31 –
+hu(1|2:[2, 2]) ∼ hu(1|2:[1, 2]) ⊕ hu(1|2:[1, 2]) which is not hard to prove by observing
+that any length h rectangular two-row Young tableau of o(2, 2) decomposes into the
+direct sum of one selfdual and one anti-selfdual length h rectangular two-row Young
+tableaux7 , each forming a o(2, 1)–module.
+    The isomorphisms between spinorial and vectorial realizations of AdS3 and AdS4
+HS superalgebras extend to their matrix extensions hu(n, m|2k), ho(n, m|2k) and
+husp(n, m|2k) considered originally in [4] for the spinorial realization and those con-
+sidered in the end of the previous section for the vectorial realization. Namely,
+
+hu(n, m|4) ∼ hu± (n, m|(0, 1, 2) : [3, 2]) ,     hu(n, m|2) ∼ hu± (n, m|(0, 1, 2) : [1, 2]) ,
+                                                                                      (5.11)
+ ho(n, m|4) ∼ ho± (n, m|(0, 1, 2) : [3, 2]) ,    ho(n, m|2) ∼ ho± (n, m|(0, 1, 2) : [1, 2]) ,
+                                                                                      (5.12)
+husp(n, m|4) ∼ husp± (n, m|(0, 1, 2) : [3, 2]) , husp(n, m|2) ∼ husp± (n, m|(0, 1, 2) : [1, 2]) .
+                                                                                      (5.13)
+     From here it follows that usual AdS4 superalgebras osp(N, 4) are subalgebras of
+the HS superalgebras with the parameters n and m high enough. Namely, one has
+for even N [4]
+                             osp(2p, 2k) ⊂ hu(2p , 2p |2k) ,                          (5.14)
+
+                            osp(8p, 2k) ⊂ ho(24p−1 , 24p−1 |2k) ,                        (5.15)
+
+                         osp(8p + 4, 2k) ⊂ husp(24p+1 , 24p+1|2k) .                      (5.16)
+       Analogously, it follows also that AdS3 SUSY algebras osp(N+ , 2) ⊕ osp(N− , 2)
+are subalgebras of the appropriate 3d HS algebras of the form h . . . (n+ , m+ |2) ⊕
+h . . . (n− , m− |2) where dots denote one of the three possible types of the algebra
+(unitary, orthogonal or unitary symplectic) and n± are appropriate N± –dependent
+powers of two.
+       The case of AdS5 corresponds to M = 4. Here one takes the chiral HS algebra
+hu± (1, 1|(0, 1, 2):[4, 2]). Again, in this case effectively only zero-order and second-
+order combinations of Clifford elements appear and it is possible to establish the
+isomorphism between the spinorial realization of the AdS5 (equivalently 4d confor-
+mal) HS algebra and that given in this paper. Note that the spinorial realization
+of the AdS5 HS algebra also includes some reduction procedure which assumes a
+restriction to the centralizer of some operator N followed by the factorization of the
+elements proportional to N (see [57, 58, 16]). This does not allow one to express the
+   7
+    As one can easily see, imposing opposite (anti)selfduality conditions on two pairs of tensor
+indices associated with different columns in a o(2, 2) Young tableau gives zero.
+
+
+
+
+                                            – 32 –
+spinor generating elements of the original 5d spinorial construction directly in terms
+of the generating elements of this paper. In fact it is this property which makes
+it impossible to extend this isomorphism to the case of 5d HS superalgebras which
+contain higher N–extended finite dimensional subsuperalgebras.
+     A simplest way to see this is by using the facts shown in the rest of this paper
+that the HS superalgebras considered here act on massless scalar and spinor single-
+tons (i.e., boundary conformal fields). On the other hand, the conformal realization
+[16] of the spinorial AdS5 HS algebras of [57, 58] deals with various 4d massless
+boundary supermultiplets which contain spins s ≥ 1 for N > 2 . Thus, the maximal
+conventional N–extended 5d supersymmetry compatible with the HS algebras of the
+type considered in this paper is that with N = 2 associated with the boundary mass-
+less hypermultiplet. In notation of [16] the corresponding HS algebra is husp0 (2, 2|8)
+while its finite dimensional subsuperalgebra is su(2, 2|2). We therefore expect that,
+su(2, 2|2) ⊂ husp± (2, 2|(0, 1, 2) : [4, 2]). The algebra psu(2, 2|4) associated with the
+N = 4 SYM supermultiplet is not a subalgebra of the HS algebras considered in this
+paper just because the N = 4 SYM supermultiplet contains spin one massless states
+absent in the scalar-spinor singleton realization of the HS algebras of this paper.
+     For analogous reasons we expect that the purely bosonic 7d HS algebra of [7] is
+isomorphic to hu± (1|2:[6, 2]) while the M = 6 HS superalgebras considered in this
+paper are all different from those discussed in [15] (which contain the finite dimen-
+sional subsuperalgebra denoted osp(8∗ |4) in [15]) because the latter are associated
+with the tensor singletons absent in the construction of this paper.
+     For M > 6, terms with higher combinations of the fermionic oscillators and γ
+matrices appear in the defining relations for spinorial elements yµ that complicates
+the spinorial realization of the HS algebras of this paper. Note, however, that the
+superalgebras with unrestricted spinorial elements suggested in [60] may still be
+relevant for the description of HS theories with mixed symmetry HS gauge fields in
+higher dimensions.
+
+
+
+6. Scalar conformal module
+
+According to notations of [1], Rac is the unitary representation of o(3, 2) realized
+by a 3d conformal massless scalar field. The global conformal HS symmetry of a
+massless scalar in M-dimensions hu(1|2:[M, 2]) (more precisely, its complexification)
+was originally introduced by Eastwood in [32]. For our purpose it is most convenient
+to use its realization in terms of bosonic oscillators as explained in section 2.
+
+
+
+                                         – 33 –
+    Let us introduce mutually conjugated oscillators
+                 1                              1
+             aA = (Y1A − iY2A ) ,          āA = (Y1A + iY2A ) ,            (aA )† = āA ,     (6.1)
+                 2                              2
+which satisfy the commutation relations
+
+                 [aA , āB ] = −η AB ,       [aA , aB ] = 0 ,        [āA , āB ] = 0 .        (6.2)
+
+For the space-like values of A = a = 1 . . . M with η ab = −δ ab these are normal
+commutation relations for creation and annihilation operators. For the time-like
+directions A = 0, M + 1 it is convenient to introduce the set of oscillators
+
+ ᾱ = a0 +iaM +1 ,       β̄ = a0 −iaM +1 ,        α = ā0 −iāM +1 ,           β = ā0 +iāM +1 (6.3)
+
+(α† = ᾱ ,   β † = β̄) , which have the nonzero commutation relations
+
+                                 [α, ᾱ] = 2 ,       [β, β̄] = 2 .                             (6.4)
+
+    The generators of the algebra o(M, 2) are
+
+                                  T AB = −(āA aB − āB aA ) .                                 (6.5)
+
+The AdSM +1 energy operator (1.2) is
+                                            1
+                                         E = (ᾱα − β̄β) .                                     (6.6)
+                                            2
+The noncompact generators of o(M, 2) are
+
+                     T +a = −i(βaa − ᾱāa ) ,         T −a = i(β̄āa − αaa ) .                (6.7)
+
+    Let us now introduce the Fock module U of states |Ψi = ψ(ā, ᾱ, β̄)|0i induced
+from the vacuum state
+
+                          aa |0i = 0 ,       α|0i = 0 ,         β|0i = 0 .                     (6.8)
+
+U is endowed with the positive definite norm with respect to which aA is conjugated
+to āA , i.e. the conjugated vacuum h0| is defined by
+
+                          h0|āa = 0 ,       h0|ᾱ = 0 ,        h0|β̄ = 0 .                    (6.9)
+
+    Let us note that the vacuum vector |0i is not annihilated by T −a in contrast
+with the standard singleton construction in terms of spinorial oscillators used for
+
+
+
+                                              – 34 –
+the description of singleton and doubleton modules [8]. We consider the singleton
+submodule S ⊂ U spanned by the sp(2) invariant states satisfying tij |Ψi = 0. These
+conditions are equivalent to
+
+                                       τ − |Ψi = τ + |Ψi = τ 0 |Ψi = 0 ,                          (6.10)
+
+where
+                                                                                 1        1
+ τ − = aa aa + ᾱβ̄ ,          τ + = āa āa +αβ ,             τ 0 = {aa , āa }+ {α, ᾱ}+ {β, β̄} (6.11)
+                                                                                 2        2
+(note that aa ba = aa bb η ab with η ab = −δ ab .) By its definition, S forms a hu(1|2:[M, 2])–
+module. Let us note that the conditions (6.10) are consistent because the o(M, 2)
+invariant metric has signature (M, 2). In the case of Euclidean signature, for exam-
+ple, the conditions (6.10) associated with τ0 and τ + would allow no solution at all in
+a unitary module. Note that, although some details of the realization of appropriate
+modules are different, our construction is a version of that of the two-time formalism
+developed by Marnelius and Nilsson [61] and Bars and collaborators [62], in which
+the sp(2) invariance condition also plays the key role.
+     The generic solution of the conditions (6.10) is
+
+                            |Ψ(ā, ᾱ, β̄)i = |Ψ+ (ā, ᾱ, β̄)i + |Ψ− (ā, ᾱ, β̄)i ,             (6.12)
+
+                                      |Ψ± (ā, ᾱ, β̄)i = ψ ± (ā, ᾱ, β̄)|0i ,                   (6.13)
+where
+                          ∞
+                          X                (−1)p               a p p+n+ 21 M −1 p +
+    ψ + (ā, ᾱ, β̄) =                          1
+                                  2p p!(p + n + M − 1)!
+                                                        (āa ā ) ᾱ           β̄ ψn (ā) ,       (6.14)
+                          p,n=0
+                                2               2
+
+                           ∞
+                           X               (−1)p               a p p+n+ 21 M −1 p −
+     ψ − (ā, ᾱ, β̄) =                         1
+                                  2p p!(p + n + M − 1)!
+                                                        (āa ā ) β̄           ᾱ ψn (ā)         (6.15)
+                          p,n=0
+                                2               2
+
+and ψn± (ā) are arbitrary degree n harmonic polynomials, i.e.
+
+                          ψn± (ā) = ψa±1 ...an āa1 . . . āan ,     ±
+                                                                     ψbca3 ...an
+                                                                                 η bc = 0 .       (6.16)
+
+     Let us note that the Fock space realization of the modules |Ψ± i = ψ ± |0i is
+literally valid for even M when all powers of oscillators are integer. Nevertheless, the
+modules |Ψ± i are well-defined for odd M as well. Actually, although powers of one of
+the oscillators ᾱ or β̄ are half-integer for odd M, the modules |Ψ± i are semi-infinite
+because the powers of the another oscillator (β̄ or ᾱ) are nonnegative integers. We
+therefore will use the formulae (6.14) and (6.15) for all M.
+
+
+
+                                                        – 35 –
+    The expressions (6.14) and (6.15) admit the following useful form
+
+                                     |Ψ± i = P̄ ± ψ ± (ā)|0i ,                        (6.17)
+
+where ψ ± (ā) are the harmonic polynomials (6.16) and
+                          I
+                                            1              1   b
+                    P̄ = dµ exp (µ−1 ᾱ − µāa āa β̄)µ− 2 {a ,āb }−2 ,
+                       +
+                                                                                       (6.18)
+                                            4
+                          I
+                                            1              1   b
+                    P̄ − = dµ exp (µ−1 β̄ − µāa āa ᾱ)µ− 2 {a ,āb }−2 ,             (6.19)
+                                            4
+where the integral is defined by
+                I
+                   dµµ−p = δ(p − 1) ,    δ(p) = 1(0) ,        p = 0(6= 0) .            (6.20)
+
+Using this representation it is easy to check that (6.10) is true. Let us note that
+the operators P̄ ± cannot be expanded in power series of the oscillators since they
+                                         1   b                1   b
+effectively contain terms of the type α− 2 {a ,āb }−1 or β − 2 {a ,āb }−1 .
+     The Fock space norm of the states |Ψ± i diverges. Indeed it is easy to see that
+             P
+hΨ̄+ |Ψ+ i ∼ ∞ p=0 1 using that
+
+                                                            p!( 21 M + p + n − 1)!
+                 hΨ̄n |(aa aa )p (āa āa )p |Ψ̄n i = 22p                          ,   (6.21)
+                                                                ( 21 M + n − 1)!
+where n refers to a power of ψn+ (6.16). This fact is neither occasional nor problem-
+atic, being a manifestation of the standard inner product problem with the Dirac
+quantization prescription for first-class constraints. Indeed, here the “first class con-
+straints” (6.10) form the Lie algebra sp(2). For normalizable states annihilated by
+the first-class constraints τ i |Ψ1,2 i = 0 one obtains
+
+                                 hΨ̄1 |(τ i χ1 + χ2 τ i )|Ψ2 i = 0                     (6.22)
+
+for any χ1,2 . Choosing appropriately χ1,2 one finds a contradiction with the as-
+sumption that the corresponding matrix element is finite. For example, choosing
+χ1 = −χ2 = αβ one finds for τ − that all matrix elements of the manifestly positive-
+definite operator {α, ᾱ} + {β, β̄} must vanish, that means that they cannot be finite.
+Note that this phenomenon has the same origin as the fact of non-existence of ∆2
+for a projection-like operator ∆ of section 3. A way out is also analogous.
+     A well-defined scalar product hh| |ii for the sp(2) invariant module must break
+down the sp(2) invariance of the Fock scalar product. This is achieved by redefining
+the scalar product in the form
+
+                                   hhΨ̄1 |Ψ2 ii = hΨ̄1 |G|Ψ2i ,                        (6.23)
+
+
+
+                                               – 36 –
+where G is some operator which does not commute with the sp(2) generators. We
+demand the scalar product hhΨ̄1 |Ψ2 ii to induce an o(M, 2) invariant norm on the
+sp(2) invariant states. This can be achieved by choosing such G that
+
+                                        [T AB , G] = [τ ij , XijAB ]                           (6.24)
+
+for some XijAB .
+     The appropriate operators G± for the modules |Ψ± i are
+
+                         G+ = (ᾱα + 2)−1 F + ,            G− = (β̄β + 2)−1 F − ,              (6.25)
+
+where F + and F − are the Fock projectors for the oscillators β, β̄ and α, ᾱ respectively,
+
+       βF + = 0 ,            F + β̄ = 0 ,       [α , F + ] = 0 ,        [ᾱ , F + ] = 0 ,      (6.26)
+
+       αF − = 0 ,            F − ᾱ = 0 ,       [β , F − ] = 0 ,        [β̄ , F − ] = 0 ,      (6.27)
+                               [aa , F ± ] = 0 ,        [āa , F ± ] = 0 ,                     (6.28)
+which are normalized so that
+                                              h0|F ± |0i = 1 .                                 (6.29)
+The Fock projectors F ± can be realized as
+                             ∞
+                            X     (−1)n
+                 F   +
+                         =               ā . . . āan (ᾱ)m |0ih0|aa1 . . . aan (α)m ,
+                                   m n!m! a1
+                                                                                               (6.30)
+                           n,m=0
+                                 2
+
+                             X (−1)n
+                  F− =                      āa1 . . . āan (β̄)m |0ih0|aa1 . . . aan (β)m .   (6.31)
+                             nm
+                                2m n!m!
+    The scalar products
+
+                                     hhΨ̄1 |Ψ2 ii± = hΨ̄±   ±  ±
+                                                        1 |G |Ψ2 i                             (6.32)
+
+are o(M, 2) invariant. This property is manifest for the generators T ab and E, re-
+spectively. For the noncompact generators T ±a this is also true because
+
+   [T +a , G+ ] = i[τ + , ᾱaa (ᾱααᾱ)−1 F + ] ,
+                                              [T −a , G+ ] = i[τ − , αāa (ᾱααᾱ)−1 F + ] ,
+                                                                                        (6.33)
+      +a    −      +     a        −1 −           −a    −         −      a         −1 −
+    [T , G ] = i[τ , β̄a (β̄ββ β̄) F ] ,      [T , G ] = i[τ , βā (β̄ββ β̄) F ] ,
+                                                                                        (6.34)
+as can be seen using (6.7). Note that the operators αᾱ and ᾱααᾱ are positive definite
+and therefore their inverse operators are well defined.
+
+
+
+                                                   – 37 –
+    In terms of components (6.16), the scalar product (6.23) gets the manifestly
+positive-definite form
+                                            ∞     1
+                                            X 2n+ 2 M −2 n!
+                      hhΨ̄±   ±
+                          1 |Ψ2 ii =                            ψ̄n± a1 ...an ψn± a1 ...an .   (6.35)
+                                            n=0
+                                                (n + 12 M)!
+
+As a result, |Ψ± i form unitary o(M, 2)-modules.
+    The modules |Ψ+ i and |Ψ− i have, respectively, positive and negative energies
+
+                                      1
+                             En+ = n + M − 1                   n = 0, 1, 2 . . . ,             (6.36)
+                                      2
+
+                                    1
+                          En− = −n − M + 1                      n = 0, 1, 2 . . . .            (6.37)
+                                    2
+The lowest energy of |Ψ+ i therefore is
+
+                                                  1
+                                             E0+ = M − 1 .                                     (6.38)
+                                                  2
+
+This is the correct value for the conformal scalar in M dimensions 8 . From (6.7)
+it follows that the lowest energy state of |Ψ+ i annihilated by T −a is that with the
+ā independent part of ψ0+ (ā) in (6.14), which is o(M) singlet. From (1.6) one finds
+that the value of the o(M, 2) Casimir operator for the module |Ψ+ i is (see also [62])
+
+                                                  1
+                                            C2 = − (M 2 − 4) .                                 (6.39)
+                                                  4
+
+Taking into account that |Ψ+ i is sp(2) singlet, this is in agreement with (2.7).
+    Let us note that representation of the generators T −a and E on the modes ψn (ā)
+has the following simple form
+                                                                  
+                                 −a     +                 ∂+
+                             T        |Ψ (ψ(ā))i = |Ψ i      ψ(ā) i ,                        (6.40)
+                                                         ∂āa
+                                                                            
+                         +                     +             ∂   1
+                    E|Ψ (ψ(ā))i = |Ψ                  (āa     + M − 1)ψ(ā) i .              (6.41)
+                                                            ∂āa 2
+   8
+    Note that the operator E here is some combination of P 0 and K 0 in the conformal algebra. The
+value (6.38) coincides with the scaling dimension for the complex equivalent scalar field conformal
+module.
+
+
+
+
+                                                   – 38 –
+7. Spinor conformal module
+According to notations of [1], Di is the unitary representation of o(3, 2) realized by
+3d conformal massless spinor field. The global HS symmetry algebra which is the M
+dimensional conformal HS symmetry of a massless spinor is hu(1|(1, 2):[M, 2]).
+    Consider the Fock module generated from the vacuum state satisfying
+
+             aa |0i±α = 0 ,       α|0i±α = 0 ,           β|0i±α = 0 ,           φ|0i±α = 0 ,      (7.1)
+            φa |0i±α = |0i±β γa β α ,        |0i±β γ β α = ±|0i±α ,                               (7.2)
+
+where
+       1                         1
+   φ̄ = (φ0 − iφM +1 ) ,      φ = (φ0 + iφM +1 ) ,           φ2 = 0 ,      φ̄2 = 0 ,   {φ̄, φ} = −1 ,
+       2                         2
+                                                                            (7.3)
+and the γ-matrices form some representation of the Clifford algebra CM associated
+with the compact algebra o(M) ⊂ o(M, 2)
+                                                              1
+                     {γa , γb} = −2ηab ,            γ = (i) 2 M (M −1) γ1 . . . γM .              (7.4)
+
+In other words |0i±α forms a spinor representation of o(M). Here α is the o(M)
+spinor index while ± distinguishes between left and right spinors. A general element
+of the Fock module is
+                       ∞ X
+                       X 1
+              |Ψi± =             A(m, n, s)(āa φa )m ᾱr(m,n,s) β̄ q(m,n,s)φ̄s |ψn (ā)i± ,      (7.5)
+                       m,n s=0
+
+where
+                   φa aa |ψn (ā)i± = 0 ,        āa aa |ψn (ā)i± = −n|ψn (ā)i± ,               (7.6)
+i.e.
+                              |ψn (ā)i± = ψ a1 ...an α āa1 . . . āan |0i±α                     (7.7)
+is the generating function for rank n totally symmetric tensor-spinors ψ a1 ...an α satis-
+fying the γ-transversality condition
+
+                                        γa1 α β ψ a1 ...an β = 0 .                                (7.8)
+
+       The supergenerators of osp(1, 2) are
+
+                     Q = aa φa + ᾱφ̄ + β̄φ ,           Q̄ = āa φa + αφ + β φ̄ .                 (7.9)
+
+Imposing the osp(1, 2) invariance condition
+
+                                  Q|Ψi± = 0 ,            Q̄|Ψi± = 0                              (7.10)
+
+
+
+                                                 – 39 –
+we single out a hu(1|(1, 2):[M, 2])-module. This leads to a set of conditions on the
+parameters of (7.5) which admit the following general solution
+                                1                                       
+                   q(m, n, s) =    m −  s + (2n  + M  − 1)|m +   s + 1| 2 ,                       (7.11)
+                                2
+                                1                                       
+                   r(m, n, s) =    m + s − 1 + (2n + M − 1)|m + s|2 ,                             (7.12)
+                                2
+                         1                       A(n, |m + s|2 )
+       A(m, n, s) = (−1) 2 m(m+1)                                             ,                   (7.13)
+                                  (m − |m|2 )!!(m + 2n + M − 1 − |m + 1|2 )!!
+where A(n, |m + s|2 ) are arbitrary coefficients and we use notations
+
+                                  |2k|2 = 0 ,         |2k + 1|2 = 1 .                             (7.14)
+
+The ambiguity in the coefficients A(n, |m + s|2 ) manifests the freedom of normaliza-
+tion of the spinor-tensors |ψn i± (the dependence on n) and the fact that the module
+as a whole decomposes into the direct sum of two submodules spanned by the vectors
+which are odd and even in φ (the dependence on |m + s|2 ). As a result,
+
+                                     |Ψi± = |Ψ+ i± + |Ψ− i± ,                                     (7.15)
+
+where, fixing appropriately A(n, |m + s|2 ),
+            ∞ X
+   +
+            X                      (−1)p+s                                1
+|Ψ i± =                 2p+s             1            (āa āa )p ᾱp+n+ 2 M +s−1β̄ p (āa φa )s φ̄s |ψn+ (ā)i± ,
+          p,n=0 s=0,1
+                      2      p!(p + n + 2 M + s − 1)!
+                                                                                                 (7.16)
+            ∞ X                         p+s
+           X                       (−1)                                   1
+|Ψ− i± =                2p+s             1            (āa āa )p β̄ p+n+ 2 M +s−1ᾱp (āa φa )s φs φ̄|ψn− (ā)i± .
+          p,n=0 s=0,1
+                      2      p!(p + n + 2 M + s − 1)!
+                                                                                                 (7.17)
+                               ±
+Although the modules |Ψ i± do not belong to the original Fock module for odd M
+because a power of the oscillator ᾱ or β̄ may be half-integer, they are well-defined
+semi-infinite modules because one of the powers is necessarily integer. From (7.2) it
+follows that the modules |Ψ± i± have definite chirality
+
+                                         Γ|Ψ··· i± = ±|Ψ··· i±                                    (7.18)
+
+in agreement with the fact that Γ leaves invariant the space of osp(1, 2) singlets.
+    An analogue of the formula (6.17) is
+
+                                      |Ψ± i... = P̄ ± |ψ ± (ā)i... ,                             (7.19)
+
+
+
+                                                 – 40 –
+                    I
+                                       1            1            1    b
+             P̄ = dµ exp (µ−1 ᾱ − µ( āa āa β̄ + aa φa φ̄))µ− 2 {a ,āb }−2 ,
+               +
+                                                                                         (7.20)
+                                       4            2
+                  I
+                                      1            1            1   b
+            P̄ − = dµ exp (µ−1 β̄ − µ( āa āa ᾱ + aa φa φ))µ− 2 {a ,āb }−2 φ̄ .       (7.21)
+                                      4            2
+Note that the additional factor of φ̄ in the expression for P̄ − maps the states |ψ ± (ā)i±
+annihilated by φ to those annihilated by φ̄.
+    The AdSM +1 energy operator is
+                                    1
+                                 E = (ᾱα − β̄β − [φ, φ̄]) .                             (7.22)
+                                    2
+As a result, the modules |Ψ± i± have energies
+                                               1
+                                      En+ = n + (M − 1)                                  (7.23)
+                                               2
+and
+                                          1
+                              En− = −n − (M − 1) ,                          (7.24)
+                                          2
+respectively, depending on the upper sign + or − on Ψ. The lowest energy of |Ψ+ i±
+therefore is
+                                        1
+                                 E0+ = (M − 1)                              (7.25)
+                                        2
+that is the correct value for the conformal spinor in M dimensions equal to its
+canonical scaling dimension.
+    The o(M, 2) invariant norm is defined by the same formulas (6.25)-(6.32). The
+resulting expression
+                                ∞
+                                X         1               1
+               hhΨ̄±   ±
+                   1 |Ψ2 ii =         2n+ 2 M −2                 hψ̄ ± (a)|ψn± (ā)i ,   (7.26)
+                                n=0
+                                                   (n + 2 M + 1)! n
+                                                        1
+
+
+
+is manifestly positive-definite. Thus the modules |Ψ± i± are unitary.
+    The noncompact generators are
+
+         T +a = −i(βaa − ᾱāa + φφa ) ,             T −a = i(β̄āa − αaa − φ̄φ̄a ) .    (7.27)
+
+The action of the generators T −a and E has the form
+                                                        
+                       −a   +              +     ∂
+                     T |Ψ (ψ(ā))i± = |Ψ i          ψ(ā) i± ,                           (7.28)
+                                               ∂āa
+                                                              
+                   +               +      ∂    1
+               E|Ψ (ψ(ā))i± = |Ψ (āa       + (M − 1))ψ(ā) i± .                        (7.29)
+                                         ∂āa 2
+
+
+
+
+                                              – 41 –
+8. Generalized Flato-Fronsdal theorem
+An important observation by Flato and Fronsdal [1] was that the tensor product of a
+pair of AdS4 Dirac singletons [43] identified with the 3d massless particles gives rise
+to all AdS4 massless representations. Here we extend this result to any dimension.
+     Let us start with the analysis of the scalar case of |Raci. The tensor product
+can be obtained by virtue of doubling of oscillators YiA → YiA1 , YiA2 with the vacuum
+|0i satisfying
+                    aa1,2 |0i = 0 ,  α1,2 |0i = 0 ,   β1,2 |0i = 0 .               (8.1)
+The tensor product of the positive energy modules |Raci+ ⊗ |Raci+ is spanned by
+the states of the form
+                  X                                1
+        |Ψ+ i =
+                 p,q,m,n
+                         2 2(p+q) q!p!(p + n + 2 M − 1)!(q + m + 12 M − 1)!
+                                               1
+
+                                                      1          p             1          q
+                  (a¯1l a¯1 l )p (a¯2k a¯2 k )q α¯1 p+n+ 2 M −1 β¯1 α¯2 q+m+ 2 M −1 β¯2 ψnm
+                                                                                         +
+                                                                                            (ā1 , ā2 )|0i ,   (8.2)
+
+where
+                                                                           m               n
+                      +
+                     ψpq                 ±
+                         (ā1 , ā2 ) = ψm                 ām1 . . . ā1 p ān2 1 . . . ā2 q ,
+                                           1 ...mp n1 ...nq 1
+                      ±
+                     ψm 1 ...mp n1 ...nq
+                                         η m1 m2 = 0 ,             ±
+                                                                  ψm 1 ...mp n1 ...nq
+                                                                                      η n1 n2 = 0 .             (8.3)
+
+|Ψ+ i satisfies
+                                            t1 ij |Ψ+ i = t2 ij |Ψ+ i = 0 .                                     (8.4)
+|Raci+ ⊗|Raci+ forms a bounded energy unitary module of the HS algebra hu(1|(1, 2):[M, 2]).
+    By virtue of (6.40) one observes that the lowest energy states annihilated by T −
+are |Ψ+ (ψ(ā1 , ā2 )i with ψ(ā1 , ā2 ) satisfying
+                                             ∂     ∂
+                                        (      a
+                                                 + a )ψ(ā1 , ā2 ) = 0 ,                                       (8.5)
+                                            ∂ā1 ∂ā2
+i.e., those with
+                                            ψ(ā1 , ā2 ) = ψ0 (ā1 − ā2 ) ,                                   (8.6)
+where ψ0 (ā) is an arbitrary harmonic polynomial. Using (6.41) one finds that the
+lowest energies are
+                                  E0 = s + M − 2 ,                           (8.7)
+where s is a degree of the polynomial ψ0 (ā). Therefore
+                                                   ∞
+                                                   X
+                         |Raci ⊗ |Raci =                  ⊕H(s + M − 2, s, 0, 0 . . .) .                        (8.8)
+                                                   s=0
+
+
+
+
+                                                          – 42 –
+According to (1.7), the right hand side of this formula describes for M > 2 the
+direct sum of all totally symmetric massless spin s representations of the AdSM +1
+algebra o(M, 2). As a result, the tensor product of the massless scalar representation
+of the conformal group in d − 1 dimensions with d > 3 is shown to contain all
+integer spin totally symmetric massless states in AdSd , that extends the result of
+Flato and Fronsdal [1] to any dimension. This spectrum of spins exactly corresponds
+to that of the model of [2] that proves that the HS symmetry hu(1|2:[M, 2]) of [2]
+admits a unitary representation with the necessary spin spectrum, thus satisfying
+the admissibility condition.
+     The following comments are now in order.
+     The spin zero field in the AdSd HS multiplet has energy d − 3 which is different
+from the energy of conformal scalar 12 d − 1 beyond the case of d = 4. This is not
+occasional because totally symmetric massless fields are not conformal for d 6= 4.
+It is therefore debatable whether or not one should call this scalar field massless.
+We will call it symmetrically massless scalar to emphasize that it belongs to the
+HS multiplet of symmetric massless fields and can be thought of as described by a
+degenerate zero-length one row Young tableau. Other “massless” scalar fields with
+energies d − 2 − p can be thought of as degenerate cases of mixed symmetry gauge
+fields associated with o(d − 1)-modules described by Young tableaux with p < 21 d
+cells in the shortest column. Conformal fields are those with the highest possible
+p = 12 d − 1 (d is even).
+     The case of M = 2 (i.e., bulk AdS3 ) is special9 because the right hand side of (8.8)
+contains representations corresponding to 3d singletons, i.e. 2d massless fields of all
+integer spins. Indeed, in accordance with the discussion of subsection 1.1, the lowest
+energy modules of o(2, 2) with the vacuum space being a o(2)–module described
+by Young tableaux of height 1 are 2d conformal fields. Thus, the bilinear tensor
+product of 2d conformal scalars gives all integer spin 2d conformal fields. Note that
+this fact fits the admissibility condition because the 3d HS gauge field dynamics is of
+Chern-Simons type [55] so that HS gauge fields describe no bulk degrees of freedom
+analogously to the case of 3d gravity [63]. The obtained group-theoretical result
+indicates however that topological 3d HS interactions should have some dynamically
+nontrivial boundary manifestation in terms of 2d massless fields of all spins. It would
+interesting to work out a dynamical realization of this phenomenon.
+     Let the singleton module be endowed with a Chan-Paton index |Raci → |Raciu ,
+u = 1 . . . n. One can single out the symmetric and antisymmetric parts (|Raciu ⊗
+|Raciv )S and (|Raciu ⊗ |Raciv )A of the tensor product |Raciu ⊗ |Raciv . Since a per-
+  9
+      I am grateful to Aleksandr Gorsky for stimulating discussion of AdS3 singletons.
+
+
+
+
+                                               – 43 –
+mutation of the tensor factors exchanges both the oscillators ā1 and ā2 and the
+Chan-Paton indices, it follows that even (odd) spins in (|Raciu ⊗ |Raciv )S and
+(|Raciu ⊗ |Raciv )A are, respectively, symmetric (antisymmetric) and antisymmet-
+ric (symmetric) in the Chan-Paton indices. This pattern exactly corresponds to that
+of the HS gauge theories of [2] based on the HS gauge algebras ho(n, 0|2:[M, 2]) and
+husp(n, 0|2:[M, 2]), respectively. The massless states in the unsymmetrized tensor
+product |Raciu ⊗ |Raciv correspond to the HS gauge theory based on the HS gauge
+algebra hu(n, 0|2:[M, 2]).
+     Analogously one can consider higher rank tensor products of |Raci. In the rank
+k tensor product, the lowest energy states are described by various polynomials
+                                                              P
+ψ + (ā1 , . . . , āk ) which are “translationally invariant” i ∂ā∂ i ψ + (ā1 , . . . , āk ) = 0 and
+harmonic with respect to each variable āi . For a degree p polynomial in a rank k
+tensor product, the AdSd+1 lowest energy is E0 = p + 12 k(d − 2). Comparing this
+formula with the lowest energies for massless fields in AdSd+1 one finds that all states
+in the rank k > 2 tensor products of |Raci are massive.
+     To analyze |Dii± ⊗ |Raci one observes by virtue of (6.40), (6.41), (7.28) and
+(7.29) that the lowest energy states in |Dii± ⊗ |Raci are described by γ-transverse
+(and, therefore, harmonic) tensor-spinors ψ(ā1 − ā2 )±α . As a result,
+                                               X                           1 1
+                 |Dii± ⊗ |Raci =                           ⊕H(s + M − 2, s, , , . . .)± ,                     (8.9)
+                                                                           2 2
+                                            s=1/2,3/2...
+
+
+where n = s − 12 is a homogeneity degree of ψ(ā1 − ā2 )±α . The right hand side of (8.9)
+contains all totally symmetric half-integer spin massless representations of AdSM +1 .
+This extends the corresponding AdS4 result of Flato and Fronsdal to any dimension
+d > 3. In the special case of M = 2 the right hand side of (8.9) contains all 2d
+conformal fields of half-integer spins.
+    Let us now analyze a pattern of the tensor product of two conformal spinor
+representations. It is convenient to analyze |Diiρ ⊗ κ hDi| where ρ and κ are the
+chirality factors
+                      ±
+               κ hΨ       |Γ = κκ hΨ± | ,         Γ|Ψ± iρ = ρ|Ψ± iρ ,                   ρ2 = κ2 = 1 .        (8.10)
+
+By virtue of (7.28) and (7.29) one finds that the lowest energy states in |Diiρ ⊗ κ hDi|
+are described by harmonic tensor bispinors ψ(ā1 + ā2 )ρκα β , which are γ-transverse
+both in α and in β. Equivalently, one can write
+                                    M X
+                                    X ∞
+                                                 [b1 ...bm ]|{a1 ...an }
+                  ψ(ā)ρκα =   β
+                                                ψρκ                      γ[b1 ...bm ]α β āa1 . . . āan ,   (8.11)
+                                    m=0 n=0
+
+
+
+
+                                                       – 44 –
+                                                                               [b ...b ]{a ...a }
+where γ[b1 ...bm ] are totally antisymmetrized products of γ matrices. ψρκ1 m 1 n
+is totally symmetric in the indices a and totally antisymmetric in the indices b. It
+                                                                      [b ...b ]{a ...a }
+is easy to see that the left and right γ-transversality imply that ψρκ1 m 1 n is
+traceless and that antisymmetrization over any m + 1 indices must give zero. In
+other words it is described by the following traceless Young tableau of o(M)
+
+                                            n+1
+
+                                      m
+
+                                                  .                                     (8.12)
+
+According to (7.29) the energies of these states are
+
+           E0 = n + M − 1 = s + M − 2 ,               s > 0,    m<M
+           E0 = M − 1 ,                        s = 0,      or   s = 1,   m=M,           (8.13)
+
+where s is the length of the upper row of the tableau (8.12). This means that all states
+with s > 0 in the tensor product are massless except for those with s = 1, M > m > 0
+and s = 0
+                                                      M
+                                         ∞      [2]
+                                               X
+                                        X
+ |Dii ⊗ hDi| = 2H(M − 1, 0, 0 . . .) ⊕      ⊕ 2     H(s + M − 2, s, 1, 1 . . . 1, 0, 0 . . .)
+                                                                         | {z }
+                                        s=1     m=0                          m
+                                                                               
+             ⊕H(s + M − 2, s, 1, 1 . . . 1) ⊕ H(s + M − 2, s, 1, 1 . . . 1, −1) , (8.14)
+                              | {z }                          | {z }
+                                    M/2−1                           M/2−2
+
+
+where the last two terms appear only for even M when the (anti)selfduality condition
+can be imposed. The appearance of massive totally antisymmetric fields
+H(M − 1, 1, 1, . . . , 0, 0 . . .) (which, however, become massless in the flat limit) in the
+higher dimensional HS multiplets is analogous to the case of the spin 0 field in AdS4
+[1].
+     The formula (8.14) is true for Dirac vacuum spinors. Imposing the chirality
+conditions for even M we have the type A situation with the opposite chiralities and
+type B case with the same chiralities. In the type A case the column in (8.12) contains
+an odd number of cells while in the type B situation the column in (8.12) contains
+an even numbers of cells. In addition, the tableaux (8.12) with m cells in a column
+are equivalent (dual) to those with M − m cells. In particular, in the type B case the
+representation with m = M/2 is selfdual or antiselfdual depending on the chirality ρ
+of |Diiρ . For the special case of M = 2 we obtain all totally symmetric integer spin
+s > 0 2d conformal fields in the type A case. For the Dirac or type B M = 2 case,
+
+
+
+                                            – 45 –
+the tensor product of two 2d conformal spinor modules contains a 3d massive scalar
+field with E0 = 1. It would be interesting to see what is a field-theoretical realization
+of this system.
+     For odd M the operator Γ is central. As a result, only the type B case is
+nontrivial for odd M. Since the corresponding tableaux (8.12) are selfdual, the
+resulting expansion contains all inequivalent representations in a single copy.
+     Using the results of [41], we conclude that the list of gauge fields resulting from
+gauging of hu(1, 1|(0, 1, 2):[M, 2]) just matches the list of massless states in the tensor
+product (|Raci⊕|Dii)⊗(hRac|⊕hDi|). Thus, the superalgebra hu(1, 1|(0, 1, 2):[M, 2])
+and its chiral versions satisfy the admissibility condition and therefore are expected
+to give rise to consistent supersymmetric HS gauge theories in any dimension with
+totally symmetric fermionic massless fields of all half-integer spins. Leaving details
+of the exact formulation for a future publication let us mention that the form of the
+nonlinear dynamical equations for the supersymmetric case is essentially the same as
+that of [2] for the purely bosonic case modulo extension of the generating elements of
+the algebra with the Clifford fermions φA and spinor generating elements χµ and χ̄µ .
+The same is true for the algebras hu(n, m|(0, 1, 2):[M, 2]) with the nontrivial (spin 1)
+Yang-Mills algebra u(n) ⊕ u(m) and their orthogonal and symplectic reductions.
+     It is worth to note that although HS theories based on the superalgebra
+hu(1, 1|(0, 1, 2):[M, 2]) are supersymmetric in the HS sense, they are not necessarily
+supersymmetric in the standard sense. As explained in section 5, hu(1, 1|(0, 1, 2):[M, 2])
+contains usual AdS superalgebras as subalgebras only for some lower M.
+
+
+
+9. Unfolded equations for conformal fields
+
+As pointed out in [8], there is a duality between unitary modules of single-particle
+quantum states and nonunitary modules underlying classical field equations. In
+[14, 16] it was shown for the 3d and 4d conformal systems that the corresponding
+duality has a form of certain (nonunitary) Bogolyubov transform. Let us show that
+the same is true in any dimension by deriving unfolded form of free conformal massless
+equations in M dimensions.
+      Let us introduce the following basis of oscillators: y ± = Y1M ± Y1M +1 , p± =
+2
+ i
+   (Y2M ± Y2M +1 ) and y n = Y1n , pn = 2i Y2n with n = 0 . . . M − 1 being M-dimensional
+Lorentz indices. The nonzero commutation relations are
+
+                [y n , pm ] = −η nm ,   [y ± , p± ] = 0 ,   [y ± , p∓ ] = 2 ,       (9.1)
+
+
+
+                                         – 46 –
+where η nm is the Minkowski metric with the signature (1, M − 1). Now we introduce
+a non-unitary Fock module F with the vacuum state
+
+                                 pn |0i = 0 ,       y ± |0i = 0 .                               (9.2)
+
+Its general element is
+                                   |Φi = φ(y n , p+ , p− )|0i .                                 (9.3)
+     The submodule SF to be associated with the classical scalar field in M dimen-
+sions is spanned by the sp(2) invariant states satisfying tij |Φi = 0. To describe a
+massless scalar field in the Minkowski space RM we consider sections of the trivial
+fiber bundle RM × SF
+                             |Φ(x)i = φ(y n , p+ , p− |x)|0i .                  (9.4)
+The conditions tij |Φi = 0 imply that φ(y n , p+ , p− |x) has a form analogous to (6.14)
+and (6.15)
+                       φ(y, p±|x) = φ+ (y, p±|x) + φ− (y, p± |x)                   (9.5)
+with
+                     X               1                                    1
+   φ+ (y, p± |x) =                                   (y m ym )p (p+ )p+n+ 2 M −1 (p− )p φ+
+                                                                                         n (y|x) ,
+                     p,n
+                         22p p!(p + n + 21 M − 1)!
+                                                                                          (9.6)
+                 X               1                                 1
+ φ− (y, p±|x) =       2p p!(p + n + 1 M − 1)!
+                                              (y m ym )p (p− )p+n+ 2 M −1 (p+ )p φ+
+                                                                                  n (y|x) (9.7)
+                p,n
+                    2               2
+
+and φ±
+     n (y|x) are arbitrary degree n harmonic polynomials of y, i.e.
+
+                                        m1
+                 φ±          ±
+                  n (y|x) = φm1 ...mn y    . . . y mn ,      ±
+                                                            ψklm3 ...mn
+                                                                        η kl = 0 .              (9.8)
+
+    To unfold some dynamical equations means to reformulate them in the form
+of appropriate zero curvature and covariant constancy conditions (for more details
+we refer the reader to the original paper [64] and to [65, 66]). In particular, the
+equations for matter fields and massless fields reformulated in terms of covariant
+curvatures (like, for example, Maxwell equations in terms of field strengths) have
+a form of covariant constancy equations on certain 0-forms called Weyl 0-forms.
+This name is borrowed from gravity where the corresponding covariant constancy
+equations describe differential restrictions on the Weyl tensor and all its derivatives.
+The Weyl 0-forms are sections of the fiber bundle over space-time with the fiber space
+dual to the space of single-particle quantum states by a Bogolyubov transform.
+    In our case the unfolded equations are
+
+                                         D|Φ+ (x)i = 0 ,                                        (9.9)
+
+
+
+                                              – 47 –
+where D = d + ω0 is the covariant derivative with a flat connection ω0 ,
+
+                                          D2 = 0 ,                               (9.10)
+
+which takes values in the conformal algebra o(M, 2) acting on the fiber module SF .
+To describe conformal field equations in flat (i.e., Minkowski) space-time one chooses
+ω0 to take values in the Poincare subalgebra of the conformal algebra. To use Carte-
+sian coordinates, one takes the connection ω0 in the form ω0 = dxn Pn , where Pn are
+generators of translations of the Poincare algebra. In our case, Pn = y − pn and the
+equation (9.9) gets the form
+
+                                     ∂
+                            dxn (       + y − pn )|Φ+ (x)i = 0 .                 (9.11)
+                                    ∂xn
+In terms of components φ+
+                        n (y|x) it is equivalent to the infinite chain of equations
+                                                         
+                      m     ∂ +             ∂ +
+                   dx          φ (y|x) + m φn+1 (y|x) = 0                       (9.12)
+                          ∂xm n            ∂y
+
+which expresses all higher components φ+   n (y|x) with n > 0 via higher x-derivatives
+     +
+of φ0 (x) identified with the physical scalar field which satisfies the Klein-Gordon
+equation as a result of the conditions (9.8). The case of a scalar field in any dimen-
+sion was considered in detail in [67]. Let us note that from the unfolded form of
+the massless scalar field equation interpreted as a covariant constancy condition it
+immediately follows (see e.g. [66]) that the massless scalar field equation is invariant
+under the global symmetry algebra hu(1|2:[M, 2]) that provides an elementary proof
+of the result obtained by Eastwood [32].
+    Unfolded form of the fermionic massless equations is obtained analogously by
+using the spinorial module |Φiν and the realization (2.15) of the conformal generators.
+The resulting equations can be found in [68] where the unfolded reformulation of all
+possible conformal field equations was given.
+
+
+10. Conclusion
+It is shown that AdSd HS global symmetry algebras underlying HS gauge theories of
+totally symmetric massless fields in AdSd of [2] admit unitary representations with
+the spectra of states matching those of the respective field-theoretical HS models.
+The states of the AdSd HS models of [2] correspond to the tensor product of the
+singleton modules identified with the space of single-particle states of the conformal
+scalar field in d − 1 dimension. This fact extends the original observation of Flato
+
+
+
+                                            – 48 –
+and Fronsdal for AdS4 [1] to any dimension and provides a group-theoretical basis for
+the AdS/CF T correspondence between conformal boundary models and AdSd bulk
+HS theories. The group-theoretical analysis of this paper fits the field-theoretical
+analysis of the AdS/CF T correspondence between bulk HS models and boundary
+conformal models of scalar fields carried out in [23, 26], based on the observation
+that conserved currents built of a massless scalar in d dimensions match the list of
+on-mass-shell HS gauge fields in the d + 1 dimensional bulk. In particular, the bilocal
+field introduced in [23] is a field-theoretical realization of the tensor product of a pair
+of singletons.
+
+
+     The extension to the supersymmetric case gives rise to HS superalgebras acting
+on the boundary conformal scalar and spinor as well as on infinite sets of totally
+symmetric massless bulk bosons and fermions and mixed symmetry massless fields
+described by hook tableaux with one row and one column. We argue that the bulk
+HS theories associated with the conformal spinor fields on the boundary are de-
+scribed by the nonlinear field equations having essentially the same form as that of
+[2] for totally symmetric massless fields. An interesting project for the future is to
+investigate whether there exists a generalization of the obtained results to a broader
+class of HS gauge fields in the bulk, which correspond to massless representations of
+a generic mixed symmetry type in AdSd . From the field-theoretical side this requires
+further study of the mixed symmetry gauge fields in any dimension because, despite
+considerable progress achieved in the literature [69, 41], the full covariant formulation
+in AdSd is still lacking even at the free field level for generic d. Note that the full
+formulation of free totally symmetric massless fields in AdSd was obtained in [70, 60]
+in terms of HS gauge connections and in [71, 72] by using the BRST formalism. Also
+it is worth to mention that the structures of generic massless mixed symmetry fields
+in flat space and AdSd are essentially different: an irreducible massless field in AdSd
+decomposes into a family of massless fields in the flat limit [73].
+
+
+     Finally, let us mention that the case of AdS3 singletons is special because bilinear
+tensor products of 2d conformal scalar and spinor contain infinite sets of d = 2 HS
+fields rather than d+1 fields as it happens for all d > 2. This fact agrees with the field-
+theoretical description because HS gauge field dynamics in AdS3 is of Chern-Simons
+type [55] so that HS gauge fields describe no bulk degrees of freedom. The obtained
+group-theoretical result indicates however that topological 3d HS interactions should
+have some dynamically nontrivial boundary manifestation in terms of 2d massless
+fields of all spins.
+
+
+
+                                          – 49 –
+Acknowledgments
+The author is grateful to Per Sundell and Aleksandr Gorsky for stimulating discus-
+sions and to Laurent Baulieu for hospitality at LPTHE, Paris U. VI-VII in the fall
+of 2003 where most of this work was done. This research was supported in part by
+INTAS, Grant No.00-01-254, and the RFBR, Grant No.02-02-17067.
+
+
+Appendix. Young tableaux
+For the reader’s convenience we summarize here some elementary properties of Young
+tableaux.
+                              1 1  2     2    3     3      p     p
+     Let a slM tensor Aa1 ...am1 ,a1 ...am2 ,a1 ...am3 ...a1 ...amp be symmetric in the indices aik
+for any fixed i. It corresponds to the representation of slM described by the Young
+tableau Y (m1 , m2 , . . . mp )
+                                                                                            m1
+                                                                                          m2
+                                                  ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣
+                                                    ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+                                                                            mp−1
+                                                           mp                                                             (10.1)
+
+if the tensor A is such that, for any fixed i, total symmetrization of all indices aik
+with any index alj such that l > i gives zero. Let yai be auxiliary variables with
+                                                  1     1    2     2       p     p
+a = 1, 2 . . . M, i = 1, 2 . . . p. The tensors Aa1 ...am1 ,a1 ...am2 ,...a1 ...amp can be identified
+with the coefficients of the polynomials
+             ∞
+             X              1     1   2    2        p            p
+  A(y) =                 Aa1 ...am1 ,a1 ...am2 ,...a1 ...amp ya11 . . . ya11m ya22 . . . ya22m . . . yapp . . . yappm . (10.2)
+                                                                                      1          1   1   2        1   p
+           m1 ,m2 ,...
+
+Note that the polynomials A(y) can be written as
+                                                         ∞
+                                                         X
+                                          A(y) =                         Aia11...i
+                                                                               ...an i1
+                                                                                   n
+                                                                                     ya1 . . . yainn .                    (10.3)
+                                                          n=0
+
+In these terms, the Young conditions take the simple form
+                                                  ∂
+                                           yai        A(y) = 0                                   i<j,                     (10.4)
+                                                 ∂yaj
+                                 ∂
+                          yai        A(y) = mi P (y)                                      no summation over i .           (10.5)
+                                ∂yai
+    The operators
+                                                                                           ∂
+                                                             ta b = yai                                                   (10.6)
+                                                                                          ∂ybi
+
+
+
+                                                                        – 50 –
+and
+                                              ∂
+                                               li j = yai                     (10.7)
+                                             ∂yaj
+form the algebras glM and glp , respectively. They are mutually commuting and are
+called Howe dual. It is useful to observe that the conditions (10.4) are the highest
+weight conditions for the algebra slp ⊂ glp . The glM invariant conditions (10.5)
+fix some (integral) highest weight of slp together with an eigenvalue of the central
+element of glp . Rectangular Young tableaux
+                                     m
+
+                                                                                 p
+
+                                                                                                      (10.8)
+
+with mi = m, which we call blocks, have a special property that they are slp singlets
+                                       ∂          1 i k ∂
+                                yai      j P (y) = δj ya      P (y) .                                 (10.9)
+                                      ∂ya         p      ∂yak
+(Note that (10.9) is a consequence of (10.4), (10.5) with mi = const along with
+the fact that the representations are finite dimensional because A(y) is a polynomial.
+Combinatorial proof of this fact in terms of components of tensors is also elementary).
+     From the definition of the Young tableau Y (m1 , m2 , . . . mp ) it follows that m1 ≥
+m2 ≥ m3 . . . (otherwise the corresponding tensors are zero). For the same space we
+will also use notation with square brackets Y [l1 , l2 , . . .] where l1 , l2 , . . . are heights of
+columns
+                                                         ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+                                                          ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ lq
+                                                           ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+                                                            ♣♣ ♣♣ ♣♣ ♣ ♣ lq−1
+                                                             ♣
+                                                    l2
+                                                                                                     (10.10)
+                                               l1
+
+
+Obviously, one has l1 ≥ l2 ≥ l3 . . . and l1 ≤ M (because antisymmetrization over any
+M + 1 indices a taking M values gives zero).
+    The realization of Y [l1 , l2 , . . . lq ] with manifest antisymmetrization is achieved in
+terms of polynomials F (φαa) of fermions
+
+                             φαa φβb = −φβb φαa ,                               α, β = 1 . . . q .   (10.11)
+
+The Young properties equivalent to (10.4) and (10.5) are
+                                        ∂
+                                 φαa          F (φ) = 0                              α <β,           (10.12)
+                                       ∂φβa
+
+
+
+                                                     – 51 –
+                                    ∂
+                          φαa           F (y) = lα F (y)                           no summation over α .                           (10.13)
+                                   ∂φαa
+                               a1 ...a1l ,a21 ...a2l ,...ap1 ...aqlq
+The coefficients F 1                   1           2                   of
+                 ∞
+                 X                 a1 ...a1l ,a21 ...a2l ,...ap1 ...aqlq
+    F (φ) =                    F 1          1           2                  φ1a1 . . . φ1a1 φ2a2 . . . φ2a2 . . . φqaq . . . φqaq   (10.14)
+                                                                              1          l1   1          l2         1         lq
+              l1 ,l2 ,...,lq
+
+are manifestly antisymmetric in the groups of indices aαk with fixed α associated
+with the αth columns of the tableau. The condition (10.12) requires that total anti-
+symmetrization of all indices associated with some column with any index from any
+subsequent column gives zero. Again, the conditions (10.12) and (10.13) are highest
+weight conditions for the algebra glq , formed by the operators
+                                                                                     ∂
+                                                                f α β = φαa               ,                                        (10.15)
+                                                                                   ∂φβa
+which is Howe dual to the glM formed by
+                                                                                   ∂
+                                                                  sa b = φαa           .                                           (10.16)
+                                                                                  ∂φαb
+Rectangular (block) tableaux are slq singlets.
+    It is not hard to see that the spaces of tensors with manifest symmetry and
+antisymmetry, Y (m1 , m2 , . . . mp ) and Y [l1 , l2 , . . . lq ], respectively, associated with the
+same Young tableau, are isomorphic.
+    If one is interested in representations of o(M) rather than slM , the set of condi-
+tions (10.4), (10.5) is supplemented with
+                                                                    ∂2
+                                                            ηab             A(y) = 0 ,                                             (10.17)
+                                                                  ∂yaj ∂ybi
+where η ab is the o(M) invariant metric. This is simply the condition that all o(M)
+tensors in the decomposition (10.2) are traceless. For such spaces we use notation
+Y tr (m1 , m2 , . . . mp ). Note that for o(M), the bosonic Howe dual algebra extends to
+sp(2p) generated by (10.7) along with the operators
+                                                                                                ∂2
+                                            lij = η ab yai ybj ,                  lij = ηab             ,                          (10.18)
+                                                                                              ∂yaj ∂ybi
+which form the standard oscillator realization of sp(2p). In the fermionic realization
+the equivalent condition is
+                                      ∂2
+                               ηab           F (φ) = 0 .                       (10.19)
+                                   ∂φαa ∂φβb
+
+
+
+                                                                           – 52 –
+The fermionic Howe dual algebra of o(M) is o(2q).
+   An important fact proved in section 2 is that
+
+                          Y tr [l1 , l2 , . . . lq ] = 0     if l1 + l2 > M.             (10.20)
+
+Note that this identity is insensitive to the full Young properties. The only important
+properties are the tracelessness and total antisymmetry of each of the two groups of
+indices which together have more than M indices.
+     Traceless o(M) tableaux can be dualized by contracting the ǫ symbol with the
+first column. For even M, one can define (anti)selfdual tableaux Y±tr [M/2, l2 , l3 , . . . , lq ]
+with the height of the first column M/2. Note that for any Young tableau there is
+at most one way to define selfduality because the maximal vertical block in the
+antisymmetric basis is symmetric with respect to its column interchange.
+
+
+References
+ [1] M. Flato and C. Fronsdal, Lett. Math. Phys. 2 (1978) 421;
+     Phys. Lett. B 97 (1980) 236.
+ [2] M. A. Vasiliev, Phys. Lett. B 567 (2003) 139; hep-th/0304049.
+ [3] S.E. Konstein and M.A. Vasiliev, Nucl. Phys. B 312 (1989) 402.
+ [4] S.E. Konstein and M.A. Vasiliev, Nucl. Phys. B 331 (1990) 475.
+ [5] M. Günaydin and N. Marcus, Class. and Quant. Grav. 2 (1985) L11; L19.
+ [6] S. Ferrara and , A. Zaffaroni, “Bulk Gauge Fields in AdS Supergravity and
+     Supersingletons”, hep-th/9807090.
+ [7] E. Sezgin and P. Sundell, Nucl. Phys. B 634 (2002) 120, hep-th/0112100.
+ [8] M. Günaydin, “AdS/CFT Dualities and the Unitary Representations of
+     Non-compact Groups and Supergroups: Wigner versus Dirac”, hep-th/0005168.
+ [9] J. M. Maldacena, Adv. Theor. Math. Phys. 2 (1998) 231
+     [ Int. J. Theor. Phys. 38 (1999) 1113 ], hep-th/9711200.
+[10] S. S. Gubser, I. R. Klebanov and A. M. Polyakov, Phys. Lett. B 428 (1998) 105,
+     hep-th/9802109.
+[11] E. Witten, Adv. Theor. Math. Phys. 2 (1998) 253, hep-th/9802150.
+[12] B. Sundborg, Nucl. Phys. 102 (Proc. Suppl.) (2001) 113, hep-th/0103247.
+[13] E. Witten, talk at J.H. Schwarz 60-th Birthday Conference, CalTech, November 2-3,
+     2001, http://theory.caltech.edu/jhs60/witten/1.html..
+[14] O.V. Shaynkman and M.A. Vasiliev, Theor. Math. Phys. 128 (2001) 1155 [Teor.
+     Mat. Fiz. 128 (2001) 378], hep-th/0103208.
+[15] E. Sezgin and P. Sundell, Nucl. Phys. B 644 (2002) 303 [Erratum-ibid. 660 2003
+     403], hep-th/0205131; “Holography in 4d (super) Higher Spin Theories and a test
+     via Cubic Scalar Couplings”, hep-th/0305040.
+
+
+
+
+                                                    – 53 –
+[16] M. A. Vasiliev, Phys. Rev. D 66 (2002) 066006, hep-th/0106149.
+[17] A.A. Tseytlin, Theor. Math. Phys. 133 (2002) 1376, [Teor. Mat. Fiz. 133 (2002)
+     69], hep-th/0201112.
+[18] I. R. Klebanov and A. M. Polyakov, Phys. Lett. B 550 (2002) 213, hep-th/0210114.
+[19] T. Leonhardt, A. Meziane and W. Ruhl, Phys. Lett. B 555 (2003) 271,
+     hep-th/0211092;
+     T. Leonhardt and W. Ruhl, J. Phys. A37 (2004) 1403-1413, hep-th/0308111.
+[20] W. Ruhl and R. Manvelyan,“Conformal coupling of higher spin gauge fields to a
+     scalar field in AdS4 and generalized Weyl invariance”, hep-th/0403241.
+[21] L. Girardello, M. Porrati and A. Zaffaroni, Phys. Lett. B 561 (2003) 289,
+     hep-th/0212181.
+[22] A.C. Petkou, J. High Energy Phys. 0303 (2003) 049, hep-th/0302063;
+     R.G. Leigh and A.C. Petkou, J. High Energy Phys. 0306 (2003) 011,
+     hep-th/0304217; J. High Energy Phys. 0312 (2003) 020, hep-th/0309177.
+[23] S. R. Das and A. Jevicki, Phys. Rev. D 68 (2003) 044011, hep-th/0304093.
+[24] N. Suryanarayana, J. High Energy Phys. 0306 (2003) 036, hep-th/0304208.
+[25] M. Bianchi, J.F. Morales and H. Samtleben, J. High Energy Phys. 0307 (2003) 062,
+     hep-th/0305052.
+[26] R. Gopakumar, Phys. Rev. D 70 (2004) 025009, hep-th/0308184.
+[27] H.J. Schnitzer, “Gauged vector models and higher-spin representations in AdS(5)”,
+     hep-th/0310210; “Confinement/Deconfinement Transition of Large N Gauge
+     Theories with Nf Fundamentals: Nf / N Finite”, hep-th/0402219.
+[28] A. Dhar, G. Mandal and S.R. Wadia, “String bits in small radius AdS and weakly
+     coupled N = 4 super Yang-Mills theory. I”, hep-th/0304062.
+[29] A. Clark, A. Karch, P. Kovtun and D. Yamada, Phys. Rev. D 68 (2003) 066011,
+     hep-th/0304107.
+[30] U. Lindstrom and M. Zabzine, Phys. Lett. B 584 (2004) 178-185, hep-th/0305098.
+[31] G. Bonelli, J. High Energy Phys. 0311 (2003) 028, hep-th/0309222;
+     Nucl. Phys. B 669 (2003) 159-172, hep-th/0305155.
+[32] M.G. Eastwood, “ Higher Symmetries of the Laplacian”, hep-th/0206233.
+[33] R.R. Metsaev, Phys. Lett. B 354 (1995) 78; Talk given at International Seminar on
+     Supersymmetries and Quantum Symmetries (Dedicated to the Memory of Victor I.
+     Ogievetsky), Dubna, Russia, 22-26 Jul 1997, hep-th/9810231.
+[34] R.R. Metsaev, Phys. Lett. B 419 (1998) 49, hep-th/9802097.
+[35] S. Deser and A. Waldron, Phys. Rev. Lett. 87 (2001) 031601, hep-th/0102166;
+     Nucl. Phys. B 607 (2001) 577, hep-th/0103198;
+     Phys. Lett. B 513 (2001) 137, hep-th/0105181;
+     “Conformal invariance of partially massless higher spins,” hep-th/0408155.
+[36] M. Flato and C. Fronsdal, Commun. Math. Phys. 108 (1987) 469.
+
+
+
+
+                                       – 54 –
+[37] S. Ferrara and C. Fronsdal, Conformal Fields in Higher Dimensions,
+     hep-th/0006009.
+[38] W. Siegel, Mod. Phys. Lett. A A4 (1989) 2015.
+[39] R.R. Metsaev, Mod. Phys. Lett. A 10 (1995) 1719.
+[40] S. Ferrara and C. Fronsdal, Lett. Math. Phys. 46 (1998) 157, hep-th/9806072.
+[41] K.B. Alkalaev, O.V. Shaynkman and M.A. Vasiliev, Nucl. Phys. B 692 (2004) 363,
+     hep-th/0311164.
+[42] S. W. MacDowell and F. Mansouri, Phys. Rev. Lett. 38 (1977) 739;
+     F. Mansouri, Phys. Rev. D 16 (1977) 2456.
+[43] P.A.M. Dirac, J. Math. Phys. 4 (1963) 901.
+[44] P. van Nieuwenhuizen, Phys. Rept. 68 (1981) 189.
+[45] E. S. Fradkin and M. A. Vasiliev, Phys. Lett. B 189 (1987) 89;
+     Nucl. Phys. B 291 (1987) 141.
+[46] M.A. Vasiliev, Phys. Lett. B 243 (1990) 378; Phys. Lett. B 285 (1992) 225.
+[47] K. Stelle and P. West, Phys. Rev. D 21 (1980) 1466.
+[48] C. Preitschopf and M.A. Vasiliev, “The Superalgebraic Approach to Supergravity”,
+     hep-th/9805127.
+[49] M.A. Vasiliev, Nucl. Phys. B 616 (2001) 106, hep-th/0106200.
+[50] M. Calixto, J. Phys. A 33 (2000) L69-L75, hep-th/9911171; Generalized
+     W(infinity) “Higher-Spin Algebras and Symbolic Calculus on Flag Manifolds”,
+     hep-th/0301200.
+[51] R. Howe, Trans. American Math. Soc. 313 (1989) 539; erratum, ibid, 318 (1990)
+     823.
+[52] K.B. Alkalaev and M.A. Vasiliev, Nucl. Phys. B 655 (2003) 57, hep-th/0206068.
+[53] M. A. Vasiliev, Fortschr. Phys. 36 (1988) 33.
+[54] E.S. Fradkin and M.A. Vasiliev, Int. J. Mod. Phys. 3 1988 2983.
+[55] M.P. Blencowe, Class. and Quant. Grav. 6 (1989) 443.
+[56] M.A. Vasiliev, Mod. Phys. Lett. A 7 (1992) 3689-3702.
+[57] E.S. Fradkin and V.Ya. Linetsky, Ann. Phys. (NY) 198 (1990) 252.
+[58] E. Sezgin and P. Sundell,J. High Energy Phys. 0109 (2001) 036, hep-th/0105001.
+[59] E. Sezgin and P. Sundell, J. High Energy Phys. 0109 (2001) 025, hep-th/0107186.
+[60] M.A.Vasiliev, Nucl. Phys. B 301 (1988) 26.
+[61] R.Marnelius, Phys. Rev. D 20 (1979) 2091;
+     R.Marnelius and B.Nilsson,Phys. Rev. D 22 (1980) 830.
+[62] I. Bars, C. Deliduman and O. Andreev, Phys. Rev. D 58 (1998) 066004,
+     hep-th/9803188;
+     I. Bars, Phys. Rev. D 58 (1998) 066006, hep-th/9804028;
+     Phys. Rev. D 62 (2000) 085015, hep-th/0002140; Phys. Rev. D 66 (2002) 105024,
+     hep-th/0208012;
+     I. Bars and C. Deliduman, Phys. Rev. D 64 (2001) 045004, hep-th/0103042;
+     I. Bars and S.-J. Rey. Phys. Rev. D (64) 2001 046005, hep-th/0104135.
+
+
+
+
+                                        – 55 –
+[63] E. Witten, Nucl. Phys. B 311 (1989) 46.
+[64] M.A. Vasiliev, Ann. Phys. (NY) 190 (1989) 59.
+[65] M. A. Vasiliev, “Higher Spin Gauge Theories: Star-Product and AdS Space”,
+     hep-th/9910096.
+[66] M.A. Vasiliev, “Higher Spin Theories and SP(2M) Invariant Space-Time”,
+     hep-th/0301235.
+[67] O.V. Shaynkman and M.A. Vasiliev, Theor. Math. Phys. 123 (2000) 683 (p. 323 in
+     the Russian issue), hep-th/0003123.
+[68] O.V. Shaynkman, I.Y. Tipunin and M.A. Vasiliev, “Unfolded Form of Conformal
+     Equations in M dimensions and O(M + 2) modules”, hep-th/0401086.
+[69] T. Curtright, Phys. Lett. B 165 (1985) 304;
+     C. S. Aulakh, I. G. Koh and S. Ouvry, Phys. Lett. B 173 (1986) 284;
+     W. Siegel and B. Zwiebach, Nucl. Phys. B 282 (1987) 125;
+     J.M.F. Labastida, Phys. Rev. Lett. 58 (1987) 531; Nucl. Phys. B 322 (1989) 185;
+     A. Pashnev and M. M. Tsulaia, Mod. Phys. Lett. A 12 (1997) 861, hep-th/9703010;
+     Mod. Phys. Lett. A 13 (1998) 1853, hep-th/9803207;
+     C. Burdik, A. Pashnev and M. Tsulaia, Mod. Phys. Lett. A 16 (2001) 731,
+     hep-th/0101201; Nucl. Phys. 102 (Proc. Suppl.) (2001) 285, hep-th/0103143;
+     R.R.Metsaev, Phys. Lett. B 531 (2002) 152-160, hep-th/0201226;
+     X. Bekaert and N. Boulanger, “Tensor gauge fields in arbitrary representations of
+     GL(D,R): duality and Poincare lemma”, hep-th/0208058;
+     Phys. Lett. B 561 (2003) 183, hep-th/0301243;
+     P. de Medeiros and C. Hull, J. High Energy Phys. 0305 (2003) 019,
+     hep-th/0303036;
+     Y.M. Zinoviev, “On massive mixed symmetry tensor fields in Minkowski space and
+     (A)dS”, hep-th/0211233; “First Order Formalism for Mixed Symmetry Tensor
+     Fields”, hep-th/0304067;
+     K.B. Alkalaev,“Two-column fields in AdSd ”, hep-th/0311212;
+     P. de Medeiros, Class. and Quant. Grav. 21 (2004) 2571, hep-th/0311254.
+[70] V.E. Lopatin and M.A. Vasiliev, Mod. Phys. Lett. A 3 (1988) 257.
+[71] I.L. Buchbinder, A. Pashnev and M. Tsulaia, Phys. Lett. B 523 (2001) 338-346,
+     hep-th/0109067.
+[72] A. Sagnotti and M. Tsulaia, Nucl. Phys. B B682 (2004) 83, hep-th/0311257.
+[73] L. Brink, R.R. Metsaev and M.A. Vasiliev, Nucl. Phys. B 586 (2000) 183,
+     hep-th/0005136.
+
+
+
+
+                                       – 56 –
+

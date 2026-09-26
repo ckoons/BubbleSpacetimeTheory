@@ -1,0 +1,1955 @@
+                                                                                                                            PUPT-2495
+
+
+
+
+                                             Anomalous dimensions in CFT with weakly
+                                                  broken higher spin symmetry
+
+
+
+
+arXiv:1601.01310v2 [hep-th] 27 Jan 2016
+                                                                   Simone Giombi1 and Vladimir Kirilin1
+                                                     1
+                                                         Department of Physics, Princeton University, Princeton, NJ 08544
+
+
+
+
+                                                                                    Abstract
+
+                                              In a conformal field theory with weakly broken higher spin symmetry, the leading order
+                                          anomalous dimensions of the broken currents can be efficiently determined from the structure
+                                          of the classical non-conservation equations. We apply this method to the explicit example
+                                          of O(N ) invariant scalar field theories in various dimensions, including the large N critical
+                                          O(N ) model in general d, the Wilson-Fisher fixed point in d = 4 − , cubic scalar models in
+                                          d = 6 −  and the nonlinear sigma model in d = 2 + . Using information from the d = 4 − 
+                                          and d = 2 +  expansions, we obtain some estimates for the dimensions of the higher spin
+                                          operators in the critical 3d O(N ) models for a few low values of N and spin.
+Contents
+1 Introduction and Summary                                                                       1
+
+2 General method                                                                                 5
+    2.1   The higher spin currents in free field theory . . . . . . . . . . . . . . . . . .      5
+    2.2   Anomalous dimensions of the weakly broken currents . . . . . . . . . . . . .           9
+
+3 O(N ) model in d = 4 −                                                                       11
+
+4 The large N critical O(N ) model                                                              16
+
+5 Cubic models in d = 6 −                                                                      20
+
+6 Nonlinear sigma model                                                                         25
+
+7 Some d = 3 estimates                                                                          29
+
+A Technical details on the computation of the descendant 2-point function                       32
+
+
+1     Introduction and Summary
+The spectrum of a d-dimensional conformal field theory [1] consists of local operators labelled
+by conformal dimension ∆, a representation R of SO(d), and possibly a representation rG
+of an internal global symmetry group. The precise determination of the spectrum of an
+interacting CFT is of fundamental importance. Together with the knowledge of the OPE
+coefficients, it essentially amounts to a solution of the CFT.
+    It is well-known that in a unitary CFTd , dimensions of primary operators satisfy certain
+inequalities known as unitarity bounds [2,3]. For a spin s operator Jµ1 µ2 ···µs in the symmetric
+traceless representation of SO(d), the unitarity bound is
+
+                                  ∆s ≥ d − 2 + s ,      s ≥ 1.                                (1.1)
+
+For a scalar operator O, it reads
+                                                 d
+                                          ∆0 ≥     −1                                         (1.2)
+                                                 2
+and one may derive similar bounds for more general representations of SO(d). When these
+inequalities are saturated, the corresponding operator satisfies some differential equation,
+
+
+
+                                                1
+and it belongs to a short representation of the conformal algebra. In the case of a scalar
+operator, the shortening condition is simply the wave equation ∂ 2 O = 0, i.e. O is a free
+scalar field. For a spin s operator (s ≥ 1), saturation of the bound (1.1) implies that it is a
+conserved current
+                                             ∂ µ Jµµ2 ···µs = 0 .                         (1.3)
+
+The cases s = 1 (an exactly conserved current with ∆ = d − 1) and s = 2 (the conserved
+stress tensor with ∆ = d) are familiar in any CFT. Conserved currents of higher spins s > 2
+are explicitly realized in free field theories. For example, in a free scalar CFT they take the
+schematic form                         s
+                                       X
+                         Jµ1 ···µs =         csk ∂{µ1 · · · ∂µk φ∂µk+1 · · · ∂µs } φ ,    (1.4)
+                                       k=0
+
+where brackets denote traceless symmetrization and the coefficients may be determined by
+the conservation equation, as we review in Section 2.1. It is evident that these operators have
+exact dimension ∆s = d − 2 + s in the free theory. As usual, conserved currents correspond
+to symmetries of the theory. The presence of exactly conserved currents of all spins implies
+that the CFT has an infinite dimensional higher spin symmetry which includes the conformal
+symmetry as a subalgebra. Higher spin symmetries turn out to be very constraining. One
+may prove that if a CFT possesses a spin 4 conserved current, then an infinite tower of
+conserved higher spin operators is present, and all correlation functions of local operators
+coincide with those of a free CFT [4].
+   In an interacting CFT, the higher spin operators are not exactly conserved and acquire
+an anomalous dimension
+                                        ∆s = d − 2 + s + γs .                             (1.5)
+
+An interesting class of models are those for which the higher spin symmetries are slightly
+broken. By this we mean that there is an expansion parameter g, playing the role of a
+coupling constant, such that for small g the anomalous dimensions γs (g) are small, and in
+the g → 0 limit one recovers exact conservation of the currents. Explicit examples are weakly
+coupled fixed points of the Wilson-Fisher type [5], where g corresponds to a power of , or
+certain large N CFT’s, where g is related to a power of 1/N . At the operator level, this
+implies that the non-conservation equation for the spin s operator takes the form
+
+                                              ∂ · Js = gKs−1                              (1.6)
+
+where Ks−1 is an operator of spin s − 1, and we factored out g to highlight the fact that
+
+
+                                                       2
+at g = 0 the current is conserved. The slightly broken higher spin symmetries (1.6) can
+still be used to put non-trivial constraints on the correlation functions [6]. The equation
+(1.6) also gives an efficient way to determine the anomalous dimensions γs to leading order
+in the small parameter g [7, 8]. As we review in Section 2.2, using (1.6) and conformal
+symmetry one readily finds that γs (g) ∝ g 2 , where the proportionality constant is simply
+obtained by computing the two point functions hKs−1 Ks−1 i at g = 0. This method is similar
+in spirit to the one recently advocated in [9], where the leading anomalous dimension of φ
+at the Wilson-Fisher fixed point in d = 4 −  was reproduced by using conformal symmetry,
+without explicit input from perturbation theory.
+   In this paper, we apply this method to the explicit example of interacting scalar field
+theories with O(N ) symmetry in various dimensions. These include the familiar Wilson-
+Fisher fixed point of the φ4 theory in d = 4 − , the large N expansion of the critical O(N )
+model in arbitrary dimension d, the perturbative IR fixed points of the cubic O(N ) models
+in d = 6 −  [10], and the UV fixed point of the non-linear sigma model in d = 2 + .
+In all these examples, we determine the explicit structure of the non-conservation equation
+(1.6) and use it to find the leading order anomalous dimensions of higher spin operators in
+the singlet, symmetric traceless and antisymmetric representations of O(N ). Many of our
+findings were obtained before by different methods [11,12], but the results in the cubic models
+in d = 6 −  and in the nonlinear sigma model in d = 2 +  are new as far as we know. In all
+examples, we pay particular attention to the large spin behavior of the anomalous dimensions,
+finding precise agreement with general expectations [13–17]. Combining information from
+the d = 4 −  and d = 2 +  expansions, as well as some input from the large spin limit, in
+Section 7 we also obtain some estimates for the dimension of the singlet higher spin operators
+in the d = 3 O(N ) models for a few low values of spin s and N .
+   In addition to their intrinsic interest and their relevance in statistical mechanics, the O(N )
+models we study in this note also play an important role in the context of the AdS/CFT
+correspondence. According to a well understood entry of the AdS/CFT dictionary, exactly
+conserved currents of spin s in CFTd are dual to massless spin s gauge fields in AdSd+1 .
+Interacting higher spin gauge theories in AdSd+1 were explicitly constructed by Vasiliev
+[18–21], and a class of them were naturally conjectured [22] to be dual to the singlet sector
+of the free O(N ) vector model. The exactly conserved currents Js with s = 2, 4, 6, . . . are
+dual to the corresponding massless gauge fields in the Vasiliev theory, and the scalar operator
+J0 = φi φi to a bulk scalar field with m2 = −2(d−2)/`2AdS . As further conjectured in [22], one
+may extend this duality to the interacting case, obtained by adding to the free theory the
+
+
+
+                                                3
+“double-trace” interaction λ(φi φi )2 . For d < 4 there is a flow to an interacting IR fixed point1
+which is conjectured to be dual to the same Vasiliev theory but with alternate boundary
+conditions on the bulk scalar field [23]. A distinguishing feature of large N interacting vector
+models is that the descendant operator Ks−1 appearing in the non-conservation equation is
+a “double-trace” operator, schematically
+
+                                                    1 X
+                                          ∂ · Js = √    JJ .                                            (1.7)
+                                                    N
+
+This implies that the anomalous dimensions are γs ∼ O(1/N ), which corresponds to a
+quantum breaking of the higher spin gauge symmetry in the bulk: the higher spin gauge
+fields acquire masses through loop corrections2 when the bulk scalar is quantized with the
+alternate boundary conditions. In representation theory language, the equation (1.6) means
+that the short representation of the conformal algebra with (∆ = d − 2 + s, s) combines with
+the representation (∆ = d − 1 + s, s − 1) to form a long multiplet with (∆ > d − 2 + s, s). In
+the bulk, this phenomenon corresponds to a higher spin version of the Higgs mechanism [24]:
+the gauge field swallows a spin s − 1 Higgs field to yield a massive spin s field. The fact
+that the operator on the right-hand side of (1.7) is double-trace implies that the Higgs
+field is a composite two-particle state, and the breaking is subleading at large N . This is
+different from theories of Yang-Mills type, where Ks−1 in (1.6) is a single trace operator,
+and the anomalous dimensions are non-zero already at planar level. In the bulk, this would
+correspond to a tree-level Higgs mechanism.
+       Let us finally mention that, although in this paper we focus on the scalar O(N ) models,
+the methods we use can be applied to a variety of interesting theories, such as for instance
+the critical Gross-Neveu models in 2 < d < 4, conformal QEDd with Nf fermions, the
+CP N model, and 3d bosonic and fermionic vector models coupled to Chern-Simons gauge
+fields [6,25,26]. The latter models have approximate higher spin symmetry at large N for all
+values of the ‘t Hooft coupling λ, and one should be able to use (1.6) to find the anomalous
+dimensions to order 1/N , γs = fs (λ)/N + . . ., for all values of λ and spin.3 We leave this to
+future work.
+       Note added in proof: After completion of our calculations, while writing up this note, we
+became aware of [27], which has overlap with some of our results.
+   1
+      For 4 < d < 6 there is a flow to a (presumably metastable) perturbatively unitary, UV fixed point [10].
+   2
+      In the higher spin/CFT dualities, the bulk Newton’s constant GN scales as 1/N . The mass of a spin s
+field in AdSd+1 is related to the dual conformal dimension by (∆s + s − 2)(∆s + 2 − d − s) = m2s `2AdS , which
+implies m2s `2AdS ∼ 1/N for γs ∼ 1/N . To leading order at large N , m2s `2AdS ≈ (2s + d − 4)γs .
+    3
+      Some results for a few low values of spins were given in [6, 25].
+
+
+
+                                                      4
+2       General method
+
+2.1      The higher spin currents in free field theory
+In this section we will setup the definitions and notations which will then be applied to the
+particular models. We will also describe the derivation of the master formula which allows
+to calculate the lowest-order value of the anomalous dimensions without doing any loop
+calculations.
+      We first introduce some useful technology for the manipulation of symmetric tensors. For
+a given a rank s tensor Jµ1 µ2 ···µs in the symmetric traceless representation, we may introduce
+an auxiliary “polarization vector” z µ , which can be taken to be null (z 2 = 0), and construct
+the index-free projected tensor
+
+                               Jˆs ≡ Jµ1 ···µs z µ1 · · · z µs ,      z2 = 0 .                 (2.1)
+
+It is evident that the multiplication by z µ selects only the symmetric traceless part of Jµ1 ···µs .
+One may always go back to the full tensor by “stripping off” the null vectors and subtracting
+traces. In practice, this can be done efficiently with with the help of the following differential
+operator in z-space [8, 28, 29]
+                                          
+                                      d                        1
+                          Dzµ ≡         − 1 ∂zµ + z ν ∂zν ∂zµ − z µ ∂zν ∂zν .                  (2.2)
+                                      2                        2
+
+Acting once with this operator removes a z µ , thus freeing one index of the tensor, while
+taking into account the constraint z 2 = 0. The unprojected Jµ1 ···µs can thus be recovered
+via
+                                  Jµ1 µ2 ···µs ∝ Dµz 1 Dµz 2 · · · Dµz s Jˆs .                 (2.3)
+
+The symmetrization and tracelessness of the operator obtained this way is ensured by the
+properties
+                                   [Dzµ , Dzν ] = 0,          Dzµ Dµz = 0.                     (2.4)
+
+Similarly, the conservation equation (1.3) of the spin s operator may be written compactly
+in this notation as
+                                               ∂µ Dzµ Jˆs = 0.                                 (2.5)
+
+      Let us now construct the explicit conserved higher spin currents in the free CFT of N
+
+
+
+
+                                                       5
+real massless scalar fields. They satisfy the free wave equation
+
+                                        ∂ 2 φi = 0,           i = 1, . . . , N               (2.6)
+
+and there is a O(N ) global symmetry under which φi transforms in the fundamental repre-
+sentation. This free CFT admits an infinite tower of exactly conserved higher spin operators
+(1.4), which are bilinears in the scalars with a total of s derivatives acting on the fields.
+Projecting indices with the null vector z µ , these operators can be written as
+                                                   s
+                                                   X
+                                          Jˆij =         csk ∂ˆs−k φi ∂ˆk φj                 (2.7)
+                                                   k=0
+
+
+where we have introduced the projected derivative ∂ˆ = ∂µ z µ , and csk are coefficients that will
+be fixed shortly. Of course, one can separate this operator into irreducible representations
+of O(N ), as discussed in more detail below. It is convenient to rewrite (2.7) in the following
+form
+                                   Jˆsij = fs (∂ˆ1 , ∂ˆ2 )φi (x1 )φj (x2 )
+                                                                             x1 ,x2 →x
+                                           s
+                                           X                                                 (2.8)
+                            fs (u, v) =          csk us−k v k ,       u = ∂ˆ1 , v = ∂ˆ2 .
+                                           k=0
+
+where we have encoded the coefficients csk into the function fs (u, v). Now the conservation
+equation (2.5) may be turned into a differential equation for the function fs , which, upon
+using the free equation of motion ∂ 2 φ = 0, reduces to
+
+                               (d/2 − 1)(∂u + ∂v ) + u∂u2 + v∂v2 fs = 0.
+                                                                
+                                                                                             (2.9)
+
+The following ansatz for fs is convenient
+                                                                  u − v 
+                                          fs = (u + v)s φs                     ,            (2.10)
+                                                                   u+v
+
+and results in the ordinary differential equation
+                      
+                               2  d2           d              
+                          (1 − t ) 2 − (d − 2)t + s(s + d − 3) φs (t) = 0 .                 (2.11)
+                                  dt           dt
+
+The solution to this equation is given by the order s Gegenbauer polynomials, φs (t) =
+ d/2−3/2
+Cs         (t), which are even (odd) for even (odd) s. Hence, up to the overall normalization,
+
+
+
+
+                                                          6
+one gets the following expressions for the conserved higher spin currents
+
+                                                          ∂ˆ − ∂ˆ 
+                                                             1    2
+                         Jˆsij = (∂ˆ1 + ∂ˆ2 )s Csd/2−3/2             φi (x1 )φj (x2 )           .                  (2.12)
+                                                            ˆ    ˆ
+                                                           ∂1 + ∂2                    x1 ,x2 →x
+
+
+One may also write
+                                  
+                             u−v
+          (u + v) Csd/2−3/2
+                   s
+                                     =                                                      (2.13)
+                             u+v
+                  √                             s
+                    πΓ d2 + s − 1 Γ(d + s − 3) X
+                                 
+                                                                  (−1)k us−k v k
+                =                                                                        d
+                          2d−4 Γ d−3                                d
+                                                                                            
+                                   2           k=0
+                                                   k!(s − k)! Γ k + 2
+                                                                      −  1  Γ    s − k + 2
+                                                                                           − 1
+
+from which one can read-off the coefficients csk in (2.7) if desired. The overall normalization
+is arbitrary at this level. Note that one feature of the form (2.12) is that it vanishes at
+d = 3, see the factor in front of the sum in (2.13). This vanishing is not meaningful, one
+could always remove it by normalizing the currents differently. For the explicit calculations
+below, we find it more convenient to use the form (2.12) in terms of Gegenbauer polynomials.
+      The higher spin operators may be decomposed into symmetric traceless, antisymmetric
+and singlet of O(N )
+                                               Jsij = Js(ij) + Js[ij] + Js                                         (2.14)
+
+where Js ≡ Jsii denotes the singlet current. It is evident by symmetry that the singlet and
+symmetric traceless representations only exist for even spin, and the antisymmetric one for
+                                                                     [ij]
+odd spins. For s = 1, the antisymmetric operator J1                         is nothing but the familiar conserved
+current corresponding to the O(N ) global symmetry. The presence of the conserved currents
+of all spins implies that the free CFT has an infinite dimensional exact higher spin symmetry.
+The generators can be constructed in a canonical way as follows. First, by contracting a spin
+s current with a spin s − 1 conformal Killing tensor ζ µ1 ...µs−1 ,4 we may obtain an ordinary
+         ζ
+current Jµ,s = Jµµ2 ···µs ζ µ2 ...µs , which is conserved as it is easily checked. From this, one can
+get a conserved charge Qζs in the usual way. For instance, for s = 2, the singlet current
+J2 is proportional to the traceless stress tensor of the CFT, and contracting this with the
+linearly independent conformal Killing vectors one gets the (d + 2)(d + 1)/2 generators of
+                                                                                                                         [ij]
+the conformal algebra. In the interacting theory, all of the currents (2.14), except for J1
+and J2 , will be broken. In particular, while the free CFT has N (N + 1)/2 conserved “stress
+tensors”, only one of them remains conserved when interactions are switched on.
+      For what follows, it will be useful to work out the normalization of the two point function
+  4                                                                                   s−1
+      A conformal Killing tensor is a symmetric tensor satisfying ∂(µ1 ζµ2 ···µs ) = d+2s−4 g(µ1 µ2 ∂ ν ζµ3 ···µs )ν .
+
+
+
+                                                             7
+of the currents (2.12) in arbitrary dimensions d. Since the currents are bilinear in φ there will
+be two propagators, which are differentiated by the hatted derivatives at both points. The
+calculation is drastically simplified by using the Schwinger parametrization of the propagator
+                                                                                Z ∞
+                     i      j    Γ(d/2 − 1)   δ ij                                     dα d/2−2 −αx2
+                  hφ (x)φ (0)i =                     = δ ij                                  α e     .                    (2.15)
+                                   4π d/2 (x2 )d/2−1                              0   4π d/2
+
+Owing to the fact that ∂ˆx̂ = 0, since z 2 = 0, all hatted derivatives are replaced by −2αx̂
+if acting at point x and +2αx̂ at point 0, so that instead of spin sums we have integrals of
+Gegenbauer polynomials over the parameters α1 and α2 for the first and second propagator
+respectively. Separating the O(N ) indices, we may write
+
+                                                                                               2s
+                                                                                      Ns (x̂)
+                                hJˆsij (x)Jˆskl (0)i = (δ ik δ jl + (−1)s δ il δ jk ) 2 d+2s−2                            (2.16)
+                                                                                     (x )
+
+                                                             d/2−3/2                          d/2−3/2
+The (−1)s comes from the property of Cs                                (−x) = (−1)s Cs                  (x). The spacetime
+and z µ dependence is of course as required by conformal symmetry for a spin s conserved
+operator. The normalization factor Ns is given by the following expression
+             Z ∞Z ∞
+(−1)s 22s                         d/2−2 d/2−2 −α1 −α2
+                                                                                              α − α 
+                                                                                                 1       2
+                                                                                                                         α − α 
+                                                                                                                           1       2
+                         dα1 dα2 α1    α2    e        (α1 + α2 )2s Csd/2−3/2                                 Csd/2−3/2
+(4π d/2 )2   0      0                                                                          α1 + α2                    α1 + α2
+                                 s 2s Z ∞            d−4+2s+1         Z 1
+                         (−1) 2                  p
+                    =                       dp                  e−p         dq(1 − q 2 )d/2−2 (Csd/2−3/2 (q))2
+                         (4π d/2 )2     0             2d−3             −1
+                                                                                                                          (2.17)
+from which we get
+                                            (−1)s 22s πΓ(d + 2s − 3)Γ(d + s − 3)
+                                   Ns =                                                                                   (2.18)
+                                            (4π d/2 )2 22d−8 s!(Γ(d/2 − 3/2))2
+The norms corresponding to the irreducible representations of O(N ) are then
+
+                                                                                         2s
+                                                                        Ns (x̂)
+                                      hJˆs (x)Jˆs (0)i = N (1 + (−1)s ) 2 d+2s−2                                          (2.19)
+                                                                       (x )
+
+for the singlet,
+
+                                            (1 + (−1)s ) ik jl            2            Ns (x̂)2s
+                 hJˆs(ij) (x)Jˆs(kl) (0)i =             (δ δ + δ il δ jk − δ ij δ kl ) 2 d+2s−2                           (2.20)
+                                                 2                        N           (x )
+
+for the symmetric traceless, and
+
+                                                    (1 − (−1)s ) ik jl             Ns (x̂)2s
+                         hJˆs[ij] (x)Jˆs[kl] (0)i =             (δ δ − δ il δ jk ) 2 d+2s−2                               (2.21)
+                                                         2                        (x )
+
+
+                                                                 8
+for the antisymmetric.
+
+
+2.2     Anomalous dimensions of the weakly broken currents
+Let us consider a CFT with a parameter g playing the role of a coupling constant, such
+that in the g = 0 limit there are exactly conserved currents Js . When a non-zero coupling g
+is turned on, the currents will be no longer conserved for general s and acquire anomalous
+dimensions
+                                      ∆s = d − 2 + s + γs (g) .                             (2.22)
+
+The non-conservation of the currents means that a non-zero operator of spin s − 1 must
+appear on the right hand side of (1.3), or equivalently (2.5)
+
+                                          ∂µ Dzµ Jˆs = g K̂s−1 ,                            (2.23)
+
+where we have pulled out an explicit factor of g in front of the descendant to stress that the
+right hand side vanishes when g = 0. Here g is assumed to be a small expansion parameter,
+and may be either a power of  in the Wilson-Fisher type models, or a power of 1/N in
+the large N approach. We now proceed by noting that in a CFT the form of the two-point
+function of the spin s operators is fixed by conformal symmetry to be
+
+                                                                       Iˆs
+                                hJˆs (x1 )Jˆs0 (x2 )i = δss0 C(g)                           (2.24)
+                                                                    (x212 )∆s
+
+where
+                                                                xµ12 xν12
+                            Iˆ = Iµν z1µ z2ν ,     Iµν = ηµν − 2 2 .                        (2.25)
+                                                                  x12
+Acting on this two-point function with ∂µ Dzµ on both operators (with different projection
+vectors z1 and z2 ), one gets, using the form of the non-conservation equation (2.23)
+
+                   ∂1µ Dzµ1 ∂2µ Dzµ2 hJˆs (x1 )Jˆs (x2 )i = g 2 hK̂s−1 (x1 )K̂s−1 (x2 )i.   (2.26)
+
+
+
+
+                                                     9
+On the other hand, differentiating the right hand side of (2.24), setting z1 = z2 at the end,
+and dividing by the two-point function of J 0 s, one finds the relation [7, 8]
+
+            hK̂s−1 (x1 )K̂s−1 (x2 )i
+  g 2 x̂2                            = −γs (g 2 )s(s + d/2 − 2) (s + d/2 − 1)(s + d − 3)
+                                                               
+               hJˆs (x1 )Jˆs (x2 )i
+                                                                  + γs (g 2 )(s2 + sd/2 − 2s + d/2 − 1) . (2.27)
+                                                                                                       
+
+
+The right-hand side being proportional to γs is not a coincidence and follows from the
+conservation of the higher-spin current at zero coupling (2.5). From a CFT standpoint,
+(2.27) is an exact relation. In practice, when doing perturbation theory in g, one computes
+the correlators on the left hand side in powers of the coupling. It is then evident that (2.27)
+allows to gain an order in perturbation theory. To obtain the anomalous dimensions of the
+broken currents to leading order in g, one has simply to evaluate ratio of correlators in the
+free theory, g = 0. In particular, this only involves finite tree-level correlators, avoiding the
+issues of regularization and renormalization.
+    The considerations above are general and apply to any CFT with weakly broken higher
+spin operators (2.23). For the explicit examples discussed in the rest of the paper, it will be
+useful to determine the general form of the descendants Ks−1 in the scalar theories. Applying
+the divergence operator to the higher spin currents (2.12), we find in terms of the function
+fs (u, v):
+                   ∂µ Dzµ Jˆsij = hs (∂ˆ1 , ∂ˆ2 )∂12 + (−1)s hs (∂ˆ2 , ∂ˆ1 )∂22 φi (x1 )φj (x2 )
+                                                                              
+                                                                                                               ,
+                                                                                                   x1 ,x2 →x
+                                                                                                                   (2.28)
+                                                            u−v 2         2
+                               hs (u, v) ≡ (d/2 − 1)∂u fs +    ∂uu fs + v∂uv fs .
+                                                             2
+Of course, this is zero in the free theory where ∂12 = ∂22 = 0. In the interacting theory, (2.28)
+allows to determine the form of the descendent once the equation of motion for φ is known in
+the specific model of interest. The function hs (u, v) can be evaluated more explicitly using
+the recurrence relations between the Gegenbauer polynomials, and one finds
+
+                                                                        d/2+1/2 u − v 
+                                                            2(d − 1)v
+                                             d/2−1/2 u − v
+                                                                                   
+                         s−1
+                                    
+ hs (u, v) = (u+v)             (d−3) (d/2−1)Cs−1            −          Cs−2             . (2.29)
+                                                      u+v      u+v               u+v
+
+As discussed above, the vanishing at d = 3 is superficial and is a consequence of the normal-
+ization of the currents (2.12).
+    Note that the methods described in this section can also be used to fix the leading order
+anomalous dimension of a nearly free field. For instance, in the case of a scalar field, the
+
+
+
+
+                                                             10
+equation of motion takes the form
+                                             ∂ 2 φ = gV                                 (2.30)
+
+where V is some operator of spin zero and bare dimension d/2 + 1. By an analogous calcula-
+tion as the one described above for the higher spin operators, one can show that to leading
+order γφ ∝ g 2 , where the proportionality constant is related to the two point function hV V i
+at g = 0. We will use this method in the next Section to reproduce the well-known anoma-
+lous dimension of φ at the Wilson-Fisher fixed point, see also [9]. The analogous calculations
+in the large N approach and in the nonlinear sigma model in d = 2 +  are given in Section
+4 and 6 respectively.
+
+
+3     O(N ) model in d = 4 − 
+We now apply the general formulae obtained in the previous section to the case of the critical
+O(N ) φ4 model in d = 4 −  dimensions, with action
+                                 Z          1               λ         
+                            S=       dd x      ∂µ φi ∂ µ φi + (φi φi )2 .                 (3.1)
+                                             2               4
+
+The one-loop beta function is well known and reads
+
+                                                       (N + 8)λ2
+                                  β(λ) = −λ +                                            (3.2)
+                                                          8π 2
+                                                       2
+and thus there is a IR critical point at λ∗ = N8π+8  + O(2 ). Before moving on to the higher
+spin operators, let us show how to reproduce the leading order anomalous dimension of φ
+using the classical equations of motion, following the methods reviewed above, see also [9].
+In the free theory, when λ = 0, the elementary field φi has canonical dimension ∆0 = d/2−1,
+thus saturating the unitarity bound and obeying ∂ 2 φi = 0. The tree-level two-point function
+of φi is given by
+                             i       j        Γ(d/2 − 1)    δ ij
+                           hφ (x1 )φ (x2 )i =                       .                     (3.3)
+                                                4π d/2 (x212 )d/2−1
+When we turn on the interaction, the equation of motion is modified to
+
+                                         ∂ 2 φi = λφi φj φj ,                             (3.4)
+
+
+
+
+                                                  11
+and the two-point function receives corrections. At the conformal point, the exact two-point
+function is constrained by conformal symmetry to be
+
+                                                                      C(λ)
+                                      hφi (x1 )φj (x2 )i = δ ij                     .                (3.5)
+                                                                  (x212 )d/2−1+γφ
+
+Applying the equation of motion twice, i.e. taking the ∂12 ∂22 on both sides and taking the
+ratio one gets:
+
+                           hφi φk φk (x1 )φj φl φl (x2 )i
+            λ2∗ (x212 )2                                  = 4γφ (γφ + 1)(d − 2 + 2γφ )(d + 2γφ ).    (3.6)
+                                hφi (x1 )φj (x2 )i
+
+The fact that the right-hand side is proportional to γφ is expected and is due to the shortening
+condition at zero coupling, ∂ 2 φi = 0. To get the leading order in  for γφ we notice that
+in the left hand side λ2∗ ∼ 2 , so in the two-point function ratio we can just plug d = 4
+propagators
+                                                                    1 δ ij
+                                           hφi (x1 )φj (x2 )i =              .                       (3.7)
+                                                                   4π 2 x212
+In the right-hand side we get
+
+                           4γφ (γφ + 1)(2 −  + γφ )(4 −  + 2γφ ) = 32γφ + O(3 )                   (3.8)
+
+since it is evident that γφ ∼ 2 . Now, the two-point function in the numerator of (3.6),
+evaluated at tree level, yields
+
+                                                                 1                     1
+                           hφi φk φk (x1 )φj φl φl (x2 )i0 =            (2N + 4)δ ij
+                                                                                       2
+                                                                                                     (3.9)
+                                                               (4π 2 )3              (x12 )3
+
+Finally, taking the ratio by the free propagator and equating the right-hand side (3.8), we
+recover the well-known result
+
+                                              λ2∗ N + 2     N +2 2
+                                     γφ =       2 2
+                                                        =           .                              (3.10)
+                                            (4π ) 16      4(N + 8)2
+
+One can contrast this to the usual calculation, which is technically quite different. There,
+the leading order correction to the two-point function of the φi field is given by extracting
+the logarithmic divergence of the standard two-loop diagram in Fig. 1.
+   We may now proceed to studying the higher spin currents using the same method. We
+use the definition of the currents (2.12) and the descendant (2.28). To lowest order the 
+dependence is fixed by the the critical coupling λ∗ , so we can use d = 4 everywhere. The
+
+
+                                                         12
+Figure 1: The 2-loop diagram yielding the leading order anomalous dimension of the φi field
+in the O(N ) model in the standard approach.
+
+currents are then:
+                                                       ∂ˆ − ∂ˆ 
+                                                          1    2
+                          Jˆsij = (∂ˆ1 + ∂ˆ2 )s Cs1/2             φi (x1 )φj (x2 )           ,                (3.11)
+                                                         ˆ    ˆ
+                                                        ∂1 + ∂2                    x1 ,x2 →x
+
+
+and the descendant:
+                                                                          
+  ij
+K̂s−1 (x) = hs (∂ˆ1 + ∂ˆ3 + ∂ˆ4 , ∂ˆ2 ) + (−1)s hs (∂ˆ2 + ∂ˆ3 + ∂ˆ4 , ∂ˆ1 ) φi (x1 )φj (x2 )φk (x3 )φk (x4 )             ,
+                                                                                                             x1,2,3,4 →x
+                                               3/2  u − v             6v     5/2 u − v 
+                                                                                            
+                    hs (u, v) = (u + v)s−1 Cs−1                   −           Cs−2
+                                                         u+v           u+v            u+v
+                                                                                                            (3.12)
+                                                                                     ˆ     ˆ
+Note that this form is redundant in the sense that we could combine ∂3 + ∂4 into ∂3 acting on       ˆ
+φi φi (x3 ), but it makes all the symmetries of the diagrams we will need to calculate explicit.
+A few examples might be useful. For instance, for s = 1 the only non-zero current is the
+antisymmetric one, for which the descendant vanishes as it should since it’s the current in
+the adjoint of O(N ). For s = 2 we have non-zero currents for the symmetric traceless and
+the singlet representations, and the descendant is
+
+K̂1ij = 2(∂ˆ3 + ∂ˆ4 − ∂ˆ1 − ∂ˆ2 )φi (x1 )φj (x2 )φk (x3 )φk (x4 )                 = −2 ˆ
+                                                                                      ∂(φi φj )φk φk +2φi φj ˆ
+                                                                                                            ∂(φk φk )
+                                                                    x1,2,3,4 →x
+                                                                                                              (3.13)
+This vanishes for the singlet as it is the conserved stress-energy tensor. It does not vanish for
+the symmetric traceless representation, as the corresponding operator acquires an anomalous
+dimension in the interacting theory. As another example, the spin 3 descendant of the spin
+4 singlet current is
+
+             K̂3 = 20(φi φi ∂ˆ3 (φk φk ) − 6∂(φ
+                                            ˆ i φi )∂ˆ2 (φk φk ) + 33(φi ∂ˆ2 φi − 30∂φ
+                                                                                    ˆ i ∂φ
+                                                                                        ˆ i )∂(φ
+                                                                                             ˆ k φk )
+                          ˆ i ∂ˆ2 φi − 4∂φ
+                      −3∂(3φ                ˆ i ∂φ
+                                                ˆ i )φk φk                                            (3.14)
+
+
+
+
+                                                          13
+   The master formula (2.27) at the leading order yields the following for γs :
+
+                                          λ2    x̂2 hK̂s−1 (x)K̂s−1 (0)i
+                                γs = − 2 ∗ 2                             .                                     (3.15)
+                                      s (s + 1)       hJˆs (x)Jˆs (0)i
+
+For the two-point function of the currents one has in d = 4, according to (2.17):
+
+                                1       (2x̂)2s πΓ(2s + 1)Γ(s + 1)       (2s)! (2x̂)2s
+            hJˆs Jˆs i = 2N                                        = 2N                                        (3.16)
+                              (4π 2 )2 (x2 )2s+2   s!(Γ(1/2))2          (4π 2 )2 (x2 )2s+2
+
+for the singlet and similarly
+
+                                                                   2 ij kl (2s)! (2x̂)2s
+                  hJˆs(ij) Jˆs(kl) i = (δ ik δ jl + δ ik δ jl −      δ δ )                                     (3.17)
+                                                                   N             (4π 2 )2 (x2 )2s+2
+                                                                                  (2s)! −(2x̂)2s
+                                   hJˆs[ij] Jˆs[kl] i = (δ ik δ jl − δ ik δ jl )                               (3.18)
+                                                                                 (4π 2 )2 (x2 )2s+2
+
+where we used the fact that the singlet and symmetric traceless representations exist for
+even spins only, and the antisymmetric one for odd spins.
+   To obtain the anomalous dimensions via eq. (3.15), we have to compute the two-point
+function of the descendant at tree level. Each descendant (3.12) consists of a differential
+operator acting on four φ fields. We simply have to compute the free field Wick contractions
+between the fields (contractions of fields on the same descendant are of course excluded)
+
+                    hφi (x1 )φj (x2 )φm (x3 )φm (x4 ) , φk (y1 )φl (y2 )φn (y3 )φn (y4 )i0                     (3.19)
+
+and then act with the differential operator in (3.12) on the resulting product of free prop-
+agators, setting x1,2,3,4 → x and y1,2,3,4 → 0 at the end. It is straightforward to do this for
+any given spin: the problem is purely algebraic and there are no integrals to compute. How-
+ever, to obtain a general result as a function of spin, it is convenient to use the Schwinger
+representation (2.15) of the propagator and carry out the resulting integrals of products of
+Gegenbauer polynomials. Some technical details of this are collected in Appendix A. The
+final result takes the following form. For even spins, based on symmetry we get the structure
+
+           ij    kl                         δ ik δ jl + δ il δ jk
+        hK̂s−1 K̂s−1 i = (As N + Cs )                             + Bs δ ij δ kl ,        s = 2, 4, 6, . . .   (3.20)
+                                                      2
+
+
+
+
+                                                           14
+and similarly for odd spins
+
+                       ij                             δ ik δ jl − δ il δ jk
+                    hK̂s−1   kl
+                           K̂s−1 i = (A0s N + Cs0 )                         ,    s = 1, 3, 5, . . .          (3.21)
+                                                                2
+
+The As (and A0s ) terms come from contracting the first pair of φ fields at different points
+with each other and the second pair as well (hence the O(N ) indices form a closed loop);
+the Bs term is from contracting the pairs across (pair one with pair two and vice-versa); the
+Cs (and Cs0 ) term is from contracting one φ from the first pair with one from the second
+one (so that the O(N ) indices thread the diagram without loops). The final result for the
+coefficients As , Bs , Cs , A0s , Cs0 is:
+
+                                                                            (2x̂)2s−2
+                           As = −(s − 1)s(s + 1)(s + 2)(2s)!
+                                                                         (x2 )2s+2 (4π 2 )4
+                                                       (2x̂)2s−2
+                           Bs = 4s(s + 1)(2s)!
+                                                    (x2 )2s+2 (4π 2 )4                                       (3.22)
+                                                                (2x̂)2s−2
+                           Cs = −2(s − 2)s(s + 1)(s + 3)(2s)! 2 2s+2
+                                                             (x )     (4π 2 )4
+                           A0s = −As ,         Cs0 = 2As
+
+       From (3.20) and (3.21), we can readily extract the singlet, symmetric traceless and anti-
+symmetric parts. They are
+
+                         hK̂s−1 K̂s−1 i = (As + Bs )N 2 + Cs N
+                                                                                  
+                            (ij) (kl)     As N + Cs     ik jl  ik jl       2 ij kl
+                         hK̂s−1 K̂s−1 i =              δ δ +δ δ − δ δ                                        (3.23)
+                                               2                           N
+                            [ij]  [kl]      As
+                         hK̂s−1 K̂s−1 i = − (N + 2) δ ik δ jl − δ ik δ jl .
+                                                                         
+                                             2
+
+It is now straightforward to extract the one-loop anomalous dimensions, using the general
+formula (3.15) and the normalization of the currents (3.16), (3.18). For the singlet operators,
+we get5
+                                              2 (N + 2)          6    
+                                       γs =                1 −                                               (3.24)
+                                              2(N + 8)2        s(s + 1)
+This vanishes for s = 2 as it should, corresponding to the conservation of the stress-energy
+   5
+    It is amusing that the spin dependent factor in brackets in (3.24) is the same as the central charge of the
+unitary minimal models M (s, s + 1), which have c = 0, 1/2, 7/10, . . . for s = 2, 3, 4, . . .. Similarly, the result
+(3.26) for the antisymmetric representation is proportional to the central charge c = 32 (1 − 8/(p(p + 2))) of
+the N = 1 supersymmetric minimal models for p = 2s. One may wonder if there is a deeper significance to
+these apparent coincidences. We thank Igor Klebanov for bringing this to our attention.
+
+
+
+                                                         15
+tensor. For the symmetric traceless operators, we get
+
+                                   2 (N + 2)        2(N + 6)     
+                          γs(ij) =              1−                                        (3.25)
+                                   2(N + 8)2       (N + 2)s(s + 1)
+
+and for the antisymmetric ones
+
+                                       2 (N + 2)         2    
+                              γs[ij] =              1−            .                       (3.26)
+                                       2(N + 8)2       s(s + 1)
+
+The latter vanishes for s = 1, corresponding to the exact conservation of the current in the
+adjoint of O(N ). All these results are in agreement with [11].
+    It is worth mentioning the analysis of these results done in [16,17], where the asymptotic
+s → ∞ behavior for the twist, τs = ∆s − s and consequently the anomalous dimension of
+higher-spin currents is established. Namely one should get for the twist of the higher spin
+operator of the form φ∂ˆs φ
+                                             cτ
+                                   τs = 2τφ − τmin + ...,                            (3.27)
+                                             s min
+where τmin is the minimal twist among the operators present in the φφ OPE. First of all,
+                                                 2
+                                            (N +2)
+we see that the limiting value is equal to 2(N +8)2
+                                                    = 2γφ as follows from expanding (3.27) to
+order . Second, the leading correction behaves as s12 , which is a manifestation of having a
+tower of operators with twist 2, which at this order in  are the higher-spin currents and
+the φi φi operator (see [16] for more details). In principle, the coefficient cτmin is determined
+by the certain three-point functions of these operators with φ. We will go into more detail
+about this in the next two sections.
+
+
+4     The large N critical O(N ) model
+To develop the 1/N expansion of the φ4 theory, one may introduce a Hubbard-Stratonovich
+auxiliary field σ, so that the action (3.1) may be rewritten as
+
+                                                                      σ2 
+                                Z          1               1
+                           S=       dd x      ∂µ φi ∂ µ φi + σφi φi −      .                (4.1)
+                                            2               2         4λ
+
+
+
+
+                                                     16
+In the IR limit for d < 4, the last term becomes unimportant and can be dropped.6 To
+develop perturbation theory, it is convenient to rescale σ so that the action becomes
+                                    Z
+                                         d
+                                             1         1
+                                                      µ i   i i
+                                                                
+                               S=       d x ∂µ φi ∂ φ + √ σφ φ .                                      (4.2)
+                                            2          2 N
+
+The σ field then acquires an effective non-local propagator upon integrating out φi7
+
+                                     Cσσ                     2d+2 Γ( d2 − 12 ) sin(πd/2)
+                    hσ(x1 )σ(x2 )i = 2 2 ,          Cσσ =            3                                (4.3)
+                                    (x12 )                         π 2 Γ( d2 − 2)
+
+so that σ, which replaces the scalar operator φi φi , is a primary operator of dimension 2 +
+O(1/N ) at the interacting fixed point. Systematic perturbation theory can be developed
+using this effective propagator, the canonical propagator (3.3) for φi and the σφi φi vertex,
+       √
+with 1/ N playing the role of the coupling constant.
+       The equation of motion for φ is
+
+                                                       1
+                                             ∂ 2 φi = √ σφi                                           (4.4)
+                                                       N
+
+and the equation of motion for σ is formally φi φi = 0 after we drop the last term of (4.2) in
+the IR limit. The role of this equation is to “subtract” from the theory the operator φi φi ,
+which is replaced by σ. This fact will play an important role in our calculation below.
+       Before turning to the higher spin currents let us calculate as a warmup the anomalous
+dimension γφ of the φ field, without computing Feynman diagrams. Using the equations of
+motion (4.4) and acting on the φ two-point function with ∂12 ∂22 , we get
+
+                 1 2 2 hφi σ(x1 )φj σ(x2 )i
+                  (x )                      = 2γφ (γφ + 1)(d − 2 + 2γφ )(d + 2γφ ).                   (4.5)
+                 N 12   hφi (x1 )φj (x2 )i
+
+From this, the leading order value of γφ immediately follows
+
+                                        Cσσ       2 sin(πd/2)Γ(d − 2)
+                             γφ =               =                                                     (4.6)
+                                    4N d(d − 2)   N πΓ( d2 − 2)Γ( d2 + 1)
+
+which is a well-known result. It is quite remarkable how simple the calculation is, provided
+we know Cσσ . It is also helpful that one completely avoids (to the lowest order) the is-
+   6
+     For d > 4, the last term can be dropped in the UV limit, corresponding to a non-trivial UV fixed point.
+   7
+     The quadratic term in the resulting σ effective action is just proportional to the two-point function
+hφi φi (x)φj φj (y)i0 in the free theory. The σ propagator is obtained by Fourier transforming to momentum
+space, inverting, and transforming back to x-space.
+
+
+                                                    17
+sues of regularization and renormalization, which are actually somewhat thorny in the 1/N
+expansion.
+       Let us now turn to the higher spin currents. These have the same form (2.12), and using
+(2.28) and the equations of motion (4.4), one ends up with
+
+                                                                 1
+                                                 ∂µ Dzµ Jˆsij = √ K̂s−1
+                                                                    ij
+                                                                                                                         (4.7)
+                                                                 N
+
+where
+                                                                   
+            ij
+          K̂s−1 =           ˆ    ˆ    ˆ               ˆ    ˆ    ˆ
+                        hs (∂1 + ∂3 , ∂2 ) + (−1) hs (∂2 + ∂3 , ∂1 ) φi (x1 )φj (x2 )σ(x3 )
+                                                 s
+                                                                                                                    ,    (4.8)
+                                                                                                        x1,2,3 →x
+
+
+and the function hs (u, v) is given in eq. (2.29).8 It is possible, and convenient for what
+follows, to decompose the descendant in products of the conformal primaries Jˆs , σ and their
+derivatives. We find                                      0
+                                                      X−1
+                                                 s−2 s−s
+                                                 X                        0
+                                       ij
+                                     K̂s−1 =                   Cs0 k ∂ˆs−s −k−1 Jˆsij0 ∂ˆk σ                             (4.9)
+                                                 s0 =0   k=0
+
+where the coefficients Cs0 k are given explicitly by
+                           
+                           (s − s0 )(2s0 + d − 3) s−s0 −1 −s−s0 +k−d+3 ,                    s − s0 even
+                                                               k            k+1
+               C s0 k =                                                                                                 (4.10)
+                           0 ,                                                                s − s0 odd
+
+An important point is that so far we have only used the φ equation of motion (4.4), and
+not the equation for σ whose role is to formally project out J0 = φi φi from the theory. This
+implies that in fact the form of the descendant (4.9) only applies as written to the non-singlet
+currents. For the singlets, one obtains the correct descendant by the prescription that the
+term s0 = 0 should be dropped from the sum. As an example, for s = 2 we get from (4.9)
+
+                                                                   ˆ − 2(∂ˆJˆij )σ
+                               K̂1ij = (d − 1)(d − 3) (d − 2)Jˆ0ij ∂σ
+                                                                                                 
+                                                                             0                                          (4.11)
+
+                                          (ij)                                                       (ij)
+For the symmetric traceless K1 , on the right hand side we have Jˆ0                                         = φ(i φj) and the
+descendant is non-vanishing. However, for the singlet we would have J0 = φi φi , which
+should be thrown away. This leads to K̂1 = 0, as it should be according to the conservation
+of the stress-energy tensor. In a similar way, the spin 3 descendant of the spin 4 singlet
+   8
+    Note that the vanishing of hs at d = 3 is of course not meaningful, and just follows from the normalization
+of the currents that we have chosen. Such factors of (d − 3) cancel out in the ratio hKs−1 Ks−1 i/hJs Js i.
+
+
+
+
+                                                               18
+current is
+                                                           ˆ − 2(∂ˆJˆ2 )σ
+                           K̂3 = (d + 3)(d + 1) (d + 2)Jˆ2 ∂σ
+                                                                                    
+                                                                                               (4.12)
+
+                                ˆ − 2/5(∂ˆJˆ2 )σ, in agreement with [6].
+At d = 3, we see that K̂3 ∝ Jˆ2 ∂σ
+   We can now compute the anomalous dimensions using (2.27). Let us first discuss the
+case of the non-singlet currents, where we can use directly the form (4.8), equivalent to (4.9).
+The descendant two-point function can be computed similarly to the previous section and
+one ends up with
+                                                          (s − 1)(d + s − 2)
+                          γs(ij) = γs[ij] = 2γφ                                  ,             (4.13)
+                                                      (d/2 + s − 2)(d/2 + s − 1)
+where γφ is the anomalous dimension of φ field. This is the correct result, in agreement [12].
+Let us now turn to the case of the singlet currents, which is slightly more involved due to
+the J0 projection discussed above. The correct singlet descendant is given by (here as usual
+we denote by Js0 = Jsii0 the singlet operators)
+
+                                           0
+                                     X−1
+                                s−2 s−s
+                                X                         0
+                      K̂s−1 =                  Cs0 k ∂ˆs−s −k−1 Jˆs0 ∂ˆk σ = K̂s−1
+                                                                               naive     0
+                                                                                     − K̂s−1
+                                s0 =2    k=0
+                                s−1
+                                                                                               (4.14)
+                                X
+                        0
+                      K̂s−1 =           C0k ∂ˆs−k−1 Jˆ0 ∂ˆk σ
+                                k=0
+
+
+        naive
+where K̂s−1   coincides with (4.8), with O(N ) indices traced. Its two-point function leads to
+a contribution equal to (4.13) to the anomalous dimension. To subtract the contribution of
+           0
+the term K̂s−1 proportional to J0 , we note that
+
+                              naive naive                        0     0
+                           hK̂s−1  K̂s−1 i = hK̂s−1 K̂s−1 i + hK̂s−1 K̂s−1 i                   (4.15)
+
+                  0
+since K̂s−1 and K̂s−1 are orthogonal, due to orthogonality of the spin s primaries (hJs Js0 i ∼
+δss0 ). Then, the correct singlet anomalous dimension is obtained by simply subtracting from
+                                                                 (0)    (0)
+(4.13) the contribution of the two-point function hK̂s−1 K̂s−1 i. By this procedure, we get the
+final result
+
+                           1              h                        Γ(d + 1)Γ(s + 1) i
+   γs = 2γφ                                 (s − 1)(d + s − 2) −                      ,        (4.16)
+               (d/2 + s − 2)(d/2 + s − 1)                        2(d − 1)Γ(d + s − 3)
+
+in agreement with [12]. One may also check that setting d = 4−, (4.16) and (4.13) precisely
+match the the results (3.24), (3.25), (3.26) expanded to order 1/N .
+   It is again interesting to mention the s → ∞ behavior [16, 17]. The expansion at large s
+
+
+                                                          19
+yields
+                                          Γ(d + 1) 1            d(d − 2) 1
+                         γs = 2γφ − 2γφ               d−2
+                                                          − 2γφ              + ...,
+                                           2(d − 1) s               4     s2
+                                                                                                   (4.17)
+                                                        d(d − 2) 1
+                                   γs(ij) = 2γφ − 2γφ               + ...
+                                                           4     s2
+We see a tower of higher spin currents (1/sd−2 ) in the singlet channel, as well as the σ
+(1/s2 ) in both the singlet and the traceless parts. The higher-spin contribution vanishes for
+the symmetric traceless. The 1/s2 coming from σ is universal and can be calculated. The
+coefficient cτmin in (3.27) is given by the formula (3.18) of [16] which reads in terms of two-
+and three-point function coefficients
+
+                                                                   2
+                               Γ(τmin + 2smin )      Γ(∆)2        COOOτmin
+                     cτmin = s −1 τmin +2smin 2         τ     2 2
+                                                                                                   (4.18)
+                            2 min Γ(      2
+                                                ) Γ(∆ − 2 ) COO COτmin Oτmin
+                                                          min
+
+
+
+
+In this theory, O = φ, Oτmin = σ. Here ∆ = d/2 − 1, τmin = 2, COτmin Oτmin is the three-point
+function coefficient of φφσ, Cφφ = Γ(d/2−1)
+                                     4π d/2
+                                            , Cσσ is defined above. Plugging all the factors,
+the coefficient of 1/s2 is exactly reproduced.
+
+
+5         Cubic models in d = 6 − 
+let us consider the following model with N + 1 scalars and O(N ) invariant cubic interactions
+                            Z          1               1         g1       g2 
+                       S=       dd x      ∂µ φi ∂ µ φi + (∂µ σ)2 + σφi φi + σ 3 .                   (5.1)
+                                        2               2         2        6
+
+As argued in [10], in d = 6 −  this model posseses IR stable, perturbatively unitary fixed
+points which provide a “UV completion” of the large N UV fixed points of the O(N ) model
+in d > 4. This proposal has passed various non-trivial checks [10,30,31]. These perturbative
+fixed points exist for N > 1038(1 + O()), and are expected to be unitary to all orders in
+ and 1/N expansions. However, non-perturbative effects presumably render the vacuum
+metastable via instanton effects. In this section we just perform perturbative calculations,
+and in particular we obtain further non-trivial agreement with the large N expansion in
+d > 4. 9
+        In this model, a novel feature in the calculation of the anomalous dimension of the higher
+spin operators is that the free theory contains two independent towers of conserved, O(N )
+    9
+    Calculations of anomalous dimensions of higher spin operators in a similar cubic model with an adjoint
+scalar and tr φ3 interaction were carried out in [32, 33].
+
+
+
+
+                                                     20
+singlet, higher spin currents:
+
+                               1                       ∂ˆ − ∂ˆ 
+                                                          1     2
+                    Jˆs,φ = √ (∂ˆ1 + ∂ˆ2 )s Cs3/2                  φi (x1 )φi (x2 )
+                               N                         ˆ     ˆ
+                                                         ∂1 + ∂2                     x1 ,x2 →x
+                                                     ∂ˆ − ∂ˆ                                    (5.2)
+                                                        1     2
+                        Jˆs,σ = (∂ˆ1 + ∂ˆ2 )s Cs3/2               σ(x1 )σ(x2 )
+                                                      ∂ˆ1 + ∂ˆ2                 x1 ,x2 →x
+
+
+where we have normalized Js,φ so that both currents have hJs Js i ∼ O(1). Once interactions
+are turned on, we expect these operators to mix non-trivially, and one should determine the
+appropriate eigenstates of the dilatation operator.
+   The equations of motion are
+
+                                                 ∂ 2 φi = g1 σφi
+                                                  1                                               (5.3)
+                                          ∂ 2 σ = (g1 φi φi + g2 σ 2 ) .
+                                                  2
+
+It is evident that the equations of motion will induce the mixing between the currents, since
+h∂ · Js,φ ∂ · Js,σ i 6= 0 due to the g1 -dependent interactions in (5.3). The descendant operators
+(in this case we find it more convenient to include the coupling constants into the definition
+of the Ks−1 ’s)
+                              ∂µ Dzµ Jˆs,φ = K̂s−1,φ ,         ∂µ Dzµ Jˆs,σ = K̂s−1,σ             (5.4)
+
+can be computed in a straightforward way by following similar steps as in the previous
+sections. Explicitly, they are given by
+
+                 1  ˆ                            
+    K̂s−1,φ = √      hs (∂1 + ∂ˆ3 , ∂ˆ2 ) + 1 ↔ 2 g1 φi (x1 )φi (x2 )σ(x3 )                       (5.5)
+                 N                            g
+                                                                             x1,2,3 →x
+               
+                                                  1 i                       g2               
+    K̂s−1,σ = hs (∂ˆ1 + ∂ˆ3 , ∂ˆ2 ) + 1 ↔ 2        φ (x1 )σ(x2 )φi (x3 ) + σ(x1 )σ(x2 )σ(x3 )
+                                       u − v  2 5v            u − v  2                    x1,2,3 →x
+                                  5/2                      7/2
+    hs (u, v) = 6(u + v)s−1 Cs−1
+                             
+                                                −        C
+                                        u+v        u + v s−2 u + v
+
+We can then use the general relation (2.27), suitably generalized to the present case with
+non-trivial mixing, to obtain the following anomalous dimension mixing matrix
+                   "     g12             6                       g2       1
+                                                                                 √           #
+                       48·4π 3
+                                (1 − (s+1)(s+2) )             − 4π13 8(s+1)(s+2)  N
+                            g12     1
+                                           √         g12 1           g22             12
+                                                                                                  (5.6)
+                       − 4π3 8(s+1)(s+2)     N      4π 3 2·48
+                                                              N + 2·48·4π 3 (1 − (s+1)(s+2) )
+
+
+
+
+where the non-diagonal terms comes from the non-zero two-point function hK̂s−1,φ K̂s−1,σ i.
+From this mixing matrix, one can compute the two eigenvalues to leading order in  and
+
+
+                                                         21
+finite N , using the expression for the fixed point couplings given in [10]. The resulting finite
+N expressions are easy to get, but rather lengthy. At large N , using the expressions for the
+fixed point couplings [10]
+                            r                             
+                          6(4π)3      22 726 326180
+                   g1∗ =            1+    + 2 −      + ...                                  (5.7)
+                             N         N   N     N3
+                         r                                        
+                    ∗      6(4π)3      162 68766 41224420
+                   g2 = 6            1+    +     +           + ...                          (5.8)
+                              N          N   N2      N3
+
+one finds that the eigenvalues are given by
+
+                             2 (s − 2)(s + 5)(s2 + 3s + 8)
+                            γ1 =                            + O(1/N 2 )
+                             N        (s + 1)2 (s + 2)2
+                                                                                            (5.9)
+                             16 5s4 + 30s3 + 38s2 − 21s − 25
+                    γ2 =  +                                   + O(1/N 2 )
+                              N          (s + 1)2 (s + 2)2
+
+The higher order corrections can be obtained to any desired order, but for simplicity we have
+listed here only the leading order in 1/N . We see that the γ1 eigenvalue vanishes at s = 2,
+and one can check that this is true for any N . This eigenvalue then corresponds to the tower
+of “single-trace” higher spin currents which include the stress-energy tensor. Indeed, one
+can explicitly verify that γ1 matches the 1/N expansion result (4.16) expanded in d = 6 − .
+The dimension corresponding to the second eigenvalue is
+
+                                         16 5s4 + 30s3 + 38s2 − 21s − 25
+     ∆2 = d − 2 + s + γ2 = 4 + s +                         2        2
+                                                                          + O(1/N 2 )     (5.10)
+                                         N          (s + 1) (s + 2)
+
+which suggests that this should match the “double-trace” operator σ∂ s σ ∼ φ2 ∂ s φ2 in the
+large N approach. Indeed, one can match (5.10) with the result given in [12] for the dimension
+of such composite operators of spin s. For s = 0, this is the scalar operator σ 2 of the large N
+model, which has dimension ∆ = 4−100/N +. . . near d = 6 and corresponds to a particular
+mixture of the mass operators φi φi and σ 2 in the cubic model [10].
+   One can also study the spin s operators in the symmetric traceless and antisymmetric
+representations of O(N ), where no mixing occurs (since Jˆs,σ is a singlet of O(N )). Following
+similar steps to the previous sections, we obtain the result
+
+                            (g1∗ )2 (s − 1)(s + 4)  2    44          (s − 1)(s + 4)
+        γs(ij) = γs[ij] =          3
+                                                   = (1 +    + . . .)                     (5.11)
+                            192π (s + 1)(s + 2)     N     N           (s + 1)(s + 2)
+
+The order 1/N is seen to exactly match the large N result (4.13). Furthermore, we checked
+
+
+                                                 22
+that the 1/N 2 term also matches with the result obtained in [34] using large N methods for
+arbitrary d.10
+       Let us now study the large spin limit of these results. For the eigenvalues of the singlet
+mixing matrix, the large spin expansion can be written in a simple form, valid for finite N ,
+in terms of the fixed point couplings
+
+                               (g1∗ )2   (g1∗ )2 1                       (g1∗ )2 1
+                         γ1 =          −           +  . . . , =   2γφ −              + ...
+                              192π 3      32π 3 s2                       32π 3 s2                  (5.12)
+                        (g ∗ )2 N + (g2∗ )2 (g2∗ )2 1                          (g2∗ )2 1
+                    γ2 = 1                  −              +  . . . = 2γσ  −             + ...
+                               384π 3           32π 3 s2                       32π 3 s2
+
+where we have used the known expression for the one-loop anomalous dimensions of φ and
+σ in the cubic model [10]. The leading terms are precisely consistent with the expected
+large spin limit. The subleading 1/s2 contributions are clearly coming from the exchange of
+the σ field, which has ∆σ = τ = 2. We can check explicitly the prediction of the formula
+(4.18) for the coefficients of the 1/s2 terms. For the γ1 eigenvalue, we should take that
+O = φ, Oτmin = σ. The two-point function coefficients are Cφφ =Cσσ = 4π1 3 . The three point
+function coefficient is given at the lowest order by a diagram with one g1 φi φi vertex in the
+middle. The diagram is given by the integral:
+
+                                                    d 6 x0                      π3
+                                             Z
+                                  g1                                g1
+                                                                =                                  (5.13)
+                                (4π 3 )3         x410 x420 x430   (4π 3 )3 x212 x223 x231
+
+                                                      (g ∗ )2             (g ∗ )2
+Combining the factors we get cτmin = 2 (43 π1 6 )2 (4π 3 )3 = 32π
+                                                                1
+                                                                  3 . Overall, we then get
+
+
+
+
+                                       (g1∗ )2   (g1∗ )2 1                  (g1∗ )2 1
+                    τs,φ = d − 2 +             −           + . . . = 2τ φ −           + ...        (5.14)
+                                       192π 3    32π 3 s2                   32π 3 s2
+                                   (g ∗ )2
+since τφ = ∆φ = d/2 − 1 + 384π
+                            1
+                               3 in the leading order. The same applies for the eigenvalue
+
+γ2 , corresponding to τs,σ , where we get:
+
+                                (g1∗ )2 N + (g2∗ )2 (g2∗ )2 1                  (g2∗ )2 1
+               τs,σ = d − 2 +                      −          + . . . = 2τ σ −           + ...     (5.15)
+                                       384π 3        32π 3 s2                  32π 3 s2
+                                  (g1∗ )2 N +(g2∗ )2
+where τσ = ∆σ = d/2 − 1 +               768π 3
+                                                     is the leading order dimension (and thus twist) of σ.
+The coefficient of 1/s2 is reproduced the three-point function hσσσi.
+       The cubic model in d = 6 −  also admits non-unitary fixed points which are of interest in
+  10
+    As far as we know, the 1/N 2 term in the large N expansion of the anomalous dimensions of the singlet
+higher spin operators has not been obtained in the literature.
+
+
+
+                                                                23
+statistical mechanics. The simplest case is the N = 0 model, which just consists of a single
+scalar field σ with cubic interaction g2 /6σ 3 . This model has a non-unitary fixed point at
+
+                                                      128π 3
+                                        (g2∗ )2 = −           + O(2 )                           (5.16)
+                                                        3
+
+As pointed out by Fisher [35], this theory is related to the Lee-Yang edge singularity of the
+Ising model. For d = 2 ( = 4), the fixed point corresponds to the non-unitary minimal
+model M (2, 5). Using the result (5.6) for g1 = 0, N = 0, we can deduce the dimension of the
+higher spin operators ∼ σ∂ s σ in the Fisher model to be
+                                                                              
+                              12                                     12
+         γs = 2γσ 1 −                           =−         1−                        + O(2 ) .   (5.17)
+                        (s + 1)(s + 2)             9            (s + 1)(s + 2)
+
+                              (g ∗ )2
+where we have used γσ = 768π
+                          2
+                             3 at one loop.
+
+   Another interesting non-unitary model is obtained at the formal value N = −2. In
+this case the model is equivalent to a theory of a complex anticommuting scalar θ and a
+commuting scalar σ [36]
+                          Z                                            
+                                  d      µ    1      2           1    3
+                     S=         d x ∂µ θ∂ θ̄ + (∂µ σ) + g1 σθθ̄ + g2 σ .                          (5.18)
+                                              2                  6
+
+with Sp(2) global symmetry. The IR stable fixed point occurs at [36]
+                                                        r
+                                                            (4π)3 
+                          g2∗ = 2g1∗ ,          g1∗ = i             (1 + O()) ,                  (5.19)
+                                                              5
+
+where the first equality holds to all orders in perturbation theory. For such a relation between
+couplings, one can verify that the model has an enhanced “supersymmetry” OSp(1|2) which
+implies that the dimension of θ and σ are equal. It turns out that this OSp(1|2) invariant
+fixed point is equivalent to the q → 0 limit of the q-state Potts model [37]. The dimension of
+the Sp(2) invariant higher spin currents at the fixed point can be obtained from (5.6) setting
+N = −2 and g2 = 2g1 . This yields the two eigenvalues
+
+                           (g1∗ )2 (s − 2)(s + 5)     (s − 2)(s + 5)
+                       γ1 =       3
+                                                  =−
+                           192π (s + 1)(s + 2)       15(s + 1)(s + 2)
+                              ∗ 2
+                                                                                                  (5.20)
+                           (g ) (s(s + 3) − 16)        (s(s + 3) − 16)
+                       γ2 = 1 3                   =−
+                           192π (s + 1)(s + 2)         15(s + 1)(s + 2)
+
+We see that the first eigenvalue corresponds to the tower which includes the stress tensor of
+
+
+                                                       24
+the theory, since it vanishes at s = 2 (this eigenvalue corresponds to an OSp(1|2) singlet).
+In the large spin limit one gets
+
+                                                4
+                                       γ1 = −   + 2 + ...
+                                             15 5s                                      (5.21)
+                                                6
+                                       γ2 = − + 2 + . . . .
+                                             15 5s
+
+The equality of the leading terms is a consequence of ∆θ = ∆φ , as follows from the OSp(1|2)
+symmetry. One may also obtain the dimension of the non-singlet currents, which are the
+same as in (5.11), with g1 given in (5.19).
+
+
+6     Nonlinear sigma model
+It is well established that the critical behavior of the O(N ) φ4 model can be related to the
+critical nonlinear sigma model, see e.g. [38] for a review. One of the ways to understand this
+relation is via the 1/N expansion, which provides an explicit “interpolation” between the
+UV fixed points of the sigma model in d = 2 +  and the IR fixed points of the φ4 model in
+d = 4 − . In this section, we calculate the anomalous dimensions of the higher-spin currents
+at the critical point of the sigma model in d = 2 + , at finite N . As far as we know, this
+result has not been obtained elsewhere.
+    We start with the action with an auxiliary field inserted to resolve the sphere constraint
+on the φi field, φi φi = 1/g 2
+                                 Z           1                              1 
+                            S=        dd x        ∂µ φi ∂ µ φi + σ(φi φi −      ) .      (6.1)
+                                              2                              g2
+
+To develop perturbation theory, one may resolve the constraint by introducing a set of N − 1
+independent fields. A convenient parametrization is
+
+                                φa = ϕa ,      a = 1, . . . , N − 1;
+                               1p                  1 g                                   (6.2)
+                          φN =     1 − g 2 ϕa ϕa = − ϕa ϕa + O(g 3 ).
+                               g                   g 2
+
+In terms of the ϕa fields, the action is
+
+                                                                  g 2 (ϕa ∂µ ϕa )2 
+                                 Z          1
+                           S=        dd x        ∂µ ϕa ∂ µ ϕa +                          (6.3)
+                                             2                    2 1 − g 2 ϕa ϕa
+
+To leading order in perturbation theory and in d = 2 + , the coupling constant has the beta
+
+
+                                                        25
+function
+                                                            g3
+                                             β = g − (N − 2)                                        (6.4)
+                                                2            4π
+and there is a UV fixed point at [39, 40]
+
+                                                           2π
+                                                  g∗2 =                                             (6.5)
+                                                          N −2
+
+The factor of N − 2 is due to the fact that the O(2) model is conformal and has a trivial
+beta function in d = 2. Consequently, the perturbative UV fixed point in d = 2 +  only
+exists for N > 2.
+       Before moving onward to the higher spin operators, we will calculate the anomalous
+dimension of the ϕ field (or equivalently φi in the action (6.1)) using the classical equations
+of motion. To leading order in g, they are given by11
+
+                                      ∂ 2 ϕa = −g 2 ϕa ∂µ ϕb ∂µ ϕb + O(g 4 ) .                      (6.6)
+
+In full analogy with the discussion in d = 4 − , we can apply the equations of motion (6.6)
+to the two-point function of ϕ field, obtaining
+
+                      hϕa (∂µ ϕc )2 (x)ϕb (∂µ ϕd )2 (0)i
+             g 4 x4                                      = 4γφ (γφ + 1)(d − 2 + 2γφ )(d + 2γφ ) .   (6.7)
+                               hϕa (x)ϕb (0)i
+
+To specialize to the expansion in d − 2 =  we need to mention several important points: γ
+will be of the order  and not 2 , unlike in d = 4 − . This means that the third term in the
+right-hand side is of the order  as well. Second, the bare propagator is
+
+                                                                  Γ( 2 )
+                                         hϕa (x)ϕb (0)i =                     ,                     (6.8)
+                                                               4ππ /2 (x2 )
+
+and applying derivatives to it produces powers of . They will combine with Γ(/2) =
+2
+
+  + O(1).     Since g∗4 ∼ 2 at the critical point, only terms of order 2 are needed from the
+two-point function in the numerator, since we have three Γ0 s on top and one on bottom,
+which amounts to 1/2 . Having said that, the relevant term of the two-point function is easy
+  11
+   These may be also obtained starting from the equations of motion coming from (6.1), which are ∂ 2 φi =
+−g φ ∂µ φj ∂µ φj , and resolving the constraint by (6.2).
+  2 i
+
+
+
+
+                                                          26
+to calculate. The first and the second derivatives of the propagator are:
+
+                                    1              xµ
+                            ∂µ              = −          ,                                                  (6.9)
+                                 (x2 )/2        (x2 )/2
+                                    1            −              2xµ xν        xµ xν
+                    ∂ν ∂µ                   =              δµν −          + 2 2 /2+2 .                   (6.10)
+                                 (x2 )/2       2
+                                              (x )/2+1            x 2        (x )
+
+It is evident then that the only way to get O(2 ) is to contract ϕa and ϕb which would be
+undifferentiated, and the other ϕ’s accordingly so that the  from (6.10) is picked up two
+times. Overall one gets for the left hand side of (6.7)
+
+                                                 2 · 2 · 2 22             42
+                                   g∗4 (N − 1)                 = (N − 1)          .                        (6.11)
+                                                  (4π)2 2               (N − 2)2
+
+The right-hand side of (6.7) yields 8γφ ( + 2γφ ) to leading order in . Solving the resulting
+quadratic equation for γφ gives
+                                                              
+                                                    γφ =            ,                                      (6.12)
+                                                           2(N − 2)
+which is the well-known result [39, 40].
+   Let us now move to the higher spin operators, restricting to the case of the O(N ) singlets.
+The form of the higher spin currents is most easily written in terms of the constrained fields
+φi , i = 1, . . . , N appearing in the action (6.7). In terms of these fields, they take the same
+form (2.12)
+                                                    ∂ˆ − ∂ˆ 
+                                                       1    2
+                        Jˆs = (∂ˆ1 + ∂ˆ2 )s Cs−1/2             φi (x1 )φi (x2 )           .                (6.13)
+                                                      ˆ    ˆ
+                                                     ∂1 + ∂2                    x1 ,x2 →x
+
+where we have set d = 2 since we will only perform a leading order calculation.
+                                                                 −1/2
+   It turns out that due to the properties of Cs                        (x), in the currents (6.13) all terms have
+       i            i
+both φ (x1 ) and φ (x2 ) differentiated at least once, so that after resolving the constraint
+(6.2), we have in terms of ϕa
+
+                      ˆ      ˆ                    g2
+ ˆ     ˆ    ˆ   s −1/2 ∂1 − ∂2
+                                  ϕa (x1 )ϕa (x2 ) + ϕa ϕa (x1 )ϕb ϕb (x2 )            + O(g 4 ) (6.14)
+                                                                           
+ Js = (∂1 + ∂2 ) Cs
+                       ∂ˆ1 + ∂ˆ2                    4                        x1 ,x2 →x
+
+
+One may check, for instance, that for s = 2 this yields the correct stress tensor coming from
+(6.3). The reason that we have to keep the term of order g 2 is that, when we compute the
+descendant by ∂µ Dµ Jˆs , both terms in (6.14) yield a contribution of order g 2 (because the
+                        z
+first term is a conserved current at g = 0, but the second is not). Using the general equation
+
+
+
+
+                                                            27
+(2.28), we have (recall that s is even)
+
+                                                                                 g2 a a
+                                                                                                 
+  ∂µ Dzµ Jˆs =       hs (∂ˆ1 , ∂ˆ2 )∂12 + hs (∂ˆ2 , ∂ˆ1 )∂22      a      a                  b b
+                                                                 ϕ (x1 )ϕ (x2 ) + ϕ ϕ (x1 )ϕ ϕ (x2 )            .
+                                                                                 4                    x1 ,x2 →x
+                                                                                                            (6.15)
+When acting with ∂ 2 on the first term, we use the equation of motion (6.6). When acting
+on the second term, on the other hand, we can actually use the free equation of motion
+∂ 2 ϕa = 0 to this order, so that ∂12 ϕa ϕa (x1 ) = 2∂µ ϕa ∂ µ ϕa . The final result for the descendant
+to order g 2 can then be written in the form
+
+    ∂µ Dzµ Jˆs = g 2 K̂s−1
+                                                                                        
+                       ˆ   ˆ ˆ   ˆ          ˆ    ˆ    ˆ    ˆ          ˆ    ˆ    ˆ    ˆ
+    K̂s−1 = − hs (∂1 + ∂3 + ∂4 , ∂2 ) + hs (∂2 + ∂3 + ∂4 , ∂1 ) − hs (∂4 + ∂3 , ∂1 + ∂2 ) ×
+                                                                                                                   (6.16)
+                                                        × ∂3µ ∂4µ ϕa (x1 )ϕa (x2 )ϕb (x3 )ϕb (x4 )
+                                                                                                     x1,2,3,4 →x
+                              3/2 u − v
+    hs (u, v) = 2v(u + v)s−2 Cs−2 (     )
+                                    u+v
+
+   Note that all O(N ) indices here run from 1 to N − 1. The rest of the calculation is almost
+exactly the same as in the d = 4 −  case. Computing the descendant two-point function,
+using (2.27) for d = 2 and the current two-point function (2.19) (with N → N − 1), we find
+the result
+                  g∗4                            2
+                                                                 
+                               1 1                     1 1
+           γs = 2 (N − 2)       − + Hs−2 =              − + Hs−2                (6.17)
+                 4π            s 2             N −2 s 2
+
+where Hk = kn=1 1/n is the harmonic number. The 1/N expansion of this result precisely
+          P
+
+matches the expansion of (4.16) in d = 2 + . In the large spin limit, we see the logarithmic
+behavior (since Hk ∼ log(k) at large k)
+
+                                       2
+                                                                                          
+                                                                   1  1
+                                 γs =                  log(s) + γ − −   + O(1/s2 )             .                   (6.18)
+                                      N −2                         2 2s
+
+Also, we note that the leading order in γs is 2 , although the leading order anomalous
+dimension of the φ field is  (6.12). This may seem to contradict the expected s → ∞
+behavior. The simple resolution of this “paradox” is suggested by looking at the large N
+result (4.17) for the singlet currents, expanded near d = 2 + :
+
+                                               Γ(3 + ) 1          2
+                                   γs =      −               + ... =    log(s) + ...                               (6.19)
+                                           N   N 2(1 + ) s         N
+
+We see that for the singlets the 2γφ term is canceled by the expansion of the second term,
+
+
+                                                                   28
+coming from the higher-spin current tower, and the log(s) is exactly what one gets from
+expanding the harmonic number Hs−2 . As for the non-singlet operators, from (4.17) one gets
+γs(ij) = N + O( s12 ), and it is evident that the leading order is indeed 2γφ as expected [13–17].
+Thus, a finite N calculation of the anomalous dimensions of the non-singlet operators should
+yield a result starting at order , unlike (6.17). We leave the more detailed discussion of the
+non-singlet currents for future work.
+
+
+7        Some d = 3 estimates
+For the O(N ) models with N ≥ 3, we can combine the information from the d = 4 − 
+and d = 2 +  expansions to obtain some estimates for the anomalous dimensions of the
+singlet higher spin currents in d = 3. The simplest way to do this is to use a “two-sided”
+Padé approximant. For any given physical quantity assumed to be a continuous function of
+dimension d, we can construct the Padé approximant
+
+                                     A0 + A1 (4 − d) + A2 (4 − d)2 + . . . + Am (4 − d)m
+                  Padé[m,n] (d) =                                                       ,   (7.1)
+                                      1 + B1 (4 − d) + B2 (4 − d)2 + . . . + Bn (4 − d)n
+
+where the coefficients are fixed by matching the known perturbative expansions in d = 4 − 
+and d = 2 + . Rather than performing this procedure on γs (d) itself, guided by the expected
+large spin behavior [13–17], we find it more convenient to consider the quantity
+
+                                            fs (d) = γs (d) − 2γφ (d)                        (7.2)
+
+From the results (3.24), (6.17), we can obtain the  expansion of this quantity to order 2 .
+Further information in d = 4 −  can be obtained using the result of [32], who derived the
+anomalous dimensions of the higher spin operators in the O(N ) theory to order 3 .12 For
+the singlet currents, it reads
+
+         (N + 2)λ2 (s2 + s − 6) (N + 2)(N + 8)λ3 (16s(s + 1)Hs + s (s3 + 2s2 − 39s − 16) + 12)
+γs =                           −                                                               +O(λ4 )
+            128π 4 s(s + 1)                           4096π 6 s2 (s + 1)2
+                                                                                       (7.3)
+where Hs is the harmonic number. This vanishes at s = 2, as expected. It is also interesting
+to check the large spin behavior, which yields (using the known result for γφ to order λ3 , see
+  12
+       For N = 1, the result is known to order 4 [41].
+
+
+
+
+                                                          29
+e.g. [42])
+
+                          (N + 2) (12π 2 λ2 + (N + 8)λ3 (log(s) − γ − 5/2))
+             γs = 2γφ −                                                     + O(1/s3 ) .     (7.4)
+                                               256π 6 s2
+
+We see that a logarithmic term arises at subleading order in the coupling constant, consis-
+tently with general expectations [16, 43]. Using the value of the critical coupling [42]
+
+                                        8π 2    24π 2 (3N + 14)2
+                                 λ∗ =          +                   + ...                     (7.5)
+                                        N +8         (N + 8)3
+
+we can obtain the  expansion of γs around d = 4 to order 3 . Further using the  expansions
+of γφ near d = 2 and d = 4, we can get the function f (d) defined in (7.2) to the same order
+
+                                32 (N + 2)
+              fs (4 − ) = −                 2
+                                               + O(3 )
+                             s(s + 1)(N + 8)
+                                                                                             (7.6)
+                                        (N − 1)2        2
+                                                 
+                                                            1 1
+              fs (2 + ) = −          +         2
+                                                    +       ( − + Hs−2 ) + O(3 )
+                               N −2      (N − 2)        N −2 s 2
+
+where for simplicity we did not write explicitly the O(3 ) in d = 4 − , it can be read off from
+(7.4). This allows to construct Padé approximants (7.1) with a maximum value n + m = 6.
+Carrying out this procedure for general N , we find that Padé[3,2] (which only uses f (4 − )
+to order 2 ) and Padé[4,2] appear to give the best agreement with the analytic large N result
+(4.16) over the full range 2 ≤ d ≤ 4, with Padé[3,2] in fact working slightly better. Using
+this approximant, we obtain a d = 3 estimate for the function fs (d) in (7.2). To obtain the
+anomalous dimensions γs , we can then add back the contribution 2γφ using the best available
+estimates that were collected in Table 2 of [44] for a few low values of N . The results of this
+procedure for s = 4, 6, 8, 10 and for several values of N are listed in the table below. For
+
+                       N                 3        4         5        6       10       20
+              γs=4    (Padé[3,2] )   0.0261   0.0257    0.0208   0.0195   0.0158   0.0082
+              γs=6    (Padé[3,2] )   0.0318   0.0310    0.0258   0.0240   0.0191   0.0100
+              γs=8    (Padé[3,2] )   0.0342   0.0332    0.0278   0.0259   0.0206   0.0110
+              γs=10   (Padé[3,2] )   0.0353   0.0343    0.0289   0.0269   0.0214   0.0115
+
+
+Table 1: Padé estimates for the anomalous dimensions of the singlet currents with s = 4, 6, 8
+in the 3d critical O(N ) models. The estimates are obtained by constructing a “two-sided”
+Padé approximant of the function (7.2) and adding at the end the contribution 2γφ using
+the available results collected in [44]. For N = 10, 20, the value of γφ is obtained from the
+large N result known to order 1/N 3 [45, 46].
+
+
+
+                                                    30
+comparison, the large N formula (4.16) gives for d = 3
+
+                                        16(s − 2) 1
+                                γs =             2
+                                                    + O(1/N 2 ) .                       (7.7)
+                                       (2s − 1)3π N
+
+Using this for N = 20, one would get γ4 = 0.0077, γ6 = 0.0098, γ8 = 0.0108, γ10 = 0.0114.
+The results for s = 4 given in Table 1 appear to be consistent with the ones given in [47].
+   For N = 1 and N = 2, the nonlinear sigma model result cannot be used since there is
+no perturbative fixed point in d = 2 +  for these values of N . Simple Padé approximants
+of the d = 4 −  result appear to yield poles in 2 < d < 4 in this case, so we will resort to
+the unresummed  expansion to obtain some estimates. For N = 1, setting  = 1 in f (4 − )
+expanded to order 3 , and adding back the 3d value of 2γφN =1 = 0.0363 [48–51], we obtain
+the following d = 3 estimates
+
+                             N =1                     N =1
+                            γs=4  = 0.0240 ,         γs=6  = 0.0300
+                                                                                        (7.8)
+                             N =1                     N =1
+                            γs=8  = 0.0324 ,         γs=10 = 0.0336 .
+
+While we do not expect these to be high precision results, we observe that they appear to
+be quite close to the estimates derived in [43]. For the spin 4 operator, [52] obtained the
+slightly lower value γ4 = 0.0208(12). For N = 2, following a similar procedure and using
+2γφN =2 = 0.0381 [53], we obtain
+
+                             N =2                     N =2
+                            γs=4  = 0.0252 ,         γs=6  = 0.0315
+                                                                                        (7.9)
+                             N =2                     N =2
+                            γs=8  = 0.0340 ,         γs=10 = 0.0353 .
+
+In all cases, we observe that the anomalous dimensions of the higher spin operators is rather
+small (similarly to what happens for the anomalous dimension of φ). From the results in
+Table 1, and (7.8),(7.9), we also notice some non-monotonic behavior as a function of N ,
+with a maximum between N = 3 and N = 4. A qualitatively similar non-monotonic behavior
+can be observed in the sphere free energy [54, 55] and CT [44]. It would be interesting to
+understand better the origin of this behavior and the relation between these quantities.
+
+
+Acknowledgments
+We thank Igor Klebanov, Grisha Tarnopolsky and Sasha Zhiboedov for useful discussions.
+The work of SG and VK was supported in part by the US NSF under Grant No. PHY-
+
+
+
+                                                31
+1318681.
+
+
+A       Technical details on the computation of the descen-
+        dant 2-point function
+The calculation of the descendant two-point functions is carried out using the relation of
+Gegenbeauer polynomials to hypergeometric functions (see appendix of [56]). We will illus-
+trate the technique to calculate the function As (see eq. 3.20) as a function of s in terms of
+Gegenbauer integrals. The calculation of the other structures is similar. After introducing
+the Schwinger parametrization, the hs function can be written as:
+
+    hs (−2α1 x̂ − 2α3 x̂ − 2α4 x̂, −2α2 x̂) = (−1)s−1 (2x̂)s−1 (α1 + α2 + α3 + α4 )s h̃s (1 − 2α̃2 );
+                              αn                            3/2                5/2
+               α̃n =                        ,   h̃s (x) = Cs−1 (x) − 3(1 − x)Cs−2 (x)
+                     α1 + α2 + α3 + α4
+                                                                                                  (A.1)
+and analogously for other arguments. The contraction is then compactly written as:
+
+                           4
+                        Z ∞Y              4                    4
+  (−1)s−1 (2x̂)2s−2                      X
+                                                 2s−2        2
+                                                               X
+                                    dαn (   αn )      exp(−x     αn )(h̃s (1 − 2α̃2 ) + (−1)s h̃s (1 − 2α̃1 ))2
+      (4π 2 )4            0   n=1           n=1                       n=1
+
+
+
+
+                                                                                                                 (A.2)
+
+                                                                               P4
+It is convenient to separate the integration other the sum                         n=1 αn by introducing a delta
+          R∞
+function 0 dpδ( 4n=1 αn − p):
+                  P
+
+
+  Z ∞                                   4
+                                     Z 1Y                X4
+              2s−2+3            2
+        dpp            exp(−x p)                  dα̃n δ(   α̃n − 1)(h̃s (1 − 2α̃2 ) + (−1)s h̃s (1 − 2α̃1 ))2
+    0                                 0 n=1             n=1
+                              ZZ
+         (2s + 1)!
+        = 2 2s+2                          dα̃1 dα̃2 (1 − α̃1 − α̃2 )(h̃s (1 − 2α̃2 ) + (−1)s h̃s (1 − 2α̃1 ))2 (A.3)
+         (x )
+                        0<1−α̃1 −α̃2 <1
+
+
+The goal now is to calculate the integral of functions h̃. First we study the integral of two
+h̃ with the same argument:                  Z 1
+                                                   dα̃(1 − α̃)2 (h̃s (1 − 2α̃))2                                 (A.4)
+                                              0
+
+
+
+
+                                                              32
+The idea now is to employ the Rodrigues formula for the Gegenbauer polynomial:
+
+                         4s Γ(s + ν)Γ(s + 2ν)                    ds
+       Csν (1 − 2α̃) =                        (α̃(1 − α̃))−ν+1/2 s (α̃(1 − α̃))s+ν−1/2       (A.5)
+                         s! Γ(ν)Γ(2s + 2ν)                      dα̃
+
+We again split the integral into two parts:
+               Z 1
+                                   3/2                    5/2
+                     dα̃(1 − α̃)2 Cs−1 (1 − 2α̃) − 3(2α̃)Cs−2 (1 − 2α̃) h̃s (1 − 2α̃1 )
+                                                                       
+                                                                                             (A.6)
+                 0
+
+                                                    3/2
+We now act on the second h̃ with the Cs−1 using the Rodrigues formula, by integrating by
+parts s − 1 times. The boundary terms vanish thanks to the power of α̃(1 − α̃) under the
+derivative. The pre-factor (α̃(1 − α̃))−1 combines with (1 − α̃)2 combines to α̃1 − 1. Then,
+since h̃s (1 − 2α̃) is a polynomial of degree s − 1 in α̃:
+
+                                                               s−1
+                                                               X
+                                        h̃s (1 − 2α̃) =              ck α̃k ,                (A.7)
+                                                               k=0
+
+
+after s − 1 integrations by parts only two terms survive the differentiation
+
+                                      ds−1
+                           (−1)s−1          cs−1 α̃s−1 = (−1)s−1 (s − 1)!cs−1 ;
+                                     dα̃s−1                                                  (A.8)
+                                               ds−1 1       (s − 1)!
+                                     (−1)s−1 s−1 c0 =
+                                              dα̃       α̃     α̃s
+
+The remaining integrals are now of the beta-function type, for instance,
+                                         Z 1
+                                               dα̃cs−1 (α̃(1 − α̃))s
+                                          0
+                                              Z 1                                            (A.9)
+                                                                       s
+                                                    dα̃c0 (1 − α̃))
+                                               0
+
+
+This is the main idea of the calculation, the rest is basically collecting all the coefficients and
+applying the same method to the other integrals which will appear (all of them will be of the
+same type though). For the sake of reference the coefficients of h̃s (1 − 2α̃) are obtained most
+easily by using the relation of Gegenbauer polynomials to the hypergeometric function:
+
+                                              (2ν)s                   1
+                           Csν (1 − 2x) =           F − s, s + 2ν; ν + ; x)                 (A.10)
+                                                s!                    2
+
+
+
+
+                                                          33
+(this is the reason we used 1 − 2α̃ as the argument). After collecting all the factors, the
+overall answer for the integral in (A.3) is:
+
+                                     (s − 1)s(s + 1)(s + 2)
+                                                                                     (A.11)
+                                           8(2s + 1)
+
+
+References
+ [1] A. M. Polyakov, “Conformal symmetry of critical fluctuations,” JETP Lett. 12 (1970)
+    381–383. [Pisma Zh. Eksp. Teor. Fiz.12,538(1970)].
+
+ [2] G. Mack, “All Unitary Ray Representations of the Conformal Group SU(2,2) with
+    Positive Energy,” Commun. Math. Phys. 55 (1977) 1.
+
+ [3] S. Minwalla, “Restrictions imposed by superconformal invariance on quantum field
+    theories,” Adv. Theor. Math. Phys. 2 (1998) 781–846, hep-th/9712074.
+
+ [4] J. Maldacena and A. Zhiboedov, “Constraining Conformal Field Theories with A
+    Higher Spin Symmetry,” J.Phys. A46 (2013) 214011, 1112.1016.
+
+ [5] K. G. Wilson and M. E. Fisher, “Critical exponents in 3.99 dimensions,”
+    Phys.Rev.Lett. 28 (1972) 240–243.
+
+ [6] J. Maldacena and A. Zhiboedov, “Constraining conformal field theories with a slightly
+    broken higher spin symmetry,” Class.Quant.Grav. 30 (2013) 104003, 1204.3882.
+
+ [7] D. Anselmi, “The N=4 quantum conformal algebra,” Nucl. Phys. B541 (1999)
+    369–385, hep-th/9809192.
+
+ [8] A. V. Belitsky, J. Henn, C. Jarczak, D. Mueller, and E. Sokatchev, “Anomalous
+    dimensions of leading twist conformal operators,” Phys. Rev. D77 (2008) 045029,
+    0707.2936.
+
+ [9] S. Rychkov and Z. M. Tan, “The -expansion from conformal field theory,” J. Phys.
+    A48 (2015), no. 29 29FT01, 1505.00963.
+
+[10] L. Fei, S. Giombi, and I. R. Klebanov, “Critical O(N ) Models in 6 −  Dimensions,”
+    Phys.Rev. D90 (2014) 025018, 1404.1094.
+
+[11] K. Wilson and J. B. Kogut, “The Renormalization group and the epsilon expansion,”
+    Phys.Rept. 12 (1974) 75–200.
+
+
+                                               34
+[12] K. Lang and W. Ruhl, “The Critical O(N) sigma model at dimensions 2 < d < 4:
+    Fusion coefficients and anomalous dimensions,” Nucl.Phys. B400 (1993) 597–623.
+
+[13] G. Parisi, “How to measure the dimension of the parton field,” Nucl. Phys. B59
+    (1973) 641–646.
+
+[14] C. G. Callan, Jr. and D. J. Gross, “Bjorken scaling in quantum field theory,” Phys.
+    Rev. D8 (1973) 4383–4394.
+
+[15] L. F. Alday and J. M. Maldacena, “Comments on operators with large spin,” JHEP
+    11 (2007) 019, 0708.0672.
+
+[16] Z. Komargodski and A. Zhiboedov, “Convexity and Liberation at Large Spin,” JHEP
+    11 (2013) 140, 1212.4103.
+
+[17] A. L. Fitzpatrick, J. Kaplan, D. Poland, and D. Simmons-Duffin, “The Analytic
+    Bootstrap and AdS Superhorizon Locality,” JHEP 12 (2013) 004, 1212.3616.
+
+[18] M. A. Vasiliev, “Consistent equation for interacting gauge fields of all spins in
+    (3+1)-dimensions,” Phys.Lett. B243 (1990) 378–382.
+
+[19] M. A. Vasiliev, “More on equations of motion for interacting massless fields of all spins
+    in (3+1)-dimensions,” Phys. Lett. B285 (1992) 225–234.
+
+[20] M. A. Vasiliev, “Higher spin gauge theories: Star-product and AdS space,”
+    hep-th/9910096.
+
+[21] M. Vasiliev, “Nonlinear equations for symmetric massless higher spin fields in
+    (A)dS(d),” Phys.Lett. B567 (2003) 139–151, hep-th/0304049.
+
+[22] I. R. Klebanov and A. M. Polyakov, “AdS dual of the critical O(N ) vector model,”
+    Phys. Lett. B550 (2002) 213–219, hep-th/0210114.
+
+[23] I. R. Klebanov and E. Witten, “AdS / CFT correspondence and symmetry breaking,”
+    Nucl.Phys. B556 (1999) 89–114, hep-th/9905104.
+
+[24] L. Girardello, M. Porrati, and A. Zaffaroni, “3-D interacting CFTs and generalized
+    Higgs phenomenon in higher spin theories on AdS,” Phys. Lett. B561 (2003) 289–293,
+    hep-th/0212181.
+
+
+
+
+                                              35
+[25] S. Giombi, S. Minwalla, S. Prakash, S. P. Trivedi, S. R. Wadia, et. al., “Chern-Simons
+    Theory with Vector Fermion Matter,” Eur.Phys.J. C72 (2012) 2112, 1110.4386.
+
+[26] O. Aharony, G. Gur-Ari, and R. Yacoby, “d=3 Bosonic Vector Models Coupled to
+    Chern-Simons Gauge Theories,” JHEP 1203 (2012) 037, 1110.4382.
+
+[27] E. D. Skvortsov, “On (Un)Broken Higher-Spin Symmetry in Vector Models,”
+    1512.05994.
+
+[28] V. K. Dobrev, V. B. Petkova, S. G. Petrova, and I. T. Todorov, “Dynamical
+    Derivation of Vacuum Operator Product Expansion in Euclidean Conformal Quantum
+    Field Theory,” Phys. Rev. D13 (1976) 887.
+
+[29] M. S. Costa, J. Penedones, D. Poland, and S. Rychkov, “Spinning Conformal
+    Correlators,” JHEP 11 (2011) 071, 1107.3554.
+
+[30] L. Fei, S. Giombi, I. R. Klebanov, and G. Tarnopolsky, “Three loop analysis of the
+    critical O(N ) models in 6 −  dimensions,” Phys.Rev. D91 (2015), no. 4 045011,
+    1411.1099.
+
+[31] J. A. Gracey, “Four loop renormalization of φ3 theory in six dimensions,” Phys. Rev.
+    D92 (2015), no. 2 025012, 1506.03357.
+
+[32] V. M. Braun and A. N. Manashov, “Evolution equations beyond one loop from
+    conformal symmetry,” Eur. Phys. J. C73 (2013) 2544, 1306.5644.
+
+[33] A. N. Manashov and M. Strohmaier, “Conformal constraints for anomalous dimensions
+    of leading twist operators,” Eur. Phys. J. C75 (2015), no. 8 363, 1503.04670.
+
+[34] S. E. Derkachov and A. N. Manashov, “The Simple scheme for the calculation of the
+    anomalous dimensions of composite operators in the 1/N expansion,” Nucl. Phys.
+    B522 (1998) 301–320, hep-th/9710015.
+
+[35] M. Fisher, “Yang-Lee Edge Singularity and phi**3 Field Theory,” Phys.Rev.Lett. 40
+    (1978) 1610–1613.
+
+[36] L. Fei, S. Giombi, I. R. Klebanov, and G. Tarnopolsky, “Critical Sp(N ) models in
+    6 −  dimensions and higher spin dS/CFT,” JHEP 09 (2015) 076, 1502.07271.
+
+
+
+
+                                            36
+[37] S. Caracciolo, J. L. Jacobsen, H. Saleur, A. D. Sokal, and A. Sportiello, “Fermionic
+    field theory for trees and forests,” Phys. Rev. Lett. 93 (2004) 080601,
+    cond-mat/0403271.
+
+[38] M. Moshe and J. Zinn-Justin, “Quantum field theory in the large N limit: A Review,”
+    Phys.Rept. 385 (2003) 69–228, hep-th/0306133.
+
+[39] E. Brezin and J. Zinn-Justin, “Renormalization of the nonlinear sigma model in 2 +
+    epsilon dimensions. Application to the Heisenberg ferromagnets,” Phys. Rev. Lett. 36
+    (1976) 691–694.
+
+[40] W. A. Bardeen, B. W. Lee, and R. E. Shrock, “Phase Transition in the Nonlinear
+    Sigma Model in Two + Epsilon Dimensional Continuum,” Phys. Rev. D14 (1976) 985.
+
+[41] S. E. Derkachov, J. A. Gracey, and A. N. Manashov, “Four loop anomalous
+    dimensions of gradient operators in phi**4 theory,” Eur. Phys. J. C2 (1998) 569–579,
+    hep-ph/9705268.
+
+[42] H. Kleinert and V. Schulte-Frohlinde, “Critical properties of φ4 -theories,” River Edge,
+    USA: World Scientific (2001) 489 p.
+
+[43] L. F. Alday and A. Zhiboedov, “Conformal Bootstrap With Slightly Broken Higher
+    Spin Symmetry,” 1506.04659.
+
+[44] F. Kos, D. Poland, and D. Simmons-Duffin, “Bootstrapping the O(N ) vector models,”
+    JHEP 1406 (2014) 091, 1307.6856.
+
+[45] A. Vasiliev, Y. Pismak, and Y. Khonkonen, “1/N Expansion: Calculation of the
+    Exponents η and ν in the Order 1/N 2 for Arbitrary Number of Dimensions,”
+    Theor.Math.Phys. 47 (1981) 465–475.
+
+[46] A. Vasiliev, Y. Pismak, and Y. Khonkonen, “1/N Expansion: Calculation of the
+    Exponent η in the Order 1/N 3 by the Conformal Bootstrap Method,”
+    Theor.Math.Phys. 50 (1982) 127–134.
+
+[47] M. Campostrini, A. Pelissetto, P. Rossi, and E. Vicari, “Critical limit and anisotropy
+    in the two point correlation function of three-dimensional O(N) models,” Europhys.
+    Lett. 38 (1997) 577–582, cond-mat/9612164.
+
+
+
+
+                                             37
+[48] S. El-Showk, M. F. Paulos, D. Poland, S. Rychkov, D. Simmons-Duffin, et. al.,
+    “Solving the 3D Ising Model with the Conformal Bootstrap,” Phys.Rev. D86 (2012)
+    025022, 1203.6064.
+
+[49] S. El-Showk, M. F. Paulos, D. Poland, S. Rychkov, D. Simmons-Duffin, et. al.,
+    “Solving the 3d Ising Model with the Conformal Bootstrap II. c-Minimization and
+    Precise Critical Exponents,” 1403.4545.
+
+[50] M. Hasenbusch, “Finite size scaling study of lattice models in the three-dimensional
+    Ising universality class,” Phys. Rev. B 82 (Nov., 2010) 174433, 1004.4486.
+
+[51] M. Campostrini, A. Pelissetto, P. Rossi, and E. Vicari, “25th order high temperature
+    expansion results for three-dimensional Ising like systems on the simple cubic lattice,”
+    Phys. Rev. E65 (2002) 066127, cond-mat/0201180.
+
+[52] M. Campostrini, A. Pelissetto, P. Rossi, and E. Vicari, “Improved high temperature
+    expansion and critical equation of state of three-dimensional Ising - like systems,”
+    Phys. Rev. E60 (1999) 3526–3563, cond-mat/9905078.
+
+[53] M. Campostrini, M. Hasenbusch, A. Pelissetto, and E. Vicari, “The Critical exponents
+    of the superfluid transition in He-4,” Phys. Rev. B74 (2006) 144506,
+    cond-mat/0605083.
+
+[54] S. Giombi and I. R. Klebanov, “Interpolating between a and F ,” JHEP 03 (2015) 117,
+    1409.1937.
+
+[55] L. Fei, S. Giombi, I. R. Klebanov, and G. Tarnopolsky, “Generalized F -Theorem and
+    the  Expansion,” JHEP 12 (2015) 155, 1507.01960.
+
+[56] A. V. Belitsky and D. Mueller, “Broken conformal invariance and spectrum of
+    anomalous dimensions in QCD,” Nucl. Phys. B537 (1999) 397–442, hep-ph/9804379.
+
+
+
+
+                                            38
+

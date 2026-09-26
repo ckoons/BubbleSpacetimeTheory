@@ -1,0 +1,2495 @@
+                                                                                                                           DAMTP/05-69
+                                                                                                                           hep-th/0508031
+
+
+
+                                                    Character Formulae and Partition Functions
+                                                  in Higher Dimensional Conformal Field Theory
+
+
+
+
+arXiv:hep-th/0508031v2 31 Jan 2006
+                                                                                 F.A. Dolan †
+
+                                                    Department of Applied Mathematics and Theoretical Physics,
+                                                        Wilberforce Road, Cambridge CB3 0WA, England
+
+
+
+
+                                               A discussion of character formulae for positive energy unitary irreducible represen-
+                                               tations of the the conformal group is given, employing Verma modules and Weyl
+                                               group reflections. Product formulae for various conformal group representations
+                                               are found. These include generalisations of those found by Flato and Fronsdal for
+                                               SO(3, 2). In even dimensions the products for free representations split into two
+                                               types depending on whether the dimension is divisible by four or not.
+
+                                               Keywords: Conformal field theory, Character formulae, Partition functions.
+
+
+
+
+                                     † address for correspondence: Trinity College, Cambridge, CB2 1TQ, England
+                                      email: fad20@damtp.cam.ac.uk
+1. Introduction
+
+     Motivated by the AdS/CFT correspondence, character formulae for groups associated
+with conformal symmetry have received greater attention recently [1,2,3,4]. In [1,2,4] the
+way in which character formulae encode the spectrum of operators allowed in a conformal
+Yang-Mills theory has been their main use. We hope that the present discussion might be
+similarly useful for conformal Yang-Mills theories in higher dimensions.
+     It is well known that character formulae provide an elegant way of decomposing tensor
+products of Lie algebra representations - the Racah-Speiser algorithm for decomposing ten-
+sor products of finite dimensional irreducible representations of simple Lie algebras may be
+easily proved in terms of Weyl characters, see [5] for a summary. In conformal field theories
+the method of characters was used by Flato and Fronsdal [6] to decompose products of
+certain massless representations, called ‘Di’ and ‘Rac’, in three dimensions. Oscillator and
+other methods have been used by various authors to generalise this to higher dimensions
+[7,8,9,10]. Here we follow a more direct approach using character formulae for the con-
+formal group to decompose products of positive energy unitary irreducible representations
+of the conformal group which inter alia provides a generalisation of the Flato-Fronsdal
+results. These formulae may also be relevant to operator product expansions.
+    The layout of the paper is as follows. We rewrite the conformal algebra in terms of
+the orthonormal basis of SO ∗ (d + 2), the complexification of the conformal group in d
+dimensions, in section 2.
+     In section 3 we construct the characters of any positive energy unitary irreducible
+representation of the conformal group. The problem is related to finding characters of
+certain infinite dimensional representations of SO ∗ (d + 2) and we make use of a result
+in [11], employing Verma module characters, for solving it. The main part of the task
+consists, in this approach, of finding sub-Verma modules of an original one. This is more
+straightforward in the orthonormal basis of SO ∗ (d + 2) due to simplifications in the Weyl
+group action on weights in this basis. In this section we also show how these formulae are
+equivalent to ones obtained as follows. The basis for the original SO ∗ (d+2) Verma module
+is reduced in a way determined by appendix C which discusses unitary representations
+of the conformal group. We write down the character of the reduced SO ∗ (d + 2) Verma
+module and then simply act on it with the Weyl symmetry operator of SO(d). The formula
+obtained agrees with the character formula for the corresponding irreducible representation
+of SO ∗ (d + 2). We also give the three and four dimensional results explicitly and these
+match known results [4,6,12,13].
+
+    In section 4 we discuss products of the unitary irreducible representations. As a simple
+example we first discuss the case of d = 4. This is made simpler by the fact that the SO(4)
+
+                                             1
+character may be rewritten as a product of two SO(3) characters. We then go on to discuss
+higher dimensional cases which correspond to products of free representations. Crucial in
+this approach are expansion formulae of the characters in the following form, namely,
+                                    X
+                                        s∆+N FN (x) ,                               (1.1)
+                                       N
+
+where ∆ denotes the canonical conformal dimension, FN (x) is some linear combination of
+the SO(d) characters and with s and x = (x1 , . . . , xr ), r = [ 12 d] being some variables. We
+give expansion formulae of the type (1.1) for all character formulae of interest.
+    In even dimensions the product formulae obtained divide into two forms depending
+on whether the dimension d is divisible by four or not.
+    While we do not find all such product formulae, we feel that the method presented
+generalises easily when used in conjunction with expansion formulae of the type (1.1).
+     Expansions of the form (1.1) are used in section 5 then to correlate our results for
+character formulae with one-particle partition functions which have been found by various
+authors [14,15,16] for the free scalar, Weyl fermion and d2 -form field strengths. We also
+discuss an expansion formula given for the character for conserved symmetric traceless
+tensor currents in the main text. A simple argument is given which explains the behaviour
+of the character formula (in the form (1.1)) when x = (1, . . . , 1). Also it is found that the
+character for the free scalar obtained here matches the one particle partition function for
+a scalar field on the boundary of AdS in [17] when the spin of descendants is taken into
+account.
+     Various useful formulae and proofs are left in the remaining appendices. In appendix
+A results for character formulae for infinite dimensional representations of semi-simple
+Lie groups are discussed. In appendix B standard formulae for SO(d) Weyl characters
+are given. In appendix C unitarity bounds are discussed. While unitarity bounds have
+been discussed in great detail by other authors, see for example [18,19,20], we feel that
+this attention is merited in that it determines which combination of generators are to be
+omitted from the full Verma module for SO ∗ (d + 2) when character formulae for unitary
+irreducible representations of the conformal group are analysed. Appendix D contains
+proofs of certain product and expansion formulae for conformal group characters.
+
+
+
+2. The conformal algebra in the orthonormal basis
+
+    Starting from the Lie algebra for SO(d, 2),
+
+            [MAB , MCD ] = i(gAC MBD − gAD MBD − gBC MAD + gBD MAC ) ,                    (2.1)
+
+                                               2
+for A, B = 1, . . . , d+2, gAB = diag.(1, . . . , 1, −1, −1) and where MAB = −MBA are Hermi-
+tian, then (2.1) may be related to the standard form of the conformal algebra by defining
+Mab , Pa , Ka , H, for a, b = 1, . . . , d through
+                                                              
+                                                   Mab −Mat
+                                     [MAB ] =                     ,                     (2.2)
+                                                   Msb ǫst H
+
+where s, t = d + 1, d + 2, ǫd d+1 = 1, ǫst = −ǫts and
+
+                   Pa = Ma d+1 + iMa d+2 ,               Ka = Ma d+1 − iMa d+2 .                          (2.3)
+
+Then
+            [Mab , Mcd ] = i(δac Mbd − δad Mbc − δbc Mad + δbd Mac ) ,
+             [Mab , Pc ] = i(δac Pb − δbc Pa ) ,       [Mab , Kc ] = i(δac Kb − δbc Ka ) ,                (2.4)
+               [H, Pa ] = Pa ,    [H, Ka] = −Ka ,           [Ka , Pb ] = −2iMab + 2δab H ,
+with all other commutators not mentioned in (2.4) vanishing. As usual, Mab = −Mba are
+Hermitian generators of SO(d) rotations. Here H, the conformal Hamiltonian, is required
+to have a positive definite spectrum of eigenvalues for positive energy representations.
+
+     In (2.4) Mab of course satisfy the Lie algebra of SO(d). For what follows we will use
+the orthonormal basis for SO(d) whereby the Cartan subalgebra is defined by
+
+                     Hi = M2i−1 2i ,        i = 1,...,r,              [Hi , Hj ] = 0 ,                    (2.5)
+
+with raising and lowering operators formed from
+
+  εη     ηε
+ Eij = −Eji = M2i−1 2j−1 + iεM2i 2j−1 + iηM2i−1 2j − εηM2i 2j ,                          i 6= j ,   ε, η = ± ,
+                                                                                                          (2.6)
+augmented by
+                                 Ei± = M2i−1 2r+1 ± iM2i 2r+1 ,                                           (2.7)
+
+for SO(2r + 1).
+    In 2r dimensions the commutation relations among the SO(2r) generators in the
+orthonormal basis are given by
+                       εη                 εη
+                [Hi , Ejk ] = εδij + ηδik Ejk ,
+                           ′ ′
+                    εη    εη
+                  [Eij , Eij ] = (ε − ε′ )(1 − ηη ′ )Hi + (η − η ′ )(1 − εε′ )Hj ,                        (2.8)
+                           ′ ′                     ′
+                    εη    εη                 εη
+                  [Eij , Ejk ] = i(ε′ η − 1)Eik ,          i 6= k ,
+
+where i, j, k = 1, . . . , r and ε, ε′ , η, η ′ = ± with other commutators, that can not be ob-
+                                       εη         ηε
+tained through the symmetry Eij            = −Eji    , vanishing.
+
+                                                   3
+                                                                +±
+     Using standard orthogonal unit vectors ei ∈ Rr then Eij        for 1 ⩽ i < j ⩽ r correspond
+                                             −±
+to the set of positive roots ei ±ej while Eij correspond to the set of negative roots −ei ±ej .
+The simple roots ei −ei+1 , er−1 +er for 1 ⩽ i ⩽ r−1 correspond to the linearly independent
+                                     ++
+set of raising operators Ei+− i+1 , Er−1 r . Similarly the linearly independent set of lowering
+operators is Ei−+                       −−
+                 i+1 , 1 ⩽ i ⩽ r − 1, Er−1 r .
+
+     In 2r + 1 dimensions we have additionally the following commutation relations involv-
+ing the extra generators (2.7), namely,
+                     [Hi , Ej± ] = ±δij Ej± ,
+                     [Eiε , Eiη ] = (ε − η)Hi ,                  [Eiε , Ejη ] = iEij
+                                                                                  εη
+                                                                                     ,   i 6= j ,        (2.9)
+                       εη        ′     ηε              ′
+                     [Eij , Ejε ] = −[Eji , Ejε ] = i(ε′ η − 1)Eiε ,
+for i, j = 1, . . . , r with all other such vanishing.
+     For SO(2r + 1) Ei+ corresponds to the extra positive roots ei while Ei− corresponds
+to the extra negative roots −ei . The simple roots ei − ei+1 , 1 ⩽ i ⩽ r−1 and er correspond
+to the linearly independent set of raising operators Ei+−        +
+                                                          i+1 , Er . The linearly independent
+set of lowering operators is Ei−+                                 −
+                                i+1 , 1 ⩽ i ⩽ r − 1 along with Er .
+
+    In the orthonormal basis of SO(2r), the 2r dimensional vector representation has
+highest weight e1 and all other weights in the weight system are given by ±ei , 1 ⩽ i ⩽ r.
+The weight system may be represented diagrammatically by
+                                              er
+                                      −+             −−
+                                     Er−1 r
+                                                    Er−1 r
+       −+              −+                                              −+
+      E12             Er−2   ր
+                           r−1                       ց       Er−2 r−1             E1−+
+                                                                                     2
+   e1 −→e2 · · · er−2 −→ er−1                          − er−1 −→ − er−2 · · · − e2 −→  − e1             (2.10)
+                             ց                       ր
+                                      −−             −+
+                                     Er−1 r
+                                                    Er−1 r
+
+                                              −er
+                                                                               −−
+which also indicates the action of the lowering operators Ei−+
+                                                             i+1 , 1 ⩽ i ⩽ r, Er−1 r . As a
+convenient basis for the Pa , Ka operators, which of course transform in the vector repre-
+sentation, we define
+
+                          Pi± = P2i−1 ± iP2i ,                   Ki± = K2i−1 ± iK2i ,                   (2.11)
+                              ++                +−                ++
+for which [Ei+−
+              i+1 , P1+ ] = [Er−1 r , P1+ ] = [Ei i+1 , K1+ ] = [Er−1 r , K1+ ] = 0 and
+
+                       [Hi , Pj± ] = ±δij Pj± ,                    [Hi , Kj± ] = ±δij Kj± ,             (2.12)
+
+so that Pi± , Ki± correspond to the weights ±ei . In terms of explicit action of lowering
+operators, we have that
+                   −±                                                            −+     −−
+      Pi± = − 2i [E1i , P1+ ] ,       i = 2, . . . , r − 1 ,          P1− = 14 [E12 , [E12 , P1+ ]]
+                   −±                                                            −+     −−
+                                                                                                        (2.13)
+      Ki± = − 2i [E1i , K1+ ] ,        i = 2, . . . , r − 1 ,         K1− = 14 [E12 , [E12 , K1+ ]] ,
+
+                                                             4
+which may be easily unravelled in terms of the action of the linearly independent set of
+                                        −−
+lowering operators Ei−+
+                      i+1 , 1 ⩽ i ⩽ r, Er−1 r .
+
+    In fact the entire conformal algebra in this basis my be written in terms of the or-
+thonormal basis of the SO ∗ (2r + 2) algebra. Making the definitions
+                   −±     ±−                     ±+     +±
+    H0 = −H ,     E0i = −Ei0 = Pi± ,            Ei0 = −E0i = Ki± ,           i = 1, . . . , r ,   (2.14)
+
+(so that −H is the extra Cartan subalgebra element and Ki± /Pi± form the extra rais-
+ing/lowering operators) then the conformal algebra may be shown to be equivalent to (2.8)
+for the range of the indices i, j, k being extended to 0, 1, . . . , r. The linearly independent
+set of raising/lowering operators in this case is extended to include K1− /P1+ .
+    The 2r+1 dimensional vector representation of SO(2r + 1) has highest weight e1 and
+the weight system is ±ei and 0. Diagrammatically the weight system is given by
+                           −+                         −+
+           E −+
+             12
+                          Er−1 r   E−
+                                    r    E−
+                                         r
+                                                     Er−1 r           12    E −+
+         e1 −→e 2 · · · er−1 −→ er −→ 0 −→ − er −→ − er−1 · · · − e2 −→ − e1                      (2.15)
+
+where we have indicated the action of lowering operators. In addition to (2.11) we may
+also choose
+                            P0 = P2r+1 ,     K0 = K2r+1 ,                        (2.16)
+as extra elements of the basis for Pa , Ka operators and these commute with Hi , 1 ⩽ i ⩽ r,
+so that they have weight 0.
+     Again, in this basis the conformal algebra may be written in terms of the orthonormal
+basis of SO ∗ (2r + 3). In addition to (2.14) in this case we define
+
+                                   E0− = P0 ,        −E0+ = K0 ,                                  (2.17)
+
+and along with (2.8) the extra commutation relations are given by (2.9) for the range
+of the indices i, j being extended to 0, 1, . . . , r. Again, the linearly independent set of
+raising/lowering operators in this case is extended to include K1− /P1+ .
+    In terms of the orthonormal basis, unitarity requires that
+                              εη †    −ε −η
+  H† = H ,     Hi † = Hi ,   Eij   = Eij    ,        Eiε † = Ei−ε ,   Piε † = Ki −ε ,     P0 † = K0 .
+                                                                                                 (2.18)
+
+
+
+3. Character formulae for positive energy unitary irreducible representations
+
+    Essential in our approach to finding the character formulae for positive energy ir-
+reducible representations of the conformal group are SO ∗ (d + 2) Verma modules. These
+
+                                                 5
+have basis generated by the arbitrary action of lowering operators on the conformal highest
+                      h.w.
+weight state |∆, ℓ         corresponding to the SO ∗ (d + 2) weight Λ = (−∆, ℓ1 , . . . , ℓr ), r =
+[ 12 d] (where for a = 0, 1, . . . , r then Λa are Ha = −H, Hi eigenvalues). In what follows we
+assume that ℓ is a dominant integral highest weight with respect to SO(d), so that in the
+orthonormal basis ℓi = ℓ · ei ∈ 12 Z and1
+
+                                        ℓ1 ⩾ . . . ⩾ ℓr−1 ⩾ |ℓr | ,                                         (3.1)
+
+for SO(2r) while for SO(2r + 1)
+
+                                              ℓ1 ⩾ . . . ⩾ ℓr ⩾ 0 ,                                         (3.2)
+
+these being the respective dominant Weyl chambers (or boundaries thereof).
+                                              h.w.
+     The highest weight state |∆, ℓ                    satisfies
+                        h.w.                h.w.                        h.w.                  h.w.
+             Ha |∆, ℓ          = Λa |∆, ℓ          ,        K1− |∆, ℓ          = Eα |∆, ℓ            = 0,   (3.3)
+
+for α being the simple roots of SO(d) so that
+
+                                                                ++
+                               {Eα } → {Ei++
+                                           i+1 , 1 ⩽ i ⩽ r−1 , Er−1 r } ,                                   (3.4)
+
+for SO(2r) while
+                                 {Eα } → {Ei++                    +
+                                             i+1 , 1 ⩽ i ⩽ r−1 , Er } ,                                     (3.5)
+
+for SO(2r + 1).
+     The Verma module VΛ with highest weight Λ therefore has basis
+                                    Y                     Y                    h.w.
+                                              Pv nv             Eα nα |∆, ℓ           ,                     (3.6)
+                                   v=iε,0                α∈Φ−
+                                 1⩽i⩽r, ε=±
+
+
+
+for Φ− denoting the set of negative roots of SO(d) and with nv , nα all positive or zero
+                                                                                    −±
+integers, with n0 = 0 for SO(2r). As mentioned before, for SO(2r) then {Eα } → {Eij    }
+                                       −±     −
+while for SO(2r + 1) then {Eα } → {Eij , Ei }. Corresponding to the basis (3.6) the
+weights Λ′ in the Verma module are given by
+
+                               X                                   X            r
+                                                                                X
+             Λ′0 = −∆ −                            ℓ′ = ℓ −
+                                                                                                   
+                                     nv ,                              nα α +             ni+ − ni− ei .    (3.7)
+                            v=iε,0                              α∈Φ−            i=1
+                          1⩽i⩽r, ε=±
+
+
+     1   The Dynkin labels for even d are given by Λ′ i = ℓi − ℓi+1 , 1 ⩽ i ⩽ r−2 and Λ′ r−1 =
+ℓr−1 + ℓr , Λ′ r = ℓr−1 − ℓr while for odd d they are Λ′ i = ℓi − ℓi+1 , 1 ⩽ i ⩽ r−1 and Λ′ r = 2ℓr
+and these are the conditions for them to be non-negative integers.
+
+                                                            6
+In (3.6) we assume some fixed ordering of Pv , Eα . This ordering may be arbitrarily chosen
+since if a different ordering is assumed then the resulting Verma module basis can be
+expressed in terms of that in (3.6) due to Pv , Eα having commutators which are closed
+among themselves.
+    In appendix C we will use the form of the algebra in the last section, in terms of the
+orthonormal basis, to derive conditions necessary for conformal group representations to
+be unitary. These results are summarised by
+
+     ∆ ⩾ ∆p = ℓ 1 + d − p − 1 ,         p = 1, . . . , [ 21 d] for   ℓ1 = ℓ2 = . . . = ℓp > ℓp+1 ,
+                                                                                                          (3.8)
+     ∆ ⩾ 21 d − 1     or    ∆ = 0 for       ℓ = 0,
+
+while for odd d we have in addition that
+
+                                ∆ ⩾ [ 21 d] for      ℓ1 = . . . = ℓ[ 12 d] = 21 .                         (3.9)
+
+It has been proven elsewhere that these conditions are sufficient [18] (in order for states
+in irreducible representations of the conformal group to have strictly positive norm). We
+impose these conditions on the representations we are interested in.
+     Along with the highest weight Λ the weight system for VΛ may contain other highest
+weights Λw being, for certain w in the relevant Weyl group W, shifted (or affine) Weyl
+reflections given by,2
+                                    Λw = w(Λ + ρ) − ρ ,                              (3.10)
+
+for ρ being the Weyl vector, ρ = − 12 α∈Φ− α. As described more in Appendix A, VΛw
+                                       P
+
+is a sub-Verma module if and only if the w can be made to satisfy condition (A.9). A
+necessary condition is that Λ − Λw be expressible as a linear combination of positive roots
+with non-negative integer coefficients. This is equivalent to demanding that the state with
+weight Λw can be reached by applying lowering operators on the highest weight state with
+weight Λ. If the highest weight Λ is dominant integral then all VΛw are sub-Verma modules
+of VΛ .
+     As described in appendix A, in order to find the character of IΛ the first step is to
+find all Λw which are highest weights of sub-Verma modules. Below we give necessary
+conditions for SO ∗ (d + 2) weights to satisfy this for the highest weight having orthonormal
+       2   A simple example is for the Vℓ Verma module of SO(d) whereby the state |ℓσ12 i =
+  −+ ℓ1 −ℓ2 +1
+(E12 )         |ℓih.w. , for σ12 (ℓ1 , ℓ2 , . . .) = (ℓ2 , ℓ1 , . . .), characterises a sub-Verma-module Vℓσ12 ,
+for |ℓih.w. being annihilated by all SO(d) raising operators. To see this it suffices to use that
+  +−     −+ n                          −+ n−1                                εη †    −ε −η
+[E12 , (E12 ) ] = 4n(H1 − H2 + n − 1)(E12 )   . For unitary representations Eij   = Eij    and
+|ℓσ12 i is null.
+
+                                                       7
+basis labels Λ = (−∆, ℓ1 , . . . , ℓr ). We show how each such weight may be written as Λ′w
+where w ∈ Wd , the Weyl group of SO(d), and Λ′ = (−∆′ , ℓ′ ) has ℓ′ satisfying (3.1) or
+(3.2), so that ℓ′ is a dominant integral weight of SO(d), or else such that the weight ℓ′
+has a Dynkin label equal to −1 in which case such contributions vanish in χΛ . Using the
+results of appendix A we may then write the character as
+                             X                       X
+                     χΛ =          sgn(w)CΛw +                γΛ′ sgn(w)CΛ′ w ,           (3.11)
+                            w∈Wd                 w∈Wd , Λ′
+
+
+where CΛ′ are SO ∗ (d + 2) Verma module characters and γΛ′ is determined by a recurrence
+relation. To solve this recurrence relation requires knowing in more detail which sub-
+modules are contained in which and so condition (A.9) applies here.
+
+     The Weyl group Wd+2 acts in a particularly simple way on weights of the Verma
+module VΛ of SO ∗ (d + 2) in the orthonormal basis. Choosing any w ∈ Wd+2 then we may
+write
+                         w(Λ0 , . . . , Λr ) = (ε0 Λσ(0) , . . . , εr Λσ(r) ) , (3.12)
+                                    Q
+for σ ∈ Sr+1 and εa = ±1 with a εa = 1 for d = 2r. In the present case the relevant
+Weyl vector has components
+
+                               ρa = 21 d − a ,       a = 0, . . . , r ,                   (3.13)
+
+in the orthonormal basis of SO ∗ (d + 2). Notice that the last r components are the com-
+ponents of the Weyl vector for SO(d). From (3.10) we have that the components of Λw in
+the orthonormal basis are
+
+                                                   1
+                          Λw
+                           a = εa Λσ(a) + (εa − 1) 2 d − εa σ(a) + a .                    (3.14)
+
+
+    Now for SO ∗ (d + 2) the weights Λ = (−∆, ℓ1 , . . . , ℓr ) are clearly not dominant integral
+unless ∆ = ℓi = 0 which corresponds to the trivial representation. Sub-Verma-module
+weights must satisfy (3.7). Thus, for any Λw to be the highest weight of a sub-Verma-
+module then Λw                                                                w
+               0 = −∆ − n, n ∈ N. Also the minimum value of Λ0 is that for ε0 =
+−1, σ(0) = 1 so that sub-Verma-modules exist for
+
+                                −ℓ1 − d + 1 ⩽ Λw
+                                               0 = −∆ − n.                                (3.15)
+
+Notice that for ε0 = 1, σ(0) = 0 so that Λw 0 = −∆ then all VΛw , w ∈ Wd are sub-Verma-
+modules as ℓ is a dominant integral highest weight with respect to the SO(d) subgroup.
+For any other ε0 , σ(0) then this corresponds to a definite action of Pv on the highest weight
+state so that for these cases n ⩾ 1.
+
+                                                 8
+     Using the formula (3.11) and the results of appendix A with condition (3.15) we now
+discuss the even and odd dimension character formulae separately.
+Character formulae: even dimensions
+
+    For application of the results of appendix A we need to specify what condition (A.9)
+demands for SO ∗ (d + 2) Weyl group elements in d = 2r dimensions. For Sab , T(ab) being
+the Wd element for the respective positive roots ea + eb , ea − eb , 0 ⩽ a < b ⩽ r then clearly
+
+          Sab (Λ0 , . . . , Λa , . . . , Λb , . . . , Λr ) = (Λ0 , . . . , −Λb , . . . , −Λa , . . . , Λr ) ,
+                                                                                                                    (3.16)
+          T(ab) (Λ0 , . . . , Λa , . . . , Λb , . . . , Λr ) = (Λ0 , . . . , Λb , . . . , Λa , . . . , Λr ) .
+
+T(ab) corresponds to the transposition (ab) and below we use the short-hand notation
+Tσ = T(a1 b1 ) . . . T(aj bj ) for σ = (a1 b1 ) . . . (aj bj ). Applying Sab , respectively T(ab) , to some
+weight Λ′ = (Λ′ 0 , . . . , Λ′ r ) then clearly condition (A.9) allows only those Sab , respectively
+T(ab) , for which Λ′ a + Λ′ b ∈ N, respectively Λ′ a − Λ′ b ∈ N.
+
+    We may easily write the character formula for the SO ∗ (2r + 2) Verma module with
+highest weight Λ, for Λ = (−∆, ℓ), and weights Λ′ given by (3.7) as
+
+                            (2r+2)
+                                                  X        ′                 (2r)
+                         CΛ          (s, x) =           eΛ (µ) = s∆ Cℓ              (x) P (2r)(s, x) ,              (3.17)
+                                                   Λ′
+
+
+where, for some general SO ∗ (d + 2) weight µ,
+
+                                s = e−e0 (µ) = e−µ0 ,                    xi = eei (µ) = eµi ,                       (3.18)
+
+  (2r)
+Cℓ (x) denotes the character of the SO(2r) Verma module with highest weight ℓ (given
+in appendix B) and
+                                                     Y
+                              P (2r) (s, x) =              (1 − sxi )−1 (1 − sxi −1 )−1 .                           (3.19)
+                                                   1⩽i⩽r
+
+
+(P (2r) (s, x) comes from the summation over ni± implicit in (3.17).)
+     For ∆ > ℓ1 + d − 2 or ∆ lying between two any of ∆p and ∆p+1 in (3.8) then (3.15)
+implies that the only sub-Verma-modules are at most those having highest weights for
+ε0 = 1, σ(0) = 0 in (3.14). However, since ℓ is a dominant integral weight of SO(d)
+then all VΛw , w ∈ Wd are sub-Verma modules of VΛ in this case. Thus from (3.11) the
+corresponding character is,
+
+                  (2r)                                         (2r+2)                   (2r)
+                                       X
+               A[∆;ℓ] (s, x) =                 sgn(w)CΛw                (s, x) = s∆ χℓ         (x)P (2r) (s, x) .   (3.20)
+                                     w∈W2r
+
+
+                                                                 9
+    Let us assume that ℓ1 = ℓ2 = . . . = ℓp > |ℓp+1 |, p ⩽ r − 1, ∆ = ∆p . In this case
+only Λw0 for ε0 = 1, σ(0) = 0 and ε0 = −1, σ(0) = 1, . . . , p in (3.14) satisfy (3.15).
+For ε0 = 1, σ(0) = 0 then all VΛw , w ∈ Wd are sub-Verma modules. Let us assume
+ε0 = −1, σ(0) = j, 1 ⩽ j ⩽ p for which Λw
+                                        0 = −ℓ1 − d + j then it is not difficult to show
+that the rest of the components may be written as
+                                                                                               ′
+   (ℓ1 , . . . , ℓ1 , ℓp+1 , . . .)w = (ℓ1 , . . . , ℓ1 , ℓ1 − 1, . . . , ℓ1 − 1, ℓp+1 , . . .)w ,   w′ ∈ Wd ,
+                                                           ↑                                                     (3.21)
+                                                    j th position
+
+whereby if in the original w ∈ Wd+2 then σ(ka ) = a, ka 6= 0, a 6= j then w′ is defined in
+terms of w by
+
+                ε′0 = −ε0 = 1 ,         ε′k0 = −εk0 ,          ε′ki = εki ,    σ ′ = (0 p p − 1 . . . j)σ ,      (3.22)
+
+so that σ ′ (0) = 0 and σ ′ exhausts all members of Sr . Thus we have shown that all
+weights for the case of w ∈ Wd+2 having ε0 = −1, σ(0) = j in (3.14) may be written as
+       ′
+Λ(j,p)w , w′ ∈ Wd with3
+
+         Λ(j,p) = (−ℓ1 − d + j, ℓ1 , . . . , ℓ1 , ℓ1 − 1, . . . , ℓ1 − 1, ℓp+1 , . . .) .
+                                                        ↑                                                        (3.23)
+                                                 (j+1)th position
+
+                                                           ′
+       We may now easily show that Λ(j,p)w , w′ ∈ Wd exhaust all other highest weights of
+sub-Verma-modules of VΛ in this case. To see this notice that if condition (A.9) of appendix
+                                                                                      ′
+A is satisfied for the weight Λ(j,p) then it is satisfied for Λ(j,p)w , w′ ∈ Wd since the
+(ℓ1 , . . . , ℓ1 , ℓ1 − 1, . . . , ℓ1 − 1, ℓp+1 , . . .) corresponds to a dominant integral weight of SO(d).
+For Λ(j,p) itself we may show that Λ(j,p) = Λw where w = S0p Tσ for σ = (p p−1 . . . j)
+satisfies condition (A.9). We see this as (p p − 1 . . . j) = (p p−1)(p−1 p−2) . . . (j+1 j) and
+T(i+1 i) T(i i−1) . . . T(j+1j) (Λ + ρ) · (ei+2 − ei+1 ) ∈ N for i < p and Tσ (Λ + ρ) · (e0 + ep ) ∈ N.
+
+    It now remains to determine γΛ(j,p) → γj,p in (3.11) for the weight Λ(j,p) by the
+recurrence relation in appendix A. The first observation which is not difficult to show (in a
+     3
+            Q ′ Q                   ′         p+j+1
+         Also      a
+                       εa =    a
+                                   εa and sgn(w ) = (−1)               sgn(w). During the course of this work we
+noticed that, at this point, simply using the following formula
+                                                               X
+                                          χΛ = CΛ +                   sgn(w)CΛw
+                                                          w∈W,w6=1
+                                                           Λw ≺Λ
+
+
+where the sum runs over all w satisfying condition (A.9), gives exactly the same result for the
+character as we find here by a more laborious procedure. It would be interesting to know whether
+or not this formula holds for more general Lie algebras and highest weights. We have not been
+able to find such a simple formula in the literature.
+
+                                                               10
+similar fashion as above) is that among VΛ(k,p) the only such modules which contain VΛ(j,p)
+as a sub-module are those for j < k ⩽ p or none such if j = p. In fact it is possible to
+show that no proper sub-module of VΛ contains VΛ(p,p) so that in this case γp,p = −1.
+      To describe which sub-modules contain other VΛ(j,p) we first define a subset of the
+permutation group Tn ⊂ Sn so that every τ ∈ Tn has 1 ⩽ c ⩽ n cycles, where the
+first cycle consists of the first n1 of the integers n, n−1, . . . , 2, 1, preserving this ordering,
+the second consists of the next n2 such integers, again preserving this ordering, and so
+                                          Pc
+on and where n1 , . . . , nc ⩾ 1 satisfy     i=1 ni = n. For example for n = 3 then Tn =
+{(321), (32)(1) = (32), (3)(21) = (21), (3)(2)(1) = 1}. It is not difficult to        see that the
+                                                                                              n−1
+number of such permutations with c cycles (counting trivial one cycles) is                    c−1   so that
+the total number of such permutations is 2n−1 . Further we have that for n > 1 there are
+2n−2 of these permutations with signature 1 or −1 so that τ ∈Tn sgn(τ ) = 0.
+                                                          P
+
+      With the above definition of Tn we have found that the sub-modules VΛw′ , w′ ∈
+Wd , w′ 6= 1 contain VΛ(j,p) as a sub-module only for w′ ∈ Tp+1−j so that for j > p then
+            ′
+P
+   w ′ sgn(w ) = −1 is the contribution to γj,p coming from these. Also we have found that
+the sub-modules VΛ(k,p)w′ , j < k ⩽ p, w′ ∈ Wd containing VΛ(j,p) have w′ ∈ Tk−j so that
+for j + 1 < k ⩽ p then w′ sgn(w′ ) = 0 so that the contribution to γj,p coming from these
+                        P
+
+vanishes while for k = j + 1 then w′ = 1 and this contributes γj+1,p sgn(w′ ) = γj+1,p to
+γj,p . With these results we may then easily find that
+
+                                                    γj,p = (−1)p+j+1 ,                               (3.24)
+
+solves the recurrence relation γj,p = −γj+1,p , γp,p = −1.
+     It is possible to show that for such w′ as described above (essentially belonging to Tn
+                                                          ′                      ′
+for various n) then for w ∈ Wd+2 so that Λ(j,p) = Λww or Λ(j,p) = Λ(k,p)ww the only w
+which satisfy condition (A.9) are expressible as products of S0l , T(mn) , 1 ⩽ l, m, n ⩽ p.
+    Now applying (3.11) and the Weyl character formula for SO(2r) in terms of (3.17)
+(appendix B) we find that the corresponding character is,
+             (2r)
+           D[ℓ1 +2r−p−1;ℓ1 ,ℓp+1 ,...,ℓr ] (s, x)
+                                                                                                     (3.25)
+                                                                          
+                              (2r)                           (2r)
+                                               X
+           = sℓ1 +2r−p−1 χℓ (x) +                 (−s)p+1−j χℓ−e −...−e (x) P (2r) (s, x) .
+                                                                     p   j
+                                                  1⩽j⩽p
+
+
+for ℓ = (ℓ1 , . . . , ℓ1 , ℓp+1 , . . . , ℓr ).
+     Notice that for even dimensions we also have the possibility of ℓ1 = . . . = ℓr−1 =
+±ℓr , ∆ = ℓ1 + 21 d − 1. Here the Λw0 satisfying (3.15) are those for ε0 = 1, σ(0) = 0,
+ε0 = ∓1, σ(0) = r along with ε0 = −1, σ(0) = 1, . . . , r − 1. By an argument very similar
+
+                                                           11
+to the previous we find that, for ℓ = (ℓ, . . . , ℓ, ±ℓ),
+                  (2r)
+              D[ℓ+r−1;ℓ]± (s, x)
+                                                                                                    (3.26)
+                                                             
+                           (2r)           r+1−j (2r)
+                                   X
+              =s  ℓ+r−1
+                          χℓ (x) +   (−s)      χℓ∓e −...−e (x) P (2r) (s, x) ,
+                                                                            r        j
+                                              1⩽j⩽r
+
+is the corresponding character in this case.
+     The free scalar case, for which Λ = (−r + 1, 0, . . . , 0) is the highest SO(2r + 2) weight,
+is accounted for by (3.26) for ℓ = 0 and has character
+                         (2r)                 (2r)
+                    D[r−1;0] (s, x) ≡ D[r−1;0]±(s, x) = sr−1 (1 − s2 )P (2r) (s, x) ,               (3.27)
+
+since the SO(2r) characters obey χ(0,...,0,−1,±1) (x) = −1 with χ(0,...,0,±1) (x) = 0 and
+χ(0,...,0,−1,...,−1,±1) (x) = 0 otherwise.
+Character formulae: odd dimensions
+    Considerations for odd d = 2r + 1 dimensions are very similar to those above for even
+d = 2r dimensions and we will not go into as much detail here. Along with (3.16) W2r+1
+has extra elements corresponding to the extra positive roots ei , 1 ⩽ i ⩽ r given by
+
+                            Sa (Λ0 , . . . , Λa , . . . Λr ) = (Λ0 , . . . , −Λa , . . . , Λr ) .   (3.28)
+
+Acting on some weight Λ′ = (Λ′ 0 , . . . , Λ′ r ) then condition (A.9) only allows those Sa for
+which Λ′ a ∈ 21 N.
+
+    We may easily write the character formula for the SO ∗ (2r + 3) Verma module with
+highest weight Λ and weights Λ′ given by (3.7) as
+                  (2r+3)
+                                  X ′             (2r+1)
+                CΛ       (s, x) =  eΛ (µ) = s∆ Cℓ        (x) P (2r+1)(s, x) ,  (3.29)
+                                             Λ′
+
+         (2r+1)
+where Cℓ      (x) denotes the character of the SO(2r + 1) Verma module with highest
+weight ℓ (given in appendix B) and
+                                             Y
+                 P (2r+1) (s, x) = (1 − s)−1   (1 − sxi )−1 (1 − sxi −1 )−1 . (3.30)
+                                                         1⩽i⩽r
+
+
+(P (2r+1) (s, x) comes from the summation over ni± , n0 implicit in (3.29).)
+     For ∆ > ℓ1 + d − 2 or ∆ lying between two any of ∆p and ∆p+1 in (3.8) then character
+for positive energy unitary irreducible representations is,
+        (2r+1)                         (2r+3)             (2r+1)
+                        X
+      A[∆;ℓ] (s, x) =          sgn(w)CΛw (s, x) = s∆ χℓ          (x)P (2r+1)(s, x) , (3.31)
+                            w∈W2r+1
+
+
+                                                            12
+         (2r+1)
+where χℓ          (x) is the character of the SO(2r + 1) irreducible representation with highest
+weight ℓ.
+     For ∆ = ∆p in (3.8) we may go through the same procedure as for the even dimensional
+case and find that the extra Weyl reflections (3.28) lead to nothing new as far as condition
+(A.9) is concerned. Thus for odd d and with ℓ = (ℓ1 , . . . , ℓ1 , ℓp+1 , . . . , ℓr ) the corresponding
+character for these representations is,
+         (2r+1)
+       D[ℓ1 +2r−p;ℓ1 ,ℓp+1 ,...,ℓr ] (s, x)
+                                                                                                              (3.32)
+                                                                      
+                        (2r+1)                           (2r+1)
+                                            X
+       = sℓ1 +2r−p χℓ             (x) +       (−s)p+1−j χℓ−e −...−e (x) P (2r+1) (s, x) .
+                                                                       p         j
+                                          1⩽j⩽p
+
+
+
+    For the free scalar case, for which Λ = (−r + 12 , 0, . . . , 0) is the highest SO(2r + 3)
+weight, we have that the corresponding character is given by,
+
+                                 (2r+1)                   1
+                             D[r− 1 ;0] (s, x) = sr− 2 (1 − s2 )P (2r+1) (s, x) .                             (3.33)
+                                    2
+
+
+
+
+     For odd dimensions we also have the possibility of the highest weight Λ having compo-
+nents Λ = (−r, 21 , . . . 21 ). This time the Λw      0 satisfying (3.15) are those for ε0 = ±1, σ(0) = 0,
+ε0 = −1, σ(0) = j, 1 ⩽ j ⩽ r. For ε0 = −1, σ(0) = 0 then Λw                  0 = −r − 1 and the remaining
+                                            w            w′           ′
+components may be rewritten as ℓ = ℓ where w ∈ W2r+1 is identical to w save for
+ε′0 = −ε0 = 1 so that a ε′a = − a εa and sgn(w′ ) = −sgn(w). The cases of ε0 = −1,
+                              Q            Q
+
+σ(0) = j, 1 ⩽ j ⩽ r are accounted for similarly as for even dimensions for p = r. How-
+ever these cases have highest weights which are shifted W2r+1 Weyl group reflections of
+(−∆′ , ℓ′ ) = (−2r − 1 + j, − 12 , . . . , − 21 , 12 , . . .). For these weights at least one of the Dynkin
+labels ℓ′ i+1 − ℓ′ i is equal to −1 so that contributions from all these Verma modules vanish
+from the character formula (by a result of appendix A).
+     The only cases we have to consider are for the Verma modules VΛ′w′ , w′ ∈ W2r+1
+for Λ′ = (−r − 1, 12 , . . . , 21 ). By similar arguments as before all VΛ′ w′ for w′ 6= 1 are sub-
+modules of VΛ′ . Due to Λ′ + ρ = S0 (Λ + ρ), where Sa is defined in (3.28), then condition
+(A.9) (which is satisfied due to e0 · (Λ + ρ) = 21 ) implies that all VΛ′w′ , w′ ∈ W2r+1 are sub-
+modules of VΛ . Further we may show that VΛ′ is contained only in VΛ , and no sub-modules
+of VΛ , and so γΛ′ = −1.
+     Taking into account these considerations, we have that the character is, from (3.11),
+
+            (2r+1)
+                                 X                                
+         D[r; 1 ] (s, x) =                sgn(w) CΛw − CΛ′ w
+              2
+                             w∈W2r+1                                                                          (3.34)
+                                                              1
+                             r      1
+                                             − 12                      − 21               (2r+1)
+                         = s (x1 + x1
+                                    2               ) . . . (xr + xr
+                                                              2               )(1 − s)P            (s, x) ,
+
+                                                          13
+and where we have used that
+
+                                (2r+1)          1         1                    1         1
+                        χ( 1 ,..., 1 ) (x) = (x1 2 + x1 − 2 ) . . . (xr 2 + xr − 2 ) .                  (3.35)
+                                 2   2
+
+
+
+
+Relation with reduced Verma module bases
+
+     We wish to show here that omitting certain of Pv from the original Verma module
+basis (3.6) leads to formulae for characters which are equivalent to those obtained in the
+last sections.
+     Descendant states (i.e. those obtained by definite action of Pv on the highest weight
+state) are SO(d) representations belonging to the decomposition of e1 ⊗ . . . ⊗ e1 ⊗ ℓ in
+terms of irreducible representations. From appendix C, these states are null for either
+of two reasons. One reason is that ℓ may lie on the boundary of the dominant Weyl
+chamber (3.1) (i.e. that some ℓ1 = ℓ2 = . . .) so that certain descendant states are null with
+respect to the SO(d) subgroup. The other reason is that ∆ may lie on a unitarity bound.
+By omitting the correct Pv from (3.6) we effectively discard states in the original Verma
+module which are null due to the value of ∆. Acting with the Weyl symmetry operator on
+the character of the reduced Verma module is equivalent to projecting out of the reduced
+module states which are null by virtue of which SO(d) representation they belong to. We
+may show that this prescription gives the same formulae for characters as found earlier.
+     For definiteness we consider the case where ℓ1 = . . . = ℓp > |ℓp+1 |, ∆ ⩾ ℓ1 + d − p − 1,
+in even dimensions, d = 2r, although the other cases of interest are similar.
+
+     For this case and in the notation of appendix C, consider the SO(2r) highest weight
+state |∆ + 1, ℓ − ep . The construction of such a state is non-trivial and in appendix C
+only the simplest such states have been constructed. Nevertheless we may write down the
+state in principle as
+
+                                                          h.w.
+                                                                     X
+                 |∆ + 1, ℓ − ep = Aℓ Pp− |∆, ℓ                   +             Bv ′ ,ℓ′ Pv ′ |∆, ℓ′ ,   (3.36)
+                                                                     v ′ ,ℓ′
+
+
+where Pv ′ ↔ v′ ∈ {±ei } is the subset of Pi± which may be reached by applying SO(2r)
+raising operators to Pp− and ℓ′ + v′ = ℓ − ep . The subset Pv ′ may be easily determined
+from (2.10) to be given by Pi+ , Pj− for 1 ⩽ i ⩽ r and p + 1 ⩽ j ⩽ r. The complex numbers
+Aℓ , Bv ′ ,ℓ′ are determined by the condition that (3.36) be a highest weight state with respect
+to SO(2r) i.e. that all SO(2r) raising operators annihilate it. By the results of appendix
+C, for ∆ above the unitarity bound this state is not null however when ∆ = ℓ1 + d − p − 1
+then |∆ + 1, ℓ − ep = 0. This is equivalent to a conservation equation for the highest
+                     h.w.
+weight state |∆, ℓ          .
+
+                                                     14
+      Now the modulus of Aℓ is non-zero despite ℓ1 = . . . = ℓp > |ℓp+1 |. When ∆ =
+                                                                                 h.w.
+ℓ1 + d − p − 1, so that (3.36) vanishes, then Pp− |∆, ℓ    may be expressed in terms of
+         ′           ′
+Pi+ |∆, ℓ , Pj− |∆, ℓ for 1 ⩽ i ⩽ r and p + 1 ⩽ j ⩽ r. Also, as
+
+                                                                     h.w.
+                    Ei−+
+                       i+1 |∆, ℓ1 , . . . , ℓ1 , ℓp+1 , . . . , ℓr          = 0,     i = 1, . . . , p − 1 ,            (3.37)
+
+then applying such Ei−+
+                      i+1 to (3.36) and using (2.10), we have that for ∆ on the uni-
+                                        h.w.
+tarity bound then Pi− |∆, ℓ        , 1 ⩽ i ⩽ p − 1 may be similarly expressed in terms of
+Pi+ |∆, ℓ′ , Pj− |∆, ℓ′ for 1 ⩽ i ⩽ r and p + 1 ⩽ j ⩽ r. Thus, effectively the Verma module
+basis (3.6) becomes reduced so as to exclude Pi− , 1 ⩽ i ⩽ p.
+    Acting with the SO(d) Weyl symmetry operator Wd (see appendices A,B) on the
+character for the reduced Verma module yields the following formula,
+                                                                         
+           w(Λ′ )                        (2r)
+   X
+                          ℓ1 +2r−p−1
+          e       (µ) = s            Wd Cℓ (x)(1 − sx1 ) . . . (1 − sxp ) P (2r) (s, x)
+                                                      −1               −1
+
+ Λ′ ,w∈W2r
+                                                                                                             
+                                                 (2r)                                (2r)
+                                                                     X
+                             =s   ℓ1 +2r−p−1
+                                                χℓ (x) +                      (−s)n χℓ−e −...−e           (x) P (2r) (s, x) ,
+                                                                                         i  1   i     n
+                                                                  1⩽n⩽p
+                                                            ij ∈{1,...,p}, ij 6=ik
+
+                                                                                                                       (3.38)
+for ℓ = (ℓ1 , . . . , ℓ1 , ℓp+1 , . . . , ℓr ) and where now Λ         ′
+                                                                           = (−Λ′0 , ℓ′ ) are specified by
+                                                                       X                  X
+                      Λ′0 = −∆′ = −ℓ1 − d + p + 1 −                            ni+ −              nj− ,
+                                                                      1⩽i⩽r             p+1⩽j⩽r
+                                     X              X                        X                                         (3.39)
+                         ′
+                       ℓ = ℓ−               α+             ni+ ei −                  nj− ej .
+                                    α∈Φ−          1⩽i⩽r                    p+1⩽j⩽r
+
+
+It is easy to see that (3.38) reduces to (3.25). To see this note that χℓ′ (x) in (3.38) is
+non-zero only for ℓ′ = (ℓ1 , . . . , ℓ1 , ℓ1 − 1, . . . , ℓ1 − 1, ℓp+1 , . . . , ℓr ) i.e. for ij = k, k + 1, . . . , p
+for some 1 ⩽ k ⩽ p.
+     To summarise: when the conformal dimension ∆ saturates a unitarity bound the
+Verma module basis is reduced so as to exclude certain of the Pi± , P0 from (3.6). This is
+equivalent to conservation equations constraining the highest weight state. This subset may
+be determined in terms of the results of appendix C. Acting with the SO(d) Weyl symmetry
+operator on the character of the reduced Verma module then leads to the characters for the
+corresponding unitary irreducible representation. Explicitly, for (3.25) or (3.32) the subset
+to be omitted from (3.6) is Pi− , 1 ⩽ i ⩽ p, for (3.26) the subset is Pi− , 1 ⩽ i ⩽ r − 1 along
+                (2r)                   (2r)
+with Pr− for D[ℓ+r−1;ℓ]+ or Pr+ for D[ℓ+r−1;ℓ]− while for (3.34) the subset is Pi− , 1 ⩽ i ⩽ r
+along with P0 .
+Special cases
+
+                                                              15
+    We here illustrate these character formulae for the simplest cases of the SO(3, 2)
+and SO(4, 2) conformal groups and mention how special cases relate to conformal field
+representations.
+        We have that,
+                                                   (3)            xℓ
+                                      Cℓ (x) ≡ Cℓ (x) =                ,                                (3.40)
+                                                               1 − x−1
+is the character of SO(3) Verma modules and
+
+                                                                        ℓ+ 21                   1
+                                (3)                          x                    − x−ℓ− 2
+                      χℓ (x) ≡ χℓ (x) = Cℓ (x) + Cℓ (x−1 ) =                  1             1       ,   (3.41)
+                                                                          x 2 − x− 2
+
+is the usual character for SO(3) irreducible representations. We have therefore that,4
+
+                          (3)
+                        A[∆;ℓ] (s, x) = s∆ χℓ (x)P (3) (s, x) ,
+                        (3)
+                      D[ℓ+1;ℓ] (s, x) = sℓ+1 (χℓ (x) − sχℓ−1 (x)) P (3) (s, x) ,
+                          (3)                 1          1                                              (3.42)
+                        D[1; 1 ] (s, x) = s (x 2 + x− 2 ) (1 − sx)−1 (1 − sx−1 )−1 ,
+                              2
+                         (3)                1
+                        D[ 1 ;0] (s, x) = s 2 (1 + s) (1 − sx)−1 (1 − sx−1 )−1 ,
+                           2
+
+
+
+exhaust all characters of the unitary irreducible representations of SO(3, 2). Analogous
+formulae are to be found in [12].
+
+        For SO(4) ≃ SU (2) ⊗ SU (2) we have that
+
+  (4)                                                                                           1   1   1   1
+C(ℓ1 ,ℓ2 ) (x1 , x2 ) = Cj (x)C̄ (y) , for ℓ1 = j + ̄ ,     ℓ2 = j − ̄ ,   x2 = x 2 y − 2 ,
+                                                                                      x1 = x 2 y 2 ,
+                                                                                      (3.43)
+i.e. the Verma module character with dominant highest weight (ℓ1 , ℓ2 ) may be expressed as
+a product of two SU (2) Verma module characters with highest weights j, ̄. The characters
+of unitary irreducible representations of SO(4, 2) are given by,
+
+            (4)
+      A[∆;j,̄] (s, x, y) = s∆ χj (x)χ̄ (y)P (4) (s, x, y) ,
+                                                                              
+    (4)
+   D[j+̄+2;j,̄] (s, x, y) = sj+̄+2 χj (x)χ̄ (y) − s χj− 21 (x)χ̄− 12 (y) P (4) (s, x, y) ,
+      (4)
+                                                                                                      (3.44)
+    D[j+1;j]+(s, x, y) = sj+1 χj (x) − s χj− 21 (x)χ 12 (y) + s2 χj−1 (x) P (4) (s, x, y) ,
+                                                                                
+       (4)
+     D[̄+1;̄]− (s, x, y) = s̄+1 χ̄ (y) − s χ̄− 12 (y)χ 21 (x) + s2 χ̄−1 (y) P (4) (s, x, y) .
+
+        4   In terms of the notation employed in [6] these character formulae agree for x → β 2 , s →
+                                                               (3)            (3)
+α2 . In the nomenclature of [6], the representations D[1; 1 ] and D[ 1 ;0] correspond to the ‘Di’ and
+                                                                  2               2
+‘Rac’ singleton representations, respectively.
+
+                                                         16
+Here we have written P (4) (s, x1 , x2 ) → P (4) (s, x, y) for x1 , x2 as in (3.43). This reproduces
+the results for character formulae in four dimensions found in [4]. Similar formulae are to
+be found in [13].
+     Free fields have conformal dimension ℓ + 21 d − 1 and belong to the (ℓ, . . . , ℓ, ±ℓ) repre-
+sentation of SO(2r) for any ℓ ∈ 12 N in d = 2r dimensions and the (ℓ, . . . , ℓ, ℓ) representation
+of SO(2r + 1) for ℓ = 0, 21 in d = 2r + 1 dimensions [21]. The corresponding characters for
+                        (2r)                                   (2r)
+even dimensions are D[ℓ+r−1;ℓ]± (s, x) in (3.26) along with D[r−1;0] (s, x) in (3.27) for the
+                                                                                        (2r+1)
+scalar case. For odd dimensions the corresponding characters are D[r; 1 ] (s, x) of (3.34)
+                                                                                          2
+     (2r+1)
+and D[r− 1 ;0] (s, x) in (3.33).
+         2
+
+     The characters (3.25), (3.32) for the special case of p = 1 and ℓ1 ≡ ℓ, ℓ2 = . . . = ℓr = 0
+correspond to conserved symmetric traceless tensor-field representations of the conformal
+group, Tµ1 ...µℓ = T(µ1 ...µℓ ) , T µ µµ2 ...µℓ = ∂ µ1 Tµ1 ...µℓ = 0. These have conformal dimension
+d + ℓ − 2 in d dimensions and examples are the conserved vector current for ℓ = 1 and
+energy momentum tensor for ℓ = 2.
+
+
+
+4. Product formulae
+
+     We now turn to the determination of the decomposition of products of unitary irre-
+ducible representations of the conformal group into other unitary irreducible representa-
+tions.
+Product formulae: four dimensions
+     We illustrate for the SO(4, 2) case first. For these purposes we first note a useful
+identity, namely,
+                                           ∞
+                                           X
+                         P (4) (s, x, y) =    s2p+q χ 12 q (x)χ 12 q (y) .          (4.1)
+                                             p,q=0
+
+With (4.1) we may now easily determine the products of unitary irreducible representations
+of the conformal group. Using the usual decomposition of products of SU (2) characters,
+
+                                                                 j+j ′
+                                                                 X
+                            χj⊗j ′ (x) ≡ χj (x)χj ′ (x) =                  χq (x) ,              (4.2)
+                                                              q=|j−j ′ |
+
+
+and (4.1), we notice that
+                                                 ∞
+                          (4)
+                                                 X
+                         D[j+1;j]+ (s, x, y) =         sq+j+1 χj+ 21 q (x)χ 12 q (y).            (4.3)
+                                                 q=0
+
+
+                                                   17
+Thus we may straightforwardly determine that,
+  (4)                             (4)
+D[j+1,j]+(s, x, y)D[j ′+1;j ′ ]+ (s, x, y)
+                                        ∞                                                                        
+    j+j ′ +2
+                                        X
+                                            q
+                                                                                                                 
+=s           P (s, x, y) χj⊗j ′ (x) +      s χj+j ′ + 12 q (x)χ 12 q (y) − s χj+j ′ + 21 q− 12 (x)χ 21 q− 12 (y)
+                                                           q=1
+                                                 ∞
+        (4)                                                 (4)
+                                                 X
+ = A[j+j ′ +2;j⊗j ′ ,0] (s, x, y) +                      D[j+j ′ +q+2;j+j ′ + 1 q, 1 q] (s, x, y) .
+                                                                                         2    2
+                                                 q=1
+                                                                                                                                         (4.4)
+Similarly, using (4.2), (4.3), we may easily determine that,
+    (4)                            (4)
+ D[j+1,j]+ (s, x, y)D[̄+1;̄]− (s, x, y)
+                                                     ∞
+                                                     X
+                         j+̄+2
+                                                           sq χj+ 21 q (x)χ̄+ 12 q (y) − s χj+ 12 q− 21 (x)χ̄+ 12 q− 12 (y)
+                                                                                                                                     
+                    =s             P (s, x, y)
+                                                     q=0                                                                                 (4.5)
+                        ∞
+                                  (4)
+                        X
+                    =         D[j+̄+q+2;j+ 1 q,̄+ 1 q] (s, x, y) .
+                                                     2          2
+                        q=0
+
+Using (4.2), (4.3), we may also find that
+              (4)                              (4)
+          D[j+̄+2;j,̄] (s, x, y)D[j ′+1,j ′ ]+ (s, x, y)
+               ∞
+                          (4)                                                  (4)
+               X
+          =             A[∆ ,j+j ′ + 1 q,̄+ 1 q] (s, x, y) + A[∆ ,(j− 1 )⊗(j ′ + 1 q− 1 ),̄+ 1 q] (s, x, y)                            (4.6)
+                              q           2          2                              q         2      2   2         2
+               q=0
+                       (4)
+                                                                                                  ∆q = j + j ′ + ̄ + q + 3 ,
+                                                                     
+                    + A[∆ ,j+j ′ + 1 q,(̄− 1 )⊗( 1 q− 1 )] (s, x, y) ,
+                              q          2           2      2       2
+
+
+and
+                                                                        ∞
+          (4)                (4)                                                    (4)
+                                                                        X
+         A[∆;j,̄] (s, x, y)D[j ′+1,j ′ ]+ (s, x, y) =                         A[∆+j ′ +q+1;j⊗(j ′ + 1 q),̄⊗ 1 q] (s, x, y) ,           (4.7)
+                                                                                                             2         2
+                                                                        q=0
+
+                                                                        (4)                                                    (4)
+which exhausts all products involving D[j+1;j]+ (s, x, y). Those involving D[̄+1;̄]− (s, x, y)
+may be obtained by the exchange x ↔ y above noting
+        (4)                              (4)                                  (4)                                (4)
+   D[̄+1;̄]− (s, x, y) = D[̄+1;̄]+ (s, y, x) ,                       D[j+̄+2;j,̄] (s, x, y) = D[j+̄+2;̄,j] (s, y, x) ,
+                                                     (4)                                (4)
+                                                                                                                                         (4.8)
+                                                 A[∆;j,̄] (s, x, y) = A[∆;̄,j] (s, y, x) .
+
+      Similarly, using (4.1) directly, we have that
+                                                                        ∞
+       (4)                (4)                                                   (4)
+                                                                        X
+      A[∆;j,̄] (s, y, x)A[∆′;j ′ ,̄′ ] (s, y, x) =                          A[∆+∆′ +2p+q;j⊗j ′ ⊗ 1 q,̄⊗̄′ ⊗ 1 q] (s, x, y) .         (4.9)
+                                                                                                          2                2
+                                                                    p,q=0
+
+
+                                                                              18
+We may note that each of these product formulae is compatible with the ‘blind’ partition
+functions,
+             (4)                     s∆
+           A[∆;j,̄] (s, 1, 1) =           (2j + 1)(2̄ + 1) ,
+                                  (s − 1)4
+        (4)                        sj+̄+2                            
+       D[j+̄+2;j,̄] (s, 1, 1) =           (2j + 1)(2̄ + 1)  − 4sj̄  ,                                               (4.10)
+                                  (s − 1)4
+          (4)                       (4)                  sj+1                              
+        D[j+1;j]+ (s, 1, 1) = D[j+1;j]− (s, 1, 1) =               − (2j   + 1) + s(2j − 1)   .
+                                                       (s − 1)3
+
+     As we see, the d = 4 cases are relatively simple when we use expansion formulae of
+the type (4.1), (4.3) to expand one of the characters in the product of two. The general
+cases which we consider now are also made simpler with analogous expansion formulae.
+Product formulae: even dimensions
+
+    Useful for finding product formulae for the SO(2r, 2) conformal group is the following
+expansion of P (s, x) in terms of SO(2r) characters, namely,
+                                                                ∞
+                                                                               (2r)
+                                                                X
+                                             (2r)
+                                         P          (s, x) =           s2p+q χ(q,0,...,0) (x) ,                         (4.11)
+                                                               p,q=0
+
+where
+                   (2r)
+               χ(q,0,...,0) (x) = 12 det[xi kj + xi −kj ]∆(x1 + x1 −1 , . . . , xr + xr −1 )−1 ,                        (4.12)
+with k1 = q + r − 1, kj = r − j, j > 1, for ∆(x) being the Vandermonde determinant,
+                                                  Y
+                            ∆(x1 , . . . , xn ) =    (xj − xi ) .                (4.13)
+                                                                      1⩽i<j⩽n
+
+The latter expression for the character comes from appendix B where also expressions for
+more general characters of SO(d) in even and odd dimensions are given.
+    Analogously to (4.3) we have for (3.26) that
+                                                               ∞
+                                  (2r)                                            (2r)
+                                                               X
+                                 D[ℓ+r−1;ℓ]± (s, x) =                sℓ+r+q−1 χ(ℓ+q,ℓ,...,ℓ,±ℓ) (x) ,                   (4.14)
+                                                               q=0
+
+which we prove in appendix D.
+     More generally for the p = r − j case of (3.25) (note that (4.14) encapsulates the p = r
+case) we have, for ℓ > ℓ1 > . . . > |ℓj |,
+    (2r)
+  D[ℓ+r+j−1;ℓ,ℓ1 ,...,ℓj ] (s, x)
+                          1              1
+           ∞              2 p1           2 pj                                                                           (4.15)
+                                                                                  (2r)
+           X              X              X
+   =                               ...              sℓ+r+j+q+p1 +...+pj −1 χ(ℓ+q,ℓ,...,ℓ,ℓ1 +2i1 ,...,ℓj +2ij ) (x) ,
+    p1 ,...,pj ,q=0 i1 =− 1 p1        ij =− 21 pj
+                             2
+
+
+
+                                                                     19
+which we also prove in appendix D. Note that the weights (ℓ+q, ℓ, . . . , ℓ, ℓ1 +2i1 , . . . , ℓj +2ij )
+may lie outside the dominant Weyl chamber, i.e. not satisfy (3.1), for particular ℓ, ℓi.
+                                              (2r)              (2r)
+However for such weights we may use that χℓ′ (x) = sgn(w)χℓ′w (x), for some w ∈ W2r ,
+to relate such characters to the character with dominant integral highest weight ℓ′w .
+       A notable simplification to (4.15) occurs for the p = 1 case of (3.25) for ℓ1 ≡ ℓ, ℓ2 =
+. . . = ℓr = 0 which corresponds to conserved symmetric traceless tensor representations of
+the conformal group. In this case we obtain that, for d > 4,
+                                                     ∞ X
+                                                       ℓ
+                  (2r)                                                                (2r)
+                                                     X
+                 D[ℓ+2r−2;ℓ,0,...,0] (s, x) =                    sℓ+2r+2p+q−2 χ(q+k,ℓ−k,0,...,0) (x) .        (4.16)
+                                                    p,q=0 k=0
+
+
+     We now discuss products involving the representations in (4.14) which contain the
+                                                         (2r)
+‘truncated’ representations in (3.25) for p = 1 namely, D[ℓ1 +2r−2,ℓ1 ,...,ℓr ] .
+     For d = 6, for example, we may find using (4.14), (3.25) for p = 1 and (3.26) that
+           (6)                    (6)
+       D[ℓ+2;ℓ]+ (s, x) D[ℓ′+2;ℓ′ ]− (s, x)
+                                                           ∞
+                 (6)
+                                                           X       (6)                                        (4.17)
+        = A[ℓ+ℓ′ +4;(ℓ,ℓ,ℓ)⊗(ℓ′ ,ℓ′ ,−ℓ′ )] (s, x) +             D[ℓ+ℓ′ +q+4;ℓ+ℓ′ +q,ℓ+ℓ′ ,ℓ−ℓ′ ] (s, x) ,
+                                                           q=1
+
+and that
+                                                                   ′
+                                                        ∞ ℓ+ℓ
+        (6)              (6)                                               (6)
+                                                        X X
+       D[ℓ+2;ℓ]± (s, x) D[ℓ′ +2;ℓ′ ]± (s, x) =                           D[ℓ+ℓ′ +q+4;ℓ+ℓ′ +q,t,±t] (s, x) .   (4.18)
+                                                        q=0 t=|ℓ−ℓ′ |
+
+
+Here and in the following we are using the short-hand notation, for r = [ 21 d],
+                                (d)                              (d)               (d)
+                            χ(ℓ1 ,...,ℓr )⊗(ℓ′ ,...,ℓ′ ) (x) ≡ χ(ℓ1 ,...,ℓr ) (x)χ(ℓ′ ,...,ℓ′ ) (x) ,         (4.19)
+                                               1    r                                1       r
+
+
+in A[∆;ℓ] (s, x). Of course (4.19) may be decomposed in terms of SO(d) characters once we
+know how ℓ ⊗ ℓ′ decomposes into irreducible representations.
+    More generally there is a distinction in such product formulae between the cases where
+the dimension is divisible by four or not so.
+     Explicitly, we have for d = 4m that
+             (4m)                            (4m)
+           D[ℓ+2m−1;ℓ]+ (s, x) D[ℓ′ +2m−1;ℓ′ ]− (s, x)
+                            ′
+                 ∞ ℓ+ℓ
+                 X X                  (4m)                                                                    (4.20)
+            =                     D[ℓ+ℓ′ +q+4m−2;ℓ+ℓ′ +q,t1 ,t1 ,t2 ,t2 ,...,tm−1 ,tm−1 ,ℓ−ℓ′ ] (s, x) ,
+                 q=0 ti ⩾ℓ−ℓ′
+                       ti ⩾ti+1
+
+
+
+                                                              20
+and
+
+        (4m)                         (4m)
+      D[ℓ+2m−1;ℓ]± (s, x) D[ℓ′+2m−1;ℓ′ ]± (s, x)
+            (4m)
+       = A[ℓ+ℓ′ +4m−2;(ℓ,...,±ℓ)⊗(ℓ′ ,...,±ℓ′ )] (s, x)
+                 ∞        ℓ+ℓ′                                                                                            (4.21)
+                                    (4m)
+                 X        X
+            +                      D[ℓ+ℓ′ +q+4m−2;ℓ+ℓ′ +q,ℓ+ℓ′ ,t1 ,t1 ,t2 ,t2 ,...,tm−1 ,±tm−1 ] (s, x) ,
+                 q=1 ti ⩾|ℓ−ℓ′ |
+                       ti ⩾ti+1
+
+
+
+
+while for d = 4m + 2 we have that
+
+         (4m+2)                   (4m+2)
+      D[ℓ+2m;ℓ]+ (s, x) D[ℓ′+2m;ℓ′ ]− (s, x)
+            (4m+2)
+       = A[ℓ+ℓ′ +4m;(ℓ,...,ℓ)⊗(ℓ′ ,...,−ℓ′ )] (s, x)
+                 ∞        ℓ+ℓ′                                                                                            (4.22)
+                                     (4m+2)
+                 X        X
+             +                     D[ℓ+ℓ′ +q+4m;ℓ+ℓ′ +q,ℓ+ℓ′ ,t1 ,t1 ,t2 ,t2 ,...,tm−1 ,tm−1 ,ℓ−ℓ′ ] (s, x) ,
+                 q=1 ti ⩾ℓ−ℓ′
+                      ti ⩾ti+1
+
+
+
+
+and
+                                                                 ′
+                                                      ∞       ℓ+ℓ
+ (4m+2)            (4m+2)                                                  (4m+2)
+                                                      X       X
+D[ℓ+2m;ℓ]± (s, x) D[ℓ′+2m;ℓ′ ]± (s, x) =                                D[ℓ+ℓ′ +q+4m;ℓ+ℓ′ +q,t1 ,t1 ,t2 ,t2 ,...,tm ,±tm ] (s, x) .
+                                                      q=0 ti ⩾|ℓ−ℓ′ |
+                                                            ti ⩾ti+1
+
+                                                                                                                          (4.23)
+                                                                                                             (2r)
+     A special case of the previous is the product involving the character D[r−1;0] in (3.27),
+corresponding to a free scalar field, for which we have
+
+                                                                     ∞
+                   (2r)                 (2r)                                      (2r)
+                                                                     X
+                 D[r−1;0] (s, x) D[ℓ+r−1;ℓ]±(s, x) =                       D[ℓ+q+2r−2;ℓ+q,ℓ,...,±ℓ] (s, x) .              (4.24)
+                                                                     q=0
+
+
+
+     Another special case of the above contains a result first found by Vasiliev [10] which
+generalises a well known result by Flato and Fronsdal [6] in three dimensions to even
+dimensions d = 2r. This result involves products of the representation corresponding to
+the free Dirac spinor,
+
+                                        (2r)                           (2r)
+               Di (2r) (s, x) ≡ D[r− 1 , 1 ]+ (s, x) + D[r− 1 , 1 ]− (s, x)
+                                                2 2                        2 2
+
+                                       r− 21             (2r)                     (2r)                  
+                                  =s            (1 − s) χ( 1 ,..., 1 , 1 ) (x) + χ( 1 ,..., 1 ,− 1 ) (x) P (s, x)         (4.25)
+                                                           2       2 2              2       2    2
+                                            1                 1               1          1        1
+                                  = sr− 2 (1 − s)(x1 2 + x1 − 2 ) . . . (xr 2 + xr − 2 )P (s, x) .
+
+                                                                  21
+Using the above product formulae we may show that
+    Di (2r) (s, x)Di (2r) (s, x)
+             (2r)
+      = 2A[2r−1,0,...,0]
+            ∞
+           X  (2r)
+        +2      D[2r+q−1,q+1,1,1,...,1,0] (s, x) + D[2r+q−1,q+1,1,1,...,1,0,0] (s, x)
+             q=0                                                                                                       (4.26)
+                                                                                                               
+                                     (2r)                                            (2r)
+                       + . . . + D[2r+q−1,q+1,1,0,...,0,0] (s, x) + D[2r+q−1,q+1,0,0,...,0,0] (s, x)
+            ∞
+                     (2r)                              (2r)
+            X                                                                          
+        +           D[2r+q−1,q+1,11,...,1,1] (s, x) + D[2r+q−1,q+1,1,1,...,1,−1] (s, x) ,
+            q=0
+
+regardless of whether d = 2r is divisible by four or not so. The latter matches Vasiliev’s
+result.
+Product formulae: odd dimensions
+      For SO(2r + 1, 2) we have that
+                                                                ∞
+                                                                                    (2r+1)
+                                                                X
+                                     P (2r+1) (s, x) =                    s2p+q χ(q,0,...,0) (x) ,                     (4.27)
+                                                               p,q=0
+
+where
+                     (2r+1)
+                  χ(q,0,...,0) (x) = 12 det[xi kj − xi −kj ]∆(x1 + x1 −1 , . . . , xr + xr −1 )−1
+                           1             1                 1              1
+                                                                                                                       (4.28)
+                    × (x1 2 − x1 − 2 )−1 . . . (xr 2 − xr − 2 )−1 ,
+with k1 = q + 21 + r − 1, kj = 12 + r − j, j > 1.
+     From the results of appendix D, we have the following expansions for the free spinor
+case of (3.34) and the free scalar case of (3.33), namely,
+                                                               ∞
+                                     (2r+1)                                    (2r+1)
+                                                               X
+                                    D[r; 1 ] (s, x) =                sr+q χ( 1 +q, 1 ,..., 1 ) (x) ,                   (4.29)
+                                         2                                      2     2      2
+                                                               q=0
+
+for the free spinor case and
+                                                               ∞
+                                     (2r+1)                                     1   (2r+1)
+                                                               X
+                                    D[r− 1 ;0] (s, x) =              sr+q− 2 χ(q,0,...,0) (x) ,                        (4.30)
+                                         2
+                                                               q=0
+
+for the free scalar case.
+
+      For (3.32) and p = r − j we have that, for ℓ > ℓ1 > . . . > ℓj ,
+    (2r+1)
+  D[ℓ+r+j;ℓ,ℓ1 ,...,ℓj ] (s, x)
+                         1                   1
+          ∞              2 p1                2 pj                                                                      (4.31)
+                                                                                     (2r+1)
+          X              X                   X
+  =                                ...              sℓ+r+j+q+t+p1 +...+pj χ(ℓ+q,ℓ,...,ℓ,ℓ1 +2i1 ,...,ℓj +2ij ) (x) ,
+    p1 ,...,pj ,q,t=0 i1 =− 1 p1     ij =− 21 pj
+                               2
+
+
+
+                                                                     22
+which we show in appendix D. Again, the weights (ℓ + q, ℓ, . . . , ℓ, ℓ1 + 2i1 , . . . , ℓj + 2ij ) may
+lie outside the dominant Weyl chamber, i.e. not satisfy (3.2), for particular ℓ, ℓi. For such
+                            (2r+1)              (2r+1)
+weights we may use that χℓ′        (x) = sgn(w)χℓ′w (x), for some w ∈ W2r+1 , to relate
+such characters to those with dominant integral highest weights ℓ′w .
+     Just as for even dimensions in (4.16) a simplification to (4.31) occurs for the p = 1
+case of (3.32) for ℓ1 ≡ ℓ, ℓ2 = . . . = ℓr = 0 for which,
+
+                                                 ∞ X
+                                                   ℓ
+                   (2r+1)                                                          (2r+1)
+                                                 X
+                  D[ℓ+2r−1;ℓ,0,...,0] (s, x) =               sℓ+2r+2p+q−1 χ(q+k,ℓ−k,0,...,0) (x) .        (4.32)
+                                                 p,q=0 k=0
+
+
+
+    Regarding products of free representations, we may determine that, using (3.32) for
+p = 1,
+
+      (2r+1)            (2r+1)
+  D[r; 1 ] (s, x) D[r; 1 ] (s, x) = A[2r;0,...,0] (s, x)
+        2                 2
+       ∞
+                (2r+1)                       (2r+1)                                 (2r+1)
+       X                                                                                                     
+   +           D[2r+q;q+1,1,...,1] (s, x) + D[2r+q;q+1,1,...,1,0] (s, x) + . . . + D[2r+q;q+1,0,...,0] (s, x) ,
+       q=0
+                                                                                                          (4.33)
+and
+                                                           ∞
+                      (2r+1)          (2r+1)                          (2r+1)
+                                                           X
+                     D[r; 1 ] (s, x) D[r− 1 ;0] (s, x) =         D[2r+q− 1 ;q+ 1 , 1 ,..., 1 ] (s, x) ,   (4.34)
+                          2               2                                    2    2 2     2
+                                                           q=0
+
+along with
+                                                                ∞
+                         (2r+1)            (2r+1)                       (2r+1)
+                                                                X
+                        D[r− 1 ;0] (s, x) D[r− 1 ;0] (s, x) =         D[2r+q−1;q,0,...,0] (s, x) ,        (4.35)
+                             2                 2
+                                                                q=0
+
+which generalise similar formulae obtained in [6] to odd dimensions.
+
+
+
+5. Partition functions
+
+    As a partial check of the character formulae corresponding to free fields, we will
+compare them to partition functions which have been obtained by various authors in
+conformally invariant theories on S 1 × S d−1 . For these cases, the single particle partition
+function for a local free operator F may expressed by
+
+                                                        ∞
+                                            (d)            (d)
+                                                        X
+                                           YF (s) =       nF,q s∆0 +q ,                                     (5.1)
+                                                        q=0
+
+
+                                                         23
+         (d)
+where nF,q enumerates the descendants of F in the flat background Rd . For even d, the
+form (4.14) for the character formula corresponding to such free fields allows us to obtain
+  (d)
+YF (s) directly when we set x1 , . . . , x 21 d = 1. Thus we easily find that
+                                                     ∞
+                                      (d)                     (d)            1
+                                                     X
+                                    YF± (s) =              nF± ,q sℓ+ 2 d+q−1 ,                                     (5.2)
+                                                     q=0
+
+where for ℓ 6= 0 (from appendix B)
+   (d)         (d)                                      (d)
+ nF± ,q = χ(ℓ+q,ℓ,...,ℓ,±ℓ) (1, . . . , 1) = dim(I(ℓ+q,ℓ,...,ℓ) )
+                       1
+                       2 d−1
+               1
+                       Y       1                                                           Y
+         =2    2 d−1                 (q + i)(2ℓ + q + d − 2 − i)                               (j − k)(2ℓ + d − j − k) ,
+                           (d − 2i)!
+                       i=1                                                           2⩽k<j⩽ 21 d
+                                                                                                                    (5.3)
+while for the scalar field
+                                     (d)         (d)
+                                    nS,q = χ(q,0,...,0) (1, . . . , 1)
+                                                          
+                                           2q + d − 2 q + d − 2
+                                                                                                                   (5.4)
+                                         =                               ,
+                                            q+d−2                    q
+
+which is the dimension of the rank-q symmetric traceless tensor representation of SO(d).
+(This agrees with a similar formula in [14].) For chiral Weyl fermions we find, from (5.3)
+for ℓ = 21 ,
+                         (d)      1  1
+                       nf± ,q = 2 2 d (q + 1)(q + 2) . . . (q + d − 2) .             (5.5)
+                                     q!
+Similarly for the 21 d-form field strength, from (5.3) for ℓ = 1,
+                                                               
+                            (d)          d       d      q+d−1
+                           nV± ,q =                                 .                                               (5.6)
+                                     2(2q + d) 21 d         q
+
+Note that it may be easily checked that these occupancy numbers agree with those obtained
+                                             (4)        (4)
+in [15]. for d = 4, 6 (where for d = 4 then YV + (s) + YV − (s) is the single particle partition
+function of the Maxwell field).
+     For bosonic F the multi-particle partition function is given by
+                                       ∞                                    ∞
+                        (d)
+                                      X 1            (d)
+                                                                                                  (d)
+                                                                                 (1 − s∆0 +q )−nF,q ,
+                                                                            Y
+                       ZF (s) = exp                  YF (sn )           =                                           (5.7)
+                                           n=1
+                                                 n                          q=0
+
+while for fermionic F it is given by
+                                   ∞                                                 ∞
+                      (d)
+                                  X 1                        (d)
+                                                                                    Y                   (d)
+                     ZF (s) = exp               (−1)   n+1
+                                                             YF (sn )            =       (1 + s∆0 +q )nF,q .        (5.8)
+                                     n=1
+                                            n                                        q=0
+
+
+                                                             24
+It is easy to check that (5.7), (5.8) for the scalar, Weyl fermion and field strength cases
+above match the results of [15] for d = 4, 6.
+     Performing the summation in (5.2) for the scalar, Weyl fermion and 21 d-form field-
+strength cases we find
+                                              1
+                   (d)                      s 2 d−1
+                  YS (s) = (s + 1)                   ,
+                                          (1 − s)d−1
+                                          1
+                    (d)       1          s 2 (d−1)
+                  Yf± (s) = 2 2 d                  ,                                            (5.9)
+                                       (1 − s)d−1
+                                                  1
+                    (d)              d!         s2d
+                  YV± (s) =          1     2         d−1
+                                                         F (1, − 21 d + 1; 12 d + 1; s) ,
+                                 2 ( 2 d)!   (1 − s)
+(where F (a, b; c; x) is the usual hypergeometric function) which may be read off directly
+from (3.26), (3.27) for xi = 1. This form may be directly compared to similar results in
+[16] whereby the formulae agree for the scalar and Weyl fermion cases.
+    It is not difficult to compute the first couple of numbers (5.6) for the self-dual r = 21 d
+form field strength which we denote by Fµ1 ...µr = ∗ Fµ1 ...µr . For q = 0 this number just
+counts the number of independent components in Fµ1 ...µr . Anti-symmetry in the indices
+implies 2r
+             
+           r   independent components which is reduced by a factor of a half due to self-
+duality. For q = 1 (5.6) counts the number of first-order descendants, ∂µ Fµ        . This will
+                                                                              1 ...µr 
+
+be r 2r    less the number of constraint equations ∂ µ1 Fµ1 ...µr = 0 which is r−12r
+         
+       r
+                                                                                       .
+
+     As a further example and check of our formulae, we consider the single particle parti-
+tion function for rank-ℓ symmetric traceless tensor fields Tµ1 ...µℓ satisfying the constraint
+equation ∂ µ1 Tµ1 ...µℓ = 0. The appropriate character formula in this case is given by (4.16).
+                                                  (d)
+The corresponding occupation numbers, for nF,q → Nq,ℓ in (5.2), are given by
+                                                                              
+               Nq,ℓ = q(d − 2)(2ℓ + d − 3) + (d − 1)(ℓ + d − 3)(2ℓ + d − 2)
+                                      1
+                                                  
+                                                     ℓ+d−4
+                                                           
+                                                                q+d−2
+                                                                                        (5.10)
+                         ×                                                   .
+                            (d − 1)(d − 2)(d − 3)      ℓ             q
+To see this we may use (4.16) to write
+                            1
+                           [ 2 q]                           ℓ
+                                                                         (d)
+                           X                                X
+                  Nq,ℓ =            tq−2i,ℓ for tq,ℓ =            dim(I(q+k,ℓ−k,0,...,0) ) .   (5.11)
+                           i=0                              k=0
+
+Using the dimension formula in appendix B we may find that
+                                                                      
+                 tq,ℓ = (ℓ + q + d − 3) 4ℓq + (d − 3)(2ℓ + 2q + d − 2)
+                                  1
+                                           
+                                             ℓ+d−4
+                                                     
+                                                         q+d−4
+                                                                                              (5.12)
+                        ×                                            ,
+                           (d − 2)(d − 3)2      ℓ            q
+
+                                                       25
+and thence obtain (5.10) from (5.11).
+     Again it is not difficult to check that the first couple of numbers agree with expecta-
+                                                (d)
+tions. We may easily show that Nℓ,0 = dim(I(ℓ,0,...,0) ) given in (5.4) as expected. Also we
+                                        (d)               (d)
+may easily show that Nℓ,1 = d dim(I(ℓ,0,...,0) ) − dim(I(ℓ−1,0,...,0) ) which is the number of
+first-order descendants ∂µ Tµ1 ...µℓ reduced by the number of constraint equations coming
+from the conservation condition. More generally
+                                                       
+                  q+d−1              (d)            q+d−2             (d)
+         Nℓ,q =              dim(I(ℓ,0,...,0) ) −           dim(I(ℓ−1,0,...,0) ) ,      (5.13)
+                     q                               q−1
+
+which may be easily seen as the descendants at level q are given by ∂ν1 ∂ν2 . . . ∂νq Tµ1 ...µℓ
+whose number of independent components is given by the first term in (5.13) which is
+reduced by the number of independent components in ∂ν1 ∂ν2 . . . ∂νq−1 ∂ µ1 Tµ1 ...µℓ which
+vanishes by conservation.
+
+     More generally, we may use (4.15) in even dimensions and (4.29), (4.30), (4.31) in
+odd dimensions for xi = 1 to determine the occupation numbers in the single particle par-
+tition function corresponding to fields whose conformal dimension saturates the unitarity
+bounds (3.8), (3.9). As mentioned before these are fields which satisfy certain conservation
+conditions which determines the particular unitarity bound.
+
+     Rotating quantum fields in an AdSd+1 background have been considered in [17]. Here
+the modes of a quantum field are supposed to have energies E and angular momenta ji
+where i = 1, . . . , [ 21 d]. For the boundary conformal field theory on R × S d−1 the energies
+are related to the conformal dimension of conformal fields and their descendants via E = ∆
+assuming that the sphere has unit radius while ji correspond to SO(d) eigenvalues. Making
+the identification
+                                       s = e−β ,    xi = eβΩi ,                          (5.14)
+where β = T −1 for T being the temperature and Ωi denote chemical potentials for an-
+gular momenta, then it can be shown that the one particle boundary partition function
+         −β(E−Ωi ji )
+P
+   E,ji e             and character formula for the conformal field coincide. For instance, for
+a free scalar field, the character formula (3.27) obtained here agrees with the corresponding
+single particle partition function for the boundary conformal field theory obtained in [17]
+when we make the identification (5.14).
+
+
+
+6. Acknowledgements
+
+     I am grateful to Nicolas Boulanger, Gary Gibbons, Paul Heslop and Hugh Osborn for
+discussions.
+
+                                              26
+Appendix A. Character formulae for infinite dimensional irreducible modules
+of semi-simple Lie algebras
+
+    In this appendix we outline some results on character formulae of relevance for the
+main text. First we give basic definitions and notation.
+    The Weyl group W is generated by mappings wα , for α being a root, which on weight
+space give
+                   wα (Λ) = Λ − (α∨ , Λ) α ,  α∨ = 2α/(α, α) .                   (A.1)
+For Λ = β, another root, then wα (β) is a reflection of β with respect to the hyperplane
+through the origin and perpendicular to α. Here (λ, µ) denotes the usual inner product on
+                                                                              P
+weight space between λ and µ. (In the Dynkin basis this is given by (λ, µ) = i,j λi Gij µj
+where λi , µi are Dynkin labels and [Gij ] is the quadratic form matrix.) Any w ∈ W may
+be decomposed in terms of simple Weyl reflections wi ≡ wαi , for αi being the simple roots,
+as w = wi1 · · · win for some n which is generally not unique. However the signature of w
+defined, in the present case, by sgn(w) = (−1)n is uniquely defined. We denote by ℓ(w)
+the minimum number of wi in the composition of w. Clearly sgn(w) = (−1)ℓ(w) .
+
+     The Weyl group divides the weight space into a family of open sets called Weyl cham-
+bers. These are simplicial cones defined by
+
+                        Hw = {λ : (αi ∨ , w(λ)) > 0 ,     1 ⩽ i ⩽ r} ,                (A.2)
+
+for w ∈ W. The number of such equals the order of W, |W|. The weights lying on the
+boundary of the Weyl chambers are the points on the hyperplanes perpendicular to the
+roots (αi ∨ , w(λ)) = 0. In terms of Dynkin labels these are the weights having at least one
+vanishing Dynkin label.
+     The Weyl chamber corresponding to the identity of the Weyl group H1 is the funda-
+mental or dominant Weyl chamber. In terms of Dynkin labels the weights in this chamber
+have strictly positive Dynkin labels. If all the Dynkin labels are non-negative and/or
+integers then we say the weight is dominant and/or integral.
+     Suppose we have some Lie algebra module VΛ having highest weight Λ. The definition
+of the corresponding character we use is [5]
+                                         X
+                              CharΛ ≡        multVΛ (λ) eλ ,                     (A.3)
+                                         λ∈VΛ
+
+where multVΛ (λ), multVΛ (Λ) = 1, denotes the multiplicity of the weight λ in the weight
+system of VΛ . This is to be interpreted as a function on weight space satisfying
+
+                            eλ eµ = eλ+µ ,        eλ (µ) = e(λ,µ) .                   (A.4)
+
+                                             27
+Under the action of the Weyl group, for w ∈ W,
+
+                                          w(eλ ) = ew(λ) .                             (A.5)
+
+
+     For a unitary group and with multVΛ (λ) always finite we may recover a trace formula
+for the character by normalising each vector vλ ∈ VΛ corresponding to the weight λ so that
+ vλ |vλ = 1. Then we may write,
+                                     X
+                                              vλ |vλ e(λ,µ) = Tr e(H,µ) ,
+                                                                       
+                      CharΛ (µ) =                                                      (A.6)
+                                    vλ ∈VΛ
+
+                 P
+where (H, µ) =     i,j Hi Gij µj in the Dynkin basis, for example, for Hi being Cartan
+subalgebra elements with Hi |vλ = λi |vλ .
+                                                                             h.w.
+    As an example, consider a Verma module VΛ with basis α∈Φ− Eα nα |Λ
+                                                             Q
+                                                                                  for Φ−
+being negative roots and nα being non-negative integers. For fixed nα then the corre-
+                              P
+sponding weight λ(nα ) = Λ + α∈Φ− nα α has unit multiplicity in the weight system of VΛ .
+Thus we may write the character for the Verma module as
+                                 X                       Y
+                          CΛ =           eλ(nα ) = eΛ          (1 − eα )−1 .           (A.7)
+                                 nα ⩾0                  α∈Φ−
+
+
+Note that a given weight λ has multiplicity given by P(Λ − λ) where P(µ) counts the
+number of ways in which the weight µ may be written as a linear combination of positive
+roots with non-negative integer coefficients.
+
+    We may easily also show that
+
+                      w(CΛ ) = sgn(w)CΛw ,              Λw = w(Λ + ρ) − ρ ,            (A.8)
+
+for any w ∈ W.
+     The character χΛ of an infinite dimensional irreducible module IΛ of a semi-simple
+Lie algebra has been written down long ago [11]. For the highest weight Λ not being
+dominant integral then IΛ is infinite dimensional. Otherwise IΛ is finite dimensional and
+the character is given by the well known Weyl character formula. Before we give the
+result of [11] we quote a number of results which give insight into the structure of infinite
+dimensional irreducible modules.
+     Concerning Verma modules (which in [11] are called ‘elementary representations’),
+the first result we recount is that if Λw , w ∈ W is not a weight of VΛ then VΛ itself is
+irreducible. This is the simplest case and an example is Vℓ for SO(3) with ℓ being a
+
+                                                 28
+negative half integer. We now give the conditions for VΛ to contain sub-modules VΛ′ and
+so to be reducible.
+     We define a partial ordering on weights so that Λ′ ≺ Λ if and only if Λ − Λ′ = Π
+                P
+for some Π = α∈Φ+ pα α for pα being non-negative integers, not all zero. A necessary
+condition for a Verma module VΛ to contain a sub-module VΛ′ is that Λ′ = Λw ≺ Λ for
+some w ∈ W, w 6= 1. A crucial result is a theorem in [22] which proves that a necessary
+and sufficient condition for VΛw to be a sub-module of VΛ is that there exist a sequence of
+positive roots β1 , . . . , βK such that
+
+                            wβk ∨ , wβk+1 wβk+2 . . . wβK (Λ + ρ) ∈ N ,
+                                                                 
+  w = wβ1 wβ2 . . . wβK ,                                                 k = 1, . . . , K , (A.9)
+
+where we define wβK+1 ≡ 1. For Λ being a dominant integral weight then condition (A.9)
+holds for all Λw , w ∈ W. This justifies the claim made in this paper that for Λ being
+dominant integral then Λw is a highest weight in VΛ for every w ∈ W.
+    A key result proved by Verma [23] and recounted in [11] is the following. A Verma
+module contains those and only those irreducible representations IΛ′ for which VΛ′ is a
+sub-module of VΛ . Furthermore it contains IΛ′ at most once.
+    This results in the following formula for characters,
+                                                   X
+                                   CΛ = χΛ +               χΛw ,                          (A.10)
+                                                   w∈W
+                                                   Λw ≺Λ
+
+
+
+where the sum runs over all w for which (A.9) holds.
+   Using these results and formulae for multiplicities of weights determined for Verma
+modules in terms of the function P(µ) above a formula has been given for χΛ in [11]. This
+may be rewritten in the equivalent form
+                                              X
+                                 χΛ = CΛ +            γΛw CΛw ,                           (A.11)
+                                              w∈W
+                                              Λw ≺Λ
+
+
+
+where each w satisfies condition (A.9) and where the integers γΛw are determined by a
+recurrence relation as follows.
+    Consider a sub-module VΛw of VΛ so that there is no other sub-module VΛw′ of VΛ
+containing VΛw in turn as a sub-module. Then in this case γΛw = −1.
+     For a sub-module VΛw of VΛ which is in turn contained in the sub-modules VΛw′ of
+VΛ , then in this case                  X
+                               γΛw = −      γΛw ′ − 1 ,                        (A.12)
+                                              w′
+
+                                              29
+which determines γΛw in (A.11) recursively.
+    A simple example illustrates this formula. Consider Sl3 whereby, for a weight Λ = [a, b]
+with Dynkin labels a, b, the simple Weyl reflections are given by
+                    w1 ([a, b]) = [−a, a + b] ,        w2 ([a, b]) = [a + b, −b] .         (A.13)
+The S3 Weyl group elements consist of {1, w1 , w2 , w1 w2 , w2 w1 , wα } where wα = w1 w2 w1 =
+w2 w1 w2 is the Weyl reflection corresponding to the root α = α1 + α2 . The shifted Weyl
+reflections are given by Λ1 = Λ, Λw1 = Λ − (a + 1)α1 , Λw2 = Λ − (b + 1)α2 , Λw2 w1 =
+Λ − (a + 1)α1 − (a + b + 2)α2 , Λw1 w2 = Λ − (a + b + 2)α1 − (b + 1)α2 , Λwα = Λ − (a + b + 2)α.
+For ւ denoting a vector in the −α1 direction of length a + 1 and ց denoting such in
+the −α2 direction of length b + 1 then we may represent the weight system of the Verma
+module VΛ diagrammatically as follows
+                                                   Λ
+                                              ւ         ց
+                                          w1
+                                          Λ                  Λw2
+                                              ց         ւ
+                                                                                           (A.14)
+                                              ւ         ց
+                                      Λ w1 w2
+                                                            Λw2 w1
+                                              ց         ւ
+                                                  Λwα
+assuming Λ is dominant integral and where we have omitted any other weights occurring.
+In computing χΛw1 , for example, we have that VΛw1 w2 and VΛw2 w1 are both sub-Verma-
+modules of VΛw1 with γΛw1 w2 = γΛw2 w1 = −1. Also VΛwα is a sub-Verma-module of both
+the latter and so γΛwα = −(γΛw1 w2 +γΛw2 w1 )−1 = 1. Thus χΛw1 = CΛw1 −CΛw2 w1 −CΛw1 w2 +
+                              ′
+CΛwα . In fact for all Λ′ = Λw it is easy to check that χΛ′ = CΛ′ +
+                                                                    P
+                                                                      w∈S3 sgn(w)CΛ′w .
+                                                                                Λ′ w ≺Λ′
+
+     Other properties of IΛ which are useful for what follows concern symmetry under
+Weyl group reflections. For all Dynkin labels Λi of the weight Λ which are non-negative
+integers then the sub-group W ′ generated by the corresponding simple Weyl reflections
+wi is the maximal symmetry group of the weight system of IΛ . Furthermore VΛw′ is a
+sub-module of VΛ for all w′ ∈ W ′ , w′ 6= 1 (since all w′ satisfy condition (A.9)). In terms
+of characters we have that w′ (χΛ ) = χΛ for every w′ ∈ W ′ .
+      For Λ being dominant integral then this symmetry group is of course the Weyl group
+itself and W ′ = W. In this case we from (A.11) that
+                    X                  Y               X
+              χΛ =      sgn(w)CΛw =        (1 − eα )−1    sgn(w)ew(Λ+ρ)−ρ ,       (A.15)
+                    w∈W                   α∈Φ−                w∈W
+
+
+                                                  30
+the usual Weyl character formula. This follows as symmetry under W determines γΛw =
+sgn(w) in this case. Using (A.8) we may find that the Weyl character may be rewritten as
+                                     X
+                               χΛ =       w(CΛ ) ≡ W(CΛ ) .                      (A.16)
+                                            w∈W
+
+Due to the invariance of IΛ under the action of any w ∈ W then the Weyl symmetry
+operator W defined by (A.16) is obviously linear and idempotent on the vector space
+spanned by the characters of the Verma modules, W2 = |W|W.
+     Denoting by I the subset of labels for which Λi , i ∈ I, are non-negative integers,
+                                                                        ′′
+supposing we find that every sub-Verma-module highest weight Λw , w′′ ∈ W may be
+                          ′′     ′
+written in the form Λw = Λw w , w ∈ W, w′ ∈ W ′ for Λw i , i ∈ I being non-negative
+                                                                     ′′
+integers or Λw i = −1 for some i ∈ I. We claim that the weights Λw ≺ Λ are given by the
+                                 ′
+disjoint union of the weights Λw w for every w′ ∈ W ′ . For the cases of Λw i = −1 then the
+CΛw′ w , w′ ∈ W ′ cancel among themselves in χΛ .
+    Under this assumption (which holds in the cases considered in this paper) then using
+(A.11) we may write for the character
+                               X                 X
+                   χΛ = CΛ +        γΛw′ CΛw′ +        γΛw′ w CΛw′ w ,            (A.17)
+                                  w′ ∈W ′               w′ ∈W ′
+                                   w′ 6=1              w∈W,w6=1
+
+
+where the sum runs over only those w ∈ W which satisfy (A.9) and for which Λw i , i ∈ I,
+is a non-negative integer or −1. Using (A.8) and w′ (χΛ ) = χΛ , w′ ∈ W ′ and the claims
+proved below we may show that γΛw′ = sgn(w′ ), γΛw′ w = γΛw sgn(w′ ) and that the CΛw′ w
+for which Λw j = −1 for some j ∈ I cancel among themselves. It is then left to determine
+the remaining γΛw by the recurrence relation mentioned earlier.
+      We now show that for some arbitrary weight Λ which has Λi , i ∈ I being non-negative
+                                                      ′
+integers that this is the unique weight among Λw , w′ ∈ W ′ having this property. Clearly
+under these assumptions (Λwi )i = (αi ∨ , Λwi ) = −Λi − 2 is negative for i ∈ I. Since W ′
+is generated by all wi , i ∈ I, then we may consider all w′ = wi1 . . . win , ij ∈ I such that
+ℓ(w′ ) = n. Denoting by Φ+ ′ all those positive roots formed from linear combinations of
+the subset of simple roots αi , i ∈ I, then we have the result that ℓ(wi w′ ) = ℓ(w′ ) + 1 if
+                                                                 ′
+and only if w′−1 (αi ) ∈ Φ+ ′ .5 In this case we have that (Λwi w )i = −(α∨ , Λ + ρ) − 1 where
+                                                             ′
+α = w′−1 (αi ) ∈ Φ+ ′ . Since (α∨ , Λ + ρ) ⩾ 0 then (Λwi w )i must be negative. Hence all
+    ′                                             ′
+Λw , w′ ∈ W ′ , w′ 6= 1, have at least one of Λw i , i ∈ I which is negative.
+                 ′        ′
+    If some Λw w = Λu u for some w′ , u′ ∈ W ′ and with Λw i , Λu i ⩾ 0, i ∈ I, then clearly
+                        ′−1 ′
+we may write Λu = Λu w w which contradicts the above unless u = w, u′ = w′ . Thus
+                                ′                      ′
+any two sets of such weights {Λw w , w′ ∈ W ′ } and {Λw u , w′ ∈ W ′ } for w 6= u are disjoint.
+     5   The argument for this is similar to one given in [24].
+
+                                                  31
+     If for some weight Λj = −1 for some j ∈ I then Λwj = Λ since (αj ∨ , Λw + ρ) = 0.
+                            ′
+We claim that the only Λw for w′ ∈ W ′ which equal Λ in this case are those for which w′
+is composed of the wj . For simplicity we consider the case when Λj = −1 and otherwise
+                                                  ′                     ′
+Λi is non-negative for i ∈ I. In this case if Λw = Λ then clearly Λwj w = Λ so that, for
+                     ′
+α = w−1 (αj ), (Λwj w )j = −(α∨ , Λ + ρ) − 1 = −1 by assumption. Thus (α∨ , Λ + ρ) = 0
+which is only the case if α ∝ αj . The only roots with this property are ±αi so that
+                                                           ′    ′
+w′ = 1, wj . Also this implies that, for w′ , u′ ∈ W ′ , Λw = Λu if and only if u′ = w′ or
+u′ = w′ wj . The generalisation is clear.
+
+
+
+Appendix B. Weyl character formulae for SO(d)
+
+     We now consider SO(d) character formulae. We define the variables xi = eei (µ) = eµi
+                                    Pr
+for some arbitrary weight SO(d) µ = i=1 µi ei .
+      For SO(2r) the action of the Weyl group, W2r = Sr ⋉ Zr−1 , on weights in the or-
+thonormal basis is given by Sr permutations on the labels followed by reflections involving
+an even number of sign flips in the labels. This means that for ̺ = ρi . . . ρj ∈ Zr−1 where
+ρi (ℓ1 , . . . , ℓi , . . . ℓr ) = (ℓ1 , . . . , −ℓi , . . . ℓr ), ρi 2 = 1 then the number of ρi in the composition
+of ̺ is even and sgn(̺) = 1. Using that
+                                X
+                                      sgn(σ)xσ(1) ℓ1 . . . xσ(r) ℓr = det[xi ℓj ] ,                          (B.1)
+                               σ∈Sr
+
+
+and the restriction mentioned on ̺ ∈ Zr−1 then [25],
+
+                           r
+                           Y           
+                    W2r           xi ℓi = 12 det[xi ℓj + xi −ℓj ] + 21 det[xi ℓj − xi −ℓj ] ,                (B.2)
+                            i=1
+
+
+for W2r denoting the SO(2r) Weyl symmetry operator. For some highest weight ℓ =
+Pr
+   i=1 ℓi ei the corresponding Verma module character is given by,
+
+                                                  r
+                     (2r)     (2r)
+                                                  Y                 Y
+                    Cℓ (x) ≡ Cℓ (µ) =                   xi ℓi             (1 − e(αjk,ε ,µ) )−1
+                                                  i=1           1⩽j<k⩽r,ε=±
+                                   r
+                                                                                                             (B.3)
+                                   Y
+                               =         xi ℓi +r−i ∆(x1 + x1 −1 , . . . , xr + xr −1 )−1 ,
+                                   i=1
+
+
+where αij,± = −ei ± ej , 1 ⩽ i < j ⩽ r are the negative roots and ∆(x) is the Vandermonde
+determinant (4.13). Using the fact that ∆(x1 + x1 −1 , . . . , xr + xr −1 ) is left alone by
+any ̺ σ ∈ Sr ⋉ Zr−1 then we have quite simply that the Weyl character of the irreducible
+
+                                                           32
+                                                                                                   (2r)                  (2r)
+representation with dominant integral highest weight ℓ (given by χℓ                                       (x) = W2r (Cℓ          (x)))
+reduces to
+   (2r)
+          (x) = 12 det[xi kj + xi −kj ] + det[xi kj − xi −kj ] ∆(x1 + x1 −1 , . . . , xr + xr −1 )−1 , (B.4)
+                                                              
+ χℓ
+
+for ki = ℓi + r − i. The dimension of the irreducible representation is given by
+                             r
+           (2r)
+                             Y       1                 Y
+      dim(Iℓ ) = 2r−1                                                (ℓi − ℓj + j − i)(ℓi + ℓj + 2r − i − j) .                   (B.5)
+                                 (2r − 2i)!
+                             i=1                     1⩽i<j⩽r
+
+
+
+    For SO(2r + 1) the action of the Weyl group, W2r+1 = Sr ⋉ Zr , on weights in the
+orthonormal basis is given by Sr permutations on the labels followed by reflections involving
+any number of sign flips in the labels. Using (B.1) we therefore have that [25],
+                                              r
+                                             Y                  
+                                     W2r+1             xi   ℓi
+                                                                     = det[xi ℓj − xi −ℓj ] ,                                    (B.6)
+                                                i=1
+
+for W2r+1 denoting the SO(2r + 1) Weyl symmetry operator. This time for some highest
+          Pr
+weight ℓ = i=1 ℓi ei the corresponding Verma module character is given by,
+                                       r
+   (2r+1)        (2r+1)
+                                       Y                    Y                                       Y
+  Cℓ      (x) ≡ Cℓ      (µ) =                xi ℓi                        (1 − e(αjk,ε ,µ) )−1              (1 − e(el ,µ) )−1
+                                       i=1           1⩽j<k⩽r,ε=±                                   1⩽l⩽r
+       r
+                   1                                                              1        1                    1        1
+       Y
+   =         xi ℓi + 2 +r−i ∆(x1 + x1 −1 , . . . , xr + xr −1 )−1 (x1 2 − x1 − 2 )−1 . . . (xr 2 − xr − 2 )−1 ,
+       i=1
+                                                                                                  (B.7)
+since −ei , 1 ⩽ i ⩽ r are the weights of the extra negative roots in this case. Using that
+                                          1        1               1        1
+∆(x1 + x1 −1 , . . . , xr + xr −1 )−1 (x1 2 − x1 − 2 )−1 . . . (xr 2 − xr − 2 )−1 is left alone by any
+̺ σ ∈ Sr ⋉ Zr then the Weyl character of the irreducible representation with dominant
+integral highest weight ℓ is given by, using (B.6) and (B.7),
+   (2r+1)
+ χℓ          (x)
+                                                                                      1        1                    1        1
+ = det[xi kj − xi −kj ]∆(x1 + x1 −1 , . . . , xr + xr −1 )−1 (x1 2 − x1 − 2 )−1 . . . (xr 2 − xr − 2 )−1 ,
+                                                                                                     (B.8)
+                1
+where ki = ℓi + 2 + r − i. The dimension of the irreducible representation is given by
+                                 r
+                   (2r+1)
+                                 Y         1
+           dim(Iℓ           )=                      (2ℓi + 2r + 1 − 2i)
+                                 i=1
+                                     (2r + 1 − 2i)!
+                                          Y                                                                                      (B.9)
+                                     ×         (ℓi − ℓj + j − i)(ℓi + ℓj + 2r + 1 − i − j) .
+                                       1⩽i<j⩽r
+
+
+                                                                     33
+Appendix C. Unitarity bounds
+
+    Descendant states have bases, for p = 0, 1, . . .,
+                                                                          
+                               
+                                                                          
+                                                                           
+                                          Y                        X
+                      B(p) =                    Pv nv |∆; ℓ′ ,       nv = p ,                 (C.1)
+                                                                          
+                                    v=iε,0                        v       
+                                   1⩽i⩽r, ε=±
+
+
+
+
+for nv being positive integers (with n0 = 0 for SO(2r)) and ℓ′ being a weight in the weight
+system of the module of SO(d) with highest weight ℓ. For p = 0 the norms of corresponding
+states are strictly positive for ℓ′ being weights in the SO(d) irreducible representation with
+                                                     2
+dominant integral highest weight ℓ and |∆, ℓ′          = ∆, ℓ′ |∆, ℓ′ > 0.
+    Examining the simplest descendant states with basis B(1) then these have SO(d)
+highest weight states
+                                      Hd = {|∆ + 1; ℓ + v } ,                                 (C.2)
+
+where v = εei along with v = 0 for d = 2r+1, these of course occurring in the decomposition
+of the product between the vector representation and the representation with highest
+                                                        L
+weight ℓ into irreducible representations, e1 ⊗ ℓ =       v ℓ ⊕ v. Remarkably, most of the
+restrictions necessary for the states in Hd to have positive definite norm are sufficient for
+the unitarity constraints to be satisfied for all descendant states in B(p) - also conjectured
+in [20].
+    The simplest states in Hd may be constructed explicitly and are
+
+                               h.w.
+ |∆ + 1; ℓ + e1 = P1+ |∆; ℓ           ,
+                                           −+                      h.w.
+ |∆ + 1; ℓ + e2 = (−2i(ℓ1 − ℓ2 )P2+ + P1+ E12 )|∆; ℓ                      ,
+                                                                       −+
+                                                                                              (C.3)
+ |∆ + 1; ℓ + e3 = − 4(ℓ1 − ℓ3 + 1)(ℓ2 − ℓ3 )P3+ − 2i(ℓ1 − ℓ3 + 1)P2+ E23
+                                     −+ −+                    −+ −+
+                                                                          h.w.
+                 + (ℓ2 − ℓ3 + 1)P1+ E12 E23 − (ℓ2 − ℓ3 )P1+ E23  E12 |∆; ℓ      ,
+
+which are all annihilated by SO(d) raising operators. Using the conformal algebra and the
+unitarity conditions, the norms of these three states are given by,
+
+                               2                           2
+             |∆ + 1; ℓ + e1        = 4(∆ + ℓ1 ) |∆; ℓ          ,
+                               2                                                      2
+             |∆ + 1; ℓ + e2        = 16(∆ + ℓ2 − 1)(ℓ1 − ℓ2 )(ℓ1 − ℓ2 + 1) |∆; ℓ          ,
+                               2
+                                                                                              (C.4)
+             |∆ + 1; ℓ + e3        = 64(∆ + ℓ3 − 2)(ℓ1 − ℓ3 + 1)(ℓ1 − ℓ3 + 2)
+                                                                              2
+                                          × (ℓ2 − ℓ3 )(ℓ2 − ℓ3 + 1) |∆; ℓ         ,
+
+                                                    34
+and for these to be strictly positive this places obvious restrictions on ∆. Other examples
+which may be readily achieved are, for SO(3, 2),
+                                     h.w.                                                                      h.w.
+    |∆ + 1; ℓ + 1 = P1+ |∆; ℓ               ,    |∆ + 1; ℓ = (−2iℓP0 + P1+ E1− )|∆; ℓ                                    ,
+                                                                                                              h.w.
+                                                                                                                             (C.5)
+    |∆ + 1; ℓ − 1 = (2ℓ(2ℓ − 1)P1− − 2i(2ℓ − 1)P0 E1− + P1+ (E1− )2 )|∆; ℓ                                           ,
+
+for which the norms are
+                    2                              2                        2                                                    2
+    |∆ + 1; ℓ + 1       = 4(∆ + ℓ) |∆; ℓ               ,        |∆ + 1; ℓ           = 8(∆ − 1)ℓ(ℓ + 1) |∆; ℓ
+                    2                                                       2
+    |∆ + 1; ℓ − 1       = 16(∆ − ℓ − 1)ℓ2 (4ℓ2 − 1) |∆; ℓ                       .
+                                                                                    (C.6)
+Another important example is for SO(4, 2) whereby along with (C.3), for ℓ = (ℓ1 , ℓ2 ), we
+also have
+                                                    −−                                 h.w.
+     |∆ + 1; ℓ1 , ℓ2 − 1 = (−2i(ℓ1 + ℓ2 )P2− + P1+ E12 )|∆; ℓ                                 ,
+                                                                        −−
+     |∆ + 1; ℓ1 − 1, ℓ2 =         − 4(ℓ21 − ℓ22 )P1− − 2i(ℓ1 − ℓ2 )P2+ E12                                                   (C.7)
+                                                       −+        −+                      −−
+                                                                                                             h.w.
+                                    − 2i(ℓ1 + ℓ2 )P2− E12 + P1+ E12 E12                           |∆; ℓ              ,
+
+for which the norms are
+                            2                                                                        2
+    |∆ + 1; ℓ1 , ℓ2 − 1         = 16(∆ − ℓ2 − 1)(ℓ1 + ℓ2 )(ℓ1 + ℓ2 + 1) |∆; ℓ                             ,
+                            2                                                                                                2
+    |∆ + 1; ℓ1 − 1, ℓ2          = 64(∆ − ℓ1 − 2)(ℓ21 − ℓ22 )(ℓ1 − ℓ1 + 1)(ℓ1 + ℓ2 + 1) |∆; ℓ                                  .
+                                                                                                                             (C.8)
+
+     Constructing other such elements of Hd is cumbersome. We here outline a simpler
+procedure for finding the unitarity constraints for B(1) . The norms of the highest weight
+states in Hd are more generally given by,
+                                                          
+                                           2           (v)   (v)
+                            |∆ + 1; ℓ + v    = ∆ + g ℓ fℓ ,                          (C.9)
+
+                          (v)
+where the functions fℓ are strictly positive for ℓ being strictly inside the dominant Weyl
+chamber, (3.1) or (3.2). We have that, assuming that ℓ is strictly inside the dominant
+Weyl chamber,
+                                                            (v)
+                      K1− |∆ + 1; ℓ + v = 0 ⇒ ∆ + gℓ = 0 ,                          (C.10)
+
+which is in turn implied by the state |∆ + 1; ℓ + v being null. As an aid to solving (C.10)
+we extend the definition of B(1) in (C.1) and consider ℓ′ ∈ Vℓ (the Verma module with
+dominant integral highest weight ℓ). Consider the following highest weight states with
+respect to SO(d), namely,
+
+ |∆ + 1; ℓwv + e1 = P1+ |∆; ℓwv ,               K1− |∆ + 1; ℓwv + e1 = 0                 ⇒        ∆ + ℓw
+                                                                                                       1 = 0 , (C.11)
+                                                                                                         v
+
+
+
+
+                                                           35
+where wv are such members of the Weyl group Wr for which
+
+                                 ℓwv + e1 = (ℓ + wv −1 (e1 ))wv = (ℓ + v)wv ,                                     (C.12)
+
+for some v = εej for ε = ±.6 Thus the states (C.11) are related to those in Hd by the
+action of SO(d) lowering operators on |∆ + 1; ℓ + v .7 Also, K1− commutes with all such
+lowering operators so that the conditions (C.10) and (C.11) should be identical. Thus,
+using (3.14) (for ε1 = ε, σ(1) = j),
+                                  (εej )      wεej
+                                 gℓ        = ℓ1      = εℓj + (ε − 1) 21 d − εj + 1 ,                              (C.13)
+                   (v)
+determining gℓ , v 6= 0 in (C.9) for the states in Hd .
+    To deal with the state |∆ + 1; ℓ ∈ H2r+1 for SO(2r + 1, 2) we first note an interesting
+observation. Consider the state |∆ + 1; ℓ + er+1 ∈ H2r+2 which is given by
+
+     |∆ + 1; ℓ + er+1
+                                                                                                                  (C.14)
+                                                                       
+                      X
+                                    −+        −+                −+             h.w.
+      = Aℓ Pr+1 + +     Bℓ,i,σ Pi+ Eσ(i     E
+                                        i+1) σ(i+1 i+2) . . . E σ(r r+1) |∆, ℓ      ,
+                            1⩽i⩽r, σ
+
+where σ permutes (i i+1), . . . , (r r +1) and Aℓ , Bℓ,i,σ are determined from the requirement
+           +−
+that E12        , . . . Er+−                                   ++
+                           r+1 annihilate the state (Er r+1 automatically annihilates it). Defining
+Ã(ℓ1 ,...,ℓr ) = A(ℓ1 ,...,ℓr ,0) , B̃(ℓ1 ,...,ℓr ),i,σ = B(ℓ1 ,...,ℓr ,0),i,σ , then we claim that |∆ + 1; ℓ ∈
+H2r+1 is given by
+                                                                                                
+                                                                                                        h.w.
+                                       X
+                                                            −+           −+                  −
+     |∆ + 1; ℓ = Ãℓ P0 +                     B̃ℓ,i,σ Pi+ Eσ(i        E
+                                                               i+1) σ(i+1 i+2)       . . . E σ(r) |∆, ℓ      , (C.15)
+                                  1⩽i⩽r, σ
+
+where now σ permutes (i i + 1), . . . (r). This follows when we show that the con-
+ditions on Ãℓ , B̃ℓ,i,σ arising from Ei+−                         +
+                                                         i+1 , Er , 1 ⩽ i ⩽ r − 1 annihilating (C.15) are
+                                                                                               +−
+exactly equivalent to those on Aℓ , Bℓ,i,σ arising from Ei+−                            i+1 , Er r+1 , 1 ⩽ i ⩽ r − 1
+annihilating (C.14) for ℓr+1 = 0 if we identify P0 with Pr+1 and Er− with Er−+                                        r+1 .
+                                                         −+                 1−r       −+          −+      −+
+We have that [K1− , Pr+1 + ] = −2iE1 r+1 = (−2i) [E12 , . . . , [Er−1 r , Er r+1 ] . . .] and
+[K1− , P0 ] = −2iE1− = (−2i)1−r [E12             −+               −+
+                                                      , . . . , [Er−1      −
+                                                                      r , Er ] . . .]. Due to this and as Ã(ℓ1 ,...,ℓr ) =
+A(ℓ1 ,...,ℓr ,0) , B̃(ℓ1 ,...,ℓr ),i,σ = B(ℓ1 ,...,ℓr ,0),i,σ then K1− annihilating (C.14) for ℓr+1 = 0 re-
+sults in the same equations for ∆ as for K1− annihilating (C.15) if we identify Er−+                          r+1 with
+  −
+Er . Thus, from (C.13) for j = r + 1, ε = +, ℓr+1 = 0,
+                                                                         (0)
+                                      K1− |∆ + 1, ℓ = 0         ⇒       gℓ     = −r .                             (C.16)
+       6   Note that for SO(2r + 1) the vector v = 0 is not on the Weyl orbit of e1 - we need a
+different approach to deal with this.
+       7 For instance, we have that |∆+1; ℓσ12 +e i = (E −+ )ℓ1 −ℓ2 |∆+1; ℓ+e i for σ (ℓ , ℓ , . . .) =
+                                                 1      12                   2       12 1 2
+
+(ℓ2 , ℓ1 , . . .) and with |∆+1, ℓ + e2 i given in (C.7).
+
+                                                           36
+                                                  (v)
+    Now that we have determined gℓ in (C.9) to be given by (C.13) and (C.16), we
+may determine the unitarity bounds for states in B(1) , the simplest descendants. For
+                                                                  (v)
+Hd and ℓ1 = . . . = ℓp > |ℓp+1 |, p ⩽ r − 1 then we have that fℓ = 0 in (C.9) for
+v = −e1 , εej , ep , j = 2, . . . , p − 18 and that
+
+                     (e )    (−ep )       (e )          (−ej )                               (0)
+   ∆ ⩾ max.{−gℓ 1 , −gℓ               , −gℓ j , −gℓ              , p + 1 ⩽ j ⩽ r} ∪ {−gℓ           for d = 2r + 1}
+            (−ep )
+     = −gℓ           = ℓ1 + d − p − 1 ,
+                                                                                 (C.17)
+which matches the first requirement in (3.8). At the unitarity bound ∆ = ℓ1 + d − p − 1
+then all the states |∆ + 1; ℓ + v for v = −e1 , εej , 2 ⩽ j ⩽ p in Hd are null.
+                                                                                                     (v)
+     In even dimensions, for ℓ1 = . . . = ±ℓr for H2r then we have that fℓ                                 = 0 in (C.9)
+for v = −e1 , εej , ±er , j = 2, . . . , r − 1
+                                                   (e )          (∓er )
+                             ∆ ⩾ max.{−gℓ 1 , −gℓ                         } = ℓ1 + r − 1 ,                      (C.18)
+
+with in addition the state |∆ + 1; ℓ ∓ er being null at the unitarity bound.
+                                                                                             (v)
+    In odd dimensions, for ℓ1 = . . . = ℓr > 12 for H2r+1 then fℓ                                  = 0 in (C.9) for
+v = −e1 , εej , er , j = 2, . . . , r − 1 and
+                                                 (e )          (−er )        (0)
+                            ∆ ⩾ max.{−gℓ 1 , −gℓ                        , −gℓ } = ℓ1 + r ,                      (C.19)
+
+with in addition the state |∆ + 1, ℓ − er being null at the unitarity bound. For ℓ1 = . . . =
+              (v)
+ℓr = 21 then fℓ = 0 in (C.9) for v = −e1 , εej , j = 2, . . . , r and
+
+                                                        (e )        (0)
+                               ∆ ⩾ max.{−gℓ 1 , −gℓ } = r = [ 21 d] ,                                           (C.20)
+
+with the state |∆ + 1, ℓ being null at the unitarity bound.
+
+
+
+Appendix D. Expansion and product formulae
+
+     In this appendix various formulae from section four are proven. We make use of a
+simple property of the function P (d) (s, x) defined for d = 2r in (3.19) and d = 2r + 1 in
+(3.30). Under the action of the Weyl symmetry operator Wd (defined in appendices A,B)
+it obeys
+                     Wd f (s, x)P (d)(s, x) = Wd f (s, x) P (d) (s, x) ,
+                                                          
+                                                                                      (D.1)
+     8   Here and in the following, this is because the corresponding states |∆ + 1; ℓ + vi for ℓ
+being on the boundary of the dominant Weyl chamber are null as SO(d) representations.
+
+                                                               37
+for any f (s, x), as P (d) (s, x) is invariant under the action of any element of the SO(d) Weyl
+group, Wd . Note also that Wd has no effect on the variable s.
+    We discuss the even dimensional cases of (4.11), (4.14), (4.15) first. For (4.14) we
+have that,
+
+                ∞                                                                  ∞
+                                                                                  X                                    
+                                  (2r)                                                                   (2r)
+                X
+                        sℓ+r+q−1 χ(ℓ+q,ℓ,...,±ℓ) (x) = sℓ+r−1 W2r                           (s x1 )q C(ℓ,...,±ℓ) (x)
+                q=0                                                                   q=0                                             (D.2)
+                                                                                        1     (2r)
+                                                                                                             
+                                                            = sℓ+r−1 W2r                      C(ℓ,...,±ℓ) (x) ,
+                                                                                      1 − sx1
+
+which follows just by the definition of the character of the irreducible representation (B.4)
+in terms of the Verma module character (B.3). Using (D.1) then (D.2) may be rewritten
+as
+
+                                                               r                                                       
+                                                                                                       (2r)
+                                                                Y
+            ℓ+r−1       (2r)                           −1                                       −1
+        s           P          (s, x)W2r (1 − sx1           )(1 − sxi )(1 − sxi                      )C(ℓ,...,±ℓ) (x)
+                                                         i=2
+                                             X             (2r)                                                                       (D.3)
+        = sℓ+r−1 P (2r) (s, x)                      (−s)n χ(ℓ−n1− ,ℓ+n2+ −n2− ,...,±ℓ+nr+ −nr− ) (x) .
+                                       ni− ,nj+ =0,1
+                                          P
+                                     0⩽n=     niε ⩽2r−2
+
+
+
+
+For n > 0 in (D.3) we may use
+
+                               (d)                                          (d)
+                          χ(ℓ1 ,...,ℓj ,ℓ−1,ℓ+1,ℓj+3 ,...,ℓr ) (x) = −χ(ℓ1 ,...,ℓj ,ℓ,ℓ,ℓj+3 ,...,ℓr ) (x) ,                          (D.4)
+
+to show that the contributions for given n reduce to a single one from
+
+                                                   (2r)
+                                                 χ (ℓ,...,ℓ,ℓ−1,...,ℓ−1,±ℓ∓1) (x) ,                                                   (D.5)
+                                                             ↑
+                                                          nth position
+
+
+
+with all contributions for n > r vanishing. Hence we have that (D.2) reduces to
+  (2r)
+D[ℓ+r−1,ℓ]± (s, x) defined in (3.26) thus proving (4.14). Notice that (4.11) is a spe-
+cial case of (4.14) when we take ℓ = 0 in the latter (whereby, as mentioned before,
+  (2r)
+D[ℓ+r−1,ℓ]± (s, x) → sr−1 (1 − s2 )P (2r) (s, x)).
+   We may prove (4.15) in a very similar way. The sum on the right hand side of (4.15)
+may be reduced to
+
+                                              r                                                                              
+                                                                                                  (2r)
+                                               Y
+      ℓ+r+j−1                           −1                           −1                −1 −1
+  s             W2r (1 − sx1 )                         (1 − sxi )         (1 − sxi          )    C(ℓ,...,ℓ,ℓ1 ,...,ℓj ) (x)       ,   (D.6)
+                                             i=r−j+1
+
+
+                                                                    38
+in a similar fashion as (D.2), when we perform the sums over p1 , . . . , pj , q. This may be
+rewritten using (D.1) as
+
+                                              r−j                                                   
+                                                                           (2r)
+                                               Y
+ s   ℓ+r+j−1
+               P   (2r)
+                          (s, x)W2r (1 − sx1 )     (1 − sxi )(1 − sxi −1 )C(ℓ,...,ℓ,ℓ1 ,...,ℓj ) (x)
+                                                      i=2
+                                                                (2r)
+                                          X
+  = sℓ+r+j−1 P (2r) (s, x)                            (−s)n χ(ℓ−n1− ,ℓ+n2+ −n2− ,...,ℓ+nr−j + −nr−j − ,ℓ1 ,...,ℓr ) (x) .
+                                      ni− ,nj+ =0,1
+                                      P
+                                 0⩽n=     niε ⩽2r−2j−2
+
+                                                                                        (D.7)
+For similar reasons as before, for n > 0 the contributions for given n reduce to a single one
+from
+                                   (2r)
+                                 χ (ℓ,...,ℓ,ℓ−1,...,ℓ−1,ℓ1 ,...,ℓj ) (x) ,              (D.8)
+                                                              ↑
+                                                            nth position
+
+                                   (2r)
+so that (D.7) equals D[ℓ+r+j−1,ℓ,ℓ1 ,...,ℓj ] (s, x) in (3.25) for p = r − j.
+    Turning to the odd dimensional cases of (4.27), (4.29), (4.30), (4.31) these may be
+proven in a very similar way as for the even dimensional cases when we use (D.1). Note
+that we may use the definition of the irreducible character (B.8) in terms of the Verma
+module character (B.7) and (3.30) to rewrite the sum on the right hand side of (4.30) as
+
+                                                r                                           
+                                                                           (2r+1)
+                                                 Y
+     sr P (2r+1) (s, x)(1 − s)W2r+1 (1 − sx1 −1 ) (1 − sxi )(1 − sxi −1 ) C( 1 ,..., 1 ) (x)
+                                                                                                    2    2
+                                                                   i=2                                               (D.9)
+         r     (2r+1)                   (2r+1)
+      =s P                (s, x)(1 − s)χ( 1 ,..., 1 ) (x) ,
+                                          2       2
+
+
+
+which matches (3.34). The free scalar case of (4.29) follows in a similar fashion. The
+identity (4.27) is in fact equivalent to (4.29). The sum on the right hand side of (4.31)
+may be rewritten as
+
+                                                           r                                                            
+                                                                                                (2r+1)
+                                                            Y
+sℓ+r+j W2r+1 (1 − s)−1 (1 − sx1 )−1                               (1 − sxi )−1 (1 − sxi −1 )−1 C(ℓ,...,ℓ,ℓ1 ,...,ℓj ) (x) ,
+                                                       i=r−j+1
+                                                                                                                   (D.10)
+when we perform the sums over pi , q, t. This may be rewritten as
+
+                                       r−j                                                   
+                                                                    (2r+1)
+                                        Y
+ sℓ+r+j P (2r+1) (s, x)W2r+1 (1 − sx1 )     (1 − sxi )(1 − sxi −1 )C(ℓ,...,ℓ,ℓ1 ,...,ℓj ) (x)
+                                                         i=2
+                                                                (2r+1)
+                                          X
+       ℓ+r+j       (2r+1)
+  =s           P             (s, x)                   (−s)n χ(ℓ−n1− ,ℓ+n2+ −n2− ,...,ℓ+nr−j + −nr−j − ,ℓ1 ,...,ℓr ) (x) .
+                                      ni− ,nj+ =0,1
+                                      P
+                                 0⩽n=     niε ⩽2r−2j−2
+
+                                                                                                                   (D.11)
+
+                                                                  39
+Using (D.4), for n > 0 the contributions for given n reduce to a single one from
+
+                                                    (2r+1)
+                                                 χ (ℓ,...,ℓ,ℓ−1,...,ℓ−1,ℓ1 ,...,ℓj ) (x) ,                                            (D.12)
+                                                                ↑
+                                                              nth position
+
+
+                                    (2r+1)
+so that (D.11) equals D[ℓ+r+j,ℓ,ℓ1 ,...,ℓj ] (s, x) in (3.32) for p = r − j.
+       To prove some product formulae we will use the expansions above and the following,
+
+                                                 (d)               (d)
+                                        Wd f (x)χℓ (x) = Wd f (x)) χℓ (x) ,                                                           (D.13)
+
+for any f (x).
+       For even dimensions we now prove (4.22) and (4.23) for ℓ′ = 21 . In this case we have
+that
+                    (4m+2)                   1      (4m+2)                     (4m+2)
+                   D[ 1 +2m; 1 ]± (s, x) = s 2 +2m χ( 1 ,..., 1 ,± 1 ) (x) − sχ( 1 ,..., 1 ,∓ 1 ) (x) ,
+                                                                                                     
+                                                                                                                                      (D.14)
+                         2     2                                     2        2   2                2       2       2
+
+
+where we may determine from (B.4) that,
+
+                                                       2m+1
+                               (4m+2)                                    1
+                                                        Y                         X
+                              χ( 1 ,..., 1 ) (x) =              xi − 2                xj1 · · · xj2t+1 ,
+                                 2       2
+                                                         i=1           m⩾t⩾0
+                                                                 2m+1⩾j1 >...>j2t+1 ⩾1
+                                                                                                                                      (D.15)
+                                                       2m+1                                
+                              (4m+2)                               − 12
+                                                        Y                   X
+                             χ( 1 ,...,− 1 ) (x) =              xi       1+   xj1 · · · xj2t .
+                                2           2
+                                                         i=1                      m⩾t⩾1
+                                                                             2m+1⩾j1 >...>j2t ⩾1
+
+
+
+
+                                                                     (4m+2)
+     We use (D.14) and (4.14) to expand D[ℓ+2m,ℓ]± (s, x) in (4.22) and then match powers
+of s on both sides. Clearly the O(1) terms on both sides of (4.22) agree. At O(sq ) for
+q ⩾ 1 we must show that,
+
+  (4m+2)              (4m+2)                     (4m+2)                       (4m+2)
+ χ(ℓ+q,ℓ,...,ℓ) (x)χ( 1 ,...,− 1 ) (x) − χ(ℓ+q−1,ℓ,...,ℓ) (x)χ( 1 ,..., 1 ) (x)
+                      2        2                                2       2
+     X (4m+2)                                                       (4m+2)
+ =            χ(ℓ+ 1 +q,ℓ+ 1 ,t ,t ,...,t         ,ℓ− 1 )
+                                                          (x) − χ(ℓ+ 1 +q−2,ℓ+ 1 ,t ,t ,...,t                                        1     (x) .
+                     2         2    1   1    ,t m−1   m−1        2                    2                2   1   1       m−1 ,tm−1 ,ℓ− 2 )
+       ti =ℓ± 1
+              2
+       ti ⩾ti+1
+
+                                                                                                                                      (D.16)
+Using (D.13) and (D.15) we may rewrite the left hand side of (D.16) as
+
+                   (4m+2)            (4m+2)                (4m+2)                (4m+2)          
+            W4m+2 C(ℓ+q,ℓ,...,ℓ) (x)χ( 1 ,...,− 1 ) (x) − C(ℓ+q−1,ℓ,...,ℓ) (x)χ( 1 ,..., 1 ) (x)
+                                       2        2                                  2     2
+                                                                                             
+                       (4m+2)                            2
+                                                                 X                                                                    (D.17)
+            = W4m+2 C(ℓ+q− 3 ,ℓ− 1 ,...,ℓ− 1 ) (x)(x1 − 1)                 xj1 · · · xj2t−1 .
+                                            2   2         2
+                                                                                   m⩾t⩾1
+                                                                             2m+1⩾j1 >...>j2t−1 ⩾2
+
+
+
+                                                                     40
+For q ⩾ 1 most of the terms in (D.17) vanish under the action of the Weyl symmetry
+operator and it reduces to
+                                                            m                
+                           (4m+2)
+                                                             X
+                                                       2
+                W4m+2 C(ℓ+q− 3 ,ℓ− 1 ,...,ℓ− 1 ) (x)(x1 − 1)   x2 x3 · · · x2t , (D.18)
+                                                      2       2              2
+                                                                                                           t=1
+
+and from here it is easy to show that this agrees with the right hand side of (D.16).
+                                                                                                 (4m+2)
+    Similarly, using (D.14) and (4.14) to expand D[ℓ+2m,ℓ]± (s, x) in (4.23), then matching
+powers of s on both sides of the equation (4.23) we must show that for q ⩾ 0,
+            (4m+2)                       (4m+2)                           (4m+2)                             (4m+2)
+          χ(ℓ+q,ℓ,...,εℓ) (x)χ( 1 ,...,ε 1 ) (x) − χ(ℓ+q−1,ℓ,...,εℓ) (x)χ( 1 ,...,−ε 1 ) (x)
+                                2        2                                 2         2
+              X (4m+2)                                      (4m+2)
+          =            χ(ℓ+ 1 +q,t ,t ,...,t ,εt ) (x) − χ(ℓ+ 1 +q−2,t ,t ,...,t ,εt ) (x) ,                                      (D.19)
+                                 2            1   1       m           m                          2           1   1       m    m
+                ti =ℓ± 1
+                       2
+                ti ⩾ti+1
+
+
+for ε = ±. Using (D.13) and (D.15) we may rewrite the left hand side of (D.19) for ε = +
+as
+                 (4m+2)         (4m+2)                (4m+2)             (4m+2)             
+       W4m+2 C(ℓ+q,ℓ,...,ℓ) (x)χ( 1 ,..., 1 ) (x) − C(ℓ+q−1,ℓ,...,ℓ) (x)χ( 1 ,...,− 1 ) (x)
+                                  2       2                                2        2
+                                                                                         
+                                                                                                (D.20)
+                                                           
+                    (4m+2)
+                                                                    X
+                                                     2
+        = W4m+2 C(ℓ+q− 3 ,ℓ− 1 ,...,ℓ− 1 ) (x)(x1 − 1) 1 +               xj1 · · · xj2t       .
+                                          2       2               2
+                                                                                                      m⩾t⩾1
+                                                                                                 2m+1⩾j1 >...>j2t ⩾2
+
+
+For q ⩾ 0 most of the terms in (D.20) vanish under the action of the Weyl symmetry
+operator and it reduces to
+                                                       m                   
+                   (4m+2)
+                                                         X
+                                               2
+        W4m+2 C(ℓ+q− 3 ,ℓ− 1 ,...,ℓ− 1 ) (x)(x1 − 1) 1 +   x2 x3 · · · x2t+1    , (D.21)
+                                     2        2           2
+                                                                                                       t=1
+
+and from here it is easy to show that this agrees with the right hand side of (D.19) for
+ε = +.
+     We also have that
+          (4m)                       1        (4m)                       (4m)
+         D[ 1 +2m−1; 1 ]± (s, x) = s 2 +2m−1 χ( 1 ,..., 1 ,± 1 ) (x) − sχ( 1 ,..., 1 ,∓ 1 ) (x) ,
+                                                                                               
+                                                                                                                                  (D.22)
+            2              2                                                 2          2    2                       2   2    2
+
+
+where,
+                                                                      2m
+                                (4m)                                               1
+                                                                      Y                     X
+                               χ( 1 ,...,− 1 ) (x) =                        xi − 2                   xj1 · · · xj2t+1 ,
+                                  2        2
+                                                                      i=1       m−1⩾t⩾0
+                                                                            2m⩾j1 >...>j2t+1 ⩾1
+                                                                                                                                  (D.23)
+                                                                      2m                                                 
+                                     (4m)                                        − 21
+                                                                      Y                          X
+                                χ( 1 ,..., 1 ) (x) =                        xi              1+           xj1 · · · xj2t ,
+                                         2        2
+                                                                      i=1                   m⩾t⩾1
+                                                                                        2m⩾j1 >...>j2t ⩾1
+
+
+and this allows similar product formulae in d = 4m dimensions to be derived straightfor-
+wardly in an analogous fashion as above.
+
+                                                                                 41
+                                    References
+
+
+ [1] M. Bianchi, J.F. Morales and H. Samtleben, On stringy AdS5 × S 5 and higher spin
+     holography, JHEP 0307 062 2003, hep-th/0310129.
+ [2] N. Beisert, M. Bianchi, J.F. Morales and H. Samtleben, On the spectrum of
+     AdS/CFT beyond supergravity, JHEP 0402 001 2004, hep-th/0310292.
+ [3] V.K. Dobrev, Characters of the positive energy UIRs of D = 4 conformal super-
+     symmetry, hep-th/0406154.
+ [4] A. Barabanschikov, L. Grant, L.L. Huang and S. Raju, The spectrum of Yang Mills
+     on a sphere, hep-th/0501063.
+ [5] J. Fuchs and C. Schweigert, Symmetries, Lie algebras and representations, CUP,
+     1997.
+ [6] M. Flato and C. Fronsdal, One massless particle equals two Dirac singletons, Lett.
+     Math. Phys. 2 421 1978.
+ [7] M. Günaydin and N. Marcus, The spectrum of the S 5 compactification of the chiral
+     N = 2, D = 10 supergravity and the unitary supermultiplets of U (2, 2|4), Class.
+     Quant. Grav. 2 L11 1985.
+ [8] E. Sezgin and P. Sundell, Massless higher spins and holography, Nucl. Phys. B 634
+     120 2002, hep-th/0112100.
+ [9] E. Angelopoulos and M. Laoues, Singletons on ADSn , Dijon 1999, Quantization,
+     deformations and symmetries, vol. 2 3-23.
+[10] M.A. Vasiliev, Higher spin superalgebras in any dimension and their representa-
+     tions, JHEP 0412 0426 2004, hep-th/0404124.
+[11] B. Gruber and A.U. Klimyk, Properties of linear representations with a highest
+     weight for the semi-simple Lie algebras, J. Math. Phys. Vol. 16 (1975) 1816.
+[12] V.K. Dobrev and E. Sezgin, Spectrum and Character Formulae of so(3, 2) Unitary
+     Representations, Lecture Notes in Physics, Vol. 379, Springer-Verlag, Berlin, 1990,
+     pp. 227-238; eds. J.D. Hennig, W. Lücke and J. Tolar.
+[13] V.K. Dobrev, Positive energy representations of noncompact quantum algebras,
+     Proceedings of the Workshop on Generalized Symmetries in Physics, Clausthal,
+     July 1993, World Sci. Singapore, 1994, pp. 90-110; eds. H.D. Doebner et al.
+[14] J.L. Cardy, Operator content and modular properties of higher dimensional con-
+     formal field theories, Nucl. Phys. B366 403 1991.
+
+                                         42
+[15] D. Kutasov and F. Larsen, Partition sums and entropy bounds in weakly coupled
+     CFT, JHEP 0101 001 2001, hep-th/0009244.
+[16] O. Aharony, J. Marsano, S. Minwalla, K. Papadodimas and M. Van Raamsdonk,
+     The Hagedorn deconfinement phase transition in weakly coupled large N gauge
+     theories, Varna 2003, Lie theory and its applications in physics V, 161-203, hep-
+     th/0310285.
+[17] G.W. Gibbons, M. Perry and C.N. Pope, Bulk and boundary partition functions
+     for AdS, in preparation.
+[18] S. Ferrara and C. Fronsdal, Conformal fields in higher dimensions, Rome 2000,
+     Recent developments in theoretical and experimental general relativity, gravitation
+     and relativistic field theories, Pt. A, 508-527, hep-th/0006009.
+[19] G. Mack, All unitary ray representations of the conformal group SU (2, 2) with
+     positive energy, Commun. Math. Phys. 55 1 1977.
+
+[20] S. Minwalla, Restrictions imposed by superconformal invariance on Quantum field
+     theories, Adv. Theor. Math. Phys. 2 781 1998, hep-th/9712074.
+[21] W. Siegel, All free conformal representations in all dimensions, Int. J. Mod. Phys.
+     A4 2015 1989.
+[22] I.N. Bernstein, I.M. Gel’fand and S.I. Gel’fand, Structure of representations gener-
+     ated by vectors of highest weight, Funct. Annal. App. 5 (1971) 1.
+[23] Daya-Nand Verma, Structure of certain induced representations of complex semisim-
+     ple Lie algebras, Bull. Am. Math. Soc. 74 (1968) 160.
+
+[24] J.E. Humphreys, Reflection groups and Coxeter groups, CUP, 1990.
+[25] W. Fulton and J. Harris, Representation theory, a first course, Graduate texts in
+     mathematics, Springer-Verlag New York, 1991.
+
+
+
+
+                                          43
+

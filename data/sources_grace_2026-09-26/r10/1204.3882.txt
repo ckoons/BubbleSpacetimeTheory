@@ -1,0 +1,2394 @@
+                                                                                                                        PUPT-2410
+
+
+
+
+                                                      Constraining conformal field theories
+
+
+
+
+arXiv:1204.3882v1 [hep-th] 17 Apr 2012
+                                               with a slightly broken higher spin symmetry
+
+
+                                                                     Juan Maldacenaa and Alexander Zhiboedovb
+
+                                                         a
+                                                             School of Natural Sciences, Institute for Advanced Study
+                                                                                Princeton, NJ, USA
+                                                                 b
+                                                                     Department of Physics, Princeton University
+                                                                                Princeton, NJ, USA
+
+
+                                             We consider three dimensional conformal field theories that have a higher spin sym-
+                                         metry that is slightly broken. The theories have a large N limit, in the sense that the
+                                         operators separate into single trace and multitrace and obey the usual large N factoriza-
+                                         tion properties. We assume that the spectrum of single trace operators is similar to the
+                                         one that one gets in the Vasiliev theories. Namely, the only single trace operators are the
+                                         higher spin currents plus an additional scalar. The anomalous dimensions of the higher
+                                         spin currents are of order 1/N . Using the slightly broken higher spin symmetry we con-
+                                         strain the three point functions of the theories to leading order in N . We show that there
+                                         are two families of solutions. One family can be realized as a theory of N fermions with
+                                         an O(N ) Chern-Simons gauge field, the other as a N bosons plus the Chern-Simons gauge
+                                         field. The family of solutions is parametrized by the ’t Hooft coupling. At special parity
+                                         preserving points we get the critical O(N ) models, both the Wilson-Fisher one and the
+                                         Gross-Neveu one. Our analysis also fixes the on shell three point functions of Vasiliev’s
+                                         theory on AdS4 or dS4 .
+                                          Contents
+1. Introduction       . . . . . . . . . . . . . . . . . . . . . . . . . . . .       .   .   .   .   .    2
+2. Possible divergence of the spin four operator      . . . . . . . . . . . . . .   .   .   .   .   .    5
+  2.1. Spectrum of the theory . . . . . . . . . . . . . . . . . . . . . .           .   .   .   .   .    5
+  2.2. Divergence of the spin four current . . . . . . . . . . . . . . . . .        .   .   .   .   .    6
+3. Structures for the three point functions       . . . . . . . . . . . . . . . .   .   .   .   .   .    9
+4. Charge non-conservation identities . . . . . . . . . . . . . . . . . . .         .   .   .   .   .   12
+  4.1. General story . . . . . . . . . . . . . . . . . . . . . . . . . .            .   .   .   .   .   12
+  4.2. Constraints on three point functions with non-zero even spins . . . . .      .   .   .   .   .   15
+  4.3. Closing the chain. The Quasi-fermion case. . . . . . . . . . . . . .         .   .   .   .   .   19
+  4.4. Closing the chain. The Quasi-boson case.         . . . . . . . . . . . . .   .   .   .   .   .   21
+  4.5. Three point functions involving scalars. The quasi-fermion case. . . . .     .   .   .   .   .   22
+  4.6. Three point functions involving scalars. The quasi-boson case.     . . . .   .   .   .   .   .   23
+  4.7. Comments about higher point correlation functions . . . . . . . . . .        .   .   .   .   .   25
+5. Final results      . . . . . . . . . . . . . . . . . . . . . . . . . . . .       .   .   .   .   .   25
+  5.1. Quasi-fermion theory . . . . . . . . . . . . . . . . . . . . . . .           .   .   .   .   .   26
+  5.2. Quasi-boson theory        . . . . . . . . . . . . . . . . . . . . . . .      .   .   .   .   .   27
+  5.3. The critical point of O(N )      . . . . . . . . . . . . . . . . . . . .     .   .   .   .   .   28
+  5.4. The critical O(N ) fermion theory       . . . . . . . . . . . . . . . . .    .   .   .   .   .   30
+  5.5. Relation to other Chern-Simons matter theories . . . . . . . . . . .         .   .   .   .   .   30
+  5.6. Comments about higher dimensions           . . . . . . . . . . . . . . . .   .   .   .   .   .   31
+  5.7. A comment on higher order parity violating terms . . . . . . . . . .         .   .   .   .   .   32
+6. Conclusions and discussion . . . . . . . . . . . . . . . . . . . . . .           .   .   .   .   .   33
+Appendix A. Why the divergence of the currents should be conformal primaries        .   .   .   .   .   35
+Appendix B. Structure of the pseudo-charge conservation identities      . . . . .   .   .   .   .   .   37
+Appendix C. Compendium of normalizations . . . . . . . . . . . . . . . .            .   .   .   .   .   38
+Appendix D. Exploring the scalar sector for the quasi-fermion . . . . . . . .       .   .   .   .   .   39
+  D.1. Fixing c̃0̃,0̃ and nontrivial consistency check . . . . . . . . . . . . .    .   .   .   .   .   40
+  D.2. Fixing hs0̃0̃i . . . . . . . . . . . . . . . . . . . . . . . . . . .         .   .   .   .   .   41
+  D.3. Fixing γ0̃0̃0̃ . . . . . . . . . . . . . . . . . . . . . . . . . . .         .   .   .   .   .   42
+Appendix E. Exploring the scalar sector for the quasi-boson . . . . . . . . .       .   .   .   .   .   43
+  E.1. Fixing c̃0,0     . . . . . . . . . . . . . . . . . . . . . . . . . . .       .   .   .   .   .   43
+  E.2. Fixing hs00i . . . . . . . . . . . . . . . . . . . . . . . . . . .           .   .   .   .   .   44
+  E.3. Vanishing of the double trace term in the h000i identity . . . . . . . .     .   .   .   .   .   45
+Appendix F. Impossibility to add any further double trace deformations . . . .      .   .   .   .   .   46
+  F.1. Case of quasi-fermion . . . . . . . . . . . . . . . . . . . . . . .          .   .   .   .   .   47
+  F.2. Case of quasi-boson       . . . . . . . . . . . . . . . . . . . . . . .      .   .   .   .   .   48
+  F.3. Triple trace deformation       . . . . . . . . . . . . . . . . . . . . .     .   .   .   .   .   48
+Appendix G. Motivational introduction . . . . . . . . . . . . . . . . . .           .   .   .   .   .   49
+
+
+
+
+                                               1
+1. Introduction
+
+       In this paper we study a special class of three dimensional conformal field theories
+that have a weakly broken higher spin symmetry. The theories have a structure similar to
+what we expect for the CFT dual to a weakly coupled four dimensional higher spin gravity
+theory in AdS4 [1,2,3,4,5,6,7,8,9]. We compute the leading order three point functions of
+the higher spin operators. We use current algebra methods. Our only assumption is that
+the correlation functions defined on the boundary of AdS4 obey all the properties that a
+boundary CFT would obey. But we will not need any details regarding this theory other
+than some general features which follow from natural expectations for a weakly coupled
+bulk dual. This seems a reasonable assumption for Vasiliev’s theory, since Vasiliev’s theory
+appears to be local on distances much larger than the AdS radius. This would imply
+that the usual definition of boundary correlators is possible [9,10,11]. In order to apply
+our analysis to Vasiliev’s theory we need to make the assumption that these boundary
+correlators can be defined and that they obey the general properties of a CFT. Thus we
+are assuming AdS/CFT, but we are not specifying the precise definition of the boundary
+CFT. Since our assumptions are very general, they also apply to theories involving N
+scalar or fermions fields coupled to O(N ) or SU (N ) Chern-Simons gauge fields [12,13]. So
+our methods are also useful for computing three point functions in these theories as well.
+       Our assumptions are the following1 . We have a CFT with a unique stress tensor and
+has a large parameter Ñ . In the Chern-Simons examples Ñ ∼ N . In the Vasiliev gravity
+theories, 1/Ñ ∼ h̄ sets the bulk coupling constant of the theory. We then assume that
+the spectrum of operators has the structure of an approximate Fock space, with single
+particle states and multiparticle states. The dimensions of the multiparticle states are
+given by the sum of the dimensions of their single particle constituents up to small 1/Ñ
+corrections. This Fock space should not be confused with the Fock space of a free theory
+in three dimensions. We should think of this Fock space as the Fock space of the weakly
+coupled four dimensional gravity theory. In order to avoid this confusion we will call the
+“single particle states” “single trace” and the multiparticle states “multiple trace”. In the
+Chern-Simons gauge theories this is indeed the case. We also assume that the theory has
+the following spectrum of single trace states. It has a single spin two conserved current.
+In addition, it has a sequence of approximately conserved currents Js , with s = 4, 6, 8, · · ·.
+   1
+       These assumptions are not all independent from each other, but we will not give the minimal
+set.
+
+                                                 2
+These currents are approximately conserved, so that their twist differs from one by a small
+amount of order 1/Ñ
+                                                               1
+                                     τs = ∆s − s = 1 + O(        ).                                (1.1)
+                                                              Ñ
+     In addition, we have one single trace scalar operator. All connected correlators of
+the single trace operators scale as Ñ . This includes the two point function of the stress
+tensor. We also assume that the spectrum of single trace operators is such that the higher
+spin symmetry can be broken only by double trace operators via effects of order 1/Ñ . In
+particular, we assume that there are no twist three single trace operators in the theory.
+     With these assumptions, we will find that the three point functions in these theories,
+to leading order in Ñ , are constrained to lie on a one parameter family
+                    "                                                                                  #
+                       λ̃2                          1                          λ̃
+ hJs1 Js2 Js3 i = Ñ         hJs1 Js2 Js3 ibos +         hJs1 Js2 Js3 ifer +         hJs1 Js2 Js3 iodd
+                     1 + λ̃2                     1 + λ̃2                     1 + λ̃2
+                                                                                                    (1.2)
+where the subindices      bos and fer indicate the results in the theory of a single real boson
+
+or a single Majorana fermion. The subindex odd denotes an odd structure which will be
+defined more clearly below. Here λ̃ is a parameter labeling the family of solutions of the
+current algebra constraints. More precise statements will be made below, including the
+precise normalization of the currents.
+     The class of theories for which our assumptions apply includes Vasiliev higher spin
+theories in AdS4 with higher spin symmetry broken by the boundary conditions [1]. It also
+applies for theories containing N fermions [12] or N bosons [13] interacting with an SO(N )
+or U (N ) Chern-Simons gauge field. We call these theories quasi-fermion and quasi-boson
+theories respectively. In such theories 1/Ñ ∝ 1/N is the small parameter. In addition, λ̃ ∼
+λ = N/k is an effective ’t Hooft coupling in these theories. We emphasize that the analysis
+here is only based on the symmetries and it covers both types of theories, independently
+of any conjectured dualities between them. Of course, the results we obtain are consistent
+with the proposed dualities between these Chern-Simons theories and Vasiliev’s theories
+[7,6,9,12,13].
+     We can take the limit of large λ̃ in (1.2) and we find that the the correlators of the
+quasi-fermion theory go over to those of the critical O(N ) theory. And we have a similar
+statement for the quasi-boson theory.
+
+                                                   3
+      Our analysis is centered on studying the spin four single trace operator J4 . We write
+the most general form for its divergence, or lack of conservation. With our assumptions
+this takes the schematic form
+
+                                    ∂.J4 = a2 JJ ′ + a3 JJ ′ J ′′                        (1.3)
+
+where on the right hand side we have products of two or three single trace operators,
+together with derivatives sprinkled on the right hand side. The coefficients a2 and a3
+are small quantities of order 1/Ñ and 1/Ñ 2 respectively. We will be able to use this
+approximate conservation law in the expression for the three point function in order to get
+(1.2). Note that in the case that J4 is exactly conserved, we simply have free boson or free
+fermion correlators [14].
+      We should emphasize that our discussion applies only to the special theories in [12,13],
+but not to more general large N Chern-Simons matter theories. The special feature that
+we are using is the lack of single trace operators of twist three. Such operators can appear
+in the divergence of the spin four current (1.3). This can give rise to an anomalous
+dimension for the higher spin currents already at the level of the classical theory (or large
+Ñ approximation). In the theories in [12,13], we do not have a single trace operator that
+can appear in the right hand side of (1.3). In the language of the bulk theory, we have the
+pure higher spin theory without extra matter2 . In particular, the bulk theory lacks the
+matter fields that could give a mass to the higher spin gauge fields via the Higgs mechanism
+already at the classical level. Thus the higgsing is occurring via quantum effects involving
+two (or three) particle states [15].
+      Our analysis can also be viewed as an on shell analysis of the Vasiliev theory with
+AdS4 asymptotic boundary conditions. If the higher spin symmetry is unbroken, then we
+can use [14] to compute all correlators, just from the symmetry. In this paper we also use
+an on shell analysis, but for the case that the higher spin symmetry is broken. As it has
+often been emphasized, on shell results in gauge theories can be simpler than what the
+fully covariant formalisms would suggest.
+      For a more general motivational introduction, see appendix G.
+      The paper is organized as follows.
+
+  2
+      By “matter” we mean extra multiplets under the higher spin symmetry. The scalar field of
+the Vasiliev theory is part of the pure higher spin theory.
+
+                                                 4
+    In section two we discuss the most general form of the divergence of the spin four
+current.
+    In section three we present several facts about three point functions which are neces-
+sary for the later analysis.
+    In section four we explain how one can use the slightly broken higher spin symmetry
+to fix the three point functions.
+    In section five we present the results and explain their relation to known microscopic
+theories.
+    In section six we present conclusions and discussions.
+    Several appendices contain technical details used in the main body of the paper.
+
+
+2. Possible divergence of the spin four operator
+
+2.1. Spectrum of the theory
+
+    We consider theories with a large Ñ expansion. We do not assume that Ñ is an
+integer. We assume that the set of operators develops the structure of a Fock space for
+large Ñ . Namely, we can talk about single particle operators and multiparticle operators.
+In the case of the Chern-Simons matter theories discussed in [12,13], these correspond
+to single sum and multiple sum operators (sometimes called single trace or multitrace
+operators). The spectrum of single trace operators includes a conserved spin two current,
+the stress tensor, J2 µν . We will often suppress the spacetime indices and denote operators
+with spin simply by Js . We have approximately conserved single trace operators Js , with
+s = 4, 6, 8, · · ·. These operators have twists τ = 1 + O(1/Ñ ). In addition we have a single
+scalar operator. We will see that the dimension of this operator has to be either one or
+two. We denote the first possibility as j0 and the second as j̃0 . The theory that contains
+j̃0 is called the quasi-fermion theory. The theory with j0 is called the quasi-boson theory.
+The theory might contain also single particle operators with odd spins. For simplicity, let
+us assume that these are not present, but we will later allow their presence and explain
+that the correlators of even spin currents are unchanged.
+    An example of a theory that obeys these properties is a theory with N massless
+Majorana fermions interacting with an O(N ) Chern-Simons gauge field at level k [12]. In
+                               P
+this theory the scalar is j̃0 = i ψi ψi , which has dimension two, at leading order in N for
+any λ = N/k. The name quasi-fermion was inspired by this theory, since we start from
+fermions and the Chern-Simons interactions turns them into non-abelian anyons, which for
+
+                                              5
+large k, are very close to ordinary fermions. Our discussion is valid for any theory whose
+single particle spectrum was described above. We are just calling “quasi-fermion” the case
+where the spectrum includes a scalar with dimension two, j̃0 .
+    A second example is a theory with N massless real scalars, again interacting with an
+O(N ) Chern-Simons gauge field at level k [13]. This theory also allows the presence of
+   ~ φ)
+a (φ. ~ 3 potential while preserving conformal symmetry, at least to leading order in N .
+As higher orders in the 1/N expansion are taken into account this coefficient is fixed, if
+we want to preserve the conformal symmetry [13]. Here we will only do computations
+to leading order in N , thus, we have two parameters N/k and the coupling of the ( ~
+                                                                                  φ. ~
+                                                                                     φ)3
+potential. We call this case the quasi-boson theory. Again we will not use any of the
+microscopic details of its definition. For us the property that defines it is that the scalar
+has dimension one, j0 .
+    A third example is the critical O(N ) theory (as well as interacting UV Gross-Neveu
+fixed point). Namely, we can have N free scalars, perturbed by a potential of the form
+  ~ φ)
+(φ. ~ 2 , which flows in the IR to a new conformal field theory (after adjusting the coefficient
+of the mass term to criticality). This is just the usual large N limit of the Wilson-Fisher
+fixed point. This theory has no free parameters. Here the scalar operator j̃0 ∼ φi φi has
+dimension two. It starts with dimension one in the UV but it has dimension two in the
+IR. The UV theory has a higher spin symmetry. In the IR CFT this symmetry is broken
+by 1/N effects. This theory is in the family of what we are calling the quasi-fermion case.
+    A fourth example is a Vasiliev theory in AdS4 (or dS4 ) with general boundary condi-
+tions which would generically break the higher spin symmetry. Here the bulk coupling is
+h̄ ∼ 1/Ñ . Depending on whether the scalar has dimensions one or two, we would have a
+quasi-fermion or quasi-boson case.
+    We should emphasize that the theories we call quasi-fermion or quasi-boson case are
+not specific microscopic theories. They are any theory that obeys our assumptions, where
+the scalar has dimension two or one respectively.
+
+2.2. Divergence of the spin four current
+
+    Let us consider the spin four current J4 . We consider the divergence of this current. If
+it is zero, then we have a conserved higher spin current and all correlators of the currents
+are as in a theory of either free bosons or free fermions [14]. Here we consider the case
+that this divergence is nonzero. Our assumptions are that the current is conserved in the
+large Ñ limit. This means that in this limit J4 belongs to a smaller multiplet than at finite
+
+                                               6
+Ñ . At finite Ñ , J4 combines with another operator to form a full massive multiplet. More
+precisely, it combines with the operator that appears in the right hand side of ∇.J4 =
+∂µ J µ ν1 ν2 ν3 . In other words, ∇.J4 , should be a conformal primary operator in the large N
+limit [16,15], see appendix A. ∇.J4 should be a twist three, spin three primary operator.
+According to our assumptions there are no single particle operators of this kind. Note
+that in general matter Chern-Simons theories, such as theories with adjoint fields, we can
+certainly have single trace operators with twist three and spin three. So, in this respect,
+the theories we are considering are very special. In our case, we can only have two particle
+or three particle states with these quantum numbers.
+      Let us choose the metric
+                                      ds2 = dx+ dx− + dy 2                                  (2.1)
+
+and denote the indices of a vector by v± , vy .
+      Let us see what is the most general expression we can write down for (∇.J)−−− . Since
+the total twist is three, and the total spin is three we can only make this operator out of
+the stress tensor, J2 , and the scalar field. Any attempt to include a higher spin field would
+have to raise the twist by more than three. A scalar field can only appear if its twist is one
+or two. Note that we cannot have two stress tensors. The reason is that we cannot make
+a twist three, spin three primary out of two stress tensors. Naively, we could imagine an
+expression like J2 y− J2 −− . But this cannot be promoted into a covariant structure, even
+if we use the ǫ tensor.3
+      Let us consider first the case that the scalar has twist two, j̃0 . The most general
+operator that we can write down is
+                                                                   
+                                                          2
+                             ∂µ J µ−−− = a2    ∂− j̃0 j2 − j̃0 ∂− j2 .                      (2.2)
+                                                          5
+
+Here we are denoting by js = Js −···− , the all minus components of Js . In (2.2) we have
+used the fact that the right hand side should be a conformal primary in order to fix the
+relative coefficient. If we started out from the free fermion theory, then this structure
+would break parity, since j̃0 is parity odd. Then we have a2 ∝ N/k, at least for large k.
+In general j̃0 does not have well defined parity and the theory breaks parity. If we had the
+critical O(N) theory, then (2.2) is perfectly consistent with parity, since in that case j̃0 is
+parity even.
+
+  3
+      We could have promoted it if we had two different spin two currents: ǫ−µν J µ− J˜ν−
+
+                                                 7
+     Let us now consider the case where we have a scalar of twist one, j0 . Now there are
+more conformal primaries that we can write down
+
+    ∂µ j µ −−− = a2 ǫ−µν 8∂ µ j0 ∂ ν j−− − 6∂ µ j0 ∂− j ν− − 5∂− ∂ µ j0 j ν− − j0 ∂− ∂ µ j ν−
+                                                                                             
+
+               + a3 j0 j0 ∂ 3 j0 − 9j0 ∂j0 ∂ 2 j0 + 12∂j0 ∂j0 ∂j0
+                                                                 
+                                                                                                  (2.3)
+                + a′3 [∂j2 j0 j0 − 5j2 ∂j0 j0 ] .
+
+We have only written combinations which are conformal primaries. We have also denoted
+∂ ≡ ∂− . The analysis of the broken charge conservation identities will relate a3 and a′3
+leaving us with only two parameters (besides Ñ ). This agrees with the two parameters in
+the large N limit in the boson plus Chern-Simons theories of [13].
+     Here we have concentrated on the case of J4 . Let us briefly discuss the situation
+for higher spin currents. We focus, as usual, on the all minus component of the current
+∂µ J µ−−...− . This operator has twist τ = ∆ − S = 3 and spin s − 1. Let us examine possible
+double particle operators that can appear. The minimum twist of a double trace operator
+is 2 = 1 + 1. We should make up the twist by considering other components, or derivatives
+other than ∂− , which has twist zero. All of these should arise from a rotationally invariant
+structure involving the flat space metric or the ǫ tensor. The only structure that can raise
+the twist by one is ǫ−µν . For the quasi-fermion theory we can also use the scalar operator
+of twist 2, j̃0 , and one of the twist one currents.
+     Matching the scaling dimensions in ∂µ Jsµ ∝ Js1 Js2 (with derivatives sprinkled on the
+right hand side) with all minus indices leads to
+
+                                  s + 2 = (s1 + 1) + (s2 + 1) + n∂                                (2.4)
+
+where n∂ ≥ 0 is the number of derivatives which raise the dimension. Thus, we get an
+inequality
+                          s ≥ s1 + s2 ,        s > s1 , s2 ,    double trace                      (2.5)
+
+where we show that that s > s1 , s2 as follows. For s1 = s, the only operator with the right
+twist would be j0 Js y−···− , but this is not really a spin s − 1 operator, namely it does not
+come from any covariant structure. (2.5) is a constraint on the spins of the operators that
+can appear in the divergence of a current of spin s.
+     At the level of triple trace operators the product of three operators has already twist
+three. So the only structure which is allowed is ∂− by the twist counting. Matching the
+dimensions in ∂µ Jsµ ∝ Js1 Js2 Js3 we get
+
+                           s + 2 = (s1 + 1) + (s2 + 1) + (s3 + 1) + n∂                            (2.6)
+
+                                                    8
+and the constraint
+                                 s ≥ s1 + s2 + s3 + 1,      triple trace                         (2.7)
+
+Twist counting prohibits having the product of more than three operators.
+      Now let us comment on the scaling of the coefficients in (1.3) with Ñ . Let us normalize
+the scaling of single particle operators so that their connected n point functions scale like
+Ñ . Then if we consider a three point correlator of a given current with the two currents
+that appear in the right hand side of its divergence we get
+
+       Ñ ∼ ∂µ hJsµ (x)Js1 (x1 )Js2 (x2 )i = a2 hJs1 (x)Js1 (x1 )ihJs2 (x)Js2 (x2 )i ∼ a2 Ñ 2   (2.8)
+
+with derivatives sprinkled on the right hand side. Thus, we get that a2 ∝ Ñ1 . For a3 the
+same argument leads to a3 ∝ Ñ12 . This scaling is the only one that is consistent with the
+Ñ counting and is such that it leads to non-zero terms in the leading contribution.
+
+
+
+3. Structures for the three point functions
+
+      In this section we constrain the structure of three point functions. When we have
+exactly conserved currents the possible three point functions were found in [17] (see also
+[18][14]). They were found by imposing conformal symmetry and current conservation.
+The three point functions were given by three possible structures. One structure arises
+in the free fermion theory and another arises in the free boson theory. We call these the
+fermion and boson structures respectively. Finally there is a third “odd” structure which
+does not arise in a free theory. For twist one fields this structure is parity odd (it involves
+an epsilon tensor). However, for correlators of the form hj̃0 Js1 Js2 i, the fermion structure
+is parity odd (it involves an epsilon tensor) and the “odd” structure is parity even. This is
+due to the fact that j̃0 is parity odd in the free fermion theory. Alternatively, if we assign
+parity minus to j̃0 and parity plus to all the twist one operators, then the “odd” structures
+always violate parity4 . The reader should think that when we denote a structure as “odd”
+we simply mean “strange” in the sense that it does not arise in a theory of a free boson or
+free fermion.
+  4
+      This is not always the natural parity assignment. For example, in the critical O(N ) theory j̃0
+has parity plus and the theory preserves parity. In this theory, we have only the “odd” structure
+for the correlators of the form hj̃0 Js1 Js2 i.
+
+                                                    9
+    In our case, the currents are not conserved, so we need to revisit these constraints.
+For example, the divergence of a current can produce a double trace operator. If these
+contract with the two remaining operators, as in (2.8), we get a term that is of the same
+order in the 1/Ñ expansion as the original three point function. Notice that only double
+trace operators can contribute in this manner to the current non-conservation of a three
+point function. We emphasize that we are computing these three point functions to leading
+order in the 1/Ñ expansion, where we can set their twist to be one. All statements we
+make in this section are about the structure of correlators to leading order in the 1/Ñ
+expansion.
+    We will show below that even correlation functions (fermion and boson) stay the same
+and all new structures appear in the odd piece. Consider the three point function of twist
+one operators hJs1 Js2 Js3 i, with si ≥ 2. Let us say that s1 is larger or equal than the other
+two spins. Then the Js2 and Js3 currents are conserved inside this three point function,
+since the spins appearing in the divergence of a current are always strictly less than those
+of the current itself (2.5). On the other hand, in order to get a non-zero contribution we
+would need to contract Js1 with one of the two currents that appears in the right hand
+side of the divergence of Js2 or Js3 . Thus, we can impose current conservation on Js2 and
+Js3 for this three point function. Let us consider the parity even structures first. As we
+discussed in [14], for two operators of the same twist and one conserved current, say js3 ,
+we have the most general even structure
+
+                                                    min[s1 ,s2 ]
+                                1                         X
+  hOs1 Os2 js3 i ∼        2τ   −1
+                                                                   P32l [hjs1 −l js2 −l js3 ibos + hjs1 −l js2 −l js3 ifer ]
+                   |x12 |    0    |x23 ||x13 |
+                                                          l=0
+                                                                                                                         (3.1)
+where Pi are as is [17]. We get this result by considering the light cone limit between
+Os1 Os2 and imposing the conservation of js3 [14]. We then take light cone limit js1 js2
+and impose conservation of js3 . Then we take the light cone limit js1 js3 and impose
+conservation of js2 . From these two operations we would conclude that
+
+                                           min[s1 ,s2 ]
+                            1                 X
+   hjs1 js2 js3 i =                                       P32l [bl hjs1 −l js2 −l js3 ibos + fl hjs1 −l js2 −l js3 ifer ] ,
+                    |x12 ||x23 ||x13 |
+                                              l=0
+                                           min[s1 ,s3 ]
+                              1                               h                                                         i
+                                                          P22l b̃l hjs1 −l js2 js3 −l ibos + f˜l hjs1 −l js2 js3 −l ifer .
+                                              X
+   hjs1 js2 js3 i =
+                      |x12 ||x23 ||x13 |
+                                              l=0
+                                                                                                                         (3.2)
+
+                                                                10
+The only consistent solution is b0 = b̃0 , f0 = f˜0 and bl and fl with l 6= 0 are equal to zero.
+This can be seen by taking the light cone limit in x12 first, which sets to zero all terms of
+the form P32l , with l > 0, as well as the fermion terms. In the second line only the boson
+structures survive, but only the l = 0 structure is the same as the one surviving in the first
+line. This shows that all b̃l = 0 for l > 0. Repeating this argument we can show it for the
+other cases.
+    We can now consider also the case when one of the particles has spin zero, or is j0 .
+Then any of the expressions in (3.2) only allows the l = 0 term. Thus, the even structures
+with only one j0 are the same as in the free boson theory (the free fermion ones are zero).
+    For the odd structure the situation is more tricky. Inside the triangle, si ≤ si+1 + si−1
+for i = 1, 2, 3, we have the structures that we had before, since (2.5) does not allow any of
+the three currents to have a non-zero divergence. However, outside the triangle we have
+new structures that obey (2.8) with a non-zero double trace term. Precisely the existence
+of these new structures make the whole setup consistent. The current non-conservation
+identity has the form of the current conservation one but with a non-zero term in the right
+hand side. Since outside the triangle we had no solutions of the homogeneous equations,
+this guarantees that the solutions are uniquely fixed in terms of the operators that appear
+in the right hand side of the conservation laws. Thus, we have unique solutions for these
+structures.
+    One interesting example of this phenomenon is the correlator
+
+                                                     S3 Q21
+                                                                     Q1 Q2 + 4P32 .
+                                                                                
+                      hJ4 J2 j0 iodd, nc ∝ a2                                                (3.3)
+                                                |x12 ||x13 ||x23 |
+
+where Pi and Qi are defined in [17]. This odd correlator would be zero if all currents were
+conserved. However, using the lack of conservation of the J4 current, (2.3), we can derive
+(3.3). Clearly only a2 contributes to it.
+    As an another example, consider hJ4 J2 j̃0 i. Here we can have structures that are parity
+odd and parity even, the fermion and the “odd” structure respectively. Due to the form
+of the current non-conservation of J4 , (2.2), we get
+
+                                                 Q21          4
+                                                              P3 − 10P32 Q1 Q2 − Q21 Q22
+                                                                                         
+               hJ4 J2 j̃0 iodd, nc ∝ a2                                                      (3.4)
+                                          |x12 ||x13 ||x23 |
+
+This “odd” structure would vanish if J4 were exactly conserved. Of course, we also have
+the structure that we get in the free fermion theory for these case, which is parity odd
+(while (3.4) is parity even). In fact, any correlator of two twist one currents and one j̃0 ,
+
+                                                     11
+which is parity odd will have the same structure as in the free fermion theory since (2.2) (or
+its higher spin versions), will not modify it. On the other hand, the parity even ones can
+be modified. Again we find that a structure that was forced to be zero when the current
+is exactly conserved can become non-zero when the current is not conserved.
+    Finally, we should mention that any correlator that involves a current and two scalars
+is uniquely determined by conformal symmetry. In this case the current is automatically
+conserved. Of course, the three point function of three scalars is also unique.
+    In summary, we constrained the possible structures for various three point functions.
+These are the boson, fermion and odd structures. When the operator j̃0 is involved we
+can only have fermion or odd structures. In the next section we will constrain the relative
+coefficients of all of these three point functions.
+
+
+4. Charge non-conservation identities
+4.1. General story
+    We use the following technique to constrain the three point function. We start from
+a three point function hO1 O2 O3 i. We then insert a J4 current and take its divergence,
+which gives us an identity of the form
+   h∇.J4 (x)O1 O2 O3 i =a2 hJJ ′ O1 O2 O3 i + a3 hJJ ′ J ′′ O1 O2 O3 i
+                                                                                               (4.1)
+                        ∼a2 hJO1 ihJ ′ O2 O3 i + a3 hJO1 ihJ ′ O2 ihJ ′′ O3 i + permutations
+This equation is schematic since we dropped derivatives that should be sprinkled on the
+right hand side. The two point functions in the right hand side are non-zero only if J or
+J ′ is the same as one of the operators Oi . Thus the the right hand side is non-zero only
+when any of the operators Oi is the same as one of the currents that appears in the right
+hand side of the divergence of J4 (1.3)(2.2)(2.3). We have only considered disconnected
+contributions in the right hand side because those are the only ones that survive to leading
+order in 1/Ñ . Here we used the scaling of the coefficients a2 and a3 with Ñ given in (2.8).
+    Given this equation, we can now integrate over x on the left and right hand sides.
+We integrate over a region which includes the whole space except for little spheres, Si ,
+around each of the points xi where the operators Oi are inserted. The left hand side of
+(4.1) contributes only with a boundary term of the form
+                                X3 Z
+                                   h   nj Jj−−− O1 O2 O3 i                                     (4.2)
+                                    i=1   Si
+
+where the integral is over the surface of the little spheres or radii ri around each of the
+points and nj is the normal vector to the spheres.
+
+                                                  12
+       Fig. 1: The action of the charge is given by the integral of the conserved cur-
+       rent over a little sphere around the operator insertion. To derive the pseudo-
+       conservation identity we are integrating the divergence of the current over all space
+       except for these spheres. The boundary terms give the pseudo-charges, which have
+       the same expression in terms of the current as in the conserved case.
+
+
+    If the current J4 were exactly conserved, these integrals would give the charge acting
+on each of the operators. In our case, the charges are not conserved and the integrals
+may depend on the radius of the little spheres. This dependence can give rise to divergent
+terms going like inverse powers of the radius of the spheres. These terms diverge when
+ri → 0. These divergent terms should precisely match similar divergent terms that arise
+in the integral of the right hand side of (4.1). After matching all the divergent terms we
+are left with the finite terms in the ri → 0 limit. These also have to match between the
+left and right hand sides. Demanding that they match we will get interesting constraints.
+Notice that, at the order we are working, we do not get any logarithms of ri since the
+anomalous dimensions of operators start at higher order of the 1/Ñ expansion. Thus, the
+separation of the finite and the divergent terms is always unambiguous.
+    Thus, we define a pseudo-charge Q that acts on the operators by selecting the finite
+part of the above integrals in the small radius limit
+                                      Z
+                        [Q, O(0)] =             nj Jj−−− O(0)                                  (4.3)
+                                        |x|=r
+                                                                      finite as r→0
+
+    This action of this pseudo-charge on single trace operators is determined by the three
+point functions we discussed above. It is also constrained by twist and spin conservation to
+have a similar structure to the one we had for absolutely conserved currents. For example,
+on the twist one operators we have
+                                               s+3
+                                               X                  ′
+                                  [Q, js ] =           cs,s′ ∂ s−s +3 js′                      (4.4)
+                                               s′ =0
+
+    In concrete computations we found it useful to work in the metric (2.1) and to cut
+out little “slabs” of width ∆x+ around the operators, instead of cutting out little spheres.
+
+                                                   13
+       Fig. 2: Instead of spheres as in fig. 1, we can cut out little slabs of width ∆x+
+       around the insertion point of every operator. The charge is given by integrating
+       current over x− and y at the edges of these slabs. This simplifies some computations
+       compared to fig. 1.
+
+
+    The advantage is that then the integral involves the all minus component of the
+current. In addition, minus and y-derivatives can be integrated by parts or be pulled out
+of the integral
+                                          Z
+                                   +
+                              Qs (x ) =       dx− dy js (x− , x+ , y).                        (4.5)
+
+    The action of the pseudo-charge on Oi comes from three point functions of the form
+hJ4 Oi Ok i. As we mentioned the structures that arise in the boson or fermion theories
+will continue to produce three point functions where the charges are conserved. The odd
+correlators can give us something new. The odd structures involving all twist ones fields,
+such as hj4 js2 js3 i, are parity odd and do not contribute to the action of Q. This can be
+seen by setting y2 = y3 = 0. Then the fact that the three point function is odd under the
+parity y1 → −y1 implies that the integral over y in (4.5) must vanish. This implies that
+commutator must vanish also for arbitrary y2 6= y3 since the two point function structures
+that could possibly contribute do not vanish for y2 = y3 . When one of the operators Oi
+has twist two, we can get non-vanishing contributions to the action of the pseudo-charge
+from odd structures.
+    In conclusion, after integrating (4.1) we get an expression of the form
+                              Z
+   h[Q, O1 ]O2 O3 i + cyclic = d3 x [a2 hJ(x)O1 ihJ ′ (x)O2 O3 i+
+                                                                                              (4.6)
+                                                ′          ′′
+                            + a3 hJ(x)O1 ihJ (x)O2 ihJ (x)O3 i + permutations]finite
+
+                                                    14
+where the operators Oi are evaluated at xi . The integral is over the full R3 after subtracting
+all the divergent terms that can arise around each of the points xi . This is the main identity
+that we will use to relate the various three point functions to each other. We can call it a
+pseudo-conservation of the pseudo-charges.
+
+
+4.2. Constraints on three point functions with non-zero even spins
+
+    In this section we will consider the constraints that arise on three point functions of
+operators with spins si ≥ 2. We will consider all their indices to be minus. So we take the
+operators Oi in (4.1) to be jsi , with si ≥ 2.
+    In this case the action of Q can only produce other twist one fields, which are only
+single particle states. As we mentioned above the action of Q is determined by three point
+functions of the form hj4 js1 js2 i or hj4 js1 j0 i. Only the even structures contribute to the
+charges, and these are the same (up to overall coefficients) as in the free theories, thus the
+action of the pseudo-charge is well defined and produces
+
+
+                         [Q, js ] = cs,s−2 ∂ 5 js−2 + cs,s ∂ 3 js + cs,s+2 ∂js+2            (4.7)
+
+
+where ∂ = ∂− . We can always choose the following normalization conditions
+
+
+            c2,0 = 1 ,          c2,4 = 1,    c4,4 = 1,     c4,6 = 1,    cs,s+2 = 1, s ≥ 2   (4.8)
+
+
+This can be done in all cases, pure fermions, pure bosons, or the interesting theory we
+are considering. We are not setting the normalization of two point function to one. The
+two point functions are not used for the time being. The stress tensor is normalized in
+the canonical way. Notice that, since the normalization of stress tensor is fixed, c2,4 does
+not depend on the normalization of j4 and is fixed by conformal invariance to 3 (recall
+[Qs , j2 ] = (s − 1)js [14]). Thus, we fix it to one by the rescaling freedom in the definition
+of Q4 → 31 Q4 . Then we fix c4,4 = 1 by rescaling j4 itself. And cs,s+2 = 1 by rescaling js+2 .
+    Now, in our case, it is clear that if all si ≥ 4, then the right hand side of (4.6) vanishes.
+In addition, if one or more, of the si is equal to two, then the following happens. In that
+case the two current terms in (2.2), (2.3) could contribute, since we can contract the J2 in
+
+                                                   15
+the divergence of J4 with the si that is equal to two. It is useful to recall the two point
+functions of various components of the stress tensor
+
+                        (x+ )4         1 4         1
+hJ−− (x)J−− (0)i ∝                   =    ∂ −            ,
+                    (x+ x− + y 2 )5    4! x+ x− + y 2
+                         (x+ )3 y        1 3          1
+ hJ−− (x)J−y (0)i ∝ 2 + −         2 5
+                                      = ∂−     ∂y + −        ,
+                     (x x + y )          4!       x x + y2
+                      (x+ )2 (x+ x− − 3y 2 )
+                                                                                       
+                                                 1    2 2      1        2      1
+ hJ−y (x)J−y (0)i ∝ −                         =      ∂− ∂y + −      − 2∂− + −             .
+                         (x+ x− + y 2 )5        4!         x x + y2       (x x + y 2 )2
+                                                                                      (4.9)
+where the equations are true up to a normalization factor common to all three equations.
+      If we look at the first term in the right hand side of (4.6) in the case that O1 = j2 , then
+we can use the above two point function (4.9). We can integrate by parts all derivatives
+so that they act on the two point function. Then we can write them as derivatives acting
+on xi and pull them out of the integral5 .
+      Now the result depends on whether we are dealing with the quasi-fermion or quasi-
+boson cases. In the quasi-boson case, it is possible to check that the particular combination
+of currents that appear in the two current term in (2.3) is, after integrating by parts,
+∂y J2 −− − ∂− J2 y− . When this is contracted with j2 = J2 −− we get zero after using (4.9).
+Thus, the right hand side of (4.6) vanishes in the quasi-boson case.
+                                                                   5
+      In the quasi-fermion case, we end up having to compute (the ∂− derivative) of an
+integral of the form
+
+                             1
+               Z
+                  d3 x              hj̃0 (x)O2 (x2 )O3 (x3 )i ∝ hj0eff (x1 )O2 (x2 )O3 (x3 )i   (4.10)
+                         |x − x1 |2
+
+              1
+The factor |x−x 1|
+                   2 is exactly the one that makes the integral conformal covariant. It gives
+
+a result that effectively transforms as the three point function with the insertion of an
+operator of dimension ∆ = 1 at x1 . We have denoted this in terms of an effective operator,
+j0eff , of dimension one. We do not have any real operator of this kind in the theory, this
+is just a mnemonic to help us keep track of the resulting integral. The net result can
+be expressed by saying that the action of Q on j2 in the quasi-fermion theory can also
+produce a j0eff . In the free boson theory the action of Q on j2 produces j0 (plus other
+
+  5
+      If we work with the “slabs” described in figure fig. 2, together with the usual iǫ prescription,
+it is clear that these operations do not produce boundary terms since we only have ∂− or ∂y
+derivatives.
+
+                                                     16
+things). This is not true in the free fermion theory, which does not contain a j0 . However,
+in the quasi-fermion theory, with the pseudo-conservation property (2.2)(4.6), we get terms
+in these identities that would be identically to what we would get if we had allowed a j0eff
+in the action of Q on j2 . This term is crucial in order to allow a free boson structure in
+the pseudo-conservation identities.
+     In other words, we define a new effective pseudo-charge Q̂, which has the same action
+as Q on all currents with spin s > 2, but it is
+
+                                [Q̂, j2 ] = c2,0 ∂ 5 j0ef f + c2,2 ∂ 3 j2 + c2,4 ∂j4                          (4.11)
+
+     The net result is that when we consider the pseudo-conservation identities acting on
+hjs1 js2 js3 i becomes identical to a charge conservation identity for Q̂. Note also that after
+adding j0ef f in (4.11) the action of Q̂ is essentially the same as the action of Q in the
+quasi-boson theory. Thus, we can treat these two cases in parallel, after we remember that
+j0ef f is not a real operator but just the integral in (4.10).
+     Next we write all twist one three point functions as
+
+ hjs1 js2 js3 i = αs1 ,s2 ,s3 hjs1 js2 js3 ibos + βs1 ,s2 ,s3 hjs1 js2 js3 ifer + γs1 ,s2 ,s3 hjs1 js2 js3 iodd (4.12)
+
+     Here the boson and fermion ones are the three point functions for a single real boson
+and a single Majorana fermion, in the normalization of the currents set by (4.8). The
+normalization of the odd piece is fixed so that the identities we describe below are true. In
+the quasi-fermion theory we are also including in (4.12) the case with hj0ef f js1 js2 i, where
+only the boson and odd structures are non-zero.
+     We now consider the charge conservation identities for various cases. An important
+property of these identities is that each identity separates into three independent equations
+which relate only the boson structures to each other, the fermion structures to each other
+and the odd structures to each other. Each equation involves sums of objects of the form
+∂in hjs1 js2 js3 istr , where str runs over boson, fermion and odd. These equations are such
+that the coefficient in front of each of the terms is fixed relative to all the other coefficients.
+In other words, only an overall constant is left undetermined. See appendix B. This was
+proven for the boson and fermion terms in [14]. We have not proved this for the odd case.
+However, given the existence of the Chern-Simons matter theories [12,13] we know that at
+least one solution definitely exists! For low values of the spins we have explicitly analyzed
+
+                                                         17
+the equations and the solution is definitely unique, in the sense that all relative coefficients
+are fixed. We think that this is likely to be true for all cases.
+    Focusing first on the equations that constrain the boson structures we get that the
+equations arising from pseudo-charge conservation are
+
+              Qhj2 j2 j2 i :     c̃2,2 α222 = α224 = α022
+              Qhj2 j2 j4 i :     c̃2,2 α224 = c̃4,4 α224 = α244 = c̃4,2 α222 = α226 = α024
+                                                                                                          (4.13)
+              Qhj2 j4 j4 i :     c̃2,2 α244 = c̃4,4 α244 = α444 = c̃4,2 α224 = α246 = α044
+              Qhj2 j2 j6 i :     c̃2,2 α226 = c̃6,6 α226 = α246 = c̃6,4 α224 = α228 = α026
+
+and we can continue in this way. We are defining c̃s,s′ to be the ratio
+                                                                cs,s′
+                                                 c̃s,s′ =                                                 (4.14)
+                                                            cs,s′ boson
+                                                             free
+
+
+with both in the normalization (4.8).
+    We now can start solving (4.13). We see that the equations (4.13) fix all the α’s in
+terms of α222 and the c’s. In addition, we get multiple equations for the same α’s. This
+fixes the c̃’s. For example, we start getting things like
+
+    α224 = c̃2,2 α222
+    α244 = c̃4,2 α222 ,        c̃2,2 = c̃4,2 ,       α226 = c̃4,2 α222                                    (4.15)
+    α444 = c̃4,2 c̃2,2 α222 ,      c̃2,2 = c̃4,4 ,      α244 = c̃4,2 α222 ,   α246 = c̃4,2 c̃2,2 α222 .
+
+where each line in (4.15) comes from the corresponding line in (4.13). Using the fact that
+c̃4,4 = 1 we see that c̃2,2 = 1, and also c̃4,2 = 1, and so on. So all the c̃s,s′ = 1. We also
+find that all the α’s are also fixed to be equal to α222 .
+    If we did the same for the free fermions we would also obtain the same pattern if we
+define
+                                                                 cs,s′
+                                                 c̃s,s′ =                                                 (4.16)
+                                                            cfree
+                                                             s,s′
+                                                                  fermion
+
+
+Then we get that all βs1 ,s2 ,s3 = β222 and all c̃s,s′ = 1. One subtlety is that we have defined
+the c̃′ s differently for the bosons than for the fermions. So we can only hope to get both
+structures present only if
+                                           cfree
+                                            s,s′
+                                                 boson
+                                                       = cfree
+                                                          s,s′
+                                                               fermion
+                                                                                                          (4.17)
+
+This can be checked by using form factors (see Appendix C). Of course, the mere existence
+of the Chern-Simons matter theories implies that this is true.
+
+                                                            18
+      The conclusion from this analysis is that all the α’s are equal to α222 . Analogously,
+all β’s are equal to β222 .
+      We will also need the coefficients of the two point functions ns . In a theory of a
+single free boson or single free fermion, with the normalization conditions (4.8), these are
+given by nbos
+          s   and nfs er respectively. We do not need their explicit forms, but they can be
+computed in the free theories. We can now determine the two point functions in the full
+theory by demanding that the stress tensor Ward identities are obeyed. In other words,
+from the previous discussion we know that α2ss = α222 and β2ss = β222 . In addition, the
+Ward identity of the stress tensor relates this to the two point function. More precisely,
+
+                                   ns = α222 nbos       f er
+                                              s + β222 ns                               (4.18)
+
+                  f er
+Notice that nbos
+             2 = n2    according to formulas (5.1) and (5.7) of [19]6 . Thus we find
+
+                                            n2
+                                   ñ2 ≡        = α222 + β222                           (4.19)
+                                           nbos
+                                            2
+
+      Notice that the analysis so far is equivalently valid for the theories of quasi-bosons
+and the theory of quasi-fermions. Of course, in the latter case, whenever a j0 appeared, it
+should be interpreted as j0eff .
+      Thus, so far, we have written all correlators in terms of three undetermined coefficients
+α222 , β222 and γ222 . As an aside we should note that when we solve the equations for the
+γs1 s2 s3 we need to use some of the odd correlators that are outside the triangle. These are
+possible thanks to the non-conservation of the currents.
+
+4.3. Closing the chain. The Quasi-fermion case.
+
+      In this section we consider current conservation identities in the case that one of the
+operators is a twist two fields such as j̃0 or J2 −y .
+      Let us start by discussing the possible action of the pseudo-charge Q on J−y . All
+single trace operators that could appear are already fixed by the correspondent three
+point functions to be the same as in free fermion theory. The most general expression
+involving double trace terms takes the form
+
+                                                                    χ
+                        [Q, J−y ] = ∂ 4 j̃0 + ∂ 3 J−y + ∂J4−−−y +      j2 j2 .          (4.20)
+                                                                    Ñ
+  6
+      There the formula for the Dirac fermion is written. Here we consider a Majorana one.
+
+                                                19
+The double trace term comes with an Ñ1 factor because it enters in the pseudo-conservation
+identity with the hjjihjji ∼ Ñ 2 factor.
+       We have normalized j̃0 by setting the first coefficient to one7 . One can check that χ
+should be set to zero by considering hj2 j2 J−y i pseudo-conservation identity 8 .
+       In addition, we write the possible correlators of j̃0 in terms of free fermion correla-
+tors, introducing a β0̃s1 s2 . This is the coefficient that multiplies hj̃0 js1 js2 ifer , which is the
+correlator in a theory of a single Majorana fermion in the normalization of j̃0 in (4.20).
+Note, that these free fermion correlators are parity odd. We also introduce a γ0̃s1 s2 which
+multiply the “odd” structures, which are parity even structures involving j̃0 . These struc-
+tures are more subtle since they can be affected by the violation of current conservation,
+as in (3.4).
+       An additional issue we should discuss is the type of contribution we expect from the
+right hand side of (4.6) when the operator is J−y . The same reasoning we used around
+(4.10), together with (4.9) tells us that we also effectively produce a j0eff . Thus, the net
+result is that we simply should add terms involving j0ef f in (4.20), and treat the charge
+as conserved. This is necessary for getting all the identities to work. We then find that
+β0̃s1 s2 = β222 and γ0̃s1 s2 = γ222 .
+       Interestingly, in this case, in order to satisfy the pseudo-charge conservation identities
+for the odd part, we need both j̃0 as well as j0ef f .
+       Let us now consider the three point function hj0ef f j2 j2 i. We see that its definition
+via (4.10) involves a three point function given by β0̃22 and γ0̃22 . But we have just fixed
+these coefficients. Thus, going back to the first line (4.13), we note that α022 is really the
+coefficient of hj0ef f j2 j2 ibos . We get this structure from doing the integral (4.10) with the
+“odd” structure for the three point function. Using that α022 was fixed to α222 we get the
+equation
+                           α222 = x2 a2 n2 γ0̃22 = x̃2 a2 (α222 + β222 )γ222                    (4.21)
+
+Similarly, the odd structure gives
+
+                           γ222 = x1 a2 n2 β0̃22 = x̃1 a2 (α222 + β222 )β222                    (4.22)
+
+   7
+       This is not possible for the critical O(N ) theory since in that case parity prevents j̃0 in the
+right hand side. We will obtain this case as a limit. It can also be analyzed directly by considering
+the action of Q on j̃0 , etc.
+   8
+        This double trace structure can arise in a covariant way as [Q, J2 µν ] = ǫ−µρ J ρ− Jν− +
+ǫ−νρ J ρ− Jµ− .
+
+                                                  20
+where x1 and x2 are two calculable numerical coefficients, given by doing the integral in
+(4.10), etc. We used (4.19) and x̃i = xi /nbos
+                                           2 .
+      These are two equations for four unknowns (α222 , β222 , γ222 , a2 ). So we have two
+undetermined coefficients which are Ñ and λ̃. We can define Ñ = ñ2 = α222 + β222 and
+            √
+λ̃ = a2 Ñ / x̃1 x̃2 . With these definitions we get
+
+                            λ̃2                                1                                          λ̃
+        αs1 s2 s3 = Ñ              ,   βs1 s2 s3 = Ñ                ,         γs1 s2 s3 = Ñ                    .   (4.23)
+                         (1 + λ̃2 )                        (1 + λ̃2 )                                  (1 + λ̃2 )
+Here we are considering three twist one fields. Similar equations are true for correlators
+involving one j̃0 field
+                                                  1                                       λ̃
+                             βs1 s2 0̃ = Ñ                 ,        γs1 s2 0̃ = Ñ                .                  (4.24)
+                                              (1 + λ̃2 )                              (1 + λ̃2 )
+We will discuss the correlation functions that involve more than one j̃0 separately. In both
+equations, (4.23)(4.24), we can choose the (λ̃ independent) numerical normalization of the
+odd correlators so that we can replace ∼ by an equality.
+      The final conclusion is that we expressed all the correlators of the currents in terms
+of just two parameters Ñ and λ̃.
+      Since the fermions plus Chern-Simons theory has precisely two parameters, N and k
+we conclude that we exhausted all the constraints. Our analysis was based only on general
+symmetry consideration and does not allow us to find the precise relation between the
+parameters. However, in the ’t Hooft limit we expect9
+
+                         Ñ = N f (λ) ,                    λ̃ = h(λ) = d1 λ + d3 λ3 + · · ·                           (4.25)
+
+where f (λ) = f0 + f2 λ2 + · · ·. Where we used the symmetry of the theory under λ → −λ
+(or k → −k), together with parity. Note that the function f encodes how the two point
+function of the stress tensor depends on λ.
+
+4.4. Closing the chain. The Quasi-boson case.
+
+      In the quasi-boson theory we will again consider the charge non-conservation identity
+on hj2 j2 Jy− i. Again we need to write the most general action of Q on J3− involving double
+trace terms. It takes the form
+                               [Q, J−y ] = ∂ 4 ∂y j0 + ∂ 3 J−y + ∂J−−−y
+                                           χ1          χ2 2           χ3 4                                            (4.26)
+                                         +     j2 j2 +      ∂ j0 j2 +    ∂ j0 j0
+                                           Ñ          Ñ             Ñ
+  9
+      For the theory considered in [12] f0 = 2 and d1 = π2 .
+
+                                                                21
+We have normalized j0 by setting the first coefficient to one10 .
+      Notice also that χi ∼ O( Ñ1 ) to contribute at leading order in Ñ . We fix χ1 = 0 as
+in the case of fermions. The presence or absence of χ2,3 is not important for any of the
+arguments.
+      In addition, we need to consider the contribution of J−y to the right hand side of (4.6).
+In other words, we will need to consider the right hand side of (4.6) when the operator Q1
+is J−y . Using (4.9), we find (derivatives of) an integral of the form
+
+                          1
+              Z
+                 d3 x           4
+                                  hj0 (x)O2 (x2 )O3 (x3 )i ∼ hj̃0eff (x1 )O2 (x2 )O3 (x3 )i                   (4.27)
+                      |x − x1 |
+
+Here we used that, again, this is a conformal integral which behaves as a correlator with
+a scalar of weight ∆ = 2 at x1 . We have denoted this by introducing a ficticious operator
+j̃0eff . This is not an operator that exists in the theory, but it is appearing in three point
+functions in the same way as an operator of this form. Thus, the net effect of the action
+of Q on J−y includes also this operator j̃0ef f in the right hand side of (4.20).
+      With all these features, we now have a situation which is rather similar to the one we
+had in the quasi-fermion case and we can relate the different coefficients
+
+                              β222 =y1 a2 n2 γ022 = ỹ1 a2 (α222 + β222 )γ222 .
+                                                                                                              (4.28)
+                              γ222 =y2 a2 n2 α022 = ỹ2 a2 (α222 + β222 )α222 .
+
+Again y1 and y2 are some numbers. Defining again Ñ = ñ2 = (α222 + β222 ) and λ̃ =
+       √
+a2 Ñ / ỹ1 ỹ2 we get
+
+                             1                                λ̃2                                λ̃
+        αs1 s2 s3 = Ñ                ,   βs1 s2 s3 = Ñ                ,   γs1 s2 s3 = Ñ                .   (4.29)
+                         (1 + λ̃2 )                        (1 + λ̃2 )                        (1 + λ̃2 )
+
+Here at least two of the spins should be bigger than zero, si ≥ 2. We will discuss the
+correlation functions that involve more than one j0 separately.
+
+4.5. Three point functions involving scalars. The quasi-fermion case.
+
+      Fixing the three point functions in the scalar sector involves several new subtleties
+that were absent before. We describe them in detail in the Appendix D and here sketch
+the method and present the results.
+ 10
+      Again, this is not possible in the critical O(N ) Gross-Neveu theory. But we will obtain this
+case as a limit. It can also be analyzed directly through a slightly longer route.
+
+                                                            22
+     We have already discussed how to fix three point functions which include one scalar
+operator. We used the pseudo-conservation identity on hJ−y js1 js2 i to get (4.24).
+     To proceed it is necessary to specify how Q acts on j̃0 . As explained in Appendix D
+the result is
+                                                         1
+                              [Q, j̃0 ] = ∂ 3 j̃0 +             ∂ [∂− j−y − ∂3 j−− ]    (4.30)
+                                                      1 + λ̃2
+here the interesting new ingredient is a 1+1λ̃2 factor. This is obtained by inserting arbitrary
+coefficients and fixing them by analyzing the hj4 j2 j̃0 i three point function.
+     To fix the correlators with two scalars we consider the pseudo-charge conservation
+identity that is generated by acting with Q on hj̃0 j̃0 js i. This identity involves tricky
+relations (see Appendix D) between different three point functions. After the dust settles
+we get that
+                                      βs0̃0̃ = β222 ,                γs0̃0̃ = γ222      (4.31)
+
+The last step is to consider the action of Q on hj̃0 j̃0 j̃0 i WI to get
+
+                                                      γ0̃0̃0̃ = 0.                      (4.32)
+
+Note that β0̃0̃0̃ = 0 by definition, since this correlator vanishes in the free fermion theory
+(due to parity).
+     From these three point function it is also possible to extract the normalization of the
+two point function hj̃0 j̃0 i. This is two point function is related by a Ward identity to
+hj2 j̃0 j̃0 i. We then get
+
+                                            n0̃                             1
+                             ñ0̃ ≡    free fermion
+                                                    = β20̃0̃ = β222 = Ñ                (4.33)
+                                      n0̃                                1 + λ̃2
+
+     This can be used, together with (2.2), to compute the anomalous dimension for the
+spin four current, as explained in appendix A.
+
+4.6. Three point functions involving scalars. The quasi-boson case.
+
+     For the quasi-boson sector the story is almost identical. We put details of the analysis
+in the Appendix E and here again sketch the general idea and present the results.
+     We have already discussed above how to fix three point functions which include one
+scalar operator. Then the charge conservation identity on hj2 js1 js2 i fixes
+
+                                  α0s1 s2 = α222 ,               γ0s1 s2 = γ222 .       (4.34)
+
+                                                          23
+For the action of the charge on the scalar we get
+
+                                                               1
+                                  [Q, j0 ] = ∂ 3 j0 +               ∂j2 .                 (4.35)
+                                                            1 + λ̃2
+
+By considering the pseudo-conservation of hjs j0 j0 i when s > 2 we get
+
+                               αs00 = β222 ,                 γs00 = γ222 .                (4.36)
+
+We now need to consider the pseudo-conservation identities for hj2 j0 j0 i and hj0 j0 j0 i. A
+new feature of these two cases is that the triple trace terms in (2.3) contribute. Analyzing
+these we obtain that (4.36) is also true for s = 2. The triple trace terms contribute as
+follows. Let us first consider the pseudo-conservation identity for hj0 j0 j0 i. The triple trace
+non-conservation term takes the form
+                                        3
+                                        X
+                               a3 n30         ∂i3 hj0 (x1 )j0 (x2 )j0 (x3 )i.             (4.37)
+                                        i=1
+
+where n0 is the coefficient in the two point function for the scalar. Thus, we get the
+equation
+                                                  1
+                                 α000 =                  α222 + z1 a3 n30                 (4.38)
+                                               1 + λ̃2
+where z1 is a numerical constant and b3 is the coefficient in (2.3). Notice that the double
+trace deformation does not influence this computation. This fact is established in the
+Appendix C.
+    The triple trace term in the pseudo-conservation identity for hj2 j0 j0 i is
+
+                                a′3 n2 n20 ∂15 hj0 (x1 )j0 (x2 )j0 (x3 )i.                (4.39)
+
+leading to
+                                     1
+                             α000 =       α222 + z2 a′3 n20 n2 + ...               (4.40)
+                                  1 + λ̃2
+
+with z2 a numerical constant and the dots stands for the contribution of the double trace
+non-conservation piece whose coefficients are already known.
+    Importantly, we conclude that two triple trace deformations are not independent.
+In other words, a3 and a′3 are related by equating (4.40) and (4.38). Thus, we recover
+the known counting of marginal deformation of free boson in d = 3, namely there are
+two parameters. Microscopically, one corresponds to the Chern-Simons coupling and the
+                        ~ φ)
+second one to adding a (φ. ~ 3 operator.
+
+                                                      24
+     On the Vasiliev theory side, the freedom to add this φ6 deformation translates into the
+fact that we can choose a non-linear boundary conditions for the scalar which preserves the
+conformal symmetry. These were discussed in a similar situation in [20]. In our context, we
+have a scalar of mass (mRAdS )2 = −2) which at infinity decays as φ = α/r + β/r 2 . Then
+the boundary condition that corresponds to adding the λ6 φ6 deformation is β = λ6 α2 [20].
+     Also the whole effect of the presence of the triple trace deformations, at the level of
+three point functions, is to change hj0 j0 j0 i.
+     Finally, the two point function of j0 can be fixed by using the usual stress tensor Ward
+identity via hj2 j0 j0 i. We obtain
+
+                                           n0                     1
+                              ñ0 ≡    free boson
+                                                  = α222 = Ñ                          (4.41)
+                                      n0                        1 + λ̃2
+
+Recall that the normalization of j0 was given by setting c2,0 = 1 in (4.8).
+
+4.7. Comments about higher point correlation functions
+
+     We can wonder whether we can determine higher point correlation functions. It seems
+possible to use the same logic. Namely, inserting ∇.J4 into an n point function and then
+integrating as in (4.6). This relates the action of Q on an n point function to integrals
+of disconnected correlators. These integrals involve also n point functions. (Recall that
+for three point functions the integrals involved other three point functions). When the
+charge is conserved this is expected to fix the connected correlation uniquely to that of
+the free theory. This was done explicitly in [14] for the action of Q on hj0 j0 j0 j0 i. Now
+that the right hand side is non-zero, we still expect this to fix uniquely the correlator,
+though we have not tried to carry this out explicitly. It is not totally obvious that this
+will fix the correlators because the integral terms also involve n point functions. But it
+seems reasonable to conjecture that this procedure would fix the leading order connected
+correlator for all n point functions of single particle operators. It would be interesting to
+see whether this is indeed true!
+
+
+
+5. Final results
+
+     In this section we summarize the results for the three point functions.
+    The normalization of the stress tensor is the canonical one. The normalization of the
+charge is Q = 31 j4 . This sets c2,4 = 1 in (4.7). The normalization of j4 is fixed by setting
+                R
+
+
+                                                   25
+c4,4 = 1. Then all other operators are normalized by setting cs,s+2 = 1. The operator j̃0
+is normalized by setting c2,0̃ = 1 in (4.20).
+    We have the two point functions
+
+                                                              (x+
+                                                                12 )
+                                                                     2s
+                                     hjs (x1 )js (x2 )i = ns            .                                   (5.1)
+                                                             |x12 |4s+2
+
+For three point functions
+
+  hjs1 (x1 )js2 (x2 )js3 (x3 )i = αs1 s2 s3 hjs1 (x1 )js2 (x2 )js3 (x3 )ibos +
+                                                                                                            (5.2)
+                + βs1 s2 s3 hjs1 (x1 )js2 (x2 )js3 (x3 )ifer + γs1 s2 s3 hjs1 (x1 )js2 (x2 )js3 (x3 )iodd
+
+where the bos and fer denote the three point functions in the theory of free boson and
+free fermion in the normalization of currents described above. Their functional form can
+be found in [17]. The odd generating functional for the spins inside the triangle can be
+found in appendix B of [14]. Outside the triangle the odd correlation functions are the
+ones that satisfy the double trace deformed non-conservation equations. We do not know
+their explicit form in general but nevertheless we know that they exist and know how the
+dependence on the coupling will enter. We fix the numerical normalization of the odd
+pieces to be such that the pseudo-charge conservation identities are obeyed. In a similar
+fashion we define the correlators involving a j̃0 (j0 ) operator, except that there is no free
+boson (fermion) structure.
+
+
+5.1. Quasi-fermion theory
+
+    The interacting theory two point functions are given by
+
+                  λ̃2                       1
+       ns = Ñ          nfree
+                         s
+                              boson
+                                    + Ñ         nfree
+                                                  s
+                                                       fermion
+                                                               = Ñ nfree
+                                                                     s
+                                                                          boson
+                                                                                ,           s ≥ 2,
+                1 + λ̃2                  1 + λ̃2
+                                                                                                            (5.3)
+                   1
+       n0̃ = Ñ         nfree
+                         0̃
+                              fermion
+                1 + λ̃2
+
+
+where nfree
+       s
+            boson
+                  and nfree
+                       s
+                            fermion
+                                    are two point functions computed in the theory of single
+free boson or single fermion with normalization of operators such that (4.8) (and (4.20))
+holds. We also used in the first line the fact that nfree
+                                                     s
+                                                          boson
+                                                                = nfree
+                                                                   s
+                                                                        fermion
+                                                                                in the normal-
+ization that we adopted. This is explained in the appendix C.
+
+                                                      26
+    The three point functions in the interacting theory are then given by
+                              λ̃2                            1                              λ̃
+            αs1 s2 s3 = Ñ          ,      βs1 s2 s3 = Ñ          ,     γs1 s2 s3 = Ñ
+                            1 + λ̃2                       1 + λ̃2                         1 + λ̃2
+                               1                               λ̃
+             βs1 s2 0̃ = Ñ         ,        γs1 s2 0̃ = Ñ
+                            1 + λ̃2                         1 + λ̃2                                 (5.4)
+                               1
+              βs1 0̃0̃ = Ñ
+                            1 + λ̃2
+               γ0̃0̃0̃ = 0
+
+All coefficients not explicitly written do not appear because there is no corresponding
+structure. The two parameters are defined as follows. We take the stress tensor to have a
+canonical normalization. We then set
+                                                        n2
+                                             Ñ =            ,
+                                                    n2 boson
+                                                     free
+
+                                                    α222                                            (5.5)
+                                              2
+                                            λ̃ =            .
+                                                    β222
+
+From the bounds on energy correlators discussed in [14] it follows that λ̃2 ≥ 0. Note that
+one would then find that λ̃ ∝ a2 Ñ , with a2 defined in (2.2). We have also computed the
+anomalous dimension of the spin four current (see appendix A)
+
+                                                    32 1       λ̃2
+                                        τ4 − 1 =                                                    (5.6)
+                                                   21π 2 Ñ (1 + λ̃2 )
+5.2. Quasi-boson theory
+
+    The interacting theory two point functions are given by
+                 1                       λ̃2
+      ns = Ñ         nfree
+                       s
+                            boson
+                                  + Ñ         nfree
+                                                s
+                                                     fermion
+                                                             = Ñ nfree
+                                                                   s
+                                                                        boson
+                                                                              ,            s ≥ 2,
+              1 + λ̃2                  1 + λ̃2                                                      (5.7)
+                 1
+      n0 = Ñ         nfree
+                       0
+                            boson
+              1 + λ̃2
+and the three point functions are
+                              1                           λ̃2                               λ̃
+            αs1 s2 s3 = Ñ         ,    βs1 s2 s3 = Ñ          ,        γs1 s2 s3 = Ñ
+                           1 + λ̃2                     1 + λ̃2                            1 + λ̃2
+                              1                              λ̃
+             αs1 s2 0 = Ñ         ,       γs1 s2 0 = Ñ
+                           1 + λ̃2                       1 + λ̃2                                    (5.8)
+                              1
+              αs1 00 = Ñ
+                           1 + λ̃2
+                                1
+               α000 = Ñ               + z1 a3 n30
+                                  2
+                           (1 + λ̃ ) 2
+
+
+                                                     27
+were we have separated out the correlators involving the scalar. Two of the parameters
+are defined by (taking into account that stress tensor has a canonical normalization)
+
+                                                     n2
+                                         Ñ =     free boson
+                                                             ,
+                                                 n2
+                                                                                                (5.9)
+                                           2  β222
+                                         λ̃ =      .
+                                              α222
+
+Again one can see that λ̃2 ≥ 0 from the bounds on energy correlators discussed in [14]. A
+third parameter can be introduced which is the combination involving a3 that shifts the
+three scalar correlator in (5.8). Again we find that λ̃ ∝ a2 Ñ in (2.3). Thus we find a three
+parameter family of solutions, as expected to leading order in the large N limit.
+
+5.3. The critical point of O(N )
+
+     The critical point of O(N ) is a theory that we obtain from the free boson theory by
+adding a j02 interaction and flowing to the IR, while tuning the mass of the scalars to
+criticality. Then the operator j0 in the IR gets to have dimension two, for large N . Thus,
+we can view it as a j̃0 scalar operator of dimension two. This is a theory that fits into
+the quasi-fermion case. Namely the divergence of J4 is given by (2.2). By the way, if
+we assume that the IR limit has a scalar operator of dimension different from one, then
+since (2.2) is the only expression we can write down for the divergence of the current, we
+conclude that the operator has to have dimension two. Notice that in this case j̃0 is parity
+even and (2.2) is consistent with parity. Thus, we could in principle do the same analysis
+as above. The only point where something different occurs is at (4.20) where j̃0 cannot
+appear in the right hand side, since it is inconsistent with the parity of the theory. In
+addition, all parity odd correlators should be set to zero. In this case, parity implies that
+
+                                           [Q, j̃0 ] = ∂ 3 j̃0                                 (5.10)
+
+In principle, we have an arbitrary coefficient in this equation but the coefficient is then fixed
+by considering various charge conservation identities we mention below. When we write
+the conservation identity for hj2 j2 j2 i we will get the correlator hj̃0 j2 j2 i as the integral term
+in the right hand side. Again, considering the ward identity on this last one will require
+hj̃0 j̃0 j2 i in the right hand side. In this fashion one can determine the solution. Note that
+in this case there is only one parameter which is Ñ .
+
+                                                  28
+    Interestingly, we can get these correlators by taking the large λ̃ limit of (5.3)(5.4). At
+the level of three point functions of currents the limit is simple to take, namely we see that
+for any s ≥ 2
+                                   hs1 s2 s3 i → hs1 s2 s3 ibos                         (5.11)
+
+so that all three point functions become purely boson ones. For j̃0 , due to (5.3) it is
+necessary to rescale the operator and define a new operator j̃ˆ = λ̃j̃ . The two point
+                                                                       0    0
+
+function of j̃ˆ0 remains finite. This also has the nice feature of removing j̃ˆ0 from the right
+hand side of (4.20). The three point functions of the form hj̃ˆ j j i loose their β structure
+                                                                  0 s1 s2
+
+and remain only with the parity preserving γ0̃s1 s2 structure. The three point structures
+involving two scalars survive through a β structure, after rescaling the operator. And γ0̂0̂0̂
+stays being equal to zero, which is consistent with the large N limit of the critical O(N )
+theory. This three point function becomes non-zero at higher orders in the 1/N expansion.
+    Notice that at λ̃ = ∞ the three point functions become parity invariant. However the
+parity of the operator j̃0 got flipped compared to the one at λ̃ = 0.
+    This suggests that the large λ̃ limit of the fermions plus Chern-Simons matter theory
+should agree with the critical O(N ) theory, at least in the large N limit. This was conjec-
+tured in [12]. But this conjecture appears to require a funny relation between the N ’s and
+k ′ s of both theories. In other words, if we start with the quasi-fermion theory with N and
+k and take the limit where λ, defined in [12], goes to one, then the conjecture would say
+that this should be the same as the critical O(N ′ ) theory with some k ′ in the limit that
+k ′ → ∞. But the behavior of the free energy in [12] would require that
+
+                               N ′ ∝ N (λ − 1)[− log(λ − 1)]3                           (5.12)
+
+as λ → 1. Here the proportionality is just a numerical constant. This formula is derived
+as follows. First notice that [12] derived a formula for the free energy, in the large N limit,
+for a theory of N fermions with a Chern-Simons coupling k. The conjecture is that this
+matches a critical bosonic O(N ′ ) theory perturbed by a Chern-Simons coupling k ′ . When
+λ → 1 we expect that k ′ → ∞. So we can compute the free energy of the critical bosonic
+O(N ′ ) ignoring the Chern-Simons coupling. The free energy of the O(N ′ ) theory with no
+Chern-Simons coupling goes like N ′ , for large N ′ [21]. Matching the two expressions for
+the free energy we get the relation (5.12). At first sight, (5.12) seems incompatible with the
+fact that N ′ should be an integer. However, we should recall that (5.12) is only supposed
+to be true in the large N (and N ′ ) limit. Thus, it could be that there is an integer valued
+
+                                               29
+function of N and k which reduces to the right hand side of (5.12) in the large N limit.
+Note that if this were true, we would also find the same function in the two point function
+of the stress tensor, the function f discussed in (4.25). Of course, here we are assuming
+that our λ̃ → ∞ limit is the same as the λ → 1 limit in [12].
+
+5.4. The critical O(N ) fermion theory
+
+    Starting from N free fermions, we can add a perturbation j̃02 . This is the three
+dimensional Gross-Neveu model [22]. This is an irrelevant perturbation. And one can
+wonder whether there is a UV fixed point that leads in the IR to the free fermion plus this
+perturbation. In the large N limit, it is easy to see that such a fixed point exists and it is
+given by a theory were the operator j̃0 in the UV has dimension one [23]. Thus it has the
+properties of the quasi-boson theory. Again, this is a theory that is parity symmetric. In
+[23] this theory was argued to be renormalizable to all orders in the 1/N expansion.
+    We can now take the large g limit of the quasi-boson results (5.7)(5.8). Again, we
+need to rescale ĵ0 = λ̃j0 . Only the βs1 ,s2 ,s3 survive in this limit. With one scalar operator,
+we get only the γ0s1 s2 structure surviving, which is consistent with parity since now ĵ0 is
+parity odd.
+    Notice that, after the rescaling of the scalar operator, α0̂0̂0̂ still goes to zero if we hold
+a3 fixed. This is necessary because the three point function of hĵ0 ĵ0 ĵ0 i should be zero by
+parity.
+    In principle, we could also introduce, in the large N limit, a parity breaking interaction
+of the from ĵ 3 which would lead to a non-zero three point function. This could be obtained
+by rescaling a3 in (5.8), so that a finite term remains.
+
+5.5. Relation to other Chern-Simons matter theories
+
+    Thoughout this paper we have focused on theories where the only single trace operators
+are given by even spin currents, plus a scalar operator. This is definitely the case for
+theories with N bosons or N fermions coupled to an O(N ) Chern-Simons theory.
+    If instead we consider a theory of N complex fermions coupled to a U (N ) or SU (N )
+Chern-Simons gauge field, then we have additional single trace operators. We still have
+the same spectrum for even spins, but we also have additional odd spin currents. However,
+the theory has a charge conjugation symmetry under which the odd spin currents get a
+minus sign. Thus, the odd spin currents cannot appear in the right hand side of [Q, js ]
+where s is even. These odd spin currents can (and do) appear in the right hand side of
+
+                                               30
+        Fig. 3: The analysis of three point functions can be summarized by this picture.
+        The quasi-fermion theory is the top line and the quasi-boson is the bottom line. At
+        the two end points we have the free boson or fermion theory on one side and the
+        interacting O(N ) theories on the other. This is a statement about the three point
+        functions. It would be interesting to understand whether we have a full duality
+        between the two theories. Notice that the duality would relate a theory of fermions
+        with a theory with scalars. This duality would be a form of bosonization in three
+        dimensions. We also expect an RG flow connecting the quasi-boson theory on the
+        top line and the quasi-fermion theory on the bottom line for general values of the
+        Chern-Simons coupling.
+
+
+
+∇.J4 in bilinear combinations. However, since we only considered insertions of J4 into
+correlators involving operators with even spin, these extra terms do not contribute. Thus,
+the whole analysis in the paper goes through, for these Chern-Simons theories. Our results
+give the three point functions of even spin currents11 . Presumably a similar analysis can
+be done for correlators of odd spin currents, but we will not do this here. It is also worth
+mentioning that these theories do not have a single trace twist three operator which could
+appear in the right hand side of ∇.J4 . Thus the higher spin symmetry breaking only
+happens through double trace operators.
+
+
+5.6. Comments about higher dimensions
+
+      We can consider the extension of the small breaking ansatz that we explored for
+d = 3 to higher dimensions. For simplicity we limit ourself to the case of almost conserved
+currents which are symmetric traceless tensors. We assume that the presence of a conserved
+J4 will again fix all three point functions12 . Thus, we are interested in the vector-like
+scenarios when the conservation of J4 is broken at N1 .
+
+ 11
+      The result for the anomalous dimension (5.6) would be changed by the presence of the odd
+spin currents.
+ 12
+      Though we have not proved this, the discussion of [14] looks almost identical in higher
+dimensions for symmetric traceless tensors.
+
+                                                31
+      To analyze this possibility we consider ∂µ J µ−−− in an arbitrary number of dimensions.
+This operator has twist d while the conserved currents has twist d − 2. Matching also the
+spin we get that we can write the following equation
+
+                             ∂µ J µ−−− = a∂− OJ−− + bO∂− J−− .                          (5.13)
+
+where ab is fixed by the condition that the right hand side is a primary operator. The
+scalar operator O has scaling dimension ∆ = 2 by matching the quantum numbers.
+      First, notice that the unitarity bound for the scalar operators is d−2
+                                                                          2 . And, thus, if we
+restrict our attention to unitary theories, the equation (5.13) can be only valid in d ≤ 6.
+      We also need to check that there exists a three point function hJ4 J2 Oi that reproduces
+(5.13). Imposing the conservation of J2 leads tho the result (5.13) as long as ∆O 6=
+d − 2. When d = 4, and ∆O = 2, the correlator hJ4 J2 Oi obeys J4 current conservation
+automatically once we impose the J2 current conservation 13 .
+      Thus, we conclude that the scenario that we considered in d = 3 is impossible to
+realize in d = 414 . In d = 5 it seems possible to realize the scenario via the UV fixed
+             ~ φ)
+point of a −(φ. ~ 2 theory. This is a sick theory because the potential is negative, but one
+would probably not see the problem in 1/N perturbation theory. In d = 6 we do not know
+whether there is any example.
+
+5.7. A comment on higher order parity violating terms
+
+      The parity breaking terms in Vasiliev’s theories are characterized by a function θ(X) =
+θ0 + θ2 X 2 + · · · [1]. The computations we have done are sensitive to θ0 . At tree level, the
+term proportional to θ2 would start contributing to a planar five point function, but not to
+lower point functions [12]. However, if we start with θ = 0 and we tried to add θ2 (keeping
+θ0 = 0), we run into the following issues. For θ0 = 0 we can choose boundary conditions
+that preserve the higher spin symmetry. That symmetry fixes all n point functions [14].
+Thus, if turning on θ2 modifies a five point function, then it must be breaking the higher
+spin symmetry. But if we break the higher spin symmetry we need to modify a three or
+four point function at the same order. (To see this, we can just consider the correlator of
+
+ 13
+      We thank David Poland for providing us with the Mathematica code to analyze the relevant
+three point functions in the case of higher dimensions.
+ 14
+      Notice that in d = 4 we can write also j− j−− . However, in this case J4 is automatically
+conserved as soon as we impose conservation of J2 and J1 .
+
+                                               32
+J4 together with the currents that appear in the right hand side of (1.3)). However, θ2
+would only contribute to the five point function. Thus, our conclusion is that the function
+θ(X) is either constrained to be constant, or it’s non-constant part can be removed by a
+field redefinition. In this argument we have assumed that these deformations of Vasiliev’s
+theory in AdS4 also lead to boundary correlators that obey all the properties of a CFT.
+
+
+6. Conclusions and discussion
+
+      In this paper we have computed the three point correlation functions in conformal field
+theories with a large Ñ approximation, where the higher spin symmetry is broken by 1/Ñ
+effects. Equivalently, we have performed an on shell analysis of Vasiliev theories on AdS4 ,
+constraining the boundary three point correlators. These constraints also apply to the
+dS4 case, where they can be viewed as computing possible non-gaussianities in Vasiliev’s
+theory. From the dS4 point of view we are computing the leading non-gaussianities of the
+de Sitter wavefunction15 .
+      We restricted the theories to contain a single trace spectrum with only one spin two
+current (the stress tensor) and only one scalar. The scalar can only have dimensions either
+one or two at leading order in Ñ . This defines two classes of correlators which we called
+quasi-fermion (scalar of dimension two) and quasi-bosons, where the scalar has dimension
+one. These are the only possible dimensions that enable the 1/Ñ breaking of the higher
+spin symmetry. The final three point functions depend on an overall constant, Ñ , which is
+also the two point function of the stress tensor. Thus we can view 1/Ñ as the coupling of
+the bulk theory. In addition, they depend on an extra parameter which selects the relative
+weights of the three possible structures in the correlators. The final results are given in
+(5.4), (5.8). These results apply, in particular, to theories of N bosons or N fermions
+coupled to an SO(N ) Chern-Simons gauge field. Here Ñ scales with N and the extra
+parameter λ̃ is a function of N/k, where k is the Chern-Simons level, see (4.25).
+      These results also apply to Vasiliev’s theories which have parity breaking terms in the
+Lagrangian [1]. It also applies to Vasiliev’s theories with boundary conditions that break
+the higher spin symmetry, but preserve conformal invariance.
+      At strong coupling the quasi-fermion three point functions go into the three point
+functions of the critical O(N ) theory. This suggests that there should be a duality between
+ 15
+      Of course, for gravitons these match the particular structures discussed in [19], but with
+particular coefficients.
+
+                                              33
+the small k limit of the Chern-Simons theories and the critical O(N ) theory [12]. However,
+the thermal partition function computed in [12] suggests that if this duality is true, the
+connection between the values of N and k of the two theories is rather intricate, see (5.12).
+It would be nice to further understand this issue, and to find the correct duality, if there
+is one. Naively, if our methods actually fix all n point functions, then all leading order
+correlators would be consistent with the duality. This duality would be a three dimensional
+version of bosonization.
+    Our method was based on starting with the simplest possible even spin higher spin
+current, J4 , and writing the most general form for its divergence. We then noted that the
+violation of conservation of the J4 current leads to constraints on three point functions,
+which we solved. These equations were mostly identical to the ones one would get in the
+conserved case, except when acting on correlators with spins two or lower. In these cases
+we obtained some relations which eliminated some of the free parameters and left only
+two parameters in the quasi-fermion theory and three parameters in the quasi-boson case.
+These parameters match with the free parameters that we have in large N Chern-Simons
+models.
+    Since we only considered the current J4 one can wonder whether it is possible to add
+other deformation parameters which affect current conservation for higher spin currents
+but not J4 . We argue in appendix F that this is not possible.
+    An interesting extension of these results would be to carry out this procedure for
+higher point functions. This is in principle conceptually straightforward, but it seems
+computationally difficult. Note that this analysis amounts to an on-shell study of the
+Vasiliev theory. We study the physical, gauge invariant, observables of this theory with
+AdS4 or dS4 boundary conditions. As it has often been emphasized, the on shell analysis
+of gauge theories can be simpler than doing computations in a fully Lorentz invariant
+formulation.
+    The methods discussed in this paper could be viewed as on-shell methods to compute
+correlation functions in certain matter plus Chern-Simons theories. Note that we did not
+have any gauge fixing issues, since we never considered gauge non-invariant quantities.
+These methods apply only to the special class of theories that do not contain a twist three,
+spin three single trace operator that can directly Higgs the J4 higher spin symmetry already
+at leading order in N . It would also be interesting to consider cases where this Higgsing
+can happen already for single trace operators. If the mixing with this other operator is
+small, which occurs in weakly coupled theories, we can probably generalize the discussion
+
+                                             34
+of this paper. We would only need to add the twist three single trace operator in the right
+hand side of the divergence of the current, ∇.J4 . This would lead to an on shell method for
+computing correlators. Something in this spirit was discussed in [24], [25]. This Higgsing
+mechanism, named “La Grande Bouffe” in [26] is also important for understanding the
+emergence of a more ordinary looking string theory in AdS from the higher spin system.
+    Our analysis also works for higher spin theories on de-Sitter space. In that case, we
+are constraining the wavefunction of the universe. It is valid for the proposed examples
+of dS-CFT [27,28], as well as further examples that one might propose by looking at the
+parity violating versions of the Vasiliev theory. To consider these cases one should set
+Ñ < 0 in our formulas . Of course, the constraints hold whether we know the CFT dual
+or not!
+    We have restricted our analysis to the case of AdS4 /CF T3 . Recently, examples of
+AdS3 /CF T2 theories with higher spin symmetry have been considered. See for example
+[29,30,31,32,33,34]. In lower dimensions the higher spin symmetry appears less restrictive,
+so one would need a more sophisticated analysis than the one presented in this paper. On
+the other hand, in higher dimensions the higher spin symmetry is more constraining. The
+higher dimensional case will hopefully be discussed separately.
+    We have used conformal symmetry in an important way, it would also be interesting
+to study non-conformal cases. For example, we can expect to constrain the flows between
+the top and bottom lines of figure 3.
+    Acknowledgments
+    We would like to thank N. Arkani-Hamed, D. Gross, S. Giombi, T. Hartman, K.
+Hinterbichler, D. Poland, S. Rychkov, N. Seiberg, P. Sundell, X. Yin and E. Witten for
+discussions.
+    This work was supported in part by U.S. Department of Energy grant #DE-FG02-
+90ER40542. The work of AZ was supported in part by the US National Science Foundation
+under Grant No. PHY-0756966 and by the Department of Energy under Grant No.#DE-
+FG02-91ER40671.
+
+
+
+Appendix A. Why the divergence of the currents should be conformal primaries
+
+    In this appendix we show that the divergence of an operator with spin becomes a
+conformal primary when τ − 1 → 0. What happens is that the large representation
+with twist τ and spin s is splitting into a representation with τ = 1 and spin s plus a
+
+                                            35
+representation with τ = 3 and spin s − 1. This second representation is what appears in
+the right hand side of the divergence of Js as τ → 1. This is well known fact, that was
+used in the past in [16,24,25,15]. Here we recall its proof for completeness.
+    Let us normalize the current to one, hJs |Js i. Let us define
+                                          ∂.Js = αOs−1                                  (A.1)
+where Os−1 is also normalized to one. Then we have
+                              h∂J|∂Ji ∝ (τ − 1)hJ|Ji = τ − 1
+                                                                                        (A.2)
+                              h∂J|∂Ji = α2
+Where in the first line we converted the derivative in the bra into a special conformal
+generator in the ket, and then commuted it through the derivative in the ket using the
+conformal algebra. We ignored numerical factors. In the second line we used (A.1). The
+conclusion is that
+                                           τ − 1 ∝ α2                                   (A.3)
+We now act on both sides of (A.1) with the special conformal generator Kν . On the
+left we use the conformal algebra to evaluate the answer. We then get that αKµ Os−1 ∝
+(τ − 1)Jµ ∝ α2 Jµ . The conclusion is that hKµ Os−1 |Kµ Os−1 i ∝ α2 . Thus we see that,
+to leading order in α, the operator Os−1 is a conformal primary. Of course this is true
+regardless of whether Os−1 is a single trace or multitrace operator, as long as τ − 1 is very
+small.
+    Finally, note that if we know α appearing in (A.1) then we can compute the anomalous
+dimension τ − 1 of the current via the same formulas.
+    In particular, in the quasi-fermion theory we have argued around (4.23) that a2 ∼
+λ̃/Ñ . This together with the value of the j̃0 two point function (4.33) implies that for the
+spin four current we have
+                                          32 1 λ̃2
+                                  τ4 − 1 =                                              (A.4)
+                                         21π 2 Ñ 1 + λ̃2
+This formula should be applied to O(N ) theory.
+    For general group and arbitrary spin s we expect the following formula to be true
+                                    1 λ̃2           1    λ̃2
+                            τs − 1 = as       + bs                                      (A.5)
+                                   Ñ 1 + λ̃2      Ñ (1 + λ̃2 )2
+where as and bs are some fixed numbers.
+    In principle these arguments allow us to fix the overall numerical coefficient. However,
+as a shortcut, we have used the formula for the anomalous dimensions for the critical O(N )
+theory given in eqn. (2.20) of [35]. Thus, we fixed the overall coefficient in (A.4) so that
+                                                     16 s−2
+the λ̃ → ∞ limit matches [35]. This also fixes as = 3π 2 2s−1 .
+
+
+
+                                               36
+Appendix B. Structure of the pseudo-charge conservation identities
+
+    In this appendix we recall how the various coefficients that appear in the charge con-
+servation identity are fixed. Assume that we consider only twist one three point functions,
+and that the spins are all non-zero. Then we can use (4.7), perhaps including a j0eff op-
+erator when it acts on j2 . Then the action of Q on hjs1 js2 js3 i gives an expression of the
+form
+                                                       
+           X
+                rbos,1,i ∂ 3−i hjs1 +i js2 js3 ibos + cyclic + [bos → fer] + [bos → odd]   (B.1)
+        i=0,±2
+
+
+Here we have the set of coefficients rtype,a,i . Here type goes over bos, fer, odd. a labels
+the point and runs over 1,2,3. Finally i runs over ±2, 0. In total there are up to 33 = 27
+coefficients. These coefficients result from multiplying the cs,s′ in (4.7) and the α, β and
+γ in (4.12).
+    These equations split into three sets of equations, one for each type. In each set of
+equations the coefficients in front of different three point functions are all fixed up to an
+overall constant, except in the cases where the corresponding three point structure vanishes
+automatically, where, obviously, the corresponding coefficient is not fixed.
+    For the boson and fermion types this follows from the discussion in appendix J of [14].
+One simply needs to take successive light-cone limits of the three possible pairs of particles
+to argue that the coefficients are all uniquely fixed.
+    For the odd structure the situation is more subtle since some of the equations do
+not have any non-zero solutions if we restrict to structures inside the triangle rule si ≤
+si+1 + si−1 . However, there are non-zero solutions once we take into account that the
+current non-conservation allows solutions outside the triangle. We have checked this in
+some cases, and we think it is likely to be true in general, but we did not prove it. We
+know that there is at least one solution with non-zero coefficients, which is the one that
+the Chern-Simons construction would produce. Thus, in order to show that the solution is
+unique, we would need to show that there is no solution after we set one of the coefficients
+to zero. We leave this problem for the future.
+
+                                                  37
+Appendix C. Compendium of normalizations
+
+      Here we would like to present more details on the normalization convention that we
+chose for the currents. Noticed that we have set them by the choice (4.8). Here we will
+check that with (4.8) the coefficients of all the terms in (4.7) are the same for the single
+free boson and single free fermion theory. This is related to the fact that the higher spin
+algebra is the same for bosons and fermions in three dimensions (see, for example, [8]).
+      In this appendix we do computations in the free theories. Then it is convenient to
+consider the matrix elements of the currents in Fourier space. As explained in the Appendix
+J of [14] it is convenient to introduce a combination of the two momenta that appear in
+the on shell matrix elements of a current with two on shell fermions or bosons . The idea
+is roughly to change ∂ m ψ−
+                          1
+                            → (z + z̄)2m+1 , ∂ k ψ−
+                                                  2
+                                                    → (−1)k (z − z̄)2k+1 . Where the indices
+1 and 2 denote the two fermion fields that make up the current. Then currents take a form
+
+                                      js = αs z 2s − z̄ 2s
+                                                          
+                                                                                      (C.1)
+
+where we introduced normalization factor αs explicitly.
+      The charge generated by j4 that we consider in the main text is given then by
+                                                     h 3      i
+                                       6          6         3
+                              
+                        Q = αQ (z + z̄) − (z − z̄) ∝ ∂x− + ∂x−                        (C.2)
+                                                                  1   2
+
+
+
+where we again introduced the normalization factor for the charge. We have written the
+action of the charge on the two free fields that make the current. Also notice that α2 is
+fixed in a canonical way.
+      Now we can start fixing the normalizations. We start from c2,4 = 1. Using [Q, j2 ] we
+get
+                                                    α4
+                                          αQ =                                        (C.3)
+                                                   12α2
+then we consider [Q, j4 ] to fix c4,4 = 1, c4,6 = 1. It gives
+
+                                              3
+                                        α4 =    α2
+                                             10
+                                              2                                     (C.4)
+                                                3
+                                        α6 =       α2
+                                               10
+
+simple analysis further shows that
+                                                      
+                                                  3
+                                       αs =                αs−2                       (C.5)
+                                                  10
+
+                                                  38
+this follows from the formula (J.12) in [14] which can be written as
+                              ′
+                          s+s
+                           X−2                          ′
+ [Qs , js′ ] =(2s − 2)!             α̃r (s, s′ )∂ s+s −r−1 jr
+                            r=0
+              h                 i                      1                           1
+                                                                                                   
+          ′             s+s′ +r
+ α̃r (s, s ) = 1 + (−1)                                               ±                              .
+                                           Γ(r + s − s′ )Γ(s + s′ − r) Γ(r + s + s′ )Γ(s − s′ − r)
+                                                                                                 (C.6)
+Notice that in this normalization c2,2 is also fixed to one automatically. Here the ± sign
+corresponds to the boson or fermion case.
+    The case of bosons is almost identical. It is important that that the term with ± in
+(C.6) is zero for all terms α̃r (4, s′ ) with r, s′ ≥ 2. These are all the cases where we can
+compare the normalization between fermions and bosons. This implies that all constants
+cs,s and cs,s±2 that appear in (4.7), are the same in the free boson or free fermion theories.
+The case when one of the spins is zero, corresponds to the appearance of the scalar operator
+of twist one j0 which is only present in the free boson theory.
+    Moreover, using the formulas above and the results of [36] one can check that in the
+normalization we are using nfree
+                            s
+                                 boson
+                                       = nfree
+                                          s
+                                               fermion
+                                                       . More precisely, one can first relate
+the normalization used in [36] to the normalization here and then used the results of [36]
+for two point functions to get that
+
+                                  nfree
+                                   s
+                                        boson
+                                              = nfree
+                                                 s
+                                                      fermion
+                                                              = α2s Γ(1 + 2s)
+                                                 1              3                                 (C.7)
+                                          α2 =       , αs = ( )αs−2 .
+                                                16π             10
+We used this result in the main text.
+    After we fix all normalizations of currents in this way we can compute all three point
+functions in the free fermion theory hjs1 js2 js3 ifer (as well as in the theory of free boson to
+get hjs1 js2 js3 ibos ). These are the solutions that we use in the main text, for example, in
+(4.12).
+
+
+Appendix D. Exploring the scalar sector for the quasi-fermion
+
+    In this appendix we explain how the scalar sector correlation functions could be re-
+covered. We start from writing the general form of the variation of the scalar operator j̃0
+under the action of Q
+
+                          [Q, j̃0 ] =c̃0̃,0̃ c0̃,0̃ ∂ 3 j̃0 + c̃0̃,2 c0̃,2 ∂ (∂− Jy− − ∂y J−− )
+                                                                                                  (D.1)
+                           [Q, 0̃] =c̃0̃,0̃ c0̃,0̃ ∂ 3 0̃ + c̃0̃,2 c0̃,2 ∂ 2⊥ 2
+
+                                                              39
+where remember coefficients c are the ones we would get in the theory of free fermion
+with the normalization of the operators that we chose. The interesting part is a deviation
+from the free theory which we denoted by c̃ following the notations used in the main text.
+On the second line we introduce a shortened notation where we replaced js → s and in
+addition, we also introduced the symbol ∂ 2⊥ to denote the combination of derivatives and
+indices of J2 that appear in the first line.
+       To fix some of the coefficients we use the h420̃i three point function. It has two different
+structures: fermion and odd ones and we have already determined their coefficients. It is
+easy to see that it leads to the identities
+
+                                                              γ420̃ ∝ λ̃n0̃
+                                                                                                                   (D.2)
+                                                      c̃0̃,2 c0̃,2 n2 = β420̃
+
+In the first line we took the divergence of the J4 current and compared to (2.2). In the
+second line we integrated the current to get the charge acting on j̃0 . From the first line
+we get that ñ0̃ = 1+1λ̃2 where we used the fact that at λ̃ = 0 it should be equal to 1. The
+second equation then fixes
+                                                                      1
+                                                        c̃0̃,2 =           .                                       (D.3)
+                                                                   1 + λ̃2
+
+D.1. Fixing c̃0̃,0̃ and nontrivial consistency check
+
+       Here we fix c̃0̃,0̃ by considering the pseudo-conservation identities for h0̃s1 s2 i where
+both s1 and s2 are larger than 2 for simplicity. We will encounter a rather intricate
+structure for this identity.
+       We schematically write relevant terms in pseudo-conservation identities with their λ̃
+scaling
+
+               1                                  λ̃
+  c̃0̃,0̃           h∂ 3 0̃s1 s2 ifer + c̃0̃,0̃         h∂ 3 0̃s1 s2 iodd +
+            1 + λ̃2                             1 + λ̃2
+                                                                                                           !
+                                                                                      2
+       1               1                              λ̃                             λ̃
+                             h∂ 2⊥ 2s1 s2 ifer +             h∂ 2⊥ 2s1 s2 iodd +             h∂ 2⊥ 2s1 s2 ibos +
+  1 + λ̃2          1 + λ̃2                         1 + λ̃2                         1 + λ̃2
+     1                                λ̃
+          h0̃ standard termsifer +         h0̃ standard termsiodd =
+  1 + λ̃2                          1 + λ̃2
+                                                                                                    !
+        λ̃               1         1                      λ̃                     λ̃2
+                  Z
+  =           ∂x−                        h2s1 s2 ifer +         h2s1 s2 iodd +         h2s1 s2 ibos
+     1 + λ̃2 1       |x − x1 |4 1 + λ̃2                 1 + λ̃2                1 + λ̃2
+                                                                                                 (D.4)
+
+                                                                40
+Here, except for the terms involving ∂ 2⊥ 2 all components of the currents are minus, as
+are all derivatives. Now let’s start looking for a solution. All λ̃ dependence is explicit in
+this equation. Note that the equations contain terms with various λ̃ dependence. First we
+match the double poles at λ̃2 = −1. This requires the following two identities
+                                                  1
+                                          Z
+                     2⊥
+                  h∂ 2s1 s2 iodd = ∂x−                    (h2s1 s2 ifer − h2s1 s2 ibos ) ,
+                                        1     |x − x1 |4
+                                                                                                         (D.5)
+                1
+          Z
+      ∂x−              h2s1 s2 iodd = −h∂ 2⊥ 2s1 s2 ifer + h∂ 2⊥ 2s1 s2 ibos .
+        1   |x − x1 |4
+ The second line can also be used to make all terms of the fer terms work. This would
+work nicely if we set c̃0̃,0̃ = 1, which is what we wanted to argue. In fact, replacing the
+second line, we get all the parity odd pieces in the full equation work out. By parity odd
+we mean the terms that are odd under y → −y.
+     We are then left with all terms that are even under y → −y. After using the first
+equation in (D.5) we are left with the condition
+                                                                  1
+                                                                     Z
+                 3
+              h∂ 0̃s1 s2 iodd + h0̃ standard termsiodd = ∂x−             h2s1 s2 ibos   (D.6)
+                                                         1    |x − x1 |4
+     To summarize, in this subsection we fixed c̃0̃,0̃ = 1 and presented the self-consistency
+relations (D.5)(D.6) that are necessary for the whole construction to work. We checked
+one of the (D.5) in the light cone limit and it indeed works. It would be nice to check these
+identities more fully.
+
+D.2. Fixing hs0̃0̃i
+     To fix these three point functions we consider pseudo-conservation identities that we
+get from hs0̃0̃i. Notice that we already know that h20̃0̃i and h40̃0̃i functions are given by
+β222 . The first follows from the stress tensor Ward identity and the two point function.
+The second follows from the action of the charge Q on j̃0 , with c̃0̃,0̃ = 1 that we derived
+above.
+     Starting from this we can build the induction. Consider first pseudo-conservation
+identity for h40̃0̃i. We get schematically
+                         1
+                                 h∂ 5 20̃0̃ifer + h∂ 3 40̃0̃ifer +
+                                                                
+β60̃0̃ h∂60̃0̃ifer +
+                       1 + λ̃2
+                                                                                                 !
+   1         1                        λ̃
+                  h4∂ 2⊥ 20̃ifer +          h4∂ 2⊥ 20̃iodd + h4∂ 3 0̃0̃ifer + λ̃h4∂ 3 0̃0̃iodd       + x2 ↔ x3
+1 + λ̃2   1 + λ̃2                  1 + λ̃ 2
+                                                                                          !
+     λ̃                1            1                    λ̃
+               Z
+ =         ∂x−                           h420̃ifer +           h420̃iodd + [x2 ↔ x3 ] ,
+   1 + λ̃2 2       |x − x1 |4 1 + λ̃2                  1 + λ̃2
+                                                                                                         (D.7)
+
+                                                         41
+Again, matching the double poles at λ̃2 = −1 requires
+                                                 1
+                                          Z
+                         2⊥
+                      h4∂ 20̃iodd =∂x−                  h420̃ifer ,
+                                        2    |x − x1 |4
+                                                                                                              (D.8)
+                                                    1
+                                             Z
+                          2⊥
+                       h4∂ 20̃ifer = − ∂x−                 h420̃iodd .
+                                           2    |x − x1 |4
+Then replacing these identities in the equations implies that the odd piece cancels and the
+fermion piece works if
+                                                Ñ
+                                           β60̃0̃ = β222 =
+                                                      .                             (D.9)
+                                              1 + λ̃2
+Then we proceed by induction. Considering pseudo-charge conservation identities for hs0̃0̃i
+we get a similar story. Double pole matching leads to
+                                                 1
+                                          Z
+                           2⊥
+                        hs∂ 20̃iodd =∂x−                hs20̃ifer ,
+                                        2    |x − x1 |4
+                                                                                                             (D.10)
+                                                    1
+                                             Z
+                            2⊥
+                         hs∂ 20̃ifer = − ∂x−               hs20̃iodd ,
+                                           2    |x − x1 |4
+and the fermion piece fixes
+                                                                     Ñ
+                                           βs0̃0̃ = β222 =                 .                                 (D.11)
+                                                                   1 + λ̃2
+     This fixes the three point function involving two j̃0 operators.
+
+D.3. Fixing γ0̃0̃0̃
+     To fix the last three point function we consider the WI h0̃0̃0̃i. We get schematically
+the equation
+                                                 λ̃n0                                  1
+                                                                  X            Z
+         γ0̃0̃0̃ (∂13 + ∂23 + ∂33 )h0̃0̃0̃iodd =      β20̃0̃             ∂x−                  h20̃0̃ifer .   (D.12)
+                                                  Ñ              perm
+                                                                          1        |x − x1 |4
+
+     The right hand side of this equation can be computed explicitly using the star-triangle
+identity (see, for example, [37]). More precisely, each term in the right hand side of (D.12)
+can be rewritten (thanks to our sandwich geometry as we can pull out the derivatives) as
+      1                            Z                   1
+                2     2
+         ∂ − ∂x− + ∂x− − 6∂x− ∂x−
+      3/2 x1
+                                       d3 x                                + perm. (D.13)
+    x23          2     3      2   3         |x − x1 | |x − x2 |3 |x − x3 |
+                                                     2
+
+
+The integral is finite and is given by x2x23
+                                          x2
+                                             . By taking the derivatives and summing over
+                                                  12    13
+permutations which come from different contractions in (D.12) one can check that the sum
+is actually zero. Thus we are forced to set
+
+                                                       γ0̃0̃0̃ = 0.                                          (D.14)
+
+This is nicely consisted with the critical O(N ) limit.
+
+                                                             42
+Appendix E. Exploring the scalar sector for the quasi-boson
+
+     Now we would like to go through the same analysis but for the quasi-boson theory.
+     We start by writing the general form of the variation of the scalar operator j0 under
+the action of Q
+                                        [Q, j0 ] = c̃0,0 c0,0̃ ∂ 3 j0 + c̃0,2 c0,2 ∂j2             (E.1)
+
+Recall that coefficients c are the ones we would get in the theory of free boson with the
+normalization of the operators that we chose. The interesting part is a deviation from the
+free theory which we denoted by c̃ following the notations used in the main text.
+     First we consider the h420i three point function. It has two different structures: boson
+and odd ones. This leads to the identities
+
+                                                        γ420 ∝ λ̃n0
+                                                                                                   (E.2)
+                                                c̃0,2 c0,2 n2 = α420 = α222
+
+In the first line we simply have taken the divergence of J4 and used (2.3). In the second
+line we have integrated J4 around j0 . From the first line we get that ñ0 = 1+1λ̃2 where we
+used the fact that at λ̃ = 0 it should be equal to 1. The second equation then fixes
+
+                                                                       1
+                                                       c̃0,2 =               .                     (E.3)
+                                                                   1 + λ̃2
+
+E.1. Fixing c̃0,0
+
+     To fix c̃0,0 we are analogously considering the pseudo-conservation identities for h0s1 s2 i
+where both s1 and s2 are larger than 2 for simplicity.
+     We schematically write relevant terms in pseudo-conservation identities with their λ̃
+scaling
+
+             1                                    λ̃
+   c̃0,0             h∂ 3 0s1 s2 ibos + c̃0,0               h∂ 3 0s1 s2 iodd +
+           1 + λ̃2                              1 + λ̃2
+                                                                                         !
+      1             1                      λ̃                      λ̃2
+                         h∂2s1 s2 ibos +         h∂2s1 s2 iodd +         h∂2s1 s2 ifer       +
+   1 + λ̃2       1 + λ̃2                 1 + λ̃2                 1 + λ̃2
+                                                                                                   (E.4)
+       1                                               λ̃
+              h0 standard termsibos +                          h0 standard termsiodd =
+   1 + λ̃2                                        1 + λ̃2
+          λ̃                    1
+                        Z                                                                     
+                                           2⊥                 2⊥               2 2⊥
+    =                                    h∂ 2s1 s2 ibos + λ̃h∂ 2s1 s2 iodd + λ̃ h∂ 2s1 s2 ifer
+      (1 + λ̃2 )2           |x − x1 |2
+
+                                                                  43
+Again we match the double poles at λ̃2 = −1 to obtain
+
+                                             1
+                                                  Z
+                                                      h∂ 2⊥ 2s1 s2 ibos − h∂ 2⊥ 2s1 s2 ifer
+                                                                                            
+                             h∂2s1 s2 iodd =       2
+                                         |x − x1 |
+                                                                                                         (E.5)
+                                             1
+                                       Z
+      −h∂2s1 s2 ibos + h∂2s1 s2 ifer =               h∂ 2⊥ 2s1 s2 iodd
+                                         |x − x1 |2
+
+Now using these equations, we find that the all the even pieces under y → −y work properly
+only if c̃0,0 = 1. Then the odd piece reduces to the condition
+
+                                                                             1
+                                                                     Z
+                    3
+                h∂ 0s1 s2 iodd + h0 standard termsiodd =                           2
+                                                                                     h∂ 2⊥ 2s1 s2 ifer   (E.6)
+                                                                         |x − x1 |
+
+We have not checked explicitly whether (E.6) and (E.5) are true, but they should be for
+consistency.
+
+E.2. Fixing hs00i
+
+      To fix these three point functions we consider pseudo-conservation identities that we
+get from hs00i. Notice that we already know that h200i and h400i functions are given by
+α222 . This follows from the stress tensor Ward identity and from the action of Q on j0 ,
+together with the normalization of j0 .
+      Starting from this we can build the induction. Consider first pseudo-conservation
+identity for h400i. We get schematically
+
+                               1
+                                 h∂ 5 200ibos + h∂ 3 400ibos +
+                                                            
+  α600 h∂600ibos +
+                         1 + λ̃2
+                                                           !
+         1             1                   λ̃
+  +                         h4∂20ibos +          h4∂20iodd +
+      1 + λ̃2       1 + λ̃2              1 + λ̃2
+                                                                                                         (E.7)
+         1              3              λ̃         3
+  +             h4∂ 00ibos +                   h4∂ 00iodd + [x2 ↔ x3 ] =
+      1 + λ̃2                        1 + λ̃2
+                                                                                                !
+      λ̃                    1            1                      λ̃
+                Z
+  =                                           h4∂ 2⊥ 20ibos +         h4∂ 2⊥ 20iodd + [x2 ↔ x3 ] ,
+    1 + λ̃2             |x − x1 |2    1 + λ̃2                 1 + λ̃2
+
+      Again looking at the double pole at λ̃2 = −1 we get the equations
+
+                                                              1
+                                                      Z
+                                     h4∂20ibos = −                   h4∂ 2⊥ 20iodd ,
+                                                          |x − x1 |2
+                                                                                                         (E.8)
+                                                            1
+                                                 Z
+                                     h4∂20iodd =                  h4∂ 2⊥ 20ibos
+                                                       |x − x1 |2
+
+                                                          44
+This implies that α600 = α222 .
+    By induction through the identities
+
+                                               1
+                                       Z
+                       hs∂20ibos = −                  hs∂ 2⊥ 20iodd ,
+                                           |x − x1 |2
+                                                                                              (E.9)
+                                             1
+                                    Z
+                       hs∂20iodd =                2
+                                                    hs∂ 2⊥ 20ibos
+                                        |x − x1 |
+
+we get that
+                                                  αs00 = α222 .                              (E.10)
+
+    Again, we did not verify the identities (E.9) but they are necessary for consistency.
+
+E.3. Vanishing of the double trace term in the h000i identity
+
+    When we studied the pseudo-charge conservation identity for the triple scalar corre-
+lator hj0 j0 j0 i in the main text we said that the double trace term in the divergence of J 4 ,
+(2.3), vanishes. Here we prove that assertion.
+    We start from the following integral
+                                   Z
+              I(x1 , x2 , x3 ) = a2 d3 xhj0 (x)j0 (x1 )ih∂ 2⊥J2 (x)j0 (x2 )j0 (x3 )i         (E.11)
+
+where operator j0 (x)∂ 2⊥ J2 (x) comes from an insertion of the double trace term in (2.3).
+After some algebra one can re-express this as the following integral
+                                                    Z                   1
+   I(x1 , x2 , x3 ) ∼ ∂x− ∂x− − ∂x− ∂x− ∂y3 − ∂x− ∂y2     d3 x          2
+                        1   2     3    2         3             |x − x1 | |x − x2 ||x − x3 |
+                                                                                       (E.12)
+written in this way it is manifestly finite. However, we rewrite it again as follows
+                                                                                      
+                                                             1 +
+   I(x1 , x2 , x3 ) ∼ ∂x− ∂x− − ∂x− y23 ∂x− J(x1 , x2 , x3 ) − x23 ∂y3 J(x1 , x2 , x3 )   (E.13)
+                        1   2     3          3                2
+
+where
+                                                                       1
+                                              Z
+                      J(x1 , x2 , x3 ) =          d3 x                                       (E.14)
+                                                         |x − x1 |2 |x − x2 |3 |x − x3 |
+is the conformally invariant integral. It is divergent, however, the difference in (E.13) is,
+of course, finite. We can take this integral using the well-known star-triangle identity. We
+regularize the integral as
+                                                                         1
+                                          Z
+                   Jδ (x1 , x2 , x3 ) =       d3+δ x                                         (E.15)
+                                                         |x − x1 |2+δ |x − x2 |3 |x − x3 |
+
+                                                         45
+using the star-triangle formula, expanding in δ and plugging into (E.12) we see that the
+divergent piece cancels and the finite piece is given by
+                           1                      x+ y + x+ y + x+ y
+                                                       1 23      2 31      3 12
+      I(x1 , x2 , x3 ) ∼        ∂x− ∂x− − ∂x− ∂x−            2          2
+                                                                                    . (E.16)
+                         |x23 |   1   2     1   3  |x1 − x2 | |x1 − x3 | |x2 − x3 |
+The total contribution to the pseudo-charge conservation identity is given by the sum of
+three terms which is zero
+                       I(x1 , x2 , x3 ) + I(x2 , x3 , x1 ) + I(x3 , x1 , x2 ) = 0.      (E.17)
+Thus, double trace non-conservation does not contribute to the h000i pseudo-charge con-
+servation identity.
+
+
+Appendix F. Impossibility to add any further double trace deformations
+      Our whole analysis was based on studying the possible terms that appear in the
+divergence of the spin four current J4 . We could wonder whether we can add further
+double terms to the divergence of higher spin currents which are not fixed by the analysis
+we have already done. In other words, these would be terms that appear for higher spin
+currents but not for the spin four current. This would only be possible via the odd terms,
+which are the only ones that could have a non-conserved current. We suspect that all odd
+terms are fixed by the J4 pseudo-conservation identities, but we did not prove it. Therefore
+we will do a separate analysis to argue that we cannot continuously deform the divergence
+of the higher spin currents once we have fixed the J4 one.
+      Let us imagine that it is possible to introduce an additional parameter for the breaking
+of some higher spin current. We will focus first on possible double trace terms. Consider
+the lowest spin s at which the new term enters16
+                                      ∇.Js = qJs1 Js2 + rest                             (F.1)
+By assumption s > 4. The rest denotes terms that are required by J4 non-conservation.
+This extra term contributes to the hJs Js1 Js2 iodd three point function. Consider then
+pseudo-conservation identity for the J4 current on hjs−2 js1 js2 i. For s1 , s2 < s − 2 we get
+                          0 = qhjs js1 js2 iodd + rest = qhjs js1 js2 iodd               (F.2)
+where by “rest” we denote the terms that were present when q = 0. These sum up to zero
+by construction so we have to conclude that q = 0.
+      The argument slightly changes when one of the spins is equal to s − 2. Below we
+discuss this case separately for the quasi-boson and quasi-fermion.
+ 16
+    This expression is schematic. We require and ǫ tensor in the right hand side if the two
+operators Js1 and Js2 have twist one.
+
+                                                   46
+F.1. Case of quasi-fermion
+
+      In this case if, say, s1 = s − 2 we have two possibilities for s2 : 2 or 0̃. So we write
+schematically
+                                      ∇.Js = q(ǫJs−2 J2 + ∂Js−2 J˜0 ) + rest                         (F.3)
+
+where ǫ is the three dimension Levi-Civita tensor.                           This modifies the correlators
+hJs Js−2 J2 iodd and hJs Js−2 j̃0 iodd . Consider now pseudo-conservation of the J4 current
+for hjs−2 js−2 j2 i we get
+
+                                   q (∂1 hjs js−2 j2 iodd + ∂2 hjs−2 js j2 iodd ) = 0.               (F.4)
+
+To check this identity it is convenient to introduce in the formula above the dependence
+on the insertion of j2 (x) and consider the integral
+
+                                     1
+                      Z
+             ∂x−          d3 x              (∂1 hs s − 2 2(x)iodd + ∂2 hs − 2 s 2(x)iodd ) = 0       (F.5)
+                  3              |x − x3 |4
+
+      Using formula (D.5) we get that it is equivalent to the identity
+
+                                   ∂1 hs s − 2 ∂ 2⊥ 2ifer + ∂2 hs − 2 s ∂ 2⊥ 2ifer
+                                                                                                     (F.6)
+                             −∂1 hs s − 2 ∂ 2⊥ 2ibos − ∂2 hs − 2 s ∂ 2⊥ 2ibos = 0
+
+We now take a light cone limit hs1 s2 ∂ 2⊥ 2i.                     More specifically we take the limits
+limy→0 y|y| limx+ →0 and limy→0 y 2 limx+ →0 , which pick out the boson and fermion pieces
+respectively. Then one can check that (F.6) does not have a solution.
+      The next case to consider is hs − 2 s − 2 0̃i. In this case we have
+                                                                           
+                                  q ∂1 hs s − 2 0̃iodd + ∂2 hs − 2 s 0̃iodd = 0.                     (F.7)
+
+Again we introduce the explicit dependence on the insertion point 0̃(x) and integrate to
+get
+                                 1
+                  Z
+                      d3 x
+                                                                                          
+              q                         ∂ 1 hs s − 2 0̃(x)i odd + ∂ 2 hs − 2 s 0̃(x)i odd   =0       (F.8)
+                             |x − x3 |2
+Using (4.10) this becomes
+
+                                   q [∂1 hs s − 2 0ibos + ∂2 hs − 2 s 0ibos ] = 0.                   (F.9)
+
+This identity does not hold and we conclude that q = 0.
+
+                                                           47
+F.2. Case of quasi-boson
+
+    In this case if, say, s1 = s − 2 we have two possibilities for s2 : 2 or 0. So we write
+schematically
+                                 ∇.Js = q(ǫJs−2 J2 + ǫ∂ 2 Js−2 J0 ) + rest                 (F.10)
+
+We modify the correlators hJs Js−2 J2 iodd and hJs Js−2 j0 iodd . Consider now the J4 pseudo-
+conservation identity for hjs−2 js−2 j2 i. The argument is then identical to the fermion
+one. We conclude that the first term in (F.10) is not possible. Then we consider the J4
+pseudo-conservation on hjs−2 js−2 j0 i. In this case we have
+
+
+                               q (∂1 hjs js−2 j0 iodd + ∂2 hjs−2 js j0 iodd ) = 0.         (F.11)
+
+
+we introduce the explicit dependence on the insertion point 0(x) and integrate to get
+
+                               1
+                Z
+                    d3 x              (∂1 hs s − 2 0(x)iodd + ∂2 hs − 2 s 0(x)iodd ) = 0   (F.12)
+                           |x − x3 |4
+
+Using (4.27) we find
+                                 ∂1 hs s − 2 0̃ifer + ∂2 hs − 2 s 0̃ifer = 0.              (F.13)
+
+This identity does not hold and we conclude that q = 0.
+
+
+F.3. Triple trace deformation
+
+    Here we would like to analyze the new triple trace deformations.
+
+
+                                        ∇.Js = qJs1 Js2 Js3 + rest.                        (F.14)
+
+
+First notice that this deformation does not affect any of three point functions. Thus, it
+does not affect any of the identities that we got using J4 . Thus, if our assumption that the
+identities for the three point functions fix the odd pieces completely is correct then any of
+these terms will not affect any of our conclusions.
+    Applying arguments similar to the above ones for pseudo-conservation of J4 on
+hjs−2 js1 js2 js3 i we expect to find that we cannot add the q deformation. However, we
+did not perform a complete analysis.
+
+                                                       48
+Appendix G. Motivational introduction
+
+      In this appendix we give a longer motivational introduction for the study of the con-
+straints imposed by the higher spin symmetry.
+      As it is well known, the structure of theories with massless particles with spin is highly
+constrained. For example, massless particles of spin one lead to the Yang Mills theory,
+at leading order in derivatives. Similarly massless particles of spin two lead to general
+relativity. We also need the assumption that the leading order interaction at low energies
+is such that the particles are charged under the gauge symmetries or that gravitons couple
+to energy in the usual way.
+      Now for massive spin one particles, what can we say? If we assume that we have
+a weakly interacting theory for energies much bigger than the mass of the particle, and
+we assume a local bulk lagrangian without other higher spin particles, then we find that
+the theory should contain at least a Yang-Mills field plus a Higgs particle. We can then
+view the theory as having a spontaneously broken gauge symmetry. Notice that we are
+assuming that the theory is weakly coupled.
+      Now consider a theory that has massless particles with higher spin, s > 2. If we
+are in flat space and the S-matrix can be defined, then we expect that the Coleman-
+Mandula theorem should forbid any interaction [38,39]17 . Here we are assuming that the
+couplings of the higher spin fields are such that particles are charged under the higher spin
+transformations. This is the case if we have a graviton in the theory, the same vertex that
+makes sure that the graviton couples to the energy of the higher spin particle also implies
+that the particles transforms under a higher spin charge.
+      Now we can consider theories that contain massive particles with spin s > 2. We
+assume that we have a weakly coupled theory at all energies, even at very high energies.
+In other words, we assume a suitable decay of the amplitudes at high energy (such as the
+one we have in string theory). Then it is likely that the theory in question is a full string
+theory. In other words, we can propose the following conjecture:
+
+ 17
+      The Coleman-Mandula theorem assumes that we have a finite number of states below a
+certain mass shell. For the purpose of this discussion we assume that it still applies...
+
+                                                 49
+      A Lorentz invariant theory in three or more dimensions, which is weakly coupled 18 ,
+contains a massive particle with spin s > 2, and has amplitudes with suitably bounded
+behavior at high energies, should be a string theory.19
+      Of course, there are many string compactifications, so we do not expect this to fix the
+theory uniquely. This is precisely the problem that the old dual models literature tried to
+solve, and string theory was found as a particular solution. The above conjecture is just
+that it is the only solution. As an analogy, in gauge theories with a spontaneously broken
+symmetry we can have many realizations of the Higgs mechanism. However, the paradigm
+of spontaneously broken gauge symmetry constrains the theories in an important way. In
+string theories, or theories with higher spin massive particles, we also expect that their
+structure is constrained by the spontaneous breaking of the higher spin symmetry. For
+example, we expect that once we have a higher spin particle, we have infinitely many of
+them. It is notoriously difficult to study infinite dimensional symmetries. It is even more
+difficult if there is no unbroken phase that is easy to study. These ideas were discussed in
+[40,41] (see [42] for a recent discussion containing many further references).
+      Here is where the AdS case appears a bit simpler. In AdS space, as opposed to flat
+space, it is possible to have a theory which is interacting (in AdS) but that nevertheless
+realizes the unbroken higher spin symmetry [1,2,3]. The fact that these theories exist
+can be understood from AdS/CFT, they are duals to free theories [4,5,6,7,8,9]. In any
+example of AdS/CFT that has a coupling constant on the boundary we can take the zero
+coupling limit. In this limit, the boundary theory has single trace operators sitting at the
+twist bound. These are all states that are given by bilinears in the fields. Furthermore,
+this forms a closed subsector under the OPE [43]. Thus we can always find a Vasiliev-
+type theory as a consistent truncation of the zero coupling limit of the full theory. The
+Vasiliev-type theories contain only the higher spin fields (perhaps plus a scalar). They are
+analogous to the Yang Mills theory without an elementary Higgs particle. For example,
+
+ 18
+      The weak coupling assumption is important. In fact, the reader might think of the following
+apparent counter example. Consider the scattering of higher spin excited states of hydrogen
+atoms. These are higher spin states, but they are not strings! However, these states are not
+weakly coupled to each other in the particle physics sense.
+ 19
+      One probably needs to assume some interactions between the massive spin particles which
+makes sure that the particles are “charged” under the higher spin symmetry. This would be
+automatically true if we also include an m = 0, s = 2 graviton. This should also apply to theories
+like large N QCD, which have a conserved stress tensor leading to massless graviton in the bulk.
+
+                                               50
+if we take the zero λ limit of the N = 4 super Yang-Mills theory, we get a certain theory
+with higher spin symmetry. Besides the higher spin currents, this theory contains lots of
+other states that are given by single trace operators which contain more than two field
+insertions, say four, six, fields in the trace. Here the Vasiliev-like theory is the restriction
+to the bilinears.
+    In AdS4 we can realize the dream of constraining the theory from its symmetries.
+If the higher spin symmetry is unbroken, we can determine all the correlation functions
+on the AdS boundary. This can be done not only at tree level, but for all values of the
+bulk coupling constant (1/N ). This is one way of reading the results of [14]. Here we are
+assuming that the AdS theory is such that we can define boundary correlators obeying the
+usual axioms of a CFT. In other words, we are assuming the AdS/CFT correspondence.
+    In Vasiliev-type theories the higher spin symmetry can be broken only by two (or
+three) particle states, which is what we study in this article.
+    Finally, one would like to study theories that, besides the higher spin fields, also
+contain enough extra fields that can Higgs the higher spin symmetry at the classical level.
+In such theories the mass of the higher spin particles would be nonzero and finite even
+for very small bulk coupling. First one needs to understand what kind of “matter” can
+be added to the Vasiliev theory and still preserve the higher spin symmetry. Since the
+higher spin symmetry is highly constraining, it is likely that the only “matter” that we
+can add is what results from large N gauge theories. As far as we know, this is an
+unproven speculation, and it is closely related to the conjecture above. Note that such
+gauge theories have a Hagedorn density of states, so that the bulk theories would look
+more like ordinary string theories. Once, this problem is understood, one could consider a
+case where the Higgs mechanism can be introduced with a small parameter (as in N = 4
+SYM, for example). Here we will have single trace terms in the divergence of the higher
+spin currents. This breaking mechanism will be constrained by the higher spin symmetry.
+Understanding how it is constrained when the coupling is small will probably give us clues
+for how the mechanism works for larger values of the coupling. In addition, it could give
+us a way to do perturbation theory for correlators in gauge theories in a completely on
+shell fashion.
+    Whether this idea is feasible or not, it remains to be seen...
+
+
+
+
+                                              51
+                                        References
+
+ [1] M. A. Vasiliev, In *Shifman, M.A. (ed.): The many faces of the superworld* 533-610.
+     [hep-th/9910096].
+ [2] M. A. Vasiliev, Phys. Lett. B 567, 139 (2003). [hep-th/0304049].
+ [3] M. A. Vasiliev, [arXiv:1203.5554 [hep-th]].
+ [4] B. Sundborg, Nucl. Phys. Proc. Suppl. 102, 113 (2001). [hep-th/0103247].
+ [5] E. Witten, Talk at the John Schwarz 60-th Birthday Symposium,                         //
+     http://theory.caltech.edu/jhs60/witten/1.html.
+ [6] E. Sezgin and P. Sundell, Nucl. Phys. B 644, 303 (2002), [Erratum-ibid. B 660, 403
+     (2003)]. [hep-th/0205131]
+ [7] I. R. Klebanov, A. M. Polyakov, Phys. Lett. B550, 213-219 (2002). [hep-th/0210114].
+ [8] E. Sezgin and P. Sundell, JHEP 0507, 044 (2005). [hep-th/0305040].
+ [9] S. Giombi and X. Yin, JHEP 1009, 115 (2010). [arXiv:0912.3462 [hep-th]].
+[10] S. Giombi and X. Yin, JHEP 1104, 086 (2011). [arXiv:1004.3736 [hep-th]].
+[11] S. Giombi and X. Yin, [arXiv:1105.4011 [hep-th]].
+[12] S. Giombi, S. Minwalla, S. Prakash, S. P. Trivedi, S. R. Wadia, X. Yin, [arXiv:1110.4386
+     [hep-th]].
+[13] O. Aharony, G. Gur-Ari, R. Yacoby, [arXiv:1110.4382 [hep-th]].
+[14] J. Maldacena and A. Zhiboedov, [arXiv:1112.1016 [hep-th]].
+[15] L. Girardello, M. Porrati and A. Zaffaroni, Phys. Lett. B 561, 289 (2003). [hep-
+     th/0212181].
+[16] W. Heidenreich, J. Math. Phys. 22, 1566 (1981).
+[17] S. Giombi, S. Prakash, X. Yin, [arXiv:1104.4317 [hep-th]].
+[18] M. S. Costa, J. Penedones, D. Poland, S. Rychkov, [arXiv:1107.3554 [hep-th]].
+[19] J. M. Maldacena, G. L. Pimentel, JHEP 1109, 045 (2011). [arXiv:1104.2846 [hep-th]].
+[20] T. Hertog and K. Maeda, JHEP 0407, 051 (2004). [hep-th/0404261].
+[21] S. Sachdev, Phys. Lett. B 309, 285 (1993). [hep-th/9305131].
+[22] D. J. Gross and A. Neveu, Phys. Rev. D 10, 3235 (1974)..
+[23] B. Rosenstein, B. J. Warr and S. H. Park, Phys. Rev. Lett. 62, 1433 (1989).
+[24] D. Anselmi, Nucl. Phys. B 541, 369 (1999). [hep-th/9809192].
+[25] J. Henn, C. Jarczak and E. Sokatchev, Nucl. Phys. B 730, 191 (2005). [hep-
+     th/0507241].
+[26] M. Bianchi, J. F. Morales and H. Samtleben, JHEP 0307, 062 (2003). [hep-
+     th/0305052].
+[27] D. Anninos, T. Hartman and A. Strominger, [arXiv:1108.5735 [hep-th]].
+[28] G. S. Ng and A. Strominger, [arXiv:1204.1057 [hep-th]].
+[29] M. R. Gaberdiel and R. Gopakumar, Phys. Rev. D 83, 066007 (2011). [arXiv:1011.2986
+     [hep-th]].
+
+                                             52
+[30] M. R. Gaberdiel and T. Hartman, JHEP 1105, 031 (2011). [arXiv:1101.2910 [hep-th]].
+[31] M. R. Gaberdiel, R. Gopakumar, T. Hartman and S. Raju, JHEP 1108, 077 (2011).
+     [arXiv:1106.1897 [hep-th]].
+[32] C. -M. Chang and X. Yin, [arXiv:1106.2580 [hep-th]].
+[33] K. Papadodimas and S. Raju, Nucl. Phys. B 856, 607 (2012). [arXiv:1108.3077 [hep-
+     th]].
+[34] C. -M. Chang and X. Yin, [arXiv:1112.5459 [hep-th]].
+[35] W. Ruhl, [hep-th/0607197].
+[36] D. Anselmi, Class. Quant. Grav. 17, 1383 (2000). [hep-th/9906167].
+[37] D. I. Kazakov, Phys. Lett. B 133, 406 (1983).
+[38] S. R. Coleman, J. Mandula, Phys. Rev. 159, 1251-1256 (1967).
+[39] R. Haag, J. T. Lopuszanski, M. Sohnius, Nucl. Phys. B88, 257 (1975).
+[40] D. J. Gross, Phys. Rev. Lett. 60, 1229 (1988)..
+[41] G. W. Moore, In *Boston 1993, Proceedings, Supersymmetry and unification of fun-
+     damental interactions, SUSY 93* 540-550. [hep-th/9308052].
+[42] A. Sagnotti, [arXiv:1112.4285 [hep-th]].
+[43] A. Mikhailov, [hep-th/0201019].
+
+
+
+
+                                          53
+

@@ -1,0 +1,75 @@
+VISUAL TRANSCRIPTIONS — r10 (Grace, 2026-09-26, rendered with pdftoppm -r 130; read by eye)
+Each entry: PNG path | PDF page (physical) | printed page | transcription (LaTeX-ish, verbatim as rendered).
+
+V1  png/1410.7668_p8-08.png | 1410.7668.pdf p8 | printed 8 | Basile–Bekaert–Boulanger Sec 3.3
+    "we call Di (resp. Rac) ℓ-lineton the irreducible so(2,d) module given by ℓ semi-infinite lines in compact
+     weight space based on the lowest-energy states |(d+1)/2 − ℓ, 1/2⟩ (resp. the state |d/2 − ℓ, 0⟩).
+     Indeed, for ℓ = 1 and d = 3 they correspond to the Di (resp. Rac) singleton of Dirac [1]."
+    (3.10)  D(d/2 − ℓ, 0) ≅ V(d/2 − ℓ, 0) / D(d/2 + ℓ, 0)
+    (3.11)  D((d+1)/2 − ℓ, 1/2) ≅ V((d+1)/2 − ℓ, 1/2) / D((d−1)/2 + ℓ, 1/2)
+    (3.12)  χ^{(d,2)}_{[d/2−ℓ, 0]}(q,x) = q^{d/2} (q^{−ℓ} − q^{ℓ}) P^{(d)}(q,x)
+
+V2  png/1410.7668_p11-11.png | 1410.7668.pdf p11 | printed 11 | BBB Sec 4, unnumbered "Theorem."
+    "Unitarity. The modules D(s+d−t−1, s), D(s+d−t−1, s, 1/2) and D(s+d−t, s, 1^m) are unitary only in the
+     case t = 1, as are the scalar and spinor ℓ-linetons D(d/2 − ℓ, 0) and D((d+1)/2 − ℓ, 1/2) only in the case ℓ = 1."
+    "Theorem. The tensor product of two ℓ-linetons, scalar and spinor, decomposes as:
+    (4.24)  D(d/2 − ℓ, 0) ⊗ D(d/2 − ℓ, 0) ≅ ⊕_{k=1}^{ℓ} ⊕_{s=0}^{∞} D(s + d − 2k, s, 0),
+    (4.25)  D((d+1)/2 − ℓ, 1/2) ⊗ D(d/2 − ℓ, 0) ≅ ⊕_{t=1}^{2ℓ−1} ⊕_{s=1/2,3/2,...} D(s + d − t − 1, s, 1/2).
+     In the cases d = 2r+1, we have
+    (4.26)  D((d+1)/2 − ℓ, 1/2) ⊗ D((d+1)/2 − ℓ, 1/2)
+              ≅ ⊕_{t=2−2ℓ}^{2ℓ−2} D(d − 1 − t, 0) ⊕ ⊕_{s=1}^{∞} ⊕_{m=0}^{r−1} D(s + d − 2ℓ, s, 1^m)
+                ⊕ ⊕_{t=1}^{2ℓ−2} ⊕_{s=1}^{∞} ⊕_{m=0}^{r−1} 2D(s + d − t − 1, s, 1^m),"
+    [(4.27), d = 2r case, not needed for d = 5; see PNG.]
+
+V3  png/hep-th_0404124_p39-39.png | hep-th_0404124.pdf p39 | printed –38– | Vasiliev Sec 6
+    (6.36)  E_n^+ = n + (1/2)M − 1,  n = 0,1,2,...
+    (6.38)  E_0^+ = (1/2)M − 1.
+    "This is the correct value for the conformal scalar in M dimensions^8."
+    (6.39)  C_2 = −(1/4)(M^2 − 4).
+    (6.41)  E|Ψ^+(ψ(ā))⟩ = |Ψ^+((ā_a ∂/∂ā_a + (1/2)M − 1) ψ(ā))⟩.
+
+V4  png/hep-th_0404124_p43-43.png | hep-th_0404124.pdf p43 | printed –42– | Vasiliev Sec 8 "Generalized Flato-Fronsdal theorem"
+    (8.7)  E_0 = s + M − 2,
+    (8.8)  |Rac⟩ ⊗ |Rac⟩ = Σ_{s=0}^{∞} ⊕ H(s + M − 2, s, 0, 0 ...).
+
+V5  png/hep-th_0508031_p14-14.png | hep-th_0508031.pdf p14 | printed 13 | Dolan
+    "For the free scalar case, for which Λ = (−r + 1/2, 0, ..., 0) is the highest SO(2r+3) weight, ..."
+    (3.33)  D^{(2r+1)}_{[r−1/2; 0]}(s,x) = s^{r−1/2} (1 − s^2) P^{(2r+1)}(s,x).
+
+V6  png/hep-th_0508031_p17-17.png | hep-th_0508031.pdf p17 | printed 16 | Dolan footnote 4
+    "In the nomenclature of [6], the representations D^{(3)}_{[1;1/2]} and D^{(3)}_{[1/2;0]} correspond to the
+     'Di' and 'Rac' singleton representations, respectively."   ([6] = Flato & Fronsdal)
+
+V7  png/hep-th_0508031_p24-24.png | hep-th_0508031.pdf p24 | printed 23 | Dolan Sec 4, odd d = 2r+1
+    (4.33)  D^{(2r+1)}_{[r;1/2]} D^{(2r+1)}_{[r;1/2]} = A_{[2r;0,...,0]}
+              + Σ_{q=0}^{∞} ( D^{(2r+1)}_{[2r+q; q+1,1,...,1]} + D^{(2r+1)}_{[2r+q; q+1,1,...,1,0]} + ... + D^{(2r+1)}_{[2r+q; q+1,0,...,0]} )
+    (4.34)  D^{(2r+1)}_{[r;1/2]} D^{(2r+1)}_{[r−1/2;0]} = Σ_{q=0}^{∞} D^{(2r+1)}_{[2r+q−1/2; q+1/2, 1/2, ..., 1/2]}
+    (4.35)  D^{(2r+1)}_{[r−1/2;0]} D^{(2r+1)}_{[r−1/2;0]} = Σ_{q=0}^{∞} D^{(2r+1)}_{[2r+q−1; q,0,...,0]}
+    "which generalise similar formulae obtained in [6] to odd dimensions."
+
+V8  png/1204.3882_p37-37.png | 1204.3882.pdf p37 | printed 36 | Maldacena–Zhiboedov (slightly broken), App. A
+    (A.4)  τ_4 − 1 = (32 / (21 π^2)) (1/Ñ) λ̃^2 / (1 + λ̃^2)
+    "This formula should be applied to O(N) theory. For general group and arbitrary spin s we expect the following formula to be true
+    (A.5)  τ_s − 1 = a_s (1/Ñ) λ̃^2/(1 + λ̃^2) + b_s (1/Ñ) λ̃^2/(1 + λ̃^2)^2
+     where a_s and b_s are some fixed numbers. ... This also fixes a_s = (16/(3π^2)) (s − 2)/(2s − 1)."
+
+V9  png/1601.01310_p20-20.png | 1601.01310.pdf p20 | printed 19 | Giombi–Kirilin
+    (4.13)  γ_{s(ij)} = γ_{s[ij]} = 2γ_φ (s − 1)(d + s − 2) / [ (d/2 + s − 2)(d/2 + s − 1) ]
+    (4.16)  γ_s = 2γ_φ · 1/[ (d/2 + s − 2)(d/2 + s − 1) ] · [ (s − 1)(d + s − 2) − Γ(d+1)Γ(s+1) / (2(d−1)Γ(d+s−3)) ]
+
+V10 png/1601.01310_p21-21.png | 1601.01310.pdf p21 | printed 20 | Giombi–Kirilin
+    (4.17)  γ_s = 2γ_φ − 2γ_φ (Γ(d+1)/(2(d−1))) (1/s^{d−2}) − 2γ_φ (d(d−2)/4) (1/s^2) + ...,
+            γ_{s(ij)} = 2γ_φ − 2γ_φ (d(d−2)/4)(1/s^2) + ...
+    "We see a tower of higher spin currents (1/s^{d−2}) in the singlet channel, as well as the σ (1/s^2) in both
+     the singlet and the traceless parts."
+
+V11 png/1601.01310_p29-29.png | 1601.01310.pdf p29 | printed 28 | Giombi–Kirilin, NLSM d = 2+ε
+    (6.17)  γ_s = (g_*^4/(4π^2)) (N − 2) (1/s − 1/2 + H_{s−2}) = (ε^2/(N − 2)) (1/s − 1/2 + H_{s−2})
+    (6.18)  γ_s = (ε^2/(N − 2)) ( log(s) + γ − 1/2 − 1/(2s) + O(1/s^2) ).
+    (6.19)  γ_s = ε/N − (ε/N) (Γ(3+ε)/(2(1+ε))) (1/s^ε) + ... = (ε^2/N) log(s) + ...
+
+V12 png/1510.02535_p1-01.png | 1510.02535.pdf p1 | printed – | Alba–Diab abstract (quoted AS ABSTRACT only)
+    "... c) a theory of n (d−2)/2-forms. For d even, all three structures exist, but for d odd, it may be the case
+     that the third structure (c) does not; ..."
+
+V13 png/1112.1016_p3-03.png | 1112.1016.pdf p3 | printed 2 | MZ assumptions list — text layer clean; PNG kept as record.
