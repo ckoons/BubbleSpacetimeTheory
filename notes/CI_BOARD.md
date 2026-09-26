@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 14:58 EDT (Keeper) — **ROUND 8 ADDENDUM 1: CORRECTION to Elie's control.** SL(2,ℝ): H_a ⊗ H_b = ⊕_{k≥0} H_{a+b+k} (every k). The prompt's "a+b+2k" is the symmetric square only (Sym² even k, Λ² odd k), checked by weight counting. **Lead:** for identical H² copies, does the odd clock force Sym² or Λ², i.e. statistics? (Lyra item 1, Cal.)
+
 ## ██ 2026-09-26 (Saturday), 14:56 EDT (Keeper) — **ROUND 7 CLOSED (K1930 Part 1); K1929 AMENDED (Cal Section 993 + Lyra R7); ROUND 8 ISSUED: `notes/Keeper_prompts_team_round8_processes_three_point_and_the_4D_observer_2026-09-26.md`.**
 - **Round-7 rulings:**
   - Fock picture holds as a position once restated: discreteness is the elliptic GENERATOR's, in any chart, and the compact realization is where its flow closes; no redshift, no periodic time, no energies.

@@ -50,7 +50,7 @@
 
 ## ELIE (hash first, controls first)
 1. **Tensor-product toy:** the K-type count of H_{5/2} ⊗ H_{5/2} for SO(5,2), decomposed into highest-weight modules by triangular peeling.
-   - **Control:** the SL(2,ℝ) case (H_a ⊗ H_b = ⊕_k H_{a+b+2k}, Repka's model) must come out exactly.
+   - **Control:** the SL(2,ℝ) case must come out exactly: **H_a ⊗ H_b = ⊕_{k≥0} H_{a+b+k} (every k)**, and for identical copies **Sym² = ⊕ H_{2a+2k} (even k), Λ² = ⊕ H_{2a+2k+1} (odd k)**. *(Corrected by Keeper at 14:58: the prompt first said a+b+2k, which is only the symmetric square. Checked by weight counting.)*
    - **Negative control:** a wrong multiplicity is detected.
    - Report the lowest weights: are they all integer (5 + ℤ)? That is the grading.
 2. **Exchange-shape toy:** the static potential from a Δ field in 4D.
@@ -78,3 +78,8 @@
 
 ## KEEPER
 Fold results; certify register words; run the checker after the packaging edits; EOD on Casey's word.
+
+---
+## ADDENDUM 1 (14:58 EDT) — Keeper's correction and a lead
+- **Correction:** Elie's SL(2,ℝ) control is **H_a ⊗ H_b = ⊕_{k≥0} H_{a+b+k}** (weight a+b+n has multiplicity n+1). The "a+b+2k" in the first issue is the SYMMETRIC square only. Checked by weight counting before any toy ran.
+- **Lead (Lyra item 1, Cal):** for two IDENTICAL H² copies, the symmetric part carries even k and the antisymmetric part odd k. Does the fusion rule for identical copies of H² (λ = 5/2, the odd clock) force which of Sym²/Λ² is physical, i.e. **statistics from the clock coset**? Reconnect Pauli-from-records (Lyra R5 item 4, IDENTIFIED) and the parity law on the multi-singleton space. Kill line first: if both parts are equally admissible on H², the clock does not decide statistics, and say so.
